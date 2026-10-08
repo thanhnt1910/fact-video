@@ -2,6 +2,7 @@ output/
 .venv-tts/
 __pycache__/
 *.log
+!logs/last-run.log
 ci_outputs.txt
 ci_failed.txt
 giong-mau/nghe-thu/

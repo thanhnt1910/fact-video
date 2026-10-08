@@ -77,6 +77,7 @@ def main():
     if failed:
         print(f"Lỗi: {', '.join(failed)}")
         (ROOT / "ci_failed.txt").write_text("\n".join(failed), encoding="utf-8")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

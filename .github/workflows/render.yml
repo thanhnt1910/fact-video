@@ -69,13 +69,12 @@ jobs:
         env:
           HF_HUB_DISABLE_PROGRESS_BARS: "1"
         run: |
-          if [ "${{ inputs.all }}" = "true" ]; then
-            python ci_render.py --all
-          elif [ -n "${{ inputs.only }}" ]; then
-            python ci_render.py --only "${{ inputs.only }}"
-          else
-            python ci_render.py
-          fi
+          set -o pipefail
+          mkdir -p logs
+          if [ "${{ inputs.all }}" = "true" ]; then ARGS="--all"
+          elif [ -n "${{ inputs.only }}" ]; then ARGS="--only ${{ inputs.only }}"
+          else ARGS=""; fi
+          python ci_render.py $ARGS 2>&1 | tee logs/last-run.log
 
       - name: Gửi video về Telegram
         if: always()
@@ -123,8 +122,11 @@ jobs:
       - name: Ghi nhận video đã dựng
         if: always()
         run: |
-          [ -f rendered.json ] || exit 0
-          git add rendered.json
+          if [ -f logs/last-run.log ]; then
+            tail -n 400 logs/last-run.log > logs/tmp && mv logs/tmp logs/last-run.log
+            git add logs/last-run.log
+          fi
+          [ -f rendered.json ] && git add rendered.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"

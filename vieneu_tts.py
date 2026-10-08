@@ -24,10 +24,32 @@ ROOT = Path(__file__).resolve().parent
 SAMPLE = "Bạch tuộc có… ba trái tim! Nghe thật khó tin, đúng không? Nhưng đó là sự thật. Hóa ra là vậy!"
 
 
+def _dereference_hf_cache():
+    """Linux: huggingface lưu mô hình bằng symlink, onnxruntime mới từ chối đọc dữ liệu ngoài
+    qua symlink ('External data path escapes model directory'). Chép file thật thay cho symlink."""
+    import shutil
+    base = Path(os.environ.get("HF_HOME", Path.home() / ".cache" / "huggingface")) / "hub"
+    n = 0
+    for p in base.rglob("*"):
+        if p.is_symlink() and "snapshots" in p.parts:
+            target = p.resolve()
+            if target.is_file():
+                p.unlink()
+                shutil.copy2(target, p)
+                n += 1
+    print(f"[vieneu] đã chép {n} file mô hình thay cho symlink", flush=True)
+
+
 def load(mode=None):
     from vieneu import Vieneu
     t = time.time()
-    tts = Vieneu(mode=mode) if mode else Vieneu()
+    try:
+        tts = Vieneu(mode=mode) if mode else Vieneu()
+    except Exception as e:
+        if "escapes model directory" not in str(e):
+            raise
+        _dereference_hf_cache()
+        tts = Vieneu(mode=mode) if mode else Vieneu()
     print(f"[vieneu] đã nạp mô hình sau {time.time() - t:.0f}s", flush=True)
     return tts
 

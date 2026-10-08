@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root {
+    --bg1: #0f3d2e; --bg2: #1f7a55; --accent: #7CFFB2; --ink: #ffffff;
+    --card: rgba(255,255,255,0.12); --card-border: rgba(255,255,255,0.22);
+    --emoji: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+  body { font-family: 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif; color: var(--ink); }
+  .hook-text, .heading, .statement, .statement-sub, .sub, .num-cap, .compare-title, .recap, .next, .hook-sub { text-wrap: balance; }
+
+  #root { position: relative; width: 1080px; height: 1920px; overflow: hidden;
+          background: linear-gradient(160deg, var(--bg1) 0%, var(--bg2) 100%); }
+  .blob { position: absolute; border-radius: 50%; background: rgba(255,255,255,0.07); }
+  #grain { position: absolute; inset: 0;
+           background: radial-gradient(ellipse at 50% 35%, rgba(255,255,255,0.10), transparent 60%),
+                       radial-gradient(ellipse at 50% 110%, rgba(0,0,0,0.45), transparent 55%); }
+
+  #progress { position: absolute; top: 0; left: 0; height: 12px; background: var(--accent); }
+
+  #topbar { position: absolute; top: 90px; left: 64px; right: 64px; height: 96px;
+            display: flex; align-items: center; justify-content: space-between; }
+  .chip { display: inline-flex; align-items: center; gap: 16px; padding: 14px 30px 14px 22px;
+          border-radius: 999px; background: rgba(0,0,0,0.28); border: 2px solid var(--card-border);
+          font-weight: 800; font-size: 38px; letter-spacing: 2px; text-transform: uppercase; }
+  .chip .ic { font-family: var(--emoji); font-size: 44px; letter-spacing: 0; }
+  #brand { font-weight: 800; font-size: 34px; opacity: 0.85; }
+
+  #stage { position: absolute; top: 230px; left: 0; right: 0; height: 1120px; }
+  .scene { position: absolute; inset: 0; padding: 0 70px; display: flex; flex-direction: column;
+           align-items: center; justify-content: center; text-align: center; opacity: 0; }
+
+  .emoji { font-family: var(--emoji); line-height: 1; display: inline-block; }
+  .big-emoji { font-size: 300px; margin-bottom: 40px; filter: drop-shadow(0 18px 30px rgba(0,0,0,0.35)); }
+  .mid-emoji { font-size: 190px; margin-bottom: 30px; filter: drop-shadow(0 14px 24px rgba(0,0,0,0.3)); }
+
+  .hook-text { font-weight: 800; font-size: 92px; line-height: 1.18; text-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+  .hook-text .w { display: inline-block; margin: 0 2px; }
+  .hook-text .hl { color: var(--accent); }
+  .hook-sub { margin-top: 36px; font-weight: 700; font-size: 46px; opacity: 0.9; }
+
+  .heading { font-weight: 800; font-size: 76px; line-height: 1.2; margin-bottom: 44px;
+             text-shadow: 0 5px 20px rgba(0,0,0,0.3); }
+  .heading .hl { color: var(--accent); }
+  .bullets { width: 100%; display: flex; flex-direction: column; gap: 26px; }
+  .bullet { display: flex; align-items: center; gap: 26px; text-align: left; padding: 30px 36px;
+            border-radius: 28px; background: var(--card); border: 2px solid var(--card-border);
+            border-left: 12px solid var(--accent); font-weight: 700; font-size: 48px; line-height: 1.3; }
+  .bullet .emoji { font-size: 64px; flex: none; }
+
+  .compare-title { font-weight: 800; font-size: 70px; line-height: 1.2; margin-bottom: 60px; }
+  .compare { display: flex; align-items: center; justify-content: center; gap: 30px; width: 100%; }
+  .ccard { flex: 1; padding: 50px 24px; border-radius: 36px; background: var(--card);
+           border: 3px solid var(--card-border); display: flex; flex-direction: column; align-items: center; gap: 18px; }
+  .ccard.win { border-color: var(--accent); background: rgba(255,255,255,0.18); }
+  .ccard .emoji { font-size: 170px; }
+  .ccard .lbl { font-weight: 700; font-size: 46px; }
+  .ccard .val { font-weight: 800; font-size: 62px; color: var(--accent); }
+  .vs { flex: none; width: 120px; height: 120px; border-radius: 50%; background: var(--accent); color: #111;
+        display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 46px; }
+
+  .num-pre { font-weight: 700; font-size: 54px; opacity: 0.9; margin-bottom: 20px; }
+  .num { font-weight: 800; font-size: 260px; line-height: 1; color: var(--accent);
+         text-shadow: 0 10px 40px rgba(0,0,0,0.35); }
+  .num-unit { font-weight: 800; font-size: 80px; margin-top: 16px; }
+  .num-cap { font-weight: 700; font-size: 48px; line-height: 1.3; margin-top: 50px; max-width: 900px; opacity: 0.95; }
+
+  .tl-title { font-weight: 800; font-size: 70px; margin-bottom: 50px; }
+  .tl { position: relative; width: 100%; padding-left: 90px; display: flex; flex-direction: column; gap: 46px; }
+  .tl-line { position: absolute; left: 36px; top: 10px; width: 10px; border-radius: 6px; background: var(--accent); }
+  .tl-item { position: relative; text-align: left; }
+  .tl-dot { position: absolute; left: -72px; top: 18px; width: 46px; height: 46px; border-radius: 50%;
+            background: var(--bg1); border: 8px solid var(--accent); }
+  .tl-year { font-weight: 800; font-size: 54px; color: var(--accent); }
+  .tl-label { font-weight: 700; font-size: 46px; line-height: 1.3; }
+
+  .statement { font-weight: 800; font-size: 80px; line-height: 1.22; text-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+  .statement .hl { color: var(--accent); }
+  .statement-sub { margin-top: 40px; font-weight: 700; font-size: 48px; line-height: 1.3; opacity: 0.92; }
+
+  .catch { font-weight: 800; font-size: 110px; line-height: 1.1; color: var(--accent);
+           text-shadow: 0 8px 30px rgba(0,0,0,0.4); }
+  .recap { margin-top: 40px; font-weight: 700; font-size: 50px; line-height: 1.3; }
+  .next { margin-top: 70px; padding: 34px 44px; border-radius: 30px; background: rgba(0,0,0,0.3);
+          border: 3px dashed var(--accent); font-weight: 700; font-size: 46px; line-height: 1.3; }
+  .next b { color: var(--accent); }
+  .follow { margin-top: 44px; font-weight: 800; font-size: 44px; }
+
+  #subs { position: absolute; left: 70px; right: 70px; top: 1390px; height: 260px;
+          display: flex; align-items: flex-start; justify-content: center; }
+  .sub { display: inline-block; max-width: 940px; padding: 18px 30px; border-radius: 22px;
+         background: rgba(0,0,0,0.55); font-weight: 800; font-size: 54px; line-height: 1.32; text-align: center; }
+</style>
+</head>
+<body>
+<div id="root">
+  <div id="blobs"></div>
+  <div id="grain"></div>
+  <div id="progress"></div>
+  <div id="topbar"><div class="chip"><span class="ic" id="topicIcon"></span><span id="topicLabel"></span></div><div id="brand"></div></div>
+  <div id="stage"></div>
+  <div id="subs"><div class="sub" id="sub"></div></div>
+</div>
+<script>
+// ---------- helpers ----------
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const easeOut = x => 1 - Math.pow(1 - clamp(x), 3);
+const easeBack = x => { x = clamp(x); const c = 1.70158, c3 = c + 1; return 1 + c3 * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// **chữ** -> highlighted
+const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+
+// generic "appear" animation: fade + rise (or pop)
+function appear(node, lt, start, len = 0.45, kind = 'rise') {
+  const p = clamp((lt - start) / len);
+  if (kind === 'pop') { const s = p <= 0 ? 0.001 : easeBack(p); node.style.transform = `scale(${s})`; node.style.opacity = clamp(p * 2); }
+  else if (kind === 'left') { node.style.transform = `translateX(${(1 - easeOut(p)) * -160}px)`; node.style.opacity = p; }
+  else if (kind === 'right') { node.style.transform = `translateX(${(1 - easeOut(p)) * 160}px)`; node.style.opacity = p; }
+  else { node.style.transform = `translateY(${(1 - easeOut(p)) * 60}px)`; node.style.opacity = p; }
+}
+// spread n items between t0 and t1
+const slots = (n, t0, t1) => Array.from({length: n}, (_, i) => n === 1 ? t0 : t0 + (t1 - t0) * i / (n - 1));
+
+// ---------- scene builders ----------
+const B = {
+  hook(s) {
+    const root = el('div', 'scene');
+    const em = el('div', 'emoji big-emoji', esc(s.icon || '❓'));
+    const words = (s.text || '').split(/\s+/).filter(Boolean);
+    const tx = el('div', 'hook-text', words.map(w => `<span class="w">${rich(w)}</span>`).join(' '));
+    root.append(em, tx);
+    let sub = null; if (s.sub) { sub = el('div', 'hook-sub', rich(s.sub)); root.append(sub); }
+    const ws = [...tx.querySelectorAll('.w')];
+    return { root, anim(lt, d) {
+      appear(em, lt, 0, 0.55, 'pop');
+      if (lt > 0.55) em.style.transform = `translateY(${Math.sin((lt - 0.55) * 2.6) * 14}px) rotate(${Math.sin((lt - 0.55) * 1.7) * 4}deg)`;
+      const st = slots(ws.length, 0.25, Math.min(1.4, d * 0.4));
+      ws.forEach((w, i) => appear(w, lt, st[i], 0.3, 'pop'));
+      if (sub) appear(sub, lt, Math.min(1.6, d * 0.5), 0.5);
+    }};
+  },
+  explain(s) {
+    const root = el('div', 'scene');
+    const em = s.icon ? el('div', 'emoji mid-emoji', esc(s.icon)) : null;
+    const h = s.title ? el('div', 'heading', rich(s.title)) : null;
+    const list = el('div', 'bullets');
+    const items = (s.bullets || []).map(b => {
+      const t = typeof b === 'string' ? { text: b } : b;
+      const it = el('div', 'bullet', (t.icon ? `<span class="emoji">${esc(t.icon)}</span>` : '') + `<span>${rich(t.text)}</span>`);
+      list.append(it); return it;
+    });
+    if (em) root.append(em); if (h) root.append(h); root.append(list);
+    return { root, anim(lt, d) {
+      if (em) appear(em, lt, 0, 0.5, 'pop');
+      if (h) appear(h, lt, 0.2, 0.45);
+      const st = slots(items.length, 0.7, Math.max(0.8, d * 0.62));
+      items.forEach((it, i) => appear(it, lt, st[i], 0.45, 'left'));
+    }};
+  },
+  compare(s) {
+    const root = el('div', 'scene');
+    const t = s.title ? el('div', 'compare-title', rich(s.title)) : null;
+    const row = el('div', 'compare');
+    const card = (c, win) => el('div', 'ccard' + (win ? ' win' : ''),
+      `<div class="emoji">${esc(c.icon || '')}</div><div class="lbl">${rich(c.label)}</div><div class="val">${rich(c.value)}</div>`);
+    const L = card(s.left || {}, s.winner === 'left'), R = card(s.right || {}, s.winner === 'right');
+    const vs = el('div', 'vs', esc(s.vs || 'VS'));
+    row.append(L, vs, R); if (t) root.append(t); root.append(row);
+    const W = s.winner === 'left' ? L : s.winner === 'right' ? R : null;
+    return { root, anim(lt, d) {
+      if (t) appear(t, lt, 0, 0.45);
+      appear(L, lt, 0.25, 0.5, 'left'); appear(vs, lt, 0.55, 0.4, 'pop'); appear(R, lt, Math.min(0.85, d * 0.3), 0.5, 'right');
+      if (W && lt > d * 0.45) { const p = Math.sin((lt - d * 0.45) * 5) * 0.035 + 1.04; W.style.transform = `scale(${p})`; }
+    }};
+  },
+  number(s) {
+    const root = el('div', 'scene');
+    const pre = s.pre ? el('div', 'num-pre', rich(s.pre)) : null;
+    const n = el('div', 'num', esc(s.value));
+    const u = s.unit ? el('div', 'num-unit', rich(s.unit)) : null;
+    const c = s.caption ? el('div', 'num-cap', rich(s.caption)) : null;
+    [pre, n, u, c].forEach(x => x && root.append(x));
+    const raw = String(s.value ?? ''); const m = raw.match(/^([^\d]*)([\d.,]+)(.*)$/);
+    const target = m ? parseFloat(m[2].replace(/\./g, '').replace(',', '.')) : NaN;
+    const countable = s.count !== false && m && isFinite(target) && !/[:\/]/.test(raw);
+    const fmt = v => m[1] + Math.round(v).toLocaleString('vi-VN') + m[3];
+    return { root, anim(lt, d) {
+      if (pre) appear(pre, lt, 0, 0.4);
+      appear(n, lt, 0.15, 0.5, 'pop');
+      if (countable) n.textContent = fmt(target * easeOut((lt - 0.15) / 1.3));
+      if (u) appear(u, lt, 0.6, 0.4);
+      if (c) appear(c, lt, Math.min(1.6, d * 0.4), 0.5);
+    }};
+  },
+  timeline(s) {
+    const root = el('div', 'scene');
+    const t = s.title ? el('div', 'tl-title', rich(s.title)) : null;
+    const tl = el('div', 'tl'); const line = el('div', 'tl-line'); tl.append(line);
+    const items = (s.items || []).map(it => { const x = el('div', 'tl-item',
+      `<div class="tl-dot"></div><div class="tl-year">${rich(it.year)}</div><div class="tl-label">${rich(it.label)}</div>`); tl.append(x); return x; });
+    if (t) root.append(t); root.append(tl);
+    return { root, anim(lt, d) {
+      if (t) appear(t, lt, 0, 0.45);
+      const st = slots(items.length, 0.5, Math.max(0.6, d * 0.65));
+      items.forEach((x, i) => appear(x, lt, st[i], 0.45, 'right'));
+      const last = items[items.length - 1];
+      const full = last ? last.offsetTop + 30 : 0;
+      const prog = items.length ? clamp((lt - 0.3) / Math.max(0.5, st[st.length - 1] - 0.3 + 0.4)) : 0;
+      line.style.height = (full * easeOut(prog)) + 'px';
+    }};
+  },
+  text(s) {
+    const root = el('div', 'scene');
+    const em = s.icon ? el('div', 'emoji mid-emoji', esc(s.icon)) : null;
+    const tx = el('div', 'statement', rich(s.text));
+    const sub = s.sub ? el('div', 'statement-sub', rich(s.sub)) : null;
+    [em, tx, sub].forEach(x => x && root.append(x));
+    return { root, anim(lt, d) {
+      if (em) { appear(em, lt, 0, 0.5, 'pop'); if (lt > 0.5) em.style.transform = `translateY(${Math.sin((lt - .5) * 2.4) * 12}px)`; }
+      appear(tx, lt, 0.2, 0.5);
+      if (sub) appear(sub, lt, Math.min(1.4, d * 0.45), 0.5);
+    }};
+  },
+  outro(s) {
+    const root = el('div', 'scene');
+    const c = el('div', 'catch', rich(s.text || CFG.catchphrase || ''));
+    const r = s.recap ? el('div', 'recap', rich(s.recap)) : null;
+    const nx = s.next ? el('div', 'next', `<b>Tập sau:</b> ${rich(s.next)}`) : null;
+    const f = el('div', 'follow', esc(s.follow || CFG.follow || ''));
+    [c, r, nx, f].forEach(x => x && root.append(x));
+    return { root, anim(lt, d) {
+      appear(c, lt, 0, 0.55, 'pop');
+      if (r) appear(r, lt, 0.4, 0.45);
+      if (nx) appear(nx, lt, Math.min(1.0, d * 0.35), 0.5);
+      appear(f, lt, Math.min(1.6, d * 0.55), 0.5);
+      if (lt > 0.55) c.style.transform = `scale(${1 + Math.sin((lt - .55) * 4) * 0.025})`;
+    }};
+  },
+};
+
+// ---------- timeline ----------
+let CFG = {}, SCENES = [], SUBS = [], TOTAL = 1, BLOBS = [];
+const FADE = 0.25;
+
+window.setup = function (data) {
+  CFG = data.config || {};
+  const th = data.theme || {};
+  const rs = document.documentElement.style;
+  if (th.bg1) rs.setProperty('--bg1', th.bg1);
+  if (th.bg2) rs.setProperty('--bg2', th.bg2);
+  if (th.accent) rs.setProperty('--accent', th.accent);
+  document.getElementById('topicIcon').textContent = th.icon || '';
+  document.getElementById('topicLabel').textContent = th.label || '';
+  document.getElementById('brand').textContent = CFG.channel || '';
+
+  const blobs = document.getElementById('blobs');
+  BLOBS = Array.from({length: 7}, (_, i) => {
+    const b = el('div', 'blob'); const size = 160 + (i * 97) % 260;
+    b.style.width = b.style.height = size + 'px';
+    blobs.append(b); return { b, x: (i * 173) % 1000, y: (i * 389) % 1800, sp: 0.15 + (i % 3) * 0.08, ph: i * 1.3 };
+  });
+
+  const stage = document.getElementById('stage');
+  SCENES = data.scenes.map(sc => {
+    const builder = B[sc.type] || B.text;
+    const obj = builder(sc); stage.append(obj.root);
+    return { ...obj, start: sc.start, dur: sc.dur };
+  });
+  SUBS = data.subtitles || [];
+  TOTAL = data.total || 1;
+  return document.fonts.ready.then(() => true);
+};
+
+window.renderAt = function (t) {
+  BLOBS.forEach(o => {
+    o.b.style.transform = `translate(${o.x + Math.sin(t * o.sp + o.ph) * 60}px, ${o.y + Math.cos(t * o.sp * 0.8 + o.ph) * 80}px)`;
+  });
+  document.getElementById('progress').style.width = (clamp(t / TOTAL) * 1080) + 'px';
+
+  SCENES.forEach(s => {
+    const lt = t - s.start;
+    if (lt < 0 || lt > s.dur) { s.root.style.opacity = 0; return; }
+    const fin = clamp(lt / FADE), fout = clamp((s.dur - lt) / FADE);
+    const isFirst = s.start === 0;
+    s.root.style.opacity = (isFirst ? 1 : fin) * fout;
+    s.root.style.transform = `translateY(${(1 - fout) * -40}px)`;
+    s.anim(lt, s.dur);
+  });
+
+  const box = document.getElementById('sub');
+  const cur = SUBS.find(x => t >= x.start && t < x.end);
+  if (cur) {
+    box.textContent = cur.text; box.style.visibility = 'visible';
+    const p = clamp((t - cur.start) / 0.15); box.style.opacity = p; box.style.transform = `scale(${0.94 + 0.06 * p})`;
+  } else box.style.visibility = 'hidden';
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "channel": "Hóa Ra Là Vậy",
+  "catchphrase": "Hóa ra là vậy!",
+  "follow": "👉 Theo dõi để biết thêm điều thú vị mỗi ngày",
+
+  "tts_engine": "vieneu",
+  "vieneu": {
+    "voice": "Thiện Minh",
+    "ref_audio": "",
+    "mode": "",
+    "python": ".venv-tts/Scripts/python.exe"
+  },
+
+  "voice": "vi-VN-HoaiMyNeural",
+  "voice_rate": "+5%",
+  "voice_pitch": "+0Hz",
+  "tts_delay": 6,
+
+  "fps": 30,
+  "preview_fps": 15,
+  "pad_after_scene": 0.35,
+  "pad_after_hook": 0.6,
+  "min_scene_seconds": 2.0,
+  "subtitle_on_hook": false,
+  "subtitle_max_words": 7,
+
+  "music_file": "assets/music/nhac-nen.mp3",
+  "music_volume": 0.12,
+  "transition_sfx": true,
+  "sfx_volume": 0.22,
+
+  "topics": {
+    "dong-vat":    { "label": "Động vật",          "icon": "🐾", "bg1": "#0b3d2c", "bg2": "#1e7a52", "accent": "#8CFFB8" },
+    "con-nguoi":   { "label": "Con người",         "icon": "🧠", "bg1": "#4a0d24", "bg2": "#b0305a", "accent": "#FFC2D4" },
+    "thien-nhien": { "label": "Thiên nhiên",       "icon": "🌍", "bg1": "#0a2a4a", "bg2": "#1f6fb2", "accent": "#8FD3FF" },
+    "vu-tru":      { "label": "Vũ trụ",            "icon": "🪐", "bg1": "#140a33", "bg2": "#4b2a8f", "accent": "#C9A8FF" },
+    "thuc-vat":    { "label": "Thực vật & Đồ ăn",  "icon": "🍌", "bg1": "#4a3300", "bg2": "#b07d00", "accent": "#FFE36E" },
+    "lich-su":     { "label": "Lịch sử",           "icon": "🏛️", "bg1": "#4a1e00", "bg2": "#b5531c", "accent": "#FFC08A" },
+    "co-dai":      { "label": "Thế giới cổ đại",   "icon": "🏺", "bg1": "#3b2a12", "bg2": "#9a7140", "accent": "#FFD98F" }
+  }
+}

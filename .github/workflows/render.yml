@@ -1,0 +1,133 @@
+name: Dựng video
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "config.json"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Chỉ dựng các mã này (vd: DV1,CD-F1). Để trống = dựng kịch bản mới/đã sửa"
+        required: false
+        default: ""
+      all:
+        description: "Dựng lại tất cả"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Phông emoji và ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-color-emoji ffmpeg > /dev/null
+
+      - name: Bộ nhớ đệm (mô hình giọng, trình duyệt, thư viện)
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/ms-playwright
+            ~/.cache/pip
+            .venv-tts
+          key: fv-cache-v1-${{ hashFiles('requirements.txt') }}
+          restore-keys: fv-cache-v1-
+
+      - name: Cài thư viện dựng video
+        run: |
+          python -m pip install -q -r requirements.txt
+          python -m playwright install --with-deps chromium > /dev/null
+
+      - name: Cài giọng đọc VieNeu-TTS
+        run: |
+          if ! .venv-tts/bin/python -c "import sys" 2>/dev/null; then
+            rm -rf .venv-tts
+            python -m venv .venv-tts
+          fi
+          .venv-tts/bin/python -m pip install -q --upgrade pip
+          .venv-tts/bin/python -m pip install -q vieneu
+
+      - name: Dựng video
+        env:
+          HF_HUB_DISABLE_PROGRESS_BARS: "1"
+        run: |
+          if [ "${{ inputs.all }}" = "true" ]; then
+            python ci_render.py --all
+          elif [ -n "${{ inputs.only }}" ]; then
+            python ci_render.py --only "${{ inputs.only }}"
+          else
+            python ci_render.py
+          fi
+
+      - name: Gửi video về Telegram
+        if: always()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ]; then
+            echo "Chưa cài TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID, bỏ qua bước gửi Telegram."
+            exit 0
+          fi
+          api="https://api.telegram.org/bot${TG_TOKEN}"
+          if [ -s ci_outputs.txt ]; then
+            while read -r id; do
+              [ -z "$id" ] && continue
+              mp4="output/$id/$id.mp4"
+              cap="output/$id/${id}_caption.txt"
+              text=$(head -c 950 "$cap" 2>/dev/null || echo "$id")
+              curl -s -o /dev/null -w "Gửi $id: %{http_code}\n" \
+                -F chat_id="$TG_CHAT" -F supports_streaming=true \
+                -F video=@"$mp4" -F caption="$text" "$api/sendVideo"
+              if [ -f "output/$id/${id}_thumbnail.jpg" ]; then
+                curl -s -o /dev/null -F chat_id="$TG_CHAT" \
+                  -F document=@"output/$id/${id}_thumbnail.jpg" -F caption="Ảnh bìa $id" "$api/sendDocument"
+              fi
+            done < ci_outputs.txt
+          fi
+          if [ -s ci_failed.txt ]; then
+            msg="⚠️ Dựng lỗi: $(tr '\n' ' ' < ci_failed.txt). Xem log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="$msg" "$api/sendMessage"
+          fi
+
+      - name: Lưu video (tải về trong 7 ngày)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_number }}
+          path: |
+            output/*/*.mp4
+            output/*/*_thumbnail.jpg
+            output/*/*_caption.txt
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Ghi nhận video đã dựng
+        if: always()
+        run: |
+          [ -f rendered.json ] || exit 0
+          git add rendered.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Cập nhật danh sách video đã dựng"
+          git pull --rebase -q || true
+          git push -q

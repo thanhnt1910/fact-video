@@ -1,0 +1,29 @@
+name: Lấy mã chat Telegram
+
+on:
+  workflow_dispatch:
+
+jobs:
+  chat-id:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tìm mã chat
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          if [ -z "$TG_TOKEN" ]; then
+            echo "Chưa có secret TELEGRAM_BOT_TOKEN"; exit 1
+          fi
+          curl -s "https://api.telegram.org/bot${TG_TOKEN}/getUpdates" | python3 -c '
+          import json, sys
+          d = json.load(sys.stdin)
+          seen = set()
+          for u in d.get("result", []):
+              m = u.get("message") or u.get("channel_post") or {}
+              c = m.get("chat") or {}
+              if c.get("id") and c["id"] not in seen:
+                  seen.add(c["id"])
+                  print("MÃ CHAT:", c["id"], "-", c.get("first_name") or c.get("title") or "")
+          if not seen:
+              print("Chưa thấy tin nhắn nào. Hãy mở bot trên Telegram, bấm Start rồi gửi 1 tin nhắn bất kỳ, sau đó chạy lại.")
+          '

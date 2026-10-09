@@ -21,6 +21,8 @@
       "text": "Bạch tuộc có tới **3** **trái** **tim**",
       "voice": "[nhanh] Bạn có biết không? [nhấn] Bạch tuộc có tới… ba trái tim!",
       "image": {
+        "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg3MTIwNTgtaW1hZ2Uta3d2eGt0eHAuanBn.jpg",
+        "credit": "\"Free octopus image\" – không rõ, CC0 (https://www.rawpixel.com/image/5922107/photo-image-background-public-domain-ocean)",
         "query": "octopus underwater"
       }
     },
@@ -56,6 +58,8 @@
       ],
       "voice": "Hai trái tim nhỏ, nằm ngay cạnh mang. [cao] Nhiệm vụ của chúng? [nhanh] Bơm máu qua mang, để lấy oxy từ nước biển.",
       "image": {
+        "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJzcXVpZF9vY3RvcHVzX3VuZGVyd2F0ZXJfbW9sbHVzay1pbWFnZS1reWNmZTVkMi5qcGc.jpg",
+        "credit": "\"Ảnh\" – không rõ, CC0 (https://www.rawpixel.com/image/6049802/free-public-domain-cc0-photo)",
         "query": "octopus reef"
       }
     },
@@ -75,6 +79,8 @@
       ],
       "voice": "[cao] Còn trái tim thứ ba, to hơn hẳn! Nó bơm máu giàu oxy đi khắp cơ thể, và nuôi cả tám xúc tu.",
       "image": {
+        "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2Zyb2N0b3B1c190ZW50YWNsZXNfc3Vja2VyX3NlYWZvb2QtaW1hZ2Uta3liZDFjaGsuanBn.jpg",
+        "credit": "\"Red octopus tentacles close up\" – không rõ, CC0 (https://www.rawpixel.com/image/6034034/photo-image-public-domain-nature-red)",
         "query": "octopus tentacles"
       }
     },
@@ -85,6 +91,8 @@
       "sub": "Chất mang oxy làm từ **đồng**, không phải **sắt** như máu người",
       "voice": "[nhanh] Chưa hết đâu! [nhấn] Máu bạch tuộc… có màu xanh lam! [nhanh] Vì chất mang oxy trong máu được làm từ đồng, chứ không phải sắt như máu người.",
       "image": {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265079873/original.jpg",
+        "credit": "\"brazil reef octopus\" – Pauline Walsh Jacobson, CC BY 4.0 (https://www.inaturalist.org/photos/265079873)",
         "query": "octopus blue water"
       }
     },
@@ -95,6 +103,8 @@
       "sub": "Vì vậy bạch tuộc thích **bò** hơn **bơi**",
       "voice": "[trầm] Và điều kỳ lạ nhất… [nhấn] khi bạch tuộc bơi, trái tim chính… ngừng đập! [nhanh] Thế nên chúng thích bò hơn bơi, vì bơi rất nhanh mệt.",
       "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Three_Times_the_Love_%E2%99%A5%E2%99%A5%E2%99%A5_%2848955284726%29.jpg/1920px-Three_Times_the_Love_%E2%99%A5%E2%99%A5%E2%99%A5_%2848955284726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Three Times the Love ♥♥♥ (48955284726).jpg\" – LASZLO ILYES from Cleveland, Ohio, USA, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Three_Times_the_Love_%E2%99%A5%E2%99%A5%E2%99%A5_(48955284726).jpg)",
         "query": "octopus swimming"
       }
     },
@@ -104,6 +114,8 @@
       "next": "Cá vàng thật sự chỉ nhớ được 3 giây?",
       "voice": "[chậm] Ba trái tim. Máu xanh. [cao] Và… ghét bơi! [nhấn] Hóa ra là vậy! [nhanh] Tập sau: cá vàng có thật chỉ nhớ được ba giây? Theo dõi để xem nhé!",
       "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Octopus_8_September_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Octopus 8 September 2023.png\" – NOAA Office of Ocean Exploration and Research, Public domain (https://commons.wikimedia.org/wiki/File:Octopus_8_September_2023.png)",
         "query": "octopus seabed"
       }
     }

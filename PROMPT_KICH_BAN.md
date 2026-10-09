@@ -86,3 +86,9 @@ Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 1
 | 🏺 Thế giới cổ đại | `co-dai` |
 
 Mã hook có dấu trong kế hoạch (ĐV1, CĐ-A1…) thì đổi sang không dấu khi đặt `id`: ĐV1 → `DV1`, CĐ-A1 → `CD-A1`, NG1, TN1, VT1, TA1, LS1 giữ nguyên.
+
+## Quy trình chọn ảnh (Claude làm)
+1. Viết kịch bản có "image": {"query": ...}, đẩy lên repo.
+2. Chạy workflow **Duyệt ảnh ứng viên** → xem `logs/cand_<mã>.jpg` (ảnh đánh số theo cảnh).
+3. Chọn ảnh đúng nội dung, đẹp, là ẢNH CHỤP THẬT (loại ảnh AI, ảnh chụp slide, sơ đồ, trang sách), rồi ghi
+   "image": {"url": ..., "credit": ...} lấy từ `logs/cand_<mã>.json` vào kịch bản. Cảnh không có ảnh tốt thì bỏ "image".

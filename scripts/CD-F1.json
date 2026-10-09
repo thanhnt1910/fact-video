@@ -25,6 +25,8 @@
       "text": "Có một đền đá còn cổ hơn **Stonehenge** khoảng **6.000** năm",
       "voice": "[trầm] Có một ngôi đền đá… [nhấn] còn cổ hơn Stonehenge tới sáu nghìn năm!",
       "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_archaeological_site_of_G%C3%B6bekli_Tepe_-_main_excavation_area.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"The archaeological site of Göbekli Tepe - main excavation area.png\" – German Archaeological Institute, photo E. Kücük., CC BY 4.0 (https://commons.wikimedia.org/wiki/File:The_archaeological_site_of_G%C3%B6bekli_Tepe_-_main_excavation_area.png)",
         "query": "Gobekli Tepe",
         "source": "wikimedia"
       }
@@ -37,6 +39,8 @@
       "caption": "Những cột đá cao hàng mét, khắc hình **cáo**, **lợn rừng**, **chim**",
       "voice": "[nhanh] Đó là Göbekli Tepe, ở Thổ Nhĩ Kỳ. [chậm] Được xây cách đây khoảng… mười một nghìn sáu trăm năm! [nhanh] Với những cột đá khổng lồ, khắc hình cáo, lợn rừng và chim.",
       "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C3%B6bekli_Tepe_Enclosure_C_Pillar_27_relief.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Göbekli Tepe Enclosure C Pillar 27 relief.jpg\" – Kerimove, CC0 (https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe_Enclosure_C_Pillar_27_relief.jpg)",
         "query": "Gobekli Tepe pillar relief",
         "source": "wikimedia"
       }
@@ -69,11 +73,7 @@
       "icon": "🤯",
       "text": "Người xây là **thợ săn hái lượm**",
       "sub": "Họ chưa biết trồng trọt, nhưng đã cùng nhau dựng nên công trình khổng lồ",
-      "voice": "[trầm] Nhưng điều khiến các nhà khoa học bất ngờ nhất? [nhỏ] Người xây nó được cho là… thợ săn hái lượm. [nhấn] Họ còn chưa biết trồng trọt!",
-      "image": {
-        "query": "Gobekli Tepe enclosure",
-        "source": "wikimedia"
-      }
+      "voice": "[trầm] Nhưng điều khiến các nhà khoa học bất ngờ nhất? [nhỏ] Người xây nó được cho là… thợ săn hái lượm. [nhấn] Họ còn chưa biết trồng trọt!"
     },
     {
       "type": "outro",
@@ -81,6 +81,8 @@
       "next": "Kim tự tháp từng trắng sáng lấp lánh?",
       "voice": "[chậm] Cổ hơn Stonehenge. Có trước cả nông nghiệp. [nhấn] Hóa ra là vậy! [nhanh] Tập sau: kim tự tháp từng trắng sáng lấp lánh? Theo dõi để xem nhé!",
       "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/1920px-Stonehenge2007_07_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Stonehenge2007 07 30.jpg\" – garethwiscombe, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg)",
         "query": "Stonehenge",
         "source": "wikimedia"
       }

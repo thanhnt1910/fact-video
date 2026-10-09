@@ -85,8 +85,8 @@ jobs:
           while read -r id || [ -n "$id" ]; do
             [ -z "$id" ] && continue
             f="output/$id/$id.mp4"; [ -f "$f" ] || continue
-            dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
-            ffmpeg -loglevel error -y -i "$f" -vf "fps=6/${dur%.*},scale=270:-1,tile=6x1" -frames:v 1 "logs/preview_${id}.jpg" || true
+            dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
+            ffmpeg -nostdin -loglevel error -y -i "$f" -vf "fps=6/${dur%.*},scale=270:-1,tile=6x1" -frames:v 1 "logs/preview_${id}.jpg" || true
             cp "output/$id/${id}_caption.txt" "logs/caption_${id}.txt" 2>/dev/null || true
           done < ci_outputs.txt
 

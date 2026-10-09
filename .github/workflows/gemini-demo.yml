@@ -31,7 +31,7 @@ jobs:
           mkdir -p demo logs
           rm -f demo/list.txt
           set -o pipefail
-          python demo_gemini.py "${{ inputs.voices }}" 2>&1 | tee logs/gemini-demo.log
+          python demo_gemini.py "${{ inputs.voices }}" 2>&1 | tee logs/gemini-demo.txt
       - name: Gửi Telegram
         if: always()
         env:
@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add demo/ logs/gemini-demo.log || true
+          git add demo/ logs/gemini-demo.txt || true
           git commit -q -m "Nghe thử giọng Gemini" || exit 0
           git pull --rebase -q || true
           git push -q

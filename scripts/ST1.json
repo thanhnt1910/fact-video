@@ -24,9 +24,8 @@
       "text": "Chiến tranh đã hết… ông vẫn **chiến đấu 29 năm**",
       "voice": "[trầm] Chiến tranh đã kết thúc từ lâu… [nhấn] nhưng có một người lính vẫn ở trong rừng chiến đấu, suốt hai mươi chín năm! [nhanh] Vì ông không tin chiến tranh đã hết.",
       "image": {
-        "query": "Hiroo Onoda 1944",
-        "subject": "Onoda",
-        "source": "wikimedia"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/President_Marcos_and_Hiroo_Onoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"President Marcos and Hiroo Onoda.jpg\" – Malacañang Palace, Public domain (https://commons.wikimedia.org/wiki/File:President_Marcos_and_Hiroo_Onoda.jpg)"
       }
     },
     {
@@ -36,9 +35,8 @@
       "sub": "Mệnh lệnh: không bao giờ đầu hàng",
       "voice": "[nhanh] Cuối năm một nghìn chín trăm bốn mươi tư, thiếu úy Hiroo Onoda được gửi đến đảo Lubang, Philippines. [chậm] Lệnh của ông: quấy rối quân địch, không được đầu hàng, cũng không được tự sát. [trầm] Cấp trên hứa… dù bao nhiêu năm, sẽ quay lại đón anh.",
       "image": {
-        "query": "Lubang Island",
-        "subject": "Lubang",
-        "source": "wikimedia"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Looc%2C_Occ._Mindoro_sunset.jpg/1920px-Looc%2C_Occ._Mindoro_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Looc, Occ. Mindoro sunset.jpg\" – Albert Lozada, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Looc,_Occ._Mindoro_sunset.jpg)"
       }
     },
     {
@@ -61,9 +59,8 @@
       ],
       "voice": "[cao] Tháng mười năm bốn lăm, nhóm của ông thấy truyền đơn: chiến tranh đã kết thúc! [nhấn] Nhưng Onoda cho rằng đó là bẫy của địch. [nhanh] Rồi máy bay thả xuống cả thư và ảnh của gia đình. [trầm] Ông vẫn không tin.",
       "image": {
-        "query": "Lubang Philippines landscape",
-        "subject": "Lubang",
-        "source": "wikimedia"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/I_cease_resistance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"I cease resistance.jpg\" – United States Army Forces, Pacific. Psychological Warfare Branch., Public domain (https://commons.wikimedia.org/wiki/File:I_cease_resistance.jpg)"
       }
     },
     {
@@ -87,14 +84,14 @@
           "label": "✝️ Kozuka tử trận"
         }
       ],
-      "voice": "[chậm] Ban đầu họ có bốn người. [nhanh] Một người bỏ đi đầu hàng, hai người khác chết trong các cuộc đấu súng. [trầm] Những năm ấy cũng là ác mộng với người dân trên đảo. [chậm] Nhóm của ông bị cáo buộc đã giết khoảng ba mươi người."
+      "voice": "[chậm] Lúc đầu họ có bốn người. [nhanh] Một người bỏ đi đầu hàng, hai người khác chết trong các cuộc đấu súng. [trầm] Những năm ấy cũng là ác mộng với người dân trên đảo. [chậm] Nhóm của ông bị cáo buộc đã giết khoảng ba mươi người."
     },
     {
       "type": "text",
       "icon": "🐼",
       "text": "1974: một chàng trai đi tìm **Onoda**",
       "sub": "…và cả gấu trúc, người tuyết",
-      "voice": "[nhanh] Năm bảy mươi tư, một chàng trai Nhật tên Norio Suzuki lên đường. [cao] Anh nói mình đi tìm ba thứ: thiếu úy Onoda, một con gấu trúc, và người tuyết! [nhấn] Chỉ sau bốn ngày, anh đã tìm thấy Onoda."
+      "voice": "[nhanh] Năm bảy mươi tư, một chàng trai Nhật tên Norio Suzuki lên đường tìm ông. [cao] Anh nói mình đi tìm ba thứ: thiếu úy Onoda, một con gấu trúc, và người tuyết! [nhấn] Chỉ sau bốn ngày, anh đã tìm thấy Onoda."
     },
     {
       "type": "number",
@@ -102,11 +99,10 @@
       "value": "10.416",
       "unit": "ngày",
       "caption": "kể từ ngày Nhật Bản **đầu hàng**",
-      "voice": "[trầm] Nhưng Onoda không chịu ra… nếu chưa có lệnh. [nhanh] Người ta phải đưa chính cấp trên cũ của ông bay sang tận đảo. [nhấn] Tháng ba năm bảy mươi tư, nghe đọc lệnh xong, Onoda mới hạ súng.",
+      "voice": "[trầm] Nhưng Onoda không chịu ra… nếu chưa có lệnh. [nhanh] Người ta phải mời chính cấp trên cũ của ông đến tận hòn đảo. [nhấn] Tháng ba năm bảy mươi tư, nghe đọc lệnh xong, Onoda mới hạ súng.",
       "image": {
-        "query": "Type 99 Arisaka rifle",
-        "subject": "Arisaka",
-        "source": "wikimedia"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/ArisakaDisplay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"ArisakaDisplay.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:ArisakaDisplay.jpg)"
       }
     },
     {
@@ -114,9 +110,8 @@
       "recap": "29 năm trong rừng · không tin chiến tranh đã hết · bi kịch cho cả hai phía",
       "voice": "[chậm] Hai mươi chín năm trong rừng. Một bi kịch, cho cả ông lẫn người dân trên đảo. [trầm] Sử thật… lạ hơn cả truyện. [nhanh] Theo dõi Người Gác Sử nhé!",
       "image": {
-        "query": "Lubang Island beach",
-        "subject": "Lubang",
-        "source": "wikimedia"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Beach_North_Mindoro_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Beach North Mindoro Philippines.jpg\" – Magalhães, Public domain (https://commons.wikimedia.org/wiki/File:Beach_North_Mindoro_Philippines.jpg)"
       }
     }
   ],
@@ -255,7 +250,7 @@
           {
             "text": "Lubang là một hòn đảo nhỏ phía tây nam thủ đô Manila. Đảo dài khoảng ba mươi cây số, phủ kín rừng rậm và đồi núi, dân cư chủ yếu là nông dân và ngư dân.",
             "image": {
-              "scene": 2
+              "scene": 1
             },
             "label": "Lubang · tây nam Manila"
           },
@@ -299,12 +294,16 @@
           {
             "text": "Cuối năm đó, máy bay thả xuống truyền đơn in lệnh đầu hàng của tướng Yamashita, chỉ huy quân Nhật ở Philippines.",
             "image": {
-              "scene": 3
-            }
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Japanese_War_Crimes_Trials._Manila_-_NARA_-_292613.jpg/1920px-Japanese_War_Crimes_Trials._Manila_-_NARA_-_292613.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Japanese War Crimes Trials. Manila - NARA - 292613.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Japanese_War_Crimes_Trials._Manila_-_NARA_-_292613.jpg)"
+            },
+            "label": "Tướng Tomoyuki Yamashita · 1945"
           },
           {
             "text": "Onoda soi từng câu chữ, thấy có những chỗ ông cho là sai cách viết của quân đội. Lại một cái bẫy nữa, ông nghĩ.",
-            "ai": "a soldier holding a printed leaflet close to his eyes under a jungle canopy, studying it intently, dramatic side light"
+            "image": {
+              "scene": 2
+            }
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi hai, máy bay thả xuống thư và ảnh của chính gia đình họ, kêu gọi họ trở về.",
@@ -420,9 +419,7 @@
           },
           {
             "text": "Bộ chỉ huy Phương diện quân mười bốn đã ngừng mọi hoạt động chiến đấu. Đơn vị đặc biệt được miễn mọi nhiệm vụ quân sự.",
-            "image": {
-              "scene": 4
-            }
+            "ai": "an old typed military order document on a weathered wooden table in a jungle clearing, a pair of old reading glasses beside it, dim light"
           },
           {
             "text": "Onoda kể lại rằng ông đứng chết lặng. Mọi thứ bỗng tối sầm. Hai mươi chín năm qua, rốt cuộc là để làm gì?",
@@ -440,7 +437,10 @@
           },
           {
             "text": "Ngày mười một tháng ba, tại dinh tổng thống ở Manila, Onoda trao thanh kiếm cho tổng thống Philippines Ferdinand Marcos. Ông được ân xá mọi tội danh trong những năm ở rừng.",
-            "ai": "a grand ceremonial hall of a palace in Manila in the 1970s with chandeliers and flags, empty, formal"
+            "image": {
+              "scene": 0
+            },
+            "label": "Manila · 11/3/1974"
           },
           {
             "text": "Quyết định ân xá ấy giúp Onoda được trở về nhà. Nhưng với nhiều gia đình ở Lubang, vết thương vẫn chưa bao giờ lành.",
@@ -471,7 +471,7 @@
           {
             "text": "Năm một nghìn chín trăm chín mươi sáu, ông quay lại Lubang. Vợ ông góp mười nghìn đô la làm học bổng cho một trường học trên đảo. Nhưng hàng chục người thân của các nạn nhân đã tụ tập phản đối chuyến thăm.",
             "image": {
-              "scene": 2
+              "scene": 1
             },
             "label": "Lubang · 1996"
           },

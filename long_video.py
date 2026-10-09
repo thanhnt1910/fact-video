@@ -144,9 +144,13 @@ def beat_images(script, beats, work):
                 if src:
                     b["image_src"] = src
     AI_CACHE.mkdir(parents=True, exist_ok=True)
+    quota_hit = 0
     for b in beats:
         if b.get("ai") and not b.get("image_src"):
             key = hashlib.sha1(b["ai"].encode()).hexdigest()[:16]
+            if quota_hit and not (AI_CACHE / f"{key}.jpg").exists():
+                quota_hit += 1          # đã hết lượt: không gọi thêm cho đỡ tốn thời gian
+                continue
             try:
                 f = ai_images.generate(b["ai"] + ", " + WIDE_HINT, AI_CACHE / f"{key}.jpg", log=log)
                 b["image_src"] = f.resolve().as_uri()
@@ -154,6 +158,12 @@ def beat_images(script, beats, work):
                 used_ai = True
             except Exception as e:
                 log(f"     ⚠️  không vẽ được ảnh: {e}")
+                msg = str(e).lower()
+                if any(k in msg for k in ("429", "neuron", "limit", "quota", "exceeded")):
+                    quota_hit += 1
+    if quota_hit:
+        # hết lượt vẽ miễn phí trong ngày: ảnh đã vẽ được vẫn lưu lại, lần chạy sau (lịch 7h17 sáng) vẽ nốt
+        raise RuntimeError(f"còn {quota_hit} ảnh AI chưa vẽ được (hết lượt miễn phí hôm nay), sẽ tự thử lại lần chạy sau")
     prev, prev_fit = None, None
     for b in beats:
         if not b.get("image_src"):

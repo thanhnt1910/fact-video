@@ -56,7 +56,7 @@ def generate(prompt, out, cutout=False, seed=None, steps=8, log=print):
                 time.sleep(10 * (attempt + 1))
                 continue
             raise RuntimeError(f"Cloudflare AI HTTP {e.code}: {msg}")
-    raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi")
+    raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi (429/limit)")
 
 
 _SESSION = None

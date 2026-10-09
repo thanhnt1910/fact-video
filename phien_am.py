@@ -38,10 +38,19 @@ def main():
         text = re.sub(r"\[[^\]]*\]", " ", sc.get("voice", ""))
         for k, v in pron.items():
             text = text.replace(k, v)
-        for w in re.findall(r"[^\W\d_]+(?:[-'][^\W\d_]+)*", text):
+        words = re.findall(r"[^\W\d_]+(?:[-'][^\W\d_]+)*", text)
+        for i, w in enumerate(words):
             if w in seen:
                 continue
             ph = p.run(w).strip(" .")
+            if not is_english(ph):
+                continue
+            # xét cả từ đứng cạnh: "máy bay", "bay sang" trong câu vẫn được đọc kiểu Việt
+            a = max(0, i - 1)
+            win = words[a:i + 2]
+            toks = p.run(" ".join(win)).strip(" .").split()
+            if len(toks) == len(win):
+                ph = toks[i - a]
             if is_english(ph):
                 seen[w] = ph
     back = {v: k for k, v in pron.items()}

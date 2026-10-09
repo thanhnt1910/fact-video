@@ -1,0 +1,11 @@
+# tham chiếu: chuyển động lấy từ Meta AnimatedDrawings (MIT) và CMU Motion Capture (dùng tự do)
+dance:
+  bvh: dance.bvh
+  scale: 0.005
+  up: +y
+  retarget: mixamo
+walk:
+  bvh: walk.bvh
+  scale: 0.026
+  up: +y
+  retarget: cmu_walk

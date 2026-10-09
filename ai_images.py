@@ -18,7 +18,10 @@ from pathlib import Path
 MODEL = "@cf/black-forest-labs/flux-1-schnell"
 STYLE = ("vintage storybook illustration, painterly oil paint texture, warm sepia and amber tones, "
          "soft lantern light, muted colors, detailed, historical, no text, no watermark")
-CUTOUT_HINT = "full body, whole figure visible from head to feet, centered, isolated on a plain pure white background"
+CUTOUT_HINT = ("full body, whole figure visible from head to feet, centered, isolated on a plain pure white background, "
+               "no shadow, no ground, no signature")
+RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly away from the body, "
+            "hands open, legs slightly apart, both feet visible")
 
 
 def generate(prompt, out, cutout=False, seed=None, steps=8, log=print):
@@ -59,14 +62,40 @@ def generate(prompt, out, cutout=False, seed=None, steps=8, log=print):
 _SESSION = None
 
 
+def clean_cutout(png):
+    """Xóa bóng trắng / chữ ký sót dưới chân, giữ lại mảng nhân vật lớn nhất."""
+    import numpy as np
+    from PIL import Image
+    from scipy import ndimage
+    im = Image.open(png).convert("RGBA")
+    a = np.array(im).astype(np.float32)
+    rgb, al = a[..., :3], a[..., 3]
+    mx, mn = rgb.max(-1), rgb.min(-1)
+    sat = (mx - mn) / (mx + 1e-3)
+    h = al.shape[0]
+    low = np.zeros_like(al, bool)
+    low[int(h * 0.85):] = True
+    al[(mx > 140) & (sat < 0.16) & low] = 0
+    lab, n = ndimage.label(al > 40)
+    if n > 1:
+        sizes = ndimage.sum(np.ones_like(al), lab, range(1, n + 1))
+        keep = 1 + int(np.argmax(sizes))
+        al[(lab != keep) & (lab > 0)] = 0
+    a[..., 3] = al
+    out = Image.fromarray(a.astype(np.uint8))
+    bbox = out.getchannel("A").getbbox()
+    (out.crop(bbox) if bbox else out).save(png)
+    return png
+
+
 def cutout(src, out):
     """Tách nền (rembg), cắt sát viền nhân vật."""
     global _SESSION
-    from PIL import Image
-    from rembg import new_session, remove
     out = Path(out)
     if out.exists():
         return out
+    from PIL import Image
+    from rembg import new_session, remove
     if _SESSION is None:
         _SESSION = new_session("isnet-general-use")
     im = Image.open(src).convert("RGBA")
@@ -75,4 +104,5 @@ def cutout(src, out):
     if bbox:
         res = res.crop(bbox)
     res.save(out)
+    clean_cutout(out)
     return out

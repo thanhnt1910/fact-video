@@ -2,46 +2,47 @@
 ===== CD-F1 =====
 ▶️  CD-F1: Có một đền đá còn cổ hơn Stonehenge khoảng 6.000 năm
   🎙️  VieNeu đọc 5 câu (lần đầu nạp mô hình hơi lâu)…
-❌ CD-F1: VieNeu lỗi:
-                                         ^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/vieneu/factory.py", line 25, in Vieneu
-    return V3TurboVieNeuTTS(**kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/vieneu/v3turbo.py", line 176, in __init__
-    self.engine = OnnxV3LiteEngine(
-                  ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/vieneu/_v3_turbo_engine/onnx_runtime_lite.py", line 158, in __init__
-    self.sess_pre = ort.InferenceSession(str(vd / "vieneu_prefill.onnx"), so, providers=prov)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 683, in __init__
-    self._create_inference_session(providers, provider_options, disabled_optimizers)
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 789, in _create_inference_session
-    sess.initialize_session(providers, provider_options, disabled_optimizers)
-onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : External data path validation failed for initializer: c.layers.0.self_attn.q_norm.weight. Error: External data path escapes model directory. External data path: "vieneu_backbone_shared.data" resolved path: "/home/runner/.cache/huggingface/hub/blobs/5c/5cdab01c7698482515bcc0440cf7a395c42c4358240304b7ddc65f17db39e7c0" allowed directory: "/home/runner/.cache/huggingface/hub/blobs/8b"
+     đã chép 14 file mô hình thay cho symlink
+     đã nạp mô hình sau 6s
+     câu 1/5 xong (2.5s)
+     câu 2/5 xong (5.1s)
+     câu 3/5 xong (4.1s)
+     câu 4/5 xong (3.8s)
+     câu 5/5 xong (4.2s)
+  🎬 Dựng 971 khung hình (32.3 giây, 30 fps)
+     … 150/971 khung, còn khoảng 78s
+     … 300/971 khung, còn khoảng 59s
+     … 450/971 khung, còn khoảng 44s
+     … 600/971 khung, còn khoảng 30s
+     … 750/971 khung, còn khoảng 18s
+     … 900/971 khung, còn khoảng 6s
+  ℹ️  Chưa có nhạc nền (assets/music/nhac-nen.mp3), video chỉ có giọng đọc
+✅ Xong output/CD-F1/CD-F1.mp4  (32.3s video, mất 109s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
 ===== DV1 =====
 ▶️  DV1: Bạch tuộc có tới 3 trái tim
   🎙️  VieNeu đọc 7 câu (lần đầu nạp mô hình hơi lâu)…
-❌ DV1: VieNeu lỗi:
-                                         ^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/vieneu/factory.py", line 25, in Vieneu
-    return V3TurboVieNeuTTS(**kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/vieneu/v3turbo.py", line 176, in __init__
-    self.engine = OnnxV3LiteEngine(
-                  ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/vieneu/_v3_turbo_engine/onnx_runtime_lite.py", line 158, in __init__
-    self.sess_pre = ort.InferenceSession(str(vd / "vieneu_prefill.onnx"), so, providers=prov)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 683, in __init__
-    self._create_inference_session(providers, provider_options, disabled_optimizers)
-  File "/home/runner/work/fact-video/fact-video/.venv-tts/lib/python3.12/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 789, in _create_inference_session
-    sess.initialize_session(providers, provider_options, disabled_optimizers)
-onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : External data path validation failed for initializer: c.layers.0.self_attn.q_norm.weight. Error: External data path escapes model directory. External data path: "vieneu_backbone_shared.data" resolved path: "/home/runner/.cache/huggingface/hub/blobs/5c/5cdab01c7698482515bcc0440cf7a395c42c4358240304b7ddc65f17db39e7c0" allowed directory: "/home/runner/.cache/huggingface/hub/blobs/8b"
+     đã nạp mô hình sau 3s
+     câu 1/7 xong (1.7s)
+     câu 2/7 xong (2.4s)
+     câu 3/7 xong (3.1s)
+     câu 4/7 xong (3.3s)
+     câu 5/7 xong (3.9s)
+     câu 6/7 xong (3.6s)
+     câu 7/7 xong (4.4s)
+  🎬 Dựng 1188 khung hình (39.6 giây, 30 fps)
+     … 150/1188 khung, còn khoảng 86s
+     … 300/1188 khung, còn khoảng 72s
+     … 450/1188 khung, còn khoảng 58s
+     … 600/1188 khung, còn khoảng 45s
+     … 750/1188 khung, còn khoảng 34s
+     … 900/1188 khung, còn khoảng 22s
+     … 1050/1188 khung, còn khoảng 11s
+  ℹ️  Chưa có nhạc nền (assets/music/nhac-nen.mp3), video chỉ có giọng đọc
+✅ Xong output/DV1/DV1.mp4  (39.6s video, mất 121s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-Xong: -
-Lỗi: CD-F1, DV1
+Xong: CD-F1, DV1

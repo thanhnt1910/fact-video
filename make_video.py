@@ -554,9 +554,13 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
         idx += 1
     if has_music:
         args += ["-stream_loop", "-1", "-i", str(music)]
-        graph.append(f"[{idx}:a]aresample=44100,volume={cfg['music_volume']},afade=t=in:d=1.2,"
+        # chuẩn hóa độ to từng bài nhạc (bài nào cũng nghe đều nhau) rồi mới chỉnh âm lượng
+        norm = f"loudnorm=I={cfg['music_lufs']}:LRA=11:TP=-3," if cfg.get("music_lufs") is not None else ""
+        graph.append(f"[{idx}:a]{norm}aresample=44100,volume={cfg['music_volume']},afade=t=in:d=1.2,"
                      f"afade=t=out:st={max(0, total - 2.0):.2f}:d=2.0[mraw]")
-        graph.append("[mraw][vk]sidechaincompress=threshold=0.03:ratio=5:attack=30:release=350[m]")
+        dk = cfg.get("music_duck", {})
+        graph.append(f"[mraw][vk]sidechaincompress=threshold={dk.get('threshold', 0.03)}:ratio={dk.get('ratio', 5)}"
+                     f":attack=40:release=400[m]")
         mix.append("[m]")
         idx += 1
     else:
@@ -598,9 +602,53 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
             proc.wait()
     if proc.returncode != 0:
         raise RuntimeError("ffmpeg lỗi khi ghép video:\n" + err[-2000:])
+    if has_music:
+        try:
+            _log_music_level(work, music, cfg, total, log)
+        except Exception as e:
+            log(f"     (không đo được độ to nhạc: {e})")
     if not has_music and cfg.get("music_file") and not cfg.get("music_library"):
         log(f"  ℹ️  Chưa có nhạc nền ({cfg['music_file']}), video chỉ có giọng đọc")
     return mp4, total
+
+
+def _log_music_level(work, music, cfg, total, log):
+    """Đo nhạc nền nhỏ hơn giọng bao nhiêu dB (khi đang nói) để kiểm tra mà không cần nghe."""
+    import audio_fx
+    import numpy as np
+    vchain = audio_fx.VOICE_CHAIN if cfg.get("voice_fx", True) else "anull"
+    norm = f"loudnorm=I={cfg['music_lufs']}:LRA=11:TP=-3," if cfg.get("music_lufs") is not None else ""
+    dk = cfg.get("music_duck", {})
+    outs = {}
+    for name, g in {
+        "voice": f"[0:a]{vchain},aresample=44100[a]",
+        "music": (f"[0:a]{vchain},aresample=44100[vk];[1:a]{norm}aresample=44100,volume={cfg['music_volume']}[m];"
+                  f"[m][vk]sidechaincompress=threshold={dk.get('threshold', 0.03)}:ratio={dk.get('ratio', 5)}"
+                  f":attack=40:release=400[a]"),
+    }.items():
+        out = work / f"_lv_{name}.wav"
+        inputs = ["-i", str(work / "narration.wav")]
+        if name == "music":
+            inputs += ["-stream_loop", "-1", "-t", f"{total:.2f}", "-i", str(music)]
+        run_ffmpeg(inputs + ["-filter_complex", g, "-map", "[a]", "-t", f"{total:.2f}", "-ac", "1", "-ar", "44100", str(out)])
+        import wave
+        with wave.open(str(out)) as w:
+            outs[name] = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float64) / 32768
+    v, m = outs["voice"], outs["music"]
+    n = min(len(v), len(m))
+    v, m = v[:n], m[:n]
+    win = 4410
+    k = n // win
+    rv = np.sqrt((v[:k * win].reshape(k, win) ** 2).mean(1))
+    rm = np.sqrt((m[:k * win].reshape(k, win) ** 2).mean(1))
+    talk = rv > 10 ** (-40 / 20)
+    db = lambda x: 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-9)
+    if talk.any() and (~talk).any():
+        gap = db(rm[~talk])
+    else:
+        gap = float("nan")
+    log(f"  🎚️  Giọng {db(rv[talk]):.1f} dB · nhạc khi đang nói {db(rm[talk]):.1f} dB "
+        f"(nhỏ hơn giọng {db(rv[talk]) - db(rm[talk]):.1f} dB) · nhạc lúc nghỉ {gap:.1f} dB")
 
 
 def write_caption(script, cfg, out_dir):

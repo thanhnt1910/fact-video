@@ -1,55 +1,82 @@
 
+===== CD-F1 =====
+▶️  CD-F1: Có một đền đá còn cổ hơn Stonehenge khoảng 6.000 năm
+  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
+  🎙️  VieNeu đọc 18 đoạn (lần đầu nạp mô hình hơi lâu)…
+     đã nạp mô hình sau 3s
+     câu 1/18 xong (0.9s)
+     câu 2/18 xong (1.6s)
+     câu 3/18 xong (1.4s)
+     câu 4/18 xong (0.8s)
+     câu 5/18 xong (1.0s)
+     câu 6/18 xong (1.9s)
+     câu 7/18 xong (1.3s)
+     câu 8/18 xong (1.1s)
+     câu 9/18 xong (1.9s)
+     câu 10/18 xong (1.3s)
+     câu 11/18 xong (0.9s)
+     câu 12/18 xong (0.6s)
+     câu 13/18 xong (1.0s)
+     câu 14/18 xong (0.8s)
+     câu 15/18 xong (0.7s)
+     câu 16/18 xong (0.6s)
+     câu 17/18 xong (1.6s)
+     câu 18/18 xong (1.2s)
+  🎬 Dựng 1041 khung hình (34.7 giây, 30 fps)
+     … 150/1041 khung, còn khoảng 120s
+     … 300/1041 khung, còn khoảng 102s
+     … 450/1041 khung, còn khoảng 78s
+     … 600/1041 khung, còn khoảng 53s
+     … 750/1041 khung, còn khoảng 32s
+     … 900/1041 khung, còn khoảng 16s
+  ℹ️  Chưa có nhạc nền (assets/music/nhac-nen.mp3), video chỉ có giọng đọc
+✅ Xong output/CD-F1/CD-F1.mp4  (34.7s video, mất 150s)
+
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+
 ===== DV1 =====
 ▶️  DV1: Bạch tuộc có tới 3 trái tim
   🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-     🔎 cảnh 1: 11 ảnh từ openverse
-     🔎 cảnh 3: 19 ảnh từ openverse
-     🔎 cảnh 4: 14 ảnh từ openverse
-     🧹 bỏ 1 ảnh không đúng chủ thể "octopus"
-     🔎 cảnh 5: 1 ảnh từ openverse
-     🔎 cảnh 6: 8 ảnh từ openverse
-     🧹 bỏ 7 ảnh không đúng chủ thể "octopus"
-     🔎 cảnh 7: 2 ảnh từ wikimedia
   🎙️  VieNeu đọc 26 đoạn (lần đầu nạp mô hình hơi lâu)…
-     đã nạp mô hình sau 4s
-     câu 1/26 xong (0.8s)
-     câu 2/26 xong (0.8s)
-     câu 3/26 xong (0.5s)
-     câu 4/26 xong (1.5s)
-     câu 5/26 xong (0.7s)
+     đã nạp mô hình sau 3s
+     câu 1/26 xong (0.7s)
+     câu 2/26 xong (0.7s)
+     câu 3/26 xong (0.6s)
+     câu 4/26 xong (1.3s)
+     câu 5/26 xong (0.6s)
      câu 6/26 xong (0.9s)
      câu 7/26 xong (1.3s)
      câu 8/26 xong (0.7s)
      câu 9/26 xong (1.5s)
-     câu 10/26 xong (1.1s)
+     câu 10/26 xong (1.2s)
      câu 11/26 xong (2.3s)
      câu 12/26 xong (0.6s)
      câu 13/26 xong (0.5s)
      câu 14/26 xong (0.7s)
-     câu 15/26 xong (2.4s)
+     câu 15/26 xong (2.3s)
      câu 16/26 xong (0.7s)
-     câu 17/26 xong (1.4s)
-     câu 18/26 xong (0.5s)
+     câu 17/26 xong (1.3s)
+     câu 18/26 xong (0.4s)
      câu 19/26 xong (1.6s)
      câu 20/26 xong (0.6s)
      câu 21/26 xong (0.5s)
-     câu 22/26 xong (0.4s)
-     câu 23/26 xong (0.6s)
+     câu 22/26 xong (0.3s)
+     câu 23/26 xong (0.5s)
      câu 24/26 xong (0.6s)
-     câu 25/26 xong (1.4s)
-     câu 26/26 xong (0.7s)
-  🎬 Dựng 1283 khung hình (42.8 giây, 30 fps)
-     … 150/1283 khung, còn khoảng 121s
-     … 300/1283 khung, còn khoảng 102s
-     … 450/1283 khung, còn khoảng 97s
-     … 600/1283 khung, còn khoảng 89s
-     … 750/1283 khung, còn khoảng 69s
-     … 900/1283 khung, còn khoảng 50s
-     … 1050/1283 khung, còn khoảng 31s
-     … 1200/1283 khung, còn khoảng 11s
+     câu 25/26 xong (1.6s)
+     câu 26/26 xong (0.8s)
+  🎬 Dựng 1278 khung hình (42.6 giây, 30 fps)
+     … 150/1278 khung, còn khoảng 125s
+     … 300/1278 khung, còn khoảng 102s
+     … 450/1278 khung, còn khoảng 97s
+     … 600/1278 khung, còn khoảng 85s
+     … 750/1278 khung, còn khoảng 69s
+     … 900/1278 khung, còn khoảng 50s
+     … 1050/1278 khung, còn khoảng 30s
+     … 1200/1278 khung, còn khoảng 10s
   ℹ️  Chưa có nhạc nền (assets/music/nhac-nen.mp3), video chỉ có giọng đọc
-✅ Xong output/DV1/DV1.mp4  (42.8s video, mất 219s)
+✅ Xong output/DV1/DV1.mp4  (42.6s video, mất 203s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-Xong: DV1
+Xong: CD-F1, DV1

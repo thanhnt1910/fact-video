@@ -145,20 +145,129 @@
  },
  {
   "scene": 3,
-  "query": "medieval musicians bagpipe engraving",
-  "candidates": []
+  "query": "peasant dance Bruegel",
+  "candidates": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Pieter_Bruegel_The_Peasant_Dance.jpg/1920px-Pieter_Bruegel_The_Peasant_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3000,
+    "h": 2086,
+    "credit": "\"Pieter Bruegel The Peasant Dance.jpg\" – Pieter_Bruegel_d._Ä._014.jpg: File Upload Bot (Eloquence)\nderivative work: Wikielwikingo (talk), Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_The_Peasant_Dance.jpg)",
+    "needs_credit": false,
+    "text": "File:Pieter Bruegel The Peasant Dance.jpg Peter Brueghel the Elder: \"The Peasant Dance\".",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Peasant_Dance_%28Bruegel%29.jpg/1920px-The_Peasant_Dance_%28Bruegel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 41945,
+    "h": 29385,
+    "credit": "\"The Peasant Dance (Bruegel).jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:The_Peasant_Dance_(Bruegel).jpg)",
+    "needs_credit": false,
+    "text": "File:The Peasant Dance (Bruegel).jpg Питер Брейгель Старший. Крестьянский танец. 1568. Дерево, масло. 114 × 164 см. Музей истории искусств, Вена",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_-_WGA3499.jpg/1920px-Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_-_WGA3499.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2996,
+    "h": 2086,
+    "credit": "\"Pieter Bruegel the Elder - The Peasant Dance - WGA3499.jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_-_WGA3499.jpg)",
+    "needs_credit": false,
+    "text": "File:Pieter Bruegel the Elder - The Peasant Dance - WGA3499.jpg «Крестьянский танец» (нид. De dorpskermis). 1568. Дерево, масло. 114 × 164 см. Музей истории искусств, Вена (Австрия)",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Peasant_dance%2C_by_Pieter_Bruegel_%28I%29.jpg/1920px-Peasant_dance%2C_by_Pieter_Bruegel_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2117,
+    "h": 1470,
+    "credit": "\"Peasant dance, by Pieter Bruegel (I).jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Peasant_dance,_by_Pieter_Bruegel_(I).jpg)",
+    "needs_credit": false,
+    "text": "File:Peasant dance, by Pieter Bruegel (I).jpg ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_%28detail%29_-_WGA3501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1009,
+    "h": 770,
+    "credit": "\"Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3501.jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_(detail)_-_WGA3501.jpg)",
+    "needs_credit": false,
+    "text": "File:Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3501.jpg ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_%28detail%29_-_WGA3503.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 1082,
+    "credit": "\"Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3503.jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_(detail)_-_WGA3503.jpg)",
+    "needs_credit": false,
+    "text": "File:Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3503.jpg ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_%28detail%29_-_WGA3504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 1081,
+    "credit": "\"Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3504.jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_(detail)_-_WGA3504.jpg)",
+    "needs_credit": false,
+    "text": "File:Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3504.jpg ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Peasant%27s_Dance_-_Pieter_Brueghel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 1024,
+    "credit": "\"Peasant's Dance - Pieter Brueghel.png\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Peasant%27s_Dance_-_Pieter_Brueghel.png)",
+    "needs_credit": false,
+    "text": "File:Peasant's Dance - Pieter Brueghel.png Peasant's Dance",
+    "source": "wikimedia"
+   }
+  ]
  },
  {
   "scene": 4,
-  "query": "Saint Vitus",
+  "query": "Saint Vitus martyrdom",
   "candidates": [
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Saint_Vitus_Cathedral_in_The_Heart_of_Europe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1354,
-    "h": 1968,
-    "credit": "\"Saint Vitus Cathedral in The Heart of Europe.jpg\" – Jan C. Vondrouš, Public domain (https://commons.wikimedia.org/wiki/File:Saint_Vitus_Cathedral_in_The_Heart_of_Europe.jpg)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/German_Martyrdom_of_Saint_Vitus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1212,
+    "h": 1568,
+    "credit": "\"German Martyrdom of Saint Vitus.jpg\" – Anonymous (Germany)Unknown author, Public domain (https://commons.wikimedia.org/wiki/File:German_Martyrdom_of_Saint_Vitus.jpg)",
     "needs_credit": false,
-    "text": "File:Saint Vitus Cathedral in The Heart of Europe.jpg in the pamphlet The Heart of Europe.",
+    "text": "File:German Martyrdom of Saint Vitus.jpg ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Martyrdom_of_saint_Vitus.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1560,
+    "h": 2000,
+    "credit": "\"Martyrdom of saint Vitus.PNG\" – Anonymous (Germany)Unknown author, Public domain (https://commons.wikimedia.org/wiki/File:Martyrdom_of_saint_Vitus.PNG)",
+    "needs_credit": false,
+    "text": "File:Martyrdom of saint Vitus.PNG ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Kremser_Schmidt_-_Das_Martyrium_des_heiligen_Vitus.jpg/1920px-Kremser_Schmidt_-_Das_Martyrium_des_heiligen_Vitus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3000,
+    "h": 4793,
+    "credit": "\"Kremser Schmidt - Das Martyrium des heiligen Vitus.jpg\" – Martin Johann Schmidt, Public domain (https://commons.wikimedia.org/wiki/File:Kremser_Schmidt_-_Das_Martyrium_des_heiligen_Vitus.jpg)",
+    "needs_credit": false,
+    "text": "File:Kremser Schmidt - Das Martyrium des heiligen Vitus.jpg ",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Vitus_in_Kettle%2C_c._1500_-_Zeppelin_Museum_Friedrichshafen_-_DSC06869.JPG/1920px-Vitus_in_Kettle%2C_c._1500_-_Zeppelin_Museum_Friedrichshafen_-_DSC06869.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2708,
+    "h": 4294,
+    "credit": "\"Vitus in Kettle, c. 1500 - Zeppelin Museum Friedrichshafen - DSC06869.JPG\" – Daderot, Public domain (https://commons.wikimedia.org/wiki/File:Vitus_in_Kettle,_c._1500_-_Zeppelin_Museum_Friedrichshafen_-_DSC06869.JPG)",
+    "needs_credit": false,
+    "text": "File:Vitus in Kettle, c. 1500 - Zeppelin Museum Friedrichshafen - DSC06869.JPG St. Vitus in kettle, anonymous artist, South Germany, circa 1500. Exhibit in the Art Collection of the Zeppelin Museum Friedrichshafen, Seestraße 22, Friedrichshafen, Germany. Photography was permitted in the museum, without restriction.",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg/1920px-Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2564,
+    "h": 4280,
+    "credit": "\"Bregenz Martinskapelle Seitenaltar Hl Vitus.jpg\" – Photo: Andreas Praefcke, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg)",
+    "needs_credit": true,
+    "text": "File:Bregenz Martinskapelle Seitenaltar Hl Vitus.jpg Bregenz, Martinskapelle (im Martinsturm in der Bregenzer Oberstadt)\n\nSeitenaltar von 1781 mit Darstellung des Martyriums des hl. Vitus",
     "source": "wikimedia"
    }
   ]
@@ -307,16 +416,6 @@
     "needs_credit": true,
     "text": "File:Franco-Prussian War; the wounded being taken to Strasbourg C Wellcome V0015459.jpg Franco-Prussian War: the wounded being taken to Strasbourg Cathedral. Wood engraving.\n\nIconographic Collections\nKeywords: Strasbourg Cathedral (Strasbourg, France)",
     "source": "wikimedia"
-   },
-   {
-    "url": "https://live.staticflickr.com/65535/52699654387_68ec70373b_b.jpg",
-    "thumb": "https://api.openverse.org/v1/images/e88906da-2ef0-48b3-ba11-db4bfd040ec1/thumb/",
-    "w": 1024,
-    "h": 808,
-    "credit": "\"Geography 069 - Map of Strasbourg_Birds Eye View - 1548\" – BioKnowlogy, Public Domain (https://www.flickr.com/photos/194235528@N08/52699654387)",
-    "needs_credit": false,
-    "text": "Geography 069 - Map of Strasbourg_Birds Eye View - 1548 1548 bioknowlogy cathedral earth france funny geographer geography globe maps new roads satire science strasbourg world worldmap",
-    "source": "openverse"
    }
   ]
  }

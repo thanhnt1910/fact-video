@@ -1,0 +1,56 @@
+name: Nghe thử giọng Gemini
+
+on:
+  workflow_dispatch:
+    inputs:
+      voices:
+        description: "Danh sách giọng Gemini (vd: Sulafat,Aoede,Kore). Để trống = mặc định"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cài đặt
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pip install -q numpy
+      - name: Tạo file nghe thử
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          mkdir -p demo logs
+          rm -f demo/list.txt
+          set -o pipefail
+          python demo_gemini.py "${{ inputs.voices }}" 2>&1 | tee logs/gemini-demo.log
+      - name: Gửi Telegram
+        if: always()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] && [ -s demo/list.txt ] || exit 0
+          CHAT=$(cat telegram_chat_id.txt)
+          curl -s -o /dev/null -F chat_id="$CHAT" -F text="🎧 Nghe thử giọng Gemini TTS:" "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          while IFS='|' read -r name file || [ -n "$file" ]; do
+            [ -z "$file" ] && continue
+            curl -s -o /dev/null -F chat_id="$CHAT" -F audio=@"demo/$file" -F title="$name" \
+              -F performer="Hóa Ra Là Vậy" "https://api.telegram.org/bot${TG_TOKEN}/sendAudio"
+          done < demo/list.txt
+      - name: Lưu vào repo
+        if: always()
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add demo/ logs/gemini-demo.log || true
+          git commit -q -m "Nghe thử giọng Gemini" || exit 0
+          git pull --rebase -q || true
+          git push -q

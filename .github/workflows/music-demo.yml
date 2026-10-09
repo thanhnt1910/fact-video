@@ -1,0 +1,60 @@
+name: Nghe thử nhạc nền
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Bộ nhớ đệm nhạc nền
+        uses: actions/cache@v4
+        with:
+          path: assets/music/cache
+          key: fv-music-${{ hashFiles('assets/music/library.json') }}
+          restore-keys: fv-music-
+      - name: Tải thử thư viện nhạc
+        run: python3 music.py --probe
+      - name: Gửi Telegram (mỗi nhóm chủ đề một album)
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] || exit 0
+          CHAT=$(cat telegram_chat_id.txt)
+          API="https://api.telegram.org/bot${TG_TOKEN}"
+          curl -s -o /dev/null -F chat_id="$CHAT" -F text="🎵 Nghe thử nhạc nền không bản quyền (Kevin MacLeod, CC BY 4.0). Mỗi album là một nhóm chủ đề, mỗi bài 25 giây." "$API/sendMessage"
+          for mood in su-la bi-an sinh-ton phi-vu than-thoai; do
+            files=(); i=0; media="["
+            while IFS='|' read -r moods name file dur; do
+              [ -z "$file" ] && continue
+              case "/$moods/" in *"/$mood/"*) ;; *) continue ;; esac
+              [ $i -ge 10 ] && break
+              [ $i -gt 0 ] && media+=","
+              media+="{\"type\":\"audio\",\"media\":\"attach://f$i\",\"caption\":\"$name\"}"
+              files+=(-F "f$i=@demo/$file")
+              i=$((i+1))
+            done < demo/music-list.txt
+            media+="]"
+            [ $i -eq 0 ] && continue
+            curl -s -o /dev/null -F chat_id="$CHAT" -F text="── Nhóm: $mood ──" "$API/sendMessage"
+            if [ $i -eq 1 ]; then
+              curl -s -o /dev/null -w "$mood: %{http_code}\n" -F chat_id="$CHAT" "${files[@]/f0=/audio=}" "$API/sendAudio"
+            else
+              curl -s -o /dev/null -w "$mood: %{http_code}\n" -F chat_id="$CHAT" -F media="$media" "${files[@]}" "$API/sendMediaGroup"
+            fi
+          done
+      - name: Lưu kết quả vào repo
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add logs/music-probe.txt
+          git commit -q -m "Kết quả tải thử nhạc nền" || exit 0
+          git pull --rebase -q || true
+          git push -q

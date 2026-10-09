@@ -254,7 +254,9 @@ def story_events(scene, is_first):
     """Lịch hiệu ứng cho phong cách kể chuyện (khớp hoạt ảnh mờ dần trong scene.html)."""
     t, d = scene["type"], scene["dur"]
     ev = []
-    if not is_first:
+    # chuyển cảnh: chỉ tan hình, không chèn tiếng (nhạc nền dẫn dắt) — muốn có tiếng thì đặt file
+    # assets/sfx/story_turn.wav, máy sẽ dùng file đó
+    if not is_first and (ROOT / "assets" / "sfx" / "story_turn.wav").exists():
         ev.append((-0.32, "story_turn", 0.75))
     if t == "hook":
         ev.append((0.0, "story_boom", 1.0))

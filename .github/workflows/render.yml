@@ -51,6 +51,13 @@ jobs:
           key: fv-cache-v1-${{ hashFiles('requirements.txt') }}
           restore-keys: fv-cache-v1-
 
+      - name: Bộ nhớ đệm nhạc nền
+        uses: actions/cache@v4
+        with:
+          path: assets/music/cache
+          key: fv-music-${{ hashFiles('assets/music/library.json') }}
+          restore-keys: fv-music-
+
       - name: Cài thư viện dựng video
         run: |
           python -m pip install -q -r requirements.txt

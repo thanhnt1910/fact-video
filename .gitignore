@@ -6,3 +6,4 @@ __pycache__/
 ci_outputs.txt
 ci_failed.txt
 giong-mau/nghe-thu/
+assets/music/cache/

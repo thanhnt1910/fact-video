@@ -1,0 +1,284 @@
+{
+  "_ghi_chu": "Thư viện nhạc nền không bản quyền. Nhạc Kevin MacLeod (CC BY 4.0): được dùng miễn phí cả video kiếm tiền, chỉ cần ghi nguồn (máy tự thêm vào caption). Muốn thêm bài: thêm mục vào 'tracks' (url tải trực tiếp, moods, credit). 'disabled': true để bỏ bài.",
+  "topic_moods": {
+    "su-la": [
+      "su-la"
+    ],
+    "bi-an": [
+      "bi-an"
+    ],
+    "sinh-ton": [
+      "sinh-ton"
+    ],
+    "phi-vu": [
+      "phi-vu"
+    ],
+    "than-thoai": [
+      "than-thoai"
+    ],
+    "lich-su": [
+      "su-la"
+    ],
+    "co-dai": [
+      "than-thoai",
+      "su-la"
+    ],
+    "tam-tri": [
+      "bi-an"
+    ],
+    "default": [
+      "su-la",
+      "bi-an"
+    ]
+  },
+  "tracks": [
+    {
+      "name": "Teller of the Tales",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Teller%20of%20the%20Tales.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Teller of the Tales\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Thatched Villagers",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Thatched%20Villagers.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Thatched Villagers\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Village Consort",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Village%20Consort.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Village Consort\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Danse Macabre",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Danse%20Macabre.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Danse Macabre\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Echoes of Time",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Echoes%20of%20Time.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Echoes of Time\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Pippin the Hunchback",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Pippin%20the%20Hunchback.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Pippin the Hunchback\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Master of the Feast",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Master%20of%20the%20Feast.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Master of the Feast\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Achaidh Cheide",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Achaidh%20Cheide.mp3",
+      "moods": [
+        "su-la"
+      ],
+      "credit": "\"Achaidh Cheide\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Investigations",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Investigations.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"Investigations\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Crypto",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Crypto.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"Crypto\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Ghost Story",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ghost%20Story.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"Ghost Story\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Echoes of Time v2",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Echoes%20of%20Time%20v2.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"Echoes of Time v2\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Lightless Dawn",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lightless%20Dawn.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"Lightless Dawn\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Long Note Two",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20Two.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"Long Note Two\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "The Descent",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Descent.mp3",
+      "moods": [
+        "bi-an"
+      ],
+      "credit": "\"The Descent\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Despair and Triumph",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Despair%20and%20Triumph.mp3",
+      "moods": [
+        "sinh-ton"
+      ],
+      "credit": "\"Despair and Triumph\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Dark Times",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dark%20Times.mp3",
+      "moods": [
+        "sinh-ton"
+      ],
+      "credit": "\"Dark Times\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Heartbreaking",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Heartbreaking.mp3",
+      "moods": [
+        "sinh-ton"
+      ],
+      "credit": "\"Heartbreaking\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Dreams Become Real",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dreams%20Become%20Real.mp3",
+      "moods": [
+        "sinh-ton"
+      ],
+      "credit": "\"Dreams Become Real\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Clean Soul",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Clean%20Soul.mp3",
+      "moods": [
+        "sinh-ton"
+      ],
+      "credit": "\"Clean Soul\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Lost Time",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lost%20Time.mp3",
+      "moods": [
+        "sinh-ton"
+      ],
+      "credit": "\"Lost Time\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Sneaky Snitch",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sneaky%20Snitch.mp3",
+      "moods": [
+        "phi-vu"
+      ],
+      "credit": "\"Sneaky Snitch\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Hitman",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Hitman.mp3",
+      "moods": [
+        "phi-vu"
+      ],
+      "credit": "\"Hitman\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Spy Glass",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Spy%20Glass.mp3",
+      "moods": [
+        "phi-vu"
+      ],
+      "credit": "\"Spy Glass\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Cipher",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cipher.mp3",
+      "moods": [
+        "phi-vu"
+      ],
+      "credit": "\"Cipher\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Dragon and Toast",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dragon%20and%20Toast.mp3",
+      "moods": [
+        "phi-vu"
+      ],
+      "credit": "\"Dragon and Toast\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Lord of the Land",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lord%20of%20the%20Land.mp3",
+      "moods": [
+        "than-thoai"
+      ],
+      "credit": "\"Lord of the Land\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Five Armies",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Five%20Armies.mp3",
+      "moods": [
+        "than-thoai"
+      ],
+      "credit": "\"Five Armies\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Impact Prelude",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Impact%20Prelude.mp3",
+      "moods": [
+        "than-thoai"
+      ],
+      "credit": "\"Impact Prelude\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Ancient Rite",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ancient%20Rite.mp3",
+      "moods": [
+        "than-thoai"
+      ],
+      "credit": "\"Ancient Rite\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    },
+    {
+      "name": "Gymnopedie No 1",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Gymnopedie%20No%201.mp3",
+      "moods": [
+        "than-thoai"
+      ],
+      "credit": "\"Gymnopedie No 1\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)"
+    }
+  ]
+}

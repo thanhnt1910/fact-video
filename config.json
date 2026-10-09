@@ -27,8 +27,9 @@
   "subtitle_max_words": 7,
 
   "music_file": "assets/music/nhac-nen.mp3",
+  "music_library": true,
   "music_volume": 0.18,
-  "sfx": { "enabled": true, "volume": 0.55, "ambience": 0.09 },
+  "sfx": { "enabled": true, "volume": 0.55, "ambience": 0.0 },
   "voice_fx": true,
   "loudness_lufs": -14,
   "auto_prosody": true,

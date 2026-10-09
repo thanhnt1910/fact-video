@@ -532,8 +532,14 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
     mp4 = out_dir / f"{name}.mp4"
 
     import audio_fx
-    music = ROOT / cfg.get("music_file", "")
-    has_music = bool(cfg.get("music_file")) and music.is_file()
+    if cfg.get("music_library"):
+        import music as music_lib
+        music, credit = music_lib.pick(script, log)
+        has_music = music is not None
+        script["_music_credit"] = credit
+    else:
+        music = ROOT / cfg.get("music_file", "")
+        has_music = bool(cfg.get("music_file")) and music.is_file()
     sfx_wav = work / "sfx.wav"
     args = ["-f", "image2pipe", "-framerate", str(fps), "-c:v", "mjpeg", "-i", "-",
             "-i", str(work / "narration.wav")]
@@ -548,8 +554,8 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
         idx += 1
     if has_music:
         args += ["-stream_loop", "-1", "-i", str(music)]
-        graph.append(f"[{idx}:a]aresample=44100,volume={cfg['music_volume']},"
-                     f"afade=t=out:st={max(0, total - 1.5):.2f}:d=1.5[mraw]")
+        graph.append(f"[{idx}:a]aresample=44100,volume={cfg['music_volume']},afade=t=in:d=1.2,"
+                     f"afade=t=out:st={max(0, total - 2.0):.2f}:d=2.0[mraw]")
         graph.append("[mraw][vk]sidechaincompress=threshold=0.03:ratio=5:attack=30:release=350[m]")
         mix.append("[m]")
         idx += 1
@@ -592,7 +598,7 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
             proc.wait()
     if proc.returncode != 0:
         raise RuntimeError("ffmpeg lỗi khi ghép video:\n" + err[-2000:])
-    if not has_music and cfg.get("music_file"):
+    if not has_music and cfg.get("music_file") and not cfg.get("music_library"):
         log(f"  ℹ️  Chưa có nhạc nền ({cfg['music_file']}), video chỉ có giọng đọc")
     return mp4, total
 
@@ -607,6 +613,7 @@ def write_caption(script, cfg, out_dir):
         script.get("caption", script["title"]),
         "",
         " ".join("#" + t.lstrip("#") for t in tags),
+    ] + ([f"🎵 Nhạc: {script['_music_credit']}"] if script.get("_music_credit") else []) + [
         "",
         "NGUỒN KIỂM CHỨNG (không đăng, để bạn lưu lại):",
     ] + [f"- {s}" for s in script.get("sources", [])]

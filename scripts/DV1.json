@@ -19,7 +19,7 @@
       "type": "hook",
       "icon": "🐙",
       "text": "Bạch tuộc có tới **3** **trái** **tim**",
-      "voice": "Bạn có biết không? Bạch tuộc có tới… ba trái tim!"
+      "voice": "[nhanh] Bạn có biết không? [nhấn] Bạch tuộc có tới… ba trái tim!"
     },
     {
       "type": "compare",
@@ -35,7 +35,7 @@
         "value": "3 tim"
       },
       "winner": "right",
-      "voice": "Con người chúng ta chỉ cần một trái tim. Vậy tại sao… bạch tuộc lại cần tới ba?"
+      "voice": "[nhanh] Con người chúng ta, chỉ cần một trái tim. [trầm] Vậy tại sao… bạch tuộc lại cần tới ba?"
     },
     {
       "type": "explain",
@@ -51,7 +51,7 @@
           "text": "Lấy oxy từ nước biển"
         }
       ],
-      "voice": "Hai trái tim nhỏ nằm ngay cạnh mang. Nhiệm vụ của chúng? Bơm máu qua mang, để lấy oxy từ nước biển."
+      "voice": "Hai trái tim nhỏ, nằm ngay cạnh mang. [cao] Nhiệm vụ của chúng? [nhanh] Bơm máu qua mang, để lấy oxy từ nước biển."
     },
     {
       "type": "explain",
@@ -67,27 +67,27 @@
           "text": "Nuôi cả 8 xúc tu"
         }
       ],
-      "voice": "Còn trái tim thứ ba, to hơn hẳn! Nó bơm máu giàu oxy đi khắp cơ thể, và nuôi cả tám xúc tu."
+      "voice": "[cao] Còn trái tim thứ ba, to hơn hẳn! Nó bơm máu giàu oxy đi khắp cơ thể, và nuôi cả tám xúc tu."
     },
     {
       "type": "text",
       "icon": "🔵",
       "text": "Máu bạch tuộc màu **xanh lam**",
       "sub": "Chất mang oxy làm từ **đồng**, không phải **sắt** như máu người",
-      "voice": "Chưa hết đâu! Máu bạch tuộc… có màu xanh lam! Vì chất mang oxy trong máu được làm từ đồng, chứ không phải sắt như máu người."
+      "voice": "[nhanh] Chưa hết đâu! [nhấn] Máu bạch tuộc… có màu xanh lam! [nhanh] Vì chất mang oxy trong máu được làm từ đồng, chứ không phải sắt như máu người."
     },
     {
       "type": "text",
       "icon": "🏊",
       "text": "Khi bơi, **tim chính ngừng đập**",
       "sub": "Vì vậy bạch tuộc thích **bò** hơn **bơi**",
-      "voice": "Và điều kỳ lạ nhất: khi bạch tuộc bơi, trái tim chính… ngừng đập! Thế nên chúng thích bò hơn bơi, vì bơi rất nhanh mệt."
+      "voice": "[trầm] Và điều kỳ lạ nhất… [nhấn] khi bạch tuộc bơi, trái tim chính… ngừng đập! [nhanh] Thế nên chúng thích bò hơn bơi, vì bơi rất nhanh mệt."
     },
     {
       "type": "outro",
       "recap": "3 trái tim · máu xanh · ghét bơi",
       "next": "Cá vàng thật sự chỉ nhớ được 3 giây?",
-      "voice": "Ba trái tim. Máu xanh. Và… ghét bơi! Hóa ra là vậy! Tập sau: cá vàng có thật chỉ nhớ được ba giây? Theo dõi để xem nhé!"
+      "voice": "[chậm] Ba trái tim. Máu xanh. [cao] Và… ghét bơi! [nhấn] Hóa ra là vậy! [nhanh] Tập sau: cá vàng có thật chỉ nhớ được ba giây? Theo dõi để xem nhé!"
     }
   ]
 }

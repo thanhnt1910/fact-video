@@ -14,12 +14,16 @@
     "UNESCO World Heritage – Göbekli Tepe — CẦN KIỂM TRA LẠI",
     "Encyclopaedia Britannica – Göbekli Tepe — CẦN KIỂM TRA LẠI"
   ],
+  "pronounce": {
+    "Göbekli Tepe": "Gơ bếch li Tê pê",
+    "Stonehenge": "Xtôn hen"
+  },
   "scenes": [
     {
       "type": "hook",
       "icon": "🗿",
       "text": "Có một đền đá còn cổ hơn **Stonehenge** khoảng **6.000** năm",
-      "voice": "Có một ngôi đền đá… còn cổ hơn Stonehenge tới sáu nghìn năm!"
+      "voice": "[trầm] Có một ngôi đền đá… [nhấn] còn cổ hơn Stonehenge tới sáu nghìn năm!"
     },
     {
       "type": "number",
@@ -27,7 +31,7 @@
       "value": "11.600",
       "unit": "năm",
       "caption": "Những cột đá cao hàng mét, khắc hình **cáo**, **lợn rừng**, **chim**",
-      "voice": "Đó là Göbekli Tepe, ở Thổ Nhĩ Kỳ. Được xây cách đây khoảng… mười một nghìn sáu trăm năm! Với những cột đá khổng lồ, khắc hình cáo, lợn rừng và chim."
+      "voice": "[nhanh] Đó là Göbekli Tepe, ở Thổ Nhĩ Kỳ. [chậm] Được xây cách đây khoảng… mười một nghìn sáu trăm năm! [nhanh] Với những cột đá khổng lồ, khắc hình cáo, lợn rừng và chim."
     },
     {
       "type": "timeline",
@@ -50,20 +54,20 @@
           "label": "🔺 Kim tự tháp Giza"
         }
       ],
-      "voice": "Đặt lên dòng thời gian, bạn sẽ thấy: nó xuất hiện trước cả nông nghiệp! Rất lâu trước Stonehenge, và cả kim tự tháp Giza."
+      "voice": "Đặt lên dòng thời gian, bạn sẽ thấy… [nhấn] nó xuất hiện trước cả nông nghiệp! [nhanh] Rất lâu trước Stonehenge, và cả kim tự tháp Giza."
     },
     {
       "type": "text",
       "icon": "🤯",
       "text": "Người xây là **thợ săn hái lượm**",
       "sub": "Họ chưa biết trồng trọt, nhưng đã cùng nhau dựng nên công trình khổng lồ",
-      "voice": "Nhưng điều khiến các nhà khoa học bất ngờ nhất? Người xây nó được cho là… thợ săn hái lượm. Họ còn chưa biết trồng trọt!"
+      "voice": "[trầm] Nhưng điều khiến các nhà khoa học bất ngờ nhất? [nhỏ] Người xây nó được cho là… thợ săn hái lượm. [nhấn] Họ còn chưa biết trồng trọt!"
     },
     {
       "type": "outro",
       "recap": "Cổ hơn Stonehenge · có trước cả nông nghiệp",
       "next": "Kim tự tháp từng trắng sáng lấp lánh?",
-      "voice": "Cổ hơn Stonehenge. Có trước cả nông nghiệp. Hóa ra là vậy! Tập sau: kim tự tháp từng trắng sáng lấp lánh? Theo dõi để xem nhé!"
+      "voice": "[chậm] Cổ hơn Stonehenge. Có trước cả nông nghiệp. [nhấn] Hóa ra là vậy! [nhanh] Tập sau: kim tự tháp từng trắng sáng lấp lánh? Theo dõi để xem nhé!"
     }
   ]
 }

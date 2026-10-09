@@ -125,3 +125,26 @@ Mỗi khi có kịch bản mới hoặc kịch bản bị sửa trong thư mục
 - Muốn dựng lại một video: tab **Actions → Dựng video → Run workflow**, ô "only" điền mã, ví dụ `DV1`.
 - Video cũng được lưu trong mục *Artifacts* của lần chạy, giữ trong 7 ngày.
 - Danh sách video đã dựng nằm trong `rendered.json`. Xóa một dòng trong file đó để dựng lại video tương ứng.
+
+---
+
+## 9. Nhấn nhá giọng đọc và hiệu ứng âm thanh
+
+**Thẻ nhấn nhá** đặt ở đầu câu trong `voice`: `[nhấn]` `[nhanh]` `[chậm]` `[cao]` `[trầm]` `[nhỏ]` `[ngừng]`.
+Dấu `…` giữa câu sẽ tạo khoảng ngừng hồi hộp thật. Chi tiết xem `PROMPT_KICH_BAN.md`.
+
+**Cách đọc tên nước ngoài:** thêm `"pronounce": {"Göbekli Tepe": "Gơ bếch li Tê pê"}` vào kịch bản.
+
+**Trong `config.json`:**
+| Mục | Ý nghĩa |
+|---|---|
+| `sfx.enabled`, `sfx.volume` | Bật/tắt và độ to hiệu ứng âm thanh |
+| `voice_fx` | Xử lý giọng cho rõ, dày như radio |
+| `loudness_lufs` | Âm lượng chuẩn (-14 hợp TikTok/YouTube/Facebook) |
+| `auto_prosody` | Tự nhấn câu mở đầu và câu cảm thán khi không có thẻ |
+| `pauses` | Độ dài các khoảng ngừng (giây) |
+
+**Thay hiệu ứng bằng âm của bạn:** đặt file WAV 16-bit vào `assets/sfx/` với tên
+`transition.wav`, `pop.wav`, `tick.wav`, `chime.wav`, `impact.wav`, `reveal.wav`, `outro.wav`.
+
+**Nhạc nền** (`assets/music/nhac-nen.mp3`) sẽ tự hạ nhỏ khi có giọng đọc và to lên lúc ngừng.

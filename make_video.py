@@ -284,10 +284,7 @@ def trim_silence(samples, thresh=600, keep_head=0.04, keep_tail=0.12):
     return samples[a:b] if b - a > win * 4 else samples
 
 
-def voices_vieneu(script, cfg, work):
-    """Giọng VieNeu-TTS chạy trên máy (không giới hạn lượt gọi). Dùng giọng có sẵn hoặc
-    giọng nhân bản từ 1 file mẫu 3–8 giây. Mỗi cảnh đọc riêng nên giữ được ngữ điệu từng câu."""
-    vc = cfg.get("vieneu", {})
+def _vieneu_python(vc):
     py = ROOT / vc.get("python", ".venv-tts/Scripts/python.exe")
     if not py.exists():
         alt = ROOT / ".venv-tts" / "bin" / "python"
@@ -295,6 +292,32 @@ def voices_vieneu(script, cfg, work):
     if not py.exists():
         raise RuntimeError("Chưa cài VieNeu-TTS. Bấm đúp cai-giong-doc.bat trước, "
                            "hoặc đặt \"tts_engine\": \"edge\" trong config.json")
+    return py
+
+
+def _apply_style(samples, style, work, tag):
+    """Đổi tốc độ / cao độ / âm lượng 1 đoạn giọng bằng ffmpeg."""
+    import audio_fx
+    flt = audio_fx.style_filter(style)
+    if not flt:
+        return samples
+    a, b = work / f"_st_{tag}_in.wav", work / f"_st_{tag}_out.wav"
+    write_wav(a, samples)
+    run_ffmpeg(["-i", str(a), "-af", flt, "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(b)])
+    out = read_wav(b)
+    a.unlink(missing_ok=True)
+    b.unlink(missing_ok=True)
+    return out
+
+
+def voices_vieneu(script, cfg, work):
+    """Giọng VieNeu-TTS chạy trên máy. Mỗi cảnh được tách thành từng đoạn theo câu và dấu "…",
+    mỗi đoạn có nhấn nhá riêng (tốc độ, cao độ, âm lượng) rồi ghép lại với khoảng ngừng tự nhiên.
+    Trả về list (mẫu âm thanh, [(chữ phụ đề, bắt đầu, kết thúc)]) cho từng cảnh."""
+    import hashlib
+    import audio_fx
+    vc = cfg.get("vieneu", {})
+    py = _vieneu_python(vc)
     ref = (vc.get("ref_audio") or "").strip()
     ref_path = (ROOT / ref) if ref and not Path(ref).is_absolute() else (Path(ref) if ref else None)
     if ref_path and not ref_path.exists():
@@ -303,18 +326,32 @@ def voices_vieneu(script, cfg, work):
     if ref_path:
         st = ref_path.stat()
         sig += f"{ref_path.name}|{st.st_size}|{int(st.st_mtime)}"
-    items, wavs = [], []
-    for i, s in enumerate(script["scenes"]):
-        wav, meta = work / f"vn_{i:02d}.wav", work / f"vn_{i:02d}.txt"
-        key = sig + "|" + s["voice"]
-        wavs.append(wav)
-        if not (wav.exists() and meta.exists() and meta.read_text(encoding="utf-8") == key):
-            items.append({"i": i, "text": s["voice"], "out": str(work / f"vn_{i:02d}_raw.wav"), "key": key})
-    if items:
-        log(f"  🎙️  VieNeu đọc {len(items)} câu (lần đầu nạp mô hình hơi lâu)…")
+
+    auto = cfg.get("auto_prosody", True)
+    plans = [audio_fx.parse_voice(s["voice"], s["type"], auto, cfg.get("pauses")) for s in script["scenes"]]
+    # "pronounce": {"Göbekli Tepe": "Gơ bếch li Tê pê"} — đổi cách đọc, phụ đề vẫn giữ chữ gốc
+    pron = {**cfg.get("pronounce", {}), **script.get("pronounce", {})}
+    for plan in plans:
+        for seg in plan:
+            for k, v in pron.items():
+                seg["tts"] = seg["tts"].replace(k, v)
+    cache = work / "seg"
+    cache.mkdir(exist_ok=True)
+
+    def seg_path(text):
+        return cache / (hashlib.sha1((sig + "|" + text).encode("utf-8")).hexdigest()[:16] + ".wav")
+
+    need = {}
+    for plan in plans:
+        for seg in plan:
+            pth = seg_path(seg["tts"])
+            if not pth.exists():
+                need[seg["tts"]] = pth
+    if need:
+        log(f"  🎙️  VieNeu đọc {len(need)} đoạn (lần đầu nạp mô hình hơi lâu)…")
+        items = [{"text": t, "out": str(p.with_name(p.stem + "_raw.wav"))} for t, p in need.items()]
         job = {"voice": vc.get("voice") or None, "ref_audio": str(ref_path) if ref_path else None,
-               "mode": vc.get("mode") or None,
-               "items": [{"text": it["text"], "out": it["out"]} for it in items]}
+               "mode": vc.get("mode") or None, "items": items}
         jf = work / "vieneu_job.json"
         jf.write_text(json.dumps(job, ensure_ascii=False), encoding="utf-8")
         proc = subprocess.Popen([str(py), str(ROOT / "vieneu_tts.py"), str(jf)], stdout=subprocess.PIPE,
@@ -327,17 +364,29 @@ def voices_vieneu(script, cfg, work):
                 log("     " + line[9:])
         if proc.wait() != 0:
             raise RuntimeError("VieNeu lỗi:\n" + "\n".join(tail))
-        for it in items:
-            raw, wav = Path(it["out"]), wavs[it["i"]]
-            tmp = wav.with_name(wav.stem + "_tmp.wav")
+        for it, pth in zip(items, need.values()):
+            raw = Path(it["out"])
+            tmp = pth.with_name(pth.stem + "_tmp.wav")
             to_wav(raw, tmp)
-            write_wav(wav, trim_silence(read_wav(tmp)))
+            write_wav(pth, trim_silence(read_wav(tmp), keep_head=0.02, keep_tail=0.06))
             tmp.unlink(missing_ok=True)
             raw.unlink(missing_ok=True)
-            wav.with_suffix(".txt").write_text(it["key"], encoding="utf-8")
     else:
         log("  🎙️  Dùng lại giọng đọc đã có")
-    return [read_wav(w) for w in wavs]
+
+    out = []
+    for si, plan in enumerate(plans):
+        audio = array.array("h")
+        timings = []
+        for k, seg in enumerate(plan):
+            audio.extend(silence(seg["pause_before"]))
+            clip = _apply_style(read_wav(seg_path(seg["tts"])), seg["style"], work, f"{si}_{k}")
+            t0 = len(audio) / SR
+            audio.extend(clip)
+            timings.append((seg["show"], t0, len(audio) / SR))
+            audio.extend(silence(seg["pause_after"]))
+        out.append((audio, timings))
+    return out
 
 
 def make_whoosh(seconds=0.45, seed=7):
@@ -386,6 +435,14 @@ def split_subs(text, max_words):
     return merged
 
 
+def build_subs_timed(timings, start, max_words):
+    """Phụ đề theo đúng mốc từng đoạn giọng (khớp hơn chia đều theo độ dài chữ)."""
+    out = []
+    for text, a, b in timings:
+        out += build_subs(text, start + a, b - a, max_words)
+    return out
+
+
 def build_subs(text, start, speech_dur, max_words):
     text = re.sub(r"\s*\[[^\]]*\]\s*", " ", text).strip()
     chunks = split_subs(text, max_words)
@@ -413,8 +470,11 @@ def build_timeline(script, cfg, work, no_tts):
     else:
         voices = voices_one_request(script, cfg, work)
     for i, s in enumerate(script["scenes"]):
+        timings = None
         if voices is not None:
             voice = voices[i]
+            if isinstance(voice, tuple):
+                voice, timings = voice
         else:
             wav = work / f"voice_{i:02d}.wav"
             log(f"  🎙️  Giọng đọc cảnh {i + 1}/{len(script['scenes'])}")
@@ -430,14 +490,19 @@ def build_timeline(script, cfg, work, no_tts):
         scenes.append(scene)
         starts.append(t)
         if s["type"] != "hook" or cfg.get("subtitle_on_hook"):
-            subs += build_subs(s["voice"], t, speech, cfg["subtitle_max_words"])
+            if timings:
+                subs += build_subs_timed(timings, t, cfg["subtitle_max_words"])
+            else:
+                subs += build_subs(s["voice"], t, speech, cfg["subtitle_max_words"])
         t += dur
 
-    if cfg.get("transition_sfx"):
-        w = make_whoosh()
-        for st in starts[1:]:
-            mix_into(narration, w, max(0, st - 0.2), cfg["sfx_volume"])
     write_wav(work / "narration.wav", narration)
+    sfx_cfg = cfg.get("sfx", {"enabled": cfg.get("transition_sfx", True), "volume": 0.55})
+    if sfx_cfg.get("enabled", True):
+        import audio_fx
+        audio_fx.build_sfx_track(scenes, t, work / "sfx.wav", float(sfx_cfg.get("volume", 0.55)))
+    else:
+        (work / "sfx.wav").unlink(missing_ok=True)
     return scenes, subs, t
 
 
@@ -457,21 +522,37 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
     name = script["id"] + ("_preview" if preview else "")
     mp4 = out_dir / f"{name}.mp4"
 
+    import audio_fx
     music = ROOT / cfg.get("music_file", "")
     has_music = bool(cfg.get("music_file")) and music.is_file()
+    sfx_wav = work / "sfx.wav"
     args = ["-f", "image2pipe", "-framerate", str(fps), "-c:v", "mjpeg", "-i", "-",
             "-i", str(work / "narration.wav")]
+    idx = 2
+    vchain = audio_fx.VOICE_CHAIN if cfg.get("voice_fx", True) else "anull"
+    graph = [f"[1:a]{vchain},aresample=44100,asplit=2[v][vk]"]
+    mix = ["[v]"]
+    if sfx_wav.exists():
+        args += ["-i", str(sfx_wav)]
+        graph.append(f"[{idx}:a]aresample=44100[s]")
+        mix.append("[s]")
+        idx += 1
     if has_music:
-        args += ["-stream_loop", "-1", "-i", str(music),
-                 "-filter_complex",
-                 f"[2:a]volume={cfg['music_volume']},afade=t=out:st={max(0, total - 1.5):.2f}:d=1.5[m];"
-                 f"[1:a][m]amix=inputs=2:duration=first:normalize=0[a]",
-                 "-map", "0:v", "-map", "[a]"]
+        args += ["-stream_loop", "-1", "-i", str(music)]
+        graph.append(f"[{idx}:a]aresample=44100,volume={cfg['music_volume']},"
+                     f"afade=t=out:st={max(0, total - 1.5):.2f}:d=1.5[mraw]")
+        graph.append("[mraw][vk]sidechaincompress=threshold=0.03:ratio=5:attack=30:release=350[m]")
+        mix.append("[m]")
+        idx += 1
     else:
-        args += ["-map", "0:v", "-map", "1:a"]
+        graph.append("[vk]anullsink")
+    lufs = cfg.get("loudness_lufs", -14)
+    graph.append(f"{''.join(mix)}amix=inputs={len(mix)}:duration=first:normalize=0,"
+                 f"loudnorm=I={lufs}:TP=-1.5:LRA=11,aresample=44100[a]")
+    args += ["-filter_complex", ";".join(graph), "-map", "0:v", "-map", "[a]"]
     args += ["-c:v", "libx264", "-preset", "veryfast" if preview else "medium", "-crf", "21",
              "-pix_fmt", "yuv420p", "-r", str(fps), "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2",
-             "-shortest", "-movflags", "+faststart", str(mp4)]
+             "-t", f"{total:.3f}", "-movflags", "+faststart", str(mp4)]
     cmd = [ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y"] + args
 
     log(f"  🎬 Dựng {n_frames} khung hình ({total:.1f} giây, {fps} fps)")

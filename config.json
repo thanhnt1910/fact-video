@@ -25,9 +25,12 @@
   "subtitle_max_words": 7,
 
   "music_file": "assets/music/nhac-nen.mp3",
-  "music_volume": 0.12,
-  "transition_sfx": true,
-  "sfx_volume": 0.22,
+  "music_volume": 0.18,
+  "sfx": { "enabled": true, "volume": 0.55 },
+  "voice_fx": true,
+  "loudness_lufs": -14,
+  "auto_prosody": true,
+  "pauses": { "ellipsis": 0.38, "period": 0.16, "exclaim": 0.22, "question": 0.34, "tag": 0.5 },
 
   "topics": {
     "dong-vat":    { "label": "Động vật",          "icon": "🐾", "bg1": "#0b3d2c", "bg2": "#1e7a52", "accent": "#8CFFB8" },

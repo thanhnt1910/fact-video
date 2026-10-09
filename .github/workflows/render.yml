@@ -68,6 +68,7 @@ jobs:
       - name: Dựng video
         env:
           HF_HUB_DISABLE_PROGRESS_BARS: "1"
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           set -o pipefail
           mkdir -p logs

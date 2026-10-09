@@ -21,6 +21,22 @@
            background: radial-gradient(ellipse at 50% 35%, rgba(255,255,255,0.10), transparent 60%),
                        radial-gradient(ellipse at 50% 110%, rgba(0,0,0,0.45), transparent 55%); }
 
+  #bgimgs { position: absolute; inset: 0; overflow: hidden; }
+  .bgimg { position: absolute; inset: -4%; background-size: cover; background-position: center; opacity: 0;
+           will-change: transform, opacity; }
+  .bgimg::after { content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg,
+      color-mix(in srgb, var(--bg1) 72%, transparent) 0%,
+      rgba(0,0,0,0.32) 22%, rgba(0,0,0,0.38) 48%, rgba(0,0,0,0.66) 72%,
+      color-mix(in srgb, var(--bg1) 92%, transparent) 100%); }
+  .has-img .hook-text, .has-img .statement, .has-img .heading, .has-img .catch, .has-img .compare-title,
+  .has-img .tl-title { text-shadow: 0 4px 18px rgba(0,0,0,0.75), 0 2px 4px rgba(0,0,0,0.6); }
+  .has-img .bullet, .has-img .ccard { background: rgba(0,0,0,0.42); backdrop-filter: blur(6px); }
+  .has-img .hook-sub, .has-img .statement-sub, .has-img .num-cap, .has-img .recap
+    { text-shadow: 0 3px 12px rgba(0,0,0,0.8); }
+  .has-img.scene { justify-content: flex-end; padding-bottom: 60px; }
+  .has-img.scene.center { justify-content: center; padding-bottom: 0; }
+
   #progress { position: absolute; top: 0; left: 0; height: 12px; background: var(--accent); }
 
   #topbar { position: absolute; top: 90px; left: 64px; right: 64px; height: 96px;
@@ -100,6 +116,7 @@
 <body>
 <div id="root">
   <div id="blobs"></div>
+  <div id="bgimgs"></div>
   <div id="grain"></div>
   <div id="progress"></div>
   <div id="topbar"><div class="chip"><span class="ic" id="topicIcon"></span><span id="topicLabel"></span></div><div id="brand"></div></div>
@@ -131,7 +148,7 @@ const slots = (n, t0, t1) => Array.from({length: n}, (_, i) => n === 1 ? t0 : t0
 const B = {
   hook(s) {
     const root = el('div', 'scene');
-    const em = el('div', 'emoji big-emoji', esc(s.icon || '❓'));
+    const em = s.image_src ? el('div') : el('div', 'emoji big-emoji', esc(s.icon || '❓'));
     const words = (s.text || '').split(/\s+/).filter(Boolean);
     const tx = el('div', 'hook-text', words.map(w => `<span class="w">${rich(w)}</span>`).join(' '));
     root.append(em, tx);
@@ -147,7 +164,7 @@ const B = {
   },
   explain(s) {
     const root = el('div', 'scene');
-    const em = s.icon ? el('div', 'emoji mid-emoji', esc(s.icon)) : null;
+    const em = s.icon && !s.image_src ? el('div', 'emoji mid-emoji', esc(s.icon)) : null;
     const h = s.title ? el('div', 'heading', rich(s.title)) : null;
     const list = el('div', 'bullets');
     const items = (s.bullets || []).map(b => {
@@ -217,7 +234,7 @@ const B = {
   },
   text(s) {
     const root = el('div', 'scene');
-    const em = s.icon ? el('div', 'emoji mid-emoji', esc(s.icon)) : null;
+    const em = s.icon && !s.image_src ? el('div', 'emoji mid-emoji', esc(s.icon)) : null;
     const tx = el('div', 'statement', rich(s.text));
     const sub = s.sub ? el('div', 'statement-sub', rich(s.sub)) : null;
     [em, tx, sub].forEach(x => x && root.append(x));
@@ -270,11 +287,23 @@ window.setup = function (data) {
   SCENES = data.scenes.map(sc => {
     const builder = B[sc.type] || B.text;
     const obj = builder(sc); stage.append(obj.root);
-    return { ...obj, start: sc.start, dur: sc.dur };
+    let img = null;
+    if (sc.image_src) {
+      img = el('div', 'bgimg');
+      img.style.backgroundImage = `url("${sc.image_src}")`;
+      document.getElementById('bgimgs').append(img);
+      obj.root.classList.add('has-img');
+      if (['hook', 'outro', 'number'].includes(sc.type)) obj.root.classList.add('center');
+    }
+    return { ...obj, img, start: sc.start, dur: sc.dur };
   });
   SUBS = data.subtitles || [];
   TOTAL = data.total || 1;
-  return document.fonts.ready.then(() => true);
+  const imgs = SCENES.filter(x => x.img).map(x => new Promise(res => {
+    const im = new Image(); im.onload = im.onerror = () => res(true);
+    im.src = x.img.style.backgroundImage.slice(5, -2);
+  }));
+  return Promise.all([document.fonts.ready, ...imgs]).then(() => true);
 };
 
 window.renderAt = function (t) {
@@ -283,8 +312,20 @@ window.renderAt = function (t) {
   });
   document.getElementById('progress').style.width = (clamp(t / TOTAL) * 1080) + 'px';
 
-  SCENES.forEach(s => {
+  SCENES.forEach((s, i) => {
     const lt = t - s.start;
+    if (s.img) {
+      const IMGF = 0.45;
+      if (lt < -IMGF || lt > s.dur + IMGF) s.img.style.opacity = 0;
+      else {
+        const a = s.start === 0 ? 1 : clamp((lt + IMGF) / (2 * IMGF));
+        const b = clamp((s.dur + IMGF - lt) / (2 * IMGF));
+        const p = clamp((lt + IMGF) / (s.dur + 2 * IMGF));
+        const dir = i % 2 ? -1 : 1;
+        s.img.style.opacity = Math.min(a, b);
+        s.img.style.transform = `scale(${1.04 + 0.12 * p}) translate(${dir * 2.2 * p}%, ${-1.2 * p}%)`;
+      }
+    }
     if (lt < 0 || lt > s.dur) { s.root.style.opacity = 0; return; }
     const fin = clamp(lt / FADE), fout = clamp((s.dur - lt) / FADE);
     const isFirst = s.start === 0;

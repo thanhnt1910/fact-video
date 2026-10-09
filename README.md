@@ -148,3 +148,13 @@ Dấu `…` giữa câu sẽ tạo khoảng ngừng hồi hộp thật. Chi ti�
 `transition.wav`, `pop.wav`, `tick.wav`, `chime.wav`, `impact.wav`, `reveal.wav`, `outro.wav`.
 
 **Nhạc nền** (`assets/music/nhac-nen.mp3`) sẽ tự hạ nhỏ khi có giọng đọc và to lên lúc ngừng.
+
+---
+
+## 10. Ảnh minh họa tự động
+
+Thêm `"image": {"query": "octopus underwater"}` vào cảnh. Khi dựng, công cụ tự tìm ảnh **chỉ có giấy phép mở** (CC0, Public Domain, CC BY) từ Openverse, Wikimedia Commons, NASA, Bảo tàng Met (và Pixabay nếu có secret `PIXABAY_API_KEY`). Ảnh CC BY-SA, NC, ND bị loại.
+- Chỉ định nguồn: `"source": "wikimedia" | "met" | "nasa" | "openverse" | "pixabay"`
+- Chỉ định ảnh cụ thể: `"image": {"url": "https://...", "credit": "Tác giả, giấy phép"}`
+- Thông tin nguồn ảnh được ghi trong file caption. Ảnh CC BY thì dán dòng ghi nguồn vào mô tả video.
+- Tắt ảnh: `"images": false` trong `config.json`.

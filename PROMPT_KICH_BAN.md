@@ -60,6 +60,12 @@ CÁC LOẠI CẢNH (mỗi cảnh BẮT BUỘC có "type" và "voice")
 6. text      : { "type":"text", "icon":"🤯", "text":"câu khẳng định ngắn", "sub":"câu phụ", "voice":"..." }
 7. outro     : { "type":"outro", "recap":"ý 1 · ý 2 · ý 3", "next":"hook tập sau", "voice":"... Hóa ra là vậy! ..." }   (cảnh cuối)
 
+ẢNH MINH HỌA (nên có ở 3–5 cảnh, đặc biệt cảnh hook)
+- Thêm vào cảnh: "image": {"query": "từ khóa TIẾNG ANH, cụ thể"} — vd "octopus underwater", "Great Pyramid of Giza".
+- Chủ đề lịch sử / cổ đại / di tích: thêm "source": "wikimedia" (hoặc "met" cho hiện vật bảo tàng). Vũ trụ: "source": "nasa".
+- Không tìm ảnh có người thật nhận diện được, không tìm logo/thương hiệu, không ảnh nhạy cảm.
+- Cảnh compare/timeline thường để đồ họa, không cần ảnh. Các cảnh khác nhau nên dùng từ khóa khác nhau.
+
 JSON phải hợp lệ: không có dòng chú thích //, không có dấu phẩy thừa.
 Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 10 từ), phần chi tiết để trong voice.
 ```

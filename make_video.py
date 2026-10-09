@@ -511,6 +511,14 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
 
     work = out_dir / "_work"
     work.mkdir(parents=True, exist_ok=True)
+    script["_credits"] = []
+    if cfg.get("images", True) and any(sc.get("image") for sc in script["scenes"]):
+        import images
+        log("  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)")
+        try:
+            script["_credits"] = images.fetch_scene_images(script, work, log)
+        except Exception as e:
+            log(f"     ⚠️  Bỏ qua ảnh: {e}")
     scenes, subs, total = build_timeline(script, cfg, work, no_tts)
     theme = cfg["topics"][script["topic"]]
     data = {"config": cfg, "theme": theme, "scenes": scenes, "subtitles": subs, "total": total}
@@ -601,6 +609,8 @@ def write_caption(script, cfg, out_dir):
         "",
         "NGUỒN KIỂM CHỨNG (không đăng, để bạn lưu lại):",
     ] + [f"- {s}" for s in script.get("sources", [])]
+    if script.get("_credits"):
+        lines += ["", "ẢNH MINH HỌA (dán vào cuối caption nếu ảnh ghi CC BY):"] + [f"- {c}" for c in script["_credits"]]
     (out_dir / f"{script['id']}_caption.txt").write_text("\n".join(lines), encoding="utf-8")
 
 

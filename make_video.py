@@ -651,23 +651,58 @@ def _log_music_level(work, music, cfg, total, log):
         f"(nhỏ hơn giọng {db(rv[talk]) - db(rm[talk]):.1f} dB) · nhạc lúc nghỉ {gap:.1f} dB")
 
 
+def _short_credits(credits):
+    """Rút gọn nguồn ảnh: chỉ giữ ảnh CC BY (bắt buộc ghi nguồn), dạng 'Tác giả (CC BY 4.0)'."""
+    import re
+    out = []
+    for c in credits or []:
+        m = re.match(r'^"(?P<file>[^"]+)"\s+–\s+(?P<author>.+?),\s+(?P<lic>CC BY[^()]*?)\s*\((?P<url>[^)]+)\)\s*$', c)
+        if not m:
+            continue
+        author = re.sub(r"^(Photo|Creator|Ảnh):\s*", "", m["author"].strip())
+        if author.lower() in ("không rõ", "unknown") or not author:
+            author = "Wellcome Collection" if "Wellcome" in m["file"] else m["file"].rsplit(".", 1)[0][:40]
+        item = f"{author} ({m['lic'].strip()})"
+        if item not in out:
+            out.append(item)
+    return out
+
+
 def write_caption(script, cfg, out_dir):
+    """File caption: các khối dán thẳng lên từng nền tảng + phần ghi chú để bạn lưu lại."""
     theme = cfg["topics"][script["topic"]]
-    tags = script.get("hashtags") or []
+    tags = " ".join("#" + t.lstrip("#") for t in (script.get("hashtags") or []))
+    cap = script.get("caption", script["title"])
+    music = script.get("_music_credit")
+    img = _short_credits(script.get("_credits"))
+    short = []
+    if img:
+        short.append("📷 Ảnh: " + "; ".join(img) + " · nguồn Wikimedia Commons")
+    if music:
+        name = music.split('"')[1] if '"' in music else music
+        short.append(f"🎵 Nhạc: \"{name}\" – Kevin MacLeod (incompetech.com), CC BY 4.0")
+    social = [cap, "", tags] + ([""] + short if short else [])
+    yt_desc = [cap, "", tags, ""] + [x for x in short if not x.startswith("🎵")]
+    if music:
+        yt_desc.append(f"🎵 Nhạc: {music}")
+    title = script["title"]
     lines = [
-        f"TIÊU ĐỀ: {script['title']} | {theme['icon']} {theme['label']}",
+        "════ FACEBOOK REELS / TIKTOK — copy nguyên khối dưới đây ════",
+        *social,
         "",
-        "CAPTION:",
-        script.get("caption", script["title"]),
+        "════ YOUTUBE SHORTS ════",
+        f"Tiêu đề: {title[:95]}",
+        "Mô tả:",
+        *yt_desc,
         "",
-        " ".join("#" + t.lstrip("#") for t in tags),
-    ] + ([f"🎵 Nhạc: {script['_music_credit']}"] if script.get("_music_credit") else []) + [
-        "",
-        "NGUỒN KIỂM CHỨNG (không đăng, để bạn lưu lại):",
+        "════ GHI CHÚ (không đăng) ════",
+        f"Chủ đề: {theme['icon']} {theme['label']}",
+        "Nhớ bật nhãn \"Nội dung do AI tạo\" (giọng đọc AI) khi đăng.",
+        "Nguồn kiểm chứng:",
     ] + [f"- {s}" for s in script.get("sources", [])]
     if script.get("_credits"):
-        lines += ["", "ẢNH MINH HỌA (dán vào cuối caption nếu ảnh ghi CC BY):"] + [f"- {c}" for c in script["_credits"]]
-    (out_dir / f"{script['id']}_caption.txt").write_text("\n".join(lines), encoding="utf-8")
+        lines += ["Nguồn ảnh đầy đủ:"] + [f"- {c}" for c in script["_credits"]]
+    (out_dir / f"{script['id']}_caption.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 # ---------------------------------------------------------------- main

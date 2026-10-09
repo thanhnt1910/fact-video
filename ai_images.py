@@ -32,8 +32,7 @@ def generate(prompt, out, cutout=False, seed=None, steps=8, log=print):
         raise RuntimeError("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")
     full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {STYLE}".replace(", ,", ",")
     body = {"prompt": full[:2000], "steps": steps}
-    if seed is not None:
-        body["seed"] = int(seed)
+    # FLUX schnell trên Cloudflare không nhận tham số seed
     url = f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/{MODEL}"
     for attempt in range(4):
         req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",

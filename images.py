@@ -59,7 +59,8 @@ def search_openverse(q):
         credit = (f"\"{r.get('title') or 'Ảnh'}\" – {r.get('creator') or 'không rõ'}, "
                   f"{'CC0' if lic == 'cc0' else 'Public Domain' if lic == 'pdm' else 'CC BY ' + (r.get('license_version') or '')}"
                   f" ({r.get('foreign_landing_url') or r.get('url')})")
-        out.append({"url": r.get("url"), "w": w, "h": h, "credit": credit, "needs_credit": lic == "by"})
+        text = " ".join([r.get("title") or ""] + [t.get("name", "") for t in (r.get("tags") or [])])
+        out.append({"url": r.get("url"), "w": w, "h": h, "credit": credit, "needs_credit": lic == "by", "text": text})
     return out
 
 
@@ -84,8 +85,9 @@ def search_wikimedia(q):
             continue
         artist = _strip_html(meta.get("Artist", {}).get("value")) or "không rõ"
         credit = f"\"{p.get('title', '').replace('File:', '')}\" – {artist}, {lic} ({ii.get('descriptionurl')})"
+        desc = _strip_html(meta.get("ImageDescription", {}).get("value"))[:300]
         out.append({"url": ii.get("thumburl") or ii.get("url"), "w": w, "h": h, "credit": credit,
-                    "needs_credit": low.startswith("cc by")})
+                    "needs_credit": low.startswith("cc by"), "text": p.get("title", "") + " " + desc})
     return out
 
 
@@ -153,6 +155,21 @@ def _download(url, dest):
     return dest
 
 
+def _norm_txt(t):
+    import unicodedata
+    t = unicodedata.normalize("NFD", t or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", " ", t)
+
+
+def _relevant(c, subject):
+    """Ảnh phải nhắc tới chủ thể chính (từ đầu tiên của từ khóa, hoặc trường 'subject')."""
+    if not subject or "text" not in c:
+        return True
+    words = [w for w in _norm_txt(subject).split() if len(w) >= 3]
+    hay = " " + _norm_txt(c["text"]) + " "
+    return all((" " + w) in hay for w in words) if words else True
+
+
 def _score(c, used):
     if c["url"] in used:
         return -1
@@ -204,6 +221,12 @@ def fetch_scene_images(script, work, log=print):
                     log(f"     🔎 cảnh {i + 1}: {len(found)} ảnh từ {src}")
                     break
                 time.sleep(0.5)
+        subject = spec.get("subject") or (spec.get("query", "").split() or [""])[0]
+        if not spec.get("url"):
+            rel = [c for c in cands if _relevant(c, subject)]
+            if len(rel) < len(cands):
+                log(f"     🧹 bỏ {len(cands) - len(rel)} ảnh không đúng chủ thể \"{subject}\"")
+            cands = rel
         cands = sorted([c for c in cands if _score(c, used) > 0], key=lambda c: -_score(c, used))
         ok = False
         for c in cands[:5]:

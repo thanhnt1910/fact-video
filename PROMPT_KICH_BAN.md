@@ -62,6 +62,7 @@ CÁC LOẠI CẢNH (mỗi cảnh BẮT BUỘC có "type" và "voice")
 
 ẢNH MINH HỌA (nên có ở 3–5 cảnh, đặc biệt cảnh hook)
 - Thêm vào cảnh: "image": {"query": "từ khóa TIẾNG ANH, cụ thể"} — vd "octopus underwater", "Great Pyramid of Giza".
+  Từ ĐẦU TIÊN của query là chủ thể bắt buộc phải có trong ảnh. Nếu chủ thể gồm nhiều từ, thêm "subject": "Great Pyramid".
 - Chủ đề lịch sử / cổ đại / di tích: thêm "source": "wikimedia" (hoặc "met" cho hiện vật bảo tàng). Vũ trụ: "source": "nasa".
 - Không tìm ảnh có người thật nhận diện được, không tìm logo/thương hiệu, không ảnh nhạy cảm.
 - Cảnh compare/timeline thường để đồ họa, không cần ảnh. Các cảnh khác nhau nên dùng từ khóa khác nhau.

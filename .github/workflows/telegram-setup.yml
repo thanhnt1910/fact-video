@@ -15,13 +15,13 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          if [ -z "$TG_TOKEN" ]; then echo "Chưa có secret TELEGRAM_BOT_TOKEN"; exit 1; fi
+          if [ -z "$TG_TOKEN" ]; then echo "::error::Chua co secret TELEGRAM_BOT_TOKEN (kiem tra dung ten secret)"; exit 1; fi
           curl -s "https://api.telegram.org/bot${TG_TOKEN}/getUpdates" > updates.json
           python3 - <<'PY'
           import json
           d = json.load(open("updates.json"))
           if not d.get("ok"):
-              raise SystemExit("Mã bot không hợp lệ: " + str(d.get("description")))
+              print("::error::Ma bot khong hop le: " + str(d.get("description"))); raise SystemExit(1)
           ids = []
           for u in d.get("result", []):
               m = u.get("message") or {}
@@ -29,7 +29,7 @@ jobs:
               if c.get("type") == "private" and c.get("id") and c["id"] not in ids:
                   ids.append(c["id"])
           if not ids:
-              raise SystemExit("Chưa thấy tin nhắn nào gửi tới bot. Mở bot, bấm Start, gửi 'hi' rồi chạy lại.")
+              print("::error::Chua thay tin nhan nao gui toi bot. Mo bot, bam Start, gui hi roi chay lai."); raise SystemExit(1)
           open("telegram_chat_id.txt", "w").write(str(ids[-1]))
           print("Đã tìm thấy mã chat.")
           PY

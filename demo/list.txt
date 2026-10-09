@@ -1,8 +1,3 @@
-Gemini Aoede (Nữ - nhẹ nhàng)|gemini-aoede.mp3
-Gemini Despina (Nữ - mượt)|gemini-despina.mp3
-Gemini Leda (Nữ - trẻ trung)|gemini-leda.mp3
-Gemini Kore (Nữ - chắc giọng)|gemini-kore.mp3
-Gemini Achernar (Nữ - mềm)|gemini-achernar.mp3
-Gemini Charon (Nam - truyền đạt)|gemini-charon.mp3
-Gemini Sadaltager (Nam - hiểu biết)|gemini-sadaltager.mp3
-Gemini Puck (Nam - sôi nổi)|gemini-puck.mp3
+1. Gemini Sadaltager (gốc, có giới hạn lượt)|so-sanh-1-gemini.mp3
+2. VieNeu nhân bản theo mẫu Sadaltager (miễn phí, không giới hạn)|so-sanh-2-vieneu-nhan-ban.mp3
+3. VieNeu giọng đang dùng|so-sanh-3-vieneu-hien-tai.mp3

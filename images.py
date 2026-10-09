@@ -47,11 +47,14 @@ def _strip_html(s):
 # ------------------------------------------------------------------ các nguồn
 def search_openverse(q):
     url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode({
-        "q": q, "license": "cc0,pdm,by", "page_size": 20, "mature": "false"})
+        "q": q, "license": "cc0,pdm,by", "page_size": 20, "mature": "false", "category": "photograph"})
     out = []
     for r in _get(url).get("results", []):
         lic = (r.get("license") or "").lower()
         if lic not in ("cc0", "pdm", "by"):
+            continue
+        src = (r.get("source") or "") + " " + (r.get("creator") or "")
+        if re.search(r"biodiversity|biodivlibrary|internet archive book|bhl", src, re.I):
             continue
         w, h = r.get("width") or 0, r.get("height") or 0
         if w and h and min(w, h) < MIN_SHORT_SIDE:

@@ -72,11 +72,11 @@ def main():
             failed.append(sid)
 
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
-    (ROOT / "ci_outputs.txt").write_text("\n".join(done), encoding="utf-8")
+    (ROOT / "ci_outputs.txt").write_text("".join(x + "\n" for x in done), encoding="utf-8")
     print(f"\nXong: {', '.join(done) or '-'}")
     if failed:
         print(f"Lỗi: {', '.join(failed)}")
-        (ROOT / "ci_failed.txt").write_text("\n".join(failed), encoding="utf-8")
+        (ROOT / "ci_failed.txt").write_text("".join(x + "\n" for x in failed), encoding="utf-8")
         sys.exit(1)
 
 

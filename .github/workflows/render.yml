@@ -82,7 +82,7 @@ jobs:
           mkdir -p logs
           rm -f logs/preview_*.jpg
           [ -s ci_outputs.txt ] || exit 0
-          while read -r id; do
+          while read -r id || [ -n "$id" ]; do
             [ -z "$id" ] && continue
             f="output/$id/$id.mp4"; [ -f "$f" ] || continue
             dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
@@ -103,7 +103,7 @@ jobs:
           fi
           api="https://api.telegram.org/bot${TG_TOKEN}"
           if [ -s ci_outputs.txt ]; then
-            while read -r id; do
+            while read -r id || [ -n "$id" ]; do
               [ -z "$id" ] && continue
               mp4="output/$id/$id.mp4"
               cap="output/$id/${id}_caption.txt"

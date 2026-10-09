@@ -500,7 +500,8 @@ def build_timeline(script, cfg, work, no_tts):
     sfx_cfg = cfg.get("sfx", {"enabled": cfg.get("transition_sfx", True), "volume": 0.55})
     if sfx_cfg.get("enabled", True):
         import audio_fx
-        audio_fx.build_sfx_track(scenes, t, work / "sfx.wav", float(sfx_cfg.get("volume", 0.55)))
+        audio_fx.build_sfx_track(scenes, t, work / "sfx.wav", float(sfx_cfg.get("volume", 0.55)),
+                                 style=cfg.get("style", ""), ambience=float(sfx_cfg.get("ambience", 0.0)))
     else:
         (work / "sfx.wav").unlink(missing_ok=True)
     return scenes, subs, t

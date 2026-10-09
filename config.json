@@ -1,5 +1,6 @@
 {
   "channel": "Người Gác Sử",
+  "style": "story",
   "catchphrase": "Sử thật… lạ hơn cả truyện!",
   "follow": "👉 Theo dõi để mở trang sử tiếp theo",
   "next_label": "Chuyện tiếp theo:",
@@ -27,7 +28,7 @@
 
   "music_file": "assets/music/nhac-nen.mp3",
   "music_volume": 0.18,
-  "sfx": { "enabled": true, "volume": 0.55 },
+  "sfx": { "enabled": true, "volume": 0.55, "ambience": 0.09 },
   "voice_fx": true,
   "loudness_lufs": -14,
   "auto_prosody": true,

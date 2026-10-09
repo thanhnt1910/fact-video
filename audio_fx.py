@@ -3,7 +3,9 @@
 và phân tích kịch bản giọng đọc thành từng đoạn có nhấn nhá.
 
 Muốn dùng hiệu ứng của riêng bạn: đặt file WAV vào assets/sfx/ với đúng tên
-(transition.wav, pop.wav, tick.wav, chime.wav, impact.wav, reveal.wav, outro.wav) — file đó sẽ được dùng thay âm tự tạo.
+(transition.wav, pop.wav, tick.wav, chime.wav, impact.wav, reveal.wav, outro.wav;
+phong cách kể chuyện: story_turn.wav, story_boom.wav, story_tap.wav, story_dong.wav, story_bell.wav, ambience.wav)
+— file đó sẽ được dùng thay âm tự tạo.
 """
 import re
 import wave
@@ -132,9 +134,85 @@ def sfx_outro():
     return _norm(out, 0.55)
 
 
+# ---------------------------------------------------------------- bộ âm KỂ CHUYỆN ("style": "story")
+def _fft_band(x, lo, hi):
+    """Lọc dải nhanh bằng FFT (dùng cho đoạn dài)."""
+    X = np.fft.rfft(x)
+    f = np.fft.rfftfreq(len(x), 1 / SFX_SR)
+    X[(f < lo) | (f > hi)] = 0
+    return np.fft.irfft(X, len(x))
+
+
+def sfx_story_turn():
+    """Chuyển cảnh: tiếng lật trang giấy cũ + làn hơi trầm."""
+    sec = 0.55
+    n = int(sec * SFX_SR)
+    t = np.arange(n) / SFX_SR
+    rng = np.random.default_rng(21)
+    paper = _fft_band(rng.uniform(-1, 1, n), 1400, 7000)
+    flutter = np.zeros(n)
+    for c, w, a in [(0.07, 0.05, 0.6), (0.17, 0.07, 1.0), (0.30, 0.10, 0.75), (0.42, 0.08, 0.35)]:
+        flutter += a * np.exp(-((t - c) / w) ** 2)
+    air = _fft_band(rng.uniform(-1, 1, n), 120, 700) * np.sin(np.pi * np.clip(t / sec, 0, 1)) ** 2
+    return _norm(paper * flutter * 0.8 + air * 0.5, 0.5)
+
+
+def sfx_story_boom():
+    """Mở đầu: tiếng 'thình' trầm, vang dài như tiếng trống trong hang đá."""
+    sec = 2.2
+    n = int(sec * SFX_SR)
+    t = np.arange(n) / SFX_SR
+    f = 42 + 55 * np.exp(-t / 0.09)
+    body = np.sin(2 * np.pi * np.cumsum(f) / SFX_SR) * _env(n, 0.004, 0.55)
+    rng = np.random.default_rng(5)
+    rumble = _fft_band(rng.uniform(-1, 1, n), 30, 260) * _env(n, 0.01, 0.8)
+    return _norm(body + 0.6 * rumble / (np.max(np.abs(rumble)) or 1), 0.8)
+
+
+def sfx_story_tap():
+    """Hiện ý / mốc thời gian: tiếng gõ gỗ trầm, rất nhẹ."""
+    n = int(0.16 * SFX_SR)
+    t = np.arange(n) / SFX_SR
+    x = (np.sin(2 * np.pi * 330 * t) + 0.45 * np.sin(2 * np.pi * 760 * t)) * _env(n, 0.0015, 0.035)
+    return _norm(x, 0.4)
+
+
+def sfx_story_dong():
+    """Sự thật bất ngờ / con số: tiếng chuông đồng trầm, ngân xa."""
+    return _bell(196.0, 2.6, 1.1, 0.5)
+
+
+def sfx_story_bell():
+    """Kết: hai tiếng chuông nhà thờ cổ từ xa."""
+    a = _bell(146.8, 3.2, 1.4, 0.5)
+    b = _bell(110.0, 3.4, 1.6, 0.45)
+    off = int(1.05 * SFX_SR)
+    out = np.zeros(off + len(b))
+    out[:len(a)] += a
+    out[off:off + len(b)] += b * 0.8
+    return _norm(out, 0.5)
+
+
+def ambience_pad(sec, seed=7):
+    """Nền không khí suốt video: tiếng ù trầm + gió nhẹ, lên xuống chậm."""
+    n = int(sec * SFX_SR)
+    t = np.arange(n) / SFX_SR
+    drone = (np.sin(2 * np.pi * 55 * t) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.05 * t))
+             + 0.7 * np.sin(2 * np.pi * 82.4 * t + 1) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.071 * t + 2))
+             + 0.35 * np.sin(2 * np.pi * 110.3 * t) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.043 * t + 4)))
+    rng = np.random.default_rng(seed)
+    wind = _fft_band(rng.uniform(-1, 1, n), 180, 900)
+    wind = wind / (np.max(np.abs(wind)) or 1) * (0.35 + 0.65 * (0.5 + 0.5 * np.sin(2 * np.pi * 0.06 * t)))
+    x = drone / 2.2 + wind * 0.55
+    fade = np.clip(t / 2.5, 0, 1) * np.clip((sec - t) / 2.5, 0, 1)
+    return _norm(x * fade, 1.0)
+
+
 SYNTH = {
     "transition": sfx_transition, "pop": sfx_pop, "tick": sfx_tick, "chime": sfx_chime,
     "impact": sfx_impact, "reveal": sfx_reveal, "outro": sfx_outro,
+    "story_turn": sfx_story_turn, "story_boom": sfx_story_boom, "story_tap": sfx_story_tap,
+    "story_dong": sfx_story_dong, "story_bell": sfx_story_bell,
 }
 
 
@@ -172,8 +250,33 @@ def _slots(n, t0, t1):
     return [t0 + (t1 - t0) * i / (n - 1) for i in range(n)]
 
 
-def scene_events(scene, is_first):
+def story_events(scene, is_first):
+    """Lịch hiệu ứng cho phong cách kể chuyện (khớp hoạt ảnh mờ dần trong scene.html)."""
+    t, d = scene["type"], scene["dur"]
+    ev = []
+    if not is_first:
+        ev.append((-0.32, "story_turn", 0.75))
+    if t == "hook":
+        ev.append((0.0, "story_boom", 1.0))
+    elif t in ("explain", "timeline"):
+        n = len(scene.get("bullets") or scene.get("items") or [])
+        a, b = (0.7, max(0.8, d * 0.62)) if t == "explain" else (0.5, max(0.6, d * 0.65))
+        ev += [(x + 0.1, "story_tap", 0.7) for x in _slots(n, a, b)]
+    elif t == "compare":
+        ev += [(0.35, "story_tap", 0.7), (min(0.85, d * 0.3) + 0.1, "story_tap", 0.7)]
+    elif t == "number":
+        ev.append((0.3, "story_dong", 0.6))
+    elif t == "text":
+        ev.append((0.25, "story_dong", 0.55))
+    elif t == "outro":
+        ev.append((0.1, "story_bell", 0.7))
+    return ev
+
+
+def scene_events(scene, is_first, style=""):
     """Trả về [(giây_tương_đối, tên_sfx, độ_to)] khớp với hoạt ảnh trong templates/scene.html."""
+    if style == "story":
+        return story_events(scene, is_first)
     t, d = scene["type"], scene["dur"]
     ev = []
     if not is_first:
@@ -201,11 +304,16 @@ def scene_events(scene, is_first):
     return ev
 
 
-def build_sfx_track(scenes, total, out_path, volume=0.5):
+def build_sfx_track(scenes, total, out_path, volume=0.5, style="", ambience=0.0):
     n = int((total + 1.5) * SFX_SR)
     track = np.zeros(n)
+    if ambience > 0:
+        custom = ROOT / "assets" / "sfx" / "ambience.wav"
+        pad = _load_wav_mono(custom) if custom.exists() else ambience_pad(total + 1.5)
+        pad = np.resize(pad, n) if len(pad) < n else pad[:n]
+        track += pad * ambience
     for i, s in enumerate(scenes):
-        for rel, name, gain in scene_events(s, i == 0):
+        for rel, name, gain in scene_events(s, i == 0, style):
             clip = get_sfx(name) * gain
             st = int(max(0.0, s["start"] + rel) * SFX_SR)
             en = min(n, st + len(clip))

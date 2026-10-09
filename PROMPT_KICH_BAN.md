@@ -37,8 +37,12 @@ YÊU CẦU NỘI DUNG
   + Chèn từ dẫn dắt: "Bạn có biết không?", "Chưa hết đâu!", "Và điều kỳ lạ nhất…", "Nhưng khoan đã…"
   + Tóm tắt cuối: câu cực ngắn tách bằng dấu chấm, đọc [chậm]: "[chậm] Ba trái tim. Máu xanh. [cao] Và… ghét bơi!"
   + Mỗi câu tối đa khoảng 15 từ; dùng dấu phẩy để tạo nhịp thở trong câu dài.
-  + Tên nước ngoài khó đọc: giữ tên gốc trong "voice" và thêm trường "pronounce" ở cấp kịch bản để chỉ cách đọc,
-    vd "pronounce": {"Göbekli Tepe": "Gơ bếch li Tê pê", "Stonehenge": "Xtôn hen"} (phụ đề vẫn hiện tên gốc).
+  + TÊN NƯỚC NGOÀI: GIỮ NGUYÊN chữ gốc trong "voice" (Strasbourg, Shackleton, Mary Celeste…). Giọng đọc tự đọc
+    các từ này theo kiểu tiếng Anh. TUYỆT ĐỐI KHÔNG phiên âm kiểu Việt ("Xtrát bua", "Xtôn hen") — máy sẽ đọc thành
+    chữ Việt, nghe rất sai.
+    Tên không phải tiếng Anh mà đọc kiểu Anh bị lệch nhiều (Troffea, Koepcke, Göbekli Tepe…) thì thêm trường
+    "pronounce" ở cấp kịch bản với cách viết KIỂU TIẾNG ANH gần âm gốc, vd "pronounce": {"Troffea": "Troffaya",
+    "Koepcke": "Kerpka"} (phụ đề vẫn hiện tên gốc). Kiểm tra bằng: python phien_am.py scripts/<mã>.json
 - Viết số trong "voice" bằng chữ để giọng AI đọc đúng (ba trái tim, mười một nghìn sáu trăm năm). Trên màn hình ("text", "value"...) thì dùng chữ số.
 - Chỉ dùng sự thật có nguồn uy tín. Con số không chắc chắn thì thêm "khoảng", điều còn tranh luận thì nói "các nhà khoa học cho rằng".
 - "sources": liệt kê 1–3 nguồn uy tín thật (tên tổ chức + tên bài/mục). Không bịa đường link.

@@ -111,6 +111,37 @@
           display: flex; align-items: flex-start; justify-content: center; }
   .sub { display: inline-block; max-width: 940px; padding: 18px 30px; border-radius: 22px;
          background: rgba(0,0,0,0.55); font-weight: 800; font-size: 54px; line-height: 1.32; text-align: center; }
+
+  /* ================= Phong cách KỂ CHUYỆN (config "style": "story") ================= */
+  #lamp, #vignette, #noise { position: absolute; pointer-events: none; display: none; }
+  #lamp { inset: 0; background: radial-gradient(circle at 20% 6%, rgba(255,190,100,0.26), transparent 48%),
+                               radial-gradient(circle at 85% 100%, rgba(255,150,60,0.10), transparent 40%); }
+  #vignette { inset: 0; background: radial-gradient(ellipse at 50% 45%, transparent 42%, rgba(0,0,0,0.62) 100%); }
+  #noise { inset: -80px; opacity: 0.075;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.9 0 0 0 0 0.75 0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+  .story #lamp, .story #vignette, .story #noise { display: block; }
+  .story #blobs, .story .big-emoji, .story .mid-emoji { display: none; }
+  .story .hook-text, .story .statement, .story .heading, .story .catch, .story .compare-title,
+  .story .tl-title, .story .num, .story .tl-year { font-family: 'Lora', Georgia, serif; font-weight: 700; letter-spacing: 0; }
+  .story .hook-text { font-size: 94px; line-height: 1.22; }
+  .story .statement { font-size: 78px; }
+  .story .catch { font-style: italic; font-size: 96px; line-height: 1.15; }
+  .story .chip { background: rgba(0,0,0,0.38); border: 1.5px solid color-mix(in srgb, var(--accent) 55%, transparent);
+                 font-size: 30px; letter-spacing: 6px; padding: 12px 28px 12px 20px; }
+  .story .chip .ic { font-size: 36px; }
+  .story #brand { font-family: 'Lora', Georgia, serif; font-style: italic; font-weight: 600; font-size: 40px;
+                  color: var(--accent); opacity: 0.95; }
+  .story #progress { height: 5px; box-shadow: 0 0 14px var(--accent); }
+  .story .bgimg { filter: sepia(0.3) contrast(1.06) brightness(0.9) saturate(0.85); }
+  .story .bullet { background: rgba(12,7,3,0.58); border: 1.5px solid color-mix(in srgb, var(--accent) 30%, transparent);
+                   border-left: 5px solid var(--accent); border-radius: 14px; gap: 22px; }
+  .story .bullet .emoji { display: none; }
+  .story .bullet::before { content: "◆"; color: var(--accent); font-size: 30px; flex: none; }
+  .story .ccard { border-radius: 18px; background: rgba(12,7,3,0.5); }
+  .story .vs { font-family: 'Lora', Georgia, serif; font-style: italic; }
+  .story .tl-dot { border-width: 5px; }
+  .story .next { border: 2px solid color-mix(in srgb, var(--accent) 55%, transparent); border-radius: 16px; background: rgba(0,0,0,0.42); }
+  .story .sub { background: rgba(8,5,2,0.6); border-radius: 12px; font-weight: 700; }
 </style>
 </head>
 <body>
@@ -118,6 +149,9 @@
   <div id="blobs"></div>
   <div id="bgimgs"></div>
   <div id="grain"></div>
+  <div id="lamp"></div>
+  <div id="noise"></div>
+  <div id="vignette"></div>
   <div id="progress"></div>
   <div id="topbar"><div class="chip"><span class="ic" id="topicIcon"></span><span id="topicLabel"></span></div><div id="brand"></div></div>
   <div id="stage"></div>
@@ -134,7 +168,15 @@ const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>')
 const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
 
 // generic "appear" animation: fade + rise (or pop)
+let STORY = false;
 function appear(node, lt, start, len = 0.45, kind = 'rise') {
+  if (STORY) {   // kể chuyện: hiện mờ dần, hơi nhòe rồi nét lại, không nảy
+    const q = clamp((lt - start) / (len * 1.6)), e = easeOut(q);
+    node.style.opacity = e;
+    node.style.transform = kind === 'left' || kind === 'right' ? `translateX(${(1 - e) * (kind === 'left' ? -40 : 40)}px)` : `translateY(${(1 - e) * 26}px)`;
+    node.style.filter = q < 1 ? `blur(${(1 - e) * 8}px)` : '';
+    return;
+  }
   const p = clamp((lt - start) / len);
   if (kind === 'pop') { const s = p <= 0 ? 0.001 : easeBack(p); node.style.transform = `scale(${s})`; node.style.opacity = clamp(p * 2); }
   else if (kind === 'left') { node.style.transform = `translateX(${(1 - easeOut(p)) * -160}px)`; node.style.opacity = p; }
@@ -149,14 +191,19 @@ const B = {
   hook(s) {
     const root = el('div', 'scene');
     const em = s.image_src ? el('div') : el('div', 'emoji big-emoji', esc(s.icon || '❓'));
-    const words = (s.text || '').split(/\s+/).filter(Boolean);
-    const tx = el('div', 'hook-text', words.map(w => `<span class="w">${rich(w)}</span>`).join(' '));
+    // tách từng chữ nhưng giữ được **cụm nhiều chữ** được tô màu
+    const parts = [];
+    String(s.text || '').split(/(\*\*.+?\*\*)/).forEach(seg => {
+      const hl = /^\*\*.+\*\*$/.test(seg); const body = hl ? seg.slice(2, -2) : seg;
+      body.split(/\s+/).filter(Boolean).forEach(w => parts.push(`<span class="w">${hl ? `<span class="hl">${esc(w)}</span>` : esc(w)}</span>`));
+    });
+    const tx = el('div', 'hook-text', parts.join(' '));
     root.append(em, tx);
     let sub = null; if (s.sub) { sub = el('div', 'hook-sub', rich(s.sub)); root.append(sub); }
     const ws = [...tx.querySelectorAll('.w')];
     return { root, anim(lt, d) {
       appear(em, lt, 0, 0.55, 'pop');
-      if (lt > 0.55) em.style.transform = `translateY(${Math.sin((lt - 0.55) * 2.6) * 14}px) rotate(${Math.sin((lt - 0.55) * 1.7) * 4}deg)`;
+      if (!STORY && lt > 0.55) em.style.transform = `translateY(${Math.sin((lt - 0.55) * 2.6) * 14}px) rotate(${Math.sin((lt - 0.55) * 1.7) * 4}deg)`;
       const st = slots(ws.length, 0.25, Math.min(1.4, d * 0.4));
       ws.forEach((w, i) => appear(w, lt, st[i], 0.3, 'pop'));
       if (sub) appear(sub, lt, Math.min(1.6, d * 0.5), 0.5);
@@ -193,7 +240,7 @@ const B = {
     return { root, anim(lt, d) {
       if (t) appear(t, lt, 0, 0.45);
       appear(L, lt, 0.25, 0.5, 'left'); appear(vs, lt, 0.55, 0.4, 'pop'); appear(R, lt, Math.min(0.85, d * 0.3), 0.5, 'right');
-      if (W && lt > d * 0.45) { const p = Math.sin((lt - d * 0.45) * 5) * 0.035 + 1.04; W.style.transform = `scale(${p})`; }
+      if (W && !STORY && lt > d * 0.45) { const p = Math.sin((lt - d * 0.45) * 5) * 0.035 + 1.04; W.style.transform = `scale(${p})`; }
     }};
   },
   number(s) {
@@ -256,7 +303,7 @@ const B = {
       if (r) appear(r, lt, 0.4, 0.45);
       if (nx) appear(nx, lt, Math.min(1.0, d * 0.35), 0.5);
       appear(f, lt, Math.min(1.6, d * 0.55), 0.5);
-      if (lt > 0.55) c.style.transform = `scale(${1 + Math.sin((lt - .55) * 4) * 0.025})`;
+      if (!STORY && lt > 0.55) c.style.transform = `scale(${1 + Math.sin((lt - .55) * 4) * 0.025})`;
     }};
   },
 };
@@ -267,6 +314,8 @@ const FADE = 0.25;
 
 window.setup = function (data) {
   CFG = data.config || {};
+  STORY = CFG.style === 'story';
+  document.body.classList.toggle('story', STORY);
   const th = data.theme || {};
   const rs = document.documentElement.style;
   if (th.bg1) rs.setProperty('--bg1', th.bg1);
@@ -312,10 +361,17 @@ window.renderAt = function (t) {
   });
   document.getElementById('progress').style.width = (clamp(t / TOTAL) * 1080) + 'px';
 
+  if (STORY) {
+    // ánh đèn lồng chập chờn + hạt phim
+    const fl = 0.78 + 0.12 * Math.sin(t * 7.3) * Math.sin(t * 2.9 + 1) + 0.08 * Math.sin(t * 13.1 + 2);
+    document.getElementById('lamp').style.opacity = fl;
+    const f = Math.floor(t * 12);
+    document.getElementById('noise').style.transform = `translate(${(f * 37) % 80 - 40}px, ${(f * 53) % 80 - 40}px)`;
+  }
   SCENES.forEach((s, i) => {
     const lt = t - s.start;
     if (s.img) {
-      const IMGF = 0.45;
+      const IMGF = STORY ? 0.8 : 0.45;
       if (lt < -IMGF || lt > s.dur + IMGF) s.img.style.opacity = 0;
       else {
         const a = s.start === 0 ? 1 : clamp((lt + IMGF) / (2 * IMGF));
@@ -323,14 +379,20 @@ window.renderAt = function (t) {
         const p = clamp((lt + IMGF) / (s.dur + 2 * IMGF));
         const dir = i % 2 ? -1 : 1;
         s.img.style.opacity = Math.min(a, b);
-        s.img.style.transform = `scale(${1.04 + 0.12 * p}) translate(${dir * 2.2 * p}%, ${-1.2 * p}%)`;
+        s.img.style.transform = STORY ? `scale(${1.05 + 0.09 * p}) translate(${dir * 1.6 * p}%, ${-0.9 * p}%)`
+                                     : `scale(${1.04 + 0.12 * p}) translate(${dir * 2.2 * p}%, ${-1.2 * p}%)`;
       }
     }
     if (lt < 0 || lt > s.dur) { s.root.style.opacity = 0; return; }
-    const fin = clamp(lt / FADE), fout = clamp((s.dur - lt) / FADE);
+    const FD = STORY ? 0.55 : FADE;
+    const fin = clamp(lt / FD), fout = clamp((s.dur - lt) / FD);
     const isFirst = s.start === 0;
-    s.root.style.opacity = (isFirst ? 1 : fin) * fout;
-    s.root.style.transform = `translateY(${(1 - fout) * -40}px)`;
+    const vis = (isFirst ? 1 : fin) * fout;
+    s.root.style.opacity = vis;
+    if (STORY) {   // tan dần như mực loang, không trượt
+      s.root.style.transform = '';
+      s.root.style.filter = vis < 1 ? `blur(${(1 - vis) * 7}px)` : '';
+    } else s.root.style.transform = `translateY(${(1 - fout) * -40}px)`;
     s.anim(lt, s.dur);
   });
 
@@ -338,7 +400,7 @@ window.renderAt = function (t) {
   const cur = SUBS.find(x => t >= x.start && t < x.end);
   if (cur) {
     box.textContent = cur.text; box.style.visibility = 'visible';
-    const p = clamp((t - cur.start) / 0.15); box.style.opacity = p; box.style.transform = `scale(${0.94 + 0.06 * p})`;
+    const p = clamp((t - cur.start) / 0.15); box.style.opacity = p; box.style.transform = STORY ? '' : `scale(${0.94 + 0.06 * p})`;
   } else box.style.visibility = 'hidden';
 };
 </script>

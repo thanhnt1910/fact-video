@@ -1,50 +1,10 @@
 
-===== CD-F1 =====
-▶️  CD-F1: Có một đền đá còn cổ hơn Stonehenge khoảng 6.000 năm
-  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-     🔎 cảnh 1: 5 ảnh từ wikimedia
-     🔎 cảnh 2: 1 ảnh từ wikimedia
-     🔎 cảnh 4: 1 ảnh từ wikimedia
-     ℹ️  cảnh 4: không tìm được ảnh phù hợp cho "Gobekli Tepe enclosure" — dùng đồ họa
-     🔎 cảnh 5: 1 ảnh từ wikimedia
-  🎙️  VieNeu đọc 18 đoạn (lần đầu nạp mô hình hơi lâu)…
-     đã nạp mô hình sau 3s
-     câu 1/18 xong (0.9s)
-     câu 2/18 xong (1.7s)
-     câu 3/18 xong (1.5s)
-     câu 4/18 xong (0.8s)
-     câu 5/18 xong (1.0s)
-     câu 6/18 xong (1.9s)
-     câu 7/18 xong (1.4s)
-     câu 8/18 xong (1.2s)
-     câu 9/18 xong (1.9s)
-     câu 10/18 xong (1.3s)
-     câu 11/18 xong (0.9s)
-     câu 12/18 xong (0.8s)
-     câu 13/18 xong (1.0s)
-     câu 14/18 xong (0.9s)
-     câu 15/18 xong (0.7s)
-     câu 16/18 xong (0.6s)
-     câu 17/18 xong (1.6s)
-     câu 18/18 xong (0.7s)
-  🎬 Dựng 1050 khung hình (35.0 giây, 30 fps)
-     … 150/1050 khung, còn khoảng 122s
-     … 300/1050 khung, còn khoảng 104s
-     … 450/1050 khung, còn khoảng 81s
-     … 600/1050 khung, còn khoảng 55s
-     … 750/1050 khung, còn khoảng 34s
-     … 900/1050 khung, còn khoảng 17s
-  ℹ️  Chưa có nhạc nền (assets/music/nhac-nen.mp3), video chỉ có giọng đọc
-✅ Xong output/CD-F1/CD-F1.mp4  (35.0s video, mất 156s)
-
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
 ===== DV1 =====
 ▶️  DV1: Bạch tuộc có tới 3 trái tim
   🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
      🔎 cảnh 1: 10 ảnh từ openverse
-     🔎 cảnh 3: 10 ảnh từ openverse
-     🧹 bỏ 3 ảnh không đúng chủ thể "octopus"
+     🔎 cảnh 3: 8 ảnh từ openverse
+     🧹 bỏ 1 ảnh không đúng chủ thể "octopus"
      🔎 cảnh 4: 9 ảnh từ openverse
      🔎 cảnh 5: 9 ảnh từ openverse
      🧹 bỏ 4 ảnh không đúng chủ thể "octopus"
@@ -54,43 +14,43 @@ Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
   🎙️  VieNeu đọc 26 đoạn (lần đầu nạp mô hình hơi lâu)…
      đã nạp mô hình sau 3s
      câu 1/26 xong (0.7s)
-     câu 2/26 xong (0.7s)
+     câu 2/26 xong (0.8s)
      câu 3/26 xong (0.6s)
-     câu 4/26 xong (1.3s)
-     câu 5/26 xong (0.6s)
-     câu 6/26 xong (1.0s)
-     câu 7/26 xong (1.2s)
-     câu 8/26 xong (0.8s)
-     câu 9/26 xong (1.7s)
-     câu 10/26 xong (1.3s)
+     câu 4/26 xong (1.5s)
+     câu 5/26 xong (0.7s)
+     câu 6/26 xong (1.1s)
+     câu 7/26 xong (1.4s)
+     câu 8/26 xong (0.9s)
+     câu 9/26 xong (2.1s)
+     câu 10/26 xong (1.6s)
      câu 11/26 xong (2.4s)
-     câu 12/26 xong (0.6s)
-     câu 13/26 xong (0.6s)
+     câu 12/26 xong (0.7s)
+     câu 13/26 xong (0.5s)
      câu 14/26 xong (0.7s)
-     câu 15/26 xong (2.6s)
+     câu 15/26 xong (2.9s)
      câu 16/26 xong (0.9s)
      câu 17/26 xong (1.4s)
      câu 18/26 xong (0.5s)
-     câu 19/26 xong (1.7s)
+     câu 19/26 xong (2.0s)
      câu 20/26 xong (0.6s)
-     câu 21/26 xong (0.6s)
+     câu 21/26 xong (0.5s)
      câu 22/26 xong (0.4s)
      câu 23/26 xong (0.6s)
      câu 24/26 xong (0.7s)
-     câu 25/26 xong (1.6s)
-     câu 26/26 xong (0.7s)
-  🎬 Dựng 1272 khung hình (42.4 giây, 30 fps)
-     … 150/1272 khung, còn khoảng 127s
-     … 300/1272 khung, còn khoảng 104s
-     … 450/1272 khung, còn khoảng 99s
-     … 600/1272 khung, còn khoảng 90s
-     … 750/1272 khung, còn khoảng 69s
-     … 900/1272 khung, còn khoảng 50s
-     … 1050/1272 khung, còn khoảng 30s
-     … 1200/1272 khung, còn khoảng 10s
+     câu 25/26 xong (1.8s)
+     câu 26/26 xong (0.9s)
+  🎬 Dựng 1284 khung hình (42.8 giây, 30 fps)
+     … 150/1284 khung, còn khoảng 105s
+     … 300/1284 khung, còn khoảng 85s
+     … 450/1284 khung, còn khoảng 83s
+     … 600/1284 khung, còn khoảng 71s
+     … 750/1284 khung, còn khoảng 56s
+     … 900/1284 khung, còn khoảng 41s
+     … 1050/1284 khung, còn khoảng 25s
+     … 1200/1284 khung, còn khoảng 9s
   ℹ️  Chưa có nhạc nền (assets/music/nhac-nen.mp3), video chỉ có giọng đọc
-✅ Xong output/DV1/DV1.mp4  (42.4s video, mất 214s)
+✅ Xong output/DV1/DV1.mp4  (42.8s video, mất 191s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-Xong: CD-F1, DV1
+Xong: DV1

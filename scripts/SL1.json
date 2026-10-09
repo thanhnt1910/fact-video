@@ -183,5 +183,238 @@
         "text": "Hơn 500 năm sau, vẫn **chưa ai dám chắc** điều gì đã xảy ra."
       }
     ]
+  },
+  "long": {
+    "title": "Vì sao cả một thành phố nhảy múa không ngừng suốt gần 2 tháng? | Dịch nhảy múa năm 1518",
+    "title_card": "Dịch nhảy múa **năm 1518**",
+    "description": "Năm 1518, ở Strasbourg, một người phụ nữ bước ra phố và bắt đầu nhảy, rồi hàng chục, có thể hàng trăm người khác nhảy theo suốt nhiều tuần. Thầy thuốc bảo cứ để họ nhảy, thành phố thuê cả nhạc công… và mọi thứ càng tồi tệ hơn. Chuyện gì đã thực sự xảy ra?",
+    "voice": "Sadaltager",
+    "chapters": [
+      {
+        "title": "",
+        "beats": [
+          {
+            "text": "Tháng bảy năm một nghìn năm trăm mười tám. Trên một con phố nhỏ ở thành phố Strasbourg, một người phụ nữ bước ra khỏi nhà… và bắt đầu nhảy.",
+            "ai": "a lone medieval woman in a red dress dancing in a narrow cobblestone street at dawn, half-timbered houses, neighbours watching from windows",
+            "label": "Strasbourg · 1518"
+          },
+          {
+            "text": "Không có nhạc. Không có lễ hội. Không ai hiểu vì sao. Và điều đáng sợ nhất là… bà không dừng lại được.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_dancing_mania%2C_by_Hondius_Wellcome_M0013485.jpg/1920px-The_dancing_mania%2C_by_Hondius_Wellcome_M0013485.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"The dancing mania, by Hondius Wellcome M0013485.jpg\" – không rõ, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:The_dancing_mania,_by_Hondius_Wellcome_M0013485.jpg)"
+            }
+          },
+          {
+            "text": "Chỉ vài tuần sau, hàng chục, rồi có thể hàng trăm người khác cũng nhảy theo. Họ nhảy suốt ngày đêm, giữa cái nắng gay gắt của mùa hè.",
+            "ai": "a crowd of medieval townspeople dancing frantically in a sunlit town square, exhausted faces, dust in the air"
+          },
+          {
+            "text": "Đây là dịch nhảy múa năm một nghìn năm trăm mười tám, một trong những sự kiện kỳ lạ nhất lịch sử châu Âu. Hơn năm trăm năm sau, người ta vẫn tranh cãi: điều gì đã xảy ra với những con người ấy?",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pieter_Brueghel%2C_the_Elder._%C2%ABThe_Dancing_Mania._Pilgrimage_of_the_Epileptics_to_the_Church_at_Molenbeek%C2%BB._1564.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Pieter Brueghel, the Elder. «The Dancing Mania. Pilgrimage of the Epileptics to the Church at Molenbeek». 1564.jpg\" – Pieter Breugel de Oude, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Brueghel,_the_Elder._%C2%ABThe_Dancing_Mania._Pilgrimage_of_the_Epileptics_to_the_Church_at_Molenbeek%C2%BB._1564.jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thành phố trước cơn bão",
+        "beats": [
+          {
+            "text": "Đầu thế kỷ mười sáu, Strasbourg là một thành phố giàu có bên dòng sông Rhine, thuộc Đế quốc La Mã Thần thánh. Ngày nay, nơi này thuộc nước Pháp.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Braun_et_Hogenberg_Argentoratum_77.998.0.4239_mb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Braun et Hogenberg Argentoratum 77.998.0.4239 mb.jpg\" – Mathieu Bertola/Musées de Strasbourg, Public domain (https://commons.wikimedia.org/wiki/File:Braun_et_Hogenberg_Argentoratum_77.998.0.4239_mb.jpg)"
+            },
+            "label": "Strasbourg · Đế quốc La Mã Thần thánh"
+          },
+          {
+            "text": "Ngọn tháp nhà thờ chính tòa vươn cao giữa những mái nhà gỗ đan chéo. Thương nhân, thợ thủ công và nông dân khắp vùng đổ về đây buôn bán.",
+            "ai": "a tall gothic cathedral spire rising above medieval half-timbered rooftops of Strasbourg, busy market below, early 16th century"
+          },
+          {
+            "text": "Nhưng những năm trước đó là chuỗi ngày khốn khó. Mùa màng thất bát, giá lúa mì tăng vọt. Nhiều gia đình nghèo không có đủ bánh mì để ăn.",
+            "ai": "a ruined wheat field under a dark stormy sky, a medieval peasant standing in despair"
+          },
+          {
+            "text": "Nạn đói kéo theo bệnh tật. Đậu mùa, giang mai và nhiều thứ bệnh khác lan khắp vùng. Người nghèo sống trong nỗi lo sợ thường trực.",
+            "ai": "poor hungry medieval peasants in ragged clothes waiting for bread outside a stone monastery gate, gloomy"
+          },
+          {
+            "text": "Thời ấy, người ta tin rằng tai ương là sự trừng phạt của Chúa và các vị thánh. Và có một truyền thuyết đáng sợ: Thánh Vitus có thể giáng lời nguyền… khiến con người nhảy múa không ngừng.",
+            "ai": "a medieval priest preaching in a dim candlelit church to frightened townspeople"
+          },
+          {
+            "text": "Chính niềm tin ấy sẽ đóng vai trò quan trọng trong những gì sắp xảy ra.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg/1920px-Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Bregenz Martinskapelle Seitenaltar Hl Vitus.jpg\" – Photo: Andreas Praefcke, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Người phụ nữ đầu tiên",
+        "beats": [
+          {
+            "text": "Ngày mười bốn tháng bảy năm một nghìn năm trăm mười tám. Theo phần lớn các ghi chép, người đầu tiên là một phụ nữ tên Troffea.",
+            "ai": "a medieval woman in a red dress and white headscarf beginning to dance alone in a narrow street in the morning",
+            "label": "14/7/1518"
+          },
+          {
+            "text": "Bà bước ra con phố hẹp trước nhà và bắt đầu nhảy. Chồng bà van nài bà dừng lại, nhưng bà dường như không nghe thấy gì.",
+            "ai": "a worried medieval husband pleading with his wife who is dancing in the street with eyes closed"
+          },
+          {
+            "text": "Hàng xóm kéo đến xem. Ban đầu có người cười, có người tò mò. Nhưng bà cứ nhảy… hết giờ này sang giờ khác.",
+            "ai": "curious medieval neighbours gathering around a dancing woman in a street, some laughing, some worried, midday sun"
+          },
+          {
+            "text": "Đến tối, bà gục xuống vì kiệt sức. Vậy mà sáng hôm sau, bà lại đứng dậy… và tiếp tục nhảy.",
+            "ai": "an exhausted medieval woman in a red dress collapsed asleep on cobblestones at night, lantern light"
+          },
+          {
+            "text": "Có tài liệu kể bà nhảy như vậy gần một tuần, chỉ dừng lại để ngủ. Đôi chân sưng tấy, nhưng bà vẫn không thể ngừng.",
+            "ai": "worn-out leather shoes on medieval cobblestones, dramatic light, close-up"
+          },
+          {
+            "text": "Theo nhà sử học John Waller, cuối cùng người ta đưa bà lên xe, mang đến một đền thờ Thánh Vitus trên vùng núi để cầu xin tha tội.",
+            "ai": "a horse-drawn wooden cart carrying a woman along a forest road toward a small mountain chapel, medieval"
+          }
+        ]
+      },
+      {
+        "title": "Cơn dịch lan rộng",
+        "beats": [
+          {
+            "text": "Nhưng câu chuyện không dừng lại ở đó. Trong lúc ấy, những người khác bắt đầu nhảy theo.",
+            "ai": "several medieval townspeople starting to dance in a market square while others point at them in shock"
+          },
+          {
+            "text": "Chỉ trong khoảng một tuần, đã có hơn ba mươi người. Họ nhảy ngoài phố, ngoài chợ, và không ai giải thích được vì sao.",
+            "ai": "about thirty medieval people dancing in a street, wild movements, onlookers horrified",
+            "label": "Cuối tháng 7/1518"
+          },
+          {
+            "text": "Hội đồng thành phố hoảng hốt. Họ hỏi ý kiến các thầy thuốc giỏi nhất vùng.",
+            "ai": "a medieval city council of nobles in fur-trimmed robes debating in a wood-panelled chamber"
+          },
+          {
+            "text": "Và câu trả lời của các thầy thuốc khiến ngày nay chúng ta phải sững sờ: đây không phải lời nguyền, mà là một căn bệnh tự nhiên do máu quá nóng.",
+            "ai": "medieval physicians in long robes and caps examining a patient, books and jars, candlelight"
+          },
+          {
+            "text": "Cách chữa? Không phải trích máu, cũng không phải uống thuốc… mà là để người bệnh nhảy cho đến khi hết bệnh.",
+            "ai": "a medieval physician pointing toward dancing people in a square, decisive gesture"
+          },
+          {
+            "text": "Thế là thành phố mở các hội trường làm nơi nhảy múa, thuê nhạc công chơi nhạc suốt ngày đêm, thuê cả những người khỏe mạnh để đỡ người nhảy khỏi ngã.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_%28detail%29_-_WGA3504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3504.jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_(detail)_-_WGA3504.jpg)"
+            }
+          },
+          {
+            "text": "Nhưng kết quả hoàn toàn ngược lại. Tiếng nhạc dường như kéo thêm người vào vòng nhảy. Đến tháng tám, con số được các nguồn ghi lại dao động từ vài chục… đến bốn trăm người.",
+            "ai": "a huge chaotic crowd of medieval people dancing in a great hall with musicians playing drums and pipes",
+            "label": "Tháng 8/1518"
+          },
+          {
+            "text": "Có ghi chép sau này kể rằng đã có người nhảy đến kiệt sức mà chết. Nhưng các tài liệu của Strasbourg thời đó lại không hề nhắc đến, nên chi tiết này đến nay vẫn còn bị nghi ngờ.",
+            "ai": "exhausted medieval dancers resting on the ground at dusk, solemn mood"
+          }
+        ]
+      },
+      {
+        "title": "Đi tìm sự tha thứ",
+        "beats": [
+          {
+            "text": "Thấy tình hình ngày càng tệ, hội đồng thành phố thay đổi hoàn toàn cách nghĩ. Có lẽ, đây thật sự là cơn thịnh nộ của thánh thần.",
+            "ai": "medieval city councillors kneeling in prayer in a gothic church"
+          },
+          {
+            "text": "Họ ra lệnh cấm âm nhạc và nhảy múa nơi công cộng. Những người nhảy bị đưa ra khỏi các con phố.",
+            "ai": "a medieval town crier reading a proclamation scroll to a crowd in a square"
+          },
+          {
+            "text": "Thành phố tổ chức cầu nguyện và làm lễ sám hối, mong xoa dịu cơn giận của Thánh Vitus.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Interior_View_of_Strasbourg_Cathedral_MET_DP822210.jpg/1920px-Interior_View_of_Strasbourg_Cathedral_MET_DP822210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Interior View of Strasbourg Cathedral MET DP822210.jpg\" – Creator:Isaak Brun, CC0 (https://commons.wikimedia.org/wiki/File:Interior_View_of_Strasbourg_Cathedral_MET_DP822210.jpg)"
+            }
+          },
+          {
+            "text": "Những người nhảy được đưa lên đền thờ Thánh Vitus. Ở đó, họ được làm lễ và được trao những cây thánh giá nhỏ…",
+            "ai": "a procession of medieval pilgrims walking up a mountain path toward a small stone chapel"
+          },
+          {
+            "text": "…được đi những đôi giày đỏ có vẽ dấu thánh giá, giữa làn khói hương và những lời cầu nguyện bằng tiếng Latin.",
+            "ai": "a pair of red medieval shoes with painted crosses on a stone altar, candles and incense smoke"
+          },
+          {
+            "text": "Rồi, cũng bí ẩn như khi bắt đầu, cơn dịch dần lắng xuống. Đến đầu tháng chín, những bước nhảy cuối cùng đã dừng lại.",
+            "ai": "a quiet empty medieval street at sunrise, peaceful, soft golden light",
+            "label": "Đầu tháng 9/1518"
+          }
+        ]
+      },
+      {
+        "title": "Lời giải nào cho bí ẩn?",
+        "beats": [
+          {
+            "text": "Vậy điều gì đã xảy ra? Giả thuyết đầu tiên là ngộ độc nấm cựa gà, một loại nấm mọc trên lúa mạch đen, có thể gây co giật và ảo giác.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/First_illustration_of_rye_infected_by_ergot_Wellcome_L0002215.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"First illustration of rye infected by ergot Wellcome L0002215.jpg\" – không rõ, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:First_illustration_of_rye_infected_by_ergot_Wellcome_L0002215.jpg)"
+            }
+          },
+          {
+            "text": "Nhưng nhiều nhà nghiên cứu phản bác: người bị ngộ độc loại nấm này thường co giật và khó cử động, khó có thể nhảy liên tục suốt nhiều ngày.",
+            "ai": "a field of rye with dark ergot fungus on the grain heads, close-up, overcast"
+          },
+          {
+            "text": "Giả thuyết được nhiều sử gia tin nhất là cuồng loạn tập thể. Khi nạn đói, bệnh tật và nỗi sợ thánh thần dồn con người đến giới hạn…",
+            "ai": "frightened medieval townspeople huddled together holding candles at night"
+          },
+          {
+            "text": "…cơ thể và tâm trí có thể rơi vào trạng thái như bị thôi miên. Và khi ai cũng tin vào lời nguyền nhảy múa, nỗi sợ ấy lây lan như một căn bệnh.",
+            "ai": "a medieval woman dancing in a trance with eyes closed, surrounded by darkness and candlelight"
+          },
+          {
+            "text": "Strasbourg cũng không phải nơi duy nhất. Những cơn dịch nhảy múa tương tự từng được ghi lại ở nhiều nơi dọc sông Rhine thời Trung cổ, nổi tiếng nhất là đợt năm một nghìn ba trăm bảy mươi tư.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pieter_Brueghel%2C_the_Elder._%C2%ABThe_Dancing_Mania._Pilgrimage_of_the_Epileptics_to_the_Church_at_Molenbeek%C2%BB._1564.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Pieter Brueghel, the Elder. «The Dancing Mania. Pilgrimage of the Epileptics to the Church at Molenbeek». 1564.jpg\" – Pieter Breugel de Oude, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Brueghel,_the_Elder._%C2%ABThe_Dancing_Mania._Pilgrimage_of_the_Epileptics_to_the_Church_at_Molenbeek%C2%BB._1564.jpg)"
+            },
+            "label": "Năm 1374"
+          },
+          {
+            "text": "Dù vậy, đến nay vẫn chưa ai dám khẳng định chắc chắn. Những gì còn lại chỉ là vài trang ghi chép cũ, và một câu hỏi chưa có lời đáp.",
+            "ai": "an old handwritten medieval manuscript on a wooden desk lit by a candle"
+          }
+        ]
+      },
+      {
+        "title": "Lời kết",
+        "beats": [
+          {
+            "text": "Năm trăm năm đã trôi qua. Những con phố nơi người ta từng nhảy múa đến kiệt sức, giờ đã yên bình.",
+            "ai": "sunset over medieval Strasbourg rooftops and the cathedral spire, peaceful, golden hour"
+          },
+          {
+            "text": "Câu chuyện năm một nghìn năm trăm mười tám nhắc chúng ta rằng nỗi sợ hãi và niềm tin của đám đông có sức mạnh lớn đến nhường nào.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_dancing_mania%2C_by_Hondius_Wellcome_M0013485.jpg/1920px-The_dancing_mania%2C_by_Hondius_Wellcome_M0013485.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"The dancing mania, by Hondius Wellcome M0013485.jpg\" – không rõ, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:The_dancing_mania,_by_Hondius_Wellcome_M0013485.jpg)"
+            }
+          },
+          {
+            "text": "Còn bạn, bạn tin vào giả thuyết nào? Hãy để lại suy nghĩ ở phần bình luận. Tôi là Người Gác Sử. Hẹn gặp bạn ở trang sử tiếp theo.",
+            "ai": "an old brass lantern glowing on a wooden desk beside old books, dark background"
+          }
+        ]
+      }
+    ]
   }
 }

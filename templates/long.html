@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root { --accent: #FFC66B; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0b0604; }
+  body { font-family: 'Be Vietnam Pro', sans-serif; color: #FBEBD0; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #0b0604; }
+  .img { position: absolute; inset: -5%; background-size: cover; background-position: center; opacity: 0;
+         filter: sepia(0.3) contrast(1.06) brightness(0.88) saturate(0.85); will-change: transform, opacity; }
+  /* ảnh dọc / ảnh nhỏ: hiện trọn ảnh trên nền mờ của chính nó */
+  .img.fit { background-size: contain; background-repeat: no-repeat; }
+  .blur { position: absolute; inset: -8%; background-size: cover; background-position: center; opacity: 0;
+          filter: blur(40px) sepia(0.4) brightness(0.45); }
+  #shade { position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(10,6,3,0.45) 0%, rgba(10,6,3,0) 18%, rgba(10,6,3,0) 70%, rgba(10,6,3,0.6) 100%); }
+  #lamp { position: absolute; inset: 0; background: radial-gradient(circle at 15% 8%, rgba(255,190,100,0.20), transparent 50%); }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 50%, transparent 52%, rgba(0,0,0,0.6) 100%); }
+  #noise { position: absolute; inset: -80px; opacity: 0.07;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.9 0 0 0 0 0.75 0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+  #brand { position: absolute; top: 38px; right: 52px; font-family: 'Lora', serif; font-style: italic; font-weight: 600;
+           font-size: 32px; color: var(--accent); text-shadow: 0 2px 10px rgba(0,0,0,0.8); opacity: 0.9; }
+  #label { position: absolute; left: 70px; bottom: 70px; display: flex; align-items: center; gap: 16px; opacity: 0;
+           font-weight: 700; font-size: 34px; letter-spacing: 3px; text-transform: uppercase;
+           padding: 14px 26px; border-left: 5px solid var(--accent); background: rgba(10,6,3,0.62); }
+  #card { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+          text-align: center; opacity: 0; background: radial-gradient(ellipse at 50% 45%, #2a1a0b 0%, #0b0604 75%); }
+  #card .k { font-weight: 700; font-size: 34px; letter-spacing: 12px; color: var(--accent); text-transform: uppercase; }
+  #card .t { margin-top: 26px; font-family: 'Lora', serif; font-weight: 700; font-size: 104px; line-height: 1.12; max-width: 1500px; text-wrap: balance; }
+  #card .t .hl { color: var(--accent); }
+  #card .r { width: 300px; height: 3px; background: var(--accent); margin-top: 40px; }
+  #card .s { margin-top: 30px; font-family: 'Lora', serif; font-style: italic; font-size: 50px; color: var(--accent); }
+</style>
+</head>
+<body>
+<div id="root">
+  <div id="imgs"></div>
+  <div id="shade"></div><div id="lamp"></div><div id="noise"></div><div id="vig"></div>
+  <div id="brand"></div>
+  <div id="label"></div>
+  <div id="card"><div class="k"></div><div class="t"></div><div class="r"></div><div class="s"></div></div>
+</div>
+<script>
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const rich = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
+let D = null, SH = [];
+const XF = 1.0;   // thời gian tan ảnh (giây)
+window.setup = function (d) {
+  D = d;
+  document.getElementById('brand').textContent = d.channel || '';
+  const box = document.getElementById('imgs');
+  SH = d.shots.map((s, i) => {
+    let blur = null;
+    if (s.fit) { blur = document.createElement('div'); blur.className = 'blur'; blur.style.backgroundImage = `url("${s.src}")`; box.append(blur); }
+    const el = document.createElement('div'); el.className = 'img' + (s.fit ? ' fit' : '');
+    el.style.backgroundImage = `url("${s.src}")`; box.append(el);
+    return { ...s, el, blur, dir: (i % 4) };
+  });
+  const loads = d.shots.map(s => new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = s.src; }));
+  return Promise.all([document.fonts.ready, ...loads]).then(() => true);
+};
+// ảnh bìa YouTube: ảnh nền + tiêu đề lớn
+window.thumb = function (src, kicker, title) {
+  document.getElementById('imgs').innerHTML = '';
+  const el = document.createElement('div'); el.className = 'img'; el.style.backgroundImage = `url("${src}")`;
+  el.style.opacity = 1; el.style.transform = 'scale(1.05)'; document.getElementById('imgs').append(el);
+  const card = document.getElementById('card');
+  card.style.background = 'linear-gradient(90deg, rgba(11,6,4,0.92) 0%, rgba(11,6,4,0.75) 45%, rgba(11,6,4,0.1) 80%)';
+  card.style.alignItems = 'flex-start'; card.style.textAlign = 'left'; card.style.padding = '0 90px';
+  card.querySelector('.k').textContent = kicker; card.querySelector('.t').innerHTML = rich(title);
+  card.querySelector('.t').style.fontSize = '118px'; card.querySelector('.t').style.maxWidth = '1150px';
+  card.querySelector('.s').textContent = ''; card.querySelector('.r').style.display = '';
+  card.style.opacity = 1; document.getElementById('label').style.opacity = 0;
+  return new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; });
+};
+window.renderAt = function (t) {
+  const f = Math.floor(t * 12);
+  document.getElementById('noise').style.transform = `translate(${(f * 37) % 80 - 40}px, ${(f * 53) % 80 - 40}px)`;
+  document.getElementById('lamp').style.opacity = 0.8 + 0.12 * Math.sin(t * 7.1) * Math.sin(t * 2.3);
+  for (const s of SH) {
+    const lt = t - s.start;
+    if (lt < -XF || lt > s.dur + XF) { s.el.style.opacity = 0; if (s.blur) s.blur.style.opacity = 0; continue; }
+    const a = clamp((lt + XF) / XF), b = clamp((s.dur + XF - lt) / XF);
+    const o = s.start <= 0.01 ? b : Math.min(a, b);
+    const p = clamp((lt + XF) / (s.dur + 2 * XF));
+    // Ken Burns: 4 kiểu lần lượt (đẩy vào, kéo ra, lia trái, lia phải)
+    const z = [1.04 + 0.10 * p, 1.14 - 0.10 * p, 1.10, 1.10][s.dir];
+    const tx = [0, 0, -2.5 + 5 * p, 2.5 - 5 * p][s.dir], ty = [-1 * p, 1 * p, 0, 0][s.dir];
+    s.el.style.opacity = o;
+    s.el.style.transform = s.fit ? `scale(${1 + 0.05 * p})` : `scale(${z}) translate(${tx}%, ${ty}%)`;
+    if (s.blur) s.blur.style.opacity = o;
+  }
+  // nhãn địa danh / năm
+  const lab = document.getElementById('label');
+  const cur = SH.find(s => s.label && t >= s.start + 0.6 && t < s.start + Math.min(s.dur, 6));
+  if (cur) { lab.textContent = cur.label; lab.style.opacity = Math.min(clamp((t - cur.start - 0.6) / 0.5), clamp((cur.start + Math.min(cur.dur, 6) - t) / 0.5)); }
+  else lab.style.opacity = 0;
+  // thẻ tiêu đề (mở đầu, chương, kết)
+  const card = document.getElementById('card');
+  const c = (D.cards || []).find(k => t >= k.start && t < k.start + k.dur);
+  if (c) {
+    card.querySelector('.k').textContent = c.kicker || '';
+    card.querySelector('.t').innerHTML = rich(c.title || '');
+    card.querySelector('.s').textContent = c.sub || '';
+    card.querySelector('.r').style.display = c.sub ? '' : 'none';
+    const lt = t - c.start;
+    card.style.opacity = Math.min(clamp(lt / 0.6), clamp((c.dur - lt) / 0.6));
+  } else card.style.opacity = 0;
+};
+</script>
+</body>
+</html>

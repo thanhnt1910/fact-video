@@ -9,3 +9,7 @@ giong-mau/nghe-thu/
 assets/music/cache/
 AnimatedDrawings/
 .venv-ad/
+assets/tts_cache/
+assets/ai_cache/
+ci_long.txt
+ci_long_failed.txt

@@ -1,6 +1,7 @@
 {
   "channel": "Người Gác Sử",
   "style": "story",
+  "long": { "voice": "Sadaltager" },
   "catchphrase": "Sử thật… lạ hơn cả truyện!",
   "follow": "👉 Theo dõi để mở trang sử tiếp theo",
   "next_label": "Chuyện tiếp theo:",

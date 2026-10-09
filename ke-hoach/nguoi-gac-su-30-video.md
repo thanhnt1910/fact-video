@@ -33,10 +33,12 @@
 4. **Cú lật (45–60 giây):** chi tiết kỳ lạ nhất, hoặc sự thật trái với lời đồn.
 5. **Kết (60–70 giây):** lời giải hoặc bí ẩn còn bỏ ngỏ, rồi đến câu *"Sử thật… lạ hơn cả truyện"* và *"Theo dõi Người Gác Sử nhé!"* (không giới thiệu chuyện tiếp theo).
 
-### Mỗi chuyện = 2 bài đăng
-1. **Video dọc 60–70 giây** (Reels, TikTok, YouTube Shorts).
+### Mỗi chuyện = 3 sản phẩm (máy tự làm trong một lần chạy)
+1. **Video dọc 60–80 giây** (Reels, TikTok, YouTube Shorts), giọng VieNeu miễn phí.
 2. **Bài đăng ảnh Facebook:** album 4–6 ảnh dọc 4:5, mỗi ảnh có 1–2 câu kể chuyện (lướt hết album là hiểu chuyện), kèm bài viết kể chuyện 250–400 chữ và kết bằng một câu hỏi mở.
-   - Gợi ý: đăng bài ảnh **trước** video khoảng 1 ngày, hoặc buổi trưa còn video buổi tối, để hai bài không tranh lượt hiển thị của nhau.
+3. **Video dài YouTube 16:9 (6–10 phút):** kể chuyện bằng ảnh và chuyển cảnh (ảnh tư liệu thật + tranh minh họa AI, chuyển động máy quay chậm, thẻ chương), giọng Gemini Sadaltager. Máy làm sẵn ảnh bìa, tiêu đề, mô tả và mục lục chương.
+   - Bản 1080p đầy đủ nằm ở mục **Releases** của repo (tag `video-<mã>`); Telegram nhận bản xem trước 720p.
+- Gợi ý lịch: bài ảnh buổi trưa, video ngắn buổi tối; video dài đăng cùng ngày hoặc gom 2–3 video/tuần. Video ngắn có thể dẫn người xem sang video dài.
 
 ### Phong cách hình ảnh
 - Ưu tiên **tranh khắc, tranh sơn dầu, bản đồ cổ, ảnh tư liệu cũ đã hết bản quyền** (Wikimedia Commons, bảo tàng Met, ảnh của chính phủ Mỹ và NASA).
@@ -293,16 +295,18 @@ Mỗi mục gồm: **Hook** · **Diễn biến** · **Cú lật** · **Gợi ý 
 
 ---
 
-## 3. Gợi ý gộp video dài cho YouTube (8–12 phút)
+## 3. Video dài YouTube
 
-| Video dài | Gộp từ |
+Mỗi chuyện đã có video dài riêng (6–10 phút). Ngoài ra có thể làm thêm video tổng hợp 15–30 phút:
+
+| Video tổng hợp | Gộp từ |
 |---|---|
 | 5 vụ lừa đảo khó tin nhất lịch sử | PV1 – PV5 |
 | Những người sống sót không tưởng | ST1 – ST6 |
 | 7 bí ẩn khiến cả thế giới đau đầu | BA1 – BA7 |
 | Thần thoại bạn đã hiểu sai | TT1 – TT4 |
 
-Video dài lấy lại giọng và hình của các video ngắn, chỉ cần thêm đoạn chuyển giữa các chuyện. Video dài trên YouTube thường đem lại tiền quảng cáo cao hơn nhiều so với Shorts.
+Video dài trên YouTube thường đem lại tiền quảng cáo cao hơn nhiều so với Shorts.
 
 ---
 
@@ -354,8 +358,8 @@ Thứ tự này xen kẽ các nhóm và đặt những chuyện mạnh nhất l�
 | 1 | Claude | Tra cứu nguồn, viết kịch bản JSON theo `PROMPT_KICH_BAN.md` |
 | 2 | Claude | Chạy **Duyệt ảnh ứng viên**, chọn ảnh hết bản quyền, ghi nguồn ảnh |
 | 3 | Bạn | Đọc kịch bản (2–3 phút): nội dung có ổn không, có chỗ nào nhạy cảm không |
-| 4 | Máy (GitHub) | Dựng video, gửi về Telegram |
-| 5 | Bạn | Xem video, đăng lên 3 nền tảng kèm caption và hashtag trong `logs/caption_<mã>.txt`, bật nhãn "nội dung AI" |
+| 4 | Máy (GitHub) | Dựng video ngắn, album ảnh + bài viết, video dài; gửi về Telegram |
+| 5 | Bạn | Xem và đăng: video ngắn kèm caption (`logs/caption_<mã>.txt`), album ảnh kèm bài viết (`logs/post_<mã>.txt`), video dài kèm tiêu đề, mô tả, ảnh bìa (`logs/youtube_<mã>.txt`). Bật nhãn "nội dung AI" ở mọi nền tảng |
 
 **Mẹo:** Mỗi lần nhờ Claude làm 5–7 video (một tuần) để tiết kiệm thời gian, ví dụ *"Làm tiếp ngày 2–7 trong kế hoạch Người Gác Sử"*.
 

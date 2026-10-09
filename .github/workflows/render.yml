@@ -61,7 +61,7 @@ jobs:
           restore-keys: fv-music-
 
       - name: Bộ nhớ đệm giọng Gemini và ảnh AI
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             assets/tts_cache
@@ -237,3 +237,13 @@ jobs:
             sleep 5
           done
           exit 1
+
+      # lưu giọng Gemini / ảnh AI kể cả khi lần chạy lỗi, để lần sau không phải đọc/vẽ lại
+      - name: Lưu bộ nhớ đệm giọng Gemini và ảnh AI
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            assets/tts_cache
+            assets/ai_cache
+          key: fv-gen-${{ github.run_id }}

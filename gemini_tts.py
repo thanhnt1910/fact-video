@@ -125,7 +125,8 @@ def synth(text, style, voice, key=None, log=print):
     errs = []
     for way in order:
         kind, model = way
-        for attempt in range(4):
+        waited, attempt, shown = 0, 0, False
+        while True:
             try:
                 fn = _synth_interactions if kind == "i" else _synth_generate
                 wav = fn(model, text, style, voice, key)
@@ -135,9 +136,16 @@ def synth(text, style, voice, key=None, log=print):
                 return wav
             except Exception as e:
                 msg = str(e)
-                if "429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg or "500" in msg:
-                    wait = 20 * (attempt + 1)
-                    log(f"   [gemini] {model} bận/giới hạn, đợi {wait}s…")
+                if ("429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg or "500" in msg) and waited < 900:
+                    if not shown:
+                        log(f"   [gemini] {model} báo: {' '.join(msg.split())[:260]}")
+                        shown = True
+                    # máy chủ thường nói rõ cần đợi bao lâu ("retryDelay": "37s" / "retry in 37.2s")
+                    m = re.search(r'retry(?:Delay"?\s*:\s*"?| in )\s*([0-9.]+)\s*s', msg, re.I)
+                    wait = min(120, float(m.group(1)) + 2) if m else min(90, 15 * (attempt + 1))
+                    attempt += 1
+                    waited += wait
+                    log(f"   [gemini] {model} bận/giới hạn, đợi {wait:.0f}s…")
                     time.sleep(wait)
                     continue
                 errs.append(f"{model}: {msg[:300]}")

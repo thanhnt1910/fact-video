@@ -38,6 +38,8 @@ TTS_CACHE = ROOT / "assets" / "tts_cache"
 AI_CACHE = ROOT / "assets" / "ai_cache"
 SR = mv.SR
 FPS = 24
+# ảnh FLUX là ảnh vuông, sẽ bị cắt trên/dưới cho vừa khung 16:9 -> dặn bố cục rộng, chủ thể ở giữa
+WIDE_HINT = "wide cinematic composition, main subject centered with space above and below"
 CARD_TITLE, CARD_CHAPTER, CARD_END = 4.5, 3.2, 6.0
 GAP = 0.6   # nghỉ sau mỗi chương
 
@@ -117,24 +119,47 @@ def beat_images(script, beats, work):
     import images
     from PIL import Image
     credits, used_ai = [], False
-    arch = [b for b in beats if b.get("image")]
-    if arch:
-        pseudo = {"topic": script.get("topic", ""), "scenes": arch}
+    scenes = script.get("scenes", [])
+    for b in beats:   # "image": {"scene": n} -> dùng lại ảnh tư liệu của cảnh n trong video ngắn
+        im = b.get("image")
+        if isinstance(im, dict) and "scene" in im and not im.get("url"):
+            n = int(im["scene"])
+            src = scenes[n].get("image") if 0 <= n < len(scenes) else None
+            if src:
+                b["image"] = dict(src)
+            else:
+                b.pop("image")
+    # mỗi ảnh tư liệu chỉ tải 1 lần, beat nào dùng lại cùng ảnh thì dùng chung
+    uniq = {}
+    for b in beats:
+        if b.get("image"):
+            k = json.dumps(b["image"], sort_keys=True, ensure_ascii=False)
+            uniq.setdefault(k, {"image": b["image"]})
+    if uniq:
+        pseudo = {"topic": script.get("topic", ""), "scenes": list(uniq.values())}
         credits = images.fetch_scene_images(pseudo, work / "arch", log)
+        for b in beats:
+            if b.get("image"):
+                src = uniq[json.dumps(b["image"], sort_keys=True, ensure_ascii=False)].get("image_src")
+                if src:
+                    b["image_src"] = src
     AI_CACHE.mkdir(parents=True, exist_ok=True)
     for b in beats:
         if b.get("ai") and not b.get("image_src"):
             key = hashlib.sha1(b["ai"].encode()).hexdigest()[:16]
             try:
-                f = ai_images.generate(b["ai"], AI_CACHE / f"{key}.jpg", log=log)
+                f = ai_images.generate(b["ai"] + ", " + WIDE_HINT, AI_CACHE / f"{key}.jpg", log=log)
                 b["image_src"] = f.resolve().as_uri()
+                b.setdefault("fit", False)   # tranh AI vuông: phủ kín khung 16:9
                 used_ai = True
             except Exception as e:
                 log(f"     ⚠️  không vẽ được ảnh: {e}")
-    prev = None
+    prev, prev_fit = None, None
     for b in beats:
         if not b.get("image_src"):
             b["image_src"] = prev
+            if prev_fit is not None:
+                b.setdefault("fit", prev_fit)
         prev = b.get("image_src") or prev
         if b.get("image_src") and "fit" not in b:
             try:
@@ -142,6 +167,7 @@ def beat_images(script, beats, work):
                 b["fit"] = h > w * 0.95 or w < 1200
             except Exception:
                 b["fit"] = False
+        prev_fit = b.get("fit")
     return credits, used_ai
 
 
@@ -201,37 +227,27 @@ def build(script, cfg, out_dir):
     mv.write_wav(work / "narration.wav", narr)
     log(f"  ⏱️  Thời lượng {_fmt(total)} · {len(shots)} cảnh ảnh")
 
-    # ---- khung hình
+    # ---- khung hình: trình duyệt vẽ lớp tĩnh + ảnh bìa, Python ghép từng khung (nhanh, chạy nhiều nhân)
+    import long_render
     from playwright.sync_api import sync_playwright
-    data = {"channel": cfg.get("channel", ""), "shots": [s for s in shots if s["src"]], "cards": cards}
+    vis = [s for s in shots if s["src"]]
     silent = work / "silent.mp4"
-    n = int(math.ceil(total * FPS))
-    cmd = [mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", "-f", "image2pipe", "-framerate", str(FPS),
-           "-c:v", "mjpeg", "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
-           str(silent)]
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
-    t0 = time.time()
     with sync_playwright() as p:
         br = p.chromium.launch()
         page = br.new_page(viewport={"width": 1920, "height": 1080})
         page.goto((ROOT / "templates" / "long.html").as_uri())
-        page.evaluate("d => window.setup(d)", data)
-        for i in range(n):
-            page.evaluate(f"window.renderAt({i / FPS})")
-            proc.stdin.write(page.screenshot(type="jpeg", quality=90))
-            if i % (FPS * 60) == 0 and i:
-                el = time.time() - t0
-                log(f"     … {i // FPS // 60} phút / {_fmt(total)}, còn khoảng {el / i * (n - i) / 60:.0f} phút")
+        page.evaluate("() => document.fonts.ready")
         # ảnh bìa YouTube
-        key = next((s["src"] for s in shots if s["src"] and not s["fit"]), shots[0]["src"])
+        key = next((s["src"] for s in vis if not s["fit"]), vis[0]["src"])
         page.evaluate("a => window.thumb(a[0], a[1], a[2])", [key, cfg.get("channel", ""), L.get("title_card") or L["title"]])
         page.wait_for_timeout(300)
         page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail.jpg"), type="jpeg", quality=92)
+        page.goto((ROOT / "templates" / "long.html").as_uri())
+        page.evaluate("() => document.fonts.ready")
+        layers = long_render.render_layers(page, cfg.get("channel", ""), [s["label"] for s in vis if s.get("label")],
+                                           cards, work / "layers")
         br.close()
-    proc.stdin.close()
-    proc.wait()
-    if proc.returncode != 0:
-        raise RuntimeError("ffmpeg lỗi khi ghép khung hình")
+    long_render.render(vis, cards, layers, total, FPS, silent, mv.ffmpeg_exe(), work, log=log)
 
     # ---- âm thanh: giọng + nhạc (tự hạ khi có giọng)
     import music

@@ -6,7 +6,7 @@ Mỗi tuần, copy toàn bộ phần trong khung bên dưới, dán vào chat Cl
 
 ```
 Bạn là biên kịch cho kênh video ngắn "Người Gác Sử" — kể những CHUYỆN CÓ THẬT khó tin trong lịch sử thế giới
-(tiếng Việt, video dọc 60–80 giây). Người kể xưng "tôi" khi cần, giọng kể chuyện bí ẩn, ấm, như kể bên ngọn đèn lồng.
+(tiếng Việt). Mỗi chuyện ra 3 sản phẩm: video dọc 60–80 giây, bài đăng ảnh Facebook, video dài YouTube 16:9. Người kể xưng "tôi" khi cần, giọng kể chuyện bí ẩn, ấm, như kể bên ngọn đèn lồng.
 Hãy viết kịch bản cho các hook dưới đây, mỗi hook là MỘT file JSON riêng, đặt trong khối ```json, phía trên mỗi khối ghi tên file (ví dụ: DV1.json).
 
 DANH SÁCH HOOK:
@@ -98,6 +98,35 @@ Mỗi chuyện có thêm 1 bài đăng dạng album ảnh + bài viết kể chu
 - Slide đọc liền nhau phải thành 1 câu chuyện ngắn hoàn chỉnh (người chỉ lướt ảnh vẫn hiểu).
 - Bài viết dùng văn kể chuyện, KHÔNG gạch đầu dòng, KHÔNG markdown; chỉ chuyện có thật, chỗ tranh cãi nói rõ là tranh cãi.
 - Tổng bài viết khoảng 250–400 chữ.
+
+VIDEO DÀI YOUTUBE 16:9 (bắt buộc, trường "long" trong cùng file JSON)
+Giọng đọc Gemini (Sadaltager) đọc tự nhiên nên KHÔNG dùng thẻ [nhấn]/[nhanh]… trong video dài; chỉ cần văn kể chuyện hay.
+"long": {
+  "title": "Vì sao [nghịch lý của chuyện]? | [Tên sự kiện]   (≤ 95 ký tự)",
+  "title_card": "Tên sự kiện ngắn, **tô màu** cụm đắt nhất (hiện ở thẻ mở đầu và ảnh bìa)",
+  "description": "2–3 câu tóm tắt gợi tò mò cho mô tả YouTube, không tiết lộ lời giải",
+  "voice": "Sadaltager",
+  "chapters": [
+    {"beats": [ ...mở đầu lạnh: 3–5 câu gây sốc, KHÔNG có "title" ... ]},
+    {"title": "Tên chương ngắn", "beats": [
+      {"text": "1–3 câu lời đọc", "ai": "prompt TIẾNG ANH mô tả ảnh minh họa", "label": "Strasbourg · 1518"},
+      {"text": "...", "image": {"url": "...", "credit": "..."}},
+      {"text": "..."}
+    ]},
+    ...
+    {"title": "Lời kết", "beats": [...]}
+  ]
+}
+- 6–8 chương (chương đầu là mở đầu lạnh không tên), tổng 35–60 beat, khoảng 1.100–2.000 tiếng (6–10 phút).
+- Kể CHI TIẾT hơn video ngắn: bối cảnh thời đại, nhân vật, diễn biến theo thời gian, các giả thuyết, ý nghĩa.
+  Chương cuối tóm lại và kết bằng "Sử thật… lạ hơn cả truyện." KHÔNG giới thiệu chuyện tiếp theo.
+- Mỗi beat = 1 ảnh trên màn hình (trung bình 6–10 giây). Ảnh lấy theo thứ tự ưu tiên:
+  + "image": dùng lại ảnh tư liệu thật đã chọn ở video ngắn (chép nguyên "url" + "credit"), hoặc {"scene": số cảnh}.
+  + "ai": prompt tiếng Anh cho FLUX vẽ tranh minh họa (máy tự thêm phong cách tranh cổ màu nâu ấm). Tả cảnh, người,
+    ánh sáng, thời đại; KHÔNG yêu cầu chữ, KHÔNG vẽ người thật nổi tiếng nhận diện được, KHÔNG cảnh máu me.
+  + không có cả hai: giữ ảnh của beat trước (dùng khi 2 câu nói cùng một khung cảnh).
+- "label" (tùy chọn): nhãn địa danh / năm hiện góc dưới vài giây, dùng ở beat mở đầu mỗi bối cảnh mới.
+- Số viết bằng chữ, tên nước ngoài giữ nguyên chữ gốc (Gemini đọc tốt), câu có nhịp, nhiều "…" ở chỗ hồi hộp.
 
 JSON phải hợp lệ: không có dòng chú thích //, không có dấu phẩy thừa.
 Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 10 từ), phần chi tiết để trong voice.

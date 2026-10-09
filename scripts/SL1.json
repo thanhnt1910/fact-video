@@ -80,8 +80,10 @@
       ],
       "voice": "[cao] Và cách chữa của thầy thuốc thời đó? [nhấn] Cứ để họ nhảy… cho hết bệnh! [nhanh] Thành phố mở hội trường, thuê nhạc công, thuê cả người khỏe để đỡ người nhảy. [trầm] Nhưng kết quả… người nhảy lại càng đông hơn.",
       "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_%28detail%29_-_WGA3504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Pieter Bruegel the Elder - The Peasant Dance (detail) - WGA3504.jpg\" – Pieter Brueghel the Elder, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_(detail)_-_WGA3504.jpg)",
         "query": "peasant dance Bruegel",
-        "subject": "peasant"
+        "source": "wikimedia"
       }
     },
     {
@@ -91,8 +93,10 @@
       "sub": "Người ta tin đây là hình phạt của **Thánh Vitus**",
       "voice": "[nhanh] Hoảng sợ, thành phố cấm hẳn âm nhạc và nhảy múa. [trầm] Người ta tin đây là hình phạt của Thánh Vitus. [chậm] Người nhảy được đưa đến đền thờ để cầu nguyện. [nhanh] Đầu tháng chín, cơn dịch mới lắng xuống.",
       "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg/1920px-Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Bregenz Martinskapelle Seitenaltar Hl Vitus.jpg\" – Photo: Andreas Praefcke, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Bregenz_Martinskapelle_Seitenaltar_Hl_Vitus.jpg)",
         "query": "Saint Vitus martyrdom",
-        "subject": "Vitus"
+        "source": "wikimedia"
       }
     },
     {

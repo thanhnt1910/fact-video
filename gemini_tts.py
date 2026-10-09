@@ -21,8 +21,9 @@ MODELS_NEW = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview"]
 MODELS_OLD = ["gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
 
 # Lời "đạo diễn" mặc định cho kênh
-BASE_STYLE = ("Native Vietnamese narrator (Northern accent, Hanoi) for a short viral fun-facts video. "
-              "Warm, captivating storyteller: lively and curious, clear diction, natural Vietnamese tones, "
+BASE_STYLE = ("Native Vietnamese narrator (Northern accent, Hanoi) for a short true-history storytelling video. "
+              "Warm, captivating storyteller with a hint of mystery, like telling a strange true tale by lantern light: "
+              "clear diction, natural Vietnamese tones, "
               "varied pace — slow down and lower the voice before a surprising fact, then reveal it with "
               "energy and a smile; pause briefly at '…'. Never robotic, never news-anchor flat.")
 

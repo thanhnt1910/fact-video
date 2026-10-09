@@ -36,7 +36,7 @@ jobs:
           rm -f updates.json
           curl -s -o /dev/null -w "Gửi tin thử: %{http_code}\n" \
             -F chat_id="$(cat telegram_chat_id.txt)" \
-            -F text="✅ Đã kết nối! Video từ kênh Hóa Ra Là Vậy sẽ được gửi về đây." \
+            -F text="✅ Đã kết nối! Video từ kênh Người Gác Sử sẽ được gửi về đây." \
             "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
       - name: Lưu mã chat
         run: |

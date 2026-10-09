@@ -23,7 +23,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-UA = "HoaRaLaVayFactVideo/1.0 (https://github.com/thanhnt1910/fact-video; educational fact videos)"
+UA = "NguoiGacSuVideo/1.0 (https://github.com/thanhnt1910/fact-video; educational history videos)"
 MIN_SHORT_SIDE = 700
 
 TOPIC_SOURCES = {
@@ -31,6 +31,11 @@ TOPIC_SOURCES = {
     "lich-su": ["wikimedia", "met", "openverse"],
     "vu-tru": ["nasa", "wikimedia", "openverse"],
     "tam-tri": ["openverse", "wikimedia"],
+    "su-la": ["wikimedia", "met", "openverse"],
+    "bi-an": ["wikimedia", "openverse", "met"],
+    "sinh-ton": ["wikimedia", "openverse"],
+    "phi-vu": ["wikimedia", "met", "openverse"],
+    "than-thoai": ["met", "wikimedia", "openverse"],
     "default": ["pixabay", "openverse", "wikimedia"],
 }
 

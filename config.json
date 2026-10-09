@@ -1,7 +1,8 @@
 {
-  "channel": "Hóa Ra Là Vậy",
-  "catchphrase": "Hóa ra là vậy!",
-  "follow": "👉 Theo dõi để biết thêm điều thú vị mỗi ngày",
+  "channel": "Người Gác Sử",
+  "catchphrase": "Sử thật… lạ hơn cả truyện!",
+  "follow": "👉 Theo dõi để mở trang sử tiếp theo",
+  "next_label": "Chuyện tiếp theo:",
 
   "tts_engine": "vieneu",
   "vieneu": {
@@ -40,6 +41,12 @@
     "thuc-vat":    { "label": "Thực vật & Đồ ăn",  "icon": "🍌", "bg1": "#4a3300", "bg2": "#b07d00", "accent": "#FFE36E" },
     "lich-su":     { "label": "Lịch sử",           "icon": "🏛️", "bg1": "#4a1e00", "bg2": "#b5531c", "accent": "#FFC08A" },
     "co-dai":      { "label": "Thế giới cổ đại",   "icon": "🏺", "bg1": "#3b2a12", "bg2": "#9a7140", "accent": "#FFD98F" },
-    "tam-tri":     { "label": "Bí ẩn tâm trí",     "icon": "🌀", "bg1": "#1a0f3a", "bg2": "#3d2a7a", "accent": "#C9B8FF" }
+    "tam-tri":     { "label": "Bí ẩn tâm trí",     "icon": "🌀", "bg1": "#1a0f3a", "bg2": "#3d2a7a", "accent": "#C9B8FF" },
+
+    "su-la":       { "label": "Sử lạ có thật",     "icon": "🏮", "bg1": "#140d06", "bg2": "#4f3313", "accent": "#FFC66B" },
+    "bi-an":       { "label": "Bí ẩn chưa giải",   "icon": "🔍", "bg1": "#0a0f1c", "bg2": "#23324f", "accent": "#9FC4FF" },
+    "sinh-ton":    { "label": "Sinh tồn có thật",  "icon": "🧭", "bg1": "#0b1a12", "bg2": "#2b4f36", "accent": "#A8F0B0" },
+    "phi-vu":      { "label": "Phi vụ khó tin",    "icon": "🎩", "bg1": "#1f0b0d", "bg2": "#5c1e24", "accent": "#FFB3A8" },
+    "than-thoai":  { "label": "Thần thoại",        "icon": "⚡", "bg1": "#150c26", "bg2": "#41275e", "accent": "#E0C3FF" }
   }
 }

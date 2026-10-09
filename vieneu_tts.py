@@ -21,7 +21,7 @@ except Exception:
     pass
 
 ROOT = Path(__file__).resolve().parent
-SAMPLE = "Bạch tuộc có… ba trái tim! Nghe thật khó tin, đúng không? Nhưng đó là sự thật. Hóa ra là vậy!"
+SAMPLE = "Năm 1518, cả trăm người… nhảy múa không ngừng nghỉ. Nghe như truyện, nhưng hoàn toàn có thật. Sử thật… lạ hơn cả truyện!"
 
 
 def _dereference_hf_cache():

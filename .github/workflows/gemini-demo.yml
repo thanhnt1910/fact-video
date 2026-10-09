@@ -43,7 +43,7 @@ jobs:
           while IFS='|' read -r name file || [ -n "$file" ]; do
             [ -z "$file" ] && continue
             curl -s -o /dev/null -F chat_id="$CHAT" -F audio=@"demo/$file" -F title="$name" \
-              -F performer="Hóa Ra Là Vậy" "https://api.telegram.org/bot${TG_TOKEN}/sendAudio"
+              -F performer="Người Gác Sử" "https://api.telegram.org/bot${TG_TOKEN}/sendAudio"
           done < demo/list.txt
       - name: Lưu vào repo
         if: always()

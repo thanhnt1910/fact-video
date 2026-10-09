@@ -1,4 +1,4 @@
-# 🎬 Bộ tạo video "Hóa Ra Là Vậy"
+# 🏮 Bộ tạo video "Người Gác Sử"
 
 Tự động biến **kịch bản JSON** thành **video dọc 1080×1920** có hình động, giọng đọc AI tiếng Việt, phụ đề, nhạc nền, kèm ảnh bìa và caption để đăng Facebook Reels, TikTok, YouTube Shorts.
 

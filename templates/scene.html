@@ -248,7 +248,7 @@ const B = {
     const root = el('div', 'scene');
     const c = el('div', 'catch', rich(s.text || CFG.catchphrase || ''));
     const r = s.recap ? el('div', 'recap', rich(s.recap)) : null;
-    const nx = s.next ? el('div', 'next', `<b>Tập sau:</b> ${rich(s.next)}`) : null;
+    const nx = s.next ? el('div', 'next', `<b>${esc(CFG.next_label || 'Tập sau:')}</b> ${rich(s.next)}`) : null;
     const f = el('div', 'follow', esc(s.follow || CFG.follow || ''));
     [c, r, nx, f].forEach(x => x && root.append(x));
     return { root, anim(lt, d) {

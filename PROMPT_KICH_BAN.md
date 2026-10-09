@@ -5,16 +5,22 @@ Mỗi tuần, copy toàn bộ phần trong khung bên dưới, dán vào chat Cl
 ---
 
 ```
-Bạn là biên kịch cho kênh video ngắn "Hóa Ra Là Vậy" (sự thật thú vị, tiếng Việt, video dọc 40–60 giây).
+Bạn là biên kịch cho kênh video ngắn "Người Gác Sử" — kể những CHUYỆN CÓ THẬT khó tin trong lịch sử thế giới
+(tiếng Việt, video dọc 60–80 giây). Người kể xưng "tôi" khi cần, giọng kể chuyện bí ẩn, ấm, như kể bên ngọn đèn lồng.
 Hãy viết kịch bản cho các hook dưới đây, mỗi hook là MỘT file JSON riêng, đặt trong khối ```json, phía trên mỗi khối ghi tên file (ví dụ: DV1.json).
 
 DANH SÁCH HOOK:
-- DV1 | dong-vat | Bạch tuộc có tới 3 trái tim
-- CD-A1 | co-dai | Kim tự tháp không phải do nô lệ xây
+- SL1 | su-la | Dịch nhảy múa ở Strasbourg năm 1518
+- ST1 | sinh-ton | Hiroo Onoda chiến đấu 29 năm sau khi chiến tranh kết thúc
 
 YÊU CẦU NỘI DUNG
-- Cấu trúc: hook (0–3s) → làm rõ điều khó tin → giải thích (2–3 cảnh) → chi tiết bồi → outro.
-- Tổng lời đọc khoảng 110–150 từ (40–60 giây). Câu ngắn, dễ nghe, văn nói tự nhiên.
+- Cấu trúc KỂ CHUYỆN: hook gây sốc (0–3s) → bối cảnh (năm, nơi chốn, nhân vật) → diễn biến leo thang (2–3 cảnh)
+  → cú lật / điều kỳ lạ nhất → lời giải hoặc bí ẩn còn bỏ ngỏ → outro.
+- Tổng lời đọc khoảng 220–260 tiếng (60–80 giây). Câu ngắn, dễ nghe, văn nói tự nhiên, có không khí kể chuyện.
+- CHỈ kể chuyện CÓ THẬT, có nguồn. Chi tiết nào sử gia còn tranh cãi thì nói rõ "có tài liệu kể rằng…", "vẫn còn tranh cãi".
+  Không bịa lời thoại, không thêm tình tiết để câu khách.
+- TRÁNH: vụ án giết người hiện đại, thảm họa gần đây có người chết, lịch sử – chính trị Việt Nam hiện đại,
+  thuyết âm mưu kể như thật, người thật còn sống không phải người nổi tiếng, miêu tả bạo lực chi tiết.
 - GIỌNG ĐỌC LÀ AI NÊN PHẢI "ĐẠO DIỄN" TỪNG CÂU. Viết "voice" như người dẫn chuyện đang hào hứng kể, và gắn THẺ NHẤN NHÁ ở ĐẦU câu:
   [nhấn]  đọc chậm, to, giọng hơi lên — dùng cho câu "đinh", sự thật bất ngờ (mỗi cảnh tối đa 1 câu)
   [nhanh] đọc nhanh — câu dẫn, câu giải thích phụ, lời kêu gọi theo dõi
@@ -36,17 +42,18 @@ YÊU CẦU NỘI DUNG
 - Viết số trong "voice" bằng chữ để giọng AI đọc đúng (ba trái tim, mười một nghìn sáu trăm năm). Trên màn hình ("text", "value"...) thì dùng chữ số.
 - Chỉ dùng sự thật có nguồn uy tín. Con số không chắc chắn thì thêm "khoảng", điều còn tranh luận thì nói "các nhà khoa học cho rằng".
 - "sources": liệt kê 1–3 nguồn uy tín thật (tên tổ chức + tên bài/mục). Không bịa đường link.
-- Cảnh outro: "recap" tóm tắt 2–3 ý, "next" là câu hook của tập sau (nếu biết), voice kết thúc bằng câu "Hóa ra là vậy!".
+- Cảnh outro: "recap" tóm tắt 2–3 ý, "next" là câu hook của chuyện tiếp theo (nếu biết).
+  Voice có câu chốt "[trầm] Sử thật… lạ hơn cả truyện." rồi giới thiệu chuyện tiếp theo và "Theo dõi Người Gác Sử nhé!".
 - Emoji dùng emoji phổ biến từ trước 2020 (tránh emoji mới như 🫧 🫀 🪸 — Windows sẽ hiện ô vuông).
 - Bọc chữ cần tô màu nổi bật bằng **hai dấu sao**.
 
 ĐỊNH DẠNG JSON
 {
-  "id": "DV1",                      // mã hook, không dấu
-  "topic": "dong-vat",              // dong-vat | con-nguoi | thien-nhien | vu-tru | thuc-vat | lich-su | co-dai | tam-tri
-  "title": "Bạch tuộc có tới 3 trái tim",
+  "id": "SL1",                      // mã chuyện, không dấu
+  "topic": "su-la",                 // su-la | bi-an | sinh-ton | phi-vu | than-thoai (cũ: lich-su, co-dai…)
+  "title": "Năm 1518, cả một thành phố phát cuồng vì nhảy múa",
   "caption": "Caption đăng mạng xã hội, 1–2 câu, có emoji",
-  "hashtags": ["sựthậtthúvị", "hóaralàvậy", "..."],
+  "hashtags": ["nguoigacsu", "sửlạ", "chuyệncóthật", "..."],
   "sources": ["...", "..."],
   "scenes": [ ...các cảnh... ]
 }
@@ -58,12 +65,13 @@ CÁC LOẠI CẢNH (mỗi cảnh BẮT BUỘC có "type" và "voice")
 4. number    : { "type":"number", "pre":"...", "value":"11.600", "unit":"năm", "caption":"...", "voice":"..." }
 5. timeline  : { "type":"timeline", "title":"...", "items":[{"year":"~2.560 TCN","label":"🔺 Kim tự tháp"}], "voice":"..." }   (tối đa 4 mốc)
 6. text      : { "type":"text", "icon":"🤯", "text":"câu khẳng định ngắn", "sub":"câu phụ", "voice":"..." }
-7. outro     : { "type":"outro", "recap":"ý 1 · ý 2 · ý 3", "next":"hook tập sau", "voice":"... Hóa ra là vậy! ..." }   (cảnh cuối)
+7. outro     : { "type":"outro", "recap":"ý 1 · ý 2 · ý 3", "next":"hook tập sau", "voice":"... Sử thật… lạ hơn cả truyện. ..." }   (cảnh cuối)
 
 ẢNH MINH HỌA (nên có ở 3–5 cảnh, đặc biệt cảnh hook)
 - Thêm vào cảnh: "image": {"query": "từ khóa TIẾNG ANH, cụ thể"} — vd "octopus underwater", "Great Pyramid of Giza".
   Từ ĐẦU TIÊN của query là chủ thể bắt buộc phải có trong ảnh. Nếu chủ thể gồm nhiều từ, thêm "subject": "Great Pyramid".
-- Chủ đề lịch sử / cổ đại / di tích: thêm "source": "wikimedia" (hoặc "met" cho hiện vật bảo tàng). Vũ trụ: "source": "nasa".
+- Chuyện lịch sử: ưu tiên tranh khắc, tranh sơn dầu, bản đồ cổ, ảnh tư liệu cũ đã hết bản quyền (Wikimedia, bảo tàng Met).
+  Thần thoại: tranh cổ điển của bảo tàng ("source": "met"). Vũ trụ: "source": "nasa".
 - Không tìm ảnh có người thật nhận diện được, không tìm logo/thương hiệu, không ảnh nhạy cảm.
 - Cảnh compare/timeline thường để đồ họa, không cần ảnh. Các cảnh khác nhau nên dùng từ khóa khác nhau.
 
@@ -85,11 +93,16 @@ Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 1
 | 🏛️ Lịch sử | `lich-su` |
 | 🏺 Thế giới cổ đại | `co-dai` |
 | 🌀 Bí ẩn tâm trí | `tam-tri` |
+| 🏮 Sử lạ có thật | `su-la` |
+| 🔍 Bí ẩn chưa giải | `bi-an` |
+| 🧭 Sinh tồn có thật | `sinh-ton` |
+| 🎩 Phi vụ khó tin | `phi-vu` |
+| ⚡ Thần thoại | `than-thoai` |
 
 Mã hook có dấu trong kế hoạch (ĐV1, CĐ-A1…) thì đổi sang không dấu khi đặt `id`: ĐV1 → `DV1`, CĐ-A1 → `CD-A1`, NG1, TN1, VT1, TA1, LS1 giữ nguyên.
 
 ## Quy trình chọn ảnh (Claude làm)
 1. Viết kịch bản có "image": {"query": ...}, đẩy lên repo.
 2. Chạy workflow **Duyệt ảnh ứng viên** → xem `logs/cand_<mã>.jpg` (ảnh đánh số theo cảnh).
-3. Chọn ảnh đúng nội dung, đẹp, là ẢNH CHỤP THẬT (loại ảnh AI, ảnh chụp slide, sơ đồ, trang sách), rồi ghi
+3. Chọn ảnh đúng nội dung, đẹp, là ảnh chụp thật hoặc tranh / tranh khắc / bản đồ cổ (loại ảnh AI, ảnh chụp slide, trang sách có chữ), rồi ghi
    "image": {"url": ..., "credit": ...} lấy từ `logs/cand_<mã>.json` vào kịch bản. Cảnh không có ảnh tốt thì bỏ "image".

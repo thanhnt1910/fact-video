@@ -1,0 +1,127 @@
+{
+  "id": "SL1",
+  "topic": "su-la",
+  "title": "Năm 1518, cả một thành phố phát cuồng vì nhảy múa",
+  "caption": "Không nhạc, không lý do, họ cứ thế nhảy… suốt gần hai tháng. Chuyện có thật ở Strasbourg năm 1518 🏮",
+  "hashtags": [
+    "nguoigacsu",
+    "sửlạ",
+    "lịchsử",
+    "chuyệncóthật",
+    "bíẩn"
+  ],
+  "sources": [
+    "Wikipedia – Dancing plague of 1518",
+    "John Waller – A Time to Dance, A Time to Die (2008)",
+    "John Waller – A forgotten plague: making sense of dancing mania, The Lancet (2009)"
+  ],
+  "pronounce": {
+    "Strasbourg": "Xtrát bua",
+    "Troffea": "Trốp phê a",
+    "Vitus": "Vi tút"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "icon": "💃",
+      "text": "Năm 1518, một thành phố **phát cuồng vì nhảy múa**",
+      "voice": "[trầm] Năm một nghìn năm trăm mười tám… [nhấn] một thành phố phát cuồng vì nhảy múa. [nhanh] Và không ai dừng lại được!",
+      "image": {
+        "query": "dancing mania",
+        "subject": "dancing"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🏰",
+      "text": "**Strasbourg**, tháng 7 năm 1518",
+      "sub": "Một người phụ nữ bước ra phố… và bắt đầu nhảy",
+      "voice": "[nhanh] Chuyện xảy ra ở Strasbourg, tháng bảy năm ấy. [trầm] Một người phụ nữ tên Troffea bước ra con phố trước nhà… [nhấn] và bắt đầu nhảy. [nhanh] Không nhạc. Không lý do. Bà nhảy gần một tuần liền.",
+      "image": {
+        "query": "Strasbourg Braun Hogenberg",
+        "subject": "Strasbourg"
+      }
+    },
+    {
+      "type": "number",
+      "pre": "Chỉ vài ngày sau, số người nhảy theo đã hơn",
+      "value": "30",
+      "unit": "người",
+      "caption": "Đến tháng 8: khoảng **50 – 400 người**, tùy tài liệu",
+      "voice": "[chậm] Vài ngày sau, hơn ba mươi người nhảy theo. [nhấn] Đến tháng tám… có tài liệu ghi tới bốn trăm người!",
+      "image": {
+        "query": "dancing mania pilgrimage Molenbeek",
+        "subject": "dancing"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "🎻",
+      "title": "Cách “chữa” năm 1518",
+      "bullets": [
+        {
+          "icon": "🎻",
+          "text": "Thuê nhạc công chơi nhạc"
+        },
+        {
+          "icon": "🏛️",
+          "text": "Mở cả hội trường để nhảy"
+        },
+        {
+          "icon": "💪",
+          "text": "Thuê người khỏe đỡ người nhảy"
+        }
+      ],
+      "voice": "[cao] Và cách chữa của thầy thuốc thời đó? [nhấn] Cứ để họ nhảy… cho hết bệnh! [nhanh] Thành phố mở hội trường, thuê nhạc công, thuê cả người khỏe để đỡ người nhảy. [trầm] Nhưng kết quả… người nhảy lại càng đông hơn.",
+      "image": {
+        "query": "medieval musicians bagpipe engraving",
+        "subject": "musicians"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "⛪",
+      "text": "Cấm nhạc, cấm nhảy, **đưa đi cầu nguyện**",
+      "sub": "Người ta tin đây là hình phạt của **Thánh Vitus**",
+      "voice": "[nhanh] Hoảng sợ, thành phố cấm hẳn âm nhạc và nhảy múa. [trầm] Người ta tin đây là hình phạt của Thánh Vitus. [chậm] Người nhảy được đưa đến đền thờ để cầu nguyện. [nhanh] Đầu tháng chín, cơn dịch mới lắng xuống.",
+      "image": {
+        "query": "Saint Vitus",
+        "subject": "Vitus"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "🤔",
+      "title": "Vì sao?",
+      "bullets": [
+        {
+          "icon": "🌾",
+          "text": "Ngộ độc nấm trên lúa mạch?"
+        },
+        {
+          "icon": "🧠",
+          "text": "Cuồng loạn tập thể vì sợ hãi?"
+        },
+        {
+          "icon": "❓",
+          "text": "Đến nay vẫn còn tranh cãi"
+        }
+      ],
+      "voice": "[trầm] Vậy rốt cuộc… vì sao? [nhanh] Có giả thuyết cho rằng do ngộ độc nấm mốc trên lúa mạch. [chậm] Nhưng nhiều nhà sử học tin đó là cuồng loạn tập thể, khi đói khổ và sợ hãi dồn người ta đến giới hạn. [nhấn] Đến nay, vẫn chưa ai dám chắc!",
+      "image": {
+        "query": "ergot rye",
+        "subject": "ergot"
+      }
+    },
+    {
+      "type": "outro",
+      "recap": "Gần 2 tháng · cả thành phố hoảng loạn · chưa có lời giải",
+      "next": "Người lính chiến đấu **29 năm** sau khi chiến tranh kết thúc",
+      "voice": "[chậm] Gần hai tháng. Cả một thành phố hoảng loạn. [nhấn] Và đến giờ, vẫn chưa có lời giải. [trầm] Sử thật… lạ hơn cả truyện. [nhanh] Chuyện tiếp theo: người lính chiến đấu thêm hai mươi chín năm, dù chiến tranh đã kết thúc. Theo dõi Người Gác Sử nhé!",
+      "image": {
+        "query": "Strasbourg cathedral engraving",
+        "subject": "Strasbourg"
+      }
+    }
+  ]
+}

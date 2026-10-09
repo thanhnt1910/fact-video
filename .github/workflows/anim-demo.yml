@@ -1,0 +1,64 @@
+name: Thử hoạt hình cắt giấy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Bộ nhớ đệm
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/ms-playwright
+            ~/.u2net
+            assets/music/cache
+          key: fv-anim-v1
+      - name: Cài đặt
+        run: |
+          python -m pip install -q -r requirements.txt "rembg[cpu]" pillow numpy
+          python -m playwright install --with-deps chromium > /dev/null
+      - name: Vẽ ảnh và dựng hoạt hình
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          mkdir -p logs demo
+          set -o pipefail
+          python anim_demo.py 2>&1 | tee logs/anim-demo.txt
+      - name: Gửi Telegram
+        if: always()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] && [ -f demo/anim-demo.mp4 ] || exit 0
+          CHAT=$(cat telegram_chat_id.txt)
+          curl -s -o /dev/null -w "Gửi: %{http_code}\n" -F chat_id="$CHAT" -F supports_streaming=true \
+            -F video=@demo/anim-demo.mp4 \
+            -F caption="🎬 Thử hoạt hình cắt giấy 16:9 (ảnh vẽ bằng FLUX miễn phí, nhân vật tách nền rồi cho chuyển động). $(cat demo/anim-demo.txt)" \
+            "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"
+      - name: Lưu ảnh để xem lại
+        if: always()
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/ai/demo logs/anim-* || true
+          git commit -q -m "Ảnh và khung hình thử hoạt hình cắt giấy" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase -X theirs -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          exit 1

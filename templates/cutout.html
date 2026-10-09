@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root { --accent: #FFC66B; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0b0604; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+  #bg { position: absolute; inset: -6%; background-size: cover; background-position: center;
+        filter: sepia(0.25) contrast(1.05) brightness(0.9) saturate(0.9); }
+  #layer { position: absolute; inset: 0; }
+  .ch { position: absolute; bottom: 0; transform-origin: 50% 100%; will-change: transform; }
+  .ch img { display: block; height: 100%; width: auto; filter: drop-shadow(0 10px 12px rgba(0,0,0,0.45)); }
+  .sh { position: absolute; height: 34px; border-radius: 50%; background: radial-gradient(ellipse, rgba(0,0,0,0.45), transparent 70%); }
+  #lamp { position: absolute; inset: 0; background: radial-gradient(circle at 18% 10%, rgba(255,190,100,0.22), transparent 50%); }
+  #vig { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 50%, transparent 50%, rgba(0,0,0,0.6) 100%); }
+  #noise { position: absolute; inset: -80px; opacity: 0.07;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.9 0 0 0 0 0.75 0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+  #brand { position: absolute; top: 40px; right: 56px; font-family: 'Lora', Georgia, serif; font-style: italic;
+           font-weight: 600; font-size: 34px; color: var(--accent); text-shadow: 0 2px 10px rgba(0,0,0,0.8); }
+  #cap { position: absolute; left: 50%; top: 110px; transform: translateX(-50%); max-width: 1500px; text-align: center;
+         font-family: 'Lora', Georgia, serif; font-weight: 700; font-size: 58px; line-height: 1.25; color: #FBEBD0;
+         padding: 18px 40px; border-radius: 10px; background: rgba(10,6,3,0.55); text-shadow: 0 3px 12px rgba(0,0,0,0.8); opacity: 0; }
+  #cap .hl { color: var(--accent); }
+</style>
+</head>
+<body>
+<div id="root">
+  <div id="bg"></div>
+  <div id="layer"></div>
+  <div id="lamp"></div><div id="noise"></div><div id="vig"></div>
+  <div id="brand"></div>
+  <div id="cap"></div>
+</div>
+<script>
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const ease = x => { x = clamp(x); return x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2; };
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let D = null, CH = [];
+window.setup = function (d) {
+  D = d;
+  document.getElementById('bg').style.backgroundImage = `url("${d.bg}")`;
+  document.getElementById('brand').textContent = d.channel || '';
+  const L = document.getElementById('layer');
+  // xếp theo độ sâu: nhân vật ở xa (depth lớn) vẽ trước
+  CH = d.chars.slice().sort((a, b) => b.depth - a.depth).map(c => {
+    const sh = document.createElement('div'); sh.className = 'sh'; L.append(sh);
+    const el = document.createElement('div'); el.className = 'ch';
+    const im = document.createElement('img'); im.src = c.src; el.append(im); L.append(el);
+    const scale = 1 - c.depth * 0.35;
+    el.style.height = (c.h * scale) + 'px';
+    if (c.depth > 0) im.style.filter += ` brightness(${1 - c.depth * 0.25})`;
+    return { c, el, sh, im, scale };
+  });
+  const imgs = [d.bg, ...d.chars.map(c => c.src)].map(s => new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = s; }));
+  return Promise.all([document.fonts.ready, ...imgs]).then(() => true);
+};
+window.renderAt = function (t) {
+  const T = D.total, p = t / T;
+  document.getElementById('bg').style.transform = `scale(${1.04 + 0.06 * p}) translateX(${-1.5 * p}%)`;
+  document.getElementById('layer').style.transform = `translateX(${1.2 * p}%)`;
+  document.getElementById('lamp').style.opacity = 0.8 + 0.12 * Math.sin(t * 7.1) * Math.sin(t * 2.3) + 0.08 * Math.sin(t * 12.7);
+  const f = Math.floor(t * 12);
+  document.getElementById('noise').style.transform = `translate(${(f * 37) % 80 - 40}px, ${(f * 53) % 80 - 40}px)`;
+  for (const o of CH) {
+    const c = o.c, w = o.el.offsetWidth || 300;
+    const baseX = c.x * 1920 - w / 2, groundY = c.ground + c.depth * 60;   // px tính từ đáy khung
+    let x = baseX, y = 0, rot = 0, sx = 1, sy = 1, vis = 1;
+    const tin = c.enter ?? 0, walk = c.walk ?? 1.6;
+    if (t < tin) { vis = 0; }
+    else if (t < tin + walk) {                     // đi vào khung hình
+      const q = ease((t - tin) / walk);
+      const from = c.from === 'left' ? -w - 40 : 1960;
+      x = from + (baseX - from) * q;
+      y = Math.abs(Math.sin((t - tin) * 9)) * 14;
+      rot = Math.sin((t - tin) * 9) * 3;
+      sx = c.from === 'left' ? 1 : -1;
+      if (c.faceLeft) sx = -sx;
+    } else {                                       // nhảy / lắc lư tại chỗ
+      const s = c.speed ?? 6, u = t - tin - walk + (c.phase ?? 0);
+      y = Math.abs(Math.sin(u * s)) * (c.amp ?? 30);
+      rot = Math.sin(u * s / 2) * (c.sway ?? 8);
+      sy = 1 - Math.abs(Math.cos(u * s)) * 0.04; sx = 1 + Math.abs(Math.cos(u * s)) * 0.02;
+      if (c.flip && Math.floor(u * s / Math.PI) % 2) sx = -sx;   // xoay người theo nhịp
+      if (c.faceLeft) sx = -sx;
+    }
+    o.el.style.opacity = vis;
+    o.el.style.left = x + 'px';
+    o.el.style.bottom = (groundY + y) + 'px';
+    o.el.style.transform = `rotate(${rot}deg) scale(${sx}, ${sy})`;
+    o.sh.style.opacity = vis * (1 - clamp(y / 120) * 0.5);
+    o.sh.style.width = (w * 0.8) + 'px';
+    o.sh.style.left = (x + w * 0.1) + 'px';
+    o.sh.style.bottom = (groundY - 14) + 'px';
+  }
+  const cap = document.getElementById('cap');
+  const cur = (D.captions || []).find(k => t >= k.t0 && t < k.t1);
+  if (cur) {
+    cap.innerHTML = esc(cur.text).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
+    cap.style.opacity = Math.min(clamp((t - cur.t0) / 0.5), clamp((cur.t1 - t) / 0.5));
+  } else cap.style.opacity = 0;
+};
+</script>
+</body>
+</html>

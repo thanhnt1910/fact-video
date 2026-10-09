@@ -1,0 +1,517 @@
+{
+  "id": "ST1",
+  "topic": "sinh-ton",
+  "title": "Người lính chiến đấu 29 năm cho một cuộc chiến đã kết thúc",
+  "caption": "Chiến tranh hết năm 1945… nhưng ông vẫn ở trong rừng thêm gần 29 năm 🌴",
+  "hashtags": [
+    "nguoigacsu",
+    "sinhtồn",
+    "lịchsử",
+    "chuyệncóthật",
+    "hirooonoda"
+  ],
+  "sources": [
+    "Hiroo Onoda – No Surrender: My Thirty-Year War (1974)",
+    "Wikipedia – Hiroo Onoda",
+    "The New York Times – Hiroo Onoda, Soldier Who Hid in Jungle for Decades, Dies at 91 (2014)",
+    "Beatrice Trefalt – Japanese Army Stragglers and Memories of the War in Japan, 1950–75 (2003)"
+  ],
+  "music": "Lost Time",
+  "scenes": [
+    {
+      "type": "hook",
+      "icon": "⚔️",
+      "text": "Chiến tranh đã hết… ông vẫn **chiến đấu 29 năm**",
+      "voice": "[trầm] Chiến tranh đã kết thúc từ lâu… [nhấn] nhưng có một người lính vẫn ở trong rừng chiến đấu, suốt hai mươi chín năm! [nhanh] Vì ông không tin chiến tranh đã hết.",
+      "image": {
+        "query": "Hiroo Onoda 1944",
+        "subject": "Onoda",
+        "source": "wikimedia"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🏝️",
+      "text": "**Đảo Lubang**, Philippines, cuối năm 1944",
+      "sub": "Mệnh lệnh: không bao giờ đầu hàng",
+      "voice": "[nhanh] Cuối năm một nghìn chín trăm bốn mươi tư, thiếu úy Hiroo Onoda được gửi đến đảo Lubang, Philippines. [chậm] Lệnh của ông: quấy rối quân địch, không được đầu hàng, cũng không được tự sát. [trầm] Cấp trên hứa… dù bao nhiêu năm, sẽ quay lại đón anh.",
+      "image": {
+        "query": "Lubang Island",
+        "subject": "Lubang",
+        "source": "wikimedia"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "📜",
+      "title": "Những lời báo tin bị bỏ qua",
+      "bullets": [
+        {
+          "icon": "📄",
+          "text": "1945: truyền đơn báo chiến tranh kết thúc"
+        },
+        {
+          "icon": "✉️",
+          "text": "1952: thư và ảnh của gia đình"
+        },
+        {
+          "icon": "🚫",
+          "text": "Ông cho rằng: bẫy của địch"
+        }
+      ],
+      "voice": "[cao] Tháng mười năm bốn lăm, nhóm của ông thấy truyền đơn: chiến tranh đã kết thúc! [nhấn] Nhưng Onoda cho rằng đó là bẫy của địch. [nhanh] Rồi máy bay thả xuống cả thư và ảnh của gia đình. [trầm] Ông vẫn không tin.",
+      "image": {
+        "query": "Lubang Philippines landscape",
+        "subject": "Lubang",
+        "source": "wikimedia"
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "Bốn người… rồi chỉ còn một",
+      "items": [
+        {
+          "year": "1945",
+          "label": "🌴 4 người rút vào rừng"
+        },
+        {
+          "year": "1950",
+          "label": "🏳️ Akatsu ra đầu hàng"
+        },
+        {
+          "year": "1954",
+          "label": "✝️ Shimada tử trận"
+        },
+        {
+          "year": "1972",
+          "label": "✝️ Kozuka tử trận"
+        }
+      ],
+      "voice": "[chậm] Ban đầu họ có bốn người. [nhanh] Một người bỏ đi đầu hàng, hai người khác chết trong các cuộc đấu súng. [trầm] Những năm ấy cũng là ác mộng với người dân trên đảo. [chậm] Nhóm của ông bị cáo buộc đã giết khoảng ba mươi người."
+    },
+    {
+      "type": "text",
+      "icon": "🐼",
+      "text": "1974: một chàng trai đi tìm **Onoda**",
+      "sub": "…và cả gấu trúc, người tuyết",
+      "voice": "[nhanh] Năm bảy mươi tư, một chàng trai Nhật tên Norio Suzuki lên đường. [cao] Anh nói mình đi tìm ba thứ: thiếu úy Onoda, một con gấu trúc, và người tuyết! [nhấn] Chỉ sau bốn ngày, anh đã tìm thấy Onoda."
+    },
+    {
+      "type": "number",
+      "pre": "Ông chỉ hạ súng khi cấp trên cũ đến đọc lệnh, sau",
+      "value": "10.416",
+      "unit": "ngày",
+      "caption": "kể từ ngày Nhật Bản **đầu hàng**",
+      "voice": "[trầm] Nhưng Onoda không chịu ra… nếu chưa có lệnh. [nhanh] Người ta phải đưa chính cấp trên cũ của ông bay sang tận đảo. [nhấn] Tháng ba năm bảy mươi tư, nghe đọc lệnh xong, Onoda mới hạ súng.",
+      "image": {
+        "query": "Type 99 Arisaka rifle",
+        "subject": "Arisaka",
+        "source": "wikimedia"
+      }
+    },
+    {
+      "type": "outro",
+      "recap": "29 năm trong rừng · không tin chiến tranh đã hết · bi kịch cho cả hai phía",
+      "voice": "[chậm] Hai mươi chín năm trong rừng. Một bi kịch, cho cả ông lẫn người dân trên đảo. [trầm] Sử thật… lạ hơn cả truyện. [nhanh] Theo dõi Người Gác Sử nhé!",
+      "image": {
+        "query": "Lubang Island beach",
+        "subject": "Lubang",
+        "source": "wikimedia"
+      }
+    }
+  ],
+  "post": {
+    "hook": "Chiến tranh kết thúc năm 1945. Nhưng trong một khu rừng ở Philippines, có một người lính Nhật vẫn chiến đấu thêm gần 29 năm nữa 🌴",
+    "paragraphs": [
+      "Tháng 12/1944, thiếu úy Hiroo Onoda, 22 tuổi, được gửi đến đảo Lubang (Philippines). Mệnh lệnh: quấy rối quân địch, không bao giờ đầu hàng, không được tự sát. Cấp trên hứa sẽ quay lại đón anh, dù mất bao nhiêu năm.",
+      "Tháng 2/1945, quân Đồng minh đổ bộ. Onoda cùng ba người lính rút sâu vào núi.",
+      "Tháng 10/1945, họ thấy tờ giấy người dân để lại: chiến tranh đã kết thúc. Họ cho đó là trò tuyên truyền. Truyền đơn có lệnh đầu hàng, rồi thư và ảnh của chính gia đình được thả xuống. Họ vẫn không tin.",
+      "Những năm ấy cũng là ác mộng với người dân Lubang. Nhóm của Onoda đốt lúa, lấy trộm gia súc, nổ súng nhiều lần và bị cáo buộc đã giết khoảng 30 người trên đảo.",
+      "Nhóm bốn người dần tan rã. Một người ra đầu hàng năm 1950, một người chết năm 1954. Năm 1972, người cuối cùng là Kozuka cũng chết. Onoda còn lại một mình.",
+      "Năm 1974, chàng trai Norio Suzuki sang Lubang, nói rằng mình đi tìm “thiếu úy Onoda, một con gấu trúc và người tuyết”. Chỉ sau 4 ngày, anh tìm thấy Onoda.",
+      "Onoda vẫn không chịu ra khỏi rừng. Ông chỉ hạ súng khi có lệnh của cấp trên.",
+      "Thế là người ta đưa thiếu tá Taniguchi, lúc này đã là một người bán sách, bay sang tận đảo. Ngày 9/3/1974, ông đọc lệnh giải ngũ. Onoda mới chịu giao nộp thanh kiếm và khẩu súng vẫn được lau chùi sáng bóng.",
+      "Ông về Nhật, sống đến năm 91 tuổi. Có người gọi ông là biểu tượng của lòng trung thành. Có người nói đó là sự mù quáng mà chiến tranh gieo vào con người, và các gia đình ở Lubang là những người trả giá."
+    ],
+    "ending": "Theo bạn, Onoda thật sự không biết chiến tranh đã kết thúc, hay ông không muốn tin điều đó?",
+    "hashtags": [
+      "nguoigacsu",
+      "sinhtồn",
+      "lịchsử",
+      "chuyệncóthật",
+      "hirooonoda"
+    ],
+    "slides": [
+      {
+        "kind": "cover",
+        "scene": 0,
+        "kicker": "Chuyện có thật · 1944 – 1974",
+        "title": "Người lính **không tin** chiến tranh đã hết"
+      },
+      {
+        "scene": 1,
+        "tag": "Đảo Lubang · 1944",
+        "text": "Mệnh lệnh của thiếu úy Onoda: không bao giờ đầu hàng."
+      },
+      {
+        "scene": 2,
+        "tag": "1945 – 1972",
+        "text": "Truyền đơn, thư nhà… ông đều cho là bẫy. Người dân trên đảo sống trong sợ hãi."
+      },
+      {
+        "scene": 5,
+        "tag": "9/3/1974",
+        "text": "Chỉ khi cấp trên cũ bay sang đọc lệnh, ông mới hạ súng."
+      },
+      {
+        "kind": "end",
+        "scene": 6,
+        "text": "29 năm trong rừng. Một bi kịch cho cả hai phía."
+      }
+    ]
+  },
+  "long": {
+    "title": "Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda",
+    "title_card": "Hiroo Onoda: **29 năm** trong rừng",
+    "description": "Năm 1945 chiến tranh kết thúc, nhưng trên đảo Lubang (Philippines), thiếu úy Hiroo Onoda vẫn tiếp tục chiến đấu thêm gần 29 năm. Truyền đơn, thư nhà, loa phóng thanh… ông đều cho là bẫy. Chuyện gì đã giữ ông trong rừng, và cái giá mà người dân trên đảo phải trả là gì?",
+    "voice": "Sadaltager",
+    "music": "Dark Times",
+    "chapters": [
+      {
+        "beats": [
+          {
+            "text": "Tháng ba năm một nghìn chín trăm bảy mươi tư. Trong khu rừng rậm trên một hòn đảo nhỏ của Philippines, một người đàn ông Nhật Bản hơn năm mươi tuổi bước ra, trên người là bộ quân phục đã vá chằng vá đụp.",
+            "ai": "a lone gaunt middle-aged soldier in a patched old WWII-era Japanese army uniform and cap stepping out of a dense tropical jungle, rifle on shoulder, seen from behind, misty morning"
+          },
+          {
+            "text": "Khẩu súng trường của ông vẫn được lau chùi sáng bóng. Đạn vẫn còn hàng trăm viên. Ông vẫn đang làm nhiệm vụ.",
+            "ai": "close-up of an old bolt-action rifle carefully cleaned and oiled resting on a wooden crate in a jungle hideout, warm light"
+          },
+          {
+            "text": "Vấn đề là… cuộc chiến mà ông đang chiến đấu đã kết thúc từ gần hai mươi chín năm trước.",
+            "ai": "an old torn newspaper and a faded calendar lying on jungle leaves, rain drops, melancholic"
+          },
+          {
+            "text": "Người ta đã báo tin cho ông. Bằng truyền đơn, bằng loa phóng thanh, bằng cả thư tay và ảnh của chính gia đình ông. Nhưng ông không tin.",
+            "ai": "paper leaflets falling from the sky over a tropical jungle canopy, a small propeller airplane far away"
+          },
+          {
+            "text": "Người đàn ông ấy tên là Hiroo Onoda. Và đây là câu chuyện về hai mươi chín năm ông sống trong rừng, chiến đấu cho một cuộc chiến chỉ còn tồn tại trong đầu mình.",
+            "image": {
+              "scene": 0
+            },
+            "label": "Hiroo Onoda · 1922 – 2014"
+          }
+        ]
+      },
+      {
+        "title": "Người lính tình báo",
+        "beats": [
+          {
+            "text": "Hiroo Onoda sinh ngày mười chín tháng ba năm một nghìn chín trăm hai mươi hai, ở tỉnh Wakayama, Nhật Bản.",
+            "ai": "a traditional Japanese village house in Wakayama in the 1920s, wooden walls, tiled roof, mountains behind, peaceful",
+            "label": "Wakayama · Nhật Bản"
+          },
+          {
+            "text": "Năm mười bảy tuổi, cậu sang Trung Quốc làm việc cho một công ty thương mại ở thành phố Vũ Hán. Cậu học tiếng Trung và làm quen với cuộc sống ở một thành phố lớn.",
+            "ai": "a busy Chinese river port city street in 1939 with trading company buildings, rickshaws and a young man in a suit, sepia"
+          },
+          {
+            "text": "Nhưng chiến tranh đã lan khắp châu Á. Năm một nghìn chín trăm bốn mươi hai, Onoda nhập ngũ vào quân đội Đế quốc Nhật Bản.",
+            "ai": "young Japanese army recruits in 1940s uniforms standing in rows on a parade ground, flags, overcast sky, seen from a distance"
+          },
+          {
+            "text": "Anh được chọn vào một ngôi trường đặc biệt: trường Nakano, nơi đào tạo sĩ quan tình báo. Ở đó, anh học cách sống sót sau phòng tuyến địch, cách do thám, ngụy trang và đánh du kích.",
+            "ai": "a 1940s military classroom with maps on the wall and young officers studying at wooden desks, dim lamp light"
+          },
+          {
+            "text": "Ngôi trường dạy một điều khác thường. Học viên không được chết một cách vô ích. Nhiệm vụ của họ là sống sót, càng lâu càng tốt, để tiếp tục quấy rối kẻ thù.",
+            "ai": "a young officer crouching in tall grass practicing camouflage with leaves on his cap, training field, dusk"
+          },
+          {
+            "text": "Cuối năm một nghìn chín trăm bốn mươi tư, thiếu úy Onoda, hai mươi hai tuổi, nhận lệnh đến đảo Lubang ở Philippines.",
+            "image": {
+              "scene": 1
+            },
+            "label": "Đảo Lubang · Philippines"
+          },
+          {
+            "text": "Mệnh lệnh rất rõ: phá đường băng và cầu tàu trên đảo, quấy rối quân địch bằng mọi cách. Và anh tuyệt đối không được đầu hàng, cũng không được tự sát.",
+            "ai": "an old military airstrip on a tropical island beside the sea, palm trees, wartime, cloudy sky"
+          },
+          {
+            "text": "Người giao nhiệm vụ là thiếu tá Yoshimi Taniguchi. Theo lời Onoda kể lại, cấp trên đã hứa: có thể là ba năm, có thể là năm năm… nhưng dù chuyện gì xảy ra, chúng tôi sẽ quay lại đón anh.",
+            "ai": "two Japanese officers in 1940s uniforms facing each other in a dim wooden military hut, one handing a sealed envelope to the other, faces in shadow"
+          },
+          {
+            "text": "Onoda ghi nhớ câu nói ấy. Ông sẽ giữ lời hứa đó suốt gần ba mươi năm.",
+            "ai": "a young soldier standing on the deck of a small boat looking at a dark green island on the horizon, sunset"
+          }
+        ]
+      },
+      {
+        "title": "Hòn đảo Lubang",
+        "beats": [
+          {
+            "text": "Lubang là một hòn đảo nhỏ phía tây nam thủ đô Manila. Đảo dài khoảng ba mươi cây số, phủ kín rừng rậm và đồi núi, dân cư chủ yếu là nông dân và ngư dân.",
+            "image": {
+              "scene": 2
+            },
+            "label": "Lubang · tây nam Manila"
+          },
+          {
+            "text": "Ngày hai mươi tám tháng hai năm một nghìn chín trăm bốn mươi lăm, quân Đồng minh và lực lượng Philippines đổ bộ lên đảo.",
+            "ai": "WWII landing craft approaching a tropical beach at dawn, smoke on the horizon, seen from far away, no gore"
+          },
+          {
+            "text": "Phần lớn lính Nhật trên đảo tử trận hoặc đầu hàng. Onoda cùng ba người lính rút sâu vào núi.",
+            "ai": "four soldiers in worn uniforms retreating up a steep jungle slope in heavy rain, silhouettes"
+          },
+          {
+            "text": "Đó là binh nhì Yuichi Akatsu, hạ sĩ Shoichi Shimada và binh nhất Kinshichi Kozuka. Bốn người, một hòn đảo, và một mệnh lệnh không bao giờ đầu hàng.",
+            "ai": "four soldiers sitting around a small hidden campfire under a rock overhang in the jungle at night, faces in shadow"
+          },
+          {
+            "text": "Họ sống bằng chuối, dừa, và gạo, gia súc lấy từ các trang trại trên đảo. Họ liên tục đổi chỗ ở để không bị phát hiện.",
+            "ai": "bananas and coconuts on a banana leaf next to a cooking pot in a jungle camp, rain dripping"
+          },
+          {
+            "text": "Mùa mưa, họ dựng lều bằng lá cọ và vải. Mùa khô, họ di chuyển liên tục để không để lại dấu vết.",
+            "ai": "a crude shelter made of palm leaves and canvas in the jungle during monsoon rain, puddles, gloomy"
+          },
+          {
+            "text": "Súng được lau dầu mỗi ngày, quân phục được vá đi vá lại. Onoda tự coi mình là một sĩ quan đang làm nhiệm vụ, không phải là một kẻ trốn chạy.",
+            "ai": "hands mending a torn military jacket with needle and thread by firelight, a rifle leaning nearby"
+          }
+        ]
+      },
+      {
+        "title": "Những lời báo tin",
+        "beats": [
+          {
+            "text": "Tháng mười năm một nghìn chín trăm bốn mươi lăm, nhóm của Onoda thấy một tờ giấy do người dân trên đảo để lại. Trên đó viết: chiến tranh đã kết thúc ngày mười lăm tháng tám. Hãy xuống núi đi.",
+            "ai": "a weathered paper note pinned to a tree trunk in the jungle, handwritten text not readable, morning light"
+          },
+          {
+            "text": "Bốn người ngồi đọc đi đọc lại. Rồi họ kết luận: đây là trò tuyên truyền của địch, để dụ họ ra khỏi rừng.",
+            "ai": "four soldiers huddled together examining a piece of paper in a jungle clearing, suspicious expressions in shadow"
+          },
+          {
+            "text": "Cuối năm đó, máy bay thả xuống truyền đơn in lệnh đầu hàng của tướng Yamashita, chỉ huy quân Nhật ở Philippines.",
+            "image": {
+              "scene": 3
+            }
+          },
+          {
+            "text": "Onoda soi từng câu chữ, thấy có những chỗ ông cho là sai cách viết của quân đội. Lại một cái bẫy nữa, ông nghĩ.",
+            "ai": "a soldier holding a printed leaflet close to his eyes under a jungle canopy, studying it intently, dramatic side light"
+          },
+          {
+            "text": "Năm một nghìn chín trăm năm mươi hai, máy bay thả xuống thư và ảnh của chính gia đình họ, kêu gọi họ trở về.",
+            "ai": "old family letters and black and white family photographs scattered on jungle ground, envelopes, nostalgic"
+          },
+          {
+            "text": "Họ vẫn không tin. Họ nghĩ kẻ thù đã bắt gia đình mình phải viết những lá thư ấy.",
+            "ai": "a soldier sitting alone on a rock holding an old photograph, head bowed, jungle at dusk"
+          },
+          {
+            "text": "Có lúc họ còn nhặt được báo, nghe được cả đài. Nhưng mọi tin tức đều được họ giải thích theo cách riêng: nước Nhật đã có chính phủ bù nhìn, còn quân đội thật vẫn đang chiến đấu ở đâu đó.",
+            "ai": "an old portable radio and a folded newspaper inside a jungle hideout lit by a small oil lamp"
+          },
+          {
+            "text": "Một học giả nghiên cứu về Nhật Bản, bà Beatrice Trefalt, sau này đặt câu hỏi: liệu Onoda có thật sự không biết, hay ông không muốn biết?",
+            "ai": "a quiet library desk with history books and old documents, a magnifying glass, warm lamp light"
+          },
+          {
+            "text": "Năm một nghìn chín trăm năm mươi chín, chính phủ Nhật Bản tuyên bố Onoda đã chết. Nhưng trong rừng sâu Lubang, ông vẫn sống, và vẫn chiến đấu.",
+            "ai": "a misty jungle valley at dawn with a single thin column of smoke rising from the trees"
+          }
+        ]
+      },
+      {
+        "title": "Bóng tối trên hòn đảo",
+        "beats": [
+          {
+            "text": "Câu chuyện của Onoda thường được kể như một huyền thoại về lòng trung thành. Nhưng với người dân Lubang, đó là những năm tháng sống trong sợ hãi.",
+            "ai": "a small Filipino farming village with nipa huts at the edge of a jungle, villagers looking anxiously toward the hills"
+          },
+          {
+            "text": "Nhóm của ông đốt lúa, lấy trộm gia súc, và nhiều lần nổ súng với nông dân, cảnh sát và quân đội trên đảo.",
+            "ai": "rice harvest bundles in a field with smoke rising in the distance, farmers watching from afar, dramatic sky"
+          },
+          {
+            "text": "Họ bị cáo buộc đã giết khoảng ba mươi người trên đảo. Trong cuốn hồi ký của mình, Onoda không nhắc đến những cái chết ấy.",
+            "ai": "simple wooden crosses and candles at a small village cemetery in the Philippines, solemn, soft evening light"
+          },
+          {
+            "text": "Đó là mặt tối của câu chuyện, và chúng ta cần nhớ đến nó. Những nạn nhân ở Lubang cũng là nạn nhân của chiến tranh.",
+            "ai": "a Filipino mother and child standing at the doorway of a nipa hut at dusk, solemn, painted from a distance"
+          },
+          {
+            "text": "Năm tháng trôi qua, nhóm bốn người dần tan rã. Tháng chín năm một nghìn chín trăm bốn mươi chín, Akatsu lặng lẽ bỏ đi. Mấy tháng sau, anh ra đầu hàng quân đội Philippines.",
+            "ai": "a lone soldier walking away down a jungle path, seen from behind, morning fog",
+            "label": "1949 · còn lại 3 người"
+          },
+          {
+            "text": "Năm một nghìn chín trăm năm mươi tư, Shimada tử trận trong một cuộc đấu súng với binh lính Philippines.",
+            "ai": "a quiet empty beach at the edge of the jungle with an abandoned army cap on the sand, overcast",
+            "label": "1954 · còn lại 2 người"
+          },
+          {
+            "text": "Onoda và Kozuka tiếp tục thêm mười tám năm nữa. Họ đã sống cùng nhau trong rừng lâu hơn thời gian nhiều người sống trong một cuộc hôn nhân.",
+            "ai": "two aging soldiers in ragged uniforms sitting back to back keeping watch in the jungle at night, moonlight"
+          },
+          {
+            "text": "Tháng mười năm một nghìn chín trăm bảy mươi hai, Kozuka bị cảnh sát bắn chết khi cả hai đang đốt lúa của nông dân.",
+            "ai": "rice field at dusk with a thin line of smoke, empty and quiet, mournful atmosphere",
+            "label": "1972 · chỉ còn Onoda"
+          },
+          {
+            "text": "Lúc này, Onoda đã năm mươi tuổi. Ông chỉ còn lại một mình, với khẩu súng, và mệnh lệnh năm xưa.",
+            "ai": "a lone weathered soldier sitting in a jungle cave entrance at night, rifle across his knees, staring into darkness"
+          }
+        ]
+      },
+      {
+        "title": "Chàng trai đi tìm gấu trúc",
+        "beats": [
+          {
+            "text": "Ở Nhật Bản, cái chết của Kozuka khiến cả nước bàng hoàng: hóa ra vẫn còn lính Nhật chiến đấu ở Lubang. Nhiều đoàn tìm kiếm được gửi sang, nhưng không ai tìm được Onoda.",
+            "ai": "a search party with flags and loudspeakers walking through a tropical jungle, 1970s clothes, seen from a distance"
+          },
+          {
+            "text": "Rồi một chàng trai hai mươi tư tuổi tên là Norio Suzuki quyết định tự mình lên đường. Anh vừa bỏ học đại học, thích đi phượt khắp thế giới.",
+            "ai": "a young 1970s backpacker with a large rucksack and a camera standing at a small airport, adventurous mood"
+          },
+          {
+            "text": "Trước khi đi, Suzuki nói với bạn bè rằng anh đi tìm ba thứ, theo đúng thứ tự: trung úy Onoda, một con gấu trúc, và người tuyết.",
+            "ai": "a whimsical vintage illustration of a backpacker's map with a jungle, a panda and snowy mountains drawn on it"
+          },
+          {
+            "text": "Suzuki đến Lubang, dựng lều một mình trong rừng và chờ đợi. Chỉ sau bốn ngày, ngày hai mươi tháng hai năm một nghìn chín trăm bảy mươi tư, Onoda xuất hiện.",
+            "ai": "a small modern camping tent alone in a jungle clearing with a campfire at night, mysterious figure watching from the trees",
+            "label": "20/2/1974"
+          },
+          {
+            "text": "Onoda chĩa súng vào chàng trai trẻ. Nhưng Suzuki đã nói đúng những lời cần nói, và hai người ngồi lại trò chuyện.",
+            "ai": "two figures sitting across a campfire in the jungle at night, one in an old military uniform, one in a 1970s jacket, faces in shadow"
+          },
+          {
+            "text": "Suzuki hỏi: vì sao ông không ra khỏi rừng? Onoda trả lời: ông chỉ hạ súng khi có lệnh từ chính cấp trên của mình.",
+            "ai": "close-up of an old soldier's weathered hands resting on a rifle by firelight, determined"
+          },
+          {
+            "text": "Suzuki chụp ảnh hai người làm bằng chứng rồi trở về Nhật Bản. Bức ảnh ấy làm cả nước sửng sốt: thiếu úy Onoda vẫn còn sống.",
+            "ai": "a 1970s camera and printed photographs on a table in a newspaper office, journalists gathering in the background"
+          }
+        ]
+      },
+      {
+        "title": "Mệnh lệnh cuối cùng",
+        "beats": [
+          {
+            "text": "Chính phủ Nhật đi tìm thiếu tá Yoshimi Taniguchi, người đã giao nhiệm vụ cho Onoda ba mươi năm trước. Lúc này, ông đã là một người bán sách.",
+            "ai": "an elderly Japanese man in a small old bookshop surrounded by stacks of books, 1970s, warm light"
+          },
+          {
+            "text": "Taniguchi bay sang Lubang. Ngày chín tháng ba năm một nghìn chín trăm bảy mươi tư, trong rừng, ông đứng trước Onoda và đọc mệnh lệnh.",
+            "ai": "an elderly man in a civilian suit reading from a paper in a jungle clearing, a soldier in a ragged uniform standing at attention before him",
+            "label": "9/3/1974"
+          },
+          {
+            "text": "Bộ chỉ huy Phương diện quân mười bốn đã ngừng mọi hoạt động chiến đấu. Đơn vị đặc biệt được miễn mọi nhiệm vụ quân sự.",
+            "image": {
+              "scene": 4
+            }
+          },
+          {
+            "text": "Onoda kể lại rằng ông đứng chết lặng. Mọi thứ bỗng tối sầm. Hai mươi chín năm qua, rốt cuộc là để làm gì?",
+            "ai": "an old soldier standing frozen in the jungle with his head bowed, sunlight breaking through the canopy, emotional"
+          },
+          {
+            "text": "Ngày hôm sau, Onoda chính thức đầu hàng tại một trạm ra đa trên đảo. Ông giao nộp thanh kiếm, khẩu súng trường vẫn còn dùng được, khoảng năm trăm viên đạn, vài quả lựu đạn.",
+            "image": {
+              "scene": 5
+            }
+          },
+          {
+            "text": "Và một con dao găm mà mẹ ông trao cho ông năm một nghìn chín trăm bốn mươi tư, để ông tự kết liễu nếu bị bắt.",
+            "ai": "an old Japanese dagger in a worn wooden sheath lying on a folded cloth, still life, soft light"
+          },
+          {
+            "text": "Ngày mười một tháng ba, tại dinh tổng thống ở Manila, Onoda trao thanh kiếm cho tổng thống Philippines Ferdinand Marcos. Ông được ân xá mọi tội danh trong những năm ở rừng.",
+            "ai": "a grand ceremonial hall of a palace in Manila in the 1970s with chandeliers and flags, empty, formal"
+          },
+          {
+            "text": "Quyết định ân xá ấy giúp Onoda được trở về nhà. Nhưng với nhiều gia đình ở Lubang, vết thương vẫn chưa bao giờ lành.",
+            "ai": "a quiet Lubang shoreline at sunset with fishing boats, bittersweet, peaceful"
+          }
+        ]
+      },
+      {
+        "title": "Sau khi trở về",
+        "beats": [
+          {
+            "text": "Onoda về Nhật Bản và được chào đón như một người hùng. Báo chí vây quanh, cuốn hồi ký của ông được xuất bản ngay trong năm đó. Nhưng chính ông lại không thích sự chú ý ấy.",
+            "ai": "a crowded 1970s airport arrival hall with photographers and flashing cameras, seen from behind the crowd"
+          },
+          {
+            "text": "Nhưng nước Nhật năm bảy mươi tư không còn là nước Nhật ông từng biết. Tàu siêu tốc, nhà cao tầng, tivi màu… Ông thấy mình lạc lõng.",
+            "ai": "a busy 1970s Tokyo street with neon signs, cars and tall buildings at night, an old man standing still in the crowd"
+          },
+          {
+            "text": "Năm một nghìn chín trăm bảy mươi lăm, ông sang Brazil, trở thành chủ trang trại nuôi bò. Một năm sau, ông lập gia đình.",
+            "ai": "a vast cattle ranch in the Brazilian countryside at golden hour, cows grazing, a simple farmhouse",
+            "label": "Brazil · 1975"
+          },
+          {
+            "text": "Năm một nghìn chín trăm tám mươi tư, ông trở về Nhật và mở một trại dạy kỹ năng sống ngoài thiên nhiên cho thanh thiếu niên.",
+            "ai": "children and teenagers learning to build a campfire with an old instructor in a forest camp in Japan, cheerful"
+          },
+          {
+            "text": "Năm một nghìn chín trăm chín mươi sáu, ông quay lại Lubang. Vợ ông góp mười nghìn đô la làm học bổng cho một trường học trên đảo. Nhưng hàng chục người thân của các nạn nhân đã tụ tập phản đối chuyến thăm.",
+            "image": {
+              "scene": 2
+            },
+            "label": "Lubang · 1996"
+          },
+          {
+            "text": "Cuốn hồi ký của ông cũng gây tranh cãi. Người viết thuê cho cuốn sách sau này nói rằng câu chuyện đã được tô vẽ thành hình ảnh một người hùng.",
+            "ai": "an old book with a blank cover lying open next to a typewriter and scattered manuscript pages, moody light"
+          },
+          {
+            "text": "Hiroo Onoda qua đời ngày mười sáu tháng một năm hai nghìn không trăm mười bốn, ở Tokyo, hưởng thọ chín mươi mốt tuổi.",
+            "ai": "a quiet Japanese temple garden in winter with bare cherry trees and a stone lantern, serene"
+          },
+          {
+            "text": "Ông thường được gọi là người lính Nhật cuối cùng đầu hàng. Thật ra, chín tháng sau Onoda, vẫn còn một người lính khác, Teruo Nakamura, được tìm thấy trên một hòn đảo ở Indonesia.",
+            "ai": "a remote Indonesian island jungle seen from the sea, mist over the trees, mysterious"
+          }
+        ]
+      },
+      {
+        "title": "Lời kết",
+        "beats": [
+          {
+            "text": "Hai mươi chín năm trong rừng. Bốn người lính, rồi chỉ còn một. Một mệnh lệnh không ai đến để thu hồi.",
+            "ai": "a single old military cap hanging on a branch in an empty jungle, light rays, symbolic"
+          },
+          {
+            "text": "Có người xem Onoda là biểu tượng của lòng trung thành và ý chí. Có người coi ông là bằng chứng cho sự mù quáng mà chiến tranh gieo vào con người.",
+            "ai": "a lone figure standing on a hilltop overlooking a tropical island at sunset, contemplative, wide shot"
+          },
+          {
+            "text": "Có lẽ cả hai đều đúng. Và câu chuyện này nhắc chúng ta rằng: chiến tranh không kết thúc vào ngày ký hiệp ước. Nó còn kéo dài trong tâm trí con người, và trong nỗi đau của những người vô tội.",
+            "image": {
+              "scene": 6
+            }
+          },
+          {
+            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
+            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -117,7 +117,8 @@ Giọng đọc Gemini (Sadaltager) đọc tự nhiên nên KHÔNG dùng thẻ [n
     {"title": "Lời kết", "beats": [...]}
   ]
 }
-- 6–8 chương (chương đầu là mở đầu lạnh không tên), tổng 35–60 beat, khoảng 1.100–2.000 tiếng (6–10 phút).
+- Mục tiêu khoảng 10 phút: 8–9 chương (chương đầu là mở đầu lạnh không tên), tổng 60–70 beat, khoảng 1.800–1.900 tiếng
+  (giọng Gemini đọc khoảng 3 tiếng/giây; cộng thẻ chương ra khoảng 10–11 phút).
 - Kể CHI TIẾT hơn video ngắn: bối cảnh thời đại, nhân vật, diễn biến theo thời gian, các giả thuyết, ý nghĩa.
   Chương cuối tóm lại và kết bằng "Sử thật… lạ hơn cả truyện." KHÔNG giới thiệu chuyện tiếp theo.
 - Mỗi beat = 1 ảnh trên màn hình (trung bình 6–10 giây). Ảnh lấy theo thứ tự ưu tiên:

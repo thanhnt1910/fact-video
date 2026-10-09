@@ -79,6 +79,26 @@ CÁC LOẠI CẢNH (mỗi cảnh BẮT BUỘC có "type" và "voice")
 - Không tìm ảnh có người thật nhận diện được, không tìm logo/thương hiệu, không ảnh nhạy cảm.
 - Cảnh compare/timeline thường để đồ họa, không cần ảnh. Các cảnh khác nhau nên dùng từ khóa khác nhau.
 
+BÀI ĐĂNG ẢNH FACEBOOK (bắt buộc, trường "post" trong cùng file JSON)
+Mỗi chuyện có thêm 1 bài đăng dạng album ảnh + bài viết kể chuyện (Facebook ưu tiên dạng này):
+"post": {
+  "hook": "1–2 câu mở đầu cực cuốn (đây là phần hiện trước chữ 'Xem thêm'), có 1 emoji",
+  "paragraphs": ["6–9 đoạn ngắn, mỗi đoạn 1–3 câu, kể lại TRỌN câu chuyện theo thời gian,
+                  chi tiết hơn video, có 1 đoạn 1 câu làm cú lật (vd 'Kết quả? Nhạc càng vang, người nhảy càng đông.')"],
+  "ending": "1 câu hỏi mở thật sự để người đọc bình luận ý kiến (KHÔNG viết 'bình luận 1 hoặc 2', 'like nếu…')",
+  "hashtags": ["nguoigacsu", "sửlạ", "lịchsử", "chuyệncóthật"],
+  "slides": [
+    {"kind": "cover", "scene": 0, "kicker": "Chuyện có thật · Năm 1518", "title": "Tiêu đề ≤ 9 chữ, **tô màu** cụm đắt nhất"},
+    {"scene": 1, "tag": "mốc thời gian / nhãn ngắn", "text": "1–2 câu ≤ 25 chữ, kể tiếp câu chuyện"},
+    ... 3–4 slide giữa ...,
+    {"kind": "end", "scene": 6, "text": "câu kết gợi tò mò ≤ 20 chữ"}
+  ]
+}
+- Tổng 4–6 slide; "scene" là số thứ tự cảnh (bắt đầu từ 0) có ảnh đẹp nhất cho slide đó; các slide nên dùng ảnh khác nhau.
+- Slide đọc liền nhau phải thành 1 câu chuyện ngắn hoàn chỉnh (người chỉ lướt ảnh vẫn hiểu).
+- Bài viết dùng văn kể chuyện, KHÔNG gạch đầu dòng, KHÔNG markdown; chỉ chuyện có thật, chỗ tranh cãi nói rõ là tranh cãi.
+- Tổng bài viết khoảng 250–400 chữ.
+
 JSON phải hợp lệ: không có dòng chú thích //, không có dấu phẩy thừa.
 Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 10 từ), phần chi tiết để trong voice.
 ```

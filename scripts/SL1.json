@@ -135,5 +135,53 @@
       }
     }
   ],
-  "music": "Teller of the Tales"
+  "music": "Teller of the Tales",
+  "post": {
+    "hook": "Năm 1518, một người phụ nữ bước ra phố và bắt đầu nhảy. Bà không dừng lại… và rồi cả thành phố cũng vậy. 💃",
+    "paragraphs": [
+      "Ngày 14/7/1518, ở thành phố Strasbourg (nay thuộc Pháp), bà Troffea bước ra con phố trước nhà và bắt đầu nhảy. Không có nhạc. Không có lễ hội. Không ai hiểu vì sao.",
+      "Bà nhảy gần một tuần liền, chỉ dừng lại để ngủ. Rồi người thứ hai nhảy theo, người thứ ba… Chỉ vài ngày sau đã có hơn 30 người. Đến tháng 8, con số được ghi lại là từ vài chục đến 400 người, tùy tài liệu.",
+      "Các thầy thuốc thời đó cho rằng đây là bệnh do \"máu nóng\", và cách chữa là… cứ để họ nhảy cho hết. Thành phố mở cả hội trường, thuê nhạc công, thuê luôn những người khỏe mạnh để đỡ người nhảy khỏi ngã.",
+      "Kết quả? Nhạc càng vang, người nhảy càng đông.",
+      "Hoảng sợ, chính quyền đổi hướng: cấm hẳn âm nhạc và nhảy múa nơi công cộng. Người ta tin đây là hình phạt của Thánh Vitus, nên đưa những người nhảy đến đền thờ để cầu nguyện. Phải đến đầu tháng 9, cơn dịch mới lắng xuống.",
+      "Vậy điều gì đã xảy ra? Có giả thuyết cho rằng họ ngộ độc nấm cựa gà mọc trên lúa mạch đen. Nhưng nhiều nhà sử học, như John Waller, tin rằng đó là cuồng loạn tập thể: khi nạn đói, dịch bệnh và nỗi sợ thần linh dồn con người tới giới hạn.",
+      "Có ghi chép sau này kể rằng đã có người nhảy đến kiệt sức mà chết. Nhưng các tài liệu của Strasbourg thời đó lại không nhắc tới, nên chi tiết này đến nay vẫn còn tranh cãi.",
+      "Hơn 500 năm sau, \"dịch nhảy múa\" năm 1518 vẫn là một trong những bí ẩn kỳ lạ nhất châu Âu."
+    ],
+    "ending": "Theo bạn, điều gì có thể khiến cả trăm người nhảy múa không ngừng như vậy?",
+    "hashtags": [
+      "nguoigacsu",
+      "sửlạ",
+      "lịchsử",
+      "chuyệncóthật"
+    ],
+    "slides": [
+      {
+        "kind": "cover",
+        "scene": 0,
+        "kicker": "Chuyện có thật · Năm 1518",
+        "title": "Cả một thành phố **phát cuồng vì nhảy múa**"
+      },
+      {
+        "scene": 1,
+        "tag": "14/7/1518",
+        "text": "Ở Strasbourg, một người phụ nữ bước ra phố… và bắt đầu nhảy. **Không nhạc. Không lý do.**"
+      },
+      {
+        "scene": 2,
+        "tag": "Tháng 8/1518",
+        "text": "Vài ngày sau, hơn 30 người nhảy theo. Có tài liệu ghi tới **400 người**."
+      },
+      {
+        "scene": 3,
+        "tag": "Cách chữa",
+        "text": "Thầy thuốc bảo: cứ để họ nhảy cho hết bệnh. Thành phố **thuê cả nhạc công**… và người nhảy càng đông."
+      },
+      {
+        "kind": "end",
+        "scene": 6,
+        "text": "Hơn 500 năm sau, vẫn **chưa ai dám chắc** điều gì đã xảy ra."
+      }
+    ]
+  }
 }

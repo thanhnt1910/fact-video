@@ -33,6 +33,11 @@
 4. **Cú lật (45–60 giây):** chi tiết kỳ lạ nhất, hoặc sự thật trái với lời đồn.
 5. **Kết (60–70 giây):** lời giải hoặc bí ẩn còn bỏ ngỏ, rồi đến câu *"Sử thật… lạ hơn cả truyện"* và *"Theo dõi Người Gác Sử nhé!"* (không giới thiệu chuyện tiếp theo).
 
+### Mỗi chuyện = 2 bài đăng
+1. **Video dọc 60–70 giây** (Reels, TikTok, YouTube Shorts).
+2. **Bài đăng ảnh Facebook:** album 4–6 ảnh dọc 4:5, mỗi ảnh có 1–2 câu kể chuyện (lướt hết album là hiểu chuyện), kèm bài viết kể chuyện 250–400 chữ và kết bằng một câu hỏi mở.
+   - Gợi ý: đăng bài ảnh **trước** video khoảng 1 ngày, hoặc buổi trưa còn video buổi tối, để hai bài không tranh lượt hiển thị của nhau.
+
 ### Phong cách hình ảnh
 - Ưu tiên **tranh khắc, tranh sơn dầu, bản đồ cổ, ảnh tư liệu cũ đã hết bản quyền** (Wikimedia Commons, bảo tàng Met, ảnh của chính phủ Mỹ và NASA).
 - Thần thoại: dùng **tranh cổ điển của bảo tàng**. Không dùng hình phim ảnh hay truyện tranh (Marvel, Disney…).

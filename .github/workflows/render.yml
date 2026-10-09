@@ -96,6 +96,11 @@ jobs:
             dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
             ffmpeg -nostdin -loglevel error -y -i "$f" -vf "fps=6/${dur%.*},scale=270:-1,tile=6x1" -frames:v 1 "logs/preview_${id}.jpg" || true
             cp "output/$id/${id}_caption.txt" "logs/caption_${id}.txt" 2>/dev/null || true
+            if [ -f "output/$id/${id}_post_1.jpg" ]; then
+              cp "output/$id/${id}_post.txt" "logs/post_${id}.txt" 2>/dev/null || true
+              n=$(ls output/$id/${id}_post_*.jpg | wc -l)
+              ffmpeg -nostdin -loglevel error -y -i "output/$id/${id}_post_%d.jpg" -vf "scale=324:-1,tile=${n}x1" -frames:v 1 "logs/post_${id}.jpg" || true
+            fi
           done < ci_outputs.txt
 
       - name: Gửi video về Telegram
@@ -119,6 +124,20 @@ jobs:
               curl -s -o /dev/null -w "Gửi $id: %{http_code}\n" \
                 -F chat_id="$TG_CHAT" -F supports_streaming=true \
                 -F video=@"$mp4" -F caption="$text" "$api/sendVideo"
+              # bài đăng ảnh Facebook: album ảnh + bài viết để copy
+              if [ -f "output/$id/${id}_post_1.jpg" ]; then
+                media="["; args=(); k=0
+                for f in $(ls output/$id/${id}_post_*.jpg | sort -V); do
+                  [ $k -gt 0 ] && media+=","
+                  media+="{\"type\":\"photo\",\"media\":\"attach://p$k\"}"
+                  args+=(-F "p$k=@$f"); k=$((k+1))
+                done
+                media+="]"
+                curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="🖼️ BÀI ĐĂNG ẢNH ($id) — tải các ảnh dưới đây, đăng thành 1 bài nhiều ảnh trên Facebook" "$api/sendMessage"
+                curl -s -o /dev/null -w "Ảnh bài đăng $id: %{http_code}\n" -F chat_id="$TG_CHAT" -F media="$media" "${args[@]}" "$api/sendMediaGroup"
+                curl -s -o /dev/null -w "Bài viết $id: %{http_code}\n" -F chat_id="$TG_CHAT" \
+                  -F text="$(head -c 4000 output/$id/${id}_post.txt)" "$api/sendMessage"
+              fi
               if [ -f "output/$id/${id}_thumbnail.jpg" ]; then
                 curl -s -o /dev/null -F chat_id="$TG_CHAT" \
                   -F document=@"output/$id/${id}_thumbnail.jpg" -F caption="Ảnh bìa $id" "$api/sendDocument"

@@ -757,6 +757,12 @@ def main():
         try:
             mp4, dur = render(script, cfg, out_dir, preview=a.preview, no_tts=a.no_tts)
             write_caption(script, cfg, out_dir)
+            if script.get("post") and not a.preview:
+                try:
+                    import post
+                    post.render_post(script, cfg, out_dir / "_work", out_dir, log)
+                except Exception as e:
+                    log(f"  ⚠️  Không tạo được bài đăng ảnh: {e}")
             log(f"✅ Xong {mp4.relative_to(ROOT) if mp4.is_relative_to(ROOT) else mp4}  ({dur:.1f}s video, mất {time.time() - t:.0f}s)")
             ok += 1
         except Exception as e:

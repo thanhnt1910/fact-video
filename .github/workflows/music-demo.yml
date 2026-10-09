@@ -56,5 +56,9 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add logs/music-probe.txt
           git commit -q -m "Kết quả tải thử nhạc nền" || exit 0
-          git pull --rebase -q || true
-          git push -q
+          for i in 1 2 3; do
+            git pull --rebase -X theirs -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          exit 1

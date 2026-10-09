@@ -1,60 +1,95 @@
 
-===== SL1 =====
-▶️  SL1: Năm 1518, cả một thành phố phát cuồng vì nhảy múa
-  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-  🎙️  VieNeu đọc 33 đoạn (lần đầu nạp mô hình hơi lâu)…
-     đã nạp mô hình sau 3s
-     câu 1/33 xong (1.1s)
-     câu 2/33 xong (1.1s)
-     câu 3/33 xong (0.7s)
-     câu 4/33 xong (1.3s)
-     câu 5/33 xong (1.5s)
-     câu 6/33 xong (0.7s)
-     câu 7/33 xong (0.4s)
-     câu 8/33 xong (0.5s)
-     câu 9/33 xong (0.7s)
-     câu 10/33 xong (1.1s)
-     câu 11/33 xong (0.5s)
-     câu 12/33 xong (1.0s)
-     câu 13/33 xong (1.1s)
-     câu 14/33 xong (0.9s)
-     câu 15/33 xong (0.5s)
-     câu 16/33 xong (2.0s)
-     câu 17/33 xong (0.6s)
-     câu 18/33 xong (0.9s)
-     câu 19/33 xong (1.3s)
-     câu 20/33 xong (1.3s)
-     câu 21/33 xong (1.2s)
-     câu 22/33 xong (1.1s)
-     câu 23/33 xong (0.5s)
-     câu 24/33 xong (0.3s)
-     câu 25/33 xong (1.4s)
-     câu 26/33 xong (2.8s)
-     câu 27/33 xong (0.9s)
-     câu 28/33 xong (0.5s)
-     câu 29/33 xong (0.8s)
-     câu 30/33 xong (1.0s)
-     câu 31/33 xong (0.4s)
-     câu 32/33 xong (0.5s)
-     câu 33/33 xong (0.7s)
+===== SL1 (video dài) =====
+▶️  Video dài SL1: Vì sao cả một thành phố nhảy múa không ngừng suốt gần 2 tháng? | Dịch nhảy múa năm 1518
+  🖼️  Ảnh cho video dài
+     ℹ️  cảnh 8: không tìm được ảnh phù hợp cho "https://upload.wikimedia.org/wikipedia/commons/6/69/Pieter_Brueghel%2C_the_Elder._%C2%ABThe_Dancing_Mania._Pilgrimage_of_the_Epileptics_to_the_Church_at_Molenbeek%C2%BB._1564.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" — dùng đồ họa
+     ℹ️  cảnh 9: không tìm được ảnh phù hợp cho "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_dancing_mania%2C_by_Hondius_Wellcome_M0013485.jpg/1920px-The_dancing_mania%2C_by_Hondius_Wellcome_M0013485.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" — dùng đồ họa
+     🎨 9be1613188445e82.jpg
+     🎨 8fd84ccd83a85a45.jpg
+     🎨 f9b0567fcc6da17e.jpg
+     🎨 13d974fb0626151f.jpg
+     🎨 206263c108abda63.jpg
+     🎨 a402aab98e0da88d.jpg
+     🎨 cabeae88b27d48d7.jpg
+     🎨 f44d17a840d9dad8.jpg
+     🎨 73f062f9456d0be8.jpg
+     🎨 08ade9dd6533b837.jpg
+     🎨 048243cfbe5c5dba.jpg
+     🎨 f77245b58551f2b0.jpg
+     🎨 5fa22b1ad49bc66a.jpg
+     🎨 acf7f3a70d0b6417.jpg
+     🎨 203fea7094a63524.jpg
+     🎨 7dec6cbe33936878.jpg
+     🎨 e737437971fabbb9.jpg
+     🎨 4d036d904cf8f1af.jpg
+     🎨 501de47693eca87b.jpg
+     🎨 46e290c7797d0d70.jpg
+     🎨 8a1a1aaef77cbc10.jpg
+     🎨 95dd2c0cecdd9616.jpg
+     🎨 465622c1bf1b0c83.jpg
+     🎨 b2ce52d80ae54ff7.jpg
+     🎨 28156fa8505eb003.jpg
+     🎨 96f53380c23f944c.jpg
+     🎨 237a2f5ea1d773f2.jpg
+     🎨 31f2291b64931287.jpg
+     🎨 5f224097425f196d.jpg
+     🎨 5e7a0eb23dedb363.jpg
+  🎙️  Giọng Gemini Sadaltager (7 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (15s)
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+     🎙️  Gemini đọc xong 1 chương (342s)
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+     🎙️  Gemini đọc xong 1 chương (433s)
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+     🎙️  Gemini đọc xong 1 chương (346s)
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+     🎙️  Gemini đọc xong 1 chương (419s)
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 40s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 80s…
+     🎙️  Gemini đọc xong 1 chương (430s)
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 20s…
+     🎙️  Gemini đọc xong 1 chương (30s)
+  ⏱️  Thời lượng 06:33 · 39 cảnh ảnh
+     … 1 phút / 06:33, còn khoảng 35 phút
+     … 2 phút / 06:33, còn khoảng 29 phút
+     … 3 phút / 06:33, còn khoảng 23 phút
+     … 4 phút / 06:33, còn khoảng 17 phút
+     … 5 phút / 06:33, còn khoảng 10 phút
+     … 6 phút / 06:33, còn khoảng 4 phút
   🎵 Nhạc nền: Teller of the Tales
-  🎬 Dựng 1856 khung hình (61.9 giây, 30 fps)
-     … 150/1856 khung, còn khoảng 378s
-     … 300/1856 khung, còn khoảng 366s
-     … 450/1856 khung, còn khoảng 326s
-     … 600/1856 khung, còn khoảng 300s
-     … 750/1856 khung, còn khoảng 266s
-     … 900/1856 khung, còn khoảng 229s
-     … 1050/1856 khung, còn khoảng 193s
-     … 1200/1856 khung, còn khoảng 155s
-     … 1350/1856 khung, còn khoảng 121s
-     … 1500/1856 khung, còn khoảng 84s
-     … 1650/1856 khung, còn khoảng 49s
-     … 1800/1856 khung, còn khoảng 13s
-  🎚️  Giọng -14.9 dB · nhạc khi đang nói -25.8 dB (nhỏ hơn giọng 10.9 dB) · nhạc lúc nghỉ -21.4 dB
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (SL1_post.txt)
-✅ Xong output/SL1/SL1.mp4  (61.9s video, mất 491s)
+✅ Video dài: SL1_dai.mp4 (06:33)
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong: SL1
+Xong video ngắn: - · video dài: SL1

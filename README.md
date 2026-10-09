@@ -52,6 +52,7 @@ Giọng đọc được lưu đệm: chỉ câu nào sửa mới phải đọc l
 | Mục | Ý nghĩa |
 |---|---|
 | `channel`, `catchphrase`, `follow` | Tên kênh, câu chốt, lời kêu gọi theo dõi |
+| `subtitles` | `false` = không chạy phụ đề lời đọc (chữ trên hình đã đủ ý) |
 | `style` | `"story"` = phong cách kể chuyện: chữ có chân, chuyển cảnh tan mờ, hạt phim, ánh đèn lồng, bộ âm lật trang / chuông đồng / nền không khí (`sfx.ambience`) |
 | `pronounce` (trong kịch bản) | Cách viết kiểu tiếng Anh cho tên khó đọc; kiểm tra bằng `python phien_am.py scripts/<mã>.json` |
 | `voice` | `vi-VN-HoaiMyNeural` (nữ) hoặc `vi-VN-NamMinhNeural` (nam) |

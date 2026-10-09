@@ -23,6 +23,7 @@
   "pad_after_scene": 0.35,
   "pad_after_hook": 0.6,
   "min_scene_seconds": 2.0,
+  "subtitles": false,
   "subtitle_on_hook": false,
   "subtitle_max_words": 7,
 

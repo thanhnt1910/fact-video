@@ -489,7 +489,7 @@ def build_timeline(script, cfg, work, no_tts):
         scene.update(start=round(t, 3), dur=round(dur, 3))
         scenes.append(scene)
         starts.append(t)
-        if s["type"] != "hook" or cfg.get("subtitle_on_hook"):
+        if cfg.get("subtitles", True) and (s["type"] != "hook" or cfg.get("subtitle_on_hook")):
             if timings:
                 subs += build_subs_timed(timings, t, cfg["subtitle_max_words"])
             else:

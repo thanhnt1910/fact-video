@@ -1,1 +1,8 @@
-Gemini Sulafat (Nữ - ấm áp)|gemini-sulafat.mp3
+Gemini Aoede (Nữ - nhẹ nhàng)|gemini-aoede.mp3
+Gemini Despina (Nữ - mượt)|gemini-despina.mp3
+Gemini Leda (Nữ - trẻ trung)|gemini-leda.mp3
+Gemini Kore (Nữ - chắc giọng)|gemini-kore.mp3
+Gemini Achernar (Nữ - mềm)|gemini-achernar.mp3
+Gemini Charon (Nam - truyền đạt)|gemini-charon.mp3
+Gemini Sadaltager (Nam - hiểu biết)|gemini-sadaltager.mp3
+Gemini Puck (Nam - sôi nổi)|gemini-puck.mp3

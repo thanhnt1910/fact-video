@@ -1,0 +1,33 @@
+STYLE: Native Vietnamese narrator (Northern accent, Hanoi) for a short viral fun-facts video. Warm, captivating storyteller: lively and curious, clear diction, natural Vietnamese tones, varied pace — slow down and lower the voice before a surprising fact, then reveal it with energy and a smile; pause briefly at '…'. Never robotic, never news-anchor flat. Structure: 1) hook — Open with suspense: a slightly hushed, intriguing question, then a punchy, amazed reveal. 2) Playful contrast, ask the question with genuine curiosity. 3-4) Friendly explainer, confident and clear, medium pace. Leave a short beat between paragraphs. Specific emphasis: "Bạn có biết không" → a bit faster, light; "Bạch tuộc có tới" → emphasized, slower and stronger; "Con người chúng ta, chỉ cần một trái tim" → a bit faster, light; "Vậy tại sao" → lower, mysterious; "Nhiệm vụ của chúng" → excited, higher pitch; "Bơm máu qua mang, để lấy oxy từ nước biển" → a bit faster, light. 
+TEXT: Bạn có biết không? Bạch tuộc có tới… ba trái tim!
+
+Con người chúng ta, chỉ cần một trái tim. Vậy tại sao… bạch tuộc lại cần tới ba?
+
+Hai trái tim nhỏ, nằm ngay cạnh mang. Nhiệm vụ của chúng? Bơm máu qua mang, để lấy oxy từ nước biển.
+
+Còn trái tim thứ ba, to hơn hẳn! Nó bơm máu giàu oxy đi khắp cơ thể, và nuôi cả tám xúc tu.
+
+== Aoede ==
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Aoede
+
+== Despina ==
+OK Despina
+
+== Leda ==
+OK Leda
+
+== Kore ==
+OK Kore
+
+== Achernar ==
+OK Achernar
+
+== Charon ==
+OK Charon
+
+== Sadaltager ==
+OK Sadaltager
+
+== Puck ==
+OK Puck

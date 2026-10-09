@@ -1,0 +1,92 @@
+[
+ {
+  "scene": 0,
+  "query": "Hiroo Onoda 1944",
+  "candidates": []
+ },
+ {
+  "scene": 1,
+  "query": "Lubang Island",
+  "candidates": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lubang_Buaya.jpg/1920px-Lubang_Buaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Lubang Buaya.jpg\" – Feriervanianto, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Lubang_Buaya.jpg)",
+    "needs_credit": true,
+    "text": "File:Lubang Buaya.jpg Sumur yang digunakan untuk membuang jasad korban pemberontakan G30S/PKI",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_Lubang%2C_Occidental_Mindoro_%282001-2016%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1200,
+    "h": 928,
+    "credit": "\"Flag of Lubang, Occidental Mindoro (2001-2016).png\" – Municipal Government of Lubang, Public domain (https://commons.wikimedia.org/wiki/File:Flag_of_Lubang,_Occidental_Mindoro_(2001-2016).png)",
+    "needs_credit": false,
+    "text": "File:Flag of Lubang, Occidental Mindoro (2001-2016).png Flag of Lubang, Occidental Mindoro (2001-2016)",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Lubang%2C_Occidental_Mindoro.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1200,
+    "h": 700,
+    "credit": "\"Flag of Lubang, Occidental Mindoro.png\" – Municipal Government of Lubang, Public domain (https://commons.wikimedia.org/wiki/File:Flag_of_Lubang,_Occidental_Mindoro.png)",
+    "needs_credit": false,
+    "text": "File:Flag of Lubang, Occidental Mindoro.png Flag of Lubang, Occidental Mindoro",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Lubang_Buaya_-_panoramio.jpg/1920px-Lubang_Buaya_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4288,
+    "h": 2848,
+    "credit": "\"Lubang Buaya - panoramio.jpg\" – wonktjoekir, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Lubang_Buaya_-_panoramio.jpg)",
+    "needs_credit": true,
+    "text": "File:Lubang Buaya - panoramio.jpg Lubang Buaya",
+    "source": "wikimedia"
+   }
+  ]
+ },
+ {
+  "scene": 2,
+  "query": "Lubang Philippines landscape",
+  "candidates": []
+ },
+ {
+  "scene": 5,
+  "query": "Type 99 Arisaka rifle",
+  "candidates": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Scope_mounted_on_Arisaka_Type_38_Rifle.jpg/1920px-Scope_mounted_on_Arisaka_Type_38_Rifle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6261,
+    "h": 2789,
+    "credit": "\"Scope mounted on Arisaka Type 38 Rifle.jpg\" – MIKI Yoshihito, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Scope_mounted_on_Arisaka_Type_38_Rifle.jpg)",
+    "needs_credit": true,
+    "text": "File:Scope mounted on Arisaka Type 38 Rifle.jpg Scope mounted on Arisaka Type 38 Rifle",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Arisaka_Type_38_Rifle..jpg/1920px-Arisaka_Type_38_Rifle..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6012,
+    "h": 3382,
+    "credit": "\"Arisaka Type 38 Rifle..jpg\" – MIKI Yoshihito, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Arisaka_Type_38_Rifle..jpg)",
+    "needs_credit": true,
+    "text": "File:Arisaka Type 38 Rifle..jpg Arisaka Type 38 Rifle.",
+    "source": "wikimedia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/ArisakaDisplay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1760,
+    "h": 2120,
+    "credit": "\"ArisakaDisplay.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:ArisakaDisplay.jpg)",
+    "needs_credit": false,
+    "text": "File:ArisakaDisplay.jpg Arisaka rifles on display at the Military Museum of the Chinese People's Revolution",
+    "source": "wikimedia"
+   }
+  ]
+ },
+ {
+  "scene": 6,
+  "query": "Lubang Island beach",
+  "candidates": []
+ }
+]

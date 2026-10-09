@@ -31,7 +31,7 @@
 2. **Bối cảnh (3–15 giây):** năm, nơi chốn, nhân vật.
 3. **Diễn biến leo thang (15–45 giây):** 2–3 cảnh, mỗi cảnh một bước "càng lúc càng lạ".
 4. **Cú lật (45–60 giây):** chi tiết kỳ lạ nhất, hoặc sự thật trái với lời đồn.
-5. **Kết (60–75 giây):** lời giải hoặc bí ẩn còn bỏ ngỏ, rồi đến câu *"Sử thật… lạ hơn cả truyện"*, giới thiệu chuyện tiếp theo và câu *"Theo dõi Người Gác Sử nhé!"*
+5. **Kết (60–70 giây):** lời giải hoặc bí ẩn còn bỏ ngỏ, rồi đến câu *"Sử thật… lạ hơn cả truyện"* và *"Theo dõi Người Gác Sử nhé!"* (không giới thiệu chuyện tiếp theo).
 
 ### Phong cách hình ảnh
 - Ưu tiên **tranh khắc, tranh sơn dầu, bản đồ cổ, ảnh tư liệu cũ đã hết bản quyền** (Wikimedia Commons, bảo tàng Met, ảnh của chính phủ Mỹ và NASA).
@@ -303,7 +303,7 @@ Video dài lấy lại giọng và hình của các video ngắn, chỉ cần th
 
 ## 4. Lịch đăng 30 ngày
 
-Thứ tự này xen kẽ các nhóm và đặt những chuyện mạnh nhất lên đầu. **Chuyện tiếp theo** trong lời kết mỗi video chính là video của ngày hôm sau.
+Thứ tự này xen kẽ các nhóm và đặt những chuyện mạnh nhất lên đầu.
 
 | Ngày | Mã | Chuyện | Nhóm |
 |---|---|---|---|
@@ -368,7 +368,6 @@ Thứ tự này xen kẽ các nhóm và đặt những chuyện mạnh nhất l�
 
 - **Câu chốt:** *"Sử thật… lạ hơn cả truyện!"*
 - **Lời kêu gọi:** *"👉 Theo dõi để mở trang sử tiếp theo"*
-- **Nhãn chuyện sau:** *"Chuyện tiếp theo:"*
 
 ---
 

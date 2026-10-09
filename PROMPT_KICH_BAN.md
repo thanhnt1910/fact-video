@@ -46,8 +46,8 @@ YÊU CẦU NỘI DUNG
 - Viết số trong "voice" bằng chữ để giọng AI đọc đúng (ba trái tim, mười một nghìn sáu trăm năm). Trên màn hình ("text", "value"...) thì dùng chữ số.
 - Chỉ dùng sự thật có nguồn uy tín. Con số không chắc chắn thì thêm "khoảng", điều còn tranh luận thì nói "các nhà khoa học cho rằng".
 - "sources": liệt kê 1–3 nguồn uy tín thật (tên tổ chức + tên bài/mục). Không bịa đường link.
-- Cảnh outro: "recap" tóm tắt 2–3 ý, "next" là câu hook của chuyện tiếp theo (nếu biết).
-  Voice có câu chốt "[trầm] Sử thật… lạ hơn cả truyện." rồi giới thiệu chuyện tiếp theo và "Theo dõi Người Gác Sử nhé!".
+- Cảnh outro: "recap" tóm tắt 2–3 ý. KHÔNG giới thiệu chuyện tiếp theo (không dùng trường "next").
+  Voice ngắn gọn: tóm tắt 1–2 câu cực ngắn → "[trầm] Sử thật… lạ hơn cả truyện." → "[nhanh] Theo dõi Người Gác Sử nhé!"
 - Emoji dùng emoji phổ biến từ trước 2020 (tránh emoji mới như 🫧 🫀 🪸 — Windows sẽ hiện ô vuông).
 - Bọc chữ cần tô màu nổi bật bằng **hai dấu sao**.
 
@@ -69,7 +69,7 @@ CÁC LOẠI CẢNH (mỗi cảnh BẮT BUỘC có "type" và "voice")
 4. number    : { "type":"number", "pre":"...", "value":"11.600", "unit":"năm", "caption":"...", "voice":"..." }
 5. timeline  : { "type":"timeline", "title":"...", "items":[{"year":"~2.560 TCN","label":"🔺 Kim tự tháp"}], "voice":"..." }   (tối đa 4 mốc)
 6. text      : { "type":"text", "icon":"🤯", "text":"câu khẳng định ngắn", "sub":"câu phụ", "voice":"..." }
-7. outro     : { "type":"outro", "recap":"ý 1 · ý 2 · ý 3", "next":"hook tập sau", "voice":"... Sử thật… lạ hơn cả truyện. ..." }   (cảnh cuối)
+7. outro     : { "type":"outro", "recap":"ý 1 · ý 2 · ý 3", "voice":"... Sử thật… lạ hơn cả truyện. Theo dõi Người Gác Sử nhé!" }   (cảnh cuối)
 
 ẢNH MINH HỌA (nên có ở 3–5 cảnh, đặc biệt cảnh hook)
 - Thêm vào cảnh: "image": {"query": "từ khóa TIẾNG ANH, cụ thể"} — vd "octopus underwater", "Great Pyramid of Giza".

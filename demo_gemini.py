@@ -27,7 +27,7 @@ except Exception:
 def main():
     voices = [v.strip() for v in (sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].strip()
                                   else ",".join(DEFAULT)).split(",") if v.strip()]
-    script = json.loads((ROOT / "scripts" / "DV1.json").read_text(encoding="utf-8"))
+    script = json.loads((ROOT / "kich-ban-cu" / "DV1.json").read_text(encoding="utf-8"))
     scenes = script["scenes"][:4]
     out = ROOT / "demo"
     out.mkdir(exist_ok=True)

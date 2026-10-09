@@ -17,7 +17,7 @@ import make_video as mv
 ROOT = Path(__file__).resolve().parent
 DEFAULT = ["Ngọc Linh", "Thục Đoan", "Quỳnh Anh", "Mỹ Duyên", "Kim Thanh", "Trúc Ly",
            "Ngọc Huyền", "Đoan Trang", "Thiện Minh", "Thanh Bình", "Thái Sơn"]
-DEMO_SCRIPT = "scripts/DV1.json"
+DEMO_SCRIPT = "kich-ban-cu/DV1.json"
 DEMO_SCENES = 4  # ~20–25 giây
 
 try:

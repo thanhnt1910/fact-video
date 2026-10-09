@@ -43,7 +43,7 @@ YÊU CẦU NỘI DUNG
 ĐỊNH DẠNG JSON
 {
   "id": "DV1",                      // mã hook, không dấu
-  "topic": "dong-vat",              // dong-vat | con-nguoi | thien-nhien | vu-tru | thuc-vat | lich-su | co-dai
+  "topic": "dong-vat",              // dong-vat | con-nguoi | thien-nhien | vu-tru | thuc-vat | lich-su | co-dai | tam-tri
   "title": "Bạch tuộc có tới 3 trái tim",
   "caption": "Caption đăng mạng xã hội, 1–2 câu, có emoji",
   "hashtags": ["sựthậtthúvị", "hóaralàvậy", "..."],
@@ -84,6 +84,7 @@ Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 1
 | 🍌 Thực vật & Đồ ăn | `thuc-vat` |
 | 🏛️ Lịch sử | `lich-su` |
 | 🏺 Thế giới cổ đại | `co-dai` |
+| 🌀 Bí ẩn tâm trí | `tam-tri` |
 
 Mã hook có dấu trong kế hoạch (ĐV1, CĐ-A1…) thì đổi sang không dấu khi đặt `id`: ĐV1 → `DV1`, CĐ-A1 → `CD-A1`, NG1, TN1, VT1, TA1, LS1 giữ nguyên.
 

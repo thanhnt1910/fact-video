@@ -30,6 +30,7 @@ TOPIC_SOURCES = {
     "co-dai": ["met", "wikimedia", "openverse"],
     "lich-su": ["wikimedia", "met", "openverse"],
     "vu-tru": ["nasa", "wikimedia", "openverse"],
+    "tam-tri": ["openverse", "wikimedia"],
     "default": ["pixabay", "openverse", "wikimedia"],
 }
 

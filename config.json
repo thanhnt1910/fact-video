@@ -39,6 +39,7 @@
     "vu-tru":      { "label": "Vũ trụ",            "icon": "🪐", "bg1": "#140a33", "bg2": "#4b2a8f", "accent": "#C9A8FF" },
     "thuc-vat":    { "label": "Thực vật & Đồ ăn",  "icon": "🍌", "bg1": "#4a3300", "bg2": "#b07d00", "accent": "#FFE36E" },
     "lich-su":     { "label": "Lịch sử",           "icon": "🏛️", "bg1": "#4a1e00", "bg2": "#b5531c", "accent": "#FFC08A" },
-    "co-dai":      { "label": "Thế giới cổ đại",   "icon": "🏺", "bg1": "#3b2a12", "bg2": "#9a7140", "accent": "#FFD98F" }
+    "co-dai":      { "label": "Thế giới cổ đại",   "icon": "🏺", "bg1": "#3b2a12", "bg2": "#9a7140", "accent": "#FFD98F" },
+    "tam-tri":     { "label": "Bí ẩn tâm trí",     "icon": "🌀", "bg1": "#1a0f3a", "bg2": "#3d2a7a", "accent": "#C9B8FF" }
   }
 }

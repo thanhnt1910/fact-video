@@ -1,29 +1,47 @@
-name: Lấy mã chat Telegram
+name: Kết nối Telegram
 
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  chat-id:
+  connect:
     runs-on: ubuntu-latest
     steps:
-      - name: Tìm mã chat
+      - uses: actions/checkout@v4
+      - name: Tìm mã chat và gửi tin nhắn thử
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          if [ -z "$TG_TOKEN" ]; then
-            echo "Chưa có secret TELEGRAM_BOT_TOKEN"; exit 1
-          fi
-          curl -s "https://api.telegram.org/bot${TG_TOKEN}/getUpdates" | python3 -c '
-          import json, sys
-          d = json.load(sys.stdin)
-          seen = set()
+          if [ -z "$TG_TOKEN" ]; then echo "Chưa có secret TELEGRAM_BOT_TOKEN"; exit 1; fi
+          curl -s "https://api.telegram.org/bot${TG_TOKEN}/getUpdates" > updates.json
+          python3 - <<'PY'
+          import json
+          d = json.load(open("updates.json"))
+          if not d.get("ok"):
+              raise SystemExit("Mã bot không hợp lệ: " + str(d.get("description")))
+          ids = []
           for u in d.get("result", []):
-              m = u.get("message") or u.get("channel_post") or {}
+              m = u.get("message") or {}
               c = m.get("chat") or {}
-              if c.get("id") and c["id"] not in seen:
-                  seen.add(c["id"])
-                  print("MÃ CHAT:", c["id"], "-", c.get("first_name") or c.get("title") or "")
-          if not seen:
-              print("Chưa thấy tin nhắn nào. Hãy mở bot trên Telegram, bấm Start rồi gửi 1 tin nhắn bất kỳ, sau đó chạy lại.")
-          '
+              if c.get("type") == "private" and c.get("id") and c["id"] not in ids:
+                  ids.append(c["id"])
+          if not ids:
+              raise SystemExit("Chưa thấy tin nhắn nào gửi tới bot. Mở bot, bấm Start, gửi 'hi' rồi chạy lại.")
+          open("telegram_chat_id.txt", "w").write(str(ids[-1]))
+          print("Đã tìm thấy mã chat.")
+          PY
+          rm -f updates.json
+          curl -s -o /dev/null -w "Gửi tin thử: %{http_code}\n" \
+            -F chat_id="$(cat telegram_chat_id.txt)" \
+            -F text="✅ Đã kết nối! Video từ kênh Hóa Ra Là Vậy sẽ được gửi về đây." \
+            "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+      - name: Lưu mã chat
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add telegram_chat_id.txt
+          git commit -q -m "Lưu mã chat Telegram" || exit 0
+          git push -q

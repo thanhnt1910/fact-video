@@ -32,7 +32,11 @@ def hf_generate(prompt, out, wide=True):
     import shutil
     from gradio_client import Client
     w, h = (1344, 768) if wide else (1024, 1024)
-    c = Client("black-forest-labs/FLUX.1-schnell", hf_token=os.environ.get("HF_TOKEN") or None)
+    tok = os.environ.get("HF_TOKEN") or None
+    try:
+        c = Client("black-forest-labs/FLUX.1-schnell", token=tok) if tok else Client("black-forest-labs/FLUX.1-schnell")
+    except TypeError:
+        c = Client("black-forest-labs/FLUX.1-schnell", hf_token=tok)
     res = c.predict(prompt=prompt, seed=0, randomize_seed=True, width=w, height=h, num_inference_steps=4, api_name="/infer")
     path = res[0] if isinstance(res, (list, tuple)) else res
     if isinstance(path, dict):

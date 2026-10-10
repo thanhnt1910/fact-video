@@ -253,6 +253,13 @@ def build(script, cfg, out_dir):
         page.evaluate("a => window.thumb(a[0], a[1], a[2])", [key, cfg.get("channel", ""), L.get("title_card") or L["title"]])
         page.wait_for_timeout(300)
         page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail.jpg"), type="jpeg", quality=92)
+        # ảnh bìa cho Facebook: chữ ở giữa (Facebook cắt lưới video thành khung dọc)
+        page.goto((ROOT / "templates" / "long.html").as_uri())
+        page.evaluate("() => document.fonts.ready")
+        page.evaluate("a => window.thumb(a[0], a[1], a[2], 'center')",
+                      [key, cfg.get("channel", ""), L.get("title_card") or L["title"]])
+        page.wait_for_timeout(300)
+        page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail_fb.jpg"), type="jpeg", quality=92)
         page.goto((ROOT / "templates" / "long.html").as_uri())
         page.evaluate("() => document.fonts.ready")
         layers = long_render.render_layers(page, cfg.get("channel", ""), [s["label"] for s in vis if s.get("label")],

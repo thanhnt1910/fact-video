@@ -64,7 +64,8 @@ window.setup = function (d) {
   return Promise.all([document.fonts.ready, ...loads]).then(() => true);
 };
 // ảnh bìa YouTube: ảnh nền + tiêu đề lớn
-window.thumb = function (src, kicker, title) {
+// mode 'center': chữ dồn vào cột giữa, để Facebook cắt ảnh bìa thành khung dọc 9:16 vẫn đọc đủ tiêu đề
+window.thumb = function (src, kicker, title, mode) {
   document.getElementById('imgs').innerHTML = '';
   const el = document.createElement('div'); el.className = 'img'; el.style.backgroundImage = `url("${src}")`;
   el.style.opacity = 1; el.style.transform = 'scale(1.05)'; document.getElementById('imgs').append(el);
@@ -74,6 +75,13 @@ window.thumb = function (src, kicker, title) {
   card.querySelector('.k').textContent = kicker; card.querySelector('.t').innerHTML = rich(title);
   card.querySelector('.t').style.fontSize = '118px'; card.querySelector('.t').style.maxWidth = '1150px';
   card.querySelector('.s').textContent = ''; card.querySelector('.r').style.display = '';
+  if (mode === 'center') {
+    card.style.background = 'linear-gradient(90deg, rgba(11,6,4,0.15) 0%, rgba(11,6,4,0.88) 33%, rgba(11,6,4,0.88) 67%, rgba(11,6,4,0.15) 100%)';
+    card.style.alignItems = 'center'; card.style.textAlign = 'center'; card.style.padding = '0';
+    const t = card.querySelector('.t'); t.style.maxWidth = '560px'; t.style.fontSize = '96px';
+    card.querySelector('.k').style.fontSize = '26px'; card.querySelector('.k').style.letterSpacing = '6px';
+    card.querySelector('.k').style.maxWidth = '560px';
+  }
   card.style.opacity = 1; document.getElementById('label').style.opacity = 0;
   return new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; });
 };

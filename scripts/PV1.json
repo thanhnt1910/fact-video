@@ -1,0 +1,520 @@
+{
+  "id": "PV1",
+  "topic": "phi-vu",
+  "title": "Gã lừa đảo đã bán tháp Eiffel",
+  "caption": "Năm 1925, có người đã “bán” tháp Eiffel… và người mua thật sự trả tiền 🗼",
+  "hashtags": [
+    "nguoigacsu",
+    "phivụ",
+    "lịchsử",
+    "chuyệncóthật",
+    "thápeiffel"
+  ],
+  "sources": [
+    "Wikipedia – Victor Lustig",
+    "Smithsonian Magazine – The Man Who Sold the Eiffel Tower. Twice. (bản kể phổ biến; thực tế lần thứ hai không thành)",
+    "Jeff Maysh – Handsome Devil: The Man Who Sold the Eiffel Tower (2022)"
+  ],
+  "music": "Sneaky Snitch",
+  "scenes": [
+    {
+      "type": "hook",
+      "icon": "🗼",
+      "text": "Năm 1925, một gã lừa đảo đã **bán tháp Eiffel**",
+      "voice": "[trầm] Năm một nghìn chín trăm hai mươi lăm… [nhấn] một gã lừa đảo đã bán tháp Eiffel! [nhanh] Và người mua đã trả tiền thật.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Tour_Eiffel_Citroen.jpg/1920px-Tour_Eiffel_Citroen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Tour Eiffel Citroen.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Citroen.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🎩",
+      "text": "**Victor Lustig**, “bá tước” lừa đảo",
+      "sub": "Lừa đảo khắp châu Âu và nước Mỹ",
+      "voice": "[nhanh] Hắn tên là Victor Lustig, tự xưng là bá tước, nói nhiều thứ tiếng, ăn mặc sang trọng. [chậm] Hắn từng bán cả một chiếc hộp gỗ, hứa rằng nó tự in ra tiền.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Victor_Lustig_Mugshot.jpeg/1920px-Victor_Lustig_Mugshot.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Victor Lustig Mugshot.jpeg\" – inconnu, Public domain (https://commons.wikimedia.org/wiki/File:Victor_Lustig_Mugshot.jpeg)"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "📜",
+      "title": "Kế hoạch bán tháp Eiffel",
+      "bullets": [
+        {
+          "icon": "🏛️",
+          "text": "Giả làm quan chức chính phủ Pháp"
+        },
+        {
+          "icon": "🤫",
+          "text": "Họp kín với các nhà buôn sắt vụn"
+        },
+        {
+          "icon": "🔩",
+          "text": "Rao bán tháp lấy hơn 7.000 tấn sắt"
+        }
+      ],
+      "voice": "[nhanh] Đọc báo thấy tháp Eiffel cũ kỹ, tốn tiền sửa, hắn làm giả giấy tờ chính phủ. [trầm] Rồi mời các nhà buôn sắt vụn đến họp kín, nói rằng chính phủ sắp bán tòa tháp. [nhấn] Bán làm sắt vụn!",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tour_Eiffel%2C_peinture_%28peintre_en_%C3%A9quilibre_sur_un_escalier_de_la_Tour_Eiffel%2C_en_septembre_1907%29_-_btv1b6913298g.jpg/1920px-Tour_Eiffel%2C_peinture_%28peintre_en_%C3%A9quilibre_sur_un_escalier_de_la_Tour_Eiffel%2C_en_septembre_1907%29_-_btv1b6913298g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Tour Eiffel, peinture (peintre en équilibre sur un escalier de la Tour Eiffel, en septembre 1907) - btv1b6913298g.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Tour_Eiffel,_peinture_(peintre_en_%C3%A9quilibre_sur_un_escalier_de_la_Tour_Eiffel,_en_septembre_1907)_-_btv1b6913298g.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "💰",
+      "text": "Người mua **tự tin hơn** khi bị đòi hối lộ",
+      "sub": "Nhà buôn André Poisson trả cả tiền mua lẫn tiền “lót tay”",
+      "voice": "[chậm] Nhà buôn André Poisson còn nghi ngờ. [nhanh] Lustig liền xin thêm tiền hối lộ. [cao] Và chính điều đó làm Poisson tin hắn là quan chức thật! [nhanh] Ông trả tiền. Lustig cầm tiền bỏ trốn.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Paris%2C_la_Tour_Eiffel_-_btv1b53066261t.jpg/1920px-Paris%2C_la_Tour_Eiffel_-_btv1b53066261t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Paris, la Tour Eiffel - btv1b53066261t.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Paris,_la_Tour_Eiffel_-_btv1b53066261t.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🤐",
+      "text": "Nạn nhân **không dám báo cảnh sát**",
+      "sub": "Vì quá xấu hổ",
+      "voice": "[trầm] Poisson quá xấu hổ, không dám báo cảnh sát. [nhanh] Thế là Lustig quay lại Paris, định bán tòa tháp lần nữa. [nhấn] Lần này bị lộ, hắn phải trốn sang Mỹ.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Avenue_de_Versailles_et_la_Tour_Eiffel_-_Maurice_Utrillo.jpg/1920px-Avenue_de_Versailles_et_la_Tour_Eiffel_-_Maurice_Utrillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Avenue de Versailles et la Tour Eiffel - Maurice Utrillo.jpg\" – Maurice Utrillo, Public domain (https://commons.wikimedia.org/wiki/File:Avenue_de_Versailles_et_la_Tour_Eiffel_-_Maurice_Utrillo.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "⛓️",
+      "text": "Cái kết: nhà tù **Alcatraz**",
+      "sub": "Bị bắt năm 1935 vì in tiền giả",
+      "voice": "[nhanh] Ở Mỹ, hắn còn lừa cả trùm mafia Al Capone, rồi chuyển sang in tiền giả. [chậm] Năm một nghìn chín trăm ba mươi lăm, hắn bị bắt. [nhấn] Và kết thúc cuộc đời trong nhà tù.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/USS_Oklahoma_%28BB-37%29_passing_Alcatraz_in_the_1930s.jpg/1920px-USS_Oklahoma_%28BB-37%29_passing_Alcatraz_in_the_1930s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"USS Oklahoma (BB-37) passing Alcatraz in the 1930s.jpg\" – USN, Public domain (https://commons.wikimedia.org/wiki/File:USS_Oklahoma_(BB-37)_passing_Alcatraz_in_the_1930s.jpg)"
+      }
+    },
+    {
+      "type": "outro",
+      "recap": "Bán tháp Eiffel · nạn nhân im lặng · kết thúc sau song sắt",
+      "voice": "[chậm] Kẻ lừa đảo giỏi nhất đánh vào lòng tham, và nỗi xấu hổ. [trầm] Sử thật… lạ hơn cả truyện. [nhanh] Theo dõi Người Gác Sử nhé!",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/176656691_dac54e5c-86c6-43e4-956c-db508d3b4780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"176656691 dac54e5c-86c6-43e4-956c-db508d3b4780.jpg\" – FBI, Public domain (https://commons.wikimedia.org/wiki/File:176656691_dac54e5c-86c6-43e4-956c-db508d3b4780.jpg)"
+      }
+    }
+  ],
+  "post": {
+    "hook": "Năm 1925, một người đàn ông đã “bán” tháp Eiffel… và người mua thật sự trả tiền 🗼",
+    "paragraphs": [
+      "Victor Lustig sinh năm 1890 ở Bohemia (nay là Cộng hòa Séc). Ăn nói khéo, ăn mặc sang trọng, tự xưng là “bá tước”, hắn lừa đảo khắp châu Âu và nước Mỹ.",
+      "Năm 1925 ở Paris, Lustig đọc một bài báo: tháp Eiffel đã cũ, chi phí bảo dưỡng ngày càng đắt, thậm chí có người muốn dỡ bỏ nó.",
+      "Hắn thuê người làm giả giấy tờ chính phủ, tự xưng là quan chức cấp cao của Bộ Bưu chính, rồi mời một nhóm nhà buôn sắt vụn đến họp kín ở một khách sạn sang trọng.",
+      "Lời rao: chính phủ sắp bán tháp Eiffel làm sắt vụn. Vì sợ dân Paris phản đối, mọi chuyện phải giữ tuyệt đối bí mật.",
+      "Nhà buôn André Poisson, người đang khao khát danh tiếng, muốn mua. Khi ông còn nghi ngờ, Lustig “thú nhận” lương quan chức thấp và gợi ý tiền hối lộ.",
+      "Kết quả? Chính lời đòi hối lộ khiến Poisson tin hắn là quan chức thật. Ông trả tiền. Lustig cầm tiền rời khỏi nước Pháp.",
+      "Poisson quá xấu hổ nên không dám báo cảnh sát. Lustig quay lại Paris định bán tòa tháp thêm lần nữa, lần này bị lộ và phải trốn sang Mỹ.",
+      "Năm 1935, hắn bị bắt vì in tiền giả, vượt ngục, rồi bị bắt lại sau 27 ngày. Victor Lustig qua đời năm 1947 khi vẫn đang thụ án.",
+      "Bài học vẫn nguyên giá trị: lời hứa quá hời, yêu cầu giữ bí mật và sức ép phải quyết định nhanh thường đi cùng nhau trong các vụ lừa đảo."
+    ],
+    "ending": "Theo bạn, điều gì khiến một người làm ăn từng trải như Poisson vẫn tin vào một lời mời bán tháp Eiffel?",
+    "hashtags": [
+      "nguoigacsu",
+      "phivụ",
+      "lịchsử",
+      "chuyệncóthật",
+      "thápeiffel"
+    ],
+    "slides": [
+      {
+        "kind": "cover",
+        "scene": 0,
+        "kicker": "Chuyện có thật · Paris 1925",
+        "title": "Gã lừa đảo **bán tháp Eiffel**"
+      },
+      {
+        "scene": 1,
+        "tag": "Victor Lustig",
+        "text": "Tự xưng “bá tước”, giả làm quan chức chính phủ Pháp."
+      },
+      {
+        "scene": 2,
+        "tag": "Họp kín",
+        "text": "Rao bán tháp Eiffel làm sắt vụn cho các nhà buôn, yêu cầu giữ bí mật."
+      },
+      {
+        "scene": 4,
+        "tag": "Nạn nhân",
+        "text": "André Poisson trả tiền, rồi quá xấu hổ để báo cảnh sát."
+      },
+      {
+        "kind": "end",
+        "scene": 5,
+        "text": "Kẻ lừa đảo giỏi nhất đánh vào lòng tham và nỗi xấu hổ."
+      }
+    ]
+  },
+  "long": {
+    "title": "Kẻ lừa đảo đã bán tháp Eiffel như thế nào? | Victor Lustig",
+    "title_card": "Gã lừa đảo **bán tháp Eiffel**",
+    "description": "Năm 1925, một người đàn ông tự xưng là quan chức chính phủ Pháp mời các nhà buôn sắt vụn đến họp kín, và rao bán… tháp Eiffel. Một người đã trả tiền. Đây là câu chuyện có thật về Victor Lustig, kẻ lừa đảo táo bạo nhất thế kỷ 20, và bài học vẫn còn nguyên giá trị đến hôm nay.",
+    "voice": "Sadaltager",
+    "music": "Spy Glass",
+    "chapters": [
+      {
+        "beats": [
+          {
+            "text": "Paris, năm một nghìn chín trăm hai mươi lăm. Trong một khách sạn sang trọng, một nhóm nhà buôn sắt vụn được mời đến một cuộc họp tuyệt mật.",
+            "ai": "an elegant 1920s Paris hotel salon with chandeliers and velvet chairs, several businessmen in suits gathered around a table, warm light"
+          },
+          {
+            "text": "Người chủ trì tự giới thiệu là quan chức cấp cao của chính phủ Pháp. Ông ta nói nhỏ: chính phủ đã quyết định bán một công trình. Bán làm sắt vụn.",
+            "ai": "a refined 1920s gentleman in a tailored suit speaking quietly to businessmen in a luxurious room, cigarette smoke, conspiratorial mood, faces in shadow"
+          },
+          {
+            "text": "Công trình ấy… là tháp Eiffel.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Tour_Eiffel_Citroen.jpg/1920px-Tour_Eiffel_Citroen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Tour Eiffel Citroen.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Citroen.jpg)"
+            },
+            "label": "Paris · 1925"
+          },
+          {
+            "text": "Một trong số họ đã trả tiền. Nhưng người đàn ông kia không phải quan chức nào cả. Ông ta là Victor Lustig, kẻ lừa đảo được mệnh danh là người đã bán tháp Eiffel.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Victor_Lustig_Mugshot.jpeg/1920px-Victor_Lustig_Mugshot.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Victor Lustig Mugshot.jpeg\" – inconnu, Public domain (https://commons.wikimedia.org/wiki/File:Victor_Lustig_Mugshot.jpeg)"
+            },
+            "label": "Victor Lustig · 1890 – 1947"
+          }
+        ]
+      },
+      {
+        "title": "Gã bá tước giả",
+        "beats": [
+          {
+            "text": "Victor Lustig sinh năm một nghìn tám trăm chín mươi, ở một thị trấn nhỏ thuộc xứ Bohemia, nay là Cộng hòa Séc.",
+            "ai": "a small Central European town in the 1890s with red-roofed houses, a church tower and a river, hills in the background, sepia",
+            "label": "Bohemia · nay là Cộng hòa Séc"
+          },
+          {
+            "text": "Cậu học ở Dresden, nước Đức, và theo một số tài liệu, nói được nhiều thứ tiếng. Cậu thông minh, ăn nói khéo léo, và rất giỏi đọc suy nghĩ của người khác.",
+            "ai": "a sharp young man in an early 1900s student suit sitting in a library with books in several languages, confident smile, side lighting"
+          },
+          {
+            "text": "Năm một nghìn chín trăm linh chín, Lustig đến Paris. Không lâu sau, anh ta tìm ra nghề thật sự của mình: lừa tiền người giàu.",
+            "ai": "Paris boulevard in 1909 with horse carriages, gas lamps and elegant cafes, a well-dressed young man walking, sepia",
+            "label": "Paris · 1909"
+          },
+          {
+            "text": "Sân khấu đầu tiên của Lustig là những con tàu biển sang trọng chạy giữa châu Âu và New York.",
+            "ai": "a grand 1910s ocean liner first-class lounge with wealthy passengers in evening dress, chandeliers, champagne"
+          },
+          {
+            "text": "Những chuyến đi kéo dài cả tuần. Hành khách giàu có, rảnh rỗi, dễ kết thân với một quý ông lịch lãm. Đó là miếng mồi lý tưởng.",
+            "ai": "wealthy 1910s passengers strolling on the promenade deck of an ocean liner, sea breeze, parasols and hats"
+          },
+          {
+            "text": "Anh ta tự xưng là nhà sản xuất nhạc kịch, đi tìm người góp vốn cho một vở diễn ở Broadway. Vở diễn ấy không hề tồn tại.",
+            "ai": "a charming man in a tuxedo showing papers to an interested rich couple at a dinner table aboard a luxury ship, 1910s"
+          },
+          {
+            "text": "Lustig dùng nhiều tên giả, nhưng cái tên anh thích nhất là Bá tước Lustig. Một danh hiệu quý tộc hoàn toàn tự phong.",
+            "ai": "a gentleman's visiting card with an ornate noble crest on a silver tray, monocle beside it, close-up, no readable text"
+          },
+          {
+            "text": "Khi chiến tranh thế giới thứ nhất làm các chuyến tàu biển bị đình lại, Lustig chuyển sang Mỹ. Và ở đó, anh ta nghĩ ra một món đồ kỳ diệu.",
+            "ai": "a 1920s American city street with Ford cars, brick buildings and people in hats, busy and prosperous"
+          }
+        ]
+      },
+      {
+        "title": "Chiếc hộp in tiền",
+        "beats": [
+          {
+            "text": "Đó là một chiếc hộp bằng gỗ gụ, to cỡ chiếc rương du lịch. Lustig gọi nó là cỗ máy in tiền.",
+            "ai": "a polished mahogany wooden box with brass dials and small slots on a hotel room table, mysterious device, 1920s"
+          },
+          {
+            "text": "Ông ta biểu diễn: cho một tờ tiền thật vào máy, chờ sáu tiếng, và máy nhả ra… hai tờ giống hệt nhau.",
+            "ai": "close-up of hands sliding a crisp 1920s banknote into a slot of an ornate wooden machine, dramatic lamp light"
+          },
+          {
+            "text": "Người ta gọi nó là chiếc hộp Rumani. Tờ tiền nhả ra là tiền thật, nên ai kiểm tra cũng thấy đúng. Chính mắt họ nhìn thấy, sao còn nghi ngờ được?",
+            "ai": "a skeptical banker examining a crisp banknote with a magnifying glass under a desk lamp, 1920s office"
+          },
+          {
+            "text": "Thật ra, tờ tiền thứ hai đã được giấu sẵn bên trong từ trước. Trong hộp chỉ có vài tờ như thế, đủ để người mua tin là thật.",
+            "ai": "the inside of an open wooden box revealing a hidden compartment with a few banknotes, magician's trick, close-up"
+          },
+          {
+            "text": "Người ta trả những khoản tiền khổng lồ để mua cỗ máy. Đến khi nó hết in, Lustig đã cao chạy xa bay từ lâu.",
+            "ai": "a frustrated man in a 1920s suit staring at an empty wooden box in an empty hotel room, open window, curtains blowing"
+          },
+          {
+            "text": "Nhưng phi vụ nổi tiếng nhất của Lustig chưa phải là chiếc hộp. Nó bắt đầu từ một bài báo, ở Paris.",
+            "ai": "a man reading a 1920s French newspaper at a Parisian cafe terrace, coffee cup, morning light"
+          }
+        ]
+      },
+      {
+        "title": "Tòa tháp bị ghét bỏ",
+        "beats": [
+          {
+            "text": "Tháp Eiffel được xây cho Hội chợ Thế giới năm một nghìn tám trăm tám mươi chín. Lúc mới xây, rất nhiều người Paris ghét nó.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Eiffel tower at Exposition Universelle, Paris, 1889.jpg\" – Neurdein, Public domain (https://commons.wikimedia.org/wiki/File:Eiffel_tower_at_Exposition_Universelle,_Paris,_1889.jpg)"
+            },
+            "label": "Hội chợ Thế giới Paris · 1889"
+          },
+          {
+            "text": "Tòa tháp cao khoảng ba trăm mét, công trình cao nhất thế giới thời đó, do công ty của kỹ sư Gustave Eiffel xây trong hơn hai năm.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/M._Gustave_Eiffel_%2814382067242%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"M. Gustave Eiffel (14382067242) (cropped).jpg\" – USMC Archives from Quantico, USA, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:M._Gustave_Eiffel_(14382067242)_(cropped).jpg)"
+            },
+            "label": "Kỹ sư Gustave Eiffel"
+          },
+          {
+            "text": "Một nhóm nghệ sĩ và nhà văn nổi tiếng còn ký thư phản đối, gọi tòa tháp là vô dụng và quái dị.",
+            "ai": "a group of 1880s Parisian artists and writers in a salon signing a letter of protest, top hats and frock coats, candlelight"
+          },
+          {
+            "text": "Theo giấy phép ban đầu, tòa tháp chỉ đứng đó hai mươi năm. Nó được giữ lại phần lớn nhờ một công dụng mới: làm cột ăng ten cho sóng vô tuyến.",
+            "ai": "the top of the Eiffel Tower with early radio antenna wires in the early 1900s, cloudy sky, technical and historic"
+          },
+          {
+            "text": "Đến năm một nghìn chín trăm hai mươi lăm, tòa tháp đã cũ. Sơn bong tróc, chi phí bảo dưỡng ngày càng đắt.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tour_Eiffel%2C_peinture_%28peintre_en_%C3%A9quilibre_sur_un_escalier_de_la_Tour_Eiffel%2C_en_septembre_1907%29_-_btv1b6913298g.jpg/1920px-Tour_Eiffel%2C_peinture_%28peintre_en_%C3%A9quilibre_sur_un_escalier_de_la_Tour_Eiffel%2C_en_septembre_1907%29_-_btv1b6913298g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Tour Eiffel, peinture (peintre en équilibre sur un escalier de la Tour Eiffel, en septembre 1907) - btv1b6913298g.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Tour_Eiffel,_peinture_(peintre_en_%C3%A9quilibre_sur_un_escalier_de_la_Tour_Eiffel,_en_septembre_1907)_-_btv1b6913298g.jpg)"
+            },
+            "label": "Thợ sơn tháp Eiffel · 1907"
+          },
+          {
+            "text": "Cứ khoảng bảy năm, tòa tháp lại phải sơn lại toàn bộ, tốn hàng chục tấn sơn và cả trăm thợ leo trèo trên những thanh sắt.",
+            "ai": "painters with brushes and buckets suspended on ropes along the iron girders of a huge iron tower, Paris rooftops far below, 1920s"
+          },
+          {
+            "text": "Một tờ báo viết về chuyện đó, và nhắc rằng có người còn muốn dỡ bỏ tòa tháp. Lustig đọc bài báo… và mỉm cười.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Avenue_de_Versailles_et_la_Tour_Eiffel_-_Maurice_Utrillo.jpg/1920px-Avenue_de_Versailles_et_la_Tour_Eiffel_-_Maurice_Utrillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Avenue de Versailles et la Tour Eiffel - Maurice Utrillo.jpg\" – Maurice Utrillo, Public domain (https://commons.wikimedia.org/wiki/File:Avenue_de_Versailles_et_la_Tour_Eiffel_-_Maurice_Utrillo.jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ngài thứ trưởng",
+        "beats": [
+          {
+            "text": "Lustig thuê người làm giả giấy tờ có in tiêu đề của chính phủ Pháp. Ông ta tự xưng là Phó Tổng Giám đốc của Bộ Bưu chính và Điện báo.",
+            "ai": "an engraver forging official letterhead with a printing press in a dim back room, ink, stamps and seals, 1920s"
+          },
+          {
+            "text": "Rồi ông ta gửi thư mời một nhóm nhỏ những nhà buôn sắt vụn lớn nhất Paris đến họp kín tại một khách sạn sang trọng.",
+            "ai": "a sealed official envelope with a red wax seal being delivered on a silver tray to a businessman at his desk, 1920s Paris"
+          },
+          {
+            "text": "Tại buổi họp, Lustig nói: chính phủ không còn đủ tiền bảo dưỡng tòa tháp, nên quyết định bán nó làm sắt vụn. Hơn bảy nghìn tấn sắt.",
+            "ai": "a 1920s official in a dark suit presenting plans to businessmen around a polished table in an elegant hotel room, documents spread out"
+          },
+          {
+            "text": "Nước Pháp khi ấy vừa ra khỏi chiến tranh thế giới thứ nhất, nợ nần chồng chất, cần tiền tái thiết. Chuyện chính phủ muốn bán bớt tài sản nghe hoàn toàn hợp lý.",
+            "ai": "a 1920s French government ministry office with stacks of files, worried officials, a map of France on the wall, sepia"
+          },
+          {
+            "text": "Và vì người dân Paris chắc chắn sẽ phản đối, việc này phải giữ tuyệt đối bí mật cho đến khi mọi thứ xong xuôi.",
+            "ai": "a man holding a finger to his lips in a dim luxurious room, secretive mood, 1920s fashion, close-up"
+          },
+          {
+            "text": "Theo nhiều bản kể, Lustig còn đưa các nhà buôn đi xem tận nơi bằng xe hơi thuê, như một quan chức thật đang khảo sát công trình.",
+            "ai": "a black 1920s limousine parked at the foot of the Eiffel Tower, men in suits and hats looking up at the iron structure"
+          },
+          {
+            "text": "Ông ta không chọn người trả giá cao nhất. Ông ta chọn người dễ bị lừa nhất.",
+            "ai": "a sharp-eyed man in a 1920s suit observing a group of businessmen from across a room, calculating expression in shadow"
+          }
+        ]
+      },
+      {
+        "title": "Con mồi André Poisson",
+        "beats": [
+          {
+            "text": "Người đó là André Poisson, một nhà buôn chưa có tiếng tăm, đang khao khát được chen chân vào giới làm ăn lớn ở Paris.",
+            "ai": "an anxious middle-aged businessman in a slightly ill-fitting 1920s suit standing apart from confident elite businessmen at a reception"
+          },
+          {
+            "text": "Mua lại tháp Eiffel, ông nghĩ, sẽ khiến cả Paris phải biết đến tên mình.",
+            "ai": "a man daydreaming at his office window looking toward the Eiffel Tower on the Paris skyline, 1920s, ambitious mood"
+          },
+          {
+            "text": "Theo các bản kể, chính vợ Poisson thấy có gì đó không ổn. Mọi chuyện quá bí mật, quá vội vàng. Poisson bắt đầu nghi ngờ.",
+            "ai": "a 1920s Parisian woman with a worried expression talking to her husband in a modest apartment, lamp light"
+          },
+          {
+            "text": "Lúc ấy, Lustig làm một điều rất khôn: ông ta thú nhận rằng lương quan chức thấp, và gợi ý Poisson đưa thêm tiền hối lộ.",
+            "ai": "two men in a quiet corner of a hotel bar, one discreetly sliding an envelope across the table, 1920s, smoky"
+          },
+          {
+            "text": "Lời đòi hối lộ lại làm Poisson yên tâm. Ông nghĩ: chỉ quan chức thật mới đòi tiền như thế. Ông trả cả tiền mua tháp lẫn tiền hối lộ.",
+            "ai": "a stack of 1920s French franc banknotes being counted on a desk next to an official-looking contract, sepia"
+          },
+          {
+            "text": "Theo một số nguồn, tổng số tiền vào khoảng bảy mươi nghìn franc, một gia tài vào thời đó.",
+            "ai": "a leather briefcase opened on a hotel bed revealing bundles of 1920s French banknotes, dim light, sepia"
+          },
+          {
+            "text": "Poisson cầm trong tay những tờ giấy có dấu đỏ của chính phủ, tin rằng mình sắp trở thành người nổi tiếng nhất giới buôn sắt Paris.",
+            "ai": "a proud businessman holding an official document with a red seal in his office, the Eiffel Tower visible through the window, 1920s, hopeful"
+          },
+          {
+            "text": "Lustig nhận tiền, rồi nhanh chóng rời Pháp sang nước Áo.",
+            "ai": "a steam train departing from a grand Paris railway station in the 1920s, a man with a leather suitcase at the window, steam"
+          }
+        ]
+      },
+      {
+        "title": "Lần bán thứ hai",
+        "beats": [
+          {
+            "text": "Lustig ngày nào cũng mở báo, chờ đọc tin mình bị truy nã. Nhưng không có một dòng nào.",
+            "ai": "a man in a hotel room in Vienna reading several newspapers spread on a bed, morning light, 1920s"
+          },
+          {
+            "text": "Poisson đã quá xấu hổ để báo cảnh sát. Ông không muốn cả Paris biết mình từng ngây thơ mua tháp Eiffel.",
+            "ai": "a humiliated businessman sitting alone at his desk with his head in his hands, torn papers on the floor, dim office, 1920s"
+          },
+          {
+            "text": "Đó chính là điều Lustig tính trước: nạn nhân càng muốn giữ thể diện, càng không dám lên tiếng. Sự im lặng ấy là tấm khiên tốt nhất của kẻ lừa đảo.",
+            "ai": "a closed office door with a frosted glass window and a man's silhouette behind it, dim corridor, silence, 1920s"
+          },
+          {
+            "text": "Và thế là Lustig quay lại Paris, làm lại y hệt với một nhóm nhà buôn khác.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Paris%2C_la_Tour_Eiffel_-_btv1b53066261t.jpg/1920px-Paris%2C_la_Tour_Eiffel_-_btv1b53066261t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Paris, la Tour Eiffel - btv1b53066261t.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Paris,_la_Tour_Eiffel_-_btv1b53066261t.jpg)"
+            }
+          },
+          {
+            "text": "Lần này, có người đã báo cảnh sát. Lustig phải bỏ trốn sang Mỹ trước khi bị bắt.",
+            "ai": "French police officers in 1920s uniforms hurrying into a hotel lobby, a man slipping out a side door, tense"
+          },
+          {
+            "text": "Vì vậy, nói chính xác thì Lustig đã bán tháp Eiffel một lần, và suýt bán được lần thứ hai.",
+            "ai": "the Eiffel Tower at dusk seen from the Seine with old boats, Paris 1920s, golden light"
+          }
+        ]
+      },
+      {
+        "title": "Lừa cả trùm Al Capone",
+        "beats": [
+          {
+            "text": "Ở Mỹ, Lustig tiếp tục những phi vụ táo bạo. Có một câu chuyện nổi tiếng, dù khó kiểm chứng, về cuộc gặp của ông với trùm mafia Al Capone.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/AlCaponemugshotCPD.jpg/1920px-AlCaponemugshotCPD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"AlCaponemugshotCPD.jpg\" – United States Bureau of Prisons, Public domain (https://commons.wikimedia.org/wiki/File:AlCaponemugshotCPD.jpg)"
+            },
+            "label": "Al Capone"
+          },
+          {
+            "text": "Lustig xin Capone năm mươi nghìn đô la để đầu tư, hứa sẽ nhân đôi số tiền trong hai tháng.",
+            "ai": "a 1930s Chicago office with a powerful man behind a big desk and a well-dressed visitor, cigar smoke, tense negotiation, faces in shadow"
+          },
+          {
+            "text": "Capone khi đó là ông trùm quyền lực nhất Chicago. Lừa ông ta chẳng khác gì đùa với lửa.",
+            "ai": "a dark 1930s Chicago street at night with a black car and men in fedoras guarding a club entrance, ominous"
+          },
+          {
+            "text": "Ông cất số tiền vào két, không làm gì cả. Hai tháng sau, ông mang trả lại đúng số tiền ấy, xin lỗi vì phi vụ thất bại.",
+            "ai": "a stack of 1930s dollar bills placed neatly on a desk in front of a surprised man, gangster era, dramatic light"
+          },
+          {
+            "text": "Capone ngạc nhiên vì gặp một người trung thực, liền tặng ông vài nghìn đô la. Đó mới là món tiền Lustig nhắm tới từ đầu.",
+            "ai": "a satisfied con man in a fedora walking out of a 1930s Chicago building onto a rainy street, neon lights"
+          }
+        ]
+      },
+      {
+        "title": "Con đường đến Alcatraz",
+        "beats": [
+          {
+            "text": "Phi vụ cuối cùng của Lustig là tiền giả. Từ năm một nghìn chín trăm ba mươi, ông cùng đồng bọn tung ra một lượng lớn tờ đô la giả khắp nước Mỹ.",
+            "ai": "a counterfeit printing press in a hidden 1930s basement with sheets of fake dollar bills hanging to dry, dim bulb"
+          },
+          {
+            "text": "Những tờ tiền giả ấy lưu hành suốt khoảng năm năm. Cơ quan mật vụ Mỹ phải truy lùng ráo riết mới lần ra đầu mối.",
+            "ai": "1930s American federal agents examining banknotes under bright lamps in an office with maps and pinned photos, investigation"
+          },
+          {
+            "text": "Ngày mười tháng năm năm một nghìn chín trăm ba mươi lăm, ông bị bắt ở New York. Một chiếc chìa khóa dẫn cảnh sát đến tủ khóa ở ga tàu điện ngầm Quảng trường Thời đại, chứa hơn năm mươi nghìn đô la tiền giả.",
+            "ai": "a metal locker at a 1930s New York subway station opened by detectives, stacks of banknotes inside, flashlight beam",
+            "label": "New York · 1935"
+          },
+          {
+            "text": "Một ngày trước phiên tòa, Lustig giả ốm, rồi trèo xuống từ cửa sổ nhà giam bằng một sợi dây tự làm.",
+            "ai": "a rope made of knotted cloth hanging from a high window of a grey 1930s city jail building at night, dramatic"
+          },
+          {
+            "text": "Cảnh sát liên bang phát lệnh truy nã khắp nước Mỹ. Hai mươi bảy ngày sau, ông bị bắt lại ở Pittsburgh.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/176656691_dac54e5c-86c6-43e4-956c-db508d3b4780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"176656691 dac54e5c-86c6-43e4-956c-db508d3b4780.jpg\" – FBI, Public domain (https://commons.wikimedia.org/wiki/File:176656691_dac54e5c-86c6-43e4-956c-db508d3b4780.jpg)"
+            },
+            "label": "Lệnh truy nã Victor Lustig · 1935"
+          },
+          {
+            "text": "Tháng mười hai năm ấy, đứng trước tòa, kẻ lừa đảo lừng danh cuối cùng đã nhận tội.",
+            "ai": "a 1930s American federal courtroom with a judge's bench, a defendant in a suit standing before it, wooden panels, solemn"
+          },
+          {
+            "text": "Lần này không còn đường thoát. Victor Lustig bị kết án hai mươi năm tù, và bị đưa ra nhà tù Alcatraz, giữa vịnh San Francisco.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/USS_Oklahoma_%28BB-37%29_passing_Alcatraz_in_the_1930s.jpg/1920px-USS_Oklahoma_%28BB-37%29_passing_Alcatraz_in_the_1930s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"USS Oklahoma (BB-37) passing Alcatraz in the 1930s.jpg\" – USN, Public domain (https://commons.wikimedia.org/wiki/File:USS_Oklahoma_(BB-37)_passing_Alcatraz_in_the_1930s.jpg)"
+            },
+            "label": "Nhà tù Alcatraz"
+          },
+          {
+            "text": "Những năm cuối đời, Lustig bệnh nặng và được chuyển sang một bệnh viện dành cho tù nhân liên bang ở bang Missouri.",
+            "ai": "a long empty 1940s prison hospital corridor with iron beds and tall windows, cold light, somber"
+          },
+          {
+            "text": "Năm một nghìn chín trăm bốn mươi bảy, ông qua đời trong bệnh viện nhà tù. Giấy chứng tử ghi nghề nghiệp của ông là: người bán hàng học việc, và kẻ làm tiền giả.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Victor_Lustig_Mugshot.jpeg/1920px-Victor_Lustig_Mugshot.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Victor Lustig Mugshot.jpeg\" – inconnu, Public domain (https://commons.wikimedia.org/wiki/File:Victor_Lustig_Mugshot.jpeg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lời kết",
+        "beats": [
+          {
+            "text": "Người ta gán cho Lustig mười điều răn của kẻ lừa đảo. Đứng đầu là: hãy kiên nhẫn lắng nghe. Hãy đồng tình với quan điểm của đối phương. Đừng bao giờ tỏ ra chán nản.",
+            "ai": "an old handwritten list on yellowed paper next to a fountain pen and a fedora hat on a desk, unreadable text, sepia"
+          },
+          {
+            "text": "Điều đáng sợ là những mánh ấy vẫn còn nguyên giá trị đến hôm nay. Kẻ lừa đảo không cần bạn ngu ngốc. Họ chỉ cần bạn tham lam, vội vàng, hoặc xấu hổ.",
+            "ai": "a modern-looking silhouette of a person holding a phone in a dark room, a glowing tempting offer on screen, unreadable, cautionary mood"
+          },
+          {
+            "text": "Ngày nay, các vụ lừa đảo qua điện thoại hay mạng xã hội vẫn dùng đúng công thức ấy: giả danh cơ quan nhà nước hoặc ngân hàng, dặn phải giữ bí mật, và thúc giục chuyển tiền ngay.",
+            "ai": "an old rotary telephone and a modern smartphone side by side on a desk with a warning sign glow, symbolic, moody"
+          },
+          {
+            "text": "Lời hứa quá hời, lời dặn phải giữ bí mật, và sức ép phải quyết định thật nhanh: khi cả ba cùng xuất hiện, hãy dừng lại và kiểm tra thật kỹ.",
+            "ai": "a red warning light glowing over a desk with a contract and a pen, dramatic, symbolic, 1920s style"
+          },
+          {
+            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
+            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+          }
+        ]
+      }
+    ]
+  }
+}

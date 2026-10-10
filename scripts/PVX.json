@@ -1,0 +1,115 @@
+{
+ "id": "PVX",
+ "topic": "phi-vu",
+ "title": "x",
+ "scenes": [
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Victor Lustig",
+    "subject": "Lustig",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Eiffel Tower 1920s",
+    "subject": "Eiffel",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Tour Eiffel Agence Rol",
+    "subject": "Eiffel",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Exposition Universelle 1889 Eiffel",
+    "subject": "Eiffel",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Hôtel de Crillon",
+    "subject": "Crillon",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Al Capone mugshot",
+    "subject": "Capone",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Alcatraz Island 1930s",
+    "subject": "Alcatraz",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Paris 1925 street",
+    "subject": "Paris",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "French franc banknote 1920s",
+    "subject": "franc",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Eiffel Tower painting workers",
+    "subject": "Eiffel",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Gustave Eiffel portrait",
+    "subject": "Eiffel",
+    "source": "wikimedia"
+   }
+  },
+  {
+   "type": "text",
+   "voice": "x",
+   "image": {
+    "query": "Paris Exposition 1925",
+    "subject": "Exposition",
+    "source": "wikimedia"
+   }
+  }
+ ]
+}

@@ -23,8 +23,13 @@ t0 = time.time()
 def log(*a):
     print(f"[{time.time()-t0:6.0f}s]", *a, flush=True)
 os.environ["HF_HOME"] = "/tmp/hf"
+import datetime
+log("bắt đầu lúc", datetime.datetime.utcnow().strftime("%H:%M:%S UTC"))
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers>=0.32", "gguf", "transformers",
                 "accelerate", "sentencepiece", "protobuf"], check=True)
+# torchao có sẵn trên Kaggle lệch phiên bản với diffusers mới -> gỡ đi (không cần dùng)
+subprocess.run([sys.executable, "-m", "pip", "uninstall", "-y", "-q", "torchao"])
+log("cài xong thư viện")
 import torch
 from huggingface_hub import snapshot_download
 from diffusers import FluxPipeline, FluxTransformer2DModel, GGUFQuantizationConfig
@@ -107,10 +112,15 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110):
     _kaggle(["kernels", "push", "-p", str(work / "k")], env)
     t0 = time.time()
     status = ""
+    last = None
     while time.time() - t0 < timeout_min * 60:
-        time.sleep(45)
+        time.sleep(30)
         st = _kaggle(["kernels", "status", f"{user}/{SLUG}"], env, check=False).lower()
         status = st.strip().splitlines()[-1] if st.strip() else ""
+        short = status.split("status")[-1].strip(' "')
+        if short != last:
+            log(f"     🖥️  {(time.time() - t0) / 60:4.1f} phút: {short}")
+            last = short
         if any(w in st for w in ("complete", "error", "cancel")):
             break
     log(f"     🖥️  Kaggle: {status} ({(time.time() - t0) / 60:.0f} phút)")

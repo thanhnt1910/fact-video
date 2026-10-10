@@ -19,6 +19,7 @@ jobs:
       - name: Vẽ thử
         env:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python kaggle_test.py 2>&1 | tee logs/kaggle_run.txt
       - name: Lưu
         if: always()

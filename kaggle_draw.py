@@ -23,6 +23,8 @@ t0 = time.time()
 def log(*a):
     print(f"[{time.time()-t0:6.0f}s]", *a, flush=True)
 os.environ["HF_HOME"] = "/tmp/hf"
+if __HFTOK__:
+    os.environ["HF_TOKEN"] = __HFTOK__
 import datetime
 log("bắt đầu lúc", datetime.datetime.utcnow().strftime("%H:%M:%S UTC"))
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers>=0.32", "gguf", "transformers",
@@ -102,7 +104,7 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110):
     (work / "k").mkdir(parents=True)
     payload = json.dumps([{"key": k, "prompt": p, "w": w, "h": h, "seed": i} for i, (k, p, w, h) in enumerate(jobs)],
                          ensure_ascii=False)
-    (work / "k" / "draw.py").write_text(KERNEL_CODE.replace("__JOBS__", repr(payload)), encoding="utf-8")
+    (work / "k" / "draw.py").write_text(KERNEL_CODE.replace("__JOBS__", repr(payload)).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
     meta = {"id": f"{user}/{SLUG}", "title": SLUG, "code_file": "draw.py", "language": "python",
             "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
             "enable_tpu": False, "dataset_sources": [], "competition_sources": [], "kernel_sources": [],

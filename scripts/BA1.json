@@ -180,11 +180,11 @@
         "beats": [
           {
             "text": "Ngày bốn tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương. Thủy thủ trên tàu Dei Gratia nhìn thấy một con tàu lạ ở phía xa.",
-            "ai": "a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, from the deck of another ship, overcast morning"
+            "ai": "a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, from the deck of another ship, overcast morning, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           },
           {
             "text": "Con tàu ấy đi lảo đảo, cánh buồm rách tả tơi, như không có ai cầm lái. Họ gọi lớn. Không ai trả lời.",
-            "ai": "a lone brigantine sailing erratically with torn sails on a rough grey sea, no people visible on deck, eerie"
+            "ai": "a lone brigantine sailing erratically with torn sails on a rough grey sea, no people visible on deck, eerie, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           },
           {
             "text": "Khi trèo lên boong, họ thấy hàng hóa còn nguyên, thức ăn và nước uống đủ dùng trong sáu tháng, đồ đạc cá nhân vẫn ở chỗ cũ.",
@@ -199,8 +199,7 @@
             "label": "Mary Celeste · 1872"
           },
           {
-            "text": "Hơn một trăm năm mươi năm sau, bí ẩn về con tàu Mary Celeste vẫn chưa có lời giải. Và câu chuyện thật còn kỳ lạ hơn những lời đồn mà bạn từng nghe.",
-            "ai": "an old ship's logbook lying open on a wooden table beside a quill and an extinguished candle, sea light through a porthole"
+            "text": "Hơn một trăm năm mươi năm sau, bí ẩn về con tàu Mary Celeste vẫn chưa có lời giải. Và câu chuyện thật còn kỳ lạ hơn những lời đồn mà bạn từng nghe."
           }
         ]
       },
@@ -220,16 +219,14 @@
             }
           },
           {
-            "text": "Ngay từ những năm đầu, con tàu đã gặp hết tai nạn này đến tai nạn khác. Thủy thủ bắt đầu thì thầm rằng nó là một con tàu xui xẻo.",
-            "ai": "sailors whispering together on a dock beside a moored brigantine at dusk, lanterns, superstitious mood"
+            "text": "Ngay từ những năm đầu, con tàu đã gặp hết tai nạn này đến tai nạn khác. Thủy thủ bắt đầu thì thầm rằng nó là một con tàu xui xẻo."
           },
           {
             "text": "Năm một nghìn tám trăm sáu mươi bảy, một cơn bão đánh dạt con tàu vào bờ biển. Nó bị hư hỏng nặng và bị bỏ lại như một xác tàu.",
             "ai": "a damaged wooden sailing ship stranded on a rocky shore after a storm, broken mast, grey sky"
           },
           {
-            "text": "Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste.",
-            "ai": "a busy 1860s New York harbor with sailing ships, wooden piers and warehouses, sepia, bustling"
+            "text": "Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste."
           }
         ]
       },
@@ -245,16 +242,14 @@
             "label": "Bàn viết của thuyền trưởng Briggs"
           },
           {
-            "text": "Ông xuất thân từ một gia đình đi biển ở bang Massachusetts, và còn góp vốn làm đồng chủ của chính con tàu Mary Celeste. Với ông, đây là một chuyến đi quan trọng.",
-            "ai": "a 19th-century New England coastal town with white wooden houses and a church steeple by the harbor, sailing ships moored, calm morning"
+            "text": "Ông xuất thân từ một gia đình đi biển ở bang Massachusetts, và còn góp vốn làm đồng chủ của chính con tàu Mary Celeste. Với ông, đây là một chuyến đi quan trọng."
           },
           {
             "text": "Lần này, ông mang theo vợ là bà Sarah, và cô con gái nhỏ Sophia, mới hai tuổi. Bà Sarah còn mang theo cả một cây đàn phong cầm nhỏ để chơi nhạc trên biển.",
             "ai": "a young 1870s woman in a long dark dress playing a small melodeon in a wooden ship cabin, a small child on a rug nearby, warm lamp light, painted from behind"
           },
           {
-            "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ.",
-            "ai": "seven 19th-century sailors in wool caps and coats standing on the deck of a brigantine at a harbor, seen from a distance"
+            "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ."
           },
           {
             "text": "Hàng trên tàu là một nghìn bảy trăm linh một thùng cồn công nghiệp, chở từ New York sang Genoa, nước Ý.",
@@ -262,12 +257,11 @@
           },
           {
             "text": "Ngày năm tháng mười một, con tàu rời cảng New York. Thời tiết xấu khiến nó phải neo lại vài ngày, rồi mới thật sự ra khơi.",
-            "ai": "a brigantine leaving New York harbor in grey November weather, small boats around, the city skyline of the 1870s behind",
+            "ai": "a brigantine leaving New York harbor in grey November weather, small boats around, the city skyline of the 1870s behind, the ship is a 19th-century two-masted brigantine with square sails on the front mast",
             "label": "New York · 11/1872"
           },
           {
-            "text": "Ít ngày sau, một con tàu khác cũng rời New York, đi theo gần như cùng một hướng. Đó là tàu Dei Gratia, của thuyền trưởng David Morehouse.",
-            "ai": "a Canadian brigantine under full sail on the open Atlantic, sunny with clouds"
+            "text": "Ít ngày sau, một con tàu khác cũng rời New York, đi theo gần như cùng một hướng. Đó là tàu Dei Gratia, của thuyền trưởng David Morehouse."
           }
         ]
       },
@@ -279,16 +273,14 @@
             "ai": "sailors on a ship deck looking through a brass telescope at a distant ship on the ocean, tense"
           },
           {
-            "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste.",
-            "ai": "two sailors rowing a small wooden boat across choppy water toward a silent sailing ship, grey sky"
+            "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste."
           },
           {
             "text": "Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.",
             "ai": "the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence"
           },
           {
-            "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại.",
-            "ai": "an empty narrow ship corridor below deck with a swinging oil lamp, shadows, mysterious"
+            "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại."
           },
           {
             "text": "Thuyền trưởng Morehouse phải quyết định: bỏ mặc con tàu ma này, hay chia bớt người để đưa nó về cảng. Đường còn xa, mà mỗi tàu sẽ chỉ còn rất ít người lái.",
@@ -308,12 +300,10 @@
             "ai": "seawater sloshing in the dark lower hold of a wooden ship among barrels, lantern reflection"
           },
           {
-            "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu.",
-            "ai": "a makeshift wooden sounding rod lying abandoned on a wet ship deck next to a pump, close-up"
+            "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu."
           },
           {
-            "text": "Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn.",
-            "ai": "a ship's brass binnacle compass housing knocked askew with cracked glass on a wooden deck, close-up, overcast light"
+            "text": "Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn."
           },
           {
             "text": "Chiếc xuồng cứu sinh duy nhất của tàu đã biến mất. Cùng với nó là đồng hồ hàng hải, kính lục phân và gần hết giấy tờ của con tàu.",
@@ -332,8 +322,7 @@
             "label": "Đảo Santa Maria · Azores"
           },
           {
-            "text": "Từ đó đến khi được tìm thấy là chín ngày. Không người lái, Mary Celeste đã tự trôi hơn bảy trăm cây số trên biển.",
-            "ai": "an old nautical chart of the Atlantic between the Azores and Portugal with a dotted route line, brass dividers on top"
+            "text": "Từ đó đến khi được tìm thấy là chín ngày. Không người lái, Mary Celeste đã tự trôi hơn bảy trăm cây số trên biển."
           }
         ]
       },
@@ -361,20 +350,17 @@
             "label": "Báo New York Times · 26/2/1873"
           },
           {
-            "text": "Những vết đỏ trên boong được đem đi xét nghiệm. Kết quả: không phải máu. Thanh kiếm tìm thấy trên tàu chỉ có vết gỉ sét.",
-            "ai": "an old sword in a worn scabbard lying on a wooden table under a magnifying glass, Victorian laboratory setting"
+            "text": "Những vết đỏ trên boong được đem đi xét nghiệm. Kết quả: không phải máu. Thanh kiếm tìm thấy trên tàu chỉ có vết gỉ sét."
           },
           {
-            "text": "Phiên điều tra kéo dài gần bốn tháng. Báo chí khắp nơi đưa tin, và mỗi người đưa ra một giả thuyết khác nhau.",
-            "ai": "Victorian newspaper boys selling papers on a busy street corner of Gibraltar, crowd reading headlines, sepia"
+            "text": "Phiên điều tra kéo dài gần bốn tháng. Báo chí khắp nơi đưa tin, và mỗi người đưa ra một giả thuyết khác nhau."
           },
           {
-            "text": "Không tìm được bằng chứng nào về tội ác. Cuối cùng, người cứu tàu chỉ nhận được khoảng một phần năm giá trị con tàu và hàng hóa, ít hơn nhiều so với mong đợi.",
-            "ai": "a stack of old British pound banknotes and coins on a desk next to a legal document with a wax seal, sepia"
+            "text": "Không tìm được bằng chứng nào về tội ác. Cuối cùng, người cứu tàu chỉ nhận được khoảng một phần năm giá trị con tàu và hàng hóa, ít hơn nhiều so với mong đợi."
           },
           {
             "text": "Một người mới, một thủy thủ đoàn mới, đưa Mary Celeste tiếp tục đến Genoa. Còn mười con người kia thì không bao giờ được tìm thấy.",
-            "ai": "a sailing ship leaving the harbor of Gibraltar with the great Rock behind it, golden afternoon light"
+            "ai": "a sailing ship leaving the harbor of Gibraltar with the great Rock behind it, golden afternoon light, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           }
         ]
       },
@@ -386,8 +372,7 @@
             "ai": "a ship's dining table with plates of food and a smoking pipe, ghostly empty chairs, dramatic candlelight, mysterious"
           },
           {
-            "text": "Những chi tiết ấy là sai. Thủy thủ Dei Gratia mất hai tiếng mới trèo lên được tàu. Không thể có thức ăn nào còn ấm.",
-            "ai": "a cold empty ship galley with a plain iron stove, unlit, and a few clean bowls on a shelf, dim and quiet"
+            "text": "Những chi tiết ấy là sai. Thủy thủ Dei Gratia mất hai tiếng mới trèo lên được tàu. Không thể có thức ăn nào còn ấm."
           },
           {
             "text": "Năm một nghìn tám trăm tám mươi tư, một nhà văn trẻ viết một truyện ngắn hư cấu dựa trên con tàu này, đổi tên nó thành Marie Celeste.",
@@ -403,16 +388,13 @@
             "label": "Sherlock Holmes · tranh minh họa 1888"
           },
           {
-            "text": "Truyện của Doyle hay đến mức nhiều người tưởng là chuyện thật. Cái tên sai Marie Celeste cũng lan rộng khắp nơi.",
-            "ai": "Victorian gentlemen reading magazines in a London club, armchairs and lamps, cozy, sepia"
+            "text": "Truyện của Doyle hay đến mức nhiều người tưởng là chuyện thật. Cái tên sai Marie Celeste cũng lan rộng khắp nơi."
           },
           {
-            "text": "Về sau còn có những bài báo và cả một cuốn sách tự xưng là lời kể của người sống sót. Tất cả đều là bịa đặt.",
-            "ai": "a pile of old yellowed newspapers with dramatic but unreadable headlines on a wooden desk, scattered"
+            "text": "Về sau còn có những bài báo và cả một cuốn sách tự xưng là lời kể của người sống sót. Tất cả đều là bịa đặt."
           },
           {
-            "text": "Năm một nghìn chín trăm mười ba, một tạp chí ở London còn đăng hồi ký của một người tự nhận là thủy thủ sống sót, kể rằng mọi người rơi xuống biển và bị cá mập ăn thịt. Câu chuyện ấy sai nhiều chi tiết, từ con tàu đến quốc tịch của các thủy thủ.",
-            "ai": "an old literary magazine lying open on a Victorian armchair with an illustration of stormy sea, unreadable text, sepia"
+            "text": "Năm một nghìn chín trăm mười ba, một tạp chí ở London còn đăng hồi ký của một người tự nhận là thủy thủ sống sót, kể rằng mọi người rơi xuống biển và bị cá mập ăn thịt. Câu chuyện ấy sai nhiều chi tiết, từ con tàu đến quốc tịch của các thủy thủ."
           }
         ]
       },
@@ -436,8 +418,7 @@
             "ai": "a ship's open hatch with a faint blue flash of light inside the dark hold, startled silhouette of a captain, night"
           },
           {
-            "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy.",
-            "ai": "a modern chemistry laboratory with a wooden box model of a ship hold and a bright flash of blue flame, scientists in the background"
+            "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy."
           },
           {
             "text": "Một giả thuyết khác: máy bơm bị tắc, cây gậy đo nước báo sai, khiến thuyền trưởng tưởng tàu đang chìm nhanh.",
@@ -445,19 +426,18 @@
           },
           {
             "text": "Có người cho rằng một cột nước xoáy trên biển đã quét qua con tàu, làm thiết bị đo báo sai và khiến mọi người hoảng loạn.",
-            "ai": "a dramatic waterspout twisting over a dark ocean near a small sailing ship, stormy clouds, 19th-century painting style"
+            "ai": "a dramatic waterspout twisting over a dark ocean near a small sailing ship, stormy clouds"
           },
           {
             "text": "Cũng có những giả thuyết về quái vật biển, mực khổng lồ, thậm chí người ngoài hành tinh. Không cái nào có bằng chứng.",
-            "ai": "a vintage illustration of a giant sea creature's tentacles rising from the ocean near a ship, mythical, sepia engraving style"
+            "ai": "giant octopus tentacles rising from a dark ocean around a small two-masted sailing ship at night, a legendary sea monster scene, dramatic"
           },
           {
             "text": "Dù vì lý do gì, có thể họ đã xuống xuồng, buộc dây vào tàu để chờ xem chuyện gì xảy ra. Rồi gió nổi lên, dây đứt, và con tàu bỏ lại họ giữa đại dương.",
-            "ai": "a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, dramatic ocean"
+            "ai": "a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, dramatic ocean, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           },
           {
-            "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật.",
-            "ai": "a vast empty stormy ocean at twilight with no ships, only waves and clouds, lonely"
+            "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật."
           }
         ]
       },
@@ -466,7 +446,7 @@
         "beats": [
           {
             "text": "Sau vụ việc, tiếng xui của Mary Celeste càng nặng hơn. Con tàu đổi chủ liên tục, ít ai muốn làm việc trên đó.",
-            "ai": "a weathered old brigantine moored alone at the end of a quiet harbor, peeling paint, gulls, melancholic"
+            "ai": "a weathered old brigantine moored alone at the end of a quiet harbor, peeling paint, gulls, melancholic, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           },
           {
             "text": "Năm một nghìn tám trăm tám mươi lăm, thuyền trưởng Gilman Parker chất lên tàu một đống hàng gần như vô giá trị nhưng khai là hàng đắt tiền, rồi mua bảo hiểm thật cao.",
@@ -474,20 +454,18 @@
           },
           {
             "text": "Ngày ba tháng một, ông cố tình lái Mary Celeste đâm vào một rạn san hô ngoài khơi Haiti, để lấy tiền bảo hiểm.",
-            "ai": "a sailing ship deliberately run aground on a coral reef near a Caribbean island, turquoise water, broken hull",
+            "ai": "a sailing ship deliberately run aground on a coral reef near a Caribbean island, turquoise water, broken hull, the ship is a 19th-century two-masted brigantine with square sails on the front mast",
             "label": "Haiti · 1885"
           },
           {
-            "text": "Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau.",
-            "ai": "an empty 19th-century courtroom bench with a single hat left on it, dim light, somber"
+            "text": "Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau."
           },
           {
             "text": "Năm hai nghìn không trăm linh một, một đoàn thám hiểm tuyên bố đã tìm thấy xác Mary Celeste ở rạn san hô ấy. Nhưng phân tích vân gỗ cho thấy gỗ đó đến từ những cái cây vẫn còn sống… mười năm sau khi Mary Celeste bị đắm.",
             "ai": "divers examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water"
           },
           {
-            "text": "Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn.",
-            "ai": "a clear empty coral reef seen from above with gentle waves, no wreck visible, mysterious"
+            "text": "Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn."
           }
         ]
       },
@@ -499,8 +477,7 @@
             "ai": "an old ship's logbook closed on a table with a sea chart and a small child's shoe beside it, soft window light, poignant"
           },
           {
-            "text": "Họ không phải những nhân vật trong truyện. Họ là một người cha, một người mẹ, một em bé hai tuổi, và bảy thủy thủ có gia đình đang chờ ở quê nhà.",
-            "ai": "a family portrait-style painting of an empty harbor at dawn with a woman waiting on a pier, seen from behind, melancholic, soft light"
+            "text": "Họ không phải những nhân vật trong truyện. Họ là một người cha, một người mẹ, một em bé hai tuổi, và bảy thủy thủ có gia đình đang chờ ở quê nhà."
           },
           {
             "text": "Có lẽ họ đã ra đi vì một nỗi sợ, một quyết định vội vàng trong khoảnh khắc. Một quyết định mà con tàu, trớ trêu thay, lại vượt qua được.",

@@ -170,7 +170,7 @@
           },
           {
             "text": "Người chủ trì tự giới thiệu là quan chức cấp cao của chính phủ Pháp. Ông ta nói nhỏ: chính phủ đã quyết định bán một công trình. Bán làm sắt vụn.",
-            "ai": "a refined 1920s gentleman in a tailored suit speaking quietly to businessmen in a luxurious room, cigarette smoke, conspiratorial mood, faces in shadow"
+            "ai": "a refined 1920s gentleman in a tailored suit speaking quietly to businessmen in a luxurious room, cigarette smoke, conspiratorial mood, faces in shadow, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
             "text": "Công trình ấy… là tháp Eiffel.",
@@ -195,12 +195,10 @@
         "beats": [
           {
             "text": "Victor Lustig sinh năm một nghìn tám trăm chín mươi, ở một thị trấn nhỏ thuộc xứ Bohemia, nay là Cộng hòa Séc.",
-            "ai": "a small Central European town in the 1890s with red-roofed houses, a church tower and a river, hills in the background, sepia",
             "label": "Bohemia · nay là Cộng hòa Séc"
           },
           {
-            "text": "Cậu học ở Dresden, nước Đức, và theo một số tài liệu, nói được nhiều thứ tiếng. Cậu thông minh, ăn nói khéo léo, và rất giỏi đọc suy nghĩ của người khác.",
-            "ai": "a sharp young man in an early 1900s student suit sitting in a library with books in several languages, confident smile, side lighting"
+            "text": "Cậu học ở Dresden, nước Đức, và theo một số tài liệu, nói được nhiều thứ tiếng. Cậu thông minh, ăn nói khéo léo, và rất giỏi đọc suy nghĩ của người khác."
           },
           {
             "text": "Năm một nghìn chín trăm linh chín, Lustig đến Paris. Không lâu sau, anh ta tìm ra nghề thật sự của mình: lừa tiền người giàu.",
@@ -212,16 +210,14 @@
             "ai": "a grand 1910s ocean liner first-class lounge with wealthy passengers in evening dress, chandeliers, champagne"
           },
           {
-            "text": "Những chuyến đi kéo dài cả tuần. Hành khách giàu có, rảnh rỗi, dễ kết thân với một quý ông lịch lãm. Đó là miếng mồi lý tưởng.",
-            "ai": "wealthy 1910s passengers strolling on the promenade deck of an ocean liner, sea breeze, parasols and hats"
+            "text": "Những chuyến đi kéo dài cả tuần. Hành khách giàu có, rảnh rỗi, dễ kết thân với một quý ông lịch lãm. Đó là miếng mồi lý tưởng."
           },
           {
             "text": "Anh ta tự xưng là nhà sản xuất nhạc kịch, đi tìm người góp vốn cho một vở diễn ở Broadway. Vở diễn ấy không hề tồn tại.",
-            "ai": "a charming man in a tuxedo showing papers to an interested rich couple at a dinner table aboard a luxury ship, 1910s"
+            "ai": "a charming man in a tuxedo showing papers to an interested rich couple at a dinner table aboard a luxury ship, 1910s, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
-            "text": "Lustig dùng nhiều tên giả, nhưng cái tên anh thích nhất là Bá tước Lustig. Một danh hiệu quý tộc hoàn toàn tự phong.",
-            "ai": "a gentleman's visiting card with an ornate noble crest on a silver tray, monocle beside it, close-up, no readable text"
+            "text": "Lustig dùng nhiều tên giả, nhưng cái tên anh thích nhất là Bá tước Lustig. Một danh hiệu quý tộc hoàn toàn tự phong."
           },
           {
             "text": "Khi chiến tranh thế giới thứ nhất làm các chuyến tàu biển bị đình lại, Lustig chuyển sang Mỹ. Và ở đó, anh ta nghĩ ra một món đồ kỳ diệu.",
@@ -238,11 +234,10 @@
           },
           {
             "text": "Ông ta biểu diễn: cho một tờ tiền thật vào máy, chờ sáu tiếng, và máy nhả ra… hai tờ giống hệt nhau.",
-            "ai": "close-up of hands sliding a crisp 1920s banknote into a slot of an ornate wooden machine, dramatic lamp light"
+            "ai": "close-up of hands sliding a crisp 1920s banknote into a slot of an ornate wooden machine, dramatic lamp light, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
-            "text": "Người ta gọi nó là chiếc hộp Rumani. Tờ tiền nhả ra là tiền thật, nên ai kiểm tra cũng thấy đúng. Chính mắt họ nhìn thấy, sao còn nghi ngờ được?",
-            "ai": "a skeptical banker examining a crisp banknote with a magnifying glass under a desk lamp, 1920s office"
+            "text": "Người ta gọi nó là chiếc hộp Rumani. Tờ tiền nhả ra là tiền thật, nên ai kiểm tra cũng thấy đúng. Chính mắt họ nhìn thấy, sao còn nghi ngờ được?"
           },
           {
             "text": "Thật ra, tờ tiền thứ hai đã được giấu sẵn bên trong từ trước. Trong hộp chỉ có vài tờ như thế, đủ để người mua tin là thật.",
@@ -254,7 +249,7 @@
           },
           {
             "text": "Nhưng phi vụ nổi tiếng nhất của Lustig chưa phải là chiếc hộp. Nó bắt đầu từ một bài báo, ở Paris.",
-            "ai": "a man reading a 1920s French newspaper at a Parisian cafe terrace, coffee cup, morning light"
+            "ai": "a well-dressed man with slicked-back dark hair and a thin moustache reading a newspaper at a Parisian cafe terrace in 1925, coffee cup, the Eiffel Tower far in the background, newspaper text too small to read"
           }
         ]
       },
@@ -282,8 +277,7 @@
             "ai": "a group of 1880s Parisian artists and writers in a salon signing a letter of protest, top hats and frock coats, candlelight"
           },
           {
-            "text": "Theo giấy phép ban đầu, tòa tháp chỉ đứng đó hai mươi năm. Nó được giữ lại phần lớn nhờ một công dụng mới: làm cột ăng ten cho sóng vô tuyến.",
-            "ai": "the top of the Eiffel Tower with early radio antenna wires in the early 1900s, cloudy sky, technical and historic"
+            "text": "Theo giấy phép ban đầu, tòa tháp chỉ đứng đó hai mươi năm. Nó được giữ lại phần lớn nhờ một công dụng mới: làm cột ăng ten cho sóng vô tuyến."
           },
           {
             "text": "Đến năm một nghìn chín trăm hai mươi lăm, tòa tháp đã cũ. Sơn bong tróc, chi phí bảo dưỡng ngày càng đắt.",
@@ -314,28 +308,24 @@
             "ai": "an engraver forging official letterhead with a printing press in a dim back room, ink, stamps and seals, 1920s"
           },
           {
-            "text": "Rồi ông ta gửi thư mời một nhóm nhỏ những nhà buôn sắt vụn lớn nhất Paris đến họp kín tại một khách sạn sang trọng.",
-            "ai": "a sealed official envelope with a red wax seal being delivered on a silver tray to a businessman at his desk, 1920s Paris"
+            "text": "Rồi ông ta gửi thư mời một nhóm nhỏ những nhà buôn sắt vụn lớn nhất Paris đến họp kín tại một khách sạn sang trọng."
           },
           {
             "text": "Tại buổi họp, Lustig nói: chính phủ không còn đủ tiền bảo dưỡng tòa tháp, nên quyết định bán nó làm sắt vụn. Hơn bảy nghìn tấn sắt.",
-            "ai": "a 1920s official in a dark suit presenting plans to businessmen around a polished table in an elegant hotel room, documents spread out"
+            "ai": "a 1920s official in a dark suit presenting plans to businessmen around a polished table in an elegant hotel room, documents spread out, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
-            "text": "Nước Pháp khi ấy vừa ra khỏi chiến tranh thế giới thứ nhất, nợ nần chồng chất, cần tiền tái thiết. Chuyện chính phủ muốn bán bớt tài sản nghe hoàn toàn hợp lý.",
-            "ai": "a 1920s French government ministry office with stacks of files, worried officials, a map of France on the wall, sepia"
+            "text": "Nước Pháp khi ấy vừa ra khỏi chiến tranh thế giới thứ nhất, nợ nần chồng chất, cần tiền tái thiết. Chuyện chính phủ muốn bán bớt tài sản nghe hoàn toàn hợp lý."
           },
           {
-            "text": "Và vì người dân Paris chắc chắn sẽ phản đối, việc này phải giữ tuyệt đối bí mật cho đến khi mọi thứ xong xuôi.",
-            "ai": "a man holding a finger to his lips in a dim luxurious room, secretive mood, 1920s fashion, close-up"
+            "text": "Và vì người dân Paris chắc chắn sẽ phản đối, việc này phải giữ tuyệt đối bí mật cho đến khi mọi thứ xong xuôi."
           },
           {
             "text": "Theo nhiều bản kể, Lustig còn đưa các nhà buôn đi xem tận nơi bằng xe hơi thuê, như một quan chức thật đang khảo sát công trình.",
             "ai": "a black 1920s limousine parked at the foot of the Eiffel Tower, men in suits and hats looking up at the iron structure"
           },
           {
-            "text": "Ông ta không chọn người trả giá cao nhất. Ông ta chọn người dễ bị lừa nhất.",
-            "ai": "a sharp-eyed man in a 1920s suit observing a group of businessmen from across a room, calculating expression in shadow"
+            "text": "Ông ta không chọn người trả giá cao nhất. Ông ta chọn người dễ bị lừa nhất."
           }
         ]
       },
@@ -347,8 +337,7 @@
             "ai": "an anxious middle-aged businessman in a slightly ill-fitting 1920s suit standing apart from confident elite businessmen at a reception"
           },
           {
-            "text": "Mua lại tháp Eiffel, ông nghĩ, sẽ khiến cả Paris phải biết đến tên mình.",
-            "ai": "a man daydreaming at his office window looking toward the Eiffel Tower on the Paris skyline, 1920s, ambitious mood"
+            "text": "Mua lại tháp Eiffel, ông nghĩ, sẽ khiến cả Paris phải biết đến tên mình."
           },
           {
             "text": "Theo các bản kể, chính vợ Poisson thấy có gì đó không ổn. Mọi chuyện quá bí mật, quá vội vàng. Poisson bắt đầu nghi ngờ.",
@@ -356,23 +345,21 @@
           },
           {
             "text": "Lúc ấy, Lustig làm một điều rất khôn: ông ta thú nhận rằng lương quan chức thấp, và gợi ý Poisson đưa thêm tiền hối lộ.",
-            "ai": "two men in a quiet corner of a hotel bar, one discreetly sliding an envelope across the table, 1920s, smoky"
+            "ai": "two men in a quiet corner of a hotel bar, one discreetly sliding an envelope across the table, 1920s, smoky, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
             "text": "Lời đòi hối lộ lại làm Poisson yên tâm. Ông nghĩ: chỉ quan chức thật mới đòi tiền như thế. Ông trả cả tiền mua tháp lẫn tiền hối lộ.",
             "ai": "a stack of 1920s French franc banknotes being counted on a desk next to an official-looking contract, sepia"
           },
           {
-            "text": "Theo một số nguồn, tổng số tiền vào khoảng bảy mươi nghìn franc, một gia tài vào thời đó.",
-            "ai": "a leather briefcase opened on a hotel bed revealing bundles of 1920s French banknotes, dim light, sepia"
+            "text": "Theo một số nguồn, tổng số tiền vào khoảng bảy mươi nghìn franc, một gia tài vào thời đó."
           },
           {
-            "text": "Poisson cầm trong tay những tờ giấy có dấu đỏ của chính phủ, tin rằng mình sắp trở thành người nổi tiếng nhất giới buôn sắt Paris.",
-            "ai": "a proud businessman holding an official document with a red seal in his office, the Eiffel Tower visible through the window, 1920s, hopeful"
+            "text": "Poisson cầm trong tay những tờ giấy có dấu đỏ của chính phủ, tin rằng mình sắp trở thành người nổi tiếng nhất giới buôn sắt Paris."
           },
           {
             "text": "Lustig nhận tiền, rồi nhanh chóng rời Pháp sang nước Áo.",
-            "ai": "a steam train departing from a grand Paris railway station in the 1920s, a man with a leather suitcase at the window, steam"
+            "ai": "a steam train departing from a grand Paris railway station in the 1920s, a man with a leather suitcase at the window, steam, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           }
         ]
       },
@@ -381,15 +368,14 @@
         "beats": [
           {
             "text": "Lustig ngày nào cũng mở báo, chờ đọc tin mình bị truy nã. Nhưng không có một dòng nào.",
-            "ai": "a man in a hotel room in Vienna reading several newspapers spread on a bed, morning light, 1920s"
+            "ai": "a man in a hotel room in Vienna reading several newspapers spread on a bed, morning light, 1920s, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
             "text": "Poisson đã quá xấu hổ để báo cảnh sát. Ông không muốn cả Paris biết mình từng ngây thơ mua tháp Eiffel.",
             "ai": "a humiliated businessman sitting alone at his desk with his head in his hands, torn papers on the floor, dim office, 1920s"
           },
           {
-            "text": "Đó chính là điều Lustig tính trước: nạn nhân càng muốn giữ thể diện, càng không dám lên tiếng. Sự im lặng ấy là tấm khiên tốt nhất của kẻ lừa đảo.",
-            "ai": "a closed office door with a frosted glass window and a man's silhouette behind it, dim corridor, silence, 1920s"
+            "text": "Đó chính là điều Lustig tính trước: nạn nhân càng muốn giữ thể diện, càng không dám lên tiếng. Sự im lặng ấy là tấm khiên tốt nhất của kẻ lừa đảo."
           },
           {
             "text": "Và thế là Lustig quay lại Paris, làm lại y hệt với một nhóm nhà buôn khác.",
@@ -403,8 +389,7 @@
             "ai": "French police officers in 1920s uniforms hurrying into a hotel lobby, a man slipping out a side door, tense"
           },
           {
-            "text": "Vì vậy, nói chính xác thì Lustig đã bán tháp Eiffel một lần, và suýt bán được lần thứ hai.",
-            "ai": "the Eiffel Tower at dusk seen from the Seine with old boats, Paris 1920s, golden light"
+            "text": "Vì vậy, nói chính xác thì Lustig đã bán tháp Eiffel một lần, và suýt bán được lần thứ hai."
           }
         ]
       },
@@ -421,11 +406,10 @@
           },
           {
             "text": "Lustig xin Capone năm mươi nghìn đô la để đầu tư, hứa sẽ nhân đôi số tiền trong hai tháng.",
-            "ai": "a 1930s Chicago office with a powerful man behind a big desk and a well-dressed visitor, cigar smoke, tense negotiation, faces in shadow"
+            "ai": "a 1930s Chicago office with a powerful man behind a big desk and a well-dressed visitor, cigar smoke, tense negotiation, faces in shadow, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           },
           {
-            "text": "Capone khi đó là ông trùm quyền lực nhất Chicago. Lừa ông ta chẳng khác gì đùa với lửa.",
-            "ai": "a dark 1930s Chicago street at night with a black car and men in fedoras guarding a club entrance, ominous"
+            "text": "Capone khi đó là ông trùm quyền lực nhất Chicago. Lừa ông ta chẳng khác gì đùa với lửa."
           },
           {
             "text": "Ông cất số tiền vào két, không làm gì cả. Hai tháng sau, ông mang trả lại đúng số tiền ấy, xin lỗi vì phi vụ thất bại.",
@@ -433,7 +417,7 @@
           },
           {
             "text": "Capone ngạc nhiên vì gặp một người trung thực, liền tặng ông vài nghìn đô la. Đó mới là món tiền Lustig nhắm tới từ đầu.",
-            "ai": "a satisfied con man in a fedora walking out of a 1930s Chicago building onto a rainy street, neon lights"
+            "ai": "a satisfied con man in a fedora walking out of a 1930s Chicago building onto a rainy street, neon lights, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit"
           }
         ]
       },
@@ -445,8 +429,7 @@
             "ai": "a counterfeit printing press in a hidden 1930s basement with sheets of fake dollar bills hanging to dry, dim bulb"
           },
           {
-            "text": "Những tờ tiền giả ấy lưu hành suốt khoảng năm năm. Cơ quan mật vụ Mỹ phải truy lùng ráo riết mới lần ra đầu mối.",
-            "ai": "1930s American federal agents examining banknotes under bright lamps in an office with maps and pinned photos, investigation"
+            "text": "Những tờ tiền giả ấy lưu hành suốt khoảng năm năm. Cơ quan mật vụ Mỹ phải truy lùng ráo riết mới lần ra đầu mối."
           },
           {
             "text": "Ngày mười tháng năm năm một nghìn chín trăm ba mươi lăm, ông bị bắt ở New York. Một chiếc chìa khóa dẫn cảnh sát đến tủ khóa ở ga tàu điện ngầm Quảng trường Thời đại, chứa hơn năm mươi nghìn đô la tiền giả.",
@@ -466,8 +449,7 @@
             "label": "Lệnh truy nã Victor Lustig · 1935"
           },
           {
-            "text": "Tháng mười hai năm ấy, đứng trước tòa, kẻ lừa đảo lừng danh cuối cùng đã nhận tội.",
-            "ai": "a 1930s American federal courtroom with a judge's bench, a defendant in a suit standing before it, wooden panels, solemn"
+            "text": "Tháng mười hai năm ấy, đứng trước tòa, kẻ lừa đảo lừng danh cuối cùng đã nhận tội."
           },
           {
             "text": "Lần này không còn đường thoát. Victor Lustig bị kết án hai mươi năm tù, và bị đưa ra nhà tù Alcatraz, giữa vịnh San Francisco.",
@@ -478,8 +460,7 @@
             "label": "Nhà tù Alcatraz"
           },
           {
-            "text": "Những năm cuối đời, Lustig bệnh nặng và được chuyển sang một bệnh viện dành cho tù nhân liên bang ở bang Missouri.",
-            "ai": "a long empty 1940s prison hospital corridor with iron beds and tall windows, cold light, somber"
+            "text": "Những năm cuối đời, Lustig bệnh nặng và được chuyển sang một bệnh viện dành cho tù nhân liên bang ở bang Missouri."
           },
           {
             "text": "Năm một nghìn chín trăm bốn mươi bảy, ông qua đời trong bệnh viện nhà tù. Giấy chứng tử ghi nghề nghiệp của ông là: người bán hàng học việc, và kẻ làm tiền giả.",
@@ -494,20 +475,17 @@
         "title": "Lời kết",
         "beats": [
           {
-            "text": "Người ta gán cho Lustig mười điều răn của kẻ lừa đảo. Đứng đầu là: hãy kiên nhẫn lắng nghe. Hãy đồng tình với quan điểm của đối phương. Đừng bao giờ tỏ ra chán nản.",
-            "ai": "an old handwritten list on yellowed paper next to a fountain pen and a fedora hat on a desk, unreadable text, sepia"
+            "text": "Người ta gán cho Lustig mười điều răn của kẻ lừa đảo. Đứng đầu là: hãy kiên nhẫn lắng nghe. Hãy đồng tình với quan điểm của đối phương. Đừng bao giờ tỏ ra chán nản."
           },
           {
             "text": "Điều đáng sợ là những mánh ấy vẫn còn nguyên giá trị đến hôm nay. Kẻ lừa đảo không cần bạn ngu ngốc. Họ chỉ cần bạn tham lam, vội vàng, hoặc xấu hổ.",
             "ai": "a modern-looking silhouette of a person holding a phone in a dark room, a glowing tempting offer on screen, unreadable, cautionary mood"
           },
           {
-            "text": "Ngày nay, các vụ lừa đảo qua điện thoại hay mạng xã hội vẫn dùng đúng công thức ấy: giả danh cơ quan nhà nước hoặc ngân hàng, dặn phải giữ bí mật, và thúc giục chuyển tiền ngay.",
-            "ai": "an old rotary telephone and a modern smartphone side by side on a desk with a warning sign glow, symbolic, moody"
+            "text": "Ngày nay, các vụ lừa đảo qua điện thoại hay mạng xã hội vẫn dùng đúng công thức ấy: giả danh cơ quan nhà nước hoặc ngân hàng, dặn phải giữ bí mật, và thúc giục chuyển tiền ngay."
           },
           {
-            "text": "Lời hứa quá hời, lời dặn phải giữ bí mật, và sức ép phải quyết định thật nhanh: khi cả ba cùng xuất hiện, hãy dừng lại và kiểm tra thật kỹ.",
-            "ai": "a red warning light glowing over a desk with a contract and a pen, dramatic, symbolic, 1920s style"
+            "text": "Lời hứa quá hời, lời dặn phải giữ bí mật, và sức ép phải quyết định thật nhanh: khi cả ba cùng xuất hiện, hãy dừng lại và kiểm tra thật kỹ."
           },
           {
             "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",

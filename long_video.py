@@ -219,7 +219,8 @@ def build(script, cfg, out_dir):
         narr.extend(audio[a:b])
         for (s0, s1), beat in zip(segs, ch["beats"]):
             shots.append({"start": t + (s0 - a) / SR, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
-                          "fit": bool(beat.get("fit")), "label": beat.get("label", "")})
+                          "fit": bool(beat.get("fit")), "label": beat.get("label", ""),
+                          "text": beat.get("text", ""), "speech_end": t + (s1 - a) / SR})
         t += (b - a) / SR
         add_silence(GAP)
         if ci == 0 and len(chapters) > 1:
@@ -290,9 +291,48 @@ def build(script, cfg, out_dir):
     if mcredit:
         lines.append(f"🎵 Nhạc: {mcredit}")
     lines += ["", "──── GHI CHÚ (không đăng) ────", "Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]
+    try:
+        en_note = subtitles_and_english(script, L, shots, marks, credits, mcredit, used_ai, out_dir)
+    except Exception as e:   # phụ đề / bản dịch lỗi không được làm hỏng video
+        log(f"     ⚠️  phụ đề / bản tiếng Anh lỗi: {e}")
+        en_note = []
+    lines += en_note
     (out_dir / f"{script['id']}_dai_youtube.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     log(f"✅ Video dài: {final.name} ({_fmt(total)})")
     return final, total
+
+
+def subtitles_and_english(script, L, shots, marks, credits, mcredit, used_ai, out_dir):
+    """Phụ đề tiếng Việt + tiếng Anh (.srt) và tiêu đề/mô tả tiếng Anh. Trả về vài dòng hướng dẫn để ghép vào file mô tả."""
+    import subtitles
+    sid = script["id"]
+    spoken = [s for s in shots if s.get("text")]
+    segs = [(s["start"], s.get("speech_end", s["start"] + s["dur"]), s["text"]) for s in spoken]
+    subtitles.write_srt(out_dir / f"{sid}_dai_vi.srt", subtitles.cues(segs))
+    note = ["", "──── PHỤ ĐỀ ────",
+            f"YouTube Studio → video → Phụ đề → Thêm ngôn ngữ → Tiếng Việt → Tải tệp lên → {sid}_dai_vi.srt"]
+    payload = {"title": L["title"], "description": L.get("description", script.get("caption", "")),
+               "chapters": [name for _, name in marks], "lines": [s["text"] for s in spoken]}
+    en = subtitles.translate(payload, log)
+    if not en:
+        return note
+    segs_en = [(a, b, t) for (a, b, _), t in zip(segs, en["lines"])]
+    subtitles.write_srt(out_dir / f"{sid}_dai_en.srt", subtitles.cues(segs_en))
+    tags = " ".join("#" + h.lstrip("#").replace(" ", "") for h in en.get("hashtags", []))
+    out = [f"TITLE: {en['title'][:95]}", "", "DESCRIPTION:", en["description"], "",
+           "🇻🇳 Narrated in Vietnamese. Turn on English subtitles (CC).", "", "📌 Chapters:"]
+    out += [f"{_fmt(t)} {name}" for (t, _), name in zip(marks, en["chapters"])]
+    out += ["", tags, "",
+            "📌 This video uses an AI voice" + (" and AI-generated illustrations (FLUX)." if used_ai else ".")]
+    short = mv._short_credits(credits)
+    if short:
+        out.append("📷 Archival images: " + "; ".join(short) + " · via Wikimedia Commons")
+    if mcredit:
+        out.append(f"🎵 Music: {mcredit}")
+    (out_dir / f"{sid}_dai_youtube_en.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
+    note += [f"Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file {sid}_dai_youtube_en.txt, "
+             f"rồi tải phụ đề {sid}_dai_en.srt."]
+    return note
 
 
 def main():

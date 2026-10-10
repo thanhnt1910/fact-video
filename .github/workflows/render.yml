@@ -123,6 +123,7 @@ jobs:
             dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
             ffmpeg -nostdin -loglevel error -y -i "$f" -vf "fps=8/${dur%.*},scale=320:-1,tile=8x1" -frames:v 1 "logs/preview_${id}_dai.jpg" || true
             cp "output/$id/${id}_dai_youtube.txt" "logs/youtube_${id}.txt" 2>/dev/null || true
+            cp "output/$id/${id}_dai_youtube_en.txt" "logs/youtube_en_${id}.txt" 2>/dev/null || true
           done < ci_long.txt
 
       - name: Đưa video dài lên mục Releases (tải bản 1080p đầy đủ)
@@ -136,7 +137,8 @@ jobs:
             f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
             tag="video-${id}"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video dài $id" --notes "Bản 1080p để đăng YouTube/Facebook" < /dev/null
-            gh release upload "$tag" "$f" "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_youtube.txt" --clobber < /dev/null
+            extra=$(ls output/$id/${id}_dai_youtube_en.txt output/$id/${id}_dai_*.srt 2>/dev/null || true)
+            gh release upload "$tag" "$f" "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_youtube.txt" $extra --clobber < /dev/null
           done < ci_long.txt
 
       - name: Gửi video về Telegram
@@ -196,6 +198,14 @@ jobs:
               curl -s -o /dev/null -F chat_id="$TG_CHAT" -F document=@"output/$id/${id}_dai_thumbnail.jpg" \
                 -F caption="Ảnh bìa YouTube $id" "$api/sendDocument"
               curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="$(head -c 4000 output/$id/${id}_dai_youtube.txt)" "$api/sendMessage"
+              if [ -f "output/$id/${id}_dai_youtube_en.txt" ]; then
+                curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="🌐 BẢN TIẾNG ANH $id (dán vào mục Phụ đề → Tiếng Anh):
+          $(head -c 3800 output/$id/${id}_dai_youtube_en.txt)" "$api/sendMessage"
+              fi
+              for srt in output/$id/${id}_dai_vi.srt output/$id/${id}_dai_en.srt; do
+                [ -f "$srt" ] && curl -s -o /dev/null -F chat_id="$TG_CHAT" -F document=@"$srt" \
+                  -F caption="Phụ đề $(basename $srt)" "$api/sendDocument"
+              done
             done < ci_long.txt
           fi
           if [ -s ci_long_failed.txt ]; then

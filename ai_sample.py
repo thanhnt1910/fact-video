@@ -56,6 +56,8 @@ def main():
                 im = Image.open(f).convert("RGB")
             except Exception as e:
                 print("lỗi", sk, i, e)
+                with open(ROOT / "logs" / "ai_sample.log", "a", encoding="utf-8") as fh:
+                    fh.write(f"{sk}{i}: {type(e).__name__}: {str(e)[:500]}\n")
                 im = Image.new("RGB", (512, 512), (60, 0, 0))
             im.thumbnail((640, 640))
             canvas = Image.new("RGB", (640, 400), (15, 15, 15))

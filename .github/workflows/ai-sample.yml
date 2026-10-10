@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add logs/ai_sample*.jpg
+          git add logs/ai_sample*
           git commit -q -m "Ảnh vẽ thử" || exit 0
           for i in 1 2 3; do
             git pull --rebase -X theirs -q && git push -q && exit 0

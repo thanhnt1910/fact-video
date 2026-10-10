@@ -5,7 +5,7 @@
   3 [=] Vấn đề là… cuộc chiến mà ông đang chiến đấu đã kết thúc từ gần hai mươi chín năm trước.
       → (dùng ảnh đoạn trước)
   4 [AI] Người ta đã báo tin cho ông. Bằng truyền đơn, bằng loa phóng thanh, bằng cả thư tay và ảnh của chính gia đình ông. Nhưng ông không tin.
-      → paper leaflets falling from the sky over a tropical jungle canopy, a small propeller airplane far away
+      → hundreds of white paper leaflets fluttering down from the sky onto a dense tropical jungle canopy, a small propeller airplane far away in the sky, no people
   5 [TL] Người đàn ông ấy tên là Hiroo Onoda. Và đây là câu chuyện về hai mươi chín năm ông sống trong rừng, chiến đấu cho một cuộc chiến chỉ còn tồn
       → "President Marcos and Hiroo Onoda.jpg" – Malacañang Palace, Public domain (https://commons.wikimedia.org/wiki/File:President_Marcos_and_Hiro
   6 [AI] Hiroo Onoda sinh ngày mười chín tháng ba năm một nghìn chín trăm hai mươi hai, ở tỉnh Wakayama, Nhật Bản.
@@ -41,7 +41,7 @@
  21 [AI] Súng được lau dầu mỗi ngày, quân phục được vá đi vá lại. Onoda tự coi mình là một sĩ quan đang làm nhiệm vụ, không phải là một kẻ trốn chạy.
       → hands mending a torn military jacket with needle and thread by firelight, a rifle leaning nearby, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap
  22 [AI] Tháng mười năm một nghìn chín trăm bốn mươi lăm, nhóm của Onoda thấy một tờ giấy do người dân trên đảo để lại. Trên đó viết: chiến tranh đã 
-      → a weathered paper note pinned to a tree trunk in the jungle, handwritten text not readable, morning light
+      → a weathered sheet of paper pinned with a thorn to a big tree trunk in a dark jungle, the paper has only faint illegible scribbles, morning light rays, no people
  23 [=] Bốn người ngồi đọc đi đọc lại. Rồi họ kết luận: đây là trò tuyên truyền của địch, để dụ họ ra khỏi rừng.
       → (dùng ảnh đoạn trước)
  24 [TL] Cuối năm đó, máy bay thả xuống truyền đơn in lệnh đầu hàng của tướng Yamashita, chỉ huy quân Nhật ở Philippines.
@@ -57,9 +57,9 @@
  29 [=] Một học giả nghiên cứu về Nhật Bản, bà Beatrice Trefalt, sau này đặt câu hỏi: liệu Onoda có thật sự không biết, hay ông không muốn biết?
       → (dùng ảnh đoạn trước)
  30 [AI] Năm một nghìn chín trăm năm mươi chín, chính phủ Nhật Bản tuyên bố Onoda đã chết. Nhưng trong rừng sâu Lubang, ông vẫn sống, và vẫn chiến đấ
-      → a misty jungle valley at dawn with a single thin column of smoke rising from the trees
+      → a misty green jungle valley at dawn seen from a hilltop, a single thin column of smoke rising from the trees far away, no people, lonely
  31 [AI] Câu chuyện của Onoda thường được kể như một huyền thoại về lòng trung thành. Nhưng với người dân Lubang, đó là những năm tháng sống trong sợ
-      → a small Filipino farming village with nipa huts at the edge of a jungle, villagers looking anxiously toward the hills
+      → adult Filipino farmers and their wives standing in front of nipa huts at the edge of a jungle at dusk, looking worriedly toward the dark hills, tense mood
  32 [=] Nhóm của ông đốt lúa, lấy trộm gia súc, và nhiều lần nổ súng với nông dân, cảnh sát và quân đội trên đảo.
       → (dùng ảnh đoạn trước)
  33 [AI] Họ bị cáo buộc đã giết khoảng ba mươi người trên đảo. Trong cuốn hồi ký của mình, Onoda không nhắc đến những cái chết ấy.
@@ -85,7 +85,7 @@
  43 [AI] Suzuki đến Lubang, dựng lều một mình trong rừng và chờ đợi. Chỉ sau bốn ngày, ngày hai mươi tháng hai năm một nghìn chín trăm bảy mươi tư, O
       → a small modern camping tent alone in a jungle clearing with a campfire at night, mysterious figure watching from the trees
  44 [AI] Onoda chĩa súng vào chàng trai trẻ. Nhưng Suzuki đã nói đúng những lời cần nói, và hai người ngồi lại trò chuyện.
-      → two figures sitting across a campfire in the jungle at night, one in an old military uniform, one in a 1970s jacket, faces in shadow, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old
+      → an old Japanese soldier and a young Japanese backpacker with long 1970s hair and a denim jacket sitting across a campfire in the jungle at night, talking cautiously, faces lit by the fire, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old
  45 [=] Suzuki hỏi: vì sao ông không ra khỏi rừng? Onoda trả lời: ông chỉ hạ súng khi có lệnh từ chính cấp trên của mình.
       → (dùng ảnh đoạn trước)
  46 [AI] Suzuki chụp ảnh hai người làm bằng chứng rồi trở về Nhật Bản. Bức ảnh ấy làm cả nước sửng sốt: thiếu úy Onoda vẫn còn sống.
@@ -93,7 +93,7 @@
  47 [AI] Chính phủ Nhật đi tìm thiếu tá Yoshimi Taniguchi, người đã giao nhiệm vụ cho Onoda ba mươi năm trước. Lúc này, ông đã là một người bán sách.
       → an elderly Japanese man in a small old bookshop surrounded by stacks of books, 1970s, warm light
  48 [AI] Taniguchi bay sang Lubang. Ngày chín tháng ba năm một nghìn chín trăm bảy mươi tư, trong rừng, ông đứng trước Onoda và đọc mệnh lệnh.
-      → an elderly man in a civilian suit reading from a paper in a jungle clearing, a soldier in a ragged uniform standing at attention before him, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old
+      → an elderly Japanese man in a grey civilian suit and glasses standing in a jungle clearing reading aloud from a sheet of paper, a thin old soldier in a ragged uniform standing stiffly at attention in front of him, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old
  49 [=] Bộ chỉ huy Phương diện quân mười bốn đã ngừng mọi hoạt động chiến đấu. Đơn vị đặc biệt được miễn mọi nhiệm vụ quân sự.
       → (dùng ảnh đoạn trước)
  50 [AI] Onoda kể lại rằng ông đứng chết lặng. Mọi thứ bỗng tối sầm. Hai mươi chín năm qua, rốt cuộc là để làm gì?
@@ -107,7 +107,7 @@
  54 [AI] Quyết định ân xá ấy giúp Onoda được trở về nhà. Nhưng với nhiều gia đình ở Lubang, vết thương vẫn chưa bao giờ lành.
       → a quiet Lubang shoreline at sunset with fishing boats, bittersweet, peaceful
  55 [AI] Onoda về Nhật Bản và được chào đón như một người hùng. Báo chí vây quanh, cuốn hồi ký của ông được xuất bản ngay trong năm đó. Nhưng chính ô
-      → a crowded 1970s airport arrival hall with photographers and flashing cameras, seen from behind the crowd
+      → a crowded 1970s airport arrival hall, photographers with flashing cameras surrounding a thin old man in a plain suit, no signs, no writing
  56 [=] Nhưng nước Nhật năm bảy mươi tư không còn là nước Nhật ông từng biết. Tàu siêu tốc, nhà cao tầng, tivi màu… Ông thấy mình lạc lõng.
       → (dùng ảnh đoạn trước)
  57 [AI] Năm một nghìn chín trăm bảy mươi lăm, ông sang Brazil, trở thành chủ trang trại nuôi bò. Một năm sau, ông lập gia đình.

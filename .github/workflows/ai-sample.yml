@@ -2,6 +2,11 @@ name: Vẽ thử phong cách ảnh
 
 on:
   workflow_dispatch:
+    inputs:
+      source:
+        description: "cf = Cloudflare, hf = Hugging Face (miễn phí)"
+        required: false
+        default: "cf"
 
 permissions:
   contents: write
@@ -15,17 +20,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install -q pillow
+      - run: python -m pip install -q pillow gradio_client
       - name: Vẽ thử
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          SAMPLE_SOURCE: ${{ inputs.source }}
         run: python ai_sample.py
       - name: Lưu
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add logs/ai_sample.jpg
+          git add logs/ai_sample*.jpg
           git commit -q -m "Ảnh vẽ thử" || exit 0
           for i in 1 2 3; do
             git pull --rebase -X theirs -q && git push -q && exit 0

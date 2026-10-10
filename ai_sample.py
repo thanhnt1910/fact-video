@@ -1,4 +1,5 @@
 """Vẽ thử vài ảnh theo các phong cách để duyệt trước (logs/ai_sample.jpg)."""
+import os
 import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -26,6 +27,20 @@ STYLES = {
 WIDE = "wide cinematic composition, main subject centered with space above and below"
 
 
+def hf_generate(prompt, out, wide=True):
+    """Vẽ miễn phí qua Hugging Face Space chính thức của FLUX.1 schnell (có giới hạn lượt GPU miễn phí mỗi ngày)."""
+    import shutil
+    from gradio_client import Client
+    w, h = (1344, 768) if wide else (1024, 1024)
+    c = Client("black-forest-labs/FLUX.1-schnell", hf_token=os.environ.get("HF_TOKEN") or None)
+    res = c.predict(prompt=prompt, seed=0, randomize_seed=True, width=w, height=h, num_inference_steps=4, api_name="/infer")
+    path = res[0] if isinstance(res, (list, tuple)) else res
+    if isinstance(path, dict):
+        path = path.get("path") or path.get("url")
+    shutil.copy(path, out)
+    return out
+
+
 def main():
     out = ROOT / "logs" / "_sample"
     out.mkdir(parents=True, exist_ok=True)
@@ -34,7 +49,10 @@ def main():
         for i, p in enumerate(PROMPTS):
             f = out / f"{sk}{i}.jpg"
             try:
-                ai_images.generate(p + ", " + WIDE, f, style=st, wide=True)
+                if os.environ.get("SAMPLE_SOURCE") == "hf":
+                    hf_generate(f"{p}, {WIDE}, {st}", f)
+                else:
+                    ai_images.generate(p + ", " + WIDE, f, style=st, wide=True)
                 im = Image.open(f).convert("RGB")
             except Exception as e:
                 print("lỗi", sk, i, e)
@@ -51,7 +69,8 @@ def main():
     sheet = Image.new("RGB", (cols * 648, rows * 408), (0, 0, 0))
     for k, t in enumerate(tiles):
         sheet.paste(t, ((k % cols) * 648, (k // cols) * 408))
-    sheet.save(ROOT / "logs" / "ai_sample.jpg", quality=88)
+    name = "ai_sample_hf.jpg" if os.environ.get("SAMPLE_SOURCE") == "hf" else "ai_sample.jpg"
+    sheet.save(ROOT / "logs" / name, quality=88)
     print("xong")
 
 

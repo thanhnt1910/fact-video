@@ -14,7 +14,14 @@ PROMPTS = [
     "a 1930s truck with a machine gun mounted on the back bouncing over rough outback ground chasing fast emus far ahead, dust cloud",
 ]
 STYLES = {
+    # A: tranh 2D hoạt hình sinh động
     "A": ai_images.STYLE,
+    # B: tranh minh họa vẽ tay kiểu sơn dầu cổ (giống phong cách cũ, vẽ bằng FLUX.2)
+    "B": ("detailed historical oil painting illustration, painterly brush strokes, warm sepia and amber tones, "
+          "soft lantern light, storybook, accurate period details, no text, no watermark"),
+    # C: tranh kỹ thuật số điện ảnh, bán chân thực (rõ là tranh vẽ, không giả ảnh chụp)
+    "C": ("cinematic digital matte painting, semi-realistic concept art, dramatic natural lighting, rich detail, "
+          "historically accurate clothing and setting, painted look, no text, no watermark, not a photograph"),
 }
 WIDE = "wide cinematic composition, main subject centered with space above and below"
 

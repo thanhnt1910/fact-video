@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / "assets" / "tts_cache"
 API = "https://generativelanguage.googleapis.com/v1beta"
-TEXT_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash"]
+TEXT_MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-flash-lite-latest"]
 MAX_LINE = 42
 
 

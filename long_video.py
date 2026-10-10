@@ -152,7 +152,7 @@ def beat_images(script, beats, work):
                 quota_hit += 1          # đã hết lượt: không gọi thêm cho đỡ tốn thời gian
                 continue
             try:
-                f = ai_images.generate(b["ai"] + ", " + WIDE_HINT, AI_CACHE / f"{key}.jpg", log=log)
+                f = ai_images.generate(b["ai"] + ", " + WIDE_HINT, AI_CACHE / f"{key}.jpg", log=log, wide=True)
                 b["image_src"] = f.resolve().as_uri()
                 b.setdefault("fit", False)   # tranh AI vuông: phủ kín khung 16:9
                 used_ai = True

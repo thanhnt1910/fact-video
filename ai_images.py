@@ -24,16 +24,14 @@ RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly 
             "hands open, legs slightly apart, both feet visible")
 
 
-def generate(prompt, out, cutout=False, seed=None, steps=8, log=print):
-    """Vẽ 1 ảnh. Trả về đường dẫn. Có sẵn file thì dùng lại (không tốn lượt)."""
-    out = Path(out)
-    if out.exists() and out.stat().st_size > 10000:
-        return out
+_CF_OUT = {"v": False}   # Cloudflare đã hết lượt trong lần chạy này -> chuyển thẳng sang nguồn dự phòng
+
+
+def _cloudflare(full, out, steps):
     acc = os.environ.get("CF_ACCOUNT_ID", "").strip()
     tok = os.environ.get("CF_API_TOKEN", "").strip()
     if not acc or not tok:
         raise RuntimeError("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")
-    full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {STYLE}".replace(", ,", ",")
     body = {"prompt": full[:2000], "steps": steps}
     # FLUX schnell trên Cloudflare không nhận tham số seed
     url = f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/{MODEL}"
@@ -48,15 +46,63 @@ def generate(prompt, out, cutout=False, seed=None, steps=8, log=print):
                 raise RuntimeError(json.dumps(res)[:300])
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_bytes(base64.b64decode(img))
-            log(f"     🎨 {out.name}")
             return out
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "replace")[:300]
+            if "neurons" in msg or "4006" in msg:
+                _CF_OUT["v"] = True
+                raise RuntimeError(f"Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {msg[:120]}")
             if e.code in (429, 500, 502, 503) and attempt < 3:
                 time.sleep(10 * (attempt + 1))
                 continue
             raise RuntimeError(f"Cloudflare AI HTTP {e.code}: {msg}")
     raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi (429/limit)")
+
+
+def _pollinations(full, out, wide):
+    """Nguồn dự phòng miễn phí (cũng là FLUX), không cần khóa; chậm và có giới hạn tốc độ."""
+    from urllib.parse import quote
+    import random
+    w, h = (1344, 768) if wide else (1024, 1024)
+    url = (f"https://image.pollinations.ai/prompt/{quote(full[:900])}"
+           f"?width={w}&height={h}&model=flux&nologo=true&private=true&seed={random.randint(1, 10**6)}")
+    last = ""
+    for attempt in range(5):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "nguoi-gac-su-video/1.0"})
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data, ctype = r.read(), r.headers.get("Content-Type", "")
+            if not ctype.startswith("image") or len(data) < 10000:
+                raise RuntimeError(f"không phải ảnh ({ctype}, {len(data)} byte)")
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_bytes(data)
+            time.sleep(3)
+            return out
+        except Exception as e:
+            last = str(e)[:200]
+            time.sleep(15 * (attempt + 1))
+    raise RuntimeError(f"Pollinations lỗi (limit): {last}")
+
+
+def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False):
+    """Vẽ 1 ảnh: Cloudflare trước, hết lượt thì sang Pollinations. Có sẵn file thì dùng lại (không tốn lượt).
+    steps=4 là mức chuẩn của FLUX schnell (8 bước tốn gấp đôi lượt mà không đẹp hơn rõ rệt)."""
+    out = Path(out)
+    if out.exists() and out.stat().st_size > 10000:
+        return out
+    full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {STYLE}".replace(", ,", ",")
+    if not _CF_OUT["v"]:
+        try:
+            _cloudflare(full, out, steps)
+            log(f"     🎨 {out.name}")
+            return out
+        except RuntimeError as e:
+            if not _CF_OUT["v"]:
+                raise
+            log("     ↪️  Cloudflare hết lượt hôm nay, chuyển sang nguồn vẽ dự phòng (Pollinations)")
+    _pollinations(full, out, wide)
+    log(f"     🎨 {out.name} (dự phòng)")
+    return out
 
 
 _SESSION = None

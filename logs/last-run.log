@@ -1,26 +1,18 @@
 
-===== SL2 (video ngắn + bài ảnh) =====
-▶️  SL2: Quân đội Úc mang súng máy đi đánh một bầy chim… và thua
-  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-  🎙️  Dùng lại giọng Gemini đã có
-  🎵 Nhạc nền: Pippin the Hunchback
-  🎬 Dựng 1907 khung hình (63.5 giây, 30 fps)
-     … 150/1907 khung, còn khoảng 538s
-     … 300/1907 khung, còn khoảng 515s
-     … 450/1907 khung, còn khoảng 452s
-     … 600/1907 khung, còn khoảng 407s
-     … 750/1907 khung, còn khoảng 360s
-     … 900/1907 khung, còn khoảng 318s
-     … 1050/1907 khung, còn khoảng 268s
-     … 1200/1907 khung, còn khoảng 223s
-     … 1350/1907 khung, còn khoảng 174s
-     … 1500/1907 khung, còn khoảng 128s
-     … 1650/1907 khung, còn khoảng 80s
-     … 1800/1907 khung, còn khoảng 34s
-  🎚️  Giọng -15.1 dB · nhạc khi đang nói -24.0 dB (nhỏ hơn giọng 9.0 dB) · nhạc lúc nghỉ -17.6 dB
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (SL2_post.txt)
-✅ Xong output/SL2/SL2.mp4  (63.5s video, mất 607s)
+===== SL2 (video dài) =====
+▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
+  🖼️  Ảnh cho video dài
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+  ⏱️  Thời lượng 09:13 · 43 cảnh ảnh
+     13291 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (198 giây)
+     … 2/6 đoạn (205 giây)
+     … 3/6 đoạn (392 giây)
+     … 4/6 đoạn (392 giây)
+     … 5/6 đoạn (576 giây)
+     … 6/6 đoạn (576 giây)
+     dựng khung hình xong trong 577 giây
+  🎵 Nhạc nền: Master of the Feast
+✅ Video dài: SL2_dai.mp4 (09:13)
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong video ngắn: SL2 · video dài: -
+Xong video ngắn: - · video dài: SL2

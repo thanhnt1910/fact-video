@@ -12,6 +12,11 @@
            background: radial-gradient(ellipse at 30% 30%, var(--bg2), var(--bg1) 75%); }
   #img { position: absolute; inset: 0; background-size: cover; background-position: center;
          filter: sepia(0.32) contrast(1.06) brightness(0.92) saturate(0.85); transform: scale(1.02); }
+  #img.fit { background: none !important; }
+  #img.fit .blurbg { position: absolute; inset: -6%; background-size: cover; background-position: center;
+                     filter: blur(36px) brightness(0.55); }
+  #img.fit .fg { position: absolute; left: 3%; right: 3%; top: 7%; height: 56%;
+                 background-size: contain; background-repeat: no-repeat; background-position: center; }
   #shade { position: absolute; inset: 0;
     background: linear-gradient(180deg, rgba(10,6,3,0.55) 0%, rgba(10,6,3,0.05) 22%, rgba(10,6,3,0.10) 45%,
                                 rgba(10,6,3,0.82) 70%, rgba(10,6,3,0.96) 100%); }
@@ -61,7 +66,14 @@ window.show = function (d) {
   document.getElementById('count').style.display = d.total > 1 ? '' : 'none';
   const img = document.getElementById('img');
   img.style.backgroundImage = d.image ? `url("${d.image}")` : 'none';
-  if (d.focus) img.style.backgroundPosition = d.focus;
+  img.style.backgroundPosition = d.focus || 'center';
+  img.innerHTML = ''; img.classList.toggle('fit', !!(d.fit && d.image));
+  if (d.fit && d.image) {
+    const bb = document.createElement('div'), fg = document.createElement('div');
+    bb.className = 'blurbg'; fg.className = 'fg';
+    bb.style.backgroundImage = fg.style.backgroundImage = `url("${d.image}")`;
+    img.append(bb, fg);
+  }
   const s = d.slide, c = document.getElementById('content');
   document.getElementById('slide').className = s.kind || '';
   if (s.kind === 'cover') {

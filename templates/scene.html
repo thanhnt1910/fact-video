@@ -24,6 +24,12 @@
   #bgimgs { position: absolute; inset: 0; overflow: hidden; }
   .bgimg { position: absolute; inset: -4%; background-size: cover; background-position: center; opacity: 0;
            will-change: transform, opacity; }
+  /* ảnh ngang trong khung dọc: hiện trọn ảnh (không cắt mất chủ thể) trên nền mờ của chính nó */
+  .bgimg.fit { background: none !important; }
+  .bgimg.fit .blurbg { position: absolute; inset: -6%; background-size: cover; background-position: center;
+                       filter: blur(38px) brightness(0.55); }
+  .bgimg.fit .fg { position: absolute; left: 4%; right: 4%; top: 6%; height: 62%;
+                   background-size: contain; background-repeat: no-repeat; background-position: center; }
   .bgimg::after { content: ""; position: absolute; inset: 0;
     background: linear-gradient(180deg,
       color-mix(in srgb, var(--bg1) 72%, transparent) 0%,
@@ -340,6 +346,13 @@ window.setup = function (data) {
     if (sc.image_src) {
       img = el('div', 'bgimg');
       img.style.backgroundImage = `url("${sc.image_src}")`;
+      if (sc.image_focus) img.style.backgroundPosition = sc.image_focus;
+      if (sc.image_fit) {
+        img.classList.add('fit');
+        const bb = el('div', 'blurbg'), fg = el('div', 'fg');
+        bb.style.backgroundImage = fg.style.backgroundImage = `url("${sc.image_src}")`;
+        img.append(bb, fg);
+      }
       document.getElementById('bgimgs').append(img);
       obj.root.classList.add('has-img');
       if (['hook', 'outro', 'number'].includes(sc.type)) obj.root.classList.add('center');

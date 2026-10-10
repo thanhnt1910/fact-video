@@ -71,7 +71,10 @@ def render_post(script, cfg, work, out_dir, log=print):
                 c = _scene_credit(work, si)
                 if c and c not in used_credits:
                     used_credits.append(c)
-            data = {"slide": s, "image": img, "focus": s.get("focus"), "index": k + 1, "total": len(slides),
+            fit = s.get("fit")
+            if fit is None and img and si is not None and not s.get("focus"):
+                fit = script["scenes"][si].get("image_fit")
+            data = {"slide": s, "image": img, "focus": s.get("focus"), "fit": bool(fit), "index": k + 1, "total": len(slides),
                     "theme": theme, "channel": cfg.get("channel", ""), "catchphrase": cfg.get("catchphrase", "")}
             page.evaluate("d => window.show(d)", data)
             page.wait_for_timeout(150)

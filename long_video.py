@@ -147,7 +147,7 @@ def beat_images(script, beats, work):
     quota_hit = 0
     for b in beats:
         if b.get("ai") and not b.get("image_src"):
-            key = hashlib.sha1(b["ai"].encode()).hexdigest()[:16]
+            key = hashlib.sha1((ai_images.STYLE_ID + "|" + b["ai"]).encode()).hexdigest()[:16]
             if quota_hit and not (AI_CACHE / f"{key}.jpg").exists():
                 quota_hit += 1          # đã hết lượt: không gọi thêm cho đỡ tốn thời gian
                 continue

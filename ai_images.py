@@ -16,8 +16,11 @@ import urllib.request
 from pathlib import Path
 
 MODEL = "@cf/black-forest-labs/flux-1-schnell"
-STYLE = ("vintage storybook illustration, painterly oil paint texture, warm sepia and amber tones, "
-         "soft lantern light, muted colors, detailed, historical, no text, no watermark")
+# Phong cách chung: tranh vẽ 2D (không giả ảnh chụp), để người xem không nhầm là ảnh tư liệu thật
+STYLE = ("2D hand-drawn digital illustration, cartoon storybook style, clean bold ink outlines, flat cel shading, "
+         "muted warm vintage color palette, simple painted background, expressive but simple faces, "
+         "historical setting, no text, no watermark, not photorealistic, not 3D")
+STYLE_ID = "2d-v1"   # đổi khi đổi phong cách -> ảnh cũ trong bộ nhớ đệm không bị dùng lại
 CUTOUT_HINT = ("full body, whole figure visible from head to feet, centered, isolated on a plain pure white background, "
                "no shadow, no ground, no signature")
 RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly away from the body, "
@@ -84,13 +87,13 @@ def _pollinations(full, out, wide):
     raise RuntimeError(f"Pollinations lỗi (limit): {last}")
 
 
-def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False):
+def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False, style=None):
     """Vẽ 1 ảnh: Cloudflare trước, hết lượt thì sang Pollinations. Có sẵn file thì dùng lại (không tốn lượt).
     steps=4 là mức chuẩn của FLUX schnell (8 bước tốn gấp đôi lượt mà không đẹp hơn rõ rệt)."""
     out = Path(out)
     if out.exists() and out.stat().st_size > 10000:
         return out
-    full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {STYLE}".replace(", ,", ",")
+    full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {style or STYLE}".replace(", ,", ",")
     if not _CF_OUT["v"]:
         try:
             _cloudflare(full, out, steps)

@@ -560,6 +560,7 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
             script["_credits"] = images.fetch_scene_images(script, work, log)
         except Exception as e:
             log(f"     ⚠️  Bỏ qua ảnh: {e}")
+    mark_image_fit(script)
     scenes, subs, total = build_timeline(script, cfg, work, no_tts)
     theme = cfg["topics"][script["topic"]]
     data = {"config": cfg, "theme": theme, "scenes": scenes, "subtitles": subs, "total": total}
@@ -635,6 +636,7 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
                 hook = next((s for s in scenes if s["type"] == "hook"), scenes[0])
                 page.evaluate(f"window.renderAt({hook['start'] + min(2.2, hook['dur'] * 0.8)})")
                 page.screenshot(path=str(out_dir / f"{script['id']}_thumbnail.jpg"), type="jpeg", quality=92)
+                review_sheet(page, scenes, out_dir / f"{script['id']}_review.jpg", work)
         finally:
             browser.close()
             proc.stdin.close()
@@ -650,6 +652,47 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
     if not has_music and cfg.get("music_file") and not cfg.get("music_library"):
         log(f"  ℹ️  Chưa có nhạc nền ({cfg['music_file']}), video chỉ có giọng đọc")
     return mp4, total
+
+
+def mark_image_fit(script):
+    """Ảnh ngang đặt vào khung dọc sẽ bị cắt mất hai bên (có thể mất cả chủ thể).
+    Mặc định hiện trọn ảnh ngang trên nền mờ; kịch bản có thể ghi "fit": false hoặc "focus": "30% 50%" để cắt theo ý."""
+    from PIL import Image
+    from urllib.parse import unquote, urlparse
+    for sc in script["scenes"]:
+        src, spec = sc.get("image_src"), sc.get("image") or {}
+        if not src or not isinstance(spec, dict):
+            continue
+        if spec.get("focus"):
+            sc["image_focus"] = spec["focus"]
+        if "fit" in spec:
+            sc["image_fit"] = bool(spec["fit"])
+            continue
+        try:
+            path = unquote(urlparse(src).path) if src.startswith("file:") else src
+            w, h = Image.open(path).size
+            sc["image_fit"] = w / h > 1.05 and not spec.get("focus")
+        except Exception:
+            pass
+
+
+def review_sheet(page, scenes, out, work):
+    """Ảnh duyệt: 1 khung giữa mỗi cảnh, để kiểm tra bố cục/cắt hình trước khi gửi."""
+    from PIL import Image
+    tiles = []
+    for k, sc in enumerate(scenes):
+        page.evaluate(f"window.renderAt({sc['start'] + sc['dur'] * 0.6})")
+        f = work / f"review_{k:02d}.jpg"
+        page.screenshot(path=str(f), type="jpeg", quality=80)
+        im = Image.open(f).convert("RGB")
+        im.thumbnail((360, 640))
+        tiles.append(im)
+    if not tiles:
+        return
+    sheet = Image.new("RGB", (360 * len(tiles) + 8 * (len(tiles) - 1), 640), (20, 20, 20))
+    for k, im in enumerate(tiles):
+        sheet.paste(im, (k * 368, 0))
+    sheet.save(out, quality=85)
 
 
 def _log_music_level(work, music, cfg, total, log):

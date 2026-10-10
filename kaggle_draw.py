@@ -38,37 +38,53 @@ from diffusers import FluxPipeline, FluxTransformer2DModel, GGUFQuantizationConf
 JOBS = json.loads(__JOBS__)
 OUT = "/kaggle/working/out"
 os.makedirs(OUT, exist_ok=True)
+import gc
 log("GPU:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "KHÔNG CÓ GPU")
 dt = torch.float16
 base = snapshot_download("black-forest-labs/FLUX.1-schnell", allow_patterns=[
-    "model_index.json", "scheduler/*", "text_encoder/*", "text_encoder_2/*", "tokenizer/*", "tokenizer_2/*", "vae/*"])
+    "model_index.json", "scheduler/*", "text_encoder/*", "text_encoder_2/*", "tokenizer/*", "tokenizer_2/*",
+    "vae/*", "transformer/config.json"])
 log("tải xong bộ mã hóa chữ + VAE")
-ckpt = "https://huggingface.co/city96/FLUX.1-schnell-gguf/blob/main/flux1-schnell-Q8_0.gguf"
-transformer = FluxTransformer2DModel.from_single_file(
-    ckpt, quantization_config=GGUFQuantizationConfig(compute_dtype=dt), torch_dtype=dt)
-log("tải xong FLUX (Q8)")
-pipe = FluxPipeline.from_pretrained(base, transformer=transformer, torch_dtype=dt)
-# mã hóa chữ bằng CPU (fp32) cho chắc, rồi bỏ khỏi bộ nhớ
-pipe.text_encoder.to("cpu", torch.float32); pipe.text_encoder_2.to("cpu", torch.float32)
+# 1) mã hóa câu mô tả bằng CPU (bf16, tránh lỗi tràn số của T5 khi chạy fp16), xong thì bỏ khỏi bộ nhớ
+te = FluxPipeline.from_pretrained(base, transformer=None, vae=None, torch_dtype=torch.bfloat16)
 embeds = {}
 for j in JOBS:
     with torch.no_grad():
-        pe, ppe, _ = pipe.encode_prompt(prompt=j["prompt"], prompt_2=j["prompt"], device="cpu", max_sequence_length=256)
+        pe, ppe, _ = te.encode_prompt(prompt=j["prompt"], prompt_2=j["prompt"], device="cpu", max_sequence_length=256)
     embeds[j["key"]] = (pe.to(dt), ppe.to(dt))
 log(f"mã hóa xong {len(JOBS)} câu mô tả")
-pipe.text_encoder = None; pipe.text_encoder_2 = None
-import gc; gc.collect()
+del te; gc.collect()
+# 2) FLUX.1 schnell bản nén Q8 (vừa card 16 GB)
+ckpt = "https://huggingface.co/city96/FLUX.1-schnell-gguf/blob/main/flux1-schnell-Q8_0.gguf"
+transformer = FluxTransformer2DModel.from_single_file(
+    ckpt, quantization_config=GGUFQuantizationConfig(compute_dtype=dt), torch_dtype=dt,
+    config=base, subfolder="transformer")
+log("tải xong FLUX (Q8)")
+pipe = FluxPipeline.from_pretrained(base, transformer=transformer, text_encoder=None, text_encoder_2=None,
+                                    tokenizer=None, tokenizer_2=None, torch_dtype=dt)
+pipe.vae.to(torch.float32)   # giải mã ảnh bằng fp32 cho khỏi ra ảnh đen
 pipe.to("cuda")
+pipe.vae.to(torch.float32)
 done = []
 for j in JOBS:
     try:
+        t1 = time.time()
         pe, ppe = embeds[j["key"]]
-        img = pipe(prompt_embeds=pe.to("cuda"), pooled_prompt_embeds=ppe.to("cuda"),
-                   width=j["w"], height=j["h"], num_inference_steps=4, guidance_scale=0.0,
-                   generator=torch.Generator("cuda").manual_seed(j.get("seed", 0))).images[0]
+        lat = pipe(prompt_embeds=pe.to("cuda"), pooled_prompt_embeds=ppe.to("cuda"),
+                   width=j["w"], height=j["h"], num_inference_steps=4, guidance_scale=0.0, output_type="latent",
+                   generator=torch.Generator("cuda").manual_seed(j.get("seed", 0))).images
+        with torch.no_grad():
+            lat = pipe._unpack_latents(lat, j["h"], j["w"], pipe.vae_scale_factor)
+            lat = lat.float() / pipe.vae.config.scaling_factor + pipe.vae.config.shift_factor
+            im = pipe.vae.decode(lat, return_dict=False)[0]
+        img = pipe.image_processor.postprocess(im, output_type="pil")[0]
+        import numpy as np
+        m = float(np.asarray(img).mean())
+        if m < 3:
+            log("ẢNH ĐEN (lỗi số học)", j["key"]); continue
         img.save(f"{OUT}/{j['key']}.png")
         done.append(j["key"])
-        log("vẽ xong", j["key"])
+        log("vẽ xong", j["key"], f"{time.time()-t1:.0f}s")
     except Exception as e:
         log("LỖI", j["key"], repr(e)[:300]); traceback.print_exc()
 json.dump({"done": done}, open(f"{OUT}/done.json", "w"))

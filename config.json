@@ -6,7 +6,8 @@
   "follow": "👉 Theo dõi để mở trang sử tiếp theo",
   "next_label": "Chuyện tiếp theo:",
 
-  "tts_engine": "vieneu",
+  "tts_engine": "gemini",
+  "gemini_voice": "Sadaltager",
   "vieneu": {
     "voice": "Thiện Minh",
     "ref_audio": "",

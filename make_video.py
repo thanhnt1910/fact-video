@@ -284,6 +284,44 @@ def trim_silence(samples, thresh=600, keep_head=0.04, keep_tail=0.12):
     return samples[a:b] if b - a > win * 4 else samples
 
 
+SHORT_STYLE = ("Native Vietnamese narrator (Northern accent, Hanoi) for a 60-second true-history short video. "
+               "Warm, captivating male storyteller with a hint of mystery, like telling a strange true tale by lantern light; "
+               "lively pace but clear diction and natural Vietnamese tones; slow down and lower the voice before a "
+               "surprising fact, then reveal it with energy; pause briefly at '…'. Pronounce foreign names naturally "
+               "in their original language. Never robotic, never news-anchor flat.")
+
+
+def voices_gemini(script, cfg, work):
+    """Giọng Gemini (giống video dài): đọc cả kịch bản trong 1 lần, cắt theo khoảng lặng thành từng cảnh.
+    Có lưu tạm trong assets/tts_cache nên chạy lại không tốn thêm."""
+    import hashlib
+    import gemini_tts
+    import long_video
+    voice = cfg.get("gemini_voice") or cfg.get("long", {}).get("voice", "Sadaltager")
+    texts, hints = [], []
+    for sc in script["scenes"]:
+        t, h = gemini_tts.clean_text(_end_punct(sc["voice"]))
+        texts.append(t)
+        hints += h
+    style = SHORT_STYLE + (" Specific emphasis: " + "; ".join(hints[:12]) + "." if hints else "")
+    full = "\n\n".join(texts)
+    cache = ROOT / "assets" / "tts_cache"
+    cache.mkdir(parents=True, exist_ok=True)
+    key = hashlib.sha1(f"short|{voice}|{style}|{full}".encode()).hexdigest()[:16]
+    wav = cache / f"{key}.wav"
+    if not wav.exists():
+        log(f"  🎙️  Giọng Gemini {voice}: đọc cả kịch bản ({len(full.split())} tiếng)")
+        raw = gemini_tts.synth(full, style, voice, log=log)
+        tmp = work / f"{key}_raw.wav"
+        tmp.write_bytes(raw)
+        run_ffmpeg(["-i", str(tmp), "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(wav)])
+    else:
+        log("  🎙️  Dùng lại giọng Gemini đã có")
+    audio = read_wav(wav)
+    segs, _ = long_video.split_by_pauses(audio, [max(10, len(x)) for x in texts])
+    return [trim_silence(audio[int(a):int(b)]) for a, b in segs]
+
+
 def _vieneu_python(vc):
     py = ROOT / vc.get("python", ".venv-tts/Scripts/python.exe")
     if not py.exists():
@@ -467,6 +505,8 @@ def build_timeline(script, cfg, work, no_tts):
         voices = None
     elif engine == "vieneu":
         voices = voices_vieneu(script, cfg, work)
+    elif engine == "gemini":
+        voices = voices_gemini(script, cfg, work)
     else:
         voices = voices_one_request(script, cfg, work)
     for i, s in enumerate(script["scenes"]):

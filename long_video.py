@@ -273,6 +273,10 @@ def build(script, cfg, out_dir):
                                            cards, work / "layers")
         br.close()
     long_render.render(vis, cards, layers, total, FPS, silent, mv.ffmpeg_exe(), work, log=log)
+    try:
+        long_render.review_sheet(vis, cards, layers, out_dir / f"{script['id']}_dai_review.jpg")
+    except Exception as e:
+        log(f"     (không tạo được ảnh duyệt: {e})")
 
     # ---- âm thanh: giọng + nhạc (tự hạ khi có giọng)
     import music

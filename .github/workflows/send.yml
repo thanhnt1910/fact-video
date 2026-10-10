@@ -1,0 +1,38 @@
+name: Gửi Telegram (sau khi duyệt)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Mã cần gửi, cách nhau dấu phẩy. SL2 = cả bộ; SL2:ngan = video ngắn + bài ảnh; SL2:dai = video dài"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Phông và ffmpeg
+        run: sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Tải kết quả từ Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          : > ci_outputs.txt; : > ci_long.txt
+          for item in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
+            id="${item%%:*}"; part="${item#*:}"; [ "$part" = "$item" ] && part="all"
+            mkdir -p "output/$id"
+            gh release download "video-$id" --dir "output/$id" --clobber || { echo "Không có Releases cho $id"; continue; }
+            if [ "$part" != "dai" ] && [ -f "output/$id/$id.mp4" ]; then echo "$id" >> ci_outputs.txt; fi
+            if [ "$part" != "ngan" ] && [ -f "output/$id/${id}_dai.mp4" ]; then echo "$id" >> ci_long.txt; fi
+          done
+          echo "Video ngắn: $(tr '\n' ' ' < ci_outputs.txt) · video dài: $(tr '\n' ' ' < ci_long.txt)"
+      - name: Gửi
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: bash send_telegram.sh

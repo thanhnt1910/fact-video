@@ -16,6 +16,7 @@ import urllib.request
 from pathlib import Path
 
 MODEL = "@cf/black-forest-labs/flux-1-schnell"
+MODEL2 = "@cf/black-forest-labs/flux-2-klein-4b"   # đẹp hơn, vẽ thẳng khung 16:9, ít tốn lượt hơn
 # Phong cách chung: tranh vẽ 2D (không giả ảnh chụp), để người xem không nhầm là ảnh tư liệu thật
 STYLE = ("2D hand-drawn digital illustration, cartoon storybook style, clean bold ink outlines, flat cel shading, "
          "muted warm vintage color palette, simple painted background, expressive but simple faces, "
@@ -62,49 +63,67 @@ def _cloudflare(full, out, steps):
     raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi (429/limit)")
 
 
-def _pollinations(full, out, wide):
-    """Nguồn dự phòng miễn phí (cũng là FLUX), không cần khóa; chậm và có giới hạn tốc độ."""
-    from urllib.parse import quote
-    import random
+def _klein(full, out, wide):
+    """FLUX.2 klein 4B trên Cloudflare (gửi dạng multipart/form-data)."""
+    import uuid
+    acc = os.environ.get("CF_ACCOUNT_ID", "").strip()
+    tok = os.environ.get("CF_API_TOKEN", "").strip()
+    if not acc or not tok:
+        raise RuntimeError("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")
     w, h = (1344, 768) if wide else (1024, 1024)
-    url = (f"https://image.pollinations.ai/prompt/{quote(full[:900])}"
-           f"?width={w}&height={h}&model=flux&nologo=true&private=true&seed={random.randint(1, 10**6)}")
-    last = ""
-    for attempt in range(5):
+    fields = {"prompt": full[:2000], "width": str(w), "height": str(h)}
+    bnd = uuid.uuid4().hex
+    body = b"".join(f'--{bnd}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode()
+                    for k, v in fields.items()) + f"--{bnd}--\r\n".encode()
+    url = f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/{MODEL2}"
+    for attempt in range(4):
+        req = urllib.request.Request(url, data=body, method="POST",
+                                     headers={"Authorization": f"Bearer {tok}",
+                                              "Content-Type": f"multipart/form-data; boundary={bnd}"})
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "nguoi-gac-su-video/1.0"})
             with urllib.request.urlopen(req, timeout=180) as r:
-                data, ctype = r.read(), r.headers.get("Content-Type", "")
-            if not ctype.startswith("image") or len(data) < 10000:
-                raise RuntimeError(f"không phải ảnh ({ctype}, {len(data)} byte)")
+                raw, ctype = r.read(), r.headers.get("Content-Type", "")
+            if ctype.startswith("image/"):
+                data = raw
+            else:
+                res = json.loads(raw.decode())
+                img = (res.get("result") or {}).get("image")
+                if not img:
+                    raise RuntimeError(json.dumps(res)[:300])
+                data = base64.b64decode(img)
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_bytes(data)
-            time.sleep(3)
             return out
-        except Exception as e:
-            last = str(e)[:200]
-            time.sleep(15 * (attempt + 1))
-    raise RuntimeError(f"Pollinations lỗi (limit): {last}")
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")[:300]
+            if "neurons" in msg or "4006" in msg:
+                _CF_OUT["v"] = True
+                raise RuntimeError(f"Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {msg[:120]}")
+            if e.code in (429, 500, 502, 503) and attempt < 3:
+                time.sleep(10 * (attempt + 1))
+                continue
+            raise RuntimeError(f"Cloudflare AI HTTP {e.code}: {msg}")
+    raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi (429/limit)")
 
 
 def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False, style=None):
-    """Vẽ 1 ảnh: Cloudflare trước, hết lượt thì sang Pollinations. Có sẵn file thì dùng lại (không tốn lượt).
-    steps=4 là mức chuẩn của FLUX schnell (8 bước tốn gấp đôi lượt mà không đẹp hơn rõ rệt)."""
+    """Vẽ 1 ảnh bằng FLUX.2 klein (Cloudflare); lỗi riêng mô hình này thì thử FLUX.1 schnell.
+    Hết lượt miễn phí trong ngày thì báo lỗi (429/limit) để video được hoãn sang lần chạy sau,
+    KHÔNG dùng nguồn miễn phí khác (ảnh xấu, có in logo). Có sẵn file thì dùng lại (không tốn lượt)."""
     out = Path(out)
     if out.exists() and out.stat().st_size > 10000:
         return out
+    if _CF_OUT["v"]:
+        raise RuntimeError("Cloudflare AI hết lượt miễn phí hôm nay (429/limit)")
     full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {style or STYLE}".replace(", ,", ",")
-    if not _CF_OUT["v"]:
-        try:
-            _cloudflare(full, out, steps)
-            log(f"     🎨 {out.name}")
-            return out
-        except RuntimeError as e:
-            if not _CF_OUT["v"]:
-                raise
-            log("     ↪️  Cloudflare hết lượt hôm nay, chuyển sang nguồn vẽ dự phòng (Pollinations)")
-    _pollinations(full, out, wide)
-    log(f"     🎨 {out.name} (dự phòng)")
+    try:
+        _klein(full, out, wide)
+    except RuntimeError as e:
+        if _CF_OUT["v"]:
+            raise
+        log(f"     ↪️  FLUX.2 lỗi ({str(e)[:80]}), thử FLUX.1")
+        _cloudflare(full, out, steps)
+    log(f"     🎨 {out.name}")
     return out
 
 

@@ -285,3 +285,24 @@ def render(shots, cards, layers, total, fps, out, ffmpeg, work, log=print, worke
         Path(s).unlink(missing_ok=True)
     log(f"     dựng khung hình xong trong {time.time() - t0:.0f} giây")
     return out
+
+
+def review_sheet(shots, cards, layers, out, cols=8):
+    """Ảnh duyệt video dài: 1 khung giữa mỗi cảnh ảnh, xếp lưới, đánh số để kiểm tra trước khi gửi."""
+    from PIL import ImageDraw, ImageFont
+    comp = Compositor(shots, cards, layers)
+    tw, th = 320, 180
+    tiles = []
+    for i, s in enumerate(shots):
+        t = s["start"] + min(s["dur"] * 0.5, 3.0)
+        im = Image.fromarray(np.ascontiguousarray(comp.frame(t))).resize((tw, th), Image.BILINEAR)
+        d = ImageDraw.Draw(im)
+        d.rectangle([0, 0, 34, 20], fill=(0, 0, 0))
+        d.text((4, 3), str(i + 1), fill=(255, 210, 120), font=ImageFont.load_default(size=14))
+        tiles.append(im)
+    rows = (len(tiles) + cols - 1) // cols
+    sheet = Image.new("RGB", (cols * (tw + 4), rows * (th + 4)), (10, 10, 10))
+    for k, im in enumerate(tiles):
+        sheet.paste(im, ((k % cols) * (tw + 4), (k // cols) * (th + 4)))
+    sheet.save(out, quality=82)
+    return out

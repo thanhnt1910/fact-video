@@ -13,8 +13,9 @@ PROMPTS = [
 ]
 STYLES = {
     "A": ai_images.STYLE,
-    "B": ("2D illustrated graphic novel style, ink linework with soft watercolor wash, warm sepia and amber tones, "
-          "hand-drawn, storybook, historical setting, no text, no watermark, not photorealistic, not 3D"),
+    "C": ("2D animated documentary illustration, semi-flat colors with soft painted shading, clean lines, "
+          "warm muted palette, cinematic composition, like a modern history explainer cartoon, "
+          "no text, no watermark, not photorealistic, not 3D"),
 }
 WIDE = "wide cinematic composition, main subject centered with space above and below"
 

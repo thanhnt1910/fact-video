@@ -62,10 +62,9 @@ transformer = FluxTransformer2DModel.from_single_file(
 log("tải xong FLUX (Q8)")
 pipe = FluxPipeline.from_pretrained(base, transformer=transformer, text_encoder=None, text_encoder_2=None,
                                     tokenizer=None, tokenizer_2=None, torch_dtype=dt)
-pipe.vae.to(torch.float32)   # giải mã ảnh bằng fp32 cho khỏi ra ảnh đen
 pipe.to("cuda")
-pipe.vae.to(torch.float32)
-done = []
+# 3) vẽ hết (giữ bản nháp ẩn trên CPU), rồi mới bỏ mô hình vẽ khỏi card để có chỗ đổi ra ảnh
+lats = {}
 for j in JOBS:
     try:
         t1 = time.time()
@@ -73,20 +72,35 @@ for j in JOBS:
         lat = pipe(prompt_embeds=pe.to("cuda"), pooled_prompt_embeds=ppe.to("cuda"),
                    width=j["w"], height=j["h"], num_inference_steps=4, guidance_scale=0.0, output_type="latent",
                    generator=torch.Generator("cuda").manual_seed(j.get("seed", 0))).images
-        with torch.no_grad():
-            lat = pipe._unpack_latents(lat, j["h"], j["w"], pipe.vae_scale_factor)
-            lat = lat.float() / pipe.vae.config.scaling_factor + pipe.vae.config.shift_factor
-            im = pipe.vae.decode(lat, return_dict=False)[0]
-        img = pipe.image_processor.postprocess(im, output_type="pil")[0]
-        import numpy as np
-        m = float(np.asarray(img).mean())
-        if m < 3:
-            log("ẢNH ĐEN (lỗi số học)", j["key"]); continue
-        img.save(f"{OUT}/{j['key']}.png")
-        done.append(j["key"])
+        lats[j["key"]] = lat.cpu()
         log("vẽ xong", j["key"], f"{time.time()-t1:.0f}s")
     except Exception as e:
         log("LỖI", j["key"], repr(e)[:300]); traceback.print_exc()
+vsf = pipe.vae_scale_factor
+vae, proc = pipe.vae, pipe.image_processor
+pipe.transformer = None
+del pipe, transformer; gc.collect(); torch.cuda.empty_cache()
+vae.to("cuda", torch.float32)
+vae.enable_tiling()
+import numpy as np
+from diffusers import FluxPipeline as _FP
+done = []
+for j in JOBS:
+    if j["key"] not in lats:
+        continue
+    try:
+        with torch.no_grad():
+            lat = _FP._unpack_latents(lats[j["key"]].to("cuda"), j["h"], j["w"], vsf)
+            lat = lat.float() / vae.config.scaling_factor + vae.config.shift_factor
+            im = vae.decode(lat, return_dict=False)[0]
+        img = proc.postprocess(im, output_type="pil")[0]
+        if float(np.asarray(img).mean()) < 3:
+            log("ẢNH ĐEN (lỗi số học)", j["key"]); continue
+        img.save(f"{OUT}/{j['key']}.png")
+        done.append(j["key"])
+    except Exception as e:
+        log("LỖI giải mã", j["key"], repr(e)[:300]); traceback.print_exc()
+log("giải mã xong", len(done))
 json.dump({"done": done}, open(f"{OUT}/done.json", "w"))
 log("XONG", len(done), "/", len(JOBS))
 '''

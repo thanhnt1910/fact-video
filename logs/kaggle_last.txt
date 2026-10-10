@@ -1,88 +1,89 @@
-[{"stream_name":"stderr","time":0.636953376,"data":"/kaggle/src/script.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n"}
-,{"stream_name":"stderr","time":0.63699122,"data":"  log(\"bắt đầu lúc\", datetime.datetime.utcnow().strftime(\"%H:%M:%S UTC\"))\n"}
-,{"stream_name":"stdout","time":0.638241318,"data":"[     0s] bắt đầu lúc 16:25:32 UTC\n"}
-,{"stream_name":"stdout","time":5.525593087,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 59.6 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":5.563381383,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.5/118.5 kB 5.1 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":5.700781063,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 97.0 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":5.74181983,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 15.8 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":5.772823426,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 21.5 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":5.825886625,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 26.5 MB/s eta 0:00:00\n"}
-,{"stream_name":"stderr","time":26.702636093,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stderr","time":26.702682804,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
-,{"stream_name":"stderr","time":26.70268907,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":26.702693897,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":26.702698139,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":26.70270451,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":26.702709004,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stdout","time":27.985104281,"data":"[    27s] cài xong thư viện\n"}
-,{"stream_name":"stdout","time":57.809675242,"data":"[    57s] GPU: Tesla T4\n"}
-,{"stream_name":"stderr","time":58.180870158,"data":"\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\n"}
-,{"stream_name":"stderr","time":58.185480552,"data":"httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/741f7c3ce8b383c54771c7003378a50191e9efe9/scheduler/scheduler_config.json'\n"}
-,{"stream_name":"stderr","time":58.185498463,"data":"For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401\n"}
-,{"stream_name":"stderr","time":58.185519263,"data":"\n"}
-,{"stream_name":"stderr","time":58.185524221,"data":"The above exception was the direct cause of the following exception:\n"}
-,{"stream_name":"stderr","time":58.185528511,"data":"\n"}
-,{"stream_name":"stderr","time":58.185532118,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":58.187446841,"data":"  File \"/kaggle/src/script.py\", line 22, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":58.187461033,"data":"    base = snapshot_download(\"black-forest-labs/FLUX.1-schnell\", allow_patterns=[\n"}
-,{"stream_name":"stderr","time":58.187465719,"data":"        \"model_index.json\", \"scheduler/*\", \"text_encoder/*\", \"text_encoder_2/*\", \"tokenizer/*\", \"tokenizer_2/*\", \"vae/*\"])\n"}
-,{"stream_name":"stderr","time":58.187470774,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n"}
-,{"stream_name":"stderr","time":58.187474971,"data":"    return fn(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":58.187479086,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_http.py\", line 266, in _inner\n"}
-,{"stream_name":"stderr","time":58.18748345,"data":"    return fn(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":58.187487248,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_snapshot_download.py\", line 532, in snapshot_download\n"}
-,{"stream_name":"stderr","time":58.187491661,"data":"    hf_thread_map(\n"}
-,{"stream_name":"stderr","time":58.18749499,"data":"    ~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":58.187498254,"data":"        _inner_hf_hub_download,\n"}
-,{"stream_name":"stderr","time":58.187501601,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":58.187504948,"data":"    ...\u003c3 lines\u003e...\n"}
-,{"stream_name":"stderr","time":58.187510066,"data":"        tqdm_class=tqdm_class,\n"}
-,{"stream_name":"stderr","time":58.18751733,"data":"        ^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":58.187519828,"data":"    )\n"}
-,{"stream_name":"stderr","time":58.18752217,"data":"    ^\n"}
-,{"stream_name":"stderr","time":58.187524412,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/tqdm.py\", line 441, in hf_thread_map\n"}
-,{"stream_name":"stderr","time":58.187526818,"data":"    results[future_to_index[future]] = future.result()\n"}
-,{"stream_name":"stderr","time":58.187529141,"data":"                                       ~~~~~~~~~~~~~^^\n"}
-,{"stream_name":"stderr","time":58.187531398,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
-,{"stream_name":"stderr","time":58.187533755,"data":"    return self.__get_result()\n"}
-,{"stream_name":"stderr","time":58.187535881,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
-,{"stream_name":"stderr","time":58.187538045,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
-,{"stream_name":"stderr","time":58.187540316,"data":"    raise self._exception\n"}
-,{"stream_name":"stderr","time":58.187542468,"data":"  File \"/usr/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n"}
-,{"stream_name":"stderr","time":58.187544851,"data":"    result = self.fn(*self.args, **self.kwargs)\n"}
-,{"stream_name":"stderr","time":58.187547154,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_snapshot_download.py\", line 512, in _inner_hf_hub_download\n"}
-,{"stream_name":"stderr","time":58.187554395,"data":"    hf_hub_download(  # type: ignore\n"}
-,{"stream_name":"stderr","time":58.187556711,"data":"    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":58.187558921,"data":"        repo_id,\n"}
-,{"stream_name":"stderr","time":58.187561073,"data":"        ^^^^^^^^\n"}
-,{"stream_name":"stderr","time":58.18756328,"data":"    ...\u003c14 lines\u003e...\n"}
-,{"stream_name":"stderr","time":58.187565623,"data":"        dry_run=dry_run,\n"}
-,{"stream_name":"stderr","time":58.187567837,"data":"        ^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":58.187570057,"data":"    )\n"}
-,{"stream_name":"stderr","time":58.187572228,"data":"    ^\n"}
-,{"stream_name":"stderr","time":58.187574736,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n"}
-,{"stream_name":"stderr","time":58.18759418,"data":"    return fn(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":58.187598002,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_http.py\", line 266, in _inner\n"}
-,{"stream_name":"stderr","time":58.187601544,"data":"    return fn(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":58.187605255,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1047, in hf_hub_download\n"}
-,{"stream_name":"stderr","time":58.187609834,"data":"    return _hf_hub_download_to_cache_dir(\n"}
-,{"stream_name":"stderr","time":58.187613197,"data":"        # Destination\n"}
-,{"stream_name":"stderr","time":58.187616252,"data":"    ...\u003c15 lines\u003e...\n"}
-,{"stream_name":"stderr","time":58.187619437,"data":"        dry_run=dry_run,\n"}
-,{"stream_name":"stderr","time":58.187622934,"data":"    )\n"}
-,{"stream_name":"stderr","time":58.187626817,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1194, in _hf_hub_download_to_cache_dir\n"}
-,{"stream_name":"stderr","time":58.187631065,"data":"    _raise_on_head_call_error(head_call_error, force_download, local_files_only)\n"}
-,{"stream_name":"stderr","time":58.187634827,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":58.187638825,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1953, in _raise_on_head_call_error\n"}
-,{"stream_name":"stderr","time":58.187642687,"data":"    raise head_call_error\n"}
-,{"stream_name":"stderr","time":58.187652672,"data":"huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6aca6736-5a5b63f6325b4c3867409e49;d745bf57-f564-425b-a6a9-f405b8c9c12b)\n"}
-,{"stream_name":"stderr","time":58.18765639,"data":"\n"}
-,{"stream_name":"stderr","time":58.187659957,"data":"Cannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/741f7c3ce8b383c54771c7003378a50191e9efe9/scheduler/scheduler_config.json.\n"}
-,{"stream_name":"stderr","time":58.187664206,"data":"Access to model black-forest-labs/FLUX.1-schnell is restricted. You must have access to it and be authenticated to access it. Please log in.\n"}
-,{"stream_name":"stderr","time":64.074854143,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":64.074879307,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":64.317312155,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":64.317348809,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":65.082348035,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":66.041105467,"data":"[NbConvertApp] Writing 290869 bytes to __results__.html\n"}
+[{"stream_name":"stderr","time":0.793421908,"data":"/kaggle/src/script.py:10: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n"}
+,{"stream_name":"stderr","time":0.793462502,"data":"  log(\"bắt đầu lúc\", datetime.datetime.utcnow().strftime(\"%H:%M:%S UTC\"))\n"}
+,{"stream_name":"stdout","time":0.794975146,"data":"[     0s] bắt đầu lúc 23:36:24 UTC\n"}
+,{"stream_name":"stdout","time":6.688221441,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 42.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.735450671,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.5/118.5 kB 4.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.901168961,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 102.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.943251709,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 18.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.983789128,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 18.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.035319784,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 30.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":29.170899077,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":29.170942298,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":29.170948599,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":29.170952913,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":29.170957148,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":29.170962135,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":29.170965826,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":30.579962098,"data":"[    30s] cài xong thư viện\n"}
+,{"stream_name":"stdout","time":64.330597453,"data":"[    64s] GPU: Tesla T4\n"}
+,{"stream_name":"stderr","time":64.719294523,"data":"\rFetching 19 files:   0%|          | 0/19 [00:00\u003c?, ?it/s]\rFetching 19 files:   0%|          | 0/19 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":64.723794126,"data":"httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/741f7c3ce8b383c54771c7003378a50191e9efe9/model_index.json'\n"}
+,{"stream_name":"stderr","time":64.72381278,"data":"For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403\n"}
+,{"stream_name":"stderr","time":64.723931939,"data":"\n"}
+,{"stream_name":"stderr","time":64.723938614,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":64.723942301,"data":"\n"}
+,{"stream_name":"stderr","time":64.723947013,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":64.725817258,"data":"  File \"/kaggle/src/script.py\", line 25, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":64.725851315,"data":"    base = snapshot_download(\"black-forest-labs/FLUX.1-schnell\", allow_patterns=[\n"}
+,{"stream_name":"stderr","time":64.725856736,"data":"        \"model_index.json\", \"scheduler/*\", \"text_encoder/*\", \"text_encoder_2/*\", \"tokenizer/*\", \"tokenizer_2/*\",\n"}
+,{"stream_name":"stderr","time":64.725860827,"data":"        \"vae/*\", \"transformer/config.json\"])\n"}
+,{"stream_name":"stderr","time":64.725871117,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n"}
+,{"stream_name":"stderr","time":64.725875112,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":64.72587831,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_http.py\", line 266, in _inner\n"}
+,{"stream_name":"stderr","time":64.725882068,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":64.725885538,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_snapshot_download.py\", line 532, in snapshot_download\n"}
+,{"stream_name":"stderr","time":64.725889065,"data":"    hf_thread_map(\n"}
+,{"stream_name":"stderr","time":64.7258924,"data":"    ~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":64.725895778,"data":"        _inner_hf_hub_download,\n"}
+,{"stream_name":"stderr","time":64.725899098,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":64.725902505,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":64.725905899,"data":"        tqdm_class=tqdm_class,\n"}
+,{"stream_name":"stderr","time":64.725909205,"data":"        ^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":64.725912401,"data":"    )\n"}
+,{"stream_name":"stderr","time":64.725915362,"data":"    ^\n"}
+,{"stream_name":"stderr","time":64.725918677,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/tqdm.py\", line 441, in hf_thread_map\n"}
+,{"stream_name":"stderr","time":64.725922648,"data":"    results[future_to_index[future]] = future.result()\n"}
+,{"stream_name":"stderr","time":64.725926618,"data":"                                       ~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":64.725930066,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
+,{"stream_name":"stderr","time":64.725933765,"data":"    return self.__get_result()\n"}
+,{"stream_name":"stderr","time":64.725937515,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":64.725941348,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
+,{"stream_name":"stderr","time":64.725945176,"data":"    raise self._exception\n"}
+,{"stream_name":"stderr","time":64.725949027,"data":"  File \"/usr/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n"}
+,{"stream_name":"stderr","time":64.725953384,"data":"    result = self.fn(*self.args, **self.kwargs)\n"}
+,{"stream_name":"stderr","time":64.725957703,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_snapshot_download.py\", line 512, in _inner_hf_hub_download\n"}
+,{"stream_name":"stderr","time":64.725970624,"data":"    hf_hub_download(  # type: ignore\n"}
+,{"stream_name":"stderr","time":64.725974149,"data":"    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":64.725999884,"data":"        repo_id,\n"}
+,{"stream_name":"stderr","time":64.726003343,"data":"        ^^^^^^^^\n"}
+,{"stream_name":"stderr","time":64.72600653,"data":"    ...\u003c14 lines\u003e...\n"}
+,{"stream_name":"stderr","time":64.726009946,"data":"        dry_run=dry_run,\n"}
+,{"stream_name":"stderr","time":64.726013133,"data":"        ^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":64.726016463,"data":"    )\n"}
+,{"stream_name":"stderr","time":64.726019673,"data":"    ^\n"}
+,{"stream_name":"stderr","time":64.72602296,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n"}
+,{"stream_name":"stderr","time":64.726028016,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":64.726031338,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_http.py\", line 266, in _inner\n"}
+,{"stream_name":"stderr","time":64.726037822,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":64.726041234,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1047, in hf_hub_download\n"}
+,{"stream_name":"stderr","time":64.726045407,"data":"    return _hf_hub_download_to_cache_dir(\n"}
+,{"stream_name":"stderr","time":64.726049205,"data":"        # Destination\n"}
+,{"stream_name":"stderr","time":64.726053027,"data":"    ...\u003c15 lines\u003e...\n"}
+,{"stream_name":"stderr","time":64.726056673,"data":"        dry_run=dry_run,\n"}
+,{"stream_name":"stderr","time":64.726059995,"data":"    )\n"}
+,{"stream_name":"stderr","time":64.726063426,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1194, in _hf_hub_download_to_cache_dir\n"}
+,{"stream_name":"stderr","time":64.726067438,"data":"    _raise_on_head_call_error(head_call_error, force_download, local_files_only)\n"}
+,{"stream_name":"stderr","time":64.726071182,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":64.726074829,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1953, in _raise_on_head_call_error\n"}
+,{"stream_name":"stderr","time":64.726078761,"data":"    raise head_call_error\n"}
+,{"stream_name":"stderr","time":64.726081762,"data":"huggingface_hub.errors.GatedRepoError: 403 Client Error. (Request ID: Root=1-6acacc38-7c4345546e96539b2c06a028;7359f9de-dcd8-4de6-9424-36293887d609)\n"}
+,{"stream_name":"stderr","time":64.726086133,"data":"\n"}
+,{"stream_name":"stderr","time":64.726089468,"data":"Cannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/741f7c3ce8b383c54771c7003378a50191e9efe9/model_index.json.\n"}
+,{"stream_name":"stderr","time":64.726092822,"data":"Access to model black-forest-labs/FLUX.1-schnell is restricted and you are not in the authorized list. Visit https://huggingface.co/black-forest-labs/FLUX.1-schnell to ask for access.\n"}
+,{"stream_name":"stderr","time":71.153513353,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":71.153535858,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":71.428054738,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":71.42809277,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":72.210522614,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":73.250668871,"data":"[NbConvertApp] Writing 296092 bytes to __results__.html\n"}
 ]

@@ -1,131 +1,132 @@
 
-===== PV1 (video ngắn + bài ảnh) =====
-▶️  PV1: Gã lừa đảo đã bán tháp Eiffel
+===== SL2 (video ngắn + bài ảnh) =====
+▶️  SL2: Quân đội Úc mang súng máy đi đánh một bầy chim… và thua
   🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-  🎙️  VieNeu đọc 23 đoạn (lần đầu nạp mô hình hơi lâu)…
+  🎙️  VieNeu đọc 26 đoạn (lần đầu nạp mô hình hơi lâu)…
      đã nạp mô hình sau 3s
-     câu 1/23 xong (1.1s)
-     câu 2/23 xong (1.5s)
-     câu 3/23 xong (1.0s)
-     câu 4/23 xong (3.3s)
-     câu 5/23 xong (2.2s)
-     câu 6/23 xong (2.6s)
-     câu 7/23 xong (2.6s)
-     câu 8/23 xong (0.7s)
-     câu 9/23 xong (1.4s)
-     câu 10/23 xong (1.2s)
-     câu 11/23 xong (1.8s)
-     câu 12/23 xong (0.6s)
-     câu 13/23 xong (1.0s)
-     câu 14/23 xong (1.5s)
-     câu 15/23 xong (2.1s)
-     câu 16/23 xong (1.4s)
-     câu 17/23 xong (2.7s)
-     câu 18/23 xong (1.4s)
-     câu 19/23 xong (1.2s)
-     câu 20/23 xong (1.9s)
-     câu 21/23 xong (0.5s)
-     câu 22/23 xong (0.8s)
-     câu 23/23 xong (0.9s)
-  🎵 Nhạc nền: Sneaky Snitch
-  🎬 Dựng 1746 khung hình (58.2 giây, 30 fps)
-     … 150/1746 khung, còn khoảng 439s
-     … 300/1746 khung, còn khoảng 415s
-     … 450/1746 khung, còn khoảng 372s
-     … 600/1746 khung, còn khoảng 330s
-     … 750/1746 khung, còn khoảng 295s
-     … 900/1746 khung, còn khoảng 247s
-     … 1050/1746 khung, còn khoảng 204s
-     … 1200/1746 khung, còn khoảng 158s
-     … 1350/1746 khung, còn khoảng 115s
-     … 1500/1746 khung, còn khoảng 70s
-     … 1650/1746 khung, còn khoảng 28s
-  🎚️  Giọng -15.0 dB · nhạc khi đang nói -25.2 dB (nhỏ hơn giọng 10.2 dB) · nhạc lúc nghỉ -20.6 dB
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (PV1_post.txt)
-✅ Xong output/PV1/PV1.mp4  (58.2s video, mất 550s)
+     câu 1/26 xong (2.2s)
+     câu 2/26 xong (0.7s)
+     câu 3/26 xong (0.7s)
+     câu 4/26 xong (0.7s)
+     câu 5/26 xong (2.0s)
+     câu 6/26 xong (1.6s)
+     câu 7/26 xong (1.3s)
+     câu 8/26 xong (0.9s)
+     câu 9/26 xong (2.1s)
+     câu 10/26 xong (1.5s)
+     câu 11/26 xong (2.2s)
+     câu 12/26 xong (1.3s)
+     câu 13/26 xong (1.8s)
+     câu 14/26 xong (2.3s)
+     câu 15/26 xong (1.2s)
+     câu 16/26 xong (1.4s)
+     câu 17/26 xong (0.8s)
+     câu 18/26 xong (1.7s)
+     câu 19/26 xong (0.8s)
+     câu 20/26 xong (0.9s)
+     câu 21/26 xong (0.6s)
+     câu 22/26 xong (0.7s)
+     câu 23/26 xong (1.0s)
+     câu 24/26 xong (0.4s)
+     câu 25/26 xong (0.8s)
+     câu 26/26 xong (0.9s)
+  🎵 Nhạc nền: Pippin the Hunchback
+  🎬 Dựng 1598 khung hình (53.2 giây, 30 fps)
+     … 150/1598 khung, còn khoảng 411s
+     … 300/1598 khung, còn khoảng 385s
+     … 450/1598 khung, còn khoảng 332s
+     … 600/1598 khung, còn khoảng 292s
+     … 750/1598 khung, còn khoảng 254s
+     … 900/1598 khung, còn khoảng 206s
+     … 1050/1598 khung, còn khoảng 162s
+     … 1200/1598 khung, còn khoảng 118s
+     … 1350/1598 khung, còn khoảng 72s
+     … 1500/1598 khung, còn khoảng 29s
+  🎚️  Giọng -14.8 dB · nhạc khi đang nói -25.0 dB (nhỏ hơn giọng 10.2 dB) · nhạc lúc nghỉ -19.5 dB
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (SL2_post.txt)
+✅ Xong output/SL2/SL2.mp4  (53.2s video, mất 516s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-===== PV1 (video dài) =====
-▶️  Video dài PV1: Kẻ lừa đảo đã bán tháp Eiffel như thế nào? | Victor Lustig
+===== SL2 (video dài) =====
+▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
   🖼️  Ảnh cho video dài
      ↪️  Cloudflare hết lượt hôm nay, chuyển sang nguồn vẽ dự phòng (Pollinations)
-     🎨 5b918bafcb54db2d.jpg (dự phòng)
-     🎨 8a09d6f79cf56906.jpg (dự phòng)
-     🎨 7e1a05b3da65c4c1.jpg (dự phòng)
-     🎨 827d11a875184628.jpg (dự phòng)
-     🎨 f500d9a2d38ebdc1.jpg (dự phòng)
-     🎨 7d7eaab7c669ee5b.jpg (dự phòng)
-     🎨 ae832a83475c741f.jpg (dự phòng)
-     🎨 f07316773850137d.jpg (dự phòng)
-     🎨 5a9dea2552b68ca2.jpg (dự phòng)
-     🎨 e2bc803ab8ce6ac9.jpg (dự phòng)
-     🎨 d9558519c8b58bd6.jpg (dự phòng)
-     🎨 e86c8bdc21004798.jpg (dự phòng)
-     🎨 9c7ec876f016a5cd.jpg (dự phòng)
-     🎨 7e83bc38e0f3600d.jpg (dự phòng)
-     🎨 ee54e6497eb08dcf.jpg (dự phòng)
-     🎨 938339cb0b2c3264.jpg (dự phòng)
-     🎨 f2fccb7b725ff6b0.jpg (dự phòng)
-     🎨 fd95c5d532eb81d1.jpg (dự phòng)
-     🎨 35aa9c0a7983c89e.jpg (dự phòng)
-     🎨 72730937c921e752.jpg (dự phòng)
-     🎨 68838ef28628935d.jpg (dự phòng)
-     🎨 8bcfcfa5eab22de1.jpg (dự phòng)
-     🎨 c18e86ce01e8a953.jpg (dự phòng)
-     🎨 9797e11b80c77a4f.jpg (dự phòng)
-     🎨 ea553e3b8db6f697.jpg (dự phòng)
-     🎨 a59f72e9128b188a.jpg (dự phòng)
-     🎨 b60b8fbf7bd6d60c.jpg (dự phòng)
-     🎨 79bb67e80fe1d0cf.jpg (dự phòng)
-     🎨 9b86881290cd87ad.jpg (dự phòng)
-     🎨 c3dcc0b7c074ceaa.jpg (dự phòng)
-     🎨 27ddd879345fe539.jpg (dự phòng)
-     🎨 04995d8aa631b147.jpg (dự phòng)
-     🎨 c4dfc4aac25fa699.jpg (dự phòng)
-     🎨 813c5bad7a3552c5.jpg (dự phòng)
-     🎨 b3dc3c324ec8f218.jpg (dự phòng)
-     🎨 227a5beac103cccc.jpg (dự phòng)
-     🎨 bdbc15d6c9463287.jpg (dự phòng)
-     🎨 5877131647dde8a1.jpg (dự phòng)
-     🎨 296f2f979f9c90cb.jpg (dự phòng)
-     🎨 f9f0d199513e6d53.jpg (dự phòng)
-     🎨 1285d5818131b4ad.jpg (dự phòng)
-     🎨 dea51cfcf50b7d72.jpg (dự phòng)
-     🎨 eadd8b9a9bf643c4.jpg (dự phòng)
-     🎨 92eb5ee63f100014.jpg (dự phòng)
-     🎨 96cb107c9e4207b1.jpg (dự phòng)
-     🎨 1128404efa059ce1.jpg (dự phòng)
-     🎨 0f145ee359138f48.jpg (dự phòng)
-     🎨 b113dd30a8e6c3da.jpg (dự phòng)
-     🎨 6776d8f34cf1d59e.jpg (dự phòng)
-     🎨 0f0e8c253e1ee0bc.jpg (dự phòng)
-     🎨 18c9c460e466dd09.jpg (dự phòng)
-     🎨 2b10926548f249ba.jpg (dự phòng)
-     🎨 7a5bcff951f10d1a.jpg (dự phòng)
+     🎨 109700badcfc6b49.jpg (dự phòng)
+     🎨 b5c4c74d76e97dd9.jpg (dự phòng)
+     🎨 3ff7b7432ecf5c6b.jpg (dự phòng)
+     🎨 d4f943ae39f1de92.jpg (dự phòng)
+     🎨 4115c9e34bbdd3ad.jpg (dự phòng)
+     🎨 3de50ea961664315.jpg (dự phòng)
+     🎨 87f985f8565905a6.jpg (dự phòng)
+     🎨 bc09ce5680369f66.jpg (dự phòng)
+     🎨 d8de36707667f45b.jpg (dự phòng)
+     🎨 572c05d13373bcaf.jpg (dự phòng)
+     🎨 e81643be52008312.jpg (dự phòng)
+     🎨 46a975f3f5d87daf.jpg (dự phòng)
+     🎨 8fca6ae2a6fd38de.jpg (dự phòng)
+     🎨 c069016b518a9f5a.jpg (dự phòng)
+     🎨 e39a8bf0cdafb11d.jpg (dự phòng)
+     🎨 1f83d6a3ac0798e7.jpg (dự phòng)
+     🎨 57c53ebc6a4e21fc.jpg (dự phòng)
+     🎨 223f0d56e55bccac.jpg (dự phòng)
+     🎨 83852d6403410698.jpg (dự phòng)
+     🎨 94896e2c6d0c9bda.jpg (dự phòng)
+     🎨 c9da9aff4773a893.jpg (dự phòng)
+     🎨 55b678a3e6620743.jpg (dự phòng)
+     🎨 5dd556450862e627.jpg (dự phòng)
+     🎨 e3614323a0628b49.jpg (dự phòng)
+     🎨 4e838a213104e7d2.jpg (dự phòng)
+     🎨 374fbd472f5b3267.jpg (dự phòng)
+     🎨 2b1af5918ebd5677.jpg (dự phòng)
+     🎨 d9a224e0c3f0ffd1.jpg (dự phòng)
+     🎨 1aeb38ad5fbf7d9a.jpg (dự phòng)
+     🎨 1ec3b72f3e97e941.jpg (dự phòng)
+     🎨 2be6e18bb7b2421e.jpg (dự phòng)
+     🎨 e0d8f8ac0610e86c.jpg (dự phòng)
+     🎨 f5bfbefdce7ba4bd.jpg (dự phòng)
+     🎨 9a54738e9aeaa921.jpg (dự phòng)
+     🎨 62df97d2d917311e.jpg (dự phòng)
+     🎨 099839b286d996d0.jpg (dự phòng)
+     🎨 e58c683c8fd94cc7.jpg (dự phòng)
+     🎨 2dfc66b2044f7e07.jpg (dự phòng)
+     🎨 5062925d522fb2d7.jpg (dự phòng)
+     🎨 dcb12ef517be4769.jpg (dự phòng)
+     🎨 b97541392320120e.jpg (dự phòng)
+     🎨 23d9733e688fb8e7.jpg (dự phòng)
+     🎨 4bfaf052b919aa2f.jpg (dự phòng)
+     🎨 4e1e08d71cbf4ca8.jpg (dự phòng)
+     🎨 3109cc52c8aebf5a.jpg (dự phòng)
+     🎨 a350da7e1a97782f.jpg (dự phòng)
+     🎨 71e4b3b8979b949a.jpg (dự phòng)
+     🎨 c577d38665385bc2.jpg (dự phòng)
+     🎨 9bbc1ef3aa5a147d.jpg (dự phòng)
+     🎨 d2b8fa7ef8ebfbda.jpg (dự phòng)
+     🎨 f8ee089476041393.jpg (dự phòng)
+     🎨 aa254bef366671d7.jpg (dự phòng)
   🎙️  Giọng Gemini Sadaltager (10 chương)
    [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (17s)
      🎙️  Gemini đọc xong 1 chương (12s)
      🎙️  Gemini đọc xong 1 chương (22s)
-     🎙️  Gemini đọc xong 1 chương (18s)
-     🎙️  Gemini đọc xong 1 chương (21s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (15s)
      🎙️  Gemini đọc xong 1 chương (15s)
      🎙️  Gemini đọc xong 1 chương (25s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+     🎙️  Gemini đọc xong 1 chương (24s)
      🎙️  Gemini đọc xong 1 chương (17s)
-  ⏱️  Thời lượng 09:43 · 65 cảnh ảnh
-     13997 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (215 giây)
-     … 2/6 đoạn (215 giây)
-     … 3/6 đoạn (435 giây)
-     … 4/6 đoạn (436 giây)
-     … 5/6 đoạn (649 giây)
-     … 6/6 đoạn (649 giây)
-     dựng khung hình xong trong 650 giây
-  🎵 Nhạc nền: Spy Glass
+  ⏱️  Thời lượng 09:13 · 64 cảnh ảnh
+     13291 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (200 giây)
+     … 2/6 đoạn (211 giây)
+     … 3/6 đoạn (404 giây)
+     … 4/6 đoạn (413 giây)
+     … 5/6 đoạn (602 giây)
+     … 6/6 đoạn (602 giây)
+     dựng khung hình xong trong 603 giây
+  🎵 Nhạc nền: Master of the Feast
      🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: PV1_dai.mp4 (09:43)
+✅ Video dài: SL2_dai.mp4 (09:13)
 
-Xong video ngắn: PV1 · video dài: PV1
+Xong video ngắn: SL2 · video dài: SL2

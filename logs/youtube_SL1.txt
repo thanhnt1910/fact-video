@@ -26,3 +26,4 @@ Nguồn kiểm chứng:
 
 ──── PHỤ ĐỀ ────
 YouTube Studio → video → Phụ đề → Thêm ngôn ngữ → Tiếng Việt → Tải tệp lên → SL1_dai_vi.srt
+Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file SL1_dai_youtube_en.txt, rồi tải phụ đề SL1_dai_en.srt.

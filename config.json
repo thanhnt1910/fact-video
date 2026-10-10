@@ -8,6 +8,7 @@
 
   "tts_engine": "gemini",
   "gemini_voice": "Sadaltager",
+  "kaggle_username": "thanhnguyen9x",
   "vieneu": {
     "voice": "Thiện Minh",
     "ref_audio": "",

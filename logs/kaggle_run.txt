@@ -1,6 +1,6 @@
      🖥️  Gửi 4 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️   1.5 phút: .error
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.error" (2 phút)
+     🖥️   9.7 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (10 phút)
      🖥️  Nhận về 0/4 tranh từ Kaggle
 kết quả: []

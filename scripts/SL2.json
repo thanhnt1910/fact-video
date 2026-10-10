@@ -170,7 +170,7 @@
         "beats": [
           {
             "text": "Tháng mười một năm một nghìn chín trăm ba mươi hai, miền Tây nước Úc. Một đơn vị quân đội mang theo hai khẩu súng máy và mười nghìn viên đạn lên đường ra trận.",
-            "ai": "a 1930s army truck on a dusty red outback road in Western Australia with soldiers in slouch hats and a machine gun in the back, wide landscape",
+            "ai": "a 1930s army truck on a dusty red outback road in Western Australia with soldiers in slouch hats and a machine gun in the back, wide landscape, Australian soldiers of 1932 in khaki uniforms and slouch hats",
             "label": "Tây Úc · 1932"
           },
           {
@@ -182,15 +182,14 @@
           },
           {
             "text": "Một đàn chim không biết bay, nhưng chạy rất nhanh. Khoảng hai mươi nghìn con.",
-            "ai": "a large flock of emus running across a golden wheat field in the Australian outback, dust rising, wide shot, dramatic light"
+            "ai": "a large flock of emus running across a golden wheat field in the Australian outback, dust rising, wide shot, dramatic light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin.",
-            "ai": "a 1930s newsroom with journalists typing on typewriters and a world map on the wall, telegraph wires, busy, sepia"
+            "text": "Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin."
           },
           {
             "text": "Và sau hơn một tháng, chính quân đội lại là bên phải rút lui. Báo chí gọi đó là Chiến tranh Emu. Đây là câu chuyện có thật.",
-            "ai": "an empty army camp with a folded tent and a Lewis machine gun under a tarpaulin in the outback at sunset, an emu silhouette on the horizon"
+            "ai": "an empty army camp with a folded tent and a Lewis machine gun under a tarpaulin in the outback at sunset, an emu silhouette on the horizon, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           }
         ]
       },
@@ -199,11 +198,10 @@
         "beats": [
           {
             "text": "Câu chuyện bắt đầu từ sau chiến tranh thế giới thứ nhất. Hàng nghìn người lính Úc trở về nhà sau những năm tháng ở chiến trường châu Âu.",
-            "ai": "Australian soldiers in WWI uniforms and slouch hats disembarking from a ship at a harbor, families waiting, 1919, sepia"
+            "ai": "Australian soldiers in WWI uniforms and slouch hats disembarking from a ship at a harbor, families waiting, 1919, sepia, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Họ từng chiến đấu ở Gallipoli, ở mặt trận phía Tây nước Pháp. Có người trở về với thương tật, có người mang theo những ký ức không bao giờ quên.",
-            "ai": "a quiet portrait-style painting of a tired WWI Australian veteran in a slouch hat sitting on a porch looking at fields, seen from the side, melancholic, 1920s"
+            "text": "Họ từng chiến đấu ở Gallipoli, ở mặt trận phía Tây nước Pháp. Có người trở về với thương tật, có người mang theo những ký ức không bao giờ quên."
           },
           {
             "text": "Chính phủ cấp đất cho họ làm nông, phần lớn ở vùng trồng lúa mì phía tây nước Úc.",
@@ -215,11 +213,10 @@
           },
           {
             "text": "Nhưng nhiều mảnh đất ấy khô cằn, xa xôi, khó canh tác. Những người lính cũ phải tự tay chặt cây, dọn đất, đào giếng, dựng nhà.",
-            "ai": "a former soldier clearing scrubland with an axe under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s"
+            "ai": "a former soldier clearing scrubland with an axe under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết.",
-            "ai": "a weathered farmer standing beside a dry cracked field with a horse-drawn plough, dust storm on the horizon, 1920s Australia"
+            "text": "Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết."
           },
           {
             "text": "Vùng đất ấy rộng mênh mông, mỗi trang trại cách nhau hàng cây số. Mùa hè nóng như thiêu, mưa thì thất thường.",
@@ -246,8 +243,7 @@
             "ai": "sacks of wheat piled unsold at a rural railway siding in the 1930s, farmers looking worried, overcast sky"
           },
           {
-            "text": "Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần.",
-            "ai": "a farmer's wife counting a few coins at a kitchen table by candlelight in a simple outback homestead, worried, 1930s"
+            "text": "Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần."
           },
           {
             "text": "Những người lính cũ vật lộn để giữ lấy trang trại của mình. Mỗi bao lúa mì đều quý như vàng.",
@@ -255,7 +251,7 @@
           },
           {
             "text": "Và đúng lúc đó, những vị khách không mời mà đến xuất hiện.",
-            "ai": "a line of tall emus walking out of the bush toward a wheat farm fence at dawn, ominous, wide landscape"
+            "ai": "a line of tall emus walking out of the bush toward a wheat farm fence at dawn, ominous, wide landscape, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           }
         ]
       },
@@ -278,27 +274,25 @@
           },
           {
             "text": "Chân emu có ba ngón, rất khỏe, một cú đá có thể gây thương tích nặng. Và đặc biệt, ở loài này, chính emu bố là người ấp trứng, suốt khoảng tám tuần gần như không ăn uống.",
-            "ai": "a male emu sitting on a nest of large dark green eggs in dry grass, patient, Australian bush, soft morning light"
+            "ai": "a male emu sitting on a nest of large dark green eggs in dry grass, patient, Australian bush, soft morning light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
             "text": "Emu cũng là biểu tượng của nước Úc, có mặt trên quốc huy, bên cạnh con chuột túi.",
-            "ai": "an emu and a kangaroo standing side by side in the Australian bush, heraldic composition, golden light, painterly"
+            "ai": "an emu and a kangaroo standing side by side in the Australian bush, heraldic composition, golden light, painterly, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
             "text": "Sau mùa sinh sản, từng đàn emu thường di chuyển từ vùng nội địa ra phía bờ biển để tìm thức ăn và nước.",
-            "ai": "a long procession of emus crossing a vast red desert plain toward distant green land, aerial wide view, heat haze"
+            "ai": "a long procession of emus crossing a vast red desert plain toward distant green land, aerial wide view, heat haze, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc.",
-            "ai": "emus walking through shimmering heat haze on a red outback plain under a blazing sun, spinifex grass, wide shot"
+            "text": "Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc."
           },
           {
             "text": "Năm ấy, trên đường đi, chúng gặp những cánh đồng lúa mì mênh mông vừa được khai phá, cùng những bể nước mới đào. Một bữa tiệc khổng lồ.",
-            "ai": "emus feeding in a lush wheat field next to a farm water tank and windmill, Western Australia, golden afternoon"
+            "ai": "a flock of emus feeding in a lush wheat field, some trampling the crop beside a broken wire farm fence, a farm windmill in the distance, Western Australia, golden afternoon, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào.",
-            "ai": "a broken wire farm fence with trampled wheat and rabbits running through the gap, emus in the background, outback"
+            "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào."
           }
         ]
       },
@@ -318,12 +312,11 @@
             "label": "Bộ trưởng Quốc phòng George Pearce"
           },
           {
-            "text": "Ông Pearce đồng ý, với điều kiện: binh lính sẽ vận hành súng, còn nông dân lo tiền ăn ở và tiền đạn. Có ý kiến cho rằng ông coi đây là một dịp tập bắn cho binh lính.",
-            "ai": "a 1930s government office in Australia with a minister signing a document at a large desk, flags and maps, formal"
+            "text": "Ông Pearce đồng ý, với điều kiện: binh lính sẽ vận hành súng, còn nông dân lo tiền ăn ở và tiền đạn. Có ý kiến cho rằng ông coi đây là một dịp tập bắn cho binh lính."
           },
           {
             "text": "Người chỉ huy là thiếu tá Meredith, thuộc pháo binh hoàng gia Úc. Đi cùng ông là hai người lính.",
-            "ai": "an Australian army major in a 1930s uniform with a peaked cap standing beside two soldiers and a truck in the outback, seen from a distance"
+            "ai": "an Australian army major in a 1930s uniform with a peaked cap standing beside two soldiers and a truck in the outback, seen from a distance, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
             "text": "Vũ khí của họ: hai khẩu súng máy Lewis, và mười nghìn viên đạn.",
@@ -340,39 +333,35 @@
         "beats": [
           {
             "text": "Những cơn mưa làm cuộc hành quân phải hoãn lại. Đến ngày hai tháng mười một, binh lính mới lên đường tới vùng Campion.",
-            "ai": "a muddy outback track after rain with a 1930s army truck stuck and soldiers pushing it, grey sky, Western Australia"
+            "ai": "a muddy outback track after rain with a 1930s army truck stuck and soldiers pushing it, grey sky, Western Australia, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
             "text": "Họ thấy khoảng năm mươi con emu. Nhưng đàn chim ở quá xa tầm bắn. Nông dân thử lùa chúng lại gần, thì đàn emu chia thành từng nhóm nhỏ, chạy tán loạn.",
-            "ai": "a small group of emus scattering in different directions across open scrubland, dust, soldiers far behind, humorous mood"
+            "ai": "a small group of emus scattering in different directions across open scrubland, dust, soldiers far behind, humorous mood, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn.",
-            "ai": "a distant flock of emus disappearing over a low ridge in the outback, a soldier lowering his rifle in the foreground, humorous mood"
+            "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn."
           },
           {
             "text": "Ngày bốn tháng mười một, thiếu tá Meredith đặt một trận phục kích gần một con đập nước, nơi đàn emu thường đến uống.",
-            "ai": "soldiers hiding behind bushes near a small farm dam with a machine gun on a tripod, emus approaching the water, tense, dawn"
+            "ai": "soldiers hiding behind bushes near a small farm dam with a machine gun on a tripod, emus approaching the water, tense, dawn, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng.",
-            "ai": "a tense soldier lying behind a Lewis gun in tall grass, finger near the trigger, emus approaching a waterhole in the distance, hushed"
+            "text": "Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng."
           },
           {
             "text": "Hơn một nghìn con emu tiến lại gần. Khẩu súng bắt đầu nổ. Nhưng chỉ sau mười mấy con trúng đạn… khẩu súng bị kẹt.",
-            "ai": "a frustrated soldier fiddling with a jammed machine gun while a huge flock of emus runs away in the background, outback, comedic tension"
+            "ai": "a frustrated soldier fiddling with a jammed machine gun while a huge flock of emus runs away in the background, outback, comedic tension, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy.",
-            "ai": "a wide empty outback landscape with dust settling and emu footprints in the red soil, soldiers standing in disbelief in the distance"
+            "text": "Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy."
           },
           {
             "text": "Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn.",
-            "ai": "a 1930s truck with a machine gun mounted on the back bouncing over rough outback ground chasing fast emus that are far ahead, dust cloud, comedic"
+            "ai": "a 1930s truck with a machine gun mounted on the back bouncing over rough outback ground chasing fast emus that are far ahead, dust cloud, comedic, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu.",
-            "ai": "exhausted soldiers sitting on a truck tailgate in the hot outback sun, empty ammunition boxes, emus grazing far away"
+            "text": "Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu."
           }
         ]
       },
@@ -381,27 +370,24 @@
         "beats": [
           {
             "text": "Binh lính nhận thấy mỗi đàn emu dường như có một con đầu đàn đứng canh, quan sát xung quanh trong khi cả đàn ăn. Thấy người đến, cả đàn bỏ chạy.",
-            "ai": "a single tall emu standing alert on a small rise watching over a flock feeding in a wheat field, like a sentry, late afternoon"
+            "ai": "a single tall emu standing alert on a small rise watching over a flock feeding in a wheat field, like a sentry, late afternoon, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng.",
-            "ai": "small groups of emus spread out across a vast field in different directions, aerial view, strategic pattern"
+            "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng."
           },
           {
             "text": "Còn thiếu tá Meredith thì than rằng loài chim này có thể đối mặt với súng máy, cứng cỏi như những chiếc xe tăng.",
-            "ai": "a big emu standing defiantly facing the viewer in the outback, low angle, heroic and humorous, dust in the air"
+            "ai": "a big emu standing defiantly facing the viewer in the outback, low angle, heroic and humorous, dust in the air, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới.",
-            "ai": "a military officer gesturing toward emus in a field while talking to a reporter with a notebook, 1930s, wry humor"
+            "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới."
           },
           {
             "text": "Báo chí đưa tin chế giễu. Quốc hội đem chuyện này ra bàn. Ngày tám tháng mười một, chỉ sau một tuần, Bộ trưởng Pearce ra lệnh rút quân.",
-            "ai": "1930s Australian newspaper pages spread on a table with cartoon drawings of emus and soldiers, unreadable headlines, sepia"
+            "ai": "1930s Australian newspaper pages spread on a table with cartoon drawings of emus and soldiers, unreadable headlines, sepia, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không.",
-            "ai": "a 1930s parliament chamber in Australia with politicians laughing in their seats, wood paneling, sepia"
+            "text": "Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không."
           }
         ]
       },
@@ -410,23 +396,21 @@
         "beats": [
           {
             "text": "Nhưng đàn emu vẫn ở lại. Hạn hán khiến tình hình càng tồi tệ, và nông dân lại kêu cứu.",
-            "ai": "a parched wheat field under a blazing sun with emus wandering through, a desperate farmer watching from his fence, 1930s"
+            "ai": "a parched wheat field under a blazing sun with emus wandering through, a desperate farmer watching from his fence, 1930s, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại.",
-            "ai": "a 1930s Australian politician speaking at a podium to a crowd of farmers in a country town, flags, sepia"
+            "text": "Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại."
           },
           {
             "text": "Ngày mười ba tháng mười một, quân đội quay trở lại. Lần này kết quả khá hơn: đến đầu tháng mười hai, mỗi tuần họ bắn được khoảng một trăm con.",
-            "ai": "soldiers resting beside a truck at an outback camp in the evening, mugs of tea, a machine gun covered, tired but determined"
+            "ai": "soldiers resting beside a truck at an outback camp in the evening, mugs of tea, a machine gun covered, tired but determined, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
             "text": "Ngày mười tháng mười hai, chiến dịch kết thúc. Meredith báo cáo đã bắn hạ chín trăm tám mươi sáu con emu, tốn chín nghìn tám trăm sáu mươi viên đạn.",
-            "ai": "an army officer writing a report by lamplight in a tent, pages and a map of Western Australia, 1930s"
+            "ai": "an army officer writing a report by lamplight in a tent, pages and a map of Western Australia, 1930s, Australian soldiers of 1932 in khaki uniforms and slouch hats"
           },
           {
-            "text": "Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim.",
-            "ai": "British conservationists in 1930s coats reading a newspaper with concern in a London park, pigeons around, sepia"
+            "text": "Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim."
           },
           {
             "text": "Nghĩa là trung bình đúng mười viên đạn cho một con chim. Ông còn cho rằng khoảng hai nghìn năm trăm con khác bị thương, nhưng con số này chưa từng được kiểm chứng.",
@@ -446,11 +430,10 @@
           },
           {
             "text": "Báo chí và người đời sau tổng kết ngắn gọn: quân đội Úc đã thua một đàn chim.",
-            "ai": "a group of emus standing proudly in a wheat field at sunset, silhouettes, triumphant and humorous mood"
+            "ai": "a group of emus standing proudly in a wheat field at sunset, silhouettes, triumphant and humorous mood, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
-            "text": "Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi.",
-            "ai": "a small 1930s Australian country newspaper office with a printing press and a man setting type, sepia"
+            "text": "Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi."
           },
           {
             "text": "Có nhà nghiên cứu còn cho rằng chiến dịch mang cả mục đích chính trị: chính phủ muốn tỏ ra quan tâm đến miền Tây, khi vùng này đang có phong trào đòi tách khỏi nước Úc.",
@@ -461,12 +444,10 @@
             "ai": "a farmer reading a rejection letter at his kitchen table in a simple outback homestead, disappointed, 1940s"
           },
           {
-            "text": "Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận với emu nữa.",
-            "ai": "wooden ammunition crates being unloaded from an army truck at a remote farm in 1950 Western Australia, farmers watching"
+            "text": "Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận với emu nữa."
           },
           {
-            "text": "Thay vào đó, chính quyền dùng cách treo thưởng. Chỉ trong sáu tháng của năm một nghìn chín trăm ba mươi tư, đã có hơn năm mươi bảy nghìn suất thưởng được chi trả.",
-            "ai": "a rural government office in the 1930s with a clerk paying farmers at a counter, ledger books, sepia"
+            "text": "Thay vào đó, chính quyền dùng cách treo thưởng. Chỉ trong sáu tháng của năm một nghìn chín trăm ba mươi tư, đã có hơn năm mươi bảy nghìn suất thưởng được chi trả."
           },
           {
             "text": "Và giải pháp hiệu quả nhất hóa ra lại đơn giản: những hàng rào thật dài và chắc chắn, ngăn emu, chó hoang và thỏ.",
@@ -486,12 +467,11 @@
             "ai": "an old weathered farmhouse in the Australian wheatbelt at dusk with a windmill, golden fields, nostalgic"
           },
           {
-            "text": "Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe cũng phải bật cười.",
-            "ai": "people of different ages laughing while reading an old history book together in a cozy library, warm light"
+            "text": "Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe cũng phải bật cười."
           },
           {
             "text": "Và là bài học về việc con người không phải lúc nào cũng thắng được thiên nhiên, kể cả khi có súng máy trong tay.",
-            "ai": "a lone emu walking along a dirt road toward the sunset in the Australian outback, peaceful, wide shot"
+            "ai": "a lone emu walking along a dirt road toward the sunset in the Australian outback, peaceful, wide shot, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
           },
           {
             "text": "Còn loài emu? Đến nay chúng vẫn sống khỏe mạnh khắp nước Úc.",
@@ -501,8 +481,7 @@
             }
           },
           {
-            "text": "Ước tính hiện có hàng trăm nghìn con emu sống tự do. Chúng vẫn đi qua những cánh đồng lúa mì, và nông dân Úc vẫn dựng hàng rào.",
-            "ai": "a group of emus walking beside a long wire fence along a modern wheat field in Western Australia at golden hour, peaceful"
+            "text": "Ước tính hiện có hàng trăm nghìn con emu sống tự do. Chúng vẫn đi qua những cánh đồng lúa mì, và nông dân Úc vẫn dựng hàng rào."
           },
           {
             "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",

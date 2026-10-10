@@ -1,23 +1,4 @@
      🖥️  Gửi 2 tranh sang Kaggle (GPU miễn phí)
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/kaggle_test.py", line 12, in <module>
-    res = kaggle_draw.draw_batch(jobs, ROOT / "output" / "_kt")
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 106, in draw_batch
-    _kaggle(["kernels", "push", "-p", str(work / "k")], env)
-  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 85, in _kaggle
-    raise RuntimeError(f"kaggle {' '.join(args[:2])}: {(r.stderr or r.stdout)[-500:]}")
-RuntimeError: kaggle kernels push: with OAuth via a web-based authorization flow.
-No token to manage; credentials are cached locally for you.
-    kaggle auth login
-
-If you'd rather not use OAuth, generate an API token at
-  https://www.kaggle.com/settings/api  (click "Generate New Token" under "API")
-and supply it to the CLI in one of these ways:
-
-  Option A: Environment variable
-    export KAGGLE_API_TOKEN=xxxxxxxxxxxxxx  # token copied from the settings UI
-
-  Option B: API token file
-    Save the token to ~/.kaggle/access_token
-
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.error" (8 phút)
+     🖥️  Nhận về 0/2 tranh từ Kaggle
+kết quả: []

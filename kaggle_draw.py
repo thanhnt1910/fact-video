@@ -75,7 +75,8 @@ def _env():
     key = os.environ.get("KAGGLE_KEY", "").strip()
     if not user or not key:
         raise RuntimeError("Chưa có KAGGLE_KEY / kaggle_username")
-    env = dict(os.environ, KAGGLE_USERNAME=user, KAGGLE_KEY=key)
+    # Kaggle CLI mới dùng KAGGLE_API_TOKEN (khóa kiểu mới); bản cũ dùng KAGGLE_USERNAME + KAGGLE_KEY
+    env = dict(os.environ, KAGGLE_USERNAME=user, KAGGLE_KEY=key, KAGGLE_API_TOKEN=key)
     return user, env
 
 

@@ -1,0 +1,520 @@
+{
+  "id": "BA1",
+  "topic": "bi-an",
+  "title": "Con tàu trôi giữa đại dương, không còn một bóng người",
+  "caption": "Hàng hóa còn nguyên, thức ăn đủ 6 tháng… nhưng 10 người trên tàu đã biến mất 🌊",
+  "hashtags": [
+    "nguoigacsu",
+    "bíẩn",
+    "lịchsử",
+    "chuyệncóthật",
+    "maryceleste"
+  ],
+  "sources": [
+    "Wikipedia – Mary Celeste",
+    "Paul Begg – Mary Celeste: The Greatest Mystery of the Sea (2007)",
+    "Brian Hicks – Ghost Ship: The Mysterious True Story of the Mary Celeste (2004)",
+    "Smithsonian Channel – The True Story of the Mary Celeste (2007)"
+  ],
+  "music": "Investigations",
+  "scenes": [
+    {
+      "type": "hook",
+      "icon": "⛵",
+      "text": "Con tàu trôi giữa đại dương, **không một bóng người**",
+      "voice": "[trầm] Năm một nghìn tám trăm bảy mươi hai… [nhấn] người ta tìm thấy một con tàu trôi giữa Đại Tây Dương. [nhanh] Hàng hóa còn nguyên. Thức ăn còn đủ. [trầm] Nhưng không còn một ai.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mary_Celeste_engraving.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Mary Celeste engraving.jpg\" – Original uploader was RedCoat10 at en.wikipedia (Original text : No illustrator given.), Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_engraving.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🧭",
+      "text": "**Mary Celeste**, tháng 11 năm 1872",
+      "sub": "10 người rời New York, đi Genoa (Ý)",
+      "voice": "[nhanh] Con tàu tên là Mary Celeste. Tháng mười một năm ấy, nó rời New York đi Genoa, nước Ý. [chậm] Trên tàu có mười người: thuyền trưởng Briggs, vợ ông, cô con gái hai tuổi, và bảy thủy thủ.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mary_Celeste_as_Amazon_in_1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Mary Celeste as Amazon in 1861.jpg\" – không rõ tác giả, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861.jpg)"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "🔎",
+      "title": "Khi được tìm thấy",
+      "bullets": [
+        {
+          "icon": "🛢️",
+          "text": "1.701 thùng cồn còn nguyên"
+        },
+        {
+          "icon": "🍞",
+          "text": "Đủ thức ăn cho 6 tháng"
+        },
+        {
+          "icon": "🚣",
+          "text": "Mất xuồng cứu sinh, dụng cụ đi biển"
+        }
+      ],
+      "voice": "[cao] Một tháng sau, tàu Dei Gratia bắt gặp nó trôi giữa biển. [nhanh] Hàng hóa còn nguyên. Quần áo, đồ đạc vẫn ở chỗ cũ. [nhấn] Chỉ có chiếc xuồng cứu sinh… là biến mất.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg/1920px-Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 01.jpg\" – Crawdad Blues, CC0 (https://commons.wikimedia.org/wiki/File:Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_(PEM_M6557)_01.jpg)"
+      }
+    },
+    {
+      "type": "number",
+      "pre": "Dòng nhật ký cuối cùng ghi gần quần đảo Azores, cách đó khoảng",
+      "value": "740",
+      "unit": "km",
+      "caption": "con tàu **tự trôi 9 ngày** không người lái",
+      "voice": "[chậm] Dòng nhật ký cuối cùng được viết gần quần đảo Azores. [nhấn] Sau đó… không còn gì nữa. [nhanh] Suốt chín ngày, con tàu tự trôi hơn bảy trăm cây số mà không có ai cầm lái.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ilha_de_Santa_Maria-33_%2852496846976%29.jpg/1920px-Ilha_de_Santa_Maria-33_%2852496846976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Ilha de Santa Maria-33 (52496846976).jpg\" – Otávio Nogueira from Fortaleza, BR, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ilha_de_Santa_Maria-33_(52496846976).jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "📖",
+      "text": "Bữa ăn **còn ấm** trên bàn? Sai!",
+      "sub": "Lời đồn lan ra từ truyện hư cấu và các bản kể bịa",
+      "voice": "[trầm] Bạn có thể từng nghe: trên bàn còn bữa ăn đang ấm. [nhấn] Đó là lời đồn sai! [nhanh] Năm một nghìn tám trăm tám mươi tư, một nhà văn trẻ viết truyện hư cấu về con tàu, nhiều người lại tưởng là thật. [cao] Nhà văn ấy là Conan Doyle, cha đẻ của Sherlock Holmes!",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Sherlock by C. A. Doyle - Holmes seated.jpg\" – Charles Altamont Doyle (1832-1893), Public domain (https://commons.wikimedia.org/wiki/File:Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg)"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "🤔",
+      "title": "Vậy họ đi đâu?",
+      "bullets": [
+        {
+          "icon": "💥",
+          "text": "Sợ hơi cồn phát nổ?"
+        },
+        {
+          "icon": "🌊",
+          "text": "Tưởng tàu đang chìm?"
+        },
+        {
+          "icon": "❓",
+          "text": "Đến nay chưa có lời giải"
+        }
+      ],
+      "voice": "[chậm] Vậy mười người đi đâu? [nhanh] Có giả thuyết: thuyền trưởng sợ hơi cồn rò rỉ phát nổ, nên cho mọi người xuống xuồng chờ. Rồi dây đứt, xuồng lạc mất tàu. [nhấn] Nhưng không ai còn sống để kể lại.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Storm_at_Sea_off_the_Norwegian_Coast_%28SM_875%29.png/1920px-Storm_at_Sea_off_the_Norwegian_Coast_%28SM_875%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Storm at Sea off the Norwegian Coast (SM 875).png\" – Andreas Achenbach, PDM-owner (https://commons.wikimedia.org/wiki/File:Storm_at_Sea_off_the_Norwegian_Coast_(SM_875).png)"
+      }
+    },
+    {
+      "type": "outro",
+      "recap": "10 người biến mất · tàu còn nguyên · chưa có lời giải",
+      "voice": "[chậm] Mười người biến mất. Con tàu vẫn còn nguyên. [trầm] Sử thật… lạ hơn cả truyện. [nhanh] Theo dõi Người Gác Sử nhé!",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vilhelm_Arnesen_-_Et_skib_i_storm_p%C3%A5_Atlanterhavet_-_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Vilhelm Arnesen - Et skib i storm på Atlanterhavet - 1897.jpg\" – Vilhelm Arnesen, Public domain (https://commons.wikimedia.org/wiki/File:Vilhelm_Arnesen_-_Et_skib_i_storm_p%C3%A5_Atlanterhavet_-_1897.jpg)"
+      }
+    }
+  ],
+  "post": {
+    "hook": "Năm 1872, người ta tìm thấy một con tàu trôi giữa Đại Tây Dương: hàng hóa còn nguyên, thức ăn đủ dùng 6 tháng… nhưng không còn một ai 🌊",
+    "paragraphs": [
+      "Tháng 11/1872, tàu Mary Celeste rời New York, chở 1.701 thùng cồn sang Genoa (Ý). Trên tàu có 10 người: thuyền trưởng Benjamin Briggs, vợ ông là bà Sarah, cô con gái Sophia mới 2 tuổi và 7 thủy thủ.",
+      "Ngày 4/12/1872, thủy thủ tàu Dei Gratia thấy con tàu này trôi lảo đảo giữa biển, buồm rách, không ai cầm lái.",
+      "Họ trèo lên. Hàng hóa còn nguyên, quần áo đồ đạc vẫn ở chỗ cũ, không có dấu hiệu đánh nhau. Chỉ có chiếc xuồng cứu sinh, đồng hồ hàng hải và gần hết giấy tờ là biến mất.",
+      "Dòng nhật ký cuối cùng ghi ngày 25/11, gần quần đảo Azores. Suốt 9 ngày sau đó, con tàu tự trôi hơn 700 km mà không có người lái.",
+      "Tại Gibraltar, quan chức điều tra nghi thủy thủ say rượu giết thuyền trưởng. Nhưng xét nghiệm cho thấy những vết đỏ trên tàu không phải máu, thanh kiếm chỉ có vết gỉ.",
+      "Còn những chi tiết rùng rợn như “bữa ăn còn ấm trên bàn”? Đều là lời đồn sai.",
+      "Năm 1884, một nhà văn trẻ viết truyện hư cấu về con tàu và đổi tên nó thành Marie Celeste. Nhiều người tưởng là thật. Nhà văn ấy là Arthur Conan Doyle, ba năm sau ông viết truyện Sherlock Holmes đầu tiên.",
+      "Giả thuyết được tin nhiều nhất: hơi cồn rò rỉ khiến thuyền trưởng sợ tàu phát nổ, nên cho mọi người xuống xuồng chờ. Rồi dây nối đứt, con tàu bỏ lại họ giữa đại dương. Nhưng đến nay vẫn không ai chắc chắn."
+    ],
+    "ending": "Nếu là thuyền trưởng Briggs, bạn nghĩ điều gì có thể khiến ông bỏ lại một con tàu vẫn còn nổi tốt?",
+    "hashtags": [
+      "nguoigacsu",
+      "bíẩn",
+      "lịchsử",
+      "chuyệncóthật",
+      "maryceleste"
+    ],
+    "slides": [
+      {
+        "kind": "cover",
+        "scene": 0,
+        "kicker": "Chuyện có thật · 1872",
+        "title": "Con tàu **không một bóng người**"
+      },
+      {
+        "scene": 1,
+        "tag": "New York · 11/1872",
+        "text": "10 người lên tàu Mary Celeste, chở 1.701 thùng cồn sang Ý."
+      },
+      {
+        "scene": 2,
+        "tag": "4/12/1872",
+        "text": "Tìm thấy giữa biển: hàng còn nguyên, đồ đạc còn nguyên. Chỉ mất chiếc xuồng cứu sinh."
+      },
+      {
+        "scene": 4,
+        "tag": "Lời đồn",
+        "text": "“Bữa ăn còn ấm trên bàn” là sai. Một phần do truyện hư cấu của Conan Doyle."
+      },
+      {
+        "kind": "end",
+        "scene": 6,
+        "text": "Hơn 150 năm sau, 10 người ấy vẫn chưa được tìm thấy."
+      }
+    ]
+  },
+  "long": {
+    "title": "Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste",
+    "title_card": "Bí ẩn tàu **Mary Celeste**",
+    "description": "Năm 1872, người ta tìm thấy tàu Mary Celeste trôi giữa Đại Tây Dương: hàng hóa còn nguyên, thức ăn đủ dùng sáu tháng, nhưng thuyền trưởng, vợ, con gái nhỏ và bảy thủy thủ đã biến mất. Điều gì đã xảy ra? Và vì sao những chi tiết rùng rợn mà ai cũng kể lại là sai?",
+    "voice": "Sadaltager",
+    "music": "Investigations",
+    "chapters": [
+      {
+        "beats": [
+          {
+            "text": "Ngày bốn tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương. Thủy thủ trên tàu Dei Gratia nhìn thấy một con tàu lạ ở phía xa.",
+            "ai": "a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, from the deck of another ship, overcast morning"
+          },
+          {
+            "text": "Con tàu ấy đi lảo đảo, cánh buồm rách tả tơi, như không có ai cầm lái. Họ gọi lớn. Không ai trả lời.",
+            "ai": "a lone brigantine sailing erratically with torn sails on a rough grey sea, no people visible on deck, eerie"
+          },
+          {
+            "text": "Khi trèo lên boong, họ thấy hàng hóa còn nguyên, thức ăn và nước uống đủ dùng trong sáu tháng, đồ đạc cá nhân vẫn ở chỗ cũ.",
+            "ai": "an empty wooden ship cabin in the 1870s with personal belongings, a sea chest, folded clothes and an oil lamp, dim light, deserted"
+          },
+          {
+            "text": "Nhưng không còn một ai. Thuyền trưởng, vợ ông, cô con gái nhỏ hai tuổi và bảy thủy thủ… tất cả đã biến mất.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mary_Celeste_engraving.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Mary Celeste engraving.jpg\" – Original uploader was RedCoat10 at en.wikipedia (Original text : No illustrator given.), Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_engraving.jpg)"
+            },
+            "label": "Mary Celeste · 1872"
+          },
+          {
+            "text": "Hơn một trăm năm mươi năm sau, bí ẩn về con tàu Mary Celeste vẫn chưa có lời giải. Và câu chuyện thật còn kỳ lạ hơn những lời đồn mà bạn từng nghe.",
+            "ai": "an old ship's logbook lying open on a wooden table beside a quill and an extinguished candle, sea light through a porthole"
+          }
+        ]
+      },
+      {
+        "title": "Con tàu mang tiếng xui",
+        "beats": [
+          {
+            "text": "Câu chuyện bắt đầu ở Spencer's Island, một làng đóng tàu nhỏ ở Nova Scotia, Canada. Năm một nghìn tám trăm sáu mươi mốt, một con tàu hai cột buồm được hạ thủy ở đây.",
+            "ai": "a small 19th-century shipyard village on the coast of Nova Scotia with a wooden two-masted ship being built on the shore, pine forest",
+            "label": "Spencer's Island · Nova Scotia"
+          },
+          {
+            "text": "Tên ban đầu của nó không phải là Mary Celeste, mà là Amazon.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mary_Celeste_as_Amazon_in_1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Mary Celeste as Amazon in 1861.jpg\" – không rõ tác giả, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861.jpg)"
+            }
+          },
+          {
+            "text": "Ngay từ những năm đầu, con tàu đã gặp hết tai nạn này đến tai nạn khác. Thủy thủ bắt đầu thì thầm rằng nó là một con tàu xui xẻo.",
+            "ai": "sailors whispering together on a dock beside a moored brigantine at dusk, lanterns, superstitious mood"
+          },
+          {
+            "text": "Năm một nghìn tám trăm sáu mươi bảy, một cơn bão đánh dạt con tàu vào bờ biển. Nó bị hư hỏng nặng và bị bỏ lại như một xác tàu.",
+            "ai": "a damaged wooden sailing ship stranded on a rocky shore after a storm, broken mast, grey sky"
+          },
+          {
+            "text": "Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste.",
+            "ai": "a busy 1860s New York harbor with sailing ships, wooden piers and warehouses, sepia, bustling"
+          }
+        ]
+      },
+      {
+        "title": "Chuyến đi cuối cùng",
+        "beats": [
+          {
+            "text": "Năm một nghìn tám trăm bảy mươi hai, thuyền trưởng của Mary Celeste là Benjamin Briggs, ba mươi bảy tuổi, một người đi biển giàu kinh nghiệm, nghiêm túc và sùng đạo.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg/1920px-Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 01.jpg\" – Crawdad Blues, CC0 (https://commons.wikimedia.org/wiki/File:Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_(PEM_M6557)_01.jpg)"
+            },
+            "label": "Bàn viết của thuyền trưởng Briggs"
+          },
+          {
+            "text": "Ông xuất thân từ một gia đình đi biển ở bang Massachusetts, và còn góp vốn làm đồng chủ của chính con tàu Mary Celeste. Với ông, đây là một chuyến đi quan trọng.",
+            "ai": "a 19th-century New England coastal town with white wooden houses and a church steeple by the harbor, sailing ships moored, calm morning"
+          },
+          {
+            "text": "Lần này, ông mang theo vợ là bà Sarah, và cô con gái nhỏ Sophia, mới hai tuổi. Bà Sarah còn mang theo cả một cây đàn phong cầm nhỏ để chơi nhạc trên biển.",
+            "ai": "a young 1870s woman in a long dark dress playing a small melodeon in a wooden ship cabin, a small child on a rug nearby, warm lamp light, painted from behind"
+          },
+          {
+            "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ.",
+            "ai": "seven 19th-century sailors in wool caps and coats standing on the deck of a brigantine at a harbor, seen from a distance"
+          },
+          {
+            "text": "Hàng trên tàu là một nghìn bảy trăm linh một thùng cồn công nghiệp, chở từ New York sang Genoa, nước Ý.",
+            "ai": "rows of wooden barrels stacked in the dark hold of a 19th-century ship, lantern light"
+          },
+          {
+            "text": "Ngày năm tháng mười một, con tàu rời cảng New York. Thời tiết xấu khiến nó phải neo lại vài ngày, rồi mới thật sự ra khơi.",
+            "ai": "a brigantine leaving New York harbor in grey November weather, small boats around, the city skyline of the 1870s behind",
+            "label": "New York · 11/1872"
+          },
+          {
+            "text": "Ít ngày sau, một con tàu khác cũng rời New York, đi theo gần như cùng một hướng. Đó là tàu Dei Gratia, của thuyền trưởng David Morehouse.",
+            "ai": "a Canadian brigantine under full sail on the open Atlantic, sunny with clouds"
+          }
+        ]
+      },
+      {
+        "title": "Con tàu không người",
+        "beats": [
+          {
+            "text": "Ngày bốn tháng mười hai, thủy thủ Dei Gratia nhận ra con tàu trôi lạc ấy. Họ quan sát suốt hai tiếng đồng hồ, không thấy một bóng người trên boong.",
+            "ai": "sailors on a ship deck looking through a brass telescope at a distant ship on the ocean, tense"
+          },
+          {
+            "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste.",
+            "ai": "two sailors rowing a small wooden boat across choppy water toward a silent sailing ship, grey sky"
+          },
+          {
+            "text": "Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.",
+            "ai": "the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence"
+          },
+          {
+            "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại.",
+            "ai": "an empty narrow ship corridor below deck with a swinging oil lamp, shadows, mysterious"
+          },
+          {
+            "text": "Thuyền trưởng Morehouse phải quyết định: bỏ mặc con tàu ma này, hay chia bớt người để đưa nó về cảng. Đường còn xa, mà mỗi tàu sẽ chỉ còn rất ít người lái.",
+            "ai": "a thoughtful 19th-century sea captain standing at the rail of his ship looking at another drifting ship, wind in his coat, dramatic sky"
+          },
+          {
+            "text": "Phòng thuyền trưởng vẫn còn quần áo, sách vở và đồ đạc của cả gia đình. Không có dấu hiệu đánh nhau hay cướp bóc.",
+            "ai": "a captain's cabin on a 19th-century ship with clothes on a bunk, books on a shelf and a small melodeon, untouched, quiet light"
+          }
+        ]
+      },
+      {
+        "title": "Những gì còn lại",
+        "beats": [
+          {
+            "text": "Trong khoang có khoảng một mét nước. Nhiều, nhưng không đủ để làm con tàu chìm. Mary Celeste vẫn đi biển tốt.",
+            "ai": "seawater sloshing in the dark lower hold of a wooden ship among barrels, lantern reflection"
+          },
+          {
+            "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu.",
+            "ai": "a makeshift wooden sounding rod lying abandoned on a wet ship deck next to a pump, close-up"
+          },
+          {
+            "text": "Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn.",
+            "ai": "a ship's brass binnacle compass housing knocked askew with cracked glass on a wooden deck, close-up, overcast light"
+          },
+          {
+            "text": "Chiếc xuồng cứu sinh duy nhất của tàu đã biến mất. Cùng với nó là đồng hồ hàng hải, kính lục phân và gần hết giấy tờ của con tàu.",
+            "ai": "an empty wooden davit and loose ropes hanging over the side of a sailing ship where a lifeboat used to be, ocean below"
+          },
+          {
+            "text": "Nghĩa là mọi người đã rời tàu bằng xuồng, và có vẻ là rời đi rất vội.",
+            "ai": "a small wooden lifeboat with a few silhouetted people rowing away across a vast grey ocean, seen from far away, melancholic"
+          },
+          {
+            "text": "Cuốn nhật ký hàng hải vẫn còn. Dòng cuối cùng được ghi lúc tám giờ sáng ngày hai mươi lăm tháng mười một, khi tàu đi ngang đảo Santa Maria thuộc quần đảo Azores.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ilha_de_Santa_Maria-33_%2852496846976%29.jpg/1920px-Ilha_de_Santa_Maria-33_%2852496846976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Ilha de Santa Maria-33 (52496846976).jpg\" – Otávio Nogueira from Fortaleza, BR, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ilha_de_Santa_Maria-33_(52496846976).jpg)"
+            },
+            "label": "Đảo Santa Maria · Azores"
+          },
+          {
+            "text": "Từ đó đến khi được tìm thấy là chín ngày. Không người lái, Mary Celeste đã tự trôi hơn bảy trăm cây số trên biển.",
+            "ai": "an old nautical chart of the Atlantic between the Azores and Portugal with a dotted route line, brass dividers on top"
+          }
+        ]
+      },
+      {
+        "title": "Phiên tòa ở Gibraltar",
+        "beats": [
+          {
+            "text": "Thủy thủ Dei Gratia chia đôi người, lái cả hai con tàu về Gibraltar. Theo luật hàng hải, cứu được một con tàu bị bỏ lại thì được nhận một phần giá trị của nó.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Aivazovsky_gibraltar.jpg/1920px-Aivazovsky_gibraltar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Aivazovsky gibraltar.jpg\" – Ivan Aivazovsky, Public domain (https://commons.wikimedia.org/wiki/File:Aivazovsky_gibraltar.jpg)"
+            },
+            "label": "Gibraltar · 12/1872"
+          },
+          {
+            "text": "Nhưng tại phiên tòa, ông Frederick Solly-Flood, người đứng đầu việc thẩm vấn, lại đầy nghi ngờ.",
+            "ai": "a 19th-century British colonial courtroom with wooden benches and a judge's bench, gentlemen in dark coats, solemn"
+          },
+          {
+            "text": "Ông cho rằng có thể thủy thủ đã uống rượu say, giết thuyền trưởng và gia đình.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mary_Celeste_NYTimes_1873February26.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Mary Celeste NYTimes 1873February26.png\" – Boston Post, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_NYTimes_1873February26.png)"
+            },
+            "label": "Báo New York Times · 26/2/1873"
+          },
+          {
+            "text": "Những vết đỏ trên boong được đem đi xét nghiệm. Kết quả: không phải máu. Thanh kiếm tìm thấy trên tàu chỉ có vết gỉ sét.",
+            "ai": "an old sword in a worn scabbard lying on a wooden table under a magnifying glass, Victorian laboratory setting"
+          },
+          {
+            "text": "Phiên điều tra kéo dài gần bốn tháng. Báo chí khắp nơi đưa tin, và mỗi người đưa ra một giả thuyết khác nhau.",
+            "ai": "Victorian newspaper boys selling papers on a busy street corner of Gibraltar, crowd reading headlines, sepia"
+          },
+          {
+            "text": "Không tìm được bằng chứng nào về tội ác. Cuối cùng, người cứu tàu chỉ nhận được khoảng một phần năm giá trị con tàu và hàng hóa, ít hơn nhiều so với mong đợi.",
+            "ai": "a stack of old British pound banknotes and coins on a desk next to a legal document with a wax seal, sepia"
+          },
+          {
+            "text": "Một người mới, một thủy thủ đoàn mới, đưa Mary Celeste tiếp tục đến Genoa. Còn mười con người kia thì không bao giờ được tìm thấy.",
+            "ai": "a sailing ship leaving the harbor of Gibraltar with the great Rock behind it, golden afternoon light"
+          }
+        ]
+      },
+      {
+        "title": "Lời đồn và truyện hư cấu",
+        "beats": [
+          {
+            "text": "Có lẽ bạn từng nghe: trên bàn còn bữa ăn đang ấm, tẩu thuốc còn bốc khói, như thể mọi người vừa biến mất trong tích tắc.",
+            "ai": "a ship's dining table with plates of food and a smoking pipe, ghostly empty chairs, dramatic candlelight, mysterious"
+          },
+          {
+            "text": "Những chi tiết ấy là sai. Thủy thủ Dei Gratia mất hai tiếng mới trèo lên được tàu. Không thể có thức ăn nào còn ấm.",
+            "ai": "a cold empty ship galley with a plain iron stove, unlit, and a few clean bowls on a shelf, dim and quiet"
+          },
+          {
+            "text": "Năm một nghìn tám trăm tám mươi tư, một nhà văn trẻ viết một truyện ngắn hư cấu dựa trên con tàu này, đổi tên nó thành Marie Celeste.",
+            "ai": "a young Victorian writer with a moustache writing at a desk by gaslight, pages and an inkwell, seen from the side in shadow",
+            "label": "Arthur Conan Doyle · 1884"
+          },
+          {
+            "text": "Nhà văn ấy là Arthur Conan Doyle. Ba năm sau, ông viết truyện đầu tiên về thám tử Sherlock Holmes.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Sherlock by C. A. Doyle - Holmes seated.jpg\" – Charles Altamont Doyle (1832-1893), Public domain (https://commons.wikimedia.org/wiki/File:Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg)"
+            },
+            "label": "Sherlock Holmes · tranh minh họa 1888"
+          },
+          {
+            "text": "Truyện của Doyle hay đến mức nhiều người tưởng là chuyện thật. Cái tên sai Marie Celeste cũng lan rộng khắp nơi.",
+            "ai": "Victorian gentlemen reading magazines in a London club, armchairs and lamps, cozy, sepia"
+          },
+          {
+            "text": "Về sau còn có những bài báo và cả một cuốn sách tự xưng là lời kể của người sống sót. Tất cả đều là bịa đặt.",
+            "ai": "a pile of old yellowed newspapers with dramatic but unreadable headlines on a wooden desk, scattered"
+          },
+          {
+            "text": "Năm một nghìn chín trăm mười ba, một tạp chí ở London còn đăng hồi ký của một người tự nhận là thủy thủ sống sót, kể rằng mọi người rơi xuống biển và bị cá mập ăn thịt. Câu chuyện ấy sai nhiều chi tiết, từ con tàu đến quốc tịch của các thủy thủ.",
+            "ai": "an old literary magazine lying open on a Victorian armchair with an illustration of stormy sea, unreadable text, sepia"
+          }
+        ]
+      },
+      {
+        "title": "Vậy họ đã đi đâu?",
+        "beats": [
+          {
+            "text": "Giả thuyết hải tặc ít được tin, vì hàng hóa và đồ đạc quý vẫn còn nguyên. Giả thuyết thủy thủ nổi loạn cũng không có bằng chứng.",
+            "ai": "a closed wooden sea chest with brass fittings and a few silver coins beside it, untouched, ship cabin"
+          },
+          {
+            "text": "Giả thuyết được nhiều người tin nhất liên quan đến chính món hàng: cồn.",
+            "ai": "close-up of old oak barrels with metal hoops in a ship hold, faint vapor in lantern light"
+          },
+          {
+            "text": "Khi dỡ hàng ở Genoa, người ta phát hiện chín thùng đã rỗng. Hơi cồn rò rỉ có thể đã tích tụ trong khoang.",
+            "ai": "dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty"
+          },
+          {
+            "text": "Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.",
+            "ai": "a ship's open hatch with a faint blue flash of light inside the dark hold, startled silhouette of a captain, night"
+          },
+          {
+            "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy.",
+            "ai": "a modern chemistry laboratory with a wooden box model of a ship hold and a bright flash of blue flame, scientists in the background"
+          },
+          {
+            "text": "Một giả thuyết khác: máy bơm bị tắc, cây gậy đo nước báo sai, khiến thuyền trưởng tưởng tàu đang chìm nhanh.",
+            "ai": "a worried sea captain leaning over a ship's pump at dusk, waves splashing on deck"
+          },
+          {
+            "text": "Có người cho rằng một cột nước xoáy trên biển đã quét qua con tàu, làm thiết bị đo báo sai và khiến mọi người hoảng loạn.",
+            "ai": "a dramatic waterspout twisting over a dark ocean near a small sailing ship, stormy clouds, 19th-century painting style"
+          },
+          {
+            "text": "Cũng có những giả thuyết về quái vật biển, mực khổng lồ, thậm chí người ngoài hành tinh. Không cái nào có bằng chứng.",
+            "ai": "a vintage illustration of a giant sea creature's tentacles rising from the ocean near a ship, mythical, sepia engraving style"
+          },
+          {
+            "text": "Dù vì lý do gì, có thể họ đã xuống xuồng, buộc dây vào tàu để chờ xem chuyện gì xảy ra. Rồi gió nổi lên, dây đứt, và con tàu bỏ lại họ giữa đại dương.",
+            "ai": "a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, dramatic ocean"
+          },
+          {
+            "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật.",
+            "ai": "a vast empty stormy ocean at twilight with no ships, only waves and clouds, lonely"
+          }
+        ]
+      },
+      {
+        "title": "Số phận con tàu",
+        "beats": [
+          {
+            "text": "Sau vụ việc, tiếng xui của Mary Celeste càng nặng hơn. Con tàu đổi chủ liên tục, ít ai muốn làm việc trên đó.",
+            "ai": "a weathered old brigantine moored alone at the end of a quiet harbor, peeling paint, gulls, melancholic"
+          },
+          {
+            "text": "Năm một nghìn tám trăm tám mươi lăm, thuyền trưởng Gilman Parker chất lên tàu một đống hàng gần như vô giá trị nhưng khai là hàng đắt tiền, rồi mua bảo hiểm thật cao.",
+            "ai": "cheap broken crates and junk loaded onto a sailing ship at a dock while a man in a coat checks a ledger, shady mood"
+          },
+          {
+            "text": "Ngày ba tháng một, ông cố tình lái Mary Celeste đâm vào một rạn san hô ngoài khơi Haiti, để lấy tiền bảo hiểm.",
+            "ai": "a sailing ship deliberately run aground on a coral reef near a Caribbean island, turquoise water, broken hull",
+            "label": "Haiti · 1885"
+          },
+          {
+            "text": "Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau.",
+            "ai": "an empty 19th-century courtroom bench with a single hat left on it, dim light, somber"
+          },
+          {
+            "text": "Năm hai nghìn không trăm linh một, một đoàn thám hiểm tuyên bố đã tìm thấy xác Mary Celeste ở rạn san hô ấy. Nhưng phân tích vân gỗ cho thấy gỗ đó đến từ những cái cây vẫn còn sống… mười năm sau khi Mary Celeste bị đắm.",
+            "ai": "divers examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water"
+          },
+          {
+            "text": "Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn.",
+            "ai": "a clear empty coral reef seen from above with gentle waves, no wreck visible, mysterious"
+          }
+        ]
+      },
+      {
+        "title": "Lời kết",
+        "beats": [
+          {
+            "text": "Mười con người. Một con tàu còn nguyên vẹn. Một cuốn nhật ký dừng lại ở dòng cuối cùng.",
+            "ai": "an old ship's logbook closed on a table with a sea chart and a small child's shoe beside it, soft window light, poignant"
+          },
+          {
+            "text": "Họ không phải những nhân vật trong truyện. Họ là một người cha, một người mẹ, một em bé hai tuổi, và bảy thủy thủ có gia đình đang chờ ở quê nhà.",
+            "ai": "a family portrait-style painting of an empty harbor at dawn with a woman waiting on a pier, seen from behind, melancholic, soft light"
+          },
+          {
+            "text": "Có lẽ họ đã ra đi vì một nỗi sợ, một quyết định vội vàng trong khoảnh khắc. Một quyết định mà con tàu, trớ trêu thay, lại vượt qua được.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vilhelm_Arnesen_-_Et_skib_i_storm_p%C3%A5_Atlanterhavet_-_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Vilhelm Arnesen - Et skib i storm på Atlanterhavet - 1897.jpg\" – Vilhelm Arnesen, Public domain (https://commons.wikimedia.org/wiki/File:Vilhelm_Arnesen_-_Et_skib_i_storm_p%C3%A5_Atlanterhavet_-_1897.jpg)"
+            }
+          },
+          {
+            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
+            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+          }
+        ]
+      }
+    ]
+  }
+}

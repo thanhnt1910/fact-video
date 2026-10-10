@@ -21,6 +21,7 @@ YÊU CẦU NỘI DUNG
   Không bịa lời thoại, không thêm tình tiết để câu khách.
 - TRÁNH: vụ án giết người hiện đại, thảm họa gần đây có người chết, lịch sử – chính trị Việt Nam hiện đại,
   thuyết âm mưu kể như thật, người thật còn sống không phải người nổi tiếng, miêu tả bạo lực chi tiết.
+- Video ngắn và video dài đều đọc bằng giọng Gemini Sadaltager. Thẻ nhấn nhá bên dưới được chuyển thành gợi ý cách đọc cho Gemini.
 - GIỌNG ĐỌC LÀ AI NÊN PHẢI "ĐẠO DIỄN" TỪNG CÂU. Viết "voice" như người dẫn chuyện đang hào hứng kể, và gắn THẺ NHẤN NHÁ ở ĐẦU câu:
   [nhấn]  đọc chậm, to, giọng hơi lên — dùng cho câu "đinh", sự thật bất ngờ (mỗi cảnh tối đa 1 câu)
   [nhanh] đọc nhanh — câu dẫn, câu giải thích phụ, lời kêu gọi theo dõi

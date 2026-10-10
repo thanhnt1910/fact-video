@@ -1,93 +1,88 @@
-[{"stream_name":"stdout","time":5.831233794,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 56.9 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":5.891742377,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.5/118.5 kB 4.1 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":6.053155345,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 101.2 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":6.092456648,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 18.8 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":6.126793364,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 18.5 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":6.168096727,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 33.5 MB/s eta 0:00:00\n"}
-,{"stream_name":"stderr","time":29.092302303,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stderr","time":29.092334308,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
-,{"stream_name":"stderr","time":29.092338331,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":29.092341065,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":29.09234368,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":29.092346986,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":29.092349353,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":61.857743175,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":61.858654558,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1015, in _get_module\n"}
-,{"stream_name":"stderr","time":61.858669097,"data":"    return importlib.import_module(\".\" + module_name, self.__name__)\n"}
-,{"stream_name":"stderr","time":61.858675684,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":61.858681276,"data":"  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n"}
-,{"stream_name":"stderr","time":61.858698452,"data":"    return _bootstrap._gcd_import(name[level:], package, level)\n"}
-,{"stream_name":"stderr","time":61.85870286,"data":"           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":61.858707208,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1395, in _gcd_import\n"}
-,{"stream_name":"stderr","time":61.858723098,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1360, in _find_and_load\n"}
-,{"stream_name":"stderr","time":61.858755726,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1331, in _find_and_load_unlocked\n"}
-,{"stream_name":"stderr","time":61.858760079,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 935, in _load_unlocked\n"}
-,{"stream_name":"stderr","time":61.858764146,"data":"  File \"\u003cfrozen importlib._bootstrap_external\u003e\", line 1023, in exec_module\n"}
-,{"stream_name":"stderr","time":61.858768289,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\n"}
-,{"stream_name":"stderr","time":61.858771941,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/loaders/ip_adapter.py\", line 23, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.858775641,"data":"    from ..models.modeling_utils import _LOW_CPU_MEM_USAGE_DEFAULT, load_state_dict\n"}
-,{"stream_name":"stderr","time":61.858779183,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/modeling_utils.py\", line 41, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.858782821,"data":"    from ..quantizers import DiffusersAutoQuantizer, DiffusersQuantizer\n"}
-,{"stream_name":"stderr","time":61.858786236,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/quantizers/__init__.py\", line 16, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.858789891,"data":"    from .auto import DiffusersAutoQuantizer\n"}
-,{"stream_name":"stderr","time":61.858793865,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/quantizers/auto.py\", line 40, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.85879846,"data":"    from .torchao import TorchAoHfQuantizer\n"}
-,{"stream_name":"stderr","time":61.858802045,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/quantizers/torchao/__init__.py\", line 15, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.858806396,"data":"    from .torchao_quantizer import TorchAoHfQuantizer\n"}
-,{"stream_name":"stderr","time":61.858810426,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/quantizers/torchao/torchao_quantizer.py\", line 55, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.858814875,"data":"    from torchao.quantization import FqnToConfig, quantize_\n"}
-,{"stream_name":"stderr","time":61.858829217,"data":"ImportError: cannot import name 'FqnToConfig' from 'torchao.quantization' (/usr/local/lib/python3.13/dist-packages/torchao/quantization/__init__.py)\n"}
-,{"stream_name":"stderr","time":61.858833552,"data":"\n"}
-,{"stream_name":"stderr","time":61.858837366,"data":"The above exception was the direct cause of the following exception:\n"}
-,{"stream_name":"stderr","time":61.858841526,"data":"\n"}
-,{"stream_name":"stderr","time":61.858845156,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":61.85977312,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1015, in _get_module\n"}
-,{"stream_name":"stderr","time":61.859790385,"data":"    return importlib.import_module(\".\" + module_name, self.__name__)\n"}
-,{"stream_name":"stderr","time":61.859796851,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":61.859801727,"data":"  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n"}
-,{"stream_name":"stderr","time":61.859821975,"data":"    return _bootstrap._gcd_import(name[level:], package, level)\n"}
-,{"stream_name":"stderr","time":61.859826669,"data":"           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":61.859831226,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1395, in _gcd_import\n"}
-,{"stream_name":"stderr","time":61.859844158,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1360, in _find_and_load\n"}
-,{"stream_name":"stderr","time":61.859848854,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1331, in _find_and_load_unlocked\n"}
-,{"stream_name":"stderr","time":61.859853209,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 935, in _load_unlocked\n"}
-,{"stream_name":"stderr","time":61.859857489,"data":"  File \"\u003cfrozen importlib._bootstrap_external\u003e\", line 1023, in exec_module\n"}
-,{"stream_name":"stderr","time":61.859861794,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\n"}
-,{"stream_name":"stderr","time":61.859872616,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux/pipeline_flux.py\", line 30, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.859876504,"data":"    from ...loaders import FluxIPAdapterMixin, FluxLoraLoaderMixin, FromSingleFileMixin, TextualInversionLoaderMixin\n"}
-,{"stream_name":"stderr","time":61.859879299,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1420, in _handle_fromlist\n"}
-,{"stream_name":"stderr","time":61.859882027,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1005, in __getattr__\n"}
-,{"stream_name":"stderr","time":61.859884805,"data":"    module = self._get_module(self._class_to_module[name])\n"}
-,{"stream_name":"stderr","time":61.859887626,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1017, in _get_module\n"}
-,{"stream_name":"stderr","time":61.85989036,"data":"    raise RuntimeError(\n"}
-,{"stream_name":"stderr","time":61.859892939,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":61.859895646,"data":"    ) from e\n"}
-,{"stream_name":"stderr","time":61.859900955,"data":"RuntimeError: Failed to import diffusers.loaders.ip_adapter because of the following error (look up to see its traceback):\n"}
-,{"stream_name":"stderr","time":61.859903832,"data":"cannot import name 'FqnToConfig' from 'torchao.quantization' (/usr/local/lib/python3.13/dist-packages/torchao/quantization/__init__.py)\n"}
-,{"stream_name":"stderr","time":61.859906663,"data":"\n"}
-,{"stream_name":"stderr","time":61.859909188,"data":"The above exception was the direct cause of the following exception:\n"}
-,{"stream_name":"stderr","time":61.859911826,"data":"\n"}
-,{"stream_name":"stderr","time":61.859914276,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":61.860642945,"data":"  File \"/kaggle/src/script.py\", line 11, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":61.860656235,"data":"    from diffusers import FluxPipeline, FluxTransformer2DModel, GGUFQuantizationConfig\n"}
-,{"stream_name":"stderr","time":61.860660765,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1420, in _handle_fromlist\n"}
-,{"stream_name":"stderr","time":61.860664891,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1006, in __getattr__\n"}
-,{"stream_name":"stderr","time":61.860669323,"data":"    value = getattr(module, name)\n"}
-,{"stream_name":"stderr","time":61.860675474,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1006, in __getattr__\n"}
-,{"stream_name":"stderr","time":61.860683899,"data":"    value = getattr(module, name)\n"}
-,{"stream_name":"stderr","time":61.860686639,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1005, in __getattr__\n"}
-,{"stream_name":"stderr","time":61.860694937,"data":"    module = self._get_module(self._class_to_module[name])\n"}
-,{"stream_name":"stderr","time":61.860697665000004,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1017, in _get_module\n"}
-,{"stream_name":"stderr","time":61.860700408,"data":"    raise RuntimeError(\n"}
-,{"stream_name":"stderr","time":61.860703043,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":61.860705671,"data":"    ) from e\n"}
-,{"stream_name":"stderr","time":61.860714861,"data":"RuntimeError: Failed to import diffusers.pipelines.flux.pipeline_flux because of the following error (look up to see its traceback):\n"}
-,{"stream_name":"stderr","time":61.860717962,"data":"Failed to import diffusers.loaders.ip_adapter because of the following error (look up to see its traceback):\n"}
-,{"stream_name":"stderr","time":61.860741411,"data":"cannot import name 'FqnToConfig' from 'torchao.quantization' (/usr/local/lib/python3.13/dist-packages/torchao/quantization/__init__.py)\n"}
-,{"stream_name":"stderr","time":67.753815029,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":67.753867849,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":68.017418001,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":68.017444578,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":68.844302524,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":69.857872959,"data":"[NbConvertApp] Writing 288443 bytes to __results__.html\n"}
+[{"stream_name":"stderr","time":0.636953376,"data":"/kaggle/src/script.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n"}
+,{"stream_name":"stderr","time":0.63699122,"data":"  log(\"bắt đầu lúc\", datetime.datetime.utcnow().strftime(\"%H:%M:%S UTC\"))\n"}
+,{"stream_name":"stdout","time":0.638241318,"data":"[     0s] bắt đầu lúc 16:25:32 UTC\n"}
+,{"stream_name":"stdout","time":5.525593087,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 59.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.563381383,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.5/118.5 kB 5.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.700781063,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 97.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.74181983,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 15.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.772823426,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 21.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.825886625,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 26.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":26.702636093,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":26.702682804,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":26.70268907,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.702693897,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.702698139,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.70270451,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.702709004,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":27.985104281,"data":"[    27s] cài xong thư viện\n"}
+,{"stream_name":"stdout","time":57.809675242,"data":"[    57s] GPU: Tesla T4\n"}
+,{"stream_name":"stderr","time":58.180870158,"data":"\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":58.185480552,"data":"httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/741f7c3ce8b383c54771c7003378a50191e9efe9/scheduler/scheduler_config.json'\n"}
+,{"stream_name":"stderr","time":58.185498463,"data":"For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401\n"}
+,{"stream_name":"stderr","time":58.185519263,"data":"\n"}
+,{"stream_name":"stderr","time":58.185524221,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":58.185528511,"data":"\n"}
+,{"stream_name":"stderr","time":58.185532118,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":58.187446841,"data":"  File \"/kaggle/src/script.py\", line 22, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":58.187461033,"data":"    base = snapshot_download(\"black-forest-labs/FLUX.1-schnell\", allow_patterns=[\n"}
+,{"stream_name":"stderr","time":58.187465719,"data":"        \"model_index.json\", \"scheduler/*\", \"text_encoder/*\", \"text_encoder_2/*\", \"tokenizer/*\", \"tokenizer_2/*\", \"vae/*\"])\n"}
+,{"stream_name":"stderr","time":58.187470774,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n"}
+,{"stream_name":"stderr","time":58.187474971,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":58.187479086,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_http.py\", line 266, in _inner\n"}
+,{"stream_name":"stderr","time":58.18748345,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":58.187487248,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_snapshot_download.py\", line 532, in snapshot_download\n"}
+,{"stream_name":"stderr","time":58.187491661,"data":"    hf_thread_map(\n"}
+,{"stream_name":"stderr","time":58.18749499,"data":"    ~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":58.187498254,"data":"        _inner_hf_hub_download,\n"}
+,{"stream_name":"stderr","time":58.187501601,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":58.187504948,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":58.187510066,"data":"        tqdm_class=tqdm_class,\n"}
+,{"stream_name":"stderr","time":58.18751733,"data":"        ^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":58.187519828,"data":"    )\n"}
+,{"stream_name":"stderr","time":58.18752217,"data":"    ^\n"}
+,{"stream_name":"stderr","time":58.187524412,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/tqdm.py\", line 441, in hf_thread_map\n"}
+,{"stream_name":"stderr","time":58.187526818,"data":"    results[future_to_index[future]] = future.result()\n"}
+,{"stream_name":"stderr","time":58.187529141,"data":"                                       ~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":58.187531398,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
+,{"stream_name":"stderr","time":58.187533755,"data":"    return self.__get_result()\n"}
+,{"stream_name":"stderr","time":58.187535881,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":58.187538045,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
+,{"stream_name":"stderr","time":58.187540316,"data":"    raise self._exception\n"}
+,{"stream_name":"stderr","time":58.187542468,"data":"  File \"/usr/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n"}
+,{"stream_name":"stderr","time":58.187544851,"data":"    result = self.fn(*self.args, **self.kwargs)\n"}
+,{"stream_name":"stderr","time":58.187547154,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/_snapshot_download.py\", line 512, in _inner_hf_hub_download\n"}
+,{"stream_name":"stderr","time":58.187554395,"data":"    hf_hub_download(  # type: ignore\n"}
+,{"stream_name":"stderr","time":58.187556711,"data":"    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":58.187558921,"data":"        repo_id,\n"}
+,{"stream_name":"stderr","time":58.187561073,"data":"        ^^^^^^^^\n"}
+,{"stream_name":"stderr","time":58.18756328,"data":"    ...\u003c14 lines\u003e...\n"}
+,{"stream_name":"stderr","time":58.187565623,"data":"        dry_run=dry_run,\n"}
+,{"stream_name":"stderr","time":58.187567837,"data":"        ^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":58.187570057,"data":"    )\n"}
+,{"stream_name":"stderr","time":58.187572228,"data":"    ^\n"}
+,{"stream_name":"stderr","time":58.187574736,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n"}
+,{"stream_name":"stderr","time":58.18759418,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":58.187598002,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_http.py\", line 266, in _inner\n"}
+,{"stream_name":"stderr","time":58.187601544,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":58.187605255,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1047, in hf_hub_download\n"}
+,{"stream_name":"stderr","time":58.187609834,"data":"    return _hf_hub_download_to_cache_dir(\n"}
+,{"stream_name":"stderr","time":58.187613197,"data":"        # Destination\n"}
+,{"stream_name":"stderr","time":58.187616252,"data":"    ...\u003c15 lines\u003e...\n"}
+,{"stream_name":"stderr","time":58.187619437,"data":"        dry_run=dry_run,\n"}
+,{"stream_name":"stderr","time":58.187622934,"data":"    )\n"}
+,{"stream_name":"stderr","time":58.187626817,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1194, in _hf_hub_download_to_cache_dir\n"}
+,{"stream_name":"stderr","time":58.187631065,"data":"    _raise_on_head_call_error(head_call_error, force_download, local_files_only)\n"}
+,{"stream_name":"stderr","time":58.187634827,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":58.187638825,"data":"  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/file_download.py\", line 1953, in _raise_on_head_call_error\n"}
+,{"stream_name":"stderr","time":58.187642687,"data":"    raise head_call_error\n"}
+,{"stream_name":"stderr","time":58.187652672,"data":"huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6aca6736-5a5b63f6325b4c3867409e49;d745bf57-f564-425b-a6a9-f405b8c9c12b)\n"}
+,{"stream_name":"stderr","time":58.18765639,"data":"\n"}
+,{"stream_name":"stderr","time":58.187659957,"data":"Cannot access gated repo for url https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/741f7c3ce8b383c54771c7003378a50191e9efe9/scheduler/scheduler_config.json.\n"}
+,{"stream_name":"stderr","time":58.187664206,"data":"Access to model black-forest-labs/FLUX.1-schnell is restricted. You must have access to it and be authenticated to access it. Please log in.\n"}
+,{"stream_name":"stderr","time":64.074854143,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":64.074879307,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":64.317312155,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":64.317348809,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":65.082348035,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":66.041105467,"data":"[NbConvertApp] Writing 290869 bytes to __results__.html\n"}
 ]

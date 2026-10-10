@@ -186,7 +186,7 @@
           },
           {
             "text": "Người ta đã báo tin cho ông. Bằng truyền đơn, bằng loa phóng thanh, bằng cả thư tay và ảnh của chính gia đình ông. Nhưng ông không tin.",
-            "ai": "paper leaflets falling from the sky over a tropical jungle canopy, a small propeller airplane far away"
+            "ai": "hundreds of white paper leaflets fluttering down from the sky onto a dense tropical jungle canopy, a small propeller airplane far away in the sky, no people"
           },
           {
             "text": "Người đàn ông ấy tên là Hiroo Onoda. Và đây là câu chuyện về hai mươi chín năm ông sống trong rừng, chiến đấu cho một cuộc chiến chỉ còn tồn tại trong đầu mình.",
@@ -278,7 +278,7 @@
         "beats": [
           {
             "text": "Tháng mười năm một nghìn chín trăm bốn mươi lăm, nhóm của Onoda thấy một tờ giấy do người dân trên đảo để lại. Trên đó viết: chiến tranh đã kết thúc ngày mười lăm tháng tám. Hãy xuống núi đi.",
-            "ai": "a weathered paper note pinned to a tree trunk in the jungle, handwritten text not readable, morning light"
+            "ai": "a weathered sheet of paper pinned with a thorn to a big tree trunk in a dark jungle, the paper has only faint illegible scribbles, morning light rays, no people"
           },
           {
             "text": "Bốn người ngồi đọc đi đọc lại. Rồi họ kết luận: đây là trò tuyên truyền của địch, để dụ họ ra khỏi rừng."
@@ -313,7 +313,7 @@
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi chín, chính phủ Nhật Bản tuyên bố Onoda đã chết. Nhưng trong rừng sâu Lubang, ông vẫn sống, và vẫn chiến đấu.",
-            "ai": "a misty jungle valley at dawn with a single thin column of smoke rising from the trees"
+            "ai": "a misty green jungle valley at dawn seen from a hilltop, a single thin column of smoke rising from the trees far away, no people, lonely"
           }
         ]
       },
@@ -322,7 +322,7 @@
         "beats": [
           {
             "text": "Câu chuyện của Onoda thường được kể như một huyền thoại về lòng trung thành. Nhưng với người dân Lubang, đó là những năm tháng sống trong sợ hãi.",
-            "ai": "a small Filipino farming village with nipa huts at the edge of a jungle, villagers looking anxiously toward the hills"
+            "ai": "adult Filipino farmers and their wives standing in front of nipa huts at the edge of a jungle at dusk, looking worriedly toward the dark hills, tense mood"
           },
           {
             "text": "Nhóm của ông đốt lúa, lấy trộm gia súc, và nhiều lần nổ súng với nông dân, cảnh sát và quân đội trên đảo."
@@ -377,7 +377,7 @@
           },
           {
             "text": "Onoda chĩa súng vào chàng trai trẻ. Nhưng Suzuki đã nói đúng những lời cần nói, và hai người ngồi lại trò chuyện.",
-            "ai": "two figures sitting across a campfire in the jungle at night, one in an old military uniform, one in a 1970s jacket, faces in shadow, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old"
+            "ai": "an old Japanese soldier and a young Japanese backpacker with long 1970s hair and a denim jacket sitting across a campfire in the jungle at night, talking cautiously, faces lit by the fire, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old"
           },
           {
             "text": "Suzuki hỏi: vì sao ông không ra khỏi rừng? Onoda trả lời: ông chỉ hạ súng khi có lệnh từ chính cấp trên của mình."
@@ -397,7 +397,7 @@
           },
           {
             "text": "Taniguchi bay sang Lubang. Ngày chín tháng ba năm một nghìn chín trăm bảy mươi tư, trong rừng, ông đứng trước Onoda và đọc mệnh lệnh.",
-            "ai": "an elderly man in a civilian suit reading from a paper in a jungle clearing, a soldier in a ragged uniform standing at attention before him, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old",
+            "ai": "an elderly Japanese man in a grey civilian suit and glasses standing in a jungle clearing reading aloud from a sheet of paper, a thin old soldier in a ragged uniform standing stiffly at attention in front of him, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old",
             "label": "9/3/1974"
           },
           {
@@ -434,7 +434,7 @@
         "beats": [
           {
             "text": "Onoda về Nhật Bản và được chào đón như một người hùng. Báo chí vây quanh, cuốn hồi ký của ông được xuất bản ngay trong năm đó. Nhưng chính ông lại không thích sự chú ý ấy.",
-            "ai": "a crowded 1970s airport arrival hall with photographers and flashing cameras, seen from behind the crowd"
+            "ai": "a crowded 1970s airport arrival hall, photographers with flashing cameras surrounding a thin old man in a plain suit, no signs, no writing"
           },
           {
             "text": "Nhưng nước Nhật năm bảy mươi tư không còn là nước Nhật ông từng biết. Tàu siêu tốc, nhà cao tầng, tivi màu… Ông thấy mình lạc lõng."

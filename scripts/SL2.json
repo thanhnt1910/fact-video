@@ -24,7 +24,8 @@
       "voice": "[trầm] Năm một nghìn chín trăm ba mươi hai, quân đội Úc mang súng máy ra trận. [nhấn] Kẻ thù là… một bầy chim! [nhanh] Và họ đã thua.",
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Emu_walking.JPG/1920px-Emu_walking.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "\"Emu walking.JPG\" – Sklmsta, CC0 (https://commons.wikimedia.org/wiki/File:Emu_walking.JPG)"
+        "credit": "\"Emu walking.JPG\" – Sklmsta, CC0 (https://commons.wikimedia.org/wiki/File:Emu_walking.JPG)",
+        "fit": true
       }
     },
     {
@@ -36,7 +37,8 @@
       "voice": "[nhanh] Những người lính cũ sau chiến tranh được cấp đất trồng lúa mì. [chậm] Rồi khoảng hai mươi nghìn con đà điểu emu kéo đến. [nhấn] Chúng ăn lúa, giẫm nát cả cánh đồng!",
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Wheatbelt_panorama_-_JarrahTree.jpg/1920px-Wheatbelt_panorama_-_JarrahTree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "\"Wheatbelt panorama - JarrahTree.jpg\" – JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Wheatbelt_panorama_-_JarrahTree.jpg)"
+        "credit": "\"Wheatbelt panorama - JarrahTree.jpg\" – JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Wheatbelt_panorama_-_JarrahTree.jpg)",
+        "fit": false
       }
     },
     {

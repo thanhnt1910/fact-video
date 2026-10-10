@@ -192,7 +192,12 @@ def build(script, cfg, out_dir):
     beats_all = [b for ch in chapters for b in ch["beats"]]
 
     log("  🖼️  Ảnh cho video dài")
-    credits, used_ai = beat_images(script, beats_all, work)
+    pending = None
+    try:
+        credits, used_ai = beat_images(script, beats_all, work)
+    except RuntimeError as e:
+        # thiếu ảnh AI: vẫn đọc giọng trước (lưu lại), lần sau chỉ còn phải vẽ nốt ảnh
+        pending, credits, used_ai = e, [], True
 
     log(f"  🎙️  Giọng Gemini {voice} ({len(chapters)} chương)")
     import gemini_tts
@@ -227,6 +232,8 @@ def build(script, cfg, out_dir):
             cards.append({"start": t, "dur": CARD_TITLE, "kicker": cfg.get("channel", ""),
                           "title": L.get("title_card") or L["title"], "sub": cfg.get("catchphrase", "")})
             add_silence(CARD_TITLE)
+    if pending:
+        raise pending
     cards.append({"start": t, "dur": CARD_END, "kicker": "Cảm ơn bạn đã nghe chuyện", "title": cfg.get("catchphrase", ""),
                   "sub": f"Đăng ký {cfg.get('channel', '')} để mở trang sử tiếp theo"})
     add_silence(CARD_END)

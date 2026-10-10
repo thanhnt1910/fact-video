@@ -18,10 +18,10 @@ from pathlib import Path
 MODEL = "@cf/black-forest-labs/flux-1-schnell"
 MODEL2 = "@cf/black-forest-labs/flux-2-klein-4b"   # đẹp hơn, vẽ thẳng khung 16:9, ít tốn lượt hơn
 # Phong cách chung: tranh vẽ 2D (không giả ảnh chụp), để người xem không nhầm là ảnh tư liệu thật
-STYLE = ("2D hand-drawn digital illustration, cartoon storybook style, clean bold ink outlines, flat cel shading, "
-         "muted warm vintage color palette, simple painted background, expressive but simple faces, "
-         "historical setting, no text, no watermark, not photorealistic, not 3D")
-STYLE_ID = "2d-v1"   # đổi khi đổi phong cách -> ảnh cũ trong bộ nhớ đệm không bị dùng lại
+STYLE = ("2D animated illustration in the style of a modern history explainer cartoon, lively expressive characters, "
+         "dynamic composition, clean bold outlines, cel shading, warm rich colors, detailed painted background, "
+         "historically accurate clothing and setting, no text, no watermark, not photorealistic, not 3D")
+STYLE_ID = "2d-v2"   # đổi khi đổi phong cách -> ảnh cũ trong bộ nhớ đệm không bị dùng lại
 CUTOUT_HINT = ("full body, whole figure visible from head to feet, centered, isolated on a plain pure white background, "
                "no shadow, no ground, no signature")
 RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly away from the body, "

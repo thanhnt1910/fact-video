@@ -202,7 +202,7 @@ def build(script, cfg, out_dir):
     log(f"  🎙️  Giọng Gemini {voice} ({len(chapters)} chương)")
     import gemini_tts
     narr = array.array("h")
-    shots, cards, marks = [], [], []
+    shots, cards, marks, spoken = [], [], [], []
     t = 0.0
 
     def add_silence(sec):
@@ -223,9 +223,15 @@ def build(script, cfg, out_dir):
         segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])
         narr.extend(audio[a:b])
         for (s0, s1), beat in zip(segs, ch["beats"]):
-            shots.append({"start": t + (s0 - a) / SR, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
-                          "fit": bool(beat.get("fit")), "label": beat.get("label", ""),
-                          "text": beat.get("text", ""), "speech_end": t + (s1 - a) / SR})
+            st, en = t + (s0 - a) / SR, t + (s1 - a) / SR
+            spoken.append({"start": st, "speech_end": en, "text": beat.get("text", "")})
+            if shots and beat.get("image_src") and shots[-1]["src"] == beat.get("image_src") \
+                    and not beat.get("label") and abs(shots[-1]["start"] + shots[-1]["dur"] - st) < 1.5:
+                # cùng một ảnh với đoạn trước: kéo dài cảnh cũ (máy quay lướt chậm liền mạch), không tan ảnh vào chính nó
+                shots[-1]["dur"] = en - shots[-1]["start"]
+                continue
+            shots.append({"start": st, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
+                          "fit": bool(beat.get("fit")), "label": beat.get("label", "")})
         t += (b - a) / SR
         add_silence(GAP)
         if ci == 0 and len(chapters) > 1:
@@ -310,7 +316,7 @@ def build(script, cfg, out_dir):
         lines.append(f"🎵 Nhạc: {mcredit}")
     lines += ["", "──── GHI CHÚ (không đăng) ────", "Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]
     try:
-        en_note = subtitles_and_english(script, L, shots, marks, credits, mcredit, used_ai, out_dir)
+        en_note = subtitles_and_english(script, L, spoken, marks, credits, mcredit, used_ai, out_dir)
     except Exception as e:   # phụ đề / bản dịch lỗi không được làm hỏng video
         log(f"     ⚠️  phụ đề / bản tiếng Anh lỗi: {e}")
         en_note = []
@@ -320,12 +326,12 @@ def build(script, cfg, out_dir):
     return final, total
 
 
-def subtitles_and_english(script, L, shots, marks, credits, mcredit, used_ai, out_dir):
+def subtitles_and_english(script, L, spoken, marks, credits, mcredit, used_ai, out_dir):
     """Phụ đề tiếng Việt + tiếng Anh (.srt) và tiêu đề/mô tả tiếng Anh. Trả về vài dòng hướng dẫn để ghép vào file mô tả."""
     import subtitles
     sid = script["id"]
-    spoken = [s for s in shots if s.get("text")]
-    segs = [(s["start"], s.get("speech_end", s["start"] + s["dur"]), s["text"]) for s in spoken]
+    spoken = [s for s in spoken if s.get("text")]
+    segs = [(s["start"], s["speech_end"], s["text"]) for s in spoken]
     subtitles.write_srt(out_dir / f"{sid}_dai_vi.srt", subtitles.cues(segs))
     note = ["", "──── PHỤ ĐỀ ────",
             f"YouTube Studio → video → Phụ đề → Thêm ngôn ngữ → Tiếng Việt → Tải tệp lên → {sid}_dai_vi.srt"]
@@ -353,6 +359,49 @@ def subtitles_and_english(script, L, shots, marks, credits, mcredit, used_ai, ou
     return note
 
 
+def images_review(script, out_dir):
+    """Chỉ chuẩn bị ảnh (ảnh tư liệu + vẽ tranh AI) và xuất bảng duyệt, chưa đọc giọng, chưa dựng video.
+    logs: <id>_anh.jpg (lưới ảnh đánh số theo đoạn) + <id>_anh.txt (số, nguồn, lời đọc, prompt)."""
+    from PIL import Image, ImageDraw, ImageFont
+    work = out_dir / "_work_dai"
+    work.mkdir(parents=True, exist_ok=True)
+    beats = [b for ch in script["long"]["chapters"] for b in ch["beats"]]
+    pending = None
+    try:
+        beat_images(script, beats, work)
+    except RuntimeError as e:
+        pending = e
+    tw, th, cols = 384, 216, 6
+    tiles, rows_txt = [], []
+    font = ImageFont.load_default(size=18)
+    for i, b in enumerate(beats):
+        src = b.get("image_src")
+        kind = "AI" if b.get("ai") else ("TL" if b.get("image") else "=")
+        im = Image.new("RGB", (tw, th), (40, 0, 0))
+        if src:
+            try:
+                im = Image.open(src.replace("file://", "")).convert("RGB")
+                im.thumbnail((tw, th))
+                bg = Image.new("RGB", (tw, th), (15, 15, 15))
+                bg.paste(im, ((tw - im.width) // 2, (th - im.height) // 2))
+                im = bg
+            except Exception:
+                pass
+        d = ImageDraw.Draw(im)
+        d.rectangle([0, 0, 70, 26], fill=(0, 0, 0))
+        d.text((5, 3), f"{i + 1} {kind}", fill=(255, 210, 120), font=font)
+        tiles.append(im)
+        rows_txt.append(f"{i + 1:>3} [{kind}] {b.get('text', '')[:140]}\n      → {b.get('ai') or (b.get('image') or {}).get('credit', '(dùng ảnh đoạn trước)')[:140]}")
+    rows = (len(tiles) + cols - 1) // cols
+    sheet = Image.new("RGB", (cols * (tw + 4), rows * (th + 4)), (0, 0, 0))
+    for k, im in enumerate(tiles):
+        sheet.paste(im, ((k % cols) * (tw + 4), (k // cols) * (th + 4)))
+    sheet.save(out_dir / f"{script['id']}_anh.jpg", quality=85)
+    (out_dir / f"{script['id']}_anh.txt").write_text("\n".join(rows_txt) + "\n", encoding="utf-8")
+    n_ai = sum(1 for b in beats if b.get("ai"))
+    log(f"  🖼️  Bảng duyệt ảnh: {len(beats)} đoạn, {n_ai} tranh AI" + (f" · {pending}" if pending else ""))
+
+
 def main():
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -360,13 +409,17 @@ def main():
         pass
     cfg = mv.load_config()
     bad = 0
-    for arg in sys.argv[1:]:
+    only_images = "--images-only" in sys.argv
+    for arg in [a for a in sys.argv[1:] if not a.startswith("--")]:
         script = json.loads(Path(arg).read_text(encoding="utf-8"))
         if not script.get("long"):
             continue
         out_dir = ROOT / "output" / script["id"]
         out_dir.mkdir(parents=True, exist_ok=True)
         log(f"▶️  Video dài {script['id']}: {script['long']['title']}")
+        if only_images:
+            images_review(script, out_dir)
+            continue
         try:
             build(script, cfg, out_dir)
         except Exception as e:

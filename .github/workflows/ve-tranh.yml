@@ -1,0 +1,68 @@
+name: Vẽ tranh và duyệt ảnh (video dài)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Mã kịch bản, cách nhau dấu phẩy (vd: SL2,ST1)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bộ nhớ đệm giọng Gemini và ảnh AI
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            assets/tts_cache
+            assets/ai_cache
+          key: fv-gen-${{ github.run_id }}
+          restore-keys: fv-gen-
+      - name: Cài thư viện
+        run: python -m pip install -q -r requirements.txt
+      - name: Tải ảnh tư liệu, vẽ tranh AI, xuất bảng duyệt
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          files=""
+          for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do files="$files scripts/$id.json"; done
+          python long_video.py --images-only $files | tee logs/ve-tranh.log
+          mkdir -p logs
+          for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
+            cp "output/$id/${id}_anh.jpg" "logs/anh_${id}.jpg" 2>/dev/null || true
+            cp "output/$id/${id}_anh.txt" "logs/anh_${id}.txt" 2>/dev/null || true
+          done
+      - name: Lưu bộ nhớ đệm ảnh
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            assets/tts_cache
+            assets/ai_cache
+          key: fv-gen-${{ github.run_id }}
+      - name: Lưu bảng duyệt vào repo
+        if: always()
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add logs/anh_* logs/ve-tranh.log 2>/dev/null || true
+          git commit -q -m "Bảng duyệt ảnh" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase -X theirs -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done

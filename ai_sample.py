@@ -6,6 +6,8 @@ import ai_images
 
 ROOT = Path(__file__).resolve().parent
 PROMPTS = [
+    "a frightened Japanese army officer in a worn 1940s uniform reading a paper leaflet in a tropical jungle",
+    "a 1920s con man in an elegant suit presenting documents to businessmen around a table in a luxurious Paris hotel room",
     "a large flock of emus running across a golden wheat field in the Australian outback, dust rising, wide shot",
     "a former soldier clearing scrubland with an axe under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s",
     "soldiers hiding behind bushes near a small farm dam with a machine gun on a tripod, emus approaching the water, dawn",
@@ -13,9 +15,6 @@ PROMPTS = [
 ]
 STYLES = {
     "A": ai_images.STYLE,
-    "C": ("2D animated documentary illustration, semi-flat colors with soft painted shading, clean lines, "
-          "warm muted palette, cinematic composition, like a modern history explainer cartoon, "
-          "no text, no watermark, not photorealistic, not 3D"),
 }
 WIDE = "wide cinematic composition, main subject centered with space above and below"
 

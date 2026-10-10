@@ -197,6 +197,15 @@ def _score(c, used):
     return s
 
 
+def license_ok(credit):
+    """Chỉ nhận ảnh hết bản quyền / CC0 / CC BY (không SA, NC, ND). Ghi nguồn phải nêu rõ giấy phép."""
+    low = (credit or "").lower()
+    if any(x in low for x in ("by-sa", "by sa", "share alike", "sharealike", "-nc", " nc ", "noncommercial",
+                              "-nd", " nd ", "noderiv", "all rights reserved", "fair use")):
+        return False
+    return any(x in low for x in ("public domain", "cc0", "pdm", "no restrictions", "cc by", "cc-by"))
+
+
 def fetch_scene_images(script, work, log=print):
     """Gắn 'image_src' (đường dẫn file) vào các cảnh có 'image'. Trả về danh sách ghi nguồn."""
     img_dir = Path(work) / "img"
@@ -221,7 +230,11 @@ def fetch_scene_images(script, work, log=print):
                 continue
         cands = []
         if spec.get("url"):
-            cands = [{"url": spec["url"], "credit": spec.get("credit", spec["url"]), "w": 0, "h": 0}]
+            credit = spec.get("credit", "")
+            if not license_ok(credit) and not spec.get("url", "").startswith("file:"):
+                log(f"     ⛔ cảnh {i + 1}: bỏ ảnh vì giấy phép không rõ hoặc không cho phép dùng: {credit[:120]}")
+                continue
+            cands = [{"url": spec["url"], "credit": credit or spec["url"], "w": 0, "h": 0}]
         else:
             srcs = [spec["source"]] if spec.get("source") else TOPIC_SOURCES.get(topic, TOPIC_SOURCES["default"])
             for src in srcs:

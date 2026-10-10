@@ -7,7 +7,7 @@
   4 [=] Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin.
       → (dùng ảnh đoạn trước)
   5 [AI] Và sau hơn một tháng, chính quân đội lại là bên phải rút lui. Báo chí gọi đó là Chiến tranh Emu. Đây là câu chuyện có thật.
-      → an empty army camp with a folded tent and a Lewis machine gun under a tarpaulin in the outback at sunset, an emu silhouette on the horizon, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → a deserted army camp in the Australian outback at sunset, one small canvas tent and wooden supply crates, no people, a single emu standing on the ground far away on the horizon, quiet and ironic mood, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles
   6 [AI] Câu chuyện bắt đầu từ sau chiến tranh thế giới thứ nhất. Hàng nghìn người lính Úc trở về nhà sau những năm tháng ở chiến trường châu Âu.
       → Australian soldiers in WWI uniforms and slouch hats disembarking from a ship at a harbor, families waiting, 1919, sepia, Australian soldiers of 1932 in khaki uniforms and slouch hats
   7 [=] Họ từng chiến đấu ở Gallipoli, ở mặt trận phía Tây nước Pháp. Có người trở về với thương tật, có người mang theo những ký ức không bao giờ q
@@ -27,7 +27,7 @@
  14 [=] Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần.
       → (dùng ảnh đoạn trước)
  15 [AI] Những người lính cũ vật lộn để giữ lấy trang trại của mình. Mỗi bao lúa mì đều quý như vàng.
-      → a tired farmer and his wife harvesting wheat by hand at dusk in Western Australia, golden light, 1930s, determined
+      → a tired Australian farmer and his wife harvesting wheat by hand at dusk in Western Australia, the wife wears a wide brimmed straw sun hat and a plain cotton dress, golden light, 1930s, determined
  16 [AI] Và đúng lúc đó, những vị khách không mời mà đến xuất hiện.
       → a line of tall emus walking out of the bush toward a wheat farm fence at dawn, ominous, wide landscape, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles
  17 [TL] Đà điểu emu là loài chim lớn thứ hai thế giới, chỉ sau đà điểu châu Phi. Chúng cao gần bằng một người trưởng thành.
@@ -67,11 +67,11 @@
  34 [=] Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng.
       → (dùng ảnh đoạn trước)
  35 [AI] Hơn một nghìn con emu tiến lại gần. Khẩu súng bắt đầu nổ. Nhưng chỉ sau mười mấy con trúng đạn… khẩu súng bị kẹt.
-      → a frustrated soldier fiddling with a jammed machine gun while a huge flock of emus runs away in the background, outback, comedic tension, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → a frustrated soldier kneeling behind a Lewis light machine gun on a bipod, the gun is jammed and he is tugging at it, a huge flock of emus running away in the background, outback, comedic tension, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats
  36 [=] Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy.
       → (dùng ảnh đoạn trước)
  37 [AI] Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn
-      → a 1930s truck with a machine gun mounted on the back bouncing over rough outback ground chasing fast emus that are far ahead, dust cloud, comedic, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles
+      → a 1930s open flatbed truck bouncing over rough outback ground, a soldier in the back holding a small Lewis light machine gun and struggling to aim, not a cannon, the emus are far ahead running away, big dust cloud, comedic, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats
  38 [=] Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu.
       → (dùng ảnh đoạn trước)
  39 [AI] Binh lính nhận thấy mỗi đàn emu dường như có một con đầu đàn đứng canh, quan sát xung quanh trong khi cả đàn ăn. Thấy người đến, cả đàn bỏ c
@@ -83,7 +83,7 @@
  42 [=] Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế g
       → (dùng ảnh đoạn trước)
  43 [AI] Báo chí đưa tin chế giễu. Quốc hội đem chuyện này ra bàn. Ngày tám tháng mười một, chỉ sau một tuần, Bộ trưởng Pearce ra lệnh rút quân.
-      → 1930s Australian newspaper pages spread on a table with cartoon drawings of emus and soldiers, unreadable headlines, sepia, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → a pile of 1930s newspapers on a wooden desk in a government office, a stern politician in a 1930s suit reading one newspaper and frowning, a telephone and a lamp, no animals, newspaper text too small to read, sepia tones
  44 [=] Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không.
       → (dùng ảnh đoạn trước)
  45 [AI] Nhưng đàn emu vẫn ở lại. Hạn hán khiến tình hình càng tồi tệ, và nông dân lại kêu cứu.
@@ -105,7 +105,7 @@
  53 [=] Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi.
       → (dùng ảnh đoạn trước)
  54 [AI] Có nhà nghiên cứu còn cho rằng chiến dịch mang cả mục đích chính trị: chính phủ muốn tỏ ra quan tâm đến miền Tây, khi vùng này đang có phong
-      → a 1930s political rally in Perth with banners and a crowd in hats, speaker on a stage, sepia, unreadable signs
+      → a 1930s political rally in a city street, a crowd of men and women in hats listening to a speaker on a wooden stage, plain blank banners with no writing, bunting flags, sepia tones
  55 [AI] Nông dân còn xin quân đội giúp thêm nhiều lần nữa, vào những năm một nghìn chín trăm ba mươi tư, bốn mươi ba và bốn mươi tám. Lần nào cũng b
       → a farmer reading a rejection letter at his kitchen table in a simple outback homestead, disappointed, 1940s
  56 [=] Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận

@@ -1,0 +1,513 @@
+{
+  "id": "SL2",
+  "topic": "su-la",
+  "title": "Quân đội Úc mang súng máy đi đánh một bầy chim… và thua",
+  "caption": "Hai khẩu súng máy, mười nghìn viên đạn… và quân đội vẫn thua một bầy chim 🪖",
+  "hashtags": [
+    "nguoigacsu",
+    "sửlạ",
+    "lịchsử",
+    "chuyệncóthật",
+    "chiếntranhemu"
+  ],
+  "sources": [
+    "Wikipedia – Emu War",
+    "Murray Johnson – 'Feathered foes': soldier settlers and Western Australia's 'Emu War' of 1932, Journal of Australian Studies (2006)",
+    "Dominic Serventy & Hubert Whittell – Birds of Western Australia"
+  ],
+  "music": "Pippin the Hunchback",
+  "scenes": [
+    {
+      "type": "hook",
+      "icon": "🪖",
+      "text": "Quân đội Úc tuyên chiến với **một bầy chim**",
+      "voice": "[trầm] Năm một nghìn chín trăm ba mươi hai, quân đội Úc mang súng máy ra trận. [nhấn] Kẻ thù là… một bầy chim! [nhanh] Và họ đã thua.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Emu_walking.JPG/1920px-Emu_walking.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Emu walking.JPG\" – Sklmsta, CC0 (https://commons.wikimedia.org/wiki/File:Emu_walking.JPG)"
+      }
+    },
+    {
+      "type": "number",
+      "pre": "Khoảng",
+      "value": "20.000",
+      "unit": "con emu",
+      "caption": "tràn vào phá ruộng lúa mì ở **Tây Úc**",
+      "voice": "[nhanh] Những người lính cũ sau chiến tranh được cấp đất trồng lúa mì. [chậm] Rồi khoảng hai mươi nghìn con đà điểu emu kéo đến. [nhấn] Chúng ăn lúa, giẫm nát cả cánh đồng!",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Wheatbelt_panorama_-_JarrahTree.jpg/1920px-Wheatbelt_panorama_-_JarrahTree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Wheatbelt panorama - JarrahTree.jpg\" – JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Wheatbelt_panorama_-_JarrahTree.jpg)"
+      }
+    },
+    {
+      "type": "explain",
+      "icon": "🔫",
+      "title": "Quân đội vào cuộc",
+      "bullets": [
+        {
+          "icon": "🎖️",
+          "text": "1 thiếu tá, 2 người lính"
+        },
+        {
+          "icon": "🔫",
+          "text": "2 súng máy Lewis"
+        },
+        {
+          "icon": "💥",
+          "text": "10.000 viên đạn"
+        }
+      ],
+      "voice": "[nhanh] Nông dân xin quân đội giúp. [cao] Thiếu tá Meredith mang theo hai khẩu súng máy và mười nghìn viên đạn. [trầm] Nghe thì có vẻ quá đủ cho một bầy chim…",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes%2C_Bestanddeelnr_158-1949.jpg/1920px-INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes%2C_Bestanddeelnr_158-1949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"INGENIOUS ANTI-AIRCRAFT GUN. A Lewis gun for anti-aircraft purposes, Bestanddeelnr 158-1949.jpg\" – Nationaal Archief, CC0 (https://commons.wikimedia.org/wiki/File:INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes,_Bestanddeelnr_158-1949.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🏃",
+      "text": "Emu chạy tới **50 km/h**, chia nhỏ đội hình",
+      "sub": "Súng kẹt, xe tải đuổi không kịp",
+      "voice": "[nhanh] Nhưng emu chạy rất nhanh, và cứ thấy người là tản ra từng nhóm nhỏ. [nhấn] Trận phục kích lớn nhất, súng bị kẹt! [nhanh] Gắn súng lên xe tải đuổi theo, thì xe chạy không kịp.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Dromaius_novaehollandiae_-Saarbrucker_Zoo%2C_Saarland%2C_Germany-8a.jpg/1920px-Dromaius_novaehollandiae_-Saarbrucker_Zoo%2C_Saarland%2C_Germany-8a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Dromaius novaehollandiae -Saarbrucker Zoo, Saarland, Germany-8a.jpg\" – Conny Liegl, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-Saarbrucker_Zoo,_Saarland,_Germany-8a.jpg)"
+      }
+    },
+    {
+      "type": "number",
+      "pre": "Theo báo cáo, mỗi con emu bị hạ tốn khoảng",
+      "value": "10",
+      "unit": "viên đạn",
+      "caption": "986 con trên khoảng **20.000 con**",
+      "voice": "[chậm] Sau hơn một tháng, quân đội báo cáo hạ được chín trăm tám mươi sáu con. [nhấn] Trung bình mười viên đạn một con. [nhanh] Trong khi đàn emu vẫn còn gần như nguyên vẹn.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg/1920px-Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Dromaius novaehollandiae -Australia -adult with juveniles-8.jpg\" – Jarrod, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "icon": "🏳️",
+      "text": "Quân đội **rút lui**",
+      "sub": "Báo chí gọi đó là “Chiến tranh Emu”",
+      "voice": "[trầm] Quân đội rút về. Báo chí đặt cho nó cái tên: Chiến tranh Emu. [cao] Và người ta kể rằng… bên thắng là loài chim!",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Rabbit-proof-fence-000876d.jpg/1920px-Rabbit-proof-fence-000876d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Rabbit-proof-fence-000876d.jpg\" – Broomhall, F. H. (Frank H.), 1900-1995, Public domain (https://commons.wikimedia.org/wiki/File:Rabbit-proof-fence-000876d.jpg)"
+      }
+    },
+    {
+      "type": "outro",
+      "recap": "2 súng máy · 10.000 viên đạn · emu vẫn thắng",
+      "voice": "[chậm] Hai súng máy. Mười nghìn viên đạn. [nhấn] Và một bầy chim chiến thắng. [trầm] Sử thật… lạ hơn cả truyện. [nhanh] Theo dõi Người Gác Sử nhé!",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/HeadofEmu.jpg/1920px-HeadofEmu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"HeadofEmu.jpg\" – Relativity, CC0 (https://commons.wikimedia.org/wiki/File:HeadofEmu.jpg)"
+      }
+    }
+  ],
+  "post": {
+    "hook": "Năm 1932, quân đội Úc mang súng máy đi đánh một bầy chim… và thua 🪖",
+    "paragraphs": [
+      "Sau Thế chiến thứ nhất, nhiều cựu binh Úc được cấp đất trồng lúa mì ở miền Tây nước Úc. Đất khô cằn, rồi Đại khủng hoảng ập đến, giá lúa mì rơi thảm hại.",
+      "Năm 1932, khoảng 20.000 con đà điểu emu di cư đến vùng này. Chúng ăn lúa, giẫm nát cánh đồng, phá cả hàng rào cho thỏ tràn vào.",
+      "Những người nông dân vốn là lính cũ xin chính phủ một thứ quen thuộc: súng máy.",
+      "Thiếu tá Meredith được cử đi cùng hai người lính, hai khẩu súng máy Lewis và 10.000 viên đạn.",
+      "Nhưng emu chạy tới khoảng 50 km/h, và cứ thấy người là tản ra từng nhóm nhỏ. Trận phục kích lớn nhất, súng bị kẹt sau khi mới bắn hạ được mười mấy con. Gắn súng lên xe tải đuổi theo, xe lại chạy không kịp.",
+      "Kết quả? Chỉ sau một tuần, quân đội rút về trong tiếng chế giễu của báo chí.",
+      "Lần thứ hai, họ quay lại và báo cáo hạ được 986 con, tốn 9.860 viên đạn: đúng 10 viên một con. Trong khi đàn emu vẫn gần như nguyên vẹn.",
+      "Nông dân còn xin quân đội thêm nhiều lần nữa, nhưng đều bị từ chối. Giải pháp hiệu quả hơn hóa ra là… hàng rào.",
+      "Người ta vẫn kể rằng đó là cuộc chiến duy nhất mà quân đội Úc thua một loài chim. Còn emu đến nay vẫn sống khỏe khắp nước Úc."
+    ],
+    "ending": "Theo bạn, nếu ở vào vị trí những người nông dân năm ấy, có cách nào tốt hơn để bảo vệ cánh đồng không?",
+    "hashtags": [
+      "nguoigacsu",
+      "sửlạ",
+      "lịchsử",
+      "chuyệncóthật",
+      "chiếntranhemu"
+    ],
+    "slides": [
+      {
+        "kind": "cover",
+        "scene": 0,
+        "kicker": "Chuyện có thật · Úc 1932",
+        "title": "Quân đội thua **một bầy chim**"
+      },
+      {
+        "scene": 1,
+        "tag": "20.000 con emu",
+        "text": "Tràn vào phá ruộng lúa mì của những người lính cũ."
+      },
+      {
+        "scene": 2,
+        "tag": "Ra quân",
+        "text": "2 súng máy Lewis, 10.000 viên đạn, 1 thiếu tá và 2 người lính."
+      },
+      {
+        "scene": 3,
+        "tag": "Chiến thuật du kích",
+        "text": "Emu chạy 50 km/h, tản ra từng nhóm. Súng kẹt, xe đuổi không kịp."
+      },
+      {
+        "kind": "end",
+        "scene": 6,
+        "text": "Quân đội rút lui. Emu vẫn sống khỏe đến hôm nay."
+      }
+    ]
+  },
+  "long": {
+    "title": "Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932",
+    "title_card": "Chiến tranh **Emu** năm 1932",
+    "description": "Năm 1932, quân đội Úc mang hai khẩu súng máy và mười nghìn viên đạn đi đánh một kẻ thù đặc biệt: khoảng 20.000 con đà điểu emu đang phá ruộng lúa mì. Hơn một tháng sau, chính quân đội phải rút lui. Đây là câu chuyện có thật về Chiến tranh Emu.",
+    "voice": "Sadaltager",
+    "music": "Master of the Feast",
+    "chapters": [
+      {
+        "beats": [
+          {
+            "text": "Tháng mười một năm một nghìn chín trăm ba mươi hai, miền Tây nước Úc. Một đơn vị quân đội mang theo hai khẩu súng máy và mười nghìn viên đạn lên đường ra trận.",
+            "ai": "a 1930s army truck on a dusty red outback road in Western Australia with soldiers in slouch hats and a machine gun in the back, wide landscape",
+            "label": "Tây Úc · 1932"
+          },
+          {
+            "text": "Kẻ thù của họ không phải là quân đội nước nào. Kẻ thù là… một đàn chim.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg/1920px-Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae -Australia -adult with juveniles-8.jpg\" – Jarrod, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg)"
+            }
+          },
+          {
+            "text": "Một đàn chim không biết bay, nhưng chạy rất nhanh. Khoảng hai mươi nghìn con.",
+            "ai": "a large flock of emus running across a golden wheat field in the Australian outback, dust rising, wide shot, dramatic light"
+          },
+          {
+            "text": "Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin.",
+            "ai": "a 1930s newsroom with journalists typing on typewriters and a world map on the wall, telegraph wires, busy, sepia"
+          },
+          {
+            "text": "Và sau hơn một tháng, chính quân đội lại là bên phải rút lui. Báo chí gọi đó là Chiến tranh Emu. Đây là câu chuyện có thật.",
+            "ai": "an empty army camp with a folded tent and a Lewis machine gun under a tarpaulin in the outback at sunset, an emu silhouette on the horizon"
+          }
+        ]
+      },
+      {
+        "title": "Những người lính trở về",
+        "beats": [
+          {
+            "text": "Câu chuyện bắt đầu từ sau chiến tranh thế giới thứ nhất. Hàng nghìn người lính Úc trở về nhà sau những năm tháng ở chiến trường châu Âu.",
+            "ai": "Australian soldiers in WWI uniforms and slouch hats disembarking from a ship at a harbor, families waiting, 1919, sepia"
+          },
+          {
+            "text": "Họ từng chiến đấu ở Gallipoli, ở mặt trận phía Tây nước Pháp. Có người trở về với thương tật, có người mang theo những ký ức không bao giờ quên.",
+            "ai": "a quiet portrait-style painting of a tired WWI Australian veteran in a slouch hat sitting on a porch looking at fields, seen from the side, melancholic, 1920s"
+          },
+          {
+            "text": "Chính phủ cấp đất cho họ làm nông, phần lớn ở vùng trồng lúa mì phía tây nước Úc.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Wheatbelt_panorama_-_JarrahTree.jpg/1920px-Wheatbelt_panorama_-_JarrahTree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Wheatbelt panorama - JarrahTree.jpg\" – JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Wheatbelt_panorama_-_JarrahTree.jpg)"
+            },
+            "label": "Vùng lúa mì Tây Úc"
+          },
+          {
+            "text": "Nhưng nhiều mảnh đất ấy khô cằn, xa xôi, khó canh tác. Những người lính cũ phải tự tay chặt cây, dọn đất, đào giếng, dựng nhà.",
+            "ai": "a former soldier clearing scrubland with an axe under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s"
+          },
+          {
+            "text": "Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết.",
+            "ai": "a weathered farmer standing beside a dry cracked field with a horse-drawn plough, dust storm on the horizon, 1920s Australia"
+          },
+          {
+            "text": "Vùng đất ấy rộng mênh mông, mỗi trang trại cách nhau hàng cây số. Mùa hè nóng như thiêu, mưa thì thất thường.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Unidentified_eucalypt_in_central_wheatbelt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Unidentified eucalypt in central wheatbelt.jpg\" – JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Unidentified_eucalypt_in_central_wheatbelt.jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lúa mì và Đại khủng hoảng",
+        "beats": [
+          {
+            "text": "Năm một nghìn chín trăm hai mươi chín, Đại khủng hoảng kinh tế ập đến. Chính phủ khuyến khích nông dân trồng thật nhiều lúa mì, và hứa sẽ trợ cấp.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/StateLibQld_1_106492_Relief_workers_at_Annerley_during_the_Great_Depression%2C_1938.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"StateLibQld 1 106492 Relief workers at Annerley during the Great Depression, 1938.jpg\" – Contributor(s): Sunday Truth (Brisbane, Qld. ), Public domain (https://commons.wikimedia.org/wiki/File:StateLibQld_1_106492_Relief_workers_at_Annerley_during_the_Great_Depression,_1938.jpg)"
+            },
+            "label": "Thời Đại khủng hoảng ở Úc"
+          },
+          {
+            "text": "Nhưng tiền trợ cấp không bao giờ đến. Giá lúa mì thì cứ rơi mãi.",
+            "ai": "sacks of wheat piled unsold at a rural railway siding in the 1930s, farmers looking worried, overcast sky"
+          },
+          {
+            "text": "Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần.",
+            "ai": "a farmer's wife counting a few coins at a kitchen table by candlelight in a simple outback homestead, worried, 1930s"
+          },
+          {
+            "text": "Những người lính cũ vật lộn để giữ lấy trang trại của mình. Mỗi bao lúa mì đều quý như vàng.",
+            "ai": "a tired farmer and his wife harvesting wheat by hand at dusk in Western Australia, golden light, 1930s, determined"
+          },
+          {
+            "text": "Và đúng lúc đó, những vị khách không mời mà đến xuất hiện.",
+            "ai": "a line of tall emus walking out of the bush toward a wheat farm fence at dawn, ominous, wide landscape"
+          }
+        ]
+      },
+      {
+        "title": "Đội quân lông vũ",
+        "beats": [
+          {
+            "text": "Đà điểu emu là loài chim lớn thứ hai thế giới, chỉ sau đà điểu châu Phi. Chúng cao gần bằng một người trưởng thành.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Dromaius_novaehollandiae_-Saarbrucker_Zoo%2C_Saarland%2C_Germany-8a.jpg/1920px-Dromaius_novaehollandiae_-Saarbrucker_Zoo%2C_Saarland%2C_Germany-8a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae -Saarbrucker Zoo, Saarland, Germany-8a.jpg\" – Conny Liegl, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-Saarbrucker_Zoo,_Saarland,_Germany-8a.jpg)"
+            }
+          },
+          {
+            "text": "Emu không biết bay, nhưng chạy được tới khoảng năm mươi cây số một giờ, và có thể bơi.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Emu_walking.JPG/1920px-Emu_walking.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Emu walking.JPG\" – Sklmsta, CC0 (https://commons.wikimedia.org/wiki/File:Emu_walking.JPG)"
+            }
+          },
+          {
+            "text": "Chân emu có ba ngón, rất khỏe, một cú đá có thể gây thương tích nặng. Và đặc biệt, ở loài này, chính emu bố là người ấp trứng, suốt khoảng tám tuần gần như không ăn uống.",
+            "ai": "a male emu sitting on a nest of large dark green eggs in dry grass, patient, Australian bush, soft morning light"
+          },
+          {
+            "text": "Emu cũng là biểu tượng của nước Úc, có mặt trên quốc huy, bên cạnh con chuột túi.",
+            "ai": "an emu and a kangaroo standing side by side in the Australian bush, heraldic composition, golden light, painterly"
+          },
+          {
+            "text": "Sau mùa sinh sản, từng đàn emu thường di chuyển từ vùng nội địa ra phía bờ biển để tìm thức ăn và nước.",
+            "ai": "a long procession of emus crossing a vast red desert plain toward distant green land, aerial wide view, heat haze"
+          },
+          {
+            "text": "Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc.",
+            "ai": "emus walking through shimmering heat haze on a red outback plain under a blazing sun, spinifex grass, wide shot"
+          },
+          {
+            "text": "Năm ấy, trên đường đi, chúng gặp những cánh đồng lúa mì mênh mông vừa được khai phá, cùng những bể nước mới đào. Một bữa tiệc khổng lồ.",
+            "ai": "emus feeding in a lush wheat field next to a farm water tank and windmill, Western Australia, golden afternoon"
+          },
+          {
+            "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào.",
+            "ai": "a broken wire farm fence with trampled wheat and rabbits running through the gap, emus in the background, outback"
+          }
+        ]
+      },
+      {
+        "title": "Gọi quân đội",
+        "beats": [
+          {
+            "text": "Những người nông dân, vốn là lính cũ, nghĩ đến cách giải quyết quen thuộc nhất với họ: súng máy.",
+            "ai": "a group of 1930s farmers in hats and waistcoats meeting in a small country hall, one standing and speaking passionately, sepia"
+          },
+          {
+            "text": "Họ cử người đến gặp Bộ trưởng Quốc phòng, ông George Pearce, xin quân đội giúp đỡ.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/George_Pearce_1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"George Pearce 1927.jpg\" – Fairfax Corporation, Public domain (https://commons.wikimedia.org/wiki/File:George_Pearce_1927.jpg)"
+            },
+            "label": "Bộ trưởng Quốc phòng George Pearce"
+          },
+          {
+            "text": "Ông Pearce đồng ý, với điều kiện: binh lính sẽ vận hành súng, còn nông dân lo tiền ăn ở và tiền đạn. Có ý kiến cho rằng ông coi đây là một dịp tập bắn cho binh lính.",
+            "ai": "a 1930s government office in Australia with a minister signing a document at a large desk, flags and maps, formal"
+          },
+          {
+            "text": "Người chỉ huy là thiếu tá Meredith, thuộc pháo binh hoàng gia Úc. Đi cùng ông là hai người lính.",
+            "ai": "an Australian army major in a 1930s uniform with a peaked cap standing beside two soldiers and a truck in the outback, seen from a distance"
+          },
+          {
+            "text": "Vũ khí của họ: hai khẩu súng máy Lewis, và mười nghìn viên đạn.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes%2C_Bestanddeelnr_158-1949.jpg/1920px-INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes%2C_Bestanddeelnr_158-1949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"INGENIOUS ANTI-AIRCRAFT GUN. A Lewis gun for anti-aircraft purposes, Bestanddeelnr 158-1949.jpg\" – Nationaal Archief, CC0 (https://commons.wikimedia.org/wiki/File:INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes,_Bestanddeelnr_158-1949.jpg)"
+            },
+            "label": "Súng máy Lewis"
+          }
+        ]
+      },
+      {
+        "title": "Trận đánh đầu tiên",
+        "beats": [
+          {
+            "text": "Những cơn mưa làm cuộc hành quân phải hoãn lại. Đến ngày hai tháng mười một, binh lính mới lên đường tới vùng Campion.",
+            "ai": "a muddy outback track after rain with a 1930s army truck stuck and soldiers pushing it, grey sky, Western Australia"
+          },
+          {
+            "text": "Họ thấy khoảng năm mươi con emu. Nhưng đàn chim ở quá xa tầm bắn. Nông dân thử lùa chúng lại gần, thì đàn emu chia thành từng nhóm nhỏ, chạy tán loạn.",
+            "ai": "a small group of emus scattering in different directions across open scrubland, dust, soldiers far behind, humorous mood"
+          },
+          {
+            "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn.",
+            "ai": "a distant flock of emus disappearing over a low ridge in the outback, a soldier lowering his rifle in the foreground, humorous mood"
+          },
+          {
+            "text": "Ngày bốn tháng mười một, thiếu tá Meredith đặt một trận phục kích gần một con đập nước, nơi đàn emu thường đến uống.",
+            "ai": "soldiers hiding behind bushes near a small farm dam with a machine gun on a tripod, emus approaching the water, tense, dawn"
+          },
+          {
+            "text": "Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng.",
+            "ai": "a tense soldier lying behind a Lewis gun in tall grass, finger near the trigger, emus approaching a waterhole in the distance, hushed"
+          },
+          {
+            "text": "Hơn một nghìn con emu tiến lại gần. Khẩu súng bắt đầu nổ. Nhưng chỉ sau mười mấy con trúng đạn… khẩu súng bị kẹt.",
+            "ai": "a frustrated soldier fiddling with a jammed machine gun while a huge flock of emus runs away in the background, outback, comedic tension"
+          },
+          {
+            "text": "Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy.",
+            "ai": "a wide empty outback landscape with dust settling and emu footprints in the red soil, soldiers standing in disbelief in the distance"
+          },
+          {
+            "text": "Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn.",
+            "ai": "a 1930s truck with a machine gun mounted on the back bouncing over rough outback ground chasing fast emus that are far ahead, dust cloud, comedic"
+          },
+          {
+            "text": "Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu.",
+            "ai": "exhausted soldiers sitting on a truck tailgate in the hot outback sun, empty ammunition boxes, emus grazing far away"
+          }
+        ]
+      },
+      {
+        "title": "Chiến thuật du kích",
+        "beats": [
+          {
+            "text": "Binh lính nhận thấy mỗi đàn emu dường như có một con đầu đàn đứng canh, quan sát xung quanh trong khi cả đàn ăn. Thấy người đến, cả đàn bỏ chạy.",
+            "ai": "a single tall emu standing alert on a small rise watching over a flock feeding in a wheat field, like a sentry, late afternoon"
+          },
+          {
+            "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng.",
+            "ai": "small groups of emus spread out across a vast field in different directions, aerial view, strategic pattern"
+          },
+          {
+            "text": "Còn thiếu tá Meredith thì than rằng loài chim này có thể đối mặt với súng máy, cứng cỏi như những chiếc xe tăng.",
+            "ai": "a big emu standing defiantly facing the viewer in the outback, low angle, heroic and humorous, dust in the air"
+          },
+          {
+            "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới.",
+            "ai": "a military officer gesturing toward emus in a field while talking to a reporter with a notebook, 1930s, wry humor"
+          },
+          {
+            "text": "Báo chí đưa tin chế giễu. Quốc hội đem chuyện này ra bàn. Ngày tám tháng mười một, chỉ sau một tuần, Bộ trưởng Pearce ra lệnh rút quân.",
+            "ai": "1930s Australian newspaper pages spread on a table with cartoon drawings of emus and soldiers, unreadable headlines, sepia"
+          },
+          {
+            "text": "Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không.",
+            "ai": "a 1930s parliament chamber in Australia with politicians laughing in their seats, wood paneling, sepia"
+          }
+        ]
+      },
+      {
+        "title": "Hiệp hai",
+        "beats": [
+          {
+            "text": "Nhưng đàn emu vẫn ở lại. Hạn hán khiến tình hình càng tồi tệ, và nông dân lại kêu cứu.",
+            "ai": "a parched wheat field under a blazing sun with emus wandering through, a desperate farmer watching from his fence, 1930s"
+          },
+          {
+            "text": "Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại.",
+            "ai": "a 1930s Australian politician speaking at a podium to a crowd of farmers in a country town, flags, sepia"
+          },
+          {
+            "text": "Ngày mười ba tháng mười một, quân đội quay trở lại. Lần này kết quả khá hơn: đến đầu tháng mười hai, mỗi tuần họ bắn được khoảng một trăm con.",
+            "ai": "soldiers resting beside a truck at an outback camp in the evening, mugs of tea, a machine gun covered, tired but determined"
+          },
+          {
+            "text": "Ngày mười tháng mười hai, chiến dịch kết thúc. Meredith báo cáo đã bắn hạ chín trăm tám mươi sáu con emu, tốn chín nghìn tám trăm sáu mươi viên đạn.",
+            "ai": "an army officer writing a report by lamplight in a tent, pages and a map of Western Australia, 1930s"
+          },
+          {
+            "text": "Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim.",
+            "ai": "British conservationists in 1930s coats reading a newspaper with concern in a London park, pigeons around, sepia"
+          },
+          {
+            "text": "Nghĩa là trung bình đúng mười viên đạn cho một con chim. Ông còn cho rằng khoảng hai nghìn năm trăm con khác bị thương, nhưng con số này chưa từng được kiểm chứng.",
+            "ai": "empty brass bullet casings scattered in red outback dust, close-up, soft evening light"
+          }
+        ]
+      },
+      {
+        "title": "Ai thắng?",
+        "beats": [
+          {
+            "text": "Chín trăm tám mươi sáu con, so với khoảng hai mươi nghìn con. Đàn emu gần như chẳng suy suyển.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg/1920px-Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae -Australia -adult with juveniles-8.jpg\" – Jarrod, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-Australia_-adult_with_juveniles-8.jpg)"
+            }
+          },
+          {
+            "text": "Báo chí và người đời sau tổng kết ngắn gọn: quân đội Úc đã thua một đàn chim.",
+            "ai": "a group of emus standing proudly in a wheat field at sunset, silhouettes, triumphant and humorous mood"
+          },
+          {
+            "text": "Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi.",
+            "ai": "a small 1930s Australian country newspaper office with a printing press and a man setting type, sepia"
+          },
+          {
+            "text": "Có nhà nghiên cứu còn cho rằng chiến dịch mang cả mục đích chính trị: chính phủ muốn tỏ ra quan tâm đến miền Tây, khi vùng này đang có phong trào đòi tách khỏi nước Úc.",
+            "ai": "a 1930s political rally in Perth with banners and a crowd in hats, speaker on a stage, sepia, unreadable signs"
+          },
+          {
+            "text": "Nông dân còn xin quân đội giúp thêm nhiều lần nữa, vào những năm một nghìn chín trăm ba mươi tư, bốn mươi ba và bốn mươi tám. Lần nào cũng bị từ chối.",
+            "ai": "a farmer reading a rejection letter at his kitchen table in a simple outback homestead, disappointed, 1940s"
+          },
+          {
+            "text": "Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận với emu nữa.",
+            "ai": "wooden ammunition crates being unloaded from an army truck at a remote farm in 1950 Western Australia, farmers watching"
+          },
+          {
+            "text": "Thay vào đó, chính quyền dùng cách treo thưởng. Chỉ trong sáu tháng của năm một nghìn chín trăm ba mươi tư, đã có hơn năm mươi bảy nghìn suất thưởng được chi trả.",
+            "ai": "a rural government office in the 1930s with a clerk paying farmers at a counter, ledger books, sepia"
+          },
+          {
+            "text": "Và giải pháp hiệu quả nhất hóa ra lại đơn giản: những hàng rào thật dài và chắc chắn, ngăn emu, chó hoang và thỏ.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Rabbit-proof-fence-000876d.jpg/1920px-Rabbit-proof-fence-000876d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Rabbit-proof-fence-000876d.jpg\" – Broomhall, F. H. (Frank H.), 1900-1995, Public domain (https://commons.wikimedia.org/wiki/File:Rabbit-proof-fence-000876d.jpg)"
+            },
+            "label": "Hàng rào dài ở Tây Úc · 1926"
+          }
+        ]
+      },
+      {
+        "title": "Lời kết",
+        "beats": [
+          {
+            "text": "Ngày nay, Chiến tranh Emu thường được kể như một chuyện cười. Nhưng đằng sau nó là những người lính cũ đang vật lộn mưu sinh trong thời khủng hoảng.",
+            "ai": "an old weathered farmhouse in the Australian wheatbelt at dusk with a windmill, golden fields, nostalgic"
+          },
+          {
+            "text": "Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe cũng phải bật cười.",
+            "ai": "people of different ages laughing while reading an old history book together in a cozy library, warm light"
+          },
+          {
+            "text": "Và là bài học về việc con người không phải lúc nào cũng thắng được thiên nhiên, kể cả khi có súng máy trong tay.",
+            "ai": "a lone emu walking along a dirt road toward the sunset in the Australian outback, peaceful, wide shot"
+          },
+          {
+            "text": "Còn loài emu? Đến nay chúng vẫn sống khỏe mạnh khắp nước Úc.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/HeadofEmu.jpg/1920px-HeadofEmu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"HeadofEmu.jpg\" – Relativity, CC0 (https://commons.wikimedia.org/wiki/File:HeadofEmu.jpg)"
+            }
+          },
+          {
+            "text": "Ước tính hiện có hàng trăm nghìn con emu sống tự do. Chúng vẫn đi qua những cánh đồng lúa mì, và nông dân Úc vẫn dựng hàng rào.",
+            "ai": "a group of emus walking beside a long wire fence along a modern wheat field in Western Australia at golden hour, peaceful"
+          },
+          {
+            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
+            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+          }
+        ]
+      }
+    ]
+  }
+}

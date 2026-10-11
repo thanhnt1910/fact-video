@@ -1,24 +1,24 @@
 [
  {
-  "slot": "A01",
-  "beats": null,
-  "mo_ta": "B0 xe tải quân đội Úc 1932 chở súng máy",
+  "slot": "S01",
+  "beats": "0,27,36,46",
+  "mo_ta": "Quân đội / súng máy Lewis Chiến tranh Emu 1932",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deceased_emu_during_Emu_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 712,
-    "h": 856,
-    "credit": "\"Deceased emu during Emu War.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Deceased_emu_during_Emu_War.jpg)",
-    "text": "File:Deceased emu during Emu War.jpg A man holding an emu killed by Australian soldiers"
-   },
-   {
-    "so": 1,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/TheGreatEmuWarcolage.png/1920px-TheGreatEmuWarcolage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 2441,
     "h": 3037,
     "credit": "\"TheGreatEmuWarcolage.png\" – 子ファース, Public domain (https://commons.wikimedia.org/wiki/File:TheGreatEmuWarcolage.png)",
     "text": "File:TheGreatEmuWarcolage.png A collage created by me using following images found in the Wikimedia Commons:\n(From top left, clockwise)"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deceased_emu_during_Emu_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 712,
+    "h": 856,
+    "credit": "\"Deceased emu during Emu War.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Deceased_emu_during_Emu_War.jpg)",
+    "text": "File:Deceased emu during Emu War.jpg A man holding an emu killed by Australian soldiers"
    },
    {
     "so": 2,
@@ -46,41 +46,34 @@
    },
    {
     "so": 5,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Edward_Ballard_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1136,
-    "h": 1605,
-    "credit": "\"Edward Ballard 1923.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Edward_Ballard_1923.jpg)",
-    "text": "File:Edward Ballard 1923.jpg Edward Ballard, government entomologist at Madras. \n\nRoyal Artillery\nNyasaland 1911-1913\nGovernment Entomologist, Madras - 1915-\nCommonwealth Cotton Entomologist, Australi"
-   }
-  ]
- },
- {
-  "slot": "A02",
-  "beats": null,
-  "mo_ta": "B0/B47 ảnh thật Chiến tranh Emu",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/TheGreatEmuWarcolage.png/1920px-TheGreatEmuWarcolage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2441,
-    "h": 3037,
-    "credit": "\"TheGreatEmuWarcolage.png\" – 子ファース, Public domain (https://commons.wikimedia.org/wiki/File:TheGreatEmuWarcolage.png)",
-    "text": "File:TheGreatEmuWarcolage.png A collage created by me using following images found in the Wikimedia Commons:\n(From top left, clockwise)"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SLNSW_51625_Corporal_of_First_Field_Cadre_instructs_cadets_in_the_Lewis_gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1001,
+    "credit": "\"SLNSW 51625 Corporal of First Field Cadre instructs cadets in the Lewis gun.jpg\" – Hood, Ted, 1911-2000, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_51625_Corporal_of_First_Field_Cadre_instructs_cadets_in_the_Lewis_gun.jpg)",
+    "text": "File:SLNSW 51625 Corporal of First Field Cadre instructs cadets in the Lewis gun.jpg Corporal of First Field Cadre instructs cadets in the Lewis gun"
    },
    {
-    "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deceased_emu_during_Emu_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 712,
-    "h": 856,
-    "credit": "\"Deceased emu during Emu War.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Deceased_emu_during_Emu_War.jpg)",
-    "text": "File:Deceased emu during Emu War.jpg A man holding an emu killed by Australian soldiers"
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/SLNSW_51633_A_cadet_aiming_a_Lewis_gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 782,
+    "h": 1050,
+    "credit": "\"SLNSW 51633 A cadet aiming a Lewis gun.jpg\" – Hood, Ted, 1911-2000, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_51633_A_cadet_aiming_a_Lewis_gun.jpg)",
+    "text": "File:SLNSW 51633 A cadet aiming a Lewis gun.jpg A cadet aiming a Lewis gun"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/SLNSW_9592_Australian_Infantrymen_at_musketry_practice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1037,
+    "credit": "\"SLNSW 9592 Australian Infantrymen at musketry practice.jpg\" – Hood, Ted, 1911-2000, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_9592_Australian_Infantrymen_at_musketry_practice.jpg)",
+    "text": "File:SLNSW 9592 Australian Infantrymen at musketry practice.jpg Australian Infantrymen firing a Lewis Gun"
    }
   ]
  },
  {
-  "slot": "A03",
-  "beats": null,
-  "mo_ta": "B5 lính Úc trở về sau Thế chiến I",
+  "slot": "S02",
+  "beats": "5",
+  "mo_ta": "Lính Úc trở về sau Thế chiến I",
   "candidates": [
    {
     "so": 0,
@@ -92,6 +85,14 @@
    },
    {
     "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Welcome_Home_for_returning_World_War_I_soldier_Fred_Tippett.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 925,
+    "credit": "\"Welcome Home for returning World War I soldier Fred Tippett.jpg\" – This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information., Public domain (https://commons.wikimedia.org/wiki/File:Welcome_Home_for_returning_World_War_I_soldier_Fred_Tippett.jpg)",
+    "text": "File:Welcome Home for returning World War I soldier Fred Tippett.jpg Welcome Home for returning World War I soldier, Fred Tippett, 1919 ; the two lads in the front, Norm and Jack Maloney, went on to f"
+   },
+   {
+    "so": 2,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/A_Soldiers%27_Home_%2C_South_Australia%28GN02074%29.jpg/1920px-A_Soldiers%27_Home_%2C_South_Australia%28GN02074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
@@ -99,7 +100,7 @@
     "text": "File:A Soldiers' Home , South Australia(GN02074).jpg This photo shows a newly constructed 'Soldiers' home. \nThe sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Garde"
    },
    {
-    "so": 2,
+    "so": 3,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Soldiers%27_Homes%2C_South_Australia%28GN02085%29.jpg/1920px-Soldiers%27_Homes%2C_South_Australia%28GN02085%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
@@ -107,20 +108,12 @@
     "text": "File:Soldiers' Homes, South Australia(GN02085).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously as 1917, 1918 an"
    },
    {
-    "so": 3,
+    "so": 4,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Construction_of_Soldiers%27_Homes%2C_South_Australia%28GN02068%29.jpg/1920px-Construction_of_Soldiers%27_Homes%2C_South_Australia%28GN02068%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
     "credit": "\"Construction of Soldiers' Homes, South Australia(GN02068).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Construction_of_Soldiers%27_Homes,_South_Australia(GN02068).jpg)",
     "text": "File:Construction of Soldiers' Homes, South Australia(GN02068).jpg This photo shows the construction of Soldiers' Homes with workers in the foreground. \nThe sequence GN02062 to GN02091 inclusive refer"
-   },
-   {
-    "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Construction_of_Soldiers%27_Homes%2C_South_Australia%28GN02069%29.jpg/1920px-Construction_of_Soldiers%27_Homes%2C_South_Australia%28GN02069%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3264,
-    "h": 2448,
-    "credit": "\"Construction of Soldiers' Homes, South Australia(GN02069).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Construction_of_Soldiers%27_Homes,_South_Australia(GN02069).jpg)",
-    "text": "File:Construction of Soldiers' Homes, South Australia(GN02069).jpg This photo depicts the construction of soldiers' homes with builders at work in the foreground.\nThe sequence GN02062 to GN02091 inclu"
    },
    {
     "so": 5,
@@ -132,19 +125,19 @@
    },
    {
     "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Construction_of_Soldiers%27_Homes%2C_South_Australia%28GN02069%29.jpg/1920px-Construction_of_Soldiers%27_Homes%2C_South_Australia%28GN02069%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"Construction of Soldiers' Homes, South Australia(GN02069).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Construction_of_Soldiers%27_Homes,_South_Australia(GN02069).jpg)",
+    "text": "File:Construction of Soldiers' Homes, South Australia(GN02069).jpg This photo depicts the construction of soldiers' homes with builders at work in the foreground.\nThe sequence GN02062 to GN02091 inclu"
+   },
+   {
+    "so": 7,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Construction_of_Soldiers%27_Homes%2C%2C_South_Australia%28GN02076%29.jpg/1920px-Construction_of_Soldiers%27_Homes%2C%2C_South_Australia%28GN02076%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
     "credit": "\"Construction of Soldiers' Homes,, South Australia(GN02076).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Construction_of_Soldiers%27_Homes,,_South_Australia(GN02076).jpg)",
     "text": "File:Construction of Soldiers' Homes,, South Australia(GN02076).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously"
-   },
-   {
-    "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Exterior_of_a_Soldiers%27_Home%2C_South_Australia%28GN02063%29.jpg/1920px-Exterior_of_a_Soldiers%27_Home%2C_South_Australia%28GN02063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3264,
-    "h": 2448,
-    "credit": "\"Exterior of a Soldiers' Home, South Australia(GN02063).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Exterior_of_a_Soldiers%27_Home,_South_Australia(GN02063).jpg)",
-    "text": "File:Exterior of a Soldiers' Home, South Australia(GN02063).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously as "
    },
    {
     "so": 8,
@@ -156,6 +149,14 @@
    },
    {
     "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Exterior_of_a_Soldiers%27_Home%2C_South_Australia%28GN02063%29.jpg/1920px-Exterior_of_a_Soldiers%27_Home%2C_South_Australia%28GN02063%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"Exterior of a Soldiers' Home, South Australia(GN02063).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Exterior_of_a_Soldiers%27_Home,_South_Australia(GN02063).jpg)",
+    "text": "File:Exterior of a Soldiers' Home, South Australia(GN02063).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously as "
+   },
+   {
+    "so": 10,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Soldiers%27_Homes%2C_row_of_houses_South_Australia%28GN02081%29.jpg/1920px-Soldiers%27_Homes%2C_row_of_houses_South_Australia%28GN02081%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
@@ -163,7 +164,7 @@
     "text": "File:Soldiers' Homes, row of houses South Australia(GN02081).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously as"
    },
    {
-    "so": 10,
+    "so": 11,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Soldiers%27_Homes%2C_South_Australia%2C_row_of_houses%28GN02082%29.jpg/1920px-Soldiers%27_Homes%2C_South_Australia%2C_row_of_houses%28GN02082%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
@@ -171,7 +172,7 @@
     "text": "File:Soldiers' Homes, South Australia, row of houses(GN02082).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously a"
    },
    {
-    "so": 11,
+    "so": 12,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Soldiers%27_Homes%2C_row_of_houses%2C_South_Australia%28GN02075%29.jpg/1920px-Soldiers%27_Homes%2C_row_of_houses%2C_South_Australia%28GN02075%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
@@ -179,20 +180,12 @@
     "text": "File:Soldiers' Homes, row of houses, South Australia(GN02075).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variously a"
    },
    {
-    "so": 12,
+    "so": 13,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Soldiers%27_Homes%2C_South_Australia_featuring_one_house%28GN02087%29.jpg/1920px-Soldiers%27_Homes%2C_South_Australia_featuring_one_house%28GN02087%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3264,
     "h": 2448,
     "credit": "\"Soldiers' Homes, South Australia featuring one house(GN02087).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Soldiers%27_Homes,_South_Australia_featuring_one_house(GN02087).jpg)",
     "text": "File:Soldiers' Homes, South Australia featuring one house(GN02087).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given variou"
-   },
-   {
-    "so": 13,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Soldiers%27_Homes%2C_South_Australia%2C_featuring_one_house%28GN02088%29.jpg/1920px-Soldiers%27_Homes%2C_South_Australia%2C_featuring_one_house%28GN02088%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3264,
-    "h": 2448,
-    "credit": "\"Soldiers' Homes, South Australia, featuring one house(GN02088).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Soldiers%27_Homes,_South_Australia,_featuring_one_house(GN02088).jpg)",
-    "text": "File:Soldiers' Homes, South Australia, featuring one house(GN02088).jpg The sequence GN02062 to GN02091 inclusive refers to 'Soldiers' Homes' at Colonel Light Gardens, with the dates being given vario"
    },
    {
     "so": 14,
@@ -213,147 +206,92 @@
   ]
  },
  {
-  "slot": "A04",
-  "beats": null,
-  "mo_ta": "B6 Gallipoli / mặt trận phía Tây",
+  "slot": "S03",
+  "beats": "8",
+  "mo_ta": "Lính cũ khai hoang đất trồng trọt",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/StateLibQld_2_192091_Colour_illustration_of_an_Australian_soldier_fighting_at_Gallipoli%2C_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1000,
-    "h": 899,
-    "credit": "\"StateLibQld 2 192091 Colour illustration of an Australian soldier fighting at Gallipoli, 1915.jpg\" – Barker, David, Public domain (https://commons.wikimedia.org/wiki/File:StateLibQld_2_192091_Colour_illustration_of_an_Australian_soldier_fighting_at_Gallipoli,_1915.jpg)",
-    "text": "File:StateLibQld 2 192091 Colour illustration of an Australian soldier fighting at Gallipoli, 1915.jpg Colour illustration of an Australian soldier fighting at Gallipoli, 1915"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/CSIRO_ScienceImage_4036_Salinity_in_the_Western_Australian_wheatbelt_near_Bruce_Rock_WA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1850,
+    "h": 1200,
+    "credit": "\"CSIRO ScienceImage 4036 Salinity in the Western Australian wheatbelt near Bruce Rock WA.jpg\" – Willem van Aken, CSIRO, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_4036_Salinity_in_the_Western_Australian_wheatbelt_near_Bruce_Rock_WA.jpg)",
+    "text": "File:CSIRO ScienceImage 4036 Salinity in the Western Australian wheatbelt near Bruce Rock WA.jpg Salinity in the Western Australian wheatbelt near Bruce Rock, WA."
    },
    {
     "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/A_Group_in_the_Trenches%2C_Henry_Charles_Marshall_%2816596755614%29_%282%29.jpg/1920px-A_Group_in_the_Trenches%2C_Henry_Charles_Marshall_%2816596755614%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5229,
-    "h": 3369,
-    "credit": "\"A Group in the Trenches, Henry Charles Marshall (16596755614) (2).jpg\" – HC Marshall, Public domain (https://commons.wikimedia.org/wiki/File:A_Group_in_the_Trenches,_Henry_Charles_Marshall_(16596755614)_(2).jpg)",
-    "text": "File:A Group in the Trenches, Henry Charles Marshall (16596755614) (2).jpg Australian soldier's in the trenches, Gallipoli, 1915, by HC Marshall, Australian 1st Battalion, Infantry,  gelatin silver pr"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/CSIRO_ScienceImage_4462_Landscape_view_of_farmland_near_Bruce_Rock_in_the_Western_Australian_wheat_belt_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1850,
+    "h": 1200,
+    "credit": "\"CSIRO ScienceImage 4462 Landscape view of farmland near Bruce Rock in the Western Australian wheat belt 1981.jpg\" – Willem van Aken, CSIRO, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_4462_Landscape_view_of_farmland_near_Bruce_Rock_in_the_Western_Australian_wheat_belt_1981.jpg)",
+    "text": "File:CSIRO ScienceImage 4462 Landscape view of farmland near Bruce Rock in the Western Australian wheat belt 1981.jpg Landscape view of farmland near Bruce Rock in the Western Australian wheat belt. 1"
    },
    {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Indian_Soldiers_Herschel_1915_SLNSW_FL1538530.jpg/1920px-Indian_Soldiers_Herschel_1915_SLNSW_FL1538530.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4885,
-    "h": 2867,
-    "credit": "\"Indian Soldiers Herschel 1915 SLNSW FL1538530.jpg\" – Herschel Harris, Public domain (https://commons.wikimedia.org/wiki/File:Indian_Soldiers_Herschel_1915_SLNSW_FL1538530.jpg)",
-    "text": "File:Indian Soldiers Herschel 1915 SLNSW FL1538530.jpg Indian soldiers on their way to ANZAC cove from Lemnos, Gallipoli, October 1915, by Herschel Harris, gelatin silver print, State Library of New S"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Queensland_State_Archives_4447_Wandoan_Lands_clearing_of_No_3_tank_site_1952.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 720,
+    "h": 1083,
+    "credit": "\"Queensland State Archives 4447 Wandoan Lands clearing of No 3 tank site 1952.png\" – Lands Department, Survey Office, Cartographic Branch, Photographic Section, Public domain (https://commons.wikimedia.org/wiki/File:Queensland_State_Archives_4447_Wandoan_Lands_clearing_of_No_3_tank_site_1952.png)",
+    "text": "File:Queensland State Archives 4447 Wandoan Lands clearing of No 3 tank site 1952.png Wandoan Lands, clearing of No 3 tank site."
    },
    {
     "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665435294%29.jpg/1920px-No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665435294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4160,
-    "h": 3136,
-    "credit": "\"No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665435294).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665435294).jpg)",
-    "text": "File:No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665435294).jpg Handwritten names on the photo, all medical officers:\nC"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/CSIRO_ScienceImage_715_Burning_Plantation_Harvest_Residues.jpg/1920px-CSIRO_ScienceImage_715_Burning_Plantation_Harvest_Residues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2586,
+    "h": 1695,
+    "credit": "\"CSIRO ScienceImage 715 Burning Plantation Harvest Residues.jpg\" – T.Grove, CSIRO, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_715_Burning_Plantation_Harvest_Residues.jpg)",
+    "text": "File:CSIRO ScienceImage 715 Burning Plantation Harvest Residues.jpg Burning harvest residues after clear felling the first rotation of Eucalyptus globulus plantation in south-western Australia."
    },
    {
     "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665532984%29.jpg/1920px-No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665532984%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4212,
-    "h": 3148,
-    "credit": "\"No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665532984).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665532984).jpg)",
-    "text": "File:No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665532984).jpg Handwritten names on the photo:\nCapt Barton - Captain A"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Fires_in_northwestern_Australia_%28MODIS_2016-05-12%29.jpg/1920px-Fires_in_northwestern_Australia_%28MODIS_2016-05-12%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4400,
+    "h": 3400,
+    "credit": "\"Fires in northwestern Australia (MODIS 2016-05-12).jpg\" – Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC, Public domain (https://commons.wikimedia.org/wiki/File:Fires_in_northwestern_Australia_(MODIS_2016-05-12).jpg)",
+    "text": "File:Fires in northwestern Australia (MODIS 2016-05-12).jpg Dozens of fires were burning across northern Australia in late April 2016. The Moderate Resolution Imaging Spectroradiometer (MODIS) aboard "
    },
    {
     "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Soldiers_in_trench.jpg/1920px-Soldiers_in_trench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2208,
-    "h": 1968,
-    "credit": "\"Soldiers in trench.jpg\" – Ernest Brooks, Public domain (https://commons.wikimedia.org/wiki/File:Soldiers_in_trench.jpg)",
-    "text": "File:Soldiers in trench.jpg Soldiers in the trenches on the southern section of Gallipoli Peninsula during World War I. The men belong to the Royal Irish Fusiliers."
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Menziesii_threats_01_gnangarra.jpg/1920px-Menziesii_threats_01_gnangarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2964,
+    "h": 1752,
+    "credit": "\"Menziesii threats 01 gnangarra.jpg\" – Gnangarra, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Menziesii_threats_01_gnangarra.jpg)",
+    "text": "File:Menziesii threats 01 gnangarra.jpg land clearing for housing is the biggest threat to the Banksia menziesii species, like this area in Canning Vale which will be cleared before the end of 2007"
    },
    {
     "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665555098%29.jpg/1920px-Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665555098%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4320,
-    "h": 3240,
-    "credit": "\"Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665555098).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665555098).jpg)",
-    "text": "File:Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665555098).jpg Detail taken from this photo: <a href=\"https://w"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Maroochydore%2C_circa_1931.jpg/1920px-Maroochydore%2C_circa_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3000,
+    "h": 1146,
+    "credit": "\"Maroochydore, circa 1931.jpg\" – Queensland State Archives, Public domain (https://commons.wikimedia.org/wiki/File:Maroochydore,_circa_1931.jpg)",
+    "text": "File:Maroochydore, circa 1931.jpg Image source: Queensland State Archives Item ID ITM1018717 Maroochydore\nMAROOCHYDORE\nThe pride of the district and of the North Coast is Maroochydore, the largest tow"
    },
    {
     "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665571066%29.jpg/1920px-Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665571066%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4320,
-    "h": 3240,
-    "credit": "\"Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665571066).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665571066).jpg)",
-    "text": "File:Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665571066).jpg Detail taken from this photo: <a href=\"https://w"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/BRISBANE-New_Farm_from_Galloways_Hill_1909_A554_%2844789053364%29.jpg/1920px-BRISBANE-New_Farm_from_Galloways_Hill_1909_A554_%2844789053364%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4148,
+    "h": 2198,
+    "credit": "\"BRISBANE-New Farm from Galloways Hill 1909 A554 (44789053364).jpg\" – Queensland State Archives from Runcorn, Queensland, Australia, Public domain (https://commons.wikimedia.org/wiki/File:BRISBANE-New_Farm_from_Galloways_Hill_1909_A554_(44789053364).jpg)",
+    "text": "File:BRISBANE-New Farm from Galloways Hill 1909 A554 (44789053364).jpg QSA Item ID 435739\nView this and other original records at the Queensland State Archives:\n<a href=\"http://www.archivessearch.qld."
    },
    {
     "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665563474%29.jpg/1920px-Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665563474%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4320,
-    "h": 3240,
-    "credit": "\"Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665563474).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665563474).jpg)",
-    "text": "File:Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665563474).jpg Detail taken from this photo: <a href=\"https://w"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/040tank.jpg/1920px-040tank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2424,
+    "h": 1440,
+    "credit": "\"040tank.jpg\" – Photographer:  Thomas Moore (dec.)  Scanned by Graham Moore (gamagr), Public domain (https://commons.wikimedia.org/wiki/File:040tank.jpg)",
+    "text": "File:040tank.jpg Photo of Stuart Tank on the farm of Thomas Moore, Meenaar, Western Australia.  Tank was purchased as war surplus after world war two and used for land clearing and ploughing.  People "
    },
    {
     "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665548198%29.jpg/1920px-Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665548198%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4308,
-    "h": 2764,
-    "credit": "\"Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665548198).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665548198).jpg)",
-    "text": "File:Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665548198).jpg Detail taken from this photo: <a href=\"https://w"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/041tandem_plough.jpg/1920px-041tandem_plough.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2448,
+    "h": 1080,
+    "credit": "\"041tandem plough.jpg\" – Photographer:  Thomas Moore (dec.)  Scanned by Graham Moore (gamagr), Public domain (https://commons.wikimedia.org/wiki/File:041tandem_plough.jpg)",
+    "text": "File:041tandem plough.jpg Photo of Stuart Tank on the farm of Thomas Moore, Meenaar, Western Australia.  Tank was purchased as war surplus after world war two and used for land clearing and ploughing."
    },
    {
     "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665588012%29.jpg/1920px-Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665588012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4320,
-    "h": 2688,
-    "credit": "\"Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665588012).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665588012).jpg)",
-    "text": "File:Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665588012).jpg Detail taken from this photo: <a href=\"https://w"
-   },
-   {
-    "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665541436%29.jpg/1920px-Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_%287665541436%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4320,
-    "h": 3240,
-    "credit": "\"Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665541436).jpg\" – ThruTheseLines, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Detail_No._2_Australian_General_Hospital_Mena_House_Egypt._The_first_batch_of_wounded_Australian_soldiers_from_Gallipoli_May_1915_(7665541436).jpg)",
-    "text": "File:Detail No. 2 Australian General Hospital Mena House Egypt. The first batch of wounded Australian soldiers from Gallipoli May 1915 (7665541436).jpg Detail taken from this photo: <a href=\"https://w"
-   },
-   {
-    "so": 12,
-    "url": "https://live.staticflickr.com/65535/52265937551_f87d73f1c5_b.jpg",
-    "w": 1024,
-    "h": 712,
-    "credit": "\"Group of Australian soldiers - circa 1914\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/52265937551)",
-    "text": "Group of Australian soldiers - circa 1914 1914 6thbattalion aussiemobs australia group jamesforbesross kia men soldier vintage ww1"
-   },
-   {
-    "so": 13,
-    "url": "https://live.staticflickr.com/65535/52700555617_1f0ca2d2a0_b.jpg",
-    "w": 1024,
-    "h": 712,
-    "credit": "\"Lieut Hugo Vivian Hope Throssell and Australians in Trenches\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/52700555617)",
-    "text": "Lieut Hugo Vivian Hope Throssell and Australians in Trenches 1915 army aussiemobs australia hugovivianthrossell military soldier theillustratedwarnews vintage ww1"
-   },
-   {
-    "so": 14,
-    "url": "https://live.staticflickr.com/4913/45329633285_4f7bbbf3c9_b.jpg",
-    "w": 768,
-    "h": 1024,
-    "credit": "\"Henry Charles Marshall #577\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/45329633285)",
-    "text": "Henry Charles Marshall #577 1915 1stbattalion alexanderwmarshall anzac aussiemobs australia devonport henrycharlesmarshall kia lestweforget military photographer portrait soldier tasmania vintage ww1"
-   },
-   {
-    "so": 15,
-    "url": "https://live.staticflickr.com/65535/52686312850_01f43a3e91_b.jpg",
-    "w": 1024,
-    "h": 808,
-    "credit": "\"Graves at Hell Spit Cemetery, Anzac Cove, Gallipoli, Turkey - WW1\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/52686312850)",
-    "text": "Graves at Hell Spit Cemetery, Anzac Cove, Gallipoli, Turkey - WW1 1915 8thbattalion anzac army aubreyjohnbickleysherring aussiemobs australia beachcemetery burial cemetery cross gallipoli gordoncrocke"
-   }
-  ]
- },
- {
-  "slot": "A05",
-  "beats": null,
-  "mo_ta": "B8 lính cũ khai hoang đất (soldier settlement)",
-  "candidates": [
-   {
-    "so": 0,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Group_settlement_plaque_gnangarra_02.JPG/1920px-Group_settlement_plaque_gnangarra_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 3104,
     "h": 4672,
@@ -361,7 +299,7 @@
     "text": "File:Group settlement plaque gnangarra 02.JPG plaque commemorating the group settleent scheme families of the Carbunup area"
    },
    {
-    "so": 1,
+    "so": 11,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Group_settlement_plaque_gnangarra_01.JPG/1920px-Group_settlement_plaque_gnangarra_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 2920,
     "h": 3776,
@@ -371,31 +309,56 @@
   ]
  },
  {
-  "slot": "A06",
-  "beats": null,
-  "mo_ta": "B12 bao lúa mì chất ở ga 1930",
-  "candidates": []
- },
- {
-  "slot": "A07",
-  "beats": null,
-  "mo_ta": "B14 nông dân gặt lúa mì 1930",
+  "slot": "S04",
+  "beats": "12",
+  "mo_ta": "Bao lúa mì chất đống ở ga 1930s",
   "candidates": [
    {
     "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield%28GN07444%29.jpg/1920px-Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield%28GN07444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3264,
-    "h": 2448,
-    "credit": "\"Horse Drawn Harvest in a Field Man Filling Sacks of Wheat Turretfield(GN07444).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield(GN07444).jpg)",
-    "text": "File:Horse Drawn Harvest in a Field Man Filling Sacks of Wheat Turretfield(GN07444).jpg "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bagged_wheat_at_Saddleworth%2C_1914_%2814781858845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1200,
+    "h": 920,
+    "credit": "\"Bagged wheat at Saddleworth, 1914 (14781858845).jpg\" – State Library of South Australia from Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Bagged_wheat_at_Saddleworth,_1914_(14781858845).jpg)",
+    "text": "File:Bagged wheat at Saddleworth, 1914 (14781858845).jpg <a href=\"http://www.catalog.slsa.sa.gov.au:80/record=b2140164~S1\" target=\"_blank\" rel=\"nofollow\">PRG 280/1/14/313</a>\nWheat stack of 16,000 bag"
    },
    {
     "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/I020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1506,
+    "h": 936,
+    "credit": "\"I020.jpg\" – Department of External Affairs, Melbourne, Australia., Public domain (https://commons.wikimedia.org/wiki/File:I020.jpg)",
+    "text": "File:I020.jpg With Australian Stripper Harvesters Wheat is Harvested, Threshed and put into the Bag for 8 to 10 cents. per bushel."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Booleroo_Centre_Railway_Station%28GN02198%29.jpg/1920px-Booleroo_Centre_Railway_Station%28GN02198%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"Booleroo Centre Railway Station(GN02198).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Booleroo_Centre_Railway_Station(GN02198).jpg)",
+    "text": "File:Booleroo Centre Railway Station(GN02198).jpg In 1910, the first railway to Booleroo Centre was opened by the South Australian Railways. The new 3 ft 6 in (1,067 mm) (narrow) gauge line ran 24.25 "
+   }
+  ]
+ },
+ {
+  "slot": "S05",
+  "beats": "14",
+  "mo_ta": "Nông dân thu hoạch lúa mì Tây Úc",
+  "candidates": [
+   {
+    "so": 0,
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/StateLibQld_1_239894_Loading_wheat_from_the_hay_wagons_to_the_stacks%2C_Killarney_district_on_the_Darling_Downs%2C_ca._1924.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "w": 1000,
     "h": 758,
     "credit": "\"StateLibQld 1 239894 Loading wheat from the hay wagons to the stacks, Killarney district on the Darling Downs, ca. 1924.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:StateLibQld_1_239894_Loading_wheat_from_the_hay_wagons_to_the_stacks,_Killarney_district_on_the_Darling_Downs,_ca._1924.jpg)",
     "text": "File:StateLibQld 1 239894 Loading wheat from the hay wagons to the stacks, Killarney district on the Darling Downs, ca. 1924.jpg Loading wheat from the hay wagons to the stacks, Killarney district on "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield%28GN07444%29.jpg/1920px-Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield%28GN07444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"Horse Drawn Harvest in a Field Man Filling Sacks of Wheat Turretfield(GN07444).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield(GN07444).jpg)",
+    "text": "File:Horse Drawn Harvest in a Field Man Filling Sacks of Wheat Turretfield(GN07444).jpg "
    },
    {
     "so": 2,
@@ -407,18 +370,153 @@
    },
    {
     "so": 3,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/StateLibQld_2_103933_Ridley-stripper_harvester_in_use_on_Canning_Downs_Station%2C_Queensland%2C_1894.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1000,
-    "h": 755,
-    "credit": "\"StateLibQld 2 103933 Ridley-stripper harvester in use on Canning Downs Station, Queensland, 1894.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:StateLibQld_2_103933_Ridley-stripper_harvester_in_use_on_Canning_Downs_Station,_Queensland,_1894.jpg)",
-    "text": "File:StateLibQld 2 103933 Ridley-stripper harvester in use on Canning Downs Station, Queensland, 1894.jpg Ridley-stripper harvester in use on Canning Downs Station, Queensland, 1894\nTwo ridley-strippe"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/I020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1506,
+    "h": 936,
+    "credit": "\"I020.jpg\" – Department of External Affairs, Melbourne, Australia., Public domain (https://commons.wikimedia.org/wiki/File:I020.jpg)",
+    "text": "File:I020.jpg With Australian Stripper Harvesters Wheat is Harvested, Threshed and put into the Bag for 8 to 10 cents. per bushel."
    }
   ]
  },
  {
-  "slot": "A08",
-  "beats": null,
-  "mo_ta": "B18 emu bố ấp trứng / trứng emu",
+  "slot": "S06",
+  "beats": "2,15,22,30,38,44,51",
+  "mo_ta": "Đàn emu ngoài tự nhiên / ruộng lúa",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Keihan_Electric_Railway_2-car_EMU%2Con-street_running_at_Biwako-Hamaotsu%2C_May_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1080,
+    "credit": "\"Keihan Electric Railway 2-car EMU,on-street running at Biwako-Hamaotsu, May 2018.jpg\" – Travelweb.au, CC0 (https://commons.wikimedia.org/wiki/File:Keihan_Electric_Railway_2-car_EMU,on-street_running_at_Biwako-Hamaotsu,_May_2018.jpg)",
+    "text": "File:Keihan Electric Railway 2-car EMU,on-street running at Biwako-Hamaotsu, May 2018.jpg Keihan Electric Railway 2-car EMU,on-street running at Biwako-Hamaotsu, May 2018"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Caltrain_Running_Fist_Day_of_Full_Electric_Service_at_San_Jose_Diridon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 987,
+    "h": 743,
+    "credit": "\"Caltrain Running Fist Day of Full Electric Service at San Jose Diridon.jpg\" – ItsTheComedianYT, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Caltrain_Running_Fist_Day_of_Full_Electric_Service_at_San_Jose_Diridon.jpg)",
+    "text": "File:Caltrain Running Fist Day of Full Electric Service at San Jose Diridon.jpg CalTrain Stadler EMU at San Jose Diridon, awaiting to begin its first day of electrified only running."
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Toshiba_emu_linea_roca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1417,
+    "h": 1016,
+    "credit": "\"Toshiba emu linea roca.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Toshiba_emu_linea_roca.jpg)",
+    "text": "File:Toshiba emu linea roca.jpg train running on the tracks with the original color scheme."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Training_running_on_Keio_Sagamihara_Line.jpg/1920px-Training_running_on_Keio_Sagamihara_Line.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3797,
+    "h": 2848,
+    "credit": "\"Training running on Keio Sagamihara Line.jpg\" – Nikm, Public domain (https://commons.wikimedia.org/wiki/File:Training_running_on_Keio_Sagamihara_Line.jpg)",
+    "text": "File:Training running on Keio Sagamihara Line.jpg A Keio 9000 series EMU running on Keio Sagamihara Line in Asao-ku, Kawasaki, Kanagawa, Japan"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Keikyu_Series2100-32_Series1000-168.jpg/1920px-Keikyu_Series2100-32_Series1000-168.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2574,
+    "h": 1716,
+    "credit": "\"Keikyu Series2100-32 Series1000-168.jpg\" – MaedaAkihiko\n\n This photo was taken with Panasonic Lumix DC-FZ1000 II, CC0 (https://commons.wikimedia.org/wiki/File:Keikyu_Series2100-32_Series1000-168.jpg)",
+    "text": "File:Keikyu Series2100-32 Series1000-168.jpg A 2100-type 2125 formation bound for Shinagawa express train (right) and a 1000-type 1161 formation bound for Misakiguchi (left) depart between Tachiaigawa"
+   },
+   {
+    "so": 5,
+    "url": "https://live.staticflickr.com/65535/53974291740_874f5e184f_b.jpg",
+    "w": 1024,
+    "h": 815,
+    "credit": "\"325009 Slowing to enter DIRFT exchange sidings\" – kitmasterbloke, CC BY 2.0 (https://www.flickr.com/photos/58415659@N00/53974291740)",
+    "text": "325009 Slowing to enter DIRFT exchange sidings daventry dirft drag electric emu letter mail multipleunit post railnet railway royalmail rugby shunter swansong train ukclass325 ukclass98"
+   },
+   {
+    "so": 6,
+    "url": "https://live.staticflickr.com/65535/54187374653_0705f8ce1b_b.jpg",
+    "w": 1024,
+    "h": 703,
+    "credit": "\"745009 Sawbridgeworth 061224\" – kitmasterbloke, CC BY 2.0 (https://www.flickr.com/photos/58415659@N00/54187374653)",
+    "text": "745009 Sawbridgeworth 061224 electric emu greateranglia hertfordshire passenger railway sawbridgeworth spellbrook train unit"
+   },
+   {
+    "so": 7,
+    "url": "https://live.staticflickr.com/65535/54187374933_894706cfc6_b.jpg",
+    "w": 1024,
+    "h": 726,
+    "credit": "\"720527 Swabridgeworth 061224\" – kitmasterbloke, CC BY 2.0 (https://www.flickr.com/photos/58415659@N00/54187374933)",
+    "text": "720527 Swabridgeworth 061224 electric emu greateranglia hertfordshire passenger railway sawbridgeworth spellbrook train unit"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bowen_Field_House_and_EMU_Student_Center_%28November_9%2C_2017%29_115326.jpg/1920px-Bowen_Field_House_and_EMU_Student_Center_%28November_9%2C_2017%29_115326.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4032,
+    "h": 3024,
+    "credit": "\"Bowen Field House and EMU Student Center (November 9, 2017) 115326.jpg\" – SecretName101, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Bowen_Field_House_and_EMU_Student_Center_(November_9,_2017)_115326.jpg)",
+    "text": "File:Bowen Field House and EMU Student Center (November 9, 2017) 115326.jpg EMU campus"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Bowen_Field_House_and_EMU_Student_Center_%28November_9%2C_2017%29_115327.jpg/1920px-Bowen_Field_House_and_EMU_Student_Center_%28November_9%2C_2017%29_115327.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4032,
+    "h": 3024,
+    "credit": "\"Bowen Field House and EMU Student Center (November 9, 2017) 115327.jpg\" – SecretName101, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Bowen_Field_House_and_EMU_Student_Center_(November_9,_2017)_115327.jpg)",
+    "text": "File:Bowen Field House and EMU Student Center (November 9, 2017) 115327.jpg EMU campus"
+   },
+   {
+    "so": 10,
+    "url": "https://live.staticflickr.com/65535/52667966551_9ccf7b605b_b.jpg",
+    "w": 1024,
+    "h": 851,
+    "credit": "\"Arthur Frederick Purnell #1478\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/52667966551)",
+    "text": "Arthur Frederick Purnell #1478 1914 2ndfieldartillerybrigade arthurfrederickpurnell aussiemobs australia broadmeadows gunner horseback soldier vintage"
+   },
+   {
+    "so": 11,
+    "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJtYTFfNTk1MC1pbWFnZS1reWNnZGhpeS5qcGc.jpg",
+    "w": 4928,
+    "h": 3264,
+    "credit": "\"Ảnh\" – không rõ, CC0 (https://www.rawpixel.com/image/6056867/free-public-domain-cc0-photo)",
+    "text": " animal bird emu field photos"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Albany_Emu_Point.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Albany Emu Point.jpg\" – Laineys Repertoire, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Albany_Emu_Point.jpg)",
+    "text": "File:Albany Emu Point.jpg Albany: Emu Point, Australie occidentale"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Emu_Point%2C_Albany_WA_%283099307661%29.jpg/1920px-Emu_Point%2C_Albany_WA_%283099307661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 1536,
+    "credit": "\"Emu Point, Albany WA (3099307661).jpg\" – Michael_Spencer from Perth, WA, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Emu_Point,_Albany_WA_(3099307661).jpg)",
+    "text": "File:Emu Point, Albany WA (3099307661).jpg Photo at Emu Point, Albany"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gnangarra_albany_110817-10.jpg/1920px-Gnangarra_albany_110817-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3200,
+    "h": 4800,
+    "credit": "\"Gnangarra albany 110817-10.jpg\" – Gnangarra, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Gnangarra_albany_110817-10.jpg)",
+    "text": "File:Gnangarra albany 110817-10.jpg Emu point looking towards Middleton Beach"
+   },
+   {
+    "so": 15,
+    "url": "https://live.staticflickr.com/206/493133163_cfe9b9b909_b.jpg",
+    "w": 1024,
+    "h": 768,
+    "credit": "\"P1040234\" – Laineys Repertoire, CC BY 2.0 (https://www.flickr.com/photos/76283671@N00/493133163)",
+    "text": "P1040234 albany australia beach emupoint nature western"
+   }
+  ]
+ },
+ {
+  "slot": "S07",
+  "beats": "18",
+  "mo_ta": "Emu bố ấp trứng",
   "candidates": [
    {
     "so": 0,
@@ -471,9 +569,9 @@
   ]
  },
  {
-  "slot": "A09",
-  "beats": null,
-  "mo_ta": "B19 quốc huy Úc",
+  "slot": "S08",
+  "beats": "19",
+  "mo_ta": "Quốc huy Úc",
   "candidates": [
    {
     "so": 0,
@@ -597,59 +695,21 @@
    },
    {
     "so": 15,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Revolver%2C_percussion_%28AM_559402-9%29.jpg/1920px-Revolver%2C_percussion_%28AM_559402-9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4000,
-    "h": 3000,
-    "credit": "\"Revolver, percussion (AM 559402-9).jpg\" – Deane & Son; Edward Whistler, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Revolver,_percussion_(AM_559402-9).jpg)",
-    "text": "File:Revolver, percussion (AM 559402-9).jpg Deane Harding double action five shot revolver (cased) that belonged to the Late Ensign McKenna VC, 65th Regiment. .1 revolver- five-shot; double action; so"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Revolver%2C_percussion_%28AM_559402-13%29.jpg/1920px-Revolver%2C_percussion_%28AM_559402-13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3251,
+    "h": 2464,
+    "credit": "\"Revolver, percussion (AM 559402-13).jpg\" – Deane & Son; Edward Whistler, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Revolver,_percussion_(AM_559402-13).jpg)",
+    "text": "File:Revolver, percussion (AM 559402-13).jpg Deane Harding double action five shot revolver (cased) that belonged to the Late Ensign McKenna VC, 65th Regiment. .1 revolver- five-shot; double action; s"
    }
   ]
  },
  {
-  "slot": "A10",
-  "beats": null,
-  "mo_ta": "B20/B38 đàn emu nhiều con",
+  "slot": "S09",
+  "beats": "24",
+  "mo_ta": "Nông dân họp ở hội trường vùng quê 1930s",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Railway_Station_at_Emu_Park%2C_Qld_-_circa_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1600,
-    "h": 1029,
-    "credit": "\"Railway Station at Emu Park, Qld - circa 1908.jpg\" – Aussie~mobs, Public domain (https://commons.wikimedia.org/wiki/File:Railway_Station_at_Emu_Park,_Qld_-_circa_1908.jpg)",
-    "text": "File:Railway Station at Emu Park, Qld - circa 1908.jpg Railway Station at Emu Park, Qld - circa 1908"
-   }
-  ]
- },
- {
-  "slot": "A11",
-  "beats": null,
-  "mo_ta": "B22/B44 emu trên cánh đồng lúa mì / hàng rào",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lake_Mungo%E2%80%99s_Geological_and_Archaeological_Treasures_%28153686%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1350,
-    "h": 900,
-    "credit": "\"Lake Mungo’s Geological and Archaeological Treasures (153686).jpg\" – NASA Earth Observatory image by Wanmei Liang, using Landsat data from the U.S. Geological Survey. Story by Lindsey Doermann., Public domain (https://commons.wikimedia.org/wiki/File:Lake_Mungo%E2%80%99s_Geological_and_Archaeological_Treasures_(153686).jpg)",
-    "text": "File:Lake Mungo’s Geological and Archaeological Treasures (153686).jpg The southwest corner of New South Wales, Australia, is a remote, semi-arid desert dotted with sheep pastures, dryland farms, and "
-   }
-  ]
- },
- {
-  "slot": "A12",
-  "beats": null,
-  "mo_ta": "B24 nông dân họp ở hội trường làng 1930",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sandergrove_old_Methodist_chapel_ruins_near_Strathalbyn%2C_South_Australia._%287771492182%29.jpg/1920px-Sandergrove_old_Methodist_chapel_ruins_near_Strathalbyn%2C_South_Australia._%287771492182%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3648,
-    "h": 2736,
-    "credit": "\"Sandergrove old Methodist chapel ruins near Strathalbyn, South Australia. (7771492182).jpg\" – denisbin from Adelaide, Australia, CC0 (https://commons.wikimedia.org/wiki/File:Sandergrove_old_Methodist_chapel_ruins_near_Strathalbyn,_South_Australia._(7771492182).jpg)",
-    "text": "File:Sandergrove old Methodist chapel ruins near Strathalbyn, South Australia. (7771492182).jpg Sandergrove Methodist Church and cemetery near Strathalbyn. It opened in 1867. It is now falling down. A"
-   },
-   {
-    "so": 1,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Milang._The_Anglican_Gothic_style_toilet._The_Anglican_Church_opened_in_1911_and_the_toilet_was_probably_built_around_the_same_time._%2829934442517%29.jpg/1920px-Milang._The_Anglican_Gothic_style_toilet._The_Anglican_Church_opened_in_1911_and_the_toilet_was_probably_built_around_the_same_time._%2829934442517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 4727,
     "h": 3545,
@@ -657,7 +717,7 @@
     "text": "File:Milang. The Anglican Gothic style toilet. The Anglican Church opened in 1911 and the toilet was probably built around the same time. (29934442517).jpg Milang and the Murray River Boat Trade.\nIn 1"
    },
    {
-    "so": 2,
+    "so": 1,
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Milang._The_Lake_Hotel_first_licensed_in_1856_just_after_the_River_Murray_paddle_steam_trade_began._Oldest_part_on_the_right._Additions_made_later_in_the_19th_century._%2829934439577%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 4896,
     "h": 3444,
@@ -665,186 +725,178 @@
     "text": "File:Milang. The Lake Hotel first licensed in 1856 just after the River Murray paddle steam trade began. Oldest part on the right. Additions made later in the 19th century. (29934439577).jpg Milang an"
    },
    {
-    "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Townsite_of_Campion%2C_1929.png/1920px-Townsite_of_Campion%2C_1929.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5826,
-    "h": 4548,
-    "credit": "\"Townsite of Campion, 1929.png\" – Government of Western Australia – Department of Lands and Surveys., Public domain (https://commons.wikimedia.org/wiki/File:Townsite_of_Campion,_1929.png)",
-    "text": "File:Townsite of Campion, 1929.png Location plan of the Townsite of Campion, Western Australia"
-   },
-   {
-    "so": 4,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/William_Campion_at_Parliament_House_1928.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1596,
-    "h": 1137,
-    "credit": "\"William Campion at Parliament House 1928.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:William_Campion_at_Parliament_House_1928.jpg)",
-    "text": "File:William Campion at Parliament House 1928.jpg Western Mail caption tex Sir William Campion reaches Parliament House (Harvest Terrace, West Perth) for a sessional opening in1928"
-   },
-   {
-    "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Lady_campion_hostel_gnangarra.JPG/1920px-Lady_campion_hostel_gnangarra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4672,
-    "h": 3104,
-    "credit": "\"Lady campion hostel gnangarra.JPG\" – Gnangarra, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Lady_campion_hostel_gnangarra.JPG)",
-    "text": "File:Lady campion hostel gnangarra.JPG Lady Campion Hostel, built to assist women of the southwest going through the last stages of child birth, pregnant women from farms and towns without medical ass"
-   },
-   {
-    "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Campion_1978.jpg/1920px-Campion_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2000,
-    "h": 3089,
-    "credit": "\"Campion 1978.jpg\" – Noelbabar, Public domain (https://commons.wikimedia.org/wiki/File:Campion_1978.jpg)",
-    "text": "File:Campion 1978.jpg Léo Campion, Le drapeau noir, l'équerre et le compas, Éditions Goutal-Darly, 1978."
-   },
-   {
-    "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Campion_1969.jpg/1920px-Campion_1969.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2000,
-    "h": 2907,
-    "credit": "\"Campion 1969.jpg\" – Noelbabar, Public domain (https://commons.wikimedia.org/wiki/File:Campion_1969.jpg)",
-    "text": "File:Campion 1969.jpg Léo Campion, Les Anarchistes dans la franc-maçonnerie : ou les Maillons libertaires de la chaîne d'union, Marseille, Culture et Liberté, 1969, 176 p."
-   },
-   {
-    "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Campion_Hall_Jesus.jpg/1920px-Campion_Hall_Jesus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2400,
-    "h": 1600,
-    "credit": "\"Campion Hall Jesus.jpg\" – Gownley at English Wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:Campion_Hall_Jesus.jpg)",
-    "text": "File:Campion Hall Jesus.jpg Statue of the Crucifixion of Jesus outside of campion hall."
-   }
-  ]
- },
- {
-  "slot": "A13",
-  "beats": null,
-  "mo_ta": "B27 thiếu tá Meredith / pháo binh Úc 1930",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mrs._Sophie_Meredith_275008v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1875,
-    "h": 2789,
-    "credit": "\"Mrs. Sophie Meredith 275008v.jpg\" – Edmonston, Washington, D.C. (Photographer), Public domain (https://commons.wikimedia.org/wiki/File:Mrs._Sophie_Meredith_275008v.jpg)",
-    "text": "File:Mrs. Sophie Meredith 275008v.jpg Summary: Formal portrait, Sophie G. Meredith, seated, half-length, facing forward, holding fan and wearing dress with lace collar and lace cuffs."
-   },
-   {
-    "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Detail%2C_members_of_the_Equal_Suffrage_League_of_Richmond%2C_Va.%2C_February_1915_%28cropped%29.jpg/1920px-Detail%2C_members_of_the_Equal_Suffrage_League_of_Richmond%2C_Va.%2C_February_1915_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3486,
-    "h": 2403,
-    "credit": "\"Detail, members of the Equal Suffrage League of Richmond, Va., February 1915 (cropped).jpg\" – Adèle Goodman Clark Papers, Special Collections and Archives, VCU Libraries., Public domain (https://commons.wikimedia.org/wiki/File:Detail,_members_of_the_Equal_Suffrage_League_of_Richmond,_Va.,_February_1915_(cropped).jpg)",
-    "text": "File:Detail, members of the Equal Suffrage League of Richmond, Va., February 1915 (cropped).jpg Equal Suffrage League of Richmond, Va. in front of Washington Monument, Capitol Square, Richmond. The me"
-   },
-   {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/133_West_Jackson_Street_%286029700243%29.jpg/1920px-133_West_Jackson_Street_%286029700243%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4010,
-    "h": 2838,
-    "credit": "\"133 West Jackson Street (6029700243).jpg\" – VCU Libraries from Richmond, VA, USA, Public domain (https://commons.wikimedia.org/wiki/File:133_West_Jackson_Street_(6029700243).jpg)",
-    "text": "File:133 West Jackson Street (6029700243).jpg Address/Title: 133 West Jackson Street\nPhotographer: Zehmer, John G. (John Granderson), 1942-\nOriginal Description (from Book): This large wooden house wa"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/W.-Australia%281892%29_p183_THE_TOWN_HALL%2C_PERTH%2C_WESTERN_AUSTRALIA.jpg/1920px-W.-Australia%281892%29_p183_THE_TOWN_HALL%2C_PERTH%2C_WESTERN_AUSTRALIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1933,
+    "h": 1536,
+    "credit": "\"W.-Australia(1892) p183 THE TOWN HALL, PERTH, WESTERN AUSTRALIA.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:W.-Australia(1892)_p183_THE_TOWN_HALL,_PERTH,_WESTERN_AUSTRALIA.jpg)",
+    "text": "File:W.-Australia(1892) p183 THE TOWN HALL, PERTH, WESTERN AUSTRALIA.jpg "
    },
    {
     "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/133_West_Jackson_Street_%2816598645650%29.jpg/1920px-133_West_Jackson_Street_%2816598645650%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2005,
-    "h": 1419,
-    "credit": "\"133 West Jackson Street (16598645650).jpg\" – VCU Libraries Commons from Richmond, VA, Public domain (https://commons.wikimedia.org/wiki/File:133_West_Jackson_Street_(16598645650).jpg)",
-    "text": "File:133 West Jackson Street (16598645650).jpg Address/Title: 133 West Jackson Street\nPhotographer: Zehmer, John G. (John Granderson), 1942-\nOriginal Description (from Book): This large wooden house w"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hackett_hall_university_of_western_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Hackett hall university of western Australia.jpg\" – Leon Brooks, Public domain (https://commons.wikimedia.org/wiki/File:Hackett_hall_university_of_western_Australia.jpg)",
+    "text": "File:Hackett hall university of western Australia.jpg Image title: Hackett hall university of western Australia\nImage from Public domain images website, http://www.public-domain-image.com/full-image/a"
    },
    {
     "so": 4,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ford_B0746_NLGRF_photo_contact_sheet_%281976-07-19%29%28Gerald_Ford_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1686,
-    "h": 2173,
-    "credit": "\"Ford B0746 NLGRF photo contact sheet (1976-07-19)(Gerald Ford Library).jpg\" – White House Photographic Office (WHPO) - Thomas, Public domain (https://commons.wikimedia.org/wiki/File:Ford_B0746_NLGRF_photo_contact_sheet_(1976-07-19)(Gerald_Ford_Library).jpg)",
-    "text": "File:Ford B0746 NLGRF photo contact sheet (1976-07-19)(Gerald Ford Library).jpg The photo contact sheet, identified as B0746 by the White House Photographic Office (WHPO), is housed at the Gerald R. F"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Bush_natives%2C_frog_hollow_-_cyclopedia_of_western_australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1854,
+    "h": 1091,
+    "credit": "\"Bush natives, frog hollow - cyclopedia of western australia.jpg\" – James Sykes Battye, Public domain (https://commons.wikimedia.org/wiki/File:Bush_natives,_frog_hollow_-_cyclopedia_of_western_australia.jpg)",
+    "text": "File:Bush natives, frog hollow - cyclopedia of western australia.jpg Aboriginal Australians at Frog Hollow, Western Australia, circa 1912"
    },
    {
     "so": 5,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Herald_and_genealogist_%281874%29_%2814598396838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1210,
-    "h": 850,
-    "credit": "\"The Herald and genealogist (1874) (14598396838).jpg\" – Drawing by \"Cleghorn\" (John Cleghorn (c.1818-1880), engraver of architecture; landscape-painter, wood-carver ([4])), Public domain (https://commons.wikimedia.org/wiki/File:The_Herald_and_genealogist_(1874)_(14598396838).jpg)",
-    "text": "File:The Herald and genealogist (1874) (14598396838).jpg Arms of Shirley, quarterly of 50. As seen at Ragdale Hall, Leicestershire (inherited from the Bassett family) \"Over the entrance the Saracen's "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Parade_in_William_Street%2C_Fremantle%2C_Western_Australia_-_WW1_era.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1443,
+    "h": 904,
+    "credit": "\"Parade in William Street, Fremantle, Western Australia - WW1 era.jpg\" – Assue~mobs, Public domain (https://commons.wikimedia.org/wiki/File:Parade_in_William_Street,_Fremantle,_Western_Australia_-_WW1_era.jpg)",
+    "text": "File:Parade in William Street, Fremantle, Western Australia - WW1 era.jpg PARADE IN WILLIAM STREET, FREMANTLE, WESTERN AUSTRALIA - WW1 era"
    },
    {
     "so": 6,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ford_B0747_NLGRF_photo_contact_sheet_%281976-07-19%29%28Gerald_Ford_Library%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1681,
-    "h": 2181,
-    "credit": "\"Ford B0747 NLGRF photo contact sheet (1976-07-19)(Gerald Ford Library).jpg\" – White House Photographic Office (WHPO) - Thomas, Public domain (https://commons.wikimedia.org/wiki/File:Ford_B0747_NLGRF_photo_contact_sheet_(1976-07-19)(Gerald_Ford_Library).jpg)",
-    "text": "File:Ford B0747 NLGRF photo contact sheet (1976-07-19)(Gerald Ford Library).jpg The photo contact sheet, identified as B0747 by the White House Photographic Office (WHPO), is housed at the Gerald R. F"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Waroona_Memorial_Hall.jpg/1920px-Waroona_Memorial_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1920,
+    "credit": "\"Waroona Memorial Hall.jpg\" – Leon Brooks, Public domain (https://commons.wikimedia.org/wiki/File:Waroona_Memorial_Hall.jpg)",
+    "text": "File:Waroona Memorial Hall.jpg Image title: Masonic hall wahroona western Australia\nImage from Public domain images website, http://www.public-domain-image.com/full-image/architecture-public-domain-im"
    },
    {
     "so": 7,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/1915_in_Sports_in_The_New_York_Times_of_New_York_City%2C_New_York_on_December_12%2C_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 819,
-    "h": 2894,
-    "credit": "\"1915 in Sports in The New York Times of New York City, New York on December 12, 1915.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1915_in_Sports_in_The_New_York_Times_of_New_York_City,_New_York_on_December_12,_1915.jpg)",
-    "text": "File:1915 in Sports in The New York Times of New York City, New York on December 12, 1915.jpg 1915 in Sports in The New York Times of New York City, New York on December 12, 1915"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/UWA_Winthrop_Hall_through_fig_tree_2008.jpg/1920px-UWA_Winthrop_Hall_through_fig_tree_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2832,
+    "h": 2128,
+    "credit": "\"UWA Winthrop Hall through fig tree 2008.jpg\" – Duel jetty, Public domain (https://commons.wikimedia.org/wiki/File:UWA_Winthrop_Hall_through_fig_tree_2008.jpg)",
+    "text": "File:UWA Winthrop Hall through fig tree 2008.jpg Winthrop Hall at the University of Western Australia, viewed through a fig tree."
    },
    {
     "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Illinois-_COOK_County%2C_Enumeration_District_881%2C_Sheet_No._10A_-_DPLA_-_368cd399051abc352531c306bd32b771.jpg/1920px-Illinois-_COOK_County%2C_Enumeration_District_881%2C_Sheet_No._10A_-_DPLA_-_368cd399051abc352531c306bd32b771.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5544,
-    "h": 5688,
-    "credit": "\"Illinois- COOK County, Enumeration District 881, Sheet No. 10A - DPLA - 368cd399051abc352531c306bd32b771.jpg\" – Department of the Interior. 12th Decennial Census Office. ca. 1899-7/1/1902, Public domain (https://commons.wikimedia.org/wiki/File:Illinois-_COOK_County,_Enumeration_District_881,_Sheet_No._10A_-_DPLA_-_368cd399051abc352531c306bd32b771.jpg)",
-    "text": "File:Illinois- COOK County, Enumeration District 881, Sheet No. 10A - DPLA - 368cd399051abc352531c306bd32b771.jpg Surname, Given Name; Family Number; Age; Birth Year; Place of Birth Broderick, Norine;"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Western_Hemisphere._By_Sidney_Hall._London%2C_published_by_Longman%2C_Rees%2C_Orme%2C_Brown_%26_Green%2C_Paternoster_Row%2C_August_1%2C_1829._%28IA_dr_western-hemisphere-by-sidney-hall-london-published-by-longman-rees-orm-00674012%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5400,
+    "h": 5800,
+    "credit": "\"Western Hemisphere. By Sidney Hall. London, published by Longman, Rees, Orme, Brown & Green, Paternoster Row, August 1, 1829. (IA dr western-hemisphere-by-sidney-hall-london-published-by-longman-rees-orm-00674012).jpg\" – Hall, S. (Sidney), Public domain (https://commons.wikimedia.org/wiki/File:Western_Hemisphere._By_Sidney_Hall._London,_published_by_Longman,_Rees,_Orme,_Brown_%26_Green,_Paternoster_Row,_August_1,_1829._(IA_dr_western-hemisphere-by-sidney-hall-london-published-by-longman-rees-orm-00674012).jpg)",
+    "text": "File:Western Hemisphere. By Sidney Hall. London, published by Longman, Rees, Orme, Brown & Green, Paternoster Row, August 1, 1829. (IA dr western-hemisphere-by-sidney-hall-london-published-by-longman-"
    },
    {
     "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/12039_Diploma_of%3F%3FAgriculture_1965-Gp_B_class_at_Canterbury_Agricultural_College.jpg/1920px-12039_Diploma_of%3F%3FAgriculture_1965-Gp_B_class_at_Canterbury_Agricultural_College.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5492,
-    "h": 4289,
-    "credit": "\"12039 Diploma of??Agriculture 1965-Gp B class at Canterbury Agricultural College.jpg\" – Ronald Charles Blackmore, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:12039_Diploma_of%3F%3FAgriculture_1965-Gp_B_class_at_Canterbury_Agricultural_College.jpg)",
-    "text": "File:12039 Diploma of??Agriculture 1965-Gp B class at Canterbury Agricultural College.jpg Photograph of the Diploma of Agriculture 1965-Gp B class at Canterbury Agricultural College:  Back Row: A. D. "
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Western_Australia_containing_the_settlements_of_Swan-River_and_King_George%27s_Sound_from_recent_surveys_sent_to_the_Colonial_%28IA_dr_western-australia-containing-the-settlements-of-swan-river-and-king-george-00534087%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7150,
+    "h": 6225,
+    "credit": "\"Western Australia containing the settlements of Swan-River and King George's Sound from recent surveys sent to the Colonial (IA dr western-australia-containing-the-settlements-of-swan-river-and-king-george-00534087).jpg\" – Society for the Diffusion of Useful Knowledge (Great Britain)\nBrain, E.\nJ. & C. Walker, Public domain (https://commons.wikimedia.org/wiki/File:Western_Australia_containing_the_settlements_of_Swan-River_and_King_George%27s_Sound_from_recent_surveys_sent_to_the_Colonial_(IA_dr_western-australia-containing-the-settlements-of-swan-river-and-king-george-00534087).jpg)",
+    "text": "File:Western Australia containing the settlements of Swan-River and King George's Sound from recent surveys sent to the Colonial (IA dr western-australia-containing-the-settlements-of-swan-river-and-k"
    },
    {
     "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Medal%2C_service_%28AM_1997.77.1.11-2%29.jpg/1920px-Medal%2C_service_%28AM_1997.77.1.11-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4567,
-    "h": 3045,
-    "credit": "\"Medal, service (AM 1997.77.1.11-2).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Medal,_service_(AM_1997.77.1.11-2).jpg)",
-    "text": "File:Medal, service (AM 1997.77.1.11-2).jpg New Zealand Long and Efficient Service Medal to Col. Robert Gracie Milligan OBE DSO ED m-i-d (1891-1962) Part of a mounted medal set silver circular medal; "
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Western_Africa._By_Sidney_Hall._London%2C_published_by_Longman%2C_Rees%2C_Orme%2C_Brown_%26_Green%2C_Paternoster_Row%2C_Octr._1st._1829._%28IA_dr_western-africa-by-sidney-hall-london-published-by-longman-rees-orme-b-00674052%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7800,
+    "h": 6550,
+    "credit": "\"Western Africa. By Sidney Hall. London, published by Longman, Rees, Orme, Brown & Green, Paternoster Row, Octr. 1st. 1829. (IA dr western-africa-by-sidney-hall-london-published-by-longman-rees-orme-b-00674052).jpg\" – Hall, S. (Sidney), Public domain (https://commons.wikimedia.org/wiki/File:Western_Africa._By_Sidney_Hall._London,_published_by_Longman,_Rees,_Orme,_Brown_%26_Green,_Paternoster_Row,_Octr._1st._1829._(IA_dr_western-africa-by-sidney-hall-london-published-by-longman-rees-orme-b-00674052).jpg)",
+    "text": "File:Western Africa. By Sidney Hall. London, published by Longman, Rees, Orme, Brown & Green, Paternoster Row, Octr. 1st. 1829. (IA dr western-africa-by-sidney-hall-london-published-by-longman-rees-or"
    },
    {
     "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Medal%2C_service_%28AM_1997.77.1.11-1%29.jpg/1920px-Medal%2C_service_%28AM_1997.77.1.11-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4567,
-    "h": 3045,
-    "credit": "\"Medal, service (AM 1997.77.1.11-1).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Medal,_service_(AM_1997.77.1.11-1).jpg)",
-    "text": "File:Medal, service (AM 1997.77.1.11-1).jpg New Zealand Long and Efficient Service Medal to Col. Robert Gracie Milligan OBE DSO ED m-i-d (1891-1962) Part of a mounted medal set silver circular medal; "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/York_Town_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"York Town Hall.jpg\" – Mitchell Johnson, Public domain (https://commons.wikimedia.org/wiki/File:York_Town_Hall.jpg)",
+    "text": "File:York Town Hall.jpg Inside York Town Hall."
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Aubrey_and_Helen_Hall%2C_two_young_men_unknown%2C_Ernest_%28Far%27s_brother%29%2C_and_poss._Connie_%28maybe_in_Cossack%29.png/1920px-Aubrey_and_Helen_Hall%2C_two_young_men_unknown%2C_Ernest_%28Far%27s_brother%29%2C_and_poss._Connie_%28maybe_in_Cossack%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2028,
+    "h": 1388,
+    "credit": "\"Aubrey and Helen Hall, two young men unknown, Ernest (Far's brother), and poss. Connie (maybe in Cossack).png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Aubrey_and_Helen_Hall,_two_young_men_unknown,_Ernest_(Far%27s_brother),_and_poss._Connie_(maybe_in_Cossack).png)",
+    "text": "File:Aubrey and Helen Hall, two young men unknown, Ernest (Far's brother), and poss. Connie (maybe in Cossack).png Aubrey and Helen Hall, two young men unknown, Ernest (Far's brother), and poss. Conni"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Earlymornin.jpg/1920px-Earlymornin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1920,
+    "credit": "\"Earlymornin.jpg\" – Paul Hammond, Public domain (https://commons.wikimedia.org/wiki/File:Earlymornin.jpg)",
+    "text": "File:Earlymornin.jpg Early morning view east across estuary to Mandurah town"
    }
   ]
  },
  {
-  "slot": "A14",
-  "beats": null,
-  "mo_ta": "B28/B34 súng máy Lewis lính Úc",
+  "slot": "S10",
+  "beats": "29,32",
+  "mo_ta": "Xe quân đội / đường đất sau mưa Tây Úc 1930s",
   "candidates": [
    {
     "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Aussie_Bounce_Into_Training_DVIDS118865.jpg/1920px-Aussie_Bounce_Into_Training_DVIDS118865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3888,
-    "h": 2592,
-    "credit": "\"Aussie Bounce Into Training DVIDS118865.jpg\" – Staff Sgt. Bryan Lewis, Public domain (https://commons.wikimedia.org/wiki/File:Aussie_Bounce_Into_Training_DVIDS118865.jpg)",
-    "text": "File:Aussie Bounce Into Training DVIDS118865.jpg Soldiers from 8th Platoon, C Company, 1st Battalion, Royal Australian Regiment go up a set of stairs while providing cover during a quick reaction forc"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/StateLibQld_1_42835_Timber_cutting%2C_Chinchilla_in_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1000,
+    "h": 775,
+    "credit": "\"StateLibQld 1 42835 Timber cutting, Chinchilla in 1934.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:StateLibQld_1_42835_Timber_cutting,_Chinchilla_in_1934.jpg)",
+    "text": "File:StateLibQld 1 42835 Timber cutting, Chinchilla in 1934.jpg Timber cutting, Chinchilla in 1934.\nA work gang of timber-getters along Warra Road in Chinchilla fell[ing] trees along the roadside."
    },
    {
     "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Start_of_march_through_Adelaide%2C_1941_%2826932661170%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1200,
-    "h": 932,
-    "credit": "\"Start of march through Adelaide, 1941 (26932661170).jpg\" – State Library of South Australia from Australia, Public domain (https://commons.wikimedia.org/wiki/File:Start_of_march_through_Adelaide,_1941_(26932661170).jpg)",
-    "text": "File:Start of march through Adelaide, 1941 (26932661170).jpg <a href=\"http://www.catalog.slsa.sa.gov.au/record=b2094356\" rel=\"nofollow\">B 68800</a>\nStart of the march through Adelaide on 15 January 19"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Opening_of_the_Fremantle_Traffic_Bridge%2C_1939_-_slwa_b3416404_1.jpg/1920px-Opening_of_the_Fremantle_Traffic_Bridge%2C_1939_-_slwa_b3416404_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4697,
+    "h": 3405,
+    "credit": "\"Opening of the Fremantle Traffic Bridge, 1939 - slwa b3416404 1.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Opening_of_the_Fremantle_Traffic_Bridge,_1939_-_slwa_b3416404_1.jpg)",
+    "text": "File:Opening of the Fremantle Traffic Bridge, 1939 - slwa b3416404 1.jpg John C. Willcock MLA Premier, H. Millington MLA Minister for Works, and Edward Tindale Commissioner of Main Roads, opening the "
    },
    {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/TheGreatEmuWarcolage.png/1920px-TheGreatEmuWarcolage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2441,
-    "h": 3037,
-    "credit": "\"TheGreatEmuWarcolage.png\" – 子ファース, Public domain (https://commons.wikimedia.org/wiki/File:TheGreatEmuWarcolage.png)",
-    "text": "File:TheGreatEmuWarcolage.png A collage created by me using following images found in the Wikimedia Commons:\n(From top left, clockwise)"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Milang._The_Anglican_Gothic_style_toilet._The_Anglican_Church_opened_in_1911_and_the_toilet_was_probably_built_around_the_same_time._%2829934442517%29.jpg/1920px-Milang._The_Anglican_Gothic_style_toilet._The_Anglican_Church_opened_in_1911_and_the_toilet_was_probably_built_around_the_same_time._%2829934442517%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4727,
+    "h": 3545,
+    "credit": "\"Milang. The Anglican Gothic style toilet. The Anglican Church opened in 1911 and the toilet was probably built around the same time. (29934442517).jpg\" – denisbin from Adelaide, Australia, CC0 (https://commons.wikimedia.org/wiki/File:Milang._The_Anglican_Gothic_style_toilet._The_Anglican_Church_opened_in_1911_and_the_toilet_was_probably_built_around_the_same_time._(29934442517).jpg)",
+    "text": "File:Milang. The Anglican Gothic style toilet. The Anglican Church opened in 1911 and the toilet was probably built around the same time. (29934442517).jpg Milang and the Murray River Boat Trade.\nIn 1"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Milang._The_Lake_Hotel_first_licensed_in_1856_just_after_the_River_Murray_paddle_steam_trade_began._Oldest_part_on_the_right._Additions_made_later_in_the_19th_century._%2829934439577%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4896,
+    "h": 3444,
+    "credit": "\"Milang. The Lake Hotel first licensed in 1856 just after the River Murray paddle steam trade began. Oldest part on the right. Additions made later in the 19th century. (29934439577).jpg\" – denisbin from Adelaide, Australia, CC0 (https://commons.wikimedia.org/wiki/File:Milang._The_Lake_Hotel_first_licensed_in_1856_just_after_the_River_Murray_paddle_steam_trade_began._Oldest_part_on_the_right._Additions_made_later_in_the_19th_century._(29934439577).jpg)",
+    "text": "File:Milang. The Lake Hotel first licensed in 1856 just after the River Murray paddle steam trade began. Oldest part on the right. Additions made later in the 19th century. (29934439577).jpg Milang an"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Gastrolobium_calycinum_-_48875721567.jpg/1920px-Gastrolobium_calycinum_-_48875721567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3545,
+    "h": 2286,
+    "credit": "\"Gastrolobium calycinum - 48875721567.jpg\" – jeans_Photos, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Gastrolobium_calycinum_-_48875721567.jpg)",
+    "text": "File:Gastrolobium calycinum - 48875721567.jpg Erect, bushy shrub, to 1.5 m high. Fl. orange & red & pink, Aug to Nov. Clay, loam or sand soils over ironstone or laterite. Low hills, slopes or flats. D"
+   }
+  ]
+ },
+ {
+  "slot": "S11",
+  "beats": "34",
+  "mo_ta": "Súng máy Lewis",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Denver_Police_Department_with_machine_guns%2C_1921.png/1920px-Denver_Police_Department_with_machine_guns%2C_1921.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2368,
+    "h": 1618,
+    "credit": "\"Denver Police Department with machine guns, 1921.png\" – City and County of Denver, Public domain (https://commons.wikimedia.org/wiki/File:Denver_Police_Department_with_machine_guns,_1921.png)",
+    "text": "File:Denver Police Department with machine guns, 1921.png A. H. Hardy, an ordnance expert, demonstrates machine guns to police officers near City Hall in Denver, Colorado. Sergeant George W. Dorsey ho"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Lewis_gun_drill.jpg/1920px-Lewis_gun_drill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2438,
+    "h": 1772,
+    "credit": "\"Lewis gun drill.jpg\" – Australian official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Lewis_gun_drill.jpg)",
+    "text": "File:Lewis gun drill.jpg THE THIRD BATTLE OF YPRES (PASSCHENDAELE) 31 JULY - 10 NOVEMBER 1917\nMen of 28th Battalion of the 2nd Australian Division lying stretched on the ground to practice Lewis gun d"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lewis_Gun_Training.jpg/1920px-Lewis_Gun_Training.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4538,
+    "h": 3305,
+    "credit": "\"Lewis Gun Training.jpg\" – Harris & Ewing, photographer., Public domain (https://commons.wikimedia.org/wiki/File:Lewis_Gun_Training.jpg)",
+    "text": "File:Lewis Gun Training.jpg MARINE CORPS RIFLE RANGE, LEWIS MACHINE GUN TESTS"
    },
    {
     "so": 3,
@@ -856,143 +908,257 @@
    },
    {
     "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Drills_-_Infantry_-_Machine_Gun_-_Lewis_gun_crew_in_gas_masks%2C_Camp_Funston%2C_Kansas_-_NARA_-_31476205.jpg/1920px-Drills_-_Infantry_-_Machine_Gun_-_Lewis_gun_crew_in_gas_masks%2C_Camp_Funston%2C_Kansas_-_NARA_-_31476205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8948,
-    "h": 6066,
-    "credit": "\"Drills - Infantry - Machine Gun - Lewis gun crew in gas masks, Camp Funston, Kansas - NARA - 31476205.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Drills_-_Infantry_-_Machine_Gun_-_Lewis_gun_crew_in_gas_masks,_Camp_Funston,_Kansas_-_NARA_-_31476205.jpg)",
-    "text": "File:Drills - Infantry - Machine Gun - Lewis gun crew in gas masks, Camp Funston, Kansas - NARA - 31476205.jpg "
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/A_Lewis_Gun-_Anti-aircraft_Pit_Art.IWMART2703.jpg/1920px-A_Lewis_Gun-_Anti-aircraft_Pit_Art.IWMART2703.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4551,
+    "h": 8386,
+    "credit": "\"A Lewis Gun- Anti-aircraft Pit Art.IWMART2703.jpg\" – John Nash, Public domain (https://commons.wikimedia.org/wiki/File:A_Lewis_Gun-_Anti-aircraft_Pit_Art.IWMART2703.jpg)",
+    "text": "File:A Lewis Gun- Anti-aircraft Pit Art.IWMART2703.jpg A Lewis Gun- Anti-aircraft Pit\nimage: a British soldier stands next to a mounted Lewis gun in an anti-aircraft pit dug into the ground, looking u"
    },
    {
     "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Drills_-_Infantry_-_Machine_Gun_-_Lewis_machine_gun_crew%2C_Camp_Mills%2C_Long_Island_-_NARA_-_31476199.jpg/1920px-Drills_-_Infantry_-_Machine_Gun_-_Lewis_machine_gun_crew%2C_Camp_Mills%2C_Long_Island_-_NARA_-_31476199.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8948,
-    "h": 6066,
-    "credit": "\"Drills - Infantry - Machine Gun - Lewis machine gun crew, Camp Mills, Long Island - NARA - 31476199.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Drills_-_Infantry_-_Machine_Gun_-_Lewis_machine_gun_crew,_Camp_Mills,_Long_Island_-_NARA_-_31476199.jpg)",
-    "text": "File:Drills - Infantry - Machine Gun - Lewis machine gun crew, Camp Mills, Long Island - NARA - 31476199.jpg "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/SLNSW_9613_Rifle_and_Lewis_gun_firing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1053,
+    "credit": "\"SLNSW 9613 Rifle and Lewis gun firing.jpg\" – Sam Hood, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_9613_Rifle_and_Lewis_gun_firing.jpg)",
+    "text": "File:SLNSW 9613 Rifle and Lewis gun firing.jpg Rifle and Lewis gun firing"
    },
    {
     "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752757%29.jpg/1920px-U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752757%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6366,
-    "h": 4244,
-    "credit": "\"U S Marines Conduct Live Fire Crew Served Range (8752757).jpg\" – U.S. Marines USMCFE by Lance Cpl. Franco Lewis, Public domain (https://commons.wikimedia.org/wiki/File:U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_(8752757).jpg)",
-    "text": "File:U S Marines Conduct Live Fire Crew Served Range (8752757).jpg A U.S. Marine fires a mounted M240B machine gun during a live fire crew served weapons range in preparation for Exercise Freezing Win"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2d_AIC_-_Aireal_Gunnery_School_-_Lewis_Gun_Training.jpg/1920px-2d_AIC_-_Aireal_Gunnery_School_-_Lewis_Gun_Training.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3781,
+    "h": 2190,
+    "credit": "\"2d AIC - Aireal Gunnery School - Lewis Gun Training.jpg\" – Air Service, United States Army photograph, Public domain (https://commons.wikimedia.org/wiki/File:2d_AIC_-_Aireal_Gunnery_School_-_Lewis_Gun_Training.jpg)",
+    "text": "File:2d AIC - Aireal Gunnery School - Lewis Gun Training.jpg 2d AIC - Aireal Gunnery School - Lewis Gun Training"
    },
    {
     "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752760%29.jpg/1920px-U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6547,
-    "h": 4365,
-    "credit": "\"U S Marines Conduct Live Fire Crew Served Range (8752760).jpg\" – U.S. Marines USMCFE by Lance Cpl. Franco Lewis, Public domain (https://commons.wikimedia.org/wiki/File:U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_(8752760).jpg)",
-    "text": "File:U S Marines Conduct Live Fire Crew Served Range (8752760).jpg U.S. Marine Corps Cpl. John Kazy, supply chain and materiel management specialist fires an M240B during a live fire crew served weapo"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers%2C_Bestanddeelnr_158-0901.jpg/1920px-A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers%2C_Bestanddeelnr_158-0901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4268,
+    "h": 3228,
+    "credit": "\"A Lewis gun in action in a front line trench near Orvillers, Bestanddeelnr 158-0901.jpg\" – Nationaal Archief, CC0 (https://commons.wikimedia.org/wiki/File:A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers,_Bestanddeelnr_158-0901.jpg)",
+    "text": "File:A Lewis gun in action in a front line trench near Orvillers, Bestanddeelnr 158-0901.jpg Collectie / Archief : Fotocollectie Eerste Wereldoorlog\nReportage / Serie : The British advance in the West"
    },
    {
     "so": 8,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/British_crew_preparing_155_mm_shells_Italy_22-02-1945_IWM_NA_22473.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1300,
-    "h": 1279,
-    "credit": "\"British crew preparing 155 mm shells Italy 22-02-1945 IWM NA 22473.jpg\" – No 2 Army Film & Photographic Unit : Radford (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:British_crew_preparing_155_mm_shells_Italy_22-02-1945_IWM_NA_22473.jpg)",
-    "text": "File:British crew preparing 155 mm shells Italy 22-02-1945 IWM NA 22473.jpg Gunners W D Lewis and F J Hall of 33/61 Heavy Regiment, Royal Artillery, at Vergato, Italy, cleaning mud from shells for an "
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes%2C_Bestanddeelnr_158-1949.jpg/1920px-INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes%2C_Bestanddeelnr_158-1949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2993,
+    "h": 3914,
+    "credit": "\"INGENIOUS ANTI-AIRCRAFT GUN. A Lewis gun for anti-aircraft purposes, Bestanddeelnr 158-1949.jpg\" – Nationaal Archief, CC0 (https://commons.wikimedia.org/wiki/File:INGENIOUS_ANTI-AIRCRAFT_GUN._A_Lewis_gun_for_anti-aircraft_purposes,_Bestanddeelnr_158-1949.jpg)",
+    "text": "File:INGENIOUS ANTI-AIRCRAFT GUN. A Lewis gun for anti-aircraft purposes, Bestanddeelnr 158-1949.jpg Collectie / Archief : Fotocollectie Eerste Wereldoorlog\nReportage / Serie : [ onbekend ]\nBeschrijvi"
    },
    {
     "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_%289034986%29.jpg/1920px-Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_%289034986%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2292,
-    "h": 1289,
-    "credit": "\"Swift Response 25 - U S Marines conduct Crew Served Weapons Range (9034986).jpg\" – U.S. Marine Corps photo by Lance Cpl. franco lewis, Public domain (https://commons.wikimedia.org/wiki/File:Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_(9034986).jpg)",
-    "text": "File:Swift Response 25 - U S Marines conduct Crew Served Weapons Range (9034986).jpg U.S. Marine Corps Lance Cpl. Eduardo Rosas, a logistics specialist with Combat Logistics Battalion 22, Combat Logis"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Navy_-_Gun_Practice_-_Lewis_gun_practice%2C_Norfolk%2C_VA_-_NARA_-_45510693.jpg/1920px-Navy_-_Gun_Practice_-_Lewis_gun_practice%2C_Norfolk%2C_VA_-_NARA_-_45510693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 9180,
+    "h": 6120,
+    "credit": "\"Navy - Gun Practice - Lewis gun practice, Norfolk, VA - NARA - 45510693.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Navy_-_Gun_Practice_-_Lewis_gun_practice,_Norfolk,_VA_-_NARA_-_45510693.jpg)",
+    "text": "File:Navy - Gun Practice - Lewis gun practice, Norfolk, VA - NARA - 45510693.jpg Scope and content:  Photographer: Committee on Public Information"
    },
    {
     "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Base_of_the_Pyramid_Soldiers_conduct_crew-served_weapon_qualification_in_Poland_%288183540%29.jpg/1920px-Base_of_the_Pyramid_Soldiers_conduct_crew-served_weapon_qualification_in_Poland_%288183540%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6720,
-    "h": 4480,
-    "credit": "\"Base of the Pyramid Soldiers conduct crew-served weapon qualification in Poland (8183540).jpg\" – U.S. Army 3SB by Sgt. Demetrysean Lewis, Public domain (https://commons.wikimedia.org/wiki/File:Base_of_the_Pyramid_Soldiers_conduct_crew-served_weapon_qualification_in_Poland_(8183540).jpg)",
-    "text": "File:Base of the Pyramid Soldiers conduct crew-served weapon qualification in Poland (8183540).jpg U.S. Army Soldiers assigned to C Company, 87th Division Sustainment Support Battalion, 3rd Division S"
+    "url": "https://live.staticflickr.com/65535/55333998953_7c00190357_b.jpg",
+    "w": 1024,
+    "h": 730,
+    "credit": "\"Lewis gun at the ready, an airman watches for enemy aircraft from the cab of one of No 615 Squadron's lorries, 17 May 1940.\" – WWII in View, Public Domain (https://www.flickr.com/photos/191031534@N08/55333998953)",
+    "text": "Lewis gun at the ready, an airman watches for enemy aircraft from the cab of one of No 615 Squadron's lorries, 17 May 1940."
    },
    {
     "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752753%29.jpg/1920px-U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6172,
-    "h": 4115,
-    "credit": "\"U S Marines Conduct Live Fire Crew Served Range (8752753).jpg\" – U.S. Marines USMCFE by Lance Cpl. Franco Lewis, Public domain (https://commons.wikimedia.org/wiki/File:U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_(8752753).jpg)",
-    "text": "File:U S Marines Conduct Live Fire Crew Served Range (8752753).jpg A U.S. Marine loads the M240B machine gun during a live fire crew served weapons range in preparation for Exercise Freezing Winds 24 "
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL2xyL21vbnoxMjg0NTUyLWltYWdlLmpwZw.jpg",
+    "w": 6197,
+    "h": 3712,
+    "credit": "\"[two soldiers practising Lewis gun]\" – museumofnewzealand, CC0 (https://www.rawpixel.com/image/13028231/two-soldiers-practising-with-lewis-gun-1938-1939)",
+    "text": "[two soldiers practising Lewis gun] artillery face gun men person sketch war photography"
    },
    {
     "so": 12,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Base_of_the_Pyramid_Soldiers_conduct_crew-served_weapon_qualification_in_Poland_%288183534%29.jpg/1920px-Base_of_the_Pyramid_Soldiers_conduct_crew-served_weapon_qualification_in_Poland_%288183534%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5212,
-    "h": 3475,
-    "credit": "\"Base of the Pyramid Soldiers conduct crew-served weapon qualification in Poland (8183534).jpg\" – U.S. Army 3SB by Sgt. Demetrysean Lewis, Public domain (https://commons.wikimedia.org/wiki/File:Base_of_the_Pyramid_Soldiers_conduct_crew-served_weapon_qualification_in_Poland_(8183534).jpg)",
-    "text": "File:Base of the Pyramid Soldiers conduct crew-served weapon qualification in Poland (8183534).jpg A U.S. Army Soldier assigned to C Company, 87th Division Sustainment Support Battalion, 3rd Division "
+    "url": "https://live.staticflickr.com/65535/51997565164_3f2eb852cc_b.jpg",
+    "w": 1024,
+    "h": 797,
+    "credit": "\"SC 151739 - A half-track carrier is shown mounting a 75mm gun while rolling over a six-inch tree which it has felled as it emerges from the woods somewhere in England.\" – Signal Corps Archive, Public Domain (https://www.flickr.com/photos/186360156@N02/51997565164)",
+    "text": "SC 151739 - A half-track carrier is shown mounting a 75mm gun while rolling over a six-inch tree which it has felled as it emerges from the woods somewhere in England."
    },
    {
     "so": 13,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752763%29.jpg/1920px-U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_%288752763%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6720,
-    "h": 4480,
-    "credit": "\"U S Marines Conduct Live Fire Crew Served Range (8752763).jpg\" – U.S. Marines USMCFE by Lance Cpl. Franco Lewis, Public domain (https://commons.wikimedia.org/wiki/File:U_S_Marines_Conduct_Live_Fire_Crew_Served_Range_(8752763).jpg)",
-    "text": "File:U S Marines Conduct Live Fire Crew Served Range (8752763).jpg A U.S. Marine fires a M2 Browning machine gun during a live fire crew service range in preparation for Exercise Freezing Winds 24 on "
+    "url": "https://live.staticflickr.com/65535/51917314893_1ea36a049f_b.jpg",
+    "w": 1024,
+    "h": 701,
+    "credit": "\"The gunner postition in the Fokker F.XVIII\" – Pabo5, Public Domain (https://www.flickr.com/photos/55001154@N03/51917314893)",
+    "text": "The gunner postition in the Fokker F.XVIII antillen caribbean dutch fokkerf18 klm klmwib km konmarine korpsmariniers lewisgun marineluchtvaartdienst mld nashato oehoeoriol"
    },
    {
     "so": 14,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_%289034971%29.jpg/1920px-Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_%289034971%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6262,
-    "h": 4175,
-    "credit": "\"Swift Response 25 - U S Marines conduct Crew Served Weapons Range (9034971).jpg\" – U.S. Marine Corps photo by Lance Cpl. franco lewis, Public domain (https://commons.wikimedia.org/wiki/File:Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_(9034971).jpg)",
-    "text": "File:Swift Response 25 - U S Marines conduct Crew Served Weapons Range (9034971).jpg A U.S. Marine with Combat Logistics Battalion 22, Combat Logistics Regiment 27, 2nd Marine Logistics Group fires an"
+    "url": "https://live.staticflickr.com/65535/52120943571_2cabf608f5_b.jpg",
+    "w": 768,
+    "h": 1024,
+    "credit": "\"ΤΟΜ ΚΡΟΥΖ εισαι ΜΑΒΕΡΙΚ ΣΗΜΕΡΑ 🇬🇷 TOM CRUISE in TOP GUN: MAVERICK\" – dullhunk, CC BY 2.0 (https://www.flickr.com/photos/14829735@N00/52120943571)",
+    "text": "ΤΟΜ ΚΡΟΥΖ εισαι ΜΑΒΕΡΙΚ ΣΗΜΕΡΑ 🇬🇷 TOM CRUISE in TOP GUN: MAVERICK 1986 2022 maverick sequel tomcruise topgun topgunmaverick μαβερικ σημερα"
    },
    {
     "so": 15,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_%289034983%29.jpg/1920px-Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_%289034983%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2400,
-    "h": 1600,
-    "credit": "\"Swift Response 25 - U S Marines conduct Crew Served Weapons Range (9034983).jpg\" – U.S. Marine Corps photo by Lance Cpl. franco lewis, Public domain (https://commons.wikimedia.org/wiki/File:Swift_Response_25_-_U_S_Marines_conduct_Crew_Served_Weapons_Range_(9034983).jpg)",
-    "text": "File:Swift Response 25 - U S Marines conduct Crew Served Weapons Range (9034983).jpg A U.S. Marine with Combat Logistics Battalion 22, Combat Logistics Regiment 27, 2nd Marine Logistics Group clears a"
+    "url": "https://live.staticflickr.com/65535/52613132421_bc9fe6c09a_b.jpg",
+    "w": 771,
+    "h": 1024,
+    "credit": "\"Hjalmar NYMAN #1221\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/52613132421)",
+    "text": "Hjalmar NYMAN #1221 3rdpioneerbattalion aif army aussiemobs australia hjalmarnyman military militarymedal portrait soldier uniform vintage ww1"
    }
   ]
  },
  {
-  "slot": "A15",
-  "beats": null,
-  "mo_ta": "B29 đường đất lầy sau mưa ở Tây Úc",
-  "candidates": []
- },
- {
-  "slot": "A16",
-  "beats": null,
-  "mo_ta": "B42 báo chí / quốc hội Úc 1932",
+  "slot": "S12",
+  "beats": "42,43",
+  "mo_ta": "Quốc hội Úc / báo chí 1932",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deceased_emu_during_Emu_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 712,
-    "h": 856,
-    "credit": "\"Deceased emu during Emu War.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Deceased_emu_during_Emu_War.jpg)",
-    "text": "File:Deceased emu during Emu War.jpg A man holding an emu killed by Australian soldiers"
-   }
-  ]
- },
- {
-  "slot": "A17",
-  "beats": null,
-  "mo_ta": "B49 vỏ đạn",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Cartridge_moulds_for_303_rifles_from_Paharganj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1449,
-    "h": 1394,
-    "credit": "\"Cartridge moulds for 303 rifles from Paharganj.jpg\" – Photo Division, Govt. of India, Public domain (https://commons.wikimedia.org/wiki/File:Cartridge_moulds_for_303_rifles_from_Paharganj.jpg)",
-    "text": "File:Cartridge moulds for 303 rifles from Paharganj.jpg A collection of cartridges moulds for the manufacture of cartridges for 303 rifles, captured from a muslim house in Pahar Ganj."
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219896267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219896267).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219896267).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219896267).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
    },
    {
     "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Cartridge_case_%28AM_2014.90.9-1%29.jpg/1920px-Cartridge_case_%28AM_2014.90.9-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2999,
-    "h": 838,
-    "credit": "\"Cartridge case (AM 2014.90.9-1).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Cartridge_case_(AM_2014.90.9-1).jpg)",
-    "text": "File:Cartridge case (AM 2014.90.9-1).jpg .303 cartridge case Associated with 17179 Gunner Eric Milton Denby, New Zealand Field Artillery, 16th Reinforcements, 1NZEF, WWI .303 cartridge case"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Church_of_St_Cyriac_and_St_Julitta_Swaffham_Prior_Cambridgeshire_%28219896201%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Cyriac and St Julitta Swaffham Prior Cambridgeshire (219896201).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Cyriac_and_St_Julitta_Swaffham_Prior_Cambridgeshire_(219896201).jpg)",
+    "text": "File:Church of St Cyriac and St Julitta Swaffham Prior Cambridgeshire (219896201).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate eccle"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897590).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897590).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897590).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897489).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897489).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897489).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897414%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897414).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897414).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897414).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897318).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897318).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897318).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219896508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219896508).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219896508).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219896508).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897064).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897064).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897064).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897824).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897824).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897824).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897784).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897784).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897784).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219896353%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219896353).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219896353).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219896353).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897741).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897741).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897741).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897209%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897209).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897209).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897209).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897948).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897948).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897948).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219896856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219896856).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219896856).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219896856).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_%28219897872%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 960,
+    "credit": "\"Church of St Mary Swaffham Prior Cambridgeshire (219897872).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Church_of_St_Mary_Swaffham_Prior_Cambridgeshire_(219897872).jpg)",
+    "text": "File:Church of St Mary Swaffham Prior Cambridgeshire (219897872).jpg Of those Cambridgeshire villages that once had two churches standing within one churchyard to serve separate ecclesiastical parishe"
+   }
+  ]
+ },
+ {
+  "slot": "S13",
+  "beats": "47,49",
+  "mo_ta": "Lều quân đội / vỏ đạn .303",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/1911_Britannica_-_Cartridges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1025,
+    "h": 1019,
+    "credit": "\"1911 Britannica - Cartridges.png\" – Encyclopædia Britannica, 1911, Public domain (https://commons.wikimedia.org/wiki/File:1911_Britannica_-_Cartridges.png)",
+    "text": "File:1911 Britannica - Cartridges.png Cartridges. Illustration from 1911 Encyclopædia Britannica, article Ammunition."
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Brass_SCC2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 772,
+    "h": 1125,
+    "credit": "\"Brass SCC2.jpg\" – Peterlewis (talk) (Uploads), Public domain (https://commons.wikimedia.org/wiki/File:Brass_SCC2.jpg)",
+    "text": "File:Brass SCC2.jpg own scan of old diagram, moved here using FileImporter from https://en.wikipedia.org/wiki/File:Brass_SCC2.jpg"
    },
    {
     "so": 2,
@@ -1004,335 +1170,438 @@
    },
    {
     "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cartridge_case_%28AM_2014.90.9-5%29.jpg/1920px-Cartridge_case_%28AM_2014.90.9-5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2633,
-    "h": 2476,
-    "credit": "\"Cartridge case (AM 2014.90.9-5).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Cartridge_case_(AM_2014.90.9-5).jpg)",
-    "text": "File:Cartridge case (AM 2014.90.9-5).jpg .303 cartridge case Associated with 17179 Gunner Eric Milton Denby, New Zealand Field Artillery, 16th Reinforcements, 1NZEF, WWI .303 cartridge case"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-3%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4986,
+    "h": 1955,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-3).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-3).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-3).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterling"
    },
    {
     "so": 4,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Cartridge_case_%28AM_2014.90.9-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 873,
-    "h": 853,
-    "credit": "\"Cartridge case (AM 2014.90.9-2).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Cartridge_case_(AM_2014.90.9-2).jpg)",
-    "text": "File:Cartridge case (AM 2014.90.9-2).jpg .303 cartridge case Associated with 17179 Gunner Eric Milton Denby, New Zealand Field Artillery, 16th Reinforcements, 1NZEF, WWI .303 cartridge case"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-7%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2110,
+    "h": 2066,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-7).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-7).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-7).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterling"
    },
    {
     "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cartridge_case_%28AM_2014.90.9-4%29.jpg/1920px-Cartridge_case_%28AM_2014.90.9-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4268,
-    "h": 1416,
-    "credit": "\"Cartridge case (AM 2014.90.9-4).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Cartridge_case_(AM_2014.90.9-4).jpg)",
-    "text": "File:Cartridge case (AM 2014.90.9-4).jpg .303 cartridge case Associated with 17179 Gunner Eric Milton Denby, New Zealand Field Artillery, 16th Reinforcements, 1NZEF, WWI .303 cartridge case"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-10%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-10%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2166,
+    "h": 1008,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-10).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-10).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-10).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterlin"
    },
    {
     "so": 6,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cartridge_case_%28AM_2014.90.9-3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1320,
-    "h": 1219,
-    "credit": "\"Cartridge case (AM 2014.90.9-3).jpg\" – not researched, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Cartridge_case_(AM_2014.90.9-3).jpg)",
-    "text": "File:Cartridge case (AM 2014.90.9-3).jpg .303 cartridge case Associated with 17179 Gunner Eric Milton Denby, New Zealand Field Artillery, 16th Reinforcements, 1NZEF, WWI .303 cartridge case"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-8%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2249,
+    "h": 4034,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-8).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-8).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-8).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterling"
    },
    {
     "so": 7,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ornament%2C_cartridge_%28AM_1932.5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1530,
-    "h": 816,
-    "credit": "\"Ornament, cartridge (AM 1932.5).jpg\" – không rõ, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Ornament,_cartridge_(AM_1932.5).jpg)",
-    "text": "File:Ornament, cartridge (AM 1932.5).jpg Cartridge ornament, WW1 several .303 cartridge cases joined together in circular upright form"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-4%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2733,
+    "h": 3211,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-4).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-4).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-4).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterling"
    },
    {
     "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pencil_in_a_bullet_case_%2810132833833%29.jpg/1920px-Pencil_in_a_bullet_case_%2810132833833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2499,
-    "h": 810,
-    "credit": "\"Pencil in a bullet case (10132833833).jpg\" – Aussie~mobs, Public domain (https://commons.wikimedia.org/wiki/File:Pencil_in_a_bullet_case_(10132833833).jpg)",
-    "text": "File:Pencil in a bullet case (10132833833).jpg This pencil was contained my great uncle's Princess Mary's Christmas Gift box, given to Commonwealth soldiers in 1914. Sterling silver; Wood; Lead; Brass"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-5%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2620,
+    "h": 2498,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-5).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-5).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-5).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterling"
    },
    {
     "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Knife%2C_paper_%28AM_607938-3%29.jpg/1920px-Knife%2C_paper_%28AM_607938-3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5472,
-    "h": 3648,
-    "credit": "\"Knife, paper (AM 607938-3).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Knife,_paper_(AM_607938-3).jpg)",
-    "text": "File:Knife, paper (AM 607938-3).jpg Souvenir paper knife, Albert, Somme, WW1 material- brass; copper paper knife with curved blade; handle made from .303 cartridge case (fired) with bullet in situ; cu"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Pencil%2C_cartridge_case_%28AM_2007.13.7.2-6%29.jpg/1920px-Pencil%2C_cartridge_case_%28AM_2007.13.7.2-6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2720,
+    "h": 2639,
+    "credit": "\"Pencil, cartridge case (AM 2007.13.7.2-6).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Pencil,_cartridge_case_(AM_2007.13.7.2-6).jpg)",
+    "text": "File:Pencil, cartridge case (AM 2007.13.7.2-6).jpg Cartridge case pencil part of Princess Mary's Gift, 1915, received by 10-1003 Pte Waldo S Thompson, Wellington Infantry Regiment, 1NZEF, WW1 sterling"
    },
    {
     "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Knife%2C_paper_%28AM_607938-1%29.jpg/1920px-Knife%2C_paper_%28AM_607938-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5472,
-    "h": 3648,
-    "credit": "\"Knife, paper (AM 607938-1).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Knife,_paper_(AM_607938-1).jpg)",
-    "text": "File:Knife, paper (AM 607938-1).jpg Souvenir paper knife, Albert, Somme, WW1 material- brass; copper paper knife with curved blade; handle made from .303 cartridge case (fired) with bullet in situ; cu"
-   },
-   {
-    "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Knife%2C_paper_%28AM_607938-2%29.jpg/1920px-Knife%2C_paper_%28AM_607938-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5472,
-    "h": 3648,
-    "credit": "\"Knife, paper (AM 607938-2).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Knife,_paper_(AM_607938-2).jpg)",
-    "text": "File:Knife, paper (AM 607938-2).jpg Souvenir paper knife, Albert, Somme, WW1 material- brass; copper paper knife with curved blade; handle made from .303 cartridge case (fired) with bullet in situ; cu"
-   },
-   {
-    "so": 12,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Knife%2C_paper_%28AM_607938-4%29.jpg/1920px-Knife%2C_paper_%28AM_607938-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5472,
-    "h": 3648,
-    "credit": "\"Knife, paper (AM 607938-4).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Knife,_paper_(AM_607938-4).jpg)",
-    "text": "File:Knife, paper (AM 607938-4).jpg Souvenir paper knife, Albert, Somme, WW1 material- brass; copper paper knife with curved blade; handle made from .303 cartridge case (fired) with bullet in situ; cu"
-   },
-   {
-    "so": 13,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Box%2C_gift_%28AM_2002.48.3-2%29.jpg/1920px-Box%2C_gift_%28AM_2002.48.3-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2057,
-    "h": 1578,
-    "credit": "\"Box, gift (AM 2002.48.3-2).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Box,_gift_(AM_2002.48.3-2).jpg)",
-    "text": "File:Box, gift (AM 2002.48.3-2).jpg Princess Mary Gift box, Christmas 1914, WW1 Gift box received by Private James Crichton, VC, Auckland Infantry Regiment brass box containing greeting card and penci"
-   },
-   {
-    "so": 14,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Box%2C_gift_%28AM_2002.48.3-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1614,
-    "h": 954,
-    "credit": "\"Box, gift (AM 2002.48.3-1).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Box,_gift_(AM_2002.48.3-1).jpg)",
-    "text": "File:Box, gift (AM 2002.48.3-1).jpg Princess Mary Gift box, Christmas 1914, WW1 Gift box received by Private James Crichton, VC, Auckland Infantry Regiment brass box containing greeting card and penci"
-   },
-   {
-    "so": 15,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Box%2C_gift_%28AM_2002.48.3-3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1614,
-    "h": 1200,
-    "credit": "\"Box, gift (AM 2002.48.3-3).jpg\" – Adshead & Ramsay, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Box,_gift_(AM_2002.48.3-3).jpg)",
-    "text": "File:Box, gift (AM 2002.48.3-3).jpg Princess Mary Gift box, Christmas 1914, WW1 Gift box received by Private James Crichton, VC, Auckland Infantry Regiment brass box containing greeting card and penci"
+    "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJidWxsZXRzX2FtbW9fYW1tdW5pdGlvbl9icmFzcy1pbWFnZS1reWJlNHh3YS5qcGc.jpg",
+    "w": 6000,
+    "h": 3877,
+    "credit": "\"Brass bullets ammunition\" – không rõ, CC0 (https://www.rawpixel.com/image/6040322/photo-image-public-domain-gold-free)",
+    "text": "Brass bullets ammunition ammunition bullet casing caliber cartridges gun caliber gun shell shell"
    }
   ]
  },
  {
-  "slot": "A18",
-  "beats": null,
-  "mo_ta": "B53 Đại khủng hoảng Tây Úc / Perth 1930s",
+  "slot": "S14",
+  "beats": "53",
+  "mo_ta": "Mít tinh chính trị Tây Úc 1930s (ly khai 1933)",
   "candidates": [
    {
     "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/St_Mary_of_the_Angels_Basilica%2C_Geelong.jpg/1920px-St_Mary_of_the_Angels_Basilica%2C_Geelong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2560,
-    "h": 1920,
-    "credit": "\"St Mary of the Angels Basilica, Geelong.jpg\" – AS 1979, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:St_Mary_of_the_Angels_Basilica,_Geelong.jpg)",
-    "text": "File:St Mary of the Angels Basilica, Geelong.jpg Catholic church for Geelong which, although cathedral-like, is within the Archdiocese of Melbourne (parishes from Colac to the South Australian border "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Western_Australia_Secession_Cover_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1704,
+    "h": 1056,
+    "credit": "\"Western Australia Secession Cover 1933.jpg\" – S Mitchell, Public domain (https://commons.wikimedia.org/wiki/File:Western_Australia_Secession_Cover_1933.jpg)",
+    "text": "File:Western Australia Secession Cover 1933.jpg A souvenir envelope produced by S Mitchell marking the celebration of the secession referendum in 1933"
    },
    {
     "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lascar_The_Andes_-_The_world%27s_longest_mountain_range_%284569738346%29.jpg/1920px-Lascar_The_Andes_-_The_world%27s_longest_mountain_range_%284569738346%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3216,
-    "h": 2136,
-    "credit": "\"Lascar The Andes - The world's longest mountain range (4569738346).jpg\" – Jorge Láscar from Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Lascar_The_Andes_-_The_world%27s_longest_mountain_range_(4569738346).jpg)",
-    "text": "File:Lascar The Andes - The world's longest mountain range (4569738346).jpg The Andes form the world's longest exposed mountain range. They lie as a continuous chain of highland along the western coas"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sunday_Times_Secession_Headline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1868,
+    "h": 1736,
+    "credit": "\"Sunday Times Secession Headline.jpg\" – Western Press Limited, Public domain (https://commons.wikimedia.org/wiki/File:Sunday_Times_Secession_Headline.jpg)",
+    "text": "File:Sunday Times Secession Headline.jpg Headline in The Sunday Times (Western Australia) in the lead-up to the 1933 Western Australian secession referendum"
    },
    {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lascar_The_Andes_-_The_world%27s_longest_mountain_range_%284569706926%29.jpg/1920px-Lascar_The_Andes_-_The_world%27s_longest_mountain_range_%284569706926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2136,
-    "h": 3216,
-    "credit": "\"Lascar The Andes - The world's longest mountain range (4569706926).jpg\" – Jorge Láscar from Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Lascar_The_Andes_-_The_world%27s_longest_mountain_range_(4569706926).jpg)",
-    "text": "File:Lascar The Andes - The world's longest mountain range (4569706926).jpg The Andes form the world's longest exposed mountain range. They lie as a continuous chain of highland along the western coas"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Donkey_vote.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1594,
+    "h": 1200,
+    "credit": "\"Donkey vote.jpg\" – not stated, Public domain (https://commons.wikimedia.org/wiki/File:Donkey_vote.jpg)",
+    "text": "File:Donkey vote.jpg Political stunt by the Dominion League of Western Australia parodying the phrase \"donkey vote\", calling on voters to reject a constitutional convention at the 1933 Western Austral"
+   }
+  ]
+ },
+ {
+  "slot": "S15",
+  "beats": "54,58",
+  "mo_ta": "Nhà trại cũ vùng wheatbelt",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Unknown_station_homestead_from_hill_%28full%29.png/1920px-Unknown_station_homestead_from_hill_%28full%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5452,
+    "h": 3392,
+    "credit": "\"Unknown station homestead from hill (full).png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Unknown_station_homestead_from_hill_(full).png)",
+    "text": "File:Unknown station homestead from hill (full).png An unidentified pastoral station homestead viewed from a nearby hill."
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Unknown_station_homestead_from_hill_%28cropped%29.png/1920px-Unknown_station_homestead_from_hill_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4976,
+    "h": 2780,
+    "credit": "\"Unknown station homestead from hill (cropped).png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Unknown_station_homestead_from_hill_(cropped).png)",
+    "text": "File:Unknown station homestead from hill (cropped).png An unidentified pastoral station homestead viewed from a nearby hill."
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/StateLibQld_1_52208_Rocklands_Station_homestead%2C_ca._1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1000,
+    "h": 709,
+    "credit": "\"StateLibQld 1 52208 Rocklands Station homestead, ca. 1900.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:StateLibQld_1_52208_Rocklands_Station_homestead,_ca._1900.jpg)",
+    "text": "File:StateLibQld 1 52208 Rocklands Station homestead, ca. 1900.jpg Rocklands Station homestead, ca. 1900\nRocklands Station was situated in far western Queensland, near the Northern Territory, north we"
+   }
+  ]
+ },
+ {
+  "slot": "S16",
+  "beats": "57",
+  "mo_ta": "Hàng rào chống emu / State Barrier Fence",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Rabbit-proof-fence-000876d.jpg/1920px-Rabbit-proof-fence-000876d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3507,
+    "h": 2356,
+    "credit": "\"Rabbit-proof-fence-000876d.jpg\" – Broomhall, F. H. (Frank H.), 1900-1995, Public domain (https://commons.wikimedia.org/wiki/File:Rabbit-proof-fence-000876d.jpg)",
+    "text": "File:Rabbit-proof-fence-000876d.jpg Source caption: \"The long fence - no.1 R.P.F. looking soth, 153m, 1926\""
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rabbit_fence_Cobar_October_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1200,
+    "h": 761,
+    "credit": "\"Rabbit fence Cobar October 1905.jpg\" – Walter Leaney (1874 - 1954), Public domain (https://commons.wikimedia.org/wiki/File:Rabbit_fence_Cobar_October_1905.jpg)",
+    "text": "File:Rabbit fence Cobar October 1905.jpg Rabbit-proof fence with William Rodier on the side not devastated by rabbits, Cobar, New South Wales, 1905, State Library of New South Wales, At Work and Play "
+   },
+   {
+    "so": 2,
+    "url": "https://live.staticflickr.com/65535/53672829890_3600d068c9_b.jpg",
+    "w": 1024,
+    "h": 768,
+    "credit": "\"Emu feathers\" – jeans_Photos, CC BY 2.0 (https://www.flickr.com/photos/63479603@N00/53672829890)",
+    "text": "Emu feathers australia emu feather national park wandoo western"
    },
    {
     "so": 3,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Atlanta_24-27_Feb_2010_%284399677164%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1600,
-    "h": 1200,
-    "credit": "\"Atlanta 24-27 Feb 2010 (4399677164).jpg\" – David from Colorado Springs, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Atlanta_24-27_Feb_2010_(4399677164).jpg)",
-    "text": "File:Atlanta 24-27 Feb 2010 (4399677164).jpg Buckhead Atlanta as seen from the Club lounge on the 21st floor at the Intercontinental Hotel Buckhead Atlanta Georgia.\nBuckhead is an affluent uptown dist"
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA5MWh6LWltYWdlLmpwZw.jpg",
+    "w": 9000,
+    "h": 6664,
+    "credit": "\"Emu Plains. Nepean River New\" – thegetty, CC0 (https://www.rawpixel.com/image/14321303/emu-plains-nepean-river-new-south-wales-government-printing-office)",
+    "text": "Emu Plains. Nepean River New art australia fence nature plant tree wooden"
+   }
+  ]
+ },
+ {
+  "slot": "S17",
+  "beats": "0,20",
+  "mo_ta": "Bản đồ / vùng Campion Tây Úc",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Townsite_of_Campion%2C_1929.png/1920px-Townsite_of_Campion%2C_1929.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5826,
+    "h": 4548,
+    "credit": "\"Townsite of Campion, 1929.png\" – Government of Western Australia – Department of Lands and Surveys., Public domain (https://commons.wikimedia.org/wiki/File:Townsite_of_Campion,_1929.png)",
+    "text": "File:Townsite of Campion, 1929.png Location plan of the Townsite of Campion, Western Australia"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/William_Campion_at_Parliament_House_1928.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1596,
+    "h": 1137,
+    "credit": "\"William Campion at Parliament House 1928.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:William_Campion_at_Parliament_House_1928.jpg)",
+    "text": "File:William Campion at Parliament House 1928.jpg Western Mail caption tex Sir William Campion reaches Parliament House (Harvest Terrace, West Perth) for a sessional opening in1928"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Lady_campion_hostel_gnangarra.JPG/1920px-Lady_campion_hostel_gnangarra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4672,
+    "h": 3104,
+    "credit": "\"Lady campion hostel gnangarra.JPG\" – Gnangarra, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Lady_campion_hostel_gnangarra.JPG)",
+    "text": "File:Lady campion hostel gnangarra.JPG Lady Campion Hostel, built to assist women of the southwest going through the last stages of child birth, pregnant women from farms and towns without medical ass"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Campion_1978.jpg/1920px-Campion_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 3089,
+    "credit": "\"Campion 1978.jpg\" – Noelbabar, Public domain (https://commons.wikimedia.org/wiki/File:Campion_1978.jpg)",
+    "text": "File:Campion 1978.jpg Léo Campion, Le drapeau noir, l'équerre et le compas, Éditions Goutal-Darly, 1978."
    },
    {
     "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_%28page_2%29.jpg/1920px-Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Campion_1969.jpg/1920px-Campion_1969.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 2000,
-    "h": 1698,
-    "credit": "\"Bowlus BA-100 Baby Albatross - DPLA - 7726e481325cdabf9c55dd58690d04bd (page 2).jpg\" – William H. Bowlus, CC0 (https://commons.wikimedia.org/wiki/File:Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_(page_2).jpg)",
-    "text": "File:Bowlus BA-100 Baby Albatross - DPLA - 7726e481325cdabf9c55dd58690d04bd (page 2).jpg Single-seat, high-wing monoplane glider with wooden monocoque fuselage pod, aluminum tube tail boom, and wooden"
+    "h": 2907,
+    "credit": "\"Campion 1969.jpg\" – Noelbabar, Public domain (https://commons.wikimedia.org/wiki/File:Campion_1969.jpg)",
+    "text": "File:Campion 1969.jpg Léo Campion, Les Anarchistes dans la franc-maçonnerie : ou les Maillons libertaires de la chaîne d'union, Marseille, Culture et Liberté, 1969, 176 p."
    },
    {
     "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_%28page_3%29.jpg/1920px-Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2000,
-    "h": 1330,
-    "credit": "\"Bowlus BA-100 Baby Albatross - DPLA - 7726e481325cdabf9c55dd58690d04bd (page 3).jpg\" – William H. Bowlus, CC0 (https://commons.wikimedia.org/wiki/File:Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_(page_3).jpg)",
-    "text": "File:Bowlus BA-100 Baby Albatross - DPLA - 7726e481325cdabf9c55dd58690d04bd (page 3).jpg Single-seat, high-wing monoplane glider with wooden monocoque fuselage pod, aluminum tube tail boom, and wooden"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Campion_Hall_Jesus.jpg/1920px-Campion_Hall_Jesus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2400,
+    "h": 1600,
+    "credit": "\"Campion Hall Jesus.jpg\" – Gownley at English Wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:Campion_Hall_Jesus.jpg)",
+    "text": "File:Campion Hall Jesus.jpg Statue of the Crucifixion of Jesus outside of campion hall."
    },
    {
     "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_%28page_1%29.jpg/1920px-Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2000,
-    "h": 1572,
-    "credit": "\"Bowlus BA-100 Baby Albatross - DPLA - 7726e481325cdabf9c55dd58690d04bd (page 1).jpg\" – William H. Bowlus, CC0 (https://commons.wikimedia.org/wiki/File:Bowlus_BA-100_Baby_Albatross_-_DPLA_-_7726e481325cdabf9c55dd58690d04bd_(page_1).jpg)",
-    "text": "File:Bowlus BA-100 Baby Albatross - DPLA - 7726e481325cdabf9c55dd58690d04bd (page 1).jpg Single-seat, high-wing monoplane glider with wooden monocoque fuselage pod, aluminum tube tail boom, and wooden"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/JarrahFence_gobeirne.jpg/1920px-JarrahFence_gobeirne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 1536,
+    "credit": "\"JarrahFence gobeirne.jpg\" – Photograph by Greg O'Beirne [gallery], CC BY 2.5 (https://commons.wikimedia.org/wiki/File:JarrahFence_gobeirne.jpg)",
+    "text": "File:JarrahFence gobeirne.jpg Typical Western Australian jarrah picket fence (circa 1930's) with overhanging strelitzia, Fourth Avenue, Mount Lawley, Western Australia."
    },
    {
     "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/PIIGS_Mk_4_map.png/1920px-PIIGS_Mk_4_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3180,
-    "h": 1485,
-    "credit": "\"PIIGS Mk 4 map.png\" – The original uploader was Snow storm in Eastern Asia at English Wikipedia., CC BY 3.0 (https://commons.wikimedia.org/wiki/File:PIIGS_Mk_4_map.png)",
-    "text": "File:PIIGS Mk 4 map.png I modified a copy of the map 'File:Commonwealth games 1998 medal winners.PNG' by Commons user Roke. It replaces my map 'File:PIGS Mk 3 map.png' which became defective would not"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Fremantle_map_1930%2C_slwa_b1885261_1.png/1920px-Fremantle_map_1930%2C_slwa_b1885261_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6656,
+    "h": 4350,
+    "credit": "\"Fremantle map 1930, slwa b1885261 1.png\" – Department of Lands & Surveys, Government of Western Australia, Public domain (https://commons.wikimedia.org/wiki/File:Fremantle_map_1930,_slwa_b1885261_1.png)",
+    "text": "File:Fremantle map 1930, slwa b1885261 1.png Map of the City of Fremantle showing streets, lot numbers, tram routes, etc."
    },
    {
     "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Male-Female_suicide_ratios_2015_%28age-standardized%29.png/1920px-Male-Female_suicide_ratios_2015_%28age-standardized%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Kalgoorlie_railway_station%2C_20_November_1930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1677,
+    "h": 948,
+    "credit": "\"Kalgoorlie railway station, 20 November 1930.jpg\" – William Edward Fretwell, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Kalgoorlie_railway_station,_20_November_1930.jpg)",
+    "text": "File:Kalgoorlie railway station, 20 November 1930.jpg View of the eastern end of Kalgoorlie railway station, with the standard gauge Trans-Australian Railway tracks behind the signal box at left, and "
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Views_of_Broome_Historical_Museum%2C_Broome%2C_WA%2C_Australia_26.jpg/1920px-Views_of_Broome_Historical_Museum%2C_Broome%2C_WA%2C_Australia_26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2322,
+    "h": 4128,
+    "credit": "\"Views of Broome Historical Museum, Broome, WA, Australia 26.jpg\" – Ridiculopathy, CC0 (https://commons.wikimedia.org/wiki/File:Views_of_Broome_Historical_Museum,_Broome,_WA,_Australia_26.jpg)",
+    "text": "File:Views of Broome Historical Museum, Broome, WA, Australia 26.jpg Chandler and Price Printing Press. The press was used to print Broome's local newspapers from 1908 to 1930"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Views_of_Broome_Historical_Museum%2C_Broome%2C_WA%2C_Australia_22.jpg/1920px-Views_of_Broome_Historical_Museum%2C_Broome%2C_WA%2C_Australia_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3088,
+    "h": 3088,
+    "credit": "\"Views of Broome Historical Museum, Broome, WA, Australia 22.jpg\" – Ridiculopathy, CC0 (https://commons.wikimedia.org/wiki/File:Views_of_Broome_Historical_Museum,_Broome,_WA,_Australia_22.jpg)",
+    "text": "File:Views of Broome Historical Museum, Broome, WA, Australia 22.jpg Broome Historical Museum, Broome, WA. Chandler and Price Printing Press. The press was used to print Broome's local newspapers from"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/%28Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia%29_-_DPLA_-_017921452b9384745b9d4fc090ff377f_%28page_76%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1456,
+    "h": 1982,
+    "credit": "\"(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 76).jpg\" – Carlquist, Sherwin John, 1930-2021, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:(Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia)_-_DPLA_-_017921452b9384745b9d4fc090ff377f_(page_76).jpg)",
+    "text": "File:(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 76).jpg A field notebook containing handwritten notes by botanist Sher"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%28Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia%29_-_DPLA_-_c05258c1c78e1c058fcaea5786c03aa2_%28page_189%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1368,
+    "h": 2020,
+    "credit": "\"(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - c05258c1c78e1c058fcaea5786c03aa2 (page 189).jpg\" – Carlquist, Sherwin John, 1930-2021, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:(Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia)_-_DPLA_-_c05258c1c78e1c058fcaea5786c03aa2_(page_189).jpg)",
+    "text": "File:(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - c05258c1c78e1c058fcaea5786c03aa2 (page 189).jpg A field notebook containing handwritten notes by botanist She"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%28Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia%29_-_DPLA_-_017921452b9384745b9d4fc090ff377f_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1341,
+    "h": 1982,
+    "credit": "\"(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 3).jpg\" – Carlquist, Sherwin John, 1930-2021, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:(Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia)_-_DPLA_-_017921452b9384745b9d4fc090ff377f_(page_3).jpg)",
+    "text": "File:(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 3).jpg A field notebook containing handwritten notes by botanist Sherw"
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%28Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia%29_-_DPLA_-_017921452b9384745b9d4fc090ff377f_%28page_122%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1456,
+    "h": 1982,
+    "credit": "\"(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 122).jpg\" – Carlquist, Sherwin John, 1930-2021, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:(Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia)_-_DPLA_-_017921452b9384745b9d4fc090ff377f_(page_122).jpg)",
+    "text": "File:(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 122).jpg A field notebook containing handwritten notes by botanist She"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%28Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia%29_-_DPLA_-_017921452b9384745b9d4fc090ff377f_%28page_96%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1456,
+    "h": 1982,
+    "credit": "\"(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 96).jpg\" – Carlquist, Sherwin John, 1930-2021, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:(Sherwin_Carlquist_field_notebook_from_1967_expedition_to_Western_Australia)_-_DPLA_-_017921452b9384745b9d4fc090ff377f_(page_96).jpg)",
+    "text": "File:(Sherwin Carlquist field notebook from 1967 expedition to Western Australia) - DPLA - 017921452b9384745b9d4fc090ff377f (page 96).jpg A field notebook containing handwritten notes by botanist Sher"
+   }
+  ]
+ },
+ {
+  "slot": "S18",
+  "beats": "20,60",
+  "mo_ta": "Emu trên đường / sa mạc đỏ",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Emu_in_Pinnacles_desert_-_Nambung_National_Park.jpg/1920px-Emu_in_Pinnacles_desert_-_Nambung_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2592,
+    "h": 3872,
+    "credit": "\"Emu in Pinnacles desert - Nambung National Park.jpg\" – Fvanrenterghem, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Emu_in_Pinnacles_desert_-_Nambung_National_Park.jpg)",
+    "text": "File:Emu in Pinnacles desert - Nambung National Park.jpg Emu in Pinnacles desert, Nambung National Park, WA, Australia - December 2009"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Emu_in_the_Sky_over_Paranal.jpg/1920px-An_Emu_in_the_Sky_over_Paranal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "w": 2500,
-    "h": 1599,
-    "credit": "\"Male-Female suicide ratios 2015 (age-standardized).png\" – multiple, Public domain (https://commons.wikimedia.org/wiki/File:Male-Female_suicide_ratios_2015_(age-standardized).png)",
-    "text": "File:Male-Female suicide ratios 2015 (age-standardized).png Male–Female ratios of suicide rates in 2015. Data by World Health Organization (rev. April 2017): global average 1.7 : 1 is used as a refere"
-   },
-   {
-    "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Letter_from_Charles_Kingsford_Smith_regarding_visit_to_New_Zealand%2C_1932_%2849421827688%29.jpg/1920px-Letter_from_Charles_Kingsford_Smith_regarding_visit_to_New_Zealand%2C_1932_%2849421827688%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4842,
-    "h": 6082,
-    "credit": "\"Letter from Charles Kingsford Smith regarding visit to New Zealand, 1932 (49421827688).jpg\" – Archives New Zealand from New Zealand, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Letter_from_Charles_Kingsford_Smith_regarding_visit_to_New_Zealand,_1932_(49421827688).jpg)",
-    "text": "File:Letter from Charles Kingsford Smith regarding visit to New Zealand, 1932 (49421827688).jpg Pioneering Australian aviator Sir Charles Edward Kingsford Smith was born on 9 February 1897 in Queensla"
-   }
-  ]
- },
- {
-  "slot": "A19",
-  "beats": null,
-  "mo_ta": "B54/B58 nhà nông trại cũ có cối xay gió ở vùng lúa mì",
-  "candidates": []
- },
- {
-  "slot": "A20",
-  "beats": null,
-  "mo_ta": "B63 đèn dầu bàn",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Old_kerala_table_lamp.jpg/1920px-Old_kerala_table_lamp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3168,
-    "h": 4752,
-    "credit": "\"Old kerala table lamp.jpg\" – നിരക്ഷരൻ, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Old_kerala_table_lamp.jpg)",
-    "text": "File:Old kerala table lamp.jpg old kerala table (oil) lamp"
-   },
-   {
-    "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Table_with_Lamp_and_White_Vase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 790,
-    "h": 1120,
-    "credit": "\"Table with Lamp and White Vase.jpg\" – David Petrovich Shterenberg, Public domain (https://commons.wikimedia.org/wiki/File:Table_with_Lamp_and_White_Vase.jpg)",
-    "text": "File:Table with Lamp and White Vase.jpg "
+    "h": 1525,
+    "credit": "\"An Emu in the Sky over Paranal.jpg\" – ESO/Y. Beletsky, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:An_Emu_in_the_Sky_over_Paranal.jpg)",
+    "text": "File:An Emu in the Sky over Paranal.jpg Sitting atop Cerro Paranal high above the Atacama Desert in Chile, two of the Very Large Telescope's Unit Telescopes quietly bask in the starlight, observing th"
    },
    {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pieter_Claesz_-_Vanitas_with_an_oil_lamp%2C_a_pocket_watch%2C_an_open_song_book%2C_an_overturned_roemer%2C_a_gilded_covered_cup_and_sea_shells%2C_all_arranged_on_a_table_draped_with_a_green_cloth.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2918,
-    "h": 1694,
-    "credit": "\"Pieter Claesz - Vanitas with an oil lamp, a pocket watch, an open song book, an overturned roemer, a gilded covered cup and sea shells, all arranged on a table draped with a green cloth.jpg\" – Pieter Claesz, Public domain (https://commons.wikimedia.org/wiki/File:Pieter_Claesz_-_Vanitas_with_an_oil_lamp,_a_pocket_watch,_an_open_song_book,_an_overturned_roemer,_a_gilded_covered_cup_and_sea_shells,_all_arranged_on_a_table_draped_with_a_green_cloth.jpg)",
-    "text": "File:Pieter Claesz - Vanitas with an oil lamp, a pocket watch, an open song book, an overturned roemer, a gilded covered cup and sea shells, all arranged on a table draped with a green cloth.jpg Clove"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Netteplan_kadastrale_gemeente_Oosterend%2C_sectie_B1%2C_kaartnr_016103.jpg/1920px-Netteplan_kadastrale_gemeente_Oosterend%2C_sectie_B1%2C_kaartnr_016103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5984,
+    "h": 3912,
+    "credit": "\"Netteplan kadastrale gemeente Oosterend, sectie B1, kaartnr 016103.jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Netteplan_kadastrale_gemeente_Oosterend,_sectie_B1,_kaartnr_016103.jpg)",
+    "text": "File:Netteplan kadastrale gemeente Oosterend, sectie B1, kaartnr 016103.jpg Netteplan kadastrale gemeente Oosterend, sectie B1Collectienaam: Kaarten- en prentenkabinet • Commissies herziening grondbel"
    },
    {
     "so": 3,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Georg_Friedrich_Kersting_-_Young_Woman_Sewing_by_the_Light_of_a_Lamp_-_WGA12125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 842,
-    "h": 989,
-    "credit": "\"Georg Friedrich Kersting - Young Woman Sewing by the Light of a Lamp - WGA12125.jpg\" – Georg Friedrich Kersting, Public domain (https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Kersting_-_Young_Woman_Sewing_by_the_Light_of_a_Lamp_-_WGA12125.jpg)",
-    "text": "File:Georg Friedrich Kersting - Young Woman Sewing by the Light of a Lamp - WGA12125.jpg "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Plaza-_12_Monate%3B_Juni-_Erna_Vopel_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._016103.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 873,
+    "h": 879,
+    "credit": "\"Plaza- 12 Monate; Juni- Erna Vopel - LABW - Staatsarchiv Freiburg W 134 Nr. 016103.jpeg\" – Willy Pragher, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Plaza-_12_Monate;_Juni-_Erna_Vopel_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._016103.jpeg)",
+    "text": "File:Plaza- 12 Monate; Juni- Erna Vopel - LABW - Staatsarchiv Freiburg W 134 Nr. 016103.jpeg Plaza: 12 Monate; Juni: Erna Vopel"
    },
    {
     "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hor_den_Umyndiges_Rost%21.jpg/1920px-Hor_den_Umyndiges_Rost%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3448,
-    "h": 3548,
-    "credit": "\"Hor den Umyndiges Rost!.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hor_den_Umyndiges_Rost!.jpg)",
-    "text": "File:Hor den Umyndiges Rost!.jpg Hear the voice of Persons under age! — Mother, what is the Berg really? — It is a great politician, boy. — He must be fierce pride. — Why the boy ? — Well, he's always"
+    "url": "https://live.staticflickr.com/65535/54012823794_1dc762c58d_b.jpg",
+    "w": 1024,
+    "h": 968,
+    "credit": "\"Emu\" – lillysaul7733, CC0 (https://www.flickr.com/photos/201473779@N07/54012823794)",
+    "text": "Emu australia desert emu fauna native"
    },
    {
     "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Drawing%2C_Design_for_a_Surtout_de_Table_%28Centerpiece%29%2C_1780%E2%80%9390_%28CH_18542829%29.jpg/1920px-Drawing%2C_Design_for_a_Surtout_de_Table_%28Centerpiece%29%2C_1780%E2%80%9390_%28CH_18542829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3000,
-    "h": 1295,
-    "credit": "\"Drawing, Design for a Surtout de Table (Centerpiece), 1780–90 (CH 18542829).jpg\" – Unknown artistUnknown artist, Public domain (https://commons.wikimedia.org/wiki/File:Drawing,_Design_for_a_Surtout_de_Table_(Centerpiece),_1780%E2%80%9390_(CH_18542829).jpg)",
-    "text": "File:Drawing, Design for a Surtout de Table (Centerpiece), 1780–90 (CH 18542829).jpg Design for a surtout de table (table centerpiece) whose theme is the ruins of Pompeii. The table’s legs are straigh"
+    "url": "https://live.staticflickr.com/65535/53400778158_9c3774bfc0_b.jpg",
+    "w": 768,
+    "h": 1024,
+    "credit": "\"Emu Woman\" – SandwichCafe, CC BY 2.0 (https://www.flickr.com/photos/196014356@N04/53400778158)",
+    "text": "Emu Woman act australia australiancapitalterritory canberra nationalgalleryofaustralia nga"
    },
    {
     "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Drawing%2C_Design_for_a_Surtout_de_Table_%28Centerpiece%29%2C_1780%E2%80%9390_%28CH_18542829-2%29.jpg/1920px-Drawing%2C_Design_for_a_Surtout_de_Table_%28Centerpiece%29%2C_1780%E2%80%9390_%28CH_18542829-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4096,
-    "h": 1745,
-    "credit": "\"Drawing, Design for a Surtout de Table (Centerpiece), 1780–90 (CH 18542829-2).jpg\" – Unknown artistUnknown artist, Public domain (https://commons.wikimedia.org/wiki/File:Drawing,_Design_for_a_Surtout_de_Table_(Centerpiece),_1780%E2%80%9390_(CH_18542829-2).jpg)",
-    "text": "File:Drawing, Design for a Surtout de Table (Centerpiece), 1780–90 (CH 18542829-2).jpg Design for a surtout de table (table centerpiece) whose theme is the ruins of Pompeii. The table’s legs are strai"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sunset%2C_with_Geese_007_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288524329%29.jpg/1920px-Sunset%2C_with_Geese_007_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288524329%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 007 during EMU at MSU baseball game on May 10, 2023 (8524329).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_007_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8524329).jpg)",
+    "text": "File:Sunset, with Geese 007 during EMU at MSU baseball game on May 10, 2023 (8524329).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 7,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/By_Moonlight_%281917%29%2C_by_Glauco_Cambon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1890,
-    "h": 1864,
-    "credit": "\"By Moonlight (1917), by Glauco Cambon.jpg\" – Glauco Cambon, Public domain (https://commons.wikimedia.org/wiki/File:By_Moonlight_(1917),_by_Glauco_Cambon.jpg)",
-    "text": "File:By Moonlight (1917), by Glauco Cambon.jpg By Moonlight (1917), by Glauco Cambon"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sunset%2C_with_Geese_002_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288739025%29.jpg/1920px-Sunset%2C_with_Geese_002_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288739025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5203,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 002 during EMU at MSU baseball game on May 10, 2023 (8739025).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_002_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8739025).jpg)",
+    "text": "File:Sunset, with Geese 002 during EMU at MSU baseball game on May 10, 2023 (8739025).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Le_Christ_chez_Marthe_et_Marie_-_Joos_Goemaere.jpg/1920px-Le_Christ_chez_Marthe_et_Marie_-_Joos_Goemaere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5101,
-    "h": 3410,
-    "credit": "\"Le Christ chez Marthe et Marie - Joos Goemaere.jpg\" – Joos Goemare, Public domain (https://commons.wikimedia.org/wiki/File:Le_Christ_chez_Marthe_et_Marie_-_Joos_Goemaere.jpg)",
-    "text": "File:Le Christ chez Marthe et Marie - Joos Goemaere.jpg Scène religieuse dans un environnement domestique de cuisine"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Sunset%2C_with_Geese_012_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288807343%29.jpg/1920px-Sunset%2C_with_Geese_012_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288807343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 012 during EMU at MSU baseball game on May 10, 2023 (8807343).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_012_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8807343).jpg)",
+    "text": "File:Sunset, with Geese 012 during EMU at MSU baseball game on May 10, 2023 (8807343).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 9,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/C_Krohg-Trett.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1064,
-    "h": 1406,
-    "credit": "\"C Krohg-Trett.jpg\" – Christian Krohg, Public domain (https://commons.wikimedia.org/wiki/File:C_Krohg-Trett.jpg)",
-    "text": "File:C Krohg-Trett.jpg "
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Sunset%2C_with_Geese_014_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288740385%29.jpg/1920px-Sunset%2C_with_Geese_014_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288740385%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 014 during EMU at MSU baseball game on May 10, 2023 (8740385).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_014_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8740385).jpg)",
+    "text": "File:Sunset, with Geese 014 during EMU at MSU baseball game on May 10, 2023 (8740385).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kerosene_Lamp_and_glass_03.jpg/1920px-Kerosene_Lamp_and_glass_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3072,
-    "h": 4080,
-    "credit": "\"Kerosene Lamp and glass 03.jpg\" – Geossegawa, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Kerosene_Lamp_and_glass_03.jpg)",
-    "text": "File:Kerosene Lamp and glass 03.jpg Ettaala y'omukono emu ku bintu ebikozesebwa okuleeta ekitangaala mu maka yadde nga kati egenze edibizibwa oluvanyuma lw'amasanyalaze okubuna amaka mangi."
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Emu_tracks_on_salt_lake-%28closeup%29.JPG/1920px-Emu_tracks_on_salt_lake-%28closeup%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1944,
+    "h": 2592,
+    "credit": "\"Emu tracks on salt lake-(closeup).JPG\" – Papphase, Public domain (https://commons.wikimedia.org/wiki/File:Emu_tracks_on_salt_lake-(closeup).JPG)",
+    "text": "File:Emu tracks on salt lake-(closeup).JPG Closeup of Emu tracks on a salt lake in Murray Sunset NP, Victoria, Australia"
    },
    {
     "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kerosene_Lamp_and_glass_01.jpg/1920px-Kerosene_Lamp_and_glass_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3072,
-    "h": 4080,
-    "credit": "\"Kerosene Lamp and glass 01.jpg\" – Geossegawa, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Kerosene_Lamp_and_glass_01.jpg)",
-    "text": "File:Kerosene Lamp and glass 01.jpg Ettaala y'omukono emu ku bintu ebikozesebwa okuleeta ekitangaala mu maka yadde nga kati egenze edibizibwa oluvanyuma lw'amasanyalaze okubuna amaka mangi."
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sunset%2C_with_Geese_015_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%287786572%29.jpg/1920px-Sunset%2C_with_Geese_015_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%287786572%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 015 during EMU at MSU baseball game on May 10, 2023 (7786572).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_015_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(7786572).jpg)",
+    "text": "File:Sunset, with Geese 015 during EMU at MSU baseball game on May 10, 2023 (7786572).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 12,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_kerosene_lamp_produced_by_the_factory_of_Karlskrona_Lampfabrik_in_Sweden_c._1890s.jpg/1920px-A_kerosene_lamp_produced_by_the_factory_of_Karlskrona_Lampfabrik_in_Sweden_c._1890s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2775,
-    "h": 3777,
-    "credit": "\"A kerosene lamp produced by the factory of Karlskrona Lampfabrik in Sweden c. 1890s.jpg\" – Svante.tiren, CC0 (https://commons.wikimedia.org/wiki/File:A_kerosene_lamp_produced_by_the_factory_of_Karlskrona_Lampfabrik_in_Sweden_c._1890s.jpg)",
-    "text": "File:A kerosene lamp produced by the factory of Karlskrona Lampfabrik in Sweden c. 1890s.jpg A kerosene lamp produced by the factory of Karlskrona Lampfabrik in Sweden c. 1890s"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Sunset%2C_with_Geese_010_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288807193%29.jpg/1920px-Sunset%2C_with_Geese_010_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288807193%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 010 during EMU at MSU baseball game on May 10, 2023 (8807193).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_010_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8807193).jpg)",
+    "text": "File:Sunset, with Geese 010 during EMU at MSU baseball game on May 10, 2023 (8807193).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 13,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/%22kerosene_lamp_flame.jpg/1920px-%22kerosene_lamp_flame.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3120,
-    "h": 4160,
-    "credit": "\"\"kerosene lamp flame.jpg\" – Arivumathi, CC0 (https://commons.wikimedia.org/wiki/File:%22kerosene_lamp_flame.jpg)",
-    "text": "File:\"kerosene lamp flame.jpg kerosene lamp flame"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sunset%2C_with_Geese_013_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288359731%29.jpg/1920px-Sunset%2C_with_Geese_013_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288359731%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 013 during EMU at MSU baseball game on May 10, 2023 (8359731).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_013_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8359731).jpg)",
+    "text": "File:Sunset, with Geese 013 during EMU at MSU baseball game on May 10, 2023 (8359731).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 14,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kerosene-lamp-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 853,
-    "h": 1280,
-    "credit": "\"Kerosene-lamp-01.JPG\" – В. Журов (VladimirZhV), Public domain (https://commons.wikimedia.org/wiki/File:Kerosene-lamp-01.JPG)",
-    "text": "File:Kerosene-lamp-01.JPG Керосиновая лампа на стене."
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Sunset%2C_with_Geese_006_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288806828%29.jpg/1920px-Sunset%2C_with_Geese_006_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%288806828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 006 during EMU at MSU baseball game on May 10, 2023 (8806828).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_006_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(8806828).jpg)",
+    "text": "File:Sunset, with Geese 006 during EMU at MSU baseball game on May 10, 2023 (8806828).jpg Eagles @ Spartans 05102023"
    },
    {
     "so": 15,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Kerosene_lamp_%2844895829321%29.jpg/1920px-Kerosene_lamp_%2844895829321%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4203,
-    "h": 2797,
-    "credit": "\"Kerosene lamp (44895829321).jpg\" – Vladimir Fedotov from Yaroslavl, Russia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Kerosene_lamp_(44895829321).jpg)",
-    "text": "File:Kerosene lamp (44895829321).jpg Kerosene lamp"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunset%2C_with_Geese_004_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%287785212%29.jpg/1920px-Sunset%2C_with_Geese_004_during_EMU_at_MSU_baseball_game_on_May_10%2C_2023_%287785212%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5190,
+    "h": 3888,
+    "credit": "\"Sunset, with Geese 004 during EMU at MSU baseball game on May 10, 2023 (7785212).jpg\" – Joel Dinda from Mulliken, Michigan, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Sunset,_with_Geese_004_during_EMU_at_MSU_baseball_game_on_May_10,_2023_(7785212).jpg)",
+    "text": "File:Sunset, with Geese 004 during EMU at MSU baseball game on May 10, 2023 (7785212).jpg Eagles @ Spartans 05102023"
    }
   ]
  }

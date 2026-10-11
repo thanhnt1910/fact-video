@@ -1,0 +1,3 @@
+Tài khoản _1 (CF_ACCOUNT_ID / CF_API_TOKEN): ⛔ token đúng nhưng đã HẾT LƯỢT miễn phí hôm nay
+Tài khoản _2 (CF_ACCOUNT_ID_2 / CF_API_TOKEN_2): THIẾU CF_ACCOUNT_ID_2
+Tài khoản _3 (CF_ACCOUNT_ID_3 / CF_API_TOKEN_3): chưa có

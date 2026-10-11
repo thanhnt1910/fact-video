@@ -7,7 +7,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-lines = []
+import time
+lines = [time.strftime("Kiểm tra lúc %Y-%m-%d %H:%M:%S UTC", time.gmtime())]
 for suf in ("", "_2", "_3"):
     a = os.environ.get("CF_ACCOUNT_ID" + suf, "").strip()
     t = os.environ.get("CF_API_TOKEN" + suf, "").strip()

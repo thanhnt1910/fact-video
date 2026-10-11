@@ -105,6 +105,58 @@ json.dump({"done": done}, open(f"{OUT}/done.json", "w"))
 log("XONG", len(done), "/", len(JOBS))
 '''
 
+KERNEL_KLEIN = r'''
+import json, os, sys, time, subprocess, traceback, gc
+t0 = time.time()
+def log(*a):
+    print(f"[{time.time()-t0:6.0f}s]", *a, flush=True)
+os.environ["HF_HOME"] = "/tmp/hf"
+if __HFTOK__:
+    os.environ["HF_TOKEN"] = __HFTOK__
+subprocess.run([sys.executable, "-m", "pip", "uninstall", "-y", "-q", "torchao"])
+subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers", "transformers", "accelerate",
+                "sentencepiece", "protobuf"], check=True)
+try:
+    from diffusers import Flux2KleinPipeline
+except Exception:
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "git+https://github.com/huggingface/diffusers.git"], check=True)
+    from diffusers import Flux2KleinPipeline
+log("cài xong thư viện")
+import torch, numpy as np
+JOBS = json.loads(__JOBS__)
+OUT = "/kaggle/working/out"
+os.makedirs(OUT, exist_ok=True)
+log("GPU:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "KHÔNG CÓ GPU")
+def load(dt):
+    p = Flux2KleinPipeline.from_pretrained("black-forest-labs/FLUX.2-klein-4B", torch_dtype=dt)
+    p.enable_model_cpu_offload()
+    return p
+dt = torch.float16
+pipe = load(dt)
+log("tải xong FLUX.2 klein 4B")
+done = []
+for j in JOBS:
+    for attempt in range(2):
+        try:
+            t1 = time.time()
+            img = pipe(prompt=j["prompt"], width=j["w"], height=j["h"], guidance_scale=1.0, num_inference_steps=4,
+                       generator=torch.Generator("cuda").manual_seed(j.get("seed", 0))).images[0]
+            if float(np.asarray(img).mean()) < 3:
+                raise RuntimeError("ảnh đen (tràn số fp16)")
+            img.save(f"{OUT}/{j['key']}.png"); done.append(j["key"])
+            log("vẽ xong", j["key"], f"{time.time()-t1:.0f}s", str(dt))
+            break
+        except Exception as e:
+            log("LỖI", j["key"], repr(e)[:300])
+            if dt == torch.float16:   # chuyển sang bf16 rồi thử lại
+                del pipe; gc.collect(); torch.cuda.empty_cache()
+                dt = torch.bfloat16; pipe = load(dt); log("chuyển sang bf16")
+            else:
+                traceback.print_exc(); break
+json.dump({"done": done}, open(f"{OUT}/done.json", "w"))
+log("XONG", len(done), "/", len(JOBS))
+'''
+
 
 def _env():
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
@@ -124,7 +176,7 @@ def _kaggle(args, env, check=True):
     return (r.stdout or "") + (r.stderr or "")
 
 
-def draw_batch(jobs, out_dir, log=print, timeout_min=110):
+def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein"):
     """jobs: [(key, prompt, w, h)] -> {key: Path}. Ảnh lỗi thì không có trong kết quả."""
     if not jobs:
         return {}
@@ -134,7 +186,7 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110):
     (work / "k").mkdir(parents=True)
     payload = json.dumps([{"key": k, "prompt": p, "w": w, "h": h, "seed": i} for i, (k, p, w, h) in enumerate(jobs)],
                          ensure_ascii=False)
-    (work / "k" / "draw.py").write_text(KERNEL_CODE.replace("__JOBS__", repr(payload)).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
+    (work / "k" / "draw.py").write_text((KERNEL_KLEIN if model == "klein" else KERNEL_CODE).replace("__JOBS__", repr(payload)).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
     meta = {"id": f"{user}/{SLUG}", "title": SLUG, "code_file": "draw.py", "language": "python",
             "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
             "enable_tpu": False, "dataset_sources": [], "competition_sources": [], "kernel_sources": [],

@@ -66,8 +66,12 @@ PROMPT = """Bạn kiểm tra ảnh minh họa cho video kể chuyện lịch s�
 Ảnh này sẽ hiện trên màn hình trong lúc giọng đọc kể những câu sau:
 {texts}
 {kind_note}
+{title_note}
 Hãy soi ảnh và chỉ báo vấn đề có thật:
-- Ảnh KHÔNG khớp nội dung lời kể (sai người, sai nơi, sai sự việc, sai thời kỳ rõ ràng, ví dụ vật dụng hiện đại trong cảnh năm 1945).
+- Ảnh SAI rõ ràng so với lời kể: sai người (ví dụ lời kể nói về Onoda mà ảnh là người khác được giới thiệu như Onoda),
+  sai nơi, sai sự việc, sai thời kỳ (ví dụ vật dụng hiện đại trong cảnh năm 1945), hoặc dễ khiến người xem hiểu sai sự thật.
+  Ảnh BỐI CẢNH là chấp nhận được, KHÔNG phải lỗi: phong cảnh nơi xảy ra chuyện, bản đồ, hiện vật hoặc vật dụng cùng loại
+  (súng, truyền đơn, tàu...), ảnh tư liệu cùng thời kỳ minh họa không khí chung. Với loại này chỉ báo "canh_bao" nếu thật sự lạc đề.
 - Ảnh vỡ, mờ, nhòe, bị cắt mất chủ thể, có viền đen/trắng thừa, có chữ hoặc watermark, logo của trang web.
 - Nội dung nhạy cảm: thi thể, máu me, bạo lực rõ, biểu tượng phát xít.
 {ai_note}
@@ -81,14 +85,15 @@ AI_NOTE = """Đây là ẢNH MÔ PHỎNG do AI tạo (không phải ảnh thật
 - Có khuôn mặt nhìn rõ của nhân vật lịch sử có thật (không được: chỉ vẽ người quay lưng, ở xa, trong bóng tối)."""
 
 
-def ai_check(path, texts, is_ai, sid, kind):
+def ai_check(path, texts, is_ai, sid, kind, title=""):
     import review
     from PIL import Image
     small = Path(path).with_suffix(".kt.jpg")
     im = Image.open(path).convert("RGB")
     im.thumbnail((1024, 1024))
     im.save(small, quality=88)
-    prompt = PROMPT.format(sid=sid, texts="\n".join(f"- {t}" for t in texts[:6]),
+    title_note = f"Tên / nguồn của ảnh: {title}" if title else ""
+    prompt = PROMPT.format(sid=sid, texts="\n".join(f"- {t}" for t in texts[:6]), title_note=title_note,
                            kind_note="(video dài, khung ngang 16:9)" if kind == "dai" else "(video ngắn, khung dọc)",
                            ai_note=AI_NOTE if is_ai else "Đây là ảnh tư liệu thật (ảnh chụp, tranh cổ, bản đồ).")
     old = review.STAGE
@@ -138,7 +143,7 @@ def check(items, sid, kind, log=print, use_ai=True):
         issues = tech(p, kind)
         if use_ai and not any(m == "loi" for m, _ in issues):
             try:
-                issues += ai_check(p, it.get("texts", []), it.get("ai"), sid, kind)
+                issues += ai_check(p, it.get("texts", []), it.get("ai"), sid, kind, it.get("title", ""))
             except Exception as e:
                 issues.append(("canh_bao", f"chưa nhờ Gemini soi được: {str(e)[:120]}"))
         res[it["src"]] = issues

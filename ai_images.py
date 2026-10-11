@@ -115,7 +115,7 @@ def _klein(full, out, wide, seed=None):
     raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi (429/limit)")
 
 
-def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False, style=None):
+def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False, style=None, cheap=False):
     """Vẽ 1 ảnh bằng FLUX.2 klein (Cloudflare); lỗi riêng mô hình này thì thử FLUX.1 schnell.
     Hết lượt miễn phí trong ngày thì báo lỗi (429/limit) để video được hoãn sang lần chạy sau,
     KHÔNG dùng nguồn miễn phí khác (ảnh xấu, có in logo). Có sẵn file thì dùng lại (không tốn lượt)."""
@@ -125,6 +125,10 @@ def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=Fals
     if _CF_OUT["v"]:
         raise RuntimeError("Cloudflare AI hết lượt miễn phí hôm nay (429/limit)")
     full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {style or STYLE}".replace(", ,", ",")
+    if cheap:   # FLUX.1 schnell: ~60 neurons/ảnh thay vì ~1.400 của FLUX.2 klein (mức miễn phí 10.000/ngày)
+        _cloudflare(full, out, max(steps, 6))
+        log(f"     🎨 {out.name}")
+        return out
     try:
         _klein(full, out, wide, seed)
     except RuntimeError as e:

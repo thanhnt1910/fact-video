@@ -570,7 +570,9 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
             if not src:
                 continue
             if src not in seen:
-                seen[src] = {"src": src, "texts": [], "ai": False, "label": sc.get("type", "")}
+                spec = sc.get("image") if isinstance(sc.get("image"), dict) else {}
+                seen[src] = {"src": src, "texts": [], "ai": False, "label": sc.get("type", ""),
+                             "title": spec.get("credit", "")[:200]}
                 items.append(seen[src])
             seen[src]["texts"].append(re.sub(r"\[[^\]]*\]", "", sc.get("voice", "")).strip())
         res = kiem_tra_anh.check(items, script["id"], "ngan", log)

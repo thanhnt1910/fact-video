@@ -155,7 +155,8 @@ def beat_images(script, beats, work):
             key = hashlib.sha1((ai_images.STYLE_PHOTO_ID + "|" + b["mo_phong"]).encode()).hexdigest()[:16]
             f = AI_CACHE / f"mp_{key}.jpg"
             try:
-                ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO)
+                ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO,
+                                   cheap=True)
                 b["image_src"] = f.resolve().as_uri()
                 b["_ai"] = True
                 b.setdefault("fit", False)
@@ -238,8 +239,10 @@ def check_images(script, beats, log):
         src = b.get("image_src")
         if not src:
             continue
+        spec = b.get("image") if isinstance(b.get("image"), dict) else {}
         g = groups.setdefault(src, {"src": src, "texts": [], "ai": bool(b.get("_ai")), "label": b.get("label", ""),
-                                    "beats": []})
+                                    "beats": [], "title": (spec.get("credit") or (("ảnh mô phỏng: " + b["mo_phong"])
+                                                                                  if b.get("mo_phong") else ""))[:220]})
         g["texts"].append(gemini_clean(b.get("text", "")))
         g["beats"].append(b)
     items = list(groups.values())
@@ -254,8 +257,8 @@ def check_images(script, beats, log):
             f = Path(it["src"].replace("file://", ""))
             log(f"     🔁 tạo lại ảnh mô phỏng lỗi: {f.name} (lần {attempt + 1})")
             f.unlink(missing_ok=True)
-            ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO,
-                               seed=1000 + attempt)
+            ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT + f", variation {attempt + 2}", f, log=log, wide=True,
+                               style=ai_images.STYLE_PHOTO, cheap=True)
         res = kiem_tra_anh.check(items, script["id"], "dai", log)
     bad = [it for it in items if any(m == "loi" for m, _ in res.get(it["src"], []))]
     if bad and os.environ.get("FV_IMG_STRICT", "1") not in ("0", "no"):

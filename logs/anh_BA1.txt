@@ -1,5 +1,5 @@
   1 [AI] Ngày bốn tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương. Thủy thủ trên tàu Dei Gratia nhìn thấy một con tàu lạ ở phí
-      → a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, from the deck of another ship, overcast morning, the ship is a 19th-century two-masted brigantine with square sails on the front mast
+      → a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, viewed from the deck of another ship, overcast morning, the distant ship's deck is empty, completely deserted, no people at all, no crew, the ship is a 19th-century two-masted brigantine with square sails on the front mast
   2 [AI] Con tàu ấy đi lảo đảo, cánh buồm rách tả tơi, như không có ai cầm lái. Họ gọi lớn. Không ai trả lời.
       → a lone brigantine sailing erratically with torn sails on a rough grey sea, no people visible on deck, eerie, the ship is a 19th-century two-masted brigantine with square sails on the front mast
   3 [AI] Khi trèo lên boong, họ thấy hàng hóa còn nguyên, thức ăn và nước uống đủ dùng trong sáu tháng, đồ đạc cá nhân vẫn ở chỗ cũ.
@@ -27,7 +27,7 @@
  14 [=] Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ.
       → (dùng ảnh đoạn trước)
  15 [AI] Hàng trên tàu là một nghìn bảy trăm linh một thùng cồn công nghiệp, chở từ New York sang Genoa, nước Ý.
-      → rows of wooden barrels stacked in the dark hold of a 19th-century ship, lantern light
+      → rows of wooden barrels stacked high in the dark cargo hold of a 19th-century ship, a single hanging lantern, completely deserted, no people at all, no crew
  16 [AI] Ngày năm tháng mười một, con tàu rời cảng New York. Thời tiết xấu khiến nó phải neo lại vài ngày, rồi mới thật sự ra khơi.
       → a brigantine leaving New York harbor in grey November weather, small boats around, the city skyline of the 1870s behind, the ship is a 19th-century two-masted brigantine with square sails on the front mast
  17 [=] Ít ngày sau, một con tàu khác cũng rời New York, đi theo gần như cùng một hướng. Đó là tàu Dei Gratia, của thuyền trưởng David Morehouse.
@@ -37,21 +37,21 @@
  19 [=] Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste.
       → (dùng ảnh đoạn trước)
  20 [AI] Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.
-      → the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence
+      → the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence, completely deserted, no people at all, no crew
  21 [=] Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại.
       → (dùng ảnh đoạn trước)
  22 [AI] Thuyền trưởng Morehouse phải quyết định: bỏ mặc con tàu ma này, hay chia bớt người để đưa nó về cảng. Đường còn xa, mà mỗi tàu sẽ chỉ còn rấ
-      → a thoughtful 19th-century sea captain standing at the rail of his ship looking at another drifting ship, wind in his coat, dramatic sky
+      → a thoughtful bearded 19th-century sea captain standing at the rail of his ship, frowning while looking at another drifting ship, wind in his coat, dramatic sky, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
  23 [AI] Phòng thuyền trưởng vẫn còn quần áo, sách vở và đồ đạc của cả gia đình. Không có dấu hiệu đánh nhau hay cướp bóc.
       → a captain's cabin on a 19th-century ship with clothes on a bunk, books on a shelf and a small melodeon, untouched, quiet light
  24 [AI] Trong khoang có khoảng một mét nước. Nhiều, nhưng không đủ để làm con tàu chìm. Mary Celeste vẫn đi biển tốt.
-      → seawater sloshing in the dark lower hold of a wooden ship among barrels, lantern reflection
+      → seawater sloshing in the dark lower hold of a wooden ship among floating barrels, lantern reflection on the water, completely deserted, no people at all, no crew
  25 [=] Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu.
       → (dùng ảnh đoạn trước)
  26 [=] Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn.
       → (dùng ảnh đoạn trước)
  27 [AI] Chiếc xuồng cứu sinh duy nhất của tàu đã biến mất. Cùng với nó là đồng hồ hàng hải, kính lục phân và gần hết giấy tờ của con tàu.
-      → an empty wooden davit and loose ropes hanging over the side of a sailing ship where a lifeboat used to be, ocean below
+      → an empty wooden davit and loose ropes hanging over the side of a sailing ship where a lifeboat used to be, grey ocean below, completely deserted, no people at all, no crew
  28 [AI] Nghĩa là mọi người đã rời tàu bằng xuồng, và có vẻ là rời đi rất vội.
       → a small wooden lifeboat with a few silhouetted people rowing away across a vast grey ocean, seen from far away, melancholic
  29 [TL] Cuốn nhật ký hàng hải vẫn còn. Dòng cuối cùng được ghi lúc tám giờ sáng ngày hai mươi lăm tháng mười một, khi tàu đi ngang đảo Santa Maria t
@@ -61,7 +61,7 @@
  31 [TL] Thủy thủ Dei Gratia chia đôi người, lái cả hai con tàu về Gibraltar. Theo luật hàng hải, cứu được một con tàu bị bỏ lại thì được nhận một ph
       → "Aivazovsky gibraltar.jpg" – Ivan Aivazovsky, Public domain (https://commons.wikimedia.org/wiki/File:Aivazovsky_gibraltar.jpg)
  32 [AI] Nhưng tại phiên tòa, ông Frederick Solly-Flood, người đứng đầu việc thẩm vấn, lại đầy nghi ngờ.
-      → a 19th-century British colonial courtroom with wooden benches and a judge's bench, gentlemen in dark coats, solemn
+      → a 19th-century British colonial courtroom with wooden benches and a judge's bench, stern gentlemen in dark coats listening, tense hearing, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
  33 [TL] Ông cho rằng có thể thủy thủ đã uống rượu say, giết thuyền trưởng và gia đình.
       → "Mary Celeste NYTimes 1873February26.png" – Boston Post, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_NYTimes_1873Feb
  34 [=] Những vết đỏ trên boong được đem đi xét nghiệm. Kết quả: không phải máu. Thanh kiếm tìm thấy trên tàu chỉ có vết gỉ sét.
@@ -87,23 +87,23 @@
  44 [=] Năm một nghìn chín trăm mười ba, một tạp chí ở London còn đăng hồi ký của một người tự nhận là thủy thủ sống sót, kể rằng mọi người rơi xuốn
       → (dùng ảnh đoạn trước)
  45 [AI] Giả thuyết hải tặc ít được tin, vì hàng hóa và đồ đạc quý vẫn còn nguyên. Giả thuyết thủy thủ nổi loạn cũng không có bằng chứng.
-      → a closed wooden sea chest with brass fittings and a few silver coins beside it, untouched, ship cabin
+      → a closed wooden sea chest with brass fittings and a few silver coins beside it, untouched, inside a ship cabin, completely deserted, no people at all, no crew
  46 [AI] Giả thuyết được nhiều người tin nhất liên quan đến chính món hàng: cồn.
       → close-up of old oak barrels with metal hoops in a ship hold, faint vapor in lantern light
  47 [AI] Khi dỡ hàng ở Genoa, người ta phát hiện chín thùng đã rỗng. Hơi cồn rò rỉ có thể đã tích tụ trong khoang.
-      → dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty
+      → dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty, the workers look puzzled, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
  48 [AI] Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.
-      → a ship's open hatch with a faint blue flash of light inside the dark hold, startled silhouette of a captain, night
+      → a faint blue flash of light glowing from inside the open cargo hatch of a 19th-century sailing ship at night, a startled sea captain in a plain dark coat and cap stepping back from the hatch on the deck, tense, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
  49 [=] Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạ
       → (dùng ảnh đoạn trước)
  50 [AI] Một giả thuyết khác: máy bơm bị tắc, cây gậy đo nước báo sai, khiến thuyền trưởng tưởng tàu đang chìm nhanh.
       → a worried sea captain leaning over a ship's pump at dusk, waves splashing on deck
  51 [AI] Có người cho rằng một cột nước xoáy trên biển đã quét qua con tàu, làm thiết bị đo báo sai và khiến mọi người hoảng loạn.
-      → a dramatic waterspout twisting over a dark ocean near a small sailing ship, stormy clouds
+      → a dramatic waterspout twisting over a dark ocean near a small two-masted sailing ship, stormy clouds, frightened crew on deck, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
  52 [AI] Cũng có những giả thuyết về quái vật biển, mực khổng lồ, thậm chí người ngoài hành tinh. Không cái nào có bằng chứng.
       → giant octopus tentacles rising from a dark ocean around a small two-masted sailing ship at night, a legendary sea monster scene, dramatic
  53 [AI] Dù vì lý do gì, có thể họ đã xuống xuồng, buộc dây vào tàu để chờ xem chuyện gì xảy ra. Rồi gió nổi lên, dây đứt, và con tàu bỏ lại họ giữa 
-      → a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, dramatic ocean, the ship is a 19th-century two-masted brigantine with square sails on the front mast
+      → a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, the people in the lifeboat look terrified, dramatic ocean, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children, the ship is a 19th-century two-masted brigantine with square sails on the front mast
  54 [=] Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật.
       → (dùng ảnh đoạn trước)
  55 [AI] Sau vụ việc, tiếng xui của Mary Celeste càng nặng hơn. Con tàu đổi chủ liên tục, ít ai muốn làm việc trên đó.
@@ -115,7 +115,7 @@
  58 [=] Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau.
       → (dùng ảnh đoạn trước)
  59 [AI] Năm hai nghìn không trăm linh một, một đoàn thám hiểm tuyên bố đã tìm thấy xác Mary Celeste ở rạn san hô ấy. Nhưng phân tích vân gỗ cho thấy
-      → divers examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water
+      → scuba divers in modern diving suits with masks and air tanks examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water
  60 [=] Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn.
       → (dùng ảnh đoạn trước)
  61 [AI] Mười con người. Một con tàu còn nguyên vẹn. Một cuốn nhật ký dừng lại ở dòng cuối cùng.

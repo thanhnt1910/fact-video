@@ -14,6 +14,7 @@ import array
 import asyncio
 import json
 import math
+import os
 import random
 import re
 import shutil
@@ -561,6 +562,21 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
         except Exception as e:
             log(f"     ⚠️  Bỏ qua ảnh: {e}")
     mark_image_fit(script)
+    if not preview and any(sc.get("image_src") for sc in script["scenes"]):
+        import kiem_tra_anh
+        items, seen = [], {}
+        for sc in script["scenes"]:
+            src = sc.get("image_src")
+            if not src:
+                continue
+            if src not in seen:
+                seen[src] = {"src": src, "texts": [], "ai": False, "label": sc.get("type", "")}
+                items.append(seen[src])
+            seen[src]["texts"].append(re.sub(r"\[[^\]]*\]", "", sc.get("voice", "")).strip())
+        res = kiem_tra_anh.check(items, script["id"], "ngan", log)
+        bad = [it for it in items if any(m == "loi" for m, _ in res.get(it["src"], []))]
+        if bad and os.environ.get("FV_IMG_STRICT", "1") not in ("0", "no"):
+            raise RuntimeError("ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_%s_ngan_kiemtra.txt)" % script["id"])
     add_motion(script, cfg)
     scenes, subs, total = build_timeline(script, cfg, work, no_tts)
     theme = cfg["topics"][script["topic"]]
@@ -662,7 +678,7 @@ def add_motion(script, cfg):
     mc = motion.settings(cfg)
     cfg["motion"] = mc            # trang dựng hình đọc từ config
     for sc in script["scenes"]:
-        sc["fx"] = motion.pick_fx(sc) if mc["fx"] else ""
+        sc["fx"] = motion.pick_fx(sc, auto=mc.get("fx_auto", True)) if mc["fx"] else ""
     if not mc["parallax"]:
         return
     srcs = [sc for sc in script["scenes"] if sc.get("image_src")]

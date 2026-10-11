@@ -149,6 +149,20 @@ def beat_images(script, beats, work):
     quota_hit = 0
     only_kaggle = os.environ.get("AI_SOURCE", "").strip().lower() == "kaggle"
     pending = []   # [(beat, key)] chưa vẽ được trên Cloudflare
+    # ẢNH MÔ PHỎNG (đoạn không có ảnh tư liệu): phong cách ảnh chụp cũ, không vẽ mặt người thật, có nhãn "Ảnh minh họa"
+    for b in beats:
+        if b.get("mo_phong") and not b.get("image_src"):
+            key = hashlib.sha1((ai_images.STYLE_PHOTO_ID + "|" + b["mo_phong"]).encode()).hexdigest()[:16]
+            f = AI_CACHE / f"mp_{key}.jpg"
+            try:
+                ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO)
+                b["image_src"] = f.resolve().as_uri()
+                b["_ai"] = True
+                b.setdefault("fit", False)
+                used_ai = True
+            except Exception as e:
+                log(f"     ⚠️  không tạo được ảnh mô phỏng: {e}")
+                raise RuntimeError(f"thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): {e}")
     for b in beats:
         if b.get("ai") and not b.get("image_src"):
             key = hashlib.sha1((ai_images.STYLE_ID + "|" + b["ai"]).encode()).hexdigest()[:16]
@@ -159,6 +173,7 @@ def beat_images(script, beats, work):
             try:
                 f = ai_images.generate(b["ai"] + ", " + WIDE_HINT, AI_CACHE / f"{key}.jpg", log=log, wide=True)
                 b["image_src"] = f.resolve().as_uri()
+                b["_ai"] = True
                 b.setdefault("fit", False)   # tranh AI: phủ kín khung 16:9
                 used_ai = True
             except Exception as e:
@@ -193,13 +208,15 @@ def beat_images(script, beats, work):
     if quota_hit:
         # ảnh đã vẽ được vẫn lưu lại, lần chạy sau vẽ nốt
         raise RuntimeError(f"còn {quota_hit} ảnh AI chưa vẽ được (hết lượt Cloudflare, Kaggle cũng chưa vẽ được), sẽ thử lại lần chạy sau")
-    prev, prev_fit = None, None
+    prev, prev_fit, prev_ai = None, None, False
     for b in beats:
         if not b.get("image_src"):
             b["image_src"] = prev
+            b["_ai"] = prev_ai
             if prev_fit is not None:
                 b.setdefault("fit", prev_fit)
         prev = b.get("image_src") or prev
+        prev_ai = bool(b.get("_ai"))
         if b.get("image_src") and "fit" not in b:
             try:
                 w, h = Image.open(b["image_src"].replace("file://", "")).size
@@ -208,6 +225,53 @@ def beat_images(script, beats, work):
                 b["fit"] = False
         prev_fit = b.get("fit")
     return credits, used_ai
+
+
+def check_images(script, beats, log):
+    """Kiểm tra mọi ảnh trước khi đọc giọng / dựng (đỡ tốn tiền nếu ảnh hỏng).
+    Ảnh mô phỏng AI lỗi -> tự tạo lại (tối đa 2 lần). Ảnh tư liệu lỗi -> dừng, báo để đổi ảnh."""
+    import os
+    import ai_images
+    import kiem_tra_anh
+    groups = {}
+    for b in beats:
+        src = b.get("image_src")
+        if not src:
+            continue
+        g = groups.setdefault(src, {"src": src, "texts": [], "ai": bool(b.get("_ai")), "label": b.get("label", ""),
+                                    "beats": []})
+        g["texts"].append(gemini_clean(b.get("text", "")))
+        g["beats"].append(b)
+    items = list(groups.values())
+    res = kiem_tra_anh.check(items, script["id"], "dai", log)
+    for attempt in range(2):
+        redo = [it for it in items if it["ai"] and any(m == "loi" for m, _ in res.get(it["src"], []))]
+        redo = [it for it in redo if it["beats"][0].get("mo_phong")]
+        if not redo:
+            break
+        for it in redo:
+            b = it["beats"][0]
+            f = Path(it["src"].replace("file://", ""))
+            log(f"     🔁 tạo lại ảnh mô phỏng lỗi: {f.name} (lần {attempt + 1})")
+            f.unlink(missing_ok=True)
+            ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO,
+                               seed=1000 + attempt)
+        res = kiem_tra_anh.check(items, script["id"], "dai", log)
+    bad = [it for it in items if any(m == "loi" for m, _ in res.get(it["src"], []))]
+    if bad and os.environ.get("FV_IMG_STRICT", "1") not in ("0", "no"):
+        lines = []
+        for it in bad:
+            lines.append(Path(it["src"]).name + ": " + "; ".join(t for m, t in res[it["src"]] if m == "loi"))
+        raise RuntimeError("ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_%s_dai_kiemtra.txt):\n  " % script["id"]
+                           + "\n  ".join(lines))
+
+
+def gemini_clean(t):
+    try:
+        import gemini_tts
+        return gemini_tts.clean_text(t)[0]
+    except Exception:
+        return t
 
 
 # ------------------------------------------------------------------ dựng
@@ -228,7 +292,11 @@ def build(script, cfg, out_dir):
         # thiếu ảnh AI: vẫn đọc giọng trước (lưu lại), lần sau chỉ còn phải vẽ nốt ảnh
         pending, credits, used_ai = e, [], True
 
+    if pending is None:
+        check_images(script, beats_all, log)
+
     log(f"  🎙️  Giọng Gemini {voice} ({len(chapters)} chương)")
+    mcfg_auto = motion.settings(cfg).get("fx_auto", True)
     import gemini_tts
     narr = array.array("h")
     shots, cards, marks, spoken = [], [], [], []
@@ -261,7 +329,7 @@ def build(script, cfg, out_dir):
                 continue
             shots.append({"start": st, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
                           "fit": bool(beat.get("fit")), "label": beat.get("label", ""),
-                          "fx": motion.pick_fx(beat)})
+                          "fx": motion.pick_fx(beat, auto=mcfg_auto), "ai": bool(beat.get("_ai"))})
         t += (b - a) / SR
         add_silence(GAP)
         if ci == 0 and len(chapters) > 1:
@@ -355,7 +423,7 @@ def build(script, cfg, out_dir):
     lines = [f"TIÊU ĐỀ YOUTUBE: {L['title'][:95]}", "", "MÔ TẢ:", L.get("description", script.get("caption", "")), "",
              "📌 Mục lục:"] + [f"{_fmt(s)} {name}" for s, name in marks] + [
              "", " ".join("#" + h.lstrip("#") for h in script.get("hashtags", [])), "",
-             "📌 Video sử dụng giọng đọc AI" + (" và ảnh minh họa vẽ bằng AI (FLUX)." if used_ai else ".")]
+             "📌 Video sử dụng giọng đọc AI" + (" và một số ảnh minh họa tạo bằng AI (có ghi nhãn \"Ảnh minh họa\" trên hình)." if used_ai else ".")]
     short = mv._short_credits(credits)
     if short:
         lines.append("📷 Ảnh tư liệu: " + "; ".join(short) + " · nguồn Wikimedia Commons")

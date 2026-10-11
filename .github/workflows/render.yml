@@ -23,7 +23,7 @@ on:
         required: false
         default: "no"
       bo_qua_kiemtra:
-        description: "Bỏ qua bước kiểm tra kịch bản trước khi dựng (yes nếu chắc chắn lỗi báo ra không đúng)"
+        description: "Bỏ qua kiểm tra kịch bản và ảnh trước khi dựng (yes nếu chắc chắn lỗi báo ra không đúng)"
         required: false
         default: "no"
       hau_to:
@@ -111,6 +111,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           AI_SOURCE: ${{ inputs.nguon_ve }}
           FV_SKIP_PRECHECK: ${{ inputs.bo_qua_kiemtra }}
+          FV_IMG_STRICT: ${{ inputs.bo_qua_kiemtra == 'yes' && '0' || '1' }}
         run: |
           set -o pipefail
           mkdir -p logs

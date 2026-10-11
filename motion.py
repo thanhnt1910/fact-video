@@ -38,7 +38,8 @@ FX_NAMES = ("dust", "embers", "rain", "snow", "mist", "rays", "lightning", "flic
 DEFAULTS = {"parallax": True, "parallax_strength": 1.0, "fx": True, "fx_strength": 1.0,
             "dof": 0.6,              # đổi tiêu điểm theo độ sâu (0 = tắt)
             "transition": "zoom",    # "zoom" = lao vào ảnh + vệt sáng; "fade" = tan mờ như cũ
-            "light": True}           # tia nắng, chớp, lửa hắt, rung máy
+            "light": True,           # tia nắng, chớp, lửa hắt, rung máy
+            "fx_auto": True}         # False: chỉ dùng hiệu ứng ghi tay "fx" trong kịch bản
 
 
 def settings(cfg):
@@ -266,11 +267,14 @@ _MODS = [   # hiệu ứng ánh sáng / máy quay đi kèm
 ]
 
 
-def pick_fx(item, default="dust"):
-    """item: cảnh video ngắn hoặc đoạn video dài. "fx" ghi sẵn thì dùng luôn."""
+def pick_fx(item, default="dust", auto=True):
+    """item: cảnh video ngắn hoặc đoạn video dài. "fx" ghi sẵn thì dùng luôn.
+    auto=False: chỉ dùng hiệu ứng ghi tay trong kịch bản (không tự đoán)."""
     fx = item.get("fx")
     if isinstance(fx, str) and fx.strip():
         return "" if fx.strip().lower() in ("none", "off", "khong", "không") else fx.strip().lower()
+    if not auto:
+        return ""
     im = item.get("image") if isinstance(item.get("image"), dict) else {}
     text = " ".join(str(x) for x in (item.get("ai"), im.get("url"), im.get("credit"),
                                      item.get("text"), item.get("voice"), item.get("sub"))

@@ -37,7 +37,7 @@
   "music_duck": { "threshold": 0.06, "ratio": 3 },
   "sfx": { "enabled": true, "volume": 0.55, "ambience": 0.0 },
   "voice_fx": true,
-  "motion": { "parallax": false, "parallax_strength": 1.0, "fx": false, "fx_strength": 1.0, "dof": 0, "transition": "fade", "light": false },
+  "motion": { "parallax": true, "parallax_strength": 0.6, "fx": true, "fx_auto": false, "fx_strength": 0.8, "dof": 0, "transition": "fade", "light": true },
   "loudness_lufs": -14,
   "auto_prosody": true,
   "pauses": { "ellipsis": 0.38, "period": 0.16, "exclaim": 0.22, "question": 0.34, "tag": 0.5 },

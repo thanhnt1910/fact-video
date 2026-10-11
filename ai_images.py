@@ -22,6 +22,13 @@ STYLE = ("2D animated illustration in the style of a modern history explainer ca
          "dynamic composition, clean bold outlines, cel shading, warm rich colors, detailed painted background, "
          "historically accurate clothing and setting, no text, no watermark, not photorealistic, not 3D")
 STYLE_ID = "2d-v2"   # đổi khi đổi phong cách -> ảnh cũ trong bộ nhớ đệm không bị dùng lại
+# ẢNH MÔ PHỎNG (cho đoạn không có ảnh tư liệu): giống ảnh chụp cũ cùng thời, nhưng KHÔNG vẽ mặt người thật
+# nhận ra được (người quay lưng / ở xa / trong bóng tối). Trên video luôn có nhãn "Ảnh minh họa".
+STYLE_PHOTO = ("realistic historical documentary photograph, period-accurate clothing, objects and setting, "
+               "natural light, muted faded colors, slight film grain, shot on a vintage film camera, "
+               "people seen from behind, in silhouette or at a distance with faces not clearly visible, "
+               "no text, no letters, no watermark, no logo, no modern objects")
+STYLE_PHOTO_ID = "photo-v1"
 CUTOUT_HINT = ("full body, whole figure visible from head to feet, centered, isolated on a plain pure white background, "
                "no shadow, no ground, no signature")
 RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly away from the body, "
@@ -63,7 +70,7 @@ def _cloudflare(full, out, steps):
     raise RuntimeError("Cloudflare AI: thử lại nhiều lần vẫn lỗi (429/limit)")
 
 
-def _klein(full, out, wide):
+def _klein(full, out, wide, seed=None):
     """FLUX.2 klein 4B trên Cloudflare (gửi dạng multipart/form-data)."""
     import uuid
     acc = os.environ.get("CF_ACCOUNT_ID", "").strip()
@@ -72,6 +79,8 @@ def _klein(full, out, wide):
         raise RuntimeError("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")
     w, h = (1344, 768) if wide else (1024, 1024)
     fields = {"prompt": full[:2000], "width": str(w), "height": str(h)}
+    if seed is not None:
+        fields["seed"] = str(int(seed))
     bnd = uuid.uuid4().hex
     body = b"".join(f'--{bnd}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode()
                     for k, v in fields.items()) + f"--{bnd}--\r\n".encode()
@@ -117,7 +126,7 @@ def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=Fals
         raise RuntimeError("Cloudflare AI hết lượt miễn phí hôm nay (429/limit)")
     full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {style or STYLE}".replace(", ,", ",")
     try:
-        _klein(full, out, wide)
+        _klein(full, out, wide, seed)
     except RuntimeError as e:
         if _CF_OUT["v"]:
             raise

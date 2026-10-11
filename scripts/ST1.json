@@ -176,7 +176,8 @@
         "beats": [
           {
             "text": "Tháng ba năm một nghìn chín trăm bảy mươi tư. Trong khu rừng rậm trên một hòn đảo nhỏ của Philippines, một người đàn ông Nhật Bản hơn năm mươi tuổi bước ra, trên người là bộ quân phục đã vá chằng vá đụp.",
-            "ai": "a lone gaunt middle-aged soldier in a patched old WWII-era Japanese army uniform and cap stepping out of a dense tropical jungle, rifle on shoulder, seen from behind, misty morning, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old"
+            "mo_phong": "1974, a lone gaunt middle-aged Japanese soldier in a faded patched WWII khaki uniform and peaked field cap, seen entirely from behind, walking out of a dense tropical jungle on a misty morning, rifle on his shoulder, Lubang island Philippines",
+            "fx": "mist"
           },
           {
             "text": "Khẩu súng trường của ông vẫn được lau chùi sáng bóng. Đạn vẫn còn hàng trăm viên. Ông vẫn đang làm nhiệm vụ."
@@ -186,14 +187,18 @@
           },
           {
             "text": "Người ta đã báo tin cho ông. Bằng truyền đơn, bằng loa phóng thanh, bằng cả thư tay và ảnh của chính gia đình ông. Nhưng ông không tin.",
-            "ai": "hundreds of white paper leaflets fluttering down from the sky onto a dense tropical jungle canopy, a small propeller airplane far away in the sky, no people"
+            "image": {
+              "url": "https://live.staticflickr.com/65535/54328248418_f1a7aae7ba_b.jpg",
+              "credit": "\"Leaflets dropped to Japanese Forces at Aitape, New Guinea instructing them how to surrender - 1945\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/54328248418)"
+            }
           },
           {
             "text": "Người đàn ông ấy tên là Hiroo Onoda. Và đây là câu chuyện về hai mươi chín năm ông sống trong rừng, chiến đấu cho một cuộc chiến chỉ còn tồn tại trong đầu mình.",
+            "label": "Hiroo Onoda · 1922 – 2014",
             "image": {
-              "scene": 0
-            },
-            "label": "Hiroo Onoda · 1922 – 2014"
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg/1920px-Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Hiroo Onoda with councilman Gilbert Lindsay.jpg\" – Christine Maple, Los Angeles Times, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg)"
+            }
           }
         ]
       },
@@ -202,38 +207,44 @@
         "beats": [
           {
             "text": "Hiroo Onoda sinh ngày mười chín tháng ba năm một nghìn chín trăm hai mươi hai, ở tỉnh Wakayama, Nhật Bản.",
-            "ai": "a traditional Japanese village house in Wakayama in the 1920s, wooden walls, tiled roof, mountains behind, peaceful quiet morning, no people",
-            "label": "Wakayama · Nhật Bản"
+            "label": "Wakayama · Nhật Bản",
+            "mo_phong": "a quiet rural Japanese village in Wakayama prefecture in the 1920s, wooden houses with dark tiled roofs, a dirt road, green mountains behind, a few villagers far in the distance"
           },
           {
             "text": "Năm mười bảy tuổi, cậu sang Trung Quốc làm việc cho một công ty thương mại ở thành phố Vũ Hán. Cậu học tiếng Trung và làm quen với cuộc sống ở một thành phố lớn.",
-            "ai": "a young Japanese man in a dark suit standing on a wooden pier of a busy Chinese river port in 1939, wooden junk boats with brown sails, cargo crates and porters, hazy river, sepia, absolutely no text, no letters, no signs, no writing anywhere"
+            "mo_phong": "Hankou riverside bund on the Yangtze river in 1939, stone colonial-era trading company buildings, rickshaws, steamships and junks on the river, crowd far in the distance"
           },
           {
             "text": "Nhưng chiến tranh đã lan khắp châu Á. Năm một nghìn chín trăm bốn mươi hai, Onoda nhập ngũ vào quân đội Đế quốc Nhật Bản.",
-            "ai": "young Japanese army recruits in 1940s uniforms standing in rows on a parade ground, flags, overcast sky, seen from a distance"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Circa_1942_a_Group_photo_of_Japanese_military_personnel.jpg/1920px-Circa_1942_a_Group_photo_of_Japanese_military_personnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Circa 1942 a Group photo of Japanese military personnel.jpg\" – USMC Archives, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Circa_1942_a_Group_photo_of_Japanese_military_personnel.jpg)"
+            }
           },
           {
             "text": "Anh được chọn vào một ngôi trường đặc biệt: trường Nakano, nơi đào tạo sĩ quan tình báo. Ở đó, anh học cách sống sót sau phòng tuyến địch, cách do thám, ngụy trang và đánh du kích.",
-            "ai": "a 1940s military classroom with maps on the wall and young officers studying at wooden desks, dim lamp light"
+            "mo_phong": "a 1940s Japanese army officer training classroom, young officers in uniform at wooden desks studying large maps on the wall, seen from behind, dim lamp light"
           },
           {
             "text": "Ngôi trường dạy một điều khác thường. Học viên không được chết một cách vô ích. Nhiệm vụ của họ là sống sót, càng lâu càng tốt, để tiếp tục quấy rối kẻ thù."
           },
           {
             "text": "Cuối năm một nghìn chín trăm bốn mươi tư, thiếu úy Onoda, hai mươi hai tuổi, nhận lệnh đến đảo Lubang ở Philippines.",
+            "label": "Đảo Lubang · Philippines",
             "image": {
               "scene": 1
-            },
-            "label": "Đảo Lubang · Philippines"
+            }
           },
           {
             "text": "Mệnh lệnh rất rõ: phá đường băng và cầu tàu trên đảo, quấy rối quân địch bằng mọi cách. Và anh tuyệt đối không được đầu hàng, cũng không được tự sát.",
-            "ai": "a rough dirt and gravel military airstrip carved out of the jungle on a tropical island beside the sea in the 1940s, palm trees, a small wooden pier, cloudy sky, no people, no airplanes, absolutely no text, no letters, no numbers, no writing anywhere"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Japanese_airfield_on_Negros_island%2C_Philippines%2C_under_attack_by_U.S._carrier_aircraft%2C_in_mid-September_1944.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Japanese airfield on Negros island, Philippines, under attack by U.S. carrier aircraft, in mid-September 1944.jpg\" – U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:Japanese_airfield_on_Negros_island,_Philippines,_under_attack_by_U.S._carrier_aircraft,_in_mid-September_1944.jpg)"
+            }
           },
           {
             "text": "Người giao nhiệm vụ là thiếu tá Yoshimi Taniguchi. Theo lời Onoda kể lại, cấp trên đã hứa: có thể là ba năm, có thể là năm năm… nhưng dù chuyện gì xảy ra, chúng tôi sẽ quay lại đón anh.",
-            "ai": "two Japanese officers in 1940s Imperial Japanese Army uniforms facing each other in a dim wooden military hut, the older officer handing a sealed envelope to the younger one, faces half in shadow, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing"
+            "mo_phong": "1944, interior of a dim wooden military hut, a Japanese army major handing a sealed envelope to a young lieutenant, both seen from behind in silhouette against a window"
           },
           {
             "text": "Onoda ghi nhớ câu nói ấy. Ông sẽ giữ lời hứa đó suốt gần ba mươi năm."
@@ -245,31 +256,37 @@
         "beats": [
           {
             "text": "Lubang là một hòn đảo nhỏ phía tây nam thủ đô Manila. Đảo dài khoảng ba mươi cây số, phủ kín rừng rậm và đồi núi, dân cư chủ yếu là nông dân và ngư dân.",
+            "label": "Lubang · tây nam Manila",
             "image": {
               "scene": 1
-            },
-            "label": "Lubang · tây nam Manila"
+            }
           },
           {
-            "text": "Ngày hai mươi tám tháng hai năm một nghìn chín trăm bốn mươi lăm, quân Đồng minh và lực lượng Philippines đổ bộ lên đảo."
+            "text": "Ngày hai mươi tám tháng hai năm một nghìn chín trăm bốn mươi lăm, quân Đồng minh và lực lượng Philippines đổ bộ lên đảo.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Mindoro_Operations.jpg/1920px-Mindoro_Operations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Mindoro Operations.jpg\" – US-army, Public domain (https://commons.wikimedia.org/wiki/File:Mindoro_Operations.jpg)"
+            }
           },
           {
             "text": "Phần lớn lính Nhật trên đảo tử trận hoặc đầu hàng. Onoda cùng ba người lính rút sâu vào núi.",
-            "ai": "exactly four thin exhausted Japanese soldiers in single file climbing a steep jungle slope in heavy rain, count them: one, two, three, four soldiers, the Japanese soldiers wear faded patched khaki WWII Imperial Japanese Army uniforms and peaked field caps, serious mood, nobody is smiling"
+            "mo_phong": "1945, four Japanese soldiers in worn uniforms retreating up a steep jungle mountain trail in the Philippines, seen from far behind, mist between the trees",
+            "fx": "mist"
           },
           {
             "text": "Đó là binh nhì Yuichi Akatsu, hạ sĩ Shoichi Shimada và binh nhất Kinshichi Kozuka. Bốn người, một hòn đảo, và một mệnh lệnh không bao giờ đầu hàng."
           },
           {
             "text": "Họ sống bằng chuối, dừa, và gạo, gia súc lấy từ các trang trại trên đảo. Họ liên tục đổi chỗ ở để không bị phát hiện.",
-            "ai": "bananas and coconuts lying on a banana leaf placed on the muddy ground next to a blackened cooking pot over a small fire in a jungle camp, rain dripping"
+            "mo_phong": "a small hidden lean-to shelter made of palm leaves in a dense Philippine jungle, bananas and coconuts on the ground, old rifles leaning against a tree, no people, rainy season",
+            "fx": "rain"
           },
           {
             "text": "Mùa mưa, họ dựng lều bằng lá cọ và vải. Mùa khô, họ di chuyển liên tục để không để lại dấu vết."
           },
           {
             "text": "Súng được lau dầu mỗi ngày, quân phục được vá đi vá lại. Onoda tự coi mình là một sĩ quan đang làm nhiệm vụ, không phải là một kẻ trốn chạy.",
-            "ai": "hands mending a torn military jacket with needle and thread by firelight, a rifle leaning nearby, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap"
+            "mo_phong": "close-up of weathered hands cleaning an old WWII Japanese bolt-action rifle with a rag, patched khaki uniform sleeve, jungle background, no face visible"
           }
         ]
       },
@@ -278,18 +295,20 @@
         "beats": [
           {
             "text": "Tháng mười năm một nghìn chín trăm bốn mươi lăm, nhóm của Onoda thấy một tờ giấy do người dân trên đảo để lại. Trên đó viết: chiến tranh đã kết thúc ngày mười lăm tháng tám. Hãy xuống núi đi.",
-            "ai": "a weathered sheet of paper pinned with a thorn to a big tree trunk in a dark jungle, the paper has only faint illegible scribbles, morning light rays, no people"
+            "image": {
+              "scene": 2
+            }
           },
           {
             "text": "Bốn người ngồi đọc đi đọc lại. Rồi họ kết luận: đây là trò tuyên truyền của địch, để dụ họ ra khỏi rừng."
           },
           {
             "text": "Cuối năm đó, máy bay thả xuống truyền đơn in lệnh đầu hàng của tướng Yamashita, chỉ huy quân Nhật ở Philippines.",
+            "label": "Tướng Tomoyuki Yamashita · 1945",
             "image": {
-              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Japanese_War_Crimes_Trials._Manila_-_NARA_-_292613.jpg/1920px-Japanese_War_Crimes_Trials._Manila_-_NARA_-_292613.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-              "credit": "\"Japanese War Crimes Trials. Manila - NARA - 292613.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Japanese_War_Crimes_Trials._Manila_-_NARA_-_292613.jpg)"
-            },
-            "label": "Tướng Tomoyuki Yamashita · 1945"
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/General_Yamashita_Surrenders.jpg/1920px-General_Yamashita_Surrenders.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"General Yamashita Surrenders.jpg\" – NARA, College Park, MD., Public domain (https://commons.wikimedia.org/wiki/File:General_Yamashita_Surrenders.jpg)"
+            }
           },
           {
             "text": "Onoda soi từng câu chữ, thấy có những chỗ ông cho là sai cách viết của quân đội. Lại một cái bẫy nữa, ông nghĩ.",
@@ -299,21 +318,28 @@
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi hai, máy bay thả xuống thư và ảnh của chính gia đình họ, kêu gọi họ trở về.",
-            "ai": "old letters and black and white photographs of Japanese families in 1950s Japanese clothes scattered on jungle ground, envelopes, nostalgic, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Japanese_family_meal_in_1950s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Japanese family meal in 1950s.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Japanese_family_meal_in_1950s.jpg)"
+            }
           },
           {
             "text": "Họ vẫn không tin. Họ nghĩ kẻ thù đã bắt gia đình mình phải viết những lá thư ấy."
           },
           {
             "text": "Có lúc họ còn nhặt được báo, nghe được cả đài. Nhưng mọi tin tức đều được họ giải thích theo cách riêng: nước Nhật đã có chính phủ bù nhìn, còn quân đội thật vẫn đang chiến đấu ở đâu đó.",
-            "ai": "an old portable radio and a folded newspaper inside a jungle hideout lit by a small oil lamp"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Tonepet_boys_transistor_radio_ca_1950s_Made_in_Japan.jpg/1920px-Tonepet_boys_transistor_radio_ca_1950s_Made_in_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Tonepet boys transistor radio ca 1950s Made in Japan.jpg\" – R. Henrik Nilsson, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Tonepet_boys_transistor_radio_ca_1950s_Made_in_Japan.jpg)"
+            }
           },
           {
             "text": "Một học giả nghiên cứu về Nhật Bản, bà Beatrice Trefalt, sau này đặt câu hỏi: liệu Onoda có thật sự không biết, hay ông không muốn biết?"
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi chín, chính phủ Nhật Bản tuyên bố Onoda đã chết. Nhưng trong rừng sâu Lubang, ông vẫn sống, và vẫn chiến đấu.",
-            "ai": "a misty green jungle valley at dawn seen from a hilltop, a single thin column of smoke rising from the trees far away, empty landscape, no human figures at all"
+            "mo_phong": "a misty jungle ridge at dawn on a small tropical island in the Philippines, thick forest, no people",
+            "fx": "mist"
           }
         ]
       },
@@ -322,40 +348,51 @@
         "beats": [
           {
             "text": "Câu chuyện của Onoda thường được kể như một huyền thoại về lòng trung thành. Nhưng với người dân Lubang, đó là những năm tháng sống trong sợ hãi.",
-            "ai": "Filipino rural villagers in the 1960s, men in simple cotton shirts and straw hats, women in plain blouses and long skirts, standing in front of nipa huts on stilts at the edge of a jungle at dusk, looking worriedly toward the dark hills"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Carabao_in_rice_field%2C_Philippines_%28c.1917%29.jpg/1920px-Carabao_in_rice_field%2C_Philippines_%28c.1917%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Carabao in rice field, Philippines (c.1917).jpg\" – Townsend, Henry S., Public domain (https://commons.wikimedia.org/wiki/File:Carabao_in_rice_field,_Philippines_(c.1917).jpg)"
+            }
           },
           {
             "text": "Nhóm của ông đốt lúa, lấy trộm gia súc, và nhiều lần nổ súng với nông dân, cảnh sát và quân đội trên đảo."
           },
           {
-            "text": "Họ bị cáo buộc đã giết khoảng ba mươi người trên đảo. Trong cuốn hồi ký của mình, Onoda không nhắc đến những cái chết ấy.",
-            "ai": "simple wooden crosses and candles at a small village cemetery in the Philippines, solemn, soft evening light"
+            "text": "Họ bị cáo buộc đã giết khoảng ba mươi người trên đảo. Trong cuốn hồi ký của mình, Onoda không nhắc đến những cái chết ấy."
           },
           {
             "text": "Đó là mặt tối của câu chuyện, và chúng ta cần nhớ đến nó. Những nạn nhân ở Lubang cũng là nạn nhân của chiến tranh."
           },
           {
             "text": "Năm tháng trôi qua, nhóm bốn người dần tan rã. Tháng chín năm một nghìn chín trăm bốn mươi chín, Akatsu lặng lẽ bỏ đi. Mấy tháng sau, anh ra đầu hàng quân đội Philippines.",
-            "ai": "a lone soldier walking away down a jungle path, seen from behind, morning fog, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap",
-            "label": "1949 · còn lại 3 người"
+            "label": "1949 · còn lại 3 người",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Palawan_Island%2C_Tropical_rainforest%2C_Philippines.jpg/1920px-Palawan_Island%2C_Tropical_rainforest%2C_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Palawan Island, Tropical rainforest, Philippines.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Palawan_Island,_Tropical_rainforest,_Philippines.jpg)"
+            },
+            "fx": "mist"
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi tư, Shimada tử trận trong một cuộc đấu súng với binh lính Philippines.",
             "label": "1954 · còn lại 2 người",
-            "ai": "an empty jungle clearing at dusk with a broken rifle and an abandoned field cap lying in the grass, smoke drifting, sorrowful, no people, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Palawan_Island%2C_Tropical_rainforest%2C_Philippines.jpg/1920px-Palawan_Island%2C_Tropical_rainforest%2C_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Palawan Island, Tropical rainforest, Philippines.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Palawan_Island,_Tropical_rainforest,_Philippines.jpg)"
+            },
+            "fx": "rain"
           },
           {
-            "text": "Onoda và Kozuka tiếp tục thêm mười tám năm nữa. Họ đã sống cùng nhau trong rừng lâu hơn thời gian nhiều người sống trong một cuộc hôn nhân.",
-            "ai": "two aging soldiers in ragged uniforms sitting back to back keeping watch in the jungle at night, moonlight, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, both men about forty years old"
+            "text": "Onoda và Kozuka tiếp tục thêm mười tám năm nữa. Họ đã sống cùng nhau trong rừng lâu hơn thời gian nhiều người sống trong một cuộc hôn nhân."
           },
           {
             "text": "Tháng mười năm một nghìn chín trăm bảy mươi hai, Kozuka bị cảnh sát bắn chết khi cả hai đang đốt lúa của nông dân.",
             "label": "1972 · chỉ còn Onoda",
-            "ai": "a single weathered Japanese soldier about fifty years old kneeling alone at the edge of a rice field at dusk, head bowed in grief, thin smoke rising behind him, completely alone, only one person, the Japanese soldiers wear faded patched khaki WWII Imperial Japanese Army uniforms and peaked field caps"
+            "mo_phong": "a rice field on fire at dusk in the rural Philippines, smoke rising over the paddies, distant palm trees, no people",
+            "fx": "embers"
           },
           {
             "text": "Lúc này, Onoda đã năm mươi tuổi. Ông chỉ còn lại một mình, với khẩu súng, và mệnh lệnh năm xưa.",
-            "ai": "a lone weathered soldier sitting in a jungle cave entrance at night, rifle across his knees, staring into darkness, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old"
+            "mo_phong": "night in a tropical jungle, a lone gaunt soldier in a tattered uniform sitting under a large tree holding a rifle, seen from behind, rain falling",
+            "fx": "rain+lightning"
           }
         ]
       },
@@ -364,7 +401,10 @@
         "beats": [
           {
             "text": "Ở Nhật Bản, cái chết của Kozuka khiến cả nước bàng hoàng: hóa ra vẫn còn lính Nhật chiến đấu ở Lubang. Nhiều đoàn tìm kiếm được gửi sang, nhưng không ai tìm được Onoda.",
-            "ai": "a 1970s Japanese search team of serious men in khaki field clothes walking through a tropical jungle, one holding a loudspeaker, one carrying a flag on a pole, seen from a distance, serious mood, nobody is smiling, absolutely no text, no letters, no numbers, no writing anywhere"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Found_Photo_-_Japan_-_Tokyo_-_street_view_3.tif_%2834176177731%29.jpg/1920px-Found_Photo_-_Japan_-_Tokyo_-_street_view_3.tif_%2834176177731%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Found Photo - Japan - Tokyo - street view 3.tif (34176177731).jpg\" – David Pirmann, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Found_Photo_-_Japan_-_Tokyo_-_street_view_3.tif_(34176177731).jpg)"
+            }
           },
           {
             "text": "Rồi một chàng trai hai mươi tư tuổi tên là Norio Suzuki quyết định tự mình lên đường. Anh vừa bỏ học đại học, thích đi phượt khắp thế giới."
@@ -374,19 +414,18 @@
           },
           {
             "text": "Suzuki đến Lubang, dựng lều một mình trong rừng và chờ đợi. Chỉ sau bốn ngày, ngày hai mươi tháng hai năm một nghìn chín trăm bảy mươi tư, Onoda xuất hiện.",
-            "ai": "a small modern camping tent alone in a jungle clearing with a campfire at night, mysterious figure watching from the trees",
-            "label": "20/2/1974"
+            "label": "20/2/1974",
+            "mo_phong": "1974, a small camping tent pitched alone in a clearing of a Philippine jungle at dusk, a small campfire in front, no people",
+            "fx": "mist"
           },
           {
-            "text": "Onoda chĩa súng vào chàng trai trẻ. Nhưng Suzuki đã nói đúng những lời cần nói, và hai người ngồi lại trò chuyện.",
-            "ai": "an old Japanese soldier and a young Japanese man, a male backpacker in his twenties with shaggy 1970s hair, a moustache and a denim jacket sitting across a campfire in the jungle at night, talking cautiously, faces lit by the fire, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old"
+            "text": "Onoda chĩa súng vào chàng trai trẻ. Nhưng Suzuki đã nói đúng những lời cần nói, và hai người ngồi lại trò chuyện."
           },
           {
             "text": "Suzuki hỏi: vì sao ông không ra khỏi rừng? Onoda trả lời: ông chỉ hạ súng khi có lệnh từ chính cấp trên của mình."
           },
           {
-            "text": "Suzuki chụp ảnh hai người làm bằng chứng rồi trở về Nhật Bản. Bức ảnh ấy làm cả nước sửng sốt: thiếu úy Onoda vẫn còn sống.",
-            "ai": "a 1970s camera and printed photographs on a table in a newspaper office, journalists gathering in the background"
+            "text": "Suzuki chụp ảnh hai người làm bằng chứng rồi trở về Nhật Bản. Bức ảnh ấy làm cả nước sửng sốt: thiếu úy Onoda vẫn còn sống."
           }
         ]
       },
@@ -395,19 +434,19 @@
         "beats": [
           {
             "text": "Chính phủ Nhật đi tìm thiếu tá Yoshimi Taniguchi, người đã giao nhiệm vụ cho Onoda ba mươi năm trước. Lúc này, ông đã là một người bán sách.",
-            "ai": "an elderly Japanese man in a small old bookshop surrounded by stacks of books, 1970s, warm light"
+            "mo_phong": "a small old second-hand bookshop in a Japanese town in 1974, wooden shelves full of books, an elderly man seen from behind arranging books"
           },
           {
             "text": "Taniguchi bay sang Lubang. Ngày chín tháng ba năm một nghìn chín trăm bảy mươi tư, trong rừng, ông đứng trước Onoda và đọc mệnh lệnh.",
-            "ai": "an elderly Japanese man in a grey civilian suit and glasses standing in a jungle clearing reading aloud from a sheet of paper, a thin old soldier in a ragged uniform standing stiffly at attention in front of him, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old",
-            "label": "9/3/1974"
+            "label": "9/3/1974",
+            "mo_phong": "1974, a jungle clearing, an elderly Japanese man in a civilian suit reading a paper aloud to a gaunt soldier in a tattered uniform standing at attention, both seen from behind at a distance",
+            "fx": "mist"
           },
           {
             "text": "Bộ chỉ huy Phương diện quân mười bốn đã ngừng mọi hoạt động chiến đấu. Đơn vị đặc biệt được miễn mọi nhiệm vụ quân sự."
           },
           {
-            "text": "Onoda kể lại rằng ông đứng chết lặng. Mọi thứ bỗng tối sầm. Hai mươi chín năm qua, rốt cuộc là để làm gì?",
-            "ai": "an old soldier standing frozen in the jungle with his head bowed, sunlight breaking through the canopy, emotional, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, he is a thin weathered Japanese man about fifty years old"
+            "text": "Onoda kể lại rằng ông đứng chết lặng. Mọi thứ bỗng tối sầm. Hai mươi chín năm qua, rốt cuộc là để làm gì?"
           },
           {
             "text": "Ngày hôm sau, Onoda chính thức đầu hàng tại một trạm ra đa trên đảo. Ông giao nộp thanh kiếm, khẩu súng trường vẫn còn dùng được, khoảng năm trăm viên đạn, vài quả lựu đạn.",
@@ -420,14 +459,13 @@
           },
           {
             "text": "Ngày mười một tháng ba, tại dinh tổng thống ở Manila, Onoda trao thanh kiếm cho tổng thống Philippines Ferdinand Marcos. Ông được ân xá mọi tội danh trong những năm ở rừng.",
+            "label": "Manila · 11/3/1974",
             "image": {
               "scene": 0
-            },
-            "label": "Manila · 11/3/1974"
+            }
           },
           {
-            "text": "Quyết định ân xá ấy giúp Onoda được trở về nhà. Nhưng với nhiều gia đình ở Lubang, vết thương vẫn chưa bao giờ lành.",
-            "ai": "a quiet Lubang shoreline at sunset with fishing boats, bittersweet, peaceful"
+            "text": "Quyết định ân xá ấy giúp Onoda được trở về nhà. Nhưng với nhiều gia đình ở Lubang, vết thương vẫn chưa bao giờ lành."
           }
         ]
       },
@@ -436,32 +474,45 @@
         "beats": [
           {
             "text": "Onoda về Nhật Bản và được chào đón như một người hùng. Báo chí vây quanh, cuốn hồi ký của ông được xuất bản ngay trong năm đó. Nhưng chính ông lại không thích sự chú ý ấy.",
-            "ai": "a crowded 1970s Tokyo airport arrival hall with plain walls, Japanese photographers with flashing cameras surrounding a thin weathered Japanese man about fifty years old with short black hair, hollow cheeks and a tanned face, wearing a plain grey suit, he looks stiff and bewildered, no signs, absolutely no text, no letters, no numbers, no writing anywhere"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg/1920px-Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Hiroo Onoda with councilman Gilbert Lindsay.jpg\" – Christine Maple, Los Angeles Times, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg)"
+            }
           },
           {
-            "text": "Nhưng nước Nhật năm bảy mươi tư không còn là nước Nhật ông từng biết. Tàu siêu tốc, nhà cao tầng, tivi màu… Ông thấy mình lạc lõng."
+            "text": "Nhưng nước Nhật năm bảy mươi tư không còn là nước Nhật ông từng biết. Tàu siêu tốc, nhà cao tầng, tivi màu… Ông thấy mình lạc lõng.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/0_Series_Shinkansen_NRM.jpg/1920px-0_Series_Shinkansen_NRM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"0 Series Shinkansen NRM.jpg\" – FairlieGood, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:0_Series_Shinkansen_NRM.jpg)"
+            }
           },
           {
             "text": "Năm một nghìn chín trăm bảy mươi lăm, ông sang Brazil, trở thành chủ trang trại nuôi bò. Một năm sau, ông lập gia đình.",
-            "ai": "a vast cattle ranch in the Brazilian countryside at golden hour, cows grazing, a simple farmhouse",
-            "label": "Brazil · 1975"
+            "label": "Brazil · 1975",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/DSC00234_Brasil_Pantanal_Cowboys_Herding_Zebu_Cattle_on_Miranda_%2815522881708%29.jpg/1920px-DSC00234_Brasil_Pantanal_Cowboys_Herding_Zebu_Cattle_on_Miranda_%2815522881708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"DSC00234 Brasil Pantanal Cowboys Herding Zebu Cattle on Miranda (15522881708).jpg\" – dany13, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:DSC00234_Brasil_Pantanal_Cowboys_Herding_Zebu_Cattle_on_Miranda_(15522881708).jpg)"
+            }
           },
           {
             "text": "Năm một nghìn chín trăm tám mươi tư, ông trở về Nhật và mở một trại dạy kỹ năng sống ngoài thiên nhiên cho thanh thiếu niên."
           },
           {
             "text": "Năm một nghìn chín trăm chín mươi sáu, ông quay lại Lubang. Vợ ông góp mười nghìn đô la làm học bổng cho một trường học trên đảo. Nhưng hàng chục người thân của các nạn nhân đã tụ tập phản đối chuyến thăm.",
+            "label": "Lubang · 1996",
             "image": {
               "scene": 1
-            },
-            "label": "Lubang · 1996"
+            }
           },
           {
             "text": "Cuốn hồi ký của ông cũng gây tranh cãi. Người viết thuê cho cuốn sách sau này nói rằng câu chuyện đã được tô vẽ thành hình ảnh một người hùng."
           },
           {
             "text": "Hiroo Onoda qua đời ngày mười sáu tháng một năm hai nghìn không trăm mười bốn, ở Tokyo, hưởng thọ chín mươi mốt tuổi.",
-            "ai": "a quiet Japanese temple garden in winter with bare cherry trees and a stone lantern, serene"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg/1920px-Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Hiroo Onoda with councilman Gilbert Lindsay.jpg\" – Christine Maple, Los Angeles Times, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hiroo_Onoda_with_councilman_Gilbert_Lindsay.jpg)"
+            }
           },
           {
             "text": "Ông thường được gọi là người lính Nhật cuối cùng đầu hàng. Thật ra, chín tháng sau Onoda, vẫn còn một người lính khác, Teruo Nakamura, được tìm thấy trên một hòn đảo ở Indonesia."
@@ -473,7 +524,9 @@
         "beats": [
           {
             "text": "Hai mươi chín năm trong rừng. Bốn người lính, rồi chỉ còn một. Một mệnh lệnh không ai đến để thu hồi.",
-            "ai": "a single old military cap hanging on a branch in an empty jungle, light rays, symbolic"
+            "image": {
+              "scene": 6
+            }
           },
           {
             "text": "Có người xem Onoda là biểu tượng của lòng trung thành và ý chí. Có người coi ông là bằng chứng cho sự mù quáng mà chiến tranh gieo vào con người."
@@ -485,8 +538,7 @@
             }
           },
           {
-            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
-            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử."
           }
         ]
       }

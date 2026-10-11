@@ -572,7 +572,7 @@ def frames_check(script, part, mp4, frames_dir, dump, timeline=None, long_data=N
         batch = items[b:b + FRAMES_PER_CALL]
         parts = [{"text": f"""Bạn kiểm tra chất lượng hình ảnh cho video kể chuyện lịch sử "Người Gác Sử" (chuyện {sid}, {PART_NAME[part]}).
 Dưới đây là {len(batch)} khung hình chụp từ video thành phẩm, mỗi khung kèm lời đọc lúc đó.
-Ảnh là ảnh tư liệu cũ hoặc tranh minh họa AI phong cách hoạt hình 2D / tranh vẽ. Chữ và khung trang trí là của kênh.
+Ảnh là ảnh tư liệu cũ, hoặc ảnh mô phỏng do AI tạo (có nhãn "Ảnh minh họa" ở góc trên), hoặc tranh vẽ. Chữ, nhãn và khung trang trí là của kênh.
 Chữ trên hình hiện dần theo hiệu ứng, nên khung chụp có thể chưa đủ hết chữ: đừng báo thiếu chữ, chỉ báo chữ sai/tràn/che.
 Ảnh tư liệu cũ có thể mờ, ngả màu: đó là bình thường, không phải lỗi.
 
@@ -834,6 +834,17 @@ def send_telegram(reports, blocked=None):
         return
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     msgs = []
+    for f in ("ci_long_failed.txt", "ci_failed.txt"):   # dừng vì ảnh không đạt kiểm tra -> gửi danh sách ảnh lỗi
+        fp = ROOT / f
+        if not fp.exists():
+            continue
+        part = "dai" if "long" in f else "ngan"
+        for sid in [x.strip() for x in fp.read_text(encoding="utf-8").splitlines() if x.strip()]:
+            rep = ROOT / "logs" / f"anh_{sid}_{part}_kiemtra.txt"
+            if rep.exists() and ("❌" in rep.read_text(encoding="utf-8")):
+                bad = [ln for ln in rep.read_text(encoding="utf-8").splitlines() if "❌" in ln or ln.startswith("KIỂM TRA")]
+                msgs.append(("⛔ CHƯA DỰNG " + sid + f" ({PART_NAME[part]}): có ảnh không đạt kiểm tra\n" + "\n".join(bad))[:3600]
+                            + "\nĐổi ảnh trong kịch bản, hoặc chạy lại với ô 'Bỏ qua kiểm tra' = yes.")
     for sid, errs in (blocked or {}).items():
         lines = [f"⛔ CHƯA DỰNG {sid}: kịch bản có lỗi (đã kiểm tra trước khi dựng để khỏi tốn tiền)"]
         lines += [f"❌ [{x['vi_tri']}] {x['mo_ta']}" + (f"\n   → Sửa: {x['sua']}" if x.get("sua") else "") for x in errs]
@@ -894,7 +905,9 @@ def main():
             blocked = json.loads((ROOT / "ci_blocked.json").read_text(encoding="utf-8"))
         except Exception:
             blocked = {}
-    if "--telegram" in args and (reports or blocked):
+    failed_any = any((ROOT / f).exists() and (ROOT / f).read_text(encoding="utf-8").strip()
+                     for f in ("ci_long_failed.txt", "ci_failed.txt")) if "--ci" in args else False
+    if "--telegram" in args and (reports or blocked or failed_any):
         send_telegram(reports, blocked)
     # chi phí ước tính: in ra log và lưu logs/chiphi_<mã>.txt
     try:

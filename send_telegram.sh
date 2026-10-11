@@ -6,9 +6,23 @@ if [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ]; then
   exit 0
 fi
 api="https://api.telegram.org/bot${TG_TOKEN}"
+
+# Chặn gửi bản bị tự kiểm tra báo LỖI (trừ khi FORCE_SEND=yes). Trả về 0 = bị chặn.
+blocked() {
+  local f="output/$1/$1_kiemtra_$2.json"
+  [ "$FORCE_SEND" = "yes" ] && return 1
+  [ -f "$f" ] || return 1
+  python3 -c "import json,sys; sys.exit(0 if json.load(open('$f',encoding='utf-8')).get('ket_qua')=='loi' else 1)"
+}
+block_msg() {
+  curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="⛔ Chưa gửi $1 ($2) vì bản tự kiểm tra báo LỖI. Sửa kịch bản rồi dựng lại, hoặc chạy lại workflow 'Gửi Telegram' với ô 'Vẫn gửi' = yes.
+$(head -c 3000 output/$1/$1_kiemtra_$3.txt)" "$api/sendMessage"
+  echo "Bỏ qua $1 ($2): tự kiểm tra báo lỗi"
+}
 if [ -s ci_outputs.txt ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
+    if blocked "$id" ngan; then block_msg "$id" "video ngắn + bài ảnh" ngan; continue; fi
     mp4="output/$id/$id.mp4"
     cap="output/$id/${id}_caption.txt"
     text=$(head -c 950 "$cap" 2>/dev/null || echo "$id")
@@ -40,6 +54,7 @@ if [ -s ci_long.txt ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
     f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
+    if blocked "$id" dai; then block_msg "$id" "video dài" dai; continue; fi
     dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
     vb=$(python3 -c "print(max(300, int(44*8*1024/float('$dur') - 96)))")
     ffmpeg -nostdin -loglevel error -y -i "$f" -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${vb}k \

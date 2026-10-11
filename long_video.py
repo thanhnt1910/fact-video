@@ -277,6 +277,11 @@ def build(script, cfg, out_dir):
         nxt = shots[i + 1]["start"] if i + 1 < len(shots) else total
         s["dur"] = max(0.5, nxt - s["start"])
     mv.write_wav(work / "narration.wav", narr)
+    # dữ liệu thời gian cho bước tự kiểm tra (review.py): đoạn nào nói gì, ảnh nào hiện lúc nào
+    (work / "review_data.json").write_text(json.dumps({
+        "total": total, "spoken": spoken, "cards": cards,
+        "shots": [{"start": s["start"], "dur": s["dur"], "src": Path(str(s["src"])).name, "label": s.get("label", "")}
+                  for s in shots]}, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"  ⏱️  Thời lượng {_fmt(total)} · {len(shots)} cảnh ảnh")
 
     # ---- khung hình: trình duyệt vẽ lớp tĩnh + ảnh bìa, Python ghép từng khung (nhanh, chạy nhiều nhân)

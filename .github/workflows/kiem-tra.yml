@@ -1,0 +1,97 @@
+name: Tự kiểm tra lại video đã dựng
+
+# Chạy tay để kiểm tra lại video đã có trên Releases (ví dụ sau khi thêm dòng mới vào review_checklist.md).
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Mã cần kiểm tra, cách nhau dấu phẩy. SL2 = cả bộ; SL2:ngan = video ngắn + bài ảnh; SL2:dai = video dài"
+        required: true
+      chi_ky_thuat:
+        description: "Chỉ kiểm tra kỹ thuật, không gọi Gemini (yes / no)"
+        required: false
+        default: "no"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Bộ nhớ đệm kết quả kiểm tra
+        uses: actions/cache/restore@v4
+        with:
+          path: assets/tts_cache/review
+          key: fv-review-${{ github.run_id }}
+          restore-keys: fv-review-
+
+      - name: Tải video từ Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          : > targets.txt
+          for item in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
+            id="${item%%:*}"
+            mkdir -p "output/$id"
+            gh release download "video-$id" --dir "output/$id" --clobber \
+              --pattern "$id.mp4" --pattern "${id}_dai.mp4" --pattern "${id}_post*" --pattern "${id}_dai_vi.srt" \
+              || { echo "Không có Releases cho $id"; continue; }
+            echo "$item" >> targets.txt
+          done
+
+      - name: Kiểm tra
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          extra=""
+          [ "${{ inputs.chi_ky_thuat }}" = "yes" ] && extra="--no-ai"
+          python review.py $(cat targets.txt) --telegram $extra
+
+      - name: Đưa kết quả lên Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for item in $(cat targets.txt); do
+            id="${item%%:*}"
+            files=$(ls output/$id/${id}_kiemtra_* 2>/dev/null || true)
+            [ -n "$files" ] && gh release upload "video-$id" $files --clobber < /dev/null || true
+          done
+
+      - name: Lưu báo cáo vào logs/
+        run: |
+          git add logs/kiemtra_* 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Báo cáo tự kiểm tra"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+
+      - name: Lưu bộ nhớ đệm
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: assets/tts_cache/review
+          key: fv-review-${{ github.run_id }}

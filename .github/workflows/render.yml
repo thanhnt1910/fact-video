@@ -109,6 +109,16 @@ jobs:
           else ARGS=""; fi
           python ci_render.py $ARGS 2>&1 | tee logs/last-run.log
 
+      - name: Tự kiểm tra (kỹ thuật + Gemini xem lại video, ảnh, lời thoại)
+        if: always()
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          touch ci_outputs.txt ci_long.txt
+          python review.py --ci --telegram 2>&1 | tee logs/review-run.log || true
+
       - name: Ảnh xem nhanh (để kiểm tra)
         if: always()
         run: |
@@ -150,7 +160,7 @@ jobs:
             [ -f "output/$id/$id.mp4" ] || continue
             tag="video-$id"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video $id" --notes "Video ngắn, bài ảnh, video dài" < /dev/null
-            files=$(ls output/$id/$id.mp4 output/$id/${id}_thumbnail.jpg output/$id/${id}_caption.txt output/$id/${id}_post.txt output/$id/${id}_post_*.jpg output/$id/${id}_review.jpg 2>/dev/null)
+            files=$(ls output/$id/$id.mp4 output/$id/${id}_thumbnail.jpg output/$id/${id}_caption.txt output/$id/${id}_post.txt output/$id/${id}_post_*.jpg output/$id/${id}_review.jpg output/$id/${id}_kiemtra_ngan.* 2>/dev/null)
             gh release upload "$tag" $files --clobber < /dev/null
           done < ci_outputs.txt
 
@@ -165,13 +175,14 @@ jobs:
             f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
             tag="video-${id}"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video dài $id" --notes "Bản 1080p để đăng YouTube/Facebook" < /dev/null
-            extra=$(ls output/$id/${id}_dai_youtube_en.txt output/$id/${id}_dai_*.srt output/$id/${id}_dai_thumbnail_fb.jpg output/$id/${id}_dai_review.jpg 2>/dev/null || true)
+            extra=$(ls output/$id/${id}_dai_youtube_en.txt output/$id/${id}_dai_*.srt output/$id/${id}_dai_thumbnail_fb.jpg output/$id/${id}_dai_review.jpg output/$id/${id}_kiemtra_dai.* 2>/dev/null || true)
             gh release upload "$tag" "$f" "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_youtube.txt" $extra --clobber < /dev/null
           done < ci_long.txt
 
       - name: Gửi video về Telegram (chỉ khi đã duyệt)
         if: always() && inputs.send == 'yes'
         env:
+          FORCE_SEND: "no"
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: bash send_telegram.sh

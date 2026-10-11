@@ -6,6 +6,10 @@ on:
       ids:
         description: "Mã cần gửi, cách nhau dấu phẩy. SL2 = cả bộ; SL2:ngan = video ngắn + bài ảnh; SL2:dai = video dài"
         required: true
+      bo_qua_kiem_tra:
+        description: "Vẫn gửi cả khi bản tự kiểm tra báo LỖI (yes / no)"
+        required: false
+        default: "no"
 
 permissions:
   contents: read
@@ -35,4 +39,5 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FORCE_SEND: ${{ inputs.bo_qua_kiem_tra }}
         run: bash send_telegram.sh

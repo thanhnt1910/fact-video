@@ -161,3 +161,26 @@ Thêm `"image": {"query": "octopus underwater"}` vào cảnh. Khi dựng, công 
 - Chỉ định ảnh cụ thể: `"image": {"url": "https://...", "credit": "Tác giả, giấy phép"}`
 - Thông tin nguồn ảnh được ghi trong file caption. Ảnh CC BY thì dán dòng ghi nguồn vào mô tả video.
 - Tắt ảnh: `"images": false` trong `config.json`.
+
+---
+
+## 9. Tự kiểm tra trước khi gửi (`review.py`)
+
+Sau khi dựng, máy tự soi lại từng sản phẩm rồi gửi **báo cáo kiểm tra** về Telegram:
+
+| Bước | Soi gì | Công cụ |
+|---|---|---|
+| Kỹ thuật | Thời lượng, kích thước, có tiếng, màn hình đen, hình đứng im, mất giọng, độ to | ffmpeg (miễn phí) |
+| Kịch bản | Đối chiếu mục "Kiểm chứng" trong kế hoạch, số liệu khớp nhau, chính tả, nội dung cấm | Gemini đọc chữ |
+| Xem và nghe | Giọng đọc đúng từng câu (tên, số, dấu), hình đúng lời, chữ trên màn hình, chủ thể bị cắt | Gemini xem video |
+| Khung hình | Lỗi tranh AI (tay chân dị dạng, chữ méo, sai thời đại), watermark, ảnh nhạy cảm | Gemini xem ảnh rõ nét |
+| Bài ảnh | Chữ trên ảnh, chính tả bài viết, ảnh hợp câu chữ | Gemini xem ảnh |
+| Đồng bộ (video dài) | Đoạn đọc nhanh/chậm bất thường, dấu hiệu ảnh đổi lệch lời | tính toán |
+
+Kết luận: **✅ Đạt** · **⚠️ Nên xem lại** · **❌ Có lỗi**. Bản bị **❌** sẽ **không được gửi** khi chạy "Gửi Telegram"
+(muốn vẫn gửi thì đặt ô *Vẫn gửi* = `yes`). Báo cáo nằm ở `logs/kiemtra_<mã>_ngan.txt`, `logs/kiemtra_<mã>_dai.txt` và trên Releases.
+
+- **Kiểm tra lại video đã có:** Actions → *Tự kiểm tra lại video đã dựng* → nhập mã (ví dụ `SL2` hoặc `SL2:dai`).
+- **Dạy máy soi thêm:** gặp lỗi mà máy bỏ sót thì thêm một dòng vào `review_checklist.md` đúng mục. Lần sau máy kiểm tra cả điều đó.
+- **Chạy trên máy nhà:** `python review.py SL2` (cần `GEMINI_API_KEY`), hoặc `python review.py SL2 --no-ai` chỉ kiểm tra kỹ thuật.
+- Chi phí: chỉ gọi Gemini Flash để **đọc** video và ảnh (không vẽ), khoảng vài trăm đồng mỗi chuyện. Kết quả được lưu đệm nên chạy lại cùng một video không tốn thêm.

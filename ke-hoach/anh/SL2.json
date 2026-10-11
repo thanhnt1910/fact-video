@@ -2,182 +2,183 @@
  "id": "SL2",
  "slots": [
   {
-   "slot": "A01",
-   "mo_ta": "B0 xe tải quân đội Úc 1932 chở súng máy",
-   "queries": [
-    "Emu War 1932",
-    "Australian army truck 1930s",
-    "Royal Australian Artillery 1932"
-   ]
-  },
-  {
-   "slot": "A02",
-   "mo_ta": "B0/B47 ảnh thật Chiến tranh Emu",
+   "slot": "S01",
+   "beats": "0,27,36,46",
+   "mo_ta": "Quân đội / súng máy Lewis Chiến tranh Emu 1932",
    "queries": [
     "Emu War",
-    "emu war Western Australia 1932 soldiers",
-    "Campion Western Australia emu 1932"
+    "Emu War 1932",
+    "Lewis gun Australia 1930s"
    ]
   },
   {
-   "slot": "A03",
-   "mo_ta": "B5 lính Úc trở về sau Thế chiến I",
+   "slot": "S02",
+   "beats": "5",
+   "mo_ta": "Lính Úc trở về sau Thế chiến I",
    "queries": [
-    "Australian soldiers return 1919",
-    "troopship returning Australian soldiers 1919",
-    "AIF return home 1919"
+    "Australian soldiers returning 1919",
+    "returned soldiers Australia 1919 ship",
+    "AIF troops return home 1919"
    ]
   },
   {
-   "slot": "A04",
-   "mo_ta": "B6 Gallipoli / mặt trận phía Tây",
-   "queries": [
-    "Gallipoli Australian soldiers 1915",
-    "Anzac Cove 1915",
-    "Australian soldiers Western Front 1917"
-   ]
-  },
-  {
-   "slot": "A05",
-   "mo_ta": "B8 lính cũ khai hoang đất (soldier settlement)",
+   "slot": "S03",
+   "beats": "8",
+   "mo_ta": "Lính cũ khai hoang đất trồng trọt",
    "queries": [
     "soldier settlement Western Australia",
-    "clearing land Western Australia 1920s",
-    "group settlement Western Australia",
-    "land clearing axe 1920s Australia"
+    "clearing land Western Australia",
+    "group settlement Western Australia"
    ]
   },
   {
-   "slot": "A06",
-   "mo_ta": "B12 bao lúa mì chất ở ga 1930",
+   "slot": "S04",
+   "beats": "12",
+   "mo_ta": "Bao lúa mì chất đống ở ga 1930s",
    "queries": [
     "wheat bags railway siding Western Australia",
-    "wheat stacks 1930s Australia",
-    "bagged wheat railway station 1930"
+    "wheat stacks Western Australia 1930",
+    "bagged wheat Australia"
    ]
   },
   {
-   "slot": "A07",
-   "mo_ta": "B14 nông dân gặt lúa mì 1930",
+   "slot": "S05",
+   "beats": "14",
+   "mo_ta": "Nông dân thu hoạch lúa mì Tây Úc",
    "queries": [
-    "harvesting wheat Western Australia 1930",
-    "wheat harvest Australia 1920s",
-    "stripper harvester horses Australia"
+    "wheat harvest Western Australia 1930",
+    "harvesting wheat Australia 1920s",
+    "stripper harvester wheat Australia"
    ]
   },
   {
-   "slot": "A08",
-   "mo_ta": "B18 emu bố ấp trứng / trứng emu",
+   "slot": "S06",
+   "beats": "2,15,22,30,38,44,51",
+   "mo_ta": "Đàn emu ngoài tự nhiên / ruộng lúa",
+   "queries": [
+    "emu flock",
+    "emus running",
+    "emus field",
+    "emus Western Australia"
+   ]
+  },
+  {
+   "slot": "S07",
+   "beats": "18",
+   "mo_ta": "Emu bố ấp trứng",
    "queries": [
     "emu nest eggs",
     "emu eggs",
-    "emu sitting on nest"
+    "emu male incubating"
    ]
   },
   {
-   "slot": "A09",
-   "mo_ta": "B19 quốc huy Úc",
+   "slot": "S08",
+   "beats": "19",
+   "mo_ta": "Quốc huy Úc",
    "queries": [
     "Coat of arms of Australia",
     "Australian coat of arms 1912"
    ]
   },
   {
-   "slot": "A10",
-   "mo_ta": "B20/B38 đàn emu nhiều con",
+   "slot": "S09",
+   "beats": "24",
+   "mo_ta": "Nông dân họp ở hội trường vùng quê 1930s",
    "queries": [
-    "flock of emus",
-    "emus group outback",
-    "mob of emus"
+    "farmers meeting Western Australia 1930s",
+    "country hall Western Australia",
+    "wheatbelt town hall historic"
    ]
   },
   {
-   "slot": "A11",
-   "mo_ta": "B22/B44 emu trên cánh đồng lúa mì / hàng rào",
+   "slot": "S10",
+   "beats": "29,32",
+   "mo_ta": "Xe quân đội / đường đất sau mưa Tây Úc 1930s",
    "queries": [
-    "emu wheat field",
-    "emus farm fence Western Australia",
-    "emu paddock"
+    "Australian army truck 1930s",
+    "Western Australia road 1930s",
+    "muddy road Western Australia 1930"
    ]
   },
   {
-   "slot": "A12",
-   "mo_ta": "B24 nông dân họp ở hội trường làng 1930",
+   "slot": "S11",
+   "beats": "34",
+   "mo_ta": "Súng máy Lewis",
    "queries": [
-    "country hall Western Australia 1930s",
-    "farmers meeting 1930s Australia",
-    "Campion Western Australia"
+    "Lewis gun",
+    "Lewis machine gun",
+    "Lewis gun crew"
    ]
   },
   {
-   "slot": "A13",
-   "mo_ta": "B27 thiếu tá Meredith / pháo binh Úc 1930",
-   "queries": [
-    "G. P. W. Meredith",
-    "Major Meredith emu",
-    "Royal Australian Artillery 1930s"
-   ]
-  },
-  {
-   "slot": "A14",
-   "mo_ta": "B28/B34 súng máy Lewis lính Úc",
-   "queries": [
-    "Lewis gun Australian soldiers",
-    "Lewis gun crew",
-    "Lewis gun 1930s"
-   ]
-  },
-  {
-   "slot": "A15",
-   "mo_ta": "B29 đường đất lầy sau mưa ở Tây Úc",
-   "queries": [
-    "muddy road Western Australia 1930s",
-    "bogged truck 1930s Australia",
-    "outback track mud"
-   ]
-  },
-  {
-   "slot": "A16",
-   "mo_ta": "B42 báo chí / quốc hội Úc 1932",
+   "slot": "S12",
+   "beats": "42,43",
+   "mo_ta": "Quốc hội Úc / báo chí 1932",
    "queries": [
     "Parliament House Canberra 1930s",
-    "Old Parliament House Canberra 1932",
-    "emu war newspaper 1932"
+    "Provisional Parliament House 1932",
+    "Australian newspaper 1932"
    ]
   },
   {
-   "slot": "A17",
-   "mo_ta": "B49 vỏ đạn",
+   "slot": "S13",
+   "beats": "47,49",
+   "mo_ta": "Lều quân đội / vỏ đạn .303",
    "queries": [
-    ".303 cartridge cases",
-    "empty cartridge cases",
-    "303 British cartridge"
+    ".303 British cartridge",
+    "brass cartridge cases",
+    "army tent 1930s Australia"
    ]
   },
   {
-   "slot": "A18",
-   "mo_ta": "B53 Đại khủng hoảng Tây Úc / Perth 1930s",
+   "slot": "S14",
+   "beats": "53",
+   "mo_ta": "Mít tinh chính trị Tây Úc 1930s (ly khai 1933)",
    "queries": [
-    "Great Depression Western Australia",
-    "Perth 1932 crowd",
-    "unemployed march Perth 1930s"
+    "Western Australia secession 1933",
+    "secession referendum Western Australia",
+    "political meeting Perth 1930s"
    ]
   },
   {
-   "slot": "A19",
-   "mo_ta": "B54/B58 nhà nông trại cũ có cối xay gió ở vùng lúa mì",
+   "slot": "S15",
+   "beats": "54,58",
+   "mo_ta": "Nhà trại cũ vùng wheatbelt",
    "queries": [
-    "wheatbelt farmhouse windmill",
-    "old farmhouse Western Australia windmill",
-    "Western Australia wheatbelt homestead"
+    "wheatbelt farmhouse",
+    "old homestead Western Australia",
+    "windmill wheatbelt Western Australia"
    ]
   },
   {
-   "slot": "A20",
-   "mo_ta": "B63 đèn dầu bàn",
+   "slot": "S16",
+   "beats": "57",
+   "mo_ta": "Hàng rào chống emu / State Barrier Fence",
    "queries": [
-    "oil lamp table old",
-    "hurricane lantern"
+    "State Barrier Fence Western Australia",
+    "emu fence",
+    "rabbit proof fence Western Australia"
+   ]
+  },
+  {
+   "slot": "S17",
+   "beats": "0,20",
+   "mo_ta": "Bản đồ / vùng Campion Tây Úc",
+   "queries": [
+    "Campion Western Australia",
+    "Map of Western Australia 1930",
+    "Western Australia wheatbelt map"
+   ]
+  },
+  {
+   "slot": "S18",
+   "beats": "20,60",
+   "mo_ta": "Emu trên đường / sa mạc đỏ",
+   "queries": [
+    "emu outback road",
+    "emu desert",
+    "emu sunset"
    ]
   }
  ]

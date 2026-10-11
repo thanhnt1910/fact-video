@@ -5,55 +5,20 @@
 ▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
   🖼️  Ảnh cho video dài
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🎨 mp_6440fbc9586d489c.jpg
-     🎨 mp_3118971c5dab53a3.jpg
-     🎨 mp_edada4871280c991.jpg
-     🎨 mp_478af803d43dbed0.jpg
-     🎨 mp_05c4929be7e433c5.jpg
-     🎨 mp_d1efd4df08148d3a.jpg
-     🎨 mp_5ab2b5d64adf2b1f.jpg
-     🎨 mp_51d5b23b4316ba85.jpg
-     🎨 mp_e1b75c39ad7f2f44.jpg
-     🎨 mp_6baad7a1cc44bcb7.jpg
-     🎨 mp_9f8a259b4aed79e4.jpg
-     🎨 mp_cf3887dfcacccf8c.jpg
-     🎨 mp_421f9ce306ed5e37.jpg
-     🎨 mp_d0fcbb97281e08b3.jpg
-  🔍 Kiểm tra 32 ảnh: 9 ảnh lỗi, 7 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_6440fbc9586d489c.jpg (lần 1)
-     🎨 mp_6440fbc9586d489c.jpg
+     🎨 mp_a096c70907e2dccd.jpg
+     🎨 mp_d828f205f40ffc2c.jpg
+     🎨 mp_676f6479da529583.jpg
+  🔍 Kiểm tra 32 ảnh: 2 ảnh lỗi, 4 ảnh cần xem
      🔁 tạo lại ảnh mô phỏng lỗi: mp_edada4871280c991.jpg (lần 1)
      🎨 mp_edada4871280c991.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_5ab2b5d64adf2b1f.jpg (lần 1)
-     🎨 mp_5ab2b5d64adf2b1f.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_51d5b23b4316ba85.jpg (lần 1)
-     🎨 mp_51d5b23b4316ba85.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_6baad7a1cc44bcb7.jpg (lần 1)
-     🎨 mp_6baad7a1cc44bcb7.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_cf3887dfcacccf8c.jpg (lần 1)
-     🎨 mp_cf3887dfcacccf8c.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_421f9ce306ed5e37.jpg (lần 1)
-     🎨 mp_421f9ce306ed5e37.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_d0fcbb97281e08b3.jpg (lần 1)
-     🎨 mp_d0fcbb97281e08b3.jpg
-  🔍 Kiểm tra 32 ảnh: 6 ảnh lỗi, 9 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_5ab2b5d64adf2b1f.jpg (lần 2)
-     🎨 mp_5ab2b5d64adf2b1f.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_51d5b23b4316ba85.jpg (lần 2)
-     🎨 mp_51d5b23b4316ba85.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_6baad7a1cc44bcb7.jpg (lần 2)
-     🎨 mp_6baad7a1cc44bcb7.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_cf3887dfcacccf8c.jpg (lần 2)
-     🎨 mp_cf3887dfcacccf8c.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_d0fcbb97281e08b3.jpg (lần 2)
-     🎨 mp_d0fcbb97281e08b3.jpg
-  🔍 Kiểm tra 32 ảnh: 5 ảnh lỗi, 9 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_05c4929be7e433c5.jpg (lần 1)
+     🎨 mp_05c4929be7e433c5.jpg
+  🔍 Kiểm tra 32 ảnh: 1 ảnh lỗi, 4 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_05c4929be7e433c5.jpg (lần 2)
+     🎨 mp_05c4929be7e433c5.jpg
+  🔍 Kiểm tra 32 ảnh: 1 ảnh lỗi, 4 ảnh cần xem
 ❌ Video dài ST1: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST1_dai_kiemtra.txt):
-  mp_5ab2b5d64adf2b1f.jpg: Có chữ viết vô nghĩa, lai tạp trên thân cây bên trái (ký tự giống 'Dedgas' hoặc tương tự do AI tạo ra). → Xóa hoặc chỉnh sửa lại phần chữ vô nghĩa trên thân cây để tránh lỗi AI.
-  mp_51d5b23b4316ba85.jpg: Lỗi giải phẫu AI nghiêm trọng ở bàn tay trái (tay cầm phía trên khẩu súng): các ngón tay bị uốn lượn kỳ dị, thiếu tự nhiên và cấu trúc giải phẫu không chính xác. → Tạo lại ảnh AI với bàn tay cầm súng được vẽ chính xác theo giải phẫu học thực tế.
-  scene_09.jpg: Ảnh chụp một chiếc đài bán dẫn (transistor radio) nhãn hiệu Tonepet sản xuất vào khoảng thập niên 1950, trong khi câu chuyện kể về giai đoạn Thế chiến II (kết thúc năm 1945) và những năm tháng Onoda ẩn náu (ông đầu hàng năm 1974 nhưng đài trong ảnh là mẫu thập niên 50 và có thể không khớp với loại đài quân sự thời chiến). → Nên thay bằng hình ảnh hoặc tranh vẽ mô tả loại đài phát thanh quân sự thập niên 1940 mà lính Nhật từng sử dụng trong rừng.
-  mp_6baad7a1cc44bcb7.jpg: Ảnh có tỷ lệ vuông (1:1), không phù hợp với khung hình ngang 16:9 của video, và có các viền đen thừa ở xung quanh. → Cần cắt crop lại ảnh sang tỷ lệ 16:9 hoặc thay bằng ảnh có định dạng ngang chuẩn.
-  mp_d0fcbb97281e08b3.jpg: Ảnh hiển thị sai tỷ lệ khung hình (dạng dọc 1:1 hoặc gần vuông thay vì ngang 16:9 như yêu cầu cho video dài) → Tạo lại ảnh theo tỷ lệ khung hình ngang 16:9.; Khuôn mặt của người lính (nhân vật lịch sử Onoda) lộ rõ diện tích lớn và nhìn ngang, vi phạm quy tắc không được để lộ khuôn mặt rõ ràng của nhân vật lịch sử có thật. → Điều chỉnh góc máy để người lính quay hẳn lưng về phía camera hoặc ở khoảng cách xa hơn, khuất bóng.
+  mp_05c4929be7e433c5.jpg: Nhân vật bên phải (được cho là Onoda) quay mặt sang ngang, nhìn rõ khuôn mặt, vi phạm quy tắc không được thấy rõ mặt nhân vật lịch sử có thật. → Tạo lại ảnh sao cho nhân vật quay lưng hoàn toàn hoặc bóng tối che khuất hẳn khuôn mặt.
 
 Xong video ngắn: - · video dài: -
 Video dài chưa xong (sẽ thử lại lần chạy sau): ST1

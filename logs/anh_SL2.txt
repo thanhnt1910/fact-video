@@ -3,7 +3,7 @@
   2 [TL] Kẻ thù của họ không phải là quân đội nước nào. Kẻ thù là… một đàn chim.
       → "Dromaius novaehollandiae -Australia -adult with juveniles-8.jpg" – Jarrod, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_nova
   3 [AI] Một đàn chim không biết bay, nhưng chạy rất nhanh. Khoảng hai mươi nghìn con.
-      → five emus running in a line across a golden wheat field in the Australian outback seen from the side, evenly spaced apart, dust rising behind them, a much larger flock as tiny dots in the far distance, dramatic light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap
+      → four emus running across a golden wheat field in the Australian outback seen from the side, spaced far apart with big gaps between them, dust rising, many tiny emu silhouettes far away on the horizon, dramatic light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and exactly two legs, the emus are clearly separated from each other with wide gaps and never overlap
   4 [=] Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin.
       → (dùng ảnh đoạn trước)
   5 [AI] Và sau hơn một tháng, chính quân đội lại là bên phải rút lui. Báo chí gọi đó là Chiến tranh Emu. Đây là câu chuyện có thật.
@@ -15,7 +15,7 @@
   8 [TL] Chính phủ cấp đất cho họ làm nông, phần lớn ở vùng trồng lúa mì phía tây nước Úc.
       → "Wheatbelt panorama - JarrahTree.jpg" – JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Wheatbelt_panorama_-_JarrahTree.jp
   9 [AI] Nhưng nhiều mảnh đất ấy khô cằn, xa xôi, khó canh tác. Những người lính cũ phải tự tay chặt cây, dọn đất, đào giếng, dựng nhà.
-      → a former soldier clearing scrubland with an axe under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → a former soldier in an old khaki shirt swinging an axe into a dead tree trunk to clear scrubland, the axe blade bites into the tree trunk, under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s
  10 [=] Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết.
       → (dùng ảnh đoạn trước)
  11 [TL] Vùng đất ấy rộng mênh mông, mỗi trang trại cách nhau hàng cây số. Mùa hè nóng như thiêu, mưa thì thất thường.
@@ -34,7 +34,7 @@
       → "Dromaius novaehollandiae -Saarbrucker Zoo, Saarland, Germany-8a.jpg" – Conny Liegl, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Drom
  18 [TL] Emu không biết bay, nhưng chạy được tới khoảng năm mươi cây số một giờ, và có thể bơi.
       → "Emu walking.JPG" – Sklmsta, CC0 (https://commons.wikimedia.org/wiki/File:Emu_walking.JPG)
- 19 [AI] Chân emu có ba ngón, rất khỏe, một cú đá có thể gây thương tích nặng. Và đặc biệt, ở loài này, chính emu bố là người ấp trứng, suốt khoảng t
+ 19 [AI] Chân emu có ba ngón, rất khỏe, một cú đá có thể gây thương tích nặng. Và đặc biệt, ở loài này, chính emu bố ấp trứng, suốt khoảng tám tuần g
       → a male emu sitting on a nest of large dark green eggs in dry grass, patient, Australian bush, soft morning light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles
  20 [AI] Emu cũng là biểu tượng của nước Úc, có mặt trên quốc huy, bên cạnh con chuột túi.
       → an emu and a kangaroo standing side by side in the Australian bush, heraldic composition, golden light, painterly, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles
@@ -53,7 +53,7 @@
  27 [=] Ông Pearce đồng ý, với điều kiện: binh lính sẽ vận hành súng, còn nông dân lo tiền ăn ở và tiền đạn. Có ý kiến cho rằng ông coi đây là một d
       → (dùng ảnh đoạn trước)
  28 [AI] Người chỉ huy là thiếu tá Meredith, thuộc pháo binh hoàng gia Úc. Đi cùng ông là hai người lính.
-      → an Australian army major in a 1930s uniform with a peaked cap standing beside two soldiers and a truck in the outback, seen from a distance, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → an Australian army major in a 1930s officer uniform with a peaked cap standing with exactly two soldiers beside an old-fashioned 1930s army lorry with a rounded bonnet, big exposed headlamps, thin spoked wheels and an open wooden cargo bed, like a Ford Model AA in the outback, exactly three men in total, seen from a distance, Australian soldiers of 1932 in khaki uniforms and slouch hats, absolutely no text, no letters, no numbers, no license plates, no writing anywhere
  29 [TL] Vũ khí của họ: hai khẩu súng máy Lewis, và mười nghìn viên đạn.
       → "INGENIOUS ANTI-AIRCRAFT GUN. A Lewis gun for anti-aircraft purposes, Bestanddeelnr 158-1949.jpg" – Nationaal Archief, CC0 (https://commons.
  30 [AI] Những cơn mưa làm cuộc hành quân phải hoãn lại. Đến ngày hai tháng mười một, binh lính mới lên đường tới vùng Campion.
@@ -71,7 +71,7 @@
  36 [=] Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy.
       → (dùng ảnh đoạn trước)
  37 [AI] Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn
-      → a 1930s open flatbed truck bouncing over rough outback ground, a soldier in the back holding a small Lewis light machine gun and struggling to aim, not a cannon, the emus are far ahead running away, big dust cloud, comedic, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → an old-fashioned 1930s army lorry with a rounded bonnet, big exposed headlamps, thin spoked wheels and an open wooden cargo bed, like a Ford Model AA bouncing over rough outback ground seen from the side, a Lewis machine gun with a round drum magazine mounted on a metal post in the cargo bed, a soldier gripping it and struggling to aim, emus far ahead running away, big dust cloud, comedic, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and exactly two legs, the emus are clearly separated from each other with wide gaps and never overlap, Australian soldiers of 1932 in khaki uniforms and slouch hats, absolutely no text, no letters, no numbers, no license plates, no writing anywhere
  38 [=] Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu.
       → (dùng ảnh đoạn trước)
  39 [AI] Binh lính nhận thấy mỗi đàn emu dường như có một con đầu đàn đứng canh, quan sát xung quanh trong khi cả đàn ăn. Thấy người đến, cả đàn bỏ c
@@ -91,12 +91,12 @@
  46 [=] Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại.
       → (dùng ảnh đoạn trước)
  47 [AI] Ngày mười ba tháng mười một, quân đội quay trở lại. Lần này kết quả khá hơn: đến đầu tháng mười hai, mỗi tuần họ bắn được khoảng một trăm co
-      → soldiers resting beside a truck at an outback camp in the evening, mugs of tea, a machine gun covered, tired but determined, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → soldiers resting beside an old-fashioned 1930s army lorry with a rounded bonnet, big exposed headlamps, thin spoked wheels and an open wooden cargo bed, like a Ford Model AA at an outback camp in the evening, holding mugs of tea, tired but determined, Australian soldiers of 1932 in khaki uniforms and slouch hats, absolutely no text, no letters, no numbers, no license plates, no writing anywhere
  48 [AI] Ngày mười tháng mười hai, chiến dịch kết thúc. Meredith báo cáo đã bắn hạ chín trăm tám mươi sáu con emu, tốn chín nghìn tám trăm sáu mươi v
       → an army officer writing a report by lamplight in a tent, pages and a map of Western Australia, 1930s, Australian soldiers of 1932 in khaki uniforms and slouch hats
  49 [=] Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim.
       → (dùng ảnh đoạn trước)
- 50 [AI] Nghĩa là trung bình đúng mười viên đạn cho một con chim. Ông còn cho rằng khoảng hai nghìn năm trăm con khác bị thương, nhưng con số này chư
+ 50 [AI] Nghĩa là trung bình đúng mười viên đạn cho một con chim. Meredith còn cho rằng khoảng hai nghìn năm trăm con khác bị thương, nhưng con số nà
       → empty brass bullet casings scattered in red outback dust, close-up, soft evening light
  51 [TL] Chín trăm tám mươi sáu con, so với khoảng hai mươi nghìn con. Đàn emu gần như chẳng suy suyển.
       → "Dromaius novaehollandiae -Australia -adult with juveniles-8.jpg" – Jarrod, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_nova
@@ -119,7 +119,7 @@
  60 [=] Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe c
       → (dùng ảnh đoạn trước)
  61 [AI] Và là bài học về việc con người không phải lúc nào cũng thắng được thiên nhiên, kể cả khi có súng máy trong tay.
-      → a single emu walking along a dusty outback road at sunset, side view, full body visible, eucalyptus trees, peaceful, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap
+      → a single emu standing still on a dusty outback road at sunset, side view, full body visible, exactly two long legs, eucalyptus trees, peaceful, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and exactly two legs, the emus are clearly separated from each other with wide gaps and never overlap
  62 [TL] Còn loài emu? Đến nay chúng vẫn sống khỏe mạnh khắp nước Úc.
       → "HeadofEmu.jpg" – Relativity, CC0 (https://commons.wikimedia.org/wiki/File:HeadofEmu.jpg)
  63 [=] Ước tính hiện có hàng trăm nghìn con emu sống tự do. Chúng vẫn đi qua những cánh đồng lúa mì, và nông dân Úc vẫn dựng hàng rào.

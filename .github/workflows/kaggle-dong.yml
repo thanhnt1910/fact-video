@@ -1,0 +1,51 @@
+name: Thử Kaggle (tranh thành video, miễn phí)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ma:
+        description: "Mã kịch bản (vd: ST1)"
+        required: true
+        default: "ST1"
+      tranh:
+        description: "Số thứ tự tranh AI trong video dài, cách nhau dấu phẩy (vd: 0,3)"
+        required: false
+        default: "0,3"
+
+permissions:
+  contents: write
+
+jobs:
+  kaggle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 190
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow numpy requests kaggle
+      - name: Lấy tranh AI đã vẽ (bộ nhớ đệm)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            assets/tts_cache
+            assets/ai_cache
+          key: fv-gen-${{ github.run_id }}
+          restore-keys: fv-gen-
+      - name: Chạy Wan 2.2 trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python kaggle_animate.py "scripts/${{ inputs.ma }}.json" "${{ inputs.tranh }}"
+      - name: Lưu kết quả vào logs/kaggle_video
+        if: always()
+        run: |
+          git add logs/kaggle_video || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử Kaggle tranh thành video [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

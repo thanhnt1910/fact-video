@@ -1,8 +1,8 @@
-▶️  Video dài PV1: Kẻ lừa đảo đã bán tháp Eiffel như thế nào? | Victor Lustig
-     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 2 tranh trên Kaggle
-     🖥️  Gửi 2 tranh sang Kaggle (GPU miễn phí)
+▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
+     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 9 tranh trên Kaggle
+     🖥️  Gửi 9 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️   5.1 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (5 phút)
-     🖥️  Nhận về 2/2 tranh từ Kaggle
-  🖼️  Bảng duyệt ảnh: 65 đoạn, 32 tranh AI
+     🖥️   7.1 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (7 phút)
+     🖥️  Nhận về 9/9 tranh từ Kaggle
+  🖼️  Bảng duyệt ảnh: 64 đoạn, 32 tranh AI

@@ -25,7 +25,7 @@ SOURCES = ["wikimedia", "openverse"]
 
 def main():
     spec = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
-    sid = spec["id"]
+    sid = spec.get("out", spec["id"])
     OUT.mkdir(parents=True, exist_ok=True)
     allres = []
     for s in spec["slots"]:

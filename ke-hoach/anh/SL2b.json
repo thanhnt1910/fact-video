@@ -1,0 +1,80 @@
+{
+ "id": "SL2",
+ "slots": [
+  {
+   "slot": "E01",
+   "mo_ta": "emu chiến tranh ảnh gốc",
+   "queries": [
+    "Emu War soldier",
+    "Emu War Lewis gun",
+    "Emu War 1932 photograph",
+    "G. P. W. Meredith"
+   ]
+  },
+  {
+   "slot": "E02",
+   "mo_ta": "đàn emu",
+   "queries": [
+    "Dromaius novaehollandiae group",
+    "Dromaius novaehollandiae flock",
+    "Dromaius novaehollandiae running",
+    "emus grassland Australia"
+   ]
+  },
+  {
+   "slot": "E03",
+   "mo_ta": "emu con / gia đình",
+   "queries": [
+    "Dromaius novaehollandiae chicks",
+    "emu chicks father",
+    "Dromaius novaehollandiae Western Australia"
+   ]
+  },
+  {
+   "slot": "E04",
+   "mo_ta": "quốc hội Úc cũ",
+   "queries": [
+    "Old Parliament House Canberra 1927",
+    "Provisional Parliament House Canberra",
+    "House of Representatives chamber Old Parliament House"
+   ]
+  },
+  {
+   "slot": "E05",
+   "mo_ta": "xe tải 1930s",
+   "queries": [
+    "Ford Model AA truck",
+    "Australian army lorry 1930s",
+    "1930s truck Western Australia"
+   ]
+  },
+  {
+   "slot": "E06",
+   "mo_ta": "khai hoang mallee",
+   "queries": [
+    "clearing mallee Western Australia",
+    "ringbarked trees Western Australia",
+    "land clearing Western Australia 1920s"
+   ]
+  },
+  {
+   "slot": "E07",
+   "mo_ta": "hàng rào State Barrier",
+   "queries": [
+    "State Barrier Fence",
+    "Emu fence Western Australia",
+    "No. 1 Rabbit-Proof Fence"
+   ]
+  },
+  {
+   "slot": "E08",
+   "mo_ta": "ruộng lúa mì Tây Úc",
+   "queries": [
+    "wheat field Western Australia",
+    "wheatbelt Western Australia wheat",
+    "Western Australian wheatbelt farm"
+   ]
+  }
+ ],
+ "out": "SL2b"
+}

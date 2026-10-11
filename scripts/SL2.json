@@ -170,8 +170,11 @@
         "beats": [
           {
             "text": "Tháng mười một năm một nghìn chín trăm ba mươi hai, miền Tây nước Úc. Một đơn vị quân đội mang theo hai khẩu súng máy và mười nghìn viên đạn lên đường ra trận.",
-            "ai": "one plain olive 1930s army truck with no markings driving on a dusty red outback road in Western Australia, three Australian soldiers riding in it, a machine gun on a tripod in the back, wide landscape, determined faces, Australian soldiers of 1932 in khaki uniforms and slouch hats, serious mood, nobody is smiling, absolutely no text, no letters, no numbers, no writing anywhere",
-            "label": "Tây Úc · 1932"
+            "label": "Tây Úc · tháng 11/1932",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/SLNSW_9613_Rifle_and_Lewis_gun_firing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 9613 Rifle and Lewis gun firing.jpg\" – Sam Hood, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_9613_Rifle_and_Lewis_gun_firing.jpg)"
+            }
           },
           {
             "text": "Kẻ thù của họ không phải là quân đội nước nào. Kẻ thù là… một đàn chim.",
@@ -182,14 +185,18 @@
           },
           {
             "text": "Một đàn chim không biết bay, nhưng chạy rất nhanh. Khoảng hai mươi nghìn con.",
-            "ai": "four emus running across a golden wheat field in the Australian outback seen from the side, spaced far apart with big gaps between them, dust rising, many tiny emu silhouettes far away on the horizon, dramatic light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and exactly two legs, the emus are clearly separated from each other with wide gaps and never overlap"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Emus%2C_Wilsons_Promontory_National_Park.jpg/1920px-Emus%2C_Wilsons_Promontory_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Emus, Wilsons Promontory National Park.jpg\" – Eduardo Mariz from Sydney, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Emus,_Wilsons_Promontory_National_Park.jpg)"
+            },
+            "fx": "dust"
           },
           {
             "text": "Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin."
           },
           {
             "text": "Và sau hơn một tháng, chính quân đội lại là bên phải rút lui. Báo chí gọi đó là Chiến tranh Emu. Đây là câu chuyện có thật.",
-            "ai": "a deserted army camp in the Australian outback at sunset, one small canvas tent and wooden supply crates, no people, a single emu standing on the ground far away on the horizon, quiet and ironic mood, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
+            "mo_phong": "a deserted 1930s army camp in the Australian outback at sunset, one small canvas tent and wooden supply crates, no people, a single emu standing far away on the horizon, quiet and ironic mood"
           }
         ]
       },
@@ -198,10 +205,18 @@
         "beats": [
           {
             "text": "Câu chuyện bắt đầu từ sau chiến tranh thế giới thứ nhất. Hàng nghìn người lính Úc trở về nhà sau những năm tháng ở chiến trường châu Âu.",
-            "ai": "Australian soldiers in WWI uniforms and slouch hats disembarking from a ship at a harbor, families waiting, 1919, sepia, Australian soldiers of 1932 in khaki uniforms and slouch hats"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Returning_soldiers_march_past_Theatre_Royal%2C_Hindley_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Returning soldiers march past Theatre Royal, Hindley Street.jpg\" – SLSA, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Returning_soldiers_march_past_Theatre_Royal,_Hindley_Street.jpg)"
+            },
+            "label": "Úc · sau Thế chiến I"
           },
           {
-            "text": "Họ từng chiến đấu ở Gallipoli, ở mặt trận phía Tây nước Pháp. Có người trở về với thương tật, có người mang theo những ký ức không bao giờ quên."
+            "text": "Họ từng chiến đấu ở Gallipoli, ở mặt trận phía Tây nước Pháp. Có người trở về với thương tật, có người mang theo những ký ức không bao giờ quên.",
+            "image": {
+              "url": "https://live.staticflickr.com/65535/52627383659_646016ba7e_b.jpg",
+              "credit": "\"Four Australian soldiers - August 1918\" – Aussie~mobs, Public Domain (https://www.flickr.com/photos/70994841@N07/52627383659)"
+            }
           },
           {
             "text": "Chính phủ cấp đất cho họ làm nông, phần lớn ở vùng trồng lúa mì phía tây nước Úc.",
@@ -213,7 +228,7 @@
           },
           {
             "text": "Nhưng nhiều mảnh đất ấy khô cằn, xa xôi, khó canh tác. Những người lính cũ phải tự tay chặt cây, dọn đất, đào giếng, dựng nhà.",
-            "ai": "a former soldier in an old khaki shirt swinging an axe into a dead tree trunk to clear scrubland, the axe blade bites into the tree trunk, under the harsh sun of the Australian outback, a simple corrugated iron hut behind, 1920s"
+            "mo_phong": "1920s, newly cleared scrubland in the Western Australian wheatbelt, felled eucalyptus logs and tree stumps, a small corrugated iron hut, an axe stuck in a stump, no people, harsh midday sun"
           },
           {
             "text": "Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết."
@@ -240,18 +255,28 @@
           },
           {
             "text": "Nhưng tiền trợ cấp không bao giờ đến. Giá lúa mì thì cứ rơi mãi.",
-            "ai": "sacks of wheat piled unsold at a rural railway siding in the 1930s, farmers looking worried, overcast sky"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bagged_wheat_at_Saddleworth%2C_1914_%2814781858845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Bagged wheat at Saddleworth, 1914 (14781858845).jpg\" – State Library of South Australia from Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Bagged_wheat_at_Saddleworth,_1914_(14781858845).jpg)"
+            }
           },
           {
             "text": "Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần."
           },
           {
             "text": "Những người lính cũ vật lộn để giữ lấy trang trại của mình. Mỗi bao lúa mì đều quý như vàng.",
-            "ai": "a tired Australian farmer and his wife bending down to cut ripe golden wheat with sickles in a wide wheat field, tall eucalyptus gum trees in the distance, the wife wears a wide brimmed straw sun hat and a plain cotton dress, dusk light, 1930s Western Australia, hard work"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield%28GN07444%29.jpg/1920px-Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield%28GN07444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Horse Drawn Harvest in a Field Man Filling Sacks of Wheat Turretfield(GN07444).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Horse_Drawn_Harvest_in_a_Field_Man_Filling_Sacks_of_Wheat_Turretfield(GN07444).jpg)"
+            }
           },
           {
             "text": "Và đúng lúc đó, những vị khách không mời mà đến xuất hiện.",
-            "ai": "four tall emus walking one behind another out of the bush toward a wooden wheat farm fence at dawn, side view, spaced well apart, ominous, wide landscape, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Mundaring_Weir_Road_emus.jpg/1920px-Mundaring_Weir_Road_emus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Mundaring Weir Road emus.jpg\" – User:JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Mundaring_Weir_Road_emus.jpg)"
+            },
+            "fx": "mist"
           }
         ]
       },
@@ -274,22 +299,34 @@
           },
           {
             "text": "Chân emu có ba ngón, rất khỏe, một cú đá có thể gây thương tích nặng. Và đặc biệt, ở loài này, chính emu bố ấp trứng, suốt khoảng tám tuần gần như không ăn uống.",
-            "ai": "a male emu sitting on a nest of large dark green eggs in dry grass, patient, Australian bush, soft morning light, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Mareeba_Bird_Refuge_-_panoramio.jpg/1920px-Mareeba_Bird_Refuge_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Mareeba Bird Refuge - panoramio.jpg\" – Annette Teng, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Mareeba_Bird_Refuge_-_panoramio.jpg)"
+            }
           },
           {
             "text": "Emu cũng là biểu tượng của nước Úc, có mặt trên quốc huy, bên cạnh con chuột túi.",
-            "ai": "an emu and a kangaroo standing side by side in the Australian bush, heraldic composition, golden light, painterly, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Coat_of_arms_of_Australia_sculpture.jpg/1920px-Coat_of_arms_of_Australia_sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Coat of arms of Australia sculpture.jpg\" – Mertie ., CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Australia_sculpture.jpg)"
+            }
           },
           {
             "text": "Sau mùa sinh sản, từng đàn emu thường di chuyển từ vùng nội địa ra phía bờ biển để tìm thức ăn và nước.",
-            "ai": "a long procession of emus crossing a vast red desert plain toward distant green land, aerial wide view, heat haze, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Dromaius_novaehollandiae_%2828210705309%29.jpg/1920px-Dromaius_novaehollandiae_%2828210705309%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae (28210705309).jpg\" – Donald Hobern from Copenhagen, Denmark, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(28210705309).jpg)"
+            }
           },
           {
             "text": "Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc."
           },
           {
             "text": "Năm ấy, trên đường đi, chúng gặp những cánh đồng lúa mì mênh mông vừa được khai phá, cùng những bể nước mới đào. Một bữa tiệc khổng lồ.",
-            "ai": "three emus spaced far apart walking through a golden wheat field near a broken wire fence, side view, each emu shows its full head, neck and body, a farmhouse with a windmill in the background, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Emeu_%C3%A0_Carnarvon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Emeu à Carnarvon.JPG\" – Dinkum, CC0 (https://commons.wikimedia.org/wiki/File:Emeu_%C3%A0_Carnarvon.JPG)"
+            }
           },
           {
             "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào."
@@ -301,7 +338,7 @@
         "beats": [
           {
             "text": "Những người nông dân, vốn là lính cũ, nghĩ đến cách giải quyết quen thuộc nhất với họ: súng máy.",
-            "ai": "a group of 1930s farmers in hats and waistcoats meeting in a small country hall, one standing and speaking passionately, sepia"
+            "mo_phong": "1930s, interior of a small wooden country hall in Western Australia, rows of farmers in hats seen from behind listening to a man speaking at the front of the room, warm window light"
           },
           {
             "text": "Họ cử người đến gặp Bộ trưởng Quốc phòng, ông George Pearce, xin quân đội giúp đỡ.",
@@ -316,7 +353,10 @@
           },
           {
             "text": "Người chỉ huy là thiếu tá Meredith, thuộc pháo binh hoàng gia Úc. Đi cùng ông là hai người lính.",
-            "ai": "an Australian army major in a 1930s officer uniform with a peaked cap standing with exactly two soldiers beside an old-fashioned 1930s army lorry with a rounded bonnet, big exposed headlamps, thin spoked wheels and an open wooden cargo bed, like a Ford Model AA in the outback, exactly three men in total, seen from a distance, Australian soldiers of 1932 in khaki uniforms and slouch hats, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SLNSW_51625_Corporal_of_First_Field_Cadre_instructs_cadets_in_the_Lewis_gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 51625 Corporal of First Field Cadre instructs cadets in the Lewis gun.jpg\" – Hood, Ted, 1911-2000, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_51625_Corporal_of_First_Field_Cadre_instructs_cadets_in_the_Lewis_gun.jpg)"
+            }
           },
           {
             "text": "Vũ khí của họ: hai khẩu súng máy Lewis, và mười nghìn viên đạn.",
@@ -333,32 +373,45 @@
         "beats": [
           {
             "text": "Những cơn mưa làm cuộc hành quân phải hoãn lại. Đến ngày hai tháng mười một, binh lính mới lên đường tới vùng Campion.",
-            "ai": "a muddy outback track after rain with a 1930s army truck stuck and soldiers pushing it, grey sky, Western Australia, Australian soldiers of 1932 in khaki uniforms and slouch hats"
+            "mo_phong": "1932, a muddy dirt track in the Western Australian wheatbelt after heavy rain, an old 1930s truck with an open wooden cargo bed stuck in the mud, seen from behind, puddles, grey stormy sky, no people",
+            "fx": "rain"
           },
           {
             "text": "Họ thấy khoảng năm mươi con emu. Nhưng đàn chim ở quá xa tầm bắn. Nông dân thử lùa chúng lại gần, thì đàn emu chia thành từng nhóm nhỏ, chạy tán loạn.",
-            "ai": "four emus running fast across dry outback scrubland seen from the side, spaced apart, long strides, dust clouds, soldiers small in the far background, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Dromaius_novaehollandiae_%2839958339552%29.jpg/1920px-Dromaius_novaehollandiae_%2839958339552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae (39958339552).jpg\" – Donald Hobern from Copenhagen, Denmark, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(39958339552).jpg)"
+            },
+            "fx": "dust"
           },
           {
             "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn."
           },
           {
             "text": "Ngày bốn tháng mười một, thiếu tá Meredith đặt một trận phục kích gần một con đập nước, nơi đàn emu thường đến uống.",
-            "ai": "soldiers hiding behind bushes near a small farm dam with a machine gun on a tripod, three emus walking toward the water in a single file, spaced apart, tense, dawn, Australian soldiers of 1932 in khaki uniforms and slouch hats, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap"
+            "mo_phong": "1932, dawn at a small farm dam in the Western Australian wheatbelt, a Lewis machine gun on a bipod hidden behind low bushes in the foreground, no people, three emus walking toward the water far in the distance",
+            "fx": "mist"
           },
           {
             "text": "Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng."
           },
           {
             "text": "Hơn một nghìn con emu tiến lại gần. Khẩu súng bắt đầu nổ. Nhưng chỉ sau mười mấy con trúng đạn… khẩu súng bị kẹt.",
-            "ai": "a frustrated soldier kneeling behind a Lewis light machine gun on a bipod, tugging at the jammed gun, in the far background four emus running away in a line, spaced well apart, each with one head, outback, comedic tension, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap, Australian soldiers of 1932 in khaki uniforms and slouch hats"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Lewis_gun_drill.jpg/1920px-Lewis_gun_drill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Lewis gun drill.jpg\" – Australian official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Lewis_gun_drill.jpg)"
+            }
           },
           {
             "text": "Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy."
           },
           {
             "text": "Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn.",
-            "ai": "an old-fashioned 1930s army lorry with a rounded bonnet, big exposed headlamps, thin spoked wheels and an open wooden cargo bed, like a Ford Model AA bouncing over rough outback ground seen from the side, a Lewis machine gun with a round drum magazine mounted on a metal post in the cargo bed, a soldier gripping it and struggling to aim, emus far ahead running away, big dust cloud, comedic, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and exactly two legs, the emus are clearly separated from each other with wide gaps and never overlap, Australian soldiers of 1932 in khaki uniforms and slouch hats, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/1932_full_J_%26_W_Bateman_truck_pioneer_suppliers.jpg/1920px-1932_full_J_%26_W_Bateman_truck_pioneer_suppliers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"1932 full J & W Bateman truck pioneer suppliers.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1932_full_J_%26_W_Bateman_truck_pioneer_suppliers.jpg)"
+            },
+            "fx": "dust"
           },
           {
             "text": "Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu."
@@ -370,21 +423,30 @@
         "beats": [
           {
             "text": "Binh lính nhận thấy mỗi đàn emu dường như có một con đầu đàn đứng canh, quan sát xung quanh trong khi cả đàn ăn. Thấy người đến, cả đàn bỏ chạy.",
-            "ai": "a single tall emu standing alert on a small rise watching over a flock feeding in a wheat field, like a sentry, late afternoon, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Dromaius_novaehollandiae%2C_Carrathool%2C_NSW_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Dromaius novaehollandiae, Carrathool, NSW 1.jpg\" – Karl Baron from Malmö, Sweden, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae,_Carrathool,_NSW_1.jpg)"
+            }
           },
           {
             "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng."
           },
           {
             "text": "Còn thiếu tá Meredith thì than rằng loài chim này có thể đối mặt với súng máy, cứng cỏi như những chiếc xe tăng.",
-            "ai": "a big emu standing defiantly facing the viewer in the outback, low angle, heroic and humorous, dust in the air, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Flickr_-_aussiegall_-_Having_a_bad_hair_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Flickr - aussiegall - Having a bad hair day.jpg\" – Louise Docker from sydney, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flickr_-_aussiegall_-_Having_a_bad_hair_day.jpg)"
+            }
           },
           {
             "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới."
           },
           {
             "text": "Báo chí đưa tin chế giễu. Quốc hội đem chuyện này ra bàn. Ngày tám tháng mười một, chỉ sau một tuần, Bộ trưởng Pearce ra lệnh rút quân.",
-            "ai": "a pile of 1930s newspapers on a wooden desk in a government office, a stern politician in a 1930s suit reading one newspaper and frowning, a telephone and a lamp, no animals, newspaper text too small to read, sepia tones"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/SLNSW_7409_Lyons_congratulates_Bell_Speaker_of_the_House_of_Representatives_first_session_of_the_Fourteenth_Parliament.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 7409 Lyons congratulates Bell Speaker of the House of Representatives first session of the Fourteenth Parliament.jpg\" – Sam Hood, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_7409_Lyons_congratulates_Bell_Speaker_of_the_House_of_Representatives_first_session_of_the_Fourteenth_Parliament.jpg)"
+            }
           },
           {
             "text": "Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không."
@@ -396,25 +458,30 @@
         "beats": [
           {
             "text": "Nhưng đàn emu vẫn ở lại. Hạn hán khiến tình hình càng tồi tệ, và nông dân lại kêu cứu.",
-            "ai": "a parched wheat field under a blazing sun with three emus wandering through spaced apart, a desperate farmer watching from his fence, 1930s, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap"
+            "mo_phong": "1932, a parched cracked wheat field under a blazing sun in the Western Australian wheatbelt, a wire fence, heat haze, three emus wandering far away in the distance, no people",
+            "fx": "dust"
           },
           {
             "text": "Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại."
           },
           {
             "text": "Ngày mười ba tháng mười một, quân đội quay trở lại. Lần này kết quả khá hơn: đến đầu tháng mười hai, mỗi tuần họ bắn được khoảng một trăm con.",
-            "ai": "soldiers resting beside an old-fashioned 1930s army lorry with a rounded bonnet, big exposed headlamps, thin spoked wheels and an open wooden cargo bed, like a Ford Model AA at an outback camp in the evening, holding mugs of tea, tired but determined, Australian soldiers of 1932 in khaki uniforms and slouch hats, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
+            "mo_phong": "1932, evening at a small army camp in the Western Australian outback, an old 1930s truck with an open wooden cargo bed, a canvas tent and a campfire, three soldiers in slouch hats sitting far away seen from behind",
+            "fx": "embers"
           },
           {
             "text": "Ngày mười tháng mười hai, chiến dịch kết thúc. Meredith báo cáo đã bắn hạ chín trăm tám mươi sáu con emu, tốn chín nghìn tám trăm sáu mươi viên đạn.",
-            "ai": "an army officer writing a report by lamplight in a tent, pages and a map of Western Australia, 1930s, Australian soldiers of 1932 in khaki uniforms and slouch hats"
+            "mo_phong": "1932, still life inside an army canvas tent at night, an oil lamp on a wooden folding table, blank paper pages, a pencil, a folded map and a slouch hat, no people"
           },
           {
             "text": "Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim."
           },
           {
             "text": "Nghĩa là trung bình đúng mười viên đạn cho một con chim. Meredith còn cho rằng khoảng hai nghìn năm trăm con khác bị thương, nhưng con số này chưa từng được kiểm chứng.",
-            "ai": "empty brass bullet casings scattered in red outback dust, close-up, soft evening light"
+            "image": {
+              "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJidWxsZXRzX2FtbW9fYW1tdW5pdGlvbl9icmFzcy1pbWFnZS1reWJlNHh3YS5qcGc.jpg",
+              "credit": "\"Brass bullets ammunition\" – không rõ, CC0 (https://www.rawpixel.com/image/6040322/photo-image-public-domain-gold-free)"
+            }
           }
         ]
       },
@@ -430,18 +497,25 @@
           },
           {
             "text": "Báo chí và người đời sau tổng kết ngắn gọn: quân đội Úc đã thua một đàn chim.",
-            "ai": "five emus standing side by side in a row in a golden wheat field at sunset, each one clearly separated, calm and victorious, wide shot, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Dromaius_novaehollandiae%2C_Flinders_Ranges_1.jpg/1920px-Dromaius_novaehollandiae%2C_Flinders_Ranges_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae, Flinders Ranges 1.jpg\" – Haydyn Bromley from Adelaide, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae,_Flinders_Ranges_1.jpg)"
+            }
           },
           {
             "text": "Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi."
           },
           {
             "text": "Có nhà nghiên cứu còn cho rằng chiến dịch mang cả mục đích chính trị: chính phủ muốn tỏ ra quan tâm đến miền Tây, khi vùng này đang có phong trào đòi tách khỏi nước Úc.",
-            "ai": "a 1930s political rally in a city street, a crowd of men and women in hats listening to a speaker on a wooden stage, plain blank banners with no writing, bunting flags, sepia tones"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sunday_Times_Secession_Headline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Sunday Times Secession Headline.jpg\" – Western Press Limited, Public domain (https://commons.wikimedia.org/wiki/File:Sunday_Times_Secession_Headline.jpg)"
+            },
+            "label": "Tây Úc · 1933"
           },
           {
             "text": "Nông dân còn xin quân đội giúp thêm nhiều lần nữa, vào những năm một nghìn chín trăm ba mươi tư, bốn mươi ba và bốn mươi tám. Lần nào cũng bị từ chối.",
-            "ai": "a disappointed old farmer reading a letter at his kitchen table in a simple outback homestead, the letter paper is blank with no writing, 1940s, absolutely no text, no letters, no numbers, no writing anywhere"
+            "mo_phong": "1940s, a simple wooden kitchen table in an outback homestead, a blank letter and an opened envelope beside a tin mug, soft light through a small window, no people"
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận với emu nữa."
@@ -464,14 +538,20 @@
         "beats": [
           {
             "text": "Ngày nay, Chiến tranh Emu thường được kể như một chuyện cười. Nhưng đằng sau nó là những người lính cũ đang vật lộn mưu sinh trong thời khủng hoảng.",
-            "ai": "an old weathered farmhouse in the Australian wheatbelt at dusk with a windmill, golden fields, nostalgic"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Unknown_station_homestead_from_hill_%28cropped%29.png/1920px-Unknown_station_homestead_from_hill_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Unknown station homestead from hill (cropped).png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Unknown_station_homestead_from_hill_(cropped).png)"
+            }
           },
           {
             "text": "Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe cũng phải bật cười."
           },
           {
             "text": "Và là bài học về việc con người không phải lúc nào cũng thắng được thiên nhiên, kể cả khi có súng máy trong tay.",
-            "ai": "a single emu standing still on a dusty outback road at sunset, side view, full body visible, exactly two long legs, eucalyptus trees, peaceful, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and exactly two legs, the emus are clearly separated from each other with wide gaps and never overlap"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Emu_in_Pinnacles_desert_-_Nambung_National_Park.jpg/1920px-Emu_in_Pinnacles_desert_-_Nambung_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Emu in Pinnacles desert - Nambung National Park.jpg\" – Fvanrenterghem, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Emu_in_Pinnacles_desert_-_Nambung_National_Park.jpg)"
+            }
           },
           {
             "text": "Còn loài emu? Đến nay chúng vẫn sống khỏe mạnh khắp nước Úc.",
@@ -481,11 +561,15 @@
             }
           },
           {
-            "text": "Ước tính hiện có hàng trăm nghìn con emu sống tự do. Chúng vẫn đi qua những cánh đồng lúa mì, và nông dân Úc vẫn dựng hàng rào."
+            "text": "Ước tính hiện có hàng trăm nghìn con emu sống tự do. Chúng vẫn đi qua những cánh đồng lúa mì, và nông dân Úc vẫn dựng hàng rào.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Emu_and_chicks.jpg/1920px-Emu_and_chicks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Emu and chicks.jpg\" – Functionalimagery, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Emu_and_chicks.jpg)"
+            }
           },
           {
             "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
-            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+            "mo_phong": "an old oil lantern glowing on a wooden table beside an open old book with blank pages, dark room, cozy"
           }
         ]
       }

@@ -21,7 +21,8 @@ OUT = ROOT / "logs" / "veo"
 
 # chuyển động mô tả bằng tiếng Anh; giữ nét vẽ của tranh, không chữ
 MOTION_HINT = ("Keep the exact same 2D hand-drawn illustration style, colors and characters as the starting image. "
-               "Smooth, natural, subtle motion only; no text, no captions, no new characters, no scene cut.")
+               "Smooth, natural, subtle motion only; correct anatomy and hands; no morphing; no text, no captions, "
+               "no watermark, no new characters, no scene cut.")
 
 
 def pick_model(client, log=print):
@@ -53,8 +54,7 @@ def run(client, model, img_path, prompt, aspect, seconds, out, log=print):
     t0 = time.time()
     op = client.models.generate_videos(
         model=model, prompt=prompt, image=types.Image.from_file(location=str(img_path)),
-        config=types.GenerateVideosConfig(aspect_ratio=aspect, duration_seconds=seconds, number_of_videos=1, resolution="720p",
-                                          negative_prompt="text, subtitles, watermark, deformed hands, extra limbs, morphing face, flicker"))
+        config=types.GenerateVideosConfig(aspect_ratio=aspect, duration_seconds=seconds, number_of_videos=1, resolution="720p"))
     while not op.done:
         time.sleep(10)
         op = client.operations.get(op)

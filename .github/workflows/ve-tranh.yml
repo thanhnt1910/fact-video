@@ -53,6 +53,8 @@ jobs:
           for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
             cp "output/$id/${id}_anh.jpg" "logs/anh_${id}.jpg" 2>/dev/null || true
             cp "output/$id/${id}_anh.txt" "logs/anh_${id}.txt" 2>/dev/null || true
+            rm -f logs/anh_${id}_lon_*.jpg
+            for f in output/$id/${id}_anh_lon_*.jpg; do [ -f "$f" ] && cp "$f" "logs/anh_${id}_lon_${f##*_lon_}"; done
           done
       - name: Lưu bộ nhớ đệm ảnh
         if: always()

@@ -431,6 +431,28 @@ def images_review(script, out_dir):
         sheet.paste(im, ((k % cols) * (tw + 4), (k // cols) * (th + 4)))
     sheet.save(out_dir / f"{script['id']}_anh.jpg", quality=85)
     (out_dir / f"{script['id']}_anh.txt").write_text("\n".join(rows_txt) + "\n", encoding="utf-8")
+    # bảng duyệt cỡ lớn: chỉ tranh AI, mỗi trang 6 tranh 800px để soi chi tiết (chân, đầu, nét mặt, chữ)
+    big, seen = [], set()
+    for i, b in enumerate(beats):
+        src = b.get("image_src")
+        if b.get("ai") and src and src not in seen:
+            seen.add(src)
+            big.append((i + 1, src))
+    for old in out_dir.glob(f"{script['id']}_anh_lon_*.jpg"):
+        old.unlink()
+    font2 = ImageFont.load_default(size=30)
+    for pg in range(0, len(big), 6):
+        page = Image.new("RGB", (1608, 1380), (0, 0, 0))
+        for k, (n, src) in enumerate(big[pg:pg + 6]):
+            try:
+                im = Image.open(src.replace("file://", "")).convert("RGB").resize((800, 457))
+            except Exception:
+                continue
+            d = ImageDraw.Draw(im)
+            d.rectangle([0, 0, 64, 40], fill=(0, 0, 0))
+            d.text((8, 4), str(n), fill=(255, 210, 120), font=font2)
+            page.paste(im, ((k % 2) * 808, (k // 2) * 461))
+        page.save(out_dir / f"{script['id']}_anh_lon_{pg // 6 + 1}.jpg", quality=82)
     n_ai = sum(1 for b in beats if b.get("ai"))
     log(f"  🖼️  Bảng duyệt ảnh: {len(beats)} đoạn, {n_ai} tranh AI" + (f" · {pending}" if pending else ""))
 

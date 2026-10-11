@@ -202,7 +202,7 @@
         "beats": [
           {
             "text": "Hiroo Onoda sinh ngày mười chín tháng ba năm một nghìn chín trăm hai mươi hai, ở tỉnh Wakayama, Nhật Bản.",
-            "ai": "a traditional Japanese village house in Wakayama in the 1920s, wooden walls, tiled roof, mountains behind, peaceful",
+            "ai": "a traditional Japanese village house in Wakayama in the 1920s, wooden walls, tiled roof, mountains behind, peaceful quiet morning, no people",
             "label": "Wakayama · Nhật Bản"
           },
           {
@@ -229,11 +229,11 @@
           },
           {
             "text": "Mệnh lệnh rất rõ: phá đường băng và cầu tàu trên đảo, quấy rối quân địch bằng mọi cách. Và anh tuyệt đối không được đầu hàng, cũng không được tự sát.",
-            "ai": "an old military airstrip on a tropical island beside the sea, palm trees, wartime, cloudy sky"
+            "ai": "an old military airstrip on a tropical island beside the sea, palm trees, wartime, cloudy sky, no people, no civilians"
           },
           {
             "text": "Người giao nhiệm vụ là thiếu tá Yoshimi Taniguchi. Theo lời Onoda kể lại, cấp trên đã hứa: có thể là ba năm, có thể là năm năm… nhưng dù chuyện gì xảy ra, chúng tôi sẽ quay lại đón anh.",
-            "ai": "two Japanese officers in 1940s uniforms facing each other in a dim wooden military hut, one handing a sealed envelope to the other, faces in shadow, Japanese officers in 1940s Imperial Japanese Army uniforms"
+            "ai": "two Japanese officers in 1940s Imperial Japanese Army uniforms facing each other in a dim wooden military hut, the older officer handing a sealed envelope to the younger one, faces half in shadow, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing"
           },
           {
             "text": "Onoda ghi nhớ câu nói ấy. Ông sẽ giữ lời hứa đó suốt gần ba mươi năm."
@@ -255,7 +255,7 @@
           },
           {
             "text": "Phần lớn lính Nhật trên đảo tử trận hoặc đầu hàng. Onoda cùng ba người lính rút sâu vào núi.",
-            "ai": "four soldiers in worn uniforms retreating up a steep jungle slope in heavy rain, silhouettes, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap"
+            "ai": "four thin exhausted Japanese soldiers in worn uniforms retreating up a steep jungle slope in heavy rain, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing"
           },
           {
             "text": "Đó là binh nhì Yuichi Akatsu, hạ sĩ Shoichi Shimada và binh nhất Kinshichi Kozuka. Bốn người, một hòn đảo, và một mệnh lệnh không bao giờ đầu hàng."
@@ -434,7 +434,7 @@
         "beats": [
           {
             "text": "Onoda về Nhật Bản và được chào đón như một người hùng. Báo chí vây quanh, cuốn hồi ký của ông được xuất bản ngay trong năm đó. Nhưng chính ông lại không thích sự chú ý ấy.",
-            "ai": "a crowded 1970s Tokyo airport arrival hall, Japanese photographers with flashing cameras surrounding a thin Japanese man about fifty with short black hair and a sunburnt face wearing a plain suit, no signs, no writing"
+            "ai": "a crowded 1970s Tokyo airport arrival hall, Japanese photographers with flashing cameras surrounding a thin weathered Japanese man about fifty years old with short black hair, hollow cheeks and a tanned face wearing a plain grey suit, he looks stiff and bewildered, no signs, no writing"
           },
           {
             "text": "Nhưng nước Nhật năm bảy mươi tư không còn là nước Nhật ông từng biết. Tàu siêu tốc, nhà cao tầng, tivi màu… Ông thấy mình lạc lõng."

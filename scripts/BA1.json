@@ -181,7 +181,7 @@
         "beats": [
           {
             "text": "Ngày bốn tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương. Thủy thủ trên tàu Dei Gratia nhìn thấy một con tàu lạ ở phía xa.",
-            "ai": "a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, from the deck of another ship, overcast morning, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "ai": "a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, viewed from the deck of another ship, overcast morning, the distant ship's deck is empty, completely deserted, no people at all, no crew, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           },
           {
             "text": "Con tàu ấy đi lảo đảo, cánh buồm rách tả tơi, như không có ai cầm lái. Họ gọi lớn. Không ai trả lời.",
@@ -254,7 +254,7 @@
           },
           {
             "text": "Hàng trên tàu là một nghìn bảy trăm linh một thùng cồn công nghiệp, chở từ New York sang Genoa, nước Ý.",
-            "ai": "rows of wooden barrels stacked in the dark hold of a 19th-century ship, lantern light"
+            "ai": "rows of wooden barrels stacked high in the dark cargo hold of a 19th-century ship, a single hanging lantern, completely deserted, no people at all, no crew"
           },
           {
             "text": "Ngày năm tháng mười một, con tàu rời cảng New York. Thời tiết xấu khiến nó phải neo lại vài ngày, rồi mới thật sự ra khơi.",
@@ -278,14 +278,14 @@
           },
           {
             "text": "Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.",
-            "ai": "the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence"
+            "ai": "the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence, completely deserted, no people at all, no crew"
           },
           {
             "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại."
           },
           {
             "text": "Thuyền trưởng Morehouse phải quyết định: bỏ mặc con tàu ma này, hay chia bớt người để đưa nó về cảng. Đường còn xa, mà mỗi tàu sẽ chỉ còn rất ít người lái.",
-            "ai": "a thoughtful 19th-century sea captain standing at the rail of his ship looking at another drifting ship, wind in his coat, dramatic sky"
+            "ai": "a thoughtful bearded 19th-century sea captain standing at the rail of his ship, frowning while looking at another drifting ship, wind in his coat, dramatic sky, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
           },
           {
             "text": "Phòng thuyền trưởng vẫn còn quần áo, sách vở và đồ đạc của cả gia đình. Không có dấu hiệu đánh nhau hay cướp bóc.",
@@ -298,7 +298,7 @@
         "beats": [
           {
             "text": "Trong khoang có khoảng một mét nước. Nhiều, nhưng không đủ để làm con tàu chìm. Mary Celeste vẫn đi biển tốt.",
-            "ai": "seawater sloshing in the dark lower hold of a wooden ship among barrels, lantern reflection"
+            "ai": "seawater sloshing in the dark lower hold of a wooden ship among floating barrels, lantern reflection on the water, completely deserted, no people at all, no crew"
           },
           {
             "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu."
@@ -308,7 +308,7 @@
           },
           {
             "text": "Chiếc xuồng cứu sinh duy nhất của tàu đã biến mất. Cùng với nó là đồng hồ hàng hải, kính lục phân và gần hết giấy tờ của con tàu.",
-            "ai": "an empty wooden davit and loose ropes hanging over the side of a sailing ship where a lifeboat used to be, ocean below"
+            "ai": "an empty wooden davit and loose ropes hanging over the side of a sailing ship where a lifeboat used to be, grey ocean below, completely deserted, no people at all, no crew"
           },
           {
             "text": "Nghĩa là mọi người đã rời tàu bằng xuồng, và có vẻ là rời đi rất vội.",
@@ -340,7 +340,7 @@
           },
           {
             "text": "Nhưng tại phiên tòa, ông Frederick Solly-Flood, người đứng đầu việc thẩm vấn, lại đầy nghi ngờ.",
-            "ai": "a 19th-century British colonial courtroom with wooden benches and a judge's bench, gentlemen in dark coats, solemn"
+            "ai": "a 19th-century British colonial courtroom with wooden benches and a judge's bench, stern gentlemen in dark coats listening, tense hearing, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
           },
           {
             "text": "Ông cho rằng có thể thủy thủ đã uống rượu say, giết thuyền trưởng và gia đình.",
@@ -404,7 +404,7 @@
         "beats": [
           {
             "text": "Giả thuyết hải tặc ít được tin, vì hàng hóa và đồ đạc quý vẫn còn nguyên. Giả thuyết thủy thủ nổi loạn cũng không có bằng chứng.",
-            "ai": "a closed wooden sea chest with brass fittings and a few silver coins beside it, untouched, ship cabin"
+            "ai": "a closed wooden sea chest with brass fittings and a few silver coins beside it, untouched, inside a ship cabin, completely deserted, no people at all, no crew"
           },
           {
             "text": "Giả thuyết được nhiều người tin nhất liên quan đến chính món hàng: cồn.",
@@ -412,11 +412,11 @@
           },
           {
             "text": "Khi dỡ hàng ở Genoa, người ta phát hiện chín thùng đã rỗng. Hơi cồn rò rỉ có thể đã tích tụ trong khoang.",
-            "ai": "dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty"
+            "ai": "dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty, the workers look puzzled, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
           },
           {
             "text": "Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.",
-            "ai": "a ship's open hatch with a faint blue flash of light inside the dark hold, startled silhouette of a captain, night"
+            "ai": "a faint blue flash of light glowing from inside the open cargo hatch of a 19th-century sailing ship at night, a startled sea captain in a plain dark coat and cap stepping back from the hatch on the deck, tense, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
           },
           {
             "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy."
@@ -427,7 +427,7 @@
           },
           {
             "text": "Có người cho rằng một cột nước xoáy trên biển đã quét qua con tàu, làm thiết bị đo báo sai và khiến mọi người hoảng loạn.",
-            "ai": "a dramatic waterspout twisting over a dark ocean near a small sailing ship, stormy clouds"
+            "ai": "a dramatic waterspout twisting over a dark ocean near a small two-masted sailing ship, stormy clouds, frightened crew on deck, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
           },
           {
             "text": "Cũng có những giả thuyết về quái vật biển, mực khổng lồ, thậm chí người ngoài hành tinh. Không cái nào có bằng chứng.",
@@ -435,7 +435,7 @@
           },
           {
             "text": "Dù vì lý do gì, có thể họ đã xuống xuồng, buộc dây vào tàu để chờ xem chuyện gì xảy ra. Rồi gió nổi lên, dây đứt, và con tàu bỏ lại họ giữa đại dương.",
-            "ai": "a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, dramatic ocean, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "ai": "a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, the people in the lifeboat look terrified, dramatic ocean, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
           },
           {
             "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật."
@@ -463,7 +463,7 @@
           },
           {
             "text": "Năm hai nghìn không trăm linh một, một đoàn thám hiểm tuyên bố đã tìm thấy xác Mary Celeste ở rạn san hô ấy. Nhưng phân tích vân gỗ cho thấy gỗ đó đến từ những cái cây vẫn còn sống… mười năm sau khi Mary Celeste bị đắm.",
-            "ai": "divers examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water"
+            "ai": "scuba divers in modern diving suits with masks and air tanks examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water"
           },
           {
             "text": "Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn."

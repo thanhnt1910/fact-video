@@ -255,14 +255,14 @@
           },
           {
             "text": "Phần lớn lính Nhật trên đảo tử trận hoặc đầu hàng. Onoda cùng ba người lính rút sâu vào núi.",
-            "ai": "four thin exhausted Japanese soldiers in worn uniforms retreating up a steep jungle slope in heavy rain, the Japanese soldier wears a faded patched khaki WWII Imperial Japanese Army uniform and a peaked field cap, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing"
+            "ai": "exactly four thin exhausted Japanese soldiers in single file climbing a steep jungle slope in heavy rain, count them: one, two, three, four soldiers, the Japanese soldiers wear faded patched khaki WWII Imperial Japanese Army uniforms and peaked field caps, serious mood, nobody is smiling"
           },
           {
             "text": "Đó là binh nhì Yuichi Akatsu, hạ sĩ Shoichi Shimada và binh nhất Kinshichi Kozuka. Bốn người, một hòn đảo, và một mệnh lệnh không bao giờ đầu hàng."
           },
           {
             "text": "Họ sống bằng chuối, dừa, và gạo, gia súc lấy từ các trang trại trên đảo. Họ liên tục đổi chỗ ở để không bị phát hiện.",
-            "ai": "bananas and coconuts on a banana leaf next to a cooking pot in a jungle camp, rain dripping"
+            "ai": "bananas and coconuts lying on a banana leaf placed on the muddy ground next to a blackened cooking pot over a small fire in a jungle camp, rain dripping"
           },
           {
             "text": "Mùa mưa, họ dựng lều bằng lá cọ và vải. Mùa khô, họ di chuyển liên tục để không để lại dấu vết."
@@ -299,7 +299,7 @@
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi hai, máy bay thả xuống thư và ảnh của chính gia đình họ, kêu gọi họ trở về.",
-            "ai": "old family letters and black and white family photographs scattered on jungle ground, envelopes, nostalgic"
+            "ai": "old letters and black and white photographs of Japanese families in 1950s Japanese clothes scattered on jungle ground, envelopes, nostalgic, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
           },
           {
             "text": "Họ vẫn không tin. Họ nghĩ kẻ thù đã bắt gia đình mình phải viết những lá thư ấy."
@@ -322,7 +322,7 @@
         "beats": [
           {
             "text": "Câu chuyện của Onoda thường được kể như một huyền thoại về lòng trung thành. Nhưng với người dân Lubang, đó là những năm tháng sống trong sợ hãi.",
-            "ai": "adult Filipino farmers and their wives standing in front of nipa huts at the edge of a jungle at dusk, looking worriedly toward the dark hills, tense mood"
+            "ai": "Filipino rural villagers in the 1960s, men in simple cotton shirts and straw hats, women in plain blouses and long skirts, standing in front of nipa huts on stilts at the edge of a jungle at dusk, looking worriedly toward the dark hills"
           },
           {
             "text": "Nhóm của ông đốt lúa, lấy trộm gia súc, và nhiều lần nổ súng với nông dân, cảnh sát và quân đội trên đảo."
@@ -341,7 +341,8 @@
           },
           {
             "text": "Năm một nghìn chín trăm năm mươi tư, Shimada tử trận trong một cuộc đấu súng với binh lính Philippines.",
-            "label": "1954 · còn lại 2 người"
+            "label": "1954 · còn lại 2 người",
+            "ai": "an empty jungle clearing at dusk with a broken rifle and an abandoned field cap lying in the grass, smoke drifting, sorrowful, no people, absolutely no text, no letters, no numbers, no license plates, no writing anywhere"
           },
           {
             "text": "Onoda và Kozuka tiếp tục thêm mười tám năm nữa. Họ đã sống cùng nhau trong rừng lâu hơn thời gian nhiều người sống trong một cuộc hôn nhân.",
@@ -349,7 +350,8 @@
           },
           {
             "text": "Tháng mười năm một nghìn chín trăm bảy mươi hai, Kozuka bị cảnh sát bắn chết khi cả hai đang đốt lúa của nông dân.",
-            "label": "1972 · chỉ còn Onoda"
+            "label": "1972 · chỉ còn Onoda",
+            "ai": "a single weathered Japanese soldier about fifty years old kneeling alone at the edge of a rice field at dusk, head bowed in grief, thin smoke rising behind him, completely alone, only one person, the Japanese soldiers wear faded patched khaki WWII Imperial Japanese Army uniforms and peaked field caps"
           },
           {
             "text": "Lúc này, Onoda đã năm mươi tuổi. Ông chỉ còn lại một mình, với khẩu súng, và mệnh lệnh năm xưa.",
@@ -368,7 +370,7 @@
             "text": "Rồi một chàng trai hai mươi tư tuổi tên là Norio Suzuki quyết định tự mình lên đường. Anh vừa bỏ học đại học, thích đi phượt khắp thế giới."
           },
           {
-            "text": "Trước khi đi, Suzuki nói với bạn bè rằng anh đi tìm ba thứ, theo đúng thứ tự: trung úy Onoda, một con gấu trúc, và người tuyết."
+            "text": "Trước khi đi, Suzuki nói với bạn bè rằng anh đi tìm ba thứ, theo đúng thứ tự: thiếu úy Onoda, một con gấu trúc, và người tuyết."
           },
           {
             "text": "Suzuki đến Lubang, dựng lều một mình trong rừng và chờ đợi. Chỉ sau bốn ngày, ngày hai mươi tháng hai năm một nghìn chín trăm bảy mươi tư, Onoda xuất hiện.",

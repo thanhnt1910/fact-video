@@ -294,7 +294,7 @@ def tech_check(mp4, kind, narration=None, quiet_ranges=()):
     for a, b in zip(s_starts, s_ends + [d] * (len(s_starts) - len(s_ends))):
         if a < 1 or b > d - 4:
             continue
-        if any(qa - 0.8 <= a and b <= qb + 0.8 for qa, qb in quiet_ranges):
+        if any(qa - 2.5 <= a and b <= qb + 2.5 for qa, qb in quiet_ranges):   # thẻ chương + khoảng nghỉ trước/sau thẻ
             continue   # đoạn thẻ chương: im lặng có chủ đích
         out.append(issue("loi" if b - a > 4 else "canh_bao", g, f"{label} {fmt_t(a)}",
                          f"mất giọng đọc {b - a:.1f} giây", "nghe lại đoạn này; đọc lại câu bị thiếu"))

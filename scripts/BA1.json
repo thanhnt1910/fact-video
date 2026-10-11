@@ -247,7 +247,7 @@
           },
           {
             "text": "Lần này, ông mang theo vợ là bà Sarah, và cô con gái nhỏ Sophia, mới hai tuổi. Bà Sarah còn mang theo cả một cây đàn phong cầm nhỏ để chơi nhạc trên biển.",
-            "ai": "a young 1870s woman in a long dark dress playing a small melodeon in a wooden ship cabin, a small child on a rug nearby, warm lamp light, painted from behind"
+            "ai": "a young 1870s woman in a long dark dress sitting at a small wooden pump organ with a keyboard of black and white keys, a melodeon, inside a wooden ship cabin, a toddler girl on a rug nearby, warm lamp light, no guitar, no string instrument"
           },
           {
             "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ."
@@ -258,7 +258,7 @@
           },
           {
             "text": "Ngày năm tháng mười một, con tàu rời cảng New York. Thời tiết xấu khiến nó phải neo lại vài ngày, rồi mới thật sự ra khơi.",
-            "ai": "a brigantine leaving New York harbor in grey November weather, small boats around, the city skyline of the 1870s behind, the ship is a 19th-century two-masted brigantine with square sails on the front mast",
+            "ai": "a brigantine leaving a 19th-century New York harbor in grey November weather, wooden piers, low brick warehouses and church steeples of the 1870s, no skyscrapers, no modern buildings, small boats around, the ship is a 19th-century two-masted brigantine merchant ship with square sails on the front mast, no flags, no pirate flag, no skull",
             "label": "New York · 11/1872"
           },
           {
@@ -271,7 +271,7 @@
         "beats": [
           {
             "text": "Ngày bốn tháng mười hai, thủy thủ Dei Gratia nhận ra con tàu trôi lạc ấy. Họ quan sát suốt hai tiếng đồng hồ, không thấy một bóng người trên boong.",
-            "ai": "sailors on a ship deck looking through a brass telescope at a distant ship on the ocean, tense"
+            "ai": "bearded 19th-century sailors in wool caps on a ship deck, one looking through a brass telescope at a distant ship on the ocean, tense, no glasses, the ship is a 19th-century two-masted brigantine merchant ship with square sails on the front mast, no flags, no pirate flag, no skull, serious mood, nobody is smiling"
           },
           {
             "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste."
@@ -340,7 +340,7 @@
           },
           {
             "text": "Nhưng tại phiên tòa, ông Frederick Solly-Flood, người đứng đầu việc thẩm vấn, lại đầy nghi ngờ.",
-            "ai": "a 19th-century British colonial courtroom with wooden benches and a judge's bench, stern gentlemen in dark coats listening, tense hearing, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
+            "ai": "a 19th-century British colonial courtroom with wooden benches and a judge's bench, stern gentlemen with different faces in dark frock coats listening, quill pens and papers on the desks, no microphone, tense hearing, serious mood, nobody is smiling"
           },
           {
             "text": "Ông cho rằng có thể thủy thủ đã uống rượu say, giết thuyền trưởng và gia đình.",
@@ -360,8 +360,8 @@
             "text": "Không tìm được bằng chứng nào về tội ác. Cuối cùng, người cứu tàu chỉ nhận được khoảng một phần năm giá trị con tàu và hàng hóa, ít hơn nhiều so với mong đợi."
           },
           {
-            "text": "Một người mới, một thủy thủ đoàn mới, đưa Mary Celeste tiếp tục đến Genoa. Còn mười con người kia thì không bao giờ được tìm thấy.",
-            "ai": "a sailing ship leaving the harbor of Gibraltar with the great Rock behind it, golden afternoon light, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "text": "Một thuyền trưởng mới, một thủy thủ đoàn mới, đưa Mary Celeste tiếp tục đến Genoa. Còn mười con người kia thì không bao giờ được tìm thấy.",
+            "ai": "a sailing ship leaving the harbor of Gibraltar with the great Rock behind it, golden afternoon light, the ship is a 19th-century two-masted brigantine merchant ship with square sails on the front mast, no flags, no pirate flag, no skull"
           }
         ]
       },
@@ -373,7 +373,7 @@
             "ai": "a ship's dining table set with plates of warm food and a smoking pipe in an ashtray, all the chairs empty and pushed back, no people, ghostly candlelight, mysterious, 19th-century ship cabin"
           },
           {
-            "text": "Những chi tiết ấy là sai. Thủy thủ Dei Gratia mất hai tiếng mới trèo lên được tàu. Không thể có thức ăn nào còn ấm."
+            "text": "Những chi tiết ấy là sai. Con tàu đã trôi một mình suốt chín ngày, và trong biên bản không hề có bữa ăn nào dọn sẵn trên bàn."
           },
           {
             "text": "Năm một nghìn tám trăm tám mươi tư, một nhà văn trẻ viết một truyện ngắn hư cấu dựa trên con tàu này, đổi tên nó thành Marie Celeste.",
@@ -416,7 +416,7 @@
           },
           {
             "text": "Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.",
-            "ai": "a 19th-century sea captain in a plain dark coat and cap stepping back in alarm from an open cargo hatch on a sailing ship's deck at night, a faint blue glow coming from the hatch, only one person in the scene, serious mood, nobody is smiling"
+            "ai": "a 19th-century sea captain in a plain dark coat and cap stepping back in alarm from an open square wooden cargo hatch in the deck of a wooden sailing ship at night, a faint blue glow rising from the hold, only one person, serious mood, nobody is smiling"
           },
           {
             "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy."

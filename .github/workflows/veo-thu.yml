@@ -1,0 +1,61 @@
+name: Thử Veo (ảnh thành video)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ma:
+        description: "Mã kịch bản (vd: ST1)"
+        required: true
+        default: "ST1"
+      doan:
+        description: "Thứ tự tranh AI trong video dài (0 = tranh đầu tiên)"
+        required: false
+        default: "0"
+      giay:
+        description: "Độ dài mỗi clip: 4, 6 hoặc 8 giây"
+        required: false
+        default: "4"
+      chuyen_dong:
+        description: "Mô tả chuyển động bằng tiếng Anh (để trống = dùng mô tả tranh)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  veo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cài đặt
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pip install -q google-genai pillow numpy requests
+      - name: Lấy tranh AI đã vẽ (bộ nhớ đệm)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            assets/tts_cache
+            assets/ai_cache
+          key: fv-gen-${{ github.run_id }}
+          restore-keys: fv-gen-
+      - name: Tạo clip bằng Veo
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python veo_thu.py "scripts/${{ inputs.ma }}.json" "${{ inputs.doan }}" "${{ inputs.giay }}" "${{ inputs.chuyen_dong }}"
+      - name: Lưu kết quả vào logs/veo
+        if: always()
+        run: |
+          git add logs/veo || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử Veo ${{ inputs.ma }} [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

@@ -1,18 +1,30 @@
 
-===== ST1 (video dài) =====
-▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
-  🖼️  Ảnh cho video dài
-  🎙️  Giọng Gemini Sadaltager (9 chương)
-  ⏱️  Thời lượng 11:00 · 44 cảnh ảnh
-     15850 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (127 giây)
-     … 2/6 đoạn (128 giây)
-     … 3/6 đoạn (253 giây)
-     … 4/6 đoạn (256 giây)
-     … 5/6 đoạn (371 giây)
-     … 6/6 đoạn (371 giây)
-     dựng khung hình xong trong 371 giây
-  🎵 Nhạc nền: Dark Times
-✅ Video dài: ST1_dai.mp4 (11:00)
+===== BA1 (video ngắn + bài ảnh) =====
+▶️  BA1: Con tàu trôi giữa đại dương, không còn một bóng người
+  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
+  🎙️  Giọng Gemini Sadaltager: đọc cả kịch bản (252 tiếng)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+  🎵 Nhạc nền: Investigations
+  🎬 Dựng 2346 khung hình (78.2 giây, 30 fps)
+     … 150/2346 khung, còn khoảng 661s
+     … 300/2346 khung, còn khoảng 620s
+     … 450/2346 khung, còn khoảng 563s
+     … 600/2346 khung, còn khoảng 501s
+     … 750/2346 khung, còn khoảng 466s
+     … 900/2346 khung, còn khoảng 421s
+     … 1050/2346 khung, còn khoảng 384s
+     … 1200/2346 khung, còn khoảng 336s
+     … 1350/2346 khung, còn khoảng 293s
+     … 1500/2346 khung, còn khoảng 246s
+     … 1650/2346 khung, còn khoảng 201s
+     … 1800/2346 khung, còn khoảng 158s
+     … 1950/2346 khung, còn khoảng 114s
+     … 2100/2346 khung, còn khoảng 71s
+     … 2250/2346 khung, còn khoảng 28s
+  🎚️  Giọng -14.9 dB · nhạc khi đang nói -26.6 dB (nhỏ hơn giọng 11.7 dB) · nhạc lúc nghỉ -19.5 dB
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA1_post.txt)
+✅ Xong output/BA1/BA1.mp4  (78.2s video, mất 715s)
 
-Xong video ngắn: - · video dài: ST1
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+
+Xong video ngắn: BA1 · video dài: -

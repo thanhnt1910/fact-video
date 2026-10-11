@@ -67,8 +67,8 @@ PROMPT = """Bạn kiểm tra ảnh minh họa cho video kể chuyện lịch s�
 {texts}
 {kind_note}
 {title_note}
-Hãy soi ảnh và chỉ báo vấn đề có thật:
-- Ảnh SAI rõ ràng so với lời kể: sai người (ví dụ lời kể nói về Onoda mà ảnh là người khác được giới thiệu như Onoda),
+Chỉ dựa vào chính những câu lời kể ở trên để đánh giá, không suy đoán câu chuyện khác.\nHãy soi ảnh và chỉ báo vấn đề có thật:
+- Ảnh SAI rõ ràng so với lời kể: sai người (lời kể nói về nhân vật A mà ảnh là người khác được giới thiệu như A),
   sai nơi, sai sự việc, sai thời kỳ (ví dụ vật dụng hiện đại trong cảnh năm 1945), hoặc dễ khiến người xem hiểu sai sự thật.
   Ảnh BỐI CẢNH là chấp nhận được, KHÔNG phải lỗi: phong cảnh nơi xảy ra chuyện, bản đồ, hiện vật hoặc vật dụng cùng loại
   (súng, truyền đơn, tàu...), ảnh tư liệu cùng thời kỳ minh họa không khí chung. Với loại này chỉ báo "canh_bao" nếu thật sự lạc đề.

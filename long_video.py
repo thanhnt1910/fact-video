@@ -155,7 +155,7 @@ def beat_images(script, beats, work):
             key = hashlib.sha1((ai_images.STYLE_PHOTO_ID + "|" + b["mo_phong"]).encode()).hexdigest()[:16]
             f = AI_CACHE / f"mp_{key}.jpg"
             try:
-                ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO,
+                ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.photo_style(b["mo_phong"]),
                                    cheap=True)
                 ai_images.to_wide(f)   # ảnh cũ trong bộ nhớ đệm còn khung vuông
                 b["image_src"] = f.resolve().as_uri()
@@ -259,7 +259,7 @@ def check_images(script, beats, log):
             log(f"     🔁 tạo lại ảnh mô phỏng lỗi: {f.name} (lần {attempt + 1})")
             f.unlink(missing_ok=True)
             ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT + f", variation {attempt + 2}", f, log=log, wide=True,
-                               style=ai_images.STYLE_PHOTO, cheap=True)
+                               style=ai_images.photo_style(b["mo_phong"]), cheap=True)
         res = kiem_tra_anh.check(items, script["id"], "dai", log)
     bad = [it for it in items if any(m == "loi" for m, _ in res.get(it["src"], []))]
     if bad and os.environ.get("FV_IMG_STRICT", "1") not in ("0", "no"):

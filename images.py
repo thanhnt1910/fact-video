@@ -184,6 +184,15 @@ def _relevant(c, subject):
     return all((" " + w) in hay for w in words) if words else True
 
 
+def _crop(path, box):
+    """Cắt 1 vùng của ảnh: box = [trái, trên, phải, dưới] theo tỉ lệ 0..1 (dùng cho ảnh ghép nhiều ô)."""
+    from PIL import Image
+    im = Image.open(path).convert("RGB")
+    w, h = im.size
+    l, t, r, b = box
+    im.crop((int(l * w), int(t * h), int(r * w), int(b * h))).save(path, quality=95)
+
+
 def _score(c, used):
     if c["url"] in used:
         return -1
@@ -254,11 +263,14 @@ def fetch_scene_images(script, work, log=print):
             if len(rel) < len(cands):
                 log(f"     🧹 bỏ {len(cands) - len(rel)} ảnh không đúng chủ thể \"{subject}\"")
             cands = rel
-        cands = sorted([c for c in cands if _score(c, used) > 0], key=lambda c: -_score(c, used))
+        # ảnh chỉ định sẵn (url) được dùng lại nhiều lần, ví dụ cắt các ô khác nhau từ 1 ảnh ghép
+        cands = sorted([c for c in cands if spec.get("url") or _score(c, used) > 0], key=lambda c: -_score(c, used))
         ok = False
         for c in cands[:5]:
             try:
                 _download(c["url"], dest)
+                if spec.get("crop"):
+                    _crop(dest, spec["crop"])
                 meta.write_text(json.dumps({"key": key, "credit": c["credit"], "url": c["url"]},
                                            ensure_ascii=False), encoding="utf-8")
                 sc["image_src"] = dest.resolve().as_uri()

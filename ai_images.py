@@ -29,6 +29,15 @@ STYLE_PHOTO = ("realistic historical documentary photograph, period-accurate clo
                "people seen from behind, in silhouette or at a distance with faces not clearly visible, "
                "no text, no letters, no watermark, no logo, no modern objects")
 STYLE_PHOTO_ID = "photo-v1"
+# cảnh không người: bỏ câu "people seen from behind..." (câu đó khiến AI tự vẽ thêm người)
+STYLE_PHOTO_EMPTY = ("realistic historical documentary photograph, period-accurate objects and setting, "
+                     "natural light, muted faded colors, slight film grain, shot on a vintage film camera, "
+                     "empty scene, absolutely no people, no human figures, "
+                     "no text, no letters, no watermark, no logo, no modern objects")
+
+
+def photo_style(prompt):
+    return STYLE_PHOTO_EMPTY if "no people" in prompt.lower() else STYLE_PHOTO
 CUTOUT_HINT = ("full body, whole figure visible from head to feet, centered, isolated on a plain pure white background, "
                "no shadow, no ground, no signature")
 RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly away from the body, "

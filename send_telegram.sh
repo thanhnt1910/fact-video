@@ -80,7 +80,7 @@ $(head -c 3800 output/$id/${id}_dai_youtube_en.txt)" "$api/sendMessage"
 fi
 if [ -s ci_long_failed.txt ]; then
   curl -s -o /dev/null -F chat_id="$TG_CHAT" \
-    -F text="⏳ Video dài chưa xong: $(tr '\n' ' ' < ci_long_failed.txt)— có thể Gemini hết lượt hôm nay, máy sẽ tự thử lại sáng mai." "$api/sendMessage"
+    -F text="⏳ Video dài chưa xong: $(tr '\n' ' ' < ci_long_failed.txt)$(grep -m1 -oE 'ảnh không đạt kiểm tra|hết lượt[^(]*' logs/last-run.log 2>/dev/null | head -1 | sed 's/^/— lý do: /') — máy sẽ tự thử lại sáng mai. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" "$api/sendMessage"
 fi
 if [ -s ci_failed.txt ]; then
   msg="⚠️ Dựng lỗi: $(tr '\n' ' ' < ci_failed.txt). Xem log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"

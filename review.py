@@ -653,7 +653,13 @@ def review_part(sid, part, use_ai=True):
         tl = None
         ld = json.loads((work / "review_data.json").read_text(encoding="utf-8")) if (work / "review_data.json").exists() else None
         narration = work / "narration.wav"
-        quiet = [(c["start"], c["start"] + c["dur"]) for c in (ld or {}).get("cards", [])]
+        quiet = []
+        for c in sorted((ld or {}).get("cards", []), key=lambda c: c["start"]):
+            a, b = c["start"], c["start"] + c["dur"]
+            if quiet and a - quiet[-1][1] < 2.5:   # hai thẻ liền nhau (thẻ tên phim + thẻ Phần 1)
+                quiet[-1] = (quiet[-1][0], b)
+            else:
+                quiet.append((a, b))
     if not mp4.exists():
         return None
     log(f"🔎 Kiểm tra {sid} – {PART_NAME[part]}")

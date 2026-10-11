@@ -144,26 +144,54 @@ def beat_images(script, beats, work):
                 if src:
                     b["image_src"] = src
     AI_CACHE.mkdir(parents=True, exist_ok=True)
+    import os
     quota_hit = 0
+    only_kaggle = os.environ.get("AI_SOURCE", "").strip().lower() == "kaggle"
+    pending = []   # [(beat, key)] chưa vẽ được trên Cloudflare
     for b in beats:
         if b.get("ai") and not b.get("image_src"):
             key = hashlib.sha1((ai_images.STYLE_ID + "|" + b["ai"]).encode()).hexdigest()[:16]
-            if quota_hit and not (AI_CACHE / f"{key}.jpg").exists():
-                quota_hit += 1          # đã hết lượt: không gọi thêm cho đỡ tốn thời gian
+            cached = (AI_CACHE / f"{key}.jpg").exists()
+            if (quota_hit or only_kaggle) and not cached:
+                pending.append((b, key))
                 continue
             try:
                 f = ai_images.generate(b["ai"] + ", " + WIDE_HINT, AI_CACHE / f"{key}.jpg", log=log, wide=True)
                 b["image_src"] = f.resolve().as_uri()
-                b.setdefault("fit", False)   # tranh AI vuông: phủ kín khung 16:9
+                b.setdefault("fit", False)   # tranh AI: phủ kín khung 16:9
                 used_ai = True
             except Exception as e:
                 log(f"     ⚠️  không vẽ được ảnh: {e}")
                 msg = str(e).lower()
                 if any(k in msg for k in ("429", "neuron", "limit", "quota", "exceeded")):
                     quota_hit += 1
+                    pending.append((b, key))
+    if pending and os.environ.get("KAGGLE_KEY", "").strip():
+        # Cloudflare hết lượt -> vẽ phần còn lại bằng đúng mô hình FLUX.2 klein 4B trên máy GPU miễn phí của Kaggle
+        import kaggle_draw
+        uniq = {}
+        for b, key in pending:
+            uniq.setdefault(key, f"{b['ai']}, {WIDE_HINT}, {ai_images.STYLE}")
+        log(f"     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ {len(uniq)} tranh trên Kaggle")
+        try:
+            res = kaggle_draw.draw_batch([(k, p, 1344, 768) for k, p in uniq.items()], AI_CACHE, log=log, model="klein")
+        except Exception as e:
+            log(f"     ⚠️  Kaggle lỗi: {e}")
+            res = {}
+        left = []
+        for b, key in pending:
+            f = AI_CACHE / f"{key}.jpg"
+            if f.exists():
+                b["image_src"] = f.resolve().as_uri()
+                b.setdefault("fit", False)
+                used_ai = True
+            else:
+                left.append((b, key))
+        pending = left
+    quota_hit = len(pending)
     if quota_hit:
-        # hết lượt vẽ miễn phí trong ngày: ảnh đã vẽ được vẫn lưu lại, lần chạy sau (lịch 7h17 sáng) vẽ nốt
-        raise RuntimeError(f"còn {quota_hit} ảnh AI chưa vẽ được (hết lượt miễn phí hôm nay), sẽ tự thử lại lần chạy sau")
+        # ảnh đã vẽ được vẫn lưu lại, lần chạy sau vẽ nốt
+        raise RuntimeError(f"còn {quota_hit} ảnh AI chưa vẽ được (hết lượt Cloudflare, Kaggle cũng chưa vẽ được), sẽ thử lại lần chạy sau")
     prev, prev_fit = None, None
     for b in beats:
         if not b.get("image_src"):

@@ -6,6 +6,10 @@ on:
       ids:
         description: "Mã kịch bản, cách nhau dấu phẩy (vd: SL2,ST1)"
         required: true
+      nguon_ve:
+        description: "Nguồn vẽ tranh AI: để trống = Cloudflare trước, hết lượt thì sang Kaggle; kaggle = chỉ dùng Kaggle"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -17,7 +21,7 @@ concurrency:
 jobs:
   draw:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,11 +36,14 @@ jobs:
           key: fv-gen-${{ github.run_id }}
           restore-keys: fv-gen-
       - name: Cài thư viện
-        run: python -m pip install -q -r requirements.txt
+        run: python -m pip install -q -r requirements.txt kaggle
       - name: Tải ảnh tư liệu, vẽ tranh AI, xuất bảng duyệt
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          AI_SOURCE: ${{ inputs.nguon_ve }}
         run: |
           files=""
           for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do files="$files scripts/$id.json"; done

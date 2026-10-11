@@ -37,6 +37,7 @@
   "music_duck": { "threshold": 0.06, "ratio": 3 },
   "sfx": { "enabled": true, "volume": 0.55, "ambience": 0.0 },
   "voice_fx": true,
+  "motion": { "parallax": true, "parallax_strength": 1.0, "fx": true, "fx_strength": 1.0 },
   "loudness_lufs": -14,
   "auto_prosody": true,
   "pauses": { "ellipsis": 0.38, "period": 0.16, "exclaim": 0.22, "question": 0.34, "tag": 0.5 },

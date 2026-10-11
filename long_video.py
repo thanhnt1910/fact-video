@@ -32,6 +32,7 @@ import numpy as np
 
 import audio_fx
 import make_video as mv
+import motion
 
 ROOT = Path(__file__).resolve().parent
 TTS_CACHE = ROOT / "assets" / "tts_cache"
@@ -259,7 +260,8 @@ def build(script, cfg, out_dir):
                 shots[-1]["dur"] = en - shots[-1]["start"]
                 continue
             shots.append({"start": st, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
-                          "fit": bool(beat.get("fit")), "label": beat.get("label", "")})
+                          "fit": bool(beat.get("fit")), "label": beat.get("label", ""),
+                          "fx": motion.pick_fx(beat)})
         t += (b - a) / SR
         add_silence(GAP)
         if ci == 0 and len(chapters) > 1:
@@ -288,6 +290,18 @@ def build(script, cfg, out_dir):
     import long_render
     from playwright.sync_api import sync_playwright
     vis = [s for s in shots if s["src"]]
+    mcfg = motion.settings(cfg)
+    if mcfg["parallax"]:
+        log("  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)")
+        depths = {}
+        for s in vis:
+            if s["src"] not in depths:
+                depths[s["src"]] = motion.depth_map(s["src"], log=log)
+            s["depth"] = str(depths[s["src"]]) if depths[s["src"]] else None
+        log(f"     {sum(1 for v in depths.values() if v)}/{len(depths)} ảnh có độ sâu")
+    if not mcfg["fx"]:
+        for s in vis:
+            s["fx"] = ""
     silent = work / "silent.mp4"
     with sync_playwright() as p:
         br = p.chromium.launch()
@@ -311,9 +325,9 @@ def build(script, cfg, out_dir):
         layers = long_render.render_layers(page, cfg.get("channel", ""), [s["label"] for s in vis if s.get("label")],
                                            cards, work / "layers")
         br.close()
-    long_render.render(vis, cards, layers, total, FPS, silent, mv.ffmpeg_exe(), work, log=log)
+    long_render.render(vis, cards, layers, total, FPS, silent, mv.ffmpeg_exe(), work, log=log, motion_cfg=mcfg)
     try:
-        long_render.review_sheet(vis, cards, layers, out_dir / f"{script['id']}_dai_review.jpg")
+        long_render.review_sheet(vis, cards, layers, out_dir / f"{script['id']}_dai_review.jpg", motion_cfg=mcfg)
     except Exception as e:
         log(f"     (không tạo được ảnh duyệt: {e})")
 

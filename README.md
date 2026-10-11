@@ -164,6 +164,22 @@ Thêm `"image": {"query": "octopus underwater"}` vào cảnh. Khi dựng, công 
 
 ---
 
+## 11. Ảnh chuyển động (parallax 3D và lớp hạt)
+
+Ảnh tĩnh được làm cho "sống" bằng hai lớp, áp dụng cho cả video ngắn và video dài (`motion.py`):
+
+- **Parallax 2.5D:** máy ước lượng độ sâu của ảnh (mô hình Depth Anything V2 Small, chạy CPU, tải 1 lần khoảng 100 MB). Khi máy quay lướt hoặc đẩy vào, vật ở gần dịch nhiều hơn vật ở xa, ảnh trông như cảnh 3D. Bản đồ độ sâu được lưu đệm trong `assets/ai_cache/depth`.
+- **Lớp hạt:** `dust` (bụi bay, mặc định), `embers` (tàn lửa), `rain` (mưa), `snow` (tuyết), `mist` (sương). Máy tự chọn theo mô tả ảnh và lời kể ("jungle, misty" → sương; "storm" → mưa). Muốn chọn tay, ghi vào cảnh hoặc đoạn video dài: `"fx": "rain"`, `"fx": "snow+dust"`, hoặc `"fx": "none"`.
+
+Chỉnh trong `config.json`:
+```
+"motion": { "parallax": true, "parallax_strength": 1.0, "fx": true, "fx_strength": 1.0 }
+```
+`parallax_strength` 0.5 = nhẹ hơn, 1.5 = mạnh hơn. Đặt `false` để tắt. Lỗi mô hình hay WebGL thì cảnh đó tự quay về chuyển động cũ, video không hỏng.
+Ghi chú: dựng chậm hơn khoảng 1,5–1,8 lần.
+
+**Dựng thử không ghi đè bản cũ:** chạy workflow "Dựng video" với ô *Hậu tố* = `-thu`, kết quả nằm ở Releases tag `video-<mã>-thu`.
+
 ## 9. Tự kiểm tra trước khi gửi (`review.py`)
 
 Sau khi dựng, máy tự soi lại từng sản phẩm rồi gửi **báo cáo kiểm tra** về Telegram:

@@ -561,6 +561,7 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
         except Exception as e:
             log(f"     ⚠️  Bỏ qua ảnh: {e}")
     mark_image_fit(script)
+    add_motion(script, cfg)
     scenes, subs, total = build_timeline(script, cfg, work, no_tts)
     theme = cfg["topics"][script["topic"]]
     data = {"config": cfg, "theme": theme, "scenes": scenes, "subtitles": subs, "total": total}
@@ -618,7 +619,8 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
     log(f"  🎬 Dựng {n_frames} khung hình ({total:.1f} giây, {fps} fps)")
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        # cho phép WebGL đọc ảnh/bản đồ độ sâu trên đĩa (hiệu ứng parallax)
+        browser = p.chromium.launch(args=["--allow-file-access-from-files", "--enable-unsafe-swiftshader"])
         page = browser.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=scale)
         page.goto((ROOT / "templates" / "scene.html").as_uri())
         page.evaluate("d => window.setup(d)", data)
@@ -652,6 +654,30 @@ def render(script, cfg, out_dir, preview=False, no_tts=False):
     if not has_music and cfg.get("music_file") and not cfg.get("music_library"):
         log(f"  ℹ️  Chưa có nhạc nền ({cfg['music_file']}), video chỉ có giọng đọc")
     return mp4, total
+
+
+def add_motion(script, cfg):
+    """Hiệu ứng chuyển động: chọn lớp hạt cho từng cảnh, tính bản đồ độ sâu cho ảnh (parallax 2.5D)."""
+    import motion
+    mc = motion.settings(cfg)
+    cfg["motion"] = mc            # trang dựng hình đọc từ config
+    for sc in script["scenes"]:
+        sc["fx"] = motion.pick_fx(sc) if mc["fx"] else ""
+    if not mc["parallax"]:
+        return
+    srcs = [sc for sc in script["scenes"] if sc.get("image_src")]
+    if not srcs:
+        return
+    log("  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)")
+    done = {}
+    for sc in srcs:
+        k = sc["image_src"]
+        if k not in done:
+            done[k] = motion.depth_map(k, log=log)
+        if done[k]:
+            sc["depth_src"] = Path(done[k]).resolve().as_uri()
+    log(f"     {sum(1 for v in done.values() if v)}/{len(done)} ảnh có độ sâu · lớp hạt: "
+        + ", ".join(sc.get("fx") or "-" for sc in script["scenes"]))
 
 
 def mark_image_fit(script):

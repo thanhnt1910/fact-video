@@ -66,6 +66,31 @@ def _cover(im, w, h, ay=0.5):
     return r.crop((x, y, x + w, y + h))
 
 
+def _fit_box(im):
+    s = min(PW / im.width, PH / im.height)
+    fw, fh = round(im.width * s), round(im.height * s)
+    return fw, fh, (PW - fw) // 2, (PH - fh) // 2
+
+
+def make_depth_plate(src, depth, fit):
+    """Bản đồ độ sâu đặt đúng vị trí như make_plate (float32 PH x PW). Ảnh đặt giữa nền mờ: chỉ phần ảnh có độ sâu,
+    mép ảnh và nền mờ đứng yên (không bị xé)."""
+    import motion
+    im = Image.open(_path(src))
+    d = motion.load_depth(depth, im.size)
+    if d is None:
+        return None
+    dimg = Image.fromarray((d * 255 + 0.5).astype(np.uint8))
+    if not fit:
+        return np.asarray(_cover(dimg, PW, PH, 0.35), np.float32) / 255.0
+    fw, fh, x0, y0 = _fit_box(im)
+    out = np.full((PH, PW), motion.FOCUS, np.float32)
+    fd = np.asarray(dimg.resize((fw, fh), Image.BILINEAR), np.float32) / 255.0
+    m = motion.edge_taper(fw, fh)
+    out[y0:y0 + fh, x0:x0 + fw] = fd * m + motion.FOCUS * (1 - m)
+    return out
+
+
 def make_plate(src, fit):
     """Ảnh nền của một cảnh, kích thước PW x PH, đã chỉnh màu."""
     im = Image.open(_path(src)).convert("RGB")
@@ -74,9 +99,9 @@ def make_plate(src, fit):
     # ảnh dọc / nhỏ: nền là chính ảnh đó phóng to, làm mờ, tối; ảnh gốc đặt giữa, hiện trọn
     bg = _cover(im, PW // 4, PH // 4).filter(ImageFilter.GaussianBlur(10)).resize((PW, PH), Image.BILINEAR)
     bg = grade(bg, sepia=0.4, contrast=1.0, bright=0.45, sat=1.0)
-    s = min(PW / im.width, PH / im.height)
-    fg = grade(im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS))
-    bg.paste(fg, ((PW - fg.width) // 2, (PH - fg.height) // 2))
+    fw, fh, x0, y0 = _fit_box(im)
+    fg = grade(im.resize((fw, fh), Image.LANCZOS))
+    bg.paste(fg, (x0, y0))
     return bg
 
 
@@ -153,7 +178,11 @@ def _ov(path):
 
 
 class Compositor:
-    def __init__(self, shots, cards, layers):
+    def __init__(self, shots, cards, layers, motion_cfg=None):
+        import motion
+        self.mc = motion.settings({"motion": motion_cfg})
+        self.fx = motion.FX(W, H, self.mc["fx_strength"]) if self.mc["fx"] else None
+        self.grid = None
         self.shots = shots
         self.cards = cards
         self.ov = [_ov(p) for p in layers["lamp"]]
@@ -169,7 +198,14 @@ class Compositor:
             if len(self.plates) > 4:
                 self.plates.pop(next(iter(self.plates)))
             s = self.shots[i]
-            self.plates[i] = np.ascontiguousarray(np.asarray(make_plate(s["src"], s.get("fit"))))
+            pl = np.ascontiguousarray(np.asarray(make_plate(s["src"], s.get("fit"))))
+            dp = None
+            if self.mc["parallax"] and s.get("depth"):
+                try:
+                    dp = make_depth_plate(s["src"], s["depth"], s.get("fit"))
+                except Exception:
+                    dp = None
+            self.plates[i] = (pl, dp)
         return self.plates[i]
 
     def shot_frame(self, i, lt):
@@ -187,8 +223,21 @@ class Compositor:
         a = 1 / z
         m = np.array([[a, 0, PW / 2 - tx - (W / 2) * a + 0.5 * a - 0.5],
                       [0, a, PH / 2 - ty - (H / 2) * a + 0.5 * a - 0.5]], np.float64)
-        return cv2.warpAffine(self.plate(i), m, (W, H), flags=cv2.INTER_LINEAR | cv2.WARP_INVERSE_MAP,
-                              borderMode=cv2.BORDER_REPLICATE)
+        plate, dp = self.plate(i)
+        if dp is None:
+            return cv2.warpAffine(plate, m, (W, H), flags=cv2.INTER_LINEAR | cv2.WARP_INVERSE_MAP,
+                                  borderMode=cv2.BORDER_REPLICATE)
+        # parallax 2.5D: tọa độ lấy mẫu = Ken Burns như cũ + độ lệch theo độ sâu
+        import motion
+        if self.grid is None:
+            self.grid = np.meshgrid(np.arange(W, dtype=np.float32), np.arange(H, dtype=np.float32))
+        xs = self.grid[0] * np.float32(a) + np.float32(m[0, 2])
+        ys = self.grid[1] * np.float32(a) + np.float32(m[1, 2])
+        dz = cv2.warpAffine(dp, m, (W, H), flags=cv2.INTER_LINEAR | cv2.WARP_INVERSE_MAP, borderMode=cv2.BORDER_REPLICATE)
+        kind = [0, 2, 3, 1][i % 4]      # cùng hướng với kiểu Ken Burns của cảnh
+        cam = motion.camera(kind, p, self.mc["parallax_strength"] * (0.6 if s.get("fit") else 1.0))
+        mx, my = motion.parallax_maps(xs, ys, dz, PW, PH, cam)
+        return cv2.remap(plate, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
 
     @staticmethod
     def _over(img, layer):
@@ -218,6 +267,8 @@ class Compositor:
             if o <= 0.002:
                 continue
             fr = self.shot_frame(i, lt)
+            if self.fx is not None and s.get("fx"):
+                fr = self.fx.apply(fr, s["fx"], t)
             img = fr if o >= 0.998 else cv2.addWeighted(img, 1 - o, fr, o, 0)
         lv = round((_clamp(lamp_level(t), 0.68, 0.92) - 0.68) / 0.24 * (LAMP_LEVELS - 1))
         img = self._over(img, self.ov[lv])
@@ -257,10 +308,10 @@ def _worker(args):
     return _encode_range((_COMP,) + tuple(args))
 
 
-def render(shots, cards, layers, total, fps, out, ffmpeg, work, log=print, workers=None, crf=20):
+def render(shots, cards, layers, total, fps, out, ffmpeg, work, log=print, workers=None, crf=20, motion_cfg=None):
     """Dựng video câm `out` dài `total` giây."""
     global _COMP
-    _COMP = Compositor(shots, cards, layers)
+    _COMP = Compositor(shots, cards, layers, motion_cfg)
     n = int(math.ceil(total * fps))
     workers = workers or max(1, os.cpu_count() or 1)
     # chia nhiều đoạn hơn số nhân để chia việc đều; cắt ở ranh giới GOP
@@ -287,10 +338,10 @@ def render(shots, cards, layers, total, fps, out, ffmpeg, work, log=print, worke
     return out
 
 
-def review_sheet(shots, cards, layers, out, cols=8):
+def review_sheet(shots, cards, layers, out, cols=8, motion_cfg=None):
     """Ảnh duyệt video dài: 1 khung giữa mỗi cảnh ảnh, xếp lưới, đánh số để kiểm tra trước khi gửi."""
     from PIL import ImageDraw, ImageFont
-    comp = Compositor(shots, cards, layers)
+    comp = Compositor(shots, cards, layers, motion_cfg)
     tw, th = 320, 180
     tiles = []
     for i, s in enumerate(shots):

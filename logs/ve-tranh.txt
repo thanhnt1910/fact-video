@@ -1,32 +1,16 @@
-▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
-     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 4 tranh trên Kaggle
-     🖥️  Gửi 4 tranh sang Kaggle (GPU miễn phí)
-     🖥️   0.5 phút: .running
-     🖥️   5.1 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (5 phút)
-     🖥️  Nhận về 4/4 tranh từ Kaggle
-  🖼️  Bảng duyệt ảnh: 64 đoạn, 32 tranh AI
-▶️  Video dài BA1: Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste
-     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 5 tranh trên Kaggle
-     🖥️  Gửi 5 tranh sang Kaggle (GPU miễn phí)
-     🖥️   0.5 phút: .running
-     🖥️   6.1 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (6 phút)
-     🖥️  Nhận về 5/5 tranh từ Kaggle
-  🖼️  Bảng duyệt ảnh: 64 đoạn, 33 tranh AI
 ▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
-     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 5 tranh trên Kaggle
-     🖥️  Gửi 5 tranh sang Kaggle (GPU miễn phí)
+     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 1 tranh trên Kaggle
+     🖥️  Gửi 1 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️   6.1 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (6 phút)
-     🖥️  Nhận về 5/5 tranh từ Kaggle
+     🖥️   4.1 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (4 phút)
+     🖥️  Nhận về 1/1 tranh từ Kaggle
   🖼️  Bảng duyệt ảnh: 66 đoạn, 33 tranh AI
 ▶️  Video dài PV1: Kẻ lừa đảo đã bán tháp Eiffel như thế nào? | Victor Lustig
-     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 5 tranh trên Kaggle
-     🖥️  Gửi 5 tranh sang Kaggle (GPU miễn phí)
+     ☁️  Cloudflare hết lượt / chọn Kaggle: vẽ 2 tranh trên Kaggle
+     🖥️  Gửi 2 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️   6.6 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (7 phút)
-     🖥️  Nhận về 5/5 tranh từ Kaggle
+     🖥️   4.6 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (5 phút)
+     🖥️  Nhận về 2/2 tranh từ Kaggle
   🖼️  Bảng duyệt ảnh: 65 đoạn, 32 tranh AI

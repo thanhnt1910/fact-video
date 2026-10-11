@@ -1,0 +1,37 @@
+name: Tìm ảnh tư liệu (video dài)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ma:
+        description: "Mã kịch bản có file ke-hoach/anh/<mã>.json (vd: ST1)"
+        required: true
+        default: "ST1"
+
+permissions:
+  contents: write
+
+jobs:
+  tim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cài đặt
+        run: |
+          python -m pip install -q pillow numpy
+          sudo apt-get install -y -qq fonts-dejavu-core > /dev/null || true
+      - name: Tìm ảnh
+        run: python tim_anh.py "ke-hoach/anh/${{ inputs.ma }}.json"
+      - name: Lưu vào repo
+        if: always()
+        run: |
+          git add logs/anh_tim || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Ảnh tư liệu ứng viên ${{ inputs.ma }} [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

@@ -186,6 +186,13 @@ Ghi chú: dựng chậm hơn khoảng 2–3 lần (video ngắn khoảng 1,8 l�
 
 **Dựng thử không ghi đè bản cũ:** chạy workflow "Dựng video" với ô *Hậu tố* = `-thu`, kết quả nằm ở Releases tag `video-<mã>-thu`.
 
+## 12. Tiết kiệm chi phí Gemini
+
+- **Kiểm tra kịch bản trước khi dựng:** Gemini đọc chữ kịch bản (rẻ, có lưu đệm). Có lỗi nội dung thì máy **không dựng**, báo lỗi về Telegram để bạn sửa. Chắc chắn không phải lỗi thì chạy workflow "Dựng video" với ô *Bỏ qua kiểm tra* = `yes`.
+- **Chỉ gửi cả video cho Gemini xem lại khi lời kể hoặc giọng đọc thay đổi.** Dựng lại vì sửa ảnh thì chỉ soi từng khung hình. Muốn luôn xem lại cả video: đặt biến `REVIEW_VIDEO=always`.
+- **Bước tự kiểm tra dùng Flash-Lite** (rẻ nhất), không dùng được thì tự lùi về Flash.
+- **Chi phí ước tính mỗi lần dựng** được gửi kèm báo cáo Telegram và lưu ở `logs/chiphi_<mã>.txt`. Số chính xác xem ở Google Cloud Billing → Reports → Group by SKU.
+
 ## 9. Tự kiểm tra trước khi gửi (`review.py`)
 
 Sau khi dựng, máy tự soi lại từng sản phẩm rồi gửi **báo cáo kiểm tra** về Telegram:

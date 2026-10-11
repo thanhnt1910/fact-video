@@ -22,6 +22,10 @@ on:
         description: "Gửi Telegram ngay (yes) hay giữ lại chờ duyệt (no)"
         required: false
         default: "no"
+      bo_qua_kiemtra:
+        description: "Bỏ qua bước kiểm tra kịch bản trước khi dựng (yes nếu chắc chắn lỗi báo ra không đúng)"
+        required: false
+        default: "no"
       hau_to:
         description: "Hậu tố tên bản trên Releases khi dựng thử (vd: -thu → video-ST1-thu), để không ghi đè bản cũ"
         required: false
@@ -106,6 +110,7 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           AI_SOURCE: ${{ inputs.nguon_ve }}
+          FV_SKIP_PRECHECK: ${{ inputs.bo_qua_kiemtra }}
         run: |
           set -o pipefail
           mkdir -p logs

@@ -69,6 +69,11 @@ def run(client, model, img_path, prompt, aspect, seconds, out, log=print):
     # bỏ tiếng Veo tự tạo (video của kênh dùng giọng kể + nhạc riêng)
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(raw), "-an", "-c:v", "copy", str(out)], check=True)
     raw.unlink(missing_ok=True)
+    try:
+        import chi_phi
+        chi_phi.add_video(model, seconds)
+    except Exception:
+        pass
     log(f"  ✅ {out.name}: {time.time() - t0:.0f} giây")
     return time.time() - t0
 
@@ -106,6 +111,8 @@ def main():
             notes.append(f"{name} ({aspect}): LỖI {e}")
     (OUT / f"{sid}_veo.txt").write_text("\n".join(notes) + "\n", encoding="utf-8")
     print("\n".join(notes))
+    import chi_phi
+    print(chi_phi.summary() or "")
 
 
 if __name__ == "__main__":

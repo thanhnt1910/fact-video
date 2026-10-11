@@ -8,6 +8,7 @@ ghi danh sách video vừa xong vào ci_outputs.txt và cập nhật rendered.js
 """
 import hashlib
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -62,13 +63,42 @@ def main():
             if data.get("long") and ("--all" in args or manifest.get(sid + ":dai") != dl):
                 todo_long.append((f, sid, dl))
 
+    # chi phí Gemini của lần chạy này (review.py gửi tổng kết lên Telegram)
+    (ROOT / "chiphi_run.jsonl").unlink(missing_ok=True)
+
+    # kiểm tra kịch bản TRƯỚC khi dựng: lỗi nội dung thì không dựng (đỡ tốn tiền giọng đọc, tranh, kiểm tra video)
+    blocked = {}
+    if os.environ.get("FV_SKIP_PRECHECK", "").strip().lower() not in ("1", "yes", "true") and (todo or todo_long):
+        import review
+        want = {}
+        for f, sid, _ in todo:
+            want.setdefault(sid, []).append("ngan")
+        for f, sid, _ in todo_long[:MAX_LONG_PER_RUN]:
+            want.setdefault(sid, []).append("dai")
+        for sid, parts in want.items():
+            print(f"\n===== {sid}: kiểm tra kịch bản trước khi dựng =====", flush=True)
+            review.chi_phi_id(sid)
+            try:
+                errs = review.precheck(sid, parts)
+            except Exception as e:
+                print(f"   (bỏ qua bước kiểm tra trước: {e})")
+                errs = []
+            if errs:
+                blocked[sid] = errs
+                for x in errs:
+                    print(f"   ❌ [{x['nhom']} · {x['vi_tri']}] {x['mo_ta']}")
+                print(f"   ⛔ Chưa dựng {sid}: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)")
+        todo = [x for x in todo if x[1] not in blocked]
+        todo_long = [x for x in todo_long if x[1] not in blocked]
+    (ROOT / "ci_blocked.json").write_text(json.dumps(blocked, ensure_ascii=False, indent=1), encoding="utf-8")
+
     done, failed, done_long, failed_long = [], [], [], []
     if len(todo) > MAX_PER_RUN:
         print(f"Có {len(todo)} kịch bản, lần này dựng {MAX_PER_RUN}, phần còn lại lần chạy sau.")
         todo = todo[:MAX_PER_RUN]
     for f, sid, d in todo:
         print(f"\n===== {sid} (video ngắn + bài ảnh) =====", flush=True)
-        r = subprocess.run([sys.executable, str(ROOT / "make_video.py"), str(f), "--force"])
+        r = subprocess.run([sys.executable, str(ROOT / "make_video.py"), str(f), "--force"], env=dict(os.environ, FV_ID=sid))
         mp4 = ROOT / "output" / sid / f"{sid}.mp4"
         if r.returncode == 0 and mp4.exists():
             manifest[sid] = d
@@ -79,7 +109,7 @@ def main():
 
     for f, sid, dl in todo_long[:MAX_LONG_PER_RUN]:
         print(f"\n===== {sid} (video dài) =====", flush=True)
-        r = subprocess.run([sys.executable, str(ROOT / "long_video.py"), str(f)])
+        r = subprocess.run([sys.executable, str(ROOT / "long_video.py"), str(f)], env=dict(os.environ, FV_ID=sid))
         mp4 = ROOT / "output" / sid / f"{sid}_dai.mp4"
         if r.returncode == 0 and mp4.exists():
             manifest[sid + ":dai"] = dl
@@ -92,7 +122,7 @@ def main():
     (ROOT / "ci_long.txt").write_text("".join(x + "\n" for x in done_long), encoding="utf-8")
     (ROOT / "ci_long_failed.txt").write_text("".join(x + "\n" for x in failed_long), encoding="utf-8")
     if not todo and not todo_long:
-        print("Không có kịch bản mới cần dựng.")
+        print("Không có kịch bản mới cần dựng." if not blocked else "Không dựng gì (kịch bản có lỗi, xem ở trên).")
         return
     print(f"\nXong video ngắn: {', '.join(done) or '-'} · video dài: {', '.join(done_long) or '-'}")
     if failed_long:

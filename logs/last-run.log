@@ -1,29 +1,18 @@
 
-===== BA1 (video ngắn + bài ảnh) =====
-▶️  BA1: Con tàu trôi giữa đại dương, không còn một bóng người
-  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-  🎙️  Dùng lại giọng Gemini đã có
+===== BA1 (video dài) =====
+▶️  Video dài BA1: Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste
+  🖼️  Ảnh cho video dài
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+  ⏱️  Thời lượng 10:15 · 41 cảnh ảnh
+     14782 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (220 giây)
+     … 2/6 đoạn (221 giây)
+     … 3/6 đoạn (436 giây)
+     … 4/6 đoạn (436 giây)
+     … 5/6 đoạn (645 giây)
+     … 6/6 đoạn (645 giây)
+     dựng khung hình xong trong 646 giây
   🎵 Nhạc nền: Investigations
-  🎬 Dựng 2346 khung hình (78.2 giây, 30 fps)
-     … 150/2346 khung, còn khoảng 652s
-     … 300/2346 khung, còn khoảng 602s
-     … 450/2346 khung, còn khoảng 557s
-     … 600/2346 khung, còn khoảng 495s
-     … 750/2346 khung, còn khoảng 453s
-     … 900/2346 khung, còn khoảng 405s
-     … 1050/2346 khung, còn khoảng 368s
-     … 1200/2346 khung, còn khoảng 321s
-     … 1350/2346 khung, còn khoảng 280s
-     … 1500/2346 khung, còn khoảng 235s
-     … 1650/2346 khung, còn khoảng 192s
-     … 1800/2346 khung, còn khoảng 151s
-     … 1950/2346 khung, còn khoảng 109s
-     … 2100/2346 khung, còn khoảng 67s
-     … 2250/2346 khung, còn khoảng 26s
-  🎚️  Giọng -14.9 dB · nhạc khi đang nói -26.6 dB (nhỏ hơn giọng 11.7 dB) · nhạc lúc nghỉ -19.5 dB
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA1_post.txt)
-✅ Xong output/BA1/BA1.mp4  (78.2s video, mất 654s)
+✅ Video dài: BA1_dai.mp4 (10:15)
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong video ngắn: BA1 · video dài: -
+Xong video ngắn: - · video dài: BA1

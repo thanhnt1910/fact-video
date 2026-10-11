@@ -1,6 +1,10 @@
 name: Thử Veo (ảnh thành video)
 
 on:
+  # sửa file veo-thu.json rồi đẩy lên (nhánh nào cũng được) -> tự chạy theo thông số trong file
+  push:
+    paths:
+      - "veo-thu.json"
   workflow_dispatch:
     inputs:
       ma:
@@ -49,7 +53,16 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python veo_thu.py "scripts/${{ inputs.ma }}.json" "${{ inputs.doan }}" "${{ inputs.giay }}" "${{ inputs.chuyen_dong }}"
+          IN_MA: ${{ inputs.ma }}
+          IN_DOAN: ${{ inputs.doan }}
+          IN_GIAY: ${{ inputs.giay }}
+          IN_CD: ${{ inputs.chuyen_dong }}
+        run: |
+          if [ -n "$IN_MA" ]; then
+            python veo_thu.py "scripts/$IN_MA.json" "$IN_DOAN" "$IN_GIAY" "$IN_CD"
+          else
+            python -c "import json,subprocess,sys; c=json.load(open('veo-thu.json',encoding='utf-8')); sys.exit(subprocess.call([sys.executable,'veo_thu.py','scripts/%s.json'%c['ma'],str(c.get('doan',0)),str(c.get('giay',4)),c.get('chuyen_dong','')]))"
+          fi
       - name: Lưu kết quả vào logs/veo
         if: always()
         run: |
@@ -57,5 +70,5 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git commit -q -m "Thử Veo ${{ inputs.ma }} [skip ci]"
+          git commit -q -m "Thử Veo [skip ci]"
           for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

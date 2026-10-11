@@ -1,0 +1,9 @@
+KIỂM TRA ẢNH ST1 · video ngắn · 5 ảnh (số thứ tự khớp lưới ảnh anh_ST1_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 · hook scene_00.jpg
+❌ 2 · text scene_01.jpg
+     ❌ Ảnh là phong cảnh hoàng hôn chung chung, không khớp với nội dung kể về thiếu úy Hiroo Onoda được cử đến đảo Lubang năm 1944. → Thay bằng ảnh chân dung Hiroo Onoda thời trẻ, ảnh tư liệu lính Nhật Thế chiến thứ hai, hoặc bản đồ đảo Lubang, Philippines.
+✅ 3 · explain scene_02.jpg
+⚠️ 4 · number scene_05.jpg
+     ⚠️ ảnh hơi mờ (độ nét 59)
+     ⚠️ Ảnh chụp các khẩu súng trưng bày trong bảo tàng, không liên quan trực tiếp đến hành động Onoda hạ súng hay bối cảnh lịch sử năm 1974. → Nên thay bằng ảnh tư liệu thực tế khi Hiroo Onoda đầu hàng, giao nộp vũ khí hoặc ảnh chụp ông ở thời điểm năm 1974 để khớp với lời kể.
+✅ 5 · outro scene_06.jpg

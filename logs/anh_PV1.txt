@@ -77,7 +77,7 @@
  39 [=] Poisson cầm trong tay những tờ giấy có dấu đỏ của chính phủ, tin rằng mình sắp trở thành người nổi tiếng nhất giới buôn sắt Paris.
       → (dùng ảnh đoạn trước)
  40 [AI] Lustig nhận tiền, rồi nhanh chóng rời Pháp sang nước Áo.
-      → a steam train departing from a grand Paris railway station in the 1920s, a man with a leather suitcase at the window, steam, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
+      → a realistic black 1920s steam locomotive pulling out of a grand Paris railway station with iron and glass roof, clouds of steam, a man with a leather suitcase looking out of a carriage window, the locomotive is a normal machine with no face, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
  41 [AI] Lustig ngày nào cũng mở báo, chờ đọc tin mình bị truy nã. Nhưng không có một dòng nào.
       → a man in a hotel room in Vienna reading several newspapers spread on a bed, morning light, 1920s, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
  42 [AI] Poisson đã quá xấu hổ để báo cảnh sát. Ông không muốn cả Paris biết mình từng ngây thơ mua tháp Eiffel.
@@ -99,7 +99,7 @@
  50 [AI] Ông cất số tiền vào két, không làm gì cả. Hai tháng sau, ông mang trả lại đúng số tiền ấy, xin lỗi vì phi vụ thất bại.
       → a stack of 1930s dollar bills placed neatly on a desk in front of a surprised man, gangster era, dramatic light
  51 [AI] Capone ngạc nhiên vì gặp một người trung thực, liền tặng ông vài nghìn đô la. Đó mới là món tiền Lustig nhắm tới từ đầu.
-      → a satisfied con man in a fedora walking out of a 1930s Chicago building onto a rainy street, neon lights, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
+      → a satisfied con man in a fedora hat walking out of a 1930s Chicago brick building onto a rainy street at night, wet pavement reflecting warm street lamps, no signs, no letters, no neon writing, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
  52 [AI] Phi vụ cuối cùng của Lustig là tiền giả. Từ năm một nghìn chín trăm ba mươi, ông cùng đồng bọn tung ra một lượng lớn tờ đô la giả khắp nước 
       → a counterfeit printing press in a hidden 1930s basement with sheets of fake dollar bills hanging to dry, dim bulb
  53 [=] Những tờ tiền giả ấy lưu hành suốt khoảng năm năm. Cơ quan mật vụ Mỹ phải truy lùng ráo riết mới lần ra đầu mối.

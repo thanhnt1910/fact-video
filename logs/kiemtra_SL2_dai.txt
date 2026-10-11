@@ -1,0 +1,20 @@
+🔎 KIỂM TRA SL2 · video dài
+❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 1 lỗi, 5 cảnh báo
+
+❌ [Soi khung hình · khung 27 (08:48)] Tranh AI minh họa con đà điểu emu bị lỗi dị dạng cơ thể khi có tới 3 chân (thấy rõ 3 cẳng chân và 3 bàn chân tiếp đất trên mặt đường).
+   → Sửa: Tạo lại hoặc đổi tranh minh họa khác vẽ chim emu có đúng 2 chân bình thường, hoặc dùng ảnh chụp tư liệu chim emu.
+⚠️ [Nội dung kịch bản · đoạn 49 và đoạn 50] Mạch logic bị đứt quãng: Đoạn 48 nêu số liệu báo cáo của Meredith (986 con, 9.860 viên đạn), nhưng Đoạn 49 lại chen ngang phản ứng của dư luận tại Anh, khiến Đoạn 50 ('Nghĩa là trung bình đúng mười viên đạn cho một con chim. Ông còn cho rằng...') bị cụt ngữ cảnh và đại từ 'Ông' bị tối nghĩa (dễ nhầm với các nhà điểu học ở đoạn 49).
+   → Sửa: Đổi vị trí Đoạn 50 lên trước Đoạn 49, để nội dung phân tích số liệu và báo cáo của Meredith đi liền sau Đoạn 48, sau đó mới đến phản ứng của các nhà bảo vệ thiên nhiên ở Anh.
+⚠️ [Soi khung hình · khung 1 (00:08)] Trên thành xe tải có hình vẽ cờ biến dạng và cụm chữ/ký tự nguệch ngoạc vô nghĩa do AI tạo ('2Eλamaa').
+   → Sửa: Chỉnh sửa hậu kỳ xóa hoặc làm mờ cụm ký tự vô nghĩa trên cửa và thùng xe.
+⚠️ [Soi khung hình · khung 12 (03:48)] Lời đọc nêu rõ: 'Người chỉ huy là thiếu tá Meredith... Đi cùng ông là hai người lính' (tổng cộng 3 người), nhưng hình vẽ minh họa lại có 4 người lính.
+   → Sửa: Chỉnh sửa tranh vẽ lại đội hình gồm 3 người (1 chỉ huy và 2 binh lính) để khớp với lời đọc.
+⚠️ [Soi khung hình · khung 14 (04:28)] Khung hình bị lỗi chồng đè hai lớp hình ảnh lên nhau (hiệu ứng bóng ma/cross-dissolve chưa dứt điểm), khiến hình ảnh bị mờ và rối mắt.
+   → Sửa: Kiểm tra lại hiệu ứng chuyển cảnh khi dựng video, đảm bảo hình ảnh hiển thị rõ ràng, không bị đứng giữa chừng lúc mờ chồng hình.
+⚠️ [Soi khung hình · khung 16 (05:08)] Lời đọc nói 'gắn súng máy lên xe tải để đuổi theo', nhưng hình vẽ chỉ là một người lính ngồi trên thùng xe cầm súng trường bằng tay, không có bệ gắn súng máy chuyên dụng trên xe tải.
+   → Sửa: Vẽ lại hoặc thay ảnh chiếc xe tải có gắn khẩu súng máy Lewis cố định trên thùng xe cho đúng với mô tả lịch sử.
+
+Nhận xét:
+• Nội dung kịch bản: Kịch bản video dài bám sát lịch sử, số liệu khớp hoàn toàn với kế hoạch và các định dạng khác; chỉ cần đảo vị trí đoạn 49 và 50 để mạch diễn đạt logic, liền mạch hơn.
+• Xem và nghe video: Video đạt chất lượng rất tốt; giọng đọc truyền cảm, đúng từng chữ so với kịch bản, phát âm tên riêng và số liệu chính xác; hình ảnh và ảnh tư liệu khớp chuẩn với nội dung.
+• Soi khung hình: Bộ khung hình minh họa bám sát kịch bản, tạo hình phong cách tranh vẽ 2D đồng bộ; chỉ cần xử lý chi tiết chữ AI nguệch ngoạc trên xe tải ở khung 1. Bộ ảnh bám sát nội dung và phong cách tốt, chỉ cần lưu ý lỗi chồng mờ hình ở khung 14 và vài chi tiết chưa khớp hoàn toàn giữa lời dẫn với tranh minh họa ở khung 12 và 16. Các khung hình nhìn chung đẹp mắt, khớp nội dung và đúng phong cách, ngoại trừ khung 27 tranh AI bị lỗi dị dạng vẽ đà điểu emu có 3 chân.

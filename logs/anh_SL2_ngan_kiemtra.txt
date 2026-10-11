@@ -1,0 +1,9 @@
+KIỂM TRA ẢNH SL2 · video ngắn · 7 ảnh (số thứ tự khớp lưới ảnh anh_SL2_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 · hook scene_00.jpg
+⚠️ 2 · number scene_01.jpg
+     ⚠️ ảnh hơi nhỏ (1920x609)
+✅ 3 · explain scene_02.jpg
+✅ 4 · text scene_03.jpg
+✅ 5 · number scene_04.jpg
+✅ 6 · text scene_05.jpg
+✅ 7 · outro scene_06.jpg

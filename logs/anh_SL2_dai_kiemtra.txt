@@ -1,0 +1,55 @@
+KIỂM TRA ẢNH SL2 · video dài · 44 ảnh (số thứ tự khớp lưới ảnh anh_SL2_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 · Tây Úc · tháng 11/1932 scene_00.jpg
+✅ 2 ·  scene_01.jpg
+✅ 3 ·  scene_02.jpg
+❌ 4 (ảnh mô phỏng AI) ·  mp_182e393bce4b9a1f.jpg
+     ❌ Ảnh AI tạo có sự xuất hiện của nhiều người mặc quân phục và lều trại trong khi mô tả yêu cầu chỉ có một lều và không có người, ngoài ra có sự xuất hiện bất hợp lý của chim đà điểu đứng rất gần khu trại. → Tạo lại ảnh đúng mô tả: chỉ có một lều vải nhỏ, không có người, và một con chim đà điểu đứng ở xa trên đường chân trời.
+✅ 5 · Úc · sau Thế chiến I scene_03.jpg
+✅ 6 ·  scene_04.jpg
+⚠️ 7 · Vùng lúa mì Tây Úc scene_05.jpg
+     ⚠️ ảnh hơi nhỏ (1920x609)
+❌ 8 (ảnh mô phỏng AI) ·  mp_69224e47083d5125.jpg
+     ❌ Mặc dù mô tả yêu cầu 'no people' (không có người), ảnh do AI tạo lại xuất hiện rải rác vài người nhỏ ở hậu cảnh (bên trái và bên phải), không phù hợp với yêu cầu. → Tạo lại ảnh AI theo đúng mô tả ban đầu là hoàn toàn không có người, chỉ tập trung vào cảnh quan khai hoang và túp lều.
+⚠️ 9 ·  scene_06.jpg
+     ⚠️ ảnh hơi mờ (độ nét 46)
+✅ 10 · Thời Đại khủng hoảng ở Úc scene_07.jpg
+✅ 11 ·  scene_08.jpg
+⚠️ 12 ·  scene_09.jpg
+     ⚠️ Ảnh có viền đen ở cạnh dưới màn hình. → Cắt bỏ viền đen ở cạnh dưới để hiển thị sạch sẽ hơn trong video.
+❌ 13 ·  scene_10.jpg
+     ❌ Ảnh chụp hai con chim đà điểu Úc (emu) trong rừng, không liên quan đến câu chuyện lịch sử về người lính ẩn náu (như Onoda hoặc tương tự) → Thay thế bằng ảnh tư liệu đúng sự kiện hoặc bối cảnh lịch sử phù hợp với câu chuyện
+✅ 14 ·  scene_11.jpg
+✅ 15 ·  scene_12.jpg
+✅ 16 ·  scene_13.jpg
+✅ 17 ·  scene_14.jpg
+⚠️ 18 ·  scene_15.jpg
+     ⚠️ ảnh hơi mờ (độ nét 33)
+✅ 19 ·  scene_16.jpg
+✅ 20 (ảnh mô phỏng AI) ·  mp_95326e66fab502ef.jpg
+✅ 21 · Bộ trưởng Quốc phòng George Pearce scene_17.jpg
+⚠️ 22 ·  scene_18.jpg
+     ⚠️ Ảnh minh họa cho lời kể về 'thiếu tá Meredith và hai người lính', nhưng trong ảnh có tới 5 người lính đang tập trung quanh súng máy, không khớp chính xác với số lượng nhân vật được nhắc đến. → Nên sử dụng ảnh tư liệu có đúng số lượng nhân vật (một chỉ huy và hai binh lính) hoặc dùng ảnh góc rộng về pháo binh Úc để minh họa chung.
+✅ 23 · Súng máy Lewis scene_19.jpg
+✅ 24 (ảnh mô phỏng AI) ·  mp_5d10f97e4b204194.jpg
+✅ 25 ·  scene_20.jpg
+✅ 26 (ảnh mô phỏng AI) ·  mp_1391e79e9bb52262.jpg
+✅ 27 ·  scene_21.jpg
+✅ 28 ·  scene_22.jpg
+✅ 29 ·  scene_23.jpg
+✅ 30 ·  scene_24.jpg
+✅ 31 ·  scene_25.jpg
+⚠️ 32 (ảnh mô phỏng AI) ·  mp_f05fd0533bd3ec11.jpg
+     ⚠️ ảnh hơi mờ (độ nét 44)
+✅ 33 (ảnh mô phỏng AI) ·  mp_d0246ab114df5ff2.jpg
+✅ 34 (ảnh mô phỏng AI) ·  mp_e6c4239a8b765e2b.jpg
+⚠️ 35 ·  scene_26.jpg
+     ⚠️ ảnh hơi nhỏ (1024x662)
+✅ 36 ·  scene_27.jpg
+✅ 37 · Tây Úc · 1933 scene_28.jpg
+✅ 38 (ảnh mô phỏng AI) ·  mp_0f39d46bb487dd0a.jpg
+✅ 39 · Hàng rào dài ở Tây Úc · 1926 scene_29.jpg
+✅ 40 ·  scene_30.jpg
+✅ 41 ·  scene_31.jpg
+✅ 42 ·  scene_32.jpg
+✅ 43 ·  scene_33.jpg
+✅ 44 (ảnh mô phỏng AI) ·  mp_7b58102c587bd285.jpg

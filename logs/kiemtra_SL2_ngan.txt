@@ -1,11 +1,5 @@
 🔎 KIỂM TRA SL2 · video ngắn + bài ảnh
-⚠️ NÊN XEM LẠI — 0 lỗi, 1 cảnh báo
+✅ ĐẠT — 0 lỗi, 0 cảnh báo
+(chỉ kiểm tra kỹ thuật, chưa có bước AI)
 
-⚠️ [Bài ảnh · ảnh bài đăng 3] Ảnh tư liệu minh họa binh sĩ đang dùng súng máy Lewis gắn giá ngắm bắn máy bay trên trời (phòng không thời Thế chiến 1), hơi lệch ngữ cảnh tác chiến săn chim emu trên mặt đất tại Úc năm 1932.
-   → Sửa: Nếu có thể, nên thay bằng ảnh súng máy Lewis đặt trên mặt đất/chân hai chạc hoặc ảnh tư liệu liên quan trực tiếp đến Chiến dịch Emu.
-
-Nhận xét:
-• Nội dung kịch bản: Nội dung video ngắn và bài viết khớp chính xác với kế hoạch, số liệu thống nhất, tuân thủ đúng quy chuẩn câu kết và văn phong của kênh.
-• Xem và nghe video: Video khớp hoàn toàn với kịch bản cả về lời đọc, chữ hiển thị và hình ảnh minh họa, không phát hiện lỗi.
-• Soi khung hình: Bộ hình ảnh và chữ hiển thị đồng bộ tốt với lời đọc, tư liệu lịch sử trực quan và không phát hiện lỗi kỹ thuật hay nội dung.
-• Bài ảnh: Bộ ảnh và bài viết có chất lượng tốt, câu chuyện mạch lạc, số liệu chuẩn xác; chỉ lưu ý ảnh minh họa súng máy ở ảnh 3 là súng bắn phòng không.
+Không phát hiện vấn đề nào.

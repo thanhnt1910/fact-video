@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from PIL import Image
 import ai_images, kaggle_draw
-from long_video import WIDE_HINT
+WIDE_HINT = "wide cinematic composition, main subject centered with space above and below"  # giống long_video.py
 ROOT = Path(__file__).resolve().parent
 
 

@@ -34,8 +34,11 @@ MODEL_FILE = "depth_anything_v2_vits.onnx"
 MODEL_URL = "https://github.com/fabio-sim/Depth-Anything-ONNX/releases/download/v2.0.0/depth_anything_v2_vits.onnx"
 DEPTH_VER = "v2s-1"      # đổi khi đổi cách xử lý bản đồ độ sâu -> tính lại
 
-FX_NAMES = ("dust", "embers", "rain", "snow", "mist")
-DEFAULTS = {"parallax": True, "parallax_strength": 1.0, "fx": True, "fx_strength": 1.0}
+FX_NAMES = ("dust", "embers", "rain", "snow", "mist", "rays", "lightning", "flicker", "shake")
+DEFAULTS = {"parallax": True, "parallax_strength": 1.0, "fx": True, "fx_strength": 1.0,
+            "dof": 0.6,              # đổi tiêu điểm theo độ sâu (0 = tắt)
+            "transition": "zoom",    # "zoom" = lao vào ảnh + vệt sáng; "fade" = tan mờ như cũ
+            "light": True}           # tia nắng, chớp, lửa hắt, rung máy
 
 
 def settings(cfg):
@@ -187,12 +190,79 @@ def parallax_maps(xs, ys, d, cw, ch, cam):
     return mx, my
 
 
+# ------------------------------------------------------------------ nhịp thời gian dùng chung (giống hệt bên scene.html)
+def _hash(k):
+    v = math.sin(k * 12.9898 + 78.233) * 43758.5453
+    return v - math.floor(v)
+
+
+def focal(i, p):
+    """Độ sâu đang được lấy nét. Cảnh chẵn: kéo nét từ xa vào gần (lộ chủ thể); cảnh lẻ: nét ở gần, nền mềm."""
+    if i % 2 == 0:
+        e = min(1.0, p / 0.45)
+        e = e * e * (3 - 2 * e)
+        return 0.15 + 0.65 * e
+    return 0.75
+
+
+def lightning(t):
+    """0..1: chớp đôi, khoảng 6,5 giây một lần ở thời điểm ngẫu nhiên cố định."""
+    k = math.floor(t / 6.5)
+    dt = t - (k * 6.5 + _hash(k) * 4.0)
+    if dt < 0 or dt > 0.8:
+        return 0.0
+    v = math.exp(-dt * 9)
+    if dt > 0.2:
+        v += 0.7 * math.exp(-(dt - 0.2) * 11)
+    return min(1.0, v)
+
+
+def flicker(t):
+    """0..1 ánh lửa chập chờn."""
+    v = 0.55 + 0.25 * math.sin(t * 11.3) * math.sin(t * 3.7 + 1.1) + 0.2 * math.sin(t * 23.1 + 2.0)
+    return max(0.0, min(1.0, v))
+
+
+def shake(t):
+    """(dx, dy) theo tỉ lệ khung: rung tay máy nhẹ liên tục + cú rung mạnh khoảng 4 giây một lần."""
+    dx = (math.sin(t * 7.1) + 0.6 * math.sin(t * 13.3 + 1)) * 0.0012
+    dy = (math.cos(t * 6.3) + 0.6 * math.sin(t * 11.7 + 2)) * 0.0012
+    k = math.floor(t / 4.2)
+    dt = t - (k * 4.2 + _hash(k + 3) * 2.0)
+    if 0 <= dt < 1.2:
+        a = 0.010 * math.exp(-dt * 4.5)
+        dx += a * math.sin(dt * 47)
+        dy += a * 0.8 * math.cos(dt * 39)
+    return dx, dy
+
+
+def kick(lt, dur, xf, has_prev=True, has_next=True):
+    """Hệ số phóng to thêm khi chuyển cảnh kiểu "lao vào ảnh": trong lúc cảnh mới hiện lên, cảnh cũ phóng nhanh tới,
+    cảnh mới thu từ to về bình thường -> cảm giác máy quay lao xuyên qua ảnh."""
+    k = 1.0
+    if has_next and lt > dur - xf:
+        q = min(1.0, (lt - (dur - xf)) / xf)
+        k *= 1 + 0.22 * q * q
+    if has_prev and lt < 0:
+        q = min(1.0, -lt / xf)
+        k *= 1 + 0.16 * q * q
+    return k
+
+
 # ------------------------------------------------------------------ tự chọn hiệu ứng hạt
 _KEYS = [
     ("rain", r"\b(rain|rainy|storm|stormy|downpour|monsoon|thunder|lightning)\b|mưa|bão|giông"),
     ("snow", r"\b(snow|snowy|blizzard|winter|frozen|frost|icy|antarctic|arctic|ural)\b|tuyết|băng giá|nam cực|bắc cực"),
     ("embers", r"\b(fire|fires|flame|flames|burning|burnt|candle|candles|torch|torches|campfire|ember|embers|explosion|explode|blaze|furnace|lamp light|lamplight)\b|lửa|cháy|đuốc|nến|nổ"),
     ("mist", r"\b(mist|misty|fog|foggy|haze|hazy|smoke|smoky|steam|jungle|rainforest|swamp|dawn|moor)\b|sương|khói|rừng rậm|rừng"),
+]
+
+
+_MODS = [   # hiệu ứng ánh sáng / máy quay đi kèm
+    ("lightning", r"\b(storm|stormy|thunder|thunderstorm|lightning)\b|bão|sấm|sét|giông"),
+    ("flicker", r"\b(fire|fires|flame|flames|burning|candle|candles|torch|torches|campfire|lamp|lamps|lantern|furnace)\b|lửa|cháy|đuốc|nến|đèn"),
+    ("rays", r"\b(sunlight|sunbeam|sunbeams|sun rays|morning light|jungle|forest|rainforest|cathedral|church|temple|window light|dawn)\b|nắng|bình minh|rừng"),
+    ("shake", r"\b(explosion|explode|exploded|bomb|bombs|bombing|blast|cannon|cannons|artillery|bombard|bombardment|shelling|earthquake|crash|collapse)\b|nổ|pháo|bom|động đất|sập"),
 ]
 
 
@@ -205,10 +275,15 @@ def pick_fx(item, default="dust"):
     text = " ".join(str(x) for x in (item.get("ai"), im.get("url"), im.get("credit"),
                                      item.get("text"), item.get("voice"), item.get("sub"))
                     if x).lower()
+    out = [default] if default else []
     for name, rx in _KEYS:
         if re.search(rx, text):
-            return "mist+dust" if name == "mist" else name
-    return default
+            out = ["mist", "dust"] if name == "mist" else [name]
+            break
+    for name, rx in _MODS:
+        if re.search(rx, text) and name not in out:
+            out.append(name)
+    return "+".join(out)
 
 
 def _norm_fx(fx):
@@ -324,22 +399,84 @@ class FX:
             self._mist = np.concatenate([acc, acc], axis=1)        # quấn vòng liền mạch
         return self._mist
 
-    def apply(self, img, fx, t, opacity=1.0):
+    def _rays_tex(self):
+        """Hai bộ tia nắng chéo từ góc trên (vẽ 1 lần), đổi qua lại chậm để tia sáng "thở"."""
+        if getattr(self, "_rays", None) is None:
+            import cv2
+            out = []
+            for seed in (3, 8):
+                g = np.random.default_rng(seed)
+                L = np.zeros((self.lh, self.lw), np.float32)
+                ox, oy = -0.15 * self.lw, -0.25 * self.lh
+                for _ in range(9):
+                    ang = math.radians(25 + g.random() * 45)
+                    wdt = math.radians(1.5 + g.random() * 4)
+                    ln = 2.2 * max(self.lw, self.lh)
+                    pts = np.array([[ox, oy],
+                                    [ox + ln * math.cos(ang - wdt), oy + ln * math.sin(ang - wdt)],
+                                    [ox + ln * math.cos(ang + wdt), oy + ln * math.sin(ang + wdt)]], np.int32)
+                    tmp = np.zeros_like(L)
+                    cv2.fillConvexPoly(tmp, pts, 0.35 + g.random() * 0.65)
+                    L = np.maximum(L, tmp)
+                L = cv2.GaussianBlur(L, (0, 0), sigmaX=self.lh * 0.025)
+                yy, xx = np.mgrid[0:self.lh, 0:self.lw].astype(np.float32)
+                L *= np.exp(-np.hypot(xx - ox, yy - oy) / (1.1 * max(self.lw, self.lh)))   # mờ dần khi xa nguồn
+                out.append(L / max(1e-6, L.max()))
+            self._rays = out
+        return self._rays
+
+    def _add_light(self, img, a2d, color):
+        """Cộng sáng một lớp xám (nửa độ phân giải, 0..1) nhuộm màu."""
+        import cv2
+        a = cv2.resize(a2d, (self.w, self.h), interpolation=cv2.INTER_LINEAR)
+        lay = (a[..., None] * np.array(color, np.float32)).clip(0, 255).astype(np.uint8)
+        return cv2.add(img, lay)
+
+    def leak(self, img, q):
+        """Vệt sáng ấm quét ngang lúc chuyển cảnh (q: 0..1 tiến độ chuyển cảnh)."""
+        import cv2
+        a = math.sin(math.pi * q)
+        if a <= 0.01:
+            return img
+        yy, xx = np.mgrid[0:self.lh // 2, 0:self.lw // 2].astype(np.float32)
+        cx, cy = (-0.2 + 1.4 * q) * self.lw / 2, 0.35 * self.lh / 2
+        m = np.exp(-(((xx - cx) / (0.55 * self.lw / 2)) ** 2 + ((yy - cy) / (0.9 * self.lh / 2)) ** 2))
+        lay = cv2.resize(m * (0.28 * a * self.k), (self.w, self.h), interpolation=cv2.INTER_LINEAR)
+        out = img.astype(np.float32)
+        out += lay[..., None] * np.array([255, 150, 70], np.float32)
+        out = out * (1 + 0.05 * a)
+        return out.clip(0, 255).astype(np.uint8)
+
+    def apply(self, img, fx, t, opacity=1.0, light=True):
         """img: RGB uint8 HxW (đúng w, h đã khai báo). Trả về ảnh mới."""
         import cv2
         names = _norm_fx(fx)
         if not names or opacity <= 0.01 or self.k <= 0:
             return img
+        if light and "flicker" in names:     # ánh lửa hắt: cả cảnh ấm lên / tối đi theo nhịp lửa
+            f = flicker(t)
+            g = 0.92 + 0.14 * f * self.k
+            img = (img.astype(np.float32) * np.array([g * 1.04, g, g * 0.90], np.float32)).clip(0, 255).astype(np.uint8)
+        if light and "rays" in names:
+            r1, r2 = self._rays_tex()
+            w = 0.5 + 0.5 * math.sin(t * 0.35)
+            a = (r1 * w + r2 * (1 - w)) * (0.32 + 0.08 * math.sin(t * 0.9)) * self.k * opacity
+            img = self._add_light(img, a, (255, 236, 196))
+        if light and "lightning" in names:
+            v = lightning(t) * self.k * opacity
+            if v > 0.01:
+                img = (img.astype(np.float32) * (1 + 0.5 * v) + 30 * v * np.array([0.85, 0.9, 1.0], np.float32)) \
+                    .clip(0, 255).astype(np.uint8)
         if "mist" in names:
             tex = self._mist_tex()
             ox = int((t * self.lw * 0.025) % (self.lw * 2))
             m = tex[:, ox:ox + self.lw]
             ox2 = int((t * self.lw * 0.045 + self.lw * 0.7) % (self.lw * 2))
             m = 0.6 * m + 0.4 * tex[:, ox2:ox2 + self.lw]
-            a = cv2.resize(m, (self.w, self.h), interpolation=cv2.INTER_LINEAR) * (0.22 * self.k * opacity)
+            a = cv2.resize(m, (self.w, self.h), interpolation=cv2.INTER_LINEAR) * (0.15 * self.k * opacity)
             a3 = a[..., None]
             img = (img.astype(np.float32) * (1 - a3) + np.array([214, 206, 192], np.float32) * a3).astype(np.uint8)
-        rest = [n for n in names if n != "mist"]
+        rest = [n for n in names if n in PRESETS]
         if rest:
             L = self._layer(rest, t)
             L = cv2.resize(L, (self.w, self.h), interpolation=cv2.INTER_LINEAR)

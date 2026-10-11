@@ -171,12 +171,18 @@ Thêm `"image": {"query": "octopus underwater"}` vào cảnh. Khi dựng, công 
 - **Parallax 2.5D:** máy ước lượng độ sâu của ảnh (mô hình Depth Anything V2 Small, chạy CPU, tải 1 lần khoảng 100 MB). Khi máy quay lướt hoặc đẩy vào, vật ở gần dịch nhiều hơn vật ở xa, ảnh trông như cảnh 3D. Bản đồ độ sâu được lưu đệm trong `assets/ai_cache/depth`.
 - **Lớp hạt:** `dust` (bụi bay, mặc định), `embers` (tàn lửa), `rain` (mưa), `snow` (tuyết), `mist` (sương). Máy tự chọn theo mô tả ảnh và lời kể ("jungle, misty" → sương; "storm" → mưa). Muốn chọn tay, ghi vào cảnh hoặc đoạn video dài: `"fx": "rain"`, `"fx": "snow+dust"`, hoặc `"fx": "none"`.
 
+- **Ánh sáng và máy quay** (tự chọn theo nội dung, ghi tay được trong `"fx"`): `rays` (tia nắng xuyên rừng), `lightning` (chớp khi có bão), `flicker` (ánh lửa hắt chập chờn), `shake` (rung máy khi có nổ, pháo kích).
+- **Đổi tiêu điểm:** ảnh có độ sâu sẽ mờ nhẹ phần xa hoặc gần, cảnh chẵn kéo nét từ xa vào chủ thể.
+- **Chuyển cảnh "lao vào ảnh":** cảnh cũ phóng nhanh tới, cảnh mới thu từ to về, kèm vệt sáng ấm quét ngang.
+
 Chỉnh trong `config.json`:
 ```
-"motion": { "parallax": true, "parallax_strength": 1.0, "fx": true, "fx_strength": 1.0 }
+"motion": { "parallax": true, "parallax_strength": 1.0, "fx": true, "fx_strength": 1.0,
+            "dof": 0.6, "transition": "zoom", "light": true }
 ```
+`dof` 0 = tắt đổi tiêu điểm; `transition` `"fade"` = tan mờ như cũ; `light` false = tắt tia nắng, chớp, lửa hắt, rung máy.
 `parallax_strength` 0.5 = nhẹ hơn, 1.5 = mạnh hơn. Đặt `false` để tắt. Lỗi mô hình hay WebGL thì cảnh đó tự quay về chuyển động cũ, video không hỏng.
-Ghi chú: dựng chậm hơn khoảng 1,5–1,8 lần.
+Ghi chú: dựng chậm hơn khoảng 2–3 lần (video ngắn khoảng 1,8 lần, video dài khoảng 3 lần).
 
 **Dựng thử không ghi đè bản cũ:** chạy workflow "Dựng video" với ô *Hậu tố* = `-thu`, kết quả nằm ở Releases tag `video-<mã>-thu`.
 

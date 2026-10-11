@@ -205,7 +205,11 @@ class Compositor:
                     dp = make_depth_plate(s["src"], s["depth"], s.get("fit"))
                 except Exception:
                     dp = None
-            self.plates[i] = (pl, dp)
+            bl = None
+            if dp is not None and self.mc["dof"] > 0 and not s.get("fit"):
+                import cv2
+                bl = cv2.GaussianBlur(pl, (0, 0), sigmaX=PW * 0.0045)
+            self.plates[i] = (pl, dp, bl)
         return self.plates[i]
 
     def shot_frame(self, i, lt):
@@ -220,15 +224,20 @@ class Compositor:
             tx = [0, 0, -2.5 + 5 * p, 2.5 - 5 * p][d] / 100 * PW
             ty = [-1 * p, 1 * p, 0, 0][d] / 100 * PH
         # CSS: scale(z) translate(t) quanh tâm -> điểm khung X ứng với điểm ảnh (X - tâm)/z - t + tâm_ảnh
+        import motion
+        if self.mc["transition"] == "zoom":
+            z *= motion.kick(lt, s["dur"], XF, i > 0, i + 1 < len(self.shots))
+        if self.mc["light"] and "shake" in str(s.get("fx", "")):
+            dx, dy = motion.shake(s["start"] + lt)
+            tx, ty = tx + dx * W, ty + dy * H
         a = 1 / z
         m = np.array([[a, 0, PW / 2 - tx - (W / 2) * a + 0.5 * a - 0.5],
                       [0, a, PH / 2 - ty - (H / 2) * a + 0.5 * a - 0.5]], np.float64)
-        plate, dp = self.plate(i)
+        plate, dp, bl = self.plate(i)
         if dp is None:
             return cv2.warpAffine(plate, m, (W, H), flags=cv2.INTER_LINEAR | cv2.WARP_INVERSE_MAP,
                                   borderMode=cv2.BORDER_REPLICATE)
         # parallax 2.5D: tọa độ lấy mẫu = Ken Burns như cũ + độ lệch theo độ sâu
-        import motion
         if self.grid is None:
             self.grid = np.meshgrid(np.arange(W, dtype=np.float32), np.arange(H, dtype=np.float32))
         xs = self.grid[0] * np.float32(a) + np.float32(m[0, 2])
@@ -237,7 +246,13 @@ class Compositor:
         kind = [0, 2, 3, 1][i % 4]      # cùng hướng với kiểu Ken Burns của cảnh
         cam = motion.camera(kind, p, self.mc["parallax_strength"] * (0.6 if s.get("fit") else 1.0))
         mx, my = motion.parallax_maps(xs, ys, dz, PW, PH, cam)
-        return cv2.remap(plate, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+        sharp = cv2.remap(plate, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+        if bl is None:
+            return sharp
+        # đổi tiêu điểm: chỗ xa độ sâu đang lấy nét thì mờ dần (như ống kính máy quay)
+        blur = cv2.remap(bl, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+        wb = np.clip(np.abs(dz - np.float32(motion.focal(i, p))) * np.float32(1.2), 0, 1) * np.float32(self.mc["dof"])
+        return cv2.blendLinear(sharp, blur, 1 - wb, wb)
 
     @staticmethod
     def _over(img, layer):
@@ -258,6 +273,7 @@ class Compositor:
         if ci >= 0 and cv >= 0.999:
             return self.card_img[ci]
         img = self.bg
+        leak_q = 0.0
         for i, s in enumerate(self.shots):
             lt = t - s["start"]
             if lt < -XF or lt > s["dur"] + XF:
@@ -266,10 +282,14 @@ class Compositor:
             o = b if s["start"] <= 0.01 else min(a, b)
             if o <= 0.002:
                 continue
+            if i > 0 and lt < 0:
+                leak_q = max(leak_q, a)
             fr = self.shot_frame(i, lt)
             if self.fx is not None and s.get("fx"):
-                fr = self.fx.apply(fr, s["fx"], t)
+                fr = self.fx.apply(fr, s["fx"], t, light=self.mc["light"])
             img = fr if o >= 0.998 else cv2.addWeighted(img, 1 - o, fr, o, 0)
+        if leak_q > 0 and self.fx is not None and self.mc["transition"] == "zoom":
+            img = self.fx.leak(img, leak_q)
         lv = round((_clamp(lamp_level(t), 0.68, 0.92) - 0.68) / 0.24 * (LAMP_LEVELS - 1))
         img = self._over(img, self.ov[lv])
         img = self._over(img, self.noise[int(t * 12) % NOISE_VARIANTS])

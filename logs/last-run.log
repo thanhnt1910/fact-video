@@ -1,34 +1,45 @@
 
-===== BA1 (video dài) =====
-▶️  Video dài BA1: Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste
+===== SL2: kiểm tra kịch bản trước khi dựng =====
+
+===== ST1: kiểm tra kịch bản trước khi dựng =====
+
+===== SL2 (video dài) =====
+▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
   🖼️  Ảnh cho video dài
   🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 10:17 · 41 cảnh ảnh
-     14821 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (122 giây)
-     … 2/6 đoạn (124 giây)
-     … 3/6 đoạn (240 giây)
-     … 4/6 đoạn (242 giây)
-     … 5/6 đoạn (355 giây)
-     … 6/6 đoạn (355 giây)
-     dựng khung hình xong trong 355 giây
-  🎵 Nhạc nền: Investigations
-✅ Video dài: BA1_dai.mp4 (10:17)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (23s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+  ⏱️  Thời lượng 09:20 · 43 cảnh ảnh
+     13459 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (183 giây)
+     … 2/6 đoạn (189 giây)
+     … 3/6 đoạn (358 giây)
+     … 4/6 đoạn (363 giây)
+     … 5/6 đoạn (536 giây)
+     … 6/6 đoạn (536 giây)
+     dựng khung hình xong trong 537 giây
+  🎵 Nhạc nền: Master of the Feast
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: SL2_dai.mp4 (09:20)
 
-===== PV1 (video dài) =====
-▶️  Video dài PV1: Kẻ lừa đảo đã bán tháp Eiffel như thế nào? | Victor Lustig
+===== ST1 (video dài) =====
+▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
   🖼️  Ảnh cho video dài
-  🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 09:43 · 45 cảnh ảnh
-     14000 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (114 giây)
-     … 2/6 đoạn (115 giây)
-     … 3/6 đoạn (226 giây)
-     … 4/6 đoạn (231 giây)
-     … 5/6 đoạn (336 giây)
-     … 6/6 đoạn (336 giây)
-     dựng khung hình xong trong 336 giây
-  🎵 Nhạc nền: Spy Glass
-✅ Video dài: PV1_dai.mp4 (09:43)
+  🎙️  Giọng Gemini Sadaltager (9 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (23s)
+  ⏱️  Thời lượng 10:57 · 44 cảnh ảnh
+     15785 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (209 giây)
+     … 2/6 đoạn (210 giây)
+     … 3/6 đoạn (418 giây)
+     … 4/6 đoạn (430 giây)
+     … 5/6 đoạn (629 giây)
+     … 6/6 đoạn (630 giây)
+     dựng khung hình xong trong 630 giây
+  🎵 Nhạc nền: Dark Times
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: ST1_dai.mp4 (10:57)
 
-Xong video ngắn: - · video dài: BA1, PV1
+Xong video ngắn: - · video dài: SL2, ST1

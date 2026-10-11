@@ -9,13 +9,13 @@
   5 [=] Hơn một trăm năm mươi năm sau, bí ẩn về con tàu Mary Celeste vẫn chưa có lời giải. Và câu chuyện thật còn kỳ lạ hơn những lời đồn mà bạn từn
       → (dùng ảnh đoạn trước)
   6 [AI] Câu chuyện bắt đầu ở Spencer's Island, một làng đóng tàu nhỏ ở Nova Scotia, Canada. Năm một nghìn tám trăm sáu mươi mốt, một con tàu hai cột
-      → a small 19th-century shipyard village on the coast of Nova Scotia with a wooden two-masted ship being built on the shore, pine forest
+      → a calm small 19th-century shipyard on the coast of Nova Scotia, a wooden two-masted ship being built on wooden supports on the shore, a few shipwrights calmly working with hammers and saws, pine forest behind, sunrise
   7 [TL] Tên ban đầu của nó không phải là Mary Celeste, mà là Amazon.
       → "Mary Celeste as Amazon in 1861.jpg" – không rõ tác giả, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_18
   8 [=] Ngay từ những năm đầu, con tàu đã gặp hết tai nạn này đến tai nạn khác. Thủy thủ bắt đầu thì thầm rằng nó là một con tàu xui xẻo.
       → (dùng ảnh đoạn trước)
   9 [AI] Năm một nghìn tám trăm sáu mươi bảy, một cơn bão đánh dạt con tàu vào bờ biển. Nó bị hư hỏng nặng và bị bỏ lại như một xác tàu.
-      → a damaged wooden sailing ship stranded on a rocky shore after a storm, broken mast, grey sky
+      → a damaged wooden two-masted sailing ship stranded on a rocky shore after a storm, broken mast, torn sails, grey sky, no people at all, no crew, no children
  10 [=] Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste.
       → (dùng ảnh đoạn trước)
  11 [TL] Năm một nghìn tám trăm bảy mươi hai, thuyền trưởng của Mary Celeste là Benjamin Briggs, ba mươi bảy tuổi, một người đi biển giàu kinh nghiệm
@@ -37,7 +37,7 @@
  19 [=] Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste.
       → (dùng ảnh đoạn trước)
  20 [AI] Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.
-      → the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence, completely deserted, no people at all, no crew
+      → close-up of the empty wooden deck of an abandoned 19th-century sailing ship, coiled ropes, an open hatch, torn sails flapping overhead, overcast, eerie, ghost ship, no human figures at all
  21 [=] Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại.
       → (dùng ảnh đoạn trước)
  22 [AI] Thuyền trưởng Morehouse phải quyết định: bỏ mặc con tàu ma này, hay chia bớt người để đưa nó về cảng. Đường còn xa, mà mỗi tàu sẽ chỉ còn rấ
@@ -45,7 +45,7 @@
  23 [AI] Phòng thuyền trưởng vẫn còn quần áo, sách vở và đồ đạc của cả gia đình. Không có dấu hiệu đánh nhau hay cướp bóc.
       → a captain's cabin on a 19th-century ship with clothes on a bunk, books on a shelf and a small melodeon, untouched, quiet light
  24 [AI] Trong khoang có khoảng một mét nước. Nhiều, nhưng không đủ để làm con tàu chìm. Mary Celeste vẫn đi biển tốt.
-      → seawater sloshing in the dark lower hold of a wooden ship among floating barrels, lantern reflection on the water, completely deserted, no people at all, no crew
+      → close-up of dark seawater sloshing in the lower hold of a wooden ship among floating wooden barrels, a single lantern hanging from a beam, reflections, no human figures at all
  25 [=] Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu.
       → (dùng ảnh đoạn trước)
  26 [=] Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn.
@@ -93,7 +93,7 @@
  47 [AI] Khi dỡ hàng ở Genoa, người ta phát hiện chín thùng đã rỗng. Hơi cồn rò rỉ có thể đã tích tụ trong khoang.
       → dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty, the workers look puzzled, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
  48 [AI] Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.
-      → a faint blue flash of light glowing from inside the open cargo hatch of a 19th-century sailing ship at night, a startled sea captain in a plain dark coat and cap stepping back from the hatch on the deck, tense, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children
+      → a 19th-century sea captain in a plain dark coat and cap stepping back in alarm from an open cargo hatch on a sailing ship's deck at night, a faint blue glow coming from the hatch, only one person in the scene, serious mood, nobody is smiling
  49 [=] Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạ
       → (dùng ảnh đoạn trước)
  50 [AI] Một giả thuyết khác: máy bơm bị tắc, cây gậy đo nước báo sai, khiến thuyền trưởng tưởng tàu đang chìm nhanh.

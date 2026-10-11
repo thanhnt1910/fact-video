@@ -1,5 +1,5 @@
   1 [AI] Tháng mười một năm một nghìn chín trăm ba mươi hai, miền Tây nước Úc. Một đơn vị quân đội mang theo hai khẩu súng máy và mười nghìn viên đạn
-      → a 1930s army truck on a dusty red outback road in Western Australia with soldiers in slouch hats and a machine gun in the back, wide landscape, Australian soldiers of 1932 in khaki uniforms and slouch hats
+      → one plain olive 1930s army truck with no markings driving on a dusty red outback road in Western Australia, three Australian soldiers riding in it, a machine gun on a tripod in the back, wide landscape, determined faces, Australian soldiers of 1932 in khaki uniforms and slouch hats, serious mood, nobody is smiling, absolutely no text, no letters, no numbers, no writing anywhere
   2 [TL] Kẻ thù của họ không phải là quân đội nước nào. Kẻ thù là… một đàn chim.
       → "Dromaius novaehollandiae -Australia -adult with juveniles-8.jpg" – Jarrod, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_nova
   3 [AI] Một đàn chim không biết bay, nhưng chạy rất nhanh. Khoảng hai mươi nghìn con.
@@ -43,7 +43,7 @@
  22 [=] Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc.
       → (dùng ảnh đoạn trước)
  23 [AI] Năm ấy, trên đường đi, chúng gặp những cánh đồng lúa mì mênh mông vừa được khai phá, cùng những bể nước mới đào. Một bữa tiệc khổng lồ.
-      → three emus spaced apart trampling a golden wheat field near a broken wire fence, side view, a farmhouse with a windmill in the background, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap
+      → three emus spaced far apart walking through a golden wheat field near a broken wire fence, side view, each emu shows its full head, neck and body, a farmhouse with a windmill in the background, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap
  24 [=] Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào.
       → (dùng ảnh đoạn trước)
  25 [AI] Những người nông dân, vốn là lính cũ, nghĩ đến cách giải quyết quen thuộc nhất với họ: súng máy.
@@ -67,7 +67,7 @@
  34 [=] Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng.
       → (dùng ảnh đoạn trước)
  35 [AI] Hơn một nghìn con emu tiến lại gần. Khẩu súng bắt đầu nổ. Nhưng chỉ sau mười mấy con trúng đạn… khẩu súng bị kẹt.
-      → a frustrated soldier kneeling behind a Lewis light machine gun on a bipod, the gun is jammed and he is tugging at it, in the background five emus running away spaced apart, outback, comedic tension, Australian soldiers of 1932 in khaki uniforms and slouch hats, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap
+      → a frustrated soldier kneeling behind a Lewis light machine gun on a bipod, tugging at the jammed gun, in the far background four emus running away in a line, spaced well apart, each with one head, outback, comedic tension, the emus are tall flightless Australian birds with shaggy grey-brown feathers, long thin necks and small dark heads, not turkeys, not ostriches, no red wattles, anatomically correct birds: every emu has exactly one head, one neck and two legs, the emus are clearly separated from each other and do not overlap, Australian soldiers of 1932 in khaki uniforms and slouch hats
  36 [=] Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy.
       → (dùng ảnh đoạn trước)
  37 [AI] Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn
@@ -107,7 +107,7 @@
  54 [AI] Có nhà nghiên cứu còn cho rằng chiến dịch mang cả mục đích chính trị: chính phủ muốn tỏ ra quan tâm đến miền Tây, khi vùng này đang có phong
       → a 1930s political rally in a city street, a crowd of men and women in hats listening to a speaker on a wooden stage, plain blank banners with no writing, bunting flags, sepia tones
  55 [AI] Nông dân còn xin quân đội giúp thêm nhiều lần nữa, vào những năm một nghìn chín trăm ba mươi tư, bốn mươi ba và bốn mươi tám. Lần nào cũng b
-      → a farmer reading a rejection letter at his kitchen table in a simple outback homestead, disappointed, 1940s
+      → a disappointed old farmer reading a letter at his kitchen table in a simple outback homestead, the letter paper is blank with no writing, 1940s, absolutely no text, no letters, no numbers, no writing anywhere
  56 [=] Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận
       → (dùng ảnh đoạn trước)
  57 [=] Thay vào đó, chính quyền dùng cách treo thưởng. Chỉ trong sáu tháng của năm một nghìn chín trăm ba mươi tư, đã có hơn năm mươi bảy nghìn suấ

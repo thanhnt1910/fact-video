@@ -29,7 +29,7 @@
  15 [=] Người ta gọi nó là chiếc hộp Rumani. Tờ tiền nhả ra là tiền thật, nên ai kiểm tra cũng thấy đúng. Chính mắt họ nhìn thấy, sao còn nghi ngờ đ
       → (dùng ảnh đoạn trước)
  16 [AI] Thật ra, tờ tiền thứ hai đã được giấu sẵn bên trong từ trước. Trong hộp chỉ có vài tờ như thế, đủ để người mua tin là thật.
-      → the inside of an open wooden box revealing a hidden compartment with a few banknotes, magician's trick, close-up
+      → close-up of the inside of an open polished wooden box on a table, a hidden secret compartment revealing a few banknotes, magician's trick, no people
  17 [AI] Người ta trả những khoản tiền khổng lồ để mua cỗ máy. Đến khi nó hết in, Lustig đã cao chạy xa bay từ lâu.
       → a frustrated man in a 1920s suit staring at an empty wooden box in an empty hotel room, open window, curtains blowing
  18 [AI] Nhưng phi vụ nổi tiếng nhất của Lustig chưa phải là chiếc hộp. Nó bắt đầu từ một bài báo, ở Paris.
@@ -45,7 +45,7 @@
  23 [TL] Đến năm một nghìn chín trăm hai mươi lăm, tòa tháp đã cũ. Sơn bong tróc, chi phí bảo dưỡng ngày càng đắt.
       → "Tour Eiffel, peinture (peintre en équilibre sur un escalier de la Tour Eiffel, en septembre 1907) - btv1b6913298g.jpg" – Agence Rol. Agence
  24 [AI] Cứ khoảng bảy năm, tòa tháp lại phải sơn lại toàn bộ, tốn hàng chục tấn sơn và cả trăm thợ leo trèo trên những thanh sắt.
-      → painters with brushes and paint buckets on ropes working on the iron girders high up on the Eiffel Tower in the 1920s, the rooftops of Paris far below, only one tower in the scene, no second tower in the background
+      → close-up of three painters with brushes and paint buckets sitting on the brown iron lattice girders of a giant iron tower, painting the metal, the rooftops of Paris far below them, 1920s, the view looks down at the city, no other towers, absolutely no text, no letters, no numbers, no writing anywhere
  25 [TL] Một tờ báo viết về chuyện đó, và nhắc rằng có người còn muốn dỡ bỏ tòa tháp. Lustig đọc bài báo… và mỉm cười.
       → "Avenue de Versailles et la Tour Eiffel - Maurice Utrillo.jpg" – Maurice Utrillo, Public domain (https://commons.wikimedia.org/wiki/File:Ave
  26 [AI] Lustig thuê người làm giả giấy tờ có in tiêu đề của chính phủ Pháp. Ông ta tự xưng là Phó Tổng Giám đốc của Bộ Bưu chính và Điện báo.
@@ -71,13 +71,13 @@
  36 [AI] Lúc ấy, Lustig làm một điều rất khôn: ông ta thú nhận rằng lương quan chức thấp, và gợi ý Poisson đưa thêm tiền hối lộ.
       → two men in a quiet corner of a 1920s hotel bar: the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit, discreetly sliding an envelope across the table to a nervous plump middle-aged balding businessman with round glasses and no moustache, smoky
  37 [AI] Lời đòi hối lộ lại làm Poisson yên tâm. Ông nghĩ: chỉ quan chức thật mới đòi tiền như thế. Ông trả cả tiền mua tháp lẫn tiền hối lộ.
-      → a stack of 1920s French franc banknotes being counted on a desk next to an official-looking contract, sepia
+      → a relieved plump balding middle-aged businessman with round glasses handing a stack of 1920s French franc banknotes across a desk to the con man, a blank contract with a red wax seal beside it, sepia, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit, absolutely no text, no letters, no numbers, no writing anywhere
  38 [=] Theo một số nguồn, tổng số tiền vào khoảng bảy mươi nghìn franc, một gia tài vào thời đó.
       → (dùng ảnh đoạn trước)
  39 [=] Poisson cầm trong tay những tờ giấy có dấu đỏ của chính phủ, tin rằng mình sắp trở thành người nổi tiếng nhất giới buôn sắt Paris.
       → (dùng ảnh đoạn trước)
  40 [AI] Lustig nhận tiền, rồi nhanh chóng rời Pháp sang nước Áo.
-      → a realistic black 1920s steam locomotive pulling out of a grand Paris railway station with iron and glass roof, clouds of steam, a man with a leather suitcase looking out of a carriage window, the locomotive is a normal machine with no face, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
+      → a man with slicked-back dark hair and a thin moustache in a dark suit holding a leather suitcase, looking out of the window of a passenger train carriage as it leaves a grand Paris railway station with a glass roof, steam, 1920s
  41 [AI] Lustig ngày nào cũng mở báo, chờ đọc tin mình bị truy nã. Nhưng không có một dòng nào.
       → a man in a hotel room in Vienna reading several newspapers spread on a bed, morning light, 1920s, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
  42 [AI] Poisson đã quá xấu hổ để báo cảnh sát. Ông không muốn cả Paris biết mình từng ngây thơ mua tháp Eiffel.
@@ -107,7 +107,7 @@
  54 [AI] Ngày mười tháng năm năm một nghìn chín trăm ba mươi lăm, ông bị bắt ở New York. Một chiếc chìa khóa dẫn cảnh sát đến tủ khóa ở ga tàu điện n
       → a metal locker at a 1930s New York subway station opened by detectives, stacks of banknotes inside, flashlight beam
  55 [AI] Một ngày trước phiên tòa, Lustig giả ốm, rồi trèo xuống từ cửa sổ nhà giam bằng một sợi dây tự làm.
-      → a rope made of knotted white bedsheets hanging down from a high barred window of a grey 1930s city jail building at night, full moon, empty street below, no people, dramatic
+      → a rope made of knotted white bedsheets hanging down the outside stone wall of a grey 1930s city jail, from a high barred window to the dark street below, night, full moon, no people, absolutely no text, no letters, no numbers, no writing anywhere
  56 [TL] Cảnh sát liên bang phát lệnh truy nã khắp nước Mỹ. Hai mươi bảy ngày sau, ông bị bắt lại ở Pittsburgh.
       → "176656691 dac54e5c-86c6-43e4-956c-db508d3b4780.jpg" – FBI, Public domain (https://commons.wikimedia.org/wiki/File:176656691_dac54e5c-86c6-4
  57 [=] Tháng mười hai năm ấy, đứng trước tòa, kẻ lừa đảo lừng danh cuối cùng đã nhận tội.

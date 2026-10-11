@@ -1,32 +1,16 @@
 🔎 KIỂM TRA BA1 · video dài
-❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 4 lỗi, 8 cảnh báo
+❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 1 lỗi, 3 cảnh báo
 
-❌ [Kỹ thuật · Video dài 00:53] mất giọng đọc 8.3 giây
-   → Sửa: nghe lại đoạn này; đọc lại câu bị thiếu
-❌ [Soi khung hình · khung 9 (02:15)] Lời đọc nhắc đến việc bà Sarah mang theo 'cây đàn phong cầm nhỏ' (melodeon/harmonium), nhưng hình minh họa AI lại vẽ bà đang chơi một cây đàn dây có cần giống guitar/ukulele.
-   → Sửa: Vẽ lại tranh minh họa đúng nhạc cụ đàn phong cầm (harmonium/melodeon nhỏ có phím bấm) hoặc thay thế bằng hình ảnh phù hợp với lời đọc.
-❌ [Soi khung hình · khung 14 (03:32)] Trên đỉnh cột buồm của con tàu phía sau (tàu Mary Celeste) lại treo cờ hải tặc (cờ đen hình đầu lâu xương chéo - Jolly Roger). Đây là tàu buôn thương mại bị bỏ hoang, không phải tàu cướp biển, chi tiết này sai lệch hoàn toàn bản chất sự việc.
-   → Sửa: Chỉnh sửa xóa bỏ hình vẽ cờ hải tặc trên cột buồm hoặc thay bằng cờ hàng hải phù hợp.
-❌ [Xem và nghe video · 06:12] Nhãn chữ ở góc dưới bên trái màn hình ghi 'ARTHUR CONAN DOYLE · 1984' trong khi kịch bản và giọng đọc là năm 1884 (sai mốc thời gian 100 năm).
-   → Sửa: Sửa lại nhãn chữ thành 'ARTHUR CONAN DOYLE · 1884'.
-⚠️ [Nội dung kịch bản · Đoạn 37] Cụm từ 'Một người mới, một thủy thủ đoàn mới' bị thiếu danh từ chỉ chức danh ('thuyền trưởng'), khiến câu văn lủng củng và tối nghĩa.
-   → Sửa: Sửa 'Một người mới' thành 'Một thuyền trưởng mới'.
-⚠️ [Nội dung kịch bản · Đoạn 39] Giải thích 'Thủy thủ Dei Gratia mất hai tiếng mới trèo lên được tàu. Không thể có thức ăn nào còn ấm' bị sai lệch về logic. Lý do thực tế chi tiết này là bịa đặt vì con tàu đã trôi dạt ít nhất 9 ngày (từ 25/11 đến 4/12) và khi trèo lên tàu thực tế hoàn toàn không có thức ăn dọn sẵn trên bàn, chứ không phải do mất 2 tiếng tiếp cận tàu.
-   → Sửa: Sửa thành: 'Những chi tiết ấy là bịa đặt. Con tàu đã trôi dạt suốt chín ngày trước khi được tìm thấy, và trong phòng bếp thực tế không hề có bữa ăn nào dọn sẵn.'
-⚠️ [Soi khung hình · khung 11 (02:42)] Hậu cảnh cảng New York năm 1872 nhưng tranh AI vẽ lẫn các tòa nhà cao tầng hiện đại ở góc trái và công trình kiến trúc kiểu châu Âu (nhìn giống Tòa nghị viện Budapest) ở góc phải, sai thời đại và bối cảnh lịch sử.
-   → Sửa: Tạo lại ảnh minh họa cảng New York thế kỷ 19 với bến tàu gỗ và kiến trúc thời kỳ 1870.
-⚠️ [Soi khung hình · khung 12 (03:04)] Nhân vật thủy thủ bên trái đeo kính mắt gọng nhựa vuông dày kiểu hiện đại, không phù hợp với trang phục thế kỷ 19 (năm 1872).
-   → Sửa: Nhắc AI chỉnh lại kính mắt thành kính gọng kim loại tròn/oval thời xưa hoặc bỏ kính.
-⚠️ [Soi khung hình · khung 21 (05:10)] Trên bàn của người thẩm vấn ở chính giữa có một vật thể trông giống micro cổ ngỗng để bàn hiện đại (phiên điều tra diễn ra năm 1872–1873, chưa có micro phòng xử án). Ngoài ra, nhân vật ngồi hai bên dãy bàn bị AI nhân bản khuôn mặt đối xứng nhau (đặc biệt là hai người đàn ông râu tóc bạc thắt cà vạt đỏ giống hệt nhau ở hai bên).
-   → Sửa: Chỉnh sửa xóa vật thể giống micro trên bàn và đổi diện mạo một bên nhân vật để tránh trùng lặp lộ liễu.
-⚠️ [Soi khung hình · khung 30 (07:36)] Cửa khoang tàu được vẽ dạng cửa tròn kim loại có viền ốc vít kiểu cửa kín nước tàu ngầm/tàu thép hiện đại và phát ánh sáng xanh viễn tưởng, không đúng với cấu tạo cửa hầm hàng tàu buồm gỗ thế kỷ 19 (Mary Celeste).
-   → Sửa: Có thể vẽ lại thành cửa hầm hàng hoặc lối xuống boong dưới bằng gỗ truyền thống cho sát lịch sử.
-⚠️ [Xem và nghe video · 03:08] Giọng đọc AI đọc tên thuyền phó 'Oliver Deveau' thành 'Oliver De-vois' (nghe như 'đờ voi-xơ') thay vì phát âm chuẩn là 'Đờ-vô' (/dəˈvoʊ/).
-   → Sửa: Chỉnh lại phiên âm trong văn bản phát âm cho AI (ví dụ: Oliver Đơ-vô hoặc Oliver Đê-vô).
+❌ [Soi khung hình · khung 9 (02:15)] Tranh AI có chi tiết sai thời đại: trên vách tường phía sau cây đèn bên phải xuất hiện mặt ổ cắm/công tắc điện hiện đại, trong khi bối cảnh câu chuyện là năm 1872.
+   → Sửa: Chỉnh sửa xóa ổ cắm điện trên vách tường hoặc tạo lại ảnh minh họa đúng thời kỳ thế kỷ 19.
+⚠️ [Soi khung hình · khung 7 (01:32)] Tàu Mary Celeste theo lịch sử và lời dẫn ở khung 5 là tàu buồm 2 cột (brigantine), các khung 1, 2, 4, 5, 6 đều thể hiện 2 cột buồm. Tuy nhiên tranh ở khung này AI vẽ con tàu có 3 cột buồm, gây mất tính nhất quán.
+   → Sửa: Tạo lại tranh minh họa con tàu bị dạt vào bờ biển với đúng kết cấu 2 cột buồm.
+⚠️ [Soi khung hình · khung 34 (08:23)] Sợi dây thừng đứt ở đầu mũi xuồng bị AI vẽ cứng đờ, chĩa thẳng đứng lên trời như một cành cây khô thay vì rủ xuống theo trọng lực tự nhiên.
+   → Sửa: Chỉnh sửa lại hình ảnh để đoạn dây thừng đứt rủ xuống tự nhiên hoặc thay bằng tranh minh họa khác chuẩn hơn.
 ⚠️ [Đồng bộ · Video dài 03:24 (đoạn 21)] đoạn này chỉ dài 1.9 giây cho 56 ký tự lời kể (đọc nhanh bất thường) — giọng có thể bị cắt sai chỗ, ảnh đổi lệch lời
    → Sửa: xem đoạn này; nếu lệch thì tách câu dài thành 2 đoạn
 
 Nhận xét:
-• Nội dung kịch bản: Kịch bản video dài bám rất sát kế hoạch và chuẩn xác về số liệu lịch sử, chỉ cần chỉnh lại diễn đạt ở Đoạn 37 và logic giải thích lời đồn ở Đoạn 39.
-• Xem và nghe video: Video khớp kịch bản rất tốt về hình ảnh và nhịp kể, chỉ có một lỗi hiển thị sai năm (1984 thay vì 1884) ở cảnh Arthur Conan Doyle và một cảnh báo nhỏ về cách phát âm tên riêng.
-• Soi khung hình: Hình ảnh tư liệu và tranh vẽ nhìn chung đạt chất lượng tốt, chỉ có khung 9 minh họa sai nhạc cụ so với lời thuyết minh. Hình ảnh minh họa nhìn chung đẹp và bám sát lời kể, tuy nhiên cần sửa lỗi nghiêm trọng ở khung 14 khi tàu Mary Celeste bị vẽ cắm cờ hải tặc, cùng một số chi tiết sai thời đại ở khung 11 và 12. Hình ảnh nhìn chung đẹp, bám sát lời kể và tư liệu lịch sử, chỉ cần lưu ý chi tiết vẽ cửa khoang tàu và vật thể giống micro sai thời đại do AI tạo. Các khung hình bám sát nội dung lời đọc, hình vẽ AI và phong cách tranh minh họa đồng nhất, rõ nét và không có lỗi hiển thị. Khung hình kết video đạt yêu cầu, hình ảnh thư viện ban đêm bên ngọn đèn và cuốn sách phù hợp với lời kết của kênh.
+• Nội dung kịch bản: Nội dung video dài chuẩn xác về mặt lịch sử, khớp hoàn toàn các số liệu và chi tiết với kế hoạch, giọng kể khách quan và không có lỗi chính tả.
+• Xem và nghe video: Video đạt chuẩn chất lượng kiểm duyệt: giọng đọc phát âm chuẩn xác, khớp hoàn toàn với kịch bản; hình ảnh tư liệu và minh họa đồng bộ, thẩm mỹ và không có lỗi kỹ thuật.
+• Soi khung hình: Bộ ảnh bám sát kịch bản tốt, tư liệu thật rõ nét; chỉ cần xử lý chi tiết ổ cắm điện sai thời đại ở khung 9 và số cột buồm chưa đồng nhất ở khung 7. Bộ 10 khung hình có chất lượng tốt, hình ảnh minh họa bám sát lời dẫn, không phát hiện lỗi biến dạng AI hay lỗi kỹ thuật hiển thị chữ. Bộ 10 khung hình có chất lượng tốt, tranh vẽ minh họa khớp chính xác với nội dung giọng đọc và không phát hiện lỗi đồ họa hay sai sót nào. Hầu hết các khung hình đều minh họa bám sát kịch bản và chất lượng tốt, chỉ có khung 34 bị lỗi AI vẽ sợi dây thừng đứt cứng đơ bất hợp lý. Hình ảnh outro kết thúc video đẹp, phù hợp với lời chào kết của kênh Người Gác Sử và không có lỗi kỹ thuật.

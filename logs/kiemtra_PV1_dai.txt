@@ -1,0 +1,18 @@
+🔎 KIỂM TRA PV1 · video dài
+❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 2 lỗi, 3 cảnh báo
+
+❌ [Soi khung hình · khung 11 (02:08)] Tranh AI bị lỗi thừa chi nghiêm trọng: nhân vật có tới 3 bàn tay (2 bàn tay đang cầm tờ tiền và thêm 1 bàn tay thứ ba ở phía dưới tay phải cũng thò ra từ ống tay áo vest).
+   → Sửa: Tạo lại hoặc thay thế bằng ảnh minh họa khác thể hiện nhân vật thao tác với chiếc hộp mà không bị lỗi dị dạng/thừa tay.
+❌ [Soi khung hình · khung 40 (08:12)] Dòng chữ chú thích 'LỆNH TRUY NÃ VICTOR LUSTIG - 1935' bị lỗi khung đồ họa: khung nền chỉ bao đến chữ 'LUSTIG', phần đuôi '- 1935' bị tràn ra ngoài khung và đè trực tiếp lên chữ của tài liệu phía sau, gây khó đọc.
+   → Sửa: Kéo dài khung nền chú thích sang bên phải để bao trọn cụm '- 1935', hoặc xuống dòng hợp lý.
+⚠️ [Soi khung hình · khung 26 (05:20)] Tạo hình nhân vật André Poisson không đồng nhất với các cảnh trước và sau: ở khung này ông có ria mép, trong khi ở khung 24, 25 và 27 ông lại không có ria mép. Ngoài ra, bàn tay của Lustig đưa về phía phong bì có ngón tay vẽ chưa chuẩn, hơi dị dạng.
+   → Sửa: Chỉnh sửa tranh để bỏ ria mép của Poisson cho khớp với tạo hình xuyên suốt và vẽ lại bàn tay của Lustig.
+⚠️ [Soi khung hình · khung 30 (06:11)] Nhân vật Poisson tiếp tục xuất hiện với ria mép, mâu thuẫn với tạo hình không có ria mép ở khung 24, 25 và khung 27 vừa diễn ra ngay trước đó.
+   → Sửa: Chỉnh sửa tranh bỏ ria mép của nhân vật Poisson để đảm bảo tính nhất quán giữa các cảnh.
+⚠️ [Xem và nghe video · toàn video (00:43, 02:00, 02:39, 07:32, 08:20)] Cách phát âm tên riêng 'Lustig' của giọng đọc chưa hoàn toàn đồng nhất giữa các đoạn, lúc đọc là 'Lót-xtích', lúc đọc là 'Lu-xtích' hoặc 'Lút-xtích'.
+   → Sửa: Chuẩn hóa lại phát âm phiên âm của từ 'Lustig' trong hệ thống giọng đọc (nên thống nhất phát âm là 'Lút-xtích' hoặc 'Lút-xtik') để đồng bộ xuyên suốt video.
+
+Nhận xét:
+• Nội dung kịch bản: Kịch bản video dài PV1 được soạn chuẩn xác, các số liệu và mốc lịch sử đồng nhất với kế hoạch, tuân thủ đúng lưu ý kiểm chứng về lần bán tháp thứ hai và không có lỗi chính tả hay vi phạm nguyên tắc.
+• Xem và nghe video: Video đạt chất lượng rất tốt; giọng đọc truyền cảm, đọc chính xác toàn bộ kịch bản, hình ảnh tư liệu và tranh minh họa khớp chuẩn theo nội dung lời kể.
+• Soi khung hình: Các khung hình minh họa chuẩn xác theo lời dẫn, hình ảnh và tư liệu lịch sử phù hợp, không phát hiện lỗi đồ họa hay vi phạm kỹ thuật. Hầu hết các khung hình tư liệu và tranh vẽ đều chuẩn xác, ngoại trừ khung 11 gặp lỗi vẽ thừa bàn tay của AI cần được thay thế. Hình ảnh minh họa bám sát kịch bản và chất lượng tốt, chỉ cần lưu ý tính nhất quán về tạo hình khuôn mặt (ria mép) của nhân vật nạn nhân André Poisson giữa các cảnh. Bộ ảnh minh họa bám sát lời kể và có chất lượng tốt, ngoại trừ khung 40 bị lỗi văn bản tràn ra ngoài khung chú thích. Cả 5 khung hình đều có chất lượng tốt, hình ảnh tư liệu và tranh minh họa khớp với nội dung lời đọc, không phát hiện lỗi kỹ thuật hay chi tiết bất thường.

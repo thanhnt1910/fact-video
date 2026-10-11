@@ -209,7 +209,7 @@
         "beats": [
           {
             "text": "Câu chuyện bắt đầu ở Spencer's Island, một làng đóng tàu nhỏ ở Nova Scotia, Canada. Năm một nghìn tám trăm sáu mươi mốt, một con tàu hai cột buồm được hạ thủy ở đây.",
-            "ai": "a small 19th-century shipyard village on the coast of Nova Scotia with a wooden two-masted ship being built on the shore, pine forest",
+            "ai": "a calm small 19th-century shipyard on the coast of Nova Scotia, a wooden two-masted ship being built on wooden supports on the shore, a few shipwrights calmly working with hammers and saws, pine forest behind, sunrise",
             "label": "Spencer's Island · Nova Scotia"
           },
           {
@@ -224,7 +224,7 @@
           },
           {
             "text": "Năm một nghìn tám trăm sáu mươi bảy, một cơn bão đánh dạt con tàu vào bờ biển. Nó bị hư hỏng nặng và bị bỏ lại như một xác tàu.",
-            "ai": "a damaged wooden sailing ship stranded on a rocky shore after a storm, broken mast, grey sky"
+            "ai": "a damaged wooden two-masted sailing ship stranded on a rocky shore after a storm, broken mast, torn sails, grey sky, no people at all, no crew, no children"
           },
           {
             "text": "Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste."
@@ -278,7 +278,7 @@
           },
           {
             "text": "Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.",
-            "ai": "the deck of an abandoned 19th-century sailing ship with torn sails, loose ropes and an open hatch, overcast, eerie silence, completely deserted, no people at all, no crew"
+            "ai": "close-up of the empty wooden deck of an abandoned 19th-century sailing ship, coiled ropes, an open hatch, torn sails flapping overhead, overcast, eerie, ghost ship, no human figures at all"
           },
           {
             "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại."
@@ -298,7 +298,7 @@
         "beats": [
           {
             "text": "Trong khoang có khoảng một mét nước. Nhiều, nhưng không đủ để làm con tàu chìm. Mary Celeste vẫn đi biển tốt.",
-            "ai": "seawater sloshing in the dark lower hold of a wooden ship among floating barrels, lantern reflection on the water, completely deserted, no people at all, no crew"
+            "ai": "close-up of dark seawater sloshing in the lower hold of a wooden ship among floating wooden barrels, a single lantern hanging from a beam, reflections, no human figures at all"
           },
           {
             "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu."
@@ -416,7 +416,7 @@
           },
           {
             "text": "Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.",
-            "ai": "a faint blue flash of light glowing from inside the open cargo hatch of a 19th-century sailing ship at night, a startled sea captain in a plain dark coat and cap stepping back from the hatch on the deck, tense, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
+            "ai": "a 19th-century sea captain in a plain dark coat and cap stepping back in alarm from an open cargo hatch on a sailing ship's deck at night, a faint blue glow coming from the hatch, only one person in the scene, serious mood, nobody is smiling"
           },
           {
             "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy."

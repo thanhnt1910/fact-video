@@ -16,6 +16,7 @@ from urllib.parse import unquote, urlparse
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent
+STORY = ""   # tên câu chuyện (long_video gán trước khi kiểm tra) để Gemini hiểu ngữ cảnh
 LOGS = ROOT / "logs"
 
 
@@ -62,7 +63,7 @@ def tech(path, kind):
     return out
 
 
-PROMPT = """Bạn kiểm tra ảnh minh họa cho video kể chuyện lịch sử có thật "Người Gác Sử" (chuyện {sid}).
+PROMPT = """Bạn kiểm tra ảnh minh họa cho video kể chuyện lịch sử có thật "Người Gác Sử" (chuyện {sid}{story}).
 Ảnh này sẽ hiện trên màn hình trong lúc giọng đọc kể những câu sau:
 {texts}
 {kind_note}
@@ -96,7 +97,7 @@ def ai_check(path, texts, is_ai, sid, kind, title=""):
     im.thumbnail((1024, 1024))
     im.save(small, quality=88)
     title_note = f"Tên / nguồn của ảnh: {title}" if title else ""
-    prompt = PROMPT.format(sid=sid, texts="\n".join(f"- {t}" for t in texts[:6]), title_note=title_note,
+    prompt = PROMPT.format(sid=sid, story=(f": {STORY}" if STORY else ""), texts="\n".join(f"- {t}" for t in texts[:8]), title_note=title_note,
                            kind_note="(video dài, khung ngang 16:9)" if kind == "dai" else "(video ngắn, khung dọc)",
                            ai_note=AI_NOTE if is_ai else "Đây là ảnh tư liệu thật (ảnh chụp, tranh cổ, bản đồ).")
     old = review.STAGE

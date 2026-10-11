@@ -236,7 +236,8 @@ def check_images(script, beats, log):
     import ai_images
     import kiem_tra_anh
     groups = {}
-    for b in beats:
+    kiem_tra_anh.STORY = (script.get("long") or {}).get("title") or script.get("title", "")
+    for k, b in enumerate(beats):
         src = b.get("image_src")
         if not src:
             continue
@@ -244,7 +245,11 @@ def check_images(script, beats, log):
         g = groups.setdefault(src, {"src": src, "texts": [], "ai": bool(b.get("_ai")), "label": b.get("label", ""),
                                     "beats": [], "title": (spec.get("credit") or (("ảnh mô phỏng: " + b["mo_phong"])
                                                                                   if b.get("mo_phong") else ""))[:220]})
+        if not g["texts"] and k > 0:
+            g["texts"].append("(câu trước, để hiểu ngữ cảnh) " + gemini_clean(beats[k - 1].get("text", "")))
         g["texts"].append(gemini_clean(b.get("text", "")))
+        if k + 1 < len(beats) and beats[k + 1].get("image_src") in (None, src):
+            g["texts"].append("(câu sau) " + gemini_clean(beats[k + 1].get("text", "")))
         g["beats"].append(b)
     items = list(groups.values())
     res = kiem_tra_anh.check(items, script["id"], "dai", log)

@@ -84,7 +84,8 @@
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "credit": "\"Sherlock by C. A. Doyle - Holmes seated.jpg\" – Charles Altamont Doyle (1832-1893), Public domain (https://commons.wikimedia.org/wiki/File:Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg)"
-      }
+      },
+      "fit": true
     },
     {
       "type": "explain",

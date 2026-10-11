@@ -134,8 +134,16 @@ def main():
             ai_images.generate(b["ai"] + ", " + long_video.WIDE_HINT, f, wide=True)
         shutil.copy(f, OUT / f"{sid}_{i}_nguon.jpg")
         motion = MOTION.get(sid, {}).get(i) or b["ai"]
+        # ảnh nhỏ gọn đúng kích thước khung (mã gửi lên Kaggle có giới hạn dung lượng)
+        from PIL import Image
+        import io
+        buf = io.BytesIO()
+        im = Image.open(f).convert("RGB")
+        im = im.resize((832, round(832 * im.height / im.width)), Image.LANCZOS)
+        top = max(0, (im.height - 480) // 2)
+        im.crop((0, top, 832, top + 480)).save(buf, "JPEG", quality=90)
         jobs.append({"key": f"{sid}_{i}", "prompt": f"{motion}. {STYLE}", "neg": NEG,
-                     "img": base64.b64encode(f.read_bytes()).decode(), "w": 832, "h": 480, "frames": 81, "steps": 25})
+                     "img": base64.b64encode(buf.getvalue()).decode(), "w": 832, "h": 480, "frames": 81, "steps": 25})
 
     user, env = kaggle_draw._env()
     work = ROOT / "output" / "_kaggle_video"
@@ -181,4 +189,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        OUT.mkdir(parents=True, exist_ok=True)
+        (OUT / "loi.txt").write_text(traceback.format_exc(), encoding="utf-8")
+        traceback.print_exc()
+        sys.exit(1)

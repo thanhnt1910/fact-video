@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: render
+  group: kiem-tra
   cancel-in-progress: false
 
 jobs:

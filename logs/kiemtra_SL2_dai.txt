@@ -1,20 +1,32 @@
 🔎 KIỂM TRA SL2 · video dài
-❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 1 lỗi, 5 cảnh báo
+❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 4 lỗi, 8 cảnh báo
 
-❌ [Soi khung hình · khung 27 (08:48)] Tranh AI minh họa con đà điểu emu bị lỗi dị dạng cơ thể khi có tới 3 chân (thấy rõ 3 cẳng chân và 3 bàn chân tiếp đất trên mặt đường).
-   → Sửa: Tạo lại hoặc đổi tranh minh họa khác vẽ chim emu có đúng 2 chân bình thường, hoặc dùng ảnh chụp tư liệu chim emu.
-⚠️ [Nội dung kịch bản · đoạn 49 và đoạn 50] Mạch logic bị đứt quãng: Đoạn 48 nêu số liệu báo cáo của Meredith (986 con, 9.860 viên đạn), nhưng Đoạn 49 lại chen ngang phản ứng của dư luận tại Anh, khiến Đoạn 50 ('Nghĩa là trung bình đúng mười viên đạn cho một con chim. Ông còn cho rằng...') bị cụt ngữ cảnh và đại từ 'Ông' bị tối nghĩa (dễ nhầm với các nhà điểu học ở đoạn 49).
-   → Sửa: Đổi vị trí Đoạn 50 lên trước Đoạn 49, để nội dung phân tích số liệu và báo cáo của Meredith đi liền sau Đoạn 48, sau đó mới đến phản ứng của các nhà bảo vệ thiên nhiên ở Anh.
-⚠️ [Soi khung hình · khung 1 (00:08)] Trên thành xe tải có hình vẽ cờ biến dạng và cụm chữ/ký tự nguệch ngoạc vô nghĩa do AI tạo ('2Eλamaa').
-   → Sửa: Chỉnh sửa hậu kỳ xóa hoặc làm mờ cụm ký tự vô nghĩa trên cửa và thùng xe.
-⚠️ [Soi khung hình · khung 12 (03:48)] Lời đọc nêu rõ: 'Người chỉ huy là thiếu tá Meredith... Đi cùng ông là hai người lính' (tổng cộng 3 người), nhưng hình vẽ minh họa lại có 4 người lính.
-   → Sửa: Chỉnh sửa tranh vẽ lại đội hình gồm 3 người (1 chỉ huy và 2 binh lính) để khớp với lời đọc.
-⚠️ [Soi khung hình · khung 14 (04:28)] Khung hình bị lỗi chồng đè hai lớp hình ảnh lên nhau (hiệu ứng bóng ma/cross-dissolve chưa dứt điểm), khiến hình ảnh bị mờ và rối mắt.
-   → Sửa: Kiểm tra lại hiệu ứng chuyển cảnh khi dựng video, đảm bảo hình ảnh hiển thị rõ ràng, không bị đứng giữa chừng lúc mờ chồng hình.
-⚠️ [Soi khung hình · khung 16 (05:08)] Lời đọc nói 'gắn súng máy lên xe tải để đuổi theo', nhưng hình vẽ chỉ là một người lính ngồi trên thùng xe cầm súng trường bằng tay, không có bệ gắn súng máy chuyên dụng trên xe tải.
-   → Sửa: Vẽ lại hoặc thay ảnh chiếc xe tải có gắn khẩu súng máy Lewis cố định trên thùng xe cho đúng với mô tả lịch sử.
+❌ [Kỹ thuật · Video dài 00:37] mất giọng đọc 8.3 giây
+   → Sửa: nghe lại đoạn này; đọc lại câu bị thiếu
+❌ [Soi khung hình · khung 3 (00:21)] Con đà điểu emu thứ 4 từ trái sang bị khuyết tật AI rõ rệt: phần cổ và đầu hoàn toàn biến mất, chỉ còn lại thân mình cụt.
+   → Sửa: Tạo lại tranh minh họa đàn đà điểu emu để đảm bảo các con vật hiển thị đầy đủ đầu và cổ.
+❌ [Soi khung hình · khung 7 (01:18)] Lỗi tạo hình AI: Lưỡi chiếc rìu mà người đàn ông cầm bị vẽ đâm xuyên thẳng vào bụng/thắt lưng của nhân vật.
+   → Sửa: Thay bằng ảnh minh họa người lính khai hoang cầm rìu đúng tư thế, không bị lỗi vật thể đâm xuyên qua người.
+❌ [Soi khung hình · khung 41 (08:45)] Tranh vẽ AI hiển thị đà điểu emu có 3 chân dị dạng.
+   → Sửa: Thay bằng ảnh minh họa emu chuẩn giải phẫu 2 chân.
+⚠️ [Nội dung kịch bản · Đoạn 19] Cụm từ 'chính emu bố là người ấp trứng' dùng từ 'người' cho loài chim là chưa chuẩn xác về ngữ nghĩa tiếng Việt.
+   → Sửa: Sửa thành 'chính chim bố đảm nhận việc ấp trứng' hoặc 'chính emu bố ấp trứng'.
+⚠️ [Nội dung kịch bản · Đoạn 49 và Đoạn 50] Đoạn 50 ('Nghĩa là trung bình đúng mười viên đạn cho một con chim. Ông còn cho rằng...') giải thích trực tiếp cho số liệu báo cáo của thiếu tá Meredith ở Đoạn 48. Đoạn 49 chen vào giữa làm đứt mạch phân tích số liệu và khiến đại từ 'Ông' ở Đoạn 50 bị mơ hồ tham chiếu sang các nhà điểu học ở Đoạn 49.
+   → Sửa: Đảo vị trí Đoạn 50 lên ngay sau Đoạn 48 (kết nối số liệu 986 con / 9.860 viên đạn và báo cáo của Meredith), sau đó mới chuyển sang Đoạn 49 về phản ứng của các nhà bảo tồn ở Anh.
+⚠️ [Soi khung hình · khung 4 (00:34)] Tỉ lệ của con đà điểu emu ở hậu cảnh to bất thường so với túp lều ở tiền cảnh (kích thước trông như cao 4-5 mét giống khủng long thay vì chiều cao thực tế khoảng 1,5 - 1,9 mét).
+   → Sửa: Chỉnh sửa hoặc tạo lại tranh với tỉ lệ đà điểu cân đối hơn so với phối cảnh xung quanh.
+⚠️ [Soi khung hình · khung 18 (03:04)] Con đà điểu emu phía bên phải ngoài cùng có phần cổ và đầu bị biến dạng do lỗi vẽ AI (cổ bị bẻ gập ngược ra sau, tỷ lệ đầu quá nhỏ so với thân).
+   → Sửa: Chỉnh sửa lại phần đầu và cổ của con đà điểu này cho tự nhiên hoặc thay bằng tranh minh họa đàn emu khác.
+⚠️ [Soi khung hình · khung 21 (03:50)] Lời đọc nói 'Đi cùng ông là hai người lính', nhưng hình vẽ chỉ huy đi cùng 3 người lính (tổng cộng 4 người), không khớp số lượng nhân vật được thuyết minh.
+   → Sửa: Chỉnh sửa tranh vẽ còn 1 chỉ huy và 2 người lính để đúng với lời đọc.
+⚠️ [Soi khung hình · khung 27 (05:03)] Lời đọc nói 'gắn súng máy lên xe tải để đuổi theo', nhưng tranh vẽ người lính chỉ ngồi ôm bắn một khẩu súng cá nhân chứ không có bệ gắn súng máy trên thùng xe tải; biển số xe xuất hiện ký tự AI nguệch ngoạc.
+   → Sửa: Tạo lại ảnh minh họa có súng máy Lewis được gắn cố định trên bệ xe tải theo đúng lịch sử.
+⚠️ [Soi khung hình · khung 32 (06:34)] Chiếc xe tải quân sự và khẩu súng nằm dưới đất mang kiểu dáng của thời hiện đại (nửa sau thế kỷ 20), không đúng với bối cảnh Chiến dịch Emu diễn ra vào năm 1932 (thời kỳ dùng xe tải cổ thập niên 1930 và súng máy Lewis).
+   → Sửa: Thay bằng hình vẽ xe quân sự và vũ khí đúng thời kỳ thập niên 1930.
+⚠️ [Soi khung hình · khung 38 (07:46)] Hai mắt của người nông dân bị vẽ lỗi AI (đồng tử hai bên nhìn về hai hướng lệch nhau rõ rệt, mắt bị lác/lé dị dạng).
+   → Sửa: Chỉnh sửa lại tròng mắt nhân vật cho nhìn thẳng xuống tờ giấy hoặc tạo lại hình ảnh mới.
 
 Nhận xét:
-• Nội dung kịch bản: Kịch bản video dài bám sát lịch sử, số liệu khớp hoàn toàn với kế hoạch và các định dạng khác; chỉ cần đảo vị trí đoạn 49 và 50 để mạch diễn đạt logic, liền mạch hơn.
-• Xem và nghe video: Video đạt chất lượng rất tốt; giọng đọc truyền cảm, đúng từng chữ so với kịch bản, phát âm tên riêng và số liệu chính xác; hình ảnh và ảnh tư liệu khớp chuẩn với nội dung.
-• Soi khung hình: Bộ khung hình minh họa bám sát kịch bản, tạo hình phong cách tranh vẽ 2D đồng bộ; chỉ cần xử lý chi tiết chữ AI nguệch ngoạc trên xe tải ở khung 1. Bộ ảnh bám sát nội dung và phong cách tốt, chỉ cần lưu ý lỗi chồng mờ hình ở khung 14 và vài chi tiết chưa khớp hoàn toàn giữa lời dẫn với tranh minh họa ở khung 12 và 16. Các khung hình nhìn chung đẹp mắt, khớp nội dung và đúng phong cách, ngoại trừ khung 27 tranh AI bị lỗi dị dạng vẽ đà điểu emu có 3 chân.
+• Nội dung kịch bản: Kịch bản video dài bám sát lịch sử, số liệu khớp hoàn toàn với kế hoạch; chỉ cần chỉnh lại cách dùng từ ở Đoạn 19 và đảo lại thứ tự Đoạn 49-50 để mạch văn liền mạch và rõ nghĩa hơn.
+• Xem và nghe video: Video đạt chất lượng rất tốt, giọng đọc AI chuẩn xác khớp từng từ với kịch bản, phát âm tên riêng và số liệu rõ ràng; hình ảnh minh họa và tư liệu lịch sử khớp đúng nội dung và không có lỗi hình ảnh.
+• Soi khung hình: Video phối hợp tư liệu và hình minh họa tốt, tuy nhiên khung 3 và khung 7 có lỗi AI vẽ dị dạng rõ (đà điểu cụt đầu, rìu xuyên bụng) cần thay thế. Bộ ảnh minh họa khớp tốt với nội dung lời kể, tư liệu và tranh vẽ rõ nét, chỉ có lỗi dị dạng nhỏ do AI tạo hình ở khung 18 cần cân nhắc xử lý. Bộ ảnh bám sát diễn biến chiến dịch diệt đà điểu Emu, chất lượng hình ảnh tốt, chỉ có sai lệch nhỏ về số lượng lính và chi tiết gắn súng máy trên xe tải. Bộ ảnh bám sát nội dung kịch bản và kết hợp tốt giữa ảnh minh họa 2D với tư liệu thực tế, chỉ có một vài chi tiết vẽ AI bị sai lệch thời đại phương tiện và lỗi vẽ mắt nhân vật cần xem lại. Khung 41 bị lỗi hình vẽ AI thừa chi, các khung còn lại đạt chất lượng tốt.

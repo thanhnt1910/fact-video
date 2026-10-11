@@ -122,15 +122,17 @@ jobs:
           else ARGS=""; fi
           python ci_render.py $ARGS 2>&1 | tee logs/last-run.log
 
-      - name: Tự kiểm tra (kỹ thuật + Gemini xem lại video, ảnh, lời thoại)
+      - name: Tự kiểm tra kỹ thuật (miễn phí)
         if: always()
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          HAU_TO: ${{ inputs.hau_to }}
         run: |
           touch ci_outputs.txt ci_long.txt
-          python review.py --ci --telegram 2>&1 | tee logs/review-run.log || true
+          # chỉ kiểm tra kỹ thuật miễn phí (ffmpeg); không gửi video/khung hình cho Gemini xem lại nữa
+          python review.py --ci --telegram --no-ai 2>&1 | tee logs/review-run.log || true
 
       - name: Ảnh xem nhanh (để kiểm tra)
         if: always()

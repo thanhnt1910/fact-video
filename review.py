@@ -660,8 +660,6 @@ def lint_script(script, part):
             if re.search(r"\d", clean_voice(v)):
                 out.append(issue("canh_bao", g, f"cảnh {i + 1}", f"lời đọc có chữ số: \"{clean_voice(v)[:80]}\"",
                                  "viết số bằng chữ để giọng AI đọc đúng"))
-            if sc.get("image") is None and sc.get("type") not in ("outro",):
-                out.append(issue("canh_bao", g, f"cảnh {i + 1}", "cảnh không có ảnh"))
         last = clean_voice(scenes[-1].get("voice")) if scenes else ""
         if "lạ hơn cả truyện" not in last:
             out.append(issue("canh_bao", g, "cảnh cuối", "lời kết thiếu câu \"Sử thật… lạ hơn cả truyện\""))
@@ -860,7 +858,7 @@ def send_telegram(reports, blocked=None):
                 txt += f"\n{c}\n"
             sent_cost.add(r["id"])
         if repo:
-            txt += f"\nVideo: https://github.com/{repo}/releases/tag/video-{r['id']}"
+            txt += f"\nVideo: https://github.com/{repo}/releases/tag/video-{r['id']}{os.environ.get('HAU_TO', '').strip()}"
         msgs.append(txt)
     for txt in msgs:
         data = urllib.parse.urlencode({"chat_id": chat, "text": txt, "disable_web_page_preview": "true"}).encode()

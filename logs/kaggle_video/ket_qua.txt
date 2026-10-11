@@ -1,0 +1,22 @@
+Kaggle: .complete sau 31 phút (kể cả thời gian chờ máy, cài thư viện, tải mô hình)
+{
+ "jobs": {
+  "ST1_0": {
+   "giay_chay": 656,
+   "dtype": "torch.float16",
+   "khung": 81,
+   "kich_thuoc": "832x480",
+   "buoc": 25
+  },
+  "ST1_3": {
+   "giay_chay": 655,
+   "dtype": "torch.float16",
+   "khung": 81,
+   "kich_thuoc": "832x480",
+   "buoc": 25
+  }
+ },
+ "tong_giay": 1807
+}
+ST1_0.mp4: có
+ST1_3.mp4: có

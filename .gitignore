@@ -13,3 +13,5 @@ assets/tts_cache/
 assets/ai_cache/
 ci_long.txt
 ci_long_failed.txt
+chiphi_run.jsonl
+ci_blocked.json

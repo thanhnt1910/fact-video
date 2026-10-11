@@ -130,6 +130,13 @@ def synth(text, style, voice, key=None, log=print):
             try:
                 fn = _synth_interactions if kind == "i" else _synth_generate
                 wav = fn(model, text, style, voice, key)
+                try:   # ghi chi phí ước tính: âm thanh Gemini = 25 token/giây, chữ ≈ 4 ký tự/token
+                    import chi_phi
+                    with wave.open(io.BytesIO(wav)) as w:
+                        sec = w.getnframes() / float(w.getframerate())
+                    chi_phi.add_tokens("tts", model, len(text + style) / 4, sec * 25)
+                except Exception:
+                    pass
                 if "way" not in _WORKING:
                     _WORKING["way"] = way
                     log(f"   [gemini] dùng {model} ({'interactions' if kind == 'i' else 'generateContent'})")

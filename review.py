@@ -7,6 +7,9 @@ TỰ KIỂM TRA video / bài ảnh sau khi dựng, trước khi gửi đi.
   python review.py SL2 --no-ai         chỉ kiểm tra kỹ thuật (không gọi Gemini, không tốn tiền)
   python review.py SL2 --telegram      gửi bản tóm tắt về Telegram (cần TG_TOKEN, TG_CHAT)
 
+Tiết kiệm chi phí: chỉ gửi cả video cho Gemini xem lại khi lời kể / giọng đổi (REVIEW_VIDEO=always để luôn gửi);
+mặc định dùng Flash-Lite; kịch bản được kiểm tra trước khi dựng (ci_render.py gọi precheck).
+
 Các bước kiểm tra
   1. Kỹ thuật (ffmpeg, miễn phí): thời lượng, độ phân giải, có tiếng, khung đen, hình đứng im, mất tiếng, độ to.
   2. Kịch bản (Gemini đọc chữ): đối chiếu mục "Kiểm chứng" trong kế hoạch, số liệu khớp nhau, chính tả, nội dung cấm.
@@ -43,7 +46,11 @@ ROOT = Path(__file__).resolve().parent
 API = "https://generativelanguage.googleapis.com/v1beta"
 UPLOAD = "https://generativelanguage.googleapis.com/upload/v1beta"
 MODELS = [m.strip() for m in os.environ.get(
-    "REVIEW_MODELS", "gemini-3.8-flash,gemini-flash-latest,gemini-2.5-flash").split(",") if m.strip()]
+    # Flash-Lite trước (rẻ hơn vài lần), không dùng được thì lùi về Flash
+    "REVIEW_MODELS", "gemini-flash-lite-latest,gemini-3.8-flash,gemini-flash-latest,gemini-2.5-flash").split(",") if m.strip()]
+# REVIEW_VIDEO=always: luôn gửi cả video cho Gemini xem lại (mặc định chỉ gửi khi lời kể thay đổi)
+VIDEO_ALWAYS = os.environ.get("REVIEW_VIDEO", "").strip().lower() == "always"
+STAGE = "review"
 CACHE = ROOT / "assets" / "tts_cache" / "review"
 PLAN = ROOT / "ke-hoach" / "nguoi-gac-su-30-video.md"
 CHECKLIST = ROOT / "review_checklist.md"
@@ -202,6 +209,11 @@ def ask(parts, tag, dump_dir, cache_key=""):
                 raw, _ = _request(f"{API}/models/{model}:generateContent", body, "POST",
                                   {"x-goog-api-key": key, "Content-Type": "application/json"}, timeout=600)
                 res = json.loads(raw)
+                try:
+                    import chi_phi
+                    chi_phi.add_usage(STAGE, model, res.get("usageMetadata"))
+                except Exception:
+                    pass
                 cand = (res.get("candidates") or [{}])[0]
                 txt = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
                 if not txt:
@@ -441,6 +453,48 @@ KỊCH BẢN (thời gian trong ngoặc là dự kiến, có thể lệch vài g
 {ANSWER_FORMAT}"""
     if DRY:
         return ask([{"text": prompt}, {"text": f"(video {mp4.name})"}], f"video_{sid}_{part}", dump)
+    # Lời kể không đổi so với lần đã xem video trước -> không gửi lại cả video (khoản tốn nhất của bước kiểm tra).
+    # Ảnh vẫn được soi từng khung ở bước sau; lỗi giọng đọc của lần trước (nếu có) được nhắc lại.
+    nk = narration_key(script, part)
+    state = CACHE / f"video_ok_{sid}_{part}.json"
+    if not VIDEO_ALWAYS and state.exists():
+        try:
+            prev = json.loads(state.read_text(encoding="utf-8"))
+        except Exception:
+            prev = {}
+        if prev.get("nk") == nk:
+            voice_rx = re.compile(r"đọc|giọng|nghe|phát âm|lời|câu", re.I)
+            carry = [dict(v, mo_ta="(từ lần kiểm tra trước) " + str(v.get("mo_ta", "")))
+                     for v in (prev.get("result") or {}).get("van_de", []) if isinstance(v, dict)
+                     and voice_rx.search(str(v.get("mo_ta", "")))]
+            log("     ⏭️  lời kể không đổi so với lần trước: không gửi lại cả video (tiết kiệm chi phí)")
+            return {"van_de": carry, "tom_tat": "lời kể không đổi nên không xem lại cả video; hình ảnh vẫn được soi từng khung."}
+    res = _video_check_upload(script, part, mp4, work_small, dump, prompt)
+    CACHE.mkdir(parents=True, exist_ok=True)
+    state.write_text(json.dumps({"nk": nk, "result": res}, ensure_ascii=False), encoding="utf-8")
+    return res
+
+
+def narration_key(script, part):
+    """Mã nhận diện lời kể + giọng: đổi chữ, đổi cách đọc tên hay đổi giọng thì mới phải nghe lại."""
+    try:
+        cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+    except Exception:
+        cfg = {}
+    if part == "ngan":
+        texts = "\n".join(str(sc.get("voice", "")) for sc in script.get("scenes", []))
+    else:
+        texts = "\n".join(str(b.get("text", "")) for ch in (script.get("long") or {}).get("chapters", [])
+                          for b in ch.get("beats", []))
+    voice = {k: cfg.get(k) for k in ("tts_engine", "gemini_voice", "vieneu", "voice", "voice_rate", "long")}
+    if part == "dai":
+        voice["long_voice"] = (script.get("long") or {}).get("voice")
+    raw = json.dumps([texts, script.get("pronounce"), voice], ensure_ascii=False, sort_keys=True)
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:20]
+
+
+def _video_check_upload(script, part, mp4, work_small, dump, prompt):
+    sid = script["id"]
     small = small_copy(mp4, work_small, part)
     st = small.stat()
     ck = f"{small.name}:{st.st_size}:{hashlib.sha1(small.read_bytes()[:2_000_000]).hexdigest()}"
@@ -624,6 +678,41 @@ def lint_script(script, part):
     return out
 
 
+def chi_phi_id(sid):
+    """Ghi chi phí của các lần gọi Gemini tiếp theo cho mã này."""
+    try:
+        import chi_phi
+        chi_phi.CURRENT = sid
+    except Exception:
+        pass
+
+
+def precheck(sid, parts):
+    """Kiểm tra kịch bản TRƯỚC khi dựng (chỉ đọc chữ: rẻ, có lưu đệm -> kịch bản không đổi thì không tốn thêm).
+    Trả về danh sách vấn đề mức "loi". Có lỗi thì ci_render không dựng, đỡ tốn tiền giọng đọc / vẽ tranh / kiểm tra video."""
+    global STAGE
+    script = json.loads((ROOT / "scripts" / f"{sid}.json").read_text(encoding="utf-8"))
+    rdir = ROOT / "output" / sid / "_review"
+    rdir.mkdir(parents=True, exist_ok=True)
+    found = []
+    use_ai = bool(os.environ.get("GEMINI_API_KEY", "").strip()) and not DRY
+    for part in parts:
+        if part == "dai" and not script.get("long"):
+            continue
+        found += [x for x in lint_script(script, part) if x["muc"] == "loi"]
+        if not use_ai:
+            continue
+        STAGE = "precheck"
+        try:
+            res = content_check(script, part, rdir)
+            found += [x for x in ai_issues(res, "Nội dung kịch bản") if x["muc"] == "loi"]
+        except Exception as e:
+            log(f"   (chưa kiểm tra được kịch bản {sid}:{part} trước khi dựng: {str(e)[:160]}, vẫn dựng tiếp)")
+        finally:
+            STAGE = "review"
+    return found
+
+
 def ai_issues(res, group, default_where=""):
     out = []
     for v in (res or {}).get("van_de", []) or []:
@@ -662,6 +751,7 @@ def review_part(sid, part, use_ai=True):
                 quiet.append((a, b))
     if not mp4.exists():
         return None
+    chi_phi_id(sid)
     log(f"🔎 Kiểm tra {sid} – {PART_NAME[part]}")
 
     log("   • kỹ thuật")
@@ -727,7 +817,15 @@ def summary_text(r, limit=None):
     return txt
 
 
-def send_telegram(reports):
+def _cost(sid):
+    try:
+        import chi_phi
+        return chi_phi.summary(sid)
+    except Exception:
+        return ""
+
+
+def send_telegram(reports, blocked=None):
     token, chat = os.environ.get("TG_TOKEN", "").strip(), os.environ.get("TG_CHAT", "").strip()
     if not chat and (ROOT / "telegram_chat_id.txt").exists():
         chat = (ROOT / "telegram_chat_id.txt").read_text().strip()
@@ -735,10 +833,25 @@ def send_telegram(reports):
         log("Chưa có TG_TOKEN / TG_CHAT, không gửi báo cáo Telegram.")
         return
     repo = os.environ.get("GITHUB_REPOSITORY", "")
+    msgs = []
+    for sid, errs in (blocked or {}).items():
+        lines = [f"⛔ CHƯA DỰNG {sid}: kịch bản có lỗi (đã kiểm tra trước khi dựng để khỏi tốn tiền)"]
+        lines += [f"❌ [{x['vi_tri']}] {x['mo_ta']}" + (f"\n   → Sửa: {x['sua']}" if x.get("sua") else "") for x in errs]
+        lines.append("Sửa kịch bản rồi đẩy lại, hoặc chạy workflow với ô 'Bỏ qua kiểm tra' = yes nếu bạn thấy không phải lỗi.")
+        c = _cost(sid)
+        msgs.append("\n".join(lines)[:3600] + (f"\n\n{c}" if c else ""))
+    sent_cost = set()
     for r in reports:
-        txt = summary_text(r, limit=3700)
+        txt = summary_text(r, limit=3500)
+        if r["id"] not in sent_cost:   # chi phí của cả mã, gửi kèm báo cáo đầu tiên của mã đó
+            c = _cost(r["id"])
+            if c:
+                txt += f"\n{c}\n"
+            sent_cost.add(r["id"])
         if repo:
             txt += f"\nVideo: https://github.com/{repo}/releases/tag/video-{r['id']}"
+        msgs.append(txt)
+    for txt in msgs:
         data = urllib.parse.urlencode({"chat_id": chat, "text": txt, "disable_web_page_preview": "true"}).encode()
         try:
             urllib.request.urlopen(f"https://api.telegram.org/bot{token}/sendMessage", data=data, timeout=30).read()
@@ -775,8 +888,27 @@ def main():
             continue
         if r:
             reports.append(r)
-    if "--telegram" in args and reports:
-        send_telegram(reports)
+    blocked = {}
+    if "--ci" in args and (ROOT / "ci_blocked.json").exists():
+        try:
+            blocked = json.loads((ROOT / "ci_blocked.json").read_text(encoding="utf-8"))
+        except Exception:
+            blocked = {}
+    if "--telegram" in args and (reports or blocked):
+        send_telegram(reports, blocked)
+    # chi phí ước tính: in ra log và lưu logs/chiphi_<mã>.txt
+    try:
+        import chi_phi
+        for sid in dict.fromkeys([r["id"] for r in reports] + list(blocked)):
+            c = chi_phi.summary(sid)
+            if c:
+                (ROOT / "logs").mkdir(exist_ok=True)
+                (ROOT / "logs" / f"chiphi_{sid}.txt").write_text(c + "\n", encoding="utf-8")
+        tot = chi_phi.summary()
+        if tot:
+            log(tot)
+    except Exception:
+        pass
     worst = max((["dat", "xem", "loi"].index(r["ket_qua"]) for r in reports), default=0)
     if "--strict" in args and worst == 2:
         sys.exit(2)

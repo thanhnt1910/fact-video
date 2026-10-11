@@ -22,6 +22,14 @@ on:
         description: "Gửi Telegram ngay (yes) hay giữ lại chờ duyệt (no)"
         required: false
         default: "no"
+      bo_qua_kiemtra:
+        description: "Bỏ qua bước kiểm tra kịch bản trước khi dựng (yes nếu chắc chắn lỗi báo ra không đúng)"
+        required: false
+        default: "no"
+      hau_to:
+        description: "Hậu tố tên bản trên Releases khi dựng thử (vd: -thu → video-ST1-thu), để không ghi đè bản cũ"
+        required: false
+        default: ""
       all:
         description: "Dựng lại tất cả"
         type: boolean
@@ -55,6 +63,7 @@ jobs:
         with:
           path: |
             ~/.cache/huggingface
+            ~/.cache/fact-video
             ~/.cache/ms-playwright
             ~/.cache/pip
             .venv-tts
@@ -101,6 +110,7 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           AI_SOURCE: ${{ inputs.nguon_ve }}
+          FV_SKIP_PRECHECK: ${{ inputs.bo_qua_kiemtra }}
         run: |
           set -o pipefail
           mkdir -p logs
@@ -158,7 +168,7 @@ jobs:
           while read -r id || [ -n "$id" ]; do
             [ -z "$id" ] && continue
             [ -f "output/$id/$id.mp4" ] || continue
-            tag="video-$id"
+            tag="video-$id${{ inputs.hau_to }}"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video $id" --notes "Video ngắn, bài ảnh, video dài" < /dev/null
             files=$(ls output/$id/$id.mp4 output/$id/${id}_thumbnail.jpg output/$id/${id}_caption.txt output/$id/${id}_post.txt output/$id/${id}_post_*.jpg output/$id/${id}_review.jpg output/$id/${id}_kiemtra_ngan.* 2>/dev/null)
             gh release upload "$tag" $files --clobber < /dev/null
@@ -173,7 +183,7 @@ jobs:
           while read -r id || [ -n "$id" ]; do
             [ -z "$id" ] && continue
             f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
-            tag="video-${id}"
+            tag="video-${id}${{ inputs.hau_to }}"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video dài $id" --notes "Bản 1080p để đăng YouTube/Facebook" < /dev/null
             extra=$(ls output/$id/${id}_dai_youtube_en.txt output/$id/${id}_dai_*.srt output/$id/${id}_dai_thumbnail_fb.jpg output/$id/${id}_dai_review.jpg output/$id/${id}_kiemtra_dai.* 2>/dev/null || true)
             gh release upload "$tag" "$f" "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_youtube.txt" $extra --clobber < /dev/null

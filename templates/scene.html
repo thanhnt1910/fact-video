@@ -45,6 +45,10 @@
   /* ảnh hiện trọn ở nửa trên -> chữ xuống nửa dưới (chừa chỗ cho nút của TikTok/Reels) */
   .has-img.scene.imgfit, .has-img.scene.center.imgfit { justify-content: flex-end; padding-bottom: 0; }
 
+  /* parallax 2.5D (WebGL) + lớp hạt chuyển động */
+  canvas.plx { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; }
+  #fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
+
   #progress { position: absolute; top: 0; left: 0; height: 12px; background: var(--accent); }
 
   #topbar { position: absolute; top: 90px; left: 64px; right: 64px; height: 96px;
@@ -156,6 +160,7 @@
 <div id="root">
   <div id="blobs"></div>
   <div id="bgimgs"></div>
+  <canvas id="fx" width="1080" height="1920"></canvas>
   <div id="grain"></div>
   <div id="lamp"></div>
   <div id="noise"></div>
@@ -316,6 +321,246 @@ const B = {
   },
 };
 
+
+// ---------- CHUYỂN ĐỘNG: parallax 2.5D + hạt (cùng công thức với motion.py) ----------
+let MOTION = { parallax: true, parallax_strength: 1.0, fx: true, fx_strength: 1.0, dof: 0.6, transition: 'zoom', light: true };
+const FOCUS = 0.45;
+function camera(kind, p, s) {
+  const e = 0.5 - 0.5 * Math.cos(Math.PI * p);
+  if (kind === 0) return [0.006 * s * (e - 0.5), -0.008 * s * (e - 0.5), 0.07 * s * e];
+  if (kind === 1) return [0.030 * s * (e - 0.5), 0, 0.02 * s * e];
+  if (kind === 2) return [-0.006 * s * (e - 0.5), 0.006 * s * (e - 0.5), 0.07 * s * (1 - e)];
+  return [-0.030 * s * (e - 0.5), 0.004 * s * (e - 0.5), 0.02 * s * e];
+}
+const PLX_VS = 'attribute vec2 a; varying vec2 v; void main(){ v = a * 0.5 + 0.5; gl_Position = vec4(a, 0.0, 1.0); }';
+const PLX_FS = `precision highp float; varying vec2 v; uniform sampler2D img; uniform sampler2D dep;
+  uniform sampler2D blr; uniform float focal; uniform float dof;
+  uniform vec2 scl; uniform vec2 off; uniform vec3 cam; uniform float focus; uniform float taper;
+  float D(vec2 uv) {
+    float d = texture2D(dep, uv * scl + off).r;
+    if (taper > 0.0) { vec2 e = min(uv, 1.0 - uv) / taper; float m = clamp(min(e.x, e.y), 0.0, 1.0);
+                       m = m * m * (3.0 - 2.0 * m); d = d * m + focus * (1.0 - m); }
+    return d;
+  }
+  void main() {
+    vec2 uv = vec2(v.x, 1.0 - v.y);
+    float d = D(uv);
+    vec2 s = uv + (d - focus) * (cam.xy - (uv - 0.5) * cam.z);
+    vec2 q = clamp(s * scl + off, 0.0005, 0.9995);
+    vec4 c = texture2D(img, q);
+    if (dof > 0.0) c = mix(c, texture2D(blr, q), clamp(abs(d - focal) * 1.2, 0.0, 1.0) * dof);
+    gl_FragColor = c;
+  }`;
+function hash1(k) { const v = Math.sin(k * 12.9898 + 78.233) * 43758.5453; return v - Math.floor(v); }
+function focalAt(i, p) { if (i % 2) return 0.75; let e = Math.min(1, p / 0.45); e = e * e * (3 - 2 * e); return 0.15 + 0.65 * e; }
+function lightningAt(t) { const k = Math.floor(t / 6.5), dt = t - (k * 6.5 + hash1(k) * 4.0);
+  if (dt < 0 || dt > 0.8) return 0; let v = Math.exp(-dt * 9); if (dt > 0.2) v += 0.7 * Math.exp(-(dt - 0.2) * 11); return Math.min(1, v); }
+function flickerAt(t) { return clamp(0.55 + 0.25 * Math.sin(t * 11.3) * Math.sin(t * 3.7 + 1.1) + 0.2 * Math.sin(t * 23.1 + 2.0)); }
+function shakeAt(t) {
+  let dx = (Math.sin(t * 7.1) + 0.6 * Math.sin(t * 13.3 + 1)) * 0.0012, dy = (Math.cos(t * 6.3) + 0.6 * Math.sin(t * 11.7 + 2)) * 0.0012;
+  const k = Math.floor(t / 4.2), dt = t - (k * 4.2 + hash1(k + 3) * 2.0);
+  if (dt >= 0 && dt < 1.2) { const a = 0.010 * Math.exp(-dt * 4.5); dx += a * Math.sin(dt * 47); dy += a * 0.8 * Math.cos(dt * 39); }
+  return [dx, dy];
+}
+function loadImg(src) {
+  return new Promise(res => { const im = new Image(); im.onload = () => res(im); im.onerror = () => res(null); im.src = src; });
+}
+function texSource(im) {   // ảnh quá lớn -> thu nhỏ trước khi đưa lên GPU
+  const MAX = 4096;
+  if (Math.max(im.naturalWidth, im.naturalHeight) <= MAX) return im;
+  const k = MAX / Math.max(im.naturalWidth, im.naturalHeight);
+  const c = document.createElement('canvas'); c.width = Math.round(im.naturalWidth * k); c.height = Math.round(im.naturalHeight * k);
+  c.getContext('2d').drawImage(im, 0, 0, c.width, c.height); return c;
+}
+// tạo canvas parallax trong `host`; mode 'cover' (phủ kín, có vị trí lấy nét) hoặc 'exact' (canvas đúng khung ảnh)
+function makeParallax(host, im, dm, mode, pos) {
+  const c = document.createElement('canvas'); c.className = 'plx';
+  host.append(c);
+  const dpr = window.devicePixelRatio || 1;
+  c.width = Math.max(2, Math.round(c.clientWidth * dpr)); c.height = Math.max(2, Math.round(c.clientHeight * dpr));
+  const gl = c.getContext('webgl', { preserveDrawingBuffer: true, premultipliedAlpha: false, antialias: false });
+  if (!gl) { c.remove(); return null; }
+  const sh = (t, src) => { const x = gl.createShader(t); gl.shaderSource(x, src); gl.compileShader(x); return x; };
+  const pr = gl.createProgram();
+  gl.attachShader(pr, sh(gl.VERTEX_SHADER, PLX_VS)); gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, PLX_FS));
+  gl.linkProgram(pr);
+  if (!gl.getProgramParameter(pr, gl.LINK_STATUS)) { c.remove(); return null; }
+  gl.useProgram(pr);
+  const buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+  const la = gl.getAttribLocation(pr, 'a'); gl.enableVertexAttribArray(la); gl.vertexAttribPointer(la, 2, gl.FLOAT, false, 0, 0);
+  const tex = (unit, src) => {
+    const t = gl.createTexture(); gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, t);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    try { gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, src); } catch (e) { return false; }
+    return gl.getError() === gl.NO_ERROR;
+  };
+  if (!tex(0, texSource(im)) || !tex(1, dm)) { c.remove(); return null; }
+  const U = n => gl.getUniformLocation(pr, n);
+  let useDof = mode === 'cover' && (MOTION.dof || 0) > 0;
+  if (useDof) {   // bản mờ của ảnh cho hiệu ứng đổi tiêu điểm
+    const k = Math.min(1, 1024 / Math.max(im.naturalWidth, im.naturalHeight));
+    const b = document.createElement('canvas'); b.width = Math.round(im.naturalWidth * k); b.height = Math.round(im.naturalHeight * k);
+    const bx = b.getContext('2d'); bx.filter = `blur(${Math.max(2, b.width * 0.004)}px)`; bx.drawImage(im, 0, 0, b.width, b.height);
+    useDof = tex(2, b);
+  }
+  gl.uniform1i(U('img'), 0); gl.uniform1i(U('dep'), 1); gl.uniform1i(U('blr'), useDof ? 2 : 0); gl.uniform1f(U('focus'), FOCUS);
+  gl.uniform1f(U('dof'), useDof ? MOTION.dof : 0);
+  let scl = [1, 1], off = [0, 0];
+  if (mode === 'cover') {
+    const ca = c.width / c.height, ia = im.naturalWidth / im.naturalHeight;
+    const pp = String(pos || '50% 50%').split(/\s+/).map(x => parseFloat(x) / 100);
+    const px = isFinite(pp[0]) ? pp[0] : 0.5, py = isFinite(pp[1]) ? pp[1] : 0.5;
+    if (ia > ca) { scl = [ca / ia, 1]; off = [(1 - scl[0]) * px, 0]; }
+    else { scl = [1, ia / ca]; off = [0, (1 - scl[1]) * py]; }
+  }
+  gl.uniform2f(U('scl'), scl[0], scl[1]); gl.uniform2f(U('off'), off[0], off[1]);
+  gl.uniform1f(U('taper'), mode === 'exact' ? 0.06 : 0.0);
+  gl.viewport(0, 0, c.width, c.height);
+  const camU = U('cam'), focU = U('focal');
+  return { canvas: c, draw(cam, foc) { gl.uniform3f(camU, cam[0], cam[1], cam[2]); gl.uniform1f(focU, foc);
+                                      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4); } };
+}
+
+// ----- lớp hạt
+const FXP = {
+  dust:   { n: 70,  r: [0.0011, 0.0032], c: [255, 214, 160], a: [0.25, 0.65] },
+  embers: { n: 48,  r: [0.0014, 0.0040], c: [255, 150, 60],  a: [0.45, 0.95] },
+  snow:   { n: 120, r: [0.0018, 0.0055], c: [245, 248, 255], a: [0.45, 0.90] },
+  rain:   { n: 170, r: [0.0006, 0.0011], c: [205, 218, 232], a: [0.16, 0.34] },
+};
+function rng(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+  t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+let FX = null;
+function fxInit() {
+  const cv = document.getElementById('fx'); const dpr = window.devicePixelRatio || 1;
+  cv.width = Math.round(1080 * dpr); cv.height = Math.round(1920 * dpr);
+  const ctx = cv.getContext('2d');
+  const W = cv.width, H = cv.height, u = Math.min(W, H), Wr = W / u, Hr = H / u;
+  const area = (Wr * Hr) / (16 / 9);
+  const sprite = col => { const s = document.createElement('canvas'); s.width = s.height = 64; const g = s.getContext('2d');
+    const gr = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    gr.addColorStop(0, `rgba(${col},1)`); gr.addColorStop(0.28, `rgba(${col},0.85)`); gr.addColorStop(0.5, `rgba(${col},0.22)`); gr.addColorStop(1, `rgba(${col},0)`);
+    g.fillStyle = gr; g.fillRect(0, 0, 64, 64); return s; };
+  const P = {};
+  Object.entries(FXP).forEach(([name, c], k) => {
+    const R = rng(1000 + k * 7919), n = Math.round(c.n * area), q = [];
+    for (let i = 0; i < n; i++) {
+      const o = { x: R(), y: R(), ph: R() * 6.283, f: 0.3 + R() * 0.9, r: c.r[0] + R() * (c.r[1] - c.r[0]),
+                  a: c.a[0] + R() * (c.a[1] - c.a[0]), z: 0.4 + R() * 0.6 };
+      if (name === 'dust') { if (R() < 0.12) { o.r *= 3.2; o.a *= 0.35; } o.vx = (R() - 0.35) * 0.010; o.vy = -(0.004 + R() * 0.010); }
+      else if (name === 'embers') { o.vx = (R() - 0.5) * 0.02; o.vy = -(0.04 + R() * 0.07); }
+      else if (name === 'snow') { o.vx = (R() - 0.5) * 0.01; o.vy = 0.03 + 0.06 * o.z; o.r *= (0.5 + o.z); }
+      else { o.vy = 1.1 + o.z * 0.8; o.vx = o.vy * 0.18; o.len = 0.025 + o.z * 0.035; }
+      q.push(o);
+    }
+    P[name] = { q, sprite: sprite(c.c.join(',')), c: c.c };
+  });
+  // sương: nhiễu mềm, quấn vòng ngang
+  const mw = Math.round(W / 4), mh = Math.round(H / 4), mist = document.createElement('canvas');
+  mist.width = mw * 2; mist.height = mh;
+  const mg = mist.getContext('2d'), id = mg.createImageData(mw * 2, mh), R = rng(11), acc = new Float32Array(mw * 2 * mh);
+  [[3, 1.0], [6, 0.5], [12, 0.25]].forEach(([o, amp]) => {
+    const gx = o * 2, gy = Math.max(2, Math.round(o * Hr / Wr * 0.6)), g = [];
+    for (let j = 0; j <= gy; j++) { g.push([]); for (let i = 0; i < gx; i++) g[j].push(R()); }
+    for (let y = 0; y < mh; y++) for (let x = 0; x < mw * 2; x++) {
+      const fx = x / (mw * 2) * gx, fy = y / mh * gy, i0 = Math.floor(fx), j0 = Math.min(gy - 1, Math.floor(fy));
+      const tx = fx - i0, ty = fy - j0, sx = tx * tx * (3 - 2 * tx), sy = ty * ty * (3 - 2 * ty);
+      const a = g[j0][i0 % gx], b = g[j0][(i0 + 1) % gx], c = g[j0 + 1][i0 % gx], d = g[j0 + 1][(i0 + 1) % gx];
+      acc[y * mw * 2 + x] += amp * ((a * (1 - sx) + b * sx) * (1 - sy) + (c * (1 - sx) + d * sx) * sy);
+    }
+  });
+  let lo = 1e9, hi = -1e9; acc.forEach(v => { lo = Math.min(lo, v); hi = Math.max(hi, v); });
+  for (let y = 0; y < mh; y++) for (let x = 0; x < mw * 2; x++) {
+    let v = (acc[y * mw * 2 + x] - lo) / (hi - lo); v = Math.pow(Math.max(0, (v - 0.35) / 0.65), 1.5) * (0.45 + 0.55 * y / mh);
+    const k = (y * mw * 2 + x) * 4; id.data[k] = 214; id.data[k + 1] = 206; id.data[k + 2] = 192; id.data[k + 3] = Math.round(v * 255);
+  }
+  mg.putImageData(id, 0, 0);
+  // tia nắng chéo từ góc trên (2 bộ, đổi qua lại chậm)
+  const rays = [3, 8].map(seed => {
+    const R2 = rng(seed), c = document.createElement('canvas'); c.width = Math.round(W / 2); c.height = Math.round(H / 2);
+    const g = c.getContext('2d'), ox = -0.15 * c.width, oy = -0.25 * c.height, ln = 2.2 * Math.max(c.width, c.height);
+    g.filter = `blur(${c.height * 0.02}px)`;
+    for (let i = 0; i < 9; i++) {
+      const ang = (25 + R2() * 45) * Math.PI / 180, wd = (1.5 + R2() * 4) * Math.PI / 180;
+      const gr = g.createRadialGradient(ox, oy, 0, ox, oy, ln * 0.55);
+      const a = 0.35 + R2() * 0.65;
+      gr.addColorStop(0, `rgba(255,236,196,${a})`); gr.addColorStop(1, 'rgba(255,236,196,0)');
+      g.fillStyle = gr; g.beginPath(); g.moveTo(ox, oy);
+      g.lineTo(ox + ln * Math.cos(ang - wd), oy + ln * Math.sin(ang - wd)); g.lineTo(ox + ln * Math.cos(ang + wd), oy + ln * Math.sin(ang + wd));
+      g.closePath(); g.fill();
+    }
+    return c;
+  });
+  FX = { cv, ctx, W, H, u, Wr, Hr, P, mist, mw, mh, rays };
+}
+function leakDraw(q) {   // vệt sáng ấm quét ngang lúc chuyển cảnh
+  if (!FX) return; const a = Math.sin(Math.PI * q); if (a <= 0.01) return;
+  const { ctx, W, H } = FX, cx = (-0.2 + 1.4 * q) * W, cy = 0.35 * H, r = Math.max(W, H) * 0.6;
+  const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+  g.addColorStop(0, `rgba(255,150,70,${0.30 * a * MOTION.fx_strength})`); g.addColorStop(1, 'rgba(255,150,70,0)');
+  ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha = 1; ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  ctx.globalCompositeOperation = 'source-over';
+}
+function fxDraw(fx, t, w) {
+  if (!FX || !fx || w <= 0.01) return;
+  const { ctx, W, H, u, Wr, Hr, P } = FX, k = MOTION.fx_strength * w, m = 0.06;
+  String(fx).split('+').forEach(name => {
+    if (['rays', 'lightning', 'flicker'].includes(name)) {
+      if (!MOTION.light) return;
+      if (name === 'rays') {
+        const m = 0.5 + 0.5 * Math.sin(t * 0.35), a = (0.32 + 0.08 * Math.sin(t * 0.9)) * k;
+        ctx.globalCompositeOperation = 'lighter';
+        ctx.globalAlpha = Math.min(1, a * m); ctx.drawImage(FX.rays[0], 0, 0, W, H);
+        ctx.globalAlpha = Math.min(1, a * (1 - m)); ctx.drawImage(FX.rays[1], 0, 0, W, H);
+      } else if (name === 'lightning') {
+        const v = lightningAt(t) * k; if (v > 0.01) {
+          ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha = Math.min(1, 0.32 * v);
+          ctx.fillStyle = 'rgb(220,230,255)'; ctx.fillRect(0, 0, W, H); }
+      } else {   // lửa hắt: ánh ấm lên xuống theo nhịp
+        const f = flickerAt(t);
+        ctx.globalCompositeOperation = 'soft-light'; ctx.globalAlpha = Math.min(1, (0.10 + 0.22 * f) * k);
+        ctx.fillStyle = 'rgb(255,170,90)'; ctx.fillRect(0, 0, W, H);
+      }
+      ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+      return;
+    }
+    if (name === 'shake') return;
+    if (name === 'mist') {
+      const lay = (speed, shift, a) => {
+        const ox = ((t * FX.mw * speed + FX.mw * shift) % (FX.mw * 2)) * (FX.mist.width / (FX.mw * 2));
+        ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 0.15 * k * a;
+        // vẽ cửa sổ rộng mw từ vị trí ox (quấn vòng)
+        const sw = FX.mw, first = Math.min(sw, FX.mw * 2 - ox);
+        ctx.drawImage(FX.mist, ox, 0, first, FX.mh, 0, 0, W * first / sw, H);
+        if (first < sw) ctx.drawImage(FX.mist, 0, 0, sw - first, FX.mh, W * first / sw, 0, W * (sw - first) / sw, H);
+      };
+      lay(0.025, 0, 0.9); lay(0.045, 0.7, 0.55);
+      return;
+    }
+    const p = P[name]; if (!p) return;
+    ctx.globalCompositeOperation = 'lighter';
+    const wob = { dust: 0.012, embers: 0.02, snow: 0.03, rain: 0 }[name];
+    for (const o of p.q) {
+      const x = ((o.x * (Wr + 2 * m) + o.vx * t + wob * Math.sin(t * o.f + o.ph)) % (Wr + 2 * m) + (Wr + 2 * m)) % (Wr + 2 * m) - m;
+      const y = ((o.y * (Hr + 2 * m) + o.vy * t) % (Hr + 2 * m) + (Hr + 2 * m)) % (Hr + 2 * m) - m;
+      let a = o.a;
+      if (name === 'dust') a *= 0.55 + 0.45 * Math.sin(t * o.f * 1.7 + o.ph);
+      if (name === 'embers') a *= clamp(0.55 + 0.45 * Math.sin(t * (6 + o.f * 9) + o.ph) * Math.sin(t * 2.3 + o.ph * 2), 0.1, 1) * clamp(1.4 - y / Hr * 1.1);
+      a *= k; if (a <= 0.01) continue;
+      if (name === 'rain') {
+        ctx.globalAlpha = a; ctx.strokeStyle = `rgb(${p.c.join(',')})`; ctx.lineWidth = Math.max(1, o.r * u * 2);
+        ctx.beginPath(); ctx.moveTo(x * u, y * u); ctx.lineTo((x - o.len * 0.18) * u, (y - o.len) * u); ctx.stroke();
+      } else {
+        const r = o.r * u * 2.6; ctx.globalAlpha = Math.min(1, a);
+        ctx.drawImage(p.sprite, x * u - r, y * u - r, 2 * r, 2 * r);
+      }
+    }
+  });
+  ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+}
+
 // ---------- timeline ----------
 let CFG = {}, SCENES = [], SUBS = [], TOTAL = 1, BLOBS = [];
 const FADE = 0.25;
@@ -323,6 +568,7 @@ const FADE = 0.25;
 window.setup = function (data) {
   CFG = data.config || {};
   STORY = CFG.style === 'story';
+  MOTION = Object.assign({}, MOTION, CFG.motion || {});
   document.body.classList.toggle('story', STORY);
   const th = data.theme || {};
   const rs = document.documentElement.style;
@@ -360,18 +606,48 @@ window.setup = function (data) {
       obj.root.classList.add('has-img');
       if (['hook', 'outro', 'number'].includes(sc.type)) obj.root.classList.add('center');
     }
-    return { ...obj, img, start: sc.start, dur: sc.dur };
+    return { ...obj, img, start: sc.start, dur: sc.dur, fx: MOTION.fx ? (sc.fx || '') : '', sc,
+             fit: !!sc.image_fit, kind: 0 };
   });
+  SCENES.forEach((x, i) => { x.kind = i === 0 ? 0 : (i % 2 ? 1 : 3); });   // cảnh đầu đẩy vào, sau đó lia xen kẽ
   SUBS = data.subtitles || [];
   TOTAL = data.total || 1;
   const imgs = SCENES.filter(x => x.img).map(x => new Promise(res => {
     const im = new Image(); im.onload = im.onerror = () => res(true);
     im.src = x.img.style.backgroundImage.slice(5, -2);
   }));
-  return Promise.all([document.fonts.ready, ...imgs]).then(() => true);
+  return Promise.all([document.fonts.ready, ...imgs]).then(initMotion).then(() => true);
 };
 
+async function initMotion() {
+  if (MOTION.fx) { try { fxInit(); } catch (e) { FX = null; } }
+  if (!MOTION.parallax) return;
+  for (const x of SCENES) {
+    if (!x.img || !x.sc.depth_src) continue;
+    const [im, dm] = await Promise.all([loadImg(x.sc.image_src), loadImg(x.sc.depth_src)]);
+    if (!im || !dm) continue;
+    try {
+      if (x.fit) {   // ảnh ngang hiện trọn ở nửa trên: canvas đúng khung ảnh, mép ảnh đứng yên
+        const fg = x.img.querySelector('.fg'); if (!fg) continue;
+        const bw = fg.clientWidth, bh = fg.clientHeight, k = Math.min(bw / im.naturalWidth, bh / im.naturalHeight);
+        const w = im.naturalWidth * k, h = im.naturalHeight * k;
+        const box = document.createElement('div');
+        box.style.cssText = `position:absolute;left:${(bw - w) / 2}px;top:${(bh - h) / 2}px;width:${w}px;height:${h}px`;
+        fg.append(box);
+        const pl = makeParallax(box, im, dm, 'exact');
+        if (pl) { x.plx = pl; fg.style.backgroundImage = 'none'; } else box.remove();
+      } else {
+        const pl = makeParallax(x.img, im, dm, 'cover', x.sc.image_focus);
+        if (pl) { x.plx = pl; x.img.style.backgroundImage = 'none'; }
+      }
+    } catch (e) { /* lỗi WebGL: giữ ảnh tĩnh như cũ */ }
+  }
+}
+
+let LEAK = 0;
 window.renderAt = function (t) {
+  if (FX) FX.ctx.clearRect(0, 0, FX.W, FX.H);
+  LEAK = 0;
   BLOBS.forEach(o => {
     o.b.style.transform = `translate(${o.x + Math.sin(t * o.sp + o.ph) * 60}px, ${o.y + Math.cos(t * o.sp * 0.8 + o.ph) * 80}px)`;
   });
@@ -395,10 +671,23 @@ window.renderAt = function (t) {
         const p = clamp((lt + IMGF) / (s.dur + 2 * IMGF));
         const dir = i % 2 ? -1 : 1;
         s.img.style.opacity = Math.min(a, b);
+        s.w = Math.min(a, b);
+        if (s.plx && s.w > 0.002) s.plx.draw(camera(s.kind, p, MOTION.parallax_strength * (s.fit ? 0.6 : 1)), focalAt(i, p));
+        // chuyển cảnh "lao vào ảnh": cảnh cũ phóng nhanh tới, cảnh mới thu từ to về
+        let kz = 1, sx = 0, sy = 0;
+        if (MOTION.transition === 'zoom') {
+          if (i + 1 < SCENES.length && lt > s.dur - IMGF) { const q = clamp((lt - s.dur + IMGF) / (2 * IMGF)); kz *= 1 + 0.22 * q * q; }
+          if (s.start > 0 && lt < IMGF) { const q = clamp((IMGF - lt) / (2 * IMGF)); kz *= 1 + 0.16 * q * q;
+                                          if (lt > -IMGF) LEAK = Math.max(LEAK, 1 - q); }
+        }
+        if (MOTION.light && /shake/.test(s.fx)) { const sh = shakeAt(t); sx = sh[0] * 100; sy = sh[1] * 100; }
         s.img.style.transform = STORY ? `scale(${1.05 + 0.09 * p}) translate(${dir * 1.6 * p}%, ${-0.9 * p}%)`
                                      : `scale(${1.04 + 0.12 * p}) translate(${dir * 2.2 * p}%, ${-1.2 * p}%)`;
+        if (kz !== 1 || sx || sy) s.img.style.transform += ` scale(${kz}) translate(${sx}%, ${sy}%)`;
       }
     }
+    if (s.fx) fxDraw(s.fx, t, s.img ? (s.w || 0) : clamp(Math.min((lt + 0.55) / 0.55, (s.dur + 0.55 - lt) / 0.55)));
+    s.w = 0;
     if (lt < 0 || lt > s.dur) { s.root.style.opacity = 0; return; }
     const FD = STORY ? 0.55 : FADE;
     const fin = clamp(lt / FD), fout = clamp((s.dur - lt) / FD);
@@ -412,6 +701,7 @@ window.renderAt = function (t) {
     s.anim(lt, s.dur);
   });
 
+  if (LEAK > 0 && MOTION.fx) leakDraw(LEAK);
   const box = document.getElementById('sub');
   const cur = SUBS.find(x => t >= x.start && t < x.end);
   if (cur) {

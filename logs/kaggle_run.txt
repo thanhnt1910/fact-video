@@ -1,6 +1,6 @@
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/kaggle_test.py", line 6, in <module>
-    from long_video import WIDE_HINT
-  File "/home/runner/work/fact-video/fact-video/long_video.py", line 31, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
+     🖥️  Gửi 4 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .running
+     🖥️   6.1 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (6 phút)
+     🖥️  Nhận về 4/4 tranh từ Kaggle
+kết quả: ['t1', 't2', 't3', 't4']

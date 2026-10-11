@@ -1,0 +1,184 @@
+{
+ "id": "SL2",
+ "slots": [
+  {
+   "slot": "A01",
+   "mo_ta": "B0 xe tải quân đội Úc 1932 chở súng máy",
+   "queries": [
+    "Emu War 1932",
+    "Australian army truck 1930s",
+    "Royal Australian Artillery 1932"
+   ]
+  },
+  {
+   "slot": "A02",
+   "mo_ta": "B0/B47 ảnh thật Chiến tranh Emu",
+   "queries": [
+    "Emu War",
+    "emu war Western Australia 1932 soldiers",
+    "Campion Western Australia emu 1932"
+   ]
+  },
+  {
+   "slot": "A03",
+   "mo_ta": "B5 lính Úc trở về sau Thế chiến I",
+   "queries": [
+    "Australian soldiers return 1919",
+    "troopship returning Australian soldiers 1919",
+    "AIF return home 1919"
+   ]
+  },
+  {
+   "slot": "A04",
+   "mo_ta": "B6 Gallipoli / mặt trận phía Tây",
+   "queries": [
+    "Gallipoli Australian soldiers 1915",
+    "Anzac Cove 1915",
+    "Australian soldiers Western Front 1917"
+   ]
+  },
+  {
+   "slot": "A05",
+   "mo_ta": "B8 lính cũ khai hoang đất (soldier settlement)",
+   "queries": [
+    "soldier settlement Western Australia",
+    "clearing land Western Australia 1920s",
+    "group settlement Western Australia",
+    "land clearing axe 1920s Australia"
+   ]
+  },
+  {
+   "slot": "A06",
+   "mo_ta": "B12 bao lúa mì chất ở ga 1930",
+   "queries": [
+    "wheat bags railway siding Western Australia",
+    "wheat stacks 1930s Australia",
+    "bagged wheat railway station 1930"
+   ]
+  },
+  {
+   "slot": "A07",
+   "mo_ta": "B14 nông dân gặt lúa mì 1930",
+   "queries": [
+    "harvesting wheat Western Australia 1930",
+    "wheat harvest Australia 1920s",
+    "stripper harvester horses Australia"
+   ]
+  },
+  {
+   "slot": "A08",
+   "mo_ta": "B18 emu bố ấp trứng / trứng emu",
+   "queries": [
+    "emu nest eggs",
+    "emu eggs",
+    "emu sitting on nest"
+   ]
+  },
+  {
+   "slot": "A09",
+   "mo_ta": "B19 quốc huy Úc",
+   "queries": [
+    "Coat of arms of Australia",
+    "Australian coat of arms 1912"
+   ]
+  },
+  {
+   "slot": "A10",
+   "mo_ta": "B20/B38 đàn emu nhiều con",
+   "queries": [
+    "flock of emus",
+    "emus group outback",
+    "mob of emus"
+   ]
+  },
+  {
+   "slot": "A11",
+   "mo_ta": "B22/B44 emu trên cánh đồng lúa mì / hàng rào",
+   "queries": [
+    "emu wheat field",
+    "emus farm fence Western Australia",
+    "emu paddock"
+   ]
+  },
+  {
+   "slot": "A12",
+   "mo_ta": "B24 nông dân họp ở hội trường làng 1930",
+   "queries": [
+    "country hall Western Australia 1930s",
+    "farmers meeting 1930s Australia",
+    "Campion Western Australia"
+   ]
+  },
+  {
+   "slot": "A13",
+   "mo_ta": "B27 thiếu tá Meredith / pháo binh Úc 1930",
+   "queries": [
+    "G. P. W. Meredith",
+    "Major Meredith emu",
+    "Royal Australian Artillery 1930s"
+   ]
+  },
+  {
+   "slot": "A14",
+   "mo_ta": "B28/B34 súng máy Lewis lính Úc",
+   "queries": [
+    "Lewis gun Australian soldiers",
+    "Lewis gun crew",
+    "Lewis gun 1930s"
+   ]
+  },
+  {
+   "slot": "A15",
+   "mo_ta": "B29 đường đất lầy sau mưa ở Tây Úc",
+   "queries": [
+    "muddy road Western Australia 1930s",
+    "bogged truck 1930s Australia",
+    "outback track mud"
+   ]
+  },
+  {
+   "slot": "A16",
+   "mo_ta": "B42 báo chí / quốc hội Úc 1932",
+   "queries": [
+    "Parliament House Canberra 1930s",
+    "Old Parliament House Canberra 1932",
+    "emu war newspaper 1932"
+   ]
+  },
+  {
+   "slot": "A17",
+   "mo_ta": "B49 vỏ đạn",
+   "queries": [
+    ".303 cartridge cases",
+    "empty cartridge cases",
+    "303 British cartridge"
+   ]
+  },
+  {
+   "slot": "A18",
+   "mo_ta": "B53 Đại khủng hoảng Tây Úc / Perth 1930s",
+   "queries": [
+    "Great Depression Western Australia",
+    "Perth 1932 crowd",
+    "unemployed march Perth 1930s"
+   ]
+  },
+  {
+   "slot": "A19",
+   "mo_ta": "B54/B58 nhà nông trại cũ có cối xay gió ở vùng lúa mì",
+   "queries": [
+    "wheatbelt farmhouse windmill",
+    "old farmhouse Western Australia windmill",
+    "Western Australia wheatbelt homestead"
+   ]
+  },
+  {
+   "slot": "A20",
+   "mo_ta": "B63 đèn dầu bàn",
+   "queries": [
+    "oil lamp table old",
+    "hurricane lantern"
+   ]
+  }
+ ]
+}

@@ -25,7 +25,7 @@
  13 [AI] Đó là một chiếc hộp bằng gỗ gụ, to cỡ chiếc rương du lịch. Lustig gọi nó là cỗ máy in tiền.
       → close-up of a polished mahogany wooden box with brass dials and small slots standing on a hotel room table, a mysterious device, 1920s, no people
  14 [AI] Ông ta biểu diễn: cho một tờ tiền thật vào máy, chờ sáu tiếng, và máy nhả ra… hai tờ giống hệt nhau.
-      → close-up of hands sliding a crisp 1920s banknote into a slot of an ornate wooden machine, dramatic lamp light, the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit
+      → close-up of exactly two hands, a man's left hand and right hand, sliding one crisp 1920s banknote into a narrow slot of an ornate polished wooden machine, dramatic lamp light, no face visible, no extra hands
  15 [=] Người ta gọi nó là chiếc hộp Rumani. Tờ tiền nhả ra là tiền thật, nên ai kiểm tra cũng thấy đúng. Chính mắt họ nhìn thấy, sao còn nghi ngờ đ
       → (dùng ảnh đoạn trước)
  16 [AI] Thật ra, tờ tiền thứ hai đã được giấu sẵn bên trong từ trước. Trong hộp chỉ có vài tờ như thế, đủ để người mua tin là thật.
@@ -69,7 +69,7 @@
  35 [AI] Theo các bản kể, chính vợ Poisson thấy có gì đó không ổn. Mọi chuyện quá bí mật, quá vội vàng. Poisson bắt đầu nghi ngờ.
       → a 1920s Parisian woman with a worried expression talking to her husband André Poisson, a plump balding middle-aged businessman with round wire glasses, clean shaven, in a brown three-piece suit in a modest apartment, lamp light
  36 [AI] Lúc ấy, Lustig làm một điều rất khôn: ông ta thú nhận rằng lương quan chức thấp, và gợi ý Poisson đưa thêm tiền hối lộ.
-      → two men in a quiet corner of a 1920s hotel bar: the con man Victor Lustig is a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit, discreetly sliding an envelope across the table to a nervous plump middle-aged balding businessman with round glasses and no moustache, smoky
+      → two men in a quiet corner of a 1920s hotel bar: the con man Victor Lustig, a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit, discreetly sliding a white envelope across a small round table to André Poisson, a plump balding middle-aged businessman with round wire glasses, clean shaven with no moustache, in a brown three-piece suit, smoky, anatomically correct hands
  37 [AI] Lời đòi hối lộ lại làm Poisson yên tâm. Ông nghĩ: chỉ quan chức thật mới đòi tiền như thế. Ông trả cả tiền mua tháp lẫn tiền hối lộ.
       → André Poisson, a plump balding middle-aged businessman with round wire glasses, clean shaven, in a brown three-piece suit, relieved, handing a stack of plain pale pink 1920s French franc banknotes across a desk to the con man Victor Lustig, a slim elegant man with slicked-back dark hair and a thin moustache in a tailored dark suit, a blank contract with a red wax seal beside it, sepia, not dollars, absolutely no text, no letters, no numbers, no license plates, no writing anywhere
  38 [=] Theo một số nguồn, tổng số tiền vào khoảng bảy mươi nghìn franc, một gia tài vào thời đó.

@@ -1,0 +1,51 @@
+KIỂM TRA ẢNH ST1 · video dài · 32 ảnh (số thứ tự khớp lưới ảnh anh_ST1_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 (ảnh mô phỏng AI) ·  mp_6440fbc9586d489c.jpg
+✅ 2 ·  scene_00.jpg
+✅ 3 · Hiroo Onoda · 1922 – 2014 scene_01.jpg
+✅ 4 (ảnh mô phỏng AI) · Wakayama · Nhật Bản mp_3118971c5dab53a3.jpg
+⚠️ 5 (ảnh mô phỏng AI) ·  mp_edada4871280c991.jpg
+     ⚠️ Ảnh hiển thị dọc (khung 1:1) thay vì khung ngang 16:9 như yêu cầu của video. → Điều chỉnh tỉ lệ ảnh thành khung ngang 16:9 để phù hợp với định dạng video.
+     ⚠️ Lá cờ bên phải có chữ viết có thể là chữ Hán giả mạo hoặc nét chữ không rõ nghĩa do AI tạo. → Chỉnh sửa lại chi tiết chữ trên cờ hoặc loại bỏ chữ để tránh gây hiểu lầm.
+⚠️ 6 ·  scene_02.jpg
+     ⚠️ Ảnh có chứa cờ quân đội Đế quốc Nhật Bản (cờ mặt trời mọc), là biểu tượng nhạy cảm liên quan đến chủ nghĩa quân phiệt lịch sử. → Cân nhắc làm mờ hoặc cắt bỏ phần cờ nếu nền tảng phân phối video có quy định nghiêm ngặt về biểu tượng quân sự lịch sử.
+✅ 7 (ảnh mô phỏng AI) ·  mp_478af803d43dbed0.jpg
+⚠️ 8 · Đảo Lubang · Philippines scene_03.jpg
+     ⚠️ Ảnh chụp phong cảnh hoàng hôn hiện đại (có cột điện bên phải) không phù hợp làm ảnh minh họa cho bối cảnh lịch sử năm 1944 hay chuyến thăm năm 1996, có thể gây cảm giác lạc quẻ về thời kỳ. → Nên thay thế bằng ảnh tư liệu thời chiến hoặc cảnh thiên nhiên mang tính hoài cổ, đúng thời kỳ lịch sử của đảo Lubang.
+✅ 9 ·  scene_04.jpg
+⚠️ 10 (ảnh mô phỏng AI) ·  mp_05c4929be7e433c5.jpg
+     ⚠️ Ảnh có tỉ lệ vuông (1:1), không phải khung ngang 16:9 như yêu cầu của video. → Cắt hoặc điều chỉnh lại khung hình sang tỉ lệ 16:9 cho phù hợp với video.
+✅ 11 ·  scene_05.jpg
+✅ 12 (ảnh mô phỏng AI) ·  mp_d1efd4df08148d3a.jpg
+❌ 13 (ảnh mô phỏng AI) ·  mp_5ab2b5d64adf2b1f.jpg
+     ❌ Có chữ viết vô nghĩa, lai tạp trên thân cây bên trái (ký tự giống 'Dedgas' hoặc tương tự do AI tạo ra). → Xóa hoặc chỉnh sửa lại phần chữ vô nghĩa trên thân cây để tránh lỗi AI.
+❌ 14 (ảnh mô phỏng AI) ·  mp_51d5b23b4316ba85.jpg
+     ❌ Lỗi giải phẫu AI nghiêm trọng ở bàn tay trái (tay cầm phía trên khẩu súng): các ngón tay bị uốn lượn kỳ dị, thiếu tự nhiên và cấu trúc giải phẫu không chính xác. → Tạo lại ảnh AI với bàn tay cầm súng được vẽ chính xác theo giải phẫu học thực tế.
+     ⚠️ Chi tiết lạ giống như một nắp hộp hoặc la bàn được gắn kỳ lạ ở phần báng súng phía dưới góc trái, không phù hợp với thiết kế súng trường Arisaka thời kỳ đó. → Loại bỏ chi tiết lạ ở báng súng để đảm bảo tính lịch sử và logic của vũ khí.
+✅ 15 ·  scene_06.jpg
+✅ 16 · Tướng Tomoyuki Yamashita · 1945 scene_07.jpg
+⚠️ 17 ·  scene_08.jpg
+     ⚠️ Ảnh minh họa hiển thị một gia đình Nhật Bản đang dùng bữa vào thập niên 1950 để minh họa cho gia đình của nhân vật chính trong câu chuyện, đây là ảnh bối cảnh chung và không phải là ảnh chụp thực tế gia đình của Onoda. → Có thể tiếp tục sử dụng làm ảnh tư liệu bối cảnh minh họa cho không khí gia đình thời kỳ đó.
+❌ 18 ·  scene_09.jpg
+     ❌ Ảnh chụp một chiếc đài bán dẫn (transistor radio) nhãn hiệu Tonepet sản xuất vào khoảng thập niên 1950, trong khi câu chuyện kể về giai đoạn Thế chiến II (kết thúc năm 1945) và những năm tháng Onoda ẩn náu (ông đầu hàng năm 1974 nhưng đài trong ảnh là mẫu thập niên 50 và có thể không khớp với loại đài quân sự thời chiến). → Nên thay bằng hình ảnh hoặc tranh vẽ mô tả loại đài phát thanh quân sự thập niên 1940 mà lính Nhật từng sử dụng trong rừng.
+✅ 19 (ảnh mô phỏng AI) ·  mp_e1b75c39ad7f2f44.jpg
+✅ 20 ·  scene_10.jpg
+✅ 21 · 1949 · còn lại 3 người scene_11.jpg
+❌ 22 (ảnh mô phỏng AI) · 1972 · chỉ còn Onoda mp_6baad7a1cc44bcb7.jpg
+     ❌ Ảnh có tỷ lệ vuông (1:1), không phù hợp với khung hình ngang 16:9 của video, và có các viền đen thừa ở xung quanh. → Cần cắt crop lại ảnh sang tỷ lệ 16:9 hoặc thay bằng ảnh có định dạng ngang chuẩn.
+✅ 23 (ảnh mô phỏng AI) ·  mp_9f8a259b4aed79e4.jpg
+⚠️ 24 ·  scene_12.jpg
+     ⚠️ Ảnh chụp đường phố Tokyo, Nhật Bản nhưng đây là ảnh phong cảnh thời kỳ hiện đại hơn (thập niên 1970 hoặc sau này), không khớp chính xác với mốc thời gian sự kiện năm 1972 khi tin tức về Kozuka gây chấn động. → Nên dùng ảnh tư liệu báo chí Nhật Bản năm 1972 đưa tin về cái chết của Kozuka hoặc chân dung Norio Suzuki để đúng bối cảnh lịch sử hơn.
+✅ 25 (ảnh mô phỏng AI) · 20/2/1974 mp_cf3887dfcacccf8c.jpg
+⚠️ 26 (ảnh mô phỏng AI) ·  mp_421f9ce306ed5e37.jpg
+     ⚠️ Ảnh AI tạo có các chữ viết trên sách, biển hiệu và khung tranh trên tường là những ký tự lộn xộn, vô nghĩa. → Chỉnh sửa lại các chi tiết chữ viết trên sách và biển hiệu thành tiếng Nhật có nghĩa tự nhiên.
+❌ 27 (ảnh mô phỏng AI) · 9/3/1974 mp_d0fcbb97281e08b3.jpg
+     ❌ Ảnh hiển thị sai tỷ lệ khung hình (dạng dọc 1:1 hoặc gần vuông thay vì ngang 16:9 như yêu cầu cho video dài) → Tạo lại ảnh theo tỷ lệ khung hình ngang 16:9.
+     ❌ Khuôn mặt của người lính (nhân vật lịch sử Onoda) lộ rõ diện tích lớn và nhìn ngang, vi phạm quy tắc không được để lộ khuôn mặt rõ ràng của nhân vật lịch sử có thật. → Điều chỉnh góc máy để người lính quay hẳn lưng về phía camera hoặc ở khoảng cách xa hơn, khuất bóng.
+     ⚠️ Bối cảnh sân cỏ trống trải có vẻ giống sân vận động hoặc bãi tập hiện đại hơn là khung cảnh trong rừng rậm Lubang năm 1974. → Thêm các chi tiết rậm rạp của rừng nhiệt đới, cây cối sát hơn để đúng với bối cảnh 'trong rừng'.
+⚠️ 28 ·  scene_13.jpg
+     ⚠️ ảnh hơi mờ (độ nét 59)
+✅ 29 · Manila · 11/3/1974 scene_14.jpg
+⚠️ 30 ·  scene_15.jpg
+     ⚠️ Ảnh chụp phần đầu tàu Shinkansen loạt 0 được trưng bày trong bảo tàng (National Railway Museum, Anh), không phải ảnh chụp trên đường ray thực tế tại Nhật Bản năm 1974. → Nên dùng ảnh tư liệu hoặc ảnh chụp tàu Shinkansen chạy trên đường ray ngoài trời tại Nhật Bản thập niên 1970 để phù hợp hơn với bối cảnh lịch sử.
+✅ 31 · Brazil · 1975 scene_16.jpg
+✅ 32 ·  scene_17.jpg

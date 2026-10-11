@@ -1,38 +1,59 @@
 
 ===== ST1: kiểm tra kịch bản trước khi dựng =====
 
-===== ST1 (video ngắn + bài ảnh) =====
-▶️  ST1: Người lính chiến đấu 29 năm cho một cuộc chiến đã kết thúc
-  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
-  🔍 Kiểm tra 5 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-11 10:41:04.807468197 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
-     5/5 ảnh có độ sâu · lớp hạt: -, -, -, -, -, -, -
-  🎙️  Giọng Gemini Sadaltager: đọc cả kịch bản (271 tiếng)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-  🎵 Nhạc nền: Lost Time
-  🎬 Dựng 2473 khung hình (82.4 giây, 30 fps)
-     … 150/2473 khung, còn khoảng 853s
-     … 300/2473 khung, còn khoảng 845s
-     … 450/2473 khung, còn khoảng 765s
-     … 600/2473 khung, còn khoảng 698s
-     … 750/2473 khung, còn khoảng 645s
-     … 900/2473 khung, còn khoảng 612s
-     … 1050/2473 khung, còn khoảng 560s
-     … 1200/2473 khung, còn khoảng 497s
-     … 1350/2473 khung, còn khoảng 413s
-     … 1500/2473 khung, còn khoảng 339s
-     … 1650/2473 khung, còn khoảng 274s
-     … 1800/2473 khung, còn khoảng 216s
-     … 1950/2473 khung, còn khoảng 169s
-     … 2100/2473 khung, còn khoảng 122s
-     … 2250/2473 khung, còn khoảng 75s
-     … 2400/2473 khung, còn khoảng 25s
-  🎚️  Giọng -14.5 dB · nhạc khi đang nói -26.6 dB (nhỏ hơn giọng 12.1 dB) · nhạc lúc nghỉ -20.3 dB
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (ST1_post.txt)
-✅ Xong output/ST1/ST1.mp4  (82.4s video, mất 888s)
+===== ST1 (video dài) =====
+▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
+  🖼️  Ảnh cho video dài
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🎨 mp_6440fbc9586d489c.jpg
+     🎨 mp_3118971c5dab53a3.jpg
+     🎨 mp_edada4871280c991.jpg
+     🎨 mp_478af803d43dbed0.jpg
+     🎨 mp_05c4929be7e433c5.jpg
+     🎨 mp_d1efd4df08148d3a.jpg
+     🎨 mp_5ab2b5d64adf2b1f.jpg
+     🎨 mp_51d5b23b4316ba85.jpg
+     🎨 mp_e1b75c39ad7f2f44.jpg
+     🎨 mp_6baad7a1cc44bcb7.jpg
+     🎨 mp_9f8a259b4aed79e4.jpg
+     🎨 mp_cf3887dfcacccf8c.jpg
+     🎨 mp_421f9ce306ed5e37.jpg
+     🎨 mp_d0fcbb97281e08b3.jpg
+  🔍 Kiểm tra 32 ảnh: 9 ảnh lỗi, 7 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_6440fbc9586d489c.jpg (lần 1)
+     🎨 mp_6440fbc9586d489c.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_edada4871280c991.jpg (lần 1)
+     🎨 mp_edada4871280c991.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_5ab2b5d64adf2b1f.jpg (lần 1)
+     🎨 mp_5ab2b5d64adf2b1f.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_51d5b23b4316ba85.jpg (lần 1)
+     🎨 mp_51d5b23b4316ba85.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_6baad7a1cc44bcb7.jpg (lần 1)
+     🎨 mp_6baad7a1cc44bcb7.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_cf3887dfcacccf8c.jpg (lần 1)
+     🎨 mp_cf3887dfcacccf8c.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_421f9ce306ed5e37.jpg (lần 1)
+     🎨 mp_421f9ce306ed5e37.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_d0fcbb97281e08b3.jpg (lần 1)
+     🎨 mp_d0fcbb97281e08b3.jpg
+  🔍 Kiểm tra 32 ảnh: 6 ảnh lỗi, 9 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_5ab2b5d64adf2b1f.jpg (lần 2)
+     🎨 mp_5ab2b5d64adf2b1f.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_51d5b23b4316ba85.jpg (lần 2)
+     🎨 mp_51d5b23b4316ba85.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_6baad7a1cc44bcb7.jpg (lần 2)
+     🎨 mp_6baad7a1cc44bcb7.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_cf3887dfcacccf8c.jpg (lần 2)
+     🎨 mp_cf3887dfcacccf8c.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_d0fcbb97281e08b3.jpg (lần 2)
+     🎨 mp_d0fcbb97281e08b3.jpg
+  🔍 Kiểm tra 32 ảnh: 5 ảnh lỗi, 9 ảnh cần xem
+❌ Video dài ST1: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST1_dai_kiemtra.txt):
+  mp_5ab2b5d64adf2b1f.jpg: Có chữ viết vô nghĩa, lai tạp trên thân cây bên trái (ký tự giống 'Dedgas' hoặc tương tự do AI tạo ra). → Xóa hoặc chỉnh sửa lại phần chữ vô nghĩa trên thân cây để tránh lỗi AI.
+  mp_51d5b23b4316ba85.jpg: Lỗi giải phẫu AI nghiêm trọng ở bàn tay trái (tay cầm phía trên khẩu súng): các ngón tay bị uốn lượn kỳ dị, thiếu tự nhiên và cấu trúc giải phẫu không chính xác. → Tạo lại ảnh AI với bàn tay cầm súng được vẽ chính xác theo giải phẫu học thực tế.
+  scene_09.jpg: Ảnh chụp một chiếc đài bán dẫn (transistor radio) nhãn hiệu Tonepet sản xuất vào khoảng thập niên 1950, trong khi câu chuyện kể về giai đoạn Thế chiến II (kết thúc năm 1945) và những năm tháng Onoda ẩn náu (ông đầu hàng năm 1974 nhưng đài trong ảnh là mẫu thập niên 50 và có thể không khớp với loại đài quân sự thời chiến). → Nên thay bằng hình ảnh hoặc tranh vẽ mô tả loại đài phát thanh quân sự thập niên 1940 mà lính Nhật từng sử dụng trong rừng.
+  mp_6baad7a1cc44bcb7.jpg: Ảnh có tỷ lệ vuông (1:1), không phù hợp với khung hình ngang 16:9 của video, và có các viền đen thừa ở xung quanh. → Cần cắt crop lại ảnh sang tỷ lệ 16:9 hoặc thay bằng ảnh có định dạng ngang chuẩn.
+  mp_d0fcbb97281e08b3.jpg: Ảnh hiển thị sai tỷ lệ khung hình (dạng dọc 1:1 hoặc gần vuông thay vì ngang 16:9 như yêu cầu cho video dài) → Tạo lại ảnh theo tỷ lệ khung hình ngang 16:9.; Khuôn mặt của người lính (nhân vật lịch sử Onoda) lộ rõ diện tích lớn và nhìn ngang, vi phạm quy tắc không được để lộ khuôn mặt rõ ràng của nhân vật lịch sử có thật. → Điều chỉnh góc máy để người lính quay hẳn lưng về phía camera hoặc ở khoảng cách xa hơn, khuất bóng.
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong video ngắn: ST1 · video dài: -
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): ST1

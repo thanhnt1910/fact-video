@@ -1,41 +1,25 @@
 
-===== BA1 (video dài) =====
-▶️  Video dài BA1: Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste
-  🖼️  Ảnh cho video dài
-  🎙️  Giọng Gemini Sadaltager (10 chương)
+===== ST1 (video ngắn + bài ảnh) =====
+▶️  ST1: Người lính chiến đấu 29 năm cho một cuộc chiến đã kết thúc
+  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-11 07:14:33.144812479 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+     5/5 ảnh có độ sâu · lớp hạt: mist+dust, dust, dust, dust, snow, dust, mist+dust
+  🎙️  Giọng Gemini Sadaltager: đọc cả kịch bản (271 tiếng)
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (22s)
-  ⏱️  Thời lượng 10:17 · 41 cảnh ảnh
-     14821 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (216 giây)
-     … 2/6 đoạn (222 giây)
-     … 3/6 đoạn (430 giây)
-     … 4/6 đoạn (436 giây)
-     … 5/6 đoạn (641 giây)
-     … 6/6 đoạn (641 giây)
-     dựng khung hình xong trong 641 giây
-  🎵 Nhạc nền: Investigations
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: BA1_dai.mp4 (10:17)
-
-===== PV1 (video dài) =====
-▶️  Video dài PV1: Kẻ lừa đảo đã bán tháp Eiffel như thế nào? | Victor Lustig
-  🖼️  Ảnh cho video dài
-  🎙️  Giọng Gemini Sadaltager (10 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (15s)
-  ⏱️  Thời lượng 09:43 · 45 cảnh ảnh
-     14000 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (204 giây)
-     … 2/6 đoạn (211 giây)
-     … 3/6 đoạn (408 giây)
-     … 4/6 đoạn (421 giây)
-     … 5/6 đoạn (612 giây)
-     … 6/6 đoạn (612 giây)
-     dựng khung hình xong trong 613 giây
-  🎵 Nhạc nền: Spy Glass
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: PV1_dai.mp4 (09:43)
-
-Xong video ngắn: - · video dài: BA1, PV1
+  🎵 Nhạc nền: Lost Time
+  🎬 Dựng 2346 khung hình (78.2 giây, 30 fps)
+     … 150/2346 khung, còn khoảng 790s
+     … 300/2346 khung, còn khoảng 773s
+     … 450/2346 khung, còn khoảng 704s
+     … 600/2346 khung, còn khoảng 641s
+     … 750/2346 khung, còn khoảng 608s
+     … 900/2346 khung, còn khoảng 558s
+     … 1050/2346 khung, còn khoảng 502s
+     … 1200/2346 khung, còn khoảng 415s
+     … 1350/2346 khung, còn khoảng 341s
+     … 1500/2346 khung, còn khoảng 277s
+     … 1650/2346 khung, còn khoảng 219s
+     … 1800/2346 khung, còn khoảng 167s
+     … 1950/2346 khung, còn khoảng 124s

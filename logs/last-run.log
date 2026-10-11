@@ -5,20 +5,30 @@
 ▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
   🖼️  Ảnh cho video dài
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🎨 mp_a096c70907e2dccd.jpg
-     🎨 mp_d828f205f40ffc2c.jpg
-     🎨 mp_676f6479da529583.jpg
-  🔍 Kiểm tra 32 ảnh: 2 ảnh lỗi, 4 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_edada4871280c991.jpg (lần 1)
-     🎨 mp_edada4871280c991.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_05c4929be7e433c5.jpg (lần 1)
-     🎨 mp_05c4929be7e433c5.jpg
+     🎨 mp_9e5caf12977de182.jpg
   🔍 Kiểm tra 32 ảnh: 1 ảnh lỗi, 4 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_05c4929be7e433c5.jpg (lần 2)
-     🎨 mp_05c4929be7e433c5.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_9e5caf12977de182.jpg (lần 1)
+     🎨 mp_9e5caf12977de182.jpg
   🔍 Kiểm tra 32 ảnh: 1 ảnh lỗi, 4 ảnh cần xem
-❌ Video dài ST1: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST1_dai_kiemtra.txt):
-  mp_05c4929be7e433c5.jpg: Nhân vật bên phải (được cho là Onoda) quay mặt sang ngang, nhìn rõ khuôn mặt, vi phạm quy tắc không được thấy rõ mặt nhân vật lịch sử có thật. → Tạo lại ảnh sao cho nhân vật quay lưng hoàn toàn hoặc bóng tối che khuất hẳn khuôn mặt.
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_9e5caf12977de182.jpg (lần 2)
+     🎨 mp_9e5caf12977de182.jpg
+  🔍 Kiểm tra 32 ảnh: 0 ảnh lỗi, 5 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (9 chương)
+  ⏱️  Thời lượng 10:59 · 38 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-11 11:36:29.088259282 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+     32/32 ảnh có độ sâu
+     15837 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (340 giây)
+     … 2/6 đoạn (340 giây)
+     … 3/6 đoạn (598 giây)
+     … 4/6 đoạn (727 giây)
+     … 5/6 đoạn (949 giây)
+     … 6/6 đoạn (961 giây)
+     dựng khung hình xong trong 962 giây
+  🎵 Nhạc nền: Dark Times
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: ST1_dai.mp4 (10:59)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): ST1
+Xong video ngắn: - · video dài: ST1

@@ -45,9 +45,10 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           AI_SOURCE: ${{ inputs.nguon_ve }}
         run: |
+          set -o pipefail; mkdir -p logs
           files=""
           for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do files="$files scripts/$id.json"; done
-          python long_video.py --images-only $files | tee logs/ve-tranh.log
+          python long_video.py --images-only $files 2>&1 | tee logs/ve-tranh.txt || true
           mkdir -p logs
           for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
             cp "output/$id/${id}_anh.jpg" "logs/anh_${id}.jpg" 2>/dev/null || true
@@ -66,7 +67,7 @@ jobs:
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add logs/anh_* logs/ve-tranh.log 2>/dev/null || true
+          git add -f logs/anh_* logs/ve-tranh.txt logs/kaggle_last.txt 2>/dev/null || true
           git commit -q -m "Bảng duyệt ảnh" || exit 0
           for i in 1 2 3; do
             git pull --rebase -X theirs -q && git push -q && exit 0

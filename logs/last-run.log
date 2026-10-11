@@ -1,45 +1,5 @@
 
-===== SL2: kiểm tra kịch bản trước khi dựng =====
-
 ===== ST1: kiểm tra kịch bản trước khi dựng =====
-
-===== SL2 (video dài) =====
-▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
-  🖼️  Ảnh cho video dài
-  🎙️  Giọng Gemini Sadaltager (10 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (23s)
-     🎙️  Gemini đọc xong 1 chương (19s)
-  ⏱️  Thời lượng 09:20 · 43 cảnh ảnh
-     13459 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (183 giây)
-     … 2/6 đoạn (189 giây)
-     … 3/6 đoạn (358 giây)
-     … 4/6 đoạn (363 giây)
-     … 5/6 đoạn (536 giây)
-     … 6/6 đoạn (536 giây)
-     dựng khung hình xong trong 537 giây
-  🎵 Nhạc nền: Master of the Feast
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: SL2_dai.mp4 (09:20)
-
-===== ST1 (video dài) =====
-▶️  Video dài ST1: Vì sao người lính này chiến đấu 29 năm cho cuộc chiến đã kết thúc? | Hiroo Onoda
-  🖼️  Ảnh cho video dài
-  🎙️  Giọng Gemini Sadaltager (9 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (23s)
-  ⏱️  Thời lượng 10:57 · 44 cảnh ảnh
-     15785 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (209 giây)
-     … 2/6 đoạn (210 giây)
-     … 3/6 đoạn (418 giây)
-     … 4/6 đoạn (430 giây)
-     … 5/6 đoạn (629 giây)
-     … 6/6 đoạn (630 giây)
-     dựng khung hình xong trong 630 giây
-  🎵 Nhạc nền: Dark Times
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: ST1_dai.mp4 (10:57)
-
-Xong video ngắn: - · video dài: SL2, ST1
+   ❌ [Nội dung kịch bản · Đoạn 35] Lời đọc ghi: 'Tháng chín năm một nghìn chín trăm bốn mươi chín, Akatsu lặng lẽ bỏ đi.' Tuy nhiên, trong phần video ngắn và kế hoạch/bài viết, mốc Akatsu ra đầu hàng là năm 1950, không khớp nhau về con số.
+   ⛔ Chưa dựng ST1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+Không dựng gì (kịch bản có lỗi, xem ở trên).

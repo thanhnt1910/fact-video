@@ -1,0 +1,5 @@
+model: veo-3.1-lite-generate-preview
+giây mỗi clip: 4
+prompt: The lone soldier slowly walks forward along the jungle path, away from the camera, rifle on his shoulder; palm leaves sway gently in the breeze; morning mist drifts between the trees; slow cinematic camera push-in. Keep the exact same 2D hand-drawn illustration style, colors and characters as the starting image. Smooth, natural, subtle motion only; no text, no captions, no new characters, no scene cut.
+ngang (16:9): LỖI 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': "`negativePrompt` isn't supported by this model. Please remove it or refer to the Gemini API documentation for supported usage.", 'status': 'INVALID_ARGUMENT'}}
+doc (9:16): LỖI 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': "`negativePrompt` isn't supported by this model. Please remove it or refer to the Gemini API documentation for supported usage.", 'status': 'INVALID_ARGUMENT'}}

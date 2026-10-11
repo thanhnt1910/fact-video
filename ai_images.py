@@ -1,6 +1,6 @@
 """
 Vẽ ảnh minh họa bằng AI (miễn phí): FLUX.1 schnell trên Cloudflare Workers AI.
-Cần GitHub Secrets: CF_ACCOUNT_ID, CF_API_TOKEN.
+Cần GitHub Secrets: CF_ACCOUNT_ID, CF_API_TOKEN (tài khoản dự phòng: CF_ACCOUNT_ID_2, CF_API_TOKEN_2).
 
   generate(prompt, out_path)          -> ảnh 1024x1024 (jpg)
   cutout(in_path, out_png)            -> tách nền, cắt sát nhân vật (png trong suốt)
@@ -36,11 +36,38 @@ RIG_POSE = ("standing upright facing the viewer, front view, arms held slightly 
 
 
 _CF_OUT = {"v": False}   # Cloudflare đã hết lượt trong lần chạy này -> chuyển thẳng sang nguồn dự phòng
+_CF_IDX = {"i": 0}       # đang dùng tài khoản Cloudflare thứ mấy (CF_..., rồi CF_..._2)
+
+
+def _accounts():
+    out = []
+    for suf in ("", "_2", "_3"):
+        a = os.environ.get("CF_ACCOUNT_ID" + suf, "").strip()
+        t = os.environ.get("CF_API_TOKEN" + suf, "").strip()
+        if a and t and (a, t) not in out:
+            out.append((a, t))
+    return out
+
+
+def _creds():
+    acc = _accounts()
+    if not acc:
+        return "", ""
+    return acc[min(_CF_IDX["i"], len(acc) - 1)]
+
+
+def _next_account(log=print):
+    """Tài khoản hiện tại hết lượt -> chuyển sang tài khoản dự phòng (nếu có). Trả về True nếu chuyển được."""
+    if _CF_IDX["i"] + 1 < len(_accounts()):
+        _CF_IDX["i"] += 1
+        _CF_OUT["v"] = False
+        log(f"     🔁 Cloudflare tài khoản {_CF_IDX['i']} hết lượt, chuyển sang tài khoản {_CF_IDX['i'] + 1}")
+        return True
+    return False
 
 
 def _cloudflare(full, out, steps):
-    acc = os.environ.get("CF_ACCOUNT_ID", "").strip()
-    tok = os.environ.get("CF_API_TOKEN", "").strip()
+    acc, tok = _creds()
     if not acc or not tok:
         raise RuntimeError("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")
     body = {"prompt": full[:2000], "steps": steps}
@@ -73,8 +100,7 @@ def _cloudflare(full, out, steps):
 def _klein(full, out, wide, seed=None):
     """FLUX.2 klein 4B trên Cloudflare (gửi dạng multipart/form-data)."""
     import uuid
-    acc = os.environ.get("CF_ACCOUNT_ID", "").strip()
-    tok = os.environ.get("CF_API_TOKEN", "").strip()
+    acc, tok = _creds()
     if not acc or not tok:
         raise RuntimeError("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")
     w, h = (1344, 768) if wide else (1024, 1024)
@@ -117,27 +143,33 @@ def _klein(full, out, wide, seed=None):
 
 def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=False, style=None, cheap=False):
     """Vẽ 1 ảnh bằng FLUX.2 klein (Cloudflare); lỗi riêng mô hình này thì thử FLUX.1 schnell.
-    Hết lượt miễn phí trong ngày thì báo lỗi (429/limit) để video được hoãn sang lần chạy sau,
-    KHÔNG dùng nguồn miễn phí khác (ảnh xấu, có in logo). Có sẵn file thì dùng lại (không tốn lượt)."""
+    Tài khoản Cloudflare hết lượt miễn phí -> tự chuyển sang tài khoản dự phòng (CF_ACCOUNT_ID_2 / CF_API_TOKEN_2).
+    Hết lượt cả các tài khoản thì báo lỗi (429/limit) để video được hoãn sang lần chạy sau.
+    Có sẵn file thì dùng lại (không tốn lượt)."""
     out = Path(out)
     if out.exists() and out.stat().st_size > 10000:
         return out
-    if _CF_OUT["v"]:
-        raise RuntimeError("Cloudflare AI hết lượt miễn phí hôm nay (429/limit)")
     full = f"{prompt}, {CUTOUT_HINT if cutout else ''}, {style or STYLE}".replace(", ,", ",")
-    if cheap:   # FLUX.1 schnell: ~60 neurons/ảnh thay vì ~1.400 của FLUX.2 klein (mức miễn phí 10.000/ngày)
-        _cloudflare(full, out, max(steps, 6))
-        log(f"     🎨 {out.name}")
-        return out
-    try:
-        _klein(full, out, wide, seed)
-    except RuntimeError as e:
-        if _CF_OUT["v"]:
+    while True:
+        if _CF_OUT["v"] and not _next_account(log):
+            raise RuntimeError("Cloudflare AI hết lượt miễn phí hôm nay (429/limit)")
+        try:
+            if cheap:   # FLUX.1 schnell: ~80 neurons/ảnh thay vì ~1.400 của FLUX.2 klein (mức miễn phí 10.000/ngày)
+                _cloudflare(full, out, max(steps, 6))
+            else:
+                try:
+                    _klein(full, out, wide, seed)
+                except RuntimeError as e:
+                    if _CF_OUT["v"]:
+                        raise
+                    log(f"     ↪️  FLUX.2 lỗi ({str(e)[:80]}), thử FLUX.1")
+                    _cloudflare(full, out, steps)
+            log(f"     🎨 {out.name}")
+            return out
+        except RuntimeError:
+            if _CF_OUT["v"] and _next_account(log):
+                continue
             raise
-        log(f"     ↪️  FLUX.2 lỗi ({str(e)[:80]}), thử FLUX.1")
-        _cloudflare(full, out, steps)
-    log(f"     🎨 {out.name}")
-    return out
 
 
 _SESSION = None

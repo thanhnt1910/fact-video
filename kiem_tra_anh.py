@@ -76,6 +76,9 @@ Hãy soi ảnh và chỉ báo vấn đề có thật:
 - Nội dung nhạy cảm: thi thể, máu me, bạo lực rõ, biểu tượng phát xít.
 {ai_note}
 TRẢ LỜI JSON: {{"van_de": [{{"muc": "loi" hoặc "canh_bao", "mo_ta": "…", "sua": "…"}}], "tom_tat": "một câu"}}
+KHÔNG báo lỗi tỉ lệ khung hình (ảnh vuông, dọc...): ảnh sẽ được tự động cắt cho vừa màn hình.
+Câu chuyện có thể kéo dài nhiều chục năm: đồ vật, ảnh thuộc bất kỳ năm nào trong khoảng thời gian lời kể nói tới
+(ví dụ chiếc đài thập niên 1950-1960 khi lời kể nói về những năm lẩn trốn sau chiến tranh) là ĐÚNG thời kỳ.
 "loi" = không nên dùng ảnh này. Ảnh tư liệu cũ thì mờ, ngả màu, có hạt là BÌNH THƯỜNG, không phải lỗi.
 Không có vấn đề thì "van_de": []."""
 

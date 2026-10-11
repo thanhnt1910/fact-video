@@ -157,6 +157,7 @@ def beat_images(script, beats, work):
             try:
                 ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT, f, log=log, wide=True, style=ai_images.STYLE_PHOTO,
                                    cheap=True)
+                ai_images.to_wide(f)   # ảnh cũ trong bộ nhớ đệm còn khung vuông
                 b["image_src"] = f.resolve().as_uri()
                 b["_ai"] = True
                 b.setdefault("fit", False)

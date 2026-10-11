@@ -156,6 +156,8 @@ def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=Fals
         try:
             if cheap:   # FLUX.1 schnell: ~80 neurons/ảnh thay vì ~1.400 của FLUX.2 klein (mức miễn phí 10.000/ngày)
                 _cloudflare(full, out, max(steps, 6))
+                if wide:
+                    to_wide(out)
             else:
                 try:
                     _klein(full, out, wide, seed)
@@ -170,6 +172,29 @@ def generate(prompt, out, cutout=False, seed=None, steps=4, log=print, wide=Fals
             if _CF_OUT["v"] and _next_account(log):
                 continue
             raise
+
+
+def to_wide(path, width=1344):
+    """FLUX.1 schnell chỉ trả ảnh vuông: cắt viền đen/trắng thừa, cắt giữa về khung 16:9 rồi phóng lên 1344x756.
+    Ảnh đã ngang sẵn thì để nguyên."""
+    import numpy as np
+    from PIL import Image
+    p = Path(path)
+    im = Image.open(p).convert("RGB")
+    if im.width / im.height >= 1.7:
+        return p
+    a = np.asarray(im.convert("L"), np.int16)
+    rows = np.where((a.mean(1) > 14) & (a.mean(1) < 245) | (a.std(1) > 6))[0]
+    cols = np.where((a.mean(0) > 14) & (a.mean(0) < 245) | (a.std(0) > 6))[0]
+    if len(rows) > a.shape[0] // 2 and len(cols) > a.shape[1] // 2:
+        im = im.crop((int(cols[0]), int(rows[0]), int(cols[-1]) + 1, int(rows[-1]) + 1))
+    w, h = im.size
+    ch = min(h, round(w * 9 / 16))
+    cw = min(w, round(ch * 16 / 9))
+    x0, y0 = (w - cw) // 2, max(0, (h - ch) * 45 // 100)
+    im = im.crop((x0, y0, x0 + cw, y0 + ch)).resize((width, round(width * 9 / 16)), Image.LANCZOS)
+    im.save(p, quality=93)
+    return p
 
 
 _SESSION = None

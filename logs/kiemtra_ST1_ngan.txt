@@ -1,0 +1,13 @@
+🔎 KIỂM TRA ST1 · video ngắn + bài ảnh
+❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 1 lỗi, 2 cảnh báo
+
+❌ [Soi khung hình · khung 4 (00:48)] Chữ trên màn hình bị lỗi hiển thị mã nguồn JSON (chứa các đoạn như `{"year": "1945", ...}`).
+   → Sửa: Sửa lại phần hiển thị văn bản để loại bỏ các đoạn mã JSON thừa.
+⚠️ [Kịch bản · cảnh 4] cảnh không có ảnh
+⚠️ [Kịch bản · cảnh 5] cảnh không có ảnh
+
+Nhận xét:
+• Nội dung kịch bản: Nội dung kiểm tra khớp hoàn toàn với kế hoạch, thông tin chính xác, không phát hiện lỗi chính tả hay vi phạm quy tắc biên tập.
+• Xem và nghe video: Video hoàn chỉnh, giọng đọc chuẩn xác theo kịch bản, hình ảnh tư liệu phù hợp và rõ nét.
+• Soi khung hình: Video có nội dung và hình ảnh tư liệu tốt, minh họa sát kịch bản, ngoại trừ lỗi hiển thị mã JSON trên văn bản của khung 4 cần được khắc phục trước khi đăng.
+• Bài ảnh: Bài viết và album ảnh hoàn thiện, nội dung mạch lạc, hình ảnh minh họa phù hợp và không phát hiện lỗi chính tả hay kỹ thuật.

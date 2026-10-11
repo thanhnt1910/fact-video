@@ -1,0 +1,30 @@
+🔎 KIỂM TRA BA1 · video dài
+❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 7 lỗi, 4 cảnh báo
+
+❌ [Soi khung hình · khung 1 (00:08)] Lời đọc mô tả con tàu 'cánh buồm rách tả tơi, như không có ai cầm lái', nhưng hình vẽ cánh buồm còn nguyên vẹn, lành lặn và trên boong tàu có nhiều người đứng, sai lệch nội dung câu chuyện.
+   → Sửa: Thay bằng hình ảnh tàu Mary Celeste buồm rách nát, trôi dạt và tuyệt đối không có người trên boong.
+❌ [Soi khung hình · khung 13 (04:08)] Hình ảnh vẽ ba đứa trẻ đang tươi cười đùa nghịch chạy nhảy trong khoang tàu ngập nước, hoàn toàn sai lệch với nội dung giọng đọc đang miêu tả cuộc kiểm tra hiện trường căng thẳng, bí ẩn trên con tàu ma Mary Celeste của các thủy thủ.
+   → Sửa: Thay bằng tranh minh họa thủy thủ cầm đèn thăm dò khoang tàu với bầu không khí u ám, nghiêm túc.
+❌ [Soi khung hình · khung 16 (05:08)] Tranh AI có đồ vật sai thời đại: xuất hiện 2 micro cổ ngỗng hiện đại trên bàn phiên tòa thế kỷ 19 (năm 1872). Ngoài ra, biểu cảm các thẩm phán và nhân vật đều đang cười đùa vui vẻ, không phù hợp không khí phiên điều tra nghi án.
+   → Sửa: Vẽ lại tranh phòng xử án thời kỳ Victoria/thế kỷ 19 không có thiết bị micro hiện đại, biểu cảm các nhân vật nghiêm nghị.
+❌ [Soi khung hình · khung 29 (09:28)] Tranh AI vẽ người hoạt động dưới đáy biển sâu nhưng không có đồ lặn hay bình khí.
+   → Sửa: Thay bằng ảnh thợ lặn có thiết bị hoặc chỉ thể hiện xác tàu dưới đáy biển.
+❌ [Xem và nghe video · 03:09] Giọng đọc phát âm sai tên nhân vật Oliver Deveau thành 'Oliver the Voice' / 'Oliver de Voice'.
+   → Sửa: Chỉnh lại phát âm cho AI đọc đúng tên 'Oliver Deveau' (Ô-li-vơ Đơ-vô).
+❌ [Xem và nghe video · 03:17] Hình ảnh sai nghiêm trọng so với lời đọc: Lời đọc đang tả con tàu Mary Celeste bị bỏ hoang không một bóng người giữa biển, nhưng tranh AI lại vẽ cả nhóm thủy thủ đông đúc đang hò reo, tươi cười trên boong tàu.
+   → Sửa: Thay bằng hình ảnh boong tàu hoang vắng, cánh buồm rách, không có người theo đúng kịch bản.
+❌ [Xem và nghe video · 06:12] Chữ chú thích ở góc dưới bên trái ghi sai năm: 'ARTHUR CONAN DOYLE · 1984' trong khi lời đọc và sự kiện lịch sử là năm 1884.
+   → Sửa: Sửa lại chữ trên hình thành 'ARTHUR CONAN DOYLE · 1884'.
+⚠️ [Soi khung hình · khung 10 (03:08)] Thủy thủ bên trái đeo kính cận gọng nhựa vuông hiện đại, chi tiết sai lệch thời đại (anachronism) so với bối cảnh thế kỷ 19 (năm 1872).
+   → Sửa: Chỉnh sửa tranh để nhân vật bỏ kính hoặc dùng kiểu kính gọng tròn kim loại cổ điển.
+⚠️ [Soi khung hình · khung 26 (08:28)] Nội dung nói cả đoàn xuống xuồng, nhưng tranh vẫn vẽ nhiều người trên boong tàu lớn.
+   → Sửa: Đổi tranh thành tàu lớn bỏ hoang, chỉ có người dưới xuồng cứu sinh.
+⚠️ [Xem và nghe video · 03:50] Tranh vẽ nhiều người/thiếu niên đang cười đùa vui vẻ chạy trong khoang ngập nước, biểu cảm không phù hợp không khí bí ẩn, hoang vu khi khám phá tàu ngập nước.
+   → Sửa: Nên đổi sang tranh khoang tàu ngập nước hoang vắng, chỉ có các thùng hàng và đèn bão.
+⚠️ [Xem và nghe video · 09:10] Tranh AI lỗi chi tiết: Lời đọc nói về đoàn thám hiểm năm 2001 tìm xác tàu dưới đáy biển, nhưng tranh lại vẽ các thủy thủ mặc đồ cổ thế kỷ 19 bơi dưới đáy biển mà không có bình khí hay đồ lặn hiện đại.
+   → Sửa: Tạo lại tranh thợ lặn thời hiện đại có bình khí và thiết bị lặn khảo sát xác tàu dưới đáy biển.
+
+Nhận xét:
+• Nội dung kịch bản: Kịch bản video dài bám sát kế hoạch và sự thật lịch sử, số liệu đồng nhất với video ngắn và bài viết, cách dẫn dắt khách quan và văn phong chuẩn mực.
+• Xem và nghe video: Video bám khá sát kịch bản nhưng có lỗi sai hình ảnh nghiêm trọng ở đoạn tàu ma 03:17 (vẽ đầy người trên boong), lỗi sai năm trên nhãn chữ 06:12 và phát âm sai tên Oliver Deveau ở 03:09.
+• Soi khung hình: Hình ảnh nhìn chung đẹp và bám sát lời kể, tuy nhiên khung 1 vẽ sai nội dung con tàu hoang phế và khung 10 có chi tiết phục trang hiện đại không đúng thời kỳ lịch sử. Các tư liệu lịch sử được sử dụng chính xác, tuy nhiên tranh AI ở khung 13 sai lệch nội dung và khung 16 xuất hiện chi tiết micro hiện đại sai niên đại lịch sử. Chất lượng hình ảnh khá tốt, cần sửa lỗi logic vật lý dưới nước ở khung 29 và nhân vật trên boong ở khung 26. Hình ảnh kết thúc câu chuyện đạt chất lượng tốt, không gian thư viện và đèn dầu phù hợp với lời kết của kênh.

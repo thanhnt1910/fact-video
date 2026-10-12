@@ -19,6 +19,31 @@ block_msg() {
 $(head -c 3000 output/$1/$1_kiemtra_$3.txt)" "$api/sendMessage"
   echo "Bỏ qua $1 ($2): tự kiểm tra báo lỗi"
 }
+# Gửi ảnh bìa dạng tệp (giữ nguyên chất lượng để tải lên YouTube/Facebook). Dùng: send_covers "chú thích" tệp1 tệp2 ...
+send_covers() {
+  local cap="$1"; shift
+  local files=()
+  for f in "$@"; do [ -f "$f" ] && files+=("$f"); done
+  [ ${#files[@]} -eq 0 ] && return 0
+  if [ ${#files[@]} -eq 1 ]; then
+    curl -s -o /dev/null -w "Gửi ảnh bìa: %{http_code}\n" -F chat_id="$TG_CHAT" \
+      -F document=@"${files[0]}" -F caption="$cap" "$api/sendDocument"
+    return 0
+  fi
+  local media="[" args=() i=0
+  for f in "${files[@]:0:10}"; do
+    [ $i -gt 0 ] && media+=","
+    if [ $i -eq $(( ${#files[@]} - 1 )) ] || [ $i -eq 9 ]; then
+      media+="{\"type\":\"document\",\"media\":\"attach://f$i\",\"caption\":$(python3 -c 'import json,sys;print(json.dumps(sys.argv[1]))' "$cap")}"
+    else
+      media+="{\"type\":\"document\",\"media\":\"attach://f$i\"}"
+    fi
+    args+=(-F "f$i=@$f")
+    i=$((i+1))
+  done
+  media+="]"
+  curl -s -o /dev/null -w "Gửi ảnh bìa: %{http_code}\n" -F chat_id="$TG_CHAT" -F media="$media" "${args[@]}" "$api/sendMediaGroup"
+}
 if [ -s ci_outputs.txt ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
@@ -31,6 +56,10 @@ if [ -s ci_outputs.txt ]; then
       -F video=@"$mp4" -F caption="$text" "$api/sendVideo"
     # tin thứ hai: đủ tiêu đề, caption, hashtag, tag, ghi chú để copy đăng ngay
     python3 tg_text.py "$cap" "📝 NỘI DUNG ĐĂNG $id (video ngắn)"
+    # ảnh bìa: các phương án bìa video ngắn (thiếu thì dùng ảnh thumbnail)
+    covers=$(ls output/$id/${id}_bia_*.jpg 2>/dev/null)
+    [ -z "$covers" ] && covers="output/$id/${id}_thumbnail.jpg"
+    send_covers "🖼️ Ảnh bìa video ngắn $id (chọn 1 phương án)" $covers
   done < ci_outputs.txt
 fi
 # video dài: bản xem trước nhẹ (giới hạn 50MB của Telegram) + link bản đầy đủ
@@ -48,6 +77,8 @@ if [ -s ci_long.txt ]; then
       -F video=@"output/$id/${id}_dai_tg.mp4" \
       -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo"
     python3 tg_text.py "output/$id/${id}_dai_youtube.txt" "📝 NỘI DUNG ĐĂNG $id (video dài)"
+    send_covers "🖼️ Ảnh bìa video dài $id: _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
+      "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_thumbnail_fb.jpg"
   done < ci_long.txt
 fi
 if [ -s ci_long_failed.txt ]; then

@@ -586,7 +586,7 @@ def frames_check(script, part, mp4, frames_dir, dump, timeline=None, long_data=N
         batch = items[b:b + FRAMES_PER_CALL]
         parts = [{"text": f"""Bạn kiểm tra chất lượng hình ảnh cho video kể chuyện lịch sử "Người Gác Sử" (chuyện {sid}, {PART_NAME[part]}).
 Dưới đây là {len(batch)} khung hình chụp từ video thành phẩm, mỗi khung kèm lời đọc lúc đó.
-Ảnh là ảnh tư liệu cũ, hoặc ảnh mô phỏng do AI tạo (có nhãn "Ảnh minh họa" ở góc trên), hoặc tranh vẽ. Chữ, nhãn và khung trang trí là của kênh.
+Ảnh là ảnh tư liệu cũ, hoặc ảnh mô phỏng do AI tạo, hoặc tranh vẽ. Chữ, nhãn và khung trang trí là của kênh.
 Chữ trên hình hiện dần theo hiệu ứng, nên khung chụp có thể chưa đủ hết chữ: đừng báo thiếu chữ, chỉ báo chữ sai/tràn/che.
 Ảnh tư liệu cũ có thể mờ, ngả màu: đó là bình thường, không phải lỗi.
 

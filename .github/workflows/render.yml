@@ -192,7 +192,7 @@ jobs:
             f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
             tag="video-${id}${{ inputs.hau_to }}"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video dài $id" --notes "Bản 1080p để đăng YouTube/Facebook" < /dev/null
-            extra=$(ls output/$id/${id}_dai_youtube_en.txt output/$id/${id}_dai_*.srt output/$id/${id}_dai_thumbnail_fb.jpg output/$id/${id}_dai_review.jpg output/$id/${id}_kiemtra_dai.* 2>/dev/null || true)
+            extra=$(ls output/$id/${id}_dai_youtube_en.txt output/$id/${id}_dai_*.srt output/$id/${id}.*.srt output/$id/${id}_dai_thumbnail_fb.jpg output/$id/${id}_dai_review.jpg output/$id/${id}_kiemtra_dai.* 2>/dev/null || true)
             gh release upload "$tag" "$f" "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_youtube.txt" $extra --clobber < /dev/null
           done < ci_long.txt
 

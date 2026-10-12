@@ -23,7 +23,7 @@ STYLE = ("2D animated illustration in the style of a modern history explainer ca
          "historically accurate clothing and setting, no text, no watermark, not photorealistic, not 3D")
 STYLE_ID = "2d-v2"   # đổi khi đổi phong cách -> ảnh cũ trong bộ nhớ đệm không bị dùng lại
 # ẢNH MÔ PHỎNG (cho đoạn không có ảnh tư liệu): giống ảnh chụp cũ cùng thời, nhưng KHÔNG vẽ mặt người thật
-# nhận ra được (người quay lưng / ở xa / trong bóng tối). Trên video luôn có nhãn "Ảnh minh họa".
+# nhận ra được (người quay lưng / ở xa / trong bóng tối). Không đóng nhãn lên ảnh; công bố nội dung AI bằng nhãn của nền tảng khi đăng.
 STYLE_PHOTO = ("realistic historical documentary photograph, period-accurate clothing, objects and setting, "
                "natural light, muted faded colors, slight film grain, shot on a vintage film camera, "
                "people seen from behind, in silhouette or at a distance with faces not clearly visible, "

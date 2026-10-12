@@ -119,7 +119,7 @@ def make_plate(src, fit, crop=None):
 # ------------------------------------------------------------------ lớp tĩnh vẽ bằng trình duyệt
 JS_PREP = """
 () => {
-  for (const id of ['imgs','shade','lamp','noise','vig','brand','label','card','aitag'])
+  for (const id of ['imgs','shade','lamp','noise','vig','brand','label','card'])
     document.getElementById(id).style.display = 'none';
   document.documentElement.style.background = 'transparent';
   document.body.style.background = 'transparent';
@@ -127,8 +127,8 @@ JS_PREP = """
 }"""
 JS_SHOW = """
 (a) => {
-  for (const id of ['imgs','shade','lamp','noise','vig','brand','label','card','aitag'])
-    document.getElementById(id).style.display = a.show.includes(id) ? (id === 'aitag' ? 'block' : '') : 'none';
+  for (const id of ['imgs','shade','lamp','noise','vig','brand','label','card'])
+    document.getElementById(id).style.display = a.show.includes(id) ? '' : 'none';
   if (a.lamp != null) document.getElementById('lamp').style.opacity = a.lamp;
   if (a.noise) document.getElementById('noise').style.transform = `translate(${a.noise[0]}px, ${a.noise[1]}px)`;
   const lab = document.getElementById('label');
@@ -153,7 +153,7 @@ def render_layers(page, channel, labels, cards, work):
     work.mkdir(parents=True, exist_ok=True)
     page.evaluate("c => { document.getElementById('brand').textContent = c; }", channel)
     page.evaluate(JS_PREP)
-    out = {"lamp": [], "noise": [], "label": {}, "card": [], "aitag": None}
+    out = {"lamp": [], "noise": [], "label": {}, "card": []}
 
     def snap(name, **a):
         page.evaluate(JS_SHOW, {"show": a.pop("show"), **a})
@@ -171,7 +171,7 @@ def render_layers(page, channel, labels, cards, work):
         out["label"][lab] = snap(f"label_{i}.png", show=["label"], label=lab)
     for i, c in enumerate(cards):
         out["card"].append(snap(f"card_{i}.png", show=["card"], card=c))
-    out["aitag"] = snap("aitag.png", show=["aitag"])
+    # kế hoạch: không đóng chữ "Ảnh minh họa" lên ảnh (dùng nhãn nội dung AI của nền tảng khi đăng)
     return out
 
 
@@ -201,7 +201,6 @@ class Compositor:
         self.noise = [_ov(p) for p in layers["noise"]]
         self.labels = {k: _ov(p) for k, p in layers["label"].items()}
         self.card_img = [np.ascontiguousarray(np.asarray(Image.open(p).convert("RGB"))) for p in layers["card"]]
-        self.aitag = _ov(layers["aitag"]) if layers.get("aitag") else None
         self.bg = np.empty((H, W, 3), np.uint8)
         self.bg[:] = BG
         self.plates = {}
@@ -361,8 +360,6 @@ class Compositor:
             fr = self.shot_frame(i, lt)
             if self.fx is not None and s.get("fx"):
                 fr = self.fx.apply(fr, s["fx"], t, light=self.mc["light"])
-            if s.get("ai") and self.aitag is not None:   # nhãn "Ảnh minh họa" trên ảnh mô phỏng AI
-                fr = self._over(fr, self.aitag)
             tr = s.get("tr", "fade")
             if i > 0 and lt < 0 and tr != "fade" and img is not self.bg:
                 img = self._transition(img, fr, a, tr)

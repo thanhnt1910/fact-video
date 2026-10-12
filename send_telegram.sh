@@ -25,10 +25,12 @@ if [ -s ci_outputs.txt ]; then
     if blocked "$id" ngan; then block_msg "$id" "video ngắn + bài ảnh" ngan; continue; fi
     mp4="output/$id/$id.mp4"
     cap="output/$id/${id}_caption.txt"
-    text="🎬 VIDEO NGẮN $id — caption, bài ảnh, thông tin đăng: Releases tag video-${id}${HAU_TO}"
+    text="🎬 VIDEO NGẮN $id — nội dung đăng ở tin ngay sau. Bài ảnh: Releases tag video-${id}${HAU_TO}"
     curl -s -o /dev/null -w "Gửi $id: %{http_code}\n" \
       -F chat_id="$TG_CHAT" -F supports_streaming=true \
       -F video=@"$mp4" -F caption="$text" "$api/sendVideo"
+    # tin thứ hai: đủ tiêu đề, caption, hashtag, tag, ghi chú để copy đăng ngay
+    python3 tg_text.py "$cap" "📝 NỘI DUNG ĐĂNG $id (video ngắn)"
   done < ci_outputs.txt
 fi
 # video dài: bản xem trước nhẹ (giới hạn 50MB của Telegram) + link bản đầy đủ
@@ -44,7 +46,8 @@ if [ -s ci_long.txt ]; then
     link="https://github.com/${GITHUB_REPOSITORY}/releases/tag/video-${id}${HAU_TO}"
     curl -s -o /dev/null -w "Gửi video dài $id: %{http_code}\n" -F chat_id="$TG_CHAT" -F supports_streaming=true \
       -F video=@"output/$id/${id}_dai_tg.mp4" \
-      -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p để đăng: $link" "$api/sendVideo"
+      -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo"
+    python3 tg_text.py "output/$id/${id}_dai_youtube.txt" "📝 NỘI DUNG ĐĂNG $id (video dài)"
   done < ci_long.txt
 fi
 if [ -s ci_long_failed.txt ]; then

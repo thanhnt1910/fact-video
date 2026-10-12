@@ -153,7 +153,7 @@ def beat_images(script, beats, work):
     quota_hit = 0
     only_kaggle = os.environ.get("AI_SOURCE", "").strip().lower() == "kaggle"
     pending = []   # [(beat, key)] chưa vẽ được trên Cloudflare
-    # ẢNH MÔ PHỎNG (đoạn không có ảnh tư liệu): phong cách ảnh chụp cũ, không vẽ mặt người thật, có nhãn "Ảnh minh họa"
+    # ẢNH MÔ PHỎNG (đoạn không có ảnh tư liệu): phong cách ảnh chụp cũ, không vẽ mặt người thật (không đóng nhãn lên ảnh)
     for b in beats:
         if b.get("mo_phong") and not b.get("image_src"):
             key = hashlib.sha1((ai_images.STYLE_PHOTO_ID + "|" + b["mo_phong"]).encode()).hexdigest()[:16]
@@ -580,7 +580,7 @@ def build(script, cfg, out_dir):
     lines = [f"TIÊU ĐỀ YOUTUBE: {L['title'][:95]}", "", "MÔ TẢ:", L.get("description", script.get("caption", "")), "",
              "📌 Mục lục:"] + [f"{_fmt(s)} {name}" for s, name in marks] + [
              "", " ".join("#" + h.lstrip("#") for h in script.get("hashtags", [])), "",
-             "📌 Video sử dụng giọng đọc AI" + (" và một số ảnh minh họa tạo bằng AI (có ghi nhãn \"Ảnh minh họa\" trên hình)." if used_ai else ".")]
+             "📌 Video sử dụng giọng đọc AI" + (" và một số tranh minh họa tạo bằng AI." if used_ai else ".")]
     short = mv._short_credits(credits)
     if short:
         lines.append("📷 Ảnh tư liệu: " + "; ".join(short) + " · nguồn Wikimedia Commons")
@@ -613,7 +613,7 @@ def subtitles_and_english(script, L, spoken, marks, credits, mcredit, used_ai, o
     if not en:
         return note
     segs_en = [(a, b, t) for (a, b, _), t in zip(segs, en["lines"])]
-    subtitles.write_srt(out_dir / f"{sid}_dai_en.srt", subtitles.cues(segs_en))
+    subtitles.write_srt(out_dir / f"{sid}.en_US.srt", subtitles.cues(segs_en))
     tags = " ".join("#" + h.lstrip("#").replace(" ", "") for h in en.get("hashtags", []))
     out = [f"TITLE: {en['title'][:95]}", "", "DESCRIPTION:", en["description"], "",
            "🇻🇳 Narrated in Vietnamese. Turn on English subtitles (CC).", "", "📌 Chapters:"]
@@ -627,7 +627,7 @@ def subtitles_and_english(script, L, spoken, marks, credits, mcredit, used_ai, o
         out.append(f"🎵 Music: {mcredit}")
     (out_dir / f"{sid}_dai_youtube_en.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
     note += [f"Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file {sid}_dai_youtube_en.txt, "
-             f"rồi tải phụ đề {sid}_dai_en.srt."]
+             f"rồi tải phụ đề {sid}.en_US.srt (Facebook tự nhận tiếng Anh theo tên file)."]
     return note
 
 

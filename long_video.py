@@ -41,7 +41,7 @@ SR = mv.SR
 FPS = 24
 # ảnh FLUX là ảnh vuông, sẽ bị cắt trên/dưới cho vừa khung 16:9 -> dặn bố cục rộng, chủ thể ở giữa
 WIDE_HINT = "wide cinematic composition, main subject centered with space above and below"
-CARD_TITLE, CARD_CHAPTER, CARD_END = 4.5, 3.2, 6.0
+CARD_TITLE, CARD_CHAPTER, CARD_END = 3.0, 3.2, 6.0
 GAP = 0.6   # nghỉ sau mỗi chương
 
 LONG_STYLE = ("Native Vietnamese narrator (Northern accent, Hanoi) for a long-form history documentary on YouTube. "
@@ -275,6 +275,108 @@ def check_images(script, beats, log):
                            + "\n  ".join(lines))
 
 
+def _subject(src, depth, box):
+    """Điểm chủ thể (x, y theo tỉ lệ ảnh gốc) trong vùng box: trọng tâm phần gần máy nhất (bản đồ độ sâu),
+    không có độ sâu thì lấy điểm 1/3 phía trên giữa ảnh."""
+    l, t, r, b = box
+    if depth:
+        try:
+            import cv2
+            d = cv2.imread(str(depth), cv2.IMREAD_GRAYSCALE)
+            h, w = d.shape
+            sub = d[int(t * h):max(int(t * h) + 1, int(b * h)), int(l * w):max(int(l * w) + 1, int(r * w))].astype("float32")
+            thr = float(np.percentile(sub, 85))
+            ys, xs = np.nonzero(sub >= thr)
+            if len(xs) > 20 and float(sub.max() - sub.min()) > 25:
+                return l + (r - l) * xs.mean() / sub.shape[1], t + (b - t) * ys.mean() / sub.shape[0]
+        except Exception:
+            pass
+    return (l + r) / 2, t + (b - t) * 0.4
+
+
+def _box_at(size, cx, cy, frac, within):
+    """Khung 16:9 (tỉ lệ ảnh gốc) rộng bằng frac khung 'within', tâm gần (cx, cy), nằm gọn trong 'within'."""
+    W0, H0 = size
+    l, t, r, b = within
+    bw_px = (r - l) * W0 * frac
+    bh_px = bw_px * 9 / 16
+    if bh_px > (b - t) * H0:
+        bh_px = (b - t) * H0
+        bw_px = bh_px * 16 / 9
+    bw, bh = bw_px / W0, bh_px / H0
+    x0 = min(max(cx - bw / 2, l), r - bw)
+    y0 = min(max(cy - bh / 2, t), b - bh)
+    return [round(x0, 4), round(y0, 4), round(x0 + bw, 4), round(y0 + bh, 4)], bw_px
+
+
+def split_shots(shots, shot_max=5.5, min_px=880, log=print):
+    """Ảnh hiện quá lâu -> chia thành 2-3 khung: toàn cảnh -> cận cảnh chủ thể -> trung cảnh (cắt thẳng, máy quay
+    đổi hướng), để hình thay đổi mỗi ~4-6 giây như phim tài liệu. Ảnh nhỏ thì cận ít hơn để không vỡ."""
+    from PIL import Image
+    out, n_new = [], 0
+    for s in shots:
+        k = min(3, math.ceil(s["dur"] / shot_max)) if s["dur"] > shot_max * 1.25 else 1
+        if k < 2 or not s.get("src"):
+            out.append(s)
+            continue
+        try:
+            import long_render
+            W0, H0 = Image.open(long_render._path(s["src"])).size
+        except Exception:
+            out.append(s)
+            continue
+        if s.get("fit"):
+            # ảnh dọc / nhỏ: khung ngang lấy trọn bề rộng ảnh (phần quan trọng), cận hơn ở khung sau
+            within = [0.0, 0.0, 1.0, 1.0]
+        else:
+            # vùng toàn cảnh đang hiện (phủ kín 16:9, cắt dọc ở 35% như make_plate)
+            if W0 / H0 >= 16 / 9:
+                w = H0 * 16 / 9 / W0
+                within = [(1 - w) / 2, 0.0, (1 + w) / 2, 1.0]
+            else:
+                hh = W0 * 9 / 16 / H0
+                within = [0.0, (1 - hh) * 0.35, 1.0, (1 - hh) * 0.35 + hh]
+        cx, cy = _subject(s["src"], s.get("depth"), within)
+        full_px = (within[2] - within[0]) * W0
+        frac_close = max(0.55, min_px / full_px) if full_px else 1
+        small = frac_close > 0.85 and not s.get("fit")
+        if small:                  # ảnh nhỏ: chỉ cận nhẹ 1 khung (cận sâu sẽ vỡ)
+            frac_close, k = 0.8, min(k, 2)
+        boxes = []
+        if s.get("fit"):
+            b1, px1 = _box_at((W0, H0), cx, cy, 1.0, within)
+            if px1 >= min_px:
+                boxes.append(b1)
+            b2, px2 = _box_at((W0, H0), cx, cy, max(0.62, min_px / W0), within)
+            if px2 >= min_px * 0.9 and b2 != (boxes[0] if boxes else None):
+                boxes.append(b2)
+        else:
+            boxes.append(_box_at((W0, H0), cx, cy, frac_close, within)[0])
+            # trung cảnh: lệch sang phía còn lại của ảnh
+            ox = (within[0] + within[2]) - cx
+            boxes.append(_box_at((W0, H0), ox, cy, max(0.75, frac_close), within)[0])
+        parts = [dict(s, crop=None)] + [dict(s, crop=b, fit=False, label="") for b in boxes]
+        parts = parts[:k]
+        if len(parts) < 2:
+            out.append(s)
+            continue
+        n = len(parts)
+        cuts = [s["start"] + s["dur"] * j / n for j in range(n + 1)]
+        for j in range(1, n):     # cắt đúng đầu câu nếu có câu bắt đầu gần đó
+            near = [b for b in s.get("beat_starts", []) if abs(b - cuts[j]) < 1.6 and cuts[j - 1] + 2.5 < b < cuts[j + 1] - 2.5]
+            if near:
+                cuts[j] = min(near, key=lambda b: abs(b - cuts[j]))
+        for j, part in enumerate(parts):
+            part["start"] = cuts[j]
+            part["dur"] = cuts[j + 1] - cuts[j]
+            part["cut_in"] = j > 0
+            part["cut_out"] = j < len(parts) - 1
+            out.append(part)
+        n_new += len(parts) - 1
+    log(f"  ✂️  Chia nhỏ cảnh dài: thêm {n_new} khung cận cảnh / trung cảnh ({len(out)} khung)")
+    return out
+
+
 def gemini_clean(t):
     try:
         import gemini_tts
@@ -316,12 +418,18 @@ def build(script, cfg, out_dir):
         narr.extend(mv.silence(sec))
         t += sec
 
+    chapter_cards = lc.get("chapter_cards", False)
     for ci, ch in enumerate(chapters):
+        chap_label = ""
         if ch.get("title"):
-            cards.append({"start": t, "dur": CARD_CHAPTER, "kicker": f"Phần {sum(1 for c in chapters[:ci + 1] if c.get('title'))}",
-                          "title": ch["title"]})
+            num = sum(1 for c in chapters[:ci + 1] if c.get("title"))
             marks.append((t, ch["title"]))
-            add_silence(CARD_CHAPTER)
+            if chapter_cards:
+                cards.append({"start": t, "dur": CARD_CHAPTER, "kicker": f"Phần {num}", "title": ch["title"]})
+                add_silence(CARD_CHAPTER)
+            else:
+                # không chen thẻ chương che kín màn hình (làm đứt mạch kể): chỉ hiện nhãn nhỏ ở góc
+                chap_label = f"Phần {num} · {ch['title']}"
         elif ci == 0:
             marks.append((0.0, "Mở đầu"))
         texts = [gemini_tts.clean_text(b["text"])[0] for b in ch["beats"]]
@@ -332,13 +440,15 @@ def build(script, cfg, out_dir):
             st, en = t + (s0 - a) / SR, t + (s1 - a) / SR
             spoken.append({"start": st, "speech_end": en, "text": beat.get("text", "")})
             if shots and beat.get("image_src") and shots[-1]["src"] == beat.get("image_src") \
-                    and not beat.get("label") and abs(shots[-1]["start"] + shots[-1]["dur"] - st) < 1.5:
+                    and not beat.get("label") and not chap_label and abs(shots[-1]["start"] + shots[-1]["dur"] - st) < 1.5:
                 # cùng một ảnh với đoạn trước: kéo dài cảnh cũ (máy quay lướt chậm liền mạch), không tan ảnh vào chính nó
                 shots[-1]["dur"] = en - shots[-1]["start"]
+                shots[-1].setdefault("beat_starts", []).append(st)   # chỗ cắt khung đẹp: đầu câu mới
                 continue
             shots.append({"start": st, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
-                          "fit": bool(beat.get("fit")), "label": beat.get("label", ""),
+                          "fit": bool(beat.get("fit")), "label": beat.get("label", "") or chap_label,
                           "fx": motion.pick_fx(beat, auto=mcfg_auto), "ai": bool(beat.get("_ai"))})
+            chap_label = ""      # nhãn chương chỉ hiện ở khung đầu của chương
         t += (b - a) / SR
         add_silence(GAP)
         if ci == 0 and len(chapters) > 1:
@@ -379,6 +489,8 @@ def build(script, cfg, out_dir):
     if not mcfg["fx"]:
         for s in vis:
             s["fx"] = ""
+    if lc.get("shot_max", 5.5):
+        vis = split_shots(vis, float(lc.get("shot_max", 5.5)), log=log)
     silent = work / "silent.mp4"
     with sync_playwright() as p:
         br = p.chromium.launch()

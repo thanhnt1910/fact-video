@@ -72,15 +72,24 @@ def _fit_box(im):
     return fw, fh, (PW - fw) // 2, (PH - fh) // 2
 
 
-def make_depth_plate(src, depth, fit):
+def _crop_px(size, crop):
+    w, h = size
+    l, t, r, b = crop
+    return (int(l * w), int(t * h), max(int(l * w) + 2, int(r * w)), max(int(t * h) + 2, int(b * h)))
+
+
+def make_depth_plate(src, depth, fit, crop=None):
     """Bản đồ độ sâu đặt đúng vị trí như make_plate (float32 PH x PW). Ảnh đặt giữa nền mờ: chỉ phần ảnh có độ sâu,
-    mép ảnh và nền mờ đứng yên (không bị xé)."""
+    mép ảnh và nền mờ đứng yên (không bị xé). crop: vùng cận cảnh [trái, trên, phải, dưới] theo tỉ lệ ảnh gốc."""
     import motion
     im = Image.open(_path(src))
     d = motion.load_depth(depth, im.size)
     if d is None:
         return None
     dimg = Image.fromarray((d * 255 + 0.5).astype(np.uint8))
+    if crop:
+        dimg = dimg.crop(_crop_px(dimg.size, crop))
+        return np.asarray(_cover(dimg, PW, PH, 0.5), np.float32) / 255.0
     if not fit:
         return np.asarray(_cover(dimg, PW, PH, 0.35), np.float32) / 255.0
     fw, fh, x0, y0 = _fit_box(im)
@@ -91,9 +100,11 @@ def make_depth_plate(src, depth, fit):
     return out
 
 
-def make_plate(src, fit):
-    """Ảnh nền của một cảnh, kích thước PW x PH, đã chỉnh màu."""
+def make_plate(src, fit, crop=None):
+    """Ảnh nền của một cảnh, kích thước PW x PH, đã chỉnh màu. crop: cận cảnh một vùng của ảnh gốc."""
     im = Image.open(_path(src)).convert("RGB")
+    if crop:
+        return grade(_cover(im.crop(_crop_px(im.size, crop)), PW, PH, 0.5))
     if not fit:
         return grade(_cover(im, PW, PH, 0.35))
     # ảnh dọc / nhỏ: nền là chính ảnh đó phóng to, làm mờ, tối; ảnh gốc đặt giữa, hiện trọn
@@ -200,11 +211,11 @@ class Compositor:
             if len(self.plates) > 4:
                 self.plates.pop(next(iter(self.plates)))
             s = self.shots[i]
-            pl = np.ascontiguousarray(np.asarray(make_plate(s["src"], s.get("fit"))))
+            pl = np.ascontiguousarray(np.asarray(make_plate(s["src"], s.get("fit"), s.get("crop"))))
             dp = None
             if self.mc["parallax"] and s.get("depth"):
                 try:
-                    dp = make_depth_plate(s["src"], s["depth"], s.get("fit"))
+                    dp = make_depth_plate(s["src"], s["depth"], s.get("fit"), s.get("crop"))
                 except Exception:
                     dp = None
             bl = None
@@ -280,7 +291,14 @@ class Compositor:
             lt = t - s["start"]
             if lt < -XF or lt > s["dur"] + XF:
                 continue
+            if s.get("cut_in") and lt < 0 or s.get("cut_out") and lt > s["dur"]:
+                continue
             a, b = _clamp((lt + XF) / XF), _clamp((s["dur"] + XF - lt) / XF)
+            # cắt cảnh thẳng (đổi khung trong cùng một ảnh): không tan ảnh
+            if s.get("cut_in"):
+                a = 1.0
+            if s.get("cut_out"):
+                b = 1.0
             o = b if s["start"] <= 0.01 else min(a, b)
             if o <= 0.002:
                 continue

@@ -1,4 +1,4 @@
-Kiểm tra lúc 2026-10-12 06:19:22 UTC
+Kiểm tra lúc 2026-10-12 14:02:01 UTC
 Tài khoản _1 (CF_ACCOUNT_ID / CF_API_TOKEN): ⛔ token đúng nhưng đã HẾT LƯỢT miễn phí hôm nay
-Tài khoản _2 (CF_ACCOUNT_ID_2 / CF_API_TOKEN_2): ⛔ token đúng nhưng đã HẾT LƯỢT miễn phí hôm nay
+Tài khoản _2 (CF_ACCOUNT_ID_2 / CF_API_TOKEN_2): ✅ vẽ thử được
 Tài khoản _3 (CF_ACCOUNT_ID_3 / CF_API_TOKEN_3): ✅ vẽ thử được

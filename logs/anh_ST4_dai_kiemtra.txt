@@ -1,73 +1,62 @@
-KIỂM TRA ẢNH ST4 · video dài · 58 ảnh (số thứ tự khớp lưới ảnh anh_ST4_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
-⚠️ 1 (ảnh mô phỏng AI) ·  mp_6a9758c43d43c93d.jpg
-     ⚠️ Ảnh có thêm sự xuất hiện của nhiều người khác đi lại trên đường, không chỉ có một mình nhân vật chính đang đi bộ như mô tả trong lời kể. → Sử dụng ảnh chỉ có duy nhất một nhân vật nam đang đi bộ quay lưng lại phía camera để phù hợp tuyệt đối với lời kể.
+KIỂM TRA ẢNH ST4 · video dài · 56 ảnh (số thứ tự khớp lưới ảnh anh_ST4_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 (ảnh mô phỏng AI) ·  mp_f024bbe34acf49ea.jpg
 ✅ 2 · Hiroshima · 6/8/1945 scene_00.jpg
 ✅ 3 (ảnh mô phỏng AI) ·  mp_741968842e09fcd1.jpg
 ✅ 4 ·  scene_01.jpg
 ✅ 5 · Nagasaki · 9/8/1945 scene_02.jpg
 ✅ 6 (ảnh mô phỏng AI) ·  mp_e90338ee802d3200.jpg
-❌ 7 · Nagasaki scene_03.jpg
-     ⚠️ ảnh hơi nhỏ (1024x679)
-     ❌ Ảnh tư liệu toàn cảnh Nagasaki của Felice Beato được chụp vào khoảng thế kỷ 19 (thời kỳ Minh Trị), không phải thời điểm năm 1916 hoặc Thế chiến thứ hai khi nhân vật sinh ra và lớn lên. → Thay bằng ảnh tư liệu thành phố Nagasaki vào khoảng năm 1916 hoặc thập niên 1940 để phù hợp chính xác với mốc thời gian trong lời kể.
-✅ 8 ·  scene_04.jpg
-✅ 9 (ảnh mô phỏng AI) ·  mp_812e07f411c3688f.jpg
-✅ 10 (ảnh mô phỏng AI) ·  mp_f69dc171d917a98e.jpg
-✅ 11 ·  scene_05.jpg
-✅ 12 · Hiroshima · trước chiến tranh scene_06.jpg
-✅ 13 (ảnh mô phỏng AI) ·  mp_8b924d9d11741d73.jpg
-✅ 14 · Ga Hiroshima scene_07.jpg
-⚠️ 15 ·  scene_08.jpg
+✅ 7 ·  scene_03.jpg
+✅ 8 (ảnh mô phỏng AI) ·  mp_812e07f411c3688f.jpg
+✅ 9 (ảnh mô phỏng AI) ·  mp_f69dc171d917a98e.jpg
+✅ 10 ·  scene_04.jpg
+✅ 11 · Hiroshima · trước chiến tranh scene_05.jpg
+✅ 12 (ảnh mô phỏng AI) ·  mp_8b924d9d11741d73.jpg
+✅ 13 · Ga Hiroshima scene_06.jpg
+⚠️ 14 ·  scene_07.jpg
      ⚠️ ảnh hơi mờ (độ nét 35)
-❌ 16 (ảnh mô phỏng AI) ·  mp_c520592d9af46c8d.jpg
-     ❌ Ảnh do AI tạo có chữ viết/ký tự lạ, vô nghĩa trên bề mặt con dấu thay vì khắc tên cá nhân theo kiểu hanko truyền thống của Nhật Bản. → Dùng ảnh chụp hoặc tạo ảnh AI khác thể hiện con dấu hanko bằng gỗ có khắc chữ kanji hợp lý, rõ ràng và không bịa ra ký tự vô nghĩa.
-❌ 17 (ảnh mô phỏng AI) ·  mp_026a7cc87cf2d371.jpg
-     ❌ Lời kể miêu tả hai chiếc dù nhỏ đang rơi xuống cùng máy bay, nhưng ảnh chỉ có máy bay bay thẳng về phía trước, không thấy hai chiếc dù nhỏ như trong lời kể. → Bổ sung hình ảnh hai chiếc dù nhỏ đang rơi xuống ở phía xa dưới máy bay để khớp hoàn toàn với lời kể.
-✅ 18 ·  scene_09.jpg
-✅ 19 ·  scene_10.jpg
-✅ 20 (ảnh mô phỏng AI) ·  mp_8bfb8e49b3d60c1e.jpg
-✅ 21 (ảnh mô phỏng AI) ·  mp_a5d0b41fcf3971f8.jpg
-❌ 22 ·  scene_11.jpg
-     ❌ ảnh quá nhỏ (1920x248), phóng to sẽ vỡ
-     ⚠️ ảnh quá dẹt (1920x248), dễ bị cắt mất nội dung
-✅ 23 ·  scene_12.jpg
-⚠️ 24 (ảnh mô phỏng AI) ·  mp_e4dddaa1cbed7980.jpg
+❌ 15 (ảnh mô phỏng AI) ·  mp_0780cc1164a0f70d.jpg
+     ❌ Ảnh AI tạo ra máy bay bốn động cơ bay ở góc độ quá thấp, trông giống như nó đang sà sát mặt đất thay vì bay rất cao trên trời theo đúng lời kể, và chỉ có một chiếc dù thay vì hai chiếc. → Dùng ảnh mô phỏng máy bay ở độ cao lớn hơn nhiều so với mặt đất và có hai chiếc dù nhỏ đang rơi.
+✅ 16 ·  scene_08.jpg
+✅ 17 ·  scene_09.jpg
+✅ 18 (ảnh mô phỏng AI) ·  mp_8bfb8e49b3d60c1e.jpg
+✅ 19 (ảnh mô phỏng AI) ·  mp_a5d0b41fcf3971f8.jpg
+✅ 20 ·  scene_10.jpg
+✅ 21 ·  scene_11.jpg
+⚠️ 22 (ảnh mô phỏng AI) ·  mp_e4dddaa1cbed7980.jpg
      ⚠️ ảnh hơi mờ (độ nét 29)
-⚠️ 25 (ảnh mô phỏng AI) ·  mp_a92bef37fe73258a.jpg
+⚠️ 23 (ảnh mô phỏng AI) ·  mp_a92bef37fe73258a.jpg
      ⚠️ ảnh hơi mờ (độ nét 40)
-✅ 26 ·  scene_13.jpg
+✅ 24 ·  scene_12.jpg
+✅ 25 ·  scene_13.jpg
+✅ 26 (ảnh mô phỏng AI) ·  mp_38521ceae56bf060.jpg
 ✅ 27 ·  scene_14.jpg
-⚠️ 28 (ảnh mô phỏng AI) ·  mp_48d475e489922c55.jpg
-     ⚠️ Cây cầu trong ảnh trông quá lành lặn, hiện đại và không có dấu hiệu bị phá hủy nặng nề sau bom nguyên tử như mô tả 'Nhiều cây cầu đã sập'. → Dùng ảnh mô phỏng cây cầu đổ nát hoặc hư hại nặng hơn để phù hợp với ngữ cảnh.
-✅ 29 ·  scene_15.jpg
-✅ 30 (ảnh mô phỏng AI) ·  mp_316bd6c2cca33e2f.jpg
-⚠️ 31 (ảnh mô phỏng AI) ·  mp_dd8056a7e697c8b0.jpg
-     ⚠️ Ảnh minh họa cửa nhà truyền thống lúc bình minh nhưng không có hình ảnh đôi giày nào ở bậc cửa như mô tả trong nguồn ảnh, và chi tiết này chỉ mang tính bối cảnh chung. → Thêm chi tiết đôi giày ở bậc cửa theo đúng mô tả nguồn để khớp hơn với ngữ cảnh nhân vật vừa về nhà.
-✅ 32 (ảnh mô phỏng AI) ·  mp_8ae1ed03cc8d781d.jpg
-✅ 33 (ảnh mô phỏng AI) ·  mp_bcaf8720ce17c33a.jpg
-✅ 34 (ảnh mô phỏng AI) ·  mp_0cb10876133703e9.jpg
-✅ 35 (ảnh mô phỏng AI) ·  mp_f92ff7004bfc1562.jpg
+✅ 28 (ảnh mô phỏng AI) ·  mp_316bd6c2cca33e2f.jpg
+✅ 29 (ảnh mô phỏng AI) ·  mp_f4185a1d00e67f6f.jpg
+✅ 30 (ảnh mô phỏng AI) ·  mp_8ae1ed03cc8d781d.jpg
+✅ 31 (ảnh mô phỏng AI) ·  mp_bcaf8720ce17c33a.jpg
+✅ 32 (ảnh mô phỏng AI) ·  mp_0cb10876133703e9.jpg
+✅ 33 (ảnh mô phỏng AI) ·  mp_f92ff7004bfc1562.jpg
+✅ 34 ·  scene_15.jpg
+✅ 35 (ảnh mô phỏng AI) ·  mp_6137d031b12cee6d.jpg
 ✅ 36 ·  scene_16.jpg
-✅ 37 (ảnh mô phỏng AI) ·  mp_6137d031b12cee6d.jpg
+✅ 37 (ảnh mô phỏng AI) ·  mp_7f3827bbfd4e264e.jpg
 ✅ 38 ·  scene_17.jpg
-✅ 39 (ảnh mô phỏng AI) ·  mp_7f3827bbfd4e264e.jpg
-✅ 40 ·  scene_18.jpg
-✅ 41 ·  scene_19.jpg
-✅ 42 ·  scene_20.jpg
-✅ 43 ·  scene_21.jpg
-❌ 44 (ảnh mô phỏng AI) ·  mp_c65b08b2434d19ba.jpg
-     ❌ Ảnh do AI tạo có chữ viết vô nghĩa, lai tạp trên bảng đen trái với mô tả ban đầu. → Dùng ảnh lớp học với bảng đen trống hoặc chữ tiếng Nhật phù hợp bối cảnh lịch sử.
-✅ 45 (ảnh mô phỏng AI) ·  mp_1b126bbfc523b7db.jpg
-✅ 46 (ảnh mô phỏng AI) ·  mp_a5c0ce858b31bc6d.jpg
-✅ 47 ·  scene_22.jpg
-❌ 48 (ảnh mô phỏng AI) ·  mp_c8743dd86cae99ce.jpg
-     ❌ Ảnh AI tạo có chữ viết và con dấu trên tài liệu bị lỗi, tạo ra các ký tự giả vô nghĩa không phải tiếng Nhật chuẩn, mâu thuẫn với yêu cầu nguồn ảnh là không có chữ đọc được. → Sử dụng ảnh tài liệu thật hoặc tạo ảnh AI có chữ cái/con dấu mô phỏng tiếng Nhật chính xác, tự nhiên hơn.
-✅ 49 (ảnh mô phỏng AI) ·  mp_581963135d0a7677.jpg
-✅ 50 ·  scene_23.jpg
-✅ 51 ·  scene_24.jpg
-✅ 52 ·  scene_25.jpg
-✅ 53 ·  scene_26.jpg
-✅ 54 ·  scene_27.jpg
-✅ 55 ·  scene_28.jpg
-✅ 56 ·  scene_29.jpg
-✅ 57 ·  scene_30.jpg
-✅ 58 (ảnh mô phỏng AI) ·  mp_b296b2c6c19ff524.jpg
+✅ 39 ·  scene_18.jpg
+✅ 40 ·  scene_19.jpg
+✅ 41 ·  scene_20.jpg
+⚠️ 42 (ảnh mô phỏng AI) ·  mp_69e7c83f351d4c90.jpg
+     ⚠️ Mo ta cua anh yeu cau 'no blackboard', nhung trong anh lai xuat hien bang den o phia truoc lop hoc. → Loai bo bang den hoac tao lai anh dung theo mo ta khong co bang.
+✅ 43 (ảnh mô phỏng AI) ·  mp_1b126bbfc523b7db.jpg
+✅ 44 (ảnh mô phỏng AI) ·  mp_a5c0ce858b31bc6d.jpg
+✅ 45 ·  scene_21.jpg
+✅ 46 (ảnh mô phỏng AI) ·  mp_94ed3b04af6e5ed6.jpg
+✅ 47 (ảnh mô phỏng AI) ·  mp_581963135d0a7677.jpg
+✅ 48 ·  scene_22.jpg
+✅ 49 ·  scene_23.jpg
+✅ 50 ·  scene_24.jpg
+✅ 51 ·  scene_25.jpg
+✅ 52 ·  scene_26.jpg
+✅ 53 ·  scene_27.jpg
+✅ 54 ·  scene_28.jpg
+✅ 55 ·  scene_29.jpg
+✅ 56 (ảnh mô phỏng AI) ·  mp_b296b2c6c19ff524.jpg

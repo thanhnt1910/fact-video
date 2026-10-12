@@ -52,20 +52,19 @@ Kênh **ưu tiên chuyện bí ẩn kích thích tò mò**: gần một nửa l�
   - Mỗi chuyện viết **2–3 phiên bản hook** để chọn và thử nghiệm (mục 5).
 - **Khung hình đầu tiên:** ảnh có người hoặc vật rõ nét, tương phản mạnh, kèm chữ hook to. Không mở bằng bản đồ hay phong cảnh xa.
 - **Nhịp hình:** mỗi hình đứng khoảng 2–3 giây, **tối đa 4 giây** (khoảng 20–30 hình cho một video ngắn). Thiếu ảnh tư liệu thì dùng ảnh tư liệu khác cùng chủ đề hoặc tranh FLUX; không kéo dài một hình, không zoom hay cắt cận lại cùng một hình.
-- **Phụ đề:** **hiện theo từng cụm 2–4 từ** khớp với giọng đọc, tô màu vàng hổ phách cho từ khóa (con số, tên riêng). Phần lớn người xem để tắt tiếng.
-  - **Vị trí: phần dưới khung hình, ngay trên vùng giao diện của nền tảng**, không đặt giữa màn hình (che mất chủ thể của ảnh, gây khó chịu). Với video 1080×1920:
-    - Chân dòng chữ cách đáy khoảng **560–600 px** (khoảng 30% chiều cao). Phần đáy 25% là nơi TikTok, Reels, Shorts hiện tên kênh, caption và thanh nhạc nên không đặt chữ ở đó.
-    - Lề trái khoảng **90 px**, lề phải khoảng **170 px** để tránh cột nút thích, bình luận, chia sẻ bên phải.
-    - Tối đa **2 dòng**; cụm dài hơn thì tách thành cụm sau.
-  - **Kiểu chữ:** cỡ vừa phải (khoảng 60–70 px, đậm), viền đen 3–4 px và bóng mờ nhẹ để đọc được trên mọi nền, **không** dùng hộp nền đặc che ảnh.
-  - **Chữ hook** ở 3 giây đầu là ngoại lệ: đặt ở phần trên (khoảng 15–25% từ đỉnh, dưới vùng thanh tiêu đề của ứng dụng), chữ to hơn, rồi biến mất khi phụ đề bắt đầu. Không bao giờ có hai khối chữ chồng lên nhau.
-  - Khi chọn ảnh, ưu tiên ảnh có chủ thể ở nửa trên hoặc giữa khung, để phụ đề phía dưới không che mặt người hay chi tiết chính.
+- **Chữ trên màn hình: kiểu video Emu (SL2), không phụ đề chạy liên tục.** Video ngắn **không** hiện phụ đề chạy theo từng cụm từ của lời đọc. Màn hình chỉ hiện **thẻ thông tin chính**: những điều cần biết để người xem tắt tiếng vẫn hiểu chuyện (con số, tên người, năm, sự việc chính, cú lật).
+  - **Ít chữ:** mỗi thẻ chỉ một ý, tối đa khoảng 8–10 từ (gạch đầu dòng 2–5 từ mỗi dòng). Không chép lại nguyên câu đọc; không đưa thông tin mới mà lời đọc không nói.
+  - **Không phải cảnh nào cũng có thẻ:** khoảng một thẻ cho mỗi ý quan trọng (thường 8–12 thẻ cho một video). Cảnh chỉ để nối, tả không khí thì không có chữ, hoặc giữ nguyên thẻ của cảnh trước.
+  - **Các loại thẻ:** câu hook (3 giây đầu) · con số lớn đếm dần (20.000 con emu, hơn 2.000 năm) · tiêu đề + 2–4 gạch đầu dòng hiện lần lượt · câu ngắn + một dòng phụ (sự việc chính, cú lật) · thẻ kết (câu chốt, câu hỏi, lời kêu gọi theo dõi bằng chữ nhỏ, không đọc thành lời).
+  - **Bố cục:** thanh trên cùng có nhãn nhóm chuyện và tên kênh. Cảnh có thẻ thì ảnh đặt trọn bề ngang ở **nửa trên**, thẻ chữ ở **nửa dưới**, mép dưới cách đáy khoảng **560 px** (video 1080×1920, tránh vùng tên kênh và caption của nền tảng); lề trái khoảng 90 px, lề phải khoảng 150–170 px (tránh cột nút). Chữ không bao giờ che chủ thể của ảnh; mỗi lúc chỉ có **một** khối chữ.
+  - **Kiểu chữ:** chữ có chân (Lora) cho câu chính và con số, chữ không chân đậm cho dòng phụ; từ khóa tô màu nhấn của nhóm; bóng mờ để đọc được trên mọi nền, không dùng hộp nền đặc. Thẻ hiện dần khoảng 0,25 giây, tắt dần khoảng 0,2 giây.
+  - Kịch bản ghi thẻ của từng cảnh trong trường `the`.
 - **Giọng đọc:** video ngắn đọc nhanh hơn khoảng **1,1–1,15 lần**, có ngắt nghỉ rõ trước cú lật; video dài giữ tốc độ bình thường. Giọng đổi sắc thái theo từng đoạn của câu chuyện (xem mục **🎧 Âm thanh và giọng đọc**).
 - **Âm thanh:** mọi video có **tiếng động theo cảnh** và nhạc nền nhẹ. (Không dùng phim tư liệu: đã bỏ vì tìm phim hết bản quyền quá khó.)
 - **Tiêu đề và caption:** dòng đầu caption là hook (hoặc câu hỏi gợi tò mò), có từ khóa tiếng Việt người ta hay tìm (tên nhân vật, "bí ẩn", "chuyện có thật"), kết bằng câu hỏi mở và lời kêu gọi theo dõi.
 
 ### Mỗi chuyện = 3 sản phẩm (máy tự làm trong một lần chạy)
-1. **Video dọc 60–80 giây** (Reels, TikTok, YouTube Shorts), giọng Gemini Sadaltager, phụ đề theo từng cụm từ.
+1. **Video dọc 60–80 giây** (Reels, TikTok, YouTube Shorts), giọng Gemini Sadaltager, chữ trên màn hình là các thẻ thông tin chính kiểu video Emu (không phụ đề chạy liên tục).
 2. **Bài đăng ảnh Facebook:** album 4–6 ảnh dọc 4:5, mỗi ảnh có 1–2 câu kể chuyện (lướt hết album là hiểu chuyện), ảnh đầu tiên mang câu hook, kèm bài viết kể chuyện 250–400 chữ và kết bằng một câu hỏi mở.
 3. **Video dài YouTube 16:9 (khoảng 10 phút):** kể chuyện bằng ảnh và chuyển cảnh đa dạng (ảnh tư liệu thật + tranh minh họa AI, thẻ chương; xem mục **Chuyển cảnh**), giọng Gemini Sadaltager. Máy làm sẵn ảnh bìa, tiêu đề, mô tả và mục lục chương.
    - Bản 1080p đầy đủ nằm ở mục **Releases** của repo (tag `video-<mã>`); Telegram nhận bản xem trước 720p.
@@ -961,7 +960,7 @@ Ghi vào một bảng theo mã chuyện. Sau khoảng 10 video là thấy rõ xu
 
 ### Cách thử nghiệm
 - Mỗi chuyện có **2–3 phiên bản hook**. Luân phiên thử: tuần này dùng kiểu hook "con số sốc", tuần sau dùng kiểu "mâu thuẫn", rồi so tỉ lệ xem quá 3 giây.
-- **Mỗi lần chỉ đổi một yếu tố** (hook, kiểu phụ đề, tốc độ giọng, câu kết) để biết cái nào tạo khác biệt.
+- **Mỗi lần chỉ đổi một yếu tố** (hook, kiểu thẻ chữ, tốc độ giọng, câu kết) để biết cái nào tạo khác biệt.
 - Đọc bình luận: chuyện nào gây tranh luận ("bạn tin giả thuyết nào?") thì làm thêm chuyện cùng kiểu.
 - Nếu hook mới tốt hơn rõ rệt, dựng lại SL1 và ST1 theo khung mới rồi đăng lại trên nền tảng có kết quả kém nhất.
 
@@ -974,7 +973,7 @@ Ghi vào một bảng theo mã chuyện. Sau khoảng 10 video là thấy rõ xu
 | 1 | Claude | Tra cứu nguồn, viết kịch bản JSON theo `PROMPT_KICH_BAN.md` và khung mới ở mục 1: **2–3 phiên bản hook**, vòng lặp mở, câu kết; không đọc câu chốt và lời kêu gọi theo dõi |
 | 2 | Claude | Chạy **Duyệt ảnh ứng viên**: chỉ giữ ảnh có nhãn **Public Domain hoặc CC0** ở nguồn, gắn nhãn âm thanh cho từng cảnh, ghi link nguồn, giấy phép và bằng chứng giấy phép từng ảnh vào `logs/nguon_anh_<mã>.json`, tự loại mọi ảnh không rõ giấy phép (xem mục ✅ Cam kết bản quyền hình ảnh); khung hình đầu phải rõ nét, đủ hình để mỗi hình đứng không quá 4 giây |
 | 3 | Bạn | Đọc kịch bản (2–3 phút): chọn hook, kiểm tra nội dung có ổn không, có chỗ nào nhạy cảm không, **có phù hợp pháp luật Việt Nam không** (bản đồ, chủ quyền, tôn giáo, chính trị) |
-| 4 | Máy (GitHub) | Dựng video ngắn (tiếng động theo cảnh, nhạc nền tự hạ khi có giọng, giọng đổi sắc thái theo đoạn, phụ đề theo cụm từ, giọng nhanh 1,1–1,15 lần), album ảnh + bài viết, video dài với chuyển cảnh ngẫu nhiên theo mã chuyện; **Telegram chỉ nhận video hoàn chỉnh** (hoặc một tin báo lỗi nếu chạy thất bại) |
+| 4 | Máy (GitHub) | Dựng video ngắn (tiếng động theo cảnh, nhạc nền tự hạ khi có giọng, giọng đổi sắc thái theo đoạn, thẻ thông tin chính kiểu video Emu, không phụ đề chạy liên tục, giọng nhanh 1,1–1,15 lần), album ảnh + bài viết, video dài với chuyển cảnh ngẫu nhiên theo mã chuyện; **Telegram chỉ nhận video hoàn chỉnh** (hoặc một tin báo lỗi nếu chạy thất bại) |
 | 5 | Bạn | Xem và đăng: video ngắn kèm caption (`logs/caption_<mã>.txt`); trong 5–15 phút đầu đăng và ghim bình luận của chủ kênh, sau đó trả lời bình luận người xem trong 1–2 giờ đầu; album ảnh kèm bài viết (`logs/post_<mã>.txt`), video dài kèm tiêu đề, mô tả, ảnh bìa (`logs/youtube_<mã>.txt`). Bật nhãn "nội dung AI" ở mọi nền tảng |
 | 6 | Bạn | Sau 48 giờ, ghi 4 chỉ số ở mục 5 vào bảng theo dõi |
 
@@ -993,7 +992,7 @@ Ghi vào một bảng theo mã chuyện. Sau khoảng 10 video là thấy rõ xu
 
 - **Câu chốt:** *"Sử thật… lạ hơn cả truyện!"*: dùng trong caption và bài viết Facebook, **không đọc ở cuối video ngắn**.
 - **Lời kêu gọi:** *"👉 Theo dõi để mở trang sử tiếp theo"*: đặt cuối caption (hoặc chữ nhỏ ở góc màn hình), **không đọc thành lời**.
-- **Phụ đề:** 2–4 từ mỗi cụm, tối đa 2 dòng; phần dưới khung hình, chân chữ cách đáy khoảng 560–600 px (video 1080×1920), lề trái 90 px, lề phải 170 px; cỡ khoảng 60–70 px, đậm, viền đen; từ khóa tô màu nhấn của nhóm. Chữ hook 3 giây đầu đặt ở phần trên.
+- **Chữ trên màn hình video ngắn:** không phụ đề chạy liên tục; chỉ thẻ thông tin chính kiểu video Emu, mỗi thẻ tối đa khoảng 8–10 từ; ảnh ở nửa trên, thẻ ở nửa dưới, mép dưới cách đáy khoảng 560 px (video 1080×1920), lề trái 90 px, lề phải 150–170 px; từ khóa tô màu nhấn của nhóm.
 - **Giọng:** Gemini Sadaltager; video ngắn tốc độ 1,1–1,15 lần, video dài tốc độ bình thường; chỉ dẫn sắc thái theo `loai_canh`; chuẩn hóa số, viết tắt và từ điển phát âm tên nước ngoài trước khi đọc.
 - **Âm thanh:** tiếng động theo nhãn `am_thanh` của cảnh, nhạc nền theo nhóm chuyện có ducking, âm lượng cuối khoảng −14 LUFS.
 

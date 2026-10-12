@@ -237,7 +237,7 @@ def make_plate(src, depth=None):
             cx = 0.5
     x0 = int(min(max(cx * band.width - PW / 2, 0), band.width - PW))
     band = grade(band.crop((x0, 0, x0 + PW, band.height)))
-    y0 = int((PH - band.height) * 0.44)
+    y0 = int((PH - band.height) * 0.36)   # dải ảnh hơi cao hơn giữa để phụ đề phía dưới ít che chủ thể
     bg.paste(band, (0, y0))
     return bg
 
@@ -491,6 +491,8 @@ def build(script, cfg, out_dir):
         raise RuntimeError("chuyển cảnh không đạt: " + "; ".join(errs))
 
     hook_end = times[0][1] + 0.3 if N.get("hook_text") else 0
+    if subs:   # chữ hook biến mất trước khi phụ đề đầu tiên hiện: không bao giờ hai khối chữ cùng lúc
+        hook_end = min(hook_end, subs[0]["start"])
     ov = render_overlays(script, cfg, subs, N.get("hook_text"), work / "ov")
     L = {k: (long_render._ov(v) if isinstance(v, str) else None) for k, v in ov.items() if k != "sub"}
     Ls = {k: long_render._ov(v) for k, v in ov["sub"].items()}
@@ -519,10 +521,8 @@ def build(script, cfg, out_dir):
         return cv2.add(cv2.multiply(img, inv, scale=1 / 255), pre)
 
     def frame_of(i, t):
-        fr = shot_frame(plate(i), t - shots[i]["start"], shots[i]["end"] - shots[i]["start"], i)
-        if shots[i]["ai"] and L.get("aitag"):
-            fr = over(fr, L["aitag"])
-        return fr
+        # plan: không đóng chữ "Ảnh minh họa" lên ảnh (dùng nhãn nội dung AI của nền tảng khi đăng)
+        return shot_frame(plate(i), t - shots[i]["start"], shots[i]["end"] - shots[i]["start"], i)
 
     silent = work / "silent.mp4"
     n = int(math.ceil(total * FPS))
@@ -643,11 +643,6 @@ def make_covers(script, cfg, beats, out_dir, work, log=print):
             page.screenshot(path=str(f), type="png", omit_background=True)
             inv, pre = long_render._ov(f)
             img = cv2.add(cv2.multiply(np.ascontiguousarray(a), inv, scale=1 / 255), pre)
-            if im.get("_ai"):
-                page.evaluate("a => window.show(a)", {"id": "aitag", "accent": AMBER})
-                page.screenshot(path=str(work / "bia_ai.png"), type="png", omit_background=True)
-                inv, pre = long_render._ov(work / "bia_ai.png")
-                img = cv2.add(cv2.multiply(img, inv, scale=1 / 255), pre)
             out = out_dir / f"{script['id']}_bia_{k}.jpg"
             Image.fromarray(img).save(out, quality=93)
             outs.append(out)

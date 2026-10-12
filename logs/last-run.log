@@ -4,29 +4,26 @@
 ===== SL2 (video dài) =====
 ▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
   🖼️  Ảnh cho video dài
-     🎨 mp_acd73b273f44f770.jpg
-  🔍 Kiểm tra 44 ảnh: 1 ảnh lỗi, 5 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_1391e79e9bb52262.jpg (lần 1)
-     🎨 mp_1391e79e9bb52262.jpg
-  🔍 Kiểm tra 44 ảnh: 1 ảnh lỗi, 5 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_1391e79e9bb52262.jpg (lần 2)
-     🎨 mp_1391e79e9bb52262.jpg
-  🔍 Kiểm tra 44 ảnh: 0 ảnh lỗi, 5 ảnh cần xem
+  🔍 Kiểm tra 44 ảnh: 0 ảnh lỗi, 6 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 09:20 · 45 cảnh ảnh
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (17s)
+     🎙️  Gemini đọc xong 1 chương (26s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+  ⏱️  Thời lượng 08:59 · 45 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-11 23:46:24.698793526 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
      44/44 ảnh có độ sâu
-     13459 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (243 giây)
-     … 2/6 đoạn (272 giây)
-     … 3/6 đoạn (515 giây)
-     … 4/6 đoạn (515 giây)
-     … 5/6 đoạn (754 giây)
-     … 6/6 đoạn (754 giây)
-     dựng khung hình xong trong 755 giây
+  ✂️  Chia nhỏ cảnh dài: thêm 58 khung cận cảnh / trung cảnh (103 khung)
+     12951 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (136 giây)
+     … 2/6 đoạn (156 giây)
+     … 3/6 đoạn (292 giây)
+     … 4/6 đoạn (292 giây)
+     … 5/6 đoạn (431 giây)
+     … 6/6 đoạn (431 giây)
+     dựng khung hình xong trong 431 giây
   🎵 Nhạc nền: Master of the Feast
-✅ Video dài: SL2_dai.mp4 (09:20)
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: SL2_dai.mp4 (08:59)
 
 Xong video ngắn: - · video dài: SL2

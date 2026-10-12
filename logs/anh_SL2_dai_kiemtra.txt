@@ -1,4 +1,4 @@
-KIỂM TRA ẢNH SL2 · video dài · 63 ảnh (số thứ tự khớp lưới ảnh anh_SL2_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH SL2 · video dài · 66 ảnh (số thứ tự khớp lưới ảnh anh_SL2_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 · Tây Úc · tháng 11/1932 scene_00.jpg
 ✅ 2 ·  scene_01.jpg
 ✅ 3 ·  scene_02.jpg
@@ -27,19 +27,16 @@ KIỂM TRA ẢNH SL2 · video dài · 63 ảnh (số thứ tự khớp lưới �
      ⚠️ ảnh hơi mờ (độ nét 33)
 ✅ 22 ·  scene_19.jpg
 ✅ 23 ·  scene_20.jpg
-❌ 24 (ảnh mô phỏng AI) ·  mp_0accff9fd9ad5774.jpg
-     ❌ Dấu chân chim emu được tạo bởi AI bị sai giải phẫu nghiêm trọng, trông giống dấu chân thú ăn thịt (như gấu hoặc chó) với nhiều ngón và đệm thịt thay vì dấu chân chim có 3 ngón hướng về phía trước. → Sửa lại dấu chân trên cát thành dạng dấu chân chim 3 ngón rõ ràng đặc trưng của loài chim emu.
+✅ 24 (ảnh mô phỏng AI) ·  mp_5a376bc3086b8d41.jpg
 ✅ 25 (ảnh mô phỏng AI) ·  mp_95326e66fab502ef.jpg
 ✅ 26 · Bộ trưởng Quốc phòng George Pearce scene_21.jpg
 ✅ 27 ·  scene_22.jpg
 ✅ 28 ·  scene_23.jpg
 ✅ 29 · Súng máy Lewis scene_24.jpg
-❌ 30 (ảnh mô phỏng AI) ·  mp_e1badc1a6513c1b2.jpg
-     ❌ Hai vũ khí đặt trên xe tải được AI tạo hình trông giống hai khẩu cối hoặc pháo nhỏ hơn là súng máy Lewis, hình dáng nòng và bệ súng không chính xác so với súng máy Lewis thật. → Tạo lại ảnh với hình ảnh đúng của súng máy hạng nhẹ Lewis thập niên 1930.
+✅ 30 ·  scene_25.jpg
 ✅ 31 (ảnh mô phỏng AI) ·  mp_5d10f97e4b204194.jpg
-✅ 32 ·  scene_25.jpg
-❌ 33 ·  scene_26.jpg
-     ❌ Ảnh chụp binh lính đang chiến đấu trong chiến hào thời Thế chiến thứ nhất với súng máy Lewis, hoàn toàn không phù hợp với bối cảnh chiến tranh Emu năm 1932 tại Úc (nơi quân đội sử dụng súng máy Lewis đặt trên xe tải để săn chim emu trên đồng bằng). Việc dùng ảnh chiến hào chiến tranh thế giới dễ gây hiểu lầm nghiêm trọng về sự kiện. → Thay bằng ảnh tư liệu thực tế về quân đội Úc tham gia chiến dịch Emu năm 1932, hoặc ảnh lính Úc cùng súng máy Lewis trên xe tải.
+✅ 32 ·  scene_26.jpg
+✅ 33 (ảnh mô phỏng AI) ·  mp_3375ca5614e419f1.jpg
 ✅ 34 (ảnh mô phỏng AI) ·  mp_1391e79e9bb52262.jpg
 ✅ 35 ·  scene_27.jpg
 ✅ 36 ·  scene_28.jpg
@@ -49,10 +46,10 @@ KIỂM TRA ẢNH SL2 · video dài · 63 ảnh (số thứ tự khớp lưới �
 ✅ 39 (ảnh mô phỏng AI) ·  mp_133b625a9b72d933.jpg
 ✅ 40 ·  scene_31.jpg
 ✅ 41 ·  scene_32.jpg
-❌ 42 ·  scene_33.jpg
-     ❌ ảnh rất mờ / nhòe (độ nét 23)
+✅ 42 ·  scene_33.jpg
 ✅ 43 ·  scene_34.jpg
-✅ 44 ·  scene_35.jpg
+⚠️ 44 ·  scene_35.jpg
+     ⚠️ ảnh hơi nhỏ (1024x613)
 ✅ 45 ·  scene_36.jpg
 ✅ 46 ·  scene_37.jpg
 ⚠️ 47 (ảnh mô phỏng AI) ·  mp_f05fd0533bd3ec11.jpg
@@ -65,12 +62,17 @@ KIỂM TRA ẢNH SL2 · video dài · 63 ảnh (số thứ tự khớp lưới �
      ⚠️ ảnh hơi nhỏ (1024x662)
 ✅ 53 ·  scene_41.jpg
 ✅ 54 ·  scene_42.jpg
-✅ 55 (ảnh mô phỏng AI) ·  mp_0f39d46bb487dd0a.jpg
-✅ 56 (ảnh mô phỏng AI) ·  mp_27a460b5c3edaa26.jpg
-✅ 57 · Hàng rào dài ở Tây Úc · 1926 scene_46.jpg
-✅ 58 ·  scene_47.jpg
-✅ 59 ·  scene_48.jpg
-✅ 60 ·  scene_49.jpg
-✅ 61 ·  scene_50.jpg
-✅ 62 ·  scene_51.jpg
-✅ 63 (ảnh mô phỏng AI) ·  mp_7b58102c587bd285.jpg
+✅ 55 ·  scene_43.jpg
+✅ 56 · Tây Úc · 1933 scene_44.jpg
+⚠️ 57 (ảnh mô phỏng AI) ·  mp_0f39d46bb487dd0a.jpg
+     ⚠️ ảnh hơi mờ (độ nét 39)
+     ⚠️ Anh minh hoa boi canh ngoi nha trang trai voi thu tu xin quan doi giup do, phu hop voi noi dung nong dan xin giup do vao cac nam sau do. → Co the giu nguyen vi la anh boi canh phu hop thoi ky.
+✅ 58 ·  scene_45.jpg
+✅ 59 (ảnh mô phỏng AI) ·  mp_27a460b5c3edaa26.jpg
+✅ 60 · Hàng rào dài ở Tây Úc · 1926 scene_46.jpg
+✅ 61 ·  scene_47.jpg
+✅ 62 ·  scene_48.jpg
+✅ 63 ·  scene_49.jpg
+✅ 64 ·  scene_50.jpg
+✅ 65 ·  scene_51.jpg
+✅ 66 (ảnh mô phỏng AI) ·  mp_7b58102c587bd285.jpg

@@ -4,34 +4,27 @@
 ===== SL2 (video dài) =====
 ▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
   🖼️  Ảnh cho video dài
-     ⚠️  tải ảnh lỗi: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
-     ℹ️  cảnh 44: không tìm được ảnh phù hợp cho "https://upload.wikimedia.org/wikipedia/commons/e/e5/Yealering_grain_receival_and_storage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" — dùng đồ họa
-     ⚠️  tải ảnh lỗi: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
-     ℹ️  cảnh 45: không tìm được ảnh phù hợp cho "https://upload.wikimedia.org/wikipedia/commons/9/96/Sunday_Times_Secession_Headline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" — dùng đồ họa
-     ⚠️  tải ảnh lỗi: HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
-     ℹ️  cảnh 46: không tìm được ảnh phù hợp cho "https://upload.wikimedia.org/wikipedia/commons/1/13/Brass_SCC2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" — dùng đồ họa
-     🎨 mp_0accff9fd9ad5774.jpg
-     🎨 mp_e1badc1a6513c1b2.jpg
-     🎨 mp_133b625a9b72d933.jpg
-     🎨 mp_27a460b5c3edaa26.jpg
-  🔍 Kiểm tra 63 ảnh: 5 ảnh lỗi, 7 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0accff9fd9ad5774.jpg (lần 1)
-     🎨 mp_0accff9fd9ad5774.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_e1badc1a6513c1b2.jpg (lần 1)
-     🎨 mp_e1badc1a6513c1b2.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_e6c4239a8b765e2b.jpg (lần 1)
-     🎨 mp_e6c4239a8b765e2b.jpg
-  🔍 Kiểm tra 63 ảnh: 4 ảnh lỗi, 7 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0accff9fd9ad5774.jpg (lần 2)
-     🎨 mp_0accff9fd9ad5774.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_e1badc1a6513c1b2.jpg (lần 2)
-     🎨 mp_e1badc1a6513c1b2.jpg
-  🔍 Kiểm tra 63 ảnh: 4 ảnh lỗi, 7 ảnh cần xem
-❌ Video dài SL2: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_SL2_dai_kiemtra.txt):
-  mp_0accff9fd9ad5774.jpg: Dấu chân chim emu được tạo bởi AI bị sai giải phẫu nghiêm trọng, trông giống dấu chân thú ăn thịt (như gấu hoặc chó) với nhiều ngón và đệm thịt thay vì dấu chân chim có 3 ngón hướng về phía trước. → Sửa lại dấu chân trên cát thành dạng dấu chân chim 3 ngón rõ ràng đặc trưng của loài chim emu.
-  mp_e1badc1a6513c1b2.jpg: Hai vũ khí đặt trên xe tải được AI tạo hình trông giống hai khẩu cối hoặc pháo nhỏ hơn là súng máy Lewis, hình dáng nòng và bệ súng không chính xác so với súng máy Lewis thật. → Tạo lại ảnh với hình ảnh đúng của súng máy hạng nhẹ Lewis thập niên 1930.
-  scene_26.jpg: Ảnh chụp binh lính đang chiến đấu trong chiến hào thời Thế chiến thứ nhất với súng máy Lewis, hoàn toàn không phù hợp với bối cảnh chiến tranh Emu năm 1932 tại Úc (nơi quân đội sử dụng súng máy Lewis đặt trên xe tải để săn chim emu trên đồng bằng). Việc dùng ảnh chiến hào chiến tranh thế giới dễ gây hiểu lầm nghiêm trọng về sự kiện. → Thay bằng ảnh tư liệu thực tế về quân đội Úc tham gia chiến dịch Emu năm 1932, hoặc ảnh lính Úc cùng súng máy Lewis trên xe tải.
-  scene_33.jpg: ảnh rất mờ / nhòe (độ nét 23)
+     🎨 mp_5a376bc3086b8d41.jpg
+     🎨 mp_3375ca5614e419f1.jpg
+  🔍 Kiểm tra 66 ảnh: 1 ảnh lỗi, 8 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_0f39d46bb487dd0a.jpg (lần 1)
+     🎨 mp_0f39d46bb487dd0a.jpg
+  🔍 Kiểm tra 66 ảnh: 0 ảnh lỗi, 9 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+  ⏱️  Thời lượng 08:59 · 67 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-12 02:05:10.336614181 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+     66/66 ảnh có độ sâu
+     12951 khung hình, 6 đoạn, 2 luồng
+     … 1/6 đoạn (249 giây)
+     … 2/6 đoạn (289 giây)
+     … 3/6 đoạn (551 giây)
+     … 4/6 đoạn (551 giây)
+     … 5/6 đoạn (813 giây)
+     … 6/6 đoạn (813 giây)
+     dựng khung hình xong trong 814 giây
+  🎵 Nhạc nền: Master of the Feast
+✅ Video dài: SL2_dai.mp4 (08:59)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): SL2
+Xong video ngắn: - · video dài: SL2

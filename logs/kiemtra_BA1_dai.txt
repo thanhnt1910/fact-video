@@ -1,20 +1,6 @@
 🔎 KIỂM TRA BA1 · video dài
-❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 1 lỗi, 5 cảnh báo
+⚠️ NÊN XEM LẠI — 0 lỗi, 1 cảnh báo
+(chỉ kiểm tra kỹ thuật, chưa có bước AI)
 
-❌ [Xem và nghe video · 03:08] Tên thuyền phó 'Oliver Deveau' bị giọng đọc phát âm sai thành 'Oliver De Voice' (hoặc Đơ-Vois). Tên chuẩn tiếng Pháp/Anh phát âm là Đơ-vô (/dəˈvoʊ/).
-   → Sửa: Chỉnh lại phiên âm cho AI đọc thành 'Ô-li-vơ Đơ-vô'.
-⚠️ [Soi khung hình · khung 25 (06:22)] Lọ mực trên bàn làm việc của Arthur Conan Doyle có khói trắng bốc lên nghi ngút như bình hóa chất hoặc tẩu thuốc, đây là chi tiết AI tạo hình nhầm lẫn vô lý.
-   → Sửa: Tẩy/xóa phần khói bốc lên từ lọ mực hoặc tạo lại ảnh để đồ vật trông tự nhiên.
-⚠️ [Soi khung hình · khung 29 (07:28)] Phía mạn con tàu bên phải có dòng chữ AI nguệch ngoạc vô nghĩa thay vì tên tàu Mary Celeste.
-   → Sửa: Xóa vệt chữ nguệch ngoạc trên mạn thuyền hoặc sửa thành tên tàu 'Mary Celeste'.
-⚠️ [Soi khung hình · khung 34 (08:23)] Sợi dây thừng đứt ở đầu mũi xuồng bị AI vẽ cứng đờ, chĩa thẳng đứng lên trời như một cành cây khô thay vì rủ xuống theo trọng lực tự nhiên.
-   → Sửa: Chỉnh sửa lại hình ảnh để đoạn dây thừng đứt rủ xuống tự nhiên hoặc thay bằng tranh minh họa khác chuẩn hơn.
-⚠️ [Xem và nghe video · 02:50] Giọng đọc phát âm tên tàu 'Dei Gratia' thành 'Đê-I Gratia' (đọc tách rời chữ cái Dei), không nhất quán với các đoạn khác (00:07, 03:00, 04:57 đọc là 'Đê Gratia').
-   → Sửa: Chỉnh lại phát âm từ 'Dei' thành 'Đê' để đồng nhất trong toàn bộ video.
-⚠️ [Đồng bộ · Video dài 03:24 (đoạn 21)] đoạn này chỉ dài 1.9 giây cho 56 ký tự lời kể (đọc nhanh bất thường) — giọng có thể bị cắt sai chỗ, ảnh đổi lệch lời
+⚠️ [Đồng bộ · Video dài 03:13 (đoạn 22)] đoạn này chỉ dài 1.9 giây cho 56 ký tự lời kể (đọc nhanh bất thường) — giọng có thể bị cắt sai chỗ, ảnh đổi lệch lời
    → Sửa: xem đoạn này; nếu lệch thì tách câu dài thành 2 đoạn
-
-Nhận xét:
-• Nội dung kịch bản: Kịch bản video dài bám sát kế hoạch, số liệu và ngày tháng lịch sử hoàn toàn chính xác, văn phong mạch lạc và tuân thủ đầy đủ các quy chuẩn của kênh.
-• Xem và nghe video: Video có chất lượng hình ảnh minh họa và nhịp điệu rất tốt, bám sát kịch bản; chỉ có lỗi đọc sai tên riêng Oliver Deveau và phát âm chưa đồng nhất tên tàu Dei Gratia.
-• Soi khung hình: Các khung hình minh họa chuẩn xác nội dung lời đọc, hình ảnh tư liệu và tranh vẽ AI rõ nét, không phát hiện lỗi kỹ thuật hay sai sót nội dung. Bộ 10 khung hình có chất lượng tốt, hình ảnh minh họa bám sát lời dẫn, không phát hiện lỗi biến dạng AI hay lỗi kỹ thuật hiển thị chữ. Bộ ảnh minh họa bám sát kịch bản và chất lượng hình ảnh đồng đều, chỉ có hai lỗi nhỏ do AI vẽ chi tiết chưa chuẩn xác ở khung 25 và khung 29. Hầu hết các khung hình đều minh họa bám sát kịch bản và chất lượng tốt, chỉ có khung 34 bị lỗi AI vẽ sợi dây thừng đứt cứng đơ bất hợp lý. Khung hình kết thúc có chất lượng hình ảnh tốt, không khí tĩnh lặng phù hợp với lời chào kết của kênh.

@@ -6,16 +6,13 @@
   🖼️  Ảnh cho video ngắn
   🔍 Kiểm tra 27 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-  🎙️  Gemini đọc xong (29s), tốc độ x1.12
   ⏱️  75.7 giây · 27 hình · trung bình 2.8 giây/hình
   🎞️  Số lần: cut 14, dissolve 6, wipeup 2, fade 2, smoothleft 1, fadeblack 1
-[0;93m2026-10-12 04:48:10.411257877 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
-  🎬 Dựng 2271 khung hình (62s)
+  🎬 Dựng 2271 khung hình (34s)
   🎵 Nhạc nền: Investigations
+  🖼️  Ảnh bìa: 3 phương án (BA1_bia_1.jpg, BA1_bia_2.jpg, BA1_bia_3.jpg)
   🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA1_post.txt)
-✅ Xong output/BA1/BA1.mp4  (75.7s video, mất 159s)
+✅ Xong output/BA1/BA1.mp4  (75.7s video, mất 68s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 

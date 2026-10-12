@@ -1,51 +1,76 @@
-KIỂM TRA ẢNH SL2 · video dài · 44 ảnh (số thứ tự khớp lưới ảnh anh_SL2_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH SL2 · video dài · 63 ảnh (số thứ tự khớp lưới ảnh anh_SL2_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 · Tây Úc · tháng 11/1932 scene_00.jpg
 ✅ 2 ·  scene_01.jpg
 ✅ 3 ·  scene_02.jpg
-✅ 4 (ảnh mô phỏng AI) ·  mp_417ff6990bfbc517.jpg
-✅ 5 · Úc · sau Thế chiến I scene_03.jpg
-✅ 6 ·  scene_04.jpg
-⚠️ 7 · Vùng lúa mì Tây Úc scene_05.jpg
+✅ 4 ·  scene_03.jpg
+✅ 5 (ảnh mô phỏng AI) ·  mp_417ff6990bfbc517.jpg
+✅ 6 · Úc · sau Thế chiến I scene_04.jpg
+✅ 7 ·  scene_05.jpg
+⚠️ 8 · Vùng lúa mì Tây Úc scene_06.jpg
      ⚠️ ảnh hơi nhỏ (1920x609)
-✅ 8 (ảnh mô phỏng AI) ·  mp_acd73b273f44f770.jpg
-⚠️ 9 ·  scene_06.jpg
+✅ 9 (ảnh mô phỏng AI) ·  mp_acd73b273f44f770.jpg
+⚠️ 10 ·  scene_07.jpg
+     ⚠️ ảnh có dấu hiệu vỡ khối JPEG (tỉ lệ 1.8)
+     ⚠️ Ảnh chụp học sinh trường tiểu học bên ruộng lúa mì thập niên 1920, không phải cựu binh chiến tranh đang tự tay khai hoang lập nghiệp như lời kể. → Nên thay bằng ảnh tư liệu thực tế về những người lính cũ (cựu binh) đang lao động vất vả, làm rẫy hoặc dựng nhà ở Tây Australia trong giai đoạn đầu thập niên 1930.
+⚠️ 11 ·  scene_08.jpg
      ⚠️ ảnh hơi mờ (độ nét 46)
-✅ 10 · Thời Đại khủng hoảng ở Úc scene_07.jpg
-✅ 11 ·  scene_08.jpg
-✅ 12 ·  scene_09.jpg
+✅ 12 · Thời Đại khủng hoảng ở Úc scene_09.jpg
 ✅ 13 ·  scene_10.jpg
 ✅ 14 ·  scene_11.jpg
 ✅ 15 ·  scene_12.jpg
 ✅ 16 ·  scene_13.jpg
 ✅ 17 ·  scene_14.jpg
-⚠️ 18 ·  scene_15.jpg
-     ⚠️ ảnh hơi mờ (độ nét 33)
+✅ 18 ·  scene_15.jpg
 ✅ 19 ·  scene_16.jpg
-✅ 20 (ảnh mô phỏng AI) ·  mp_95326e66fab502ef.jpg
-✅ 21 · Bộ trưởng Quốc phòng George Pearce scene_17.jpg
-✅ 22 ·  scene_18.jpg
-✅ 23 · Súng máy Lewis scene_19.jpg
-✅ 24 (ảnh mô phỏng AI) ·  mp_5d10f97e4b204194.jpg
-✅ 25 ·  scene_20.jpg
-✅ 26 (ảnh mô phỏng AI) ·  mp_1391e79e9bb52262.jpg
-✅ 27 ·  scene_21.jpg
-⚠️ 28 ·  scene_22.jpg
-     ⚠️ Ảnh hiển thị một chiếc xe tải thương mại chở hàng hóa với các biển hiệu quảng cáo của công ty J. & W. Bateman Ltd vào năm 1932, đúng thời kỳ Chiến tranh Emu nhưng không phải là xe quân sự gắn súng máy dùng để truy đuổi chim Emu theo lời kể. → Nên sử dụng ảnh tư liệu thực tế về xe tải quân sự của quân đội Úc trong chiến dịch năm 1932 có gắn súng máy Lewis.
-✅ 29 ·  scene_23.jpg
-✅ 30 ·  scene_24.jpg
-✅ 31 ·  scene_25.jpg
-⚠️ 32 (ảnh mô phỏng AI) ·  mp_f05fd0533bd3ec11.jpg
+✅ 20 ·  scene_17.jpg
+⚠️ 21 ·  scene_18.jpg
+     ⚠️ ảnh hơi mờ (độ nét 33)
+✅ 22 ·  scene_19.jpg
+✅ 23 ·  scene_20.jpg
+❌ 24 (ảnh mô phỏng AI) ·  mp_0accff9fd9ad5774.jpg
+     ❌ Dấu chân chim emu được tạo bởi AI bị sai giải phẫu nghiêm trọng, trông giống dấu chân thú ăn thịt (như gấu hoặc chó) với nhiều ngón và đệm thịt thay vì dấu chân chim có 3 ngón hướng về phía trước. → Sửa lại dấu chân trên cát thành dạng dấu chân chim 3 ngón rõ ràng đặc trưng của loài chim emu.
+✅ 25 (ảnh mô phỏng AI) ·  mp_95326e66fab502ef.jpg
+✅ 26 · Bộ trưởng Quốc phòng George Pearce scene_21.jpg
+✅ 27 ·  scene_22.jpg
+✅ 28 ·  scene_23.jpg
+✅ 29 · Súng máy Lewis scene_24.jpg
+❌ 30 (ảnh mô phỏng AI) ·  mp_e1badc1a6513c1b2.jpg
+     ❌ Hai vũ khí đặt trên xe tải được AI tạo hình trông giống hai khẩu cối hoặc pháo nhỏ hơn là súng máy Lewis, hình dáng nòng và bệ súng không chính xác so với súng máy Lewis thật. → Tạo lại ảnh với hình ảnh đúng của súng máy hạng nhẹ Lewis thập niên 1930.
+✅ 31 (ảnh mô phỏng AI) ·  mp_5d10f97e4b204194.jpg
+✅ 32 ·  scene_25.jpg
+❌ 33 ·  scene_26.jpg
+     ❌ Ảnh chụp binh lính đang chiến đấu trong chiến hào thời Thế chiến thứ nhất với súng máy Lewis, hoàn toàn không phù hợp với bối cảnh chiến tranh Emu năm 1932 tại Úc (nơi quân đội sử dụng súng máy Lewis đặt trên xe tải để săn chim emu trên đồng bằng). Việc dùng ảnh chiến hào chiến tranh thế giới dễ gây hiểu lầm nghiêm trọng về sự kiện. → Thay bằng ảnh tư liệu thực tế về quân đội Úc tham gia chiến dịch Emu năm 1932, hoặc ảnh lính Úc cùng súng máy Lewis trên xe tải.
+✅ 34 (ảnh mô phỏng AI) ·  mp_1391e79e9bb52262.jpg
+✅ 35 ·  scene_27.jpg
+✅ 36 ·  scene_28.jpg
+⚠️ 37 ·  scene_29.jpg
+     ⚠️ ảnh hơi mờ (độ nét 36)
+✅ 38 ·  scene_30.jpg
+✅ 39 (ảnh mô phỏng AI) ·  mp_133b625a9b72d933.jpg
+✅ 40 ·  scene_31.jpg
+✅ 41 ·  scene_32.jpg
+❌ 42 ·  scene_33.jpg
+     ❌ ảnh rất mờ / nhòe (độ nét 23)
+✅ 43 ·  scene_34.jpg
+✅ 44 ·  scene_35.jpg
+✅ 45 ·  scene_36.jpg
+✅ 46 ·  scene_37.jpg
+⚠️ 47 (ảnh mô phỏng AI) ·  mp_f05fd0533bd3ec11.jpg
      ⚠️ ảnh hơi mờ (độ nét 44)
-✅ 33 (ảnh mô phỏng AI) ·  mp_d0246ab114df5ff2.jpg
-✅ 34 (ảnh mô phỏng AI) ·  mp_e6c4239a8b765e2b.jpg
-⚠️ 35 ·  scene_26.jpg
+✅ 48 · Campion · Tây Úc · 1929 scene_38.jpg
+✅ 49 (ảnh mô phỏng AI) ·  mp_d0246ab114df5ff2.jpg
+✅ 50 (ảnh mô phỏng AI) ·  mp_e6c4239a8b765e2b.jpg
+✅ 51 ·  scene_39.jpg
+⚠️ 52 ·  scene_40.jpg
      ⚠️ ảnh hơi nhỏ (1024x662)
-✅ 36 ·  scene_27.jpg
-✅ 37 · Tây Úc · 1933 scene_28.jpg
-✅ 38 (ảnh mô phỏng AI) ·  mp_0f39d46bb487dd0a.jpg
-✅ 39 · Hàng rào dài ở Tây Úc · 1926 scene_29.jpg
-✅ 40 ·  scene_30.jpg
-✅ 41 ·  scene_31.jpg
-✅ 42 ·  scene_32.jpg
-✅ 43 ·  scene_33.jpg
-✅ 44 (ảnh mô phỏng AI) ·  mp_7b58102c587bd285.jpg
+✅ 53 ·  scene_41.jpg
+✅ 54 ·  scene_42.jpg
+✅ 55 (ảnh mô phỏng AI) ·  mp_0f39d46bb487dd0a.jpg
+✅ 56 (ảnh mô phỏng AI) ·  mp_27a460b5c3edaa26.jpg
+✅ 57 · Hàng rào dài ở Tây Úc · 1926 scene_46.jpg
+✅ 58 ·  scene_47.jpg
+✅ 59 ·  scene_48.jpg
+✅ 60 ·  scene_49.jpg
+✅ 61 ·  scene_50.jpg
+✅ 62 ·  scene_51.jpg
+✅ 63 (ảnh mô phỏng AI) ·  mp_7b58102c587bd285.jpg

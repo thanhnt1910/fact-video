@@ -825,6 +825,26 @@
           }
         ]
       }
+    ],
+    "anh_bia": [
+      {
+        "anh": "1:0",
+        "nhan": "Bí ẩn 150 năm",
+        "to": "**10 người**\nbiến mất",
+        "nho": "Bữa ăn còn trên bàn…\n**thật không?**"
+      },
+      {
+        "anh": "0:1",
+        "nhan": "Chuyện có thật",
+        "to": "Không một\n**bóng người**",
+        "nho": "Tàu **Mary Celeste**, 1872"
+      },
+      {
+        "anh": "5:2",
+        "nhan": "Bí ẩn chưa giải",
+        "to": "Họ đã\n**đi đâu?**",
+        "nho": "10 người biến mất khỏi\nmột con tàu còn nguyên vẹn"
+      }
     ]
   }
 }

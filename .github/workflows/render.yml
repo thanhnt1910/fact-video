@@ -175,7 +175,7 @@ jobs:
             [ -f "output/$id/$id.mp4" ] || continue
             tag="video-$id${{ inputs.hau_to }}"
             gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video $id" --notes "Video ngắn, bài ảnh, video dài" < /dev/null
-            files=$(ls output/$id/$id.mp4 output/$id/${id}_thumbnail.jpg output/$id/${id}_caption.txt output/$id/${id}_post.txt output/$id/${id}_post_*.jpg output/$id/${id}_review.jpg output/$id/${id}_kiemtra_ngan.* 2>/dev/null)
+            files=$(ls output/$id/$id.mp4 output/$id/${id}_thumbnail.jpg output/$id/${id}_bia_*.jpg output/$id/${id}_caption.txt output/$id/${id}_post.txt output/$id/${id}_post_*.jpg output/$id/${id}_review.jpg output/$id/${id}_kiemtra_ngan.* 2>/dev/null)
             gh release upload "$tag" $files --clobber < /dev/null
           done < ci_outputs.txt
 

@@ -21,21 +21,41 @@
            color: var(--accent); text-shadow: 0 2px 10px rgba(0,0,0,.85); opacity: .92; }
   #aitag { top: 66px; left: 56px; font-weight: 700; font-size: 26px; letter-spacing: 1.5px; color: #FBEBD0;
            background: rgba(0,0,0,.55); padding: 8px 16px; border-radius: 8px; text-transform: uppercase; }
+  /* ảnh bìa: chữ rất to ở vùng giữa (TikTok cắt lưới hồ sơ thành 3:4 ở giữa) */
+  #thumb { left: 40px; right: 40px; top: 0; height: 1920px; display: none; }
+  #thumb .tag { position: absolute; left: 0; right: 0; top: 330px; text-align: center; }
+  #thumb .tag span { display: inline-block; background: #C8102E; color: #fff; font-weight: 800; font-size: 44px;
+                     letter-spacing: 3px; padding: 12px 30px; border-radius: 10px; text-transform: uppercase;
+                     box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+  #thumb .big { position: absolute; left: 0; right: 0; top: 440px; text-align: center; color: #FFFFFF; font-weight: 800;
+                font-size: 150px; line-height: 1.02; letter-spacing: -2px; text-transform: uppercase;
+                -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 12px 40px rgba(0,0,0,.8); }
+  #thumb .big b { color: var(--accent); }
+  #thumb .small { position: absolute; left: 0; right: 0; top: 1180px; text-align: center; color: #FFF3DC; font-weight: 800;
+                  font-size: 64px; line-height: 1.15; -webkit-text-stroke: 9px #000; paint-order: stroke fill;
+                  text-shadow: 0 8px 26px rgba(0,0,0,.85); }
+  #thumb .small b { color: var(--accent); }
 </style></head>
 <body><div id="root">
   <div id="hook" class="layer"></div>
   <div id="sub" class="layer"></div>
   <div id="brand" class="layer"></div>
   <div id="aitag" class="layer">Ảnh minh họa</div>
+  <div id="thumb" class="layer"><div class="tag"><span></span></div><div class="big"></div><div class="small"></div></div>
 </div>
 <script>
 function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function rich(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>'); }
 window.show = function (a) {
   document.documentElement.style.setProperty('--accent', a.accent || '#FFC66B');
-  for (const id of ['hook', 'sub', 'brand', 'aitag']) document.getElementById(id).style.display = 'none';
+  for (const id of ['hook', 'sub', 'brand', 'aitag', 'thumb']) document.getElementById(id).style.display = 'none';
   const el = document.getElementById(a.id);
-  if (a.html != null) el.innerHTML = rich(a.html);
+  if (a.id === 'thumb') {
+    el.querySelector('.tag span').textContent = a.tag || '';
+    el.querySelector('.tag').style.display = a.tag ? '' : 'none';
+    el.querySelector('.big').innerHTML = rich(a.big || '');
+    el.querySelector('.small').innerHTML = rich(a.small || '');
+  } else if (a.html != null) el.innerHTML = rich(a.html);
   el.style.display = 'block';
 };
 </script>

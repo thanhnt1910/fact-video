@@ -595,8 +595,68 @@ def build(script, cfg, out_dir):
         log(f"     (không tạo được lưới khung hình: {e})")
     script["_credits"] = credits
     script["_music_credit"] = mcredit
+    try:
+        make_covers(script, cfg, beats, out_dir, work, log)
+    except Exception as e:
+        log(f"     ⚠️  không tạo được ảnh bìa: {e}")
     write_caption(script, cfg, out_dir, used_ai)
     return final, total
+
+
+def make_covers(script, cfg, beats, out_dir, work, log=print):
+    """Ảnh bìa riêng (không phải khung hình đầu): ảnh phủ kín, làm tối, chữ RẤT to gây tò mò + nhãn đỏ.
+    Kịch bản: ngan.anh_bia = [{"anh": "beat:ảnh" (vd "1:0"), "nhan": "BÍ ẨN 150 NĂM", "to": "10 người\nbiến mất",
+    "nho": "Con tàu vẫn còn nguyên…"}]. Xuất <mã>_bia_1.jpg… và <mã>_thumbnail.jpg = phương án 1."""
+    import cv2
+    import long_render
+    from playwright.sync_api import sync_playwright
+    specs = script["ngan"].get("anh_bia") or []
+    if not specs:
+        return []
+    outs = []
+    with sync_playwright() as p:
+        br = p.chromium.launch()
+        page = br.new_page(viewport={"width": W, "height": H})
+        page.goto((ROOT / "templates" / "ngan.html").as_uri())
+        page.evaluate("() => document.fonts.ready")
+        for k, sp in enumerate(specs, 1):
+            bi, ii = (int(x) for x in str(sp.get("anh", "0:0")).split(":"))
+            im = beats[bi]["images"][ii]
+            src = Image.open(_path(im["_src"])).convert("RGB")
+            w, h = src.size
+            s = max(W / w, H / h)
+            r = src.resize((max(W, round(w * s)), max(H, round(h * s))), Image.LANCZOS)
+            fx = float(sp.get("x", 0.5))
+            x0 = int(min(max(fx * r.width - W / 2, 0), r.width - W))
+            y0 = int((r.height - H) * 0.4)
+            base = long_render.grade(r.crop((x0, y0, x0 + W, y0 + H)), sepia=0.15, contrast=1.18, bright=0.8, sat=1.0)
+            a = np.asarray(base).astype(np.float32)
+            yy = np.linspace(0, 1, H)[:, None, None]
+            xx = np.linspace(-1, 1, W)[None, :, None]
+            shade = 0.55 + 0.45 * np.clip(1 - 1.6 * np.abs(yy - 0.62), 0, 1)   # tối phần chữ, sáng giữa-dưới
+            vig = 1 - 0.35 * (xx ** 2)
+            a = np.clip(a * shade * vig, 0, 255).astype(np.uint8)
+            page.evaluate("a => window.show(a)", {"id": "thumb", "accent": AMBER, "tag": sp.get("nhan", ""),
+                                                   "big": sp.get("to", ""), "small": sp.get("nho", "")})
+            page.wait_for_timeout(40)
+            f = work / f"bia_{k}.png"
+            page.screenshot(path=str(f), type="png", omit_background=True)
+            inv, pre = long_render._ov(f)
+            img = cv2.add(cv2.multiply(np.ascontiguousarray(a), inv, scale=1 / 255), pre)
+            if im.get("_ai"):
+                page.evaluate("a => window.show(a)", {"id": "aitag", "accent": AMBER})
+                page.screenshot(path=str(work / "bia_ai.png"), type="png", omit_background=True)
+                inv, pre = long_render._ov(work / "bia_ai.png")
+                img = cv2.add(cv2.multiply(img, inv, scale=1 / 255), pre)
+            out = out_dir / f"{script['id']}_bia_{k}.jpg"
+            Image.fromarray(img).save(out, quality=93)
+            outs.append(out)
+        br.close()
+    if outs:
+        import shutil
+        shutil.copy(outs[0], out_dir / f"{script['id']}_thumbnail.jpg")
+        log(f"  🖼️  Ảnh bìa: {len(outs)} phương án ({', '.join(o.name for o in outs)})")
+    return outs
 
 
 def write_caption(script, cfg, out_dir, used_ai):

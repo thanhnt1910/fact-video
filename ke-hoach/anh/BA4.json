@@ -1,0 +1,13 @@
+{
+ "id": "BA4",
+ "slots": [
+  {"slot": "D01", "mo_ta": "dãy núi Ural phía bắc mùa đông", "queries": ["Northern Ural mountains winter", "Ural mountains snow", "Kholat Syakhl", "Otorten mountain"]},
+  {"slot": "D02", "mo_ta": "rừng tuyết taiga Siberia / Ural", "queries": ["taiga winter snow forest", "Siberian cedar snow", "snowy pine forest Russia"]},
+  {"slot": "D03", "mo_ta": "Sverdlovsk / Viện Bách khoa Ural cũ", "queries": ["Ural Polytechnic Institute", "Sverdlovsk 1930s", "Yekaterinburg old photo"]},
+  {"slot": "D04", "mo_ta": "trượt tuyết đường dài, người leo núi mùa đông (ảnh cũ)", "queries": ["cross-country skiing 1930s", "ski expedition 1920s", "winter hikers skis vintage photo"]},
+  {"slot": "D05", "mo_ta": "lở tuyết dạng mảng (slab avalanche)", "queries": ["slab avalanche", "avalanche crown fracture", "avalanche snow slab"]},
+  {"slot": "D06", "mo_ta": "bản đồ cổ vùng Ural", "queries": ["Ural mountains old map", "map Perm Governorate 19th century", "Russian Empire map Ural"]},
+  {"slot": "D07", "mo_ta": "bầu trời đêm tuyết, gió tuyết", "queries": ["blizzard night snow", "snowstorm mountains", "aurora Ural"]},
+  {"slot": "D08", "mo_ta": "khe suối / lũng tuyết", "queries": ["snow ravine stream winter", "snow covered creek valley"]}
+ ]
+}

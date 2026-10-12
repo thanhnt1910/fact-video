@@ -1,0 +1,131 @@
+{
+ "id": "BA13",
+ "slots": [
+  {
+   "slot": "Q01",
+   "mo_ta": "chân dung Tần Thủy Hoàng (tranh cổ)",
+   "queries": [
+    "Qin Shi Huang portrait",
+    "Qin Shihuang album",
+    "First Emperor of Qin painting"
+   ]
+  },
+  {
+   "slot": "Q02",
+   "mo_ta": "đội quân đất nung",
+   "queries": [
+    "Terracotta Army",
+    "Terracotta Warriors pit",
+    "terracotta warriors Xi'an"
+   ]
+  },
+  {
+   "slot": "Q03",
+   "mo_ta": "tượng lính cận cảnh",
+   "queries": [
+    "terracotta warrior face",
+    "terracotta soldier statue",
+    "terracotta army archer"
+   ]
+  },
+  {
+   "slot": "Q04",
+   "mo_ta": "gò lăng mộ",
+   "queries": [
+    "Mausoleum of the First Qin Emperor",
+    "Qin Shi Huang tomb mound",
+    "Lishan mausoleum"
+   ]
+  },
+  {
+   "slot": "Q05",
+   "mo_ta": "Tư Mã Thiên / Sử ký",
+   "queries": [
+    "Sima Qian",
+    "Shiji Records of the Grand Historian",
+    "Sima Qian portrait"
+   ]
+  },
+  {
+   "slot": "Q06",
+   "mo_ta": "cung điện cổ Trung Hoa (tranh)",
+   "queries": [
+    "Epang Palace painting",
+    "Yuan Yao palace painting",
+    "ancient Chinese palace painting"
+   ]
+  },
+  {
+   "slot": "Q07",
+   "mo_ta": "thủy ngân",
+   "queries": [
+    "mercury liquid metal",
+    "mercury element",
+    "cinnabar"
+   ]
+  },
+  {
+   "slot": "Q08",
+   "mo_ta": "nỏ cổ Trung Hoa",
+   "queries": [
+    "Chinese crossbow",
+    "ancient crossbow trigger",
+    "Qin crossbow"
+   ]
+  },
+  {
+   "slot": "Q09",
+   "mo_ta": "Vạn Lý Trường Thành ảnh cũ",
+   "queries": [
+    "Great Wall of China 1907",
+    "Great Wall of China 19th century photograph",
+    "Great Wall old photograph"
+   ]
+  },
+  {
+   "slot": "Q10",
+   "mo_ta": "luyện đan / thuốc trường sinh",
+   "queries": [
+    "Chinese alchemy painting",
+    "Taoist alchemist painting",
+    "elixir of immortality Chinese painting"
+   ]
+  },
+  {
+   "slot": "Q11",
+   "mo_ta": "xe ngựa đồng",
+   "queries": [
+    "bronze chariot Qin",
+    "Terracotta Army horses",
+    "bronze chariot Shaanxi"
+   ]
+  },
+  {
+   "slot": "Q12",
+   "mo_ta": "Tây An xưa",
+   "queries": [
+    "Xi'an 1900s",
+    "Xian city wall old photograph",
+    "Sian Fu 1907"
+   ]
+  },
+  {
+   "slot": "Q13",
+   "mo_ta": "binh lính / vua chúa Trung Hoa cổ (tranh)",
+   "queries": [
+    "Qin dynasty painting",
+    "Warring States period painting",
+    "ancient Chinese emperor procession painting"
+   ]
+  },
+  {
+   "slot": "Q14",
+   "mo_ta": "đồng ruộng / giếng nông thôn Thiểm Tây",
+   "queries": [
+    "Shaanxi village 1970s",
+    "loess plateau farmland",
+    "Chinese farmers well"
+   ]
+  }
+ ]
+}

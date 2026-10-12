@@ -1,0 +1,185 @@
+{
+ "id": "ST5",
+ "slots": [
+  {
+   "slot": "V01",
+   "mo_ta": "chân dung Violet Jessop",
+   "queries": [
+    "Violet Jessop",
+    "Violet Constance Jessop",
+    "Violet Jessop nurse uniform"
+   ]
+  },
+  {
+   "slot": "V02",
+   "mo_ta": "tàu RMS Olympic",
+   "queries": [
+    "RMS Olympic",
+    "RMS Olympic 1911",
+    "Olympic White Star Line"
+   ]
+  },
+  {
+   "slot": "V03",
+   "mo_ta": "Olympic va chạm HMS Hawke 1911",
+   "queries": [
+    "Olympic Hawke collision 1911",
+    "HMS Hawke 1891 cruiser",
+    "Olympic damage Hawke"
+   ]
+  },
+  {
+   "slot": "V04",
+   "mo_ta": "Titanic rời Southampton 1912",
+   "queries": [
+    "Titanic leaving Southampton",
+    "RMS Titanic departing Southampton 1912",
+    "Titanic Southampton dock 1912"
+   ]
+  },
+  {
+   "slot": "V05",
+   "mo_ta": "Titanic ở Belfast / ảnh tàu",
+   "queries": [
+    "RMS Titanic 3",
+    "Titanic Belfast 1912",
+    "Titanic sea trials"
+   ]
+  },
+  {
+   "slot": "V06",
+   "mo_ta": "tảng băng trôi 1912",
+   "queries": [
+    "Titanic iceberg 1912",
+    "iceberg photographed 1912 Titanic",
+    "iceberg North Atlantic 1912"
+   ]
+  },
+  {
+   "slot": "V07",
+   "mo_ta": "xuồng cứu sinh Titanic, tàu Carpathia",
+   "queries": [
+    "Titanic lifeboat Carpathia",
+    "Titanic collapsible lifeboat D",
+    "RMS Carpathia"
+   ]
+  },
+  {
+   "slot": "V08",
+   "mo_ta": "báo đưa tin Titanic chìm",
+   "queries": [
+    "Titanic newspaper 1912",
+    "New York Times Titanic sinks",
+    "Titanic headline 1912"
+   ]
+  },
+  {
+   "slot": "V09",
+   "mo_ta": "tàu bệnh viện Britannic",
+   "queries": [
+    "HMHS Britannic",
+    "Britannic hospital ship 1916",
+    "HMHS Britannic 1916"
+   ]
+  },
+  {
+   "slot": "V10",
+   "mo_ta": "tàu bệnh viện, y tá VAD Thế chiến 1",
+   "queries": [
+    "Voluntary Aid Detachment nurse 1916",
+    "VAD nurses World War I",
+    "hospital ship ward World War I"
+   ]
+  },
+  {
+   "slot": "V11",
+   "mo_ta": "biển Aegean, eo Kea",
+   "queries": [
+    "Kea island Greece coast",
+    "Kea Channel Aegean",
+    "Aegean Sea coast Kea"
+   ]
+  },
+  {
+   "slot": "V12",
+   "mo_ta": "thủy lôi Thế chiến 1",
+   "queries": [
+    "naval mine World War I",
+    "German naval mine 1916",
+    "sea mine WWI"
+   ]
+  },
+  {
+   "slot": "V13",
+   "mo_ta": "phòng vô tuyến Marconi, bức điện",
+   "queries": [
+    "Marconi wireless room 1912",
+    "Titanic Marconi room",
+    "Titanic distress message telegram"
+   ]
+  },
+  {
+   "slot": "V14",
+   "mo_ta": "nữ tiếp viên tàu biển đầu thế kỷ 20",
+   "queries": [
+    "stewardess ocean liner 1910s",
+    "White Star Line stewardess",
+    "ship stewardess 1912"
+   ]
+  },
+  {
+   "slot": "V15",
+   "mo_ta": "Bahía Blanca xưa",
+   "queries": [
+    "Bahía Blanca 1900",
+    "Bahía Blanca old photograph",
+    "Bahia Blanca port 1910"
+   ]
+  },
+  {
+   "slot": "V16",
+   "mo_ta": "tàu Belgenland 1920s",
+   "queries": [
+    "SS Belgenland 1923",
+    "Belgenland Red Star Line",
+    "Red Star Line poster"
+   ]
+  },
+  {
+   "slot": "V17",
+   "mo_ta": "áp phích White Star Line",
+   "queries": [
+    "White Star Line poster",
+    "White Star Line Olympic Titanic poster",
+    "White Star Line advertisement 1911"
+   ]
+  },
+  {
+   "slot": "V18",
+   "mo_ta": "cảng Southampton 1912",
+   "queries": [
+    "Southampton docks 1912",
+    "Southampton Ocean Dock 1911",
+    "Southampton port 1910s"
+   ]
+  },
+  {
+   "slot": "V19",
+   "mo_ta": "boong tàu, hành lang tàu Olympic",
+   "queries": [
+    "Olympic first class deck",
+    "RMS Olympic interior",
+    "Olympic promenade deck"
+   ]
+  },
+  {
+   "slot": "V20",
+   "mo_ta": "làng quê Suffolk",
+   "queries": [
+    "Great Ashfield Suffolk",
+    "Suffolk village cottage",
+    "Suffolk countryside"
+   ]
+  }
+ ]
+}

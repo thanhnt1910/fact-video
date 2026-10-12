@@ -192,7 +192,11 @@
             "fx": "dust"
           },
           {
-            "text": "Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin."
+            "text": "Nghe như chuyện cười, nhưng đây là một chiến dịch quân sự thật, được quốc hội bàn luận và báo chí khắp thế giới đưa tin.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/SLNSW_9216_Opening_of_Parliament_House_Canberra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 9216 Opening of Parliament House Canberra.jpg\" – Sam Hood, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_9216_Opening_of_Parliament_House_Canberra.jpg)"
+            }
           },
           {
             "text": "Và sau hơn một tháng, chính quân đội lại là bên phải rút lui. Báo chí gọi đó là Chiến tranh Emu. Đây là câu chuyện có thật.",
@@ -231,7 +235,11 @@
             "mo_phong": "freshly cut eucalyptus tree stumps and felled logs lying on red soil in newly cleared Western Australian scrubland, piles of branches, harsh sun, no people, no tools"
           },
           {
-            "text": "Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết."
+            "text": "Họ đã sống sót qua chiến tranh. Giờ họ phải đối mặt với một cuộc chiến khác: cuộc chiến với đất đai và thời tiết.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Wheat_plot_Duke_St_School_Toodyay_1920s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Wheat plot Duke St School Toodyay 1920s.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Wheat_plot_Duke_St_School_Toodyay_1920s.jpg)"
+            }
           },
           {
             "text": "Vùng đất ấy rộng mênh mông, mỗi trang trại cách nhau hàng cây số. Mùa hè nóng như thiêu, mưa thì thất thường.",
@@ -261,7 +269,11 @@
             }
           },
           {
-            "text": "Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần."
+            "text": "Có những vụ mùa bán ra còn không đủ bù tiền giống và công sức. Nhiều gia đình lâm vào cảnh nợ nần.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Wheat_Stacks_at_Port_Wakefield_Cart_Loaded_With_Sacks_Horses_Feeding%28GN08032%29.jpg/1920px-Wheat_Stacks_at_Port_Wakefield_Cart_Loaded_With_Sacks_Horses_Feeding%28GN08032%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Wheat Stacks at Port Wakefield Cart Loaded With Sacks Horses Feeding(GN08032).jpg\" – State Government Photographer, CC0 (https://commons.wikimedia.org/wiki/File:Wheat_Stacks_at_Port_Wakefield_Cart_Loaded_With_Sacks_Horses_Feeding(GN08032).jpg)"
+            }
           },
           {
             "text": "Những người lính cũ vật lộn để giữ lấy trang trại của mình. Mỗi bao lúa mì đều quý như vàng.",
@@ -319,7 +331,11 @@
             }
           },
           {
-            "text": "Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc."
+            "text": "Chúng có thể đi hàng trăm cây số để tìm thức ăn, và chịu được cái nóng khắc nghiệt của vùng nội địa nước Úc.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Dromaius_novaehollandiae_%2839990409301%29.jpg/1920px-Dromaius_novaehollandiae_%2839990409301%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae (39990409301).jpg\" – Donald Hobern from Copenhagen, Denmark, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(39990409301).jpg)"
+            }
           },
           {
             "text": "Năm ấy, trên đường đi, chúng gặp những cánh đồng lúa mì mênh mông vừa được khai phá, cùng những bể nước mới đào. Một bữa tiệc khổng lồ.",
@@ -329,7 +345,8 @@
             }
           },
           {
-            "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào."
+            "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào.",
+            "mo_phong": "a broken wire farm fence in a trampled wheat field in Western Australia, flattened wheat stalks, large three-toed bird footprints in the dust, no people"
           }
         ]
       },
@@ -349,7 +366,11 @@
             "label": "Bộ trưởng Quốc phòng George Pearce"
           },
           {
-            "text": "Ông Pearce đồng ý, với điều kiện: binh lính sẽ vận hành súng, còn nông dân lo tiền ăn ở và tiền đạn. Có ý kiến cho rằng ông coi đây là một dịp tập bắn cho binh lính."
+            "text": "Ông Pearce đồng ý, với điều kiện: binh lính sẽ vận hành súng, còn nông dân lo tiền ăn ở và tiền đạn. Có ý kiến cho rằng ông coi đây là một dịp tập bắn cho binh lính.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/SLNSW_9592_Australian_Infantrymen_at_musketry_practice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 9592 Australian Infantrymen at musketry practice.jpg\" – Hood, Ted, 1911-2000, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_9592_Australian_Infantrymen_at_musketry_practice.jpg)"
+            }
           },
           {
             "text": "Người chỉ huy là thiếu tá Meredith, thuộc pháo binh hoàng gia Úc. Đi cùng ông là hai người lính.",
@@ -367,7 +388,8 @@
             "label": "Súng máy Lewis"
           },
           {
-            "text": "Nghe thì quá đủ cho một bầy chim. Nhưng không ai ngờ chuyện gì sắp xảy ra."
+            "text": "Nghe thì quá đủ cho một bầy chim. Nhưng không ai ngờ chuyện gì sắp xảy ra.",
+            "mo_phong": "two Lewis machine guns and wooden ammunition crates on the open wooden cargo bed of an old 1930s truck parked in the outback, ominous cloudy sky, no people"
           }
         ]
       },
@@ -388,7 +410,11 @@
             "fx": "dust"
           },
           {
-            "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn."
+            "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers%2C_Bestanddeelnr_158-0901.jpg/1920px-A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers%2C_Bestanddeelnr_158-0901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"A Lewis gun in action in a front line trench near Orvillers, Bestanddeelnr 158-0901.jpg\" – Nationaal Archief, CC0 (https://commons.wikimedia.org/wiki/File:A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers,_Bestanddeelnr_158-0901.jpg)"
+            }
           },
           {
             "text": "Ngày bốn tháng mười một, thiếu tá Meredith đặt một trận phục kích gần một con đập nước, nơi đàn emu thường đến uống.",
@@ -396,7 +422,11 @@
             "fx": "mist"
           },
           {
-            "text": "Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng."
+            "text": "Lần này, ông kiên nhẫn chờ cho đàn chim đến thật gần, rồi mới ra lệnh nổ súng.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/SLNSW_51633_A_cadet_aiming_a_Lewis_gun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 51633 A cadet aiming a Lewis gun.jpg\" – Hood, Ted, 1911-2000, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_51633_A_cadet_aiming_a_Lewis_gun.jpg)"
+            }
           },
           {
             "text": "Hơn một nghìn con emu tiến lại gần. Khẩu súng bắt đầu nổ. Nhưng chỉ sau mười mấy con trúng đạn… khẩu súng bị kẹt.",
@@ -406,7 +436,11 @@
             }
           },
           {
-            "text": "Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy."
+            "text": "Đàn chim chạy mất. Trận phục kích lớn nhất kết thúc như vậy.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Dromaius_novaehollandiae_%2839958337752%29.jpg/1920px-Dromaius_novaehollandiae_%2839958337752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae (39958337752).jpg\" – Donald Hobern from Copenhagen, Denmark, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(39958337752).jpg)"
+            }
           },
           {
             "text": "Meredith nghĩ ra cách mới: gắn súng máy lên xe tải để đuổi theo. Nhưng xe không chạy kịp emu, và đường xóc đến mức xạ thủ không thể ngắm bắn.",
@@ -417,10 +451,16 @@
             "fx": "dust"
           },
           {
-            "text": "Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu."
+            "text": "Mỗi ngày trôi qua, binh lính đi hàng chục cây số, tiêu tốn đạn dược, mà số chim bị hạ chẳng được bao nhiêu.",
+            "mo_phong": "1932, a long dusty dirt road through the empty Western Australian wheatbelt, an old 1930s truck far in the distance raising a trail of dust, afternoon heat, no people",
+            "fx": "dust"
           },
           {
-            "text": "Và rồi, những người lính bắt đầu nhận ra một điều kỳ lạ ở bầy chim này."
+            "text": "Và rồi, những người lính bắt đầu nhận ra một điều kỳ lạ ở bầy chim này.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Dromaius_novaehollandiae_-Taronga_Western_Plains_Zoo%2C_near_Dubbo%2C_New_South_Wales%2C_Australia-8a.jpg/1920px-Dromaius_novaehollandiae_-Taronga_Western_Plains_Zoo%2C_near_Dubbo%2C_New_South_Wales%2C_Australia-8a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae -Taronga Western Plains Zoo, near Dubbo, New South Wales, Australia-8a.jpg\" – Corrie Barklimore from Forbes, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-Taronga_Western_Plains_Zoo,_near_Dubbo,_New_South_Wales,_Australia-8a.jpg)"
+            }
           }
         ]
       },
@@ -435,7 +475,11 @@
             }
           },
           {
-            "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng."
+            "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Dromaius_novaehollandiae_%2826117425948%29.jpg/1920px-Dromaius_novaehollandiae_%2826117425948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae (26117425948).jpg\" – Donald Hobern from Copenhagen, Denmark, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(26117425948).jpg)"
+            }
           },
           {
             "text": "Còn thiếu tá Meredith thì than rằng loài chim này có thể đối mặt với súng máy, cứng cỏi như những chiếc xe tăng.",
@@ -445,7 +489,11 @@
             }
           },
           {
-            "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới."
+            "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lewis_machine_gun_crew%2C_Camp_Mills_LOC_21683009424.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Lewis machine gun crew, Camp Mills LOC 21683009424.jpg\" – The Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Lewis_machine_gun_crew,_Camp_Mills_LOC_21683009424.jpg)"
+            }
           },
           {
             "text": "Báo chí đưa tin chế giễu. Quốc hội đem chuyện này ra bàn. Ngày tám tháng mười một, chỉ sau một tuần, Bộ trưởng Pearce ra lệnh rút quân.",
@@ -455,7 +503,11 @@
             }
           },
           {
-            "text": "Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không."
+            "text": "Có tài liệu kể rằng trong quốc hội, một nghị sĩ còn mỉa mai hỏi liệu có làm huy chương cho những người tham gia cuộc chiến này hay không.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/SLNSW_9215_Parliament_House_showing_the_official_dais_and_royal_party.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"SLNSW 9215 Parliament House showing the official dais and royal party.jpg\" – Sam Hood, Public domain (https://commons.wikimedia.org/wiki/File:SLNSW_9215_Parliament_House_showing_the_official_dais_and_royal_party.jpg)"
+            }
           }
         ]
       },
@@ -468,7 +520,12 @@
             "fx": "dust"
           },
           {
-            "text": "Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại."
+            "text": "Thủ hiến bang Tây Úc lên tiếng ủng hộ nông dân. Chỉ vài ngày sau, Bộ trưởng Pearce đồng ý cho quân đội quay lại.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Townsite_of_Campion%2C_1929.png/1920px-Townsite_of_Campion%2C_1929.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Townsite of Campion, 1929.png\" – Government of Western Australia – Department of Lands and Surveys., Public domain (https://commons.wikimedia.org/wiki/File:Townsite_of_Campion,_1929.png)"
+            },
+            "label": "Campion · Tây Úc · 1929"
           },
           {
             "text": "Ngày mười ba tháng mười một, quân đội quay trở lại. Lần này kết quả khá hơn: đến đầu tháng mười hai, mỗi tuần họ bắn được khoảng một trăm con.",
@@ -480,7 +537,11 @@
             "mo_phong": "1932, still life inside an army canvas tent at night, an oil lamp on a wooden folding table, blank paper pages, a pencil, a folded map and a slouch hat, no people"
           },
           {
-            "text": "Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim."
+            "text": "Ở Anh, những người bảo vệ thiên nhiên lên tiếng phản đối. Các nhà điểu học gọi chiến dịch là một nỗ lực tiêu diệt hàng loạt loài chim.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/John_Gould_Emu.jpg/1920px-John_Gould_Emu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"John Gould Emu.jpg\" – John Gould, Public domain (https://commons.wikimedia.org/wiki/File:John_Gould_Emu.jpg)"
+            }
           },
           {
             "text": "Nghĩa là trung bình đúng mười viên đạn cho một con chim. Meredith còn cho rằng khoảng hai nghìn năm trăm con khác bị thương, nhưng con số này chưa từng được kiểm chứng.",
@@ -490,7 +551,11 @@
             }
           },
           {
-            "text": "Vậy rốt cuộc, ai mới là bên chiến thắng?"
+            "text": "Vậy rốt cuộc, ai mới là bên chiến thắng?",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/119847_kibbutz_yaraon-pinet_hai_PikiWiki_Israel.jpg/1920px-119847_kibbutz_yaraon-pinet_hai_PikiWiki_Israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"119847 kibbutz yaraon-pinet hai PikiWiki Israel.jpg\" – שלמה רודד, CC BY 2.5 (https://commons.wikimedia.org/wiki/File:119847_kibbutz_yaraon-pinet_hai_PikiWiki_Israel.jpg)"
+            }
           }
         ]
       },
@@ -512,7 +577,11 @@
             }
           },
           {
-            "text": "Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi."
+            "text": "Dù vậy, cũng có tờ báo địa phương thời đó cho rằng súng máy đã có tác dụng, cứu được phần lúa còn lại. Chuyện thắng thua vẫn còn tranh cãi.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Yealering_grain_receival_and_storage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Yealering grain receival and storage.JPG\" – User:JarrahTree, CC BY 2.5 au (https://commons.wikimedia.org/wiki/File:Yealering_grain_receival_and_storage.JPG)"
+            }
           },
           {
             "text": "Có nhà nghiên cứu còn cho rằng chiến dịch mang cả mục đích chính trị: chính phủ muốn tỏ ra quan tâm đến miền Tây, khi vùng này đang có phong trào đòi tách khỏi nước Úc.",
@@ -527,10 +596,15 @@
             "mo_phong": "1940s, a simple wooden kitchen table in an outback homestead, a blank letter and an opened envelope beside a tin mug, soft light through a small window, no people"
           },
           {
-            "text": "Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận với emu nữa."
+            "text": "Năm một nghìn chín trăm năm mươi, quân đội cấp cho nông dân năm trăm nghìn viên đạn để họ tự xử lý. Quân đội không bao giờ trực tiếp ra trận với emu nữa.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Brass_SCC2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Brass SCC2.jpg\" – Peterlewis (talk) (Uploads), Public domain (https://commons.wikimedia.org/wiki/File:Brass_SCC2.jpg)"
+            }
           },
           {
-            "text": "Thay vào đó, chính quyền dùng cách treo thưởng. Chỉ trong sáu tháng của năm một nghìn chín trăm ba mươi tư, đã có hơn năm mươi bảy nghìn suất thưởng được chi trả."
+            "text": "Thay vào đó, chính quyền dùng cách treo thưởng. Chỉ trong sáu tháng của năm một nghìn chín trăm ba mươi tư, đã có hơn năm mươi bảy nghìn suất thưởng được chi trả.",
+            "mo_phong": "1930s rural government office desk, an open ledger book with blank pages, a few old coins and an oil lamp, warm light, no people"
           },
           {
             "text": "Và giải pháp hiệu quả nhất hóa ra lại đơn giản: những hàng rào thật dài và chắc chắn, ngăn emu, chó hoang và thỏ.",
@@ -553,7 +627,11 @@
             }
           },
           {
-            "text": "Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe cũng phải bật cười."
+            "text": "Gần một trăm năm sau, câu chuyện vẫn được nhắc đi nhắc lại khắp thế giới, trở thành một trong những chuyện lịch sử khó tin nhất mà ai nghe cũng phải bật cười.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Dromaius_novaehollandiae_-York%27s_Wild_Kingdom%2C_New_England%2C_USA_-four_chicks-8a.jpg/1920px-Dromaius_novaehollandiae_-York%27s_Wild_Kingdom%2C_New_England%2C_USA_-four_chicks-8a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Dromaius novaehollandiae -York's Wild Kingdom, New England, USA -four chicks-8a.jpg\" – Abigail Batchelder, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_-York%27s_Wild_Kingdom,_New_England,_USA_-four_chicks-8a.jpg)"
+            }
           },
           {
             "text": "Và là bài học về việc con người không phải lúc nào cũng thắng được thiên nhiên, kể cả khi có súng máy trong tay.",

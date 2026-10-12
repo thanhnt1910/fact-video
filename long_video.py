@@ -387,6 +387,27 @@ def split_shots(shots, shot_max=5.5, min_px=880, log=print):
     return out
 
 
+TRANSITIONS = ["fade", "push", "whip", "fade", "flash", "zoom", "push", "whip"]
+
+
+def assign_transitions(shots, on=True):
+    """Kiểu chuyển cảnh vào mỗi khung: đầu chương (có nhãn "Phần ...") -> tối dần rồi sáng lại; còn lại luân phiên
+    tan ảnh / đẩy ngang / lia nhanh (whip) / lóe sáng / zoom xuyên, không lặp liền nhau."""
+    prev = ""
+    for i, s in enumerate(shots):
+        if not on or i == 0:
+            s["tr"] = "fade"
+        elif str(s.get("label", "")).startswith("Phần "):
+            s["tr"] = "dip"
+        else:
+            k = int(hashlib.md5(f"{i}|{s.get('src')}".encode()).hexdigest(), 16) % len(TRANSITIONS)
+            tr = TRANSITIONS[k]
+            if tr == prev:
+                tr = TRANSITIONS[(k + 1) % len(TRANSITIONS)]
+            s["tr"] = tr
+        prev = s["tr"]
+
+
 def gemini_clean(t):
     try:
         import gemini_tts
@@ -499,8 +520,9 @@ def build(script, cfg, out_dir):
     if not mcfg["fx"]:
         for s in vis:
             s["fx"] = ""
-    if lc.get("shot_max", 5.5):
-        vis = split_shots(vis, float(lc.get("shot_max", 5.5)), log=log)
+    if lc.get("shot_max", 0):     # tắt mặc định (cận cảnh bằng zoom dễ giật, sai chủ thể); dùng thêm ảnh thay thế
+        vis = split_shots(vis, float(lc["shot_max"]), log=log)
+    assign_transitions(vis, lc.get("transitions", True))
     silent = work / "silent.mp4"
     with sync_playwright() as p:
         br = p.chromium.launch()

@@ -268,6 +268,60 @@ class Compositor:
         return cv2.blendLinear(sharp, blur, 1 - wb, wb)
 
     @staticmethod
+    def _zoom(img, z):
+        """Phóng to quanh tâm (z >= 1)."""
+        import cv2
+        if z <= 1.001:
+            return img
+        m = np.array([[z, 0, (1 - z) * W / 2], [0, z, (1 - z) * H / 2]], np.float64)
+        return cv2.warpAffine(img, m, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+
+    def _transition(self, old, new, q, kind):
+        """Chuyển cảnh từ old sang new, q: 0 -> 1 trong XF giây cuối của cảnh cũ."""
+        import cv2
+
+        def ease(x):
+            return x * x * (3 - 2 * x)
+
+        if kind in ("push", "whip"):
+            span = 0.7 if kind == "push" else 0.45          # whip: lia rất nhanh
+            p = _clamp((q - (1 - span)) / span)
+            if p <= 0:
+                return old
+            if p >= 1:
+                return new
+            e = ease(p)
+            off = int(round(e * W))
+            out = np.empty_like(old)
+            out[:, :W - off] = old[:, off:]
+            out[:, W - off:] = new[:, :off]
+            if kind == "whip":
+                k = int(1 + 110 * math.sin(math.pi * p))     # nhòe chuyển động ngang, mạnh nhất ở giữa
+                if k > 2:
+                    out = cv2.blur(out, (k, 1))
+            return out
+        if kind == "flash":
+            span = 0.6
+            p = _clamp((q - (1 - span)) / span)
+            if p <= 0:
+                return old
+            mix = old if p < 0.5 else new
+            amt = math.sin(math.pi * p) * 0.85              # lóe sáng ấm như đèn flash máy ảnh cũ
+            warm = np.empty_like(mix)
+            warm[:] = (255, 236, 205)
+            return cv2.addWeighted(mix, 1 - amt, warm, amt, 0)
+        if kind == "zoom":
+            e = ease(q)
+            a = self._zoom(old, 1 + 0.45 * e)
+            b = self._zoom(new, 1.3 - 0.3 * e)
+            return cv2.addWeighted(a, 1 - e, b, e, 0)
+        if kind == "dip":                                   # tối dần rồi sáng lại (sang chương mới)
+            if q < 0.5:
+                return cv2.convertScaleAbs(old, alpha=1 - 2 * q)
+            return cv2.convertScaleAbs(new, alpha=2 * q - 1)
+        return cv2.addWeighted(old, 1 - q, new, q, 0)
+
+    @staticmethod
     def _over(img, layer):
         import cv2
         inv, pre = layer
@@ -309,6 +363,10 @@ class Compositor:
                 fr = self.fx.apply(fr, s["fx"], t, light=self.mc["light"])
             if s.get("ai") and self.aitag is not None:   # nhãn "Ảnh minh họa" trên ảnh mô phỏng AI
                 fr = self._over(fr, self.aitag)
+            tr = s.get("tr", "fade")
+            if i > 0 and lt < 0 and tr != "fade" and img is not self.bg:
+                img = self._transition(img, fr, a, tr)
+                continue
             img = fr if o >= 0.998 else cv2.addWeighted(img, 1 - o, fr, o, 0)
         if leak_q > 0 and self.fx is not None and self.mc["transition"] == "zoom":
             img = self.fx.leak(img, leak_q)

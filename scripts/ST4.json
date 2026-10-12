@@ -242,7 +242,10 @@
      },
      {
       "text": "Ông nghe tiếng máy bay. Ngẩng lên, ông thấy một chiếc máy bay ném bom, và hai chiếc dù nhỏ đang rơi xuống.",
-      "mo_phong": "a single silver four-engine bomber aircraft very high in a clear blue summer sky, seen from the ground, with two tiny white parachutes drifting down far below it, full frame photo without borders, 1945"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Enola_Gay2-PS.jpg/1920px-Enola_Gay2-PS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Enola Gay2-PS.jpg\" – U.S. Air Force photo, Public domain (https://commons.wikimedia.org/wiki/File:Enola_Gay2-PS.jpg)"
+      }
      },
      {
       "text": "Đó là chiếc Enola Gay, máy bay ném bom B hai mươi chín của Mỹ.",
@@ -648,7 +651,8 @@
       "mo_phong": "an empty quiet street in a Japanese city in 1945 on a clear summer morning, wooden two-storey houses, tram wires, only one person: a lone man in a white short-sleeved shirt and dark trousers walking away from the camera, seen from behind, small in the frame"
      },
      {
-      "mo_phong": "a single silver four-engine bomber aircraft very high in a clear blue summer sky, seen from the ground, with two tiny white parachutes drifting down far below it, full frame photo without borders, 1945"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/B-29_Superfortress_Enola_Gay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"B-29 Superfortress Enola Gay.jpg\" – United States Air Force, Public domain (https://commons.wikimedia.org/wiki/File:B-29_Superfortress_Enola_Gay.jpg)"
      }
     ],
     "the": {

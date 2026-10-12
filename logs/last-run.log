@@ -1,30 +1,49 @@
 
-===== SL2: kiểm tra kịch bản trước khi dựng =====
+===== BA1: kiểm tra kịch bản trước khi dựng =====
 
-===== SL2 (video dài) =====
-▶️  Video dài SL2: Vì sao quân đội Úc mang súng máy đi đánh một bầy chim… và thua? | Chiến tranh Emu 1932
+===== BA1 (video dài) =====
+▶️  Video dài BA1: Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste
   🖼️  Ảnh cho video dài
-     🎨 mp_5a376bc3086b8d41.jpg
-     🎨 mp_3375ca5614e419f1.jpg
-  🔍 Kiểm tra 66 ảnh: 1 ảnh lỗi, 8 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0f39d46bb487dd0a.jpg (lần 1)
-     🎨 mp_0f39d46bb487dd0a.jpg
-  🔍 Kiểm tra 66 ảnh: 0 ảnh lỗi, 9 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 08:59 · 67 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-12 02:05:10.336614181 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
-     66/66 ảnh có độ sâu
-     12951 khung hình, 6 đoạn, 2 luồng
-     … 1/6 đoạn (249 giây)
-     … 2/6 đoạn (289 giây)
-     … 3/6 đoạn (551 giây)
-     … 4/6 đoạn (551 giây)
-     … 5/6 đoạn (813 giây)
-     … 6/6 đoạn (813 giây)
-     dựng khung hình xong trong 814 giây
-  🎵 Nhạc nền: Master of the Feast
-✅ Video dài: SL2_dai.mp4 (08:59)
+     🎨 mp_88322e0cb5a37b0a.jpg
+     🎨 mp_3e475b573050f187.jpg
+     🎨 mp_06b2fca33113a4d5.jpg
+     🎨 mp_8bf01e16ac28e617.jpg
+     🎨 mp_f5f912cb8903b311.jpg
+     🎨 mp_39e87408cf20d1db.jpg
+     🎨 mp_307a37f1c3f67f6d.jpg
+     🎨 mp_b029bc586cfceecb.jpg
+     🎨 mp_7b3a6d9c1ec8f682.jpg
+     🎨 mp_4ede4689ba7a8e07.jpg
+     🎨 mp_9da5ed98ea143177.jpg
+     🎨 mp_5ebc7c625f3e3394.jpg
+     🎨 mp_73e9c959e53f1141.jpg
+     🎨 mp_5c910d3e1b9ae2c2.jpg
+     🎨 mp_196871ca57a5b80b.jpg
+     🎨 mp_8c3de2f3ba129ac1.jpg
+     🎨 mp_5934f7cb42e67def.jpg
+     🎨 mp_8673b2cbe8c2bfd5.jpg
+     🎨 mp_54d20f060a676a0a.jpg
+  🔍 Kiểm tra 64 ảnh: 12 ảnh lỗi, 5 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_88322e0cb5a37b0a.jpg (lần 1)
+     🎨 mp_88322e0cb5a37b0a.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_9da5ed98ea143177.jpg (lần 1)
+     🎨 mp_9da5ed98ea143177.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_8673b2cbe8c2bfd5.jpg (lần 1)
+     🎨 mp_8673b2cbe8c2bfd5.jpg
+  🔍 Kiểm tra 64 ảnh: 10 ảnh lỗi, 5 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_8673b2cbe8c2bfd5.jpg (lần 2)
+     🎨 mp_8673b2cbe8c2bfd5.jpg
+  🔍 Kiểm tra 64 ảnh: 9 ảnh lỗi, 5 ảnh cần xem
+❌ Video dài BA1: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA1_dai_kiemtra.txt):
+  scene_05.jpg: ảnh rất mờ / nhòe (độ nét 23)
+  scene_11.jpg: Ảnh hiển thị một nhóm thủy thủ và sĩ quan trên tàu chiến USS Kearsarge với khẩu pháo lớn và có dòng chữ chú thích 'THE GUN THAT SUNK THE "ALABAMA"', hoàn toàn không phù hợp với phân cảnh giới thiệu thuyền trưởng Briggs, vợ con và bảy thủy thủ của tàu buôn Mary Celeste. → Thay thế bằng ảnh chân dung gia đình thuyền trưởng Benjamin Briggs hoặc ảnh tư liệu minh họa một tàu buôn chở hàng thế kỷ 19 tương tự tàu Mary Celeste.; Ảnh có chứa dòng chữ chú thích và thông tin bản quyền 'COPYRIGHT, 1911, REVIEW OF REVIEWS CO.' cùng tiêu đề phía dưới. → Cắt bỏ phần chữ thừa phía dưới hoặc sử dụng ảnh sạch không có chú thích bản quyền.
+  scene_15.jpg: Ảnh gốc chứa các chú thích viết tay, nét chữ và khung bản thảo bên ngoài bức vẽ chính, gây xao lãng thị giác cho người xem video. → Cắt bỏ phần viền ngoài, chỉ giữ lại khung hình vẽ minh họa tàu và xuồng bên trong.
+  scene_23.jpg: Ảnh miêu tả một phòng xử án ở Sydney năm 1817, không phải phiên tòa xét xử vụ tàu Mary Celeste diễn ra tại Gibraltar vào năm 1872. → Thay bằng tranh vẽ hoặc ảnh tư liệu chính xác về phiên tòa điều tra vụ tàu Mary Celeste tại Gibraltar năm 1872.
+  scene_29.jpg: Ảnh minh họa là một trang sách chứa văn bản tiếng Anh kèm theo tranh minh họa và watermark 'Digitized by Google', xuất hiện trong phân đoạn kể về việc nhà văn viết truyện ngắn hư cấu dựa trên con tàu Mary Celeste. → Sử dụng ảnh chân dung của Arthur Conan Doyle, bản thảo gốc của truyện ngắn hoặc hình ảnh minh họa tác phẩm 'J. Habakuk Jephson's Statement' không bị dính chữ, trang sách và watermark.
+  scene_31.jpg: ảnh rất mờ / nhòe (độ nét 23)
+  scene_32.jpg: Ảnh là trang bìa truyện ngắn 'How It Happened' của tác giả A. Conan Doyle đăng trên tạp chí The Strand năm 1913, không liên quan đến vụ án tàu Mary Celeste đang được kể trong video. → Thay bằng ảnh tư liệu về tàu Mary Celeste hoặc các bài báo, cuốn sách giả mạo về lời kể của người sống sót trong vụ án này.
+  scene_37.jpg: ảnh quá nhỏ (1024x498), phóng to sẽ vỡ
+  scene_40.jpg: Ảnh vẽ minh họa một phiên tòa hoàn toàn khác (phiên tòa xét xử bà Wharton ở Annapolis), không liên quan đến nhân vật Parker được nhắc đến trong lời kể. → Sử dụng tranh vẽ hoặc ảnh tư liệu đúng về phiên tòa xét xử nhân vật Parker hoặc thời kỳ liên quan đến vụ án Mary Celeste.
 
-Xong video ngắn: - · video dài: SL2
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): BA1

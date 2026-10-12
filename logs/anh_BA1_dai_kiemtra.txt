@@ -1,0 +1,81 @@
+KIỂM TRA ẢNH BA1 · video dài · 64 ảnh (số thứ tự khớp lưới ảnh anh_BA1_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 · Đại Tây Dương · 4/12/1872 scene_00.jpg
+✅ 2 ·  scene_01.jpg
+✅ 3 ·  scene_02.jpg
+✅ 4 · Mary Celeste · 1872 scene_03.jpg
+⚠️ 5 ·  scene_04.jpg
+     ⚠️ ảnh hơi nhỏ (1024x663)
+✅ 6 (ảnh mô phỏng AI) · Nova Scotia · Canada · 1861 mp_88322e0cb5a37b0a.jpg
+❌ 7 ·  scene_05.jpg
+     ❌ ảnh rất mờ / nhòe (độ nét 23)
+✅ 8 ·  scene_06.jpg
+✅ 9 ·  scene_07.jpg
+✅ 10 ·  scene_08.jpg
+✅ 11 · Bàn viết của thuyền trưởng Briggs scene_09.jpg
+✅ 12 ·  scene_10.jpg
+✅ 13 (ảnh mô phỏng AI) ·  mp_3e475b573050f187.jpg
+❌ 14 ·  scene_11.jpg
+     ❌ Ảnh hiển thị một nhóm thủy thủ và sĩ quan trên tàu chiến USS Kearsarge với khẩu pháo lớn và có dòng chữ chú thích 'THE GUN THAT SUNK THE "ALABAMA"', hoàn toàn không phù hợp với phân cảnh giới thiệu thuyền trưởng Briggs, vợ con và bảy thủy thủ của tàu buôn Mary Celeste. → Thay thế bằng ảnh chân dung gia đình thuyền trưởng Benjamin Briggs hoặc ảnh tư liệu minh họa một tàu buôn chở hàng thế kỷ 19 tương tự tàu Mary Celeste.
+     ❌ Ảnh có chứa dòng chữ chú thích và thông tin bản quyền 'COPYRIGHT, 1911, REVIEW OF REVIEWS CO.' cùng tiêu đề phía dưới. → Cắt bỏ phần chữ thừa phía dưới hoặc sử dụng ảnh sạch không có chú thích bản quyền.
+✅ 15 ·  scene_12.jpg
+✅ 16 · New York · 5/11/1872 scene_13.jpg
+✅ 17 ·  scene_14.jpg
+✅ 18 (ảnh mô phỏng AI) ·  mp_06b2fca33113a4d5.jpg
+❌ 19 ·  scene_15.jpg
+     ❌ Ảnh gốc chứa các chú thích viết tay, nét chữ và khung bản thảo bên ngoài bức vẽ chính, gây xao lãng thị giác cho người xem video. → Cắt bỏ phần viền ngoài, chỉ giữ lại khung hình vẽ minh họa tàu và xuồng bên trong.
+✅ 20 (ảnh mô phỏng AI) ·  mp_8bf01e16ac28e617.jpg
+✅ 21 ·  scene_16.jpg
+✅ 22 ·  scene_17.jpg
+✅ 23 (ảnh mô phỏng AI) ·  mp_f5f912cb8903b311.jpg
+✅ 24 (ảnh mô phỏng AI) ·  mp_39e87408cf20d1db.jpg
+✅ 25 (ảnh mô phỏng AI) ·  mp_307a37f1c3f67f6d.jpg
+✅ 26 ·  scene_18.jpg
+✅ 27 ·  scene_19.jpg
+✅ 28 (ảnh mô phỏng AI) ·  mp_b029bc586cfceecb.jpg
+✅ 29 · Đảo Santa Maria · Azores scene_20.jpg
+✅ 30 ·  scene_21.jpg
+✅ 31 · Gibraltar · 12/1872 scene_22.jpg
+❌ 32 · Gibraltar · 1872 scene_23.jpg
+     ❌ Ảnh miêu tả một phòng xử án ở Sydney năm 1817, không phải phiên tòa xét xử vụ tàu Mary Celeste diễn ra tại Gibraltar vào năm 1872. → Thay bằng tranh vẽ hoặc ảnh tư liệu chính xác về phiên tòa điều tra vụ tàu Mary Celeste tại Gibraltar năm 1872.
+✅ 33 · Báo New York Times · 26/2/1873 scene_24.jpg
+✅ 34 (ảnh mô phỏng AI) ·  mp_7b3a6d9c1ec8f682.jpg
+✅ 35 ·  scene_25.jpg
+⚠️ 36 ·  scene_26.jpg
+     ⚠️ Ảnh chụp một con đường phố chung chung vào thế kỷ 19, không liên quan cụ thể đến phiên điều tra vụ tàu Mary Celeste hay tòa án, nhưng có thể chấp nhận làm ảnh bối cảnh thời kỳ. → Dùng ảnh phòng xử án, tài liệu điều tra hoặc bản tin báo chí thời kỳ năm 1872.
+✅ 37 · Gibraltar · 1873 scene_27.jpg
+✅ 38 (ảnh mô phỏng AI) ·  mp_4ede4689ba7a8e07.jpg
+✅ 39 ·  scene_28.jpg
+❌ 40 · Arthur Conan Doyle · 1884 scene_29.jpg
+     ❌ Ảnh minh họa là một trang sách chứa văn bản tiếng Anh kèm theo tranh minh họa và watermark 'Digitized by Google', xuất hiện trong phân đoạn kể về việc nhà văn viết truyện ngắn hư cấu dựa trên con tàu Mary Celeste. → Sử dụng ảnh chân dung của Arthur Conan Doyle, bản thảo gốc của truyện ngắn hoặc hình ảnh minh họa tác phẩm 'J. Habakuk Jephson's Statement' không bị dính chữ, trang sách và watermark.
+✅ 41 · Sherlock Holmes · tranh minh họa 1888 scene_30.jpg
+❌ 42 ·  scene_31.jpg
+     ❌ ảnh rất mờ / nhòe (độ nét 23)
+❌ 43 ·  scene_32.jpg
+     ❌ Ảnh là trang bìa truyện ngắn 'How It Happened' của tác giả A. Conan Doyle đăng trên tạp chí The Strand năm 1913, không liên quan đến vụ án tàu Mary Celeste đang được kể trong video. → Thay bằng ảnh tư liệu về tàu Mary Celeste hoặc các bài báo, cuốn sách giả mạo về lời kể của người sống sót trong vụ án này.
+⚠️ 44 ·  scene_33.jpg
+     ⚠️ Ảnh minh họa là một tranh minh họa truyện hư cấu xuất bản năm 1913 trên tạp chí Strand, không liên quan đến nhân vật thủy thủ bịa đặt hay vụ án tàu Mary Celeste ngoài đời thực. → Nên thay bằng ảnh chụp các bài báo, tạp chí năm 1913 thực tế có đăng hồi ký giả mạo về vụ Mary Celeste hoặc tranh vẽ mô tả con tàu.
+✅ 45 (ảnh mô phỏng AI) ·  mp_9da5ed98ea143177.jpg
+✅ 46 (ảnh mô phỏng AI) ·  mp_5ebc7c625f3e3394.jpg
+✅ 47 (ảnh mô phỏng AI) · Genoa · Ý mp_73e9c959e53f1141.jpg
+✅ 48 (ảnh mô phỏng AI) ·  mp_5c910d3e1b9ae2c2.jpg
+✅ 49 (ảnh mô phỏng AI) ·  mp_196871ca57a5b80b.jpg
+✅ 50 ·  scene_34.jpg
+✅ 51 ·  scene_35.jpg
+✅ 52 ·  scene_36.jpg
+✅ 53 (ảnh mô phỏng AI) ·  mp_8c3de2f3ba129ac1.jpg
+❌ 54 ·  scene_37.jpg
+     ❌ ảnh quá nhỏ (1024x498), phóng to sẽ vỡ
+✅ 55 ·  scene_38.jpg
+✅ 56 (ảnh mô phỏng AI) ·  mp_5934f7cb42e67def.jpg
+⚠️ 57 · Haiti · 1885 scene_39.jpg
+     ⚠️ Ảnh minh họa một con tàu mắc cạn (tác phẩm năm 1842) dùng để minh họa sự kiện năm 1885, tuy nhiên đây là ảnh bối cảnh tàu bè cùng thời kỳ nên vẫn có thể chấp nhận được. → Có thể sử dụng ảnh tư liệu về tàu buồng thế kỷ 19 mắc cạn hoặc va vào rạn san hô để sát với nội dung hơn.
+     ⚠️ Ảnh có dòng chữ chú thích 'AN INDIAMAN STRANDED' và thông tin nhà xuất bản ở phía dưới. → Cắt bỏ hoặc che phần chữ chú thích ở phía dưới để khung hình sạch sẽ hơn.
+❌ 58 ·  scene_40.jpg
+     ❌ Ảnh vẽ minh họa một phiên tòa hoàn toàn khác (phiên tòa xét xử bà Wharton ở Annapolis), không liên quan đến nhân vật Parker được nhắc đến trong lời kể. → Sử dụng tranh vẽ hoặc ảnh tư liệu đúng về phiên tòa xét xử nhân vật Parker hoặc thời kỳ liên quan đến vụ án Mary Celeste.
+✅ 59 · 2001 scene_41.jpg
+✅ 60 ·  scene_42.jpg
+✅ 61 (ảnh mô phỏng AI) ·  mp_8673b2cbe8c2bfd5.jpg
+✅ 62 ·  scene_43.jpg
+⚠️ 63 ·  scene_44.jpg
+     ⚠️ ảnh có dấu hiệu vỡ khối JPEG (tỉ lệ 1.8)
+✅ 64 (ảnh mô phỏng AI) ·  mp_54d20f060a676a0a.jpg

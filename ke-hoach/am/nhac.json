@@ -1,0 +1,71 @@
+{
+ "id": "nhac",
+ "slots": [
+  {
+   "slot": "bi-an",
+   "mo_ta": "trầm, hồi hộp",
+   "queries": [
+    "Gnossienne",
+    "Moonlight Sonata first movement",
+    "Chopin Prelude Op. 28 No. 4",
+    "Ase's Death Grieg",
+    "Chopin Nocturne C sharp minor"
+   ]
+  },
+  {
+   "slot": "su-la",
+   "mo_ta": "nhẹ, tò mò",
+   "queries": [
+    "Gymnopedie",
+    "Debussy Arabesque",
+    "Air on the G String",
+    "Grieg Morning Mood",
+    "Satie Gymnopédie Musopen"
+   ]
+  },
+  {
+   "slot": "sinh-ton",
+   "mo_ta": "dồn dập rồi ấm áp",
+   "queries": [
+    "Pathetique Sonata Adagio cantabile",
+    "Dvorak New World Largo",
+    "Elgar Nimrod",
+    "Beethoven Pathetique",
+    "Chopin Raindrop Prelude"
+   ]
+  },
+  {
+   "slot": "phi-vu",
+   "mo_ta": "tinh nghịch",
+   "queries": [
+    "Scott Joplin The Entertainer",
+    "Maple Leaf Rag",
+    "Rondo alla Turca",
+    "In the Hall of the Mountain King",
+    "Joplin rag piano roll"
+   ]
+  },
+  {
+   "slot": "sfx",
+   "mo_ta": "tiếng động thật CC0/PD",
+   "queries": [
+    "ocean waves",
+    "ship horn",
+    "steam whistle",
+    "crowd murmur",
+    "footsteps",
+    "wind",
+    "thunder",
+    "rain",
+    "morse code",
+    "heartbeat",
+    "steam train",
+    "propeller aircraft",
+    "fire crackling",
+    "clock ticking",
+    "door creak",
+    "paper rustle"
+   ]
+  }
+ ]
+}

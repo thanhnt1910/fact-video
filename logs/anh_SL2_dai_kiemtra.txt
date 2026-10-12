@@ -7,15 +7,13 @@ KIỂM TRA ẢNH SL2 · video dài · 44 ảnh (số thứ tự khớp lưới �
 ✅ 6 ·  scene_04.jpg
 ⚠️ 7 · Vùng lúa mì Tây Úc scene_05.jpg
      ⚠️ ảnh hơi nhỏ (1920x609)
-❌ 8 (ảnh mô phỏng AI) ·  mp_cd1485ff32ae335c.jpg
-     ❌ Cán rìu trong ảnh được thiết kế bằng gỗ mọc thẳng xuyên qua và cắm vào thân cây một cách vô lý, không hợp logic vật lý. → Tạo lại ảnh mô phỏng chiếc rìu bằng sắt bình thường đang cắm vào gốc cây.
+✅ 8 (ảnh mô phỏng AI) ·  mp_acd73b273f44f770.jpg
 ⚠️ 9 ·  scene_06.jpg
      ⚠️ ảnh hơi mờ (độ nét 46)
 ✅ 10 · Thời Đại khủng hoảng ở Úc scene_07.jpg
 ✅ 11 ·  scene_08.jpg
 ✅ 12 ·  scene_09.jpg
-❌ 13 ·  scene_10.jpg
-     ❌ Ảnh chụp hai con đà điểu sa mạc (emus) trong rừng, không khớp với ngữ cảnh 'những vị khách không mời mà đến' trong câu chuyện lịch sử. → Thay bằng ảnh minh họa đúng sự việc hoặc nhân vật xuất hiện trong câu chuyện.
+✅ 13 ·  scene_10.jpg
 ✅ 14 ·  scene_11.jpg
 ✅ 15 ·  scene_12.jpg
 ✅ 16 ·  scene_13.jpg

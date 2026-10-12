@@ -1,0 +1,843 @@
+{
+ "id": "ST4",
+ "topic": "sinh-ton",
+ "title": "Người sống sót qua 2 quả bom nguyên tử",
+ "caption": "Ông sống sót qua quả bom nguyên tử ở Hiroshima… rồi về quê đúng lúc quả bom thứ hai rơi xuống Nagasaki 🕊️ Câu chuyện có thật của Tsutomu Yamaguchi, người duy nhất được Nhật Bản công nhận sống sót qua cả hai quả bom. Bạn nghĩ gì về câu chuyện của ông?",
+ "hashtags": [
+  "nguoigacsu",
+  "sinhtồn",
+  "lịchsử",
+  "chuyệncóthật",
+  "hiroshima"
+ ],
+ "sources": [
+  "Wikipedia – Tsutomu Yamaguchi (dẫn The Independent, The Times, Mainichi)",
+  "Guinness World Records – First confirmed person to survive two nuclear attacks (công nhận 24/3/2009)",
+  "History.com – The Man Who Survived Two Atomic Bombs (Evan Andrews)",
+  "Phim tài liệu Nijū Hibaku / Twice Survived (Inazuka Hidetaka, 2006): khoảng 165 người sống sót qua cả hai quả bom",
+  "Số người thiệt mạng đến cuối năm 1945: khoảng 140.000 (Hiroshima), hơn 70.000 (Nagasaki) theo số liệu của hai thành phố"
+ ],
+ "music": "Heartbreaking",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Sống sót qua **2 quả bom**",
+   "voice": "Ông sống sót qua quả bom nguyên tử ở Hiroshima. Ba ngày sau, quả bom thứ hai rơi xuống đúng thành phố quê ông.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Atomic_cloud_over_Hiroshima.jpg/1920px-Atomic_cloud_over_Hiroshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Atomic cloud over Hiroshima.jpg\" – George R. Caron, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Hiroshima · **8 giờ 15**",
+   "voice": "Sáng ngày sáu tháng Tám năm 1945, ông cách tâm vụ nổ khoảng ba cây số.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png/1920px-Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Panoramatic Photo of Hiroshima ruined by Atomic Bombing - October 1945 - Hayashi Shigeo.png\" – Hayashi Shigeo, Public domain (https://commons.wikimedia.org/wiki/File:Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Chuyến tàu về **Nagasaki**",
+   "voice": "Hôm sau, ông lên chuyến tàu đêm, trở về quê nhà Nagasaki.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JGR_C5343_hauling_train.jpg/1920px-JGR_C5343_hauling_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"JGR C5343 hauling train.jpg\" – Katsusaburo NISHIO / 西尾克三郎, Public domain (https://commons.wikimedia.org/wiki/File:JGR_C5343_hauling_train.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**11 giờ 02**, ngày 9/8",
+   "voice": "Đúng lúc ông kể chuyện cho giám đốc, quả bom thứ hai rơi xuống.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nagasakibomb.jpg/1920px-Nagasakibomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Nagasakibomb.jpg\" – Charles Levy, Public domain (https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Người **duy nhất** được công nhận",
+   "voice": "Năm 2009, Nhật Bản chính thức công nhận ông.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20181111_Atomic_Bomb_Dome-5.jpg/1920px-20181111_Atomic_Bomb_Dome-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"20181111 Atomic Bomb Dome-5.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Để **không ai** phải trải qua nữa",
+   "voice": "Ông dành cuối đời kêu gọi xóa bỏ vũ khí hạt nhân.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/1920px-Cranes_made_by_Origami_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Cranes made by Origami paper.jpg\" – Laitche, Public domain (https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg)"
+   }
+  }
+ ],
+ "post": {
+  "hook": "Ông sống sót qua quả bom nguyên tử ở Hiroshima. Ba ngày sau, quả bom thứ hai rơi xuống đúng thành phố quê ông 🕊️",
+  "paragraphs": [
+   "Tháng 8/1945, kỹ sư Tsutomu Yamaguchi, 29 tuổi, của hãng Mitsubishi đang kết thúc chuyến công tác ba tháng ở Hiroshima.",
+   "Sáng 6/8, trên đường ra ga về quê, ông quay lại chỗ làm vì để quên con dấu. 8 giờ 15 phút, quả bom nguyên tử đầu tiên phát nổ, cách ông khoảng 3 km. Ông bị bỏng nặng nhưng vẫn sống.",
+   "Sau một đêm trong hầm trú ẩn, ông lên chuyến tàu đêm về Nagasaki. Sáng 9/8, người quấn đầy băng, ông vẫn đến công ty báo cáo. Giám đốc nghe chuyện một quả bom xóa sổ cả thành phố thì bảo ông bị điên.",
+   "Đúng lúc ấy, khoảng 11 giờ, quả bom thứ hai rơi xuống Nagasaki. Một lần nữa, ông cách tâm vụ nổ khoảng 3 km. Và một lần nữa, ông sống sót.",
+   "Hai quả bom đã cướp đi sinh mạng của hơn 200.000 người tính đến cuối năm 1945.",
+   "Yamaguchi sống tới 93 tuổi. Năm 2009, chính phủ Nhật chính thức công nhận ông là người duy nhất sống sót qua cả hai quả bom. Những năm cuối đời, ông lên tiếng tại Liên Hợp Quốc, kêu gọi xóa bỏ vũ khí hạt nhân, để không ai phải trải qua điều đó thêm một lần nào nữa."
+  ],
+  "ending": "Bạn nghĩ gì về câu chuyện của ông?",
+  "hashtags": [
+   "nguoigacsu",
+   "sinhtồn",
+   "lịchsử",
+   "chuyệncóthật",
+   "hiroshima"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "scene": 0,
+    "kicker": "Chuyện có thật · 1945",
+    "title": "Sống sót qua **2 quả bom nguyên tử**"
+   },
+   {
+    "scene": 1,
+    "tag": "Hiroshima · 6/8/1945",
+    "text": "Ông quay lại lấy con dấu bỏ quên. 8 giờ 15, quả bom phát nổ cách ông khoảng 3 km."
+   },
+   {
+    "scene": 3,
+    "tag": "Nagasaki · 9/8/1945",
+    "text": "Về quê, ông kể cho giám đốc nghe. Đúng lúc ấy, quả bom thứ hai rơi xuống."
+   },
+   {
+    "scene": 4,
+    "tag": "Năm 2009",
+    "text": "Nhật Bản công nhận ông là người duy nhất sống sót qua cả hai quả bom."
+   },
+   {
+    "kind": "end",
+    "scene": 5,
+    "text": "Ông dành cuối đời kêu gọi xóa bỏ vũ khí hạt nhân."
+   }
+  ]
+ },
+ "long": {
+  "title": "Người duy nhất sống sót qua cả hai quả bom nguyên tử: câu chuyện của Tsutomu Yamaguchi",
+  "title_card": "Sống sót qua **hai quả bom**",
+  "description": "Sáng 6/8/1945, kỹ sư Tsutomu Yamaguchi quay lại chỗ làm ở Hiroshima chỉ vì để quên con dấu. Vài phút sau, quả bom nguyên tử đầu tiên phát nổ cách ông khoảng 3 km. Ông sống sót, lên tàu về quê nhà Nagasaki, và ba ngày sau quả bom thứ hai rơi xuống đúng thành phố ấy. Câu chuyện có thật về người duy nhất được Nhật Bản chính thức công nhận sống sót qua cả hai quả bom, và những năm cuối đời ông dành để kêu gọi hòa bình.",
+  "voice": "Sadaltager",
+  "music": "Heartbreaking",
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Sáng ngày sáu tháng Tám năm một nghìn chín trăm bốn mươi lăm, một kỹ sư trẻ người Nhật đang đi bộ trên đường phố Hiroshima.",
+      "mo_phong": "a quiet street in a Japanese city in 1945 on a clear summer morning, wooden two-storey houses, tram wires, a lone man in a white short-sleeved shirt and dark trousers walking away from the camera, seen from behind, small in the frame"
+     },
+     {
+      "text": "Chỉ vài giây nữa thôi, thành phố này sẽ trở thành nơi đầu tiên trên thế giới hứng chịu một quả bom nguyên tử.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Atomic_cloud_over_Hiroshima.jpg/1920px-Atomic_cloud_over_Hiroshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Atomic cloud over Hiroshima.jpg\" – George R. Caron, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg)"
+      },
+      "label": "Hiroshima · 6/8/1945"
+     },
+     {
+      "text": "Ông sống sót. Và ông làm điều mà bất kỳ ai cũng sẽ làm: tìm đường về nhà.",
+      "mo_phong": "a 1940s Japanese steam train crossing countryside at night, glowing windows, steam trailing, dark hills and rice fields, no people visible"
+     },
+     {
+      "text": "Nhà của ông ở Nagasaki.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Oura-Nagasaki_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Oura-Nagasaki 1900.jpg\" – Conger, Emily Bronson purchased from local photographer, Public domain (https://commons.wikimedia.org/wiki/File:Oura-Nagasaki_1900.jpg)"
+      }
+     },
+     {
+      "text": "Ba ngày sau, quả bom nguyên tử thứ hai rơi xuống đúng thành phố ấy.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nagasakibomb.jpg/1920px-Nagasakibomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Nagasakibomb.jpg\" – Charles Levy, Public domain (https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg)"
+      },
+      "label": "Nagasaki · 9/8/1945"
+     },
+     {
+      "text": "Đây là câu chuyện về Tsutomu Yamaguchi, người duy nhất được chính phủ Nhật Bản chính thức công nhận đã sống sót qua cả hai quả bom nguyên tử.",
+      "mo_phong": "an elderly man seen from behind sitting on a bench looking out over a harbour city at sunset, silhouette only, peaceful"
+     }
+    ]
+   },
+   {
+    "title": "Người kỹ sư đóng tàu",
+    "beats": [
+     {
+      "text": "Tsutomu Yamaguchi sinh năm một nghìn chín trăm mười sáu ở Nagasaki, một thành phố cảng ở miền nam Nhật Bản.",
+      "image": {
+       "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA5Ynk4LWltYWdlLmpwZw.jpg",
+       "credit": "\"Partial Panoramic View Nagasaki Felice\" – thegetty, CC0 (https://www.rawpixel.com/image/14326005/partial-panoramic-view-nagasaki-felice-beato)"
+      },
+      "label": "Nagasaki"
+     },
+     {
+      "text": "Ông làm việc cho hãng Mitsubishi, ở xưởng đóng tàu lớn nhất thành phố.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Taiyo Maru in Mitsubishi Nagasaki.JPG\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG)"
+      }
+     },
+     {
+      "text": "Công việc của ông là thiết kế tàu chở dầu, những con tàu khổng lồ cần hàng nghìn bản vẽ.",
+      "mo_phong": "a 1940s Japanese shipyard design office, wooden drafting tables with large paper blueprints of an oil tanker hull, rulers and pencils, soft window light, no people"
+     },
+     {
+      "text": "Năm một nghìn chín trăm bốn mươi lăm, ông hai mươi chín tuổi, đã có vợ là bà Hisako và một mái nhà nhỏ ở Nagasaki.",
+      "mo_phong": "a small traditional wooden Japanese house on a green hillside above a harbour in the 1940s, tiled roof, laundry pole, summer afternoon, no people"
+     },
+     {
+      "text": "Khi ấy, chiến tranh Thái Bình Dương đã bước sang năm thứ tư. Khắp nước Nhật, người ta đào hầm trú ẩn, sống trong tiếng còi báo động.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/People_build_Air%E2%80%90raid_shelter_in_Higashi-Mikkaichi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"People build Air‐raid shelter in Higashi-Mikkaichi.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:People_build_Air%E2%80%90raid_shelter_in_Higashi-Mikkaichi.jpg)"
+      }
+     },
+     {
+      "text": "Mùa hè năm ấy, công ty cử ông đến Hiroshima làm việc trong ba tháng.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Aioi_Bridge_Pre-war.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Aioi Bridge Pre-war.jpg\" – 不明。写真提供者の名より下記の3者のどこかと推定\n\n中国新聞社\n朝日新聞社\n広島市史編修委員会, Public domain (https://commons.wikimedia.org/wiki/File:Aioi_Bridge_Pre-war.jpg)"
+      },
+      "label": "Hiroshima · trước chiến tranh"
+     },
+     {
+      "text": "Đến đầu tháng Tám, chuyến công tác kết thúc. Ông thu xếp đồ đạc, chuẩn bị về nhà.",
+      "mo_phong": "an engineer's desk in a 1940s Japanese office, a leather briefcase, folded papers and a small round wooden name seal with a red ink pad, morning light, no people"
+     }
+    ]
+   },
+   {
+    "title": "Con dấu bỏ quên",
+    "beats": [
+     {
+      "text": "Sáng ngày sáu tháng Tám, Yamaguchi cùng hai đồng nghiệp là Akira Iwanaga và Kuniyoshi Sato ra ga, để về Nagasaki.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/HiroshimaStation-1945-historicalphoto.jpg/1920px-HiroshimaStation-1945-historicalphoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"HiroshimaStation-1945-historicalphoto.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HiroshimaStation-1945-historicalphoto.jpg)"
+      },
+      "label": "Ga Hiroshima"
+     },
+     {
+      "text": "Đi được một đoạn, ông chợt nhận ra mình để quên con dấu hanko, thứ người Nhật dùng thay cho chữ ký.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Hanko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Hanko.JPG\" – Utilisateur:Freddyz de wikipédia, Public domain (https://commons.wikimedia.org/wiki/File:Hanko.JPG)"
+      }
+     },
+     {
+      "text": "Không có nó, mọi giấy tờ công việc đều dở dang. Ông quay lại chỗ làm để lấy.",
+      "mo_phong": "close-up of a traditional Japanese personal name seal (hanko) made of wood lying next to a round red ink pad on an old wooden desk, warm light, shallow depth of field, no writing visible"
+     },
+     {
+      "text": "Tám giờ mười lăm phút, ông đang đi bộ về phía xưởng tàu, cách trung tâm thành phố khoảng ba cây số.",
+      "mo_phong": "a quiet street in a Japanese city in 1945 on a clear summer morning, wooden two-storey houses, tram wires, a lone man in a white short-sleeved shirt and dark trousers walking away from the camera, seen from behind, small in the frame"
+     },
+     {
+      "text": "Ông nghe tiếng máy bay. Ngẩng lên, ông thấy một chiếc máy bay ném bom, và hai chiếc dù nhỏ đang rơi xuống.",
+      "mo_phong": "a single silver four-engine bomber aircraft very high in a clear blue summer sky over a Japanese city, tiny in the frame, seen from the ground, 1945"
+     },
+     {
+      "text": "Đó là chiếc Enola Gay, máy bay ném bom B hai mươi chín của Mỹ.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/B-29_Superfortress_Enola_Gay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"B-29 Superfortress Enola Gay.jpg\" – United States Air Force, Public domain (https://commons.wikimedia.org/wiki/File:B-29_Superfortress_Enola_Gay.jpg)"
+      }
+     },
+     {
+      "text": "Rồi cả bầu trời lóe sáng. Sau này ông tả lại: nó giống như ánh chớp của một ngọn pháo sáng khổng lồ.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Atomic_cloud_over_Hiroshima_from_the_Kure_Naval_Arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Atomic cloud over Hiroshima from the Kure Naval Arsenal.jpg\" – Masami Oki, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima_from_the_Kure_Naval_Arsenal.jpg)"
+      }
+     },
+     {
+      "text": "Ông bị hất văng xuống đất.",
+      "mo_phong": "a city street in 1945 Japan engulfed in thick brown dust and smoke after a huge blast, collapsed wooden houses, light filtering through the haze, no people"
+     },
+     {
+      "text": "Khi tỉnh lại, mắt ông tạm thời không nhìn thấy gì, tai ù đặc. Nửa người bên trái của ông bị bỏng nặng.",
+      "mo_phong": "a city street in 1945 Japan engulfed in slowly settling grey dust and smoke after a huge blast, collapsed wooden houses, light filtering through the haze, no people"
+     },
+     {
+      "text": "Ngước lên, ông thấy một đám mây hình nấm khổng lồ đang bốc cao trên thành phố.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Atomic_cloud_over_Hiroshima.jpg/1920px-Atomic_cloud_over_Hiroshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Atomic cloud over Hiroshima.jpg\" – George R. Caron, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Đêm dài nhất",
+    "beats": [
+     {
+      "text": "Đó là quả bom nguyên tử đầu tiên từng được dùng trong chiến tranh.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png/1920px-Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Panoramatic Photo of Hiroshima ruined by Atomic Bombing - October 1945 - Hayashi Shigeo.png\" – Hayashi Shigeo, Public domain (https://commons.wikimedia.org/wiki/File:Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png)"
+      }
+     },
+     {
+      "text": "Phần lớn thành phố bị san phẳng. Tính đến cuối năm một nghìn chín trăm bốn mươi lăm, khoảng một trăm bốn mươi nghìn người đã thiệt mạng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg/1920px-Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Hiroshima aerial view after atomic bomb 8-1945.jpeg\" – U.S. Navy (The image is part of a scrapbook assembled by Commander Francis N. Gilreath during his service as Flag Secretary and Aide to Rear Admiral Alfred E. Montgomery), Public domain (https://commons.wikimedia.org/wiki/File:Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg)"
+      }
+     },
+     {
+      "text": "Yamaguchi gắng gượng tới một hầm trú ẩn để nghỉ.",
+      "mo_phong": "inside a dark earthen air raid shelter dug into a hillside in 1945 Japan, wooden beams, a single small oil lamp glowing, empty straw mats, no people"
+     },
+     {
+      "text": "Rồi ông đi tìm hai người đồng nghiệp. Thật may, cả hai đều còn sống.",
+      "mo_phong": "three small figures of men seen from far behind walking along a ruined riverside road at dusk in 1945 Japan, smoke on the horizon, silhouettes only"
+     },
+     {
+      "text": "Ba người qua đêm trong một hầm trú ẩn không kích, giữa một thành phố không còn ánh đèn.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/People_who_were_escaping_in_the_air-raid_shelter_in_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"People who were escaping in the air-raid shelter in Japan.jpg\" – Shigeru Tamura, Public domain (https://commons.wikimedia.org/wiki/File:People_who_were_escaping_in_the_air-raid_shelter_in_Japan.jpg)"
+      }
+     },
+     {
+      "text": "Sáng hôm sau, họ băng qua những con phố đổ nát để tới ga tàu.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Wide_Road_Acting_As_Fire_Break_-_DPLA_-_d1993e429c2cc2f98971ada71b934a3b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Wide Road Acting As Fire Break - DPLA - d1993e429c2cc2f98971ada71b934a3b.jpg\" – War Department. U.S. Strategic Bombing Survey. Pacific Survey. 9/1944-1947, Public domain (https://commons.wikimedia.org/wiki/File:Wide_Road_Acting_As_Fire_Break_-_DPLA_-_d1993e429c2cc2f98971ada71b934a3b.jpg)"
+      }
+     },
+     {
+      "text": "Nhiều cây cầu đã sập. Họ phải tìm đường vòng qua những con sông của Hiroshima.",
+      "mo_phong": "a wide river in a ruined Japanese city in August 1945, a damaged concrete bridge, burnt trees on the bank, hazy sky, no people"
+     },
+     {
+      "text": "Cuối cùng, họ lên được một chuyến tàu đêm, trở về Nagasaki.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JGR_C5343_hauling_train.jpg/1920px-JGR_C5343_hauling_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"JGR C5343 hauling train.jpg\" – Katsusaburo NISHIO / 西尾克三郎, Public domain (https://commons.wikimedia.org/wiki/File:JGR_C5343_hauling_train.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Trở về Nagasaki",
+    "beats": [
+     {
+      "text": "Sáng ngày tám tháng Tám, Yamaguchi về tới quê nhà.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Oura-Nagasaki_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Oura-Nagasaki 1900.jpg\" – Conger, Emily Bronson purchased from local photographer, Public domain (https://commons.wikimedia.org/wiki/File:Oura-Nagasaki_1900.jpg)"
+      }
+     },
+     {
+      "text": "Ông tới bệnh viện để băng bó vết thương. Người bác sĩ là bạn học cũ của ông, vậy mà lúc đầu cũng không nhận ra ông.",
+      "mo_phong": "an empty corridor of a 1940s Japanese hospital, wooden floor, white walls, a folding screen and a metal bed frame, soft daylight, no people"
+     },
+     {
+      "text": "Theo lời kể lại, khi ông về tới nhà, mẹ ông nói trông ông như một bóng ma.",
+      "mo_phong": "the sliding wooden door of a traditional Japanese house half open at dawn, a pair of worn shoes at the step, quiet, no people"
+     },
+     {
+      "text": "Ở vào hoàn cảnh ấy, người khác hẳn sẽ nằm nhà nghỉ ngơi. Nhưng Yamaguchi thì không.",
+      "mo_phong": "a futon on tatami in a dim traditional Japanese room, a basin of water and a folded cloth beside it, closed shoji screens, no people"
+     },
+     {
+      "text": "Sáng ngày chín tháng Tám, người quấn đầy băng, ông vẫn đến văn phòng công ty ở Nagasaki để báo cáo.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Taiyo Maru in Mitsubishi Nagasaki.JPG\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Ngày chín tháng Tám",
+    "beats": [
+     {
+      "text": "Trong phòng họp, ông kể cho cấp trên nghe chuyện ở Hiroshima: chỉ một quả bom mà phá hủy cả một thành phố.",
+      "mo_phong": "a 1940s Japanese company meeting room, a long wooden table, chairs, papers and teacups, tall windows with paper tape crosses on the glass, bright summer light, no people"
+     },
+     {
+      "text": "Người giám đốc không tin. Ông ta nói Yamaguchi bị điên rồi.",
+      "mo_phong": "a 1940s Japanese company meeting room, a long wooden table, chairs, papers and teacups, tall windows with paper tape crosses on the glass, late morning light, a single empty chair pulled back, no people"
+     },
+     {
+      "text": "Ngay lúc ấy, khoảng mười một giờ trưa, ngoài cửa sổ lại lóe lên một ánh chớp trắng.",
+      "mo_phong": "the tall windows of a 1940s office suddenly lit by an intense white light from outside, curtains blowing inward, empty room, dramatic"
+     },
+     {
+      "text": "Chiếc máy bay Bockscar vừa thả quả bom nguyên tử thứ hai xuống Nagasaki.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Bockscar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Bockscar.jpg\" – U.S. Air Force Photo, Public domain (https://commons.wikimedia.org/wiki/File:Bockscar.jpg)"
+      }
+     },
+     {
+      "text": "Yamaguchi kịp nằm rạp xuống sàn, ngay trước khi sóng xung kích làm vỡ tung cửa kính.",
+      "mo_phong": "shattered window glass scattered across a wooden office floor in the 1940s, an overturned chair, dust in the light, no people"
+     },
+     {
+      "text": "Một lần nữa, ông ở cách tâm vụ nổ khoảng ba cây số.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nagasakibomb.jpg/1920px-Nagasakibomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Nagasakibomb.jpg\" – Charles Levy, Public domain (https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg)"
+      },
+      "label": "Nagasaki · 11 giờ 02"
+     },
+     {
+      "text": "Sau này ông kể: tôi đã nghĩ đám mây hình nấm ấy đuổi theo tôi từ Hiroshima.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg/1920px-Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Atomic cloud over Nagasaki from Koyagi-jima.jpeg\" – Hiromichi Matsuda (松田 弘道, 1900-1969)[2], Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg)"
+      }
+     },
+     {
+      "text": "Lần này, ông gần như không bị thương thêm. Nhưng những lớp băng trên người bị thổi bay, và ông sốt cao suốt hơn một tuần sau đó.",
+      "mo_phong": "a futon on tatami in a dim traditional Japanese room, a basin of water and a folded cloth beside it, closed shoji screens, no people"
+     },
+     {
+      "text": "Vợ ông, bà Hisako, lúc ấy đang ra ngoài tìm thuốc bỏng cho chồng. Bà kịp trú vào một đường hầm và thoát nạn.",
+      "mo_phong": "the entrance of a stone tunnel dug into a green hillside in 1940s Nagasaki, shadows inside, summer day, no people"
+     },
+     {
+      "text": "Một chiếc đồng hồ ở Nagasaki dừng lại mãi mãi ở mười một giờ hai phút.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/A_stopped_clock_in_Nagasaki_showing_the_explosion_time_of_atomic_bomb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"A stopped clock in Nagasaki showing the explosion time of atomic bomb.png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:A_stopped_clock_in_Nagasaki_showing_the_explosion_time_of_atomic_bomb.png)"
+      }
+     },
+     {
+      "text": "Tính đến cuối năm ấy, quả bom ở Nagasaki đã cướp đi sinh mạng của hơn bảy mươi nghìn người.",
+      "image": {
+       "url": "https://live.staticflickr.com/65535/54931017893_01644d5b71_b.jpg",
+       "credit": "\"Nagasaki after atomic bombing.\" – WWII in View, Public Domain (https://www.flickr.com/photos/191031534@N08/54931017893)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Sau chiến tranh",
+    "beats": [
+     {
+      "text": "Ngày mười lăm tháng Tám, Nhật hoàng tuyên bố đầu hàng qua sóng radio. Chiến tranh kết thúc.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Japanese_civilians_listening_to_the_surrender_broadcast.jpg/1920px-Japanese_civilians_listening_to_the_surrender_broadcast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Japanese civilians listening to the surrender broadcast.jpg\" – (Unknown), Public domain (https://commons.wikimedia.org/wiki/File:Japanese_civilians_listening_to_the_surrender_broadcast.jpg)"
+      }
+     },
+     {
+      "text": "Yamaguchi kể rằng khi nghe tin ấy, ông không còn cảm thấy gì nữa.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/View_of_devastated_Nagasaki_City_in_Middle_October_1945_%28near_Hashiguchi-machi%2C_Nagasaki_City%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"View of devastated Nagasaki City in Middle October 1945 (near Hashiguchi-machi, Nagasaki City).png\" – Hayashi Shigeo, Public domain (https://commons.wikimedia.org/wiki/File:View_of_devastated_Nagasaki_City_in_Middle_October_1945_(near_Hashiguchi-machi,_Nagasaki_City).png)"
+      }
+     },
+     {
+      "text": "Những năm sau đó, ông làm phiên dịch cho lực lượng chiếm đóng, rồi đi dạy học.",
+      "mo_phong": "an empty Japanese school classroom in the late 1940s, wooden desks in rows, a blackboard with nothing written, sunlight through windows"
+     },
+     {
+      "text": "Cuối cùng, ông trở lại Mitsubishi, tiếp tục thiết kế những con tàu chở dầu.",
+      "mo_phong": "a large oil tanker ship under construction in a 1950s Japanese shipyard dock, cranes, steel hull, sunny day, no people close up"
+     },
+     {
+      "text": "Đầu thập niên năm mươi, ông bà có thêm hai cô con gái.",
+      "mo_phong": "a small traditional wooden Japanese house on a green hillside above a harbour in the 1950s, tiled roof, laundry pole, summer afternoon, no people"
+     },
+     {
+      "text": "Năm một nghìn chín trăm năm mươi bảy, ông được công nhận là người sống sót của vụ ném bom Nagasaki.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/20190202_Nagasaki_skyline-2.jpg/1920px-20190202_Nagasaki_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"20190202 Nagasaki skyline-2.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20190202_Nagasaki_skyline-2.jpg)"
+      }
+     },
+     {
+      "text": "Còn chuyện ở Hiroshima, ông gần như giữ im lặng. Ông bảo giấy tờ ghi như vậy là đủ.",
+      "mo_phong": "an official Japanese government document with a red round seal stamp on an office desk, ink pad, reading glasses, no readable writing, no people"
+     }
+    ]
+   },
+   {
+    "title": "Lên tiếng",
+    "beats": [
+     {
+      "text": "Phải nhiều chục năm sau, khi đã ngoài tám mươi tuổi, ông mới bắt đầu viết lại những gì mình đã trải qua, cả bằng văn xuôi lẫn bằng thơ.",
+      "mo_phong": "an old man's hand holding a fountain pen over a notebook on a wooden desk, a cup of green tea, soft lamp light, only the hand visible"
+     },
+     {
+      "text": "Năm hai nghìn không trăm linh sáu, ông xuất hiện trong một bộ phim tài liệu về những người sống sót qua cả hai quả bom.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg/1920px-Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Hiroshima Peace Memorial Park - HiroshimaPeace132.jpg\" – lumoplank, CC0 (https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg)"
+      }
+     },
+     {
+      "text": "Bộ phim cho biết có khoảng một trăm sáu mươi lăm người như vậy.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/An_Overview_of_the_Hiroshima_Castle_as_Seen_From_a_Hotel_Rooftop_as_Secretary_Kerry_Visited_the_City_%2826277888562%29.jpg/1920px-An_Overview_of_the_Hiroshima_Castle_as_Seen_From_a_Hotel_Rooftop_as_Secretary_Kerry_Visited_the_City_%2826277888562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"An Overview of the Hiroshima Castle as Seen From a Hotel Rooftop as Secretary Kerry Visited the City (26277888562).jpg\" – U.S. Department of State from United States, Public domain (https://commons.wikimedia.org/wiki/File:An_Overview_of_the_Hiroshima_Castle_as_Seen_From_a_Hotel_Rooftop_as_Secretary_Kerry_Visited_the_City_(26277888562).jpg)"
+      }
+     },
+     {
+      "text": "Phim được chiếu tại trụ sở Liên Hợp Quốc ở New York, và ông đã lên tiếng kêu gọi xóa bỏ vũ khí hạt nhân.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/United_Nations_headquarters_3.jpg/1920px-United_Nations_headquarters_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"United Nations headquarters 3.jpg\" – Horizon206, CC0 (https://commons.wikimedia.org/wiki/File:United_Nations_headquarters_3.jpg)"
+      }
+     },
+     {
+      "text": "Ông nói: tôi đã hai lần bị ném bom nguyên tử và sống sót. Kể lại chuyện ấy là định mệnh của tôi.",
+      "mo_phong": "an elderly man seen from behind sitting on a bench looking out over a harbour city at sunset, silhouette only, peaceful"
+     }
+    ]
+   },
+   {
+    "title": "Lời công nhận",
+    "beats": [
+     {
+      "text": "Tháng Một năm hai nghìn không trăm linh chín, ông nộp đơn xin được công nhận là người sống sót cả ở Hiroshima.",
+      "mo_phong": "an official Japanese government document with a red round seal stamp on an office desk, ink pad, reading glasses, no readable writing, no people"
+     },
+     {
+      "text": "Ngày hai mươi bốn tháng Ba năm ấy, chính phủ Nhật chấp thuận.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Hanko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Hanko.JPG\" – Utilisateur:Freddyz de wikipédia, Public domain (https://commons.wikimedia.org/wiki/File:Hanko.JPG)"
+      }
+     },
+     {
+      "text": "Tsutomu Yamaguchi trở thành người duy nhất được chính thức công nhận là đã sống sót qua cả hai quả bom nguyên tử.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20181111_Atomic_Bomb_Dome-5.jpg/1920px-20181111_Atomic_Bomb_Dome-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"20181111 Atomic Bomb Dome-5.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg)"
+      }
+     },
+     {
+      "text": "Ông nói, nhờ hồ sơ ấy, thế hệ trẻ sẽ biết đến lịch sử khủng khiếp của bom nguyên tử, kể cả khi ông không còn nữa.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/1920px-Cranes_made_by_Origami_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Cranes made by Origami paper.jpg\" – Laitche, Public domain (https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg)"
+      }
+     },
+     {
+      "text": "Chưa đầy một năm sau, ngày bốn tháng Một năm hai nghìn không trăm mười, ông qua đời ở Nagasaki, thọ chín mươi ba tuổi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/20190202_Nagasaki_skyline-3.jpg/1920px-20190202_Nagasaki_skyline-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"20190202 Nagasaki skyline-3.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20190202_Nagasaki_skyline-3.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Lời kết",
+    "beats": [
+     {
+      "text": "Một con dấu bỏ quên đã khiến ông quay lại Hiroshima vào buổi sáng định mệnh ấy.",
+      "mo_phong": "close-up of a traditional Japanese personal name seal (hanko) made of wood lying next to a round red ink pad on an old wooden desk, warm light, shallow depth of field, no writing visible"
+     },
+     {
+      "text": "Một chuyến tàu về nhà đã đưa ông tới đúng nơi quả bom thứ hai rơi xuống.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JGR_C5343_hauling_train.jpg/1920px-JGR_C5343_hauling_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"JGR C5343 hauling train.jpg\" – Katsusaburo NISHIO / 西尾克三郎, Public domain (https://commons.wikimedia.org/wiki/File:JGR_C5343_hauling_train.jpg)"
+      }
+     },
+     {
+      "text": "Ông sống sót qua cả hai lần. Nhưng hàng trăm nghìn người khác thì không.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Photograph_of_Hiroshima_After_Atomic_Bombing_taken_March_1946_-_342-C-K6011.jpg/1920px-Photograph_of_Hiroshima_After_Atomic_Bombing_taken_March_1946_-_342-C-K6011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Photograph of Hiroshima After Atomic Bombing taken March 1946 - 342-C-K6011.jpg\" – Department of Defense- Department of the Air Force, Public domain (https://commons.wikimedia.org/wiki/File:Photograph_of_Hiroshima_After_Atomic_Bombing_taken_March_1946_-_342-C-K6011.jpg)"
+      }
+     },
+     {
+      "text": "Ông dành những năm cuối đời để kể lại câu chuyện ấy, với một mong muốn duy nhất: không ai phải trải qua điều đó thêm một lần nào nữa.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/HiroshimaPaperCranes6682.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"HiroshimaPaperCranes6682.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:HiroshimaPaperCranes6682.jpg)"
+      }
+     },
+     {
+      "text": "Ngày nay, Hiroshima và Nagasaki đã hồi sinh thành những thành phố nhộn nhịp. Mỗi năm, vào tháng Tám, cả hai nơi lại tưởng niệm những người đã mất và cầu nguyện cho hòa bình.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg/1920px-Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Hiroshima Peace Memorial Park - HiroshimaPeace132.jpg\" – lumoplank, CC0 (https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg)"
+      }
+     },
+     {
+      "text": "Còn bạn, bạn nghĩ gì về câu chuyện của ông? Hãy chia sẻ ở phần bình luận.",
+      "mo_phong": "an empty bench on a hill overlooking a calm harbour city at sunset, peaceful, no people"
+     }
+    ]
+   }
+  ]
+ },
+ "ngan": {
+  "hook_text": "Sống sót qua\n**2 quả bom nguyên tử**",
+  "hooks": [
+   "Ông sống sót qua quả bom nguyên tử ở Hiroshima. Ba ngày sau, quả bom thứ hai rơi xuống đúng thành phố quê ông.",
+   "Chỉ vì để quên một con dấu, ông đã có mặt ở cả Hiroshima lẫn Nagasaki đúng ngày bom nguyên tử rơi.",
+   "Giám đốc bảo ông bị điên khi kể chuyện quả bom ở Hiroshima. Đúng lúc ấy, quả bom thứ hai rơi xuống."
+  ],
+  "caption": "Ông sống sót qua quả bom nguyên tử ở Hiroshima… rồi về quê đúng lúc quả bom thứ hai rơi xuống Nagasaki 🕊️ Câu chuyện có thật của Tsutomu Yamaguchi, người duy nhất được Nhật Bản công nhận sống sót qua cả hai quả bom. Bạn nghĩ gì về câu chuyện của ông?",
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Ông sống sót qua quả bom nguyên tử ở Hiroshima. Ba ngày sau, quả bom thứ hai rơi xuống đúng thành phố quê ông.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Atomic_cloud_over_Hiroshima.jpg/1920px-Atomic_cloud_over_Hiroshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Atomic cloud over Hiroshima.jpg\" – George R. Caron, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nagasakibomb.jpg/1920px-Nagasakibomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Nagasakibomb.jpg\" – Charles Levy, Public domain (https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg)"
+     }
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Và điều ông làm với phần đời còn lại mới là điều đáng nhớ nhất.",
+    "images": [
+     {
+      "mo_phong": "an elderly man seen from behind sitting on a bench looking out over a harbour city at sunset, silhouette only, peaceful"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "doi_canh": true,
+    "text": "Tháng Tám năm một nghìn chín trăm bốn mươi lăm, kỹ sư Tsutomu Yamaguchi của hãng Mitsubishi đang đi công tác ở Hiroshima, chuẩn bị về nhà ở Nagasaki.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Aioi_Bridge_Pre-war.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Aioi Bridge Pre-war.jpg\" – 不明。写真提供者の名より下記の3者のどこかと推定\n\n中国新聞社\n朝日新聞社\n広島市史編修委員会, Public domain (https://commons.wikimedia.org/wiki/File:Aioi_Bridge_Pre-war.jpg)"
+     },
+     {
+      "mo_phong": "a 1940s Japanese shipyard design office, wooden drafting tables with large paper blueprints of an oil tanker hull, rulers and pencils, soft window light, no people"
+     },
+     {
+      "mo_phong": "an engineer's desk in a 1940s Japanese office, a leather briefcase, folded papers and a small round wooden name seal with a red ink pad, morning light, no people"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Tháng 8/**1945**, Hiroshima",
+     "sub": "Kỹ sư Mitsubishi, sắp hết chuyến công tác"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Sáng ngày sáu, ông quay lại chỗ làm vì để quên con dấu. Tám giờ mười lăm phút, bầu trời lóe sáng.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Hanko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Hanko.JPG\" – Utilisateur:Freddyz de wikipédia, Public domain (https://commons.wikimedia.org/wiki/File:Hanko.JPG)"
+     },
+     {
+      "mo_phong": "a quiet street in a Japanese city in 1945 on a clear summer morning, wooden two-storey houses, tram wires, a lone man in a white short-sleeved shirt and dark trousers walking away from the camera, seen from behind, small in the frame"
+     },
+     {
+      "mo_phong": "a single silver four-engine bomber aircraft very high in a clear blue summer sky over a Japanese city, tiny in the frame, seen from the ground, 1945"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "**8 giờ 15**, sáng 6/8",
+     "sub": "Ông vừa quay lại lấy con dấu bỏ quên"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Ông chỉ cách tâm vụ nổ khoảng ba cây số. Bị bỏng nặng, nhưng ông vẫn sống.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Atomic_cloud_over_Hiroshima_from_the_Kure_Naval_Arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Atomic cloud over Hiroshima from the Kure Naval Arsenal.jpg\" – Masami Oki, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima_from_the_Kure_Naval_Arsenal.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png/1920px-Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Panoramatic Photo of Hiroshima ruined by Atomic Bombing - October 1945 - Hayashi Shigeo.png\" – Hayashi Shigeo, Public domain (https://commons.wikimedia.org/wiki/File:Panoramatic_Photo_of_Hiroshima_ruined_by_Atomic_Bombing_-_October_1945_-_Hayashi_Shigeo.png)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg/1920px-Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Hiroshima aerial view after atomic bomb 8-1945.jpeg\" – U.S. Navy (The image is part of a scrapbook assembled by Commander Francis N. Gilreath during his service as Flag Secretary and Aide to Rear Admiral Alfred E. Montgomery), Public domain (https://commons.wikimedia.org/wiki/File:Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg)"
+     }
+    ],
+    "the": {
+     "type": "number",
+     "pre": "Cách tâm vụ nổ",
+     "value": "3",
+     "unit": "km",
+     "caption": "Bị bỏng nặng, nhưng **vẫn sống**"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "doi_canh": true,
+    "text": "Hôm sau, ông lên chuyến tàu đêm, trở về quê nhà Nagasaki.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JGR_C5343_hauling_train.jpg/1920px-JGR_C5343_hauling_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"JGR C5343 hauling train.jpg\" – Katsusaburo NISHIO / 西尾克三郎, Public domain (https://commons.wikimedia.org/wiki/File:JGR_C5343_hauling_train.jpg)"
+     },
+     {
+      "mo_phong": "a 1940s Japanese steam train crossing countryside at night, glowing windows, steam trailing, dark hills and rice fields, no people visible"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Chuyến tàu về **Nagasaki**",
+     "sub": "Về tới nhà sáng 8/8"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Sáng ngày chín, người quấn đầy băng, ông vẫn đến công ty báo cáo. Giám đốc nghe xong, bảo ông bị điên: làm sao một quả bom phá hủy được cả thành phố?",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Taiyo Maru in Mitsubishi Nagasaki.JPG\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG)"
+     },
+     {
+      "mo_phong": "a 1940s Japanese company meeting room, a long wooden table, chairs, papers and teacups, tall windows with paper tape crosses on the glass, bright summer light, no people"
+     },
+     {
+      "mo_phong": "a 1940s Japanese company meeting room, a long wooden table, chairs, papers and teacups, tall windows with paper tape crosses on the glass, late morning light, a single empty chair pulled back, no people"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Giám đốc: “Anh **điên** rồi”",
+     "sub": "Không ai tin một quả bom xóa sổ cả thành phố"
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "co_nguoi_mat": true,
+    "text": "Đúng lúc ấy, ngoài cửa sổ lại lóe lên một ánh chớp trắng.",
+    "images": [
+     {
+      "mo_phong": "the tall windows of a 1940s office suddenly lit by an intense white light from outside, curtains blowing inward, empty room, dramatic"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nagasakibomb.jpg/1920px-Nagasakibomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Nagasakibomb.jpg\" – Charles Levy, Public domain (https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg)"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "**11 giờ 02**, ngày 9/8",
+     "sub": "Quả bom thứ hai rơi xuống Nagasaki"
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Lại một lần nữa, ông cách tâm vụ nổ khoảng ba cây số. Và lại một lần nữa, ông sống sót.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg/1920px-Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Atomic cloud over Nagasaki from Koyagi-jima.jpeg\" – Hiromichi Matsuda (松田 弘道, 1900-1969)[2], Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/A_stopped_clock_in_Nagasaki_showing_the_explosion_time_of_atomic_bomb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"A stopped clock in Nagasaki showing the explosion time of atomic bomb.png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:A_stopped_clock_in_Nagasaki_showing_the_explosion_time_of_atomic_bomb.png)"
+     },
+     {
+      "mo_phong": "shattered window glass scattered across a wooden office floor in the 1940s, an overturned chair, dust in the light, no people"
+     }
+    ],
+    "the": {
+     "type": "explain",
+     "title": "Một người, **hai lần**",
+     "bullets": [
+      "Hiroshima · cách 3 km",
+      "Nagasaki · cách 3 km",
+      "Cả hai lần đều **sống sót**"
+     ]
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Ông sống tới chín mươi ba tuổi. Năm hai nghìn không trăm linh chín, chính phủ Nhật chính thức công nhận ông là người duy nhất sống sót qua cả hai quả bom.",
+    "images": [
+     {
+      "mo_phong": "an official Japanese government document with a red round seal stamp on an office desk, ink pad, reading glasses, no readable writing, no people"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20181111_Atomic_Bomb_Dome-5.jpg/1920px-20181111_Atomic_Bomb_Dome-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"20181111 Atomic Bomb Dome-5.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg)"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Người **duy nhất** được công nhận",
+     "sub": "Chính phủ Nhật Bản, năm 2009"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Những năm cuối đời, ông đi kể lại câu chuyện ấy, kể cả ở Liên Hợp Quốc, kêu gọi xóa bỏ vũ khí hạt nhân.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/United_Nations_headquarters_3.jpg/1920px-United_Nations_headquarters_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"United Nations headquarters 3.jpg\" – Horizon206, CC0 (https://commons.wikimedia.org/wiki/File:United_Nations_headquarters_3.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg/1920px-Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Hiroshima Peace Memorial Park - HiroshimaPeace132.jpg\" – lumoplank, CC0 (https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg)"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Kêu gọi xóa bỏ **vũ khí hạt nhân**",
+     "sub": "Liên Hợp Quốc, năm 2006"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Chỉ với một mong muốn: không ai phải trải qua điều đó thêm một lần nào nữa.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/1920px-Cranes_made_by_Origami_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Cranes made by Origami paper.jpg\" – Laitche, Public domain (https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg)"
+     },
+     {
+      "mo_phong": "an elderly man seen from behind sitting on a bench looking out over a harbour city at sunset, silhouette only, peaceful"
+     }
+    ],
+    "the": {
+     "type": "outro",
+     "recap": "Bạn nghĩ gì về **câu chuyện** của ông?"
+    }
+   }
+  ],
+  "anh_bia": [
+   {
+    "anh": "0:0",
+    "nhan": "Chuyện có thật · 1945",
+    "to": "Sống sót\n**2 quả bom**",
+    "nho": "Hiroshima rồi\n**Nagasaki**"
+   },
+   {
+    "anh": "7:1",
+    "nhan": "Nagasaki · 9/8/1945",
+    "to": "Bị bảo là\n**điên**",
+    "nho": "Rồi quả bom\n**thứ hai** rơi xuống"
+   },
+   {
+    "anh": "8:1",
+    "nhan": "Chuyện có thật",
+    "to": "**Hai lần**\ncách 3 km",
+    "nho": "Và ông vẫn sống"
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+KIỂM TRA ẢNH BA13 · video dài · 59 ảnh (số thứ tự khớp lưới ảnh anh_BA13_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 (ảnh mô phỏng AI) ·  mp_1d7c01568e5fd0a3.jpg
+✅ 2 · Tần Thủy Hoàng · 259 – 210 TCN scene_00.jpg
+✅ 3 ·  scene_01.jpg
+✅ 4 (ảnh mô phỏng AI) ·  mp_60b55c31edde6dc9.jpg
+✅ 5 ·  scene_02.jpg
+✅ 6 ·  scene_03.jpg
+⚠️ 7 ·  scene_04.jpg
+     ⚠️ Ảnh hiển thị hiện vật nỏ thời Tần nhưng phân đoạn lời kể đang giới thiệu việc Doanh Chính lên ngôi và bối cảnh thời Chiến Quốc chung chung, chưa đề cập đến quân sự hay vũ khí. → Có thể thay bằng bản đồ thời Chiến Quốc hoặc chân dung minh họa vua Tần trẻ tuổi để phù hợp hơn với nội dung giới thiệu nhân vật và thời kỳ.
+❌ 8 · Núi Ly Sơn · Thiểm Tây scene_05.jpg
+     ❌ Tranh cổ phong cách Thanh mông lung không phù hợp với thời kỳ nhà Tần (thế kỷ III TCN). → Sử dụng tranh minh họa hoặc bản đồ địa hình núi Ly Sơn thuộc thời nhà Tần.
+❌ 9 ·  scene_06.jpg
+     ❌ Ảnh chụp kiến trúc thành trì và tháp canh tại Thiểm Tây năm 1875 (thời nhà Thanh), hoàn toàn sai lệch về thời kỳ lịch sử so với nội dung lời kể nói về thời nhà Tần năm 221 trước Công nguyên. → Thay bằng ảnh bản đồ cổ thời Tần, hình minh họa lăng mộ Tần Thủy Hoàng hoặc tranh vẽ phong cách cổ đại phù hợp với thế kỷ thứ 3 trước Công nguyên.
+✅ 10 ·  scene_07.jpg
+✅ 11 ·  scene_08.jpg
+⚠️ 12 (ảnh mô phỏng AI) ·  mp_daaa958e0b19a3f4.jpg
+     ⚠️ Ảnh AI tạo ra có sự xuất hiện mờ ảo của một người đứng ở góc phòng, khác với mô tả gốc là không có người. → Dùng ảnh mô phỏng hoàn toàn không có người hoặc chỉnh sửa để bỏ hình bóng người phía sau.
+     ⚠️ Vật thể bên trái giống như một thùng đựng nước hoặc thùng rác bằng kim loại có nắp hiện đại không phù hợp với bối cảnh lịch sử nhà Tần. → Loại bỏ hoặc thay thế vật dụng hiện đại bằng chum vại cổ.
+✅ 13 ·  scene_09.jpg
+✅ 14 ·  scene_10.jpg
+✅ 15 (ảnh mô phỏng AI) ·  mp_8900e0d87933ba60.jpg
+✅ 16 ·  scene_11.jpg
+✅ 17 ·  scene_12.jpg
+✅ 18 (ảnh mô phỏng AI) ·  mp_ff735347a125bc77.jpg
+✅ 19 (ảnh mô phỏng AI) ·  mp_998ff37be6c1ba98.jpg
+⚠️ 20 · Tư Mã Thiên · Sử ký scene_13.jpg
+     ⚠️ ảnh hơi mờ (độ nét 32)
+✅ 21 (ảnh mô phỏng AI) ·  mp_a4281a921f41979e.jpg
+✅ 22 (ảnh mô phỏng AI) ·  mp_a5437aef5ffe2d11.jpg
+✅ 23 (ảnh mô phỏng AI) ·  mp_91debf68e2338d71.jpg
+✅ 24 (ảnh mô phỏng AI) ·  mp_97c3b826f4a01382.jpg
+✅ 25 (ảnh mô phỏng AI) ·  mp_9bdf9f493b0755fd.jpg
+✅ 26 ·  scene_14.jpg
+✅ 27 (ảnh mô phỏng AI) ·  mp_a9e36c42d5cbf8cd.jpg
+❌ 28 ·  scene_15.jpg
+     ❌ Ảnh là bản chép tay ghi chép về Sao chổi Halley trong Sử ký (Shiji), hoàn toàn không liên quan đến nội dung lời kể về việc bít kín lối vào lăng mộ Tần Thủy Hoàng và việc người thợ bị chôn vùi hay việc người đời sau coi đó là truyền thuyết. → Thay thế bằng hình ảnh minh họa phù hợp về Sử ký, lăng mộ Tần Thủy Hoàng hoặc các tài liệu lịch sử liên quan trực tiếp đến việc chôn cất Tần Thủy Hoàng.
+⚠️ 29 · Tây An · 3/1974 scene_16.jpg
+     ⚠️ Ảnh tư liệu ghi chú địa điểm ở Sơn Đông (Shantung), trong khi sự việc trong lời kể diễn ra ở Tây An, Thiểm Tây. → Nên thay bằng ảnh tư liệu về nông dân hoặc cảnh hạn hán tại tỉnh Thiểm Tây hoặc khu vực lân cận Tây An năm 1974 nếu có.
+✅ 30 ·  scene_17.jpg
+✅ 31 ·  scene_18.jpg
+⚠️ 32 ·  scene_19.jpg
+     ⚠️ ảnh có dấu hiệu vỡ khối JPEG (tỉ lệ 1.9)
+✅ 33 ·  scene_20.jpg
+✅ 34 ·  scene_21.jpg
+✅ 35 ·  scene_22.jpg
+✅ 36 ·  scene_23.jpg
+✅ 37 ·  scene_24.jpg
+✅ 38 ·  scene_25.jpg
+✅ 39 · Di sản thế giới · 1987 scene_26.jpg
+✅ 40 (ảnh mô phỏng AI) ·  mp_03733efce1ab7a1e.jpg
+✅ 41 ·  scene_27.jpg
+✅ 42 (ảnh mô phỏng AI) ·  mp_7c9c95b66e9344eb.jpg
+✅ 43 ·  scene_28.jpg
+✅ 44 ·  scene_29.jpg
+✅ 45 ·  scene_30.jpg
+✅ 46 ·  scene_31.jpg
+⚠️ 47 (ảnh mô phỏng AI) ·  mp_64cec52e9899eb07.jpg
+     ⚠️ ảnh hơi mờ (độ nét 59)
+✅ 48 (ảnh mô phỏng AI) ·  mp_48a9f3e59683f33f.jpg
+✅ 49 (ảnh mô phỏng AI) ·  mp_f3fcc486b299f797.jpg
+✅ 50 (ảnh mô phỏng AI) · 2020 mp_e07aff727126d7e5.jpg
+✅ 51 ·  scene_32.jpg
+✅ 52 (ảnh mô phỏng AI) ·  mp_22e16785fe53c4c9.jpg
+❌ 53 (ảnh mô phỏng AI) ·  mp_965348a1b949c28a.jpg
+     ❌ Ảnh mô phỏng hành lang cột đá theo phong cách kiến trúc cổ điển phương Tây (kiểu Hy Lạp/La Mã), không phù hợp với kiến trúc lăng mộ hoàng gia Trung Quốc thời Tần. → Thay bằng ảnh mô phỏng không gian cung điện dưới lòng đất hoặc lăng mộ mang kiến trúc cổ đại Trung Hoa phù hợp với triều đại nhà Tần.
+✅ 54 ·  scene_33.jpg
+✅ 55 ·  scene_34.jpg
+✅ 56 ·  scene_35.jpg
+✅ 57 ·  scene_36.jpg
+✅ 58 ·  scene_37.jpg
+✅ 59 (ảnh mô phỏng AI) ·  mp_54d20f060a676a0a.jpg

@@ -1,0 +1,4 @@
+CHUYỂN CẢNH BA13 (video ngắn) · bảng màu: fade, dissolve, wipeleft, hblur
+Thứ tự: cut → cut → cut → cut → cut → cut → dissolve → cut → cut → cut → dissolve → wipeleft → cut → dissolve → cut → fadeblack → dissolve → fade → cut → cut → cut → cut → fade → dissolve → cut → cut
+Số lần: cut 17, dissolve 5, fade 2, wipeleft 1, fadeblack 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

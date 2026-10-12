@@ -1,5 +1,79 @@
 
 ===== BA13: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · Cảnh 1] Đường dẫn ảnh bị cụt đuôi (.wikimed thay vì .jpg), không hiển thị được
-   ⛔ Chưa dựng BA13: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
-Không dựng gì (kịch bản có lỗi, xem ở trên).
+
+===== BA13 (video ngắn + bài ảnh) =====
+▶️  BA13: Ngôi mộ hơn 2.000 năm chưa ai dám mở
+  🖼️  Ảnh cho video ngắn
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+     🎨 mp_1d7c01568e5fd0a3.jpg
+     🎨 mp_03733efce1ab7a1e.jpg
+     🎨 mp_998ff37be6c1ba98.jpg
+     🎨 mp_91debf68e2338d71.jpg
+     🎨 mp_64cec52e9899eb07.jpg
+     🎨 mp_f3fcc486b299f797.jpg
+     🎨 mp_e07aff727126d7e5.jpg
+     🎨 mp_7c9c95b66e9344eb.jpg
+  🔍 Kiểm tra 27 ảnh: 1 ảnh lỗi, 3 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_64cec52e9899eb07.jpg (lần 1)
+     🎨 mp_64cec52e9899eb07.jpg
+  🔍 Kiểm tra 27 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+  🎙️  Gemini đọc xong (25s), tốc độ x1.12
+  ⏱️  63.1 giây · 27 hình · trung bình 2.3 giây/hình
+  🎞️  Số lần: cut 17, dissolve 5, fade 2, wipeleft 1, fadeblack 1
+[0;93m2026-10-12 06:41:00.363558499 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+  🎬 Dựng 1894 khung hình (52s)
+  🎵 Nhạc nền: Investigations
+  🖼️  Ảnh bìa: 3 phương án (BA13_bia_1.jpg, BA13_bia_2.jpg, BA13_bia_3.jpg)
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA13_post.txt)
+✅ Xong output/BA13/BA13.mp4  (63.1s video, mất 202s)
+
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+
+===== BA13 (video dài) =====
+▶️  Video dài BA13: Vì sao ngôi mộ của Tần Thủy Hoàng hơn 2.000 năm chưa ai dám mở? | Bí ẩn lăng Tần Thủy Hoàng
+  🖼️  Ảnh cho video dài
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+     🎨 mp_60b55c31edde6dc9.jpg
+     🎨 mp_daaa958e0b19a3f4.jpg
+     🎨 mp_8900e0d87933ba60.jpg
+     🎨 mp_ff735347a125bc77.jpg
+     🎨 mp_a4281a921f41979e.jpg
+     🎨 mp_a5437aef5ffe2d11.jpg
+     🎨 mp_97c3b826f4a01382.jpg
+     🎨 mp_9bdf9f493b0755fd.jpg
+     🎨 mp_a9e36c42d5cbf8cd.jpg
+     🎨 mp_48a9f3e59683f33f.jpg
+     🎨 mp_22e16785fe53c4c9.jpg
+     🎨 mp_965348a1b949c28a.jpg
+  🔍 Kiểm tra 59 ảnh: 8 ảnh lỗi, 6 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_a9e36c42d5cbf8cd.jpg (lần 1)
+     🎨 mp_a9e36c42d5cbf8cd.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_7c9c95b66e9344eb.jpg (lần 1)
+     🎨 mp_7c9c95b66e9344eb.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_e07aff727126d7e5.jpg (lần 1)
+     🎨 mp_e07aff727126d7e5.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_22e16785fe53c4c9.jpg (lần 1)
+     🎨 mp_22e16785fe53c4c9.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_965348a1b949c28a.jpg (lần 1)
+     🎨 mp_965348a1b949c28a.jpg
+  🔍 Kiểm tra 59 ảnh: 6 ảnh lỗi, 6 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_a9e36c42d5cbf8cd.jpg (lần 2)
+     🎨 mp_a9e36c42d5cbf8cd.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_7c9c95b66e9344eb.jpg (lần 2)
+     🎨 mp_7c9c95b66e9344eb.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_965348a1b949c28a.jpg (lần 2)
+     🎨 mp_965348a1b949c28a.jpg
+  🔍 Kiểm tra 59 ảnh: 4 ảnh lỗi, 6 ảnh cần xem
+❌ Video dài BA13: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA13_dai_kiemtra.txt):
+  scene_05.jpg: Tranh cổ phong cách Thanh mông lung không phù hợp với thời kỳ nhà Tần (thế kỷ III TCN). → Sử dụng tranh minh họa hoặc bản đồ địa hình núi Ly Sơn thuộc thời nhà Tần.
+  scene_06.jpg: Ảnh chụp kiến trúc thành trì và tháp canh tại Thiểm Tây năm 1875 (thời nhà Thanh), hoàn toàn sai lệch về thời kỳ lịch sử so với nội dung lời kể nói về thời nhà Tần năm 221 trước Công nguyên. → Thay bằng ảnh bản đồ cổ thời Tần, hình minh họa lăng mộ Tần Thủy Hoàng hoặc tranh vẽ phong cách cổ đại phù hợp với thế kỷ thứ 3 trước Công nguyên.
+  scene_15.jpg: Ảnh là bản chép tay ghi chép về Sao chổi Halley trong Sử ký (Shiji), hoàn toàn không liên quan đến nội dung lời kể về việc bít kín lối vào lăng mộ Tần Thủy Hoàng và việc người thợ bị chôn vùi hay việc người đời sau coi đó là truyền thuyết. → Thay thế bằng hình ảnh minh họa phù hợp về Sử ký, lăng mộ Tần Thủy Hoàng hoặc các tài liệu lịch sử liên quan trực tiếp đến việc chôn cất Tần Thủy Hoàng.
+  mp_965348a1b949c28a.jpg: Ảnh mô phỏng hành lang cột đá theo phong cách kiến trúc cổ điển phương Tây (kiểu Hy Lạp/La Mã), không phù hợp với kiến trúc lăng mộ hoàng gia Trung Quốc thời Tần. → Thay bằng ảnh mô phỏng không gian cung điện dưới lòng đất hoặc lăng mộ mang kiến trúc cổ đại Trung Hoa phù hợp với triều đại nhà Tần.
+
+Xong video ngắn: BA13 · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): BA13

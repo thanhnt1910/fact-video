@@ -377,8 +377,19 @@ def long_beat_list(script, data=None, max_chars=None):
 
 def short_texts(script):
     p = script.get("post") or {}
-    out = [f"TIÊU ĐỀ: {script.get('title', '')}", f"CAPTION: {script.get('caption', '')}",
-           "CÁC CẢNH VIDEO NGẮN:", short_scene_list(script, None)]
+    N = script.get("ngan")
+    if N:   # khung video ngắn mới: chỉ đưa lời đọc + chữ trên màn hình (không đưa đường dẫn ảnh)
+        lines = [f"CHỮ HOOK TRÊN MÀN HÌNH: {plain(N.get('hook_text', ''))}"]
+        for i, b in enumerate(N.get("beats", []), 1):
+            lines.append(f"Cảnh {i} [{b.get('loai_canh', '')}] lời đọc: {plain(b.get('text', ''))}"
+                         + (f" | phụ đề: {plain(b['hien'])}" if b.get("hien") else ""))
+        lines += [f"Ảnh bìa {i}: " + " · ".join(plain(c.get(k, "")).replace("\n", " ") for k in ("nhan", "to", "nho") if c.get(k))
+                  for i, c in enumerate(N.get("anh_bia", []), 1)]
+        scenes_txt = "\n".join(lines)
+    else:
+        scenes_txt = short_scene_list(script, None)
+    out = [f"TIÊU ĐỀ: {script.get('title', '')}", f"CAPTION: {(N or {}).get('caption') or script.get('caption', '')}",
+           "CÁC CẢNH VIDEO NGẮN:", scenes_txt]
     if p:
         out += ["BÀI VIẾT FACEBOOK:", p.get("hook", "")] + p.get("paragraphs", []) + [p.get("ending", "")]
         out += ["CHỮ TRÊN CÁC ẢNH BÀI ĐĂNG:"] + [

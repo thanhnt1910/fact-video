@@ -52,7 +52,7 @@ def search(q, limit=25):
         lic = strip((md.get("LicenseShortName") or {}).get("value", ""))
         if not OK_LICENSE.search(lic):
             continue
-        url = ii.get("url", "")
+        url = ii.get("url", "").split("?")[0]
         mp3 = url
         if not url.lower().endswith(".mp3"):
             # bản chuyển mã mp3 của Commons: /transcoded/<a>/<ab>/<File>/<File>.mp3

@@ -15,3 +15,8 @@ ci_long.txt
 ci_long_failed.txt
 chiphi_run.jsonl
 ci_blocked.json
+assets/sfx/*/tu_tao.wav
+assets/sfx/*/*.ogg
+assets/sfx/*/*.mp3
+assets/sfx/*/*.flac
+assets/sfx/*/*.wav

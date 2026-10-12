@@ -1,0 +1,1077 @@
+{
+ "id": "ST5",
+ "topic": "sinh-ton",
+ "title": "Cô gái sống sót qua 3 vụ đắm tàu",
+ "caption": "Cô có mặt trên tàu Titanic đêm nó chìm… và đó chưa phải lần duy nhất 🚢 Chuyện có thật về Violet Jessop, nữ tiếp viên sống sót qua cả ba tai nạn của ba con tàu chị em Olympic, Titanic và Britannic. Nếu là cô, bạn có dám quay lại biển?",
+ "hashtags": [
+  "nguoigacsu",
+  "sinhtồn",
+  "titanic",
+  "chuyệncóthật",
+  "lịchsử"
+ ],
+ "tu_khoa": [
+  "Violet Jessop",
+  "cô gái không thể chìm",
+  "Titanic",
+  "Britannic",
+  "Olympic",
+  "đắm tàu",
+  "chuyện có thật",
+  "lịch sử thế giới",
+  "Người Gác Sử"
+ ],
+ "sources": [
+  "Violet Jessop & John Maxtone-Graham (biên tập) – Titanic Survivor (hồi ký, Sheridan House, 1997)",
+  "Wikipedia – Violet Jessop; RMS Olympic (va chạm HMS Hawke 20/9/1911); HMHS Britannic (21/11/1916, 30/1.066 người thiệt mạng, chìm trong 55 phút)",
+  "National Geographic – 'This woman survived the Titanic, the Britannic and the Olympic' (bàn chải đánh răng, chấn thương ở đầu, câu 'chắc hẳn tất cả chỉ là một giấc mơ')",
+  "Encyclopedia Titanica – Violet Constance Jessop (xuồng cứu sinh số 16)"
+ ],
+ "music": "Pathetique Adagio",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Có mặt trên **Titanic** đêm nó chìm",
+   "voice": "Cô có mặt trên tàu Titanic đêm nó chìm. Và đó chưa phải lần duy nhất.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1920px-RMS_Titanic_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"RMS Titanic 3.jpg\" – Francis Godolphin Osbourne Stuart, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**Lần 1** · Olympic, 1911",
+   "voice": "Năm 1911, tàu Olympic bị tàu chiến HMS Hawke đâm thủng mạn.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Olympic_Hawke_collision_damage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Olympic Hawke collision damage.jpg\" – Robert Welch, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_collision_damage.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**Lần 2** · Titanic, 1912",
+   "voice": "Năm 1912, Titanic đâm vào băng trôi. Cô xuống xuồng cứu sinh số 16.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Titanic_Iceberg_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Titanic Iceberg 1912.jpg\" – Captain W. F. Wood of a ship named S. S. Etonian, two days prior to the Titanic event, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Iceberg_1912.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**Lần 3** · Britannic, 1916",
+   "voice": "Năm 1916, tàu bệnh viện Britannic trúng thủy lôi.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Cô gái **không thể chìm**",
+   "voice": "Cô nhảy khỏi xuồng trước những chân vịt đang quay, và vẫn sống.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Ra khơi thêm **gần 30 năm**",
+   "voice": "Rồi cô vẫn quay lại với biển.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/The_SS_Belgenland.jpg/1920px-The_SS_Belgenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"The SS Belgenland.jpg\" – Harland & Wolff, Public domain (https://commons.wikimedia.org/wiki/File:The_SS_Belgenland.jpg)"
+   }
+  }
+ ],
+ "post": {
+  "hook": "Cô có mặt trên tàu Titanic đêm nó chìm. Và đó chưa phải lần duy nhất 🚢",
+  "paragraphs": [
+   "Violet Jessop sinh năm 1887 ở Argentina. Năm 1908, cô trở thành nữ tiếp viên tàu biển, rồi năm 1911 chuyển sang hãng White Star Line, chủ của ba con tàu chị em gần như giống hệt nhau: Olympic, Titanic và Britannic.",
+   "Lần 1: tháng 9/1911, cô đang làm việc trên tàu Olympic thì tàu chiến HMS Hawke đâm thủng mạn tàu. Không ai thiệt mạng.",
+   "Lần 2: đêm 14/4/1912, Titanic đâm vào băng trôi. Violet được đưa xuống xuồng cứu sinh số 16, tay bế một em bé mà một sĩ quan trao cho cô. Hơn 1.500 người thiệt mạng đêm ấy. Cô sống sót.",
+   "Lần 3: năm 1916, giữa Thế chiến thứ nhất, cô làm y tá trên tàu bệnh viện Britannic. Con tàu trúng thủy lôi gần đảo Kea, Hy Lạp. Xuồng của cô bị cuốn về phía những chân vịt vẫn đang quay; cô nhảy xuống biển, đầu va vào đáy xuồng, nhưng vẫn được cứu.",
+   "Lần ấy, trước khi rời tàu, cô còn chạy về phòng lấy chiếc bàn chải đánh răng, vì sau vụ Titanic cô đã than mãi vì không có nó.",
+   "Ba con tàu chị em, ba lần thoát chết. Violet vẫn tiếp tục làm việc trên biển thêm gần 30 năm, rồi nghỉ hưu ở một ngôi làng nhỏ nước Anh và mất năm 1971, thọ 83 tuổi."
+  ],
+  "ending": "Nếu là cô, bạn có dám quay lại biển thêm một lần nữa?",
+  "hashtags": [
+   "nguoigacsu",
+   "sinhtồn",
+   "titanic",
+   "chuyệncóthật",
+   "lịchsử"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "scene": 0,
+    "kicker": "Chuyện có thật · 1911–1916",
+    "title": "Sống sót qua **3 vụ đắm tàu**"
+   },
+   {
+    "scene": 1,
+    "tag": "Lần 1 · Olympic, 1911",
+    "text": "Tàu chiến HMS Hawke đâm thủng mạn tàu Olympic. Không ai thiệt mạng."
+   },
+   {
+    "scene": 2,
+    "tag": "Lần 2 · Titanic, 1912",
+    "text": "Titanic đâm vào băng trôi. Violet xuống xuồng số 16, tay bế một em bé."
+   },
+   {
+    "scene": 3,
+    "tag": "Lần 3 · Britannic, 1916",
+    "text": "Tàu bệnh viện trúng thủy lôi. Cô nhảy khỏi xuồng trước những chân vịt đang quay, và vẫn sống."
+   },
+   {
+    "kind": "end",
+    "scene": 5,
+    "text": "Rồi cô vẫn ra khơi thêm gần 30 năm."
+   }
+  ]
+ },
+ "binh_luan": {
+  "ngan": {
+   "ghim": "Theo bạn, Violet là người may mắn nhất hay xui xẻo nhất trên biển? Ⓐ may mắn nhất · Ⓑ xui xẻo nhất · Ⓒ cả hai. Bình luận chữ cái của bạn nhé 🚢",
+   "phu": [
+    "Chi tiết mình chưa kịp kể: sau vụ Titanic, Violet bị đồng nghiệp trêu mãi vì than không có bàn chải đánh răng. Nên khi Britannic chìm, bà chạy về phòng lấy chiếc bàn chải trước khi rời tàu 🪥"
+   ]
+  },
+  "dai": {
+   "ghim": "Nếu là Violet, sau vụ Titanic bạn có dám quay lại làm việc trên tàu biển không? Ⓐ có, vẫn đi tiếp · Ⓑ không bao giờ nữa · Ⓒ chỉ đi tàu nhỏ thôi. Bình luận cho Người Gác Sử biết nhé 🏮",
+   "phu": [
+    "Một chi tiết thú vị: trên tàu bệnh viện Britannic năm 1916 còn có hai người khác cũng từng sống sót từ Titanic là Arthur Priest và Archie Jewell ⚓",
+    "📚 Nguồn tham khảo: hồi ký 'Titanic Survivor' của Violet Jessop (biên tập: John Maxtone-Graham, 1997); bài viết của National Geographic về Violet Jessop."
+   ]
+  }
+ },
+ "long": {
+  "title": "Cô gái không thể chìm: người sống sót qua cả Olympic, Titanic và Britannic | Chuyện có thật",
+  "title_card": "Cô gái **không thể chìm**",
+  "description": "Violet Jessop là nữ tiếp viên tàu biển có mặt trong cả ba tai nạn của ba con tàu chị em nhà White Star Line: Olympic bị tàu chiến đâm năm 1911, Titanic chìm năm 1912, và tàu bệnh viện Britannic trúng thủy lôi năm 1916. Cả ba lần, cô đều sống sót, rồi vẫn tiếp tục ra khơi thêm gần 30 năm. Câu chuyện có thật về người được gọi là \"cô gái không thể chìm\".",
+  "voice": "Sadaltager",
+  "music": "Goin' Home (Dvorak, USAF Band)",
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Đêm mười bốn tháng Tư năm một nghìn chín trăm mười hai, một cô tiếp viên hai mươi bốn tuổi đứng trên boong tàu Titanic, nhìn những chiếc xuồng cứu sinh được hạ xuống biển đêm.",
+      "mo_phong": "a huge four-funnel ocean liner at night in a calm black sea seen from far away, rows of lit portholes, small lifeboats being lowered down its side, starry sky, no visible faces, painted in the style of an early 20th century oil painting",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Cô sống sót.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Titanic-lifeboat-colorized.jpg/1920px-Titanic-lifeboat-colorized.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Titanic-lifeboat-colorized.jpg\" – J.W. Barker (Carpathia passenger) credited in The Sphere (London, 4 May 1912),  p. 91. Carpathia was the ship that received the Titanic's distress signal and came to rescue the survivors., Public domain (https://commons.wikimedia.org/wiki/File:Titanic-lifeboat-colorized.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng Titanic không phải con tàu đầu tiên gặp nạn khi có cô trên boong. Và cũng không phải con tàu cuối cùng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg/1920px-Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Olympic Hawke Collision Popular Mechanics 11 1911 (cropped).jpg\" – Popular Mechanics, November, 1911, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_Collision_Popular_Mechanics_11_1911_(cropped).jpg)"
+      }
+     },
+     {
+      "text": "Ba con tàu chị em được đóng gần như giống hệt nhau. Cả ba đều gặp nạn. Và cả ba lần, cô đều có mặt.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"White Star Line Ca. 1910 Poster of Olympic & Titanic.jpg\" – White Star Line, Public domain (https://commons.wikimedia.org/wiki/File:White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg)"
+      }
+     },
+     {
+      "text": "Người ta gọi cô là cô gái không thể chìm.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+      },
+      "label": "Violet Jessop · 1887 – 1971"
+     },
+     {
+      "text": "Đây là câu chuyện có thật về Violet Jessop.",
+      "mo_phong": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style",
+      "am_thanh": [
+       "gio"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Cô bé trên đồng cỏ",
+    "beats": [
+     {
+      "text": "Violet Jessop sinh ngày hai tháng Mười năm một nghìn tám trăm tám mươi bảy, ở vùng đồng cỏ gần thành phố Bahía Blanca, Argentina.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud%2C_circa_1910.jpg/1920px-Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud%2C_circa_1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Construcción Bahía Blanca Sud, circa 1910.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud,_circa_1910.jpg)"
+      },
+      "label": "Bahía Blanca · Argentina",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Cha mẹ cô là những người Ireland di cư sang đây, nuôi cừu trên những cánh đồng cỏ mênh mông.",
+      "mo_phong": "the vast flat grassy pampas of Argentina in the 1890s with a flock of sheep and a lone farmhouse under a wide sky, oil painting style, no people"
+     },
+     {
+      "text": "Cô là con cả trong một gia đình có chín người con. Chỉ sáu người trong số đó sống được đến tuổi trưởng thành.",
+      "mo_phong": "a simple whitewashed farmhouse with a tin roof on the Argentine pampas in the 1890s, laundry drying, evening light, oil painting style, no people"
+     },
+     {
+      "text": "Khi còn nhỏ, Violet mắc một căn bệnh nặng, được cho là bệnh lao. Các bác sĩ nghĩ cô sẽ không qua khỏi.",
+      "mo_phong": "an empty iron bed with white sheets beside a small window in a simple 1890s farmhouse room, a jug of water on a stool, soft light, oil painting style, no people",
+      "am_thanh": [
+       "dong_ho"
+      ]
+     },
+     {
+      "text": "Nhưng cô bé vẫn sống. Đó là lần đầu tiên Violet khiến người khác phải ngạc nhiên vì sức sống của mình.",
+      "mo_phong": "sunrise over endless grass plains of Argentina, golden light, a wooden fence, oil painting style, no people"
+     },
+     {
+      "text": "Năm cô mười sáu tuổi, cha cô qua đời. Mẹ cô đưa các con về nước Anh để bắt đầu lại từ đầu.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Puerto_ingeniero_white_muelle_y_elevadores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Puerto ingeniero white muelle y elevadores.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Puerto_ingeniero_white_muelle_y_elevadores.jpg)"
+      },
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Để nuôi cả nhà, mẹ cô đi làm tiếp viên trên những con tàu chở khách vượt đại dương.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_steamship_Baltic_RMG_BHC3219.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The steamship Baltic RMG BHC3219.jpg\" – Antonio Jacobsen, Public domain (https://commons.wikimedia.org/wiki/File:The_steamship_Baltic_RMG_BHC3219.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Nữ tiếp viên trên biển",
+    "beats": [
+     {
+      "text": "Rồi mẹ cô đổ bệnh. Violet, khi ấy hai mươi mốt tuổi, quyết định đi biển thay mẹ.",
+      "mo_phong": "an old leather suitcase being packed on a narrow bed in a small English room around 1908, a folded white apron and cap beside it, window light, no people"
+     },
+     {
+      "text": "Năm một nghìn chín trăm linh tám, cô trở thành tiếp viên của hãng tàu Royal Mail Line.",
+      "mo_phong": "an early 1900s two-funnel passenger steamship sailing across a blue ocean, white wake, clouds, oil painting style",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Công việc ấy rất vất vả: dọn phòng, giặt giũ, chăm sóc hành khách suốt những chuyến đi dài ngày trên biển.",
+      "mo_phong": "a narrow white-painted corridor inside an early 1900s ocean liner with cabin doors and brass fittings, a stewardess's trolley with folded linen, no people",
+      "am_thanh": [
+       "dong_co_tau"
+      ]
+     },
+     {
+      "text": "Theo lời kể lại, Violet còn cố tình ăn mặc thật giản dị, trông kém sắc hơn, để được nhận vào làm và tránh bị làm phiền.",
+      "mo_phong": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style"
+     },
+     {
+      "text": "Năm một nghìn chín trăm mười một, cô chuyển sang hãng White Star Line, làm việc trên con tàu chở khách lớn nhất thế giới lúc bấy giờ: tàu Olympic.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/RMS_Olympic%2C_1911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"RMS Olympic, 1911.JPG\" – Paul Thompson, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG)"
+      },
+      "label": "RMS Olympic · 1911",
+      "am_thanh": [
+       "coi_tau"
+      ]
+     },
+     {
+      "text": "Bên trong Olympic là những cầu thang lớn, phòng ăn sang trọng, như một khách sạn nổi giữa đại dương.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Grand_Staircase_aboard_the_RMS_Olympic_%28William_H._Rau_1911%29.jpg/1920px-Grand_Staircase_aboard_the_RMS_Olympic_%28William_H._Rau_1911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Grand Staircase aboard the RMS Olympic (William H. Rau 1911).jpg\" – William H. Rau, Public domain (https://commons.wikimedia.org/wiki/File:Grand_Staircase_aboard_the_RMS_Olympic_(William_H._Rau_1911).jpg)"
+      }
+     },
+     {
+      "text": "Olympic có hai con tàu em được đóng theo cùng một thiết kế. Một trong số đó mang tên Titanic.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"White Star Line Ca. 1910 Poster of Olympic & Titanic.jpg\" – White Star Line, Public domain (https://commons.wikimedia.org/wiki/File:White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Lần thứ nhất: tàu Olympic",
+    "beats": [
+     {
+      "text": "Ngày hai mươi tháng Chín năm một nghìn chín trăm mười một, Olympic rời cảng Southampton.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg/1920px-RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"RMS Olympic and RMS Majestic in Southampton.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg)"
+      },
+      "label": "Southampton · 20/9/1911",
+      "am_thanh": [
+       "dong_co_tau"
+      ]
+     },
+     {
+      "text": "Gần đảo Wight, tàu tuần dương HMS Hawke của Hải quân Anh chạy song song với Olympic.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Edgar_class_cruiser_diagram_Brasseys_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Edgar class cruiser diagram Brasseys 1897.jpg\" – F. K. Barnes, Public domain (https://commons.wikimedia.org/wiki/File:Edgar_class_cruiser_diagram_Brasseys_1897.jpg)"
+      },
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Rồi bất ngờ, chiếc tàu chiến lao thẳng vào phần đuôi của Olympic.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg/1920px-Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Olympic Hawke Collision Popular Mechanics 11 1911 (cropped).jpg\" – Popular Mechanics, November, 1911, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_Collision_Popular_Mechanics_11_1911_(cropped).jpg)"
+      },
+      "am_thanh": [
+       "kim_loai"
+      ]
+     },
+     {
+      "text": "Mũi tàu Hawke khoét một lỗ lớn trên mạn Olympic. Hai khoang tàu bị ngập nước.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Olympic_Hawke_collision_damage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Olympic Hawke collision damage.jpg\" – Robert Welch, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_collision_damage.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng không ai thiệt mạng, và Olympic vẫn tự chạy về được cảng.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/RMS_Olympic%2C_1911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"RMS Olympic, 1911.JPG\" – Paul Thompson, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG)"
+      }
+     },
+     {
+      "text": "Violet có mặt trên tàu hôm ấy. Lạ thay, trong hồi ký của mình, cô gần như không nhắc gì đến vụ va chạm này.",
+      "mo_phong": "an old handwritten notebook and a fountain pen on a wooden desk beside a framed photograph turned away from view, soft lamp light, oil painting style, no readable text"
+     },
+     {
+      "text": "Có lẽ với cô, đó chỉ là một sự cố nhỏ. Cô không biết rằng đó mới chỉ là khởi đầu.",
+      "mo_phong": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style",
+      "am_thanh": [
+       "gio"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Lần thứ hai: Titanic",
+    "beats": [
+     {
+      "text": "Tháng Tư năm một nghìn chín trăm mười hai, Violet được chuyển sang con tàu em vừa đóng xong của Olympic: tàu Titanic.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1920px-RMS_Titanic_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"RMS Titanic 3.jpg\" – Francis Godolphin Osbourne Stuart, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg)"
+      },
+      "label": "RMS Titanic · 1912"
+     },
+     {
+      "text": "Ngày mười tháng Tư, Titanic rời Southampton trong chuyến đi đầu tiên tới New York.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/1912_Titanic_Departure.jpg/1920px-1912_Titanic_Departure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"1912 Titanic Departure.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1912_Titanic_Departure.jpg)"
+      },
+      "am_thanh": [
+       "coi_tau",
+       "dam_dong"
+      ]
+     },
+     {
+      "text": "Báo chí thời ấy ca ngợi nó là con tàu gần như không thể chìm.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/RMS_Olympic%27s_first_class_dining_room.jpg/1920px-RMS_Olympic%27s_first_class_dining_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"RMS Olympic's first class dining room.jpg\" – Underwood & Underwood., Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_first_class_dining_room.jpg)"
+      }
+     },
+     {
+      "text": "Gần nửa đêm ngày mười bốn tháng Tư, giữa Bắc Đại Tây Dương lạnh giá, Titanic đâm vào một tảng băng trôi.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Titanic_Iceberg_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Titanic Iceberg 1912.jpg\" – Captain W. F. Wood of a ship named S. S. Etonian, two days prior to the Titanic event, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Iceberg_1912.jpg)"
+      },
+      "am_thanh": [
+       "kim_loai",
+       "bien"
+      ]
+     },
+     {
+      "text": "Nước tràn vào nhiều khoang ở mũi tàu. Con tàu khổng lồ bắt đầu chìm dần.",
+      "mo_phong": "a giant four-funnel ocean liner at night, bow low in the water and stern slightly raised, lights still glowing, calm black sea, distant view, oil painting style, no visible people"
+     },
+     {
+      "text": "Trong phòng vô tuyến, các điện báo viên liên tục phát tín hiệu cầu cứu.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Titanic_Marconi_Wireless_Radio_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Titanic Marconi Wireless Radio Room.jpg\" – Francis Browne, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Marconi_Wireless_Radio_Room.jpg)"
+      },
+      "am_thanh": [
+       "dien_bao"
+      ]
+     },
+     {
+      "text": "Violet được lệnh lên boong, để làm gương cho những hành khách không hiểu tiếng Anh biết phải làm gì.",
+      "mo_phong": "a huge four-funnel ocean liner at night in a calm black sea seen from far away, rows of lit portholes, small lifeboats being lowered down its side, starry sky, no visible faces, painted in the style of an early 20th century oil painting"
+     },
+     {
+      "text": "Rồi cô được đưa xuống xuồng cứu sinh số mười sáu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Carpathia_-_Titanic_lifeboats.jpg/1920px-Carpathia_-_Titanic_lifeboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Carpathia - Titanic lifeboats.jpg\" – HO, The New York Times, Public domain (https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg)"
+      },
+      "am_thanh": [
+       "nuoc"
+      ]
+     },
+     {
+      "text": "Khi xuồng được hạ xuống, một sĩ quan trẻ trao cho cô một em bé, nhờ cô trông giữ.",
+      "mo_phong": "a baby wrapped in a thick wool blanket held in a woman's arms inside a small wooden lifeboat at night, only arms and blanket visible, lantern light, oil painting style"
+     },
+     {
+      "text": "Từ chiếc xuồng nhỏ, Violet nhìn con tàu lớn nhất thế giới chìm dần. Sau này cô viết rằng khi ấy cô đã nghĩ: chắc hẳn tất cả chỉ là một giấc mơ.",
+      "mo_phong": "a giant four-funnel ocean liner at night, bow low in the water and stern slightly raised, lights still glowing, calm black sea, distant view, oil painting style, no visible people",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Hơn một nghìn năm trăm người đã thiệt mạng trong đêm ấy.",
+      "mo_phong": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style"
+     },
+     {
+      "text": "Sáng hôm sau, tàu Carpathia đến cứu những người sống sót.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/RMS_Carpathia.jpg/1920px-RMS_Carpathia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"RMS Carpathia.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Carpathia.jpg)"
+      },
+      "am_thanh": [
+       "coi_tau"
+      ]
+     },
+     {
+      "text": "Trên boong Carpathia, một người phụ nữ chạy tới, đón lấy em bé từ tay Violet rồi đi mất, không nói một lời. Violet đoán đó là mẹ của em.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Carpathia_Deck.jpg/1920px-Carpathia_Deck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Carpathia Deck.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Carpathia_Deck.jpg)"
+      }
+     },
+     {
+      "text": "Ngày mười tám tháng Tư, những người sống sót cập bến New York. Cả thế giới bàng hoàng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Titanic_newspaper_boy.jpg/1920px-Titanic_newspaper_boy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Titanic newspaper boy.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_newspaper_boy.jpg)"
+      },
+      "am_thanh": [
+       "dam_dong"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Chiến tranh",
+    "beats": [
+     {
+      "text": "Hai năm sau, Thế chiến thứ nhất bùng nổ.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Davidson_Road_War_Hospital%2C_Croydon%2C_London%2C_England_-_Nov_27th%2C_1917_%2815454101956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Davidson Road War Hospital, Croydon, London, England - Nov 27th, 1917 (15454101956).jpg\" – Aussie~mobs, Public domain (https://commons.wikimedia.org/wiki/File:Davidson_Road_War_Hospital,_Croydon,_London,_England_-_Nov_27th,_1917_(15454101956).jpg)"
+      }
+     },
+     {
+      "text": "Violet không rời biển. Cô gia nhập đội cứu thương tình nguyện của nước Anh, làm y tá chăm sóc thương binh.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+      }
+     },
+     {
+      "text": "Con tàu thứ ba trong bộ ba chị em, Britannic, chưa kịp chở hành khách nào đã được trưng dụng làm tàu bệnh viện.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)"
+      },
+      "label": "HMHS Britannic · 1916",
+      "am_thanh": [
+       "dong_co_tau"
+      ]
+     },
+     {
+      "text": "Nó được sơn trắng toàn thân, có dải xanh và những chữ thập đỏ lớn hai bên mạn, chở thương binh từ chiến trường Địa Trung Hải về nước.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/HMHS_Britannic_at_Moudros.jpg/1920px-HMHS_Britannic_at_Moudros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"HMHS Britannic at Moudros.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_at_Moudros.jpg)"
+      },
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Năm một nghìn chín trăm mười sáu, Violet lên tàu Britannic làm y tá.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"HMHS Britannic's GSC Unique Real Picture.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg)"
+      }
+     },
+     {
+      "text": "Một lần nữa, cô lại ở trên một con tàu chị em của Titanic.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Hmhs_britannic_at_southampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Hmhs britannic at southampton.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hmhs_britannic_at_southampton.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Lần thứ ba: Britannic",
+    "beats": [
+     {
+      "text": "Sáng ngày hai mươi mốt tháng Mười Một năm một nghìn chín trăm mười sáu, Britannic đi qua eo biển gần đảo Kea, Hy Lạp.",
+      "mo_phong": "a rocky Greek island coast in the Aegean Sea on a clear November morning in 1916, calm blue water, a large white hospital ship far away, oil painting style",
+      "label": "Biển Aegean · 21/11/1916",
+      "am_thanh": [
+       "bien",
+       "dong_co_tau"
+      ]
+     },
+     {
+      "text": "Khoảng tám giờ mười hai phút, một tiếng nổ lớn làm rung chuyển cả con tàu.",
+      "mo_phong": "a large white hospital ship with a green stripe and red crosses listing to one side in a calm blue sea, smoke rising, lifeboats in the water around it, distant view, oil painting style",
+      "am_thanh": [
+       "hit"
+      ]
+     },
+     {
+      "text": "Britannic đã trúng một quả thủy lôi do tàu ngầm Đức thả xuống trước đó.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Capping_and_weighing_naval_mines_at_Toulon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Capping and weighing naval mines at Toulon.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Capping_and_weighing_naval_mines_at_Toulon.jpg)"
+      }
+     },
+     {
+      "text": "Nước tràn vào nhanh. Con tàu nghiêng dần.",
+      "mo_phong": "a large white hospital ship with a green stripe and red crosses listing to one side in a calm blue sea, smoke rising, lifeboats in the water around it, distant view, oil painting style",
+      "am_thanh": [
+       "kim_loai"
+      ]
+     },
+     {
+      "text": "Lần này, trước khi rời đi, Violet chạy về phòng lấy một thứ: chiếc bàn chải đánh răng.",
+      "mo_phong": "an old wooden toothbrush and a small prayer book on a shelf in a ship cabin around 1916, a porthole with daylight, oil painting style"
+     },
+     {
+      "text": "Sau vụ Titanic, cô từng than phiền mãi vì không có bàn chải, và bị đồng nghiệp trêu suốt. Lần này, cô không quên.",
+      "mo_phong": "an old wooden toothbrush and a small prayer book on a shelf in a ship cabin around 1916, a porthole with daylight, oil painting style"
+     },
+     {
+      "text": "Rồi cô lên một chiếc xuồng cứu sinh.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lifeboats_of_HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Lifeboats of HMHS Britannic.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Lifeboats_of_HMHS_Britannic.jpg)"
+      },
+      "am_thanh": [
+       "nuoc"
+      ]
+     },
+     {
+      "text": "Nhưng thuyền trưởng đang cố cho tàu chạy về phía bờ để mắc cạn, nên những chân vịt khổng lồ ở đuôi tàu vẫn đang quay.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/RMS_Olympic%27s_propellers.jpg/1920px-RMS_Olympic%27s_propellers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"RMS Olympic's propellers.jpg\" – Harland & Wolff Shipyard, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_propellers.jpg)"
+      },
+      "label": "Chân vịt của tàu chị em Olympic"
+     },
+     {
+      "text": "Chiếc xuồng của Violet bị dòng nước cuốn về phía những chân vịt ấy.",
+      "mo_phong": "churning white foaming sea water behind a ship's stern, violent swirling current, seen from above, oil painting style, no people",
+      "am_thanh": [
+       "nuoc",
+       "tim_dap"
+      ]
+     },
+     {
+      "text": "Không còn cách nào khác, cô nhảy xuống biển.",
+      "mo_phong": "churning white foaming sea water behind a ship's stern, violent swirling current, seen from above, oil painting style, no people"
+     },
+     {
+      "text": "Đầu cô va mạnh vào đáy một chiếc xuồng. Cô bị kéo xuống nước, rồi trồi lên, và được một chiếc xuồng khác cứu lên.",
+      "mo_phong": "a small wooden lifeboat full of people in white nurse uniforms seen from far behind on a calm sea, a Greek island in the distance, oil painting style, no visible faces"
+     },
+     {
+      "text": "Chỉ năm mươi lăm phút sau tiếng nổ, Britannic chìm hẳn xuống biển Aegean.",
+      "mo_phong": "a calm dark ocean in grey morning light, a faint mist on the water, utterly empty and silent, oil painting style"
+     },
+     {
+      "text": "Ba mươi người thiệt mạng. Hơn một nghìn người được cứu sống.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Cô gái không thể chìm",
+    "beats": [
+     {
+      "text": "Theo lời kể lại, mãi về sau Violet mới biết mình đã bị chấn thương nặng ở đầu trong lần ấy.",
+      "mo_phong": "an old handwritten notebook and a fountain pen on a wooden desk beside a framed photograph turned away from view, soft lamp light, oil painting style, no readable text"
+     },
+     {
+      "text": "Olympic, Titanic, Britannic. Cả ba con tàu chị em đều gặp nạn. Và cả ba lần, Violet đều có mặt, và đều sống sót.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"White Star Line Ca. 1910 Poster of Olympic & Titanic.jpg\" – White Star Line, Public domain (https://commons.wikimedia.org/wiki/File:White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg)"
+      }
+     },
+     {
+      "text": "Người ta bắt đầu gọi cô là cô gái không thể chìm.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+      }
+     },
+     {
+      "text": "Người khác có lẽ sẽ không bao giờ đặt chân lên tàu nữa. Nhưng Violet thì quay lại với biển.",
+      "mo_phong": "an empty ocean liner deck at sunset with a long railing and deck chairs, golden light on the sea, oil painting style, no people",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Năm một nghìn chín trăm hai mươi, cô trở lại làm việc cho White Star Line.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/RMS_Olympic%2C_1911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"RMS Olympic, 1911.JPG\" – Paul Thompson, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG)"
+      }
+     },
+     {
+      "text": "Sau đó, cô làm cho hãng Red Star Line, và hai lần đi vòng quanh thế giới trên tàu Belgenland.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/The_SS_Belgenland.jpg/1920px-The_SS_Belgenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The SS Belgenland.jpg\" – Harland & Wolff, Public domain (https://commons.wikimedia.org/wiki/File:The_SS_Belgenland.jpg)"
+      },
+      "am_thanh": [
+       "dong_co_tau"
+      ]
+     },
+     {
+      "text": "Cô còn làm việc trên biển thêm gần ba mươi năm nữa.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Belgenland_1924-25_World_cruise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Belgenland 1924-25 World cruise.jpg\" – Red Star Line, Public domain (https://commons.wikimedia.org/wiki/File:Belgenland_1924-25_World_cruise.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Cuộc điện thoại lạ",
+    "beats": [
+     {
+      "text": "Năm một nghìn chín trăm năm mươi, Violet nghỉ hưu, sống trong một ngôi nhà nhỏ ở làng Great Ashfield, vùng Suffolk, nước Anh.",
+      "mo_phong": "a small brick cottage with a garden in a quiet English village in Suffolk in the 1950s, autumn trees, overcast light, oil painting style, no people",
+      "label": "Great Ashfield · Suffolk",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Theo lời bà kể, một đêm nọ, có người gọi điện đến và hỏi: có phải bà đã cứu một em bé trên tàu Titanic không?",
+      "mo_phong": "an old black rotary telephone on a small wooden table beside a window at night, rain on the glass, a lamp glowing, oil painting style, no people",
+      "am_thanh": [
+       "mua"
+      ]
+     },
+     {
+      "text": "Bà trả lời là có. Người bên kia nói: tôi chính là em bé ấy. Rồi cúp máy.",
+      "mo_phong": "an old black rotary telephone on a small wooden table beside a window at night, rain on the glass, a lamp glowing, oil painting style, no people"
+     },
+     {
+      "text": "Nhưng các nhà nghiên cứu cho rằng cuộc gọi ấy khó là thật: em bé duy nhất trên xuồng số mười sáu đã qua đời từ năm một nghìn chín trăm ba mươi mốt. Có thể đó chỉ là một trò đùa.",
+      "mo_phong": "an old handwritten notebook and a fountain pen on a wooden desk beside a framed photograph turned away from view, soft lamp light, oil painting style, no readable text"
+     },
+     {
+      "text": "Violet Jessop qua đời ngày năm tháng Năm năm một nghìn chín trăm bảy mươi mốt, thọ tám mươi ba tuổi.",
+      "mo_phong": "a small brick cottage with a garden in a quiet English village in Suffolk in the 1950s, autumn trees, overcast light, oil painting style, no people"
+     },
+     {
+      "text": "Hồi ký của bà được xuất bản năm một nghìn chín trăm chín mươi bảy, kể lại cuộc đời của người phụ nữ đã ba lần thoát chết trên biển.",
+      "mo_phong": "an old handwritten notebook and a fountain pen on a wooden desk beside a framed photograph turned away from view, soft lamp light, oil painting style, no readable text"
+     }
+    ]
+   },
+   {
+    "title": "Lời kết",
+    "beats": [
+     {
+      "text": "Một căn bệnh tưởng không qua khỏi. Ba con tàu chị em. Ba lần gặp nạn trên biển.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+      }
+     },
+     {
+      "text": "Và cả ba lần, bà đều trở về.",
+      "mo_phong": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Có người bảo bà là người may mắn nhất từng đi biển. Có người lại bảo bà là người xui xẻo nhất.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1920px-RMS_Titanic_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"RMS Titanic 3.jpg\" – Francis Godolphin Osbourne Stuart, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg)"
+      }
+     },
+     {
+      "text": "Còn bạn, nếu là bà, bạn có dám quay lại biển thêm một lần nữa? Hãy chia sẻ ở phần bình luận.",
+      "mo_phong": "an empty ocean liner deck at sunset with a long railing and deck chairs, golden light on the sea, oil painting style, no people"
+     }
+    ],
+    "loai_canh": "ket"
+   }
+  ]
+ },
+ "ngan": {
+  "hook_text": "Có mặt trên **Titanic**\nđêm nó chìm…",
+  "hooks": [
+   "Cô có mặt trên tàu Titanic đêm nó chìm. Và đó chưa phải lần duy nhất.",
+   "Ba con tàu chị em, ba lần gặp nạn trên biển. Và cả ba lần, cùng một cô tiếp viên có mặt trên boong.",
+   "Khi tàu Britannic chìm, việc đầu tiên cô làm là chạy về phòng… lấy chiếc bàn chải đánh răng."
+  ],
+  "caption": "Cô có mặt trên tàu Titanic đêm nó chìm… và đó chưa phải lần duy nhất 🚢 Chuyện có thật về Violet Jessop, nữ tiếp viên sống sót qua cả ba tai nạn của ba con tàu chị em Olympic, Titanic và Britannic. Nếu là cô, bạn có dám quay lại biển?",
+  "ab_test": true,
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Cô có mặt trên tàu Titanic đêm nó chìm. Và đó chưa phải lần duy nhất.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1920px-RMS_Titanic_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"RMS Titanic 3.jpg\" – Francis Godolphin Osbourne Stuart, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "bien"
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Lần thứ ba… mới là lần cô suýt không qua khỏi.",
+    "images": [
+     {
+      "mo_phong": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "doi_canh": true,
+    "text": "Violet Jessop là nữ tiếp viên của hãng White Star Line, chủ của ba con tàu chị em giống nhau như đúc: Olympic, Titanic và Britannic.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"White Star Line Ca. 1910 Poster of Olympic & Titanic.jpg\" – White Star Line, Public domain (https://commons.wikimedia.org/wiki/File:White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/RMS_Olympic%2C_1911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"RMS Olympic, 1911.JPG\" – Paul Thompson, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "dong_co_tau"
+    ],
+    "the": {
+     "type": "explain",
+     "title": "Ba con tàu **chị em**",
+     "bullets": [
+      "Olympic",
+      "Titanic",
+      "Britannic"
+     ]
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Năm một nghìn chín trăm mười một, cô đang làm việc trên tàu Olympic thì một tàu chiến lao thẳng vào mạn tàu.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg/1920px-RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"RMS Olympic and RMS Majestic in Southampton.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg/1920px-Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Olympic Hawke Collision Popular Mechanics 11 1911 (cropped).jpg\" – Popular Mechanics, November, 1911, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_Collision_Popular_Mechanics_11_1911_(cropped).jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Olympic_Hawke_collision_damage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Olympic Hawke collision damage.jpg\" – Robert Welch, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_collision_damage.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "bien",
+     "kim_loai"
+    ],
+    "the": {
+     "type": "text",
+     "text": "**Lần 1** · Olympic, 1911",
+     "sub": "Bị tàu chiến HMS Hawke đâm thủng mạn"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Không ai thiệt mạng. Một năm sau, cô được chuyển sang con tàu em của Olympic: Titanic.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/1912_Titanic_Departure.jpg/1920px-1912_Titanic_Departure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"1912 Titanic Departure.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1912_Titanic_Departure.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Grand_Staircase_aboard_the_RMS_Olympic_%28William_H._Rau_1911%29.jpg/1920px-Grand_Staircase_aboard_the_RMS_Olympic_%28William_H._Rau_1911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Grand Staircase aboard the RMS Olympic (William H. Rau 1911).jpg\" – William H. Rau, Public domain (https://commons.wikimedia.org/wiki/File:Grand_Staircase_aboard_the_RMS_Olympic_(William_H._Rau_1911).jpg)"
+     }
+    ],
+    "am_thanh": [
+     "coi_tau",
+     "dam_dong"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Không ai thiệt mạng",
+     "sub": "Năm sau, cô chuyển sang **Titanic**"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "doi_canh": true,
+    "text": "Đêm mười bốn tháng Tư năm một nghìn chín trăm mười hai, Titanic đâm vào băng trôi giữa Đại Tây Dương.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Titanic_Iceberg_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Titanic Iceberg 1912.jpg\" – Captain W. F. Wood of a ship named S. S. Etonian, two days prior to the Titanic event, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Iceberg_1912.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Titanic_Marconi_Wireless_Radio_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Titanic Marconi Wireless Radio Room.jpg\" – Francis Browne, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Marconi_Wireless_Radio_Room.jpg)"
+     },
+     {
+      "mo_phong": "a giant four-funnel ocean liner at night, bow low in the water and stern slightly raised, lights still glowing, calm black sea, distant view, oil painting style, no visible people"
+     }
+    ],
+    "am_thanh": [
+     "bien",
+     "dien_bao"
+    ],
+    "the": {
+     "type": "text",
+     "text": "**Lần 2** · Titanic, 1912",
+     "sub": "Đâm vào băng trôi giữa Đại Tây Dương"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Cô được đưa xuống xuồng cứu sinh số mười sáu, tay bế một em bé mà viên sĩ quan trao cho cô.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Carpathia_-_Titanic_lifeboats.jpg/1920px-Carpathia_-_Titanic_lifeboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Carpathia - Titanic lifeboats.jpg\" – HO, The New York Times, Public domain (https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg)"
+     },
+     {
+      "mo_phong": "a baby wrapped in a thick wool blanket held in a woman's arms inside a small wooden lifeboat at night, only arms and blanket visible, lantern light, oil painting style"
+     }
+    ],
+    "am_thanh": [
+     "nuoc",
+     "gio"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Xuồng cứu sinh **số 16**",
+     "sub": "Tay bế một em bé xa lạ"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Hơn một nghìn năm trăm người thiệt mạng. Violet sống sót.",
+    "images": [
+     {
+      "mo_phong": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/RMS_Carpathia.jpg/1920px-RMS_Carpathia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"RMS Carpathia.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Carpathia.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "bien"
+    ],
+    "the": {
+     "type": "number",
+     "pre": "Hơn",
+     "value": "1.500",
+     "unit": "người thiệt mạng",
+     "caption": "Violet **sống sót**"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "doi_canh": true,
+    "text": "Bốn năm sau, giữa Thế chiến thứ nhất, cô làm y tá trên tàu bệnh viện Britannic, con tàu thứ ba trong bộ ba.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"HMHS Britannic's GSC Unique Real Picture.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "dong_co_tau"
+    ],
+    "the": {
+     "type": "text",
+     "text": "**Lần 3** · Britannic, 1916",
+     "sub": "Tàu bệnh viện thời Thế chiến thứ nhất"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Con tàu trúng thủy lôi. Cô lên xuồng cứu sinh, nhưng chiếc xuồng bị cuốn về phía những chân vịt khổng lồ vẫn đang quay.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Capping_and_weighing_naval_mines_at_Toulon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Capping and weighing naval mines at Toulon.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Capping_and_weighing_naval_mines_at_Toulon.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lifeboats_of_HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Lifeboats of HMHS Britannic.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Lifeboats_of_HMHS_Britannic.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/RMS_Olympic%27s_propellers.jpg/1920px-RMS_Olympic%27s_propellers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"RMS Olympic's propellers.jpg\" – Harland & Wolff Shipyard, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_propellers.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "kim_loai",
+     "nuoc"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Trúng **thủy lôi**",
+     "sub": "Xuồng bị cuốn về phía chân vịt đang quay"
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "co_nguoi_mat": true,
+    "text": "Cô nhảy khỏi xuồng… đầu va mạnh vào đáy một chiếc xuồng. Nhưng cô vẫn sống.",
+    "images": [
+     {
+      "mo_phong": "churning white foaming sea water behind a ship's stern, violent swirling current, seen from above, oil painting style, no people"
+     },
+     {
+      "mo_phong": "a small wooden lifeboat full of people in white nurse uniforms seen from far behind on a calm sea, a Greek island in the distance, oil painting style, no visible faces"
+     }
+    ],
+    "am_thanh": [
+     "nuoc",
+     "tim_dap"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Nhảy khỏi xuồng, **vẫn sống**",
+     "sub": "Bị thương nặng ở đầu"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Ba con tàu chị em, ba lần thoát chết. Và cô vẫn tiếp tục ra khơi thêm gần ba mươi năm.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/The_SS_Belgenland.jpg/1920px-The_SS_Belgenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"The SS Belgenland.jpg\" – Harland & Wolff, Public domain (https://commons.wikimedia.org/wiki/File:The_SS_Belgenland.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/RMS_Olympic%2C_1911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"RMS Olympic, 1911.JPG\" – Paul Thompson, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG)"
+     }
+    ],
+    "am_thanh": [
+     "bien"
+    ],
+    "the": {
+     "type": "explain",
+     "title": "Ba tàu · **ba lần** sống sót",
+     "bullets": [
+      "Olympic · 1911",
+      "Titanic · 1912",
+      "Britannic · 1916"
+     ]
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Nếu là cô, bạn có dám quay lại biển thêm một lần nữa?",
+    "images": [
+     {
+      "mo_phong": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ],
+    "the": {
+     "type": "outro",
+     "recap": "Bạn có dám **quay lại biển**?"
+    }
+   }
+  ],
+  "anh_bia": [
+   {
+    "anh": "0:0",
+    "nhan": "Chuyện có thật",
+    "to": "Sống sót\n**3 vụ đắm tàu**",
+    "nho": "Titanic chỉ là\n**lần thứ hai**"
+   },
+   {
+    "anh": "8:0",
+    "nhan": "Olympic · Titanic · Britannic",
+    "to": "Cô gái\n**không thể chìm**",
+    "nho": "Ba tàu chị em,\n**ba lần** gặp nạn"
+   },
+   {
+    "anh": "9:2",
+    "nhan": "Britannic · 1916",
+    "to": "Nhảy trước\n**chân vịt**",
+    "nho": "Và vẫn sống"
+   }
+  ]
+ }
+}

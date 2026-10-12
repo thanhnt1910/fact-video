@@ -887,6 +887,12 @@ def main():
                 # khung video ngắn mới (kế hoạch: 20-30 hình, phụ đề theo cụm từ, chuyển cảnh theo cấu trúc)
                 import short_v2
                 mp4, dur = short_v2.build(script, cfg, out_dir)
+                if script["ngan"].get("ab_test"):
+                    # kế hoạch (Âm thanh, C): thử A/B — thêm bản cũ chỉ ảnh + giọng đọc một lượt để so với bản mới
+                    try:
+                        short_v2.build(script, cfg, out_dir, variant="cu")
+                    except Exception as e:
+                        log(f"  ⚠️  Không dựng được bản cũ A/B: {e}")
             else:
                 mp4, dur = render(script, cfg, out_dir, preview=a.preview, no_tts=a.no_tts)
                 write_caption(script, cfg, out_dir)

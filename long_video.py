@@ -58,15 +58,17 @@ def _fmt(sec):
 
 
 # ------------------------------------------------------------------ giọng đọc
-def chapter_audio(text, voice, work):
-    """Đọc 1 chương bằng Gemini (có lưu tạm). Trả về mẫu âm 24 kHz."""
+def chapter_audio(text, voice, work, extra=""):
+    """Đọc 1 chương bằng Gemini (có lưu tạm). Trả về mẫu âm 24 kHz.
+    extra: chỉ dẫn sắc thái riêng của chương (kế hoạch, mục Âm thanh B.1)."""
     import gemini_tts
     TTS_CACHE.mkdir(parents=True, exist_ok=True)
-    key = hashlib.sha1(f"{voice}|{LONG_STYLE}|{text}".encode()).hexdigest()[:16]
+    style = LONG_STYLE + (" " + extra if extra else "")
+    key = hashlib.sha1(f"{voice}|{style}|{text}".encode()).hexdigest()[:16]
     wav = TTS_CACHE / f"{key}.wav"
     if not wav.exists():
         t = time.time()
-        raw = gemini_tts.synth(text, LONG_STYLE, voice, log=log)
+        raw = gemini_tts.synth(text, style, voice, log=log)
         tmp = work / f"{key}_raw.wav"
         tmp.write_bytes(raw)
         mv.run_ffmpeg(["-i", str(tmp), "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(wav)])
@@ -430,6 +432,8 @@ def build(script, cfg, out_dir):
     chapters = L["chapters"]
     beats_all = [b for ch in chapters for b in ch["beats"]]
 
+    import nguon_anh
+    nguon_anh.record(script, log)          # chặn ảnh không phải PD/CC0, lưu bằng chứng giấy phép
     log("  🖼️  Ảnh cho video dài")
     pending = None
     try:
@@ -468,12 +472,21 @@ def build(script, cfg, out_dir):
         elif ci == 0:
             marks.append((0.0, "Mở đầu"))
         texts = [gemini_tts.clean_text(b["text"])[0] for b in ch["beats"]]
-        audio = chapter_audio("\n\n".join(texts), voice, work)
+        import am_thanh
+        tu = am_thanh.load_dict()
+        if lc.get("giong_sac_thai", True):
+            loai = ch.get("loai_canh") or ("hook" if ci == 0 else "ket" if ci == len(chapters) - 1
+                                           else "boi_canh" if ci == 1 else "leo_thang")
+            audio = chapter_audio("\n\n".join(am_thanh.chuan_hoa(x, tu) for x in texts), voice, work,
+                                  am_thanh.sac_thai(loai))
+        else:
+            audio = chapter_audio("\n\n".join(texts), voice, work)
         segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])
         narr.extend(audio[a:b])
         for (s0, s1), beat in zip(segs, ch["beats"]):
             st, en = t + (s0 - a) / SR, t + (s1 - a) / SR
-            spoken.append({"start": st, "speech_end": en, "text": beat.get("text", "")})
+            spoken.append({"start": st, "speech_end": en, "text": beat.get("text", ""),
+                           "am_thanh": beat.get("am_thanh") or ch.get("am_thanh") or []})
             if shots and beat.get("image_src") and shots[-1]["src"] == beat.get("image_src") \
                     and not beat.get("label") and not chap_label and abs(shots[-1]["start"] + shots[-1]["dur"] - st) < 1.5:
                 # cùng một ảnh với đoạn trước: kéo dài cảnh cũ (máy quay lướt chậm liền mạch), không tan ảnh vào chính nó
@@ -556,30 +569,33 @@ def build(script, cfg, out_dir):
     except Exception as e:
         log(f"     (không tạo được ảnh duyệt: {e})")
 
-    # ---- âm thanh: giọng + nhạc (tự hạ khi có giọng)
+    # ---- âm thanh: giọng + nhạc (tự hạ khi có giọng) + tiếng động nền thưa theo từng đoạn (kế hoạch, mục Âm thanh)
     import music
+    import am_thanh
     track, mcredit = music.pick({"id": script["id"] + "-dai", "topic": script.get("topic", ""),
                                  "music": L.get("music") or script.get("music")}, log)
     final = out_dir / f"{script['id']}_dai.mp4"
-    args = ["-i", str(silent), "-i", str(work / "narration.wav")]
-    graph = [f"[1:a]{audio_fx.VOICE_CHAIN},aresample=44100,asplit=2[v][vk]"]
-    if track:
-        args += ["-stream_loop", "-1", "-i", str(track)]
-        dk = cfg.get("music_duck", {})
-        graph += [f"[2:a]loudnorm=I={cfg.get('music_lufs', -17)}:LRA=11:TP=-3,aresample=44100,afade=t=in:d=2,"
-                  f"afade=t=out:st={max(0, total - 3):.2f}:d=3[mr]",
-                  f"[mr][vk]sidechaincompress=threshold={dk.get('threshold', 0.06)}:ratio={dk.get('ratio', 3)}:attack=40:release=500[m]",
-                  f"[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]"]
-    else:
-        graph += ["[vk]anullsink", "[v]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]"]
-    mv.run_ffmpeg(args + ["-filter_complex", ";".join(graph), "-map", "0:v", "-map", "[a]", "-c:v", "copy",
-                          "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-t", f"{total:.3f}", "-movflags", "+faststart",
-                          str(final)])
+    ev = []
+    for k, sp in enumerate(spoken):
+        nxt = spoken[k + 1]["start"] if k + 1 < len(spoken) else sp["speech_end"] + 1
+        for lb in am_thanh.labels_ok(sp.get("am_thanh") or []):
+            if lb in am_thanh.ONE_SHOT:
+                ev.append({"label": lb, "start": sp["start"], "db": -18})
+            else:
+                ev.append({"label": lb, "start": max(0, sp["start"] - 0.5), "dur": nxt - sp["start"] + 1.0, "db": -24})
+    bed_wav = None
+    if ev:
+        bed = am_thanh.voice_bed(work / "narration.wav", ev, total)
+        bed_wav = work / "sfx.wav"
+        am_thanh.save_bed(bed_wav, bed)
+        log(f"  🔊 Tiếng động nền: {', '.join(sorted({e['label'] for e in ev}))}")
+    am_thanh.mix(silent, work / "narration.wav", total, track, final, cfg, bed_wav=bed_wav, fade_out=3.0, log=log)
 
     # ---- mô tả YouTube
     lines = [f"TIÊU ĐỀ YOUTUBE: {L['title'][:95]}", "", "MÔ TẢ:", L.get("description", script.get("caption", "")), "",
              "📌 Mục lục:"] + [f"{_fmt(s)} {name}" for s, name in marks] + [
              "", " ".join("#" + h.lstrip("#") for h in script.get("hashtags", [])), "",
+             "TAG YOUTUBE: " + ", ".join(script.get("tu_khoa") or [h.lstrip("#") for h in script.get("hashtags", [])]), "",
              "📌 Video sử dụng giọng đọc AI" + (" và một số tranh minh họa tạo bằng AI." if used_ai else ".")]
     short = mv._short_credits(credits)
     if short:

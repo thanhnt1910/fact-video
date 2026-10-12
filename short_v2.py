@@ -427,6 +427,101 @@ def narration(beats, voice, work):
     return audio, segs, (a, b)
 
 
+def _trim(samples, margin=0.04):
+    """Cắt khoảng lặng thừa đầu/cuối một câu đọc (giữ lại margin giây)."""
+    x = np.frombuffer(samples.tobytes(), np.int16).astype(np.float32)
+    win = int(0.02 * SR)
+    k = len(x) // win
+    if k < 3:
+        return samples
+    rms = np.sqrt((x[:k * win].reshape(k, win) ** 2).mean(1) + 1e-6)
+    speech = rms[rms > np.percentile(rms, 30)]
+    thr = max(120.0, 0.08 * float(np.median(speech)) if len(speech) else 120.0)
+    nz = np.where(rms > thr)[0]
+    if not len(nz):
+        return samples
+    a = max(0, nz[0] * win - int(margin * SR))
+    b = min(len(x), (nz[-1] + 1) * win + int(margin * SR))
+    return samples[a:b]
+
+
+def narration_styled(beats, voice, work):
+    """Kế hoạch (Âm thanh và giọng đọc, B): đọc TỪNG CẢNH với chỉ dẫn sắc thái theo loai_canh, chữ đã chuẩn hóa
+    (số, viết tắt, từ điển phát âm), rồi ghép lại với khoảng nghỉ chủ động: 0,25-0,35 giây giữa các cảnh,
+    0,7 giây trước cú lật. Trả về (mẫu âm, [(bắt đầu, kết thúc) từng cảnh], tổng thời lượng, khoảng lặng trước cú lật)."""
+    import concurrent.futures as cf
+    import am_thanh
+    import gemini_tts
+    import long_video
+    tu = am_thanh.load_dict()
+    long_video.TTS_CACHE.mkdir(parents=True, exist_ok=True)
+    jobs = []
+    for b in beats:
+        txt = am_thanh.chuan_hoa(gemini_tts.clean_text(b["text"])[0], tu)
+        style = SHORT_STYLE + " " + am_thanh.sac_thai(b.get("loai_canh"))
+        key = hashlib.sha1(f"v2|{voice}|{style}|{SPEED}|{txt}".encode()).hexdigest()[:16]
+        jobs.append((txt, style, long_video.TTS_CACHE / f"nganb_{key}.wav"))
+
+    def one(job):
+        txt, style, wav = job
+        if wav.exists():
+            return False
+        raw = gemini_tts.synth(txt, style, voice, log=log)
+        tmp = work / f"{wav.stem}_raw.wav"
+        tmp.write_bytes(raw)
+        mv.run_ffmpeg(["-i", str(tmp), "-af", f"atempo={SPEED}", "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16",
+                       str(wav)])
+        return True
+
+    t = time.time()
+    with cf.ThreadPoolExecutor(3) as ex:
+        made = sum(ex.map(one, jobs))
+    if made:
+        log(f"  🎙️  Gemini đọc {made}/{len(jobs)} cảnh, mỗi cảnh một sắc thái ({time.time() - t:.0f}s), tốc độ x{SPEED}")
+    lead, tail = 0.15, 0.5
+    narr = array.array("h", mv.silence(lead))
+    pos, times, twist_gap, seen_twist = lead, [], None, False
+    for i, (b, (_, _, wav)) in enumerate(zip(beats, jobs)):
+        if i:
+            if b.get("loai_canh") == "cu_lat" and not seen_twist:
+                gap = 0.7
+            elif b.get("doi_canh"):
+                gap = 0.35
+            else:
+                gap = 0.25
+            if b.get("loai_canh") == "cu_lat" and not seen_twist:
+                twist_gap = (pos, pos + gap)
+            narr.extend(mv.silence(gap))
+            pos += gap
+        seen_twist = seen_twist or b.get("loai_canh") == "cu_lat"
+        a = _trim(mv.read_wav(wav))
+        narr.extend(a)
+        times.append((pos, pos + len(a) / SR))
+        pos += len(a) / SR
+    narr.extend(mv.silence(tail))
+    return narr, times, pos + tail, twist_gap
+
+
+def sfx_events(beats, times, total, twist_gap):
+    """Lớp tiếng động cho video ngắn (dày, theo nhịp nhanh): tiếng nền theo nhãn am_thanh của từng cảnh,
+    tiếng nhấn ngay giây đầu, tiếng "vút" khi đổi nơi chốn, tiếng dâng lên rồi lặng trước cú lật."""
+    import am_thanh
+    ev = [{"label": "hit", "start": 0.0, "db": -8}]
+    for i, (b, (s, e)) in enumerate(zip(beats, times)):
+        start = 0.0 if i == 0 else s
+        end = times[i + 1][0] if i + 1 < len(times) else total
+        for lb in am_thanh.labels_ok(b.get("am_thanh") or []):
+            if lb in am_thanh.ONE_SHOT:
+                ev.append({"label": lb, "start": start + 0.05, "db": -14})
+            else:
+                ev.append({"label": lb, "start": max(0, start - 0.3), "dur": end - start + 0.6, "db": -20})
+        if i and b.get("doi_canh"):
+            ev.append({"label": "vut", "start": max(0, s - 0.45), "db": -16})
+    if twist_gap:
+        ev.append({"label": "rise", "start": max(0, twist_gap[0] + 0.2 - 2.2), "db": -12})
+    return ev
+
+
 CARD_TOP_MIN = 560    # thẻ chữ không được cao quá mức này (để nửa trên dành cho ảnh)
 
 
@@ -497,32 +592,41 @@ def render_overlays(script, cfg, cards, work):
     return out
 
 
-def build(script, cfg, out_dir):
+def build(script, cfg, out_dir, variant="moi"):
+    """variant="moi": tiếng động theo cảnh + nhạc nền tự hạ + giọng đổi sắc thái theo đoạn (kế hoạch, mục Âm thanh).
+    variant="cu": bản cũ chỉ ảnh + giọng đọc một lượt (dùng cho thử nghiệm A/B), xuất <mã>_ban_cu.mp4."""
     import cv2
     import long_render
     import motion
     sid = script["id"]
     N = script["ngan"]
     voice = cfg.get("gemini_voice", "Sadaltager")
-    work = out_dir / "_work_ngan"
+    work = out_dir / ("_work_ngan" if variant == "moi" else "_work_ngan_cu")
     work.mkdir(parents=True, exist_ok=True)
     beats = [dict(b, images=[dict(im) for im in b["images"]]) for b in N["beats"]]
 
-    log("  🖼️  Ảnh cho video ngắn")
+    if variant == "moi":
+        import nguon_anh
+        nguon_anh.record(script, log)      # chặn ảnh không phải PD/CC0, lưu bằng chứng giấy phép
+    log("  🖼️  Ảnh cho video ngắn" + ("" if variant == "moi" else " (bản cũ A/B)"))
     credits, used_ai = _beat_images(script, beats, work)
-    _check(script, beats)
+    if variant == "moi":
+        _check(script, beats)
 
     log(f"  🎙️  Giọng Gemini {voice}")
-    audio, segs, (a0, b0) = narration(beats, voice, work)
-    lead = 0.15
-    narr = array.array("h", mv.silence(lead))
-    narr.extend(audio[a0:b0])
-    tail = 0.5
-    narr.extend(mv.silence(tail))
-    total = lead + (b0 - a0) / SR + tail
-
-    # mốc thời gian từng câu (giây trong video)
-    times = [(lead + (s - a0) / SR, lead + (e - a0) / SR) for s, e in segs]
+    twist_gap = None
+    if variant == "moi":
+        narr, times, total, twist_gap = narration_styled(beats, voice, work)
+    else:
+        audio, segs, (a0, b0) = narration(beats, voice, work)
+        lead = 0.15
+        narr = array.array("h", mv.silence(lead))
+        narr.extend(audio[a0:b0])
+        tail = 0.5
+        narr.extend(mv.silence(tail))
+        total = lead + (b0 - a0) / SR + tail
+        # mốc thời gian từng câu (giây trong video)
+        times = [(lead + (s - a0) / SR, lead + (e - a0) / SR) for s, e in segs]
     shots, cards = [], []
     for i, (b, (s, e)) in enumerate(zip(beats, times)):
         start = 0.0 if i == 0 else s
@@ -630,22 +734,34 @@ def build(script, cfg, out_dir):
     import music
     track, mcredit = music.pick({"id": sid + "-ngan", "topic": script.get("topic", ""),
                                  "music": N.get("music") or script.get("music")}, log)
-    final = out_dir / f"{sid}.mp4"
-    args = ["-i", str(silent), "-i", str(work / "narration.wav")]
-    graph = [f"[1:a]{audio_fx.VOICE_CHAIN},aresample=44100,asplit=2[v][vk]"]
-    if track:
-        args += ["-stream_loop", "-1", "-i", str(track)]
-        dk = cfg.get("music_duck", {})
-        graph += [f"[2:a]loudnorm=I={cfg.get('music_lufs', -17)}:LRA=11:TP=-3,aresample=44100,afade=t=in:d=1,"
-                  f"afade=t=out:st={max(0, total - 1.2):.2f}:d=1.2[mr]",
-                  f"[mr][vk]sidechaincompress=threshold={dk.get('threshold', 0.06)}:ratio={dk.get('ratio', 3)}:"
-                  f"attack=40:release=500[m]",
-                  "[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]"]
+    final = out_dir / (f"{sid}.mp4" if variant == "moi" else f"{sid}_ban_cu.mp4")
+    if variant == "moi":
+        import am_thanh
+        ev = sfx_events(beats, times, total, twist_gap)
+        quiet = (twist_gap[0] + 0.2, twist_gap[1]) if twist_gap else None
+        bed = am_thanh.voice_bed(work / "narration.wav", ev, total, quiet=quiet)
+        am_thanh.save_bed(work / "sfx.wav", bed)
+        log(f"  🔊 Tiếng động: {', '.join(sorted({e['label'] for e in ev}))}")
+        am_thanh.mix(silent, work / "narration.wav", total, track, final, cfg, bed_wav=work / "sfx.wav", quiet=quiet,
+                     fade_out=2.5, log=log)
     else:
-        graph += ["[vk]anullsink", "[v]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]"]
-    mv.run_ffmpeg(args + ["-filter_complex", ";".join(graph), "-map", "0:v", "-map", "[a]", "-c:v", "copy",
-                          "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-t", f"{total:.3f}", "-movflags", "+faststart",
-                          str(final)])
+        args = ["-i", str(silent), "-i", str(work / "narration.wav")]
+        graph = [f"[1:a]{audio_fx.VOICE_CHAIN},aresample=44100,asplit=2[v][vk]"]
+        if track:
+            args += ["-stream_loop", "-1", "-i", str(track)]
+            dk = cfg.get("music_duck", {})
+            graph += [f"[2:a]loudnorm=I={cfg.get('music_lufs', -17)}:LRA=11:TP=-3,aresample=44100,afade=t=in:d=1,"
+                      f"afade=t=out:st={max(0, total - 1.2):.2f}:d=1.2[mr]",
+                      f"[mr][vk]sidechaincompress=threshold={dk.get('threshold', 0.06)}:ratio={dk.get('ratio', 3)}:"
+                      f"attack=40:release=500[m]",
+                      "[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]"]
+        else:
+            graph += ["[vk]anullsink", "[v]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]"]
+        mv.run_ffmpeg(args + ["-filter_complex", ";".join(graph), "-map", "0:v", "-map", "[a]", "-c:v", "copy",
+                              "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-t", f"{total:.3f}", "-movflags", "+faststart",
+                              str(final)])
+        log(f"  🅰️  Bản cũ cho thử nghiệm A/B: {final.name}")
+        return final, total
     # lưới khung hình để kiểm tra (không gửi Telegram)
     try:
         thumbs = [Image.fromarray(r).resize((216, 384)) for r in review]
@@ -729,11 +845,13 @@ def write_caption(script, cfg, out_dir, used_ai):
         lines_social += ["", "📷 Ảnh tư liệu: " + "; ".join(short)]
     if script.get("_music_credit"):
         m = script["_music_credit"]
-        lines_social.append(f"🎵 Nhạc: \"{m.split(chr(34))[1] if chr(34) in m else m}\" – Kevin MacLeod (incompetech.com)")
+        lines_social.append(f"🎵 Nhạc: {m}")
     if used_ai:
         lines_social.append("Video có sử dụng tranh minh họa tạo bằng AI.")
     lines = ["════ FACEBOOK REELS / TIKTOK / YOUTUBE SHORTS — copy nguyên khối dưới đây ════", *lines_social, "",
-             f"Tiêu đề YouTube Shorts: {script['title'][:95]}", *__import__("binh_luan").lines(script, "ngan"), "",
+             f"Tiêu đề YouTube Shorts: {script['title'][:95]}",
+             "Tag YouTube: " + ", ".join(script.get("tu_khoa") or [t.lstrip("#") for t in script.get("hashtags", [])]),
+             *__import__("binh_luan").lines(script, "ngan"), "",
              "════ GHI CHÚ (không đăng) ════", "Nhớ bật nhãn \"Nội dung do AI tạo\" khi đăng.",
              "Các phiên bản hook khác để thử:"] + [f"- {h}" for h in N.get("hooks", [])] + \
         ["Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]

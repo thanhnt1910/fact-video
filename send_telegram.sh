@@ -50,10 +50,17 @@ if [ -s ci_outputs.txt ]; then
     if blocked "$id" ngan; then block_msg "$id" "video ngắn + bài ảnh" ngan; continue; fi
     mp4="output/$id/$id.mp4"
     cap="output/$id/${id}_caption.txt"
-    text="🎬 VIDEO NGẮN $id — nội dung đăng ở tin ngay sau. Bài ảnh: Releases tag video-${id}${HAU_TO}"
+    title=$(python3 -c "import json,sys;print(json.load(open('scripts/$id.json',encoding='utf-8')).get('title',''))" 2>/dev/null)
+    text="🎬 $id · $title — nội dung đăng ở tin ngay sau. Bài ảnh: Releases tag video-${id}${HAU_TO}"
     curl -s -o /dev/null -w "Gửi $id: %{http_code}\n" \
       -F chat_id="$TG_CHAT" -F supports_streaming=true \
       -F video=@"$mp4" -F caption="$text" "$api/sendVideo"
+    # thử nghiệm A/B (kế hoạch, mục Âm thanh C): bản cũ chỉ ảnh + giọng đọc một lượt
+    if [ -f "output/$id/${id}_ban_cu.mp4" ]; then
+      curl -s -o /dev/null -w "Gửi bản A/B $id: %{http_code}\n" -F chat_id="$TG_CHAT" -F supports_streaming=true \
+        -F video=@"output/$id/${id}_ban_cu.mp4" \
+        -F caption="🅰️ THỬ A/B $id — BẢN CŨ (chỉ ảnh + giọng đọc một lượt, không tiếng động). Video phía trên là BẢN MỚI. Đăng mỗi bản lên một nền tảng khác nhau (vd bản cũ TikTok, bản mới YouTube Shorts), sau 48 giờ so tỉ lệ xem quá 3 giây và thời gian xem trung bình." "$api/sendVideo"
+    fi
     # tin thứ hai: đủ tiêu đề, caption, hashtag, tag, ghi chú để copy đăng ngay
     python3 tg_text.py "$cap" "📝 NỘI DUNG ĐĂNG $id (video ngắn)"
     # ảnh bìa: các phương án bìa video ngắn (thiếu thì dùng ảnh thumbnail)

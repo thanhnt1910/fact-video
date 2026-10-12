@@ -1,7 +1,7 @@
 """
 Nhạc nền không bản quyền cho video.
 
-- Danh sách bài: assets/music/library.json (nhạc Kevin MacLeod, CC BY 4.0 — ghi nguồn tự động vào caption).
+- Danh sách bài: assets/music/library.json (chỉ bản thu Public Domain / CC0 trên Wikimedia Commons; nhạc CC BY đã tắt).
 - Tự chọn bài theo chủ đề (topic_moods); kịch bản có thể chỉ định: "music": "Teller of the Tales"
   hoặc "music": "none" để tắt nhạc.
 - Bài được tải về assets/music/cache/ ở lần dùng đầu.
@@ -34,10 +34,26 @@ def fetch(track, log=print):
     dest = CACHE / f"{_slug(track['name'])}.mp3"
     if dest.exists() and dest.stat().st_size > 50000:
         return dest
-    req = urllib.request.Request(track["url"], headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = r.read()
+    data = b""
+    try:
+        req = urllib.request.Request(track["url"], headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = r.read()
+    except Exception as e:
+        if not track.get("url_goc"):
+            raise
+        log(f"     (bản mp3 chuyển mã chưa có: {e}; tải file gốc)")
     is_mp3 = data[:3] == b"ID3" or (len(data) > 1 and data[0] == 0xFF and data[1] & 0xE0 == 0xE0)
+    if (len(data) < 50000 or not is_mp3) and track.get("url_goc"):
+        # file gốc ogg/flac trên Commons -> đổi sang mp3 bằng ffmpeg
+        req = urllib.request.Request(track["url_goc"], headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            raw = r.read()
+        src = CACHE / (_slug(track["name"]) + "_goc" + Path(track["url_goc"]).suffix)
+        src.write_bytes(raw)
+        import make_video as mv
+        mv.run_ffmpeg(["-i", str(src), "-ac", "2", "-ar", "44100", "-b:a", "192k", str(dest)])
+        return dest
     if len(data) < 50000 or not is_mp3:
         raise ValueError(f"không phải file nhạc ({len(data)} byte)")
     dest.write_bytes(data)
@@ -49,7 +65,10 @@ def candidates(script, lib=None):
     tracks = [t for t in lib["tracks"] if not t.get("disabled")]
     want = script.get("music")
     if want:
-        return [t for t in tracks if t["name"].lower() == str(want).lower()]
+        hit = [t for t in tracks if t["name"].lower() == str(want).lower()]
+        if hit:
+            return hit
+        # bài ghi trong kịch bản đã bị tắt (vd nhạc CC BY cũ): chọn bài PD/CC0 theo chủ đề
     moods = lib["topic_moods"].get(script.get("topic", ""), lib["topic_moods"]["default"])
     pool = [t for t in tracks if set(t["moods"]) & set(moods)] or tracks
     # mỗi video một bài khác nhau nhưng cố định theo mã kịch bản

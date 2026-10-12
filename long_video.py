@@ -276,19 +276,29 @@ def check_images(script, beats, log):
 
 
 def _subject(src, depth, box):
-    """Điểm chủ thể (x, y theo tỉ lệ ảnh gốc) trong vùng box: trọng tâm phần gần máy nhất (bản đồ độ sâu),
-    không có độ sâu thì lấy điểm 1/3 phía trên giữa ảnh."""
+    """Điểm chủ thể (x, y theo tỉ lệ ảnh gốc) trong vùng box, theo bản đồ độ sâu.
+    Không lấy "chỗ gần máy nhất" (thường là mặt đất ở đáy ảnh) mà lấy vật NHÔ LÊN so với nền cùng hàng:
+    độ sâu trừ trung vị độ sâu của từng hàng (mặt đất / bầu trời thay đổi đều theo hàng nên bị trừ hết).
+    Trả về điểm phía trên của vật (đầu người / đầu con vật) để khung cận không cắt mất đầu."""
     l, t, r, b = box
     if depth:
         try:
             import cv2
             d = cv2.imread(str(depth), cv2.IMREAD_GRAYSCALE)
             h, w = d.shape
-            sub = d[int(t * h):max(int(t * h) + 1, int(b * h)), int(l * w):max(int(l * w) + 1, int(r * w))].astype("float32")
-            thr = float(np.percentile(sub, 85))
-            ys, xs = np.nonzero(sub >= thr)
-            if len(xs) > 20 and float(sub.max() - sub.min()) > 25:
-                return l + (r - l) * xs.mean() / sub.shape[1], t + (b - t) * ys.mean() / sub.shape[0]
+            sub = d[int(t * h):max(int(t * h) + 2, int(b * h)), int(l * w):max(int(l * w) + 2, int(r * w))]
+            sub = cv2.resize(sub, (160, max(2, round(160 * sub.shape[0] / sub.shape[1]))), interpolation=cv2.INTER_AREA)
+            sub = sub.astype("float32")
+            sal = np.clip(sub - np.median(sub, axis=1, keepdims=True), 0, None)
+            sal = cv2.GaussianBlur(sal, (0, 0), 2)
+            if float(sal.max()) > 18:
+                thr = float(np.percentile(sal, 92))
+                ys, xs = np.nonzero(sal >= max(thr, sal.max() * 0.35))
+                if len(xs) > 15:
+                    sh, sw = sal.shape
+                    x = xs.mean() / sw
+                    y = np.percentile(ys, 20) / sh          # phần trên của vật
+                    return l + (r - l) * x, t + (b - t) * y
         except Exception:
             pass
     return (l + r) / 2, t + (b - t) * 0.4
@@ -305,7 +315,7 @@ def _box_at(size, cx, cy, frac, within):
         bw_px = bh_px * 16 / 9
     bw, bh = bw_px / W0, bh_px / H0
     x0 = min(max(cx - bw / 2, l), r - bw)
-    y0 = min(max(cy - bh / 2, t), b - bh)
+    y0 = min(max(cy - bh * 0.4, t), b - bh)
     return [round(x0, 4), round(y0, 4), round(x0 + bw, 4), round(y0 + bh, 4)], bw_px
 
 

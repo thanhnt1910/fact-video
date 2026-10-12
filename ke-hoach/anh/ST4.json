@@ -1,0 +1,202 @@
+{
+ "id": "ST4",
+ "slots": [
+  {
+   "slot": "H01",
+   "mo_ta": "mây nấm Hiroshima 6/8/1945",
+   "queries": [
+    "Atomic cloud over Hiroshima",
+    "Hiroshima atomic bomb mushroom cloud",
+    "Hiroshima bomb cloud Enola Gay"
+   ]
+  },
+  {
+   "slot": "H02",
+   "mo_ta": "mây nấm Nagasaki 9/8/1945",
+   "queries": [
+    "Nagasaki atomic bomb mushroom cloud",
+    "Nagasakibomb",
+    "Nagasaki mushroom cloud Bockscar"
+   ]
+  },
+  {
+   "slot": "H03",
+   "mo_ta": "máy bay Enola Gay (B-29)",
+   "queries": [
+    "Enola Gay",
+    "Enola Gay Tinian",
+    "B-29 Enola Gay 1945"
+   ]
+  },
+  {
+   "slot": "H04",
+   "mo_ta": "máy bay Bockscar",
+   "queries": [
+    "Bockscar",
+    "Bockscar B-29"
+   ]
+  },
+  {
+   "slot": "H05",
+   "mo_ta": "Hiroshima đổ nát sau bom (không có người)",
+   "queries": [
+    "Hiroshima after atomic bombing",
+    "Hiroshima ruins 1945",
+    "Hiroshima aftermath panorama"
+   ]
+  },
+  {
+   "slot": "H06",
+   "mo_ta": "Nagasaki đổ nát sau bom (không có người)",
+   "queries": [
+    "Nagasaki after atomic bombing",
+    "Nagasaki ruins 1945",
+    "Urakami Cathedral 1945"
+   ]
+  },
+  {
+   "slot": "H07",
+   "mo_ta": "Hiroshima trước chiến tranh",
+   "queries": [
+    "Hiroshima 1930s",
+    "Hiroshima city before 1945",
+    "Hiroshima Prefectural Industrial Promotion Hall"
+   ]
+  },
+  {
+   "slot": "H08",
+   "mo_ta": "cảng Nagasaki xưa",
+   "queries": [
+    "Nagasaki harbor 1930s",
+    "Nagasaki port old photograph",
+    "Nagasaki 1920s"
+   ]
+  },
+  {
+   "slot": "H09",
+   "mo_ta": "xưởng đóng tàu Mitsubishi Nagasaki, tàu chở dầu",
+   "queries": [
+    "Mitsubishi Nagasaki shipyard",
+    "Nagasaki shipyard",
+    "Japanese oil tanker 1930s"
+   ]
+  },
+  {
+   "slot": "H10",
+   "mo_ta": "tàu hỏa hơi nước Nhật thập niên 1940",
+   "queries": [
+    "Japanese steam locomotive 1940s",
+    "JNR D51 steam locomotive",
+    "Japanese railway 1930s train"
+   ]
+  },
+  {
+   "slot": "H11",
+   "mo_ta": "con dấu hanko",
+   "queries": [
+    "hanko seal Japan",
+    "inkan seal",
+    "Japanese name seal stamp"
+   ]
+  },
+  {
+   "slot": "H12",
+   "mo_ta": "radio, người Nhật nghe tuyên bố đầu hàng 15/8",
+   "queries": [
+    "Gyokuon-hoso",
+    "Japanese listening radio surrender 1945",
+    "1940s radio receiver Japan"
+   ]
+  },
+  {
+   "slot": "H13",
+   "mo_ta": "Vòm bom nguyên tử Hiroshima ngày nay",
+   "queries": [
+    "Hiroshima Peace Memorial",
+    "Atomic Bomb Dome",
+    "Genbaku Dome"
+   ]
+  },
+  {
+   "slot": "H14",
+   "mo_ta": "hạc giấy",
+   "queries": [
+    "origami paper cranes",
+    "senbazuru",
+    "paper cranes Hiroshima"
+   ]
+  },
+  {
+   "slot": "H15",
+   "mo_ta": "Nagasaki ngày nay",
+   "queries": [
+    "Nagasaki city view",
+    "Nagasaki harbor night",
+    "Nagasaki skyline"
+   ]
+  },
+  {
+   "slot": "H16",
+   "mo_ta": "ảnh khảo sát của Mỹ về Hiroshima",
+   "queries": [
+    "United States Strategic Bombing Survey Hiroshima",
+    "Hiroshima 1945 street view",
+    "Hiroshima October 1945"
+   ]
+  },
+  {
+   "slot": "H17",
+   "mo_ta": "phòng vẽ kỹ thuật thập niên 1930",
+   "queries": [
+    "drafting room 1930s",
+    "engineering drawing office 1930s",
+    "ship design drafting room"
+   ]
+  },
+  {
+   "slot": "H18",
+   "mo_ta": "ga Hiroshima, cầu Aioi, sông Ota",
+   "queries": [
+    "Aioi Bridge Hiroshima",
+    "Ota River Hiroshima 1945",
+    "Hiroshima Station 1945"
+   ]
+  },
+  {
+   "slot": "H19",
+   "mo_ta": "hầm trú ẩn không kích Nhật",
+   "queries": [
+    "Japanese air raid shelter 1945",
+    "air raid shelter Japan",
+    "bokugo shelter"
+   ]
+  },
+  {
+   "slot": "H20",
+   "mo_ta": "đảo Tinian, B-29 cất cánh",
+   "queries": [
+    "Tinian North Field 1945",
+    "B-29 Superfortress takeoff Tinian",
+    "509th Composite Group"
+   ]
+  },
+  {
+   "slot": "H21",
+   "mo_ta": "Nagasaki đổ nát, nhà máy Mitsubishi sau bom",
+   "queries": [
+    "Mitsubishi Nagasaki 1945 damage",
+    "Nagasaki Mitsubishi steel works ruins",
+    "Nagasaki 1945 aerial before after"
+   ]
+  },
+  {
+   "slot": "H22",
+   "mo_ta": "Liên Hợp Quốc New York",
+   "queries": [
+    "United Nations Headquarters New York",
+    "UN General Assembly hall",
+    "United Nations building"
+   ]
+  }
+ ]
+}

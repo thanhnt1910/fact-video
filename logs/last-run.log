@@ -1,5 +1,19 @@
 
-===== BA1: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · cảnh 11 và 12 (video ngắn) / bài viết Facebook] Lời kết của video ngắn chưa có đúng câu bắt buộc theo quy định của kênh: 'Sử thật… lạ hơn cả truyện' và lời mời theo dõi.
-   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
-Không dựng gì (kịch bản có lỗi, xem ở trên).
+===== BA13: kiểm tra kịch bản trước khi dựng =====
+
+===== BA13 (video ngắn + bài ảnh) =====
+▶️  BA13: Ngôi mộ hơn 2.000 năm chưa ai dám mở
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+  ⏱️  63.1 giây · 27 hình · trung bình 2.3 giây/hình
+  🎞️  Số lần: cut 17, dissolve 5, fade 2, wipeleft 1, fadeblack 1
+  🎬 Dựng 1894 khung hình (50s)
+  🎵 Nhạc nền: Investigations
+  🖼️  Ảnh bìa: 3 phương án (BA13_bia_1.jpg, BA13_bia_2.jpg, BA13_bia_3.jpg)
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA13_post.txt)
+✅ Xong output/BA13/BA13.mp4  (63.1s video, mất 93s)
+
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+
+Xong video ngắn: BA13 · video dài: -

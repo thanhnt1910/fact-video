@@ -733,7 +733,7 @@ def write_caption(script, cfg, out_dir, used_ai):
     if used_ai:
         lines_social.append("Video có sử dụng tranh minh họa tạo bằng AI.")
     lines = ["════ FACEBOOK REELS / TIKTOK / YOUTUBE SHORTS — copy nguyên khối dưới đây ════", *lines_social, "",
-             f"Tiêu đề YouTube Shorts: {script['title'][:95]}", "",
+             f"Tiêu đề YouTube Shorts: {script['title'][:95]}", *__import__("binh_luan").lines(script, "ngan"), "",
              "════ GHI CHÚ (không đăng) ════", "Nhớ bật nhãn \"Nội dung do AI tạo\" khi đăng.",
              "Các phiên bản hook khác để thử:"] + [f"- {h}" for h in N.get("hooks", [])] + \
         ["Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]

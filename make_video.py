@@ -821,6 +821,7 @@ def write_caption(script, cfg, out_dir):
         f"Tiêu đề: {title[:95]}",
         "Mô tả:",
         *yt_desc,
+        *__import__("binh_luan").lines(script, "ngan"),
         "",
         "════ GHI CHÚ (không đăng) ════",
         f"Chủ đề: {theme['icon']} {theme['label']}",

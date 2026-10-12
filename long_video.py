@@ -586,6 +586,8 @@ def build(script, cfg, out_dir):
         lines.append("📷 Ảnh tư liệu: " + "; ".join(short) + " · nguồn Wikimedia Commons")
     if mcredit:
         lines.append(f"🎵 Nhạc: {mcredit}")
+    import binh_luan
+    lines += binh_luan.lines(script, "dai")   # bình luận ghim + phụ của chủ kênh cho Facebook / YouTube
     lines += ["", "──── GHI CHÚ (không đăng) ────", "Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]
     try:
         en_note = subtitles_and_english(script, L, spoken, marks, credits, mcredit, used_ai, out_dir)

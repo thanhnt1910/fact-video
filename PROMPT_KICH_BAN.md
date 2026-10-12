@@ -130,6 +130,25 @@ Giọng đọc Gemini (Sadaltager) đọc tự nhiên nên KHÔNG dùng thẻ [n
 - "label" (tùy chọn): nhãn địa danh / năm hiện góc dưới vài giây, dùng ở beat mở đầu mỗi bối cảnh mới.
 - Số viết bằng chữ, tên nước ngoài giữ nguyên chữ gốc (Gemini đọc tốt), câu có nhịp, nhiều "…" ở chỗ hồi hộp.
 
+BÌNH LUẬN CỦA CHỦ KÊNH (bắt buộc, trường "binh_luan" trong cùng file JSON)
+Máy gửi kèm qua Telegram để chủ kênh copy, đăng và ghim ngay sau khi đăng video (Facebook, TikTok, YouTube).
+"binh_luan": {
+  "ngan": {"ghim": "bình luận để ghim dưới video ngắn",
+           "phu": ["bình luận phụ (tùy chọn): một chi tiết thêm có thật, hoặc nguồn tham khảo"]},
+  "dai":  {"ghim": "bình luận để ghim dưới video dài",
+           "phu": ["bình luận phụ 1", "bình luận phụ 2 (tùy chọn)"]}
+}
+- "ghim" chọn 1 trong 3 kiểu:
+  + Câu hỏi chọn phe: "Theo bạn chuyện gì đã xảy ra? Ⓐ … · Ⓑ … · Ⓒ … Bình luận chữ cái của bạn nhé."
+  + Một chi tiết thêm KHÔNG có trong video, kết bằng một câu hỏi.
+  + (chỉ video ngắn, khi đã có video dài) "Bản đầy đủ … đã có trên trang."
+- Video dài: ghim nên là câu hỏi chọn phe hoặc chi tiết thêm chưa kể trong video ngắn; phụ có một dòng
+  "📚 Nguồn tham khảo: …" (tên sách / tài liệu chính, lấy từ "sources").
+- Mọi chi tiết phải CÓ THẬT và có trong "sources"; theo đúng quy tắc an toàn nội dung và pháp luật Việt Nam.
+- KHÔNG tiết lộ cú lật trong bình luận ghim của video ngắn.
+- KHÔNG giới thiệu hay hé lộ video / chuyện tiếp theo.
+- Giọng thân thiện, xưng "mình" hoặc "Người Gác Sử"; mỗi bình luận 1–4 câu, 1–2 emoji; tối đa 2 bình luận phụ.
+
 JSON phải hợp lệ: không có dòng chú thích //, không có dấu phẩy thừa.
 Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 10 từ), phần chi tiết để trong voice.
 ```

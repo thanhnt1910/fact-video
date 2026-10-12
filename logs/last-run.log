@@ -1,20 +1,5 @@
 
-===== BA13: kiểm tra kịch bản trước khi dựng =====
-
-===== BA13 (video ngắn + bài ảnh) =====
-▶️  BA13: Ngôi mộ hơn 2.000 năm chưa ai dám mở
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 10 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  63.1 giây · 27 hình · trung bình 2.3 giây/hình
-  🎞️  Số lần: cut 17, dissolve 5, fade 2, wipeleft 1, fadeblack 1
-  🎬 Dựng 1894 khung hình (50s)
-  🎵 Nhạc nền: Investigations
-  🖼️  Ảnh bìa: 3 phương án (BA13_bia_1.jpg, BA13_bia_2.jpg, BA13_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA13_post.txt)
-✅ Xong output/BA13/BA13.mp4  (63.1s video, mất 88s)
-
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong video ngắn: BA13 · video dài: -
+===== ST4: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · đoạn 32] Lời đọc ghi 'Sáng ngày tám tháng Tám', nhưng theo phần diễn biến và bài viết Facebook, Yamaguchi về tới nhà/Nagasaki vào ngày 8/8 sau khi đi tàu đêm từ Hiroshima (tuy nhiên ngày 8/8 là ngày ông về hoặc nghỉ ngơi, còn ngày 9/8 là ngày bom rơi ở Nagasaki). Cần kiểm chứng mốc thời gian chính xác trong kế hoạch.
+   ⛔ Chưa dựng ST4: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+Không dựng gì (kịch bản có lỗi, xem ở trên).

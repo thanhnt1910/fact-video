@@ -731,7 +731,7 @@ def write_caption(script, cfg, out_dir, used_ai):
         m = script["_music_credit"]
         lines_social.append(f"🎵 Nhạc: \"{m.split(chr(34))[1] if chr(34) in m else m}\" – Kevin MacLeod (incompetech.com)")
     if used_ai:
-        lines_social.append("Một số hình là ảnh minh họa tạo bằng AI (có nhãn \"Ảnh minh họa\").")
+        lines_social.append("Video có sử dụng tranh minh họa tạo bằng AI.")
     lines = ["════ FACEBOOK REELS / TIKTOK / YOUTUBE SHORTS — copy nguyên khối dưới đây ════", *lines_social, "",
              f"Tiêu đề YouTube Shorts: {script['title'][:95]}", "",
              "════ GHI CHÚ (không đăng) ════", "Nhớ bật nhãn \"Nội dung do AI tạo\" khi đăng.",

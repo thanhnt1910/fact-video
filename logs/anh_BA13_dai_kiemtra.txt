@@ -59,9 +59,7 @@ KIỂM TRA ẢNH BA13 · video dài · 59 ảnh (số thứ tự khớp lưới 
 ✅ 50 (ảnh mô phỏng AI) · 2020 mp_e07aff727126d7e5.jpg
 ✅ 51 ·  scene_30.jpg
 ✅ 52 (ảnh mô phỏng AI) ·  mp_22e16785fe53c4c9.jpg
-❌ 53 (ảnh mô phỏng AI) ·  mp_e953e709a7e08ccf.jpg
-     ⚠️ ảnh hơi mờ (độ nét 29)
-     ❌ ảnh gần như một màu (có thể tải lỗi)
+✅ 53 (ảnh mô phỏng AI) ·  mp_62aebbad3d73a7c2.jpg
 ✅ 54 ·  scene_31.jpg
 ✅ 55 ·  scene_32.jpg
 ✅ 56 ·  scene_33.jpg

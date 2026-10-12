@@ -1,40 +1,37 @@
 
 ===== BA13: kiểm tra kịch bản trước khi dựng =====
 
-===== BA13 (video ngắn + bài ảnh) =====
-▶️  BA13: Ngôi mộ hơn 2.000 năm chưa ai dám mở
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  ⏱️  63.1 giây · 27 hình · trung bình 2.3 giây/hình
-  🎞️  Số lần: cut 17, dissolve 5, fade 2, wipeleft 1, fadeblack 1
-[0;93m2026-10-12 06:50:14.788436848 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
-  🎬 Dựng 1894 khung hình (50s)
-  🎵 Nhạc nền: Investigations
-  🖼️  Ảnh bìa: 3 phương án (BA13_bia_1.jpg, BA13_bia_2.jpg, BA13_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA13_post.txt)
-✅ Xong output/BA13/BA13.mp4  (63.1s video, mất 101s)
-
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
 ===== BA13 (video dài) =====
 ▶️  Video dài BA13: Vì sao ngôi mộ của Tần Thủy Hoàng hơn 2.000 năm chưa ai dám mở? | Bí ẩn lăng Tần Thủy Hoàng
   🖼️  Ảnh cho video dài
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
      🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     🎨 mp_9c86ab5372051026.jpg
-     🎨 mp_3f1f07308aaf8bc4.jpg
-     🎨 mp_e953e709a7e08ccf.jpg
-  🔍 Kiểm tra 59 ảnh: 1 ảnh lỗi, 7 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_e953e709a7e08ccf.jpg (lần 1)
-     🎨 mp_e953e709a7e08ccf.jpg
-  🔍 Kiểm tra 59 ảnh: 1 ảnh lỗi, 7 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_e953e709a7e08ccf.jpg (lần 2)
-     🎨 mp_e953e709a7e08ccf.jpg
-  🔍 Kiểm tra 59 ảnh: 1 ảnh lỗi, 7 ảnh cần xem
-❌ Video dài BA13: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA13_dai_kiemtra.txt):
-  mp_e953e709a7e08ccf.jpg: ảnh gần như một màu (có thể tải lỗi)
+     🎨 mp_62aebbad3d73a7c2.jpg
+  🔍 Kiểm tra 59 ảnh: 0 ảnh lỗi, 7 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (9 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (30s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+     🎙️  Gemini đọc xong 1 chương (30s)
+  ⏱️  Thời lượng 07:58 · 66 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-12 07:01:14.247770151 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+     59/59 ảnh có độ sâu
+     11490 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (137 giây)
+     … 6/12 đoạn (239 giây)
+     … 9/12 đoạn (366 giây)
+     … 12/12 đoạn (375 giây)
+     dựng khung hình xong trong 375 giây
+  🎵 Nhạc nền: Investigations
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: BA13_dai.mp4 (07:58)
 
-Xong video ngắn: BA13 · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): BA13
+Xong video ngắn: - · video dài: BA13

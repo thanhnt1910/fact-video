@@ -1,0 +1,4 @@
+CHUYỂN CẢNH ST4 (video ngắn) · bảng màu: smoothup, fade, wiperight, hblur, wipeleft
+Thứ tự: cut → cut → cut → cut → cut → wipeleft → cut → cut → cut → cut → dissolve → wiperight → dissolve → wipeleft → dissolve → smoothup → fadeblack → dissolve → cut → dissolve → cut → fade → cut → fade → cut → cut → cut
+Số lần: cut 15, dissolve 5, wipeleft 2, fade 2, wiperight 1, smoothup 1, fadeblack 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

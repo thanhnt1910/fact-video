@@ -8,22 +8,22 @@ KIỂM TRA ẢNH ST4 · video ngắn · 26 ảnh (số thứ tự khớp lưới
 ⚠️ 7 ·  scene_03.jpg
      ⚠️ ảnh hơi mờ (độ nét 35)
 ✅ 8 (ảnh mô phỏng AI) ·  mp_f024bbe34acf49ea.jpg
-❌ 9 (ảnh mô phỏng AI) ·  mp_0780cc1164a0f70d.jpg
-     ❌ Ảnh minh họa máy bay ném bom B-29 trong vụ bom nguyên tử Hiroshima/Nagasaki (1945) nhưng chiếc máy bay trong ảnh do AI tạo có thiết kế giống máy bay chở khách/vận tải hiện đại (động cơ cánh quạt tuốc-bin phản lực turboprop thay vì động cơ piston cánh quạt truyền thống của B-29) và có sự xuất hiện của đám đông người xem ở góc nhìn từ mặt đất không đúng với bối cảnh lịch sử lúc bấy giờ. → Thay thế bằng ảnh mô phỏng chính xác máy bay ném bom B-29 Superfortress năm 1945 hoặc phong cảnh bầu trời Hiroshima/Nagasaki thời điểm đó.
-✅ 10 ·  scene_04.jpg
-✅ 11 ·  scene_05.jpg
-✅ 12 ·  scene_06.jpg
-✅ 13 ·  scene_07.jpg
+⚠️ 9 ·  scene_04.jpg
+     ⚠️ Ảnh hiển thị máy bay ném bom Enola Gay thả bom xuống Hiroshima, trong khi đoạn lời kể tập trung vào nhân vật Tsutomu Yamaguchi quay lại chỗ làm và bầu trời lóe sáng, có thể gây nhầm lẫn nhẹ về mặt sự kiện cụ thể nhưng vẫn thuộc bối cảnh chung. → Nên dùng ảnh phong cảnh nhà máy hoặc bầu trời lóe sáng tại Hiroshima đúng với khoảnh khắc nhân vật đang ở chỗ làm.
+✅ 10 ·  scene_05.jpg
+✅ 11 ·  scene_06.jpg
+✅ 12 ·  scene_07.jpg
+✅ 13 ·  scene_08.jpg
 ✅ 14 (ảnh mô phỏng AI) ·  mp_741968842e09fcd1.jpg
-✅ 15 ·  scene_08.jpg
+✅ 15 ·  scene_09.jpg
 ✅ 16 (ảnh mô phỏng AI) ·  mp_bcaf8720ce17c33a.jpg
 ✅ 17 (ảnh mô phỏng AI) ·  mp_0cb10876133703e9.jpg
 ✅ 18 (ảnh mô phỏng AI) ·  mp_f92ff7004bfc1562.jpg
-✅ 19 ·  scene_09.jpg
-✅ 20 ·  scene_10.jpg
+✅ 19 ·  scene_10.jpg
+✅ 20 ·  scene_11.jpg
 ✅ 21 (ảnh mô phỏng AI) ·  mp_6137d031b12cee6d.jpg
-✅ 22 ·  scene_11.jpg
-✅ 23 ·  scene_12.jpg
-✅ 24 ·  scene_13.jpg
-✅ 25 ·  scene_14.jpg
-✅ 26 ·  scene_15.jpg
+✅ 22 ·  scene_12.jpg
+✅ 23 ·  scene_13.jpg
+✅ 24 ·  scene_14.jpg
+✅ 25 ·  scene_15.jpg
+✅ 26 ·  scene_16.jpg

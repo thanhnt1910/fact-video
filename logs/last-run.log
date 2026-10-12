@@ -4,49 +4,51 @@
 ===== ST4 (video ngắn + bài ảnh) =====
 ▶️  ST4: Người sống sót qua 2 quả bom nguyên tử
   🖼️  Ảnh cho video ngắn
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     🎨 mp_f024bbe34acf49ea.jpg
-     🎨 mp_0780cc1164a0f70d.jpg
-  🔍 Kiểm tra 26 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0780cc1164a0f70d.jpg (lần 1)
-     🎨 mp_0780cc1164a0f70d.jpg
-  🔍 Kiểm tra 26 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0780cc1164a0f70d.jpg (lần 2)
-     🎨 mp_0780cc1164a0f70d.jpg
-  🔍 Kiểm tra 26 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
-❌ ST4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST4_ngan_kiemtra.txt):
-  mp_0780cc1164a0f70d.jpg: Ảnh minh họa máy bay ném bom B-29 trong vụ bom nguyên tử Hiroshima/Nagasaki (1945) nhưng chiếc máy bay trong ảnh do AI tạo có thiết kế giống máy bay chở khách/vận tải hiện đại (động cơ cánh quạt tuốc-bin phản lực turboprop thay vì động cơ piston cánh quạt truyền thống của B-29) và có sự xuất hiện của đám đông người xem ở góc nhìn từ mặt đất không đúng với bối cảnh lịch sử lúc bấy giờ. → Thay thế bằng ảnh mô phỏng chính xác máy bay ném bom B-29 Superfortress năm 1945 hoặc phong cảnh bầu trời Hiroshima/Nagasaki thời điểm đó.
+  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+  🎙️  Gemini đọc xong (27s), tốc độ x1.12
+  🪧 11 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  69.2 giây · 28 hình · trung bình 2.5 giây/hình · ⚠️ 2 hình đứng quá 4 giây
+  🎞️  Số lần: cut 15, dissolve 5, wipeleft 2, fade 2, wiperight 1, smoothup 1, fadeblack 1
+[0;93m2026-10-12 14:43:57.900441879 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+  🎬 Dựng 2077 khung hình (51s)
+  🎵 Nhạc nền: Heartbreaking
+  🖼️  Ảnh bìa: 3 phương án (ST4_bia_1.jpg, ST4_bia_2.jpg, ST4_bia_3.jpg)
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (ST4_post.txt)
+✅ Xong output/ST4/ST4.mp4  (69.2s video, mất 140s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
 ===== ST4 (video dài) =====
 ▶️  Video dài ST4: Người duy nhất sống sót qua cả hai quả bom nguyên tử: câu chuyện của Tsutomu Yamaguchi
   🖼️  Ảnh cho video dài
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     🎨 mp_38521ceae56bf060.jpg
-     🎨 mp_f4185a1d00e67f6f.jpg
-     🎨 mp_69e7c83f351d4c90.jpg
-     🎨 mp_94ed3b04af6e5ed6.jpg
-  🔍 Kiểm tra 56 ảnh: 3 ảnh lỗi, 4 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_f024bbe34acf49ea.jpg (lần 1)
-     🎨 mp_f024bbe34acf49ea.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0780cc1164a0f70d.jpg (lần 1)
-     🎨 mp_0780cc1164a0f70d.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_f4185a1d00e67f6f.jpg (lần 1)
-     🎨 mp_f4185a1d00e67f6f.jpg
-  🔍 Kiểm tra 56 ảnh: 3 ảnh lỗi, 4 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_f024bbe34acf49ea.jpg (lần 2)
-     🎨 mp_f024bbe34acf49ea.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_0780cc1164a0f70d.jpg (lần 2)
-     🎨 mp_0780cc1164a0f70d.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_f4185a1d00e67f6f.jpg (lần 2)
-     🎨 mp_f4185a1d00e67f6f.jpg
-  🔍 Kiểm tra 56 ảnh: 1 ảnh lỗi, 4 ảnh cần xem
-❌ Video dài ST4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST4_dai_kiemtra.txt):
-  mp_0780cc1164a0f70d.jpg: Ảnh AI tạo ra máy bay bốn động cơ bay ở góc độ quá thấp, trông giống như nó đang sà sát mặt đất thay vì bay rất cao trên trời theo đúng lời kể, và chỉ có một chiếc dù thay vì hai chiếc. → Dùng ảnh mô phỏng máy bay ở độ cao lớn hơn nhiều so với mặt đất và có hai chiếc dù nhỏ đang rơi.
+  🔍 Kiểm tra 56 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (16s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (24s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (13s)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (16s)
+  ⏱️  Thời lượng 07:45 · 70 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-12 14:48:51.391310099 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     56/56 ảnh có độ sâu
+     11173 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (109 giây)
+     … 6/12 đoạn (225 giây)
+     … 9/12 đoạn (326 giây)
+     … 12/12 đoạn (326 giây)
+     dựng khung hình xong trong 327 giây
+  🎵 Nhạc nền: Heartbreaking
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: ST4_dai.mp4 (07:45)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): ST4
-Lỗi: ST4
+Xong video ngắn: ST4 · video dài: ST4

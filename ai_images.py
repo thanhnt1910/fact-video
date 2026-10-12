@@ -24,16 +24,18 @@ STYLE = ("2D animated illustration in the style of a modern history explainer ca
 STYLE_ID = "2d-v2"   # đổi khi đổi phong cách -> ảnh cũ trong bộ nhớ đệm không bị dùng lại
 # ẢNH MÔ PHỎNG (cho đoạn không có ảnh tư liệu): giống ảnh chụp cũ cùng thời, nhưng KHÔNG vẽ mặt người thật
 # nhận ra được (người quay lưng / ở xa / trong bóng tối). Không đóng nhãn lên ảnh; công bố nội dung AI bằng nhãn của nền tảng khi đăng.
-STYLE_PHOTO = ("realistic historical documentary photograph, period-accurate clothing, objects and setting, "
-               "natural light, muted faded colors, slight film grain, shot on a vintage film camera, "
+# Kế hoạch (Phong cách hình ảnh): tranh AI phải giữ PHONG CÁCH TRANH VẼ (sơn dầu, khắc, màu nước), không giống ảnh
+# chụp tư liệu thật, để người xem không nhầm là ảnh thật của sự kiện. (Tên biến giữ nguyên cho các module cũ.)
+STYLE_PHOTO = ("classic realist oil painting of a historical scene, visible brush strokes and canvas texture, "
+               "painterly, muted period colors, soft natural light, period-accurate clothing, objects and setting, "
                "people seen from behind, in silhouette or at a distance with faces not clearly visible, "
-               "no text, no letters, no watermark, no logo, no modern objects")
-STYLE_PHOTO_ID = "photo-v1"
+               "no text, no letters, no watermark, no logo, no signature, no modern objects")
+STYLE_PHOTO_ID = "paint-v1"
 # cảnh không người: bỏ câu "people seen from behind..." (câu đó khiến AI tự vẽ thêm người)
-STYLE_PHOTO_EMPTY = ("realistic historical documentary photograph, period-accurate objects and setting, "
-                     "natural light, muted faded colors, slight film grain, shot on a vintage film camera, "
+STYLE_PHOTO_EMPTY = ("classic realist oil painting of a historical scene, visible brush strokes and canvas texture, "
+                     "painterly, muted period colors, soft natural light, period-accurate objects and setting, "
                      "empty scene, absolutely no people, no human figures, "
-                     "no text, no letters, no watermark, no logo, no modern objects")
+                     "no text, no letters, no watermark, no logo, no signature, no modern objects")
 
 
 def photo_style(prompt):

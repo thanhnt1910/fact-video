@@ -144,6 +144,10 @@ def beat_images(script, beats, work):
                 src = uniq[json.dumps(b["image"], sort_keys=True, ensure_ascii=False)].get("image_src")
                 if src:
                     b["image_src"] = src
+        missing = [v["image"].get("url", "")[-70:] for v in uniq.values() if v["image"].get("url") and not v.get("image_src")]
+        if missing:
+            # ảnh tư liệu đã chọn mà tải không được: không dựng với ảnh thiếu (sẽ lặp ảnh cũ), báo lỗi để thử lại
+            raise RuntimeError(f"không tải được {len(missing)} ảnh tư liệu (sẽ thử lại lần chạy sau): " + "; ".join(missing[:3]))
     AI_CACHE.mkdir(parents=True, exist_ok=True)
     import os
     quota_hit = 0

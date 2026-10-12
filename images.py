@@ -20,6 +20,7 @@ import os
 import re
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -159,10 +160,28 @@ SOURCES = {"openverse": search_openverse, "wikimedia": search_wikimedia, "nasa":
 
 
 # ------------------------------------------------------------------ tải ảnh
+_LAST_DL = [0.0]
+
+
 def _download(url, dest):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=40) as r:
-        data = r.read()
+    """Tải ảnh; Wikimedia giới hạn tốc độ (HTTP 429) -> giãn nhịp tải và thử lại, chờ theo Retry-After."""
+    import time as _t
+    for attempt in range(6):
+        gap = 1.2 - (_t.time() - _LAST_DL[0])
+        if gap > 0:
+            _t.sleep(gap)
+        _LAST_DL[0] = _t.time()
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=40) as r:
+                data = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and attempt < 5:
+                wait = e.headers.get("Retry-After") if e.headers else None
+                _t.sleep(min(60, float(wait)) if wait and str(wait).isdigit() else 5 * 2 ** attempt)
+                continue
+            raise
     if len(data) < 15000:
         raise ValueError("ảnh quá nhỏ hoặc lỗi")
     dest.write_bytes(data)

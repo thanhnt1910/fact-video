@@ -882,8 +882,13 @@ def main():
         log(f"▶️  {script['id']}: {script['title']}")
         t = time.time()
         try:
-            mp4, dur = render(script, cfg, out_dir, preview=a.preview, no_tts=a.no_tts)
-            write_caption(script, cfg, out_dir)
+            if script.get("ngan") and not a.preview:
+                # khung video ngắn mới (kế hoạch: 20-30 hình, phụ đề theo cụm từ, chuyển cảnh theo cấu trúc)
+                import short_v2
+                mp4, dur = short_v2.build(script, cfg, out_dir)
+            else:
+                mp4, dur = render(script, cfg, out_dir, preview=a.preview, no_tts=a.no_tts)
+                write_caption(script, cfg, out_dir)
             if script.get("post") and not a.preview:
                 try:
                     import post

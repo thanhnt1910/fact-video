@@ -132,7 +132,7 @@ jobs:
         run: |
           touch ci_outputs.txt ci_long.txt
           # chỉ kiểm tra kỹ thuật miễn phí (ffmpeg); không gửi video/khung hình cho Gemini xem lại nữa
-          python review.py --ci --telegram --no-ai 2>&1 | tee logs/review-run.log || true
+          python review.py --ci --no-ai 2>&1 | tee logs/review-run.log || true
 
       - name: Ảnh xem nhanh (để kiểm tra)
         if: always()
@@ -198,6 +198,7 @@ jobs:
         if: always() && inputs.send == 'yes'
         env:
           FORCE_SEND: "no"
+          HAU_TO: ${{ inputs.hau_to }}
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: bash send_telegram.sh

@@ -1,0 +1,42 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<style>
+  html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; background: transparent; overflow: hidden; }
+  body { font-family: 'Be Vietnam Pro', sans-serif; }
+  #root { position: relative; width: 1080px; height: 1920px; }
+  .layer { position: absolute; display: none; }
+  /* chữ hook: to, ở phần trên (nền mờ), 2 dòng */
+  #hook { left: 36px; right: 36px; top: 170px; text-align: center; color: #FFF6E6; font-weight: 800; font-size: 76px;
+          line-height: 1.16; letter-spacing: -0.5px;
+          text-shadow: 0 4px 0 rgba(0,0,0,.55), 0 0 28px rgba(0,0,0,.85), 0 0 6px rgba(0,0,0,.9);
+          -webkit-text-stroke: 3px rgba(0,0,0,.55); paint-order: stroke fill; }
+  #hook b { color: var(--accent); font-weight: 800; }
+  /* phụ đề theo cụm 2-4 từ, giữa màn hình (vùng 1/3 giữa) */
+  #sub { left: 50px; right: 50px; top: 1105px; text-align: center; color: #FFFFFF; font-weight: 800; font-size: 76px;
+         line-height: 1.12; -webkit-text-stroke: 10px rgba(0,0,0,.92); paint-order: stroke fill;
+         text-shadow: 0 6px 18px rgba(0,0,0,.75); }
+  #sub b { color: var(--accent); font-weight: 800; }
+  #brand { top: 64px; right: 56px; font-family: 'Lora', serif; font-style: italic; font-weight: 600; font-size: 34px;
+           color: var(--accent); text-shadow: 0 2px 10px rgba(0,0,0,.85); opacity: .92; }
+  #aitag { top: 66px; left: 56px; font-weight: 700; font-size: 26px; letter-spacing: 1.5px; color: #FBEBD0;
+           background: rgba(0,0,0,.55); padding: 8px 16px; border-radius: 8px; text-transform: uppercase; }
+</style></head>
+<body><div id="root">
+  <div id="hook" class="layer"></div>
+  <div id="sub" class="layer"></div>
+  <div id="brand" class="layer"></div>
+  <div id="aitag" class="layer">Ảnh minh họa</div>
+</div>
+<script>
+function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function rich(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>'); }
+window.show = function (a) {
+  document.documentElement.style.setProperty('--accent', a.accent || '#FFC66B');
+  for (const id of ['hook', 'sub', 'brand', 'aitag']) document.getElementById(id).style.display = 'none';
+  const el = document.getElementById(a.id);
+  if (a.html != null) el.innerHTML = rich(a.html);
+  el.style.display = 'block';
+};
+</script>
+</body></html>

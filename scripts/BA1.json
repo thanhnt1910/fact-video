@@ -637,5 +637,193 @@
         ]
       }
     ]
+  },
+  "ngan": {
+    "hook_text": "**10 người** biến mất.\nCon tàu vẫn còn nguyên.",
+    "hooks": [
+      "Thức ăn còn đủ 6 tháng, hàng hóa còn nguyên. Chỉ có 10 con người là biến mất.",
+      "Một con tàu trôi giữa Đại Tây Dương, không một bóng người. Bữa sáng trên bàn vẫn còn nóng… hay đó chỉ là lời đồn?",
+      "10 người biến mất khỏi một con tàu còn nguyên vẹn. Hơn 150 năm, chưa ai biết họ đi đâu."
+    ],
+    "caption": "Thức ăn còn đủ 6 tháng, hàng hóa còn nguyên… chỉ có 10 con người là biến mất 🌊 Bí ẩn tàu Mary Celeste, và chi tiết nổi tiếng nhất hóa ra là bịa. Bạn tin giả thuyết nào?",
+    "beats": [
+      {
+        "loai_canh": "hook",
+        "text": "Thức ăn còn đủ sáu tháng. Hàng hóa còn nguyên. Chỉ có mười con người là biến mất.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mary_Celeste_engraving.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Mary Celeste engraving.jpg\" – Original uploader was RedCoat10 at en.wikipedia\n\n(Original text : No illustrator given.), Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_engraving.jpg)"
+          },
+          {
+            "mo_phong": "the empty wooden deck of an abandoned 19th-century sailing ship, coiled ropes, an open hatch, torn sails overhead, overcast sky, no people"
+          }
+        ]
+      },
+      {
+        "loai_canh": "vong_lap",
+        "text": "Và chi tiết nổi tiếng nhất của câu chuyện này… hóa ra là bịa.",
+        "images": [
+          {
+            "mo_phong": "a ship's dining table set with plates of food and a pipe in an ashtray, all chairs empty and pushed back, ghostly light, no people"
+          }
+        ]
+      },
+      {
+        "loai_canh": "boi_canh",
+        "doi_canh": true,
+        "text": "Tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương, thủy thủ tàu Dei Gratia nhìn thấy một con tàu buồm trôi lảo đảo, không ai cầm lái.",
+        "hien": "Tháng **12/1872**, giữa **Đại Tây Dương**, thủy thủ tàu **Dei Gratia** thấy một con tàu buồm trôi lảo đảo, không ai cầm lái.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Clement_Drew_-_The_American_brigantine_M_Louisa_Miller_off_the_coast_of_Maine%2C_1866.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Clement Drew - The American brigantine M Louisa Miller off the coast of Maine, 1866.jpg\" – Clement Drew, Public domain (https://commons.wikimedia.org/wiki/File:Clement_Drew_-_The_American_brigantine_M_Louisa_Miller_off_the_coast_of_Maine,_1866.jpg)"
+          },
+          {
+            "mo_phong": "view from the deck of a 19th-century sailing ship: a brass telescope resting on the wooden rail, coiled ropes, a distant two-masted ship on the grey ocean horizon, no people"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg/1920px-Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Arthur Victor Gregory - Painting of the ship „Loch Etive“ in heavy storm - SLV H91.325-1034.jpg\" – Arthur Victor Gregory, Public domain (https://commons.wikimedia.org/wiki/File:Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "boi_canh",
+        "text": "Đó là tàu Mary Celeste.",
+        "hien": "Đó là tàu **Mary Celeste**.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Mary Celeste as Amazon in 1861 (cropped).jpg\" – Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attribution is suggested in Paul Begg: Mary Celeste: The Greatest Mystery of the Sea. Longmans Education Ltd, Harlow (UK) 2007. Plate 2, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861_(cropped).jpg)",
+            "cho_phep_mo": true
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "text": "Họ trèo lên tàu. Một nghìn bảy trăm linh một thùng cồn vẫn còn nguyên. Quần áo, đồ đạc của gia đình thuyền trưởng vẫn ở chỗ cũ.",
+        "hien": "Họ trèo lên tàu. **1.701 thùng cồn** vẫn còn nguyên. Quần áo, đồ đạc của gia đình thuyền trưởng vẫn ở chỗ cũ.",
+        "images": [
+          {
+            "mo_phong": "a small rowing boat with two sailors seen from behind approaching a drifting two-masted sailing ship on the grey Atlantic, seen from far away"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Barrels._%2852254707001%29.jpg/1920px-Barrels._%2852254707001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Barrels. (52254707001).jpg\" – Bernard Spragg. NZ from Christchurch, New Zealand, Public domain (https://commons.wikimedia.org/wiki/File:Barrels._(52254707001).jpg)"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Fredrik_Kolst%C3%B8_-_From_a_Cabin_-_NG.M.01047_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Fredrik Kolstø - From a Cabin - NG.M.01047 - National Museum of Art, Architecture and Design.jpg\" – Fredrik Kolstø, Public domain (https://commons.wikimedia.org/wiki/File:Fredrik_Kolst%C3%B8_-_From_a_Cabin_-_NG.M.01047_-_National_Museum_of_Art,_Architecture_and_Design.jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg/1920px-Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 01.jpg\" – Crawdad Blues, CC0 (https://commons.wikimedia.org/wiki/File:Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_(PEM_M6557)_01.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "text": "Nhưng thuyền trưởng Briggs, vợ ông, cô con gái hai tuổi và bảy thủy thủ… tất cả đã biến mất. Chiếc xuồng cứu sinh duy nhất cũng không còn.",
+        "hien": "Nhưng thuyền trưởng **Briggs**, vợ ông, con gái **2 tuổi** và **7 thủy thủ**… tất cả đã biến mất. Chiếc xuồng cứu sinh duy nhất cũng không còn.",
+        "images": [
+          {
+            "mo_phong": "a small wooden pump organ (melodeon) inside a 19th-century ship cabin, sheet music on its stand, a child's small rag doll on a chair, oil lamp light, no people"
+          },
+          {
+            "mo_phong": "a captain's cabin on a 19th-century ship, clothes folded on a bunk, books on a shelf, a small melodeon, untouched, quiet light, no people"
+          },
+          {
+            "mo_phong": "a small wooden lifeboat with a few tiny silhouetted figures rowing away across a vast grey ocean, seen from very far away, melancholic"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "text": "Nhật ký hàng hải dừng lại chín ngày trước đó. Trong khoang có nước, nhưng con tàu vẫn đi biển tốt. Không có dấu vết đánh nhau hay cướp bóc.",
+        "hien": "Nhật ký hàng hải dừng lại **9 ngày** trước đó. Trong khoang có nước, nhưng con tàu vẫn đi biển tốt. Không có dấu vết đánh nhau hay cướp bóc.",
+        "images": [
+          {
+            "mo_phong": "an old ship's logbook closed on a wooden table with a sea chart and a small child's shoe beside it, soft window light, no people"
+          },
+          {
+            "mo_phong": "dark seawater sloshing in the lower hold of a wooden ship among wooden barrels, a single lantern hanging from a beam, no people"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sextant_with_gyroscopic_horizon_-_XIX_century.JPG/1920px-Sextant_with_gyroscopic_horizon_-_XIX_century.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Sextant with gyroscopic horizon - XIX century.JPG\" – Stéphane Magnenat, Public domain (https://commons.wikimedia.org/wiki/File:Sextant_with_gyroscopic_horizon_-_XIX_century.JPG)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "doi_canh": true,
+        "text": "Rồi lời đồn lan khắp thế giới: bữa sáng còn nóng trên bàn, tách trà còn bốc khói, như thể mọi người vừa tan biến.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mary_Celeste_NYTimes_1873February26.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Mary Celeste NYTimes 1873February26.png\" – Boston Post, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_NYTimes_1873February26.png)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/View_of_South_Street%2C_New_York_City.jpg/1920px-View_of_South_Street%2C_New_York_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"View of South Street, New York City.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:View_of_South_Street,_New_York_City.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "cu_lat",
+        "text": "Nhưng chi tiết ấy… là bịa. Nó bắt nguồn từ một truyện ngắn hư cấu năm một nghìn tám trăm tám mươi tư, của một nhà văn trẻ tên Arthur Conan Doyle.",
+        "hien": "Nhưng chi tiết ấy… là **bịa**. Nó bắt nguồn từ một truyện ngắn hư cấu năm **1884**, của một nhà văn trẻ tên **Arthur Conan Doyle**.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/J_Habakuk_Jephsons_Statement_page_11_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"J Habakuk Jephsons Statement page 11 (cropped).jpg\" – William Small, Public domain (https://commons.wikimedia.org/wiki/File:J_Habakuk_Jephsons_Statement_page_11_(cropped).jpg)"
+          },
+          {
+            "mo_phong": "a young Victorian writer seen from behind in shadow, writing with a dip pen at a wooden desk by gaslight, pages and an inkwell, face not visible"
+          }
+        ]
+      },
+      {
+        "loai_canh": "cu_lat",
+        "text": "Ba năm sau, ông viết truyện đầu tiên về Sherlock Holmes.",
+        "hien": "**3 năm** sau, ông viết truyện đầu tiên về **Sherlock Holmes**.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Sherlock by C. A. Doyle - Holmes seated.jpg\" – Charles Altamont Doyle (1832-1893), Public domain (https://commons.wikimedia.org/wiki/File:Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "ket",
+        "text": "Giả thuyết hợp lý nhất: hơi cồn rò rỉ khiến thuyền trưởng sợ con tàu sắp nổ, nên cho mọi người xuống xuồng. Rồi chiếc xuồng lạc khỏi tàu, mãi mãi.",
+        "images": [
+          {
+            "mo_phong": "close-up of old oak barrels with metal hoops in a dark ship hold, faint vapor in lantern light, no people"
+          },
+          {
+            "mo_phong": "an open square wooden cargo hatch on the deck of a 19th-century sailing ship, faint vapor rising from the dark hold, lantern light, no people"
+          },
+          {
+            "mo_phong": "a frayed broken rope trailing in rough grey water behind a 19th-century sailing ship, strong wind, sea spray, no people"
+          }
+        ]
+      },
+      {
+        "loai_canh": "ket",
+        "text": "Có lẽ họ đã bỏ tàu vì một vụ nổ không bao giờ xảy ra. Bạn tin giả thuyết nào?",
+        "images": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mauritz_de_Haas_-_Sailing_through_Storms.jpg/1920px-Mauritz_de_Haas_-_Sailing_through_Storms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Mauritz de Haas - Sailing through Storms.jpg\" – Mauritz de Haas, Public domain (https://commons.wikimedia.org/wiki/File:Mauritz_de_Haas_-_Sailing_through_Storms.jpg)"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Joseph_Cartwright_-_Single_Brigantine%2C_Sails_Furled_-_B1984.21.5_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Joseph Cartwright - Single Brigantine, Sails Furled - B1984.21.5 - Yale Center for British Art.jpg\" – Joseph Cartwright, CC0 (https://commons.wikimedia.org/wiki/File:Joseph_Cartwright_-_Single_Brigantine,_Sails_Furled_-_B1984.21.5_-_Yale_Center_for_British_Art.jpg)"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -233,7 +233,7 @@ def beat_images(script, beats, work):
     return credits, used_ai
 
 
-def check_images(script, beats, log):
+def check_images(script, beats, log, kind="dai"):
     """Kiểm tra mọi ảnh trước khi đọc giọng / dựng (đỡ tốn tiền nếu ảnh hỏng).
     Ảnh mô phỏng AI lỗi -> tự tạo lại (tối đa 2 lần). Ảnh tư liệu lỗi -> dừng, báo để đổi ảnh."""
     import os
@@ -256,7 +256,7 @@ def check_images(script, beats, log):
             g["texts"].append("(câu sau) " + gemini_clean(beats[k + 1].get("text", "")))
         g["beats"].append(b)
     items = list(groups.values())
-    res = kiem_tra_anh.check(items, script["id"], "dai", log)
+    res = kiem_tra_anh.check(items, script["id"], kind, log)
     for attempt in range(2):
         redo = [it for it in items if it["ai"] and any(m == "loi" for m, _ in res.get(it["src"], []))]
         redo = [it for it in redo if it["beats"][0].get("mo_phong")]
@@ -269,13 +269,13 @@ def check_images(script, beats, log):
             f.unlink(missing_ok=True)
             ai_images.generate(b["mo_phong"] + ", " + WIDE_HINT + f", variation {attempt + 2}", f, log=log, wide=True,
                                style=ai_images.photo_style(b["mo_phong"]), cheap=True)
-        res = kiem_tra_anh.check(items, script["id"], "dai", log)
+        res = kiem_tra_anh.check(items, script["id"], kind, log)
     bad = [it for it in items if any(m == "loi" for m, _ in res.get(it["src"], []))]
     if bad and os.environ.get("FV_IMG_STRICT", "1") not in ("0", "no"):
         lines = []
         for it in bad:
             lines.append(Path(it["src"]).name + ": " + "; ".join(t for m, t in res[it["src"]] if m == "loi"))
-        raise RuntimeError("ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_%s_dai_kiemtra.txt):\n  " % script["id"]
+        raise RuntimeError("ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_%s_%s_kiemtra.txt):\n  " % (script["id"], kind)
                            + "\n  ".join(lines))
 
 

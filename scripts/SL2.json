@@ -346,7 +346,7 @@
           },
           {
             "text": "Có tài liệu ghi khoảng hai mươi nghìn con emu kéo đến. Chúng ăn lúa, giẫm nát cây, và phá những hàng rào, mở đường cho cả đàn thỏ tràn vào.",
-            "mo_phong": "a broken wire farm fence in a trampled wheat field in Western Australia, flattened wheat stalks, large three-toed bird footprints in the dust, no people"
+            "mo_phong": "a broken wire farm fence and flattened, trampled wheat stalks in a Western Australian wheat field, morning light, no people, no animals"
           }
         ]
       },
@@ -389,7 +389,10 @@
           },
           {
             "text": "Nghe thì quá đủ cho một bầy chim. Nhưng không ai ngờ chuyện gì sắp xảy ra.",
-            "mo_phong": "two Lewis machine guns and wooden ammunition crates on the open wooden cargo bed of an old 1930s truck parked in the outback, ominous cloudy sky, no people"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Ford_Model_AA_Truck_-_29121606272.jpg/1920px-Ford_Model_AA_Truck_-_29121606272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Ford Model AA Truck - 29121606272.jpg\" – SG2012, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ford_Model_AA_Truck_-_29121606272.jpg)"
+            }
           }
         ]
       },
@@ -411,10 +414,8 @@
           },
           {
             "text": "Súng nổ vài loạt. Một số con ngã xuống, nhưng phần lớn đàn chim nhanh chóng chạy khuất khỏi tầm bắn.",
-            "image": {
-              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers%2C_Bestanddeelnr_158-0901.jpg/1920px-A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers%2C_Bestanddeelnr_158-0901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-              "credit": "\"A Lewis gun in action in a front line trench near Orvillers, Bestanddeelnr 158-0901.jpg\" – Nationaal Archief, CC0 (https://commons.wikimedia.org/wiki/File:A_Lewis_gun_in_action_in_a_front_line_trench_near_Orvillers,_Bestanddeelnr_158-0901.jpg)"
-            }
+            "mo_phong": "dust and gunsmoke drifting over an empty dry outback plain, distant scrub and eucalyptus trees, no people, no animals",
+            "fx": "dust"
           },
           {
             "text": "Ngày bốn tháng mười một, thiếu tá Meredith đặt một trận phục kích gần một con đập nước, nơi đàn emu thường đến uống.",
@@ -477,8 +478,8 @@
           {
             "text": "Nhà điểu học Dominic Serventy về sau viết rằng đàn emu đã dùng chiến thuật du kích: chia nhỏ thành từng nhóm, khiến súng máy trở nên vô dụng.",
             "image": {
-              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Dromaius_novaehollandiae_%2826117425948%29.jpg/1920px-Dromaius_novaehollandiae_%2826117425948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-              "credit": "\"Dromaius novaehollandiae (26117425948).jpg\" – Donald Hobern from Copenhagen, Denmark, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Dromaius_novaehollandiae_(26117425948).jpg)"
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/PikiWiki_Israel_12748_Emu_in_israel.jpg/1920px-PikiWiki_Israel_12748_Emu_in_israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"PikiWiki Israel 12748 Emu in israel.jpg\" – ד\"ר אבישי טייכר, CC BY 2.5 (https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_12748_Emu_in_israel.jpg)"
             }
           },
           {
@@ -491,8 +492,8 @@
           {
             "text": "Ông còn được cho là đã nói: nếu có một sư đoàn chịu đạn giỏi như những con chim này, ông có thể đương đầu với bất kỳ đội quân nào trên thế giới.",
             "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lewis_machine_gun_crew%2C_Camp_Mills_LOC_21683009424.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"Lewis machine gun crew, Camp Mills LOC 21683009424.jpg\" – The Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Lewis_machine_gun_crew,_Camp_Mills_LOC_21683009424.jpg)"
+              "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL2xyL21vbnoxMjg0NTUyLWltYWdlLmpwZw.jpg",
+              "credit": "\"[two soldiers practising Lewis gun]\" – museumofnewzealand, CC0 (https://www.rawpixel.com/image/13028231/two-soldiers-practising-with-lewis-gun-1938-1939)"
             }
           },
           {

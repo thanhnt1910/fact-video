@@ -1,37 +1,38 @@
 
-===== ST4: kiểm tra kịch bản trước khi dựng =====
+===== BA1: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
+   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
 
-===== ST4 (video ngắn + bài ảnh) =====
-▶️  ST4: Người sống sót qua 2 quả bom nguyên tử
+===== BA4: kiểm tra kịch bản trước khi dựng =====
+
+===== BA4 (video ngắn + bài ảnh) =====
+▶️  BA4: Bí ẩn đèo Dyatlov: 9 người rạch lều từ bên trong
   🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 11 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  69.2 giây · 28 hình · trung bình 2.5 giây/hình · ⚠️ 2 hình đứng quá 4 giây
-  🎞️  Số lần: cut 15, dissolve 5, wipeleft 2, fade 2, wiperight 1, smoothup 1, fadeblack 1
-  🎬 Dựng 2077 khung hình (51s)
-  🎵 Nhạc nền: Heartbreaking
-  🖼️  Ảnh bìa: 3 phương án (ST4_bia_1.jpg, ST4_bia_2.jpg, ST4_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (ST4_post.txt)
-✅ Xong output/ST4/ST4.mp4  (69.2s video, mất 86s)
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+❌ BA4: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
-===== ST4 (video dài) =====
-▶️  Video dài ST4: Người duy nhất sống sót qua cả hai quả bom nguyên tử: câu chuyện của Tsutomu Yamaguchi
+===== BA4 (video dài) =====
+▶️  Video dài BA4: Vì sao 9 người leo núi rạch lều bỏ chạy giữa đêm tuyết? | Bí ẩn đèo Dyatlov
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 56 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 07:45 · 70 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-     56/56 ảnh có độ sâu
-     11173 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (111 giây)
-     … 6/12 đoạn (221 giây)
-     … 9/12 đoạn (321 giây)
-     … 12/12 đoạn (324 giây)
-     dựng khung hình xong trong 325 giây
-  🎵 Nhạc nền: Heartbreaking
-✅ Video dài: ST4_dai.mp4 (07:45)
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+     ⚠️  không tạo được ảnh mô phỏng: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🎙️  Giọng Gemini Sadaltager (9 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (24s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (17s)
+     🎙️  Gemini đọc xong 1 chương (26s)
+     🎙️  Gemini đọc xong 1 chương (16s)
+❌ Video dài BA4: thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
-Xong video ngắn: ST4 · video dài: ST4
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): BA4
+Lỗi: BA4

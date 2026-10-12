@@ -181,15 +181,26 @@
         "beats": [
           {
             "text": "Ngày bốn tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương. Thủy thủ trên tàu Dei Gratia nhìn thấy một con tàu lạ ở phía xa.",
-            "ai": "a 19th-century two-masted sailing ship seen far away on the grey Atlantic ocean, viewed from the deck of another ship, overcast morning, the distant ship's deck is empty, completely deserted, no people at all, no crew, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Jens_Thielsen_Locher_%26_Carl_Locher_-_Brigantine_%C3%98rnen_%281869%29.jpg/1920px-Jens_Thielsen_Locher_%26_Carl_Locher_-_Brigantine_%C3%98rnen_%281869%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Jens Thielsen Locher & Carl Locher - Brigantine Ørnen (1869).jpg\" – Jens Thielsen Locher / Carl Locher, Public domain (https://commons.wikimedia.org/wiki/File:Jens_Thielsen_Locher_%26_Carl_Locher_-_Brigantine_%C3%98rnen_(1869).jpg)"
+            },
+            "label": "Đại Tây Dương · 4/12/1872"
           },
           {
             "text": "Con tàu ấy đi lảo đảo, cánh buồm rách tả tơi, như không có ai cầm lái. Họ gọi lớn. Không ai trả lời.",
-            "ai": "a lone brigantine sailing erratically with torn sails on a rough grey sea, no people visible on deck, eerie, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg/1920px-Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Arthur Victor Gregory - Painting of the ship „Loch Etive“ in heavy storm - SLV H91.325-1034.jpg\" – Arthur Victor Gregory, Public domain (https://commons.wikimedia.org/wiki/File:Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg)"
+            },
+            "fx": "rain"
           },
           {
             "text": "Khi trèo lên boong, họ thấy hàng hóa còn nguyên, thức ăn và nước uống đủ dùng trong sáu tháng, đồ đạc cá nhân vẫn ở chỗ cũ.",
-            "ai": "an empty wooden ship cabin in the 1870s with personal belongings, a sea chest, folded clothes and an oil lamp, dim light, deserted"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Fredrik_Kolst%C3%B8_-_From_a_Cabin_-_NG.M.01047_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Fredrik Kolstø - From a Cabin - NG.M.01047 - National Museum of Art, Architecture and Design.jpg\" – Fredrik Kolstø, Public domain (https://commons.wikimedia.org/wiki/File:Fredrik_Kolst%C3%B8_-_From_a_Cabin_-_NG.M.01047_-_National_Museum_of_Art,_Architecture_and_Design.jpg)"
+            }
           },
           {
             "text": "Nhưng không còn một ai. Thuyền trưởng, vợ ông, cô con gái nhỏ hai tuổi và bảy thủy thủ… tất cả đã biến mất.",
@@ -200,7 +211,11 @@
             "label": "Mary Celeste · 1872"
           },
           {
-            "text": "Hơn một trăm năm mươi năm sau, bí ẩn về con tàu Mary Celeste vẫn chưa có lời giải. Và câu chuyện thật còn kỳ lạ hơn những lời đồn mà bạn từng nghe."
+            "text": "Hơn một trăm năm mươi năm sau, bí ẩn về con tàu Mary Celeste vẫn chưa có lời giải. Và câu chuyện thật còn kỳ lạ hơn những lời đồn mà bạn từng nghe.",
+            "image": {
+              "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL2ZuZzMwOTM4Mi1pbWFnZS5qcGc.jpg",
+              "credit": "\"Sailing ships storm, 1609 -\" – không rõ, CC0 (https://www.rawpixel.com/image/8864862/sailing-ships-storm-1609-1670)"
+            }
           }
         ]
       },
@@ -209,8 +224,8 @@
         "beats": [
           {
             "text": "Câu chuyện bắt đầu ở Spencer's Island, một làng đóng tàu nhỏ ở Nova Scotia, Canada. Năm một nghìn tám trăm sáu mươi mốt, một con tàu hai cột buồm được hạ thủy ở đây.",
-            "ai": "a calm small 19th-century shipyard on the coast of Nova Scotia, a wooden two-masted ship being built on wooden supports on the shore, a few shipwrights calmly working with hammers and saws, pine forest behind, sunrise",
-            "label": "Spencer's Island · Nova Scotia"
+            "label": "Nova Scotia · Canada · 1861",
+            "mo_phong": "a wooden two-masted ship under construction on wooden supports at a small 1860s shipyard on a quiet Nova Scotia shore, piles of timber, calm water, no people"
           },
           {
             "text": "Tên ban đầu của nó không phải là Mary Celeste, mà là Amazon.",
@@ -220,14 +235,26 @@
             }
           },
           {
-            "text": "Ngay từ những năm đầu, con tàu đã gặp hết tai nạn này đến tai nạn khác. Thủy thủ bắt đầu thì thầm rằng nó là một con tàu xui xẻo."
+            "text": "Ngay từ những năm đầu, con tàu đã gặp hết tai nạn này đến tai nạn khác. Thủy thủ bắt đầu thì thầm rằng nó là một con tàu xui xẻo.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Bonaventura_I_Peeters_-_Sea_storm_with_sailing_ships_-_Google_Art_Project.jpg/1920px-Bonaventura_I_Peeters_-_Sea_storm_with_sailing_ships_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Bonaventura I Peeters - Sea storm with sailing ships - Google Art Project.jpg\" – Bonaventura I Peeters (1614 - 1652) – Painter (Flemish) Born in Antwerp. Died in Hoboken (Antwerpen province). Details on Google Art Project, Public domain (https://commons.wikimedia.org/wiki/File:Bonaventura_I_Peeters_-_Sea_storm_with_sailing_ships_-_Google_Art_Project.jpg)"
+            }
           },
           {
             "text": "Năm một nghìn tám trăm sáu mươi bảy, một cơn bão đánh dạt con tàu vào bờ biển. Nó bị hư hỏng nặng và bị bỏ lại như một xác tàu.",
-            "ai": "a damaged wooden sailing ship stranded on a rocky shore after a storm, one broken mast, torn sails, grey sky, no people at all, the ship is a 19th-century two-masted brigantine merchant ship with exactly two masts, no flags"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Robert_Salmon_-_Ship_Aground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Robert Salmon - Ship Aground.jpg\" – Robert Salmon, Public domain (https://commons.wikimedia.org/wiki/File:Robert_Salmon_-_Ship_Aground.jpg)"
+            },
+            "fx": "rain"
           },
           {
-            "text": "Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste."
+            "text": "Một năm sau, xác tàu được bán cho người Mỹ, sửa chữa lại, và đăng ký ở New York với một cái tên mới: Mary Celeste.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/New_York._LOC_97683570.jpg/1920px-New_York._LOC_97683570.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"New York. LOC 97683570.jpg\" – Rogers, Peet & Co.; Currier & Ives, Public domain (https://commons.wikimedia.org/wiki/File:New_York._LOC_97683570.jpg)"
+            }
           }
         ]
       },
@@ -243,26 +270,47 @@
             "label": "Bàn viết của thuyền trưởng Briggs"
           },
           {
-            "text": "Ông xuất thân từ một gia đình đi biển ở bang Massachusetts, và còn góp vốn làm đồng chủ của chính con tàu Mary Celeste. Với ông, đây là một chuyến đi quan trọng."
+            "text": "Ông xuất thân từ một gia đình đi biển ở bang Massachusetts, và còn góp vốn làm đồng chủ của chính con tàu Mary Celeste. Với ông, đây là một chuyến đi quan trọng.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Winslow_Homer_-_Gloucester_Harbor_%281873%2C_watercolour%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Winslow Homer - Gloucester Harbor (1873, watercolour).jpg\" – Winslow Homer, Public domain (https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Gloucester_Harbor_(1873,_watercolour).jpg)"
+            }
           },
           {
             "text": "Lần này, ông mang theo vợ là bà Sarah, và cô con gái nhỏ Sophia, mới hai tuổi. Bà Sarah còn mang theo cả một cây đàn phong cầm nhỏ để chơi nhạc trên biển.",
-            "ai": "a young 1870s woman in a long dark dress sitting at a small wooden pump organ with black and white keys, a melodeon, inside a wooden ship cabin lit by a brass oil lamp, a toddler girl on a rug nearby, warm light, plain wooden walls, no electric lights, no switches, no sockets, no guitar"
+            "mo_phong": "a small wooden pump organ (melodeon) inside a 19th-century ship cabin, sheet music on its stand, a child's small rag doll on a chair, oil lamp light, no people"
           },
           {
-            "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ."
+            "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/NH_52029_%2817141175236%29.jpg/1920px-NH_52029_%2817141175236%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"NH 52029 (17141175236).jpg\" – National Museum of the U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:NH_52029_(17141175236).jpg)"
+            }
           },
           {
             "text": "Hàng trên tàu là một nghìn bảy trăm linh một thùng cồn công nghiệp, chở từ New York sang Genoa, nước Ý.",
-            "ai": "rows of wooden barrels stacked high in the dark cargo hold of a 19th-century ship, a single hanging lantern, completely deserted, no people at all, no crew"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Barrels._%2852254707001%29.jpg/1920px-Barrels._%2852254707001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Barrels. (52254707001).jpg\" – Bernard Spragg. NZ from Christchurch, New Zealand, Public domain (https://commons.wikimedia.org/wiki/File:Barrels._(52254707001).jpg)"
+            }
           },
           {
             "text": "Ngày năm tháng mười một, con tàu rời cảng New York. Thời tiết xấu khiến nó phải neo lại vài ngày, rồi mới thật sự ra khơi.",
-            "ai": "a brigantine leaving a 19th-century New York harbor in grey November weather, wooden piers, low brick warehouses and church steeples of the 1870s, no skyscrapers, no modern buildings, small boats around, the ship is a 19th-century two-masted brigantine merchant ship with square sails on the front mast, no flags, no pirate flag, no skull",
-            "label": "New York · 11/1872"
+            "label": "New York · 5/11/1872",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/The_Port_of_New_York.jpg/1920px-The_Port_of_New_York.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"The Port of New York.jpg\" – Currier & Ives, Public domain (https://commons.wikimedia.org/wiki/File:The_Port_of_New_York.jpg)"
+            }
           },
           {
-            "text": "Ít ngày sau, một con tàu khác cũng rời New York, đi theo gần như cùng một hướng. Đó là tàu Dei Gratia, của thuyền trưởng David Morehouse."
+            "text": "Ít ngày sau, một con tàu khác cũng rời New York, đi theo gần như cùng một hướng. Đó là tàu Dei Gratia, của thuyền trưởng David Morehouse.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Edmund_John_Niemann_%281813-1876%29_-_A_Brigantine_-_43_-_Tower_Hamlets_Local_History_Library_and_Archives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Edmund John Niemann (1813-1876) - A Brigantine - 43 - Tower Hamlets Local History Library and Archives.jpg\" – Edmund John Niemann, Public domain (https://commons.wikimedia.org/wiki/File:Edmund_John_Niemann_(1813-1876)_-_A_Brigantine_-_43_-_Tower_Hamlets_Local_History_Library_and_Archives.jpg)"
+            }
+          },
+          {
+            "text": "Và chỉ một tháng sau, con tàu được tìm thấy… trong một tình trạng không ai ngờ tới."
           }
         ]
       },
@@ -271,25 +319,37 @@
         "beats": [
           {
             "text": "Ngày bốn tháng mười hai, thủy thủ Dei Gratia nhận ra con tàu trôi lạc ấy. Họ quan sát suốt hai tiếng đồng hồ, không thấy một bóng người trên boong.",
-            "ai": "bearded 19th-century sailors in wool caps on a ship deck, one looking through a brass telescope at a distant ship on the ocean, tense, no glasses, the ship is a 19th-century two-masted brigantine merchant ship with square sails on the front mast, no flags, no pirate flag, no skull, serious mood, nobody is smiling"
+            "mo_phong": "view from the deck of a 19th-century sailing ship: a brass telescope resting on the wooden rail, coiled ropes, a distant two-masted ship on the grey ocean horizon, no people"
           },
           {
-            "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste."
+            "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Annotated_sketch_of_a_damaged_vessel_with_a_rowing_boat_in_the_foreground_RMG_PV3890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Annotated sketch of a damaged vessel with a rowing boat in the foreground RMG PV3890.jpg\" – William Lionel Wyllie, Public domain (https://commons.wikimedia.org/wiki/File:Annotated_sketch_of_a_damaged_vessel_with_a_rowing_boat_in_the_foreground_RMG_PV3890.jpg)"
+            }
           },
           {
             "text": "Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.",
-            "ai": "close-up of the empty wooden deck of an abandoned 19th-century sailing ship, coiled ropes, an open hatch, torn sails flapping overhead, overcast, eerie, ghost ship, no human figures at all"
+            "mo_phong": "the empty wooden deck of an abandoned 19th-century sailing ship, coiled ropes, an open hatch, torn sails overhead, overcast sky, no people"
           },
           {
-            "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại."
+            "text": "Họ gọi khắp tàu. Chỉ có tiếng sóng và tiếng gió đáp lại.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mauritz_de_Haas_-_Sailing_through_Storms.jpg/1920px-Mauritz_de_Haas_-_Sailing_through_Storms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Mauritz de Haas - Sailing through Storms.jpg\" – Mauritz de Haas, Public domain (https://commons.wikimedia.org/wiki/File:Mauritz_de_Haas_-_Sailing_through_Storms.jpg)"
+            },
+            "fx": "mist"
           },
           {
             "text": "Thuyền trưởng Morehouse phải quyết định: bỏ mặc con tàu ma này, hay chia bớt người để đưa nó về cảng. Đường còn xa, mà mỗi tàu sẽ chỉ còn rất ít người lái.",
-            "ai": "a thoughtful bearded 19th-century sea captain standing at the rail of his ship, frowning while looking at another drifting ship, wind in his coat, dramatic sky, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/John_Fairbairn_Fannen_%281847-1904%29_-_The_Brigantine_%27Aneroid%27_-_BHC3194_-_Royal_Museums_Greenwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"John Fairbairn Fannen (1847-1904) - The Brigantine 'Aneroid' - BHC3194 - Royal Museums Greenwich.jpg\" – John Fannen, Public domain (https://commons.wikimedia.org/wiki/File:John_Fairbairn_Fannen_(1847-1904)_-_The_Brigantine_%27Aneroid%27_-_BHC3194_-_Royal_Museums_Greenwich.jpg)"
+            }
           },
           {
             "text": "Phòng thuyền trưởng vẫn còn quần áo, sách vở và đồ đạc của cả gia đình. Không có dấu hiệu đánh nhau hay cướp bóc.",
-            "ai": "a captain's cabin on a 19th-century ship with clothes on a bunk, books on a shelf and a small melodeon, untouched, quiet light"
+            "mo_phong": "a captain's cabin on a 19th-century ship, clothes folded on a bunk, books on a shelf, a small melodeon, untouched, quiet light, no people"
           }
         ]
       },
@@ -298,21 +358,30 @@
         "beats": [
           {
             "text": "Trong khoang có khoảng một mét nước. Nhiều, nhưng không đủ để làm con tàu chìm. Mary Celeste vẫn đi biển tốt.",
-            "ai": "close-up of dark seawater sloshing in the lower hold of a wooden ship among floating wooden barrels, a single lantern hanging from a beam, reflections, no human figures at all"
+            "mo_phong": "dark seawater sloshing in the lower hold of a wooden ship among wooden barrels, a single lantern hanging from a beam, no people"
           },
           {
-            "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu."
+            "text": "Trên boong, người ta thấy một cây gậy đo nước được làm tạm, vứt lại. Như thể ai đó đã vội vàng đo xem nước trong tàu dâng cao đến đâu.",
+            "mo_phong": "an improvised wooden sounding rod lying on the wet deck planks of an old sailing ship beside a ship's pump, no people"
           },
           {
-            "text": "Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn."
+            "text": "Tủ đựng la bàn bị xô lệch, mặt kính vỡ. Nhưng thân tàu vẫn chắc chắn, không có dấu vết của va chạm hay hỏa hoạn.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ship_Binnacle.jpg/1920px-Ship_Binnacle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Ship Binnacle.jpg\" – Worldwidewebb77, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Ship_Binnacle.jpg)"
+            }
           },
           {
             "text": "Chiếc xuồng cứu sinh duy nhất của tàu đã biến mất. Cùng với nó là đồng hồ hàng hải, kính lục phân và gần hết giấy tờ của con tàu.",
-            "ai": "an empty wooden davit and loose ropes hanging over the side of a sailing ship where a lifeboat used to be, grey ocean below, completely deserted, no people at all, no crew"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Marine_chronometer%2C_Stockholm%2C_1845%2C_TM44861_-_Tekniska_museet_-_Stockholm%2C_Sweden_-_DSC01400.JPG/1920px-Marine_chronometer%2C_Stockholm%2C_1845%2C_TM44861_-_Tekniska_museet_-_Stockholm%2C_Sweden_-_DSC01400.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Marine chronometer, Stockholm, 1845, TM44861 - Tekniska museet - Stockholm, Sweden - DSC01400.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Marine_chronometer,_Stockholm,_1845,_TM44861_-_Tekniska_museet_-_Stockholm,_Sweden_-_DSC01400.JPG)"
+            }
           },
           {
             "text": "Nghĩa là mọi người đã rời tàu bằng xuồng, và có vẻ là rời đi rất vội.",
-            "ai": "a small wooden lifeboat with a few silhouetted people rowing away across a vast grey ocean, seen from far away, melancholic"
+            "mo_phong": "a small wooden lifeboat with a few tiny silhouetted figures rowing away across a vast grey ocean, seen from very far away, melancholic",
+            "fx": "mist"
           },
           {
             "text": "Cuốn nhật ký hàng hải vẫn còn. Dòng cuối cùng được ghi lúc tám giờ sáng ngày hai mươi lăm tháng mười một, khi tàu đi ngang đảo Santa Maria thuộc quần đảo Azores.",
@@ -323,7 +392,14 @@
             "label": "Đảo Santa Maria · Azores"
           },
           {
-            "text": "Từ đó đến khi được tìm thấy là chín ngày. Không người lái, Mary Celeste đã tự trôi hơn bảy trăm cây số trên biển."
+            "text": "Từ đó đến khi được tìm thấy là chín ngày. Không người lái, Mary Celeste đã tự trôi hơn bảy trăm cây số trên biển.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Brigantine_Industria.jpg/1920px-Brigantine_Industria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Brigantine Industria.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Brigantine_Industria.jpg)"
+            }
+          },
+          {
+            "text": "Nhưng câu chuyện chưa dừng lại ở đó. Ở Gibraltar, một người bắt đầu nghi ngờ chính những người đã cứu con tàu."
           }
         ]
       },
@@ -340,7 +416,11 @@
           },
           {
             "text": "Nhưng tại phiên tòa, ông Frederick Solly-Flood, người đứng đầu việc thẩm vấn, lại đầy nghi ngờ.",
-            "ai": "a 19th-century British colonial courtroom with wooden benches and a judge's bench, stern gentlemen with different faces in dark frock coats listening, quill pens and papers on the desks, no microphone, tense hearing, serious mood, nobody is smiling"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Courtroom_Sydney_c1817.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Courtroom Sydney c1817.jpg\" – Edward Charles Close (1790-1866), Public domain (https://commons.wikimedia.org/wiki/File:Courtroom_Sydney_c1817.jpg)"
+            },
+            "label": "Gibraltar · 1872"
           },
           {
             "text": "Ông cho rằng có thể thủy thủ đã uống rượu say, giết thuyền trưởng và gia đình.",
@@ -351,17 +431,30 @@
             "label": "Báo New York Times · 26/2/1873"
           },
           {
-            "text": "Những vết đỏ trên boong được đem đi xét nghiệm. Kết quả: không phải máu. Thanh kiếm tìm thấy trên tàu chỉ có vết gỉ sét."
+            "text": "Những vết đỏ trên boong được đem đi xét nghiệm. Kết quả: không phải máu. Thanh kiếm tìm thấy trên tàu chỉ có vết gỉ sét.",
+            "mo_phong": "an old rusty naval sword lying on weathered wooden deck planks with faint reddish-brown stains, close-up, no people"
           },
           {
-            "text": "Phiên điều tra kéo dài gần bốn tháng. Báo chí khắp nơi đưa tin, và mỗi người đưa ra một giả thuyết khác nhau."
+            "text": "Phiên điều tra kéo dài gần bốn tháng. Báo chí khắp nơi đưa tin, và mỗi người đưa ra một giả thuyết khác nhau.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/View_of_South_Street%2C_New_York_City.jpg/1920px-View_of_South_Street%2C_New_York_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"View of South Street, New York City.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:View_of_South_Street,_New_York_City.jpg)"
+            }
           },
           {
-            "text": "Không tìm được bằng chứng nào về tội ác. Cuối cùng, người cứu tàu chỉ nhận được khoảng một phần năm giá trị con tàu và hàng hóa, ít hơn nhiều so với mong đợi."
+            "text": "Không tìm được bằng chứng nào về tội ác. Cuối cùng, người cứu tàu chỉ nhận được khoảng một phần năm giá trị con tàu và hàng hóa, ít hơn nhiều so với mong đợi.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/1870s_-_G_Washington_Wilson_-_Main_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"1870s - G Washington Wilson - Main Street.jpg\" – George Washington Wilson, Public domain (https://commons.wikimedia.org/wiki/File:1870s_-_G_Washington_Wilson_-_Main_Street.jpg)"
+            }
           },
           {
             "text": "Một thuyền trưởng mới, một thủy thủ đoàn mới, đưa Mary Celeste tiếp tục đến Genoa. Còn mười con người kia thì không bao giờ được tìm thấy.",
-            "ai": "a sailing ship leaving the harbor of Gibraltar with the great Rock behind it, golden afternoon light, the ship is a 19th-century two-masted brigantine merchant ship with square sails on the front mast, no flags, no pirate flag, no skull"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/A_view_of_Gibraltar_harbour.jpg/1920px-A_view_of_Gibraltar_harbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"A view of Gibraltar harbour.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:A_view_of_Gibraltar_harbour.jpg)"
+            },
+            "label": "Gibraltar · 1873"
           }
         ]
       },
@@ -370,15 +463,22 @@
         "beats": [
           {
             "text": "Có lẽ bạn từng nghe: trên bàn còn bữa ăn đang ấm, tẩu thuốc còn bốc khói, như thể mọi người vừa biến mất trong tích tắc.",
-            "ai": "a ship's dining table set with plates of warm food and a smoking pipe in an ashtray, all the chairs empty and pushed back, no people, ghostly candlelight, mysterious, 19th-century ship cabin"
+            "mo_phong": "a ship's dining table set with plates of food and a pipe in an ashtray, all chairs empty and pushed back, ghostly light, no people"
           },
           {
-            "text": "Những chi tiết ấy là sai. Con tàu đã trôi một mình suốt chín ngày, và trong biên bản không hề có bữa ăn nào dọn sẵn trên bàn."
+            "text": "Những chi tiết ấy là sai. Con tàu đã trôi một mình suốt chín ngày, và trong biên bản không hề có bữa ăn nào dọn sẵn trên bàn.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Joseph_Cartwright_-_Single_Brigantine%2C_Sails_Furled_-_B1984.21.5_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Joseph Cartwright - Single Brigantine, Sails Furled - B1984.21.5 - Yale Center for British Art.jpg\" – Joseph Cartwright, CC0 (https://commons.wikimedia.org/wiki/File:Joseph_Cartwright_-_Single_Brigantine,_Sails_Furled_-_B1984.21.5_-_Yale_Center_for_British_Art.jpg)"
+            }
           },
           {
             "text": "Năm một nghìn tám trăm tám mươi tư, một nhà văn trẻ viết một truyện ngắn hư cấu dựa trên con tàu này, đổi tên nó thành Marie Celeste.",
-            "ai": "a young Victorian writer with a moustache writing at a desk by gaslight, pages and an inkwell, seen from the side in shadow",
-            "label": "Arthur Conan Doyle · 1884"
+            "label": "Arthur Conan Doyle · 1884",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/J_Habakuk_Jephsons_Statement_page_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"J Habakuk Jephsons Statement page 11.jpg\" – Arthur Conan Doyle / William Small, Public domain (https://commons.wikimedia.org/wiki/File:J_Habakuk_Jephsons_Statement_page_11.jpg)"
+            }
           },
           {
             "text": "Nhà văn ấy là Arthur Conan Doyle. Ba năm sau, ông viết truyện đầu tiên về thám tử Sherlock Holmes.",
@@ -389,13 +489,28 @@
             "label": "Sherlock Holmes · tranh minh họa 1888"
           },
           {
-            "text": "Truyện của Doyle hay đến mức nhiều người tưởng là chuyện thật. Cái tên sai Marie Celeste cũng lan rộng khắp nơi."
+            "text": "Truyện của Doyle hay đến mức nhiều người tưởng là chuyện thật. Cái tên sai Marie Celeste cũng lan rộng khắp nơi.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Strand_Magazine_%28Volume_26_Issue_155_Page_487%29_The_Return_of_Sherlock_Homes_-_The_wretched_young_man_arose.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"The Strand Magazine (Volume 26 Issue 155 Page 487) The Return of Sherlock Homes - The wretched young man arose.png\" – Author: Arthur Conan Doyle\nEditor: George Newnes\n\nIllustrator: Unknown, Public domain (https://commons.wikimedia.org/wiki/File:The_Strand_Magazine_(Volume_26_Issue_155_Page_487)_The_Return_of_Sherlock_Homes_-_The_wretched_young_man_arose.png)"
+            }
           },
           {
-            "text": "Về sau còn có những bài báo và cả một cuốn sách tự xưng là lời kể của người sống sót. Tất cả đều là bịa đặt."
+            "text": "Về sau còn có những bài báo và cả một cuốn sách tự xưng là lời kể của người sống sót. Tất cả đều là bịa đặt.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/%22How_It_Happened%22_in_The_Strand_Magazine_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"\"How It Happened\" in The Strand Magazine 01.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:%22How_It_Happened%22_in_The_Strand_Magazine_01.jpg)"
+            }
           },
           {
-            "text": "Năm một nghìn chín trăm mười ba, một tạp chí ở London còn đăng hồi ký của một người tự nhận là thủy thủ sống sót, kể rằng mọi người rơi xuống biển và bị cá mập ăn thịt. Câu chuyện ấy sai nhiều chi tiết, từ con tàu đến quốc tịch của các thủy thủ."
+            "text": "Năm một nghìn chín trăm mười ba, một tạp chí ở London còn đăng hồi ký của một người tự nhận là thủy thủ sống sót, kể rằng mọi người rơi xuống biển và bị cá mập ăn thịt. Câu chuyện ấy sai nhiều chi tiết, từ con tàu đến quốc tịch của các thủy thủ.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Clarence_p582_Strand_Magazine_v45_1913.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Clarence p582 Strand Magazine v45 1913.png\" – Charles Exeter Devereux Crombie, Public domain (https://commons.wikimedia.org/wiki/File:Clarence_p582_Strand_Magazine_v45_1913.png)"
+            }
+          },
+          {
+            "text": "Vậy rốt cuộc, chuyện gì đã thực sự xảy ra với mười con người ấy?"
           }
         ]
       },
@@ -404,41 +519,58 @@
         "beats": [
           {
             "text": "Giả thuyết hải tặc ít được tin, vì hàng hóa và đồ đạc quý vẫn còn nguyên. Giả thuyết thủy thủ nổi loạn cũng không có bằng chứng.",
-            "ai": "a closed wooden sea chest with brass fittings and a few silver coins beside it, untouched, inside a ship cabin, completely deserted, no people at all, no crew"
+            "mo_phong": "a closed wooden sea chest with brass fittings and a few silver coins beside it inside a ship cabin, untouched, no people"
           },
           {
             "text": "Giả thuyết được nhiều người tin nhất liên quan đến chính món hàng: cồn.",
-            "ai": "close-up of old oak barrels with metal hoops in a ship hold, faint vapor in lantern light"
+            "mo_phong": "close-up of old oak barrels with metal hoops in a dark ship hold, faint vapor in lantern light, no people"
           },
           {
             "text": "Khi dỡ hàng ở Genoa, người ta phát hiện chín thùng đã rỗng. Hơi cồn rò rỉ có thể đã tích tụ trong khoang.",
-            "ai": "dock workers unloading wooden barrels from a sailing ship at a 19th-century Italian harbor, one barrel cracked and empty, the workers look puzzled, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
+            "mo_phong": "19th-century harbor of Genoa, wooden barrels stacked on a stone quay beside a moored sailing ship, one barrel cracked open and empty, no people",
+            "label": "Genoa · Ý"
           },
           {
             "text": "Có thể thuyền trưởng nghe thấy tiếng nổ nhỏ, hoặc ngửi thấy mùi cồn nồng nặc, và sợ cả con tàu sắp nổ tung.",
-            "ai": "a 19th-century sea captain in a plain dark coat and cap stepping back in alarm from an open square wooden cargo hatch in the deck of a wooden sailing ship at night, a faint blue glow rising from the hold, only one person, serious mood, nobody is smiling"
+            "mo_phong": "an open square wooden cargo hatch on the deck of a 19th-century sailing ship, faint vapor rising from the dark hold, lantern light, no people"
           },
           {
-            "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy."
+            "text": "Năm hai nghìn không trăm linh sáu, nhà hóa học Andrea Sella dựng lại mô hình khoang tàu, cho hơi dễ cháy bén lửa. Kết quả là một vụ nổ đủ mạnh để làm người ta hoảng sợ, nhưng không để lại vết cháy.",
+            "mo_phong": "a modern chemistry laboratory bench with a small transparent model box and soft blue flames flickering inside it, safety glasses beside it, no people"
           },
           {
             "text": "Một giả thuyết khác: máy bơm bị tắc, cây gậy đo nước báo sai, khiến thuyền trưởng tưởng tàu đang chìm nhanh.",
-            "ai": "a worried sea captain leaning over a ship's pump at dusk, waves splashing on deck"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Pumping_system_as_designed_by_Captain_Truscott_and_fitted_to_Havock_%281805%29_RMG_J0717.png/1920px-Pumping_system_as_designed_by_Captain_Truscott_and_fitted_to_Havock_%281805%29_RMG_J0717.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Pumping system as designed by Captain Truscott and fitted to Havock (1805) RMG J0717.png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Pumping_system_as_designed_by_Captain_Truscott_and_fitted_to_Havock_(1805)_RMG_J0717.png)"
+            }
           },
           {
             "text": "Có người cho rằng một cột nước xoáy trên biển đã quét qua con tàu, làm thiết bị đo báo sai và khiến mọi người hoảng loạn.",
-            "ai": "a dramatic waterspout twisting over a dark ocean near a small two-masted sailing ship, stormy clouds, frightened crew on deck, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/1896_Massachusetts_waterspout.png/1920px-1896_Massachusetts_waterspout.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"1896 Massachusetts waterspout.png\" – https://www.flickr.com/people/95329455@N02, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:1896_Massachusetts_waterspout.png)"
+            },
+            "fx": "rain+lightning"
           },
           {
             "text": "Cũng có những giả thuyết về quái vật biển, mực khổng lồ, thậm chí người ngoài hành tinh. Không cái nào có bằng chứng.",
-            "ai": "giant octopus tentacles rising from a dark ocean around a small two-masted sailing ship at night, a legendary sea monster scene, dramatic"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Histoire_naturelle%2C_g%C3%A9n%C3%A9rale_et_particuli%C3%A8re_des_mollusques_%286261008252%29.jpg/1920px-Histoire_naturelle%2C_g%C3%A9n%C3%A9rale_et_particuli%C3%A8re_des_mollusques_%286261008252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Histoire naturelle, générale et particulière des mollusques (6261008252).jpg\" – Buffon, Georges Louis Leclerc; Denys de Montfort, Pierre; Roissy, Felix de.; Sonnini, C. S., Public domain (https://commons.wikimedia.org/wiki/File:Histoire_naturelle,_g%C3%A9n%C3%A9rale_et_particuli%C3%A8re_des_mollusques_(6261008252).jpg)"
+            }
           },
           {
             "text": "Dù vì lý do gì, có thể họ đã xuống xuồng, buộc dây vào tàu để chờ xem chuyện gì xảy ra. Rồi gió nổi lên, dây đứt, và con tàu bỏ lại họ giữa đại dương.",
-            "ai": "a frayed rope snapping between a small lifeboat and a sailing ship pulling away in strong wind, the people in the lifeboat look terrified, dramatic ocean, serious somber mood, everyone has serious or worried facial expressions, nobody is smiling or laughing, no children, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "mo_phong": "a frayed broken rope trailing in rough grey water behind a 19th-century sailing ship, strong wind, sea spray, no people",
+            "fx": "rain"
           },
           {
-            "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật."
+            "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật.",
+            "image": {
+              "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3Nta2trczI4OTRpLWltYWdlLmpwZw.jpg",
+              "credit": "\"Sailing ships in a storm\" – không rõ, CC0 (https://www.rawpixel.com/image/8706941/sailing-ships-storm)"
+            }
           }
         ]
       },
@@ -447,26 +579,44 @@
         "beats": [
           {
             "text": "Sau vụ việc, tiếng xui của Mary Celeste càng nặng hơn. Con tàu đổi chủ liên tục, ít ai muốn làm việc trên đó.",
-            "ai": "a weathered old brigantine moored alone at the end of a quiet harbor, peeling paint, gulls, melancholic, the ship is a 19th-century two-masted brigantine with square sails on the front mast"
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Boudin%2C_Eug%C3%A8ne%2C_Fishing_Boats_at_Kerhor%2C_1872.jpg/1920px-Boudin%2C_Eug%C3%A8ne%2C_Fishing_Boats_at_Kerhor%2C_1872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Boudin, Eugène, Fishing Boats at Kerhor, 1872.jpg\" – Eugène Louis Boudin, Public domain (https://commons.wikimedia.org/wiki/File:Boudin,_Eug%C3%A8ne,_Fishing_Boats_at_Kerhor,_1872.jpg)"
+            }
           },
           {
             "text": "Năm một nghìn tám trăm tám mươi lăm, thuyền trưởng Gilman Parker chất lên tàu một đống hàng gần như vô giá trị nhưng khai là hàng đắt tiền, rồi mua bảo hiểm thật cao.",
-            "ai": "cheap broken crates and junk loaded onto a sailing ship at a dock while a man in a coat checks a ledger, shady mood"
+            "mo_phong": "cheap broken wooden crates and junk piled on a 19th-century dock beside a sailing ship, an open ledger with blank pages on a barrel, no people"
           },
           {
             "text": "Ngày ba tháng một, ông cố tình lái Mary Celeste đâm vào một rạn san hô ngoài khơi Haiti, để lấy tiền bảo hiểm.",
-            "ai": "a sailing ship deliberately run aground on a coral reef near a Caribbean island, turquoise water, broken hull, the ship is a 19th-century two-masted brigantine with square sails on the front mast",
-            "label": "Haiti · 1885"
+            "label": "Haiti · 1885",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/An_Indiaman_Stranded_c1842_RMG_PU6409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"An Indiaman Stranded c1842 RMG PU6409.jpg\" – Jobbins, J R (engraver); Tilt, Charles (publisher), Public domain (https://commons.wikimedia.org/wiki/File:An_Indiaman_Stranded_c1842_RMG_PU6409.jpg)"
+            }
           },
           {
-            "text": "Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau."
+            "text": "Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Maryland_-_Scene_in_the_Court-House_at_Annapolis_-_Trial_of_Mrs._Wharton_on_the_charge_of_murdering_General_Ketchum_by_poison_-_from_a_sketch_by_Jas._E._Taylor._LCCN2006683827.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Maryland - Scene in the Court-House at Annapolis - Trial of Mrs. Wharton on the charge of murdering General Ketchum by poison - from a sketch by Jas. E. Taylor. LCCN2006683827.jpg\" – Taylor, James E., 1839-1901, artist, Public domain (https://commons.wikimedia.org/wiki/File:Maryland_-_Scene_in_the_Court-House_at_Annapolis_-_Trial_of_Mrs._Wharton_on_the_charge_of_murdering_General_Ketchum_by_poison_-_from_a_sketch_by_Jas._E._Taylor._LCCN2006683827.jpg)"
+            }
           },
           {
             "text": "Năm hai nghìn không trăm linh một, một đoàn thám hiểm tuyên bố đã tìm thấy xác Mary Celeste ở rạn san hô ấy. Nhưng phân tích vân gỗ cho thấy gỗ đó đến từ những cái cây vẫn còn sống… mười năm sau khi Mary Celeste bị đắm.",
-            "ai": "scuba divers in modern diving suits with masks and air tanks examining old wooden ship timbers on a coral reef underwater, sunbeams, turquoise water"
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/NOAA_divers_survey_coral_reef_Rose_Atoll_southwest_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"NOAA divers survey coral reef Rose Atoll southwest 2023.png\" – NOAA Fisheries/Hannah Barkley, Public domain (https://commons.wikimedia.org/wiki/File:NOAA_divers_survey_coral_reef_Rose_Atoll_southwest_2023.png)"
+            },
+            "label": "2001"
           },
           {
-            "text": "Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn."
+            "text": "Vậy là đến cả xác của con tàu, cũng vẫn là một bí ẩn.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Disingtegration_of_shipwreck_on_Palmyra_Atoll_%2812197448566%29.jpg/1920px-Disingtegration_of_shipwreck_on_Palmyra_Atoll_%2812197448566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Disingtegration of shipwreck on Palmyra Atoll (12197448566).jpg\" – USFWS - Pacific Region, Public domain (https://commons.wikimedia.org/wiki/File:Disingtegration_of_shipwreck_on_Palmyra_Atoll_(12197448566).jpg)"
+            }
           }
         ]
       },
@@ -475,10 +625,14 @@
         "beats": [
           {
             "text": "Mười con người. Một con tàu còn nguyên vẹn. Một cuốn nhật ký dừng lại ở dòng cuối cùng.",
-            "ai": "an old ship's logbook closed on a table with a sea chart and a small child's shoe beside it, soft window light, poignant"
+            "mo_phong": "an old ship's logbook closed on a wooden table with a sea chart and a small child's shoe beside it, soft window light, no people"
           },
           {
-            "text": "Họ không phải những nhân vật trong truyện. Họ là một người cha, một người mẹ, một em bé hai tuổi, và bảy thủy thủ có gia đình đang chờ ở quê nhà."
+            "text": "Họ không phải những nhân vật trong truyện. Họ là một người cha, một người mẹ, một em bé hai tuổi, và bảy thủy thủ có gia đình đang chờ ở quê nhà.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/The_78-Ton_Brigantine_%27The_Advocate%27_off_St._Helier%2C_Jersey%2C_1849_by_John_Wilson_Carmichael.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"The 78-Ton Brigantine 'The Advocate' off St. Helier, Jersey, 1849 by John Wilson Carmichael.jpg\" – James Wilson Carmichael, Public domain (https://commons.wikimedia.org/wiki/File:The_78-Ton_Brigantine_%27The_Advocate%27_off_St._Helier,_Jersey,_1849_by_John_Wilson_Carmichael.jpg)"
+            }
           },
           {
             "text": "Có lẽ họ đã ra đi vì một nỗi sợ, một quyết định vội vàng trong khoảnh khắc. Một quyết định mà con tàu, trớ trêu thay, lại vượt qua được.",
@@ -489,7 +643,7 @@
           },
           {
             "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
-            "ai": "an old oil lantern glowing on a wooden table beside an open history book, dark room, cozy"
+            "mo_phong": "an old oil lantern glowing on a wooden table beside an open old book with blank pages, dark room, no people"
           }
         ]
       }

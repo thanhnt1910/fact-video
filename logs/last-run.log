@@ -1,23 +1,13 @@
 
 ===== BA1: kiểm tra kịch bản trước khi dựng =====
 
-===== BA1 (video dài) =====
-▶️  Video dài BA1: Vì sao cả 10 người biến mất khỏi một con tàu còn nguyên vẹn? | Bí ẩn tàu Mary Celeste
-  🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 64 ảnh: 0 ảnh lỗi, 6 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 09:57 · 64 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-12 03:20:42.500056437 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
-     64/64 ảnh có độ sâu
-     14333 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (151 giây)
-     … 6/12 đoạn (314 giây)
-     … 9/12 đoạn (433 giây)
-     … 12/12 đoạn (450 giây)
-     dựng khung hình xong trong 450 giây
-  🎵 Nhạc nền: Investigations
-✅ Video dài: BA1_dai.mp4 (09:57)
+===== BA1 (video ngắn + bài ảnh) =====
+▶️  BA1: Con tàu trôi giữa đại dương, không còn một bóng người
+  🖼️  Tìm ảnh minh họa (chỉ ảnh giấy phép mở)
+  🔍 Kiểm tra 7 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
+❌ BA1: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA1_ngan_kiemtra.txt)
 
-Xong video ngắn: - · video dài: BA1
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+
+Xong video ngắn: - · video dài: -
+Lỗi: BA1

@@ -1,0 +1,10 @@
+KIỂM TRA ẢNH BA1 · video ngắn · 7 ảnh (số thứ tự khớp lưới ảnh anh_BA1_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 · hook scene_00.jpg
+❌ 2 · text scene_01.jpg
+     ❌ ảnh rất mờ / nhòe (độ nét 23)
+✅ 3 · explain scene_02.jpg
+✅ 4 · number scene_03.jpg
+✅ 5 · text scene_04.jpg
+✅ 6 · explain scene_05.jpg
+⚠️ 7 · outro scene_06.jpg
+     ⚠️ ảnh có dấu hiệu vỡ khối JPEG (tỉ lệ 1.8)

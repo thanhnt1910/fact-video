@@ -6,18 +6,14 @@
   🖼️  Ảnh cho video ngắn
   🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-  🎙️  Gemini đọc xong (27s), tốc độ x1.12
   🪧 11 thẻ thông tin (không phụ đề chạy liên tục)
   ⏱️  69.2 giây · 28 hình · trung bình 2.5 giây/hình · ⚠️ 2 hình đứng quá 4 giây
   🎞️  Số lần: cut 15, dissolve 5, wipeleft 2, fade 2, wiperight 1, smoothup 1, fadeblack 1
-[0;93m2026-10-12 14:43:57.900441879 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
   🎬 Dựng 2077 khung hình (51s)
   🎵 Nhạc nền: Heartbreaking
   🖼️  Ảnh bìa: 3 phương án (ST4_bia_1.jpg, ST4_bia_2.jpg, ST4_bia_3.jpg)
   🖼️  Bài đăng ảnh: 5 ảnh + bài viết (ST4_post.txt)
-✅ Xong output/ST4/ST4.mp4  (69.2s video, mất 140s)
+✅ Xong output/ST4/ST4.mp4  (69.2s video, mất 86s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
@@ -26,29 +22,16 @@ Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
   🖼️  Ảnh cho video dài
   🔍 Kiểm tra 56 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (10 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (18s)
-     🎙️  Gemini đọc xong 1 chương (21s)
-     🎙️  Gemini đọc xong 1 chương (16s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (24s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (13s)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (16s)
   ⏱️  Thời lượng 07:45 · 70 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-12 14:48:51.391310099 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
      56/56 ảnh có độ sâu
      11173 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (109 giây)
-     … 6/12 đoạn (225 giây)
-     … 9/12 đoạn (326 giây)
-     … 12/12 đoạn (326 giây)
-     dựng khung hình xong trong 327 giây
+     … 3/12 đoạn (111 giây)
+     … 6/12 đoạn (221 giây)
+     … 9/12 đoạn (321 giây)
+     … 12/12 đoạn (324 giây)
+     dựng khung hình xong trong 325 giây
   🎵 Nhạc nền: Heartbreaking
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
 ✅ Video dài: ST4_dai.mp4 (07:45)
 
 Xong video ngắn: ST4 · video dài: ST4

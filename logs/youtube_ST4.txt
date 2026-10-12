@@ -17,7 +17,7 @@ Sáng 6/8/1945, kỹ sư Tsutomu Yamaguchi quay lại chỗ làm ở Hiroshima c
 
 #nguoigacsu #sinhtồn #lịchsử #chuyệncóthật #hiroshima
 
-📌 Video sử dụng giọng đọc AI và một số ảnh minh họa tạo bằng AI (có ghi nhãn "Ảnh minh họa" trên hình).
+📌 Video sử dụng giọng đọc AI và một số tranh minh họa tạo bằng AI.
 🎵 Nhạc: "Heartbreaking" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)
 
 ──── GHI CHÚ (không đăng) ────
@@ -30,4 +30,4 @@ Nguồn kiểm chứng:
 
 ──── PHỤ ĐỀ ────
 YouTube Studio → video → Phụ đề → Thêm ngôn ngữ → Tiếng Việt → Tải tệp lên → ST4_dai_vi.srt
-Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file ST4_dai_youtube_en.txt, rồi tải phụ đề ST4_dai_en.srt.
+Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file ST4_dai_youtube_en.txt, rồi tải phụ đề ST4.en_US.srt (Facebook tự nhận tiếng Anh theo tên file).

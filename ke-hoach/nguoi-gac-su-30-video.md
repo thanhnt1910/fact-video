@@ -112,7 +112,7 @@ Mỗi lần chạy, Telegram **chỉ nhận video đã dựng xong, mỗi video 
 ### 💬 Bình luận của chủ kênh
 Ngay sau khi đăng, chủ kênh tự bình luận vào video của mình để mở đầu cuộc trò chuyện. Bình luận đầu tiên có nội dung hay giúp người xem dừng lại đọc, bình luận theo, và báo cho thuật toán là video có tương tác.
 
-**Máy tự viết sẵn cho mỗi video** (cả video ngắn và video dài), lưu trong `logs/caption_<mã>.txt` và `logs/youtube_<mã>.txt`, gửi kèm tin Telegram thứ hai:
+**Claude viết sẵn khi viết kịch bản** (trường `binh_luan` trong kịch bản JSON, riêng cho video ngắn `ngan` và video dài `dai`; kịch bản thiếu trường này thì máy tự soạn bản đơn giản từ mô tả và nguồn). Bình luận nằm trong `logs/caption_<mã>.txt` và `logs/youtube_<mã>.txt`, mỗi bình luận một khối riêng trong tin Telegram thứ hai:
 - **1 bình luận để ghim** (bắt buộc), chọn một trong các kiểu:
   - **Chi tiết thêm không có trong video:** *"Chi tiết mình chưa kịp kể: trên tàu Mary Celeste còn nguyên đồ đạc cá nhân của thủy thủ, kể cả ống điếu thuốc. Người ta bỏ tàu đi vội đến mức nào?"*
   - **Câu hỏi chọn phe:** *"Theo bạn chuyện gì đã xảy ra? Ⓐ bỏ tàu vì sợ nổ · Ⓑ bị cướp biển · Ⓒ một điều khác? Bình luận chữ cái của bạn nhé."*

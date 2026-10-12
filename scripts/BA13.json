@@ -183,18 +183,12 @@
           },
           {
             "text": "Ngay khi vừa lên ngôi, vị vua trẻ đã cho bắt đầu xây lăng mộ cho chính mình, dưới chân núi Ly Sơn.",
-            "image": {
-              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E8%A2%81%E8%80%80%E9%AA%8A%E5%B1%B1%E9%81%BF%E6%9A%91%E5%9B%BE%E5%B1%8F.jpg/1920px-%E8%A2%81%E8%80%80%E9%AA%8A%E5%B1%B1%E9%81%BF%E6%9A%91%E5%9B%BE%E5%B1%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-              "credit": "\"袁耀骊山避暑图屏.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:%E8%A2%81%E8%80%80%E9%AA%8A%E5%B1%B1%E9%81%BF%E6%9A%91%E5%9B%BE%E5%B1%8F.jpg)"
-            },
-            "label": "Núi Ly Sơn · Thiểm Tây"
+            "label": "Núi Ly Sơn · Thiểm Tây",
+            "mo_phong": "the Mount Li mountain range in northern China at sunrise, mist filling the valleys, terraced fields below, no people"
           },
           {
             "text": "Phải mất hai mươi lăm năm, ông mới đánh bại hết sáu nước còn lại. Năm hai trăm hai mươi mốt trước Công nguyên, Trung Hoa được thống nhất.",
-            "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/The_Battlemented_City_Wall_of_Hanzhong_Fu_with_a_Watchtower_to_the_Right._Shaanxi_Province%2C_China%2C_1875_WDL2088.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"The Battlemented City Wall of Hanzhong Fu with a Watchtower to the Right. Shaanxi Province, China, 1875 WDL2088.png\" – Adolf Nikolay Boyarsky, Public domain (https://commons.wikimedia.org/wiki/File:The_Battlemented_City_Wall_of_Hanzhong_Fu_with_a_Watchtower_to_the_Right._Shaanxi_Province,_China,_1875_WDL2088.png)"
-            }
+            "mo_phong": "ancient Chinese bronze halberds, swords and wooden shields lying on a dusty battlefield at dusk, torn plain banners without writing, smoke, no people"
           },
           {
             "text": "Ông tự xưng là Thủy Hoàng Đế, nghĩa là hoàng đế đầu tiên, và mong triều đại của mình kéo dài muôn đời.",
@@ -310,8 +304,8 @@
           {
             "text": "Suốt hơn hai nghìn năm, nhiều người coi những dòng ấy chỉ là truyền thuyết.",
             "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_%28%E5%8F%B2%E8%A8%98%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"Chinese report of Halley's Comet apparition in 240 BC from the Shiji (史記).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_(%E5%8F%B2%E8%A8%98).jpg)"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sima_Qian.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Sima Qian.png\" – Photoed and reproduced by User:Mountain, Public domain (https://commons.wikimedia.org/wiki/File:Sima_Qian.png)"
             }
           }
         ]
@@ -502,7 +496,7 @@
           },
           {
             "text": "Nhờ thăm dò địa vật lý, họ ước tính cung điện dưới lòng đất dài khoảng một trăm bốn mươi mét, rộng hơn một trăm mét.",
-            "mo_phong": "a vast dark underground hall with rows of stone pillars receding into darkness, faint light, no people"
+            "mo_phong": "a vast dark underground hall of an ancient Chinese tomb with massive dark wooden beams and rammed-earth walls, faint lamplight, no people"
           },
           {
             "text": "Sử sách chép rằng chỉ vài năm sau khi nhà Tần sụp đổ, các cung điện ở kinh đô bị đốt cháy suốt ba tháng.",

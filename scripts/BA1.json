@@ -230,8 +230,9 @@
           {
             "text": "Tên ban đầu của nó không phải là Mary Celeste, mà là Amazon.",
             "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mary_Celeste_as_Amazon_in_1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"Mary Celeste as Amazon in 1861.jpg\" – không rõ tác giả, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861.jpg)"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Mary Celeste as Amazon in 1861 (cropped).jpg\" – Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attribution is suggested in Paul Begg: Mary Celeste: The Greatest Mystery of the Sea. Longmans Education Ltd, Harlow (UK) 2007. Plate 2, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861_(cropped).jpg)",
+              "cho_phep_mo": true
             }
           },
           {
@@ -282,10 +283,7 @@
           },
           {
             "text": "Ngoài gia đình thuyền trưởng, tàu có bảy thủy thủ: một thuyền phó, một thuyền phó hai, một người đầu bếp và bốn thủy thủ.",
-            "image": {
-              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/NH_52029_%2817141175236%29.jpg/1920px-NH_52029_%2817141175236%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-              "credit": "\"NH 52029 (17141175236).jpg\" – National Museum of the U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:NH_52029_(17141175236).jpg)"
-            }
+            "mo_phong": "seven 19th-century sailors in wool caps and work clothes seen from behind on the deck of a two-masted sailing ship moored at a harbor, faces not visible"
           },
           {
             "text": "Hàng trên tàu là một nghìn bảy trăm linh một thùng cồn công nghiệp, chở từ New York sang Genoa, nước Ý.",
@@ -323,10 +321,7 @@
           },
           {
             "text": "Thuyền phó Oliver Deveau và một thủy thủ chèo xuồng sang. Khi trèo lên, họ nhận ra cái tên trên con tàu: Mary Celeste.",
-            "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Annotated_sketch_of_a_damaged_vessel_with_a_rowing_boat_in_the_foreground_RMG_PV3890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"Annotated sketch of a damaged vessel with a rowing boat in the foreground RMG PV3890.jpg\" – William Lionel Wyllie, Public domain (https://commons.wikimedia.org/wiki/File:Annotated_sketch_of_a_damaged_vessel_with_a_rowing_boat_in_the_foreground_RMG_PV3890.jpg)"
-            }
+            "mo_phong": "a small rowing boat with two sailors seen from behind approaching a drifting two-masted sailing ship on the grey Atlantic, seen from far away"
           },
           {
             "text": "Một số cánh buồm còn giương, một số đã mất. Dây chằng hư hỏng. Hai cửa khoang mở toang.",
@@ -416,11 +411,8 @@
           },
           {
             "text": "Nhưng tại phiên tòa, ông Frederick Solly-Flood, người đứng đầu việc thẩm vấn, lại đầy nghi ngờ.",
-            "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Courtroom_Sydney_c1817.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"Courtroom Sydney c1817.jpg\" – Edward Charles Close (1790-1866), Public domain (https://commons.wikimedia.org/wiki/File:Courtroom_Sydney_c1817.jpg)"
-            },
-            "label": "Gibraltar · 1872"
+            "label": "Gibraltar · 1872",
+            "mo_phong": "a 19th-century British colonial courtroom with wooden benches, a raised judge's bench and tall windows, empty, morning light, no people"
           },
           {
             "text": "Ông cho rằng có thể thủy thủ đã uống rượu say, giết thuyền trưởng và gia đình.",
@@ -476,8 +468,8 @@
             "text": "Năm một nghìn tám trăm tám mươi tư, một nhà văn trẻ viết một truyện ngắn hư cấu dựa trên con tàu này, đổi tên nó thành Marie Celeste.",
             "label": "Arthur Conan Doyle · 1884",
             "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/J_Habakuk_Jephsons_Statement_page_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"J Habakuk Jephsons Statement page 11.jpg\" – Arthur Conan Doyle / William Small, Public domain (https://commons.wikimedia.org/wiki/File:J_Habakuk_Jephsons_Statement_page_11.jpg)"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/J_Habakuk_Jephsons_Statement_page_11_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"J Habakuk Jephsons Statement page 11 (cropped).jpg\" – William Small, Public domain (https://commons.wikimedia.org/wiki/File:J_Habakuk_Jephsons_Statement_page_11_(cropped).jpg)"
             }
           },
           {
@@ -491,15 +483,15 @@
           {
             "text": "Truyện của Doyle hay đến mức nhiều người tưởng là chuyện thật. Cái tên sai Marie Celeste cũng lan rộng khắp nơi.",
             "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Strand_Magazine_%28Volume_26_Issue_155_Page_487%29_The_Return_of_Sherlock_Homes_-_The_wretched_young_man_arose.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"The Strand Magazine (Volume 26 Issue 155 Page 487) The Return of Sherlock Homes - The wretched young man arose.png\" – Author: Arthur Conan Doyle\nEditor: George Newnes\n\nIllustrator: Unknown, Public domain (https://commons.wikimedia.org/wiki/File:The_Strand_Magazine_(Volume_26_Issue_155_Page_487)_The_Return_of_Sherlock_Homes_-_The_wretched_young_man_arose.png)"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/The_brigantine_%27Fannie_C%27_RMG_BHC3337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"The brigantine 'Fannie C' RMG BHC3337.jpg\" – anonymous, Public domain (https://commons.wikimedia.org/wiki/File:The_brigantine_%27Fannie_C%27_RMG_BHC3337.jpg)"
             }
           },
           {
             "text": "Về sau còn có những bài báo và cả một cuốn sách tự xưng là lời kể của người sống sót. Tất cả đều là bịa đặt.",
             "image": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/%22How_It_Happened%22_in_The_Strand_Magazine_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-              "credit": "\"\"How It Happened\" in The Strand Magazine 01.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:%22How_It_Happened%22_in_The_Strand_Magazine_01.jpg)"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_brigantine_%27L%27Avennire%27_RMG_BHC2490.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"The brigantine 'L'Avennire' RMG BHC2490.jpg\" – Edmond Victor Charles Adam, Public domain (https://commons.wikimedia.org/wiki/File:The_brigantine_%27L%27Avennire%27_RMG_BHC2490.jpg)"
             }
           },
           {
@@ -568,8 +560,8 @@
           {
             "text": "Nhưng đó vẫn chỉ là giả thuyết. Không ai còn sống để kể lại sự thật.",
             "image": {
-              "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3Nta2trczI4OTRpLWltYWdlLmpwZw.jpg",
-              "credit": "\"Sailing ships in a storm\" – không rõ, CC0 (https://www.rawpixel.com/image/8706941/sailing-ships-storm)"
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Thomas_Buttersworth_-_A_Deal_Lugger_going_off_to_storm_bound_ships_in_the_Downs.jpg/1920px-Thomas_Buttersworth_-_A_Deal_Lugger_going_off_to_storm_bound_ships_in_the_Downs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Thomas Buttersworth - A Deal Lugger going off to storm bound ships in the Downs.jpg\" – Thomas Buttersworth, Public domain (https://commons.wikimedia.org/wiki/File:Thomas_Buttersworth_-_A_Deal_Lugger_going_off_to_storm_bound_ships_in_the_Downs.jpg)"
             }
           }
         ]
@@ -598,10 +590,7 @@
           },
           {
             "text": "Âm mưu bị phát hiện. Phiên tòa không đi đến kết luận, nhưng Parker qua đời trong cảnh nghèo khó chỉ vài tháng sau.",
-            "image": {
-              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Maryland_-_Scene_in_the_Court-House_at_Annapolis_-_Trial_of_Mrs._Wharton_on_the_charge_of_murdering_General_Ketchum_by_poison_-_from_a_sketch_by_Jas._E._Taylor._LCCN2006683827.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-              "credit": "\"Maryland - Scene in the Court-House at Annapolis - Trial of Mrs. Wharton on the charge of murdering General Ketchum by poison - from a sketch by Jas. E. Taylor. LCCN2006683827.jpg\" – Taylor, James E., 1839-1901, artist, Public domain (https://commons.wikimedia.org/wiki/File:Maryland_-_Scene_in_the_Court-House_at_Annapolis_-_Trial_of_Mrs._Wharton_on_the_charge_of_murdering_General_Ketchum_by_poison_-_from_a_sketch_by_Jas._E._Taylor._LCCN2006683827.jpg)"
-            }
+            "mo_phong": "an old sea captain's cap and a clay pipe on a bare wooden table in a poor rented room, peeling walls, dim light, no people"
           },
           {
             "text": "Năm hai nghìn không trăm linh một, một đoàn thám hiểm tuyên bố đã tìm thấy xác Mary Celeste ở rạn san hô ấy. Nhưng phân tích vân gỗ cho thấy gỗ đó đến từ những cái cây vẫn còn sống… mười năm sau khi Mary Celeste bị đắm.",

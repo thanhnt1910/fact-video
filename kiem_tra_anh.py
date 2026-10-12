@@ -145,6 +145,8 @@ def check(items, sid, kind, log=print, use_ai=True):
     for k, it in enumerate(items):
         p = _path(it["src"])
         issues = tech(p, kind)
+        if it.get("allow_soft"):   # ảnh tư liệu duy nhất (vd tranh gốc của con tàu): mờ chỉ là cảnh báo
+            issues = [("canh_bao" if "mờ" in m_ else lv, m_) for lv, m_ in issues]
         if use_ai and not any(m == "loi" for m, _ in issues):
             try:
                 issues += ai_check(p, it.get("texts", []), it.get("ai"), sid, kind, it.get("title", ""))

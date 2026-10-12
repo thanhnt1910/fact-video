@@ -243,7 +243,7 @@ def check_images(script, beats, log):
             continue
         spec = b.get("image") if isinstance(b.get("image"), dict) else {}
         g = groups.setdefault(src, {"src": src, "texts": [], "ai": bool(b.get("_ai")), "label": b.get("label", ""),
-                                    "beats": [], "title": (spec.get("credit") or (("ảnh mô phỏng: " + b["mo_phong"])
+                                    "allow_soft": bool(spec.get("cho_phep_mo")), "beats": [], "title": (spec.get("credit") or (("ảnh mô phỏng: " + b["mo_phong"])
                                                                                   if b.get("mo_phong") else ""))[:220]})
         if not g["texts"] and k > 0:
             g["texts"].append("(câu trước, để hiểu ngữ cảnh) " + gemini_clean(beats[k - 1].get("text", "")))

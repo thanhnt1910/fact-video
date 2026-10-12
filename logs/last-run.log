@@ -1,1 +1,5 @@
-Không có kịch bản mới cần dựng.
+
+===== BA13: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · Cảnh 1] Đường dẫn ảnh bị cụt đuôi (.wikimed thay vì .jpg), không hiển thị được
+   ⛔ Chưa dựng BA13: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+Không dựng gì (kịch bản có lỗi, xem ở trên).

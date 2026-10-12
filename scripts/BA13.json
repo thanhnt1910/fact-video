@@ -1,0 +1,792 @@
+{
+  "id": "BA13",
+  "topic": "bi-an",
+  "title": "Ngôi mộ hơn 2.000 năm chưa ai dám mở",
+  "caption": "Ngôi mộ của Tần Thủy Hoàng đã được tìm thấy… nhưng hơn 2.000 năm qua chưa ai dám mở 🏯 Sử ký chép bên trong có trăm con sông thủy ngân, và khoa học đã đo được điều đáng sợ. Nếu được quyết định, bạn có mở ngôi mộ ấy không?",
+  "hashtags": [
+    "nguoigacsu",
+    "bíẩn",
+    "lịchsử",
+    "chuyệncóthật",
+    "tầnthủyhoàng"
+  ],
+  "sources": [
+    "Tư Mã Thiên – Sử ký, Tần Thủy Hoàng bản kỷ",
+    "Zhao G. và cộng sự – Mercury as a Geophysical Tracer Gas: Emissions from the Emperor Qin Tomb in Xi'an Studied by Laser Radar, Scientific Reports 10, 10414 (2020)",
+    "National Geographic – Terra Cotta Warriors (2012): lớp sơn quăn lại sau 15 giây, bong trong khoảng 4 phút; chưa tới 1% khu lăng được khai quật",
+    "UNESCO – Mausoleum of the First Qin Emperor (Di sản thế giới 1987)",
+    "Britannica – Qin tomb"
+  ],
+  "music": "Investigations",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Ngôi mộ **chưa ai dám mở**",
+      "voice": "Ngôi mộ của vị hoàng đế đầu tiên Trung Hoa đã được tìm thấy. Nhưng hơn hai nghìn năm qua, chưa ai dám mở nó ra.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/QinShiHuang18thCentury.jpg/1920px-QinShiHuang18thCentury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"QinShiHuang18thCentury.jpg\" – Unknown (18??–18??), Public domain (https://commons.wikimedia.org/wiki/File:QinShiHuang18thCentury.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "text": "Đội quân **đất nung**",
+      "voice": "Bên dưới là cả một đội quân: khoảng tám nghìn tượng lính to bằng người thật, canh giữ lăng mộ Tần Thủy Hoàng.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Qin_Terracotta_Warriors%2C_Pit_1_08.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Qin Terracotta Warriors, Pit 1 08.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_08.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "text": "Đào giếng năm **1974**",
+      "voice": "Năm một nghìn chín trăm bảy mươi tư, nông dân gần Tây An đào giếng, và lưỡi xẻng chạm phải một cái đầu người bằng đất nung.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Qin_Terracotta_Warrior_2b.jpg/1920px-Qin_Terracotta_Warrior_2b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Qin Terracotta Warrior 2b.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_2b.jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "text": "**Tư Mã Thiên** chép lại",
+      "voice": "Hơn hai nghìn năm trước, sử gia Tư Mã Thiên chép rằng trong mộ có trăm con sông làm bằng thủy ngân, và những cỗ nỏ tự bắn kẻ đột nhập.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sima_Qian_%28painted_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Sima Qian (painted portrait).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Sima_Qian_(painted_portrait).jpg)"
+      }
+    },
+    {
+      "type": "text",
+      "text": "**Thủy ngân** là có thật",
+      "voice": "Cho đến khi các nhà khoa học đo đất trên gò mộ… Thủy ngân cao bất thường.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Hg_Mercury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "\"Hg Mercury.jpg\" – А, Public domain (https://commons.wikimedia.org/wiki/File:Hg_Mercury.jpg)"
+      }
+    },
+    {
+      "type": "outro",
+      "text": "Bạn có mở không?",
+      "voice": "Nếu được quyết định, bạn có mở ngôi mộ ấy không? Sử thật… lạ hơn cả truyện.",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Qin_Shihuang_Bronze_Chariot_%289893711294%29.jpg/1920px-Qin_Shihuang_Bronze_Chariot_%289893711294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "\"Qin Shihuang Bronze Chariot (9893711294).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Bronze_Chariot_(9893711294).jpg)"
+      }
+    }
+  ],
+  "post": {
+    "hook": "Ngôi mộ của vị hoàng đế đầu tiên Trung Hoa đã được tìm thấy từ lâu. Nhưng hơn 2.000 năm qua, chưa ai dám mở nó ra 🏯",
+    "paragraphs": [
+      "Năm 246 TCN, cậu bé 13 tuổi Doanh Chính lên ngôi vua nước Tần và cho xây lăng mộ của mình dưới chân núi Ly Sơn. 25 năm sau, ông thống nhất Trung Hoa, tự xưng là Tần Thủy Hoàng.",
+      "Ông dành cả đời tìm thuốc trường sinh, nhưng qua đời năm 210 TCN, khi khoảng 49 tuổi.",
+      "Sử gia Tư Mã Thiên chép rằng hơn 70 vạn người đã xây lăng. Bên trong có cung điện dưới lòng đất, trăm con sông làm bằng thủy ngân, và nỏ tự bắn kẻ đột nhập.",
+      "Năm 1974, nông dân gần Tây An đào giếng và tìm thấy đội quân đất nung khoảng 8.000 tượng lính canh giữ lăng mộ.",
+      "Khi khai quật, lớp sơn màu trên tượng quăn lại sau 15 giây và bong ra trong khoảng 4 phút khi gặp không khí.",
+      "Các nhà khoa học đo đất trên gò mộ và thấy thủy ngân cao bất thường. Năm 2020, một nghiên cứu đo bằng tia laser cũng thấy hơi thủy ngân phía trên ngôi mộ: những dòng của Tư Mã Thiên rất có thể là thật.",
+      "Vì chưa có cách mở an toàn, hầm mộ chính đến nay vẫn chưa được khai quật."
+    ],
+    "ending": "Nếu được quyết định, bạn có mở ngôi mộ ấy không?",
+    "hashtags": [
+      "nguoigacsu",
+      "bíẩn",
+      "lịchsử",
+      "chuyệncóthật",
+      "tầnthủyhoàng"
+    ],
+    "slides": [
+      {
+        "kind": "cover",
+        "scene": 0,
+        "kicker": "Bí ẩn 2.200 năm",
+        "title": "Ngôi mộ **chưa ai dám mở**"
+      },
+      {
+        "scene": 2,
+        "tag": "Tây An · 1974",
+        "text": "Nông dân đào giếng và tìm thấy đội quân khoảng 8.000 tượng lính đất nung."
+      },
+      {
+        "scene": 3,
+        "tag": "Sử ký",
+        "text": "Tư Mã Thiên chép: trong mộ có trăm con sông làm bằng thủy ngân, và nỏ tự bắn kẻ đột nhập."
+      },
+      {
+        "scene": 4,
+        "tag": "Khoa học",
+        "text": "Đất trên gò mộ chứa thủy ngân cao bất thường. Ghi chép xưa rất có thể là thật."
+      },
+      {
+        "kind": "end",
+        "scene": 5,
+        "text": "Chưa có cách mở an toàn, nên ngôi mộ vẫn nằm yên sau hơn 2.200 năm."
+      }
+    ]
+  },
+  "long": {
+    "title": "Vì sao ngôi mộ của Tần Thủy Hoàng hơn 2.000 năm chưa ai dám mở? | Bí ẩn lăng Tần Thủy Hoàng",
+    "title_card": "Lăng **Tần Thủy Hoàng**",
+    "description": "Lăng mộ của Tần Thủy Hoàng, vị hoàng đế đầu tiên thống nhất Trung Hoa, đã được xác định vị trí từ lâu. Đội quân đất nung canh giữ ngôi mộ được tìm thấy năm 1974. Vậy mà hơn 2.000 năm qua, chưa ai mở hầm mộ chính. Sử ký chép gì về những con sông thủy ngân bên trong, và khoa học hiện đại đã đo được gì?",
+    "voice": "Sadaltager",
+    "music": "Investigations",
+    "chapters": [
+      {
+        "beats": [
+          {
+            "text": "Ở miền bắc Trung Hoa, dưới chân núi Ly Sơn, có một ngọn đồi cây cỏ xanh tốt. Nhìn qua, nó chẳng khác gì những ngọn đồi khác.",
+            "mo_phong": "a large flat-topped earthen burial mound covered with trees and grass at the foot of a mountain in northern China, misty morning, farmland in front, no people",
+            "fx": "mist"
+          },
+          {
+            "text": "Nhưng bên dưới ngọn đồi ấy là ngôi mộ của một trong những vị hoàng đế quyền lực nhất lịch sử: Tần Thủy Hoàng, người lần đầu tiên thống nhất Trung Hoa.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Portrait_of_Qin_Shi_Huang.jpg/1920px-Portrait_of_Qin_Shi_Huang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Portrait of Qin Shi Huang.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Portrait_of_Qin_Shi_Huang.jpg)"
+            },
+            "label": "Tần Thủy Hoàng · 259 – 210 TCN"
+          },
+          {
+            "text": "Các nhà khảo cổ biết chính xác ngôi mộ nằm ở đâu. Họ đã khai quật cả một đội quân tượng đất nung canh giữ gần đó.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Qin_Terracotta_Warriors%2C_Pit_1_08.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warriors, Pit 1 08.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_08.jpg)"
+            }
+          },
+          {
+            "text": "Vậy mà hơn hai nghìn hai trăm năm qua, chưa ai mở lối vào hầm mộ chính.",
+            "mo_phong": "a massive sealed stone gate of an ancient Chinese tomb half buried in earth, dim light, dust, no people"
+          },
+          {
+            "text": "Lý do không nằm ở lời nguyền nào cả. Lý do có thật, và đáng sợ hơn nhiều.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Hg_Mercury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Hg Mercury.jpg\" – А, Public domain (https://commons.wikimedia.org/wiki/File:Hg_Mercury.jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cậu bé mười ba tuổi lên ngôi",
+        "beats": [
+          {
+            "text": "Năm hai trăm bốn mươi sáu trước Công nguyên, một cậu bé mười ba tuổi tên Doanh Chính lên ngôi vua nước Tần.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/QinShiHuang18thCentury.jpg/1920px-QinShiHuang18thCentury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"QinShiHuang18thCentury.jpg\" – Unknown (18??–18??), Public domain (https://commons.wikimedia.org/wiki/File:QinShiHuang18thCentury.jpg)"
+            }
+          },
+          {
+            "text": "Thời ấy, Trung Hoa chia thành nhiều nước, đánh nhau liên miên suốt hàng trăm năm. Sử gọi là thời Chiến Quốc.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Qin_Bronze_Crossbow_Trigger_with_Replica_Crossbow_%289930169453%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Qin Bronze Crossbow Trigger with Replica Crossbow (9930169453).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Bronze_Crossbow_Trigger_with_Replica_Crossbow_(9930169453).jpg)"
+            }
+          },
+          {
+            "text": "Ngay khi vừa lên ngôi, vị vua trẻ đã cho bắt đầu xây lăng mộ cho chính mình, dưới chân núi Ly Sơn.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/%E8%A2%81%E8%80%80%E9%AA%8A%E5%B1%B1%E9%81%BF%E6%9A%91%E5%9B%BE%E5%B1%8F.jpg/1920px-%E8%A2%81%E8%80%80%E9%AA%8A%E5%B1%B1%E9%81%BF%E6%9A%91%E5%9B%BE%E5%B1%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"袁耀骊山避暑图屏.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:%E8%A2%81%E8%80%80%E9%AA%8A%E5%B1%B1%E9%81%BF%E6%9A%91%E5%9B%BE%E5%B1%8F.jpg)"
+            },
+            "label": "Núi Ly Sơn · Thiểm Tây"
+          },
+          {
+            "text": "Phải mất hai mươi lăm năm, ông mới đánh bại hết sáu nước còn lại. Năm hai trăm hai mươi mốt trước Công nguyên, Trung Hoa được thống nhất.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/The_Battlemented_City_Wall_of_Hanzhong_Fu_with_a_Watchtower_to_the_Right._Shaanxi_Province%2C_China%2C_1875_WDL2088.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"The Battlemented City Wall of Hanzhong Fu with a Watchtower to the Right. Shaanxi Province, China, 1875 WDL2088.png\" – Adolf Nikolay Boyarsky, Public domain (https://commons.wikimedia.org/wiki/File:The_Battlemented_City_Wall_of_Hanzhong_Fu_with_a_Watchtower_to_the_Right._Shaanxi_Province,_China,_1875_WDL2088.png)"
+            }
+          },
+          {
+            "text": "Ông tự xưng là Thủy Hoàng Đế, nghĩa là hoàng đế đầu tiên, và mong triều đại của mình kéo dài muôn đời.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/1920px-QinShiHuang19century.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"QinShiHuang19century.jpg\" – Unknown (18??–18??), Public domain (https://commons.wikimedia.org/wiki/File:QinShiHuang19century.jpg)"
+            }
+          },
+          {
+            "text": "Ông cho thống nhất chữ viết, tiền tệ, đơn vị đo lường, và nối dài những bức tường phòng thủ ở phương bắc, tiền thân của Vạn Lý Trường Thành.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Greatwall_large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Greatwall large.jpg\" – Herbert Ponting, Public domain (https://commons.wikimedia.org/wiki/File:Greatwall_large.jpg)"
+            }
+          },
+          {
+            "text": "Nhưng ông cũng là người cai trị rất hà khắc. Sử sách chép lại những cuộc lao dịch nặng nề, và cả những cuốn sách bị đốt bỏ dưới thời ông.",
+            "mo_phong": "ancient bamboo slip scrolls burning in a small fire in a dark stone courtyard, smoke and sparks, no people",
+            "fx": "embers"
+          }
+        ]
+      },
+      {
+        "title": "Giấc mơ bất tử",
+        "beats": [
+          {
+            "text": "Người đàn ông nắm trong tay cả thiên hạ ấy sợ nhất một điều: cái chết.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Qin_Shi_Huang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Qin Shi Huang.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Qin_Shi_Huang.jpg)"
+            }
+          },
+          {
+            "text": "Ông sai người đi khắp nơi tìm thuốc trường sinh. Có đoàn thuyền được cử ra biển phía đông, tìm những hòn đảo tiên trong truyền thuyết.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Penglai_mythical_island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Penglai mythical island.jpg\" – Yuan Yao (active in the 18th century), Public domain (https://commons.wikimedia.org/wiki/File:Penglai_mythical_island.jpg)"
+            }
+          },
+          {
+            "text": "Người dẫn đầu là phương sĩ Từ Phúc. Theo truyền thuyết, ông ra khơi cùng rất nhiều người, và không bao giờ trở về.",
+            "mo_phong": "a fleet of ancient Chinese wooden sailing junks with square sails leaving a misty coast at dawn, seen from far away, no people",
+            "fx": "mist"
+          },
+          {
+            "text": "Các phương sĩ trong cung còn dâng lên những viên thuốc có chứa thủy ngân, thứ thời ấy được tin là giúp người ta sống lâu.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mercury%2C_cinnabar_and_calomel_%28GeoDIL_number_-_919%29.jpg/1920px-Mercury%2C_cinnabar_and_calomel_%28GeoDIL_number_-_919%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Mercury, cinnabar and calomel (GeoDIL number - 919).jpg\" – Darla Sondrol, CC0 (https://commons.wikimedia.org/wiki/File:Mercury,_cinnabar_and_calomel_(GeoDIL_number_-_919).jpg)"
+            }
+          },
+          {
+            "text": "Có giả thuyết cho rằng chính những viên thuốc ấy đã đầu độc ông dần dần. Nhưng đến nay vẫn chưa có bằng chứng chắc chắn.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Spring_Dawn_Over_the_Elixir_Terrace_%28IA_mma_spring_dawn_over_the_elixir_terrace_42328%29.jpg/1920px-Spring_Dawn_Over_the_Elixir_Terrace_%28IA_mma_spring_dawn_over_the_elixir_terrace_42328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Spring Dawn Over the Elixir Terrace (IA mma spring dawn over the elixir terrace 42328).jpg\" – Lu Guang, Public domain (https://commons.wikimedia.org/wiki/File:Spring_Dawn_Over_the_Elixir_Terrace_(IA_mma_spring_dawn_over_the_elixir_terrace_42328).jpg)"
+            }
+          },
+          {
+            "text": "Năm hai trăm mười trước Công nguyên, trong một chuyến tuần du xa kinh đô, Tần Thủy Hoàng qua đời, khi mới khoảng bốn mươi chín tuổi.",
+            "mo_phong": "an ancient Chinese imperial carriage procession on a dusty road winding through hills at dusk, seen from very far away, banners without writing, tiny figures"
+          },
+          {
+            "text": "Hành trình đi tìm sự bất tử kết thúc. Nhưng câu chuyện của ngôi mộ thì mới chỉ bắt đầu.",
+            "mo_phong": "a large earthen burial mound at dusk under a dark cloudy sky, silhouetted trees on top, quiet and mysterious, no people",
+            "fx": "mist"
+          }
+        ]
+      },
+      {
+        "title": "Ngôi mộ trong sử sách",
+        "beats": [
+          {
+            "text": "Khoảng một trăm năm sau, sử gia Tư Mã Thiên viết bộ Sử ký. Trong đó có một đoạn mô tả lăng mộ của Tần Thủy Hoàng.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sima_Qian_%28painted_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Sima Qian (painted portrait).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Sima_Qian_(painted_portrait).jpg)"
+            },
+            "label": "Tư Mã Thiên · Sử ký"
+          },
+          {
+            "text": "Theo Sử ký, hơn bảy mươi vạn người từ khắp nơi đã bị đưa đến xây lăng.",
+            "mo_phong": "thousands of ancient laborers carrying earth in baskets on a huge construction site at the foot of a mountain, seen from very far away, dust, tiny figures",
+            "fx": "dust"
+          },
+          {
+            "text": "Họ đào sâu xuống lòng đất, đổ đồng nung chảy để chặn mạch nước ngầm, rồi xây một cung điện dưới lòng đất.",
+            "mo_phong": "an underground vaulted hall of an ancient Chinese palace with stone pillars, lit by bronze oil lamps, no people"
+          },
+          {
+            "text": "Trong cung điện ấy, người ta dùng thủy ngân làm thành trăm con sông và biển cả, chảy bằng máy móc.",
+            "mo_phong": "a miniature landscape of rivers made of shining liquid mercury flowing between carved bronze mountains inside a dark ancient tomb chamber, lamplight, no people"
+          },
+          {
+            "text": "Trần mộ vẽ trời sao, dưới đất là núi sông, như cả thiên hạ được thu nhỏ lại.",
+            "mo_phong": "the dark ceiling of an ancient tomb chamber painted with stars and constellations, dim lamplight, no people"
+          },
+          {
+            "text": "Đèn được thắp bằng mỡ của một loài cá lớn, để có thể cháy thật lâu.",
+            "mo_phong": "rows of ancient bronze oil lamps burning in a long dark stone corridor, no people"
+          },
+          {
+            "text": "Và để chống trộm, thợ được lệnh làm những cỗ nỏ tự bắn, nhắm sẵn vào bất cứ ai dám đột nhập.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg/1920px-Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Warring States Bronze Crossbow Trigger Mechanism.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg)"
+            }
+          },
+          {
+            "text": "Sử ký còn chép: sau khi chôn cất, lối vào bị bít kín, khi những người thợ biết bí mật của ngôi mộ vẫn còn ở bên trong.",
+            "mo_phong": "a massive stone door of an ancient tomb sealed shut in darkness, dust in the air, no people"
+          },
+          {
+            "text": "Suốt hơn hai nghìn năm, nhiều người coi những dòng ấy chỉ là truyền thuyết.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_%28%E5%8F%B2%E8%A8%98%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Chinese report of Halley's Comet apparition in 240 BC from the Shiji (史記).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_(%E5%8F%B2%E8%A8%98).jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Chiếc giếng năm 1974",
+        "beats": [
+          {
+            "text": "Tháng ba năm một nghìn chín trăm bảy mươi tư, ở một ngôi làng gần thành phố Tây An, tỉnh Thiểm Tây, trời đang hạn hán.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit%2C_Shantung.jpg/1920px-Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit%2C_Shantung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Farmers of forty centuries - Temporary well and portable irrigation outfit, Shantung.jpg\" – Unknown photographerUnknown photographer, Public domain (https://commons.wikimedia.org/wiki/File:Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit,_Shantung.jpg)"
+            },
+            "label": "Tây An · 3/1974"
+          },
+          {
+            "text": "Một nhóm nông dân, trong đó có ông Dương Chí Phát, rủ nhau đào giếng lấy nước tưới cây.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Farmer_near_Xi%27an_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Farmer near Xi'an (2).jpg\" – Charlesdrakew, Public domain (https://commons.wikimedia.org/wiki/File:Farmer_near_Xi%27an_(2).jpg)"
+            }
+          },
+          {
+            "text": "Đào xuống vài mét, lưỡi xẻng chạm phải một thứ cứng. Đó là một cái đầu người… bằng đất nung.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Qin_Terracotta_Warrior_2b.jpg/1920px-Qin_Terracotta_Warrior_2b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 2b.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_2b.jpg)"
+            }
+          },
+          {
+            "text": "Theo lời kể lại, ban đầu dân làng tưởng đó là tượng thần cũ, chẳng ai nghĩ nó quan trọng.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Terracotta_army_xian_embedded_warrior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Terracotta army xian embedded warrior.jpg\" – Richardelainechambers at English Wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:Terracotta_army_xian_embedded_warrior.jpg)"
+            }
+          },
+          {
+            "text": "Tin đến tai các nhà khảo cổ. Và họ nhận ra mình vừa tìm thấy một thứ chưa từng có.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Qin_Terracotta_Warriors%2C_Pit_1_01.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warriors, Pit 1 01.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_01.jpg)"
+            }
+          },
+          {
+            "text": "Bên dưới cánh đồng là cả một đội quân: những hàng lính đất nung to bằng người thật, đứng thành đội ngũ chỉnh tề.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Qin_Shihuang_Terracotta_Army%2C_Pit_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Qin Shihuang Terracotta Army, Pit 1.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Terracotta_Army,_Pit_1.jpg)"
+            }
+          },
+          {
+            "text": "Ước tính có khoảng tám nghìn tượng lính, cùng hàng trăm tượng ngựa và xe chiến.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Qin_Terracotta_Warriors%2C_Pit_1_02.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warriors, Pit 1 02.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_02.jpg)"
+            }
+          },
+          {
+            "text": "Người ta nói không tượng nào giống hệt tượng nào. Mỗi người lính có khuôn mặt, kiểu tóc và dáng đứng riêng.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Qin_Terracotta_Warrior_02.jpg/1920px-Qin_Terracotta_Warrior_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 02.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_02.jpg)"
+            }
+          },
+          {
+            "text": "Có người là cung thủ, có người là tướng, có người dắt ngựa.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Qin_Terracotta_Warrior_07.jpg/1920px-Qin_Terracotta_Warrior_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 07.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_07.jpg)"
+            }
+          },
+          {
+            "text": "Gần đó, người ta còn tìm thấy hai cỗ xe ngựa bằng đồng, tinh xảo đến từng sợi dây cương.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Qin_Shihuang_Bronze_Chariot_%289893711294%29.jpg/1920px-Qin_Shihuang_Bronze_Chariot_%289893711294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Shihuang Bronze Chariot (9893711294).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Bronze_Chariot_(9893711294).jpg)"
+            }
+          },
+          {
+            "text": "Năm một nghìn chín trăm tám mươi bảy, khu lăng mộ được công nhận là Di sản thế giới.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Qin_Terracotta_Warriors%2C_Pit_1_12.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warriors, Pit 1 12.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_12.jpg)"
+            },
+            "label": "Di sản thế giới · 1987"
+          },
+          {
+            "text": "Nhưng đội quân ấy chỉ là lính canh. Còn chính ngôi mộ vẫn nằm im dưới gò đất, cách đó khoảng một cây số rưỡi.",
+            "mo_phong": "aerial view of a huge square flat-topped earthen mound covered with trees, surrounded by farmland and villages, early morning haze, no people"
+          }
+        ]
+      },
+      {
+        "title": "Màu sơn biến mất trong vài phút",
+        "beats": [
+          {
+            "text": "Khi mới được làm ra, những tượng lính không mang màu đất xám như ta thấy hôm nay.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Qin_Terracotta_Warrior_03.jpg/1920px-Qin_Terracotta_Warrior_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 03.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_03.jpg)"
+            }
+          },
+          {
+            "text": "Chúng được sơn màu rực rỡ: đỏ, xanh, tím, trắng, trên một lớp sơn mài.",
+            "mo_phong": "an ancient terracotta soldier statue still covered in bright red, green and purple painted lacquer, soft museum light, no people"
+          },
+          {
+            "text": "Nhưng khi đất được gạt đi, lớp sơn mài gặp không khí khô bắt đầu quăn lại chỉ sau mười lăm giây.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Qin_Terracotta_Warrior_05.jpg/1920px-Qin_Terracotta_Warrior_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 05.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_05.jpg)"
+            }
+          },
+          {
+            "text": "Khoảng bốn phút sau, nó bong ra từng mảng. Màu sắc tồn tại hơn hai nghìn năm biến mất ngay trước mắt các nhà khảo cổ.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/2011_Qin_Terracotta_Warrior_03.jpg/1920px-2011_Qin_Terracotta_Warrior_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"2011 Qin Terracotta Warrior 03.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:2011_Qin_Terracotta_Warrior_03.jpg)"
+            }
+          },
+          {
+            "text": "Bài học ấy khiến giới khảo cổ phải dè dặt. Nếu mở hầm mộ chính, những gì bên trong có thể bị hủy hoại chỉ trong chốc lát.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Terracotta_Army_-_Pit_2_20240806_06.jpg/1920px-Terracotta_Army_-_Pit_2_20240806_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Terracotta Army - Pit 2 20240806 06.jpg\" – 沈澄心, CC0 (https://commons.wikimedia.org/wiki/File:Terracotta_Army_-_Pit_2_20240806_06.jpg)"
+            }
+          },
+          {
+            "text": "Đến nay, người ta ước tính mới khai quật được chưa tới một phần trăm toàn bộ khu lăng mộ.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Qin_Terracotta_Warriors_Pit_1_15.jpg/1920px-Qin_Terracotta_Warriors_Pit_1_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warriors Pit 1 15.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors_Pit_1_15.jpg)"
+            }
+          },
+          {
+            "text": "Và đó mới chỉ là một nửa nỗi lo. Nửa còn lại nằm ngay trong lòng đất.",
+            "mo_phong": "a dark earthen mound at night with a faint silvery mist hanging low above it, eerie, no people",
+            "fx": "mist"
+          }
+        ]
+      },
+      {
+        "title": "Thủy ngân là có thật",
+        "beats": [
+          {
+            "text": "Còn những con sông thủy ngân trong Sử ký thì sao? Chẳng lẽ chỉ là chuyện kể?",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Hg_Mercury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Hg Mercury.jpg\" – А, Public domain (https://commons.wikimedia.org/wiki/File:Hg_Mercury.jpg)"
+            }
+          },
+          {
+            "text": "Từ những năm một nghìn chín trăm tám mươi, các nhà khoa học Trung Quốc đã lấy mẫu đất trên gò mộ để đo.",
+            "mo_phong": "small glass jars of soil samples and a trowel on the grassy slope of a large earthen mound, no people"
+          },
+          {
+            "text": "Kết quả bất ngờ: đất trên gò mộ chứa thủy ngân cao bất thường, cao hơn hẳn vùng đất xung quanh.",
+            "mo_phong": "silvery droplets of liquid mercury glistening in cracks of dark earth, close-up, no people"
+          },
+          {
+            "text": "Năm hai nghìn không trăm hai mươi, một nhóm nghiên cứu quốc tế công bố kết quả đo hơi thủy ngân trong không khí phía trên gò mộ, bằng tia laser.",
+            "mo_phong": "a thin green laser beam crossing the night sky above a large dark earthen mound, a small scientific instrument on a tripod in the foreground, no people",
+            "label": "2020"
+          },
+          {
+            "text": "Họ cũng thấy lượng thủy ngân cao hơn mức bình thường, như thể nó đang thoát ra qua những khe nứt của hầm mộ.",
+            "mo_phong": "a large earthen burial mound at dusk under a dark cloudy sky, silhouetted trees on top, quiet and mysterious, no people"
+          },
+          {
+            "text": "Vậy là những dòng tưởng như truyền thuyết của Tư Mã Thiên, rất có thể là thật.",
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sima_Qian_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "credit": "\"Sima Qian 2.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Sima_Qian_2.jpg)"
+            }
+          },
+          {
+            "text": "Thủy ngân rất độc. Bất cứ ai đi vào hầm mộ mà không được bảo vệ đều có thể gặp nguy hiểm.",
+            "mo_phong": "a dark sealed underground corridor of an ancient tomb with a faint silvery haze near the floor, no people"
+          }
+        ]
+      },
+      {
+        "title": "Vì sao chưa mở?",
+        "beats": [
+          {
+            "text": "Ngày nay, các nhà khảo cổ biết khá nhiều về ngôi mộ mà không cần đào.",
+            "mo_phong": "a large flat-topped earthen burial mound covered with trees and grass at the foot of a mountain in northern China, misty morning, farmland in front, no people"
+          },
+          {
+            "text": "Nhờ thăm dò địa vật lý, họ ước tính cung điện dưới lòng đất dài khoảng một trăm bốn mươi mét, rộng hơn một trăm mét.",
+            "mo_phong": "a vast dark underground hall with rows of stone pillars receding into darkness, faint light, no people"
+          },
+          {
+            "text": "Sử sách chép rằng chỉ vài năm sau khi nhà Tần sụp đổ, các cung điện ở kinh đô bị đốt cháy suốt ba tháng.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fire_Destroying_the_Epang_Palace_by_Kimura_Buzan_%28MOMA_Ibaraki%29.jpg/1920px-Fire_Destroying_the_Epang_Palace_by_Kimura_Buzan_%28MOMA_Ibaraki%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Fire Destroying the Epang Palace by Kimura Buzan (MOMA Ibaraki).jpg\" – Kimura Buzan, Public domain (https://commons.wikimedia.org/wiki/File:Fire_Destroying_the_Epang_Palace_by_Kimura_Buzan_(MOMA_Ibaraki).jpg)"
+            }
+          },
+          {
+            "text": "Nhưng nhiều nhà khoa học tin rằng ngôi mộ chưa từng bị trộm phá. Mọi thứ có lẽ vẫn còn nguyên như ngày bị niêm phong.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Qin_dynasty_bronze_chariot_and_horses.jpg/1920px-Qin_dynasty_bronze_chariot_and_horses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin dynasty bronze chariot and horses.jpg\" – No machine-readable author provided. Robin Chen assumed (based on copyright claims)., Public domain (https://commons.wikimedia.org/wiki/File:Qin_dynasty_bronze_chariot_and_horses.jpg)"
+            }
+          },
+          {
+            "text": "Vấn đề là chưa có công nghệ nào đủ an toàn để mở nó ra, mà không làm hỏng những gì bên trong và không gây nguy hiểm cho con người.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Qin_Terracotta_Warrior_10.jpg/1920px-Qin_Terracotta_Warrior_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 10.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_10.jpg)"
+            }
+          },
+          {
+            "text": "Vì thế, người ta quyết định chờ. Có thể vài chục năm, có thể lâu hơn nữa.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Terracotta_Army_-_Pit_2_20240806_06.jpg/1920px-Terracotta_Army_-_Pit_2_20240806_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Terracotta Army - Pit 2 20240806 06.jpg\" – 沈澄心, CC0 (https://commons.wikimedia.org/wiki/File:Terracotta_Army_-_Pit_2_20240806_06.jpg)"
+            }
+          },
+          {
+            "text": "Có những bí mật, giữ nguyên còn tốt hơn là vội vàng mở ra.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Qin_Terracotta_Warrior_01.jpg/1920px-Qin_Terracotta_Warrior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 01.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_01.jpg)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lời kết",
+        "beats": [
+          {
+            "text": "Tần Thủy Hoàng đã dành cả đời để tìm cách sống mãi.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Portrait_of_Qin_Shi_Huang.jpg/1920px-Portrait_of_Qin_Shi_Huang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Portrait of Qin Shi Huang.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Portrait_of_Qin_Shi_Huang.jpg)"
+            }
+          },
+          {
+            "text": "Ông không tìm được thuốc trường sinh. Nhưng theo một cách nào đó, ông vẫn còn đó, nằm dưới gò đất, giữa những con sông thủy ngân.",
+            "mo_phong": "a large earthen burial mound at dusk under a dark cloudy sky, silhouetted trees on top, quiet and mysterious, no people",
+            "fx": "mist"
+          },
+          {
+            "text": "Và đội quân tám nghìn người lính đất nung vẫn đứng canh, sau hơn hai nghìn hai trăm năm.",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Qin_Terracotta_Warriors%2C_Pit_1_08.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warriors, Pit 1 08.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_08.jpg)"
+            }
+          },
+          {
+            "text": "Nếu được quyết định, bạn có mở ngôi mộ ấy không?",
+            "image": {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Qin_Terracotta_Warrior_08.jpg/1920px-Qin_Terracotta_Warrior_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "credit": "\"Qin Terracotta Warrior 08.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_08.jpg)"
+            }
+          },
+          {
+            "text": "Sử thật… lạ hơn cả truyện. Cảm ơn bạn đã nghe chuyện cùng Người Gác Sử.",
+            "mo_phong": "an old oil lantern glowing on a wooden table beside an open old book with blank pages, dark room, no people"
+          }
+        ]
+      }
+    ]
+  },
+  "ngan": {
+    "hook_text": "Ngôi mộ **2.200 năm**\nchưa ai dám mở",
+    "hooks": [
+      "Ngôi mộ của vị hoàng đế đầu tiên Trung Hoa đã được tìm thấy. Nhưng hơn 2.000 năm qua, chưa ai dám mở nó ra.",
+      "Bên dưới ngọn đồi này có trăm con sông bằng thủy ngân. Và khoa học đã đo được nó.",
+      "8.000 người lính đất nung canh giữ một ngôi mộ mà đến nay vẫn không ai dám bước vào."
+    ],
+    "caption": "Ngôi mộ của Tần Thủy Hoàng đã được tìm thấy… nhưng hơn 2.000 năm qua chưa ai dám mở 🏯 Sử ký chép bên trong có trăm con sông thủy ngân, và khoa học đã đo được điều đáng sợ. Nếu được quyết định, bạn có mở ngôi mộ ấy không?",
+    "beats": [
+      {
+        "loai_canh": "hook",
+        "text": "Ngôi mộ của vị hoàng đế đầu tiên Trung Hoa đã được tìm thấy. Nhưng hơn hai nghìn năm qua, chưa ai dám mở nó ra.",
+        "images": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/QinShiHuang18thCentury.jpg/1920px-QinShiHuang18thCentury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"QinShiHuang18thCentury.jpg\" – Unknown (18??–18??), Public domain (https://commons.wikimedia.org/wiki/File:QinShiHuang18thCentury.jpg)"
+          },
+          {
+            "mo_phong": "a large flat-topped earthen burial mound covered with trees and grass at the foot of a mountain in northern China, misty morning, farmland in front, no people"
+          }
+        ]
+      },
+      {
+        "loai_canh": "vong_lap",
+        "text": "Và lý do người ta chưa mở… còn đáng sợ hơn mọi lời nguyền.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Hg_Mercury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Hg Mercury.jpg\" – А, Public domain (https://commons.wikimedia.org/wiki/File:Hg_Mercury.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "boi_canh",
+        "doi_canh": true,
+        "text": "Năm một nghìn chín trăm bảy mươi tư, nông dân gần Tây An đào giếng, và lưỡi xẻng chạm phải một cái đầu người bằng đất nung.",
+        "hien": "Năm **1974**, nông dân gần **Tây An** đào giếng, và lưỡi xẻng chạm phải một cái đầu người bằng đất nung.",
+        "images": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit%2C_Shantung.jpg/1920px-Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit%2C_Shantung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Farmers of forty centuries - Temporary well and portable irrigation outfit, Shantung.jpg\" – Unknown photographerUnknown photographer, Public domain (https://commons.wikimedia.org/wiki/File:Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit,_Shantung.jpg)"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Terracotta_army_xian_embedded_warrior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Terracotta army xian embedded warrior.jpg\" – Richardelainechambers at English Wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:Terracotta_army_xian_embedded_warrior.jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Qin_Terracotta_Warrior_2b.jpg/1920px-Qin_Terracotta_Warrior_2b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warrior 2b.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_2b.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "text": "Bên dưới là cả một đội quân: khoảng tám nghìn tượng lính to bằng người thật, canh giữ lăng mộ Tần Thủy Hoàng.",
+        "hien": "Bên dưới là cả một đội quân: khoảng **8.000** tượng lính to bằng người thật, canh giữ lăng mộ **Tần Thủy Hoàng**.",
+        "images": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Qin_Terracotta_Warriors%2C_Pit_1_08.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warriors, Pit 1 08.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_08.jpg)"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Qin_Shihuang_Terracotta_Army%2C_Pit_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Qin Shihuang Terracotta Army, Pit 1.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Terracotta_Army,_Pit_1.jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Qin_Terracotta_Warrior_02.jpg/1920px-Qin_Terracotta_Warrior_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warrior 02.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_02.jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Qin_Terracotta_Warrior_07.jpg/1920px-Qin_Terracotta_Warrior_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warrior 07.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_07.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "text": "Nhưng đó chỉ là lính canh. Ngôi mộ thật nằm dưới một gò đất gần đó, và vẫn chưa ai mở.",
+        "images": [
+          {
+            "mo_phong": "aerial view of a huge square flat-topped earthen mound covered with trees, surrounded by farmland and villages, early morning haze, no people"
+          },
+          {
+            "mo_phong": "a large earthen burial mound at dusk under a dark cloudy sky, silhouetted trees on top, quiet and mysterious, no people"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "doi_canh": true,
+        "text": "Hơn hai nghìn năm trước, sử gia Tư Mã Thiên chép rằng trong mộ có trăm con sông làm bằng thủy ngân, và những cỗ nỏ tự bắn kẻ đột nhập.",
+        "hien": "Hơn 2.000 năm trước, sử gia **Tư Mã Thiên** chép rằng trong mộ có trăm con sông bằng **thủy ngân**, và nỏ tự bắn kẻ đột nhập.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sima_Qian_%28painted_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Sima Qian (painted portrait).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Sima_Qian_(painted_portrait).jpg)"
+          },
+          {
+            "mo_phong": "a miniature landscape of rivers made of shining liquid mercury flowing between carved bronze mountains inside a dark ancient tomb chamber, lamplight, no people"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg/1920px-Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Warring States Bronze Crossbow Trigger Mechanism.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "leo_thang",
+        "text": "Suốt nhiều thế kỷ, người ta coi đó chỉ là truyền thuyết.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_%28%E5%8F%B2%E8%A8%98%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "\"Chinese report of Halley's Comet apparition in 240 BC from the Shiji (史記).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_(%E5%8F%B2%E8%A8%98).jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "cu_lat",
+        "text": "Cho đến khi các nhà khoa học đo đất trên gò mộ… Thủy ngân cao bất thường.",
+        "hien": "Cho đến khi các nhà khoa học đo đất trên gò mộ… **Thủy ngân** cao bất thường.",
+        "images": [
+          {
+            "mo_phong": "a dark earthen mound at night with a faint silvery mist hanging low above it, eerie, no people"
+          },
+          {
+            "mo_phong": "silvery droplets of liquid mercury glistening in cracks of dark earth, close-up, no people"
+          }
+        ]
+      },
+      {
+        "loai_canh": "cu_lat",
+        "text": "Năm hai nghìn không trăm hai mươi, một nghiên cứu đo bằng tia laser còn thấy hơi thủy ngân thoát ra phía trên ngôi mộ.",
+        "hien": "Năm **2020**, một nghiên cứu đo bằng tia laser còn thấy hơi thủy ngân thoát ra phía trên ngôi mộ.",
+        "images": [
+          {
+            "mo_phong": "a thin green laser beam crossing the night sky above a large dark earthen mound, a small scientific instrument on a tripod in the foreground, no people"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mercury%2C_cinnabar_and_calomel_%28GeoDIL_number_-_919%29.jpg/1920px-Mercury%2C_cinnabar_and_calomel_%28GeoDIL_number_-_919%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Mercury, cinnabar and calomel (GeoDIL number - 919).jpg\" – Darla Sondrol, CC0 (https://commons.wikimedia.org/wiki/File:Mercury,_cinnabar_and_calomel_(GeoDIL_number_-_919).jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "cu_lat",
+        "text": "Chưa hết. Khi khai quật đội quân đất nung, lớp sơn màu trên tượng bong tróc chỉ vài phút sau khi gặp không khí.",
+        "hien": "Chưa hết. Khi khai quật đội quân đất nung, lớp sơn màu trên tượng bong tróc chỉ **vài phút** sau khi gặp không khí.",
+        "images": [
+          {
+            "mo_phong": "an ancient terracotta soldier statue still covered in bright red, green and purple painted lacquer, soft museum light, no people"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Qin_Terracotta_Warrior_05.jpg/1920px-Qin_Terracotta_Warrior_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warrior 05.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_05.jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/2011_Qin_Terracotta_Warrior_03.jpg/1920px-2011_Qin_Terracotta_Warrior_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"2011 Qin Terracotta Warrior 03.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:2011_Qin_Terracotta_Warrior_03.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "ket",
+        "text": "Mở ngôi mộ lúc này có thể phá hủy mãi mãi những gì bên trong. Nên người ta quyết định chờ.",
+        "images": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Qin_Shihuang_Bronze_Chariot_%289893711294%29.jpg/1920px-Qin_Shihuang_Bronze_Chariot_%289893711294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Shihuang Bronze Chariot (9893711294).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Shihuang_Bronze_Chariot_(9893711294).jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Qin_Terracotta_Warriors%2C_Pit_1_02.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warriors, Pit 1 02.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_02.jpg)"
+          }
+        ]
+      },
+      {
+        "loai_canh": "ket",
+        "text": "Nếu được quyết định, bạn có mở ngôi mộ ấy không?",
+        "images": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Qin_Terracotta_Warrior_01.jpg/1920px-Qin_Terracotta_Warrior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Qin Terracotta Warrior 01.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_01.jpg)"
+          },
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Portrait_of_Qin_Shi_Huang.jpg/1920px-Portrait_of_Qin_Shi_Huang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "\"Portrait of Qin Shi Huang.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Portrait_of_Qin_Shi_Huang.jpg)"
+          }
+        ]
+      }
+    ],
+    "anh_bia": [
+      {
+        "anh": "2:2",
+        "nhan": "Bí ẩn 2.200 năm",
+        "to": "Chưa ai\n**dám mở**",
+        "nho": "Bên trong là\n**sông thủy ngân**?"
+      },
+      {
+        "anh": "7:0",
+        "nhan": "Sử ký chép lại",
+        "to": "**Trăm con sông**\nthủy ngân",
+        "nho": "Dưới gò đất này…"
+      },
+      {
+        "anh": "3:0",
+        "nhan": "Chuyện có thật",
+        "to": "**8.000** lính\ncanh một ngôi mộ",
+        "nho": "Vì sao không ai dám mở?"
+      }
+    ]
+  }
+}

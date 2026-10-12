@@ -1,13 +1,5 @@
 🔎 KIỂM TRA BA1 · video ngắn + bài ảnh
-❌ CÓ LỖI, CHƯA NÊN ĐĂNG — 1 lỗi, 1 cảnh báo
+✅ ĐẠT — 0 lỗi, 0 cảnh báo
+(chỉ kiểm tra kỹ thuật, chưa có bước AI)
 
-❌ [Nội dung kịch bản · cảnh 4 (video ngắn)] Không thống nhất con số giữa lời đọc và chữ trên hình: Lời đọc nói 'hơn bảy trăm cây số' (và bài viết ghi 'hơn 700 km'), nhưng chữ trên hình lại ghi '740 km'. Quy tắc yêu cầu cùng một con số phải giống nhau ở lời đọc, chữ trên hình và bài viết.
-   → Sửa: Sửa chữ trên hình thành 'hơn 700 km' để khớp với lời đọc và bài viết (hoặc sửa lời đọc thành 'hơn bảy trăm bốn mươi cây số'). Đồng thời chỉnh lại câu chữ trên hình cho rõ nghĩa: 'Từ quần đảo Azores, tàu tự trôi hơn 700 km trong 9 ngày không người lái'.
-⚠️ [Soi khung hình · khung 3 (00:31)] Lỗi định dạng danh sách ở mục thứ ba: biểu tượng hình thoi (bullet) bị rớt xuống dòng dưới đứng trước chữ 'biển', khiến dòng trên 'Mất xuồng cứu sinh, dụng cụ đi' bị mất biểu tượng đầu dòng.
-   → Sửa: Chỉnh lại khung văn bản hoặc ngắt dòng để biểu tượng hình thoi nằm đúng ở đầu dòng trước chữ 'Mất'.
-
-Nhận xét:
-• Nội dung kịch bản: Nội dung bám sát kế hoạch và chuẩn mực kiểm duyệt, chỉ có lỗi không đồng nhất con số khoảng cách (740 km trên hình vs. hơn 700 km ở lời đọc/bài viết) tại Cảnh 4.
-• Xem và nghe video: Video khớp hoàn toàn với kịch bản từ lời đọc, số liệu đến hình ảnh và phụ đề hiển thị, chất lượng âm thanh và hình ảnh tốt, sẵn sàng để đăng.
-• Soi khung hình: Hình ảnh tư liệu và minh họa chuẩn xác, bám sát nội dung lịch sử; chỉ cần chỉnh lại lỗi hiển thị biểu tượng đầu dòng ở khung 3.
-• Bài ảnh: Album ảnh và bài viết chuẩn chỉnh về mặt nội dung, hình ảnh tư liệu phù hợp và không có lỗi chính tả hay bố cục.
+Không phát hiện vấn đề nào.

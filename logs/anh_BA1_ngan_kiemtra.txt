@@ -1,10 +1,30 @@
-KIỂM TRA ẢNH BA1 · video ngắn · 7 ảnh (số thứ tự khớp lưới ảnh anh_BA1_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
-✅ 1 · hook scene_00.jpg
-❌ 2 · text scene_01.jpg
-     ❌ ảnh rất mờ / nhòe (độ nét 23)
-✅ 3 · explain scene_02.jpg
-✅ 4 · number scene_03.jpg
-✅ 5 · text scene_04.jpg
-✅ 6 · explain scene_05.jpg
-⚠️ 7 · outro scene_06.jpg
-     ⚠️ ảnh có dấu hiệu vỡ khối JPEG (tỉ lệ 1.8)
+KIỂM TRA ẢNH BA1 · video ngắn · 27 ảnh (số thứ tự khớp lưới ảnh anh_BA1_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 ·  scene_00.jpg
+✅ 2 (ảnh mô phỏng AI) ·  mp_8bf01e16ac28e617.jpg
+✅ 3 (ảnh mô phỏng AI) ·  mp_4ede4689ba7a8e07.jpg
+✅ 4 ·  scene_01.jpg
+✅ 5 (ảnh mô phỏng AI) ·  mp_06b2fca33113a4d5.jpg
+✅ 6 ·  scene_02.jpg
+⚠️ 7 ·  scene_03.jpg
+     ⚠️ ảnh rất mờ / nhòe (độ nét 18)
+✅ 8 (ảnh mô phỏng AI) ·  mp_35fe1b1419610f97.jpg
+✅ 9 ·  scene_04.jpg
+✅ 10 ·  scene_05.jpg
+✅ 11 ·  scene_06.jpg
+✅ 12 (ảnh mô phỏng AI) ·  mp_3e475b573050f187.jpg
+✅ 13 (ảnh mô phỏng AI) ·  mp_f5f912cb8903b311.jpg
+✅ 14 (ảnh mô phỏng AI) ·  mp_b029bc586cfceecb.jpg
+✅ 15 (ảnh mô phỏng AI) ·  mp_8673b2cbe8c2bfd5.jpg
+✅ 16 (ảnh mô phỏng AI) ·  mp_39e87408cf20d1db.jpg
+✅ 17 ·  scene_07.jpg
+✅ 18 ·  scene_08.jpg
+✅ 19 ·  scene_09.jpg
+✅ 20 ·  scene_10.jpg
+⚠️ 21 ·  scene_11.jpg
+     ⚠️ Ảnh minh họa là một tranh minh họa từ Tạp chí Strand năm 1913 vẽ bởi Charles Crombie, không phải là bức ảnh chân dung chính xác của nhà văn Arthur Conan Doyle vào năm 1884 khi ông viết truyện ngắn. → Nên sử dụng ảnh chân dung thực tế của nhà văn Arthur Conan Doyle thời kỳ trẻ (khoảng năm 1884) để đúng với lời kể.
+✅ 22 ·  scene_12.jpg
+✅ 23 (ảnh mô phỏng AI) ·  mp_5ebc7c625f3e3394.jpg
+✅ 24 (ảnh mô phỏng AI) ·  mp_5c910d3e1b9ae2c2.jpg
+✅ 25 (ảnh mô phỏng AI) ·  mp_8c3de2f3ba129ac1.jpg
+✅ 26 ·  scene_13.jpg
+✅ 27 ·  scene_14.jpg

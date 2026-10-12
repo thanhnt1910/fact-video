@@ -4,10 +4,19 @@
 ===== BA1 (video ngắn + bài ảnh) =====
 ▶️  BA1: Con tàu trôi giữa đại dương, không còn một bóng người
   🖼️  Ảnh cho video ngắn
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-❌ BA1: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🔍 Kiểm tra 27 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+  🎙️  Gemini đọc xong (29s), tốc độ x1.12
+  ⏱️  75.7 giây · 27 hình · trung bình 2.8 giây/hình
+  🎞️  Số lần: cut 14, dissolve 6, wipeup 2, fade 2, smoothleft 1, fadeblack 1
+[0;93m2026-10-12 04:48:10.411257877 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+  🎬 Dựng 2271 khung hình (62s)
+  🎵 Nhạc nền: Investigations
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA1_post.txt)
+✅ Xong output/BA1/BA1.mp4  (75.7s video, mất 159s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-Xong video ngắn: - · video dài: -
-Lỗi: BA1
+Xong video ngắn: BA1 · video dài: -

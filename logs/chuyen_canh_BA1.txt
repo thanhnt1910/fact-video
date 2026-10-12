@@ -1,0 +1,4 @@
+CHUYỂN CẢNH BA1 (video ngắn) · bảng màu: wipeleft, fade, dissolve, smoothleft, wipeup
+Thứ tự: cut → cut → cut → cut → cut → cut → cut → dissolve → wipeup → dissolve → cut → dissolve → cut → cut → dissolve → cut → smoothleft → cut → fadeblack → cut → cut → fade → dissolve → wipeup → fade → dissolve
+Số lần: cut 14, dissolve 6, wipeup 2, fade 2, smoothleft 1, fadeblack 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

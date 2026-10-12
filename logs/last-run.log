@@ -1,37 +1,5 @@
 
-===== BA13: kiểm tra kịch bản trước khi dựng =====
-
-===== BA13 (video dài) =====
-▶️  Video dài BA13: Vì sao ngôi mộ của Tần Thủy Hoàng hơn 2.000 năm chưa ai dám mở? | Bí ẩn lăng Tần Thủy Hoàng
-  🖼️  Ảnh cho video dài
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     🎨 mp_62aebbad3d73a7c2.jpg
-  🔍 Kiểm tra 59 ảnh: 0 ảnh lỗi, 7 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (9 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (19s)
-     🎙️  Gemini đọc xong 1 chương (22s)
-     🎙️  Gemini đọc xong 1 chương (30s)
-     🎙️  Gemini đọc xong 1 chương (18s)
-     🎙️  Gemini đọc xong 1 chương (18s)
-     🎙️  Gemini đọc xong 1 chương (18s)
-     🎙️  Gemini đọc xong 1 chương (30s)
-  ⏱️  Thời lượng 07:58 · 66 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-12 07:01:14.247770151 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
-     59/59 ảnh có độ sâu
-     11490 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (137 giây)
-     … 6/12 đoạn (239 giây)
-     … 9/12 đoạn (366 giây)
-     … 12/12 đoạn (375 giây)
-     dựng khung hình xong trong 375 giây
-  🎵 Nhạc nền: Investigations
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: BA13_dai.mp4 (07:58)
-
-Xong video ngắn: - · video dài: BA13
+===== BA1: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · cảnh 11 và 12 (video ngắn) / bài viết Facebook] Lời kết của video ngắn chưa có đúng câu bắt buộc theo quy định của kênh: 'Sử thật… lạ hơn cả truyện' và lời mời theo dõi.
+   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+Không dựng gì (kịch bản có lỗi, xem ở trên).

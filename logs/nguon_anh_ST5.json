@@ -1,0 +1,1093 @@
+{
+ "ma": "ST5",
+ "cap_nhat": "2026-10-12T23:36:37",
+ "anh": [
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1920px-RMS_Titanic_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"RMS Titanic 3.jpg\" – Francis Godolphin Osbourne Stuart, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 1 ảnh 1",
+    "dài · chương 4 đoạn 1",
+    "dài · chương 9 đoạn 3",
+    "bài ảnh · cảnh 1"
+   ],
+   "ten_file": "File:RMS Titanic 3.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Francis Godolphin Osbourne Stuart",
+   "ngay_chup": "10 April 1912date QS:P571,+1912-04-10T00:00:00Z/11",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://www.uwants.com/viewthread.php?tid=3817223&amp;extra=page%3D1"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 1 ảnh 2",
+    "ngắn · cảnh 9 ảnh 1",
+    "dài · chương 0 đoạn 5",
+    "dài · chương 5 đoạn 2",
+    "dài · chương 7 đoạn 3",
+    "dài · chương 9 đoạn 1",
+    "bài ảnh · cảnh 5"
+   ],
+   "ten_file": "File:Violet Jessop in Voluntary Aid Detachment Uniform.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author",
+   "ngay_chup": "between 1915 and 1917date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1915-00-00T00:00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work by HefePine23"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1915
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 2 ảnh 1",
+    "ngắn · cảnh 8 ảnh 1",
+    "dài · chương 4 đoạn 11"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"White Star Line Ca. 1910 Poster of Olympic & Titanic.jpg\" – White Star Line, Public domain (https://commons.wikimedia.org/wiki/File:White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 3 ảnh 1",
+    "dài · chương 0 đoạn 4",
+    "dài · chương 2 đoạn 7",
+    "dài · chương 7 đoạn 2"
+   ],
+   "ten_file": "File:White Star Line Ca. 1910 Poster of Olympic & Titanic.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:White_Star_Line_Ca._1910_Poster_of_Olympic_%26_Titanic.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "White Star Line",
+   "ngay_chup": "between circa 1910 and circa 1911date QS:P,+1910-00-00T00:00:00Z/8,P1319,+1910-0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.bukowskis.com/en/auctions/568/776-a-white-star-line-agent-s-brochure-olympic-titanic"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1910
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/RMS_Olympic%2C_1911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"RMS Olympic, 1911.JPG\" – Paul Thompson, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 3 ảnh 2",
+    "ngắn · cảnh 12 ảnh 2",
+    "dài · chương 2 đoạn 5",
+    "dài · chương 3 đoạn 5",
+    "dài · chương 7 đoạn 5"
+   ],
+   "ten_file": "File:RMS Olympic, 1911.JPG",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:RMS_Olympic,_1911.JPG",
+   "giay_phep": "Public domain",
+   "tac_gia": "Paul Thompson",
+   "ngay_chup": "1911",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "The New York Times photo archive, via their online store, here http://www.loc.gov/pictures/resource/ggbain.09362/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1911
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 3 ảnh 3",
+    "ngắn · cảnh 9 ảnh 2",
+    "dài · chương 5 đoạn 3",
+    "dài · chương 6 đoạn 13",
+    "bài ảnh · cảnh 4"
+   ],
+   "ten_file": "File:HMHS Britannic.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Allan C. Green",
+   "ngay_chup": "between December 1915 and October 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This image is available from the Our Collections of the State Library of Victoria under the Accession Number:"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1915
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg/1920px-RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"RMS Olympic and RMS Majestic in Southampton.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 1",
+    "dài · chương 3 đoạn 1"
+   ],
+   "ten_file": "File:RMS Olympic and RMS Majestic in Southampton.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:RMS_Olympic_and_RMS_Majestic_in_Southampton.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author",
+   "ngay_chup": "before 1930date QS:P,+1930-00-00T00:00:00Z/7,P1326,+1930-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.flickr.com/photos/191666705@N08/50991706647/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1930
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg/1920px-Olympic_Hawke_Collision_Popular_Mechanics_11_1911_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Olympic Hawke Collision Popular Mechanics 11 1911 (cropped).jpg\" – Popular Mechanics, November, 1911, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_Collision_Popular_Mechanics_11_1911_(cropped).jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 2",
+    "dài · chương 0 đoạn 3",
+    "dài · chương 3 đoạn 3"
+   ],
+   "ten_file": "File:Olympic Hawke Collision Popular Mechanics 11 1911 (cropped).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Olympic_Hawke_Collision_Popular_Mechanics_11_1911_(cropped).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Popular Mechanics, November, 1911",
+   "ngay_chup": "1911-11-01",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://archive.org/details/PopularMechanics1911/Popular_Mechanics_11_1911/page/n71/mode/2up?q=Hawke"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1911
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Olympic_Hawke_collision_damage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Olympic Hawke collision damage.jpg\" – Robert Welch, Public domain (https://commons.wikimedia.org/wiki/File:Olympic_Hawke_collision_damage.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 3",
+    "dài · chương 3 đoạn 4",
+    "bài ảnh · cảnh 2"
+   ],
+   "ten_file": "File:Olympic Hawke collision damage.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Olympic_Hawke_collision_damage.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Robert Welch",
+   "ngay_chup": "1911-10",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "maritimequest.com nmni.com"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1911
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/1912_Titanic_Departure.jpg/1920px-1912_Titanic_Departure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"1912 Titanic Departure.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1912_Titanic_Departure.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 5 ảnh 1",
+    "dài · chương 4 đoạn 2"
+   ],
+   "ten_file": "File:1912 Titanic Departure.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:1912_Titanic_Departure.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "10 April 1912, 12:00",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Book: \"The Maiden Voyage of the Titanic\", by Geoffrey Marcus Titanicuniverse.com Two Red Dots"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Grand_Staircase_aboard_the_RMS_Olympic_%28William_H._Rau_1911%29.jpg/1920px-Grand_Staircase_aboard_the_RMS_Olympic_%28William_H._Rau_1911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Grand Staircase aboard the RMS Olympic (William H. Rau 1911).jpg\" – William H. Rau, Public domain (https://commons.wikimedia.org/wiki/File:Grand_Staircase_aboard_the_RMS_Olympic_(William_H._Rau_1911).jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 5 ảnh 2",
+    "dài · chương 2 đoạn 6"
+   ],
+   "ten_file": "File:Grand Staircase aboard the RMS Olympic (William H. Rau 1911).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Grand_Staircase_aboard_the_RMS_Olympic_(William_H._Rau_1911).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "William H. Rau",
+   "ngay_chup": "1911-06",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID cph.3a27608.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1911
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Titanic_Iceberg_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Titanic Iceberg 1912.jpg\" – Captain W. F. Wood of a ship named S. S. Etonian, two days prior to the Titanic event, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Iceberg_1912.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 6 ảnh 1",
+    "dài · chương 4 đoạn 4",
+    "bài ảnh · cảnh 3"
+   ],
+   "ten_file": "File:Titanic Iceberg 1912.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Titanic_Iceberg_1912.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Captain W. F. Wood of a ship named S. S. Etonian, two days prior to the Titanic event",
+   "ngay_chup": "1912-04-12",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "RR Auction"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Titanic_Marconi_Wireless_Radio_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Titanic Marconi Wireless Radio Room.jpg\" – Francis Browne, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_Marconi_Wireless_Radio_Room.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 6 ảnh 2",
+    "dài · chương 4 đoạn 6"
+   ],
+   "ten_file": "File:Titanic Marconi Wireless Radio Room.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Titanic_Marconi_Wireless_Radio_Room.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Francis Browne",
+   "ngay_chup": "1912-04-11",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://www.titanicphotographs.com/Browne/indexfatherbrowne.htmlhttps://www.flickr.com/photos/190621962@N05/50790879427/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a giant four-funnel ocean liner at night, bow low in the water and stern slightly raised, lights still glowing, calm black sea, distant view, oil painting style, no visible people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 6 ảnh 3",
+    "dài · chương 4 đoạn 5",
+    "dài · chương 4 đoạn 10"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Carpathia_-_Titanic_lifeboats.jpg/1920px-Carpathia_-_Titanic_lifeboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Carpathia - Titanic lifeboats.jpg\" – HO, The New York Times, Public domain (https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 7 ảnh 1",
+    "dài · chương 4 đoạn 8"
+   ],
+   "ten_file": "File:Carpathia - Titanic lifeboats.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "HO, The New York Times",
+   "ngay_chup": "1912-04-18",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://clikhear.palmbeachpost.com/2013/life-style/travel/the-short-life-and-long-legacy-of-the-titanic/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a baby wrapped in a thick wool blanket held in a woman's arms inside a small wooden lifeboat at night, only arms and blanket visible, lantern light, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 7 ảnh 2",
+    "dài · chương 4 đoạn 9"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/RMS_Carpathia.jpg/1920px-RMS_Carpathia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"RMS Carpathia.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Carpathia.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 8 ảnh 2",
+    "dài · chương 4 đoạn 12"
+   ],
+   "ten_file": "File:RMS Carpathia.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:RMS_Carpathia.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "Unknown date",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "americanhistory.si.edu"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"HMHS Britannic's GSC Unique Real Picture.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 9 ảnh 3",
+    "dài · chương 5 đoạn 5"
+   ],
+   "ten_file": "File:HMHS Britannic's GSC Unique Real Picture.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic%27s_GSC_Unique_Real_Picture.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author",
+   "ngay_chup": "between 1915 and 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1915-00-00T00:00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "PinterestEncyclopedia-Titanica"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1915
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Capping_and_weighing_naval_mines_at_Toulon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Capping and weighing naval mines at Toulon.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Capping_and_weighing_naval_mines_at_Toulon.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 10 ảnh 1",
+    "dài · chương 6 đoạn 3"
+   ],
+   "ten_file": "File:Capping and weighing naval mines at Toulon.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Capping_and_weighing_naval_mines_at_Toulon.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "Unknown date",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "\"Collier's New Photographic History of the World's War\" (1919), page 42"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lifeboats_of_HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Lifeboats of HMHS Britannic.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Lifeboats_of_HMHS_Britannic.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 10 ảnh 2",
+    "dài · chương 6 đoạn 7"
+   ],
+   "ten_file": "File:Lifeboats of HMHS Britannic.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Lifeboats_of_HMHS_Britannic.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "between 1915 and 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1915-00-00T00:00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.pinterest.com/pin/218846863121452205/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1915
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/RMS_Olympic%27s_propellers.jpg/1920px-RMS_Olympic%27s_propellers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"RMS Olympic's propellers.jpg\" – Harland & Wolff Shipyard, Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_propellers.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 10 ảnh 3",
+    "dài · chương 6 đoạn 8"
+   ],
+   "ten_file": "File:RMS Olympic's propellers.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_propellers.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Harland &amp; Wolff Shipyard",
+   "ngay_chup": "29 January 1924",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://www.archdaily.com/79193/the-indicator-there-must-be-a-better-way/titanicpropellers/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1924
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "churning white foaming sea water behind a ship's stern, violent swirling current, seen from above, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 11 ảnh 1",
+    "dài · chương 6 đoạn 9",
+    "dài · chương 6 đoạn 10"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a small wooden lifeboat full of people in white nurse uniforms seen from far behind on a calm sea, a Greek island in the distance, oil painting style, no visible faces",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 11 ảnh 2",
+    "dài · chương 6 đoạn 11"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/The_SS_Belgenland.jpg/1920px-The_SS_Belgenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"The SS Belgenland.jpg\" – Harland & Wolff, Public domain (https://commons.wikimedia.org/wiki/File:The_SS_Belgenland.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "ngắn · cảnh 12 ảnh 1",
+    "dài · chương 7 đoạn 6",
+    "bài ảnh · cảnh 6"
+   ],
+   "ten_file": "File:The SS Belgenland.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_SS_Belgenland.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Harland &amp; Wolff",
+   "ngay_chup": "1923-03-05",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "National Museums NI : Harland &amp; Wolff Collection, HOYFM.HW.1598"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1923
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 13 ảnh 1",
+    "dài · chương 0 đoạn 6",
+    "dài · chương 2 đoạn 4",
+    "dài · chương 3 đoạn 7",
+    "dài · chương 9 đoạn 2"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a huge four-funnel ocean liner at night in a calm black sea seen from far away, rows of lit portholes, small lifeboats being lowered down its side, starry sky, no visible faces, painted in the style of an early 20th century oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 0 đoạn 1",
+    "dài · chương 4 đoạn 7"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Titanic-lifeboat-colorized.jpg/1920px-Titanic-lifeboat-colorized.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Titanic-lifeboat-colorized.jpg\" – J.W. Barker (Carpathia passenger) credited in The Sphere (London, 4 May 1912),  p. 91. Carpathia was the ship that received the Titanic's distress signal and came to rescue the survivors., Public domain (https://commons.wikimedia.org/wiki/File:Titanic-lifeboat-colorized.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 0 đoạn 2"
+   ],
+   "ten_file": "File:Titanic-lifeboat-colorized.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Titanic-lifeboat-colorized.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "J.W. Barker (Carpathia passenger) credited in The Sphere (London, 4 May 1912), p. 91. Carpathia was the ship that received the Titanic's distress signal and came to rescue the survivors.",
+   "ngay_chup": "1912-04-15",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud%2C_circa_1910.jpg/1920px-Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud%2C_circa_1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Construcción Bahía Blanca Sud, circa 1910.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud,_circa_1910.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 1 đoạn 1"
+   ],
+   "ten_file": "File:Construcción Bahía Blanca Sud, circa 1910.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Construcci%C3%B3n_Bah%C3%ADa_Blanca_Sud,_circa_1910.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "1910",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Unknown sourceUnknown source"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1910
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "the vast flat grassy pampas of Argentina in the 1890s with a flock of sheep and a lone farmhouse under a wide sky, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 1 đoạn 2"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a simple whitewashed farmhouse with a tin roof on the Argentine pampas in the 1890s, laundry drying, evening light, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 1 đoạn 3"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an empty iron bed with white sheets beside a small window in a simple 1890s farmhouse room, a jug of water on a stool, soft light, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 1 đoạn 4"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "sunrise over endless grass plains of Argentina, golden light, a wooden fence, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 1 đoạn 5"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Puerto_ingeniero_white_muelle_y_elevadores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Puerto ingeniero white muelle y elevadores.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Puerto_ingeniero_white_muelle_y_elevadores.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 1 đoạn 6"
+   ],
+   "ten_file": "File:Puerto ingeniero white muelle y elevadores.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Puerto_ingeniero_white_muelle_y_elevadores.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "circa 1900date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "here"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1900
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_steamship_Baltic_RMG_BHC3219.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"The steamship Baltic RMG BHC3219.jpg\" – Antonio Jacobsen, Public domain (https://commons.wikimedia.org/wiki/File:The_steamship_Baltic_RMG_BHC3219.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 1 đoạn 7"
+   ],
+   "ten_file": "File:The steamship Baltic RMG BHC3219.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_steamship_Baltic_RMG_BHC3219.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Antonio Jacobsen",
+   "ngay_chup": "1879",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Royal Museums Greenwich: identifier 14692 (BHC3219 — National Maritime Museum)"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1879
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an old leather suitcase being packed on a narrow bed in a small English room around 1908, a folded white apron and cap beside it, window light, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 2 đoạn 1"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an early 1900s two-funnel passenger steamship sailing across a blue ocean, white wake, clouds, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 2 đoạn 2"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a narrow white-painted corridor inside an early 1900s ocean liner with cabin doors and brass fittings, a stewardess's trolley with folded linen, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 2 đoạn 3"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Edgar_class_cruiser_diagram_Brasseys_1897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Edgar class cruiser diagram Brasseys 1897.jpg\" – F. K. Barnes, Public domain (https://commons.wikimedia.org/wiki/File:Edgar_class_cruiser_diagram_Brasseys_1897.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 3 đoạn 2"
+   ],
+   "ten_file": "File:Edgar class cruiser diagram Brasseys 1897.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Edgar_class_cruiser_diagram_Brasseys_1897.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "F. K. Barnes",
+   "ngay_chup": "1897",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Brassey's Naval Annual, 1897. Plate 13. Downloaded from https://archive.org/details/brasseysannuala00unkngoog"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1897
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an old handwritten notebook and a fountain pen on a wooden desk beside a framed photograph turned away from view, soft lamp light, oil painting style, no readable text",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 3 đoạn 6",
+    "dài · chương 7 đoạn 1",
+    "dài · chương 8 đoạn 4",
+    "dài · chương 8 đoạn 6"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/RMS_Olympic%27s_first_class_dining_room.jpg/1920px-RMS_Olympic%27s_first_class_dining_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"RMS Olympic's first class dining room.jpg\" – Underwood & Underwood., Public domain (https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_first_class_dining_room.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 4 đoạn 3"
+   ],
+   "ten_file": "File:RMS Olympic's first class dining room.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:RMS_Olympic%27s_first_class_dining_room.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Underwood &amp; Underwood.",
+   "ngay_chup": "circa 1911date QS:P,+1911-00-00T00:00:00Z/9,P1480,Q5727902",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://www.corbisimages.com/stock-photo/rights-managed/BE074910/main-dining-room-of-the-titanic http://www.uwants.com/viewthread.php?tid=3817223&amp;extra=page%3D1 Library of Congress: https://www.loc.gov/pictures/item/96503966/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1911
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Carpathia_Deck.jpg/1920px-Carpathia_Deck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Carpathia Deck.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Carpathia_Deck.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 4 đoạn 13"
+   ],
+   "ten_file": "File:Carpathia Deck.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Carpathia_Deck.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "1912",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "The Times Dispatch (Richmond, Virginia), April 21, 1912,p.10. Online reference http://chroniclingamerica.loc.gov/lccn/sn85038615/1912-04-21/ed-1/seq-37/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Titanic_newspaper_boy.jpg/1920px-Titanic_newspaper_boy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Titanic newspaper boy.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Titanic_newspaper_boy.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 4 đoạn 14"
+   ],
+   "ten_file": "File:Titanic newspaper boy.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Titanic_newspaper_boy.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "1912-04-16 08:00:00",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "current Old: https://www.sundaypost.com/fp/titanics-countdown-to-disasterafter-105-years-there-are-still-unanswered-questions-about-that-fateful-night/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Davidson_Road_War_Hospital%2C_Croydon%2C_London%2C_England_-_Nov_27th%2C_1917_%2815454101956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Davidson Road War Hospital, Croydon, London, England - Nov 27th, 1917 (15454101956).jpg\" – Aussie~mobs, Public domain (https://commons.wikimedia.org/wiki/File:Davidson_Road_War_Hospital,_Croydon,_London,_England_-_Nov_27th,_1917_(15454101956).jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 5 đoạn 1"
+   ],
+   "ten_file": "File:Davidson Road War Hospital, Croydon, London, England - Nov 27th, 1917 (15454101956).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Davidson_Road_War_Hospital,_Croydon,_London,_England_-_Nov_27th,_1917_(15454101956).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Aussie~mobs",
+   "ngay_chup": "1917-11-27 00:00",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Davidson Road War Hospital, Croydon, London, England - Nov 27th, 1917"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1917
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/HMHS_Britannic_at_Moudros.jpg/1920px-HMHS_Britannic_at_Moudros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"HMHS Britannic at Moudros.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_at_Moudros.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 5 đoạn 4"
+   ],
+   "ten_file": "File:HMHS Britannic at Moudros.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic_at_Moudros.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "circa 1916date QS:P,+1916-00-00T00:00:00Z/9,P1480,Q5727902",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Hospital Ship HMHS Britannic - Gallery https://www.flickr.com/photos/191666705@N08/50978845342/in/dateposted-public/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1916
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Hmhs_britannic_at_southampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Hmhs britannic at southampton.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hmhs_britannic_at_southampton.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 5 đoạn 6"
+   ],
+   "ten_file": "File:Hmhs britannic at southampton.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Hmhs_britannic_at_southampton.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author",
+   "ngay_chup": "circa 1916date QS:P,+1916-00-00T00:00:00Z/9,P1480,Q5727902",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "PinterestTwitter"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1916
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a rocky Greek island coast in the Aegean Sea on a clear November morning in 1916, calm blue water, a large white hospital ship far away, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 6 đoạn 1"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a large white hospital ship with a green stripe and red crosses listing to one side in a calm blue sea, smoke rising, lifeboats in the water around it, distant view, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 6 đoạn 2",
+    "dài · chương 6 đoạn 4"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an old wooden toothbrush and a small prayer book on a shelf in a ship cabin around 1916, a porthole with daylight, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 6 đoạn 5",
+    "dài · chương 6 đoạn 6"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a calm dark ocean in grey morning light, a faint mist on the water, utterly empty and silent, oil painting style",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 6 đoạn 12"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an empty ocean liner deck at sunset with a long railing and deck chairs, golden light on the sea, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 7 đoạn 4",
+    "dài · chương 9 đoạn 4"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Belgenland_1924-25_World_cruise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Belgenland 1924-25 World cruise.jpg\" – Red Star Line, Public domain (https://commons.wikimedia.org/wiki/File:Belgenland_1924-25_World_cruise.jpg)",
+   "ngay_tai": "2026-10-12",
+   "dung_o": [
+    "dài · chương 7 đoạn 7"
+   ],
+   "ten_file": "File:Belgenland 1924-25 World cruise.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Belgenland_1924-25_World_cruise.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Red Star Line",
+   "ngay_chup": "1924-04-01",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.pinterest.com/pin/169870217180105761/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1924
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a small brick cottage with a garden in a quiet English village in Suffolk in the 1950s, autumn trees, overcast light, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 8 đoạn 1",
+    "dài · chương 8 đoạn 5"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an old black rotary telephone on a small wooden table beside a window at night, rain on the glass, a lamp glowing, oil painting style, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-12",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 8 đoạn 2",
+    "dài · chương 8 đoạn 3"
+   ]
+  }
+ ],
+ "loi": [],
+ "canh_bao": []
+}

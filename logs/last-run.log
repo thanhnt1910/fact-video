@@ -1,38 +1,37 @@
 
-===== BA1: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
-   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+===== ST5: kiểm tra kịch bản trước khi dựng =====
 
-===== BA4: kiểm tra kịch bản trước khi dựng =====
-
-===== BA4 (video ngắn + bài ảnh) =====
-▶️  BA4: Bí ẩn đèo Dyatlov: 9 người rạch lều từ bên trong
+===== ST5 (video ngắn + bài ảnh) =====
+▶️  ST5: Cô gái sống sót qua 3 vụ đắm tàu
+  ⚖️  Bằng chứng bản quyền: 31 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST5.json
   🖼️  Ảnh cho video ngắn
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
      🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-❌ BA4: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+❌ ST5: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
 Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
-===== BA4 (video dài) =====
-▶️  Video dài BA4: Vì sao 9 người leo núi rạch lều bỏ chạy giữa đêm tuyết? | Bí ẩn đèo Dyatlov
+===== ST5 (video dài) =====
+▶️  Video dài ST5: Cô gái không thể chìm: người sống sót qua cả Olympic, Titanic và Britannic | Chuyện có thật
+  ⚖️  Bằng chứng bản quyền: 31 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST5.json
   🖼️  Ảnh cho video dài
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
      🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
      ⚠️  không tạo được ảnh mô phỏng: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
-  🎙️  Giọng Gemini Sadaltager (9 chương)
+  🎙️  Giọng Gemini Sadaltager (10 chương)
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (22s)
      🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (24s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (17s)
-     🎙️  Gemini đọc xong 1 chương (26s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (18s)
      🎙️  Gemini đọc xong 1 chương (16s)
-❌ Video dài BA4: thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+     🎙️  Gemini đọc xong 1 chương (30s)
+     🎙️  Gemini đọc xong 1 chương (13s)
+     🎙️  Gemini đọc xong 1 chương (25s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (17s)
+     🎙️  Gemini đọc xong 1 chương (11s)
+❌ Video dài ST5: thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
 Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): BA4
-Lỗi: BA4
+Video dài chưa xong (sẽ thử lại lần chạy sau): ST5
+Lỗi: ST5

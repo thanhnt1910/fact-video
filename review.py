@@ -381,8 +381,11 @@ def short_texts(script):
     if N:   # khung video ngắn mới: chỉ đưa lời đọc + chữ trên màn hình (không đưa đường dẫn ảnh)
         lines = [f"CHỮ HOOK TRÊN MÀN HÌNH: {plain(N.get('hook_text', ''))}"]
         for i, b in enumerate(N.get("beats", []), 1):
+            the = b.get("the") if isinstance(b.get("the"), dict) else {}
+            chu = " · ".join(plain(str(v)) for k, v in the.items() if k != "type" and v and not isinstance(v, list))
+            chu += "".join(f" · {plain(x)}" for x in the.get("bullets", []))
             lines.append(f"Cảnh {i} [{b.get('loai_canh', '')}] lời đọc: {plain(b.get('text', ''))}"
-                         + (f" | phụ đề: {plain(b['hien'])}" if b.get("hien") else ""))
+                         + (f" | thẻ chữ trên màn hình: {chu}" if chu else ""))
         lines += [f"Ảnh bìa {i}: " + " · ".join(plain(c.get(k, "")).replace("\n", " ") for k in ("nhan", "to", "nho") if c.get(k))
                   for i, c in enumerate(N.get("anh_bia", []), 1)]
         scenes_txt = "\n".join(lines)

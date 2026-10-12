@@ -2,26 +2,53 @@
 <html><head><meta charset="utf-8">
 <link rel="stylesheet" href="fonts.css">
 <style>
+  /* Lớp chữ của video ngắn, kiểu video Chiến tranh Emu (SL2): không phụ đề chạy liên tục, chỉ những THẺ THÔNG TIN chính
+     (câu hook, con số lớn, tiêu đề + gạch đầu dòng, câu ngắn + dòng phụ, thẻ kết).
+     Thẻ đặt ở phần dưới-giữa: mép dưới cách đáy 560 px (trên vùng tên kênh/caption của TikTok, Reels, Shorts),
+     lề phải rộng hơn để tránh cột nút thích/bình luận. */
   html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; background: transparent; overflow: hidden; }
-  body { font-family: 'Be Vietnam Pro', sans-serif; }
+  body { font-family: 'Be Vietnam Pro', sans-serif; color: #FFF8EC; }
   #root { position: relative; width: 1080px; height: 1920px; }
   .layer { position: absolute; display: none; }
-  /* chữ hook: to, ở phần trên (15–25% từ đỉnh, dưới thanh tiêu đề của ứng dụng), 2 dòng */
-  #hook { left: 60px; right: 60px; top: 300px; text-align: center; color: #FFF6E6; font-weight: 800; font-size: 76px;
-          line-height: 1.16; letter-spacing: -0.5px;
-          text-shadow: 0 4px 0 rgba(0,0,0,.55), 0 0 28px rgba(0,0,0,.85), 0 0 6px rgba(0,0,0,.9);
-          -webkit-text-stroke: 3px rgba(0,0,0,.55); paint-order: stroke fill; }
-  #hook b { color: var(--accent); font-weight: 800; }
-  /* phụ đề theo cụm 2-4 từ (theo plan): phần dưới khung, chân chữ cách đáy 560 px (tránh vùng tên kênh/caption
-     của TikTok, Reels, Shorts), lề trái 90 px, lề phải 170 px (tránh cột nút), cỡ 66 px, viền đen ~4 px, tối đa 2 dòng */
-  #sub { left: 90px; right: 170px; bottom: 560px; text-align: center; color: #FFFFFF; font-weight: 800; font-size: 66px;
-         line-height: 1.14; -webkit-text-stroke: 8px rgba(0,0,0,.95); paint-order: stroke fill;
-         text-shadow: 0 3px 10px rgba(0,0,0,.7); }
-  #sub b { color: var(--accent); font-weight: 800; }
-  #brand { top: 64px; right: 56px; font-family: 'Lora', serif; font-style: italic; font-weight: 600; font-size: 34px;
-           color: var(--accent); text-shadow: 0 2px 10px rgba(0,0,0,.85); opacity: .92; }
-  #aitag { top: 66px; left: 56px; font-weight: 700; font-size: 26px; letter-spacing: 1.5px; color: #FBEBD0;
-           background: rgba(0,0,0,.55); padding: 8px 16px; border-radius: 8px; text-transform: uppercase; }
+  b, .hl { color: var(--accent); font-weight: inherit; }
+
+  /* thanh trên: nhãn nhóm chuyện + tên kênh */
+  #top { left: 0; top: 0; width: 1080px; height: 260px; }
+  #top .chip { position: absolute; left: 60px; top: 112px; display: inline-flex; align-items: center; gap: 12px;
+               padding: 10px 24px 10px 18px; border-radius: 999px; background: rgba(0,0,0,0.42);
+               border: 1.5px solid color-mix(in srgb, var(--accent) 55%, transparent);
+               font-weight: 800; font-size: 28px; letter-spacing: 5px; text-transform: uppercase; }
+  #top .chip .ic { font-size: 32px; letter-spacing: 0; }
+  #top .brand { position: absolute; right: 60px; top: 118px; font-family: 'Lora', serif; font-style: italic;
+                font-weight: 600; font-size: 38px; color: var(--accent); text-shadow: 0 2px 10px rgba(0,0,0,.85); }
+
+  /* nền tối dần ở nửa dưới để chữ dễ đọc (hiện cùng thẻ) */
+  #card { left: 0; top: 0; width: 1080px; height: 1920px; }
+  #card .shade { position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+                 background: linear-gradient(180deg, rgba(0,0,0,0) 38%, rgba(8,5,2,0.62) 56%, rgba(8,5,2,0.78) 72%, rgba(8,5,2,0.55) 100%); }
+  #card .box { position: absolute; left: 90px; right: 150px; bottom: 560px; display: flex; flex-direction: column;
+               align-items: center; text-align: center; }
+  .serif { font-family: 'Lora', Georgia, serif; font-weight: 700; }
+  .sh { text-shadow: 0 4px 18px rgba(0,0,0,.75), 0 0 4px rgba(0,0,0,.6); }
+
+  .hook { font-size: 70px; line-height: 1.2; }
+  .pre { font-weight: 700; font-size: 46px; line-height: 1.25; opacity: .95; margin-bottom: 8px; }
+  .num { font-size: 200px; line-height: 1.02; color: var(--accent); }
+  .unit { font-weight: 800; font-size: 64px; line-height: 1.15; margin-top: 6px; }
+  .cap { font-weight: 700; font-size: 42px; line-height: 1.3; margin-top: 26px; opacity: .95; }
+  .heading { font-size: 70px; line-height: 1.18; margin-bottom: 30px; }
+  .bullets { width: 100%; display: flex; flex-direction: column; gap: 18px; }
+  .bullet { display: flex; align-items: center; gap: 18px; text-align: left; padding: 20px 28px; border-radius: 14px;
+            background: rgba(12,7,3,0.62); border: 1.5px solid color-mix(in srgb, var(--accent) 30%, transparent);
+            border-left: 5px solid var(--accent); font-weight: 700; font-size: 42px; line-height: 1.28; }
+  .bullet::before { content: "◆"; color: var(--accent); font-size: 26px; flex: none; }
+  .bullet.off { visibility: hidden; }
+  .statement { font-size: 72px; line-height: 1.2; }
+  .sub { font-weight: 700; font-size: 42px; line-height: 1.3; margin-top: 26px; opacity: .95; }
+  .catch { font-family: 'Lora', serif; font-style: italic; font-weight: 700; font-size: 80px; line-height: 1.15; color: var(--accent); }
+  .recap { font-weight: 700; font-size: 44px; line-height: 1.3; margin-top: 26px; }
+  .follow { font-weight: 800; font-size: 36px; margin-top: 26px; }
+
   /* ảnh bìa: chữ rất to ở vùng giữa (TikTok cắt lưới hồ sơ thành 3:4 ở giữa) */
   #thumb { left: 40px; right: 40px; top: 0; height: 1920px; display: none; }
   #thumb .tag { position: absolute; left: 0; right: 0; top: 330px; text-align: center; }
@@ -38,26 +65,49 @@
   #thumb .small b { color: var(--accent); }
 </style></head>
 <body><div id="root">
-  <div id="hook" class="layer"></div>
-  <div id="sub" class="layer"></div>
-  <div id="brand" class="layer"></div>
-  <div id="aitag" class="layer">Ảnh minh họa</div>
+  <div id="top" class="layer"><div class="chip"><span class="ic"></span><span class="lb"></span></div><div class="brand"></div></div>
+  <div id="card" class="layer"><div class="shade"></div><div class="box"></div></div>
   <div id="thumb" class="layer"><div class="tag"><span></span></div><div class="big"></div><div class="small"></div></div>
 </div>
 <script>
-function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function esc(s) { return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function rich(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>'); }
+const div = (cls, html) => `<div class="${cls}">${html}</div>`;
+// c: {type: hook|number|explain|text|outro, ...}; shown = số gạch đầu dòng đang hiện (explain); value_now = số đang đếm
+function cardHtml(c) {
+  const t = c.type || 'text';
+  if (t === 'hook') return div('hook serif sh', rich(c.text));
+  if (t === 'number') return (c.pre ? div('pre sh', rich(c.pre)) : '') + div('num serif sh', esc(c.value_now ?? c.value))
+    + (c.unit ? div('unit sh', rich(c.unit)) : '') + (c.caption ? div('cap sh', rich(c.caption)) : '');
+  if (t === 'explain') {
+    const n = c.shown ?? (c.bullets || []).length;
+    return (c.title ? div('heading serif sh', rich(c.title)) : '')
+      + div('bullets', (c.bullets || []).map((b, i) => div('bullet' + (i < n ? '' : ' off'), `<span>${rich(b)}</span>`)).join(''));
+  }
+  if (t === 'outro') return div('catch sh', rich(c.text || '')) + (c.recap ? div('recap sh', rich(c.recap)) : '')
+    + (c.follow ? div('follow sh', esc(c.follow)) : '');
+  return div('statement serif sh', rich(c.text)) + (c.sub ? div('sub sh', rich(c.sub)) : '');
+}
 window.show = function (a) {
   document.documentElement.style.setProperty('--accent', a.accent || '#FFC66B');
-  for (const id of ['hook', 'sub', 'brand', 'aitag', 'thumb']) document.getElementById(id).style.display = 'none';
+  for (const id of ['top', 'card', 'thumb']) document.getElementById(id).style.display = 'none';
   const el = document.getElementById(a.id);
   if (a.id === 'thumb') {
     el.querySelector('.tag span').textContent = a.tag || '';
     el.querySelector('.tag').style.display = a.tag ? '' : 'none';
     el.querySelector('.big').innerHTML = rich(a.big || '');
     el.querySelector('.small').innerHTML = rich(a.small || '');
-  } else if (a.html != null) el.innerHTML = rich(a.html);
+  } else if (a.id === 'top') {
+    el.querySelector('.ic').textContent = a.icon || '';
+    el.querySelector('.lb').textContent = a.label || '';
+    el.querySelector('.chip').style.display = a.label ? '' : 'none';
+    el.querySelector('.brand').textContent = a.brand || '';
+  } else if (a.id === 'card') {
+    el.querySelector('.box').innerHTML = cardHtml(a.card || {});
+  }
   el.style.display = 'block';
+  const box = el.querySelector('.box');
+  return box ? box.getBoundingClientRect().top : 0;   // để Python kiểm tra thẻ không quá cao
 };
 </script>
 </body></html>

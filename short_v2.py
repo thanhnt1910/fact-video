@@ -6,14 +6,20 @@ Kịch bản: khóa "ngan" trong scripts/<mã>.json
    "hooks": ["các phiên bản hook để thử", ...],       # không đọc, chỉ để chọn
    "caption": "dòng đầu caption ...",
    "beats": [{"loai_canh": "hook|vong_lap|boi_canh|leo_thang|cu_lat|ket",
-              "text": "lời đọc", "hien": "phụ đề hiển thị (**từ khóa**), tùy chọn",
+              "text": "lời đọc",
+              "the": {...},                              # THẺ THÔNG TIN (tùy chọn) hiện suốt cảnh, kiểu video Emu:
+                  # {"type": "number", "pre": "Khoảng", "value": "20.000", "unit": "con emu", "caption": "…"}
+                  # {"type": "explain", "title": "Quân đội vào cuộc", "bullets": ["2 súng máy", "10.000 viên đạn"]}
+                  # {"type": "text", "text": "Quân đội **rút lui**", "sub": "Báo chí gọi là …"}
+                  # {"type": "outro", "recap": "2 súng máy · 10.000 viên đạn · emu vẫn thắng"}
               "doi_canh": true,                          # sang nơi chốn / thời điểm khác
               "chuyen_canh": "wipeleft",                 # ghi đè chuyển cảnh vào cảnh này, tùy chọn
               "images": [{"url": "...", "credit": "..."} | {"mo_phong": "prompt tiếng Anh"}]}]}
 
 - Mỗi hình đứng 2-4 giây (nhiều hình cho một câu dài); không zoom / cắt cận lại cùng một hình.
-- Ảnh ngang đặt thành dải giữa màn hình (thấy ≥ 55% bề ngang), phần trên/dưới là chính ảnh làm mờ.
-- Giọng Gemini đọc nhanh 1,12 lần; phụ đề hiện từng cụm 2-4 từ ở vùng giữa, từ khóa màu vàng hổ phách.
+- Không có phụ đề chạy liên tục: chỉ chữ hook (cảnh đầu) và các thẻ thông tin chính ở phần dưới-giữa khung
+  (mép dưới cách đáy 560 px). Cảnh có thẻ: ảnh ngang đặt ở nửa trên, thẻ bên dưới trên nền tối dần (như video Emu).
+- Giọng Gemini đọc nhanh 1,12 lần.
 - Chuyển cảnh theo mục "Chuyển cảnh" của kế hoạch: cấu trúc câu chuyện trước, rồi bảng màu ngẫu nhiên theo mã chuyện.
 """
 import array
@@ -201,7 +207,7 @@ def grade(im):
     return long_render.grade(im, sepia=0.22, contrast=1.06, bright=0.95, sat=0.9)
 
 
-def make_plate(src, depth=None):
+def make_plate(src, depth=None, top=False):
     """Khung dọc 1080x1920 (lớn hơn 6% để máy quay trôi nhẹ): ảnh dọc phủ kín; ảnh ngang thành dải giữa màn hình,
     nền trên/dưới là chính ảnh phóng to làm mờ."""
     PW, PH = int(W * 1.06), int(H * 1.06)
@@ -219,6 +225,19 @@ def make_plate(src, depth=None):
     bg = bg.filter(ImageFilter.GaussianBlur(18))
     import long_render
     bg = long_render.grade(bg, sepia=0.3, contrast=1.0, bright=0.42, sat=0.9)
+    if top:   # cảnh có thẻ chữ: ảnh trọn bề ngang ở nửa trên, mép dưới tan dần vào nền mờ (kiểu video Emu)
+        band = im.resize((PW, max(1, round(PW * h / w))), Image.LANCZOS)
+        mh = int(PH * 0.47)
+        if band.height > mh:
+            yc = int((band.height - mh) * 0.3)
+            band = band.crop((0, yc, PW, yc + mh))
+        band = grade(band)
+        y0 = int(PH * 0.075)
+        fade = min(160, band.height // 3)
+        mask = np.full((band.height, PW), 255, np.uint8)
+        mask[-fade:] = (np.linspace(1, 0, fade) ** 1.3 * 255).astype(np.uint8)[:, None]
+        bg.paste(band, (0, y0), Image.fromarray(mask))
+        return bg
     # dải ảnh: thấy ít nhất 55% bề ngang (ảnh vuông: 80%), cao tối đa 74% khung
     vis = 0.55 if w / h >= 1.5 else 0.8 if w / h <= 1.1 else 0.66
     bw = PW / vis
@@ -408,10 +427,34 @@ def narration(beats, voice, work):
     return audio, segs, (a, b)
 
 
-def render_overlays(script, cfg, subs, hook_text, work):
+CARD_TOP_MIN = 560    # thẻ chữ không được cao quá mức này (để nửa trên dành cho ảnh)
+
+
+def _count_steps(value, n=14):
+    """Các giá trị đếm dần cho con số lớn ("20.000" -> "0", "1.400", ... "20.000")."""
+    m = re.match(r"^([^\d]*)([\d.,]+)(.*)$", str(value))
+    if not m or re.search(r"[:/]", str(value)):
+        return [str(value)]
+    digits = m.group(2)
+    if "," in digits and "." not in digits and len(digits.split(",")[-1]) != 3:
+        return [str(value)]          # số thập phân (2,5) thì không đếm
+    target = int(re.sub(r"[.,]", "", digits))
+    if target < 10:
+        return [str(value)]
+    out = []
+    for k in range(1, n + 1):
+        e = 1 - (1 - k / n) ** 3
+        out.append(m.group(1) + f"{round(target * e):,}".replace(",", ".") + m.group(3))
+    out[-1] = str(value)
+    return out
+
+
+def render_overlays(script, cfg, cards, work):
+    """cards: [{"card": {...}, ...}] -> mỗi thẻ thêm "frames": [(thời điểm tương đối, png)]."""
     from playwright.sync_api import sync_playwright
     work.mkdir(parents=True, exist_ok=True)
-    out = {"sub": {}, "hook": None, "brand": None, "aitag": None}
+    topic = (cfg.get("topics") or {}).get(script.get("topic", ""), {})
+    out = {}
     with sync_playwright() as p:
         br = p.chromium.launch()
         page = br.new_page(viewport={"width": W, "height": H})
@@ -419,23 +462,43 @@ def render_overlays(script, cfg, subs, hook_text, work):
         page.evaluate("() => document.fonts.ready")
 
         def snap(name, **a):
-            page.evaluate("a => window.show(a)", dict(a, accent=AMBER))
+            top_y = page.evaluate("a => window.show(a)", dict(a, accent=AMBER))
             page.wait_for_timeout(30)
             f = work / name
             page.screenshot(path=str(f), type="png", omit_background=True)
-            return str(f)
+            return str(f), top_y
 
-        out["brand"] = snap("brand.png", id="brand", html=cfg.get("channel", ""))
-        out["aitag"] = snap("aitag.png", id="aitag")
-        if hook_text:
-            out["hook"] = snap("hook.png", id="hook", html=hook_text)
-        for i, t in enumerate(sorted({s["text"] for s in subs})):
-            out["sub"][t] = snap(f"sub_{i}.png", id="sub", html=t)
+        out["top"] = snap("top.png", id="top", icon=topic.get("icon", ""), label=topic.get("label", ""),
+                          brand=cfg.get("channel", ""))[0]
+        for i, c in enumerate(cards):
+            cd = dict(c["card"])
+            if cd.get("type") == "outro":
+                cd.setdefault("text", cfg.get("catchphrase", ""))
+                cd.setdefault("follow", cfg.get("follow", ""))
+            frames = []
+            if cd.get("type") == "explain" and len(cd.get("bullets") or []) > 1:
+                nb = len(cd["bullets"])
+                for k in range(1, nb + 1):   # gạch đầu dòng hiện lần lượt trong 60% đầu của cảnh
+                    f, y = snap(f"card_{i}_{k}.png", id="card", card=dict(cd, shown=k))
+                    frames.append(((k - 1) / nb * 0.6, f, y))
+            elif cd.get("type") == "number":
+                steps = _count_steps(cd.get("value", ""))
+                for k, v in enumerate(steps):  # con số đếm dần trong 1,2 giây đầu (giá trị tuyệt đối, giây)
+                    f, y = snap(f"card_{i}_{k}.png", id="card", card=dict(cd, value_now=v))
+                    frames.append((-(0.15 + 1.2 * k / max(1, len(steps) - 1)), f, y))
+            else:
+                f, y = snap(f"card_{i}.png", id="card", card=cd)
+                frames.append((0.0, f, y))
+            hi = min(y for _, _, y in frames)
+            if hi < CARD_TOP_MIN:
+                log(f"  ⚠️  thẻ chữ cảnh {c['beat'] + 1} cao quá (mép trên y={hi:.0f}), nên rút gọn chữ")
+            c["frames"] = [(t, f) for t, f, _ in frames]
         br.close()
     return out
 
 
 def build(script, cfg, out_dir):
+    import cv2
     import long_render
     import motion
     sid = script["id"]
@@ -460,28 +523,25 @@ def build(script, cfg, out_dir):
 
     # mốc thời gian từng câu (giây trong video)
     times = [(lead + (s - a0) / SR, lead + (e - a0) / SR) for s, e in segs]
-    shots, subs = [], []
+    shots, cards = [], []
     for i, (b, (s, e)) in enumerate(zip(beats, times)):
         start = 0.0 if i == 0 else s
         end = times[i + 1][0] if i + 1 < len(times) else total
+        card = b.get("the")
+        if i == 0 and N.get("hook_text") and not card:
+            card = {"type": "hook", "text": N["hook_text"]}
+        if card == "giu" and cards and abs(cards[-1]["end"] - start) < 0.05:
+            cards[-1]["end"] = end                     # giữ nguyên thẻ của cảnh trước
+        elif isinstance(card, dict):
+            cards.append({"card": card, "start": start, "end": end, "beat": i})
+        has_card = bool(card)
         n = len(b["images"])
         for j, im in enumerate(b["images"]):
             shots.append({"src": im["_src"], "ai": bool(im.get("_ai")), "start": start + (end - start) * j / n,
                           "end": start + (end - start) * (j + 1) / n, "loai": b.get("loai_canh", "leo_thang"),
-                          "first_in_beat": j == 0, "doi_canh": bool(b.get("doi_canh")),
+                          "first_in_beat": j == 0, "doi_canh": bool(b.get("doi_canh")), "top": has_card,
                           "override": b.get("chuyen_canh"), "mat": bool(b.get("co_nguoi_mat"))})
-        if b.get("loai_canh") == "hook" and N.get("hook_text"):
-            continue                                   # đoạn hook: chữ to trên màn hình thay cho phụ đề
-        chunks = [auto_keywords(c) for c in chunk_words(_plain(b.get("hien") or b["text"]))]
-        tot = sum(len(c.replace("*", "")) for c in chunks) or 1
-        t = s
-        for c in chunks:
-            d = (e - s) * len(c.replace("*", "")) / tot
-            subs.append({"text": c, "start": t, "end": t + d})
-            t += d
-    for k in range(len(subs) - 1):                    # giữ phụ đề tới khi cụm sau hiện (không nhấp nháy trống)
-        if subs[k + 1]["start"] - subs[k]["end"] < 0.35:
-            subs[k]["end"] = subs[k + 1]["start"]
+    log(f"  🪧 {len(cards)} thẻ thông tin (không phụ đề chạy liên tục)")
     long_dur = [s for s in shots if s["end"] - s["start"] > 4.05]
     log(f"  ⏱️  {total:.1f} giây · {len(shots)} hình · trung bình {total / max(1, len(shots)):.1f} giây/hình"
         + (f" · ⚠️ {len(long_dur)} hình đứng quá 4 giây" if long_dur else ""))
@@ -490,12 +550,11 @@ def build(script, cfg, out_dir):
     if errs:
         raise RuntimeError("chuyển cảnh không đạt: " + "; ".join(errs))
 
-    hook_end = times[0][1] + 0.3 if N.get("hook_text") else 0
-    if subs:   # chữ hook biến mất trước khi phụ đề đầu tiên hiện: không bao giờ hai khối chữ cùng lúc
-        hook_end = min(hook_end, subs[0]["start"])
-    ov = render_overlays(script, cfg, subs, N.get("hook_text"), work / "ov")
-    L = {k: (long_render._ov(v) if isinstance(v, str) else None) for k, v in ov.items() if k != "sub"}
-    Ls = {k: long_render._ov(v) for k, v in ov["sub"].items()}
+    ov = render_overlays(script, cfg, cards, work / "ov")
+    L_top = long_render._ov(ov["top"])
+    for c in cards:
+        d = c["end"] - c["start"]
+        c["layers"] = [(c["start"] + (-t if t < 0 else t * d), long_render._ov(f)) for t, f in c["frames"]]
 
     # độ sâu để đặt chủ thể giữa dải ảnh
     depths = {}
@@ -509,11 +568,12 @@ def build(script, cfg, out_dir):
 
     def plate(i):
         src = shots[i]["src"]
-        if src not in plates:
+        key = (src, shots[i]["top"])
+        if key not in plates:
             if len(plates) > 6:
                 plates.pop(next(iter(plates)))
-            plates[src] = np.ascontiguousarray(np.asarray(make_plate(src, depths.get(src))))
-        return plates[src]
+            plates[key] = np.ascontiguousarray(np.asarray(make_plate(src, depths.get(src), top=shots[i]["top"])))
+        return plates[key]
 
     def over(img, layer):
         import cv2
@@ -544,12 +604,17 @@ def build(script, cfg, out_dir):
             if t >= shots[nx]["start"] - d:
                 q = (t - (shots[nx]["start"] - d)) / d
                 img = transition(img, frame_of(nx, t), q, shots[nx]["tr"])
-        img = over(img, L["brand"])
-        if L.get("hook") is not None and t < hook_end:
-            img = over(img, L["hook"])
-        for sb in subs:
-            if sb["start"] <= t < sb["end"]:
-                img = over(img, Ls[sb["text"]])
+        img = over(img, L_top)
+        for c in cards:   # thẻ thông tin: hiện dần 0,25 s, tắt dần 0,2 s cuối cảnh
+            if c["start"] <= t < c["end"]:
+                lay = c["layers"][0][1]
+                for tt, ly in c["layers"]:
+                    if t >= tt:
+                        lay = ly
+                a = min(1.0, (t - c["start"] - 0.05) / 0.25, (c["end"] - t) / 0.2)
+                if a > 0:
+                    withc = over(img, lay)
+                    img = withc if a >= 1 else cv2.addWeighted(withc, a, img, 1 - a, 0)
                 break
         if abs(t - (shots[si]["start"] + shots[si]["end"]) / 2) < 0.5 / FPS:
             review.append(img.copy())

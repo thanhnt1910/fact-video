@@ -607,7 +607,6 @@
         "loai_canh": "boi_canh",
         "doi_canh": true,
         "text": "Năm một nghìn chín trăm bảy mươi tư, nông dân gần Tây An đào giếng, và lưỡi xẻng chạm phải một cái đầu người bằng đất nung.",
-        "hien": "Năm **1974**, nông dân gần **Tây An** đào giếng, và lưỡi xẻng chạm phải một cái đầu người bằng đất nung.",
         "images": [
           {
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit%2C_Shantung.jpg/1920px-Farmers_of_forty_centuries_-_Temporary_well_and_portable_irrigation_outfit%2C_Shantung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -621,12 +620,16 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Qin_Terracotta_Warrior_2b.jpg/1920px-Qin_Terracotta_Warrior_2b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Qin Terracotta Warrior 2b.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_2b.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Năm **1974**, gần Tây An",
+          "sub": "Nông dân đào giếng, chạm phải một đầu tượng đất nung"
+        }
       },
       {
         "loai_canh": "leo_thang",
         "text": "Bên dưới là cả một đội quân: khoảng tám nghìn tượng lính to bằng người thật, canh giữ lăng mộ Tần Thủy Hoàng.",
-        "hien": "Bên dưới là cả một đội quân: khoảng **8.000** tượng lính to bằng người thật, canh giữ lăng mộ **Tần Thủy Hoàng**.",
         "images": [
           {
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Qin_Terracotta_Warriors%2C_Pit_1_08.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -644,7 +647,14 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Qin_Terracotta_Warrior_07.jpg/1920px-Qin_Terracotta_Warrior_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Qin Terracotta Warrior 07.jpg\" – Gary Lee Todd, Ph.D., CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warrior_07.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "number",
+          "pre": "Khoảng",
+          "value": "8.000",
+          "unit": "tượng lính đất nung",
+          "caption": "to bằng người thật, canh lăng **Tần Thủy Hoàng**"
+        }
       },
       {
         "loai_canh": "leo_thang",
@@ -656,13 +666,17 @@
           {
             "mo_phong": "a large earthen burial mound at dusk under a dark cloudy sky, silhouetted trees on top, quiet and mysterious, no people"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Ngôi mộ thật **chưa ai mở**",
+          "sub": "Nằm dưới một gò đất gần đó"
+        }
       },
       {
         "loai_canh": "leo_thang",
         "doi_canh": true,
         "text": "Hơn hai nghìn năm trước, sử gia Tư Mã Thiên chép rằng trong mộ có trăm con sông làm bằng thủy ngân, và những cỗ nỏ tự bắn kẻ đột nhập.",
-        "hien": "Hơn 2.000 năm trước, sử gia **Tư Mã Thiên** chép rằng trong mộ có trăm con sông bằng **thủy ngân**, và nỏ tự bắn kẻ đột nhập.",
         "images": [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sima_Qian_%28painted_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -675,7 +689,15 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg/1920px-Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Warring States Bronze Crossbow Trigger Mechanism.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Warring_States_Bronze_Crossbow_Trigger_Mechanism.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "explain",
+          "title": "Sử gia **Tư Mã Thiên** chép",
+          "bullets": [
+            "Trăm con sông bằng **thủy ngân**",
+            "Nỏ tự bắn kẻ đột nhập"
+          ]
+        }
       },
       {
         "loai_canh": "leo_thang",
@@ -685,12 +707,12 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_%28%E5%8F%B2%E8%A8%98%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "credit": "\"Chinese report of Halley's Comet apparition in 240 BC from the Shiji (史記).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Chinese_report_of_Halley%27s_Comet_apparition_in_240_BC_from_the_Shiji_(%E5%8F%B2%E8%A8%98).jpg)"
           }
-        ]
+        ],
+        "the": "giu"
       },
       {
         "loai_canh": "cu_lat",
         "text": "Cho đến khi các nhà khoa học đo đất trên gò mộ… Thủy ngân cao bất thường.",
-        "hien": "Cho đến khi các nhà khoa học đo đất trên gò mộ… **Thủy ngân** cao bất thường.",
         "images": [
           {
             "mo_phong": "a dark earthen mound at night with a faint silvery mist hanging low above it, eerie, no people"
@@ -698,12 +720,16 @@
           {
             "mo_phong": "silvery droplets of liquid mercury glistening in cracks of dark earth, close-up, no people"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "**Thủy ngân** cao bất thường",
+          "sub": "trong đất trên gò mộ"
+        }
       },
       {
         "loai_canh": "cu_lat",
         "text": "Năm hai nghìn không trăm hai mươi, một nghiên cứu đo bằng tia laser còn thấy hơi thủy ngân thoát ra phía trên ngôi mộ.",
-        "hien": "Năm **2020**, một nghiên cứu đo bằng tia laser còn thấy hơi thủy ngân thoát ra phía trên ngôi mộ.",
         "images": [
           {
             "mo_phong": "a thin green laser beam crossing the night sky above a large dark earthen mound, a small scientific instrument on a tripod in the foreground, no people"
@@ -711,12 +737,16 @@
           {
             "mo_phong": "a large earthen burial mound at dusk under a dark cloudy sky, silhouetted trees on top, quiet and mysterious, no people"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Hơi thủy ngân **vẫn thoát ra**",
+          "sub": "Nghiên cứu đo bằng tia laser năm 2020"
+        }
       },
       {
         "loai_canh": "cu_lat",
         "text": "Chưa hết. Khi khai quật đội quân đất nung, lớp sơn màu trên tượng bong tróc chỉ vài phút sau khi gặp không khí.",
-        "hien": "Chưa hết. Khi khai quật đội quân đất nung, lớp sơn màu trên tượng bong tróc chỉ **vài phút** sau khi gặp không khí.",
         "images": [
           {
             "mo_phong": "an ancient terracotta soldier statue still covered in bright red, green and purple painted lacquer, soft museum light, no people"
@@ -729,7 +759,12 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/2011_Qin_Terracotta_Warrior_03.jpg/1920px-2011_Qin_Terracotta_Warrior_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"2011 Qin Terracotta Warrior 03.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:2011_Qin_Terracotta_Warrior_03.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Sơn màu bong tróc sau **vài phút**",
+          "sub": "khi tượng gặp không khí"
+        }
       },
       {
         "loai_canh": "ket",
@@ -743,7 +778,12 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Qin_Terracotta_Warriors%2C_Pit_1_02.jpg/1920px-Qin_Terracotta_Warriors%2C_Pit_1_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Qin Terracotta Warriors, Pit 1 02.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Warriors,_Pit_1_02.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Người ta quyết định **chờ**",
+          "sub": "Mở lúc này có thể phá hủy mãi mãi"
+        }
       },
       {
         "loai_canh": "ket",
@@ -757,7 +797,11 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Portrait_of_Qin_Shi_Huang.jpg/1920px-Portrait_of_Qin_Shi_Huang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Portrait of Qin Shi Huang.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Portrait_of_Qin_Shi_Huang.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "outro",
+          "recap": "Nếu là bạn, bạn **có mở** không?"
+        }
       }
     ],
     "anh_bia": [

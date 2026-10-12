@@ -673,7 +673,6 @@
         "loai_canh": "boi_canh",
         "doi_canh": true,
         "text": "Tháng mười hai năm một nghìn tám trăm bảy mươi hai, giữa Đại Tây Dương, thủy thủ tàu Dei Gratia nhìn thấy một con tàu buồm trôi lảo đảo, không ai cầm lái.",
-        "hien": "Tháng **12/1872**, giữa **Đại Tây Dương**, thủy thủ tàu **Dei Gratia** thấy một con tàu buồm trôi lảo đảo, không ai cầm lái.",
         "images": [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Clement_Drew_-_The_American_brigantine_M_Louisa_Miller_off_the_coast_of_Maine%2C_1866.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -686,24 +685,31 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg/1920px-Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Arthur Victor Gregory - Painting of the ship „Loch Etive“ in heavy storm - SLV H91.325-1034.jpg\" – Arthur Victor Gregory, Public domain (https://commons.wikimedia.org/wiki/File:Arthur_Victor_Gregory_-_Painting_of_the_ship_%E2%80%9ELoch_Etive%E2%80%9C_in_heavy_storm_-_SLV_H91.325-1034.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "**12/1872**, giữa Đại Tây Dương",
+          "sub": "Một con tàu buồm trôi lảo đảo, không ai cầm lái"
+        }
       },
       {
         "loai_canh": "boi_canh",
         "text": "Đó là tàu Mary Celeste.",
-        "hien": "Đó là tàu **Mary Celeste**.",
         "images": [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "credit": "\"Mary Celeste as Amazon in 1861 (cropped).jpg\" – Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attribution is suggested in Paul Begg: Mary Celeste: The Greatest Mystery of the Sea. Longmans Education Ltd, Harlow (UK) 2007. Plate 2, Public domain (https://commons.wikimedia.org/wiki/File:Mary_Celeste_as_Amazon_in_1861_(cropped).jpg)",
             "cho_phep_mo": true
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Tàu **Mary Celeste**"
+        }
       },
       {
         "loai_canh": "leo_thang",
         "text": "Họ trèo lên tàu. Một nghìn bảy trăm linh một thùng cồn vẫn còn nguyên. Quần áo, đồ đạc của gia đình thuyền trưởng vẫn ở chỗ cũ.",
-        "hien": "Họ trèo lên tàu. **1.701 thùng cồn** vẫn còn nguyên. Quần áo, đồ đạc của gia đình thuyền trưởng vẫn ở chỗ cũ.",
         "images": [
           {
             "mo_phong": "a small rowing boat with two sailors seen from behind approaching a drifting two-masted sailing ship on the grey Atlantic, seen from far away"
@@ -720,12 +726,20 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg/1920px-Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 01.jpg\" – Crawdad Blues, CC0 (https://commons.wikimedia.org/wiki/File:Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_(PEM_M6557)_01.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "explain",
+          "title": "Trên tàu **vẫn còn nguyên**",
+          "bullets": [
+            "**1.701** thùng cồn",
+            "Thức ăn đủ **6 tháng**",
+            "Đồ đạc của gia đình thuyền trưởng"
+          ]
+        }
       },
       {
         "loai_canh": "leo_thang",
         "text": "Nhưng thuyền trưởng Briggs, vợ ông, cô con gái hai tuổi và bảy thủy thủ… tất cả đã biến mất. Chiếc xuồng cứu sinh duy nhất cũng không còn.",
-        "hien": "Nhưng thuyền trưởng **Briggs**, vợ ông, con gái **2 tuổi** và **7 thủy thủ**… tất cả đã biến mất. Chiếc xuồng cứu sinh duy nhất cũng không còn.",
         "images": [
           {
             "mo_phong": "a small wooden pump organ (melodeon) inside a 19th-century ship cabin, sheet music on its stand, a child's small rag doll on a chair, oil lamp light, no people"
@@ -736,12 +750,17 @@
           {
             "mo_phong": "a small wooden lifeboat with a few tiny silhouetted figures rowing away across a vast grey ocean, seen from very far away, melancholic"
           }
-        ]
+        ],
+        "the": {
+          "type": "number",
+          "value": "10",
+          "unit": "người biến mất",
+          "caption": "Thuyền trưởng, vợ, con gái 2 tuổi và 7 thủy thủ"
+        }
       },
       {
         "loai_canh": "leo_thang",
         "text": "Nhật ký hàng hải dừng lại chín ngày trước đó. Trong khoang có nước, nhưng con tàu vẫn đi biển tốt. Không có dấu vết đánh nhau hay cướp bóc.",
-        "hien": "Nhật ký hàng hải dừng lại **9 ngày** trước đó. Trong khoang có nước, nhưng con tàu vẫn đi biển tốt. Không có dấu vết đánh nhau hay cướp bóc.",
         "images": [
           {
             "mo_phong": "an old ship's logbook closed on a wooden table with a sea chart and a small child's shoe beside it, soft window light, no people"
@@ -753,7 +772,16 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sextant_with_gyroscopic_horizon_-_XIX_century.JPG/1920px-Sextant_with_gyroscopic_horizon_-_XIX_century.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"Sextant with gyroscopic horizon - XIX century.JPG\" – Stéphane Magnenat, Public domain (https://commons.wikimedia.org/wiki/File:Sextant_with_gyroscopic_horizon_-_XIX_century.JPG)"
           }
-        ]
+        ],
+        "the": {
+          "type": "explain",
+          "title": "Không một dấu vết",
+          "bullets": [
+            "Nhật ký dừng **9 ngày** trước đó",
+            "Tàu vẫn đi biển tốt",
+            "Không đánh nhau, không cướp bóc"
+          ]
+        }
       },
       {
         "loai_canh": "leo_thang",
@@ -768,12 +796,16 @@
             "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/View_of_South_Street%2C_New_York_City.jpg/1920px-View_of_South_Street%2C_New_York_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "credit": "\"View of South Street, New York City.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:View_of_South_Street,_New_York_City.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Bữa sáng **còn nóng**?",
+          "sub": "Lời đồn lan khắp thế giới"
+        }
       },
       {
         "loai_canh": "cu_lat",
         "text": "Nhưng chi tiết ấy… là bịa. Nó bắt nguồn từ một truyện ngắn hư cấu năm một nghìn tám trăm tám mươi tư, của một nhà văn trẻ tên Arthur Conan Doyle.",
-        "hien": "Nhưng chi tiết ấy… là **bịa**. Nó bắt nguồn từ một truyện ngắn hư cấu năm **1884**, của một nhà văn trẻ tên **Arthur Conan Doyle**.",
         "images": [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/J_Habakuk_Jephsons_Statement_page_11_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -783,18 +815,27 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Clarence_p582_Strand_Magazine_v45_1913.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "credit": "\"Clarence p582 Strand Magazine v45 1913.png\" – Charles Exeter Devereux Crombie, Public domain (https://commons.wikimedia.org/wiki/File:Clarence_p582_Strand_Magazine_v45_1913.png)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "Chi tiết ấy **là bịa**",
+          "sub": "Từ truyện hư cấu năm 1884 của **Arthur Conan Doyle**"
+        }
       },
       {
         "loai_canh": "cu_lat",
         "text": "Ba năm sau, ông viết truyện đầu tiên về Sherlock Holmes.",
-        "hien": "**3 năm** sau, ông viết truyện đầu tiên về **Sherlock Holmes**.",
         "images": [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "credit": "\"Sherlock by C. A. Doyle - Holmes seated.jpg\" – Charles Altamont Doyle (1832-1893), Public domain (https://commons.wikimedia.org/wiki/File:Sherlock_by_C._A._Doyle_-_Holmes_seated.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "text",
+          "text": "**3 năm** sau: **Sherlock Holmes**",
+          "sub": "truyện đầu tiên về vị thám tử ra đời"
+        }
       },
       {
         "loai_canh": "ket",
@@ -809,7 +850,16 @@
           {
             "mo_phong": "a frayed broken rope trailing in rough grey water behind a 19th-century sailing ship, strong wind, sea spray, no people"
           }
-        ]
+        ],
+        "the": {
+          "type": "explain",
+          "title": "Giả thuyết hợp lý nhất",
+          "bullets": [
+            "Hơi cồn rò rỉ, sợ tàu sắp nổ",
+            "Mọi người xuống xuồng cứu sinh",
+            "Xuồng lạc khỏi tàu, mãi mãi"
+          ]
+        }
       },
       {
         "loai_canh": "ket",
@@ -823,7 +873,11 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Joseph_Cartwright_-_Single_Brigantine%2C_Sails_Furled_-_B1984.21.5_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
             "credit": "\"Joseph Cartwright - Single Brigantine, Sails Furled - B1984.21.5 - Yale Center for British Art.jpg\" – Joseph Cartwright, CC0 (https://commons.wikimedia.org/wiki/File:Joseph_Cartwright_-_Single_Brigantine,_Sails_Furled_-_B1984.21.5_-_Yale_Center_for_British_Art.jpg)"
           }
-        ]
+        ],
+        "the": {
+          "type": "outro",
+          "recap": "Bạn tin giả thuyết nào?"
+        }
       }
     ],
     "anh_bia": [

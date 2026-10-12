@@ -1,0 +1,204 @@
+{
+ "id": "BA1",
+ "slots": [
+  {
+   "slot": "B01",
+   "mo_ta": "Mary Celeste tư liệu",
+   "queries": [
+    "Mary Celeste",
+    "Mary Celeste 1872",
+    "Dei Gratia ship"
+   ]
+  },
+  {
+   "slot": "B02",
+   "mo_ta": "Thuyền trưởng Briggs / gia đình",
+   "queries": [
+    "Benjamin Briggs captain",
+    "Sarah Briggs Mary Celeste",
+    "Benjamin Spooner Briggs"
+   ]
+  },
+  {
+   "slot": "B03",
+   "mo_ta": "tàu buồm brigantine thế kỷ 19 (tranh)",
+   "queries": [
+    "brigantine painting",
+    "brigantine 19th century",
+    "two-masted sailing ship painting 1870"
+   ]
+  },
+  {
+   "slot": "B04",
+   "mo_ta": "tàu trong bão / biển động (tranh)",
+   "queries": [
+    "sailing ship storm painting",
+    "ship in a storm Atlantic painting",
+    "Aivazovsky ship storm"
+   ]
+  },
+  {
+   "slot": "B05",
+   "mo_ta": "xưởng đóng tàu Nova Scotia",
+   "queries": [
+    "Spencer's Island Nova Scotia",
+    "shipbuilding Nova Scotia 19th century",
+    "shipyard 1860s wooden ship construction"
+   ]
+  },
+  {
+   "slot": "B06",
+   "mo_ta": "tàu mắc cạn bờ đá",
+   "queries": [
+    "shipwreck on rocks 19th century",
+    "ship aground painting",
+    "stranded sailing ship"
+   ]
+  },
+  {
+   "slot": "B07",
+   "mo_ta": "cảng New York 1870s",
+   "queries": [
+    "New York harbor 1870s",
+    "South Street Seaport 1870s",
+    "New York waterfront 19th century ships"
+   ]
+  },
+  {
+   "slot": "B08",
+   "mo_ta": "thủy thủ thế kỷ 19",
+   "queries": [
+    "sailors 19th century photograph",
+    "sailors on deck 1870s",
+    "whalers crew photograph"
+   ]
+  },
+  {
+   "slot": "B09",
+   "mo_ta": "boong / cabin tàu cổ",
+   "queries": [
+    "ship cabin museum 19th century",
+    "captain's cabin historic ship",
+    "Charles W. Morgan ship deck"
+   ]
+  },
+  {
+   "slot": "B10",
+   "mo_ta": "thùng gỗ / hầm hàng",
+   "queries": [
+    "barrels ship hold",
+    "wooden barrels cooperage 19th century",
+    "casks stacked warehouse"
+   ]
+  },
+  {
+   "slot": "B11",
+   "mo_ta": "dụng cụ hàng hải",
+   "queries": [
+    "sextant 19th century",
+    "marine chronometer",
+    "ship logbook 19th century",
+    "ship compass binnacle"
+   ]
+  },
+  {
+   "slot": "B12",
+   "mo_ta": "xuồng cứu sinh / lifeboat",
+   "queries": [
+    "lifeboat rowing painting",
+    "ship's boat 19th century",
+    "lifeboat at sea painting"
+   ]
+  },
+  {
+   "slot": "B13",
+   "mo_ta": "Gibraltar thế kỷ 19",
+   "queries": [
+    "Gibraltar 1870s",
+    "Gibraltar harbour 19th century",
+    "Rock of Gibraltar photograph 19th century"
+   ]
+  },
+  {
+   "slot": "B14",
+   "mo_ta": "tòa án / Solly-Flood",
+   "queries": [
+    "Frederick Solly-Flood",
+    "Vice Admiralty Court Gibraltar",
+    "19th century courtroom engraving"
+   ]
+  },
+  {
+   "slot": "B15",
+   "mo_ta": "Arthur Conan Doyle",
+   "queries": [
+    "Arthur Conan Doyle 1880s",
+    "Arthur Conan Doyle young",
+    "J. Habakuk Jephson's Statement"
+   ]
+  },
+  {
+   "slot": "B16",
+   "mo_ta": "báo chí 1873 / truyện",
+   "queries": [
+    "Cornhill Magazine 1884",
+    "Strand Magazine 1913",
+    "Mary Celeste newspaper"
+   ]
+  },
+  {
+   "slot": "B17",
+   "mo_ta": "cồn / hơi cồn / nổ",
+   "queries": [
+    "alcohol barrels 19th century",
+    "Andrea Sella chemist",
+    "Genoa harbour 19th century"
+   ]
+  },
+  {
+   "slot": "B18",
+   "mo_ta": "cột nước xoáy",
+   "queries": [
+    "waterspout",
+    "waterspout ocean photograph",
+    "waterspout NOAA"
+   ]
+  },
+  {
+   "slot": "B19",
+   "mo_ta": "quái vật biển",
+   "queries": [
+    "kraken illustration",
+    "giant squid illustration 19th century",
+    "Pierre Denys de Montfort octopus"
+   ]
+  },
+  {
+   "slot": "B20",
+   "mo_ta": "Haiti / rạn san hô",
+   "queries": [
+    "Rochelais reef Haiti",
+    "Haiti coast Gonave",
+    "coral reef shipwreck"
+   ]
+  },
+  {
+   "slot": "B21",
+   "mo_ta": "thợ lặn tìm xác tàu",
+   "queries": [
+    "divers shipwreck coral reef",
+    "Clive Cussler",
+    "underwater archaeology shipwreck"
+   ]
+  },
+  {
+   "slot": "B22",
+   "mo_ta": "cảng vắng / tàu cũ neo",
+   "queries": [
+    "old sailing ship moored harbor 19th century",
+    "abandoned sailing ship harbor photograph",
+    "brigantine moored photograph"
+   ]
+  }
+ ]
+}

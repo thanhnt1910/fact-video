@@ -1,32 +1,31 @@
-KIỂM TRA ẢNH BA13 · video ngắn · 27 ảnh (số thứ tự khớp lưới ảnh anh_BA13_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH BA13 · video ngắn · 26 ảnh (số thứ tự khớp lưới ảnh anh_BA13_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 ·  scene_00.jpg
 ✅ 2 (ảnh mô phỏng AI) ·  mp_1d7c01568e5fd0a3.jpg
-✅ 3 ·  scene_01.jpg
-⚠️ 4 ·  scene_02.jpg
+✅ 3 (ảnh mô phỏng AI) ·  mp_22e16785fe53c4c9.jpg
+⚠️ 4 ·  scene_01.jpg
      ⚠️ Ảnh tư liệu minh họa cảnh nông dân đào giếng lấy nước ở Sơn Đông trong một tài liệu cũ, không phải cảnh các nông dân phát hiện ra đội quân đất nung ở Tây An năm 1974. → Nên thay bằng ảnh tư liệu chính xác về những nông dân ở Tây An năm 1974 hoặc cảnh khai quật đội quân đất nung lăng Tần Thủy Hoàng.
-⚠️ 5 ·  scene_03.jpg
+⚠️ 5 ·  scene_02.jpg
      ⚠️ ảnh có dấu hiệu vỡ khối JPEG (tỉ lệ 1.9)
-✅ 6 ·  scene_04.jpg
-✅ 7 ·  scene_05.jpg
-✅ 8 ·  scene_06.jpg
-✅ 9 ·  scene_07.jpg
-✅ 10 ·  scene_08.jpg
+✅ 6 ·  scene_03.jpg
+✅ 7 ·  scene_04.jpg
+✅ 8 ·  scene_05.jpg
+✅ 9 ·  scene_06.jpg
+✅ 10 ·  scene_07.jpg
 ✅ 11 (ảnh mô phỏng AI) ·  mp_03733efce1ab7a1e.jpg
 ✅ 12 (ảnh mô phỏng AI) ·  mp_998ff37be6c1ba98.jpg
-⚠️ 13 ·  scene_09.jpg
+⚠️ 13 ·  scene_08.jpg
      ⚠️ ảnh hơi mờ (độ nét 32)
 ✅ 14 (ảnh mô phỏng AI) ·  mp_91debf68e2338d71.jpg
-✅ 15 ·  scene_10.jpg
-✅ 16 ·  scene_11.jpg
+✅ 15 ·  scene_09.jpg
+✅ 16 ·  scene_10.jpg
 ⚠️ 17 (ảnh mô phỏng AI) ·  mp_64cec52e9899eb07.jpg
      ⚠️ ảnh hơi mờ (độ nét 59)
 ✅ 18 (ảnh mô phỏng AI) ·  mp_f3fcc486b299f797.jpg
 ✅ 19 (ảnh mô phỏng AI) ·  mp_e07aff727126d7e5.jpg
-✅ 20 ·  scene_12.jpg
-✅ 21 (ảnh mô phỏng AI) ·  mp_7c9c95b66e9344eb.jpg
-✅ 22 ·  scene_13.jpg
-✅ 23 ·  scene_14.jpg
-✅ 24 ·  scene_15.jpg
-✅ 25 ·  scene_16.jpg
-✅ 26 ·  scene_17.jpg
-✅ 27 ·  scene_18.jpg
+✅ 20 (ảnh mô phỏng AI) ·  mp_7c9c95b66e9344eb.jpg
+✅ 21 ·  scene_11.jpg
+✅ 22 ·  scene_12.jpg
+✅ 23 ·  scene_13.jpg
+✅ 24 ·  scene_14.jpg
+✅ 25 ·  scene_15.jpg
+✅ 26 ·  scene_16.jpg

@@ -1,5 +1,89 @@
 
 ===== ST4: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · đoạn 32] Lời đọc ghi 'Sáng ngày tám tháng Tám', nhưng theo phần diễn biến và bài viết Facebook, Yamaguchi về tới nhà/Nagasaki vào ngày 8/8 sau khi đi tàu đêm từ Hiroshima (tuy nhiên ngày 8/8 là ngày ông về hoặc nghỉ ngơi, còn ngày 9/8 là ngày bom rơi ở Nagasaki). Cần kiểm chứng mốc thời gian chính xác trong kế hoạch.
-   ⛔ Chưa dựng ST4: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
-Không dựng gì (kịch bản có lỗi, xem ở trên).
+
+===== ST4 (video ngắn + bài ảnh) =====
+▶️  ST4: Người sống sót qua 2 quả bom nguyên tử
+  🖼️  Ảnh cho video ngắn
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🎨 mp_e90338ee802d3200.jpg
+     🎨 mp_812e07f411c3688f.jpg
+     🎨 mp_8b924d9d11741d73.jpg
+     🎨 mp_6a9758c43d43c93d.jpg
+     🎨 mp_026a7cc87cf2d371.jpg
+     🎨 mp_741968842e09fcd1.jpg
+     🎨 mp_bcaf8720ce17c33a.jpg
+     🎨 mp_0cb10876133703e9.jpg
+     🎨 mp_f92ff7004bfc1562.jpg
+     🎨 mp_6137d031b12cee6d.jpg
+     🎨 mp_c8743dd86cae99ce.jpg
+  🔍 Kiểm tra 26 ảnh: 3 ảnh lỗi, 2 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_f92ff7004bfc1562.jpg (lần 1)
+     🎨 mp_f92ff7004bfc1562.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c8743dd86cae99ce.jpg (lần 1)
+     🎨 mp_c8743dd86cae99ce.jpg
+  🔍 Kiểm tra 26 ảnh: 2 ảnh lỗi, 2 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c8743dd86cae99ce.jpg (lần 2)
+     🎨 mp_c8743dd86cae99ce.jpg
+  🔍 Kiểm tra 26 ảnh: 2 ảnh lỗi, 2 ảnh cần xem
+❌ ST4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST4_ngan_kiemtra.txt):
+  scene_05.jpg: ảnh quá nhỏ (1920x248), phóng to sẽ vỡ
+  mp_c8743dd86cae99ce.jpg: Ảnh do AI tạo có xuất hiện các chữ viết vô nghĩa, lai tạp không có thật trên tài liệu ('Catniest of Government Iastiile' và các ký tự tượng hình lỗi phía trên), cùng với con dấu đỏ có chữ vô nghĩa. → Thay thế bằng ảnh tài liệu chính thống của Nhật Bản không có lỗi chữ viết vô nghĩa.
+
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+
+===== ST4 (video dài) =====
+▶️  Video dài ST4: Người duy nhất sống sót qua cả hai quả bom nguyên tử: câu chuyện của Tsutomu Yamaguchi
+  🖼️  Ảnh cho video dài
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🎨 mp_f69dc171d917a98e.jpg
+     🎨 mp_c520592d9af46c8d.jpg
+     🎨 mp_8bfb8e49b3d60c1e.jpg
+     🎨 mp_a5d0b41fcf3971f8.jpg
+     🎨 mp_e4dddaa1cbed7980.jpg
+     🎨 mp_a92bef37fe73258a.jpg
+     🎨 mp_48d475e489922c55.jpg
+     🎨 mp_316bd6c2cca33e2f.jpg
+     🎨 mp_dd8056a7e697c8b0.jpg
+     🎨 mp_8ae1ed03cc8d781d.jpg
+     🎨 mp_7f3827bbfd4e264e.jpg
+     🎨 mp_c65b08b2434d19ba.jpg
+     🎨 mp_1b126bbfc523b7db.jpg
+     🎨 mp_a5c0ce858b31bc6d.jpg
+     🎨 mp_581963135d0a7677.jpg
+     🎨 mp_b296b2c6c19ff524.jpg
+  🔍 Kiểm tra 58 ảnh: 8 ảnh lỗi, 5 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c520592d9af46c8d.jpg (lần 1)
+     🎨 mp_c520592d9af46c8d.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_026a7cc87cf2d371.jpg (lần 1)
+     🎨 mp_026a7cc87cf2d371.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_a92bef37fe73258a.jpg (lần 1)
+     🎨 mp_a92bef37fe73258a.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c65b08b2434d19ba.jpg (lần 1)
+     🎨 mp_c65b08b2434d19ba.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c8743dd86cae99ce.jpg (lần 1)
+     🎨 mp_c8743dd86cae99ce.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_581963135d0a7677.jpg (lần 1)
+     🎨 mp_581963135d0a7677.jpg
+  🔍 Kiểm tra 58 ảnh: 7 ảnh lỗi, 6 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c520592d9af46c8d.jpg (lần 2)
+     🎨 mp_c520592d9af46c8d.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_026a7cc87cf2d371.jpg (lần 2)
+     🎨 mp_026a7cc87cf2d371.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c65b08b2434d19ba.jpg (lần 2)
+     🎨 mp_c65b08b2434d19ba.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c8743dd86cae99ce.jpg (lần 2)
+     🎨 mp_c8743dd86cae99ce.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_581963135d0a7677.jpg (lần 2)
+     🎨 mp_581963135d0a7677.jpg
+  🔍 Kiểm tra 58 ảnh: 6 ảnh lỗi, 6 ảnh cần xem
+❌ Video dài ST4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST4_dai_kiemtra.txt):
+  scene_03.jpg: Ảnh tư liệu toàn cảnh Nagasaki của Felice Beato được chụp vào khoảng thế kỷ 19 (thời kỳ Minh Trị), không phải thời điểm năm 1916 hoặc Thế chiến thứ hai khi nhân vật sinh ra và lớn lên. → Thay bằng ảnh tư liệu thành phố Nagasaki vào khoảng năm 1916 hoặc thập niên 1940 để phù hợp chính xác với mốc thời gian trong lời kể.
+  mp_c520592d9af46c8d.jpg: Ảnh do AI tạo có chữ viết/ký tự lạ, vô nghĩa trên bề mặt con dấu thay vì khắc tên cá nhân theo kiểu hanko truyền thống của Nhật Bản. → Dùng ảnh chụp hoặc tạo ảnh AI khác thể hiện con dấu hanko bằng gỗ có khắc chữ kanji hợp lý, rõ ràng và không bịa ra ký tự vô nghĩa.
+  mp_026a7cc87cf2d371.jpg: Lời kể miêu tả hai chiếc dù nhỏ đang rơi xuống cùng máy bay, nhưng ảnh chỉ có máy bay bay thẳng về phía trước, không thấy hai chiếc dù nhỏ như trong lời kể. → Bổ sung hình ảnh hai chiếc dù nhỏ đang rơi xuống ở phía xa dưới máy bay để khớp hoàn toàn với lời kể.
+  scene_11.jpg: ảnh quá nhỏ (1920x248), phóng to sẽ vỡ
+  mp_c65b08b2434d19ba.jpg: Ảnh do AI tạo có chữ viết vô nghĩa, lai tạp trên bảng đen trái với mô tả ban đầu. → Dùng ảnh lớp học với bảng đen trống hoặc chữ tiếng Nhật phù hợp bối cảnh lịch sử.
+  mp_c8743dd86cae99ce.jpg: Ảnh AI tạo có chữ viết và con dấu trên tài liệu bị lỗi, tạo ra các ký tự giả vô nghĩa không phải tiếng Nhật chuẩn, mâu thuẫn với yêu cầu nguồn ảnh là không có chữ đọc được. → Sử dụng ảnh tài liệu thật hoặc tạo ảnh AI có chữ cái/con dấu mô phỏng tiếng Nhật chính xác, tự nhiên hơn.
+
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): ST4
+Lỗi: ST4

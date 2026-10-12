@@ -893,6 +893,10 @@ def main():
             if script.get("post") and not a.preview:
                 try:
                     import post
+                    if script.get("ngan") and not any(sc.get("image_src") for sc in script["scenes"]):
+                        # khung mới không tải ảnh theo "scenes" -> tải ở đây để album ảnh Facebook có ảnh nền
+                        import images
+                        images.fetch_scene_images(script, out_dir / "_work", log)
                     post.render_post(script, cfg, out_dir / "_work", out_dir, log)
                 except Exception as e:
                     log(f"  ⚠️  Không tạo được bài đăng ảnh: {e}")

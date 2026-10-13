@@ -261,7 +261,10 @@
      },
      {
       "text": "Năm một nghìn chín trăm linh tám, cô trở thành tiếp viên của hãng tàu Royal Mail Line.",
-      "mo_phong": "an early 1900s two-funnel passenger steamship sailing across a blue ocean, white wake, clouds, oil painting style, no people",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_steamship_Baltic_RMG_BHC3219.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The steamship Baltic RMG BHC3219.jpg\" – Antonio Jacobsen, Public domain (https://commons.wikimedia.org/wiki/File:The_steamship_Baltic_RMG_BHC3219.jpg)"
+      },
       "am_thanh": [
        "bien"
       ]
@@ -354,7 +357,7 @@
      },
      {
       "text": "Violet có mặt trên tàu hôm ấy. Lạ thay, trong hồi ký của mình, cô gần như không nhắc gì đến vụ va chạm này.",
-      "mo_phong": "still life of a closed old leather-bound notebook and a fountain pen on a plain wooden desk, warm lamp light, oil painting style, no people, no text"
+      "mo_phong": "a young woman in a dark early 1900s stewardess uniform seen from behind, standing alone at the railing of an ocean liner deck at dawn, looking out to sea, oil painting style"
      },
      {
       "text": "Có lẽ với cô, đó chỉ là một sự cố nhỏ. Cô không biết rằng đó mới chỉ là khởi đầu.",
@@ -452,7 +455,10 @@
      },
      {
       "text": "Hơn một nghìn năm trăm người đã thiệt mạng trong đêm ấy.",
-      "mo_phong": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style, no people"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg/1920px-A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"A Photograph of an Iceberg Floating Near the Site of the TITANIC Sinking. - NARA - 278334.jpg\" – Louis Ogden, Public domain (https://commons.wikimedia.org/wiki/File:A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg)"
+      }
      },
      {
       "text": "Sáng hôm sau, tàu Carpathia đến cứu những người sống sót.",
@@ -488,7 +494,10 @@
     "beats": [
      {
       "text": "Hai năm sau, năm một nghìn chín trăm mười bốn, Thế chiến thứ nhất bùng nổ.",
-      "mo_phong": "a busy harbour in 1914 with a large grey troop ship, rows of soldiers in khaki walking up the gangway seen from far away, flags, smoke, oil painting style, no visible faces"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/An_officer_of_the_Womens_Royal_Naval_Service_%28WRNS%29_supervising_the_wiring_together_of_glass_floats_on_an_anti-submarine_mine_net_during_the_First_World_War._Q19640.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"An officer of the Womens Royal Naval Service (WRNS) supervising the wiring together of glass floats on an anti-submarine mine net during the First World War. Q19640.jpg\" – George P. Lewis, Public domain (https://commons.wikimedia.org/wiki/File:An_officer_of_the_Womens_Royal_Naval_Service_(WRNS)_supervising_the_wiring_together_of_glass_floats_on_an_anti-submarine_mine_net_during_the_First_World_War._Q19640.jpg)"
+      }
      },
      {
       "text": "Violet không rời biển. Cô gia nhập đội cứu thương tình nguyện của nước Anh, làm y tá chăm sóc thương binh.",
@@ -539,7 +548,10 @@
     "beats": [
      {
       "text": "Sáng ngày hai mươi mốt tháng Mười Một năm một nghìn chín trăm mười sáu, Britannic đi qua eo biển gần đảo Kea, Hy Lạp.",
-      "mo_phong": "a rocky Greek island coast in the Aegean Sea on a clear November morning in 1916, calm blue water, a large white hospital ship far away, oil painting style, no people",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/HMHS_Britannic_Sailing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"HMHS Britannic Sailing.jpg\" – Captain Dayrell Davies (1856 – 1937), Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_Sailing.jpg)"
+      },
       "label": "Biển Aegean · 21/11/1916",
       "am_thanh": [
        "bien",
@@ -569,11 +581,17 @@
      },
      {
       "text": "Lần này, trước khi rời đi, Violet chạy về phòng lấy một thứ: chiếc bàn chải đánh răng.",
-      "mo_phong": "close-up still life of a single old wooden toothbrush with natural bristles lying on a small wooden shelf inside a ship cabin in 1916, a round porthole behind it showing only sea, oil painting style, no people"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/HMHS_Britannic_Boat_Deck.jpg/1920px-HMHS_Britannic_Boat_Deck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"HMHS Britannic Boat Deck.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_Boat_Deck.jpg)"
+      }
      },
      {
       "text": "Sau vụ Titanic, cô từng than phiền mãi vì không có bàn chải, và bị đồng nghiệp trêu suốt. Lần này, cô không quên.",
-      "mo_phong": "close-up still life of a single old wooden toothbrush with natural bristles lying on a small wooden shelf inside a ship cabin in 1916, a round porthole behind it showing only sea, oil painting style, no people"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Titanic-lifeboat-colorized.jpg/1920px-Titanic-lifeboat-colorized.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Titanic-lifeboat-colorized.jpg\" – J.W. Barker (Carpathia passenger) credited in The Sphere (London, 4 May 1912),  p. 91. Carpathia was the ship that received the Titanic's distress signal and came to rescue the survivors., Public domain (https://commons.wikimedia.org/wiki/File:Titanic-lifeboat-colorized.jpg)"
+      }
      },
      {
       "text": "Rồi cô lên một chiếc xuồng cứu sinh.",
@@ -611,7 +629,10 @@
      },
      {
       "text": "Chỉ năm mươi lăm phút sau tiếng nổ, Britannic chìm hẳn xuống biển Aegean.",
-      "mo_phong": "a calm dark ocean in grey morning light, a faint mist on the water, utterly empty and silent, oil painting style, no people"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/HMHS_Britannic_arriving_in_Naples.jpg/1920px-HMHS_Britannic_arriving_in_Naples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"HMHS Britannic arriving in Naples.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_arriving_in_Naples.jpg)"
+      }
      },
      {
       "text": "Ba mươi người thiệt mạng. Hơn một nghìn người được cứu sống.",
@@ -627,7 +648,10 @@
     "beats": [
      {
       "text": "Theo lời kể lại, mãi về sau Violet mới biết mình đã bị chấn thương nặng ở đầu trong lần ấy.",
-      "mo_phong": "still life of a closed old leather-bound notebook and a fountain pen on a plain wooden desk, warm lamp light, oil painting style, no people, no text"
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lifeboats_of_HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Lifeboats of HMHS Britannic.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Lifeboats_of_HMHS_Britannic.jpg)"
+      }
      },
      {
       "text": "Olympic, Titanic, Britannic. Cả ba con tàu chị em đều gặp nạn. Và cả ba lần, Violet đều có mặt, và đều sống sót.",
@@ -700,7 +724,10 @@
      },
      {
       "text": "Nhưng các nhà nghiên cứu cho rằng cuộc gọi ấy khó là thật: em bé duy nhất trên xuồng số mười sáu đã qua đời từ năm một nghìn chín trăm ba mươi mốt. Có thể đó chỉ là một trò đùa.",
-      "mo_phong": "still life of a closed old leather-bound notebook and a fountain pen on a plain wooden desk, warm lamp light, oil painting style, no people, no text"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Carpathia_-_Titanic_lifeboats.jpg/1920px-Carpathia_-_Titanic_lifeboats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Carpathia - Titanic lifeboats.jpg\" – HO, The New York Times, Public domain (https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg)"
+      }
      },
      {
       "text": "Violet Jessop qua đời ngày năm tháng Năm năm một nghìn chín trăm bảy mươi mốt, thọ tám mươi ba tuổi.",
@@ -708,7 +735,10 @@
      },
      {
       "text": "Hồi ký của bà được xuất bản năm một nghìn chín trăm chín mươi bảy, kể lại cuộc đời của người phụ nữ đã ba lần thoát chết trên biển.",
-      "mo_phong": "still life of a closed old leather-bound notebook and a fountain pen on a plain wooden desk, warm lamp light, oil painting style, no people, no text"
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Violet Jessop in Voluntary Aid Detachment Uniform.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Violet_Jessop_in_Voluntary_Aid_Detachment_Uniform.jpg)"
+      }
      }
     ]
    },
@@ -777,7 +807,8 @@
     "text": "Lần thứ ba… mới là lần cô suýt không qua khỏi.",
     "images": [
      {
-      "mo_phong": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style, no people"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)"
      }
     ],
     "am_thanh": [
@@ -920,7 +951,8 @@
     "text": "Hơn một nghìn năm trăm người thiệt mạng. Violet sống sót.",
     "images": [
      {
-      "mo_phong": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style, no people"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg/1920px-A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"A Photograph of an Iceberg Floating Near the Site of the TITANIC Sinking. - NARA - 278334.jpg\" – Louis Ogden, Public domain (https://commons.wikimedia.org/wiki/File:A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg)"
      },
      {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/RMS_Carpathia.jpg/1920px-RMS_Carpathia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

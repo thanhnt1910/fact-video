@@ -1,0 +1,52 @@
+KIỂM TRA ẢNH SL12 · video dài · 42 ảnh (số thứ tự khớp lưới ảnh anh_SL12_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 ·  scene_00.jpg
+✅ 2 ·  scene_01.jpg
+✅ 3 (ảnh mô phỏng AI) ·  mp_dbb63756a3c1255a.jpg
+⚠️ 4 (ảnh mô phỏng AI) ·  mp_d2d9c7e659bc96cb.jpg
+     ⚠️ Thuyền ở góc trái có gắn cờ nhỏ trông giống cờ hiện đại (có sọc xanh, trắng, đỏ), không phù hợp với bối cảnh Ai Cập cổ đại 4500 năm trước. → Xóa hoặc thay thế lá cờ trên thuyền thành cờ hoặc biểu tượng phù hợp với thời kỳ Ai Cập cổ đại.
+✅ 5 ·  scene_02.jpg
+✅ 6 ·  scene_03.jpg
+✅ 7 · Vua Khufu · khoảng 2589 – 2566 TCN scene_04.jpg
+✅ 8 · Đại kim tự tháp Giza scene_05.jpg
+✅ 9 ·  scene_06.jpg
+✅ 10 ·  scene_07.jpg
+✅ 11 ·  scene_08.jpg
+❌ 12 (ảnh mô phỏng AI) ·  mp_5ce83cf60444464e.jpg
+     ❌ Ảnh AI tạo ra có sự xuất hiện bất hợp lý của lá cờ Mỹ và một con lạc đà ở góc dưới, hoàn toàn không phù hợp với bối cảnh lịch sử Ai Cập cổ đại. → Tạo lại ảnh mô phỏng kim tự tháp bọc đá vôi trắng mịn mà không có các yếu tố hiện đại hay sai lịch sử như lá cờ.
+✅ 13 · Herodotos · thế kỷ 5 TCN scene_09.jpg
+✅ 14 ·  scene_10.jpg
+✅ 15 ·  scene_11.jpg
+✅ 16 ·  scene_12.jpg
+❌ 17 ·  scene_13.jpg
+     ❌ Ảnh minh họa sử dụng Papyrus Prisse (chứa giáo huấn của Kagemni), trong khi lời kể nói về văn bản giấy cói của đốc công Merer (Nhật ký của Merer từ Wadi al-Jarf). → Thay thế bằng ảnh chụp thực tế hoặc bản thảo của Nhật ký Merer (Diary of Merer) từ Wadi al-Jarf.
+✅ 18 · Wadi al-Jarf · bờ Biển Đỏ scene_14.jpg
+✅ 19 (ảnh mô phỏng AI) ·  mp_e1c44ce7f1c837ae.jpg
+❌ 20 (ảnh mô phỏng AI) ·  mp_cb522104f7bd8655.jpg
+     ❌ Trên vách đá xuất hiện một hình cây thánh giá bằng gỗ, là biểu tượng tôn giáo không phù hợp với bối cảnh lịch sử Ai Cập cổ đại cách đây 4.500 năm. → Xóa bỏ hình cây thánh giá trên vách đá để phù hợp với bối cảnh lịch sử.
+❌ 21 ·  scene_15.jpg
+     ❌ Ảnh tư liệu dạng lập thể đôi (stereograph) bị chia đôi màn hình và có vạch trắng lớn ở góc trên. → Dùng ảnh đơn (không bị chia đôi) chụp Bảo tàng Ai Cập ở Cairo rõ nét hơn.
+✅ 22 (ảnh mô phỏng AI) ·  mp_0debcbbc9e235088.jpg
+❌ 23 (ảnh mô phỏng AI) ·  mp_7fca2756e004db00.jpg
+     ❌ Ảnh AI tạo ra chi tiết ở góc dưới bên phải có nhân vật mặc áo đỏ đeo kính hiện đại, không phù hợp với bối cảnh Ai Cập cổ đại 4.500 năm trước. → Dùng AI tạo lại ảnh mà không có các nhân vật mặc trang phục hoặc phụ kiện hiện đại (như kính mắt) ở góc nhìn gần.
+❌ 24 ·  scene_16.jpg
+     ❌ Ảnh chụp cảnh sông Nile ở Cairo vào thế kỷ 19, minh họa cho thời kỳ Cổ Đại (triều đại vua Khufu, khoảng 4.500 năm trước) → Thay bằng hình ảnh chữ viết tượng hình trên papyrus của nhật ký Merer hoặc tranh vẽ minh họa hoạt động vận chuyển đá thời Ai Cập cổ đại.
+✅ 25 (ảnh mô phỏng AI) ·  mp_f3c40da00f650fee.jpg
+✅ 26 · Sông Nile nhìn từ mỏ đá Tura scene_17.jpg
+✅ 27 ·  scene_18.jpg
+❌ 28 (ảnh mô phỏng AI) ·  mp_089ba40a1006936e.jpg
+     ❌ Trang phục của những công nhân ở góc dưới ảnh (áo khoác kiểu hiện đại, mũ lưỡi trai) không phù hợp với thời kỳ Ai Cập cổ đại 4.500 năm trước. → Điều chỉnh trang phục của nhân vật thành khố hoặc trang phục lao động tối giản của người Ai Cập cổ đại.
+⚠️ 29 ·  scene_19.jpg
+     ⚠️ Ảnh chụp thế kỷ 19 thế kỷ bằng thuyền buồm truyền thống trên sông Nile (Luxor) minh họa cho sự kiện thời Cổ đại (4.500 năm trước) → Dùng ảnh phù hợp hơn với thời kỳ Cổ đại Ai Cập hoặc vẽ minh họa thuyền chở đá thời xây dựng kim tự tháp.
+✅ 30 ·  scene_20.jpg
+✅ 31 (ảnh mô phỏng AI) ·  mp_321a0d2fafb220db.jpg
+✅ 32 · Ai Cập cổ đại scene_21.jpg
+✅ 33 (ảnh mô phỏng AI) ·  mp_21894caa267b6e56.jpg
+✅ 34 ·  scene_22.jpg
+✅ 35 (ảnh mô phỏng AI) ·  mp_598a38ebcbc02658.jpg
+✅ 36 (ảnh mô phỏng AI) ·  mp_056159fade049da9.jpg
+✅ 37 (ảnh mô phỏng AI) ·  mp_e7febacc070a0a57.jpg
+✅ 38 (ảnh mô phỏng AI) ·  mp_6d47ae7dcccf0f2c.jpg
+✅ 39 ·  scene_23.jpg
+✅ 40 ·  scene_24.jpg
+✅ 41 (ảnh mô phỏng AI) ·  mp_48e364783f390991.jpg
+✅ 42 ·  scene_25.jpg

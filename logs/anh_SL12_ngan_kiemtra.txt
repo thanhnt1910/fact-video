@@ -1,0 +1,33 @@
+KIỂM TRA ẢNH SL12 · video ngắn · 26 ảnh (số thứ tự khớp lưới ảnh anh_SL12_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 ·  scene_00.jpg
+✅ 2 ·  scene_01.jpg
+✅ 3 (ảnh mô phỏng AI) ·  mp_dbb63756a3c1255a.jpg
+✅ 4 ·  scene_02.jpg
+✅ 5 (ảnh mô phỏng AI) ·  mp_d2d9c7e659bc96cb.jpg
+✅ 6 (ảnh mô phỏng AI) ·  mp_cb522104f7bd8655.jpg
+✅ 7 ·  scene_03.jpg
+⚠️ 8 ·  scene_04.jpg
+     ⚠️ Ảnh hiển thị văn bản trên giấy có các chú thích hiện đại bằng tiếng nước ngoài và mũi tên chỉ dẫn, cộng thêm tên tệp đề cập đến 'Papyrus Prisse' và 'Kagemni' thay vì nhật ký của Merer. → Nên sử dụng ảnh chụp chính xác trang giấy có văn bản của Nhật ký Merer (Diary of Merer) thay vì Papyrus Prisse.
+✅ 9 ·  scene_05.jpg
+✅ 10 ·  scene_06.jpg
+✅ 11 (ảnh mô phỏng AI) ·  mp_089ba40a1006936e.jpg
+✅ 12 (ảnh mô phỏng AI) ·  mp_7fca2756e004db00.jpg
+⚠️ 13 ·  scene_07.jpg
+     ⚠️ Ảnh chụp thế kỷ 19 mô tả sông Nile và thuyền buồm ở Cairo, minh họa cho việc vận chuyển đá thời Ai Cập cổ đại (4.500 năm trước), dẫn đến sự chênh lệch lớn về thời kỳ lịch sử. → Nên dùng ảnh chụp cảnh sông Nile kết hợp với thuyền buồm truyền thống hoặc hình vẽ phục dựng thời cổ đại để phù hợp hơn với bối cảnh 4.500 năm trước.
+❌ 14 ·  scene_08.jpg
+     ❌ Ảnh chụp phong cảnh và thuyền buồm sông Nile ở thế kỷ 19 (thời kỳ cận đại, khoảng năm 1800s), hoàn toàn sai lệch về thời kỳ lịch sử so với nội dung lời kể (Ai Cập cổ đại cách đây 4.500 năm thời kỳ xây kim tự tháp). → Thay bằng ảnh minh họa, tranh vẽ hoặc phù điêu cổ đại thể hiện thuyền chở đá trên sông Nile thời Ai Cập cổ đại.
+     ⚠️ Ảnh có chữ viết tay ở góc trên bên trái. → Cắt bỏ hoặc dùng ảnh không có chữ viết tay.
+✅ 15 (ảnh mô phỏng AI) ·  mp_321a0d2fafb220db.jpg
+⚠️ 16 (ảnh mô phỏng AI) ·  mp_21894caa267b6e56.jpg
+     ⚠️ Lời kể đang đề cập đến việc chở đá xây kim tự tháp và ghi chép về lương thực được chở tới cho đội, trong khi ảnh minh họa lại là tiệm bánh hoặc kho chứa lương thực Ai Cập cổ đại không có con người, tuy phù hợp với ngữ cảnh lương thực nhưng hơi lạc đề so với trọng tâm chở đá. → Thay bằng ảnh minh họa thuyền chở đá hoặc đốc công đang kiểm tra lương thực cho nhân công.
+✅ 17 (ảnh mô phỏng AI) ·  mp_0debcbbc9e235088.jpg
+⚠️ 18 (ảnh mô phỏng AI) ·  mp_598a38ebcbc02658.jpg
+     ⚠️ Lời kể nhắc đến sự kiện năm 1990 'một con ngựa vấp phải bức tường vùi trong cát', nhưng ảnh minh họa lại vẽ người cưỡi ngựa nhìn từ phía sau hướng về các kim tự tháp thay vì cảnh phát hiện lăng mộ hay bức tường vùi trong cát. → Nên thay bằng ảnh tập trung vào khung cảnh một con ngựa đang đứng gần bức tường cổ vùi trong cát hoặc các nhà khảo cổ đang khai quật.
+✅ 19 (ảnh mô phỏng AI) ·  mp_056159fade049da9.jpg
+✅ 20 ·  scene_09.jpg
+✅ 21 ·  scene_10.jpg
+✅ 22 ·  scene_11.jpg
+✅ 23 (ảnh mô phỏng AI) ·  mp_e7febacc070a0a57.jpg
+✅ 24 (ảnh mô phỏng AI) ·  mp_48e364783f390991.jpg
+✅ 25 ·  scene_12.jpg
+✅ 26 ·  scene_13.jpg

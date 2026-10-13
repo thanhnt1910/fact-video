@@ -1,0 +1,906 @@
+{
+ "ma": "SL12",
+ "cap_nhat": "2026-10-13T06:25:37",
+ "anh": [
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 1 ảnh 1",
+    "dài · chương 0 đoạn 1",
+    "dài · chương 1 đoạn 6",
+    "dài · chương 6 đoạn 3",
+    "dài · chương 9 đoạn 4",
+    "bài ảnh · cảnh 1"
+   ],
+   "ten_file": "File:The Great Pyramid and the Sphinx.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Scottish National Gallery",
+   "ngay_chup": "2008-12-15 17:18",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "The Great Pyramid and the Sphinx"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2008
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg/1920px-Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Letter written in hieratic script on papyrus MET DP234741.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 1 ảnh 2",
+    "dài · chương 0 đoạn 5",
+    "dài · chương 3 đoạn 5",
+    "dài · chương 6 đoạn 1",
+    "bài ảnh · cảnh 2"
+   ],
+   "ten_file": "File:Letter written in hieratic script on papyrus MET DP234741.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "",
+   "ngay_chup": "circa 1479date QS:P571,+1479-00-00T00:00:00Z/9,P1480,Q5727902–1458 B.C. Period: ",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "ancient Egyptian workers hauling a large stone block on a wooden sledge with ropes, seen from far behind, dusty desert ramp, oil painting, no faces",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 2 ảnh 1",
+    "dài · chương 0 đoạn 3",
+    "dài · chương 2 đoạn 3",
+    "dài · chương 8 đoạn 3"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/ISS030-E-5334_-_View_of_Egypt.jpg/1920px-ISS030-E-5334_-_View_of_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"ISS030-E-5334 - View of Egypt.jpg\" – Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center, Public domain (https://commons.wikimedia.org/wiki/File:ISS030-E-5334_-_View_of_Egypt.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 3 ảnh 1",
+    "dài · chương 3 đoạn 1"
+   ],
+   "ten_file": "File:ISS030-E-5334 - View of Egypt.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:ISS030-E-5334_-_View_of_Egypt.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+   "ngay_chup": "2011-11-26 07:57:09",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "JSC Gateway to Astronaut Photography of Earth"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2011
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an ancient Egyptian harbour on a bare desert Red Sea coast 4500 years ago, a long stone jetty, wooden boats with square sails, rocky hills behind with dark cave openings cut into the cliff, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 3 ảnh 2",
+    "dài · chương 0 đoạn 4",
+    "dài · chương 3 đoạn 3"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a row of dark galleries cut into a limestone desert cliff, their entrances sealed with large stone blocks, the sea glimmering in the distance, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 3 ảnh 3",
+    "dài · chương 3 đoạn 4"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Khufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Khufu.JPG\" – Chipdawes, Public domain (https://commons.wikimedia.org/wiki/File:Khufu.JPG)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 1",
+    "dài · chương 1 đoạn 1",
+    "dài · chương 4 đoạn 3",
+    "bài ảnh · cảnh 3"
+   ],
+   "ten_file": "File:Khufu.JPG",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Khufu.JPG",
+   "giay_phep": "Public domain",
+   "tac_gia": "Chipdawes",
+   "ngay_chup": "2003-10-06",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "transferred from the English language Wikipedia"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2003
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg/1920px-Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Papyrus Prisse part II. Kagemni-hiero script.jpg\" – Zemanst, CC0 (https://commons.wikimedia.org/wiki/File:Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 2",
+    "dài · chương 2 đoạn 6",
+    "dài · chương 3 đoạn 6"
+   ],
+   "ten_file": "File:Papyrus Prisse part II. Kagemni-hiero script.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Zemanst",
+   "ngay_chup": "2024-06-23",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2024
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spelterini_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Spelterini Pyramids.jpg\" – Eduard Spelterini, Public domain (https://commons.wikimedia.org/wiki/File:Spelterini_Pyramids.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 3",
+    "ngắn · cảnh 10 ảnh 2",
+    "dài · chương 1 đoạn 2",
+    "dài · chương 7 đoạn 8"
+   ],
+   "ten_file": "File:Spelterini Pyramids.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Spelterini_Pyramids.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Eduard Spelterini",
+   "ngay_chup": "Created: November 21, 1904. First published 1928 at the above source.",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Scanned from Spelterini, E.: Über den Wolken/Par dessus les nuages, Brunner &amp; Co, Zürich 1928, p. 88."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1904
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/The_Nile%2C_from_the_quarries_of_Joura%2C_RP-F-F25403-O.jpg/1920px-The_Nile%2C_from_the_quarries_of_Joura%2C_RP-F-F25403-O.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"The Nile, from the quarries of Joura, RP-F-F25403-O.jpg\" – Rijksmuseum, CC0 (https://commons.wikimedia.org/wiki/File:The_Nile,_from_the_quarries_of_Joura,_RP-F-F25403-O.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 5 ảnh 1",
+    "dài · chương 5 đoạn 1"
+   ],
+   "ten_file": "File:The Nile, from the quarries of Joura, RP-F-F25403-O.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Nile,_from_the_quarries_of_Joura,_RP-F-F25403-O.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Rijksmuseum",
+   "ngay_chup": "between 1856 and 1859date QS:P,+1856-00-00T00:00:00Z/8,P1319,+1856-00-00T00:00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://hdl.handle.net/10934/RM0001.COLLECT.283988"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1856
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "ancient white limestone quarry cliffs on the east bank of the Nile, half-cut blocks, ropes and wooden sledges, tiny distant workers, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 5 ảnh 2",
+    "dài · chương 5 đoạn 3"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, pyramids on the horizon, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 5 ảnh 3",
+    "dài · chương 4 đoạn 2",
+    "dài · chương 5 đoạn 4"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg/1920px-Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Cairo, Islamic Cairo, 19th century pictures, F. Bonfils, photo 50 of 52 - Archivio fotografico Museo Egizio, Turin INV34 008.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Cairo,_Islamic_Cairo,_19th_century_pictures,_F._Bonfils,_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio,_Turin_INV34_008.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 6 ảnh 1",
+    "dài · chương 4 đoạn 4",
+    "dài · chương 5 đoạn 7",
+    "bài ảnh · cảnh 4"
+   ],
+   "ten_file": "File:Cairo, Islamic Cairo, 19th century pictures, F. Bonfils, photo 50 of 52 - Archivio fotografico Museo Egizio, Turin INV34 008.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Cairo,_Islamic_Cairo,_19th_century_pictures,_F._Bonfils,_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio,_Turin_INV34_008.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Félix Bonfils",
+   "ngay_chup": "19th centurydate QS:P571,+1850-00-00T00:00:00Z/7",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Archivio fotografico Museo Egizio, Turin - online catalogue"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1850
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Theban_region%2C_Luxor_temple%2C_19th_century_pictures%2C_A._Beato%2C_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV32_008.jpg/1920px-Theban_region%2C_Luxor_temple%2C_19th_century_pictures%2C_A._Beato%2C_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV32_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Theban region, Luxor temple, 19th century pictures, A. Beato, photo 36 of 37 - Archivio fotografico Museo Egizio, Turin INV32 008.jpg\" – Antonio Beato, CC0 (https://commons.wikimedia.org/wiki/File:Theban_region,_Luxor_temple,_19th_century_pictures,_A._Beato,_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio,_Turin_INV32_008.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 6 ảnh 2",
+    "dài · chương 5 đoạn 5"
+   ],
+   "ten_file": "File:Theban region, Luxor temple, 19th century pictures, A. Beato, photo 36 of 37 - Archivio fotografico Museo Egizio, Turin INV32 008.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Theban_region,_Luxor_temple,_19th_century_pictures,_A._Beato,_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio,_Turin_INV32_008.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Antonio Beato",
+   "ngay_chup": "",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Archivio fotografico Museo Egizio, Turin - online catalogue"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an ancient harbour basin at the edge of the desert plateau with boats unloading white limestone blocks, the Great Pyramid under construction behind, tiny distant workers, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 6 ảnh 3",
+    "dài · chương 5 đoạn 9"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an ancient Egyptian bakery in a mud-brick room with clay bread moulds, round loaves and tall beer jars, warm firelight, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 7 ảnh 1",
+    "dài · chương 6 đoạn 5",
+    "dài · chương 7 đoạn 4"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an ancient Egyptian scribe's wooden palette with reed pens and a blank sheet of papyrus on a low wooden box, oil lamp light, oil painting, no people, no text",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 7 ảnh 2",
+    "dài · chương 4 đoạn 1",
+    "dài · chương 4 đoạn 6",
+    "dài · chương 6 đoạn 6"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a lone horse rider seen from far behind on a sandy slope near the pyramids of Giza at sunset, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 8 ảnh 1",
+    "dài · chương 7 đoạn 2"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "low mud-brick tomb walls and small domed tombs on a sandy desert slope below the pyramids of Giza, afternoon light, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 8 ảnh 2",
+    "dài · chương 7 đoạn 3",
+    "dài · chương 8 đoạn 4"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg/1920px-Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Schiaparelli's excavations - Giza, Eastern necropolis, Mastaba G 7391 of Iteti, 1903, photo 15 of 17 - Archivio fotografico Museo Egizio, Turin INV87 030.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Schiaparelli%27s_excavations_-_Giza,_Eastern_necropolis,_Mastaba_G_7391_of_Iteti,_1903,_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio,_Turin_INV87_030.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 8 ảnh 3",
+    "dài · chương 7 đoạn 1",
+    "dài · chương 8 đoạn 1"
+   ],
+   "ten_file": "File:Schiaparelli's excavations - Giza, Eastern necropolis, Mastaba G 7391 of Iteti, 1903, photo 15 of 17 - Archivio fotografico Museo Egizio, Turin INV87 030.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Schiaparelli%27s_excavations_-_Giza,_Eastern_necropolis,_Mastaba_G_7391_of_Iteti,_1903,_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio,_Turin_INV87_030.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "",
+   "ngay_chup": "1903date QS:P571,+1903-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Archivio fotografico Museo Egizio, Turin - online catalogue"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1903
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg/1920px-The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"The Great Pyramid and The Great Sphinx MET DP132062.jpg\" – Francis Frith, CC0 (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 9 ảnh 1",
+    "dài · chương 0 đoạn 2",
+    "dài · chương 7 đoạn 5",
+    "bài ảnh · cảnh 5"
+   ],
+   "ten_file": "File:The Great Pyramid and The Great Sphinx MET DP132062.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Francis Frith",
+   "ngay_chup": "1858date QS:P571,+1858-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1858
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Giza, Pyramids, Pictures, C. Zangaki, G. Zangaki, photo 14 of 27 - Archivio fotografico Museo Egizio, Turin INV27 003.jpg\" – Adelphoi Zangaki, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_C._Zangaki,_G._Zangaki,_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV27_003.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 9 ảnh 2",
+    "dài · chương 1 đoạn 4",
+    "dài · chương 8 đoạn 2"
+   ],
+   "ten_file": "File:Giza, Pyramids, Pictures, C. Zangaki, G. Zangaki, photo 14 of 27 - Archivio fotografico Museo Egizio, Turin INV27 003.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_C._Zangaki,_G._Zangaki,_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV27_003.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Adelphoi Zangaki",
+   "ngay_chup": "",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Archivio fotografico Museo Egizio, Turin - online catalogue"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a village of small mud-brick houses at dusk near a pyramid under construction, cooking smoke rising, tiny distant figures, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 10 ảnh 1",
+    "dài · chương 7 đoạn 6"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, a pyramid at sunset, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 11 ảnh 1",
+    "dài · chương 9 đoạn 3"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Giza, Pyramids, Pictures, F. Bonfils, photo 5 of 27 - Archivio fotografico Museo Egizio, Turin INV01 007.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_F._Bonfils,_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV01_007.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 11 ảnh 2",
+    "dài · chương 1 đoạn 3",
+    "dài · chương 5 đoạn 8",
+    "bài ảnh · cảnh 6"
+   ],
+   "ten_file": "File:Giza, Pyramids, Pictures, F. Bonfils, photo 5 of 27 - Archivio fotografico Museo Egizio, Turin INV01 007.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_F._Bonfils,_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV01_007.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Félix Bonfils",
+   "ngay_chup": "19th centurydate QS:P571,+1850-00-00T00:00:00Z/7",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Archivio fotografico Museo Egizio, Turin - online catalogue"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1850
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Giza-pyramids.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Giza-pyramids.JPG\" – Robster1983 at English Wikipedia, CC0 (https://commons.wikimedia.org/wiki/File:Giza-pyramids.JPG)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 12 ảnh 1",
+    "dài · chương 9 đoạn 5"
+   ],
+   "ten_file": "File:Giza-pyramids.JPG",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Giza-pyramids.JPG",
+   "giay_phep": "CC0",
+   "tac_gia": "Robster1983 at English Wikipedia",
+   "ngay_chup": "13 March 2011 (original upload date)",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Transferred from en.wikipedia to Commons by Leoboudv using CommonsHelper."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2011
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pyramids_of_Geezeh_David_Roberts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Pyramids of Geezeh David Roberts.jpg\" – David Roberts, Public domain (https://commons.wikimedia.org/wiki/File:Pyramids_of_Geezeh_David_Roberts.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 0 đoạn 6",
+    "dài · chương 9 đoạn 1"
+   ],
+   "ten_file": "File:Pyramids of Geezeh David Roberts.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Pyramids_of_Geezeh_David_Roberts.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "David Roberts",
+   "ngay_chup": "1846date QS:P571,+1846-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "David Roberts and William Brockedon, The Holy Land, Syria, Idumea, Arabia, Egypt &amp; Nubia, Vol. V (London: Day &amp; Son, 1855)"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1846
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/History_of_Art_for_Beginners_Vol_3_Architecture_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"History of Art for Beginners Vol 3 Architecture 003.jpg\" – book author Clara Erskine Clement, Public domain (https://commons.wikimedia.org/wiki/File:History_of_Art_for_Beginners_Vol_3_Architecture_003.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 1 đoạn 5"
+   ],
+   "ten_file": "File:History of Art for Beginners Vol 3 Architecture 003.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:History_of_Art_for_Beginners_Vol_3_Architecture_003.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "book author Clara Erskine Clement",
+   "ngay_chup": "published 1891",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "A History of Art for Beginners and Students: Vol. 3, Architecture (1891) by Clara Erskine Clement"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1891
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "the Great Pyramid of Giza as it looked when newly finished, covered in smooth gleaming white limestone casing shining in the sun, desert, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 1 đoạn 7",
+    "dài · chương 6 đoạn 2"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Marble_bust_of_Herodotos_MET_DT11742_%28cropped%29.jpg/1920px-Marble_bust_of_Herodotos_MET_DT11742_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Marble bust of Herodotos MET DT11742 (cropped).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Marble_bust_of_Herodotos_MET_DT11742_(cropped).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 2 đoạn 1"
+   ],
+   "ten_file": "File:Marble bust of Herodotos MET DT11742 (cropped).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Marble_bust_of_Herodotos_MET_DT11742_(cropped).jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "",
+   "ngay_chup": "2nd century A.D.",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/David_Roberts_Cheops_Chepren.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"David Roberts Cheops Chepren.jpg\" – David Roberts, Public domain (https://commons.wikimedia.org/wiki/File:David_Roberts_Cheops_Chepren.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 2 đoạn 2"
+   ],
+   "ten_file": "File:David Roberts Cheops Chepren.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:David_Roberts_Cheops_Chepren.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "David Roberts",
+   "ngay_chup": "1838date QS:P571,+1838-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "scan by User:Manfred Heyde"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1838
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/-Excavations_near_the_Sphinx-_MET_DP138841.jpg/1920px--Excavations_near_the_Sphinx-_MET_DP138841.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"-Excavations near the Sphinx- MET DP138841.jpg\" – John Beasley Greene, CC0 (https://commons.wikimedia.org/wiki/File:-Excavations_near_the_Sphinx-_MET_DP138841.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 2 đoạn 4"
+   ],
+   "ten_file": "File:-Excavations near the Sphinx- MET DP138841.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:-Excavations_near_the_Sphinx-_MET_DP138841.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "John Beasley Greene",
+   "ngay_chup": "1853date QS:P571,+1853-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1853
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Zangaki._0752._Entrance_to_Pyramid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Zangaki. 0752. Entrance to Pyramid.jpg\" – William Vaughn Tupper\n\nFlickr uploader BPL, Public domain (https://commons.wikimedia.org/wiki/File:Zangaki._0752._Entrance_to_Pyramid.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 2 đoạn 5"
+   ],
+   "ten_file": "File:Zangaki. 0752. Entrance to Pyramid.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Zangaki._0752._Entrance_to_Pyramid.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "William Vaughn Tupper Flickr uploader BPL",
+   "ngay_chup": "December 21, 1892—March 8, 1893 Flickr upload date: 2008-05-01 17:11:27",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Flickr: Entrance to Pyramid"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1892
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "archaeologists' tents and wooden sieves at a desert excavation site beside the sea, pottery fragments laid out on a table, tiny distant figures, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 3 đoạn 2"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Egyptian_views%3B_Cairo_%28Masr%29._Museum_of_Cairo%2C_exterior_LOC_matpc.01484.jpg/1920px-Egyptian_views%3B_Cairo_%28Masr%29._Museum_of_Cairo%2C_exterior_LOC_matpc.01484.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Egyptian views; Cairo (Masr). Museum of Cairo, exterior LOC matpc.01484.jpg\" – Matson Collection, Public domain (https://commons.wikimedia.org/wiki/File:Egyptian_views;_Cairo_(Masr)._Museum_of_Cairo,_exterior_LOC_matpc.01484.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 3 đoạn 7",
+    "dài · chương 8 đoạn 6"
+   ],
+   "ten_file": "File:Egyptian views; Cairo (Masr). Museum of Cairo, exterior LOC matpc.01484.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Egyptian_views;_Cairo_(Masr)._Museum_of_Cairo,_exterior_LOC_matpc.01484.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Matson Collection",
+   "ngay_chup": "1900",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Library of Congress Catalog: https://www.loc.gov/pictures/collection/matpc/item/mpc2004001576/PP Original url: http://hdl.loc.gov/loc.pnp/matpc.01484"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1900
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "the Nile in flood season covering green fields right up to the edge of the desert, palm trees standing in shallow water, a pyramid on the horizon, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 4 đoạn 5"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Tourah-lepsius.jpg/1920px-Tourah-lepsius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Tourah-lepsius.jpg\" – Karl Richard Lepsius, Public domain (https://commons.wikimedia.org/wiki/File:Tourah-lepsius.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 5 đoạn 2"
+   ],
+   "ten_file": "File:Tourah-lepsius.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Tourah-lepsius.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Karl Richard Lepsius",
+   "ngay_chup": "1930",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "\"Memphis, à l'ombre des pyramides\", jean capart, 1930"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1930
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cange_descendant_le_Nil._%28Egypte.%29_%28BM_1880%2C0710.184%29.jpg/1920px-Cange_descendant_le_Nil._%28Egypte.%29_%28BM_1880%2C0710.184%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Cange descendant le Nil. (Egypte.) (BM 1880,0710.184).jpg\" – Print made by: Adolphe Mouilleron\n\nAfter: Achille Émile Théodore Prisse D'Avennes\nPrinted by: Bertauts, Public domain (https://commons.wikimedia.org/wiki/File:Cange_descendant_le_Nil._(Egypte.)_(BM_1880,0710.184).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 5 đoạn 6"
+   ],
+   "ten_file": "File:Cange descendant le Nil. (Egypte.) (BM 1880,0710.184).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Cange_descendant_le_Nil._(Egypte.)_(BM_1880,0710.184).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Print made by: Adolphe Mouilleron After: Achille Émile Théodore Prisse D'Avennes Printed by: Bertauts",
+   "ngay_chup": "1858date QS:P571,+1858-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.britishmuseum.org/collection/object/P_1880-0710-184"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1858
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ancient_Egypt_%28Myers%2C_1890%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Ancient Egypt (Myers, 1890).png\" – Chuck Marean, Public domain (https://commons.wikimedia.org/wiki/File:Ancient_Egypt_(Myers,_1890).png)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 6 đoạn 4"
+   ],
+   "ten_file": "File:Ancient Egypt (Myers, 1890).png",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Ancient_Egypt_(Myers,_1890).png",
+   "giay_phep": "Public domain",
+   "tac_gia": "Chuck Marean",
+   "ngay_chup": "2009-08-28",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "The textbook A General History for Colleges and High Schools by P. V. N. Myers, published 1890."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2009
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a village of small mud-brick houses in the morning near a pyramid under construction, cooking smoke rising, tiny distant figures, oil painting",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "dài · chương 7 đoạn 7"
+   ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Model_chisel_MET_01.4.37_EGDP011642.jpg/1920px-Model_chisel_MET_01.4.37_EGDP011642.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Model chisel MET 01.4.37 EGDP011642.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Model_chisel_MET_01.4.37_EGDP011642.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 8 đoạn 5"
+   ],
+   "ten_file": "File:Model chisel MET 01.4.37 EGDP011642.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Model_chisel_MET_01.4.37_EGDP011642.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "",
+   "ngay_chup": "circa 2650date QS:P571,+2650-00-00T00:00:00Z/9,P1480,Q5727902 B.C. Period: Early",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lepsius-Expedition-Cheops-Pyramide_%28full%29.jpg/1920px-Lepsius-Expedition-Cheops-Pyramide_%28full%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Lepsius-Expedition-Cheops-Pyramide (full).jpg\" – Johann Jakob Frey, Public domain (https://commons.wikimedia.org/wiki/File:Lepsius-Expedition-Cheops-Pyramide_(full).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 9 đoạn 2"
+   ],
+   "ten_file": "File:Lepsius-Expedition-Cheops-Pyramide (full).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Lepsius-Expedition-Cheops-Pyramide_(full).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Johann Jakob Frey",
+   "ngay_chup": "",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://www.brandenburg-preussen-museum.de/sonderausstellungen.html"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  }
+ ],
+ "loi": [],
+ "canh_bao": [
+  "File:The Great Pyramid and the Sphinx.jpg: ảnh năm 2008, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
+  "File:ISS030-E-5334 - View of Egypt.jpg: ảnh năm 2011, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
+  "File:Khufu.JPG: ảnh năm 2003, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
+  "File:Ancient Egypt (Myers, 1890).png: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại"
+ ]
+}

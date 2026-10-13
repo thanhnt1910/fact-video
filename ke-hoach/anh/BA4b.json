@@ -1,0 +1,15 @@
+{
+ "id": "BA4b",
+ "slots": [
+  {"slot": "E01", "mo_ta": "tranh rừng thông tuyết Shishkin", "queries": ["Shishkin winter", "Ivan Shishkin snow pine", "Shishkin In the Wild North"]},
+  {"slot": "E02", "mo_ta": "tranh rừng tuyết đêm Klever / Kuindzhi", "queries": ["Julius Klever winter forest", "Klever winter sunset", "Kuindzhi winter"]},
+  {"slot": "E03", "mo_ta": "tranh núi tuyết, bão tuyết thế kỷ 19", "queries": ["snowstorm painting 19th century mountains", "Aivazovsky winter", "winter night painting moon snow"]},
+  {"slot": "E04", "mo_ta": "lều thám hiểm trong tuyết ảnh cũ", "queries": ["expedition tent snow 1912", "Mawson expedition tent", "Antarctic expedition tent 1911 Ponting"]},
+  {"slot": "E05", "mo_ta": "người trượt tuyết đường dài ảnh cũ", "queries": ["ski touring 1930s", "skiers with backpacks 1920s", "Nansen skiing Greenland"]},
+  {"slot": "E06", "mo_ta": "lở tuyết ảnh chính phủ Mỹ", "queries": ["avalanche Forest Service", "avalanche crown National Park Service", "slab avalanche fracture line"]},
+  {"slot": "E07", "mo_ta": "núi Ural, Bắc Ural CC0", "queries": ["Ural Mountains Unsplash", "Northern Ural winter", "Manpupuner"]},
+  {"slot": "E08", "mo_ta": "dấu chân trên tuyết, sườn núi tuyết CC0", "queries": ["footprints in snow", "snow slope footprints mountain", "snowshoe tracks"]},
+  {"slot": "E09", "mo_ta": "ảnh tàu hỏa hơi nước mùa đông Nga cũ", "queries": ["Russian steam locomotive winter", "Prokudin-Gorsky railway Ural", "Trans-Siberian railway 1900 winter"]},
+  {"slot": "E10", "mo_ta": "làng gỗ taiga, Prokudin-Gorsky Ural", "queries": ["Prokudin-Gorsky Ural", "Prokudin-Gorsky village", "log houses snow Russia old photo"]}
+ ]
+}

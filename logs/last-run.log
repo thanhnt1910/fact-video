@@ -1,33 +1,9 @@
 
 ===== BA4: kiểm tra kịch bản trước khi dựng =====
 
-===== BA4 (video ngắn + bài ảnh) =====
-▶️  BA4: Bí ẩn đèo Dyatlov: 9 người rạch lều từ bên trong
-  ⚖️  Bằng chứng bản quyền: 27 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 6 cần xem
-     ⚠️  File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 21 ảnh: 0 ảnh lỗi, 5 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 11 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  61.8 giây · 26 hình · trung bình 2.4 giây/hình · ⚠️ 1 hình đứng quá 4 giây
-  🎞️  Số lần: cut 13, dissolve 4, smoothup 3, smoothleft 2, hblur 1, fadeblack 1, fade 1
-  🎬 Dựng 1856 khung hình (50s)
-  🔊 Tiếng động: gio, hit, rise, tim_dap, vut
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.3 dBTP
-  🖼️  Ảnh bìa: 3 phương án (BA4_bia_1.jpg, BA4_bia_2.jpg, BA4_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (BA4_post.txt)
-✅ Xong output/BA4/BA4.mp4  (61.8s video, mất 107s)
-
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
 ===== BA4 (video dài) =====
 ▶️  Video dài BA4: Vì sao 9 người leo núi rạch lều bỏ chạy giữa đêm tuyết? | Bí ẩn đèo Dyatlov
-  ⚖️  Bằng chứng bản quyền: 27 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 6 cần xem
+  ⚖️  Bằng chứng bản quyền: 26 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 6 cần xem
      ⚠️  File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
@@ -35,9 +11,20 @@ Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
      ⚠️  File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 27 ảnh: 1 ảnh lỗi, 3 ảnh cần xem
-❌ Video dài BA4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA4_dai_kiemtra.txt):
-  scene_17.jpg: Ảnh hiển thị cảnh tuyết lở hiện đại (chụp năm 2019 ở Mỹ theo nguồn USDA), hoàn toàn không phù hợp với bối cảnh vụ việc đèo Dyatlov năm 1959 tại Nga và có thể khiến người xem hiểu lầm về hiện trường thực tế. → Thay bằng ảnh tư liệu thực tế về đội tìm kiếm năm 1959 hoặc phong cảnh sườn núi Kholat Syakhl.
+  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (9 chương)
+  ⏱️  Thời lượng 07:26 · 58 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+     26/26 ảnh có độ sâu
+     10727 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (107 giây)
+     … 6/12 đoạn (206 giây)
+     … 9/12 đoạn (301 giây)
+     … 12/12 đoạn (305 giây)
+     dựng khung hình xong trong 306 giây
+  🎵 Nhạc nền: Gnossienne 1 (Jaan Patterson)
+  🔊 Tiếng động nền: gio, tim_dap
+  🔈 Âm lượng cuối: -15.4 LUFS, đỉnh -3.9 dBTP
+✅ Video dài: BA4_dai.mp4 (07:26)
 
-Xong video ngắn: BA4 · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): BA4
+Xong video ngắn: - · video dài: BA4

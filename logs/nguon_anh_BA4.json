@@ -1,6 +1,6 @@
 {
  "ma": "BA4",
- "cap_nhat": "2026-10-13T10:40:02",
+ "cap_nhat": "2026-10-13T10:43:19",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -60,7 +60,7 @@
     "ngắn · cảnh 9 ảnh 2",
     "dài · chương 0 đoạn 2",
     "dài · chương 3 đoạn 2",
-    "dài · chương 4 đoạn 5",
+    "dài · chương 4 đoạn 4",
     "dài · chương 6 đoạn 5",
     "dài · chương 7 đoạn 4"
    ],
@@ -202,6 +202,7 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 2",
+    "dài · chương 1 đoạn 3",
     "dài · chương 2 đoạn 3"
    ],
    "ten_file": "File:Klever Heimkehr im Winter 1903.jpg",
@@ -320,7 +321,6 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
-    "dài · chương 4 đoạn 4",
     "dài · chương 5 đoạn 4",
     "dài · chương 7 đoạn 3"
    ],
@@ -535,6 +535,7 @@
    "dung_o": [
     "ngắn · cảnh 12 ảnh 2",
     "dài · chương 0 đoạn 4",
+    "dài · chương 4 đoạn 5",
     "dài · chương 8 đoạn 3"
    ],
    "ten_file": "File:Yuly Klever - Winter Sunset.jpg",
@@ -584,32 +585,6 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1890
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/No-nb_bldsa_3b147.jpg/1920px-No-nb_bldsa_3b147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"No-nb bldsa 3b147.jpg\" – Ludwik Szaciński, Public domain (https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b147.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 1 đoạn 3"
-   ],
-   "ten_file": "File:No-nb bldsa 3b147.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b147.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Ludwik Szaciński",
-   "ngay_chup": "between 1889 and 1890date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1889-00-00T00:00:0",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "National Library of Norway"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1889
   },
   {
    "loai": "ảnh tư liệu",

@@ -1,44 +1,34 @@
 
-===== PV7: kiểm tra kịch bản trước khi dựng =====
+===== BA4: kiểm tra kịch bản trước khi dựng =====
 
-===== PV7 (video ngắn + bài ảnh) =====
-▶️  PV7: Chiến dịch Mincemeat: xác chết lừa Hitler
-  ⚖️  Bằng chứng bản quyền: 25 ảnh tư liệu + 10 tranh AI → logs/nguon_anh_PV7.json
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 20 ảnh: 0 ảnh lỗi, 2 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 10 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  63.9 giây · 22 hình · trung bình 2.9 giây/hình · ⚠️ 1 hình đứng quá 4 giây
-  🎞️  Số lần: cut 14, smoothdown 3, dissolve 1, fadewhite 1, fade 1, smoothleft 1
-[0;93m2026-10-13 09:37:04.262736370 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  🎬 Dựng 1917 khung hình (44s)
-  🔊 Tiếng động: bien, dien_bao, hit, lat_giay, rise, tau_hoa, vut
-  🔈 Âm lượng cuối: -14.8 LUFS, đỉnh -4.2 dBTP
-  🖼️  Ảnh bìa: 3 phương án (PV7_bia_1.jpg, PV7_bia_2.jpg, PV7_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (PV7_post.txt)
-✅ Xong output/PV7/PV7.mp4  (63.9s video, mất 93s)
+===== BA4 (video ngắn + bài ảnh) =====
+▶️  BA4: Bí ẩn đèo Dyatlov: 9 người rạch lều từ bên trong
+  ⚖️  Bằng chứng bản quyền: 33 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 7 cần xem
+     ⚠️  File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Snowshoe tracks (38190317555).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ❌ 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
+❌ BA4: ảnh không rõ giấy phép / không phải PD-CC0: 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
-===== PV7 (video dài) =====
-▶️  Video dài PV7: Chiến dịch Mincemeat: người chưa từng tồn tại đã lừa Hitler như thế nào?
-  ⚖️  Bằng chứng bản quyền: 25 ảnh tư liệu + 10 tranh AI → logs/nguon_anh_PV7.json
-  🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 35 ảnh: 0 ảnh lỗi, 7 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (12 chương)
-  ⏱️  Thời lượng 08:08 · 67 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-13 09:38:56.546410526 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     35/35 ảnh có độ sâu
-     11733 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (127 giây)
-     … 6/12 đoạn (225 giây)
-     … 9/12 đoạn (333 giây)
-     … 12/12 đoạn (340 giây)
-     dựng khung hình xong trong 340 giây
-  🔊 Tiếng động nền: bien, dien_bao, nuoc, tau_hoa
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
-✅ Video dài: PV7_dai.mp4 (08:08)
+===== BA4 (video dài) =====
+▶️  Video dài BA4: Vì sao 9 người leo núi rạch lều bỏ chạy giữa đêm tuyết? | Bí ẩn đèo Dyatlov
+  ⚖️  Bằng chứng bản quyền: 33 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 7 cần xem
+     ⚠️  File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Snowshoe tracks (38190317555).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ❌ 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
+❌ Video dài BA4: ảnh không rõ giấy phép / không phải PD-CC0: 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
 
-Xong video ngắn: PV7 · video dài: PV7
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): BA4
+Lỗi: BA4

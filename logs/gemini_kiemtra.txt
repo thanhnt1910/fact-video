@@ -1,6 +1,22 @@
-Kiểm tra lúc 2026-10-13 14:38:53 UTC
-Có khóa: có
-TTS gemini-3.1-flash-tts-preview: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
-TTS gemini-2.5-flash-preview-tts: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
-Chữ gemini-flash-lite-latest: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
-Chữ gemini-flash-latest: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
+Kiểm tra lúc 2026-10-13 15:52:40 UTC
+Số khóa tìm thấy: 5
+
+[GEMINI_API_KEY] dấu vân tay 6a898e57, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+
+[GEMINI_API_KEY_2] dấu vân tay a5829c1b, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+
+[GEMINI_API_KEY_3] dấu vân tay 8a28a818, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+
+[GEMINI_API_KEY_4] dấu vân tay 7673ded0, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+
+[GEMINI_API_KEY_5] dấu vân tay 50693f29, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ⛔ HTTP 503 UNAVAILABLE: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.

@@ -3,55 +3,29 @@
 
 ===== SL12 (video ngắn + bài ảnh) =====
 ▶️  SL12: Ai đã xây kim tự tháp? Nhật ký 4.500 năm tuổi
-  ⚖️  Bằng chứng bản quyền: 26 ảnh tư liệu + 16 tranh AI → logs/nguon_anh_SL12.json · ⚠️ 4 cần xem
+  ⚖️  Bằng chứng bản quyền: 28 ảnh tư liệu + 12 tranh AI → logs/nguon_anh_SL12.json · ⚠️ 4 cần xem
      ⚠️  File:The Great Pyramid and the Sphinx.jpg: ảnh năm 2008, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:ISS030-E-5334 - View of Egypt.jpg: ảnh năm 2011, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Khufu.JPG: ảnh năm 2003, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Ancient Egypt (Myers, 1890).png: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video ngắn
-     🎨 mp_dbb63756a3c1255a.jpg
-     🎨 mp_d2d9c7e659bc96cb.jpg
-     🎨 mp_cb522104f7bd8655.jpg
-     🎨 mp_089ba40a1006936e.jpg
-     🎨 mp_7fca2756e004db00.jpg
-     🎨 mp_321a0d2fafb220db.jpg
-     🎨 mp_21894caa267b6e56.jpg
-     🎨 mp_0debcbbc9e235088.jpg
-     🎨 mp_598a38ebcbc02658.jpg
-     🎨 mp_056159fade049da9.jpg
-     🎨 mp_e7febacc070a0a57.jpg
-     🎨 mp_48e364783f390991.jpg
-  🔍 Kiểm tra 26 ảnh: 3 ảnh lỗi, 3 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_7fca2756e004db00.jpg (lần 1)
-     🎨 mp_7fca2756e004db00.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_598a38ebcbc02658.jpg (lần 1)
-     🎨 mp_598a38ebcbc02658.jpg
-  🔍 Kiểm tra 26 ảnh: 2 ảnh lỗi, 3 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_598a38ebcbc02658.jpg (lần 2)
-     🎨 mp_598a38ebcbc02658.jpg
-  🔍 Kiểm tra 26 ảnh: 1 ảnh lỗi, 4 ảnh cần xem
+  🔍 Kiểm tra 25 ảnh: 1 ảnh lỗi, 2 ảnh cần xem
 ❌ SL12: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_SL12_ngan_kiemtra.txt):
-  scene_08.jpg: Ảnh chụp phong cảnh và thuyền buồm sông Nile ở thế kỷ 19 (thời kỳ cận đại, khoảng năm 1800s), hoàn toàn sai lệch về thời kỳ lịch sử so với nội dung lời kể (Ai Cập cổ đại cách đây 4.500 năm thời kỳ xây kim tự tháp). → Thay bằng ảnh minh họa, tranh vẽ hoặc phù điêu cổ đại thể hiện thuyền chở đá trên sông Nile thời Ai Cập cổ đại.
+  scene_07.jpg: Ảnh là trang sách quét chứa cả viền trang giấy, tiêu đề và thang đo màu sắc ở cạnh phải, không phải là một bức ảnh minh họa thuần túy cho nội dung. → Cắt bỏ phần viền trang sách, chữ chú thích bên dưới và thang màu bên phải để chỉ giữ lại phần hình ảnh mỏ đá Tura.
 
 Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
 ===== SL12 (video dài) =====
 ▶️  Video dài SL12: Ai đã xây kim tự tháp? Cuốn nhật ký 4.500 năm tuổi của đốc công Merer
-  ⚖️  Bằng chứng bản quyền: 26 ảnh tư liệu + 16 tranh AI → logs/nguon_anh_SL12.json · ⚠️ 4 cần xem
+  ⚖️  Bằng chứng bản quyền: 28 ảnh tư liệu + 12 tranh AI → logs/nguon_anh_SL12.json · ⚠️ 4 cần xem
      ⚠️  File:The Great Pyramid and the Sphinx.jpg: ảnh năm 2008, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:ISS030-E-5334 - View of Egypt.jpg: ảnh năm 2011, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Khufu.JPG: ảnh năm 2003, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Ancient Egypt (Myers, 1890).png: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video dài
-     🎨 mp_5ce83cf60444464e.jpg
-     🎨 mp_e1c44ce7f1c837ae.jpg
-     🎨 mp_f3c40da00f650fee.jpg
-     🎨 mp_6d47ae7dcccf0f2c.jpg
-  🔍 Kiểm tra 42 ảnh: 7 ảnh lỗi, 2 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_5ce83cf60444464e.jpg (lần 1)
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-❌ Video dài SL12: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🔍 Kiểm tra 40 ảnh: 1 ảnh lỗi, 0 ảnh cần xem
+❌ Video dài SL12: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_SL12_dai_kiemtra.txt):
+  scene_19.jpg: Ảnh là một trang sách quét từ thư viện (NYPL) chứa hai hình minh họa: phía trên là kim tự tháp Illahun và phía dưới là mỏ đá Tûra, đi kèm với lề sách, số trang, vết bẩn ố vàng và thanh màu căn chỉnh kỹ thuật số ở cạnh phải. → Cắt bỏ phần lề trang sách và thanh màu kỹ thuật số, chỉ giữ lại phần hình minh họa mỏ đá Tûra ở phía dưới để phù hợp với nội dung lời kể.
 
 Xong video ngắn: - · video dài: -
 Video dài chưa xong (sẽ thử lại lần chạy sau): SL12

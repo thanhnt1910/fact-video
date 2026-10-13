@@ -1,6 +1,6 @@
 {
  "ma": "BA4",
- "cap_nhat": "2026-10-13T10:12:35",
+ "cap_nhat": "2026-10-13T10:16:09",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -312,18 +312,19 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://live.staticflickr.com/65535/51864164891_9d7b243a3a_b.jpg",
-   "credit": "\"Cole Run Trail in snow\" – daveynin, CC BY 2.0 (https://www.flickr.com/photos/44124370018@N01/51864164891)",
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjI2NzEyNi13aWtpbWVkaWEtaW1hZ2Uta293bXR1emMuanBn.jpg",
+   "credit": "\"Downward slope snow several trees\" – không rõ, CC0 (https://www.rawpixel.com/image/3295899/free-photo-image-abies-aletsch-glacier-alps)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 8 ảnh 2",
     "dài · chương 5 đoạn 3",
     "dài · chương 8 đoạn 1"
    ],
-   "ten_file": "51864164891_9d7b243a3a_b.jpg",
-   "giay_phep": "CC BY 2.0",
+   "ten_file": "cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjI2NzEyNi13aWtpbWVkaWEtaW1hZ2Uta293bXR1emMuanBn.jpg",
+   "giay_phep": "CC0",
    "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
-   "hop_le": false
+   "hop_le": true,
+   "nam": null
   },
   {
    "loai": "ảnh tư liệu",
@@ -893,9 +894,7 @@
    "nam": 2009
   }
  ],
- "loi": [
-  "51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0"
- ],
+ "loi": [],
  "canh_bao": [
   "File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",

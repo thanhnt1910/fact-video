@@ -1,0 +1,47 @@
+KIỂM TRA ẢNH BA4 · video dài · 33 ảnh (số thứ tự khớp lưới ảnh anh_BA4_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 · Dãy Ural phía bắc · 1959 scene_00.jpg
+✅ 2 ·  scene_01.jpg
+⚠️ 3 ·  scene_02.jpg
+     ⚠️ ảnh hơi nhỏ (1024x554)
+✅ 4 ·  scene_03.jpg
+✅ 5 · Sverdlovsk · nay là Yekaterinburg scene_04.jpg
+✅ 6 ·  scene_05.jpg
+✅ 7 ·  scene_06.jpg
+❌ 8 ·  scene_07.jpg
+     ⚠️ ảnh hơi mờ (độ nét 25)
+     ❌ Ảnh chụp nhà thám hiểm Fridtjof Nansen và đoàn thám hiểm trên tuyết, không phải nhóm leo núi Dyatlov trong câu chuyện. → Thay bằng ảnh tư liệu thực tế của nhóm leo núi Dyatlov chuẩn bị cho chuyến đi.
+✅ 9 · Núi Otorten · Ural phía bắc scene_08.jpg
+✅ 10 ·  scene_09.jpg
+⚠️ 11 · Rừng taiga · cuối tháng 1 scene_10.jpg
+     ⚠️ ảnh hơi mờ (độ nét 50)
+     ⚠️ Ảnh là một bức tranh vẽ phong cảnh mùa đông thế kỷ 19 của họa sĩ Ivan Aivazovsky, miêu tả đoàn xe ngựa kéo hàng trong tuyết, không phải là xe tải hay đoàn leo núi thập niên 1950 trong câu chuyện. → Có thể chấp nhận làm ảnh bối cảnh minh họa chung cho không khí mùa đông và hành trình di chuyển, nhưng nên ưu tiên ảnh tư liệu chụp thật đúng thời kỳ năm 1959.
+✅ 12 ·  scene_11.jpg
+✅ 13 ·  scene_12.jpg
+❌ 14 · Kholat Syakhl scene_13.jpg
+     ❌ Ảnh hiển thị một cô gái đứng giữa đồng cỏ dưới trời nắng, hoàn toàn không phù hợp với bối cảnh ngọn núi tuyết Kholat Syakhl (Núi Chết) trong câu chuyện đèo Dyatlov. → Thay bằng ảnh phong cảnh núi tuyết Ural hoặc ảnh phong cảnh mùa đông cô độc để minh họa cho ngọn núi Kholat Syakhl.
+✅ 15 ·  scene_14.jpg
+⚠️ 16 ·  scene_15.jpg
+     ⚠️ Ảnh tranh phong cách mùa đông hoàng hôn của Julius von Klever thể hiện khung cảnh thiên nhiên chung, không minh họa cụ thể hành động dựng lều trên sườn núi tuyết của nhóm 9 người trong sự cố Dyatlov. → Nên dùng ảnh chụp lều tuyết thật trên sườn núi hoặc ảnh tư liệu của đoàn thám hiểm Dyatlov để sát với nội dung lời kể.
+✅ 17 ·  scene_16.jpg
+❌ 18 · 20/2/1959 scene_17.jpg
+     ❌ Ảnh có chứa phần khung viền tài liệu lưu trữ lớn bao quanh, nhãn dán chú thích có chữ viết tay/đánh máy ở góc trên bên phải, dãy số viết tay lớn ở góc dưới cùng, và có watermark/chữ số mờ ở góc dưới phải của bức ảnh. → Cắt bỏ phần viền xám xung quanh, nhãn dán chữ và các dãy số để chỉ giữ lại phần nội dung ảnh chụp trượt tuyết bên trong.
+     ⚠️ Chú thích trên ảnh ghi rõ đây là ảnh chụp tại Mỹ (Arapaho National Forest, Colorado) vào tháng 3/1961, trong khi vụ việc đèo Dyatlov xảy ra ở Liên Xô vào đầu năm 1959, dẫn đến việc không đồng nhất về địa điểm và thời gian cụ thể. → Thay thế bằng ảnh tư liệu về đội tìm kiếm cứu hộ hoặc cảnh tuyết núi tại Liên Xô trong khoảng thời gian năm 1959.
+✅ 19 ·  scene_18.jpg
+❌ 20 ·  scene_19.jpg
+     ❌ ảnh rất mờ / nhòe (độ nét 19)
+✅ 21 ·  scene_20.jpg
+✅ 22 ·  scene_21.jpg
+✅ 23 ·  scene_22.jpg
+❌ 24 · 4/5/1959 scene_23.jpg
+     ❌ Ảnh tư liệu này chụp một khe núi và tuyết lở tại Pháp (do Paul Mougin chụp năm 1910), hoàn toàn không phải là địa điểm đèo Dyatlov ở Nga nơi xảy ra sự việc trong câu chuyện. → Thay thế bằng ảnh chụp khu vực đèo Dyatlov, dãy Ural, Nga hoặc ảnh tư liệu tìm kiếm nạn nhân trong vụ việc Dyatlov.
+     ⚠️ Ảnh gốc có chứa viền trắng lớn bao quanh và các chữ viết tay ghi chú tài liệu lưu trữ ở các góc. → Cần crop (cắt) bỏ phần viền trắng và chữ viết tay bên ngoài trước khi đưa vào video.
+✅ 25 ·  scene_24.jpg
+✅ 26 ·  scene_25.jpg
+✅ 27 ·  scene_26.jpg
+⚠️ 28 ·  scene_27.jpg
+     ⚠️ Ảnh minh họa lở tuyết nhưng lại có đường ray xe lửa và đầu tàu ở Alaska, không phù hợp với bối cảnh vụ án đèo Dyatlov ở Nga năm 1959. → Nên thay bằng ảnh tư liệu về tuyết lở trên núi Kholat Syakhl hoặc ảnh phong cảnh vùng Ural, Nga.
+✅ 29 · Thụy Sĩ · 2021 scene_28.jpg
+✅ 30 ·  scene_29.jpg
+✅ 31 ·  scene_30.jpg
+✅ 32 ·  scene_31.jpg
+✅ 33 ·  scene_32.jpg

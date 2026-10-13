@@ -11,8 +11,12 @@
      ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Snowshoe tracks (38190317555).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ❌ 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
-❌ BA4: ảnh không rõ giấy phép / không phải PD-CC0: 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 21 ảnh: 3 ảnh lỗi, 3 ảnh cần xem
+❌ BA4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA4_ngan_kiemtra.txt):
+  scene_06.jpg: Ảnh chụp nhà thám hiểm Fridtjof Nansen từ cuối thế kỷ 19, không phải nhóm leo núi Dyatlov năm 1959 được nhắc đến trong lời kể. → Thay bằng ảnh tư liệu thật của nhóm bạn trẻ do Igor Dyatlov dẫn đầu trong chuyến thám hiểm dãy Ural năm 1959.
+  scene_08.jpg: Ảnh hiển thị một người đứng giữa cánh đồng lúa mì dưới trời nắng, không phù hợp với ngữ cảnh dựng lều trên sườn núi trống trải trong đêm tuyết. → Thay bằng ảnh phong cảnh dãy núi Ural có tuyết hoặc ảnh tư liệu về nhóm leo núi dựng lều.
+  scene_10.jpg: Ảnh có viền xám lớn bao quanh và phần nhãn chú thích (caption) dán ở góc trên bên phải, cùng dãy số viết tay màu tím ở góc dưới, làm giảm chất lượng thẩm mỹ khi đưa vào video. → Cắt bỏ phần viền xám và nhãn chú thích bên ngoài, chỉ giữ lại phần khung ảnh trung tâm.
 
 Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
@@ -26,8 +30,14 @@ Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
      ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Snowshoe tracks (38190317555).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ❌ 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
-❌ Video dài BA4: ảnh không rõ giấy phép / không phải PD-CC0: 51864164891_9d7b243a3a_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0
+  🖼️  Ảnh cho video dài
+  🔍 Kiểm tra 33 ảnh: 5 ảnh lỗi, 4 ảnh cần xem
+❌ Video dài BA4: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA4_dai_kiemtra.txt):
+  scene_07.jpg: Ảnh chụp nhà thám hiểm Fridtjof Nansen và đoàn thám hiểm trên tuyết, không phải nhóm leo núi Dyatlov trong câu chuyện. → Thay bằng ảnh tư liệu thực tế của nhóm leo núi Dyatlov chuẩn bị cho chuyến đi.
+  scene_13.jpg: Ảnh hiển thị một cô gái đứng giữa đồng cỏ dưới trời nắng, hoàn toàn không phù hợp với bối cảnh ngọn núi tuyết Kholat Syakhl (Núi Chết) trong câu chuyện đèo Dyatlov. → Thay bằng ảnh phong cảnh núi tuyết Ural hoặc ảnh phong cảnh mùa đông cô độc để minh họa cho ngọn núi Kholat Syakhl.
+  scene_17.jpg: Ảnh có chứa phần khung viền tài liệu lưu trữ lớn bao quanh, nhãn dán chú thích có chữ viết tay/đánh máy ở góc trên bên phải, dãy số viết tay lớn ở góc dưới cùng, và có watermark/chữ số mờ ở góc dưới phải của bức ảnh. → Cắt bỏ phần viền xám xung quanh, nhãn dán chữ và các dãy số để chỉ giữ lại phần nội dung ảnh chụp trượt tuyết bên trong.
+  scene_19.jpg: ảnh rất mờ / nhòe (độ nét 19)
+  scene_23.jpg: Ảnh tư liệu này chụp một khe núi và tuyết lở tại Pháp (do Paul Mougin chụp năm 1910), hoàn toàn không phải là địa điểm đèo Dyatlov ở Nga nơi xảy ra sự việc trong câu chuyện. → Thay thế bằng ảnh chụp khu vực đèo Dyatlov, dãy Ural, Nga hoặc ảnh tư liệu tìm kiếm nạn nhân trong vụ việc Dyatlov.
 
 Xong video ngắn: - · video dài: -
 Video dài chưa xong (sẽ thử lại lần chạy sau): BA4

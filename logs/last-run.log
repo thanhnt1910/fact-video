@@ -3,37 +3,25 @@
 
 ===== PV7 (video ngắn + bài ảnh) =====
 ▶️  PV7: Chiến dịch Mincemeat: xác chết lừa Hitler
-  ⚖️  Bằng chứng bản quyền: 20 ảnh tư liệu + 17 tranh AI → logs/nguon_anh_PV7.json
+  ⚖️  Bằng chứng bản quyền: 25 ảnh tư liệu + 12 tranh AI → logs/nguon_anh_PV7.json · ⚠️ 1 cần xem
+     ⚠️  File:Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png: ảnh năm 2020, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video ngắn
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     🎨 mp_4996c3704d2f8732.jpg
-❌ PV7: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🔍 Kiểm tra 20 ảnh: 1 ảnh lỗi, 2 ảnh cần xem
+❌ PV7: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_PV7_ngan_kiemtra.txt):
+  scene_03.jpg: Ảnh hiển thị một tập thể (dàn hợp xướng Thủy quân lục chiến Hoàng gia) hoàn toàn không liên quan đến nhân vật Glyndwr Michael hay quá trình tạo lập danh tính giả Thiếu tá William Martin theo lời kể. → Thay bằng ảnh chân dung hoặc tư liệu liên quan đến Glyndwr Michael hoặc quá trình chuẩn bị chiến dịch Mincemeat.
 
 Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
 ===== PV7 (video dài) =====
 ▶️  Video dài PV7: Chiến dịch Mincemeat: người chưa từng tồn tại đã lừa Hitler như thế nào?
-  ⚖️  Bằng chứng bản quyền: 20 ảnh tư liệu + 17 tranh AI → logs/nguon_anh_PV7.json
+  ⚖️  Bằng chứng bản quyền: 25 ảnh tư liệu + 12 tranh AI → logs/nguon_anh_PV7.json · ⚠️ 1 cần xem
+     ⚠️  File:Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png: ảnh năm 2020, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video dài
+  🔍 Kiểm tra 37 ảnh: 1 ảnh lỗi, 6 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_8c2b2351802ee7d8.jpg (lần 1)
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
      🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     ⚠️  không tạo được ảnh mô phỏng: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
-  🎙️  Giọng Gemini Sadaltager (12 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (16s)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (21s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (17s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (9s)
-❌ Video dài PV7: thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+❌ Video dài PV7: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
 Xong video ngắn: - · video dài: -
 Video dài chưa xong (sẽ thử lại lần chạy sau): PV7

@@ -1,25 +1,25 @@
 KIỂM TRA ẢNH PV7 · video ngắn · 20 ảnh (số thứ tự khớp lưới ảnh anh_PV7_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 ·  scene_00.jpg
 ✅ 2 (ảnh mô phỏng AI) ·  mp_aa72242e5cd947fb.jpg
-⚠️ 3 (ảnh mô phỏng AI) ·  mp_c1c833511dd14fc5.jpg
-     ⚠️ Các văn bản, chữ viết trên giấy và vé xem kịch trong ảnh là chữ AI giả lập (gibberish text) không có nghĩa rõ ràng. → Dùng ảnh chụp hiện vật lịch sử thật hoặc tạo ảnh AI có chữ viết mô phỏng tiếng Anh chính xác phù hợp bối cảnh năm 1943.
+✅ 3 (ảnh mô phỏng AI) ·  mp_8c2b2351802ee7d8.jpg
 ✅ 4 ·  scene_01.jpg
 ✅ 5 ·  scene_02.jpg
 ✅ 6 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
-✅ 7 (ảnh mô phỏng AI) ·  mp_a111963ddbad9fb5.jpg
-❌ 8 (ảnh mô phỏng AI) ·  mp_344c08487a9bd7b1.jpg
-     ❌ Ảnh do AI tạo có xuất hiện chữ viết giả lập (gibberish text) trên bức thư, không phải là chữ viết có nghĩa đúng nội dung thư tình. → Dùng ảnh mô phỏng có chữ viết tay tiếng Anh rõ ràng, có nghĩa hoặc làm mờ/lệch góc để không đọc rõ các ký tự vô nghĩa do AI tạo ra.
-❌ 9 (ảnh mô phỏng AI) ·  mp_ba5c7ec0e1249f91.jpg
-     ❌ Tờ giấy đặt dưới hộp nhẫn có xuất hiện chữ viết lỗi, dạng ký tự vô nghĩa không phải văn bản thật. → Tạo lại ảnh AI sao cho tờ hóa đơn/giấy tờ có chữ viết mờ không rõ nét hoặc không có ký tự vô nghĩa.
-✅ 10 ·  scene_03.jpg
+❌ 7 ·  scene_03.jpg
+     ❌ Ảnh hiển thị một tập thể (dàn hợp xướng Thủy quân lục chiến Hoàng gia) hoàn toàn không liên quan đến nhân vật Glyndwr Michael hay quá trình tạo lập danh tính giả Thiếu tá William Martin theo lời kể. → Thay bằng ảnh chân dung hoặc tư liệu liên quan đến Glyndwr Michael hoặc quá trình chuẩn bị chiến dịch Mincemeat.
+⚠️ 8 ·  scene_04.jpg
+     ⚠️ ảnh hơi mờ (độ nét 57)
+     ⚠️ Ảnh chụp cảnh sinh hoạt tại căng tin ở Luân Đôn năm 1943, hoàn toàn không liên quan đến các vật dụng cá nhân như thư tình, hóa đơn nhẫn hay cuống vé xem kịch của Thiếu tá William Martin được nhắc đến trong lời kể. → Thay bằng ảnh chụp các tư liệu cá nhân giả mạo như thư tình, hóa đơn hoặc cuống vé xem kịch trong chiến dịch Mincemeat.
+✅ 9 ·  scene_05.jpg
+✅ 10 ·  scene_06.jpg
 ✅ 11 (ảnh mô phỏng AI) ·  mp_f2bf2d5c02283605.jpg
-✅ 12 ·  scene_04.jpg
+✅ 12 ·  scene_07.jpg
 ✅ 13 (ảnh mô phỏng AI) ·  mp_ef790c52c9864c15.jpg
-✅ 14 (ảnh mô phỏng AI) ·  mp_425794d5e054d0e2.jpg
+⚠️ 14 ·  scene_08.jpg
+     ⚠️ Tranh vẽ cảnh đánh bắt và xẻ thịt cá ngừ ở Ayamonte (Tây Ban Nha), không phải cảnh ngư dân tìm thấy thi thể trôi dạt trên biển theo lời kể. → Nên thay bằng ảnh tư liệu hoặc tranh minh họa thể hiện cảnh ngư dân vớt được thi thể trên biển ngoài khơi Tây Ban Nha vào năm 1943.
 ✅ 15 (ảnh mô phỏng AI) ·  mp_37e6d0df90dc0554.jpg
-❌ 16 ·  scene_05.jpg
-     ❌ ảnh rất mờ / nhòe (độ nét 11)
+✅ 16 ·  scene_09.jpg
 ✅ 17 (ảnh mô phỏng AI) ·  mp_3848dacaa0a90e60.jpg
-✅ 18 ·  scene_06.jpg
-✅ 19 ·  scene_07.jpg
+✅ 18 ·  scene_10.jpg
+✅ 19 ·  scene_11.jpg
 ✅ 20 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg

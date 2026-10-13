@@ -1,6 +1,6 @@
 {
  "ma": "PV7",
- "cap_nhat": "2026-10-13T09:38:15",
+ "cap_nhat": "2026-10-13T12:56:57",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -40,14 +40,8 @@
    "dung_o": [
     "ngắn · cảnh 1 ảnh 2",
     "ngắn · cảnh 6 ảnh 1",
-    "ngắn · cảnh 12 ảnh 1",
     "dài · chương 0 đoạn 2",
-    "dài · chương 2 đoạn 3",
-    "dài · chương 5 đoạn 1",
-    "dài · chương 5 đoạn 6",
-    "dài · chương 7 đoạn 5",
-    "dài · chương 7 đoạn 7",
-    "dài · chương 11 đoạn 4"
+    "dài · chương 2 đoạn 3"
    ]
   },
   {
@@ -58,11 +52,7 @@
    "dung_o": [
     "ngắn · cảnh 2 ảnh 1",
     "dài · chương 0 đoạn 5",
-    "dài · chương 2 đoạn 2",
-    "dài · chương 4 đoạn 3",
-    "dài · chương 4 đoạn 7",
-    "dài · chương 10 đoạn 1",
-    "dài · chương 10 đoạn 3"
+    "dài · chương 2 đoạn 2"
    ],
    "ten_file": "File:Woodstock typewriter, 1940s.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg",
@@ -91,7 +81,6 @@
     "ngắn · cảnh 3 ảnh 1",
     "dài · chương 1 đoạn 1",
     "dài · chương 2 đoạn 6",
-    "dài · chương 5 đoạn 4",
     "bài ảnh · cảnh 2"
    ],
    "ten_file": "File:1943 Army Orientation Course Newsmap of the Mediterranean Sea and North Africa.jpg",
@@ -176,9 +165,7 @@
    "dung_o": [
     "ngắn · cảnh 4 ảnh 2",
     "dài · chương 3 đoạn 1",
-    "dài · chương 3 đoạn 3",
-    "dài · chương 3 đoạn 4",
-    "dài · chương 10 đoạn 4"
+    "dài · chương 3 đoạn 3"
    ]
   },
   {
@@ -188,8 +175,7 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 1",
-    "dài · chương 4 đoạn 2",
-    "dài · chương 4 đoạn 4"
+    "dài · chương 4 đoạn 2"
    ],
    "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12987.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12987.jpg",
@@ -216,7 +202,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 2",
-    "dài · chương 4 đoạn 6"
+    "dài · chương 4 đoạn 6",
+    "dài · chương 4 đoạn 7"
    ],
    "ten_file": "File:Wartime Theatre- Entertainment in London, England, UK, August 1943 D16393.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Wartime_Theatre-_Entertainment_in_London,_England,_UK,_August_1943_D16393.jpg",
@@ -272,8 +259,7 @@
    "dung_o": [
     "ngắn · cảnh 6 ảnh 2",
     "dài · chương 5 đoạn 3",
-    "dài · chương 8 đoạn 6",
-    "dài · chương 8 đoạn 7"
+    "dài · chương 8 đoạn 6"
    ]
   },
   {
@@ -283,7 +269,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
-    "dài · chương 0 đoạn 6"
+    "dài · chương 0 đoạn 6",
+    "dài · chương 6 đoạn 6"
    ],
    "ten_file": "File:The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg",
@@ -312,8 +299,7 @@
    "dung_o": [
     "ngắn · cảnh 7 ảnh 2",
     "dài · chương 6 đoạn 4",
-    "dài · chương 6 đoạn 5",
-    "dài · chương 6 đoạn 6"
+    "dài · chương 6 đoạn 5"
    ]
   },
   {
@@ -461,10 +447,23 @@
    "dung_o": [
     "ngắn · cảnh 11 ảnh 1",
     "dài · chương 3 đoạn 5",
-    "dài · chương 10 đoạn 2",
-    "dài · chương 10 đoạn 5",
-    "dài · chương 11 đoạn 3"
+    "dài · chương 10 đoạn 2"
    ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJncmF0aXNvZ3JhcGh5MDAwMTQtaW1hZ2Uta3d2eWo1YW8uanBn.jpg",
+   "credit": "\"Close-up vintage leather suitcase samsonite\" – không rõ, CC0 (https://www.rawpixel.com/image/5927517/photo-image-public-domain-vintage-free)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 12 ảnh 1",
+    "dài · chương 5 đoạn 1"
+   ],
+   "ten_file": "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJncmF0aXNvZ3JhcGh5MDAwMTQtaW1hZ2Uta3d2eWo1YW8uanBn.jpg",
+   "giay_phep": "CC0",
+   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
+   "hop_le": true,
+   "nam": null
   },
   {
    "loai": "tranh AI",
@@ -474,8 +473,7 @@
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 0 đoạn 1",
-    "dài · chương 2 đoạn 5",
-    "dài · chương 7 đoạn 2"
+    "dài · chương 2 đoạn 5"
    ]
   },
   {
@@ -485,8 +483,6 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 1 đoạn 3",
-    "dài · chương 2 đoạn 1",
-    "dài · chương 5 đoạn 2",
     "bài ảnh · cảnh 4"
    ],
    "ten_file": "File:The Royal Navy during the Second World War A17979.jpg",
@@ -535,17 +531,16 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg/1920px-The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17917.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War-_Operation_Husky,_Sicily,_July_1943_A17917.jpg)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Invasion_of_Sicily_1943_NA4502.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"The Invasion of Sicily 1943 NA4502.jpg\" – No 2 Army Film & Photographic Unit, Rooke (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:The_Invasion_of_Sicily_1943_NA4502.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 1 đoạn 5",
-    "dài · chương 9 đoạn 2"
+    "dài · chương 1 đoạn 5"
    ],
-   "ten_file": "File:The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17917.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War-_Operation_Husky,_Sicily,_July_1943_A17917.jpg",
+   "ten_file": "File:The Invasion of Sicily 1943 NA4502.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Invasion_of_Sicily_1943_NA4502.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Claude Henry Parnall",
+   "tac_gia": "No 2 Army Film &amp; Photographic Unit, Rooke (Sgt)",
    "ngay_chup": "between 1939 and 1945date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1939-00-00T00:0",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
@@ -554,7 +549,7 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//30/media-30135/large.jpg This photograph A 17917 comes from the collections of the Imperial War Museums."
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//47/media-47201/large.jpg This photograph NA 4502 comes from the collections of the Imperial War Museums."
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
@@ -562,12 +557,37 @@
   },
   {
    "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_March_1943_D12980.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Whitehall Canteen- Eating Out in Wartime London, March 1943 D12980.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12980.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 2 đoạn 1"
+   ],
+   "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, March 1943 D12980.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12980.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Ministry of Information Photo Division Photographer",
+   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//42/media-42866/large.jpg This photograph D 12980 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 2 đoạn 4",
-    "dài · chương 7 đoạn 4"
+    "dài · chương 2 đoạn 4"
    ],
    "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg",
@@ -582,6 +602,32 @@
     "Restrictions": "",
     "AttributionRequired": "false",
     "Credit": "http://media.iwm.org.uk/iwm/mediaLib//42/media-42867/large.jpg This photograph D 12982 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_draped_coffins_of_American_soldiers_at_a_military_funeral_ceremony_at_the_Madingley%2C_England%2C_%28date_unknown%2C_but_probably_after_1943%29_-_NARA_-_6003746_%28cropped%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Flag draped coffins of American soldiers at a military funeral ceremony at the Madingley, England, (date unknown, but probably after 1943) - NARA - 6003746 (cropped).jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Flag_draped_coffins_of_American_soldiers_at_a_military_funeral_ceremony_at_the_Madingley,_England,_(date_unknown,_but_probably_after_1943)_-_NARA_-_6003746_(cropped).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 3 đoạn 4"
+   ],
+   "ten_file": "File:Flag draped coffins of American soldiers at a military funeral ceremony at the Madingley, England, (date unknown, but probably after 1943) - NARA - 6003746 (cropped).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Flag_draped_coffins_of_American_soldiers_at_a_military_funeral_ceremony_at_the_Madingley,_England,_(date_unknown,_but_probably_after_1943)_-_NARA_-_6003746_(cropped).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author or not provided",
+   "ngay_chup": "Unknown (World War II, probably 1943 or later)",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "U.S. National Archives and Records Administration"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
@@ -612,6 +658,124 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3Jpamtzbmctbm0tMTAzMjUtMi1pbWFnZS5qcGc.jpg",
+   "credit": "\"Document bij Doggersbank-penning (1811) anonymous\" – rijksmuseum, CC0 (https://www.rawpixel.com/image/13733842/document-bij-doggersbank-penning-1811-anonymous)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 4 đoạn 3"
+   ],
+   "ten_file": "cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3Jpamtzbmctbm0tMTAzMjUtMi1pbWFnZS5qcGc.jpg",
+   "giay_phep": "CC0",
+   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
+   "hop_le": true,
+   "nam": 1811
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg/1920px-Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Netherlands 1932-1-21 money letter NVPH 193 SF reverse.jpg\" – Post of the Netherlands, Public domain (https://commons.wikimedia.org/wiki/File:Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 4 đoạn 4"
+   ],
+   "ten_file": "File:Netherlands 1932-1-21 money letter NVPH 193 SF reverse.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Post of the Netherlands",
+   "ngay_chup": "1932-01-21",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Self-scanned"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1932
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/December_1951%2C_a_diplomatic_courier_seals_a_pouch._%2831697513598%29.jpg/1920px-December_1951%2C_a_diplomatic_courier_seals_a_pouch._%2831697513598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"December 1951, a diplomatic courier seals a pouch. (31697513598).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_seals_a_pouch._(31697513598).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 5 đoạn 2"
+   ],
+   "ten_file": "File:December 1951, a diplomatic courier seals a pouch. (31697513598).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_seals_a_pouch._(31697513598).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Diplomatic Security Service from Washington, D.C., United States of America",
+   "ngay_chup": "Taken in December 1951",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "December 1951, a diplomatic courier seals a pouch."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1951
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/The_Campaign_in_Sicily_1943_A18089.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"The Campaign in Sicily 1943 A18089.jpg\" – Royal Navy official photographer, Roper F G (Lt), Public domain (https://commons.wikimedia.org/wiki/File:The_Campaign_in_Sicily_1943_A18089.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 5 đoạn 4"
+   ],
+   "ten_file": "File:The Campaign in Sicily 1943 A18089.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_Campaign_in_Sicily_1943_A18089.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Royal Navy official photographer, Roper F G (Lt)",
+   "ngay_chup": "10 July 1943",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//30/media-30172/large.jpg This photograph A 18089 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Reval_1855-02-09_church_letter_wax_seal_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Reval 1855-02-09 church letter wax seal (cropped).jpg\" – Postal authorities of the Russian Empire (Estonia), Public domain (https://commons.wikimedia.org/wiki/File:Reval_1855-02-09_church_letter_wax_seal_(cropped).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 5 đoạn 6"
+   ],
+   "ten_file": "File:Reval 1855-02-09 church letter wax seal (cropped).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Reval_1855-02-09_church_letter_wax_seal_(cropped).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Postal authorities of the Russian Empire (Estonia)",
+   "ngay_chup": "1855-02-09",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Scan of original"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1855
   },
   {
    "loai": "tranh AI",
@@ -677,6 +841,32 @@
    "nam": 1943
   },
   {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sunsetzach1.jpg/1920px-Sunsetzach1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Sunsetzach1.jpg\" – Huskarl2000, Public domain (https://commons.wikimedia.org/wiki/File:Sunsetzach1.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 7 đoạn 2"
+   ],
+   "ten_file": "File:Sunsetzach1.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Sunsetzach1.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Huskarl2000",
+   "ngay_chup": "",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": null
+  },
+  {
    "loai": "tranh AI",
    "prompt": "a small military funeral in a Spanish cemetery in 1943 seen from far away, a coffin draped with a flag, a few figures in uniform standing still, white walls and cypress trees, oil painting",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
@@ -685,6 +875,72 @@
    "dung_o": [
     "dài · chương 7 đoạn 3"
    ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/%27Wings_For_Victory_Week%27_in_London%2C_Britain%2C_March_1943._CH9105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"'Wings For Victory Week' in London, Britain, March 1943. CH9105.jpg\" – Bridge (P/O), Royal Air Force official photographer, Public domain (https://commons.wikimedia.org/wiki/File:%27Wings_For_Victory_Week%27_in_London,_Britain,_March_1943._CH9105.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 7 đoạn 4"
+   ],
+   "ten_file": "File:'Wings For Victory Week' in London, Britain, March 1943. CH9105.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:%27Wings_For_Victory_Week%27_in_London,_Britain,_March_1943._CH9105.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Bridge (P/O), Royal Air Force official photographer",
+   "ngay_chup": "1943-03",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This photograph CH 9105 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/December_1951%2C_a_diplomatic_courier_fills_a_vertical_pouch._%2844656077725%29.jpg/1920px-December_1951%2C_a_diplomatic_courier_fills_a_vertical_pouch._%2844656077725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"December 1951, a diplomatic courier fills a vertical pouch. (44656077725).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_fills_a_vertical_pouch._(44656077725).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 7 đoạn 5"
+   ],
+   "ten_file": "File:December 1951, a diplomatic courier fills a vertical pouch. (44656077725).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_fills_a_vertical_pouch._(44656077725).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Diplomatic Security Service from Washington, D.C., United States of America",
+   "ngay_chup": "Taken in December 1951",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "December 1951, a diplomatic courier fills a vertical pouch."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1951
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3drOTg2NDQ3My1pbWFnZS5qcGc.jpg",
+   "credit": "\"Unbroken wax seal folded letter\" – không rõ, CC0 (https://www.rawpixel.com/image/8717910/photo-image-vintage-public-domain-letter)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 7 đoạn 7"
+   ],
+   "ten_file": "cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3drOTg2NDQ3My1pbWFnZS5qcGc.jpg",
+   "giay_phep": "CC0",
+   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
+   "hop_le": true,
+   "nam": null
   },
   {
    "loai": "ảnh tư liệu",
@@ -711,6 +967,57 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1939
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Erwin_Rommel_in_1942_%2836299043150%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Erwin Rommel in 1942 (36299043150).png\" – Cassowary Colorizations, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Erwin_Rommel_in_1942_(36299043150).png)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 8 đoạn 7"
+   ],
+   "ten_file": "File:Erwin Rommel in 1942 (36299043150).png",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Erwin_Rommel_in_1942_(36299043150).png",
+   "giay_phep": "CC BY 2.0",
+   "tac_gia": "Cassowary Colorizations",
+   "ngay_chup": "2017-08-20 10:24",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC BY 2.0",
+    "License": "cc-by-2.0",
+    "UsageTerms": "Creative Commons Attribution 2.0",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "true",
+    "Credit": "Erwin Rommel in 1942"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": false
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Troops_from_2nd_Battalion%2C_The_Northamptonshire_Regiment_wait_to_board_landing_craft_at_Catania%2C_Sicily%2C_for_the_invasion_of_Italy%2C_2_September_1943._NA6283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Troops from 2nd Battalion, The Northamptonshire Regiment wait to board landing craft at Catania, Sicily, for the invasion of Italy, 2 September 1943. NA6283.jpg\" – Drennan (Sgt), No 2 Army Film & Photographic Unit, Public domain (https://commons.wikimedia.org/wiki/File:Troops_from_2nd_Battalion,_The_Northamptonshire_Regiment_wait_to_board_landing_craft_at_Catania,_Sicily,_for_the_invasion_of_Italy,_2_September_1943._NA6283.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 9 đoạn 2"
+   ],
+   "ten_file": "File:Troops from 2nd Battalion, The Northamptonshire Regiment wait to board landing craft at Catania, Sicily, for the invasion of Italy, 2 September 1943. NA6283.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Troops_from_2nd_Battalion,_The_Northamptonshire_Regiment_wait_to_board_landing_craft_at_Catania,_Sicily,_for_the_invasion_of_Italy,_2_September_1943._NA6283.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Drennan (Sgt), No 2 Army Film &amp; Photographic Unit",
+   "ngay_chup": "2 September 1943",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//47/media-47263/large.jpg This photograph NA 6283 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
   },
   {
    "loai": "ảnh tư liệu",
@@ -792,6 +1099,110 @@
   },
   {
    "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_March_1943_D12990.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Whitehall Canteen- Eating Out in Wartime London, March 1943 D12990.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12990.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 10 đoạn 1"
+   ],
+   "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, March 1943 D12990.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12990.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Ministry of Information Photo Division Photographer",
+   "ngay_chup": "between 1939 and 1945date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1939-00-00T00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//170/media-170365/large.jpg This photograph D 12990 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1939
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Major_Martin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Major Martin.jpg\" – Ewen Montagu Team, Public domain (https://commons.wikimedia.org/wiki/File:Major_Martin.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 10 đoạn 3"
+   ],
+   "ten_file": "File:Major Martin.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Major_Martin.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Ewen Montagu Team",
+   "ngay_chup": "1943",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Montagu, E.: The Man Who Never Was, London 1953"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Van_Girl-_Horse_and_Cart_Deliveries_For_the_London%2C_Midland_and_Scottish_Railway%2C_London%2C_England%2C_1943_D16845.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16845.jpg\" – Richard Stone, Public domain (https://commons.wikimedia.org/wiki/File:Van_Girl-_Horse_and_Cart_Deliveries_For_the_London,_Midland_and_Scottish_Railway,_London,_England,_1943_D16845.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 10 đoạn 4"
+   ],
+   "ten_file": "File:Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16845.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Van_Girl-_Horse_and_Cart_Deliveries_For_the_London,_Midland_and_Scottish_Railway,_London,_England,_1943_D16845.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Richard Stone",
+   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//43/media-43469/large.jpg This photograph D 16845 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Graves_at_Magnolia_Cemetery.jpg/1920px-Graves_at_Magnolia_Cemetery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Graves at Magnolia Cemetery.jpg\" – Catboy69, CC0 (https://commons.wikimedia.org/wiki/File:Graves_at_Magnolia_Cemetery.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 10 đoạn 5"
+   ],
+   "ten_file": "File:Graves at Magnolia Cemetery.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Graves_at_Magnolia_Cemetery.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Catboy69",
+   "ngay_chup": "2025-12-29 14:01:02",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2025
+  },
+  {
+   "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/THE_LONDON_BLITZ%2C_1940_HU112276.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"THE LONDON BLITZ, 1940 HU112276.jpg\" – Cecil Beaton, Public domain (https://commons.wikimedia.org/wiki/File:THE_LONDON_BLITZ,_1940_HU112276.jpg)",
    "ngay_tai": "2026-10-13",
@@ -815,8 +1226,50 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1939
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://live.staticflickr.com/65535/51693721282_1bef636526_b.jpg",
+   "credit": "\"Twickenham Cemetery - Grave of William James Davies.\" – waddavies, Public Domain (https://www.flickr.com/photos/141326567@N03/51693721282)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 11 đoạn 3"
+   ],
+   "ten_file": "51693721282_1bef636526_b.jpg",
+   "giay_phep": "Public Domain",
+   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
+   "hop_le": true,
+   "nam": null
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/An_Enigma_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"An Enigma machine.jpg\" – Robert-brook, CC0 (https://commons.wikimedia.org/wiki/File:An_Enigma_machine.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 11 đoạn 4"
+   ],
+   "ten_file": "File:An Enigma machine.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:An_Enigma_machine.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Robert-brook",
+   "ngay_chup": "2018-03-23 19:43:56",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2018
   }
  ],
- "loi": [],
+ "loi": [
+  "File:Erwin Rommel in 1942 (36299043150).png: giấy phép 'CC BY 2.0' không phải Public Domain/CC0"
+ ],
  "canh_bao": []
 }

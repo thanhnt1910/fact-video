@@ -3,26 +3,59 @@
 
 ===== ST5 (video ngắn + bài ảnh) =====
 ▶️  ST5: Cô gái sống sót qua 3 vụ đắm tàu
-  ⚖️  Bằng chứng bản quyền: 31 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST5.json
+  ⚖️  Bằng chứng bản quyền: 36 ảnh tư liệu + 15 tranh AI → logs/nguon_anh_ST5.json
   🖼️  Ảnh cho video ngắn
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-❌ ST5: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🔍 Kiểm tra 24 ảnh: 0 ảnh lỗi, 0 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per minute on Tier 1). Please retry in 41s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 43s…
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 60s…
+  🎙️  Gemini đọc 13/13 cảnh, mỗi cảnh một sắc thái (123s), tốc độ x1.12
+  🪧 12 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  62.3 giây · 29 hình · trung bình 2.1 giây/hình
+  🎞️  Số lần: cut 15, dissolve 5, smoothleft 2, smoothup 2, wiperight 2, fadeblack 1, fade 1
+[0;93m2026-10-13 00:20:10.451944411 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     ⬇️  tải mô hình độ sâu Depth Anything V2 (khoảng 100 MB, chỉ lần đầu)
+  🎬 Dựng 1868 khung hình (43s)
+  🎵 Nhạc nền: Pathetique Adagio
+  🔊 Tiếng động: bien, coi_tau, dam_dong, dien_bao, dong_co_tau, gio, hit, kim_loai, nuoc, rise, tim_dap, vut
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.1 dBTP
+  🖼️  Ảnh bìa: 3 phương án (ST5_bia_1.jpg, ST5_bia_2.jpg, ST5_bia_3.jpg)
+  🖼️  Ảnh cho video ngắn (bản cũ A/B)
+  🎙️  Giọng Gemini Sadaltager
+  🎙️  Gemini đọc xong (27s), tốc độ x1.12
+  🪧 12 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  67.2 giây · 29 hình · trung bình 2.3 giây/hình
+  🎞️  Số lần: cut 15, dissolve 5, smoothleft 2, smoothup 2, wiperight 2, fadeblack 1, fade 1
+  🎬 Dựng 2016 khung hình (46s)
+  🎵 Nhạc nền: Pathetique Adagio
+  🅰️  Bản cũ cho thử nghiệm A/B: ST5_ban_cu.mp4
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (ST5_post.txt)
+✅ Xong output/ST5/ST5.mp4  (62.3s video, mất 353s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
 ===== ST5 (video dài) =====
 ▶️  Video dài ST5: Cô gái không thể chìm: người sống sót qua cả Olympic, Titanic và Britannic | Chuyện có thật
-  ⚖️  Bằng chứng bản quyền: 31 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST5.json
+  ⚖️  Bằng chứng bản quyền: 36 ảnh tư liệu + 15 tranh AI → logs/nguon_anh_ST5.json
   🖼️  Ảnh cho video dài
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-     ⚠️  không tạo được ảnh mô phỏng: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🔍 Kiểm tra 51 ảnh: 0 ảnh lỗi, 3 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (10 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (15s)
-❌ Video dài ST5: thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  ⏱️  Thời lượng 08:24 · 74 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-13 00:24:24.521747899 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     51/51 ảnh có độ sâu
+     12097 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (135 giây)
+     … 6/12 đoạn (258 giây)
+     … 9/12 đoạn (371 giây)
+     … 12/12 đoạn (373 giây)
+     dựng khung hình xong trong 373 giây
+  🎵 Nhạc nền: Goin' Home (Dvorak, USAF Band)
+  🔊 Tiếng động nền: bien, coi_tau, dam_dong, dien_bao, dong_co_tau, dong_ho, gio, hit, kim_loai, mua, nuoc, tim_dap
+  🔈 Âm lượng cuối: -15.4 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: ST5_dai.mp4 (08:24)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): ST5
-Lỗi: ST5
+Xong video ngắn: ST5 · video dài: ST5

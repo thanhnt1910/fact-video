@@ -1,6 +1,6 @@
 {
  "ma": "ST5",
- "cap_nhat": "2026-10-13T00:12:01",
+ "cap_nhat": "2026-10-13T00:23:24",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -43,6 +43,7 @@
     "dài · chương 0 đoạn 5",
     "dài · chương 5 đoạn 2",
     "dài · chương 7 đoạn 3",
+    "dài · chương 8 đoạn 6",
     "dài · chương 9 đoạn 1",
     "bài ảnh · cảnh 5"
    ],
@@ -65,16 +66,35 @@
    "nam": 1915
   },
   {
-   "loai": "tranh AI",
-   "prompt": "a calm dark ocean at night under countless stars, a faint mist on the water, utterly empty and silent, oil painting style, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 2 ảnh 1",
-    "ngắn · cảnh 8 ảnh 1",
-    "dài · chương 4 đoạn 11"
-   ]
+    "ngắn · cảnh 3 ảnh 3",
+    "ngắn · cảnh 9 ảnh 2",
+    "dài · chương 5 đoạn 3",
+    "dài · chương 6 đoạn 13",
+    "bài ảnh · cảnh 4"
+   ],
+   "ten_file": "File:HMHS Britannic.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Allan C. Green",
+   "ngay_chup": "between December 1915 and October 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This image is available from the Our Collections of the State Library of Victoria under the Accession Number:"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1915
   },
   {
    "loai": "ảnh tư liệu",
@@ -134,36 +154,6 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1911
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/HMHS_Britannic.jpg/1920px-HMHS_Britannic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"HMHS Britannic.jpg\" – Allan C. Green, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "ngắn · cảnh 3 ảnh 3",
-    "ngắn · cảnh 9 ảnh 2",
-    "dài · chương 5 đoạn 3",
-    "dài · chương 6 đoạn 13",
-    "bài ảnh · cảnh 4"
-   ],
-   "ten_file": "File:HMHS Britannic.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Allan C. Green",
-   "ngay_chup": "between December 1915 and October 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "This image is available from the Our Collections of the State Library of Victoria under the Accession Number:"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1915
   },
   {
    "loai": "ảnh tư liệu",
@@ -391,7 +381,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
-    "dài · chương 4 đoạn 8"
+    "dài · chương 4 đoạn 8",
+    "dài · chương 8 đoạn 4"
    ],
    "ten_file": "File:Carpathia - Titanic lifeboats.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg",
@@ -421,6 +412,33 @@
     "ngắn · cảnh 7 ảnh 2",
     "dài · chương 4 đoạn 9"
    ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg/1920px-A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"A Photograph of an Iceberg Floating Near the Site of the TITANIC Sinking. - NARA - 278334.jpg\" – Louis Ogden, Public domain (https://commons.wikimedia.org/wiki/File:A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 8 ảnh 1",
+    "dài · chương 4 đoạn 11"
+   ],
+   "ten_file": "File:A Photograph of an Iceberg Floating Near the Site of the TITANIC Sinking. - NARA - 278334.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:A_Photograph_of_an_Iceberg_Floating_Near_the_Site_of_the_TITANIC_Sinking._-_NARA_-_278334.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Louis Ogden",
+   "ngay_chup": "14 December 1912date QS:P571,+1912-12-14T00:00:00Z/11",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "U.S. National Archives and Records Administration"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1912
   },
   {
    "loai": "ảnh tư liệu",
@@ -510,7 +528,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 10 ảnh 2",
-    "dài · chương 6 đoạn 7"
+    "dài · chương 6 đoạn 7",
+    "dài · chương 7 đoạn 1"
    ],
    "ten_file": "File:Lifeboats of HMHS Britannic.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Lifeboats_of_HMHS_Britannic.jpg",
@@ -607,6 +626,7 @@
     "ngắn · cảnh 13 ảnh 1",
     "dài · chương 0 đoạn 6",
     "dài · chương 2 đoạn 4",
+    "dài · chương 3 đoạn 6",
     "dài · chương 3 đoạn 7",
     "dài · chương 9 đoạn 2"
    ]
@@ -629,7 +649,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 0 đoạn 2",
-    "dài · chương 4 đoạn 10"
+    "dài · chương 4 đoạn 10",
+    "dài · chương 6 đoạn 6"
    ],
    "ten_file": "File:Titanic-lifeboat-colorized.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Titanic-lifeboat-colorized.jpg",
@@ -747,7 +768,8 @@
    "credit": "\"The steamship Baltic RMG BHC3219.jpg\" – Antonio Jacobsen, Public domain (https://commons.wikimedia.org/wiki/File:The_steamship_Baltic_RMG_BHC3219.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 1 đoạn 7"
+    "dài · chương 1 đoạn 7",
+    "dài · chương 2 đoạn 2"
    ],
    "ten_file": "File:The steamship Baltic RMG BHC3219.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_steamship_Baltic_RMG_BHC3219.jpg",
@@ -775,16 +797,6 @@
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 2 đoạn 1"
-   ]
-  },
-  {
-   "loai": "tranh AI",
-   "prompt": "an early 1900s two-funnel passenger steamship sailing across a blue ocean, white wake, clouds, oil painting style, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
-   "dung_o": [
-    "dài · chương 2 đoạn 2"
    ]
   },
   {
@@ -822,19 +834,6 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1897
-  },
-  {
-   "loai": "tranh AI",
-   "prompt": "still life of a closed old leather-bound notebook and a fountain pen on a plain wooden desk, warm lamp light, oil painting style, no people, no text",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
-   "dung_o": [
-    "dài · chương 3 đoạn 6",
-    "dài · chương 7 đoạn 1",
-    "dài · chương 8 đoạn 4",
-    "dài · chương 8 đoạn 6"
-   ]
   },
   {
    "loai": "ảnh tư liệu",
@@ -915,14 +914,30 @@
    "nam": 1912
   },
   {
-   "loai": "tranh AI",
-   "prompt": "a busy harbour in 1914 with a large grey troop ship, rows of soldiers in khaki walking up the gangway seen from far away, flags, smoke, oil painting style, no visible faces",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/An_officer_of_the_Womens_Royal_Naval_Service_%28WRNS%29_supervising_the_wiring_together_of_glass_floats_on_an_anti-submarine_mine_net_during_the_First_World_War._Q19640.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"An officer of the Womens Royal Naval Service (WRNS) supervising the wiring together of glass floats on an anti-submarine mine net during the First World War. Q19640.jpg\" – George P. Lewis, Public domain (https://commons.wikimedia.org/wiki/File:An_officer_of_the_Womens_Royal_Naval_Service_(WRNS)_supervising_the_wiring_together_of_glass_floats_on_an_anti-submarine_mine_net_during_the_First_World_War._Q19640.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 5 đoạn 1"
-   ]
+   ],
+   "ten_file": "File:An officer of the Womens Royal Naval Service (WRNS) supervising the wiring together of glass floats on an anti-submarine mine net during the First World War. Q19640.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:An_officer_of_the_Womens_Royal_Naval_Service_(WRNS)_supervising_the_wiring_together_of_glass_floats_on_an_anti-submarine_mine_net_during_the_First_World_War._Q19640.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "George P. Lewis",
+   "ngay_chup": "1917date QS:P571,+1917-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//358/media-358348/large.jpg This photograph Q 19640 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1917
   },
   {
    "loai": "ảnh tư liệu",
@@ -977,14 +992,30 @@
    "nam": 1916
   },
   {
-   "loai": "tranh AI",
-   "prompt": "a rocky Greek island coast in the Aegean Sea on a clear November morning in 1916, calm blue water, a large white hospital ship far away, oil painting style, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/HMHS_Britannic_Sailing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"HMHS Britannic Sailing.jpg\" – Captain Dayrell Davies (1856 – 1937), Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_Sailing.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 6 đoạn 1"
-   ]
+   ],
+   "ten_file": "File:HMHS Britannic Sailing.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic_Sailing.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Captain Dayrell Davies (1856 – 1937)",
+   "ngay_chup": "1916-10",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "This photograph Q 22799 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1916
   },
   {
    "loai": "tranh AI",
@@ -998,15 +1029,30 @@
    ]
   },
   {
-   "loai": "tranh AI",
-   "prompt": "close-up still life of a single old wooden toothbrush with natural bristles lying on a small wooden shelf inside a ship cabin in 1916, a round porthole behind it showing only sea, oil painting style, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/HMHS_Britannic_Boat_Deck.jpg/1920px-HMHS_Britannic_Boat_Deck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"HMHS Britannic Boat Deck.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_Boat_Deck.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 6 đoạn 5",
-    "dài · chương 6 đoạn 6"
-   ]
+    "dài · chương 6 đoạn 5"
+   ],
+   "ten_file": "File:HMHS Britannic Boat Deck.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic_Boat_Deck.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author",
+   "ngay_chup": "between 1915 and 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1915-00-00T00:00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "titanic-cad-plans.com/color-guidetitanic-cad-plans.com"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1915
   },
   {
    "loai": "tranh AI",
@@ -1019,14 +1065,30 @@
    ]
   },
   {
-   "loai": "tranh AI",
-   "prompt": "a calm dark ocean in grey morning light, a faint mist on the water, utterly empty and silent, oil painting style, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/HMHS_Britannic_arriving_in_Naples.jpg/1920px-HMHS_Britannic_arriving_in_Naples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"HMHS Britannic arriving in Naples.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMHS_Britannic_arriving_in_Naples.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 6 đoạn 12"
-   ]
+   ],
+   "ten_file": "File:HMHS Britannic arriving in Naples.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMHS_Britannic_arriving_in_Naples.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author",
+   "ngay_chup": "1916",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.pinterest.com/pin/852024823239168126/"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1916
   },
   {
    "loai": "tranh AI",

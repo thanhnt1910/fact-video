@@ -1,0 +1,11 @@
+🔎 KIỂM TRA ST5 · video ngắn + bài ảnh
+⚠️ NÊN XEM LẠI — 0 lỗi, 4 cảnh báo
+(chỉ kiểm tra kỹ thuật, chưa có bước AI)
+
+⚠️ [Kịch bản · cảnh 2] lời đọc có chữ số: "Năm 1911, tàu Olympic bị tàu chiến HMS Hawke đâm thủng mạn."
+   → Sửa: viết số bằng chữ để giọng AI đọc đúng
+⚠️ [Kịch bản · cảnh 3] lời đọc có chữ số: "Năm 1912, Titanic đâm vào băng trôi. Cô xuống xuồng cứu sinh số 16."
+   → Sửa: viết số bằng chữ để giọng AI đọc đúng
+⚠️ [Kịch bản · cảnh 4] lời đọc có chữ số: "Năm 1916, tàu bệnh viện Britannic trúng thủy lôi."
+   → Sửa: viết số bằng chữ để giọng AI đọc đúng
+⚠️ [Kịch bản · cảnh cuối] lời kết thiếu câu "Sử thật… lạ hơn cả truyện"

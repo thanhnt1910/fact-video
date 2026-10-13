@@ -1,0 +1,4 @@
+CHUYỂN CẢNH ST5 (video ngắn) · bảng màu: hblur, fade, dissolve, smoothup, smoothleft, wiperight
+Thứ tự: cut → cut → cut → cut → cut → smoothleft → dissolve → smoothup → cut → dissolve → wiperight → cut → cut → cut → cut → cut → cut → wiperight → cut → cut → dissolve → smoothup → dissolve → fadeblack → cut → fade → dissolve → smoothleft
+Số lần: cut 15, dissolve 5, smoothleft 2, smoothup 2, wiperight 2, fadeblack 1, fade 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

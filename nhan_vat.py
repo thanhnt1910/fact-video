@@ -44,15 +44,24 @@ def load(dt):
     p = Flux2KleinPipeline.from_pretrained("black-forest-labs/FLUX.2-klein-4B", torch_dtype=dt)
     p.enable_model_cpu_offload()
     return p
-dt = torch.bfloat16
+dt = torch.float16
 pipe = load(dt)
 log("tải xong FLUX.2 klein 4B")
 def draw(prompt, w, h, seed, refs=None):
+    global pipe, dt
+    if refs:   # thu nhỏ ảnh tham chiếu cho đỡ tốn bộ nhớ card đồ họa
+        refs = [r.resize((320, int(320 * r.height / r.width))) for r in refs]
     kw = dict(prompt=prompt, width=w, height=h, guidance_scale=1.0, num_inference_steps=4,
               generator=torch.Generator("cuda").manual_seed(seed))
     if refs:
         kw["image"] = refs
-    return pipe(**kw).images[0]
+    img = pipe(**kw).images[0]
+    if float(np.asarray(img).mean()) < 3 and dt == torch.float16:   # ảnh đen: chuyển sang bf16
+        del pipe; gc.collect(); torch.cuda.empty_cache()
+        dt = torch.bfloat16; pipe = load(dt); log("chuyển sang bf16")
+        kw["generator"] = torch.Generator("cuda").manual_seed(seed)
+        img = pipe(**kw).images[0]
+    return img
 sheets = {}
 for k, prompt in J["sheets"].items():
     try:
@@ -61,7 +70,7 @@ for k, prompt in J["sheets"].items():
         img.save(f"{OUT}/sheet_{k}.png"); sheets[k] = img
         log("bảng nhân vật", k, f"{time.time()-t1:.0f}s")
     except Exception as e:
-        log("LỖI bảng", k, repr(e)[:300]); traceback.print_exc()
+        log("LỖI bảng", k, repr(e)[:300]); traceback.print_exc(); gc.collect(); torch.cuda.empty_cache()
 for s in J["scenes"]:
     for mode in ("ref", "text"):
         try:
@@ -69,11 +78,11 @@ for s in J["scenes"]:
             refs = [sheets[c] for c in s["chars"] if c in sheets] if mode == "ref" else None
             if mode == "ref" and not refs:
                 continue
-            img = draw(s["prompt_" + mode], 1344, 768, 11, refs)
+            img = draw(s["prompt_" + mode], 1152, 640, 11, refs)
             img.save(f"{OUT}/{s['key']}_{mode}.png")
             log("cảnh", s["key"], mode, f"{time.time()-t1:.0f}s")
         except Exception as e:
-            log("LỖI cảnh", s["key"], mode, repr(e)[:400]); traceback.print_exc()
+            log("LỖI cảnh", s["key"], mode, repr(e)[:400]); traceback.print_exc(); gc.collect(); torch.cuda.empty_cache()
 json.dump({"done": True}, open(f"{OUT}/done.json", "w"))
 log("XONG")
 '''
@@ -124,7 +133,7 @@ def main():
         shutil.copy(f, dest / "kaggle.txt")
     from PIL import Image
     got = []
-    for f in sorted((work / "out").glob("*.png")):
+    for f in sorted((work / "out").rglob("*.png")):
         Image.open(f).convert("RGB").save(dest / (f.stem + ".jpg"), quality=90)
         got.append(f.stem)
     print("Nhận về:", got)

@@ -6,13 +6,17 @@ on:
       ids:
         description: "Mã cần gửi, cách nhau dấu phẩy. SL2 = cả bộ; SL2:ngan = video ngắn + bài ảnh; SL2:dai = video dài"
         required: true
+      gui_lai:
+        description: "Gửi lại dù đã gửi trước đó (yes / no)"
+        required: false
+        default: "no"
       bo_qua_kiem_tra:
         description: "Vẫn gửi cả khi bản tự kiểm tra báo LỖI (yes / no)"
         required: false
         default: "no"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   send:
@@ -40,4 +44,13 @@ jobs:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORCE_SEND: ${{ inputs.bo_qua_kiem_tra }}
+          GUI_LAI: ${{ inputs.gui_lai }}
         run: bash send_telegram.sh
+      - name: Ghi sổ đã gửi
+        if: always()
+        run: |
+          git add logs/da_gui.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git config user.name "fact-video-bot"; git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Sổ video đã gửi Telegram [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; git rebase --abort 2>/dev/null || true; sleep 5; done

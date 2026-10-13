@@ -15,9 +15,7 @@ blocked() {
   python3 -c "import json,sys; sys.exit(0 if json.load(open('$f',encoding='utf-8')).get('ket_qua')=='loi' else 1)"
 }
 block_msg() {
-  curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="⛔ Chưa gửi $1 ($2) vì bản tự kiểm tra báo LỖI. Sửa kịch bản rồi dựng lại, hoặc chạy lại workflow 'Gửi Telegram' với ô 'Vẫn gửi' = yes.
-$(head -c 3000 output/$1/$1_kiemtra_$3.txt)" "$api/sendMessage"
-  echo "Bỏ qua $1 ($2): tự kiểm tra báo lỗi"
+  echo "Bỏ qua $1 ($2): tự kiểm tra báo lỗi (không gửi Telegram)"
 }
 # Gửi ảnh bìa dạng tệp (giữ nguyên chất lượng để tải lên YouTube/Facebook). Dùng: send_covers "chú thích" tệp1 tệp2 ...
 send_covers() {
@@ -48,13 +46,16 @@ if [ -s ci_outputs.txt ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
     if blocked "$id" ngan; then block_msg "$id" "video ngắn + bài ảnh" ngan; continue; fi
+    if python3 da_gui.py check "$id" ngan; then echo "Bỏ qua $id (video ngắn): đã gửi trước đó, đặt GUI_LAI=yes nếu muốn gửi lại"; continue; fi
     mp4="output/$id/$id.mp4"
     cap="output/$id/${id}_caption.txt"
     title=$(python3 -c "import json,sys;print(json.load(open('scripts/$id.json',encoding='utf-8')).get('title',''))" 2>/dev/null)
     text="🎬 $id · $title — nội dung đăng ở tin ngay sau. Bài ảnh: Releases tag video-${id}${HAU_TO}"
-    curl -s -o /dev/null -w "Gửi $id: %{http_code}\n" \
+    code=$(curl -s -o /dev/null -w "%{http_code}" \
       -F chat_id="$TG_CHAT" -F supports_streaming=true \
-      -F video=@"$mp4" -F caption="$text" "$api/sendVideo"
+      -F video=@"$mp4" -F caption="$text" "$api/sendVideo")
+    echo "Gửi $id: $code"
+    [ "$code" = "200" ] && python3 da_gui.py mark "$id" ngan
     # thử nghiệm A/B (kế hoạch, mục Âm thanh C): bản cũ chỉ ảnh + giọng đọc một lượt
     if [ -f "output/$id/${id}_ban_cu.mp4" ]; then
       curl -s -o /dev/null -w "Gửi bản A/B $id: %{http_code}\n" -F chat_id="$TG_CHAT" -F supports_streaming=true \
@@ -75,29 +76,22 @@ if [ -s ci_long.txt ]; then
     [ -z "$id" ] && continue
     f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
     if blocked "$id" dai; then block_msg "$id" "video dài" dai; continue; fi
+    if python3 da_gui.py check "$id" dai; then echo "Bỏ qua $id (video dài): đã gửi trước đó, đặt GUI_LAI=yes nếu muốn gửi lại"; continue; fi
     dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
     vb=$(python3 -c "print(max(300, int(44*8*1024/float('$dur') - 96)))")
     ffmpeg -nostdin -loglevel error -y -i "$f" -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${vb}k \
       -maxrate ${vb}k -bufsize $((vb*2))k -c:a aac -b:a 96k "output/$id/${id}_dai_tg.mp4"
     link="https://github.com/${GITHUB_REPOSITORY}/releases/tag/video-${id}${HAU_TO}"
-    curl -s -o /dev/null -w "Gửi video dài $id: %{http_code}\n" -F chat_id="$TG_CHAT" -F supports_streaming=true \
+    code=$(curl -s -o /dev/null -w "%{http_code}" -F chat_id="$TG_CHAT" -F supports_streaming=true \
       -F video=@"output/$id/${id}_dai_tg.mp4" \
-      -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo"
+      -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo")
+    echo "Gửi video dài $id: $code"
+    [ "$code" = "200" ] && python3 da_gui.py mark "$id" dai
     python3 tg_text.py "output/$id/${id}_dai_youtube.txt" "📝 NỘI DUNG ĐĂNG $id (video dài)"
     send_covers "🖼️ Ảnh bìa video dài $id: _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
       "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_thumbnail_fb.jpg"
   done < ci_long.txt
 fi
-if [ -s ci_long_failed.txt ]; then
-  curl -s -o /dev/null -F chat_id="$TG_CHAT" \
-    -F text="⏳ Video dài chưa xong: $(tr '\n' ' ' < ci_long_failed.txt)$(grep -m1 -oE 'ảnh không đạt kiểm tra|hết lượt[^(]*' logs/last-run.log 2>/dev/null | head -1 | sed 's/^/— lý do: /') — máy sẽ tự thử lại sáng mai. Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" "$api/sendMessage"
-fi
-if [ -s ci_failed.txt ]; then
-  msg="⚠️ Dựng lỗi: $(tr '\n' ' ' < ci_failed.txt). Xem log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-  curl -s -o /dev/null -F chat_id="$TG_CHAT" -F text="$msg" "$api/sendMessage"
-fi
-
-if [ -s ci_blocked.json ] && [ "$(cat ci_blocked.json)" != "{}" ]; then
-  curl -s -o /dev/null -F chat_id="$TG_CHAT" \
-    -F text="⛔ Chưa dựng (kịch bản lỗi): $(python3 -c "import json;print(', '.join(json.load(open('ci_blocked.json'))))"). Log: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" "$api/sendMessage"
-fi
+# Không gửi tin "chưa xong / lỗi / bị chặn" lên Telegram: Telegram chỉ nhận kết quả cuối cùng, mỗi video đúng một lần.
+for f in ci_long_failed.txt ci_failed.txt ci_blocked.json; do [ -s "$f" ] && echo "(không gửi Telegram) $f: $(head -c 300 $f | tr '\n' ' ')"; done
+exit 0

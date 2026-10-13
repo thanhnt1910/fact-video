@@ -22,6 +22,10 @@ on:
         description: "Gửi Telegram ngay (yes) hay giữ lại chờ duyệt (no)"
         required: false
         default: "no"
+      gui_lai:
+        description: "Gửi lại cả những video đã gửi Telegram trước đó (yes). Mặc định mỗi video chỉ gửi một lần"
+        required: false
+        default: "no"
       bo_qua_kiemtra:
         description: "Bỏ qua kiểm tra kịch bản và ảnh trước khi dựng (yes nếu chắc chắn lỗi báo ra không đúng)"
         required: false
@@ -196,9 +200,10 @@ jobs:
             gh release upload "$tag" "$f" "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_youtube.txt" $extra --clobber < /dev/null
           done < ci_long.txt
 
-      - name: Gửi video về Telegram (chỉ khi đã duyệt)
-        if: always() && inputs.send == 'yes'
+      - name: Gửi video về Telegram (chỉ khi dựng thành công, mỗi video một lần)
+        if: success() && inputs.send == 'yes'
         env:
+          GUI_LAI: ${{ inputs.gui_lai }}
           FORCE_SEND: "no"
           HAU_TO: ${{ inputs.hau_to }}
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

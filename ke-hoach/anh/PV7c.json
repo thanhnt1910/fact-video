@@ -1,0 +1,17 @@
+{
+ "id": "PV7c",
+ "slots": [
+  {"slot": "R01", "mo_ta": "nhà xác / bệnh viện London 1940s", "queries": ["London hospital 1940s ward", "mortuary 1940s", "St Pancras mortuary", "coroner London 1943"]},
+  {"slot": "R02", "mo_ta": "nghĩa trang Tây Ban Nha / nghĩa trang quân đội Anh", "queries": ["Huelva cemetery", "Spanish cemetery graves", "CWGC cemetery Spain", "Huelva Nuestra Señora de la Soledad"]},
+  {"slot": "R03", "mo_ta": "bờ biển Hy Lạp / Peloponnese / Salonika 1943", "queries": ["Greek coast 1943", "Salonika 1941 German troops", "Peloponnese coast", "Greece landscape painting 19th century"]},
+  {"slot": "R04", "mo_ta": "tàu hỏa chở xe tăng Đức 1943", "queries": ["German tanks railway transport 1943", "Panzer train transport", "Panzer III railway", "German troops train 1943"]},
+  {"slot": "R05", "mo_ta": "máy điện báo/teleprinter, điện tín thời chiến", "queries": ["teleprinter 1940s", "Bletchley Park Enigma", "Enigma machine", "telegram 1940s message"]},
+  {"slot": "R06", "mo_ta": "cặp da, thư niêm phong, ổ khóa", "queries": ["leather briefcase vintage", "sealed letter wax seal", "old envelope letter 1940s", "diplomatic bag"]},
+  {"slot": "R07", "mo_ta": "tàu ngầm Anh trồi lên mặt nước WWII", "queries": ["British submarine surfaced 1943", "HMS Seraph submarine", "S-class submarine Royal Navy", "submarine crew conning tower 1943"]},
+  {"slot": "R08", "mo_ta": "lễ tang quân sự, nhà thờ, nến", "queries": ["military funeral 1943", "Union flag coffin", "funeral graveside 1940s", "chaplain burial at sea"]},
+  {"slot": "R09", "mo_ta": "đường phố London thời Blitz, Whitehall, Admiralty", "queries": ["Admiralty Arch 1940s", "Whitehall 1943", "London street 1943", "Churchill war rooms"]},
+  {"slot": "R10", "mo_ta": "Berlin 1943, tổng hành dinh Đức, Wolfsschanze", "queries": ["Berlin 1943", "Wolfsschanze", "German general staff 1943 map", "Reich Chancellery 1943"]},
+  {"slot": "R11", "mo_ta": "Rommel / Mountbatten / Montagu / Cholmondeley", "queries": ["Rommel 1943", "Mountbatten 1943", "Ewen Montagu", "Charles Cholmondeley"]},
+  {"slot": "R12", "mo_ta": "Sicily đổ bộ 1943 thêm ảnh", "queries": ["Operation Husky landing craft", "Sicily 1943 Allied troops", "Gela beach 1943", "Syracuse Sicily 1943"]}
+]
+}

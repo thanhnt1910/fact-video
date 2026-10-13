@@ -1,6 +1,6 @@
 {
  "ma": "PV7",
- "cap_nhat": "2026-10-13T09:12:48",
+ "cap_nhat": "2026-10-13T09:18:02",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -48,7 +48,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text",
+   "prompt": "an old brown leather wallet, a set of brass keys, a few old coins and a silver pocket watch on a dark wooden desk, 1940s, warm lamp light, oil painting, no people, no paper, no text",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -132,7 +132,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people",
+   "prompt": "a plain khaki British officer uniform jacket hanging on a wooden coat stand beside a window in a 1940s office, a black leather briefcase on the floor, oil painting, no people, no badges, no text",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -144,7 +144,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text",
+   "prompt": "a pressed red rose and an old black fountain pen lying on a dark wooden desk lit by a warm lamp, 1940s, oil painting, no people, no paper, no text",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -156,7 +156,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "a small open velvet jewellery box with a diamond engagement ring beside a folded paper bill on a wooden desk, 1940s, oil painting, no people, no readable text",
+   "prompt": "a small open dark blue velvet jewellery box holding a diamond engagement ring on a dark wooden desk, soft lamp light, oil painting, no people, no paper, no text",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -247,7 +247,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing, seen from far away, a pale grey life jacket floating on the water nearby, oil painting",
+   "prompt": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing towards a small dark shape floating on the water, seen from far away, oil painting",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -270,8 +270,8 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_%28right%29_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg\" – https://audiovis.nac.gov.pl/o, CC0 (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_(right)_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 9 ảnh 1",
@@ -279,23 +279,23 @@
     "dài · chương 8 đoạn 4",
     "bài ảnh · cảnh 5"
    ],
-   "ten_file": "File:Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Unknown",
-   "ngay_chup": "1942",
+   "ten_file": "File:Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_(right)_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "https://audiovis.nac.gov.pl/o",
+   "ngay_chup": "1943-04-01",
    "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/5920887"
+    "Credit": "https://audiovis.nac.gov.pl/obraz/35709/4ea95103706b2895586ca78fd611a6c2/"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1942
+   "nam": 1943
   },
   {
    "loai": "tranh AI",
@@ -513,39 +513,13 @@
    "nam": 2021
   },
   {
-   "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 2 đoạn 4",
-    "dài · chương 7 đoạn 4"
-   ],
-   "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Ministry of Information Photo Division Photographer",
-   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//42/media-42867/large.jpg This photograph D 12982 comes from the collections of the Imperial War Museums."
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1943
-  },
-  {
    "loai": "tranh AI",
    "prompt": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
+    "dài · chương 2 đoạn 4",
     "dài · chương 3 đoạn 2",
     "dài · chương 10 đoạn 4",
     "dài · chương 11 đoạn 1"
@@ -616,17 +590,17 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/HMSM_Turbulent_FL20300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"HMSM Turbulent FL20300.jpg\" – Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:HMSM_Turbulent_FL20300.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean%2C_24_December_1943._A21112.jpg/1920px-The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean%2C_24_December_1943._A21112.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"The officers of HM Submarine SERAPH on her return to Portsmouth after operations in the Mediterranean, 24 December 1943. A21112.jpg\" – Pelman, L (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean,_24_December_1943._A21112.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 6 đoạn 3"
    ],
-   "ten_file": "File:HMSM Turbulent FL20300.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:HMSM_Turbulent_FL20300.jpg",
+   "ten_file": "File:The officers of HM Submarine SERAPH on her return to Portsmouth after operations in the Mediterranean, 24 December 1943. A21112.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean,_24_December_1943._A21112.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Royal Navy official photographer",
-   "ngay_chup": "between 1939 and 1945date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1939-00-00T00:0",
+   "tac_gia": "Pelman, L (Lt), Royal Navy official photographer",
+   "ngay_chup": "24 December 1943",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -634,11 +608,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//19/media-19948/large.jpg This photograph FL 20300 comes from the collections of the Imperial War Museums."
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//18/media-18157/large.jpg This photograph A 21112 comes from the collections of the Imperial War Museums."
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1939
+   "nam": 1943
   },
   {
    "loai": "tranh AI",
@@ -649,6 +623,32 @@
    "dung_o": [
     "dài · chương 7 đoạn 3"
    ]
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 7 đoạn 4"
+   ],
+   "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Ministry of Information Photo Division Photographer",
+   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//42/media-42867/large.jpg This photograph D 12982 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
   },
   {
    "loai": "ảnh tư liệu",

@@ -1,6 +1,6 @@
 {
  "ma": "BA4",
- "cap_nhat": "2026-10-13T10:16:09",
+ "cap_nhat": "2026-10-13T10:22:15",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -170,20 +170,21 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/No-nb_bldsa_3b065.jpg/1920px-No-nb_bldsa_3b065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"No-nb bldsa 3b065.jpg\" – Fridtjof Nansen, Public domain (https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b065.jpg)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BE%D0%B7_%D0%B2_%D0%BF%D1%83%D1%82%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Зимний обоз в пути.jpg\" – Ivan Aivazovsky, Public domain (https://commons.wikimedia.org/wiki/File:%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BE%D0%B7_%D0%B2_%D0%BF%D1%83%D1%82%D0%B8.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 1",
     "dài · chương 1 đoạn 4",
+    "dài · chương 2 đoạn 1",
     "dài · chương 2 đoạn 4",
     "dài · chương 3 đoạn 1"
    ],
-   "ten_file": "File:No-nb bldsa 3b065.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b065.jpg",
+   "ten_file": "File:Зимний обоз в пути.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BE%D0%B7_%D0%B2_%D0%BF%D1%83%D1%82%D0%B8.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Fridtjof Nansen",
-   "ngay_chup": "before 22 September 1888date QS:P,+1888-09-22T00:00:00Z/7,P1326,+1888-09-22T00:0",
+   "tac_gia": "Ivan Aivazovsky",
+   "ngay_chup": "1857date QS:P571,+1857-00-00T00:00:00Z/9",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -191,11 +192,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "National Library of Norway"
+    "Credit": "https://artchive.ru/res/media/img/oy800/work/07e/336666.jpeg"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1888
+   "nam": 1857
   },
   {
    "loai": "ảnh tư liệu",
@@ -226,34 +227,35 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ural_Mountains%2C_Russia_%28Unsplash%29.jpg/1920px-Ural_Mountains%2C_Russia_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Ural Mountains, Russia (Unsplash).jpg\" – Tatiana Kondratyeva tatianaliketatiana, CC0 (https://commons.wikimedia.org/wiki/File:Ural_Mountains,_Russia_(Unsplash).jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Winter_Forest_and_Mt_Hood%2C_Mt_Hood_National_Forest_%2823564671969%29.jpg/1920px-Winter_Forest_and_Mt_Hood%2C_Mt_Hood_National_Forest_%2823564671969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Winter Forest and Mt Hood, Mt Hood National Forest (23564671969).jpg\" – U.S. Forest Service- Pacific Northwest Region, Public domain (https://commons.wikimedia.org/wiki/File:Winter_Forest_and_Mt_Hood,_Mt_Hood_National_Forest_(23564671969).jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 1",
     "dài · chương 3 đoạn 3",
     "dài · chương 4 đoạn 2",
+    "dài · chương 5 đoạn 7",
     "dài · chương 6 đoạn 3",
     "dài · chương 8 đoạn 4",
     "bài ảnh · cảnh 3"
    ],
-   "ten_file": "File:Ural Mountains, Russia (Unsplash).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Ural_Mountains,_Russia_(Unsplash).jpg",
-   "giay_phep": "CC0",
-   "tac_gia": "Tatiana Kondratyeva tatianaliketatiana",
-   "ngay_chup": "2016-12-16",
+   "ten_file": "File:Winter Forest and Mt Hood, Mt Hood National Forest (23564671969).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Winter_Forest_and_Mt_Hood,_Mt_Hood_National_Forest_(23564671969).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "U.S. Forest Service- Pacific Northwest Region",
+   "ngay_chup": "2015-12-23 12:56",
    "ban_chup_giay_phep": {
-    "LicenseShortName": "CC0",
-    "License": "cc0",
-    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
-    "Copyrighted": "True",
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "https://unsplash.com/photos/F954gg7QugQ archive copy at the Wayback Machine Image at the Wayback Machine"
+    "Credit": "Winter Forest and Mt Hood, Mt Hood National Forest"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 2016
+   "nam": 2015
   },
   {
    "loai": "ảnh tư liệu",
@@ -262,7 +264,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 1",
-    "dài · chương 3 đoạn 6"
+    "dài · chương 3 đoạn 6",
+    "dài · chương 5 đoạn 6"
    ],
    "ten_file": "File:Julius von Klever - Returning home at sunset.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Julius_von_Klever_-_Returning_home_at_sunset.jpg",
@@ -284,19 +287,20 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Avalanche_Control_-_All_States_-_DPLA_-_48c7684bfd50bb8d993813af3104e363.jpg/1920px-Avalanche_Control_-_All_States_-_DPLA_-_48c7684bfd50bb8d993813af3104e363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Avalanche Control - All States - DPLA - 48c7684bfd50bb8d993813af3104e363.jpg\" – Department of Agriculture. Forest Service. 7/1/1905, Public domain (https://commons.wikimedia.org/wiki/File:Avalanche_Control_-_All_States_-_DPLA_-_48c7684bfd50bb8d993813af3104e363.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/20190307-FS-HTNF-JS-Avalanche-01_%2848942361478%29.jpg/1920px-20190307-FS-HTNF-JS-Avalanche-01_%2848942361478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg\" – Intermountain Forest Service, USDA Region 4 Photography, Public domain (https://commons.wikimedia.org/wiki/File:20190307-FS-HTNF-JS-Avalanche-01_(48942361478).jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
-    "dài · chương 4 đoạn 3",
-    "dài · chương 5 đoạn 4"
+    "dài · chương 4 đoạn 5",
+    "dài · chương 5 đoạn 4",
+    "dài · chương 7 đoạn 3"
    ],
-   "ten_file": "File:Avalanche Control - All States - DPLA - 48c7684bfd50bb8d993813af3104e363.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Avalanche_Control_-_All_States_-_DPLA_-_48c7684bfd50bb8d993813af3104e363.jpg",
+   "ten_file": "File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:20190307-FS-HTNF-JS-Avalanche-01_(48942361478).jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Department of Agriculture. Forest Service. 7/1/1905",
-   "ngay_chup": "",
+   "tac_gia": "Intermountain Forest Service, USDA Region 4 Photography",
+   "ngay_chup": "2019-03-07 10:27",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -304,11 +308,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "This file was contributed to Wikimedia Commons by National Archives at College Park - Still Pictures as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner Digital Public Library of America. Record in source catalog DPLA identifier: 48c7684bfd50bb8d993813af3104e363 National Archives Identifier: 7015863"
+    "Credit": "20190307-FS-HTNF-JS-Avalanche-01"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1905
+   "nam": 2019
   },
   {
    "loai": "ảnh tư liệu",
@@ -317,6 +321,7 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 8 ảnh 2",
+    "dài · chương 4 đoạn 8",
     "dài · chương 5 đoạn 3",
     "dài · chương 8 đoạn 1"
    ],
@@ -634,17 +639,18 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BE%D0%B7_%D0%B2_%D0%BF%D1%83%D1%82%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Зимний обоз в пути.jpg\" – Ivan Aivazovsky, Public domain (https://commons.wikimedia.org/wiki/File:%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BE%D0%B7_%D0%B2_%D0%BF%D1%83%D1%82%D0%B8.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Winter_Forest%2C_Mt_Hood_National_Forest_%2836356593694%29.jpg/1920px-Winter_Forest%2C_Mt_Hood_National_Forest_%2836356593694%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Winter Forest, Mt Hood National Forest (36356593694).jpg\" – U.S. Forest Service- Pacific Northwest Region, Public domain (https://commons.wikimedia.org/wiki/File:Winter_Forest,_Mt_Hood_National_Forest_(36356593694).jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 2 đoạn 1"
+    "dài · chương 4 đoạn 3",
+    "dài · chương 5 đoạn 5"
    ],
-   "ten_file": "File:Зимний обоз в пути.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BE%D0%B7_%D0%B2_%D0%BF%D1%83%D1%82%D0%B8.jpg",
+   "ten_file": "File:Winter Forest, Mt Hood National Forest (36356593694).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Winter_Forest,_Mt_Hood_National_Forest_(36356593694).jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Ivan Aivazovsky",
-   "ngay_chup": "1857date QS:P571,+1857-00-00T00:00:00Z/9",
+   "tac_gia": "U.S. Forest Service- Pacific Northwest Region",
+   "ngay_chup": "1980-06-09 12:00",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -652,64 +658,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "https://artchive.ru/res/media/img/oy800/work/07e/336666.jpeg"
+    "Credit": "Winter Forest, Mt Hood National Forest.jpg"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1857
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/20190307-FS-HTNF-JS-Avalanche-01_%2848942361478%29.jpg/1920px-20190307-FS-HTNF-JS-Avalanche-01_%2848942361478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg\" – Intermountain Forest Service, USDA Region 4 Photography, Public domain (https://commons.wikimedia.org/wiki/File:20190307-FS-HTNF-JS-Avalanche-01_(48942361478).jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 4 đoạn 5",
-    "dài · chương 7 đoạn 3"
-   ],
-   "ten_file": "File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:20190307-FS-HTNF-JS-Avalanche-01_(48942361478).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Intermountain Forest Service, USDA Region 4 Photography",
-   "ngay_chup": "2019-03-07 10:27",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "20190307-FS-HTNF-JS-Avalanche-01"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 2019
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Snowshoe_tracks_%2838190317555%29.jpg/1920px-Snowshoe_tracks_%2838190317555%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Snowshoe tracks (38190317555).jpg\" – Superior National Forest, Public domain (https://commons.wikimedia.org/wiki/File:Snowshoe_tracks_(38190317555).jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 4 đoạn 8"
-   ],
-   "ten_file": "File:Snowshoe tracks (38190317555).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Snowshoe_tracks_(38190317555).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Superior National Forest",
-   "ngay_chup": "2017-12-14 15:21",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Snowshoe tracks"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 2017
+   "nam": 1980
   },
   {
    "loai": "ảnh tư liệu",
@@ -736,84 +689,6 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1924
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Le_ravin_de_l%27Aiguille_et_son_avalanche._N%C2%B0_1667._-_Mougin%2C_P._-_btv1b10688233w.jpg/1920px-Le_ravin_de_l%27Aiguille_et_son_avalanche._N%C2%B0_1667._-_Mougin%2C_P._-_btv1b10688233w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Le ravin de l'Aiguille et son avalanche. N° 1667. - Mougin, P. - btv1b10688233w.jpg\" – Mougin, Paul (1866-1939), agent public de l'inspection des eaux et forêts, Public domain (https://commons.wikimedia.org/wiki/File:Le_ravin_de_l%27Aiguille_et_son_avalanche._N%C2%B0_1667._-_Mougin,_P._-_btv1b10688233w.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 5 đoạn 5"
-   ],
-   "ten_file": "File:Le ravin de l'Aiguille et son avalanche. N° 1667. - Mougin, P. - btv1b10688233w.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Le_ravin_de_l%27Aiguille_et_son_avalanche._N%C2%B0_1667._-_Mougin,_P._-_btv1b10688233w.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Mougin, Paul (1866-1939), agent public de l'inspection des eaux et forêts",
-   "ngay_chup": "1910date QS:P571,+1910-00-00T00:00:00Z/9",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Bibliothèque nationale de France"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1910
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Winter_Forest%2C_Mt_Hood_National_Forest_%2836356593694%29.jpg/1920px-Winter_Forest%2C_Mt_Hood_National_Forest_%2836356593694%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Winter Forest, Mt Hood National Forest (36356593694).jpg\" – U.S. Forest Service- Pacific Northwest Region, Public domain (https://commons.wikimedia.org/wiki/File:Winter_Forest,_Mt_Hood_National_Forest_(36356593694).jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 5 đoạn 6"
-   ],
-   "ten_file": "File:Winter Forest, Mt Hood National Forest (36356593694).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Winter_Forest,_Mt_Hood_National_Forest_(36356593694).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "U.S. Forest Service- Pacific Northwest Region",
-   "ngay_chup": "1980-06-09 12:00",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Winter Forest, Mt Hood National Forest.jpg"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1980
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Winter_Forest_and_Mt_Hood%2C_Mt_Hood_National_Forest_%2823564671969%29.jpg/1920px-Winter_Forest_and_Mt_Hood%2C_Mt_Hood_National_Forest_%2823564671969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Winter Forest and Mt Hood, Mt Hood National Forest (23564671969).jpg\" – U.S. Forest Service- Pacific Northwest Region, Public domain (https://commons.wikimedia.org/wiki/File:Winter_Forest_and_Mt_Hood,_Mt_Hood_National_Forest_(23564671969).jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 5 đoạn 7"
-   ],
-   "ten_file": "File:Winter Forest and Mt Hood, Mt Hood National Forest (23564671969).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Winter_Forest_and_Mt_Hood,_Mt_Hood_National_Forest_(23564671969).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "U.S. Forest Service- Pacific Northwest Region",
-   "ngay_chup": "2015-12-23 12:56",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Winter Forest and Mt Hood, Mt Hood National Forest"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 2015
   },
   {
    "loai": "ảnh tư liệu",
@@ -897,11 +772,10 @@
  "loi": [],
  "canh_bao": [
   "File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
+  "File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
-  "File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
-  "File:Snowshoe tracks (38190317555).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại"
  ]
 }

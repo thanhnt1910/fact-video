@@ -7,16 +7,13 @@ KIỂM TRA ẢNH BA4 · video ngắn · 21 ảnh (số thứ tự khớp lưới
 ✅ 4 ·  scene_03.jpg
 ✅ 5 ·  scene_04.jpg
 ✅ 6 ·  scene_05.jpg
-❌ 7 ·  scene_06.jpg
-     ⚠️ ảnh hơi mờ (độ nét 25)
-     ❌ Ảnh chụp nhà thám hiểm Fridtjof Nansen từ cuối thế kỷ 19, không phải nhóm leo núi Dyatlov năm 1959 được nhắc đến trong lời kể. → Thay bằng ảnh tư liệu thật của nhóm bạn trẻ do Igor Dyatlov dẫn đầu trong chuyến thám hiểm dãy Ural năm 1959.
+⚠️ 7 ·  scene_06.jpg
+     ⚠️ ảnh hơi mờ (độ nét 50)
 ✅ 8 ·  scene_07.jpg
-❌ 9 ·  scene_08.jpg
-     ❌ Ảnh hiển thị một người đứng giữa cánh đồng lúa mì dưới trời nắng, không phù hợp với ngữ cảnh dựng lều trên sườn núi trống trải trong đêm tuyết. → Thay bằng ảnh phong cảnh dãy núi Ural có tuyết hoặc ảnh tư liệu về nhóm leo núi dựng lều.
+✅ 9 ·  scene_08.jpg
 ⚠️ 10 ·  scene_09.jpg
      ⚠️ Tranh phong cảnh mùa đông lúc hoàng hôn nhưng miêu tả cảnh có cây cối rậm rạp và nhà cửa, không phù hợp với bối cảnh dựng lều trên sườn núi trống trải trong vụ án đèo Dyatlov. → Nên thay bằng ảnh chụp hoặc tranh vẽ sườn núi hoang vu, trống trải trong đêm tuyết để phù hợp với lời kể.
-❌ 11 ·  scene_10.jpg
-     ❌ Ảnh có viền xám lớn bao quanh và phần nhãn chú thích (caption) dán ở góc trên bên phải, cùng dãy số viết tay màu tím ở góc dưới, làm giảm chất lượng thẩm mỹ khi đưa vào video. → Cắt bỏ phần viền xám và nhãn chú thích bên ngoài, chỉ giữ lại phần khung ảnh trung tâm.
+✅ 11 ·  scene_10.jpg
 ✅ 12 ·  scene_11.jpg
 ✅ 13 ·  scene_12.jpg
 ✅ 14 ·  scene_13.jpg

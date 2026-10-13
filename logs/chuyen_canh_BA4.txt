@@ -1,0 +1,4 @@
+CHUYỂN CẢNH BA4 (video ngắn) · bảng màu: smoothup, fade, hblur, dissolve, smoothright, smoothleft
+Thứ tự: cut → cut → cut → cut → cut → cut → cut → smoothup → dissolve → smoothleft → smoothup → dissolve → cut → dissolve → smoothup → hblur → cut → fadeblack → cut → cut → dissolve → smoothleft → fade → cut → cut
+Số lần: cut 13, dissolve 4, smoothup 3, smoothleft 2, hblur 1, fadeblack 1, fade 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

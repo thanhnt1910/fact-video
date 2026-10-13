@@ -196,7 +196,10 @@
      },
      {
       "text": "Nhưng người sĩ quan ấy chưa từng tồn tại. Mọi thứ trong túi anh đều do tình báo Anh dựng lên, kể cả tấm ảnh người yêu.",
-      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)"
+      }
      },
      {
       "text": "Đây là câu chuyện về Chiến dịch Mincemeat, một trong những phi vụ đánh lừa táo bạo nhất Thế chiến thứ hai.",
@@ -261,7 +264,10 @@
     "beats": [
      {
       "text": "Câu trả lời đến từ một bản ghi nhớ năm 1939 của tình báo hải quân Anh, liệt kê hàng chục mưu kế đánh lừa đối phương.",
-      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Royal_Navy_during_the_Second_World_War_A17979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Royal Navy during the Second World War A17979.jpg\" – Priest, L C (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A17979.jpg)"
+      }
      },
      {
       "text": "Người ta tin rằng bản ghi nhớ ấy có bàn tay của Ian Fleming, người về sau viết ra nhân vật điệp viên James Bond.",
@@ -323,8 +329,8 @@
      {
       "text": "Glyndwr Michael được cấp một danh tính mới: Thiếu tá William Martin, thuộc Thủy quân Lục chiến Hoàng gia Anh.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png/1920px-Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png\" – Springnuts, Public domain (https://commons.wikimedia.org/wiki/File:Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png)"
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow%2C_April_1943._A15942.jpg/1920px-Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow%2C_April_1943._A15942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Royal Marines exercising on the foc'sle of a battleship at Scapa Flow, April 1943. A15942.jpg\" – Davies, F A (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow,_April_1943._A15942.jpg)"
       },
       "label": "Thiếu tá William Martin · Royal Marines"
      },
@@ -362,10 +368,7 @@
      },
      {
       "text": "Một người tưởng tượng, nhưng có đủ những rắc rối rất đời thường của một sĩ quan trẻ.",
-      "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow%2C_April_1943._A15942.jpg/1920px-Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow%2C_April_1943._A15942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Royal Marines exercising on the foc'sle of a battleship at Scapa Flow, April 1943. A15942.jpg\" – Davies, F A (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow,_April_1943._A15942.jpg)"
-      }
+      "mo_phong": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people"
      }
     ]
    },
@@ -404,7 +407,7 @@
      },
      {
       "text": "Bên trong thư, họ còn đặt một sợi lông mi. Nếu ai mở thư ra đọc, sợi lông mi sẽ rơi mất.",
-      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
      }
     ]
    },
@@ -486,7 +489,7 @@
      },
      {
       "text": "Điệp viên Đức ở Huelva tìm mọi cách để được xem những bức thư ấy.",
-      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+      "mo_phong": "a lonely sandy beach in southern Spain at dawn, small wooden fishing boats pulled up on the sand, calm grey sea, pale sky, oil painting, no people"
      },
      {
       "text": "Cuối cùng, nội dung các bức thư được trao cho tình báo Đức, rồi được gửi thẳng về Berlin.",
@@ -617,7 +620,10 @@
      },
      {
       "text": "Năm 1996, một nhà nghiên cứu tìm thấy hồ sơ lưu trữ cho thấy đó là Glyndwr Michael.",
-      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)"
+      }
      },
      {
       "text": "Cũng có người đưa ra giả thuyết khác về danh tính của thi thể, nhưng phần lớn các nhà sử học vẫn tin đó là Glyndwr Michael.",
@@ -684,7 +690,8 @@
     "text": "Mọi thứ trong túi người ấy đều được dựng lên… kể cả tấm ảnh người yêu.",
     "images": [
      {
-      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)"
      }
     ]
    },
@@ -713,11 +720,10 @@
     "text": "Họ dùng thi thể của Glyndwr Michael, một người vô gia cư xứ Wales, và tạo cho anh danh tính mới: Thiếu tá William Martin.",
     "images": [
      {
-      "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
+      "mo_phong": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people"
      },
      {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png/1920px-Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "\"Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png\" – Springnuts, Public domain (https://commons.wikimedia.org/wiki/File:Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png)"
+      "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
      }
     ],
     "the": {

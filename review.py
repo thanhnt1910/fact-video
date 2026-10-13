@@ -678,6 +678,8 @@ def _anh_key(im):
         return (im["url"].split("?")[0], json.dumps(im.get("crop")))
     if im.get("mo_phong"):
         return ("ai", im["mo_phong"])
+    if im.get("anh_file"):
+        return ("anh_file", im["anh_file"])
     return None
 
 
@@ -697,7 +699,8 @@ def lint_anh_lap(script, part):
     else:
         for ch in (script.get("long") or {}).get("chapters", []):
             for b in ch.get("beats", []):
-                items.append(b.get("image") or ({"mo_phong": b["mo_phong"]} if b.get("mo_phong") else None))
+                items.append(b.get("image") or ({"mo_phong": b["mo_phong"]} if b.get("mo_phong") else None)
+                             or ({"anh_file": b["anh_file"]} if b.get("anh_file") else None))
     cnt = {}
     for im in items:
         k = _anh_key(im)

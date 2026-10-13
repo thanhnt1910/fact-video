@@ -150,6 +150,16 @@ def beat_images(script, beats, work):
         if missing:
             # ảnh tư liệu đã chọn mà tải không được: không dựng với ảnh thiếu (sẽ lặp ảnh cũ), báo lỗi để thử lại
             raise RuntimeError(f"không tải được {len(missing)} ảnh tư liệu (sẽ thử lại lần chạy sau): " + "; ".join(missing[:3]))
+    # ẢNH 2D VẼ SẴN (trường "anh_file": đường dẫn trong kho, vd assets/anh_2d/ST3/001.jpg), đã duyệt riêng, không vẽ lại
+    for b in beats:
+        if b.get("anh_file") and not b.get("image_src"):
+            f = Path(__file__).resolve().parent / b["anh_file"]
+            if not f.exists():
+                raise RuntimeError(f"thiếu ảnh vẽ sẵn: {b['anh_file']}")
+            b["image_src"] = f.resolve().as_uri()
+            b["_ai"] = True
+            b.setdefault("fit", False)   # tranh 2D: phủ kín khung 16:9
+            used_ai = True
     AI_CACHE.mkdir(parents=True, exist_ok=True)
     import os
     quota_hit = 0

@@ -1,0 +1,19 @@
+{
+ "id": "PV7",
+ "slots": [
+  {"slot": "P01", "mo_ta": "Hitler 1940s ảnh", "queries": ["Adolf Hitler 1943", "Hitler portrait 1942", "Hitler Wolfsschanze 1943"]},
+  {"slot": "P02", "mo_ta": "Churchill 1943", "queries": ["Churchill 1943 Ministry of Information", "Winston Churchill 1943", "Churchill Casablanca conference 1943"]},
+  {"slot": "P03", "mo_ta": "đổ bộ Sicily 1943", "queries": ["Operation Husky landing Sicily 1943", "Allied landing Sicily July 1943", "Sicily invasion 1943 LST beach"]},
+  {"slot": "P04", "mo_ta": "tàu ngầm HMS Seraph", "queries": ["HMS Seraph submarine", "HMS Seraph P219", "British S-class submarine 1943"]},
+  {"slot": "P05", "mo_ta": "bản đồ Địa Trung Hải", "queries": ["Mediterranean Sea map 1943", "map Sicily invasion 1943", "Mediterranean theater map World War II"]},
+  {"slot": "P06", "mo_ta": "London thời chiến, văn phòng Bộ Hải quân", "queries": ["Admiralty building London 1940s", "London Blitz 1940", "Whitehall London 1943"]},
+  {"slot": "P07", "mo_ta": "Huelva Tây Ban Nha ảnh cũ", "queries": ["Huelva 1920", "Huelva old photograph", "Punta Umbría"]},
+  {"slot": "P08", "mo_ta": "quân Đức ở Hy Lạp, Peloponnese", "queries": ["German troops Greece 1943", "Wehrmacht Greece 1941", "German soldiers Athens 1941"]},
+  {"slot": "P09", "mo_ta": "lính Mỹ/Anh ở Sicily", "queries": ["Sicily 1943 US Army soldiers", "British troops Sicily 1943", "Patton Sicily 1943"]},
+  {"slot": "P10", "mo_ta": "cặp tài liệu / thư từ thời chiến, máy đánh chữ", "queries": ["typewriter 1940s", "secret documents 1943 briefcase", "wartime letter 1943"]},
+  {"slot": "P11", "mo_ta": "Rommel / tướng Đức", "queries": ["Erwin Rommel Greece 1943", "Rommel 1943", "Karl Dönitz 1943"]},
+  {"slot": "P12", "mo_ta": "tàu ngầm nổi lên ban đêm / tàu ngầm Anh", "queries": ["Royal Navy submarine surfaced 1943", "submarine crew deck 1943", "British submarine 1942 Mediterranean"]},
+  {"slot": "P13", "mo_ta": "bờ biển Tây Ban Nha, ngư dân", "queries": ["Spanish fishermen 1930s", "Andalusia coast fishing boat 1920s", "Spain fishing village 1930"]},
+  {"slot": "P14", "mo_ta": "rạp hát London 1943", "queries": ["London theatre 1940s", "West End theatre 1943", "theatre ticket 1943"]}
+ ]
+}

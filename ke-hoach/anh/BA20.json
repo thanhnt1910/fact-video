@@ -1,0 +1,12 @@
+{"id": "BA20", "slots": [
+ {"slot": "B01", "mo_ta": "tàu Baychimo", "queries": ["Baychimo", "SS Baychimo ghost ship", "Baychimo 1931 ice Alaska"]},
+ {"slot": "B02", "mo_ta": "Doré Rime of the Ancient Mariner (tàu ma, băng)", "queries": ["Gustave Doré Rime of the Ancient Mariner", "Doré Ancient Mariner ship ice", "Doré Ancient Mariner albatross"]},
+ {"slot": "B03", "mo_ta": "Friedrich Sea of Ice, tranh biển băng", "queries": ["Caspar David Friedrich Sea of Ice", "Friedrich Das Eismeer", "Arctic ice painting 19th century"]},
+ {"slot": "B04", "mo_ta": "tranh tàu ma Flying Dutchman", "queries": ["Flying Dutchman ghost ship painting", "ghost ship painting stormy sea", "Albert Pinkham Ryder Flying Dutchman"]},
+ {"slot": "B05", "mo_ta": "Bắc Cực băng NOAA/NASA", "queries": ["Arctic sea ice NOAA", "Chukchi Sea ice", "Beaufort Sea ice NASA"]},
+ {"slot": "B06", "mo_ta": "Hudson's Bay Company tàu hàng, Nascopie", "queries": ["Hudson's Bay Company ship Nascopie", "Hudson's Bay Company steamship Arctic", "Hudson's Bay Company trading post Arctic 1930"]},
+ {"slot": "B07", "mo_ta": "bản đồ Alaska cổ", "queries": ["Alaska map 1920", "Alaska old map Beaufort Sea Point Barrow", "Arctic Alaska coast map 1930"]},
+ {"slot": "B08", "mo_ta": "Utqiagvik / Barrow Alaska ảnh cũ, thợ săn Inuit, xe chó kéo", "queries": ["Point Barrow Alaska 1930", "Barrow Alaska old photograph", "Inupiat dog sled 1930s", "Wainwright Alaska 1920s"]},
+ {"slot": "B09", "mo_ta": "bão tuyết biển, tàu mắc kẹt băng", "queries": ["ship trapped in pack ice", "steamship frozen in ice Arctic 1900s", "ship in ice Endurance Hurley"]},
+ {"slot": "B10", "mo_ta": "tranh tàu buồm đêm sương, hoàng hôn biển lạnh", "queries": ["ship in fog painting", "Turner ship in storm", "Aivazovsky ship night sea"]}
+]}

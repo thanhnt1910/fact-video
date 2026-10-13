@@ -1,0 +1,9 @@
+{"id": "nhac_gaycan", "slots": [
+ {"slot": "G1", "mo_ta": "Grieg Hall of the Mountain King", "queries": ["Grieg In the Hall of the Mountain King", "Peer Gynt Hall of the Mountain King", "Grieg Peer Gynt suite"]},
+ {"slot": "G2", "mo_ta": "Mussorgsky Night on Bald Mountain", "queries": ["Night on Bald Mountain", "Mussorgsky Night on Bald Mountain", "Mussorgsky Bald Mountain"]},
+ {"slot": "G3", "mo_ta": "Chopin Funeral March / Prelude bi tráng", "queries": ["Chopin Funeral March", "Chopin Prelude Op. 28 No. 20", "Chopin Prelude 'Raindrop'"]},
+ {"slot": "G4", "mo_ta": "Beethoven Moonlight Sonata mvt 3, Pathetique mvt 1", "queries": ["Moonlight Sonata third movement", "Beethoven Pathétique Grave", "Beethoven Appassionata"]},
+ {"slot": "G5", "mo_ta": "Bach Toccata and Fugue D minor, Dies irae, Mozart Requiem", "queries": ["Toccata and Fugue in D minor", "Dies Irae", "Mozart Requiem Lacrimosa"]},
+ {"slot": "G6", "mo_ta": "Saint-Saëns Danse macabre, Holst Mars, Wagner Ride", "queries": ["Danse macabre Saint-Saëns", "Holst Mars Bringer of War", "Ride of the Valkyries"]},
+ {"slot": "G7", "mo_ta": "Chopin piano sonata 2, Liszt Mephisto, Schubert Erlkönig", "queries": ["Chopin Piano Sonata No. 2", "Liszt Mephisto Waltz", "Schubert Erlkönig"]}
+]}

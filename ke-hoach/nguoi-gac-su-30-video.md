@@ -521,6 +521,95 @@ Kể phát minh như **một chuyện có thật khó tin**: có nhân vật, c�
 - **Gợi ý hình:** bức ảnh chuyến bay ngày 17/12/1903 (Thư viện Quốc hội Mỹ, PD), ảnh tiệm xe đạp Wright (PD), bãi cát Kitty Hawk.
 - **Kiểm chứng:** Ngày 17/12/1903; thời gian và quãng đường chuyến bay đầu; các buổi bay năm 1908; chuyến bay siêu thanh năm 1947.
 
+### 🗺️ Đất nước khó tin (thuộc nhóm 🏮 `su-la`)
+
+Kể **câu chuyện lịch sử đằng sau** một đất nước kỳ lạ (vì sao nó ra đời, chuyện gì khó tin đã xảy ra), không làm dạng liệt kê "top 10". Quy tắc riêng của chuỗi:
+- **Số liệu hiện tại** (dân số, diện tích, thu nhập) phải tra bản mới nhất khi viết kịch bản và ghi rõ năm ("theo số liệu năm…"); số liệu dưới đây là bản tra ngày 13/10/2026.
+- **Gọi đúng tên:** quốc gia tự xưng (Sealand) không gọi là "đất nước" mà là "quốc gia tự xưng, không được công nhận"; vùng không thuộc nước nào (Bir Tawil) gọi là "vùng đất".
+- **Giai thoại nói rõ là giai thoại.** Không bình luận chính trị, chính sách hiện nay của các nước; không dùng bản đồ có vùng Biển Đông.
+- **Ảnh:** ảnh chụp các nước hiện nay phần lớn là CC BY-SA, **không dùng**. Dùng ảnh vệ tinh NASA (PD), bản đồ cổ, tranh khắc và ảnh, bưu thiếp cũ trước năm 1951, quốc kỳ và quốc huy (thường là PD, kiểm tra nhãn), còn lại tranh AI.
+- Mỗi chuyện có sẵn **nguồn kèm link đã mở thử** để điền vào trường `nguon_link`.
+
+#### DN1. Đất nước nhỏ hơn cả một công viên 🆕
+- **Hook:** Có một đất nước nhỏ hơn cả công viên Central Park ở New York. Bạn có thể đi bộ hết chiều ngang của nó chỉ trong vài chục phút.
+- **Vòng lặp mở:** Và đất nước ấy chỉ mới ra đời chưa đầy một trăm năm, nhờ một bản thỏa thuận ít ai ngờ tới.
+- **Diễn biến:** Vatican rộng khoảng 0,49 km², nhỏ bằng khoảng một phần bảy công viên Central Park (khoảng 3,4 km²). Dân số chỉ khoảng 880 người (ước tính năm 2024), là nước duy nhất trên thế giới có chưa đến 1.000 dân. Trước đó, suốt hơn nghìn năm, Giáo hoàng cai quản cả một vùng rộng lớn ở miền trung nước Ý; đến năm 1870, vùng đất ấy bị sáp nhập vào nước Ý thống nhất.
+- **Cú lật:** Gần 60 năm sau, ngày 11/2/1929, Hồng y Pietro Gasparri và Thủ tướng Benito Mussolini ký Hiệp ước Lateran. Nhà nước Vatican chính thức ra đời từ chính bản thỏa thuận ấy.
+- **Câu kết:** Đất nước nhỏ nhất thế giới cả về diện tích lẫn dân số, nhưng lại là trung tâm của hơn một tỷ tín hữu Công giáo.
+- **Gợi ý hình:** bản đồ Rome cổ (PD), tranh khắc quảng trường Thánh Phêrô thế kỷ 18–19 (PD), ảnh chụp lễ ký Hiệp ước Lateran 1929 (chỉ khi nguồn ghi rõ PD), ảnh vệ tinh Rome của NASA (PD).
+- **Nguồn có link:** [Vatican City – Wikipedia](https://en.wikipedia.org/wiki/Vatican_City)
+- **Lưu ý:** chuyện liên quan tôn giáo: kể trung lập, tôn trọng, không bình luận về Giáo hội. Mussolini chỉ nhắc với vai trò người ký hiệp ước, không tôn vinh.
+
+#### DN2. Sealand: "đất nước" trên một pháo đài giữa biển 🆕
+- **Hook:** Một người đàn ông chiếm một pháo đài bỏ hoang giữa biển, rồi tuyên bố lập một đất nước của riêng mình.
+- **Vòng lặp mở:** Mười một năm sau, "đất nước" ấy bị lính đánh thuê tấn công, và con trai ông bị bắt làm con tin.
+- **Diễn biến:** Roughs Tower là một pháo đài trên biển do Anh xây trong Thế chiến II, ngoài khơi bờ biển Anh, rồi bị bỏ hoang. Ngày 2/9/1967, Paddy Roy Bates, một thiếu tá đã giải ngũ, chiếm pháo đài, đuổi một nhóm đài phát thanh lậu khác đi và tuyên bố lập "Công quốc Sealand", tự xưng là hoàng tử. Diện tích chỉ khoảng 0,0004 km², nhỏ hơn một sân bóng đá.
+- **Cú lật:** Tháng 8/1978, khi vợ chồng Bates đang ở nước ngoài, một người tự xưng "thủ tướng" của Sealand là Alexander Achenbach dẫn lính đánh thuê Đức và Hà Lan chiếm pháo đài, bắt con trai ông là Michael làm con tin. Michael sau đó chiếm lại pháo đài và bắt giữ cả nhóm tấn công.
+- **Câu kết:** Đến nay vẫn không có nước nào công nhận Sealand. Nhưng "công quốc" ấy vẫn còn đó, giữa biển.
+- **Gợi ý hình:** ảnh các pháo đài biển Maunsell thời Thế chiến II (ảnh của Bộ Quốc phòng Anh, chỉ dùng khi nguồn ghi rõ PD), tranh AI pháo đài hai trụ bê tông giữa biển xám (không có người).
+- **Nguồn có link:** [Principality of Sealand – Wikipedia](https://en.wikipedia.org/wiki/Principality_of_Sealand)
+- **Lưu ý:** gọi là "quốc gia tự xưng, không được công nhận". Người nhà Bates hiện còn sống: chỉ dùng thông tin công khai, không dùng ảnh chân dung.
+
+#### DN3. Vùng đất không nước nào muốn nhận 🆕
+- **Hook:** Có một vùng đất rộng hơn 2.000 km² mà không nước nào trên thế giới muốn nhận.
+- **Vòng lặp mở:** Và năm 2014, một người cha người Mỹ vượt nửa vòng Trái Đất tới đó, chỉ để con gái mình được làm "công chúa".
+- **Diễn biến:** Bir Tawil là một vùng sa mạc rộng khoảng 2.060 km² giữa Ai Cập và Sudan. Ai Cập dùng đường biên giới năm 1899, Sudan dùng đường biên giới hành chính năm 1902. Theo mỗi đường, cả hai nước đều muốn giữ vùng Hala'ib giàu giá trị hơn ở gần đó, và vì vậy không bên nào nhận Bir Tawil.
+- **Cú lật:** Năm 2014, Jeremiah Heaton, một người Mỹ ở bang Virginia, đi tới Bir Tawil, cắm một lá cờ và tuyên bố lập "Vương quốc Bắc Sudan", để con gái 7 tuổi là Emily trở thành "công chúa" đúng như lời hứa với cô bé.
+- **Câu kết:** Không chính phủ hay tổ chức quốc tế nào công nhận các "vương quốc" ở Bir Tawil. Vùng đất ấy vẫn là đất không chủ.
+- **Gợi ý hình:** ảnh vệ tinh vùng biên giới Ai Cập – Sudan của NASA (PD), bản đồ cổ Ai Cập và Sudan thời thuộc Anh (PD), tranh AI sa mạc đá với một lá cờ nhỏ cắm xa (không vẽ mặt người).
+- **Nguồn có link:** [Bir Tawil – Wikipedia](https://en.wikipedia.org/wiki/Bir_Tawil); [UPI (2014) – Virginia dad claims Kingdom of North Sudan](https://www.upi.com/Odd_News/2014/07/14/Virginia-dad-Jeremiah-Heaton-claims-Kingdom-of-North-Sudan-so-daughter-can-be-princess/9461405348565/)
+- **Lưu ý:** Heaton và con gái còn sống, không dùng ảnh chân dung; không khen hay chê việc làm của ông. Kể trung lập về tranh chấp Hala'ib giữa hai nước, không đứng về bên nào.
+
+#### DN4. Nauru: từ giàu bậc nhất thế giới đến trắng tay 🆕
+- **Hook:** Một hòn đảo nhỏ từng là nơi người dân giàu bậc nhất thế giới. Rồi chỉ trong vài chục năm, gần như mất tất cả.
+- **Vòng lặp mở:** Và một trong những khoản đầu tư thất bại của họ là… một vở nhạc kịch ở London.
+- **Diễn biến:** Nauru là đảo quốc ở Thái Bình Dương, rộng khoảng 21 km², nhỏ thứ ba thế giới, dân số khoảng 12.000 người (ước tính năm 2025). Năm 1900, người ta phát hiện trên đảo có mỏ phosphate, loại khoáng dùng làm phân bón. Việc khai thác kéo dài gần một thế kỷ, cày xới khoảng 80% diện tích đảo. Những năm 1970, người Nauru thuộc hàng giàu nhất thế giới.
+- **Cú lật:** Đến thập niên 1990, mỏ cạn kiệt. Quỹ tín thác lập ra để lo cho người dân sau thời mỏ giảm từ khoảng 1,3 tỷ đô la Úc năm 1991 xuống còn khoảng 138 triệu năm 2002, vì quản lý yếu kém và đầu tư thất bại, trong đó có vở nhạc kịch "Leonardo" dựng ở London năm 1993.
+- **Câu kết:** Khi tài nguyên cạn, điều còn lại là bài học về cách giữ của cải.
+- **Gợi ý hình:** ảnh tư liệu khai thác phosphate ở Nauru đầu thế kỷ 20 (PD), ảnh vệ tinh Nauru của NASA (PD), bản đồ cổ Thái Bình Dương (PD), tranh AI những cột đá vôi trơ trụi sau khai thác.
+- **Nguồn có link:** [Nauru – Wikipedia](https://en.wikipedia.org/wiki/Nauru)
+- **Lưu ý:** không nhắc chuyện trại tạm giữ người tị nạn (vấn đề chính trị hiện nay); kể trung lập, không chê bai người dân Nauru.
+
+#### DN5. Đội quân 80 người đi đánh trận, trở về 81 🆕
+- **Hook:** Năm 1866, một đất nước gửi 80 người lính ra trận. Theo một giai thoại nổi tiếng, khi về họ lại có… 81 người.
+- **Vòng lặp mở:** Và gần 150 năm sau, đất nước ấy từng có lúc được rao cho thuê trọn gói trên mạng.
+- **Diễn biến:** Liechtenstein là một công quốc nhỏ nằm giữa Thụy Sĩ và Áo. Năm 1866, trong chiến tranh Áo – Phổ, Liechtenstein đứng về phía Áo và gửi một đội quân nhỏ đi canh một con đèo trên dãy Alps. Họ không phải chiến đấu trận nào.
+- **Cú lật:** Theo giai thoại, đội quân đi 80 người mà về 81: có người kể thêm một sĩ quan liên lạc người Áo, có người kể là một nông dân người Ý theo về. Giai thoại này chưa được kiểm chứng. Hai năm sau, ngày 12/2/1868, Liechtenstein giải tán quân đội và tuyên bố trung lập vĩnh viễn. Năm 2011, qua Airbnb và công ty tổ chức sự kiện Xnet, người ta có thể thuê cả nước cho sự kiện riêng với giá khoảng 70.000 đô la Mỹ một đêm, thuê tối thiểu hai đêm.
+- **Câu kết:** Một đất nước không quân đội, từng ra trận mà không mất người nào, có lẽ còn thêm người.
+- **Gợi ý hình:** tranh khắc lâu đài Vaduz thế kỷ 19 (PD), bản đồ cổ vùng Alps (PD), quốc kỳ, quốc huy Liechtenstein (kiểm tra nhãn PD), tranh AI đoàn lính thế kỷ 19 đi trên đèo tuyết, nhìn từ xa.
+- **Nguồn có link:** [Military of Liechtenstein – Wikipedia](https://en.wikipedia.org/wiki/Military_of_Liechtenstein); [TechCrunch (2011) – Airbnb lets you rent an entire country](https://techcrunch.com/2011/04/14/airbnb-country/)
+- **Lưu ý:** chuyện 81 người luôn nói "theo giai thoại".
+
+#### DN6. Đất nước có hai "hoàng tử", một người là tổng thống Pháp 🆕
+- **Hook:** Có một đất nước có hai nguyên thủ, và một trong hai người là tổng thống của một nước khác.
+- **Vòng lặp mở:** Đất nước ấy còn nổi tiếng với một lời đồn: suốt hơn 40 năm, họ "quên" ký hòa ước với nước Đức.
+- **Diễn biến:** Andorra nằm trên dãy Pyrenees, giữa Pháp và Tây Ban Nha. Từ năm 1278, một thỏa thuận chia quyền cai quản vùng đất này cho Bá tước xứ Foix và Giám mục xứ Urgell. Quyền của Bá tước qua nhiều đời được chuyển sang nguyên thủ nước Pháp. Vì vậy ngày nay Andorra có hai đồng hoàng tử: Tổng thống Pháp và Giám mục xứ Urgell bên Tây Ban Nha. Hiến pháp năm 1993 giữ lại chế độ này, nhưng quyền của hai hoàng tử đã bị thu hẹp.
+- **Cú lật:** Năm 1958, báo chí Bắc Mỹ đưa tin Andorra đã tuyên chiến với Đức năm 1914 và đến năm 1958 mới ký hòa ước. Câu chuyện được kể lại khắp nơi. Nhưng năm 2014, đài truyền hình Andorra (RTVA) tìm lại tài liệu và không thấy bất kỳ lời tuyên chiến nào: đó chỉ là một lời đồn.
+- **Câu kết:** Một đất nước từ thời Trung cổ vẫn còn hai hoàng tử, và một cuộc chiến chưa từng tồn tại.
+- **Gợi ý hình:** bản đồ cổ dãy Pyrenees (PD), tranh khắc làng núi Andorra thế kỷ 19 (PD), quốc kỳ Andorra (kiểm tra nhãn PD), tranh AI thung lũng núi với nhà đá cổ.
+- **Nguồn có link:** [History of Andorra – Wikipedia](https://en.wikipedia.org/wiki/History_of_Andorra)
+- **Lưu ý:** không dùng ảnh hay tên tổng thống Pháp đương nhiệm, chỉ nói "Tổng thống Pháp" như một chức danh.
+
+#### DN7. Nước cộng hòa lâu đời nhất từng từ chối lời đề nghị của Napoleon 🆕
+- **Hook:** Napoleon từng đề nghị tặng thêm đất cho một đất nước nhỏ bé. Và đất nước ấy… từ chối.
+- **Vòng lặp mở:** Hơn sáu mươi năm sau, chính đất nước ấy viết thư phong Abraham Lincoln làm công dân danh dự.
+- **Diễn biến:** San Marino nằm trọn trong lòng nước Ý, rộng khoảng 61 km², dân số khoảng 34.000 người (năm 2025). Theo truyền thống, đất nước được lập năm 301 bởi Thánh Marinus, một người thợ đá. Câu chuyện này được chép lại nhiều thế kỷ sau. San Marino tự nhận là nước cộng hòa lâu đời nhất còn tồn tại.
+- **Cú lật:** Năm 1797, khi quân Napoleon tiến vào Ý, ông viết thư cam kết bảo vệ nền độc lập của San Marino và còn đề nghị mở rộng lãnh thổ cho họ. Các nhà cầm quyền San Marino từ chối, vì sợ các nước khác trả đũa sau này. Ngày 29/3/1861, San Marino viết thư phong Abraham Lincoln làm công dân danh dự; ngày 7/5/1861, Lincoln viết thư cảm ơn.
+- **Câu kết:** Đôi khi, giữ được mình còn quan trọng hơn được thêm đất.
+- **Gợi ý hình:** tranh khắc núi Titano và ba tháp canh thế kỷ 18–19 (PD), chân dung Napoleon (tranh PD), chân dung Abraham Lincoln (ảnh PD), bản đồ cổ nước Ý (PD).
+- **Nguồn có link:** [San Marino – Wikipedia](https://en.wikipedia.org/wiki/San_Marino); [Bộ Ngoại giao Mỹ – Office of the Historian: San Marino](https://history.state.gov/countries/san-marino)
+- **Lưu ý:** năm 301 và nhân vật Thánh Marinus nói rõ "theo truyền thống".
+
+#### DN8. Đất nước sống nhờ hai chữ cái ".tv" 🆕
+- **Hook:** Một đất nước bé xíu giữa Thái Bình Dương có nguồn thu đáng kể từ… hai chữ cái.
+- **Vòng lặp mở:** Nhưng đó cũng là đất nước có thể biến mất khỏi bản đồ vì nước biển dâng.
+- **Diễn biến:** Tuvalu là một đảo quốc gồm các đảo san hô, tổng diện tích đất chỉ khoảng 26 km², dân số khoảng 10.600 người (điều tra năm 2022). Mỗi nước có một tên miền internet riêng, và tên miền của Tuvalu là ".tv", trùng với chữ viết tắt của "television" (truyền hình).
+- **Cú lật:** Các công ty truyền hình và người làm video khắp thế giới muốn có tên miền ".tv". Sau nhiều lần đàm phán, tiền thuê tên miền ".tv" chiếm khoảng 8,4% thu ngân sách của Tuvalu năm 2019. Từ năm 2021, theo hợp đồng mới với GoDaddy, khoản trả hằng năm tăng lên khoảng 10 triệu đô la Mỹ.
+- **Câu kết:** Nhưng điểm cao nhất của Tuvalu chỉ khoảng 4,6 m so với mực nước biển. Năm 2023, Úc và Tuvalu ký hiệp ước Falepili, mở đường cho tối đa 280 người Tuvalu mỗi năm sang Úc sinh sống. Một đất nước giàu lên nhờ internet, và đang chạy đua với nước biển.
+- **Gợi ý hình:** ảnh vệ tinh các đảo san hô Tuvalu của NASA (PD), bản đồ cổ Thái Bình Dương (PD), quốc kỳ Tuvalu (kiểm tra nhãn PD), tranh AI đảo san hô thấp sát mặt biển.
+- **Nguồn có link:** [.tv – Wikipedia](https://en.wikipedia.org/wiki/.tv); [Tuvalu – Wikipedia](https://en.wikipedia.org/wiki/Tuvalu)
+- **Lưu ý:** biến đổi khí hậu kể theo số liệu khoa học, không bình luận chính trị. Không dùng logo của GoDaddy hay các công ty khác.
+
 ---
 
 ### 🔍 Nhóm B: Bí ẩn chưa giải (`bi-an`)
@@ -913,6 +1002,8 @@ Lưu ý cho giai đoạn 3: video ngắn là cách duy nhất để người **c
 - **Chuyển giai đoạn theo số liệu, không chỉ theo ngày:** chỉ sang giai đoạn 3 khi Reels đã đều đặn có lượt xem từ người chưa theo dõi và trang có thêm người theo dõi thật. Nếu chưa đạt, kéo dài giai đoạn 2.
 
 **Kho dự trữ 📦** (chi tiết vẫn ở mục 2, dùng khi cần thay chuyện hoặc làm tiếp sau ngày 30): SL3 tulip, SL7 sóng mật đường, SL8 Napoleon và đàn thỏ, SL9 cuộc chiến 38 phút, BA5 bản đồ Piri Reis, BA7 ba người gác hải đăng, BA8 Roanoke, BA9 đảo Oak, BA11 người đàn ông Somerton, BA12 con ngựa thành Troy, ST6 Robinson Crusoe ngoài đời thật, ST8 Poon Lim, PV2 Hoàng đế Norton, PV3 Poyais.
+
+**Đất nước khó tin 🗺️ sẵn sàng thay vào lịch (giai đoạn 2):** DN3 vùng đất không nước nào nhận (Bir Tawil), DN2 Sealand, DN1 Vatican, DN4 Nauru, DN5 Liechtenstein, DN6 Andorra, DN7 San Marino, DN8 Tuvalu. Nên thử trước DN3, DN2, DN1 (hook mạnh nhất), xen kẽ với chuyện bí ẩn.
 
 **Phát minh khó tin 💡 sẵn sàng thay vào lịch:** SL15 điện thoại, SL16 Morse, SL17 Gutenberg, SL18 vắc-xin đầu tiên, SL19 rửa tay, SL20 tia X, SL21 anh em Wright. Muốn đăng nhiều chuyện phát minh hơn, đổi chúng vào các ngày của nhóm 🏮 hoặc thay bớt chuyện bí ẩn.
 

@@ -603,6 +603,9 @@ def build(script, cfg, out_dir):
     if mcredit:
         lines.append(f"🎵 Nhạc: {mcredit}")
     import binh_luan
+    _good, _ = binh_luan.source_links(script)
+    if _good:   # YouTube cho bấm link trong mô tả
+        lines += ["", "📚 Nguồn tham khảo:"] + [f"• {t}: {u}" for t, u, _, _ in _good]
     lines += binh_luan.lines(script, "dai")   # bình luận ghim + phụ của chủ kênh cho Facebook / YouTube
     lines += ["", "──── GHI CHÚ (không đăng) ────", "Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]
     try:

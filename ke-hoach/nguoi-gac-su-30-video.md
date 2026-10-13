@@ -116,8 +116,10 @@ Ngay sau khi đăng, chủ kênh tự bình luận vào video của mình để 
   - **Chi tiết thêm không có trong video:** *"Chi tiết mình chưa kịp kể: trên tàu Mary Celeste còn nguyên đồ đạc cá nhân của thủy thủ, kể cả ống điếu thuốc. Người ta bỏ tàu đi vội đến mức nào?"*
   - **Câu hỏi chọn phe:** *"Theo bạn chuyện gì đã xảy ra? Ⓐ bỏ tàu vì sợ nổ · Ⓑ bị cướp biển · Ⓒ một điều khác? Bình luận chữ cái của bạn nhé."*
   - **Dẫn sang bản đầy đủ** (khi đã có video dài của chuyện đó): *"Bản đầy đủ 10 phút, kể cả những giả thuyết chưa nói trong video này, đã có trên trang."*
-- **1–2 bình luận phụ** (tùy chọn): một chi tiết thêm có thật, hoặc nguồn tham khảo (tên sách, tài liệu).
+- **1–2 bình luận phụ** (tùy chọn): một chi tiết thêm có thật. Nguồn tham khảo có link do máy tạo riêng (xem bên dưới).
 - **Không giới thiệu hay hé lộ video tiếp theo** trong bình luận.
+
+**Bình luận nguồn tham khảo có link** (Facebook, YouTube): máy tạo từ trường `nguon_link` của kịch bản (2–3 nguồn uy tín, link https thật đã được Claude mở thử). Khi dựng, máy kiểm tra lại từng link; link hỏng, link rút gọn hoặc không phải https bị bỏ và báo trong tin Telegram. Bình luận này **không ghim**, đăng sau 15–30 phút; link cũng được chép vào mô tả YouTube. **Không để link trong caption** (Facebook giảm phân phối bài có link ngoài). TikTok không bấm được link trong bình luận nên chỉ ghi tên nguồn.
 
 **Quy tắc nội dung:**
 - Bình luận theo đúng các quy tắc của kênh: **mọi chi tiết phải có thật và đã kiểm chứng** như trong kịch bản; tuân thủ pháp luật Việt Nam và an toàn nội dung.

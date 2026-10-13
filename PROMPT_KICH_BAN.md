@@ -142,12 +142,25 @@ Máy gửi kèm qua Telegram để chủ kênh copy, đăng và ghim ngay sau kh
   + Câu hỏi chọn phe: "Theo bạn chuyện gì đã xảy ra? Ⓐ … · Ⓑ … · Ⓒ … Bình luận chữ cái của bạn nhé."
   + Một chi tiết thêm KHÔNG có trong video, kết bằng một câu hỏi.
   + (chỉ video ngắn, khi đã có video dài) "Bản đầy đủ … đã có trên trang."
-- Video dài: ghim nên là câu hỏi chọn phe hoặc chi tiết thêm chưa kể trong video ngắn; phụ có một dòng
-  "📚 Nguồn tham khảo: …" (tên sách / tài liệu chính, lấy từ "sources").
+- Video dài: ghim nên là câu hỏi chọn phe hoặc chi tiết thêm chưa kể trong video ngắn. Nguồn tham khảo có link
+  do máy tạo từ "nguon_link" (xem bên dưới), không viết lại trong "phu".
 - Mọi chi tiết phải CÓ THẬT và có trong "sources"; theo đúng quy tắc an toàn nội dung và pháp luật Việt Nam.
 - KHÔNG tiết lộ cú lật trong bình luận ghim của video ngắn.
 - KHÔNG giới thiệu hay hé lộ video / chuyện tiếp theo.
 - Giọng thân thiện, xưng "mình" hoặc "Người Gác Sử"; mỗi bình luận 1–4 câu, 1–2 emoji; tối đa 2 bình luận phụ.
+
+NGUỒN THAM KHẢO CÓ LINK (bắt buộc, trường "nguon_link" ở cấp kịch bản)
+Máy tạo thêm 1 bình luận "📚 Nguồn tham khảo" kèm link (Facebook, YouTube) và chép link vào mô tả YouTube.
+"nguon_link": [
+  {"ten": "Tên ngắn của nguồn, tiếng Việt (tác giả / tổ chức, năm)", "url": "https://...", "ngon_ngu": "tiếng Anh"}
+]
+- 2–3 nguồn, lấy từ "sources": tạp chí khoa học, trang đại học, bảo tàng, cơ quan nhà nước, Britannica, Wikipedia.
+- Link phải là link THẬT đến đúng bài, Claude PHẢI mở thử từng link (WebFetch) và xác nhận đúng nội dung trước khi ghi.
+  KHÔNG bịa link, KHÔNG đoán đường dẫn, KHÔNG link rút gọn (bit.ly…), KHÔNG trang nhiều quảng cáo / giật tít /
+  chia sẻ tài liệu lậu / tiếp thị liên kết, KHÔNG link kênh hoặc trang khác. Chỉ dùng https.
+- Không mở được hoặc không chắc → bỏ nguồn đó (chỉ để tên trong "sources").
+- Máy tự kiểm tra lại link khi dựng; link hỏng bị bỏ và báo trong tin Telegram.
+- Không nhắc lại nguồn trong "binh_luan" (bình luận nguồn có link đã do máy tạo).
 
 JSON phải hợp lệ: không có dòng chú thích //, không có dấu phẩy thừa.
 Mỗi video 5–7 cảnh. Chữ trên màn hình phải ngắn gọn (text ≤ 10 từ), phần chi tiết để trong voice.

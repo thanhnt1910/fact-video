@@ -719,9 +719,25 @@
   "dai": {
    "ghim": "Sau khi xem hết, bạn tin lời giải lở tuyết đến đâu? Ⓐ tin hoàn toàn · Ⓑ chỉ giải thích được một phần · Ⓒ đêm ấy vẫn còn điều bí ẩn. Bình luận cho Người Gác Sử biết nhé 🏮",
    "phu": [
-    "Thành viên thứ mười của nhóm, Yuri Yudin, quay về vì đau khớp ngày 28/1/1959. Ông là người duy nhất của nhóm còn sống ❄️",
-    "📚 Nguồn tham khảo: Gaume & Puzrin, Communications Earth & Environment (2021); kết luận của Viện Công tố Nga (2020)."
+    "Thành viên thứ mười của nhóm, Yuri Yudin, quay về vì đau khớp ngày 28/1/1959. Ông là người duy nhất của nhóm còn sống ❄️"
    ]
   }
- }
+ },
+ "nguon_link": [
+  {
+   "ten": "Nghiên cứu lở tuyết đèo Dyatlov (Gaume & Puzrin, Communications Earth & Environment, 2021)",
+   "url": "https://www.nature.com/articles/s43247-020-00081-8",
+   "ngon_ngu": "tiếng Anh"
+  },
+  {
+   "ten": "Bài giải thích của trường EPFL (Thụy Sĩ)",
+   "url": "https://longread.epfl.ch/en/dossier/quand-la-science-permet-dexplorer-un-mystere-russe-vieux-de-60-ans",
+   "ngon_ngu": "tiếng Anh"
+  },
+  {
+   "ten": "Tổng hợp mốc thời gian vụ đèo Dyatlov (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+   "ngon_ngu": "tiếng Anh"
+  }
+ ]
 }

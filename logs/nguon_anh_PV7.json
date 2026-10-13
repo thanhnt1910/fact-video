@@ -1,6 +1,6 @@
 {
  "ma": "PV7",
- "cap_nhat": "2026-10-13T13:03:23",
+ "cap_nhat": "2026-10-13T13:07:32",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -661,17 +661,29 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3Jpamtzbmctbm0tMTAzMjUtMi1pbWFnZS5qcGc.jpg",
-   "credit": "\"Document bij Doggersbank-penning (1811) anonymous\" – rijksmuseum, CC0 (https://www.rawpixel.com/image/13733842/document-bij-doggersbank-penning-1811-anonymous)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/War_Bride-_Everyday_Life_in_Wartime_London%2C_March_1943_D12845.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"War Bride- Everyday Life in Wartime London, March 1943 D12845.jpg\" – Ministry of Information Photo Division Photographer, Smith Jack, Public domain (https://commons.wikimedia.org/wiki/File:War_Bride-_Everyday_Life_in_Wartime_London,_March_1943_D12845.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 4 đoạn 3"
    ],
-   "ten_file": "cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3Jpamtzbmctbm0tMTAzMjUtMi1pbWFnZS5qcGc.jpg",
-   "giay_phep": "CC0",
-   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
+   "ten_file": "File:War Bride- Everyday Life in Wartime London, March 1943 D12845.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:War_Bride-_Everyday_Life_in_Wartime_London,_March_1943_D12845.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Ministry of Information Photo Division Photographer, Smith Jack",
+   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//21/media-21860/large.jpg This photograph D 12845 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1811
+   "nam": 1943
   },
   {
    "loai": "ảnh tư liệu",

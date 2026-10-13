@@ -1,40 +1,28 @@
 
 ===== PV7: kiểm tra kịch bản trước khi dựng =====
-   (chưa kiểm tra được kịch bản PV7:ngan trước khi dựng: gemini-flash-lite-latest: HTTP 402: {
-  "error": {
-    "code": 402,
-    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.s, vẫn dựng tiếp)
    (chưa kiểm tra được kịch bản PV7:dai trước khi dựng: gemini-flash-lite-latest: HTTP 402: {
   "error": {
     "code": 402,
     "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.s, vẫn dựng tiếp)
 
-===== PV7 (video ngắn + bài ảnh) =====
-▶️  PV7: Chiến dịch Mincemeat: xác chết lừa Hitler
-  ⚖️  Bằng chứng bản quyền: 45 ảnh tư liệu + 10 tranh AI → logs/nguon_anh_PV7.json
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 21 ảnh: 0 ảnh lỗi, 3 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 10 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  63.9 giây · 22 hình · trung bình 2.9 giây/hình · ⚠️ 1 hình đứng quá 4 giây
-  🎞️  Số lần: cut 14, smoothdown 3, dissolve 1, fadewhite 1, fade 1, smoothleft 1
-[0;93m2026-10-13 13:02:11.878839157 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  🎬 Dựng 1917 khung hình (45s)
-  🔊 Tiếng động: bien, dien_bao, hit, lat_giay, rise, tau_hoa, vut
-  🔈 Âm lượng cuối: -14.8 LUFS, đỉnh -4.2 dBTP
-  🖼️  Ảnh bìa: 3 phương án (PV7_bia_1.jpg, PV7_bia_2.jpg, PV7_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (PV7_post.txt)
-✅ Xong output/PV7/PV7.mp4  (63.9s video, mất 93s)
-
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
 ===== PV7 (video dài) =====
 ▶️  Video dài PV7: Chiến dịch Mincemeat: người chưa từng tồn tại đã lừa Hitler như thế nào?
   ⚖️  Bằng chứng bản quyền: 45 ảnh tư liệu + 10 tranh AI → logs/nguon_anh_PV7.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 55 ảnh: 1 ảnh lỗi, 37 ảnh cần xem
-❌ Video dài PV7: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_PV7_dai_kiemtra.txt):
-  scene_15.jpg: Ảnh là văn bản hành chính/kỷ niệm của Hà Lan năm 1811 (thế kỷ 19, thời Napoleon), viết bằng tiếng Pháp có đề rõ năm '1811', kèm huy chương và con dấu sáp đỏ. Chi tiết này sai hoàn toàn về thời kỳ và bản chất so với 'thư tình của Pam' bằng tiếng Anh trong Thế chiến 2 (1943). → Thay bằng hình ảnh tư liệu thật về các bức thư tình giả mà tình báo Anh đã chuẩn bị cho 'thiếu tá Martin' (do nữ thư ký Hester Leggett viết tay trong Thế chiến 2), hoặc ảnh một bức thư tình/thư tay chuẩn phong cách thập niên 1940.
+  🔍 Kiểm tra 55 ảnh: 0 ảnh lỗi, 37 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (12 chương)
+  ⏱️  Thời lượng 08:08 · 69 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-13 13:08:48.762850086 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     55/55 ảnh có độ sâu
+     11733 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (148 giây)
+     … 6/12 đoạn (274 giây)
+     … 9/12 đoạn (397 giây)
+     … 12/12 đoạn (407 giây)
+     dựng khung hình xong trong 407 giây
+  🔊 Tiếng động nền: bien, dien_bao, nuoc, tau_hoa
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
+✅ Video dài: PV7_dai.mp4 (08:08)
 
-Xong video ngắn: PV7 · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): PV7
+Xong video ngắn: - · video dài: PV7

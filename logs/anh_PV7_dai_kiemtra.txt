@@ -64,14 +64,16 @@ KIỂM TRA ẢNH PV7 · video dài · 55 ảnh (số thứ tự khớp lưới �
   "error": {
     "code": 402,
     "message": "Your prepayment credits are depleted
-⚠️ 19 · Thiếu tá William Martin · Royal Marines scene_13.jpg
-     ⚠️ Ảnh minh họa các binh sĩ Thủy quân Lục chiến Hoàng gia Anh tập thể dục trên tàu năm 1943, trong khi lời kể đang nhắc đến cá nhân Glyndwr Michael được cấp danh tính Thiếu tá William Martin. → Nên dùng ảnh chân dung hoặc tài liệu liên quan trực tiếp đến cá nhân Glyndwr Michael hoặc sĩ quan Thủy quân Lục chiến William Martin để khớp với nội dung câu thoại.
+✅ 19 · Thiếu tá William Martin · Royal Marines scene_13.jpg
 ⚠️ 20 ·  scene_14.jpg
      ⚠️ ảnh hơi mờ (độ nét 57)
      ⚠️ Ảnh chụp cảnh sinh hoạt tại căng-tin Whitehall năm 1943, dùng để minh họa cho việc 'họ cho anh có một vị hôn thê tên Pam. Tấm ảnh của Pam thực ra là ảnh một nữ nhân viên tình báo Anh' là ảnh bối cảnh chung, không phải là chân dung cụ thể của nhân vật Pam hay nữ nhân viên tình báo được nhắc đến trong lời kể. → Nên thay bằng ảnh chân dung thời chiến của một phụ nữ trẻ phù hợp với vai trò người tình giả định Pam.
-❌ 21 ·  scene_15.jpg
-     ❌ Ảnh là văn bản hành chính/kỷ niệm của Hà Lan năm 1811 (thế kỷ 19, thời Napoleon), viết bằng tiếng Pháp có đề rõ năm '1811', kèm huy chương và con dấu sáp đỏ. Chi tiết này sai hoàn toàn về thời kỳ và bản chất so với 'thư tình của Pam' bằng tiếng Anh trong Thế chiến 2 (1943). → Thay bằng hình ảnh tư liệu thật về các bức thư tình giả mà tình báo Anh đã chuẩn bị cho 'thiếu tá Martin' (do nữ thư ký Hester Leggett viết tay trong Thế chiến 2), hoặc ảnh một bức thư tình/thư tay chuẩn phong cách thập niên 1940.
-     ⚠️ Ảnh có viền khung bo giấy trắng xung quanh mép ảnh tư liệu chụp bảo tàng. → Cắt bỏ phần viền bo giấy trắng nếu tái sử dụng.
+⚠️ 21 ·  scene_15.jpg
+     ⚠️ ảnh hơi mờ (độ nét 41)
+     ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: HTTP 402: {
+  "error": {
+    "code": 402,
+    "message": "Your prepayment credits are depleted
 ⚠️ 22 ·  scene_16.jpg
      ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: HTTP 402: {
   "error": {

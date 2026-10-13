@@ -91,7 +91,10 @@ def main():
     client = genai.Client(api_key=keys[0])
     model = pick_model(client)
     print(f"Dùng model: {model}; {len(keys)} khóa")
-    img, beat = source_image(script, idx)
+    if os.environ.get("VEO_IMAGE"):   # dùng thẳng một ảnh có sẵn (không cần vẽ lại bằng FLUX)
+        img, beat = ROOT / os.environ["VEO_IMAGE"], {"ai": "The lone soldier slowly walks along the jungle path"}
+    else:
+        img, beat = source_image(script, idx)
     sid = script["id"]
     motion = sys.argv[4].strip() if len(sys.argv) > 4 and sys.argv[4].strip() else (beat.get("veo") or beat["ai"])
     prompt = motion + ". " + MOTION_HINT

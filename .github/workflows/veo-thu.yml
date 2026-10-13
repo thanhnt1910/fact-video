@@ -67,6 +67,7 @@ jobs:
           CF_ACCOUNT_ID_3: ${{ secrets.CF_ACCOUNT_ID_3 }}
           CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
           VEO_ONLY: ngang
+          VEO_IMAGE: logs/veo/ST1_nguon_ngang.jpg
           IN_MA: ${{ inputs.ma }}
           IN_DOAN: ${{ inputs.doan }}
           IN_GIAY: ${{ inputs.giay }}

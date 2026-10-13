@@ -128,4 +128,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BaseException as e:   # ghi lỗi ra logs/veo để đọc được khi không xem được log Actions
+        import traceback
+        OUT.mkdir(parents=True, exist_ok=True)
+        (OUT / "loi.txt").write_text(f"{type(e).__name__}: {e}\n\n{traceback.format_exc()}", encoding="utf-8")
+        raise

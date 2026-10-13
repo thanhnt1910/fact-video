@@ -1,0 +1,21 @@
+{
+  "ma": "ST3",
+  "phong_cach": "2D animated children's-book style history illustration, clean bold dark outlines, flat cel shading with soft gradients, muted icy palette of blues and warm cream and orange accents, expressive stylized faces, hand-painted texture, no text, no watermark, not photorealistic, not 3D",
+  "nhan_vat": {
+    "shackleton": "Ernest Shackleton, a sturdy man of about 40 with a square jaw, short light-brown hair, clean-shaven, determined calm eyes, wearing a dark navy wool peacoat with a cream wool scarf",
+    "worsley": "Captain Frank Worsley, a broad round-faced man of about 42 with a thick brown moustache, friendly eyes, wearing a navy captain's cap and a dark double-breasted jacket with brass buttons",
+    "hurley": "Frank Hurley, the expedition photographer, lean and athletic man of about 30 with curly dark hair and stubble, wearing a thick grey knitted jumper and a leather satchel",
+    "macklin": "Doctor Alexander Macklin, a young man of about 27 with round wire glasses and a short brown beard, wearing a heavy brown tweed coat and a woolen hat",
+    "crean": "Tom Crean, a tall burly Irish sailor of about 38 with a big warm smile, thick black hair, ruddy cheeks, wearing a chunky cream fisherman's sweater and an oilskin jacket",
+    "blackborow": "Perce Blackborow, a thin young sailor of 18 with freckles, messy ginger hair and a shy smile, wearing a too-big dark wool coat and a flat cap",
+    "endurance": "the wooden three-masted polar ship Endurance, black hull with a thin white stripe, a short funnel, tall masts with furled sails, rigging covered in frost"
+  },
+  "canh_thu": [
+    {"key": "c1", "nhan_vat": ["shackleton", "worsley", "endurance"],
+     "mo_ta": "On the frozen deck of the ship Endurance, Shackleton and Worsley stand side by side looking out over a vast white ice pack that is closing in around the ship under a pale blue evening sky"},
+    {"key": "c2", "nhan_vat": ["hurley", "crean", "macklin", "blackborow"],
+     "mo_ta": "At night on a drifting ice floe, Hurley, Crean, Macklin and Blackborow sit close around a small orange campfire beside two canvas tents, breath steaming, the dark wrecked ship far behind them"},
+    {"key": "c3", "nhan_vat": ["shackleton", "worsley", "crean"],
+     "mo_ta": "Shackleton, Worsley and Crean crowd into a small open wooden lifeboat tossed on huge grey-green ocean waves, spray flying, Shackleton gripping the side and looking forward"}
+  ]
+}

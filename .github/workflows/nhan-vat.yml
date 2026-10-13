@@ -1,0 +1,38 @@
+name: Thử giữ nhân vật 2D (Kaggle)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ma:
+        description: "Mã chuyện (có file ke-hoach/nhan-vat/<mã>.json)"
+        required: true
+        default: "ST3"
+
+permissions:
+  contents: write
+
+jobs:
+  ve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow numpy requests kaggle
+      - name: Vẽ nhân vật và cảnh thử trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python nhan_vat.py "${{ inputs.ma }}" 2>&1 | tee -a /tmp/nv.log
+      - name: Lưu kết quả vào logs/nhan_vat
+        if: always()
+        run: |
+          mkdir -p logs/nhan_vat/${{ inputs.ma }}; cp /tmp/nv.log logs/nhan_vat/${{ inputs.ma }}/chay.log || true
+          git add logs/nhan_vat || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử giữ nhân vật 2D [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

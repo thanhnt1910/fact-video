@@ -85,9 +85,12 @@ def main():
     idx = int(sys.argv[2]) if len(sys.argv) > 2 else 0
     seconds = int(sys.argv[3]) if len(sys.argv) > 3 else 4
     OUT.mkdir(parents=True, exist_ok=True)
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    import gemini_keys
+    keys = gemini_keys.all_keys()
+    only = os.environ.get("VEO_ONLY", "").strip()   # "ngang" hoặc "doc": chỉ tạo 1 clip cho đỡ tốn
+    client = genai.Client(api_key=keys[0])
     model = pick_model(client)
-    print(f"Dùng model: {model}")
+    print(f"Dùng model: {model}; {len(keys)} khóa")
     img, beat = source_image(script, idx)
     sid = script["id"]
     motion = sys.argv[4].strip() if len(sys.argv) > 4 and sys.argv[4].strip() else (beat.get("veo") or beat["ai"])
@@ -103,12 +106,21 @@ def main():
     im.save(horiz, quality=95)
     notes = [f"model: {model}", f"giây mỗi clip: {seconds}", f"prompt: {prompt}"]
     for name, src, aspect in (("ngang", horiz, "16:9"), ("doc", vert, "9:16")):
-        try:
-            dt = run(client, model, src, prompt, aspect, seconds, OUT / f"{sid}_{name}.mp4")
-            notes.append(f"{name} ({aspect}): xong sau {dt:.0f} giây")
-        except Exception as e:
-            print(f"  ⚠️  {name}: {e}")
-            notes.append(f"{name} ({aspect}): LỖI {e}")
+        if only and only != name:
+            continue
+        done = False
+        for n, k in enumerate(keys, 1):   # thử lần lượt từng khóa tới khi có khóa tạo được
+            try:
+                dt = run(genai.Client(api_key=k), model, src, prompt, aspect, seconds, OUT / f"{sid}_{name}.mp4")
+                notes.append(f"{name} ({aspect}): khóa số {n} (…{k[-4:]}) xong sau {dt:.0f} giây")
+                done = True
+                break
+            except Exception as e:
+                msg = " ".join(str(e).split())[:400]
+                print(f"  ⚠️  {name} khóa {n}: {msg}")
+                notes.append(f"{name} ({aspect}) khóa số {n} (…{k[-4:]}): LỖI {msg}")
+        if not done:
+            notes.append(f"{name}: không khóa nào tạo được Veo")
     (OUT / f"{sid}_veo.txt").write_text("\n".join(notes) + "\n", encoding="utf-8")
     print("\n".join(notes))
     import chi_phi

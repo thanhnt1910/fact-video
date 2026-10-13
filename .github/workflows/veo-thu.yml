@@ -66,6 +66,7 @@ jobs:
           CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
           CF_ACCOUNT_ID_3: ${{ secrets.CF_ACCOUNT_ID_3 }}
           CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
+          VEO_ONLY: ngang
           IN_MA: ${{ inputs.ma }}
           IN_DOAN: ${{ inputs.doan }}
           IN_GIAY: ${{ inputs.giay }}

@@ -1,6 +1,6 @@
 KIỂM TRA ẢNH BA4 · video ngắn · 21 ảnh (số thứ tự khớp lưới ảnh anh_BA4_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ⚠️ 1 ·  scene_00.jpg
-     ⚠️ Ảnh tư liệu của nhà thám hiểm Fridtjof Nansen trượt tuyết và kéo xe hàng, không phải nhóm leo núi Dyatlov thật sự trong vụ án. → Nên dùng ảnh tư liệu chính chủ của nhóm sinh viên Dyatlov hoặc ảnh dựng lều bối cảnh mùa đông hiện đại hơn để sát với sự thật lịch sử.
+     ⚠️ Ảnh là tranh phong cảnh rừng mùa đông nhưng không thể hiện được cảnh ngọn núi tuyết, chiếc lều hay nhóm người leo núi theo đúng lời kể. → Nên thay bằng ảnh chụp lều tuyết trên núi hoặc ảnh tư liệu về nhóm leo núi Dyatlov.
 ⚠️ 2 ·  scene_01.jpg
      ⚠️ ảnh hơi nhỏ (1024x554)
 ✅ 3 ·  scene_02.jpg
@@ -12,8 +12,9 @@ KIỂM TRA ẢNH BA4 · video ngắn · 21 ảnh (số thứ tự khớp lưới
 ✅ 8 ·  scene_07.jpg
 ✅ 9 ·  scene_08.jpg
 ⚠️ 10 ·  scene_09.jpg
+     ⚠️ Ảnh chụp cảnh núi tuyết Mount Shasta ở Mỹ, trong khi vụ án Dyatlov xảy ra ở dãy Ural, Nga. → Nên thay bằng ảnh phong cảnh núi tuyết thuộc dãy Ural hoặc ảnh minh họa phù hợp với bối cảnh sự việc ở Nga.
+⚠️ 11 ·  scene_10.jpg
      ⚠️ Tranh phong cảnh mùa đông lúc hoàng hôn nhưng miêu tả cảnh có cây cối rậm rạp và nhà cửa, không phù hợp với bối cảnh dựng lều trên sườn núi trống trải trong vụ án đèo Dyatlov. → Nên thay bằng ảnh chụp hoặc tranh vẽ sườn núi hoang vu, trống trải trong đêm tuyết để phù hợp với lời kể.
-✅ 11 ·  scene_10.jpg
 ✅ 12 ·  scene_11.jpg
 ✅ 13 ·  scene_12.jpg
 ✅ 14 ·  scene_13.jpg

@@ -1,27 +1,23 @@
 {
  "ma": "BA4",
- "cap_nhat": "2026-10-13T10:22:15",
+ "cap_nhat": "2026-10-13T10:40:02",
  "anh": [
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/No-nb_bldsa_3b052.jpg/1920px-No-nb_bldsa_3b052.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"No-nb bldsa 3b052.jpg\" – Fridtjof Nansen, Public domain (https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b052.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg/1920px-Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Julius Sergius Klever Winterlandschaft bei untergehender Sonne.jpg\" – Julius Sergius von Klever, Public domain (https://commons.wikimedia.org/wiki/File:Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 1 ảnh 1",
-    "ngắn · cảnh 5 ảnh 2",
-    "ngắn · cảnh 7 ảnh 2",
     "dài · chương 0 đoạn 1",
-    "dài · chương 3 đoạn 4",
-    "dài · chương 4 đoạn 4",
-    "dài · chương 7 đoạn 4",
+    "dài · chương 5 đoạn 2",
     "bài ảnh · cảnh 1"
    ],
-   "ten_file": "File:No-nb bldsa 3b052.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b052.jpg",
+   "ten_file": "File:Julius Sergius Klever Winterlandschaft bei untergehender Sonne.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Fridtjof Nansen",
-   "ngay_chup": "before 1888date QS:P,+1888-00-00T00:00:00Z/7,P1326,+1888-00-00T00:00:00Z/9",
+   "tac_gia": "Julius Sergius von Klever",
+   "ngay_chup": "by 1924date QS:P,+1924-00-00T00:00:00Z/7,P1326,+1924-00-00T00:00:00Z/9",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -29,11 +25,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "National Library of Norway"
+    "Credit": "Dorotheum"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1888
+   "nam": 1924
   },
   {
    "loai": "ảnh tư liệu",
@@ -60,11 +56,13 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 2 ảnh 1",
+    "ngắn · cảnh 7 ảnh 2",
     "ngắn · cảnh 9 ảnh 2",
     "dài · chương 0 đoạn 2",
     "dài · chương 3 đoạn 2",
-    "dài · chương 4 đoạn 9",
-    "dài · chương 6 đoạn 5"
+    "dài · chương 4 đoạn 5",
+    "dài · chương 6 đoạn 5",
+    "dài · chương 7 đoạn 4"
    ],
    "ten_file": "File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:SPRING_SNOWSTORM_IN_SAN_JUAN_MOUNTAINS_-_NARA_-_543640.jpg",
@@ -91,7 +89,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 1",
-    "dài · chương 1 đoạn 1"
+    "dài · chương 1 đoạn 1",
+    "bài ảnh · cảnh 2"
    ],
    "ten_file": "File:Voznesenskaya Square, Yekaterinburg in the 1890s.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Voznesenskaya_Square,_Yekaterinburg_in_the_1890s.jpg",
@@ -113,20 +112,18 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/No-nb_bldsa_3b147.jpg/1920px-No-nb_bldsa_3b147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"No-nb bldsa 3b147.jpg\" – Ludwik Szaciński, Public domain (https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b147.jpg)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Общежитие 1935.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5_1935.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 2",
-    "dài · chương 1 đoạn 3",
-    "dài · chương 2 đoạn 2",
-    "bài ảnh · cảnh 2"
+    "dài · chương 1 đoạn 2"
    ],
-   "ten_file": "File:No-nb bldsa 3b147.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b147.jpg",
+   "ten_file": "File:Общежитие 1935.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5_1935.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Ludwik Szaciński",
-   "ngay_chup": "between 1889 and 1890date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1889-00-00T00:00:0",
+   "tac_gia": "Unknown authorUnknown author",
+   "ngay_chup": "1935",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -134,11 +131,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "National Library of Norway"
+    "Credit": "https://i.mycdn.me/image?id=859050723688&amp;t=3&amp;plc=WEB&amp;tkn=*Dt4QfIAKoVhPAhdY-rsfbcsdVJA"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1889
+   "nam": 1935
   },
   {
    "loai": "ảnh tư liệu",
@@ -259,12 +256,43 @@
   },
   {
    "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Avalanche_Gulch_on_Mount_Shasta_%2834482560163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Avalanche Gulch on Mount Shasta (34482560163).jpg\" – Pacific Southwest Region 5, Public domain (https://commons.wikimedia.org/wiki/File:Avalanche_Gulch_on_Mount_Shasta_(34482560163).jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "ngắn · cảnh 5 ảnh 2",
+    "ngắn · cảnh 11 ảnh 3",
+    "dài · chương 3 đoạn 4",
+    "dài · chương 6 đoạn 6",
+    "dài · chương 7 đoạn 7"
+   ],
+   "ten_file": "File:Avalanche Gulch on Mount Shasta (34482560163).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Avalanche_Gulch_on_Mount_Shasta_(34482560163).jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Pacific Southwest Region 5",
+   "ngay_chup": "2017-06-13 15:13",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Avalanche Gulch on Mount Shasta"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2017
+  },
+  {
+   "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Julius_von_Klever_-_Returning_home_at_sunset.jpg/1920px-Julius_von_Klever_-_Returning_home_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Julius von Klever - Returning home at sunset.jpg\" – Julius Sergius von Klever, Public domain (https://commons.wikimedia.org/wiki/File:Julius_von_Klever_-_Returning_home_at_sunset.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 1",
     "dài · chương 3 đoạn 6",
+    "dài · chương 4 đoạn 9",
     "dài · chương 5 đoạn 6"
    ],
    "ten_file": "File:Julius von Klever - Returning home at sunset.jpg",
@@ -292,7 +320,7 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
-    "dài · chương 4 đoạn 5",
+    "dài · chương 4 đoạn 4",
     "dài · chương 5 đoạn 4",
     "dài · chương 7 đoạn 3"
    ],
@@ -501,35 +529,6 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Avalanche_Gulch_on_Mount_Shasta_%2834482560163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Avalanche Gulch on Mount Shasta (34482560163).jpg\" – Pacific Southwest Region 5, Public domain (https://commons.wikimedia.org/wiki/File:Avalanche_Gulch_on_Mount_Shasta_(34482560163).jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "ngắn · cảnh 11 ảnh 3",
-    "dài · chương 3 đoạn 5",
-    "dài · chương 6 đoạn 6",
-    "dài · chương 7 đoạn 7"
-   ],
-   "ten_file": "File:Avalanche Gulch on Mount Shasta (34482560163).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Avalanche_Gulch_on_Mount_Shasta_(34482560163).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Pacific Southwest Region 5",
-   "ngay_chup": "2017-06-13 15:13",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Avalanche Gulch on Mount Shasta"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 2017
-  },
-  {
-   "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Yuly_Klever_-_Winter_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Yuly Klever - Winter Sunset.jpg\" – Julius Sergius von Klever, Public domain (https://commons.wikimedia.org/wiki/File:Yuly_Klever_-_Winter_Sunset.jpg)",
    "ngay_tai": "2026-10-13",
@@ -564,6 +563,7 @@
    "dung_o": [
     "ngắn · cảnh 13 ảnh 1",
     "dài · chương 2 đoạn 5",
+    "dài · chương 3 đoạn 5",
     "dài · chương 4 đoạn 6",
     "dài · chương 8 đoạn 5"
    ],
@@ -587,17 +587,17 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Общежитие 1935.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5_1935.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/No-nb_bldsa_3b147.jpg/1920px-No-nb_bldsa_3b147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"No-nb bldsa 3b147.jpg\" – Ludwik Szaciński, Public domain (https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b147.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 1 đoạn 2"
+    "dài · chương 1 đoạn 3"
    ],
-   "ten_file": "File:Общежитие 1935.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5_1935.jpg",
+   "ten_file": "File:No-nb bldsa 3b147.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3b147.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Unknown authorUnknown author",
-   "ngay_chup": "1935",
+   "tac_gia": "Ludwik Szaciński",
+   "ngay_chup": "between 1889 and 1890date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1889-00-00T00:00:0",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -605,11 +605,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "https://i.mycdn.me/image?id=859050723688&amp;t=3&amp;plc=WEB&amp;tkn=*Dt4QfIAKoVhPAhdY-rsfbcsdVJA"
+    "Credit": "National Library of Norway"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1935
+   "nam": 1889
   },
   {
    "loai": "ảnh tư liệu",
@@ -643,6 +643,7 @@
    "credit": "\"Winter Forest, Mt Hood National Forest (36356593694).jpg\" – U.S. Forest Service- Pacific Northwest Region, Public domain (https://commons.wikimedia.org/wiki/File:Winter_Forest,_Mt_Hood_National_Forest_(36356593694).jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
+    "dài · chương 2 đoạn 2",
     "dài · chương 4 đoạn 3",
     "dài · chương 5 đoạn 5"
    ],
@@ -663,32 +664,6 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1980
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg/1920px-Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Julius Sergius Klever Winterlandschaft bei untergehender Sonne.jpg\" – Julius Sergius von Klever, Public domain (https://commons.wikimedia.org/wiki/File:Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 5 đoạn 2"
-   ],
-   "ten_file": "File:Julius Sergius Klever Winterlandschaft bei untergehender Sonne.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Julius_Sergius_Klever_Winterlandschaft_bei_untergehender_Sonne.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Julius Sergius von Klever",
-   "ngay_chup": "by 1924date QS:P,+1924-00-00T00:00:00Z/7,P1326,+1924-00-00T00:00:00Z/9",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Dorotheum"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1924
   },
   {
    "loai": "ảnh tư liệu",
@@ -772,10 +747,10 @@
  "loi": [],
  "canh_bao": [
   "File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
+  "File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
-  "File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại",
   "File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại"
  ]
 }

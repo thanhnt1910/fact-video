@@ -478,7 +478,7 @@ def build(script, cfg, out_dir):
             loai = ch.get("loai_canh") or ("hook" if ci == 0 else "ket" if ci == len(chapters) - 1
                                            else "boi_canh" if ci == 1 else "leo_thang")
             audio = chapter_audio("\n\n".join(am_thanh.chuan_hoa(x, tu) for x in texts), voice, work,
-                                  am_thanh.sac_thai(loai))
+                                  am_thanh.sac_thai(loai, script.get("phong_cach") == "huyen-bi"))
         else:
             audio = chapter_audio("\n\n".join(texts), voice, work)
         segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])

@@ -136,8 +136,14 @@ SAC_THAI = {
 }
 
 
-def sac_thai(loai):
-    return SAC_THAI.get(loai or "", SAC_THAI["boi_canh"])
+HUYEN_BI = ("DARK MYSTERY STYLE: a deep, low-pitched, slightly gravelly male storyteller; ominous hushed tone, "
+            "like telling a ghost story by candlelight; slow measured pace with suspenseful pauses; "
+            "never cheerful or salesy; restrained, never shouting.")
+
+
+def sac_thai(loai, huyen_bi=False):
+    s = SAC_THAI.get(loai or "", SAC_THAI["boi_canh"])
+    return (s + " " + HUYEN_BI) if huyen_bi else s
 
 
 # ------------------------------------------------------------------ 3. tiếng động tự tổng hợp

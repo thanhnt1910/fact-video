@@ -1,0 +1,4 @@
+CHUYỂN CẢNH SL12 (video ngắn) · bảng màu: dissolve, smoothright, smoothleft, smoothup, wipedown
+Thứ tự: cut → cut → cut → cut → cut → dissolve → wipedown → dissolve → smoothup → dissolve → cut → cut → cut → cut → cut → cut → smoothup → dissolve → smoothright → fadewhite → dissolve → wipedown → dissolve → fade → cut → cut
+Số lần: cut 13, dissolve 6, wipedown 2, smoothup 2, smoothright 1, fadewhite 1, fade 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

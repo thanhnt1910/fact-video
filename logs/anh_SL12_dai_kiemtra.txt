@@ -23,8 +23,8 @@ KIỂM TRA ẢNH SL12 · video dài · 40 ảnh (số thứ tự khớp lưới 
 ✅ 22 ·  scene_17.jpg
 ✅ 23 (ảnh mô phỏng AI) ·  mp_f3c40da00f650fee.jpg
 ✅ 24 · Sông Nile nhìn từ mỏ đá Tura scene_18.jpg
-❌ 25 ·  scene_19.jpg
-     ❌ Ảnh là một trang sách quét từ thư viện (NYPL) chứa hai hình minh họa: phía trên là kim tự tháp Illahun và phía dưới là mỏ đá Tûra, đi kèm với lề sách, số trang, vết bẩn ố vàng và thanh màu căn chỉnh kỹ thuật số ở cạnh phải. → Cắt bỏ phần lề trang sách và thanh màu kỹ thuật số, chỉ giữ lại phần hình minh họa mỏ đá Tûra ở phía dưới để phù hợp với nội dung lời kể.
+⚠️ 25 ·  scene_19.jpg
+     ⚠️ ảnh hơi nhỏ (1421x692)
 ✅ 26 ·  scene_20.jpg
 ✅ 27 ·  scene_21.jpg
 ✅ 28 (ảnh mô phỏng AI) ·  mp_321a0d2fafb220db.jpg

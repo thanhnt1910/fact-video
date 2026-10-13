@@ -9,8 +9,8 @@ KIỂM TRA ẢNH SL12 · video ngắn · 25 ảnh (số thứ tự khớp lướ
 ✅ 8 ·  scene_04.jpg
 ✅ 9 ·  scene_05.jpg
 ✅ 10 ·  scene_06.jpg
-❌ 11 ·  scene_07.jpg
-     ❌ Ảnh là trang sách quét chứa cả viền trang giấy, tiêu đề và thang đo màu sắc ở cạnh phải, không phải là một bức ảnh minh họa thuần túy cho nội dung. → Cắt bỏ phần viền trang sách, chữ chú thích bên dưới và thang màu bên phải để chỉ giữ lại phần hình ảnh mỏ đá Tura.
+⚠️ 11 ·  scene_07.jpg
+     ⚠️ ảnh hơi nhỏ (1421x692)
 ✅ 12 (ảnh mô phỏng AI) ·  mp_48e364783f390991.jpg
 ✅ 13 ·  scene_08.jpg
 ✅ 14 ·  scene_09.jpg

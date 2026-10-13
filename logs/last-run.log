@@ -9,11 +9,22 @@
      ⚠️  File:Khufu.JPG: ảnh năm 2003, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Ancient Egypt (Myers, 1890).png: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 25 ảnh: 1 ảnh lỗi, 2 ảnh cần xem
-❌ SL12: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_SL12_ngan_kiemtra.txt):
-  scene_07.jpg: Ảnh là trang sách quét chứa cả viền trang giấy, tiêu đề và thang đo màu sắc ở cạnh phải, không phải là một bức ảnh minh họa thuần túy cho nội dung. → Cắt bỏ phần viền trang sách, chữ chú thích bên dưới và thang màu bên phải để chỉ giữ lại phần hình ảnh mỏ đá Tura.
+  🔍 Kiểm tra 25 ảnh: 0 ảnh lỗi, 3 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+  🎙️  Gemini đọc 12/12 cảnh, mỗi cảnh một sắc thái (18s), tốc độ x1.12
+  🪧 11 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  75.0 giây · 27 hình · trung bình 2.8 giây/hình
+  🎞️  Số lần: cut 13, dissolve 6, wipedown 2, smoothup 2, smoothright 1, fadewhite 1, fade 1
+[0;93m2026-10-13 06:35:36.559596383 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  🎬 Dựng 2249 khung hình (59s)
+  🔊 Tiếng động: bien, gio, hit, kim_loai, lat_giay, nuoc, rise, tim_dap, vut
+  🔈 Âm lượng cuối: -14.8 LUFS, đỉnh -4.3 dBTP
+  🖼️  Ảnh bìa: 3 phương án (SL12_bia_1.jpg, SL12_bia_2.jpg, SL12_bia_3.jpg)
+  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (SL12_post.txt)
+✅ Xong output/SL12/SL12.mp4  (75.0s video, mất 157s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
 ===== SL12 (video dài) =====
 ▶️  Video dài SL12: Ai đã xây kim tự tháp? Cuốn nhật ký 4.500 năm tuổi của đốc công Merer
@@ -23,10 +34,32 @@ Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
      ⚠️  File:Khufu.JPG: ảnh năm 2003, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
      ⚠️  File:Ancient Egypt (Myers, 1890).png: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 40 ảnh: 1 ảnh lỗi, 0 ảnh cần xem
-❌ Video dài SL12: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_SL12_dai_kiemtra.txt):
-  scene_19.jpg: Ảnh là một trang sách quét từ thư viện (NYPL) chứa hai hình minh họa: phía trên là kim tự tháp Illahun và phía dưới là mỏ đá Tûra, đi kèm với lề sách, số trang, vết bẩn ố vàng và thanh màu căn chỉnh kỹ thuật số ở cạnh phải. → Cắt bỏ phần lề trang sách và thanh màu kỹ thuật số, chỉ giữ lại phần hình minh họa mỏ đá Tûra ở phía dưới để phù hợp với nội dung lời kể.
+  🔍 Kiểm tra 40 ảnh: 0 ảnh lỗi, 1 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (17s)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (13s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (13s)
+     🎙️  Gemini đọc xong 1 chương (11s)
+  ⏱️  Thời lượng 07:17 · 65 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-13 06:40:33.755102088 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     40/40 ảnh có độ sâu
+     10507 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (122 giây)
+     … 6/12 đoạn (233 giây)
+     … 9/12 đoạn (332 giây)
+     … 12/12 đoạn (341 giây)
+     dựng khung hình xong trong 342 giây
+  🔊 Tiếng động nền: bien, gio, kim_loai, lat_giay, nuoc
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.2 dBTP
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: SL12_dai.mp4 (07:17)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): SL12
-Lỗi: SL12
+Xong video ngắn: SL12 · video dài: SL12

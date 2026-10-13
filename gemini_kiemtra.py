@@ -25,7 +25,7 @@ def call(key, model, body):
     req = urllib.request.Request(f"{API}/models/{model}:generateContent", data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "x-goog-api-key": key})
     try:
-        with urllib.request.urlopen(req, timeout=60) as r:
+        with urllib.request.urlopen(req, timeout=25) as r:
             return r.status, json.loads(r.read())
     except urllib.error.HTTPError as e:
         t = e.read().decode("utf-8", "ignore")
@@ -51,13 +51,14 @@ for label, k in keys:
     out.append(f"\n[{label}] dấu vân tay {f}, độ dài {len(k)}" + (f"  ⚠️ TRÙNG với {dup}" if dup else ""))
     if dup:
         continue
-    for m in ("gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"):
+    for m in ("gemini-3.1-flash-tts-preview",):
         c, r = call(k, m, tts)
         ok = c == 200 and "inlineData" in json.dumps(r)
         out.append(f"   TTS {m}: {'✅ đọc được' if ok else '⛔ HTTP ' + str(c) + ' ' + str(r)}")
-        time.sleep(2)
+        time.sleep(1)
     c, r = call(k, "gemini-flash-lite-latest", {"contents": [{"parts": [{"text": "Trả lời: ok"}]}]})
     out.append(f"   Chữ flash-lite: {'✅ dùng được' if c == 200 else '⛔ HTTP ' + str(c) + ' ' + str(r)}")
-    time.sleep(2)
+    time.sleep(1)
+    open("logs/gemini_kiemtra.txt", "w", encoding="utf-8").write("\n".join(out) + "\n")
 open("logs/gemini_kiemtra.txt", "w", encoding="utf-8").write("\n".join(out) + "\n")
 print("\n".join(out))

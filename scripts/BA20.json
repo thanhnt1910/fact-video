@@ -62,8 +62,8 @@
    "text": "Sau bão, tàu **biến mất**",
    "voice": "Sau một trận bão, con tàu biến mất.",
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
    }
   },
   {
@@ -225,7 +225,13 @@
     "images": [
      {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+      "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+      "crop": [
+       0.12,
+       0.07,
+       0.97,
+       0.93
+      ]
      },
      {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -303,8 +309,8 @@
     "text": "Sáng ra, con tàu biến mất. Thuyền trưởng kết luận nó đã chìm.",
     "images": [
      {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
      },
      {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -466,8 +472,8 @@
      {
       "text": "Vậy mà suốt ba mươi tám năm sau đó, người ta vẫn nhìn thấy nó.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
       },
       "fx": "mist"
      },
@@ -509,7 +515,13 @@
       "text": "Con tàu ra đời năm một nghìn chín trăm mười bốn, tại xưởng đóng tàu ở thành phố Gothenburg, nước Thụy Điển.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+       "crop": [
+        0.12,
+        0.07,
+        0.97,
+        0.93
+       ]
       },
       "label": "Gothenburg · 1914"
      },
@@ -531,7 +543,13 @@
       "text": "Năm một nghìn chín trăm hai mươi mốt, Công ty Vịnh Hudson mua lại nó, rồi đổi tên thành Baychimo.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+       "crop": [
+        0.12,
+        0.07,
+        0.97,
+        0.93
+       ]
       }
      },
      {
@@ -559,8 +577,8 @@
      {
       "text": "Một con tàu chở hàng bình thường, trên một tuyến đường bình thường. Cho đến chuyến thứ mười.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
       },
       "fx": "mist"
      }
@@ -695,8 +713,8 @@
      {
       "text": "Và nó không còn ở đó.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
       },
       "fx": "mist",
       "am_thanh": [
@@ -778,7 +796,13 @@
       "text": "Họ leo lên tàu, chuyển những kiện lông thú đắt giá nhất sang máy bay để đưa ra ngoài.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+       "crop": [
+        0.12,
+        0.07,
+        0.97,
+        0.93
+       ]
       },
       "label": "Mùa đông 1931"
      },
@@ -844,8 +868,8 @@
      {
       "text": "Ít lâu sau, một nhóm người đi tìm vàng kể rằng họ cũng nhìn thấy con tàu.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
       }
      },
      {
@@ -877,7 +901,13 @@
       "text": "Lần này, một nhóm người đã lên tàu và mang đi chiếc xuồng, đồ đạc và vài món bên trong.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+       "crop": [
+        0.12,
+        0.07,
+        0.97,
+        0.93
+       ]
       }
      },
      {
@@ -957,8 +987,8 @@
      {
       "text": "Có người kể rằng thủy thủ các tàu khác đã né nó, vì sợ lời nguyền.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
       },
       "fx": "mist"
      },
@@ -1009,8 +1039,8 @@
      {
       "text": "Sau đó, không ai thấy nó nữa.",
       "image": {
-       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
       },
       "fx": "mist",
       "am_thanh": [
@@ -1041,7 +1071,13 @@
       "text": "Các nhà nghiên cứu cho rằng thân tàu bằng thép khá chắc, và có thể đã giữ được nước ở những khoang kín.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+       "crop": [
+        0.12,
+        0.07,
+        0.97,
+        0.93
+       ]
       }
      },
      {

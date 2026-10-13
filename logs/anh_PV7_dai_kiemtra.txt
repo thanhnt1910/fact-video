@@ -1,46 +1,43 @@
-KIỂM TRA ẢNH PV7 · video dài · 37 ảnh (số thứ tự khớp lưới ảnh anh_PV7_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH PV7 · video dài · 35 ảnh (số thứ tự khớp lưới ảnh anh_PV7_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 (ảnh mô phỏng AI) ·  mp_1b2f88a13dbd3396.jpg
 ✅ 2 (ảnh mô phỏng AI) ·  mp_aa72242e5cd947fb.jpg
 ✅ 3 ·  scene_00.jpg
 ⚠️ 4 (ảnh mô phỏng AI) ·  mp_3848dacaa0a90e60.jpg
      ⚠️ Lời kể đề cập việc Sư đoàn Thiết giáp số 1 của Đức di chuyển từ Pháp sang Hy Lạp, nhưng ảnh minh họa chuyến tàu chở tăng chạy qua thung lũng núi có thể không phản ánh đúng địa hình thực tế của tuyến đường di chuyển quân sự này. → Dùng ảnh bản đồ di chuyển quân sự hoặc đoàn tàu quân sự ở khu vực châu Âu phù hợp hơn với ngữ cảnh.
-❌ 5 (ảnh mô phỏng AI) ·  mp_8c2b2351802ee7d8.jpg
-     ❌ Ảnh AI tạo ra một phong bì thư lơ lửng giữa không trung một cách vô lý, sai hoàn toàn với mô tả 'a desk' (trên bàn) và không phù hợp với không khí dàn dựng tình báo trong lời kể. → Dùng ảnh mô phỏng phong bì thư đặt trên bàn làm việc cùng các dụng cụ thực tế như trong mô tả.
-✅ 6 ·  scene_01.jpg
-✅ 7 · Địa Trung Hải · 1943 scene_02.jpg
-✅ 8 ·  scene_03.jpg
-✅ 9 ·  scene_04.jpg
-✅ 10 · Winston Churchill scene_05.jpg
-✅ 11 ·  scene_06.jpg
-⚠️ 12 ·  scene_07.jpg
+✅ 5 ·  scene_01.jpg
+✅ 6 ·  scene_02.jpg
+✅ 7 · Địa Trung Hải · 1943 scene_03.jpg
+✅ 8 ·  scene_04.jpg
+✅ 9 ·  scene_05.jpg
+✅ 10 · Winston Churchill scene_06.jpg
+✅ 11 ·  scene_07.jpg
+⚠️ 12 ·  scene_08.jpg
      ⚠️ Ảnh hiển thị Adolf Hitler và Karl Dönitz, phù hợp với ngữ cảnh nhắc đến Hitler và các mệnh lệnh quân sự của Đức, tuy nhiên ảnh có một số nét vẽ hoặc chỉnh sửa đen ở khu vực tay bắt tay và phía dưới gây mất thẩm mỹ. → Nên sử dụng ảnh tư liệu nguyên bản không bị nét vẽ đè lên hoặc chọn ảnh thể hiện bản đồ/chiến lược quân sự liên quan đến Hy Lạp và Sardinia để minh họa trực quan hơn cho câu lệnh của Hitler.
-✅ 13 ·  scene_08.jpg
-⚠️ 14 (ảnh mô phỏng AI) ·  mp_a931b02b3a550dbc.jpg
-     ⚠️ Ảnh mô phỏng bối cảnh đường phố London thời chiến với các chi tiết lịch sử phù hợp, tuy nhiên có hiện tượng chữ viết bị lỗi, vô nghĩa trên biển báo và thân xe buýt. → Dùng AI tạo lại ảnh để loại bỏ các chữ viết vô nghĩa trên biển báo và xe buýt.
-✅ 15 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
-✅ 16 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg
-✅ 17 · Thiếu tá William Martin · Royal Marines scene_09.jpg
-⚠️ 18 ·  scene_10.jpg
+❌ 13 (ảnh mô phỏng AI) ·  mp_a931b02b3a550dbc.jpg
+     ❌ Chữ viết trên biển hiệu và các bốt điện thoại (TELEPHONE) bị biến dạng, nhòe thành các ký tự vô nghĩa do AI tạo ảnh. → Dùng ảnh thật hoặc tạo lại ảnh AI có chữ viết đúng chính tả.
+✅ 14 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
+✅ 15 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg
+✅ 16 · Thiếu tá William Martin · Royal Marines scene_09.jpg
+⚠️ 17 ·  scene_10.jpg
      ⚠️ ảnh hơi mờ (độ nét 57)
      ⚠️ Ảnh chụp cảnh sinh hoạt tại căng-tin Whitehall năm 1943, dùng để minh họa cho việc 'họ cho anh có một vị hôn thê tên Pam. Tấm ảnh của Pam thực ra là ảnh một nữ nhân viên tình báo Anh' là ảnh bối cảnh chung, không phải là chân dung cụ thể của nhân vật Pam hay nữ nhân viên tình báo được nhắc đến trong lời kể. → Nên thay bằng ảnh chân dung thời chiến của một phụ nữ trẻ phù hợp với vai trò người tình giả định Pam.
-✅ 19 ·  scene_11.jpg
-✅ 20 ·  scene_12.jpg
-✅ 21 ·  scene_13.jpg
-✅ 22 (ảnh mô phỏng AI) · Mục tiêu giả: Hy Lạp mp_f2bf2d5c02283605.jpg
-✅ 23 (ảnh mô phỏng AI) · Tàu ngầm HMS Seraph mp_32ec7aafce44702b.jpg
-✅ 24 ·  scene_14.jpg
-✅ 25 ·  scene_15.jpg
-✅ 26 (ảnh mô phỏng AI) ·  mp_ef790c52c9864c15.jpg
-⚠️ 27 ·  scene_16.jpg
+✅ 18 ·  scene_11.jpg
+✅ 19 ·  scene_12.jpg
+✅ 20 (ảnh mô phỏng AI) · Mục tiêu giả: Hy Lạp mp_f2bf2d5c02283605.jpg
+✅ 21 (ảnh mô phỏng AI) · Tàu ngầm HMS Seraph mp_32ec7aafce44702b.jpg
+✅ 22 ·  scene_13.jpg
+✅ 23 ·  scene_14.jpg
+✅ 24 (ảnh mô phỏng AI) ·  mp_ef790c52c9864c15.jpg
+⚠️ 25 ·  scene_15.jpg
      ⚠️ Tranh vẽ cảnh đánh bắt cá ngừ ở Tây Ban Nha (Ayamonte) của Joaquín Sorolla, thể hiện hoạt động ngư nghiệp chung chứ không phải sự việc ngư dân phát hiện thi thể trôi dạt trên biển vào buổi sáng theo lời kể. → Nên thay bằng ảnh tư liệu chụp vùng biển Tây Ban Nha thời kỳ Thế chiến II hoặc ảnh minh họa một ngư dân đang nhìn ra mặt nước.
-✅ 28 ·  scene_17.jpg
-✅ 29 (ảnh mô phỏng AI) ·  mp_50d90fae5f51b2a8.jpg
-⚠️ 30 ·  scene_18.jpg
+✅ 26 ·  scene_16.jpg
+✅ 27 (ảnh mô phỏng AI) ·  mp_50d90fae5f51b2a8.jpg
+⚠️ 28 ·  scene_17.jpg
      ⚠️ Ảnh chụp quang cảnh căng tin ở London năm 1943, minh họa cho phân đoạn Anh sốt sắng hỏi han về chiếc cặp tài liệu của Thiếu tá Martin. → Nên dùng ảnh tư liệu chụp các sĩ quan tình báo Anh đang họp hoặc làm việc với các tài liệu, hồ sơ để sát với nội dung câu chuyện hơn.
-✅ 31 (ảnh mô phỏng AI) ·  mp_37e6d0df90dc0554.jpg
-✅ 32 · "Nuốt trọn cả cần câu" scene_19.jpg
-✅ 33 · Sicily · 10/7/1943 scene_20.jpg
-✅ 34 ·  scene_21.jpg
-✅ 35 ·  scene_22.jpg
-✅ 36 ·  scene_23.jpg
-✅ 37 ·  scene_24.jpg
+✅ 29 (ảnh mô phỏng AI) ·  mp_37e6d0df90dc0554.jpg
+✅ 30 · "Nuốt trọn cả cần câu" scene_18.jpg
+✅ 31 · Sicily · 10/7/1943 scene_19.jpg
+✅ 32 ·  scene_20.jpg
+✅ 33 ·  scene_21.jpg
+✅ 34 ·  scene_22.jpg
+✅ 35 ·  scene_23.jpg

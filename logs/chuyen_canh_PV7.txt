@@ -1,0 +1,4 @@
+CHUYỂN CẢNH PV7 (video ngắn) · bảng màu: fade, wiperight, smoothleft, smoothdown
+Thứ tự: cut → cut → cut → cut → cut → cut → cut → cut → cut → smoothdown → cut → smoothdown → cut → cut → dissolve → fadewhite → cut → smoothdown → cut → fade → smoothleft
+Số lần: cut 14, smoothdown 3, dissolve 1, fadewhite 1, fade 1, smoothleft 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

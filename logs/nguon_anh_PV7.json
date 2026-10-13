@@ -1,6 +1,6 @@
 {
  "ma": "PV7",
- "cap_nhat": "2026-10-13T09:26:48",
+ "cap_nhat": "2026-10-13T09:32:39",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -44,24 +44,41 @@
     "dài · chương 0 đoạn 2",
     "dài · chương 2 đoạn 3",
     "dài · chương 5 đoạn 1",
+    "dài · chương 5 đoạn 6",
     "dài · chương 7 đoạn 7",
     "dài · chương 11 đoạn 4"
    ]
   },
   {
-   "loai": "tranh AI",
-   "prompt": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 2 ảnh 1",
     "dài · chương 0 đoạn 5",
-    "dài · chương 2 đoạn 1",
-    "dài · chương 5 đoạn 6",
-    "dài · chương 7 đoạn 5",
+    "dài · chương 2 đoạn 2",
+    "dài · chương 4 đoạn 3",
+    "dài · chương 10 đoạn 1",
     "dài · chương 10 đoạn 3"
-   ]
+   ],
+   "ten_file": "File:Woodstock typewriter, 1940s.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Cbaile19",
+   "ngay_chup": "2021-02-16 21:52:32",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2021
   },
   {
    "loai": "ảnh tư liệu",
@@ -123,43 +140,32 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people",
+   "prompt": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-13",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 1",
+    "dài · chương 2 đoạn 4",
+    "dài · chương 3 đoạn 2",
+    "dài · chương 4 đoạn 4",
+    "dài · chương 4 đoạn 7",
+    "dài · chương 10 đoạn 4",
+    "dài · chương 11 đoạn 1"
+   ]
+  },
+  {
+   "loai": "tranh AI",
+   "prompt": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people",
+   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
+   "ngay_tao": "2026-10-13",
+   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "dung_o": [
+    "ngắn · cảnh 4 ảnh 2",
     "dài · chương 3 đoạn 1",
     "dài · chương 3 đoạn 3",
     "dài · chương 3 đoạn 4"
    ]
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png/1920px-Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png\" – Springnuts, Public domain (https://commons.wikimedia.org/wiki/File:Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "ngắn · cảnh 4 ảnh 2",
-    "dài · chương 4 đoạn 1"
-   ],
-   "ten_file": "File:Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Plymouth_division_Royal_Marines_Saint_Christophers_church_Choir_28th_September_1943.png",
-   "giay_phep": "Public domain",
-   "tac_gia": "Springnuts",
-   "ngay_chup": "2020-12-10",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Own work"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 2020
   },
   {
    "loai": "ảnh tư liệu",
@@ -453,7 +459,8 @@
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 0 đoạn 1",
-    "dài · chương 2 đoạn 5"
+    "dài · chương 2 đoạn 5",
+    "dài · chương 7 đoạn 5"
    ]
   },
   {
@@ -463,6 +470,7 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 1 đoạn 3",
+    "dài · chương 2 đoạn 1",
     "dài · chương 5 đoạn 2",
     "bài ảnh · cảnh 4"
    ],
@@ -539,53 +547,11 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 2 đoạn 2",
-    "dài · chương 4 đoạn 3",
-    "dài · chương 10 đoạn 1"
-   ],
-   "ten_file": "File:Woodstock typewriter, 1940s.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg",
-   "giay_phep": "CC0",
-   "tac_gia": "Cbaile19",
-   "ngay_chup": "2021-02-16 21:52:32",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "CC0",
-    "License": "cc0",
-    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
-    "Copyrighted": "True",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Own work"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 2021
-  },
-  {
-   "loai": "tranh AI",
-   "prompt": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
-   "dung_o": [
-    "dài · chương 2 đoạn 4",
-    "dài · chương 3 đoạn 2",
-    "dài · chương 4 đoạn 4",
-    "dài · chương 10 đoạn 4",
-    "dài · chương 11 đoạn 1"
-   ]
-  },
-  {
-   "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow%2C_April_1943._A15942.jpg/1920px-Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow%2C_April_1943._A15942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Royal Marines exercising on the foc'sle of a battleship at Scapa Flow, April 1943. A15942.jpg\" – Davies, F A (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow,_April_1943._A15942.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 4 đoạn 7"
+    "dài · chương 4 đoạn 1"
    ],
    "ten_file": "File:Royal Marines exercising on the foc'sle of a battleship at Scapa Flow, April 1943. A15942.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Royal_Marines_exercising_on_the_foc%27sle_of_a_battleship_at_Scapa_Flow,_April_1943._A15942.jpg",
@@ -836,7 +802,5 @@
   }
  ],
  "loi": [],
- "canh_bao": [
-  "File:Plymouth division Royal Marines Saint Christophers church Choir 28th September 1943.png: ảnh năm 2020, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại"
- ]
+ "canh_bao": []
 }

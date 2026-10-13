@@ -1,12 +1,11 @@
 KIỂM TRA ẢNH PV7 · video ngắn · 20 ảnh (số thứ tự khớp lưới ảnh anh_PV7_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 ·  scene_00.jpg
 ✅ 2 (ảnh mô phỏng AI) ·  mp_aa72242e5cd947fb.jpg
-✅ 3 (ảnh mô phỏng AI) ·  mp_8c2b2351802ee7d8.jpg
-✅ 4 ·  scene_01.jpg
-✅ 5 ·  scene_02.jpg
-✅ 6 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
-❌ 7 ·  scene_03.jpg
-     ❌ Ảnh hiển thị một tập thể (dàn hợp xướng Thủy quân lục chiến Hoàng gia) hoàn toàn không liên quan đến nhân vật Glyndwr Michael hay quá trình tạo lập danh tính giả Thiếu tá William Martin theo lời kể. → Thay bằng ảnh chân dung hoặc tư liệu liên quan đến Glyndwr Michael hoặc quá trình chuẩn bị chiến dịch Mincemeat.
+✅ 3 ·  scene_01.jpg
+✅ 4 ·  scene_02.jpg
+✅ 5 ·  scene_03.jpg
+✅ 6 (ảnh mô phỏng AI) ·  mp_a931b02b3a550dbc.jpg
+✅ 7 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
 ⚠️ 8 ·  scene_04.jpg
      ⚠️ ảnh hơi mờ (độ nét 57)
      ⚠️ Ảnh chụp cảnh sinh hoạt tại căng tin ở Luân Đôn năm 1943, hoàn toàn không liên quan đến các vật dụng cá nhân như thư tình, hóa đơn nhẫn hay cuống vé xem kịch của Thiếu tá William Martin được nhắc đến trong lời kể. → Thay bằng ảnh chụp các tư liệu cá nhân giả mạo như thư tình, hóa đơn hoặc cuống vé xem kịch trong chiến dịch Mincemeat.

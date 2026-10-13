@@ -1,0 +1,1358 @@
+[
+ {
+  "slot": "R01",
+  "beats": null,
+  "mo_ta": "nhà xác / bệnh viện London 1940s",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Greenville_-_Mackey_Mortuary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1516,
+    "h": 981,
+    "credit": "\"Greenville - Mackey Mortuary.jpg\" – E. C. Kropp Co. (publisher), Public domain (https://commons.wikimedia.org/wiki/File:Greenville_-_Mackey_Mortuary.jpg)",
+    "text": "File:Greenville - Mackey Mortuary.jpg Photomechanical print (postcard) \nDivided back \nPrinted by E. C. Kropp Co. (22322) \nCorner of North Main and Elford Streets. \n\nThis funeral home was built in 1926"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Central_Railway_Station_c.1901_%286900041723%29.jpg/1920px-Central_Railway_Station_c.1901_%286900041723%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3662,
+    "h": 2703,
+    "credit": "\"Central Railway Station c.1901 (6900041723).jpg\" – Governor Macquarie, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Central_Railway_Station_c.1901_(6900041723).jpg)",
+    "text": "File:Central Railway Station c.1901 (6900041723).jpg <a href=\"http://loc.alize.us/#/flickr:6900041723\" rel=\"noreferrer nofollow\">See where this picture was taken.</a> <a href=\"https://www.flickr.com/g"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/St._Louis_Post-Dispatch_of_St._Louis%2C_Missouri_on_August_2%2C_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1576,
+    "h": 2046,
+    "credit": "\"St. Louis Post-Dispatch of St. Louis, Missouri on August 2, 1943.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:St._Louis_Post-Dispatch_of_St._Louis,_Missouri_on_August_2,_1943.jpg)",
+    "text": "File:St. Louis Post-Dispatch of St. Louis, Missouri on August 2, 1943.jpg St. Louis Post-Dispatch of St. Louis, Missouri on August 2, 1943"
+   }
+  ]
+ },
+ {
+  "slot": "R02",
+  "beats": null,
+  "mo_ta": "nghĩa trang Tây Ban Nha / nghĩa trang quân đội Anh",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Graves_at_Magnolia_Cemetery.jpg/1920px-Graves_at_Magnolia_Cemetery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Graves at Magnolia Cemetery.jpg\" – Catboy69, CC0 (https://commons.wikimedia.org/wiki/File:Graves_at_Magnolia_Cemetery.jpg)",
+    "text": "File:Graves at Magnolia Cemetery.jpg Graves surrounded by southern live oak and Spanish moss in Magnolia Cemetery, South Carolina"
+   },
+   {
+    "so": 1,
+    "url": "https://live.staticflickr.com/65535/51693721282_1bef636526_b.jpg",
+    "w": 768,
+    "h": 1024,
+    "credit": "\"Twickenham Cemetery - Grave of William James Davies.\" – waddavies, Public Domain (https://www.flickr.com/photos/141326567@N03/51693721282)",
+    "text": "Twickenham Cemetery - Grave of William James Davies. architect cemetery davies family grave history james twickenham william"
+   },
+   {
+    "so": 2,
+    "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbG9jMjAxNzc0MjcxNS1pbWFnZS5qcGc.jpg",
+    "w": 3045,
+    "h": 4274,
+    "credit": "\"Grave Spanish-American cemetery, Penasco, New\" – libraryofcongress, CC0 (https://www.rawpixel.com/image/12171538/image-art-vintage-cross)",
+    "text": "Grave Spanish-American cemetery, Penasco, New art cross grave sign tombstone united states vintage"
+   }
+  ]
+ },
+ {
+  "slot": "R03",
+  "beats": null,
+  "mo_ta": "bờ biển Hy Lạp / Peloponnese / Salonika 1943",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cant_Z501_at_Preveza_under_attack_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 1103,
+    "credit": "\"Cant Z501 at Preveza under attack 1943.jpg\" – No. 252 Squadron RAF, Public domain (https://commons.wikimedia.org/wiki/File:Cant_Z501_at_Preveza_under_attack_1943.jpg)",
+    "text": "File:Cant Z501 at Preveza under attack 1943.jpg Bristol Beaufighters of No. 252 Squadron RAF based at El Magrun, Libya, sweep in at low level to attack the Italian seaplane base at Preveza, Greece. In"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ioannis_Poulakas_%27Coast_with_fishing_boats%27.jpg/1920px-Ioannis_Poulakas_%27Coast_with_fishing_boats%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2571,
+    "h": 1500,
+    "credit": "\"Ioannis Poulakas 'Coast with fishing boats'.jpg\" – Ioannis (Yiannis) Poulakas (1863-1942) // Ιωάννης (Γιάννης) Πούλακας (1863-1942), Public domain (https://commons.wikimedia.org/wiki/File:Ioannis_Poulakas_%27Coast_with_fishing_boats%27.jpg)",
+    "text": "File:Ioannis Poulakas 'Coast with fishing boats'.jpg Coast with fishing boats, oil on canvas, 34 x 56 cm. In private collection."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ioannis_Poulakas_Rocky_coast.jpg/1920px-Ioannis_Poulakas_Rocky_coast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2519,
+    "h": 1500,
+    "credit": "\"Ioannis Poulakas Rocky coast.jpg\" – Ioannis (Yiannis) Poulakas (1863-1942) // Ιωάννης (Γιάννης) Πούλακας (1863-1942), Public domain (https://commons.wikimedia.org/wiki/File:Ioannis_Poulakas_Rocky_coast.jpg)",
+    "text": "File:Ioannis Poulakas Rocky coast.jpg Rocky coast, oil on canvas, 34 x 56 cm. In private collection."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/General_douglas_macarthur_meets_american_indian_troops_wwii_military_pacific_navajo_pima_island_hopping.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1831,
+    "h": 1774,
+    "credit": "\"General douglas macarthur meets american indian troops wwii military pacific navajo pima island hopping.JPG\" – user:cramyourspam edited retouch of old US Govt photo, Public domain (https://commons.wikimedia.org/wiki/File:General_douglas_macarthur_meets_american_indian_troops_wwii_military_pacific_navajo_pima_island_hopping.JPG)",
+    "text": "File:General douglas macarthur meets american indian troops wwii military pacific navajo pima island hopping.JPG Photo nationally publicized in February, 1944, of General Douglas MacArthur meeting fiv"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Luftwaffe_Ju-87_%22Stuka%22_Hellenic_Air_Museum%2C_Tatoi-Dekelia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1600,
+    "h": 1200,
+    "credit": "\"Luftwaffe Ju-87 \"Stuka\" Hellenic Air Museum, Tatoi-Dekelia.jpg\" – Jerry Gunner from Lincoln, UK, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Luftwaffe_Ju-87_%22Stuka%22_Hellenic_Air_Museum,_Tatoi-Dekelia.jpg)",
+    "text": "File:Luftwaffe Ju-87 \"Stuka\" Hellenic Air Museum, Tatoi-Dekelia.jpg The wreckage of a Stuka dive bomber at the Greek Air Force Museum.  The HAF Underwater Operations Team (KOSYTHE) helped recover some"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Medal%2C_commemorative_%28AM_2001.25.130.9-1%29.jpg/1920px-Medal%2C_commemorative_%28AM_2001.25.130.9-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 3648,
+    "credit": "\"Medal, commemorative (AM 2001.25.130.9-1).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Medal,_commemorative_(AM_2001.25.130.9-1).jpg)",
+    "text": "File:Medal, commemorative (AM 2001.25.130.9-1).jpg Greek War Medal 1940-41 awarded to Brigadier George Palmer CADE (DSO), 1909-1987, WW2- Service no. 20009, 29th Field Battery, 5th and 6th Field Rgt.,"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Medal%2C_commemorative_%28AM_2001.25.130.9-2%29.jpg/1920px-Medal%2C_commemorative_%28AM_2001.25.130.9-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 3648,
+    "credit": "\"Medal, commemorative (AM 2001.25.130.9-2).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Medal,_commemorative_(AM_2001.25.130.9-2).jpg)",
+    "text": "File:Medal, commemorative (AM 2001.25.130.9-2).jpg Greek War Medal 1940-41 awarded to Brigadier George Palmer CADE (DSO), 1909-1987, WW2- Service no. 20009, 29th Field Battery, 5th and 6th Field Rgt.,"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Handkerchief_%28AM_2001.25.133-2%29.jpg/1920px-Handkerchief_%28AM_2001.25.133-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2276,
+    "h": 747,
+    "credit": "\"Handkerchief (AM 2001.25.133-2).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Handkerchief_(AM_2001.25.133-2).jpg)",
+    "text": "File:Handkerchief (AM 2001.25.133-2).jpg Handkerchief square handkerchief of red unpatterned silk"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Waterfront_of_Salonika%2C_Greece_shortly_before_the_Germans_occupied_the_city%2C_1941_%2823917739214%29.jpg/1920px-Waterfront_of_Salonika%2C_Greece_shortly_before_the_Germans_occupied_the_city%2C_1941_%2823917739214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2596,
+    "h": 1776,
+    "credit": "\"Waterfront of Salonika, Greece shortly before the Germans occupied the city, 1941 (23917739214).jpg\" – National Museum of the U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:Waterfront_of_Salonika,_Greece_shortly_before_the_Germans_occupied_the_city,_1941_(23917739214).jpg)",
+    "text": "File:Waterfront of Salonika, Greece shortly before the Germans occupied the city, 1941 (23917739214).jpg Lot 11618-5:   Salonika, Greece, 1941.   The waterfront of Salonika, shortly before the Germans"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Peloponnese_Road.jpg/1920px-Peloponnese_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4992,
+    "h": 3328,
+    "credit": "\"Peloponnese Road.jpg\" – Magnus.chronicles, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Peloponnese_Road.jpg)",
+    "text": "File:Peloponnese Road.jpg Road on east coast of Peloponnese between Nafplion and Leonidio."
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Admiralty_Chart_No_207_West_coast_of_Morea_%28Peloponnese%29_from_Kastro_Tornese_%28Chlemoutsi_castle%29_to_Venetico_%28Venetiko%29_including_Zakynthos%2C_Published_1867.jpg/1920px-Admiralty_Chart_No_207_West_coast_of_Morea_%28Peloponnese%29_from_Kastro_Tornese_%28Chlemoutsi_castle%29_to_Venetico_%28Venetiko%29_including_Zakynthos%2C_Published_1867.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8090,
+    "h": 12182,
+    "credit": "\"Admiralty Chart No 207 West coast of Morea (Peloponnese) from Kastro Tornese (Chlemoutsi castle) to Venetico (Venetiko) including Zakynthos, Published 1867.jpg\" – G.H. Richard, Public domain (https://commons.wikimedia.org/wiki/File:Admiralty_Chart_No_207_West_coast_of_Morea_(Peloponnese)_from_Kastro_Tornese_(Chlemoutsi_castle)_to_Venetico_(Venetiko)_including_Zakynthos,_Published_1867.jpg)",
+    "text": "File:Admiralty Chart No 207 West coast of Morea (Peloponnese) from Kastro Tornese (Chlemoutsi castle) to Venetico (Venetiko) including Zakynthos, Published 1867.jpg English: Nautical chart of the west"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Tigani_Peloponnese_-_panoramio.jpg/1920px-Tigani_Peloponnese_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4476,
+    "h": 1742,
+    "credit": "\"Tigani Peloponnese - panoramio.jpg\" – john frangopoulos, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Tigani_Peloponnese_-_panoramio.jpg)",
+    "text": "File:Tigani Peloponnese - panoramio.jpg Tigani  Peloponnese"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/View_lapithas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1600,
+    "h": 1200,
+    "credit": "\"View lapithas.JPG\" – Huskarl2000, Public domain (https://commons.wikimedia.org/wiki/File:View_lapithas.JPG)",
+    "text": "File:View lapithas.JPG vief of Zacharo and Gulf of Kyparissia from Lapithas mountain."
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sunsetzach1.jpg/1920px-Sunsetzach1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3072,
+    "h": 2304,
+    "credit": "\"Sunsetzach1.jpg\" – Huskarl2000, Public domain (https://commons.wikimedia.org/wiki/File:Sunsetzach1.jpg)",
+    "text": "File:Sunsetzach1.jpg Sunset in Zacharo beach."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Aerial_view_of_the_coast_of_Kyllini_on_Peloponnese%2C_Greece_%2851223816089%29.jpg/1920px-Aerial_view_of_the_coast_of_Kyllini_on_Peloponnese%2C_Greece_%2851223816089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5464,
+    "h": 3640,
+    "credit": "\"Aerial view of the coast of Kyllini on Peloponnese, Greece (51223816089).jpg\" – dronepicr, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_coast_of_Kyllini_on_Peloponnese,_Greece_(51223816089).jpg)",
+    "text": "File:Aerial view of the coast of Kyllini on Peloponnese, Greece (51223816089).jpg Greece"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Aerial_view_of_Zogeria_Beach_on_Spetses_with_Peloponnese_in_the_background%2C_Greece_%2848759798998%29.jpg/1920px-Aerial_view_of_Zogeria_Beach_on_Spetses_with_Peloponnese_in_the_background%2C_Greece_%2848759798998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5464,
+    "h": 3070,
+    "credit": "\"Aerial view of Zogeria Beach on Spetses with Peloponnese in the background, Greece (48759798998).jpg\" – dronepicr, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Aerial_view_of_Zogeria_Beach_on_Spetses_with_Peloponnese_in_the_background,_Greece_(48759798998).jpg)",
+    "text": "File:Aerial view of Zogeria Beach on Spetses with Peloponnese in the background, Greece (48759798998).jpg Greece"
+   }
+  ]
+ },
+ {
+  "slot": "R04",
+  "beats": null,
+  "mo_ta": "tàu hỏa chở xe tăng Đức 1943",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Dampflokomotive_52_5448-7_im_Bahnhof_von_Leipzig.jpg/1920px-Dampflokomotive_52_5448-7_im_Bahnhof_von_Leipzig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2677,
+    "h": 1705,
+    "credit": "\"Dampflokomotive 52 5448-7 im Bahnhof von Leipzig.jpg\" – Michael Gäbler, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Dampflokomotive_52_5448-7_im_Bahnhof_von_Leipzig.jpg)",
+    "text": "File:Dampflokomotive 52 5448-7 im Bahnhof von Leipzig.jpg The Schichau-Werke built this Tank locomotive No. 52 5448-7 in 1943. The Schichau-Werke was a German engineering works and shipyard based in E"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Abandoned_German_Panzer_VI_Tiger_tanks_on_flatbed_cars_in_Reims%2C_France%2C_in_September_1944_%28342-FH-3A19113-B53859AC%29.jpg/1920px-Abandoned_German_Panzer_VI_Tiger_tanks_on_flatbed_cars_in_Reims%2C_France%2C_in_September_1944_%28342-FH-3A19113-B53859AC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3827,
+    "h": 2952,
+    "credit": "\"Abandoned German Panzer VI Tiger tanks on flatbed cars in Reims, France, in September 1944 (342-FH-3A19113-B53859AC).jpg\" – U.S. Army Air Forces photo 342-FH-3A19113-B53859AC, Public domain (https://commons.wikimedia.org/wiki/File:Abandoned_German_Panzer_VI_Tiger_tanks_on_flatbed_cars_in_Reims,_France,_in_September_1944_(342-FH-3A19113-B53859AC).jpg)",
+    "text": "File:Abandoned German Panzer VI Tiger tanks on flatbed cars in Reims, France, in September 1944 (342-FH-3A19113-B53859AC).jpg Abandoned German Panzerkampfwagen VI Tiger tanks on flatbed cars in Reims,"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/JR_Kashima-Jingu_Station_%2850762128876%29.jpg/1920px-JR_Kashima-Jingu_Station_%2850762128876%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1920,
+    "credit": "\"JR Kashima-Jingu Station (50762128876).jpg\" – Kzaral, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:JR_Kashima-Jingu_Station_(50762128876).jpg)",
+    "text": "File:JR Kashima-Jingu Station (50762128876).jpg JR Kashima-Jingu Station"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/JR_Kashima-Jingu_Station_%2850762128836%29.jpg/1920px-JR_Kashima-Jingu_Station_%2850762128836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1920,
+    "credit": "\"JR Kashima-Jingu Station (50762128836).jpg\" – Kzaral, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:JR_Kashima-Jingu_Station_(50762128836).jpg)",
+    "text": "File:JR Kashima-Jingu Station (50762128836).jpg JR Kashima-Jingu Station"
+   },
+   {
+    "so": 4,
+    "url": "https://live.staticflickr.com/65535/55333484816_1b248a82a1_b.jpg",
+    "w": 791,
+    "h": 1024,
+    "credit": "\"Four soldiers of the Panzer Lehr division gather around a map as they plan their offensive in the town of Tilly-sur-Seulles. The Panzer Lehr division was an elite German armored division during World War II. It was formed in 1943 from training and demonst\" – WWII in View, Public Domain (https://www.flickr.com/photos/191031534@N08/55333484816)",
+    "text": "Four soldiers of the Panzer Lehr division gather around a map as they plan their offensive in the town of Tilly-sur-Seulles. The Panzer Lehr division was an elite German armored division during World "
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/127-N-65905_-_Shown_here_with_his_two_Marine_Trainers_is_Thor%2C_five_year_old_German_Shepherd_messenger_dog_who_was_donated_for_war_service_to_the_Marine_Corps_by_James_Beplat_%28Flushing%2C_New_York%29._%2850004634503%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5538,
+    "h": 4047,
+    "credit": "\"127-N-65905 - Shown here with his two Marine Trainers is Thor, five year old German Shepherd messenger dog who was donated for war service to the Marine Corps by James Beplat (Flushing, New York). (50004634503).jpg\" – Signal Corps Archive from Ireland and United States, Public domain (https://commons.wikimedia.org/wiki/File:127-N-65905_-_Shown_here_with_his_two_Marine_Trainers_is_Thor,_five_year_old_German_Shepherd_messenger_dog_who_was_donated_for_war_service_to_the_Marine_Corps_by_James_Beplat_(Flushing,_New_York)._(50004634503).jpg)",
+    "text": "File:127-N-65905 - Shown here with his two Marine Trainers is Thor, five year old German Shepherd messenger dog who was donated for war service to the Marine Corps by James Beplat (Flushing, New York)"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/SHEAF_Handbook_NSFK_of_the_NSDAP_0121_Nazi_Germany_NSKK_NS_Motor_Corps_Kraftbootstandarte_Motorboat_units_%28Uniform_plate_NSDAP_Organisationsbuch_1940%3F%29_Uncredited_artwork_Public_domain.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2481,
+    "h": 3992,
+    "credit": "\"SHEAF Handbook NSFK of the NSDAP 0121 Nazi Germany NSKK NS Motor Corps Kraftbootstandarte Motorboat units (Uniform plate NSDAP Organisationsbuch 1940?) Uncredited artwork Public domain.jpg\" – Uncredited artwork. Unidentified / anonymous illustrator., Public domain (https://commons.wikimedia.org/wiki/File:SHEAF_Handbook_NSFK_of_the_NSDAP_0121_Nazi_Germany_NSKK_NS_Motor_Corps_Kraftbootstandarte_Motorboat_units_(Uniform_plate_NSDAP_Organisationsbuch_1940%3F)_Uncredited_artwork_Public_domain.jpg)",
+    "text": "File:SHEAF Handbook NSFK of the NSDAP 0121 Nazi Germany NSKK NS Motor Corps Kraftbootstandarte Motorboat units (Uniform plate NSDAP Organisationsbuch 1940?) Uncredited artwork Public domain.jpg Parami"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/SHEAF_Handbook_NSFK_of_the_NSDAP_0121_Nazi_Germany_NSKK_NS_Motor_Corps_Kraftbootstandarte_Motorboat_units_%28Uniform_plate_NSDAP_Organisationsbuch_1940%3F%29_Uncredited_artwork_Public_domain-kopi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1611,
+    "h": 2417,
+    "credit": "\"SHEAF Handbook NSFK of the NSDAP 0121 Nazi Germany NSKK NS Motor Corps Kraftbootstandarte Motorboat units (Uniform plate NSDAP Organisationsbuch 1940?) Uncredited artwork Public domain-kopi.jpg\" – Uncredited artwork. Unidentified / anonymous illustrator., Public domain (https://commons.wikimedia.org/wiki/File:SHEAF_Handbook_NSFK_of_the_NSDAP_0121_Nazi_Germany_NSKK_NS_Motor_Corps_Kraftbootstandarte_Motorboat_units_(Uniform_plate_NSDAP_Organisationsbuch_1940%3F)_Uncredited_artwork_Public_domain-kopi.jpg)",
+    "text": "File:SHEAF Handbook NSFK of the NSDAP 0121 Nazi Germany NSKK NS Motor Corps Kraftbootstandarte Motorboat units (Uniform plate NSDAP Organisationsbuch 1940?) Uncredited artwork Public domain-kopi.jpg P"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/The_Making_of_Ski_Troopers_at_Camp_Hale_%28154146_-_cocamphale_oli_20250222_lrg%29.jpg/1920px-The_Making_of_Ski_Troopers_at_Camp_Hale_%28154146_-_cocamphale_oli_20250222_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6114,
+    "h": 4076,
+    "credit": "\"The Making of Ski Troopers at Camp Hale (154146 - cocamphale oli 20250222 lrg).jpg\" – NASA Earth Observatory images by Michala Garrison, using Landsat data from the U.S. Geological Survey. Story by Adam Voiland., Public domain (https://commons.wikimedia.org/wiki/File:The_Making_of_Ski_Troopers_at_Camp_Hale_(154146_-_cocamphale_oli_20250222_lrg).jpg)",
+    "text": "File:The Making of Ski Troopers at Camp Hale (154146 - cocamphale oli 20250222 lrg).jpg Today’s story is the answer to the April 2025 puzzler.\nDuring the Winter War of 1939-1940, Finnish troops used t"
+   }
+  ]
+ },
+ {
+  "slot": "R05",
+  "beats": null,
+  "mo_ta": "máy điện báo/teleprinter, điện tín thời chiến",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/German_Army_and_Luftwaffe_Enigma_Machine_-_A16991_in_Bletchley_Park.jpg/1920px-German_Army_and_Luftwaffe_Enigma_Machine_-_A16991_in_Bletchley_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1944,
+    "h": 2592,
+    "credit": "\"German Army and Luftwaffe Enigma Machine - A16991 in Bletchley Park.jpg\" – Vintage Fan 5678, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:German_Army_and_Luftwaffe_Enigma_Machine_-_A16991_in_Bletchley_Park.jpg)",
+    "text": "File:German Army and Luftwaffe Enigma Machine - A16991 in Bletchley Park.jpg German Army and Luftwaffe Enigma Machine - A16991 in Bletchley Park"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Very_rare_Czechoslovakian_Enigma_G-110_Machine_on_Display_in_%27Bletchley_Park%2C_Milton_Keynes_in_2022.jpg/1920px-Very_rare_Czechoslovakian_Enigma_G-110_Machine_on_Display_in_%27Bletchley_Park%2C_Milton_Keynes_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2592,
+    "h": 1944,
+    "credit": "\"Very rare Czechoslovakian Enigma G-110 Machine on Display in 'Bletchley Park, Milton Keynes in 2022.jpg\" – Vintage Fan 5678, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Very_rare_Czechoslovakian_Enigma_G-110_Machine_on_Display_in_%27Bletchley_Park,_Milton_Keynes_in_2022.jpg)",
+    "text": "File:Very rare Czechoslovakian Enigma G-110 Machine on Display in 'Bletchley Park, Milton Keynes in 2022.jpg Very rare Czechoslovakian Enigma G-110 Machine on Display in 'Bletchley Park, Milton Keynes"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/SG-41_Enigma_Machine_on_display_in_Bletchley_Park.jpg/1920px-SG-41_Enigma_Machine_on_display_in_Bletchley_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1944,
+    "h": 2592,
+    "credit": "\"SG-41 Enigma Machine on display in Bletchley Park.jpg\" – Vintage Fan 5678, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:SG-41_Enigma_Machine_on_display_in_Bletchley_Park.jpg)",
+    "text": "File:SG-41 Enigma Machine on display in Bletchley Park.jpg SG-41 Enigma Machine on display in Bletchley Park."
+   },
+   {
+    "so": 3,
+    "url": "https://live.staticflickr.com/65535/54577650560_08c00c4923_b.jpg",
+    "w": 701,
+    "h": 1024,
+    "credit": "\"Bletchley Park Mansion Ballroom Ceiling 3\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54577650560)",
+    "text": "Bletchley Park Mansion Ballroom Ceiling 3 bletchley buckinghamshire keynes milton park"
+   },
+   {
+    "so": 4,
+    "url": "https://live.staticflickr.com/65535/54576455397_4167b0b59b_b.jpg",
+    "w": 1024,
+    "h": 706,
+    "credit": "\"Bletchley Park Mansion Ballroom\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54576455397)",
+    "text": "Bletchley Park Mansion Ballroom bletchley buckinghamshire keynes milton park"
+   },
+   {
+    "so": 5,
+    "url": "https://live.staticflickr.com/65535/54575823853_64050d57df_b.jpg",
+    "w": 1024,
+    "h": 761,
+    "credit": "\"Bletchley Park Mansion 5\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54575823853)",
+    "text": "Bletchley Park Mansion 5 bletchley buckinghamshire building grade2 gradeii keynes listed milton park"
+   },
+   {
+    "so": 6,
+    "url": "https://live.staticflickr.com/65535/54576292807_59fc79e16e_b.jpg",
+    "w": 1024,
+    "h": 806,
+    "credit": "\"Bletchley Park Mansion 10\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54576292807)",
+    "text": "Bletchley Park Mansion 10 bletchley buckinghamshire building grade2 gradeii keynes listed milton park"
+   },
+   {
+    "so": 7,
+    "url": "https://live.staticflickr.com/65535/54575925025_b8f25d91a4_b.jpg",
+    "w": 1024,
+    "h": 708,
+    "credit": "\"Bletchley Park Mansion 6\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54575925025)",
+    "text": "Bletchley Park Mansion 6 bletchley buckinghamshire building grade2 gradeii keynes listed milton park"
+   },
+   {
+    "so": 8,
+    "url": "https://live.staticflickr.com/65535/54577159736_0b84c518b7_b.jpg",
+    "w": 1024,
+    "h": 761,
+    "credit": "\"Bletchley Park Mansion 9\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54577159736)",
+    "text": "Bletchley Park Mansion 9 bletchley buckinghamshire building grade2 gradeii keynes listed milton park"
+   },
+   {
+    "so": 9,
+    "url": "https://live.staticflickr.com/65535/54579579656_6ed217dc7b_b.jpg",
+    "w": 1024,
+    "h": 842,
+    "credit": "\"1938 Austin 18 Six Cylinder Ambulance 1\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54579579656)",
+    "text": "1938 Austin 18 Six Cylinder Ambulance 1 bletchley buckinghamshire keynes milton park"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/An_Enigma_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 2048,
+    "credit": "\"An Enigma machine.jpg\" – Robert-brook, CC0 (https://commons.wikimedia.org/wiki/File:An_Enigma_machine.jpg)",
+    "text": "File:An Enigma machine.jpg An Enigma machine"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Machine_enigma_du_collectioneur_Edmond_Kern.jpg/1920px-Machine_enigma_du_collectioneur_Edmond_Kern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4032,
+    "h": 3024,
+    "credit": "\"Machine enigma du collectioneur Edmond Kern.jpg\" – Nicoleon, CC0 (https://commons.wikimedia.org/wiki/File:Machine_enigma_du_collectioneur_Edmond_Kern.jpg)",
+    "text": "File:Machine enigma du collectioneur Edmond Kern.jpg La machine enigma du collectioneur Edmond Kern au  Musée militaire Park France"
+   },
+   {
+    "so": 12,
+    "url": "https://live.staticflickr.com/65535/54579598496_d26702bcfd_b.jpg",
+    "w": 729,
+    "h": 1024,
+    "credit": "\"Enigma Machine 2\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54579598496)",
+    "text": "Enigma Machine 2 bletchley buckinghamshire keynes milton park"
+   },
+   {
+    "so": 13,
+    "url": "https://live.staticflickr.com/65535/54579598236_ffb79217a3_b.jpg",
+    "w": 757,
+    "h": 1024,
+    "credit": "\"Original three rotar naval Enigma machine\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54579598236)",
+    "text": "Original three rotar naval Enigma machine bletchley buckinghamshire keynes milton park"
+   },
+   {
+    "so": 14,
+    "url": "https://live.staticflickr.com/65535/54579820378_9f499d47f6_b.jpg",
+    "w": 995,
+    "h": 1024,
+    "credit": "\"Enigma Machine\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54579820378)",
+    "text": "Enigma Machine bletchley buckinghamshire keynes milton park"
+   },
+   {
+    "so": 15,
+    "url": "https://live.staticflickr.com/65535/53909291814_4378c776e0_b.jpg",
+    "w": 768,
+    "h": 1024,
+    "credit": "\"Enigma Machine\" – Tydence, CC BY 2.0 (https://www.flickr.com/photos/10426830@N08/53909291814)",
+    "text": "Enigma Machine"
+   }
+  ]
+ },
+ {
+  "slot": "R06",
+  "beats": null,
+  "mo_ta": "cặp da, thư niêm phong, ổ khóa",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJncmF0aXNvZ3JhcGh5MDAwMTQtaW1hZ2Uta3d2eWo1YW8uanBn.jpg",
+    "w": 3500,
+    "h": 2334,
+    "credit": "\"Close-up vintage leather suitcase samsonite\" – không rõ, CC0 (https://www.rawpixel.com/image/5927517/photo-image-public-domain-vintage-free)",
+    "text": "Close-up vintage leather suitcase samsonite briefcase leather leather bags leather suitcase object vintage suitcase vintage suitcase"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Reval_1855-02-09_church_letter_wax_seal_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1754,
+    "h": 1629,
+    "credit": "\"Reval 1855-02-09 church letter wax seal (cropped).jpg\" – Postal authorities of the Russian Empire (Estonia), Public domain (https://commons.wikimedia.org/wiki/File:Reval_1855-02-09_church_letter_wax_seal_(cropped).jpg)",
+    "text": "File:Reval 1855-02-09 church letter wax seal (cropped).jpg Reverse of a Russian Latvia wax-sealed stampless folded, free-frank church letter. Sent 1855-02-09 from Reval (Tallinn) Estonia."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Reward_letter_of_King_Philip_II_of_Spain_to_family_of_Balthasar_Gerards%2C_1590_-_was_seal.jpg/1920px-Reward_letter_of_King_Philip_II_of_Spain_to_family_of_Balthasar_Gerards%2C_1590_-_was_seal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4397,
+    "h": 5207,
+    "credit": "\"Reward letter of King Philip II of Spain to family of Balthasar Gerards, 1590 - was seal.jpg\" – Alonso de Laloo, secretary of Philip II of Spain, Public domain (https://commons.wikimedia.org/wiki/File:Reward_letter_of_King_Philip_II_of_Spain_to_family_of_Balthasar_Gerards,_1590_-_was_seal.jpg)",
+    "text": "File:Reward letter of King Philip II of Spain to family of Balthasar Gerards, 1590 - was seal.jpg Wax seal on the reward letter of King Philip II of Spain to family of Balthasar Gerards, 1590"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/US_Vice_Presidents_seal_1850.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1577,
+    "h": 1554,
+    "credit": "\"US Vice Presidents seal 1850.jpg\" – U.S. Government (photo); seal designer unknown, Public domain (https://commons.wikimedia.org/wiki/File:US_Vice_Presidents_seal_1850.jpg)",
+    "text": "File:US Vice Presidents seal 1850.jpg Impression of the Seal of the Vice President of the United States in red wax, as seen on an envelope on a letter from January 26, 1850.  The letter was from Vice "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg/1920px-Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2008,
+    "h": 1584,
+    "credit": "\"Netherlands 1932-1-21 money letter NVPH 193 SF reverse.jpg\" – Post of the Netherlands, Public domain (https://commons.wikimedia.org/wiki/File:Netherlands_1932-1-21_money_letter_NVPH_193_SF_reverse.jpg)",
+    "text": "File:Netherlands 1932-1-21 money letter NVPH 193 SF reverse.jpg Netherlands 1932-1-21 money letter franked with 27.5c NVPH 193 single, from Stadskanaal to Copenhagen. 5 wax seals of 'De Twentsche Bank"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg/1920px-Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1972,
+    "h": 1572,
+    "credit": "\"Netherlands 1932-10-1 money letter NVPH 193 SF reverse.jpg\" – Post of the Netherlands, Public domain (https://commons.wikimedia.org/wiki/File:Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg)",
+    "text": "File:Netherlands 1932-10-1 money letter NVPH 193 SF reverse.jpg Netherlands 1932-10-1 registered money letter franked with 27.5c NVPH 193 single, from Stadskanaal to Copenhagen. Wax seal of 'De Twents"
+   },
+   {
+    "so": 6,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3JpamtzcnAtZC0wMC0xMDc3LWltYWdlLmpwZw.jpg",
+    "w": 4426,
+    "h": 5862,
+    "credit": "\"Publicatie van de ratificatie van\" – rijksmuseum, CC0 (https://www.rawpixel.com/image/13751926/publicatie-van-ratificatie-van-vrede-breda-1667-1667-anonymous)",
+    "text": "Publicatie van de ratificatie van architecture letter old paper old wax seal paper sealing wax wax seal"
+   },
+   {
+    "so": 7,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3JpamtzbmctMjAyMC04LTItNS1pbWFnZS5qcGc.jpg",
+    "w": 10540,
+    "h": 7636,
+    "credit": "\"Diverse eigendomsbewijzen en andere juridische\" – rijksmuseum, CC0 (https://www.rawpixel.com/image/13743623/photo-image-background-paper-art)",
+    "text": "Diverse eigendomsbewijzen en andere juridische art letter paper pattern wall wax seal wax seal letter wood"
+   },
+   {
+    "so": 8,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL2xyL3Jpamtzbmctbm0tMTAzMjUtMi1pbWFnZS5qcGc.jpg",
+    "w": 3594,
+    "h": 5188,
+    "credit": "\"Document bij Doggersbank-penning (1811) anonymous\" – rijksmuseum, CC0 (https://www.rawpixel.com/image/13733842/document-bij-doggersbank-penning-1811-anonymous)",
+    "text": "Document bij Doggersbank-penning (1811) anonymous document letter document seal letter rope old stained paper rope sealing wax sketch wax seal"
+   },
+   {
+    "so": 9,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3drOTg2NDQ3My1pbWFnZS5qcGc.jpg",
+    "w": 3744,
+    "h": 2634,
+    "credit": "\"Unbroken wax seal folded letter\" – không rõ, CC0 (https://www.rawpixel.com/image/8717910/photo-image-vintage-public-domain-letter)",
+    "text": "Unbroken wax seal folded letter envelope letter mail old envelope old letter vintage envelope vintage letter wax seal"
+   },
+   {
+    "so": 10,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3dpZW44NzkwMS1pbWFnZS5qcGc.jpg",
+    "w": 3500,
+    "h": 4856,
+    "credit": "\"Legitimation card k.k.City command shop\" – không rõ, CC0 (https://www.rawpixel.com/image/11689452/image-people-art-vintage)",
+    "text": "Legitimation card k.k.City command shop art letter no people old paper paper vintage wax seal"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_Department_of_State%E2%80%99s_Diplomatic_Pouch_and_Mail_Room%2C_1939._%2841932292920%29.jpg/1920px-The_Department_of_State%E2%80%99s_Diplomatic_Pouch_and_Mail_Room%2C_1939._%2841932292920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2400,
+    "h": 1888,
+    "credit": "\"The Department of State’s Diplomatic Pouch and Mail Room, 1939. (41932292920).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:The_Department_of_State%E2%80%99s_Diplomatic_Pouch_and_Mail_Room,_1939._(41932292920).jpg)",
+    "text": "File:The Department of State’s Diplomatic Pouch and Mail Room, 1939. (41932292920).jpg The Department of State’s Diplomatic Pouch and Mail Room, 1939. As the image suggests, the sheer volume of Depart"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/December_1951%2C_a_diplomatic_courier_seals_a_pouch._%2831697513598%29.jpg/1920px-December_1951%2C_a_diplomatic_courier_seals_a_pouch._%2831697513598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5868,
+    "h": 4729,
+    "credit": "\"December 1951, a diplomatic courier seals a pouch. (31697513598).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_seals_a_pouch._(31697513598).jpg)",
+    "text": "File:December 1951, a diplomatic courier seals a pouch. (31697513598).jpg December 1951, a diplomatic courier seals a pouch."
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/December_1951%2C_a_diplomatic_courier_stuffs_a_pouch._%2844656079695%29.jpg/1920px-December_1951%2C_a_diplomatic_courier_stuffs_a_pouch._%2844656079695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5868,
+    "h": 4729,
+    "credit": "\"December 1951, a diplomatic courier stuffs a pouch. (44656079695).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_stuffs_a_pouch._(44656079695).jpg)",
+    "text": "File:December 1951, a diplomatic courier stuffs a pouch. (44656079695).jpg December 1951, a diplomatic courier stuffs a pouch."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/December_1951%2C_a_diplomatic_courier_fills_a_vertical_pouch._%2844656077725%29.jpg/1920px-December_1951%2C_a_diplomatic_courier_fills_a_vertical_pouch._%2844656077725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4729,
+    "h": 5868,
+    "credit": "\"December 1951, a diplomatic courier fills a vertical pouch. (44656077725).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:December_1951,_a_diplomatic_courier_fills_a_vertical_pouch._(44656077725).jpg)",
+    "text": "File:December 1951, a diplomatic courier fills a vertical pouch. (44656077725).jpg December 1951, a diplomatic courier fills a vertical pouch."
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/A_diplomatic_pouch_which_would_have_held_relatively_small_written_dispatches_in_briefcases_before_1980._%2843693628452%29.jpg/1920px-A_diplomatic_pouch_which_would_have_held_relatively_small_written_dispatches_in_briefcases_before_1980._%2843693628452%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3456,
+    "h": 5184,
+    "credit": "\"A diplomatic pouch which would have held relatively small written dispatches in briefcases before 1980. (43693628452).jpg\" – Diplomatic Security Service from Washington, D.C., United States of America, Public domain (https://commons.wikimedia.org/wiki/File:A_diplomatic_pouch_which_would_have_held_relatively_small_written_dispatches_in_briefcases_before_1980._(43693628452).jpg)",
+    "text": "File:A diplomatic pouch which would have held relatively small written dispatches in briefcases before 1980. (43693628452).jpg A diplomatic pouch which would have held relatively small written dispatc"
+   }
+  ]
+ },
+ {
+  "slot": "R07",
+  "beats": null,
+  "mo_ta": "tàu ngầm Anh trồi lên mặt nước WWII",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/A_British_Submarine_Returns_To_Harbour_After_New_Successes_in_the_Mediterranean._22_To_24_February_1943%2C_Algiers_and_at_Sea._A14984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 986,
+    "credit": "\"A British Submarine Returns To Harbour After New Successes in the Mediterranean. 22 To 24 February 1943, Algiers and at Sea. A14984.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:A_British_Submarine_Returns_To_Harbour_After_New_Successes_in_the_Mediterranean._22_To_24_February_1943,_Algiers_and_at_Sea._A14984.jpg)",
+    "text": "File:A British Submarine Returns To Harbour After New Successes in the Mediterranean. 22 To 24 February 1943, Algiers and at Sea. A14984.jpg A British Submarine Returns To Harbour After New Successes "
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/%27blind_Submarine%27_Returns_Home._3_and_4_April_1943%2C_Portsmouth%2C_the_British_Submarine_Ursala_Which_Sailed_%27blind%27_For_Six_Days_and_Nights_With_Her_Periscope_Smashed_After_Being_Rammed_by_An_A15679.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 870,
+    "credit": "\"'blind Submarine' Returns Home. 3 and 4 April 1943, Portsmouth, the British Submarine Ursala Which Sailed 'blind' For Six Days and Nights With Her Periscope Smashed After Being Rammed by An A15679.jpg\" – Leonard Pelman, Public domain (https://commons.wikimedia.org/wiki/File:%27blind_Submarine%27_Returns_Home._3_and_4_April_1943,_Portsmouth,_the_British_Submarine_Ursala_Which_Sailed_%27blind%27_For_Six_Days_and_Nights_With_Her_Periscope_Smashed_After_Being_Rammed_by_An_A15679.jpg)",
+    "text": "File:'blind Submarine' Returns Home. 3 and 4 April 1943, Portsmouth, the British Submarine Ursala Which Sailed 'blind' For Six Days and Nights With Her Periscope Smashed After Being Rammed by An A1567"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/The_Submarine_Hm_Graph_-_Ex-u-boat_570._20_April_1943%2C_Holy_Loch%2C_the_German_Submarine_U_570_Which_Was_Captured_and_Renamed_HMS_Graph._in_1941_a_Hudson_Aircraft_Forced_the_U-boat_To_Surrender_on_the_Surface%2C_Un_A16044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 986,
+    "credit": "\"The Submarine Hm Graph - Ex-u-boat 570. 20 April 1943, Holy Loch, the German Submarine U 570 Which Was Captured and Renamed HMS Graph. in 1941 a Hudson Aircraft Forced the U-boat To Surrender on the Surface, Un A16044.jpg\" – Tomlin, H W (Lt), Public domain (https://commons.wikimedia.org/wiki/File:The_Submarine_Hm_Graph_-_Ex-u-boat_570._20_April_1943,_Holy_Loch,_the_German_Submarine_U_570_Which_Was_Captured_and_Renamed_HMS_Graph._in_1941_a_Hudson_Aircraft_Forced_the_U-boat_To_Surrender_on_the_Surface,_Un_A16044.jpg)",
+    "text": "File:The Submarine Hm Graph - Ex-u-boat 570. 20 April 1943, Holy Loch, the German Submarine U 570 Which Was Captured and Renamed HMS Graph. in 1941 a Hudson Aircraft Forced the U-boat To Surrender on "
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Most_Elusive_Submarine_Home_After_Years%27_Successful_Service_in_Mediterranean._4_March_1943%2C_No_British_Submarine_Has_Been_Hunted_More_Relentlessly_Than_HMS_Taku%2C_%28commander_Lt_a_J_W_Pitt%2C_Rn%29%2C_Earlier_in_the_Wa_A15031.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 958,
+    "credit": "\"Most Elusive Submarine Home After Years' Successful Service in Mediterranean. 4 March 1943, No British Submarine Has Been Hunted More Relentlessly Than HMS Taku, (commander Lt a J W Pitt, Rn), Earlier in the Wa A15031.jpg\" – Trusler, C (Lt), Public domain (https://commons.wikimedia.org/wiki/File:Most_Elusive_Submarine_Home_After_Years%27_Successful_Service_in_Mediterranean._4_March_1943,_No_British_Submarine_Has_Been_Hunted_More_Relentlessly_Than_HMS_Taku,_(commander_Lt_a_J_W_Pitt,_Rn),_Earlier_in_the_Wa_A15031.jpg)",
+    "text": "File:Most Elusive Submarine Home After Years' Successful Service in Mediterranean. 4 March 1943, No British Submarine Has Been Hunted More Relentlessly Than HMS Taku, (commander Lt a J W Pitt, Rn), Ea"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Crew_of_HMS_Submarine_SATYR_with_a_Jolly_Roger_flag_-_IWM_A_25466.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 847,
+    "credit": "\"Crew of HMS Submarine SATYR with a Jolly Roger flag - IWM A 25466.jpg\" – Zimmerman, E A (Lt), Public domain (https://commons.wikimedia.org/wiki/File:Crew_of_HMS_Submarine_SATYR_with_a_Jolly_Roger_flag_-_IWM_A_25466.jpg)",
+    "text": "File:Crew of HMS Submarine SATYR with a Jolly Roger flag - IWM A 25466.jpg British Submarine Sinks German U-Boat. 31 August 1944, Dundee. During a Patrol Off Norway HM Submarine Satyr, Commanded by Li"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean%2C_24_December_1943._A21112.jpg/1920px-The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean%2C_24_December_1943._A21112.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2297,
+    "h": 1772,
+    "credit": "\"The officers of HM Submarine SERAPH on her return to Portsmouth after operations in the Mediterranean, 24 December 1943. A21112.jpg\" – Pelman, L (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean,_24_December_1943._A21112.jpg)",
+    "text": "File:The officers of HM Submarine SERAPH on her return to Portsmouth after operations in the Mediterranean, 24 December 1943. A21112.jpg The officers of HM Submarine SERAPH on her return to Portsmouth"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg/1920px-The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2309,
+    "h": 1748,
+    "credit": "\"The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg\" – Pelman, L (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg)",
+    "text": "File:The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg The Royal Navy during the Second World War\nHMS SERAPH arriving home at Portsmouth after 13 busy months."
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/HMS_Seraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1272,
+    "h": 1007,
+    "credit": "\"HMS Seraph.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMS_Seraph.jpg)",
+    "text": "File:HMS Seraph.jpg HMS Seraph on patrol"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/The_Royal_Navy_during_the_Second_World_War_A26384.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 958,
+    "credit": "\"The Royal Navy during the Second World War A26384.jpg\" – Parnall, C H (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A26384.jpg)",
+    "text": "File:The Royal Navy during the Second World War A26384.jpg The Royal Navy during the Second World War\nThe helmsman of HMSM SERAPH, Leading Seaman C T Bastone, at his controls while the submarine was i"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Tie-pin_%28AM_2004.124.20-3%29.jpg/1920px-Tie-pin_%28AM_2004.124.20-3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3778,
+    "h": 2519,
+    "credit": "\"Tie-pin (AM 2004.124.20-3).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Tie-pin_(AM_2004.124.20-3).jpg)",
+    "text": "File:Tie-pin (AM 2004.124.20-3).jpg Souvenir silver submarine tie-pin, belonged to H J Somerville, NZ 5172, Royal Navy, WW2 (possibly a souvenir of HMS Seraph) silver tie-pin in shape of submarine; br"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Tie-pin_%28AM_2004.124.20-4%29.jpg/1920px-Tie-pin_%28AM_2004.124.20-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5027,
+    "h": 3351,
+    "credit": "\"Tie-pin (AM 2004.124.20-4).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Tie-pin_(AM_2004.124.20-4).jpg)",
+    "text": "File:Tie-pin (AM 2004.124.20-4).jpg Souvenir silver submarine tie-pin, belonged to H J Somerville, NZ 5172, Royal Navy, WW2 (possibly a souvenir of HMS Seraph) silver tie-pin in shape of submarine; br"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Tie-pin_%28AM_2004.124.20-1%29.jpg/1920px-Tie-pin_%28AM_2004.124.20-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4021,
+    "h": 2681,
+    "credit": "\"Tie-pin (AM 2004.124.20-1).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Tie-pin_(AM_2004.124.20-1).jpg)",
+    "text": "File:Tie-pin (AM 2004.124.20-1).jpg Souvenir silver submarine tie-pin, belonged to H J Somerville, NZ 5172, Royal Navy, WW2 (possibly a souvenir of HMS Seraph) silver tie-pin in shape of submarine; br"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Tie-pin_%28AM_2004.124.20-2%29.jpg/1920px-Tie-pin_%28AM_2004.124.20-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4861,
+    "h": 3472,
+    "credit": "\"Tie-pin (AM 2004.124.20-2).jpg\" – Unknown authorUnknown author, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Tie-pin_(AM_2004.124.20-2).jpg)",
+    "text": "File:Tie-pin (AM 2004.124.20-2).jpg Souvenir silver submarine tie-pin, belonged to H J Somerville, NZ 5172, Royal Navy, WW2 (possibly a souvenir of HMS Seraph) silver tie-pin in shape of submarine; br"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Royal_Australian_Navy%2C_USS_Vermont%2C_SSN_792%2C_U_S_Navy%2C_Submarine_Warfare_Device_%288804145%29.jpg/1920px-Royal_Australian_Navy%2C_USS_Vermont%2C_SSN_792%2C_U_S_Navy%2C_Submarine_Warfare_Device_%288804145%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6180,
+    "h": 4120,
+    "credit": "\"Royal Australian Navy, USS Vermont, SSN 792, U S Navy, Submarine Warfare Device (8804145).jpg\" – U.S. Navy SG-7 by Petty Officer 2nd Class Daniel Providakes, Public domain (https://commons.wikimedia.org/wiki/File:Royal_Australian_Navy,_USS_Vermont,_SSN_792,_U_S_Navy,_Submarine_Warfare_Device_(8804145).jpg)",
+    "text": "File:Royal Australian Navy, USS Vermont, SSN 792, U S Navy, Submarine Warfare Device (8804145).jpg YOKOSUKA, Japan (Dec. 12, 2024) –Royal Australian Navy Lt. Cmdr. James stands in front the Virginia-c"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/USS_Tennessee_%28SSBN-734%29_and_a_Royal_Navy_Vanguard-class_ballistic_missile_submarine_underway_in_the_Atlantic_Ocean_on_23_November_2022_%28221123-N-N0736-001%29.JPG/1920px-USS_Tennessee_%28SSBN-734%29_and_a_Royal_Navy_Vanguard-class_ballistic_missile_submarine_underway_in_the_Atlantic_Ocean_on_23_November_2022_%28221123-N-N0736-001%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6219,
+    "h": 4146,
+    "credit": "\"USS Tennessee (SSBN-734) and a Royal Navy Vanguard-class ballistic missile submarine underway in the Atlantic Ocean on 23 November 2022 (221123-N-N0736-001).JPG\" – U.S. Navy photo by Naval Aircrewman (Operator) 1st Class Aaron Abbott, Public domain (https://commons.wikimedia.org/wiki/File:USS_Tennessee_(SSBN-734)_and_a_Royal_Navy_Vanguard-class_ballistic_missile_submarine_underway_in_the_Atlantic_Ocean_on_23_November_2022_(221123-N-N0736-001).JPG)",
+    "text": "File:USS Tennessee (SSBN-734) and a Royal Navy Vanguard-class ballistic missile submarine underway in the Atlantic Ocean on 23 November 2022 (221123-N-N0736-001).JPG The U.S. Navy Ohio-class ballistic"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Royal_Navy_Trafalgar-class_submarine_HMS_Trenchant_%282%29.jpg/1920px-Royal_Navy_Trafalgar-class_submarine_HMS_Trenchant_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4146,
+    "h": 2676,
+    "credit": "\"Royal Navy Trafalgar-class submarine HMS Trenchant (2).jpg\" – U.S. Navy photo by Mass Communication Specialist Seaman Zachary Wickline, Public domain (https://commons.wikimedia.org/wiki/File:Royal_Navy_Trafalgar-class_submarine_HMS_Trenchant_(2).jpg)",
+    "text": "File:Royal Navy Trafalgar-class submarine HMS Trenchant (2).jpg Royal Navy Trafalgar-class submarine HMS Trenchant and Royal Navy Wildcat HMA2, attached to Type 23 frigate HMS Iron Duke (F234), partic"
+   }
+  ]
+ },
+ {
+  "slot": "R08",
+  "beats": null,
+  "mo_ta": "lễ tang quân sự, nhà thờ, nến",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_draped_coffins_of_American_soldiers_at_a_military_funeral_ceremony_at_the_Madingley%2C_England%2C_%28date_unknown%2C_but_probably_after_1943%29_-_NARA_-_6003746_%28cropped%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2840,
+    "h": 2177,
+    "credit": "\"Flag draped coffins of American soldiers at a military funeral ceremony at the Madingley, England, (date unknown, but probably after 1943) - NARA - 6003746 (cropped).jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Flag_draped_coffins_of_American_soldiers_at_a_military_funeral_ceremony_at_the_Madingley,_England,_(date_unknown,_but_probably_after_1943)_-_NARA_-_6003746_(cropped).jpg)",
+    "text": "File:Flag draped coffins of American soldiers at a military funeral ceremony at the Madingley, England, (date unknown, but probably after 1943) - NARA - 6003746 (cropped).jpg "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_13.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7667,
+    "h": 5111,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 13.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_13.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 13.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_12.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7838,
+    "h": 5225,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 12.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_12.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 12.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_1.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7761,
+    "h": 5174,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 1.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_1.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 1.jpg Soldiers from 3d U.S. Infantry Regi"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_11.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8256,
+    "h": 5504,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 11.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_11.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 11.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_3.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7235,
+    "h": 4823,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 3.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_3.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 3.jpg Soldiers from 3d U.S. Infantry Regi"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_5.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7892,
+    "h": 5261,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 5.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_5.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 5.jpg Soldiers from 3d U.S. Infantry Regi"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_4.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7371,
+    "h": 4914,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 4.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_4.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 4.jpg Soldiers from 3d U.S. Infantry Regi"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_2.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8256,
+    "h": 5504,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 2.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_2.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 2.jpg Soldiers from 3d U.S. Infantry Regi"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_6.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7778,
+    "h": 5185,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 6.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_6.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 6.jpg Soldiers from 3d U.S. Infantry Regi"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_16.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7375,
+    "h": 4917,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 16.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_16.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 16.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_26.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8256,
+    "h": 5504,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 26.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_26.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 26.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_14.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7225,
+    "h": 4817,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 14.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_14.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 14.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_22.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8256,
+    "h": 5504,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 22.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_22.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 22.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_24.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7897,
+    "h": 5265,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 24.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_24.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 24.jpg Soldiers from 3d U.S. Infantry Reg"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_15.jpg/1920px-Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_%28Tec_5%29_Ben_Shrum_at_Arlington_National_Cemetery%2C_Virginia_on_April_23%2C_2025_-_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8256,
+    "h": 5504,
+    "credit": "\"Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 15.jpg\" – Arlington National Cemetery, Public domain (https://commons.wikimedia.org/wiki/File:Military_Funeral_Honors_are_conducted_for_U.S._Army_Technician_fifth_grade_(Tec_5)_Ben_Shrum_at_Arlington_National_Cemetery,_Virginia_on_April_23,_2025_-_15.jpg)",
+    "text": "File:Military Funeral Honors are conducted for U.S. Army Technician fifth grade (Tec 5) Ben Shrum at Arlington National Cemetery, Virginia on April 23, 2025 - 15.jpg Soldiers from 3d U.S. Infantry Reg"
+   }
+  ]
+ },
+ {
+  "slot": "R09",
+  "beats": null,
+  "mo_ta": "đường phố London thời Blitz, Whitehall, Admiralty",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_March_1943_D12973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 769,
+    "h": 800,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, March 1943 D12973.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12973.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, March 1943 D12973.jpg Whitehall Canteen- Eating Out in Wartime London, March 1943\nMrs Selma Whytehouse unloads plates of sandwiches from a trolley"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 771,
+    "h": 800,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12987.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12987.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12987.jpg Whitehall Canteen- Eating Out in Wartime London, 1943\nMrs Naylor, chief dish washer, (foreground) and her colleagues wash up crock"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1748,
+    "h": 1818,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg Whitehall Canteen- Eating Out in Wartime London, 1943\nIn the main canteen at Whitehall, beneath to brightly painted murals origina"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12983.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1748,
+    "h": 1834,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12983.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12983.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12983.jpg Whitehall Canteen- Eating Out in Wartime London, 1943\nCivilians enjoy a lunchtime meal at Whitehall Canteen, Trafalgar Square.  Th"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12985.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 771,
+    "h": 800,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12985.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12985.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12985.jpg Whitehall Canteen- Eating Out in Wartime London, 1943\nA view of men and women enjoying their lunchtime meal at the very busy White"
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_March_1943_D12980.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1748,
+    "h": 1827,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, March 1943 D12980.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12980.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, March 1943 D12980.jpg Whitehall Canteen- Eating Out in Wartime London, March 1943\nMen and women queue to enter the Whitehall Canteen beside the pi"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_March_1943_D12990.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1772,
+    "h": 1843,
+    "credit": "\"Whitehall Canteen- Eating Out in Wartime London, March 1943 D12990.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_March_1943_D12990.jpg)",
+    "text": "File:Whitehall Canteen- Eating Out in Wartime London, March 1943 D12990.jpg Whitehall Canteen- Eating Out in Wartime London, March 1943\nWomen of the Whitehall Canteen wait at the bus stop outside the "
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Turkey_in_London-_Life_at_the_Istanbul_Restaurant%2C_Frith_Street%2C_London%2C_1943_D13591.jpg/1920px-Turkey_in_London-_Life_at_the_Istanbul_Restaurant%2C_Frith_Street%2C_London%2C_1943_D13591.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2282,
+    "h": 1748,
+    "credit": "\"Turkey in London- Life at the Istanbul Restaurant, Frith Street, London, 1943 D13591.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Turkey_in_London-_Life_at_the_Istanbul_Restaurant,_Frith_Street,_London,_1943_D13591.jpg)",
+    "text": "File:Turkey in London- Life at the Istanbul Restaurant, Frith Street, London, 1943 D13591.jpg Turkey in London- Life at the Istanbul Restaurant, Frith Street, London, 1943\nTwo black GIs and their girl"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Turkey_in_London-_Life_at_the_Istanbul_Restaurant%2C_Frith_Street%2C_London%2C_1943_D13598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 762,
+    "h": 800,
+    "credit": "\"Turkey in London- Life at the Istanbul Restaurant, Frith Street, London, 1943 D13598.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Turkey_in_London-_Life_at_the_Istanbul_Restaurant,_Frith_Street,_London,_1943_D13598.jpg)",
+    "text": "File:Turkey in London- Life at the Istanbul Restaurant, Frith Street, London, 1943 D13598.jpg Turkey in London- Life at the Istanbul Restaurant, Frith Street, London, 1943\nMiah Jorif, a waiter at the "
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Customers_enjoy_a_meal_in_the_very_busy_Istanbul_restaurant_at_number_12_Frith_Street%2C_Soho%2C_London%2C_1943._D13592.jpg/1920px-Customers_enjoy_a_meal_in_the_very_busy_Istanbul_restaurant_at_number_12_Frith_Street%2C_Soho%2C_London%2C_1943._D13592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2339,
+    "h": 1768,
+    "credit": "\"Customers enjoy a meal in the very busy Istanbul restaurant at number 12 Frith Street, Soho, London, 1943. D13592.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Customers_enjoy_a_meal_in_the_very_busy_Istanbul_restaurant_at_number_12_Frith_Street,_Soho,_London,_1943._D13592.jpg)",
+    "text": "File:Customers enjoy a meal in the very busy Istanbul restaurant at number 12 Frith Street, Soho, London, 1943. D13592.jpg Customers enjoy a meal in the very busy Istanbul restaurant at number 12 Frit"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Wartime_Theatre-_Entertainment_in_London%2C_England%2C_UK%2C_August_1943_D16393.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 766,
+    "h": 800,
+    "credit": "\"Wartime Theatre- Entertainment in London, England, UK, August 1943 D16393.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Wartime_Theatre-_Entertainment_in_London,_England,_UK,_August_1943_D16393.jpg)",
+    "text": "File:Wartime Theatre- Entertainment in London, England, UK, August 1943 D16393.jpg Wartime Theatre- Entertainment in London, England, UK, August 1943\nLarge numbers of men and women queue for tickets o"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Van_Girl-_Horse_and_Cart_Deliveries_For_the_London%2C_Midland_and_Scottish_Railway%2C_London%2C_England%2C_1943_D16829.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 754,
+    "h": 800,
+    "credit": "\"Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16829.jpg\" – Richard Stone, Public domain (https://commons.wikimedia.org/wiki/File:Van_Girl-_Horse_and_Cart_Deliveries_For_the_London,_Midland_and_Scottish_Railway,_London,_England,_1943_D16829.jpg)",
+    "text": "File:Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16829.jpg Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/War_Bride-_Everyday_Life_in_Wartime_London%2C_March_1943_D12845.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 778,
+    "h": 799,
+    "credit": "\"War Bride- Everyday Life in Wartime London, March 1943 D12845.jpg\" – Ministry of Information Photo Division Photographer, Smith Jack, Public domain (https://commons.wikimedia.org/wiki/File:War_Bride-_Everyday_Life_in_Wartime_London,_March_1943_D12845.jpg)",
+    "text": "File:War Bride- Everyday Life in Wartime London, March 1943 D12845.jpg War Bride- Everyday Life in Wartime London, March 1943\nA head and shoulders portrait of newly-engaged couple Miss Marcelle Lestra"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/%27Wings_For_Victory_Week%27_in_London%2C_Britain%2C_March_1943._CH9105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 1085,
+    "credit": "\"'Wings For Victory Week' in London, Britain, March 1943. CH9105.jpg\" – Bridge (P/O), Royal Air Force official photographer, Public domain (https://commons.wikimedia.org/wiki/File:%27Wings_For_Victory_Week%27_in_London,_Britain,_March_1943._CH9105.jpg)",
+    "text": "File:'Wings For Victory Week' in London, Britain, March 1943. CH9105.jpg \"wings For Victory Week\" in London, Britain, March 1943.\nAvro Lancaster B Mark I, 'O for Orange' (L7580 'EM-O') of No 207 Squad"
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Van_Girl-_Horse_and_Cart_Deliveries_For_the_London%2C_Midland_and_Scottish_Railway%2C_London%2C_England%2C_1943_D16845.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 772,
+    "h": 800,
+    "credit": "\"Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16845.jpg\" – Richard Stone, Public domain (https://commons.wikimedia.org/wiki/File:Van_Girl-_Horse_and_Cart_Deliveries_For_the_London,_Midland_and_Scottish_Railway,_London,_England,_1943_D16845.jpg)",
+    "text": "File:Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16845.jpg Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Van_Girl-_Horse_and_Cart_Deliveries_For_the_London%2C_Midland_and_Scottish_Railway%2C_London%2C_England%2C_1943_D16840.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 760,
+    "h": 800,
+    "credit": "\"Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16840.jpg\" – Richard Stone, Public domain (https://commons.wikimedia.org/wiki/File:Van_Girl-_Horse_and_Cart_Deliveries_For_the_London,_Midland_and_Scottish_Railway,_London,_England,_1943_D16840.jpg)",
+    "text": "File:Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway, London, England, 1943 D16840.jpg Van Girl- Horse and Cart Deliveries For the London, Midland and Scottish Railway"
+   }
+  ]
+ },
+ {
+  "slot": "R10",
+  "beats": null,
+  "mo_ta": "Berlin 1943, tổng hành dinh Đức, Wolfsschanze",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Helmut_Jahn%2C_Berlin_1943.jpg/1920px-Helmut_Jahn%2C_Berlin_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3500,
+    "h": 2357,
+    "credit": "\"Helmut Jahn, Berlin 1943.jpg\" – Hoffmann, Public domain (https://commons.wikimedia.org/wiki/File:Helmut_Jahn,_Berlin_1943.jpg)",
+    "text": "File:Helmut Jahn, Berlin 1943.jpg Mecz piłki nożnej pomiędzy reprezentacją Berlina i drużyną Wehrmachtu z Paryża w Berlinie – interweniuje bramkarz berlińczyków Helmut Jahn, po nieudanym strzale piłka"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Helmut_Jahn%2C_Berlin_1943_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1112,
+    "h": 1240,
+    "credit": "\"Helmut Jahn, Berlin 1943 (cropped).jpg\" – Hoffmann, Public domain (https://commons.wikimedia.org/wiki/File:Helmut_Jahn,_Berlin_1943_(cropped).jpg)",
+    "text": "File:Helmut Jahn, Berlin 1943 (cropped).jpg Mecz piłki nożnej pomiędzy reprezentacją Berlina i drużyną Wehrmachtu z Paryża w Berlinie – interweniuje bramkarz berlińczyków Helmut Jahn, po nieudanym str"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/T-34_Model_1943_in_West_Berlin%2C_1990.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 965,
+    "h": 735,
+    "credit": "\"T-34 Model 1943 in West Berlin, 1990.jpg\" – Jim Linwood, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:T-34_Model_1943_in_West_Berlin,_1990.jpg)",
+    "text": "File:T-34 Model 1943 in West Berlin, 1990.jpg T-34 Model 1943 in West Berlin, 1990."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Target_Berlin_%281943%29.jpg/1920px-Target_Berlin_%281943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4020,
+    "h": 5343,
+    "credit": "\"Target Berlin (1943).jpg\" – Army Orientation Course, Public domain (https://commons.wikimedia.org/wiki/File:Target_Berlin_(1943).jpg)",
+    "text": "File:Target Berlin (1943).jpg Shaded relief map centered on Berlin, Germany. Has a cut-away scale for measuring distances from Berlin or, alternatively one can use the concentric rings. Some flight ro"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Todesanzeige_Karl_Herpich%2C_Berlin%2C_gestorben_16._Dezember_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1574,
+    "h": 3131,
+    "credit": "\"Todesanzeige Karl Herpich, Berlin, gestorben 16. Dezember 1943.jpg\" – Familie Herpich, Public domain (https://commons.wikimedia.org/wiki/File:Todesanzeige_Karl_Herpich,_Berlin,_gestorben_16._Dezember_1943.jpg)",
+    "text": "File:Todesanzeige Karl Herpich, Berlin, gestorben 16. Dezember 1943.jpg Todesanzeige für Kürschnermeister Karl Herpich, Berlin, „infolge Terrorangriff ums Leben gekommen“ am 16. Dezember 1943."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/T-34_Model_1943_tank_at_the_Soviet_Cenotaph_in_Berlin-Tiergarten_8.jpg/1920px-T-34_Model_1943_tank_at_the_Soviet_Cenotaph_in_Berlin-Tiergarten_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4725,
+    "h": 3150,
+    "credit": "\"T-34 Model 1943 tank at the Soviet Cenotaph in Berlin-Tiergarten 8.jpg\" – Klearchos Kapoutsis from Santorini, Greece, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:T-34_Model_1943_tank_at_the_Soviet_Cenotaph_in_Berlin-Tiergarten_8.jpg)",
+    "text": "File:T-34 Model 1943 tank at the Soviet Cenotaph in Berlin-Tiergarten 8.jpg T-34 Model 1943 tank at the Soviet Cenotaph in Berlin-Tiergarten.\n\nThe Soviet War Memorial in the Tiergarten"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/T-34_Model_1943_tanks_at_the_Soviet_Cenotaph_in_Berlin-Tiergarten_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1800,
+    "h": 1035,
+    "credit": "\"T-34 Model 1943 tanks at the Soviet Cenotaph in Berlin-Tiergarten 4.jpg\" – James, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:T-34_Model_1943_tanks_at_the_Soviet_Cenotaph_in_Berlin-Tiergarten_4.jpg)",
+    "text": "File:T-34 Model 1943 tanks at the Soviet Cenotaph in Berlin-Tiergarten 4.jpg T-34 Model 1943 tanks at the Soviet Cenotaph in Berlin-Tiergarten."
+   },
+   {
+    "so": 7,
+    "url": "https://live.staticflickr.com/65535/52623198093_d065c23f55_b.jpg",
+    "w": 1024,
+    "h": 791,
+    "credit": "\"SC 179884 - Seven prisoners captured when a German Focke Wulf Condor was shot down off the north coast of Iceland by USAAF fliers, August 5th.\" – Signal Corps Archive, Public Domain (https://www.flickr.com/photos/186360156@N02/52623198093)",
+    "text": "SC 179884 - Seven prisoners captured when a German Focke Wulf Condor was shot down off the north coast of Iceland by USAAF fliers, August 5th."
+   },
+   {
+    "so": 8,
+    "url": "https://live.staticflickr.com/65535/52103395656_036126de5d_b.jpg",
+    "w": 1024,
+    "h": 779,
+    "credit": "\"SC 364421 - Charles W. Donoghue of Boston, Mass., naturalization examiner for the Dept. of Justice, gives the oath of allegiance to six soldiers of the United States Army, who became citizens while serving at an army post somewhere in Newfoundland.\" – Signal Corps Archive, Public Domain (https://www.flickr.com/photos/186360156@N02/52103395656)",
+    "text": "SC 364421 - Charles W. Donoghue of Boston, Mass., naturalization examiner for the Dept. of Justice, gives the oath of allegiance to six soldiers of the United States Army, who became citizens while se"
+   },
+   {
+    "so": 9,
+    "url": "https://live.staticflickr.com/65535/52517462214_c0ed60a788_b.jpg",
+    "w": 1024,
+    "h": 768,
+    "credit": "\"NS Forced Labour Documentation Centre\" – Reading Tom, CC BY 2.0 (https://www.flickr.com/photos/16801915@N06/52517462214)",
+    "text": "NS Forced Labour Documentation Centre berlin labourcamp memorial"
+   },
+   {
+    "so": 10,
+    "url": "https://live.staticflickr.com/65535/52517461414_7614d4a427_b.jpg",
+    "w": 1024,
+    "h": 768,
+    "credit": "\"NS Forced Labour Documentation Centre\" – Reading Tom, CC BY 2.0 (https://www.flickr.com/photos/16801915@N06/52517461414)",
+    "text": "NS Forced Labour Documentation Centre berlin labourcamp memorial"
+   },
+   {
+    "so": 11,
+    "url": "https://live.staticflickr.com/65535/53668528679_270d45823a_b.jpg",
+    "w": 1024,
+    "h": 923,
+    "credit": "\"Wolfsschanze, Poland\" – Brian Brandsberg Berg, CC BY 2.0 (https://www.flickr.com/photos/50129095@N04/53668528679)",
+    "text": "Wolfsschanze, Poland ermlandmasuriensvojvodskap kętrzyn polen"
+   },
+   {
+    "so": 12,
+    "url": "https://live.staticflickr.com/65535/53667302912_1114f41b15_b.jpg",
+    "w": 740,
+    "h": 1024,
+    "credit": "\"Wolfsschanze, Poland\" – Brian Brandsberg Berg, CC BY 2.0 (https://www.flickr.com/photos/50129095@N04/53667302912)",
+    "text": "Wolfsschanze, Poland ermlandmasuriensvojvodskap kętrzyn polen"
+   },
+   {
+    "so": 13,
+    "url": "https://live.staticflickr.com/65535/53668174496_b38e2ace51_b.jpg",
+    "w": 1002,
+    "h": 1024,
+    "credit": "\"Wolfsschanze, Poland\" – Brian Brandsberg Berg, CC BY 2.0 (https://www.flickr.com/photos/50129095@N04/53668174496)",
+    "text": "Wolfsschanze, Poland ermlandmasuriensvojvodskap kętrzyn polen"
+   },
+   {
+    "so": 14,
+    "url": "https://live.staticflickr.com/65535/54229812730_6528f851d1_b.jpg",
+    "w": 1024,
+    "h": 972,
+    "credit": "\"Der Ostflügel des Schlosses Sztynort (Steinort)\" – Michael Bliefert, CC BY 2.0 (https://www.flickr.com/photos/8880696@N06/54229812730)",
+    "text": "Der Ostflügel des Schlosses Sztynort (Steinort) masuren polen sztynort"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/1943_German_military_map_-_Tunesien_-_Sheet_Tunis.jpg/1920px-1943_German_military_map_-_Tunesien_-_Sheet_Tunis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 20873,
+    "h": 16545,
+    "credit": "\"1943 German military map - Tunesien - Sheet Tunis.jpg\" – General Staff of the German Army, Public domain (https://commons.wikimedia.org/wiki/File:1943_German_military_map_-_Tunesien_-_Sheet_Tunis.jpg)",
+    "text": "File:1943 German military map - Tunesien - Sheet Tunis.jpg 1943 German military map - Tunesien - Sheet Tunis"
+   }
+  ]
+ },
+ {
+  "slot": "R11",
+  "beats": null,
+  "mo_ta": "Rommel / Mountbatten / Montagu / Cholmondeley",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Nema%C4%8Dka_ofanziva_u_%C5%BDumberku_i_Sloveniji_1943.jpg/1920px-Nema%C4%8Dka_ofanziva_u_%C5%BDumberku_i_Sloveniji_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2211,
+    "h": 1491,
+    "credit": "\"Nemačka ofanziva u Žumberku i Sloveniji 1943.jpg\" – Vojni istoriski Institut JNA, Public domain (https://commons.wikimedia.org/wiki/File:Nema%C4%8Dka_ofanziva_u_%C5%BDumberku_i_Sloveniji_1943.jpg)",
+    "text": "File:Nemačka ofanziva u Žumberku i Sloveniji 1943.jpg Nemačka ofanziva u Žumberku i Sloveniji od 15. oktobra do 12. novembra 1943."
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Erwin_Rommel_in_1942_%2836299043150%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1235,
+    "h": 2048,
+    "credit": "\"Erwin Rommel in 1942 (36299043150).png\" – Cassowary Colorizations, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Erwin_Rommel_in_1942_(36299043150).png)",
+    "text": "File:Erwin Rommel in 1942 (36299043150).png Erwin Johannes Eugen Rommel was one of the most famous German field marshals during World War II. He was nicknamed the Desert Fox (Wüstenfuchs) following hi"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Operacija_Wolkenbruch%2C_tre%C4%87a_etapa_u_Dolenjskoj_i_Notranjskoj_%2815.10.-12.11._1943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1785,
+    "h": 1519,
+    "credit": "\"Operacija Wolkenbruch, treća etapa u Dolenjskoj i Notranjskoj (15.10.-12.11. 1943).jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Operacija_Wolkenbruch,_tre%C4%87a_etapa_u_Dolenjskoj_i_Notranjskoj_(15.10.-12.11._1943).jpg)",
+    "text": "File:Operacija Wolkenbruch, treća etapa u Dolenjskoj i Notranjskoj (15.10.-12.11. 1943).jpg Izvorni opis dat je u nazivu fajla."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Museum_of_World_War_II_Natick_Massachusetts_2015._Militaria_memorabilia_collectables_Third_Reich_etc._01_Erwin_Rommel_letters%2C_marshal%27s_baton.jpg/1920px-Museum_of_World_War_II_Natick_Massachusetts_2015._Militaria_memorabilia_collectables_Third_Reich_etc._01_Erwin_Rommel_letters%2C_marshal%27s_baton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3968,
+    "h": 2232,
+    "credit": "\"Museum of World War II Natick Massachusetts 2015. Militaria memorabilia collectables Third Reich etc. 01 Erwin Rommel letters, marshal's baton.jpg\" – leewrightonflickr, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Museum_of_World_War_II_Natick_Massachusetts_2015._Militaria_memorabilia_collectables_Third_Reich_etc._01_Erwin_Rommel_letters,_marshal%27s_baton.jpg)",
+    "text": "File:Museum of World War II Natick Massachusetts 2015. Militaria memorabilia collectables Third Reich etc. 01 Erwin Rommel letters, marshal's baton.jpg Erwin Rommel letters to son and wife, replica of"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Nema%C4%8Dka_operacija_u_Istri%2C_Gorskom_kotaru_i_primorju%2C_24._septembra_-_15._oktobra_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1124,
+    "h": 838,
+    "credit": "\"Nemačka operacija u Istri, Gorskom kotaru i primorju, 24. septembra - 15. oktobra 1943.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Nema%C4%8Dka_operacija_u_Istri,_Gorskom_kotaru_i_primorju,_24._septembra_-_15._oktobra_1943.jpg)",
+    "text": "File:Nemačka operacija u Istri, Gorskom kotaru i primorju, 24. septembra - 15. oktobra 1943.jpg Nemačka operacija u Istri, Gorskom kotaru i primorju, 24. septembra - 15. oktobra 1943."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Grupa_niemieckich_strzelc%C3%B3w_g%C3%B3rskich_w_czasie_przeprawy_przez_g%C3%B3ry_P%C3%B3%C5%82wyspu_Istria_%282-522%29.jpg/1920px-Grupa_niemieckich_strzelc%C3%B3w_g%C3%B3rskich_w_czasie_przeprawy_przez_g%C3%B3ry_P%C3%B3%C5%82wyspu_Istria_%282-522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3500,
+    "h": 2638,
+    "credit": "\"Grupa niemieckich strzelców górskich w czasie przeprawy przez góry Półwyspu Istria (2-522).jpg\" – Lohse, Public domain (https://commons.wikimedia.org/wiki/File:Grupa_niemieckich_strzelc%C3%B3w_g%C3%B3rskich_w_czasie_przeprawy_przez_g%C3%B3ry_P%C3%B3%C5%82wyspu_Istria_(2-522).jpg)",
+    "text": "File:Grupa niemieckich strzelców górskich w czasie przeprawy przez góry Półwyspu Istria (2-522).jpg A group of German mountain riflemen from the 7th SS division \"Prinz Eugen\" during a crossing through"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Admiral_Lord_Louis_Mountbatten%2C_1943._TR1230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1772,
+    "h": 2453,
+    "credit": "\"Admiral Lord Louis Mountbatten, 1943. TR1230.jpg\" – British official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Admiral_Lord_Louis_Mountbatten,_1943._TR1230.jpg)",
+    "text": "File:Admiral Lord Louis Mountbatten, 1943. TR1230.jpg Admiral Lord Louis Mountbatten, 1943.\nAdmiral Lord Louis Mountbatten sitting at his desk (close-up, looking up)."
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Admiral_Lord_Louis_Mountbatten%2C_1943._TR1230_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1418,
+    "h": 1678,
+    "credit": "\"Admiral Lord Louis Mountbatten, 1943. TR1230 (cropped 2).jpg\" – British official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Admiral_Lord_Louis_Mountbatten,_1943._TR1230_(cropped_2).jpg)",
+    "text": "File:Admiral Lord Louis Mountbatten, 1943. TR1230 (cropped 2).jpg Admiral Lord Louis Mountbatten, 1943.\nAdmiral Lord Louis Mountbatten sitting at his desk (close-up, looking up)."
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Admiral_Lord_Louis_Mountbatten%2C_1943._TR1230_%28cropped_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1418,
+    "h": 1737,
+    "credit": "\"Admiral Lord Louis Mountbatten, 1943. TR1230 (cropped 3).jpg\" – British official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Admiral_Lord_Louis_Mountbatten,_1943._TR1230_(cropped_3).jpg)",
+    "text": "File:Admiral Lord Louis Mountbatten, 1943. TR1230 (cropped 3).jpg Admiral Lord Louis Mountbatten, 1943.\nAdmiral Lord Louis Mountbatten sitting at his desk (close-up, looking up)."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Louise_Mountbatten_and_Yngve_Ekstrand_in_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1081,
+    "h": 1439,
+    "credit": "\"Louise Mountbatten and Yngve Ekstrand in 1943.jpg\" – Ernfrid Bogstedt, Public domain (https://commons.wikimedia.org/wiki/File:Louise_Mountbatten_and_Yngve_Ekstrand_in_1943.jpg)",
+    "text": "File:Louise Mountbatten and Yngve Ekstrand in 1943.jpg Crown Princess Louise Mountbatten visits the Swedish Coastal Fleet (Kustflottan) and Admiral Yngve Ekstrand."
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Admiral_of_the_Fleet_Earl_Mountbatten_of_Burma_A18826.jpg/1920px-Admiral_of_the_Fleet_Earl_Mountbatten_of_Burma_A18826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3508,
+    "h": 2633,
+    "credit": "\"Admiral of the Fleet Earl Mountbatten of Burma A18826.jpg\" – John Alfred Hampton, Public domain (https://commons.wikimedia.org/wiki/File:Admiral_of_the_Fleet_Earl_Mountbatten_of_Burma_A18826.jpg)",
+    "text": "File:Admiral of the Fleet Earl Mountbatten of Burma A18826.jpg Admiral of the Fleet Earl Mountbatten of Burma\nChief of Combined Operations: Mountbatten with Combined Chiefs of Staff at the Quebec Conf"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/SE_000014_Mountbatten_as_SACSEA_during_Arakan_tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1725,
+    "h": 2480,
+    "credit": "\"SE 000014 Mountbatten as SACSEA during Arakan tour.jpg\" – Official photographer of No.9 Army Film and Photographic Unit., Public domain (https://commons.wikimedia.org/wiki/File:SE_000014_Mountbatten_as_SACSEA_during_Arakan_tour.jpg)",
+    "text": "File:SE 000014 Mountbatten as SACSEA during Arakan tour.jpg Admiral Lord Louis Mountbatten Supreme Allied Commander South East Asia (SACSEA) 1943-1945, before which he had been Chief of Combined Opera"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Gerianne_P%C3%A9rez.jpg/1920px-Gerianne_P%C3%A9rez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2880,
+    "h": 3600,
+    "credit": "\"Gerianne Pérez.jpg\" – Montyman69, CC0 (https://commons.wikimedia.org/wiki/File:Gerianne_P%C3%A9rez.jpg)",
+    "text": "File:Gerianne Pérez.jpg Gerianne Pérez as Ewen Montagu in Operation Mincemeat on Broadway"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Major_Martin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 993,
+    "credit": "\"Major Martin.jpg\" – Ewen Montagu Team, Public domain (https://commons.wikimedia.org/wiki/File:Major_Martin.jpg)",
+    "text": "File:Major Martin.jpg \"Major Martin\" ID Card"
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/George_Horatio_Charles_Cholmondeley%2C_later_5th_Marquess_of_Cholmondeley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 757,
+    "h": 1000,
+    "credit": "\"George Horatio Charles Cholmondeley, later 5th Marquess of Cholmondeley.jpg\" – Philip de László, Public domain (https://commons.wikimedia.org/wiki/File:George_Horatio_Charles_Cholmondeley,_later_5th_Marquess_of_Cholmondeley.jpg)",
+    "text": "File:George Horatio Charles Cholmondeley, later 5th Marquess of Cholmondeley.jpg George Horatio Charles Cholmondeley, Earl of Rocksavage; later 5th Marquess of Cholmondeley"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Charles_Turner_-_Portrait_of_Charlotte_Cholmondeley_and_son_Henry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1080,
+    "h": 1697,
+    "credit": "\"Charles Turner - Portrait of Charlotte Cholmondeley and son Henry.jpg\" – John Hoppner, Public domain (https://commons.wikimedia.org/wiki/File:Charles_Turner_-_Portrait_of_Charlotte_Cholmondeley_and_son_Henry.jpg)",
+    "text": "File:Charles Turner - Portrait of Charlotte Cholmondeley and son Henry.jpg Lady Georgiana Charlotte Bertie (1764-1838) was wife of George Cholmondeley, 1st Marquess of Cholmondeley and mother of the H"
+   }
+  ]
+ },
+ {
+  "slot": "R12",
+  "beats": null,
+  "mo_ta": "Sicily đổ bộ 1943 thêm ảnh",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17907.jpg/1920px-The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2450,
+    "h": 1772,
+    "credit": "\"The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17907.jpg\" – Allen, E E (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War-_Operation_Husky,_Sicily,_July_1943_A17907.jpg)",
+    "text": "File:The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17907.jpg The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943\nA loaded landing craft tan"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg/1920px-The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2411,
+    "h": 1772,
+    "credit": "\"The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17917.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War-_Operation_Husky,_Sicily,_July_1943_A17917.jpg)",
+    "text": "File:The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17917.jpg The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943\nJust after dawn men of the"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily%2C_10_July_1943._A17921.jpg/1920px-Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily%2C_10_July_1943._A17921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2313,
+    "h": 1772,
+    "credit": "\"Semaphore instructions being signalled to landing craft during the invasion of Sicily, 10 July 1943. A17921.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily,_10_July_1943._A17921.jpg)",
+    "text": "File:Semaphore instructions being signalled to landing craft during the invasion of Sicily, 10 July 1943. A17921.jpg Semaphore instructions being signalled to landing craft during the invasion of Sici"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Italian_POWs_march_to_waiting_landing_craft_during_the_Allied_invasion_of_Sicily%2C_July_1943._A17913.jpg/1920px-Italian_POWs_march_to_waiting_landing_craft_during_the_Allied_invasion_of_Sicily%2C_July_1943._A17913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2403,
+    "h": 1772,
+    "credit": "\"Italian POWs march to waiting landing craft during the Allied invasion of Sicily, July 1943. A17913.jpg\" – Parnall, C H (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Italian_POWs_march_to_waiting_landing_craft_during_the_Allied_invasion_of_Sicily,_July_1943._A17913.jpg)",
+    "text": "File:Italian POWs march to waiting landing craft during the Allied invasion of Sicily, July 1943. A17913.jpg Italian POWs march to waiting landing craft during the Allied invasion of Sicily, July 1943"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Troops_from_2nd_Battalion%2C_The_Northamptonshire_Regiment_wait_to_board_landing_craft_at_Catania%2C_Sicily%2C_for_the_invasion_of_Italy%2C_2_September_1943._NA6283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1785,
+    "h": 1772,
+    "credit": "\"Troops from 2nd Battalion, The Northamptonshire Regiment wait to board landing craft at Catania, Sicily, for the invasion of Italy, 2 September 1943. NA6283.jpg\" – Drennan (Sgt), No 2 Army Film & Photographic Unit, Public domain (https://commons.wikimedia.org/wiki/File:Troops_from_2nd_Battalion,_The_Northamptonshire_Regiment_wait_to_board_landing_craft_at_Catania,_Sicily,_for_the_invasion_of_Italy,_2_September_1943._NA6283.jpg)",
+    "text": "File:Troops from 2nd Battalion, The Northamptonshire Regiment wait to board landing craft at Catania, Sicily, for the invasion of Italy, 2 September 1943. NA6283.jpg Troops from 2nd Battalion, The Nor"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Troops_from_51st_Highland_Division_unloading_stores_from_tank_landing_craft_on_the_opening_day_of_the_Allied_invasion_of_Sicily%2C_10_July_1943._A17916.jpg/1920px-Troops_from_51st_Highland_Division_unloading_stores_from_tank_landing_craft_on_the_opening_day_of_the_Allied_invasion_of_Sicily%2C_10_July_1943._A17916.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 2480,
+    "credit": "\"Troops from 51st Highland Division unloading stores from tank landing craft on the opening day of the Allied invasion of Sicily, 10 July 1943. A17916.jpg\" – Parnall, C H (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:Troops_from_51st_Highland_Division_unloading_stores_from_tank_landing_craft_on_the_opening_day_of_the_Allied_invasion_of_Sicily,_10_July_1943._A17916.jpg)",
+    "text": "File:Troops from 51st Highland Division unloading stores from tank landing craft on the opening day of the Allied invasion of Sicily, 10 July 1943. A17916.jpg Troops from 51st Highland Division unload"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Men_of_the_2nd_Seaforth_Highlanders_embarking_onto_landing_craft_at_Sousse%2C_Tunisia%2C_en_route_for_Sicily%2C_5_July_1943._NA4072.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 797,
+    "h": 800,
+    "credit": "\"Men of the 2nd Seaforth Highlanders embarking onto landing craft at Sousse, Tunisia, en route for Sicily, 5 July 1943. NA4072.jpg\" – No 2 Army Film & Photographic Unit, Stubbs (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:Men_of_the_2nd_Seaforth_Highlanders_embarking_onto_landing_craft_at_Sousse,_Tunisia,_en_route_for_Sicily,_5_July_1943._NA4072.jpg)",
+    "text": "File:Men of the 2nd Seaforth Highlanders embarking onto landing craft at Sousse, Tunisia, en route for Sicily, 5 July 1943. NA4072.jpg Men of the 2nd Seaforth Highlanders embarking onto landing craft "
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Landing_beach_on_the_opening_day_of_the_invasion_of_Sicily.jpg/1920px-Landing_beach_on_the_opening_day_of_the_invasion_of_Sicily.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 2480,
+    "credit": "\"Landing beach on the opening day of the invasion of Sicily.jpg\" – Post-Work: User:W.wolny, Public domain (https://commons.wikimedia.org/wiki/File:Landing_beach_on_the_opening_day_of_the_invasion_of_Sicily.jpg)",
+    "text": "File:Landing beach on the opening day of the invasion of Sicily.jpg Just after dawn, men of the Highland Division up to their waists in water unloading stores on a landing beach on the opening day of "
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Invasion_of_Sicily_1943_NA4502.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 800,
+    "h": 799,
+    "credit": "\"The Invasion of Sicily 1943 NA4502.jpg\" – No 2 Army Film & Photographic Unit, Rooke (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:The_Invasion_of_Sicily_1943_NA4502.jpg)",
+    "text": "File:The Invasion of Sicily 1943 NA4502.jpg The Invasion of Sicily 1943\nBritish troops in a landing craft assault (LCA), 9 July 1943."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_British_Army_in_North_Africa_1943_NA3989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 762,
+    "h": 800,
+    "credit": "\"The British Army in North Africa 1943 NA3989.jpg\" – Chetywn (Lt), No 2 Army Film & Photographic Unit, Public domain (https://commons.wikimedia.org/wiki/File:The_British_Army_in_North_Africa_1943_NA3989.jpg)",
+    "text": "File:The British Army in North Africa 1943 NA3989.jpg The British Army in North Africa 1943\nGrant tanks, including flail variants, embarking onto a landing craft at Tripoli, 3 July 1943."
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/The_Campaign_in_Sicily_1943_A18089.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1300,
+    "h": 1003,
+    "credit": "\"The Campaign in Sicily 1943 A18089.jpg\" – Royal Navy official photographer, Roper F G (Lt), Public domain (https://commons.wikimedia.org/wiki/File:The_Campaign_in_Sicily_1943_A18089.jpg)",
+    "text": "File:The Campaign in Sicily 1943 A18089.jpg The Campaign in Sicily 1943\nOperation Husky: The Sicily Landings 9-10 July 1943: The Hunt Class destroyer HMS Tetcott and the bow gun of SS [sic] Ulster Mon"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Lot-805-37_%2842237%29_%2821993152444%29.jpg/1920px-Lot-805-37_%2842237%29_%2821993152444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2434,
+    "h": 1863,
+    "credit": "\"Lot-805-37 (42237) (21993152444).jpg\" – National Museum of the U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:Lot-805-37_(42237)_(21993152444).jpg)",
+    "text": "File:Lot-805-37 (42237) (21993152444).jpg Lot-805-37 (42237): Operation Husky - Invasion of Sicily, 9 July – August 17, 1943.   Officer’s Mess Aboard an LST.  The wardroom of an LST (landing ship, tan"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Lot-805-12_%2842239%29_%2821989252224%29.jpg/1920px-Lot-805-12_%2842239%29_%2821989252224%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2280,
+    "h": 1894,
+    "credit": "\"Lot-805-12 (42239) (21989252224).jpg\" – National Museum of the U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:Lot-805-12_(42239)_(21989252224).jpg)",
+    "text": "File:Lot-805-12 (42239) (21989252224).jpg Lot-805-12 (42239): Operation Husky - Invasion of Sicily, 9 July – August 17, 1943.  More than 2000 ships joined to speed the United Nations invasion of Sicil"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Lot-805-14_%2842238%29_%2822424270570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1904,
+    "h": 2421,
+    "credit": "\"Lot-805-14 (42238) (22424270570).jpg\" – National Museum of the U.S. Navy, Public domain (https://commons.wikimedia.org/wiki/File:Lot-805-14_(42238)_(22424270570).jpg)",
+    "text": "File:Lot-805-14 (42238) (22424270570).jpg Lot-805-14 (42238): Operation Husky - Invasion of Sicily, 9 July – August 17, 1943.  Food for Amphibians.  In the galley of an LST (landing ship, tank), a U.S"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Manuscript_planning_map_for_the_Allied_landing_near_Licata%2C_Sicily%2C_on_July_10%2C_1943._LOC_2016586526.jpg/1920px-Manuscript_planning_map_for_the_Allied_landing_near_Licata%2C_Sicily%2C_on_July_10%2C_1943._LOC_2016586526.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 18727,
+    "h": 9640,
+    "credit": "\"Manuscript planning map for the Allied landing near Licata, Sicily, on July 10, 1943. LOC 2016586526.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Manuscript_planning_map_for_the_Allied_landing_near_Licata,_Sicily,_on_July_10,_1943._LOC_2016586526.jpg)",
+    "text": "File:Manuscript planning map for the Allied landing near Licata, Sicily, on July 10, 1943. LOC 2016586526.jpg Title provided by cataloger. Pencil and colored pencil on paper. All edges torn. Accompani"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/British_troops_wade_ashore_during_the_invasion_of_Sicily%2C_10_July_1943._NA4275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 800,
+    "h": 799,
+    "credit": "\"British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg\" – No 2 Army Film & Photographic Unit, Stubbs (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:British_troops_wade_ashore_during_the_invasion_of_Sicily,_10_July_1943._NA4275.jpg)",
+    "text": "File:British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg British troops wade ashore during the invasion of Sicily, 10 July 1943.\nTroops wade ashore from landing ships, 1"
+   }
+  ]
+ }
+]

@@ -1,0 +1,24 @@
+KIỂM TRA ẢNH BA20 · video ngắn · 18 ảnh (số thứ tự khớp lưới ảnh anh_BA20_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 ·  scene_00.jpg
+✅ 2 ·  scene_01.jpg
+✅ 3 ·  scene_02.jpg
+❌ 4 ·  scene_03.jpg
+     ❌ Ảnh tư liệu gốc có viền đen dày và các ký tự, số hiệu ghi chú (như chữ 'ROL 161915' và vạch đen) ở xung quanh mép ảnh. → Cắt bỏ các viền đen và ký tự thừa ở các cạnh của ảnh trước khi sử dụng.
+⚠️ 5 ·  scene_04.jpg
+     ⚠️ Ảnh là bản đồ phân bố dân cư bản địa Alaska năm 1920, không phải hình ảnh về tàu chở hàng Baychimo hay sự kiện năm 1931. → Nên thay bằng ảnh chụp tàu chở hàng Baychimo hoặc bản đồ khu vực biển Bắc Cực nơi tàu di chuyển.
+✅ 6 ·  scene_05.jpg
+✅ 7 ·  scene_06.jpg
+✅ 8 ·  scene_07.jpg
+✅ 9 ·  scene_08.jpg
+✅ 10 ·  scene_09.jpg
+⚠️ 11 ·  scene_10.jpg
+     ⚠️ Ảnh minh họa là một bức tranh vẽ tàu buồm cổ thế kỷ 19 của Caspar David Friedrich, trong khi SS Baychimo là một tàu hơi nước/động cơ chạy bằng chân vịt thời kỳ hiện đại hơn (thập niên 1930). Tuy nhiên, ảnh mang tính chất bối cảnh minh họa chung cho tàu trên biển. → Có thể thay thế bằng ảnh tư liệu thực tế của tàu SS Baychimo nếu có để tăng độ chính xác lịch sử.
+✅ 12 ·  scene_11.jpg
+✅ 13 ·  scene_12.jpg
+✅ 14 ·  scene_13.jpg
+✅ 15 ·  scene_14.jpg
+✅ 16 ·  scene_15.jpg
+✅ 17 ·  scene_16.jpg
+⚠️ 18 ·  scene_17.jpg
+     ⚠️ ảnh hơi nhỏ (1920x544)
+     ⚠️ ảnh quá dẹt (1920x544), dễ bị cắt mất nội dung

@@ -1,30 +1,35 @@
 
-===== BA4: kiểm tra kịch bản trước khi dựng =====
+===== BA20: kiểm tra kịch bản trước khi dựng =====
 
-===== BA4 (video dài) =====
-▶️  Video dài BA4: Vì sao 9 người leo núi rạch lều bỏ chạy giữa đêm tuyết? | Bí ẩn đèo Dyatlov
-  ⚖️  Bằng chứng bản quyền: 26 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 6 cần xem
-     ⚠️  File:SPRING SNOWSTORM IN SAN JUAN MOUNTAINS - NARA - 543640.jpg: ảnh năm 1972, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Avalanche Gulch on Mount Shasta (34482560163).jpg: ảnh năm 2017, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:20190307-FS-HTNF-JS-Avalanche-01 (48942361478).jpg: ảnh năm 2019, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Sheep Mountain Avalanche (37885805145).jpg: ảnh năm 2002, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Avalanche rescue on Crown Butte.jpg: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+===== BA20 (video ngắn + bài ảnh) =====
+▶️  BA20: Tàu ma Baychimo: con tàu bị bỏ lại giữa băng, rồi trôi suốt 38 năm
+  ⚖️  Bằng chứng bản quyền: 20 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA20.json · ⚠️ 5 cần xem
+     ⚠️  File:Baychimo.jpg: ảnh năm 1979, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51357245736).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51357471838).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51358345735).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51357281916).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 18 ảnh: 1 ảnh lỗi, 3 ảnh cần xem
+❌ BA20: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA20_ngan_kiemtra.txt):
+  scene_03.jpg: Ảnh tư liệu gốc có viền đen dày và các ký tự, số hiệu ghi chú (như chữ 'ROL 161915' và vạch đen) ở xung quanh mép ảnh. → Cắt bỏ các viền đen và ký tự thừa ở các cạnh của ảnh trước khi sử dụng.
+
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+
+===== BA20 (video dài) =====
+▶️  Video dài BA20: Tàu ma Baychimo: vì sao một con tàu bỏ hoang trôi suốt 38 năm giữa Bắc Cực? | Bí ẩn lịch sử
+  ⚖️  Bằng chứng bản quyền: 20 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_BA20.json · ⚠️ 5 cần xem
+     ⚠️  File:Baychimo.jpg: ảnh năm 1979, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51357245736).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51357471838).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51358345735).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+     ⚠️  File:Clouds and ice on the Chukchi Sea (51357281916).jpg: ảnh năm 2021, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 26 ảnh: 0 ảnh lỗi, 4 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (9 chương)
-  ⏱️  Thời lượng 07:26 · 58 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-     26/26 ảnh có độ sâu
-     10727 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (107 giây)
-     … 6/12 đoạn (206 giây)
-     … 9/12 đoạn (301 giây)
-     … 12/12 đoạn (305 giây)
-     dựng khung hình xong trong 306 giây
-  🎵 Nhạc nền: Gnossienne 1 (Jaan Patterson)
-  🔊 Tiếng động nền: gio, tim_dap
-  🔈 Âm lượng cuối: -15.4 LUFS, đỉnh -3.9 dBTP
-✅ Video dài: BA4_dai.mp4 (07:26)
+  🔍 Kiểm tra 20 ảnh: 2 ảnh lỗi, 2 ảnh cần xem
+❌ Video dài BA20: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_BA20_dai_kiemtra.txt):
+  scene_03.jpg: Ảnh minh họa là một bức tranh vẽ tàu buồm cổ bằng gỗ truyền thống, trong khi SS Baychimo là một chiếc tàu hơi nước bọc thép chở hàng hiện đại thế kỷ 20, dẫn đến sai lệch nghiêm trọng về loại tàu và thời kỳ lịch sử. → Thay bằng ảnh tư liệu thực tế của tàu SS Baychimo hoặc tàu hơi nước chở hàng thời kỳ đầu thế kỷ 20 bị bỏ lại giữa băng giá Bắc Cực.
+  scene_08.jpg: Ảnh tư liệu có viền đen dày và các mã số lưu trữ, chữ viết tay in chìm ở các cạnh bên (trái và dưới) do chưa được crop. → Cắt bỏ các viền đen và phần chữ/số bên ngoài để ảnh hiển thị sạch sẽ hơn trong video.
 
-Xong video ngắn: - · video dài: BA4
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): BA20
+Lỗi: BA20

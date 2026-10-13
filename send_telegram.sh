@@ -42,7 +42,19 @@ send_covers() {
   media+="]"
   curl -s -o /dev/null -w "Gửi ảnh bìa: %{http_code}\n" -F chat_id="$TG_CHAT" -F media="$media" "${args[@]}" "$api/sendMediaGroup"
 }
-if [ -s ci_outputs.txt ]; then
+# Bài đăng ảnh Facebook: nội dung chữ + ảnh (gửi dạng tệp để giữ chất lượng). Mỗi mã chỉ một lần (loại "post").
+send_post() {
+  local id="$1"
+  [ -f "output/$id/${id}_post.txt" ] || { echo "Không có bài đăng Facebook cho $id"; return 0; }
+  if python3 da_gui.py check "$id" post; then echo "Bỏ qua $id (bài Facebook): đã gửi trước đó"; return 0; fi
+  python3 tg_text.py "output/$id/${id}_post.txt" "📘 BÀI ĐĂNG FACEBOOK $id"
+  local imgs; imgs=$(ls output/$id/${id}_post_*.jpg 2>/dev/null | sort -V)
+  send_covers "🖼️ Ảnh bài đăng Facebook $id (đăng theo thứ tự 1, 2, 3...)" $imgs
+  python3 da_gui.py mark "$id" post
+}
+if [ -s ci_outputs.txt ] && [ "$POST_ONLY" = "yes" ]; then
+  while read -r id || [ -n "$id" ]; do [ -n "$id" ] && send_post "$id"; done < ci_outputs.txt
+elif [ -s ci_outputs.txt ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
     if blocked "$id" ngan; then block_msg "$id" "video ngắn + bài ảnh" ngan; continue; fi
@@ -71,7 +83,7 @@ if [ -s ci_outputs.txt ]; then
   done < ci_outputs.txt
 fi
 # video dài: bản xem trước nhẹ (giới hạn 50MB của Telegram) + link bản đầy đủ
-if [ -s ci_long.txt ]; then
+if [ -s ci_long.txt ] && [ "$POST_ONLY" != "yes" ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
     f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue

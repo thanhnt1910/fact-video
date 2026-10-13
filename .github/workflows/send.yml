@@ -10,6 +10,10 @@ on:
         description: "Gửi lại dù đã gửi trước đó (yes / no)"
         required: false
         default: "no"
+      chi_bai_viet:
+        description: "Chỉ gửi bài đăng Facebook (chữ + ảnh), không gửi video (yes / no)"
+        required: false
+        default: "no"
       bo_qua_kiem_tra:
         description: "Vẫn gửi cả khi bản tự kiểm tra báo LỖI (yes / no)"
         required: false
@@ -45,6 +49,7 @@ jobs:
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORCE_SEND: ${{ inputs.bo_qua_kiem_tra }}
           GUI_LAI: ${{ inputs.gui_lai }}
+          POST_ONLY: ${{ inputs.chi_bai_viet }}
         run: bash send_telegram.sh
       - name: Ghi sổ đã gửi
         if: always()

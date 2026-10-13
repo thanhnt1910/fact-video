@@ -683,13 +683,15 @@ def lint_anh_lap(script, part):
             ims = list(b.get("images") or [])
             if b.get("image"):
                 ims.append(b["image"])
+            if b.get("mo_phong"):
+                ims.append({"mo_phong": b["mo_phong"]})
             items += ims
         if not items:
             items = [s.get("image") for s in script.get("scenes", [])]
     else:
         for ch in (script.get("long") or {}).get("chapters", []):
             for b in ch.get("beats", []):
-                items.append(b.get("image"))
+                items.append(b.get("image") or ({"mo_phong": b["mo_phong"]} if b.get("mo_phong") else None))
     cnt = {}
     for im in items:
         k = _anh_key(im)

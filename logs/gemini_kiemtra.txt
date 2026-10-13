@@ -1,0 +1,6 @@
+Kiểm tra lúc 2026-10-13 14:38:53 UTC
+Có khóa: có
+TTS gemini-3.1-flash-tts-preview: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
+TTS gemini-2.5-flash-preview-tts: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
+Chữ gemini-flash-lite-latest: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
+Chữ gemini-flash-latest: ⛔ HTTP 402 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 

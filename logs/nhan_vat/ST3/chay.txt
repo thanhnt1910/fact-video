@@ -1,4 +1,4 @@
 Gửi sang Kaggle…
  0.5 phút: .running
-13.3 phút: .complete
-Nhận về: []
+ 9.7 phút: .complete
+Nhận về: ['c1_ref', 'c1_text', 'c2_ref', 'c2_text', 'c3_ref', 'c3_text', 'sheet_blackborow', 'sheet_crean', 'sheet_endurance', 'sheet_hurley', 'sheet_macklin', 'sheet_shackleton', 'sheet_worsley']

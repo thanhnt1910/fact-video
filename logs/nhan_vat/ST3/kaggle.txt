@@ -1,534 +1,62 @@
-[{"stream_name":"stdout","time":9.198545085,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 75.3 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":9.328239093,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 98.7 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":9.36139953,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 17.8 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":9.391457724,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 16.4 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":9.424843729,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 35.5 MB/s eta 0:00:00\n"}
-,{"stream_name":"stderr","time":34.349750224,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stderr","time":34.349779999,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
-,{"stream_name":"stderr","time":34.349783993,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":34.349786921,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":34.349791217,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":34.349796013,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":34.349798715,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stdout","time":80.025324449,"data":"[    79s] GPU: Tesla T4\n"}
-,{"stream_name":"stderr","time":80.025541327,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
-,{"stream_name":"stderr","time":80.025554983,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
-,{"stream_name":"stderr","time":156.265127642,"data":"\rFetching 17 files:   0%|          | 0/17 [00:00\u003c?, ?it/s]\rFetching 17 files:  12%|█▏        | 2/17 [00:00\u003c00:01, 14.84it/s]\rFetching 17 files:  29%|██▉       | 5/17 [00:00\u003c00:00, 20.67it/s]\rFetching 17 files:  59%|█████▉    | 10/17 [00:00\u003c00:00, 29.01it/s]\rFetching 17 files:  76%|███████▋  | 13/17 [00:01\u003c00:00,  8.31it/s]\rFetching 17 files:  82%|████████▏ | 14/17 [00:19\u003c00:00,  8.31it/s]\rFetching 17 files:  88%|████████▊ | 15/17 [00:45\u003c00:11,  5.63s/it]\rFetching 17 files:  94%|█████████▍| 16/17 [01:15\u003c00:09,  9.26s/it]\rFetching 17 files: 100%|██████████| 17/17 [01:15\u003c00:00,  4.45s/it]\n"}
-,{"stream_name":"stderr","time":157.980639034,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading pipeline components...:  20%|██        | 1/5 [00:01\u003c00:06,  1.71s/it]The config attributes {'force_upcast': True} were passed to AutoencoderKLFlux2, but are not expected and will be ignored. Please verify your config.json configuration file.\n"}
-,{"stream_name":"stderr","time":159.283025327,"data":"\rLoading pipeline components...:  40%|████      | 2/5 [00:01\u003c00:02,  1.17it/s]\rLoading pipeline components...:  60%|██████    | 3/5 [00:02\u003c00:01,  1.36it/s]\n"}
-,{"stream_name":"stderr","time":159.386717059,"data":"\rLoading weights:   0%|          | 0/398 [00:00\u003c?, ?it/s]\u001b[A\n"}
-,{"stream_name":"stderr","time":159.548698166,"data":"\rLoading weights:  56%|█████▋    | 224/398 [00:00\u003c00:00, 2164.72it/s]\u001b[A\rLoading weights: 100%|██████████| 398/398 [00:00\u003c00:00, 1499.36it/s]\n"}
-,{"stream_name":"stderr","time":159.615540971,"data":"\rLoading pipeline components...:  80%|████████  | 4/5 [00:03\u003c00:00,  1.33it/s]\rLoading pipeline components...: 100%|██████████| 5/5 [00:03\u003c00:00,  1.49it/s]\n"}
-,{"stream_name":"stdout","time":159.644596779,"data":"[   159s] tải xong FLUX.2 klein 4B\n"}
-,{"stream_name":"stderr","time":244.588814072,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:30\u003c01:32, 30.93s/it]\r 50%|█████     | 2/4 [00:41\u003c00:37, 19.00s/it]\r 75%|███████▌  | 3/4 [00:52\u003c00:15, 15.29s/it]\r100%|██████████| 4/4 [01:03\u003c00:00, 13.68s/it]\r100%|██████████| 4/4 [01:03\u003c00:00, 15.92s/it]\n"}
-,{"stream_name":"stdout","time":266.404025969,"data":"[   265s] bảng nhân vật shackleton 107s\n"}
-,{"stream_name":"stderr","time":319.617034436,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:10\u003c00:32, 10.98s/it]\r 50%|█████     | 2/4 [00:23\u003c00:23, 11.65s/it]\r 75%|███████▌  | 3/4 [00:35\u003c00:12, 12.13s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.59s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.28s/it]\n"}
-,{"stream_name":"stdout","time":342.361298893,"data":"[   341s] bảng nhân vật worsley 76s\n"}
-,{"stream_name":"stderr","time":396.432066608,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:10\u003c00:30, 10.12s/it]\r 50%|█████     | 2/4 [00:23\u003c00:23, 11.80s/it]\r 75%|███████▌  | 3/4 [00:36\u003c00:12, 12.59s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.84s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.46s/it]\n"}
-,{"stream_name":"stdout","time":418.320047246,"data":"[   417s] bảng nhân vật hurley 76s\n"}
-,{"stream_name":"stderr","time":472.224058739,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:09\u003c00:28,  9.46s/it]\r 50%|█████     | 2/4 [00:22\u003c00:23, 11.54s/it]\r 75%|███████▌  | 3/4 [00:36\u003c00:12, 12.53s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.97s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.45s/it]\n"}
-,{"stream_name":"stdout","time":494.122421894,"data":"[   493s] bảng nhân vật macklin 76s\n"}
-,{"stream_name":"stderr","time":547.415864327,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:09\u003c00:27,  9.04s/it]\r 50%|█████     | 2/4 [00:21\u003c00:22, 11.26s/it]\r 75%|███████▌  | 3/4 [00:35\u003c00:12, 12.29s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.90s/it]\r100%|██████████| 4/4 [00:49\u003c00:00, 12.30s/it]\n"}
-,{"stream_name":"stdout","time":569.487968024,"data":"[   568s] bảng nhân vật crean 75s\n"}
-,{"stream_name":"stderr","time":622.279015235,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:08\u003c00:25,  8.65s/it]\r 50%|█████     | 2/4 [00:21\u003c00:22, 11.06s/it]\r 75%|███████▌  | 3/4 [00:34\u003c00:12, 12.17s/it]\r100%|██████████| 4/4 [00:48\u003c00:00, 12.84s/it]\r100%|██████████| 4/4 [00:48\u003c00:00, 12.19s/it]\n"}
-,{"stream_name":"stdout","time":644.343119397,"data":"[   643s] bảng nhân vật blackborow 75s\n"}
-,{"stream_name":"stderr","time":696.528048517,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:08\u003c00:24,  8.07s/it]\r 50%|█████     | 2/4 [00:20\u003c00:21, 10.81s/it]\r 75%|███████▌  | 3/4 [00:34\u003c00:12, 12.06s/it]\r100%|██████████| 4/4 [00:48\u003c00:00, 12.78s/it]\r100%|██████████| 4/4 [00:48\u003c00:00, 12.05s/it]\n"}
-,{"stream_name":"stdout","time":718.695554891,"data":"[   718s] bảng nhân vật endurance 74s\n"}
-,{"stream_name":"stderr","time":735.607920938,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r  0%|          | 0/4 [00:06\u003c?, ?it/s]\n"}
-,{"stream_name":"stdout","time":735.607934597,"data":"[   734s] LỖI cảnh c1 ref OutOfMemoryError('CUDA out of memory. Tried to allocate 16.93 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.71 GiB is free. Including non-PyTorch memory, this process has 8.85 GiB memory in use. Of the allocated memory 8.63 GiB is allocated by PyTorch, and 96.45 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=exp\n"}
-,{"stream_name":"stderr","time":735.657097264,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":735.661208887,"data":"  File \"/kaggle/src/script.py\", line 52, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":735.661228921,"data":"    img = draw(s[\"prompt_\" + mode], 1344, 768, 11, refs)\n"}
-,{"stream_name":"stderr","time":735.661235316,"data":"  File \"/kaggle/src/script.py\", line 35, in draw\n"}
-,{"stream_name":"stderr","time":735.661241124,"data":"    return pipe(**kw).images[0]\n"}
-,{"stream_name":"stderr","time":735.66124578,"data":"           ~~~~^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661250425,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
-,{"stream_name":"stderr","time":735.661275635,"data":"    return func(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661280346,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 851, in __call__\n"}
-,{"stream_name":"stderr","time":735.66128562,"data":"    noise_pred = self.transformer(\n"}
-,{"stream_name":"stderr","time":735.661290238,"data":"                 ~~~~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":735.661294825,"data":"        hidden_states=latent_model_input,  # (B, image_seq_len, C)\n"}
-,{"stream_name":"stderr","time":735.661299766,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661304116,"data":"    ...\u003c6 lines\u003e...\n"}
-,{"stream_name":"stderr","time":735.66130834,"data":"        return_dict=False,\n"}
-,{"stream_name":"stderr","time":735.66131239,"data":"        ^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661320019,"data":"    )[0]\n"}
-,{"stream_name":"stderr","time":735.661322931,"data":"    ^\n"}
-,{"stream_name":"stderr","time":735.661325643,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":735.661328805,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661345774,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661348261,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":735.66135056,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.66135362,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 192, in new_forward\n"}
-,{"stream_name":"stderr","time":735.661367987,"data":"    output = module._old_forward(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661371724,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/peft_utils.py\", line 323, in wrapper\n"}
-,{"stream_name":"stderr","time":735.66137569,"data":"    result = forward_fn(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661379563,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/transformers/transformer_flux2.py\", line 1368, in forward\n"}
-,{"stream_name":"stderr","time":735.661383589,"data":"    encoder_hidden_states, hidden_states = block(\n"}
-,{"stream_name":"stderr","time":735.661387466,"data":"                                           ~~~~~^\n"}
-,{"stream_name":"stderr","time":735.66139143,"data":"        hidden_states=hidden_states,\n"}
-,{"stream_name":"stderr","time":735.661394712,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661397876,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":735.661401174,"data":"        joint_attention_kwargs=kv_attn_kwargs,\n"}
-,{"stream_name":"stderr","time":735.66140441,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661407707,"data":"    )\n"}
-,{"stream_name":"stderr","time":735.661410793,"data":"    ^\n"}
-,{"stream_name":"stderr","time":735.661413921,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":735.661420986,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661423815,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661427396,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":735.661429697,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.66143185,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/transformers/transformer_flux2.py\", line 937, in forward\n"}
-,{"stream_name":"stderr","time":735.661434211,"data":"    attention_outputs = self.attn(\n"}
-,{"stream_name":"stderr","time":735.661436581,"data":"        hidden_states=norm_hidden_states,\n"}
-,{"stream_name":"stderr","time":735.661438874,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":735.661441017,"data":"        **joint_attention_kwargs,\n"}
-,{"stream_name":"stderr","time":735.66144322,"data":"    )\n"}
-,{"stream_name":"stderr","time":735.66144529,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":735.661447546,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661449698,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661451931,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":735.661467051,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661471371,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/transformers/transformer_flux2.py\", line 569, in forward\n"}
-,{"stream_name":"stderr","time":735.661475613,"data":"    return self.processor(self, hidden_states, encoder_hidden_states, attention_mask, image_rotary_emb, **kwargs)\n"}
-,{"stream_name":"stderr","time":735.661479997,"data":"           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":735.661484234,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/transformers/transformer_flux2.py\", line 372, in __call__\n"}
-,{"stream_name":"stderr","time":735.661487855,"data":"    hidden_states = dispatch_attention_fn(\n"}
-,{"stream_name":"stderr","time":735.661491125,"data":"        query,\n"}
-,{"stream_name":"stderr","time":735.661494335,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":735.661497571,"data":"        parallel_config=self._parallel_config,\n"}
-,{"stream_name":"stderr","time":735.66150085,"data":"    )\n"}
-,{"stream_name":"stderr","time":735.661503978,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/attention_dispatch.py\", line 449, in dispatch_attention_fn\n"}
-,{"stream_name":"stderr","time":735.661507465,"data":"    return backend_fn(**kwargs)\n"}
-,{"stream_name":"stderr","time":735.661510657,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/attention_dispatch.py\", line 3751, in _native_attention\n"}
-,{"stream_name":"stderr","time":735.66151418,"data":"    out = torch.nn.functional.scaled_dot_product_attention(\n"}
-,{"stream_name":"stderr","time":735.661517551,"data":"        query=query,\n"}
-,{"stream_name":"stderr","time":735.661520724,"data":"    ...\u003c6 lines\u003e...\n"}
-,{"stream_name":"stderr","time":735.661523966,"data":"        enable_gqa=enable_gqa,\n"}
-,{"stream_name":"stderr","time":735.661527238,"data":"    )\n"}
-,{"stream_name":"stderr","time":735.661536665,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.93 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.71 GiB is free. Including non-PyTorch memory, this process has 8.85 GiB memory in use. Of the allocated memory 8.63 GiB is allocated by PyTorch, and 96.45 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
-,{"stream_name":"stdout","time":737.469907243,"data":"[   736s] LỖI cảnh c1 text OutOfMemoryError('CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 48.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=e\n"}
-,{"stream_name":"stderr","time":737.486634818,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":737.488598764,"data":"  File \"/kaggle/src/script.py\", line 52, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":737.488612538,"data":"    img = draw(s[\"prompt_\" + mode], 1344, 768, 11, refs)\n"}
-,{"stream_name":"stderr","time":737.488617178,"data":"  File \"/kaggle/src/script.py\", line 35, in draw\n"}
-,{"stream_name":"stderr","time":737.488621453,"data":"    return pipe(**kw).images[0]\n"}
-,{"stream_name":"stderr","time":737.488637089,"data":"           ~~~~^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488640829,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
-,{"stream_name":"stderr","time":737.488645148,"data":"    return func(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488649094,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 740, in __call__\n"}
-,{"stream_name":"stderr","time":737.488653176,"data":"    prompt_embeds, text_ids = self.encode_prompt(\n"}
-,{"stream_name":"stderr","time":737.488657301,"data":"                              ~~~~~~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.488661381,"data":"        prompt=prompt,\n"}
-,{"stream_name":"stderr","time":737.488665073,"data":"        ^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488668844,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.488672402,"data":"        text_encoder_out_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.488676183,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.48867998,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.488683878,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.488687573,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 446, in encode_prompt\n"}
-,{"stream_name":"stderr","time":737.48869163,"data":"    prompt_embeds = self._get_qwen3_prompt_embeds(\n"}
-,{"stream_name":"stderr","time":737.488694923,"data":"        text_encoder=self.text_encoder,\n"}
-,{"stream_name":"stderr","time":737.4886982,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.488701481,"data":"        hidden_states_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.488704862,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.488708003,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 249, in _get_qwen3_prompt_embeds\n"}
-,{"stream_name":"stderr","time":737.488711638,"data":"    output = text_encoder(\n"}
-,{"stream_name":"stderr","time":737.48871486,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.48872358,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.488726711,"data":"        use_cache=False,\n"}
-,{"stream_name":"stderr","time":737.488728923,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.488731063,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.488733379,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488735543,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488737774,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.488740043,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488742224,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 187, in new_forward\n"}
-,{"stream_name":"stderr","time":737.488744548,"data":"    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488746882,"data":"                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488752496,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 50, in wrapper\n"}
-,{"stream_name":"stderr","time":737.488754896,"data":"    return wrapper._compiled_fn(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488757885,"data":"           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488760089,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py\", line 1263, in _fn\n"}
-,{"stream_name":"stderr","time":737.488762388,"data":"    return fn(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488764531,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 763, in pre_forward\n"}
-,{"stream_name":"stderr","time":737.488766782,"data":"    module.to(self.execution_device)\n"}
-,{"stream_name":"stderr","time":737.488768923,"data":"    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488771067,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 3711, in to\n"}
-,{"stream_name":"stderr","time":737.488773376,"data":"    return super().to(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.488775524,"data":"           ~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488777681,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1384, in to\n"}
-,{"stream_name":"stderr","time":737.488780387,"data":"    return self._apply(convert)\n"}
-,{"stream_name":"stderr","time":737.488782831,"data":"           ~~~~~~~~~~~^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488784959,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 934, in _apply\n"}
-,{"stream_name":"stderr","time":737.488787218,"data":"    module._apply(fn)\n"}
-,{"stream_name":"stderr","time":737.488789323,"data":"    ~~~~~~~~~~~~~^^^^\n"}
-,{"stream_name":"stderr","time":737.488791445,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 934, in _apply\n"}
-,{"stream_name":"stderr","time":737.488793715,"data":"    module._apply(fn)\n"}
-,{"stream_name":"stderr","time":737.488795879,"data":"    ~~~~~~~~~~~~~^^^^\n"}
-,{"stream_name":"stderr","time":737.488797979,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 934, in _apply\n"}
-,{"stream_name":"stderr","time":737.488800224,"data":"    module._apply(fn)\n"}
-,{"stream_name":"stderr","time":737.488802326,"data":"    ~~~~~~~~~~~~~^^^^\n"}
-,{"stream_name":"stderr","time":737.488804532,"data":"  [Previous line repeated 2 more times]\n"}
-,{"stream_name":"stderr","time":737.488806686,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 965, in _apply\n"}
-,{"stream_name":"stderr","time":737.488808924,"data":"    param_applied = fn(param)\n"}
-,{"stream_name":"stderr","time":737.488811063,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1370, in convert\n"}
-,{"stream_name":"stderr","time":737.488813347,"data":"    return t.to(\n"}
-,{"stream_name":"stderr","time":737.48881547,"data":"           ~~~~^\n"}
-,{"stream_name":"stderr","time":737.488817646,"data":"        device,\n"}
-,{"stream_name":"stderr","time":737.488819746,"data":"        ^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488821843,"data":"        dtype if t.is_floating_point() or t.is_complex() else None,\n"}
-,{"stream_name":"stderr","time":737.488824073,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488826221,"data":"        non_blocking,\n"}
-,{"stream_name":"stderr","time":737.488830251,"data":"        ^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.488837626,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.488839724,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.488844774,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 48.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
-,{"stream_name":"stdout","time":737.497996356,"data":"[   736s] LỖI cảnh c2 ref OutOfMemoryError('CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=e\n"}
-,{"stream_name":"stderr","time":737.507051049,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":737.509199085,"data":"  File \"/kaggle/src/script.py\", line 52, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":737.509214135,"data":"    img = draw(s[\"prompt_\" + mode], 1344, 768, 11, refs)\n"}
-,{"stream_name":"stderr","time":737.509219526,"data":"  File \"/kaggle/src/script.py\", line 35, in draw\n"}
-,{"stream_name":"stderr","time":737.509224319,"data":"    return pipe(**kw).images[0]\n"}
-,{"stream_name":"stderr","time":737.509228372,"data":"           ~~~~^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509232338,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
-,{"stream_name":"stderr","time":737.509236054,"data":"    return func(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509240566,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 740, in __call__\n"}
-,{"stream_name":"stderr","time":737.509245279,"data":"    prompt_embeds, text_ids = self.encode_prompt(\n"}
-,{"stream_name":"stderr","time":737.509249476,"data":"                              ~~~~~~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.509264924,"data":"        prompt=prompt,\n"}
-,{"stream_name":"stderr","time":737.50926968,"data":"        ^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509273629,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.509277346,"data":"        text_encoder_out_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.509283193,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509287195,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.509290861,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.509294481,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 446, in encode_prompt\n"}
-,{"stream_name":"stderr","time":737.509298729,"data":"    prompt_embeds = self._get_qwen3_prompt_embeds(\n"}
-,{"stream_name":"stderr","time":737.509302238,"data":"        text_encoder=self.text_encoder,\n"}
-,{"stream_name":"stderr","time":737.509305443,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.509308809,"data":"        hidden_states_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.509319302,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.509322794,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 249, in _get_qwen3_prompt_embeds\n"}
-,{"stream_name":"stderr","time":737.50932794,"data":"    output = text_encoder(\n"}
-,{"stream_name":"stderr","time":737.509335137,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.509338189,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.509341617,"data":"        use_cache=False,\n"}
-,{"stream_name":"stderr","time":737.509343746,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.509345934,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.50934824,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509350391,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509352523,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.509354919,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509357064,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 192, in new_forward\n"}
-,{"stream_name":"stderr","time":737.509359358,"data":"    output = module._old_forward(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509361864,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 943, in wrapper\n"}
-,{"stream_name":"stderr","time":737.509364181,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509367661,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 469, in forward\n"}
-,{"stream_name":"stderr","time":737.509370008,"data":"    outputs: BaseModelOutputWithPast = self.model(\n"}
-,{"stream_name":"stderr","time":737.509372143,"data":"                                       ~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.509374319,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.509376436,"data":"        ^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509378563,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.509380731,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.509382889,"data":"        ^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509384976,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.509387029,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.509389103,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.509391413,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509393565,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509395693,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.509397969,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509400103,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1081, in wrapper\n"}
-,{"stream_name":"stderr","time":737.509402396,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509407408,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 287, in wrapper\n"}
-,{"stream_name":"stderr","time":737.509409777,"data":"    outputs = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.50941195,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 405, in forward\n"}
-,{"stream_name":"stderr","time":737.509414217,"data":"    hidden_states = decoder_layer(\n"}
-,{"stream_name":"stderr","time":737.509416323,"data":"        hidden_states,\n"}
-,{"stream_name":"stderr","time":737.509418458,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.509420608,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.509422713,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.509424805,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 110, in __call__\n"}
-,{"stream_name":"stderr","time":737.509427071,"data":"    return super().__call__(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509429226,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509431361,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.509433667,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509435778,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509437908,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1885, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.509440184,"data":"    return inner()\n"}
-,{"stream_name":"stderr","time":737.509442285,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1833, in inner\n"}
-,{"stream_name":"stderr","time":737.50944455,"data":"    result = forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509446694,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 297, in forward\n"}
-,{"stream_name":"stderr","time":737.50944898,"data":"    hidden_states = self.input_layernorm(hidden_states)\n"}
-,{"stream_name":"stderr","time":737.509451178,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.509455555,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509457773,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.509459928,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.509462193,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.509464351,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 60, in forward\n"}
-,{"stream_name":"stderr","time":737.509466646,"data":"    hidden_states = hidden_states.to(torch.float32)\n"}
-,{"stream_name":"stderr","time":737.509643895,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
-,{"stream_name":"stdout","time":737.516396654,"data":"[   736s] LỖI cảnh c2 text OutOfMemoryError('CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=e\n"}
-,{"stream_name":"stderr","time":737.517182326,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":737.519340111,"data":"  File \"/kaggle/src/script.py\", line 52, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":737.519355271,"data":"    img = draw(s[\"prompt_\" + mode], 1344, 768, 11, refs)\n"}
-,{"stream_name":"stderr","time":737.519360656,"data":"  File \"/kaggle/src/script.py\", line 35, in draw\n"}
-,{"stream_name":"stderr","time":737.519365213,"data":"    return pipe(**kw).images[0]\n"}
-,{"stream_name":"stderr","time":737.519369848,"data":"           ~~~~^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519373803,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
-,{"stream_name":"stderr","time":737.519377866,"data":"    return func(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519381859,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 740, in __call__\n"}
-,{"stream_name":"stderr","time":737.519385959,"data":"    prompt_embeds, text_ids = self.encode_prompt(\n"}
-,{"stream_name":"stderr","time":737.519389662,"data":"                              ~~~~~~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.519393726,"data":"        prompt=prompt,\n"}
-,{"stream_name":"stderr","time":737.519397277,"data":"        ^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519401061,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.519404726,"data":"        text_encoder_out_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.519409007,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519412679,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.519416324,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.519420194,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 446, in encode_prompt\n"}
-,{"stream_name":"stderr","time":737.519424767,"data":"    prompt_embeds = self._get_qwen3_prompt_embeds(\n"}
-,{"stream_name":"stderr","time":737.519428537,"data":"        text_encoder=self.text_encoder,\n"}
-,{"stream_name":"stderr","time":737.519432369,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.519436779,"data":"        hidden_states_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.519440614,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.519444404,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 249, in _get_qwen3_prompt_embeds\n"}
-,{"stream_name":"stderr","time":737.519448673,"data":"    output = text_encoder(\n"}
-,{"stream_name":"stderr","time":737.519452454,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.519456107,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.519459484,"data":"        use_cache=False,\n"}
-,{"stream_name":"stderr","time":737.519470682,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.519474577,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.519478488,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519482326,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519485931,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.519489494,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519492708,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 192, in new_forward\n"}
-,{"stream_name":"stderr","time":737.519496207,"data":"    output = module._old_forward(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519499749,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 943, in wrapper\n"}
-,{"stream_name":"stderr","time":737.519503314,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519516999,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 469, in forward\n"}
-,{"stream_name":"stderr","time":737.519520687,"data":"    outputs: BaseModelOutputWithPast = self.model(\n"}
-,{"stream_name":"stderr","time":737.519536436,"data":"                                       ~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.519539953,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.51954365,"data":"        ^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519547561,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.519551182,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.5195548,"data":"        ^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519558269,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.519561778,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.519565087,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.519568572,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519571804,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519575109,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.519578568,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.51958179,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1081, in wrapper\n"}
-,{"stream_name":"stderr","time":737.519585236,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519588483,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 287, in wrapper\n"}
-,{"stream_name":"stderr","time":737.519592065,"data":"    outputs = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519595358,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 405, in forward\n"}
-,{"stream_name":"stderr","time":737.519598874,"data":"    hidden_states = decoder_layer(\n"}
-,{"stream_name":"stderr","time":737.519607161,"data":"        hidden_states,\n"}
-,{"stream_name":"stderr","time":737.519614211,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.519616529,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.519618647,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.519620711,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 110, in __call__\n"}
-,{"stream_name":"stderr","time":737.51962296,"data":"    return super().__call__(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519625216,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519627351,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.519629636,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519631739,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519633939,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1885, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.519636206,"data":"    return inner()\n"}
-,{"stream_name":"stderr","time":737.519638301,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1833, in inner\n"}
-,{"stream_name":"stderr","time":737.519640561,"data":"    result = forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519642766,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 297, in forward\n"}
-,{"stream_name":"stderr","time":737.519645057,"data":"    hidden_states = self.input_layernorm(hidden_states)\n"}
-,{"stream_name":"stderr","time":737.519648131,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.5196505,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519652605,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.519654731,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.519657071,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.519659211,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 60, in forward\n"}
-,{"stream_name":"stderr","time":737.519661568,"data":"    hidden_states = hidden_states.to(torch.float32)\n"}
-,{"stream_name":"stderr","time":737.519663818,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
-,{"stream_name":"stdout","time":737.525808645,"data":"[   736s] LỖI cảnh c3 ref OutOfMemoryError('CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=e\n"}
-,{"stream_name":"stderr","time":737.526820185,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":737.529230803,"data":"  File \"/kaggle/src/script.py\", line 52, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":737.529249997,"data":"    img = draw(s[\"prompt_\" + mode], 1344, 768, 11, refs)\n"}
-,{"stream_name":"stderr","time":737.5292747,"data":"  File \"/kaggle/src/script.py\", line 35, in draw\n"}
-,{"stream_name":"stderr","time":737.529280921,"data":"    return pipe(**kw).images[0]\n"}
-,{"stream_name":"stderr","time":737.529285796,"data":"           ~~~~^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529290294,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
-,{"stream_name":"stderr","time":737.529294909,"data":"    return func(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529300849,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 740, in __call__\n"}
-,{"stream_name":"stderr","time":737.529307269,"data":"    prompt_embeds, text_ids = self.encode_prompt(\n"}
-,{"stream_name":"stderr","time":737.529311258,"data":"                              ~~~~~~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.529316694,"data":"        prompt=prompt,\n"}
-,{"stream_name":"stderr","time":737.52932111,"data":"        ^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529325704,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.52933093,"data":"        text_encoder_out_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.529343361,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529347533,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.529352216,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.529356884,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 446, in encode_prompt\n"}
-,{"stream_name":"stderr","time":737.529362966,"data":"    prompt_embeds = self._get_qwen3_prompt_embeds(\n"}
-,{"stream_name":"stderr","time":737.529367675,"data":"        text_encoder=self.text_encoder,\n"}
-,{"stream_name":"stderr","time":737.529372157,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.529376109,"data":"        hidden_states_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.529380025,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.529383926,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 249, in _get_qwen3_prompt_embeds\n"}
-,{"stream_name":"stderr","time":737.529395009,"data":"    output = text_encoder(\n"}
-,{"stream_name":"stderr","time":737.529412659,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.529417462,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.529422019,"data":"        use_cache=False,\n"}
-,{"stream_name":"stderr","time":737.529426384,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.529430744,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.529435927,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529440325,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529444619,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.529458172,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529462987,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 192, in new_forward\n"}
-,{"stream_name":"stderr","time":737.529467697,"data":"    output = module._old_forward(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529472134,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 943, in wrapper\n"}
-,{"stream_name":"stderr","time":737.52947639,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529481347,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 469, in forward\n"}
-,{"stream_name":"stderr","time":737.529485587,"data":"    outputs: BaseModelOutputWithPast = self.model(\n"}
-,{"stream_name":"stderr","time":737.529489449,"data":"                                       ~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.529493505,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.529502908,"data":"        ^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.52950647,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.529509104,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.529511676,"data":"        ^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529514114,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.529516536,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.529518982,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.529521758,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529524291,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529526814,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.529529472,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529532078,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1081, in wrapper\n"}
-,{"stream_name":"stderr","time":737.529534758,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529537264,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 287, in wrapper\n"}
-,{"stream_name":"stderr","time":737.529539947,"data":"    outputs = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529542585,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 405, in forward\n"}
-,{"stream_name":"stderr","time":737.52954532,"data":"    hidden_states = decoder_layer(\n"}
-,{"stream_name":"stderr","time":737.529547816,"data":"        hidden_states,\n"}
-,{"stream_name":"stderr","time":737.529550299,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.52955318,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.529555624,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.529558074,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 110, in __call__\n"}
-,{"stream_name":"stderr","time":737.529560737,"data":"    return super().__call__(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529563255,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.52956897,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.529571803,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529574339,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529576847,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1885, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.529579539,"data":"    return inner()\n"}
-,{"stream_name":"stderr","time":737.529582013,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1833, in inner\n"}
-,{"stream_name":"stderr","time":737.52958467,"data":"    result = forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529587214,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 297, in forward\n"}
-,{"stream_name":"stderr","time":737.529589929,"data":"    hidden_states = self.input_layernorm(hidden_states)\n"}
-,{"stream_name":"stderr","time":737.529592536,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.529595756,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529598328,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.529600849,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.529603497,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.529606026,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 60, in forward\n"}
-,{"stream_name":"stderr","time":737.529608696,"data":"    hidden_states = hidden_states.to(torch.float32)\n"}
-,{"stream_name":"stderr","time":737.529624916,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
-,{"stream_name":"stdout","time":737.535982545,"data":"[   736s] LỖI cảnh c3 text OutOfMemoryError('CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=e\n"}
-,{"stream_name":"stderr","time":737.536856817,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":737.53896896,"data":"  File \"/kaggle/src/script.py\", line 52, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":737.538982844,"data":"    img = draw(s[\"prompt_\" + mode], 1344, 768, 11, refs)\n"}
-,{"stream_name":"stderr","time":737.538988305,"data":"  File \"/kaggle/src/script.py\", line 35, in draw\n"}
-,{"stream_name":"stderr","time":737.538993164,"data":"    return pipe(**kw).images[0]\n"}
-,{"stream_name":"stderr","time":737.538997456,"data":"           ~~~~^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539010721,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
-,{"stream_name":"stderr","time":737.539015829,"data":"    return func(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539020168,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 740, in __call__\n"}
-,{"stream_name":"stderr","time":737.539024829,"data":"    prompt_embeds, text_ids = self.encode_prompt(\n"}
-,{"stream_name":"stderr","time":737.539028839,"data":"                              ~~~~~~~~~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.539032785,"data":"        prompt=prompt,\n"}
-,{"stream_name":"stderr","time":737.539036199,"data":"        ^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539041062,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.539044377,"data":"        text_encoder_out_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.539049389,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.53905269,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.539056432,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.539060165,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 446, in encode_prompt\n"}
-,{"stream_name":"stderr","time":737.539063936,"data":"    prompt_embeds = self._get_qwen3_prompt_embeds(\n"}
-,{"stream_name":"stderr","time":737.539068229,"data":"        text_encoder=self.text_encoder,\n"}
-,{"stream_name":"stderr","time":737.539072002,"data":"    ...\u003c4 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.539076281,"data":"        hidden_states_layers=text_encoder_out_layers,\n"}
-,{"stream_name":"stderr","time":737.539080488,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.539084244,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/flux2/pipeline_flux2_klein.py\", line 249, in _get_qwen3_prompt_embeds\n"}
-,{"stream_name":"stderr","time":737.539088136,"data":"    output = text_encoder(\n"}
-,{"stream_name":"stderr","time":737.539091607,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.539095588,"data":"    ...\u003c2 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.539099114,"data":"        use_cache=False,\n"}
-,{"stream_name":"stderr","time":737.539102827,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.539106684,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.539110187,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539113466,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539116674,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.539120193,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.53912526,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 192, in new_forward\n"}
-,{"stream_name":"stderr","time":737.539132377,"data":"    output = module._old_forward(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539134602,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 943, in wrapper\n"}
-,{"stream_name":"stderr","time":737.539136875,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539144292,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 469, in forward\n"}
-,{"stream_name":"stderr","time":737.539146807,"data":"    outputs: BaseModelOutputWithPast = self.model(\n"}
-,{"stream_name":"stderr","time":737.539149057,"data":"                                       ~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":737.539151199,"data":"        input_ids=input_ids,\n"}
-,{"stream_name":"stderr","time":737.539153311,"data":"        ^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539155407,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.539157679,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.539159783,"data":"        ^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539161904,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.539163986,"data":"    ^\n"}
-,{"stream_name":"stderr","time":737.539166147,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.539168441,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539170592,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539172735,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.539175074,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539177202,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1081, in wrapper\n"}
-,{"stream_name":"stderr","time":737.539179494,"data":"    output = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539181616,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 287, in wrapper\n"}
-,{"stream_name":"stderr","time":737.539184174,"data":"    outputs = func(self, *args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539186305,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 405, in forward\n"}
-,{"stream_name":"stderr","time":737.539188566,"data":"    hidden_states = decoder_layer(\n"}
-,{"stream_name":"stderr","time":737.539190688,"data":"        hidden_states,\n"}
-,{"stream_name":"stderr","time":737.539192791,"data":"    ...\u003c5 lines\u003e...\n"}
-,{"stream_name":"stderr","time":737.539194926,"data":"        **kwargs,\n"}
-,{"stream_name":"stderr","time":737.539197021,"data":"    )\n"}
-,{"stream_name":"stderr","time":737.539199076,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 110, in __call__\n"}
-,{"stream_name":"stderr","time":737.539201337,"data":"    return super().__call__(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539203481,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539205617,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.539207882,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539210009,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539212134,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1885, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.53921781,"data":"    return inner()\n"}
-,{"stream_name":"stderr","time":737.539219987,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1833, in inner\n"}
-,{"stream_name":"stderr","time":737.539224464,"data":"    result = forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539226721,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 297, in forward\n"}
-,{"stream_name":"stderr","time":737.539229032,"data":"    hidden_states = self.input_layernorm(hidden_states)\n"}
-,{"stream_name":"stderr","time":737.539231304,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
-,{"stream_name":"stderr","time":737.539235303,"data":"    return self._call_impl(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539237492,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":737.539239707,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
-,{"stream_name":"stderr","time":737.539241947,"data":"    return forward_call(*args, **kwargs)\n"}
-,{"stream_name":"stderr","time":737.539244169,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py\", line 60, in forward\n"}
-,{"stream_name":"stderr","time":737.539246436,"data":"    hidden_states = hidden_states.to(torch.float32)\n"}
-,{"stream_name":"stderr","time":737.539248788,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 6.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.38 GiB is allocated by PyTorch, and 45.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
-,{"stream_name":"stdout","time":737.539471383,"data":"[   736s] XONG\n"}
-,{"stream_name":"stderr","time":750.899419057,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":750.899451637,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":751.435589677,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":751.435617237,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":753.412642226,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":754.783479548,"data":"[NbConvertApp] Writing 299273 bytes to __results__.html\n"}
+[{"stream_name":"stdout","time":9.596823726,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 91.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.721391252,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 103.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.751849769,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 18.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.781463115,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 17.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.815121659999999,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 35.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":36.143988762,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":36.144026025,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":36.144030539,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":36.144049402,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":36.144054285,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":36.144060828,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":36.144065151,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":83.724055609,"data":"[    83s] GPU: Tesla T4\n"}
+,{"stream_name":"stderr","time":83.724356721,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":83.724383941,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":160.922741986,"data":"\rFetching 17 files:   0%|          | 0/17 [00:00\u003c?, ?it/s]\rFetching 17 files:  12%|█▏        | 2/17 [00:00\u003c00:01,  9.57it/s]\rFetching 17 files:  35%|███▌      | 6/17 [00:00\u003c00:00, 18.82it/s]\rFetching 17 files:  59%|█████▉    | 10/17 [00:00\u003c00:00, 24.51it/s]\rFetching 17 files:  76%|███████▋  | 13/17 [00:01\u003c00:00,  5.09it/s]\rFetching 17 files:  82%|████████▏ | 14/17 [00:19\u003c00:00,  5.09it/s]\rFetching 17 files:  88%|████████▊ | 15/17 [01:06\u003c00:16,  8.27s/it]\rFetching 17 files:  94%|█████████▍| 16/17 [01:16\u003c00:08,  8.59s/it]\rFetching 17 files: 100%|██████████| 17/17 [01:16\u003c00:00,  4.50s/it]\n"}
+,{"stream_name":"stderr","time":161.301739876,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":165.089003815,"data":"\rLoading weights:   0%|          | 0/398 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":165.200104866,"data":"\rLoading weights:   0%|          | 1/398 [00:03\u003c25:03,  3.79s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":168.673255406,"data":"\rLoading weights:  45%|████▍     | 179/398 [00:03\u003c00:03, 64.70it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":172.659857442,"data":"\rLoading weights:  69%|██████▉   | 274/398 [00:07\u003c00:03, 40.71it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":175.075362525,"data":"\rLoading weights:  82%|████████▏ | 327/398 [00:11\u003c00:02, 26.65it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":176.664509658,"data":"\rLoading weights:  90%|█████████ | 360/398 [00:13\u003c00:01, 22.65it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":177.446272807,"data":"\rLoading weights:  96%|█████████▌| 382/398 [00:15\u003c00:00, 20.68it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":177.446804244,"data":"\rLoading weights: 100%|█████████▉| 397/398 [00:16\u003c00:00, 20.47it/s]\u001b[A\rLoading weights: 100%|██████████| 398/398 [00:16\u003c00:00, 24.65it/s]\n"}
+,{"stream_name":"stderr","time":210.702744057,"data":"\rLoading pipeline components...:  20%|██        | 1/5 [00:16\u003c01:06, 16.70s/it]\rLoading pipeline components...:  40%|████      | 2/5 [00:17\u003c00:21,  7.23s/it]\rLoading pipeline components...:  60%|██████    | 3/5 [00:49\u003c00:37, 18.76s/it]The config attributes {'force_upcast': True} were passed to AutoencoderKLFlux2, but are not expected and will be ignored. Please verify your config.json configuration file.\n"}
+,{"stream_name":"stderr","time":211.462120265,"data":"\rLoading pipeline components...:  80%|████████  | 4/5 [00:50\u003c00:11, 11.65s/it]\rLoading pipeline components...: 100%|██████████| 5/5 [00:50\u003c00:00, 10.11s/it]\n"}
+,{"stream_name":"stdout","time":211.49909583,"data":"[   210s] tải xong FLUX.2 klein 4B\n"}
+,{"stream_name":"stderr","time":230.73514862,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:09\u003c00:29,  9.86s/it]\r 50%|█████     | 2/4 [00:11\u003c00:09,  4.93s/it]\r 75%|███████▌  | 3/4 [00:12\u003c00:03,  3.38s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  2.64s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  3.60s/it]\n"}
+,{"stream_name":"stdout","time":241.327012242,"data":"[   240s] bảng nhân vật shackleton 30s\n"}
+,{"stream_name":"stderr","time":257.877969945,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:09\u003c00:28,  9.40s/it]\r 50%|█████     | 2/4 [00:10\u003c00:09,  4.76s/it]\r 75%|███████▌  | 3/4 [00:12\u003c00:03,  3.29s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  2.60s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  3.50s/it]\n"}
+,{"stream_name":"stdout","time":266.712287,"data":"[   266s] bảng nhân vật worsley 25s\n"}
+,{"stream_name":"stderr","time":282.365205704,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:08\u003c00:25,  8.46s/it]\r 50%|█████     | 2/4 [00:09\u003c00:08,  4.38s/it]\r 75%|███████▌  | 3/4 [00:11\u003c00:03,  3.09s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  2.49s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  3.27s/it]\n"}
+,{"stream_name":"stdout","time":291.187745674,"data":"[   290s] bảng nhân vật hurley 24s\n"}
+,{"stream_name":"stderr","time":306.101888677,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:07\u003c00:23,  7.69s/it]\r 50%|█████     | 2/4 [00:09\u003c00:08,  4.07s/it]\r 75%|███████▌  | 3/4 [00:10\u003c00:02,  2.93s/it]\r100%|██████████| 4/4 [00:12\u003c00:00,  2.39s/it]\r100%|██████████| 4/4 [00:12\u003c00:00,  3.09s/it]\n"}
+,{"stream_name":"stdout","time":314.90826698,"data":"[   314s] bảng nhân vật macklin 24s\n"}
+,{"stream_name":"stderr","time":329.521809887,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:07\u003c00:21,  7.33s/it]\r 50%|█████     | 2/4 [00:08\u003c00:07,  3.95s/it]\r 75%|███████▌  | 3/4 [00:10\u003c00:02,  2.89s/it]\r100%|██████████| 4/4 [00:12\u003c00:00,  2.40s/it]\r100%|██████████| 4/4 [00:12\u003c00:00,  3.05s/it]\n"}
+,{"stream_name":"stdout","time":338.366025032,"data":"[   337s] bảng nhân vật crean 23s\n"}
+,{"stream_name":"stderr","time":352.418619043,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:20,  6.70s/it]\r 50%|█████     | 2/4 [00:08\u003c00:07,  3.72s/it]\r 75%|███████▌  | 3/4 [00:10\u003c00:02,  2.78s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.35s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.92s/it]\n"}
+,{"stream_name":"stdout","time":361.351293666,"data":"[   360s] bảng nhân vật blackborow 23s\n"}
+,{"stream_name":"stderr","time":375.245254749,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:19,  6.36s/it]\r 50%|█████     | 2/4 [00:08\u003c00:07,  3.61s/it]\r 75%|███████▌  | 3/4 [00:09\u003c00:02,  2.76s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.35s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.88s/it]\n"}
+,{"stream_name":"stdout","time":384.196271251,"data":"[   383s] bảng nhân vật endurance 23s\n"}
+,{"stream_name":"stderr","time":400.90736095,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:19,  6.39s/it]\r 50%|█████     | 2/4 [00:08\u003c00:08,  4.12s/it]\r 75%|███████▌  | 3/4 [00:11\u003c00:03,  3.40s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  3.08s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  3.51s/it]\n"}
+,{"stream_name":"stdout","time":410.740426268,"data":"[   410s] cảnh c1 ref 27s\n"}
+,{"stream_name":"stderr","time":424.949648866,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:19,  6.66s/it]\r 50%|█████     | 2/4 [00:08\u003c00:07,  3.75s/it]\r 75%|███████▌  | 3/4 [00:10\u003c00:02,  2.82s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.40s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.96s/it]\n"}
+,{"stream_name":"stdout","time":434.000969769,"data":"[   433s] cảnh c1 text 23s\n"}
+,{"stream_name":"stderr","time":452.562494829,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:19,  6.62s/it]\r 50%|█████     | 2/4 [00:09\u003c00:09,  4.52s/it]\r 75%|███████▌  | 3/4 [00:12\u003c00:03,  3.85s/it]\r100%|██████████| 4/4 [00:15\u003c00:00,  3.55s/it]\r100%|██████████| 4/4 [00:15\u003c00:00,  3.95s/it]\n"}
+,{"stream_name":"stdout","time":462.938837109,"data":"[   462s] cảnh c2 ref 29s\n"}
+,{"stream_name":"stderr","time":477.031855042,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:19,  6.62s/it]\r 50%|█████     | 2/4 [00:08\u003c00:07,  3.72s/it]\r 75%|███████▌  | 3/4 [00:10\u003c00:02,  2.79s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.36s/it]\r100%|██████████| 4/4 [00:11\u003c00:00,  2.93s/it]\n"}
+,{"stream_name":"stdout","time":486.120471908,"data":"[   485s] cảnh c2 text 23s\n"}
+,{"stream_name":"stderr","time":503.471951329,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:20,  6.71s/it]\r 50%|█████     | 2/4 [00:09\u003c00:08,  4.31s/it]\r 75%|███████▌  | 3/4 [00:11\u003c00:03,  3.55s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  3.21s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  3.67s/it]\n"}
+,{"stream_name":"stdout","time":513.355491378,"data":"[   512s] cảnh c3 ref 27s\n"}
+,{"stream_name":"stderr","time":527.824975776,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:20,  6.78s/it]\r 50%|█████     | 2/4 [00:08\u003c00:07,  3.82s/it]\r 75%|███████▌  | 3/4 [00:10\u003c00:02,  2.88s/it]\r100%|██████████| 4/4 [00:12\u003c00:00,  2.44s/it]\r100%|██████████| 4/4 [00:12\u003c00:00,  3.01s/it]\n"}
+,{"stream_name":"stdout","time":536.814091538,"data":"[   536s] cảnh c3 text 23s\n"}
+,{"stream_name":"stdout","time":536.814331369,"data":"[   536s] XONG\n"}
+,{"stream_name":"stderr","time":549.826518386,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":549.82656721,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":550.252542845,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":550.252588172,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":551.186685928,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":552.592368609,"data":"[NbConvertApp] Writing 303004 bytes to __results__.html\n"}
 ]

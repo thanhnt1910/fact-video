@@ -1,0 +1,167 @@
+{
+ "id": "SL12",
+ "slots": [
+  {
+   "slot": "P01",
+   "mo_ta": "Đại kim tự tháp Giza ảnh thế kỷ 19",
+   "queries": [
+    "Great Pyramid Giza 1858 Frith",
+    "pyramids of Giza 19th century photograph",
+    "Bonfils pyramids Giza"
+   ]
+  },
+  {
+   "slot": "P02",
+   "mo_ta": "kim tự tháp tranh David Roberts",
+   "queries": [
+    "David Roberts pyramids Giza lithograph",
+    "David Roberts Egypt Nile lithograph",
+    "pyramids lithograph 1840"
+   ]
+  },
+  {
+   "slot": "P03",
+   "mo_ta": "tranh kéo tượng Djehutihotep, xe trượt",
+   "queries": [
+    "Djehutihotep colossus transport",
+    "Egyptian sledge colossal statue painting",
+    "transport of colossus Deir el-Bersha"
+   ]
+  },
+  {
+   "slot": "P04",
+   "mo_ta": "tranh tường Ai Cập cảnh thuyền trên sông Nile",
+   "queries": [
+    "Egyptian tomb painting boat Nile",
+    "ancient Egyptian boat model",
+    "Meketre boat model"
+   ]
+  },
+  {
+   "slot": "P05",
+   "mo_ta": "tranh tường làm bánh mì, bia, công nhân",
+   "queries": [
+    "Egyptian tomb painting bread making",
+    "ancient Egypt brewing tomb painting",
+    "Egyptian workers tomb painting facsimile"
+   ]
+  },
+  {
+   "slot": "P06",
+   "mo_ta": "tượng vua Khufu",
+   "queries": [
+    "Khufu statuette",
+    "Cheops ivory statuette",
+    "Khufu"
+   ]
+  },
+  {
+   "slot": "P07",
+   "mo_ta": "mỏ đá Tura, đá vôi",
+   "queries": [
+    "Tura limestone quarry",
+    "Tura quarries Egypt",
+    "limestone casing stones Great Pyramid"
+   ]
+  },
+  {
+   "slot": "P08",
+   "mo_ta": "sông Nile thuyền buồm cổ",
+   "queries": [
+    "Nile felucca 19th century photograph",
+    "Nile boat 1880 photograph",
+    "Nile river Egypt old photograph"
+   ]
+  },
+  {
+   "slot": "P09",
+   "mo_ta": "giấy cói, chữ tượng hình hieratic",
+   "queries": [
+    "hieratic papyrus",
+    "ancient Egyptian papyrus scroll",
+    "papyrus hieroglyphs Met Museum"
+   ]
+  },
+  {
+   "slot": "P10",
+   "mo_ta": "Herodotus",
+   "queries": [
+    "Herodotus bust",
+    "Herodotus portrait engraving",
+    "Herodotus"
+   ]
+  },
+  {
+   "slot": "P11",
+   "mo_ta": "làng thợ, lăng mộ thợ xây Giza",
+   "queries": [
+    "Giza workers tombs",
+    "pyramid builders tombs Giza",
+    "Heit el-Ghurab"
+   ]
+  },
+  {
+   "slot": "P12",
+   "mo_ta": "Biển Đỏ, Vịnh Suez",
+   "queries": [
+    "Gulf of Suez coast",
+    "Red Sea coast Egypt desert",
+    "Zafarana coast"
+   ]
+  },
+  {
+   "slot": "P13",
+   "mo_ta": "nhân sư và kim tự tháp xưa",
+   "queries": [
+    "Great Sphinx 1870 photograph",
+    "Sphinx Giza old photograph",
+    "Sphinx and pyramid 19th century"
+   ]
+  },
+  {
+   "slot": "P14",
+   "mo_ta": "bên trong kim tự tháp, Đại hành lang",
+   "queries": [
+    "Grand Gallery Great Pyramid",
+    "Great Pyramid interior engraving",
+    "King's Chamber Great Pyramid"
+   ]
+  },
+  {
+   "slot": "P15",
+   "mo_ta": "kim tự tháp Giza ngày nay",
+   "queries": [
+    "Giza pyramid complex",
+    "pyramids Giza aerial",
+    "Great Pyramid of Giza"
+   ]
+  },
+  {
+   "slot": "P16",
+   "mo_ta": "dụng cụ, chén đồng Ai Cập cổ",
+   "queries": [
+    "ancient Egyptian copper chisel",
+    "ancient Egyptian tools Met Museum",
+    "Egyptian mallet ancient"
+   ]
+  },
+  {
+   "slot": "P17",
+   "mo_ta": "bản đồ Ai Cập cổ, sông Nile",
+   "queries": [
+    "map of ancient Egypt 19th century",
+    "Nile valley map 1850",
+    "Lower Egypt map antique"
+   ]
+  },
+  {
+   "slot": "P18",
+   "mo_ta": "bảo tàng Ai Cập Cairo xưa",
+   "queries": [
+    "Egyptian Museum Cairo old photograph",
+    "Egyptian Museum Cairo 1900",
+    "Grand Egyptian Museum"
+   ]
+  }
+ ]
+}

@@ -3,16 +3,26 @@ KIỂM TRA ẢNH BA20 · video ngắn · 17 ảnh (số thứ tự khớp lướ
 ✅ 2 ·  scene_01.jpg
 ✅ 3 ·  scene_02.jpg
 ⚠️ 4 ·  scene_03.jpg
-     ⚠️ Ảnh tư liệu hiển thị tàu Baychimo đang neo đậu tại cảng thay vì bối cảnh vùng biển Bắc Cực hoặc bị băng tuyết vây quanh theo nội dung câu chuyện. → Nên bổ sung hoặc thay thế bằng ảnh tàu Baychimo ở vùng biển lạnh giá hoặc bị mắc kẹt giữa băng để phù hợp hơn với ngữ cảnh.
+     ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: HTTP 402: {
+  "error": {
+    "code": 402,
+    "message": "Your prepayment credits are depleted
 ⚠️ 5 ·  scene_04.jpg
      ⚠️ Ảnh là bản đồ phân bố dân cư bản địa Alaska năm 1920, không phải hình ảnh về tàu chở hàng Baychimo hay sự kiện năm 1931. → Nên thay bằng ảnh chụp tàu chở hàng Baychimo hoặc bản đồ khu vực biển Bắc Cực nơi tàu di chuyển.
 ✅ 6 ·  scene_05.jpg
 ✅ 7 ·  scene_06.jpg
 ✅ 8 ·  scene_07.jpg
-✅ 9 ·  scene_08.jpg
+⚠️ 9 ·  scene_08.jpg
+     ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: HTTP 402: {
+  "error": {
+    "code": 402,
+    "message": "Your prepayment credits are depleted
 ✅ 10 ·  scene_09.jpg
-❌ 11 ·  scene_10.jpg
-     ❌ Tranh của Caspar David Friedrich vẽ cảnh bờ sông có sương mù và thuyền buồm nhỏ phong cách cổ điển, hoàn toàn không phù hợp để minh họa cho một con tàu hơi nước lớn (SS Baychimo) bị bão tuyết Bắc Cực nuốt chửng. → Thay bằng tranh hoặc ảnh tư liệu về một con tàu buôn lớn trên vùng biển băng giá Bắc Cực trong bão tuyết.
+⚠️ 11 ·  scene_10.jpg
+     ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: HTTP 402: {
+  "error": {
+    "code": 402,
+    "message": "Your prepayment credits are depleted
 ✅ 12 ·  scene_11.jpg
 ✅ 13 ·  scene_12.jpg
 ✅ 14 ·  scene_13.jpg

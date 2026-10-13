@@ -1,6 +1,6 @@
 {
  "ma": "BA20",
- "cap_nhat": "2026-10-13T11:43:13",
+ "cap_nhat": "2026-10-13T12:00:26",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -257,6 +257,7 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 1",
+    "ngắn · cảnh 7 ảnh 2",
     "dài · chương 0 đoạn 3",
     "dài · chương 2 đoạn 4",
     "dài · chương 3 đoạn 3",
@@ -315,29 +316,23 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
-    "ngắn · cảnh 7 ảnh 2",
-    "dài · chương 0 đoạn 4",
-    "dài · chương 1 đoạn 3",
-    "dài · chương 1 đoạn 8",
-    "dài · chương 3 đoạn 8",
-    "dài · chương 5 đoạn 5",
-    "dài · chương 6 đoạn 3",
-    "dài · chương 6 đoạn 8",
-    "dài · chương 7 đoạn 8",
-    "dài · chương 8 đoạn 5",
-    "dài · chương 9 đoạn 5",
-    "bài ảnh · cảnh 3"
+    "dài · chương 0 đoạn 8",
+    "dài · chương 5 đoạn 4",
+    "dài · chương 7 đoạn 1",
+    "dài · chương 7 đoạn 9",
+    "dài · chương 8 đoạn 6",
+    "dài · chương 9 đoạn 9"
    ],
-   "ten_file": "File:Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg",
+   "ten_file": "File:Der Alte Matrose b 28.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Caspar David Friedrich",
-   "ngay_chup": "circa 1821date QS:P571,+1821-00-00T00:00:00Z/9,P1480,Q5727902",
+   "tac_gia": "Gustave Doré",
+   "ngay_chup": "1866",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -345,11 +340,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "Wallraf-Richartz-Museum: Zweites Bild"
+    "Credit": "DER ALTE MATROSE mit Bildern von Gustav Doré, von Ferdinand Freiligrath, nach dem Englischen von S. T. Coleridge. Verlag Josef Müller, München, 1925 (self scanned from book)"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1821
+   "nam": 1866
   },
   {
    "loai": "ảnh tư liệu",
@@ -531,22 +526,27 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
-    "dài · chương 0 đoạn 8",
-    "dài · chương 5 đoạn 4",
-    "dài · chương 7 đoạn 1",
-    "dài · chương 7 đoạn 9",
-    "dài · chương 8 đoạn 6",
-    "dài · chương 9 đoạn 9"
+    "dài · chương 0 đoạn 4",
+    "dài · chương 1 đoạn 3",
+    "dài · chương 1 đoạn 8",
+    "dài · chương 3 đoạn 8",
+    "dài · chương 5 đoạn 5",
+    "dài · chương 6 đoạn 3",
+    "dài · chương 6 đoạn 8",
+    "dài · chương 7 đoạn 8",
+    "dài · chương 8 đoạn 5",
+    "dài · chương 9 đoạn 5",
+    "bài ảnh · cảnh 3"
    ],
-   "ten_file": "File:Der Alte Matrose b 28.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg",
+   "ten_file": "File:Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg",
    "giay_phep": "Public domain",
-   "tac_gia": "Gustave Doré",
-   "ngay_chup": "1866",
+   "tac_gia": "Caspar David Friedrich",
+   "ngay_chup": "circa 1821date QS:P571,+1821-00-00T00:00:00Z/9,P1480,Q5727902",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -554,11 +554,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "DER ALTE MATROSE mit Bildern von Gustav Doré, von Ferdinand Freiligrath, nach dem Englischen von S. T. Coleridge. Verlag Josef Müller, München, 1925 (self scanned from book)"
+    "Credit": "Wallraf-Richartz-Museum: Zweites Bild"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1866
+   "nam": 1821
   },
   {
    "loai": "ảnh tư liệu",

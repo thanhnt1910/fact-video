@@ -1,0 +1,4 @@
+CHUYỂN CẢNH BA20 (video ngắn) · bảng màu: hblur, wipeleft, smoothright, wipedown
+Thứ tự: cut → cut → cut → cut → cut → cut → wipeleft → dissolve → wipedown → cut → smoothright → cut → wipedown → cut → fadeblack → dissolve → cut → cut → dissolve → fade → dissolve → cut
+Số lần: cut 12, dissolve 4, wipedown 2, wipeleft 1, smoothright 1, fadeblack 1, fade 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

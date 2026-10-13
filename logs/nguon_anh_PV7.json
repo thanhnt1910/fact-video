@@ -1,6 +1,6 @@
 {
  "ma": "PV7",
- "cap_nhat": "2026-10-13T09:32:39",
+ "cap_nhat": "2026-10-13T09:38:15",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -45,6 +45,7 @@
     "dài · chương 2 đoạn 3",
     "dài · chương 5 đoạn 1",
     "dài · chương 5 đoạn 6",
+    "dài · chương 7 đoạn 5",
     "dài · chương 7 đoạn 7",
     "dài · chương 11 đoạn 4"
    ]
@@ -59,6 +60,7 @@
     "dài · chương 0 đoạn 5",
     "dài · chương 2 đoạn 2",
     "dài · chương 4 đoạn 3",
+    "dài · chương 4 đoạn 7",
     "dài · chương 10 đoạn 1",
     "dài · chương 10 đoạn 3"
    ],
@@ -139,20 +141,31 @@
    "nam": 1943
   },
   {
-   "loai": "tranh AI",
-   "prompt": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people",
-   "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
-   "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
+   "loai": "ảnh tư liệu",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/London_Blitz_9_September_1940.jpg/1920px-London_Blitz_9_September_1940.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"London Blitz 9 September 1940.jpg\" – H. F. Davis, Public domain (https://commons.wikimedia.org/wiki/File:London_Blitz_9_September_1940.jpg)",
+   "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 1",
-    "dài · chương 2 đoạn 4",
-    "dài · chương 3 đoạn 2",
-    "dài · chương 4 đoạn 4",
-    "dài · chương 4 đoạn 7",
-    "dài · chương 10 đoạn 4",
-    "dài · chương 11 đoạn 1"
-   ]
+    "dài · chương 3 đoạn 2"
+   ],
+   "ten_file": "File:London Blitz 9 September 1940.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:London_Blitz_9_September_1940.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "H. F. Davis",
+   "ngay_chup": "Taken on 9 September 1940",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://www.theguardian.com/uk-news/from-the-archive-blog/2015/sep/07/blitz-london-september-1940"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1940
   },
   {
    "loai": "tranh AI",
@@ -164,7 +177,8 @@
     "ngắn · cảnh 4 ảnh 2",
     "dài · chương 3 đoạn 1",
     "dài · chương 3 đoạn 3",
-    "dài · chương 3 đoạn 4"
+    "dài · chương 3 đoạn 4",
+    "dài · chương 10 đoạn 4"
    ]
   },
   {
@@ -174,7 +188,8 @@
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 1",
-    "dài · chương 4 đoạn 2"
+    "dài · chương 4 đoạn 2",
+    "dài · chương 4 đoạn 4"
    ],
    "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12987.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12987.jpg",
@@ -303,18 +318,18 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ayamonte._La_pesca_del_at%C3%BAn%2C_por_Joaqu%C3%ADn_Sorolla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Ayamonte. La pesca del atún, por Joaquín Sorolla.jpg\" – Joaquín Sorolla, Public domain (https://commons.wikimedia.org/wiki/File:Ayamonte._La_pesca_del_at%C3%BAn,_por_Joaqu%C3%ADn_Sorolla.jpg)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa%2C_Valencia_%281894%29.jpg/1920px-Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa%2C_Valencia_%281894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Joaquín Sorolla - Barcas en la Playa, Valencia (1894).jpg\" – Joaquín Sorolla, Public domain (https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa,_Valencia_(1894).jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "ngắn · cảnh 8 ảnh 1",
     "dài · chương 7 đoạn 1"
    ],
-   "ten_file": "File:Ayamonte. La pesca del atún, por Joaquín Sorolla.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Ayamonte._La_pesca_del_at%C3%BAn,_por_Joaqu%C3%ADn_Sorolla.jpg",
+   "ten_file": "File:Joaquín Sorolla - Barcas en la Playa, Valencia (1894).jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa,_Valencia_(1894).jpg",
    "giay_phep": "Public domain",
    "tac_gia": "Joaquín Sorolla",
-   "ngay_chup": "1919",
+   "ngay_chup": "1894date QS:P571,+1894-00-00T00:00:00Z/9",
    "ban_chup_giay_phep": {
     "LicenseShortName": "Public domain",
     "License": "pd",
@@ -322,11 +337,11 @@
     "Copyrighted": "False",
     "Restrictions": "",
     "AttributionRequired": "false",
-    "Credit": "Hispanic Society of America"
+    "Credit": "Sotheby's London, 20 November 2013, lot 14"
    },
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
-   "nam": 1919
+   "nam": 1894
   },
   {
    "loai": "tranh AI",
@@ -460,7 +475,7 @@
    "dung_o": [
     "dài · chương 0 đoạn 1",
     "dài · chương 2 đoạn 5",
-    "dài · chương 7 đoạn 5"
+    "dài · chương 7 đoạn 2"
    ]
   },
   {
@@ -544,6 +559,33 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 1939
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 2 đoạn 4",
+    "dài · chương 7 đoạn 4"
+   ],
+   "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Ministry of Information Photo Division Photographer",
+   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//42/media-42867/large.jpg This photograph D 12982 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1943
   },
   {
    "loai": "ảnh tư liệu",
@@ -635,32 +677,6 @@
    "nam": 1943
   },
   {
-   "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa%2C_Valencia_%281894%29.jpg/1920px-Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa%2C_Valencia_%281894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Joaquín Sorolla - Barcas en la Playa, Valencia (1894).jpg\" – Joaquín Sorolla, Public domain (https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa,_Valencia_(1894).jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 7 đoạn 2"
-   ],
-   "ten_file": "File:Joaquín Sorolla - Barcas en la Playa, Valencia (1894).jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Barcas_en_la_Playa,_Valencia_(1894).jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Joaquín Sorolla",
-   "ngay_chup": "1894date QS:P571,+1894-00-00T00:00:00Z/9",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "Sotheby's London, 20 November 2013, lot 14"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1894
-  },
-  {
    "loai": "tranh AI",
    "prompt": "a small military funeral in a Spanish cemetery in 1943 seen from far away, a coffin draped with a flag, a few figures in uniform standing still, white walls and cypress trees, oil painting",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
@@ -669,32 +685,6 @@
    "dung_o": [
     "dài · chương 7 đoạn 3"
    ]
-  },
-  {
-   "loai": "ảnh tư liệu",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "dài · chương 7 đoạn 4"
-   ],
-   "ten_file": "File:Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Ministry of Information Photo Division Photographer",
-   "ngay_chup": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "http://media.iwm.org.uk/iwm/mediaLib//42/media-42867/large.jpg This photograph D 12982 comes from the collections of the Imperial War Museums."
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1943
   },
   {
    "loai": "ảnh tư liệu",
@@ -799,6 +789,32 @@
    "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
    "hop_le": true,
    "nam": 2022
+  },
+  {
+   "loai": "ảnh tư liệu",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/THE_LONDON_BLITZ%2C_1940_HU112276.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "\"THE LONDON BLITZ, 1940 HU112276.jpg\" – Cecil Beaton, Public domain (https://commons.wikimedia.org/wiki/File:THE_LONDON_BLITZ,_1940_HU112276.jpg)",
+   "ngay_tai": "2026-10-13",
+   "dung_o": [
+    "dài · chương 11 đoạn 1"
+   ],
+   "ten_file": "File:THE LONDON BLITZ, 1940 HU112276.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:THE_LONDON_BLITZ,_1940_HU112276.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Cecil Beaton",
+   "ngay_chup": "between 1939 and 1945date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1939-00-00T00:0",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "Public domain",
+    "License": "pd",
+    "UsageTerms": "Public domain",
+    "Copyrighted": "False",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "https://media.iwm.org.uk/ciim5/521/848/large_000000.jpg This photograph HU 112276 comes from the collections of the Imperial War Museums."
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 1939
   }
  ],
  "loi": [],

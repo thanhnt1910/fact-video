@@ -4,21 +4,21 @@ KIỂM TRA ẢNH PV7 · video ngắn · 20 ảnh (số thứ tự khớp lưới
 ✅ 3 ·  scene_01.jpg
 ✅ 4 ·  scene_02.jpg
 ✅ 5 ·  scene_03.jpg
-✅ 6 (ảnh mô phỏng AI) ·  mp_a931b02b3a550dbc.jpg
+⚠️ 6 ·  scene_04.jpg
+     ⚠️ Ảnh chụp cảnh bom tàn phá London năm 1940, dùng làm bối cảnh không khí Thế chiến II là chấp nhận được nhưng không khớp trực tiếp với nội dung câu kể về việc sử dụng thi thể Glyndwr Michael tạo danh tính giả. → Có thể thay bằng ảnh chân dung giả định, hồ sơ hoặc hình ảnh liên quan đến việc chuẩn bị kế hoạch đánh lạc hướng của tình báo Anh.
 ✅ 7 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
-⚠️ 8 ·  scene_04.jpg
+⚠️ 8 ·  scene_05.jpg
      ⚠️ ảnh hơi mờ (độ nét 57)
      ⚠️ Ảnh chụp cảnh sinh hoạt tại căng tin ở Luân Đôn năm 1943, hoàn toàn không liên quan đến các vật dụng cá nhân như thư tình, hóa đơn nhẫn hay cuống vé xem kịch của Thiếu tá William Martin được nhắc đến trong lời kể. → Thay bằng ảnh chụp các tư liệu cá nhân giả mạo như thư tình, hóa đơn hoặc cuống vé xem kịch trong chiến dịch Mincemeat.
-✅ 9 ·  scene_05.jpg
-✅ 10 ·  scene_06.jpg
+✅ 9 ·  scene_06.jpg
+✅ 10 ·  scene_07.jpg
 ✅ 11 (ảnh mô phỏng AI) ·  mp_f2bf2d5c02283605.jpg
-✅ 12 ·  scene_07.jpg
+✅ 12 ·  scene_08.jpg
 ✅ 13 (ảnh mô phỏng AI) ·  mp_ef790c52c9864c15.jpg
-⚠️ 14 ·  scene_08.jpg
-     ⚠️ Tranh vẽ cảnh đánh bắt và xẻ thịt cá ngừ ở Ayamonte (Tây Ban Nha), không phải cảnh ngư dân tìm thấy thi thể trôi dạt trên biển theo lời kể. → Nên thay bằng ảnh tư liệu hoặc tranh minh họa thể hiện cảnh ngư dân vớt được thi thể trên biển ngoài khơi Tây Ban Nha vào năm 1943.
+✅ 14 ·  scene_09.jpg
 ✅ 15 (ảnh mô phỏng AI) ·  mp_37e6d0df90dc0554.jpg
-✅ 16 ·  scene_09.jpg
+✅ 16 ·  scene_10.jpg
 ✅ 17 (ảnh mô phỏng AI) ·  mp_3848dacaa0a90e60.jpg
-✅ 18 ·  scene_10.jpg
-✅ 19 ·  scene_11.jpg
+✅ 18 ·  scene_11.jpg
+✅ 19 ·  scene_12.jpg
 ✅ 20 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg

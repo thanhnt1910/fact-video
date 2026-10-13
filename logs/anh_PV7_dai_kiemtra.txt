@@ -13,31 +13,31 @@ KIỂM TRA ẢNH PV7 · video dài · 35 ảnh (số thứ tự khớp lưới �
 ✅ 11 ·  scene_07.jpg
 ⚠️ 12 ·  scene_08.jpg
      ⚠️ Ảnh hiển thị Adolf Hitler và Karl Dönitz, phù hợp với ngữ cảnh nhắc đến Hitler và các mệnh lệnh quân sự của Đức, tuy nhiên ảnh có một số nét vẽ hoặc chỉnh sửa đen ở khu vực tay bắt tay và phía dưới gây mất thẩm mỹ. → Nên sử dụng ảnh tư liệu nguyên bản không bị nét vẽ đè lên hoặc chọn ảnh thể hiện bản đồ/chiến lược quân sự liên quan đến Hy Lạp và Sardinia để minh họa trực quan hơn cho câu lệnh của Hitler.
-❌ 13 (ảnh mô phỏng AI) ·  mp_a931b02b3a550dbc.jpg
-     ❌ Chữ viết trên biển hiệu và các bốt điện thoại (TELEPHONE) bị biến dạng, nhòe thành các ký tự vô nghĩa do AI tạo ảnh. → Dùng ảnh thật hoặc tạo lại ảnh AI có chữ viết đúng chính tả.
+⚠️ 13 ·  scene_09.jpg
+     ⚠️ Ảnh chụp quang cảnh tại một căng-tin ở London năm 1943, minh họa cho việc sĩ quan Charles Cholmondeley và Ewen Montagu lên kế hoạch hoặc phía Anh tạo vỏ bọc. Đây là ảnh bối cảnh thời kỳ chiến tranh nhưng không liên quan trực tiếp đến hành động cụ thể được kể. → Có thể dùng ảnh chân dung của các sĩ quan Charles Cholmondeley, Ewen Montagu hoặc tài liệu liên quan đến chiến dịch Mincemeat để sát với lời kể hơn.
 ✅ 14 (ảnh mô phỏng AI) ·  mp_9168ed1e1c88a7c6.jpg
-✅ 15 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg
-✅ 16 · Thiếu tá William Martin · Royal Marines scene_09.jpg
-⚠️ 17 ·  scene_10.jpg
+⚠️ 15 · Glyndwr Michael · xứ Wales scene_10.jpg
+     ⚠️ Ảnh chụp cảnh tàn phá ở London trong Thế chiến II, dùng làm bối cảnh không khí chung cho thời điểm nhân vật Glyndwr Michael xuất hiện nhưng không minh họa trực tiếp cho cá nhân ông. → Có thể chấp nhận làm ảnh bối cảnh thời kỳ, nhưng nếu cần minh họa đúng nhân vật thì nên tìm ảnh chân dung hoặc tài liệu liên quan đến Glyndwr Michael.
+✅ 16 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg
+⚠️ 17 · Thiếu tá William Martin · Royal Marines scene_11.jpg
+     ⚠️ Ảnh minh họa các binh sĩ Thủy quân Lục chiến Hoàng gia Anh tập thể dục trên tàu năm 1943, trong khi lời kể đang nhắc đến cá nhân Glyndwr Michael được cấp danh tính Thiếu tá William Martin. → Nên dùng ảnh chân dung hoặc tài liệu liên quan trực tiếp đến cá nhân Glyndwr Michael hoặc sĩ quan Thủy quân Lục chiến William Martin để khớp với nội dung câu thoại.
+⚠️ 18 ·  scene_12.jpg
      ⚠️ ảnh hơi mờ (độ nét 57)
-     ⚠️ Ảnh chụp cảnh sinh hoạt tại căng-tin Whitehall năm 1943, dùng để minh họa cho việc 'họ cho anh có một vị hôn thê tên Pam. Tấm ảnh của Pam thực ra là ảnh một nữ nhân viên tình báo Anh' là ảnh bối cảnh chung, không phải là chân dung cụ thể của nhân vật Pam hay nữ nhân viên tình báo được nhắc đến trong lời kể. → Nên thay bằng ảnh chân dung thời chiến của một phụ nữ trẻ phù hợp với vai trò người tình giả định Pam.
-✅ 18 ·  scene_11.jpg
-✅ 19 ·  scene_12.jpg
-✅ 20 (ảnh mô phỏng AI) · Mục tiêu giả: Hy Lạp mp_f2bf2d5c02283605.jpg
-✅ 21 (ảnh mô phỏng AI) · Tàu ngầm HMS Seraph mp_32ec7aafce44702b.jpg
-✅ 22 ·  scene_13.jpg
-✅ 23 ·  scene_14.jpg
-✅ 24 (ảnh mô phỏng AI) ·  mp_ef790c52c9864c15.jpg
-⚠️ 25 ·  scene_15.jpg
-     ⚠️ Tranh vẽ cảnh đánh bắt cá ngừ ở Tây Ban Nha (Ayamonte) của Joaquín Sorolla, thể hiện hoạt động ngư nghiệp chung chứ không phải sự việc ngư dân phát hiện thi thể trôi dạt trên biển vào buổi sáng theo lời kể. → Nên thay bằng ảnh tư liệu chụp vùng biển Tây Ban Nha thời kỳ Thế chiến II hoặc ảnh minh họa một ngư dân đang nhìn ra mặt nước.
-✅ 26 ·  scene_16.jpg
+✅ 19 ·  scene_13.jpg
+✅ 20 ·  scene_14.jpg
+✅ 21 (ảnh mô phỏng AI) · Mục tiêu giả: Hy Lạp mp_f2bf2d5c02283605.jpg
+✅ 22 (ảnh mô phỏng AI) · Tàu ngầm HMS Seraph mp_32ec7aafce44702b.jpg
+✅ 23 ·  scene_15.jpg
+✅ 24 ·  scene_16.jpg
+✅ 25 (ảnh mô phỏng AI) ·  mp_ef790c52c9864c15.jpg
+✅ 26 ·  scene_17.jpg
 ✅ 27 (ảnh mô phỏng AI) ·  mp_50d90fae5f51b2a8.jpg
-⚠️ 28 ·  scene_17.jpg
-     ⚠️ Ảnh chụp quang cảnh căng tin ở London năm 1943, minh họa cho phân đoạn Anh sốt sắng hỏi han về chiếc cặp tài liệu của Thiếu tá Martin. → Nên dùng ảnh tư liệu chụp các sĩ quan tình báo Anh đang họp hoặc làm việc với các tài liệu, hồ sơ để sát với nội dung câu chuyện hơn.
-✅ 29 (ảnh mô phỏng AI) ·  mp_37e6d0df90dc0554.jpg
-✅ 30 · "Nuốt trọn cả cần câu" scene_18.jpg
-✅ 31 · Sicily · 10/7/1943 scene_19.jpg
-✅ 32 ·  scene_20.jpg
-✅ 33 ·  scene_21.jpg
-✅ 34 ·  scene_22.jpg
-✅ 35 ·  scene_23.jpg
+✅ 28 (ảnh mô phỏng AI) ·  mp_37e6d0df90dc0554.jpg
+✅ 29 · "Nuốt trọn cả cần câu" scene_18.jpg
+✅ 30 · Sicily · 10/7/1943 scene_19.jpg
+✅ 31 ·  scene_20.jpg
+✅ 32 ·  scene_21.jpg
+✅ 33 ·  scene_22.jpg
+✅ 34 ·  scene_23.jpg
+⚠️ 35 ·  scene_24.jpg
+     ⚠️ Ảnh tư liệu về cảnh đổ nát ở London năm 1940 (The London Blitz) phù hợp làm bối cảnh không khí thời chiến, nhưng góc dưới bên phải có watermark chữ 'IWM'. → Cắt hoặc xóa bỏ watermark 'IWM' ở góc dưới bên phải để hình ảnh sạch sẽ hơn khi lên video.

@@ -1,6 +1,6 @@
 {
  "ma": "PV7",
- "cap_nhat": "2026-10-13T12:59:47",
+ "cap_nhat": "2026-10-13T13:03:23",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -1088,16 +1088,29 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://live.staticflickr.com/65535/54579820378_9f499d47f6_b.jpg",
-   "credit": "\"Enigma Machine\" – ahisgett, CC BY 2.0 (https://www.flickr.com/photos/37804979@N00/54579820378)",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Machine_enigma_du_collectioneur_Edmond_Kern.jpg/1920px-Machine_enigma_du_collectioneur_Edmond_Kern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "\"Machine enigma du collectioneur Edmond Kern.jpg\" – Nicoleon, CC0 (https://commons.wikimedia.org/wiki/File:Machine_enigma_du_collectioneur_Edmond_Kern.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
     "dài · chương 10 đoạn 1"
    ],
-   "ten_file": "54579820378_9f499d47f6_b.jpg",
-   "giay_phep": "CC BY 2.0",
-   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
-   "hop_le": false
+   "ten_file": "File:Machine enigma du collectioneur Edmond Kern.jpg",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Machine_enigma_du_collectioneur_Edmond_Kern.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Nicoleon",
+   "ngay_chup": "2024-09-22 15:10:32",
+   "ban_chup_giay_phep": {
+    "LicenseShortName": "CC0",
+    "License": "cc0",
+    "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+    "Copyrighted": "True",
+    "Restrictions": "",
+    "AttributionRequired": "false",
+    "Credit": "Own work"
+   },
+   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
+   "hop_le": true,
+   "nam": 2024
   },
   {
    "loai": "ảnh tư liệu",
@@ -1244,8 +1257,6 @@
    "nam": 2018
   }
  ],
- "loi": [
-  "54579820378_9f499d47f6_b.jpg: giấy phép 'CC BY 2.0' không phải Public Domain/CC0"
- ],
+ "loi": [],
  "canh_bao": []
 }

@@ -1,4 +1,4 @@
-KIỂM TRA ẢNH PV7 · video ngắn · 20 ảnh (số thứ tự khớp lưới ảnh anh_PV7_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH PV7 · video ngắn · 21 ảnh (số thứ tự khớp lưới ảnh anh_PV7_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 ·  scene_00.jpg
 ✅ 2 (ảnh mô phỏng AI) ·  mp_aa72242e5cd947fb.jpg
 ✅ 3 ·  scene_01.jpg
@@ -22,3 +22,9 @@ KIỂM TRA ẢNH PV7 · video ngắn · 20 ảnh (số thứ tự khớp lưới
 ✅ 18 ·  scene_11.jpg
 ✅ 19 ·  scene_12.jpg
 ✅ 20 (ảnh mô phỏng AI) ·  mp_b7d03bc76652d89d.jpg
+⚠️ 21 ·  scene_13.jpg
+     ⚠️ ảnh hơi nhỏ (1024x683)
+     ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: HTTP 402: {
+  "error": {
+    "code": 402,
+    "message": "Your prepayment credits are depleted

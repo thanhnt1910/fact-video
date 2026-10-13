@@ -113,7 +113,8 @@ def _post(url, body, key, timeout=180):
 
 def translate(payload, log=print):
     """payload: {title, description, chapters[], lines[]} tiếng Việt -> bản tiếng Anh (dict) hoặc None."""
-    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    import gemini_keys
+    key = gemini_keys.current() or (gemini_keys.all_keys() or [""])[0]
     raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     cache = CACHE / f"tr_{hashlib.sha1(raw.encode()).hexdigest()[:16]}.json"
     if cache.exists():
@@ -139,6 +140,9 @@ def translate(payload, log=print):
                 return en
             except Exception as e:
                 msg = str(e)
+                if gemini_keys.is_quota_error(msg) and len(gemini_keys.all_keys()) > 1 and gemini_keys.mark_bad(key, msg):
+                    key = gemini_keys.current()
+                    continue
                 if ("429" in msg or "503" in msg or "500" in msg) and attempt < 3:
                     time.sleep(20 * (attempt + 1))
                     continue

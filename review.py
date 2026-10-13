@@ -139,7 +139,8 @@ class GeminiError(RuntimeError):
 
 
 def _key():
-    k = os.environ.get("GEMINI_API_KEY", "").strip()
+    import gemini_keys
+    k = gemini_keys.current() or (gemini_keys.all_keys() or [""])[0]
     if not k and not DRY:
         raise GeminiError("chưa có GEMINI_API_KEY")
     return k
@@ -199,6 +200,7 @@ def ask(parts, tag, dump_dir, cache_key=""):
         (dump_dir / f"{tag}.txt").write_text("\n\n----\n\n".join(text_parts), encoding="utf-8")
         n_media = sum(1 for p in parts if "text" not in p)
         return {"van_de": [], "tom_tat": f"(chạy thử: chưa gọi Gemini, {n_media} ảnh/video đính kèm)"}
+    import gemini_keys
     key = _key()
     body = json.dumps({"contents": [{"role": "user", "parts": parts}],
                        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}).encode()
@@ -227,6 +229,10 @@ def ask(parts, tag, dump_dir, cache_key=""):
                 return out
             except (GeminiError, json.JSONDecodeError, urllib.error.URLError, TimeoutError) as e:
                 msg = str(e)
+                if gemini_keys.is_quota_error(msg) and "HTTP" in msg and len(gemini_keys.all_keys()) > 1:
+                    if gemini_keys.mark_bad(key, msg):   # còn khóa khác: đổi khóa rồi thử lại ngay
+                        key = gemini_keys.current()
+                        continue
                 if any(c in msg for c in ("429", "500", "503", "timed out")) and attempt < 3:
                     time.sleep(20 * (attempt + 1))
                     continue
@@ -751,7 +757,7 @@ def precheck(sid, parts):
     rdir = ROOT / "output" / sid / "_review"
     rdir.mkdir(parents=True, exist_ok=True)
     found = []
-    use_ai = bool(os.environ.get("GEMINI_API_KEY", "").strip()) and not DRY
+    use_ai = __import__("gemini_keys").has_key() and not DRY
     for part in parts:
         if part == "dai" and not script.get("long"):
             continue
@@ -943,7 +949,7 @@ def main():
     if not targets:
         print(__doc__)
         return
-    if use_ai and not DRY and not os.environ.get("GEMINI_API_KEY", "").strip():
+    if use_ai and not DRY and not __import__("gemini_keys").has_key():
         log("⚠️  Chưa có GEMINI_API_KEY: chỉ kiểm tra kỹ thuật.")
         use_ai = False
     reports = []

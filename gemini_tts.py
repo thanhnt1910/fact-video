@@ -117,8 +117,9 @@ _WORKING = {}
 
 def synth(text, style, voice, key=None, log=print):
     """Đọc 1 đoạn. Trả về bytes WAV. Tự nhớ cách gọi nào chạy được."""
-    key = key or os.environ.get("GEMINI_API_KEY", "").strip()
-    if not key:
+    import gemini_keys
+    fixed = key
+    if not (fixed or gemini_keys.has_key()):
         raise RuntimeError("Chưa có GEMINI_API_KEY")
     order = ([_WORKING["way"]] if "way" in _WORKING else []) + \
             [("i", m) for m in MODELS_NEW] + [("g", m) for m in MODELS_OLD]
@@ -129,6 +130,15 @@ def synth(text, style, voice, key=None, log=print):
         while True:
             try:
                 fn = _synth_interactions if kind == "i" else _synth_generate
+                key = fixed or gemini_keys.current()
+                if not key:   # mọi khóa đang nghỉ: đợi khóa sớm nhất
+                    w = min(120, gemini_keys.wait_seconds() + 1)
+                    log(f"   [gemini] mọi khóa đang hết lượt, đợi {w:.0f}s…")
+                    waited += w
+                    if waited >= 900:
+                        raise RuntimeError("mọi khóa Gemini đều hết lượt")
+                    time.sleep(w)
+                    continue
                 wav = fn(model, text, style, voice, key)
                 try:   # ghi chi phí ước tính: âm thanh Gemini = 25 token/giây, chữ ≈ 4 ký tự/token
                     import chi_phi
@@ -143,6 +153,12 @@ def synth(text, style, voice, key=None, log=print):
                 return wav
             except Exception as e:
                 msg = str(e)
+                if not fixed and key and gemini_keys.is_quota_error(msg) and "HTTP" in msg:
+                    more = gemini_keys.mark_bad(key, msg)
+                    log(f"   [gemini] khóa …{key[-4:]} hết lượt/bị từ chối ({msg[:60]!r}), đổi khóa"
+                        + ("" if more else " (hết khóa dự phòng)"))
+                    if more:
+                        continue
                 if ("429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg or "500" in msg) and waited < 900:
                     if not shown:
                         log(f"   [gemini] {model} báo: {' '.join(msg.split())[:260]}")

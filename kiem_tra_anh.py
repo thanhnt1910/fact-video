@@ -141,7 +141,7 @@ def sheet(items, res, out):
 def check(items, sid, kind, log=print, use_ai=True):
     """Kiểm tra mọi ảnh (mỗi ảnh 1 lần). Trả về {src: [(muc, mo_ta)]}."""
     res = {}
-    use_ai = use_ai and bool(os.environ.get("GEMINI_API_KEY", "").strip())
+    use_ai = use_ai and __import__("gemini_keys").has_key()
     for k, it in enumerate(items):
         p = _path(it["src"])
         issues = tech(p, kind)

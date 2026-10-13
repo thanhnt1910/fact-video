@@ -5,21 +5,9 @@
 ▶️  ST5: Cô gái sống sót qua 3 vụ đắm tàu
   ⚖️  Bằng chứng bản quyền: 31 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST5.json
   🖼️  Ảnh cho video ngắn
-     🎨 mp_403952d22b3b4d6b.jpg
-     🎨 mp_b792f2a6b2937053.jpg
-     🎨 mp_3c3a614affe013a8.jpg
-     🎨 mp_ff477e2ad925886b.jpg
-     🎨 mp_320a0f85fbe0a65f.jpg
-     🎨 mp_a714bc025747fa4b.jpg
-  🔍 Kiểm tra 25 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_320a0f85fbe0a65f.jpg (lần 1)
-     🎨 mp_320a0f85fbe0a65f.jpg
-  🔍 Kiểm tra 25 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_320a0f85fbe0a65f.jpg (lần 2)
-     🎨 mp_320a0f85fbe0a65f.jpg
-  🔍 Kiểm tra 25 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
-❌ ST5: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST5_ngan_kiemtra.txt):
-  mp_320a0f85fbe0a65f.jpg: Lời kể tập trung vào nhân vật chính nhảy khỏi xuồng và bị va đầu, nhưng ảnh lại minh họa một chiếc xuồng chở đông người (nhiều y tá) nhìn từ phía sau, không thể hiện đúng hành động nhân vật đang nhảy hay va đầu theo lời kể. → Thay thế bằng ảnh minh họa tập trung vào khoảnh khắc một người đơn độc nhảy khỏi xuồng cứu sinh hoặc bị va đầu dưới nước.
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+❌ ST5: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
 Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
@@ -27,55 +15,13 @@ Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 ▶️  Video dài ST5: Cô gái không thể chìm: người sống sót qua cả Olympic, Titanic và Britannic | Chuyện có thật
   ⚖️  Bằng chứng bản quyền: 31 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST5.json
   🖼️  Ảnh cho video dài
-     🎨 mp_aeef15adb08fd3dc.jpg
-     🎨 mp_9b2f65da3644acfc.jpg
-     🎨 mp_082acee3bb2595f1.jpg
-     🎨 mp_e3c72e7b22c0d421.jpg
-     🎨 mp_b94efd1e99f1662f.jpg
-     🎨 mp_fe40edf4dde8f95a.jpg
-     🎨 mp_80af95eeaf26ad1d.jpg
-     🎨 mp_7e3b0e97b8f74db4.jpg
-     🎨 mp_b4aa291f007fb123.jpg
-     🎨 mp_a0d2ef32f42f1289.jpg
-     🎨 mp_883f7123bf618598.jpg
-     🎨 mp_9dd1086bca4bc493.jpg
-     🎨 mp_22db6323ad332478.jpg
-     🎨 mp_6780a2d32e91c2f5.jpg
-     🎨 mp_eef8296cc43ef944.jpg
-     🎨 mp_947176d21b86e260.jpg
-  🔍 Kiểm tra 53 ảnh: 7 ảnh lỗi, 3 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_80af95eeaf26ad1d.jpg (lần 1)
-     🎨 mp_80af95eeaf26ad1d.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_b4aa291f007fb123.jpg (lần 1)
-     🎨 mp_b4aa291f007fb123.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_b792f2a6b2937053.jpg (lần 1)
-     🎨 mp_b792f2a6b2937053.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_9dd1086bca4bc493.jpg (lần 1)
-     🎨 mp_9dd1086bca4bc493.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_320a0f85fbe0a65f.jpg (lần 1)
-     🎨 mp_320a0f85fbe0a65f.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_22db6323ad332478.jpg (lần 1)
-     🎨 mp_22db6323ad332478.jpg
-  🔍 Kiểm tra 53 ảnh: 7 ảnh lỗi, 3 ảnh cần xem
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_80af95eeaf26ad1d.jpg (lần 2)
-     🎨 mp_80af95eeaf26ad1d.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_b4aa291f007fb123.jpg (lần 2)
-     🎨 mp_b4aa291f007fb123.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_b792f2a6b2937053.jpg (lần 2)
-     🎨 mp_b792f2a6b2937053.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_9dd1086bca4bc493.jpg (lần 2)
-     🎨 mp_9dd1086bca4bc493.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_320a0f85fbe0a65f.jpg (lần 2)
-     🎨 mp_320a0f85fbe0a65f.jpg
-     🔁 tạo lại ảnh mô phỏng lỗi: mp_22db6323ad332478.jpg (lần 2)
-     🎨 mp_22db6323ad332478.jpg
-  🔍 Kiểm tra 53 ảnh: 5 ảnh lỗi, 3 ảnh cần xem
-❌ Video dài ST5: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST5_dai_kiemtra.txt):
-  mp_b4aa291f007fb123.jpg: Ảnh AI tạo ra có quá nhiều chi tiết bất hợp lý và lộn xộn so với mô tả gốc (nhiều người mặc đồng hồ/quân phục thủy thủ đứng lơ lửng phía sau, nét chữ trên sổ không rõ nghĩa, khung cảnh tổng thể không khớp với mô tả một cuốn sổ tay và bút máy đơn giản trên bàn làm việc). → Thay thế bằng ảnh mô phỏng đơn giản, rõ ràng hơn chỉ gồm một cuốn sổ tay viết tay cũ và bút máy trên bàn gỗ theo đúng mô tả.
-  mp_b792f2a6b2937053.jpg: Ảnh hiển thị 3 ống khói thay vì 4 ống khói đặc trưng của tàu Titanic, và góc nhìn từ xuồng cứu sinh lại thấy hai người đội mũ phớt đứng gần như đang đứng trên mặt nước hoặc trên một tiền cảnh không hợp lý. Hơn nữa, lời kể nhắc đến việc Violet đang ở trên chiếc xuồng nhỏ nhìn Titanic chìm, nhưng ảnh này lại vẽ tàu ở góc độ ngang tầm mắt từ một vị trí khác thay vì góc nhìn từ xuồng của nhân vật. → Dùng ảnh mô phỏng chính xác tàu Titanic có 4 ống khói và thể hiện góc nhìn từ một chiếc xuồng cứu sinh nhỏ nhìn về phía con tàu đang chìm theo đúng lời kể.
-  scene_21.jpg: Ảnh chụp một bệnh viện chiến tranh vào tháng 11 năm 1917, không phù hợp với mốc thời gian 'Hai năm sau, Thế chiến thứ nhất bùng nổ' tính từ ngày 18/4 (Thế chiến thứ nhất bùng nổ vào tháng 7 năm 1914, tức là khoảng hơn 2 năm trước chứ không phải 2 năm sau ngày tàu chìm cập bến New York). → Sử dụng ảnh tư liệu phù hợp với mốc thời gian năm 1916 (hai năm sau khi Thế chiến thứ nhất bùng nổ năm 1914).
-  mp_9dd1086bca4bc493.jpg: Ảnh hiển thị một cuốn sách cầu nguyện qua khung cửa sổ tàu với những người lính mặc quân phục bên ngoài, hoàn toàn không xuất hiện chiếc bàn chải đánh răng như trong lời kể của nhân vật Violet. → Thay thế bằng ảnh tập trung vào chiếc bàn chải đánh răng cũ đặt trong phòng cabin tàu để khớp chính xác với lời kể.
-  mp_22db6323ad332478.jpg: Lời kể nói về nhân vật nữ (cô gái) vừa bị va đầu vào xuồng và được cứu lên nước, nhưng ảnh lại minh họa một người đàn ông mặc áo khoác đứng quay lưng trên mặt nước, sai nhân vật và sự việc. → Thay thế bằng ảnh minh họa phù hợp với nhân vật nữ đang ở dưới nước hoặc được cứu lên xuồng.
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+     ⚠️  không tạo được ảnh mô phỏng: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (15s)
+❌ Video dài ST5: thiếu ảnh mô phỏng (sẽ thử lại lần chạy sau): Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
 
 Xong video ngắn: - · video dài: -
 Video dài chưa xong (sẽ thử lại lần chạy sau): ST5

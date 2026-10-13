@@ -87,8 +87,8 @@
    "text": "Hitler **tin**",
    "voice": "Quân Đức được điều sang Hy Lạp.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_%28right%29_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg\" – https://audiovis.nac.gov.pl/o, CC0 (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_(right)_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg)"
    }
   },
   {
@@ -196,7 +196,7 @@
      },
      {
       "text": "Nhưng người sĩ quan ấy chưa từng tồn tại. Mọi thứ trong túi anh đều do tình báo Anh dựng lên, kể cả tấm ảnh người yêu.",
-      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "an old brown leather wallet, a set of brass keys, a few old coins and a silver pocket watch on a dark wooden desk, 1940s, warm lamp light, oil painting, no people, no paper, no text"
      },
      {
       "text": "Đây là câu chuyện về Chiến dịch Mincemeat, một trong những phi vụ đánh lừa táo bạo nhất Thế chiến thứ hai.",
@@ -250,8 +250,8 @@
      {
       "text": "Vậy làm sao để thuyết phục Hitler nhìn sang hướng khác?",
       "image": {
-       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-       "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_%28right%29_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg\" – https://audiovis.nac.gov.pl/o, CC0 (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_(right)_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg)"
       }
      }
     ]
@@ -276,10 +276,7 @@
      },
      {
       "text": "Năm 1942, sĩ quan không quân Charles Cholmondeley đề xuất làm thật. Ông và sĩ quan hải quân Ewen Montagu được giao lên kế hoạch.",
-      "image": {
-       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-       "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)"
-      }
+      "mo_phong": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people"
      },
      {
       "text": "Họ chọn bờ biển gần thành phố Huelva của Tây Ban Nha. Tây Ban Nha trung lập, nhưng ở Huelva có một điệp viên Đức rất tích cực.",
@@ -325,20 +322,20 @@
     "beats": [
      {
       "text": "Glyndwr Michael được cấp một danh tính mới: Thiếu tá William Martin, thuộc Thủy quân Lục chiến Hoàng gia Anh.",
-      "mo_phong": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people",
+      "mo_phong": "a plain khaki British officer uniform jacket hanging on a wooden coat stand beside a window in a 1940s office, a black leather briefcase on the floor, oil painting, no people, no badges, no text",
       "label": "Thiếu tá William Martin · Royal Marines"
      },
      {
       "text": "Để thật hơn, họ cho anh có một vị hôn thê tên Pam. Tấm ảnh của Pam thực ra là ảnh một nữ nhân viên tình báo Anh.",
-      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "an old brown leather wallet, a set of brass keys, a few old coins and a silver pocket watch on a dark wooden desk, 1940s, warm lamp light, oil painting, no people, no paper, no text"
      },
      {
       "text": "Trong túi anh có hai bức thư tình của Pam, viết bằng giọng của một cô gái đang yêu.",
-      "mo_phong": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text"
+      "mo_phong": "a pressed red rose and an old black fountain pen lying on a dark wooden desk lit by a warm lamp, 1940s, oil painting, no people, no paper, no text"
      },
      {
       "text": "Có hóa đơn mua nhẫn đính hôn, và một lá thư của ngân hàng Lloyds nhắc anh trả khoản nợ thấu chi.",
-      "mo_phong": "a small open velvet jewellery box with a diamond engagement ring beside a folded paper bill on a wooden desk, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "a small open dark blue velvet jewellery box holding a diamond engagement ring on a dark wooden desk, soft lamp light, oil painting, no people, no paper, no text"
      },
      {
       "text": "Có cả cuống vé xem kịch ở London, hóa đơn câu lạc bộ, thư của người cha.",
@@ -356,7 +353,7 @@
      },
      {
       "text": "Một người tưởng tượng, nhưng có đủ những rắc rối rất đời thường của một sĩ quan trẻ.",
-      "mo_phong": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people"
+      "mo_phong": "a plain khaki British officer uniform jacket hanging on a wooden coat stand beside a window in a 1940s office, a black leather briefcase on the floor, oil painting, no people, no badges, no text"
      }
     ]
    },
@@ -388,7 +385,7 @@
      },
      {
       "text": "Một bức thư khác của Đô đốc Mountbatten có câu đùa xin gửi ít cá mòi, như ngầm ám chỉ đảo Sardinia.",
-      "mo_phong": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text"
+      "mo_phong": "a pressed red rose and an old black fountain pen lying on a dark wooden desk lit by a warm lamp, 1940s, oil painting, no people, no paper, no text"
      },
      {
       "text": "Bên trong thư, họ còn đặt một sợi lông mi. Nếu ai mở thư ra đọc, sợi lông mi sẽ rơi mất.",
@@ -414,8 +411,8 @@
      {
       "text": "Sau mười ngày hành trình, Seraph đến ngoài khơi Huelva.",
       "image": {
-       "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/HMSM_Turbulent_FL20300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-       "credit": "\"HMSM Turbulent FL20300.jpg\" – Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:HMSM_Turbulent_FL20300.jpg)"
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean%2C_24_December_1943._A21112.jpg/1920px-The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean%2C_24_December_1943._A21112.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The officers of HM Submarine SERAPH on her return to Portsmouth after operations in the Mediterranean, 24 December 1943. A21112.jpg\" – Pelman, L (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_officers_of_HM_Submarine_SERAPH_on_her_return_to_Portsmouth_after_operations_in_the_Mediterranean,_24_December_1943._A21112.jpg)"
       },
       "am_thanh": [
        "bien"
@@ -446,7 +443,7 @@
     "beats": [
      {
       "text": "Khoảng chín giờ rưỡi sáng hôm ấy, một ngư dân địa phương nhìn thấy thi thể trôi trên mặt nước.",
-      "mo_phong": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing, seen from far away, a pale grey life jacket floating on the water nearby, oil painting",
+      "mo_phong": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing towards a small dark shape floating on the water, seen from far away, oil painting",
       "am_thanh": [
        "bien"
       ]
@@ -511,8 +508,8 @@
      {
       "text": "Hitler ra lệnh phải giữ Hy Lạp, Sardinia và Corsica bằng mọi giá.",
       "image": {
-       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-       "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_%28right%29_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg\" – https://audiovis.nac.gov.pl/o, CC0 (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_(right)_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg)"
       }
      },
      {
@@ -632,7 +629,7 @@
      },
      {
       "text": "Theo bạn, điều gì trong túi Thiếu tá Martin đã khiến người Đức tin nhất? Hãy chia sẻ ở phần bình luận.",
-      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "an old brown leather wallet, a set of brass keys, a few old coins and a silver pocket watch on a dark wooden desk, 1940s, warm lamp light, oil painting, no people, no paper, no text"
      }
     ],
     "loai_canh": "ket"
@@ -666,7 +663,7 @@
     "text": "Mọi thứ trong túi người ấy đều được dựng lên… kể cả tấm ảnh người yêu.",
     "images": [
      {
-      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "an old brown leather wallet, a set of brass keys, a few old coins and a silver pocket watch on a dark wooden desk, 1940s, warm lamp light, oil painting, no people, no paper, no text"
      }
     ]
    },
@@ -698,7 +695,7 @@
       "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
      },
      {
-      "mo_phong": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people"
+      "mo_phong": "a plain khaki British officer uniform jacket hanging on a wooden coat stand beside a window in a 1940s office, a black leather briefcase on the floor, oil painting, no people, no badges, no text"
      }
     ],
     "the": {
@@ -712,10 +709,10 @@
     "text": "Trong túi anh có ảnh và thư tình của vị hôn thê, hóa đơn nhẫn đính hôn, thư đòi nợ của ngân hàng, cả cuống vé xem kịch.",
     "images": [
      {
-      "mo_phong": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text"
+      "mo_phong": "a pressed red rose and an old black fountain pen lying on a dark wooden desk lit by a warm lamp, 1940s, oil painting, no people, no paper, no text"
      },
      {
-      "mo_phong": "a small open velvet jewellery box with a diamond engagement ring beside a folded paper bill on a wooden desk, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "a small open dark blue velvet jewellery box holding a diamond engagement ring on a dark wooden desk, soft lamp light, oil painting, no people, no paper, no text"
      },
      {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wartime_Opera-_Music_and_Entertainment_at_the_New_Theatre%2C_St_Martin%27s_Lane%2C_London%2C_England%2C_UK%2C_1943_D17176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -779,7 +776,7 @@
     "text": "Một ngư dân tìm thấy thi thể. Những bức thư được bí mật mở ra, rồi gửi thẳng về Berlin.",
     "images": [
      {
-      "mo_phong": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing, seen from far away, a pale grey life jacket floating on the water nearby, oil painting"
+      "mo_phong": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing towards a small dark shape floating on the water, seen from far away, oil painting"
      },
      {
       "mo_phong": "a 1940s teleprinter machine printing a long paper tape in a dark wartime office, lamp light, oil painting, no people, no readable text"
@@ -794,8 +791,8 @@
     "text": "Và Hitler tin. Quân Đức được điều sang Hy Lạp, cả Sư đoàn Thiết giáp số 1 từ tận nước Pháp.",
     "images": [
      {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_%28right%29_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg\" – https://audiovis.nac.gov.pl/o, CC0 (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_Karl_D%C3%B6nitz_1943._Grand_Admiral_Karl_Doenitz_(right)_receives_the_Oak_Leaves_of_the_Knight%27s_Cross_of_the_Iron_Cross_from_Third_Reich_leader_Adolf_Hitler.jpg)"
      },
      {
       "mo_phong": "a long military freight train carrying tanks under tarpaulins through a mountain valley in summer 1943, steam locomotive smoke, oil painting, no people"
@@ -851,7 +848,7 @@
     "text": "Theo bạn, chi tiết nào đã khiến người Đức tin?",
     "images": [
      {
-      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+      "mo_phong": "an old brown leather wallet, a set of brass keys, a few old coins and a silver pocket watch on a dark wooden desk, 1940s, warm lamp light, oil painting, no people, no paper, no text"
      }
     ],
     "the": {

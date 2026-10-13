@@ -1,0 +1,10 @@
+{
+ "id": "PV7b",
+ "slots": [
+  {"slot": "Q01", "mo_ta": "nhẫn đính hôn kim cương cổ (CC0 bảo tàng)", "queries": ["diamond engagement ring Metropolitan Museum", "Art Deco diamond ring", "antique diamond ring CC0"]},
+  {"slot": "Q02", "mo_ta": "bút máy, thư tình cổ", "queries": ["fountain pen 1940s", "love letter 1940s", "fountain pen Smithsonian"]},
+  {"slot": "Q03", "mo_ta": "ví da, đồng hồ bỏ túi, đồ cá nhân", "queries": ["pocket watch 1940s", "leather wallet 1940s", "British penny 1940"]},
+  {"slot": "Q04", "mo_ta": "sĩ quan Thủy quân Lục chiến Hoàng gia Anh 1943", "queries": ["Royal Marines 1943", "Royal Marine officer Second World War", "Royal Marines commando 1942"]},
+  {"slot": "Q05", "mo_ta": "tranh thuyền đánh cá Tây Ban Nha / Sorolla", "queries": ["Sorolla fishing boats", "Sorolla beach Valencia", "Joaquín Sorolla fishermen"]}
+ ]
+}

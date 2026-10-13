@@ -1,0 +1,932 @@
+{
+ "id": "SL12",
+ "topic": "su-la",
+ "title": "Ai đã xây kim tự tháp? Nhật ký 4.500 năm tuổi",
+ "caption": "Ai đã xây kim tự tháp? Câu trả lời nằm trong cuốn nhật ký của một người đốc công viết cách đây 4.500 năm 📜 Không có người ngoài hành tinh, cũng không có roi da. Trước đây bạn nghĩ ai đã xây kim tự tháp?",
+ "hashtags": [
+  "nguoigacsu",
+  "sửlạ",
+  "kimtựtháp",
+  "aicập",
+  "chuyệncóthật"
+ ],
+ "tu_khoa": [
+  "kim tự tháp",
+  "nhật ký Merer",
+  "Đại kim tự tháp Giza",
+  "vua Khufu",
+  "ai xây kim tự tháp",
+  "Ai Cập cổ đại",
+  "chuyện có thật",
+  "Người Gác Sử"
+ ],
+ "sources": [
+  "Pierre Tallet – Les papyrus de la mer Rouge I: le journal de Merer (IFAO, 2017); phát hiện năm 2013 tại Wadi al-Jarf",
+  "Wikipedia – Diary of Merer (năm 26–27 triều Khufu, khoảng 40 người, ~200 khối/tháng, chuyến đi về 4 ngày, Ankhhaf)",
+  "Guinness World Records – Oldest papyrus (Diary of Merer, khoảng 2570 TCN)",
+  "CBC News (11/1/2010) – lăng mộ thợ xây kim tự tháp: phát hiện năm 1990, 21 con bò và 23 con cừu mỗi ngày, Zahi Hawass ước tính khoảng 10.000 thợ",
+  "Herodotos – Lịch sử, quyển II (100.000 người, mỗi đợt 3 tháng, 20 năm)"
+ ],
+ "nguon_link": [
+  {
+   "ten": "Nhật ký Merer (Diary of Merer)",
+   "url": "https://en.wikipedia.org/wiki/Diary_of_Merer",
+   "ngon_ngu": "tiếng Anh"
+  },
+  {
+   "ten": "Kỷ lục giấy cói cổ nhất (Guinness)",
+   "url": "https://www.guinnessworldrecords.com/world-records/711805-oldest-papyrus",
+   "ngon_ngu": "tiếng Anh"
+  },
+  {
+   "ten": "Lăng mộ thợ xây kim tự tháp (CBC News, 2010)",
+   "url": "https://www.cbc.ca/technology/story/2010/01/11/tech-egypt-pyramid.html",
+   "ngon_ngu": "tiếng Anh"
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Ai đã xây **kim tự tháp**?",
+   "voice": "Ai đã xây kim tự tháp? Câu trả lời nằm trong cuốn nhật ký của một người đốc công, viết cách đây bốn nghìn rưỡi năm.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Năm **2013**, bờ Biển Đỏ",
+   "voice": "Các nhà khảo cổ tìm thấy những văn bản giấy cói cổ nhất từng biết.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg/1920px-Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Letter written in hieratic script on papyrus MET DP234741.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Nhật ký của **Merer**",
+   "voice": "Một viên thanh tra chỉ huy khoảng 40 người, dưới thời vua Khufu.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Khufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Khufu.JPG\" – Chipdawes, Public domain (https://commons.wikimedia.org/wiki/File:Khufu.JPG)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**200** khối đá mỗi tháng",
+   "voice": "Đá vôi trắng chở bằng thuyền từ mỏ Tura tới Giza.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg/1920px-Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Cairo, Islamic Cairo, 19th century pictures, F. Bonfils, photo 50 of 52 - Archivio fotografico Museo Egizio, Turin INV34 008.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Cairo,_Islamic_Cairo,_19th_century_pictures,_F._Bonfils,_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio,_Turin_INV34_008.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**Không phải** nô lệ",
+   "voice": "Lăng mộ của chính những người thợ được tìm thấy cạnh kim tự tháp.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg/1920px-The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"The Great Pyramid and The Great Sphinx MET DP132062.jpg\" – Francis Frith, CC0 (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Hàng nghìn **người thợ**",
+   "voice": "Và một người đốc công chăm chỉ ghi chép.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Giza, Pyramids, Pictures, F. Bonfils, photo 5 of 27 - Archivio fotografico Museo Egizio, Turin INV01 007.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_F._Bonfils,_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV01_007.jpg)"
+   }
+  }
+ ],
+ "post": {
+  "hook": "Ai đã xây kim tự tháp? Câu trả lời nằm trong cuốn nhật ký của một người đốc công, viết cách đây 4.500 năm 📜",
+  "paragraphs": [
+   "Năm 2013, tại Wadi al-Jarf, một bến cảng cổ bên bờ Biển Đỏ, đoàn khảo cổ của Pierre Tallet tìm thấy hàng trăm mảnh giấy cói: những văn bản viết trên giấy cói cổ nhất từng được biết.",
+   "Phần lớn là nhật ký công việc của Merer, một viên thanh tra chỉ huy khoảng 40 người lái thuyền, vào những năm cuối triều vua Khufu, người cho xây Đại kim tự tháp Giza.",
+   "Nhật ký ghi đội của ông chở đá vôi trắng bằng thuyền từ mỏ đá Tura theo sông Nile tới Giza: mỗi tháng khoảng 200 khối, mỗi khối nặng 2–3 tấn, mỗi chuyến đi về mất khoảng 4 ngày. Có cả những dòng ghi lương thực được chở tới cho cả đội.",
+   "Năm 1990, người ta còn tìm thấy lăng mộ của chính những người thợ xây ngay cạnh kim tự tháp, có bình đựng bia và bánh mì cho thế giới bên kia.",
+   "Từ những bằng chứng ấy, các nhà khảo cổ cho rằng người xây kim tự tháp không phải nô lệ, mà là những người thợ được tổ chức, được nuôi ăn và được chôn cất trang trọng."
+  ],
+  "ending": "Trước đây bạn nghĩ ai đã xây kim tự tháp?",
+  "hashtags": [
+   "nguoigacsu",
+   "sửlạ",
+   "kimtựtháp",
+   "aicập",
+   "chuyệncóthật"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "scene": 0,
+    "kicker": "Chuyện có thật · 4.500 năm",
+    "title": "Ai đã xây **kim tự tháp**?"
+   },
+   {
+    "scene": 1,
+    "tag": "Wadi al-Jarf · 2013",
+    "text": "Tìm thấy những văn bản trên giấy cói cổ nhất từng biết, bên bờ Biển Đỏ."
+   },
+   {
+    "scene": 3,
+    "tag": "Nhật ký Merer",
+    "text": "Mỗi tháng khoảng 200 khối đá vôi trắng, chở bằng thuyền từ Tura tới Giza."
+   },
+   {
+    "scene": 4,
+    "tag": "Giza · 1990",
+    "text": "Lăng mộ của chính những người thợ xây được tìm thấy ngay cạnh kim tự tháp."
+   },
+   {
+    "kind": "end",
+    "scene": 5,
+    "text": "Không có người ngoài hành tinh, cũng không có roi da."
+   }
+  ]
+ },
+ "binh_luan": {
+  "ngan": {
+   "ghim": "Trước khi xem video này, bạn nghĩ ai đã xây kim tự tháp? Ⓐ nô lệ · Ⓑ thợ được trả công · Ⓒ người ngoài hành tinh 👽 Thật lòng nhé, bình luận chữ cái của bạn 👇",
+   "phu": [
+    "Chi tiết mình chưa kịp kể: tên gốc của Đại kim tự tháp là Akhet Khufu, nghĩa là \"Chân trời của Khufu\". Merer ghi đúng cái tên ấy trong nhật ký của mình 📜"
+   ]
+  },
+  "dai": {
+   "ghim": "Theo bạn, điều gì khó nhất khi xây kim tự tháp 4.500 năm trước? Ⓐ cắt đá · Ⓑ chở đá bằng thuyền · Ⓒ nuôi ăn hàng nghìn người thợ. Bình luận cho Người Gác Sử biết nhé 🏮",
+   "phu": [
+    "Một chi tiết thú vị: bến cảng Wadi al-Jarf nơi tìm thấy nhật ký Merer là bến cảng cổ nhất từng được biết đến, thuyền từ đây vượt biển sang Sinai để lấy đồng ⛵"
+   ]
+  }
+ },
+ "long": {
+  "title": "Ai đã xây kim tự tháp? Cuốn nhật ký 4.500 năm tuổi của đốc công Merer",
+  "title_card": "Nhật ký người **xây kim tự tháp**",
+  "description": "Năm 2013, bên bờ Biển Đỏ, các nhà khảo cổ tìm thấy những văn bản trên giấy cói cổ nhất từng biết: nhật ký của Merer, một viên thanh tra chỉ huy đội thuyền chở đá vôi từ mỏ Tura tới công trường Đại kim tự tháp dưới thời vua Khufu. Cùng với lăng mộ và khu làng của thợ xây ở Giza, cuốn nhật ký giúp trả lời câu hỏi hàng nghìn năm: ai đã thật sự xây nên kim tự tháp?",
+  "voice": "Sadaltager",
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Bốn nghìn rưỡi năm trước, ở rìa sa mạc Ai Cập, con người dựng lên một ngọn núi bằng đá.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)"
+      },
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Đến nay, người ta vẫn tranh cãi: ai đã xây nên nó, và bằng cách nào?",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg/1920px-The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The Great Pyramid and The Great Sphinx MET DP132062.jpg\" – Francis Frith, CC0 (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg)"
+      }
+     },
+     {
+      "text": "Có người nói đó là hàng vạn nô lệ bị roi da quất. Có người còn nói đó là người ngoài hành tinh.",
+      "mo_phong": "ancient Egyptian workers hauling a large stone block on a wooden sledge with ropes, seen from far behind, dusty desert ramp, oil painting, no faces"
+     },
+     {
+      "text": "Nhưng năm hai nghìn không trăm mười ba, bên bờ Biển Đỏ, các nhà khảo cổ tìm thấy một thứ có thể trả lời câu hỏi ấy.",
+      "mo_phong": "an ancient Egyptian harbour on a bare desert Red Sea coast 4500 years ago, a long stone jetty, wooden boats with square sails, rocky hills behind with dark cave openings cut into the cliff, oil painting, no people",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Đó là cuốn nhật ký của một người đốc công tên Merer, viết trên giấy cói từ thời vua Khufu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg/1920px-Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Letter written in hieratic script on papyrus MET DP234741.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg)"
+      }
+     },
+     {
+      "text": "Và những gì ông ghi lại khác hẳn những gì phim ảnh vẫn kể.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pyramids_of_Geezeh_David_Roberts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Pyramids of Geezeh David Roberts.jpg\" – David Roberts, Public domain (https://commons.wikimedia.org/wiki/File:Pyramids_of_Geezeh_David_Roberts.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Ngọn núi do con người dựng lên",
+    "beats": [
+     {
+      "text": "Đại kim tự tháp Giza được xây cho vua Khufu, vị pharaoh thuộc vương triều thứ tư của Ai Cập cổ đại.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Khufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Khufu.JPG\" – Chipdawes, Public domain (https://commons.wikimedia.org/wiki/File:Khufu.JPG)"
+      },
+      "label": "Vua Khufu · khoảng 2589 – 2566 TCN"
+     },
+     {
+      "text": "Khi mới hoàn thành, nó cao khoảng một trăm bốn mươi sáu mét.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spelterini_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Spelterini Pyramids.jpg\" – Eduard Spelterini, Public domain (https://commons.wikimedia.org/wiki/File:Spelterini_Pyramids.jpg)"
+      },
+      "label": "Đại kim tự tháp Giza"
+     },
+     {
+      "text": "Suốt hơn ba nghìn tám trăm năm, đó là công trình cao nhất do con người dựng nên.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Giza, Pyramids, Pictures, F. Bonfils, photo 5 of 27 - Archivio fotografico Museo Egizio, Turin INV01 007.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_F._Bonfils,_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV01_007.jpg)"
+      }
+     },
+     {
+      "text": "Người ta ước tính nó gồm khoảng hai triệu ba trăm nghìn khối đá, nhiều khối nặng vài tấn.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Giza, Pyramids, Pictures, C. Zangaki, G. Zangaki, photo 14 of 27 - Archivio fotografico Museo Egizio, Turin INV27 003.jpg\" – Adelphoi Zangaki, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_C._Zangaki,_G._Zangaki,_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV27_003.jpg)"
+      }
+     },
+     {
+      "text": "Bên trong là những hành lang và căn phòng được xếp đá chính xác đến kinh ngạc.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/History_of_Art_for_Beginners_Vol_3_Architecture_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"History of Art for Beginners Vol 3 Architecture 003.jpg\" – book author Clara Erskine Clement, Public domain (https://commons.wikimedia.org/wiki/File:History_of_Art_for_Beginners_Vol_3_Architecture_003.jpg)"
+      }
+     },
+     {
+      "text": "Ngày nay, chúng ta thấy kim tự tháp có màu vàng nâu, mặt ngoài lởm chởm từng bậc đá.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng thuở mới xây, nó được bọc một lớp đá vôi trắng mịn, sáng lấp lánh dưới nắng sa mạc.",
+      "mo_phong": "the Great Pyramid of Giza as it looked when newly finished, covered in smooth gleaming white limestone casing shining in the sun, desert, oil painting, no people"
+     }
+    ]
+   },
+   {
+    "title": "Những lời đồn",
+    "beats": [
+     {
+      "text": "Khoảng hai nghìn năm sau khi kim tự tháp được dựng lên, sử gia Hy Lạp Herodotos đến thăm Ai Cập.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Marble_bust_of_Herodotos_MET_DT11742_%28cropped%29.jpg/1920px-Marble_bust_of_Herodotos_MET_DT11742_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Marble bust of Herodotos MET DT11742 (cropped).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Marble_bust_of_Herodotos_MET_DT11742_(cropped).jpg)"
+      },
+      "label": "Herodotos · thế kỷ 5 TCN"
+     },
+     {
+      "text": "Ông viết rằng một trăm nghìn người đã thay phiên nhau làm việc, mỗi đợt ba tháng, suốt hai mươi năm để xây kim tự tháp.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/David_Roberts_Cheops_Chepren.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"David Roberts Cheops Chepren.jpg\" – David Roberts, Public domain (https://commons.wikimedia.org/wiki/File:David_Roberts_Cheops_Chepren.jpg)"
+      }
+     },
+     {
+      "text": "Về sau, hình ảnh những đoàn nô lệ bị xiềng xích, bị roi quất dưới nắng đã đi vào sách vở và phim ảnh.",
+      "mo_phong": "ancient Egyptian workers hauling a large stone block on a wooden sledge with ropes, seen from far behind, dusty desert ramp, oil painting, no faces"
+     },
+     {
+      "text": "Rồi đến thời hiện đại, có người còn cho rằng con người thời ấy không thể tự làm nổi, chắc phải có người ngoài hành tinh giúp sức.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/-Excavations_near_the_Sphinx-_MET_DP138841.jpg/1920px--Excavations_near_the_Sphinx-_MET_DP138841.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"-Excavations near the Sphinx- MET DP138841.jpg\" – John Beasley Greene, CC0 (https://commons.wikimedia.org/wiki/File:-Excavations_near_the_Sphinx-_MET_DP138841.jpg)"
+      }
+     },
+     {
+      "text": "Những giả thuyết ấy không có bằng chứng. Nhưng suốt hàng nghìn năm, chính người xây kim tự tháp cũng chưa từng lên tiếng.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Zangaki._0752._Entrance_to_Pyramid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Zangaki. 0752. Entrance to Pyramid.jpg\" – William Vaughn Tupper\n\nFlickr uploader BPL, Public domain (https://commons.wikimedia.org/wiki/File:Zangaki._0752._Entrance_to_Pyramid.jpg)"
+      }
+     },
+     {
+      "text": "Cho đến khi người ta tìm thấy những dòng chữ của một người trong số họ.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg/1920px-Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Papyrus Prisse part II. Kagemni-hiero script.jpg\" – Zemanst, CC0 (https://commons.wikimedia.org/wiki/File:Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Cảng cổ bên Biển Đỏ",
+    "beats": [
+     {
+      "text": "Wadi al-Jarf là một vùng sa mạc trơ trọi bên bờ Biển Đỏ, cách sông Nile hơn một trăm cây số.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/ISS030-E-5334_-_View_of_Egypt.jpg/1920px-ISS030-E-5334_-_View_of_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"ISS030-E-5334 - View of Egypt.jpg\" – Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center, Public domain (https://commons.wikimedia.org/wiki/File:ISS030-E-5334_-_View_of_Egypt.jpg)"
+      },
+      "label": "Wadi al-Jarf · bờ Biển Đỏ",
+      "am_thanh": [
+       "gio",
+       "bien"
+      ]
+     },
+     {
+      "text": "Ở đây, đoàn khảo cổ Pháp do nhà khảo cổ Pierre Tallet dẫn đầu phát hiện dấu tích một bến cảng cổ, có từ thời vua Khufu.",
+      "mo_phong": "archaeologists' tents and wooden sieves at a desert excavation site beside the sea, pottery fragments laid out on a table, tiny distant figures, oil painting"
+     },
+     {
+      "text": "Đó là bến cảng cổ nhất từng được biết đến. Từ đây, thuyền của pharaoh vượt biển sang bán đảo Sinai để lấy đồng.",
+      "mo_phong": "an ancient Egyptian harbour on a bare desert Red Sea coast 4500 years ago, a long stone jetty, wooden boats with square sails, rocky hills behind with dark cave openings cut into the cliff, oil painting, no people",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Trên vách đá gần bờ, người xưa đục những hang sâu để cất giữ thuyền.",
+      "mo_phong": "a row of dark galleries cut into a limestone desert cliff, their entrances sealed with large stone blocks, the sea glimmering in the distance, oil painting, no people"
+     },
+     {
+      "text": "Năm hai nghìn không trăm mười ba, ngay trước cửa những hang đá ấy, đoàn khảo cổ tìm thấy hàng trăm mảnh giấy cói có chữ viết.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg/1920px-Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Letter written in hieratic script on papyrus MET DP234741.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg)"
+      }
+     },
+     {
+      "text": "Đó là những văn bản viết trên giấy cói cổ nhất từng được biết, khoảng bốn nghìn rưỡi năm tuổi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg/1920px-Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Papyrus Prisse part II. Kagemni-hiero script.jpg\" – Zemanst, CC0 (https://commons.wikimedia.org/wiki/File:Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg)"
+      }
+     },
+     {
+      "text": "Nhà khảo cổ Ai Cập Zahi Hawass gọi đây là phát hiện vĩ đại nhất ở Ai Cập trong thế kỷ hai mươi mốt.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Egyptian_views%3B_Cairo_%28Masr%29._Museum_of_Cairo%2C_exterior_LOC_matpc.01484.jpg/1920px-Egyptian_views%3B_Cairo_%28Masr%29._Museum_of_Cairo%2C_exterior_LOC_matpc.01484.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Egyptian views; Cairo (Masr). Museum of Cairo, exterior LOC matpc.01484.jpg\" – Matson Collection, Public domain (https://commons.wikimedia.org/wiki/File:Egyptian_views;_Cairo_(Masr)._Museum_of_Cairo,_exterior_LOC_matpc.01484.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Người đốc công tên Merer",
+    "beats": [
+     {
+      "text": "Phần lớn những mảnh giấy ấy là sổ ghi chép công việc hằng ngày của một người tên Merer.",
+      "mo_phong": "an ancient Egyptian scribe's wooden palette with reed pens and a blank sheet of papyrus on a low wooden box, oil lamp light, oil painting, no people, no text",
+      "am_thanh": [
+       "lat_giay"
+      ]
+     },
+     {
+      "text": "Merer là một viên thanh tra cấp trung, chỉ huy một đội khoảng bốn mươi người lái thuyền.",
+      "mo_phong": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, pyramids on the horizon, oil painting"
+     },
+     {
+      "text": "Nhật ký được viết vào năm thứ hai mươi sáu và hai mươi bảy dưới triều vua Khufu, tức là những năm cuối đời nhà vua.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Khufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Khufu.JPG\" – Chipdawes, Public domain (https://commons.wikimedia.org/wiki/File:Khufu.JPG)"
+      }
+     },
+     {
+      "text": "Ông ghi lại công việc của đội mình trong khoảng từ tháng Bảy đến tháng Mười Một.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg/1920px-Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Cairo, Islamic Cairo, 19th century pictures, F. Bonfils, photo 50 of 52 - Archivio fotografico Museo Egizio, Turin INV34 008.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Cairo,_Islamic_Cairo,_19th_century_pictures,_F._Bonfils,_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio,_Turin_INV34_008.jpg)"
+      },
+      "am_thanh": [
+       "nuoc"
+      ]
+     },
+     {
+      "text": "Đó cũng là mùa nước sông Nile dâng. Các nhà nghiên cứu cho rằng khi ấy thuyền có thể đi sâu vào gần chân công trường hơn.",
+      "mo_phong": "the Nile in flood season covering green fields right up to the edge of the desert, palm trees standing in shallow water, a pyramid on the horizon, oil painting, no people"
+     },
+     {
+      "text": "Những dòng chữ ngắn gọn, khô khan, giống như sổ nhật ký công việc của bất kỳ người quản lý nào ngày nay.",
+      "mo_phong": "an ancient Egyptian scribe's wooden palette with reed pens and a blank sheet of papyrus on a low wooden box, oil lamp light, oil painting, no people, no text"
+     }
+    ]
+   },
+   {
+    "title": "Hành trình của những khối đá",
+    "beats": [
+     {
+      "text": "Công việc chính của đội Merer là chở những khối đá vôi trắng từ mỏ đá Tura.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/The_Nile%2C_from_the_quarries_of_Joura%2C_RP-F-F25403-O.jpg/1920px-The_Nile%2C_from_the_quarries_of_Joura%2C_RP-F-F25403-O.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The Nile, from the quarries of Joura, RP-F-F25403-O.jpg\" – Rijksmuseum, CC0 (https://commons.wikimedia.org/wiki/File:The_Nile,_from_the_quarries_of_Joura,_RP-F-F25403-O.jpg)"
+      },
+      "label": "Sông Nile nhìn từ mỏ đá Tura"
+     },
+     {
+      "text": "Tura nằm bên bờ đông sông Nile, nổi tiếng với loại đá vôi trắng mịn, đẹp nhất vùng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Tourah-lepsius.jpg/1920px-Tourah-lepsius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Tourah-lepsius.jpg\" – Karl Richard Lepsius, Public domain (https://commons.wikimedia.org/wiki/File:Tourah-lepsius.jpg)"
+      }
+     },
+     {
+      "text": "Ở đó, những người thợ đẽo đá cắt ra từng khối lớn.",
+      "mo_phong": "ancient white limestone quarry cliffs on the east bank of the Nile, half-cut blocks, ropes and wooden sledges, tiny distant workers, oil painting",
+      "am_thanh": [
+       "kim_loai"
+      ]
+     },
+     {
+      "text": "Đội của Merer xếp đá lên thuyền, rồi theo sông Nile và kênh nước đưa tới Giza.",
+      "mo_phong": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, pyramids on the horizon, oil painting",
+      "am_thanh": [
+       "nuoc"
+      ]
+     },
+     {
+      "text": "Nhật ký ghi rằng cứ khoảng mười ngày, đội lại đi hai hoặc ba chuyến, mỗi lần chở khoảng ba mươi khối đá, mỗi khối nặng hai đến ba tấn.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Theban_region%2C_Luxor_temple%2C_19th_century_pictures%2C_A._Beato%2C_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV32_008.jpg/1920px-Theban_region%2C_Luxor_temple%2C_19th_century_pictures%2C_A._Beato%2C_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV32_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Theban region, Luxor temple, 19th century pictures, A. Beato, photo 36 of 37 - Archivio fotografico Museo Egizio, Turin INV32 008.jpg\" – Antonio Beato, CC0 (https://commons.wikimedia.org/wiki/File:Theban_region,_Luxor_temple,_19th_century_pictures,_A._Beato,_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio,_Turin_INV32_008.jpg)"
+      }
+     },
+     {
+      "text": "Tính ra, mỗi tháng đội của ông chở khoảng hai trăm khối đá.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cange_descendant_le_Nil._%28Egypte.%29_%28BM_1880%2C0710.184%29.jpg/1920px-Cange_descendant_le_Nil._%28Egypte.%29_%28BM_1880%2C0710.184%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Cange descendant le Nil. (Egypte.) (BM 1880,0710.184).jpg\" – Print made by: Adolphe Mouilleron\n\nAfter: Achille Émile Théodore Prisse D'Avennes\nPrinted by: Bertauts, Public domain (https://commons.wikimedia.org/wiki/File:Cange_descendant_le_Nil._(Egypte.)_(BM_1880,0710.184).jpg)"
+      }
+     },
+     {
+      "text": "Một chuyến đi và về giữa Tura và kim tự tháp mất khoảng bốn ngày.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg/1920px-Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Cairo, Islamic Cairo, 19th century pictures, F. Bonfils, photo 50 of 52 - Archivio fotografico Museo Egizio, Turin INV34 008.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Cairo,_Islamic_Cairo,_19th_century_pictures,_F._Bonfils,_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio,_Turin_INV34_008.jpg)"
+      }
+     },
+     {
+      "text": "Nơi đến được Merer gọi bằng cái tên Akhet Khufu, nghĩa là Chân trời của Khufu. Đó chính là tên gốc của Đại kim tự tháp.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Giza, Pyramids, Pictures, F. Bonfils, photo 5 of 27 - Archivio fotografico Museo Egizio, Turin INV01 007.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_F._Bonfils,_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV01_007.jpg)"
+      },
+      "label": "Akhet Khufu · Chân trời của Khufu"
+     },
+     {
+      "text": "Nhật ký cũng nhắc tới Ankhhaf, người anh em cùng cha khác mẹ của nhà vua, phụ trách bến cảng nơi đá được đưa lên bờ.",
+      "mo_phong": "an ancient harbour basin at the edge of the desert plateau with boats unloading white limestone blocks, the Great Pyramid under construction behind, tiny distant workers, oil painting"
+     }
+    ]
+   },
+   {
+    "title": "Những dòng nhật ký",
+    "beats": [
+     {
+      "text": "Nhật ký không nói những khối đá ấy dùng để làm gì.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg/1920px-Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Letter written in hieratic script on papyrus MET DP234741.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng Pierre Tallet tin rằng đó là đá để làm lớp vỏ trắng bọc ngoài Đại kim tự tháp.",
+      "mo_phong": "the Great Pyramid of Giza as it looked when newly finished, covered in smooth gleaming white limestone casing shining in the sun, desert, oil painting, no people"
+     },
+     {
+      "text": "Lớp vỏ ấy về sau gần như bị gỡ đi hết. Nhưng nhờ nhật ký của Merer, ta biết được nó đã đến Giza bằng cách nào.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)"
+      }
+     },
+     {
+      "text": "Ngoài việc chở đá, đội của Merer còn đi làm những việc khác, như đắp công trình ở vùng châu thổ sông Nile.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ancient_Egypt_%28Myers%2C_1890%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Ancient Egypt (Myers, 1890).png\" – Chuck Marean, Public domain (https://commons.wikimedia.org/wiki/File:Ancient_Egypt_(Myers,_1890).png)"
+      },
+      "label": "Ai Cập cổ đại"
+     },
+     {
+      "text": "Có những dòng ghi việc lương thực được chở tới cho cả đội, từ thành Heliopolis.",
+      "mo_phong": "an ancient Egyptian bakery in a mud-brick room with clay bread moulds, round loaves and tall beer jars, warm firelight, oil painting, no people"
+     },
+     {
+      "text": "Không một dòng nào nói về roi da hay xiềng xích. Chỉ là lịch làm việc, hàng hóa, và những chuyến đi.",
+      "mo_phong": "an ancient Egyptian scribe's wooden palette with reed pens and a blank sheet of papyrus on a low wooden box, oil lamp light, oil painting, no people, no text"
+     }
+    ]
+   },
+   {
+    "title": "Làng của những người thợ",
+    "beats": [
+     {
+      "text": "Nhật ký của Merer không phải bằng chứng duy nhất.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg/1920px-Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Schiaparelli's excavations - Giza, Eastern necropolis, Mastaba G 7391 of Iteti, 1903, photo 15 of 17 - Archivio fotografico Museo Egizio, Turin INV87 030.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Schiaparelli%27s_excavations_-_Giza,_Eastern_necropolis,_Mastaba_G_7391_of_Iteti,_1903,_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio,_Turin_INV87_030.jpg)"
+      }
+     },
+     {
+      "text": "Năm một nghìn chín trăm chín mươi, một du khách cưỡi ngựa gần kim tự tháp bị vấp phải một bức tường thấp vùi trong cát.",
+      "mo_phong": "a lone horse rider seen from far behind on a sandy slope near the pyramids of Giza at sunset, oil painting",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Bức tường ấy hóa ra thuộc về một khu lăng mộ: nơi chôn cất những người thợ đã xây kim tự tháp.",
+      "mo_phong": "low mud-brick tomb walls and small domed tombs on a sandy desert slope below the pyramids of Giza, afternoon light, oil painting, no people"
+     },
+     {
+      "text": "Trong mộ có những chiếc bình từng đựng bia và bánh mì, đặt sẵn cho họ ở thế giới bên kia.",
+      "mo_phong": "an ancient Egyptian bakery in a mud-brick room with clay bread moulds, round loaves and tall beer jars, warm firelight, oil painting, no people"
+     },
+     {
+      "text": "Nhà khảo cổ Zahi Hawass nói: nếu là nô lệ, họ đã không bao giờ được chôn cất trang trọng như thế, ngay bên cạnh kim tự tháp của nhà vua.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg/1920px-The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The Great Pyramid and The Great Sphinx MET DP132062.jpg\" – Francis Frith, CC0 (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg)"
+      }
+     },
+     {
+      "text": "Theo ông, mỗi ngày có khoảng hai mươi mốt con bò và hai mươi ba con cừu được gửi tới để nuôi những người thợ.",
+      "mo_phong": "a village of small mud-brick houses at dusk near a pyramid under construction, cooking smoke rising, tiny distant figures, oil painting"
+     },
+     {
+      "text": "Các nhà khảo cổ cũng tìm thấy dấu tích một khu làng của thợ ở gần đó, với những lò nướng bánh và nơi ăn ở.",
+      "mo_phong": "a village of small mud-brick houses in the morning near a pyramid under construction, cooking smoke rising, tiny distant figures, oil painting"
+     },
+     {
+      "text": "Ông ước tính khoảng mười nghìn người đã làm việc để xây một kim tự tháp, chứ không phải một trăm nghìn như Herodotos viết.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spelterini_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Spelterini Pyramids.jpg\" – Eduard Spelterini, Public domain (https://commons.wikimedia.org/wiki/File:Spelterini_Pyramids.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Sự thật trái với lời đồn",
+    "beats": [
+     {
+      "text": "Ghép nhật ký của Merer với những lăng mộ và khu làng của thợ, các nhà khảo cổ đi đến một kết luận.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg/1920px-Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Schiaparelli's excavations - Giza, Eastern necropolis, Mastaba G 7391 of Iteti, 1903, photo 15 of 17 - Archivio fotografico Museo Egizio, Turin INV87 030.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Schiaparelli%27s_excavations_-_Giza,_Eastern_necropolis,_Mastaba_G_7391_of_Iteti,_1903,_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio,_Turin_INV87_030.jpg)"
+      }
+     },
+     {
+      "text": "Họ cho rằng những người xây kim tự tháp không phải nô lệ.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Giza, Pyramids, Pictures, C. Zangaki, G. Zangaki, photo 14 of 27 - Archivio fotografico Museo Egizio, Turin INV27 003.jpg\" – Adelphoi Zangaki, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_C._Zangaki,_G._Zangaki,_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV27_003.jpg)"
+      }
+     },
+     {
+      "text": "Đó là những người thợ lành nghề làm việc quanh năm, cùng với những người nông dân được huy động theo từng đợt.",
+      "mo_phong": "ancient Egyptian workers hauling a large stone block on a wooden sledge with ropes, seen from far behind, dusty desert ramp, oil painting, no faces"
+     },
+     {
+      "text": "Họ được cấp lương thực, được ăn thịt, và khi mất được chôn cất ngay cạnh công trình mà họ đã góp sức dựng nên.",
+      "mo_phong": "low mud-brick tomb walls and small domed tombs on a sandy desert slope below the pyramids of Giza, afternoon light, oil painting, no people"
+     },
+     {
+      "text": "Công việc chắc chắn rất nặng nhọc và nguy hiểm. Nhưng đó là công việc của những con người được tổ chức, được nuôi ăn, và được ghi nhận.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Model_chisel_MET_01.4.37_EGDP011642.jpg/1920px-Model_chisel_MET_01.4.37_EGDP011642.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Model chisel MET 01.4.37 EGDP011642.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Model_chisel_MET_01.4.37_EGDP011642.jpg)"
+      }
+     },
+     {
+      "text": "Một phần những mảnh giấy cói của Merer hiện được trưng bày tại Bảo tàng Ai Cập ở Cairo.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Egyptian_views%3B_Cairo_%28Masr%29._Museum_of_Cairo%2C_exterior_LOC_matpc.01484.jpg/1920px-Egyptian_views%3B_Cairo_%28Masr%29._Museum_of_Cairo%2C_exterior_LOC_matpc.01484.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Egyptian views; Cairo (Masr). Museum of Cairo, exterior LOC matpc.01484.jpg\" – Matson Collection, Public domain (https://commons.wikimedia.org/wiki/File:Egyptian_views;_Cairo_(Masr)._Museum_of_Cairo,_exterior_LOC_matpc.01484.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Lời kết",
+    "beats": [
+     {
+      "text": "Hơn bốn nghìn năm, người ta tưởng tượng đủ điều về những người đã xây kim tự tháp.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pyramids_of_Geezeh_David_Roberts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Pyramids of Geezeh David Roberts.jpg\" – David Roberts, Public domain (https://commons.wikimedia.org/wiki/File:Pyramids_of_Geezeh_David_Roberts.jpg)"
+      }
+     },
+     {
+      "text": "Không có người ngoài hành tinh, cũng không có roi da.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lepsius-Expedition-Cheops-Pyramide_%28full%29.jpg/1920px-Lepsius-Expedition-Cheops-Pyramide_%28full%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Lepsius-Expedition-Cheops-Pyramide (full).jpg\" – Johann Jakob Frey, Public domain (https://commons.wikimedia.org/wiki/File:Lepsius-Expedition-Cheops-Pyramide_(full).jpg)"
+      }
+     },
+     {
+      "text": "Chỉ có hàng nghìn người thợ, và một người đốc công chăm chỉ ghi chép từng chuyến đá.",
+      "mo_phong": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, a pyramid at sunset, oil painting"
+     },
+     {
+      "text": "Nhờ cuốn sổ của ông, sau bốn nghìn rưỡi năm, những người xây kim tự tháp cuối cùng cũng có tiếng nói của mình.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)"
+      }
+     },
+     {
+      "text": "Còn bạn, trước đây bạn nghĩ ai đã xây kim tự tháp? Hãy chia sẻ ở phần bình luận.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Giza-pyramids.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Giza-pyramids.JPG\" – Robster1983 at English Wikipedia, CC0 (https://commons.wikimedia.org/wiki/File:Giza-pyramids.JPG)"
+      }
+     }
+    ],
+    "loai_canh": "ket"
+   }
+  ]
+ },
+ "ngan": {
+  "hook_text": "Ai đã xây\n**kim tự tháp**?",
+  "hooks": [
+   "Ai đã xây kim tự tháp? Câu trả lời nằm trong cuốn nhật ký của một người đốc công, viết cách đây bốn nghìn rưỡi năm.",
+   "Không phải nô lệ, cũng không phải người ngoài hành tinh. Một cuốn nhật ký 4.500 năm tuổi kể lại ai đã xây kim tự tháp.",
+   "Mỗi tháng 200 khối đá, chở bằng thuyền trên sông Nile. Một người đốc công đã ghi lại tất cả, cách đây 4.500 năm."
+  ],
+  "caption": "Ai đã xây kim tự tháp? Câu trả lời nằm trong cuốn nhật ký của một người đốc công viết cách đây 4.500 năm 📜 Không có người ngoài hành tinh, cũng không có roi da. Trước đây bạn nghĩ ai đã xây kim tự tháp?",
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Ai đã xây kim tự tháp? Câu trả lời nằm trong cuốn nhật ký của một người đốc công, viết cách đây bốn nghìn rưỡi năm.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Great_Pyramid_and_the_Sphinx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"The Great Pyramid and the Sphinx.jpg\" – Scottish National Gallery, Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_the_Sphinx.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg/1920px-Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Letter written in hieratic script on papyrus MET DP234741.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Letter_written_in_hieratic_script_on_papyrus_MET_DP234741.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Và những gì ông ghi lại… khác hẳn những gì phim ảnh vẫn kể.",
+    "images": [
+     {
+      "mo_phong": "ancient Egyptian workers hauling a large stone block on a wooden sledge with ropes, seen from far behind, dusty desert ramp, oil painting, no faces"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "doi_canh": true,
+    "text": "Năm hai nghìn không trăm mười ba, ở một bến cảng cổ bên bờ Biển Đỏ, nhà khảo cổ Pierre Tallet tìm thấy những văn bản trên giấy cói cổ nhất từng biết.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/ISS030-E-5334_-_View_of_Egypt.jpg/1920px-ISS030-E-5334_-_View_of_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"ISS030-E-5334 - View of Egypt.jpg\" – Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center, Public domain (https://commons.wikimedia.org/wiki/File:ISS030-E-5334_-_View_of_Egypt.jpg)"
+     },
+     {
+      "mo_phong": "an ancient Egyptian harbour on a bare desert Red Sea coast 4500 years ago, a long stone jetty, wooden boats with square sails, rocky hills behind with dark cave openings cut into the cliff, oil painting, no people"
+     },
+     {
+      "mo_phong": "a row of dark galleries cut into a limestone desert cliff, their entrances sealed with large stone blocks, the sea glimmering in the distance, oil painting, no people"
+     }
+    ],
+    "am_thanh": [
+     "bien"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Năm **2013**, bờ Biển Đỏ",
+     "sub": "Tìm thấy giấy cói có chữ cổ nhất từng biết"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Đó là nhật ký của Merer, một viên thanh tra chỉ huy khoảng bốn mươi người, dưới thời vua Khufu, người cho xây Đại kim tự tháp Giza.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Khufu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Khufu.JPG\" – Chipdawes, Public domain (https://commons.wikimedia.org/wiki/File:Khufu.JPG)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg/1920px-Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Papyrus Prisse part II. Kagemni-hiero script.jpg\" – Zemanst, CC0 (https://commons.wikimedia.org/wiki/File:Papyrus_Prisse_part_II._Kagemni-hiero_script.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spelterini_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Spelterini Pyramids.jpg\" – Eduard Spelterini, Public domain (https://commons.wikimedia.org/wiki/File:Spelterini_Pyramids.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "lat_giay"
+    ],
+    "the": {
+     "type": "number",
+     "pre": "Đội của Merer",
+     "value": "40",
+     "unit": "người",
+     "caption": "dưới thời vua **Khufu**"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "doi_canh": true,
+    "text": "Nhật ký ghi: đội của ông chở những khối đá vôi trắng bằng thuyền, từ mỏ đá Tura theo sông Nile tới Giza.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/The_Nile%2C_from_the_quarries_of_Joura%2C_RP-F-F25403-O.jpg/1920px-The_Nile%2C_from_the_quarries_of_Joura%2C_RP-F-F25403-O.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"The Nile, from the quarries of Joura, RP-F-F25403-O.jpg\" – Rijksmuseum, CC0 (https://commons.wikimedia.org/wiki/File:The_Nile,_from_the_quarries_of_Joura,_RP-F-F25403-O.jpg)"
+     },
+     {
+      "mo_phong": "ancient white limestone quarry cliffs on the east bank of the Nile, half-cut blocks, ropes and wooden sledges, tiny distant workers, oil painting"
+     },
+     {
+      "mo_phong": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, pyramids on the horizon, oil painting"
+     }
+    ],
+    "am_thanh": [
+     "nuoc"
+    ],
+    "the": {
+     "type": "explain",
+     "title": "Nhật ký **ghi lại**",
+     "bullets": [
+      "Đá vôi trắng từ mỏ **Tura**",
+      "Chở bằng thuyền trên sông **Nile**",
+      "Đến công trường Giza"
+     ]
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Mỗi chuyến đi và về mất khoảng bốn ngày. Mỗi tháng, đội chở khoảng hai trăm khối đá, mỗi khối nặng hai đến ba tấn.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg/1920px-Cairo%2C_Islamic_Cairo%2C_19th_century_pictures%2C_F._Bonfils%2C_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV34_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Cairo, Islamic Cairo, 19th century pictures, F. Bonfils, photo 50 of 52 - Archivio fotografico Museo Egizio, Turin INV34 008.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Cairo,_Islamic_Cairo,_19th_century_pictures,_F._Bonfils,_photo_50_of_52_-_Archivio_fotografico_Museo_Egizio,_Turin_INV34_008.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Theban_region%2C_Luxor_temple%2C_19th_century_pictures%2C_A._Beato%2C_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV32_008.jpg/1920px-Theban_region%2C_Luxor_temple%2C_19th_century_pictures%2C_A._Beato%2C_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV32_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Theban region, Luxor temple, 19th century pictures, A. Beato, photo 36 of 37 - Archivio fotografico Museo Egizio, Turin INV32 008.jpg\" – Antonio Beato, CC0 (https://commons.wikimedia.org/wiki/File:Theban_region,_Luxor_temple,_19th_century_pictures,_A._Beato,_photo_36_of_37_-_Archivio_fotografico_Museo_Egizio,_Turin_INV32_008.jpg)"
+     },
+     {
+      "mo_phong": "an ancient harbour basin at the edge of the desert plateau with boats unloading white limestone blocks, the Great Pyramid under construction behind, tiny distant workers, oil painting"
+     }
+    ],
+    "am_thanh": [
+     "nuoc",
+     "kim_loai"
+    ],
+    "the": {
+     "type": "number",
+     "pre": "Mỗi tháng khoảng",
+     "value": "200",
+     "unit": "khối đá",
+     "caption": "mỗi khối **2–3 tấn**"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Ông còn ghi cả chuyện lương thực được chở tới cho cả đội. Nhưng không một dòng nào nói về roi da hay xiềng xích.",
+    "images": [
+     {
+      "mo_phong": "an ancient Egyptian bakery in a mud-brick room with clay bread moulds, round loaves and tall beer jars, warm firelight, oil painting, no people"
+     },
+     {
+      "mo_phong": "an ancient Egyptian scribe's wooden palette with reed pens and a blank sheet of papyrus on a low wooden box, oil lamp light, oil painting, no people, no text"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Không có **roi da**",
+     "sub": "Chỉ có lịch làm việc và lương thực"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "doi_canh": true,
+    "text": "Rồi năm một nghìn chín trăm chín mươi, một con ngựa vấp phải bức tường vùi trong cát gần kim tự tháp. Bên dưới là lăng mộ của chính những người thợ xây.",
+    "images": [
+     {
+      "mo_phong": "a lone horse rider seen from far behind on a sandy slope near the pyramids of Giza at sunset, oil painting"
+     },
+     {
+      "mo_phong": "low mud-brick tomb walls and small domed tombs on a sandy desert slope below the pyramids of Giza, afternoon light, oil painting, no people"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg/1920px-Schiaparelli%27s_excavations_-_Giza%2C_Eastern_necropolis%2C_Mastaba_G_7391_of_Iteti%2C_1903%2C_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV87_030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Schiaparelli's excavations - Giza, Eastern necropolis, Mastaba G 7391 of Iteti, 1903, photo 15 of 17 - Archivio fotografico Museo Egizio, Turin INV87 030.jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:Schiaparelli%27s_excavations_-_Giza,_Eastern_necropolis,_Mastaba_G_7391_of_Iteti,_1903,_photo_15_of_17_-_Archivio_fotografico_Museo_Egizio,_Turin_INV87_030.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Lăng mộ **thợ xây**",
+     "sub": "Tìm thấy năm 1990, ngay cạnh kim tự tháp"
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Họ được chôn cất trang trọng, có bia và bánh mì cho thế giới bên kia. Các nhà khảo cổ cho rằng: những người xây kim tự tháp không phải nô lệ.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg/1920px-The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"The Great Pyramid and The Great Sphinx MET DP132062.jpg\" – Francis Frith, CC0 (https://commons.wikimedia.org/wiki/File:The_Great_Pyramid_and_The_Great_Sphinx_MET_DP132062.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_C._Zangaki%2C_G._Zangaki%2C_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV27_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Giza, Pyramids, Pictures, C. Zangaki, G. Zangaki, photo 14 of 27 - Archivio fotografico Museo Egizio, Turin INV27 003.jpg\" – Adelphoi Zangaki, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_C._Zangaki,_G._Zangaki,_photo_14_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV27_003.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "tim_dap"
+    ],
+    "the": {
+     "type": "text",
+     "text": "**Không phải** nô lệ",
+     "sub": "theo các nhà khảo cổ học"
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Theo nhà khảo cổ Zahi Hawass, mỗi ngày có khoảng hai mươi mốt con bò được gửi tới để nuôi những người thợ.",
+    "images": [
+     {
+      "mo_phong": "a village of small mud-brick houses at dusk near a pyramid under construction, cooking smoke rising, tiny distant figures, oil painting"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Spelterini_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Spelterini Pyramids.jpg\" – Eduard Spelterini, Public domain (https://commons.wikimedia.org/wiki/File:Spelterini_Pyramids.jpg)"
+     }
+    ],
+    "the": {
+     "type": "number",
+     "pre": "Mỗi ngày khoảng",
+     "value": "21",
+     "unit": "con bò",
+     "caption": "gửi tới nuôi **thợ xây**"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Không có người ngoài hành tinh, cũng không có roi da. Chỉ có hàng nghìn người thợ, và một người đốc công chăm chỉ ghi chép.",
+    "images": [
+     {
+      "mo_phong": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, a pyramid at sunset, oil painting"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg/1920px-Giza%2C_Pyramids%2C_Pictures%2C_F._Bonfils%2C_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio%2C_Turin_INV01_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Giza, Pyramids, Pictures, F. Bonfils, photo 5 of 27 - Archivio fotografico Museo Egizio, Turin INV01 007.jpg\" – Félix Bonfils, CC0 (https://commons.wikimedia.org/wiki/File:Giza,_Pyramids,_Pictures,_F._Bonfils,_photo_5_of_27_-_Archivio_fotografico_Museo_Egizio,_Turin_INV01_007.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Hàng nghìn **người thợ**",
+     "sub": "và một người đốc công chăm chỉ ghi chép"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Trước đây, bạn nghĩ ai đã xây kim tự tháp?",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Giza-pyramids.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Giza-pyramids.JPG\" – Robster1983 at English Wikipedia, CC0 (https://commons.wikimedia.org/wiki/File:Giza-pyramids.JPG)"
+     }
+    ],
+    "the": {
+     "type": "outro",
+     "recap": "Bạn từng nghĩ **ai** đã xây kim tự tháp?"
+    }
+   }
+  ],
+  "anh_bia": [
+   {
+    "anh": "0:0",
+    "nhan": "Chuyện có thật · 4.500 năm",
+    "to": "Ai đã xây\n**kim tự tháp**?",
+    "nho": "Câu trả lời trong\n**một cuốn nhật ký**"
+   },
+   {
+    "anh": "8:0",
+    "nhan": "Khảo cổ học",
+    "to": "**Không phải**\nnô lệ",
+    "nho": "Vậy là ai?"
+   },
+   {
+    "anh": "5:0",
+    "nhan": "Nhật ký Merer",
+    "to": "**200** khối đá\nmỗi tháng",
+    "nho": "Chở bằng thuyền\ntrên sông **Nile**"
+   }
+  ]
+ }
+}

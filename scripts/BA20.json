@@ -1,0 +1,1111 @@
+{
+ "id": "BA20",
+ "topic": "bi-an",
+ "phong_cach": "huyen-bi",
+ "giong": "Algenib",
+ "music": "Hall of the Mountain King (Musopen)",
+ "title": "Tàu ma Baychimo: con tàu bị bỏ lại giữa băng, rồi trôi suốt 38 năm",
+ "caption": "Một con tàu bị bỏ lại giữa băng, rồi tự trôi suốt 38 năm 🚢❄️ Có người leo lên được tàu, nhưng không ai giữ được nó. Theo bạn, con tàu ma Baychimo bây giờ đang ở đâu?",
+ "hashtags": [
+  "nguoigacsu",
+  "bianlichsu",
+  "taumabaychimo",
+  "alaska",
+  "chuyencothat"
+ ],
+ "tu_khoa": [
+  "tàu ma Baychimo",
+  "Baychimo",
+  "SS Baychimo",
+  "con tàu ma",
+  "tàu ma Bắc Cực",
+  "bí ẩn lịch sử",
+  "Alaska",
+  "bí ẩn chưa có lời giải",
+  "chuyện có thật",
+  "Người Gác Sử"
+ ],
+ "sources": [
+  "Wikipedia – SS Baychimo (đóng năm 1914 ở Gothenburg, mua năm 1921, mắc kẹt 1/10/1931, bão 24/11/1931, thấy cách 72 km, các lần thấy 1932–1939, 1962, lần cuối 1969, dự án tìm kiếm của Alaska năm 2006)",
+  "Công ty Vịnh Hudson (Hudson's Bay Company) – lịch sử đội tàu",
+  "Báo chí Alaska và Canada thế kỷ 20 – tường thuật các lần nhìn thấy tàu"
+ ],
+ "nguon_link": [
+  {
+   "ten": "SS Baychimo (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/SS_Baychimo",
+   "ngon_ngu": "tiếng Anh"
+  }
+ ],
+ "pronounce": {},
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Con tàu ma **38 năm**",
+   "voice": "Một con tàu bị bỏ lại giữa băng, rồi tự trôi suốt ba mươi tám năm.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Alaska, **1931**",
+   "voice": "Năm một nghìn chín trăm ba mươi mốt, tàu Baychimo bị kẹt trong băng.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Sau bão, tàu **biến mất**",
+   "voice": "Sau một trận bão, con tàu biến mất.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Cách đó **72 km**",
+   "voice": "Vài ngày sau, người ta thấy nó cách đó bảy mươi hai cây số.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Clouds and ice on the Chukchi Sea (51357471838).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357471838).jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Lần cuối: **1969**",
+   "voice": "Lần cuối cùng người ta thấy nó là năm một nghìn chín trăm sáu mươi chín.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+   }
+  },
+  {
+   "type": "outro",
+   "text": "Nay ở **đâu**?",
+   "voice": "Đến nay, người ta vẫn chưa tìm thấy nó.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg)"
+   }
+  }
+ ],
+ "post": {
+  "hook": "Một con tàu bị bỏ lại giữa băng, rồi tự trôi suốt 38 năm 🚢❄️",
+  "paragraphs": [
+   "Năm 1931, tàu chở hàng Baychimo của Công ty Vịnh Hudson bị kẹt băng ngoài khơi Alaska trên đường về, chất đầy lông thú.",
+   "Mười lăm thủy thủ ở lại, dựng căn nhà gỗ trên băng chờ mùa đông qua. Sau trận bão tuyết ngày 24/11/1931, con tàu biến mất, và thuyền trưởng cho rằng nó đã chìm.",
+   "Vài ngày sau, một thợ săn hải cẩu thấy nó cách đó khoảng 72 km. Các thủy thủ tìm được con tàu, chuyển những kiện lông thú quý nhất đi rồi đành bỏ nó lại.",
+   "Suốt nhiều thập niên, người ta liên tục nhìn thấy nó. Có người leo lên được, nhưng băng và bão luôn buộc họ rời đi. Lần cuối cùng nó được thấy là năm 1969.",
+   "Năm 2006, chính quyền bang Alaska bắt đầu tìm xác con tàu. Đến nay vẫn chưa thấy dấu vết nào."
+  ],
+  "ending": "Theo bạn, con tàu ma Baychimo bây giờ đang ở đâu?",
+  "hashtags": [
+   "nguoigacsu",
+   "bianlichsu",
+   "taumabaychimo",
+   "alaska",
+   "chuyencothat"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "scene": 0,
+    "kicker": "Chuyện có thật · 1931",
+    "title": "Con tàu ma\n**38 năm**"
+   },
+   {
+    "scene": 1,
+    "tag": "Alaska, 1931",
+    "text": "Tàu Baychimo bị kẹt băng, thủy thủ bỏ lại tàu."
+   },
+   {
+    "scene": 2,
+    "tag": "Sau trận bão",
+    "text": "Con tàu biến mất, nhưng chưa chìm."
+   },
+   {
+    "scene": 3,
+    "tag": "Cách 72 km",
+    "text": "Một thợ săn hải cẩu thấy nó vẫn nổi trên băng."
+   },
+   {
+    "scene": 4,
+    "tag": "Năm 1969",
+    "text": "Lần cuối cùng người ta thấy con tàu."
+   },
+   {
+    "kind": "end",
+    "scene": 5,
+    "text": "Từ năm 2006, Alaska đi tìm nó. Đến nay chưa thấy."
+   }
+  ]
+ },
+ "binh_luan": {
+  "ngan": {
+   "ghim": "Theo bạn, vì sao con tàu bỏ hoang có thể trôi suốt 38 năm? Ⓐ băng và dòng hải lưu · Ⓑ thân tàu thép còn kín · Ⓒ một điều chưa ai giải thích được. Bình luận chữ cái của bạn 👇",
+   "phu": [
+    "Chi tiết mình chưa kịp kể: năm 1933, một nhóm người Iñupiat leo lên tàu thì bị bão nhốt trên đó 10 ngày 🧊"
+   ]
+  },
+  "dai": {
+   "ghim": "Nếu được ra khơi tìm Baychimo, bạn sẽ tìm trên mặt biển hay dưới lớp băng? Ⓐ trên mặt nước · Ⓑ dưới đáy biển · Ⓒ trong băng. Bình luận cho Người Gác Sử biết nhé 🏮",
+   "phu": [
+    "Một điều ít người biết: con tàu từng mang tên Ångermanelfven, được đóng ở Thụy Điển năm 1914 và chuyển cho Anh sau Thế chiến thứ nhất 🚢"
+   ]
+  }
+ },
+ "ngan": {
+  "ab_test": true,
+  "hook_text": "Con tàu ma\n**38 năm**",
+  "hooks": [
+   "Một con tàu bị bỏ lại giữa băng. Rồi nó tự trôi suốt ba mươi tám năm.",
+   "Thủy thủ bỏ tàu giữa băng, và con tàu biến mất. Nhưng nhiều năm sau, người ta vẫn thấy nó.",
+   "Có người leo lên được con tàu ma ấy. Nhưng không ai giữ được nó."
+  ],
+  "caption": "Một con tàu bị bỏ lại giữa băng, rồi tự trôi suốt 38 năm 🚢❄️ Có người leo lên được tàu, nhưng không ai giữ được nó. Theo bạn, con tàu ma Baychimo bây giờ đang ở đâu?",
+  "anh_bia": [
+   {
+    "anh": "0:0",
+    "nhan": "Chuyện có thật · 1931",
+    "to": "Con tàu ma\n**38 năm**",
+    "nho": "bị bỏ lại\n**giữa băng**"
+   },
+   {
+    "anh": "6:0",
+    "nhan": "Tàu Baychimo · Alaska",
+    "to": "Sau bão,\ncon tàu **biến mất**",
+    "nho": "Nhưng nó chưa chìm"
+   },
+   {
+    "anh": "11:0",
+    "nhan": "Bí ẩn chưa có lời giải",
+    "to": "Nay nó\nở **đâu**?",
+    "nho": "Alaska tìm từ **2006**"
+   }
+  ],
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Một con tàu bị bỏ lại giữa băng. Rồi nó tự trôi suốt ba mươi tám năm.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Nhiều người đã leo lên được con tàu ấy. Nhưng không ai giữ được nó.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Năm một nghìn chín trăm ba mươi mốt, tàu chở hàng Baychimo của Công ty Vịnh Hudson đang trở về từ miền bắc Alaska, chất đầy lông thú.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_2).jpg)"
+     }
+    ],
+    "doi_canh": true,
+    "the": {
+     "type": "text",
+     "text": "Mùa thu **1931**",
+     "sub": "Tàu Baychimo, Công ty Vịnh Hudson"
+    }
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Băng khép lại quanh thân tàu. Con tàu bị mắc kẹt giữa biển Bắc Cực.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg/1920px-Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Sea Ice in the Chukchi Sea (7348953402).jpg\" – NASA Goddard Space Flight Center from Greenbelt, MD, USA, Public domain (https://commons.wikimedia.org/wiki/File:Sea_Ice_in_the_Chukchi_Sea_(7348953402).jpg)"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Bị kẹt **giữa băng**",
+     "sub": "Ngoài khơi Alaska, tháng 10/1931"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Mười lăm thủy thủ ở lại, dựng một căn nhà gỗ trên băng để chờ qua mùa đông.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Clouds and ice on the Chukchi Sea (51357245736).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357245736).jpg)"
+     }
+    ],
+    "doi_canh": true,
+    "the": {
+     "type": "number",
+     "pre": "Ở lại",
+     "value": "15",
+     "unit": "thủy thủ",
+     "caption": "Dựng trại **trên băng** chờ băng tan"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Rồi một đêm cuối tháng Mười Một, bão tuyết ập xuống.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)"
+     }
+    ],
+    "the": "giu",
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Sáng ra, con tàu biến mất. Thuyền trưởng kết luận nó đã chìm.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
+     }
+    ],
+    "doi_canh": true,
+    "the": {
+     "type": "text",
+     "text": "Con tàu **biến mất**",
+     "sub": "Sau trận bão ngày 24/11/1931"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Nhưng vài ngày sau, một người thợ săn hải cẩu thấy nó, cách đó bảy mươi hai cây số.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Clouds and ice on the Chukchi Sea (51357471838).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357471838).jpg)"
+     }
+    ],
+    "the": {
+     "type": "number",
+     "pre": "Cách đó",
+     "value": "72",
+     "unit": "km",
+     "caption": "Con tàu vẫn **nổi** trên băng"
+    },
+    "am_thanh": [
+     "tim_dap"
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Suốt hàng chục năm sau, người ta liên tục thấy nó. Có người leo lên được tàu, nhưng chưa ai giữ được nó.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg/1920px-Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg\" – Fitz Henry Lane, Public domain (https://commons.wikimedia.org/wiki/File:Lane,_Fitz_Henry,_Ship_in_Fog,_Gloucester_Harbor,_ca._1860.jpg)"
+     }
+    ],
+    "doi_canh": true,
+    "the": {
+     "type": "explain",
+     "title": "Những lần **leo lên tàu**",
+     "bullets": [
+      "Tháng 3/1933: kẹt trên tàu **10 ngày**",
+      "Tháng 11/1939: thuyền trưởng Polson bỏ cuộc"
+     ]
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Lần cuối người ta thấy nó là năm một nghìn chín trăm sáu mươi chín, kẹt trong băng, ba mươi tám năm sau khi bị bỏ lại.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Clouds and ice on the Chukchi Sea (51358345735).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51358345735).jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Lần cuối: **1969**",
+     "sub": "Kẹt trong băng, 38 năm sau"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Năm hai nghìn không trăm lẻ sáu, bang Alaska bắt đầu tìm xác con tàu. Đến nay vẫn chưa thấy.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg/1920px-Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Map of Part of Alaska - NARA - 103396332.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg)"
+     },
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Clouds and ice on the Chukchi Sea (51357281916).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357281916).jpg)"
+     }
+    ],
+    "doi_canh": true,
+    "the": {
+     "type": "text",
+     "text": "**2006**: bắt đầu tìm",
+     "sub": "Đến nay chưa thấy dấu vết"
+    },
+    "am_thanh": [
+     "gio"
+    ]
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Có thể nó vẫn đang trôi đâu đó, giữa biển trắng. Theo bạn, con tàu ma ấy đang ở đâu?",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+     }
+    ],
+    "the": {
+     "type": "outro",
+     "recap": "Vẫn đang **trôi**… hay đã chìm?"
+    }
+   }
+  ]
+ },
+ "long": {
+  "title": "Tàu ma Baychimo: vì sao một con tàu bỏ hoang trôi suốt 38 năm giữa Bắc Cực? | Bí ẩn lịch sử",
+  "title_card": "Tàu ma **Baychimo**",
+  "description": "Năm 1931, tàu chở hàng Baychimo của Công ty Vịnh Hudson bị kẹt băng ngoài khơi Alaska. Sau một trận bão tuyết, con tàu biến mất, rồi lại được thấy cách đó 72 km. Suốt nhiều thập niên, người ta nhiều lần nhìn thấy nó, có người leo được lên tàu, nhưng không ai giữ được. Lần cuối cùng nó được thấy là năm 1969, và từ năm 2006 Alaska bắt đầu đi tìm xác tàu.",
+  "voice": "Algenib",
+  "music": "Chopin Sonata 2 Grave",
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Có những con tàu chìm xuống đáy biển, và người ta dần quên chúng đi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)"
+      },
+      "label": "Biển Bắc Cực",
+      "fx": "mist",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Nhưng có một con tàu mà biển Bắc Cực không chịu nhận.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+      }
+     },
+     {
+      "text": "Nó bị bỏ lại giữa băng, không một bóng người.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Vậy mà suốt ba mươi tám năm sau đó, người ta vẫn nhìn thấy nó.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Khi thì lững lờ trên mặt biển. Khi thì kẹt cứng trong băng. Có lúc cách chỗ cũ hàng trăm cây số.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51358345735).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51358345735).jpg)"
+      }
+     },
+     {
+      "text": "Nhiều người đã leo lên được con tàu ấy.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng không ai giữ được nó.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg/1920px-Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg\" – Fitz Henry Lane, Public domain (https://commons.wikimedia.org/wiki/File:Lane,_Fitz_Henry,_Ship_in_Fog,_Gloucester_Harbor,_ca._1860.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Đây là câu chuyện về Baychimo, con tàu ma của vùng cực bắc Alaska.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)"
+      },
+      "fx": "mist"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Con tàu ra đời năm một nghìn chín trăm mười bốn, tại xưởng đóng tàu ở thành phố Gothenburg, nước Thụy Điển.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+      },
+      "label": "Gothenburg · 1914"
+     },
+     {
+      "text": "Lúc ấy nó mang một cái tên khác: Ångermanelfven, và thuộc về một công ty vận tải đường biển của Đức.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg/1920px-Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Map of Part of Alaska - NARA - 103396332.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg)"
+      }
+     },
+     {
+      "text": "Sau Thế chiến thứ nhất, nước Đức thua trận, và con tàu được giao cho nước Anh như một khoản bồi thường chiến tranh.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
+      }
+     },
+     {
+      "text": "Năm một nghìn chín trăm hai mươi mốt, Công ty Vịnh Hudson mua lại nó, rồi đổi tên thành Baychimo.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+      }
+     },
+     {
+      "text": "Công ty này nổi tiếng với việc buôn lông thú ở miền bắc Canada.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_2).jpg)"
+      }
+     },
+     {
+      "text": "Mỗi mùa hè, Baychimo chở hàng hóa lên vùng bờ biển băng giá, rồi mang về những kiện lông thú quý.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357245736).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357245736).jpg)"
+      }
+     },
+     {
+      "text": "Nó đã hoàn thành chín chuyến đi như thế dọc bờ biển phía bắc Canada.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Một con tàu chở hàng bình thường, trên một tuyến đường bình thường. Cho đến chuyến thứ mười.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      },
+      "fx": "mist"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Mùa thu năm một nghìn chín trăm ba mươi mốt, Baychimo đang trên đường về, chất đầy lông thú.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+      },
+      "label": "Alaska · Mùa thu 1931",
+      "fx": "snow"
+     },
+     {
+      "text": "Ngày mùng một tháng Mười, khi con tàu đi qua vùng biển gần mũi Barrow, ở bắc Alaska, băng bắt đầu khép lại.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_2).jpg)"
+      }
+     },
+     {
+      "text": "Mùa đông năm ấy đến sớm. Những mảng băng trôi ép sát vào hai bên thân tàu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg/1920px-Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Sea Ice in the Chukchi Sea (7348953402).jpg\" – NASA Goddard Space Flight Center from Greenbelt, MD, USA, Public domain (https://commons.wikimedia.org/wiki/File:Sea_Ice_in_the_Chukchi_Sea_(7348953402).jpg)"
+      }
+     },
+     {
+      "text": "Con tàu mắc kẹt. Thủy thủ đoàn bỏ tàu, đi bộ qua băng, tới tạm trú ở thị trấn Barrow.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Hai ngày sau, họ quay lại. Và điều kỳ lạ là con tàu đã tự thoát ra khỏi băng.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Dor%C3%A9%2C_Navire_pris_dans_les_glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Doré, Navire pris dans les glaces.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Dor%C3%A9,_Navire_pris_dans_les_glaces.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng đến ngày mùng tám tháng Mười, nó lại kẹt cứng. Lần này chặt hơn nhiều.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357471838).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357471838).jpg)"
+      }
+     },
+     {
+      "text": "Công ty Vịnh Hudson cho máy bay đến đón. Hai mươi hai thủy thủ được đưa đi.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+      }
+     },
+     {
+      "text": "Mười lăm người còn lại ở lại, quyết không bỏ tàu và chỗ lông thú quý giá.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Họ dựng một căn nhà gỗ trên băng, cách con tàu một quãng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)"
+      },
+      "label": "Trại trên băng",
+      "fx": "snow"
+     },
+     {
+      "text": "Kế hoạch rất đơn giản: nếu cần, họ sẽ ở đó qua mùa đông, chờ băng tan rồi đưa tàu đi tiếp.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+      }
+     },
+     {
+      "text": "Ngày qua ngày, họ nhìn con tàu đen sì nằm im giữa biển trắng.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Gió mỗi lúc một mạnh. Băng kêu răng rắc suốt đêm.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)"
+      },
+      "fx": "snow",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Rồi đến ngày hai mươi bốn tháng Mười Một, một trận bão tuyết dữ dội ập xuống.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+      },
+      "fx": "snow",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Suốt nhiều giờ liền, họ không nhìn thấy gì ngoài một màn trắng xóa.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg/1920px-Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg\" – Fitz Henry Lane, Public domain (https://commons.wikimedia.org/wiki/File:Lane,_Fitz_Henry,_Ship_in_Fog,_Gloucester_Harbor,_ca._1860.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Khi bão tan, họ chạy ra khỏi căn nhà gỗ, nhìn về phía con tàu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357281916).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357281916).jpg)"
+      }
+     },
+     {
+      "text": "Và nó không còn ở đó.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      },
+      "fx": "mist",
+      "am_thanh": [
+       "tim_dap"
+      ]
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Không có dấu vết nào. Không có mảnh vỡ. Chỉ có một khoảng băng trống.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+      },
+      "label": "Sau trận bão",
+      "fx": "snow"
+     },
+     {
+      "text": "Thuyền trưởng kết luận rằng bão đã làm vỡ băng, và con tàu đã chìm xuống đáy biển.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)"
+      }
+     },
+     {
+      "text": "Đó là điều hợp lý nhất. Một con tàu bị bỏ lại giữa mùa đông Bắc Cực hiếm khi sống sót.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg)"
+      }
+     },
+     {
+      "text": "Công ty Vịnh Hudson ghi nhận mất tàu. Mười lăm thủy thủ thu dọn đồ đạc, chuẩn bị rời đi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng vài ngày sau, một người thợ săn hải cẩu bản địa chạy tới báo tin.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357245736).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357245736).jpg)"
+      }
+     },
+     {
+      "text": "Anh vừa thấy một con tàu lớn, cách đó khoảng bảy mươi hai cây số, nằm gọn trên băng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_2).jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Các thủy thủ lần theo hướng chỉ, và họ tìm thấy nó. Baychimo vẫn còn nguyên.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+      }
+     },
+     {
+      "text": "Con tàu đã trôi một quãng rất xa trên lớp băng, như thể có ai đó đang lái nó.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+      },
+      "fx": "mist",
+      "am_thanh": [
+       "tim_dap"
+      ]
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Họ leo lên tàu, chuyển những kiện lông thú đắt giá nhất sang máy bay để đưa ra ngoài.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+      },
+      "label": "Mùa đông 1931"
+     },
+     {
+      "text": "Phần còn lại, họ đành bỏ lại. Mùa đông Bắc Cực không cho họ thêm thời gian.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Họ nhìn lại lần cuối con tàu đen sì giữa vùng băng trắng, rồi quay đi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg/1920px-Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg\" – Fitz Henry Lane, Public domain (https://commons.wikimedia.org/wiki/File:Lane,_Fitz_Henry,_Ship_in_Fog,_Gloucester_Harbor,_ca._1860.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Và từ lúc ấy, Baychimo không còn thuộc về ai.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)"
+      }
+     },
+     {
+      "text": "Không có thuyền trưởng. Không có thủy thủ. Không có máy chạy, không có người lái.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Nhưng con tàu vẫn không chìm.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+      },
+      "fx": "mist"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Vài tháng sau, có người thấy nó cách chỗ cũ khoảng ba trăm dặm về phía đông.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51358345735).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51358345735).jpg)"
+      },
+      "label": "Những lần nhìn thấy",
+      "fx": "mist"
+     },
+     {
+      "text": "Tháng Một năm một nghìn chín trăm ba mươi hai, một người đi xe chó kéo tới Nome cũng thấy nó, đang trôi gần bờ.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg/1920px-Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Map of Part of Alaska - NARA - 103396332.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg)"
+      }
+     },
+     {
+      "text": "Ít lâu sau, một nhóm người đi tìm vàng kể rằng họ cũng nhìn thấy con tàu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      }
+     },
+     {
+      "text": "Tháng Ba năm một nghìn chín trăm ba mươi ba, một nhóm người Iñupiat leo lên được tàu.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+      }
+     },
+     {
+      "text": "Một cơn bão bất ngờ nổi lên, và họ bị mắc kẹt trên tàu suốt mười ngày.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)"
+      },
+      "fx": "snow",
+      "am_thanh": [
+       "gio"
+      ]
+     },
+     {
+      "text": "Tháng Tám cùng năm, nó lại xuất hiện, cách làng Wainwright khoảng mười chín cây số.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg/1920px-Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Sea Ice in the Chukchi Sea (7348953402).jpg\" – NASA Goddard Space Flight Center from Greenbelt, MD, USA, Public domain (https://commons.wikimedia.org/wiki/File:Sea_Ice_in_the_Chukchi_Sea_(7348953402).jpg)"
+      }
+     },
+     {
+      "text": "Lần này, một nhóm người đã lên tàu và mang đi chiếc xuồng, đồ đạc và vài món bên trong.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+      }
+     },
+     {
+      "text": "Họ kể rằng bên trong, mọi thứ vẫn nằm nguyên chỗ cũ, như thể thủy thủ vừa mới rời đi.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Công ty Vịnh Hudson biết rằng con tàu vẫn nổi. Nhưng nó đã ở quá xa để kéo về.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+      },
+      "fx": "snow"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Năm tháng trôi qua, và những lời kể về con tàu ma cứ thế lan đi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)"
+      },
+      "label": "Hàng chục năm sau",
+      "fx": "mist"
+     },
+     {
+      "text": "Tháng Bảy năm một nghìn chín trăm ba mươi bốn, một nhóm nhà thám hiểm trên một chiếc thuyền buồm lại leo lên tàu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+      }
+     },
+     {
+      "text": "Tháng Chín năm một nghìn chín trăm ba mươi lăm, người ta thấy nó trôi ngoài khơi Alaska.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357471838).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357471838).jpg)"
+      }
+     },
+     {
+      "text": "Tháng Mười Một năm một nghìn chín trăm ba mươi chín, thuyền trưởng Hugh Polson dẫn người lên tàu, định kéo nó về bờ.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng những mảng băng bắt đầu khép lại quanh thân tàu, và ông buộc phải bỏ cuộc.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Mỗi lần có người đến gần, băng, bão hoặc thời tiết xấu đều buộc họ phải rời đi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Cứ như thể con tàu không muốn bị bắt giữ.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Có người kể rằng thủy thủ các tàu khác đã né nó, vì sợ lời nguyền.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Họ gọi nó là tàu ma. Một con tàu trôi mãi giữa biển cực bắc, không bao giờ cập bến.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)"
+      },
+      "fx": "mist"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Năm một nghìn chín trăm sáu mươi hai, người dân bản địa thấy nó trôi dọc bờ biển Beaufort.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357281916).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357281916).jpg)"
+      },
+      "label": "Biển Beaufort · 1962",
+      "fx": "mist"
+     },
+     {
+      "text": "Đó là gần ba mươi mốt năm sau khi nó bị bỏ lại, và nó vẫn ở đó.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)"
+      },
+      "fx": "snow"
+     },
+     {
+      "text": "Rồi đến năm một nghìn chín trăm sáu mươi chín, người ta thấy nó lần cuối cùng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg/1920px-Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg\" – Fitz Henry Lane, Public domain (https://commons.wikimedia.org/wiki/File:Lane,_Fitz_Henry,_Ship_in_Fog,_Gloucester_Harbor,_ca._1860.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Con tàu nằm kẹt trong băng, giữa mũi Barrow và mũi Icy, ba mươi tám năm sau ngày thủy thủ rời đi.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51358345735).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51358345735).jpg)"
+      }
+     },
+     {
+      "text": "Sau đó, không ai thấy nó nữa.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)"
+      },
+      "fx": "mist",
+      "am_thanh": [
+       "tim_dap"
+      ]
+     },
+     {
+      "text": "Không có tin nào về một vụ đắm tàu. Không có mảnh vỡ nào được tìm thấy.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Vậy chuyện gì đã giúp một con tàu bỏ hoang trôi suốt ba mươi tám năm?",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)"
+      },
+      "label": "Lời giải thích",
+      "fx": "snow"
+     },
+     {
+      "text": "Các nhà nghiên cứu cho rằng thân tàu bằng thép khá chắc, và có thể đã giữ được nước ở những khoang kín.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)"
+      }
+     },
+     {
+      "text": "Gió và dòng hải lưu ở Bắc Cực đẩy những mảng băng trôi đi rất xa, kéo theo cả những vật bị kẹt trong đó.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_2).jpg)"
+      }
+     },
+     {
+      "text": "Và mỗi lần băng tan, con tàu lại nổi lên, trôi thêm một đoạn.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Clouds and ice on the Chukchi Sea (51357245736).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357245736).jpg)"
+      }
+     },
+     {
+      "text": "Cho đến nay, vẫn chưa có ai chứng minh được điều gì đã thực sự xảy ra với nó.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Năm hai nghìn không trăm lẻ sáu, chính quyền bang Alaska bắt đầu một dự án tìm xác con tàu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg/1920px-Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Map of Part of Alaska - NARA - 103396332.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg)"
+      }
+     },
+     {
+      "text": "Họ tìm cả dưới đáy biển lẫn trên mặt nước. Nhưng đến nay, vẫn chưa thấy dấu vết nào.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg/1920px-Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Sea Ice in the Chukchi Sea (7348953402).jpg\" – NASA Goddard Space Flight Center from Greenbelt, MD, USA, Public domain (https://commons.wikimedia.org/wiki/File:Sea_Ice_in_the_Chukchi_Sea_(7348953402).jpg)"
+      }
+     },
+     {
+      "text": "Có thể nó đã chìm sâu dưới lớp băng. Cũng có thể nó vẫn đang trôi đâu đó, giữa biển trắng.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Một con tàu bị bỏ lại giữa băng, và suốt ba mươi tám năm, nó không chịu biến mất.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)"
+      },
+      "fx": "mist"
+     },
+     {
+      "text": "Bạn nghĩ con tàu ma Baychimo bây giờ đang ở đâu? Hãy để lại suy nghĩ của bạn bên dưới.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg)"
+      },
+      "fx": "snow"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -29,6 +29,10 @@
   "default": [
    "su-la",
    "bi-an"
+  ],
+  "huyen-bi": [
+   "gay-can",
+   "bi-an"
   ]
  },
  "tracks": [
@@ -475,6 +479,42 @@
    "credit": "\"Gymnopedie No 1\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/)",
    "disabled": true,
    "ly_do_tat": "CC BY 4.0 (phải ghi nguồn) — kế hoạch chỉ cho phép nhạc PD/CC0 không cần ghi nguồn"
+  },
+  {
+   "name": "Hall of the Mountain King (Musopen)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg.mp3",
+   "moods": [
+    "gay-can"
+   ],
+   "giay_phep": "Public domain",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg",
+   "tac_gia": "Edvard Grieg; Musopen Symphony Orchestra",
+   "credit": "\"Hall of the Mountain King (Musopen)\" — bản thu Public domain (Wikimedia Commons)",
+   "url_goc": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg"
+  },
+  {
+   "name": "Chopin Sonata 2 Grave",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Frederic_Chopin_Piano_Sonata_No.2_in_B_flat_minor_Op35_-_I_Grave_Doppio_Movimento.ogg/Frederic_Chopin_Piano_Sonata_No.2_in_B_flat_minor_Op35_-_I_Grave_Doppio_Movimento.ogg.mp3",
+   "moods": [
+    "gay-can"
+   ],
+   "giay_phep": "CC0",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_Piano_Sonata_No.2_in_B_flat_minor_Op35_-_I_Grave_Doppio_Movimento.ogg",
+   "tac_gia": "Frédéric Chopin",
+   "credit": "\"Chopin Sonata 2 Grave\" — bản thu CC0 (Wikimedia Commons)",
+   "url_goc": "https://upload.wikimedia.org/wikipedia/commons/3/39/Frederic_Chopin_Piano_Sonata_No.2_in_B_flat_minor_Op35_-_I_Grave_Doppio_Movimento.ogg"
+  },
+  {
+   "name": "Night on Bald Mountain (Mussorgsky)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg/Modest_Mussorgsky_-_night_on_bald_mountain.ogg.mp3",
+   "moods": [
+    "gay-can"
+   ],
+   "giay_phep": "Public domain",
+   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_night_on_bald_mountain.ogg",
+   "tac_gia": "Modest Mussorgsky",
+   "credit": "\"Night on Bald Mountain (Mussorgsky)\" — bản thu Public domain (Wikimedia Commons)",
+   "url_goc": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg"
   }
  ]
 }

@@ -662,9 +662,51 @@ def sync_check(long_data):
 
 
 # ================================================================== tổng hợp
+MAX_LAP_ANH = 2
+
+
+def _anh_key(im):
+    if not isinstance(im, dict):
+        return None
+    if im.get("url"):
+        return (im["url"].split("?")[0], json.dumps(im.get("crop")))
+    if im.get("mo_phong"):
+        return ("ai", im["mo_phong"])
+    return None
+
+
+def lint_anh_lap(script, part):
+    """Một ảnh không được xuất hiện quá MAX_LAP_ANH lần trong cùng một video (ngắn hoặc dài)."""
+    items = []
+    if part == "ngan":
+        for b in (script.get("ngan") or {}).get("beats", []):
+            ims = list(b.get("images") or [])
+            if b.get("image"):
+                ims.append(b["image"])
+            items += ims
+        if not items:
+            items = [s.get("image") for s in script.get("scenes", [])]
+    else:
+        for ch in (script.get("long") or {}).get("chapters", []):
+            for b in ch.get("beats", []):
+                items.append(b.get("image"))
+    cnt = {}
+    for im in items:
+        k = _anh_key(im)
+        if k:
+            cnt.setdefault(k, [im, 0])[1] += 1
+    out = []
+    for k, (im, n) in cnt.items():
+        if n > MAX_LAP_ANH:
+            name = (im.get("credit") or im.get("mo_phong") or k[0])[:70]
+            out.append(issue("loi", "Kịch bản", "ảnh lặp", f"ảnh dùng {n} lần (tối đa {MAX_LAP_ANH}): {name}",
+                             "thay bằng ảnh khác cho các đoạn còn lại"))
+    return out
+
+
 def lint_script(script, part):
     """Kiểm tra nhanh bằng luật, không cần AI."""
-    out, g = [], "Kịch bản"
+    out, g = lint_anh_lap(script, part), "Kịch bản"
     if part == "ngan":
         scenes = script.get("scenes", [])
         for i, sc in enumerate(scenes):

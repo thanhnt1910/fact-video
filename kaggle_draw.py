@@ -184,8 +184,9 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein"):
     work = ROOT / "output" / "_kaggle"
     shutil.rmtree(work, ignore_errors=True)
     (work / "k").mkdir(parents=True)
-    payload = json.dumps([{"key": k, "prompt": p, "w": w, "h": h, "seed": i} for i, (k, p, w, h) in enumerate(jobs)],
-                         ensure_ascii=False)
+    # mỗi job: (key, prompt, w, h) hoặc (key, prompt, w, h, seed); không ghi seed thì lấy theo thứ tự
+    payload = json.dumps([{"key": j[0], "prompt": j[1], "w": j[2], "h": j[3], "seed": (j[4] if len(j) > 4 else i)}
+                          for i, j in enumerate(jobs)], ensure_ascii=False)
     (work / "k" / "draw.py").write_text((KERNEL_KLEIN if model == "klein" else KERNEL_CODE).replace("__JOBS__", repr(payload)).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
     meta = {"id": f"{user}/{SLUG}", "title": SLUG, "code_file": "draw.py", "language": "python",
             "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,

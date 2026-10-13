@@ -1,0 +1,48 @@
+name: Vẽ ảnh 2D hàng loạt (Kaggle)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ma:
+        description: "Mã chuyện (có ke-hoach/nhan-vat/<mã>_anh.json)"
+        required: true
+        default: "ST3"
+      lam_lai:
+        description: "Vẽ lại các ảnh này (số cách nhau dấu phẩy, vd 007,031); để trống = vẽ ảnh chưa có"
+        required: false
+        default: ""
+      dot:
+        description: "Đợt vẽ lại (đổi hạt giống): 1, 2, 3…"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+
+jobs:
+  ve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow numpy requests kaggle
+      - name: Vẽ trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python ve_anh_2d.py "${{ inputs.ma }}" "${{ inputs.lam_lai }}" "${{ inputs.dot }}" 2>&1 | tee /tmp/ve.txt
+      - name: Lưu ảnh vào kho
+        if: always()
+        run: |
+          mkdir -p logs/ve_anh_2d; cp /tmp/ve.txt logs/ve_anh_2d/${{ inputs.ma }}.txt || true
+          cp logs/kaggle_last.txt logs/ve_anh_2d/${{ inputs.ma }}_kaggle.txt 2>/dev/null || true
+          git add -f assets/anh_2d logs/ve_anh_2d || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Vẽ ảnh 2D ${{ inputs.ma }} [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

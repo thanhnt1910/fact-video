@@ -1,46 +1,81 @@
 
-===== BA1: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
-   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+===== PV7: kiểm tra kịch bản trước khi dựng =====
 
-===== BA4: kiểm tra kịch bản trước khi dựng =====
-
-===== SL12: kiểm tra kịch bản trước khi dựng =====
-
-===== ST4: kiểm tra kịch bản trước khi dựng =====
-
-===== BA4 (video ngắn + bài ảnh) =====
-▶️  BA4: Bí ẩn đèo Dyatlov: 9 người rạch lều từ bên trong
-  ⚖️  Bằng chứng bản quyền: 10 ảnh tư liệu + 20 tranh AI → logs/nguon_anh_BA4.json · ⚠️ 2 cần xem
-     ⚠️  File:Wechtenbruch.jpg: ảnh năm 1997, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Avalanche on Everest.jpg: ảnh năm 2006, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
+===== PV7 (video ngắn + bài ảnh) =====
+▶️  PV7: Chiến dịch Mincemeat: xác chết lừa Hitler
+  ⚖️  Bằng chứng bản quyền: 20 ảnh tư liệu + 17 tranh AI → logs/nguon_anh_PV7.json
   🖼️  Ảnh cho video ngắn
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
      🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-❌ BA4: Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade t
+     🎨 mp_aa72242e5cd947fb.jpg
+     🎨 mp_c1c833511dd14fc5.jpg
+     🎨 mp_9168ed1e1c88a7c6.jpg
+     🎨 mp_a111963ddbad9fb5.jpg
+     🎨 mp_344c08487a9bd7b1.jpg
+     🎨 mp_ba5c7ec0e1249f91.jpg
+     🎨 mp_f2bf2d5c02283605.jpg
+     🎨 mp_ef790c52c9864c15.jpg
+     🎨 mp_425794d5e054d0e2.jpg
+     🎨 mp_37e6d0df90dc0554.jpg
+     🎨 mp_3848dacaa0a90e60.jpg
+     🎨 mp_b7d03bc76652d89d.jpg
+  🔍 Kiểm tra 20 ảnh: 4 ảnh lỗi, 1 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_344c08487a9bd7b1.jpg (lần 1)
+     🎨 mp_344c08487a9bd7b1.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_ba5c7ec0e1249f91.jpg (lần 1)
+     🎨 mp_ba5c7ec0e1249f91.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_425794d5e054d0e2.jpg (lần 1)
+     🎨 mp_425794d5e054d0e2.jpg
+  🔍 Kiểm tra 20 ảnh: 3 ảnh lỗi, 1 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_344c08487a9bd7b1.jpg (lần 2)
+     🎨 mp_344c08487a9bd7b1.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_ba5c7ec0e1249f91.jpg (lần 2)
+     🎨 mp_ba5c7ec0e1249f91.jpg
+  🔍 Kiểm tra 20 ảnh: 3 ảnh lỗi, 1 ảnh cần xem
+❌ PV7: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_PV7_ngan_kiemtra.txt):
+  mp_344c08487a9bd7b1.jpg: Ảnh do AI tạo có xuất hiện chữ viết giả lập (gibberish text) trên bức thư, không phải là chữ viết có nghĩa đúng nội dung thư tình. → Dùng ảnh mô phỏng có chữ viết tay tiếng Anh rõ ràng, có nghĩa hoặc làm mờ/lệch góc để không đọc rõ các ký tự vô nghĩa do AI tạo ra.
+  mp_ba5c7ec0e1249f91.jpg: Tờ giấy đặt dưới hộp nhẫn có xuất hiện chữ viết lỗi, dạng ký tự vô nghĩa không phải văn bản thật. → Tạo lại ảnh AI sao cho tờ hóa đơn/giấy tờ có chữ viết mờ không rõ nét hoặc không có ký tự vô nghĩa.
+  scene_05.jpg: ảnh rất mờ / nhòe (độ nét 11)
 
 Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
-===== SL12 (video ngắn + bài ảnh) =====
-▶️  SL12: Ai đã xây kim tự tháp? Nhật ký 4.500 năm tuổi
-  ⚖️  Bằng chứng bản quyền: 28 ảnh tư liệu + 12 tranh AI → logs/nguon_anh_SL12.json · ⚠️ 4 cần xem
-     ⚠️  File:The Great Pyramid and the Sphinx.jpg: ảnh năm 2008, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:ISS030-E-5334 - View of Egypt.jpg: ảnh năm 2011, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Khufu.JPG: ảnh năm 2003, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-     ⚠️  File:Ancient Egypt (Myers, 1890).png: ảnh năm 2009, nhãn 'Public domain' — ở Việt Nam ảnh chụp chỉ hết bản quyền nếu công bố từ 1950 trở về trước; cần xem lại
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 25 ảnh: 0 ảnh lỗi, 3 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 11 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  75.0 giây · 27 hình · trung bình 2.8 giây/hình
-  🎞️  Số lần: cut 13, dissolve 6, wipedown 2, smoothup 2, smoothright 1, fadewhite 1, fade 1
-  🎬 Dựng 2249 khung hình (32s)
-  🔊 Tiếng động: bien, gio, hit, kim_loai, lat_giay, nuoc, rise, tim_dap, vut
-  🔈 Âm lượng cuối: -14.8 LUFS, đỉnh -4.3 dBTP
-  🖼️  Ảnh bìa: 3 phương án (SL12_bia_1.jpg, SL12_bia_2.jpg, SL12_bia_3.jpg)
-  🖼️  Bài đăng ảnh: 5 ảnh + bài viết (SL12_post.txt)
-✅ Xong output/SL12/SL12.mp4  (75.0s video, mất 78s)
+===== PV7 (video dài) =====
+▶️  Video dài PV7: Chiến dịch Mincemeat: người chưa từng tồn tại đã lừa Hitler như thế nào?
+  ⚖️  Bằng chứng bản quyền: 20 ảnh tư liệu + 17 tranh AI → logs/nguon_anh_PV7.json
+  🖼️  Ảnh cho video dài
+     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
+     🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
+     🎨 mp_1b2f88a13dbd3396.jpg
+     🎨 mp_8c2b2351802ee7d8.jpg
+     🎨 mp_a931b02b3a550dbc.jpg
+     🎨 mp_32ec7aafce44702b.jpg
+     🎨 mp_50d90fae5f51b2a8.jpg
+  🔍 Kiểm tra 37 ảnh: 6 ảnh lỗi, 4 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c1c833511dd14fc5.jpg (lần 1)
+     🎨 mp_c1c833511dd14fc5.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_a931b02b3a550dbc.jpg (lần 1)
+     🎨 mp_a931b02b3a550dbc.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_344c08487a9bd7b1.jpg (lần 1)
+     🎨 mp_344c08487a9bd7b1.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_ba5c7ec0e1249f91.jpg (lần 1)
+     🎨 mp_ba5c7ec0e1249f91.jpg
+  🔍 Kiểm tra 37 ảnh: 6 ảnh lỗi, 4 ảnh cần xem
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_c1c833511dd14fc5.jpg (lần 2)
+     🎨 mp_c1c833511dd14fc5.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_a931b02b3a550dbc.jpg (lần 2)
+     🎨 mp_a931b02b3a550dbc.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_344c08487a9bd7b1.jpg (lần 2)
+     🎨 mp_344c08487a9bd7b1.jpg
+     🔁 tạo lại ảnh mô phỏng lỗi: mp_ba5c7ec0e1249f91.jpg (lần 2)
+     🎨 mp_ba5c7ec0e1249f91.jpg
+  🔍 Kiểm tra 37 ảnh: 5 ảnh lỗi, 4 ảnh cần xem
+❌ Video dài PV7: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_PV7_dai_kiemtra.txt):
+  mp_c1c833511dd14fc5.jpg: Chữ viết trên các tấm vé, thư và giấy tờ trong ảnh là các ký tự AI vô nghĩa, không phải chữ tiếng Anh thật. → Dùng hình ảnh có chữ viết tay và văn bản tiếng Anh rõ ràng, đúng nội dung tài liệu tình báo.
+  scene_07.jpg: ảnh rất mờ / nhòe (độ nét 11)
+  mp_344c08487a9bd7b1.jpg: Ảnh do AI tạo có xuất hiện chữ viết giả mạo, vô nghĩa trên bức thư (lỗi chữ viết lạ trên giấy). → Dùng ảnh mô phỏng không có chữ viết hoặc thay bằng chữ tiếng Anh có nghĩa phù hợp với nội dung bức thư tình của Pam.
+  mp_ba5c7ec0e1249f91.jpg: Ảnh có chữ viết lạ và vô nghĩa xuất hiện trên tập tài liệu bên trái ('DSSL') và trên tờ giấy ở phía dưới. → Dùng ảnh mô phỏng khác không chứa chữ viết vô nghĩa, hoặc chỉnh sửa để loại bỏ các ký tự lạ trên tài liệu và giấy tờ.
+  scene_13.jpg: Ảnh hiển thị tàu ngầm HMS Turbulent lớp T, trong khi lời kể đề cập đến tàu ngầm HMS Seraph tham gia Chiến dịch Mincemeat. → Thay bằng ảnh tư liệu chính xác của tàu ngầm HMS Seraph.
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong video ngắn: SL12 · video dài: -
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): PV7
+Lỗi: PV7

@@ -29,8 +29,8 @@ jobs:
       - name: Lưu kết quả vào logs/nhan_vat
         if: always()
         run: |
-          mkdir -p logs/nhan_vat/${{ inputs.ma }}; cp /tmp/nv.log logs/nhan_vat/${{ inputs.ma }}/chay.log || true
-          git add logs/nhan_vat || true
+          mkdir -p logs/nhan_vat/${{ inputs.ma }}; cp /tmp/nv.log logs/nhan_vat/${{ inputs.ma }}/chay.txt || true
+          git add -f logs/nhan_vat || true
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"

@@ -121,7 +121,7 @@ def main():
     dest = ROOT / "logs" / "nhan_vat" / ma
     dest.mkdir(parents=True, exist_ok=True)
     for f in (work / "out").glob("*.log"):
-        shutil.copy(f, dest / "kaggle.log")
+        shutil.copy(f, dest / "kaggle.txt")
     from PIL import Image
     got = []
     for f in sorted((work / "out").glob("*.png")):

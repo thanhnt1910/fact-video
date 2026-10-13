@@ -1,6 +1,6 @@
 {
  "ma": "BA20",
- "cap_nhat": "2026-10-13T11:38:58",
+ "cap_nhat": "2026-10-13T11:43:13",
  "anh": [
   {
    "loai": "ảnh tư liệu",
@@ -315,48 +315,23 @@
   },
   {
    "loai": "ảnh tư liệu",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)",
-   "ngay_tai": "2026-10-13",
-   "dung_o": [
-    "ngắn · cảnh 7 ảnh 1",
-    "dài · chương 0 đoạn 4",
-    "dài · chương 1 đoạn 8",
-    "dài · chương 3 đoạn 8",
-    "dài · chương 6 đoạn 3",
-    "dài · chương 7 đoạn 8",
-    "dài · chương 8 đoạn 5",
-    "bài ảnh · cảnh 3"
-   ],
-   "ten_file": "File:Caspar David Friedrich - Segelschiff.jpg",
-   "trang_nguon": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg",
-   "giay_phep": "Public domain",
-   "tac_gia": "Caspar David Friedrich",
-   "ngay_chup": "circa 1815date QS:P571,+1815-00-00T00:00:00Z/9,P1480,Q5727902",
-   "ban_chup_giay_phep": {
-    "LicenseShortName": "Public domain",
-    "License": "pd",
-    "UsageTerms": "Public domain",
-    "Copyrighted": "False",
-    "Restrictions": "",
-    "AttributionRequired": "false",
-    "Credit": "1. Transferred from de.wikipedia to Commons by Bargain. - Original uploader was Matthäus Edinger at de.wikipedia2. Zeno.org, ID number 2000401944X"
-   },
-   "nguon_giay_phep": "Wikimedia Commons API (extmetadata) lúc dựng",
-   "hop_le": true,
-   "nam": 1815
-  },
-  {
-   "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)",
    "ngay_tai": "2026-10-13",
    "dung_o": [
+    "ngắn · cảnh 7 ảnh 1",
     "ngắn · cảnh 7 ảnh 2",
+    "dài · chương 0 đoạn 4",
     "dài · chương 1 đoạn 3",
+    "dài · chương 1 đoạn 8",
+    "dài · chương 3 đoạn 8",
     "dài · chương 5 đoạn 5",
+    "dài · chương 6 đoạn 3",
     "dài · chương 6 đoạn 8",
-    "dài · chương 9 đoạn 5"
+    "dài · chương 7 đoạn 8",
+    "dài · chương 8 đoạn 5",
+    "dài · chương 9 đoạn 5",
+    "bài ảnh · cảnh 3"
    ],
    "ten_file": "File:Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg",
    "trang_nguon": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg",

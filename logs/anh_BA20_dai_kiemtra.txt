@@ -1,26 +1,24 @@
-KIỂM TRA ẢNH BA20 · video dài · 20 ảnh (số thứ tự khớp lưới ảnh anh_BA20_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH BA20 · video dài · 19 ảnh (số thứ tự khớp lưới ảnh anh_BA20_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 · Biển Bắc Cực scene_00.jpg
 ✅ 2 ·  scene_01.jpg
 ✅ 3 ·  scene_02.jpg
-❌ 4 ·  scene_03.jpg
-     ❌ Ảnh minh họa là một bức tranh vẽ tàu buồm cổ bằng gỗ truyền thống, trong khi SS Baychimo là một chiếc tàu hơi nước bọc thép chở hàng hiện đại thế kỷ 20, dẫn đến sai lệch nghiêm trọng về loại tàu và thời kỳ lịch sử. → Thay bằng ảnh tư liệu thực tế của tàu SS Baychimo hoặc tàu hơi nước chở hàng thời kỳ đầu thế kỷ 20 bị bỏ lại giữa băng giá Bắc Cực.
+⚠️ 4 ·  scene_03.jpg
+     ⚠️ Tranh vẽ phong cảnh sông nước có sương mù và thuyền buồm của Caspar David Friedrich, trong khi câu chuyện nói về tàu chở hàng Baychimo trôi dạt giữa băng giá Bắc Cực. → Nên thay bằng ảnh chụp hoặc tranh vẽ tàu chở hàng lớn hoặc cảnh băng giá Bắc Cực phù hợp với con tàu Baychimo.
 ✅ 5 ·  scene_04.jpg
 ✅ 6 ·  scene_05.jpg
 ✅ 7 ·  scene_06.jpg
 ✅ 8 ·  scene_07.jpg
-❌ 9 · Gothenburg · 1914 scene_08.jpg
-     ❌ Ảnh tư liệu có viền đen dày và các mã số lưu trữ, chữ viết tay in chìm ở các cạnh bên (trái và dưới) do chưa được crop. → Cắt bỏ các viền đen và phần chữ/số bên ngoài để ảnh hiển thị sạch sẽ hơn trong video.
+✅ 9 · Gothenburg · 1914 scene_08.jpg
 ✅ 10 ·  scene_09.jpg
-✅ 11 ·  scene_10.jpg
-⚠️ 12 ·  scene_11.jpg
+⚠️ 11 ·  scene_10.jpg
      ⚠️ Ảnh là bản đồ phân bố thổ dân Alaska năm 1920, phù hợp bối cảnh vùng biển Alaska nhưng không minh họa trực tiếp cho con tàu Baychimo hay sự việc tàu mắc kẹt trong băng. → Nên dùng ảnh chụp tàu Baychimo hoặc cảnh tàu bị băng trôi bao vây để minh họa chính xác sự kiện.
+✅ 12 ·  scene_11.jpg
 ✅ 13 ·  scene_12.jpg
 ✅ 14 ·  scene_13.jpg
 ✅ 15 ·  scene_14.jpg
 ✅ 16 ·  scene_15.jpg
 ✅ 17 ·  scene_16.jpg
-✅ 18 ·  scene_17.jpg
-⚠️ 19 ·  scene_18.jpg
+⚠️ 18 ·  scene_17.jpg
      ⚠️ ảnh hơi nhỏ (1920x544)
      ⚠️ ảnh quá dẹt (1920x544), dễ bị cắt mất nội dung
-✅ 20 ·  scene_19.jpg
+✅ 19 ·  scene_18.jpg

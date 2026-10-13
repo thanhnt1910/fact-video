@@ -1,0 +1,51 @@
+name: Dựng lại bài đăng Facebook
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Mã cần dựng lại bài ảnh Facebook, cách nhau dấu phẩy (vd ST4,BA13)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Phông, ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-color-emoji ffmpeg > /dev/null
+      - name: Cài thư viện
+        run: |
+          python -m pip install -q -r requirements.txt
+          python -m playwright install --with-deps chromium > /dev/null
+      - name: Dựng bài đăng và đẩy lên Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          mkdir -p logs
+          for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
+            python post.py "scripts/$id.json" 2>&1 | tee "logs/bai_$id.txt"
+            files=$(ls output/$id/${id}_post*.jpg output/$id/${id}_post.txt 2>/dev/null)
+            [ -z "$files" ] && { echo "Không có file bài đăng cho $id"; continue; }
+            tag="video-$id"
+            gh release view "$tag" > /dev/null 2>&1 || gh release create "$tag" --title "Video $id" --notes "Video ngắn, bài ảnh, video dài" < /dev/null
+            gh release upload "$tag" $files --clobber < /dev/null
+          done
+      - name: Lưu nhật ký
+        if: always()
+        run: |
+          git add logs/bai_*.txt || true
+          git diff --cached --quiet && exit 0
+          git config user.name "fact-video-bot"; git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Nhật ký dựng bài đăng [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

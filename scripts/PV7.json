@@ -1,0 +1,884 @@
+{
+ "id": "PV7",
+ "topic": "phi-vu",
+ "title": "Chiến dịch Mincemeat: xác chết lừa Hitler",
+ "caption": "Năm 1943, tình báo Anh lừa được Hitler bằng một người đã khuất và một bức thư giả 🎩 Mọi thứ trong túi \"Thiếu tá Martin\" đều được dựng lên, kể cả tấm ảnh người yêu. Theo bạn, chi tiết nào khiến người Đức tin?",
+ "hashtags": [
+  "nguoigacsu",
+  "phivụ",
+  "thếchiến2",
+  "tìnhbáo",
+  "chuyệncóthật"
+ ],
+ "tu_khoa": [
+  "chiến dịch Mincemeat",
+  "Operation Mincemeat",
+  "người chưa từng tồn tại",
+  "Thiếu tá William Martin",
+  "Glyndwr Michael",
+  "đổ bộ Sicily 1943",
+  "tình báo Anh",
+  "thế chiến 2",
+  "chuyện có thật",
+  "Người Gác Sử"
+ ],
+ "sources": [
+  "Ben Macintyre – Operation Mincemeat (2010)",
+  "Ewen Montagu – The Man Who Never Was (1953)",
+  "Wikipedia – Operation Mincemeat (Trout memo 1939, Cholmondeley & Montagu, Glyndwr Michael, HMS Seraph 30/4/1943 4h15, lông mi trong thư, điện 'rod, line and sinker' 14/5, Sư đoàn Thiết giáp số 1 sang Hy Lạp, Rommel tới Salonika cuối tháng 7, bia mộ khắc thêm năm 1997)",
+  "Commonwealth War Graves Commission – mộ William Martin / Glyndwr Michael, Huelva"
+ ],
+ "nguon_link": [
+  {
+   "ten": "Chiến dịch Mincemeat (Operation Mincemeat)",
+   "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+   "ngon_ngu": "tiếng Anh"
+  },
+  {
+   "ten": "Mộ Thiếu tá William Martin (CWGC)",
+   "url": "https://www.cwgc.org/find-records/find-war-dead/casualty-details/2058003/",
+   "ngon_ngu": "tiếng Anh"
+  },
+  {
+   "ten": "How a British cadaver fooled the Nazis (HistoryNet)",
+   "url": "https://historynet.com/how-a-british-cadaver-fooled-the-nazis-and-helped-achieve-allied-success-in-sicily/",
+   "ngon_ngu": "tiếng Anh"
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Một xác chết **lừa Hitler**",
+   "voice": "Năm 1943, tình báo Anh đã lừa được Hitler, bằng một người đã khuất và một bức thư giả.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg/1920px-Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"Adolf Hitler conferring with officers on the Eastern Front, March 1943.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front,_March_1943.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Mục tiêu thật: **Sicily**",
+   "voice": "Ai nhìn bản đồ cũng đoán ra.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg/1920px-1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "\"1943 Army Orientation Course Newsmap of the Mediterranean Sea and North Africa.jpg\" – The Army Orientation Branch, Public domain (https://commons.wikimedia.org/wiki/File:1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Thiếu tá **William Martin**",
+   "voice": "Một sĩ quan chưa từng tồn tại.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/HMS_Seraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"HMS Seraph.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMS_Seraph.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Thư mật: đánh **Hy Lạp**",
+   "voice": "Sicily chỉ là nghi binh.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Royal_Navy_during_the_Second_World_War_A17979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"The Royal Navy during the Second World War A17979.jpg\" – Priest, L C (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A17979.jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "Hitler **tin**",
+   "voice": "Quân Đức được điều sang Hy Lạp.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+   }
+  },
+  {
+   "type": "text",
+   "text": "**Glyndwr Michael**",
+   "voice": "Tên thật được khắc lên bia mộ năm 1997.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/British_troops_wade_ashore_during_the_invasion_of_Sicily%2C_10_July_1943._NA4275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "\"British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg\" – No 2 Army Film & Photographic Unit, Stubbs (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:British_troops_wade_ashore_during_the_invasion_of_Sicily,_10_July_1943._NA4275.jpg)"
+   }
+  }
+ ],
+ "post": {
+  "hook": "Năm 1943, tình báo Anh lừa được Hitler bằng một người đã khuất và một bức thư giả 🎩",
+  "paragraphs": [
+   "Quân Đồng minh định đổ bộ lên đảo Sicily, nhưng ai nhìn bản đồ cũng đoán được điều đó. Tình báo Anh cần khiến Hitler nhìn sang hướng khác.",
+   "Họ dùng thi thể của Glyndwr Michael, một người đàn ông xứ Wales vô gia cư mất ở London, và tạo cho anh danh tính mới: Thiếu tá William Martin, Thủy quân Lục chiến Hoàng gia Anh.",
+   "Trong túi anh có ảnh và thư tình của vị hôn thê \"Pam\", hóa đơn nhẫn đính hôn, thư đòi nợ của ngân hàng, cuống vé xem kịch. Trong chiếc cặp da là bức thư mật của một vị tướng: Đồng minh sẽ đánh Hy Lạp, còn Sicily chỉ là nghi binh.",
+   "Rạng sáng 30/4/1943, tàu ngầm HMS Seraph thả thi thể xuống biển ngoài khơi Huelva, Tây Ban Nha. Thư lọt đến tay tình báo Đức, và Hitler tin. Quân Đức được điều sang Hy Lạp.",
+   "Tháng 7/1943, Đồng minh đổ bộ Sicily với ít kháng cự hơn dự kiến. Năm 1997, bia mộ \"Thiếu tá Martin\" ở Huelva mới được khắc thêm tên thật của anh: Glyndwr Michael."
+  ],
+  "ending": "Theo bạn, chi tiết nào trong túi Thiếu tá Martin khiến người Đức tin nhất?",
+  "hashtags": [
+   "nguoigacsu",
+   "phivụ",
+   "thếchiến2",
+   "tìnhbáo",
+   "chuyệncóthật"
+  ],
+  "slides": [
+   {
+    "kind": "cover",
+    "scene": 0,
+    "kicker": "Chuyện có thật · 1943",
+    "title": "Một xác chết **lừa Hitler**"
+   },
+   {
+    "scene": 2,
+    "tag": "Thiếu tá William Martin",
+    "text": "Một sĩ quan chưa từng tồn tại, kể cả vị hôn thê và tấm ảnh trong túi."
+   },
+   {
+    "scene": 3,
+    "tag": "Bức thư mật",
+    "text": "Đồng minh sẽ đánh Hy Lạp, Sicily chỉ là nghi binh."
+   },
+   {
+    "scene": 4,
+    "tag": "Tháng 5/1943",
+    "text": "Hitler tin, và điều quân sang Hy Lạp."
+   },
+   {
+    "kind": "end",
+    "scene": 5,
+    "text": "Hơn 50 năm sau, tên thật của anh mới được khắc lên bia mộ."
+   }
+  ]
+ },
+ "binh_luan": {
+  "ngan": {
+   "ghim": "Nếu bạn là tình báo Đức, chi tiết nào khiến bạn tin nhất? Ⓐ ảnh và thư tình của vị hôn thê · Ⓑ thư đòi nợ của ngân hàng · Ⓒ cuống vé xem kịch 🎟️ Bình luận chữ cái của bạn 👇",
+   "phu": [
+    "Chi tiết mình chưa kịp kể: trong bức thư mật, tình báo Anh đặt một sợi lông mi. Khi nhận lại chiếc cặp, họ biết ngay thư đã bị mở ra đọc 👁️"
+   ]
+  },
+  "dai": {
+   "ghim": "Theo bạn, phần khó nhất của Chiến dịch Mincemeat là gì? Ⓐ tạo danh tính giả · Ⓑ đưa thi thể đến Tây Ban Nha · Ⓒ khiến thư lọt đến tay người Đức. Bình luận cho Người Gác Sử biết nhé 🏮",
+   "phu": [
+    "Một chi tiết thú vị: ý tưởng ban đầu nằm trong một bản ghi nhớ năm 1939 của tình báo hải quân Anh, được cho là có bàn tay của Ian Fleming, tác giả James Bond sau này 🕵️"
+   ]
+  }
+ },
+ "long": {
+  "title": "Chiến dịch Mincemeat: người chưa từng tồn tại đã lừa Hitler như thế nào?",
+  "title_card": "Người **chưa từng tồn tại**",
+  "description": "Năm 1943, quân Đồng minh cần giấu mục tiêu đổ bộ Sicily. Tình báo Anh dựng nên Thiếu tá William Martin, một sĩ quan chưa từng tồn tại, từ thi thể của Glyndwr Michael, một người vô gia cư xứ Wales. Tàu ngầm HMS Seraph thả thi thể xuống biển ngoài khơi Tây Ban Nha cùng những bức thư mật giả. Hitler tin, và điều quân sang Hy Lạp. Đây là câu chuyện về Chiến dịch Mincemeat và người đàn ông mà hơn 50 năm sau mới được khắc tên thật lên bia mộ.",
+  "voice": "Sadaltager",
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Mùa xuân năm 1943, trên một bãi biển ở miền nam Tây Ban Nha, một ngư dân phát hiện một thi thể trôi dạt vào bờ.",
+      "mo_phong": "a lonely sandy beach in southern Spain at dawn, small wooden fishing boats pulled up on the sand, calm grey sea, pale sky, oil painting, no people",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Đó là một sĩ quan Anh. Bên người anh là một chiếc cặp da, đựng những bức thư mật của các tướng lĩnh cao cấp.",
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Những bức thư ấy đến được tay tình báo Đức, rồi đến tận bàn làm việc của Hitler.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg/1920px-Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Adolf Hitler conferring with officers on the Eastern Front, March 1943.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front,_March_1943.jpg)"
+      }
+     },
+     {
+      "text": "Hitler tin vào chúng, và điều quân theo đúng những gì thư viết.",
+      "mo_phong": "a long military freight train carrying tanks under tarpaulins through a mountain valley in summer 1943, steam locomotive smoke, oil painting, no people",
+      "am_thanh": [
+       "tau_hoa"
+      ]
+     },
+     {
+      "text": "Nhưng người sĩ quan ấy chưa từng tồn tại. Mọi thứ trong túi anh đều do tình báo Anh dựng lên, kể cả tấm ảnh người yêu.",
+      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Đây là câu chuyện về Chiến dịch Mincemeat, một trong những phi vụ đánh lừa táo bạo nhất Thế chiến thứ hai.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg/1920px-The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg\" – Pelman, L (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Bài toán Sicily",
+    "beats": [
+     {
+      "text": "Đầu năm 1943, quân Đồng minh đã thắng ở Bắc Phi. Bước tiếp theo là đánh vào châu Âu từ phía nam.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg/1920px-1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"1943 Army Orientation Course Newsmap of the Mediterranean Sea and North Africa.jpg\" – The Army Orientation Branch, Public domain (https://commons.wikimedia.org/wiki/File:1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg)"
+      },
+      "label": "Địa Trung Hải · 1943"
+     },
+     {
+      "text": "Mục tiêu được chọn là đảo Sicily, nằm ngay mũi giày nước Ý.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Staff_officers_plotting_troop_positions_during_the_invasion_of_Sicily_on_a_wall_map_in_the_underground_operations_room_at_Malta%2C_9_July_1943._NA4094.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Staff officers plotting troop positions during the invasion of Sicily on a wall map in the underground operations room at Malta, 9 July 1943. NA4094.jpg\" – No 2 Army Film & Photographic Unit, Keating G (Major), Public domain (https://commons.wikimedia.org/wiki/File:Staff_officers_plotting_troop_positions_during_the_invasion_of_Sicily_on_a_wall_map_in_the_underground_operations_room_at_Malta,_9_July_1943._NA4094.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng ai nhìn bản đồ cũng thấy điều đó. Sicily là bàn đạp hiển nhiên nhất để tiến vào Ý.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Royal_Navy_during_the_Second_World_War_A17979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Royal Navy during the Second World War A17979.jpg\" – Priest, L C (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A17979.jpg)"
+      }
+     },
+     {
+      "text": "Thủ tướng Anh Winston Churchill được cho là đã nói: chỉ có kẻ ngốc mới không đoán ra đó là Sicily.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Churchill_V_sign_HU_55521.jpg/1920px-Churchill_V_sign_HU_55521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Churchill V sign HU 55521.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Churchill_V_sign_HU_55521.jpg)"
+      },
+      "label": "Winston Churchill"
+     },
+     {
+      "text": "Nếu quân Đức đoán đúng và dồn quân về Sicily, cuộc đổ bộ có thể trở thành một cuộc tắm máu.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg/1920px-The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17917.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War-_Operation_Husky,_Sicily,_July_1943_A17917.jpg)"
+      }
+     },
+     {
+      "text": "Vậy làm sao để thuyết phục Hitler nhìn sang hướng khác?",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Ý tưởng điên rồ",
+    "beats": [
+     {
+      "text": "Câu trả lời đến từ một bản ghi nhớ năm 1939 của tình báo hải quân Anh, liệt kê hàng chục mưu kế đánh lừa đối phương.",
+      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Người ta tin rằng bản ghi nhớ ấy có bàn tay của Ian Fleming, người về sau viết ra nhân vật điệp viên James Bond.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)"
+      }
+     },
+     {
+      "text": "Một trong những ý tưởng ấy là: để giấy tờ giả trên một thi thể, rồi cho thi thể trôi dạt vào tay đối phương.",
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Năm 1942, sĩ quan không quân Charles Cholmondeley đề xuất làm thật. Ông và sĩ quan hải quân Ewen Montagu được giao lên kế hoạch.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)"
+      }
+     },
+     {
+      "text": "Họ chọn bờ biển gần thành phố Huelva của Tây Ban Nha. Tây Ban Nha trung lập, nhưng ở Huelva có một điệp viên Đức rất tích cực.",
+      "mo_phong": "a lonely sandy beach in southern Spain at dawn, small wooden fishing boats pulled up on the sand, calm grey sea, pale sky, oil painting, no people"
+     },
+     {
+      "text": "Nếu một thi thể mang thư mật dạt vào đó, gần như chắc chắn tin tức sẽ đến tai người Đức.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg/1920px-1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"1943 Army Orientation Course Newsmap of the Mediterranean Sea and North Africa.jpg\" – The Army Orientation Branch, Public domain (https://commons.wikimedia.org/wiki/File:1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Người đàn ông không ai biết",
+    "beats": [
+     {
+      "text": "Họ cần một thi thể trông như một người chết đuối ngoài biển, và không ai đến hỏi han.",
+      "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
+     },
+     {
+      "text": "Nhân viên điều tra tử vong ở London đã tìm ra một người: Glyndwr Michael, một người đàn ông xứ Wales vô gia cư, khoảng ba mươi tư tuổi.",
+      "mo_phong": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people",
+      "label": "Glyndwr Michael · xứ Wales"
+     },
+     {
+      "text": "Ông mất ở London đầu năm 1943, lặng lẽ và không ai biết đến.",
+      "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
+     },
+     {
+      "text": "Thi thể được giữ trong tủ lạnh nhà xác ở nhiệt độ khoảng bốn độ. Các nhà lên kế hoạch chỉ có chừng ba tháng để hành động.",
+      "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
+     },
+     {
+      "text": "Chúng ta nên nhớ: đằng sau một mưu kế tình báo là một con người thật, với một cuộc đời thật.",
+      "mo_phong": "a quiet sunlit Spanish cemetery with white walls and tall cypress trees, a simple white headstone in the foreground, oil painting, no people, no text"
+     }
+    ]
+   },
+   {
+    "title": "Dựng nên Thiếu tá Martin",
+    "beats": [
+     {
+      "text": "Glyndwr Michael được cấp một danh tính mới: Thiếu tá William Martin, thuộc Thủy quân Lục chiến Hoàng gia Anh.",
+      "mo_phong": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people",
+      "label": "Thiếu tá William Martin · Royal Marines"
+     },
+     {
+      "text": "Để thật hơn, họ cho anh có một vị hôn thê tên Pam. Tấm ảnh của Pam thực ra là ảnh một nữ nhân viên tình báo Anh.",
+      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Trong túi anh có hai bức thư tình của Pam, viết bằng giọng của một cô gái đang yêu.",
+      "mo_phong": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Có hóa đơn mua nhẫn đính hôn, và một lá thư của ngân hàng Lloyds nhắc anh trả khoản nợ thấu chi.",
+      "mo_phong": "a small open velvet jewellery box with a diamond engagement ring beside a folded paper bill on a wooden desk, 1940s, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Có cả cuống vé xem kịch ở London, hóa đơn câu lạc bộ, thư của người cha.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wartime_Opera-_Music_and_Entertainment_at_the_New_Theatre%2C_St_Martin%27s_Lane%2C_London%2C_England%2C_UK%2C_1943_D17176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Wartime Opera- Music and Entertainment at the New Theatre, St Martin's Lane, London, England, UK, 1943 D17176.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Wartime_Opera-_Music_and_Entertainment_at_the_New_Theatre,_St_Martin%27s_Lane,_London,_England,_UK,_1943_D17176.jpg)"
+      }
+     },
+     {
+      "text": "Những thứ lặt vặt ấy được tính toán kỹ: chúng cho thấy người này mới rời London vài ngày trước khi gặp nạn.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Wartime_Theatre-_Entertainment_in_London%2C_England%2C_UK%2C_August_1943_D16393.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Wartime Theatre- Entertainment in London, England, UK, August 1943 D16393.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Wartime_Theatre-_Entertainment_in_London,_England,_UK,_August_1943_D16393.jpg)"
+      }
+     },
+     {
+      "text": "Một người tưởng tượng, nhưng có đủ những rắc rối rất đời thường của một sĩ quan trẻ.",
+      "mo_phong": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people"
+     }
+    ]
+   },
+   {
+    "title": "Những bức thư mật",
+    "beats": [
+     {
+      "text": "Nhưng thứ quan trọng nhất nằm trong chiếc cặp da gắn vào người anh.",
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Đó là bức thư riêng của Trung tướng Archibald Nye, Phó Tổng Tham mưu trưởng Lục quân Anh, gửi tướng Harold Alexander ở Bắc Phi.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Royal_Navy_during_the_Second_World_War_A17979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Royal Navy during the Second World War A17979.jpg\" – Priest, L C (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_A17979.jpg)"
+      }
+     },
+     {
+      "text": "Bức thư viết như một cuộc trao đổi thân mật, nhưng để lộ rằng quân Đồng minh sẽ đổ bộ vào Hy Lạp.",
+      "mo_phong": "a rugged Greek coastline in summer with an old stone fortress on a hill, coastal artillery guns behind stone walls facing the sea, oil painting, no people",
+      "label": "Mục tiêu giả: Hy Lạp"
+     },
+     {
+      "text": "Còn Sicily, thư ngầm cho thấy, chỉ là mục tiêu nghi binh.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg/1920px-1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"1943 Army Orientation Course Newsmap of the Mediterranean Sea and North Africa.jpg\" – The Army Orientation Branch, Public domain (https://commons.wikimedia.org/wiki/File:1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg)"
+      }
+     },
+     {
+      "text": "Một bức thư khác của Đô đốc Mountbatten có câu đùa xin gửi ít cá mòi, như ngầm ám chỉ đảo Sardinia.",
+      "mo_phong": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Bên trong thư, họ còn đặt một sợi lông mi. Nếu ai mở thư ra đọc, sợi lông mi sẽ rơi mất.",
+      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+     }
+    ]
+   },
+   {
+    "title": "Chuyến đi của tàu ngầm Seraph",
+    "beats": [
+     {
+      "text": "Ngày 19 tháng 4 năm 1943, thi thể được đặt trong một ống thép đầy đá khô, đưa lên tàu ngầm HMS Seraph ở Scotland.",
+      "mo_phong": "a long steel cylinder canister lying in the narrow torpedo room of a 1940s submarine, wisps of cold white vapour, dim red light, oil painting, no people",
+      "label": "Tàu ngầm HMS Seraph"
+     },
+     {
+      "text": "Tàu ngầm do Trung úy Bill Jewell chỉ huy. Phần lớn thủy thủ không biết mình đang chở thứ gì.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/HMS_Seraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"HMS Seraph.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HMS_Seraph.jpg)"
+      }
+     },
+     {
+      "text": "Sau mười ngày hành trình, Seraph đến ngoài khơi Huelva.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/HMSM_Turbulent_FL20300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"HMSM Turbulent FL20300.jpg\" – Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:HMSM_Turbulent_FL20300.jpg)"
+      },
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Bốn giờ mười lăm phút sáng ngày 30 tháng 4, tàu ngầm nổi lên trong bóng tối.",
+      "mo_phong": "a small WWII submarine surfaced on a calm dark sea before dawn, faint lights of a distant Spanish coastal town on the horizon, a few tiny dark figures on the deck seen from far away, oil painting",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Vài sĩ quan mở ống thép, mặc áo phao cho Thiếu tá Martin, gắn chặt chiếc cặp vào người anh.",
+      "mo_phong": "a small WWII submarine surfaced on a calm dark sea before dawn, faint lights of a distant Spanish coastal town on the horizon, a few tiny dark figures on the deck seen from far away, oil painting"
+     },
+     {
+      "text": "Họ đọc một đoạn kinh cầu nguyện, rồi thả anh xuống biển. Sóng từ chân vịt tàu đẩy anh trôi dần về phía bờ.",
+      "mo_phong": "a small WWII submarine surfaced on a calm dark sea before dawn, faint lights of a distant Spanish coastal town on the horizon, a few tiny dark figures on the deck seen from far away, oil painting",
+      "am_thanh": [
+       "nuoc"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Bờ biển Huelva",
+    "beats": [
+     {
+      "text": "Khoảng chín giờ rưỡi sáng hôm ấy, một ngư dân địa phương nhìn thấy thi thể trôi trên mặt nước.",
+      "mo_phong": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing, seen from far away, a pale grey life jacket floating on the water nearby, oil painting",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Binh lính Tây Ban Nha đưa thi thể về Huelva. Bác sĩ kết luận: chết đuối trên biển.",
+      "mo_phong": "a lonely sandy beach in southern Spain at dawn, small wooden fishing boats pulled up on the sand, calm grey sea, pale sky, oil painting, no people"
+     },
+     {
+      "text": "Ngày 2 tháng 5, Thiếu tá William Martin được an táng tại nghĩa trang Huelva với đầy đủ nghi thức quân đội.",
+      "mo_phong": "a small military funeral in a Spanish cemetery in 1943 seen from far away, a coffin draped with a flag, a few figures in uniform standing still, white walls and cypress trees, oil painting"
+     },
+     {
+      "text": "Phía Anh cố tình tỏ ra sốt sắng, liên tục hỏi han về chiếc cặp, như thể nó chứa thứ cực kỳ quan trọng.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Whitehall_Canteen-_Eating_Out_in_Wartime_London%2C_1943_D12982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Whitehall Canteen- Eating Out in Wartime London, 1943 D12982.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Whitehall_Canteen-_Eating_Out_in_Wartime_London,_1943_D12982.jpg)"
+      }
+     },
+     {
+      "text": "Điệp viên Đức ở Huelva tìm mọi cách để được xem những bức thư ấy.",
+      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Cuối cùng, nội dung các bức thư được trao cho tình báo Đức, rồi được gửi thẳng về Berlin.",
+      "mo_phong": "a 1940s teleprinter machine printing a long paper tape in a dark wartime office, lamp light, oil painting, no people, no readable text",
+      "am_thanh": [
+       "dien_bao"
+      ]
+     },
+     {
+      "text": "Ngày 11 tháng 5, chiếc cặp được trả lại cho phía Anh. Kiểm tra cho thấy thư đã bị mở ra đọc, rồi gấp lại như cũ.",
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
+     }
+    ]
+   },
+   {
+    "title": "Hitler cắn câu",
+    "beats": [
+     {
+      "text": "Ở Berlin, các chuyên gia Đức tin rằng những bức thư là thật.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg/1920px-Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Adolf Hitler conferring with officers on the Eastern Front, March 1943.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front,_March_1943.jpg)"
+      }
+     },
+     {
+      "text": "Ngày 14 tháng 5, tình báo Anh giải mã được một bức điện của Đức, xác nhận mưu kế đã thành công.",
+      "mo_phong": "a 1940s teleprinter machine printing a long paper tape in a dark wartime office, lamp light, oil painting, no people, no readable text",
+      "am_thanh": [
+       "dien_bao"
+      ]
+     },
+     {
+      "text": "Churchill nhận được một bức điện ngắn: Mincemeat đã nuốt trọn cả cần câu, dây câu lẫn chì.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Prime_Minister_Winston_Churchill_Visits_the_USA%2C_May_1943_A16717.jpg/1920px-Prime_Minister_Winston_Churchill_Visits_the_USA%2C_May_1943_A16717.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Prime Minister Winston Churchill Visits the USA, May 1943 A16717.jpg\" – Royal Navy official photographer, Tomlin, H W (Lt), Public domain (https://commons.wikimedia.org/wiki/File:Prime_Minister_Winston_Churchill_Visits_the_USA,_May_1943_A16717.jpg)"
+      },
+      "label": "\"Nuốt trọn cả cần câu\""
+     },
+     {
+      "text": "Hitler ra lệnh phải giữ Hy Lạp, Sardinia và Corsica bằng mọi giá.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+      }
+     },
+     {
+      "text": "Sư đoàn Thiết giáp số 1 của Đức được điều từ Pháp sang tận Hy Lạp.",
+      "mo_phong": "a long military freight train carrying tanks under tarpaulins through a mountain valley in summer 1943, steam locomotive smoke, oil painting, no people",
+      "am_thanh": [
+       "tau_hoa"
+      ]
+     },
+     {
+      "text": "Lực lượng Đức ở Hy Lạp và vùng Balkan được tăng cường mạnh. Quân đồn trú trên đảo Sardinia cũng tăng gấp đôi.",
+      "mo_phong": "a rugged Greek coastline in summer with an old stone fortress on a hill, coastal artillery guns behind stone walls facing the sea, oil painting, no people"
+     },
+     {
+      "text": "Cuối tháng 7, Thống chế Rommel, một trong những tướng giỏi nhất của Đức, cũng được cử sang Hy Lạp.",
+      "mo_phong": "a rugged Greek coastline in summer with an old stone fortress on a hill, coastal artillery guns behind stone walls facing the sea, oil painting, no people"
+     }
+    ]
+   },
+   {
+    "title": "Đổ bộ Sicily",
+    "beats": [
+     {
+      "text": "Ngày 10 tháng 7 năm 1943, quân Đồng minh đổ bộ lên Sicily.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily%2C_10_July_1943._A17921.jpg/1920px-Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily%2C_10_July_1943._A17921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Semaphore instructions being signalled to landing craft during the invasion of Sicily, 10 July 1943. A17921.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily,_10_July_1943._A17921.jpg)"
+      },
+      "label": "Sicily · 10/7/1943",
+      "am_thanh": [
+       "bien"
+      ]
+     },
+     {
+      "text": "Đó là một trong những cuộc đổ bộ lớn nhất cuộc chiến, với hàng nghìn tàu thuyền.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg/1920px-The_Royal_Navy_during_the_Second_World_War-_Operation_Husky%2C_Sicily%2C_July_1943_A17917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17917.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War-_Operation_Husky,_Sicily,_July_1943_A17917.jpg)"
+      }
+     },
+     {
+      "text": "Thương vong ban đầu thấp hơn dự kiến rất nhiều.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/British_troops_wade_ashore_during_the_invasion_of_Sicily%2C_10_July_1943._NA4275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg\" – No 2 Army Film & Photographic Unit, Stubbs (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:British_troops_wade_ashore_during_the_invasion_of_Sicily,_10_July_1943._NA4275.jpg)"
+      }
+     },
+     {
+      "text": "Ngay cả khi quân Đồng minh đã lên bờ, nhiều chỉ huy Đức vẫn nghĩ đó chỉ là nghi binh, và mục tiêu thật vẫn là Hy Lạp.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/The_Invasion_of_Sicily_July_1943_NA4263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"The Invasion of Sicily July 1943 NA4263.jpg\" – Chetwyn (Lt), No 2 Army Film & Photographic Unit, Public domain (https://commons.wikimedia.org/wiki/File:The_Invasion_of_Sicily_July_1943_NA4263.jpg)"
+      }
+     },
+     {
+      "text": "Sau ba mươi tám ngày, Sicily thất thủ, sớm hơn nhiều so với kế hoạch.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SC_184868_-_An_American_infantry_Company_enters_the_town_of_Enna%2C_Sicily._19_July%2C_1943._%2852272437251%29.jpg/1920px-SC_184868_-_An_American_infantry_Company_enters_the_town_of_Enna%2C_Sicily._19_July%2C_1943._%2852272437251%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"SC 184868 - An American infantry Company enters the town of Enna, Sicily. 19 July, 1943. (52272437251).jpg\" – Signal Corps Archive from United States, Public domain (https://commons.wikimedia.org/wiki/File:SC_184868_-_An_American_infantry_Company_enters_the_town_of_Enna,_Sicily._19_July,_1943._(52272437251).jpg)"
+      }
+     },
+     {
+      "text": "Các nhà sử học cho rằng Chiến dịch Mincemeat đã góp phần quan trọng vào thắng lợi ấy, cứu sống rất nhiều binh lính.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/SC_179429_-_American_troops_in_the_suburbs%2C_west_of_Palermo%2C_Sicily._22_July%2C_1943._%2852514221662%29.jpg/1920px-SC_179429_-_American_troops_in_the_suburbs%2C_west_of_Palermo%2C_Sicily._22_July%2C_1943._%2852514221662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"SC 179429 - American troops in the suburbs, west of Palermo, Sicily. 22 July, 1943. (52514221662).jpg\" – Signal Corps Archive from United States, Public domain (https://commons.wikimedia.org/wiki/File:SC_179429_-_American_troops_in_the_suburbs,_west_of_Palermo,_Sicily._22_July,_1943._(52514221662).jpg)"
+      }
+     }
+    ]
+   },
+   {
+    "title": "Tên thật trên bia mộ",
+    "beats": [
+     {
+      "text": "Sau chiến tranh, Ewen Montagu viết sách kể lại chiến dịch, đặt tên là Người chưa từng tồn tại. Cuốn sách sau đó được dựng thành phim.",
+      "image": {
+       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Woodstock_typewriter%2C_1940s.jpg/1920px-Woodstock_typewriter%2C_1940s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "credit": "\"Woodstock typewriter, 1940s.jpg\" – Cbaile19, CC0 (https://commons.wikimedia.org/wiki/File:Woodstock_typewriter,_1940s.jpg)"
+      }
+     },
+     {
+      "text": "Nhưng suốt nhiều chục năm, danh tính thật của người đàn ông dưới mộ vẫn được giữ kín.",
+      "mo_phong": "a quiet sunlit Spanish cemetery with white walls and tall cypress trees, a simple white headstone in the foreground, oil painting, no people, no text"
+     },
+     {
+      "text": "Năm 1996, một nhà nghiên cứu tìm thấy hồ sơ lưu trữ cho thấy đó là Glyndwr Michael.",
+      "mo_phong": "a dim 1940s office at night, a desk lamp lighting an opened envelope, tweezers, a magnifying glass and a camera on a tripod pointed at a letter, oil painting, no people, no readable text"
+     },
+     {
+      "text": "Cũng có người đưa ra giả thuyết khác về danh tính của thi thể, nhưng phần lớn các nhà sử học vẫn tin đó là Glyndwr Michael.",
+      "mo_phong": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people"
+     },
+     {
+      "text": "Năm 1997, bia mộ ở Huelva được khắc thêm một dòng chữ: Glyndwr Michael đã phục vụ với tên Thiếu tá William Martin.",
+      "mo_phong": "a quiet sunlit Spanish cemetery with white walls and tall cypress trees, a simple white headstone in the foreground, oil painting, no people, no text",
+      "label": "Huelva · bia mộ khắc thêm năm 1997"
+     }
+    ]
+   },
+   {
+    "title": "Lời kết",
+    "beats": [
+     {
+      "text": "Một người đàn ông vô gia cư, lúc sống không ai biết tên.",
+      "mo_phong": "a foggy London street in 1943 with sandbags piled against stone government buildings, a red telephone box and a double decker bus, oil painting, no people"
+     },
+     {
+      "text": "Lúc mất, anh lại góp phần thay đổi một trong những trận đánh lớn nhất Thế chiến thứ hai.",
+      "image": {
+       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/British_troops_wade_ashore_during_the_invasion_of_Sicily%2C_10_July_1943._NA4275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+       "credit": "\"British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg\" – No 2 Army Film & Photographic Unit, Stubbs (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:British_troops_wade_ashore_during_the_invasion_of_Sicily,_10_July_1943._NA4275.jpg)"
+      }
+     },
+     {
+      "text": "Hơn năm mươi năm sau, tên thật của anh mới được khắc lên bia mộ.",
+      "mo_phong": "a quiet sunlit Spanish cemetery with white walls and tall cypress trees, a simple white headstone in the foreground, oil painting, no people, no text"
+     },
+     {
+      "text": "Theo bạn, điều gì trong túi Thiếu tá Martin đã khiến người Đức tin nhất? Hãy chia sẻ ở phần bình luận.",
+      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+     }
+    ],
+    "loai_canh": "ket"
+   }
+  ]
+ },
+ "ngan": {
+  "hook_text": "Một xác chết\n**lừa Hitler**",
+  "hooks": [
+   "Năm 1943, tình báo Anh đã lừa được Hitler, bằng một người đã khuất và một bức thư giả.",
+   "Một sĩ quan chưa từng tồn tại, một bức thư giả, và Hitler đã điều cả một sư đoàn thiết giáp đi sai hướng.",
+   "Mọi thứ trong túi người đàn ông này đều là giả, kể cả tấm ảnh người yêu. Và nó đã lừa được Hitler."
+  ],
+  "caption": "Năm 1943, tình báo Anh lừa được Hitler bằng một người đã khuất và một bức thư giả 🎩 Mọi thứ trong túi \"Thiếu tá Martin\" đều được dựng lên, kể cả tấm ảnh người yêu. Theo bạn, chi tiết nào khiến người Đức tin?",
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Năm 1943, tình báo Anh đã lừa được Hitler, bằng một người đã khuất và một bức thư giả.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg/1920px-Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front%2C_March_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Adolf Hitler conferring with officers on the Eastern Front, March 1943.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_conferring_with_officers_on_the_Eastern_Front,_March_1943.jpg)"
+     },
+     {
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
+     }
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Mọi thứ trong túi người ấy đều được dựng lên… kể cả tấm ảnh người yêu.",
+    "images": [
+     {
+      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "doi_canh": true,
+    "text": "Quân Đồng minh định đổ bộ lên đảo Sicily. Nhưng chỉ cần nhìn bản đồ, ai cũng đoán được điều đó.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg/1920px-1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"1943 Army Orientation Course Newsmap of the Mediterranean Sea and North Africa.jpg\" – The Army Orientation Branch, Public domain (https://commons.wikimedia.org/wiki/File:1943_Army_Orientation_Course_Newsmap_of_the_Mediterranean_Sea_and_North_Africa.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Staff_officers_plotting_troop_positions_during_the_invasion_of_Sicily_on_a_wall_map_in_the_underground_operations_room_at_Malta%2C_9_July_1943._NA4094.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Staff officers plotting troop positions during the invasion of Sicily on a wall map in the underground operations room at Malta, 9 July 1943. NA4094.jpg\" – No 2 Army Film & Photographic Unit, Keating G (Major), Public domain (https://commons.wikimedia.org/wiki/File:Staff_officers_plotting_troop_positions_during_the_invasion_of_Sicily_on_a_wall_map_in_the_underground_operations_room_at_Malta,_9_July_1943._NA4094.jpg)"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Mục tiêu thật: **Sicily**",
+     "sub": "ai nhìn bản đồ cũng đoán ra"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Họ dùng thi thể của Glyndwr Michael, một người vô gia cư xứ Wales, và tạo cho anh danh tính mới: Thiếu tá William Martin.",
+    "images": [
+     {
+      "mo_phong": "a quiet cold mortuary room in 1940s London, white tiled walls, a single steel door of a refrigerated cabinet, a white sheet folded on a table, dim blue light, oil painting, no people"
+     },
+     {
+      "mo_phong": "a British Royal Marines officer's khaki uniform jacket and peaked cap laid neatly on a wooden table beside a black leather briefcase, 1940s office, lamp light, oil painting, no people"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Thiếu tá **William Martin**",
+     "sub": "một sĩ quan chưa từng tồn tại"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Trong túi anh có ảnh và thư tình của vị hôn thê, hóa đơn nhẫn đính hôn, thư đòi nợ của ngân hàng, cả cuống vé xem kịch.",
+    "images": [
+     {
+      "mo_phong": "a handwritten love letter on pale blue paper beside an old fountain pen and a pressed flower, 1940s, warm lamp light, oil painting, no people, no readable text"
+     },
+     {
+      "mo_phong": "a small open velvet jewellery box with a diamond engagement ring beside a folded paper bill on a wooden desk, 1940s, oil painting, no people, no readable text"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wartime_Opera-_Music_and_Entertainment_at_the_New_Theatre%2C_St_Martin%27s_Lane%2C_London%2C_England%2C_UK%2C_1943_D17176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Wartime Opera- Music and Entertainment at the New Theatre, St Martin's Lane, London, England, UK, 1943 D17176.jpg\" – Ministry of Information Photo Division Photographer, Public domain (https://commons.wikimedia.org/wiki/File:Wartime_Opera-_Music_and_Entertainment_at_the_New_Theatre,_St_Martin%27s_Lane,_London,_England,_UK,_1943_D17176.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "lat_giay"
+    ],
+    "the": {
+     "type": "explain",
+     "title": "Trong túi **Thiếu tá Martin**",
+     "bullets": [
+      "Ảnh và thư tình của **Pam**",
+      "Hóa đơn **nhẫn đính hôn**",
+      "Cuống **vé xem kịch**"
+     ]
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Và trong chiếc cặp da là một bức thư mật của một vị tướng: quân Đồng minh sẽ đánh Hy Lạp.",
+    "images": [
+     {
+      "mo_phong": "a black leather briefcase on a desk in a dim 1940s office, two sealed envelopes with red wax seals beside it, a desk lamp, oil painting, no people, no readable text"
+     },
+     {
+      "mo_phong": "a rugged Greek coastline in summer with an old stone fortress on a hill, coastal artillery guns behind stone walls facing the sea, oil painting, no people"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "Thư mật: đánh **Hy Lạp**",
+     "sub": "Sicily chỉ là nghi binh"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "doi_canh": true,
+    "text": "Rạng sáng 30 tháng 4 năm 1943, tàu ngầm HMS Seraph nổi lên ngoài khơi Tây Ban Nha và thả anh xuống biển.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg/1920px-The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg\" – Pelman, L (Lt), Royal Navy official photographer, Public domain (https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg)"
+     },
+     {
+      "mo_phong": "a small WWII submarine surfaced on a calm dark sea before dawn, faint lights of a distant Spanish coastal town on the horizon, a few tiny dark figures on the deck seen from far away, oil painting"
+     }
+    ],
+    "am_thanh": [
+     "bien"
+    ],
+    "the": {
+     "type": "text",
+     "text": "**30/4/1943**",
+     "sub": "tàu ngầm HMS Seraph, ngoài khơi Huelva"
+    }
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Một ngư dân tìm thấy thi thể. Những bức thư được bí mật mở ra, rồi gửi thẳng về Berlin.",
+    "images": [
+     {
+      "mo_phong": "a small wooden fishing boat on a calm sea at dawn off a sandy Spanish coast, one fisherman rowing, seen from far away, a pale grey life jacket floating on the water nearby, oil painting"
+     },
+     {
+      "mo_phong": "a 1940s teleprinter machine printing a long paper tape in a dark wartime office, lamp light, oil painting, no people, no readable text"
+     }
+    ],
+    "am_thanh": [
+     "dien_bao"
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Và Hitler tin. Quân Đức được điều sang Hy Lạp, cả Sư đoàn Thiết giáp số 1 từ tận nước Pháp.",
+    "images": [
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"Adolf Hitler przemawia do kandytatów na oficerów (cropped).jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:Adolf_Hitler_przemawia_do_kandytat%C3%B3w_na_oficer%C3%B3w_(cropped).jpg)"
+     },
+     {
+      "mo_phong": "a long military freight train carrying tanks under tarpaulins through a mountain valley in summer 1943, steam locomotive smoke, oil painting, no people"
+     }
+    ],
+    "am_thanh": [
+     "tau_hoa"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Hitler **tin**",
+     "sub": "điều quân sang Hy Lạp"
+    }
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Tháng 7 năm 1943, Đồng minh đổ bộ Sicily, với ít kháng cự hơn dự kiến rất nhiều.",
+    "images": [
+     {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily%2C_10_July_1943._A17921.jpg/1920px-Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily%2C_10_July_1943._A17921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "\"Semaphore instructions being signalled to landing craft during the invasion of Sicily, 10 July 1943. A17921.jpg\" – Claude Henry Parnall, Public domain (https://commons.wikimedia.org/wiki/File:Semaphore_instructions_being_signalled_to_landing_craft_during_the_invasion_of_Sicily,_10_July_1943._A17921.jpg)"
+     },
+     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/British_troops_wade_ashore_during_the_invasion_of_Sicily%2C_10_July_1943._NA4275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "\"British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg\" – No 2 Army Film & Photographic Unit, Stubbs (Sgt), Public domain (https://commons.wikimedia.org/wiki/File:British_troops_wade_ashore_during_the_invasion_of_Sicily,_10_July_1943._NA4275.jpg)"
+     }
+    ],
+    "am_thanh": [
+     "bien"
+    ],
+    "the": {
+     "type": "text",
+     "text": "Đổ bộ **Sicily**",
+     "sub": "tháng 7/1943, ít thương vong hơn dự kiến"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Hơn năm mươi năm sau, bia mộ của Thiếu tá Martin ở Huelva mới được khắc thêm tên thật của anh: Glyndwr Michael.",
+    "images": [
+     {
+      "mo_phong": "a quiet sunlit Spanish cemetery with white walls and tall cypress trees, a simple white headstone in the foreground, oil painting, no people, no text"
+     }
+    ],
+    "the": {
+     "type": "text",
+     "text": "**Glyndwr Michael**",
+     "sub": "tên thật, khắc lên bia mộ năm 1997"
+    }
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Theo bạn, chi tiết nào đã khiến người Đức tin?",
+    "images": [
+     {
+      "mo_phong": "personal belongings laid out on a dark wooden desk: an old leather wallet, two small torn theatre ticket stubs, folded letters, a set of keys, a few coins, a small framed black and white snapshot, 1940s, oil painting, no people, no readable text"
+     }
+    ],
+    "the": {
+     "type": "outro",
+     "recap": "Chi tiết nào khiến **người Đức tin**?"
+    }
+   }
+  ],
+  "anh_bia": [
+   {
+    "anh": "0:0",
+    "nhan": "Chuyện có thật · 1943",
+    "to": "Một xác chết\n**lừa Hitler**",
+    "nho": "bằng **một bức thư giả**"
+   },
+   {
+    "anh": "3:1",
+    "nhan": "Chiến dịch Mincemeat",
+    "to": "Người **chưa từng**\ntồn tại",
+    "nho": "Thiếu tá **William Martin**"
+   },
+   {
+    "anh": "8:0",
+    "nhan": "Thế chiến thứ hai",
+    "to": "Hitler đã\n**tin**",
+    "nho": "và điều quân sang **Hy Lạp**"
+   }
+  ]
+ }
+}

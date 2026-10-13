@@ -1,0 +1,4 @@
+Gửi sang Kaggle…
+ 0.5 phút: .running
+13.3 phút: .complete
+Nhận về: []

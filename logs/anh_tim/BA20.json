@@ -1,0 +1,960 @@
+[
+ {
+  "slot": "B01",
+  "beats": null,
+  "mo_ta": "tàu Baychimo",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Baychimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1260,
+    "h": 814,
+    "credit": "\"Baychimo.jpg\" – Aldus Books London, Public domain (https://commons.wikimedia.org/wiki/File:Baychimo.jpg)",
+    "text": "File:Baychimo.jpg Cargoship Baychimo somewhere in Canada."
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg/1920px-Le_%22Baychimo%22_%28CNews%29_-_btv1b53253629g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8790,
+    "h": 6425,
+    "credit": "\"Le \"Baychimo\" (CNews) - btv1b53253629g.jpg\" – Central News (Agence photographique). Agence photographique pour le document reproduit (commanditaire)\n\nAgence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Le_%22Baychimo%22_(CNews)_-_btv1b53253629g.jpg)",
+    "text": "File:Le \"Baychimo\" (CNews) - btv1b53253629g.jpg Sujet : Navires -- Canada\nVaisseaux fantômes\nRéférence bibliographique : Rol, 161915\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCou"
+   }
+  ]
+ },
+ {
+  "slot": "B02",
+  "beats": null,
+  "mo_ta": "Doré Rime of the Ancient Mariner (tàu ma, băng)",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/After_the_Shipwreck_-_Design_for_an_Illustration_of_Coleridge%27s_The_Rime_of_the_Ancient_Mariner%2C_by_Gustave_Dor%C3%A9_%28Getty_109D0X%29.jpg/1920px-After_the_Shipwreck_-_Design_for_an_Illustration_of_Coleridge%27s_The_Rime_of_the_Ancient_Mariner%2C_by_Gustave_Dor%C3%A9_%28Getty_109D0X%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5501,
+    "h": 6789,
+    "credit": "\"After the Shipwreck - Design for an Illustration of Coleridge's The Rime of the Ancient Mariner, by Gustave Doré (Getty 109D0X).jpg\" – Gustave Doré, CC0 (https://commons.wikimedia.org/wiki/File:After_the_Shipwreck_-_Design_for_an_Illustration_of_Coleridge%27s_The_Rime_of_the_Ancient_Mariner,_by_Gustave_Dor%C3%A9_(Getty_109D0X).jpg)",
+    "text": "File:After the Shipwreck - Design for an Illustration of Coleridge's The Rime of the Ancient Mariner, by Gustave Doré (Getty 109D0X).jpg "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg/1920px-Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2400,
+    "h": 3128,
+    "credit": "\"Rime of the Ancient Mariner-Albatross-Dore.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg)",
+    "text": "File:Rime of the Ancient Mariner-Albatross-Dore.jpg Engraving by Gustave Doré for an 1876 edition of the Rime of the Ancient Mariner by Samuel Coleridge.  Labeled \"The Albatross,\" it depicts 17 sailor"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/The_rime_of_the_ancient_Mariner_-_Coleridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 708,
+    "h": 804,
+    "credit": "\"The rime of the ancient Mariner - Coleridge.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:The_rime_of_the_ancient_Mariner_-_Coleridge.jpg)",
+    "text": "File:The rime of the ancient Mariner - Coleridge.jpg "
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Dor%C3%A9%2C_Navire_pris_dans_les_glaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 777,
+    "h": 1000,
+    "credit": "\"Doré, Navire pris dans les glaces.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Dor%C3%A9,_Navire_pris_dans_les_glaces.jpg)",
+    "text": "File:Doré, Navire pris dans les glaces.jpg Projected illustration for Samuel Coleridge's \"The Rime of the Ancient Mariner\"."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Der_Alte_Matrose_b_35.jpg/1920px-Der_Alte_Matrose_b_35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2111,
+    "h": 2858,
+    "credit": "\"Der Alte Matrose b 35.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_35.jpg)",
+    "text": "File:Der Alte Matrose b 35.jpg Und wie die finstre schwarze Nacht eil’ ich landaus, landein (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Der_Alte_Matrose_b_34.jpg/1920px-Der_Alte_Matrose_b_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2126,
+    "h": 2843,
+    "credit": "\"Der Alte Matrose b 34.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_34.jpg)",
+    "text": "File:Der Alte Matrose b 34.jpg Entsünd’ge mich! entsünd’ge mich! trat ich den Siedler an (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Der_Alte_Matrose_b_37.jpg/1920px-Der_Alte_Matrose_b_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2105,
+    "h": 2858,
+    "credit": "\"Der Alte Matrose b 37.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_37.jpg)",
+    "text": "File:Der Alte Matrose b 37.jpg Und horch! im Garten singt die Braut und ihre Mädchen all’ (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Der_Alte_Matrose_b_04.jpg/1920px-Der_Alte_Matrose_b_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2158,
+    "h": 2873,
+    "credit": "\"Der Alte Matrose b 04.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_04.jpg)",
+    "text": "File:Der Alte Matrose b 04.jpg Die Braut betritt den Hochzeitssaal (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Der_Alte_Matrose_b_11.jpg/1920px-Der_Alte_Matrose_b_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2152,
+    "h": 2863,
+    "credit": "\"Der Alte Matrose b 11.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_11.jpg)",
+    "text": "File:Der Alte Matrose b 11.jpg Wasser, Wasser überall! nur was zu trinken schafft! (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Der_Alte_Matrose_b_05.jpg/1920px-Der_Alte_Matrose_b_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2147,
+    "h": 2868,
+    "credit": "\"Der Alte Matrose b 05.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_05.jpg)",
+    "text": "File:Der Alte Matrose b 05.jpg Des Sturmwinds Schwingen trieben uns fern nach des Südens Flut (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Der_Alte_Matrose_b_26.jpg/1920px-Der_Alte_Matrose_b_26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2152,
+    "h": 2853,
+    "credit": "\"Der Alte Matrose b 26.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_26.jpg)",
+    "text": "File:Der Alte Matrose b 26.jpg Da hört’ ich in den Lüften hoch zwei Stimmen sich erheben  (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Der_Alte_Matrose_b_07.jpg/1920px-Der_Alte_Matrose_b_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2137,
+    "h": 2889,
+    "credit": "\"Der Alte Matrose b 07.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_07.jpg)",
+    "text": "File:Der Alte Matrose b 07.jpg Das Eis war hier, das Eis war dort, das Eis war überall (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Der_Alte_Matrose_b_28.jpg/1920px-Der_Alte_Matrose_b_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2142,
+    "h": 2852,
+    "credit": "\"Der Alte Matrose b 28.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_28.jpg)",
+    "text": "File:Der Alte Matrose b 28.jpg Und auf der Bucht lag Mondenschein und auch des Mondes Schatten (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Der_Alte_Matrose_b_30.jpg/1920px-Der_Alte_Matrose_b_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2131,
+    "h": 2874,
+    "credit": "\"Der Alte Matrose b 30.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Der_Alte_Matrose_b_30.jpg)",
+    "text": "File:Der Alte Matrose b 30.jpg Am Boden flach lag jeder Leib – helleuchtend standen Seraphim (Beschreibung lt. Quelle)"
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Dore-I_watched_the_Water-Snakes-Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 990,
+    "h": 1200,
+    "credit": "\"Dore-I watched the Water-Snakes-Detail.jpg\" – Gustave Doré, Public domain (https://commons.wikimedia.org/wiki/File:Dore-I_watched_the_Water-Snakes-Detail.jpg)",
+    "text": "File:Dore-I watched the Water-Snakes-Detail.jpg Detail of engraving by Gustave Doré for an 1876 edition of Samuel Taylor Coleridge's The Rime of the Ancient Mariner. Captioned \"I Watched the Water-Sna"
+   }
+  ]
+ },
+ {
+  "slot": "B03",
+  "beats": null,
+  "mo_ta": "Friedrich Sea of Ice, tranh biển băng",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1030,
+    "h": 775,
+    "credit": "\"Caspar David Friedrich - The Sea of Ice - WGA8270.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Sea_of_Ice_-_WGA8270.jpg)",
+    "text": "File:Caspar David Friedrich - The Sea of Ice - WGA8270.jpg "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Friedrich%2C_Caspar_David_-_Eismeer.jpg/1920px-Friedrich%2C_Caspar_David_-_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 1552,
+    "credit": "\"Friedrich, Caspar David - Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Eismeer.jpg)",
+    "text": "File:Friedrich, Caspar David - Eismeer.jpg Seine frühere Bezeichnung \"Die gescheiterte Hoffnung\" erhielt das Bild von dem Schiff gleichen Namens auf einer früheren Fassung des Bildes, die heute verlor"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg/1920px-Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3176,
+    "h": 2375,
+    "credit": "\"Caspar David Friedrich - Das Eismeer - Hamburger Kunsthalle - 02.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg)",
+    "text": "File:Caspar David Friedrich - Das Eismeer - Hamburger Kunsthalle - 02.jpg Seine frühere Bezeichnung \"Die gescheiterte Hoffnung\" erhielt das Bild von dem Schiff gleichen Namens auf einer früheren Fassu"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Das_Eismeer_%28Caspar_David_Friedrich%29-WUS03283.jpg/1920px-Das_Eismeer_%28Caspar_David_Friedrich%29-WUS03283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5209,
+    "h": 3473,
+    "credit": "\"Das Eismeer (Caspar David Friedrich)-WUS03283.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Das_Eismeer_(Caspar_David_Friedrich)-WUS03283.jpg)",
+    "text": "File:Das Eismeer (Caspar David Friedrich)-WUS03283.jpg "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Caspar_David_Friedrich_ausschnitt-eisschollen.jpg/1920px-Caspar_David_Friedrich_ausschnitt-eisschollen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1920,
+    "credit": "\"Caspar David Friedrich ausschnitt-eisschollen.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_ausschnitt-eisschollen.jpg)",
+    "text": "File:Caspar David Friedrich ausschnitt-eisschollen.jpg Detail aus ‚Das Eismeer‘"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Das_Eismeer_%28Caspar_David_Friedrich%29-WUS03281.jpg/1920px-Das_Eismeer_%28Caspar_David_Friedrich%29-WUS03281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4286,
+    "h": 3517,
+    "credit": "\"Das Eismeer (Caspar David Friedrich)-WUS03281.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Das_Eismeer_(Caspar_David_Friedrich)-WUS03281.jpg)",
+    "text": "File:Das Eismeer (Caspar David Friedrich)-WUS03281.jpg "
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Caspar_David_Friedrich_ausschnitt-eisberg.jpg/1920px-Caspar_David_Friedrich_ausschnitt-eisberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1970,
+    "h": 1536,
+    "credit": "\"Caspar David Friedrich ausschnitt-eisberg.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_ausschnitt-eisberg.jpg)",
+    "text": "File:Caspar David Friedrich ausschnitt-eisberg.jpg Detail aus dem Gemälde das Eismeer"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 850,
+    "h": 1126,
+    "credit": "\"Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wreck_in_the_Sea_of_Ice_-_WGA8233.jpg)",
+    "text": "File:Caspar David Friedrich - Wreck in the Sea of Ice - WGA8233.jpg "
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Caspar_David_Friedrich_-_Das_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1832,
+    "h": 1400,
+    "credit": "\"Caspar David Friedrich - Das Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Das_Eismeer.jpg)",
+    "text": "File:Caspar David Friedrich - Das Eismeer.jpg "
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle.jpg/1920px-Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2769,
+    "h": 2152,
+    "credit": "\"Caspar David Friedrich - Das Eismeer - Hamburger Kunsthalle.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle.jpg)",
+    "text": "File:Caspar David Friedrich - Das Eismeer - Hamburger Kunsthalle.jpg "
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Caspar_David_Friedrich_-_Das_Eismeer_-_diagonale.jpg/1920px-Caspar_David_Friedrich_-_Das_Eismeer_-_diagonale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3176,
+    "h": 2375,
+    "credit": "\"Caspar David Friedrich - Das Eismeer - diagonale.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Das_Eismeer_-_diagonale.jpg)",
+    "text": "File:Caspar David Friedrich - Das Eismeer - diagonale.jpg Bildaufbau: Diagonale durch aus Eisblöcken gestaltete Pfeile."
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Caspar_David_Friedrich_%E2%80%93_Das_Eismeer.jpg/1920px-Caspar_David_Friedrich_%E2%80%93_Das_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3830,
+    "h": 2902,
+    "credit": "\"Caspar David Friedrich – Das Eismeer.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_%E2%80%93_Das_Eismeer.jpg)",
+    "text": "File:Caspar David Friedrich – Das Eismeer.jpg "
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Hamburg%2C_Kunsthalle%2C_Caspar_David_Friedrich%2C_das_Eismeer.jpg/1920px-Hamburg%2C_Kunsthalle%2C_Caspar_David_Friedrich%2C_das_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3312,
+    "h": 2500,
+    "credit": "\"Hamburg, Kunsthalle, Caspar David Friedrich, das Eismeer.jpg\" – Dguendel, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hamburg,_Kunsthalle,_Caspar_David_Friedrich,_das_Eismeer.jpg)",
+    "text": "File:Hamburg, Kunsthalle, Caspar David Friedrich, das Eismeer.jpg Hamburg, Kunsthalle, Caspar David Friedrich, the sea of ice, 1823-24"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Caspar_David_Friedrich_044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1576,
+    "h": 2075,
+    "credit": "\"Caspar David Friedrich 044.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_044.jpg)",
+    "text": "File:Caspar David Friedrich 044.jpg "
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Caspar_David_Friedrich_-_Schiff_im_Eismeer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1043,
+    "h": 1400,
+    "credit": "\"Caspar David Friedrich - Schiff im Eismeer.jpg\" – Attributed to Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Schiff_im_Eismeer.jpg)",
+    "text": "File:Caspar David Friedrich - Schiff im Eismeer.jpg "
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Detail_Eismeer_CD_Friedrich.JPG/1920px-Detail_Eismeer_CD_Friedrich.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1920,
+    "credit": "\"Detail Eismeer CD Friedrich.JPG\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Detail_Eismeer_CD_Friedrich.JPG)",
+    "text": "File:Detail Eismeer CD Friedrich.JPG Detail aus dem Gemälde Eismeer"
+   }
+  ]
+ },
+ {
+  "slot": "B04",
+  "beats": null,
+  "mo_ta": "tranh tàu ma Flying Dutchman",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Albert_Pinkham_Ryder_-_Flying_Dutchman_-_Smithsonian.jpg/1920px-Albert_Pinkham_Ryder_-_Flying_Dutchman_-_Smithsonian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4000,
+    "h": 3256,
+    "credit": "\"Albert Pinkham Ryder - Flying Dutchman - Smithsonian.jpg\" – Albert Pinkham Ryder, Public domain (https://commons.wikimedia.org/wiki/File:Albert_Pinkham_Ryder_-_Flying_Dutchman_-_Smithsonian.jpg)",
+    "text": "File:Albert Pinkham Ryder - Flying Dutchman - Smithsonian.jpg "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Der_vliegender_Holl%C3%A4nder.jpg/1920px-Der_vliegender_Holl%C3%A4nder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2731,
+    "h": 2240,
+    "credit": "\"Der vliegender Holländer.jpg\" – Albert Pinkham Ryder, Public domain (https://commons.wikimedia.org/wiki/File:Der_vliegender_Holl%C3%A4nder.jpg)",
+    "text": "File:Der vliegender Holländer.jpg "
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Theodor_Reichmann_in_%22The_Flying_Dutchman.%22.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1170,
+    "h": 1717,
+    "credit": "\"Theodor Reichmann in \"The Flying Dutchman.\".png\" – Staff of The Musical Courier, Public domain (https://commons.wikimedia.org/wiki/File:Theodor_Reichmann_in_%22The_Flying_Dutchman.%22.png)",
+    "text": "File:Theodor Reichmann in \"The Flying Dutchman.\".png German baritone Theodore Reichman in the title role of Wagner's The Flying Dutchman at the Metropolitan Opera in 1890."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gehrts_-_Flying_Dutchman_-_1887.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 747,
+    "h": 1201,
+    "credit": "\"Gehrts - Flying Dutchman - 1887.jpg\" – Johann Gehrts (1855-1921), Public domain (https://commons.wikimedia.org/wiki/File:Gehrts_-_Flying_Dutchman_-_1887.jpg)",
+    "text": "File:Gehrts - Flying Dutchman - 1887.jpg Boarding the \"Flying Dutchman\"."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flying_Dutchman_Prop_at_Castaway_Cay.jpg/1920px-Flying_Dutchman_Prop_at_Castaway_Cay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2101,
+    "h": 1240,
+    "credit": "\"Flying Dutchman Prop at Castaway Cay.jpg\" – EmbraerSkyPilot, Public domain (https://commons.wikimedia.org/wiki/File:Flying_Dutchman_Prop_at_Castaway_Cay.jpg)",
+    "text": "File:Flying Dutchman Prop at Castaway Cay.jpg The Flying Dutchman prop from the Disney movies Pirates of the Caribbean Dead Man's Chest and At World's End."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flying_Dutchman_at_Castaway_Cay.JPG/1920px-Flying_Dutchman_at_Castaway_Cay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Flying Dutchman at Castaway Cay.JPG\" – EmbraerSkyPilot, Public domain (https://commons.wikimedia.org/wiki/File:Flying_Dutchman_at_Castaway_Cay.JPG)",
+    "text": "File:Flying Dutchman at Castaway Cay.JPG The Flying Dutchman prop from the Disney movies Pirates of the Caribbean Dead Man's Chest and At World's End, and to the left, the Disney Wonder."
+   }
+  ]
+ },
+ {
+  "slot": "B05",
+  "beats": null,
+  "mo_ta": "Bắc Cực băng NOAA/NASA",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Arctic_Sea_Ice_Slowly_Grows_Near_Svalbard_%28CIRA_2024-12-18%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1080,
+    "credit": "\"Arctic Sea Ice Slowly Grows Near Svalbard (CIRA 2024-12-18).png\" – JPSS imagery: CSU/CIRA & NOAA/NESDIS, Public domain (https://commons.wikimedia.org/wiki/File:Arctic_Sea_Ice_Slowly_Grows_Near_Svalbard_(CIRA_2024-12-18).png)",
+    "text": "File:Arctic Sea Ice Slowly Grows Near Svalbard (CIRA 2024-12-18).png Svalbard observes sea ice in the Arctic slowly grow towards its shores."
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Arctic_Sea_Ice_Extent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1259,
+    "h": 1500,
+    "credit": "\"Arctic Sea Ice Extent.png\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Arctic_Sea_Ice_Extent.png)",
+    "text": "File:Arctic Sea Ice Extent.png "
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/2016_Arctic_Sea_Ice_Ties_for_Second_Lowest_Extent_on_Record_%28NESDIS_2016-09-15%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1080,
+    "credit": "\"2016 Arctic Sea Ice Ties for Second Lowest Extent on Record (NESDIS 2016-09-15).png\" – NOAA, Public domain (https://commons.wikimedia.org/wiki/File:2016_Arctic_Sea_Ice_Ties_for_Second_Lowest_Extent_on_Record_(NESDIS_2016-09-15).png)",
+    "text": "File:2016 Arctic Sea Ice Ties for Second Lowest Extent on Record (NESDIS 2016-09-15).png On September 10, 2016, Arctic sea ice extent shrank to 4.14 million square kilometers (1.60 million square mile"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/2018_Arctic_Sea_Ice_Ties_for_Sixth_Lowest_Extent_On_Record_%28NESDIS_2018-10-01%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1080,
+    "credit": "\"2018 Arctic Sea Ice Ties for Sixth Lowest Extent On Record (NESDIS 2018-10-01).png\" – NOAA, Public domain (https://commons.wikimedia.org/wiki/File:2018_Arctic_Sea_Ice_Ties_for_Sixth_Lowest_Extent_On_Record_(NESDIS_2018-10-01).png)",
+    "text": "File:2018 Arctic Sea Ice Ties for Sixth Lowest Extent On Record (NESDIS 2018-10-01).png Arctic sea ice has likely reached its annual minimum for 2018, according to the National Snow and Ice Data Cente"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Arctic_and_Antarctic_Sea_Ice_Approached_Historic_Lows_%28153457_-_arctic_nsidc_20240911_lrg%29.jpg/1920px-Arctic_and_Antarctic_Sea_Ice_Approached_Historic_Lows_%28153457_-_arctic_nsidc_20240911_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3610,
+    "h": 2406,
+    "credit": "\"Arctic and Antarctic Sea Ice Approached Historic Lows (153457 - arctic nsidc 20240911 lrg).jpg\" – NASA Earth Observatory images by Lauren Dauphin, using data from the National Snow and Ice Data Center. Story by Sally Younger, NASA’s Earth Science News Team, updated and adapted for Earth Observatory by Kathryn Hansen., Public domain (https://commons.wikimedia.org/wiki/File:Arctic_and_Antarctic_Sea_Ice_Approached_Historic_Lows_(153457_-_arctic_nsidc_20240911_lrg).jpg)",
+    "text": "File:Arctic and Antarctic Sea Ice Approached Historic Lows (153457 - arctic nsidc 20240911 lrg).jpg Arctic sea ice retreated to near-historic lows in the Northern Hemisphere this summer, likely meltin"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Winter_Sea_Ice_Reached_New_Lows_in_the_Arctic_%28154122%29.jpg/1920px-Winter_Sea_Ice_Reached_New_Lows_in_the_Arctic_%28154122%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3610,
+    "h": 2406,
+    "credit": "\"Winter Sea Ice Reached New Lows in the Arctic (154122).jpg\" – NASA Earth Observatory images by Lauren Dauphin, using data from the National Snow and Ice Data Center. Story by James R. Riordon/NASA’s Earth Science News Team, adapted for Earth Observatory by Kathryn Hansen., Public domain (https://commons.wikimedia.org/wiki/File:Winter_Sea_Ice_Reached_New_Lows_in_the_Arctic_(154122).jpg)",
+    "text": "File:Winter Sea Ice Reached New Lows in the Arctic (154122).jpg Winter sea ice cover in the Arctic was the lowest it’s ever been at its annual peak on March 22, 2025, according to NASA and the Nationa"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/2025-03-22_Arctic_sea_ice_extent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1050,
+    "h": 840,
+    "credit": "\"2025-03-22 Arctic sea ice extent.png\" – National Snow and Ice Data Center (NDIC) funded by NASA & affiliated with NOAA, Public domain (https://commons.wikimedia.org/wiki/File:2025-03-22_Arctic_sea_ice_extent.png)",
+    "text": "File:2025-03-22 Arctic sea ice extent.png Arctic Sea Ice Extent as of March 22, 2025. The graph shows Arctic sea ice extent as of March 22, 2025, along with daily ice extent data for four previous yea"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Arctic_Sea_Ice_Shrinks_to_Its_2026_Minimum_%281466049_-_60912_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 853,
+    "credit": "\"Arctic Sea Ice Shrinks to Its 2026 Minimum (1466049 - 60912 lrg).jpg\" – Nimbus 7, Public domain (https://commons.wikimedia.org/wiki/File:Arctic_Sea_Ice_Shrinks_to_Its_2026_Minimum_(1466049_-_60912_lrg).jpg)",
+    "text": "File:Arctic Sea Ice Shrinks to Its 2026 Minimum (1466049 - 60912 lrg).jpg Arctic sea ice reaches its annual minimum extent on September 12, 2026, tying several past years for the 10th-lowest minimum i"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Arctic_sea_ice_on_track_to_be_among_smallest_winter_maximums_on_record_%28NESDIS_2017-02-16%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1080,
+    "credit": "\"Arctic sea ice on track to be among smallest winter maximums on record (NESDIS 2017-02-16).jpg\" – NOAA, Public domain (https://commons.wikimedia.org/wiki/File:Arctic_sea_ice_on_track_to_be_among_smallest_winter_maximums_on_record_(NESDIS_2017-02-16).jpg)",
+    "text": "File:Arctic sea ice on track to be among smallest winter maximums on record (NESDIS 2017-02-16).jpg The end-of-summer minimum extent in 2016 tied for the second-smallest on record. As noted previously"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851358345735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8192,
+    "h": 5464,
+    "credit": "\"Clouds and ice on the Chukchi Sea (51358345735).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51358345735).jpg)",
+    "text": "File:Clouds and ice on the Chukchi Sea (51358345735).jpg Cloud patterns and the midnight sun reflect over the Chukchi sea, where the summer sea ice floats in large slabs.\nCredit: Lisa Hupp/USFWS"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357245736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8192,
+    "h": 5464,
+    "credit": "\"Clouds and ice on the Chukchi Sea (51357245736).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357245736).jpg)",
+    "text": "File:Clouds and ice on the Chukchi Sea (51357245736).jpg Cloud patterns and the midnight sun reflect over the Chukchi sea, where the summer sea ice floats in large slabs."
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg/1920px-Sea_Ice_in_the_Chukchi_Sea_%287348953402%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4205,
+    "h": 2803,
+    "credit": "\"Sea Ice in the Chukchi Sea (7348953402).jpg\" – NASA Goddard Space Flight Center from Greenbelt, MD, USA, Public domain (https://commons.wikimedia.org/wiki/File:Sea_Ice_in_the_Chukchi_Sea_(7348953402).jpg)",
+    "text": "File:Sea Ice in the Chukchi Sea (7348953402).jpg The U.S. Coast Guard Cutter Healy encountered only small patches of sea ice in the Chukchi Sea during the final days collecting ocean data for the 2011"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357471838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8192,
+    "h": 4608,
+    "credit": "\"Clouds and ice on the Chukchi Sea (51357471838).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357471838).jpg)",
+    "text": "File:Clouds and ice on the Chukchi Sea (51357471838).jpg Cloud patterns and the midnight sun reflect over the Chukchi sea, where the summer sea ice floats in large slabs."
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg/1920px-Clouds_and_ice_on_the_Chukchi_Sea_%2851357281916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 22037,
+    "h": 6245,
+    "credit": "\"Clouds and ice on the Chukchi Sea (51357281916).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Clouds_and_ice_on_the_Chukchi_Sea_(51357281916).jpg)",
+    "text": "File:Clouds and ice on the Chukchi Sea (51357281916).jpg Cloud patterns and the midnight sun reflect over the Chukchi sea, where the summer sea ice floats in large slabs."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Coastal_bluff_of_Utgiagvik_and_Chukchi_sea_ice_%2851358060824%29.jpg/1920px-Coastal_bluff_of_Utgiagvik_and_Chukchi_sea_ice_%2851358060824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8192,
+    "h": 5464,
+    "credit": "\"Coastal bluff of Utgiagvik and Chukchi sea ice (51358060824).jpg\" – USFWSAlaska, Public domain (https://commons.wikimedia.org/wiki/File:Coastal_bluff_of_Utgiagvik_and_Chukchi_sea_ice_(51358060824).jpg)",
+    "text": "File:Coastal bluff of Utgiagvik and Chukchi sea ice (51358060824).jpg The edge of the village of Utgiagvik looks over eroding Arctic tundra bluffs. Sea ice floats in slabs on the Chukchi Sea below. Cr"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Bloom_in_the_Chukchi_Sea_%28MODIS_2021-06-10%29.jpg/1920px-Bloom_in_the_Chukchi_Sea_%28MODIS_2021-06-10%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2288,
+    "h": 1734,
+    "credit": "\"Bloom in the Chukchi Sea (MODIS 2021-06-10).jpg\" – MODIS Land Rapid Response Team, NASA GSFC, Public domain (https://commons.wikimedia.org/wiki/File:Bloom_in_the_Chukchi_Sea_(MODIS_2021-06-10).jpg)",
+    "text": "File:Bloom in the Chukchi Sea (MODIS 2021-06-10).jpg Stunning swirls of color peeked through melting ice above the Arctic Circle in early June 2021. The Moderate Resolution Imaging Spectroradiometer ("
+   }
+  ]
+ },
+ {
+  "slot": "B06",
+  "beats": null,
+  "mo_ta": "Hudson's Bay Company tàu hàng, Nascopie",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Construction_of_Fort_Ross%2C_Nunavut.jpg/1920px-Construction_of_Fort_Ross%2C_Nunavut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 856,
+    "credit": "\"Construction of Fort Ross, Nunavut.jpg\" – Richard Finnie, Public domain (https://commons.wikimedia.org/wiki/File:Construction_of_Fort_Ross,_Nunavut.jpg)",
+    "text": "File:Construction of Fort Ross, Nunavut.jpg Photograph taken in early September of 1937, of several workers constructing the post manager's house of the Fort Ross trading post on Somerset Island, in N"
+   }
+  ]
+ },
+ {
+  "slot": "B07",
+  "beats": null,
+  "mo_ta": "bản đồ Alaska cổ",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Alaska_Road_Commission_1920_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1000,
+    "h": 827,
+    "credit": "\"Alaska Road Commission 1920 map.jpg\" – Alaska Road Commission, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_Road_Commission_1920_map.jpg)",
+    "text": "File:Alaska Road Commission 1920 map.jpg This map is of the roads, sled roads, pack trails, railroads and telegraph lines, existing and proposed, in the Territory (now State) of Alaska as published by"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg/1920px-Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 10676,
+    "h": 7731,
+    "credit": "\"Map of Part of Alaska - NARA - 103396332.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Map_of_Part_of_Alaska_-_NARA_-_103396332.jpg)",
+    "text": "File:Map of Part of Alaska - NARA - 103396332.jpg Scope and content:  Shows connected System of Roads and Trails Constructed and Proposed by the Alaska Road Commission."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6163,
+    "h": 4189,
+    "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_2).jpg)",
+    "text": "File:Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 2).jpg This full color undated map of the number and distribution of Indians "
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_3%29.jpg/1920px-Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock%2C_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6163,
+    "h": 4189,
+    "credit": "\"Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 3).jpg\" – Department of Commerce. Bureau of the Census. Office of the Assistant Director for Demographic Fields. Population and Housing Division. 7/15/1949-1956, Public domain (https://commons.wikimedia.org/wiki/File:Alaska_-_Number_and_Distribution_of_Indians_by_Linguistic_Stock,_1920_-_DPLA_-_0d90e811bee3c9cdb5029afa511a5198_(page_3).jpg)",
+    "text": "File:Alaska - Number and Distribution of Indians by Linguistic Stock, 1920 - DPLA - 0d90e811bee3c9cdb5029afa511a5198 (page 3).jpg This full color undated map of the number and distribution of Indians "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Admiralty_Chart_No_2531_Cape_Mendocino_to_Vancouver_Id._From_Cape_Flattery_Southward%2C_From_The_United_States_to_1886%2C_with_corrections_and_additions_to_1920%2C_Published_1884%2C_Corrections_to_1925.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 16131,
+    "h": 23389,
+    "credit": "\"Admiralty Chart No 2531 Cape Mendocino to Vancouver Id. From Cape Flattery Southward, From The United States to 1886, with corrections and additions to 1920, Published 1884, Corrections to 1925.jpg\" – United Kingdom Hydrographic Office, Public domain (https://commons.wikimedia.org/wiki/File:Admiralty_Chart_No_2531_Cape_Mendocino_to_Vancouver_Id._From_Cape_Flattery_Southward,_From_The_United_States_to_1886,_with_corrections_and_additions_to_1920,_Published_1884,_Corrections_to_1925.jpg)",
+    "text": "File:Admiralty Chart No 2531 Cape Mendocino to Vancouver Id. From Cape Flattery Southward, From The United States to 1886, with corrections and additions to 1920, Published 1884, Corrections to 1925.j"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Mission_de_N.-D.-de-Lourdes_-_Mary%27s_Igloo_%28Alaska%29_la_derni%C3%A8re_Mission_catholique_avant_le_P%C3%B4le_Nord_recto_11-cp.canada1900-1960-212r.jpg/1920px-Mission_de_N.-D.-de-Lourdes_-_Mary%27s_Igloo_%28Alaska%29_la_derni%C3%A8re_Mission_catholique_avant_le_P%C3%B4le_Nord_recto_11-cp.canada1900-1960-212r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3281,
+    "h": 2107,
+    "credit": "\"Mission de N.-D.-de-Lourdes - Mary's Igloo (Alaska) la dernière Mission catholique avant le Pôle Nord recto 11-cp.canada1900-1960-212r.jpg\" – Imprimeries Réunies de Nancy, Public domain (https://commons.wikimedia.org/wiki/File:Mission_de_N.-D.-de-Lourdes_-_Mary%27s_Igloo_(Alaska)_la_derni%C3%A8re_Mission_catholique_avant_le_P%C3%B4le_Nord_recto_11-cp.canada1900-1960-212r.jpg)",
+    "text": "File:Mission de N.-D.-de-Lourdes - Mary's Igloo (Alaska) la dernière Mission catholique avant le Pôle Nord recto 11-cp.canada1900-1960-212r.jpg Deux modestes bâtiments, en hiver."
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Alaskan_Salmon_Canneries%2C_Title_Page_-_Alaska_Salmon_Cannery%2C_Kake%2C_Wrangell-Petersburg_Census_Area%2C_AK_HAER_AK%2C22-KAKE%2C1-_%28sheet_1_of_2%29.png/1920px-Alaskan_Salmon_Canneries%2C_Title_Page_-_Alaska_Salmon_Cannery%2C_Kake%2C_Wrangell-Petersburg_Census_Area%2C_AK_HAER_AK%2C22-KAKE%2C1-_%28sheet_1_of_2%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 14450,
+    "h": 9632,
+    "credit": "\"Alaskan Salmon Canneries, Title Page - Alaska Salmon Cannery, Kake, Wrangell-Petersburg Census Area, AK HAER AK,22-KAKE,1- (sheet 1 of 2).png\" – Whiteley, Tim, Public domain (https://commons.wikimedia.org/wiki/File:Alaskan_Salmon_Canneries,_Title_Page_-_Alaska_Salmon_Cannery,_Kake,_Wrangell-Petersburg_Census_Area,_AK_HAER_AK,22-KAKE,1-_(sheet_1_of_2).png)",
+    "text": "File:Alaskan Salmon Canneries, Title Page - Alaska Salmon Cannery, Kake, Wrangell-Petersburg Census Area, AK HAER AK,22-KAKE,1- (sheet 1 of 2).png "
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Historic_Alaskan_Fishing_Technology_-_Alaska_Salmon_Cannery%2C_Kake%2C_Wrangell-Petersburg_Census_Area%2C_AK_HAER_AK%2C22-KAKE%2C1-_%28sheet_2_of_2%29.png/1920px-Historic_Alaskan_Fishing_Technology_-_Alaska_Salmon_Cannery%2C_Kake%2C_Wrangell-Petersburg_Census_Area%2C_AK_HAER_AK%2C22-KAKE%2C1-_%28sheet_2_of_2%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 14452,
+    "h": 9632,
+    "credit": "\"Historic Alaskan Fishing Technology - Alaska Salmon Cannery, Kake, Wrangell-Petersburg Census Area, AK HAER AK,22-KAKE,1- (sheet 2 of 2).png\" – Whiteley, Tim, creator, Public domain (https://commons.wikimedia.org/wiki/File:Historic_Alaskan_Fishing_Technology_-_Alaska_Salmon_Cannery,_Kake,_Wrangell-Petersburg_Census_Area,_AK_HAER_AK,22-KAKE,1-_(sheet_2_of_2).png)",
+    "text": "File:Historic Alaskan Fishing Technology - Alaska Salmon Cannery, Kake, Wrangell-Petersburg Census Area, AK HAER AK,22-KAKE,1- (sheet 2 of 2).png "
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Trefon_Dena%27ina_Fish_Cache_-_Port_Alsworth_Alaska.jpg/1920px-Trefon_Dena%27ina_Fish_Cache_-_Port_Alsworth_Alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3072,
+    "h": 2304,
+    "credit": "\"Trefon Dena'ina Fish Cache - Port Alsworth Alaska.jpg\" – John B. BransonPark Historian, Lake Clark National Park and PreserveNational Park Service, Public domain (https://commons.wikimedia.org/wiki/File:Trefon_Dena%27ina_Fish_Cache_-_Port_Alsworth_Alaska.jpg)",
+    "text": "File:Trefon Dena'ina Fish Cache - Port Alsworth Alaska.jpg The historic Trefon Dena'ina Fish Cache (built 1920), currently located at 1 Park Place in Port Alsworth, Alaska, United States, is listed on"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Carte_de_l%27Alaska_-_btv1b531213191.jpg/1920px-Carte_de_l%27Alaska_-_btv1b531213191.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8828,
+    "h": 6832,
+    "credit": "\"Carte de l'Alaska - btv1b531213191.jpg\" – Alaska Pacific Navigation C°. Auteur du texte, Public domain (https://commons.wikimedia.org/wiki/File:Carte_de_l%27Alaska_-_btv1b531213191.jpg)",
+    "text": "File:Carte de l'Alaska - btv1b531213191.jpg Sujet : Alaska, État d'\nÉchelle(s) : 1:4 500 000 environ\nCouverture : États-Unis – Alaska\nLangue : français\n\nÉditeur : Alaska Pacific Navigation C° (Seattle"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/FMIB_45360_Map_of_St_Paul_Island--Pribylov_-a_class%3D%22body_link_11%22_href%3D%22cdmsearchcollectionfishimagesfieldtitlesearchterm.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1606,
+    "h": 961,
+    "credit": "\"FMIB 45360 Map of St Paul Island--Pribylov -a class=\"body link 11\" href=\"cdmsearchcollectionfishimagesfieldtitlesearchterm.jpeg\" – Henry Wood Elliott, Public domain (https://commons.wikimedia.org/wiki/File:FMIB_45360_Map_of_St_Paul_Island--Pribylov_-a_class%3D%22body_link_11%22_href%3D%22cdmsearchcollectionfishimagesfieldtitlesearchterm.jpeg)",
+    "text": "File:FMIB 45360 Map of St Paul Island--Pribylov -a class=\"body link 11\" href=\"cdmsearchcollectionfishimagesfieldtitlesearchterm.jpeg Map of St. Paul Island--Pribylov Group. Showing the Area and Positi"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/FMIB_45362_Map_of_St_George_Island--Pribylov_Group.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1490,
+    "h": 874,
+    "credit": "\"FMIB 45362 Map of St George Island--Pribylov Group.jpeg\" – Henry Wood Elliott, Public domain (https://commons.wikimedia.org/wiki/File:FMIB_45362_Map_of_St_George_Island--Pribylov_Group.jpeg)",
+    "text": "File:FMIB 45362 Map of St George Island--Pribylov Group.jpeg Map of St. George Island--Pribylov Group\nShowing the Area and Position of the Fur Seal Rookeries and Hauling Grounds. Surveyed and drawn (1"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/FMIB_45372_Survey_Showing_the_Close_Contact_of_Village%2C_Slaughter-Field_and_Breeding_Grounds.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 853,
+    "h": 708,
+    "credit": "\"FMIB 45372 Survey Showing the Close Contact of Village, Slaughter-Field and Breeding Grounds.jpeg\" – Henry Wood Elliott, Public domain (https://commons.wikimedia.org/wiki/File:FMIB_45372_Survey_Showing_the_Close_Contact_of_Village,_Slaughter-Field_and_Breeding_Grounds.jpeg)",
+    "text": "File:FMIB 45372 Survey Showing the Close Contact of Village, Slaughter-Field and Breeding Grounds.jpeg Survey Showing the Close Contact of Village, Slaughter-Field and Breeding Grounds\nSubject: Southe"
+   }
+  ]
+ },
+ {
+  "slot": "B08",
+  "beats": null,
+  "mo_ta": "Utqiagvik / Barrow Alaska ảnh cũ, thợ săn Inuit, xe chó kéo",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_5%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1333,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 5).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_5).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 5).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_10%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_10%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1330,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 10).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_10).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 10).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_4%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1367,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 4).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_4).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 4).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_3%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1333,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 3).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_3).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 3).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_6%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1714,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 6).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_6).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 6).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_2%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1399,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 2).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_2).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 2).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_12%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_12%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1590,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 12).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_12).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 12).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_1%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1350,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 1).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_1).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 1).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_8%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1330,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 8).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_8).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 8).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_11%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_11%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1330,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 11).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_11).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 11).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_9%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1330,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 9).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_9).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 9).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_7%29.jpg/1920px-Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_%28page_7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1330,
+    "credit": "\"Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 7).jpg\" – Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Vega_%22Winnie_Mae%22_-_DPLA_-_cd0882cbeb9fea3096c6be9e3a1a1f58_(page_7).jpg)",
+    "text": "File:Lockheed Vega \"Winnie Mae\" - DPLA - cd0882cbeb9fea3096c6be9e3a1a1f58 (page 7).jpg High wing cantilevered monoplane with monocoque fuselage, fixed landing gear, ground adjustable propeller.Flying "
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_4%29.jpg/1920px-Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1384,
+    "credit": "\"Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 4).jpg\" – Anne Morrow Lindbergh, Charles A. Lindbergh, Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Sirius_%22Tingmissartoq%22,_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_(page_4).jpg)",
+    "text": "File:Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 4).jpg Charles A. Lindbergh and Anne Morrow Lindbergh flew in this Lockheed Sirius low-wing m"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_1%29.jpg/1920px-Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1333,
+    "credit": "\"Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 1).jpg\" – Anne Morrow Lindbergh, Charles A. Lindbergh, Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Sirius_%22Tingmissartoq%22,_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_(page_1).jpg)",
+    "text": "File:Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 1).jpg Charles A. Lindbergh and Anne Morrow Lindbergh flew in this Lockheed Sirius low-wing m"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_2%29.jpg/1920px-Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1333,
+    "credit": "\"Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 2).jpg\" – Anne Morrow Lindbergh, Charles A. Lindbergh, Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Sirius_%22Tingmissartoq%22,_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_(page_2).jpg)",
+    "text": "File:Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 2).jpg Charles A. Lindbergh and Anne Morrow Lindbergh flew in this Lockheed Sirius low-wing m"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_3%29.jpg/1920px-Lockheed_Sirius_%22Tingmissartoq%22%2C_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1413,
+    "credit": "\"Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 3).jpg\" – Anne Morrow Lindbergh, Charles A. Lindbergh, Lockheed Aircraft Company, CC0 (https://commons.wikimedia.org/wiki/File:Lockheed_Sirius_%22Tingmissartoq%22,_Charles_A._Lindbergh_-_DPLA_-_e4df780324d67a575434b25b45fe592b_(page_3).jpg)",
+    "text": "File:Lockheed Sirius \"Tingmissartoq\", Charles A. Lindbergh - DPLA - e4df780324d67a575434b25b45fe592b (page 3).jpg Charles A. Lindbergh and Anne Morrow Lindbergh flew in this Lockheed Sirius low-wing m"
+   }
+  ]
+ },
+ {
+  "slot": "B09",
+  "beats": null,
+  "mo_ta": "bão tuyết biển, tàu mắc kẹt băng",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Endurance_trapped_in_pack_ice.jpg/1920px-Endurance_trapped_in_pack_ice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2408,
+    "h": 1804,
+    "credit": "\"Endurance trapped in pack ice.jpg\" – Frank Hurley, Public domain (https://commons.wikimedia.org/wiki/File:Endurance_trapped_in_pack_ice.jpg)",
+    "text": "File:Endurance trapped in pack ice.jpg HMS Endurance trapped in Antarctic pack ice. First published on the page opposite p. 156 of Hurley's Argonauts of the South (1925), London and New York: Putnam &"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Ship_Trapped_in_Pack_Ice_by_William_C._Bradford%2C_c._1871%2C_oil_on_canvas%2C_Saint_Louis_Art_Museum.jpg/1920px-Ship_Trapped_in_Pack_Ice_by_William_C._Bradford%2C_c._1871%2C_oil_on_canvas%2C_Saint_Louis_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4518,
+    "h": 2703,
+    "credit": "\"Ship Trapped in Pack Ice by William C. Bradford, c. 1871, oil on canvas, Saint Louis Art Museum.jpg\" – Hiart, CC0 (https://commons.wikimedia.org/wiki/File:Ship_Trapped_in_Pack_Ice_by_William_C._Bradford,_c._1871,_oil_on_canvas,_Saint_Louis_Art_Museum.jpg)",
+    "text": "File:Ship Trapped in Pack Ice by William C. Bradford, c. 1871, oil on canvas, Saint Louis Art Museum.jpg Ship Trapped in Pack Ice by William C. Bradford, c. 1871, oil on canvas, Saint Louis Art Museum"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/FMIB_47651_Photograph_of_the_sailing_ship_%27Geo_Curtis%27_was_taken_the_last_of_may%2C_1918_She_had_left_Seattle_the_middle_of_April_on_her.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1086,
+    "h": 1683,
+    "credit": "\"FMIB 47651 Photograph of the sailing ship 'Geo Curtis' was taken the last of may, 1918 She had left Seattle the middle of April on her.jpeg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:FMIB_47651_Photograph_of_the_sailing_ship_%27Geo_Curtis%27_was_taken_the_last_of_may,_1918_She_had_left_Seattle_the_middle_of_April_on_her.jpeg)",
+    "text": "File:FMIB 47651 Photograph of the sailing ship 'Geo Curtis' was taken the last of may, 1918 She had left Seattle the middle of April on her.jpeg Photograph of the sailing ship George Curtis was taken "
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/1601_De_Bry_and_de_Veer_Map_of_Nova_Zembla_and_the_Northeast_Passage_-_Geographicus_-_NovaZembla-debry-1601.jpg/1920px-1601_De_Bry_and_de_Veer_Map_of_Nova_Zembla_and_the_Northeast_Passage_-_Geographicus_-_NovaZembla-debry-1601.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2958,
+    "h": 2141,
+    "credit": "\"1601 De Bry and de Veer Map of Nova Zembla and the Northeast Passage - Geographicus - NovaZembla-debry-1601.jpg\" – http://www.geographicus.com/mm5/cartographers/deveer.txt, Public domain (https://commons.wikimedia.org/wiki/File:1601_De_Bry_and_de_Veer_Map_of_Nova_Zembla_and_the_Northeast_Passage_-_Geographicus_-_NovaZembla-debry-1601.jpg)",
+    "text": "File:1601 De Bry and de Veer Map of Nova Zembla and the Northeast Passage - Geographicus - NovaZembla-debry-1601.jpg A highly important map regarding the early search for a Northeast Passage.  This re"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/330-ps-9520-428-gx-usn-815597_15462865116_o.jpg/1920px-330-ps-9520-428-gx-usn-815597_15462865116_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2280,
+    "h": 2884,
+    "credit": "\"330-ps-9520-428-gx-usn-815597 15462865116 o.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:330-ps-9520-428-gx-usn-815597_15462865116_o.jpg)",
+    "text": "File:330-ps-9520-428-gx-usn-815597 15462865116 o.jpg 330-PS-9520 (428-GX-USN 815597)  U.S. Navy Rescues British Ship in Antarctica.   Six United Kingdom scientific research bases in the Antarctic rece"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/USCGC_Polar_Star_returns_to_Wellington_-_March_20th%2C_2026_%2855157704619%29.jpg/1920px-USCGC_Polar_Star_returns_to_Wellington_-_March_20th%2C_2026_%2855157704619%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6126,
+    "h": 4080,
+    "credit": "\"USCGC Polar Star returns to Wellington - March 20th, 2026 (55157704619).jpg\" – US Embassy from New Zealand, Public domain (https://commons.wikimedia.org/wiki/File:USCGC_Polar_Star_returns_to_Wellington_-_March_20th,_2026_(55157704619).jpg)",
+    "text": "File:USCGC Polar Star returns to Wellington - March 20th, 2026 (55157704619).jpg USCGC Polar Star’s arrival into Wellington this morning highlights the vessel’s enduring role in Antarctic operations a"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/The_%27Endurance%27%2C_The_pink_glow_of_the_rising_sun_shining_on_a_pressure_ridge%2C_1915_-_photographed_by_Frank_Hurley_%283534602329%29.jpg/1920px-The_%27Endurance%27%2C_The_pink_glow_of_the_rising_sun_shining_on_a_pressure_ridge%2C_1915_-_photographed_by_Frank_Hurley_%283534602329%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 14204,
+    "h": 10652,
+    "credit": "\"The 'Endurance', The pink glow of the rising sun shining on a pressure ridge, 1915 - photographed by Frank Hurley (3534602329).jpg\" – Frank Hurley, Public domain (https://commons.wikimedia.org/wiki/File:The_%27Endurance%27,_The_pink_glow_of_the_rising_sun_shining_on_a_pressure_ridge,_1915_-_photographed_by_Frank_Hurley_(3534602329).jpg)",
+    "text": "File:The 'Endurance', The pink glow of the rising sun shining on a pressure ridge, 1915 - photographed by Frank Hurley (3534602329).jpg Format: Glass Paget plate phototransparency\n\nNotes: Frank Hurley"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg/1920px-Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2828,
+    "h": 3912,
+    "credit": "\"Endurance under full sail Frank Hurley State Library NSW a090012h.jpg\" – Frank Hurley, Public domain (https://commons.wikimedia.org/wiki/File:Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg)",
+    "text": "File:Endurance under full sail Frank Hurley State Library NSW a090012h.jpg Endurance under sail trying to break through pack ice, Weddell Sea, Antarctica, 1915, by Frank Hurley, from original Paget Pl"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Sailing_ship_Endurance_trapped_and_crushed_by_ice_in_the_Antarctic%2C_1915_%28exbt-ice-LongNight%29.jpg/1920px-Sailing_ship_Endurance_trapped_and_crushed_by_ice_in_the_Antarctic%2C_1915_%28exbt-ice-LongNight%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2588,
+    "h": 3983,
+    "credit": "\"Sailing ship Endurance trapped and crushed by ice in the Antarctic, 1915 (exbt-ice-LongNight).jpg\" – Hurley, F., Public domain (https://commons.wikimedia.org/wiki/File:Sailing_ship_Endurance_trapped_and_crushed_by_ice_in_the_Antarctic,_1915_(exbt-ice-LongNight).jpg)",
+    "text": "File:Sailing ship Endurance trapped and crushed by ice in the Antarctic, 1915 (exbt-ice-LongNight).jpg Sailing ship Endurance trapped and crushed by ice in the Antarctic, 1915\nPhotograph of the sailin"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Endurance_Final_Sinking.jpg/1920px-Endurance_Final_Sinking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2230,
+    "h": 2973,
+    "credit": "\"Endurance Final Sinking.jpg\" – Frank Hurley, Public domain (https://commons.wikimedia.org/wiki/File:Endurance_Final_Sinking.jpg)",
+    "text": "File:Endurance Final Sinking.jpg مجموعة من الكلاب تراقب سفينة إنديورانس في المراحل الأخيرة من انجرافها قبل غرقها في قاع بحر ودل بوقت قصير"
+   }
+  ]
+ },
+ {
+  "slot": "B10",
+  "beats": null,
+  "mo_ta": "tranh tàu buồm đêm sương, hoàng hôn biển lạnh",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1395,
+    "h": 977,
+    "credit": "\"Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Flussufer_im_Nebel_-_Wallraf-Richartz-Museum.jpg)",
+    "text": "File:Caspar David Friedrich - Flussufer im Nebel - Wallraf-Richartz-Museum.jpg "
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Elbschiff_im_Fruehnebel_%28C_D_Friedrich%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1603,
+    "h": 1138,
+    "credit": "\"Elbschiff im Fruehnebel (C D Friedrich).jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Elbschiff_im_Fruehnebel_(C_D_Friedrich).jpg)",
+    "text": "File:Elbschiff im Fruehnebel (C D Friedrich).jpg "
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Flussufer_im_Nebel_%28Caspar_David_Friedrich%29-WUS03290.jpg/1920px-Flussufer_im_Nebel_%28Caspar_David_Friedrich%29-WUS03290.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3899,
+    "h": 3209,
+    "credit": "\"Flussufer im Nebel (Caspar David Friedrich)-WUS03290.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Flussufer_im_Nebel_(Caspar_David_Friedrich)-WUS03290.jpg)",
+    "text": "File:Flussufer im Nebel (Caspar David Friedrich)-WUS03290.jpg Riverbank in Fog"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg/1920px-Lane%2C_Fitz_Henry%2C_Ship_in_Fog%2C_Gloucester_Harbor%2C_ca._1860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2500,
+    "h": 1501,
+    "credit": "\"Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg\" – Fitz Henry Lane, Public domain (https://commons.wikimedia.org/wiki/File:Lane,_Fitz_Henry,_Ship_in_Fog,_Gloucester_Harbor,_ca._1860.jpg)",
+    "text": "File:Lane, Fitz Henry, Ship in Fog, Gloucester Harbor, ca. 1860.jpg Fitz Henry Lane’s masterpiece Ship in Fog, Gloucester Harbor is an archetype of Luminism, a style characterized by an intense preocc"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Felix_Buhot%2C_Smoke_and_Fog.jpg/1920px-Felix_Buhot%2C_Smoke_and_Fog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2416,
+    "h": 824,
+    "credit": "\"Felix Buhot, Smoke and Fog.jpg\" – Félix Buhot, Public domain (https://commons.wikimedia.org/wiki/File:Felix_Buhot,_Smoke_and_Fog.jpg)",
+    "text": "File:Felix Buhot, Smoke and Fog.jpg "
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Hamburg%2C_Kunsthalle_%28tempor%C3%A4r%29%2C_Caspar_David_Friedrich%2C_Flussufer_im_Nebel.jpg/1920px-Hamburg%2C_Kunsthalle_%28tempor%C3%A4r%29%2C_Caspar_David_Friedrich%2C_Flussufer_im_Nebel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3920,
+    "h": 2622,
+    "credit": "\"Hamburg, Kunsthalle (temporär), Caspar David Friedrich, Flussufer im Nebel.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Hamburg,_Kunsthalle_(tempor%C3%A4r),_Caspar_David_Friedrich,_Flussufer_im_Nebel.jpg)",
+    "text": "File:Hamburg, Kunsthalle (temporär), Caspar David Friedrich, Flussufer im Nebel.jpg "
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Caspar_David_Friedrich_-_Segelschiff.jpg/1920px-Caspar_David_Friedrich_-_Segelschiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3742,
+    "h": 5472,
+    "credit": "\"Caspar David Friedrich - Segelschiff.jpg\" – Caspar David Friedrich, Public domain (https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Segelschiff.jpg)",
+    "text": "File:Caspar David Friedrich - Segelschiff.jpg "
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Chemnitz%2C_Kunstsammlungen%2C_Caspar_David_Friedrich%2C_Segelschiff.JPG/1920px-Chemnitz%2C_Kunstsammlungen%2C_Caspar_David_Friedrich%2C_Segelschiff.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2948,
+    "h": 4165,
+    "credit": "\"Chemnitz, Kunstsammlungen, Caspar David Friedrich, Segelschiff.JPG\" – Caspar David Friedrich, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Chemnitz,_Kunstsammlungen,_Caspar_David_Friedrich,_Segelschiff.JPG)",
+    "text": "File:Chemnitz, Kunstsammlungen, Caspar David Friedrich, Segelschiff.JPG Chemnitz, art collection, Caspar David Friedrich, sailing ship"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ukendt_kunstner_-_Dampskibet_V%C3%A6ring_ud_for_en_kyst.png/1920px-Ukendt_kunstner_-_Dampskibet_V%C3%A6ring_ud_for_en_kyst.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3706,
+    "h": 2414,
+    "credit": "\"Ukendt kunstner - Dampskibet Væring ud for en kyst.png\" – anonymous, Public domain (https://commons.wikimedia.org/wiki/File:Ukendt_kunstner_-_Dampskibet_V%C3%A6ring_ud_for_en_kyst.png)",
+    "text": "File:Ukendt kunstner - Dampskibet Væring ud for en kyst.png The vessel was built by Murdoch & Murray as the Lochiel (yard no. 99), launched in August 1888 and delivered in October of that year to J. G"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ludolf_Bakhuizen_-_The_Battle_of_Barfleur%2C_19_May_1692.jpg/1920px-Ludolf_Bakhuizen_-_The_Battle_of_Barfleur%2C_19_May_1692.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2432,
+    "h": 1632,
+    "credit": "\"Ludolf Bakhuizen - The Battle of Barfleur, 19 May 1692.jpg\" – Ludolf Bakhuizen, Public domain (https://commons.wikimedia.org/wiki/File:Ludolf_Bakhuizen_-_The_Battle_of_Barfleur,_19_May_1692.jpg)",
+    "text": "File:Ludolf Bakhuizen - The Battle of Barfleur, 19 May 1692.jpg Early in 1692, James II was at Cherbourg, preparing to re-invade England with French help. On 17 May the French fleet sailed from Brest "
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/HMS_Crocodile_wreck_1784.jpg/1920px-HMS_Crocodile_wreck_1784.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2237,
+    "h": 1574,
+    "credit": "\"HMS Crocodile wreck 1784.jpg\" – Nicholas Pocock, Public domain (https://commons.wikimedia.org/wiki/File:HMS_Crocodile_wreck_1784.jpg)",
+    "text": "File:HMS Crocodile wreck 1784.jpg "
+   },
+   {
+    "so": 11,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA3cHdyLWltYWdlLmpwZw.jpg",
+    "w": 6085,
+    "h": 4189,
+    "credit": "\"Bridge Peter Henry Emerson\" – thegetty, CC0 (https://www.rawpixel.com/image/14310698/the-bridge-peter-henry-emerson)",
+    "text": "Bridge Peter Henry Emerson art fog london nature painting ship smoke"
+   },
+   {
+    "so": 12,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA3cHgwLWltYWdlLmpwZw.jpg",
+    "w": 6176,
+    "h": 3974,
+    "credit": "\"Lonely Fisher Peter Henry Emerson\" – thegetty, CC0 (https://www.rawpixel.com/image/14309437/the-lonely-fisher-peter-henry-emerson)",
+    "text": "Lonely Fisher Peter Henry Emerson art fog london nature painting ship water"
+   },
+   {
+    "so": 13,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEyL2xyL3VtZXN2a2duem01Ni1pbWFnZS5qcGc.jpg",
+    "w": 5000,
+    "h": 4224,
+    "credit": "\"Ostrihom basilica, Alexander Brodszky\" – không rõ, CC0 (https://www.rawpixel.com/image/8897328/ostrihom-basilica)",
+    "text": "Ostrihom basilica, Alexander Brodszky fog landscape melancholy oil painting ship paintings silence photos vintage photo melancholy"
+   },
+   {
+    "so": 14,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL2ZuZzMxMDE5NC1pbWFnZS5qcGc.jpg",
+    "w": 2362,
+    "h": 1690,
+    "credit": "\"Landscape morning fog, 1864, Ferdinand\" – không rõ, CC0 (https://www.rawpixel.com/image/8864379/image-art-public-domain-painting)",
+    "text": "Landscape morning fog, 1864, Ferdinand cottage oil painting ferdinand von wright free summer photos hay nature photos oil paint view sailing ships von wright"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%28Barcelona%29_Ship_in_a_Storm%2C_1823-6%2C_William_Turner_-_Tate_Britain.jpg/1920px-%28Barcelona%29_Ship_in_a_Storm%2C_1823-6%2C_William_Turner_-_Tate_Britain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6028,
+    "h": 5009,
+    "credit": "\"(Barcelona) Ship in a Storm, 1823-6, William Turner - Tate Britain.jpg\" – Didier Descouens, Public domain (https://commons.wikimedia.org/wiki/File:(Barcelona)_Ship_in_a_Storm,_1823-6,_William_Turner_-_Tate_Britain.jpg)",
+    "text": "File:(Barcelona) Ship in a Storm, 1823-6, William Turner - Tate Britain.jpg "
+   }
+  ]
+ }
+]

@@ -425,7 +425,13 @@
       "text": "Tura nằm bên bờ đông sông Nile, nổi tiếng với loại đá vôi trắng mịn, đẹp nhất vùng.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Pyramide_von_Illah%C3%BBn%3B_Steinbr%C3%BCche_von_T%C3%BBra_%28NYPL_b14291191-37553%29.jpg/1920px-Pyramide_von_Illah%C3%BBn%3B_Steinbr%C3%BCche_von_T%C3%BBra_%28NYPL_b14291191-37553%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Pyramide von Illahûn; Steinbrüche von Tûra (NYPL b14291191-37553).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Pyramide_von_Illah%C3%BBn;_Steinbr%C3%BCche_von_T%C3%BBra_(NYPL_b14291191-37553).jpg)"
+       "credit": "\"Pyramide von Illahûn; Steinbrüche von Tûra (NYPL b14291191-37553).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Pyramide_von_Illah%C3%BBn;_Steinbr%C3%BCche_von_T%C3%BBra_(NYPL_b14291191-37553).jpg)",
+       "crop": [
+        0.13,
+        0.5,
+        0.87,
+        0.79
+       ]
       }
      },
      {
@@ -494,7 +500,13 @@
       "text": "Nhưng Pierre Tallet tin rằng đó là đá để làm lớp vỏ trắng bọc ngoài Đại kim tự tháp.",
       "image": {
        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Pyramide_von_Illah%C3%BBn%3B_Steinbr%C3%BCche_von_T%C3%BBra_%28NYPL_b14291191-37553%29.jpg/1920px-Pyramide_von_Illah%C3%BBn%3B_Steinbr%C3%BCche_von_T%C3%BBra_%28NYPL_b14291191-37553%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-       "credit": "\"Pyramide von Illahûn; Steinbrüche von Tûra (NYPL b14291191-37553).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Pyramide_von_Illah%C3%BBn;_Steinbr%C3%BCche_von_T%C3%BBra_(NYPL_b14291191-37553).jpg)"
+       "credit": "\"Pyramide von Illahûn; Steinbrüche von Tûra (NYPL b14291191-37553).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Pyramide_von_Illah%C3%BBn;_Steinbr%C3%BCche_von_T%C3%BBra_(NYPL_b14291191-37553).jpg)",
+       "crop": [
+        0.13,
+        0.5,
+        0.87,
+        0.79
+       ]
       }
      },
      {
@@ -754,7 +766,13 @@
      },
      {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Pyramide_von_Illah%C3%BBn%3B_Steinbr%C3%BCche_von_T%C3%BBra_%28NYPL_b14291191-37553%29.jpg/1920px-Pyramide_von_Illah%C3%BBn%3B_Steinbr%C3%BCche_von_T%C3%BBra_%28NYPL_b14291191-37553%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "\"Pyramide von Illahûn; Steinbrüche von Tûra (NYPL b14291191-37553).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Pyramide_von_Illah%C3%BBn;_Steinbr%C3%BCche_von_T%C3%BBra_(NYPL_b14291191-37553).jpg)"
+      "credit": "\"Pyramide von Illahûn; Steinbrüche von Tûra (NYPL b14291191-37553).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Pyramide_von_Illah%C3%BBn;_Steinbr%C3%BCche_von_T%C3%BBra_(NYPL_b14291191-37553).jpg)",
+      "crop": [
+       0.13,
+       0.5,
+       0.87,
+       0.79
+      ]
      },
      {
       "mo_phong": "an ancient Egyptian wooden cargo boat with a large square sail carrying white limestone blocks on the Nile, small rowers seen from far away, a pyramid at sunset, oil painting"

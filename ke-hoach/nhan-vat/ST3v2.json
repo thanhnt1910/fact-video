@@ -1,0 +1,50 @@
+{
+ "ma": "ST3v2",
+ "phong_cach": "2D franco-belgian ligne claire comic illustration of a 1914 polar expedition, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered sunburnt faces with fine lines and stubble, realistic hands, serious documentary mood, muted icy palette of slate blue, grey and warm cream, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo",
+ "nhan_vat": {
+  "shackleton": "Ernest Shackleton, a rugged weathered man of about 40, adult proportions, strong square jaw, deep-set determined eyes, short sandy-brown hair, light stubble, wearing a heavy dark navy wool greatcoat with a turned-up collar and a cream wool scarf",
+  "worsley": "Captain Frank Worsley, a stocky broad-shouldered seaman of about 42, adult proportions, weathered square face, thick brown moustache, wearing a navy peaked captain's cap and a dark double-breasted pea jacket with brass buttons",
+  "hurley": "Frank Hurley, the expedition photographer, a lean athletic man of about 30, adult proportions, curly dark hair, dark stubble and a thin moustache, wearing a thick grey knitted jumper and a leather satchel",
+  "macklin": "Doctor Alexander Macklin, a young man of about 27, adult proportions, round wire glasses, short brown beard, wearing a heavy brown tweed coat and a woolen hat",
+  "crean": "Tom Crean, a tall powerful Irish sailor of about 38, adult proportions, rugged ruddy face with dark stubble, thick black hair, wearing a chunky cream cable-knit fisherman's sweater under a dark oilskin jacket",
+  "blackborow": "Perce Blackborow, a thin young sailor of 18, adult young-man proportions, ginger hair, freckles, tired eyes, wearing a too-big dark wool coat and a flat cap",
+  "endurance": "the wooden three-masted polar ship Endurance, black hull with a thin white stripe, a short funnel, tall masts with furled sails, rigging covered in frost",
+  "wild": "Frank Wild, second-in-command, a lean weathered man of about 41, adult proportions, thin lined face, thinning light hair, small moustache, wearing a worn brown wool jacket and a woolen scarf",
+  "mcnish": "Harry McNish, the ship's carpenter, a stern man of about 41, adult proportions, long grizzled grey beard, wearing a flat woolen cap and a patched canvas work jacket",
+  "pardo": "Captain Luis Pardo, a slim Chilean naval officer of about 45, adult proportions, black hair, thin black moustache, wearing a dark grey-green naval greatcoat and a white-topped officer's cap",
+  "caird": "the James Caird, a small open wooden whaleboat under seven metres long with a patched canvas deck and one short mast with a brown sail",
+  "yelcho": "the Yelcho, a small grey steam tug ship, one tall black funnel, short mast, plain wheelhouse with square windows, no face",
+  "hut": "a low shelter made of two upturned wooden lifeboats propped on rough stone walls, snow banked around it",
+  "dogs": "a team of fluffy grey and white husky sled dogs"
+ },
+ "canh_thu": [
+  {
+   "key": "c1",
+   "nhan_vat": [
+    "shackleton",
+    "worsley",
+    "endurance"
+   ],
+   "mo_ta": "On the frozen deck of the ship Endurance, Shackleton and Worsley stand side by side looking out over a vast white ice pack that is closing in around the ship under a pale blue evening sky"
+  },
+  {
+   "key": "c2",
+   "nhan_vat": [
+    "hurley",
+    "crean",
+    "macklin",
+    "blackborow"
+   ],
+   "mo_ta": "At night on a drifting ice floe, Hurley, Crean, Macklin and Blackborow sit close around a small orange campfire beside two canvas tents, breath steaming, the dark wrecked ship far behind them"
+  },
+  {
+   "key": "c3",
+   "nhan_vat": [
+    "shackleton",
+    "worsley",
+    "crean"
+   ],
+   "mo_ta": "Shackleton, Worsley and Crean crowd into a small open wooden lifeboat tossed on huge grey-green ocean waves, spray flying, Shackleton gripping the side and looking forward"
+  }
+ ]
+}

@@ -34,15 +34,20 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          set -o pipefail
           python ve_anh_2d.py "${{ inputs.ma }}" "${{ inputs.lam_lai }}" "${{ inputs.dot }}" 2>&1 | tee /tmp/ve.txt
       - name: Lưu ảnh vào kho
         if: always()
         run: |
-          mkdir -p logs/ve_anh_2d; cp /tmp/ve.txt logs/ve_anh_2d/${{ inputs.ma }}.txt || true
+          mkdir -p logs/ve_anh_2d assets/anh_2d
+          cp /tmp/ve.txt logs/ve_anh_2d/${{ inputs.ma }}.txt 2>/dev/null || echo "không có /tmp/ve.txt" > logs/ve_anh_2d/${{ inputs.ma }}.txt
           cp logs/kaggle_last.txt logs/ve_anh_2d/${{ inputs.ma }}_kaggle.txt 2>/dev/null || true
-          git add -f assets/anh_2d logs/ve_anh_2d || true
-          if git diff --cached --quiet; then exit 0; fi
+          { echo "--- ls ---"; ls assets/anh_2d/${{ inputs.ma }} 2>&1 | wc -l; git status --short | head -5; } >> logs/ve_anh_2d/${{ inputs.ma }}.txt
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git commit -q -m "Vẽ ảnh 2D ${{ inputs.ma }} [skip ci]"
-          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done
+          git add -f logs/ve_anh_2d
+          git add -f assets/anh_2d 2>&1 | tee -a logs/ve_anh_2d/${{ inputs.ma }}.txt || true
+          git add -f logs/ve_anh_2d
+          git commit -q -m "Vẽ ảnh 2D ${{ inputs.ma }} [skip ci]" || { echo "không có gì để commit"; exit 0; }
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done
+          echo "PUSH THẤT BẠI"; exit 1

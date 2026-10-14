@@ -207,6 +207,9 @@ def grade(im):
     return long_render.grade(im, sepia=0.22, contrast=1.06, bright=0.95, sat=0.9)
 
 
+FULL_SRC = set()   # ảnh 2D tự vẽ: hiện trọn bề ngang để không cắt mất nhân vật ở mép
+
+
 def make_plate(src, depth=None, top=False):
     """Khung dọc 1080x1920 (lớn hơn 6% để máy quay trôi nhẹ): ảnh dọc phủ kín; ảnh ngang thành dải giữa màn hình,
     nền trên/dưới là chính ảnh phóng to làm mờ."""
@@ -240,6 +243,8 @@ def make_plate(src, depth=None, top=False):
         return bg
     # dải ảnh: thấy ít nhất 55% bề ngang (ảnh vuông: 80%), cao tối đa 74% khung
     vis = 0.55 if w / h >= 1.5 else 0.8 if w / h <= 1.1 else 0.66
+    if src in FULL_SRC:
+        vis = 1.0
     bw = PW / vis
     bh = bw * h / w
     if bh > PH * 0.74:
@@ -389,6 +394,7 @@ def _beat_images(script, beats, work):
                 if not f.exists():
                     raise RuntimeError(f"thiếu ảnh {im['anh_file']}")
                 im["_src"], im["_ai"] = f.as_uri(), True
+                FULL_SRC.add(im["_src"])
                 used_ai = True
             elif im.get("mo_phong"):
                 key = hashlib.sha1((ai_images.STYLE_PHOTO_ID + "|" + im["mo_phong"]).encode()).hexdigest()[:16]

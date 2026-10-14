@@ -505,7 +505,8 @@ def build(script, cfg, out_dir):
                 continue
             shots.append({"start": st, "dur": (s1 - s0) / SR, "src": beat.get("image_src"),
                           "fit": bool(beat.get("fit")), "label": beat.get("label", "") or chap_label,
-                          "fx": motion.pick_fx(beat, auto=mcfg_auto), "ai": bool(beat.get("_ai"))})
+                          "fx": motion.pick_fx(beat, auto=mcfg_auto), "ai": bool(beat.get("_ai")),
+                          "clip": beat.get("clip_file")})
             chap_label = ""      # nhãn chương chỉ hiện ở khung đầu của chương
         t += (b - a) / SR
         add_silence(GAP)
@@ -550,6 +551,19 @@ def build(script, cfg, out_dir):
     if lc.get("shot_max", 0):     # tắt mặc định (cận cảnh bằng zoom dễ giật, sai chủ thể); dùng thêm ảnh thay thế
         vis = split_shots(vis, float(lc["shot_max"]), log=log)
     assign_transitions(vis, lc.get("transitions", True))
+    # clip chuyển động (Veo, ảnh -> video) đặt ở đầu cảnh: cắt bỏ chữ Veo ở góc, phóng lên 1080p, bỏ tiếng
+    for s in vis:
+        if s.get("clip"):
+            src_clip = ROOT / s["clip"]
+            if not src_clip.exists():
+                raise RuntimeError(f"thiếu clip chuyển động: {s['clip']}")
+            outc = work / f"clip_{src_clip.stem}.mp4"
+            subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(src_clip), "-an",
+                            "-vf", "crop=iw*0.95:ih*0.95:0:0,scale=1920:1080:flags=lanczos,fps=24",
+                            "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-pix_fmt", "yuv420p", str(outc)], check=True)
+            s["clip_path"] = str(outc)
+    if any(s.get("clip_path") for s in vis):
+        log(f"  🎞️  {sum(1 for s in vis if s.get('clip_path'))} cảnh có clip chuyển động")
     silent = work / "silent.mp4"
     with sync_playwright() as p:
         br = p.chromium.launch()

@@ -224,9 +224,39 @@ class Compositor:
             self.plates[i] = (pl, dp, bl)
         return self.plates[i]
 
+    def clip_frame(self, s, lt):
+        """Khung hình của clip chuyển động (Veo) đặt ở đầu cảnh; hết clip thì giữ khung cuối. Đã chỉnh màu như ảnh."""
+        import cv2
+        caps = self.__dict__.setdefault("_caps", {})
+        path = s["clip_path"]
+        cap = caps.get(path)
+        if cap is None:
+            cap = {"v": cv2.VideoCapture(path), "pos": -1, "last": None, "cache": {}}
+            cap["n"] = int(cap["v"].get(cv2.CAP_PROP_FRAME_COUNT))
+            caps[path] = cap
+        n = min(max(0, int(lt * 24 + 0.5)), cap["n"] - 1)
+        if n in cap["cache"]:
+            return cap["cache"][n]
+        if cap["pos"] != n - 1:
+            cap["v"].set(cv2.CAP_PROP_POS_FRAMES, n)
+        ok, fr = cap["v"].read()
+        if not ok:
+            return cap["last"]
+        cap["pos"] = n
+        fr = np.ascontiguousarray(np.asarray(grade(Image.fromarray(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB)))))
+        cap["last"] = fr
+        if len(cap["cache"]) > 6:
+            cap["cache"].pop(next(iter(cap["cache"])))
+        cap["cache"][n] = fr
+        return fr
+
     def shot_frame(self, i, lt):
         import cv2
         s = self.shots[i]
+        if s.get("clip_path"):
+            fr = self.clip_frame(s, lt)
+            if fr is not None:
+                return fr
         p = _clamp((lt + XF) / (s["dur"] + 2 * XF))
         d = i % 4
         if s.get("fit"):

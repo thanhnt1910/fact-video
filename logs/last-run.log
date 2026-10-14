@@ -5,28 +5,17 @@
   🖼️  Ảnh cho video dài
   🔍 Kiểm tra 103 ảnh: 46 ảnh lỗi, 7 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (9 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (33s)
-     🎙️  Gemini đọc xong 1 chương (27s)
-     🎙️  Gemini đọc xong 1 chương (27s)
-     🎙️  Gemini đọc xong 1 chương (24s)
-     🎙️  Gemini đọc xong 1 chương (24s)
-     🎙️  Gemini đọc xong 1 chương (31s)
-     🎙️  Gemini đọc xong 1 chương (25s)
-     🎙️  Gemini đọc xong 1 chương (31s)
   ⏱️  Thời lượng 11:25 · 103 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-14 02:37:11.913384834 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
      103/103 ảnh có độ sâu
+  🎞️  10 cảnh có clip chuyển động
      16443 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (131 giây)
-     … 6/12 đoạn (267 giây)
-     … 9/12 đoạn (391 giây)
-     … 12/12 đoạn (392 giây)
-     dựng khung hình xong trong 392 giây
+     … 3/12 đoạn (215 giây)
+     … 6/12 đoạn (403 giây)
+     … 9/12 đoạn (602 giây)
+     … 12/12 đoạn (621 giây)
+     dựng khung hình xong trong 622 giây
   🔈 Âm lượng cuối: -15.3 LUFS, đỉnh -4.1 dBTP
-     🌐 dịch tiếng Anh xong (gemini-flash-lite-latest)
 ✅ Video dài: ST3_dai.mp4 (11:25)
 
 Xong video ngắn: - · video dài: ST3

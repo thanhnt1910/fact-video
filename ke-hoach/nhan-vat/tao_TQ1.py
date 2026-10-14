@@ -1,5 +1,6 @@
 """Tạo TQ1_anh.json (prompt đầy đủ từng ảnh) từ TQ1.json + TQ.json."""
 import json
+import re
 from pathlib import Path
 R = Path(__file__).resolve().parent
 tq = json.loads((R / "TQ.json").read_text(encoding="utf-8"))
@@ -15,6 +16,11 @@ for c in t1["canh"]:
     chars = ""
     if c["nv"]:
         chars = " Characters (keep exactly this look): " + "; ".join(nv[k] for k in c["nv"]) + "."
+    if n == 0:
+        scene = re.sub(r",?\s*(no people|no figures|the scene is completely empty of people[^.]*)", "", c["mo_ta"])
+        scene = re.sub(r"\bno people\b,?", "", scene)
+        out.append({"key": c["key"], "nv": [], "prompt": scene + ". An empty quiet landscape, a still life of objects only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo"})
+        continue
     out.append({"key": c["key"], "nv": c["nv"], "prompt": f'{c["mo_ta"]}. {cnt}{chars} {tq["phong_cach"]}. {SUF}'})
 (R / "TQ1_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(out))

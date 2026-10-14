@@ -1,0 +1,121 @@
+{
+ "011": {
+  "so_nguoi_thay": 2,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": [
+   "thừa người (2 thay vì 1)"
+  ]
+ },
+ "014": {
+  "so_nguoi_thay": 2,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Lỗi AI tự nhân bản nhân vật thành 2 người giống hệt nhau ngồi cạnh nhau.",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": [
+   "thừa người (2 thay vì 1)",
+   "điểm 2/5"
+  ]
+ },
+ "038": {
+  "so_nguoi_thay": 3,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": []
+ },
+ "059": {
+  "so_nguoi_thay": 2,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": []
+ },
+ "070": {
+  "so_nguoi_thay": 8,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": []
+ },
+ "086": {
+  "so_nguoi_thay": 2,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": []
+ },
+ "094": {
+  "so_nguoi_thay": 1,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": false,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": []
+ },
+ "100": {
+  "so_nguoi_thay": 0,
+  "tre_con": false,
+  "lech_nhan_vat": [],
+  "giai_phau": [],
+  "chu_la": true,
+  "sai_thoi": [],
+  "mat_sinh_vat": false,
+  "lac_de": false,
+  "diem": 5,
+  "ghi_chu": "ổn",
+  "_model": "gemini-flash-lite-latest",
+  "_ly_do": [
+   "chữ lạ"
+  ]
+ }
+}

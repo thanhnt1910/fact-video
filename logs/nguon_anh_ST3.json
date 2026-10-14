@@ -1,7 +1,44 @@
 {
  "ma": "ST3",
- "cap_nhat": "2026-10-14T08:56:04",
- "anh": [],
- "loi": [],
+ "cap_nhat": "2026-10-14T09:35:15",
+ "anh": [
+  {
+   "loai": "ảnh tư liệu",
+   "url": "",
+   "credit": "",
+   "ngay_tai": "2026-10-14",
+   "dung_o": [
+    "ngắn · cảnh 1 ảnh 1",
+    "ngắn · cảnh 1 ảnh 2",
+    "ngắn · cảnh 2 ảnh 1",
+    "ngắn · cảnh 2 ảnh 2",
+    "ngắn · cảnh 3 ảnh 1",
+    "ngắn · cảnh 3 ảnh 2",
+    "ngắn · cảnh 4 ảnh 1",
+    "ngắn · cảnh 4 ảnh 2",
+    "ngắn · cảnh 5 ảnh 1",
+    "ngắn · cảnh 5 ảnh 2",
+    "ngắn · cảnh 6 ảnh 1",
+    "ngắn · cảnh 6 ảnh 2",
+    "ngắn · cảnh 7 ảnh 1",
+    "ngắn · cảnh 7 ảnh 2",
+    "ngắn · cảnh 8 ảnh 1",
+    "ngắn · cảnh 8 ảnh 2",
+    "ngắn · cảnh 9 ảnh 1",
+    "ngắn · cảnh 9 ảnh 2",
+    "ngắn · cảnh 10 ảnh 1",
+    "ngắn · cảnh 10 ảnh 2",
+    "ngắn · cảnh 11 ảnh 1",
+    "ngắn · cảnh 11 ảnh 2"
+   ],
+   "ten_file": "",
+   "giay_phep": "",
+   "nguon_giay_phep": "nhãn ghi ở nguồn (không có API)",
+   "hop_le": false
+  }
+ ],
+ "loi": [
+  ": giấy phép 'không rõ' không phải Public Domain/CC0"
+ ],
  "canh_bao": []
 }

@@ -1,0 +1,36 @@
+KIỂM TRA ẢNH ST3 · video ngắn · 22 ảnh (số thứ tự khớp lưới ảnh anh_ST3_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+⚠️ 1 (ảnh mô phỏng AI) ·  029.jpg
+     ⚠️ Ảnh AI tạo có chữ viết vô nghĩa xuất hiện trên mạn tàu (các ký tự trông giống tiếng Nga hoặc chữ cái lỗi thay vì tên tàu Endurance). → Tạo lại ảnh bỏ chữ viết vô nghĩa trên mạn tàu để tăng tính chân thực.
+❌ 2 (ảnh mô phỏng AI) ·  037.jpg
+     ❌ Ảnh hiển thị rõ mặt các nhân vật lịch sử (có thể là Ernest Shackleton và các thành viên), vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc ẩn khuất để không nhìn rõ khuôn mặt.
+❌ 3 (ảnh mô phỏng AI) ·  006.jpg
+     ❌ Ảnh AI tạo ra các nhân vật có khuôn mặt rất giống nhau, đặc biệt là hai người ở bên phải có ngoại hình gần như trùng lặp hoàn toàn, gây cảm giác bất thường. → Tạo lại hình ảnh với các nhân vật có khuôn mặt và ngoại hình khác biệt rõ ràng để tự nhiên hơn.
+✅ 4 (ảnh mô phỏng AI) ·  010.jpg
+❌ 5 (ảnh mô phỏng AI) ·  019.jpg
+     ❌ Chữ viết trên mạn tàu bị lỗi font, nhòe và vô nghĩa, không phải tên tàu Endurance. → Sửa lại chữ trên mạn tàu thành tên chính xác 'Endurance'.
+✅ 6 (ảnh mô phỏng AI) ·  026.jpg
+✅ 7 (ảnh mô phỏng AI) ·  043.jpg
+✅ 8 (ảnh mô phỏng AI) ·  060.jpg
+⚠️ 9 (ảnh mô phỏng AI) ·  068.jpg
+     ⚠️ Lời kể chỉ nhắc đến Shackleton cùng năm người lên xuồng, nhưng bức ảnh vẽ quá nhiều người đứng trên bờ và trên tàu. → Điều chỉnh lại số lượng người trong khung hình chỉ còn sáu người đúng như lời kể.
+❌ 10 (ảnh mô phỏng AI) ·  073.jpg
+     ❌ Lời kể nhắc đến việc Shackleton cùng năm người trên chiếc xuồng gỗ vượt biển, nhưng ảnh AI chỉ vẽ duy nhất một người ngồi trên xuồng. → Cần tạo ảnh minh họa có nhóm người (Shackleton và các thành viên) trên xuồng gỗ vượt biển thay vì chỉ có một người.
+⚠️ 11 (ảnh mô phỏng AI) ·  071.jpg
+     ⚠️ Ảnh minh họa chỉ có 2 người trên thuyền, trong khi lời kể nhắc đến Shackleton cùng 5 người (tổng cộng 6 người) trên chiếc xuồng gỗ. → Điều chỉnh hình ảnh cho thấy có nhiều người hơn (khoảng 6 người) trên thuyền để phù hợp với ngữ cảnh lời kể.
+⚠️ 12 (ảnh mô phỏng AI) ·  076.jpg
+     ⚠️ Ảnh minh họa ba người đàn ông mặc áo khoác đứng cạnh thuyền và núi tuyết, phù hợp với bối cảnh cập đảo South Georgia nhưng không hiển thị rõ sự kiện cụ thể của câu. → Có thể sử dụng ảnh này làm bối cảnh chung cho hành trình cập đảo.
+❌ 13 (ảnh mô phỏng AI) ·  081.jpg
+     ❌ Ảnh minh họa cảnh hai người đang cặm cụi vặn đinh vít vào giày trong một căn phòng hoặc hang động, không phù hợp với lời kể đang tả hành trình ba người leo qua dãy núi chưa ai vượt qua trong suốt ba mươi sáu giờ không nghỉ. → Thay bằng ảnh minh họa ba nhà thám hiểm đang leo núi băng giá hiểm trở với dây thừng và rìu.
+❌ 14 (ảnh mô phỏng AI) ·  085.jpg
+     ❌ Lời kể nói về ba người đang leo qua dãy núi chưa ai vượt bằng sức người với dây, rìu và đinh vít, nhưng ảnh lại vẽ ba người đang ngồi thảnh thơi trên một chiếc phao thừng hoặc xe trượt tuyết ở vùng tuyết thoải, không phù hợp với ngữ cảnh leo núi hiểm trở. → Thay thế bằng ảnh minh họa ba nhà thám hiểm đang vất vả leo núi tuyết hiểm trở, có mang theo dây thừng và rìu phá băng.
+✅ 15 (ảnh mô phỏng AI) ·  087.jpg
+✅ 16 (ảnh mô phỏng AI) ·  088.jpg
+✅ 17 (ảnh mô phỏng AI) ·  094.jpg
+⚠️ 18 (ảnh mô phỏng AI) ·  095.jpg
+     ⚠️ Lời kể chỉ nhắc đến tàu hải quân Chile nhìn thấy bờ đảo, nhưng ảnh minh họa vẽ cảnh bắt tay giữa hai người trên bờ. → Có thể dùng ảnh minh họa tập trung vào con tàu nhỏ của hải quân Chile đến gần bờ đảo để bám sát lời kể hơn.
+❌ 19 (ảnh mô phỏng AI) ·  097.jpg
+     ❌ Lỗi giải phẫu bàn tay: nhân vật bên trái có bàn tay trái (giơ lên) bị ngược ngón cái và hình dạng bất thường, nhân vật ở giữa có bàn tay trái (giơ lên) bị dị dạng ngón tay, nhân vật bên phải có bàn tay phải (giơ lên) có cấu trúc ngón tay và lòng bàn tay không tự nhiên. → Tạo lại ảnh với bàn tay của các nhân vật được vẽ đúng giải phẫu, đủ ngón.
+⚠️ 20 (ảnh mô phỏng AI) ·  099.jpg
+     ⚠️ Ảnh AI vẽ một nhóm người trên tàu thay vì cảnh trên bờ như lời kể 'Trên bờ, hai mươi hai người chạy ra vẫy tay'. → Dùng ảnh minh họa nhóm người đang ở trên bờ đất liền vẫy tay chào mừng.
+✅ 21 (ảnh mô phỏng AI) ·  102.jpg
+✅ 22 (ảnh mô phỏng AI) ·  103.jpg

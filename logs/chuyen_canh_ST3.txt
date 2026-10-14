@@ -1,0 +1,4 @@
+CHUYỂN CẢNH ST3 (video ngắn) · bảng màu: fade, wipedown, wiperight, smoothleft, smoothup
+Thứ tự: cut → cut → cut → cut → cut → cut → dissolve → cut → cut → cut → cut → fadewhite → dissolve → fade → dissolve → fade → dissolve → cut → dissolve → cut → cut
+Số lần: cut 13, dissolve 5, fade 2, fadewhite 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

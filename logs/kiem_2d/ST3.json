@@ -1,78 +1,38 @@
 {
- "011": {
-  "so_nguoi_thay": 2,
-  "tre_con": false,
-  "lech_nhan_vat": [],
-  "giai_phau": [],
-  "chu_la": false,
-  "sai_thoi": [],
-  "mat_sinh_vat": false,
-  "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
-  "_ly_do": [
-   "thừa người (2 thay vì 1)"
-  ]
- },
- "014": {
-  "so_nguoi_thay": 2,
-  "tre_con": false,
-  "lech_nhan_vat": [],
-  "giai_phau": [],
-  "chu_la": false,
-  "sai_thoi": [],
-  "mat_sinh_vat": false,
-  "lac_de": false,
-  "diem": 2,
-  "ghi_chu": "Lỗi AI tự nhân bản nhân vật thành 2 người giống hệt nhau ngồi cạnh nhau.",
-  "_model": "gemini-flash-lite-latest",
-  "_ly_do": [
-   "thừa người (2 thay vì 1)",
-   "điểm 2/5"
-  ]
- },
  "038": {
   "so_nguoi_thay": 3,
-  "tre_con": false,
+  "tre_con": true,
   "lech_nhan_vat": [],
   "giai_phau": [],
   "chu_la": false,
   "sai_thoi": [],
   "mat_sinh_vat": false,
   "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
-  "_ly_do": []
+  "diem": 3,
+  "ghi_chu": "Gương mặt nhân vật vẽ má hồng tròn trĩnh mang nét hoạt hình thiếu nhi, chưa thể hiện được sự khắc nghiệt phong trần.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "có người giống trẻ con / hoạt hình"
+  ]
  },
  "059": {
   "so_nguoi_thay": 2,
-  "tre_con": false,
+  "tre_con": true,
   "lech_nhan_vat": [],
-  "giai_phau": [],
+  "giai_phau": [
+   "Vị trí thuyền và chân của nhân vật bên trái lồng ghép thiếu tự nhiên"
+  ],
   "chu_la": false,
   "sai_thoi": [],
   "mat_sinh_vat": false,
   "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
-  "_ly_do": []
- },
- "070": {
-  "so_nguoi_thay": 8,
-  "tre_con": false,
-  "lech_nhan_vat": [],
-  "giai_phau": [],
-  "chu_la": false,
-  "sai_thoi": [],
-  "mat_sinh_vat": false,
-  "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
-  "_ly_do": []
+  "diem": 3,
+  "ghi_chu": "Nét vẽ mang hơi hướng hoạt hình thiếu nhi và nhân vật tươi cười chưa đúng vẻ kiệt sức.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "có người giống trẻ con / hoạt hình",
+   "giải phẫu: Vị trí thuyền và chân của nhân vật bên trái lồng ghép thiếu tự nhiên"
+  ]
  },
  "086": {
   "so_nguoi_thay": 2,
@@ -83,39 +43,51 @@
   "sai_thoi": [],
   "mat_sinh_vat": false,
   "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
+  "diem": 4,
+  "ghi_chu": "Hình ảnh thể hiện tốt nội dung lời kể và bám sát bảng nhân vật mẫu.",
+  "_model": "gemini-3.8-flash",
   "_ly_do": []
  },
  "094": {
   "so_nguoi_thay": 1,
   "tre_con": false,
-  "lech_nhan_vat": [],
+  "lech_nhan_vat": [
+   "Ernest Shackleton bị vẽ già hơn so với bảng mẫu, tóc bạc hai bên"
+  ],
   "giai_phau": [],
   "chu_la": false,
   "sai_thoi": [],
   "mat_sinh_vat": false,
   "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
-  "_ly_do": []
+  "diem": 3,
+  "ghi_chu": "Nhân vật Shackleton bị già và tóc hoa râm so với thiết kế mẫu, bố cục ổn.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lệch nhân vật: Ernest Shackleton bị vẽ già hơn so với bảng mẫu, tóc bạc hai bên"
+  ]
  },
- "100": {
-  "so_nguoi_thay": 0,
-  "tre_con": false,
-  "lech_nhan_vat": [],
-  "giai_phau": [],
-  "chu_la": true,
+ "011": {
+  "so_nguoi_thay": 2,
+  "tre_con": true,
+  "lech_nhan_vat": [
+   "Xuất hiện hai thuyền trưởng Frank Worsley giống hệt nhau, tóc có vệt bạc"
+  ],
+  "giai_phau": [
+   "Nhân bản trùng lặp hai nhân vật cạnh nhau"
+  ],
+  "chu_la": false,
   "sai_thoi": [],
   "mat_sinh_vat": false,
   "lac_de": false,
-  "diem": 5,
-  "ghi_chu": "ổn",
-  "_model": "gemini-flash-lite-latest",
+  "diem": 2,
+  "ghi_chu": "Hình bị trùng lặp hai nhân vật Frank Worsley và nét vẽ mang tính hoạt hình thiếu nhi.",
+  "_model": "gemini-3.8-flash",
   "_ly_do": [
-   "chữ lạ"
+   "có người giống trẻ con / hoạt hình",
+   "giải phẫu: Nhân bản trùng lặp hai nhân vật cạnh nhau",
+   "lệch nhân vật: Xuất hiện hai thuyền trưởng Frank Worsley giống hệt nhau, tóc có vệt bạc",
+   "thừa người (2 thay vì 1)",
+   "điểm 2/5"
   ]
  }
 }

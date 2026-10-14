@@ -5,35 +5,14 @@
   🖼️  Ảnh cho video ngắn
   🔍 Kiểm tra 22 ảnh: 7 ảnh lỗi, 6 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 30s…
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 30s…
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 30s…
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 45s…
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 30s…
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 30s…
-  🎙️  Gemini đọc 11/11 cảnh, mỗi cảnh một sắc thái (207s), tốc độ x1.12
   🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  72.1 giây · 22 hình · trung bình 3.3 giây/hình · ⚠️ 4 hình đứng quá 4 giây
+  ⏱️  73.8 giây · 22 hình · trung bình 3.4 giây/hình · ⚠️ 4 hình đứng quá 4 giây
   🎞️  Số lần: cut 13, dissolve 5, fade 2, fadewhite 1
-  🎬 Dựng 2163 khung hình (29s)
+  🎬 Dựng 2215 khung hình (50s)
   🔊 Tiếng động: hit, rise
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -3.8 dBTP
   🖼️  Ảnh bìa: 3 phương án (ST3_bia_1.jpg, ST3_bia_2.jpg, ST3_bia_3.jpg)
-✅ Xong output/ST3/ST3.mp4  (72.1s video, mất 280s)
+✅ Xong output/ST3/ST3.mp4  (73.8s video, mất 68s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 

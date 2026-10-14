@@ -1,12 +1,69 @@
-038: điểm 3 · có người giống trẻ con / hoạt hình · Gương mặt nhân vật vẽ má hồng tròn trĩnh mang nét hoạt hình thiếu nhi, chưa thể 
-059: điểm 3 · có người giống trẻ con / hoạt hình; giải phẫu: Vị trí thuyền và chân của nhân vật bên trái lồng ghép thiếu tự nhiên · Nét vẽ mang hơi hướng hoạt hình thiếu nhi và nhân vật tươi cười chưa đúng vẻ kiệ
-086: điểm 4 · ổn · Hình ảnh thể hiện tốt nội dung lời kể và bám sát bảng nhân vật mẫu.
-094: điểm 3 · lệch nhân vật: Ernest Shackleton bị vẽ già hơn so với bảng mẫu, tóc bạc hai bên · Nhân vật Shackleton bị già và tóc hoa râm so với thiết kế mẫu, bố cục ổn.
-011: điểm 2 · có người giống trẻ con / hoạt hình; giải phẫu: Nhân bản trùng lặp hai nhân vật cạnh nhau; lệch nhân vật: Xuất hiện hai thuyền trưởng Frank Worsley giống hệt nhau, tóc có vệt bạc; thừa người (2 thay vì 1); điểm 2/5 · Hình bị trùng lặp hai nhân vật Frank Worsley và nét vẽ mang tính hoạt hình thiếu
+011: không kiểm tra được (gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high de)
 014: không kiểm tra được (gemini-3.8-flash: HTTP 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high de)
-GEMINI XEM ẢNH 2D · ST3 · 5/6 ảnh đã kiểm tra
-Nên vẽ lại (4): 038,059,094,011
-Không kiểm tra được (1): 014
+038: không kiểm tra được (gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high de)
+059: không kiểm tra được (gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high de)
+071: không kiểm tra được (gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high de)
+072: không kiểm tra được ()
+073: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+074: không kiểm tra được ()
+076: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+078: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+080: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+081: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+085: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+094: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+095: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+098: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+101: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+103: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+GEMINI XEM ẢNH 2D · ST3 · 0/18 ảnh đã kiểm tra
+Nên vẽ lại (0): 
+Không kiểm tra được (18): 011,014,038,059,071,072,073,074,076,078,080,081,085,094,095,098,101,103

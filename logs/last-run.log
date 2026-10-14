@@ -1,9 +1,22 @@
 
-===== BA1: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
-   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+===== ST3 (video dài) =====
+▶️  Video dài ST3: Vì sao 28 người mắc kẹt ở Nam Cực đều sống sót? | Chuyến thám hiểm Endurance
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_ST3.json
+  🖼️  Ảnh cho video dài
+  🔍 Kiểm tra 103 ảnh: 43 ảnh lỗi, 5 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (9 chương)
+  ⏱️  Thời lượng 11:25 · 103 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-14 07:40:21.452018685 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     103/103 ảnh có độ sâu
+  🎞️  10 cảnh có clip chuyển động
+     16443 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (196 giây)
+     … 6/12 đoạn (358 giây)
+     … 9/12 đoạn (537 giây)
+     … 12/12 đoạn (551 giây)
+     dựng khung hình xong trong 551 giây
+  🔈 Âm lượng cuối: -15.3 LUFS, đỉnh -4.1 dBTP
+✅ Video dài: ST3_dai.mp4 (11:25)
 
-===== ST3: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · CÁC CẢNH VIDEO NGẮN] Phần nội dung các cảnh video ngắn hoàn toàn bị bỏ trống, thiếu kịch bản video ngắn và chữ trên hình theo yêu cầu của kế hoạch.
-   ⛔ Chưa dựng ST3: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
-Không dựng gì (kịch bản có lỗi, xem ở trên).
+Xong video ngắn: - · video dài: ST3

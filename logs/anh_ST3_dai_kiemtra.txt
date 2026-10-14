@@ -2,9 +2,8 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
 ❌ 1 (ảnh mô phỏng AI) ·  001.jpg
      ❌ Lời kể nhắc đến 28 người đàn ông mắc kẹt, nhưng trong ảnh chỉ vẽ khoảng 9 người. → Vẽ bổ sung số lượng người trên tảng băng trôi để khớp với con số 28 người theo lời kể.
 ✅ 2 (ảnh mô phỏng AI) ·  002.jpg
-⚠️ 3 (ảnh mô phỏng AI) ·  003.jpg
-     ⚠️ chưa nhờ Gemini soi được: gemini-flash-lite-latest: Invalid \uXXXX escape: line 1 column 93 (char 92) | gemini-3.8-flash: HTTP 503: {
-  "error": {
+❌ 3 (ảnh mô phỏng AI) ·  003.jpg
+     ❌ Ảnh hiển thị rõ khuôn mặt của nhân vật lịch sử Ernest Shackleton, vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Vẽ nhân vật Ernest Shackleton quay lưng, ở xa hoặc trong bóng tối để không thấy rõ khuôn mặt.
 ✅ 4 (ảnh mô phỏng AI) ·  004.jpg
 ✅ 5 (ảnh mô phỏng AI) ·  005.jpg
 ❌ 6 (ảnh mô phỏng AI) · Luân Đôn · 1914 006.jpg
@@ -23,8 +22,7 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
      ⚠️ Chi tiết cuộn dây thừng bọc ngang quanh hông/đùi nhân vật chính nhìn rất kỳ dị và vô lý do lỗi tạo hình của AI. → Loại bỏ cuộn dây thừng quấn ngang người, vẽ nhân vật đứng tự nhiên bên cạnh trang thiết bị tàu biển.
 ❌ 13 (ảnh mô phỏng AI) ·  013.jpg
      ❌ Ảnh AI tạo ra hiển thị rõ mặt của nhân vật lịch sử (Frank Hurley hoặc Tom Crean), vi phạm quy tắc không được vẽ rõ khuôn mặt nhân vật lịch sử có thật. → Thay đổi hình ảnh để nhân vật quay lưng, ở xa hoặc trong bóng tối, không nhìn rõ khuôn mặt.
-❌ 14 (ảnh mô phỏng AI) ·  014.jpg
-     ❌ Ảnh hiển thị khuôn mặt nhìn rõ của một nhân vật được cho là bác sĩ Alexander Macklin hoặc nhiếp ảnh gia Frank Hurley, vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc sử dụng ảnh phong cảnh, hiện vật phù hợp.
+✅ 14 (ảnh mô phỏng AI) ·  014.jpg
 ❌ 15 (ảnh mô phỏng AI) ·  015.jpg
      ❌ Ảnh minh họa xuất hiện nhiều chó kéo xe đứng cùng các thành viên đoàn tàu, nhưng phong cách vẽ AI tạo ra những con chó trông rất giống sói hoặc có nét mặt và giải phẫu không tự nhiên, đồng thời số lượng chó hiển thị quá ít so với con số 69 chú chó được nhắc đến trong lời kể. → Điều chỉnh lại hình ảnh các chú chó kéo xe cho đúng loài (chó kéo xe Bắc Cực thay vì giống chó trông giống sói) và đảm bảo chất lượng hình ảnh AI không bị lỗi giải phẫu.
 ✅ 16 (ảnh mô phỏng AI) · South Georgia · 5/12/1914 016.jpg
@@ -89,8 +87,7 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
 ✅ 56 (ảnh mô phỏng AI) ·  056.jpg
 ✅ 57 (ảnh mô phỏng AI) ·  057.jpg
 ✅ 58 (ảnh mô phỏng AI) · Đảo Elephant · 4/1916 058.jpg
-❌ 59 (ảnh mô phỏng AI) ·  059.jpg
-     ❌ Lời kể tả cảnh đặt chân lên đảo hoang Nam Cực lạnh giá sau nhiều tháng lênh đênh kiệt sức, nhưng ảnh AI tạo ra cảnh bãi biển đầy cát vàng, thời tiết ấm áp, các nhân vật cười nói vui vẻ như đi dạo trên bờ biển ôn đới. → Thay thế bằng ảnh thể hiện bãi đá lạnh giá, băng tuyết hoặc bờ biển khắc nghiệt của Nam Cực với tâm trạng mệt mỏi, kiệt sức đúng với lời kể.
+✅ 59 (ảnh mô phỏng AI) ·  059.jpg
 ⚠️ 60 (ảnh mô phỏng AI) ·  060.jpg
      ⚠️ Trang phục của nhân vật trung tâm mặc áo khoác vải kiểu quân sự thông thường thay vì trang phục chống rét chuyên dụng cho thám hiểm Nam Cực. → Điều chỉnh trang phục dày dặn, phù hợp với thời tiết băng giá ở Nam Cực.
 ✅ 61 (ảnh mô phỏng AI) · Cape Wild · 17/4/1916 061.jpg
@@ -100,8 +97,7 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
      ❌ Ảnh vẽ cảnh nhiều người đứng ở cảng/thuyền, không khớp với lời kể về việc dựng chỗ trú bằng hai chiếc xuồng lật úp trên tường đá và lo lắng về mùa đông Nam Cực. → Thay thế bằng ảnh minh họa nhóm người đang dựng chỗ trú với hai chiếc xuồng lật úp trên các bức tường đá ở Nam Cực.
 ❌ 64 (ảnh mô phỏng AI) ·  064.jpg
      ❌ Lời kể nói về hoàn cảnh bị mắc kẹt ở Nam Cực khi mùa đông sắp đến và cần tìm sự giúp đỡ, nhưng ảnh minh họa lại vẽ cảnh nhóm người đứng ở cả biển ôn đới với tàu thuyền và chim hải âu bay lượn, không phù hợp với bối cảnh băng giá Nam Cực. → Thay thế bằng ảnh minh họa thể hiện bối cảnh băng tuyết Nam Cực, lều trại hoặc băng trôi đúng với sự kiện chuyến thám hiểm Endurance.
-❌ 65 (ảnh mô phỏng AI) ·  065.jpg
-     ❌ Ảnh AI tạo ra các chi tiết bất hợp lý về mặt không gian và nhân vật: có tới 4 người đàn ông giống hệt nhau đứng trên bờ biển (lặp nhân vật) và một đường đứt đoạn nối giữa hai nhóm người qua mặt biển rất kỳ lạ. → Dùng ảnh minh họa chỉ vẽ Shackleton hoặc nhóm thám hiểm chuẩn bị lên đường đi tìm trạm săn cá voi thay vì lặp nhân vật và có đường đứt đoạn kỳ lạ.
+✅ 65 (ảnh mô phỏng AI) ·  065.jpg
 ❌ 66 (ảnh mô phỏng AI) ·  066.jpg
      ❌ Lời kể chỉ định 'Phương tiện duy nhất là chiếc James Caird, dài chưa tới bảy mét', nhưng ảnh lại vẽ một nhóm đông người (hơn 10 người) đứng trên bờ biển cùng một chiếc thuyền nhỏ, không phù hợp với ngữ cảnh vượt biển của một nhóm nhỏ. → Thay thế bằng ảnh minh họa tập trung vào chiếc thuyền James Caird nhỏ bé trên vùng biển dữ đúng với nội dung lời kể.
 ❌ 67 (ảnh mô phỏng AI) ·  067.jpg
@@ -113,32 +109,29 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
      ❌ Lời kể nói về chiếc xuồng nhỏ chở đoàn đi qua vùng biển động (với Ernest Shackleton và những người khác), nhưng bức ảnh vẽ quá nhiều người (khoảng 8 người) chen chúc trên một chiếc thuyền buồm nhỏ không đúng thực tế của chiếc xuồng cứu sinh James Caird chỉ có 6 người. → Sửa lại ảnh chỉ minh họa đúng chiếc xuồng nhỏ có khoảng 6 người trên biển sóng lớn.
 ✅ 71 (ảnh mô phỏng AI) ·  071.jpg
 ✅ 72 (ảnh mô phỏng AI) ·  072.jpg
-❌ 73 (ảnh mô phỏng AI) ·  073.jpg
-     ❌ Ảnh AI tạo ra có lỗi giải phẫu rõ rệt ở bàn tay phải của nhân vật chính cầm dụng cụ điều hướng: ngón tay bị dị dạng, gộp dính và không tự nhiên. → Dùng AI tạo lại ảnh với bàn tay cầm dụng cụ được vẽ chuẩn xác hơn.
-❌ 74 (ảnh mô phỏng AI) ·  074.jpg
-     ❌ Ảnh AI tạo hiển thị cận cảnh khuôn mặt của nhân vật lịch sử có thật (Worsley đang tính toán/ghi chép trên tàu), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ Worsley từ phía sau, ở góc rộng, hoặc tập trung vào dụng cụ điều hướng và bầu trời thay vì vẽ rõ khuôn mặt.
+✅ 73 (ảnh mô phỏng AI) ·  073.jpg
+✅ 74 (ảnh mô phỏng AI) ·  074.jpg
 ✅ 75 (ảnh mô phỏng AI) ·  075.jpg
-⚠️ 76 (ảnh mô phỏng AI) · South Georgia · 10/5/1916 076.jpg
-     ⚠️ Ảnh minh họa ba người đàn ông đi bộ trên bờ biển với núi tuyết phía sau, phù hợp với cảnh cập đảo South Georgia trong lời kể, tuy nhiên cần lưu ý phong cách vẽ AI có thể không sát với chân dung thực tế của các nhà thám hiểm. → Có thể giữ nguyên vì phù hợp với bối cảnh chuyến thám hiểm cập bến.
+❌ 76 (ảnh mô phỏng AI) · South Georgia · 10/5/1916 076.jpg
+     ❌ Lời kể chỉ nhắc đến sự kiện thuyền James Caird cập vào vịnh King Haakon sau hành trình trên biển, không đề cập đến việc ba người cụ thể này bước lên bờ cùng lúc như trong ảnh minh họa. → Điều chỉnh hình ảnh tập trung vào chiếc thuyền James Caird cập bờ hoặc phong cảnh vịnh King Haakon thay vì vẽ cận cảnh ba nhân vật không xác định.
 ✅ 77 (ảnh mô phỏng AI) ·  077.jpg
-⚠️ 78 (ảnh mô phỏng AI) ·  078.jpg
-     ⚠️ Ảnh AI tạo ra hai nhân vật chính có khuôn mặt và trang phục gần như giống hệt nhau, đứng song song nhìn lên núi, trông hơi bất hợp lý về mặt hình ảnh. → Có thể dùng ảnh minh họa nhóm người ngước nhìn dãy núi tuyết một cách tự nhiên hơn mà không cần tạo hình hai nhân vật quá giống nhau ở tiền cảnh.
+✅ 78 (ảnh mô phỏng AI) ·  078.jpg
 ✅ 79 (ảnh mô phỏng AI) ·  079.jpg
 ❌ 80 (ảnh mô phỏng AI) ·  080.jpg
-     ❌ Lời kể chỉ nhắc đến ba người đi bộ (Shackleton, Worsley và Crean) và ba người ở lại với thuyền, nhưng bức ảnh vẽ quá nhiều người đứng xung quanh (hơn 6 người) không đúng với ngữ cảnh hiện tại. → Vẽ lại khung cảnh chỉ có tối đa ba nhân vật chính đang chuẩn bị đồ đạc hoặc ít người hơn cho đúng với số lượng nhân vật trong đoạn kể.
-❌ 81 (ảnh mô phỏng AI) ·  081.jpg
-     ❌ Nhân vật đang dùng tuốc nơ vít vặn ốc vào lỗ dây giày thay vì vặn đinh vít vào đế giày như lời kể. → Sửa lại hình ảnh sao cho nhân vật đang dùng đinh vít vặn vào phần đế của chiếc giày.
+     ❌ Lời kể đề cập đến ba người đi bộ (Shackleton, Worsley và Crean), nhưng ảnh AI do chỉ vẽ có 2 nhân vật. → Tạo lại ảnh minh họa đầy đủ 3 nhân vật đúng như lời kể.
+✅ 81 (ảnh mô phỏng AI) ·  081.jpg
 ✅ 82 (ảnh mô phỏng AI) · South Georgia · 19/5/1916 082.jpg
-✅ 83 (ảnh mô phỏng AI) ·  083.jpg
+⚠️ 83 (ảnh mô phỏng AI) ·  083.jpg
+     ⚠️ Ảnh vẽ hai nhân vật đứng trên vách đá ban ngày, trong khi lời kể diễn tả cảnh xuất phát lúc ba giờ sáng dưới ánh trăng và việc leo lên đỉnh rồi gặp vách đá phải leo ngược xuống. → Nên điều chỉnh lại ánh sáng trong ảnh thành cảnh ban đêm dưới ánh trăng để phù hợp với chi tiết 'lúc ba giờ sáng dưới ánh trăng' trong lời kể.
 ❌ 84 (ảnh mô phỏng AI) ·  084.jpg
-     ❌ Ảnh minh họa vẽ hai người đàn ông cầm dây đi trên tuyết gần tàu thuyền, không khớp với nội dung lời kể đang nói về việc leo núi, sương mù dày, trời tối và nguy cơ ngủ quên trên tuyết. → Thay bằng ảnh thể hiện nhóm người đang leo trèo qua vách đá hoặc di chuyển trong sương mù và trời tối trên vùng núi tuyết.
-❌ 85 (ảnh mô phỏng AI) ·  085.jpg
-     ❌ Lời kể tả cảnh họ ngồi lên cuộn dây và trượt xuống một sườn núi dốc trong bóng tối, nhưng ảnh lại vẽ ban ngày, sáng sủa và ba người đang ngồi cứng ngắc trên cuộn dây tạo dáng như chụp ảnh. → Tạo lại ảnh thể hiện cảnh trời tối, sương mù và các thành viên đang trượt xuống dốc với tốc độ nhanh, phù hợp với không khí khẩn trương trong lời kể.
-⚠️ 86 (ảnh mô phỏng AI) ·  086.jpg
-     ⚠️ Ảnh minh họa cảnh các thành viên đứng cười trên tuyết, nhưng thiếu chi tiết cuộn dây được nhắc đến trong lời kể để họ trượt xuống dốc. → Bổ sung thêm cuộn dây hoặc tư thế đang ngồi trượt trên tuyết để sát với nội dung lời kể.
+     ❌ Lời kể đang tả cảnh đoàn người leo núi, sương mù dày và trời tối dần, nhưng ảnh lại vẽ hai người mặc đồ không phù hợp đang đi trên mặt phẳng có tàu thuyền phía sau, không thể hiện đúng hành động leo vách đá hay bối cảnh sương mù tối trời theo lời kể. → Cần thay bằng ảnh minh họa nhóm người đang vất vả leo núi tuyết trong điều kiện sương mù dày đặc và trời tối.
+⚠️ 85 (ảnh mô phỏng AI) ·  085.jpg
+     ⚠️ Lời kể miêu tả tình huống trời tối dần, sương mù dày và trượt xuống sườn núi dốc trong bóng tối, nhưng ảnh lại thể hiện ban ngày với trời sáng rõ. → Điều chỉnh ánh sáng trong ảnh thành cảnh trời tối, có sương mù hoặc ban đêm đúng với nội dung lời kể.
+❌ 86 (ảnh mô phỏng AI) ·  086.jpg
+     ❌ Ảnh vẽ hai người đang đứng cười trên mặt đất phẳng có tuyết và tàu thuyền xung quanh, hoàn toàn không khớp với sự việc trong lời kể là họ vừa ngồi trên cuộn dây trượt xuống một sườn núi dốc trong bóng tối. → Vẽ lại cảnh hai người đang ngồi trên cuộn dây trượt tuyết xuống sườn núi dốc trong bóng tối để minh họa chính xác sự việc.
 ✅ 87 (ảnh mô phỏng AI) · Stromness · 20/5/1916 087.jpg
 ❌ 88 (ảnh mô phỏng AI) ·  088.jpg
-     ❌ Nhân vật mặc trang phục quá gọn gàng, sạch sẽ, không phù hợp với lời kể 'Quần áo rách tả tơi, mặt lem khói dầu, râu tóc bù xù'. → Vẽ lại nhân vật với quần áo rách rưới, bẩn thỉu, mặt lem luốc khói dầu và râu tóc bù xù hơn để khớp với nội dung.
+     ❌ Ảnh vẽ nhân vật mặc quần áo tương đối lành lặn, sạch sẽ, không khớp với lời kể 'Quần áo rách tả tơi, mặt lem khói dầu, râu tóc bù xù'. → Cần sửa lại hình ảnh nhân vật với quần áo rách rưới, vá víu, mặt lem luốc khói dầu và râu tóc bù xù hơn để khớp với lời kể.
 ✅ 89 (ảnh mô phỏng AI) ·  089.jpg
 ❌ 90 (ảnh mô phỏng AI) · Stromness · 20/5/1916 090.jpg
      ❌ Lời kể chỉ nhắc đến việc 'một tàu săn cá voi được cử đi đón ba người còn lại', nhưng ảnh lại vẽ quá nhiều người (khoảng 5-6 người đứng trên bờ và một tàu) không khớp với số lượng 'ba người' trong lời thoại. → Vẽ lại khung cảnh với đúng số lượng nhân vật được nhắc đến trong lời kể để tránh gây hiểu lầm.
@@ -146,17 +139,18 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
 ✅ 92 (ảnh mô phỏng AI) ·  092.jpg
 ❌ 93 (ảnh mô phỏng AI) ·  093.jpg
      ❌ Lời kể đề cập đến các chuyến tàu cứu hộ (tàu Southern Sky, tàu từ Uruguay, tàu buồm thuê ở Chile) phải quay về vì băng và bão, nhưng ảnh lại minh họa một chiếc tàu buồm nhỏ chở đầy người đang đi trên biển. → Thay đổi ảnh minh họa phù hợp với nội dung lời kể, thể hiện một con tàu cứu hộ đang gặp khó khăn trước vùng biển băng giá thay vì vẽ một nhóm người trên thuyền buồm nhỏ.
-✅ 94 (ảnh mô phỏng AI) ·  094.jpg
+❌ 94 (ảnh mô phỏng AI) ·  094.jpg
+     ❌ Anh minh hoa nhan vat Ernest Shackleton nhung hien thi ro khuon mat, vi pham quy dinh khong duoc ve ro khuon mat nhan vat lich su co that. → Ve nhan vat quay lung, o xa hoac trong bong toi khong nhin rõ khuon mat.
 ✅ 95 (ảnh mô phỏng AI) ·  095.jpg
 ✅ 96 (ảnh mô phỏng AI) · Đảo Elephant · 30/8/1916 096.jpg
 ❌ 97 (ảnh mô phỏng AI) ·  097.jpg
      ❌ Nhân vật bên trái có bàn tay vẫy chào bị dị dạng bất thường (quá dài hoặc nhiều ngón/sai khớp). → Tạo lại ảnh AI với bàn tay được vẽ chính xác hơn.
 ❌ 98 (ảnh mô phỏng AI) ·  098.jpg
-     ❌ Lời kể nói về việc Shackleton đếm 22 người trên bờ từ thuyền hoặc nhìn vào bờ, nhưng ảnh lại vẽ hai nhân vật đang đứng trên boong tàu và nhìn nhau, không phải cảnh Shackleton đếm người trên bờ. → Vẽ cảnh Shackleton nhìn về phía bờ biển nơi cúacute;c thành viên đang đứng vạy tay.
+     ❌ Lời kể đang miêu tả cảnh Shackleton đứng trên tàu nhìn vào bờ để đếm 22 người đang vẫy tay dưới xuồng lật úp, nhưng ảnh lại vẽ hai nhân vật nam đứng đối thoại cận cảnh trên boong tàu, không khớp với sự việc trong lời kể. → Thay thế bằng ảnh minh họa Shackleton đứng trên tàu nhìn về phía bờ biển có nhóm người đang vẫy tay.
 ✅ 99 (ảnh mô phỏng AI) ·  099.jpg
 ✅ 100 (ảnh mô phỏng AI) · Biển Weddell · 2022 100.jpg
 ❌ 101 (ảnh mô phỏng AI) ·  101.jpg
-     ❌ Lời kể nói về việc tìm thấy xác tàu Endurance dưới đáy biển sâu hơn ba ngìn mét vào năm 2022, nhƱng ảnh lại minh họa con tàu nổi và các thám hiểm gia trên cạn, mâu thuẫn với ngữ cảnh. → Dùng ảnh minh họa xác tàu ngập sâu dưới đáy biển hoặc hình ảnh sonar/khai quật xác tàu tương ứng với mốc năm 2022.
+     ❌ Ảnh minh họa tàu Endurance dưới đáy biển nhưng phần chữ trên thân tàu (vùng đuôi tàu) bị lỗi font, tạo thành các ký tự vô nghĩa, nhòe và không phải tên 'Endurance'. Ngoài ra, tàu được vẽ theo phong cách tàu buồm cổ thế kỷ 18-19 thay vì tàu thám hiểm chạy bằng cả buồm và hơi nước Endurance thực tế (có thiết kế thân tàu chắc chắn để phá băng và cột ống khói hơi nước rõ ràng hơn). → Sửa lại hình ảnh tàu Endurance đúng với thiết kế lịch sử (tàu ba cột buồm có kết hợp động cơ hơi nước), nằm thẳng dưới đáy biển và khắc chữ 'Endurance' rõ ràng, chuẩn xác trên thân tàu.
 ❌ 102 (ảnh mô phỏng AI) ·  102.jpg
      ❌ Ảnh vẽ cận cảnh khuôn mặt của nhân vật lịch sử Ernest Shackleton, vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay đổi ảnh minh họa bằng cách vẽ nhân vật chính quay lưng, ở xa, hoặc trong bóng tối để không lộ rõ khuôn mặt.
 ✅ 103 (ảnh mô phỏng AI) ·  103.jpg

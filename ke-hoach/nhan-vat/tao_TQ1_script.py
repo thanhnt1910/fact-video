@@ -121,7 +121,13 @@ def img(k):
 
 chapters = []
 cnt = Counter()
-for title, beats in CH:
+def _split(beats, mx=7):
+    n = -(-len(beats) // mx)
+    sz = -(-len(beats) // n)
+    return [beats[i:i + sz] for i in range(0, len(beats), sz)]
+
+for title, beats0 in CH:
+  for beats in _split(beats0):
     chapters.append({"beats": [dict({"text": t, "ai": "ancient Han China scene, 2D ligne claire", "anh_file": img(k)}, **({"clip_file": f"assets/clips_2d/TQ1/{k}.mp4"} if k in CLIPS else {})) for t, k in beats]})
     for t, k in beats:
         cnt[k] += 1

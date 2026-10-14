@@ -1,22 +1,10 @@
 
-===== ST3 (video dài) =====
-▶️  Video dài ST3: Vì sao 28 người mắc kẹt ở Nam Cực đều sống sót? | Chuyến thám hiểm Endurance
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_ST3.json
-  🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 103 ảnh: 44 ảnh lỗi, 5 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (9 chương)
-  ⏱️  Thời lượng 11:25 · 103 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-14 08:56:21.628080748 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     103/103 ảnh có độ sâu
-  🎞️  10 cảnh có clip chuyển động
-     16443 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (184 giây)
-     … 6/12 đoạn (355 giây)
-     … 9/12 đoạn (528 giây)
-     … 12/12 đoạn (541 giây)
-     dựng khung hình xong trong 542 giây
-  🔈 Âm lượng cuối: -15.3 LUFS, đỉnh -4.1 dBTP
-✅ Video dài: ST3_dai.mp4 (11:25)
+===== ST3 (video ngắn + bài ảnh) =====
+❌ ST3.json:
+   - thiếu trường 'scenes'
+   - không có cảnh nào
 
-Xong video ngắn: - · video dài: ST3
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+
+Xong video ngắn: - · video dài: -
+Lỗi: ST3

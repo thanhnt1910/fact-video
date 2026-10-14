@@ -384,6 +384,12 @@ def _beat_images(script, beats, work):
             if im.get("url"):
                 im["_src"] = uniq[json.dumps({k: v for k, v in im.items() if not k.startswith("_")},
                                              sort_keys=True, ensure_ascii=False)]["image_src"]
+            elif im.get("anh_file"):
+                f = (ROOT / im["anh_file"]).resolve()
+                if not f.exists():
+                    raise RuntimeError(f"thiếu ảnh {im['anh_file']}")
+                im["_src"], im["_ai"] = f.as_uri(), True
+                used_ai = True
             elif im.get("mo_phong"):
                 key = hashlib.sha1((ai_images.STYLE_PHOTO_ID + "|" + im["mo_phong"]).encode()).hexdigest()[:16]
                 f = long_video.AI_CACHE / f"mp_{key}.jpg"

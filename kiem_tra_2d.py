@@ -26,8 +26,8 @@ Lời kể đang đọc lúc ảnh hiện:
 "{text}"
 
 Hãy nhìn kỹ ảnh rồi trả lời JSON đúng dạng:
-{{"so_nguoi_thay": <số người thấy trong ảnh, đếm cả người nhỏ ở xa nếu rõ>,
- "tre_con": <true nếu có người trông giống trẻ em / bé gái / thiếu niên hoặc đầu quá to kiểu hoạt hình, false nếu mọi người đều là người lớn>,
+{{"so_nguoi_thay": <ĐẾM từng khuôn mặt / từng người trong ảnh; nếu nhiều hơn 8 người ở xa thì ghi 9>,
+ "tre_con": <true nếu BẤT KỲ người nào có mặt tròn bầu bĩnh má hồng, mắt to, đầu to so với thân, dáng lùn tròn kiểu hoạt hình thiếu nhi, hoặc trông như trẻ em / bé gái / thiếu niên; false CHỈ KHI mọi người đều có tỉ lệ người lớn thật sự và gương mặt từng trải>,
  "lech_nhan_vat": [<các nhân vật có tên bị vẽ lệch rõ so với mô tả (tóc, râu, mũ, áo) hoặc lệch so với bảng mẫu>],
  "giai_phau": [<lỗi cụ thể: thừa/thiếu tay chân ngón, mặt méo, hai người dính nhau, vật mọc ra từ người...>],
  "chu_la": <true nếu có chữ vô nghĩa hoặc sai chính tả đọc được rõ trong ảnh; chữ nhỏ mờ trên tàu bỏ qua>,

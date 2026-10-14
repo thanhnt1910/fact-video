@@ -1,28 +1,58 @@
 
-===== PV7: kiểm tra kịch bản trước khi dựng =====
-   (chưa kiểm tra được kịch bản PV7:dai trước khi dựng: gemini-flash-lite-latest: HTTP 402: {
-  "error": {
-    "code": 402,
-    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.s, vẫn dựng tiếp)
+===== ST3: kiểm tra kịch bản trước khi dựng =====
 
-===== PV7 (video dài) =====
-▶️  Video dài PV7: Chiến dịch Mincemeat: người chưa từng tồn tại đã lừa Hitler như thế nào?
-  ⚖️  Bằng chứng bản quyền: 45 ảnh tư liệu + 10 tranh AI → logs/nguon_anh_PV7.json
+===== ST3 (video dài) =====
+▶️  Video dài ST3: Vì sao 28 người mắc kẹt ở Nam Cực đều sống sót? | Chuyến thám hiểm Endurance
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_ST3.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 55 ảnh: 0 ảnh lỗi, 37 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (12 chương)
-  ⏱️  Thời lượng 08:08 · 69 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-13 13:08:48.762850086 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     55/55 ảnh có độ sâu
-     11733 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (148 giây)
-     … 6/12 đoạn (274 giây)
-     … 9/12 đoạn (397 giây)
-     … 12/12 đoạn (407 giây)
-     dựng khung hình xong trong 407 giây
-  🔊 Tiếng động nền: bien, dien_bao, nuoc, tau_hoa
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
-✅ Video dài: PV7_dai.mp4 (08:08)
+  🔍 Kiểm tra 103 ảnh: 46 ảnh lỗi, 7 ảnh cần xem
+❌ Video dài ST3: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_ST3_dai_kiemtra.txt):
+  001.jpg: Lời kể nhắc đến 28 người đàn ông mắc kẹt, nhưng trong ảnh chỉ vẽ khoảng 9 người. → Vẽ bổ sung số lượng người trên tảng băng trôi để khớp với con số 28 người theo lời kể.
+  003.jpg: Lời kể nhắc đến 'một chiếc xuồng gỗ nhỏ', nhưng hình ảnh lại vẽ một chiếc xe kéo trượt tuyết (sledge) bằng gỗ có hình dáng giống thuyền thay vì xuồng đi biển thực tế. → Sửa lại hình ảnh chiếc xuồng gỗ nhỏ thành một chiếc xuồng cứu sinh bằng gỗ thực tế đúng ngữ cảnh thám hiểm Nam Cực.
+  004.jpg: Ảnh vẽ một nhân vật nam có khuôn mặt nhìn rõ đứng trên tàu, nhưng theo quy định không được vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật (như Ernest Shackleton). → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để tránh lộ rõ khuôn mặt.
+  006.jpg: Ảnh vẽ hiển thị rõ khuôn mặt của nhân vật lịch sử Ernest Shackleton (người được nhắc đến trong lời kể năm 1914), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Vẽ nhân vật Ernest Shackleton quay lưng, ở xa, trong bóng tối hoặc thay bằng cảnh minh họa bối cảnh, bản đồ, tàu Endurance thay vì vẽ rõ mặt nhân vật.
+  008.jpg: Chữ viết tên tàu trên mạn thuyền bị lỗi chính tả AI tạo ra thành "ENDRIONC" thay vì "Endurance" theo đúng lời kể. → Sửa lại chữ viết trên mạn tàu thành chính xác tên "Endurance".
+  010.jpg: Chữ viết trên mạn tàu bị lỗi hiển thị thành ký tự lạ vô nghĩa thay vì tên tàu 'Endurance'. → Sửa lại chữ trên mạn tàu thành 'Endurance' đúng với lời kể.
+  011.jpg: Lời kể chỉ nhắc đến một thuyền trưởng là Frank Worsley, nhưng hình ảnh AI lại vẽ xuất hiện hai người mặc quân phục thủy thủ giống nhau trên tàu. → Sửa lại ảnh chỉ có duy nhất một nhân vật thuyền trưởng Frank Worsley đứng trên boong tàu.
+  012.jpg: Ảnh vẽ một nhân vật nam không rõ đang minh họa cho Frank Worsley hay Tom Crean, và phong cách vẽ AI tạo ra khuôn mặt nhân vật lịch sử có thật với diện mạo không chính xác (người da trắng lịch sử lại được vẽ theo dạng hoạt hình châu Á). → Sử dụng ảnh chân dung tư liệu lịch sử thật của Frank Worsley hoặc Tom Crean thay vì dùng ảnh AI vẽ minh họa dạng hoạt hình không rõ đặc điểm nhận diện.
+  013.jpg: Máy ảnh và ống kính trong hình là loại máy ảnh SLR hiện đại, không phù hợp với thời kỳ thám hiểm Endurance năm 1914-1917 khi Frank Hurley sử dụng máy ảnh plate lớn mang theo hàng trăm tấm kính. → Dùng ảnh minh họa máy ảnh cổ điển dạng hộp hoặc máy ảnh dùng kính rọi hậu (plate camera) đúng thời kỳ đầu thế kỷ 20.
+  014.jpg: Ảnh AI vẽ hai người có ngoại hình giống hệt nhau (như sinh đôi) cùng mặc vest và đội mũ, ngồi trong phòng có kệ đựng chai lọ giống phòng thí nghiệm hoặc y tế. Lời kể nhắc đến bác sĩ Alexander Macklin nhưng không nhắc đến việc có hai người y hệt nhau, và hình ảnh này không minh họa rõ ràng cho bác sĩ hoặc nhiếp ảnh gia. → Vẽ lại ảnh minh họa chỉ có một nhân vật là bác sĩ Alexander Macklin đang làm việc với dụng cụ y tế, hoặc vẽ một người cầm máy ảnh để minh họa cho nhiếp ảnh gia Frank Hurley.
+  015.jpg: Ảnh AI tạo ra lỗi nhân đôi nhân vật (xuất hiện hai cậu bé giống hệt nhau cùng mặc áo khoác tối màu, đội mũ lưỡi trai đứng cùng một khung cảnh với lũ chó kéo xe). → Vẽ lại chỉ có một cậu thanh niên Perce Blackborow trốn cùng với các chú chó.
+  018.jpg: Nhân vật đứng trên tảng băng trôi chỉ tay về phía con tàu, không phù hợp với phân đoạn lời kể tả con tàu đang lách qua băng trôi để chuẩn bị tới đất liền. → Thay đổi hình ảnh thành góc nhìn từ trên tàu đang lách qua các tảng băng trôi hoặc thủy thủ đoàn trên tàu quan sát băng.
+  025.jpg: Nhân vật lịch sử có thật (Frank Hurley) được vẽ rõ khuôn mặt đang đứng tạo dáng trước máy ảnh, vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối không thấy rõ mặt đang thao tác chụp ảnh.
+  027.jpg: Lời kể đang nói về việc băng nâng thân tàu lên, gỗ kêu răng rắc và tàu bị bóp nghẹt, nhưng ảnh lại vẽ hai người đang đứng cười nói thản nhiên trên boong tàu dưới ánh trăng, không thể hiện được sự căng thẳng và nguy hiểm của sự việc. → Thay thế bằng hình ảnh minh họa thân tàu đang bị băng ép nghiêng, nứt vỡ hoặc các thủy thủ đang lo lắng bên trong tàu.
+  028.jpg: Lời kể tả cảnh ngặt nghèo trên tàu Endurance bị băng ép ở Nam Cực, nhưng ảnh minh họa lại vẽ cảnh hai người đang đứng trên boong tàu ở một bến cảng có thời tiết ôn hòa, giống như đang chuẩn bị hàng hóa bình thường. → Vẽ lại cảnh trên boong tàu bị kẹt giữa các khối băng lớn ở Nam Cực, với các nhân vật đang khẩn trương chuẩn bị xuồng cứu sinh và bao lương thực trong khung cảnh băng tuyết lạnh giá.
+  029.jpg: Ảnh AI tạo ra chữ viết bị lỗi trên mạn tàu ('ERCO' thay vì 'Endurance'). → Sửa lại chữ trên mạn tàu thành 'Endurance' cho đúng với lịch sử.
+  031.jpg: Lỗi giải phẫu cơ thể: Bàn chân của nhân vật bên trái đang đứng dẫm lên đống đồ đạc một cách kỳ lạ và không tự nhiên, tay phải của nhân vật này cũng bị biến dạng. → Sửa lại vị trí chân nhân vật bên trái đứng trên mặt băng cạnh đống đồ đạc thay vì dẫm lên trên, và chỉnh sửa lại bàn tay cho đúng giải phẫu.
+  033.jpg: Ảnh vẽ một người đang bê thùng đồ trên băng tuyết, không phù hợp với nội dung lời kể đang nói về những tấm kính chụp ảnh và lịch sử được lưu giữ qua ống kính của Hurley. → Thay thế bằng hình ảnh minh họa về một nhiếp ảnh gia đang cầm các tấm kính chụp ảnh hoặc hộp đựng kính âm bản trong khung cảnh Nam Cực.
+  035.jpg: Trong ảnh xuất hiện một con tàu đậu ngay gần tảng băng và lều trại, điều này không khớp với bối cảnh các thủy thủ phải bỏ tàu chìm, dựng trại trên tảng băng và kéo xuồng thử vượt băng trong lời kể. → Bỏ hình ảnh con tàu ở phía sau, tập trung minh họa nhóm thám hiểm dựng lều trại và xuồng trên tảng băng.
+  036.jpg: Ảnh minh họa hiển thị một con tàu đang nổi trên các tảng băng, trong khi lời kể nói rằng 'Từ trại, họ nhìn con tàu của mình chìm dần. Cột buồm đổ xuống băng'. → Sửa lại ảnh thể hiện cảnh con tàu đang chìm dần xuống nước hoặc cột buồm đang đổ gãy xuống băng để phù hợp với lời kể.
+  037.jpg: Lời kể đề cập đến việc con tàu Endurance chìm hẳn xuống băng, nhưng ảnh minh họa lại vẽ hai nhân vật đứng trên băng với một con tàu còn nguyên vẹn ở phía sau, không đúng với sự kiện tàu đang chìm theo lời kể. → Vẽ cảnh con tàu Endurance đang chìm dần hoặc chìm hẳn xuống băng đúng với thời điểm ngày 21 tháng 11.
+  040.jpg: Ảnh AI vẽ một người lớn và một đứa trẻ ngồi sưởi ấm bên đống lửa cùng nhóm người khác, không phù hợp với ngữ cảnh lời kể về việc Shackleton tìm cách giữ tinh thần cho các thành viên trong đoàn thám hiểm. → Thay thế bằng hình ảnh minh họa Ernest Shackleton đang trò chuyện hoặc động viên các thành viên trong đoàn thám hiểm.
+  041.jpg: Ảnh minh họa vẽ hai người đang kéo một chiếc xe trượt nhỏ trên tuyết, phía sau có tàu và những người khác, không phù hợp với quy mô đoàn thám hiểm gồm 28 người đang vất vả kéo xuồng nặng qua băng tuyết theo lời kể. → Vẽ lại cảnh nhiều thành viên trong đoàn cùng hợp sức kéo các chiếc xuồng nặng trên bề mặt băng tuyết Nam Cực.
+  042.jpg: Ảnh AI vẽ chính diện và thấy rõ toàn bộ khuôn mặt của nhân vật lịch sử (Shackleton), vi phạm quy định không vẽ rõ mặt nhân vật lịch sử có thật (chỉ được vẽ từ phía sau, từ xa hoặc che khuất/bóng tối). → Vẽ nhân vật quay lưng lại, đứng từ xa quan sát khu trại, hoặc dùng ảnh tư liệu lịch sử chụp thực tế Trại Kiên Nhẫn (Patience Camp) năm 1915-1916.
+  045.jpg: Ảnh vẽ hai nhân vật đứng ngoài trời đốt lửa trong nồi để nấu ăn, sai với lời kể là họ nấu ăn bằng bếp dầu trong lều và ăn thịt hải cẩu, chim cánh cụt nấu bằng mỡ của chúng. → Vẽ cảnh trong lều vải, có bếp dầu nhỏ đang đun nấu thức ăn là thịt hải cẩu hoặc chim cánh cụt.
+  050.jpg: Ảnh vẽ hai người đang đứng chỉ tay vào nhau trên băng tuyết, không khớp với nội dung lời kể về việc nhìn thấy đỉnh núi của đảo Elephant ở chân trời. → Vẽ cảnh những người thám hiểm trên thuyền hoặc đứng nhìn từ xa về phía một đỉnh núi nhô lên ở chân trời giữa biển băng.
+  054.jpg: Ảnh chỉ vẽ 2 người đứng trên một chiếc xuồng nhỏ, trong khi lời kể nêu rõ có 'hai mươi tám người' rời tảng băng trên 'ba chiếc xuồng'. Số lượng người trong ảnh quá ít so với tình tiết chuyến thám hiểm. → Vẽ thêm nhiều người hơn trên xuồng hoặc thể hiện khung cảnh đoàn người trên ba chiếc xuồng để phù hợp với số lượng 28 người.
+  055.jpg: Nhân vật đứng bên phải bị kẹt một nửa cơ thể xuống khe nứt của tảng băng một cách bất thường, và bàn tay của hai nhân vật đứng cạnh nhau có vẻ dính liền hoặc nắm chặt không tự nhiên do lỗi AI. → Tạo lại hình ảnh sao cho nhân vật đứng hoàn toàn trên mặt băng, sửa lỗi giải phẫu bàn tay và tách rời các nhân vật.
+  063.jpg: Lời kể nhắc đến việc dựng chỗ trú bằng hai chiếc xuồng lật úp trên tường đá và lo lắng về mùa đông Nam Cực, nhưng ảnh lại vẽ hai nhân vật đứng trên bờ biển cạnh một ngôi nhà gỗ bình thường, hoàn toàn không khớp với chi tiết xuồng lật úp làm nơi trú ẩn. → Vẽ lại cảnh hai chiếc xuồng cứu sinh được lật úp lên các bức tường đá làm nơi trú ẩn ở Nam Cực để khớp với nội dung lời kể.
+  064.jpg: Ảnh hiển thị khuôn mặt nhìn rõ của nhân vật lịch sử có thật (Ernest Shackleton) ở dạng hoạt hình, vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử. → Vẽ nhân vật Shackleton quay lưng, ở xa hoặc trong bóng tối thay vì lộ rõ khuôn mặt.
+  067.jpg: Bàn tay phải của nhân vật Harry McNish cầm dụng cụ đang bị vẽ sai cấu trúc giải phẫu (ngón tay kỳ lạ, đâm thẳng vào thanh gỗ không tự nhiên). → Vẽ lại bàn tay cầm dụng cụ cho chính xác và tự nhiên.
+  068.jpg: Lời kể đề cập đến 6 người lên đường (Shackleton, Worsley, Crean, McNish, McCarthy và Vincent) nhưng bức tranh AI vẽ chỉ có 4 nhân vật đứng cạnh thuyền. → Cần điều chỉnh ảnh minh họa hiển thị đúng số lượng 6 thành viên lên đường theo đúng lời kể.
+  069.jpg: Ảnh vẽ quá nhiều người đang đứng trên bờ nhìn ra biển, tổng cộng có khoảng 8 người trong khi lời kể chỉ nhắc đến 22 người ở lại dưới sự chỉ huy của Frank Wild nhìn theo chiẾc xuởng nhỏ của Shackleton và 5 người khác (tuy nhiên về mặt số lượng người trên bờ chưa thể hiện đúng 22 người ở lại). → Vẽ lại cảnh một nhóm nhiều người hơn hoặc toàn cảnh nhóm 22 người đứng trên bờ biển nhìn theo chiẾc xuởng nhỏ của Shackleton ra khơi.
+  070.jpg: Lời kể nói về chiếc xuồng nhỏ chở đoàn đi qua vùng biển động (với Ernest Shackleton và những người khác), nhưng bức ảnh vẽ quá nhiều người (khoảng 8 người) chen chúc trên một chiếc thuyền buồm nhỏ không đúng thực tế của chiếc xuồng cứu sinh James Caird chỉ có 6 người. → Sửa lại ảnh chỉ minh họa đúng chiếc xuồng nhỏ có khoảng 6 người trên biển sóng lớn.
+  071.jpg: Nhân vật bên trái cầm cán rìu nhưng phần lưỡi rìu lại cắm dưới sàn thuyền, tạo hình dị dạng và vô lý. → Vẽ lại nhân vật đang cầm chắc cán rìu và dùng lưỡi rìu để đập băng trên thuyền cho chính xác.
+  072.jpg: Ảnh vẽ hai người đàn ông ngồi trong lều hoặc trên boong tàu, không phù hợp với phân cảnh đang kể về việc mặc quần áo ướt sũng, ngủ co ro trong túi ngủ ướt và canh lái. → Thay thế bằng hình ảnh minh họa phù hợp hơn với nội dung thủy thủ mặc quần áo ướt, ngủ trong túi ngủ hoặc đang canh lái trên tàu bị đóng băng.
+  074.jpg: Chữ viết trên cuốn sổ trong tay nhân vật là các ký tự vô nghĩa do AI tạo ra. → Sửa lại chữ viết trong sổ thành các công thức hàng hải hoặc nét chữ bình thường.
+  079.jpg: Nhân vật thứ ba bên phải có ngoại hình trẻ trung, hiện đại và không khớp với tạo hình các nhà thám hiểm đầu thế kỷ 20, đặc biệt là Ernest Shackleton, Frank Worsley và Tom Crean. → Điều chỉnh tạo hình cả ba nhân vật mang phong cách thám hiểm Nam Cực đầu thế kỷ 20 với trang phục, râu tóc phù hợp với bối cảnh lịch sử.
+  080.jpg: Lời kể nhắc đến ba người đi bộ (Shackleton, Worsley và Crean), nhưng bức ảnh chỉ vẽ minh họa hai nhân vật. → Vẽ bổ sung đủ ba nhân vật nam đang chuẩn bị hành trình.
+  084.jpg: Lời kể đang mô tả cảnh leo núi, sương mù dày và trởi tối dần, cần hành trình khẩn trương trong tuyết lạnh, nhưng ảnh lại vẽ hai người đi dạo thảnh thơi giữa ban ngày với nền trời sáng sủa, không phù hợp với hoàn cảnh và không gian của lời kể. → Thay bếng ảnh thể hiền đoàn thám hiểm đang khó khăn leo núi trong sương mù dày và trởi chốn chốn hoặc buổi chiều tối.
+  086.jpg: Ảnh vẽ hai nhân vật đang đứng cười trên tuyết, hoàn toàn bỏ sót hành động được mô tả trong lời kể là họ vừa ngồi lên cuộn dây trượt xuống sườn núi dốc và dừng lại dưới chân dốc. → Vẽ lại cảnh hai hoặc nhiều người đang ngồi trên cuộn dây trượt tuyết xuống sườn dốc hoặc vừa dừng lại dưới chân dốc để khớp với hành động trong lời kể.
+  088.jpg: Nhân vật trong ảnh mặc quần áo liền lạc, gọn gàng, chải chuốt và không có vẻ gì là rách tả tơi hay lem khói dầu, không khớp với lời kể 'Quần áo rách tả tơi, mặt lem khói dầu, râu tóc bù xù'. → Tạo lại ảnh nhân vật có quần áo rách rưới, vá víu, mặt lem luốc khói dầu và râu tóc bù xù theo đúng lời kể.
+  097.jpg: Bối cảnh lời kể là Nam Cực lạnh giá, có sương mù và hai chiếc xuồng lật úp làm nơi trú ẩn cho 22 người. Tuy nhiên, ảnh minh họa vẽ cảnh bãi biển cát vàng, thời tiết nắng ấm, không có tuyết băng hay sương mù, và xuồng trông như thuyền đánh cá thông thường. → Vẽ lại khung cảnh Nam Cực băng giá, có sương mù, bãi đá hoặc tuyết, với những người mặc quần áo ấm dày dặn và lều trại làm từ xuồng lật úp đúng với lịch sử.; Lỗi giải phẫu AI: Bàn tay của nhân vật mặc áo nâu bên trái đang đặt lên vai nhân vật đứng giữa trông kỳ lạ, ngón tay bị biến dạng và không tự nhiên. → Sửa lại bàn tay cho đúng giải phẫu.
+  098.jpg: Lời kể tả cảnh 'Trên bờ, hai mươi hai người chạy ra vẫy tay' và Shackleton đếm người trên bờ, nhưng hình ảnh lại vẽ nhân vật mặc quân phục đứng trên boong tàu nhìn những người vẫy tay trên bờ, sai sự việc so với lời kể. → Sửa lại hình ảnh cho thấy Shackleton đang đứng nhìn từ ngoài khơi hoặc trên thuyền nhỏ hướng về phía 22 người đang đứng vẫy tay ở trên bờ.
+  099.jpg: Anh chi ve 4 nguoi trong khi loi ke nhac den 28 nguoi tro ve va Shackleton dem du 28 nguoi tren bo. → Them vao anh nhieu thanh vien hon de phan anh dung con so 28 nguoi tro ve cua chuyen tham hiem Endurance.
+  101.jpg: Lời kể đề cập đến xác tàu Endurance ở độ sâu hơn ba nghìn mét dưới đáy biển Weddell và nằm thẳng đứng, nhưng bức ảnh lại vẽ con tàu đang nằm trên một bãi cát cạn hoặc trên mặt đất với ánh sáng ban ngày/hoặc trời tối cạn, không phù hợp với bối cảnh dưới đáy biển sâu. → Thay thế bằng hình ảnh mô phỏng con tàu nằm dưới đáy biển sâu tối tăm với góc nhìn dưới nước.
 
-Xong video ngắn: - · video dài: PV7
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): ST3

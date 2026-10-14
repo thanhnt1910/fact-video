@@ -120,7 +120,7 @@
       "anh_file": "assets/anh_2d/TQ1/014.jpg"
      },
      {
-      "text": "Nhiều năm thiên tai, dịch bệnh, nông dân đói khổ, mất ruộng.",
+      "text": "Nhiều năm liền thiên tai và dịch bệnh kéo đến, nông dân đói khổ, mất ruộng, mất cả nhà cửa.",
       "ai": "ancient Han China scene, 2D ligne claire",
       "anh_file": "assets/anh_2d/TQ1/008.jpg"
      },
@@ -506,6 +506,18 @@
    },
    {
     "loai_canh": "boi_canh",
+    "text": "Ông tự nhận là con cháu một vị vương nhà Hán, nhưng dòng dõi ấy đã xa, và không mang lại cho ông đặc quyền nào.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ1/016.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ1/017.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
     "text": "Sử chép ông cao bảy thước năm tấc, tay dài quá gối, quay đầu có thể thấy tai mình.",
     "images": [
      {
@@ -553,6 +565,18 @@
     ]
    },
    {
+    "loai_canh": "leo_thang",
+    "text": "Hoàng Cân không phải một toán cướp. Họ là cả một đạo quân tín ngưỡng, hàng chục vạn người.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ1/037.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ1/012.jpg"
+     }
+    ]
+   },
+   {
     "loai_canh": "cu_lat",
     "text": "Ông theo quân triều đình đánh Hoàng Cân, và lập công.",
     "images": [
@@ -578,7 +602,7 @@
    },
    {
     "loai_canh": "vong_lap",
-    "text": "Rồi một viên đốc bưu đến huyện. Và điều Lưu Bị làm với ông ta sẽ không giống chuyện bạn từng nghe.",
+    "text": "Rồi một viên đốc bưu đến huyện. Trong tiểu thuyết, người đánh ông ta là Trương Phi. Nhưng trong sử, đó là chính Lưu Bị. Sử thật… lạ hơn cả truyện.",
     "images": [
      {
       "anh_file": "assets/anh_2d/TQ1/044.jpg"
@@ -604,6 +628,11 @@
   },
   {
    "type": "text",
+   "text": "Ông tự nhận là con cháu một vị vương nhà Hán, nhưng dòng dõi ấy đã xa, và không mang lại cho ông đặc quyền nào.",
+   "voice": "Ông tự nhận là con cháu một vị vương nhà Hán, nhưng dòng dõi ấy đã xa, và không mang lại cho ông đặc quyền nào."
+  },
+  {
+   "type": "text",
    "text": "Sử chép ông cao bảy thước năm tấc, tay dài quá gối, quay đầu có thể thấy tai mình.",
    "voice": "Sử chép ông cao bảy thước năm tấc, tay dài quá gối, quay đầu có thể thấy tai mình."
   },
@@ -624,6 +653,11 @@
   },
   {
    "type": "text",
+   "text": "Hoàng Cân không phải một toán cướp. Họ là cả một đạo quân tín ngưỡng, hàng chục vạn người.",
+   "voice": "Hoàng Cân không phải một toán cướp. Họ là cả một đạo quân tín ngưỡng, hàng chục vạn người."
+  },
+  {
+   "type": "text",
    "text": "Ông theo quân triều đình đánh Hoàng Cân, và lập công.",
    "voice": "Ông theo quân triều đình đánh Hoàng Cân, và lập công."
   },
@@ -634,8 +668,8 @@
   },
   {
    "type": "text",
-   "text": "Rồi một viên đốc bưu đến huyện. Và điều Lưu Bị làm với ông ta sẽ không giống chuyện bạn từng nghe.",
-   "voice": "Rồi một viên đốc bưu đến huyện. Và điều Lưu Bị làm với ông ta sẽ không giống chuyện bạn từng nghe."
+   "text": "Rồi một viên đốc bưu đến huyện. Trong tiểu thuyết, người đánh ông ta là Trương Phi. Nhưng trong sử, đó là chính Lưu Bị. Sử thật… lạ hơn cả truyện.",
+   "voice": "Rồi một viên đốc bưu đến huyện. Trong tiểu thuyết, người đánh ông ta là Trương Phi. Nhưng trong sử, đó là chính Lưu Bị. Sử thật… lạ hơn cả truyện."
   }
  ]
 }

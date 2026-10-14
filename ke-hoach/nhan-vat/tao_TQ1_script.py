@@ -22,7 +22,7 @@ CH = [
   ("Hoàng đế Linh đế bán cả chức quan để lấy tiền, hoạn quan nắm quyền trong triều.", "007"),
   ("Đó là một triều đình mà người có tài chưa chắc được dùng, còn người có tiền thì mua được chức.", "007"),
   ("Người bỏ tiền mua chức sẽ phải tìm cách lấy lại vốn. Và người phải trả giá cuối cùng thường là dân thường.", "014"),
-  ("Nhiều năm thiên tai, dịch bệnh, nông dân đói khổ, mất ruộng.", "008"),
+  ("Nhiều năm liền thiên tai và dịch bệnh kéo đến, nông dân đói khổ, mất ruộng, mất cả nhà cửa.", "008"),
   ("Người đứng lên thu phục lòng dân là một đạo sĩ tên Trương Giác, ở Cự Lộc.", "009"),
   ("Ông lập Thái Bình đạo, chữa bệnh bằng bùa nước và sám hối, có hàng chục vạn tín đồ khắp tám châu.", "010"),
   ("Với nhiều người nghèo, không có thầy thuốc, đó có thể là hy vọng duy nhất họ còn.", "010"),
@@ -99,13 +99,15 @@ CH = [
 NGAN = [
  ("hook", "Hơn một nghìn tám trăm năm trước, hàng chục vạn người quấn khăn vàng nổi dậy, và nhà Hán bắt đầu sụp đổ.", ("002", "001")),
  ("boi_canh", "Giữa cơn loạn ấy, có một người bán giày cỏ, dệt chiếu ở huyện Trác. Ông tên là Lưu Bị.", ("003", "004")),
+ ("boi_canh", "Ông tự nhận là con cháu một vị vương nhà Hán, nhưng dòng dõi ấy đã xa, và không mang lại cho ông đặc quyền nào.", ("016", "017")),
  ("boi_canh", "Sử chép ông cao bảy thước năm tấc, tay dài quá gối, quay đầu có thể thấy tai mình.", ("019", "016")),
  ("leo_thang", "Hồi nhỏ, ông chỉ cây dâu trước nhà mà nói: sau này ta sẽ ngồi xe có lọng. Người chú quát: đừng nói bậy, cả họ sẽ bị giết.", ("023", "022")),
  ("leo_thang", "Khi Hoàng Cân nổi lên, ông tập hợp người ở quê. Hai người đàn ông đi theo ông: Quan Vũ và Trương Phi.", ("026", "027")),
  ("leo_thang", "Sử chỉ ghi: ba người ngủ chung giường, ân nghĩa như anh em. Trong Tam quốc chí không có lời thề vườn đào.", ("029", "031")),
+ ("leo_thang", "Hoàng Cân không phải một toán cướp. Họ là cả một đạo quân tín ngưỡng, hàng chục vạn người.", ("037", "012")),
  ("cu_lat", "Ông theo quân triều đình đánh Hoàng Cân, và lập công.", ("036", "040")),
  ("cu_lat", "Phần thưởng chỉ là chức huyện úy nhỏ ở An Hỉ.", ("041", "042")),
- ("vong_lap", "Rồi một viên đốc bưu đến huyện. Và điều Lưu Bị làm với ông ta sẽ không giống chuyện bạn từng nghe.", ("044", "045")),
+ ("vong_lap", "Rồi một viên đốc bưu đến huyện. Trong tiểu thuyết, người đánh ông ta là Trương Phi. Nhưng trong sử, đó là chính Lưu Bị. Sử thật… lạ hơn cả truyện.", ("044", "045")),
 ]
 
 def img(k):

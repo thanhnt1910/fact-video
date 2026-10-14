@@ -1,0 +1,4 @@
+Gửi sang Kaggle…
+ 0.5 phút: .running
+11.7 phút: .complete
+Nhận về: ['c1_ref', 'c1_text', 'c2_ref', 'c2_text', 'c3_ref', 'c3_text', 'sheet_blackborow', 'sheet_caird', 'sheet_crean', 'sheet_dogs', 'sheet_endurance', 'sheet_hurley', 'sheet_hut', 'sheet_macklin', 'sheet_mcnish', 'sheet_pardo', 'sheet_shackleton', 'sheet_wild', 'sheet_worsley', 'sheet_yelcho']

@@ -273,6 +273,7 @@ n = 0
 
 
 CANH_MOI = {
+    "095": "waist-up two-shot of exactly two men shaking hands, Shackleton on the left and Captain Pardo of the Chilean navy in a white cap on the right, only one clasped pair of hands in the centre, each man's other arm is hidden out of frame below the picture, each man has exactly two arms in total and no extra hands, a small grey steam tug moored behind them",
     "022": "waist-up medium shot of Shackleton and Crean walking side by side toward the viewer on the ice, two husky dogs trotting in front of them at the bottom of the frame, the frozen ship behind, blue twilight, each man has exactly two arms and two legs, legs partly hidden by the dogs",
     "025": "waist-up shot of Hurley at night on the ice standing behind a camera on a tripod, both of his hands resting on the camera, nothing in his hands, no bag strap held, a bright flash lighting up the frozen ship behind him, exactly two arms",
     "058": "wide landscape of a rugged black rocky shore with glaciers behind it at grey dawn, seabirds in the sky, three small wooden boats far out on the water drawn as tiny distant shapes, an empty foreground of black rocks, nobody standing on the rocks, no close-up people",

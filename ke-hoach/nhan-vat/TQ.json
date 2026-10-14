@@ -1,0 +1,43 @@
+{
+ "ma": "TQ",
+ "phong_cach": "2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo",
+ "nhan_vat": {
+  "liubei": "Liu Bei at age 23, a tall slender young man, calm gentle face, unusually long arms that hang down to his knees, unusually large earlobes, thin faint moustache and no beard, hair in a topknot under a plain pale cloth headband, wearing a worn but clean undyed hemp cross-collared robe with a brown sash and straw sandals",
+  "quanvu": "Guan Yu at about age 25, a very tall powerful man, natural weather-tanned skin, a long glossy black beard falling to his chest, calm stern eyes, hair in a topknot under a dark cloth cap, wearing a deep jade-green cross-collared robe under a plain leather chest guard",
+  "trieuphi": "Zhang Fei at about age 22, a broad-shouldered stocky strong man, thick black bristly beard and moustache, wide round alert eyes, hair in a topknot under a rough black headscarf, wearing a dark brown cross-collared tunic with a wide leather belt and forearm guards",
+  "hoangcan": "a Yellow Turban rebel, a lean adult peasant man with a yellow cloth bound around his forehead, plain faded brown hemp tunic, simple wooden-shafted spear"
+ },
+ "canh_thu": [
+  {
+   "key": "c1",
+   "nhan_vat": [
+    "liubei",
+    "quanvu",
+    "trieuphi"
+   ],
+   "mo_ta": "Liu Bei, Guan Yu and Zhang Fei stand side by side on a dusty village road at dawn, waist-up view, looking toward the distance, exactly three men, no one else"
+  },
+  {
+   "key": "c2",
+   "nhan_vat": [
+    "quanvu",
+    "trieuphi"
+   ],
+   "mo_ta": "Guan Yu and Zhang Fei sit across a rough wooden table at a village wine stall, each holding a pottery cup, exactly two men, simple background"
+  },
+  {
+   "key": "c3",
+   "nhan_vat": [
+    "liubei"
+   ],
+   "mo_ta": "Liu Bei sits on a low stool outside a humble thatched house weaving a straw mat with both hands, exactly one man, morning light"
+  },
+  {
+   "key": "c4",
+   "nhan_vat": [
+    "hoangcan"
+   ],
+   "mo_ta": "five Yellow Turban rebels marching in a loose line along a dirt road carrying spears, seen from the side at a distance, exactly five men, each with two arms and two legs"
+  }
+ ]
+}

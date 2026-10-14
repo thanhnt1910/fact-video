@@ -1,19 +1,10 @@
 
-===== ST3 (video ngắn + bài ảnh) =====
-▶️  ST3: 28 người mắc kẹt ở Nam Cực và tất cả đều sống sót
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST3.json
-  🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 22 ảnh: 7 ảnh lỗi, 6 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager
-  🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  73.8 giây · 22 hình · trung bình 3.4 giây/hình · ⚠️ 4 hình đứng quá 4 giây
-  🎞️  Số lần: cut 13, dissolve 5, fade 2, fadewhite 1
-  🎬 Dựng 2215 khung hình (50s)
-  🔊 Tiếng động: hit, rise
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -3.8 dBTP
-  🖼️  Ảnh bìa: 3 phương án (ST3_bia_1.jpg, ST3_bia_2.jpg, ST3_bia_3.jpg)
-✅ Xong output/ST3/ST3.mp4  (73.8s video, mất 68s)
+===== BA1: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
+   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
 
-Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
-
-Xong video ngắn: ST3 · video dài: -
+===== ST3: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · CÁC CẢNH VIDEO NGẮN] Phần nội dung các cảnh video ngắn hoàn toàn bị bỏ trống, thiếu kịch bản video ngắn và chữ trên hình theo yêu cầu của kế hoạch.
+   ❌ [Nội dung kịch bản · đoạn 10] Lời kể ghi 'Ngày tám tháng tám, Endurance rời cảng Plymouth', nhưng kế hoạch và thông tin thực tế cho thấy tàu rời cảng vào tháng 8 nhưng ngày khởi hành chính xác từ Plymouth là ngày 8 tháng 8 năm 1914, tuy nhiên tiêu đề kế hoạch không nhắc ngày cụ thể tháng 8. Trong đoạn 16 lại ghi ngày 5 tháng 12 rời đảo South Georgia. Cần khớp lịch trình khởi hành.
+   ⛔ Chưa dựng ST3: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+Không dựng gì (kịch bản có lỗi, xem ở trên).

@@ -272,9 +272,22 @@ mo_dau_beats = []
 n = 0
 
 
+CANH_MOI = {
+    "011": "a single man only, Captain Worsley alone at the ship's wooden wheel on the bridge, looking at the horizon, nobody else on deck, one person in the whole picture",
+    "059": "Crean, a tall adult sailor, helping the young adult Blackborow (a slim 18-year-old man, clearly a young man not a boy) step out of a rowing boat onto a shingle beach, both tired",
+    "065": "a flat top-down antique parchment sea chart showing two tiny islands far apart joined by a dotted line over stormy waves, a map only, no people, no ships, no figures, no lettering",
+    "071": "inside a small open wooden whaleboat in a rough grey sea, Crean chipping thick ice off the canvas deck with a small axe while Shackleton holds the tiller, spray flying, only the boat and open sea around, no other ships",
+    "073": "Worsley alone kneeling in a small open wooden whaleboat holding a brass sextant up toward a break in the clouds, big waves all around, open empty ocean, no other ships, one person only",
+    "074": "Worsley alone sitting in a small open wooden whaleboat staring at a small notebook with calculations, serious worried face, grey sky, open empty ocean, no other ships, one person only",
+    "101": "underwater view of the wooden ship Endurance sitting upright on a dark seabed with masts and rails intact, fine silt and small fish drifting, quiet mystery, no people at all",
+}
+
+
 def add(bt, store):
     global n
     n += 1
+    if f"{n:03d}" in CANH_MOI:
+        bt = {**bt, "canh": CANH_MOI[f"{n:03d}"]}
     nvs = [x for x in bt["nv"]]
     parts = [bt["canh"]]
     desc = [NV[x] for x in nvs]

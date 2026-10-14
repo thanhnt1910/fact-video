@@ -10,11 +10,15 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-CFG = json.loads((ROOT / "ke-hoach" / "nhan-vat" / "ST3.json").read_text(encoding="utf-8"))
+CFG = json.loads((ROOT / "ke-hoach" / "nhan-vat" / "ST3v2.json").read_text(encoding="utf-8"))
 NV = CFG["nhan_vat"]
 STYLE = CFG["phong_cach"]
 SAFE = ("medium to wide shot, simple natural poses, every person has exactly two arms, two hands and two legs with "
-        "natural proportions, calm symmetrical faces, no extra limbs, no deformed faces, no text, no letters, no watermark")
+        "natural adult proportions, serious weathered adult faces, no extra limbs, no deformed faces, no text, no letters, no watermark. "
+        "All ships, boats and objects are realistic with no faces, eyes or smiles. Any additional crew members are adult men with beards "
+        "in heavy winter clothes, never children, never women")
+CLIPS = {"001", "002", "026", "036", "052", "070", "075", "089", "096", "100"}   # ảnh đã có clip chuyển động Veo (giữ nguyên ảnh cũ)
+NOT_PERSON = ("ship", "boat", "tug", "dogs", "shelter")
 
 S, W, H, M, C, B, E = "shackleton", "worsley", "hurley", "macklin", "crean", "blackborow", "endurance"
 WILD, MCN, PAR, CAIRD, YEL, HUT, DOGS = "wild", "mcnish", "pardo", "caird", "yelcho", "hut", "dogs"
@@ -274,6 +278,9 @@ def add(bt, store):
     desc = [NV[x] for x in nvs]
     if desc:
         parts.append("Characters (keep exactly this look): " + "; ".join(desc))
+        npers = sum(1 for x in nvs if not any(w in NV[x].lower() for w in NOT_PERSON))
+        if npers:
+            parts.append(f"exactly {npers} named character{'s' if npers > 1 else ''}, each drawn only once, no duplicates or twins")
     parts.append(STYLE)
     parts.append(SAFE)
     prompt = ". ".join(parts)
@@ -281,6 +288,8 @@ def add(bt, store):
     beat = {"text": bt["text"], "ai": prompt, "anh_file": f"assets/anh_2d/ST3/{key}.jpg"}
     if bt.get("label"):
         beat["label"] = bt["label"]
+    if key in CLIPS:
+        beat["clip_file"] = f"assets/clips_2d/ST3/{key}.mp4"
     store.append(beat)
     beats_all.append({"key": key, "prompt": prompt, "nv": nvs})
 

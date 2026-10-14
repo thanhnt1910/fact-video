@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent
 
 PROMPT = """Bạn là biên tập viên hình ảnh của kênh kể chuyện lịch sử. Ảnh cần kiểm tra là tranh 2D vẽ bằng AI cho một cảnh phim.
 Câu chuyện: {story}
-Phong cách mong muốn: truyện tranh 2D nét sạch, người LỚN với tỉ lệ cơ thể người trưởng thành, mặt sạm gió, nghiêm túc; KHÔNG giống trẻ con, KHÔNG hoạt hình tròn trịa.
+Phong cách mong muốn: truyện tranh 2D nét sạch (kiểu ligne claire), người LỚN với tỉ lệ cơ thể người trưởng thành, mặt sạm gió, nghiêm túc; KHÔNG giống trẻ con, KHÔNG hoạt hình tròn trịa.
 {ref_note}
 Nhân vật dự kiến xuất hiện trong ảnh này ({n_exp} người có tên):
 {chars}
@@ -43,7 +43,9 @@ Chỉ báo lỗi thật sự thấy. Không phê bình phong cách. Bỏ qua t�
 def load(ma):
     sc = json.loads((ROOT / "scripts" / f"{ma}.json").read_text(encoding="utf-8"))
     anh = {x["key"]: x for x in json.loads((ROOT / "ke-hoach" / "nhan-vat" / f"{ma}_anh.json").read_text(encoding="utf-8"))}
-    spec_f = ROOT / "ke-hoach" / "nhan-vat" / f"{ma}.json"
+    spec_f = ROOT / "ke-hoach" / "nhan-vat" / f"{ma}v2.json"
+    if not spec_f.exists():
+        spec_f = ROOT / "ke-hoach" / "nhan-vat" / f"{ma}.json"
     spec = json.loads(spec_f.read_text(encoding="utf-8")) if spec_f.exists() else {}
     beats = {}
     for ch in sc["long"]["chapters"]:

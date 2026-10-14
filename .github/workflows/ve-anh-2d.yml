@@ -58,7 +58,7 @@ jobs:
           D="$D | add=$(git add -f logs/ve_anh_2d assets/anh_2d 2>&1 | head -c 300)"
           D="$D | commit=$(git commit -q -m "Vẽ ảnh 2D $M [skip ci]" 2>&1 | head -c 300)"
           for i in 1 2 3; do
-            R=$(git pull --rebase -X theirs -q 2>&1; git push -q 2>&1)
+            R=$(git pull --rebase --autostash -X theirs -q 2>&1; git push -q 2>&1)
             D="$D | try$i=$(echo $R | head -c 400)"
             if git status -sb | head -1 | grep -qv ahead; then break; fi
             sleep 5

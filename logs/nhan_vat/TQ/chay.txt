@@ -1,0 +1,4 @@
+Gửi sang Kaggle…
+ 0.5 phút: .running
+ 8.1 phút: .complete
+Nhận về: ['c1_ref', 'c1_text', 'c2_ref', 'c2_text', 'c3_ref', 'c3_text', 'c4_ref', 'c4_text', 'sheet_hoangcan', 'sheet_liubei', 'sheet_quanvu', 'sheet_trieuphi']

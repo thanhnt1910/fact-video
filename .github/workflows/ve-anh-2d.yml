@@ -15,6 +15,10 @@ on:
         description: "Đợt vẽ lại (đổi hạt giống): 1, 2, 3…"
         required: false
         default: "1"
+      chi_tai:
+        description: "1 = không vẽ mới, chỉ tải lại kết quả lần Kaggle trước"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -33,6 +37,7 @@ jobs:
         env:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CHI_TAI_LAI: ${{ inputs.chi_tai }}
         run: |
           set -o pipefail
           python ve_anh_2d.py "${{ inputs.ma }}" "${{ inputs.lam_lai }}" "${{ inputs.dot }}" 2>&1 | tee /tmp/ve.txt
@@ -49,5 +54,11 @@ jobs:
           git add -f assets/anh_2d 2>&1 | tee -a logs/ve_anh_2d/${{ inputs.ma }}.txt || true
           git add -f logs/ve_anh_2d
           git commit -q -m "Vẽ ảnh 2D ${{ inputs.ma }} [skip ci]" || { echo "không có gì để commit"; exit 0; }
-          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done
-          echo "PUSH THẤT BẠI"; exit 1
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs -q 2>/tmp/err.txt && git push -q 2>>/tmp/err.txt; then exit 0; fi
+            cat /tmp/err.txt >> logs/ve_anh_2d/${{ inputs.ma }}_loi_push.txt; sleep 5
+          done
+          git rebase --abort 2>/dev/null || true
+          git add -f logs/ve_anh_2d; git commit -q -m "loi push" || true
+          git push -f origin HEAD:refs/heads/ve-anh-out 2>&1 | tail -5
+          exit 1

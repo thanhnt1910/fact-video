@@ -193,8 +193,11 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein"):
             "enable_tpu": False, "dataset_sources": [], "competition_sources": [], "kernel_sources": [],
             "model_sources": []}
     (work / "k" / "kernel-metadata.json").write_text(json.dumps(meta), encoding="utf-8")
-    log(f"     🖥️  Gửi {len(jobs)} tranh sang Kaggle (GPU miễn phí)")
-    _kaggle(["kernels", "push", "-p", str(work / "k")], env)
+    if os.environ.get("CHI_TAI_LAI") == "1":
+        log("     🖥️  Chỉ tải lại kết quả của lần chạy Kaggle trước")
+    else:
+        log(f"     🖥️  Gửi {len(jobs)} tranh sang Kaggle (GPU miễn phí)")
+        _kaggle(["kernels", "push", "-p", str(work / "k")], env)
     t0 = time.time()
     status = ""
     last = None

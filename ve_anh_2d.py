@@ -7,6 +7,7 @@ Vẽ hàng loạt tranh 2D cho một câu chuyện (miễn phí, GPU Kaggle, FLU
 Danh sách câu mô tả: ke-hoach/nhan-vat/<mã>_anh.json (do tao_<mã>.py tạo). Ảnh ra: assets/anh_2d/<mã>/<số>.jpg
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -35,6 +36,7 @@ def main():
     print(f"Cần vẽ {len(jobs)} ảnh (đợt {dot})")
     if not jobs:
         return
+    os.environ.pop('X', None)
     res = kaggle_draw.draw_batch(jobs, out, model="klein", timeout_min=150)
     print(f"Nhận về {len(res)}/{len(jobs)} ảnh")
     miss = [j[0] for j in jobs if j[0] not in res]

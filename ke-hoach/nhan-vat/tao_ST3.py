@@ -365,6 +365,23 @@ script = {
     },
 }
 
+# giữ phần video ngắn (ngan, scenes, bình luận ngắn) đã viết tay, không để chạy lại script này làm mất
+_cu = ROOT / "scripts" / "ST3.json"
+if _cu.exists():
+    _old = json.loads(_cu.read_text(encoding="utf-8"))
+else:
+    _old = {}
+if not _old.get("ngan"):
+    import subprocess
+    try:
+        _old = json.loads(subprocess.check_output(["git", "show", "f78c2c3:scripts/ST3.json"], cwd=ROOT).decode("utf-8"))
+    except Exception:
+        _old = {}
+for _k in ("ngan", "scenes"):
+    if _old.get(_k):
+        script[_k] = _old[_k]
+if (_old.get("binh_luan") or {}).get("ngan"):
+    script.setdefault("binh_luan", {})["ngan"] = _old["binh_luan"]["ngan"]
 (ROOT / "scripts" / "ST3.json").write_text(json.dumps(script, ensure_ascii=False, indent=1), encoding="utf-8")
 (ROOT / "ke-hoach" / "nhan-vat" / "ST3_anh.json").write_text(json.dumps(beats_all, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"{n} ảnh, {len(chapters_json)} chương (kể cả mở đầu), {words} chữ ≈ {words / 3 / 60:.1f} phút")

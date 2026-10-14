@@ -643,6 +643,230 @@
    "phu": [
     "Một chi tiết mình chưa kịp kể: để bám băng, họ vặn đinh vít lấy từ chính con thuyền vào đế giày. Đôi khi sống sót là nhờ những thứ nhỏ nhất."
    ]
+  },
+  "ngan": {
+   "ghim": "Nếu là Shackleton, bạn sẽ ở lại cùng cả đoàn hay mạo hiểm đi tìm cứu viện? Ⓐ ở lại · Ⓑ đi tìm cứu viện · Ⓒ chưa biết. Bình luận chữ cái của bạn nhé 🧊",
+   "phu": [
+    "Một chi tiết mình chưa kịp kể: để bám băng, họ vặn đinh vít lấy từ chính con thuyền vào đế giày."
+   ]
   }
- }
+ },
+ "ngan": {
+  "hook_text": "28 người mắc kẹt\n**ở Nam Cực**",
+  "hooks": [
+   "Con tàu bị băng nghiền nát. Hai mươi tám người mắc kẹt giữa Nam Cực, và không ai trên thế giới biết họ ở đâu."
+  ],
+  "caption": "Con tàu bị băng nghiền nát, 28 người mắc kẹt giữa Nam Cực… và không ai bị bỏ lại 🧊 Câu chuyện có thật về chuyến thám hiểm Endurance của Shackleton. Bạn sẽ chọn ở lại hay đi tìm cứu viện?",
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Con tàu bị băng nghiền nát. Hai mươi tám người mắc kẹt giữa Nam Cực, và không ai trên thế giới biết họ ở đâu.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/029.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/037.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Năm một nghìn chín trăm mười bốn, Ernest Shackleton dẫn con tàu Endurance đi băng qua lục địa Nam Cực.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/006.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/010.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Nhưng băng khép lại, giữ chặt con tàu hơn chín tháng, rồi nghiền nát nó.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/019.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/026.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Cả đoàn sống gần năm tháng trên băng trôi, rồi chèo ba chiếc xuồng tới đảo Elephant, một bãi đá hoang không có người ở.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/043.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/060.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Shackleton cùng năm người lên chiếc xuồng gỗ dài chưa tới bảy mét, vượt tám trăm hải lý trên vùng biển dữ nhất thế giới.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/068.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/073.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Sóng cao như đồi, băng đóng cứng trên thuyền. Sau hơn hai tuần, họ cập vào đảo South Georgia, nhưng ở sai phía của hòn đảo.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/071.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/076.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Ba người còn khỏe nhất leo qua dãy núi chưa ai vượt, ba mươi sáu giờ không nghỉ, chỉ có một sợi dây, một cái rìu và những chiếc đinh vít vặn vào đế giày.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/081.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/085.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Họ tới được trạm săn cá voi, nhưng người trong trạm không nhận ra họ.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/087.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/088.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Ba lần cứu hộ thất bại, hơn ba tháng trôi qua. Lần thứ tư, một chiếc tàu nhỏ của hải quân Chile nhìn thấy bờ đảo.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/094.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/095.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "ket",
+    "text": "Trên bờ, hai mươi hai người chạy ra vẫy tay. Hai mươi tám người đều sống sót, không ai bị bỏ lại.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/097.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/099.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà. Sử thật… lạ hơn cả truyện.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/ST3/102.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/ST3/103.jpg"
+     }
+    ]
+   }
+  ],
+  "anh_bia": [
+   {
+    "anh": "0:0",
+    "nhan": "Chuyện có thật · 1915",
+    "to": "28 người\n**mắc kẹt**",
+    "nho": "Giữa **Nam Cực**"
+   },
+   {
+    "anh": "6:1",
+    "nhan": "Nam Cực · 1916",
+    "to": "**36 giờ**\nvượt núi",
+    "nho": "Không ai từng đi qua"
+   },
+   {
+    "anh": "9:0",
+    "nhan": "Chuyện có thật",
+    "to": "Không ai\n**bị bỏ lại**",
+    "nho": "28 người, 28 người sống"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Con tàu bị băng nghiền nát. Hai mươi tám người mắc kẹt giữa Nam Cực, và không ai trên thế giới biết họ ở đâu.",
+   "voice": "Con tàu bị băng nghiền nát. Hai mươi tám người mắc kẹt giữa Nam Cực, và không ai trên thế giới biết họ ở đâu."
+  },
+  {
+   "type": "text",
+   "text": "Năm một nghìn chín trăm mười bốn, Ernest Shackleton dẫn con tàu Endurance đi băng qua lục địa Nam Cực.",
+   "voice": "Năm một nghìn chín trăm mười bốn, Ernest Shackleton dẫn con tàu Endurance đi băng qua lục địa Nam Cực."
+  },
+  {
+   "type": "text",
+   "text": "Nhưng băng khép lại, giữ chặt con tàu hơn chín tháng, rồi nghiền nát nó.",
+   "voice": "Nhưng băng khép lại, giữ chặt con tàu hơn chín tháng, rồi nghiền nát nó."
+  },
+  {
+   "type": "text",
+   "text": "Cả đoàn sống gần năm tháng trên băng trôi, rồi chèo ba chiếc xuồng tới đảo Elephant, một bãi đá hoang không có người ở.",
+   "voice": "Cả đoàn sống gần năm tháng trên băng trôi, rồi chèo ba chiếc xuồng tới đảo Elephant, một bãi đá hoang không có người ở."
+  },
+  {
+   "type": "text",
+   "text": "Shackleton cùng năm người lên chiếc xuồng gỗ dài chưa tới bảy mét, vượt tám trăm hải lý trên vùng biển dữ nhất thế giới.",
+   "voice": "Shackleton cùng năm người lên chiếc xuồng gỗ dài chưa tới bảy mét, vượt tám trăm hải lý trên vùng biển dữ nhất thế giới."
+  },
+  {
+   "type": "text",
+   "text": "Sóng cao như đồi, băng đóng cứng trên thuyền. Sau hơn hai tuần, họ cập vào đảo South Georgia, nhưng ở sai phía của hòn đảo.",
+   "voice": "Sóng cao như đồi, băng đóng cứng trên thuyền. Sau hơn hai tuần, họ cập vào đảo South Georgia, nhưng ở sai phía của hòn đảo."
+  },
+  {
+   "type": "text",
+   "text": "Ba người còn khỏe nhất leo qua dãy núi chưa ai vượt, ba mươi sáu giờ không nghỉ, chỉ có một sợi dây, một cái rìu và những chiếc đinh vít vặn vào đế giày.",
+   "voice": "Ba người còn khỏe nhất leo qua dãy núi chưa ai vượt, ba mươi sáu giờ không nghỉ, chỉ có một sợi dây, một cái rìu và những chiếc đinh vít vặn vào đế giày."
+  },
+  {
+   "type": "text",
+   "text": "Họ tới được trạm săn cá voi, nhưng người trong trạm không nhận ra họ.",
+   "voice": "Họ tới được trạm săn cá voi, nhưng người trong trạm không nhận ra họ."
+  },
+  {
+   "type": "text",
+   "text": "Ba lần cứu hộ thất bại, hơn ba tháng trôi qua. Lần thứ tư, một chiếc tàu nhỏ của hải quân Chile nhìn thấy bờ đảo.",
+   "voice": "Ba lần cứu hộ thất bại, hơn ba tháng trôi qua. Lần thứ tư, một chiếc tàu nhỏ của hải quân Chile nhìn thấy bờ đảo."
+  },
+  {
+   "type": "text",
+   "text": "Trên bờ, hai mươi hai người chạy ra vẫy tay. Hai mươi tám người đều sống sót, không ai bị bỏ lại.",
+   "voice": "Trên bờ, hai mươi hai người chạy ra vẫy tay. Hai mươi tám người đều sống sót, không ai bị bỏ lại."
+  },
+  {
+   "type": "text",
+   "text": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà. Sử thật… lạ hơn cả truyện.",
+   "voice": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà. Sử thật… lạ hơn cả truyện."
+  }
+ ]
 }

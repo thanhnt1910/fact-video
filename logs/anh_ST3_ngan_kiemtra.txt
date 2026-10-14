@@ -3,12 +3,14 @@ KIỂM TRA ẢNH ST3 · video ngắn · 22 ảnh (số thứ tự khớp lưới
      ⚠️ Ảnh AI tạo có chữ viết vô nghĩa xuất hiện trên mạn tàu (các ký tự trông giống tiếng Nga hoặc chữ cái lỗi thay vì tên tàu Endurance). → Tạo lại ảnh bỏ chữ viết vô nghĩa trên mạn tàu để tăng tính chân thực.
 ❌ 2 (ảnh mô phỏng AI) ·  037.jpg
      ❌ Ảnh hiển thị rõ mặt các nhân vật lịch sử (có thể là Ernest Shackleton và các thành viên), vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc ẩn khuất để không nhìn rõ khuôn mặt.
-❌ 3 (ảnh mô phỏng AI) ·  006.jpg
-     ❌ Ảnh AI tạo ra các nhân vật có khuôn mặt rất giống nhau, đặc biệt là hai người ở bên phải có ngoại hình gần như trùng lặp hoàn toàn, gây cảm giác bất thường. → Tạo lại hình ảnh với các nhân vật có khuôn mặt và ngoại hình khác biệt rõ ràng để tự nhiên hơn.
-✅ 4 (ảnh mô phỏng AI) ·  010.jpg
+❌ 3 (ảnh mô phỏng AI) ·  017.jpg
+     ❌ Chữ viết tên con tàu trên mạn thuyền bị lỗi chính tả thành 'EMNIOQUE' thay vì 'Endurance'. → Sửa lại chữ viết trên mạn tàu thành 'Endurance' cho đúng với lịch sử và lời kể.
+❌ 4 (ảnh mô phỏng AI) ·  022.jpg
+     ❌ Ảnh do AI tạo có hiển thị rõ khuôn mặt của nhân vật lịch sử có thật Ernest Shackleton, điều này vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử. → Dùng ảnh minh họa có nhân vật quay lưng, ở xa hoặc trong bóng tối thay vì vẽ rõ mặt.
 ❌ 5 (ảnh mô phỏng AI) ·  019.jpg
      ❌ Chữ viết trên mạn tàu bị lỗi font, nhòe và vô nghĩa, không phải tên tàu Endurance. → Sửa lại chữ trên mạn tàu thành tên chính xác 'Endurance'.
-✅ 6 (ảnh mô phỏng AI) ·  026.jpg
+⚠️ 6 (ảnh mô phỏng AI) ·  020.jpg
+     ⚠️ Lời kể nói về việc băng khép lại giữ chặt con tàu rồi nghiền nát nó, nhưng ảnh minh họa lại vẽ cảnh nhân vật đứng trên boong tàu giữa biển nước mở và băng trôi từ xa, chưa thể hiện được sự tàn khốc của việc tàu bị băng kẹt và nghiền nát. → Thay thế bằng hình ảnh con tàu Endurance bị khối băng lớn ép chặt, bao vây xung quanh hoặc đang bị băng nghiền nát.
 ✅ 7 (ảnh mô phỏng AI) ·  043.jpg
 ✅ 8 (ảnh mô phỏng AI) ·  060.jpg
 ⚠️ 9 (ảnh mô phỏng AI) ·  068.jpg
@@ -26,8 +28,9 @@ KIỂM TRA ẢNH ST3 · video ngắn · 22 ảnh (số thứ tự khớp lưới
 ✅ 15 (ảnh mô phỏng AI) ·  087.jpg
 ✅ 16 (ảnh mô phỏng AI) ·  088.jpg
 ✅ 17 (ảnh mô phỏng AI) ·  094.jpg
-⚠️ 18 (ảnh mô phỏng AI) ·  095.jpg
-     ⚠️ Lời kể chỉ nhắc đến tàu hải quân Chile nhìn thấy bờ đảo, nhưng ảnh minh họa vẽ cảnh bắt tay giữa hai người trên bờ. → Có thể dùng ảnh minh họa tập trung vào con tàu nhỏ của hải quân Chile đến gần bờ đảo để bám sát lời kể hơn.
+❌ 18 (ảnh mô phỏng AI) ·  095.jpg
+     ❌ Lời kể chỉ nhắc đến 'một chiếc tàu nhỏ của hải quân Chile nhìn thấy bờ đảo', nhưng bức ảnh lại vẽ cảnh hai người đang bắt tay nhau, trong đó có một người mặc quân phục hải quân và một tàu nhỏ phía sau, vẽ thêm nhân vật không xuất hiện trong lời kể. → Sửa ảnh thành phong cảnh chiếc tàu nhỏ của hải quân Chile đang tiến sát lại gần bờ đảo theo đúng lời kể.
+     ⚠️ Khu vực bàn tay đang bắt tay của hai nhân vật bị lỗi hiển thị các ngón tay dính liền và cấu trúc không tự nhiên do AI tạo ra. → Vẽ lại phần bàn tay rõ ràng hoặc thay thế bằng khung cảnh tàu tiếp cận đảo không có người cận cảnh.
 ❌ 19 (ảnh mô phỏng AI) ·  097.jpg
      ❌ Lỗi giải phẫu bàn tay: nhân vật bên trái có bàn tay trái (giơ lên) bị ngược ngón cái và hình dạng bất thường, nhân vật ở giữa có bàn tay trái (giơ lên) bị dị dạng ngón tay, nhân vật bên phải có bàn tay phải (giơ lên) có cấu trúc ngón tay và lòng bàn tay không tự nhiên. → Tạo lại ảnh với bàn tay của các nhân vật được vẽ đúng giải phẫu, đủ ngón.
 ⚠️ 20 (ảnh mô phỏng AI) ·  099.jpg

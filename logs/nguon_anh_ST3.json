@@ -1,6 +1,6 @@
 {
  "ma": "ST3",
- "cap_nhat": "2026-10-14T10:19:40",
+ "cap_nhat": "2026-10-14T10:25:25",
  "anh": [
   {
    "loai": "tranh AI",
@@ -24,7 +24,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/ST3/006.jpg",
+   "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/ST3/017.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -34,7 +34,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/ST3/010.jpg",
+   "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/ST3/022.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
@@ -54,7 +54,7 @@
   },
   {
    "loai": "tranh AI",
-   "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/ST3/026.jpg",
+   "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/ST3/020.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
    "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",

@@ -142,7 +142,8 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
      ❌ Lời kể đề cập đến các chuyến tàu cứu hộ (tàu Southern Sky, tàu từ Uruguay, tàu buồm thuê ở Chile) phải quay về vì băng và bão, nhưng ảnh lại minh họa một chiếc tàu buồm nhỏ chở đầy người đang đi trên biển. → Thay đổi ảnh minh họa phù hợp với nội dung lời kể, thể hiện một con tàu cứu hộ đang gặp khó khăn trước vùng biển băng giá thay vì vẽ một nhóm người trên thuyền buồm nhỏ.
 ❌ 94 (ảnh mô phỏng AI) ·  094.jpg
      ❌ Anh minh hoa nhan vat Ernest Shackleton nhung hien thi ro khuon mat, vi pham quy dinh khong duoc ve ro khuon mat nhan vat lich su co that. → Ve nhan vat quay lung, o xa hoac trong bong toi khong nhin rõ khuon mat.
-✅ 95 (ảnh mô phỏng AI) ·  095.jpg
+❌ 95 (ảnh mô phỏng AI) ·  095.jpg
+     ❌ Tay đang bắt nhau ở giữa ảnh có dấu hiệu dị dạng, các ngón tay dính cục và không rõ ràng cấu trúc. → Tạo lại ảnh với chi tiết bàn tay bắt nhau chính xác và rõ ràng hơn.
 ✅ 96 (ảnh mô phỏng AI) · Đảo Elephant · 30/8/1916 096.jpg
 ❌ 97 (ảnh mô phỏng AI) ·  097.jpg
      ❌ Lỗi giải phẫu bàn tay do AI tạo: nhân vật bên phải có bàn tay phải giơ lên bị thừa ngón (có tới 6 ngón tay). → Sửa lại bàn tay của nhân vật cho đúng giải phẫu (chỉ có 5 ngón).

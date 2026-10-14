@@ -1,0 +1,11 @@
+Cần vẽ 103 ảnh (đợt 1)
+     🖥️  Chỉ tải lại kết quả của lần chạy Kaggle trước
+     🖥️   0.5 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (1 phút)
+     🖥️  Nhận về 103/103 tranh từ Kaggle
+Nhận về 103/103 ảnh
+--- ls ---
+103
+ M logs/kaggle_last.txt
+?? assets/anh_2d/
+?? logs/ve_anh_2d/

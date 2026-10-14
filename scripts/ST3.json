@@ -780,7 +780,7 @@
       },
       {
         "loai_canh": "vong_lap",
-        "text": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà.",
+        "text": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà. Sử thật… lạ hơn cả truyện.",
         "images": [
           {
             "anh_file": "assets/anh_2d/ST3/102.jpg"
@@ -865,8 +865,8 @@
     },
     {
       "type": "text",
-      "text": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà.",
-      "voice": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà."
+      "text": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà. Sử thật… lạ hơn cả truyện.",
+      "voice": "Shackleton không vượt được Nam Cực. Nhưng ông đưa mọi người trở về nhà. Sử thật… lạ hơn cả truyện."
     }
   ]
 }

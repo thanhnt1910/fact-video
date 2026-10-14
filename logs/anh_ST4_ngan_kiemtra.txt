@@ -1,27 +1,27 @@
 KIỂM TRA ẢNH ST4 · video ngắn · 26 ảnh (số thứ tự khớp lưới ảnh anh_ST4_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ✅ 1 ·  scene_00.jpg
 ✅ 2 ·  scene_01.jpg
-✅ 3 (ảnh mô phỏng AI) ·  mp_e90338ee802d3200.jpg
+✅ 3 (ảnh mô phỏng AI) ·  mp_d5501aaeed4e067a.jpg
 ✅ 4 ·  scene_02.jpg
-✅ 5 (ảnh mô phỏng AI) ·  mp_812e07f411c3688f.jpg
-✅ 6 (ảnh mô phỏng AI) ·  mp_8b924d9d11741d73.jpg
+✅ 5 (ảnh mô phỏng AI) ·  mp_b6c1262859cf646b.jpg
+✅ 6 (ảnh mô phỏng AI) ·  mp_5ad7295aa711e33b.jpg
 ⚠️ 7 ·  scene_03.jpg
      ⚠️ ảnh hơi mờ (độ nét 35)
-✅ 8 (ảnh mô phỏng AI) ·  mp_f024bbe34acf49ea.jpg
+✅ 8 (ảnh mô phỏng AI) ·  mp_879682897d7190aa.jpg
 ⚠️ 9 ·  scene_04.jpg
      ⚠️ Ảnh hiển thị máy bay ném bom Enola Gay thả bom xuống Hiroshima, trong khi đoạn lời kể tập trung vào nhân vật Tsutomu Yamaguchi quay lại chỗ làm và bầu trời lóe sáng, có thể gây nhầm lẫn nhẹ về mặt sự kiện cụ thể nhưng vẫn thuộc bối cảnh chung. → Nên dùng ảnh phong cảnh nhà máy hoặc bầu trời lóe sáng tại Hiroshima đúng với khoảnh khắc nhân vật đang ở chỗ làm.
 ✅ 10 ·  scene_05.jpg
 ✅ 11 ·  scene_06.jpg
 ✅ 12 ·  scene_07.jpg
 ✅ 13 ·  scene_08.jpg
-✅ 14 (ảnh mô phỏng AI) ·  mp_741968842e09fcd1.jpg
+✅ 14 (ảnh mô phỏng AI) ·  mp_77ce2abe314dbf9c.jpg
 ✅ 15 ·  scene_09.jpg
-✅ 16 (ảnh mô phỏng AI) ·  mp_bcaf8720ce17c33a.jpg
-✅ 17 (ảnh mô phỏng AI) ·  mp_0cb10876133703e9.jpg
-✅ 18 (ảnh mô phỏng AI) ·  mp_f92ff7004bfc1562.jpg
+✅ 16 (ảnh mô phỏng AI) ·  mp_76f3c72076a4bcdb.jpg
+✅ 17 (ảnh mô phỏng AI) ·  mp_2b8264902e2aa091.jpg
+✅ 18 (ảnh mô phỏng AI) ·  mp_45fff7d69e7c127a.jpg
 ✅ 19 ·  scene_10.jpg
 ✅ 20 ·  scene_11.jpg
-✅ 21 (ảnh mô phỏng AI) ·  mp_6137d031b12cee6d.jpg
+✅ 21 (ảnh mô phỏng AI) ·  mp_06e819207c795c8d.jpg
 ✅ 22 ·  scene_12.jpg
 ✅ 23 ·  scene_13.jpg
 ✅ 24 ·  scene_14.jpg

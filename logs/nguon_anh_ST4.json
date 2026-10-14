@@ -1,12 +1,12 @@
 {
  "ma": "ST4",
- "cap_nhat": "2026-10-13T06:55:36",
+ "cap_nhat": "2026-10-14T04:52:49",
  "anh": [
   {
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Atomic_cloud_over_Hiroshima.jpg/1920px-Atomic_cloud_over_Hiroshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Atomic cloud over Hiroshima.jpg\" – George R. Caron, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 1 ảnh 1",
     "dài · chương 0 đoạn 2",
@@ -35,7 +35,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nagasakibomb.jpg/1920px-Nagasakibomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Nagasakibomb.jpg\" – Charles Levy, Public domain (https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 1 ảnh 2",
     "ngắn · cảnh 8 ảnh 2",
@@ -65,7 +65,7 @@
    "loai": "tranh AI",
    "prompt": "an elderly man seen from behind sitting on a bench looking out over a harbour city at sunset, silhouette only, peaceful",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 2 ảnh 1",
@@ -78,7 +78,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Aioi_Bridge_Pre-war.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Aioi Bridge Pre-war.jpg\" – 不明。写真提供者の名より下記の3者のどこかと推定\n\n中国新聞社\n朝日新聞社\n広島市史編修委員会, Public domain (https://commons.wikimedia.org/wiki/File:Aioi_Bridge_Pre-war.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 1",
     "dài · chương 1 đoạn 6"
@@ -105,7 +105,7 @@
    "loai": "tranh AI",
    "prompt": "a 1940s Japanese shipyard design office, wooden drafting tables with large paper blueprints of an oil tanker hull, rulers and pencils, soft window light, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 2",
@@ -116,7 +116,7 @@
    "loai": "tranh AI",
    "prompt": "an engineer's desk in a 1940s Japanese office, a leather briefcase, folded papers and a small round wooden name seal with a red ink pad, morning light, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 3",
@@ -128,7 +128,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Hanko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Hanko.JPG\" – Utilisateur:Freddyz de wikipédia, Public domain (https://commons.wikimedia.org/wiki/File:Hanko.JPG)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 1",
     "dài · chương 2 đoạn 2",
@@ -157,7 +157,7 @@
    "loai": "tranh AI",
    "prompt": "an empty quiet street in a Japanese city in 1945 on a clear summer morning, wooden two-storey houses, tram wires, only one person: a lone man in a white short-sleeved shirt and dark trousers walking away from the camera, seen from behind, small in the frame",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 2",
@@ -169,7 +169,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/B-29_Superfortress_Enola_Gay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"B-29 Superfortress Enola Gay.jpg\" – United States Air Force, Public domain (https://commons.wikimedia.org/wiki/File:B-29_Superfortress_Enola_Gay.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 3",
     "dài · chương 2 đoạn 6"
@@ -196,7 +196,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Atomic_cloud_over_Hiroshima_from_the_Kure_Naval_Arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Atomic cloud over Hiroshima from the Kure Naval Arsenal.jpg\" – Masami Oki, Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima_from_the_Kure_Naval_Arsenal.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 1",
     "dài · chương 2 đoạn 7"
@@ -223,7 +223,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/View_of_Hiroshima_City_seen_from_the_main_enclosure_of_Hiroshima_Castle_-_Motomachi%2C_Hiroshima_City_-_Middle_September_1945_-_Matsumoto_Ei%27ichi.png/1920px-View_of_Hiroshima_City_seen_from_the_main_enclosure_of_Hiroshima_Castle_-_Motomachi%2C_Hiroshima_City_-_Middle_September_1945_-_Matsumoto_Ei%27ichi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"View of Hiroshima City seen from the main enclosure of Hiroshima Castle - Motomachi, Hiroshima City - Middle September 1945 - Matsumoto Ei'ichi.png\" – 松本栄一, Public domain (https://commons.wikimedia.org/wiki/File:View_of_Hiroshima_City_seen_from_the_main_enclosure_of_Hiroshima_Castle_-_Motomachi,_Hiroshima_City_-_Middle_September_1945_-_Matsumoto_Ei%27ichi.png)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 2",
     "dài · chương 3 đoạn 1",
@@ -251,7 +251,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg/1920px-Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Hiroshima aerial view after atomic bomb 8-1945.jpeg\" – U.S. Navy (The image is part of a scrapbook assembled by Commander Francis N. Gilreath during his service as Flag Secretary and Aide to Rear Admiral Alfred E. Montgomery), Public domain (https://commons.wikimedia.org/wiki/File:Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 3",
     "dài · chương 3 đoạn 2"
@@ -278,7 +278,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JGR_C5343_hauling_train.jpg/1920px-JGR_C5343_hauling_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"JGR C5343 hauling train.jpg\" – Katsusaburo NISHIO / 西尾克三郎, Public domain (https://commons.wikimedia.org/wiki/File:JGR_C5343_hauling_train.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 1",
     "dài · chương 3 đoạn 8",
@@ -307,7 +307,7 @@
    "loai": "tranh AI",
    "prompt": "a 1940s Japanese steam train crossing countryside at night, glowing windows, steam trailing, dark hills and rice fields, no people visible",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 2",
@@ -318,7 +318,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Taiyo Maru in Mitsubishi Nagasaki.JPG\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Taiyo_Maru_in_Mitsubishi_Nagasaki.JPG)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1",
     "dài · chương 1 đoạn 2",
@@ -346,7 +346,7 @@
    "loai": "tranh AI",
    "prompt": "a 1940s Japanese company meeting room, a long wooden table, chairs, papers and teacups, tall windows with paper tape crosses on the glass, bright summer light, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 2",
@@ -357,7 +357,7 @@
    "loai": "tranh AI",
    "prompt": "a 1940s Japanese company meeting room, a long wooden table, chairs, papers and teacups, tall windows with paper tape crosses on the glass, late morning light, a single empty chair pulled back, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 3",
@@ -368,7 +368,7 @@
    "loai": "tranh AI",
    "prompt": "the tall windows of a 1940s office suddenly lit by an intense white light from outside, curtains blowing inward, empty room, dramatic",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 8 ảnh 1",
@@ -379,7 +379,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg/1920px-Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Atomic cloud over Nagasaki from Koyagi-jima.jpeg\" – Hiromichi Matsuda (松田 弘道, 1900-1969)[2], Public domain (https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Nagasaki_from_Koyagi-jima.jpeg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 9 ảnh 1",
     "dài · chương 5 đoạn 7"
@@ -406,7 +406,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/A_stopped_clock_in_Nagasaki_showing_the_explosion_time_of_atomic_bomb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"A stopped clock in Nagasaki showing the explosion time of atomic bomb.png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:A_stopped_clock_in_Nagasaki_showing_the_explosion_time_of_atomic_bomb.png)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 9 ảnh 2",
     "dài · chương 5 đoạn 10"
@@ -433,7 +433,7 @@
    "loai": "tranh AI",
    "prompt": "shattered window glass scattered across a wooden office floor in the 1940s, an overturned chair, dust in the light, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 9 ảnh 3",
@@ -444,7 +444,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/20190202_Nagasaki_skyline-3.jpg/1920px-20190202_Nagasaki_skyline-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"20190202 Nagasaki skyline-3.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20190202_Nagasaki_skyline-3.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 10 ảnh 1",
     "dài · chương 8 đoạn 5"
@@ -471,7 +471,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20181111_Atomic_Bomb_Dome-5.jpg/1920px-20181111_Atomic_Bomb_Dome-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"20181111 Atomic Bomb Dome-5.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 10 ảnh 2",
     "dài · chương 8 đoạn 3",
@@ -499,7 +499,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/United_Nations_headquarters_3.jpg/1920px-United_Nations_headquarters_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"United Nations headquarters 3.jpg\" – Horizon206, CC0 (https://commons.wikimedia.org/wiki/File:United_Nations_headquarters_3.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 11 ảnh 1",
     "dài · chương 7 đoạn 4"
@@ -526,7 +526,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg/1920px-Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Hiroshima Peace Memorial Park - HiroshimaPeace132.jpg\" – lumoplank, CC0 (https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Park_-_HiroshimaPeace132.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 11 ảnh 2",
     "dài · chương 7 đoạn 2",
@@ -554,7 +554,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cranes_made_by_Origami_paper.jpg/1920px-Cranes_made_by_Origami_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Cranes made by Origami paper.jpg\" – Laitche, Public domain (https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "ngắn · cảnh 12 ảnh 1",
     "dài · chương 8 đoạn 4",
@@ -582,7 +582,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Oura-Nagasaki_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Oura-Nagasaki 1900.jpg\" – Conger, Emily Bronson purchased from local photographer, Public domain (https://commons.wikimedia.org/wiki/File:Oura-Nagasaki_1900.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 0 đoạn 4",
     "dài · chương 1 đoạn 1",
@@ -610,7 +610,7 @@
    "loai": "tranh AI",
    "prompt": "a small traditional wooden Japanese house on a green hillside above a harbour in the 1940s, tiled roof, laundry pole, summer afternoon, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 1 đoạn 4"
@@ -620,7 +620,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/People_build_Air%E2%80%90raid_shelter_in_Higashi-Mikkaichi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"People build Air‐raid shelter in Higashi-Mikkaichi.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:People_build_Air%E2%80%90raid_shelter_in_Higashi-Mikkaichi.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 1 đoạn 5"
    ],
@@ -646,7 +646,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/HiroshimaStation-1945-historicalphoto.jpg/1920px-HiroshimaStation-1945-historicalphoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"HiroshimaStation-1945-historicalphoto.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:HiroshimaStation-1945-historicalphoto.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 2 đoạn 1"
    ],
@@ -672,7 +672,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Enola_Gay2-PS.jpg/1920px-Enola_Gay2-PS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Enola Gay2-PS.jpg\" – U.S. Air Force photo, Public domain (https://commons.wikimedia.org/wiki/File:Enola_Gay2-PS.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 2 đoạn 5"
    ],
@@ -698,7 +698,7 @@
    "loai": "tranh AI",
    "prompt": "a city street in 1945 Japan engulfed in thick brown dust and smoke after a huge blast, collapsed wooden houses, light filtering through the haze, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 2 đoạn 8"
@@ -708,7 +708,7 @@
    "loai": "tranh AI",
    "prompt": "a city street in 1945 Japan engulfed in slowly settling grey dust and smoke after a huge blast, collapsed wooden houses, light filtering through the haze, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 2 đoạn 9"
@@ -718,7 +718,7 @@
    "loai": "tranh AI",
    "prompt": "inside a dark earthen air raid shelter dug into a hillside in 1945 Japan, wooden beams, a single small oil lamp glowing, empty straw mats, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 3 đoạn 3"
@@ -728,7 +728,7 @@
    "loai": "tranh AI",
    "prompt": "three small figures of men seen from far behind walking along a ruined riverside road at dusk in 1945 Japan, smoke on the horizon, silhouettes only",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 3 đoạn 4"
@@ -738,7 +738,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/People_who_were_escaping_in_the_air-raid_shelter_in_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"People who were escaping in the air-raid shelter in Japan.jpg\" – Shigeru Tamura, Public domain (https://commons.wikimedia.org/wiki/File:People_who_were_escaping_in_the_air-raid_shelter_in_Japan.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 3 đoạn 5"
    ],
@@ -764,7 +764,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Wide_Road_Acting_As_Fire_Break_-_DPLA_-_d1993e429c2cc2f98971ada71b934a3b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Wide Road Acting As Fire Break - DPLA - d1993e429c2cc2f98971ada71b934a3b.jpg\" – War Department. U.S. Strategic Bombing Survey. Pacific Survey. 9/1944-1947, Public domain (https://commons.wikimedia.org/wiki/File:Wide_Road_Acting_As_Fire_Break_-_DPLA_-_d1993e429c2cc2f98971ada71b934a3b.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 3 đoạn 6"
    ],
@@ -790,7 +790,7 @@
    "loai": "tranh AI",
    "prompt": "a wide river in a ruined Japanese city in August 1945, a collapsed bridge with broken spans fallen into the water, burnt trees on the bank, hazy smoky sky, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 3 đoạn 7"
@@ -800,7 +800,7 @@
    "loai": "tranh AI",
    "prompt": "an empty corridor of a 1940s Japanese hospital, wooden floor, white walls, a folding screen and a metal bed frame, soft daylight, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 4 đoạn 2"
@@ -810,7 +810,7 @@
    "loai": "tranh AI",
    "prompt": "the sliding wooden door of a traditional Japanese house half open at dawn, quiet narrow lane, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 4 đoạn 3"
@@ -820,7 +820,7 @@
    "loai": "tranh AI",
    "prompt": "a futon on tatami in a dim traditional Japanese room, a basin of water and a folded cloth beside it, closed shoji screens, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 4 đoạn 4",
@@ -831,7 +831,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Bockscar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"Bockscar.jpg\" – U.S. Air Force Photo, Public domain (https://commons.wikimedia.org/wiki/File:Bockscar.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 5 đoạn 4"
    ],
@@ -857,7 +857,7 @@
    "loai": "tranh AI",
    "prompt": "the entrance of a stone tunnel dug into a green hillside in 1940s Nagasaki, shadows inside, summer day, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 5 đoạn 9"
@@ -867,7 +867,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://live.staticflickr.com/65535/54931017893_01644d5b71_b.jpg",
    "credit": "\"Nagasaki after atomic bombing.\" – WWII in View, Public Domain (https://www.flickr.com/photos/191031534@N08/54931017893)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 5 đoạn 11"
    ],
@@ -881,7 +881,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Japanese_civilians_listening_to_the_surrender_broadcast.jpg/1920px-Japanese_civilians_listening_to_the_surrender_broadcast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Japanese civilians listening to the surrender broadcast.jpg\" – (Unknown), Public domain (https://commons.wikimedia.org/wiki/File:Japanese_civilians_listening_to_the_surrender_broadcast.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 6 đoạn 1"
    ],
@@ -907,7 +907,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/View_of_devastated_Nagasaki_City_in_Middle_October_1945_%28near_Hashiguchi-machi%2C_Nagasaki_City%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"View of devastated Nagasaki City in Middle October 1945 (near Hashiguchi-machi, Nagasaki City).png\" – Hayashi Shigeo, Public domain (https://commons.wikimedia.org/wiki/File:View_of_devastated_Nagasaki_City_in_Middle_October_1945_(near_Hashiguchi-machi,_Nagasaki_City).png)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 6 đoạn 2"
    ],
@@ -933,7 +933,7 @@
    "loai": "tranh AI",
    "prompt": "rows of empty old wooden school desks and chairs seen from the back of a Japanese classroom in the late 1940s, tall windows on the left with sunlight, wooden walls, no blackboard, no writing anywhere",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 6 đoạn 3"
@@ -943,7 +943,7 @@
    "loai": "tranh AI",
    "prompt": "a large oil tanker ship under construction in a 1950s Japanese shipyard dock, cranes, steel hull, sunny day, no people close up",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 6 đoạn 4"
@@ -953,7 +953,7 @@
    "loai": "tranh AI",
    "prompt": "a small traditional wooden Japanese house on a green hillside above a harbour in the 1950s, tiled roof, laundry pole, summer afternoon, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 6 đoạn 5"
@@ -963,7 +963,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/20190202_Nagasaki_skyline-2.jpg/1920px-20190202_Nagasaki_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"20190202 Nagasaki skyline-2.jpg\" – Balon Greyjoy, CC0 (https://commons.wikimedia.org/wiki/File:20190202_Nagasaki_skyline-2.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 6 đoạn 6"
    ],
@@ -989,7 +989,7 @@
    "loai": "tranh AI",
    "prompt": "an old fountain pen and a pair of reading glasses resting on a closed plain brown envelope on a wooden desk, soft lamp light, no text, no letters, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 6 đoạn 7",
@@ -1000,7 +1000,7 @@
    "loai": "tranh AI",
    "prompt": "an old man's hand holding a fountain pen over a notebook on a wooden desk, a cup of green tea, soft lamp light, only the hand visible",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 7 đoạn 1"
@@ -1010,7 +1010,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/An_Overview_of_the_Hiroshima_Castle_as_Seen_From_a_Hotel_Rooftop_as_Secretary_Kerry_Visited_the_City_%2826277888562%29.jpg/1920px-An_Overview_of_the_Hiroshima_Castle_as_Seen_From_a_Hotel_Rooftop_as_Secretary_Kerry_Visited_the_City_%2826277888562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"An Overview of the Hiroshima Castle as Seen From a Hotel Rooftop as Secretary Kerry Visited the City (26277888562).jpg\" – U.S. Department of State from United States, Public domain (https://commons.wikimedia.org/wiki/File:An_Overview_of_the_Hiroshima_Castle_as_Seen_From_a_Hotel_Rooftop_as_Secretary_Kerry_Visited_the_City_(26277888562).jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 7 đoạn 3"
    ],
@@ -1036,7 +1036,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Photograph_of_Hiroshima_After_Atomic_Bombing_taken_March_1946_-_342-C-K6011.jpg/1920px-Photograph_of_Hiroshima_After_Atomic_Bombing_taken_March_1946_-_342-C-K6011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "\"Photograph of Hiroshima After Atomic Bombing taken March 1946 - 342-C-K6011.jpg\" – Department of Defense- Department of the Air Force, Public domain (https://commons.wikimedia.org/wiki/File:Photograph_of_Hiroshima_After_Atomic_Bombing_taken_March_1946_-_342-C-K6011.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 9 đoạn 3"
    ],
@@ -1062,7 +1062,7 @@
    "loai": "ảnh tư liệu",
    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/HiroshimaPaperCranes6682.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "credit": "\"HiroshimaPaperCranes6682.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:HiroshimaPaperCranes6682.jpg)",
-   "ngay_tai": "2026-10-13",
+   "ngay_tai": "2026-10-14",
    "dung_o": [
     "dài · chương 9 đoạn 4"
    ],
@@ -1088,7 +1088,7 @@
    "loai": "tranh AI",
    "prompt": "an empty bench on a hill overlooking a calm harbour city at sunset, peaceful, no people",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-13",
+   "ngay_tao": "2026-10-14",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "dài · chương 9 đoạn 6"

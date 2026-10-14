@@ -1,10 +1,9 @@
 
-===== ST3 (video ngắn + bài ảnh) =====
-❌ ST3.json:
-   - thiếu trường 'scenes'
-   - không có cảnh nào
+===== BA1: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
+   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
-
-Xong video ngắn: - · video dài: -
-Lỗi: ST3
+===== ST3: kiểm tra kịch bản trước khi dựng =====
+   ❌ [Nội dung kịch bản · Cảnh 5 [leo_thang] lời đọc] Lời đọc nói 'tám trăm hải lý', nhưng chi tiết kế hoạch và thông tin thực tế của chuyến đi này là vượt khoảng 1.300 km (tương đương khoảng 700 hải lý). Cần thống nhất con số trong toàn hệ thống.
+   ⛔ Chưa dựng ST3: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
+Không dựng gì (kịch bản có lỗi, xem ở trên).

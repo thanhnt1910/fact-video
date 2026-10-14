@@ -40,6 +40,7 @@
   }
  ],
  "music": "none",
+ "giong_them": "HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, still clear Northern Vietnamese diction.",
  "pronounce": {},
  "long": {
   "title": "Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông? | Tam Quốc theo chính sử, tập 1",
@@ -53,7 +54,8 @@
      {
       "text": "Hơn một nghìn tám trăm năm trước, khắp Trung Hoa vang lên một câu khẩu hiệu: Trời xanh đã chết, trời vàng sẽ lên.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/001.jpg"
+      "anh_file": "assets/anh_2d/TQ1/001.jpg",
+      "clip_file": "assets/clips_2d/TQ1/001.mp4"
      },
      {
       "text": "Chỉ ít lâu sau, hàng chục vạn người quấn khăn vàng nổi dậy, và nhà Hán bắt đầu sụp đổ.",
@@ -63,7 +65,8 @@
      {
       "text": "Giữa cơn loạn ấy, ở một huyện nhỏ, có một người đàn ông nghèo bán giày cỏ, dệt chiếu để sống.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/003.jpg"
+      "anh_file": "assets/anh_2d/TQ1/003.jpg",
+      "clip_file": "assets/clips_2d/TQ1/003.mp4"
      },
      {
       "text": "Ông chưa có binh, chưa có tiền, chưa có chức. Vậy mà người ta nhớ tên ông suốt cả nghìn năm: Lưu Bị.",
@@ -73,7 +76,8 @@
      {
       "text": "Đây là Tam Quốc theo chính sử. Không có phép thuật, không có lời thề vườn đào. Chỉ có những con người thật.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/005.jpg"
+      "anh_file": "assets/anh_2d/TQ1/005.jpg",
+      "clip_file": "assets/clips_2d/TQ1/005.mp4"
      },
      {
       "text": "Câu chuyện này dựa vào bộ Tam quốc chí do Trần Thọ biên soạn, cùng phần chú giải của Bùi Tùng Chi.",
@@ -88,7 +92,8 @@
      {
       "text": "Câu hỏi của tập này rất đơn giản: một người không binh, không tiền, đã bắt đầu từ đâu?",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/005.jpg"
+      "anh_file": "assets/anh_2d/TQ1/005.jpg",
+      "clip_file": "assets/clips_2d/TQ1/005.mp4"
      }
     ]
    },
@@ -97,12 +102,14 @@
      {
       "text": "Năm một trăm tám mươi bốn, nhà Hán đã tồn tại gần bốn trăm năm, và mục ruỗng từ bên trong.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/006.jpg"
+      "anh_file": "assets/anh_2d/TQ1/006.jpg",
+      "clip_file": "assets/clips_2d/TQ1/006.mp4"
      },
      {
       "text": "Nhà Hán do Lưu Bang lập ra. Sau một thời gian bị Vương Mãng cướp ngôi, một người họ Lưu khác dựng lại triều đại, và sử gọi đó là Đông Hán.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/006.jpg"
+      "anh_file": "assets/anh_2d/TQ1/006.jpg",
+      "clip_file": "assets/clips_2d/TQ1/006.mp4"
      },
      {
       "text": "Hoàng đế Linh đế bán cả chức quan để lấy tiền, hoạn quan nắm quyền trong triều.",
@@ -142,12 +149,14 @@
      {
       "text": "Ông chia tín đồ thành ba mươi sáu phương, như ba mươi sáu đạo quân.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/011.jpg"
+      "anh_file": "assets/anh_2d/TQ1/011.jpg",
+      "clip_file": "assets/clips_2d/TQ1/011.mp4"
      },
      {
       "text": "Phương lớn có hơn một vạn người, phương nhỏ chừng sáu bảy nghìn. Mỗi phương có một người đứng đầu.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/037.jpg"
+      "anh_file": "assets/anh_2d/TQ1/037.jpg",
+      "clip_file": "assets/clips_2d/TQ1/037.mp4"
      },
      {
       "text": "Họ hẹn nhau khởi sự năm Giáp Tý, tức năm một trăm tám mươi bốn, và quấn khăn vàng trên đầu.",
@@ -157,7 +166,8 @@
      {
       "text": "Khẩu hiệu của họ nói rõ: năm Giáp Tý, thiên hạ đại cát. Họ tin rằng trời đất sắp đổi chủ.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/011.jpg"
+      "anh_file": "assets/anh_2d/TQ1/011.jpg",
+      "clip_file": "assets/clips_2d/TQ1/011.mp4"
      },
      {
       "text": "Nhưng kế hoạch bị lộ. Một người trong đạo là Đường Chu đã đi tố giác, nên Trương Giác phải khởi sự sớm hơn dự định.",
@@ -181,7 +191,8 @@
      {
       "text": "Ở huyện Trác, quận Trác, lúc ấy có một thanh niên tên là Lưu Bị.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/015.jpg"
+      "anh_file": "assets/anh_2d/TQ1/015.jpg",
+      "clip_file": "assets/clips_2d/TQ1/015.mp4"
      },
      {
       "text": "Ông tự nhận là con cháu Trung Sơn Tĩnh vương Lưu Thắng, con của vua Cảnh đế nhà Hán.",
@@ -241,7 +252,8 @@
      {
       "text": "Hồi nhỏ, nhà ông có một cây dâu rất lớn, từ xa nhìn như chiếc lọng xe.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/022.jpg"
+      "anh_file": "assets/anh_2d/TQ1/022.jpg",
+      "clip_file": "assets/clips_2d/TQ1/022.mp4"
      },
      {
       "text": "Ông từng chỉ cây dâu mà nói: sau này ta sẽ ngồi xe có lọng như thế. Người chú nghe thấy, quát: đừng nói bậy, cả họ ta sẽ bị giết.",
@@ -305,7 +317,8 @@
      {
       "text": "Không có tế trời đất, không có lời thề sinh tử. Trong Tam quốc chí không có một chữ nào về vườn đào.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/031.jpg"
+      "anh_file": "assets/anh_2d/TQ1/031.jpg",
+      "clip_file": "assets/clips_2d/TQ1/031.mp4"
      },
      {
       "text": "Tình nghĩa ấy không đến từ một buổi lễ. Nó đến từ nhiều năm dài đi bên nhau.",
@@ -359,7 +372,8 @@
      {
       "text": "Hoàng Cân không phải một toán cướp. Họ là cả một đạo quân tín ngưỡng, hàng chục vạn người.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/037.jpg"
+      "anh_file": "assets/anh_2d/TQ1/037.jpg",
+      "clip_file": "assets/clips_2d/TQ1/037.mp4"
      },
      {
       "text": "Triều đình phái các đạo quân lớn do Lư Thực, Hoàng Phủ Tung và Chu Tuấn chỉ huy.",
@@ -369,7 +383,8 @@
      {
       "text": "Lư Thực đánh ở phía bắc, còn Hoàng Phủ Tung và Chu Tuấn đánh ở phía nam.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/043.jpg"
+      "anh_file": "assets/anh_2d/TQ1/043.jpg",
+      "clip_file": "assets/clips_2d/TQ1/043.mp4"
      },
      {
       "text": "Trong vòng một năm, đạo quân khăn vàng bị đánh tan ở nhiều mặt. Trương Giác bệnh mất giữa chừng.",
@@ -389,12 +404,14 @@
      {
       "text": "Công trạng của Lưu Bị trong sử chỉ có một câu: đánh giặc Hoàng Cân, có công.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/040.jpg"
+      "anh_file": "assets/anh_2d/TQ1/040.jpg",
+      "clip_file": "assets/clips_2d/TQ1/040.mp4"
      },
      {
       "text": "Ông không phải một vị tướng nổi tiếng. Ông chỉ là một người có công trong vô số người ra trận.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/040.jpg"
+      "anh_file": "assets/anh_2d/TQ1/040.jpg",
+      "clip_file": "assets/clips_2d/TQ1/040.mp4"
      },
      {
       "text": "Phần thưởng lại rất nhỏ: chức huyện úy ở huyện An Hỉ.",
@@ -404,7 +421,8 @@
      {
       "text": "Một huyện úy không có đại quân, không có quyền lớn. Đó chỉ là một chức nhỏ trong bộ máy nhà Hán.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/015.jpg"
+      "anh_file": "assets/anh_2d/TQ1/015.jpg",
+      "clip_file": "assets/clips_2d/TQ1/015.mp4"
      },
      {
       "text": "Sau bao tháng đánh trận, người con cháu hoàng tộc vẫn chỉ là một viên quan nhỏ nơi xa.",
@@ -418,7 +436,8 @@
      {
       "text": "Dập xong Hoàng Cân, nhiều tướng lĩnh và quan châu quận giờ có quân riêng, và triều đình không còn đủ sức quản họ.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/043.jpg"
+      "anh_file": "assets/anh_2d/TQ1/043.jpg",
+      "clip_file": "assets/clips_2d/TQ1/043.mp4"
      },
      {
       "text": "Từ đây, nhiều người hiểu rằng ai nắm quân trong tay, người đó nắm số phận.",
@@ -433,7 +452,8 @@
      {
       "text": "Còn Lưu Bị ngồi ở An Hỉ, và một ngày nọ, một viên đốc bưu đến huyện.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/044.jpg"
+      "anh_file": "assets/anh_2d/TQ1/044.jpg",
+      "clip_file": "assets/clips_2d/TQ1/044.mp4"
      },
      {
       "text": "Sử chép rất rõ điều ông làm với người ấy: chính tay ông trói viên đốc bưu lại và đánh.",
@@ -448,12 +468,14 @@
      {
       "text": "Trong tiểu thuyết, người đánh đốc bưu là Trương Phi. Còn trong sử, đó là chính Lưu Bị.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/044.jpg"
+      "anh_file": "assets/anh_2d/TQ1/044.jpg",
+      "clip_file": "assets/clips_2d/TQ1/044.mp4"
      },
      {
       "text": "Vì sao một viên huyện úy lại dám làm vậy, và chuyện gì xảy ra sau đó? Tập sau sẽ kể tiếp.",
       "ai": "ancient Han China scene, 2D ligne claire",
-      "anh_file": "assets/anh_2d/TQ1/046.jpg"
+      "anh_file": "assets/anh_2d/TQ1/046.jpg",
+      "clip_file": "assets/clips_2d/TQ1/046.mp4"
      }
     ]
    }

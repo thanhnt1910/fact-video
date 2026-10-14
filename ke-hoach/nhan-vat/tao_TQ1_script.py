@@ -96,6 +96,10 @@ CH = [
   ("Vì sao một viên huyện úy lại dám làm vậy, và chuyện gì xảy ra sau đó? Tập sau sẽ kể tiếp.", "046"),
  ]),
 ]
+GIONG = ("HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; "
+         "strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, "
+         "slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, "
+         "still clear Northern Vietnamese diction.")
 NGAN = [
  ("hook", "Hơn một nghìn tám trăm năm trước, hàng chục vạn người quấn khăn vàng nổi dậy, và nhà Hán bắt đầu sụp đổ.", ("002", "001")),
  ("boi_canh", "Giữa cơn loạn ấy, có một người bán giày cỏ, dệt chiếu ở huyện Trác. Ông tên là Lưu Bị.", ("003", "004")),
@@ -110,13 +114,15 @@ NGAN = [
  ("vong_lap", "Rồi một viên đốc bưu đến huyện. Trong tiểu thuyết, người đánh ông ta là Trương Phi. Nhưng trong sử, đó là chính Lưu Bị. Sử thật… lạ hơn cả truyện.", ("044", "045")),
 ]
 
+CLIPS = {"001","003","005","006","011","015","022","031","037","040","043","044","046"}
+
 def img(k):
     return f"assets/anh_2d/TQ1/{k}.jpg"
 
 chapters = []
 cnt = Counter()
 for title, beats in CH:
-    chapters.append({"beats": [{"text": t, "ai": "ancient Han China scene, 2D ligne claire", "anh_file": img(k)} for t, k in beats]})
+    chapters.append({"beats": [dict({"text": t, "ai": "ancient Han China scene, 2D ligne claire", "anh_file": img(k)}, **({"clip_file": f"assets/clips_2d/TQ1/{k}.mp4"} if k in CLIPS else {})) for t, k in beats]})
     for t, k in beats:
         cnt[k] += 1
 assert all(v <= 2 for v in cnt.values()), {k: v for k, v in cnt.items() if v > 2}
@@ -146,6 +152,7 @@ script = {
   {"ten": "Bản dịch tiếng Anh Tiên chủ truyện, the-scholars.com", "url": "https://the-scholars.com/", "ngon_ngu": "tiếng Anh"},
  ],
  "music": "none",
+ "giong_them": GIONG,
  "pronounce": {},
  "long": {
   "title": "Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông? | Tam Quốc theo chính sử, tập 1",

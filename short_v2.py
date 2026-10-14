@@ -457,7 +457,7 @@ def _trim(samples, margin=0.04):
     return samples[a:b]
 
 
-def narration_styled(beats, voice, work, huyen_bi=False):
+def narration_styled(beats, voice, work, huyen_bi=False, them=""):
     """Kế hoạch (Âm thanh và giọng đọc, B): đọc TỪNG CẢNH với chỉ dẫn sắc thái theo loai_canh, chữ đã chuẩn hóa
     (số, viết tắt, từ điển phát âm), rồi ghép lại với khoảng nghỉ chủ động: 0,25-0,35 giây giữa các cảnh,
     0,7 giây trước cú lật. Trả về (mẫu âm, [(bắt đầu, kết thúc) từng cảnh], tổng thời lượng, khoảng lặng trước cú lật)."""
@@ -470,7 +470,7 @@ def narration_styled(beats, voice, work, huyen_bi=False):
     jobs = []
     for b in beats:
         txt = am_thanh.chuan_hoa(gemini_tts.clean_text(b["text"])[0], tu)
-        style = SHORT_STYLE + " " + am_thanh.sac_thai(b.get("loai_canh"), huyen_bi)
+        style = SHORT_STYLE + " " + am_thanh.sac_thai(b.get("loai_canh"), huyen_bi) + (" " + them if them else "")
         key = hashlib.sha1(f"v2|{voice}|{style}|{SPEED}|{txt}".encode()).hexdigest()[:16]
         jobs.append((txt, style, long_video.TTS_CACHE / f"nganb_{key}.wav"))
 
@@ -631,7 +631,7 @@ def build(script, cfg, out_dir, variant="moi"):
     log(f"  🎙️  Giọng Gemini {voice}")
     twist_gap = None
     if variant == "moi":
-        narr, times, total, twist_gap = narration_styled(beats, voice, work, huyen_bi)
+        narr, times, total, twist_gap = narration_styled(beats, voice, work, huyen_bi, script.get("giong_them", ""))
     else:
         audio, segs, (a0, b0) = narration(beats, voice, work)
         lead = 0.15

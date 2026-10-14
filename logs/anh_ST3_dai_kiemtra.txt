@@ -34,12 +34,13 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
      ❌ Tên viết trên mạn tàu bị lỗi chữ cái (ký tự vô nghĩa, không phải chữ Endurance) do AI tạo. → Sửa lại chữ trên mạn tàu thành 'Endurance'.
 ✅ 20 (ảnh mô phỏng AI) ·  020.jpg
 ✅ 21 (ảnh mô phỏng AI) ·  021.jpg
-✅ 22 (ảnh mô phỏng AI) ·  022.jpg
+❌ 22 (ảnh mô phỏng AI) ·  022.jpg
+     ❌ Ảnh hiển thị rõ khuôn mặt của các nhân vật lịch sử và bối cảnh ban ngày với ánh sáng trời đầy đủ, trong khi lời kể đề cập đến thời điểm 'Mặt Trời biến mất suốt bốn tháng' và chỉ có bóng tối. → Dùng ảnh minh họa có khung cảnh tối tăm, mờ ảo hoặc các nhân vật quay lưng, ở xa đúng với bối cảnh không có Mặt Trời suốt bốn tháng.
 ✅ 23 (ảnh mô phỏng AI) ·  023.jpg
 ❌ 24 (ảnh mô phỏng AI) ·  024.jpg
      ❌ Cờ treo trang trí phía trên có các ký tự, chữ cái vô nghĩa, không phải tiếng Anh hay ngôn ngữ thực tế. → Dùng AI tạo lại hình ảnh với các dây cờ trang trí không có chữ hoặc thay bằng hoa văn họa tiết bình thường.
 ❌ 25 (ảnh mô phỏng AI) ·  025.jpg
-     ❌ Ảnh AI vẽ nhân vật lịch sử có thật (nhiếp ảnh gia Frank Hurley) nhìn rõ khuôn mặt và cầm chiếc máy ảnh trông quá hiện đại không phù hợp với thời kỳ năm 1915 của chuyến thám hiểm Endurance. → Vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc sử dụng máy ảnh cổ phù hợp với đầu thế kỷ 20.
+     ❌ Ảnh hiển thị rõ khuôn mặt của nhân vật lịch sử có thật (nhiếp ảnh gia Frank Hurley đang cầm máy ảnh đứng trước tàu), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối đang thao tác chụp ảnh.
 ✅ 26 (ảnh mô phỏng AI) ·  026.jpg
 ❌ 27 (ảnh mô phỏng AI) ·  027.jpg
      ❌ Ảnh AI tạo lỗi giải phẫu phần tay và chi tiết nhân vật phía sau: nhân vật mặc áo khoác xanh lá bên trái bị cụt mất một tay, và các thủy thủ đứng xếp hàng phía sau có khuôn mặt và hình dáng bị méo mó, lặp lại kỳ lạ. → Dùng ảnh mô phỏng có hình giải phẫu chính xác hoặc tập trung vào cảnh tàu bị băng ép theo lời kể.
@@ -94,7 +95,7 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
 ❌ 62 (ảnh mô phỏng AI) ·  062.jpg
      ❌ Ảnh AI tạo ra có chữ viết vô nghĩa trên mạn chiếc xuồng lật úp (các ký tự không thành từ ngữ chính xác). → Dùng ảnh khác không có chữ viết vô nghĩa trên vật dụng.
 ❌ 63 (ảnh mô phỏng AI) ·  063.jpg
-     ❌ Ảnh vẽ cảnh nhiều người đứng ở cảng/thuyền, không khớp với lời kể về việc dựng chỗ trú bằng hai chiếc xuồng lật úp trên tường đá và lo lắng về mùa đông Nam Cực. → Thay thế bằng ảnh minh họa nhóm người đang dựng chỗ trú với hai chiếc xuồng lật úp trên các bức tường đá ở Nam Cực.
+     ❌ Ảnh vẽ hai người đang đứng trên boong tàu hoặc bờ biển với cảnh biển và thuyền buồm phía sau, hoàn toàn không khớp với ngữ cảnh lời kể về việc dựng chỗ trú bằng hai chiếc xuồng lật úp trên tường đá và chuẩn bị đối mặt với mùa đông Nam Cực. → Cần thay đổi ảnh minh họa thể hiện cảnh các thành viên đang dựng chỗ trú bằng xuồng lật úp trên những bức tường đá ở Nam Cực.
 ❌ 64 (ảnh mô phỏng AI) ·  064.jpg
      ❌ Lời kể nói về hoàn cảnh bị mắc kẹt ở Nam Cực khi mùa đông sắp đến và cần tìm sự giúp đỡ, nhưng ảnh minh họa lại vẽ cảnh nhóm người đứng ở cả biển ôn đới với tàu thuyền và chim hải âu bay lượn, không phù hợp với bối cảnh băng giá Nam Cực. → Thay thế bằng ảnh minh họa thể hiện bối cảnh băng tuyết Nam Cực, lều trại hoặc băng trôi đúng với sự kiện chuyến thám hiểm Endurance.
 ✅ 65 (ảnh mô phỏng AI) ·  065.jpg
@@ -144,7 +145,7 @@ KIỂM TRA ẢNH ST3 · video dài · 103 ảnh (số thứ tự khớp lưới 
 ✅ 95 (ảnh mô phỏng AI) ·  095.jpg
 ✅ 96 (ảnh mô phỏng AI) · Đảo Elephant · 30/8/1916 096.jpg
 ❌ 97 (ảnh mô phỏng AI) ·  097.jpg
-     ❌ Nhân vật bên trái có bàn tay vẫy chào bị dị dạng bất thường (quá dài hoặc nhiều ngón/sai khớp). → Tạo lại ảnh AI với bàn tay được vẽ chính xác hơn.
+     ❌ Lỗi giải phẫu bàn tay do AI tạo: nhân vật bên phải có bàn tay phải giơ lên bị thừa ngón (có tới 6 ngón tay). → Sửa lại bàn tay của nhân vật cho đúng giải phẫu (chỉ có 5 ngón).
 ❌ 98 (ảnh mô phỏng AI) ·  098.jpg
      ❌ Lời kể đang miêu tả cảnh Shackleton đứng trên tàu nhìn vào bờ để đếm 22 người đang vẫy tay dưới xuồng lật úp, nhưng ảnh lại vẽ hai nhân vật nam đứng đối thoại cận cảnh trên boong tàu, không khớp với sự việc trong lời kể. → Thay thế bằng ảnh minh họa Shackleton đứng trên tàu nhìn về phía bờ biển có nhóm người đang vẫy tay.
 ✅ 99 (ảnh mô phỏng AI) ·  099.jpg

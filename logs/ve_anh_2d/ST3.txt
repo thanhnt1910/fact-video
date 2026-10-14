@@ -1,1 +1,6 @@
-Cần vẽ 0 ảnh (đợt 1)
+Cần vẽ 27 ảnh (đợt 1)
+     🖥️  Chỉ tải lại kết quả của lần chạy Kaggle trước
+     🖥️   0.5 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (1 phút)
+     🖥️  Nhận về 27/27 tranh từ Kaggle
+Nhận về 27/27 ảnh

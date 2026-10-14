@@ -116,6 +116,8 @@ def record(script, log=print, strict=True):
     rows, errs, warns = [], [], []
     seen = {}
     for usage, im in items:
+        if im.get("anh_file") and not im.get("mo_phong"):
+            im = {**im, "mo_phong": "ảnh 2D vẽ bằng FLUX.2 klein: " + im["anh_file"]}
         if im.get("mo_phong"):
             key = "AI:" + im["mo_phong"]
             if key in seen:

@@ -1,39 +1,50 @@
 
-===== ST3 (video ngắn + bài ảnh) =====
-▶️  ST3: 28 người mắc kẹt ở Nam Cực và tất cả đều sống sót
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST3.json
+===== TQ1 (video ngắn + bài ảnh) =====
+▶️  TQ1: Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông?
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ1.json
   🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 22 ảnh: 9 ảnh lỗi, 6 ảnh cần xem
+  🔍 Kiểm tra 18 ảnh: 4 ảnh lỗi, 0 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+  🎙️  Gemini đọc 9/9 cảnh, mỗi cảnh một sắc thái (15s), tốc độ x1.12
   🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
-  ⏱️  73.8 giây · 22 hình · trung bình 3.4 giây/hình · ⚠️ 4 hình đứng quá 4 giây
-  🎞️  Số lần: cut 13, dissolve 5, fade 2, fadewhite 1
-[0;93m2026-10-14 10:24:18.780845708 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-  🎬 Dựng 2215 khung hình (50s)
+  ⏱️  46.4 giây · 18 hình · trung bình 2.6 giây/hình
+  🎞️  Số lần: cut 11, dissolve 3, fade 1, wiperight 1, fadewhite 1
+[0;93m2026-10-14 15:49:49.422205646 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  🎬 Dựng 1394 khung hình (33s)
   🔊 Tiếng động: hit, rise
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -3.8 dBTP
-  🖼️  Ảnh bìa: 3 phương án (ST3_bia_1.jpg, ST3_bia_2.jpg, ST3_bia_3.jpg)
-✅ Xong output/ST3/ST3.mp4  (73.8s video, mất 76s)
+  🔈 Âm lượng cuối: -15.0 LUFS, đỉnh -4.1 dBTP
+     ⚠️  không tạo được ảnh bìa: 'str' object has no attribute 'get'
+✅ Xong output/TQ1/TQ1.mp4  (46.4s video, mất 167s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-===== ST3 (video dài) =====
-▶️  Video dài ST3: Vì sao 28 người mắc kẹt ở Nam Cực đều sống sót? | Chuyến thám hiểm Endurance
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 22 tranh AI → logs/nguon_anh_ST3.json
+===== TQ1 (video dài) =====
+▶️  Video dài TQ1: Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông? | Tam Quốc theo chính sử, tập 1
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ1.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 103 ảnh: 45 ảnh lỗi, 5 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (9 chương)
-  ⏱️  Thời lượng 11:25 · 103 cảnh ảnh
+  🔍 Kiểm tra 46 ảnh: 9 ảnh lỗi, 1 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (6 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (23s)
+     🎙️  Gemini đọc xong 1 chương (38s)
+     🎙️  Gemini đọc xong 1 chương (34s)
+     🎙️  Gemini đọc xong 1 chương (37s)
+     🎙️  Gemini đọc xong 1 chương (27s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+  ⏱️  Thời lượng 08:14 · 65 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-     103/103 ảnh có độ sâu
-  🎞️  10 cảnh có clip chuyển động
-     16443 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (192 giây)
-     … 6/12 đoạn (358 giây)
-     … 9/12 đoạn (536 giây)
-     … 12/12 đoạn (549 giây)
-     dựng khung hình xong trong 550 giây
-  🔈 Âm lượng cuối: -15.3 LUFS, đỉnh -4.1 dBTP
-✅ Video dài: ST3_dai.mp4 (11:25)
+[0;93m2026-10-14 15:55:51.894817776 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     46/46 ảnh có độ sâu
+     11880 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (127 giây)
+     … 6/12 đoạn (253 giây)
+     … 9/12 đoạn (343 giây)
+     … 12/12 đoạn (362 giây)
+     dựng khung hình xong trong 362 giây
+  🔈 Âm lượng cuối: -15.4 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-flash-lite-latest)
+✅ Video dài: TQ1_dai.mp4 (08:14)
 
-Xong video ngắn: ST3 · video dài: ST3
+Xong video ngắn: TQ1 · video dài: TQ1

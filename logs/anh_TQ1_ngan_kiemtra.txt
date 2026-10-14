@@ -1,0 +1,23 @@
+KIỂM TRA ẢNH TQ1 · video ngắn · 18 ảnh (số thứ tự khớp lưới ảnh anh_TQ1_ngan_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+✅ 1 (ảnh mô phỏng AI) ·  002.jpg
+✅ 2 (ảnh mô phỏng AI) ·  001.jpg
+✅ 3 (ảnh mô phỏng AI) ·  003.jpg
+✅ 4 (ảnh mô phỏng AI) ·  004.jpg
+✅ 5 (ảnh mô phỏng AI) ·  019.jpg
+✅ 6 (ảnh mô phỏng AI) ·  016.jpg
+❌ 7 (ảnh mô phỏng AI) ·  023.jpg
+     ❌ Lỗi giải phẫu bàn tay của đứa trẻ: bàn tay trái giơ lên chỉ cây dâu có ngón tay bị dị dạng, bẻ quập bất thường. → Dùng AI tạo lại ảnh với chi tiết bàn tay của đứa trẻ được vẽ chính xác hơn.
+❌ 8 (ảnh mô phỏng AI) ·  022.jpg
+     ❌ Lời kể đề cập đến nhân vật khi còn 'hồi nhỏ' (trẻ em), nhưng ảnh lại vẽ một người trưởng thành đứng tuổi. → Sửa lại hình ảnh nhân vật thành một đứa trẻ đúng với chi tiết 'hồi nhỏ' trong lời kể.
+✅ 9 (ảnh mô phỏng AI) ·  026.jpg
+❌ 10 (ảnh mô phỏng AI) ·  027.jpg
+     ❌ Lời kể đề cập đến Lưu Bị tập hợp người ở quê cùng hai người đàn ông Quan Vũ và Trương Phi, nhưng ảnh chỉ vẽ một nhân vật đơn lẻ, không thể hiện rõ đây là ai trong ba người hoặc bối cảnh tập hợp lực lượng. → Thay thế bằng ảnh minh họa có sự xuất hiện của ba nhân vật Lưu Bị, Quan Vũ và Trương Phi cùng tập hợp lực lượng.
+✅ 11 (ảnh mô phỏng AI) ·  029.jpg
+❌ 12 (ảnh mô phỏng AI) ·  031.jpg
+     ❌ Lời kể nhấn mạnh rằng trong Tam quốc chí không có lời thề vườn đào (chỉ ghi ba người ngủ chung giường), nhưng ảnh lại minh họa một cây đào đầy quả, trực quan gợi nhắc đến sự tích 'vườn đào' kết nghĩa vốn không có thật theo chính sử. → Thay bằng hình ảnh minh họa phù hợp với việc ba người ngủ chung giường hoặc thể hiện sự gắn bó theo đúng chính sử.
+✅ 13 (ảnh mô phỏng AI) ·  036.jpg
+✅ 14 (ảnh mô phỏng AI) ·  040.jpg
+✅ 15 (ảnh mô phỏng AI) ·  041.jpg
+✅ 16 (ảnh mô phỏng AI) ·  042.jpg
+✅ 17 (ảnh mô phỏng AI) ·  044.jpg
+✅ 18 (ảnh mô phỏng AI) ·  045.jpg

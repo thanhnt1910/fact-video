@@ -15,8 +15,10 @@ NV = CFG["nhan_vat"]
 STYLE = CFG["phong_cach"]
 SAFE = ("medium to wide shot, simple natural poses, every person has exactly two arms, two hands and two legs with "
         "natural adult proportions, serious weathered adult faces, no extra limbs, no deformed faces, no text, no letters, no watermark. "
-        "All ships, boats and objects are realistic with no faces, eyes or smiles. Any additional crew members are adult men with beards "
+        "All ships, boats and objects are realistic with no faces, eyes or smiles. Any people are adult men with beards "
         "in heavy winter clothes, never children, never women")
+ONLY = ("only these people appear in the picture and nobody else, no crowd, no extra men, no background figures")
+SO_NGUOI = {**{f"{i:03d}": 6 for i in range(70, 76)}}   # hành trình James Caird: đúng 6 người
 CLIPS = {"001", "002", "026", "036", "052", "070", "075", "089", "096", "100"}   # ảnh đã có clip chuyển động Veo (giữ nguyên ảnh cũ)
 NOT_PERSON = ("ship", "boat", "tug", "dogs", "shelter")
 
@@ -280,7 +282,12 @@ def add(bt, store):
         parts.append("Characters (keep exactly this look): " + "; ".join(desc))
         npers = sum(1 for x in nvs if not any(w in NV[x].lower() for w in NOT_PERSON))
         if npers:
-            parts.append(f"exactly {npers} named character{'s' if npers > 1 else ''}, each drawn only once, no duplicates or twins")
+            parts.append(f"exactly {npers} named character{'s' if npers > 1 else ''}, each drawn only once, no duplicates or twins, " + ONLY)
+    k0 = f"{n:03d}"
+    if k0 in SO_NGUOI:
+        parts.append(f"exactly {SO_NGUOI[k0]} men in total, no more, no crowd")
+    elif not any(not any(w in NV[x].lower() for w in NOT_PERSON) for x in nvs):
+        parts.append("no people unless the scene explicitly needs a few small distant figures")
     parts.append(STYLE)
     parts.append(SAFE)
     prompt = ". ".join(parts)

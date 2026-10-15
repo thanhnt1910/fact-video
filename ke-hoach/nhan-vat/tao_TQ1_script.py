@@ -119,6 +119,19 @@ CLIPS = {"001","003","005","006","011","015","022","031","037","040","043","044"
 def img(k):
     return f"assets/anh_2d/TQ1/{k}.jpg"
 
+# ảnh mới (047-076) gán cho các câu trước đây phải dùng chung ảnh; khóa = số thứ tự câu (từ 0)
+NEW_IMG = {7:"047",9:"048",11:"049",16:"050",20:"051",22:"052",23:"053",26:"054",28:"055",29:"056",32:"057",33:"058",39:"059",
+           46:"060",52:"061",53:"062",55:"063",57:"064",58:"065",59:"066",62:"067",63:"068",65:"069",67:"070",68:"071",
+           69:"072",70:"073",71:"074",74:"075",75:"076"}
+_n = 0
+_CH3 = []
+for _title, _bs in CH:
+    _nb = []
+    for _t, _k in _bs:
+        _nb.append((_t, NEW_IMG.get(_n, _k))); _n += 1
+    _CH3.append((_title, _nb))
+CH = _CH3
+
 # KHÔNG LẶP ẢNH: mỗi ảnh chỉ xuất hiện đúng một lần. Câu nào trùng ảnh đã dùng (không liền kề) thì giữ ảnh của câu liền trước
 # (cảnh kéo dài, máy quay lướt chậm), clip chuyển động chỉ gắn ở lần đầu.
 _seen, _prev = set(), None

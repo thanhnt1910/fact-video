@@ -12,27 +12,40 @@
 *{box-sizing:border-box;margin:0}
 html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg);font-family:'Be Vietnam Pro',sans-serif}
 #bg{position:absolute;inset:-40px;background-size:cover;background-position:center;filter:blur(26px) saturate(1.4) brightness(.55)}
-#hero{position:absolute;top:0;right:0;width:1240px;height:1080px;background-size:auto 104%;background-position:58% 70%}
+#rays{position:absolute;inset:0;background:repeating-conic-gradient(from 0deg at 76% 46%,rgba(255,190,80,.16) 0deg 6deg,rgba(255,190,80,0) 6deg 14deg);-webkit-mask-image:radial-gradient(circle at 76% 46%,#000,transparent 70%);mask-image:radial-gradient(circle at 76% 46%,#000,transparent 70%)}
+#hero{position:absolute;top:0;right:0;width:1240px;height:1080px;background-size:auto 104%;background-position:58% 70%;filter:saturate(1.22) contrast(1.06) brightness(1.04);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 22%);mask-image:linear-gradient(90deg,transparent 0,#000 22%)}
 #fade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(26,15,10,1) 0%,rgba(26,15,10,.9) 20%,rgba(26,15,10,.45) 38%,rgba(26,15,10,0) 56%),linear-gradient(0deg,rgba(26,15,10,.85) 0%,rgba(26,15,10,0) 28%)}
 #glow{position:absolute;inset:0;background:radial-gradient(circle at 78% 42%,rgba(255,170,70,.30),rgba(255,170,70,0) 45%)}
 #badge{position:absolute;left:84px;top:70px;display:flex;align-items:center;gap:16px;background:var(--red);color:#fff;font-weight:800;font-size:38px;letter-spacing:3px;padding:12px 28px 12px 24px;border-radius:6px;box-shadow:0 6px 0 rgba(0,0,0,.35)}
 #badge i{font-style:normal;background:#fff;color:var(--red);border-radius:4px;padding:0 12px;font-size:34px}
-#txt{position:absolute;left:84px;top:200px;width:1100px}
-.l1{font-weight:800;font-size:158px;line-height:1;white-space:nowrap;color:var(--cream);letter-spacing:-3px;text-shadow:0 8px 0 rgba(0,0,0,.55)}
-.l2{position:relative;display:inline-block;font-weight:800;font-size:158px;line-height:1.04;white-space:nowrap;color:var(--gold);letter-spacing:-3px;text-shadow:0 8px 0 rgba(0,0,0,.55);margin-top:6px}
+#txt{position:absolute;left:84px;top:210px;width:900px}
+.l1{font-weight:800;font-size:136px;line-height:1;white-space:nowrap;color:var(--cream);letter-spacing:-3px;text-shadow:0 8px 0 rgba(0,0,0,.55)}
+.l2{position:relative;display:inline-block;font-weight:800;font-size:136px;line-height:1.04;white-space:nowrap;color:var(--gold);letter-spacing:-3px;text-shadow:0 8px 0 rgba(0,0,0,.55);margin-top:6px}
 .l2.strike::after{content:"";position:absolute;left:-14px;right:-14px;top:52%;height:26px;background:var(--red);transform:rotate(-4deg);border-radius:6px;box-shadow:0 5px 0 rgba(0,0,0,.45)}
-.l3{margin-top:40px;font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:56px;line-height:1.2;color:var(--cream);text-shadow:0 4px 0 rgba(0,0,0,.6);max-width:1000px;white-space:nowrap}
+.l3{margin-top:44px;font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:54px;line-height:1.25;color:var(--cream);text-shadow:0 4px 0 rgba(0,0,0,.6);white-space:nowrap}
 .l3 b{color:var(--gold);font-style:normal;font-weight:700}
 #brand{position:absolute;left:84px;bottom:56px;font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:40px;color:var(--gold);letter-spacing:1px;display:flex;align-items:center;gap:18px}
 #brand::before{content:"";width:70px;height:4px;background:var(--gold)}
 #frame{position:absolute;inset:0;border:14px solid rgba(255,194,74,.0)}
-body.center #hero{width:1920px;background-position:50% 32%;background-size:auto 108%;opacity:.95}
+body.center #hero{-webkit-mask-image:none;mask-image:none;width:1920px;background-position:50% 32%;background-size:auto 108%;opacity:.95}
 body.center #fade{background:linear-gradient(90deg,rgba(26,15,10,.1) 0%,rgba(26,15,10,.8) 30%,rgba(26,15,10,.8) 70%,rgba(26,15,10,.1) 100%)}
 body.center #txt{left:560px;width:800px;top:230px;text-align:center}
 body.center .l1{font-size:118px}body.center .l2{font-size:118px}body.center .l3{font-size:48px;max-width:800px;margin-left:auto;margin-right:auto}
 body.center #badge{left:560px;font-size:30px;top:90px}body.center #brand{left:560px;bottom:70px}
+body.v,body.v html{width:1080px;height:1920px}
+html:has(body.v){width:1080px;height:1920px}
+body.v{width:1080px;height:1920px}
+body.v #rays{background:repeating-conic-gradient(from 0deg at 50% 36%,rgba(255,190,80,.2) 0deg 6deg,rgba(255,190,80,0) 6deg 14deg);-webkit-mask-image:radial-gradient(circle at 50% 36%,#000,transparent 72%);mask-image:radial-gradient(circle at 50% 36%,#000,transparent 72%)}
+body.v #hero{-webkit-mask-image:none;mask-image:none;left:0;right:auto;top:150px;width:1080px;height:1000px;background-size:auto 100%;background-position:55% 40%}
+body.v #fade{background:linear-gradient(0deg,rgba(26,15,10,1) 0%,rgba(26,15,10,.96) 30%,rgba(26,15,10,0) 52%),linear-gradient(180deg,rgba(26,15,10,.9) 0%,rgba(26,15,10,0) 14%)}
+body.v #glow{background:radial-gradient(circle at 50% 36%,rgba(255,170,70,.3),rgba(255,170,70,0) 50%)}
+body.v #badge{left:50%;transform:translateX(-50%);top:70px;font-size:36px;white-space:nowrap}
+body.v #txt{left:0;width:1080px;top:1180px;text-align:center}
+body.v .l1,body.v .l2{font-size:150px}
+body.v .l3{font-size:60px;margin:46px auto 0;max-width:960px;white-space:normal}
+body.v #brand{left:50%;transform:translateX(-50%);bottom:70px}
 </style></head><body>
-<div id="bg"></div><div id="hero"></div><div id="glow"></div><div id="fade"></div>
+<div id="bg"></div><div id="rays"></div><div id="hero"></div><div id="glow"></div><div id="fade"></div>
 <div id="badge"><i>●</i><span id="bd"></span></div>
 <div id="txt"><div class="l1" id="a"></div><div class="l2 strike" id="b"></div><div class="l3" id="c"></div></div>
 <div id="brand" id="br"></div>
@@ -46,6 +59,7 @@ window.setup = function (o) {
   document.getElementById('c').innerHTML = o.dong3;
   document.getElementById('brand').textContent = o.kenh;
   if (o.mode === 'center') document.body.classList.add('center');
+  if (o.mode === 'v') document.body.classList.add('v');
   return Promise.all([o.nen, o.anh].map(s => new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = s; }))).then(() => document.fonts.ready);
 };
 </script></body></html>

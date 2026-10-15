@@ -31,6 +31,17 @@ def main():
             page.wait_for_timeout(400)
             page.screenshot(path=str(out / name), type="jpeg", quality=93)
             print("ok", out / name)
+        # ảnh bìa video ngắn (dọc 9:16)
+        page = br.new_page(viewport={"width": 1080, "height": 1920})
+        sb = script.get("ngan", {}).get("bia") or b
+        page.goto((ROOT / "templates" / "bia.html").as_uri())
+        o = {"nen": (ROOT / sb["nen"]).as_uri(), "anh": (ROOT / sb["anh"]).as_uri(), "huy_hieu": sb["huy_hieu"],
+             "dong1": sb["dong1"], "dong2": sb["dong2"], "gach": sb.get("gach", False), "dong3": sb["dong3"],
+             "kenh": cfg.get("channel", ""), "mode": "v"}
+        page.evaluate("o => window.setup(o)", o)
+        page.wait_for_timeout(400)
+        page.screenshot(path=str(out / f"{sid}_thumbnail.jpg"), type="jpeg", quality=93)
+        print("ok", out / f"{sid}_thumbnail.jpg")
         br.close()
 
 

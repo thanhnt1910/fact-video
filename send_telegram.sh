@@ -58,6 +58,7 @@ if [ "$COVER_ONLY" = "yes" ]; then
     [ -z "$id" ] && continue
     send_covers "🖼️ Ảnh bìa video dài $id (thiết kế mới): _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
       "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_thumbnail_fb.jpg"
+    send_covers "🖼️ Ảnh bìa video ngắn $id (thiết kế mới, dọc 9:16)" "output/$id/${id}_thumbnail.jpg"
   done < ci_cover.txt
   exit 0
 fi

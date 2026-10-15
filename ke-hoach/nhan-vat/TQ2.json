@@ -1,0 +1,700 @@
+{
+ "ma": "TQ2",
+ "ghi_chu": "Tập 2: đốc bưu, lang bạt, kinh đô 189, liên quân 190",
+ "nhan_vat_phu": {
+  "docbuu": "a provincial inspector in his fifties, thin arrogant face, small moustache, official black cap and formal pale-grey robe",
+  "hoanquan": "a court eunuch, smooth beardless pale face, black official cap and long dark-purple official robe, hands tucked in sleeves",
+  "tuongquan": "a Han army commander in his forties, stern face, short beard, iron scale armour over a red robe, plain helmet",
+  "dan": "a poor peasant man, thin, sunburnt, ragged hemp tunic, hair in a topknot",
+  "linhde": "Emperor Ling of Han, a plump pale man of about 28 in a black and dark-red ceremonial robe and a flat-topped crown with hanging bead strings, bored indulgent expression, seated on a plain low throne",
+  "congtonton": "Gongsun Zan, a lean tall commander of about 35, sharp handsome face, thin moustache, strong clear gaze, dark-blue cross-collared robe under light iron scale armour",
+  "hatien": "He Jin, a heavy-set man of about 50 with a broad red face and a short beard, dark-red official robe and a black official cap, confident arrogant bearing",
+  "vienthieu": "Yuan Shao, a handsome tall man of about 35 with a neat short beard, proud composed look, deep-blue official robe over light armour",
+  "dongtrac": "Dong Zhuo, a huge heavy fat man of about 55 with a thick neck, a heavy cruel face with a short thick beard, narrow suspicious eyes, dark fur-trimmed robe over an iron breastplate",
+  "thieude": "Emperor Shao of Han, a thin pale frightened boy of about fourteen in rumpled dark-red robes and a small crooked crown",
+  "hiende": "Liu Xie, a small serious boy of about nine in a plain dark robe, hair in two small tufts",
+  "luubinh": "Liu Ping, a thin sour-faced official of about 40 with a pointed beard, plum-coloured robe and a black cap, contemptuous expression",
+  "thichkhach": "an assassin, a lean man of about 30 in plain dark clothes, a cloth tied across his lower face, hands empty",
+  "taotao": "Cao Cao, a short wiry man of about 35 with sharp clever eyes, a thin moustache and a small beard, dark-blue robe with plain light armour",
+  "tonkien": "Sun Jian, a strong broad-faced man of about 45 with a short beard, a red cloth headband, red robe and iron armour"
+ },
+ "canh": [
+  {
+   "key": "001",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty guest-house room with an overturned wooden stool and a loose coil of rope on the floor, dim lamp light"
+  },
+  {
+   "key": "002",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei standing in a stone courtyard at night with a coil of rope in one hand, tense face, exactly one man, his far arm hidden behind his body"
+  },
+  {
+   "key": "003",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "Liu Bei seen from behind walking out through a county gate at night carrying a small cloth bundle, exactly one man, both arms hidden"
+  },
+  {
+   "key": "004",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a quiet dirt road disappearing into low misty hills at first light, a few bare trees"
+  },
+  {
+   "key": "005",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "the tiled roofs of a great palace seen far away above morning mist, towers and walls, a dim red sun"
+  },
+  {
+   "key": "006",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a bundle of bamboo-slip books and a brush on a wooden desk beside a clay oil lamp, warm night light"
+  },
+  {
+   "key": "007",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a plain wooden official carriage standing in front of the gate of a small county government office with a grey tiled roof, no horses"
+  },
+  {
+   "key": "008",
+   "nv": [
+    "docbuu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a provincial inspector seated at a desk writing on a bamboo slip with his one hand, arrogant face, exactly one man, the other hand hidden under the desk"
+  },
+  {
+   "key": "009",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a stack of bamboo-slip documents tied with cord and one rolled official order on a dark wooden table, candlelight"
+  },
+  {
+   "key": "010",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a closed wooden door of a roadside guest house at dusk with a pair of straw sandals before the step"
+  },
+  {
+   "key": "011",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei pushing a wooden door open with one hand, fierce determined face, exactly one man, his other arm hidden behind the door"
+  },
+  {
+   "key": "012",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a plain stone boundary marker standing beside a dirt road at dawn, grass and mist"
+  },
+  {
+   "key": "013",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long wooden cane lying across a stone threshold in torchlight at night, a coil of rope beside it"
+  },
+  {
+   "key": "014",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a distant small man seen from behind hurrying along a moonlit road, a tiny figure in a wide dark landscape, exactly one man, arms hidden"
+  },
+  {
+   "key": "015",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small bronze official seal with a cord ribbon lying on a stone step, morning light"
+  },
+  {
+   "key": "016",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a crossroads in a wide autumn field where three dirt roads meet, a single old tree, evening light"
+  },
+  {
+   "key": "017",
+   "nv": [
+    "tuongquan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a Han army officer in iron armour giving an order, holding a rolled scroll with one hand, other arm hidden behind his back, exactly one man"
+  },
+  {
+   "key": "018",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in plain light armour standing in a military camp at dusk, tired but alert, a spear held upright in one hand, exactly one man, far arm hidden"
+  },
+  {
+   "key": "019",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty county government hall with a bare desk, an empty chair and one scroll left behind, grey window light"
+  },
+  {
+   "key": "020",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in a plain dark robe and a small black official cap sitting at a county desk reading a bamboo slip, tired face, exactly one man, his free hand hidden under the desk"
+  },
+  {
+   "key": "021",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small county town gate broken open with scattered baskets and a toppled cart, dust in the air"
+  },
+  {
+   "key": "022",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a worn pair of straw sandals and a small cloth bundle resting beside a roadside tree at dusk"
+  },
+  {
+   "key": "023",
+   "nv": [
+    "congtonton"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up portrait of Gongsun Zan, a northern commander, calm sharp look, exactly one man, his arms hidden behind a wooden railing"
+  },
+  {
+   "key": "024",
+   "nv": [
+    "congtonton",
+    "liubei"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Gongsun Zan and Liu Bei standing facing each other and greeting, both with hands tucked into their sleeves, warm meeting, exactly two men"
+  },
+  {
+   "key": "025",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a wide plain with rows of plain tents and tall plain red banners of an army camp at dawn, smoke from cooking fires, empty of people"
+  },
+  {
+   "key": "026",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in a dark-blue robe and a black official cap, the look of a county chief, calm, exactly one man, both arms hidden in his sleeves"
+  },
+  {
+   "key": "027",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a walled county town on a flat river plain at morning with green fields and a slow river, seen from a hill"
+  },
+  {
+   "key": "028",
+   "nv": [
+    "quanvu",
+    "trieuphi"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Guan Yu and Zhang Fei standing side by side, calm serious faces, exactly two men, their outer arms hidden"
+  },
+  {
+   "key": "029",
+   "nv": [
+    "quanvu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Guan Yu standing in front of a row of simple spears planted in the ground, giving an order, exactly one man, his far arm hidden"
+  },
+  {
+   "key": "030",
+   "nv": [
+    "trieuphi"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Zhang Fei standing guard at a doorway holding a long spear in one hand, alert round eyes, exactly one man, the other arm hidden behind the spear"
+  },
+  {
+   "key": "031",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long wooden spear and a plain sword in a sheath leaning against a door frame beside a rolled sleeping mat"
+  },
+  {
+   "key": "032",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty rice jar with a bare bottom and a flat empty cloth purse on a wooden table, soft light"
+  },
+  {
+   "key": "033",
+   "nv": [
+    "quanvu",
+    "trieuphi"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Guan Yu and Zhang Fei sitting side by side near a small camp fire at night looking at the flames, exactly two men, outer arms hidden"
+  },
+  {
+   "key": "034",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a plain clay wine jar and three pottery cups on a rough wooden table, nothing else, evening light"
+  },
+  {
+   "key": "035",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei looking down with a grave quiet expression, exactly one man, both arms hidden"
+  },
+  {
+   "key": "036",
+   "nv": [
+    "luubinh"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a sour-faced official looking down his nose with contempt, exactly one man, his arms hidden in his sleeves"
+  },
+  {
+   "key": "037",
+   "nv": [
+    "luubinh",
+    "thichkhach"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of an official handing a small cloth bag of coins to a masked man in dark clothes, exactly two men, their outer arms hidden, dim room"
+  },
+  {
+   "key": "038",
+   "nv": [
+    "liubei",
+    "thichkhach"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Liu Bei pouring wine from a jug into a cup with one hand for a guest in dark clothes sitting opposite, friendly welcome, exactly two men, the guest's hands in his lap, Liu Bei's other arm hidden"
+  },
+  {
+   "key": "039",
+   "nv": [
+    "thichkhach"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a lean man in dark plain clothes looking down with a troubled conscience, exactly one man, his arms hidden"
+  },
+  {
+   "key": "040",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a low table with a shared steaming pot and four wooden bowls, warm lamp light in a humble room"
+  },
+  {
+   "key": "041",
+   "nv": [
+    "liubei",
+    "quanvu",
+    "trieuphi"
+   ],
+   "so_nguoi": 3,
+   "mo_ta": "three small distant figures walking side by side along a long dusty road at sunset, seen from far away from behind, exactly three men"
+  },
+  {
+   "key": "042",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "the tall gate towers of a great palace at dusk with a cracked wall and a flag hanging limp"
+  },
+  {
+   "key": "043",
+   "nv": [
+    "linhde"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Emperor Ling lying propped up on a bed, pale and gaunt, exhausted face, exactly one man, hands hidden under the blanket"
+  },
+  {
+   "key": "044",
+   "nv": [
+    "thieude"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a thin frightened young emperor seated on a plain throne in an oversized crown, exactly one person, hands hidden in his sleeves"
+  },
+  {
+   "key": "045",
+   "nv": [
+    "hatien"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a heavy-set general in a dark-red robe and black cap, confident arrogant bearing, exactly one man, his arms hidden in his sleeves"
+  },
+  {
+   "key": "046",
+   "nv": [
+    "hatien",
+    "hoanquan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of a heavy-set general and a pale beardless eunuch facing each other with tense expressions, exactly two men, their hands hidden in sleeves"
+  },
+  {
+   "key": "047",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a bamboo message tube and a rolled summons scroll sealed with a red cord on a dark wooden table, candlelight"
+  },
+  {
+   "key": "048",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long palace corridor at night with long shadows and a dropped black official cap on the floor, torch light"
+  },
+  {
+   "key": "049",
+   "nv": [
+    "vienthieu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Yuan Shao in light armour, stern determined face, one hand resting on his belt, exactly one man, the other arm hidden"
+  },
+  {
+   "key": "050",
+   "nv": [
+    "thieude",
+    "hiende"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of a frightened teenage emperor and his small young brother walking at night by a river, looking back, exactly two boys, their outer arms hidden"
+  },
+  {
+   "key": "051",
+   "nv": [
+    "dongtrac"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a huge heavy general in iron armour with a cruel narrow-eyed face standing tall, exactly one man, arms hidden behind his back"
+  },
+  {
+   "key": "052",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long column of cavalry dust approaching a city gate under a grey sky, tall plain red banners, no people visible"
+  },
+  {
+   "key": "053",
+   "nv": [
+    "dongtrac",
+    "thieude"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of a huge heavy general seated on a high-backed chair and a thin young emperor standing before him with head bowed, exactly two people, their hands hidden"
+  },
+  {
+   "key": "054",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty throne on a dais in a palace hall with a dark robe draped over its arm, cold light from a window"
+  },
+  {
+   "key": "055",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a large painted cloth map of Han lands spread on a table with a single small stone marker far in the north and a small palace sign in the south"
+  },
+  {
+   "key": "056",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a ridge crowded with tall plain banners of many different colours blowing in the wind, no people visible"
+  },
+  {
+   "key": "057",
+   "nv": [
+    "taotao"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao in plain travelling clothes on a night road looking back over his shoulder with sharp eyes, exactly one man, his arms hidden under his cloak"
+  },
+  {
+   "key": "058",
+   "nv": [
+    "taotao"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao standing in front of rows of simple spears planted in the ground, ambitious look, exactly one man, his far arm hidden"
+  },
+  {
+   "key": "059",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a large round table with a painted map, a plain jade cup and one empty chair in a tent, lamp light"
+  },
+  {
+   "key": "060",
+   "nv": [
+    "taotao",
+    "tonkien"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Cao Cao and Sun Jian standing side by side, serious faces, exactly two men, their outer arms hidden"
+  },
+  {
+   "key": "061",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a tall fortress pass gate between two steep rocky cliffs in mist, heavy stone walls"
+  },
+  {
+   "key": "062",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "Liu Bei seen from behind looking across a wide valley at a far fortress pass in mist, exactly one man, arms hidden"
+  },
+  {
+   "key": "063",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a heavy dented iron helmet resting on a rough wooden stand in a tent, soft light"
+  },
+  {
+   "key": "064",
+   "nv": [
+    "tonkien"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Sun Jian with a red headband and a determined fierce look, exactly one man, his far arm hidden"
+  },
+  {
+   "key": "065",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "the skyline of a great burning city at night with black smoke and orange flames over palace roofs"
+  },
+  {
+   "key": "066",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a wide encampment of many plain tents with cold cooking fires and empty ground, grey morning"
+  },
+  {
+   "key": "067",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a dust cloud of a single marching column going north along a road with one tall red banner"
+  },
+  {
+   "key": "068",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a quiet river plain with farmland and a small town in the distance, soft morning light"
+  },
+  {
+   "key": "069",
+   "nv": [
+    "dan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up of two poor peasant men side by side bowing respectfully with hands tucked into their sleeves, exactly two men"
+  },
+  {
+   "key": "070",
+   "nv": [
+    "vienthieu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Yuan Shao seated at a desk writing a letter with a brush in one hand, exactly one man, his other arm hidden under the desk"
+  },
+  {
+   "key": "071",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei sitting alone beneath a large mulberry tree looking up at its round crown, calm thoughtful face, exactly one man, his arms hidden"
+  },
+  {
+   "key": "072",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty grain storehouse with its door open and a bare earth floor, grey light"
+  },
+  {
+   "key": "073",
+   "nv": [
+    "dongtrac"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a huge heavy general in dark fur-trimmed robe with a menacing narrow-eyed stare, exactly one man, his hands hidden in his sleeves"
+  },
+  {
+   "key": "074",
+   "nv": [
+    "quanvu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Guan Yu standing alone at a tent entrance at night holding a pottery cup in one hand, calm stern face, exactly one man, the other arm hidden"
+  },
+  {
+   "key": "075",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a road leading toward a far mountain pass at sunset, orange sky, empty land"
+  },
+  {
+   "key": "076",
+   "nv": [
+    "quanvu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Guan Yu in profile with his chin raised proudly, a long black beard, calm cold eyes, exactly one man, his arms hidden"
+  },
+  {
+   "key": "077",
+   "nv": [
+    "trieuphi"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Zhang Fei with a fierce frowning face and bristling beard, glaring to the side, exactly one man, his arms hidden"
+  },
+  {
+   "key": "078",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a worn leather chest guard and a rough black headscarf hanging side by side on a wooden post in a tent, soft light"
+  },
+  {
+   "key": "079",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long river with many small separate army camps on both banks, plain banners, early morning mist, empty of people"
+  },
+  {
+   "key": "080",
+   "nv": [
+    "taotao"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao leaning over a table with one hand pressed on a painted map, frowning impatient face, exactly one man, the other arm hidden"
+  },
+  {
+   "key": "081",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a broken spear and a torn plain blue banner lying on a riverbank after a lost battle, grey dusk"
+  },
+  {
+   "key": "082",
+   "nv": [
+    "taotao"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao standing at the edge of a river at dusk looking at the water with a hard determined face, exactly one man, his arms hidden"
+  },
+  {
+   "key": "083",
+   "nv": [
+    "vienthieu",
+    "congtonton"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Yuan Shao and Gongsun Zan standing apart facing different directions with a painted map between them, cold tense mood, exactly two men, their outer arms hidden"
+  },
+  {
+   "key": "084",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in profile facing left with a firm quiet look, exactly one man, both arms hidden in his sleeves"
+  },
+  {
+   "key": "085",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a letter written on a rolled silk sheet with a red wax seal resting on a dark wooden desk, soft candle light"
+  }
+ ],
+ "ngan": [
+  {
+   "beat": 1,
+   "anh": [
+    "013",
+    "011"
+   ]
+  },
+  {
+   "beat": 2,
+   "anh": [
+    "014",
+    "015"
+   ]
+  },
+  {
+   "beat": 3,
+   "anh": [
+    "019",
+    "021"
+   ]
+  },
+  {
+   "beat": 4,
+   "anh": [
+    "023",
+    "024"
+   ]
+  },
+  {
+   "beat": 5,
+   "anh": [
+    "026",
+    "027"
+   ]
+  },
+  {
+   "beat": 6,
+   "anh": [
+    "037",
+    "038"
+   ]
+  },
+  {
+   "beat": 7,
+   "anh": [
+    "048",
+    "051"
+   ]
+  },
+  {
+   "beat": 8,
+   "anh": [
+    "040",
+    "041"
+   ]
+  },
+  {
+   "beat": 9,
+   "anh": [
+    "061",
+    "074"
+   ]
+  }
+ ]
+}

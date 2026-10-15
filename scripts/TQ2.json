@@ -1,0 +1,725 @@
+{
+ "id": "TQ2",
+ "topic": "lich-su",
+ "title": "Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác",
+ "caption": "Trong tiểu thuyết là Trương Phi, nhưng sử chép chính Lưu Bị trói và đánh đốc bưu. Rồi ông đi đâu? Tam Quốc theo chính sử, tập 2 🏯",
+ "hashtags": [
+  "nguoigacsu",
+  "tamquoc",
+  "luubi",
+  "lichsu",
+  "dongtrac",
+  "chinhsu"
+ ],
+ "sources": [
+  "Trần Thọ, Tam quốc chí, Thục thư, Tiên chủ truyện (bản dịch tiếng Anh, the-scholars.com) và chú giải Bùi Tùng Chi (Điển lược, Ngụy thư, Hiến Đế xuân thu) qua sanguozhi.5000yan.com",
+  "Hậu Hán thư và Tư trị thông giám (phần kinh đô năm 189 và liên quân năm 190) — chưa đối chiếu nguyên văn"
+ ],
+ "nguon_link": [
+  {
+   "ten": "Bản dịch hiện đại Tiên chủ truyện, sanguozhi.5000yan.com",
+   "url": "https://sanguozhi.5000yan.com/",
+   "ngon_ngu": "tiếng Trung"
+  },
+  {
+   "ten": "Bản dịch tiếng Anh Tiên chủ truyện, the-scholars.com",
+   "url": "https://the-scholars.com/",
+   "ngon_ngu": "tiếng Anh"
+  }
+ ],
+ "music": "none",
+ "giong_them": "HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, still clear Northern Vietnamese diction.",
+ "pronounce": {},
+ "long": {
+  "chuyen_canh": "fade",
+  "title": "Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác | Tam Quốc theo chính sử, tập 2",
+  "title_card": "Tam Quốc chính sử: **Đốc bưu** bị trói",
+  "description": "Trong tiểu thuyết, Trương Phi đánh viên đốc bưu. Nhưng Tam quốc chí chép chính Lưu Bị làm vậy, rồi bỏ chức chạy đi. Tập 2 của series Tam Quốc theo chính sử kể về những năm lang bạt của Lưu Bị, cách ông giữ được Quan Vũ và Trương Phi, và kinh đô nhà Hán sụp đổ năm 189 với Đổng Trác.",
+  "voice": "Sadaltager",
+  "music": "none",
+  "bia": {
+   "anh": "assets/anh_2d/TQ2/011.jpg",
+   "nen": "assets/anh_2d/TQ2/010.jpg",
+   "huy_hieu": "TAM QUỐC CHÍNH SỬ · TẬP 2",
+   "dong1": "KHÔNG PHẢI",
+   "dong2": "TRƯƠNG PHI",
+   "gach": true,
+   "dong3": "Ai thật sự đánh viên đốc bưu?"
+  },
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Tập trước kết thúc ở một cảnh rất lạ: một viên đốc bưu bị trói, và bị đánh hai trăm gậy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/001.jpg"
+     },
+     {
+      "text": "Trong tiểu thuyết, người ra tay là Trương Phi. Nhưng Tam quốc chí chép rõ: đó là chính Lưu Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/002.jpg"
+     },
+     {
+      "text": "Vì sao một viên huyện úy nhỏ bé dám làm vậy? Và sau đêm ấy, ông đi đâu?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/003.jpg"
+     },
+     {
+      "text": "Câu trả lời không phải một chiến công. Đó là nhiều năm lang bạt: bỏ chức, đổi chủ, và nhiều lần thất bại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/004.jpg"
+     },
+     {
+      "text": "Còn ở kinh đô, trong lúc ông chưa là ai, thiên hạ đã bắt đầu đổi chủ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/005.jpg"
+     },
+     {
+      "text": "Đây là Tam Quốc theo chính sử, tập hai.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/006.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Đốc bưu là quan do quận phái xuống, đi kiểm tra các huyện và xét công tội của quan lại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/007.jpg"
+     },
+     {
+      "text": "Một lời của đốc bưu có thể khiến một viên quan nhỏ mất chức, và mất luôn đường sống.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/008.jpg"
+     },
+     {
+      "text": "Bản chú Điển lược mà Bùi Tùng Chi dẫn kể rằng khi ấy có lệnh thải bớt những người được bổ chức nhờ quân công, và Lưu Bị lo mình nằm trong số đó.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/009.jpg"
+     },
+     {
+      "text": "Ông xin gặp đốc bưu nhưng không được cho vào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/010.jpg"
+     },
+     {
+      "text": "Ông bèn dẫn lính tới nhà trạm, xông vào, nói: ta có mật lệnh của quan phủ, đến bắt đốc bưu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/011.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Rồi ông trói đốc bưu trên giường và đưa ra tận ranh giới huyện.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/012.jpg"
+     },
+     {
+      "text": "Tam quốc chí chép gọn hơn: ông trói viên đốc bưu, đánh hai trăm gậy, rồi bỏ chức chạy đi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/013.jpg"
+     },
+     {
+      "text": "Một viên huyện úy vừa đánh quan trên thì chỉ còn một đường: biến mất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/014.jpg"
+     },
+     {
+      "text": "Ông bỏ luôn chức quan duy nhất mình có, và không biết ngày mai sẽ ở đâu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/015.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Sử không chép ông về quê ngay. Ông tiếp tục tìm đường làm lính, làm quan.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/016.jpg"
+     },
+     {
+      "text": "Theo Tam quốc chí, đại tướng quân Hà Tiến sai người đi tuyển quân ở Đan Dương, và Lưu Bị đi theo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/017.jpg"
+     },
+     {
+      "text": "Quân đi tới Hạ Bì thì gặp giặc. Ông đánh có công, được bổ một chức thừa ở huyện Hạ Mật.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/018.jpg"
+     },
+     {
+      "text": "Nhưng sử lại chép ông bỏ chức ấy. Không có một lời giải thích.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/019.jpg"
+     },
+     {
+      "text": "Sau đó ông làm huyện úy ở Cao Đường, rồi làm huyện lệnh.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/020.jpg"
+     },
+     {
+      "text": "Rồi giặc đến đánh, quân của huyện bị đánh tan, ông lại phải bỏ chạy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/021.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Làm quan, mất chức, làm quan, chạy giặc. Trong nhiều năm, ông không có một chỗ đứng cố định.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/022.jpg"
+     },
+     {
+      "text": "Cuối cùng ông tìm đến một người bạn cũ từng học chung dưới trướng thầy Lư Thực: Công Tôn Toản.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/023.jpg"
+     },
+     {
+      "text": "Công Tôn Toản lúc ấy có quân ở phía bắc. Ông tâu xin cho Lưu Bị làm Biệt bộ tư mã.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/024.jpg"
+     },
+     {
+      "text": "Lưu Bị cùng Điền Giai đánh quân của Viên Thiệu, và nhiều lần lập công.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/025.jpg"
+     },
+     {
+      "text": "Nhờ những chiến công ấy, ông được thử làm lệnh Bình Nguyên, rồi làm tướng Bình Nguyên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/026.jpg"
+     },
+     {
+      "text": "Lần đầu tiên, người từng bán giày cỏ được cai quản cả một vùng đất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/027.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Khi ông làm tướng Bình Nguyên, sử chép Quan Vũ và Trương Phi được giao làm Biệt bộ tư mã, mỗi người chỉ huy một phần quân.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/028.jpg"
+     },
+     {
+      "text": "Đây là lần đầu hai người có quân riêng. Nhưng họ vẫn đi theo ông, không đi theo ai khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/029.jpg"
+     },
+     {
+      "text": "Từ đầu, sử đã gọi họ là người hộ vệ. Hộ vệ nghĩa là người đứng ra phía trước ông khi có chuyện.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/030.jpg"
+     },
+     {
+      "text": "Khi nguy hiểm đến, họ không đứng sau. Đó là ý nghĩa của hai chữ ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/031.jpg"
+     },
+     {
+      "text": "Một viên quan chạy trốn như Lưu Bị lúc ấy không có gì để giữ người: không lương, không đất, không chức.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/032.jpg"
+     },
+     {
+      "text": "Vậy mà hai người vẫn ở lại. Sử không nói vì sao, chỉ chép rằng họ ở lại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/033.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Tiểu thuyết giải thích điều đó bằng một lời thề. Còn sử chỉ cho ta một sự thật đơn giản hơn: họ đi cùng nhau rất lâu, và không bỏ nhau.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/034.jpg"
+     },
+     {
+      "text": "Mấy chục năm sau, khi Quan Vũ rồi Trương Phi lần lượt mất, người ta mới thấy bốn chữ ân nghĩa như anh em nặng đến mức nào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/035.jpg"
+     },
+     {
+      "text": "Trần Thọ, tác giả Tam quốc chí, nhận xét rằng Quan Vũ cứng cỏi mà tự phụ, còn Trương Phi hung bạo mà thiếu ơn nghĩa với người dưới.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/076.jpg"
+     },
+     {
+      "text": "Hai người tính khí khác nhau rõ rệt, và cũng không hoàn hảo. Nhưng cùng một lòng với Lưu Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/077.jpg"
+     },
+     {
+      "text": "Chính hai điểm yếu ấy sau này đã trả giá rất đắt. Nhưng ở thời điểm này, họ là hai người đáng tin nhất mà ông có.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/078.jpg"
+     },
+     {
+      "text": "Ở Bình Nguyên có một người tên Lưu Bình, rất coi thường Lưu Bị, và không chịu được việc ông được dân quý.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/036.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Lưu Bình bèn thuê một thích khách đi giết ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/037.jpg"
+     },
+     {
+      "text": "Lưu Bị không hay biết gì, vẫn đối đãi người khách ấy rất hậu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/038.jpg"
+     },
+     {
+      "text": "Người khách cảm động, nói thật mọi việc với ông, rồi bỏ đi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/039.jpg"
+     },
+     {
+      "text": "Ba chi tiết trong sử đều nói một điều: ông giữ người không bằng sức mạnh, mà bằng cách đối xử.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/040.jpg"
+     },
+     {
+      "text": "Đó có thể là thứ duy nhất ông có, khi chưa có binh và chưa có đất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/041.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Trong lúc Lưu Bị lang bạt khắp nơi, nhà Hán đang tự đổ sập từ bên trong.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/042.jpg"
+     },
+     {
+      "text": "Năm một trăm tám mươi chín, Hoàng đế Linh đế mất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/043.jpg"
+     },
+     {
+      "text": "Con của hoàng hậu họ Hà là Lưu Biện lên ngôi, khi còn rất trẻ. Quyền thật nằm trong tay cậu ông, đại tướng quân Hà Tiến.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/044.jpg"
+     },
+     {
+      "text": "Hà Tiến vốn xuất thân từ nhà làm nghề đồ tể, nhờ em gái được vào cung mà lên tới chức vị cao nhất của quân đội.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/045.jpg"
+     },
+     {
+      "text": "Ông muốn trừ bọn hoạn quan, những kẻ đã nắm quyền từ thời Linh đế bán chức quan.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/046.jpg"
+     },
+     {
+      "text": "Nhưng thái hậu không đồng ý. Hà Tiến liền triệu các tướng ngoài biên vào kinh để gây sức ép, trong đó có Đổng Trác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/047.jpg"
+     },
+     {
+      "text": "Kế hoạch bị lộ. Hoạn quan ra tay trước và giết Hà Tiến ngay trong cung.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/048.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Viên Thiệu cùng nhiều người đem quân vào cung, giết rất nhiều hoạn quan, và cả hoàng cung loạn như một đêm không có luật.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/049.jpg"
+     },
+     {
+      "text": "Trong cảnh hỗn loạn ấy, hoàng đế trẻ và em ông bị đưa ra ngoài thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/050.jpg"
+     },
+     {
+      "text": "Đúng lúc ấy, Đổng Trác dẫn quân tới nơi, gặp hoàng đế và đưa về kinh.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/051.jpg"
+     },
+     {
+      "text": "Từ đó, quân đội trong kinh đô nằm trong tay một người đến từ vùng biên cương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/052.jpg"
+     },
+     {
+      "text": "Ông phế Thiếu đế, lập người em là Lưu Hiệp, người sau này là Hán Hiến đế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/053.jpg"
+     },
+     {
+      "text": "Đó chính là điều tập một đã nói: khi người có quân không còn ai quản được, triều đình chỉ còn cái tên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/054.jpg"
+     },
+     {
+      "text": "Một người nghèo như Lưu Bị lúc ấy còn quá xa kinh đô để có thể can thiệp vào chuyện này.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/055.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Năm một trăm chín mươi, nhiều châu quận nổi binh chống Đổng Trác, họp thành một liên quân.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/056.jpg"
+     },
+     {
+      "text": "Một trong những người đứng lên sớm nhất là Tào Tháo. Khi Đổng Trác muốn dùng ông làm quan, ông bỏ kinh đô chạy trốn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/057.jpg"
+     },
+     {
+      "text": "Ông dựng quân ở Trần Lưu, bằng tiền của những người ủng hộ mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/058.jpg"
+     },
+     {
+      "text": "Viên Thiệu được các châu quận đưa lên làm minh chủ của liên quân.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/059.jpg"
+     },
+     {
+      "text": "Trong liên quân có Tào Tháo, Tôn Kiên và nhiều người khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/060.jpg"
+     },
+     {
+      "text": "Nghe thì rất hùng mạnh: hơn mười đạo quân từ nhiều châu quận cùng kéo tới.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/079.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Nhưng mỗi người đều lo giữ quân của mình trước. Không ai muốn là người đầu tiên bị tổn thất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/080.jpg"
+     },
+     {
+      "text": "Trong tiểu thuyết, đây là nơi ba anh em Lưu Bị, Quan Vũ, Trương Phi cùng đánh Lữ Bố ở Hổ Lao.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/061.jpg"
+     },
+     {
+      "text": "Nhưng trong Tiên chủ truyện không có một chữ nào về trận ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/062.jpg"
+     },
+     {
+      "text": "Và cái tên Hoa Hùng, vị tướng bị chém trong cảnh nổi tiếng ấy, trong sử cũng gắn với một người khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/063.jpg"
+     },
+     {
+      "text": "Nhiều nguồn chép rằng người đánh bại Hoa Hùng là Tôn Kiên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/064.jpg"
+     },
+     {
+      "text": "Đổng Trác sợ liên quân, bắt hoàng đế dời đô về Trường An, và cho đốt cả Lạc Dương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/065.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Liên quân đông người, nhưng nhiều người chỉ đứng nhìn, không ai muốn tiến lên trước.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/066.jpg"
+     },
+     {
+      "text": "Chỉ có một đạo quân từ phương nam kéo lên, và đó là quân của Tôn Kiên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/067.jpg"
+     },
+     {
+      "text": "Tào Tháo trách các tướng chần chừ, và tự mình dẫn quân đuổi theo Đổng Trác, nhưng bị đánh bại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/081.jpg"
+     },
+     {
+      "text": "Đó là lần đầu người ta thấy một Tào Tháo thất bại, và vẫn bước tiếp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/082.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Quay lại Bình Nguyên: Lưu Bị lúc này mới thật sự có một vùng đất để cai quản.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/068.jpg"
+     },
+     {
+      "text": "Cùng lúc ấy, ở phía bắc, Viên Thiệu và Công Tôn Toản đã bắt đầu tranh nhau. Liên minh chống Đổng Trác nhanh chóng vỡ ra.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/083.jpg"
+     },
+     {
+      "text": "Và giữa hai người ấy, Lưu Bị đứng về phía người bạn học cũ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/084.jpg"
+     },
+     {
+      "text": "Chú giải của Bùi Tùng Chi dẫn Hiến Đế xuân thu: dân Từ Châu về sau muốn tôn nguyên tướng Bình Nguyên Lưu Bị làm chủ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/069.jpg"
+     },
+     {
+      "text": "Viên Thiệu khi nghe tin cũng nói: Lưu Huyền Đức hoằng nhã, có tín nghĩa, dân Từ Châu mến ông, đúng như mong đợi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/070.jpg"
+     },
+     {
+      "text": "Cho nên lời khen của Viên Thiệu dành cho ông là lời khen của một người từng đứng ở phía đối lập.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/085.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Người từng bị chú quát vì một câu nói về chiếc xe lọng, giờ được cả một châu nhắc tên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/071.jpg"
+     },
+     {
+      "text": "Nhưng danh tiếng chưa phải là quân đội, và đất đai chưa phải là chỗ đứng chắc chắn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/072.jpg"
+     },
+     {
+      "text": "Kinh đô đã vào tay Đổng Trác. Câu hỏi của tập sau là: ai sẽ đứng lên chống lại ông ta?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/073.jpg"
+     },
+     {
+      "text": "Và người mà tiểu thuyết gán cho công lớn nhất ở Hổ Lao, trong sử, đang đứng ở đâu?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/074.jpg"
+     },
+     {
+      "text": "Tập sau sẽ kể tiếp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ2/075.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ "binh_luan": {
+  "dai": {
+   "ghim": "Tập này tiếp nối vụ đốc bưu. Trong tiểu thuyết là Trương Phi, trong Tam quốc chí là Lưu Bị. Tập sau mình đi vào liên quân chống Đổng Trác và trận Hổ Lao: bạn đoán ai thật sự chém Hoa Hùng?",
+   "phu": [
+    "Lưu ý: một số chi tiết ở phần kinh đô năm 189 và liên quân năm 190 lấy từ Hậu Hán thư, hình ảnh là tranh minh họa."
+   ]
+  },
+  "ngan": {
+   "ghim": "Theo bạn, ai đánh viên đốc bưu: Ⓐ Lưu Bị · Ⓑ Trương Phi · Ⓒ Quan Vũ? Bình luận chữ cái nhé 🏯",
+   "phu": [
+    "Tam quốc chí chép chính Lưu Bị trói và đánh đốc bưu hai trăm gậy; tiểu thuyết đổi thành Trương Phi."
+   ]
+  }
+ },
+ "ngan": {
+  "hook_text": "Đánh đốc bưu là Lưu Bị\n**không phải Trương Phi**",
+  "hooks": [
+   "Trong tiểu thuyết là Trương Phi đánh đốc bưu. Nhưng sử chép là một người khác."
+  ],
+  "caption": "Trong tiểu thuyết là Trương Phi, nhưng sử chép chính Lưu Bị trói và đánh đốc bưu. Rồi ông đi đâu? Tam Quốc theo chính sử, tập 2 🏯",
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Tập trước, Lưu Bị trói một viên đốc bưu và đánh hai trăm gậy. Trong tiểu thuyết, đó là Trương Phi. Trong sử, là chính ông.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/013.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/011.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Rồi ông bỏ chức và biến mất.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/014.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/015.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Nhiều năm sau, ông lại làm quan, lại mất chức, rồi lại phải chạy giặc.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/019.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/021.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Cuối cùng ông tìm đến bạn học cũ Công Tôn Toản, và đánh nhiều trận cho ông ta.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/023.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/024.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Nhờ chiến công, ông lên làm tướng Bình Nguyên, lần đầu tiên cai quản cả một vùng đất.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/026.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/027.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Có kẻ thuê người đến giết ông. Ông không biết, vẫn đối đãi người ấy rất hậu. Thích khách cảm động, nói thật rồi bỏ đi.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/037.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/038.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Trong lúc đó, kinh đô vỡ vụn: Hà Tiến bị giết, và Đổng Trác dẫn quân vào thành.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/048.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/051.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Lưu Bị không có binh, không có tiền, nhưng ông có một thứ: cách đối xử khiến người ta ở lại.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/040.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/041.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Nhưng liên quân đánh Đổng Trác sắp bắt đầu. Và cảnh nổi tiếng ở Hổ Lao… không giống như bạn từng nghe. Sử thật… lạ hơn cả truyện.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ2/061.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ2/074.jpg"
+     }
+    ]
+   }
+  ],
+  "bia": {
+   "anh": "assets/anh_2d/TQ2/011.jpg",
+   "nen": "assets/anh_2d/TQ2/010.jpg",
+   "huy_hieu": "TAM QUỐC CHÍNH SỬ · TẬP 2",
+   "dong1": "KHÔNG PHẢI",
+   "dong2": "TRƯƠNG PHI",
+   "gach": true,
+   "dong3": "Ai thật sự đánh viên đốc bưu?"
+  },
+  "anh_bia": "assets/anh_2d/TQ2/011.jpg"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Tập trước, Lưu Bị trói một viên đốc bưu và đánh hai trăm gậy. Trong tiểu thuyết, đó là Trương Phi. Trong sử, là chính ông.",
+   "voice": "Tập trước, Lưu Bị trói một viên đốc bưu và đánh hai trăm gậy. Trong tiểu thuyết, đó là Trương Phi. Trong sử, là chính ông."
+  },
+  {
+   "type": "text",
+   "text": "Rồi ông bỏ chức và biến mất.",
+   "voice": "Rồi ông bỏ chức và biến mất."
+  },
+  {
+   "type": "text",
+   "text": "Nhiều năm sau, ông lại làm quan, lại mất chức, rồi lại phải chạy giặc.",
+   "voice": "Nhiều năm sau, ông lại làm quan, lại mất chức, rồi lại phải chạy giặc."
+  },
+  {
+   "type": "text",
+   "text": "Cuối cùng ông tìm đến bạn học cũ Công Tôn Toản, và đánh nhiều trận cho ông ta.",
+   "voice": "Cuối cùng ông tìm đến bạn học cũ Công Tôn Toản, và đánh nhiều trận cho ông ta."
+  },
+  {
+   "type": "text",
+   "text": "Nhờ chiến công, ông lên làm tướng Bình Nguyên, lần đầu tiên cai quản cả một vùng đất.",
+   "voice": "Nhờ chiến công, ông lên làm tướng Bình Nguyên, lần đầu tiên cai quản cả một vùng đất."
+  },
+  {
+   "type": "text",
+   "text": "Có kẻ thuê người đến giết ông. Ông không biết, vẫn đối đãi người ấy rất hậu. Thích khách cảm động, nói thật rồi bỏ đi.",
+   "voice": "Có kẻ thuê người đến giết ông. Ông không biết, vẫn đối đãi người ấy rất hậu. Thích khách cảm động, nói thật rồi bỏ đi."
+  },
+  {
+   "type": "text",
+   "text": "Trong lúc đó, kinh đô vỡ vụn: Hà Tiến bị giết, và Đổng Trác dẫn quân vào thành.",
+   "voice": "Trong lúc đó, kinh đô vỡ vụn: Hà Tiến bị giết, và Đổng Trác dẫn quân vào thành."
+  },
+  {
+   "type": "text",
+   "text": "Lưu Bị không có binh, không có tiền, nhưng ông có một thứ: cách đối xử khiến người ta ở lại.",
+   "voice": "Lưu Bị không có binh, không có tiền, nhưng ông có một thứ: cách đối xử khiến người ta ở lại."
+  },
+  {
+   "type": "text",
+   "text": "Nhưng liên quân đánh Đổng Trác sắp bắt đầu. Và cảnh nổi tiếng ở Hổ Lao… không giống như bạn từng nghe. Sử thật… lạ hơn cả truyện.",
+   "voice": "Nhưng liên quân đánh Đổng Trác sắp bắt đầu. Và cảnh nổi tiếng ở Hổ Lao… không giống như bạn từng nghe. Sử thật… lạ hơn cả truyện."
+  }
+ ]
+}

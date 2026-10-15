@@ -63,46 +63,75 @@ window.setup = function (d) {
   const loads = d.shots.map(s => new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = s.src; }));
   return Promise.all([document.fonts.ready, ...loads]).then(() => true);
 };
-// ảnh bìa YouTube: ảnh sáng, tiêu đề cực lớn có viền, huy hiệu đỏ + nút play, thanh nhấn vàng
-// mode 'center': chữ dồn vào cột giữa (Facebook cắt lưới video thành khung dọc 9:16), mép trên/dưới tối để dải viền không lộ màu lạ
-window.thumb = function (src, kicker, title, mode, topic) {
+// ảnh bìa: ảnh nhân vật SÁNG, RÕ, không phủ tối; chữ nằm trên mảng cọ đen ở phía không có nhân vật
+// cx = vị trí ngang của nhân vật (0..1, tính bằng Python). mode 'center' = bản Facebook (cột giữa 9:16): chữ ở dải trên, nhân vật bên dưới
+window.thumb = function (src, kicker, title, mode, topic, cx) {
   const old = document.getElementById('tn'); if (old) old.remove();
   document.getElementById('imgs').innerHTML = '';
   document.getElementById('card').style.opacity = 0; document.getElementById('label').style.opacity = 0;
+  cx = (cx == null || isNaN(cx)) ? 0.5 : cx;
   const ctr = mode === 'center';
-  const W = ctr ? 600 : 1180, left = ctr ? 660 : 84;
+  const layout = ctr ? 'ctr' : 'T';   // chữ luôn nằm ở dải trên; ảnh nhân vật đặt phía dưới dải, KHÔNG bị chữ che
   const tn = document.createElement('div'); tn.id = 'tn';
-  tn.style.cssText = 'position:absolute;inset:0;overflow:hidden;background:#0b0604;z-index:50';
-  const pos = ctr ? 'center' : 'right center';
+  tn.style.cssText = 'position:absolute;inset:0;overflow:hidden;background:#000;z-index:50';
+  let bx, by, bw;                 // khung chữ
+  if (layout === 'ctr') { bw = 620; bx = 650; by = -20; }
+  else { bw = 1840; bx = 40; by = -20; }
+  const maxLines = layout === 'T' ? 2 : 3;
   tn.innerHTML = `
   <style>
-    #tn .bg{position:absolute;inset:-2%;background-size:cover;background-position:${pos};filter:saturate(1.35) contrast(1.12) brightness(1.08)}
-    #tn .sh{position:absolute;inset:0;background:${ctr
-      ? 'linear-gradient(90deg,rgba(8,4,3,.1) 0,rgba(8,4,3,.62) 30%,rgba(8,4,3,.62) 70%,rgba(8,4,3,.1) 100%)'
-      : 'linear-gradient(90deg,rgba(8,4,3,.97) 0,rgba(8,4,3,.88) 38%,rgba(8,4,3,.35) 62%,rgba(8,4,3,0) 82%)'}}
-    #tn .ed{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.85) 0,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 80%,rgba(0,0,0,.92) 100%)}
-    #tn .vg{position:absolute;inset:0;box-shadow:inset 0 0 220px rgba(0,0,0,.65)}
-    #tn .bd{position:absolute;left:${left}px;top:${ctr?70:78}px;display:flex;align-items:center;gap:16px}
-    #tn .bd i{display:block;width:62px;height:62px;background:#fff;border-radius:14px;position:relative;transform:skewX(-8deg);box-shadow:0 6px 20px rgba(0,0,0,.5)}
-    #tn .bd i:after{content:"";position:absolute;left:23px;top:16px;border-left:26px solid #d1121b;border-top:15px solid transparent;border-bottom:15px solid transparent}
-    #tn .bd b{font:800 ${ctr?30:38}px 'Be Vietnam Pro';letter-spacing:3px;color:#fff;background:#d1121b;padding:10px 26px;transform:skewX(-8deg);text-transform:uppercase;box-shadow:0 6px 20px rgba(0,0,0,.5);white-space:nowrap}
-    #tn .tt{position:absolute;left:${left}px;width:${W}px;top:${ctr?170:190}px;font:800 100px/1.04 'Be Vietnam Pro';color:#fff7e6;text-transform:uppercase;
-      -webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:0 8px 0 rgba(0,0,0,.55),0 0 40px rgba(0,0,0,.6);letter-spacing:-1px;${ctr?'text-align:center':''}}
-    #tn .tt .hl{color:#ffcf1f;display:inline;-webkit-text-stroke:3px #000}
-    #tn .bar{position:absolute;left:${left}px;width:${ctr?W:300}px;height:14px;background:#d1121b;transform:skewX(-20deg);box-shadow:0 4px 14px rgba(0,0,0,.6)}
-    #tn .br{position:absolute;left:${left}px;bottom:${ctr?70:56}px;${ctr?'width:'+W+'px;text-align:center;':''}font:700 32px 'Be Vietnam Pro';letter-spacing:6px;color:#ffe9b8;text-transform:uppercase;text-shadow:0 3px 10px #000}
+    @font-face{font-family:'BVI';font-weight:900;font-style:italic;src:url(../assets/fonts/BeVietnamPro-BlackItalic.ttf)}
+    #tn .bg{position:absolute;inset:-40px;background:url('${src}') center/cover no-repeat;filter:blur(22px) saturate(1.2) brightness(.8)}
+    #tn .fg{position:absolute;background:url('${src}') 0 0/100% 100% no-repeat;filter:saturate(1.25) contrast(1.06) brightness(1.06);
+      -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
+    #tn .bgd{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 12%)}
+    #tn .pn{position:absolute;background:#08080a;filter:drop-shadow(0 10px 18px rgba(0,0,0,.55))}
+    #tn .rd{position:absolute;background:#d1121b}
+    #tn .bd{position:absolute;display:flex;align-items:center;gap:14px;color:#fff;font:900 ${ctr?28:34}px 'BVI','Be Vietnam Pro';font-style:italic;letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
+    #tn .bd i{display:block;width:52px;height:52px;background:#fff;border-radius:12px;position:relative;flex:none}
+    #tn .bd i:after{content:"";position:absolute;left:19px;top:13px;border-left:22px solid #d1121b;border-top:13px solid transparent;border-bottom:13px solid transparent}
+    #tn .tt{position:absolute;font:900 100px/1.02 'BVI','Be Vietnam Pro';font-style:italic;color:#fff;text-transform:uppercase;text-align:center;text-wrap:balance;letter-spacing:-1px;text-shadow:0 5px 0 rgba(0,0,0,.6)}
+    #tn .tt .hl{color:#ffc61a;display:inline;font-size:1.08em}
+    #tn .br{position:absolute;font:700 26px 'Be Vietnam Pro';letter-spacing:6px;color:#fff;text-transform:uppercase;text-shadow:0 2px 8px #000,0 0 14px #000;white-space:nowrap}
   </style>
-  <div class="bg" style="background-image:url('${src}')"></div><div class="sh"></div><div class="ed"></div><div class="vg"></div>
-  <div class="bd"><i></i><b>${esc(topic || 'Lịch sử có thật')}</b></div>
-  <div class="tt">${rich(title)}</div><div class="bar"></div><div class="br">${esc(kicker || '')}</div>`;
+  <div class="bg"></div><div class="fg" id="tnf"></div><div class="bgd"></div>
+  <div class="pn" id="tnp"></div><div class="rd" id="tnr"></div>
+  <div class="bd" id="tnb"><i></i><span>${esc(topic || 'Chuyện có thật')}</span></div>
+  <div class="tt" id="tnt">${rich(title)}</div><div class="br" id="tnk">${esc(kicker || '')}</div>`;
   document.getElementById('root').append(tn);
-  const tt = tn.querySelector('.tt'), bar = tn.querySelector('.bar');
-  const fit = () => { // tối đa 3 dòng; dài quá thì co chữ, tối thiểu 60px
-    let fs = 108; tt.style.fontSize = fs + 'px';
-    while (Math.round(tt.scrollHeight / (fs * 1.04)) > 3 && fs > 60) { fs -= 4; tt.style.fontSize = fs + 'px'; }
-    bar.style.top = (tt.offsetTop + tt.scrollHeight + 30) + 'px';
+  const $ = id => tn.querySelector('#' + id), tt = $('tnt');
+  const rough = (w, h, amp, seed) => {  // đa giác mép cọ lởm chởm
+    let r = seed; const rnd = () => (r = (r * 16807) % 2147483647) / 2147483647;
+    const pts = [], n = Math.max(10, Math.round(w / 38)), m = Math.max(5, Math.round(h / 38));
+    for (let i = 0; i <= n; i++) pts.push([w * i / n, rnd() * amp]);
+    for (let i = 1; i <= m; i++) pts.push([w - rnd() * amp * 1.4, h * i / m]);
+    for (let i = n; i >= 0; i--) pts.push([w * i / n, h - rnd() * amp]);
+    for (let i = m - 1; i > 0; i--) pts.push([rnd() * amp * 1.4, h * i / m]);
+    return 'polygon(' + pts.map(p => p[0].toFixed(0) + 'px ' + p[1].toFixed(0) + 'px').join(',') + ')';
   };
-  return Promise.all([document.fonts.ready, new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; })]).then(fit);
+  const place = () => {
+    const padX = 44, padY = 30, innerW = bw - 2 * padX;
+    tt.style.width = innerW + 'px';
+    let fs = layout === 'T' ? 92 : 104; tt.style.fontSize = fs + 'px';
+    while (Math.round(tt.scrollHeight / (fs * 1.02)) > maxLines && fs > 52) { fs -= 4; tt.style.fontSize = fs + 'px'; }
+    const bdH = 54, gap = 14, th = tt.scrollHeight;
+    const ph = padY + bdH + gap + th + padY - 6;   // đáy dải chữ (toạ độ khung hình)
+    const fh = 1080 - ph + 14, fw = fh * 16 / 9, f = $('tnf');   // ảnh nhân vật nằm dưới dải chữ
+    f.style.height = fh + 'px'; f.style.width = fw + 'px'; f.style.bottom = '0';
+    f.style.left = (ctr ? 960 - cx * fw : (1920 - fw) / 2) + 'px';
+    const pn = $('tnp'), rd = $('tnr');
+    Object.assign(pn.style, { left: bx + 'px', top: by + 'px', width: bw + 'px', height: (ph - by) + 'px', clipPath: rough(bw, ph - by, 16, 7919) });
+    Object.assign(rd.style, { left: (bx + 50) + 'px', top: (ph - 30) + 'px', width: (bw - 100) + 'px', height: '7px', transform: 'rotate(-0.6deg)' });
+    const b = $('tnb'); b.style.left = (bx + padX) + 'px'; b.style.top = padY + 'px';
+    if (layout === 'T') b.style.left = (bx + (bw - b.offsetWidth) / 2) + 'px';
+    if (layout === 'ctr') b.style.left = (bx + (bw - b.offsetWidth) / 2) + 'px';
+    tt.style.left = (bx + padX) + 'px'; tt.style.top = (padY + bdH + gap) + 'px';
+    const k = $('tnk'); k.style.left = (layout === 'R' ? 60 : (ctr ? 660 + (600 - k.offsetWidth) / 2 : 60)) + 'px'; k.style.bottom = '44px';
+    // huy hiệu đỏ ở dưới nền cọ
+    const bd = $('tnb');
+    bd.style.background = '#d1121b'; bd.style.padding = '6px 22px 6px 6px'; bd.style.transform = 'rotate(-1.5deg)';
+  };
+  return Promise.all([document.fonts.ready, new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; })]).then(place);
 };
 window.renderAt = function (t) {
   const f = Math.floor(t * 12);

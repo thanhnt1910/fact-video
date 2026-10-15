@@ -291,6 +291,23 @@ def check_images(script, beats, log, kind="dai"):
                            + "\n  ".join(lines))
 
 
+def _subject_cx(src):
+    """Vị trí ngang (0..1) của nhân vật trong ảnh: trọng tâm độ chi tiết (cạnh). Lỗi thì trả 0.5."""
+    try:
+        from PIL import Image
+        import numpy as np
+        p = str(src)
+        if p.startswith("file://"):
+            from urllib.parse import unquote
+            p = unquote(p[7:])
+        g = np.asarray(Image.open(p).convert("L").resize((192, 108)), dtype=float)
+        e = np.abs(np.diff(g, axis=1))[:-1, :] + np.abs(np.diff(g, axis=0))[:, :-1]
+        col = np.convolve(e.sum(axis=0), np.ones(9) / 9, mode="same") ** 2
+        return float((col * np.arange(len(col))).sum() / col.sum() / len(col))
+    except Exception:
+        return 0.5
+
+
 def _subject(src, depth, box):
     """Điểm chủ thể (x, y theo tỉ lệ ảnh gốc) trong vùng box, theo bản đồ độ sâu.
     Không lấy "chỗ gần máy nhất" (thường là mặt đất ở đáy ảnh) mà lấy vật NHÔ LÊN so với nền cùng hàng:
@@ -574,15 +591,15 @@ def build(script, cfg, out_dir):
         page.evaluate("() => document.fonts.ready")
         # ảnh bìa YouTube
         key = next((s["src"] for s in vis if not s["fit"]), vis[0]["src"])
-        page.evaluate("a => window.thumb(a[0], a[1], a[2], '', a[3])",
-                      [key, cfg.get("channel", ""), L.get("thumb_title") or L.get("title_card") or L["title"], L.get("badge") or script.get("badge") or "Chuyện có thật"])
+        page.evaluate("a => window.thumb(a[0], a[1], a[2], '', a[3], a[4])",
+                      [key, cfg.get("channel", ""), L.get("thumb_title") or L.get("title_card") or L["title"], L.get("badge") or script.get("badge") or "Chuyện có thật", _subject_cx(key)])
         page.wait_for_timeout(300)
         page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail.jpg"), type="jpeg", quality=92)
         # ảnh bìa cho Facebook: chữ ở giữa (Facebook cắt lưới video thành khung dọc)
         page.goto((ROOT / "templates" / "long.html").as_uri())
         page.evaluate("() => document.fonts.ready")
-        page.evaluate("a => window.thumb(a[0], a[1], a[2], 'center', a[3])",
-                      [key, cfg.get("channel", ""), L.get("thumb_title") or L.get("title_card") or L["title"], L.get("badge") or script.get("badge") or "Chuyện có thật"])
+        page.evaluate("a => window.thumb(a[0], a[1], a[2], 'center', a[3], a[4])",
+                      [key, cfg.get("channel", ""), L.get("thumb_title") or L.get("title_card") or L["title"], L.get("badge") or script.get("badge") or "Chuyện có thật", _subject_cx(key)])
         page.wait_for_timeout(300)
         page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail_fb.jpg"), type="jpeg", quality=92)
         page.goto((ROOT / "templates" / "long.html").as_uri())

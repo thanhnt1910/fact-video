@@ -1,28 +1,23 @@
 
-===== TQ2 (video dài) =====
-▶️  Video dài TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác | Tam Quốc theo chính sử, tập 2
+===== TQ2 (video ngắn + bài ảnh) =====
+▶️  TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ2.json
-  🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 85 ảnh: 12 ảnh lỗi, 4 ảnh cần xem
-  🎙️  Giọng Gemini Sadaltager (15 chương)
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 18 ảnh: 1 ảnh lỗi, 1 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (9s)
-     🎙️  Gemini đọc xong 1 chương (12s)
-     🎙️  Gemini đọc xong 1 chương (9s)
-  ⏱️  Thời lượng 08:53 · 85 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-15 15:42:13.629461025 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-     85/85 ảnh có độ sâu
-  🎞️  32 cảnh có clip chuyển động
-     12812 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (197 giây)
-     … 6/12 đoạn (305 giây)
-     … 9/12 đoạn (467 giây)
-     … 12/12 đoạn (488 giây)
-     dựng khung hình xong trong 489 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+  🎙️  Gemini đọc 9/9 cảnh, mỗi cảnh một sắc thái (23s), tốc độ x1.12
+  🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  49.8 giây · 18 hình · trung bình 2.8 giây/hình · ⚠️ 2 hình đứng quá 4 giây
+  🎞️  Số lần: cut 12, wipeup 2, wiperight 1, fadewhite 1, dissolve 1
+  🎬 Dựng 1493 khung hình (26s)
+  🔊 Tiếng động: hit, rise
   🏷️  Đã gắn logo kênh vào góc trên bên phải
-  🔈 Âm lượng cuối: -14.8 LUFS, đỉnh -4.0 dBTP
-     🌐 dịch tiếng Anh xong (gemini-flash-lite-latest)
-✅ Video dài: TQ2_dai.mp4 (08:53)
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.2 dBTP
+     ⚠️  không tạo được ảnh bìa: 'str' object has no attribute 'get'
+✅ Xong output/TQ2/TQ2.mp4  (49.8s video, mất 182s)
 
-Xong video ngắn: - · video dài: TQ2
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+
+Xong video ngắn: TQ2 · video dài: -

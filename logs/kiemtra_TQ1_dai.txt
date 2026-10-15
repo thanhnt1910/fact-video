@@ -1,10 +1,5 @@
 🔎 KIỂM TRA TQ1 · video dài
-⚠️ NÊN XEM LẠI — 0 lỗi, 3 cảnh báo
+✅ ĐẠT — 0 lỗi, 0 cảnh báo
 (chỉ kiểm tra kỹ thuật, chưa có bước AI)
 
-⚠️ [Đồng bộ · Video dài 03:27 (đoạn 29)] đoạn này dài 8.6 giây cho 55 ký tự (chậm bất thường) — có thể có khoảng lặng lạ hoặc ảnh giữ quá lâu
-   → Sửa: nghe lại đoạn này
-⚠️ [Đồng bộ · Video dài 04:09 (đoạn 33)] đoạn này dài 11.1 giây cho 70 ký tự (chậm bất thường) — có thể có khoảng lặng lạ hoặc ảnh giữ quá lâu
-   → Sửa: nghe lại đoạn này
-⚠️ [Đồng bộ · Video dài 07:50 (đoạn 61)] đoạn này chỉ dài 3.2 giây cho 72 ký tự lời kể (đọc nhanh bất thường) — giọng có thể bị cắt sai chỗ, ảnh đổi lệch lời
-   → Sửa: xem đoạn này; nếu lệch thì tách câu dài thành 2 đoạn
+Không phát hiện vấn đề nào.

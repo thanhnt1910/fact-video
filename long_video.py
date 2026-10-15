@@ -615,6 +615,8 @@ def build(script, cfg, out_dir):
         bed_wav = work / "sfx.wav"
         am_thanh.save_bed(bed_wav, bed)
         log(f"  🔊 Tiếng động nền: {', '.join(sorted({e['label'] for e in ev}))}")
+    import logo
+    silent = logo.ap_dung(silent, work, mv.ffmpeg_exe(), "dai", cfg, log)
     am_thanh.mix(silent, work / "narration.wav", total, track, final, cfg, bed_wav=bed_wav, fade_out=3.0, log=log)
 
     # ---- mô tả YouTube

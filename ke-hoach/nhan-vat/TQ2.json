@@ -16,7 +16,15 @@
   "luubinh": "Liu Ping, a thin sour-faced official of about 40 with a pointed beard, plum-coloured robe and a black cap, contemptuous expression",
   "thichkhach": "an assassin, a lean man of about 30 in plain dark clothes, a cloth tied across his lower face, hands empty",
   "taotao": "Cao Cao, a short wiry man of about 35 with sharp clever eyes, a thin moustache and a small beard, dark-blue robe with plain light armour",
-  "tonkien": "Sun Jian, a strong broad-faced man of about 45 with a short beard, a red cloth headband, red robe and iron armour"
+  "tonkien": "Sun Jian, a strong broad-faced man of about 45 with a short beard, a red cloth headband, red robe and iron armour",
+  "linhhan": "a Han foot soldier, adult man with a weathered face, plain dark iron helmet, grey-brown leather and iron-scale armour over a plain red tunic, long wooden-shafted spear",
+  "giacuop": "a bandit rebel, lean adult man with a plain brown cloth tied around his head, ragged brown hemp tunic, wooden-shafted spear",
+  "linhbien": "a frontier soldier from the north-west, broad adult man with a thick beard, round fur cap, dark fur-trimmed iron-scale armour, long spear",
+  "linhtonkien": "a soldier of Sun Jian, adult man with a red cloth headband, plain red tunic, light iron armour, long spear",
+  "huahung": "Hua Xiong, a huge burly general of about 40 with a fierce square face and a black beard, black iron armour with a dark-green cloak and a heavy iron helmet",
+  "dancu": "a poor refugee villager, adult man with a cloth bundle on his back, ragged hemp clothes, tired face",
+  "thieude_lung": "a thin pale teenage boy of about fourteen in rumpled dark-red robes, hair in a topknot under a small flat cap, clearly a boy",
+  "quanlai": "a county clerk, thin adult man in a plain grey robe and a small black cloth cap, bowing respectfully"
  },
  "canh": [
   {
@@ -63,15 +71,16 @@
    "key": "007",
    "nv": [],
    "so_nguoi": 0,
-   "mo_ta": "a plain wooden official carriage standing in front of the gate of a small county government office with a grey tiled roof, no horses"
+   "mo_ta": "a plain two-wheeled Han wooden official carriage with a small canopy standing in front of the gate, plain Chinese Han-dynasty county office: rammed-earth wall, simple wooden gate, pitched roof of grey tiles with short eaves, an empty yard"
   },
   {
    "key": "008",
    "nv": [
-    "docbuu"
+    "docbuu",
+    "quanlai"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of a provincial inspector seated at a desk writing on a bamboo slip with his one hand, arrogant face, exactly one man, the other hand hidden under the desk"
+   "so_nguoi": 2,
+   "mo_ta": "the provincial inspector standing upright at the top of the stone steps of a county office, chin raised, hands hidden in his wide sleeves, looking down with arrogance, while a small county clerk bows deeply on the steps below him, exactly two men"
   },
   {
    "key": "009",
@@ -101,9 +110,12 @@
   },
   {
    "key": "013",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a long wooden cane lying across a stone threshold in torchlight at night, a coil of rope beside it"
+   "nv": [
+    "liubei",
+    "docbuu"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "Liu Bei standing in a torch-lit stone courtyard at night holding a long plain wooden rod planted upright on the ground with one hand, his other arm hidden behind his back, stern face; at his feet the provincial inspector sits on the ground with a rope tied round his chest and his head bowed, calm and upright, exactly two men"
   },
   {
    "key": "014",
@@ -115,15 +127,20 @@
   },
   {
    "key": "015",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a small bronze official seal with a cord ribbon lying on a stone step, morning light"
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei hanging a small bronze seal on its cord on a wooden post beside a county gate with one hand, his other arm hidden, looking toward the road with quiet resolve, dawn light, exactly one man"
   },
   {
    "key": "016",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a crossroads in a wide autumn field where three dirt roads meet, a single old tree, evening light"
+   "nv": [
+    "liubei",
+    "tuongquan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up of Liu Bei bowing slightly before a Han recruiting officer who sits behind a low table with a bamboo register, behind them a long line of poor men waiting on the road to join the army, exactly two men in the foreground"
   },
   {
    "key": "017",
@@ -136,16 +153,19 @@
   {
    "key": "018",
    "nv": [
-    "liubei"
+    "liubei",
+    "linhhan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Liu Bei in plain light armour standing in a military camp at dusk, tired but alert, a spear held upright in one hand, exactly one man, far arm hidden"
+   "so_nguoi": 2,
+   "mo_ta": "Liu Bei in plain light armour holding a spear in both hands, advancing at the front with one Han soldier beside him against bandit rebels on a dusty field, smoke far behind, behind them rows of many small fighters clashing with spears"
   },
   {
    "key": "019",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "an empty county government hall with a bare desk, an empty chair and one scroll left behind, grey window light"
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "Liu Bei seen from behind standing in the open doorway of an empty county hall, leaving, his arms hidden; inside the hall a low wooden table with a rolled scroll and a reed sitting mat on the floor, a wooden lattice window with paper panes, only a low table and a reed mat as furniture, grey morning light, exactly one man"
   },
   {
    "key": "020",
@@ -153,13 +173,16 @@
     "liubei"
    ],
    "so_nguoi": 1,
-   "mo_ta": "waist-up of Liu Bei in a plain dark robe and a small black official cap sitting at a county desk reading a bamboo slip, tired face, exactly one man, his free hand hidden under the desk"
+   "mo_ta": "waist-up of Liu Bei in a plain dark robe and a small black cloth cap kneeling at a low wooden table reading a bamboo slip held in one hand, a reed mat on the floor, tired face, exactly one man, his other arm hidden"
   },
   {
    "key": "021",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a small county town gate broken open with scattered baskets and a toppled cart, dust in the air"
+   "nv": [
+    "linhhan",
+    "giacuop"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "bandit rebels storming through the broken wooden gate of a small county town while county soldiers in grey-brown armour retreat, dust and smoke, in the foreground one retreating county soldier looking back and one rebel with a spear, behind them many small fighters"
   },
   {
    "key": "022",
@@ -186,9 +209,11 @@
   },
   {
    "key": "025",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a wide plain with rows of plain tents and tall plain red banners of an army camp at dawn, smoke from cooking fires, empty of people"
+   "nv": [
+    "linhhan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "wide shot of two armies of spearmen meeting on a wide plain seen from a low hill, two Han soldiers with lowered spears in the foreground, behind them dense ranks of many small soldiers with plain red banners on one side and plain dark-blue banners on the other"
   },
   {
    "key": "026",
@@ -200,9 +225,12 @@
   },
   {
    "key": "027",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a walled county town on a flat river plain at morning with green fields and a slow river, seen from a hill"
+   "nv": [
+    "liubei",
+    "quanlai"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in a dark-blue robe and a black cap standing at the gate of a walled county town on a morning plain, his arms hidden in his sleeves, behind him two rows of townspeople and small officials bowing in welcome, green fields and a slow river behind"
   },
   {
    "key": "028",
@@ -231,15 +259,20 @@
   },
   {
    "key": "031",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a long wooden spear and a plain sword in a sheath leaning against a door frame beside a rolled sleeping mat"
+   "nv": [
+    "quanvu",
+    "trieuphi"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Guan Yu and Zhang Fei standing shoulder to shoulder in front of a tent entrance at night as guards, each holding a long spear upright with one hand, torch glow behind them, exactly two men, their outer arms hidden"
   },
   {
    "key": "032",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "an empty rice jar with a bare bottom and a flat empty cloth purse on a wooden table, soft light"
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei sitting on the bare floor of a poor hut looking down at an empty clay grain jar in front of him, tired but calm, exactly one man, his hands hidden in his sleeves"
   },
   {
    "key": "033",
@@ -252,9 +285,13 @@
   },
   {
    "key": "034",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a plain clay wine jar and three pottery cups on a rough wooden table, nothing else, evening light"
+   "nv": [
+    "liubei",
+    "quanvu",
+    "trieuphi"
+   ],
+   "so_nguoi": 3,
+   "mo_ta": "Liu Bei, Guan Yu and Zhang Fei standing side by side under a blossoming peach tree in solemn silence, heads slightly bowed, hands clasped inside their sleeves, soft light, exactly three men"
   },
   {
    "key": "035",
@@ -300,9 +337,13 @@
   },
   {
    "key": "040",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a low table with a shared steaming pot and four wooden bowls, warm lamp light in a humble room"
+   "nv": [
+    "liubei",
+    "quanvu",
+    "trieuphi"
+   ],
+   "so_nguoi": 3,
+   "mo_ta": "three men sitting on a reed mat around a low table sharing a steaming pot of food, Liu Bei in the middle, a small bronze oil lamp with a tiny open flame on the table, their hands resting below the table edge, warm humble room, exactly three men"
   },
   {
    "key": "041",
@@ -361,9 +402,12 @@
   },
   {
    "key": "048",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a long palace corridor at night with long shadows and a dropped black official cap on the floor, torch light"
+   "nv": [
+    "hoanquan",
+    "hatien"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "a narrow palace corridor at night with torchlight and long shadows, in the foreground a pale beardless court eunuch in a dark-purple robe waits in the shadow behind a wooden pillar with his hands hidden in his sleeves looking down the corridor, far down the corridor the small figure of a heavy-set general in a dark-red robe walks away from the viewer, exactly two men"
   },
   {
    "key": "049",
@@ -376,11 +420,11 @@
   {
    "key": "050",
    "nv": [
-    "thieude",
+    "thieude_lung",
     "hiende"
    ],
    "so_nguoi": 2,
-   "mo_ta": "waist-up two-shot of a frightened teenage emperor and his small young brother walking at night by a river, looking back, exactly two boys, their outer arms hidden"
+   "mo_ta": "two boys seen from behind walking side by side along a dark river bank at night, a thin teenage boy in rumpled dark-red robes with his hair in a topknot under a small flat cap and a small boy of about nine in a plain dark robe with two small tufts of hair, their backs to the viewer, moonlight on the water, tall reeds, exactly two boys, both clearly male"
   },
   {
    "key": "051",
@@ -392,9 +436,11 @@
   },
   {
    "key": "052",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a long column of cavalry dust approaching a city gate under a grey sky, tall plain red banners, no people visible"
+   "nv": [
+    "linhbien"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a long column of frontier soldiers in fur caps and fur-trimmed iron-scale armour marching in ranks through the great gate of Luoyang city, spears upright, tall plain dark-red banners, one foreground soldier and many small marching soldiers behind him"
   },
   {
    "key": "053",
@@ -419,9 +465,11 @@
   },
   {
    "key": "056",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a ridge crowded with tall plain banners of many different colours blowing in the wind, no people visible"
+   "nv": [
+    "tuongquan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a coalition army camp on a wide ridge, rows of soldiers standing in formation before many tents under tall plain banners of many different colours blowing in the wind, in the foreground one army officer in iron armour looking over the camp"
   },
   {
    "key": "057",
@@ -441,9 +489,12 @@
   },
   {
    "key": "059",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a large round table with a painted map, a plain jade cup and one empty chair in a tent, lamp light"
+   "nv": [
+    "vienthieu",
+    "tuongquan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "Yuan Shao in light armour standing on a low wooden platform being acclaimed as leader with a regional officer in armour beside him, before them rows of armoured officers and soldiers standing in ranks facing them"
   },
   {
    "key": "060",
@@ -456,9 +507,11 @@
   },
   {
    "key": "061",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a tall fortress pass gate between two steep rocky cliffs in mist, heavy stone walls"
+   "nv": [
+    "linhhan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a tall fortress pass gate between two steep rocky cliffs in mist, in front of it ranks of Han soldiers with spears and tall plain banners assembling, one foreground soldier seen from behind looking at the gate, exactly one man in the foreground"
   },
   {
    "key": "062",
@@ -470,9 +523,11 @@
   },
   {
    "key": "063",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a heavy dented iron helmet resting on a rough wooden stand in a tent, soft light"
+   "nv": [
+    "huahung"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Hua Xiong, a huge burly general in dark iron armour and a heavy iron helmet standing before the gate of a fortress, fierce confident stare, exactly one man, his arms hidden behind his back"
   },
   {
    "key": "064",
@@ -480,25 +535,31 @@
     "tonkien"
    ],
    "so_nguoi": 1,
-   "mo_ta": "waist-up of Sun Jian with a red headband and a determined fierce look, exactly one man, his far arm hidden"
+   "mo_ta": "Sun Jian in a red headband and iron armour striding forward at the head of his soldiers with a long spear held in both hands, determined fierce face, behind him ranks of many small soldiers with spears and one tall plain red banner"
   },
   {
    "key": "065",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "the skyline of a great burning city at night with black smoke and orange flames over palace roofs"
+   "nv": [
+    "dancu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a long column of refugees and soldiers with bundles and ox-carts leaving a city gate, one refugee with a bundle in the foreground seen from behind, behind them the great city burning at night with black smoke and orange flames over palace roofs"
   },
   {
    "key": "066",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a wide encampment of many plain tents with cold cooking fires and empty ground, grey morning"
+   "nv": [
+    "linhhan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "the wide encampment of the coalition, soldiers standing idle and sitting on the ground beside piled spears and cold cooking pots in front of many plain tents, grey morning, nobody fighting, one soldier sitting in the foreground with his arms hidden"
   },
   {
    "key": "067",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a dust cloud of a single marching column going north along a road with one tall red banner"
+   "nv": [
+    "linhtonkien"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a column of Sun Jian's soldiers marching north along a dusty road with spears upright and a tall plain red banner at the head, one soldier in a red headband marching in the foreground, many small marching figures behind in rows"
   },
   {
    "key": "068",
@@ -554,9 +615,11 @@
   },
   {
    "key": "075",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a road leading toward a far mountain pass at sunset, orange sky, empty land"
+   "nv": [
+    "linhhan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a long column of soldiers with spears and plain banners marching along a road toward a far mountain pass at sunset, orange sky, one soldier seen from behind in the foreground, many small dark figures ahead"
   },
   {
    "key": "076",
@@ -582,9 +645,11 @@
   },
   {
    "key": "079",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a long river with many small separate army camps on both banks, plain banners, early morning mist, empty of people"
+   "nv": [
+    "tuongquan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a wide view down a river valley, many separate army camps on both banks and columns of soldiers converging under plain banners in early morning mist, one commander in iron armour seen from behind in the foreground on a hill, hundreds of tiny soldiers"
   },
   {
    "key": "080",
@@ -596,9 +661,11 @@
   },
   {
    "key": "081",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a broken spear and a torn plain blue banner lying on a riverbank after a lost battle, grey dusk"
+   "nv": [
+    "linhhan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "the defeated army retreating along a riverbank at dusk with torn plain blue banners and broken spears, two tired soldiers walking side by side in the foreground with heads down, behind them a long ragged line of retreating soldiers, grey sky"
   },
   {
    "key": "082",

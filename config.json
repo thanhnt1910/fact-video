@@ -163,6 +163,13 @@
       "le": 44,
       "tren": 34,
       "do_dam": 0.6
+    },
+    "ngan": {
+      "goc": "phai",
+      "rong": 88,
+      "le": 60,
+      "tren": 22,
+      "do_dam": 0.6
     }
   }
 }

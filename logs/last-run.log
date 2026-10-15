@@ -20,24 +20,14 @@ Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ2.json
   🖼️  Ảnh cho video dài
   🎙️  Giọng Gemini Sadaltager (15 chương)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] dùng gemini-3.8-flash-tts (interactions)
      🎙️  Gemini đọc xong 1 chương (12s)
-     🎙️  Gemini đọc xong 1 chương (11s)
-     🎙️  Gemini đọc xong 1 chương (8s)
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (11s)
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (12s)
-     🎙️  Gemini đọc xong 1 chương (13s)
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (8s)
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (14s)
-     🎙️  Gemini đọc xong 1 chương (13s)
-     🎙️  Gemini đọc xong 1 chương (10s)
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 20h31m1s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 19h18m43s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
    [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] mọi khóa đang hết lượt, đợi 120s…
    [gemini] mọi khóa đang hết lượt, đợi 120s…

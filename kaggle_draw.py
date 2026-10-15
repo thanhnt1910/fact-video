@@ -124,6 +124,7 @@ except Exception:
 log("cài xong thư viện")
 import torch, numpy as np
 JOBS = json.loads(__JOBS__)
+IMGS = json.loads(__IMGS__)
 OUT = "/kaggle/working/out"
 os.makedirs(OUT, exist_ok=True)
 log("GPU:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "KHÔNG CÓ GPU")
@@ -143,7 +144,7 @@ for j in JOBS:
             if j.get("img"):   # chế độ SỬA ẢNH: ảnh gốc + câu lệnh sửa
                 import base64, io
                 from PIL import Image as _I
-                kw["image"] = _I.open(io.BytesIO(base64.b64decode(j["img"]))).convert("RGB")
+                kw["image"] = _I.open(io.BytesIO(base64.b64decode(IMGS[j["img"]]))).convert("RGB")
             img = pipe(prompt=j["prompt"], width=j["w"], height=j["h"], guidance_scale=1.0, num_inference_steps=4,
                        generator=torch.Generator("cuda").manual_seed(j.get("seed", 0)), **kw).images[0]
             if float(np.asarray(img).mean()) < 3:
@@ -190,11 +191,16 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein"):
     shutil.rmtree(work, ignore_errors=True)
     (work / "k").mkdir(parents=True)
     # mỗi job: (key, prompt, w, h) hoặc (key, prompt, w, h, seed); không ghi seed thì lấy theo thứ tự
-    import base64
+    import base64, io
+    from PIL import Image as _PI
+    imgs = {}
+    for j in jobs:   # ảnh gốc (chế độ sửa ảnh) chỉ nhúng MỘT lần, nén JPEG để mã nguồn Kaggle không quá lớn
+        if len(j) > 5 and j[5] and j[5] not in imgs:
+            buf = io.BytesIO(); _PI.open(j[5]).convert("RGB").save(buf, "JPEG", quality=82)
+            imgs[j[5]] = base64.b64encode(buf.getvalue()).decode()
     payload = json.dumps([{"key": j[0], "prompt": j[1], "w": j[2], "h": j[3], "seed": (j[4] if len(j) > 4 else i),
-                           "img": (base64.b64encode(Path(j[5]).read_bytes()).decode() if len(j) > 5 and j[5] else "")}
-                          for i, j in enumerate(jobs)], ensure_ascii=False)
-    (work / "k" / "draw.py").write_text((KERNEL_KLEIN if model == "klein" else KERNEL_CODE).replace("__JOBS__", repr(payload)).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
+                           "img": (j[5] if len(j) > 5 and j[5] else "")} for i, j in enumerate(jobs)], ensure_ascii=False)
+    (work / "k" / "draw.py").write_text((KERNEL_KLEIN if model == "klein" else KERNEL_CODE).replace("__JOBS__", repr(payload)).replace("__IMGS__", repr(json.dumps(imgs))).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
     meta = {"id": f"{user}/{SLUG}", "title": SLUG, "code_file": "draw.py", "language": "python",
             "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
             "enable_tpu": False, "dataset_sources": [], "competition_sources": [], "kernel_sources": [],

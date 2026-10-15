@@ -2,7 +2,7 @@
 
 Hướng giữ nguyên như tập 1 và 2: đúng chính sử (Tam quốc chí, Hậu Hán thư, Tư trị thông giám, chú của Bùi Tùng Chi), toàn bộ 2D, nằm trong kênh Người Gác Sử.
 Câu hỏi của tập 3: cảnh nổi tiếng nhất của Tam Quốc diễn nghĩa (hâm rượu chém Hoa Hùng, ba anh em đánh Lữ Bố ở Hổ Lao) có trong sử không, và nếu không thì chuyện thật là chuyện của ai?
-Móc nối: tập 2 kết bằng hai câu hỏi (ai đứng lên chống Đổng Trác; người tiểu thuyết gán công lớn nhất ở Hổ Lao, trong sử đứng ở đâu). Tập 3 trả lời đúng hai câu đó, rồi đi tiếp tới cái chết của Đổng Trác (năm 192). Móc nối sang tập 4 ở cuối (cần chủ kênh chốt hướng, xem mục "Câu hỏi cho chủ kênh").
+Móc nối: tập 2 kết bằng hai câu hỏi (ai đứng lên chống Đổng Trác; người tiểu thuyết gán công lớn nhất ở Hổ Lao, trong sử đứng ở đâu). Tập 3 trả lời đúng hai câu đó, rồi đi tiếp tới cái chết của Đổng Trác (năm 192). Cuối tập hướng sang tập 4 là Từ Châu (câu 71 và 72): nối thẳng từ câu 78 của tập 2 (dân Từ Châu về sau muốn tôn nguyên tướng Bình Nguyên Lưu Bị làm chủ), nên không thêm dữ kiện mới nào ngoài tập 2.
 
 Ký hiệu độ chắc của từng câu (giữ bốn nhãn của tập 2, thêm nhãn [WP]):
 - [TQC] khớp nội dung chính văn Tam quốc chí (đã thấy nguyên văn chữ Hán trên Wikisource)
@@ -45,61 +45,63 @@ CHƯA đối chiếu được (còn lại):
 | Điêu Thuyền | Con nuôi Vương Doãn, mưu giết Đổng Trác [TT] | Không có; chỉ có một thị tỳ không tên [WP] |
 | Cái chết của Đổng Trác | Do mỹ nhân kế [TT] | Do Vương Doãn, Sĩ Tôn Thụy, Lữ Bố mưu, Lữ Bố ra tay [TQC] |
 
-## KỊCH BẢN VIDEO DÀI (72 lời kể, khoảng 1.500 chữ, ước tính 8 phút rưỡi theo nhịp 3 chữ mỗi giây; muốn đủ 10 phút thì thêm ở chương 4 và chương 8)
+## KỊCH BẢN VIDEO DÀI (72 lời kể, ước tính 9 phút theo nhịp 3 chữ mỗi giây; muốn đủ 10 phút thì thêm ở chương 4 và chương 8)
+
+Cách viết: giữ nguyên mọi sự kiện và nhãn độ chắc; chỉ "nếm" câu chữ cho cuốn hơn bằng cách đặt tương phản, câu ngắn làm cú đấm, câu hỏi mở và nhịp ngắt. Không thêm lời thoại, nội tâm hay chi tiết không có trong sử. Lời bình đều gắn [BÌNH] và dùng giọng phỏng đoán ("hẳn", "có thể") thay vì khẳng định.
 
 MỞ ĐẦU
-1. Nếu bạn từng xem Tam Quốc, chắc bạn nhớ cảnh này: ba anh em Lưu Bị, Quan Vũ, Trương Phi cùng đánh Lữ Bố trước ải Hổ Lao. [TT]
-2. Và trước đó là cảnh hâm rượu chém Hoa Hùng: Quan Vũ ra trận, rồi quay về khi chén rượu vẫn còn nóng. [TT]
-3. Hai cảnh ấy nổi tiếng đến mức rất nhiều người tin rằng đó là lịch sử.
-4. Nhưng ở phần truyện của Đổng Trác trong Tam quốc chí, không có hai chữ Hổ Lao. [TQC]
-5. Vậy Hoa Hùng thật sự chết dưới tay ai? Lữ Bố khi ấy đánh với ai? Và Quan Vũ đang ở đâu?
+1. Có một cảnh trong Tam Quốc mà gần như ai cũng nhớ: ba anh em Lưu Bị, Quan Vũ, Trương Phi cùng vây đánh Lữ Bố trước ải Hổ Lao. [TT]
+2. Trước đó còn một cảnh nữa, còn nổi hơn: hâm rượu chém Hoa Hùng. Quan Vũ ra trận, rồi quay về khi chén rượu vẫn còn nóng. [TT]
+3. Hai cảnh ấy hay đến mức rất nhiều người tin đó là lịch sử.
+4. Nhưng mở phần truyện của Đổng Trác trong Tam quốc chí ra, bạn sẽ không tìm thấy hai chữ Hổ Lao. [TQC]
+5. Vậy Hoa Hùng thật sự chết dưới tay ai? Lữ Bố khi ấy đang đánh với ai? Và Quan Vũ… đang ở đâu?
 6. Đây là Tam Quốc theo chính sử, tập ba.
 
 CHƯƠNG 1: Người cầm quân của kinh đô
-7. Hãy quay lại năm một trăm tám mươi chín. Đổng Trác đã vào Lạc Dương, nhưng quân đội kinh đô chưa hoàn toàn nằm trong tay ông. [TQC]
-8. Trong kinh còn một người có binh quyền là Đinh Nguyên, chức Chấp Kim Ngô, người chỉ huy quân giữ kinh thành. [TQC]
-9. Đổng Trác sai Lữ Bố, người dưới trướng Đinh Nguyên, giết chủ rồi thu luôn quân của ông. [TQC]
+7. Hãy quay lại năm một trăm tám mươi chín. Đổng Trác đã vào Lạc Dương, nhưng quân đội kinh đô vẫn chưa hoàn toàn thuộc về ông ta. [TQC]
+8. Còn một người cản đường: Đinh Nguyên, chức Chấp Kim Ngô, người chỉ huy quân giữ kinh thành. [TQC]
+9. Đổng Trác không cần đánh. Ông ta sai Lữ Bố, người dưới trướng Đinh Nguyên, giết chủ rồi thu luôn quân. [TQC]
 10. Chính văn chép gọn: từ đó, binh quyền ở kinh đô chỉ còn nằm trong tay Đổng Trác. [TQC]
-11. Lữ Bố là người quận Ngũ Nguyên, vùng biên giới phía bắc. Khi ông mang đầu Đinh Nguyên tới, Đổng Trác phong ông làm kỵ đô úy, rất tin yêu, và hai bên thề làm cha con. [TQC]
-12. Tập trước đã nói Đổng Trác phế Thiếu đế. Chính văn còn chép thêm: không lâu sau, ông ta giết luôn Thiếu đế và Hà thái hậu. [TQC]
+11. Lữ Bố là người quận Ngũ Nguyên, vùng biên giới phía bắc. Mang đầu Đinh Nguyên tới, ông được phong kỵ đô úy, được Đổng Trác tin yêu, và hai bên thề làm cha con. [TQC]
+12. Tập trước đã nói Đổng Trác phế Thiếu đế. Chính văn còn chép thêm: chẳng bao lâu sau, ông ta giết luôn Thiếu đế và Hà thái hậu. [TQC]
 13. Từ lúc ấy, trong triều không còn ai đủ sức nói "không" với người nắm cả quân đội. [BÌNH]
 
 CHƯƠNG 2: Người chịu đi trước
 14. Năm một trăm chín mươi, các châu quận phía đông ải Hàm Cốc nổi binh, đưa Viên Thiệu lên làm minh chủ. [TQC, WP]
-15. Tập trước đã kể: họ đông người, nhưng mỗi người đều lo giữ quân của mình, không ai muốn tiến lên trước.
-16. Chỉ có một đạo quân thật sự kéo thẳng về phía Lạc Dương: quân của Tôn Kiên, người đất Ngô ở phương nam. [TQC, WP]
-17. Ông gặp Viên Thuật ở Lỗ Dương. Viên Thuật dâng biểu xin cho ông làm Phá Lỗ tướng quân, lĩnh chức thứ sử Dự Châu. [TQC]
+15. Nghe thì rất hùng mạnh. Nhưng như tập trước đã kể: ai cũng lo giữ quân của mình, không ai muốn là người tiến lên trước.
+16. Chỉ có một đạo quân thật sự kéo thẳng về phía Lạc Dương: quân của Tôn Kiên, người đất Ngô ở tận phương nam. [TQC, WP]
+17. Ông gặp Viên Thuật ở Lỗ Dương, và Viên Thuật dâng biểu xin cho ông làm Phá Lỗ tướng quân, lĩnh chức thứ sử Dự Châu. [TQC]
 18. Nghĩa là Tôn Kiên đánh Đổng Trác với danh nghĩa một tướng của Viên Thuật, chứ không phải chủ một đạo quân độc lập. [BÌNH]
-19. Một bản chú Bùi Tùng Chi dẫn kể rằng Đổng Trác từng nhận xét về ông: hơi liều, nhưng khá biết dùng người. [CG, cần kiểm bối cảnh]
+19. Một bản chú Bùi Tùng Chi dẫn kể rằng Đổng Trác từng nhận xét về ông: hơi liều, nhưng khá biết dùng người. Một lời đánh giá đến từ chính kẻ thù. [CG, cần kiểm bối cảnh]
 
-CHƯƠNG 3: Một đêm bị vây
-20. Tôn Kiên dời quân tới phía đông Lương, và bị quân của Đổng Trác đánh rất dữ. [TQC]
+CHƯƠNG 3: Một lần bị vây
+20. Nhưng đi đầu là phải trả giá. Tôn Kiên dời quân tới phía đông Lương, và bị quân Đổng Trác đánh rất dữ. [TQC]
 21. Tam quốc chí chép: ông cùng vài chục kỵ binh phải phá vòng vây mà thoát ra. [TQC]
-22. Một tướng đi đầu liên quân mà phải chạy thoát cùng vài chục người. Đó là cái giá của việc dám tiến lên trước. [BÌNH]
+22. Một tướng đi đầu liên quân, mà phải chạy thoát cùng vài chục người. [BÌNH]
 23. Nhưng ông không rút về. Ông thu quân lại, và hợp chiến ở Dương Nhân. [TQC]
 
 CHƯƠNG 4: Dương Nhân
-24. Đổng Trác sai hai người đi chặn ông: Hồ Chẩn làm đại đốc hộ, Lữ Bố làm kỵ đốc. [CG]
-25. Vấn đề là hai người này không hợp nhau, và chuyện ấy được chép lại khá kỹ trong chú giải. [CG, WP]
+24. Lần này Đổng Trác sai hai người đi chặn ông: Hồ Chẩn làm đại đốc hộ, Lữ Bố làm kỵ đốc. [CG]
+25. Vấn đề là hai người này không hợp nhau, và chú giải chép lại chuyện ấy khá kỹ. [CG, WP]
 26. Theo Anh hùng ký, Lữ Bố cùng những người khác loan tin rằng giặc trong thành Dương Nhân đã bỏ chạy, phải đuổi theo ngay. [CG]
-27. Các nguồn kể rằng quân của Hồ Chẩn vì thế rối loạn và bị Tôn Kiên đánh lui. [WP, HHT, cần kiểm]
-28. Còn Tam quốc chí chép cả trận bằng một câu: Tôn Kiên hợp chiến ở Dương Nhân, đánh tan quân Trác, chém đô đốc Hoa Hùng. [TQC]
-29. Chỉ có vậy. Không có chén rượu còn nóng, không có Quan Vũ, và không có ba anh em nào chặn Lữ Bố. [TQC, BÌNH, cần kiểm Quan Vũ truyện]
+27. Các nguồn kể rằng quân của Hồ Chẩn vì thế rối loạn, và bị Tôn Kiên đánh lui. [WP, HHT, cần kiểm]
+28. Còn Tam quốc chí chép cả trận ấy bằng một câu: Tôn Kiên hợp chiến ở Dương Nhân, đánh tan quân Trác, chém đô đốc Hoa Hùng. [TQC]
+29. Chỉ vậy thôi. Không có chén rượu còn nóng. Không có Quan Vũ. Không có ba anh em nào chặn Lữ Bố. [TQC, BÌNH, cần kiểm Quan Vũ truyện]
 30. Trong sử, Hoa Hùng chỉ là một đô đốc của Đổng Trác, tên ông nằm trong truyện của Tôn Kiên. [BÌNH, cần kiểm]
 31. Tiểu thuyết lấy một người thật đã chết dưới tay Tôn Kiên, rồi trao công ấy cho Quan Vũ. [BÌNH]
-32. Vì một bộ tiểu thuyết cần một cảnh khai màn thật lớn cho các nhân vật chính của nó. [BÌNH]
+32. Vì sao? Có lẽ vì một bộ tiểu thuyết cần một cảnh khai màn thật lớn cho các nhân vật chính của nó. [BÌNH]
 33. Hổ Lao là một cửa ải có thật. Nhưng cảnh ba người đánh Lữ Bố ở đó thì không thấy trong sử. [WP, cần kiểm]
 
 CHƯƠNG 5: Lạc Dương trong tro
 34. Sau trận ấy, Đổng Trác dời thiên tử về Trường An, và cho đốt cung thất ở Lạc Dương. [TQC]
-35. Chính văn còn chép thêm: lăng mộ bị đào lên để lấy bảo vật. [TQC]
-36. Đó là thành phố nhà Hán đã giữ làm kinh đô hơn một trăm sáu mươi năm. [kiến thức chung]
-37. Tôn Kiên tiến vào Lạc Dương. Việc đầu tiên ông làm là sửa lại các lăng, lấp những chỗ Đổng Trác đã đào. [TQC]
-38. Một bản chú dẫn Ngô thư kể thêm: ở đây ông cho người xuống một cái giếng, và vớt được truyền quốc tỷ của nhà Hán. [CG]
+35. Chính văn còn chép: lăng mộ bị đào lên để lấy bảo vật. [TQC]
+36. Đó là kinh đô mà nhà Hán đã giữ hơn một trăm sáu mươi năm. [kiến thức chung]
+37. Tôn Kiên tiến vào Lạc Dương. Việc đầu tiên ông làm: sửa lại các lăng, lấp những chỗ Đổng Trác đã đào. [TQC]
+38. Rồi một bản chú dẫn Ngô thư kể thêm: ông cho người xuống một cái giếng, và vớt lên truyền quốc tỷ của nhà Hán. [CG]
 39. Truyền quốc tỷ là con dấu của hoàng đế. Ai giữ nó có thể ra vẻ mình thay thiên tử. [BÌNH]
 40. Một bản chú khác kể rằng sau này Viên Thuật, khi định xưng đế, nghe tin ấy thì bắt phu nhân của Tôn Kiên để đoạt ngọc tỷ. [CG, cần kiểm]
 41. Chú giải Giang biểu truyện còn ghi lời một người khuyên Viên Thuật: nếu Tôn Kiên lấy được Lạc Dương thì không ai chế ngự nổi nữa, như trừ sói mà được hổ. [CG, cần kiểm bối cảnh]
-42. Ở đây ta thấy điều tập trước đã nói: liên quân sợ Đổng Trác, nhưng họ cũng sợ lẫn nhau. [BÌNH]
+42. Đó cũng là điều tập trước đã nói: liên quân sợ Đổng Trác, nhưng họ cũng sợ lẫn nhau. [BÌNH]
 
 CHƯƠNG 6: Người chết ở núi Hiện
 43. Tôn Kiên không sống để thấy kết cục của cuộc chiến này. [BÌNH]
@@ -119,14 +121,14 @@ CHƯƠNG 7: Liên quân tan, và Lưu Bị ở đâu
 
 CHƯƠNG 8: Trường An và ổ Mi
 55. Trong khi đó, ở Trường An, Đổng Trác cho xây ổ Mi, một thành trì cao ngang tường thành Trường An, tích lương đủ ba mươi năm. [TQC]
-56. Một người có kho lương ba mươi năm không nghĩ mình sắp chết. [BÌNH]
-57. Nhưng kẻ ở gần ông nhất lại là người ông nghi nhất: Lữ Bố. [BÌNH]
+56. Một người xây kho lương cho ba mươi năm, hẳn không nghĩ mình sắp chết. [BÌNH]
+57. Nhưng kẻ ở gần ông nhất lại là kẻ nguy hiểm nhất: Lữ Bố. [BÌNH]
 58. Lữ Bố truyện chép rằng có lần Đổng Trác chỉ vì một chút không vừa ý đã rút kích ném vào Lữ Bố. [TQC]
 59. Truyện còn chép Lữ Bố tư thông với một thị tỳ của Đổng Trác, sợ chuyện bị phát hiện nên trong lòng bất an. [TQC]
 60. Thị tỳ ấy không có tên. Điêu Thuyền, cái tên nổi tiếng trong tiểu thuyết, không xuất hiện trong truyện của Lữ Bố. [TQC, WP]
 61. Tư đồ Vương Doãn, Sĩ Tôn Thụy và Lữ Bố cùng mưu giết Đổng Trác. [TQC]
 62. Năm một trăm chín mươi hai, chính Lữ Bố là người tự tay ra tay. [TQC]
-63. Hơn chục đạo quân của liên quân không hạ được Đổng Trác. Người hạ ông là người con nuôi mà ông tin nhất. [BÌNH]
+63. Hơn chục đạo quân của liên quân không hạ được Đổng Trác. Người hạ ông, là người con nuôi mà ông tin nhất. [BÌNH]
 
 CHƯƠNG 9: Lời kết
 64. Tóm lại: người chém Hoa Hùng là Tôn Kiên, ở Dương Nhân. [TQC]
@@ -134,20 +136,21 @@ CHƯƠNG 9: Lời kết
 66. Hổ Lao có thật là một cửa ải, nhưng cảnh ba người đánh Lữ Bố ở đó không có trong sử. [WP, cần kiểm]
 67. Và Quan Vũ không chém Hoa Hùng. Ông ở bên Lưu Bị, ở những nơi mà sử gần như không ghi tên. [TQC, BÌNH, cần kiểm Quan Vũ truyện]
 68. Tiểu thuyết đã làm một việc rất khéo: lấy chiến công của người này, đặt vào tên người kia. [BÌNH]
-69. Còn chính sử cho ta một thứ khác: một cuộc chiến ít cờ bay, nhiều toan tính, và những người trả giá thật. [BÌNH]
-70. Đổng Trác chết rồi, nhưng nhà Hán không được cứu. Loạn chỉ đổi người. [BÌNH]
-71. Câu hỏi của tập sau: ai sẽ nắm thiên tử ở Trường An? Và khi một vùng đất khác bị đánh, Lưu Bị sẽ đi đâu? [BÌNH, hướng tập 4 chờ chốt]
-72. Sử thật… lạ hơn cả truyện. Tập sau sẽ kể tiếp.
+69. Còn chính sử cho ta thứ khác: một cuộc chiến ít cờ bay, nhiều toan tính, và những người phải trả giá thật. [BÌNH]
+70. Đổng Trác chết, nhưng nhà Hán không được cứu. Loạn chỉ đổi người. [BÌNH]
+71. Và giữa lúc ấy, Lưu Bị vẫn chỉ là một tướng nhỏ ở Bình Nguyên. Nhưng ở phía đông, một châu sắp gọi tên ông: Từ Châu. [BÌNH, nối tập 2 câu 78, hướng tập 4]
+72. Vì sao một người chưa có đất, chưa có quân lớn, lại được cả một châu nhắc tới? Sử thật… lạ hơn cả truyện. Tập sau sẽ kể tiếp.
 
-## KỊCH BẢN VIDEO NGẮN (8 lời kể, khoảng 156 chữ, ước tính 52 giây; còn dư chỗ để thêm một câu nếu muốn đủ 60 giây)
-1. Trong tiểu thuyết, Quan Vũ hâm rượu chém Hoa Hùng, rồi ba anh em đánh Lữ Bố ở Hổ Lao. [TT]
-2. Nhưng Tam quốc chí chép một câu khác: Tôn Kiên đánh tan quân Đổng Trác ở Dương Nhân, chém đô đốc Hoa Hùng. [TQC]
-3. Lữ Bố có mặt ở đó, nhưng không phải để đấu ba người. Chú giải kể ông bất hòa với đồng đội, và quân của Hồ Chẩn rối loạn. [CG]
+## KỊCH BẢN VIDEO NGẮN (9 lời kể, ước tính khoảng một phút)
+1. Trong tiểu thuyết, Quan Vũ hâm rượu chém Hoa Hùng, rồi ba anh em vây đánh Lữ Bố ở Hổ Lao. [TT]
+2. Nhưng Tam quốc chí chỉ chép một câu: Tôn Kiên đánh tan quân Đổng Trác ở Dương Nhân, chém đô đốc Hoa Hùng. [TQC]
+3. Lữ Bố có mặt ở đó, nhưng không phải để đấu ba người. Chú giải kể ông bất hòa với đồng đội, và quân của Hồ Chẩn rối loạn. [CG, WP]
 4. Rồi Đổng Trác dời đô về Trường An và đốt Lạc Dương. [TQC]
 5. Tôn Kiên vào thành đổ nát, sửa lại các lăng, và theo một bản chú, vớt được truyền quốc tỷ từ một cái giếng. [TQC, CG]
-6. Còn Quan Vũ? Sử không chép ông có việc nào ở đó. Ông đang ở bên Lưu Bị, ở phía bắc. [TQC, cần kiểm]
+6. Còn Quan Vũ? Chính văn không kể ông làm gì ở đó. Ông đang ở bên Lưu Bị, ở phía bắc. [TQC, cần kiểm]
 7. Cuối cùng, Đổng Trác không chết vì liên quân. Ông chết dưới tay Lữ Bố, người con nuôi ông tin nhất. [TQC]
-8. Sử thật… lạ hơn cả truyện.
+8. Còn Lưu Bị, lúc ấy chỉ là một tướng nhỏ ở Bình Nguyên. Nhưng một châu ở phía đông sắp gọi tên ông. [BÌNH, nối tập 2]
+9. Sử thật… lạ hơn cả truyện.
 
 ## GỢI Ý ẢNH BÌA, CAPTION, BÌNH LUẬN
 
@@ -178,8 +181,8 @@ Các cảnh nhạy cảm, xử lý bằng cảnh vật và cảnh xa, không v�
 
 ## CÂU HỎI CHO CHỦ KÊNH
 
-1. Hướng tập 3 (lật lại Hổ Lao và Hoa Hùng, kết bằng cái chết của Đổng Trác) có ổn không? Nếu muốn giữ cái chết của Đổng Trác cho tập 4 thì cắt chương 8 (câu 55 đến 63), tập 3 còn 63 câu, khoảng 7 phút rưỡi.
-2. Hướng tập 4 ở câu 71 mình đang để mở. Bạn muốn tập 4 là Trường An sau Đổng Trác (Lý Thôi, Quách Tỵ), hay Lưu Bị rời Bình Nguyên đi Từ Châu? Chốt xong mình sửa câu 71 cho khớp.
+1. Hướng tập 4 mình đã chọn là Từ Châu: Lưu Bị đến Từ Châu bằng cách nào, và vì sao dân ở đó muốn tôn ông. Lý do chọn: câu 78 của tập 2 đã gieo sẵn chi tiết này; bản dịch Tiên chủ truyện mình đọc được còn cho thấy Điền Giai, người cùng ông chống Viên Thiệu, nằm trong số quân đến cứu Đào Khiêm. Nếu bạn muốn tập 4 là Trường An sau Đổng Trác (Lý Thôi, Quách Tỵ), báo mình, chỉ cần sửa câu 71 và 72, phần còn lại của tập 3 không đổi. Trình tự Đào Khiêm, Điền Giai, Tào Tháo mình chưa kiểm nguyên văn, sẽ kiểm khi viết tập 4.
+2. Nếu muốn giữ cái chết của Đổng Trác cho tập 4 thì cắt chương 8 (câu 55 đến 63), tập 3 còn 63 câu. Khi đó câu 71 và 72 vẫn dùng được, chỉ cần bỏ câu 70.
 3. File `ke-hoach/tam-quoc-tap-2-kich-ban.md` đang cũ so với `scripts/TQ2.json` (md có 63 câu, JSON có 85 câu và đã thêm Tào Tháo, Tôn Kiên, dời đô). Mình lấy JSON làm chuẩn để tránh trùng. Bạn có muốn cập nhật file md tập 2 cho khớp không?
 
 ## VIỆC CÒN LẠI TRƯỚC KHI SẢN XUẤT

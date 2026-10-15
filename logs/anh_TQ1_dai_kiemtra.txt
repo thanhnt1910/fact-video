@@ -1,4 +1,4 @@
-KIỂM TRA ẢNH TQ1 · video dài · 46 ảnh (số thứ tự khớp lưới ảnh anh_TQ1_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
+KIỂM TRA ẢNH TQ1 · video dài · 76 ảnh (số thứ tự khớp lưới ảnh anh_TQ1_dai_kiemtra.jpg; viền đỏ = lỗi, vàng = nên xem)
 ❌ 1 (ảnh mô phỏng AI) ·  001.jpg
      ❌ Ảnh hiển thị một cột gỗ trông giống cột điện thoại hoặc cột điện cũ có xà ngang thời hiện đại, hoàn toàn sai thời kỳ lịch sử cách đây hơn 1800 năm (thời Tam Quốc). → Thay thế bằng phong cảnh hoang mạc, đồng quê Trung Hoa cổ đại phù hợp với bối cảnh khởi nghĩa Khăn Vàng.
 ✅ 2 (ảnh mô phỏng AI) ·  002.jpg
@@ -6,55 +6,87 @@ KIỂM TRA ẢNH TQ1 · video dài · 46 ảnh (số thứ tự khớp lưới �
 ✅ 4 (ảnh mô phỏng AI) ·  004.jpg
 ✅ 5 (ảnh mô phỏng AI) ·  005.jpg
 ✅ 6 (ảnh mô phỏng AI) ·  042.jpg
-❌ 7 (ảnh mô phỏng AI) ·  020.jpg
-     ❌ Ảnh minh họa nhân vật có các vật phẩm trên bàn gồm một ống tiêu (hoặc sáo) và một tấm vải gấp, không phù hợp với nội dung đang nhắc đến việc khởi đầu tay trắng của Lưu Bị theo chính sử hay việc bán giày cỏ. → Thay thế bằng hình ảnh minh họa phù hợp với nhân vật bắt đầu từ tay trắng hoặc đang đan, bán giày cỏ.
-     ❌ Bàn tay phải của nhân vật AI tạo bị lỗi giải phẫu rõ rệt (ngón tay dài kỳ lạ và biến dạng). → Sửa lại bàn tay cho đúng giải phẫu hoặc tạo lại ảnh mới.
-✅ 8 (ảnh mô phỏng AI) ·  006.jpg
-✅ 9 (ảnh mô phỏng AI) ·  007.jpg
-✅ 10 (ảnh mô phỏng AI) ·  014.jpg
-✅ 11 (ảnh mô phỏng AI) ·  008.jpg
-✅ 12 (ảnh mô phỏng AI) ·  009.jpg
-❌ 13 (ảnh mô phỏng AI) ·  010.jpg
-     ❌ Lỗi giải phẫu bàn tay của nhân vật bên phải: ngón tay cầm bát bị biến dạng, đơ cứng và không tự nhiên. → Dùng AI tạo lại ảnh với chi tiết bàn tay của nhân vật được vẽ chính xác hơn.
-✅ 14 (ảnh mô phỏng AI) ·  011.jpg
-✅ 15 (ảnh mô phỏng AI) ·  037.jpg
-✅ 16 (ảnh mô phỏng AI) ·  012.jpg
-❌ 17 (ảnh mô phỏng AI) ·  013.jpg
-     ❌ Nhân vật trong ảnh đang cầm một cây gậy có gắn lửa ở đầu (hoặc đuốc) nhưng tư thế cầm và hình dáng ngọn lửa bất hợp lý, ngọn lửa mọc lơ lửng ngay cạnh khung cửa sổ chứ không phải trên đầu gậy. → Sửa lại chi tiết ngọn lửa trên cây đuốc cho tự nhiên hoặc vẽ nhân vật đang nhìn ra cửa sổ khi kế hoạch bị lộ.
-✅ 18 (ảnh mô phỏng AI) ·  015.jpg
-✅ 19 (ảnh mô phỏng AI) ·  016.jpg
-❌ 20 (ảnh mô phỏng AI) ·  017.jpg
-     ❌ Trang phục của hai nhân vật mang phong cách kimono buộc đai của Nhật Bản thay vì trang phục truyền thống Trung Hoa thời Hán. → Điều chỉnh trang phục của nhân vật nam và mẹ thành áo khoác vạt chéo kiểu Hán phục thời nhà Hán.
-     ⚠️ Lộ rõ khuôn mặt của nhân vật lịch sử Lưu Bị trong ảnh minh họa do AI tạo. → Vẽ nhân vật ở góc khuất, quay lưng hoặc che khuất khuôn mặt theo đúng quy định.
-❌ 21 (ảnh mô phỏng AI) ·  018.jpg
+⚠️ 7 (ảnh mô phỏng AI) ·  020.jpg
+     ⚠️ Lời kể đang nhắc đến bộ 'Tam quốc chí' do Trần Thọ biên soạn và phần chú giải của Bùi Tùng Chi, nhưng hình ảnh lại minh họa một người đứng cạnh bàn có đặt vải và ống sáo/địch thay vì liên quan đến sách sử hay tác giả. → Thay thế bằng hình ảnh minh họa liên quan đến sách sử cổ, thư tịch hoặc hình ảnh gợi nhắc đến các sử gia Trần Thọ và Bùi Tùng Chi.
+✅ 8 (ảnh mô phỏng AI) ·  047.jpg
+✅ 9 (ảnh mô phỏng AI) ·  006.jpg
+✅ 10 (ảnh mô phỏng AI) ·  048.jpg
+✅ 11 (ảnh mô phỏng AI) ·  007.jpg
+✅ 12 (ảnh mô phỏng AI) ·  049.jpg
+✅ 13 (ảnh mô phỏng AI) ·  014.jpg
+✅ 14 (ảnh mô phỏng AI) ·  008.jpg
+✅ 15 (ảnh mô phỏng AI) ·  009.jpg
+✅ 16 (ảnh mô phỏng AI) ·  010.jpg
+✅ 17 (ảnh mô phỏng AI) ·  050.jpg
+✅ 18 (ảnh mô phỏng AI) ·  011.jpg
+✅ 19 (ảnh mô phỏng AI) ·  037.jpg
+✅ 20 (ảnh mô phỏng AI) ·  012.jpg
+❌ 21 (ảnh mô phỏng AI) ·  051.jpg
+     ❌ Ảnh có sự xuất hiện của chiếc đèn dầu kiểu hiện đại (đèn bão/đèn hoa kỳ có núm vặn và ống thủy tinh), không phù hợp với thời kỳ lịch sử thế kỷ thứ 2 (thời Đông Hán khi diễn ra khởi nghĩa khăn vàng năm 184). → Thay thế đèn dầu hiện đại bằng đèn gốm hoặc đèn dầu cổ phù hợp với bối cảnh thế kỷ thứ 2.
+✅ 22 (ảnh mô phỏng AI) ·  013.jpg
+✅ 23 (ảnh mô phỏng AI) ·  052.jpg
+✅ 24 (ảnh mô phỏng AI) ·  053.jpg
+✅ 25 (ảnh mô phỏng AI) ·  015.jpg
+✅ 26 (ảnh mô phỏng AI) ·  016.jpg
+✅ 27 (ảnh mô phỏng AI) ·  054.jpg
+❌ 28 (ảnh mô phỏng AI) ·  017.jpg
+     ❌ Trang phục và kiểu tóc của nhân vật trong ảnh mang phong cách Nhật Bản truyền thống (như áo kimono/yukata vạt chéo và guốc geta) thay vì trang phục thời nhà Hán trong lịch sử Trung Quốc. → Sửa lại trang phục, kiểu tóc và đạo cụ cho đúng với thời kỳ nhà Hán ở Trung Quốc cổ đại, đồng thời thể hiện công việc đan chiếu và làm giày cỏ.
+❌ 29 (ảnh mô phỏng AI) ·  055.jpg
+     ❌ Lời kể đang nhắc đến người mẹ là chỗ dựa qua những năm nghèo khó, nhưng ảnh lại minh họa một người đàn ông lớn tuổi đang ngồi đan chiếu. → Thay thế bằng hình ảnh minh họa người mẹ hoặc hai mẹ con trong khung cảnh nghèo khó theo đúng nội dung lời kể.
+✅ 30 (ảnh mô phỏng AI) ·  056.jpg
+❌ 31 (ảnh mô phỏng AI) ·  018.jpg
      ❌ Lời kể đề cập chi tiết đặc biệt 'tay dài quá gối', nhưng nhân vật trong ảnh có đôi tay ngắn bình thường, không vươn qua đầu gối. → Điều chỉnh hình ảnh AI để vẽ tay nhân vật dài qua đầu gối đúng như mô tả trong lời kể.
-✅ 22 (ảnh mô phỏng AI) ·  019.jpg
-✅ 23 (ảnh mô phỏng AI) ·  038.jpg
-✅ 24 (ảnh mô phỏng AI) ·  021.jpg
-❌ 25 (ảnh mô phỏng AI) ·  022.jpg
+✅ 32 (ảnh mô phỏng AI) ·  019.jpg
+✅ 33 (ảnh mô phỏng AI) ·  057.jpg
+❌ 34 (ảnh mô phỏng AI) ·  058.jpg
+     ❌ Lời kể nói về Lưu Bị năm mười lăm tuổi đang đi học, nhưng ảnh lại vẽ một người lớn tuổi có râu tóc bạc phơ đang cầm bút viết sách, trái ngược với câu 'Ông không thích đọc sách' và mô tả thiếu niên 15 tuổi. → Thay thế bằng hình ảnh minh họa một thiếu niên khoảng 15 tuổi (Lưu Bị thời trẻ) đang ở lớp học.
+✅ 35 (ảnh mô phỏng AI) ·  038.jpg
+✅ 36 (ảnh mô phỏng AI) ·  021.jpg
+❌ 37 (ảnh mô phỏng AI) ·  022.jpg
      ❌ Lời kể nhắc đến thời điểm Lưu Bị 'hồi nhỏ' (thời niên thiếu), nhưng hình ảnh lại vẽ một người đàn ông trưởng thành hoặc lớn tuổi đứng cạnh cây dâu và ngôi nhà. → Cần sửa lại hình ảnh nhân vật Lưu Bị thành một cậu bé để phù hợp với chi tiết 'hồi nhỏ' trong lời kể.
-✅ 26 (ảnh mô phỏng AI) ·  023.jpg
-✅ 27 (ảnh mô phỏng AI) ·  024.jpg
-✅ 28 (ảnh mô phỏng AI) ·  025.jpg
-✅ 29 (ảnh mô phỏng AI) ·  026.jpg
-✅ 30 (ảnh mô phỏng AI) ·  027.jpg
-✅ 31 (ảnh mô phỏng AI) ·  028.jpg
-✅ 32 (ảnh mô phỏng AI) ·  029.jpg
-✅ 33 (ảnh mô phỏng AI) ·  030.jpg
-❌ 34 (ảnh mô phỏng AI) ·  031.jpg
+✅ 38 (ảnh mô phỏng AI) ·  023.jpg
+✅ 39 (ảnh mô phỏng AI) ·  024.jpg
+✅ 40 (ảnh mô phỏng AI) ·  059.jpg
+✅ 41 (ảnh mô phỏng AI) ·  025.jpg
+✅ 42 (ảnh mô phỏng AI) ·  026.jpg
+✅ 43 (ảnh mô phỏng AI) ·  027.jpg
+✅ 44 (ảnh mô phỏng AI) ·  028.jpg
+✅ 45 (ảnh mô phỏng AI) ·  029.jpg
+✅ 46 (ảnh mô phỏng AI) ·  060.jpg
+✅ 47 (ảnh mô phỏng AI) ·  030.jpg
+❌ 48 (ảnh mô phỏng AI) ·  031.jpg
      ❌ Lời kể khẳng định 'Không có tế trời đất, không có lời thề sinh tử. Trong Tam quốc chí không có một chữ nào về vườn đào', nhưng ảnh lại minh họa một gốc cây (có vẻ là cây đào/cây ăn quả) đứng cô độc, dễ gây hiểu lầm hoặc gợi nhắc về tích 'Kết nghĩa vườn đào' mà lời kể đang phủ nhận. → Thay thế bằng ảnh chân dung nhân vật, cảnh bán giày cỏ hoặc các bối cảnh khác phù hợp với chính sử thay vì hình ảnh cây cộ gợi nhớ vườn đào.
-❌ 35 (ảnh mô phỏng AI) ·  032.jpg
+❌ 49 (ảnh mô phỏng AI) ·  032.jpg
      ❌ Ảnh minh họa vẽ lại hình ảnh ba người (rất giống tạo hình kinh điển của Lưu Bị, Quan Vũ, Trương Phi), mâu thuẫn trực tiếp với câu lời kể 'Trong Tam quốc chí không có một chữ nào về vườn đào' và ý phủ nhận điển tích kết nghĩa vườn đào. → Thay thế bằng ảnh minh họa phù hợp hơn với nội dung chính sử về Lưu Bị hoặc con đường đi cùng nhau qua năm tháng theo sát lời kể, tránh gợi nhắc đến điển tích kết nghĩa vườn đào.
-✅ 36 (ảnh mô phỏng AI) ·  033.jpg
-✅ 37 (ảnh mô phỏng AI) ·  034.jpg
-✅ 38 (ảnh mô phỏng AI) ·  035.jpg
-✅ 39 (ảnh mô phỏng AI) ·  036.jpg
-✅ 40 (ảnh mô phỏng AI) ·  043.jpg
-✅ 41 (ảnh mô phỏng AI) ·  039.jpg
-✅ 42 (ảnh mô phỏng AI) ·  040.jpg
-❌ 43 (ảnh mô phỏng AI) ·  041.jpg
-     ❌ Ảnh AI tạo có chữ viết vô nghĩa/lạ trên tờ giấy nhỏ mà hai nhân vật đang cầm. → Dùng AI tạo lại ảnh với tờ giấy trống hoặc có chữ Hán mang nghĩa phù hợp thay vì các ký tự vô nghĩa.
-❌ 44 (ảnh mô phỏng AI) ·  044.jpg
+✅ 50 (ảnh mô phỏng AI) ·  033.jpg
+✅ 51 (ảnh mô phỏng AI) ·  034.jpg
+✅ 52 (ảnh mô phỏng AI) ·  061.jpg
+✅ 53 (ảnh mô phỏng AI) ·  062.jpg
+✅ 54 (ảnh mô phỏng AI) ·  035.jpg
+✅ 55 (ảnh mô phỏng AI) ·  063.jpg
+✅ 56 (ảnh mô phỏng AI) ·  036.jpg
+✅ 57 (ảnh mô phỏng AI) ·  064.jpg
+❌ 58 (ảnh mô phỏng AI) ·  065.jpg
+     ❌ Ảnh minh họa một người lính đội khăn vàng đại diện cho quân Khăn Vàng, nhưng chi tiết bàn tay cầm giáo bị lỗi giải phẫu rõ ràng với ngón tay quặp dị dạng. → Tạo lại ảnh nhân vật quân Khăn Vàng cầm vũ khí nhưng đảm bảo vẽ chính xác giải phẫu bàn tay và ngón tay.
+✅ 59 (ảnh mô phỏng AI) ·  066.jpg
+✅ 60 (ảnh mô phỏng AI) ·  043.jpg
+⚠️ 61 (ảnh mô phỏng AI) ·  039.jpg
+     ⚠️ Đèn dầu đặt trên bàn bên cạnh có thiết kế giống đèn bão chạy bằng dầu hỏa hiện đại hơn là đèn gốm/đồng thời Đông Hán. → Thay thế bằng đèn dầu cổ thời Đông Hán (đèn đĩa bấc hoặc đèn hình chim/thú bằng gốm hoặc đồng).
+✅ 62 (ảnh mô phỏng AI) ·  067.jpg
+✅ 63 (ảnh mô phỏng AI) ·  068.jpg
+✅ 64 (ảnh mô phỏng AI) ·  040.jpg
+✅ 65 (ảnh mô phỏng AI) ·  069.jpg
+✅ 66 (ảnh mô phỏng AI) ·  041.jpg
+❌ 67 (ảnh mô phỏng AI) ·  070.jpg
+     ❌ Kiểu cửa sổ trong ảnh là cửa kính khung gỗ hiện đại với tay nắm kim loại, không phù hợp với kiến trúc thời nhà Hán. → Thay thế bằng khung cảnh hoặc đồ vật mang phong cách kiến trúc thời nhà Hán.
+✅ 68 (ảnh mô phỏng AI) ·  071.jpg
+✅ 69 (ảnh mô phỏng AI) ·  072.jpg
+❌ 70 (ảnh mô phỏng AI) ·  073.jpg
+     ❌ Bản đồ trên bàn và cuộn giấy vẽ bản đồ thế giới hiện đại không phù hợp với bối cảnh lịch sử thời Tam Quốc. → Thay bằng bản đồ cổ Trung Hoa thời Đông Hán hoặc các cuộn tấu chương, sách tre phù hợp với thời kỳ lịch sử.
+✅ 71 (ảnh mô phỏng AI) ·  074.jpg
+❌ 72 (ảnh mô phỏng AI) ·  044.jpg
      ❌ Nhân vật trong ảnh là một người lớn tuổi có râu quai nón, không phù hợp với hình ảnh Lưu Bị trẻ tuổi ở huyện An Hỉ trong lời kể. → Vẽ lại nhân vật Lưu Bị với diện mạo trẻ trung hơn khi làm huyện lệnh An Hỉ.
-✅ 45 (ảnh mô phỏng AI) ·  045.jpg
-✅ 46 (ảnh mô phỏng AI) ·  046.jpg
+✅ 73 (ảnh mô phỏng AI) ·  045.jpg
+✅ 74 (ảnh mô phỏng AI) ·  075.jpg
+✅ 75 (ảnh mô phỏng AI) ·  076.jpg
+✅ 76 (ảnh mô phỏng AI) ·  046.jpg

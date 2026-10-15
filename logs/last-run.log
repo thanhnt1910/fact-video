@@ -3,13 +3,20 @@
 ▶️  Video dài TQ1: Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông? | Tam Quốc theo chính sử, tập 1
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 21 tranh AI → logs/nguon_anh_TQ1.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 46 ảnh: 11 ảnh lỗi, 0 ảnh cần xem
+  🔍 Kiểm tra 76 ảnh: 13 ảnh lỗi, 2 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (15 chương)
-  ⏱️  Thời lượng 08:25 · 46 cảnh ảnh
+  ⏱️  Thời lượng 08:25 · 76 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-     46/46 ảnh có độ sâu
+[0;93m2026-10-15 02:44:35.659046012 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     76/76 ảnh có độ sâu
   🎞️  13 cảnh có clip chuyển động
      12136 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (197 giây)
-     … 6/12 đoạn (304 giây)
-     … 9/12 đoạn (408 giây)
+     … 3/12 đoạn (186 giây)
+     … 6/12 đoạn (316 giây)
+     … 9/12 đoạn (445 giây)
+     … 12/12 đoạn (460 giây)
+     dựng khung hình xong trong 460 giây
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.2 dBTP
+✅ Video dài: TQ1_dai.mp4 (08:25)
+
+Xong video ngắn: - · video dài: TQ1

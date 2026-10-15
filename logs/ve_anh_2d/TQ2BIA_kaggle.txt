@@ -1,0 +1,69 @@
+[{"stream_name":"stdout","time":6.783835949,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 60.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.909520169,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 105.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.94493983,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 19.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.97820506,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 18.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.015246109,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 38.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":28.292413943,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":28.292440553,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":28.292446503,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.292451064,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.292455653,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.292487825,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.292492128,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":60.077796222,"data":"[    59s] cài xong thư viện\n"}
+,{"stream_name":"stdout","time":60.125413057,"data":"[    59s] GPU: Tesla T4\n"}
+,{"stream_name":"stderr","time":60.125574819,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":60.125588783,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":135.725305661,"data":"\rFetching 17 files:   0%|          | 0/17 [00:00\u003c?, ?it/s]\rFetching 17 files:  12%|█▏        | 2/17 [00:00\u003c00:00, 18.69it/s]\rFetching 17 files:  47%|████▋     | 8/17 [00:00\u003c00:00, 38.95it/s]\rFetching 17 files:  71%|███████   | 12/17 [00:00\u003c00:00, 39.04it/s]\rFetching 17 files:  82%|████████▏ | 14/17 [00:19\u003c00:00, 39.04it/s]\rFetching 17 files:  88%|████████▊ | 15/17 [00:55\u003c00:11,  5.91s/it]\rFetching 17 files:  94%|█████████▍| 16/17 [01:15\u003c00:07,  7.68s/it]\rFetching 17 files: 100%|██████████| 17/17 [01:15\u003c00:00,  4.43s/it]\n"}
+,{"stream_name":"stderr","time":147.311600372,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading pipeline components...:  20%|██        | 1/5 [00:11\u003c00:46, 11.56s/it]The config attributes {'force_upcast': True} were passed to AutoencoderKLFlux2, but are not expected and will be ignored. Please verify your config.json configuration file.\n"}
+,{"stream_name":"stderr","time":148.994797098,"data":"\rLoading pipeline components...:  60%|██████    | 3/5 [00:12\u003c00:06,  3.28s/it]\rLoading pipeline components...:  80%|████████  | 4/5 [00:12\u003c00:02,  2.32s/it]\n"}
+,{"stream_name":"stderr","time":157.339033333,"data":"\rLoading weights:   0%|          | 0/398 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":157.537046567,"data":"\rLoading weights:   0%|          | 1/398 [00:08\u003c55:12,  8.34s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":159.86006731,"data":"\rLoading weights:  30%|██▉       | 119/398 [00:08\u003c00:14, 19.66it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":161.481315483,"data":"\rLoading weights:  39%|███▉      | 155/398 [00:10\u003c00:13, 18.18it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":162.300295774,"data":"\rLoading weights:  44%|████▍     | 175/398 [00:12\u003c00:13, 16.65it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":163.092507041,"data":"\rLoading weights:  47%|████▋     | 188/398 [00:13\u003c00:12, 16.53it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":163.897688104,"data":"\rLoading weights:  49%|████▉     | 197/398 [00:14\u003c00:12, 15.60it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":164.659565845,"data":"\rLoading weights:  51%|█████▏    | 204/398 [00:14\u003c00:13, 14.17it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":165.433247193,"data":"\rLoading weights:  53%|█████▎    | 212/398 [00:15\u003c00:13, 13.37it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":166.251447457,"data":"\rLoading weights:  56%|█████▌    | 223/398 [00:16\u003c00:12, 13.57it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":167.04777553,"data":"\rLoading weights:  59%|█████▉    | 234/398 [00:17\u003c00:12, 13.54it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":167.860147499,"data":"\rLoading weights:  62%|██████▏   | 245/398 [00:18\u003c00:11, 13.61it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":168.633250766,"data":"\rLoading weights:  64%|██████▍   | 256/398 [00:18\u003c00:10, 13.59it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":169.442478736,"data":"\rLoading weights:  67%|██████▋   | 267/398 [00:19\u003c00:09, 13.77it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":170.288406955,"data":"\rLoading weights:  70%|██████▉   | 278/398 [00:20\u003c00:08, 13.72it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":171.104202651,"data":"\rLoading weights:  73%|███████▎  | 289/398 [00:21\u003c00:08, 13.50it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":171.874085069,"data":"\rLoading weights:  75%|███████▌  | 300/398 [00:22\u003c00:07, 13.50it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":172.660637057,"data":"\rLoading weights:  78%|███████▊  | 311/398 [00:22\u003c00:06, 13.72it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":172.762411354,"data":"\rLoading weights:  81%|████████  | 322/398 [00:23\u003c00:05, 13.80it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":173.539750927,"data":"\rLoading weights:  81%|████████▏ | 324/398 [00:23\u003c00:05, 14.10it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":174.325044833,"data":"\rLoading weights:  84%|████████▎ | 333/398 [00:24\u003c00:04, 13.19it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":174.427585762,"data":"\rLoading weights:  86%|████████▋ | 344/398 [00:25\u003c00:04, 13.47it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":175.1577709,"data":"\rLoading weights:  89%|████████▊ | 353/398 [00:25\u003c00:02, 17.92it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":175.905621163,"data":"\rLoading weights:  90%|████████▉ | 357/398 [00:26\u003c00:03, 13.21it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":176.041862221,"data":"\rLoading weights:  92%|█████████▏| 366/398 [00:26\u003c00:02, 12.79it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":176.749501555,"data":"\rLoading weights:  94%|█████████▍| 374/398 [00:27\u003c00:01, 16.69it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":177.518764476,"data":"\rLoading weights:  95%|█████████▍| 378/398 [00:27\u003c00:01, 12.43it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":177.567902915,"data":"\rLoading weights:  97%|█████████▋| 388/398 [00:28\u003c00:00, 12.64it/s]\u001b[A\rLoading weights: 100%|██████████| 398/398 [00:28\u003c00:00, 13.93it/s]\n"}
+,{"stream_name":"stderr","time":177.677610069,"data":"\rLoading pipeline components...: 100%|██████████| 5/5 [00:41\u003c00:00, 11.19s/it]\rLoading pipeline components...: 100%|██████████| 5/5 [00:41\u003c00:00,  8.39s/it]\n"}
+,{"stream_name":"stdout","time":177.707089127,"data":"[   177s] tải xong FLUX.2 klein 4B\n"}
+,{"stream_name":"stderr","time":196.974169793,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:09\u003c00:28,  9.45s/it]\r 50%|█████     | 2/4 [00:11\u003c00:10,  5.02s/it]\r 75%|███████▌  | 3/4 [00:13\u003c00:03,  3.62s/it]\r100%|██████████| 4/4 [00:15\u003c00:00,  2.97s/it]\r100%|██████████| 4/4 [00:15\u003c00:00,  3.83s/it]\n"}
+,{"stream_name":"stdout","time":207.739236029,"data":"[   207s] vẽ xong 901 30s torch.float16\n"}
+,{"stream_name":"stderr","time":225.313034158,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:09\u003c00:27,  9.02s/it]\r 50%|█████     | 2/4 [00:11\u003c00:09,  4.89s/it]\r 75%|███████▌  | 3/4 [00:13\u003c00:03,  3.58s/it]\r100%|██████████| 4/4 [00:15\u003c00:00,  2.98s/it]\r100%|██████████| 4/4 [00:15\u003c00:00,  3.77s/it]\n"}
+,{"stream_name":"stdout","time":234.988729453,"data":"[   234s] vẽ xong 911 27s torch.float16\n"}
+,{"stream_name":"stderr","time":251.941906648,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:08\u003c00:24,  8.21s/it]\r 50%|█████     | 2/4 [00:10\u003c00:09,  4.61s/it]\r 75%|███████▌  | 3/4 [00:12\u003c00:03,  3.45s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  2.91s/it]\r100%|██████████| 4/4 [00:14\u003c00:00,  3.62s/it]\n"}
+,{"stream_name":"stdout","time":261.544185467,"data":"[   261s] vẽ xong 902 27s torch.float16\n"}
+,{"stream_name":"stderr","time":277.760276172,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:07\u003c00:22,  7.36s/it]\r 50%|█████     | 2/4 [00:09\u003c00:08,  4.28s/it]\r 75%|███████▌  | 3/4 [00:11\u003c00:03,  3.31s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  2.86s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  3.45s/it]\n"}
+,{"stream_name":"stdout","time":287.510519656,"data":"[   287s] vẽ xong 912 26s torch.float16\n"}
+,{"stream_name":"stderr","time":303.522638949,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:20,  6.86s/it]\r 50%|█████     | 2/4 [00:09\u003c00:08,  4.13s/it]\r 75%|███████▌  | 3/4 [00:11\u003c00:03,  3.28s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  2.88s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  3.41s/it]\n"}
+,{"stream_name":"stdout","time":313.488567902,"data":"[   313s] vẽ xong 903 26s torch.float16\n"}
+,{"stream_name":"stderr","time":329.246045361,"data":"\r  0%|          | 0/4 [00:00\u003c?, ?it/s]\r 25%|██▌       | 1/4 [00:06\u003c00:19,  6.41s/it]\r 50%|█████     | 2/4 [00:08\u003c00:08,  4.02s/it]\r 75%|███████▌  | 3/4 [00:11\u003c00:03,  3.25s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  2.90s/it]\r100%|██████████| 4/4 [00:13\u003c00:00,  3.36s/it]\n"}
+,{"stream_name":"stdout","time":339.251236134,"data":"[   339s] vẽ xong 913 26s torch.float16\n"}
+,{"stream_name":"stdout","time":339.251399506,"data":"[   339s] XONG 6 / 6\n"}
+,{"stream_name":"stderr","time":348.687791977,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":348.687822881,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":349.006985961,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":349.007024003,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":350.304496858,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":351.370436649,"data":"[NbConvertApp] Writing 294736 bytes to __results__.html\n"}
+]

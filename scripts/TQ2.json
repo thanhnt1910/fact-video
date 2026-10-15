@@ -44,11 +44,13 @@
    "dong1": "KHÔNG PHẢI",
    "dong2": "TRƯƠNG PHI",
    "gach": true,
-   "dong3": "Ai thật sự đánh viên đốc bưu?",
+   "dong3": "Ai thật sự <b>đánh</b> viên <b>đốc bưu</b>?",
    "canh": {
     "rong": "Night in the stone courtyard of a small Han dynasty county government office with a grey tiled roof, wooden gate and burning torches. On the right, big close-up three-quarter view of Liu Bei, a tall young man of about 24 with a calm but now fierce face, a thin moustache and a short sparse beard, large earlobes, hair in a topknot under a pale cloth headband, worn undyed hemp cross-collared robe with a brown sash, gripping a long wooden cane firmly in his fist, burning torch flames lighting his determined face with orange light. Behind him, slightly out of focus, a stocky bearded Zhang Fei in a dark brown tunic stands with arms crossed. On the stone ground at Liu Bei's feet lie a small bronze official seal with a cord ribbon and a fallen black official cap. The left third of the picture is dark smoky night wall and sky, empty and calm, to leave room for a title. Exactly two men.",
     "doc": "Night in the stone courtyard of a small Han dynasty county government office, burning torches and a wooden gate behind. In the upper middle, big close-up three-quarter view of Liu Bei, a tall young man of about 24 with a calm but now fierce face, a thin moustache and a short sparse beard, large earlobes, hair in a topknot under a pale cloth headband, worn undyed hemp cross-collared robe with a brown sash, gripping a long wooden cane firmly in his fist, torch flames lighting his determined face with orange light. Behind him, slightly out of focus, a stocky bearded Zhang Fei in a dark brown tunic stands with arms crossed. On the stone ground a small bronze official seal with a cord ribbon and a fallen black official cap. The lower third of the picture is dark empty stone ground in shadow, to leave room for a title. Exactly two men."
-   }
+   },
+   "anh_rong": "assets/anh_2d/TQ2BIA/902.jpg",
+   "anh_doc": "assets/anh_2d/TQ2BIA/912.jpg"
   },
   "chapters": [
    {

@@ -10,7 +10,7 @@ Repo của kênh "Người Gác Sử": video dọc 60–80 giây và video dài 
 - Sau khi dựng, đo thời lượng thật; dưới 10 phút thì bổ sung kịch bản, không đăng.
 - Video dọc vẫn 60–80 giây. Quy định này chỉ áp cho video dài.
 - Chi tiết đầy đủ: mục "VIDEO DÀI" trong `PROMPT_KICH_BAN.md`.
-- Ghi chú: `review.py` hiện vẫn cho video dài trong khoảng 6–15 phút. Không tự đổi nếu chủ kênh chưa đồng ý, vì bản bị ❌ sẽ không được gửi Telegram.
+- `review.py` đã áp mức sàn này: video dài dưới 10 phút báo ⚠️ (vẫn được gửi), dưới 6 phút báo ❌ (không được gửi Telegram).
 
 ## Quy tắc nội dung
 

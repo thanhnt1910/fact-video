@@ -23,15 +23,17 @@
   "key": "003",
   "cau": 4,
   "nv": [],
-  "prompt": "an open bamboo-slip scroll on a wooden table beside an oil lamp, warm light, an empty quiet scene of objects only. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Nhưng mở phần truyện của Đổng Trác trong Tam quốc chí ra, bạn sẽ không tìm thấy hai chữ Hổ Lao."
+  "prompt": "an open bamboo-slip scroll on a wooden table beside an oil lamp, warm light, an. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Nhưng mở phần truyện của Đổng Trác trong Tam quốc chí ra, bạn sẽ không tìm thấy hai chữ Hổ Lao.",
+  "so_nguoi": 0
  },
  {
   "key": "004",
   "cau": 5,
   "nv": [],
-  "prompt": "wide view of a mountain pass gate tower between two cliffs in grey mist, no banners, no people, an empty quiet landscape. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Vậy Hoa Hùng thật sự chết dưới tay ai? Lữ Bố khi ấy đang đánh với ai? Và Quan Vũ… đang ở đâu?"
+  "prompt": "wide view of a mountain pass gate tower between two cliffs in grey mist, no banners, an empty quiet landscape. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Vậy Hoa Hùng thật sự chết dưới tay ai? Lữ Bố khi ấy đang đánh với ai? Và Quan Vũ… đang ở đâu?",
+  "so_nguoi": 0
  },
  {
   "key": "005",
@@ -110,8 +112,9 @@
   "key": "013",
   "cau": 14,
   "nv": [],
-  "prompt": "an empty palace hall with heavy hanging curtains, one oil lamp burning, an empty low couch, no people, quiet sorrowful mood. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Tập trước đã nói Đổng Trác phế Thiếu đế. Chính văn còn chép thêm: chẳng bao lâu sau, ông ta giết luôn Thiếu đế và Hà thái hậu."
+  "prompt": "an empty palace hall with heavy hanging curtains, one oil lamp burning, an empty low couch, quiet sorrowful mood. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Tập trước đã nói Đổng Trác phế Thiếu đế. Chính văn còn chép thêm: chẳng bao lâu sau, ông ta giết luôn Thiếu đế và Hà thái hậu.",
+  "so_nguoi": 0
  },
  {
   "key": "014",
@@ -126,8 +129,9 @@
   "key": "015",
   "cau": 16,
   "nv": [],
-  "prompt": "rows of empty court cushions and a lone empty throne in a hall, cold morning light, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Người dám nói \"không\" đã phải bỏ đi. Từ lúc ấy, trong triều không còn ai đủ sức cản người nắm cả quân đội."
+  "prompt": "rows of empty court cushions and a lone empty throne in a hall, cold morning light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Người dám nói \"không\" đã phải bỏ đi. Từ lúc ấy, trong triều không còn ai đủ sức cản người nắm cả quân đội.",
+  "so_nguoi": 0
  },
  {
   "key": "016",
@@ -251,15 +255,17 @@
   "key": "029",
   "cau": 30,
   "nv": [],
-  "prompt": "a dusty narrow dirt shortcut leading into hills in the foreground, a distant dust cloud of pursuers on the plain, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Kỵ binh của Đổng Trác đổ xô đuổi theo Tổ Mậu, và nhờ vậy Tôn Kiên thoát theo một đường tắt."
+  "prompt": "a dusty narrow dirt shortcut leading into hills in the foreground, a distant dust cloud of pursuers on the plain. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Kỵ binh của Đổng Trác đổ xô đuổi theo Tổ Mậu, và nhờ vậy Tôn Kiên thoát theo một đường tắt.",
+  "so_nguoi": 0
  },
  {
   "key": "030",
   "cau": 31,
   "nv": [],
-  "prompt": "a charred wooden post in a field of graves with a red cloth hung on top, tall grass, dusk light, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Còn Tổ Mậu, bị dồn đến đường cùng, xuống ngựa, đặt chiếc khăn lên một cây cột cháy dở giữa đám mộ rồi nấp vào bụi cỏ. Kỵ binh vây quanh, đến gần mới nhận ra đó chỉ là cái cột, rồi bỏ đi."
+  "prompt": "a charred wooden post in a field of graves with a red cloth hung on top, tall grass, dusk light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Còn Tổ Mậu, bị dồn đến đường cùng, xuống ngựa, đặt chiếc khăn lên một cây cột cháy dở giữa đám mộ rồi nấp vào bụi cỏ. Kỵ binh vây quanh, đến gần mới nhận ra đó chỉ là cái cột, rồi bỏ đi.",
+  "so_nguoi": 0
  },
  {
   "key": "031",
@@ -327,8 +333,9 @@
   "key": "038",
   "cau": 39,
   "nv": [],
-  "prompt": "a pottery wine pot and a cup on a plain table, no steam, cold and still, empty quiet scene of objects only. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Chỉ vậy thôi. Không có chén rượu còn nóng. Không có Quan Vũ. Không có ba anh em nào chặn Lữ Bố."
+  "prompt": "a pottery wine pot and a cup on a plain table, no steam, cold and still. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Chỉ vậy thôi. Không có chén rượu còn nóng. Không có Quan Vũ. Không có ba anh em nào chặn Lữ Bố.",
+  "so_nguoi": 0
  },
  {
   "key": "039",
@@ -350,35 +357,39 @@
   "key": "041",
   "cau": 42,
   "nv": [],
-  "prompt": "a closed bound book lying on a table beside an oil lamp, no text on the cover, empty quiet scene of objects only. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Vì sao? Có lẽ vì một bộ tiểu thuyết cần một cảnh khai màn thật lớn cho các nhân vật chính của nó."
+  "prompt": "a closed bound book lying on a table beside an oil lamp, no text on the cover. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Vì sao? Có lẽ vì một bộ tiểu thuyết cần một cảnh khai màn thật lớn cho các nhân vật chính của nó.",
+  "so_nguoi": 0
  },
  {
   "key": "042",
   "cau": 43,
   "nv": [],
-  "prompt": "a fortified pass gate between cliffs in mist, a long wall across the gorge, no banners, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Hổ Lao là một cửa ải có thật. Nhưng cảnh ba người đánh Lữ Bố ở đó thì không thấy trong sử."
+  "prompt": "a fortified pass gate between cliffs in mist, a long wall across the gorge, no banners. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Hổ Lao là một cửa ải có thật. Nhưng cảnh ba người đánh Lữ Bố ở đó thì không thấy trong sử.",
+  "so_nguoi": 0
  },
  {
   "key": "043",
   "cau": 44,
   "nv": [],
-  "prompt": "a large city seen from far at night with its palaces burning, flames and black smoke, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Sau trận ấy, Đổng Trác dời thiên tử về Trường An, và cho đốt cung thất ở Lạc Dương."
+  "prompt": "a large city seen from far at night with its palaces burning, flames and black smoke. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Sau trận ấy, Đổng Trác dời thiên tử về Trường An, và cho đốt cung thất ở Lạc Dương.",
+  "so_nguoi": 0
  },
  {
   "key": "044",
   "cau": 45,
   "nv": [],
-  "prompt": "a hillside tomb gate with stone doors standing open, dark inside with faint torch light, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Chính văn còn chép: lăng mộ bị đào lên để lấy bảo vật."
+  "prompt": "a hillside tomb gate with stone doors standing open, dark inside with faint torch light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Chính văn còn chép: lăng mộ bị đào lên để lấy bảo vật.",
+  "so_nguoi": 0
  },
  {
   "key": "045",
   "cau": 46,
   "nv": [],
-  "prompt": "Luoyang's city wall and gate tower at sunrise, whole and peaceful, tiny distant people on the road, soft golden light. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
+  "prompt": "Luoyang's city wall and gate tower at sunrise, whole and peaceful, soft golden light, seen from a distance along a dirt road; no one in the foreground, only two or three tiny distant figures far down the road. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
   "text": "Đó là kinh đô mà nhà Hán đã giữ hơn một trăm sáu mươi năm."
  },
  {
@@ -403,8 +414,9 @@
   "key": "048",
   "cau": 49,
   "nv": [],
-  "prompt": "an imperial square jade seal with a dragon-shaped knob on a silk cloth on a table, no carved text, empty quiet scene of objects only. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Truyền quốc tỷ là con dấu của hoàng đế. Ai giữ nó có thể ra vẻ mình thay thiên tử."
+  "prompt": "an imperial square jade seal with a dragon-shaped knob on a silk cloth on a table, no carved text. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Truyền quốc tỷ là con dấu của hoàng đế. Ai giữ nó có thể ra vẻ mình thay thiên tử.",
+  "so_nguoi": 0
  },
  {
   "key": "049",
@@ -429,8 +441,9 @@
   "key": "051",
   "cau": 52,
   "nv": [],
-  "prompt": "an empty army granary with only a few sacks left on the floor, grey light, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Viên Thuật nghi ngờ Tôn Kiên, và không chuyển lương cho quân của ông."
+  "prompt": "an empty army granary with only a few sacks left on the floor, grey light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Viên Thuật nghi ngờ Tôn Kiên, và không chuyển lương cho quân của ông.",
+  "so_nguoi": 0
  },
  {
   "key": "052",
@@ -456,15 +469,17 @@
   "key": "054",
   "cau": 55,
   "nv": [],
-  "prompt": "a red plain banner planted in the ground at the edge of a ruined city wall at dusk, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Tôn Kiên không sống để thấy kết cục của cuộc chiến này."
+  "prompt": "a red plain banner planted in the ground at the edge of a ruined city wall at dusk. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Tôn Kiên không sống để thấy kết cục của cuộc chiến này.",
+  "so_nguoi": 0
  },
  {
   "key": "055",
   "cau": 56,
   "nv": [],
-  "prompt": "Mount Xian in mist at dawn, an empty winding mountain road, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Về sau ông đánh Lưu Biểu, vây Tương Dương, và một mình cưỡi ngựa đi trên núi Hiện thì bị quân của Hoàng Tổ bắn chết."
+  "prompt": "Mount Xian in mist at dawn, an empty winding mountain road. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Về sau ông đánh Lưu Biểu, vây Tương Dương, và một mình cưỡi ngựa đi trên núi Hiện thì bị quân của Hoàng Tổ bắn chết.",
+  "so_nguoi": 0
  },
  {
   "key": "056",
@@ -486,8 +501,9 @@
   "key": "058",
   "cau": 59,
   "nv": [],
-  "prompt": "the great river of the south at sunrise with one small boat, calm water, soft golden light, no faces. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Con trai ông, Tôn Sách rồi Tôn Quyền, sẽ lập nên một nước: Đông Ngô. Nhưng đó là chuyện của những tập sau."
+  "prompt": "the great river of the south at sunrise with one small boat, calm water, soft golden light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Con trai ông, Tôn Sách rồi Tôn Quyền, sẽ lập nên một nước: Đông Ngô. Nhưng đó là chuyện của những tập sau.",
+  "so_nguoi": 0
  },
  {
   "key": "059",
@@ -555,15 +571,17 @@
   "key": "066",
   "cau": 67,
   "nv": [],
-  "prompt": "a huge stone fortress with towers and a long wall on a plain, tiny gates, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Trong khi đó, ở Trường An, Đổng Trác cho xây ổ Mi, một thành trì cao ngang tường thành Trường An, tích lương đủ ba mươi năm."
+  "prompt": "a huge stone fortress with towers and a long wall on a plain, tiny gates. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Trong khi đó, ở Trường An, Đổng Trác cho xây ổ Mi, một thành trì cao ngang tường thành Trường An, tích lương đủ ba mươi năm.",
+  "so_nguoi": 0
  },
  {
   "key": "067",
   "cau": 68,
   "nv": [],
-  "prompt": "rows of enormous granaries stacked with sacks inside a fortress, empty of people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Một người xây kho lương cho ba mươi năm, hẳn không nghĩ mình sắp chết."
+  "prompt": "rows of enormous granaries stacked with sacks inside a fortress. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Một người xây kho lương cho ba mươi năm, hẳn không nghĩ mình sắp chết.",
+  "so_nguoi": 0
  },
  {
   "key": "068",
@@ -579,8 +597,9 @@
   "key": "069",
   "cau": 70,
   "nv": [],
-  "prompt": "a long halberd lying on a carpet floor in a lamp-lit hall, nobody, empty quiet scene of objects only. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Lữ Bố truyện chép rằng có lần Đổng Trác chỉ vì một chút không vừa ý đã rút kích ném vào Lữ Bố."
+  "prompt": "a long halberd lying on a carpet floor in a lamp-lit hall. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Lữ Bố truyện chép rằng có lần Đổng Trác chỉ vì một chút không vừa ý đã rút kích ném vào Lữ Bố.",
+  "so_nguoi": 0
  },
  {
   "key": "070",
@@ -623,8 +642,9 @@
   "key": "074",
   "cau": 75,
   "nv": [],
-  "prompt": "the great hall of a palace with tall columns and a long stair, empty, morning light through the doors, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Hôm ấy, Đổng Trác vào dự đại hội ở điện Vị Ương."
+  "prompt": "the great hall of a palace with tall columns and a long stair, empty, morning light through the doors. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Hôm ấy, Đổng Trác vào dự đại hội ở điện Vị Ương.",
+  "so_nguoi": 0
  },
  {
   "key": "075",
@@ -639,8 +659,9 @@
   "key": "076",
   "cau": 77,
   "nv": [],
-  "prompt": "an empty heavy chair with a dark fur-trimmed robe draped over it, rays of light, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Hơn chục đạo quân của liên quân không hạ được Đổng Trác. Người hạ ông, là người con nuôi mà ông tin nhất."
+  "prompt": "an empty heavy chair with a dark fur-trimmed robe draped over it, rays of light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Hơn chục đạo quân của liên quân không hạ được Đổng Trác. Người hạ ông, là người con nuôi mà ông tin nhất.",
+  "so_nguoi": 0
  },
  {
   "key": "077",
@@ -665,8 +686,9 @@
   "key": "079",
   "cau": 80,
   "nv": [],
-  "prompt": "a long wall across a gorge with a gate tower at evening, wide shot, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Hổ Lao có thật là một cửa ải, nhưng cảnh ba người đánh Lữ Bố ở đó không có trong sử."
+  "prompt": "a long wall across a gorge with a gate tower at evening, wide shot. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Hổ Lao có thật là một cửa ải, nhưng cảnh ba người đánh Lữ Bố ở đó không có trong sử.",
+  "so_nguoi": 0
  },
  {
   "key": "080",
@@ -682,22 +704,25 @@
   "key": "081",
   "cau": 82,
   "nv": [],
-  "prompt": "two blank wooden name tablets lying side by side on a table in lamp light, empty quiet scene of objects only. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Tiểu thuyết đã làm một việc rất khéo: lấy chiến công của người này, đặt vào tên người kia."
+  "prompt": "two blank wooden name tablets lying side by side on a table in lamp light. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Tiểu thuyết đã làm một việc rất khéo: lấy chiến công của người này, đặt vào tên người kia.",
+  "so_nguoi": 0
  },
  {
   "key": "082",
   "cau": 83,
   "nv": [],
-  "prompt": "a quiet dawn battlefield with fallen plain banners and stones, thin smoke, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Còn chính sử cho ta thứ khác: một cuộc chiến ít cờ bay, nhiều toan tính, và những người phải trả giá thật."
+  "prompt": "a quiet dawn battlefield with fallen plain banners and stones, thin smoke. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Còn chính sử cho ta thứ khác: một cuộc chiến ít cờ bay, nhiều toan tính, và những người phải trả giá thật.",
+  "so_nguoi": 0
  },
  {
   "key": "083",
   "cau": 84,
   "nv": [],
-  "prompt": "burnt ruins of a palace at dawn with thin smoke and one crow, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Đổng Trác chết, nhưng nhà Hán không được cứu. Loạn chỉ đổi người."
+  "prompt": "burnt ruins of a palace at dawn with thin smoke and one crow. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Đổng Trác chết, nhưng nhà Hán không được cứu. Loạn chỉ đổi người.",
+  "so_nguoi": 0
  },
  {
   "key": "084",
@@ -712,7 +737,8 @@
   "key": "085",
   "cau": 86,
   "nv": [],
-  "prompt": "a long road leading east between fields toward a distant misty walled city at dawn, no people. 2D franco-belgian ligne claire comic illustration set in the Eastern Han dynasty, year 184 AD, clean uniform dark ink outlines, flat muted colours with soft shading, realistic ADULT body proportions about seven and a half heads tall, normal sized head, weathered adult faces with fine lines, realistic hands, serious documentary mood, earthy palette of ochre, jade green, indigo and warm cream, authentic Han dynasty clothing: cross-collared robes wrapped to the right, cloth sashes, hair worn in a topknot under cloth headbands or caps, not Ming dynasty, not Qing dynasty, no braided queue, no opera makeup, no modern clothes, no text, no letters, no watermark, not cartoonish, not chibi, not childlike, not 3D, not a photo. medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces",
-  "text": "Vì sao một người chưa có đất, chưa có quân lớn, lại được cả một châu nhắc tới? Sử thật… lạ hơn cả truyện. Tập sau sẽ kể tiếp."
+  "prompt": "a long road leading east between fields toward a distant misty walled city at dawn. No people in the picture, no human figure anywhere, no person standing, no person lying down. An empty quiet scene of objects and landscape only. Real dirt tracks and stone, no asphalt, no road markings. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo",
+  "text": "Vì sao một người chưa có đất, chưa có quân lớn, lại được cả một châu nhắc tới? Sử thật… lạ hơn cả truyện. Tập sau sẽ kể tiếp.",
+  "so_nguoi": 0
  }
 ]

@@ -61,6 +61,10 @@ def trung_anh(ma, keys, nguong=0.06):
     return out
 
 
+AI_LOI_LIEN_TIEP_TOI_DA = 4     # Gemini lỗi (hết lượt, mạng…) liên tiếp từng này ảnh thì bỏ lớp AI cho lượt kiểm này
+AI_NGAN_SACH_PHUT = 45          # mỗi lượt kiểm tối đa từng này phút cho lớp AI (tránh treo hàng giờ vì hết lượt Gemini)
+
+
 def kiem(ma, keys, ai=True, log=print):
     """-> {key: {"loi": [...], "canh_bao": [...], "diem": n|None, "ghi_chu": str, "da_kiem_ai": bool}}"""
     sc, anh, spec, beats = k2d.load(ma)
@@ -80,16 +84,25 @@ def kiem(ma, keys, ai=True, log=print):
         res[k]["loi"].append(v)
     if not ai:
         return res
+    t_ai, lien_tiep = time.time(), 0
     for k in keys:
         if res[k]["loi"] and any(x == "chưa có ảnh" for x in res[k]["loi"]):
+            continue
+        if lien_tiep >= AI_LOI_LIEN_TIEP_TOI_DA or time.time() - t_ai > AI_NGAN_SACH_PHUT * 60:
+            res[k]["canh_bao"].append("chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)")
             continue
         try:
             g = k2d.kiem_tra_mot(k, ma, sc, anh, spec, beats, None)
         except Exception as e:
+            lien_tiep += 1
             res[k]["canh_bao"].append(f"Gemini không kiểm được: {str(e)[:80]}")
+            log(f"   {k}: Gemini không kiểm được ({lien_tiep}/{AI_LOI_LIEN_TIEP_TOI_DA}): {str(e)[:140]}")
+            if lien_tiep >= AI_LOI_LIEN_TIEP_TOI_DA:
+                log("   ⚠️ Gemini lỗi liên tiếp: bỏ lớp AI cho các ảnh còn lại của lượt này")
             continue
+        lien_tiep = 0
         named = [n for n in anh[k].get("nv", []) if n in spec.get("nhan_vat", {})]
-        ly_do = k2d.danh_gia(g, len(named), ma)
+        ly_do = k2d.danh_gia(g, len(named), ma, anh[k].get("so_nguoi") == 0)
         res[k]["loi"] += ly_do
         res[k]["diem"] = g.get("diem")
         res[k]["ghi_chu"] = str(g.get("ghi_chu", ""))[:120]
@@ -142,28 +155,40 @@ def main():
         print("⚠️ Không có khóa Gemini: bỏ lớp kiểm bằng AI (chỉ kiểm kỹ thuật và trùng ảnh).", flush=True)
     t0 = time.time()
     vong = 0
+    GIOI_HAN_GIAY = int(opts.get("gioi_han_phut", 300)) * 60     # dừng êm trước khi workflow hết giờ
     # vòng 0: vẽ ảnh còn thiếu
     if not chi_kiem:
         thieu = [k for k in keys if not (d / f"{k}.jpg").exists()]
         if thieu:
             ve(ma, thieu, 0)
+    res = {}
+    can_kiem = list(keys)          # vòng đầu kiểm tất cả; các vòng sau chỉ kiểm lại ảnh vừa vẽ lại
     while True:
-        print(f"== Kiểm ảnh (vòng {vong}) ==", flush=True)
-        res = kiem(ma, keys, ai)
-        hong = [k for k, r in res.items() if r["loi"]]
+        print(f"== Kiểm ảnh (vòng {vong}): {len(can_kiem)} ảnh ==", flush=True)
+        res.update(kiem(ma, can_kiem, ai))
+        hong = [k for k in keys if res.get(k, {}).get("loi")]
         print(f"Vòng {vong}: {len(hong)} ảnh lỗi / {len(keys)}: {','.join(hong)}", flush=True)
-        if chi_kiem or not hong or vong >= vong_max:
+        viet_bao_cao(ma, keys, res, hong, vong, t0)          # ghi báo cáo sau MỖI vòng (bị hủy giữa chừng vẫn còn)
+        if chi_kiem or not hong or vong >= vong_max or time.time() - t0 > GIOI_HAN_GIAY:
             break
         vong += 1
         cat_anh_cu(ma, hong, vong)
         ve(ma, hong, vong)
-    # báo cáo
+        can_kiem = hong
     chua_ai = [k for k, r in res.items() if not r["da_kiem_ai"] and not r["loi"]]
+    sys.exit(0 if (not hong and not chua_ai) else 2)
+
+
+def viet_bao_cao(ma, keys, res, hong, vong, t0):
+    chua_ai = [k for k in keys if k in res and not res[k]["da_kiem_ai"] and not res[k]["loi"]]
     lines = [f"TỔNG HỢP KIỂM ẢNH · {ma} · {len(keys)} ảnh · {time.time() - t0:.0f} giây · {vong} vòng vẽ lại",
              f"Còn lỗi ({len(hong)}): {','.join(hong) or 'không'}",
              f"Chưa kiểm bằng AI ({len(chua_ai)}): {','.join(chua_ai) or 'không'}", ""]
     for k in keys:
-        r = res[k]
+        r = res.get(k)
+        if not r:
+            lines.append(f"{k} · chưa kiểm")
+            continue
         lines.append(f"{k} · {'LỖI: ' + '; '.join(r['loi']) if r['loi'] else 'đạt'}"
                      f"{' · cảnh báo: ' + '; '.join(r['canh_bao']) if r['canh_bao'] else ''}"
                      f"{' · điểm ' + str(r['diem']) if r['diem'] else ''}")
@@ -171,8 +196,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     (out / f"{ma}_tong_hop.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     (out / f"{ma}_tong_hop.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("\n".join(lines[:3]))
-    sys.exit(0 if (not hong and not chua_ai) else 2)
+    print("\n".join(lines[:3]), flush=True)
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent
 SERIES_MAC_DINH = {"era": "vật hiện đại không đúng năm 1914-1917, ví dụ máy tính, máy ảnh SLR, nhà kính hiện đại", "extra": "", "cac_loi": {}}
 SERIES = {
     "TQ": {
-        "era": "vật, trang phục không đúng Đông Hán năm 184-192 SCN: áo kiểu Minh/Thanh, bím tóc Mãn Thanh, trang điểm hí kịch, bàn đạp ngựa, súng, vật hiện đại",
+        "era": "vật, trang phục không đúng Đông Hán năm 184-192 SCN: áo kiểu Minh/Thanh, bím tóc Mãn Thanh, trang điểm hí kịch, bàn đạp ngựa, súng, đường nhựa có vạch kẻ, cột điện, vật hiện đại",
         "extra": ('"co_ngua": <true nếu có con ngựa nhìn thấy trong ảnh>, '
                   '"co_chu_bieu_tuong": <true nếu cờ, biển, áo hoặc vật nào có chữ, ký tự hay biểu tượng nhìn rõ; cờ phải trơn một màu>, '
                   '"bao_luc": <true nếu thấy máu, người bị chém, bị đâm, thi thể hoặc cảnh giết>, '),
@@ -106,7 +106,7 @@ def kiem_tra_mot(k, ma, sc, anh, spec, beats, ref):
         review.STAGE = old
 
 
-def danh_gia(r, n_exp, ma=""):
+def danh_gia(r, n_exp, ma="", vang=False):
     """Trả về (loi_nang, ghi_chu): loi_nang là danh sách lý do bắt buộc vẽ lại."""
     why = []
     if r.get("tre_con"):
@@ -123,6 +123,11 @@ def danh_gia(r, n_exp, ma=""):
         why.append("chữ lạ")
     if r.get("lac_de"):
         why.append("lạc đề")
+    try:
+        if vang and int(r.get("so_nguoi_thay", 0)) > 0:
+            why.append(f"có người trong cảnh phải vắng người ({r.get('so_nguoi_thay')} người)")
+    except Exception:
+        pass
     for fld, ly_do in series(ma).get("cac_loi", {}).items():
         if r.get(fld):
             why.append(ly_do)
@@ -160,7 +165,7 @@ def main():
             continue
         named = [n for n in anh[k].get("nv", []) if n in spec.get("nhan_vat", {})
                  and not any(w in spec["nhan_vat"][n].lower() for w in ("ship", "boat", "tug", "dogs", "shelter"))]
-        r["_ly_do"] = danh_gia(r, len(named), ma)
+        r["_ly_do"] = danh_gia(r, len(named), ma, anh[k].get("so_nguoi") == 0)
         res[k] = r
         print(f"{k}: điểm {r.get('diem')} · {'; '.join(r['_ly_do']) or 'ổn'} · {r.get('ghi_chu', '')[:80]}", flush=True)
         if (i + 1) % 25 == 0:

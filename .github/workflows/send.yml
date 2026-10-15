@@ -18,6 +18,10 @@ on:
         description: "Chỉ gửi ảnh bìa video dài thiết kế trong assets/bia (yes / no)"
         required: false
         default: "no"
+      hau_to:
+        description: "Hậu tố tên bản trên Releases (vd: -thu để gửi bản video-TQ2-thu)"
+        required: false
+        default: ""
       bo_qua_kiem_tra:
         description: "Vẫn gửi cả khi bản tự kiểm tra báo LỖI (yes / no)"
         required: false
@@ -48,7 +52,8 @@ jobs:
           for item in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
             id="${item%%:*}"; part="${item#*:}"; [ "$part" = "$item" ] && part="all"
             mkdir -p "output/$id"
-            gh release download "video-$id" --dir "output/$id" --clobber || { echo "Không có Releases cho $id"; continue; }
+            gh release download "video-$id${{ inputs.hau_to }}" --dir "output/$id" --clobber || { echo "Không có Releases cho $id"; continue; }
+            cp assets/bia/$id/*.jpg "output/$id/" 2>/dev/null || true   # ưu tiên ảnh bìa thiết kế riêng (assets/bia)
             if [ "$part" != "dai" ] && [ -f "output/$id/$id.mp4" ]; then echo "$id" >> ci_outputs.txt; fi
             if [ "$part" != "ngan" ] && [ -f "output/$id/${id}_dai.mp4" ]; then echo "$id" >> ci_long.txt; fi
           done
@@ -61,6 +66,7 @@ jobs:
           GUI_LAI: ${{ inputs.gui_lai }}
           POST_ONLY: ${{ inputs.chi_bai_viet }}
           COVER_ONLY: ${{ inputs.chi_bia }}
+          HAU_TO: ${{ inputs.hau_to }}
         run: bash send_telegram.sh
       - name: Ghi sổ đã gửi
         if: always()

@@ -4,16 +4,16 @@ Soạn từ `tam-quoc-tap-3-kich-ban.md` (kịch bản chờ chủ kênh duyệt
 
 ## Quy ước phân nhóm (chủ kênh chốt, áp dụng mọi tập; ghi ở `CLAUDE.md`)
 
-- **Nhóm A — Veo:** chỉ các cảnh chính có **người di chuyển nhiều** (hành quân, hàng quân, dàn trận, đám đông, người bước đi). Làm bằng Google Flow / Veo, ảnh → video.
+- **Nhóm A — Veo (mỗi tập tối thiểu 20 clip):** chỉ các cảnh chính có **người di chuyển nhiều** (hành quân, hàng quân, dàn trận, đám đông, người bước đi). Làm bằng Google Flow / Veo, ảnh → video.
 - **Nhóm B — tool dựng đang có (`anim_nhe.py`, không dùng AI):** cảnh vật, đồ vật, cảnh vắng người; chỉ cây cỏ, cờ, nước, lửa, khói, đèn, sương chuyển động nhẹ.
 - **Còn lại — ảnh tĩnh:** cảnh người đứng yên hoặc có tương tác tay; dùng chuyển máy chậm sẵn của tool dựng, không làm clip.
 
 ## Cần bao nhiêu
 
 - **Ảnh tĩnh: 85 ảnh** (mỗi lời kể một ảnh, mỗi ảnh dùng một lần). Video ngắn dùng lại 9 ảnh, không vẽ thêm. Lưu `assets/anh_2d/TQ3/001.jpg` … `085.jpg`.
-- **Veo (nhóm A): 12 clip**, lưu `assets/clips_2d/TQ3/NNN.mp4`.
+- **Veo (nhóm A): 20 clip**, lưu `assets/clips_2d/TQ3/NNN.mp4`.
 - **Hoạt hình nhẹ (nhóm B): 19 cảnh**, chạy `python anim_nhe.py TQ3 <số ảnh,…>` sau khi có ảnh; cần tạo `ke-hoach/nhan-vat/TQ3_nhe.json` (khung vùng chuyển động chọn tay khi đã có ảnh, như `TQ2_nhe.json`).
-- **Giữ ảnh tĩnh:** 54 ảnh.
+- **Giữ ảnh tĩnh:** 46 ảnh.
 - **Ảnh bìa:** tạm hoãn.
 
 ## Cách vẽ ảnh
@@ -23,7 +23,7 @@ Soạn từ `tam-quoc-tap-3-kich-ban.md` (kịch bản chờ chủ kênh duyệt
 - Nhân vật mới cần khóa mặt trước (vẽ một ảnh rồi làm tham chiếu): Tôn Kiên, Lữ Bố, Hồ Chẩn, Viên Thuật, Đinh Nguyên, Vương Doãn, Hàn Phức, Tổ Mậu.
 - Cảnh nhạy cảm xử lý bằng cảnh vắng người hoặc nhìn từ sau: giết Thiếu đế (ảnh 014), chém Hoa Hùng (037, 039), đốt Lạc Dương (043), đào lăng (044), Tôn Kiên chết (055 đến 057), Lữ Bố giết Đổng Trác (075, 076). Không máu, không cảnh chém, không vẽ ngựa cận cảnh.
 
-## Nhóm A — Veo (12 clip, người di chuyển nhiều)
+## Nhóm A — Veo (20 clip, người di chuyển nhiều)
 
 Chọn "Frames to Video", tải ảnh làm khung đầu, 16:9, 8 giây hoặc ngắn nhất, tắt âm nếu có. Dán tiền tố rồi dán prompt. Mỗi ảnh một clip. Làm thử 3 clip (ảnh 026, 062, 036) trước.
 
@@ -35,18 +35,26 @@ Chọn "Frames to Video", tải ảnh làm khung đầu, 16:9, 8 giây hoặc ng
 
 | Ảnh | Câu | Cảnh | Prompt chuyển động (dán sau tiền tố) |
 |---|---|---|---|
+| 008 | 9 | Lu Bu seen from behind standing in a dark doorway at night, tall, spear upright in his hand, exactly one… | Slow push-in behind him as he steps forward through the doorway into the corridor at a steady pace, the torch flames flicker and shadows shift, his cloak sways. No face visible. |
+| 009 | 10 | ranks of capital guard soldiers standing in a stone courtyard at dawn, spears upright, seen from behind… | Slow push-in behind the foreground officer, the ranks of guards stand firm and their spear tips sway slightly in unison, plain banners flutter, dawn light brightens, dust drifts across the courtyard. |
+| 016 | 17 | waist-up of Yuan Shao standing on a wooden platform with plain coloured banners behind him, proud face,… | Very slow push-in toward the platform, the plain banners behind him ripple in the wind, he stands still and breathes, dust drifts in the background. |
 | 017 | 18 | rows of idle soldiers sitting around cold cooking pots in a hillside camp, seen from behind one seated… | Slow push-in, thin smoke curls up from the cooking pots, the seated soldiers shift their weight slightly, banners flutter, the foreground man stays seated and breathes. |
+| 018 | 19 | waist-up of Sun Jian with a red cloth headband, strong determined face looking toward the north, exactly… | Very slow push-in, his red headband and sleeves move in the wind, mist drifts over the hills behind, he stands still and breathes. |
 | 019 | 20 | a small river boat on the Qiantang river with a seventeen-year-old youth standing at the bow and his… | Slow lateral drift along the river, the boat rocks very slightly, ripples spread on the water, mist drifts, the two people stay in place. |
+| 021 | 22 | Sun Jian seen from behind on a hilltop looking down at a wide river valley at dawn, exactly one man, no… | Slow push-in behind him as he strides a few steps along the hilltop, his cloak and headband stream in the wind, mist rolls through the valley below. No face visible. |
+| 022 | 23 | waist-up of Yuan Shu at a city gate with a bundle on his shoulder looking back anxiously, exactly one man,… | Slow lateral tracking as he walks out through the city gate at a steady pace with the bundle on his shoulder, the gate flags flutter, dust rises at his feet. |
 | 026 | 27 | wide view of Han foot soldiers scattered on a dusty plain with enemy ranks approaching from the far side,… | Slow lateral drift to the right, dust rolls across the field, the distant enemy ranks advance a few steps in unison, spear tips tilt together, banners flutter. |
 | 027 | 28 | a small knot of about ten men pushing through a thin line of soldiers in a thick dust cloud, wide shot, no… | Slow push-in, thick dust swirls, the small group presses forward together through the thin line, spears sway, nobody comes forward into the foreground. |
 | 029 | 30 | a dusty narrow dirt shortcut leading into hills in the foreground, a distant dust cloud of pursuers on the… | Static camera with a slow push-in, the dust cloud on the plain drifts and rolls, grass sways at the roadside, clouds drift. |
 | 032 | 33 | soldiers forming ranks again on a field at dusk, a tall red banner at the front, seen from behind, no… | Slow push-in, the ranks stand firm while spear tips and the tall red banner sway in the wind, dust glows orange in the dusk light. |
 | 036 | 37 | a column of soldiers breaking ranks and stumbling on a road, dust, banners tilting, wide shot, no horses,… | Slow tracking shot along the column, the soldiers stumble and bunch up in unison, dust rises, banners tilt and flutter. |
 | 037 | 38 | Sun Jian seen from behind standing on a mound with a spear upright, in front of him only dust and plain… | Slow push-in behind him, dust and smoke drift across the field in front, the banners flutter, he stays still and breathes. |
+| 053 | 54 | a coalition hillside camp with banners of many plain colours, two commanders standing apart with their… | Slow lateral drift along the ridge, the many coloured banners flap in the wind, tent canvas ripples, the two men stay still. |
 | 059 | 60 | tents being taken down and loaded on carts in a coalition camp, soldiers packing, no horses, seen from far | Slow lateral drift along the camp, canvas ripples, the soldiers move boxes onto the carts at the same slow pace, banners flutter, dust drifts. |
 | 062 | 63 | a stone bridge over a river with two armies on opposite banks, blue banners on the left bank and red on… | Slow descending crane move over the river, the two armies hold their ranks on the banks, banners flutter, spear tips sway, morning mist drifts. |
 | 071 | 72 | a young maidservant seen from behind carrying a small oil lamp along a palace corridor at night, exactly… | Slow push-in behind her, the lamp flame flickers and shadows shift on the walls, she walks forward at a steady pace. |
 | 073 | 74 | palace gate guards in plain uniforms lined up at a gate, seen from behind, torch light, nobody fighting | Slow push-in, the torch flames flicker, the guards stand still and breathe, banners ripple. |
+| 080 | 81 | waist-up of Guan Yu and Zhang Fei standing watch at a tent door at night with torches, exactly two men,… | Very slow push-in, torch flames flicker and change the light on their faces, the spears stay upright, they breathe and do not move their arms. |
 
 ## Nhóm B — hoạt hình nhẹ bằng tool dựng (`anim_nhe.py`, không dùng AI)
 
@@ -74,9 +82,8 @@ Không dùng Veo hay Kaggle (video AI giật, dễ biến dạng). Chạy `pytho
 | 083 | 84 | khói mỏng, con quạ, tro bay |
 | 085 | 86 | cỏ ven đường, sương, nắng lên |
 
-## Giữ ảnh tĩnh (54 ảnh)
+## Giữ ảnh tĩnh (46 ảnh)
 
-Ảnh: 001, 002, 005, 006, 007, 008, 009, 010, 011, 012, 013, 015, 016, 018, 020, 021, 022, 023, 024, 025, 028, 031, 033, 034, 035, 038, 039, 040, 046, 047, 048, 049, 050, 051, 052, 053, 056, 057, 060, 061, 063, 064, 065, 067, 068, 069, 070, 072, 075, 076, 077, 078, 080, 084.
+Ảnh: 001, 002, 005, 006, 007, 010, 011, 012, 013, 015, 020, 023, 024, 025, 028, 031, 033, 034, 035, 038, 039, 040, 046, 047, 048, 049, 050, 051, 052, 056, 057, 060, 061, 063, 064, 065, 067, 068, 069, 070, 072, 075, 076, 077, 078, 084.
 
 Đây là cảnh người đứng yên hoặc có tay cầm vật; không làm clip để khỏi biến dạng.
-

@@ -1,25 +1,28 @@
 
-===== TQ2: kiểm tra kịch bản trước khi dựng =====
-   (chưa kiểm tra được kịch bản TQ2:dai trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
-
 ===== TQ2 (video dài) =====
 ▶️  Video dài TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác | Tam Quốc theo chính sử, tập 2
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ2.json
   🖼️  Ảnh cho video dài
   🔍 Kiểm tra 85 ảnh: 12 ảnh lỗi, 4 ảnh cần xem
-❌ Video dài TQ2: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ2_dai_kiemtra.txt):
-  011.jpg: Lời kể miêu tả nhân vật dẫn lính tới nhà trạm và xông vào, nhưng ảnh chỉ vẽ đơn độc một người đang mở cửa nhà trạm, hoàn toàn không có lính đi theo. → Vẽ thêm một số binh lính đứng phía sau nhân vật chính để phù hợp với ngữ cảnh 'dẫn lính tới nhà trạm, xông vào'.
-  013.jpg: Lời kể nói về việc trói đốc bưu trên giường hoặc trói rồi đánh gậy, nhưng ảnh minh họa lại vẽ một người đứng cầm gậy và một người ngồi dưới đất, không có chi tiết bị trói. → Vẽ lại cảnh nhân vật đang trói viên đốc bưu vào giường hoặc đang thực hiện việc trạt phạt bằng gậy theo đúng nội dung lời kể.
-  028.jpg: Lời kể đề cập đến Quan Vũ và Trương Phi làm Biệt bộ tư mã, nhưng ảnh AI vẽ hai nhân vật có khuôn mặt, trang phục và kiểu tóc gần như y hệt nhau, không thể hiện được đặc điểm nhận dạng truyền thống của Quan Vũ (râu dài) và Trương Phi. → Sửa lại ảnh minh họa để phân biệt rõ ràng hai nhân vật Quan Vũ và Trương Phi theo đúng miêu tả lịch sử và văn hóa dân gian (ví dụ: Quan Vũ có râu dài đẹp, Trương Phi có râu quai nón rậm và vóc dáng dữ dằn hơn).
-  034.jpg: Lời kể chỉ nhắc đến 'hai người' ở lại và đi cùng nhau, nhưng ảnh lại vẽ ba nhân vật nam đứng cạnh nhau (rất có thể là minh họa cho kết quả kết nghĩa vườn đào Tam Quốc trong tiểu thuyết), sai lệch so với ý nghĩa 'hai người' theo chính sử được kể trong đoạn văn. → Thay đổi ảnh minh họa chỉ có đúng hai người để khớp với lời kể.
-  035.jpg: Ảnh vẽ rõ khuôn mặt của nhân vật lịch sử có thật (Quan Vũ hoặc Trương Phi) khi nhắc đến việc họ lần lượt mất theo lời kể. → Thay đổi ảnh bằng cách vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc chỉ minh họa không khí tang tóc, đồ vật kỷ niệm thay vì vẽ rõ khuôn mặt.
-  076.jpg: Ảnh hiển thị rõ khuôn mặt của nhân vật lịch sử (có thể là Quan Vũ hoặc Trương Phi theo ngữ cảnh lời kể), vi phạm quy định không được để lộ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối không thấy rõ mặt.
-  044.jpg: Lời kể nói về hoàng đế Lưu Biện lên ngôi khi còn rất trẻ, nhưng ảnh minh họa lại vẽ một nhân vật có khuôn mặt già nua, nhăn nheo, không phù hợp với miêu tả 'còn rất trẻ'. → Vẽ nhân vật Lưu Biện với khuôn mặt trẻ trung hơn để phù hợp với bối cảnh lên ngôi khi còn rất trẻ.
-  049.jpg: Ảnh vẽ cận cảnh khuôn mặt của nhân vật lịch sử (có thể là Viên Thiệu hoặc tướng lĩnh thời Tam Quốc), vi phạm quy định không được để lộ rõ khuôn mặt nhân vật lịch sử có thật. → Thay bằng ảnh góc rộng, nhân vật quay lưng, ở xa hoặc trong bóng tối không thấy rõ mặt.
-  066.jpg: Ảnh AI tạo ra có lỗi giải phẫu rõ rệt ở bàn tay của nhân vật chính ngồi ở tiền cảnh (các ngón tay bị biến dạng, dính vào nhau kỳ lạ). → Dùng AI tạo lại ảnh với đôi bàn tay được vẽ chính xác hoặc thay thế bằng một góc chụp khác.
-  083.jpg: Bản đồ ở giữa bức ảnh có hình dạng địa lý vô lý, giống hình lục địa châu Âu lai tạp vô nghĩa do AI tạo ra thay vì bản đồ Trung Quốc thời Tam Quốc, đồng thời các ký tự trên giáp trụ và bản đồ là chữ cái vô nghĩa. → Thay thế bằng bản đồ khu vực miền bắc Trung Quốc thời Tam Quốc hoặc khung cảnh hai tướng lĩnh bàn chuyện quân sự mà không có bản đồ bị lỗi.
-  069.jpg: Ảnh vẽ rõ khuôn mặt của Lưu Bị (nhân vật lịch sử có thật), điều này vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để minh họa cho phân cảnh.
-  070.jpg: Nhân vật đang cầm một chiếc bút chì gỗ hiện đại để viết. → Thay thế bút chì hiện đại bằng bút lông hoặc ống bút phù hợp với thời kỳ lịch sử.
+  🎙️  Giọng Gemini Sadaltager (15 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (9s)
+     🎙️  Gemini đọc xong 1 chương (12s)
+     🎙️  Gemini đọc xong 1 chương (9s)
+  ⏱️  Thời lượng 08:53 · 85 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-15 15:42:13.629461025 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     85/85 ảnh có độ sâu
+  🎞️  32 cảnh có clip chuyển động
+     12812 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (197 giây)
+     … 6/12 đoạn (305 giây)
+     … 9/12 đoạn (467 giây)
+     … 12/12 đoạn (488 giây)
+     dựng khung hình xong trong 489 giây
+  🏷️  Đã gắn logo kênh vào góc trên bên phải
+  🔈 Âm lượng cuối: -14.8 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-flash-lite-latest)
+✅ Video dài: TQ2_dai.mp4 (08:53)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): TQ2
+Xong video ngắn: - · video dài: TQ2

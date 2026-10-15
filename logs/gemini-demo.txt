@@ -10,3 +10,10 @@ Còn trái tim thứ ba, to hơn hẳn! Nó bơm máu giàu oxy đi khắp cơ t
 == Sadaltager ==
    [gemini] dùng gemini-3.8-flash-tts (interactions)
 OK Sadaltager
+
+== Charon ==
+OK Charon
+
+== Puck ==
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Puck

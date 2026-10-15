@@ -32,7 +32,7 @@ def seg(i, k, text, dur, clip, out, work):
         sh("ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(clip), "-vf", vf, "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-pix_fmt", "yuv420p", str(out))
     else:
         n = int(dur * FPS)
-        vf = (f"scale=2560:-1,zoompan=z='1+0.06*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS},{dt}")
+        vf = (f"scale=7680:-1,zoompan=z='1+0.06*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS},{dt}")
         sh("ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(ROOT / "assets" / "anh_2d" / ID / f"{k}.jpg"), "-vf", vf, "-an",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-pix_fmt", "yuv420p", str(out))
 
@@ -55,7 +55,7 @@ def main():
             i = len(jobs)
             jobs.append((i, k, b["text"], dur, clip, work / f"{i:03d}.mp4", work))
             rows.append((k, "nhe" if clip and clip == lt else ("veo" if clip else "tinh"), dur))
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(6) as ex:
         list(ex.map(lambda a: seg(*a), jobs))
     lst = work / "list.txt"
     lst.write_text("".join(f"file '{j[5]}'\n" for j in jobs))

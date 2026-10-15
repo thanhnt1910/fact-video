@@ -1,24 +1,7 @@
-Vẽ 85 ảnh (đợt 0)
-     🖥️  Gửi 85 tranh sang Kaggle (GPU miễn phí)
+Cần vẽ 27 ảnh (đợt 2)
+     🖥️  Gửi 27 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️  38.2 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (38 phút)
-     🖥️  Nhận về 85/85 tranh từ Kaggle
-Nhận về 85/85 ảnh
-== Kiểm ảnh (vòng 0) ==
-   001: điểm 5 · ổn
-   002: điểm 3 · giải phẫu: ngón tay cầm chén rượu hơi cứng
-   004: điểm 3 · ổn
-   008: điểm 3 · ổn
-   009: điểm 3 · thừa người (9 thay vì 1)
-   015: điểm 4 · ổn
-   039: điểm 3 · ổn
-Vòng 0: 2 ảnh lỗi / 85: 002,009
-Vẽ 2 ảnh (đợt 1)
-     🖥️  Gửi 2 tranh sang Kaggle (GPU miễn phí)
-     🖥️   0.5 phút: .running
-     🖥️   5.1 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (5 phút)
-     🖥️  Nhận về 2/2 tranh từ Kaggle
-Nhận về 2/2 ảnh
-== Kiểm ảnh (vòng 1) ==
+     🖥️  15.9 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (16 phút)
+     🖥️  Nhận về 27/27 tranh từ Kaggle
+Nhận về 27/27 ảnh

@@ -39,7 +39,7 @@ Khác tập 1: **ưu tiên cảnh quân đội, đánh trận và cảnh có ng�
 | 016 | Lưu Bị xin ghi tên đi lính | Slow push-in, the long line of waiting men shuffles forward by a small step, banners and cloth flutter, the seated officer and Liu Bei stay almost still. |
 | 027 | Lưu Bị nhậm chức, dân huyện đón | Slow push-in, the lines of townspeople and officials hold their bows, the river in the background glides slowly, clouds drift, Liu Bei stands still and breathes. |
 
-**Đã làm xong từ Veo (đã lưu ở `assets/clips_2d/TQ2/`):** 018, 021, 025, 052, 056, 059, 061, 064. **Còn lại của Nhóm A:** 016, 027, 065, 066, 067, 075, 079, 081 (067 hiện đang là clip thử Wan, nên thay bằng clip Veo).
+**Đã làm xong từ Veo (đã lưu ở `assets/clips_2d/TQ2/`):** 016, 018, 021, 025, 052, 056, 059, 061, 064, 065, 066, 067, 075, 079, 081 (15/16). **Còn lại:** 027 (Veo từ chối vì vi phạm chính sách; để ảnh tĩnh hoặc dùng hoạt hình nhẹ).
 
 ## Nhóm B — cảnh có người, chuyển động nhẹ (làm sau nhóm A, cần soi kỹ)
 

@@ -17,6 +17,13 @@ def main():
     sc = json.loads((ROOT / "scripts" / f"{sid}.json").read_text(encoding="utf-8"))
     canh = sc["long"]["bia"]["canh"]
     items = []
+    if "master" in canh:  # một ảnh vuông duy nhất, cắt ra cả khổ rộng và dọc -> nhân vật giống hệt nhau
+        for i in range(4):
+            items.append({"key": str(921 + i), "w": 1536, "h": 1536, "prompt": f'{canh["master"]} {STYLE}'})
+        out = ROOT / "ke-hoach" / "nhan-vat" / f"{sid}BIA_anh.json"
+        out.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
+        print("ok", out, len(items))
+        return
     for i in range(3):
         items.append({"key": str(901 + i), "w": 1344, "h": 768, "prompt": f'{canh["rong"]} {STYLE}'})
         items.append({"key": str(911 + i), "w": 768, "h": 1344, "prompt": f'{canh["doc"]} {STYLE}'})

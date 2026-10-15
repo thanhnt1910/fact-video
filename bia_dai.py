@@ -28,7 +28,7 @@ def main_moi(sid, script, b, cfg):
             page.goto((ROOT / "templates" / "bia2.html").as_uri())
             o = {"anh": (ROOT / anh).as_uri(), "huy_hieu": t["huy_hieu"], "dong1": t["dong1"], "dong2": t["dong2"],
                  "gach": t.get("gach", False), "dong3": t["dong3"], "kenh": cfg.get("channel", ""), "mode": mode,
-                 "vi_tri": t.get("vi_tri")}
+                 "vi_tri": t.get("vi_tri_doc" if mode == "v" else "vi_tri_rong") or t.get("vi_tri")}
             page.evaluate("o => window.setup(o)", o)
             page.wait_for_timeout(500)
             page.screenshot(path=str(out / name), type="jpeg", quality=93)

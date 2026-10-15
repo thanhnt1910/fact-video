@@ -158,18 +158,11 @@
     "bat": true,
     "file": "assets/logo/nguoi-gac-su.png",
     "dai": {
-      "goc": "phai",
-      "rong": 150,
-      "le": 34,
-      "tren": 30,
-      "do_dam": 0.9
-    },
-    "ngan": {
-      "goc": "phai",
+      "goc": "trai",
       "rong": 130,
-      "le": 36,
-      "tren": 150,
-      "do_dam": 0.9
+      "le": 44,
+      "tren": 34,
+      "do_dam": 0.6
     }
   }
 }

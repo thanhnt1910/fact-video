@@ -561,7 +561,7 @@ def build(script, cfg, out_dir):
                 raise RuntimeError(f"thiếu clip chuyển động: {s['clip']}")
             outc = work / f"clip_{src_clip.stem}.mp4"
             subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(src_clip), "-an",
-                            "-vf", "crop=iw*0.95:ih*0.95:0:0,scale=1920:1080:flags=lanczos,fps=24",
+                            "-vf", ("" if "_nhe" in src_clip.parent.name else "crop=iw*0.95:ih*0.95:0:0,") + "scale=1920:1080:flags=lanczos,fps=24",
                             "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-pix_fmt", "yuv420p", str(outc)], check=True)
             s["clip_path"] = str(outc)
     if any(s.get("clip_path") for s in vis):

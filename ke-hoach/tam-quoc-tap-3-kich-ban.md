@@ -25,11 +25,11 @@ Ký hiệu độ chắc của từng câu (giữ bốn nhãn của tập 2, thê
 - Lữ Bố truyện (Wikisource, quyển 7), chính văn: Lữ Bố người quận Ngũ Nguyên, huyện Cửu Nguyên; làm chủ bộ cho Đinh Nguyên, được đối đãi thân hậu; chém đầu Đinh Nguyên đem tới Trác, Trác cho làm kỵ đô úy, rất yêu tin, thề làm cha con; có lần Trác chỉ vì chút không vừa ý đã rút kích ném Bố; Bố tư thông với thị tỳ của Trác, sợ bị phát hiện nên không yên lòng; cùng Vương Doãn mưu giết Trác và tự tay đâm Trác. Trang này KHÔNG có chữ Hổ Lao và KHÔNG nhắc Quan Vũ. Lưu Bị và Trương Phi chỉ xuất hiện ở một chú Anh hùng ký thuộc giai đoạn sau (Lữ Bố đánh bại quân Trương Phi, bắt gia quyến Lưu Bị), không liên quan liên quân năm 190. => câu 11, 58, 59, 62 giờ là [TQC], giữ lại được. Mình đã bỏ chi tiết "nổi tiếng sức mạnh" ở câu 11 và "ông tránh được, mang lòng oán" ở câu 58 vì không thấy trong đoạn trích đọc được; hai chi tiết đó có thể có trong nguyên văn đầy đủ, cần mở lại nếu muốn thêm.
 - Viên Thiệu truyện (Tứ khố toàn thư, Ngụy chí quyển 6), chính văn: Viên Thiệu cùng Ký Châu mục Hàn Phức lập U Châu mục Lưu Ngu làm hoàng đế, sai sứ dâng biểu, Ngu "không dám nhận"; quân Hàn Phức ở An Bình bị Công Tôn Toản đánh bại, Toản đem quân vào Ký Châu "lấy danh nghĩa thảo Trác"; Phức lo sợ, xin Thiệu cho rời đi, đến nương Trương Mạc. Chú Anh hùng ký: Phức vốn nhút nhát; Viên Thiệu tự đi đánh Toản, hợp chiến ở phía nam Giới Kiều hai mươi dặm. => câu 49 đến 51 giờ dựa trên chính văn và chú, không còn dựa Wikipedia. Mình đã bỏ ba ý chỉ có ở Wikipedia: Lưu Ngu "nói mình trung với Hiến đế", "Viên Thiệu chiếm Ký Châu của Hàn Phức", "Công Tôn Toản tuyên chiến Viên Thiệu". Trang trích đọc được không ghi rõ lúc nào Ký Châu về tay Viên Thiệu.
 - Tiên chủ truyện: chỉ đọc được qua một bản dịch tiếng Anh trên diễn đàn the-scholars.com (trang 7 trong 14, bị cắt giữa chừng). Bản dịch ấy xác nhận: Công Tôn Toản tâu xin cho Lưu Bị làm Biệt bộ tư mã; Lưu Bị làm lệnh, rồi tướng Bình Nguyên; cùng Điền Giai chống Viên Thiệu; chính văn đoạn này không kể liên quân, Hổ Lao, Dương Nhân hay Hoa Hùng. Có một chú ngắn dẫn Anh hùng ký nói Lưu Bị dấy binh theo cuộc thảo Đổng Trác (câu 54 mới thêm, vì không có câu này thì câu 53 dễ bị hiểu là Lưu Bị hoàn toàn vắng mặt).
-- Quan Vũ truyện và Trương Phi truyện: KHÔNG mở được nguyên văn (Wikisource không tải được, ctext.org chặn công cụ nên mình không dùng). Chỉ có hai điểm gián tiếp: trang Wikipedia tiếng Anh về Quan Vũ không đặt ông vào liên quân, Hổ Lao hay Tứ Thủy, và nói khi Lưu Bị làm tướng Bình Nguyên thì Quan Vũ, Trương Phi làm Biệt bộ tư mã (chú thích không gắn nguồn cụ thể); trang Wikipedia danh sách chi tiết hư cấu liệt kê Hổ Lao như chuyện của tiểu thuyết. Vì vậy câu 29, 53, 67 vẫn đang là "cần kiểm Quan Vũ truyện". Câu 53 đã viết lại theo hướng an toàn: "chính văn không kể Quan Vũ làm gì ở Dương Nhân hay Lạc Dương", không khẳng định Quan Vũ vắng mặt.
+- Quan Vũ truyện và Trương Phi truyện: KHÔNG mở được nguyên văn (đã thử lại lần hai, vẫn không tải được; đoạn mở đầu do chủ kênh dán khớp với những gì mình nhớ, gồm "Biệt bộ tư mã, phân thống bộ khúc, ân như anh em", nhưng mình chưa tự đối chiếu được trang gốc) (Wikisource không tải được, ctext.org chặn công cụ nên mình không dùng). Chỉ có hai điểm gián tiếp: trang Wikipedia tiếng Anh về Quan Vũ không đặt ông vào liên quân, Hổ Lao hay Tứ Thủy, và nói khi Lưu Bị làm tướng Bình Nguyên thì Quan Vũ, Trương Phi làm Biệt bộ tư mã (chú thích không gắn nguồn cụ thể); trang Wikipedia danh sách chi tiết hư cấu liệt kê Hổ Lao như chuyện của tiểu thuyết. Vì vậy câu 29, 53, 67 vẫn đang là "cần kiểm Quan Vũ truyện". Câu 53 đã viết lại theo hướng an toàn: "chính văn không kể Quan Vũ làm gì ở Dương Nhân hay Lạc Dương", không khẳng định Quan Vũ vắng mặt.
 
 CHƯA đối chiếu được (còn lại):
 - Quan Vũ truyện và Trương Phi truyện, nguyên văn chữ Hán (câu 28, 29, 53, 67). Cần chủ kênh dán từ Wikisource hoặc từ sách.
-- Hậu Hán thư / Tư trị thông giám: việc Hồ Chẩn và Lữ Bố bất hòa dẫn tới quân rối loạn (câu 25, 27). Phần Anh hùng ký trong chú Tôn Kiên truyện đã xác nhận Hồ Chẩn làm đại đốc hộ, Lữ Bố làm kỵ đốc và tin đồn "giặc đã chạy" (câu 24, 26), nhưng "quân rối loạn rồi bị đánh lui" vẫn là [WP].
+- Hậu Hán thư / Tư trị thông giám: việc quân của Hồ Chẩn rối loạn rồi bị đánh lui (câu 27). Chú Anh hùng ký trong Tôn Kiên truyện đã xác nhận (đọc lại ở lượt kiểm sau cùng): Hồ Chẩn làm đại đốc hộ, Lữ Bố làm kỵ đốc; các tướng ghét và e ngại Hồ Chẩn, muốn làm hỏng việc của ông; Lữ Bố cùng đồng bọn loan tin "giặc trong thành Dương Nhân đã bỏ chạy, nên đuổi theo" (câu 24 đến 26, 65). Chính văn Tôn Kiên truyện KHÔNG nhắc Hồ Chẩn hay Lữ Bố ở Dương Nhân, chỉ chép: thu quân, hợp chiến ở Dương Nhân, đại phá quân Trác, chém đô đốc Hoa Hùng. Câu "quân rối loạn rồi bị đánh lui" vẫn là [WP].
 - Vũ Đế kỷ (Tào Tháo) không đọc lại cho tập này vì tập 2 đã dùng; tập 3 không thêm chi tiết mới về Huỳnh Dương.
 - Câu 36 (Lạc Dương làm kinh đô hơn một trăm sáu mươi năm): kiến thức chung, tính từ năm hai mươi lăm đến một trăm chín mươi.
 - Hổ Lao là địa danh thật (cửa ải ở Thành Cao): kiến thức chung, chưa dẫn nguồn (câu 33, 66).
@@ -41,7 +41,7 @@ CHƯA đối chiếu được (còn lại):
 |---|---|---|
 | Ai chém Hoa Hùng | Quan Vũ, hâm rượu chưa nguội [TT] | Tôn Kiên, ở Dương Nhân [TQC] |
 | Hoa Hùng là ai | Mãnh tướng trấn ải, chém nhiều tướng liên quân [TT] | Đô đốc của Đổng Trác, tên nằm trong truyện Tôn Kiên [TQC] |
-| Lữ Bố ở trận nào | Hổ Lao, bị ba anh em vây đánh [TT] | Dương Nhân, cùng Hồ Chẩn, bất hòa, quân rối loạn [CG, WP] |
+| Lữ Bố ở trận nào | Hổ Lao, bị ba anh em vây đánh [TT] | Dương Nhân, cùng Hồ Chẩn; các tướng ghét Hồ Chẩn, Lữ Bố cùng đồng bọn loan tin giả [CG]; quân rối loạn [WP] |
 | Điêu Thuyền | Con nuôi Vương Doãn, mưu giết Đổng Trác [TT] | Không có; chỉ có một thị tỳ không tên [WP] |
 | Cái chết của Đổng Trác | Do mỹ nhân kế [TT] | Do Vương Doãn, Sĩ Tôn Thụy, Lữ Bố mưu, Lữ Bố ra tay [TQC] |
 
@@ -82,7 +82,7 @@ CHƯƠNG 3: Một lần bị vây
 
 CHƯƠNG 4: Dương Nhân
 24. Lần này Đổng Trác sai hai người đi chặn ông: Hồ Chẩn làm đại đốc hộ, Lữ Bố làm kỵ đốc. [CG]
-25. Vấn đề là hai người này không hợp nhau, và chú giải chép lại chuyện ấy khá kỹ. [CG, WP]
+25. Vấn đề là các tướng của Đổng Trác ghét và e ngại Hồ Chẩn, muốn làm hỏng việc của ông ta. Chú giải chép lại chuyện ấy khá kỹ. [CG]
 26. Theo Anh hùng ký, Lữ Bố cùng những người khác loan tin rằng giặc trong thành Dương Nhân đã bỏ chạy, phải đuổi theo ngay. [CG]
 27. Các nguồn kể rằng quân của Hồ Chẩn vì thế rối loạn, và bị Tôn Kiên đánh lui. [WP, HHT, cần kiểm]
 28. Còn Tam quốc chí chép cả trận ấy bằng một câu: Tôn Kiên hợp chiến ở Dương Nhân, đánh tan quân Trác, chém đô đốc Hoa Hùng. [TQC]
@@ -132,7 +132,7 @@ CHƯƠNG 8: Trường An và ổ Mi
 
 CHƯƠNG 9: Lời kết
 64. Tóm lại: người chém Hoa Hùng là Tôn Kiên, ở Dương Nhân. [TQC]
-65. Lữ Bố có mặt ở trận ấy, nhưng không phải để đấu ba anh em. Theo chú giải, ông bất hòa với đồng đội. [CG] (Lữ Bố truyện không nhắc Quan Vũ lẫn Hổ Lao.)
+65. Lữ Bố có mặt ở trận ấy, nhưng không phải để đấu ba anh em. Theo chú giải, ông cùng các tướng khác ghét và e ngại người chỉ huy của mình, Hồ Chẩn. [CG] (Lữ Bố truyện không nhắc Quan Vũ lẫn Hổ Lao.)
 66. Hổ Lao có thật là một cửa ải, nhưng cảnh ba người đánh Lữ Bố ở đó không có trong sử. [WP, cần kiểm]
 67. Và Quan Vũ không chém Hoa Hùng. Ông ở bên Lưu Bị, ở những nơi mà sử gần như không ghi tên. [TQC, BÌNH, cần kiểm Quan Vũ truyện]
 68. Tiểu thuyết đã làm một việc rất khéo: lấy chiến công của người này, đặt vào tên người kia. [BÌNH]
@@ -144,7 +144,7 @@ CHƯƠNG 9: Lời kết
 ## KỊCH BẢN VIDEO NGẮN (9 lời kể, ước tính khoảng một phút)
 1. Trong tiểu thuyết, Quan Vũ hâm rượu chém Hoa Hùng, rồi ba anh em vây đánh Lữ Bố ở Hổ Lao. [TT]
 2. Nhưng Tam quốc chí chỉ chép một câu: Tôn Kiên đánh tan quân Đổng Trác ở Dương Nhân, chém đô đốc Hoa Hùng. [TQC]
-3. Lữ Bố có mặt ở đó, nhưng không phải để đấu ba người. Chú giải kể ông bất hòa với đồng đội, và quân của Hồ Chẩn rối loạn. [CG, WP]
+3. Lữ Bố có mặt ở đó, nhưng không phải để đấu ba người. Chú giải kể các tướng ghét Hồ Chẩn, và Lữ Bố cùng đồng bọn loan tin giặc đã bỏ chạy. Quân của Hồ Chẩn rối loạn. [CG, WP]
 4. Rồi Đổng Trác dời đô về Trường An và đốt Lạc Dương. [TQC]
 5. Tôn Kiên vào thành đổ nát, sửa lại các lăng, và theo một bản chú, vớt được truyền quốc tỷ từ một cái giếng. [TQC, CG]
 6. Còn Quan Vũ? Chính văn không kể ông làm gì ở đó. Ông đang ở bên Lưu Bị, ở phía bắc. [TQC, cần kiểm]

@@ -7,7 +7,8 @@ KIỂM TRA ẢNH TQ1 · video dài · 46 ảnh (số thứ tự khớp lưới �
 ✅ 5 (ảnh mô phỏng AI) ·  005.jpg
 ✅ 6 (ảnh mô phỏng AI) ·  042.jpg
 ❌ 7 (ảnh mô phỏng AI) ·  020.jpg
-     ❌ Nhân vật trong ảnh được vẽ với khuôn mặt quá già (như một ông lão), không phù hợp với giai đoạn thời niên thiếu và khởi đầu của Lưu Bị theo mạch truyện. → Điều chỉnh lại tạo hình nhân vật trẻ trung hơn để phù hợp với bối cảnh khởi đầu.
+     ❌ Ảnh minh họa nhân vật có các vật phẩm trên bàn gồm một ống tiêu (hoặc sáo) và một tấm vải gấp, không phù hợp với nội dung đang nhắc đến việc khởi đầu tay trắng của Lưu Bị theo chính sử hay việc bán giày cỏ. → Thay thế bằng hình ảnh minh họa phù hợp với nhân vật bắt đầu từ tay trắng hoặc đang đan, bán giày cỏ.
+     ❌ Bàn tay phải của nhân vật AI tạo bị lỗi giải phẫu rõ rệt (ngón tay dài kỳ lạ và biến dạng). → Sửa lại bàn tay cho đúng giải phẫu hoặc tạo lại ảnh mới.
 ✅ 8 (ảnh mô phỏng AI) ·  006.jpg
 ✅ 9 (ảnh mô phỏng AI) ·  007.jpg
 ✅ 10 (ảnh mô phỏng AI) ·  014.jpg
@@ -18,20 +19,21 @@ KIỂM TRA ẢNH TQ1 · video dài · 46 ảnh (số thứ tự khớp lưới �
 ✅ 14 (ảnh mô phỏng AI) ·  011.jpg
 ✅ 15 (ảnh mô phỏng AI) ·  037.jpg
 ✅ 16 (ảnh mô phỏng AI) ·  012.jpg
-✅ 17 (ảnh mô phỏng AI) ·  013.jpg
+❌ 17 (ảnh mô phỏng AI) ·  013.jpg
+     ❌ Nhân vật trong ảnh đang cầm một cây gậy có gắn lửa ở đầu (hoặc đuốc) nhưng tư thế cầm và hình dáng ngọn lửa bất hợp lý, ngọn lửa mọc lơ lửng ngay cạnh khung cửa sổ chứ không phải trên đầu gậy. → Sửa lại chi tiết ngọn lửa trên cây đuốc cho tự nhiên hoặc vẽ nhân vật đang nhìn ra cửa sổ khi kế hoạch bị lộ.
 ✅ 18 (ảnh mô phỏng AI) ·  015.jpg
 ✅ 19 (ảnh mô phỏng AI) ·  016.jpg
-✅ 20 (ảnh mô phỏng AI) ·  017.jpg
+❌ 20 (ảnh mô phỏng AI) ·  017.jpg
+     ❌ Trang phục của hai nhân vật mang phong cách kimono buộc đai của Nhật Bản thay vì trang phục truyền thống Trung Hoa thời Hán. → Điều chỉnh trang phục của nhân vật nam và mẹ thành áo khoác vạt chéo kiểu Hán phục thời nhà Hán.
+     ⚠️ Lộ rõ khuôn mặt của nhân vật lịch sử Lưu Bị trong ảnh minh họa do AI tạo. → Vẽ nhân vật ở góc khuất, quay lưng hoặc che khuất khuôn mặt theo đúng quy định.
 ❌ 21 (ảnh mô phỏng AI) ·  018.jpg
      ❌ Lời kể đề cập chi tiết đặc biệt 'tay dài quá gối', nhưng nhân vật trong ảnh có đôi tay ngắn bình thường, không vươn qua đầu gối. → Điều chỉnh hình ảnh AI để vẽ tay nhân vật dài qua đầu gối đúng như mô tả trong lời kể.
 ✅ 22 (ảnh mô phỏng AI) ·  019.jpg
-⚠️ 23 (ảnh mô phỏng AI) ·  038.jpg
-     ⚠️ Ảnh vẽ rõ khuôn mặt của một nhân vật lịch sử có thật (danh tướng Lư Thực), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để minh họa vị tướng đang cầm quân.
+✅ 23 (ảnh mô phỏng AI) ·  038.jpg
 ✅ 24 (ảnh mô phỏng AI) ·  021.jpg
 ❌ 25 (ảnh mô phỏng AI) ·  022.jpg
      ❌ Lời kể nhắc đến thời điểm Lưu Bị 'hồi nhỏ' (thời niên thiếu), nhưng hình ảnh lại vẽ một người đàn ông trưởng thành hoặc lớn tuổi đứng cạnh cây dâu và ngôi nhà. → Cần sửa lại hình ảnh nhân vật Lưu Bị thành một cậu bé để phù hợp với chi tiết 'hồi nhỏ' trong lời kể.
-❌ 26 (ảnh mô phỏng AI) ·  023.jpg
-     ❌ Bàn tay phải của đứa trẻ đang chỉ lên cây có cấu trúc ngón tay bất thường (lỗi AI tạo hình) → Tạo lại ảnh với bàn tay của đứa trẻ có các ngón tay bình thường
+✅ 26 (ảnh mô phỏng AI) ·  023.jpg
 ✅ 27 (ảnh mô phỏng AI) ·  024.jpg
 ✅ 28 (ảnh mô phỏng AI) ·  025.jpg
 ✅ 29 (ảnh mô phỏng AI) ·  026.jpg
@@ -50,8 +52,9 @@ KIỂM TRA ẢNH TQ1 · video dài · 46 ảnh (số thứ tự khớp lưới �
 ✅ 40 (ảnh mô phỏng AI) ·  043.jpg
 ✅ 41 (ảnh mô phỏng AI) ·  039.jpg
 ✅ 42 (ảnh mô phỏng AI) ·  040.jpg
-✅ 43 (ảnh mô phỏng AI) ·  041.jpg
+❌ 43 (ảnh mô phỏng AI) ·  041.jpg
+     ❌ Ảnh AI tạo có chữ viết vô nghĩa/lạ trên tờ giấy nhỏ mà hai nhân vật đang cầm. → Dùng AI tạo lại ảnh với tờ giấy trống hoặc có chữ Hán mang nghĩa phù hợp thay vì các ký tự vô nghĩa.
 ❌ 44 (ảnh mô phỏng AI) ·  044.jpg
-     ❌ Nhân vật chính trong ảnh là một người trung niên lớn tuổi có râu, không phù hợp với hình tượng Lưu Bị thời trẻ khi nhậm chức ở An Hỉ. → Vẽ nhân vật Lưu Bị trẻ tuổi hơn, đúng với giai đoạn lịch sử được nhắc đến trong lời kể.
+     ❌ Nhân vật trong ảnh là một người lớn tuổi có râu quai nón, không phù hợp với hình ảnh Lưu Bị trẻ tuổi ở huyện An Hỉ trong lời kể. → Vẽ lại nhân vật Lưu Bị với diện mạo trẻ trung hơn khi làm huyện lệnh An Hỉ.
 ✅ 45 (ảnh mô phỏng AI) ·  045.jpg
 ✅ 46 (ảnh mô phỏng AI) ·  046.jpg

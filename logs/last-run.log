@@ -3,31 +3,13 @@
 ▶️  Video dài TQ1: Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông? | Tam Quốc theo chính sử, tập 1
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 21 tranh AI → logs/nguon_anh_TQ1.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 46 ảnh: 9 ảnh lỗi, 1 ảnh cần xem
+  🔍 Kiểm tra 46 ảnh: 11 ảnh lỗi, 0 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (15 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (10s)
-     🎙️  Gemini đọc xong 1 chương (11s)
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (12s)
-     🎙️  Gemini đọc xong 1 chương (9s)
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (13s)
-     🎙️  Gemini đọc xong 1 chương (11s)
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (9s)
-     🎙️  Gemini đọc xong 1 chương (8s)
-  ⏱️  Thời lượng 08:25 · 65 cảnh ảnh
+  ⏱️  Thời lượng 08:25 · 46 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
      46/46 ảnh có độ sâu
-  🎞️  19 cảnh có clip chuyển động
+  🎞️  13 cảnh có clip chuyển động
      12136 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (138 giây)
-     … 6/12 đoạn (222 giây)
-     … 9/12 đoạn (329 giây)
-     … 12/12 đoạn (348 giây)
-     dựng khung hình xong trong 349 giây
-  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.2 dBTP
-✅ Video dài: TQ1_dai.mp4 (08:25)
-
-Xong video ngắn: - · video dài: TQ1
+     … 3/12 đoạn (197 giây)
+     … 6/12 đoạn (304 giây)
+     … 9/12 đoạn (408 giây)

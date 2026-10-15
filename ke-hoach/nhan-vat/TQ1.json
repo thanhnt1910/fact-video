@@ -11,7 +11,8 @@
   "thuongnhan": "a wealthy horse merchant in his forties, round face, short beard, good quality indigo robe with a jade pendant at the belt",
   "tuongquan": "a Han army commander in his forties, stern face, short beard, iron scale armour over a red robe, plain helmet",
   "docbuu": "a provincial inspector in his fifties, thin arrogant face, small moustache, official black cap and formal pale-grey robe",
-  "dan": "a poor peasant man, thin, sunburnt, ragged hemp tunic, hair in a topknot"
+  "dan": "a poor peasant man, thin, sunburnt, ragged hemp tunic, hair in a topknot",
+  "luthuc": "Lu Zhi, an elderly Confucian scholar of about 60, white topknot and long white beard, kind stern eyes, plain pale-grey scholar's robe"
  },
  "canh": [
   {
@@ -389,6 +390,204 @@
    ],
    "so_nguoi": 1,
    "mo_ta": "waist-up of Liu Bei seen from behind walking out through a county gate at dawn with a small bundle, exactly one man, road ahead empty"
+  },
+  {
+   "key": "047",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a quiet dirt road winding through misty low hills at dawn, a faint pink sky, distant bare trees, a single milestone of plain stone at the roadside"
+  },
+  {
+   "key": "048",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a square jade imperial seal with a carved dragon-shaped handle resting on a red lacquered stand, soft palace window light, a rolled silk scroll beside it"
+  },
+  {
+   "key": "049",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a heap of strings of bronze coins on a lacquered table beside a black official's cap and a rolled appointment scroll, candlelight, dark palace room"
+  },
+  {
+   "key": "050",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a plain wooden bowl of clear water on a low rough table with a square sheet of yellow paper beside it, a bundle of dry herbs, soft morning light through a thatched doorway"
+  },
+  {
+   "key": "051",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "long strips of yellow cloth folded in neat piles on a wooden table, a bundle of yellow headbands tied with cord, a clay oil lamp, dim room"
+  },
+  {
+   "key": "052",
+   "nv": [
+    "dan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a dusty exhausted messenger in a plain travelling tunic gripping a tied bamboo-slip scroll with his one visible hand, running along a road, exactly one man, far arm hidden behind his body"
+  },
+  {
+   "key": "053",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a distant wooden fortress wall burning at night with orange flames and black smoke rising into a dark sky, a dry empty field in front"
+  },
+  {
+   "key": "054",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small household shrine shelf in a humble thatched home with a plain bronze incense bowl and a few plain unmarked wooden tablets, faint smoke, warm lamp light"
+  },
+  {
+   "key": "055",
+   "nv": [
+    "me"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei's mother alone sitting by an oil lamp, weaving a reed mat, her face lit warmly, exactly one woman, her far hand hidden behind the mat"
+  },
+  {
+   "key": "056",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in three-quarter side view turning his head slightly toward the camera so his large earlobe is visible, calm face, exactly one man, both arms hidden at his sides out of frame"
+  },
+  {
+   "key": "057",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a fine embroidered silk robe in deep red and gold hanging on a wooden rack beside a pair of neat cloth shoes and a small bronze bell, soft indoor light"
+  },
+  {
+   "key": "058",
+   "nv": [
+    "luthuc"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of an elderly scholar teacher sitting at a low desk with a stack of bamboo-slip books in front of him, one hand holding a brush, the other hand hidden under the desk, exactly one man"
+  },
+  {
+   "key": "059",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a ceremonial horse carriage with a round feathered canopy like a great umbrella parked at the gate of a mansion, morning light, no horses"
+  },
+  {
+   "key": "060",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a clay oil lamp burning on a low wooden table beside a folded blanket in a dark quiet room, warm small flame, deep shadows"
+  },
+  {
+   "key": "061",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small herd of brown horses standing in a wooden fenced paddock at a market town, hazy morning, seen from a distance"
+  },
+  {
+   "key": "062",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an open wooden chest filled with strings of bronze coins on a plain wooden table, a thin ray of light falling on the coins"
+  },
+  {
+   "key": "063",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small army camp at dawn: a few plain spears stuck upright in the ground, a black iron cooking pot over a dying fire, grey smoke"
+  },
+  {
+   "key": "064",
+   "nv": [
+    "tuongquan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a Han colonel in iron scale armour reading a bamboo scroll at a desk, serious look, exactly one man, the free hand hidden under the desk"
+  },
+  {
+   "key": "065",
+   "nv": [
+    "hoangcan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of one Yellow Turban fighter with a yellow headband, determined fierce face, a plain spear held upright in front of him with his one visible hand, exactly one man, far arm hidden behind the spear"
+  },
+  {
+   "key": "066",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "three tall plain solid-red battle banners planted on a dry grassy hill under a clear sky, flags blowing in the wind"
+  },
+  {
+   "key": "067",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a battlefield at dawn after the fight: broken wooden spears, torn yellow cloth, a toppled cart wheel, low drifting smoke, grey sky"
+  },
+  {
+   "key": "068",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a plain wooden coffin on bare muddy ground in light rain, an iron nail and a lid leaning beside it, grey sky"
+  },
+  {
+   "key": "069",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a bamboo-slip report tied with cord lying on a wooden floor beside a brush and a small ink stone, soft side light"
+  },
+  {
+   "key": "070",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small bronze official seal and a plain black county official's cap on a modest wooden desk, in a bare room, window light"
+  },
+  {
+   "key": "071",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty courtyard of a small county government office seen through a doorway, grey tiled roofs, one lone tree, late afternoon"
+  },
+  {
+   "key": "072",
+   "nv": [
+    "tuongquan"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of two Han army commanders in armour facing each other across a table with a large painted map between them, tense expressions, exactly two men, their outer arms hidden"
+  },
+  {
+   "key": "073",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a tiger-shaped bronze military tally split into two halves lying on a dark wooden table, candlelight, a rolled map beside it"
+  },
+  {
+   "key": "074",
+   "nv": [
+    "liubei"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "Liu Bei seen from behind and slightly above, sitting small at a desk in the middle of a large empty county office hall, exactly one man, both arms hidden in front of him"
+  },
+  {
+   "key": "075",
+   "nv": [
+    "docbuu"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a provincial inspector tied by a rope around his chest to a wooden post, shocked humiliated face, exactly one man, his arms hidden behind the post"
+  },
+  {
+   "key": "076",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long plain wooden beating cane leaning against the wall of a county office beside a coil of rope, grey light"
   }
  ],
  "ngan": [

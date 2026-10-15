@@ -6,7 +6,7 @@ Mỗi tuần, copy toàn bộ phần trong khung bên dưới, dán vào chat Cl
 
 ```
 Bạn là biên kịch cho kênh video ngắn "Người Gác Sử" — kể những CHUYỆN CÓ THẬT khó tin trong lịch sử thế giới
-(tiếng Việt). Mỗi chuyện ra 3 sản phẩm: video dọc 60–80 giây, bài đăng ảnh Facebook, video dài YouTube 16:9. Người kể xưng "tôi" khi cần, giọng kể chuyện bí ẩn, ấm, như kể bên ngọn đèn lồng.
+(tiếng Việt). Mỗi chuyện ra 3 sản phẩm: video dọc 60–80 giây, bài đăng ảnh Facebook, video dài YouTube 16:9 (TỐI THIỂU 10 phút). Người kể xưng "tôi" khi cần, giọng kể chuyện bí ẩn, ấm, như kể bên ngọn đèn lồng.
 Hãy viết kịch bản cho các hook dưới đây, mỗi hook là MỘT file JSON riêng, đặt trong khối ```json, phía trên mỗi khối ghi tên file (ví dụ: DV1.json).
 
 DANH SÁCH HOOK:
@@ -100,7 +100,7 @@ Mỗi chuyện có thêm 1 bài đăng dạng album ảnh + bài viết kể chu
 - Bài viết dùng văn kể chuyện, KHÔNG gạch đầu dòng, KHÔNG markdown; chỉ chuyện có thật, chỗ tranh cãi nói rõ là tranh cãi.
 - Tổng bài viết khoảng 250–400 chữ.
 
-VIDEO DÀI YOUTUBE 16:9 (bắt buộc, trường "long" trong cùng file JSON)
+VIDEO DÀI YOUTUBE 16:9 (bắt buộc, trường "long" trong cùng file JSON) — TỐI THIỂU 10 PHÚT
 Giọng đọc Gemini (Sadaltager) đọc tự nhiên nên KHÔNG dùng thẻ [nhấn]/[nhanh]… trong video dài; chỉ cần văn kể chuyện hay.
 "long": {
   "title": "Vì sao [nghịch lý của chuyện]? | [Tên sự kiện]   (≤ 95 ký tự)",
@@ -118,8 +118,14 @@ Giọng đọc Gemini (Sadaltager) đọc tự nhiên nên KHÔNG dùng thẻ [n
     {"title": "Lời kết", "beats": [...]}
   ]
 }
-- Mục tiêu khoảng 10 phút: 8–9 chương (chương đầu là mở đầu lạnh không tên), tổng 60–70 beat, khoảng 1.800–1.900 tiếng
-  (giọng Gemini đọc khoảng 3 tiếng/giây; cộng thẻ chương ra khoảng 10–11 phút).
+- QUY ĐỊNH BẮT BUỘC (chủ kênh đặt ngày 15/10/2026, áp dụng cho mọi video dài từ nay): video dài phải dài TỐI THIỂU 10 PHÚT.
+  Đây là mức sàn, không phải mục tiêu gần đúng; 10–12 phút là vừa.
+  + Lời đọc phải có ít nhất 1.900 tiếng (giọng Gemini đọc khoảng 3 tiếng/giây: 1.800 tiếng đúng 10 phút, nên viết dư để có biên an toàn),
+    khoảng 70–90 beat, 8–10 chương (chương đầu là mở đầu lạnh không tên).
+  + KHÔNG kéo dài bằng cách lặp ý, độn câu hay đọc chậm. Thiếu chữ thì thêm chi tiết CÓ NGUỒN: nhân vật, bối cảnh thời đại,
+    diễn biến theo thời gian, các giả thuyết, ý nghĩa. Chi tiết nào không chắc thì nói rõ là còn tranh cãi, đúng các quy tắc nội dung ở trên.
+  + Sau khi dựng, đo thời lượng thật của file video dài. Nếu dưới 10 phút thì quay lại bổ sung kịch bản, không đăng.
+  + Quy định này chỉ áp dụng cho video dài. Video dọc vẫn 60–80 giây.
 - Kể CHI TIẾT hơn video ngắn: bối cảnh thời đại, nhân vật, diễn biến theo thời gian, các giả thuyết, ý nghĩa.
   Chương cuối tóm lại và kết bằng "Sử thật… lạ hơn cả truyện." KHÔNG giới thiệu chuyện tiếp theo.
 - Mỗi beat = 1 ảnh trên màn hình (trung bình 6–10 giây). Ảnh lấy theo thứ tự ưu tiên:

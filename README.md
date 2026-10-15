@@ -28,6 +28,8 @@ Không cần cài ffmpeg riêng, bộ công cụ tự tải kèm.
 
 **Mẹo:** muốn xem nhanh 1 video trước khi dựng bản đẹp, **kéo thả file `.json` vào `xem-truoc.bat`**. Bản xem trước nhỏ hơn, dựng nhanh gấp khoảng 3 lần.
 
+**Quy định thời lượng (chủ kênh đặt ngày 15/10/2026):** mọi **video dài YouTube phải dài tối thiểu 10 phút**, tức lời đọc từ khoảng **1.900 tiếng** trở lên (giọng Gemini đọc khoảng 3 tiếng/giây). Video dọc vẫn 60–80 giây. Quy định đầy đủ nằm ở mục "VIDEO DÀI" trong `PROMPT_KICH_BAN.md`. Lưu ý: bước tự kiểm tra `review.py` hiện vẫn chấp nhận video dài trong khoảng 6–15 phút (dòng `lo, hi = (55, 90) if kind == "ngan" else (360, 900)`), nên máy chưa tự chặn video dài dưới 10 phút. Hãy tự xem thời lượng trong `output\<mã>\`, hoặc nhờ Claude đổi ngưỡng đó.
+
 ---
 
 ## 3. Kết quả trong `output\<mã>\`

@@ -166,6 +166,8 @@ script = {
   "description": "Năm 184, hàng chục vạn người quấn khăn vàng nổi dậy, nhà Hán bắt đầu sụp đổ. Giữa lúc ấy, một người bán giày cỏ ở huyện Trác tập hợp được hai người bạn và một nhóm quân nhỏ. Tập 1 của series Tam Quốc theo chính sử: không phép thuật, không vườn đào, chỉ những gì Tam quốc chí và Hậu Hán thư chép lại.",
   "voice": "Sadaltager",
   "music": "none",
+  "bia": {"anh": img("026"), "nen": img("031"), "huy_hieu": "TAM QUỐC CHÍNH SỬ · TẬP 1", "dong1": "KHÔNG CÓ", "dong2": "VƯỜN ĐÀO", "gach": True,
+          "dong3": "Lưu Bị <b>thật sự</b> khởi đầu thế nào?"},
   "chapters": chapters,
  },
  "binh_luan": {

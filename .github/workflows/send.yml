@@ -14,6 +14,10 @@ on:
         description: "Chỉ gửi bài đăng Facebook (chữ + ảnh), không gửi video (yes / no)"
         required: false
         default: "no"
+      chi_bia:
+        description: "Chỉ gửi ảnh bìa video dài thiết kế trong assets/bia (yes / no)"
+        required: false
+        default: "no"
       bo_qua_kiem_tra:
         description: "Vẫn gửi cả khi bản tự kiểm tra báo LỖI (yes / no)"
         required: false
@@ -34,7 +38,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          : > ci_outputs.txt; : > ci_long.txt
+          : > ci_outputs.txt; : > ci_long.txt; : > ci_cover.txt
+          if [ "${{ inputs.chi_bia }}" = "yes" ]; then
+            for item in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
+              id="${item%%:*}"; mkdir -p "output/$id"; cp assets/bia/$id/*.jpg "output/$id/" && echo "$id" >> ci_cover.txt
+            done
+            exit 0
+          fi
           for item in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
             id="${item%%:*}"; part="${item#*:}"; [ "$part" = "$item" ] && part="all"
             mkdir -p "output/$id"
@@ -50,6 +60,7 @@ jobs:
           FORCE_SEND: ${{ inputs.bo_qua_kiem_tra }}
           GUI_LAI: ${{ inputs.gui_lai }}
           POST_ONLY: ${{ inputs.chi_bai_viet }}
+          COVER_ONLY: ${{ inputs.chi_bia }}
         run: bash send_telegram.sh
       - name: Ghi sổ đã gửi
         if: always()

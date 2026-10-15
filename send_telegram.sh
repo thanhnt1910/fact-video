@@ -52,6 +52,16 @@ send_post() {
   send_covers "🖼️ Ảnh bài đăng Facebook $id (đăng theo thứ tự 1, 2, 3...)" $imgs
   python3 da_gui.py mark "$id" post
 }
+# Chế độ chỉ gửi ảnh bìa video dài (ảnh thiết kế trong assets/bia)
+if [ "$COVER_ONLY" = "yes" ]; then
+  while read -r id || [ -n "$id" ]; do
+    [ -z "$id" ] && continue
+    send_covers "🖼️ Ảnh bìa video dài $id (thiết kế mới): _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
+      "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_thumbnail_fb.jpg"
+  done < ci_cover.txt
+  exit 0
+fi
+
 if [ -s ci_outputs.txt ] && [ "$POST_ONLY" = "yes" ]; then
   while read -r id || [ -n "$id" ]; do [ -n "$id" ] && send_post "$id"; done < ci_outputs.txt
 elif [ -s ci_outputs.txt ]; then

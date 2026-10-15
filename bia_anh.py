@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 STYLE = ("vivid saturated painterly digital illustration with a manga-inspired look, dramatic cinematic lighting, strong rim light, "
          "rich warm and cool colour contrast, sharp detailed faces, realistic adult proportions, authentic Eastern Han dynasty clothing and objects, "
-         "epic movie-poster composition, every person has exactly two arms and two hands, no text, no letters, no numerals, no watermark, no modern objects")
+         "epic cinematic composition, every person has exactly two arms and two hands, no text, no letters, no numerals, no watermark, no modern objects")
 
 
 def main():
@@ -19,7 +19,7 @@ def main():
     items = []
     if "master" in canh:  # một ảnh vuông duy nhất, cắt ra cả khổ rộng và dọc -> nhân vật giống hệt nhau
         for i in range(4):
-            items.append({"key": str(921 + i), "w": 1536, "h": 1536, "prompt": f'{canh["master"]} {STYLE}'})
+            items.append({"key": str(931 + i), "w": 1536, "h": 1536, "prompt": f'{canh["master"]} {STYLE}'})
         out = ROOT / "ke-hoach" / "nhan-vat" / f"{sid}BIA_anh.json"
         out.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
         print("ok", out, len(items))

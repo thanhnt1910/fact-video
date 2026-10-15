@@ -1,14 +1,7 @@
 Cần vẽ 4 ảnh (đợt 1)
      🖥️  Gửi 4 tranh sang Kaggle (GPU miễn phí)
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/ve_anh_2d.py", line 48, in <module>
-    main()
-  File "/home/runner/work/fact-video/fact-video/ve_anh_2d.py", line 40, in main
-    res = kaggle_draw.draw_batch(jobs, out, model="klein", timeout_min=150)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 207, in draw_batch
-    _kaggle(["kernels", "push", "-p", str(work / "k")], env)
-  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 180, in _kaggle
-    raise RuntimeError(f"kaggle {' '.join(args[:2])}: {(r.stderr or r.stdout)[-500:]}")
-RuntimeError: kaggle kernels push: 400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
-
+     🖥️   0.5 phút: .running
+     🖥️   8.7 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (9 phút)
+     🖥️  Nhận về 4/4 tranh từ Kaggle
+Nhận về 4/4 ảnh

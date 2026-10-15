@@ -48,7 +48,6 @@ Khác tập 1: **ưu tiên cảnh quân đội, đánh trận và cảnh có ng�
 | 019 | Lưu Bị rời gian sảnh trống | Static camera, grey light shifts slowly through the window, he stands in the doorway and breathes slightly, dust floats in the light. |
 | 031 | Quan Vũ, Trương Phi đứng canh lều | Very slow push-in, torch flames flicker and change the light on their faces, the spears stay upright, they breathe and do not move their arms. |
 | 033 | Quan Vũ, Trương Phi bên đống lửa | Slow push-in, the campfire flames dance and light their faces unevenly, sparks rise, they stay seated and still. |
-| 034 | Ba anh em dưới cây đào | Very slow push-in, peach blossoms fall and drift across the frame, soft light shifts, the three men stay still with heads bowed. |
 | 040 | Ba người ăn chung một nồi | Static camera, steam curls up from the pot, the small lamp flame flickers softly, the three men breathe and stay seated. |
 | 041 | Ba bóng người đi về phía hoàng hôn | Slow forward dolly behind the three men as they walk side by side, dust rises at their feet, the sunset glow brightens slowly. |
 | 050 | Hai thiếu niên bên bờ sông đêm | Static camera with a slow push-in from behind, reeds sway, moonlight shimmers on the water, the two boys stand still and breathe. |
@@ -58,6 +57,31 @@ Khác tập 1: **ưu tiên cảnh quân đội, đánh trận và cảnh có ng�
 | 051 | Đổng Trác đứng giữa doanh | Very slow push-in, his cloak moves in a light wind, dust drifts behind him, he stays still. |
 | 053 | Đổng Trác và vị vua trẻ | Very slow push-in, light flickers across the room, the two men stay still and breathe. |
 | 062 | Lưu Bị nhìn về ải Hổ Lao | Slow push-in behind him, mist drifts across the valley toward the far pass, his clothes move slightly in the wind. |
+
+## Nhóm D — hoạt hình nhẹ, không dùng AI (`anim_nhe.py`, 16 cảnh, không trùng Nhóm A và B)
+
+Cảnh chỉ có chuyển động nhỏ của cây cỏ, hoa, cờ, nước, lửa: **không dùng Veo hay Kaggle**, vì video AI bị giật và dễ biến dạng. `python anim_nhe.py TQ2 <số>` dịch chính các điểm ảnh của bức tranh theo một hàm sóng liên tục (1080p, 24 fps, 8 giây), người và vật cứng đứng yên. Cấu hình vùng chuyển động: `ke-hoach/nhan-vat/TQ2_nhe.json`.
+
+| Ảnh | Phần chuyển động |
+|---|---|
+| 004 | cành cây trơ, cỏ ven đường |
+| 006 | ngọn đèn dầu, ánh sáng chớp nhẹ |
+| 009 | hai ngọn nến |
+| 010 | tán cây, cỏ trước nhà |
+| 012 | cỏ trên cánh đồng quanh cột mốc |
+| 013 | hai ngọn đuốc |
+| 015 | tán cây, cỏ bên đường |
+| 022 | tán cây dâu, cỏ |
+| 034 | hoa đào |
+| 042 | lá cờ ở tháp cổng, cỏ |
+| 047 | ngọn nến |
+| 063 | hai lá cờ trên thành, cỏ |
+| 071 | tán cây dâu, cỏ |
+| 078 | tấm vải đen treo ở lều |
+| 082 | mặt sông, cây bên bờ |
+| 085 | ngọn nến |
+
+Ảnh 016, 056, 065, 079 vốn cũng có cờ, lửa, nước nhưng thuộc Nhóm A (có người, có quân), nên giữ ở Nhóm A, không làm hoạt hình nhẹ.
 
 ## Nhóm C — KHÔNG làm clip (giữ ảnh tĩnh)
 

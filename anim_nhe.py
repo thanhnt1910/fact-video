@@ -68,8 +68,16 @@ def render(ma, key, spec, bao_cao=False, dur=8.0, hau_to=""):
     img = load(src)
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     layers = []
+    Y0, X0 = np.mgrid[0:H, 0:W].astype(np.float32)
     for L in spec["lop"]:
-        layers.append((L, layer_mask(hsv, L)))
+        G = None
+        if L.get("halo"):                            # quầng sáng tròn mềm quanh ngọn nến/đèn (không dùng lọc màu)
+            G = np.zeros((H, W), np.float32)
+            for x0, y0, x1, y1 in L["vung"]:
+                gx, gy = (x0 + x1) / 2 * W, (y0 + y1) / 2 * H
+                sx, sy = max(8.0, (x1 - x0) * W * 0.9), max(8.0, (y1 - y0) * H * 0.9)
+                G = np.maximum(G, np.exp(-(((X0 - gx) / sx) ** 2 + ((Y0 - gy) / sy) ** 2)))
+        layers.append((L, layer_mask(hsv, L), G))
     n = int(round(dur * FPS))
     Y, X = np.mgrid[0:H, 0:W].astype(np.float32)
     cx, cy = W / 2, H / 2
@@ -94,7 +102,7 @@ def render(ma, key, spec, bao_cao=False, dur=8.0, hau_to=""):
         dx = np.zeros((H, W), np.float32)
         dy = np.zeros((H, W), np.float32)
         bright = np.ones((H, W), np.float32)
-        for L, m in layers:
+        for L, m, G in layers:
             a = float(L.get("bien", 2.5))
             c = float(L.get("nhip", 1))                 # số chu kỳ trong clip (nguyên => lặp khít)
             ph = 2 * np.pi * (c * u + L.get("pha_x", 0.6) * X / W + L.get("pha_y", 0.25) * Y / H)
@@ -113,7 +121,8 @@ def render(ma, key, spec, bao_cao=False, dur=8.0, hau_to=""):
                 ph4 = 2 * np.pi * (c * u + L.get("song", 9.0) * X / W)
                 dy += m * -a * (0.5 + 0.5 * np.sin(ph4))
                 dx += m * a * 0.5 * np.sin(ph4 * 1.7 + 0.4)
-                bright += m * float(L.get("chop", 0.10)) * np.sin(2 * np.pi * (3 * c * u) + 0.9 * X / W * 6)
+                flick = np.sin(2 * np.pi * (3 * c * u) + 0.9 * X / W * 6) + 0.5 * np.sin(2 * np.pi * (5 * c * u) + 1.3)
+                bright += (G if G is not None else m) * float(L.get("chop", 0.10)) * flick
         mx = cx + (X - cx) / z - pan[0] * s + dx
         my = cy + (Y - cy) / z - pan[1] * s + dy
         fr = cv2.remap(img, mx, my, cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
@@ -145,6 +154,7 @@ def main():
     ma = sys.argv[1]
     keys = [k for k in sys.argv[2].split(",") if k]
     bao_cao = "--bao-cao" in sys.argv
+    ngan = "--ngan" in sys.argv                  # chỉ để kiểm tra nhanh: 3 giây
     khong_may = "--khong-may" in sys.argv        # tắt chuyển động máy để kiểm tra riêng vùng gió
     cfg = json.loads((ROOT / "ke-hoach" / "nhan-vat" / f"{ma}_nhe.json").read_text(encoding="utf-8"))
     for k in keys:
@@ -154,7 +164,7 @@ def main():
         spec = dict(cfg["anh"][k])
         if khong_may:
             spec["zoom"], spec["pan"] = 0.0, [0, 0]
-        print(json.dumps(render(ma, k, spec, bao_cao, cfg.get("giay", 8.0), "_khongmay" if khong_may else ""), ensure_ascii=False))
+        print(json.dumps(render(ma, k, spec, bao_cao, 3.0 if ngan else cfg.get("giay", 8.0), "_khongmay" if khong_may else ""), ensure_ascii=False))
 
 
 if __name__ == "__main__":

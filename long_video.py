@@ -406,7 +406,7 @@ def split_shots(shots, shot_max=5.5, min_px=880, log=print):
 TRANSITIONS = ["fade", "push", "whip", "fade", "flash", "zoom", "push", "whip"]
 
 
-def assign_transitions(shots, on=True):
+def assign_transitions(shots, on=True, mode=""):
     """Kiểu chuyển cảnh vào mỗi khung: đầu chương (có nhãn "Phần ...") -> tối dần rồi sáng lại; còn lại luân phiên
     tan ảnh / đẩy ngang / lia nhanh (whip) / lóe sáng / zoom xuyên, không lặp liền nhau."""
     prev = ""
@@ -415,6 +415,8 @@ def assign_transitions(shots, on=True):
             s["tr"] = "fade"
         elif str(s.get("label", "")).startswith("Phần "):
             s["tr"] = "dip"
+        elif mode == "fade":          # video 2D (ảnh tĩnh + clip): chỉ tan ảnh nhẹ, không trượt / lia / lóe
+            s["tr"] = "fade"
         else:
             k = int(hashlib.md5(f"{i}|{s.get('src')}".encode()).hexdigest(), 16) % len(TRANSITIONS)
             tr = TRANSITIONS[k]
@@ -550,7 +552,7 @@ def build(script, cfg, out_dir):
             s["fx"] = ""
     if lc.get("shot_max", 0):     # tắt mặc định (cận cảnh bằng zoom dễ giật, sai chủ thể); dùng thêm ảnh thay thế
         vis = split_shots(vis, float(lc["shot_max"]), log=log)
-    assign_transitions(vis, lc.get("transitions", True))
+    assign_transitions(vis, lc.get("transitions", True), L.get("chuyen_canh", ""))
     # clip chuyển động (Veo, ảnh -> video) đặt ở đầu cảnh: cắt bỏ chữ Veo ở góc, phóng lên 1080p, bỏ tiếng
     for s in vis:
         if s.get("clip"):

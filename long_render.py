@@ -235,6 +235,10 @@ class Compositor:
             cap["n"] = int(cap["v"].get(cv2.CAP_PROP_FRAME_COUNT))
             caps[path] = cap
         n = min(max(0, int(lt * 24 + 0.5)), cap["n"] - 1)
+        if int(lt * 24 + 0.5) >= cap["n"] and cap.get("last") is not None:
+            # hết clip mà cảnh còn dài: giữ khung cuối, thêm lia/zoom rất nhẹ để hình không đứng im
+            extra = (int(lt * 24 + 0.5) - cap["n"]) / 24.0
+            return self._zoom(cap["last"], 1 + min(0.06, 0.006 * extra))
         if n in cap["cache"]:
             return cap["cache"][n]
         if cap["pos"] != n - 1:

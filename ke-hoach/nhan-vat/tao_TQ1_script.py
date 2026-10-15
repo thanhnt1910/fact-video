@@ -119,6 +119,21 @@ CLIPS = {"001","003","005","006","011","015","022","031","037","040","043","044"
 def img(k):
     return f"assets/anh_2d/TQ1/{k}.jpg"
 
+# KHÔNG LẶP ẢNH: mỗi ảnh chỉ xuất hiện đúng một lần. Câu nào trùng ảnh đã dùng (không liền kề) thì giữ ảnh của câu liền trước
+# (cảnh kéo dài, máy quay lướt chậm), clip chuyển động chỉ gắn ở lần đầu.
+_seen, _prev = set(), None
+_CH2 = []
+for _title, _bs in CH:
+    _nb = []
+    _prev0 = _prev
+    for _t, _k in _bs:
+        if _k in _seen and _k != _prev:
+            _k = _prev
+        _seen.add(_k); _prev = _k
+        _nb.append((_t, _k))
+    _CH2.append((_title, _nb))
+CH = _CH2
+
 chapters = []
 cnt = Counter()
 def _split(beats, mx=7):
@@ -131,7 +146,8 @@ for title, beats0 in CH:
     chapters.append({"beats": [dict({"text": t, "ai": "ancient Han China scene, 2D ligne claire", "anh_file": img(k)}, **({"clip_file": f"assets/clips_2d/TQ1/{k}.mp4"} if k in CLIPS else {})) for t, k in beats]})
     for t, k in beats:
         cnt[k] += 1
-assert all(v <= 2 for v in cnt.values()), {k: v for k, v in cnt.items() if v > 2}
+assert all(v <= 1 for v in {k: 0 for k in cnt}.values())
+assert len({k for k in cnt}) == len(set(k for _, bs in CH for _, k in bs))
 for k in cnt:
     assert (ROOT / img(k)).exists(), k
 words = sum(len(t.split()) for _, bs in CH for t, _ in bs)
@@ -161,6 +177,7 @@ script = {
  "giong_them": GIONG,
  "pronounce": {},
  "long": {
+  "chuyen_canh": "fade",
   "title": "Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông? | Tam Quốc theo chính sử, tập 1",
   "title_card": "Tam Quốc chính sử: **Lưu Bị** khởi đầu",
   "description": "Năm 184, hàng chục vạn người quấn khăn vàng nổi dậy, nhà Hán bắt đầu sụp đổ. Giữa lúc ấy, một người bán giày cỏ ở huyện Trác tập hợp được hai người bạn và một nhóm quân nhỏ. Tập 1 của series Tam Quốc theo chính sử: không phép thuật, không vườn đào, chỉ những gì Tam quốc chí và Hậu Hán thư chép lại.",

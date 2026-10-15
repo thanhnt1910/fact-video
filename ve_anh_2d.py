@@ -32,7 +32,7 @@ def main():
                 continue
         elif f.exists():
             continue
-        jobs.append((k, it["prompt"], 1344, 768, int(k) + 1000 * dot))
+        jobs.append((k, it["prompt"], it.get("w", 1344), it.get("h", 768), int(k) + 1000 * dot))
     print(f"Cần vẽ {len(jobs)} ảnh (đợt {dot})")
     if not jobs:
         return

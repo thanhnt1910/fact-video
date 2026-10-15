@@ -1,0 +1,25 @@
+{
+ "_ghi_chu": "Cấu hình hoạt hình nhẹ cho anim_nhe.py. vung = khung [x0,y0,x1,y1] theo tỉ lệ ảnh; mau = lọc màu HSV (hue 0-180). bien = biên độ (pixel ở 1920x1080), nhip = số chu kỳ trong clip.",
+ "giay": 8.0,
+ "anh": {
+  "004": {"zoom": 0.03, "pan": [8, 0], "lop": [
+    {"loai": "gio", "vung": [[0.60, 0.05, 0.92, 0.56]], "bien": 1.6, "nhip": 1, "lam_mem": 61},
+    {"loai": "gio", "mau": {"hue": [[30, 95]], "smin": 40, "vmin": 40}, "vung": [[0.0, 0.78, 0.30, 1.0], [0.72, 0.78, 1.0, 1.0]], "bien": 3.0, "nhip": 2, "pha_x": 2.0}
+  ]},
+  "016": {"zoom": 0.025, "pan": [6, 0], "lop": [
+    {"loai": "co", "mau": {"smin": 70, "vmin": 90}, "vung": [[0.50, 0.0, 1.0, 0.20]], "bien": 3.5, "nhip": 2, "song": 3.0, "lam_mem": 15}
+  ]},
+  "056": {"zoom": 0.025, "pan": [6, 0], "lop": [
+    {"loai": "co", "mau": {"smin": 60, "vmin": 90}, "vung": [[0.0, 0.0, 0.62, 0.22], [0.62, 0.0, 1.0, 0.30]], "bien": 4.0, "nhip": 2, "song": 2.5, "lam_mem": 15}
+  ]},
+  "065": {"zoom": 0.025, "pan": [6, 0], "lop": [
+    {"loai": "lua", "mau": {"hue": [[3, 28]], "smin": 120, "vmin": 150}, "vung": [[0.03, 0.18, 0.95, 0.40]], "bien": 5.0, "nhip": 3, "chop": 0.12, "lam_mem": 21}
+  ]},
+  "079": {"zoom": 0.025, "pan": [6, 0], "lop": [
+    {"loai": "nuoc", "mau": {"hue": [[85, 115]], "smin": 15, "smax": 110, "vmin": 150}, "vung": [[0.0, 0.45, 1.0, 1.0]], "bien": 2.2, "nhip": 2, "song": 16.0, "lam_mem": 21}
+  ]},
+  "034": {"zoom": 0.02, "pan": [5, 0], "lop": [
+    {"loai": "gio", "mau": {"hue": [[160, 180], [0, 6]], "smin": 25, "smax": 140, "vmin": 170}, "vung": [[0.0, 0.0, 1.0, 0.50]], "bien": 3.0, "nhip": 1, "pha_x": 2.5, "lam_mem": 25}
+  ]}
+ }
+}

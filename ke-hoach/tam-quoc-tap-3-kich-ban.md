@@ -9,6 +9,7 @@ Ký hiệu độ chắc của từng câu (giữ bốn nhãn của tập 2, thê
 - [CG] từ chú giải của Bùi Tùng Chi (Anh hùng ký, Ngô thư, Giang biểu truyện, Sơn Dương công tái ký, Ngô lục), đã thấy trích đoạn
 - [HHT] kiến thức về Hậu Hán thư / Tư trị thông giám, CHƯA đối chiếu được nguyên văn
 - [WP] lấy từ tổng hợp trên Wikipedia (có dẫn Tam quốc chí / Hậu Hán thư nhưng mình chưa thấy nguyên văn), cần kiểm trước khi dựng
+- Lưu ý: mọi đoạn chữ Hán mình đọc qua công cụ trích đoạn của trang Wikisource, không phải tự mở trình duyệt; nên mở lại trang gốc trước khi chốt các câu có số liệu.
 - [BÌNH] lời bình của kênh, không đóng khung là trích sử
 - [TT] chi tiết của tiểu thuyết, nói rõ là tiểu thuyết
 
@@ -20,14 +21,19 @@ Ký hiệu độ chắc của từng câu (giữ bốn nhãn của tập 2, thê
 - Đổng Trác truyện (Tam quốc chí, quyển 6, bản Tứ khố toàn thư), chính văn: phế đế làm Hoằng Nông vương, không lâu sau giết cả vương và Hà thái hậu, lập Trần Lưu vương (Hiến đế); sai Lữ Bố giết Chấp Kim Ngô Đinh Nguyên và thu quân, từ đó binh quyền kinh đô chỉ ở Trác; năm Sơ Bình thứ nhất dời thiên tử về Trường An, đốt cung thất Lạc Dương, đào lăng mộ lấy bảo vật; xây ổ Mi cao ngang thành Trường An, tích lương ba mươi năm; Tư đồ Vương Doãn, Thượng thư bộc xạ Sĩ Tôn Thụy cùng tướng của Trác là Lữ Bố mưu giết Trác. Trang này KHÔNG có chữ Hổ Lao (chỉ có "hổ bôn", là một chức danh khác).
 - Lưu ý khi dựng: các đoạn chữ Hán trên đây mình đọc qua công cụ trích đoạn, nên chủ kênh (hoặc mình ở lượt sau) nên mở lại hai trang trước khi chốt câu có số liệu.
 
-CHƯA đối chiếu được:
-- Lữ Bố truyện (quyển 7): xuất thân từ vùng biên phía bắc, nhận làm con nuôi, Trác ném kích vào Lữ Bố, tư thông với thị tỳ của Trác (câu 11, 58, 59). Mình chỉ thấy bản tóm tắt trên Wikipedia, trang Wikisource không tải được. Nếu không kiểm được thì bỏ câu 58 và 59.
+Đã đối chiếu thêm ở lượt kiểm sau (ba mục chủ kênh hỏi):
+- Lữ Bố truyện (Wikisource, quyển 7), chính văn: Lữ Bố người quận Ngũ Nguyên, huyện Cửu Nguyên; làm chủ bộ cho Đinh Nguyên, được đối đãi thân hậu; chém đầu Đinh Nguyên đem tới Trác, Trác cho làm kỵ đô úy, rất yêu tin, thề làm cha con; có lần Trác chỉ vì chút không vừa ý đã rút kích ném Bố; Bố tư thông với thị tỳ của Trác, sợ bị phát hiện nên không yên lòng; cùng Vương Doãn mưu giết Trác và tự tay đâm Trác. Trang này KHÔNG có chữ Hổ Lao và KHÔNG nhắc Quan Vũ. Lưu Bị và Trương Phi chỉ xuất hiện ở một chú Anh hùng ký thuộc giai đoạn sau (Lữ Bố đánh bại quân Trương Phi, bắt gia quyến Lưu Bị), không liên quan liên quân năm 190. => câu 11, 58, 59, 62 giờ là [TQC], giữ lại được. Mình đã bỏ chi tiết "nổi tiếng sức mạnh" ở câu 11 và "ông tránh được, mang lòng oán" ở câu 58 vì không thấy trong đoạn trích đọc được; hai chi tiết đó có thể có trong nguyên văn đầy đủ, cần mở lại nếu muốn thêm.
+- Viên Thiệu truyện (Tứ khố toàn thư, Ngụy chí quyển 6), chính văn: Viên Thiệu cùng Ký Châu mục Hàn Phức lập U Châu mục Lưu Ngu làm hoàng đế, sai sứ dâng biểu, Ngu "không dám nhận"; quân Hàn Phức ở An Bình bị Công Tôn Toản đánh bại, Toản đem quân vào Ký Châu "lấy danh nghĩa thảo Trác"; Phức lo sợ, xin Thiệu cho rời đi, đến nương Trương Mạc. Chú Anh hùng ký: Phức vốn nhút nhát; Viên Thiệu tự đi đánh Toản, hợp chiến ở phía nam Giới Kiều hai mươi dặm. => câu 49 đến 51 giờ dựa trên chính văn và chú, không còn dựa Wikipedia. Mình đã bỏ ba ý chỉ có ở Wikipedia: Lưu Ngu "nói mình trung với Hiến đế", "Viên Thiệu chiếm Ký Châu của Hàn Phức", "Công Tôn Toản tuyên chiến Viên Thiệu". Trang trích đọc được không ghi rõ lúc nào Ký Châu về tay Viên Thiệu.
+- Tiên chủ truyện: chỉ đọc được qua một bản dịch tiếng Anh trên diễn đàn the-scholars.com (trang 7 trong 14, bị cắt giữa chừng). Bản dịch ấy xác nhận: Công Tôn Toản tâu xin cho Lưu Bị làm Biệt bộ tư mã; Lưu Bị làm lệnh, rồi tướng Bình Nguyên; cùng Điền Giai chống Viên Thiệu; chính văn đoạn này không kể liên quân, Hổ Lao, Dương Nhân hay Hoa Hùng. Có một chú ngắn dẫn Anh hùng ký nói Lưu Bị dấy binh theo cuộc thảo Đổng Trác (câu 54 mới thêm, vì không có câu này thì câu 53 dễ bị hiểu là Lưu Bị hoàn toàn vắng mặt).
+- Quan Vũ truyện và Trương Phi truyện: KHÔNG mở được nguyên văn (Wikisource không tải được, ctext.org chặn công cụ nên mình không dùng). Chỉ có hai điểm gián tiếp: trang Wikipedia tiếng Anh về Quan Vũ không đặt ông vào liên quân, Hổ Lao hay Tứ Thủy, và nói khi Lưu Bị làm tướng Bình Nguyên thì Quan Vũ, Trương Phi làm Biệt bộ tư mã (chú thích không gắn nguồn cụ thể); trang Wikipedia danh sách chi tiết hư cấu liệt kê Hổ Lao như chuyện của tiểu thuyết. Vì vậy câu 29, 53, 67 vẫn đang là "cần kiểm Quan Vũ truyện". Câu 53 đã viết lại theo hướng an toàn: "chính văn không kể Quan Vũ làm gì ở Dương Nhân hay Lạc Dương", không khẳng định Quan Vũ vắng mặt.
+
+CHƯA đối chiếu được (còn lại):
+- Quan Vũ truyện và Trương Phi truyện, nguyên văn chữ Hán (câu 28, 29, 53, 67). Cần chủ kênh dán từ Wikisource hoặc từ sách.
+- Hậu Hán thư / Tư trị thông giám: việc Hồ Chẩn và Lữ Bố bất hòa dẫn tới quân rối loạn (câu 25, 27). Phần Anh hùng ký trong chú Tôn Kiên truyện đã xác nhận Hồ Chẩn làm đại đốc hộ, Lữ Bố làm kỵ đốc và tin đồn "giặc đã chạy" (câu 24, 26), nhưng "quân rối loạn rồi bị đánh lui" vẫn là [WP].
 - Vũ Đế kỷ (Tào Tháo) không đọc lại cho tập này vì tập 2 đã dùng; tập 3 không thêm chi tiết mới về Huỳnh Dương.
-- Tiên chủ truyện, Quan Vũ truyện, Trương Phi truyện: cần kiểm câu 29 và 53 ("sử không chép việc cụ thể nào của Quan Vũ ở Dương Nhân hay Lạc Dương"). Wikipedia (tiếng Anh) có nói một chú giải dẫn Anh hùng ký cho rằng ba người có tham gia liên quân nhưng không ghi việc cụ thể. Nếu đúng thì câu 53 vẫn đứng được, vì câu chỉ nói "không chép việc cụ thể", nhưng cần đọc nguyên văn để chắc.
-- Hậu Hán thư / Tư trị thông giám: việc Hồ Chẩn và Lữ Bố bất hòa dẫn tới quân rối loạn (câu 25, 27); chuyện lập Lưu Ngu, Hàn Phức mất Ký Châu, Công Tôn Toản đánh Viên Thiệu (câu 49 đến 51). Tất cả đang là [WP] hoặc [HHT].
-- Câu 36 (Lạc Dương làm kinh đô hơn một trăm sáu mươi năm): tính từ năm hai mươi lăm đến một trăm chín mươi, số này là kiến thức chung, không phải trích sử.
+- Câu 36 (Lạc Dương làm kinh đô hơn một trăm sáu mươi năm): kiến thức chung, tính từ năm hai mươi lăm đến một trăm chín mươi.
 - Hổ Lao là địa danh thật (cửa ải ở Thành Cao): kiến thức chung, chưa dẫn nguồn (câu 33, 66).
-- Điêu Thuyền không có trong chính sử (câu 60): Wikipedia ghi nhân vật hư cấu, cần kiểm lại.
+- Ngày tháng chính xác của việc dời đô và năm mất của Tôn Kiên: các nguồn chép lệch nhau, kịch bản không nêu số cụ thể.
 
 ## SO SÁNH TIỂU THUYẾT VÀ CHÍNH SỬ (dùng làm cảnh compare / đồ họa)
 
@@ -54,7 +60,7 @@ CHƯƠNG 1: Người cầm quân của kinh đô
 8. Trong kinh còn một người có binh quyền là Đinh Nguyên, chức Chấp Kim Ngô, người chỉ huy quân giữ kinh thành. [TQC]
 9. Đổng Trác sai Lữ Bố, người dưới trướng Đinh Nguyên, giết chủ rồi thu luôn quân của ông. [TQC]
 10. Chính văn chép gọn: từ đó, binh quyền ở kinh đô chỉ còn nằm trong tay Đổng Trác. [TQC]
-11. Lữ Bố là người vùng biên phía bắc, nổi tiếng sức mạnh và võ nghệ. Đổng Trác nhận ông làm con nuôi. [WP, cần kiểm Lữ Bố truyện]
+11. Lữ Bố là người quận Ngũ Nguyên, vùng biên giới phía bắc. Khi ông mang đầu Đinh Nguyên tới, Đổng Trác phong ông làm kỵ đô úy, rất tin yêu, và hai bên thề làm cha con. [TQC]
 12. Tập trước đã nói Đổng Trác phế Thiếu đế. Chính văn còn chép thêm: không lâu sau, ông ta giết luôn Thiếu đế và Hà thái hậu. [TQC]
 13. Từ lúc ấy, trong triều không còn ai đủ sức nói "không" với người nắm cả quân đội. [BÌNH]
 
@@ -104,29 +110,29 @@ CHƯƠNG 6: Người chết ở núi Hiện
 
 CHƯƠNG 7: Liên quân tan, và Lưu Bị ở đâu
 48. Ở phía đông, liên quân không còn lý do để ở lại với nhau. Đổng Trác đã đi, và không ai muốn nhường ai. [BÌNH]
-49. Có người muốn tôn Lưu Ngu, một người thuộc tông thất nhà Hán, làm hoàng đế khác. Ông từ chối và nói mình chỉ trung với Hán Hiến đế. [WP, cần kiểm]
-50. Viên Thiệu và Hàn Phức cùng bàn chuyện ấy, rồi sau đó Viên Thiệu chiếm luôn Ký Châu của Hàn Phức. [WP, cần kiểm]
-51. Ở phía bắc, Công Tôn Toản bắt đầu đánh Viên Thiệu. Từ liên minh chống Đổng Trác, thiên hạ chuyển sang cuộc chiến giữa các chư hầu. [WP, cần kiểm]
-52. Và ở đúng chỗ ấy, ta thấy Lưu Bị: người bạn học cũ của Công Tôn Toản, đang giữ Bình Nguyên. [TQC, nối tập 2]
-53. Đây là câu trả lời cho câu hỏi cuối tập trước: sử không chép một việc cụ thể nào của Quan Vũ ở Dương Nhân hay ở Lạc Dương. Ông ở bên Lưu Bị. [TQC, cần kiểm]
-54. Lưu Bị lúc này chỉ là một viên tướng nhỏ ở phía bắc, chưa ai ngoài vùng ấy nhắc đến tên ông. [BÌNH]
+49. Viên Thiệu cùng Hàn Phức muốn tôn Lưu Ngu, châu mục U Châu và là người thuộc tông thất nhà Hán, lên làm hoàng đế. Họ sai sứ dâng biểu, nhưng Lưu Ngu không dám nhận. [TQC]
+50. Hàn Phức, châu mục Ký Châu, vốn nhút nhát. Công Tôn Toản đánh bại quân ông ở An Bình rồi tiến vào Ký Châu, lấy danh nghĩa thảo Đổng Trác. Hàn Phức sợ hãi, xin rời đi. [TQC, CG]
+51. Rồi Viên Thiệu và Công Tôn Toản giao chiến, ở phía nam Giới Kiều hai mươi dặm. Từ liên minh chống Đổng Trác, thiên hạ chuyển sang cuộc chiến giữa các chư hầu. [CG, BÌNH]
+52. Và ở đúng chỗ ấy, ta thấy Lưu Bị: người bạn học cũ của Công Tôn Toản, đang giữ Bình Nguyên, chỉ là một viên tướng nhỏ ở phía bắc. [TQC, nối tập 2]
+53. Đây là câu trả lời cho câu hỏi cuối tập trước: chính văn không kể Quan Vũ làm gì ở Dương Nhân hay ở Lạc Dương. Ông ở bên Lưu Bị. [TQC, cần kiểm Quan Vũ truyện]
+54. Chỉ có một chú giải ngắn, dẫn Anh hùng ký, nói Lưu Bị cũng dấy binh theo cuộc thảo Đổng Trác, mà không kể ông làm gì. [CG, qua bản dịch tiếng Anh, cần kiểm]
 
 CHƯƠNG 8: Trường An và ổ Mi
 55. Trong khi đó, ở Trường An, Đổng Trác cho xây ổ Mi, một thành trì cao ngang tường thành Trường An, tích lương đủ ba mươi năm. [TQC]
 56. Một người có kho lương ba mươi năm không nghĩ mình sắp chết. [BÌNH]
 57. Nhưng kẻ ở gần ông nhất lại là người ông nghi nhất: Lữ Bố. [BÌNH]
-58. Lữ Bố truyện chép rằng có lần Đổng Trác nổi giận, ném kích vào ông; ông tránh được, và từ đó mang lòng oán. [WP, cần kiểm]
-59. Truyện còn chép Lữ Bố tư thông với một thị tỳ của Đổng Trác, và sợ bị phát hiện. [WP, cần kiểm]
-60. Thị tỳ ấy không có tên. Điêu Thuyền, cái tên nổi tiếng trong tiểu thuyết, không có trong chính sử. [WP, cần kiểm]
+58. Lữ Bố truyện chép rằng có lần Đổng Trác chỉ vì một chút không vừa ý đã rút kích ném vào Lữ Bố. [TQC]
+59. Truyện còn chép Lữ Bố tư thông với một thị tỳ của Đổng Trác, sợ chuyện bị phát hiện nên trong lòng bất an. [TQC]
+60. Thị tỳ ấy không có tên. Điêu Thuyền, cái tên nổi tiếng trong tiểu thuyết, không xuất hiện trong truyện của Lữ Bố. [TQC, WP]
 61. Tư đồ Vương Doãn, Sĩ Tôn Thụy và Lữ Bố cùng mưu giết Đổng Trác. [TQC]
-62. Năm một trăm chín mươi hai, chính Lữ Bố là người ra tay. [TQC]
+62. Năm một trăm chín mươi hai, chính Lữ Bố là người tự tay ra tay. [TQC]
 63. Hơn chục đạo quân của liên quân không hạ được Đổng Trác. Người hạ ông là người con nuôi mà ông tin nhất. [BÌNH]
 
 CHƯƠNG 9: Lời kết
 64. Tóm lại: người chém Hoa Hùng là Tôn Kiên, ở Dương Nhân. [TQC]
-65. Lữ Bố có mặt ở trận ấy, nhưng không phải để đấu ba anh em. Theo chú giải, ông bất hòa với đồng đội. [CG]
+65. Lữ Bố có mặt ở trận ấy, nhưng không phải để đấu ba anh em. Theo chú giải, ông bất hòa với đồng đội. [CG] (Lữ Bố truyện không nhắc Quan Vũ lẫn Hổ Lao.)
 66. Hổ Lao có thật là một cửa ải, nhưng cảnh ba người đánh Lữ Bố ở đó không có trong sử. [WP, cần kiểm]
-67. Và Quan Vũ không chém Hoa Hùng. Ông ở bên Lưu Bị, ở những nơi mà sử gần như không ghi tên. [TQC, BÌNH]
+67. Và Quan Vũ không chém Hoa Hùng. Ông ở bên Lưu Bị, ở những nơi mà sử gần như không ghi tên. [TQC, BÌNH, cần kiểm Quan Vũ truyện]
 68. Tiểu thuyết đã làm một việc rất khéo: lấy chiến công của người này, đặt vào tên người kia. [BÌNH]
 69. Còn chính sử cho ta một thứ khác: một cuộc chiến ít cờ bay, nhiều toan tính, và những người trả giá thật. [BÌNH]
 70. Đổng Trác chết rồi, nhưng nhà Hán không được cứu. Loạn chỉ đổi người. [BÌNH]
@@ -154,7 +160,8 @@ Bình luận phụ (video dài): Lưu ý: một số chi tiết về Lữ Bố, 
 nguon_link (đã mở thử được khi soạn):
 - Tam quốc chí, Tôn Phá Lỗ truyện, Wikisource (chữ Hán): https://zh.wikisource.org/wiki/三國志/卷46
 - Tam quốc chí, Đổng Trác truyện, bản Tứ khố toàn thư, Wikisource (chữ Hán): https://zh.wikisource.org/wiki/三國志_(四庫全書本)/魏志/卷06
-Hai link này cần được máy kiểm lại lúc dựng như quy định trong `PROMPT_KICH_BAN.md`.
+- Tam quốc chí, Lữ Bố truyện, Wikisource (chữ Hán): https://zh.wikisource.org/wiki/三國志/卷07
+Các link này cần được máy kiểm lại lúc dựng như quy định trong `PROMPT_KICH_BAN.md`.
 
 ## NHÂN VẬT VÀ ẢNH CẦN VẼ
 

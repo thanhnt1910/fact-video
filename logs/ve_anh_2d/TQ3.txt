@@ -1,4 +1,4 @@
-Cần vẽ 1 ảnh (đợt 7)
+Cần vẽ 1 ảnh (đợt 8)
      🖥️  Gửi 1 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
      🖥️   4.1 phút: .complete

@@ -3,15 +3,15 @@ KIỂM TRA ẢNH TQ3 · video dài · 85 ảnh (số thứ tự khớp lưới �
 ✅ 2 (ảnh mô phỏng AI) ·  002.jpg
 ✅ 3 (ảnh mô phỏng AI) ·  003.jpg
 ✅ 4 (ảnh mô phỏng AI) ·  004.jpg
-❌ 5 (ảnh mô phỏng AI) ·  005.jpg
-     ❌ Nhân vật đang cầm một chiếc bút bi hiện đại để viết lên cuộn giấy thời cổ đại. → Thay thế bút bi bằng bút lông truyền thống phù hợp với thời kỳ lịch sử.
+⚠️ 5 (ảnh mô phỏng AI) ·  005.jpg
+     ⚠️ Ảnh minh họa người đang viết sử trên cuộn giấy, phù hợp với tiêu đề series 'Người Gác Sử' nhưng không trực tiếp minh họa cho các nhân vật Hoa Hùng, Lữ Bố hay Quan Vũ được nhắc đến trong lời kể tại thời điểm này. → Có thể dùng làm ảnh mang tính chất bối cảnh chung cho series, nhưng nếu muốn khớp sát lời thoại nên thay bằng hình ảnh liên quan đến các nhân vật Hoa Hùng hoặc Quan Vũ.
 ✅ 6 (ảnh mô phỏng AI) ·  006.jpg
 ✅ 7 (ảnh mô phỏng AI) ·  007.jpg
 ✅ 8 (ảnh mô phỏng AI) ·  008.jpg
 ✅ 9 (ảnh mô phỏng AI) ·  009.jpg
 ✅ 10 (ảnh mô phỏng AI) ·  010.jpg
 ❌ 11 (ảnh mô phỏng AI) ·  011.jpg
-     ❌ Trang phục và vũ khí (kiếm giắt ngang thắt lưng theo kiểu võ sĩ Nhật Bản) trong ảnh mang phong cách Nhật Bản thời phong kiến, không phù hợp với bối cảnh Trung Quốc thời Đông Hán trong lời kể về Viên Thiệu. → Thay thế bằng hình ảnh nhân vật mặc quan phục hoặc giáp trụ Trung Quốc thời Đông Hán và cầm theo đao.
+     ❌ Lời kể đang nhắc đến sự kiện Viên Thiệu cầm ngang đao, vái dài một cái rồi bỏ đi khi Đổng Trác bàn chuyện phế Thiếu đế, nhưng hình ảnh minh họa lại vẽ một nhân vật mặc giáp, đeo kiếm quay lưng nhìn lại, không khớp với hành động cầm đao vái chào của Viên Thiệu. → Thay đổi hình ảnh minh họa thành một vị quan hoặc tướng (Viền Thiệu) đang cầm ngang đao, vái chào và quay lưng bỏ đi trong triều đình.
 ✅ 12 (ảnh mô phỏng AI) ·  012.jpg
 ✅ 13 (ảnh mô phỏng AI) ·  013.jpg
 ⚠️ 14 (ảnh mô phỏng AI) ·  014.jpg
@@ -73,8 +73,7 @@ KIỂM TRA ẢNH TQ3 · video dài · 85 ảnh (số thứ tự khớp lưới �
 ❌ 64 (ảnh mô phỏng AI) ·  064.jpg
      ❌ Lời kể đề cập đến Lưu Bị và Quan Vũ (ông ở bên Lưu Bị), nhưng hình ảnh hiển thị khuôn mặt rõ ràng của hai nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc ẩn giấu khuôn mặt theo đúng quy định.
 ✅ 65 (ảnh mô phỏng AI) ·  065.jpg
-❌ 66 (ảnh mô phỏng AI) ·  066.jpg
-     ❌ Kiến trúc thành trì trong ảnh mang phong cách lâu đài đá thời Trung cổ Châu Âu, không phù hợp với kiến trúc thành lũy thời Đông Hán ở Trung Quốc. → Thay thế bằng hình ảnh minh họa thành trì theo kiến trúc cổ Trung Hoa (thành lũy gạch xám, mái ngói âm dương).
+✅ 66 (ảnh mô phỏng AI) ·  066.jpg
 ✅ 67 (ảnh mô phỏng AI) ·  067.jpg
 ❌ 68 (ảnh mô phỏng AI) ·  068.jpg
      ❌ Lời kể đề cập đến nhân vật Lữ Bố đứng gần người xây kho lương, nhưng hình ảnh minh họa lại vẽ hai nhân vật nam đứng cạnh nhau không rõ bối cảnh liên quan đến kho lương hay thể hiện rõ hành động đe dọa. → Cần sửa lại ảnh minh họa thể hiện rõ nhân vật Lữ Bố ở gần hoặc có hành động đe dọa nhân vật chủ kho lương để phù hợp với ngữ cảnh lời kể.

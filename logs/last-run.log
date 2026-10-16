@@ -1,36 +1,59 @@
 
-===== TQ3: kiểm tra kịch bản trước khi dựng =====
-   (chưa kiểm tra được kịch bản TQ3:ngan trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
-   (chưa kiểm tra được kịch bản TQ3:dai trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
-
 ===== TQ3 (video ngắn + bài ảnh) =====
 ▶️  TQ3: Ai thật sự chém Hoa Hùng? Hổ Lao có thật không?
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ3.json
   🖼️  Ảnh cho video ngắn
   🔍 Kiểm tra 18 ảnh: 3 ảnh lỗi, 1 ảnh cần xem
-❌ TQ3: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ3_ngan_kiemtra.txt):
-  033.jpg: Ảnh vẽ hai nhân vật nam trong lều trại không khớp với nội dung lời kể đang nhắc đến sự việc quân của Hồ Chẩn rối loạn do Lữ Bố và đồng bọn loan tin, hoặc sự kiện Tôn Kiên chém Hoa Hùng. → Thay thế bằng ảnh minh họa phù hợp với cảnh quân đội hỗn loạn hoặc cảnh chiến trận theo lời kể.
-  064.jpg: Ảnh vẽ rõ mặt hai nhân vật lịch sử (có thể là Lưu Bị và Quan Vũ), vi phạm quy tắc không được vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc minh họa cảnh vật, không hiện rõ mặt nhân vật.
-  080.jpg: Lời kể chỉ nhắc đến Quan Vũ đang ở bên Lưu Bị ở phía bắc và chính văn không kể ông làm gì ở đó, nhưng ảnh lại vẽ rõ mặt hai nhân vật nam cầm giáo đứng trước lều trại, điều này không phù hợp với quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Thay thế bằng ảnh phong cảnh phía bắc, lều trại trống hoặc hình ảnh nhân vật quay lưng, ở xa không rõ mặt.
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+  🎙️  Gemini đọc 9/9 cảnh, mỗi cảnh một sắc thái (11s), tốc độ x1.12
+  🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  49.2 giây · 18 hình · trung bình 2.7 giây/hình · ⚠️ 2 hình đứng quá 4 giây
+  🎞️  Số lần: cut 12, dissolve 3, fadewhite 1, fade 1
+[0;93m2026-10-16 10:39:05.978866703 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  🎬 Dựng 1475 khung hình (35s)
+  🔊 Tiếng động: hit, rise
+  🏷️  Đã gắn logo kênh vào góc trên bên phải
+  🔈 Âm lượng cuối: -14.9 LUFS, đỉnh -4.2 dBTP
+     ⚠️  không tạo được ảnh bìa: 'str' object has no attribute 'get'
+✅ Xong output/TQ3/TQ3.mp4  (49.2s video, mất 91s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
 ===== TQ3 (video dài) =====
 ▶️  Video dài TQ3: Ai thật sự chém Hoa Hùng? Hổ Lao có thật không? | Tam Quốc theo chính sử, tập 3
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ3.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 85 ảnh: 9 ảnh lỗi, 3 ảnh cần xem
-❌ Video dài TQ3: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ3_dai_kiemtra.txt):
-  005.jpg: Nhân vật đang cầm một chiếc bút bi hiện đại để viết lên cuộn giấy thời cổ đại. → Thay thế bút bi bằng bút lông truyền thống phù hợp với thời kỳ lịch sử.
-  011.jpg: Trang phục và vũ khí (kiếm giắt ngang thắt lưng theo kiểu võ sĩ Nhật Bản) trong ảnh mang phong cách Nhật Bản thời phong kiến, không phù hợp với bối cảnh Trung Quốc thời Đông Hán trong lời kể về Viên Thiệu. → Thay thế bằng hình ảnh nhân vật mặc quan phục hoặc giáp trụ Trung Quốc thời Đông Hán và cầm theo đao.
-  039.jpg: Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (được giới thiệu là Hoa Hùng theo lời kể), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay đổi ảnh minh họa sao cho nhân vật quay lưng, ở xa hoặc trong bóng tối, không nhìn rõ khuôn mặt.
-  040.jpg: Lời kể đang nói về Hoa Hùng (hoặc nhân vật thực tế bị Tôn Kiên chém trong sử sách), nhưng bức ảnh lại vẽ một nhân vật mặc áo xanh, búi tóc kiểu Quan Vũ truyền thống (hoặc tạo hình dễ gây hiểu nhầm là Quan Vũ - người mà tiểu thuyết mới gán cho chiến công này). → Thay thế bằng hình ảnh minh họa đúng nhân vật Hoa Hùng hoặc Tôn Kiên theo đúng nội dung lịch sử đang được kể.
-  063.jpg: Ảnh hiển thị hai nhân vật nam đứng cạnh nhau trong bối cảnh lịch sử, tuy nhiên theo lời kể thì phân cảnh này đang nhắc đến nhân vật Lưu Bị đang giữ Bình Nguyên và là một viên tướng nhỏ, việc vẽ hai người đứng chung chung không rõ ai là Lưu Bị và ai là Công Tôn Toản có thể gây hiểu sai hoặc không khớp với sự tập trung vào nhân vật Lưu Bị. → Vẽ tập trung vào một mình Lưu Bị ở Bình Nguyên với tư cách là một viên tướng nhỏ.
-  064.jpg: Lời kể đề cập đến Lưu Bị và Quan Vũ (ông ở bên Lưu Bị), nhưng hình ảnh hiển thị khuôn mặt rõ ràng của hai nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc ẩn giấu khuôn mặt theo đúng quy định.
-  066.jpg: Kiến trúc thành trì trong ảnh mang phong cách lâu đài đá thời Trung cổ Châu Âu, không phù hợp với kiến trúc thành lũy thời Đông Hán ở Trung Quốc. → Thay thế bằng hình ảnh minh họa thành trì theo kiến trúc cổ Trung Hoa (thành lũy gạch xám, mái ngói âm dương).
-  068.jpg: Lời kể đề cập đến nhân vật Lữ Bố đứng gần người xây kho lương, nhưng hình ảnh minh họa lại vẽ hai nhân vật nam đứng cạnh nhau không rõ bối cảnh liên quan đến kho lương hay thể hiện rõ hành động đe dọa. → Cần sửa lại ảnh minh họa thể hiện rõ nhân vật Lữ Bố ở gần hoặc có hành động đe dọa nhân vật chủ kho lương để phù hợp với ngữ cảnh lời kể.
-  078.jpg: Ảnh vẽ rõ mặt hai nhân vật nam trong bối cảnh lịch sử, vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối không rõ mặt.
+  🔍 Kiểm tra 85 ảnh: 7 ảnh lỗi, 4 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (13s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (10s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+  ⏱️  Thời lượng 10:28 · 85 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-16 10:46:03.226393612 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     85/85 ảnh có độ sâu
+  🎞️  38 cảnh có clip chuyển động
+     15084 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (215 giây)
+     … 6/12 đoạn (443 giây)
+     … 9/12 đoạn (538 giây)
+     … 12/12 đoạn (588 giây)
+     dựng khung hình xong trong 589 giây
+  🎬 Tiếng gốc clip Veo: 20 clip, nhường giọng đọc khi có lời
+  🏷️  Đã gắn logo kênh vào góc trên bên trái
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: TQ3_dai.mp4 (10:28)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): TQ3
-Lỗi: TQ3
+Xong video ngắn: TQ3 · video dài: TQ3

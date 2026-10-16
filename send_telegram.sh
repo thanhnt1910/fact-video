@@ -98,20 +98,28 @@ if [ -s ci_long.txt ] && [ "$POST_ONLY" != "yes" ]; then
   while read -r id || [ -n "$id" ]; do
     [ -z "$id" ] && continue
     f="output/$id/${id}_dai.mp4"; [ -f "$f" ] || continue
-    if blocked "$id" dai; then block_msg "$id" "video dài" dai; continue; fi
-    if python3 da_gui.py check "$id" dai; then echo "Bỏ qua $id (video dài): đã gửi trước đó, đặt GUI_LAI=yes nếu muốn gửi lại"; continue; fi
-    dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
-    vb=$(python3 -c "print(max(300, int(44*8*1024/float('$dur') - 96)))")
-    ffmpeg -nostdin -loglevel error -y -i "$f" -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${vb}k \
-      -maxrate ${vb}k -bufsize $((vb*2))k -c:a aac -b:a 96k "output/$id/${id}_dai_tg.mp4"
-    link="https://github.com/${GITHUB_REPOSITORY}/releases/tag/video-${id}${HAU_TO}"
-    code=$(curl -s -o /dev/null -w "%{http_code}" -F chat_id="$TG_CHAT" -F supports_streaming=true \
-      -F video=@"output/$id/${id}_dai_tg.mp4" \
-      -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo")
-    echo "Gửi video dài $id: $code"
-    [ "$code" = "200" ] && python3 da_gui.py mark "$id" dai
+    if [ "$MO_TA_ONLY" != "yes" ]; then
+      if blocked "$id" dai; then block_msg "$id" "video dài" dai; continue; fi
+      if python3 da_gui.py check "$id" dai; then echo "Bỏ qua $id (video dài): đã gửi trước đó, đặt GUI_LAI=yes nếu muốn gửi lại"; continue; fi
+      dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
+      vb=$(python3 -c "print(max(300, int(44*8*1024/float('$dur') - 96)))")
+      ffmpeg -nostdin -loglevel error -y -i "$f" -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${vb}k \
+        -maxrate ${vb}k -bufsize $((vb*2))k -c:a aac -b:a 96k "output/$id/${id}_dai_tg.mp4"
+      link="https://github.com/${GITHUB_REPOSITORY}/releases/tag/video-${id}${HAU_TO}"
+      code=$(curl -s -o /dev/null -w "%{http_code}" -F chat_id="$TG_CHAT" -F supports_streaming=true \
+        -F video=@"output/$id/${id}_dai_tg.mp4" \
+        -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo")
+      echo "Gửi video dài $id: $code"
+      [ "$code" = "200" ] && python3 da_gui.py mark "$id" dai
+    fi
     python3 tg_text.py "output/$id/${id}_dai_youtube.txt" "📝 NỘI DUNG ĐĂNG $id (video dài)"
-    send_covers "🖼️ Ảnh bìa video dài $id: _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
+    # bản mô tả tiếng Anh + phụ đề (.srt) để đăng kèm
+    python3 tg_text.py "output/$id/${id}_dai_youtube_en.txt" "📝 ENGLISH DESCRIPTION $id (video dài, YouTube/Facebook)"
+    for srt in "output/$id/$id.en_US.srt" "output/$id/${id}_dai_vi.srt"; do
+      [ -f "$srt" ] && curl -s -o /dev/null -w "Gửi phụ đề $(basename $srt): %{http_code}\n" -F chat_id="$TG_CHAT" \
+        -F document=@"$srt" -F caption="Phụ đề $(basename $srt)" "$api/sendDocument"
+    done
+    [ "$MO_TA_ONLY" = "yes" ] || send_covers "🖼️ Ảnh bìa video dài $id: _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
       "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_thumbnail_fb.jpg"
   done < ci_long.txt
 fi

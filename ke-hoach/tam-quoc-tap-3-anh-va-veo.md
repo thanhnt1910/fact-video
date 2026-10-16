@@ -12,8 +12,8 @@ Soạn từ `tam-quoc-tap-3-kich-ban.md` (kịch bản chờ chủ kênh duyệt
 
 - **Ảnh tĩnh: 85 ảnh** (mỗi lời kể một ảnh, mỗi ảnh dùng một lần). Video ngắn dùng lại 9 ảnh, không vẽ thêm. Lưu `assets/anh_2d/TQ3/001.jpg` … `085.jpg`.
 - **Veo (nhóm A): 20 clip**, lưu `assets/clips_2d/TQ3/NNN.mp4`.
-- **Hoạt hình nhẹ (nhóm B): 19 cảnh**, chạy `python anim_nhe.py TQ3 <số ảnh,…>` sau khi có ảnh; cần tạo `ke-hoach/nhan-vat/TQ3_nhe.json` (khung vùng chuyển động chọn tay khi đã có ảnh, như `TQ2_nhe.json`).
-- **Giữ ảnh tĩnh:** 46 ảnh.
+- **Hoạt hình nhẹ (nhóm B): 18 cảnh**, chạy `python anim_nhe.py TQ3 <số ảnh,…>` sau khi có ảnh; cần tạo `ke-hoach/nhan-vat/TQ3_nhe.json` (khung vùng chuyển động chọn tay khi đã có ảnh, như `TQ2_nhe.json`).
+- **Giữ ảnh tĩnh:** 47 ảnh (ảnh 055 chuyển từ nhóm B sang vì có người cưỡi ngựa nhỏ).
 - **Ảnh bìa:** tạm hoãn.
 
 ## Cách vẽ ảnh
@@ -74,7 +74,6 @@ Không dùng Veo hay Kaggle (video AI giật, dễ biến dạng). Chạy `pytho
 | 044 | 45 | ánh đuốc trong cổng lăng, bụi, lá |
 | 045 | 46 | cờ trên tháp cổng, ánh sáng bình minh |
 | 054 | 55 | lá cờ đỏ, khói bụi, mây |
-| 055 | 56 | sương trên núi, cây thông |
 | 058 | 59 | mặt sông, thuyền nhỏ, sương |
 | 066 | 67 | cờ trên các tháp, bụi đường |
 | 074 | 75 | ánh sáng qua cửa điện, bụi lơ lửng |
@@ -84,8 +83,8 @@ Không dùng Veo hay Kaggle (video AI giật, dễ biến dạng). Chạy `pytho
 | 083 | 84 | khói mỏng, con quạ, tro bay |
 | 085 | 86 | cỏ ven đường, sương, nắng lên |
 
-## Giữ ảnh tĩnh (46 ảnh)
+## Giữ ảnh tĩnh (47 ảnh)
 
-Ảnh: 001, 002, 005, 006, 007, 010, 011, 012, 013, 015, 020, 023, 024, 025, 028, 031, 033, 034, 035, 038, 039, 040, 046, 047, 048, 049, 050, 051, 052, 056, 057, 060, 061, 063, 064, 065, 067, 068, 069, 070, 072, 075, 076, 077, 078, 084.
+Ảnh: 001, 002, 005, 006, 007, 010, 011, 012, 013, 015, 020, 023, 024, 025, 028, 031, 033, 034, 035, 038, 039, 040, 046, 047, 048, 049, 050, 051, 052, 055, 056, 057, 060, 061, 063, 064, 065, 067, 068, 069, 070, 072, 075, 076, 077, 078, 084.
 
 Đây là cảnh người đứng yên hoặc có tay cầm vật; không làm clip để khỏi biến dạng.

@@ -21,7 +21,7 @@ Soạn từ `tam-quoc-tap-3-kich-ban.md` (kịch bản chờ chủ kênh duyệt
 - `ke-hoach/tam-quoc-tap-3-prompt-anh.txt`: 85 prompt đầy đủ, dán nguyên (đã gồm nhân vật và phong cách). `ke-hoach/nhan-vat/TQ3_anh.json`: cùng nội dung cho pipeline.
 - Tuổi nhân vật theo năm 190: Lưu Bị 29, Quan Vũ 31, Trương Phi 28, Tôn Kiên khoảng 35 (tập 2 ghi 45, theo sử ông sinh 155, mất 192 lúc 37 tuổi; đã vẽ rồi thì dùng ảnh cũ làm tham chiếu mặt).
 - Nhân vật mới cần khóa mặt trước (vẽ một ảnh rồi làm tham chiếu): Tôn Kiên, Lữ Bố, Hồ Chẩn, Viên Thuật, Đinh Nguyên, Vương Doãn, Hàn Phức, Tổ Mậu.
-- Cảnh nhạy cảm xử lý bằng cảnh vắng người hoặc nhìn từ sau: giết Thiếu đế (ảnh 014), chém Hoa Hùng (037, 039), đốt Lạc Dương (043), đào lăng (044), Tôn Kiên chết (055 đến 057), Lữ Bố giết Đổng Trác (075, 076). Không máu, không cảnh chém, không vẽ ngựa cận cảnh.
+- Cảnh nhạy cảm xử lý bằng cảnh vắng người hoặc nhìn từ sau: giết Thiếu đế (ảnh 014), chém Hoa Hùng (037, 039), đốt Lạc Dương (043), đào lăng (044), Tôn Kiên chết (055 đến 057), Lữ Bố giết Đổng Trác (075, 076). Không máu, không cảnh chém. Ngựa được vẽ bình thường.
 
 ## Nhóm A — Veo (20 clip, người di chuyển nhiều)
 
@@ -33,7 +33,7 @@ Chọn "Frames to Video", tải ảnh làm khung đầu, 16:9, 8 giây hoặc ng
 
 **Quy tắc về tên: prompt Veo TUYỆT ĐỐI không nêu tên riêng của người thật nổi tiếng (nhân vật lịch sử), vì vi phạm chính sách của Veo và clip bị từ chối.** Chỉ mô tả chung ("the foreground man", "the officer", "the two men"); ảnh khung đầu đã mang sẵn khuôn mặt. Kiểm bằng `python kiem_prompt_veo.py ke-hoach/tam-quoc-tap-3-anh-va-veo.md`.
 
-**Quy tắc:** người tiền cảnh chỉ thở, đổi trọng tâm, bước đi đều, áo khăn bay theo gió; hàng quân chuyển động tập thể đơn giản (tiến vài bước, giáo nghiêng cùng nhịp, cờ bay, bụi); không cảnh chém nhau, không máu; clip nào mọc thêm người, thêm tay, mặt méo, vũ khí đổi hình, xuất hiện ngựa thì bỏ, dùng ảnh tĩnh. Veo xuất 720p thì dựng lại 1080p/30 fps cùng hạt phim.
+**Quy tắc:** người tiền cảnh chỉ thở, đổi trọng tâm, bước đi đều, áo khăn bay theo gió; hàng quân chuyển động tập thể đơn giản (tiến vài bước, giáo nghiêng cùng nhịp, cờ bay, bụi); không cảnh chém nhau, không máu; clip nào mọc thêm người, thêm tay, mặt méo, vũ khí đổi hình, ngựa méo chân hoặc thừa chân thì bỏ, dùng ảnh tĩnh. Veo xuất 720p thì dựng lại 1080p/30 fps cùng hạt phim.
 
 | Ảnh | Câu | Cảnh (chỉ để tra, KHÔNG dán vào Veo) | Prompt chuyển động (dán sau tiền tố) |
 |---|---|---|---|

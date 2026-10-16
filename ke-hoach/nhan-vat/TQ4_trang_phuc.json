@@ -1,0 +1,63 @@
+{
+ "ma": "TQ4",
+ "ghi_chu": "Mã trang phục tập 4. Dùng như nhan_vat_phu: NV = {**TQ.json[nhan_vat], **TQ4_trang_phuc.json[trang_phuc]}, rồi đặt nv = [khóa] trong từng cảnh. Phần mẫu (mặt, vóc dáng, râu tóc) giữ nguyên chữ từ TQ.json/TQ2.json; chỉ phần tóc-mũ-áo-giáp thay đổi. Phụ kiện chức vụ thêm vào cuối mo_ta của cảnh khi đến đúng câu ghi trong dai_cau. Xem tam-quoc-quy-uoc-trang-phuc.md và bảng trong tam-quoc-tap-4-kich-ban.md.",
+ "trang_phuc": {
+  "liubei_t4a": "Liu Bei at age 32, a tall slender man in his early thirties, calm gentle face, unusually long arms that hang down to his knees, unusually large earlobes, a thin moustache and a short sparse beard of fine hair along the jaw and chin (visibly bearded but much lighter and shorter than a full beard), hair in a topknot under a plain black cloth cap, wearing a worn but clean dark-blue cross-collared robe with a brown sash and a leather belt, plain dark shoes, no insignia",
+  "liubei_t4b": "Liu Bei at age 33, a tall slender man in his early thirties, calm gentle face, unusually long arms that hang down to his knees, unusually large earlobes, a thin moustache and a short sparse beard of fine hair along the jaw and chin (visibly bearded but much lighter and shorter than a full beard), hair in a topknot under a plain pale cloth headband, wearing a dusty undyed hemp cross-collared robe under a light leather and iron scale armour, a brown cloth sash at the waist and worn leather boots, no insignia",
+  "liubei_t4c": "Liu Bei at age 33, a tall slender man in his early thirties, calm gentle face, unusually long arms that hang down to his knees, unusually large earlobes, a thin moustache and a short sparse beard of fine hair along the jaw and chin (visibly bearded but much lighter and shorter than a full beard), hair in a topknot under a black official cap, wearing a long dark-indigo cross-collared official robe with a dark sash and a leather belt, plain dark shoes, a restrained dignified look, no embroidery",
+  "quanvu_t4a": "Guan Yu, a man in his early thirties, a very tall powerful man, natural weather-tanned skin, a long glossy black beard falling to his chest, calm stern eyes, hair in a topknot under a dark cloth cap, wearing a deep jade-green cross-collared robe under plain light iron scale armour with a leather belt, compact and unadorned",
+  "quanvu_t4b": "Guan Yu, a man in his early thirties, a very tall powerful man, natural weather-tanned skin, a long glossy black beard falling to his chest, calm stern eyes, hair in a topknot under a dark cloth cap, wearing a deep jade-green cross-collared robe under iron scale armour with shoulder guards and a cloth sash at the waist, a little more formal than before",
+  "trieuphi_t4a": "Zhang Fei, a man in his early thirties, a broad-shouldered stocky strong man, thick black bristly beard and moustache, wide round alert eyes, hair in a topknot under a rough black headscarf, wearing a dark brown cross-collared tunic under plain light iron scale armour, a wide leather belt and forearm guards",
+  "trieuphi_t4b": "Zhang Fei, a man in his early thirties, a broad-shouldered stocky strong man, thick black bristly beard and moustache, wide round alert eyes, hair in a topknot under a rough black headscarf, wearing a dark brown cross-collared tunic under iron scale armour with shoulder guards, a wide leather belt and forearm guards",
+  "taotao_t4": "Cao Cao, a short wiry man of about 38 with sharp clever eyes, a thin moustache and a small beard, dark charcoal cross-collared robe under dark iron scale armour with a dark cloak, the stern look of a general at war",
+  "daokhiem_t4a": "Tao Qian, an elderly man of about 62 with a thin pale face, a long thin white beard and tired kind eyes, hair in a topknot under a black official cap, wearing a dark-grey formal cross-collared official robe with a sash",
+  "daokhiem_t4b": "Tao Qian, an elderly man of about 62 with a thin pale face, a long thin white beard and tired kind eyes, hair loose under a thin pale cloth, wearing a plain pale loose cross-collared sleeping robe, frail and ill, no cap, no armour",
+  "mitruc_t4": "Mi Zhu, a mature merchant with a smooth round face and a short neat beard, hair in a topknot under a dark cap, wearing a rich indigo silk cross-collared robe with a gold-brown sash and a jade pendant at the belt, a small ribbon cord of office hanging beside the pendant",
+  "khongdung_t4": "Kong Rong, a refined scholar-official of about 40 with a fine thin beard and a thoughtful calm face, hair in a topknot under a plain scholar's cap, wearing a pale grey cross-collared scholar's robe with wide sleeves and a dark sash",
+  "tranang_t4": "Chen Deng, a calm composed scholar-official of about 30 with a clean oval face and a neat thin moustache, hair in a topknot under a plain cloth cap, wearing a pale cream cross-collared robe with a grey sash",
+  "thaisutu_t4": "Taishi Ci, a lean athletic man of about 27 with alert determined eyes, hair in a topknot under a plain cloth band, wearing a dust-covered short travelling tunic with leather wrist guards and boots, no weapon in view",
+  "lubo_t4a": "Lu Bu, a tall powerfully built man with a strong jaw and sharp eyes, hair in a topknot under a plain iron helmet, wearing light iron scale armour over a dark-red cross-collared robe",
+  "lubo_t4b": "Lu Bu, a tall powerfully built man with a strong jaw and sharp eyes, hair in a topknot under a plain cloth band, wearing worn dusty scale armour and a torn dark cloak, travel-stained, no insignia, seen from behind"
+ },
+ "phu_kien": {
+  "day_an_thu_su": "a short ribbon cord with a small bronze official seal hanging at his belt",
+  "an_tuong_bac_hai": "a short ribbon cord with a small bronze official seal hanging at his belt"
+ },
+ "ma_sang_khoa": {
+  "LB-T4A": "liubei_t4a",
+  "LB-T4B": "liubei_t4b",
+  "LB-T4C": "liubei_t4c",
+  "QV-T4A": "quanvu_t4a",
+  "QV-T4B": "quanvu_t4b",
+  "TP-T4A": "trieuphi_t4a",
+  "TP-T4B": "trieuphi_t4b",
+  "TT-T4": "taotao_t4",
+  "DK-T4A": "daokhiem_t4a",
+  "DK-T4B": "daokhiem_t4b",
+  "MT-T4A": "mitruc_t4",
+  "KD-T4": "khongdung_t4",
+  "TD-T4": "tranang_t4",
+  "TS-T4": "thaisutu_t4",
+  "LBo-T4A": "lubo_t4a",
+  "LBo-T4B": "lubo_t4b"
+ },
+ "dai_cau": {
+  "LB-T4A": "7-33",
+  "LB-T4B": "34-57 (phụ kiện day_an_thu_su chỉ thêm từ câu 41)",
+  "LB-T4C": "58-86",
+  "QV-T4A": "7-57",
+  "QV-T4B": "58-86",
+  "TP-T4A": "7-57",
+  "TP-T4B": "58-86",
+  "TT-T4": "23-46 (cảnh 30-32 chỉ vẽ cảnh vật)",
+  "DK-T4A": "28, 33-41",
+  "DK-T4B": "47-51",
+  "MT-T4A": "47-62",
+  "KD-T4": "15-22, 56 (phụ kiện an_tuong_bac_hai chỉ ở câu 56)",
+  "TD-T4": "53-55",
+  "TS-T4": "15-20",
+  "LBo-T4A": "44 (nhìn từ sau, nối tập 3)",
+  "LBo-T4B": "84 (nhìn từ sau, đứng xa)"
+ },
+ "tuoi": "Tuổi tính theo năm sinh trong sử (Lưu Bị 161, Tào Tháo 155, Khổng Dung 153, Đào Khiêm 132, Thái Sử Từ 166, Trần Đăng 163), năm 193 đến 194, tuổi tây. Quan Vũ, Trương Phi, Mi Trúc, Lữ Bố: sử không ghi năm sinh nên chỉ ước. Các năm sinh là nhớ, cần kiểm lại trước khi dựng."
+}

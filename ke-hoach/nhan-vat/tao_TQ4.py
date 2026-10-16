@@ -155,6 +155,32 @@ OV = {
 86:([],0,"a bamboo-slip scroll tied with cord on a low wooden table beside a clay oil lamp at night, a wooden lattice window with no glass behind"),
 }
 S = [(i,)+OV[i] if i in OV else (i,nv,n,m) for (i,nv,n,m) in S]
+
+# --- sửa lần 3 (16/10): ảnh nào cũng phải có nền, không để nền trơn ---
+BG = {
+1:"the pillared hall of a governor's office in Xu Province, wooden pillars, a hanging cloth screen and warm oil-lamp glow",
+2:"a hall courtyard with wooden pillars, stone steps and grey tiled rooftops of an ancient city behind, soft morning light",
+10:"inside a canvas army tent at night with tent poles, canvas walls, a spear rack and a rolled sleeping mat, lamp glow",
+12:"inside a modest wooden room with a wooden lattice window, straw mats on the floor and a shelf of bamboo-slip scrolls, lamp glow",
+13:"a county government courtyard with grey tiled roofs and a flag pole with a plain flag behind, morning light",
+15:"a dusty dirt road before a northern city gate with hills and thin smoke on the horizon, late afternoon",
+17:"a military camp at dusk with tents and a tall plain red banner, hills behind",
+23:"a war camp at dusk with rows of plain dark banners and tents, hills behind, stormy sky",
+27:"a war camp with rows of plain dark banners and tents under a stormy sky",
+28:"a governor's hall with wooden pillars, shelves of bamboo-slip scrolls and a wooden lattice window, dim lamp light",
+33:"a military camp gate with spear racks, tents and a wooden palisade, grey morning",
+43:"a dusty road with the plain banners of a retreating army and distant hills, dusk",
+52:"an army camp at dusk with tents and camp fires, mist, hills behind",
+53:"a hall at Xiaopei with wooden pillars, a hanging cloth screen and lamp light",
+55:"an army camp with tents and a river behind, grey light",
+56:"the wall and towers of the city of Beihai behind him, afternoon light",
+57:"plain banners and tents outside a city gate at dawn, mist",
+64:"a governor's hall with wooden pillars and a wooden lattice window, evening light",
+67:"a lamp-lit study with shelves of bamboo-slip scrolls and wooden pillars, evening",
+69:"a hillside road overlooking a wide river valley with a distant ancient city, golden hour",
+73:"an army camp at dusk with tents, spear racks and plain banners, misty hills behind",
+}
+S = [(i,nv,n,(m+". Background: "+BG[i]) if i in BG else m) for (i,nv,n,m) in S]
 ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt roads and stone paths only (no asphalt, no road markings, no electric poles or wires), "
         "no glass windows (wooden lattice only), no door knobs or handles, no chairs with backs or modern furniture (people sit on straw mats or low benches and sleep on low wooden couches), "
         "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European buildings, "
@@ -168,7 +194,7 @@ for i, nv, n, m in S:
         if x == "khongdung_t4" and i == 56: EXTRA[(i, x)] = PK["an_tuong_bac_hai"]
 
 SUF = ("medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, "
-       "serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. "
+       "serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. Every picture has a rich detailed background that fits the place and the story (architecture, landscape, tents, banners, hills), never a plain blank or solid-colour backdrop. "
        "Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces. " + ANTI)
 out, canh = [], []
 for i, nv, n, m in S:

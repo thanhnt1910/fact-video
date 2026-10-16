@@ -1,0 +1,5 @@
+{"clip": "assets/clips_2d/TQ3_nhe/079.mp4", "giay": 8.0, "fps": 24, "chenh_lech_khung_tb": 0.41, "do_nhay_lon_nhat": 0.016}
+{"clip": "assets/clips_2d/TQ3_nhe/081.mp4", "giay": 8.0, "fps": 24, "chenh_lech_khung_tb": 0.277, "do_nhay_lon_nhat": 0.013}
+{"clip": "assets/clips_2d/TQ3_nhe/082.mp4", "giay": 8.0, "fps": 24, "chenh_lech_khung_tb": 0.433, "do_nhay_lon_nhat": 0.025}
+{"clip": "assets/clips_2d/TQ3_nhe/083.mp4", "giay": 8.0, "fps": 24, "chenh_lech_khung_tb": 0.274, "do_nhay_lon_nhat": 0.018}
+{"clip": "assets/clips_2d/TQ3_nhe/085.mp4", "giay": 8.0, "fps": 24, "chenh_lech_khung_tb": 0.446, "do_nhay_lon_nhat": 0.013}

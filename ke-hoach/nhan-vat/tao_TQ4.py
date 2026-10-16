@@ -104,6 +104,61 @@ S = [
 (85,[],0,"a rainy night at a city gate with a lone lantern and a bundle left on the road, no people"),
 (86,[],0,"a closed bamboo-slip scroll tied with cord on a desk beneath a clay lamp at night"),
 ]
+
+# --- sửa lần 2 (16/10): bỏ vật hiện đại, nửa người thật sự ---
+WB = "waist-up close framing, cropped at the belt, the legs and feet are not in the picture"
+OV = {
+2:(["liubei_t4c"],1,f"{WB}, Liu Bei bowing his head and shaking it gently in refusal, both hands tucked into his sleeves, exactly one man"),
+3:([],0,"an open scroll of bamboo slips tied with cord lying on a low dark wooden table beside a small clay oil lamp with a tiny flame, dim warm light"),
+8:([],0,"a low wooden table with three rolled bamboo-slip scrolls tied with cord and a small bronze seal, light from a wooden lattice window with no glass"),
+10:(["liubei_t4a"],1,f"{WB}, Liu Bei sitting on a straw mat at night beside a small clay oil lamp, tired but thoughtful, an iron armour on a wooden stand behind him, exactly one man, his far hand hidden"),
+12:(["liubei_t4a","thichkhach"],2,f"{WB}, two-shot of Liu Bei and a guest in plain dark clothes kneeling on straw mats facing each other across a very low table, the guest bowing his head and speaking quietly, Liu Bei listening in surprise, hands hidden in sleeves, exactly two men, nothing in their hands"),
+13:(["liubei_t4a"],1,f"{WB}, portrait of Liu Bei with a calm gentle face and the hint of a kind smile, both hands tucked into his sleeves, exactly one man"),
+14:([],0,"a row of grey clay-tiled roofs of an ancient Chinese county town at dusk, one tiny window glowing with oil-lamp light, under a wide darkening sky"),
+15:(["thaisutu_t4"],1,f"{WB}, Taishi Ci arriving dusty and out of breath with an urgent expression, one hand holding a small rolled bamboo scroll, the other arm hidden behind his back, exactly one man"),
+17:(["liubei_t4a","thaisutu_t4"],2,f"{WB}, two-shot of Liu Bei moved and surprised, one hand pressed to his chest, and Taishi Ci bowing before him, exactly two men, outer arms hidden"),
+21:([],0,"a plain clay bowl and a small bamboo-slip scroll tied with cord on a low wooden table in warm oil-lamp light"),
+22:([],0,"a closed double wooden gate in a stone wall at evening, simple wooden bar latch, a small hanging oil lantern, calm and waiting"),
+24:([],0,"a simple ancient Chinese country house with a grey tiled roof, wooden pillars and a courtyard, in a bamboo grove on a green hillside, peaceful morning"),
+25:([],0,"an empty lonely dirt road at dusk in mist with a single overturned small wooden cart and a few scattered belongings, no people, no poles, no paved road"),
+29:([],0,"a prosperous walled ancient Chinese city on a river plain, grey tiled roofs, wooden grain boats moored at a wooden quay with sacks of grain, no people"),
+32:([],0,"an empty dirt street inside an ancient Chinese town between low mud-brick houses with grey tiled roofs, overturned wooden carts and scattered baskets, drifting dust, no people"),
+35:(["liubei_t4b"],1,f"{WB}, Liu Bei striding forward at the head of his camp, determined face, one hand on the hilt of his sword, the other arm hidden, exactly one man"),
+38:(["daokhiem_t4a"],1,f"{WB}, Tao Qian standing at an open wooden lattice window looking out hopefully at a dirt road across hills, hands hidden in his sleeves, exactly one man"),
+40:([],0,"an ancient Chinese hall with two low wooden seats like flat benches with straw mats side by side and a small low table with a single plain clay cup, soft light"),
+45:([],0,"the gate-tower of an ancient Chinese city standing open onto a dirt road leading to misty hills, calm morning, no people"),
+47:(["daokhiem_t4b"],1,f"{WB}, Tao Qian lying on a low wooden couch with a straw mat and a plain cloth bolster, frail and tired, one hand hidden under a plain blanket, exactly one man"),
+48:(["mitruc_t4"],1,f"{WB}, Mi Zhu kneeling on a straw mat beside a low couch with a worried gentle face, hands hidden in his sleeves, dim light from a small clay oil lamp, exactly one man"),
+50:([],0,"an empty ancient Chinese sickroom with a low wooden couch and a straw mat, a hanging cloth screen, a clay bowl of medicine on the floor mat and a small clay oil lamp, dim light"),
+52:(["liubei_t4b"],1,f"{WB}, Liu Bei hesitating and shaking his head, hands tucked into his sleeves, uneasy look, exactly one man"),
+54:([],0,"a tall ancient Chinese city gate-tower with a plain solid-colour banner above rice fields, grey sky, no writing and no emblem on the banner, no people"),
+57:(["liubei_t4b"],1,f"{WB}, Liu Bei bowing slightly in acceptance with his hands joined in front of him, solemn face, exactly one man"),
+60:([],0,"a wooden chest of old bronze coins and bolts of silk stacked in an ancient storeroom with clay jars, light from a small clay oil lamp, no people"),
+61:(["liubei_t4c"],1,f"{WB}, Liu Bei in his governor's robe at the top of stone steps with an ancient Chinese city of grey tiled roofs behind him, calm and weighty, hands hidden in his sleeves, exactly one man"),
+62:([],0,"a heavy bronze official seal on a lacquered stand beside an open ancient Chinese city gate in morning light, no keys, no people"),
+64:(["liubei_t4c"],1,f"{WB}, Liu Bei listening with a thoughtful look, one hand at his chin, the other arm hidden, exactly one man"),
+67:(["liubei_t4c"],1,f"{WB}, Liu Bei with a tired humane look reading a bamboo-slip scroll, hands hidden in his sleeves, exactly one man"),
+69:(["liubei_t4c"],1,f"{WB}, portrait of Liu Bei in his early thirties, calm and weathered, looking slightly to the side, hands hidden, exactly one man"),
+70:([],0,"the wooden gate of a small ancient Chinese county town with a plain solid-colour flag in early morning light, no writing on the gate, no people"),
+71:([],0,"a pair of worn straw sandals tied with cord and a plain black cloth official cap with a flat top and two short ties, lying on a stone step, morning light"),
+72:([],0,"a long winding dirt road across hills leading from a village to a river city of tiled roofs, golden light, no paving, no road markings"),
+73:(["quanvu_t4b","trieuphi_t4b"],2,f"{WB}, two-shot of Guan Yu and Zhang Fei standing side by side, calm serious faces, hands hidden behind their bodies, exactly two men"),
+74:([],0,"a wide low wooden sleeping platform with three folded plain blankets in a modest ancient Chinese room, a small clay oil lamp glowing on the floor"),
+75:([],0,"a rich walled ancient Chinese river city of grey tiled roofs with wooden grain boats moored at the bank under gathering dark clouds, no people"),
+77:([],0,"a tall ancient Chinese city gate-tower above rice fields under a grey sky, a plain solid-colour banner with no writing, no people"),
+78:([],0,"a dim ancient Chinese government hall corridor with wooden pillars and a half-open wooden door, a small clay oil lamp on the floor, long shadows, no people"),
+79:(["liubei_t4c"],1,f"{WB}, Liu Bei alone on a stone city wall at dusk looking around at the four directions, worried, hands hidden in his sleeves, exactly one man"),
+80:([],0,"four dirt roads meeting at an ancient Chinese city gate, each fading into hills under a darkening sky, no paving, no road markings, no people"),
+81:([],0,"a dirt road across green fields with two lines of footprints made by cloth shoes, one line heading north and one heading east, soft morning light, no writing"),
+84:(["lubo_t4b"],1,"a small distant figure of Lu Bu seen from behind on a long empty dirt road leading toward an ancient Chinese city gate at dusk, travel-stained, exactly one man, arms hidden, no paved road, no poles"),
+85:([],0,"a rainy night at an ancient Chinese city gate on a dirt road, one small hanging oil lantern on the gate and a cloth bundle left on the road, no lamp post"),
+86:([],0,"a bamboo-slip scroll tied with cord on a low wooden table beside a clay oil lamp at night, a wooden lattice window with no glass behind"),
+}
+S = [(i,)+OV[i] if i in OV else (i,nv,n,m) for (i,nv,n,m) in S]
+ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt roads and stone paths only (no asphalt, no road markings, no electric poles or wires), "
+        "no glass windows (wooden lattice only), no door knobs or handles, no chairs with backs or modern furniture (people sit on straw mats or low benches and sleep on low wooden couches), "
+        "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European buildings, "
+        "no striped awnings, no baseball caps, no modern shoes (soft cloth shoes or straw sandals), no writing on objects, signs or banners")
 assert [s[0] for s in S] == list(range(1, 87)), "thiếu hoặc lặp ảnh"
 # phụ kiện chức vụ
 EXTRA = {}
@@ -114,13 +169,13 @@ for i, nv, n, m in S:
 
 SUF = ("medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, "
        "serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. "
-       "Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces")
+       "Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces. " + ANTI)
 out, canh = [], []
 for i, nv, n, m in S:
     k = f"{i:03d}"
     canh.append({"key": k, "nv": nv, "so_nguoi": n, "mo_ta": m})
     if n == 0:
-        out.append({"key": k, "nv": [], "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo"})
+        out.append({"key": k, "nv": [], "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
         continue
     cnt = f"The picture contains exactly {n} {'person' if n == 1 else 'people'} in the foreground and no one else."
     chars = " Characters (keep exactly this look): " + "; ".join(NV[x] + ((", " + EXTRA[(i, x)]) if (i, x) in EXTRA else "") for x in nv) + "."

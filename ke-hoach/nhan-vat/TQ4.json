@@ -1,0 +1,603 @@
+{
+ "ma": "TQ4",
+ "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu",
+ "canh": [
+  {
+   "key": "001",
+   "nv": [
+    "daokhiem_t4a"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Tao Qian, an old governor, holding out a small lacquered seal box with one hand in a ceremonial offer, the other arm hidden in his sleeve, exactly one man"
+  },
+  {
+   "key": "002",
+   "nv": [
+    "liubei_t4c"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei bowing his head and shaking it gently in refusal, both hands tucked into his sleeves, exactly one man"
+  },
+  {
+   "key": "003",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an open bundle of bamboo-slip history books on a dark wooden desk with a brush beside it, warm candlelight"
+  },
+  {
+   "key": "004",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "the gate of a prosperous walled city on a river plain with tiled towers and grain boats at the quay, soft morning light"
+  },
+  {
+   "key": "005",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a fork in a dirt road across a wide plain, one road heading toward northern hills and the other toward a river in the east, evening light"
+  },
+  {
+   "key": "006",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a stone ink slab and a stand of brushes on a plain wooden table at dawn"
+  },
+  {
+   "key": "007",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small walled county town on a flat northern plain with a grey brick wall and one plain red banner, morning mist"
+  },
+  {
+   "key": "008",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a low official desk with three stacked bamboo-slip appointment documents and a small bronze seal, grey window light"
+  },
+  {
+   "key": "009",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "two army camps far apart on a wide plain separated by a slow river, plain banners, a thin line of smoke, seen from a hill"
+  },
+  {
+   "key": "010",
+   "nv": [
+    "liubei_t4a"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei sitting alone at night beside a clay oil lamp, tired but thoughtful, an iron armour on a wooden stand behind him, exactly one man, his far hand hidden under the table"
+  },
+  {
+   "key": "011",
+   "nv": [
+    "luubinh"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Ping standing at a doorway with a sour contemptuous expression, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "liubei_t4a",
+    "thichkhach"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Liu Bei and a guest in plain dark clothes sitting across a low table, the guest bowing his head and speaking quietly, Liu Bei listening in surprise, hands hidden in sleeves, exactly two men, nothing in their hands"
+  },
+  {
+   "key": "013",
+   "nv": [
+    "liubei_t4a"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up portrait of Liu Bei with a calm gentle face and the hint of a kind smile, both hands tucked into his sleeves, exactly one man"
+  },
+  {
+   "key": "014",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a row of tiled county roofs at dusk with a single lit window, quiet and small beneath a wide darkening sky"
+  },
+  {
+   "key": "015",
+   "nv": [
+    "thaisutu_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Taishi Ci arriving dusty and out of breath with an urgent expression, one hand holding a small rolled letter, the other arm hidden behind his back, exactly one man"
+  },
+  {
+   "key": "016",
+   "nv": [
+    "khongdung_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up portrait of Kong Rong, a refined scholar, calm and thoughtful, both hands tucked into his sleeves, a distant city wall faint behind him, exactly one man"
+  },
+  {
+   "key": "017",
+   "nv": [
+    "liubei_t4a",
+    "thaisutu_t4"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Liu Bei moved and surprised, one hand pressed to his chest, and Taishi Ci bowing before him, exactly two men, outer arms hidden"
+  },
+  {
+   "key": "018",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a lone small army camp at dusk with a single tall plain red banner at the foot of northern hills, a thin cooking fire"
+  },
+  {
+   "key": "019",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a wooden cart at a camp gate loaded with spears, shields and plain iron helmets, no people"
+  },
+  {
+   "key": "020",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "bare fields at dawn with abandoned cooking fires and dropped plain flags after an army has fled, empty of people"
+  },
+  {
+   "key": "021",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small clay cup and a folded letter on a scholar's table in warm lamp light"
+  },
+  {
+   "key": "022",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a closed wooden gate at evening with a small hanging lantern, calm and waiting"
+  },
+  {
+   "key": "023",
+   "nv": [
+    "taotao_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao with a sharp ambitious gaze looking forward, one hand resting on his sword hilt, the other arm hidden under his cloak, exactly one man"
+  },
+  {
+   "key": "024",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a quiet country house with a courtyard and a bamboo grove on a green hillside, peaceful morning"
+  },
+  {
+   "key": "025",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty lonely road at dusk in mist with a single overturned small cart and a few scattered belongings, no people"
+  },
+  {
+   "key": "026",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a dark river crossing with a broken wooden bridge at night and distant torch light, no people"
+  },
+  {
+   "key": "027",
+   "nv": [
+    "taotao_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao with a cold clenched jaw and a hard gaze, a plain dark banner behind him, both arms hidden under his cloak, exactly one man"
+  },
+  {
+   "key": "028",
+   "nv": [
+    "daokhiem_t4a"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Tao Qian seated at a desk with a tired worried face, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "029",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a rich walled city on a river plain with grain boats at the quay and market stalls under striped awnings, no people"
+  },
+  {
+   "key": "030",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a walled city with thick grey smoke rising over its towers and abandoned fields before it, no people"
+  },
+  {
+   "key": "031",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "dry abandoned fields and an empty river bank under a heavy sky, black smoke far away, no people"
+  },
+  {
+   "key": "032",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty market street with overturned stalls and drifting dust in grey light, no people"
+  },
+  {
+   "key": "033",
+   "nv": [
+    "tuongquan"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of a Han army commander reading an urgent rolled letter with one hand, serious face, the other arm hidden behind his back, exactly one man"
+  },
+  {
+   "key": "034",
+   "nv": [
+    "tuongquan",
+    "liubei_t4b"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of an army commander and Liu Bei standing side by side looking east at dawn, resolute, outer arms hidden, exactly two men"
+  },
+  {
+   "key": "035",
+   "nv": [
+    "liubei_t4b"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei striding forward at the head of his camp, determined face, one hand on the hilt of his sword, the other arm hidden, exactly one man"
+  },
+  {
+   "key": "036",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small modest army camp at dusk with a handful of tents, sacks of grain and a few horses grazing, no people"
+  },
+  {
+   "key": "037",
+   "nv": [
+    "tuongquan",
+    "liubei_t4b"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of an officer and Liu Bei on a muddy river bank east of a walled town looking grimly toward enemy smoke, outer arms hidden, exactly two men"
+  },
+  {
+   "key": "038",
+   "nv": [
+    "daokhiem_t4a"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Tao Qian at a window looking out hopefully at the road, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "039",
+   "nv": [
+    "daokhiem_t4a",
+    "liubei_t4b"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Tao Qian pointing toward a line of tents with one hand while Liu Bei bows in thanks with hands joined, exactly two men"
+  },
+  {
+   "key": "040",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a quiet hall with two empty seats side by side and a low table with a single ceramic cup, soft light"
+  },
+  {
+   "key": "041",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small bronze official seal on a ribbon cord resting on a lacquered tray beside a rolled bamboo-slip memorial, morning light"
+  },
+  {
+   "key": "042",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small walled town on a plain at dusk with a few camp fires outside the wall, no people"
+  },
+  {
+   "key": "043",
+   "nv": [
+    "taotao_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Cao Cao turning to look back over his shoulder with a cold frown, a dusty cloak around him, exactly one man, arms hidden"
+  },
+  {
+   "key": "044",
+   "nv": [
+    "lubo_t4a"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Lu Bu seen from behind in armour, looking toward a distant gate, his face not visible, exactly one man, arms hidden"
+  },
+  {
+   "key": "045",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "the gate of a city standing open onto a calm morning road, a thin mist, no people"
+  },
+  {
+   "key": "046",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a stone road leading away from a field camp with a few plain red banners lowered, no people"
+  },
+  {
+   "key": "047",
+   "nv": [
+    "daokhiem_t4b"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Tao Qian propped on pillows in a dim room, frail and tired, one hand hidden under the blanket, exactly one man"
+  },
+  {
+   "key": "048",
+   "nv": [
+    "mitruc_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Mi Zhu seated at a bedside with a worried gentle face, hands hidden in his sleeves, dim lamp light, exactly one man"
+  },
+  {
+   "key": "049",
+   "nv": [
+    "daokhiem_t4b",
+    "mitruc_t4"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Tao Qian whispering to Mi Zhu who bends close to listen, dim lamp light, exactly two men, outer arms hidden"
+  },
+  {
+   "key": "050",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an empty lamp-lit room with a low bed, curtains drawn and a bowl of medicine on a small stool"
+  },
+  {
+   "key": "051",
+   "nv": [
+    "mitruc_t4",
+    "liubei_t4b"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Mi Zhu bowing before Liu Bei in a camp, Liu Bei startled, hands hidden in sleeves, exactly two men"
+  },
+  {
+   "key": "052",
+   "nv": [
+    "liubei_t4b"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei hesitating and shaking his head, hands tucked into his sleeves, uneasy look, exactly one man"
+  },
+  {
+   "key": "053",
+   "nv": [
+    "tranang_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Chen Deng speaking earnestly with one hand raised palm out, the other arm hidden, exactly one man"
+  },
+  {
+   "key": "054",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a tall proud southern walled city with a grand gate-tower and a banner above rice fields, grey sky, no people"
+  },
+  {
+   "key": "055",
+   "nv": [
+    "tranang_t4",
+    "liubei_t4b"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Chen Deng shaking his head firmly while Liu Bei listens carefully, hands hidden in sleeves, exactly two men"
+  },
+  {
+   "key": "056",
+   "nv": [
+    "khongdung_t4"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Kong Rong urging with a firm kind look, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "057",
+   "nv": [
+    "liubei_t4b"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei bowing slightly in acceptance with his hands joined in front of him, solemn face, exactly one man"
+  },
+  {
+   "key": "058",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small spring stream flowing into a wide calm river on a plain, soft light"
+  },
+  {
+   "key": "059",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "three objects on a wooden table: a jade pendant, a rolled scroll and a small clay bowl, warm light"
+  },
+  {
+   "key": "060",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a wooden chest of coins and bolts of silk stacked in a storeroom, lamp light, no people"
+  },
+  {
+   "key": "061",
+   "nv": [
+    "liubei_t4c"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei in his governor's robe standing at the top of the steps of a city hall looking over the city, calm and weighty, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "062",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a heavy ring of city keys and a seal on a wooden stand beside an open city gate, morning light"
+  },
+  {
+   "key": "063",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "two empty cushions facing each other across a closed lacquered box in a quiet hall, soft light"
+  },
+  {
+   "key": "064",
+   "nv": [
+    "liubei_t4c"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei listening with a thoughtful look, one hand at his chin, the other arm hidden, exactly one man"
+  },
+  {
+   "key": "065",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a walled city on a plain with a single red banner on its tower at evening, no people"
+  },
+  {
+   "key": "066",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a balance scale on a wooden table with a small jade piece on one side and a small bag of coins on the other, soft light"
+  },
+  {
+   "key": "067",
+   "nv": [
+    "liubei_t4c"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei with a tired humane look reading a bamboo slip, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "068",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "an unrolled blank bamboo-slip scroll beside a closed wooden box in dawn light"
+  },
+  {
+   "key": "069",
+   "nv": [
+    "liubei_t4c"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up portrait of Liu Bei in his early thirties, calm and weathered, looking slightly to the side, hands hidden, exactly one man"
+  },
+  {
+   "key": "070",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a small county gate with a plain flag in early morning light, no people"
+  },
+  {
+   "key": "071",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a worn straw sandal and a discarded black cap lying on a stone step, morning light"
+  },
+  {
+   "key": "072",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a long winding road across hills with milestone stones leading from a village to a river city, golden light"
+  },
+  {
+   "key": "073",
+   "nv": [
+    "quanvu_t4b",
+    "trieuphi_t4b"
+   ],
+   "so_nguoi": 2,
+   "mo_ta": "waist-up two-shot of Guan Yu and Zhang Fei standing side by side, calm serious faces, outer arms hidden, exactly two men"
+  },
+  {
+   "key": "074",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "one wide wooden bed with three folded blankets in a modest room, a clay lamp glowing"
+  },
+  {
+   "key": "075",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a rich walled city on a river with grain boats moored under gathering dark clouds, no people"
+  },
+  {
+   "key": "076",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a plain grave mound with incense sticks smoking at grey dawn, bare trees, no people"
+  },
+  {
+   "key": "077",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a tall gate-tower of a southern city above rice fields, banner flying under a grey sky, no people"
+  },
+  {
+   "key": "078",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a half-open door with a lamp in a government hall corridor, long shadows, no people"
+  },
+  {
+   "key": "079",
+   "nv": [
+    "liubei_t4c"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "waist-up of Liu Bei alone on a city wall at dusk looking around at the four directions, worried, hands hidden in his sleeves, exactly one man"
+  },
+  {
+   "key": "080",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "four roads meeting at a city gate, each fading into hills under a darkening sky, no people"
+  },
+  {
+   "key": "081",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "two sets of footprints on a dirt road, one heading north and one heading east, in soft morning light"
+  },
+  {
+   "key": "082",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "three lit lanterns at a gate at night, warm glow in the dark"
+  },
+  {
+   "key": "083",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a lacquered gift box with a gold clasp slightly open, dark mist curling around it on a table"
+  },
+  {
+   "key": "084",
+   "nv": [
+    "lubo_t4b"
+   ],
+   "so_nguoi": 1,
+   "mo_ta": "a small distant figure of Lu Bu seen from behind on a long empty road leading toward a city gate at dusk, travel-stained, exactly one man, arms hidden"
+  },
+  {
+   "key": "085",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a rainy night at a city gate with a lone lantern and a bundle left on the road, no people"
+  },
+  {
+   "key": "086",
+   "nv": [],
+   "so_nguoi": 0,
+   "mo_ta": "a closed bamboo-slip scroll tied with cord on a desk beneath a clay lamp at night"
+  }
+ ]
+}

@@ -20,12 +20,17 @@ ROOT = Path(__file__).resolve().parent
 SERIES_MAC_DINH = {"era": "vật hiện đại không đúng năm 1914-1917, ví dụ máy tính, máy ảnh SLR, nhà kính hiện đại", "extra": "", "cac_loi": {}}
 SERIES = {
     "TQ": {
-        "era": "vật, trang phục không đúng Đông Hán năm 184-192 SCN: áo kiểu Minh/Thanh, bím tóc Mãn Thanh, trang điểm hí kịch, bàn đạp ngựa, súng, đường nhựa có vạch kẻ, cột điện, vật hiện đại",
+        "era": "vật, trang phục không đúng Đông Hán năm 184-192 SCN: áo kiểu Minh/Thanh, bím tóc Mãn Thanh, trang điểm hí kịch, bàn đạp ngựa, súng, đường nhựa có vạch kẻ, cột điện, đèn điện / bóng đèn / chao đèn / đèn bàn / đèn lồng thủy tinh, cửa sổ kính ô vuông, ổ cắm hoặc công tắc trên tường, khung tranh, sách đóng gáy hiện đại, cốc có quai kiểu phương Tây, ghế kiểu phương Tây, vật hiện đại",
         "extra": ('"co_ngua": <true nếu có con ngựa nhìn thấy trong ảnh>, '
                   '"co_chu_bieu_tuong": <true nếu cờ, biển, áo hoặc vật nào có chữ, ký tự hay biểu tượng nhìn rõ; cờ phải trơn một màu>, '
-                  '"bao_luc": <true nếu thấy máu, người bị chém, bị đâm, thi thể hoặc cảnh giết>, '),
+                  '"bao_luc": <true nếu thấy máu, người bị chém, bị đâm, thi thể hoặc cảnh giết>, '
+                  '"hai_nguoi_giong_het": <true nếu hai người trong ảnh có cùng một khuôn mặt, dáng, áo gần như sao chép nhau>, '
+                  '"vat_sai_cau_tao": <true nếu có vật méo hoặc sai cấu tạo: vòi ấm ngược, vật lơ lửng không có chỗ đỡ, chim hoặc đồ vật đậu giữa không trung, cầu hoặc nhà vô lý, vật thừa/thiếu một phần>, '
+                  '"khung_vien": <true nếu ảnh có viền khung đen hoặc viền trắng quanh mép>, '),
         "cac_loi": {"co_ngua": "có ngựa (quy ước không vẽ ngựa)", "co_chu_bieu_tuong": "cờ/vật có chữ hoặc biểu tượng",
-                    "bao_luc": "có máu hoặc cảnh giết (không được)"},
+                    "bao_luc": "có máu hoặc cảnh giết (không được)",
+                    "hai_nguoi_giong_het": "hai người giống hệt nhau", "vat_sai_cau_tao": "vật sai cấu tạo / lơ lửng",
+                    "khung_vien": "ảnh có viền khung"},
     },
 }
 

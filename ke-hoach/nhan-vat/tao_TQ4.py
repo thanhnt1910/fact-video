@@ -18,9 +18,9 @@ NV = {**tq["nhan_vat"], **t2["nhan_vat_phu"], **tp["trang_phuc"], **EXTRA}
 WP = {
  "quanvu": ", always carrying his signature weapon the Green Dragon Crescent Blade (guandao): a very long straight dark-brown wooden pole with two plain gold bands, a small bronze ornate dragon-relief collar at the top, and ONE large, broad, curved single-edged polished silver blade sweeping out from the collar with a notch cut in its back edge, a small pointed brass cap at the bottom end of the pole (exactly as in the weapon reference image, simple and clean), held upright beside him or in one or both hands",
  "trieuphi": ", always carrying his signature weapon the serpent spear (zhangba shemao): a very long straight dark-brown wooden pole with two plain gold bands and a gold ring collar, topped by ONE long straight narrow leaf-shaped silver spearhead with a snake pattern engraved on it, a small steel spike at the bottom end of the pole (exactly as in the weapon reference image, simple and clean, straight blade, no loops), held upright beside him or in one or both hands",
- "liubei": ", wearing exactly ONE straight double-edged sword (jian) in a plain scabbard at his left hip (a single sword only, never two, never crossed)",
+ "liubei": ", wearing exactly ONE straight sword (jian) fully inside a plain dark scabbard at his left hip (a single sword only, never two, never crossed, blade not visible)",
  "lubo": ", carrying his signature weapon the Sky Piercer halberd (Fangtian Huaji): a long pole with a spear point and a crescent blade on one side",
- "taotao": ", a sheathed straight sword at his waist",
+ "taotao": ", a straight sword fully inside its scabbard at his waist (blade not visible)",
  "thaisutu": ", a bow and quiver on his back and a long halberd in hand",
 }
 for _k in list(NV):
@@ -150,6 +150,8 @@ ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt 
         "no glass windows (wooden lattice only), no door knobs or handles, no signboards or plaques on gates or buildings, no chairs with backs or modern furniture (people sit on straw mats or low benches), "
         "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European, Korean or Japanese buildings (Han Chinese grey-tiled mud-brick and timber architecture), "
         "each person carries at most ONE sword (a single straight sword either sheathed at one hip or held in one hand), never two swords on one person, never crossed swords, never a sword plus extra blades, "
+        "a sword worn at the hip or back is ALWAYS fully inside its scabbard, only the hilt and the scabbard are visible, a bare blade is drawn ONLY when the person holds the sword in his hand, "
+        "no two people in the picture look the same: every person has a different face, age, hair, beard and clothing colour, no clones, no twins, no repeated faces, "
         "no striped awnings or canopies, no ceiling lamps, no desk lamps, no hanging signs, windows are plain square openings with vertical wooden bars only and no glass panes and no paper panes, roofs have heavy straight ridges and gently sloped eaves, not upturned curved Korean or Japanese eaves, no plaques, no bench with a backrest, no writing or Chinese characters anywhere (blank plain gates, blank banners, blank hanging cloths, blank scroll surfaces), no electric poles or wires, no baseball caps, no modern shoes (soft cloth shoes, boots or straw sandals), no writing on objects, signs or banners, "
         "ALL flags, banners, cloths, plaques and walls are completely blank: no symbols, no emblems, no characters, no pseudo-writing, no calligraphy; "
         "no lanterns hanging from poles, eaves or ceilings and no street lamps (light only from small clay oil lamps on tables and from torches), "

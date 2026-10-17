@@ -57,8 +57,8 @@
   {
    "key": "009",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "two army camps far apart on a wide plain separated by a slow river, plain banners, a thin line of smoke, seen from a hill"
+   "so_nguoi": "g",
+   "mo_ta": "two army camps far apart on a wide plain separated by a slow river, each with rows of small distant Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears standing in formation beside plain banners, seen from a hill, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "010",
@@ -127,20 +127,20 @@
   {
    "key": "018",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a lone small army camp at dusk with a single tall plain red banner at the foot of northern hills, a thin cooking fire"
+   "so_nguoi": "g",
+   "mo_ta": "a small army camp at dusk at the foot of northern hills, a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears sitting around a camp fire and one sentry with a spear beside a tall plain red banner, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "019",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a wooden cart at a camp gate loaded with spears, shields and plain iron helmets, no people"
+   "so_nguoi": "g",
+   "mo_ta": "a column of about twenty Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears marching along a dusty road with a plain red banner, seen from behind and slightly above, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "020",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "bare fields at dawn with abandoned cooking fires and dropped plain flags after an army has fled, empty of people"
+   "so_nguoi": "g",
+   "mo_ta": "a disciplined line of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears seen from behind advancing across a plain toward distant besieging tents that are being struck and abandoned, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "021",
@@ -234,8 +234,8 @@
     "tuongquan",
     "liubei_t4b"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up two-shot of an army commander and Liu Bei standing side by side looking east at dawn, resolute, outer arms hidden, exactly two men"
+   "so_nguoi": "g",
+   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground an army commander and Liu Bei side by side looking east at dawn, resolute, outer arms hidden, exactly two men in the foreground; behind them ranks of marching Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears with plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "035",
@@ -248,8 +248,8 @@
   {
    "key": "036",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a small modest army camp at dusk with a handful of tents, sacks of grain and a few horses grazing, no people"
+   "so_nguoi": "g",
+   "mo_ta": "a small modest army camp at dusk with a handful of tents, a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears resting by camp fires, sacks of grain, and a few horsemen on horses at the edge of the camp, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "037",
@@ -257,8 +257,8 @@
     "tuongquan",
     "liubei_t4b"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up two-shot of an officer and Liu Bei on a muddy river bank east of a walled town looking grimly toward enemy smoke, outer arms hidden, exactly two men"
+   "so_nguoi": "g",
+   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground an officer and Liu Bei on a muddy river bank looking grimly toward enemy smoke over a walled town, outer arms hidden, exactly two men in the foreground; behind them a small group of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears on the bank, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "038",
@@ -274,8 +274,8 @@
     "daokhiem_t4a",
     "liubei_t4b"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up two-shot of Tao Qian pointing toward a line of tents with one hand while Liu Bei bows in thanks with hands joined, exactly two men"
+   "so_nguoi": "g",
+   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground Tao Qian pointing toward a line of tents with one hand while Liu Bei bows in thanks, exactly two men in the foreground; behind them rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears lined up in front of the tents, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "040",
@@ -292,16 +292,16 @@
   {
    "key": "042",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a small walled town on a plain at dusk with a few camp fires outside the wall, no people"
+   "so_nguoi": "g",
+   "mo_ta": "a small walled town on a plain at dusk with a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears standing on the wall and camp fires with resting soldiers outside the wall, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "043",
    "nv": [
     "taotao_t4"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Cao Cao turning to look back over his shoulder with a cold frown, a dusty cloak around him, exactly one man, arms hidden. Background: a dusty road with the plain banners of a retreating army and distant hills, dusk"
+   "so_nguoi": "g",
+   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground Cao Cao turning to look back over his shoulder with a cold frown, exactly one man in the foreground; behind him a retreating column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears on a dusty road with lowered plain dark banners at dusk, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "044",
@@ -320,8 +320,8 @@
   {
    "key": "046",
    "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a stone road leading away from a field camp with a few plain red banners lowered, no people"
+   "so_nguoi": "g",
+   "mo_ta": "a stone road in the evening with a column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears marching away between plain red banners that are lowered, seen from behind, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "047",
@@ -514,8 +514,8 @@
     "quanvu_t4b",
     "trieuphi_t4b"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, two-shot of Guan Yu and Zhang Fei standing side by side, calm serious faces, hands hidden behind their bodies, exactly two men. Background: an army camp at dusk with tents, spear racks and plain banners, misty hills behind"
+   "so_nguoi": "g",
+   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground Guan Yu and Zhang Fei standing side by side, calm serious faces, hands hidden behind their bodies, exactly two men in the foreground; behind them rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears and plain banners in an army camp at dusk, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
   },
   {
    "key": "074",

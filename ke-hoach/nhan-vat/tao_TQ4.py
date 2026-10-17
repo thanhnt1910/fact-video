@@ -212,6 +212,25 @@ OV2 = {
 80:([],0,"four dirt roads meeting at an ancient Chinese city gate, each fading into hills under a darkening sky, no paving, no road markings"+EMPTY),
 }
 S = [(i,)+OV2[i] if i in OV2 else (i,nv,n,m) for (i,nv,n,m) in S]
+
+# --- sửa lần 5 (17/10): thêm cảnh binh lính (nhóm lính nhìn từ sau hoặc từ xa, không đánh nhau) ---
+SOL = "Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears"
+NOFIGHT = "no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+OV3 = {
+9:([],"g","two army camps far apart on a wide plain separated by a slow river, each with rows of small distant "+SOL+" standing in formation beside plain banners, seen from a hill, "+NOFIGHT),
+18:([],"g","a small army camp at dusk at the foot of northern hills, a few "+SOL+" sitting around a camp fire and one sentry with a spear beside a tall plain red banner, "+NOFIGHT),
+19:([],"g","a column of about twenty "+SOL+" marching along a dusty road with a plain red banner, seen from behind and slightly above, "+NOFIGHT),
+20:([],"g","a disciplined line of "+SOL+" seen from behind advancing across a plain toward distant besieging tents that are being struck and abandoned, plain banners, "+NOFIGHT),
+34:(["tuongquan","liubei_t4b"],"g",WB+", in the foreground an army commander and Liu Bei side by side looking east at dawn, resolute, outer arms hidden, exactly two men in the foreground; behind them ranks of marching "+SOL+" with plain banners, "+NOFIGHT),
+36:([],"g","a small modest army camp at dusk with a handful of tents, a few "+SOL+" resting by camp fires, sacks of grain, and a few horsemen on horses at the edge of the camp, plain banners, "+NOFIGHT),
+37:(["tuongquan","liubei_t4b"],"g",WB+", in the foreground an officer and Liu Bei on a muddy river bank looking grimly toward enemy smoke over a walled town, outer arms hidden, exactly two men in the foreground; behind them a small group of "+SOL+" on the bank, "+NOFIGHT),
+39:(["daokhiem_t4a","liubei_t4b"],"g",WB+", in the foreground Tao Qian pointing toward a line of tents with one hand while Liu Bei bows in thanks, exactly two men in the foreground; behind them rows of "+SOL+" lined up in front of the tents, plain banners, "+NOFIGHT),
+42:([],"g","a small walled town on a plain at dusk with a few "+SOL+" standing on the wall and camp fires with resting soldiers outside the wall, plain banners, "+NOFIGHT),
+43:(["taotao_t4"],"g",WB+", in the foreground Cao Cao turning to look back over his shoulder with a cold frown, exactly one man in the foreground; behind him a retreating column of "+SOL+" on a dusty road with lowered plain dark banners at dusk, "+NOFIGHT),
+46:([],"g","a stone road in the evening with a column of "+SOL+" marching away between plain red banners that are lowered, seen from behind, "+NOFIGHT),
+73:(["quanvu_t4b","trieuphi_t4b"],"g",WB+", in the foreground Guan Yu and Zhang Fei standing side by side, calm serious faces, hands hidden behind their bodies, exactly two men in the foreground; behind them rows of "+SOL+" and plain banners in an army camp at dusk, "+NOFIGHT),
+}
+S = [(i,)+OV3[i] if i in OV3 else (i,nv,n,m) for (i,nv,n,m) in S]
 assert [s[0] for s in S] == list(range(1, 87)), "thiếu hoặc lặp ảnh"
 # phụ kiện chức vụ
 EXTRA = {}
@@ -231,6 +250,9 @@ for i, nv, n, m in S:
         out.append({"key": k, "nv": [], "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
         continue
     cnt = f"The picture contains exactly {n} {'person' if n == 1 else 'people'} in the foreground and no one else."
+    if n == "g" and not nv:
+        out.append({"key": k, "nv": [], "prompt": f"{m}. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, serious documentary mood, no text, no letters, no watermark, not 3D, not a photo, not cartoonish. Plain solid-colour banners with no symbols. Every picture has a rich detailed background. " + ANTI})
+        continue
     chars = " Characters (keep exactly this look): " + "; ".join(NV[x] + ((", " + EXTRA[(i, x)]) if (i, x) in EXTRA else "") for x in nv) + "."
     out.append({"key": k, "nv": nv, "prompt": f"{m}. {cnt}{chars} {STYLE}. {SUF}"})
 (R / "TQ4.json").write_text(json.dumps({"ma": "TQ4", "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")

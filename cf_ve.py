@@ -7,13 +7,13 @@ ROOT = Path(__file__).resolve().parent
 job = json.loads((ROOT/"cf_job.json").read_text(encoding="utf-8"))
 ma = job["ma"]; vars_ = job.get("vars", "ab"); use_refs = job.get("refs", False)
 accs = []
-for suf in ("", "_2", "_3"):
+for suf in ("", "_2", "_3", "_4", "_5"):
     a = os.environ.get("CF_ACCOUNT_ID" + suf, "").strip(); t = os.environ.get("CF_API_TOKEN" + suf, "").strip()
     if a and t: accs.append((a, t))
 items = {x["key"]: x for x in json.loads((ROOT/f"ke-hoach/nhan-vat/{ma}_anh.json").read_text(encoding="utf-8"))}
 out = ROOT/f"assets/anh_2d/CF_{ma}"; out.mkdir(parents=True, exist_ok=True)
 RD = ROOT/"ke-hoach/nhan-vat/refs"
-cur = 0; log = []
+cur = 0; log = [f"có {len(accs)} tài khoản Cloudflare"]
 def multipart(fields, files):
     b = uuid.uuid4().hex; body = b""
     for k, v in fields.items():

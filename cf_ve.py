@@ -45,7 +45,8 @@ def run(name, prompt, refs):
     log.append(f"{name}: hết tài khoản")
 for k in job["keys"]:
     it = items[k]
-    refs = [RD/f"{n}.jpg" for n in it.get("refs", []) if (RD/f"{n}.jpg").exists()][:3] if use_refs else []
+    names = job.get("ref_names", {}).get(k, it.get("refs", []))
+    refs = [RD/f"{n}.jpg" for n in names if (RD/f"{n}.jpg").exists()][:3] if use_refs else []
     for v in vars_:
         if (out/f"{k}_{v}.jpg").exists(): continue
         run(f"{k}_{v}", it["prompt"], refs)

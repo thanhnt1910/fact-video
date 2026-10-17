@@ -44,7 +44,7 @@ for k in keys:
     it = items[k]
     ref = style if (not it["nv"] and k != "035" and style.exists()) else None
     pre = "Draw in exactly the same drawing style, line weight and colours as the reference image, but a completely different place and no people from the reference. " if ref else ""
-    for v in "ab":
+    for v in (ROOT/"cf_tq3_vars.txt").read_text().strip() if (ROOT/"cf_tq3_vars.txt").exists() else "ab":
         if (out/f"{k}_{v}.jpg").exists(): continue
         run(f"{k}_{v}", pre + it["prompt"], ref)
 (out/"nhat_ky.txt").write_text("\n".join(log), encoding="utf-8"); print("\n".join(log))

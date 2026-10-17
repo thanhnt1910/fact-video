@@ -15,6 +15,10 @@ on:
         description: "Đợt vẽ lại (đổi hạt giống): 1, 2, 3…"
         required: false
         default: "1"
+      hau_to:
+        description: "Vẽ vào thư mục <mã><hậu tố> (vd _KG -> assets/anh_2d/TQ3_KG) để không đè ảnh đã chọn; để trống = ghi vào <mã>"
+        required: false
+        default: ""
       chi_tai:
         description: "1 = không vẽ mới, chỉ tải lại kết quả lần Kaggle trước"
         required: false
@@ -38,6 +42,7 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           CHI_TAI_LAI: ${{ inputs.chi_tai }}
+          OUT_SUFFIX: ${{ inputs.hau_to }}
         run: |
           set -o pipefail
           python ve_anh_2d.py "${{ inputs.ma }}" "${{ inputs.lam_lai }}" "${{ inputs.dot }}" 2>&1 | tee /tmp/ve.txt
@@ -51,7 +56,7 @@ jobs:
           cp /tmp/ve.txt logs/ve_anh_2d/$M.txt 2>/dev/null
           cp logs/kaggle_last.txt logs/ve_anh_2d/${M}_kaggle.txt 2>/dev/null
           D=""
-          D="$D | anh=$(ls assets/anh_2d/$M 2>/dev/null | wc -l)"
+          D="$D | anh=$(ls assets/anh_2d/$M${{ inputs.hau_to }} 2>/dev/null | wc -l)"
           D="$D | ve=$(tail -c 600 /tmp/ve.txt 2>/dev/null | tr '\n' ' ')"
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"

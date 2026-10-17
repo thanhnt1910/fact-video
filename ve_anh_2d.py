@@ -21,7 +21,7 @@ def main():
     redo = [x.strip() for x in (sys.argv[2] if len(sys.argv) > 2 else "").split(",") if x.strip()]
     dot = int(sys.argv[3]) if len(sys.argv) > 3 else 0
     items = json.loads((ROOT / "ke-hoach" / "nhan-vat" / f"{ma}_anh.json").read_text(encoding="utf-8"))
-    out = ROOT / "assets" / "anh_2d" / ma
+    out = ROOT / "assets" / "anh_2d" / (ma + os.environ.get("OUT_SUFFIX", ""))
     out.mkdir(parents=True, exist_ok=True)
     jobs = []
     for it in items:

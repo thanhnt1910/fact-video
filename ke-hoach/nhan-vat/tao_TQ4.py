@@ -106,7 +106,7 @@ OV = {
  3: ([], "an empty low wooden table in a hall with a tied bamboo-slip scroll and a small clay oil lamp, wooden pillars and a straw mat floor, a wooden lattice window with a mountain view, no people"),
  14: ([], "an ancient Han Chinese mud-brick farmhouse at night, grey tiled roof, a wooden lattice window with warm lamplight, a straw mat and clay jar at the door, village houses and dark hills behind under stars, no people, no bench"),
  31: (["dan"], "a column of tired porters and peasants carrying sacks and pulling wooden carts along a dirt road past mud-brick houses with grey tiled roofs, smoke rising from far hills, plain banners, no awnings, no poles"),
- 47: (["liubei_t4b","daokhiem_t4b"], "in a sick-room old Tao Qian lies propped on straw mats on a low wooden platform, pale and weak, while Liu Bei kneels on a straw mat at his side listening, a clay oil lamp, wooden lattice window with no glass, hanging cloth screens"),
+ 47: (["daokhiem_t4b","liubei_t4b"], "in a sick-room the very old white-bearded Tao Qian in a pale robe lies propped up on straw mats on a low wooden platform, pale and weak, while the younger Liu Bei in armour and a pale headband kneels on a straw mat at his bedside listening, a clay oil lamp, wooden bars at the window, hanging cloth screens"),
  48: (["liubei_t4b","linh"], "Liu Bei kneels on a straw mat refusing with his hands raised, officials of Xu Province in dark robes standing behind him, a low wooden platform and a clay oil lamp, tent flaps and hills outside"),
  50: ([], "an empty plain Han sickroom with a straw mat, a low wooden platform without a backrest, a clay bowl and a clay oil lamp, a hanging plain cloth, wooden lattice window with no glass, no people"),
  61: (["liubei_t4c","linh"], "Liu Bei in a dark robe stands beside an armoured officer before a Han governor's hall in a river city, officials and townsfolk kneeling and bowing on the stone steps, grey tiled roofs and timber pillars, no signboards"),
@@ -135,12 +135,13 @@ BGRULE = "Every picture has a rich detailed background that fits the place and t
 ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt roads and stone paths only (no asphalt, no road markings, no electric poles or wires), "
         "no glass windows (wooden lattice only), no door knobs or handles, no signboards or plaques on gates or buildings, no chairs with backs or modern furniture (people sit on straw mats or low benches), "
         "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European, Korean or Japanese buildings (Han Chinese grey-tiled mud-brick and timber architecture), "
-        "no striped awnings or canopies, no ceiling lamps, no desk lamps, no hanging signs, no bench with a backrest, no writing or Chinese characters anywhere, no baseball caps, no modern shoes (soft cloth shoes, boots or straw sandals), no writing on objects, signs or banners")
+        "no striped awnings or canopies, no ceiling lamps, no desk lamps, no hanging signs, windows are plain square openings with vertical wooden bars only and no glass panes and no paper panes, roofs have heavy straight ridges and gently sloped eaves, not upturned curved Korean or Japanese eaves, no plaques, no bench with a backrest, no writing or Chinese characters anywhere, no baseball caps, no modern shoes (soft cloth shoes, boots or straw sandals), no writing on objects, signs or banners")
 SUF = ("cinematic composition that suits the story moment, dynamic framing (wide, medium or low-angle as the scene needs), foreground, middle ground and background all filled, "
        "every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no deformed faces, no text, no letters, no watermark. "
        "Flags and banners are plain solid colour with no symbols. " + BGRULE + ". " + ANTI)
 EXTRA_PK = lambda i, x: PK["day_an_thu_su"] if (x == "liubei_t4b" and 41 <= i <= 57) else (PK["an_tuong_bac_hai"] if (x == "khongdung_t4" and i == 56) else "")
 
+TRIO = {10,12,35,69,72,79}
 out, canh = [], []
 for i in range(1, 87):
     nv, m = S[i]; k = f"{i:03d}"
@@ -149,7 +150,12 @@ for i in range(1, 87):
         out.append({"key": k, "nv": [], "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
         continue
     named = [x for x in nv if x not in EXTRA]
-    ch = "; ".join(NV[x] + ((", " + EXTRA_PK(i, x)) if EXTRA_PK(i, x) else "") for x in nv)
+    if i in TRIO:
+        pos = {"quanvu_t4a":"LEFT","quanvu_t4b":"LEFT","liubei_t4a":"CENTRE","liubei_t4b":"CENTRE","liubei_t4c":"CENTRE","trieuphi_t4a":"RIGHT","trieuphi_t4b":"RIGHT"}
+        nv = sorted(nv, key=lambda x: {"LEFT":0,"CENTRE":1,"RIGHT":2}.get(pos.get(x),3))
+        ch = "; ".join((pos[x] + " of the three: " if x in pos else "") + NV[x] for x in nv)
+    else:
+      ch = "; ".join(NV[x] + ((", " + EXTRA_PK(i, x)) if EXTRA_PK(i, x) else "") for x in nv)
     out.append({"key": k, "nv": nv, "prompt": f"{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
 (R / "TQ4.json").write_text(json.dumps({"ma": "TQ4", "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ4_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

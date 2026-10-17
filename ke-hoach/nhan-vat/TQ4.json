@@ -5,339 +5,379 @@
   {
    "key": "001",
    "nv": [
-    "daokhiem_t4a"
+    "daokhiem_t4a",
+    "liubei_t4c"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Tao Qian, an old governor, holding out a small lacquered seal box with one hand in a ceremonial offer, the other arm hidden in his sleeve, exactly one man. Background: the pillared hall of a governor's office in Xu Province, wooden pillars, a hanging cloth screen and warm oil-lamp glow"
+   "mo_ta": "in a grand governor's hall of Xu Province, old Tao Qian holds out a lacquered seal box with both hands to Liu Bei, who raises his palms in refusal; rows of officials in black caps kneel behind them, wooden pillars, hanging cloth screens, oil lamps, theatrical dramatic light"
   },
   {
    "key": "002",
    "nv": [
     "liubei_t4c"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "tight waist-up portrait, the head and torso fill most of the frame, Liu Bei bowing his head and shaking it gently in refusal, both hands tucked into his sleeves, exactly one man. Behind him: the stone steps and wooden pillars of a hall and grey tiled rooftops of an ancient city, soft morning light"
+   "mo_ta": "Liu Bei stands on the stone steps of a hall bowing and refusing with both hands raised, while a crowd of townspeople and officials kneel in the courtyard below begging him to accept, grey tiled rooftops of an ancient city behind, morning light, the dramatic stage-like scene of the novel"
   },
   {
    "key": "003",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "an open scroll of bamboo slips tied with cord lying on a low dark wooden table beside a small clay oil lamp with a tiny flame, dim warm light"
   },
   {
    "key": "004",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "the gate of a prosperous walled city on a river plain with tiled towers and grain boats at the quay, soft morning light"
   },
   {
    "key": "005",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a fork in a dirt road across a wide plain, one road heading toward northern hills and the other toward a river in the east, evening light"
+   "nv": [
+    "liubei_t4a"
+   ],
+   "mo_ta": "seen from a high hill, a wide plain with two roads: on the northern road a small column of soldiers marches toward distant mountains and on the eastern road another column marches toward a river city, plain banners, evening light, Liu Bei small in the foreground on a rock looking over both roads with his back to us"
   },
   {
    "key": "006",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a stone ink slab and a stand of brushes on a plain wooden table at dawn"
   },
   {
    "key": "007",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a small walled county town on a flat northern plain with a grey brick wall and one plain red banner, morning mist"
+   "nv": [
+    "liubei_t4a",
+    "linh"
+   ],
+   "mo_ta": "Liu Bei in a dark-blue robe and black cloth cap stands on the gate-tower of the small walled town of Pingyuan looking out over the northern plain, two guards beside him and soldiers with spears along the wall, plain banners, windy morning"
   },
   {
    "key": "008",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a low wooden table with three rolled bamboo-slip scrolls tied with cord and a small bronze seal, light from a wooden lattice window with no glass"
+   "nv": [
+    "liubei_t4a",
+    "quan"
+   ],
+   "mo_ta": "inside the hall of Pingyuan an envoy of Gongsun Zan hands Liu Bei a rolled bamboo-slip appointment, officials and guards standing along the walls, wooden pillars and oil lamps"
   },
   {
    "key": "009",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "two army camps far apart on a wide plain separated by a slow river, each with rows of small distant Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears standing in formation beside plain banners, seen from a hill, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "two armies facing each other across a slow river on a wide plain, ranks of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright and plain banners on both banks, seen from a hill, tense still moment before a battle, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "010",
    "nv": [
-    "liubei_t4a"
+    "liubei_t4a",
+    "quanvu_t4a",
+    "trieuphi_t4a"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei sitting on a straw mat at night beside a small clay oil lamp, tired but thoughtful, an iron armour on a wooden stand behind him, exactly one man, his far hand hidden. Background: inside a canvas army tent at night with tent poles, canvas walls, a spear rack and a rolled sleeping mat, lamp glow"
+   "mo_ta": "inside a canvas army tent at night Liu Bei sits on a straw mat beside an oil lamp, tired and thoughtful, while Guan Yu and Zhang Fei stand guard at the open tent flap as dark silhouettes against the camp fires outside, an iron armour on a wooden stand"
   },
   {
    "key": "011",
    "nv": [
-    "luubinh"
+    "luubinh",
+    "liubei_t4a",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Liu Ping standing at a doorway with a sour contemptuous expression, hands hidden in his sleeves, exactly one man"
+   "mo_ta": "in the county hall Liu Ping stands among officials looking sourly at Liu Bei who is greeted warmly by townsfolk at the far end of the hall, wooden pillars, tiled roof, morning light, tension of jealousy"
   },
   {
    "key": "012",
    "nv": [
     "liubei_t4a",
-    "thichkhach"
+    "thichkhach",
+    "quanvu_t4a",
+    "trieuphi_t4a"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, two-shot of Liu Bei and a guest in plain dark clothes kneeling on straw mats facing each other across a very low table, the guest bowing his head and speaking quietly, Liu Bei listening in surprise, hands hidden in sleeves, exactly two men, nothing in their hands. Behind them: wooden walls of a modest room, a wooden lattice window, a shelf of bamboo-slip scrolls, oil-lamp glow"
+   "mo_ta": "in a lamp-lit room the masked guest in plain dark clothes kneels on a straw mat before Liu Bei, bowing his head and confessing, empty hands, while Liu Bei listens in surprise and Guan Yu and Zhang Fei stand watchful behind Liu Bei, wooden walls and lattice window"
   },
   {
    "key": "013",
    "nv": [
-    "liubei_t4a"
+    "liubei_t4a",
+    "dan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "tight waist-up portrait, the head and torso fill most of the frame, Liu Bei with a calm gentle face and the hint of a kind smile, both hands tucked into his sleeves, exactly one man. Behind him: a county government courtyard with grey tiled roofs, a wooden gate and a flag pole with a plain flag, morning light"
+   "mo_ta": "in a street of Pingyuan Liu Bei greets a crowd of grateful townspeople and peasants who gather around him with offerings of food, a kind calm smile, mud-brick houses with grey tiled roofs, warm morning light"
   },
   {
    "key": "014",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a row of grey clay-tiled roofs of an ancient Chinese county town at dusk, one tiny window glowing with oil-lamp light, under a wide darkening sky"
   },
   {
    "key": "015",
    "nv": [
-    "thaisutu_t4"
+    "thaisutu_t4",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "tight waist-up portrait, the head and torso fill most of the frame, Taishi Ci arriving dusty and out of breath with an urgent expression, one hand holding a small rolled bamboo scroll, the other arm hidden, exactly one man. Behind him: a dusty dirt road before an ancient city gate-tower, hills and thin smoke on the horizon, no poles, no wires, no signs"
+   "mo_ta": "Taishi Ci, dusty and exhausted, dismounts from a sweating horse before the gate of Pingyuan holding a small rolled bamboo scroll, urgent expression, guards in armour hurrying toward him, thin smoke on the far horizon"
   },
   {
    "key": "016",
    "nv": [
-    "khongdung_t4"
+    "khongdung_t4",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up portrait of Kong Rong, a refined scholar, calm and thoughtful, both hands tucked into his sleeves, a distant city wall faint behind him, exactly one man"
+   "mo_ta": "Kong Rong stands on the wall of the besieged city of Beihai in scholar's robes with a few guards, looking out at a vast encampment of besiegers with many small tents and banners on the plain below, tense afternoon light"
   },
   {
    "key": "017",
    "nv": [
     "liubei_t4a",
-    "thaisutu_t4"
+    "thaisutu_t4",
+    "quanvu_t4a",
+    "trieuphi_t4a"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, two-shot of Liu Bei moved and surprised, one hand pressed to his chest, and Taishi Ci bowing before him, exactly two men, outer arms hidden. Background: a military camp at dusk with tents and a tall plain red banner, hills behind"
+   "mo_ta": "in the hall of Pingyuan Liu Bei presses one hand to his chest, moved, listening to Taishi Ci who bows before him, Guan Yu and Zhang Fei standing behind Liu Bei, wooden pillars and oil lamps"
   },
   {
    "key": "018",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "a small army camp at dusk at the foot of northern hills, a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears sitting around a camp fire and one sentry with a spear beside a tall plain red banner, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a small army camp at dusk at the foot of northern hills, a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright sitting around a camp fire and a sentry beside a tall plain red banner, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "019",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "a column of about twenty Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears marching along a dusty road with a plain red banner, seen from behind and slightly above, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a column of about forty Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright marching along a dusty road behind a plain red banner, seen from behind and slightly above, three thousand troops going to a rescue, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "020",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "a disciplined line of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears seen from behind advancing across a plain toward distant besieging tents that are being struck and abandoned, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a disciplined line of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright seen from behind advancing across a plain toward distant besieging tents that are being struck and abandoned as the besiegers flee, plain banners, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "021",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a plain clay bowl and a small bamboo-slip scroll tied with cord on a low wooden table in warm oil-lamp light"
+   "nv": [
+    "khongdung_t4",
+    "thaisutu_t4"
+   ],
+   "mo_ta": "in his hall at Beihai Kong Rong smiles in relief reading a message while Taishi Ci bows beside him, officials gathered, wooden pillars, oil lamps, warm light"
   },
   {
    "key": "022",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a closed double wooden gate in a stone wall at evening, the two flat plank doors held shut by a thick wooden bar across them, completely flat doors with no handle and no knob, a small hanging oil lantern, calm and waiting"
+   "nv": [
+    "liubei_t4a",
+    "quanvu_t4a",
+    "linh"
+   ],
+   "mo_ta": "Liu Bei and Guan Yu stand together on the gate-tower of Pingyuan at dusk looking east with soldiers on watch along the wall, a thoughtful mood, plain banners in the wind"
   },
   {
    "key": "023",
    "nv": [
-    "taotao_t4"
+    "taotao_t4",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Cao Cao with a sharp ambitious gaze looking forward, one hand resting on his sword hilt, the other arm hidden under his cloak, exactly one man. Background: a war camp at dusk with rows of plain dark banners and tents, hills behind, stormy sky"
+   "mo_ta": "in the command tent of Cao Cao at Yanzhou, Cao Cao stands before a low table with officers around him, one hand on his sword hilt, sharp ambitious gaze, plain dark banners and tent poles, lamp light"
   },
   {
    "key": "024",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a simple ancient Chinese country house with a grey tiled roof, wooden pillars and a courtyard, in a bamboo grove on a green hillside, peaceful morning"
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "a modest family convoy on a quiet mountain road toward Langya in Xu Province: two ox carts with luggage and an old man riding in one, a few servants walking beside, peaceful morning, green hills, no danger shown"
   },
   {
    "key": "025",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "an empty lonely dirt road at dusk in mist with a single overturned small wooden cart and a few scattered belongings, no people, no poles, no paved road"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a night road in mist where a small convoy of carts has halted, a distant ridge with torch lights and the shadowy outlines of riders, an overturned cart in the foreground, ominous mood, the tragedy implied only by the empty road, no violence shown, no victims"
   },
   {
    "key": "026",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a dark river crossing with a broken wooden bridge at night and distant torch light, no people"
+   "nv": [
+    "taotao_t4",
+    "linh"
+   ],
+   "mo_ta": "a messenger kneels before Cao Cao in his tent delivering terrible news, Cao Cao stunned and white-faced with a clenched fist, officers behind him, lamp light, dark banners"
   },
   {
    "key": "027",
    "nv": [
-    "taotao_t4"
+    "taotao_t4",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Cao Cao with a cold clenched jaw and a hard gaze, a plain dark banner behind him, both arms hidden under his cloak, exactly one man. Background: a war camp with rows of plain dark banners and tents under a stormy sky"
+   "mo_ta": "Cao Cao stands before an assembled army with a raised fist swearing revenge, rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright and plain dark banners behind him under a stormy sky, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "028",
    "nv": [
-    "daokhiem_t4a"
+    "daokhiem_t4a",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Tao Qian seated at a desk with a tired worried face, hands hidden in his sleeves, exactly one man. Background: a governor's hall with wooden pillars, shelves of bamboo-slip scrolls and a wooden lattice window, dim lamp light"
+   "mo_ta": "old Tao Qian sits at a low desk in his governor's hall, worn and worried, officials anxiously standing around him, wooden pillars, bamboo-slip scrolls on shelves, dim lamp light"
   },
   {
    "key": "029",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a prosperous walled ancient Chinese city on a river plain, grey tiled roofs, wooden grain boats moored at a wooden quay with sacks of grain, no people"
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "a prosperous walled Chinese river city on a plain, busy wooden quay with merchants, porters carrying grain sacks and moored grain boats, carts on the dirt streets, grey tiled roofs, bright morning"
   },
   {
    "key": "030",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a walled city with thick grey smoke rising over its towers and abandoned fields before it, no people"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "the army of Cao Cao in long ranks before a walled city with thick smoke rising over its towers, plain dark banners, flames behind the wall, seen from a hill, a scene of conquest, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "031",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "dry abandoned fields and an empty river bank under a heavy sky, black smoke far away, no people"
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "a long line of refugee villagers carrying bundles and pulling ox carts along a dirt road away from black smoke on the horizon, women and old people, tired and silent, seen from a distance, no violence shown"
   },
   {
    "key": "032",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "an empty dirt street inside an ancient Chinese town between low mud-brick houses with grey tiled roofs and plain wooden doors with no signs, overturned wooden carts and scattered baskets, drifting dust, completely empty of people, no person and no bed"
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "an empty dirt street inside an ancient Chinese town between low mud-brick houses with grey tiled roofs, overturned wooden carts and scattered baskets, drifting dust, a few surviving townsfolk huddled far in the distance"
   },
   {
    "key": "033",
    "nv": [
-    "tuongquan"
+    "tuongquan",
+    "quan",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of a Han army commander reading an urgent rolled letter with one hand, serious face, the other arm hidden behind his back, exactly one man. Background: a military camp gate with spear racks, tents and a wooden palisade, grey morning"
+   "mo_ta": "in an army camp an exhausted messenger hands an urgent rolled letter to the commander Tian Kai while officers gather around him reading anxiously, tents and banners behind, grey morning"
   },
   {
    "key": "034",
    "nv": [
     "tuongquan",
-    "liubei_t4b"
+    "liubei_t4b",
+    "linh"
    ],
-   "so_nguoi": "g",
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground an army commander and Liu Bei side by side looking east at dawn, resolute, outer arms hidden, exactly two men in the foreground; behind them ranks of marching Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears with plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "mo_ta": "an army commander and Liu Bei ride side by side at dawn at the head of a marching army, ranks of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright and plain banners stretching behind them down a dusty road, resolute, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "035",
    "nv": [
-    "liubei_t4b"
+    "liubei_t4b",
+    "quanvu_t4a",
+    "trieuphi_t4a",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei striding forward at the head of his camp, determined face, one hand on the hilt of his sword, the other arm hidden, exactly one man"
+   "mo_ta": "Liu Bei strides forward at the head of his own small army, his hand on the hilt of his sword, Guan Yu with a long curved-blade polearm and Zhang Fei with a long serpent-tipped spear beside him, soldiers following behind, banners in the wind, determination, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "036",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "a small modest army camp at dusk with a handful of tents, a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears resting by camp fires, sacks of grain, and a few horsemen on horses at the edge of the camp, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh",
+    "kybinh",
+    "dan"
+   ],
+   "mo_ta": "a small modest army camp at dusk: a handful of tents, a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright resting by camp fires, Wuhuan horsemen on horses at the edge, and hungry peasants lined up receiving food, plain banners, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "037",
    "nv": [
     "tuongquan",
-    "liubei_t4b"
+    "liubei_t4b",
+    "linh"
    ],
-   "so_nguoi": "g",
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground an officer and Liu Bei on a muddy river bank looking grimly toward enemy smoke over a walled town, outer arms hidden, exactly two men in the foreground; behind them a small group of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears on the bank, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "mo_ta": "on a muddy river bank east of a walled town an officer and Liu Bei look grimly toward enemy smoke while their small force of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright regroups with tattered banners behind them, defeat in the air, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "038",
    "nv": [
-    "daokhiem_t4a"
+    "daokhiem_t4a",
+    "liubei_t4b",
+    "dan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Tao Qian standing at an open wooden lattice window with no handle, looking out hopefully at a dirt road across hills, hands hidden in his sleeves, exactly one man"
+   "mo_ta": "at the gate of the Xu Province city old Tao Qian welcomes Liu Bei and his soldiers entering, townsfolk and officials gathered and cheering with relief, banners, gate-tower behind, warm light"
   },
   {
    "key": "039",
    "nv": [
     "daokhiem_t4a",
-    "liubei_t4b"
+    "liubei_t4b",
+    "linh"
    ],
-   "so_nguoi": "g",
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground Tao Qian pointing toward a line of tents with one hand while Liu Bei bows in thanks, exactly two men in the foreground; behind them rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears lined up in front of the tents, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "mo_ta": "Tao Qian points toward rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright lined up before a camp of tents, giving four thousand troops to Liu Bei who bows in thanks, plain banners, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "040",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "an ancient Chinese hall with two low wooden seats like flat benches with straw mats side by side and a small low table with a single plain clay cup, soft light"
+   "nv": [
+    "daokhiem_t4a",
+    "liubei_t4b",
+    "quan"
+   ],
+   "mo_ta": "in a hall Tao Qian and Liu Bei sit side by side on straw mats sharing a quiet cup of wine, officials seated along the walls watching with respect, a small oil lamp and a low table, warm evening light"
   },
   {
    "key": "041",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a small bronze official seal on a ribbon cord resting on a lacquered tray beside a rolled bamboo-slip memorial, morning light"
+   "nv": [
+    "liubei_t4b",
+    "quan",
+    "linh"
+   ],
+   "mo_ta": "in the camp at Xiaopei an official hands Liu Bei a small bronze seal on a ribbon cord before assembled soldiers and officers, tents and banners, morning light"
   },
   {
    "key": "042",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "a small walled town on a plain at dusk with a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears standing on the wall and camp fires with resting soldiers outside the wall, plain banners, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a small walled town on a plain at dusk with a few Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright standing on the wall and camp fires with resting soldiers outside the wall, plain banners, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "043",
    "nv": [
-    "taotao_t4"
+    "taotao_t4",
+    "linh"
    ],
-   "so_nguoi": "g",
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground Cao Cao turning to look back over his shoulder with a cold frown, exactly one man in the foreground; behind him a retreating column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears on a dusty road with lowered plain dark banners at dusk, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "mo_ta": "Cao Cao turns on the road to look back with a cold frown while a retreating column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright behind him marches away with lowered plain dark banners at dusk, dusty road, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "044",
    "nv": [
-    "lubo_t4a"
+    "lubo_t4a",
+    "quan",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Lu Bu seen from behind in armour, looking toward a distant gate, his face not visible, exactly one man, arms hidden"
+   "mo_ta": "Lu Bu, seen from behind in iron armour, rides through the gate of Yanzhou welcomed by Zhang Miao and Chen Gong while soldiers and townspeople cheer on both sides, banners, his face not visible"
   },
   {
    "key": "045",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "the stone gate-tower of an ancient Chinese city, with a completely blank lintel and no sign, standing open onto a dirt road leading to misty hills, calm morning, completely empty of people, no person and no bed"
+   "nv": [
+    "dan",
+    "linh"
+   ],
+   "mo_ta": "townsfolk and soldiers on the wall of the Xu Province city watch with relief as the distant army of Cao Cao withdraws along the road toward misty hills, the gate-tower open, calm morning"
   },
   {
    "key": "046",
-   "nv": [],
-   "so_nguoi": "g",
-   "mo_ta": "a stone road in the evening with a column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears marching away between plain red banners that are lowered, seen from behind, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a stone road in the evening with a column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright marching away between plain red banners that are lowered, seen from behind, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "047",
    "nv": [
-    "daokhiem_t4b"
+    "daokhiem_t4b",
+    "mitruc_t4",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Tao Qian lying on a low wooden couch with a straw mat and a plain cloth bolster, frail and tired, one hand hidden under a plain blanket, exactly one man"
+   "mo_ta": "on a low wooden couch with a straw mat old Tao Qian lies frail and pale, Mi Zhu kneels beside him and a physician in dark robes waits at the bedside, dim lamp light, curtains, a bowl of medicine, no death shown"
   },
   {
    "key": "048",
    "nv": [
-    "mitruc_t4"
+    "mitruc_t4",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Mi Zhu kneeling on a straw mat beside a low couch with a worried gentle face, hands hidden in his sleeves, dim light from a small clay oil lamp, exactly one man"
+   "mo_ta": "Mi Zhu kneels on a straw mat beside a low couch with a worried gentle face, a few attendants waiting behind him, dim light from a small clay oil lamp, quiet and heavy mood"
   },
   {
    "key": "049",
@@ -345,258 +385,288 @@
     "daokhiem_t4b",
     "mitruc_t4"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up two-shot of Tao Qian whispering to Mi Zhu who bends close to listen, dim lamp light, exactly two men, outer arms hidden"
+   "mo_ta": "Tao Qian whispers his last wish to Mi Zhu who bends close to listen, dim lamp light, curtains, intimate and solemn, a few attendants standing back in the shadows"
   },
   {
    "key": "050",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "an empty ancient Chinese sickroom with a low wooden couch and a straw mat, a hanging cloth screen, a clay bowl of medicine on the floor mat and a small clay oil lamp, dim light"
   },
   {
    "key": "051",
    "nv": [
     "mitruc_t4",
-    "liubei_t4b"
+    "liubei_t4b",
+    "dan",
+    "linh"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up two-shot of Mi Zhu bowing before Liu Bei in a camp, Liu Bei startled, hands hidden in sleeves, exactly two men"
+   "mo_ta": "Mi Zhu leads a delegation of officials and townspeople to the camp at Xiaopei and bows before a startled Liu Bei, soldiers watching, tents and banners, dusty light"
   },
   {
    "key": "052",
    "nv": [
-    "liubei_t4b"
+    "liubei_t4b",
+    "mitruc_t4",
+    "dan",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "tight waist-up portrait, the head and torso fill most of the frame, Liu Bei hesitating and shaking his head, hands tucked into his sleeves, uneasy look, exactly one man. Behind him: army tents and camp fires, mist and hills at dusk"
+   "mo_ta": "Liu Bei raises both hands and shakes his head in refusal while the delegation of officials, elders and townspeople kneel around him pleading, a large dramatic scene before the camp gate"
   },
   {
    "key": "053",
    "nv": [
-    "tranang_t4"
+    "tranang_t4",
+    "liubei_t4b",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "tight waist-up portrait, the head and torso fill most of the frame, Chen Deng speaking earnestly with one hand raised palm out, the other arm hidden, exactly one man. Behind him: a dirt street of an ancient town of mud-brick houses with grey tiled roofs and distant mountains, no poles, no wires, no signs"
+   "mo_ta": "in a tent or hall Chen Deng speaks earnestly to Liu Bei with one hand raised, several elders and officials of Xu Province listening behind him, lamp light, persuasive mood"
   },
   {
    "key": "054",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a tall ancient Chinese city gate-tower with a plain solid-colour banner above rice fields, grey sky, no writing and no emblem on the banner, no people"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a tall proud southern walled city, Shouchun, with a grand gate-tower, soldiers on the wall and a plain solid-colour banner above rice fields, grey sky, the seat of Yuan Shu, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "055",
    "nv": [
     "tranang_t4",
-    "liubei_t4b"
+    "liubei_t4b",
+    "quan"
    ],
-   "so_nguoi": 2,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, two-shot of Chen Deng shaking his head firmly while Liu Bei listens carefully, hands hidden in sleeves, exactly two men. Behind them: army tents and a river bank, grey light"
+   "mo_ta": "in a hall Chen Deng shakes his head firmly and answers Liu Bei, who listens carefully, other officials around them in a council, wooden pillars and oil lamps"
   },
   {
    "key": "056",
    "nv": [
-    "khongdung_t4"
+    "khongdung_t4",
+    "liubei_t4b",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up of Kong Rong urging with a firm kind look, hands hidden in his sleeves, exactly one man. Background: the wall and towers of the city of Beihai behind him, afternoon light"
+   "mo_ta": "Kong Rong, refined and firm, arrives at the camp with a small retinue of horsemen and urges Liu Bei to accept the province, gesturing toward the city behind them, afternoon light"
   },
   {
    "key": "057",
    "nv": [
-    "liubei_t4b"
+    "liubei_t4b",
+    "mitruc_t4",
+    "tranang_t4",
+    "dan",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei bowing slightly in acceptance with his hands joined in front of him, solemn face, exactly one man. Background: plain banners and tents outside a city gate at dawn, mist"
+   "mo_ta": "Liu Bei bows slightly in acceptance with his hands joined before the city gate, officials and townspeople around him cheering and bowing, soldiers lined up with plain banners, dawn light, a solemn triumphant moment"
   },
   {
    "key": "058",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a small spring stream flowing into a wide calm river on a plain, soft light"
   },
   {
    "key": "059",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "three objects on a wooden table: a jade pendant, a rolled scroll and a small clay bowl, warm light"
   },
   {
    "key": "060",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a wooden chest of old bronze coins and bolts of silk stacked in an ancient storeroom with clay jars, light from a small clay oil lamp, no people"
+   "nv": [
+    "mitruc_t4",
+    "liubei_t4c",
+    "dan"
+   ],
+   "mo_ta": "in an ancient storeroom Mi Zhu opens a heavy wooden chest of old bronze coins for Liu Bei while servants carry bolts of silk and clay jars, light from small clay oil lamps"
   },
   {
    "key": "061",
    "nv": [
-    "liubei_t4c"
+    "liubei_t4c",
+    "quan",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei in his governor's robe at the top of stone steps with an ancient Chinese city of grey tiled roofs behind him, calm and weighty, hands hidden in his sleeves, exactly one man"
+   "mo_ta": "Liu Bei in his governor's robe stands at the top of the stone steps of the city hall looking over the city, officials bowing and guards standing at attention below, grey tiled roofs behind, calm and weighty"
   },
   {
    "key": "062",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a heavy bronze official seal on a lacquered stand beside an open ancient Chinese city gate with a completely blank lintel, no plaque, no signboard, morning light, completely empty of people, no person and no bed"
   },
   {
    "key": "063",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "two empty cushions facing each other across a closed lacquered box in a quiet hall, soft light"
   },
   {
    "key": "064",
    "nv": [
-    "liubei_t4c"
+    "liubei_t4c",
+    "mitruc_t4",
+    "tranang_t4",
+    "quan"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei listening with a thoughtful look, one hand at his chin, the other arm hidden, exactly one man. Background: a governor's hall with wooden pillars and a wooden lattice window, evening light"
+   "mo_ta": "a council in the hall of Xu Province: Liu Bei listens with a thoughtful hand at his chin while Mi Zhu and Chen Deng speak and officials gather around, lamp light"
   },
   {
    "key": "065",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a walled city on a plain with a single red banner on its tower at evening, no people"
+   "nv": [
+    "lubo_t4a",
+    "linh"
+   ],
+   "mo_ta": "the walled city of Yanzhou under the red banner of Lu Bu, cavalry on horses riding out of the gate, soldiers on the wall, evening light, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "066",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a balance scale on a wooden table with a small jade piece on one side and a small bag of coins on the other, soft light"
   },
   {
    "key": "067",
    "nv": [
-    "liubei_t4c"
+    "liubei_t4c",
+    "mitruc_t4"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei with a tired humane look reading a bamboo-slip scroll, hands hidden in his sleeves, exactly one man. Background: a lamp-lit study with shelves of bamboo-slip scrolls and wooden pillars, evening"
+   "mo_ta": "in his office at night Liu Bei reads a bamboo-slip scroll by lamp light, tired and humane, while Mi Zhu waits respectfully beside him with more scrolls"
   },
   {
    "key": "068",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "an unrolled blank bamboo-slip scroll beside a closed wooden box in dawn light"
   },
   {
    "key": "069",
    "nv": [
-    "liubei_t4c"
+    "liubei_t4c",
+    "quanvu_t4b",
+    "trieuphi_t4b",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "tight waist-up portrait, the head and torso fill most of the frame, Liu Bei in his early thirties, calm and weathered, looking slightly to the side, hands hidden, exactly one man. Behind him: a hillside road overlooking a wide river valley with a distant ancient city, golden hour"
+   "mo_ta": "Liu Bei in his early thirties rides at the head of a small army across a plain at golden hour, Guan Yu and Zhang Fei riding beside him, soldiers and banners behind, a river valley and a distant ancient city, a sense of long road travelled"
   },
   {
    "key": "070",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "the open wooden gate of a small ancient Chinese county town with a plain solid-colour flag in early morning light, blank gate with no writing, completely empty of people, no person and no bed"
+   "nv": [
+    "liubei_t4a",
+    "dan"
+   ],
+   "mo_ta": "the open wooden gate of a small ancient Chinese county town with a plain solid-colour flag in early morning light, a few villagers going about their work, a young junior official watching from the gate, blank gate with no writing"
   },
   {
    "key": "071",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a pair of worn straw sandals tied with cord and a plain black cloth cap shaped like a low square box with no brim and two short ties, lying on a stone step, morning light"
   },
   {
    "key": "072",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a long winding dirt road across hills leading from a village to a river city of tiled roofs, golden light, no paving, no road markings, completely empty of people, no person and no bed"
+   "nv": [
+    "liubei_t4a",
+    "quanvu_t4a",
+    "trieuphi_t4a"
+   ],
+   "mo_ta": "three small travellers, Liu Bei, Guan Yu and Zhang Fei, walking side by side on a long winding dirt road across wide hills toward a river city of tiled roofs, tiny in a vast landscape, golden light"
   },
   {
    "key": "073",
    "nv": [
     "quanvu_t4b",
-    "trieuphi_t4b"
+    "trieuphi_t4b",
+    "linh"
    ],
-   "so_nguoi": "g",
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, in the foreground Guan Yu and Zhang Fei standing side by side, calm serious faces, hands hidden behind their bodies, exactly two men in the foreground; behind them rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics holding upright spears and plain banners in an army camp at dusk, no fighting, no raised weapons, no blood, soldiers seen from behind or from a distance with small simple faces"
+   "mo_ta": "Guan Yu with a long curved-blade polearm and Zhang Fei with a long serpent-tipped spear stand in front of rows of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright and plain banners in an army camp at dusk, serious faces, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "074",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a wide low wooden sleeping platform with three folded plain blankets in a modest ancient Chinese room, a small clay oil lamp glowing on the floor"
   },
   {
    "key": "075",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a rich walled ancient Chinese river city of grey tiled roofs with wooden grain boats moored at the bank under gathering dark clouds, completely empty of people, no person and no bed"
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "a rich walled ancient Chinese river city of grey tiled roofs with wooden grain boats moored at the bank, porters and merchants on the quay, under gathering dark clouds that threaten the city"
   },
   {
    "key": "076",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a plain grave mound with incense sticks smoking at grey dawn, bare trees, no people"
+   "nv": [
+    "taotao_t4",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao stands alone before a plain grave mound with incense smoking at grey dawn, soldiers kneeling in rows far behind him, bare trees, a heavy silent grief that turns to resolve"
   },
   {
    "key": "077",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a tall ancient Chinese city gate-tower above rice fields under a grey sky, a plain solid-colour banner with no writing and no emblem, completely empty of people, no person and no bed"
+   "nv": [
+    "quan",
+    "linh"
+   ],
+   "mo_ta": "a tall ancient Chinese city gate-tower above rice fields under a grey sky, guards on the wall and a plain solid-colour banner with no writing and no emblem, the southern city of Yuan Shu, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "078",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a dim ancient Chinese government hall corridor with wooden pillars and a half-open plain wooden door with no handle, a small clay oil lamp on the floor, long shadows, completely empty of people, no person and no bed"
+   "nv": [
+    "quan"
+   ],
+   "mo_ta": "in a dim hall corridor with wooden pillars two or three officials of Xu Province whisper together with suspicious glances toward an inner door, long shadows, a small clay oil lamp on the floor"
   },
   {
    "key": "079",
    "nv": [
-    "liubei_t4c"
+    "liubei_t4c",
+    "quanvu_t4b",
+    "trieuphi_t4b",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "waist-up close framing, cropped at the belt, the legs and feet are not in the picture, Liu Bei alone on a stone city wall at dusk looking around at the four directions, worried, hands hidden in his sleeves, exactly one man"
+   "mo_ta": "Liu Bei stands on a stone city wall at dusk looking around at the four directions, worried, Guan Yu and Zhang Fei beside him, soldiers keeping watch along the wall, plain banners"
   },
   {
    "key": "080",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "four dirt roads meeting at an ancient Chinese city gate, each fading into hills under a darkening sky, no paving, no road markings, completely empty of people, no person and no bed"
+   "nv": [
+    "kybinh",
+    "linh"
+   ],
+   "mo_ta": "four dirt roads meeting at an ancient Chinese city gate under a darkening sky, small groups of riders approaching along each road from the four directions, threatening mood, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "081",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a dirt road across green fields with two lines of footprints made by cloth shoes, one line heading north and one heading east, soft morning light, no writing"
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a wide plain seen from a hill with two roads: on the northern road a small column of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright marches toward Beihai and on the eastern road another column marches toward Xu Province, the two rescues in one picture, soft morning light, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "082",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "three lit lanterns at a gate at night, warm glow in the dark"
+   "nv": [
+    "mitruc_t4",
+    "tranang_t4",
+    "khongdung_t4"
+   ],
+   "mo_ta": "three men stand together under the lanterns of a city gate at night welcoming Liu Bei: a rich merchant, a young scholar-official and a famous scholar, warm lamp light, stars above"
   },
   {
    "key": "083",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a lacquered gift box with a gold clasp slightly open, dark mist curling around it on a table"
+   "nv": [
+    "taotao_t4"
+   ],
+   "mo_ta": "a lacquered gift box with a gold clasp stands open on a low table in a hall, dark mist curling from it, and in the mist behind it the faint silhouettes of two armies, one to the north and one to the south, a poisoned gift"
   },
   {
    "key": "084",
    "nv": [
-    "lubo_t4b"
+    "lubo_t4b",
+    "linh"
    ],
-   "so_nguoi": 1,
-   "mo_ta": "a small distant figure of Lu Bu seen from behind on a long empty dirt road leading toward an ancient Chinese city gate at dusk, travel-stained, exactly one man, arms hidden, no paved road, no poles"
+   "mo_ta": "Lu Bu seen from behind, travel-stained and with a torn cloak, rides at the head of a small weary band of riders along a long dirt road toward the gate of Xiaopei at dusk, his face not visible"
   },
   {
    "key": "085",
-   "nv": [],
-   "so_nguoi": 0,
-   "mo_ta": "a rainy night at an ancient Chinese city gate on a dirt road, one small hanging oil lantern on the gate and a cloth bundle left on the road, no lamp post"
+   "nv": [
+    "lubo_t4b",
+    "linh"
+   ],
+   "mo_ta": "a rainy night: a small group of riders with torches arrives at the gate of an ancient Chinese city, guards at the gate looking out in uncertainty, one hanging oil lantern on the gate, mud and rain, a question hanging in the air"
   },
   {
    "key": "086",
    "nv": [],
-   "so_nguoi": 0,
    "mo_ta": "a bamboo-slip scroll tied with cord on a low wooden table beside a clay oil lamp at night, a wooden lattice window with no glass behind"
   }
  ]

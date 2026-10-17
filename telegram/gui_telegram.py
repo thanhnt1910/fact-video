@@ -39,6 +39,13 @@ def kiem_tra(eps):
         print(f"Tập {k}: OK ({len(fs)} ảnh, {len(t['tin'])} tin nội dung)")
 
 
+def kiem_loi(r, nhan):
+    """Báo lỗi Telegram rõ ràng (không in token) rồi dừng."""
+    if r.status_code != 200:
+        print(f"::error::{nhan}: HTTP {r.status_code} {r.text[:300]}")
+        sys.exit(1)
+
+
 def main(argv):
     dry = "--dry-run" in argv
     eps = [int(a) for a in argv if a.isdigit()] or sorted(n.TAP)
@@ -46,7 +53,10 @@ def main(argv):
     if dry:
         return
     import requests
-    token = os.environ["BOT_TOKEN"]
+    token = os.environ.get("BOT_TOKEN", "")
+    if not token:
+        print("::error::Chưa có secret TELEGRAM_BOT_TOKEN trong repo")
+        sys.exit(1)
     chat = os.environ.get("CHAT_ID")
     if not chat:
         for d in (HERE, os.path.dirname(HERE)):
@@ -73,10 +83,10 @@ def main(argv):
             r = requests.post(f"{api}/sendMediaGroup", data={"chat_id": chat, "media": json.dumps(media)}, files=files, timeout=300)
             for h in handles:
                 h.close()
-        r.raise_for_status(); time.sleep(2)
+        kiem_loi(r, f'tập {k}: album'); time.sleep(2)
         for m in t["tin"]:
             r = requests.post(f"{api}/sendMessage", data={"chat_id": chat, "text": m, "parse_mode": "HTML", "disable_web_page_preview": "true"}, timeout=60)
-            r.raise_for_status(); time.sleep(1.5)
+            kiem_loi(r, f'tập {k}: tin nội dung'); time.sleep(1.5)
         print("Đã gửi tập", k)
 
 

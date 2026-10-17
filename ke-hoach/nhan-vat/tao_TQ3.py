@@ -143,8 +143,8 @@ EXTRA_PK = lambda i, x: ""
 TRIO = set()
 import os as _os
 RD = R / "refs"
-REF_OF = {"quanvu": ["quanvu", "guandao"], "trieuphi": ["trieuphi", "xamau"], "liubei": ["liubei"], "lubo": ["hoatich"]}
-REF_TXT = {"trio": "the lineup of the three sworn brothers standing side by side: Guan Yu on the LEFT, Liu Bei in the CENTRE, Zhang Fei on the RIGHT (keep this left-to-right order, their faces, beards, headwear and drawing style)",
+REF_OF = {"tonkien": ["tonkien"], "lubo": ["lubo_cd"], "dongtrac": ["dongtrac"], "vienthieu": ["vienthieu"], "vienthuat": ["vienthuat"], "dingnguyen": ["dingnguyen"], "vuongdoan": ["vuongdoan"], "tomau": ["tomau"], "huchan": ["huchan"]}
+REF_TXT = {"tonkien": "the face, hair, beard, build and clothing of Sun Jian (keep them exactly, this is the same person in every picture)", "lubo_cd": "the face, hair, beard, build and clothing of Lu Bu (keep them exactly, this is the same person in every picture)", "dongtrac": "the face, hair, beard, build and clothing of Dong Zhuo (keep them exactly, this is the same person in every picture)", "vienthieu": "the face, hair, beard, build and clothing of Yuan Shao (keep them exactly, this is the same person in every picture)", "vienthuat": "the face, hair, beard, build and clothing of Yuan Shu (keep them exactly, this is the same person in every picture)", "dingnguyen": "the face, hair, beard, build and clothing of Ding Yuan (keep them exactly, this is the same person in every picture)", "vuongdoan": "the face, hair, beard, build and clothing of Wang Yun (keep them exactly, this is the same person in every picture)", "tomau": "the face, hair, beard, build and clothing of Zu Mao (keep them exactly, this is the same person in every picture)", "huchan": "the face, hair, beard, build and clothing of Hu Zhen (keep them exactly, this is the same person in every picture)", "trio": "the lineup of the three sworn brothers standing side by side: Guan Yu on the LEFT, Liu Bei in the CENTRE, Zhang Fei on the RIGHT (keep this left-to-right order, their faces, beards, headwear and drawing style)",
            "quanvu": "the face, long black beard, cap, build and drawing style of Guan Yu (keep them exactly)",
            "trieuphi": "the face, bushy black beard, headscarf, build and drawing style of Zhang Fei (keep them exactly)",
            "liubei": "the face, thin beard, long earlobes, build and drawing style of Liu Bei (keep them exactly, but dress him in the costume described below)",
@@ -161,7 +161,7 @@ def refs_for(nv):
                         names.append(n)
     names.sort(key=lambda n: 0 if n in ("quanvu", "trieuphi", "liubei") else 1)
     names = [n for n in names if n != "guandao" or "quanvu" in names][:3] if False else names
-    return names[:4]
+    return names[:2]
 def ref_guide(names):
     if not names:
         return ""

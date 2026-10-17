@@ -211,7 +211,7 @@ print("ok", len(out), "ảnh;", len([c for c in canh if c['key'] not in KEEP]), 
 # Biến thể: vẽ nhiều bản cho cảnh ba anh em (khoá = v*1000+số cảnh)
 V = []
 for it in out:
-    if int(it["key"]) in TRIO:
+    if int(it["key"]) in TRIO or int(it["key"]) == 17:
         for v in (1, 2, 3, 4):
             V.append({**it, "key": str(v * 1000 + int(it["key"]))})
 (R / "TQ4V_anh.json").write_text(json.dumps(V, ensure_ascii=False, indent=1), encoding="utf-8")

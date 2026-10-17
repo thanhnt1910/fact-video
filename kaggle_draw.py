@@ -124,6 +124,10 @@ except Exception:
 log("cài xong thư viện")
 import torch, numpy as np
 JOBS = json.loads(__JOBS__)
+REFS = json.loads(__REFS__)
+import base64, io
+from PIL import Image as _PI
+REFIMG = {n: _PI.open(io.BytesIO(base64.b64decode(b))).convert("RGB") for n, b in REFS.items()}
 OUT = "/kaggle/working/out"
 os.makedirs(OUT, exist_ok=True)
 log("GPU:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "KHÔNG CÓ GPU")
@@ -139,8 +143,12 @@ for j in JOBS:
     for attempt in range(2):
         try:
             t1 = time.time()
-            img = pipe(prompt=j["prompt"], width=j["w"], height=j["h"], guidance_scale=1.0, num_inference_steps=4,
-                       generator=torch.Generator("cuda").manual_seed(j.get("seed", 0))).images[0]
+            kw = {}
+            rl = [REFIMG[n] for n in j.get("refs", []) if n in REFIMG]
+            if rl:
+                kw["image"] = rl
+            img = pipe(prompt=j["prompt"], width=j["w"], height=j["h"], guidance_scale=1.0, num_inference_steps=int(os.environ.get("NSTEPS", "8")),
+                       generator=torch.Generator("cuda").manual_seed(j.get("seed", 0)), **kw).images[0]
             if float(np.asarray(img).mean()) < 3:
                 raise RuntimeError("ảnh đen (tràn số fp16)")
             img.save(f"{OUT}/{j['key']}.png"); done.append(j["key"])
@@ -176,7 +184,20 @@ def _kaggle(args, env, check=True):
     return (r.stdout or "") + (r.stderr or "")
 
 
-def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein"):
+def _refs_json(refs):
+    """refs: {tên: đường dẫn ảnh} -> chuỗi JSON {tên: base64 jpeg} (ảnh tham chiếu giữ nguyên mẫu nhân vật)."""
+    import base64, io
+    from PIL import Image
+    out = {}
+    for n, path in (refs or {}).items():
+        im = Image.open(path).convert("RGB")
+        im.thumbnail((640, 640))
+        b = io.BytesIO(); im.save(b, "JPEG", quality=88)
+        out[n] = base64.b64encode(b.getvalue()).decode()
+    return json.dumps(out)
+
+
+def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein", refs=None):
     """jobs: [(key, prompt, w, h)] -> {key: Path}. Ảnh lỗi thì không có trong kết quả."""
     if not jobs:
         return {}
@@ -185,9 +206,9 @@ def draw_batch(jobs, out_dir, log=print, timeout_min=110, model="klein"):
     shutil.rmtree(work, ignore_errors=True)
     (work / "k").mkdir(parents=True)
     # mỗi job: (key, prompt, w, h) hoặc (key, prompt, w, h, seed); không ghi seed thì lấy theo thứ tự
-    payload = json.dumps([{"key": j[0], "prompt": j[1], "w": j[2], "h": j[3], "seed": (j[4] if len(j) > 4 else i)}
+    payload = json.dumps([{"key": j[0], "prompt": j[1], "w": j[2], "h": j[3], "seed": (j[4] if len(j) > 4 else i), "refs": (j[5] if len(j) > 5 else [])}
                           for i, j in enumerate(jobs)], ensure_ascii=False)
-    (work / "k" / "draw.py").write_text((KERNEL_KLEIN if model == "klein" else KERNEL_CODE).replace("__JOBS__", repr(payload)).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
+    (work / "k" / "draw.py").write_text((KERNEL_KLEIN if model == "klein" else KERNEL_CODE).replace("__JOBS__", repr(payload)).replace("__REFS__", repr(_refs_json(refs))).replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())), encoding="utf-8")
     meta = {"id": f"{user}/{SLUG}", "title": SLUG, "code_file": "draw.py", "language": "python",
             "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
             "enable_tpu": False, "dataset_sources": [], "competition_sources": [], "kernel_sources": [],

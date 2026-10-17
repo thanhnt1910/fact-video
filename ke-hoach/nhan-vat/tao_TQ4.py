@@ -156,6 +156,29 @@ SUF = ("cinematic composition that suits the story moment, dynamic framing (wide
 EXTRA_PK = lambda i, x: PK["day_an_thu_su"] if (x == "liubei_t4b" and 41 <= i <= 57) else (PK["an_tuong_bac_hai"] if (x == "khongdung_t4" and i == 56) else "")
 
 TRIO = {10,12,35,69,72,79}
+import os as _os
+RD = R / "refs"
+REF_OF = {"quanvu": ["quanvu", "guandao"], "trieuphi": ["trieuphi", "xamau"], "liubei": ["liubei"], "lubo": ["hoatich"]}
+REF_TXT = {"quanvu": "the face, long black beard, cap, build and drawing style of Guan Yu (keep them exactly)",
+           "trieuphi": "the face, bushy black beard, headscarf, build and drawing style of Zhang Fei (keep them exactly)",
+           "liubei": "the face, thin beard, long earlobes, build and drawing style of Liu Bei (keep them exactly, but dress him in the costume described below)",
+           "guandao": "Guan Yu's weapon, the Green Dragon Crescent Blade (draw his weapon exactly like this, held in one hand with the pole upright)",
+           "xamau": "Zhang Fei's weapon, the serpent spear (draw his weapon exactly like this)",
+           "hoatich": "Lu Bu's weapon, the Sky Piercer halberd (draw his weapon exactly like this)"}
+def refs_for(nv):
+    names = []
+    for x in nv:
+        for pre, lst in REF_OF.items():
+            if x.startswith(pre):
+                for n in lst:
+                    if n not in names and (RD / f"{n}.jpg").exists():
+                        names.append(n)
+    names.sort(key=lambda n: 0 if n in ("quanvu", "trieuphi", "liubei") else 1)
+    return names[:4]
+def ref_guide(names):
+    if not names:
+        return ""
+    return "Reference images are provided: " + "; ".join(f"image {i+1} shows {REF_TXT[n]}" for i, n in enumerate(names)) + ". Follow the references for faces, hair, beards, body proportions, weapon shapes and the flat clean comic drawing style, and keep each hero consistent with them. "
 out, canh = [], []
 for i in range(1, 87):
     nv, m = S[i]; k = f"{i:03d}"
@@ -170,7 +193,8 @@ for i in range(1, 87):
         ch = "; ".join((pos[x] + " of the three: " if x in pos else "") + NV[x] for x in nv)
     else:
       ch = "; ".join(NV[x] + ((", " + EXTRA_PK(i, x)) if EXTRA_PK(i, x) else "") for x in nv)
-    out.append({"key": k, "nv": nv, "prompt": f"{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
+    rf = refs_for(nv)
+    out.append({"key": k, "nv": nv, "refs": rf, "prompt": f"{ref_guide(rf)}{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
 (R / "TQ4.json").write_text(json.dumps({"ma": "TQ4", "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ4_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print("ok", len(out), "ảnh;", len([c for c in canh if c['key'] not in KEEP]), "ảnh cần vẽ lại")

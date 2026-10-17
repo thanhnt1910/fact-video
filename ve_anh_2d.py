@@ -32,12 +32,15 @@ def main():
                 continue
         elif f.exists():
             continue
-        jobs.append((k, it["prompt"], 1344, 768, int(k) + 1000 * dot))
+        jobs.append((k, it["prompt"], 1344, 768, int(k) + 1000 * dot, it.get("refs", [])))
     print(f"Cần vẽ {len(jobs)} ảnh (đợt {dot})")
     if not jobs:
         return
     os.environ.pop('X', None)
-    res = kaggle_draw.draw_batch(jobs, out, model="klein", timeout_min=150)
+    rd = ROOT / "ke-hoach" / "nhan-vat" / "refs"
+    names = {n for j in jobs for n in j[5]}
+    refs = {n: rd / f"{n}.jpg" for n in names if (rd / f"{n}.jpg").exists()}
+    res = kaggle_draw.draw_batch(jobs, out, model="klein", timeout_min=150, refs=refs)
     print(f"Nhận về {len(res)}/{len(jobs)} ảnh")
     miss = [j[0] for j in jobs if j[0] not in res]
     if miss:

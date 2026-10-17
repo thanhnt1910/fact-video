@@ -1,0 +1,49 @@
+name: Huấn luyện LoRA nhân vật (Kaggle)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ten:
+        description: "Tên bộ LoRA (thư mục ke-hoach/lora/<tên>/ có ảnh .jpg và lora.json)"
+        required: true
+        default: "liubei"
+      chi_tai:
+        description: "1 = không chạy mới, chỉ tải lại kết quả lần Kaggle trước"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  lora:
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow numpy requests kaggle
+      - name: Huấn luyện và vẽ thử trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          set -o pipefail
+          if [ "${{ inputs.chi_tai }}" = "1" ]; then
+            python kaggle_lora.py "${{ inputs.ten }}" chi_tai_lai=1 2>&1 | tee lora_chay.txt
+          else
+            python kaggle_lora.py "${{ inputs.ten }}" 2>&1 | tee lora_chay.txt
+          fi
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          mkdir -p logs/lora
+          cp lora_chay.txt "logs/lora/${{ inputs.ten }}_chay.txt" || true
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add logs/lora
+          git commit -m "LoRA ${{ inputs.ten }}: kết quả huấn luyện và vẽ thử" || echo "không có gì mới"
+          git pull --rebase -q || true
+          git push || true

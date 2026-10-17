@@ -1,19 +1,13 @@
 tk 1 hết lượt
-004_c: OK (3 ảnh mẫu, tk 2)
-004_d: OK (3 ảnh mẫu, tk 2)
-004_e: OK (3 ảnh mẫu, tk 2)
-033_c: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (8bce7b42-4790-4c9c-a934-eee89780c997)","code":3030}],"success":false,"result":{},"messages":[]}
-033_d: OK (3 ảnh mẫu, tk 2)
-033_e: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (fd9d7b30-e3c7-4382-a553-b27510b891e3)","code":3030}],"success":false,"result":{},"messages":[]}
-041_c: OK (0 ảnh mẫu, tk 2)
-041_d: OK (0 ảnh mẫu, tk 2)
-041_e: OK (0 ảnh mẫu, tk 2)
-051_c: OK (3 ảnh mẫu, tk 2)
-051_d: OK (3 ảnh mẫu, tk 2)
-051_e: OK (3 ảnh mẫu, tk 2)
-057_c: OK (1 ảnh mẫu, tk 2)
-057_d: OK (1 ảnh mẫu, tk 2)
-057_e: OK (1 ảnh mẫu, tk 2)
-060_c: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (f3f76d75-256a-469c-b1fa-44eab0a24f03)","code":3030}],"success":false,"result":{},"messages":[]}
-060_d: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (6f61711b-3f98-47e7-809b-aefb893bc9e5)","code":3030}],"success":false,"result":{},"messages":[]}
-060_e: OK (3 ảnh mẫu, tk 2)
+004_f: OK (0 ảnh mẫu, tk 2)
+004_g: OK (0 ảnh mẫu, tk 2)
+004_h: OK (0 ảnh mẫu, tk 2)
+033_f: OK (0 ảnh mẫu, tk 2)
+033_g: OK (0 ảnh mẫu, tk 2)
+033_h: OK (0 ảnh mẫu, tk 2)
+051_f: OK (0 ảnh mẫu, tk 2)
+051_g: OK (0 ảnh mẫu, tk 2)
+051_h: OK (0 ảnh mẫu, tk 2)
+060_f: OK (0 ảnh mẫu, tk 2)
+060_g: OK (0 ảnh mẫu, tk 2)
+060_h: OK (0 ảnh mẫu, tk 2)

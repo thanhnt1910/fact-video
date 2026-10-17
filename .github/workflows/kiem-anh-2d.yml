@@ -11,6 +11,14 @@ on:
         description: "Ảnh bảng nhân vật mẫu trong kho (vd logs/nhan_vat/ST3v2/bang_nhan_vat.jpg); để trống = không dùng"
         required: false
         default: ""
+      suffix:
+        description: "Tam Quốc (mã TQ*): hậu tố biến thể ảnh, vd _a"
+        required: false
+        default: "_a"
+      dir:
+        description: "Tam Quốc: thư mục ảnh (mặc định assets/anh_2d/CF_<mã>)"
+        required: false
+        default: ""
       only:
         description: "Chỉ kiểm tra các ảnh này (vd 007,031); để trống = tất cả"
         required: false
@@ -51,7 +59,10 @@ jobs:
           ARGS="${{ inputs.ma }}"
           [ -n "${{ inputs.ref }}" ] && ARGS="$ARGS ref=${{ inputs.ref }}"
           [ -n "${{ inputs.only }}" ] && ARGS="$ARGS only=${{ inputs.only }}"
-          python kiem_tra_2d.py $ARGS 2>&1 | tee /tmp/k2d.txt
+          case "${{ inputs.ma }}" in
+            TQ*) python kiem_tra_tq.py ${{ inputs.ma }} suffix=${{ inputs.suffix }} ${{ inputs.dir && format('dir={0}', inputs.dir) }} ${{ inputs.only && format('only={0}', inputs.only) }} 2>&1 | tee /tmp/k2d.txt ;;
+            *) python kiem_tra_2d.py $ARGS 2>&1 | tee /tmp/k2d.txt ;;
+          esac
       - name: Lưu kết quả
         if: always()
         shell: bash

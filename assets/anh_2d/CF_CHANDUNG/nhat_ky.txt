@@ -1,20 +1,14 @@
 tk 1 hết lượt
-tonkien_d: OK (0 ảnh mẫu, tk 2)
-tonkien_e: OK (0 ảnh mẫu, tk 2)
-lubo_t4a_d: OK (0 ảnh mẫu, tk 2)
-lubo_t4a_e: OK (0 ảnh mẫu, tk 2)
-dongtrac_d: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (a38d9779-a58b-48ca-a3ab-bf8983ba436c)","code":3030}],"success":false,"result":{},"messages":[]}
-dongtrac_e: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (3d10b3c8-515f-4f8b-8465-1268d64069c9)","code":3030}],"success":false,"result":{},"messages":[]}
-vienthieu_d: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (9524c132-4c9f-4878-afea-488b82c4ca57)","code":3030}],"success":false,"result":{},"messages":[]}
 tk 2 hết lượt
-vienthieu_e: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (98dc52ca-0551-4f80-8b5a-df4e0e15f1e1)","code":3030}],"success":false,"result":{},"messages":[]}
-vienthuat_d: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (b4981d55-32ad-4aa2-b382-ec4b7d4f2ccd)","code":3030}],"success":false,"result":{},"messages":[]}
-vienthuat_e: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (843a64b4-d694-4593-88e0-4050d0cdec43)","code":3030}],"success":false,"result":{},"messages":[]}
-dingnguyen_d: OK (0 ảnh mẫu, tk 3)
-dingnguyen_e: OK (0 ảnh mẫu, tk 3)
-vuongdoan_d: OK (0 ảnh mẫu, tk 3)
-vuongdoan_e: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (50a09f62-ec03-47c3-aaff-3cf52ad06239)","code":3030}],"success":false,"result":{},"messages":[]}
-tomau_d: OK (0 ảnh mẫu, tk 3)
-tomau_e: OK (0 ảnh mẫu, tk 3)
-huchan_d: OK (0 ảnh mẫu, tk 3)
-huchan_e: OK (0 ảnh mẫu, tk 3)
+dongtrac_f: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (ff44abe5-bd41-45d9-8ab8-b64785f1adab)","code":3030}],"success":false,"result":{},"messages":[]}
+dongtrac_g: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (90df579a-20ca-411d-9f01-6a2e25d0e5d5)","code":3030}],"success":false,"result":{},"messages":[]}
+dongtrac_h: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (85ade569-1074-4036-a7d6-b9791e862339)","code":3030}],"success":false,"result":{},"messages":[]}
+vienthieu_f: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (3fb72e63-0c3f-4263-8c08-a2918ad49b77)","code":3030}],"success":false,"result":{},"messages":[]}
+vienthieu_g: OK (0 ảnh mẫu, tk 3)
+vienthieu_h: OK (0 ảnh mẫu, tk 3)
+vienthuat_f: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (e9cde7a9-c250-4f1e-9824-d6cea9e70633)","code":3030}],"success":false,"result":{},"messages":[]}
+vienthuat_g: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (cb57c441-40ee-4fef-900e-836b21949e48)","code":3030}],"success":false,"result":{},"messages":[]}
+vienthuat_h: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (803f89df-5f50-473e-a1bf-5e957b6aed49)","code":3030}],"success":false,"result":{},"messages":[]}
+vuongdoan_f: OK (0 ảnh mẫu, tk 3)
+vuongdoan_g: OK (0 ảnh mẫu, tk 3)
+vuongdoan_h: OK (0 ảnh mẫu, tk 3)

@@ -119,7 +119,7 @@ def run(name, chi_tai_lai=False, timeout_min=170, log=print):
     imgs = {}
     for f in sorted(src.glob("*.jpg")):
         buf = io.BytesIO()
-        im = Image.open(f).convert("RGB"); im.thumbnail((1024, 1024)); im.save(buf, "JPEG", quality=90)
+        im = Image.open(f).convert("RGB"); im.thumbnail((768, 768)); im.save(buf, "JPEG", quality=82)
         imgs[f.stem] = base64.b64encode(buf.getvalue()).decode()
     if not imgs:
         raise SystemExit(f"Không có ảnh .jpg trong {src}")
@@ -131,6 +131,7 @@ def run(name, chi_tai_lai=False, timeout_min=170, log=print):
             .replace("__IMGS__", repr(json.dumps(imgs)))
             .replace("__HFTOK__", repr(os.environ.get("HF_TOKEN", "").strip())))
     (work / "k" / "lora.py").write_text(code, encoding="utf-8")
+    log(f"Mã kernel: {len(code) / 1e6:.2f} MB")
     meta = {"id": f"{user}/{SLUG}", "title": SLUG, "code_file": "lora.py", "language": "python",
             "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
             "enable_tpu": False, "dataset_sources": [], "competition_sources": [], "kernel_sources": [],

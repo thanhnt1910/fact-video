@@ -1,8 +1,9 @@
+Mã kernel: 1.09 MB
 Gửi 19 ảnh huấn luyện 'liubei' sang Kaggle (600 bước, rank 16)
 Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/kaggle_lora.py", line 167, in <module>
+  File "/home/runner/work/fact-video/fact-video/kaggle_lora.py", line 168, in <module>
     run(a[0], chi_tai_lai="chi_tai_lai=1" in a)
-  File "/home/runner/work/fact-video/fact-video/kaggle_lora.py", line 141, in run
+  File "/home/runner/work/fact-video/fact-video/kaggle_lora.py", line 142, in run
     kd._kaggle(["kernels", "push", "-p", str(work / "k")], env)
   File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 181, in _kaggle
     raise RuntimeError(f"kaggle {' '.join(args[:2])}: {(r.stderr or r.stdout)[-500:]}")

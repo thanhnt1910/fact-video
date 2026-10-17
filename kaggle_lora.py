@@ -61,6 +61,8 @@ with open(f"{W}/metadata.jsonl", "w", encoding="utf-8") as fm:
         cap = f'{trig}, {CFG["mo_ta"].get(name, "a man standing")}, {CFG["chung"]}'
         fm.write(json.dumps({"file_name": f"{name}.jpg", "text": cap}, ensure_ascii=False) + "\n")
 log("ảnh huấn luyện:", len(IMGS))
+from datasets import load_dataset
+_d = load_dataset(W)["train"]; log("dataset:", _d.column_names, len(_d)); log("mẫu:", _d[0]["text"][:150])
 
 # --- script huấn luyện chính thức ---
 sh("rm -rf /tmp/dz && git clone -q --depth 1 --filter=blob:none --sparse https://github.com/huggingface/diffusers /tmp/dz && cd /tmp/dz && git sparse-checkout set examples/dreambooth")
@@ -68,7 +70,7 @@ json.dump({"load_in_4bit": True, "bnb_4bit_quant_type": "nf4", "bnb_4bit_use_dou
 MODEL = "black-forest-labs/FLUX.2-klein-4B"
 LORA_DIR = "/kaggle/working/lora_out"
 cmd = (f"cd /tmp/dz/examples/dreambooth && accelerate launch --num_processes 1 --mixed_precision bf16 train_dreambooth_lora_flux2_klein.py "
-       f"--pretrained_model_name_or_path={MODEL} --instance_data_dir={W} --caption_column=text --output_dir={LORA_DIR} "
+       f"--pretrained_model_name_or_path={MODEL} --dataset_name={W} --image_column=image --caption_column=text --output_dir={LORA_DIR} "
        f"--bnb_quantization_config_path=/tmp/bnb.json --mixed_precision=bf16 --gradient_checkpointing --cache_latents --offload "
        f"--instance_prompt='{trig}' --resolution={CFG['do_phan_giai']} --center_crop --train_batch_size=1 --guidance_scale=1 "
        f"--use_8bit_adam --gradient_accumulation_steps=4 --optimizer=adamW --learning_rate=1e-4 --lr_scheduler=constant "

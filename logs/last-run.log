@@ -3,8 +3,64 @@
    ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
    ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
 
+===== TQ1: kiểm tra kịch bản trước khi dựng =====
+   (chưa kiểm tra được kịch bản TQ1:ngan trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
+
 ===== TQ2: kiểm tra kịch bản trước khi dựng =====
+   (chưa kiểm tra được kịch bản TQ2:ngan trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
    (chưa kiểm tra được kịch bản TQ2:dai trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
+
+===== TQ3: kiểm tra kịch bản trước khi dựng =====
+   (chưa kiểm tra được kịch bản TQ3:ngan trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
+
+===== TQ1 (video ngắn + bài ảnh) =====
+▶️  TQ1: Lưu Bị bán giày cỏ: chính sử kể gì về khởi đầu của ông?
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 21 tranh AI → logs/nguon_anh_TQ1.json
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 21 ảnh: 6 ảnh lỗi, 1 ảnh cần xem
+❌ TQ1: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ1_ngan_kiemtra.txt):
+  017.jpg: Trang phục và kiểu búi tóc của nhân vật trong ảnh mang phong cách Nhật Bản truyền thống (kimono/kosode và búi tóc chonmage/shimada), không phù hợp với bối cảnh thời nhà Hán Trung Quốc. → Thay thế bằng hình ảnh trang phục và kiểu tóc thời nhà Hán Trung Quốc cổ đại.
+  023.jpg: Lỗi giải phẫu bàn tay của đứa trẻ: bàn tay trái giơ lên chỉ cây dâu có ngón tay bị dị dạng, bẻ quập bất thường. → Dùng AI tạo lại ảnh với chi tiết bàn tay của đứa trẻ được vẽ chính xác hơn.
+  022.jpg: Lời kể đề cập đến nhân vật khi còn 'hồi nhỏ' (trẻ em), nhưng ảnh lại vẽ một người trưởng thành đứng tuổi. → Sửa lại hình ảnh nhân vật thành một đứa trẻ đúng với chi tiết 'hồi nhỏ' trong lời kể.
+  027.jpg: Lời kể đề cập đến Lưu Bị tập hợp người ở quê cùng hai người đàn ông Quan Vũ và Trương Phi, nhưng ảnh chỉ vẽ một nhân vật đơn lẻ, không thể hiện rõ đây là ai trong ba người hoặc bối cảnh tập hợp lực lượng. → Thay thế bằng ảnh minh họa có sự xuất hiện của ba nhân vật Lưu Bị, Quan Vũ và Trương Phi cùng tập hợp lực lượng.
+  031.jpg: Lời kể nhấn mạnh rằng trong Tam quốc chí không có lời thề vườn đào (chỉ ghi ba người ngủ chung giường), nhưng ảnh lại minh họa một cây đào đầy quả, trực quan gợi nhắc đến sự tích 'vườn đào' kết nghĩa vốn không có thật theo chính sử. → Thay bằng hình ảnh minh họa phù hợp với việc ba người ngủ chung giường hoặc thể hiện sự gắn bó theo đúng chính sử.
+  036.jpg: Ảnh vẽ hai nhân vật đang đứng và ngồi nói chuyện, không thể hiện được nội dung 'ông theo quân triều đình đánh Hoàng Cân, và lập công' theo lời kể. → Thay thế bằng ảnh minh họa cảnh giao tranh giữa quân triều đình và lực lượng Khăn Vàng (Hoàng Cân).
+
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+
+===== TQ2 (video ngắn + bài ảnh) =====
+▶️  TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ2.json
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 18 ảnh: 0 ảnh lỗi, 0 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+  🎙️  Gemini đọc 9/9 cảnh, mỗi cảnh một sắc thái (12s), tốc độ x1.12
+  🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  48.0 giây · 18 hình · trung bình 2.7 giây/hình
+  🎞️  Số lần: cut 12, wipeup 2, wiperight 1, fadewhite 1, dissolve 1
+[0;93m2026-10-17 01:38:25.286415549 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  🎬 Dựng 1439 khung hình (18s)
+  🔊 Tiếng động: hit, rise
+  🏷️  Đã gắn logo kênh vào góc trên bên phải
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.3 dBTP
+     ⚠️  không tạo được ảnh bìa: 'str' object has no attribute 'get'
+✅ Xong output/TQ2/TQ2.mp4  (48.0s video, mất 63s)
+
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
+
+===== TQ3 (video ngắn + bài ảnh) =====
+▶️  TQ3: Ai thật sự chém Hoa Hùng? Hổ Lao có thật không?
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ3.json
+  🖼️  Ảnh cho video ngắn
+  🔍 Kiểm tra 18 ảnh: 2 ảnh lỗi, 1 ảnh cần xem
+❌ TQ3: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ3_ngan_kiemtra.txt):
+  064.jpg: Ảnh vẽ rõ mặt hai nhân vật trong khi lời kể nhắc đến Lưu Bị và Quan Vũ ở phía bắc, vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh phong cảnh, bản đồ hoặc vẽ nhân vật quay lưng, ở xa không thấy rõ mặt.
+  080.jpg: Lời kể chỉ nhắc đến một mình nhân vật Quan Vũ đang ở bên Lưu Bị ở phía bắc, nhưng ảnh lại minh họa hai người đàn ông cầm giáo đứng chung một chỗ. → Dùng ảnh chỉ vẽ một mình Quan Vũ ở phương Bắc hoặc đang ở cùng Lưu Bị theo đúng lời kể.
+
+Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
 
 ===== TQ2 (video dài) =====
 ▶️  Video dài TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác | Tam Quốc theo chính sử, tập 2
@@ -22,5 +78,6 @@
   069.jpg: Lưu Bị là nhân vật lịch sử có thật nhưng ảnh lại vẽ rõ khuôn mặt của hai nhân vật trong cảnh. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để không thấy rõ khuôn mặt theo đúng quy định về nhân vật lịch sử có thật.
   070.jpg: Nhân vật đang cầm một chiếc bút chì gỗ hiện đại để viết. → Thay bút chì hiện đại bằng bút lông hoặc ống bút phù hợp với thời kỳ cổ đại.
 
-Xong video ngắn: - · video dài: -
+Xong video ngắn: TQ2 · video dài: -
 Video dài chưa xong (sẽ thử lại lần chạy sau): TQ2
+Lỗi: TQ1, TQ3

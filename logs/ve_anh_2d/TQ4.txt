@@ -1,7 +1,7 @@
-Cần vẽ 54 ảnh (đợt 9)
-     🖥️  Gửi 54 tranh sang Kaggle (GPU miễn phí)
+Cần vẽ 7 ảnh (đợt 10)
+     🖥️  Gửi 7 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️  27.6 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (28 phút)
-     🖥️  Nhận về 54/54 tranh từ Kaggle
-Nhận về 54/54 ảnh
+     🖥️   7.1 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (7 phút)
+     🖥️  Nhận về 7/7 tranh từ Kaggle
+Nhận về 7/7 ảnh

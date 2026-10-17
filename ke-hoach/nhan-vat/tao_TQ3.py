@@ -100,10 +100,8 @@ script = {
   "voice": "Sadaltager", "music": "none", "bia": BIA, "chapters": out_ch,
  },
  "binh_luan": {
-  "dai": {"ghim": "Theo bạn, vì sao tiểu thuyết trao công của Tôn Kiên cho Quan Vũ: Ⓐ để mở màn cho ba anh em · Ⓑ vì Tôn Kiên không phải nhân vật chính · Ⓒ cả hai? Bình luận chữ cái nhé.",
-          "phu": ["Lưu ý: một số chi tiết về Lữ Bố, về liên quân tan rã và về Lưu Ngu lấy từ tổng hợp thứ cấp; hình ảnh là tranh minh họa."]},
-  "ngan": {"ghim": "Theo bạn, ai chém Hoa Hùng: Ⓐ Quan Vũ · Ⓑ Tôn Kiên · Ⓒ Lữ Bố? Bình luận chữ cái nhé 🏯",
-           "phu": ["Tam quốc chí chép Tôn Kiên chém đô đốc Hoa Hùng ở Dương Nhân; tiểu thuyết trao công ấy cho Quan Vũ."]},
+  "dai": {"ghim": "Tập này đặt sử bên cạnh tiểu thuyết: công chém Hoa Hùng, Tam quốc chí chép là của Tôn Kiên, còn tiểu thuyết trao cho Quan Vũ. Một số chi tiết về Lữ Bố, liên quân tan rã và Lưu Ngu lấy từ tổng hợp thứ cấp; hình ảnh là tranh minh họa.", "phu": []},
+  "ngan": {"ghim": "Về người chém Hoa Hùng: Tam quốc chí chép Tôn Kiên chém đô đốc Hoa Hùng ở Dương Nhân; tiểu thuyết trao công ấy cho Quan Vũ 🏯", "phu": []},
  },
  "ngan": {
   "hook_text": "Chém Hoa Hùng là Tôn Kiên\n**không phải Quan Vũ**",

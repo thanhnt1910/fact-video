@@ -144,14 +144,12 @@ Máy gửi kèm qua Telegram để chủ kênh copy, đăng và ghim ngay sau kh
   "dai":  {"ghim": "bình luận để ghim dưới video dài",
            "phu": ["bình luận phụ 1", "bình luận phụ 2 (tùy chọn)"]}
 }
-- "ghim" chọn 1 trong 3 kiểu:
-  + Câu hỏi chọn phe: "Theo bạn chuyện gì đã xảy ra? Ⓐ … · Ⓑ … · Ⓒ … Bình luận chữ cái của bạn nhé."
-  + Một chi tiết thêm KHÔNG có trong video, kết bằng một câu hỏi.
-  + (chỉ video ngắn, khi đã có video dài) "Bản đầy đủ … đã có trên trang."
-- Video dài: ghim nên là câu hỏi chọn phe hoặc chi tiết thêm chưa kể trong video ngắn. Nguồn tham khảo có link
-  do máy tạo từ "nguon_link" (xem bên dưới), không viết lại trong "phu".
+- "ghim" là lời GIẢI THÍCH NGẮN về nội dung video (chủ kênh yêu cầu 17/10/2026): 2–4 câu nói rõ video kể chuyện gì,
+  điểm chính hoặc điểm sử khác tiểu thuyết (nếu có), và nếu cần một lưu ý (hình ảnh là tranh minh họa, chi tiết nào lấy từ nguồn thứ cấp).
+  KHÔNG đặt câu hỏi, KHÔNG câu hỏi chọn đáp án (Ⓐ Ⓑ Ⓒ), KHÔNG "bình luận chữ cái", KHÔNG kêu gọi người xem trả lời.
+- Video ngắn khi đã có video dài: được thêm câu "Bản đầy đủ … đã có trên trang."
+- "phu" để trống hoặc chỉ ghi một chi tiết thêm có thật chưa nói trong ghim; không lặp lại ý của ghim.
 - Mọi chi tiết phải CÓ THẬT và có trong "sources"; theo đúng quy tắc an toàn nội dung và pháp luật Việt Nam.
-- KHÔNG tiết lộ cú lật trong bình luận ghim của video ngắn.
 - KHÔNG giới thiệu hay hé lộ video / chuyện tiếp theo.
 - Giọng thân thiện, xưng "mình" hoặc "Người Gác Sử"; mỗi bình luận 1–4 câu, 1–2 emoji; tối đa 2 bình luận phụ.
 

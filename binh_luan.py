@@ -35,12 +35,12 @@ def _sources(script, n=2):
 
 
 def _fallback(script, part):
+    """Bản máy tự soạn: giải thích ngắn nội dung video từ dữ liệu có sẵn, không đặt câu hỏi."""
     if part == "dai":
         L = script.get("long", {})
         ghim = (L.get("description") or script.get("caption", "")).strip()
-        ghim = (ghim + "\n\n" if ghim else "") + "Theo bạn, chi tiết nào trong chuyện này khó tin nhất? Bình luận cho Người Gác Sử biết nhé 🏮"
     else:
-        ghim = "Bạn đã từng nghe chuyện này chưa? Theo bạn chi tiết nào khó tin nhất? Bình luận cho Người Gác Sử biết nhé 🏮"
+        ghim = (script.get("caption") or "").strip()
     phu = []
     src = _sources(script)
     if src:

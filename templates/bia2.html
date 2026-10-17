@@ -1,0 +1,74 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Title';src:url('../assets/fonts/Bangers-Regular.ttf')}
+@font-face{font-family:'Badge';src:url('../assets/fonts/BeVietnamPro-ExtraBoldItalic.ttf')}
+@font-face{font-family:'Lora';font-style:italic;font-weight:400 700;src:url('../assets/fonts/Lora-Italic-Variable.ttf')}
+:root{--cream:#fffaf0;--gold:#ffd23a;--red:#d8191c;--ink:#120a06}
+*{box-sizing:border-box;margin:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#000}
+html:has(body.v){width:1080px;height:1920px}
+body.v{width:1080px;height:1920px}
+#art{position:absolute;inset:0;background-color:#0a0705;background-repeat:no-repeat;background-size:cover;background-position:center;filter:saturate(1.12) contrast(1.06)}
+#shade{position:absolute;inset:0}
+body.w #shade{background:linear-gradient(90deg,rgba(8,4,2,.92) 0%,rgba(8,4,2,.74) 28%,rgba(8,4,2,.2) 52%,rgba(8,4,2,0) 64%),linear-gradient(0deg,rgba(8,4,2,.55) 0%,rgba(8,4,2,0) 24%)}
+body.v #shade{background:linear-gradient(0deg,rgba(8,4,2,1) 0%,rgba(8,4,2,.95) 24%,rgba(8,4,2,.6) 36%,rgba(8,4,2,.25) 44%,rgba(8,4,2,0) 52%),linear-gradient(180deg,rgba(8,4,2,.6) 0%,rgba(8,4,2,0) 14%)}
+#vig{position:absolute;inset:0;box-shadow:inset 0 0 220px rgba(0,0,0,.55)}
+#badge{position:absolute;display:flex;align-items:center;gap:18px;background:var(--red);color:#fff;font-family:'Badge';font-size:40px;letter-spacing:2px;padding:12px 34px 12px 18px;transform:skewX(-9deg) rotate(-1.5deg);box-shadow:6px 7px 0 rgba(0,0,0,.5);clip-path:polygon(0 6%,18% 0,45% 5%,72% 0,100% 7%,99% 55%,100% 94%,70% 100%,40% 95%,12% 100%,0 92%,1% 50%)}
+#badge>*{transform:skewX(9deg)}
+#yt{width:62px;height:44px;background:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center}
+#yt i{display:block;width:0;height:0;border-left:18px solid var(--red);border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:4px}
+#txt{position:absolute}
+.t{font-family:'Title';line-height:.98;white-space:nowrap;transform:skewX(-6deg)}
+.t1{color:var(--cream);-webkit-text-stroke:0;paint-order:stroke fill;text-shadow:0 9px 0 rgba(0,0,0,.7),0 0 40px rgba(0,0,0,.7)}
+.t2{position:relative;display:inline-block;color:var(--gold);text-shadow:0 9px 0 rgba(90,20,0,.8),0 0 40px rgba(0,0,0,.7)}
+.slash{position:absolute;left:-4%;right:-4%;top:70%;height:.2em;background:var(--red);transform:rotate(-2.5deg);z-index:0;box-shadow:0 .04em 0 rgba(0,0,0,.5);filter:url(#rough2)}
+#bt{position:relative;z-index:1}
+.sub{font-family:'Lora',serif;font-style:italic;font-weight:700;color:var(--cream);text-shadow:0 4px 0 rgba(0,0,0,.75),0 0 24px rgba(0,0,0,.8);line-height:1.22}
+.sub b{color:var(--gold);font-weight:700}
+#brand{position:absolute;font-family:'Lora',serif;font-style:italic;font-weight:600;color:var(--gold);display:flex;align-items:center;gap:16px;text-shadow:0 3px 0 rgba(0,0,0,.7)}
+#brand::before{content:"";width:60px;height:4px;background:var(--gold)}
+/* khổ rộng */
+body.w #badge{left:80px;top:64px}
+body.w #txt{left:80px;top:196px}
+body.w .t{font-size:158px;letter-spacing:1px}
+body.w .t2{margin-top:6px}
+body.w .sub{margin-top:50px;font-size:56px;white-space:nowrap}
+body.w #brand{left:84px;bottom:50px;font-size:38px}
+/* khổ rộng, chữ giữa (Facebook) */
+body.c #shade{background:linear-gradient(90deg,rgba(8,4,2,.2),rgba(8,4,2,.82) 32%,rgba(8,4,2,.82) 68%,rgba(8,4,2,.2))}
+body.c #badge{left:560px;top:70px;font-size:32px}
+body.c #txt{left:560px;width:800px;top:200px;text-align:center}
+body.c .t{font-size:128px;letter-spacing:1px}
+body.c .sub{font-size:44px;white-space:normal;margin-top:36px}
+body.c #brand{left:560px;bottom:56px;font-size:34px}
+/* khổ dọc */
+body.v #badge{left:50%;top:84px;margin-left:-330px;font-size:44px}
+body.v #txt{left:0;width:1080px;top:1210px;text-align:center}
+body.v .t{font-size:170px;letter-spacing:1px}
+body.v .sub{margin:44px auto 0;font-size:56px;max-width:960px}
+body.v #brand{left:50%;transform:translateX(-50%);bottom:64px;font-size:40px}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<filter id="rough" x="-5%" y="-10%" width="110%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.035 0.05" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G"/></filter>
+<filter id="rough2" x="-5%" y="-20%" width="110%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="0.05 0.08" numOctaves="2" seed="9" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"/></filter>
+</defs></svg>
+<div id="art"></div><div id="shade"></div><div id="vig"></div>
+<div id="badge"><div id="yt"><i></i></div><span id="bd"></span></div>
+<div id="txt"><div class="t t1" id="a"></div><div class="t t2" id="b"><span id="bt"></span><span class="slash" id="sl"></span></div><div class="sub" id="c"></div></div>
+<div id="brand"></div>
+<script>
+window.setup = function (o) {
+  document.body.className = o.mode;
+  document.getElementById('art').style.backgroundImage = `url("${o.anh}")`;
+  if (o.vi_tri) document.getElementById('art').style.backgroundPosition = o.vi_tri;
+  if (o.co) document.getElementById('art').style.backgroundSize = o.co;
+  document.getElementById('bd').textContent = o.huy_hieu;
+  document.getElementById('a').textContent = o.dong1;
+  document.getElementById('bt').textContent = o.dong2;
+  if (!o.gach) document.getElementById('sl').remove();
+  document.getElementById('c').innerHTML = o.dong3;
+  document.getElementById('brand').textContent = o.kenh;
+  return new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = o.anh; }).then(() => document.fonts.ready);
+};
+</script></body></html>

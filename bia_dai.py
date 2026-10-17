@@ -12,11 +12,38 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parent
 
 
+def main_moi(sid, script, b, cfg):
+    """Kiểu bìa mới (templates/bia2.html): ảnh nền vẽ riêng cho tập, chữ dựng bằng mã.
+    long.bia: anh_rong, anh_doc (ảnh nền đã chọn trong assets/anh_2d/<mã>BIA/), huy_hieu, dong1, dong2, gach, dong3."""
+    out = ROOT / "assets" / "bia" / sid
+    out.mkdir(parents=True, exist_ok=True)
+    sb = script.get("ngan", {}).get("bia") or b
+    jobs = [((1920, 1080), "w", b["anh_rong"], b, f"{sid}_dai_thumbnail.jpg"),
+            ((1920, 1080), "c", b["anh_rong"], b, f"{sid}_dai_thumbnail_fb.jpg"),
+            ((1080, 1920), "v", b["anh_doc"], sb, f"{sid}_thumbnail.jpg")]
+    with sync_playwright() as p:
+        br = p.chromium.launch()
+        for (w, h), mode, anh, t, name in jobs:
+            page = br.new_page(viewport={"width": w, "height": h})
+            page.goto((ROOT / "templates" / "bia2.html").as_uri())
+            o = {"anh": (ROOT / anh).as_uri(), "huy_hieu": t["huy_hieu"], "dong1": t["dong1"], "dong2": t["dong2"],
+                 "gach": t.get("gach", False), "dong3": t["dong3"], "kenh": cfg.get("channel", ""), "mode": mode,
+                 "vi_tri": t.get("vi_tri_doc" if mode == "v" else "vi_tri_rong") or b.get("vi_tri_doc" if mode == "v" else "vi_tri_rong"),
+                 "co": t.get("co_doc" if mode == "v" else "co_rong") or b.get("co_doc" if mode == "v" else "co_rong")}
+            page.evaluate("o => window.setup(o)", o)
+            page.wait_for_timeout(500)
+            page.screenshot(path=str(out / name), type="jpeg", quality=93)
+            print("ok", out / name)
+        br.close()
+
+
 def main():
     sid = sys.argv[1]
     script = json.loads((ROOT / "scripts" / f"{sid}.json").read_text(encoding="utf-8"))
     b = script["long"]["bia"]
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+    if b.get("anh_rong"):
+        return main_moi(sid, script, b, cfg)
     out = ROOT / "assets" / "bia" / sid
     out.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:

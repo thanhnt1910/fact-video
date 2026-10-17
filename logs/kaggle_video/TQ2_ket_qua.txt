@@ -1,0 +1,38 @@
+Kaggle: .complete sau 54 phút
+{
+ "jobs": {
+  "TQ2_003": {
+   "giay_chay": 637,
+   "dtype": "torch.float16",
+   "khung": 81,
+   "kich_thuoc": "832x480",
+   "buoc": 25
+  },
+  "TQ2_041": {
+   "giay_chay": 632,
+   "dtype": "torch.float16",
+   "khung": 81,
+   "kich_thuoc": "832x480",
+   "buoc": 25
+  },
+  "TQ2_050": {
+   "giay_chay": 631,
+   "dtype": "torch.float16",
+   "khung": 81,
+   "kich_thuoc": "832x480",
+   "buoc": 25
+  },
+  "TQ2_067": {
+   "giay_chay": 631,
+   "dtype": "torch.float16",
+   "khung": 81,
+   "kich_thuoc": "832x480",
+   "buoc": 25
+  }
+ },
+ "tong_giay": 3201
+}
+003.mp4: có
+041.mp4: có
+050.mp4: có
+067.mp4: có

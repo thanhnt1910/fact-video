@@ -592,7 +592,7 @@ def voice_bed(narration_wav, events, total, quiet=None):
 
 
 def mix(video, narration_wav, total, music_track, out, cfg, bed_wav=None, quiet=None, fade_out=2.5,
-        music_lufs=None, log=print):
+        music_lufs=None, log=print, veo_wav=None):
     """Giọng (lọc ù, nén nhẹ, giảm 's' chói, chuẩn -16 LUFS) + nhạc nền thấp hơn giọng ~18-20 dB, tự hạ khi có giọng
     + lớp tiếng động; cả video chuẩn hóa -14 LUFS, đỉnh không quá -1 dBTP (kế hoạch, mục Âm thanh A.)."""
     import audio_fx
@@ -600,7 +600,7 @@ def mix(video, narration_wav, total, music_track, out, cfg, bed_wav=None, quiet=
     voice_chain = (audio_fx.VOICE_CHAIN.replace("alimiter", "deesser=i=0.4:m=0.5:f=0.5:s=o,alimiter")
                    + ",loudnorm=I=-16:TP=-2:LRA=9")
     args = ["-i", str(video), "-i", str(narration_wav)]
-    graph = [f"[1:a]{voice_chain},aresample=44100,asplit=2[v][vk]"]
+    graph = [f"[1:a]{voice_chain},aresample=44100,asplit=3[v][vk][vk2]"]
     mix_in = ["[v]"]
     idx = 2
     if music_track:
@@ -614,6 +614,14 @@ def mix(video, narration_wav, total, music_track, out, cfg, bed_wav=None, quiet=
         idx += 1
     else:
         graph.append("[vk]anullsink")
+    if veo_wav:   # tiếng gốc clip Veo: hạ mạnh khi có giọng đọc (sidechain), lên lại ở quãng nghỉ
+        args += ["-i", str(veo_wav)]
+        graph += [f"[{idx}:a]aresample=44100,afade=t=out:st={max(0, total - fade_out):.2f}:d={fade_out}[vb]",
+                  "[vb][vk2]sidechaincompress=threshold=0.015:ratio=10:attack=40:release=500:makeup=1[vd]"]
+        mix_in.append("[vd]")
+        idx += 1
+    else:
+        graph.append("[vk2]anullsink")
     if bed_wav:
         args += ["-i", str(bed_wav)]
         graph.append(f"[{idx}:a]aresample=44100,afade=t=out:st={max(0, total - fade_out):.2f}:d={fade_out}[s]")

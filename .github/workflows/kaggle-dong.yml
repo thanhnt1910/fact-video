@@ -11,6 +11,10 @@ on:
         description: "Số thứ tự tranh AI trong video dài, cách nhau dấu phẩy (vd: 0,3)"
         required: false
         default: "0,3"
+      anh2d:
+        description: "Chế độ ảnh 2D: số ảnh làm clip, tối đa 12 (vd: 003,041,050). Dùng ô 'ma' làm mã tập (vd: TQ2). Để trống = chế độ cũ"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -43,11 +47,17 @@ jobs:
           CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
           CF_ACCOUNT_ID_3: ${{ secrets.CF_ACCOUNT_ID_3 }}
           CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
-        run: python kaggle_animate.py "scripts/${{ inputs.ma }}.json" "${{ inputs.tranh }}"
+        run: |
+          if [ -n "${{ inputs.anh2d }}" ]; then
+            python kaggle_animate_2d.py "${{ inputs.ma }}" "${{ inputs.anh2d }}"
+          else
+            python kaggle_animate.py "scripts/${{ inputs.ma }}.json" "${{ inputs.tranh }}"
+          fi
       - name: Lưu kết quả vào logs/kaggle_video
         if: always()
         run: |
           git add logs/kaggle_video || true
+          git add -f assets/clips_2d || true
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"

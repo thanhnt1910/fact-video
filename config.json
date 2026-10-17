@@ -1,11 +1,12 @@
 {
   "channel": "Người Gác Sử",
   "style": "story",
-  "long": { "voice": "Sadaltager" },
+  "long": {
+    "voice": "Sadaltager"
+  },
   "catchphrase": "Sử thật… lạ hơn cả truyện!",
   "follow": "👉 Theo dõi để mở trang sử tiếp theo",
   "next_label": "Chuyện tiếp theo:",
-
   "tts_engine": "gemini",
   "gemini_voice": "Sadaltager",
   "kaggle_username": "thanhnguyen9x",
@@ -15,12 +16,10 @@
     "mode": "",
     "python": ".venv-tts/Scripts/python.exe"
   },
-
   "voice": "vi-VN-HoaiMyNeural",
   "voice_rate": "+5%",
   "voice_pitch": "+0Hz",
   "tts_delay": 6,
-
   "fps": 30,
   "preview_fps": 15,
   "pad_after_scene": 0.35,
@@ -29,33 +28,148 @@
   "subtitles": false,
   "subtitle_on_hook": false,
   "subtitle_max_words": 7,
-
   "music_file": "assets/music/nhac-nen.mp3",
   "music_library": true,
   "music_volume": 1.0,
   "music_lufs": -17,
-  "music_duck": { "threshold": 0.06, "ratio": 3 },
-  "sfx": { "enabled": true, "volume": 0.55, "ambience": 0.0 },
+  "music_duck": {
+    "threshold": 0.06,
+    "ratio": 3
+  },
+  "sfx": {
+    "enabled": true,
+    "volume": 0.55,
+    "ambience": 0.0
+  },
   "voice_fx": true,
-  "motion": { "parallax": true, "parallax_strength": 0.6, "fx": true, "fx_auto": false, "fx_strength": 0.8, "dof": 0, "transition": "fade", "light": true },
+  "motion": {
+    "parallax": true,
+    "parallax_strength": 0.6,
+    "fx": true,
+    "fx_auto": false,
+    "fx_strength": 0.8,
+    "dof": 0,
+    "transition": "fade",
+    "light": true
+  },
   "loudness_lufs": -14,
   "auto_prosody": true,
-  "pauses": { "ellipsis": 0.38, "period": 0.16, "exclaim": 0.22, "question": 0.34, "tag": 0.5 },
-
+  "pauses": {
+    "ellipsis": 0.38,
+    "period": 0.16,
+    "exclaim": 0.22,
+    "question": 0.34,
+    "tag": 0.5
+  },
   "topics": {
-    "dong-vat":    { "label": "Động vật",          "icon": "🐾", "bg1": "#0b3d2c", "bg2": "#1e7a52", "accent": "#8CFFB8" },
-    "con-nguoi":   { "label": "Con người",         "icon": "🧠", "bg1": "#4a0d24", "bg2": "#b0305a", "accent": "#FFC2D4" },
-    "thien-nhien": { "label": "Thiên nhiên",       "icon": "🌍", "bg1": "#0a2a4a", "bg2": "#1f6fb2", "accent": "#8FD3FF" },
-    "vu-tru":      { "label": "Vũ trụ",            "icon": "🪐", "bg1": "#140a33", "bg2": "#4b2a8f", "accent": "#C9A8FF" },
-    "thuc-vat":    { "label": "Thực vật & Đồ ăn",  "icon": "🍌", "bg1": "#4a3300", "bg2": "#b07d00", "accent": "#FFE36E" },
-    "lich-su":     { "label": "Lịch sử",           "icon": "🏛️", "bg1": "#4a1e00", "bg2": "#b5531c", "accent": "#FFC08A" },
-    "co-dai":      { "label": "Thế giới cổ đại",   "icon": "🏺", "bg1": "#3b2a12", "bg2": "#9a7140", "accent": "#FFD98F" },
-    "tam-tri":     { "label": "Bí ẩn tâm trí",     "icon": "🌀", "bg1": "#1a0f3a", "bg2": "#3d2a7a", "accent": "#C9B8FF" },
-
-    "su-la":       { "label": "Sử lạ có thật",     "icon": "🏮", "bg1": "#140d06", "bg2": "#4f3313", "accent": "#FFC66B" },
-    "bi-an":       { "label": "Bí ẩn chưa giải",   "icon": "🔍", "bg1": "#0a0f1c", "bg2": "#23324f", "accent": "#9FC4FF" },
-    "sinh-ton":    { "label": "Sinh tồn có thật",  "icon": "🧭", "bg1": "#0b1a12", "bg2": "#2b4f36", "accent": "#A8F0B0" },
-    "phi-vu":      { "label": "Phi vụ khó tin",    "icon": "🎩", "bg1": "#1f0b0d", "bg2": "#5c1e24", "accent": "#FFB3A8" },
-    "than-thoai":  { "label": "Thần thoại",        "icon": "⚡", "bg1": "#150c26", "bg2": "#41275e", "accent": "#E0C3FF" }
+    "dong-vat": {
+      "label": "Động vật",
+      "icon": "🐾",
+      "bg1": "#0b3d2c",
+      "bg2": "#1e7a52",
+      "accent": "#8CFFB8"
+    },
+    "con-nguoi": {
+      "label": "Con người",
+      "icon": "🧠",
+      "bg1": "#4a0d24",
+      "bg2": "#b0305a",
+      "accent": "#FFC2D4"
+    },
+    "thien-nhien": {
+      "label": "Thiên nhiên",
+      "icon": "🌍",
+      "bg1": "#0a2a4a",
+      "bg2": "#1f6fb2",
+      "accent": "#8FD3FF"
+    },
+    "vu-tru": {
+      "label": "Vũ trụ",
+      "icon": "🪐",
+      "bg1": "#140a33",
+      "bg2": "#4b2a8f",
+      "accent": "#C9A8FF"
+    },
+    "thuc-vat": {
+      "label": "Thực vật & Đồ ăn",
+      "icon": "🍌",
+      "bg1": "#4a3300",
+      "bg2": "#b07d00",
+      "accent": "#FFE36E"
+    },
+    "lich-su": {
+      "label": "Lịch sử",
+      "icon": "🏛️",
+      "bg1": "#4a1e00",
+      "bg2": "#b5531c",
+      "accent": "#FFC08A"
+    },
+    "co-dai": {
+      "label": "Thế giới cổ đại",
+      "icon": "🏺",
+      "bg1": "#3b2a12",
+      "bg2": "#9a7140",
+      "accent": "#FFD98F"
+    },
+    "tam-tri": {
+      "label": "Bí ẩn tâm trí",
+      "icon": "🌀",
+      "bg1": "#1a0f3a",
+      "bg2": "#3d2a7a",
+      "accent": "#C9B8FF"
+    },
+    "su-la": {
+      "label": "Sử lạ có thật",
+      "icon": "🏮",
+      "bg1": "#140d06",
+      "bg2": "#4f3313",
+      "accent": "#FFC66B"
+    },
+    "bi-an": {
+      "label": "Bí ẩn chưa giải",
+      "icon": "🔍",
+      "bg1": "#0a0f1c",
+      "bg2": "#23324f",
+      "accent": "#9FC4FF"
+    },
+    "sinh-ton": {
+      "label": "Sinh tồn có thật",
+      "icon": "🧭",
+      "bg1": "#0b1a12",
+      "bg2": "#2b4f36",
+      "accent": "#A8F0B0"
+    },
+    "phi-vu": {
+      "label": "Phi vụ khó tin",
+      "icon": "🎩",
+      "bg1": "#1f0b0d",
+      "bg2": "#5c1e24",
+      "accent": "#FFB3A8"
+    },
+    "than-thoai": {
+      "label": "Thần thoại",
+      "icon": "⚡",
+      "bg1": "#150c26",
+      "bg2": "#41275e",
+      "accent": "#E0C3FF"
+    }
+  },
+  "logo": {
+    "bat": true,
+    "file": "assets/logo/nguoi-gac-su.png",
+    "dai": {
+      "goc": "trai",
+      "rong": 130,
+      "le": 44,
+      "tren": 34,
+      "do_dam": 0.6
+    },
+    "ngan": {
+      "goc": "phai",
+      "rong": 88,
+      "le": 60,
+      "tren": 22,
+      "do_dam": 0.6
+    }
   }
 }

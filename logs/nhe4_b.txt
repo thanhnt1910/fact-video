@@ -1,0 +1,4 @@
+{"clip": "assets/clips_2d/TQ3_nhe/058.mp4", "giay": 8.0, "fps": 24}
+{"clip": "assets/clips_2d/TQ3_nhe/066.mp4", "giay": 8.0, "fps": 24}
+{"clip": "assets/clips_2d/TQ3_nhe/083.mp4", "giay": 8.0, "fps": 24}
+{"clip": "assets/clips_2d/TQ3_nhe/085.mp4", "giay": 8.0, "fps": 24}

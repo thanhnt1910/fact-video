@@ -291,6 +291,23 @@ def check_images(script, beats, log, kind="dai"):
                            + "\n  ".join(lines))
 
 
+def _subject_cx(src):
+    """Vị trí ngang (0..1) của nhân vật trong ảnh: trọng tâm độ chi tiết (cạnh). Lỗi thì trả 0.5."""
+    try:
+        from PIL import Image
+        import numpy as np
+        p = str(src)
+        if p.startswith("file://"):
+            from urllib.parse import unquote
+            p = unquote(p[7:])
+        g = np.asarray(Image.open(p).convert("L").resize((192, 108)), dtype=float)
+        e = np.abs(np.diff(g, axis=1))[:-1, :] + np.abs(np.diff(g, axis=0))[:, :-1]
+        col = np.convolve(e.sum(axis=0), np.ones(9) / 9, mode="same") ** 2
+        return float((col * np.arange(len(col))).sum() / col.sum() / len(col))
+    except Exception:
+        return 0.5
+
+
 def _subject(src, depth, box):
     """Điểm chủ thể (x, y theo tỉ lệ ảnh gốc) trong vùng box, theo bản đồ độ sâu.
     Không lấy "chỗ gần máy nhất" (thường là mặt đất ở đáy ảnh) mà lấy vật NHÔ LÊN so với nền cùng hàng:
@@ -435,6 +452,45 @@ def gemini_clean(t):
 
 
 # ------------------------------------------------------------------ dựng
+def veo_bed(vis, work, total, log=print):
+    """Tiếng gốc của clip Veo (chỉ clip có tiếng thật): chuẩn về cùng độ lớn, vào/ra mờ, đặt đúng lúc clip hiện trên hình
+    (clip chạy từ đầu cảnh, dài min(clip, cảnh)). Trả về wav cả bài hoặc None. Việc nhường giọng đọc làm ở am_thanh.mix."""
+    import re as _re
+    items = []
+    for s in vis:
+        if not s.get("clip") or "_nhe" in str(s["clip"]):
+            continue
+        src = ROOT / s["clip"]
+        r = subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-nostats", "-i", str(src), "-vn", "-af", "volumedetect",
+                            "-f", "null", "-"], capture_output=True, text=True)
+        if "Audio:" not in r.stderr:
+            log(f"     🔇 {src.name}: không có tiếng, dùng giọng đọc như thường")
+            continue
+        m = _re.search(r"mean_volume:\s*(-?[\d.]+) dB", r.stderr)
+        if not m or float(m.group(1)) < -55:
+            log(f"     🔇 {src.name}: tiếng quá nhỏ / tắt, bỏ qua")
+            continue
+        n = subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-i", str(src)], capture_output=True, text=True).stderr
+        d = _re.search(r"Duration: (\d+):(\d+):([\d.]+)", n)
+        clen = int(d.group(1)) * 3600 + int(d.group(2)) * 60 + float(d.group(3)) if d else 8.0
+        items.append((src, s["start"], min(clen, s["dur"] + 0.5)))
+    if not items:
+        return None
+    args, graph, outs = [], [], []
+    for i, (src, st, ln) in enumerate(items):
+        args += ["-i", str(src)]
+        fo = min(0.7, ln / 3)
+        graph.append(f"[{i}:a]atrim=0:{ln:.2f},loudnorm=I=-24:TP=-6:LRA=7,aresample=44100,aformat=channel_layouts=stereo,"
+                     f"afade=t=in:d=0.4,afade=t=out:st={max(0, ln - fo):.2f}:d={fo:.2f},adelay={int(st * 1000)}:all=1[c{i}]")
+        outs.append(f"[c{i}]")
+    graph.append("".join(outs) + f"amix=inputs={len(outs)}:duration=longest:normalize=0,apad=whole_dur={total:.2f},"
+                 f"atrim=0:{total:.2f}[o]")
+    out = work / "veo_bed.wav"
+    mv.run_ffmpeg(args + ["-filter_complex", ";".join(graph), "-map", "[o]", "-ar", "44100", "-ac", "2", str(out)])
+    log(f"  🎬 Tiếng gốc clip Veo: {len(items)} clip, nhường giọng đọc khi có lời")
+    return out
+
+
 def build(script, cfg, out_dir):
     L = script["long"]
     lc = cfg.get("long", {})
@@ -561,7 +617,7 @@ def build(script, cfg, out_dir):
                 raise RuntimeError(f"thiếu clip chuyển động: {s['clip']}")
             outc = work / f"clip_{src_clip.stem}.mp4"
             subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(src_clip), "-an",
-                            "-vf", "crop=iw*0.95:ih*0.95:0:0,scale=1920:1080:flags=lanczos,fps=24",
+                            "-vf", ("" if "_nhe" in src_clip.parent.name else "crop=iw*0.95:ih*0.95:0:0,") + "scale=1920:1080:flags=lanczos,fps=24",
                             "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-pix_fmt", "yuv420p", str(outc)], check=True)
             s["clip_path"] = str(outc)
     if any(s.get("clip_path") for s in vis):
@@ -574,14 +630,15 @@ def build(script, cfg, out_dir):
         page.evaluate("() => document.fonts.ready")
         # ảnh bìa YouTube
         key = next((s["src"] for s in vis if not s["fit"]), vis[0]["src"])
-        page.evaluate("a => window.thumb(a[0], a[1], a[2])", [key, cfg.get("channel", ""), L.get("title_card") or L["title"]])
+        page.evaluate("a => window.thumb(a[0], a[1], a[2], '', a[3], a[4])",
+                      [key, cfg.get("channel", ""), L.get("thumb_title") or L.get("title_card") or L["title"], L.get("badge") or script.get("badge") or "Chuyện có thật", _subject_cx(key)])
         page.wait_for_timeout(300)
         page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail.jpg"), type="jpeg", quality=92)
         # ảnh bìa cho Facebook: chữ ở giữa (Facebook cắt lưới video thành khung dọc)
         page.goto((ROOT / "templates" / "long.html").as_uri())
         page.evaluate("() => document.fonts.ready")
-        page.evaluate("a => window.thumb(a[0], a[1], a[2], 'center')",
-                      [key, cfg.get("channel", ""), L.get("title_card") or L["title"]])
+        page.evaluate("a => window.thumb(a[0], a[1], a[2], 'center', a[3], a[4])",
+                      [key, cfg.get("channel", ""), L.get("thumb_title") or L.get("title_card") or L["title"], L.get("badge") or script.get("badge") or "Chuyện có thật", _subject_cx(key)])
         page.wait_for_timeout(300)
         page.screenshot(path=str(out_dir / f"{script['id']}_dai_thumbnail_fb.jpg"), type="jpeg", quality=92)
         page.goto((ROOT / "templates" / "long.html").as_uri())
@@ -615,7 +672,10 @@ def build(script, cfg, out_dir):
         bed_wav = work / "sfx.wav"
         am_thanh.save_bed(bed_wav, bed)
         log(f"  🔊 Tiếng động nền: {', '.join(sorted({e['label'] for e in ev}))}")
-    am_thanh.mix(silent, work / "narration.wav", total, track, final, cfg, bed_wav=bed_wav, fade_out=3.0, log=log)
+    veo_wav = veo_bed(vis, work, total, log) if cfg.get("tieng_veo", True) else None
+    import logo
+    silent = logo.ap_dung(silent, work, mv.ffmpeg_exe(), "dai", cfg, log)
+    am_thanh.mix(silent, work / "narration.wav", total, track, final, cfg, bed_wav=bed_wav, veo_wav=veo_wav, fade_out=3.0, log=log)
 
     # ---- mô tả YouTube
     lines = [f"TIÊU ĐỀ YOUTUBE: {L['title'][:95]}", "", "MÔ TẢ:", L.get("description", script.get("caption", "")), "",

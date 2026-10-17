@@ -1,42 +1,59 @@
 
-===== BA1: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Nội dung kịch bản · Bài viết Facebook, đoạn 2] Bài viết ghi 'Tháng 11/1872, tàu Mary Celeste rời New York', nhưng trong kế hoạch và các phần khác không ghi ngày chính xác ngoài 'Năm 1872'. Tuy nhiên, ở kịch bản video dài ghi ngày 5 tháng 11, còn Wikipedia/kế hoạch chung ghi tàu rời cảng ngày 7/11/1872. Cần đồng nhất.
-   ⛔ Chưa dựng BA1: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
-
-===== TQ2: kiểm tra kịch bản trước khi dựng =====
-   (chưa kiểm tra được kịch bản TQ2:ngan trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
-   (chưa kiểm tra được kịch bản TQ2:dai trước khi dựng: 'str' object has no attribute 'get', vẫn dựng tiếp)
-
-===== TQ2 (video ngắn + bài ảnh) =====
-▶️  TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ2.json
+===== TQ3 (video ngắn + bài ảnh) =====
+▶️  TQ3: Ai thật sự chém Hoa Hùng? Hổ Lao có thật không?
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ3.json
   🖼️  Ảnh cho video ngắn
-  🔍 Kiểm tra 18 ảnh: 1 ảnh lỗi, 0 ảnh cần xem
-❌ TQ2: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ2_ngan_kiemtra.txt):
-  013.jpg: Ảnh chỉ vẽ phong cảnh, cột nhà, ngọn đuốc và cuộn dây thừng, hoàn toàn thiếu vắng nhân vật Lưu Bị đang trói và đánh viên đốc bưu theo đúng nội dung lời kể. → Vẽ minh họa cảnh nhân vật Lưu Bị đang trói và đánh viên đốc bưu bằng gậy.
+  🔍 Kiểm tra 18 ảnh: 3 ảnh lỗi, 1 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+  🎙️  Gemini đọc 9/9 cảnh, mỗi cảnh một sắc thái (11s), tốc độ x1.12
+  🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
+  ⏱️  49.2 giây · 18 hình · trung bình 2.7 giây/hình · ⚠️ 2 hình đứng quá 4 giây
+  🎞️  Số lần: cut 12, dissolve 3, fadewhite 1, fade 1
+[0;93m2026-10-16 10:39:05.978866703 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  🎬 Dựng 1475 khung hình (35s)
+  🔊 Tiếng động: hit, rise
+  🏷️  Đã gắn logo kênh vào góc trên bên phải
+  🔈 Âm lượng cuối: -14.9 LUFS, đỉnh -4.2 dBTP
+     ⚠️  không tạo được ảnh bìa: 'str' object has no attribute 'get'
+✅ Xong output/TQ3/TQ3.mp4  (49.2s video, mất 91s)
 
-Tổng kết: 0 thành công, 1 lỗi, 0 bỏ qua
+Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-===== TQ2 (video dài) =====
-▶️  Video dài TQ2: Ai đánh viên đốc bưu? Lưu Bị lang bạt thế nào trước loạn Đổng Trác | Tam Quốc theo chính sử, tập 2
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ2.json
+===== TQ3 (video dài) =====
+▶️  Video dài TQ3: Ai thật sự chém Hoa Hùng? Hổ Lao có thật không? | Tam Quốc theo chính sử, tập 3
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ3.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 85 ảnh: 13 ảnh lỗi, 3 ảnh cần xem
-❌ Video dài TQ2: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ2_dai_kiemtra.txt):
-  013.jpg: Ảnh chỉ vẽ ngọn đuốc và đoạn dây thừng, hoàn toàn không thể hiện được sự việc nhân vật trói đốc bưu trên giường, đánh gậy hay bỏ chức theo lời kể. → Cần vẽ cảnh nhân vật đang trói hoặc đánh viên đốc bưu theo đúng nội dung lịch sử trong lời kể.
-  019.jpg: Thiết kế bàn ghế làm việc và cửa sổ trong ảnh mang phong cách hiện đại rõ rệt, không phù hợp với bối cảnh lịch sử thời Tam Quốc. → Thay bằng ảnh phong cách phòng làm việc cổ đại thời Hán với bàn ghế gỗ thấp và các cuộn trúc thư.
-  076.jpg: Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (có thể là Quan Vũ hoặc Trương Phi), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay bằng ảnh nhân vật quay lưng, ở xa, trong bóng tối hoặc chỉ minh họa chi tiết phi nhân vật.
-  044.jpg: Lời kể nhắc đến Lưu Biện lên ngôi khi còn rất trẻ, nhưng ảnh lại minh họa một người đàn ông lớn tuổi, nét mặt già nua hoảng sợ, không phù hợp với miêu tả 'còn rất trẻ'. → Thay thế bằng hình ảnh minh họa một thiếu niên hoặc người trẻ tuổi ngồi trên ngai vàng để phù hợp với nhân vật Lưu Biện khi mới lên ngôi.
-  049.jpg: Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (có thể là Viên Thiệu hoặc tướng lĩnh), vi phạm quy tắc không được vẽ rõ mặt nhân vật lịch sử có thật. → Thay bằng ảnh phong cảnh hoàng cung hỗn loạn hoặc vẽ nhân vật quay lưng, ở xa không thấy rõ mặt.
-  051.jpg: Lời kể đang nói về sự kiện Đổng Trác dẫn quân tới gặp hoàng đế, nhưng ảnh lại minh họa một tướng lĩnh đứng đơn độc (có thể đại diện cho Đổng Trác), không thể hiện được sự việc Đổng Trác gặp hoàng đế theo đúng ngữ cảnh. → Thay đổi ảnh minh họa thành cảnh Đổng Trác dẫn quân đội đến gặp và tiếp kiến hoàng đế trẻ.
-  059.jpg: Bản đồ trên mặt bàn hiển thị toàn bộ thế giới hiện đại (bao gồm cả châu Mỹ, châu Đại Dương), hoàn toàn sai lệch về mặt địa lý và thời kỳ lịch sử Tam Quốc. → Thay thế bằng hình ảnh bản đồ Trung Quốc thời Đông Hán hoặc khung cảnh lều trại quân sự phù hợp với bối cảnh lịch sử.
-  063.jpg: Mũ sắt trong ảnh mang kiểu dáng của mũ trùm đầu/mũ sắt châu Âu thời Trung Cổ hoặc cận đại, không phù hợp với bối cảnh lịch sử Tam Quốc của Trung Quốc cổ đại. → Thay bằng hình ảnh mũ trụ quân đội Trung Quốc thời Hán.
-  067.jpg: Ảnh vẽ con đường nhựa có vạch vàng kẻ giữa và rào chắn kim loại hiện đại, không phù hợp với bối cảnh lịch sử thời Tam Quốc. → Thay bằng hình ảnh con đường đất cổ xưa với đoàn quân di chuyển.
-  083.jpg: Bản đồ ở giữa có hình dáng vô nghĩa, sai lệch hoàn toàn so với bản đồ địa lý Trung Hoa thời Tam Quốc, đồng thời các chữ viết trên áo và bản đồ đều là chữ AI vô nghĩa. → Thay bằng hình ảnh bản đồ Trung Hoa thời Đông Hán hoặc cảnh hai thế lực quân phiệt đang đối đầu.
-  069.jpg: Lưu Bị là nhân vật lịch sử có thật nhưng ảnh lại vẽ rõ khuôn mặt của hai nhân vật trong cảnh. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để không thấy rõ khuôn mặt theo đúng quy định về nhân vật lịch sử có thật.
-  070.jpg: Nhân vật đang cầm một chiếc bút chì gỗ hiện đại để viết. → Thay bút chì hiện đại bằng bút lông hoặc ống bút phù hợp với thời kỳ cổ đại.
-  075.jpg: Ảnh minh họa xuất hiện con đường nhựa hiện đại có vạch kẻ đường rõ ràng, hoàn toàn sai lệch về thời kỳ lịch sử Tam Quốc. → Thay thế bằng phong cảnh núi non thời cổ đại, không có đường nhựa.
+  🔍 Kiểm tra 85 ảnh: 7 ảnh lỗi, 4 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (13s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (10s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+  ⏱️  Thời lượng 10:28 · 85 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-16 10:46:03.226393612 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     85/85 ảnh có độ sâu
+  🎞️  38 cảnh có clip chuyển động
+     15084 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (215 giây)
+     … 6/12 đoạn (443 giây)
+     … 9/12 đoạn (538 giây)
+     … 12/12 đoạn (588 giây)
+     dựng khung hình xong trong 589 giây
+  🎬 Tiếng gốc clip Veo: 20 clip, nhường giọng đọc khi có lời
+  🏷️  Đã gắn logo kênh vào góc trên bên trái
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: TQ3_dai.mp4 (10:28)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): TQ2
-Lỗi: TQ2
+Xong video ngắn: TQ3 · video dài: TQ3

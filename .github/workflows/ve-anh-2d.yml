@@ -15,6 +15,10 @@ on:
         description: "Đợt vẽ lại (đổi hạt giống): 1, 2, 3…"
         required: false
         default: "1"
+      vong:
+        description: "Số vòng tự vẽ lại ảnh lỗi sau khi kiểm (0 = chỉ vẽ và kiểm, không vẽ lại)"
+        required: false
+        default: "3"
       chi_tai:
         description: "1 = không vẽ mới, chỉ tải lại kết quả lần Kaggle trước"
         required: false
@@ -26,21 +30,41 @@ permissions:
 jobs:
   ve:
     runs-on: ubuntu-latest
-    timeout-minutes: 200
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install -q pillow numpy requests kaggle
+      - run: python -m pip install -q pillow numpy requests kaggle opencv-python-headless
       - name: Vẽ trên Kaggle
         env:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           CHI_TAI_LAI: ${{ inputs.chi_tai }}
+          REVIEW_MODELS: "gemini-3.8-flash,gemini-flash-latest,gemini-2.5-flash"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: |
           set -o pipefail
-          python ve_anh_2d.py "${{ inputs.ma }}" "${{ inputs.lam_lai }}" "${{ inputs.dot }}" 2>&1 | tee /tmp/ve.txt
+          # vẽ ảnh còn thiếu -> tự kiểm (kỹ thuật, trùng ảnh, Gemini) -> tự vẽ lại ảnh lỗi, tối đa N vòng
+          # (chạy lại ảnh cụ thể: điền "lam_lai" như cũ thì dùng ve_anh_2d.py)
+          if [ -n "${{ inputs.lam_lai }}" ]; then
+            python ve_anh_2d.py "${{ inputs.ma }}" "${{ inputs.lam_lai }}" "${{ inputs.dot }}" 2>&1 | tee /tmp/ve.txt
+          else
+            python ve_kiem_anh.py "${{ inputs.ma }}" vong=${{ inputs.vong }} 2>&1 | tee /tmp/ve.txt
+          fi
       - name: Lưu ảnh vào kho
         if: always()
         shell: bash
@@ -55,7 +79,7 @@ jobs:
           D="$D | ve=$(tail -c 600 /tmp/ve.txt 2>/dev/null | tr '\n' ' ')"
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          D="$D | add=$(git add -f logs/ve_anh_2d assets/anh_2d 2>&1 | head -c 300)"
+          D="$D | add=$(git add -f logs/ve_anh_2d logs/kiem_2d assets/anh_2d 2>&1 | head -c 300)"
           D="$D | commit=$(git commit -q -m "Vẽ ảnh 2D $M [skip ci]" 2>&1 | head -c 300)"
           for i in 1 2 3; do
             R=$(git pull --rebase --autostash -X theirs -q 2>&1; git push -q 2>&1)

@@ -20,6 +20,16 @@ PHU.update({
  "taotao": "Cao Cao, a short wiry man of about 35 with sharp clever eyes, a thin moustache and a small beard, dark-blue robe with plain light armour",
  "tonkien": "Sun Jian, a strong broad-faced man of about 45 with a short beard, a red cloth headband, red robe and iron armour",
 })
+PHU.update({
+ "linhhan": "a Han foot soldier, adult man with a weathered face, plain dark iron helmet, grey-brown leather and iron-scale armour over a plain red tunic, long wooden-shafted spear",
+ "giacuop": "a bandit rebel, lean adult man with a plain brown cloth tied around his head, ragged brown hemp tunic, wooden-shafted spear",
+ "linhbien": "a frontier soldier from the north-west, broad adult man with a thick beard, round fur cap, dark fur-trimmed iron-scale armour, long spear",
+ "linhtonkien": "a soldier of Sun Jian, adult man with a red cloth headband, plain red tunic, light iron armour, long spear",
+ "huahung": "Hua Xiong, a huge burly general of about 40 with a fierce square face and a black beard, black iron armour with a dark-green cloak and a heavy iron helmet",
+ "dancu": "a poor refugee villager, adult man with a cloth bundle on his back, ragged hemp clothes, tired face",
+ "thieude_lung": "a thin pale teenage boy of about fourteen in rumpled dark-red robes, hair in a topknot under a small flat cap, clearly a boy",
+ "quanlai": "a county clerk, thin adult man in a plain grey robe and a small black cloth cap, bowing respectfully",
+})
 NV = {**tq["nhan_vat"], **PHU}
 
 E = "no people, the scene is completely empty of people"
@@ -111,6 +121,42 @@ S = [
 ("084",["liubei"],1,"waist-up of Liu Bei in profile facing left with a firm quiet look, exactly one man, both arms hidden in his sleeves"),
 ("085",[],0,"a letter written on a rolled silk sheet with a red wax seal resting on a dark wooden desk, soft candle light"),
 ]
+
+# ---- Đợt sửa 2026-10-15: bỏ ảnh đồ vật/cảnh vắng, thêm cảnh có người, quân đội, đánh trận (đúng thời Hán) ----
+# key: (nhân vật, số người ở tiền cảnh, mô tả, có đám đông nhỏ phía sau)
+OV = {
+"007": ([],0,"a plain two-wheeled Han wooden official carriage with a small canopy standing in front of the gate, plain Chinese Han-dynasty county office: rammed-earth wall, simple wooden gate, pitched roof of grey tiles with short eaves, an empty yard",False),
+"008": (["docbuu","quanlai"],2,"the provincial inspector standing upright at the top of the stone steps of a county office, chin raised, hands hidden in his wide sleeves, looking down with arrogance, while a small county clerk bows deeply on the steps below him, exactly two men",False),
+"013": (["liubei","docbuu"],2,"Liu Bei standing in a torch-lit stone courtyard at night holding a long plain wooden rod planted upright on the ground with one hand, his other arm hidden behind his back, stern face; at his feet the provincial inspector sits on the ground with a rope tied round his chest and his head bowed, calm and upright, exactly two men",False),
+"015": (["liubei"],1,"waist-up of Liu Bei hanging a small bronze seal on its cord on a wooden post beside a county gate with one hand, his other arm hidden, looking toward the road with quiet resolve, dawn light, exactly one man",False),
+"016": (["liubei","tuongquan"],2,"waist-up of Liu Bei bowing slightly before a Han recruiting officer who sits behind a low table with a bamboo register, behind them a long line of poor men waiting on the road to join the army, exactly two men in the foreground",True),
+"018": (["liubei","linhhan"],2,"Liu Bei in plain light armour holding a spear in both hands, advancing at the front with one Han soldier beside him against bandit rebels on a dusty field, smoke far behind, behind them rows of many small fighters clashing with spears",True),
+"019": (["liubei"],1,"Liu Bei seen from behind standing in the open doorway of an empty county hall, leaving, his arms hidden; inside the hall a low wooden table with a rolled scroll and a reed sitting mat on the floor, a wooden lattice window with paper panes, only a low table and a reed mat as furniture, grey morning light, exactly one man",False),
+"020": (["liubei"],1,"waist-up of Liu Bei in a plain dark robe and a small black cloth cap kneeling at a low wooden table reading a bamboo slip held in one hand, a reed mat on the floor, tired face, exactly one man, his other arm hidden",False),
+"021": (["linhhan","giacuop"],2,"bandit rebels storming through the broken wooden gate of a small county town while county soldiers in grey-brown armour retreat, dust and smoke, in the foreground one retreating county soldier looking back and one rebel with a spear, behind them many small fighters",True),
+"025": (["linhhan"],2,"wide shot of two armies of spearmen meeting on a wide plain seen from a low hill, two Han soldiers with lowered spears in the foreground, behind them dense ranks of many small soldiers with plain red banners on one side and plain dark-blue banners on the other",True),
+"027": (["liubei","quanlai"],1,"waist-up of Liu Bei in a dark-blue robe and a black cap standing at the gate of a walled county town on a morning plain, his arms hidden in his sleeves, behind him two rows of townspeople and small officials bowing in welcome, green fields and a slow river behind",True),
+"031": (["quanvu","trieuphi"],2,"waist-up two-shot of Guan Yu and Zhang Fei standing shoulder to shoulder in front of a tent entrance at night as guards, each holding a long spear upright with one hand, torch glow behind them, exactly two men, their outer arms hidden",False),
+"032": (["liubei"],1,"waist-up of Liu Bei sitting on the bare floor of a poor hut looking down at an empty clay grain jar in front of him, tired but calm, exactly one man, his hands hidden in his sleeves",False),
+"034": (["liubei","quanvu","trieuphi"],3,"Liu Bei, Guan Yu and Zhang Fei standing side by side under a blossoming peach tree in solemn silence, heads slightly bowed, hands clasped inside their sleeves, soft light, exactly three men",False),
+"040": (["liubei","quanvu","trieuphi"],3,"three men sitting on a reed mat around a low table sharing a steaming pot of food, Liu Bei in the middle, a small bronze oil lamp with a tiny open flame on the table, their hands resting below the table edge, warm humble room, exactly three men",False),
+"048": (["hoanquan","hatien"],2,"a narrow palace corridor at night with torchlight and long shadows, in the foreground a pale beardless court eunuch in a dark-purple robe waits in the shadow behind a wooden pillar with his hands hidden in his sleeves looking down the corridor, far down the corridor the small figure of a heavy-set general in a dark-red robe walks away from the viewer, exactly two men",False),
+"050": (["thieude_lung","hiende"],2,"two boys seen from behind walking side by side along a dark river bank at night, a thin teenage boy in rumpled dark-red robes with his hair in a topknot under a small flat cap and a small boy of about nine in a plain dark robe with two small tufts of hair, their backs to the viewer, moonlight on the water, tall reeds, exactly two boys, both clearly male",False),
+"052": (["linhbien"],1,"a long column of frontier soldiers in fur caps and fur-trimmed iron-scale armour marching in ranks through the great gate of Luoyang city, spears upright, tall plain dark-red banners, one foreground soldier and many small marching soldiers behind him",True),
+"056": (["tuongquan"],1,"a coalition army camp on a wide ridge, rows of soldiers standing in formation before many tents under tall plain banners of many different colours blowing in the wind, in the foreground one army officer in iron armour looking over the camp",True),
+"059": (["vienthieu","tuongquan"],2,"Yuan Shao in light armour standing on a low wooden platform being acclaimed as leader with a regional officer in armour beside him, before them rows of armoured officers and soldiers standing in ranks facing them",True),
+"061": (["linhhan"],1,"a tall fortress pass gate between two steep rocky cliffs in mist, in front of it ranks of Han soldiers with spears and tall plain banners assembling, one foreground soldier seen from behind looking at the gate, exactly one man in the foreground",True),
+"063": (["huahung"],1,"waist-up of Hua Xiong, a huge burly general in dark iron armour and a heavy iron helmet standing before the gate of a fortress, fierce confident stare, exactly one man, his arms hidden behind his back",False),
+"064": (["tonkien"],1,"Sun Jian in a red headband and iron armour striding forward at the head of his soldiers with a long spear held in both hands, determined fierce face, behind him ranks of many small soldiers with spears and one tall plain red banner",True),
+"065": (["dancu"],1,"a long column of refugees and soldiers with bundles and ox-carts leaving a city gate, one refugee with a bundle in the foreground seen from behind, behind them the great city burning at night with black smoke and orange flames over palace roofs",True),
+"066": (["linhhan"],1,"the wide encampment of the coalition, soldiers standing idle and sitting on the ground beside piled spears and cold cooking pots in front of many plain tents, grey morning, nobody fighting, one soldier sitting in the foreground with his arms hidden",True),
+"067": (["linhtonkien"],1,"a column of Sun Jian's soldiers marching north along a dusty road with spears upright and a tall plain red banner at the head, one soldier in a red headband marching in the foreground, many small marching figures behind in rows",True),
+"075": (["linhhan"],1,"a long column of soldiers with spears and plain banners marching along a road toward a far mountain pass at sunset, orange sky, one soldier seen from behind in the foreground, many small dark figures ahead",True),
+"079": (["tuongquan"],1,"a wide view down a river valley, many separate army camps on both banks and columns of soldiers converging under plain banners in early morning mist, one commander in iron armour seen from behind in the foreground on a hill, hundreds of tiny soldiers",True),
+"081": (["linhhan"],2,"the defeated army retreating along a riverbank at dusk with torn plain blue banners and broken spears, two tired soldiers walking side by side in the foreground with heads down, behind them a long ragged line of retreating soldiers, grey sky",True),
+}
+CROWD = {k for k,v in OV.items() if v[3]}
+S = [(k,)+OV[k][:3] if k in OV else (k,nv,n,m) for k,nv,n,m in S]
 SKEYS = [s[0] for s in S]
 
 # (chương, lời kể, khóa ảnh)
@@ -281,13 +327,18 @@ t2 = {"ma": "TQ2", "ghi_chu": "Tập 2: đốc bưu, lang bạt, kinh đô 189, 
 SUF = ("medium shot, simple natural poses, every person has exactly two arms, two hands and two legs with natural adult proportions, "
        "serious weathered faces, no extra limbs, no duplicated people, no deformed faces, no text, no letters, no watermark. "
        "Flags and banners are plain solid colour with no symbols. All objects are realistic with no faces")
+ARMY = ("Han dynasty soldiers: iron lamellar or scale armour over knee-length tunics, plain iron helmets, long wooden-shafted spears, halberds, straight single-edged swords, "
+        "rectangular wooden shields and crossbows, soldiers on foot hold spears upright or lowered with both hands")
+SUF_WIDE = SUF.replace("medium shot, simple natural poses", "wide establishing shot, orderly ranks, simple natural poses")
 out = []
 for k,nv,n,m in S:
     cnt = "No people in the picture." if n == 0 else f"The picture contains exactly {n} {'person' if n == 1 else 'people'} in the foreground and no one else."
     if n == 0:
         out.append({"key": k, "nv": [], "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo"})
         continue
+    if k in CROWD:
+        cnt = f"The picture contains exactly {n} {'person' if n == 1 else 'people'} in the foreground, and behind them a large crowd of many small distant figures in orderly rows."
     chars = " Characters (keep exactly this look): " + "; ".join(NV[x] for x in nv) + "."
-    out.append({"key": k, "nv": nv, "prompt": f'{m}. {cnt}{chars} {tq["phong_cach"]}. {SUF}'})
+    out.append({"key": k, "nv": nv, "prompt": f'{m}. {cnt}{chars} {tq["phong_cach"]}. ' + (f"{ARMY}. {SUF_WIDE}" if k in CROWD else SUF)})
 (R/"TQ2_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print("ok", len(S), "ảnh")

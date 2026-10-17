@@ -63,27 +63,75 @@ window.setup = function (d) {
   const loads = d.shots.map(s => new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = s.src; }));
   return Promise.all([document.fonts.ready, ...loads]).then(() => true);
 };
-// ảnh bìa YouTube: ảnh nền + tiêu đề lớn
-// mode 'center': chữ dồn vào cột giữa, để Facebook cắt ảnh bìa thành khung dọc 9:16 vẫn đọc đủ tiêu đề
-window.thumb = function (src, kicker, title, mode) {
+// ảnh bìa: ảnh nhân vật SÁNG, RÕ, không phủ tối; chữ nằm trên mảng cọ đen ở phía không có nhân vật
+// cx = vị trí ngang của nhân vật (0..1, tính bằng Python). mode 'center' = bản Facebook (cột giữa 9:16): chữ ở dải trên, nhân vật bên dưới
+window.thumb = function (src, kicker, title, mode, topic, cx) {
+  const old = document.getElementById('tn'); if (old) old.remove();
   document.getElementById('imgs').innerHTML = '';
-  const el = document.createElement('div'); el.className = 'img'; el.style.backgroundImage = `url("${src}")`;
-  el.style.opacity = 1; el.style.transform = 'scale(1.05)'; document.getElementById('imgs').append(el);
-  const card = document.getElementById('card');
-  card.style.background = 'linear-gradient(90deg, rgba(11,6,4,0.92) 0%, rgba(11,6,4,0.75) 45%, rgba(11,6,4,0.1) 80%)';
-  card.style.alignItems = 'flex-start'; card.style.textAlign = 'left'; card.style.padding = '0 90px';
-  card.querySelector('.k').textContent = kicker; card.querySelector('.t').innerHTML = rich(title);
-  card.querySelector('.t').style.fontSize = '118px'; card.querySelector('.t').style.maxWidth = '1150px';
-  card.querySelector('.s').textContent = ''; card.querySelector('.r').style.display = '';
-  if (mode === 'center') {
-    card.style.background = 'linear-gradient(90deg, rgba(11,6,4,0.15) 0%, rgba(11,6,4,0.88) 33%, rgba(11,6,4,0.88) 67%, rgba(11,6,4,0.15) 100%)';
-    card.style.alignItems = 'center'; card.style.textAlign = 'center'; card.style.padding = '0';
-    const t = card.querySelector('.t'); t.style.maxWidth = '560px'; t.style.fontSize = '96px';
-    card.querySelector('.k').style.fontSize = '26px'; card.querySelector('.k').style.letterSpacing = '6px';
-    card.querySelector('.k').style.maxWidth = '560px';
-  }
-  card.style.opacity = 1; document.getElementById('label').style.opacity = 0;
-  return new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; });
+  document.getElementById('card').style.opacity = 0; document.getElementById('label').style.opacity = 0;
+  cx = (cx == null || isNaN(cx)) ? 0.5 : cx;
+  const ctr = mode === 'center';
+  const layout = ctr ? 'ctr' : 'T';   // chữ luôn nằm ở dải trên; ảnh nhân vật đặt phía dưới dải, KHÔNG bị chữ che
+  const tn = document.createElement('div'); tn.id = 'tn';
+  tn.style.cssText = 'position:absolute;inset:0;overflow:hidden;background:#000;z-index:50';
+  let bx, by, bw;                 // khung chữ
+  if (layout === 'ctr') { bw = 620; bx = 650; by = -20; }
+  else { bw = 1840; bx = 40; by = -20; }
+  const maxLines = layout === 'T' ? 2 : 3;
+  tn.innerHTML = `
+  <style>
+    @font-face{font-family:'BVI';font-weight:900;font-style:italic;src:url(../assets/fonts/BeVietnamPro-BlackItalic.ttf)}
+    #tn .bg{position:absolute;inset:-40px;background:url('${src}') center/cover no-repeat;filter:blur(22px) saturate(1.2) brightness(.8)}
+    #tn .fg{position:absolute;background:url('${src}') 0 0/100% 100% no-repeat;filter:saturate(1.25) contrast(1.06) brightness(1.06);
+      -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
+    #tn .bgd{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 12%)}
+    #tn .pn{position:absolute;background:#08080a;filter:drop-shadow(0 10px 18px rgba(0,0,0,.55))}
+    #tn .rd{position:absolute;background:#d1121b}
+    #tn .bd{position:absolute;display:flex;align-items:center;gap:14px;color:#fff;font:900 ${ctr?28:34}px 'BVI','Be Vietnam Pro';font-style:italic;letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
+    #tn .bd i{display:block;width:52px;height:52px;background:#fff;border-radius:12px;position:relative;flex:none}
+    #tn .bd i:after{content:"";position:absolute;left:19px;top:13px;border-left:22px solid #d1121b;border-top:13px solid transparent;border-bottom:13px solid transparent}
+    #tn .tt{position:absolute;font:900 100px/1.02 'BVI','Be Vietnam Pro';font-style:italic;color:#fff;text-transform:uppercase;text-align:center;text-wrap:balance;letter-spacing:-1px;text-shadow:0 5px 0 rgba(0,0,0,.6)}
+    #tn .tt .hl{color:#ffc61a;display:inline;font-size:1.08em}
+    #tn .br{position:absolute;font:700 26px 'Be Vietnam Pro';letter-spacing:6px;color:#fff;text-transform:uppercase;text-shadow:0 2px 8px #000,0 0 14px #000;white-space:nowrap}
+  </style>
+  <div class="bg"></div><div class="fg" id="tnf"></div><div class="bgd"></div>
+  <div class="pn" id="tnp"></div><div class="rd" id="tnr"></div>
+  <div class="bd" id="tnb"><i></i><span>${esc(topic || 'Chuyện có thật')}</span></div>
+  <div class="tt" id="tnt">${rich(title)}</div><div class="br" id="tnk">${esc(kicker || '')}</div>`;
+  document.getElementById('root').append(tn);
+  const $ = id => tn.querySelector('#' + id), tt = $('tnt');
+  const rough = (w, h, amp, seed) => {  // đa giác mép cọ lởm chởm
+    let r = seed; const rnd = () => (r = (r * 16807) % 2147483647) / 2147483647;
+    const pts = [], n = Math.max(10, Math.round(w / 38)), m = Math.max(5, Math.round(h / 38));
+    for (let i = 0; i <= n; i++) pts.push([w * i / n, rnd() * amp]);
+    for (let i = 1; i <= m; i++) pts.push([w - rnd() * amp * 1.4, h * i / m]);
+    for (let i = n; i >= 0; i--) pts.push([w * i / n, h - rnd() * amp]);
+    for (let i = m - 1; i > 0; i--) pts.push([rnd() * amp * 1.4, h * i / m]);
+    return 'polygon(' + pts.map(p => p[0].toFixed(0) + 'px ' + p[1].toFixed(0) + 'px').join(',') + ')';
+  };
+  const place = () => {
+    const padX = 44, padY = 30, innerW = bw - 2 * padX;
+    tt.style.width = innerW + 'px';
+    let fs = layout === 'T' ? 92 : 104; tt.style.fontSize = fs + 'px';
+    while (Math.round(tt.scrollHeight / (fs * 1.02)) > maxLines && fs > 52) { fs -= 4; tt.style.fontSize = fs + 'px'; }
+    const bdH = 54, gap = 14, th = tt.scrollHeight;
+    const ph = padY + bdH + gap + th + padY - 6;   // đáy dải chữ (toạ độ khung hình)
+    const fh = 1080 - ph + 14, fw = fh * 16 / 9, f = $('tnf');   // ảnh nhân vật nằm dưới dải chữ
+    f.style.height = fh + 'px'; f.style.width = fw + 'px'; f.style.bottom = '0';
+    f.style.left = (ctr ? 960 - cx * fw : (1920 - fw) / 2) + 'px';
+    const pn = $('tnp'), rd = $('tnr');
+    Object.assign(pn.style, { left: bx + 'px', top: by + 'px', width: bw + 'px', height: (ph - by) + 'px', clipPath: rough(bw, ph - by, 16, 7919) });
+    Object.assign(rd.style, { left: (bx + 50) + 'px', top: (ph - 30) + 'px', width: (bw - 100) + 'px', height: '7px', transform: 'rotate(-0.6deg)' });
+    const b = $('tnb'); b.style.left = (bx + padX) + 'px'; b.style.top = padY + 'px';
+    if (layout === 'T') b.style.left = (bx + (bw - b.offsetWidth) / 2) + 'px';
+    if (layout === 'ctr') b.style.left = (bx + (bw - b.offsetWidth) / 2) + 'px';
+    tt.style.left = (bx + padX) + 'px'; tt.style.top = (padY + bdH + gap) + 'px';
+    const k = $('tnk'); k.style.left = (layout === 'R' ? 60 : (ctr ? 660 + (600 - k.offsetWidth) / 2 : 60)) + 'px'; k.style.bottom = '44px';
+    // huy hiệu đỏ ở dưới nền cọ
+    const bd = $('tnb');
+    bd.style.background = '#d1121b'; bd.style.padding = '6px 22px 6px 6px'; bd.style.transform = 'rotate(-1.5deg)';
+  };
+  return Promise.all([document.fonts.ready, new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; })]).then(place);
 };
 window.renderAt = function (t) {
   const f = Math.floor(t * 12);

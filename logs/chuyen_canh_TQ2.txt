@@ -1,0 +1,4 @@
+CHUYỂN CẢNH TQ2 (video ngắn) · bảng màu: wiperight, dissolve, smoothup, wipedown, wipeup, smoothright
+Thứ tự: cut → cut → cut → cut → cut → cut → cut → wipeup → cut → wiperight → cut → fadewhite → dissolve → cut → cut → wipeup → cut
+Số lần: cut 12, wipeup 2, wiperight 1, fadewhite 1, dissolve 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

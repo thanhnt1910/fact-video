@@ -757,6 +757,8 @@ def build(script, cfg, out_dir, variant="moi"):
         bed = am_thanh.voice_bed(work / "narration.wav", ev, total, quiet=quiet)
         am_thanh.save_bed(work / "sfx.wav", bed)
         log(f"  🔊 Tiếng động: {', '.join(sorted({e['label'] for e in ev}))}")
+        import logo
+        silent = logo.ap_dung(silent, work, mv.ffmpeg_exe(), "ngan", cfg, log)
         am_thanh.mix(silent, work / "narration.wav", total, track, final, cfg, bed_wav=work / "sfx.wav", quiet=quiet,
                      fade_out=2.5, log=log)
     else:

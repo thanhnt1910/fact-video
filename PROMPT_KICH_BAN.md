@@ -144,7 +144,7 @@ Máy gửi kèm qua Telegram để chủ kênh copy, đăng và ghim ngay sau kh
   "dai":  {"ghim": "bình luận để ghim dưới video dài",
            "phu": ["bình luận phụ 1", "bình luận phụ 2 (tùy chọn)"]}
 }
-- "ghim" là lời GIẢI THÍCH NGẮN về nội dung video (chủ kênh yêu cầu 17/10/2026): 2–4 câu nói rõ video kể chuyện gì,
+- "ghim" là lời GIẢI THÍCH NGẮN về nội dung video (chủ kênh yêu cầu 17/10/2026, áp dụng từ Tam Quốc tập 3 trở đi; video đã đăng trước đó, kể cả tập 1, 2, không sửa): 2–4 câu nói rõ video kể chuyện gì,
   điểm chính hoặc điểm sử khác tiểu thuyết (nếu có), và nếu cần một lưu ý (hình ảnh là tranh minh họa, chi tiết nào lấy từ nguồn thứ cấp).
   KHÔNG đặt câu hỏi, KHÔNG câu hỏi chọn đáp án (Ⓐ Ⓑ Ⓒ), KHÔNG "bình luận chữ cái", KHÔNG kêu gọi người xem trả lời.
 - Video ngắn khi đã có video dài: được thêm câu "Bản đầy đủ … đã có trên trang."

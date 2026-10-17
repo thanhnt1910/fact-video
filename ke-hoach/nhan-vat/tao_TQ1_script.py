@@ -201,8 +201,10 @@ script = {
   "chapters": chapters,
  },
  "binh_luan": {
-  "dai": {"ghim": "Tập này mình bám theo Tam quốc chí nên một số cảnh quen thuộc trong tiểu thuyết, như vườn đào, không có trong video. Hình ảnh nhân vật là tranh minh họa, vì sử không tả ngoại hình ngoài chiều cao, tay dài và tai lớn của Lưu Bị.", "phu": []},
-  "ngan": {"ghim": "Về cảnh vườn đào kết nghĩa: Tam quốc chí chỉ chép Lưu Bị, Quan Vũ, Trương Phi ngủ chung giường, ân nghĩa như anh em. Lời thề vườn đào là do tiểu thuyết thêm vào 🏯", "phu": []},
+  "dai": {"ghim": "Tập này mình bám theo Tam quốc chí, nên một số cảnh quen thuộc trong tiểu thuyết (như vườn đào) không có. Bạn muốn tập sau kể tiếp chuyện đốc bưu hay đi sâu vào Quan Vũ và Trương Phi? Bình luận cho mình biết nhé.",
+          "phu": ["Lưu ý: hình ảnh nhân vật là tranh minh họa, sử không tả chi tiết ngoại hình ngoài chiều cao, tay dài và tai lớn của Lưu Bị."]},
+  "ngan": {"ghim": "Theo bạn, vườn đào kết nghĩa có thật không? Ⓐ có · Ⓑ không · Ⓒ chưa chắc. Bình luận chữ cái của bạn nhé 🏯",
+           "phu": ["Trong Tam quốc chí chỉ có chi tiết ba người ngủ chung giường, ân nghĩa như anh em. Lời thề vườn đào là do tiểu thuyết thêm vào."]},
  },
  "ngan": {
   "hook_text": "Lưu Bị: người bán giày cỏ\n**không hề thề vườn đào**",

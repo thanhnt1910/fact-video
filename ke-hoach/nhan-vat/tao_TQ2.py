@@ -304,8 +304,10 @@ script = {
   "voice": "Sadaltager", "music": "none", "bia": BIA, "chapters": chapters,
  },
  "binh_luan": {
-  "dai": {"ghim": "Tập này kể tiếp vụ đốc bưu: tiểu thuyết cho Trương Phi đánh, còn Tam quốc chí chép là Lưu Bị. Một số chi tiết ở phần kinh đô năm 189 và liên quân năm 190 lấy từ Hậu Hán thư; hình ảnh là tranh minh họa.", "phu": []},
-  "ngan": {"ghim": "Về người đánh đốc bưu: Tam quốc chí chép chính Lưu Bị trói và đánh đốc bưu hai trăm gậy; tiểu thuyết đổi thành Trương Phi 🏯", "phu": []},
+  "dai": {"ghim": "Tập này tiếp nối vụ đốc bưu. Trong tiểu thuyết là Trương Phi, trong Tam quốc chí là Lưu Bị. Tập sau mình đi vào liên quân chống Đổng Trác và trận Hổ Lao: bạn đoán ai thật sự chém Hoa Hùng?",
+          "phu": ["Lưu ý: một số chi tiết ở phần kinh đô năm 189 và liên quân năm 190 lấy từ Hậu Hán thư, hình ảnh là tranh minh họa."]},
+  "ngan": {"ghim": "Theo bạn, ai đánh viên đốc bưu: Ⓐ Lưu Bị · Ⓑ Trương Phi · Ⓒ Quan Vũ? Bình luận chữ cái nhé 🏯",
+           "phu": ["Tam quốc chí chép chính Lưu Bị trói và đánh đốc bưu hai trăm gậy; tiểu thuyết đổi thành Trương Phi."]},
  },
  "ngan": {
   "hook_text": "Đánh đốc bưu là Lưu Bị\n**không phải Trương Phi**",

@@ -13,6 +13,20 @@ EXTRA = {
  "kybinh": "a Wuhuan horseman in fur-trimmed leather clothes",
 }
 NV = {**tq["nhan_vat"], **t2["nhan_vat_phu"], **tp["trang_phuc"], **EXTRA}
+
+# Vũ khí theo truyện (luôn kèm theo nhân vật)
+WP = {
+ "quanvu": ", always carrying his signature weapon the Green Dragon Crescent Blade (Qinglong Yanyue dao): a very long wooden pole with a large single broad curved crescent-shaped blade at the top, held upright beside him or in his hands",
+ "trieuphi": ", always carrying his signature weapon the serpent spear (zhangba shemao): a very long spear whose steel head is a narrow wavy snake-like blade, held upright beside him or in his hands",
+ "liubei": ", wearing his pair of straight double-edged swords (shuangu jian) sheathed at his belt, one on each hip",
+ "lubo": ", carrying his signature weapon the Sky Piercer halberd (Fangtian Huaji): a long pole with a spear point and a crescent blade on one side",
+ "taotao": ", a sheathed straight sword at his waist",
+ "thaisutu": ", a bow and quiver on his back and a long halberd in hand",
+}
+for _k in list(NV):
+    for _p, _t in WP.items():
+        if _k.startswith(_p) and _p in ("quanvu","trieuphi","liubei","lubo","taotao","thaisutu"):
+            NV[_k] = NV[_k] + _t
 PK = tp["phu_kien"]
 STYLE = tq["phong_cach"].replace("year 184 AD", "year 193 AD")
 OLD = json.loads(Path("/tmp/old_canh.json").read_text(encoding="utf-8")) if Path("/tmp/old_canh.json").exists() else {}
@@ -137,7 +151,7 @@ ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt 
         "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European, Korean or Japanese buildings (Han Chinese grey-tiled mud-brick and timber architecture), "
         "no striped awnings or canopies, no ceiling lamps, no desk lamps, no hanging signs, windows are plain square openings with vertical wooden bars only and no glass panes and no paper panes, roofs have heavy straight ridges and gently sloped eaves, not upturned curved Korean or Japanese eaves, no plaques, no bench with a backrest, no writing or Chinese characters anywhere, no baseball caps, no modern shoes (soft cloth shoes, boots or straw sandals), no writing on objects, signs or banners")
 SUF = ("cinematic composition that suits the story moment, dynamic framing (wide, medium or low-angle as the scene needs), foreground, middle ground and background all filled, "
-       "every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no deformed faces, no text, no letters, no watermark. "
+       "every named hero's signature weapon is clearly visible and drawn exactly as described, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no deformed faces, no text, no letters, no watermark. "
        "Flags and banners are plain solid colour with no symbols. " + BGRULE + ". " + ANTI)
 EXTRA_PK = lambda i, x: PK["day_an_thu_su"] if (x == "liubei_t4b" and 41 <= i <= 57) else (PK["an_tuong_bac_hai"] if (x == "khongdung_t4" and i == 56) else "")
 

@@ -1,0 +1,40 @@
+[
+ {
+  "key": "001",
+  "refs": [],
+  "prompt": "Wide scene at Hulao Pass with a grey brick mountain fortress gate behind. On the left three horsemen side by side: Guan Yu with a long black beard in a green robe holds a long pole with a broad curved blade in his right hand; Liu Bei in the middle in a dark-blue robe has a sheathed sword at his hip; Zhang Fei with a bushy black beard holds a long straight spear in his right hand. On the right Lu Bu alone on a tall black horse raises a long halberd with both hands. Dust and plain red banners. 2D ligne claire comic illustration of Eastern Han China, year 190, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands."
+ },
+ {
+  "key": "020",
+  "refs": [
+   "tonkien",
+   "vienthuat"
+  ],
+  "prompt": "References: image 1 shows the face and clothing of Sun Jian; image 2 shows the face and clothing of Yuan Shu. Use them only for faces and clothes; draw a brand-new wide scene. Interior of a Han hall with wooden pillars and straw mats. Yuan Shu, a heavy man with a round face in a yellow-brown robe, sits and holds out a tied bamboo scroll with his right hand. Sun Jian, a strong man with a short beard, red headband and red robe, stands in front of him bowing, both hands empty, his sword in its scabbard at his left hip. Officials in black caps stand behind with hands in their sleeves. Oil lamps on low tables. 2D ligne claire comic illustration of Eastern Han China, year 190, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands."
+ },
+ {
+  "key": "025",
+  "refs": [
+   "tonkien",
+   "tomau"
+  ],
+  "prompt": "References: image 1 shows the face and clothing of Sun Jian; image 2 shows the face and clothing of Zu Mao. Use them only for faces and clothes; draw a brand-new wide scene. A dusty battlefield with a ring of cavalry far behind. In the foreground Sun Jian, a strong man with a short beard in red robe and iron armour, pulls his red cloth headband off with his right hand and holds it out toward young Zu Mao, a clean-shaven officer in a brown tunic, who reaches out with his right hand to take it. Each has a sheathed sword at the hip and the other hand hanging at the side. 2D ligne claire comic illustration of Eastern Han China, year 190, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands."
+ },
+ {
+  "key": "036",
+  "refs": [],
+  "prompt": "The burning of Luoyang: tall columns of smoke rise behind the city wall. A long caravan of ox carts and mounted soldiers escorts a covered carriage west along a dirt road. Soldiers wear iron caps and scale armour and each holds one spear upright in one hand. Townspeople walk at the roadside carrying bundles. Dark sky. 2D ligne claire comic illustration of Eastern Han China, year 190, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands."
+ },
+ {
+  "key": "054",
+  "refs": [
+   "dongtrac"
+  ],
+  "prompt": "References: image 1 shows the face and clothing of Dong Zhuo. Use them only for faces and clothes; draw a brand-new wide scene. Interior of a Han hall with wooden pillars. Dong Zhuo, a huge fat man in a dark fur-trimmed robe, holds a long-handled halberd in both hands raised over his right shoulder, angry. Lu Bu, a tall young warrior in iron armour, stands a few steps away with both hands empty and his head turned away. Four officials in black caps stand by the pillars looking aside. Oil lamps on low tables. 2D ligne claire comic illustration of Eastern Han China, year 190, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands."
+ },
+ {
+  "key": "062",
+  "refs": [],
+  "prompt": "Liu Bei, a man in his thirties with long earlobes and a thin beard, in a dark-blue robe, stands alone at the top of the earth wall of Pingyuan, seen from the side, looking east over a wide plain at dusk. One sheathed sword hangs at his left hip. Smoke from distant campfires, tents and plain banners far below, grey sky. 2D ligne claire comic illustration of Eastern Han China, year 190, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands."
+ }
+]

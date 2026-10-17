@@ -16,8 +16,8 @@ NV = {**tq["nhan_vat"], **t2["nhan_vat_phu"], **tp["trang_phuc"], **EXTRA}
 
 # Vũ khí theo truyện (luôn kèm theo nhân vật)
 WP = {
- "quanvu": ", always carrying his signature weapon the Green Dragon Crescent Blade (Qinglong Yanyue dao): a very long wooden pole with a large single broad curved crescent-shaped blade at the top, held upright beside him or in his hands",
- "trieuphi": ", always carrying his signature weapon the serpent spear (zhangba shemao): a very long spear whose steel head is a narrow wavy snake-like blade, held upright beside him or in his hands",
+ "quanvu": ", always carrying his signature weapon the Green Dragon Crescent Blade (Qinglong Yanyue dao): a very long dark red-brown pole wrapped with red cord and gold bands near the top, ending in a bronze dragon-head collar and ONE very large, broad, heavy, single-edged blade that sweeps up in a long curve with a notch cut in the back edge, the dull dark-green steel engraved with a golden dragon (exactly as in the weapon reference image), held upright beside him or in his hands",
+ "trieuphi": ", always carrying his signature weapon the serpent spear (zhangba shemao): a very long pole of dark knotted wood wrapped in leather and gold bands, with a bronze cobra-head collar from which a steel spear blade rises in an elegant S-shaped loop ending in a leaf-shaped point, snake claws at the collar (exactly as in the weapon reference image), held upright beside him or in his hands",
  "liubei": ", wearing his pair of straight double-edged swords (shuangu jian) sheathed at his belt, one on each hip",
  "lubo": ", carrying his signature weapon the Sky Piercer halberd (Fangtian Huaji): a long pole with a spear point and a crescent blade on one side",
  "taotao": ", a sheathed straight sword at his waist",

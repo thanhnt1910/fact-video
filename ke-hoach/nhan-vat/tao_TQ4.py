@@ -159,7 +159,8 @@ TRIO = {10,12,35,69,72,79}
 import os as _os
 RD = R / "refs"
 REF_OF = {"quanvu": ["quanvu", "guandao"], "trieuphi": ["trieuphi", "xamau"], "liubei": ["liubei"], "lubo": ["hoatich"]}
-REF_TXT = {"quanvu": "the face, long black beard, cap, build and drawing style of Guan Yu (keep them exactly)",
+REF_TXT = {"trio": "the lineup of the three sworn brothers standing side by side: Guan Yu on the LEFT, Liu Bei in the CENTRE, Zhang Fei on the RIGHT (keep this left-to-right order, their faces, beards, headwear and drawing style)",
+           "quanvu": "the face, long black beard, cap, build and drawing style of Guan Yu (keep them exactly)",
            "trieuphi": "the face, bushy black beard, headscarf, build and drawing style of Zhang Fei (keep them exactly)",
            "liubei": "the face, thin beard, long earlobes, build and drawing style of Liu Bei (keep them exactly, but dress him in the costume described below)",
            "guandao": "Guan Yu's weapon, the Green Dragon Crescent Blade (draw his weapon exactly like this, held in one hand with the pole upright)",
@@ -173,12 +174,14 @@ def refs_for(nv):
                 for n in lst:
                     if n not in names and (RD / f"{n}.jpg").exists():
                         names.append(n)
+    if {"quanvu", "trieuphi", "liubei"} <= set(names) and (RD / "trio.jpg").exists():
+        return ["trio", "guandao", "xamau"]
     names.sort(key=lambda n: 0 if n in ("quanvu", "trieuphi", "liubei") else 1)
     return names[:4]
 def ref_guide(names):
     if not names:
         return ""
-    return "Reference images are provided: " + "; ".join(f"image {i+1} shows {REF_TXT[n]}" for i, n in enumerate(names)) + ". Follow the references for faces, hair, beards, body proportions, weapon shapes and the flat clean comic drawing style, and keep each hero consistent with them. "
+    return "Reference images are provided: " + "; ".join(f"image {i+1} shows {REF_TXT[n]}" for i, n in enumerate(names)) + ". The references are ONLY for faces, hair, beards, body proportions, weapon shapes and the flat clean comic drawing style: do NOT copy their backgrounds or poses, do NOT draw the reference pictures themselves, and do NOT add any person who is not named in the scene description. "
 out, canh = [], []
 for i in range(1, 87):
     nv, m = S[i]; k = f"{i:03d}"

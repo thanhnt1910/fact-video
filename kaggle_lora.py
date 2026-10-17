@@ -119,7 +119,7 @@ def run(name, chi_tai_lai=False, timeout_min=170, log=print):
     imgs = {}
     for f in sorted(src.glob("*.jpg")):
         buf = io.BytesIO()
-        im = Image.open(f).convert("RGB"); im.thumbnail((768, 768)); im.save(buf, "JPEG", quality=82)
+        im = Image.open(f).convert("RGB"); im.thumbnail((512, 512)); im.save(buf, "JPEG", quality=75)
         imgs[f.stem] = base64.b64encode(buf.getvalue()).decode()
     if not imgs:
         raise SystemExit(f"Không có ảnh .jpg trong {src}")

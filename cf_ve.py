@@ -27,7 +27,7 @@ def run(name, prompt, refs):
         a, t = accs[cur]
         url = f"https://api.cloudflare.com/client/v4/accounts/{a}/ai/run/@cf/black-forest-labs/flux-2-klein-4b"
         files = {f"input_image_{i}": (p.name, p.read_bytes()) for i, p in enumerate(refs)}
-        body, ct = multipart({"prompt": prompt, "width": "1344", "height": "768", "steps": "4"}, files)
+        body, ct = multipart({"prompt": prompt, "width": str(job.get("size",[1344,768])[0]), "height": str(job.get("size",[1344,768])[1]), "steps": "4"}, files)
         req = urllib.request.Request(url, data=body, method="POST", headers={"Authorization": f"Bearer {t}", "Content-Type": ct})
         try:
             with urllib.request.urlopen(req, timeout=300) as r:

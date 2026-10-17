@@ -69,17 +69,42 @@ sh("rm -rf /tmp/dz && git clone -q --depth 1 --filter=blob:none --sparse https:/
 json.dump({"load_in_4bit": True, "bnb_4bit_quant_type": "nf4", "bnb_4bit_use_double_quant": True}, open("/tmp/bnb.json", "w"))
 MODEL = "black-forest-labs/FLUX.2-klein-4B"
 LORA_DIR = "/kaggle/working/lora_out"
-cmd = (f"cd /tmp/dz/examples/dreambooth && accelerate launch --num_processes 1 --mixed_precision bf16 train_dreambooth_lora_flux2_klein.py "
-       f"--pretrained_model_name_or_path={MODEL} --dataset_name={W} --image_column=image --caption_column=text --output_dir={LORA_DIR} "
-       f"--bnb_quantization_config_path=/tmp/bnb.json --mixed_precision=bf16 --gradient_checkpointing --cache_latents --offload "
-       f"--instance_prompt='{trig}' --resolution={CFG['do_phan_giai']} --center_crop --train_batch_size=1 --guidance_scale=1 "
-       f"--use_8bit_adam --gradient_accumulation_steps=4 --optimizer=adamW --learning_rate=1e-4 --lr_scheduler=constant "
-       f"--lr_warmup_steps=50 --max_train_steps={CFG['buoc']} --rank={CFG['rank']} --seed=0 --report_to=tensorboard")
-train_ok = True
-try:
-    sh(cmd)
-except Exception as e:
-    train_ok = False; log("HUẤN LUYỆN LỖI", repr(e)[:300]); traceback.print_exc()
+import signal
+def make_cmd(prec, res, steps, outdir):
+    return (f"cd /tmp/dz/examples/dreambooth && PYTHONUNBUFFERED=1 accelerate launch --num_processes 1 --mixed_precision {prec} train_dreambooth_lora_flux2_klein.py "
+            f"--pretrained_model_name_or_path={MODEL} --dataset_name={W} --image_column=image --caption_column=text --output_dir={outdir} "
+            f"--bnb_quantization_config_path=/tmp/bnb.json --mixed_precision={prec} --gradient_checkpointing --cache_latents --offload "
+            f"--instance_prompt='{trig}' --resolution={res} --center_crop --train_batch_size=1 --guidance_scale=1 "
+            f"--use_8bit_adam --gradient_accumulation_steps=4 --optimizer=adamW --learning_rate=1e-4 --lr_scheduler=constant "
+            f"--lr_warmup_steps=20 --max_train_steps={steps} --rank={CFG['rank']} --seed=0 --report_to=tensorboard")
+def chay(cmd, gioi_han_phut, ten):
+    """Chạy lệnh, ghi nhật ký, giết nếu quá giờ. Trả về (ok, số phút)."""
+    log(f"[{ten}] bắt đầu, giới hạn {gioi_han_phut} phút")
+    t1 = time.time()
+    pr = subprocess.Popen(f"set -o pipefail; ({cmd}) 2>&1 | tee -a /kaggle/working/out/chay.txt", shell=True,
+                          executable="/bin/bash", preexec_fn=os.setsid)
+    try:
+        pr.wait(timeout=gioi_han_phut * 60)
+        ok = pr.returncode == 0
+    except subprocess.TimeoutExpired:
+        os.killpg(os.getpgid(pr.pid), signal.SIGKILL); ok = False
+        log(f"[{ten}] QUÁ GIỜ sau {gioi_han_phut} phút, đã dừng (nghi bị treo hoặc quá chậm)")
+    m = (time.time() - t1) / 60
+    log(f"[{ten}] {'xong' if ok else 'KHÔNG xong'} sau {m:.1f} phút")
+    return ok, m
+
+# bước 1: chạy thử 3 bước với từng kiểu số học để biết kiểu nào chạy được và nhanh cỡ nào
+res = CFG["do_phan_giai"]; train_ok = False; chon = None
+for prec in ("bf16", "fp16"):
+    ok, m = chay(make_cmd(prec, res, 3, "/kaggle/working/lora_thu"), 25, f"thử 3 bước {prec}")
+    shutil.rmtree("/kaggle/working/lora_thu", ignore_errors=True)
+    if ok:
+        chon = prec; break
+if chon is None:
+    log("CẢ HAI kiểu số học đều không chạy được 3 bước trong 25 phút: dừng")
+else:
+    # bước 2: huấn luyện đầy đủ (kiểu đã chọn), giới hạn 150 phút
+    train_ok, _ = chay(make_cmd(chon, res, CFG["buoc"], LORA_DIR), 150, f"huấn luyện đầy đủ {chon}")
 log("huấn luyện xong" if train_ok else "huấn luyện KHÔNG xong", f"{(time.time()-t0)/60:.1f} phút")
 wf = glob.glob(f"{LORA_DIR}/pytorch_lora_weights.safetensors")
 if wf:
@@ -113,7 +138,7 @@ log("XONG")
 '''
 
 
-def run(name, chi_tai_lai=False, timeout_min=170, log=print):
+def run(name, chi_tai_lai=False, timeout_min=270, log=print):
     src = ROOT / "ke-hoach" / "lora" / name
     cfg = json.loads((src / "lora.json").read_text(encoding="utf-8"))
     cfg.setdefault("buoc", 600); cfg.setdefault("rank", 16); cfg.setdefault("do_phan_giai", 768)

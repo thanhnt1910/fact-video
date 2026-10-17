@@ -36,7 +36,9 @@ t0 = time.time()
 def log(*a):
     print(f"[{time.time()-t0:6.0f}s]", *a, flush=True)
 def sh(cmd, check=True):
-    log("$", cmd[:200]); r = subprocess.run(cmd, shell=True)
+    log("$", cmd[:200])
+    os.makedirs("/kaggle/working/out", exist_ok=True)
+    r = subprocess.run(f"set -o pipefail; ({cmd}) 2>&1 | tee -a /kaggle/working/out/chay.txt", shell=True, executable="/bin/bash")
     if check and r.returncode != 0: raise RuntimeError(f"lệnh lỗi {r.returncode}: {cmd[:120]}")
 os.environ["HF_HOME"] = "/tmp/hf"
 if __HFTOK__:
@@ -154,7 +156,7 @@ def run(name, chi_tai_lai=False, timeout_min=170, log=print):
     dest = ROOT / "logs" / "lora" / name
     dest.mkdir(parents=True, exist_ok=True)
     for f in (work / "out").rglob("*"):
-        if f.is_file() and f.suffix in (".png", ".safetensors", ".log", ".json"):
+        if f.is_file() and f.suffix in (".png", ".safetensors", ".log", ".json", ".txt"):
             if f.suffix == ".png":
                 Image.open(f).convert("RGB").save(dest / (f.stem + ".jpg"), quality=92)
             else:

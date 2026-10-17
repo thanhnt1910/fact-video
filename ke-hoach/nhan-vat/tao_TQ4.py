@@ -207,14 +207,12 @@ for i in range(1, 87):
     rf = refs_for(nv)
     out.append({"key": k, "nv": nv, "refs": rf, "prompt": f"{ref_guide(rf)}{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
 (R / "TQ4.json").write_text(json.dumps({"ma": "TQ4", "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
-(R / "TQ4_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-print("ok", len(out), "ảnh;", len([c for c in canh if c['key'] not in KEEP]), "ảnh cần vẽ lại")
-
-# Biến thể: vẽ nhiều bản cho cảnh ba anh em (khoá = v*1000+số cảnh)
 V = []
 for it in out:
     if int(it["key"]) in TRIO or int(it["key"]) == 17:
         for v in (1, 2, 3, 4):
             V.append({**it, "key": str(v * 1000 + int(it["key"]))})
-(R / "TQ4V_anh.json").write_text(json.dumps(V, ensure_ascii=False, indent=1), encoding="utf-8")
-print("biến thể:", len(V))
+out = out + V
+(R / "TQ4_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+print("ok", len(out), "ảnh;", len([c for c in canh if c['key'] not in KEEP]), "ảnh cần vẽ lại")
+

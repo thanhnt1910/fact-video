@@ -20,7 +20,7 @@
   {
    "key": "003",
    "nv": [],
-   "mo_ta": "an open scroll of bamboo slips tied with cord lying on a low dark wooden table beside a small clay oil lamp with a tiny flame, dim warm light"
+   "mo_ta": "an empty low wooden table in a hall with a tied bamboo-slip scroll and a small clay oil lamp, wooden pillars and a straw mat floor, a wooden lattice window with a mountain view, no people"
   },
   {
    "key": "004",
@@ -60,7 +60,7 @@
    "nv": [
     "linh"
    ],
-   "mo_ta": "two armies facing each other across a slow river on a wide plain, ranks of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright and plain banners on both banks, seen from a hill, tense still moment before a battle, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+   "mo_ta": "a wide plain seen from a hill: two armies in neat ranks face each other across a slow river, each army a block of many identical Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright with long spears and plain banners, no single soldier in the foreground, no close-up faces, every soldier has exactly one head, still tense moment before a battle, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
   },
   {
    "key": "010",
@@ -69,7 +69,7 @@
     "quanvu_t4a",
     "trieuphi_t4a"
    ],
-   "mo_ta": "inside a canvas army tent at night Liu Bei sits on a straw mat beside an oil lamp, tired and thoughtful, while Guan Yu and Zhang Fei stand guard at the open tent flap as dark silhouettes against the camp fires outside, an iron armour on a wooden stand"
+   "mo_ta": "inside a canvas army tent at night Liu Bei sits on a straw mat beside an oil lamp, tired and thoughtful, while Guan Yu and Zhang Fei stand guard at the open tent flap as dark silhouettes against the camp fires outside, an iron armour on a wooden stand, Composition: Liu Bei stands in the exact centre of the frame between the two, Guan Yu on his left and Zhang Fei on his right, Liu Bei the main figure."
   },
   {
    "key": "011",
@@ -88,7 +88,7 @@
     "quanvu_t4a",
     "trieuphi_t4a"
    ],
-   "mo_ta": "in a lamp-lit room the masked guest in plain dark clothes kneels on a straw mat before Liu Bei, bowing his head and confessing, empty hands, while Liu Bei listens in surprise and Guan Yu and Zhang Fei stand watchful behind Liu Bei, wooden walls and lattice window"
+   "mo_ta": "in a lamp-lit room the masked guest in plain dark clothes kneels on a straw mat before Liu Bei, bowing his head and confessing, empty hands, while Liu Bei listens in surprise and Guan Yu and Zhang Fei stand watchful behind Liu Bei, wooden walls and lattice window, Composition: Liu Bei stands in the exact centre of the frame between the two, Guan Yu on his left and Zhang Fei on his right, Liu Bei the main figure."
   },
   {
    "key": "013",
@@ -101,7 +101,7 @@
   {
    "key": "014",
    "nv": [],
-   "mo_ta": "a row of grey clay-tiled roofs of an ancient Chinese county town at dusk, one tiny window glowing with oil-lamp light, under a wide darkening sky"
+   "mo_ta": "an ancient Han Chinese mud-brick farmhouse at night, grey tiled roof, a wooden lattice window with warm lamplight, a straw mat and clay jar at the door, village houses and dark hills behind under stars, no people, no bench"
   },
   {
    "key": "015",
@@ -127,7 +127,7 @@
     "quanvu_t4a",
     "trieuphi_t4a"
    ],
-   "mo_ta": "in the hall of Pingyuan Liu Bei presses one hand to his chest, moved, listening to Taishi Ci who bows before him, Guan Yu and Zhang Fei standing behind Liu Bei, wooden pillars and oil lamps"
+   "mo_ta": "in the hall of Pingyuan Liu Bei presses one hand to his chest, moved, listening to Taishi Ci who bows before him, Guan Yu and Zhang Fei standing behind Liu Bei, wooden pillars and oil lamps, Liu Bei in the centre of the frame between Taishi Ci and the two brothers"
   },
   {
    "key": "018",
@@ -165,7 +165,7 @@
     "quanvu_t4a",
     "linh"
    ],
-   "mo_ta": "Liu Bei and Guan Yu stand together on the gate-tower of Pingyuan at dusk looking east with soldiers on watch along the wall, a thoughtful mood, plain banners in the wind"
+   "mo_ta": "Liu Bei in the centre of the frame with Guan Yu beside him stand together on the gate-tower of Pingyuan at dusk looking east with soldiers on watch along the wall, a thoughtful mood, plain banners in the wind"
   },
   {
    "key": "023",
@@ -232,7 +232,7 @@
    "nv": [
     "dan"
    ],
-   "mo_ta": "a long line of refugee villagers carrying bundles and pulling ox carts along a dirt road away from black smoke on the horizon, women and old people, tired and silent, seen from a distance, no violence shown"
+   "mo_ta": "a column of tired porters and peasants carrying sacks and pulling wooden carts along a dirt road past mud-brick houses with grey tiled roofs, smoke rising from far hills, plain banners, no awnings, no poles"
   },
   {
    "key": "032",
@@ -267,7 +267,7 @@
     "trieuphi_t4a",
     "linh"
    ],
-   "mo_ta": "Liu Bei strides forward at the head of his own small army, his hand on the hilt of his sword, Guan Yu with a long curved-blade polearm and Zhang Fei with a long serpent-tipped spear beside him, soldiers following behind, banners in the wind, determination, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+   "mo_ta": "Liu Bei strides forward at the head of his own small army, his hand on the hilt of his sword, Guan Yu with a long curved-blade polearm and Zhang Fei with a long serpent-tipped spear beside him, soldiers following behind, banners in the wind, determination, no gore, no blood, no one being struck or killed, soldiers with small simple faces, Composition: Liu Bei stands in the exact centre of the frame between the two, Guan Yu on his left and Zhang Fei on his right, Liu Bei the main figure."
   },
   {
    "key": "036",
@@ -365,19 +365,18 @@
   {
    "key": "047",
    "nv": [
-    "daokhiem_t4b",
-    "mitruc_t4",
-    "quan"
+    "liubei_t4b",
+    "daokhiem_t4b"
    ],
-   "mo_ta": "on a low wooden couch with a straw mat old Tao Qian lies frail and pale, Mi Zhu kneels beside him and a physician in dark robes waits at the bedside, dim lamp light, curtains, a bowl of medicine, no death shown"
+   "mo_ta": "in a sick-room old Tao Qian lies propped on straw mats on a low wooden platform, pale and weak, while Liu Bei kneels on a straw mat at his side listening, a clay oil lamp, wooden lattice window with no glass, hanging cloth screens"
   },
   {
    "key": "048",
    "nv": [
-    "mitruc_t4",
-    "quan"
+    "liubei_t4b",
+    "linh"
    ],
-   "mo_ta": "Mi Zhu kneels on a straw mat beside a low couch with a worried gentle face, a few attendants waiting behind him, dim light from a small clay oil lamp, quiet and heavy mood"
+   "mo_ta": "Liu Bei kneels on a straw mat refusing with his hands raised, officials of Xu Province in dark robes standing behind him, a low wooden platform and a clay oil lamp, tent flaps and hills outside"
   },
   {
    "key": "049",
@@ -390,7 +389,7 @@
   {
    "key": "050",
    "nv": [],
-   "mo_ta": "an empty ancient Chinese sickroom with a low wooden couch and a straw mat, a hanging cloth screen, a clay bowl of medicine on the floor mat and a small clay oil lamp, dim light"
+   "mo_ta": "an empty plain Han sickroom with a straw mat, a low wooden platform without a backrest, a clay bowl and a clay oil lamp, a hanging plain cloth, wooden lattice window with no glass, no people"
   },
   {
    "key": "051",
@@ -480,20 +479,19 @@
    "key": "061",
    "nv": [
     "liubei_t4c",
-    "quan",
     "linh"
    ],
-   "mo_ta": "Liu Bei in his governor's robe stands at the top of the stone steps of the city hall looking over the city, officials bowing and guards standing at attention below, grey tiled roofs behind, calm and weighty"
+   "mo_ta": "Liu Bei in a dark robe stands beside an armoured officer before a Han governor's hall in a river city, officials and townsfolk kneeling and bowing on the stone steps, grey tiled roofs and timber pillars, no signboards"
   },
   {
    "key": "062",
    "nv": [],
-   "mo_ta": "a heavy bronze official seal on a lacquered stand beside an open ancient Chinese city gate with a completely blank lintel, no plaque, no signboard, morning light, completely empty of people, no person and no bed"
+   "mo_ta": "the stone gate of a Han Chinese government compound with plain timber pillars and a grey tiled roof, a bronze seal on a low wooden stand before the gate, courtyard with paving stones, no signboard on the gate, no writing"
   },
   {
    "key": "063",
    "nv": [],
-   "mo_ta": "two empty cushions facing each other across a closed lacquered box in a quiet hall, soft light"
+   "mo_ta": "a quiet Han governor's inner hall with two folded dark-blue and green cloth robes tied with cord on a low lacquered table, wooden pillars, a straw mat floor, a hanging cloth screen and a clay oil lamp, window of wooden lattice with a view of hills"
   },
   {
    "key": "064",
@@ -524,7 +522,7 @@
     "liubei_t4c",
     "mitruc_t4"
    ],
-   "mo_ta": "in his office at night Liu Bei reads a bamboo-slip scroll by lamp light, tired and humane, while Mi Zhu waits respectfully beside him with more scrolls"
+   "mo_ta": "at night Liu Bei sits on a straw mat at a low table reading a bamboo-slip scroll by a clay oil lamp, Mi Zhu standing beside him, wooden lattice window with stars outside, bamboo-slip scrolls stacked on a shelf, a canvas tent wall behind, no lamp posts, no wires, no chairs"
   },
   {
    "key": "068",
@@ -539,7 +537,7 @@
     "trieuphi_t4b",
     "linh"
    ],
-   "mo_ta": "Liu Bei in his early thirties rides at the head of a small army across a plain at golden hour, Guan Yu and Zhang Fei riding beside him, soldiers and banners behind, a river valley and a distant ancient city, a sense of long road travelled"
+   "mo_ta": "Liu Bei in his early thirties rides at the head of a small army across a plain at golden hour, Guan Yu and Zhang Fei riding beside him, soldiers and banners behind, a river valley and a distant ancient city, a sense of long road travelled, Composition: Liu Bei stands in the exact centre of the frame between the two, Guan Yu on his left and Zhang Fei on his right, Liu Bei the main figure."
   },
   {
    "key": "070",
@@ -547,7 +545,7 @@
     "liubei_t4a",
     "dan"
    ],
-   "mo_ta": "the open wooden gate of a small ancient Chinese county town with a plain solid-colour flag in early morning light, a few villagers going about their work, a young junior official watching from the gate, blank gate with no writing"
+   "mo_ta": "Liu Bei in a dark-blue robe speaks with a poor peasant at the wooden gate of a village, mud-brick houses with grey tiled roofs, hills behind, no hanging sign, no awning"
   },
   {
    "key": "071",
@@ -561,7 +559,7 @@
     "quanvu_t4a",
     "trieuphi_t4a"
    ],
-   "mo_ta": "three small travellers, Liu Bei, Guan Yu and Zhang Fei, walking side by side on a long winding dirt road across wide hills toward a river city of tiled roofs, tiny in a vast landscape, golden light"
+   "mo_ta": "three small travellers, Liu Bei, Guan Yu and Zhang Fei, walking side by side on a long winding dirt road across wide hills toward a river city of tiled roofs, tiny in a vast landscape, golden light, Composition: Liu Bei stands in the exact centre of the frame between the two, Guan Yu on his left and Zhang Fei on his right, Liu Bei the main figure."
   },
   {
    "key": "073",
@@ -575,7 +573,7 @@
   {
    "key": "074",
    "nv": [],
-   "mo_ta": "a wide low wooden sleeping platform with three folded plain blankets in a modest ancient Chinese room, a small clay oil lamp glowing on the floor"
+   "mo_ta": "a low wooden table with folded dark-blue and green cloth robes tied with cord, a clay oil lamp beside it, mud-brick wall, wooden lattice window with a view of hills, straw mats on the floor"
   },
   {
    "key": "075",
@@ -605,7 +603,7 @@
    "nv": [
     "quan"
    ],
-   "mo_ta": "in a dim hall corridor with wooden pillars two or three officials of Xu Province whisper together with suspicious glances toward an inner door, long shadows, a small clay oil lamp on the floor"
+   "mo_ta": "in a dim corridor with timber pillars two or three officials in dark robes whisper together, glancing toward an inner wooden door, long shadows, a small clay oil lamp on the floor, wooden lattice screens, no glass"
   },
   {
    "key": "079",
@@ -615,7 +613,7 @@
     "trieuphi_t4b",
     "linh"
    ],
-   "mo_ta": "Liu Bei stands on a stone city wall at dusk looking around at the four directions, worried, Guan Yu and Zhang Fei beside him, soldiers keeping watch along the wall, plain banners"
+   "mo_ta": "Liu Bei stands on a stone city wall at dusk looking around at the four directions, worried, Guan Yu and Zhang Fei beside him, soldiers keeping watch along the wall, plain banners, Composition: Liu Bei stands in the exact centre of the frame between the two, Guan Yu on his left and Zhang Fei on his right, Liu Bei the main figure."
   },
   {
    "key": "080",
@@ -654,7 +652,7 @@
     "lubo_t4b",
     "linh"
    ],
-   "mo_ta": "Lu Bu seen from behind, travel-stained and with a torn cloak, rides at the head of a small weary band of riders along a long dirt road toward the gate of Xiaopei at dusk, his face not visible"
+   "mo_ta": "Lu Bu seen from behind, travel-stained and wearing a torn cloak, rides at the head of a small weary band of riders along a long dirt road toward the plain gate-tower of Xiaopei at dusk, hills behind, his face not visible, empty sky with no wires"
   },
   {
    "key": "085",
@@ -662,12 +660,14 @@
     "lubo_t4b",
     "linh"
    ],
-   "mo_ta": "a rainy night: a small group of riders with torches arrives at the gate of an ancient Chinese city, guards at the gate looking out in uncertainty, one hanging oil lantern on the gate, mud and rain, a question hanging in the air"
+   "mo_ta": "a rainy night: a small group of riders with torches arrives at the plain wooden gate of a Han city, guards at the gate looking out in uncertainty, one hanging clay oil lantern, mud and rain, no awnings"
   },
   {
    "key": "086",
-   "nv": [],
-   "mo_ta": "a bamboo-slip scroll tied with cord on a low wooden table beside a clay oil lamp at night, a wooden lattice window with no glass behind"
+   "nv": [
+    "liubei_t4c"
+   ],
+   "mo_ta": "a low wooden table at night with a tied bamboo-slip scroll, a clay oil lamp and clay jars, a wooden lattice window with no glass where mountains show in the starlight, straw mats, no people"
   }
  ]
 }

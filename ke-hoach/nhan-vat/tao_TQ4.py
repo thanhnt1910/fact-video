@@ -212,7 +212,9 @@ for it in out:
     if int(it["key"]) in TRIO or int(it["key"]) == 17:
         for v in (1, 2, 3, 4):
             V.append({**it, "key": str(v * 1000 + int(it["key"]))})
-out = out + V
+import os
+if os.environ.get("BIENTHE"):
+    out = out + V
 (R / "TQ4_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print("ok", len(out), "ảnh;", len([c for c in canh if c['key'] not in KEEP]), "ảnh cần vẽ lại")
 

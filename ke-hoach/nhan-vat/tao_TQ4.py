@@ -150,7 +150,12 @@ ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt 
         "no glass windows (wooden lattice only), no door knobs or handles, no signboards or plaques on gates or buildings, no chairs with backs or modern furniture (people sit on straw mats or low benches), "
         "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European, Korean or Japanese buildings (Han Chinese grey-tiled mud-brick and timber architecture), "
         "each person carries at most ONE sword (a single straight sword either sheathed at one hip or held in one hand), never two swords on one person, never crossed swords, never a sword plus extra blades, "
-        "no striped awnings or canopies, no ceiling lamps, no desk lamps, no hanging signs, windows are plain square openings with vertical wooden bars only and no glass panes and no paper panes, roofs have heavy straight ridges and gently sloped eaves, not upturned curved Korean or Japanese eaves, no plaques, no bench with a backrest, no writing or Chinese characters anywhere (blank plain gates, blank banners, blank hanging cloths, blank scroll surfaces), no electric poles or wires, no baseball caps, no modern shoes (soft cloth shoes, boots or straw sandals), no writing on objects, signs or banners")
+        "no striped awnings or canopies, no ceiling lamps, no desk lamps, no hanging signs, windows are plain square openings with vertical wooden bars only and no glass panes and no paper panes, roofs have heavy straight ridges and gently sloped eaves, not upturned curved Korean or Japanese eaves, no plaques, no bench with a backrest, no writing or Chinese characters anywhere (blank plain gates, blank banners, blank hanging cloths, blank scroll surfaces), no electric poles or wires, no baseball caps, no modern shoes (soft cloth shoes, boots or straw sandals), no writing on objects, signs or banners, "
+        "ALL flags, banners, cloths, plaques and walls are completely blank: no symbols, no emblems, no characters, no pseudo-writing, no calligraphy; "
+        "no lanterns hanging from poles, eaves or ceilings and no street lamps (light only from small clay oil lamps on tables and from torches), "
+        "windows are ONLY plain small square holes in thick mud-brick walls with a few vertical wooden bars (no lattice grids, no sliding frames, no glass); "
+        "roofs are plain, low, heavy, grey-tiled with a straight ridge and NO upturned corners and NO decorative ridge ornaments, buildings are simple rustic Han-era mud-brick and timber (not Korean hanok, not Japanese); "
+        "full-bleed picture with no border, no frame and no white margin")
 SUF = ("cinematic composition that suits the story moment, dynamic framing (wide, medium or low-angle as the scene needs), foreground, middle ground and background all filled, "
        "every named hero's signature weapon is clearly visible and drawn exactly as described, every person has exactly two arms, two hands and two legs with natural adult proportions, serious weathered faces, no extra limbs, no deformed faces, no text, no letters, no watermark. "
        "Flags and banners are plain solid colour with no symbols. " + BGRULE + ". " + ANTI)
@@ -202,3 +207,12 @@ for i in range(1, 87):
 (R / "TQ4.json").write_text(json.dumps({"ma": "TQ4", "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ4_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print("ok", len(out), "ảnh;", len([c for c in canh if c['key'] not in KEEP]), "ảnh cần vẽ lại")
+
+# Biến thể: vẽ nhiều bản cho cảnh ba anh em (khoá = v*1000+số cảnh)
+V = []
+for it in out:
+    if int(it["key"]) in TRIO:
+        for v in (1, 2, 3, 4):
+            V.append({**it, "key": str(v * 1000 + int(it["key"]))})
+(R / "TQ4V_anh.json").write_text(json.dumps(V, ensure_ascii=False, indent=1), encoding="utf-8")
+print("biến thể:", len(V))

@@ -182,9 +182,36 @@ BG = {
 }
 S = [(i,nv,n,(m+". Background: "+BG[i]) if i in BG else m) for (i,nv,n,m) in S]
 ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt roads and stone paths only (no asphalt, no road markings, no electric poles or wires), "
-        "no glass windows (wooden lattice only), no door knobs or handles, no chairs with backs or modern furniture (people sit on straw mats or low benches and sleep on low wooden couches), "
+        "no glass windows (wooden lattice only), no door knobs or handles, no signboards or plaques on gates or buildings, no chairs with backs or modern furniture (people sit on straw mats or low benches), no sleeping or lying people unless the description says so, "
         "no candles (clay oil lamps only), no bound paper books and no sheets of paper (only bamboo-slip scrolls tied with cord), no mugs with handles, no lamp posts, no European buildings, "
         "no striped awnings, no baseball caps, no modern shoes (soft cloth shoes or straw sandals), no writing on objects, signs or banners")
+
+# --- sửa lần 4 (17/10): vá nền trơn, cột điện, tay nắm, bảng hiệu, người nằm trong cảnh trống ---
+T = "tight waist-up portrait, the head and torso fill most of the frame, "
+EMPTY = ", completely empty of people, no person and no bed"
+OV2 = {
+2:(["liubei_t4c"],1,T+"Liu Bei bowing his head and shaking it gently in refusal, both hands tucked into his sleeves, exactly one man. Behind him: the stone steps and wooden pillars of a hall and grey tiled rooftops of an ancient city, soft morning light"),
+12:(["liubei_t4a","thichkhach"],2,WB+", two-shot of Liu Bei and a guest in plain dark clothes kneeling on straw mats facing each other across a very low table, the guest bowing his head and speaking quietly, Liu Bei listening in surprise, hands hidden in sleeves, exactly two men, nothing in their hands. Behind them: wooden walls of a modest room, a wooden lattice window, a shelf of bamboo-slip scrolls, oil-lamp glow"),
+13:(["liubei_t4a"],1,T+"Liu Bei with a calm gentle face and the hint of a kind smile, both hands tucked into his sleeves, exactly one man. Behind him: a county government courtyard with grey tiled roofs, a wooden gate and a flag pole with a plain flag, morning light"),
+15:(["thaisutu_t4"],1,T+"Taishi Ci arriving dusty and out of breath with an urgent expression, one hand holding a small rolled bamboo scroll, the other arm hidden, exactly one man. Behind him: a dusty dirt road before an ancient city gate-tower, hills and thin smoke on the horizon, no poles, no wires, no signs"),
+22:([],0,"a closed double wooden gate in a stone wall at evening, the two flat plank doors held shut by a thick wooden bar across them, completely flat doors with no handle and no knob, a small hanging oil lantern, calm and waiting"),
+32:([],0,"an empty dirt street inside an ancient Chinese town between low mud-brick houses with grey tiled roofs and plain wooden doors with no signs, overturned wooden carts and scattered baskets, drifting dust"+EMPTY),
+38:(["daokhiem_t4a"],1,WB+", Tao Qian standing at an open wooden lattice window with no handle, looking out hopefully at a dirt road across hills, hands hidden in his sleeves, exactly one man"),
+45:([],0,"the stone gate-tower of an ancient Chinese city, with a completely blank lintel and no sign, standing open onto a dirt road leading to misty hills, calm morning"+EMPTY),
+52:(["liubei_t4b"],1,T+"Liu Bei hesitating and shaking his head, hands tucked into his sleeves, uneasy look, exactly one man. Behind him: army tents and camp fires, mist and hills at dusk"),
+53:(["tranang_t4"],1,T+"Chen Deng speaking earnestly with one hand raised palm out, the other arm hidden, exactly one man. Behind him: a dirt street of an ancient town of mud-brick houses with grey tiled roofs and distant mountains, no poles, no wires, no signs"),
+55:(["tranang_t4","liubei_t4b"],2,WB+", two-shot of Chen Deng shaking his head firmly while Liu Bei listens carefully, hands hidden in sleeves, exactly two men. Behind them: army tents and a river bank, grey light"),
+62:([],0,"a heavy bronze official seal on a lacquered stand beside an open ancient Chinese city gate with a completely blank lintel, no plaque, no signboard, morning light"+EMPTY),
+69:(["liubei_t4c"],1,T+"Liu Bei in his early thirties, calm and weathered, looking slightly to the side, hands hidden, exactly one man. Behind him: a hillside road overlooking a wide river valley with a distant ancient city, golden hour"),
+70:([],0,"the open wooden gate of a small ancient Chinese county town with a plain solid-colour flag in early morning light, blank gate with no writing"+EMPTY),
+71:([],0,"a pair of worn straw sandals tied with cord and a plain black cloth cap shaped like a low square box with no brim and two short ties, lying on a stone step, morning light"),
+72:([],0,"a long winding dirt road across hills leading from a village to a river city of tiled roofs, golden light, no paving, no road markings"+EMPTY),
+75:([],0,"a rich walled ancient Chinese river city of grey tiled roofs with wooden grain boats moored at the bank under gathering dark clouds"+EMPTY),
+77:([],0,"a tall ancient Chinese city gate-tower above rice fields under a grey sky, a plain solid-colour banner with no writing and no emblem"+EMPTY),
+78:([],0,"a dim ancient Chinese government hall corridor with wooden pillars and a half-open plain wooden door with no handle, a small clay oil lamp on the floor, long shadows"+EMPTY),
+80:([],0,"four dirt roads meeting at an ancient Chinese city gate, each fading into hills under a darkening sky, no paving, no road markings"+EMPTY),
+}
+S = [(i,)+OV2[i] if i in OV2 else (i,nv,n,m) for (i,nv,n,m) in S]
 assert [s[0] for s in S] == list(range(1, 87)), "thiếu hoặc lặp ảnh"
 # phụ kiện chức vụ
 EXTRA = {}

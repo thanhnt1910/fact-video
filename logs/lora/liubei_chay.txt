@@ -1,0 +1,5 @@
+Mã kernel: 0.50 MB
+Gửi 19 ảnh huấn luyện 'liubei' sang Kaggle (400 bước, rank 16)
+  1.0 phút: .queued
+ 10.1 phút: .cancel_acknowledged
+Đã lưu kết quả ở /home/runner/work/fact-video/fact-video/logs/lora/liubei

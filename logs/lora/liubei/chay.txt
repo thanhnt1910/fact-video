@@ -1,0 +1,135 @@
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 105.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 21.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 835.4/835.4 kB 31.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 51.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 17.1 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.8/44.8 kB 2.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 112.5 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 604.4/604.4 kB 29.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.9/53.9 MB 39.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 36.9 MB/s eta 0:00:00
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+grpcio-tools 1.71.2 requires protobuf<6.0dev,>=5.26.1, but you have protobuf 7.36.2 which is incompatible.
+google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.20.2, but you have protobuf 7.36.2 which is incompatible.
+tensorflow 2.20.0 requires tensorboard~=2.20.0, but you have tensorboard 2.21.0 which is incompatible.
+google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2, but you have protobuf 7.36.2 which is incompatible.
+ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.
+grpcio-status 1.71.2 requires protobuf<6.0dev,>=5.26.1, but you have protobuf 7.36.2 which is incompatible.
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+10/17/2026 10:22:38 - INFO - __main__ - [RANK 0] Distributed environment: DistributedType.NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: bf16
+
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Ftokenizer_config.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Ftokenizer_config.json=&etag=%22ddaf69808214a44fdd26d3785b66c1367c78277a%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Ftokenizer_config.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Ftokenizer_config.json=&etag=%22ddaf69808214a44fdd26d3785b66c1367c78277a%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/vocab.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fvocab.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fvocab.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/merges.txt "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fmerges.txt?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fmerges.txt=&etag=%2231349551d90c7606f325fe0f11bbb8bd5fa0d7c7%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fmerges.txt?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fmerges.txt=&etag=%2231349551d90c7606f325fe0f11bbb8bd5fa0d7c7%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/tokenizer.json "HTTP/1.1 302 Found"
+10/17/2026 10:22:39 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B/xet-read-token/e7b7dc27f91deacad38e78976d1f2b499d76a294 "HTTP/1.1 200 OK"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/added_tokens.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fadded_tokens.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fadded_tokens.json=&etag=%22b54f9135e44c1e81047e8d05cb027af8bc039eed%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fadded_tokens.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fadded_tokens.json=&etag=%22b54f9135e44c1e81047e8d05cb027af8bc039eed%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fspecial_tokens_map.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fspecial_tokens_map.json=&etag=%22ac23c0aaa2434523c494330aeb79c58395378103%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fspecial_tokens_map.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fspecial_tokens_map.json=&etag=%22ac23c0aaa2434523c494330aeb79c58395378103%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer/chat_template.jinja "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fchat_template.jinja?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fchat_template.jinja=&etag=%2201be9b307daa2d425f7c168c9fb145a286e0afb4%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:40 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/tokenizer%2Fchat_template.jinja?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftokenizer%2Fchat_template.jinja=&etag=%2201be9b307daa2d425f7c168c9fb145a286e0afb4%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:41 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B "HTTP/1.1 200 OK"
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+10/17/2026 10:22:41 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/main/scheduler/scheduler_config.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:41 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/scheduler%2Fscheduler_config.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fmain%2Fscheduler%2Fscheduler_config.json=&etag=%227e53605e2643440b310fa554f087641893883c5f%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/scheduler%2Fscheduler_config.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fmain%2Fscheduler%2Fscheduler_config.json=&etag=%227e53605e2643440b310fa554f087641893883c5f%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B "HTTP/1.1 200 OK"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/vae/config.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/vae%2Fconfig.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Fvae%2Fconfig.json=&etag=%22c3f38eb4c188a96a462519159356bd0fcc28cd14%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/vae%2Fconfig.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Fvae%2Fconfig.json=&etag=%22c3f38eb4c188a96a462519159356bd0fcc28cd14%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/vae/diffusion_pytorch_model.safetensors.index.json "HTTP/1.1 404 Not Found"
+10/17/2026 10:22:42 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/vae/diffusion_pytorch_model.safetensors "HTTP/1.1 302 Found"
+The config attributes {'force_upcast': True} were passed to AutoencoderKLFlux2, but are not expected and will be ignored. Please verify your config.json configuration file.
+{'decoder_block_out_channels'} was not found in config. Values will be initialized to default values.
+All model checkpoint weights were used when initializing AutoencoderKLFlux2.
+
+All the weights of AutoencoderKLFlux2 were initialized from the model checkpoint at black-forest-labs/FLUX.2-klein-4B.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use AutoencoderKLFlux2 for predictions without further training.
+10/17/2026 10:22:45 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B "HTTP/1.1 200 OK"
+10/17/2026 10:22:45 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/transformer/config.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:22:45 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/transformer%2Fconfig.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftransformer%2Fconfig.json=&etag=%22f21592ae2bc9f43052e78785bde7414f219ae369%22 "HTTP/1.1 200 OK"
+10/17/2026 10:22:45 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/transformer%2Fconfig.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftransformer%2Fconfig.json=&etag=%22f21592ae2bc9f43052e78785bde7414f219ae369%22 "HTTP/1.1 200 OK"
+The device_map was not initialized. Setting device_map to {: {current_device}}. If you want to use the model for inference, please set device_map ='auto' 
+10/17/2026 10:22:45 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/transformer/diffusion_pytorch_model.safetensors.index.json "HTTP/1.1 404 Not Found"
+10/17/2026 10:22:45 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/transformer/diffusion_pytorch_model.safetensors "HTTP/1.1 302 Found"
+Instantiating Flux2Transformer2DModel model under default dtype torch.bfloat16.
+All model checkpoint weights were used when initializing Flux2Transformer2DModel.
+
+All the weights of Flux2Transformer2DModel were initialized from the model checkpoint at black-forest-labs/FLUX.2-klein-4B.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Flux2Transformer2DModel for predictions without further training.
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B "HTTP/1.1 200 OK"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder/adapter_config.json "HTTP/1.1 404 Not Found"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder%2Fconfig.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftext_encoder%2Fconfig.json=&etag=%2286f951d170cfd1fdc1c8a57a041e05c27b7b789b%22 "HTTP/1.1 200 OK"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder%2Fconfig.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftext_encoder%2Fconfig.json=&etag=%2286f951d170cfd1fdc1c8a57a041e05c27b7b789b%22 "HTTP/1.1 200 OK"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder/model.safetensors "HTTP/1.1 404 Not Found"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder%2Fmodel.safetensors.index.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftext_encoder%2Fmodel.safetensors.index.json=&etag=%22b65d8063815c8679d85bb919337b36fae8de75cf%22 "HTTP/1.1 200 OK"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder%2Fmodel.safetensors.index.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftext_encoder%2Fmodel.safetensors.index.json=&etag=%22b65d8063815c8679d85bb919337b36fae8de75cf%22 "HTTP/1.1 200 OK"
+10/17/2026 10:23:30 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B/tree/e7b7dc27f91deacad38e78976d1f2b499d76a294?recursive=true&expand=false "HTTP/1.1 200 OK"
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:42<00:42, 42.08s/it]Fetching 2 files: 100%|██████████| 2/2 [00:42<00:00, 21.04s/it]
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 259/398 [00:00<00:00, 2576.48it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 2645.31it/s]
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder%2Fgeneration_config.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftext_encoder%2Fgeneration_config.json=&etag=%22f5af93d0c7764fa38e3b1cd3aaba1b6307246d3b%22 "HTTP/1.1 200 OK"
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/text_encoder%2Fgeneration_config.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Ftext_encoder%2Fgeneration_config.json=&etag=%22f5af93d0c7764fa38e3b1cd3aaba1b6307246d3b%22 "HTTP/1.1 200 OK"
+There are modules in AutoencoderKLFlux2 that should be kept in float32: []. Casting directly with `to()` can lead to inconsistent results; set `torch_dtype` in `from_pretrained()` instead to keep these modules in float32.
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B "HTTP/1.1 200 OK"
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B/revision/main "HTTP/1.1 200 OK"
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/resolve/e7b7dc27f91deacad38e78976d1f2b499d76a294/model_index.json "HTTP/1.1 307 Temporary Redirect"
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/model_index.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Fmodel_index.json=&etag=%22554a39bf1019138dd0b28809b745df8ef33657c8%22 "HTTP/1.1 200 OK"
+10/17/2026 10:24:13 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/black-forest-labs/FLUX.2-klein-4B/e7b7dc27f91deacad38e78976d1f2b499d76a294/model_index.json?%2Fblack-forest-labs%2FFLUX.2-klein-4B%2Fresolve%2Fe7b7dc27f91deacad38e78976d1f2b499d76a294%2Fmodel_index.json=&etag=%22554a39bf1019138dd0b28809b745df8ef33657c8%22 "HTTP/1.1 200 OK"
+Loading pipeline components...:   0%|          | 0/2 [00:00<?, ?it/s]Loading pipeline components...: 100%|██████████| 2/2 [00:00<00:00, 5813.31it/s]
+Traceback (most recent call last):
+  File "/tmp/dz/examples/dreambooth/train_dreambooth_lora_flux2_klein.py", line 2082, in <module>
+    main(args)
+    ~~~~^^^^^^
+  File "/tmp/dz/examples/dreambooth/train_dreambooth_lora_flux2_klein.py", line 1512, in main
+    train_dataset = DreamBoothDataset(
+        instance_data_root=args.instance_data_dir,
+    ...<8 lines>...
+        use_aspect_ratio_buckets=use_aspect_ratio_buckets,
+    )
+  File "/tmp/dz/examples/dreambooth/train_dreambooth_lora_flux2_klein.py", line 874, in __init__
+    instance_images = [Image.open(path) for path in list(Path(instance_data_root).iterdir())]
+                       ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/PIL/Image.py", line 3715, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file '/kaggle/working/lora_data/metadata.jsonl'
+Traceback (most recent call last):
+  File "/usr/local/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+    ~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/accelerate/commands/launch.py", line 1413, in launch_command
+    simple_launcher(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/accelerate/commands/launch.py", line 999, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'train_dreambooth_lora_flux2_klein.py', '--pretrained_model_name_or_path=black-forest-labs/FLUX.2-klein-4B', '--instance_data_dir=/kaggle/working/lora_data', '--caption_column=text', '--output_dir=/kaggle/working/lora_out', '--bnb_quantization_config_path=/tmp/bnb.json', '--mixed_precision=bf16', '--gradient_checkpointing', '--cache_latents', '--offload', '--instance_prompt=liubei_han', '--resolution=768', '--center_crop', '--train_batch_size=1', '--guidance_scale=1', '--use_8bit_adam', '--gradient_accumulation_steps=4', '--optimizer=adamW', '--learning_rate=1e-4', '--lr_scheduler=constant', '--lr_warmup_steps=50', '--max_train_steps=600', '--rank=16', '--seed=0', '--report_to=tensorboard']' returned non-zero exit status 1.

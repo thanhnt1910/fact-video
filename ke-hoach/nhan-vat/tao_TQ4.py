@@ -186,9 +186,9 @@ def refs_for(nv):
                     if n not in names and (RD / f"{n}.jpg").exists():
                         names.append(n)
     if {"quanvu", "trieuphi", "liubei"} <= set(names) and (RD / "trio.jpg").exists():
-        return ["trio", "guandao", "xamau"]
+        return []   # cảnh bộ ba: chỉ dùng chữ, ảnh mẫu làm model chép lại ảnh mẫu
     names.sort(key=lambda n: 0 if n in ("quanvu", "trieuphi", "liubei") else 1)
-    return names[:4]
+    return names[:2]
 def ref_guide(names):
     if not names:
         return ""

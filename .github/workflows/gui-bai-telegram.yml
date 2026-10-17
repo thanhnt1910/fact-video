@@ -1,0 +1,36 @@
+name: Gửi bài Telegram (album ảnh 2D + bài viết)
+
+# Tự chạy khi sửa telegram/gui_yeu_cau.txt (ghi các tập cần gửi, cách nhau dấu cách, vd: 1 2 3),
+# hoặc chạy tay ở tab Actions và nhập các tập vào ô "tap".
+on:
+  push:
+    branches: [main]
+    paths: ["telegram/gui_yeu_cau.txt"]
+  workflow_dispatch:
+    inputs:
+      tap:
+        description: "Các tập cần gửi, cách nhau dấu cách (vd: 1 2 3)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q requests
+      - name: Gửi bài
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TAP_NHAP: ${{ inputs.tap }}
+        run: |
+          tap="$TAP_NHAP"
+          [ -z "$tap" ] && tap=$(cat telegram/gui_yeu_cau.txt)
+          python telegram/gui_telegram.py $tap

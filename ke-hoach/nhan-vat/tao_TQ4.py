@@ -190,12 +190,19 @@ def ref_guide(names):
     if not names:
         return ""
     return "Reference images are provided: " + "; ".join(f"image {i+1} shows {REF_TXT[n]}" for i, n in enumerate(names)) + ". The references are ONLY for faces, hair, beards, body proportions, weapon shapes and the flat clean comic drawing style: do NOT copy their backgrounds or poses, do NOT draw the reference pictures themselves, and do NOT add any person who is not named in the scene description. "
+FIXKEYS = {1, 6, 21, 63, 78}
+def FIXPRE(i):
+    if i not in FIXKEYS:
+        return ""
+    return ("ABSOLUTE RULES FOR THIS PICTURE: every flag, banner, hanging cloth, scroll on a wall, plaque and wall surface is a completely blank plain surface with no marks, no characters, no pseudo-writing; "
+            "there are no hanging lanterns or lamps on walls, only small clay oil lamps on tables; houses are low plain mud-brick and timber with simple straight grey-tile roofs and tiny square windows with a few wooden bars; "
+            "any sword at a hip is fully inside its scabbard. ")
 out, canh = [], []
 for i in range(1, 87):
     nv, m = S[i]; k = f"{i:03d}"
     canh.append({"key": k, "nv": nv, "mo_ta": m})
     if not nv:
-        out.append({"key": k, "nv": [], "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
+        out.append({"key": k, "nv": [], "prompt": FIXPRE(i) + m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
         continue
     named = [x for x in nv if x not in EXTRA]
     if i in TRIO:
@@ -205,7 +212,7 @@ for i in range(1, 87):
     else:
       ch = "; ".join(NV[x] + ((", " + EXTRA_PK(i, x)) if EXTRA_PK(i, x) else "") for x in nv)
     rf = refs_for(nv)
-    out.append({"key": k, "nv": nv, "refs": rf, "prompt": f"{ref_guide(rf)}{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
+    out.append({"key": k, "nv": nv, "refs": rf, "prompt": f"{FIXPRE(i)}{ref_guide(rf)}{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
 (R / "TQ4.json").write_text(json.dumps({"ma": "TQ4", "ghi_chu": "Tập 4: Bình Nguyên, Bắc Hải, Từ Châu", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 V = []
 for it in out:

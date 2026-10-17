@@ -1,0 +1,6 @@
+003_khong_mau: OK (0 ảnh mẫu)
+003_co_mau: OK (1 ảnh mẫu)
+035_khong_mau: OK (0 ảnh mẫu)
+035_co_mau: OK (1 ảnh mẫu)
+009_khong_mau: OK (0 ảnh mẫu)
+009_co_mau: OK (1 ảnh mẫu)

@@ -1,0 +1,484 @@
+{
+ "ma": "TQ3",
+ "ghi_chu": "Tập 3: Hổ Lao, Dương Nhân, Lạc Dương",
+ "canh": [
+  {
+   "key": "001",
+   "nv": [
+    "lubo_t4a",
+    "linh"
+   ],
+   "mo_ta": "a wide cinematic view of a huge ancient mountain pass fortress, grey brick walls and wooden gate towers on a narrow gorge, a lone armoured horseman with a halberd galloping out of the open gate toward three small riders waiting on the plain, dust, plain blank banners, dramatic stage-like light, no blood"
+  },
+  {
+   "key": "002",
+   "nv": [
+    "quanvu_t4a"
+   ],
+   "mo_ta": "Guan Yu in a green robe with a short sword in a scabbard rides out of a camp of tents toward the mountain pass while a general at the tent door holds a steaming bronze wine cup out to him, torches and tents, morning mist, no fighting"
+  },
+  {
+   "key": "003",
+   "nv": [],
+   "mo_ta": "a wide painted-scroll style view of the great Han pass fortress and a long ancient history archive room with stacked bamboo-slip scrolls tied with cord on low shelves, a low table and a clay oil lamp, no people, a feeling of searching"
+  },
+  {
+   "key": "004",
+   "nv": [
+    "quanvu_t4a",
+    "liubei_t4a"
+   ],
+   "mo_ta": "Guan Yu with his guandao and Liu Bei in a dark-blue robe stand on a low hill in a northern plain looking toward the far west, a simple camp of a few small tents below them, a long road across the plain, dusk, a question-filled quiet mood"
+  },
+  {
+   "key": "005",
+   "nv": [
+    "dongtrac",
+    "linh"
+   ],
+   "mo_ta": "the great palace city of Luoyang in the year 189: Dong Zhuo, a huge fat man in a dark fur-trimmed robe, rides in through the city gate at the head of a long column of Xiliang cavalry in fur-trimmed leather, townspeople watching nervously from the roadside, grey tiled palace roofs behind, plain blank banners"
+  },
+  {
+   "key": "006",
+   "nv": [
+    "dingnguyen",
+    "linh"
+   ],
+   "mo_ta": "the commander of the capital guard Ding Yuan, a stern grey-bearded man in black scale armour, stands before a long ranked formation of the capital soldiers in a barracks courtyard, a drill ground with wooden racks of spears, Luoyang walls behind, calm tense morning, no fighting"
+  },
+  {
+   "key": "007",
+   "nv": [
+    "lubo_t4a",
+    "dingnguyen"
+   ],
+   "mo_ta": "in a dim tent at night the young tall Lu Bu in armour stands behind the seated Ding Yuan who is reading a bamboo-slip scroll by a clay oil lamp, Lu Bu's shadow long on the tent wall, Lu Bu's hand resting still at his side, a tense quiet moment, no violence"
+  },
+  {
+   "key": "008",
+   "nv": [
+    "lubo_t4a",
+    "dongtrac"
+   ],
+   "mo_ta": "in a grand hall, Dong Zhuo seated on a low platform smiling and putting a hand on the shoulder of kneeling Lu Bu in armour who offers a closed black cloth bundle, the two clasp hands as if father and son, officers in rows watching, wooden pillars, oil lamps, plain hangings"
+  },
+  {
+   "key": "009",
+   "nv": [
+    "dongtrac",
+    "linh"
+   ],
+   "mo_ta": "a vast barracks outside Luoyang where many ranks of soldiers in iron armour kneel and then stand under the blank dark banners of Dong Zhuo, Dong Zhuo watching from a platform, an old city wall behind, evening light, the power of the capital passing to one man"
+  },
+  {
+   "key": "010",
+   "nv": [
+    "vienthieu",
+    "dongtrac"
+   ],
+   "mo_ta": "in a great palace hall officials in black caps sit in two rows, Dong Zhuo on the platform with an angry thick face pointing, while the handsome young Yuan Shao stands upright holding his sheathed sword horizontally across his chest and bowing deeply, ready to walk out, wooden pillars, oil lamps"
+  },
+  {
+   "key": "011",
+   "nv": [
+    "vienthieu"
+   ],
+   "mo_ta": "Yuan Shao on a horse with a few attendants rides alone out through the east gate of Luoyang at dawn along a dirt road toward distant hills, the city walls behind him, the calm of a man who has chosen to leave"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "dongtrac",
+    "linh"
+   ],
+   "mo_ta": "Dong Zhuo in a splendid dark robe and a high official cap walks up the stone steps of a palace hall wearing shoes and a sheathed sword while the bowing officials on both sides do not announce his name, rows of guards, palace roofs, grey stone, a feeling of unchecked power"
+  },
+  {
+   "key": "013",
+   "nv": [],
+   "mo_ta": "the same empty palace hall at dusk with rows of empty low seats and one empty seat at the head, a clay oil lamp flickering, long shadows from wooden pillars, an open doorway toward a far road, no people"
+  },
+  {
+   "key": "014",
+   "nv": [
+    "vienthieu",
+    "vienthuat",
+    "taotao_t4",
+    "congtonton"
+   ],
+   "mo_ta": "a large open-air council on a plain where regional lords gather in a camp of tents: the handsome Yuan Shao stands in the middle on a low earth platform, other lords in different armour and robes stand around him in a half circle, blank colourful banners, many soldiers behind, a sense of a great alliance"
+  },
+  {
+   "key": "015",
+   "nv": [
+    "vienthieu",
+    "linh"
+   ],
+   "mo_ta": "the allied camp in the evening: rows of tents and cooking fires, lords sitting under their own banners each far from the others with their own soldiers around them, none moving forward, a long empty road toward the west, smoke from fires"
+  },
+  {
+   "key": "016",
+   "nv": [
+    "tonkien",
+    "linh"
+   ],
+   "mo_ta": "Sun Jian in a red headband, red robe and iron armour leads a long column of southern soldiers marching west along a dirt road through green hills toward distant Luoyang, red-brown plain banners, dust, determined faces"
+  },
+  {
+   "key": "017",
+   "nv": [
+    "dan2"
+   ],
+   "mo_ta": "a southern river bank where several rough pirates of different looks sit around heaps of goods and cloth bundles taken from merchants, in the background a boat with a middle-aged father and his seventeen-year-old son standing on the deck looking at the shore, river, reeds, early light"
+  },
+  {
+   "key": "018",
+   "nv": [
+    "dan2"
+   ],
+   "mo_ta": "on the river bank a seventeen-year-old youth with a topknot and a short travelling tunic holds a short sword and points one hand to the east and the other to the west as if signalling hidden troops, while the pirates drop the goods and scatter in panic along the shore, reeds and boats, dramatic light, no fighting, no blood"
+  },
+  {
+   "key": "019",
+   "nv": [
+    "tonkien",
+    "linh"
+   ],
+   "mo_ta": "the mature Sun Jian in armour on a hill at the head of his army looking west toward the distant walls of Luoyang with the wind in his red headband, soldiers resting on the slope behind him, a bold calm expression"
+  },
+  {
+   "key": "020",
+   "nv": [
+    "tonkien",
+    "vienthuat"
+   ],
+   "mo_ta": "in the town of Luyang, Yuan Shu in rich armour sits in a hall and hands a sealed bamboo document to Sun Jian who stands bowing with his red headband, officials of Yuan Shu's court watching, wooden pillars, oil lamps, straw mats"
+  },
+  {
+   "key": "021",
+   "nv": [
+    "tonkien",
+    "vienthuat"
+   ],
+   "mo_ta": "a hall scene in which Sun Jian stands slightly lower than the proud Yuan Shu who sits on a low platform, Sun Jian's own plain red banner stands behind Yuan Shu's yellow banner, blank banners, a feeling that one serves another"
+  },
+  {
+   "key": "022",
+   "nv": [
+    "dongtrac",
+    "tuongquan"
+   ],
+   "mo_ta": "Dong Zhuo, a huge fat man, sits in a hall speaking to a general with a half-smile, his hand turned out in a gesture of grudging respect, a map on a low table, an oil lamp, officers listening, wooden pillars"
+  },
+  {
+   "key": "023",
+   "nv": [
+    "tonkien",
+    "linh"
+   ],
+   "mo_ta": "a battlefield east of the Liang town: a big army in plain red-brown armour of Dong Zhuo's Xiliang cavalry sweeps down a slope against a smaller column of Sun Jian's soldiers who stand together under red banners, dust, smoke, spears, no blood, no one fallen"
+  },
+  {
+   "key": "024",
+   "nv": [
+    "tonkien",
+    "kybinh"
+   ],
+   "mo_ta": "Sun Jian on a galloping horse with a few dozen riders breaks out of the ring of enemy cavalry across a dusty field, his red headband streaming behind him, enemy horsemen around the edges, dust, wide action shot, no blood"
+  },
+  {
+   "key": "025",
+   "nv": [
+    "tonkien",
+    "tomau"
+   ],
+   "mo_ta": "in the middle of the dusty ring of cavalry, Sun Jian takes off his red headband and hands it to the young officer Zu Mao who ties it onto his own head, Zu Mao's face determined, enemy riders closing in at the edge, a burnt field, no blood"
+  },
+  {
+   "key": "026",
+   "nv": [
+    "tomau"
+   ],
+   "mo_ta": "Zu Mao dismounted among old graves and a burnt wooden post at dusk, placing a red cloth headband upon the scorched post and creeping off into tall grass, grey stone mounds, a lone horse beside him, smoke"
+  },
+  {
+   "key": "027",
+   "nv": [
+    "kybinh",
+    "linh"
+   ],
+   "mo_ta": "enemy horsemen in fur-trimmed leather ride in a circle around a scorched wooden post with a red cloth on it, one rider leaning down to look closely, others turning their horses away in puzzlement, burnt ground, graves, evening light"
+  },
+  {
+   "key": "028",
+   "nv": [
+    "tonkien",
+    "linh"
+   ],
+   "mo_ta": "Sun Jian in armour gathering his scattered soldiers on a hill at dawn, spears upright, red banners being raised again one by one, an officer reporting to him, a quiet determination, mist in the valley"
+  },
+  {
+   "key": "029",
+   "nv": [
+    "huchan",
+    "lubo_t4a"
+   ],
+   "mo_ta": "in a Dong Zhuo army camp, Hu Zhen in grey-blue robe stands before a map while several officers at the side turn their faces away with disdainful looks and Lu Bu in iron armour stands with arms folded apart from them, tents, torches"
+  },
+  {
+   "key": "030",
+   "nv": [
+    "lubo_t4a",
+    "linh"
+   ],
+   "mo_ta": "Lu Bu on horseback at night in front of a group of horsemen and a gate, one rider pointing back toward a distant walled town as if spreading a false rumour, torches and shadows, the sense of a whispered lie spreading through the camp"
+  },
+  {
+   "key": "031",
+   "nv": [
+    "huchan",
+    "tonkien"
+   ],
+   "mo_ta": "a night field with Dong Zhuo's army in disorder, riders turning their horses in confusion and colliding, torches scattered, while a steady Sun Jian line with red banners advances in the background, dust, no blood"
+  },
+  {
+   "key": "032",
+   "nv": [],
+   "mo_ta": "a plain wooden table in a camp tent with a bamboo-slip scroll that is opened and a clay oil lamp, a few short sentences on the slips unreadable, a quiet empty tent, a wine cup, no people"
+  },
+  {
+   "key": "033",
+   "nv": [
+    "quanvu_t4a",
+    "liubei_t4a"
+   ],
+   "mo_ta": "Guan Yu stands calmly with his guandao held upright at the side of Liu Bei in a modest northern camp, both looking toward the far west where mountains stand, a plain small tent behind them, wide quiet sky"
+  },
+  {
+   "key": "034",
+   "nv": [],
+   "mo_ta": "a bare ancient courtyard with a table holding a steaming bronze wine cup and a plain unlit lamp, wooden pillars with plain blank red hangings, quiet and empty, no people"
+  },
+  {
+   "key": "035",
+   "nv": [],
+   "mo_ta": "the ancient mountain pass fortress of Hulao on a narrow gorge: grey brick walls, wooden gate towers, a dirt road and quiet rocky hills, plain blank banners on the walls, mist, no people on the road"
+  },
+  {
+   "key": "036",
+   "nv": [
+    "dongtrac",
+    "linh"
+   ],
+   "mo_ta": "the burning of the palaces of Luoyang: tall columns of smoke rise from the wooden halls behind the city wall, a long caravan of carts and mounted soldiers escorting the emperor's carriage west along the road, townspeople driven along the roadside, dark sky, no blood"
+  },
+  {
+   "key": "037",
+   "nv": [
+    "tonkien",
+    "linh"
+   ],
+   "mo_ta": "Sun Jian walking with a few soldiers through the ruins of a Han palace city: charred pillars, fallen roof tiles and ashes, he stoops to lift an old stone tablet, his officers shovelling earth to fill the open holes beside burial mounds, grey light, solemn mood"
+  },
+  {
+   "key": "038",
+   "nv": [
+    "tonkien",
+    "linh"
+   ],
+   "mo_ta": "soldiers by an old stone well in the ruins at dawn: a soldier on a rope is lifted out of the well holding a small bundle wrapped in red cloth, Sun Jian waiting at the well edge with his hands out, burnt walls around, a lamp, solemn tension"
+  },
+  {
+   "key": "039",
+   "nv": [
+    "vienthuat"
+   ],
+   "mo_ta": "a hall scene with Yuan Shu in yellow-brown robe sitting greedily upright on a platform, officials at his side whispering, a small square jade seal on a low table in front of him in soft light, hangings, oil lamps"
+  },
+  {
+   "key": "040",
+   "nv": [
+    "vienthuat"
+   ],
+   "mo_ta": "Yuan Shu in his hall hearing a thin adviser whispering in his ear, a map on the low table, wooden pillars, suspicious expression, oil lamps, straw mats, a wary mood"
+  },
+  {
+   "key": "041",
+   "nv": [
+    "tonkien",
+    "vienthuat"
+   ],
+   "mo_ta": "a night scene: Sun Jian rides hard on a horse with a few attendants through a dark gate of Yuan Shu's camp, and later kneels on the earth floor of the tent drawing lines in the ground with a stick to show Yuan Shu a plan, torches, dust, tent flaps"
+  },
+  {
+   "key": "042",
+   "nv": [
+    "linh",
+    "dan"
+   ],
+   "mo_ta": "allied soldiers of different lords sit around separate fires on a plain, watching each other across the dark ground, wary looks, spears piled apart, tents in clusters of different colours, a cold night, smoke"
+  },
+  {
+   "key": "043",
+   "nv": [
+    "tonkien",
+    "hoangto"
+   ],
+   "mo_ta": "a mountain slope at dusk with Sun Jian riding alone on a horse up a narrow path toward the ridge, archers hidden among rocks and trees watch him pass in silence, a river valley and walls of Xiangyang far below, no violence shown"
+  },
+  {
+   "key": "044",
+   "nv": [],
+   "mo_ta": "a green mountain ridge near a river with a lone riderless horse standing on the path in the evening light, a red cloth headband caught on a bush, mist, quiet, no people"
+  },
+  {
+   "key": "045",
+   "nv": [],
+   "mo_ta": "the south of China: the broad Yangtze river with a pair of sailing boats, green hills, a small river port with grey tiled roofs and boats moored, rising sun, a hopeful distance"
+  },
+  {
+   "key": "046",
+   "nv": [
+    "vienthieu",
+    "linh"
+   ],
+   "mo_ta": "the allied camp breaking up in the morning: tents being folded, lords' officers and soldiers heading in different directions along several dirt roads, carts and horses, banners lowered, a feeling of everyone going their own way"
+  },
+  {
+   "key": "047",
+   "nv": [
+    "vienthieu",
+    "hanphuc",
+    "luungu"
+   ],
+   "mo_ta": "a council in a northern hall: Yuan Shao and Han Fu speak earnestly to old Liu Yu who sits on a low platform shaking his head with both palms raised, officials in black caps around, wooden pillars, oil lamps"
+  },
+  {
+   "key": "048",
+   "nv": [
+    "hanphuc",
+    "congtonton"
+   ],
+   "mo_ta": "a northern plain with Gongsun Zan on a white horse leading a long column of cavalry in fur-trimmed armour toward a walled city in the distance, on the city wall the timid Han Fu looking down in worry, plain blank white banners, dust"
+  },
+  {
+   "key": "049",
+   "nv": [
+    "vienthieu",
+    "congtonton"
+   ],
+   "mo_ta": "a wide field between two rivers where two armies face each other in lines of infantry and horsemen under two plain banners, one with Yuan Shao among his officers, the other with Gongsun Zan on a white horse, a stone bridge between them, dust, no fighting shown"
+  },
+  {
+   "key": "050",
+   "nv": [
+    "liubei_t4a",
+    "congtonton"
+   ],
+   "mo_ta": "Liu Bei in a dark-blue robe with one sword in a sheathed scabbard stands with his old schoolmate Gongsun Zan in a modest northern county office, a map of the north laid on a low table, a small hall with wooden pillars and a straw mat floor, Liu Bei's humble pose"
+  },
+  {
+   "key": "051",
+   "nv": [
+    "liubei_t4a",
+    "quanvu_t4a",
+    "trieuphi_t4a"
+   ],
+   "mo_ta": "Liu Bei, with Guan Yu and Zhang Fei standing close behind him, in front of a modest wooden gate of Pingyuan county, a few soldiers and county officials around, a lone road and flat northern plain stretching behind, calm morning light"
+  },
+  {
+   "key": "052",
+   "nv": [
+    "dongtrac",
+    "linh"
+   ],
+   "mo_ta": "the huge fortress of Mei Wu being built in the Chang'an region: thick earthen walls as high as a city wall, workers hauling stones and carts of grain up ramps, long rows of granary storehouses with grey roofs, Dong Zhuo's soldiers overseeing, dust, no whipping"
+  },
+  {
+   "key": "053",
+   "nv": [
+    "dongtrac",
+    "lubo_t4a"
+   ],
+   "mo_ta": "inside the fortress, Dong Zhuo stands before a vast granary of piled grain sacks and clay jars with satisfaction, in the background at the doorway Lu Bu in armour watches him with a still hard stare, oil lamp flickers between them"
+  },
+  {
+   "key": "054",
+   "nv": [
+    "dongtrac",
+    "lubo_t4a"
+   ],
+   "mo_ta": "a hall scene where Dong Zhuo angrily lifts a long-handled halberd as if to throw it while Lu Bu stands frozen with his head turned away, officials around freeze and look aside, wooden pillars, oil lamps, no one hit, no blood"
+  },
+  {
+   "key": "055",
+   "nv": [
+    "lubo_t4a"
+   ],
+   "mo_ta": "in a quiet lamp-lit inner courtyard of a Han mansion, Lu Bu in a dark robe stands alone near a plain screen looking uneasily over his shoulder at a closed door, a covered corridor and a stone path, a sense of a secret, no other person visible"
+  },
+  {
+   "key": "056",
+   "nv": [
+    "vuongdoan",
+    "lubo_t4a",
+    "lythuc"
+   ],
+   "mo_ta": "a night council in a small room: elderly Wang Yun in a black cap speaks in a low voice to Lu Bu and two other officers around a low table under a clay oil lamp, close heads, wooden pillars, straw mats, hanging plain cloth, a conspiracy feel"
+  },
+  {
+   "key": "057",
+   "nv": [
+    "lubo_t4a",
+    "lythuc"
+   ],
+   "mo_ta": "the Weiyang palace gate at dawn: tall wooden gate towers and a stone road with a line of palace guards in plain dark armour and Li Su among them, a closed carriage waiting before the gate, grey light, solemn silence, nothing violent shown"
+  },
+  {
+   "key": "058",
+   "nv": [
+    "lubo_t4a"
+   ],
+   "mo_ta": "Lu Bu stands alone in armour at the top of the stone steps of the palace gate looking down, in front of him an empty carriage and a spilled silk cloak on the steps, a long shadow, the morning wind, a quiet heavy ending, no blood"
+  },
+  {
+   "key": "059",
+   "nv": [
+    "tonkien"
+   ],
+   "mo_ta": "Sun Jian in a red headband and iron armour standing on a river bank before a small walled town after a battle, his soldiers resting beside red-brown plain banners, a cloth-covered captured helmet on a stone, calm victory mood, no fighting"
+  },
+  {
+   "key": "060",
+   "nv": [
+    "quanvu_t4a",
+    "liubei_t4a"
+   ],
+   "mo_ta": "Guan Yu and Liu Bei side by side sitting on a low bench at the door of a modest wooden house in a village on the northern plain, Guan Yu with his guandao leaning on the wall, an old farmer pouring water, hills and a dirt road behind"
+  },
+  {
+   "key": "061",
+   "nv": [],
+   "mo_ta": "a wide misty plain with a few plain blank banners fluttering over distant tents, a few long shadows of walking men across the road, a heavy cloud-filled sky, quiet and sorrowful, no people near"
+  },
+  {
+   "key": "062",
+   "nv": [
+    "liubei_t4a"
+   ],
+   "mo_ta": "Liu Bei in a dark-blue robe stands alone at the top of the earth wall of Pingyuan looking east over the plain at dusk, a smoke-grey sky, his small figure against the horizon, a single sword in its scabbard at his hip"
+  },
+  {
+   "key": "063",
+   "nv": [
+    "liubei_t4a"
+   ],
+   "mo_ta": "Liu Bei on horseback with a few riders on a long eastern road toward distant hills and rivers under a large sky, a messenger riding toward him from the far end of the road carrying a rolled bamboo document, soft golden light"
+  },
+  {
+   "key": "064",
+   "nv": [],
+   "mo_ta": "an old Han city gate on a road in the early morning with a rising sun behind misty hills, the road empty and long, birds in the sky, a quiet closing image, no people"
+  }
+ ]
+}

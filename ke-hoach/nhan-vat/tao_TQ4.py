@@ -10,6 +10,8 @@ tp = json.loads((R / "TQ4_trang_phuc.json").read_text(encoding="utf-8"))
 EXTRA = {
  "linh": "a Han soldier in a plain iron helmet and leather-and-iron scale armour over a dull red-brown tunic",
  "quan": "a county official in a black cap and a dark robe",
+ "quan_a": "an old heavy official of about 60 with a round face, a long white beard and a tall black cap, brown robe with a dark sash",
+ "quan_b": "a young thin official of about 28 with a clean-shaven narrow face, a plain cloth headband, grey-green robe with a pale sash",
  "kybinh": "a Wuhuan horseman in fur-trimmed leather clothes",
 }
 NV = {**tq["nhan_vat"], **t2["nhan_vat_phu"], **tp["trang_phuc"], **EXTRA}
@@ -117,6 +119,8 @@ sc(85,["lubo_t4b","linh"],"a rainy night: a small group of riders with torches a
 sc(86,["liubei_t4c"],"Liu Bei sits alone at a low table at night with a bamboo-slip scroll tied with cord, a clay oil lamp beside him, looking toward a wooden lattice window with no glass where mountains show in the starlight")
 
 OV = {
+ 21: (["khongdung_t4","thaisutu_t4"], "inside a plain hall of Beihai, the middle-aged Kong Rong sits on a straw mat smiling and reading a bamboo-slip scroll, and in front of him the young Taishi Ci in a plain travelling tunic bows with both hands clasped at his chest, his two feet planted on the floor, only these two people near the camera, behind them a few officials small and far away in a row, wooden pillars, a small clay oil lamp on the low table, no lamps on the walls, anatomy simple and correct: each person with two arms and two legs"),
+ 78: (["quan_a","quan_b"], "in a dim hall corridor with timber pillars two officials stand close and whisper: on the left the old heavy white-bearded man in a tall black cap, on the right the young thin clean-shaven man in a headband, very different from each other, both with empty hands and no weapons, glancing toward an inner wooden door, long shadows, a small clay oil lamp on the floor, tiny square windows with a few bars"),
  3: ([], "an empty low wooden table in a hall with a tied bamboo-slip scroll and a small clay oil lamp, wooden pillars and a straw mat floor, a wooden lattice window with a mountain view, no people"),
  14: ([], "an ancient Han Chinese mud-brick farmhouse at night, grey tiled roof, a wooden lattice window with warm lamplight, a straw mat and clay jar at the door, village houses and dark hills behind under stars, no people, no bench"),
  31: (["dan"], "a column of tired porters and peasants carrying sacks and pulling wooden carts along a dirt road past mud-brick houses with grey tiled roofs, smoke rising from far hills, plain banners, no awnings, no poles"),
@@ -129,7 +133,6 @@ OV = {
  67: (["liubei_t4c","mitruc_t4"], "at night Liu Bei sits on a straw mat at a low table reading a bamboo-slip scroll by a clay oil lamp, Mi Zhu standing beside him, wooden lattice window with stars outside, bamboo-slip scrolls stacked on a shelf, a canvas tent wall behind, no lamp posts, no wires, no chairs"),
  70: (["liubei_t4a","dan"], "Liu Bei in a dark-blue robe speaks with a poor peasant at the wooden gate of a village, mud-brick houses with grey tiled roofs, hills behind, no hanging sign, no awning"),
  74: ([], "a low wooden table with folded dark-blue and green cloth robes tied with cord, a clay oil lamp beside it, mud-brick wall, wooden lattice window with a view of hills, straw mats on the floor"),
- 78: (["quan"], "in a dim corridor with timber pillars two or three officials in dark robes whisper together, glancing toward an inner wooden door, long shadows, a small clay oil lamp on the floor, wooden lattice screens, no glass"),
  84: (["lubo_t4b","linh"], "Lu Bu seen from behind, travel-stained and wearing a torn cloak, rides at the head of a small weary band of riders along a long dirt road toward the plain gate-tower of Xiaopei at dusk, hills behind, his face not visible, empty sky with no wires"),
  85: (["lubo_t4b","linh"], "a rainy night: a small group of riders with torches arrives at the plain wooden gate of a Han city, guards at the gate looking out in uncertainty, one hanging clay oil lantern, mud and rain, no awnings"),
  86: (["liubei_t4c"], "a low wooden table at night with a tied bamboo-slip scroll, a clay oil lamp and clay jars, a wooden lattice window with no glass where mountains show in the starlight, straw mats, no people"),

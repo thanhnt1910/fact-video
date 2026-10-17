@@ -3,7 +3,7 @@
   python kiem_tra_tq.py TQ45 [dir=assets/anh_2d/CF_TQ45] [only=001,002] [suffix=_a]
 
 Đọc ke-hoach/nhan-vat/<mã>.json (cảnh: nv, mo_ta) và <mã>_anh.json (prompt). Ảnh: <dir>/<key><suffix>.jpg.
-Gemini trả JSON các lỗi theo quy tắc của chủ kênh: thừa tay/chân, người ngược, hai kiếm / kiếm trần ở hông, vũ khí sai hình, chữ trên cờ/tường,
+Gemini (suffix=- nghĩa là không có hậu tố) trả JSON các lỗi theo quy tắc của chủ kênh: thừa tay/chân, người ngược, hai kiếm / kiếm trần ở hông, vũ khí sai hình, chữ trên cờ/tường,
 mái nhà Hàn-Nhật, vật hiện đại (đèn treo, kính, nến, ghế tựa), người không có nền, hai người giống hệt, trẻ con, máu me, lạc đề.
 Kết quả: logs/kiem_2d/<mã>_tq.json và <mã>_tq.txt (danh sách ảnh nên vẽ lại)."""
 import json
@@ -30,7 +30,7 @@ Trả lời JSON đúng dạng:
  "sai_thoi": [<vật hiện đại hoặc sai thời: đèn treo/đèn đường, kính cửa, nến, ghế tựa có lưng, sách đóng gáy hoặc giấy, cốc có quai, dây điện, đường nhựa, mũ lưỡi trai, đồng hồ, bảng hiệu>],
  "khong_nen": <true nếu người/nhân vật đứng trên nền trơn một màu hoặc nền trắng/xám, không có bối cảnh>,
  "nguoi_giong_nhau": <true nếu có hai người trong ảnh có khuôn mặt/dáng/trang phục giống hệt nhau như nhân bản>,
- "lech_nhan_vat": [<nhân vật có tên bị vẽ lệch rõ so với mô tả (tuổi, râu, mũ, áo, vũ khí)>],
+ "lech_nhan_vat": [<CHỈ nhân vật bị vẽ lệch NẶNG: sai tuổi hẳn, hói không có búi tóc, mắt trắng không con ngươi, sai giới tính; KHÔNG báo thiếu kiếm ở hông, thiếu chi tiết nhỏ hay lệch màu áo nhẹ>],
  "tre_con": <true nếu ai đó trông như trẻ em hoặc hoạt hình tròn trịa mà cảnh không yêu cầu>,
  "mau_me": <true nếu có máu, vết thương, người bị đâm/chặt, xác>,
  "lac_de": <true nếu ảnh hoàn toàn không liên quan cảnh cần vẽ>,
@@ -63,6 +63,7 @@ def main():
     o = dict(a.split("=", 1) for a in sys.argv[2:] if "=" in a)
     d = ROOT / o.get("dir", f"assets/anh_2d/CF_{ma}")
     suf = o.get("suffix", "_a")
+    suf = "" if suf == "-" else suf
     nv = json.loads((ROOT / "ke-hoach/nhan-vat" / f"{ma}.json").read_text(encoding="utf-8"))["canh"]
     anh = {x["key"]: x for x in json.loads((ROOT / "ke-hoach/nhan-vat" / f"{ma}_anh.json").read_text(encoding="utf-8"))}
     cn = {c["key"]: c for c in nv}

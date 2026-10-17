@@ -1,0 +1,1677 @@
+{
+ "001": {
+  "so_nguoi_thay": 7,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "kiếm của Lưu Bị vẽ kiểu katana Nhật Bản (chuôi quấn dây, bao cong) thay vì kiếm thẳng thời Hán"
+  ],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đèn tường kiểu đèn lồng kính/phương Tây hiện đại gắn trên cột gỗ"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục cảnh khá chuẩn nhưng kiếm của Lưu Bị vẽ nhầm thành katana Nhật Bản và đèn gắn tường sai thời đại.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: kiếm của Lưu Bị vẽ kiểu katana Nhật Bản (chuôi quấn dây, bao cong) thay vì kiếm thẳng thời Hán",
+   "sai_thoi: đèn tường kiểu đèn lồng kính/phương Tây hiện đại gắn trên cột gỗ"
+  ]
+ },
+ "002": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị thiếu kiếm bên hông"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Kiến trúc mái nhà mang phong cách Hàn-Nhật và Lưu Bị thiếu kiếm bên hông.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bị thiếu kiếm bên hông",
+   "mái Hàn/Nhật"
+  ]
+ },
+ "004": {
+  "so_nguoi_thay": 0,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "nến"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Vật ở giữa bàn là cây nến cắm thay vì đèn dầu đất nung theo yêu cầu.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: nến"
+  ]
+ },
+ "005": {
+  "so_nguoi_thay": 0,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "khung cửa sổ trượt hiện đại có kính"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Cửa sổ mang kết cấu trượt kính hiện đại và cuộn sách mở là giấy thay vì thẻ tre.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: khung cửa sổ trượt hiện đại có kính",
+   "có chữ"
+  ]
+ },
+ "006": {
+  "so_nguoi_thay": 3,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "ghế tựa có lưng"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị thiếu kiếm đeo hông"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh dùng ghế tựa sai thời kỳ và nhân vật thiếu kiếm bên hông.",
+  "_model": "gemini-flash-latest",
+  "_ly_do": [
+   "sai_thoi: ghế tựa có lưng",
+   "lech_nhan_vat: Lưu Bị thiếu kiếm đeo hông"
+  ]
+ },
+ "007": {
+  "so_nguoi_thay": 1,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Liu Bei thiếu thanh kiếm tra vỏ bên hông",
+   "Liu Bei đứng cận cảnh nhìn về phía trước thay vì đứng nhỏ nhìn ra thành xa"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục nhân vật đứng cận cảnh nhìn thẳng thay vì đứng nhỏ nhìn về phía thành, đồng thời thiếu kiếm bên hông.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Liu Bei thiếu thanh kiếm tra vỏ bên hông; Liu Bei đứng cận cảnh nhìn về phía trước thay vì đứng nhỏ nhìn ra th"
+  ]
+ },
+ "008": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "tòa nhà cao tầng/tháp hiện đại ở thành phố xa xa"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Đường chân trời thành phố ven sông có đường nét giống tháp và nhà cao tầng hiện đại.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: tòa nhà cao tầng/tháp hiện đại ở thành phố xa xa",
+   "hai người giống hệt"
+  ]
+ },
+ "009": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "nhà cao tầng hiện đại ở hậu cảnh"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Lưu Bị không mặc quan phục",
+   "lính canh không đội mũ sắt hay mặc giáp theo mô tả mà mặc đồ giống Lưu Bị"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Bối cảnh phía xa xuất hiện các tòa nhà cao tầng hiện đại và hai nhân vật bị vẽ giống hệt nhau.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: nhà cao tầng hiện đại ở hậu cảnh",
+   "lech_nhan_vat: Lưu Bị không mặc quan phục; lính canh không đội mũ sắt hay mặc giáp theo mô tả mà mặc đồ giống Lưu Bị",
+   "hai người giống hệt",
+   "điểm 2/5"
+  ]
+ },
+ "011": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Gongsun Zan thiếu giáp sắt và trang phục xanh thẫm, Liu Bei thiếu kiếm bên hông"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Hai nhân vật chính bị vẽ giống hệt nhau như nhân bản và sai trang phục mô tả.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Gongsun Zan thiếu giáp sắt và trang phục xanh thẫm, Liu Bei thiếu kiếm bên hông",
+   "hai người giống hệt",
+   "điểm 2/5"
+  ]
+ },
+ "012": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đèn tường chụp bóng kính dạng hiện đại",
+   "cuộn giấy thay vì thẻ tre"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị thiếu kiếm đeo hông, mặt nghiêm nghị có râu thay vì hiền từ, tai và tay chưa rõ nét đặc trưng"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh khá tốt nhưng đèn gắn tường sai thời đại và Lưu Bị thiếu kiếm bên hông.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: đèn tường chụp bóng kính dạng hiện đại; cuộn giấy thay vì thẻ tre",
+   "lech_nhan_vat: Lưu Bị thiếu kiếm đeo hông, mặt nghiêm nghị có râu thay vì hiền từ, tai và tay chưa rõ nét đặc trưng",
+   "có chữ"
+  ]
+ },
+ "013": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "quân phục và mũ sắt phong cách thế chiến cận hiện đại của binh sĩ",
+   "bản đồ phân chia ranh giới kiểu hiện đại"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "binh sĩ mang trang phục quân đội hiện đại",
+   "hai nhân vật chính chạm tay thay vì chỉ hướng bắc"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Binh sĩ xung quanh mặc nhầm quân phục và mũ sắt cận hiện đại.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: quân phục và mũ sắt phong cách thế chiến cận hiện đại của binh sĩ; bản đồ phân chia ranh giới kiểu hiện đại",
+   "lech_nhan_vat: binh sĩ mang trang phục quân đội hiện đại; hai nhân vật chính chạm tay thay vì chỉ hướng bắc",
+   "có chữ",
+   "điểm 2/5"
+  ]
+ },
+ "014": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "Bám sát mô tả cảnh hai hàng quân dàn trận đối diện qua sông, bố cục ổn định.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "hai người giống hệt"
+  ]
+ },
+ "015": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bình không mặc áo màu mận chín",
+   "Lưu Bị thiếu nét mặt hiền từ, tai to tay dài và không có cảnh dân chúng niềm nở đón tiếp"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục biến thành hai người đứng đối đầu trực diện, sai lệch hành động dân chúng đón đón Lưu Bị.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bình không mặc áo màu mận chín; Lưu Bị thiếu nét mặt hiền từ, tai to tay dài và không có cảnh dân chúng ni"
+  ]
+ },
+ "016": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "ghế tựa có lưng",
+   "chuôi kiếm kiểu katana Nhật Bản"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục tốt bám sát mô tả, xuất hiện ghế có lưng tựa và chuôi kiếm kiểu Nhật Bản.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: ghế tựa có lưng; chuôi kiếm kiểu katana Nhật Bản"
+  ]
+ },
+ "017": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "núm xoay cửa hiện đại"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Sát thủ không có khăn che mặt",
+   "Lưu Bị thiếu tai to tay dài, vị trí đứng sai so với cửa"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Hai nhân vật có tạo hình trang phục và tóc quá giống nhau, sai vị trí mô tả.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: núm xoay cửa hiện đại",
+   "lech_nhan_vat: Sát thủ không có khăn che mặt; Lưu Bị thiếu tai to tay dài, vị trí đứng sai so với cửa",
+   "hai người giống hệt",
+   "điểm 2/5"
+  ]
+ },
+ "018": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "thanh long đao của Quan Vũ bị teo nhỏ và biến dạng thành đầu chùy/lưỡi nhỏ cắm xuống đất"
+  ],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Trương Phi bị vẽ cởi trần"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục đẹp đúng yêu cầu nhưng vũ khí của Quan Vũ bị vẽ lỗi biến dạng và Trương Phi bị vẽ cởi trần.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: thanh long đao của Quan Vũ bị teo nhỏ và biến dạng thành đầu chùy/lưỡi nhỏ cắm xuống đất",
+   "lech_nhan_vat: Trương Phi bị vẽ cởi trần"
+  ]
+ },
+ "019": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "cán trượng hình đầu rắn kỳ lạ phía sau Trương Phi"
+  ],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Quan Vũ thiếu thanh long yển nguyệt đao",
+   "Trương Phi thiếu bát xà mâu chuẩn",
+   "Binh lính không có mũ sắt và áo giáp vảy"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Thiếu vũ khí đặc trưng của hai tướng và trang bị giáp trụ của binh lính.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: cán trượng hình đầu rắn kỳ lạ phía sau Trương Phi",
+   "lech_nhan_vat: Quan Vũ thiếu thanh long yển nguyệt đao; Trương Phi thiếu bát xà mâu chuẩn; Binh lính không có mũ sắt và áo gi"
+  ]
+ },
+ "021": {
+  "so_nguoi_thay": 7,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Ba binh sĩ nhìn giống hệt nhau và nhân vật đứng chênh vênh trên mép tường thành.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "hai người giống hệt"
+  ]
+ },
+ "022": {
+  "so_nguoi_thay": 8,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "Hình vẽ bám sát mô tả kịch bản, trang phục và bối cảnh chuẩn xác.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "023": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "Hình ảnh thể hiện đúng bối cảnh và mô tả nhân vật, không có lỗi đáng kể.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "024": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đèn treo quả cầu kính"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị không đặt tay lên ngực",
+   "Thái Sử Từ không cúi chào mà đứng nhìn thẳng"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Sai hoàn toàn tư thế nhân vật, đứng nhìn thẳng thay vì hành động theo ngữ cảnh.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: đèn treo quả cầu kính",
+   "lech_nhan_vat: Lưu Bị không đặt tay lên ngực; Thái Sử Từ không cúi chào mà đứng nhìn thẳng",
+   "có chữ",
+   "điểm 2/5"
+  ]
+ },
+ "025": {
+  "so_nguoi_thay": 1,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị không có kiếm bên hông, quay lưng lại cửa sổ thay vì nhìn ra ngoài"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Nhân vật đứng quay mặt về phía trước thay vì ngắm cảnh qua cửa sổ và thiếu kiếm đeo hông.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bị không có kiếm bên hông, quay lưng lại cửa sổ thay vì nhìn ra ngoài"
+  ]
+ },
+ "026": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị không có kiếm bên hông và đứng xuôi tay thay vì chỉ tay giao quyền"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh và nhân vật đạt yêu cầu nhưng Lưu Bị chưa thực hiện hành động chỉ tay giao quyền.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bị không có kiếm bên hông và đứng xuôi tay thay vì chỉ tay giao quyền"
+  ]
+ },
+ "027": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bám sát mô tả cảnh hành quân, binh lính hơi mang tính sao chép và có ký tự nhỏ trên góc cờ.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "có chữ",
+   "hai người giống hệt"
+  ]
+ },
+ "028": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "giày bốt buộc dây hiện đại"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Thái Sử Từ mang giày bốt buộc dây hiện đại, còn lại bối cảnh khá tốt.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: giày bốt buộc dây hiện đại"
+  ]
+ },
+ "029": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị không có kiếm đeo hông, đứng dưới sân thành thay vì trên lầu canh"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Lưu Bị thiếu kiếm bên hông và đứng dưới thành thay vì trên lầu gác.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bị không có kiếm đeo hông, đứng dưới sân thành thay vì trên lầu canh",
+   "mái Hàn/Nhật"
+  ]
+ },
+ "030": {
+  "so_nguoi_thay": 5,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "nến"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Cao Cao bị vẽ hói đầu không có búi tóc, kiếm tuốt trần thay vì tra bao ở hông"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh tốt nhưng tạo hình Cao Cao bị hói đầu sai quy cách cổ trang và kiếm bị rút trần.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: nến",
+   "lech_nhan_vat: Cao Cao bị vẽ hói đầu không có búi tóc, kiếm tuốt trần thay vì tra bao ở hông"
+  ]
+ },
+ "031": {
+  "so_nguoi_thay": 3,
+  "tay_chan_thua": [
+   "người ngồi xe thứ hai có đôi chân thò xuống gầm xe kéo đất"
+  ],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đường nhựa"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Mặt đường rải nhựa hiện đại và xe hàng phía sau thiếu bò kéo, có chân người thò dưới gầm.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "tay_chan_thua: người ngồi xe thứ hai có đôi chân thò xuống gầm xe kéo đất",
+   "sai_thoi: đường nhựa",
+   "hai người giống hệt"
+  ]
+ },
+ "032": {
+  "so_nguoi_thay": 5,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "Hình ảnh thể hiện đúng yêu cầu bối cảnh và không khí.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "033": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Tào Tháo không có râu mép và râu cằm"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Tào Tháo thiếu râu theo mô tả và cùng quỳ phục dưới đất.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Tào Tháo không có râu mép và râu cằm"
+  ]
+ },
+ "034": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Cao Tháo để tóc vuốt tự do, thiếu búi tóc hoặc khăn trùm đầu thời Hán"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bám sát mô tả cảnh viếng mộ, chỉ có tóc và chuôi kiếm mang nét phương Tây.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Cao Tháo để tóc vuốt tự do, thiếu búi tóc hoặc khăn trùm đầu thời Hán"
+  ]
+ },
+ "035": {
+  "so_nguoi_thay": 0,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh kiến trúc và thuyền tốt nhưng hoàn toàn vắng bóng người và thương nhân.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "036": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [
+   "Tào Tháo có hai bao kiếm đối xứng hai bên hông/yên ngựa"
+  ],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Tào Tháo thiếu chòm râu cằm và không búi tóc/đội mũ theo lối thời Hán"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Binh lính mặt mũi rập khuôn, Tào Tháo thiếu râu cằm và búi tóc đúng thời đại.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "kiem: Tào Tháo có hai bao kiếm đối xứng hai bên hông/yên ngựa",
+   "lech_nhan_vat: Tào Tháo thiếu chòm râu cằm và không búi tóc/đội mũ theo lối thời Hán",
+   "mái Hàn/Nhật",
+   "hai người giống hệt"
+  ]
+ },
+ "037": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hình ảnh thể hiện đúng bố cục và yêu cầu mô tả, các nhân vật lính vẽ lặp lại đơn giản.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "hai người giống hệt"
+  ]
+ },
+ "038": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hình ảnh thể hiện đúng bối cảnh dòng người tị nạn và nhân vật nông dân.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "039": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [
+   "người bên trái thừa một cánh tay thõng xuống dưới tay bê bát"
+  ],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "thiếu hẳn đoàn binh lính đi ngang qua, thay bằng hai nông dân giống hệt nhau"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Người bên trái thừa tay và thiếu hẳn đoàn lính theo yêu cầu.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "tay_chan_thua: người bên trái thừa một cánh tay thõng xuống dưới tay bê bát",
+   "lech_nhan_vat: thiếu hẳn đoàn binh lính đi ngang qua, thay bằng hai nông dân giống hệt nhau",
+   "hai người giống hệt",
+   "điểm 2/5"
+  ]
+ },
+ "040": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [
+   "người đưa thư mọc phần thân sau và đuôi ngựa dính liền vào lưng"
+  ],
+  "nguoi_nguoc": [
+   "người đưa thư có tai ngựa mọc trên đầu"
+  ],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "người đưa thư bị lai thành nhân mã có tai và đuôi ngựa",
+   "tướng Điền Khải không có râu ngắn theo mô tả"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Người đưa thư bị vẽ lỗi nghiêm trọng thành nửa người nửa ngựa với tai và đuôi ngựa dính trên người.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "tay_chan_thua: người đưa thư mọc phần thân sau và đuôi ngựa dính liền vào lưng",
+   "nguoi_nguoc: người đưa thư có tai ngựa mọc trên đầu",
+   "lech_nhan_vat: người đưa thư bị lai thành nhân mã có tai và đuôi ngựa; tướng Điền Khải không có râu ngắn theo mô tả",
+   "điểm 2/5"
+  ]
+ },
+ "041": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [
+   "Lưu Bị lộ lưỡi kiếm trần chúc xuống đất"
+  ],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị và chỉ huy đi bộ thay vì cưỡi ngựa, thiếu đặc điểm tay dài tai to"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hai nhân vật chính đứng bộ thay vì cưỡi ngựa dẫn quân.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "kiem: Lưu Bị lộ lưỡi kiếm trần chúc xuống đất",
+   "lech_nhan_vat: Lưu Bị và chỉ huy đi bộ thay vì cưỡi ngựa, thiếu đặc điểm tay dài tai to"
+  ]
+ },
+ "042": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị thiếu gươm đeo hông và chưa thể hiện rõ đặc điểm tay dài, tai lớn"
+  ],
+  "tre_con": false,
+  "mau_me": true,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh sát yêu cầu nhưng Lưu Bị thiếu kiếm và các nét ngoại hình đặc trưng.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bị thiếu gươm đeo hông và chưa thể hiện rõ đặc điểm tay dài, tai lớn",
+   "máu me"
+  ]
+ },
+ "043": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lưu Bị cầm kiếm trần thay vì đeo kiếm trong bao ở hông"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục và nhân vật bám sát mô tả, chỉ lệch chi tiết Lưu Bị cầm kiếm trần trên tay.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lưu Bị cầm kiếm trần thay vì đeo kiếm trong bao ở hông",
+   "có chữ"
+  ]
+ },
+ "044": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hình ảnh thể hiện tốt nhân vật và bối cảnh thành lũy ven sông theo đúng mô tả.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "045": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "trang phục hiện đại",
+   "mũ kê-pi",
+   "kính cửa"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Thiếu Đào Khiêm già râu trắng áo quan",
+   "Ba nhân vật trung tâm bị vẽ giống hệt nhau không rõ ai là Lưu Bị"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Trang phục đám đông lẫn quân phục hiện đại, ba nhân vật chính bị nhân bản và thiếu Đào Khiêm.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: trang phục hiện đại; mũ kê-pi; kính cửa",
+   "lech_nhan_vat: Thiếu Đào Khiêm già râu trắng áo quan; Ba nhân vật trung tâm bị vẽ giống hệt nhau không rõ ai là Lưu Bị",
+   "hai người giống hệt",
+   "điểm 2/5"
+  ]
+ },
+ "046": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Tao Qian trẻ, râu đen ngắn thay vì râu trắng dài và thiếu mũ quan",
+   "Liu Bei không cúi chào"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Đào Khiêm bị vẽ quá trẻ, sai râu và không đúng động tác chào.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Tao Qian trẻ, râu đen ngắn thay vì râu trắng dài và thiếu mũ quan; Liu Bei không cúi chào",
+   "hai người giống hệt"
+  ]
+ },
+ "047": {
+  "so_nguoi_thay": 8,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "Hình vẽ bám sát yêu cầu, nhân vật và bối cảnh rõ ràng không có lỗi giải phẫu.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "048": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "người trao ấn là tướng/lính giáp thay vì viên quan áo đen đứng cạnh"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Binh sĩ trao ấn thay vì quan lại, bố cục và chi tiết chung khá tốt.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: người trao ấn là tướng/lính giáp thay vì viên quan áo đen đứng cạnh",
+   "có chữ"
+  ]
+ },
+ "049": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "ổn",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "050": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [
+   "Tào Tháo có kiếm/chuôi kiếm chéo nhau kỳ dị ở thắt lưng"
+  ],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Tào Tháo mắt bị vẽ toàn lòng trắng không có con ngươi"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Mắt Tào Tháo bị mất con ngươi và kiếm đeo ở hông bị biến dạng chéo nhau.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "kiem: Tào Tháo có kiếm/chuôi kiếm chéo nhau kỳ dị ở thắt lưng",
+   "lech_nhan_vat: Tào Tháo mắt bị vẽ toàn lòng trắng không có con ngươi",
+   "mái Hàn/Nhật",
+   "hai người giống hệt"
+  ]
+ },
+ "051": {
+  "so_nguoi_thay": 0,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh hoang tàn sát mô tả, góc mái hơi cong so với thời Hán.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "mái Hàn/Nhật"
+  ]
+ },
+ "052": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "kích sau lưng Lữ Bố vẽ dạng chĩa ba thay vì kích một ngạnh"
+  ],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "kính cửa ở hậu cảnh",
+   "đèn treo tường có lồng kính phong cách Tây"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố đứng thẳng không cúi chào và vũ khí sai chi tiết ngạnh kích"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh dính lỗi cửa kính và đèn lồng kiểu Tây cận đại, vũ khí sai dạng.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: kích sau lưng Lữ Bố vẽ dạng chĩa ba thay vì kích một ngạnh",
+   "sai_thoi: kính cửa ở hậu cảnh; đèn treo tường có lồng kính phong cách Tây",
+   "lech_nhan_vat: Lữ Bố đứng thẳng không cúi chào và vũ khí sai chi tiết ngạnh kích",
+   "có chữ"
+  ]
+ },
+ "053": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "vũ khí của Lữ Bố bị đứt đoạn giữa thân và mũi giáo không đúng hình kích một lưỡi trăng"
+  ],
+  "chu": false,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Lữ Bố đội mũ sắt thay vì dải vải buộc tóc, vũ khí không rõ lưỡi bán nguyệt"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục khá tốt nhưng vũ khí của Lữ Bố vẽ sai và hai hộ vệ phía sau bị nhân bản.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: vũ khí của Lữ Bố bị đứt đoạn giữa thân và mũi giáo không đúng hình kích một lưỡi trăng",
+   "lech_nhan_vat: Lữ Bố đội mũ sắt thay vì dải vải buộc tóc, vũ khí không rõ lưỡi bán nguyệt",
+   "mái Hàn/Nhật",
+   "hai người giống hệt"
+  ]
+ },
+ "054": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "nhân vật ở giữa đứng đi bộ thay vì cưỡi ngựa như mô tả"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục tốt nhưng nhân vật ở khoảng giữa đứng đi bộ thay vì cưỡi ngựa.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: nhân vật ở giữa đứng đi bộ thay vì cưỡi ngựa như mô tả",
+   "hai người giống hệt"
+  ]
+ },
+ "055": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": true,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lã Bố đội mũ sắt thay vì búi tóc quấn vải, cầm thương thay vì kích có lưỡi bán nguyệt, không có áo choàng rách"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Nhân vật chính tạo hình sai vũ khí và trang phục, cổng thành có mái cong và biển chữ.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lã Bố đội mũ sắt thay vì búi tóc quấn vải, cầm thương thay vì kích có lưỡi bán nguyệt, không có áo choàng rách",
+   "có chữ",
+   "mái Hàn/Nhật"
+  ]
+ },
+ "056": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "Vũ khí sau lưng nhân vật chính lơ lửng không người cầm, mũi kích sai hình dạng"
+  ],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "Thành lũy kiểu pháo đài phương Tây thời Trung cổ"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố đi bộ thay vì cưỡi ngựa, đội mũ giáp sắt thay vì buộc khăn, không có áo choàng rách, không cầm phương thiên họa kích"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Lữ Bố đi bộ và sai lệch nhiều chi tiết trang phục, thành lũy phía xa mang phong cách châu Âu.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: Vũ khí sau lưng nhân vật chính lơ lửng không người cầm, mũi kích sai hình dạng",
+   "sai_thoi: Thành lũy kiểu pháo đài phương Tây thời Trung cổ",
+   "lech_nhan_vat: Lữ Bố đi bộ thay vì cưỡi ngựa, đội mũ giáp sắt thay vì buộc khăn, không có áo choàng rách, không cầm phương th",
+   "có chữ"
+  ]
+ },
+ "057": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đèn treo"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bố cục và nhân vật khá tốt, chỉ có đèn treo tường và hoành phi chữ chưa sát thời Hán.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: đèn treo",
+   "có chữ"
+  ]
+ },
+ "058": {
+  "so_nguoi_thay": 1,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "cửa cuốn",
+   "tay nắm cửa hiện đại",
+   "tường gạch bê tông hiện đại"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố đội mũ giáp kim loại thay vì buộc dải vải, không cầm vũ khí trên tay"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Bối cảnh bị hiện đại hóa với cửa cuốn cùng tường khối hộp, nhân vật không cầm vũ khí.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: cửa cuốn; tay nắm cửa hiện đại; tường gạch bê tông hiện đại",
+   "lech_nhan_vat: Lữ Bố đội mũ giáp kim loại thay vì buộc dải vải, không cầm vũ khí trên tay",
+   "điểm 2/5"
+  ]
+ },
+ "059": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "Lữ Bố cầm giáo thay vì kích có lưỡi nguyệt"
+  ],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đường nhựa"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố đội mũ giáp thay vì dải vải buộc tóc, cầm giáo thường"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Bối cảnh dính lỗi nặng đường nhựa hiện đại có vạch kẻ và nhân vật đi ngược hướng mô tả.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: Lữ Bố cầm giáo thay vì kích có lưỡi nguyệt",
+   "sai_thoi: đường nhựa",
+   "lech_nhan_vat: Lữ Bố đội mũ giáp thay vì dải vải buộc tóc, cầm giáo thường",
+   "điểm 2/5"
+  ]
+ },
+ "060": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "Kích có hai lưỡi nguyệt đối xứng thay vì một lưỡi, lơ lửng không có tay cầm"
+  ],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Viên Thiệu và Lữ Bố đứng bộ thay vì cưỡi ngựa",
+   "Kích của Lữ Bố vẽ hai ngạnh thay vì một"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hai tướng đứng bộ thay vì cưỡi ngựa và họa kích vẽ sai số lưỡi.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: Kích có hai lưỡi nguyệt đối xứng thay vì một lưỡi, lơ lửng không có tay cầm",
+   "lech_nhan_vat: Viên Thiệu và Lữ Bố đứng bộ thay vì cưỡi ngựa; Kích của Lữ Bố vẽ hai ngạnh thay vì một"
+  ]
+ },
+ "061": {
+  "so_nguoi_thay": 1,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [
+   "Vũ khí là giáo thẳng, thiếu lưỡi trăng bán nguyệt của kích"
+  ],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố cầm giáo thay vì phương thiên họa kích (thiếu lưỡi phụ bán nguyệt)"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hình vẽ tốt nhưng vũ khí bị vẽ thành ngọn giáo thay vì kích có lưỡi bán nguyệt.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "vu_khi_sai: Vũ khí là giáo thẳng, thiếu lưỡi trăng bán nguyệt của kích",
+   "lech_nhan_vat: Lữ Bố cầm giáo thay vì phương thiên họa kích (thiếu lưỡi phụ bán nguyệt)"
+  ]
+ },
+ "062": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": true,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": true,
+  "lech_nhan_vat": [
+   "Lữ Bố đội mũ trụ thay vì vấn tóc bằng dải vải, thiếu áo choàng, cầm giáo thường thay vì phương thiên họa kích"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Lữ Bố vẽ sai vũ khí và trang phục mô tả, lính bộ phía trước có giáp mặt giống hệt tướng chính.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lữ Bố đội mũ trụ thay vì vấn tóc bằng dải vải, thiếu áo choàng, cầm giáo thường thay vì phương thiên họa kích",
+   "có chữ",
+   "hai người giống hệt"
+  ]
+ },
+ "063": {
+  "so_nguoi_thay": 4,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "cột điện ven đường",
+   "xe cơ giới/xe tải ở hậu cảnh"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Yuan Shao đứng cầm vũ khí thay vì ngồi trong lều quan sát"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Bối cảnh dính chi tiết hiện đại như cột điện và xe cơ giới, nhân vật không ngồi như mô tả.",
+  "_model": "gemini-flash-latest",
+  "_ly_do": [
+   "sai_thoi: cột điện ven đường; xe cơ giới/xe tải ở hậu cảnh",
+   "lech_nhan_vat: Yuan Shao đứng cầm vũ khí thay vì ngồi trong lều quan sát"
+  ]
+ },
+ "065": {
+  "so_nguoi_thay": 0,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đèn dầu có bóng kính"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Đèn dầu có bóng thủy tinh sai thời đại và nhạc cụ chưa đúng hình dáng cổ cầm.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "sai_thoi: đèn dầu có bóng kính"
+  ]
+ },
+ "066": {
+  "so_nguoi_thay": 6,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 4,
+  "ghi_chu": "Hình ảnh thể hiện tốt cảnh lều trại ban đêm, bố cục và chi tiết ổn.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": []
+ },
+ "068": {
+  "so_nguoi_thay": 8,
+  "tay_chan_thua": [
+   "Lữ Bố có thân dưới biến dị thành chân móng ngựa thay vì cưỡi ngựa"
+  ],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố đội mũ giáp thay vì dải vải, chân biến thành chân ngựa"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 2,
+  "ghi_chu": "Lữ Bố bị lỗi AI dính liền thân thể thành nhân mã với chân móng ngựa.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "tay_chan_thua: Lữ Bố có thân dưới biến dị thành chân móng ngựa thay vì cưỡi ngựa",
+   "lech_nhan_vat: Lữ Bố đội mũ giáp thay vì dải vải, chân biến thành chân ngựa",
+   "điểm 2/5"
+  ]
+ },
+ "069": {
+  "so_nguoi_thay": 9,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Lữ Bố đội mũ giáp kim loại thay vì buộc dải vải, kích cầm dựng đứng thay vì gác ngang đầu gối"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Lữ Bố đội mũ giáp sai mô tả và cầm vũ khí dựng đứng thay vì đặt ngang đùi.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "lech_nhan_vat: Lữ Bố đội mũ giáp kim loại thay vì buộc dải vải, kích cầm dựng đứng thay vì gác ngang đầu gối"
+  ]
+ },
+ "070": {
+  "so_nguoi_thay": 2,
+  "tay_chan_thua": [],
+  "nguoi_nguoc": [],
+  "kiem": [
+   "Cao Cao cầm kiếm trần không có vỏ"
+  ],
+  "vu_khi_sai": [],
+  "chu": false,
+  "mai_han_nhat": false,
+  "sai_thoi": [
+   "đèn lồng gắn cột kiểu cận hiện đại",
+   "chiếu trải sàn kiểu tatami"
+  ],
+  "khong_nen": false,
+  "nguoi_giong_nhau": false,
+  "lech_nhan_vat": [
+   "Cao Cao ngồi cách xa không nắm tay Trương Mạo và cầm kiếm trần thay vì đeo kiếm có vỏ"
+  ],
+  "tre_con": false,
+  "mau_me": false,
+  "lac_de": false,
+  "diem": 3,
+  "ghi_chu": "Hai nhân vật ngồi quá xa nhau, thiếu hành động nắm tay và Cao Cao cầm kiếm trần.",
+  "_model": "gemini-3.8-flash",
+  "_ly_do": [
+   "kiem: Cao Cao cầm kiếm trần không có vỏ",
+   "sai_thoi: đèn lồng gắn cột kiểu cận hiện đại; chiếu trải sàn kiểu tatami",
+   "lech_nhan_vat: Cao Cao ngồi cách xa không nắm tay Trương Mạo và cầm kiếm trần thay vì đeo kiếm có vỏ"
+  ]
+ }
+}

@@ -54,11 +54,6 @@
   "giay": 8.0,
   "khop": 0.97
  },
- "E4_067": {
-  "file_goc": "Soldiers_close_gate_leaves_20261018092949.mp4",
-  "giay": 10.0,
-  "khop": 0.61
- },
  "E4_089": {
   "file_goc": "Man_bowing_with_joined_hands_20261018094037.mp4",
   "giay": 8.0,
@@ -138,5 +133,13 @@
   "file_goc": "Man_walking_past_hungry_peasants_20261018091828.mp4",
   "giay": 8.0,
   "khop": 0.98
+ },
+ "_bo_qua": {
+  "E4_067": {
+   "file_goc": "Soldiers_close_gate_leaves_20261018092949.mp4",
+   "giay": 10.0,
+   "khop": 0.61,
+   "ghi_chu": "BỎ: Veo tự vẽ lại khung đầu, không khớp ảnh 067; dùng ảnh tĩnh 067"
+  }
  }
 }

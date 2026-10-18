@@ -1,5 +1,7 @@
 # Tam Quốc tập gộp 4+5 — Kế hoạch 40 clip Veo (ảnh → video)
 Trạng thái: BẢN NHÁP chờ chủ kênh duyệt. Ảnh nguồn lấy từ `assets/anh_2d/TQ45_V2/` (sau khi thay các ảnh sửa lại ở `TQ45_R1`; clip chỉ làm khi ảnh đã chốt). Không có clip tập 3 vì tập 3 đã dựng xong.
+Cập nhật 18/10: clip E4_067 bị bỏ vì Veo tự vẽ lại khung đầu, cảnh 067 dùng ảnh tĩnh; còn 39 clip.
+
 ## 1. Con số
 | Mục | Giá trị |
 |---|---|
@@ -38,7 +40,7 @@ Rủi ro: tay 13 clip, đám đông 10 clip, an toàn 8 clip, ngựa 9 clip.
 | E4_057 | 057 | Kẻ chạy khỏi Trường An | Viên Thuật quay mặt từ chối Lữ Bố | tay | The seated nobleman slowly turns his head away and raises one hand in refusal; the tall armoured man standing before him stiffens and lowers his eyes; lamp flames flicker; officials stay still. |
 | E4_062 | 062 | Con ngựa Xích Thố | Lữ Bố xông trận phá quân Trương Yên | ngựa | The camera pushes in a little; the red horse and the small band of riders charge forward, the enemy horsemen scatter, dust clouds billow, banners snap in the wind. No one is struck. |
 | E4_066 | 066 | Con ngựa Xích Thố | Trướng đêm với chiếc giường rối, quân xông vào | an toàn | Slow push-in; torchlight flickers across the canvas, the shadows of soldiers move along the wall, the lamp flame flickers; nobody enters the frame. |
-| E4_067 | 067 | Con ngựa Xích Thố | Sáng ra Viên Thiệu cho đóng cửa thành | tay | The soldiers slowly push the two gate leaves shut and lower the bar; the man in the road keeps standing with a grim face; dawn light brightens. |
+| E4_067 (BỎ, dùng ảnh tĩnh) | 067 | Con ngựa Xích Thố | Sáng ra Viên Thiệu cho đóng cửa thành | tay | The soldiers slowly push the two gate leaves shut and lower the bar; the man in the road keeps standing with a grim face; dawn light brightens. |
 | E4_072 | 072 | Bạn cũ của Tào Tháo | Tào Tháo và Trương Mạc nhìn nhau rơi lệ | an toàn | Almost static; slow push-in; the two bearded men stay facing each other, the one in grey slowly lowers his gaze, lamp flames flicker. |
 | E4_076 | 076 | Bạn cũ của Tào Tháo | Lữ Bố được đón vào Duyện Châu | đám đông | Slow push-in; the dusty armoured man walks slowly forward between the lines of people, the two officials bow, the crowd shifts slightly, banners flutter. |
 | E4_084 | 084 | Lời trăn trối | Mi Trúc dẫn người cả châu ra đón, Lưu Bị không dám nhận | tay | The delegation bows lower; the tall slender man slowly shakes his head with both hands raised; the soldiers stand still; dust drifts in the light. |

@@ -153,7 +153,9 @@
    "canh": "Sáng ra Viên Thiệu cho đóng cửa thành",
    "rui_ro": "tay",
    "giay": 6,
-   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The soldiers slowly push the two gate leaves shut and lower the bar; the man in the road keeps standing with a grim face; dawn light brightens."
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The soldiers slowly push the two gate leaves shut and lower the bar; the man in the road keeps standing with a grim face; dawn light brightens.",
+   "bo": true,
+   "ghi_chu": "Bỏ clip (Veo đổi khung đầu), dùng ảnh tĩnh 067"
   },
   {
    "clip": "E4_072",

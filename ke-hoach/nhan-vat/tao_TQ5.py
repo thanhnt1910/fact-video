@@ -182,6 +182,27 @@ FIX = {
  88: NOCHAIR+", "+NOPAPER+", "+NOTXT,
 }
 
+# --- lần 2 (dot=2): câu tả điều CẦN CÓ (mô hình bỏ qua câu cấm) ---
+BARE = "the walls are bare plastered mud with nothing written or drawn on them, hanging cloths are plain solid colour"
+BAM = "bundles of plain narrow bamboo strips tied with cord lie on the low table"
+FIX.update({
+ 3: "light comes from small shallow bronze oil dishes on low stands, hanging cloths are plain solid red and green, the carved dais is a low platform",
+ 22: "the big cloth hanging behind them is plain blank cream cloth with nothing drawn on it; a small shallow bronze oil dish with a tiny flame on a low table; "+BARE,
+ 23: BAM+"; "+BARE+"; a small shallow bronze oil dish with a tiny flame",
+ 25: "he writes with a brush on a long narrow bamboo strip held flat on the table; "+BARE+"; a plain open wooden lattice window",
+ 26: "he holds a closed bamboo-strip bundle tied with cord; the tent walls are plain canvas lit only by daylight",
+ 27: "the four men look down at "+BAM+"; "+BARE+"; flags plain solid green and blue; a small shallow bronze oil dish with a tiny flame",
+ 32: BARE+"; plain cloth hangings of solid dark blue and green",
+ 33: BARE+"; "+BAM+"; a small shallow bronze oil dish with a tiny flame",
+ 41: "he writes with a brush on a long narrow bamboo strip; the wooden post by the door is bare wood; a small shallow bronze oil dish with a tiny flame; he sits on a low stool",
+ 45: "on the low table lie bamboo strips and a two-eared bronze wine cup; "+BARE,
+ 46: "behind him hangs a plain blank cream cloth with nothing on it, a small shallow bronze oil dish on a low table, flags plain solid colour",
+ 54: BARE+"; low tables and straw mats, plain solid-colour hanging cloths",
+ 56: "a small shallow bronze oil dish with a tiny flame lights the low desk; he writes with a brush on a long narrow bamboo strip and sits on a low stool; flag plain solid green",
+ 61: "he writes with a brush on a long narrow bamboo strip; "+BARE,
+ 82: BARE+"; clerks sit on low benches and write on bamboo strips with brushes at long low tables",
+})
+
 BGRULE = "Every picture has a rich detailed background that fits the place and the story (architecture, landscape, tents, banners, hills), never a plain blank or solid-colour backdrop"
 ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt roads and stone paths only (no asphalt, no road markings, no electric poles or wires), "
         "no glass windows (wooden lattice only), no door knobs or handles, no signboards or plaques on gates or buildings, no chairs with backs or modern furniture (people sit on straw mats or low benches), "

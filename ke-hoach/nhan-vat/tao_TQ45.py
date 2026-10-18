@@ -22,9 +22,8 @@ EXTRA = {
 }
 NV = {**tq["nhan_vat"], **t2["nhan_vat_phu"], **t4["trang_phuc"], **t5["trang_phuc"], **EXTRA}
 PK = {**t4["phu_kien"], **t5["phu_kien"]}
-def short(s, n=230):
-    s = s.split(", wearing")[0] if len(s) > n else s
-    return s if len(s) <= n+60 else s[:n].rsplit(",",1)[0]
+def short(s, n=0):
+    return s
 CL = {  # trang phục theo mốc cốt truyện (mã trong TQ4/TQ5_trang_phuc.json)
  "LB": lambda n: "liubei_t4c" if n<=10 else "liubei_t4a" if n<=39 else "liubei_t4b" if n<=83 else "liubei_t4c" if n<=127 else "liubei_t5a" if n<=132 else "liubei_t5b" if n<=163 else "liubei_t5c",
  "QV": lambda n: "quanvu_t4a" if n<=57 else "quanvu_t4b" if n<=127 else "quanvu_t5",
@@ -237,7 +236,14 @@ sc(177,["LB","QV","TP"],"Liu Bei in the centre, Guan Yu on his left, Zhang Fei o
 
 assert sorted(S) == list(range(1,178)), [i for i in range(1,178) if i not in S]
 TRIO = {n for n,(nv,_) in S.items() if {"LB","QV","TP"} <= set(nv)}
-STYLE = "2D ligne claire comic illustration of Eastern Han China, clean dark outlines, flat muted colours, rich detailed background, every person has exactly two arms and two hands, no text."
+HAN2 = ("Setting: Eastern Han China, year 194, plain and rustic. Buildings: thick rammed-earth and grey-brick walls, low heavy grey-tile roofs with a straight ridge and gently sloping eaves, huge red-brown timber pillars, bare unpainted walls, plain bamboo blinds, tiny square windows with a few vertical bars, straw mats and low wooden tables. "
+        "Clothing: crossed-collar wide-sleeved robes (right lapel over left) tied with a cloth sash, officials in black gauze caps, soldiers in leather-and-iron scale armour with pointed-top iron caps and neck guards (never round modern helmets, never green army uniforms), cloth shoes or boots. "
+        "Every banner, wall, screen and scroll is completely blank plain cloth with no marks. Light only from torches or small clay oil lamps on tables, no hanging lanterns. Nobody holds a bare blade unless the story says so; a sword at the hip is fully in its scabbard. "
+        "2D ligne claire comic illustration, clean dark outlines, flat muted earthy colours. A rich detailed background fills the whole wide frame with several people and objects at different depths; every person stands or sits upright with head up, exactly two arms, two hands and two legs, and every face is different. No text, no letters, no frame or border, not a photo, not 3D.")
+HAN2S = ("Eastern Han China, plain rustic: grey-brick and rammed-earth walls, low heavy grey-tile roofs with straight ridges and gently sloping eaves, big timber pillars, bare blank walls, tiny square windows with a few vertical bars and no glass, straw mats, low tables, clay oil lamps and torches only (no hanging lanterns, no candles, no chairs). "
+ "Crossed-collar wide-sleeved robes, black caps, scale armour with pointed iron caps. All banners, scrolls, walls and signs are blank, no text anywhere. Swords stay in scabbards. "
+ "2D ligne claire comic illustration, clean dark outlines, flat muted colours, rich detailed background, every person upright with exactly two arms, two hands and two legs, all faces different.")
+STYLE = HAN2S
 REFD = R/"refs"
 def refs_for(keys):
     names=[]
@@ -250,6 +256,10 @@ def refs_for(keys):
         elif k=="vienthuat": names.append("vienthuat")
     if {"liubei","quanvu","trieuphi"} <= set(names): return []
     return [n for n in dict.fromkeys(names) if (REFD/f"{n}.jpg").exists()][:2]
+RN={"liubei":"Liu Bei","quanvu":"Guan Yu","trieuphi":"Zhang Fei","lubo_cd":"Lu Bu","vienthieu":"Yuan Shao","vienthuat":"Yuan Shu"}
+def RG(rf):
+    if not rf: return ""
+    return "Reference image(s) show the face, hair and beard of "+" and ".join(RN[x] for x in rf)+": keep those faces exactly, but follow the costume, pose and scene written here, and draw everyone else with different faces. "
 canh,out=[],[]
 for n in range(1,178):
     nv,m=S[n]
@@ -273,7 +283,7 @@ for n in range(1,178):
     canh.append({"key":f"{n:03d}","nv":keys,"mo_ta":m})
     rf=refs_for(keys)
     ch=(" Characters: "+"; ".join(descs)+".") if descs else " An empty quiet scene of objects and landscape only."
-    out.append({"key":f"{n:03d}","nv":keys,"refs":rf,"prompt":f"{m}.{ch} {STYLE}"})
+    out.append({"key":f"{n:03d}","nv":keys,"refs":rf,"prompt":f"{m}.{ch} {RG(rf)}{STYLE}"})
 (R/"TQ45.json").write_text(json.dumps({"ma":"TQ45","canh":canh},ensure_ascii=False,indent=1),encoding="utf-8")
 (R/"TQ45_anh.json").write_text(json.dumps(out,ensure_ascii=False,indent=1),encoding="utf-8")
 L=[len(o["prompt"]) for o in out]

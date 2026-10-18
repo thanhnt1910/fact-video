@@ -5,18 +5,34 @@
   🖼️  Ảnh cho video ngắn
   🔍 Kiểm tra 18 ảnh: 3 ảnh lỗi, 2 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-  🎙️  Gemini đọc 9/9 cảnh, mỗi cảnh một sắc thái (15s), tốc độ x1.12
   🪧 1 thẻ thông tin (không phụ đề chạy liên tục)
   ⏱️  62.7 giây · 18 hình · trung bình 3.5 giây/hình · ⚠️ 4 hình đứng quá 4 giây
   🎞️  Số lần: cut 12, hblur 2, fadewhite 2, dissolve 1
-  🎬 Dựng 1883 khung hình (43s)
+  🎬 Dựng 1883 khung hình (42s)
   🔊 Tiếng động: hit, rise
   🔈 Âm lượng cuối: -14.9 LUFS, đỉnh -4.2 dBTP
      ⚠️  không tạo được ảnh bìa: 'str' object has no attribute 'get'
-✅ Xong output/TQ45/TQ45.mp4  (62.7s video, mất 96s)
+✅ Xong output/TQ45/TQ45.mp4  (62.7s video, mất 56s)
 
 Tổng kết: 1 thành công, 0 lỗi, 0 bỏ qua
 
-Xong video ngắn: TQ45 · video dài: -
+===== TQ45 (video dài) =====
+▶️  Video dài TQ45: Lưu Bị có Từ Châu và mất Từ Châu thế nào? Không có "ba lần nhường", không có "say rượu" | Tam Quốc theo chính sử, tập 4
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 18 tranh AI → logs/nguon_anh_TQ45.json
+  🖼️  Ảnh cho video dài
+  🔍 Kiểm tra 177 ảnh: 30 ảnh lỗi, 7 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (19 chương)
+  ⏱️  Thời lượng 22:01 · 177 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+     177/177 ảnh có độ sâu
+  🎞️  39 cảnh có clip chuyển động
+     31726 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (403 giây)
+     … 6/12 đoạn (756 giây)
+     … 9/12 đoạn (1073 giây)
+     … 12/12 đoạn (1108 giây)
+     dựng khung hình xong trong 1109 giây
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
+✅ Video dài: TQ45_dai.mp4 (22:01)
+
+Xong video ngắn: TQ45 · video dài: TQ45

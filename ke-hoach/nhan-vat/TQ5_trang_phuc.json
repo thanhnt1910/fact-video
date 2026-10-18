@@ -1,0 +1,190 @@
+{
+ "ma": "TQ5",
+ "ghi_chu": "Mã trang phục/nhân vật tập 5 (mốc 195-199). NV = {**TQ.json, **TQ2.json nhan_vat_phu, **TQ4_trang_phuc, **TQ5_trang_phuc}. Tạo bởi tao_TQ5.py.",
+ "trang_phuc": {
+  "hiende_t5": "Emperor Xian of Han at about fifteen, a slim serious teenage emperor, tall and thin for his age, pale grave thoughtful face, no beard, hair in a topknot under a small plain black cap, wearing a worn dark cross-collared robe with a plain sash, composed mature bearing, never cute, never a small child",
+  "taotao_t5a": "Cao Cao, a short wiry man of about 41 with sharp clever eyes, a thin moustache and a small beard, dark charcoal cross-collared robe under dark iron scale armour with a dark cloak, the stern look of a general on campaign",
+  "taotao_t5b": "Cao Cao, a short wiry man of about 41 with sharp clever eyes, a thin moustache and a small beard, hair in a topknot under a plain dark cap, wearing a dark charcoal cross-collared robe with a dark sash, a calm commanding look, no insignia",
+  "liubei_t5": "Liu Bei at age 36, a tall slender man in his mid-thirties, calm gentle face, unusually long arms that hang down to his knees, unusually large earlobes, a thin moustache and a short sparse beard of fine hair along the jaw and chin (visibly bearded but much lighter and shorter than a full beard), hair in a topknot under a plain black cap, wearing a long dark-indigo cross-collared robe with slightly worn cuffs, a dark sash and a leather belt, plain dark shoes, a quiet watchful look",
+  "lubo_t5": "Lu Bu, a tall powerfully built man with a strong jaw and sharp eyes, hair in a topknot under a plain iron helmet, wearing cleaned iron scale armour over a dark-red cross-collared robe with a dark-red cloak, the confident bearing of a man who has taken a province",
+  "vienthuat_t5a": "Yuan Shu, a heavy-set proud man of about 40 with a round florid face, a thin moustache and a short beard, hair in a topknot under a tall black official cap, wearing a rich dark-red cross-collared robe with a wide sash over fine light armour, an arrogant impatient look",
+  "vienthuat_t5b": "Yuan Shu, a heavy-set proud man of about 41 with a round florid face, a thin moustache and a short beard, wearing a flat-topped ceremonial crown with hanging bead strings and a black-and-ochre ceremonial robe with a wide sash, an arrogant self-satisfied look",
+  "vienthieu_t5": "Yuan Shao, a handsome tall man of about 42 with a neat short beard, proud composed look, deep-blue official robe over light armour, a black cap",
+  "tonsach_t5": "Sun Ce, a strong athletic young man of twenty with a square jaw, a sun-tanned weathered face, a faint thin moustache, bright determined eyes, hair in a topknot under a plain cloth band, wearing light iron scale armour over a short red-brown tunic, adult proportions, not boyish",
+  "thaisutu_t5": "Taishi Ci, a lean athletic man of about 29 with alert determined eyes, hair in a topknot under a plain cloth band, wearing light leather armour with wrist guards and boots",
+  "truongchieu_t5": "Zhang Zhao, a stern scholar of about forty with a long neat beard, black cap, pale-grey cross-collared scholar's robe with wide sleeves",
+  "chauyu_t5": "Zhou Yu, a handsome calm man of about twenty with clear sharp eyes, hair in a topknot, dark-blue robe over light armour, adult proportions",
+  "trinhduc_t5": "Cheng Yu, a composed tall strategist in his mid-fifties with a long neat beard and steady clear eyes, hair in a topknot under a plain black cap, wearing a sober dark-grey cross-collared robe with a dark sash",
+  "tuanuc_t5": "Xun Yu, a refined slender scholar of about thirty-four with a clean elegant face and a thin moustache, hair in a topknot under a plain scholar's cap, wearing a pale-grey cross-collared robe with wide sleeves and a dark sash",
+  "dongchieu_t5": "Dong Zhao, a lean clever official of about forty with a narrow face and a thin pointed beard, hair in a topknot under a black cap, wearing a plain dark-brown cross-collared robe with a dark sash",
+  "dienvi_t5": "Dian Wei, a gigantic powerfully built bodyguard with a thick neck and a heavy bristly black moustache, hair in a topknot, wearing a sleeveless dark leather jerkin over a dark tunic and thick wrist guards",
+  "truongtu_t5": "Zhang Xiu, a lean angular man of about thirty with sharp narrow eyes and a thin moustache, hair in a topknot under a plain iron helmet, dark iron scale armour over a dark-green tunic",
+  "tranhkhue_t5": "Chen Gui, an elderly official of about sixty with a thin white beard, pale-grey robe with a dark sash, black cap",
+  "duongphung_t5": "Yang Feng, a broad rough soldier-general of about forty with a square weathered face and a short stubbly beard, plain iron helmet, scale armour over a faded brown tunic",
+  "hantiem_t5": "Han Xian, a wiry restless former rebel leader of about forty with a hawkish face and a thin moustache, a cloth headband, rough leather-and-iron armour",
+  "dongthua_t5": "Dong Cheng, a dignified middle-aged commander with a long neat beard, black cap, dark-red robe over scale armour",
+  "truongte_t5": "Zhang Ji, a broad calm general of about forty-five with a trimmed beard, iron helmet, dark armour over a dark-blue tunic",
+  "lythoi_t5": "Li Jue, a heavy-set rough general of about fifty with a wide coarse face and a thick beard, iron scale armour over a dark-red tunic, arrogant bearing",
+  "quachty_t5": "Guo Si, a lean hard general of about forty-five with a hawk nose, a narrow face and a thin moustache, iron scale armour over a dark-brown tunic",
+  "taohong_t5": "Cao Hong, a sturdy loyal general of about thirty-five with a square face and a short beard, iron helmet, dark armour"
+ },
+ "dai_cau": {
+  "hiende_t5": [
+   1,
+   7,
+   8,
+   10,
+   11,
+   13,
+   14,
+   16,
+   17,
+   18,
+   28,
+   29,
+   31,
+   35,
+   86
+  ],
+  "taotao_t5a": [
+   2,
+   20,
+   21,
+   22,
+   23,
+   30,
+   71,
+   72,
+   75,
+   76,
+   77
+  ],
+  "vienthuat_t5a": [
+   3,
+   48,
+   49,
+   50,
+   51,
+   53,
+   78,
+   84
+  ],
+  "lythoi_t5": [
+   5,
+   9
+  ],
+  "quachty_t5": [
+   5,
+   9
+  ],
+  "truongte_t5": [
+   10,
+   79
+  ],
+  "duongphung_t5": [
+   11,
+   26,
+   27,
+   36,
+   62,
+   81
+  ],
+  "dongthua_t5": [
+   11,
+   19,
+   27,
+   32
+  ],
+  "hantiem_t5": [
+   19,
+   27,
+   62,
+   81
+  ],
+  "trinhduc_t5": [
+   21,
+   23,
+   45
+  ],
+  "tuanuc_t5": [
+   23,
+   40,
+   41
+  ],
+  "taohong_t5": [
+   24
+  ],
+  "dongchieu_t5": [
+   25,
+   33,
+   34
+  ],
+  "taotao_t5b": [
+   31,
+   32,
+   33,
+   34,
+   38,
+   40,
+   44,
+   45,
+   46,
+   82,
+   86
+  ],
+  "vienthieu_t5": [
+   37
+  ],
+  "liubei_t5": [
+   44,
+   47,
+   88
+  ],
+  "tonsach_t5": [
+   50,
+   51,
+   56,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70
+  ],
+  "vienthuat_t5b": [
+   52,
+   54,
+   55
+  ],
+  "lubo_t5": [
+   57,
+   58,
+   59,
+   61,
+   62
+  ],
+  "tranhkhue_t5": [
+   58,
+   61
+  ],
+  "thaisutu_t5": [
+   66,
+   67,
+   68
+  ],
+  "chauyu_t5": [
+   69
+  ],
+  "truongchieu_t5": [
+   69
+  ],
+  "truongtu_t5": [
+   72
+  ],
+  "dienvi_t5": [
+   74
+  ]
+ }
+}

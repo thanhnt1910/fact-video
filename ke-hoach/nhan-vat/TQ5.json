@@ -1,0 +1,713 @@
+{
+ "ma": "TQ5",
+ "ghi_chu": "Tập 5: Tào Tháo đón hoàng đế về Hứa, Viên Thuật xưng đế",
+ "canh": [
+  {
+   "key": "001",
+   "nv": [
+    "hiende_t5",
+    "quan"
+   ],
+   "mo_ta": "in a borrowed plain house in burnt Luoyang the young emperor sits on a low bench in a bare room, thin court officials in black caps stand leaning against blackened half-collapsed mud-brick walls, charred beams overhead, cold autumn light, hunger and poverty shown by empty tables"
+  },
+  {
+   "key": "002",
+   "nv": [
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao rides at the head of an army coming from the east along a dusty road toward the grey ruins of Luoyang under an autumn sky, ranks of soldiers and plain dark banners behind him, seen from a low angle, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "003",
+   "nv": [
+    "vienthuat_t5a",
+    "quan"
+   ],
+   "mo_ta": "in a grand hall at Shouchun Yuan Shu stands before an empty low throne on a dais with one hand resting greedily on its arm, a few officials small and silent behind him, lamp light, rich red hangings"
+  },
+  {
+   "key": "004",
+   "nv": [],
+   "mo_ta": "wide aerial view of a central plain with a ruined walled capital city in the middle, two dusty roads leading toward it, one from the east and one from the south, tiny columns of soldiers with plain banners on both roads, soft dusk, no one fighting"
+  },
+  {
+   "key": "005",
+   "nv": [
+    "lythoi_t5",
+    "quachty_t5"
+   ],
+   "mo_ta": "in the burnt courtyard of the Chang'an palace two rival generals in armour stand face to face with proud hostile faces, broken pillars and thin black smoke behind them, tile roofs half collapsed, grey sky"
+  },
+  {
+   "key": "006",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "dry cracked fields around Chang'an in a drought, withered crops and bare trees, thin exhausted villagers sitting and lying along the roadside in ragged hemp clothes, a heavy sad mood, empty ox cart, no corpses shown"
+  },
+  {
+   "key": "007",
+   "nv": [
+    "hiende_t5",
+    "quan",
+    "dan"
+   ],
+   "mo_ta": "in the palace yard officials ladle thin gruel from large clay pots into bowls for a long patient line of thin starving people, steam rising in the cold air, the young emperor watching from a covered porch"
+  },
+  {
+   "key": "008",
+   "nv": [
+    "hiende_t5",
+    "quan"
+   ],
+   "mo_ta": "the young emperor stands beside a big clay pot with a wooden ladle, frowning as he examines the thin gruel, an official kneels pale-faced before him, other officials watch anxiously, wooden dou measures of beans and rice on a low table"
+  },
+  {
+   "key": "009",
+   "nv": [
+    "lythoi_t5",
+    "quachty_t5",
+    "linh"
+   ],
+   "mo_ta": "two rival armies face each other across a burning street of Chang'an with flames and smoke rising from palace roofs, lines of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright behind each general, a tense moment of standoff, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "010",
+   "nv": [
+    "hiende_t5",
+    "truongte_t5",
+    "linh"
+   ],
+   "mo_ta": "the young emperor sits in an ox-drawn open cart leaving the gate of Chang'an toward the east, soldiers with spears marching on both sides with a general riding beside, plain banners, dusty road, summer morning, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "011",
+   "nv": [
+    "hiende_t5",
+    "duongphung_t5",
+    "dongthua_t5",
+    "linh"
+   ],
+   "mo_ta": "beside the roadside cart of the emperor three armoured generals kneel on one knee receiving their commission, soldiers standing with spears behind them, dusty open country, plain banners"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "at night a long low school building beside the road burns with tall flames and thick smoke, guards in iron helmets forming a protective line around a covered cart in the foreground, a dramatic fire light on their faces, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "013",
+   "nv": [
+    "hiende_t5",
+    "quan"
+   ],
+   "mo_ta": "the emperor's party sleeps in an open field at night under stars, tired officials huddled on straw mats around a small camp fire, torn plain banners, a covered cart in the background, cold exhausted mood"
+  },
+  {
+   "key": "014",
+   "nv": [
+    "babat",
+    "hungno",
+    "hiende_t5"
+   ],
+   "mo_ta": "in an open field a leader of the White Wave rebels in rough leather armour and a Xiongnu king in a felt hat and fur-trimmed robe kneel before the emperor, who stands tired but dignified, a few soldiers behind them, dusty light, plain banners"
+  },
+  {
+   "key": "015",
+   "nv": [
+    "kybinh",
+    "babat",
+    "linh"
+   ],
+   "mo_ta": "a long line of Xiongnu horsemen, rebels and Han soldiers draws up against pursuers on a plain, ranks with plain banners, dust, seen from behind and above, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "016",
+   "nv": [
+    "hiende_t5",
+    "quan",
+    "linh"
+   ],
+   "mo_ta": "at night the emperor and a few officials descend a steep bank of the Yellow River to wooden boats, soldiers carrying torches and lowering carts, a wide dark river and distant bank, a tense escape, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "017",
+   "nv": [
+    "hiende_t5"
+   ],
+   "mo_ta": "at dawn the emperor, a lonely slim young figure, stands at the small gate of the walled town of Anyi looking back across the wide river, a few guards behind him, thin mist, a modest wooden gate with a plain flag"
+  },
+  {
+   "key": "018",
+   "nv": [
+    "hiende_t5",
+    "quan"
+   ],
+   "mo_ta": "at Anyi the emperor performs a sacrifice to Heaven at an earthen altar in the open air, officials kneeling in rows, incense smoke rising, plain banners, a new year of reign being proclaimed, winter morning light"
+  },
+  {
+   "key": "019",
+   "nv": [
+    "hantiem_t5",
+    "dongthua_t5",
+    "linh"
+   ],
+   "mo_ta": "inside a camp two generals, Han Xian and Dong Cheng, stand glaring at each other with their soldiers lined up behind each of them, spears still upright, a tense quarrel before a fight, tents and banners, grey light, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "020",
+   "nv": [
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "in the command tent at Yanzhou Cao Cao sits at a low table with bamboo-slip scrolls, officers standing around him, one hand at his chin, thinking deeply, plain dark banners and tent poles, lamp light"
+  },
+  {
+   "key": "021",
+   "nv": [
+    "taotao_t5a",
+    "trinhduc_t5"
+   ],
+   "mo_ta": "in a lamp-lit tent Cheng Yu speaks earnestly to Cao Cao with one hand raised, Cao Cao listening with a stern face, a small oil dish on a low table"
+  },
+  {
+   "key": "022",
+   "nv": [
+    "taotao_t5a",
+    "tuongquan",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao stands before a council of generals in the camp tent, some with arms crossed and doubtful faces, a hanging cloth map behind them, lamp light, serious mood"
+  },
+  {
+   "key": "023",
+   "nv": [
+    "taotao_t5a",
+    "tuanuc_t5",
+    "trinhduc_t5"
+   ],
+   "mo_ta": "Xun Yu and Cheng Yu stand together urging Cao Cao across a low table with a bamboo-slip map, Cao Cao turning toward them with interest, lamp light"
+  },
+  {
+   "key": "024",
+   "nv": [
+    "taohong_t5",
+    "linh"
+   ],
+   "mo_ta": "Cao Hong leads a column of soldiers westward along a mountain road seen from behind, far ahead a narrow pass held by blockers with tiny banners on the rocks, plain dark banners, windy afternoon, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "025",
+   "nv": [
+    "dongchieu_t5",
+    "quan"
+   ],
+   "mo_ta": "Dong Zhao sits at a low desk by a clay oil lamp writing a letter with a brush on a bamboo slip, concentrating, bamboo slips and an ink stone beside him, a wooden lattice window with no glass"
+  },
+  {
+   "key": "026",
+   "nv": [
+    "duongphung_t5",
+    "quan"
+   ],
+   "mo_ta": "in a camp tent Yang Feng reads a letter with a pleased surprised face while an official stands beside him, tent walls and a spear rack, warm lamp light"
+  },
+  {
+   "key": "027",
+   "nv": [
+    "duongphung_t5",
+    "hantiem_t5",
+    "dongthua_t5",
+    "quan"
+   ],
+   "mo_ta": "the three generals Yang Feng, Han Xian and Dong Cheng together with officials gather around a low table to write a petition on a bamboo-slip scroll, tent interior, lamp light"
+  },
+  {
+   "key": "028",
+   "nv": [
+    "hiende_t5",
+    "linh"
+   ],
+   "mo_ta": "in summer the emperor and his escort arrive at the walls of burnt Luoyang along a dusty road, blackened ruined towers ahead, soldiers marching, plain banners, an ox cart in the middle, a mood of return to a ruined home, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "029",
+   "nv": [
+    "hiende_t5"
+   ],
+   "mo_ta": "a plain modest house in the middle of ruins, the young emperor sits alone on a low bench in the courtyard where weeds grow between broken stones, burned walls around him, autumn light"
+  },
+  {
+   "key": "030",
+   "nv": [
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao's army marches toward the broken gate of Luoyang in autumn, ranks of soldiers and plain dark banners, ruined walls ahead, seen from behind and slightly above, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "031",
+   "nv": [
+    "hiende_t5",
+    "taotao_t5b",
+    "quan"
+   ],
+   "mo_ta": "in the ruined hall of Luoyang the young emperor hands Cao Cao a bamboo staff with hanging tassels, a sign of delegated authority, officials watching, charred pillars, soft light"
+  },
+  {
+   "key": "032",
+   "nv": [
+    "taotao_t5b",
+    "dongthua_t5",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao seated on a low dais in a hall announces rewards to kneeling officials while at the dark side of the hall two other officials are quietly led away by guards, shadows and long light, a double-edged mood, no violence"
+  },
+  {
+   "key": "033",
+   "nv": [
+    "dongchieu_t5",
+    "taotao_t5b"
+   ],
+   "mo_ta": "Dong Zhao leans toward Cao Cao and whispers advice over a hanging cloth map in a lamp-lit room, Cao Cao listening with narrowed eyes"
+  },
+  {
+   "key": "034",
+   "nv": [
+    "dongchieu_t5",
+    "taotao_t5b"
+   ],
+   "mo_ta": "Cao Cao frowns and rests a hand on his chin while Dong Zhao explains a plan with a pointing finger toward the east on a cloth map, lamp light"
+  },
+  {
+   "key": "035",
+   "nv": [
+    "hiende_t5",
+    "linh"
+   ],
+   "mo_ta": "at dawn the emperor's party leaves a mountain pass toward the east, an ox cart and soldiers marching on both sides along a narrow road between steep hills, plain banners, mist, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "036",
+   "nv": [
+    "duongphung_t5",
+    "linh"
+   ],
+   "mo_ta": "Yang Feng rides away from his camp at dusk with a bitter face and a few riders, while far behind him the ranks of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright advance toward his camp with plain dark banners, dust, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "037",
+   "nv": [
+    "vienthieu_t5",
+    "quan"
+   ],
+   "mo_ta": "in a hall Yuan Shao turns his head away in proud displeasure and pushes aside a lacquered edict box offered by a kneeling envoy, officials watching, rich blue hangings"
+  },
+  {
+   "key": "038",
+   "nv": [
+    "taotao_t5b",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao bows slightly and hands a small bronze seal on a ribbon cord back to an envoy in a hall, officials watching, wooden pillars, a calm clever expression"
+  },
+  {
+   "key": "039",
+   "nv": [
+    "dan",
+    "linh"
+   ],
+   "mo_ta": "wide fields near Xu in spring where soldiers and peasants work together, ploughs pulled by oxen, men carrying seed baskets, a big granary with a thatched roof in the background, green hills, peaceful and productive, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "040",
+   "nv": [
+    "taotao_t5b",
+    "tuanuc_t5"
+   ],
+   "mo_ta": "in a modest timber hall of Xu Cao Cao hands a rolled bamboo-slip appointment to Xun Yu who bows to receive it, wooden pillars and plain cloth screens, morning light"
+  },
+  {
+   "key": "041",
+   "nv": [
+    "tuanuc_t5"
+   ],
+   "mo_ta": "Xun Yu sits alone at a desk piled with bamboo-slip scrolls writing replies by an oil lamp, a rider waiting with a sealed letter at the door, night, quiet and busy"
+  },
+  {
+   "key": "042",
+   "nv": [
+    "quan",
+    "dan"
+   ],
+   "mo_ta": "scholars and officers in plain robes arrive on foot and on carts through the gate of the new capital of Xu, townsfolk watching, a busy dirt street with low tiled-roof buildings, morning light"
+  },
+  {
+   "key": "043",
+   "nv": [
+    "kybinh",
+    "dan"
+   ],
+   "mo_ta": "a rider leaves the gate of Xu carrying a sealed decree box with a plain flag, townsfolk and farmers on the road stopping to watch him pass, dust, a wide plain beyond"
+  },
+  {
+   "key": "044",
+   "nv": [
+    "liubei_t5",
+    "taotao_t5b",
+    "quan"
+   ],
+   "mo_ta": "at the gate of Xu Cao Cao greets Liu Bei with joined hands as Liu Bei arrives with a small weary band of soldiers, officials and townsfolk watching, a warm but watchful meeting"
+  },
+  {
+   "key": "045",
+   "nv": [
+    "taotao_t5b",
+    "trinhduc_t5"
+   ],
+   "mo_ta": "in a lamp-lit room Cheng Yu whispers to Cao Cao who slowly shakes his head, a low table with a wine cup and bamboo slips"
+  },
+  {
+   "key": "046",
+   "nv": [
+    "taotao_t5b"
+   ],
+   "mo_ta": "Cao Cao stands alone at night before a hanging cloth map studying the south-east, one hand behind his back, a clay oil lamp on a low table, shadows"
+  },
+  {
+   "key": "047",
+   "nv": [
+    "liubei_t5",
+    "linh"
+   ],
+   "mo_ta": "Liu Bei rides at the head of a small army toward the south-east along a long road across plains at golden hour, plain banners and soldiers behind him, a river in the distance, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "048",
+   "nv": [
+    "vienthuat_t5a",
+    "quan"
+   ],
+   "mo_ta": "Yuan Shu stands proudly before the grand wooden gate of his family mansion at Shouchun with servants and officials lined up at the steps, red hangings, a rich old house with grey tiles"
+  },
+  {
+   "key": "049",
+   "nv": [
+    "vienthuat_t5a",
+    "linh"
+   ],
+   "mo_ta": "a wide view of the walled city of Shouchun with large army camps on the plain, Yuan Shu on the gate-tower with soldiers on the wall, plain banners, grey sky, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "050",
+   "nv": [
+    "tonsach_t5",
+    "vienthuat_t5a",
+    "quan"
+   ],
+   "mo_ta": "in the hall at Shouchun young Sun Ce stands bowing with only a few men behind him before the seated Yuan Shu, rich red hangings, officials watching, an ordinary humble arrival"
+  },
+  {
+   "key": "051",
+   "nv": [
+    "vienthuat_t5a",
+    "tonsach_t5",
+    "linh"
+   ],
+   "mo_ta": "Yuan Shu points at ranks of Han soldiers in plain iron helmets and leather-and-iron scale armour over dull red-brown tunics, spears upright lined up in a yard as if handing them over, while Sun Ce stands outside the hall at the side looking thoughtful and disappointed, plain banners, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "052",
+   "nv": [
+    "vienthuat_t5b",
+    "quan"
+   ],
+   "mo_ta": "Yuan Shu in a black-and-ochre ceremonial robe and a flat-topped crown with bead strings sits proudly on a dais in a hall, officials kneeling and bowing before him, a grand but hollow ceremony, red hangings"
+  },
+  {
+   "key": "053",
+   "nv": [
+    "vienthuat_t5a",
+    "quan"
+   ],
+   "mo_ta": "Yuan Shu in front of a bronze incense tripod at the side of a hall listens to an old diviner who points to the sky, officials around them, smoke rising"
+  },
+  {
+   "key": "054",
+   "nv": [
+    "vienthuat_t5b",
+    "dan"
+   ],
+   "mo_ta": "inside a lavish hall Yuan Shu feasts with rows of dancing women and musicians while at the open gate in the rain a line of starving peasants in rags stands looking in, a sharp contrast of plenty and hunger"
+  },
+  {
+   "key": "055",
+   "nv": [
+    "vienthuat_t5b",
+    "quan"
+   ],
+   "mo_ta": "an elderly adviser bows deeply before Yuan Shu who sits impatiently on his dais with a cold face, other officials silent, lamp light"
+  },
+  {
+   "key": "056",
+   "nv": [
+    "tonsach_t5"
+   ],
+   "mo_ta": "Sun Ce sits at a low desk by a lamp writing a firm letter on a bamboo slip, a determined face, a spear rack and a lattice window behind him, night"
+  },
+  {
+   "key": "057",
+   "nv": [
+    "lubo_t5",
+    "quan"
+   ],
+   "mo_ta": "in the governor's hall of Xu Province Lu Bu sits in armour and a dark-red cloak at the head of a table, officials seated along the walls, wooden pillars and oil lamps, a confident look"
+  },
+  {
+   "key": "058",
+   "nv": [
+    "lubo_t5",
+    "tranhkhue_t5",
+    "quan"
+   ],
+   "mo_ta": "an elderly adviser, Chen Gui, whispers earnestly to Lu Bu while at the far end of the hall a decorated bridal cart waits in the courtyard with an envoy standing by, lamp light"
+  },
+  {
+   "key": "059",
+   "nv": [
+    "lubo_t5",
+    "linh",
+    "quan"
+   ],
+   "mo_ta": "an envoy in a wooden neck-board is led by guards through a market square toward the gate while Lu Bu watches coldly from a platform, townspeople watching in silence, grey tiled roofs, no violence"
+  },
+  {
+   "key": "060",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "the market square of Xu seen from a corner, a crowd of townspeople looking quietly toward a tall empty wooden pole in the middle of the square, hushed and uneasy, grey tiled roofs, nothing hanging on it"
+  },
+  {
+   "key": "061",
+   "nv": [
+    "lubo_t5",
+    "tranhkhue_t5",
+    "tranang_t4"
+   ],
+   "mo_ta": "Lu Bu writes a letter at a low desk while Chen Gui and his son Chen Deng stand beside him, Chen Deng holding a sealed message box, lamp light, wooden pillars"
+  },
+  {
+   "key": "062",
+   "nv": [
+    "lubo_t5",
+    "duongphung_t5",
+    "hantiem_t5",
+    "linh"
+   ],
+   "mo_ta": "Lu Bu's army with two allied generals Yang Feng and Han Xian drives back a retreating enemy force across a plain, ranks of soldiers and plain banners, dust, seen from a hill, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "063",
+   "nv": [
+    "tonsach_t5"
+   ],
+   "mo_ta": "Sun Ce stands alone on a riverbank at dawn looking north across the wide Yangtze river with a rolled letter in his hand, mist over the water, a few soldiers waiting behind him"
+  },
+  {
+   "key": "064",
+   "nv": [
+    "tonsach_t5",
+    "linh"
+   ],
+   "mo_ta": "Sun Ce with a few hundred soldiers and horses crosses the wide Yangtze river on wooden boats and rafts at dawn, soldiers poling, horses on the boats, plain banners, mist, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "065",
+   "nv": [
+    "tonsach_t5",
+    "linh"
+   ],
+   "mo_ta": "Sun Ce stands at the open gate of a granary with soldiers carrying grain sacks out, a large thatched storehouse and stacked baskets, bright morning, a hill road behind them, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "066",
+   "nv": [
+    "tonsach_t5",
+    "thaisutu_t5"
+   ],
+   "mo_ta": "two young horsemen meet in a sudden duel on a muddy road near a river, Sun Ce thrusting at the horse of Taishi Ci and grabbing a small halberd while Taishi Ci seizes Sun Ce's helmet, dust flying, dramatic angle, no blood, no injury"
+  },
+  {
+   "key": "067",
+   "nv": [
+    "tonsach_t5",
+    "thaisutu_t5",
+    "linh"
+   ],
+   "mo_ta": "in a camp Sun Ce personally unties the ropes from the hands of Taishi Ci and holds his arm with a half smile, soldiers watching around them, tents and banners, morning light"
+  },
+  {
+   "key": "068",
+   "nv": [
+    "tonsach_t5",
+    "thaisutu_t5"
+   ],
+   "mo_ta": "Sun Ce laughs and clasps the arm of Taishi Ci, handing him a general's token, soldiers cheering behind them, a bright camp, plain banners"
+  },
+  {
+   "key": "069",
+   "nv": [
+    "tonsach_t5",
+    "chauyu_t5",
+    "truongchieu_t5"
+   ],
+   "mo_ta": "in a hall at Jiangdong Sun Ce stands with the scholar Zhang Zhao and the handsome young Zhou Yu around a low table with a bamboo-slip map, warm lamp light, wooden pillars, three different faces"
+  },
+  {
+   "key": "070",
+   "nv": [
+    "tonsach_t5",
+    "quan",
+    "linh"
+   ],
+   "mo_ta": "Sun Ce on a hill overlooking the green land of Jiangdong with soldiers in ranks behind him, an envoy handing him a rolled appointment, plain banners, a river valley below, golden light, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "071",
+   "nv": [
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao's army marches in winter toward the walls of Wan, a city in the plains of the south, ranks of soldiers and plain dark banners, thin snow on the road, seen from behind and above, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "072",
+   "nv": [
+    "truongtu_t5",
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "in a camp Zhang Xiu kneels in surrender before Cao Cao who sits in armour with a calm satisfied face, soldiers standing around them, tents and plain banners, winter light"
+  },
+  {
+   "key": "073",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "at night a large camp with wooden fences and tents catches fire, tall flames and smoke, silhouettes of soldiers running with torches in the dark, a sudden attack on a sleeping camp, no one struck or killed, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "074",
+   "nv": [
+    "dienvi_t5"
+   ],
+   "mo_ta": "Dian Wei, a gigantic bodyguard with a thick neck and bristly moustache, stands at the gate of a camp fence seen from behind with a heavy halberd in both hands, blocking a rush of dark torchlit shapes beyond, flames in the background, no blood"
+  },
+  {
+   "key": "075",
+   "nv": [
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao rides away in the dark on a galloping horse with a few riders around him, torchlight and flames far behind, dust, an arrow stuck in the saddle, no blood, desperate escape"
+  },
+  {
+   "key": "076",
+   "nv": [
+    "taotao_t5a",
+    "quan"
+   ],
+   "mo_ta": "at dawn in camp Cao Cao stands bareheaded and weeping before a plain wooden coffin on a low bier, officers and soldiers bowing their heads around him, thin mist, grief and silence"
+  },
+  {
+   "key": "077",
+   "nv": [
+    "taotao_t5a",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao leads an army eastward across the plain of Chen at the head of ranks of soldiers with plain dark banners, a long road and river in the distance, decisive, seen from a low angle, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "078",
+   "nv": [
+    "vienthuat_t5a",
+    "linh"
+   ],
+   "mo_ta": "at dusk Yuan Shu hurries onto wooden boats at the bank of the Huai river with a few riders while soldiers stand confused on the bank behind him, plain banners, grey water, a king abandoning his army, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "079",
+   "nv": [
+    "truongte_t5",
+    "linh"
+   ],
+   "mo_ta": "Zhang Ji leads a small column of soldiers along a road at dawn toward a southern walled town, ranks of soldiers and plain banners, mist on the river, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "080",
+   "nv": [],
+   "mo_ta": "the deserted ruined streets of Chang'an in grey light, a fallen plain banner lying on the ground beside abandoned wooden carts, burnt walls, no people at all, a mood of emptiness after power"
+  },
+  {
+   "key": "081",
+   "nv": [
+    "duongphung_t5",
+    "hantiem_t5"
+   ],
+   "mo_ta": "at a fork in a dusty road at dusk two riders, Yang Feng and Han Xian, part ways and ride off in different directions, a tall dead tree between the two roads, solitary mood"
+  },
+  {
+   "key": "082",
+   "nv": [
+    "taotao_t5b",
+    "quan"
+   ],
+   "mo_ta": "in a hall of Xu Cao Cao sits at a long table with piles of bamboo-slip scrolls while officials and clerks work in rows with brushes, rice and food on a side table, an orderly bustling court that contrasts with ruin"
+  },
+  {
+   "key": "083",
+   "nv": [],
+   "mo_ta": "a lonely small house at dusk beside a river, a single clay oil lamp glowing in a lattice window, empty road, late summer light, a place far from the capital, no people visible"
+  },
+  {
+   "key": "084",
+   "nv": [
+    "vienthuat_t5a"
+   ],
+   "mo_ta": "Yuan Shu sits alone on a plain low bed in a nearly empty hall with a small bowl of dry barley before him, sighing heavily with a hand over his face, an empty throne seat far in the shadows, dim light, no blood"
+  },
+  {
+   "key": "085",
+   "nv": [
+    "dan",
+    "linh"
+   ],
+   "mo_ta": "a small group of women and children with a few bundles and an ox cart walks along a quiet road away from a city, heads down, with a few soldiers of a young general watching from a roadside, early morning, a humble end, no gore, no blood, no one being struck or killed, soldiers with small simple faces"
+  },
+  {
+   "key": "086",
+   "nv": [
+    "hiende_t5",
+    "taotao_t5b",
+    "quan"
+   ],
+   "mo_ta": "in the hall of Xu the young emperor sits on a low dais with Cao Cao standing at the side holding a bamboo-slip scroll, officials in rows below, wooden pillars, a calm outward order with an unspoken tension"
+  },
+  {
+   "key": "087",
+   "nv": [],
+   "mo_ta": "an empty ceremonial dais in a dusty dark hall with a flat-topped crown with bead strings lying alone on a low seat, cobwebs and dust, a single beam of light, a hollow throne"
+  },
+  {
+   "key": "088",
+   "nv": [
+    "liubei_t5"
+   ],
+   "mo_ta": "Liu Bei sits alone at a low table at night in a room at Xu with a bamboo-slip scroll and a clay oil lamp, looking toward a wooden lattice window with no glass where dark mountains show in the starlight, thoughtful and watchful"
+  }
+ ]
+}

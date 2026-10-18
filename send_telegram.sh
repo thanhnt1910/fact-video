@@ -101,9 +101,10 @@ if [ -s ci_long.txt ] && [ "$POST_ONLY" != "yes" ]; then
     if blocked "$id" dai; then block_msg "$id" "video dài" dai; continue; fi
     if python3 da_gui.py check "$id" dai; then echo "Bỏ qua $id (video dài): đã gửi trước đó, đặt GUI_LAI=yes nếu muốn gửi lại"; continue; fi
     dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" < /dev/null)
-    vb=$(python3 -c "print(max(300, int(44*8*1024/float('$dur') - 96)))")
-    ffmpeg -nostdin -loglevel error -y -i "$f" -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${vb}k \
-      -maxrate ${vb}k -bufsize $((vb*2))k -c:a aac -b:a 96k "output/$id/${id}_dai_tg.mp4"
+    vb=$(python3 -c "print(max(100, int(45*8*1024/float('$dur') - 72)))")   # tổng dưới 50MB của Telegram, kể cả video dài 20+ phút
+    ffmpeg -nostdin -loglevel error -y -i "$f" -vf scale=960:-2 -c:v libx264 -preset veryfast -b:v ${vb}k \
+      -maxrate ${vb}k -bufsize $((vb*2))k -c:a aac -b:a 64k "output/$id/${id}_dai_tg.mp4"
+    echo "Bản xem trước $id: $(du -m "output/$id/${id}_dai_tg.mp4" | cut -f1) MB"
     link="https://github.com/${GITHUB_REPOSITORY}/releases/tag/video-${id}${HAU_TO}"
     code=$(curl -s -o /dev/null -w "%{http_code}" -F chat_id="$TG_CHAT" -F supports_streaming=true \
       -F video=@"output/$id/${id}_dai_tg.mp4" \

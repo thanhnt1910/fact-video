@@ -21,7 +21,7 @@ Rủi ro: tay 13 clip, đám đông 10 clip, an toàn 8 clip, ngựa 9 clip.
 ## 3. Tiền tố dán vào MỌI prompt
 
 `Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion:`
-## 4. 40 clip
+## 4. Veo: 40 clip
 | Clip | Ảnh | Chương | Cảnh chính | Rủi ro | Prompt chuyển động (dán sau tiền tố) |
 |---|---|---|---|---|---|
 | E4_001 | 001 | Mở đầu | Đào Khiêm đưa hộp ấn cho Lưu Bị, Lưu Bị giơ tay từ chối | tay | The elderly white-bearded man slowly holds the lacquered box a little further toward the tall slender man in the dark robe, who slowly shakes his head and keeps both palms raised; the kneeling officials stay still; lamp flames flicker. |

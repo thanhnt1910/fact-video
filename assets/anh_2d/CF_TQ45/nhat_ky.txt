@@ -1,0 +1,183 @@
+có 5 tài khoản Cloudflare
+tk 1 hết lượt
+tk 2 hết lượt
+tk 3 hết lượt
+tk 4 hết lượt
+001_a: OK (1 ảnh mẫu, tk 5)
+002_a: OK (1 ảnh mẫu, tk 5)
+003_a: OK (1 ảnh mẫu, tk 5)
+004_a: OK (0 ảnh mẫu, tk 5)
+005_a: OK (0 ảnh mẫu, tk 5)
+006_a: OK (1 ảnh mẫu, tk 5)
+007_a: OK (1 ảnh mẫu, tk 5)
+008_a: OK (0 ảnh mẫu, tk 5)
+009_a: OK (1 ảnh mẫu, tk 5)
+010_a: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (edc026df-3316-4354-90b7-a5067986c95b)","code":3030}],"success":false,"result":{},"messages":[]}
+011_a: OK (1 ảnh mẫu, tk 5)
+012_a: OK (1 ảnh mẫu, tk 5)
+013_a: OK (1 ảnh mẫu, tk 5)
+014_a: OK (0 ảnh mẫu, tk 5)
+015_a: OK (1 ảnh mẫu, tk 5)
+016_a: OK (1 ảnh mẫu, tk 5)
+017_a: OK (1 ảnh mẫu, tk 5)
+018_a: OK (0 ảnh mẫu, tk 5)
+019_a: OK (2 ảnh mẫu, tk 5)
+020_a: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (ff8017dd-8720-4ab3-979e-f4b273dce302)","code":3030}],"success":false,"result":{},"messages":[]}
+021_a: OK (1 ảnh mẫu, tk 5)
+022_a: OK (0 ảnh mẫu, tk 5)
+023_a: OK (0 ảnh mẫu, tk 5)
+024_a: OK (1 ảnh mẫu, tk 5)
+025_a: OK (1 ảnh mẫu, tk 5)
+026_a: OK (1 ảnh mẫu, tk 5)
+027_a: OK (0 ảnh mẫu, tk 5)
+028_a: OK (0 ảnh mẫu, tk 5)
+029_a: OK (1 ảnh mẫu, tk 5)
+030_a: OK (0 ảnh mẫu, tk 5)
+031_a: OK (0 ảnh mẫu, tk 5)
+032_a: OK (0 ảnh mẫu, tk 5)
+033_a: OK (0 ảnh mẫu, tk 5)
+034_a: OK (0 ảnh mẫu, tk 5)
+035_a: OK (0 ảnh mẫu, tk 5)
+036_a: OK (0 ảnh mẫu, tk 5)
+037_a: OK (0 ảnh mẫu, tk 5)
+038_a: OK (0 ảnh mẫu, tk 5)
+039_a: OK (0 ảnh mẫu, tk 5)
+040_a: OK (0 ảnh mẫu, tk 5)
+041_a: OK (1 ảnh mẫu, tk 5)
+042_a: OK (1 ảnh mẫu, tk 5)
+043_a: OK (1 ảnh mẫu, tk 5)
+044_a: OK (0 ảnh mẫu, tk 5)
+045_a: OK (1 ảnh mẫu, tk 5)
+046_a: OK (1 ảnh mẫu, tk 5)
+047_a: OK (1 ảnh mẫu, tk 5)
+048_a: OK (1 ảnh mẫu, tk 5)
+049_a: OK (0 ảnh mẫu, tk 5)
+050_a: OK (0 ảnh mẫu, tk 5)
+051_a: OK (0 ảnh mẫu, tk 5)
+052_a: OK (1 ảnh mẫu, tk 5)
+053_a: OK (1 ảnh mẫu, tk 5)
+054_a: OK (0 ảnh mẫu, tk 5)
+055_a: OK (1 ảnh mẫu, tk 5)
+056_a: OK (1 ảnh mẫu, tk 5)
+057_a: OK (2 ảnh mẫu, tk 5)
+058_a: OK (1 ảnh mẫu, tk 5)
+059_a: OK (1 ảnh mẫu, tk 5)
+060_a: OK (2 ảnh mẫu, tk 5)
+061_a: OK (1 ảnh mẫu, tk 5)
+062_a: OK (1 ảnh mẫu, tk 5)
+063_a: OK (2 ảnh mẫu, tk 5)
+064_a: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (4b9e1dc9-5e0b-4134-abfd-11b9db266cd0)","code":3030}],"success":false,"result":{},"messages":[]}
+065_a: OK (0 ảnh mẫu, tk 5)
+066_a: OK (0 ảnh mẫu, tk 5)
+067_a: HTTP 400 {"errors":[{"message":"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (31520875-c9bd-4f77-b6b9-76c68438e473)","code":3030}],"success":false,"result":{},"messages":[]}
+068_a: OK (1 ảnh mẫu, tk 5)
+069_a: OK (1 ảnh mẫu, tk 5)
+070_a: OK (0 ảnh mẫu, tk 5)
+tk 5 hết lượt
+071_a: hết tài khoản
+072_a: hết tài khoản
+073_a: hết tài khoản
+074_a: hết tài khoản
+075_a: hết tài khoản
+076_a: hết tài khoản
+077_a: hết tài khoản
+078_a: hết tài khoản
+079_a: hết tài khoản
+080_a: hết tài khoản
+081_a: hết tài khoản
+082_a: hết tài khoản
+083_a: hết tài khoản
+084_a: hết tài khoản
+085_a: hết tài khoản
+086_a: hết tài khoản
+087_a: hết tài khoản
+088_a: hết tài khoản
+089_a: hết tài khoản
+090_a: hết tài khoản
+091_a: hết tài khoản
+092_a: hết tài khoản
+093_a: hết tài khoản
+094_a: hết tài khoản
+095_a: hết tài khoản
+096_a: hết tài khoản
+097_a: hết tài khoản
+098_a: hết tài khoản
+099_a: hết tài khoản
+100_a: hết tài khoản
+101_a: hết tài khoản
+102_a: hết tài khoản
+103_a: hết tài khoản
+104_a: hết tài khoản
+105_a: hết tài khoản
+106_a: hết tài khoản
+107_a: hết tài khoản
+108_a: hết tài khoản
+109_a: hết tài khoản
+110_a: hết tài khoản
+111_a: hết tài khoản
+112_a: hết tài khoản
+113_a: hết tài khoản
+114_a: hết tài khoản
+115_a: hết tài khoản
+116_a: hết tài khoản
+117_a: hết tài khoản
+118_a: hết tài khoản
+119_a: hết tài khoản
+120_a: hết tài khoản
+121_a: hết tài khoản
+122_a: hết tài khoản
+123_a: hết tài khoản
+124_a: hết tài khoản
+125_a: hết tài khoản
+126_a: hết tài khoản
+127_a: hết tài khoản
+128_a: hết tài khoản
+129_a: hết tài khoản
+130_a: hết tài khoản
+131_a: hết tài khoản
+132_a: hết tài khoản
+133_a: hết tài khoản
+134_a: hết tài khoản
+135_a: hết tài khoản
+136_a: hết tài khoản
+137_a: hết tài khoản
+138_a: hết tài khoản
+139_a: hết tài khoản
+140_a: hết tài khoản
+141_a: hết tài khoản
+142_a: hết tài khoản
+143_a: hết tài khoản
+144_a: hết tài khoản
+145_a: hết tài khoản
+146_a: hết tài khoản
+147_a: hết tài khoản
+148_a: hết tài khoản
+149_a: hết tài khoản
+150_a: hết tài khoản
+151_a: hết tài khoản
+152_a: hết tài khoản
+153_a: hết tài khoản
+154_a: hết tài khoản
+155_a: hết tài khoản
+156_a: hết tài khoản
+157_a: hết tài khoản
+158_a: hết tài khoản
+159_a: hết tài khoản
+160_a: hết tài khoản
+161_a: hết tài khoản
+162_a: hết tài khoản
+163_a: hết tài khoản
+164_a: hết tài khoản
+165_a: hết tài khoản
+166_a: hết tài khoản
+167_a: hết tài khoản
+168_a: hết tài khoản
+169_a: hết tài khoản
+170_a: hết tài khoản
+171_a: hết tài khoản
+172_a: hết tài khoản
+173_a: hết tài khoản
+174_a: hết tài khoản
+175_a: hết tài khoản
+176_a: hết tài khoản
+177_a: hết tài khoản

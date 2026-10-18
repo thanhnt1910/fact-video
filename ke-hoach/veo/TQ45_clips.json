@@ -1,0 +1,366 @@
+{
+ "ma": "TQ45",
+ "tien_to": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: ",
+ "clips": [
+  {
+   "clip": "E4_001",
+   "anh": "assets/anh_2d/TQ45_V2/001.jpg",
+   "chuong": "Mở đầu",
+   "canh": "Đào Khiêm đưa hộp ấn cho Lưu Bị, Lưu Bị giơ tay từ chối",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Tao Qian slowly holds the lacquered box a little further toward Liu Bei, who slowly shakes his head and keeps both palms raised; the kneeling officials stay still; lamp flames flicker."
+  },
+  {
+   "clip": "E4_002",
+   "anh": "assets/anh_2d/TQ45_V2/002.jpg",
+   "chuong": "Mở đầu",
+   "canh": "Lưu Bị từ chối trên bậc đá, cả châu quỳ van xin",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Liu Bei bows his head and straightens, the crowd below stays kneeling and a few heads sway slightly; morning light shifts on the rooftops."
+  },
+  {
+   "clip": "E4_016",
+   "anh": "assets/anh_2d/TQ45_V2/016.jpg",
+   "chuong": "Tướng nhỏ ở Bình Nguyên",
+   "canh": "Người khách thú nhận không dám giết Lưu Bị",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; the kneeling man bows his head lower, Liu Bei turns his face slightly toward him with a surprised look; lamp flame flickers."
+  },
+  {
+   "clip": "E4_020",
+   "anh": "assets/anh_2d/TQ45_V2/020.jpg",
+   "chuong": "Tướng nhỏ ở Bình Nguyên",
+   "canh": "Ba anh em ngủ chung giường trong lều",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Almost static; the three sleepers breathe slowly with the blankets rising a little, the lamp flame flickers and the tent canvas moves gently in the night air. Nobody wakes or moves their arms."
+  },
+  {
+   "clip": "E4_022",
+   "anh": "assets/anh_2d/TQ45_V2/022.jpg",
+   "chuong": "Lời cầu cứu đầu tiên",
+   "canh": "Thái Sử Từ phi ngựa tới Bình Nguyên cầu viện",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Taishi Ci slowly steps down from the tired horse, which lowers its head and breathes; the guards hurry a few steps toward him; dust settles; thin smoke drifts on the horizon."
+  },
+  {
+   "clip": "E4_027",
+   "anh": "assets/anh_2d/TQ45_V2/027.jpg",
+   "chuong": "Lời cầu cứu đầu tiên",
+   "canh": "Quân cứu viện kéo đến, giặc nhổ trại chạy",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The column marches slowly away from the camera along the road behind the red banner, dust rises, the distant tents are struck and the besiegers retreat; the soldiers keep their number and formation."
+  },
+  {
+   "clip": "E4_030",
+   "anh": "assets/anh_2d/TQ45_V2/030.jpg",
+   "chuong": "Món nợ của Tào Tháo",
+   "canh": "Tào Tháo trong trướng, tay đặt lên chuôi kiếm",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Cao Cao keeps his hand on the sword hilt and slowly turns his head toward the officers, who stand still; lamp flames flicker."
+  },
+  {
+   "clip": "E4_036",
+   "anh": "assets/anh_2d/TQ45_V2/036.jpg",
+   "chuong": "Món nợ của Tào Tháo",
+   "canh": "Tào Tháo dẫn quân đánh Từ Châu",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The camera tracks sideways; Cao Cao's horse walks forward at the head of the long army, banners ripple, dust drifts up from the road."
+  },
+  {
+   "clip": "E4_040",
+   "anh": "assets/anh_2d/TQ45_V2/040.jpg",
+   "chuong": "Lời cầu cứu thứ hai",
+   "canh": "Sứ giả trao thư khẩn cho Điền Giai",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The courier slowly holds out the rolled letter and Tian Kai takes it with one hand; the officers lean in slightly; banners flutter in the grey morning."
+  },
+  {
+   "clip": "E4_042",
+   "anh": "assets/anh_2d/TQ45_V2/042.jpg",
+   "chuong": "Lời cầu cứu thứ hai",
+   "canh": "Doanh trại nhỏ của Lưu Bị, dân đói nhận lương",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Liu Bei walks slowly between the people, the hungry peasants shuffle forward in line, camp fire smoke rises, horses stand calmly."
+  },
+  {
+   "clip": "E4_048",
+   "anh": "assets/anh_2d/TQ45_V2/048.jpg",
+   "chuong": "Lời cầu cứu thứ hai",
+   "canh": "Lưu Bị nhận ấn thứ sử Dự Châu ở Tiểu Bái",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The official slowly holds out the small seal on its cord and Liu Bei bows his head and takes it with both hands; the assembled soldiers stand still; banners flutter."
+  },
+  {
+   "clip": "E4_055",
+   "anh": "assets/anh_2d/TQ45_V2/055.jpg",
+   "chuong": "Kẻ chạy khỏi Trường An",
+   "canh": "Lữ Bố rút khỏi Trường An khi quân địch tràn vào",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Lu Bu turns his horse and rides slowly away along the wall, his small band follows, smoke drifts across the sky; the enemy soldiers far away keep pouring through the gate."
+  },
+  {
+   "clip": "E4_056",
+   "anh": "assets/anh_2d/TQ45_V2/056.jpg",
+   "chuong": "Kẻ chạy khỏi Trường An",
+   "canh": "Lữ Bố cùng vài trăm kỵ ra Vũ Quan",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow tracking from the side; the riders walk through the pass toward the distant gate, lowered banners hang, dust rises, evening light dims."
+  },
+  {
+   "clip": "E4_057",
+   "anh": "assets/anh_2d/TQ45_V2/057.jpg",
+   "chuong": "Kẻ chạy khỏi Trường An",
+   "canh": "Viên Thuật quay mặt từ chối Lữ Bố",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Yuan Shu slowly turns his head away and raises one hand in refusal; Lu Bu stands stiff and lowers his eyes; lamp flames flicker; officials stay still."
+  },
+  {
+   "clip": "E4_062",
+   "anh": "assets/anh_2d/TQ45_V2/062.jpg",
+   "chuong": "Con ngựa Xích Thố",
+   "canh": "Lữ Bố xông trận phá quân Trương Yên",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The camera pushes in a little; Lu Bu's red horse and the small band charge forward, the enemy horsemen scatter, dust clouds billow, banners snap in the wind. No one is struck."
+  },
+  {
+   "clip": "E4_066",
+   "anh": "assets/anh_2d/TQ45_V2/066.jpg",
+   "chuong": "Con ngựa Xích Thố",
+   "canh": "Trướng đêm với chiếc giường rối, quân xông vào",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; torchlight flickers across the canvas, the shadows of soldiers move along the wall, the lamp flame flickers; nobody enters the frame."
+  },
+  {
+   "clip": "E4_067",
+   "anh": "assets/anh_2d/TQ45_V2/067.jpg",
+   "chuong": "Con ngựa Xích Thố",
+   "canh": "Sáng ra Viên Thiệu cho đóng cửa thành",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The soldiers slowly push the two gate leaves shut and lower the bar; Yuan Shao keeps standing with a grim face; dawn light brightens."
+  },
+  {
+   "clip": "E4_072",
+   "anh": "assets/anh_2d/TQ45_V2/072.jpg",
+   "chuong": "Bạn cũ của Tào Tháo",
+   "canh": "Tào Tháo và Trương Mạc nhìn nhau rơi lệ",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Almost static; slow push-in; the two men stay facing each other, Zhang Miao slowly lowers his gaze, lamp flames flicker."
+  },
+  {
+   "clip": "E4_076",
+   "anh": "assets/anh_2d/TQ45_V2/076.jpg",
+   "chuong": "Bạn cũ của Tào Tháo",
+   "canh": "Lữ Bố được đón vào Duyện Châu",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Lu Bu walks slowly forward between the lines of people, Zhang Miao and Chen Gong bow, the crowd shifts slightly, banners flutter."
+  },
+  {
+   "clip": "E4_084",
+   "anh": "assets/anh_2d/TQ45_V2/084.jpg",
+   "chuong": "Lời trăn trối",
+   "canh": "Mi Trúc dẫn người cả châu ra đón, Lưu Bị không dám nhận",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Mi Zhu and the delegation bow lower; Liu Bei slowly shakes his head with both hands raised; the soldiers stand still; dust drifts in the light."
+  },
+  {
+   "clip": "E4_085",
+   "anh": "assets/anh_2d/TQ45_V2/085.jpg",
+   "chuong": "Những người khuyên",
+   "canh": "Trần Đăng khuyên Lưu Bị nhận Từ Châu",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Chen Deng slowly moves his raised hand as he speaks, Liu Bei listens and gives a small nod; the elders behind stay still; lamp flames flicker."
+  },
+  {
+   "clip": "E4_089",
+   "anh": "assets/anh_2d/TQ45_V2/089.jpg",
+   "chuong": "Những người khuyên",
+   "canh": "Lưu Bị chắp tay nhận Từ Châu trước cổng thành",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Liu Bei bows slightly with joined hands and straightens, the people around him bow and a few raise their arms; banners flutter in the dawn light."
+  },
+  {
+   "clip": "E4_096",
+   "anh": "assets/anh_2d/TQ45_V2/096.jpg",
+   "chuong": "Ba lần nhường, hay",
+   "canh": "Lưu Bị nghe Trần Đăng và Khổng Dung bàn",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Liu Bei keeps his hand at his chin and slowly nods, the two advisers lean slightly toward him; lamp flames flicker."
+  },
+  {
+   "clip": "E4_106",
+   "anh": "assets/anh_2d/TQ45_V2/106.jpg",
+   "chuong": "Món quà có độc",
+   "canh": "Tào Tháo trên đồi nhìn về Từ Châu",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in from behind; Cao Cao keeps his arm pointing, a cold wind moves his cloak and the banners, the evening light dims."
+  },
+  {
+   "clip": "E4_114",
+   "anh": "assets/anh_2d/TQ45_V2/114.jpg",
+   "chuong": "Kết cục ở Duyện Châu",
+   "canh": "Tào Tháo phi ngựa qua lửa",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The camera tracks sideways; Cao Cao's horse gallops through the corridor of flames, his cloak flies, smoke and dust billow. No injury."
+  },
+  {
+   "clip": "E4_118",
+   "anh": "assets/anh_2d/TQ45_V2/118.jpg",
+   "chuong": "Kết cục ở Duyện Châu",
+   "canh": "Quân Tào Tháo vây Ung Khâu",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow crane-like push-in; smoke rises from the hill fortress, banners ripple, the soldiers around the walls stand in their ranks."
+  },
+  {
+   "clip": "E4_120",
+   "anh": "assets/anh_2d/TQ45_V2/120.jpg",
+   "chuong": "Kết cục ở Duyện Châu",
+   "canh": "Lữ Bố thua, cùng kỵ binh phi về phía đông",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow tracking behind the riders; Lu Bu's red horse leads at a trot, dust rises, lowered banners flutter, the first sunlight brightens the distant walls."
+  },
+  {
+   "clip": "E4_124",
+   "anh": "assets/anh_2d/TQ45_V2/124.jpg",
+   "chuong": "Người cho nương nhờ",
+   "canh": "Lữ Bố mời Lưu Bị ngồi trên giường của vợ, vợ rót rượu",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The wife slowly tilts the clay jar and pours wine into the cup, Lu Bu smiles and gestures slightly with one hand, Liu Bei sits still; lamp flames flicker."
+  },
+  {
+   "clip": "E4_132",
+   "anh": "assets/anh_2d/TQ45_V2/132.jpg",
+   "chuong": "Hạ Bì",
+   "canh": "Lữ Bố đưa kỵ binh tới cổng Hạ Bì trong đêm",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The camera pushes in slowly; the cavalry advance at a walk, the gate slowly opens, torches flicker on the gate-tower, Lu Bu keeps his halberd upright."
+  },
+  {
+   "clip": "E4_133",
+   "anh": "assets/anh_2d/TQ45_V2/133.jpg",
+   "chuong": "Hạ Bì",
+   "canh": "Lưu Bị rút quân về Hải Tây",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow tracking along the river bank; the weary column walks forward with lowered banners, mist drifts over the water; the number of soldiers stays the same."
+  },
+  {
+   "clip": "E4_138",
+   "anh": "assets/anh_2d/TQ45_V2/138.jpg",
+   "chuong": "Hạ Bì",
+   "canh": "Quân Lữ Bố tới chân thành, cổng mở toang",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The long column advances slowly along the road toward the camera, the gates swing fully open, dust rises, banners flutter in the dawn wind. No one is struck."
+  },
+  {
+   "clip": "E4_139",
+   "anh": "assets/anh_2d/TQ45_V2/139.jpg",
+   "chuong": "Hạ Bì",
+   "canh": "Lữ Bố ngồi trên cổng, kỵ binh phóng lửa",
+   "rui_ro": "ngựa",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow tilt up; the three riders gallop through the gate with torches, flames and smoke rise behind the wall, banners snap, Lu Bu stays upright on the tower. No one is struck."
+  },
+  {
+   "clip": "E4_146",
+   "anh": "assets/anh_2d/TQ45_V2/146.jpg",
+   "chuong": "Cầu hòa và Tiểu Bái",
+   "canh": "Lưu Bị đứng ngoài cổng Tiểu Bái nhìn về Hạ Bì",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in from behind; Liu Bei stays standing and slowly lowers his head, the wind moves his sleeves and the banner far away, dusk light dims."
+  },
+  {
+   "clip": "E4_152",
+   "anh": "assets/anh_2d/TQ45_V2/152.jpg",
+   "chuong": "Bắn kích viên môn",
+   "canh": "Kỷ Linh dẫn ba vạn quân tiến đánh Tiểu Bái",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: The camera cranes up slowly; the vast army advances across the plain toward the small town, banners ripple, dust rises in long clouds."
+  },
+  {
+   "clip": "E4_159",
+   "anh": "assets/anh_2d/TQ45_V2/159.jpg",
+   "chuong": "Bắn kích viên môn",
+   "canh": "Lữ Bố giương cung bắn kích",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Lu Bu slowly draws the bow a little further and holds still, the generals watch with amazed faces and lean slightly; banners flutter. He does not release the arrow."
+  },
+  {
+   "clip": "E4_164",
+   "anh": "assets/anh_2d/TQ45_V2/164.jpg",
+   "chuong": "Chạy sang Tào",
+   "canh": "Tào Tháo đón Lưu Bị ở cổng trại",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Cao Cao and Liu Bei slowly bow with joined hands and straighten; the lined-up soldiers stay still; lamp flames flicker; the grain carts creak slightly forward."
+  },
+  {
+   "clip": "E4_166",
+   "anh": "assets/anh_2d/TQ45_V2/166.jpg",
+   "chuong": "Chạy sang Tào",
+   "canh": "Tào Tháo lắc đầu, không giết Lưu Bị",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Cao Cao slowly shakes his head once, his hand stays on the table; the lamp flame flickers; the tent wall sways slightly."
+  },
+  {
+   "clip": "E4_174",
+   "anh": "assets/anh_2d/TQ45_V2/174.jpg",
+   "chuong": "Lời kết",
+   "canh": "Tào Tháo đón thiên tử về phía đông",
+   "rui_ro": "đám đông",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow tracking; the procession moves forward along the road, the cart rolls slowly, Cao Cao walks beside it, banners flutter in the dawn light, dust rises."
+  },
+  {
+   "clip": "E4_176",
+   "anh": "assets/anh_2d/TQ45_V2/176.jpg",
+   "chuong": "Lời kết",
+   "canh": "Tào Tháo và Lưu Bị ngồi đối diện uống rượu",
+   "rui_ro": "tay",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in; Cao Cao slowly raises his cup a little and Liu Bei does the same with a polite nod; lamp flames flicker; the officials along the wall stay still."
+  },
+  {
+   "clip": "E4_177",
+   "anh": "assets/anh_2d/TQ45_V2/177.jpg",
+   "chuong": "Lời kết",
+   "canh": "Ba anh em nhìn về kinh đô sáng rực lúc chiều tà",
+   "rui_ro": "an toàn",
+   "giay": 6,
+   "prompt": "Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines and exactly the same characters, faces, clothes, weapons and number of people, arms and hands. No new people, no new objects, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion: Slow push-in from behind; the three brothers stay standing, banners ripple strongly in the wind, their sleeves and robes sway, the glow of the far capital flickers. They do not move their arms."
+  }
+ ]
+}

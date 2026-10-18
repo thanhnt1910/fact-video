@@ -241,7 +241,7 @@ HAN2 = ("Setting: Eastern Han China, year 194, plain and rustic. Buildings: thic
         "Every banner, wall, screen and scroll is completely blank plain cloth with no marks. Light only from torches or small clay oil lamps on tables, no hanging lanterns. Nobody holds a bare blade unless the story says so; a sword at the hip is fully in its scabbard. "
         "2D ligne claire comic illustration, clean dark outlines, flat muted earthy colours. A rich detailed background fills the whole wide frame with several people and objects at different depths; every person stands or sits upright with head up, exactly two arms, two hands and two legs, and every face is different. No text, no letters, no frame or border, not a photo, not 3D.")
 HAN2S = ("Eastern Han China, plain rustic: grey-brick and rammed-earth walls, low heavy grey-tile roofs with straight ridges and gently sloping eaves, big timber pillars, bare blank walls, tiny square windows with a few vertical bars and no glass, straw mats, low tables, clay oil lamps and torches only (no hanging lanterns, no candles, no chairs). "
- "Crossed-collar wide-sleeved robes, black caps, scale armour with pointed iron caps. All banners, scrolls, walls and signs are blank, no text anywhere. Swords stay in scabbards. "
+ "Crossed-collar wide-sleeved robes, black caps, scale armour with pointed iron caps. All banners, scrolls, walls and signs are blank, no text anywhere. Nobody holds a drawn blade; any sword at a hip is hidden in its scabbard. Gate plaques, hanging banners and cloths are plain blank. "
  "2D ligne claire comic illustration, clean dark outlines, flat muted colours, rich detailed background, every person upright with exactly two arms, two hands and two legs, all faces different.")
 STYLE = HAN2S
 REFD = R/"refs"
@@ -269,8 +269,7 @@ for n in range(1,178):
         d=short(NV[k])
         for pre,w in WP.items():
             if k.startswith(pre): d+=", "+w
-        if k.startswith("liubei"): d+=", one straight sword sheathed in a plain scabbard at his hip"
-        if k.startswith("taotao"): d+=", a straight sword fully sheathed at his waist"
+        if k.startswith("liubei") or k.startswith("taotao"): d+=", empty hands, no weapon"
         if k=="liubei_t5a" and n>=128: d+=", "+PK["an_tran_dong"]
         if k=="liubei_t5c" and n>=164: d+=", "+PK["an_du_chau_muc"]
         if k=="lubo_t5d": d+=", "+PK["dai_tu_chau_thu_su"]

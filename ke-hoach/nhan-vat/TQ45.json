@@ -32,7 +32,7 @@
   {
    "key": "005",
    "nv": [],
-   "mo_ta": "a tall wooden shelf full of tied bamboo-slip scrolls in a Han archive room, one scroll unrolled on a low table beside a clay oil lamp, a small square window with wooden bars showing hills, no people"
+   "mo_ta": "a tall wooden shelf full of tied bamboo-slip scrolls in a Han archive room, one scroll unrolled on a low table beside a clay oil lamp, a small square window with wooden bars showing hills; the room is completely empty, absolutely no people or figures anywhere"
   },
   {
    "key": "006",
@@ -728,7 +728,7 @@
   {
    "key": "094",
    "nv": [],
-   "mo_ta": "the stone gate of a Han government compound with plain timber pillars and a grey tiled roof, a bronze seal on a low wooden stand before the gate, a courtyard with paving stones, no signboard, no people"
+   "mo_ta": "the stone gate of a Han government compound with plain timber pillars and a grey tiled roof, a bronze seal on a low wooden stand before the gate, a courtyard with paving stones; the courtyard is completely empty, absolutely no people or figures anywhere"
   },
   {
    "key": "095",
@@ -813,7 +813,7 @@
   {
    "key": "105",
    "nv": [],
-   "mo_ta": "a long dirt road winding from a small county gate through hills and rivers to a distant great walled city, the road drawn as a golden thread, early morning light, no people"
+   "mo_ta": "a long dirt road winding from a small county gate through hills and rivers to a distant great walled city, the road drawn as a golden thread, early morning light; completely empty landscape, absolutely no people or figures anywhere"
   },
   {
    "key": "106",
@@ -986,7 +986,7 @@
     "liubei_t4c",
     "lubo_t5c"
    ],
-   "mo_ta": "a map-like view: Liu Bei in the city in the middle, a southern city with a banner at the bottom, a northern camp at the top with dark banners and Lu Bu's quarters just inside the city wall, three dangers around one man"
+   "mo_ta": "inside a Han city courtyard Liu Bei stands calmly at the left while Lu Bu, in cleaner armour with his halberd, stands confidently at the right as the real master of the house, plain blank dark banners behind, a single frame, no banner text"
   },
   {
    "key": "128",
@@ -1161,18 +1161,17 @@
   {
    "key": "150",
    "nv": [
-    "vienthuat",
-    "lubo_t5d"
+    "vienthuat"
    ],
-   "mo_ta": "two separate small scenes in one frame: in the left, a tall pile of grain sacks outside a storehouse (two hundred thousand measures), in the right Lu Bu reading a bamboo-slip letter in his tent with a satisfied look, lamp light"
+   "mo_ta": "Yuan Shu stands proudly in a storehouse yard in front of a tall stack of grain sacks, pointing a finger forward with a satisfied look, plain blank sacks, a single full-frame picture, no panels, no border"
   },
   {
    "key": "151",
    "nv": [
-    "liubei_t5b",
-    "vienthuat"
+    "vienthuat",
+    "liubei_t5b"
    ],
-   "mo_ta": "split view: on the left Liu Bei at a window smiling humbly at the thought of a scholar's praise, on the right the proud Yuan Shu in a hall dismissively waving a hand, two men seeing the same name in opposite ways, lamp light"
+   "mo_ta": "in one frame the proud Yuan Shu in the foreground waves a hand dismissively with a smirk, and far behind him in the background small Liu Bei stands humbly at a gate, a single full-frame picture, no panels, no border"
   },
   {
    "key": "152",

@@ -119,7 +119,7 @@ def make_plate(src, fit, crop=None):
 # ------------------------------------------------------------------ lớp tĩnh vẽ bằng trình duyệt
 JS_PREP = """
 () => {
-  for (const id of ['imgs','shade','lamp','noise','vig','brand','label','card'])
+  for (const id of ['imgs','shade','lamp','noise','vig','brand','logo','label','card'])
     document.getElementById(id).style.display = 'none';
   document.documentElement.style.background = 'transparent';
   document.body.style.background = 'transparent';
@@ -127,7 +127,7 @@ JS_PREP = """
 }"""
 JS_SHOW = """
 (a) => {
-  for (const id of ['imgs','shade','lamp','noise','vig','brand','label','card'])
+  for (const id of ['imgs','shade','lamp','noise','vig','brand','logo','label','card'])
     document.getElementById(id).style.display = a.show.includes(id) ? '' : 'none';
   if (a.lamp != null) document.getElementById('lamp').style.opacity = a.lamp;
   if (a.noise) document.getElementById('noise').style.transform = `translate(${a.noise[0]}px, ${a.noise[1]}px)`;
@@ -163,7 +163,7 @@ def render_layers(page, channel, labels, cards, work):
 
     for k in range(LAMP_LEVELS):
         lv = 0.68 + 0.24 * k / (LAMP_LEVELS - 1)
-        out["lamp"].append(snap(f"ov_{k}.png", show=["shade", "lamp", "vig", "brand"], lamp=lv))
+        out["lamp"].append(snap(f"ov_{k}.png", show=["shade", "lamp", "vig", "brand", "logo"], lamp=lv))
     for k in range(NOISE_VARIANTS):
         f = k * 7 + 3
         out["noise"].append(snap(f"noise_{k}.png", show=["noise"], noise=[(f * 37) % 80 - 40, (f * 53) % 80 - 40]))

@@ -867,6 +867,9 @@ def write_caption(script, cfg, out_dir, used_ai):
              f"Tiêu đề YouTube Shorts: {script['title'][:95]}",
              "Tag YouTube: " + ", ".join(script.get("tu_khoa") or [t.lstrip("#") for t in script.get("hashtags", [])]),
              *__import__("binh_luan").lines(script, "ngan"), "",
+             *(["════ ENGLISH — tiêu đề + mô tả tiếng Anh (YouTube Shorts / Facebook / TikTok) ════",
+                "Title: " + (N.get("title_en") or "")[:95], "Description:", N["caption_en"], "", tags, ""]
+               if N.get("caption_en") else []),
              "════ GHI CHÚ (không đăng) ════", "Nhớ bật nhãn \"Nội dung do AI tạo\" khi đăng.",
              "Các phiên bản hook khác để thử:"] + [f"- {h}" for h in N.get("hooks", [])] + \
         ["Nguồn kiểm chứng:"] + [f"- {s}" for s in script.get("sources", [])]

@@ -1074,5 +1074,181 @@
     "Lưu ý: một số chi tiết lấy từ nguồn thứ cấp, hình ảnh là tranh minh họa."
    ]
   }
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Trong tiểu thuyết, Lưu Bị có Từ Châu nhờ ba lần từ chối, rồi mất nó vì một chén rượu. Nhưng sử chép: không có cả hai.",
+   "voice": "Trong tiểu thuyết, Lưu Bị có Từ Châu nhờ ba lần từ chối, rồi mất nó vì một chén rượu. Nhưng sử chép: không có cả hai."
+  },
+  {
+   "type": "text",
+   "text": "Trước đó, ông chỉ là một tướng nhỏ giữ Bình Nguyên, chức thấp, ít ai nhớ tên.",
+   "voice": "Trước đó, ông chỉ là một tướng nhỏ giữ Bình Nguyên, chức thấp, ít ai nhớ tên."
+  },
+  {
+   "type": "text",
+   "text": "Rồi ông hai lần đi cứu người. Một lần chia ba nghìn quân giải vây cho danh sĩ Khổng Dung. Một lần tự mình đi cứu Từ Châu, khi Tào Tháo kéo quân tới báo thù cho cha.",
+   "voice": "Rồi ông hai lần đi cứu người. Một lần chia ba nghìn quân giải vây cho danh sĩ Khổng Dung. Một lần tự mình đi cứu Từ Châu, khi Tào Tháo kéo quân tới báo thù cho cha."
+  },
+  {
+   "type": "text",
+   "text": "Đào Khiêm lâm bệnh, nói rằng ngoài Lưu Bị ra, không ai giữ yên được Từ Châu. Cả châu ra đón, nhưng Lưu Bị không dám nhận.",
+   "voice": "Đào Khiêm lâm bệnh, nói rằng ngoài Lưu Bị ra, không ai giữ yên được Từ Châu. Cả châu ra đón, nhưng Lưu Bị không dám nhận."
+  },
+  {
+   "type": "text",
+   "text": "Không có ba lần nhường. Có một nhà buôn giàu, một người ở Hạ Bì và một danh sĩ khuyên ông nhận. Đó là cuộc tính toán của cả một châu.",
+   "voice": "Không có ba lần nhường. Có một nhà buôn giàu, một người ở Hạ Bì và một danh sĩ khuyên ông nhận. Đó là cuộc tính toán của cả một châu."
+  },
+  {
+   "type": "text",
+   "text": "Rồi Lữ Bố, kẻ bị cả Viên Thuật lẫn Viên Thiệu từ chối, chạy tới xin nương nhờ. Lưu Bị cho ở lại.",
+   "voice": "Rồi Lữ Bố, kẻ bị cả Viên Thuật lẫn Viên Thiệu từ chối, chạy tới xin nương nhờ. Lưu Bị cho ở lại."
+  },
+  {
+   "type": "text",
+   "text": "Khi ông bận cự Viên Thuật suốt một tháng, tướng giữ Hạ Bì mở cổng đón Lữ Bố. Không có chén rượu nào cả.",
+   "voice": "Khi ông bận cự Viên Thuật suốt một tháng, tướng giữ Hạ Bì mở cổng đón Lữ Bố. Không có chén rượu nào cả."
+  },
+  {
+   "type": "text",
+   "text": "Lữ Bố bắt cả gia quyến của ông. Cuối cùng, Lưu Bị phải chạy sang chính Tào Tháo, người từng đánh Từ Châu vì thù cha.",
+   "voice": "Lữ Bố bắt cả gia quyến của ông. Cuối cùng, Lưu Bị phải chạy sang chính Tào Tháo, người từng đánh Từ Châu vì thù cha."
+  },
+  {
+   "type": "text",
+   "text": "Nhưng mưu sĩ của Tào Tháo bảo nên giết ông ngay. Tháo có nghe không? Sử thật… lạ hơn cả truyện.",
+   "voice": "Nhưng mưu sĩ của Tào Tháo bảo nên giết ông ngay. Tháo có nghe không? Sử thật… lạ hơn cả truyện."
+  }
+ ],
+ "ngan": {
+  "hook_text": "Lưu Bị mất Từ Châu\n**không phải vì chén rượu**",
+  "hooks": [
+   "Trong tiểu thuyết, Lưu Bị mất Từ Châu vì một chén rượu. Nhưng sử chép là một chuyện khác."
+  ],
+  "caption": "Trong tiểu thuyết, Lưu Bị được Từ Châu nhờ ba lần từ chối và mất nó vì một chén rượu. Sử chép khác hẳn. Tam Quốc theo chính sử, tập 4 🏯",
+  "caption_en": "In the novel, Liu Bei gets Xu Province through three polite refusals and loses it over a cup of wine. The historical record tells a very different story: no triple refusal, no drunken Zhang Fei. Three Kingdoms by the real history, episode 4. Narrated in Vietnamese with an AI voice; turn on English subtitles (CC).",
+  "title_en": "Liu Bei didn't lose Xu Province over a cup of wine | Three Kingdoms, the real history",
+  "bia": {
+   "anh": "assets/anh_2d/TQ45_V2/177.jpg",
+   "nen": "assets/anh_2d/TQ45_V2/002.jpg",
+   "huy_hieu": "TAM QUỐC CHÍNH SỬ · TẬP 4",
+   "dong1": "KHÔNG PHẢI",
+   "dong2": "CHÉN RƯỢU",
+   "gach": true,
+   "dong3": "Lưu Bị mất Từ Châu thế nào?"
+  },
+  "anh_bia": "assets/anh_2d/TQ45_V2/177.jpg",
+  "beats": [
+   {
+    "loai_canh": "hook",
+    "text": "Trong tiểu thuyết, Lưu Bị có Từ Châu nhờ ba lần từ chối, rồi mất nó vì một chén rượu. Nhưng sử chép: không có cả hai.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/002.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/003.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "boi_canh",
+    "text": "Trước đó, ông chỉ là một tướng nhỏ giữ Bình Nguyên, chức thấp, ít ai nhớ tên.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/012.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/014.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Rồi ông hai lần đi cứu người. Một lần chia ba nghìn quân giải vây cho danh sĩ Khổng Dung. Một lần tự mình đi cứu Từ Châu, khi Tào Tháo kéo quân tới báo thù cho cha.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/027.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/041.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Đào Khiêm lâm bệnh, nói rằng ngoài Lưu Bị ra, không ai giữ yên được Từ Châu. Cả châu ra đón, nhưng Lưu Bị không dám nhận.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/082.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/084.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Không có ba lần nhường. Có một nhà buôn giàu, một người ở Hạ Bì và một danh sĩ khuyên ông nhận. Đó là cuộc tính toán của cả một châu.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/090.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/091.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "leo_thang",
+    "text": "Rồi Lữ Bố, kẻ bị cả Viên Thuật lẫn Viên Thiệu từ chối, chạy tới xin nương nhờ. Lưu Bị cho ở lại.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/121.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/124.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Khi ông bận cự Viên Thuật suốt một tháng, tướng giữ Hạ Bì mở cổng đón Lữ Bố. Không có chén rượu nào cả.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/138.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/139.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "cu_lat",
+    "text": "Lữ Bố bắt cả gia quyến của ông. Cuối cùng, Lưu Bị phải chạy sang chính Tào Tháo, người từng đánh Từ Châu vì thù cha.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/146.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/164.jpg"
+     }
+    ]
+   },
+   {
+    "loai_canh": "vong_lap",
+    "text": "Nhưng mưu sĩ của Tào Tháo bảo nên giết ông ngay. Tháo có nghe không? Sử thật… lạ hơn cả truyện.",
+    "images": [
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/165.jpg"
+     },
+     {
+      "anh_file": "assets/anh_2d/TQ45_V2/174.jpg"
+     }
+    ]
+   }
+  ]
  }
 }

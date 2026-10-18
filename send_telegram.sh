@@ -110,7 +110,8 @@ if [ -s ci_long.txt ] && [ "$POST_ONLY" != "yes" ]; then
       -F caption="🎬 VIDEO DÀI $id (bản xem trước 720p). Bản 1080p, ảnh bìa, phụ đề ($id.en_US.srt): $link" "$api/sendVideo")
     echo "Gửi video dài $id: $code"
     [ "$code" = "200" ] && python3 da_gui.py mark "$id" dai
-    python3 tg_text.py "output/$id/${id}_dai_youtube.txt" "📝 NỘI DUNG ĐĂNG $id (video dài)"
+    python3 tg_text.py "output/$id/${id}_dai_youtube.txt" "📝 NỘI DUNG ĐĂNG $id (video dài, tiếng Việt)"
+    [ -f "output/$id/${id}_dai_youtube_en.txt" ] && python3 tg_text.py "output/$id/${id}_dai_youtube_en.txt" "📝 CONTENT $id (long video, English)"
     send_covers "🖼️ Ảnh bìa video dài $id: _dai_thumbnail = YouTube, _dai_thumbnail_fb = Facebook" \
       "output/$id/${id}_dai_thumbnail.jpg" "output/$id/${id}_dai_thumbnail_fb.jpg"
   done < ci_long.txt

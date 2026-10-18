@@ -822,6 +822,10 @@ def write_caption(script, cfg, out_dir):
         "Mô tả:",
         *yt_desc,
         *__import__("binh_luan").lines(script, "ngan"),
+        *(["", "════ ENGLISH — Tiêu đề + mô tả tiếng Anh (YouTube Shorts / Facebook / TikTok) ════",
+           "Title: " + ((script.get("ngan") or {}).get("title_en") or "")[:95],
+           "Description:", (script.get("ngan") or {}).get("caption_en", ""), "", tags]
+          if (script.get("ngan") or {}).get("caption_en") else []),
         "",
         "════ GHI CHÚ (không đăng) ════",
         f"Chủ đề: {theme['icon']} {theme['label']}",

@@ -145,6 +145,43 @@ sc(88, ["liubei_t5"], "Liu Bei sits alone at a low table at night in a room at X
 assert sorted(S) == list(range(1, 89)), [i for i in range(1, 89) if i not in S]
 assert len(BEATS) == 88
 
+# --- sửa sau khi soi ảnh lần 1 (18/10): thêm câu cấm riêng cho các ảnh lỗi ---
+NOTXT = "absolutely no writing, no Chinese characters, no letters on any banner, wall hanging, cloth, armour or object; banners and hangings are plain solid colour"
+NOLAMP = "no electric lamp, no lampshade, no glass lantern: if light is needed show only a small shallow open bronze oil dish with a tiny flame"
+NOPAPER = "no sheets of paper: writing is only on bamboo-slip scrolls, narrow strips of bamboo tied with cord"
+NOCHAIR = "no chair with a back: people sit on straw mats, low benches or low platforms"
+NOMAP = "any map is a plain cream cloth with a few simple abstract lines and no coastlines, no continents, no text"
+FIX = {
+ 3: NOTXT+", the hall has no signboard or plaque at all",
+ 18: NOTXT+", flags are plain with no circles or emblems",
+ 20: NOLAMP+", "+NOPAPER,
+ 22: NOTXT+", "+NOMAP+", "+NOLAMP,
+ 23: NOLAMP+", "+NOPAPER+", "+NOMAP,
+ 25: NOTXT+", "+NOPAPER+", "+NOCHAIR+", the window is an open wooden lattice with no glass",
+ 26: NOTXT+", "+NOPAPER+": he reads a rolled bamboo-slip strip",
+ 27: NOTXT+", "+NOPAPER+", "+NOLAMP+", flags are plain with no emblem",
+ 32: NOTXT+", no banners with writing on the walls",
+ 33: NOTXT+", "+NOMAP+", "+NOLAMP,
+ 34: NOLAMP+", "+NOMAP+", "+NOPAPER,
+ 38: "flags are plain with no star or emblem",
+ 41: NOPAPER+", "+NOCHAIR+", "+NOLAMP+", no candle",
+ 45: NOTXT+", no glass wine glass: a two-eared bronze wine cup only, no wall text",
+ 46: NOTXT+", "+NOMAP+", "+NOLAMP,
+ 48: NOTXT+", plain unmarked armour, no signboard on the gate",
+ 54: NOCHAIR,
+ 56: NOLAMP+", "+NOPAPER+", "+NOCHAIR+", flags plain with no emblem",
+ 57: NOLAMP+", "+NOCHAIR,
+ 58: NOTXT+", "+NOLAMP,
+ 60: "the pole in the middle of the square is a single straight tall vertical wooden pole with absolutely no crossbar, not a cross, not a T shape",
+ 61: NOTXT+", "+NOPAPER,
+ 69: NOTXT+", "+NOLAMP+", "+NOMAP,
+ 80: NOTXT+", the fallen banner is a plain solid-colour cloth with no characters",
+ 82: NOTXT+", "+NOPAPER+", "+NOCHAIR+" (clerks sit on low benches at low tables)",
+ 84: NOCHAIR+" (he sits on a low bed platform), no chair or backrest at all",
+ 87: "the crown is a Han-style flat-topped ceremonial board hat with hanging bead strings, not a European crown with points or jewels",
+ 88: NOCHAIR+", "+NOPAPER+", "+NOTXT,
+}
+
 BGRULE = "Every picture has a rich detailed background that fits the place and the story (architecture, landscape, tents, banners, hills), never a plain blank or solid-colour backdrop"
 ANTI = ("Strictly Eastern Han dynasty, 2nd century AD, ancient China only: dirt roads and stone paths only (no asphalt, no road markings, no electric poles or wires), "
         "no glass windows (wooden lattice only), no door knobs or handles, no signboards or plaques on gates or buildings, no chairs with backs or modern furniture (people sit on straw mats or low benches), "
@@ -160,10 +197,11 @@ for i in range(1, 89):
     canh.append({"key": k, "nv": nv, "mo_ta": m})
     text = BEATS[i - 1]["text"]
     if not nv:
-        out.append({"key": k, "cau": i, "nv": [], "text": text, "prompt": m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
+        out.append({"key": k, "cau": i, "nv": [], "text": text, "prompt": m + ((". " + FIX[i]) if i in FIX else "") + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + ANTI})
         continue
     ch = "; ".join(NV[x] for x in nv)
-    out.append({"key": k, "cau": i, "nv": nv, "text": text, "prompt": f"{m}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF}"})
+    ex = (" " + FIX[i] + ".") if i in FIX else ""
+    out.append({"key": k, "cau": i, "nv": nv, "text": text, "prompt": f"{m}.{ex} Characters (keep exactly this look): {ch}. {STYLE}. {SUF}{ex}"})
 (R / "TQ5.json").write_text(json.dumps({"ma": "TQ5", "ghi_chu": "Tập 5: Tào Tháo đón hoàng đế về Hứa, Viên Thuật xưng đế", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 dai_cau = {}

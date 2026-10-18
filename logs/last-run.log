@@ -1,43 +1,44 @@
 
-===== TQ45: kiểm tra kịch bản trước khi dựng =====
-
 ===== TQ45 (video dài) =====
 ▶️  Video dài TQ45: Lưu Bị có Từ Châu và mất Từ Châu thế nào? Không có "ba lần nhường", không có "say rượu" | Tam Quốc theo chính sử, tập 4
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_TQ45.json
   🖼️  Ảnh cho video dài
   🔍 Kiểm tra 177 ảnh: 31 ảnh lỗi, 8 ảnh cần xem
-❌ Video dài TQ45: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ45_dai_kiemtra.txt):
-  023.jpg: Ảnh hiển thị khuôn mặt rõ của nhân vật lịch sử có thật (Thái Sử Từ hoặc Khổng Dung) đứng trong khung cảnh doanh trại, vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối thay vì hiển thị rõ khuôn mặt.
-  033.jpg: Hình ảnh vẽ hai nhân vật đang quỳ gối và giận dữ đối chất với nhiều người xung quanh, không khớp với phân đoạn lời kể đang nói về việc cha của Tào Tháo bị giết trên đất Từ Châu. → Cần thay đổi hình ảnh minh họa phù hợp hơn với nội dung cha Tào Tháo bị sát hại tại Từ Châu hoặc phản ứng đau đớn, tức giận của Tào Tháo khi nhận tin dữ.
-  045.jpg: Ảnh hiển thị khuôn mặt rõ ràng của các nhân vật lịch sử có thật (Đào Khiêm và Lưu Bị), vi phạm quy định không được vẽ rõ mặt nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối thay vì thể hiện rõ khuôn mặt trực diện.
-  056.jpg: Lỗi giải phẫu nghiêm trọng do AI tạo: Nhân vật chính (Lữ Bố) ở giữa đang trong tư thế kỳ lạ, chân co lên không chạm đất như đang lơ lửng, phần thân và chân không khớp với tỷ lệ bình thường. → Tạo lại ảnh minh họa với nhân vật đứng hoặc cưỡi ngựa bình thường, phù hợp với ngữ cảnh dẫn quân qua cửa ải.
-  057.jpg: Lời kể nói về việc Lữ Bố đến tìm Viên Thuật nhưng bị từ chối và không nhận, tuy nhiên hình ảnh minh họa lại vẽ hai nhân vật đang đối chất căng thẳng giống như cuộc gặp gỡ chính thức hoặc từ chối trực diện trong phòng hội, có thể làm người xem hiểu sai về bối cảnh gặp gỡ giữa Lữ Bố và Viên Thuật. → Vẽ cảnh Lữ Bố đứng bên ngoài cổng dinh thự hoặc bị binh lính của Viên Thuật chặn lại từ chối bên ngoài, đúng với nội dung Viên Thuật từ chối không nhận.
-  058.jpg: Ảnh hiển thị rõ khuôn mặt của nhân vật lịch sử (Lữ Bố, người từng giết chủ cũ và cha nuôi Đinh Nguyên, Đổng Trác như lời kể), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử. → Thay đổi ảnh minh họa sao cho nhân vật quay lưng, ở xa hoặc trong bóng tối, không nhìn rõ mặt.
-  066.jpg: Ảnh vẽ một nhân vật mặc giáp đứng bên ngoài giường trong đêm, không đúng với tình tiết 'cho người ngồi đánh đàn tranh trong trướng, còn mình lẻn đi' và 'lính xông vào chém loạn lên giường chăn'. Ngoài ra, trên bàn cạnh giường xuất hiện đèn dầu kiểu hiện đại không phù hợp với bối cảnh thời Tam Quốc. → Vẽ cảnh trong trướng có người đang ngồi gảy đàn tranh hoặc cảnh lính đang xông vào chém rách giường chăn, sử dụng đèn lồng cổ thay cho đèn dầu hiện đại.
-  067.jpg: Ảnh thể hiện một nhân vật đứng giữa cổng thành cùng lính canh vào ban ngày, không khớp với nội dung lời kể về việc lính xông vào chém chăn ban đêm và nhân vật đã trốn thoát vào sáng hôm sau. → Thay thế bằng ảnh minh họa cảnh lính cầm đuốc xông vào phòng tối chém vào giường chăn hoặc cảnh nhân vật lén lút rời khỏi thành lúc sáng sớm.
-  068.jpg: Nhân vật chính cưỡi ngựa cầm giáo đi giữa đường làng với đoàn quân theo sau, không phù hợp với phân cảnh nhân vật đang lẩn trốn, chạy trốn một mình hoặc trốn thoát khỏi sự truy đuổi. → Thay đổi hình ảnh minh họa cho phù hợp với cảnh nhân vật đang chạy trốn hoặc di chuyển một mình để tránh sự truy đuổi.
-  084.jpg: Nhân vật mặc áo xanh bên phải giơ tay từ chối trong khi có nhiều người đang chào đón, không khớp hoàn toàn với ngữ cảnh Mi Trúc dẫn người ra đón và Lưu Bị không dám nhận, ngoài ra bàn tay của nhân vật giơ lên có lỗi giải phẫu (ngón tay kỳ lạ). → Vẽ lại cảnh nhân vật thể hiện rõ sự từ chối khiêm nhường, đúng bối cảnh lịch sử và sửa lỗi giải phẫu bàn tay.
-  085.jpg: Nhân vật mặc áo trắng đứng giơ tay có bàn tay trái bị dị dạng với 6 ngón rõ rệt. → Sửa lại bàn tay của nhân vật để có đủ 5 ngón bình thường theo đúng giải phẫu.
-  089.jpg: Ảnh hiển thị rõ khuôn mặt của nhân vật lịch sử (Lưu Bị nhận Từ Châu), vi phạm quy định không được vẽ rõ mặt nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối thay vì thấy rõ khuôn mặt.
-  093.jpg: Trang phục và kiến trúc trong ảnh mang phong cách Hàn Quốc/Joseon thay vì thời Hán Mạt ở Trung Quốc, đồng thời hiển thị rõ khuôn mặt của nhân vật chính là Lưu Bị. → Sửa lại kiến trúc và trang phục theo đúng thời kỳ nhà Hán ở Trung Quốc, đồng thời thay đổi góc nhìn hoặc che khuất khuôn mặt nhân vật lịch sử.
-  097.jpg: Ảnh AI vẽ bản đồ trên bàn có hình dạng không giống bản đồ thời cổ đại Trung Hoa mà giống bản đồ thế giới hiện đại. → Dùng ảnh minh họa có bản đồ hoặc cuộn giấy chữ Hán phù hợp với bối cảnh lịch sử thời Tam Quốc.
-  099.jpg: Hình ảnh vẽ hai người lính đứng cầm cân đĩa chứa tiền vàng, mang tính chất tượng trưng cho sự 'tính toán' nhưng chi tiết vẽ quá kỳ quặc và siêu thực (cán cân đè qua cổ người bên trái, người hóa thành một phần của dụng cụ đo lường), dễ gây khó hiểu và lạc điệu với phong cách kể chuyện lịch sử chính sử. → Thay bằng hình ảnh minh họa phù hợp hơn với nội dung bàn bạc chiến lược, hội họp của các quan lại thời Đông Hán để thể hiện 'cuộc tính toán của cả một châu'.
-  100.jpg: Ảnh hiển thị khuôn mặt nhìn rõ của nhân vật lịch sử (Lưu Bị), vi phạm quy định không được vẽ rõ mặt nhân vật lịch sử. → Sửa lại ảnh sao cho nhân vật quay lưng, ở xa hoặc trong bóng tối, không nhìn rõ khuôn mặt.
-  101.jpg: Ảnh vẽ rõ khuôn mặt của ba nhân vật lịch sử (có thể là Lưu Bị, Quan Vũ, Trương Phi) đứng trước thành trì theo phong cách truyền thông, vi phạm quy định không được vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Thay đổi ảnh minh họa sao cho các nhân vật lịch sử quay lưng, ở xa hoặc trong bóng tối, không vẽ rõ khuôn mặt.
-  109.jpg: Ảnh hiển thị rõ mặt ba nhân vật chính (được cho là Lưu Bị và các tướng lĩnh) trong khi quy định yêu cầu không được vẽ rõ khuôn mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ các nhân vật quay lưng, ở xa hoặc trong bóng tối để không thấy rõ khuôn mặt.
-  117.jpg: Bàn tay của nhân vật bên phải (được giơ lên) bị lỗi giải phẫu rõ rệt, ngón tay quá dài và bất thường. → Vẽ lại bàn tay cho đúng tỷ lệ giải phẫu học.
-  121.jpg: Con ngựa bị vẽ lỗi giải phẫu rõ ràng với 5 chân. → Sửa lại hình ảnh con ngựa cho đúng giải phẫu với 4 chân.
-  124.jpg: Nhân vật Lã Bố đang cầm giáo dài và ngồi trong trướng không khớp với nội dung Lã Bố mời Lưu Bị ngồi trên giường của vợ mình, bảo vợ ra bái, rót rượu. → Vẽ nhân vật Lã Bố đang rót rượu mời Lưu Bị ngồi, có người vợ xuất hiện để bái chào theo đúng lời kể.
-  131.jpg: Ảnh vẽ hai nhân vật có ngoại hình, khuôn mặt và râu tóc gần như y hệt nhau (như sinh đôi), gây khó khăn cho người xem trong việc phân biệt ai là Trương Phi, ai là Tào Báo hoặc nhân vật nào khác theo lời kể. → Sửa lại tạo hình hai nhân vật có sự khác biệt rõ rệt về khuôn mặt, râu tóc hoặc trang phục để minh họa đúng tình huống Trương Phi và Tào Báo.
-  148.jpg: Đèn dầu đặt trên bàn có thiết kế dạng đèn bão/đèn hột quẹt hiện đại, không phù hợp với bối cảnh thời Tam Quốc cổ đại. → Thay thế chiếc đèn bằng một ngọn đèn dầu cổ hoặc nến đặt trong đĩa gốm phù hợp với thời kỳ lịch sử.
-  151.jpg: Nhân vật bên trái trong ảnh có bàn tay phải giơ lên chào bị vẽ thừa ngón tay (dị dạng giải phẫu do AI tạo). → Tạo lại ảnh AI sao cho bàn tay của nhân vật đủ 5 ngón tự nhiên.
-  153.jpg: Lời kể đề cập đến Lữ Bố và các tướng bàn bạc việc Lưu Bị cầu cứu, nhưng bức ảnh vẽ 4 nhân vật mặc giáp đứng trong nhà kho/phòng họp mà không thể hiện rõ bối cảnh cuộc họp bàn của Lữ Bố và các tướng theo đúng lời kể. → Vẽ lại cảnh Lữ Bố đang ngồi hoặc đứng trao đổi với các thuộc tướng trong một phủ tướng quân, thể hiện rõ tình huống bàn bạc việc cứu Lưu Bị.
-  158.jpg: Nhân vật chính cầm kích đứng ở cổng doanh trại nhưng phần lưỡi kích minh họa sai so với lời kể (vẽ dạng kích kích bát xích kiểu phương Tây hoặc thiết kế lạ thay vì cây kích truyền thống Trung Hoa có nhánh nhỏ ở bên cạnh để bắn trúng), và hình ảnh mang tính dàn dựng chung chung, chưa thể hiện rõ hành động bắn kích trúng nhánh nhỏ như lời kể. → Vẽ lại hình ảnh nhân vật đang giương cung bắn vào một nhánh nhỏ của cây kích được cắm ở cổng doanh trại cho khớp với nội dung lời kể.
-  159.jpg: Lỗi AI tạo ảnh: Cây cung trong tay nhân vật đang cầm bị sai cấu trúc, dây cung nối từ đỉnh cung vòng qua tay cầm một cách kỳ lạ và mũi tên không nằm đúng vị trí tựa trên thân cung. → Tạo lại ảnh với chi tiết cây cung và mũi tên chính xác theo tư thế bắn cung truyền thống.
-  160.jpg: Ảnh vẽ hai tướng đứng cãi nhau hoặc họp bàn trong doanh trại thay vì minh họa sự kiện Lữ Bố giương cung bắn trúng kích ở viên môn theo đúng lời kể. → Cần tạo ảnh minh họa cảnh Lữ Bố đang giương cung bắn vào kích cắm ở cổng viên môn.
-  169.jpg: Nhân vật chính trong ảnh cầm một loại vũ khí dạng đinh ba/kích lạ không phù hợp với bối cảnh lịch sử, và vũ khí này không liên quan đến sự kiện Lưu Bị bỏ trống thành để cự Viên Thuật hay tướng giữ thành mở cổng cho Lữ Bố. → Thay thế bằng hình ảnh minh họa cảnh tướng giữ thành đang mở cổng thành hoặc binh lính canh gác trong bối cảnh Từ Châu.
-  170.jpg: Ảnh vẽ cận cảnh khuôn mặt rõ ràng của hai nhân vật lịch sử có thật (Lữ Bố và Lưu Bị), vi phạm quy tắc không được hiển thị rõ khuôn mặt nhân vật lịch sử có thật. → Thay đổi góc chụp từ phía sau, ở xa, hoặc trong bóng tối để không nhìn rõ khuôn mặt nhân vật lịch sử.
-  176.jpg: Ảnh hiển thị rõ khuôn mặt của hai nhân vật đang ngồi đối thoại và hai lính canh, vi phạm quy tắc không được vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để không thấy rõ khuôn mặt.
+  🎙️  Giọng Gemini Sadaltager (19 chương)
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (23s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (16s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (11s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (24s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (30s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (49s)
+     🎙️  Gemini đọc xong 1 chương (25s)
+  ⏱️  Thời lượng 21:57 · 177 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-10-18 06:07:53.772365383 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     177/177 ảnh có độ sâu
+  🎞️  39 cảnh có clip chuyển động
+     31616 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (307 giây)
+     … 6/12 đoạn (587 giây)
+     … 9/12 đoạn (857 giây)
+     … 12/12 đoạn (870 giây)
+     dựng khung hình xong trong 871 giây
+  🔈 Âm lượng cuối: -15.2 LUFS, đỉnh -3.9 dBTP
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: TQ45_dai.mp4 (21:57)
 
-Xong video ngắn: - · video dài: -
-Video dài chưa xong (sẽ thử lại lần chạy sau): TQ45
+Xong video ngắn: - · video dài: TQ45

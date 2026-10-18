@@ -232,7 +232,7 @@ sc(173,["LB","TT","linh"],"Liu Bei rides through the gate of Cao Cao's camp with
 sc(174,["TT","hiende","linh"],"Cao Cao in a dark cap and cloak walks beside a small procession escorting the young Emperor Xian in a covered cart along a dirt road past ruined walls of Luoyang toward the east, soldiers with plain banners, dawn light")
 sc(175,[],"an ancestral temple of the Han with timber pillars and a grey tiled roof, ritual bronze vessels on a stone altar in the courtyard, incense smoking, a calm restored order, morning light, no people")
 sc(176,["TT","LB"],"Cao Cao and Liu Bei sit across from each other at a low table in a lamp-lit hall, cups of wine between them, both polite and watchful, officials along the walls")
-sc(177,["LB","QV","TP"],"Liu Bei in the centre, Guan Yu on his left, Zhang Fei on his right, stand at a city gate at dusk looking toward a distant glowing capital, banners in the wind, quiet resolve")
+sc(177,["LB","QV","TP"],"the three sworn brothers stand side by side at a city gate at dusk looking toward a distant glowing capital, banners in the wind, quiet resolve; Liu Bei in the centre with empty hands, Guan Yu on the left standing straight with his guandao held upright beside him and the butt of its pole resting on the ground, Zhang Fei on the right standing straight with his spear held upright beside him and the butt of its pole resting on the ground")
 
 assert sorted(S) == list(range(1,178)), [i for i in range(1,178) if i not in S]
 TRIO = {n for n,(nv,_) in S.items() if {"LB","QV","TP"} <= set(nv)}
@@ -290,6 +290,7 @@ for n in range(1,178):
     canh.append({"key":f"{n:03d}","nv":keys,"mo_ta":m})
     rf=refs_for(keys)
     if n in NOWP: rf=["trio"]
+    if n==177: rf=["liubei","trio","guandao","xamau"]
     ch=(" Characters: "+"; ".join(descs)+".") if descs else " An empty quiet scene of objects and landscape only."
     out.append({"key":f"{n:03d}","nv":keys,"refs":rf,"prompt":f"{m}.{ch} {RG(rf)}{STYLE}"})
 (R/"TQ45.json").write_text(json.dumps({"ma":"TQ45","canh":canh},ensure_ascii=False,indent=1),encoding="utf-8")

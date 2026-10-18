@@ -31,7 +31,7 @@ CL = {  # trang phục theo mốc cốt truyện (mã trong TQ4/TQ5_trang_phuc.j
  "LBo": lambda n: "lubo_t5a" if n<=69 else "lubo_t5b" if n<=112 else "lubo_t5c" if n<=143 else "lubo_t5d",
  "TT": lambda n: "taotao_t4" if n<=69 else "taotao_t5a" if n<=163 else "taotao_t5b",
 }
-WP = {"quanvu":"carrying his guandao: a very long dark-brown pole with two gold bands, a bronze dragon collar and ONE broad curved silver blade","trieuphi":"holding his serpent spear: a very long straight dark-brown pole with two gold bands and ONE straight narrow leaf-shaped silver spearhead","lubo":"holding his halberd: a long pole with a spear point and ONE crescent blade"}
+WP = {"quanvu":"carrying his guandao exactly like the weapon reference: a very long dark-brown pole taller than himself with two gold bands, a bronze dragon collar and ONE broad curved silver blade","trieuphi":"holding his serpent spear exactly like the weapon reference: a very long straight dark-brown pole twice his own height with two gold bands and ONE straight narrow leaf-shaped silver spearhead","lubo":"holding his halberd: a long pole with a spear point and ONE crescent blade"}
 SOL = "Han soldiers in plain iron helmets and scale armour over dull red-brown tunics with spears upright"
 NF = "no gore, no blood, soldiers with small simple faces"
 S = {}
@@ -40,7 +40,7 @@ def sc(n, nv, m): S[n] = (nv, m)
 # ---- Chương 1: mở đầu (1-10)
 sc(1,["daokhiem_t4a","LB"],"in a grand governor's hall of Xu Province, old Tao Qian holds out a lacquered seal box with both hands to Liu Bei, who raises his palms in refusal; officials in black caps kneel behind them, timber pillars, hanging cloth screens, clay oil lamps, theatrical light")
 sc(2,["LB"],"Liu Bei stands on stone steps bowing and refusing with both hands raised while a crowd of townspeople and officials kneel in the courtyard below begging him, grey-tiled rooftops of an ancient city behind, morning light")
-sc(3,["TP","tuong"],"at a feast in a Han hall Zhang Fei with a flushed face and a bronze wine cup in one hand sits on a straw mat, his serpent spear leaning on the wall beside him, a stern general facing him across a low table with a wine jar, clay oil lamps, timber pillars")
+sc(3,["TP","tuong"],"at a feast in a Han hall Zhang Fei with a flushed face sits on a straw mat holding a bronze wine cup, his very long serpent spear standing upright beside him, facing a tall broad-shouldered stern general who STANDS across a low table with a wine jar, the general as tall as a doorway and clearly bigger than Zhang Fei, clay oil lamps, timber pillars")
 sc(4,[],"a low wooden table in a Han hall holding a lacquered seal box on one side and a clay wine jar with a bronze cup on the other, a clay oil lamp between them, timber pillars, a straw mat floor, no people")
 sc(5,[],"a tall wooden shelf full of tied bamboo-slip scrolls in a Han archive room, one scroll unrolled on a low table beside a clay oil lamp, a small square window with wooden bars showing hills; the room is completely empty, absolutely no people or figures anywhere")
 sc(6,["LB","mitruc_t4","tranang_t4"],"in a council room Liu Bei listens thoughtfully while a rich merchant in a silk robe and a young scholar-official speak earnestly, an open chest of bronze coins on the floor, straw mats, clay oil lamps, timber pillars")
@@ -57,8 +57,8 @@ sc(15,["luubinh","LB","quan"],"in the county hall Liu Ping stands among official
 sc(16,["LB","thichkhach"],"in a lamp-lit room a masked man in plain dark clothes with empty hands kneels on a straw mat before Liu Bei, confessing with bowed head, Liu Bei listening in surprise, mud-brick walls")
 sc(17,["thichkhach","LB"],"at dawn the plain-clothed man walks out of the wooden gate of a Han county compound, seen from behind, while Liu Bei watches him go from the doorway, empty dirt road, hills")
 sc(18,["LB","QV","TP","dan"],"in a street of Pingyuan the three sworn brothers walk side by side, Liu Bei in the centre, Guan Yu on his left, Zhang Fei on his right, townsfolk gathering around them with offerings, mud-brick houses with grey tiled roofs")
-sc(19,["QV","TP","linh"],"in an army camp at dusk Guan Yu and Zhang Fei stand before separate groups of soldiers drawn up in ranks, serious faces, tents and plain banners")
-sc(20,["LB","QV","TP"],"inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, Liu Bei in the middle, a clay oil lamp glowing beside them, their weapons leaning on a tent pole")
+sc(19,["QV","TP","linh"],"in an army camp at dusk Guan Yu on the left and Zhang Fei on the right stand each holding his very long weapon upright, the poles reaching far above their heads, before ranks of soldiers, serious faces, tents and plain banners")
+sc(20,["LB","QV","TP"],"inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, all three of slim to average build, Liu Bei in the middle, a clay oil lamp glowing beside them, their weapons leaning on a tent pole, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right")
 sc(21,["LB","linh"],"the small walled town of Pingyuan on a plain at dusk with Liu Bei a tiny figure on its wall, guards beside him, camp fires outside, a modest place")
 # ---- Chương 3: Bắc Hải (22-29)
 sc(22,["thaisutu_t4","linh"],"Taishi Ci, dusty and exhausted, dismounts from a sweating horse before the gate of Pingyuan holding a small rolled bamboo scroll, guards hurrying toward him, thin smoke on the far horizon")
@@ -110,13 +110,13 @@ sc(63,["vienthieu","LBo","linh"],"in a camp tent Yuan Shao sits tense watching t
 sc(64,["vienthieu","lai"],"at night in Yuan Shao's tent, Yuan Shao in a deep-blue robe whispers orders to several shadowed men in dark clothes with empty hands, a single clay oil lamp, long shadows")
 sc(65,[],"an empty army tent at night with a low table holding a zither (guqin) and a clay oil lamp, straw mats and blankets laid out, a quiet moment, no people")
 sc(66,[],"an army tent at night with a rumpled bed of straw mats and blankets by a clay oil lamp, tent flaps ajar and torchlight outside, shadows of soldiers on the canvas wall, nothing violent shown")
-sc(67,["vienthieu","linh"],"at dawn Yuan Shao stands on the wall above a gate that soldiers are closing and barring, his face grim, soldiers on the wall, the road empty below")
-sc(68,["LBo","linh"],"Lu Bu and a few riders ride along a river road while a distant pursuing troop hangs back, hesitating; the pursuers keep their distance from him, dust, hills")
+sc(67,["vienthieu","linh"],"at dawn Yuan Shao stands in the road inside a city gate while soldiers close and bar the two big wooden gate leaves, his face grim, a few soldiers beside him, everyone standing on the ground, nobody on any roof or wall, the road empty beyond")
+sc(68,["LBo"],"Lu Bu rides alone on a brown horse along a river road at a walk, reins in his left hand and a halberd upright in his right hand, far behind him a small distant troop halts and hesitates, dust, hills")
 sc(69,["LBo"],"Lu Bu sits alone on a rock at the edge of a camp at dusk with his halberd across his knees, a lonely powerful figure, camp fires and tents far behind him")
 # ---- Chương 8: Trương Mạc (70-79)
 sc(70,["TT","truongmac_t5"],"in a hall of Yanzhou Cao Cao and Zhang Miao sit facing each other on straw mats as old friends, warm trust, Cao Cao clasping Zhang Miao's forearm, timber pillars, clay oil lamps")
 sc(71,["TT","truongmac_t5"],"Cao Cao in dark armour, about to depart, speaks quietly to Zhang Miao at a courtyard gate, family members in plain robes standing back, the army waiting outside the gate")
-sc(72,["TT","truongmac_t5"],"Cao Cao and Zhang Miao stand in a hall with tears in their eyes, then Zhang Miao turns aside with a troubled look and a hand on his sleeve, an unspoken worry, lamp light")
+sc(72,["TT","truongmac_t5"],"Cao Cao and Zhang Miao, two grown men with beards, stand facing each other in a hall with tears in their eyes, lamp light, an unspoken worry")
 sc(73,["tranchung_t5","truongmac_t5"],"at night in a quiet room Chen Gong and Zhang Miao and one more official lean over a low table whispering secretly, a single clay oil lamp, long shadows on the mud-brick wall")
 sc(74,["tranchung_t5","truongmac_t5"],"Chen Gong, calm and sharp, points to a cloth map on a low table showing Yanzhou while Zhang Miao listens, a few officials behind, lamp light")
 sc(75,["tranchung_t5","truongmac_t5"],"Chen Gong speaks with one hand raised and a persuasive look to a thoughtful Zhang Miao, a clay oil lamp, timber pillars, officials listening in the shadows")
@@ -149,7 +149,7 @@ sc(98,["TT","LBo"],"two armies far apart on two plains seen from a hill: on one 
 sc(99,[],"a pair of balance scales on a low table in a Han hall, a heap of bronze coins on one pan and a folded robe and a seal on the other, balanced, clay oil lamp, no people")
 sc(100,["LB"],"Liu Bei in a plain robe sits on a straw mat at a low table in a quiet room, an ordinary thoughtful man rather than a saint, clay oil lamp and bamboo-slip scrolls beside him")
 sc(101,["LB","QV","TP"],"in his early thirties Liu Bei rides at the head of a small army across a plain at golden hour, Guan Yu on his left and Zhang Fei on his right, soldiers and banners behind, a distant walled city")
-sc(102,["LB","quan"],"a younger Liu Bei in plain dark clothes and a cloth cap stands before a small county gate with a junior-official's duties, village houses behind, a modest early-career scene")
+sc(102,["LB","quan"],"a younger Liu Bei in plain dark clothes and a cloth cap stands beside a county official in a black cap before a small county gate, both with empty hands, village houses behind, a modest early-career scene")
 sc(103,["LB","dan"],"Liu Bei, with a bundle on his back, walks away from a government building down a dusty road past villagers, a quiet fall from office, grey tiled roofs behind")
 sc(104,["LB","QV","TP"],"three small travellers, Liu Bei in the centre, Guan Yu on the left and Zhang Fei on the right, walk side by side on a long winding dirt road across wide hills toward a river city, tiny in a vast landscape, golden light")
 sc(105,[],"a long dirt road winding from a small county gate through hills and rivers to a distant great walled city, the road drawn as a golden thread, early morning light; completely empty landscape, absolutely no people or figures anywhere")
@@ -190,7 +190,7 @@ sc(135,["tuong","lai","TP"],"at night a secret courier in a dark cloak hands a m
 sc(136,["vienthuat","LBo"],"Yuan Shu in his hall writes a letter on a bamboo-slip scroll with a brush while a courier waits holding out his hands, a clay oil lamp, timber pillars, a plan being made")
 sc(137,["linh"],"a thousand soldiers in iron helmets crowd inside the west gate of a white-walled city at night, torches in their hands, listening, some looking up at the gate bar, tense but orderly, "+NF)
 sc(138,["LBo","linh"],"at dawn Lu Bu's riders reach the foot of the city wall in a long column on a dusty road, the gates swinging wide open before them, soldiers at the gates, "+NF)
-sc(139,["LBo","linh"],"Lu Bu sits on the top of the gate-tower while his cavalry gallops through the open gates with torches, flames and smoke rising over the city wall behind, banners, no one struck, "+NF)
+sc(139,["LBo"],"Lu Bu stands upright on the flat top of a gate-tower holding his halberd, below him three cavalrymen gallop through the open city gates carrying torches, smoke and flames over the wall behind, banners, "+NF)
 sc(140,["TP","linh"],"Zhang Fei with his serpent spear stands in the night street of Xiapi among a few of his soldiers looking toward the gate, smoke and torchlight, a troubled expression")
 sc(141,[],"a lacquered wine jar tipped on its side beside a bronze cup on a low table, wine spilled on the straw mat, a clay oil lamp, an empty hall, a novel's invented cause shown as an overturned cup, no people")
 sc(142,["linh"],"a column of four thousand soldiers in iron helmets with spears and plain banners marching through a river gate, seen from behind, mist, hills, a thought about where soldiers come from, "+NF)
@@ -254,12 +254,16 @@ def refs_for(keys):
         elif k.startswith("lubo"): names.append("lubo_cd")
         elif k.startswith("vienthieu"): names.append("vienthieu")
         elif k=="vienthuat": names.append("vienthuat")
-    if {"liubei","quanvu","trieuphi"} <= set(names): return []
+    if {"liubei","quanvu","trieuphi"} <= set(names): return ["trio","guandao","xamau"]
+    if "quanvu" in names or "trieuphi" in names: return [n for n in dict.fromkeys(names) if n in ("quanvu","trieuphi")]+["guandao"]*("quanvu" in names)+["xamau"]*("trieuphi" in names)
     return [n for n in dict.fromkeys(names) if (REFD/f"{n}.jpg").exists()][:2]
-RN={"liubei":"Liu Bei","quanvu":"Guan Yu","trieuphi":"Zhang Fei","lubo_cd":"Lu Bu","vienthieu":"Yuan Shao","vienthuat":"Yuan Shu"}
+RN={"trio":"the three brothers (left Guan Yu, centre Liu Bei, right Zhang Fei)","guandao":"","xamau":"","liubei":"Liu Bei","quanvu":"Guan Yu","trieuphi":"Zhang Fei","lubo_cd":"Lu Bu","vienthieu":"Yuan Shao","vienthuat":"Yuan Shu"}
 def RG(rf):
     if not rf: return ""
-    return "Reference image(s) show the face, hair and beard of "+" and ".join(RN[x] for x in rf)+": keep those faces exactly, but follow the costume, pose and scene written here, and draw everyone else with different faces. "
+    f=[x for x in rf if x not in ("guandao","xamau")]; w=[x for x in rf if x in ("guandao","xamau")]
+    t=("Reference image(s) show the face, hair and beard of "+" and ".join(RN[x] for x in f)+": keep those faces exactly, but follow the costume, pose and scene written here, and draw everyone else with different faces. ") if f else ""
+    if w: t+="Weapon reference image(s): copy the weapon shape exactly (guandao: broad curved silver blade with bronze dragon collar; serpent spear: leaf-shaped silver head), but draw it held in the hand and without any stand. "
+    return t
 canh,out=[],[]
 for n in range(1,178):
     nv,m=S[n]

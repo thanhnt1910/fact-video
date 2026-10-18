@@ -22,7 +22,7 @@
     "trieuphi_t4a",
     "tuong"
    ],
-   "mo_ta": "at a feast in a Han hall Zhang Fei with a flushed face and a bronze wine cup in one hand sits on a straw mat, his serpent spear leaning on the wall beside him, a stern general facing him across a low table with a wine jar, clay oil lamps, timber pillars"
+   "mo_ta": "at a feast in a Han hall Zhang Fei with a flushed face sits on a straw mat holding a bronze wine cup, his very long serpent spear standing upright beside him, facing a tall broad-shouldered stern general who STANDS across a low table with a wine jar, the general as tall as a doorway and clearly bigger than Zhang Fei, clay oil lamps, timber pillars"
   },
   {
    "key": "004",
@@ -143,7 +143,7 @@
     "trieuphi_t4a",
     "linh"
    ],
-   "mo_ta": "in an army camp at dusk Guan Yu and Zhang Fei stand before separate groups of soldiers drawn up in ranks, serious faces, tents and plain banners"
+   "mo_ta": "in an army camp at dusk Guan Yu on the left and Zhang Fei on the right stand each holding his very long weapon upright, the poles reaching far above their heads, before ranks of soldiers, serious faces, tents and plain banners"
   },
   {
    "key": "020",
@@ -152,7 +152,7 @@
     "quanvu_t4a",
     "trieuphi_t4a"
    ],
-   "mo_ta": "inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, Liu Bei in the middle, a clay oil lamp glowing beside them, their weapons leaning on a tent pole, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right"
+   "mo_ta": "inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, all three of slim to average build, Liu Bei in the middle, a clay oil lamp glowing beside them, their weapons leaning on a tent pole, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right"
   },
   {
    "key": "021",
@@ -504,15 +504,14 @@
     "vienthieu",
     "linh"
    ],
-   "mo_ta": "at dawn Yuan Shao stands on the wall above a gate that soldiers are closing and barring, his face grim, soldiers on the wall, the road empty below"
+   "mo_ta": "at dawn Yuan Shao stands in the road inside a city gate while soldiers close and bar the two big wooden gate leaves, his face grim, a few soldiers beside him, everyone standing on the ground, nobody on any roof or wall, the road empty beyond"
   },
   {
    "key": "068",
    "nv": [
-    "lubo_t5a",
-    "linh"
+    "lubo_t5a"
    ],
-   "mo_ta": "Lu Bu and a few riders ride along a river road while a distant pursuing troop hangs back, hesitating; the pursuers keep their distance from him, dust, hills"
+   "mo_ta": "Lu Bu rides alone on a brown horse along a river road at a walk, reins in his left hand and a halberd upright in his right hand, far behind him a small distant troop halts and hesitates, dust, hills"
   },
   {
    "key": "069",
@@ -543,7 +542,7 @@
     "taotao_t5a",
     "truongmac_t5"
    ],
-   "mo_ta": "Cao Cao and Zhang Miao stand in a hall with tears in their eyes, then Zhang Miao turns aside with a troubled look and a hand on his sleeve, an unspoken worry, lamp light"
+   "mo_ta": "Cao Cao and Zhang Miao, two grown men with beards, stand facing each other in a hall with tears in their eyes, lamp light, an unspoken worry"
   },
   {
    "key": "073",
@@ -791,7 +790,7 @@
     "liubei_t4c",
     "quan"
    ],
-   "mo_ta": "a younger Liu Bei in plain dark clothes and a cloth cap stands before a small county gate with a junior-official's duties, village houses behind, a modest early-career scene"
+   "mo_ta": "a younger Liu Bei in plain dark clothes and a cloth cap stands beside a county official in a black cap before a small county gate, both with empty hands, village houses behind, a modest early-career scene"
   },
   {
    "key": "103",
@@ -1079,10 +1078,9 @@
   {
    "key": "139",
    "nv": [
-    "lubo_t5c",
-    "linh"
+    "lubo_t5c"
    ],
-   "mo_ta": "Lu Bu sits on the top of the gate-tower while his cavalry gallops through the open gates with torches, flames and smoke rising over the city wall behind, banners, no one struck, no gore, no blood, soldiers with small simple faces"
+   "mo_ta": "Lu Bu stands upright on the flat top of a gate-tower holding his halberd, below him three cavalrymen gallop through the open city gates carrying torches, smoke and flames over the wall behind, banners, no gore, no blood, soldiers with small simple faces"
   },
   {
    "key": "140",

@@ -57,8 +57,8 @@ sc(15,["luubinh","LB","quan"],"in the county hall Liu Ping stands among official
 sc(16,["LB","thichkhach"],"in a lamp-lit room a masked man in plain dark clothes with empty hands kneels on a straw mat before Liu Bei, confessing with bowed head, Liu Bei listening in surprise, mud-brick walls")
 sc(17,["thichkhach","LB"],"at dawn the plain-clothed man walks out of the wooden gate of a Han county compound, seen from behind, while Liu Bei watches him go from the doorway, empty dirt road, hills")
 sc(18,["LB","QV","TP","dan"],"in a street of Pingyuan the three sworn brothers walk side by side, Liu Bei in the centre, Guan Yu on his left, Zhang Fei on his right, townsfolk gathering around them with offerings, mud-brick houses with grey tiled roofs")
-sc(19,["QV","TP","linh"],"in an army camp at dusk Guan Yu on the left and Zhang Fei on the right stand each holding his very long weapon upright, the poles reaching far above their heads, before ranks of soldiers, serious faces, tents and plain banners")
-sc(20,["LB","QV","TP"],"inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, all three of slim to average build, Liu Bei in the middle, a clay oil lamp glowing beside them, their weapons leaning on a tent pole, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right")
+sc(19,["QV","TP","linh"],"in an army camp at dusk Guan Yu on the left and Zhang Fei on the right stand a few steps back from the viewer so that their whole weapons fit inside the frame from tip to butt, each holding his very long weapon upright beside him: Guan Yu's guandao with its broad curved silver blade and bronze dragon collar clearly visible above his head, Zhang Fei's straight spear with its narrow leaf-shaped head, ranks of soldiers behind them, serious faces, tents and plain banners")
+sc(20,["LB","QV","TP"],"inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, all three of slim to average build, Liu Bei in the middle, a clay oil lamp glowing beside them, no weapons anywhere in the tent, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right")
 sc(21,["LB","linh"],"the small walled town of Pingyuan on a plain at dusk with Liu Bei a tiny figure on its wall, guards beside him, camp fires outside, a modest place")
 # ---- Chương 3: Bắc Hải (22-29)
 sc(22,["thaisutu_t4","linh"],"Taishi Ci, dusty and exhausted, dismounts from a sweating horse before the gate of Pingyuan holding a small rolled bamboo scroll, guards hurrying toward him, thin smoke on the far horizon")
@@ -149,7 +149,7 @@ sc(98,["TT","LBo"],"two armies far apart on two plains seen from a hill: on one 
 sc(99,[],"a pair of balance scales on a low table in a Han hall, a heap of bronze coins on one pan and a folded robe and a seal on the other, balanced, clay oil lamp, no people")
 sc(100,["LB"],"Liu Bei in a plain robe sits on a straw mat at a low table in a quiet room, an ordinary thoughtful man rather than a saint, clay oil lamp and bamboo-slip scrolls beside him")
 sc(101,["LB","QV","TP"],"in his early thirties Liu Bei rides at the head of a small army across a plain at golden hour, Guan Yu on his left and Zhang Fei on his right, soldiers and banners behind, a distant walled city")
-sc(102,["LB","quan"],"a younger Liu Bei in plain dark clothes and a cloth cap stands beside a county official in a black cap before a small county gate, both with empty hands, village houses behind, a modest early-career scene")
+sc(102,["LB"],"a younger Liu Bei in plain dark clothes and a cloth cap stands alone with empty hands before a small county gate with a junior-official's duties, calm and modest, village houses and a few distant villagers behind, a modest early-career scene")
 sc(103,["LB","dan"],"Liu Bei, with a bundle on his back, walks away from a government building down a dusty road past villagers, a quiet fall from office, grey tiled roofs behind")
 sc(104,["LB","QV","TP"],"three small travellers, Liu Bei in the centre, Guan Yu on the left and Zhang Fei on the right, walk side by side on a long winding dirt road across wide hills toward a river city, tiny in a vast landscape, golden light")
 sc(105,[],"a long dirt road winding from a small county gate through hills and rivers to a distant great walled city, the road drawn as a golden thread, early morning light; completely empty landscape, absolutely no people or figures anywhere")
@@ -190,7 +190,7 @@ sc(135,["tuong","lai","TP"],"at night a secret courier in a dark cloak hands a m
 sc(136,["vienthuat","LBo"],"Yuan Shu in his hall writes a letter on a bamboo-slip scroll with a brush while a courier waits holding out his hands, a clay oil lamp, timber pillars, a plan being made")
 sc(137,["linh"],"a thousand soldiers in iron helmets crowd inside the west gate of a white-walled city at night, torches in their hands, listening, some looking up at the gate bar, tense but orderly, "+NF)
 sc(138,["LBo","linh"],"at dawn Lu Bu's riders reach the foot of the city wall in a long column on a dusty road, the gates swinging wide open before them, soldiers at the gates, "+NF)
-sc(139,["LBo"],"Lu Bu stands upright on the flat top of a gate-tower holding his halberd, below him three cavalrymen gallop through the open city gates carrying torches, smoke and flames over the wall behind, banners, "+NF)
+sc(139,["LBo"],"Lu Bu sits on a stool in the middle of the roofed wooden balcony of a city gate-tower with a wooden railing, one hand holding his halberd upright beside him, seen from below; under the gate three cavalrymen gallop through the open gates carrying torches, smoke and flames over the wall behind, banners, "+NF)
 sc(140,["TP","linh"],"Zhang Fei with his serpent spear stands in the night street of Xiapi among a few of his soldiers looking toward the gate, smoke and torchlight, a troubled expression")
 sc(141,[],"a lacquered wine jar tipped on its side beside a bronze cup on a low table, wine spilled on the straw mat, a clay oil lamp, an empty hall, a novel's invented cause shown as an overturned cup, no people")
 sc(142,["linh"],"a column of four thousand soldiers in iron helmets with spears and plain banners marching through a river gate, seen from behind, mist, hills, a thought about where soldiers come from, "+NF)
@@ -236,6 +236,7 @@ sc(177,["LB","QV","TP"],"Liu Bei in the centre, Guan Yu on his left, Zhang Fei o
 
 assert sorted(S) == list(range(1,178)), [i for i in range(1,178) if i not in S]
 TRIO = {n for n,(nv,_) in S.items() if {"LB","QV","TP"} <= set(nv)}
+NOWP = {20,109}
 HAN2 = ("Setting: Eastern Han China, year 194, plain and rustic. Buildings: thick rammed-earth and grey-brick walls, low heavy grey-tile roofs with a straight ridge and gently sloping eaves, huge red-brown timber pillars, bare unpainted walls, plain bamboo blinds, tiny square windows with a few vertical bars, straw mats and low wooden tables. "
         "Clothing: crossed-collar wide-sleeved robes (right lapel over left) tied with a cloth sash, officials in black gauze caps, soldiers in leather-and-iron scale armour with pointed-top iron caps and neck guards (never round modern helmets, never green army uniforms), cloth shoes or boots. "
         "Every banner, wall, screen and scroll is completely blank plain cloth with no marks. Light only from torches or small clay oil lamps on tables, no hanging lanterns. Nobody holds a bare blade unless the story says so; a sword at the hip is fully in its scabbard. "
@@ -272,7 +273,8 @@ for n in range(1,178):
     for k in keys:
         d=short(NV[k])
         for pre,w in WP.items():
-            if k.startswith(pre): d+=", "+w
+            if k.startswith(pre) and n not in NOWP: d+=", "+w
+        if n in NOWP and (k.startswith("quanvu") or k.startswith("trieuphi")): d+=", empty hands, no weapon"
         if k.startswith("liubei") or k.startswith("taotao"): d+=", empty hands, no weapon"
         if k=="liubei_t5a" and n>=128: d+=", "+PK["an_tran_dong"]
         if k=="liubei_t5c" and n>=164: d+=", "+PK["an_du_chau_muc"]
@@ -283,9 +285,11 @@ for n in range(1,178):
         order=sorted(range(len(keys)),key=lambda i:{"LEFT":0,"CENTRE":1,"RIGHT":2}.get(pos.get(keys[i].split("_")[0]),3))
         descs=[(pos[keys[i].split("_")[0]]+" of the three: " if keys[i].split("_")[0] in pos else "")+descs[i] for i in order]
         m+=", Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right"
-        if n not in (20,): m+=". There are exactly two weapons in the picture: only Guan Yu (left) holds a guandao with a broad curved blade, only Zhang Fei (right) holds a straight spear with a narrow leaf-shaped head, Liu Bei holds nothing"
+        if n in NOWP: m+=". None of the three holds or carries any weapon, no swords, no spears, no guandao, hands empty"
+        if n not in NOWP: m+=". There are exactly two weapons in the picture: only Guan Yu (left) holds a guandao with a broad curved blade, only Zhang Fei (right) holds a straight spear with a narrow leaf-shaped head, Liu Bei holds nothing"
     canh.append({"key":f"{n:03d}","nv":keys,"mo_ta":m})
     rf=refs_for(keys)
+    if n in NOWP: rf=["trio"]
     ch=(" Characters: "+"; ".join(descs)+".") if descs else " An empty quiet scene of objects and landscape only."
     out.append({"key":f"{n:03d}","nv":keys,"refs":rf,"prompt":f"{m}.{ch} {RG(rf)}{STYLE}"})
 (R/"TQ45.json").write_text(json.dumps({"ma":"TQ45","canh":canh},ensure_ascii=False,indent=1),encoding="utf-8")

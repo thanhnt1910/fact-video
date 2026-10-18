@@ -143,7 +143,7 @@
     "trieuphi_t4a",
     "linh"
    ],
-   "mo_ta": "in an army camp at dusk Guan Yu on the left and Zhang Fei on the right stand each holding his very long weapon upright, the poles reaching far above their heads, before ranks of soldiers, serious faces, tents and plain banners"
+   "mo_ta": "in an army camp at dusk Guan Yu on the left and Zhang Fei on the right stand a few steps back from the viewer so that their whole weapons fit inside the frame from tip to butt, each holding his very long weapon upright beside him: Guan Yu's guandao with its broad curved silver blade and bronze dragon collar clearly visible above his head, Zhang Fei's straight spear with its narrow leaf-shaped head, ranks of soldiers behind them, serious faces, tents and plain banners"
   },
   {
    "key": "020",
@@ -152,7 +152,7 @@
     "quanvu_t4a",
     "trieuphi_t4a"
    ],
-   "mo_ta": "inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, all three of slim to average build, Liu Bei in the middle, a clay oil lamp glowing beside them, their weapons leaning on a tent pole, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right"
+   "mo_ta": "inside a canvas tent at night the three brothers lie asleep side by side under woollen blankets on a low wooden platform, all three of slim to average build, Liu Bei in the middle, a clay oil lamp glowing beside them, no weapons anywhere in the tent, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right. None of the three holds or carries any weapon, no swords, no spears, no guandao, hands empty"
   },
   {
    "key": "021",
@@ -787,10 +787,9 @@
   {
    "key": "102",
    "nv": [
-    "liubei_t4c",
-    "quan"
+    "liubei_t4c"
    ],
-   "mo_ta": "a younger Liu Bei in plain dark clothes and a cloth cap stands beside a county official in a black cap before a small county gate, both with empty hands, village houses behind, a modest early-career scene"
+   "mo_ta": "a younger Liu Bei in plain dark clothes and a cloth cap stands alone with empty hands before a small county gate with a junior-official's duties, calm and modest, village houses and a few distant villagers behind, a modest early-career scene"
   },
   {
    "key": "103",
@@ -847,7 +846,7 @@
     "trieuphi_t4b",
     "linh"
    ],
-   "mo_ta": "Liu Bei stands on a stone city wall at dusk looking around at the four directions, worried, Guan Yu on his left and Zhang Fei on his right, soldiers keeping watch along the wall, plain banners, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right. There are exactly two weapons in the picture: only Guan Yu (left) holds a guandao with a broad curved blade, only Zhang Fei (right) holds a straight spear with a narrow leaf-shaped head, Liu Bei holds nothing"
+   "mo_ta": "Liu Bei stands on a stone city wall at dusk looking around at the four directions, worried, Guan Yu on his left and Zhang Fei on his right, soldiers keeping watch along the wall, plain banners, Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right. None of the three holds or carries any weapon, no swords, no spears, no guandao, hands empty"
   },
   {
    "key": "110",
@@ -1080,7 +1079,7 @@
    "nv": [
     "lubo_t5c"
    ],
-   "mo_ta": "Lu Bu stands upright on the flat top of a gate-tower holding his halberd, below him three cavalrymen gallop through the open city gates carrying torches, smoke and flames over the wall behind, banners, no gore, no blood, soldiers with small simple faces"
+   "mo_ta": "Lu Bu sits on a stool in the middle of the roofed wooden balcony of a city gate-tower with a wooden railing, one hand holding his halberd upright beside him, seen from below; under the gate three cavalrymen gallop through the open gates carrying torches, smoke and flames over the wall behind, banners, no gore, no blood, soldiers with small simple faces"
   },
   {
    "key": "140",

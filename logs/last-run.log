@@ -3,19 +3,27 @@
 ▶️  Video dài TQ45: Lưu Bị có Từ Châu và mất Từ Châu thế nào? Không có "ba lần nhường", không có "say rượu" | Tam Quốc theo chính sử, tập 4
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_TQ45.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 177 ảnh: 31 ảnh lỗi, 8 ảnh cần xem
+  🔍 Kiểm tra 177 ảnh: 30 ảnh lỗi, 7 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (19 chương)
-  ⏱️  Thời lượng 21:57 · 177 cảnh ảnh
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (21s)
+     🎙️  Gemini đọc xong 1 chương (19s)
+     🎙️  Gemini đọc xong 1 chương (33s)
+  ⏱️  Thời lượng 22:01 · 177 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
      177/177 ảnh có độ sâu
   🎞️  39 cảnh có clip chuyển động
-     31616 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (308 giây)
-     … 6/12 đoạn (572 giây)
-     … 9/12 đoạn (845 giây)
-     … 12/12 đoạn (862 giây)
-     dựng khung hình xong trong 863 giây
-  🔈 Âm lượng cuối: -15.2 LUFS, đỉnh -3.9 dBTP
-✅ Video dài: TQ45_dai.mp4 (21:57)
+     31726 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (400 giây)
+     … 6/12 đoạn (748 giây)
+     … 9/12 đoạn (1068 giây)
+     … 12/12 đoạn (1103 giây)
+     dựng khung hình xong trong 1104 giây
+  🔈 Âm lượng cuối: -15.1 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
+✅ Video dài: TQ45_dai.mp4 (22:01)
 
 Xong video ngắn: - · video dài: TQ45

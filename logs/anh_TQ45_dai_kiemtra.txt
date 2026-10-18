@@ -55,8 +55,7 @@ KIỂM TRA ẢNH TQ45 · video dài · 177 ảnh (số thứ tự khớp lưới
 ✅ 49 (ảnh mô phỏng AI) ·  049.jpg
 ✅ 50 (ảnh mô phỏng AI) ·  050.jpg
 ✅ 51 (ảnh mô phỏng AI) ·  051.jpg
-⚠️ 52 (ảnh mô phỏng AI) ·  052.jpg
-     ⚠️ Ảnh vẽ cảnh nhận chức/nhận ấn tín, phù hợp với sự kiện Vương Doãn phong chức cho Lữ Bố nhưng không có lỗi rõ ràng về hình ảnh AI hay sai lệch lịch sử. → Không cần sửa
+✅ 52 (ảnh mô phỏng AI) ·  052.jpg
 ✅ 53 (ảnh mô phỏng AI) ·  053.jpg
 ✅ 54 (ảnh mô phỏng AI) ·  054.jpg
 ✅ 55 (ảnh mô phỏng AI) ·  055.jpg
@@ -78,8 +77,7 @@ KIỂM TRA ẢNH TQ45 · video dài · 177 ảnh (số thứ tự khớp lưới
      ❌ Ảnh vẽ một nhân vật mặc giáp đứng bên ngoài giường trong đêm, không đúng với tình tiết 'cho người ngồi đánh đàn tranh trong trướng, còn mình lẻn đi' và 'lính xông vào chém loạn lên giường chăn'. Ngoài ra, trên bàn cạnh giường xuất hiện đèn dầu kiểu hiện đại không phù hợp với bối cảnh thời Tam Quốc. → Vẽ cảnh trong trướng có người đang ngồi gảy đàn tranh hoặc cảnh lính đang xông vào chém rách giường chăn, sử dụng đèn lồng cổ thay cho đèn dầu hiện đại.
 ❌ 67 (ảnh mô phỏng AI) ·  067.jpg
      ❌ Ảnh thể hiện một nhân vật đứng giữa cổng thành cùng lính canh vào ban ngày, không khớp với nội dung lời kể về việc lính xông vào chém chăn ban đêm và nhân vật đã trốn thoát vào sáng hôm sau. → Thay thế bằng ảnh minh họa cảnh lính cầm đuốc xông vào phòng tối chém vào giường chăn hoặc cảnh nhân vật lén lút rời khỏi thành lúc sáng sớm.
-❌ 68 (ảnh mô phỏng AI) ·  068.jpg
-     ❌ Nhân vật chính cưỡi ngựa cầm giáo đi giữa đường làng với đoàn quân theo sau, không phù hợp với phân cảnh nhân vật đang lẩn trốn, chạy trốn một mình hoặc trốn thoát khỏi sự truy đuổi. → Thay đổi hình ảnh minh họa cho phù hợp với cảnh nhân vật đang chạy trốn hoặc di chuyển một mình để tránh sự truy đuổi.
+✅ 68 (ảnh mô phỏng AI) ·  068.jpg
 ✅ 69 (ảnh mô phỏng AI) ·  069.jpg
 ✅ 70 (ảnh mô phỏng AI) ·  070.jpg
 ✅ 71 (ảnh mô phỏng AI) ·  071.jpg
@@ -139,7 +137,7 @@ KIỂM TRA ẢNH TQ45 · video dài · 177 ảnh (số thứ tự khớp lưới
 ✅ 115 (ảnh mô phỏng AI) ·  115.jpg
 ✅ 116 (ảnh mô phỏng AI) ·  116.jpg
 ❌ 117 (ảnh mô phỏng AI) ·  117.jpg
-     ❌ Bàn tay của nhân vật bên phải (được giơ lên) bị lỗi giải phẫu rõ rệt, ngón tay quá dài và bất thường. → Vẽ lại bàn tay cho đúng tỷ lệ giải phẫu học.
+     ❌ Bàn tay của nhân vật bên phải bị biến dạng, các ngón tay duỗi thẳng kỳ lạ và không tự nhiên (lỗi giải phẫu AI). → Dùng AI tạo lại ảnh với chi tiết bàn tay được vẽ chính xác hơn.
 ✅ 118 (ảnh mô phỏng AI) ·  118.jpg
 ✅ 119 (ảnh mô phỏng AI) ·  119.jpg
 ✅ 120 (ảnh mô phỏng AI) ·  120.jpg

@@ -1,0 +1,116 @@
+TỔNG HỢP KIỂM ẢNH · TQ5 · 88 ảnh · 7854 giây · 2 vòng vẽ lại
+Còn lỗi (0): không
+Chưa kiểm bằng AI (58): 001,002,003,008,014,015,017,018,020,021,022,023,024,025,027,029,031,032,033,034,035,036,037,038,040,041,043,045,046,047,048,050,051,053,054,055,056,057,058,061,062,064,065,066,067,068,069,071,074,075,079,080,081,082,084,085,087,088
+
+001 · đạt · cảnh báo: Gemini không kiểm được: 
+002 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+003 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+004 · đạt · điểm 3
+005 · đạt · điểm 3
+006 · đạt · điểm 4
+007 · đạt · điểm 3
+008 · đạt · cảnh báo: Gemini không kiểm được: 
+009 · đạt · điểm 4
+010 · đạt · điểm 3
+011 · đạt · điểm 3
+012 · đạt · điểm 4
+013 · đạt · điểm 3
+014 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+015 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+016 · đạt · điểm 4
+017 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+018 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+019 · đạt · điểm 3
+020 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+021 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+022 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+023 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+024 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+025 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+026 · đạt · điểm 4
+027 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+028 · đạt · điểm 3
+029 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+030 · đạt · điểm 4
+031 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+032 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+033 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+034 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+035 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+036 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+037 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+038 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+039 · đạt · điểm 4
+040 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+041 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+042 · đạt · điểm 3
+043 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+044 · đạt · điểm 3
+045 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+046 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+047 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+048 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+049 · đạt · điểm 3
+050 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+051 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+052 · đạt · điểm 4
+053 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+054 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+055 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+056 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+057 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+058 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+059 · đạt · điểm 3
+060 · đạt · điểm 3
+061 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+062 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+063 · đạt · điểm 3
+064 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+065 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+066 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+067 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+068 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+069 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+070 · đạt · điểm 4
+071 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+072 · đạt · điểm 3
+073 · đạt · điểm 3
+074 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+075 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+076 · đạt · điểm 3
+077 · đạt · điểm 3
+078 · đạt · điểm 3
+079 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+080 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+081 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+082 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 
+083 · đạt · điểm 3
+084 · đạt · cảnh báo: Gemini không kiểm được: 
+085 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+086 · đạt · điểm 3
+087 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+088 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You 

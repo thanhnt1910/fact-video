@@ -1,0 +1,734 @@
+{
+ "001": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "002": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "003": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "004": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Bối cảnh thành trại và đoàn người nhìn từ xa phù hợp, hình vẽ ổn định.",
+  "da_kiem_ai": true
+ },
+ "005": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nét vẽ ổn định.",
+  "da_kiem_ai": true
+ },
+ "006": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Hình ảnh phù hợp bối cảnh hạn hán, nét vẽ và nhân vật ổn định.",
+  "da_kiem_ai": true
+ },
+ "007": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung phát cháo, nét vẽ đạt yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "008": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "009": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, khắc họa tốt cảnh hai cánh quân đối đầu.",
+  "da_kiem_ai": true
+ },
+ "010": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung và bối cảnh đoàn xe di chuyển.",
+  "da_kiem_ai": true
+ },
+ "011": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nét vẽ rõ ràng.",
+  "da_kiem_ai": true
+ },
+ "012": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "ổn",
+  "da_kiem_ai": true
+ },
+ "013": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp bối cảnh ngủ ngoài đồng, nét vẽ chuẩn.",
+  "da_kiem_ai": true
+ },
+ "014": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "015": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "016": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Hình ảnh đoàn người hành quân đêm phù hợp bối cảnh, chất lượng tốt.",
+  "da_kiem_ai": true
+ },
+ "017": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "018": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "019": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "ổn",
+  "da_kiem_ai": true
+ },
+ "020": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "021": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "022": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "023": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "024": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "025": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "026": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nét vẽ rõ ràng và đúng độ tuổi nhân vật.",
+  "da_kiem_ai": true
+ },
+ "027": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "028": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Bối cảnh đoàn người và quân doanh ngoài thành tương đối phù hợp.",
+  "da_kiem_ai": true
+ },
+ "029": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "030": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nét vẽ rõ và chuẩn thời kỳ.",
+  "da_kiem_ai": true
+ },
+ "031": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "032": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "033": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "034": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "035": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "036": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "037": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "038": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "039": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Hình ảnh phù hợp với nội dung khai hoang, nét vẽ chuẩn.",
+  "da_kiem_ai": true
+ },
+ "040": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "041": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "042": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "ổn",
+  "da_kiem_ai": true
+ },
+ "043": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "044": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nét vẽ rõ ràng.",
+  "da_kiem_ai": true
+ },
+ "045": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "046": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "047": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "048": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "049": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung doanh trại quân đội.",
+  "da_kiem_ai": true
+ },
+ "050": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "051": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "052": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Bố cục và tạo hình phù hợp với nội dung Viên Thuật xưng đế.",
+  "da_kiem_ai": true
+ },
+ "053": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "054": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "055": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "056": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "057": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "058": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "059": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Bối cảnh và tạo hình nhân vật nghiêm túc, đúng phong cách.",
+  "da_kiem_ai": true
+ },
+ "060": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Bối cảnh phù hợp, đám đông người lớn đúng phong cách yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "061": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "062": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "063": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nét vẽ rõ ràng và đúng thời kỳ.",
+  "da_kiem_ai": true
+ },
+ "064": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "065": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "066": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "067": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "068": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "069": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "070": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Ảnh thể hiện tốt bối cảnh trao chiếu thư giữa các tướng lĩnh, nét vẽ rõ ràng.",
+  "da_kiem_ai": true
+ },
+ "071": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "072": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "ổn",
+  "da_kiem_ai": true
+ },
+ "073": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Bối cảnh tập kích doanh trại ban đêm phù hợp nội dung, hình ảnh đạt yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "074": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "075": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "076": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "ổn",
+  "da_kiem_ai": true
+ },
+ "077": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh đoàn quân hành quân phù hợp bối cảnh, nét vẽ đúng yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "078": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung rút quân qua sông, phong cách đạt yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "079": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "080": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "081": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "082": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "083": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "ổn",
+  "da_kiem_ai": true
+ },
+ "084": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "085": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "086": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh phù hợp nội dung, nhân vật và bối cảnh thể hiện tốt.",
+  "da_kiem_ai": true
+ },
+ "087": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "088": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You "
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ }
+}

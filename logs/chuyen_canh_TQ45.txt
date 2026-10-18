@@ -1,0 +1,4 @@
+CHUYỂN CẢNH TQ45 (video ngắn) · bảng màu: wipedown, wipeup, smoothleft, hblur, smoothdown
+Thứ tự: cut → cut → cut → hblur → cut → cut → dissolve → fadewhite → cut → cut → cut → fadewhite → cut → cut → cut → hblur → cut
+Số lần: cut 12, hblur 2, fadewhite 2, dissolve 1
+✅ Đạt (không hiệu ứng nào chiếm quá 40%, không dùng hiệu ứng bị cấm)

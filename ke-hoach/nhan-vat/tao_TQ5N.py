@@ -100,6 +100,14 @@ n(82, ["nuthanh", "linh"], "a young woman in a plain pale robe is escorted by a 
 n(83, [TB, HD, "quan"], "seen from behind Cao Cao stands in the doorway of a hall facing the seated emperor while many officials bow in rows")
 n(84, [], "a ruined mansion gate overgrown with grass and fallen plain banners in a dusty yard, completely empty, absolutely no people")
 n(85, [HD], "exactly ONE man only: the young emperor stands at a wooden lattice window looking out over the walls and roofs of Xu at dusk, no second figure")
+# --- đợt 1 sau khi soi (19/10): sửa 16 ảnh có biển chữ, sách, hai người giống nhau, ba người trên một ngựa ---
+NOSIGN = "the buildings have bare plain walls and gates with no signboard, no plaque and no banner with writing above them"
+n(2, ["vienthuat_t5a"], "exactly ONE man only: Yuan Shu in plain unmarked armour stands alone in a grand hall of Shouchun gazing greedily at a bare empty raised wooden platform with nothing on it, no second figure, no crowd, red hangings")
+n(32, [HD, TB], "the young emperor, a slim beardless teenager with a smooth pale face in a pale cream robe, stands beside Cao Cao, a short man with a moustache in a dark charcoal robe, on a dais, two clearly different men, officials in rows below, plain mud-walled hall")
+n(45, [TB, HD, "dan"], "the young emperor sits in an open ox-drawn cart while Cao Cao rides on a separate horse beside the cart, exactly one rider per horse, citizens bow along the street of Xu, banners, daylight")
+n(55, [TB], "exactly ONE man only: Cao Cao stands on the steps of a hall holding a closed tied bamboo-strip bundle in his hand, calm look, no book, no second figure")
+ADD = {1: NOSIGN, 10: NOSIGN, 15: "Han Chinese grey-tiled mud-brick houses only, no red-tiled roofs, no European buildings, no flowers in the foreground", 21: NOSIGN, 41: "flags and banners are plain solid colour with no emblem", 56: NOSIGN, 67: NOSIGN, 77: NOSIGN+", the coffin is a plain wooden box", 80: NOSIGN+", the storehouse has bare walls", 81: "the bed is a low straw-mat platform, the wall behind is bare with no hanging scrolls and no writing, no chair", 82: NOSIGN+", flags plain solid colour", 84: "no hanging banners, a single full-frame picture, no panels, no border, no frame"}
+
 EXTRA_NEG = "nothing written or drawn on any wall, banner or object, no lamp, no chair with a back, no sheets of paper"
 BEATS_NO = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,70,71,72,73,74,75,76,77,78,79,80,81,82,84,85,86,87,88}
 # ánh xạ số đoạn cũ -> cảnh mới nửa sau (n(1..85) theo thứ tự các đoạn có ≥2 câu)
@@ -120,6 +128,7 @@ for k, (b, p, text) in enumerate(units, 1):
     else:
         si += 1
         nv, m = N[si]
+        if si in ADD: m = m + ". " + ADD[si]
         ch = "; ".join(NV[x] for x in nv)
         if nv:
             pr = f"{m}. {EXTRA_NEG}. Characters (keep exactly this look): {ch}. {STYLE}. {SUF} {EXTRA_NEG}."

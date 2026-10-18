@@ -283,6 +283,7 @@ for n in range(1,178):
         order=sorted(range(len(keys)),key=lambda i:{"LEFT":0,"CENTRE":1,"RIGHT":2}.get(pos.get(keys[i].split("_")[0]),3))
         descs=[(pos[keys[i].split("_")[0]]+" of the three: " if keys[i].split("_")[0] in pos else "")+descs[i] for i in order]
         m+=", Liu Bei is exactly in the centre between Guan Yu on his left and Zhang Fei on his right"
+        if n not in (20,): m+=". There are exactly two weapons in the picture: only Guan Yu (left) holds a guandao with a broad curved blade, only Zhang Fei (right) holds a straight spear with a narrow leaf-shaped head, Liu Bei holds nothing"
     canh.append({"key":f"{n:03d}","nv":keys,"mo_ta":m})
     rf=refs_for(keys)
     ch=(" Characters: "+"; ".join(descs)+".") if descs else " An empty quiet scene of objects and landscape only."

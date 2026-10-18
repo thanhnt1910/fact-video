@@ -5,40 +5,17 @@
   🖼️  Ảnh cho video dài
   🔍 Kiểm tra 177 ảnh: 31 ảnh lỗi, 8 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (19 chương)
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (23s)
-     🎙️  Gemini đọc xong 1 chương (22s)
-     🎙️  Gemini đọc xong 1 chương (16s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (21s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (22s)
-     🎙️  Gemini đọc xong 1 chương (11s)
-     🎙️  Gemini đọc xong 1 chương (19s)
-     🎙️  Gemini đọc xong 1 chương (24s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-     🎙️  Gemini đọc xong 1 chương (19s)
-     🎙️  Gemini đọc xong 1 chương (15s)
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (30s)
-     🎙️  Gemini đọc xong 1 chương (20s)
-     🎙️  Gemini đọc xong 1 chương (22s)
-     🎙️  Gemini đọc xong 1 chương (49s)
-     🎙️  Gemini đọc xong 1 chương (25s)
   ⏱️  Thời lượng 21:57 · 177 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-[0;93m2026-10-18 06:07:53.772365383 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
      177/177 ảnh có độ sâu
   🎞️  39 cảnh có clip chuyển động
      31616 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (307 giây)
-     … 6/12 đoạn (587 giây)
-     … 9/12 đoạn (857 giây)
-     … 12/12 đoạn (870 giây)
-     dựng khung hình xong trong 871 giây
+     … 3/12 đoạn (308 giây)
+     … 6/12 đoạn (572 giây)
+     … 9/12 đoạn (845 giây)
+     … 12/12 đoạn (862 giây)
+     dựng khung hình xong trong 863 giây
   🔈 Âm lượng cuối: -15.2 LUFS, đỉnh -3.9 dBTP
-     🌐 dịch tiếng Anh xong (gemini-3.8-flash)
 ✅ Video dài: TQ45_dai.mp4 (21:57)
 
 Xong video ngắn: - · video dài: TQ45

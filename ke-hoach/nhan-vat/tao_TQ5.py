@@ -142,6 +142,13 @@ sc(86, ["hiende_t5", "taotao_t5b", "quan"], "in the hall of Xu the young emperor
 sc(87, [], "an empty ceremonial dais in a dusty dark hall with a flat-topped crown with bead strings lying alone on a low seat, cobwebs and dust, a single beam of light, a hollow throne")
 sc(88, ["liubei_t5"], "Liu Bei sits alone at a low table at night in a room at Xu with a bamboo-slip scroll and a clay oil lamp, looking toward a wooden lattice window with no glass where dark mountains show in the starlight, thoughtful and watchful")
 
+# --- đợt 3: đổi hành động để khỏi vẽ chữ/đèn (mô hình hễ thấy "viết" là vẽ chữ) ---
+S[41] = (["tuanuc_t5"], "Xun Yu stands at the open lattice window of a plain mud-walled room at night holding a closed tied bamboo-strip bundle in both hands, looking out toward a rider on a horse waiting in the moonlit yard, no desk, no chair")
+S[45] = (["taotao_t5b", "trinhduc_t5"], "Cheng Yu stands close to Cao Cao and whispers in his ear while Cao Cao slowly shakes his head, both standing in a bare mud-walled room, a two-eared bronze wine cup on a low stool, no desk, no chair, nothing written anywhere")
+S[56] = (["tonsach_t5"], "Sun Ce stands at night on a wooden balcony of a plain mud-walled house looking out over dark mountains and a river under the moon, holding a closed tied bamboo-strip bundle, spears leaning on the wall behind him, no lamp, no desk")
+S[61] = (["lubo_t5", "tranhkhue_t5", "tranang_t4"], "Lu Bu in armour stands in a courtyard handing a closed tied bamboo-strip bundle to the elder Chen Gui while the young Chen Deng stands beside them holding a small wooden box, daylight, no lamp, no desk")
+S[82] = (["taotao_t5b", "quan"], "in a wide hall of Xu many clerks in black caps carry tied bamboo-strip bundles and sacks of rice across the hall floor in orderly lines while Cao Cao stands in the middle directing them, sacks and baskets of grain stacked along the bare walls, daylight, no tables, no writing")
+
 assert sorted(S) == list(range(1, 89)), [i for i in range(1, 89) if i not in S]
 assert len(BEATS) == 88
 
@@ -164,19 +171,14 @@ FIX = {
  33: NOTXT+", "+NOMAP+", "+NOLAMP,
  34: NOLAMP+", "+NOMAP+", "+NOPAPER,
  38: "flags are plain with no star or emblem",
- 41: NOPAPER+", "+NOCHAIR+", "+NOLAMP+", no candle",
- 45: NOTXT+", no glass wine glass: a two-eared bronze wine cup only, no wall text",
  46: NOTXT+", "+NOMAP+", "+NOLAMP,
  48: NOTXT+", plain unmarked armour, no signboard on the gate",
  54: NOCHAIR,
- 56: NOLAMP+", "+NOPAPER+", "+NOCHAIR+", flags plain with no emblem",
  57: NOLAMP+", "+NOCHAIR,
  58: NOTXT+", "+NOLAMP,
  60: "the pole in the middle of the square is a single straight tall vertical wooden pole with absolutely no crossbar, not a cross, not a T shape",
- 61: NOTXT+", "+NOPAPER,
  69: NOTXT+", "+NOLAMP+", "+NOMAP,
  80: NOTXT+", the fallen banner is a plain solid-colour cloth with no characters",
- 82: NOTXT+", "+NOPAPER+", "+NOCHAIR+" (clerks sit on low benches at low tables)",
  84: NOCHAIR+" (he sits on a low bed platform), no chair or backrest at all",
  87: "the crown is a Han-style flat-topped ceremonial board hat with hanging bead strings, not a European crown with points or jewels",
  88: NOCHAIR+", "+NOPAPER+", "+NOTXT,
@@ -194,13 +196,9 @@ FIX.update({
  27: "the four men look down at "+BAM+"; "+BARE+"; flags plain solid green and blue; a small shallow bronze oil dish with a tiny flame",
  32: BARE+"; plain cloth hangings of solid dark blue and green",
  33: BARE+"; "+BAM+"; a small shallow bronze oil dish with a tiny flame",
- 41: "he writes with a brush on a long narrow bamboo strip; the wooden post by the door is bare wood; a small shallow bronze oil dish with a tiny flame; he sits on a low stool",
- 45: "on the low table lie bamboo strips and a two-eared bronze wine cup; "+BARE,
+# 41: "he writes with a brush on a long narrow bamboo strip; the wooden post by the door is bare wood; a small shallow bronze oil dish with a tiny flame; he sits on a low stool",
  46: "behind him hangs a plain blank cream cloth with nothing on it, a small shallow bronze oil dish on a low table, flags plain solid colour",
  54: BARE+"; low tables and straw mats, plain solid-colour hanging cloths",
- 56: "a small shallow bronze oil dish with a tiny flame lights the low desk; he writes with a brush on a long narrow bamboo strip and sits on a low stool; flag plain solid green",
- 61: "he writes with a brush on a long narrow bamboo strip; "+BARE,
- 82: BARE+"; clerks sit on low benches and write on bamboo strips with brushes at long low tables",
 })
 
 BGRULE = "Every picture has a rich detailed background that fits the place and the story (architecture, landscape, tents, banners, hills), never a plain blank or solid-colour backdrop"

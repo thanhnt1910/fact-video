@@ -1,71 +1,113 @@
-001: điểm 3 · vu_khi_sai: kiếm của Lưu Bị vẽ kiểu katana Nhật Bản (chuôi quấn dây, bao cong) thay vì kiếm thẳng thời Hán; sai_thoi: đèn tường kiểu đèn lồng kính/phương Tây hiện đại gắn trên cột gỗ · Bố cục cảnh khá chuẩn nhưng kiếm của Lưu Bị vẽ nhầm thành katana Nhật Bản và đèn
-002: điểm 3 · lech_nhan_vat: Lưu Bị thiếu kiếm bên hông; mái Hàn/Nhật · Kiến trúc mái nhà mang phong cách Hàn-Nhật và Lưu Bị thiếu kiếm bên hông.
-003: không kiểm tra được (Remote end closed connection without response)
-004: điểm 3 · sai_thoi: nến · Vật ở giữa bàn là cây nến cắm thay vì đèn dầu đất nung theo yêu cầu.
-005: điểm 3 · sai_thoi: khung cửa sổ trượt hiện đại có kính; có chữ · Cửa sổ mang kết cấu trượt kính hiện đại và cuộn sách mở là giấy thay vì thẻ tre.
-006: điểm 3 · sai_thoi: ghế tựa có lưng; lech_nhan_vat: Lưu Bị thiếu kiếm đeo hông · Bối cảnh dùng ghế tựa sai thời kỳ và nhân vật thiếu kiếm bên hông.
-007: điểm 3 · lech_nhan_vat: Liu Bei thiếu thanh kiếm tra vỏ bên hông; Liu Bei đứng cận cảnh nhìn về phía trước thay vì đứng nhỏ nhìn ra th · Bố cục nhân vật đứng cận cảnh nhìn thẳng thay vì đứng nhỏ nhìn về phía thành, đồ
-008: điểm 3 · sai_thoi: tòa nhà cao tầng/tháp hiện đại ở thành phố xa xa; hai người giống hệt · Đường chân trời thành phố ven sông có đường nét giống tháp và nhà cao tầng hiện 
-009: điểm 2 · sai_thoi: nhà cao tầng hiện đại ở hậu cảnh; lech_nhan_vat: Lưu Bị không mặc quan phục; lính canh không đội mũ sắt hay mặc giáp theo mô tả mà mặc đồ giống Lưu Bị; hai người giống hệt; điểm 2/5 · Bối cảnh phía xa xuất hiện các tòa nhà cao tầng hiện đại và hai nhân vật bị vẽ g
-011: điểm 2 · lech_nhan_vat: Gongsun Zan thiếu giáp sắt và trang phục xanh thẫm, Liu Bei thiếu kiếm bên hông; hai người giống hệt; điểm 2/5 · Hai nhân vật chính bị vẽ giống hệt nhau như nhân bản và sai trang phục mô tả.
-012: điểm 3 · sai_thoi: đèn tường chụp bóng kính dạng hiện đại; cuộn giấy thay vì thẻ tre; lech_nhan_vat: Lưu Bị thiếu kiếm đeo hông, mặt nghiêm nghị có râu thay vì hiền từ, tai và tay chưa rõ nét đặc trưng; có chữ · Bối cảnh khá tốt nhưng đèn gắn tường sai thời đại và Lưu Bị thiếu kiếm bên hông.
-013: điểm 2 · sai_thoi: quân phục và mũ sắt phong cách thế chiến cận hiện đại của binh sĩ; bản đồ phân chia ranh giới kiểu hiện đại; lech_nhan_vat: binh sĩ mang trang phục quân đội hiện đại; hai nhân vật chính chạm tay thay vì chỉ hướng bắc; có chữ; điểm 2/5 · Binh sĩ xung quanh mặc nhầm quân phục và mũ sắt cận hiện đại.
-014: điểm 4 · hai người giống hệt · Bám sát mô tả cảnh hai hàng quân dàn trận đối diện qua sông, bố cục ổn định.
-015: điểm 3 · lech_nhan_vat: Lưu Bình không mặc áo màu mận chín; Lưu Bị thiếu nét mặt hiền từ, tai to tay dài và không có cảnh dân chúng ni · Bố cục biến thành hai người đứng đối đầu trực diện, sai lệch hành động dân chúng
-016: điểm 3 · sai_thoi: ghế tựa có lưng; chuôi kiếm kiểu katana Nhật Bản · Bố cục tốt bám sát mô tả, xuất hiện ghế có lưng tựa và chuôi kiếm kiểu Nhật Bản.
-017: điểm 2 · sai_thoi: núm xoay cửa hiện đại; lech_nhan_vat: Sát thủ không có khăn che mặt; Lưu Bị thiếu tai to tay dài, vị trí đứng sai so với cửa; hai người giống hệt; điểm 2/5 · Hai nhân vật có tạo hình trang phục và tóc quá giống nhau, sai vị trí mô tả.
-018: điểm 3 · vu_khi_sai: thanh long đao của Quan Vũ bị teo nhỏ và biến dạng thành đầu chùy/lưỡi nhỏ cắm xuống đất; lech_nhan_vat: Trương Phi bị vẽ cởi trần · Bố cục đẹp đúng yêu cầu nhưng vũ khí của Quan Vũ bị vẽ lỗi biến dạng và Trương P
-019: điểm 3 · vu_khi_sai: cán trượng hình đầu rắn kỳ lạ phía sau Trương Phi; lech_nhan_vat: Quan Vũ thiếu thanh long yển nguyệt đao; Trương Phi thiếu bát xà mâu chuẩn; Binh lính không có mũ sắt và áo gi · Thiếu vũ khí đặc trưng của hai tướng và trang bị giáp trụ của binh lính.
-021: điểm 3 · hai người giống hệt · Ba binh sĩ nhìn giống hệt nhau và nhân vật đứng chênh vênh trên mép tường thành.
-022: điểm 4 · ổn · Hình vẽ bám sát mô tả kịch bản, trang phục và bối cảnh chuẩn xác.
-023: điểm 4 · ổn · Hình ảnh thể hiện đúng bối cảnh và mô tả nhân vật, không có lỗi đáng kể.
-024: điểm 2 · sai_thoi: đèn treo quả cầu kính; lech_nhan_vat: Lưu Bị không đặt tay lên ngực; Thái Sử Từ không cúi chào mà đứng nhìn thẳng; có chữ; điểm 2/5 · Sai hoàn toàn tư thế nhân vật, đứng nhìn thẳng thay vì hành động theo ngữ cảnh.
-025: điểm 3 · lech_nhan_vat: Lưu Bị không có kiếm bên hông, quay lưng lại cửa sổ thay vì nhìn ra ngoài · Nhân vật đứng quay mặt về phía trước thay vì ngắm cảnh qua cửa sổ và thiếu kiếm 
-026: điểm 3 · lech_nhan_vat: Lưu Bị không có kiếm bên hông và đứng xuôi tay thay vì chỉ tay giao quyền · Bối cảnh và nhân vật đạt yêu cầu nhưng Lưu Bị chưa thực hiện hành động chỉ tay g
-027: điểm 3 · có chữ; hai người giống hệt · Bám sát mô tả cảnh hành quân, binh lính hơi mang tính sao chép và có ký tự nhỏ t
-… 25/66 (3856 giây)
-028: điểm 3 · sai_thoi: giày bốt buộc dây hiện đại · Thái Sử Từ mang giày bốt buộc dây hiện đại, còn lại bối cảnh khá tốt.
-029: điểm 3 · lech_nhan_vat: Lưu Bị không có kiếm đeo hông, đứng dưới sân thành thay vì trên lầu canh; mái Hàn/Nhật · Lưu Bị thiếu kiếm bên hông và đứng dưới thành thay vì trên lầu gác.
-030: điểm 3 · sai_thoi: nến; lech_nhan_vat: Cao Cao bị vẽ hói đầu không có búi tóc, kiếm tuốt trần thay vì tra bao ở hông · Bối cảnh tốt nhưng tạo hình Cao Cao bị hói đầu sai quy cách cổ trang và kiếm bị 
-031: điểm 3 · tay_chan_thua: người ngồi xe thứ hai có đôi chân thò xuống gầm xe kéo đất; sai_thoi: đường nhựa; hai người giống hệt · Mặt đường rải nhựa hiện đại và xe hàng phía sau thiếu bò kéo, có chân người thò 
-032: điểm 4 · ổn · Hình ảnh thể hiện đúng yêu cầu bối cảnh và không khí.
-033: điểm 3 · lech_nhan_vat: Tào Tháo không có râu mép và râu cằm · Tào Tháo thiếu râu theo mô tả và cùng quỳ phục dưới đất.
-034: điểm 3 · lech_nhan_vat: Cao Tháo để tóc vuốt tự do, thiếu búi tóc hoặc khăn trùm đầu thời Hán · Bám sát mô tả cảnh viếng mộ, chỉ có tóc và chuôi kiếm mang nét phương Tây.
-035: điểm 3 · ổn · Bối cảnh kiến trúc và thuyền tốt nhưng hoàn toàn vắng bóng người và thương nhân.
-036: điểm 3 · kiem: Tào Tháo có hai bao kiếm đối xứng hai bên hông/yên ngựa; lech_nhan_vat: Tào Tháo thiếu chòm râu cằm và không búi tóc/đội mũ theo lối thời Hán; mái Hàn/Nhật; hai người giống hệt · Binh lính mặt mũi rập khuôn, Tào Tháo thiếu râu cằm và búi tóc đúng thời đại.
-037: điểm 3 · hai người giống hệt · Hình ảnh thể hiện đúng bố cục và yêu cầu mô tả, các nhân vật lính vẽ lặp lại đơn
-038: điểm 3 · ổn · Hình ảnh thể hiện đúng bối cảnh dòng người tị nạn và nhân vật nông dân.
-039: điểm 2 · tay_chan_thua: người bên trái thừa một cánh tay thõng xuống dưới tay bê bát; lech_nhan_vat: thiếu hẳn đoàn binh lính đi ngang qua, thay bằng hai nông dân giống hệt nhau; hai người giống hệt; điểm 2/5 · Người bên trái thừa tay và thiếu hẳn đoàn lính theo yêu cầu.
-040: điểm 2 · tay_chan_thua: người đưa thư mọc phần thân sau và đuôi ngựa dính liền vào lưng; nguoi_nguoc: người đưa thư có tai ngựa mọc trên đầu; lech_nhan_vat: người đưa thư bị lai thành nhân mã có tai và đuôi ngựa; tướng Điền Khải không có râu ngắn theo mô tả; điểm 2/5 · Người đưa thư bị vẽ lỗi nghiêm trọng thành nửa người nửa ngựa với tai và đuôi ng
-041: điểm 3 · kiem: Lưu Bị lộ lưỡi kiếm trần chúc xuống đất; lech_nhan_vat: Lưu Bị và chỉ huy đi bộ thay vì cưỡi ngựa, thiếu đặc điểm tay dài tai to · Hai nhân vật chính đứng bộ thay vì cưỡi ngựa dẫn quân.
-042: điểm 3 · lech_nhan_vat: Lưu Bị thiếu gươm đeo hông và chưa thể hiện rõ đặc điểm tay dài, tai lớn; máu me · Bối cảnh sát yêu cầu nhưng Lưu Bị thiếu kiếm và các nét ngoại hình đặc trưng.
-043: điểm 3 · lech_nhan_vat: Lưu Bị cầm kiếm trần thay vì đeo kiếm trong bao ở hông; có chữ · Bố cục và nhân vật bám sát mô tả, chỉ lệch chi tiết Lưu Bị cầm kiếm trần trên ta
-044: điểm 3 · ổn · Hình ảnh thể hiện tốt nhân vật và bối cảnh thành lũy ven sông theo đúng mô tả.
-045: điểm 2 · sai_thoi: trang phục hiện đại; mũ kê-pi; kính cửa; lech_nhan_vat: Thiếu Đào Khiêm già râu trắng áo quan; Ba nhân vật trung tâm bị vẽ giống hệt nhau không rõ ai là Lưu Bị; hai người giống hệt; điểm 2/5 · Trang phục đám đông lẫn quân phục hiện đại, ba nhân vật chính bị nhân bản và thi
-046: điểm 3 · lech_nhan_vat: Tao Qian trẻ, râu đen ngắn thay vì râu trắng dài và thiếu mũ quan; Liu Bei không cúi chào; hai người giống hệt · Đào Khiêm bị vẽ quá trẻ, sai râu và không đúng động tác chào.
-047: điểm 4 · ổn · Hình vẽ bám sát yêu cầu, nhân vật và bối cảnh rõ ràng không có lỗi giải phẫu.
-048: điểm 3 · lech_nhan_vat: người trao ấn là tướng/lính giáp thay vì viên quan áo đen đứng cạnh; có chữ · Binh sĩ trao ấn thay vì quan lại, bố cục và chi tiết chung khá tốt.
-049: điểm 4 · ổn · ổn
-050: điểm 3 · kiem: Tào Tháo có kiếm/chuôi kiếm chéo nhau kỳ dị ở thắt lưng; lech_nhan_vat: Tào Tháo mắt bị vẽ toàn lòng trắng không có con ngươi; mái Hàn/Nhật; hai người giống hệt · Mắt Tào Tháo bị mất con ngươi và kiếm đeo ở hông bị biến dạng chéo nhau.
-051: điểm 3 · mái Hàn/Nhật · Bối cảnh hoang tàn sát mô tả, góc mái hơi cong so với thời Hán.
-052: điểm 3 · vu_khi_sai: kích sau lưng Lữ Bố vẽ dạng chĩa ba thay vì kích một ngạnh; sai_thoi: kính cửa ở hậu cảnh; đèn treo tường có lồng kính phong cách Tây; lech_nhan_vat: Lữ Bố đứng thẳng không cúi chào và vũ khí sai chi tiết ngạnh kích; có chữ · Bối cảnh dính lỗi cửa kính và đèn lồng kiểu Tây cận đại, vũ khí sai dạng.
-… 50/66 (4914 giây)
-053: điểm 3 · vu_khi_sai: vũ khí của Lữ Bố bị đứt đoạn giữa thân và mũi giáo không đúng hình kích một lưỡi trăng; lech_nhan_vat: Lữ Bố đội mũ sắt thay vì dải vải buộc tóc, vũ khí không rõ lưỡi bán nguyệt; mái Hàn/Nhật; hai người giống hệt · Bố cục khá tốt nhưng vũ khí của Lữ Bố vẽ sai và hai hộ vệ phía sau bị nhân bản.
-054: điểm 3 · lech_nhan_vat: nhân vật ở giữa đứng đi bộ thay vì cưỡi ngựa như mô tả; hai người giống hệt · Bố cục tốt nhưng nhân vật ở khoảng giữa đứng đi bộ thay vì cưỡi ngựa.
-055: điểm 3 · lech_nhan_vat: Lã Bố đội mũ sắt thay vì búi tóc quấn vải, cầm thương thay vì kích có lưỡi bán nguyệt, không có áo choàng rách; có chữ; mái Hàn/Nhật · Nhân vật chính tạo hình sai vũ khí và trang phục, cổng thành có mái cong và biển
-056: điểm 3 · vu_khi_sai: Vũ khí sau lưng nhân vật chính lơ lửng không người cầm, mũi kích sai hình dạng; sai_thoi: Thành lũy kiểu pháo đài phương Tây thời Trung cổ; lech_nhan_vat: Lữ Bố đi bộ thay vì cưỡi ngựa, đội mũ giáp sắt thay vì buộc khăn, không có áo choàng rách, không cầm phương th; có chữ · Lữ Bố đi bộ và sai lệch nhiều chi tiết trang phục, thành lũy phía xa mang phong 
-057: điểm 3 · sai_thoi: đèn treo; có chữ · Bố cục và nhân vật khá tốt, chỉ có đèn treo tường và hoành phi chữ chưa sát thời
-058: điểm 2 · sai_thoi: cửa cuốn; tay nắm cửa hiện đại; tường gạch bê tông hiện đại; lech_nhan_vat: Lữ Bố đội mũ giáp kim loại thay vì buộc dải vải, không cầm vũ khí trên tay; điểm 2/5 · Bối cảnh bị hiện đại hóa với cửa cuốn cùng tường khối hộp, nhân vật không cầm vũ
-059: điểm 2 · vu_khi_sai: Lữ Bố cầm giáo thay vì kích có lưỡi nguyệt; sai_thoi: đường nhựa; lech_nhan_vat: Lữ Bố đội mũ giáp thay vì dải vải buộc tóc, cầm giáo thường; điểm 2/5 · Bối cảnh dính lỗi nặng đường nhựa hiện đại có vạch kẻ và nhân vật đi ngược hướng
-060: điểm 3 · vu_khi_sai: Kích có hai lưỡi nguyệt đối xứng thay vì một lưỡi, lơ lửng không có tay cầm; lech_nhan_vat: Viên Thiệu và Lữ Bố đứng bộ thay vì cưỡi ngựa; Kích của Lữ Bố vẽ hai ngạnh thay vì một · Hai tướng đứng bộ thay vì cưỡi ngựa và họa kích vẽ sai số lưỡi.
-061: điểm 3 · vu_khi_sai: Vũ khí là giáo thẳng, thiếu lưỡi trăng bán nguyệt của kích; lech_nhan_vat: Lữ Bố cầm giáo thay vì phương thiên họa kích (thiếu lưỡi phụ bán nguyệt) · Hình vẽ tốt nhưng vũ khí bị vẽ thành ngọn giáo thay vì kích có lưỡi bán nguyệt.
-062: điểm 3 · lech_nhan_vat: Lữ Bố đội mũ trụ thay vì vấn tóc bằng dải vải, thiếu áo choàng, cầm giáo thường thay vì phương thiên họa kích; có chữ; hai người giống hệt · Lữ Bố vẽ sai vũ khí và trang phục mô tả, lính bộ phía trước có giáp mặt giống hệ
-063: điểm 3 · sai_thoi: cột điện ven đường; xe cơ giới/xe tải ở hậu cảnh; lech_nhan_vat: Yuan Shao đứng cầm vũ khí thay vì ngồi trong lều quan sát · Bối cảnh dính chi tiết hiện đại như cột điện và xe cơ giới, nhân vật không ngồi 
-065: điểm 3 · sai_thoi: đèn dầu có bóng kính · Đèn dầu có bóng thủy tinh sai thời đại và nhạc cụ chưa đúng hình dáng cổ cầm.
-066: điểm 4 · ổn · Hình ảnh thể hiện tốt cảnh lều trại ban đêm, bố cục và chi tiết ổn.
-068: điểm 2 · tay_chan_thua: Lữ Bố có thân dưới biến dị thành chân móng ngựa thay vì cưỡi ngựa; lech_nhan_vat: Lữ Bố đội mũ giáp thay vì dải vải, chân biến thành chân ngựa; điểm 2/5 · Lữ Bố bị lỗi AI dính liền thân thể thành nhân mã với chân móng ngựa.
-069: điểm 3 · lech_nhan_vat: Lữ Bố đội mũ giáp kim loại thay vì buộc dải vải, kích cầm dựng đứng thay vì gác ngang đầu gối · Lữ Bố đội mũ giáp sai mô tả và cầm vũ khí dựng đứng thay vì đặt ngang đùi.
-070: điểm 3 · kiem: Cao Cao cầm kiếm trần không có vỏ; sai_thoi: đèn lồng gắn cột kiểu cận hiện đại; chiếu trải sàn kiểu tatami; lech_nhan_vat: Cao Cao ngồi cách xa không nắm tay Trương Mạo và cầm kiếm trần thay vì đeo kiếm có vỏ · Hai nhân vật ngồi quá xa nhau, thiếu hành động nắm tay và Cao Cao cầm kiếm trần.
-GEMINI XEM ẢNH TAM QUỐC · TQ45 · 65/66 ảnh
-Nên vẽ lại (56): 001,002,004,005,006,007,008,009,011,012,013,014,015,016,017,018,019,021,024,025,026,027,028,029,030,031,033,034,036,037,039,040,041,042,043,045,046,048,050,051,052,053,054,055,056,057,058,059,060,061,062,063,065,068,069,070
-Không kiểm tra được (1): 003
+010: điểm 3 · vu_khi_sai: Quan Vũ cầm vũ khí dạng rìu ngắn gắn trên cán thay vì thanh long đao; có chữ · Vũ khí của Quan Vũ sai dạng thanh long đao và cờ hậu cảnh có ký hiệu lạ.
+020: điểm 3 · vu_khi_sai: Vũ khí của Quan Vũ có kết cấu dị thường, lưỡi đao và cán ngược chiều; có chữ · Ba nhân vật ngồi thay vì nằm ngủ dưới chăn và đao của Quan Vũ bị lỗi cán.
+052: không kiểm tra được (gemini-2.5-flash: HTTP 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no lon)
+053: không kiểm tra được ()
+055: không kiểm tra được ()
+056: không kiểm tra được ()
+057: không kiểm tra được ()
+058: không kiểm tra được ()
+059: không kiểm tra được ()
+060: không kiểm tra được ()
+061: không kiểm tra được ()
+062: điểm 3 · có chữ · Tạo hình và bố cục bám sát yêu cầu, xuất hiện ký tự trên cờ hiệu.
+063: không kiểm tra được ()
+064: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+067: điểm 3 · ổn · Bố cục tạm ổn, Viên Thiệu đứng trực tiếp trên bờ tường chưa hợp lý.
+068: không kiểm tra được ()
+069: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+071: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+072: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+073: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+074: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+075: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+076: điểm 3 · vu_khi_sai: tướng cầm hai vũ khí dáng rìu chiến kỳ ảo thay vì phương thiên họa kích một lưỡi trăng; sai_thoi: kính cửa sổ trên tầng lầu bên trái; có chữ; mái Hàn/Nhật · Thiếu một nhân vật chính, tướng cầm hai vũ khí sai quy cách và mái cổng cong.
+077: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+078: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+079: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+080: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+081: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+082: điểm 3 · sai_thoi: đèn dầu bóng kính · Bối cảnh và nhân vật tốt, chỉ có đèn dầu bóng kính sai thời đại.
+083: không kiểm tra được (gemini-3.8-flash: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chec)
+084: không kiểm tra được ()
+085: không kiểm tra được ()
+086: không kiểm tra được ()
+087: không kiểm tra được ()
+088: không kiểm tra được ()
+089: không kiểm tra được ()
+090: không kiểm tra được ()
+091: không kiểm tra được ()
+092: không kiểm tra được ()
+093: không kiểm tra được ()
+094: không kiểm tra được ()
+095: không kiểm tra được ()
+096: không kiểm tra được ()
+097: không kiểm tra được ()
+098: không kiểm tra được ()
+099: không kiểm tra được ()
+100: không kiểm tra được ()
+101: không kiểm tra được ()
+102: điểm 3 · vu_khi_sai: kiếm cong kiểu katana của người bên phải · Vẽ dư một nhân vật và cầm kiếm trần dạng katana Nhật.
+103: điểm 3 · mái Hàn/Nhật · Bố cục tốt, kiến trúc mái nhà mang hơi hướng phong cách truyền thống Hàn-Nhật.
+… 50/124 (6071 giây)
+104: điểm 3 · kiem: Lưu Bị kiếm trần ở hông · Lưu Bị có kiếm trần không vỏ ở hông và kiến trúc hậu cảnh mang nét phương Tây.
+105: điểm 3 · sai_thoi: vạch kẻ đường màu vàng kiểu hiện đại · Bố cục đúng mô tả nhưng dải vàng vẽ như vạch sơn phân làn hiện đại.
+106: điểm 3 · sai_thoi: thành phố có nhà cao tầng hiện đại với cửa kính và ánh đèn điện · Bối cảnh thành phố phía xa có kiến trúc hiện đại và đèn điện sai thời đại.
+107: điểm 3 · mái Hàn/Nhật · Mái tháp canh có góc cong vút thời sau và nhân vật đứng dưới đất thay vì trên th
+108: điểm 4 · có chữ · Hình vẽ bám sát mô tả bối cảnh và nhân vật, chỉ có chữ giả trên tranh treo tường
+109: điểm 3 · ổn · Bố cục và tạo hình nhân vật nhìn chung đạt yêu cầu.
+110: điểm 3 · có chữ; mái Hàn/Nhật · Chưa thể hiện rõ ngã tư bốn con đường và mái cổng thành cong sai thời kỳ.
+111: điểm 4 · ổn · Hình vẽ bám sát mô tả cảnh, không phát hiện lỗi tạo hình rõ rệt.
+112: điểm 3 · hai người giống hệt · Ảnh vẽ trùng lặp nhân vật Lưu Bị ở cả cận cảnh lẫn đồi phía xa.
+113: điểm 3 · kiem: người bên trái có hai kiếm, một kiếm tuốt trần trước bụng; lech_nhan_vat: người bên trái bị hói đỉnh đầu, không có búi tóc thời Hán; có chữ · Tào Tháo bị tạo hình hói đỉnh đầu kiểu Nhật và vũ khí ở thắt lưng vẽ rối.
+114: điểm 3 · ổn · ổn
+115: không kiểm tra được (Remote end closed connection without response)
+116: điểm 3 · sai_thoi: đèn lồng kính kiểu phương Tây hiện đại · Bối cảnh và nhân vật đạt yêu cầu nhưng xuất hiện đèn lồng kính sai thời đại.
+117: điểm 3 · kiem: người bên trái cầm kiếm lộ lưỡi trần có chuôi/chắn tay chéo nhau dị dạng; vu_khi_sai: kiếm người bên trái có hai thanh chắn tay đan chéo bất thường; sai_thoi: đèn dầu có bóng thủy tinh hiện đại đặt hai bên; có chữ · Đèn dầu bóng kính hiện đại sai thời đại và kiếm của nhân vật bị lỗi vẽ chéo dị d
+118: điểm 3 · kiem: Tào Tháo cầm kiếm trần trên tay trong khi bên hông trái vẫn có thêm một chuôi kiếm; có chữ · Bối cảnh đúng yêu cầu, dính chữ trên giáp ngực và Tào Tháo bị thừa một thanh kiế
+119: điểm 3 · ổn · Nhân vật đi bộ thay vì cưỡi ngựa như yêu cầu, bối cảnh và nét vẽ tương đối ổn.
+120: điểm 3 · vu_khi_sai: Lữ Bố cầm cùng lúc hai ngọn kích hai tay với đầu kích lai tạp kiểu Tây phương; có chữ · Lữ Bố cầm hai ngọn vũ khí cán dài không đúng mô tả và đội hình có lính chạy bộ.
+121: điểm 3 · vu_khi_sai: kích của Lữ Bố thiếu mũi giáo thẳng ở giữa, chỉ có phần lưỡi trăng; mái Hàn/Nhật · Hình vẽ khá bám sát yêu cầu nhưng vũ khí và kiến trúc mái cong chưa chuẩn thời H
+122: điểm 3 · vu_khi_sai: kích bị vẽ thành đinh ba ba chĩa; có chữ · Sai tư thế nhân vật và vũ khí của Lữ Bố vẽ thành đinh ba.
+123: điểm 3 · sai_thoi: cốc có quai; kính cửa · Bố cục nhân vật tốt nhưng mắc lỗi sai thời đại ở cửa kính và tách uống nước có q

@@ -1,0 +1,1078 @@
+{
+ "id": "TQ45",
+ "topic": "lich-su",
+ "title": "Lưu Bị có Từ Châu và mất Từ Châu thế nào? Không có \"ba lần nhường\", không có \"say rượu\"",
+ "caption": "Trong tiểu thuyết, Từ Châu được nhường ba lần. Trong sử, Lưu Bị có Từ Châu rồi mất Từ Châu theo một cách khác hẳn. Tam Quốc theo chính sử, tập 4 🏯",
+ "hashtags": [
+  "nguoigacsu",
+  "tamquoc",
+  "luubi",
+  "tuchau",
+  "lichsu",
+  "chinhsu"
+ ],
+ "sources": [
+  "Trần Thọ, Tam quốc chí, Thục thư, Tiên chủ truyện (bản dịch tiếng Anh, the-scholars.com) và chú giải Bùi Tùng Chi (Điển lược, Ngụy thư, Hiến Đế xuân thu) qua sanguozhi.5000yan.com",
+  "Hậu Hán thư và Tư trị thông giám (phần kinh đô năm 189 và liên quân năm 190) — chưa đối chiếu nguyên văn"
+ ],
+ "nguon_link": [
+  {
+   "ten": "Bản dịch hiện đại Tiên chủ truyện, sanguozhi.5000yan.com",
+   "url": "https://sanguozhi.5000yan.com/",
+   "ngon_ngu": "tiếng Trung"
+  },
+  {
+   "ten": "Bản dịch tiếng Anh Tiên chủ truyện, the-scholars.com",
+   "url": "https://the-scholars.com/",
+   "ngon_ngu": "tiếng Anh"
+  }
+ ],
+ "music": "none",
+ "giong_them": "HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, still clear Northern Vietnamese diction.",
+ "pronounce": {},
+ "long": {
+  "chuyen_canh": "fade",
+  "title": "Lưu Bị có Từ Châu và mất Từ Châu thế nào? Không có \"ba lần nhường\", không có \"say rượu\" | Tam Quốc theo chính sử, tập 4",
+  "title_card": "Tam Quốc chính sử: **Từ Châu** được và mất",
+  "description": "Trong tiểu thuyết, Đào Khiêm ba lần nhường Từ Châu cho Lưu Bị và ông ba lần từ chối. Tập 4 của series Tam Quốc theo chính sử đối chiếu với Tam quốc chí: Lưu Bị nhận Từ Châu ra sao, vì sao Lữ Bố và Tào Tháo xuất hiện, và ông mất Từ Châu thế nào.",
+  "voice": "Sadaltager",
+  "music": "none",
+  "bia": {
+   "anh": "assets/anh_2d/TQ45_V2/001.jpg",
+   "nen": "assets/anh_2d/TQ45_V2/002.jpg",
+   "huy_hieu": "TAM QUỐC CHÍNH SỬ · TẬP 4",
+   "dong1": "KHÔNG CÓ",
+   "dong2": "BA LẦN NHƯỜNG",
+   "gach": true,
+   "dong3": "Lưu Bị được và mất Từ Châu thế nào?"
+  },
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Trong tiểu thuyết, Lưu Bị có được Từ Châu bằng một cảnh đẹp như vở kịch.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/001.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_001.mp4"
+     },
+     {
+      "text": "Đào Khiêm sắp mất, ba lần đem Từ Châu nhường cho ông, ba lần ông từ chối, cuối cùng cả châu quỳ xuống van xin.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/002.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_002.mp4"
+     },
+     {
+      "text": "Rồi cũng trong tiểu thuyết, ông mất Từ Châu vì một chén rượu: Trương Phi uống say, đánh Tào Báo, và Lữ Bố nhân đó chiếm thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/003.jpg"
+     },
+     {
+      "text": "Một lần được vì đức, một lần mất vì rượu. Hai cảnh ấy dễ nhớ, và cũng dễ tin.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/004.jpg"
+     },
+     {
+      "text": "Nhưng khi mở sử ra, cả hai đều gọn hơn nhiều, và thực tế hơn nhiều.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/005.jpg"
+     },
+     {
+      "text": "Không có ba lần từ chối, cũng không có chén rượu nào. Chỉ có con người, tiền của, những lời khuyên rất tính toán, và một kẻ được cho nương nhờ rồi quay lại lấy luôn cái thành mình đang ở.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/006.jpg"
+     },
+     {
+      "text": "Tập trước dừng ở một câu hỏi: vì sao một người chưa có đất, chưa có quân lớn, lại được cả một châu nhắc tới?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/007.jpg"
+     },
+     {
+      "text": "Câu trả lời không nằm ở may mắn. Nó nằm trong hai chuyến đi cứu người, một ở phương bắc, một ở phương đông, và cả hai đều là những chuyến đi mà nhiều người khác chọn đứng nhìn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/008.jpg"
+     },
+     {
+      "text": "Còn câu hỏi thứ hai khó hơn: khi đã có Từ Châu trong tay, vì sao Lưu Bị lại mất nó, và mất vào tay ai?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/009.jpg"
+     },
+     {
+      "text": "Đây là Tam Quốc theo chính sử, tập bốn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/010.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Tướng nhỏ ở Bình Nguyên",
+    "beats": [
+     {
+      "text": "Ta quay lại chỗ tập ba dừng. Lưu Bị đang giữ Bình Nguyên, dưới trướng người bạn học cũ Công Tôn Toản.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/011.jpg"
+     },
+     {
+      "text": "Chức của ông lên từng nấc nhỏ: Công Tôn Toản tâu cho làm Biệt bộ tư mã, rồi ông làm lệnh, rồi làm tướng Bình Nguyên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/012.jpg"
+     },
+     {
+      "text": "Nhiệm vụ của ông là cùng Điền Giai, thứ sử Thanh Châu, chặn đường Viên Thiệu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/013.jpg"
+     },
+     {
+      "text": "Ông đánh được nhiều trận, nhưng chức vẫn nhỏ: một người đứng ở rìa cuộc chiến lớn, ít ai nhớ tên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/014.jpg"
+     },
+     {
+      "text": "Ngay trong quận cũng có người coi thường ông: Lưu Bình, thấy phải đứng dưới Lưu Bị là điều nhục.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/015.jpg"
+     },
+     {
+      "text": "Lưu Bình thuê một người khách đi giết ông. Người khách đến, nhưng không nỡ ra tay, nói thật mọi chuyện với Lưu Bị rồi bỏ đi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/016.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_016.mp4"
+     },
+     {
+      "text": "Một người bị khinh thường, vậy mà kẻ được thuê đến giết mình cũng chùn tay.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/017.jpg"
+     },
+     {
+      "text": "Hẳn ông có điều gì đó khiến người ta khó ghét. Quan Vũ và Trương Phi vẫn đi cùng ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/018.jpg"
+     },
+     {
+      "text": "Khi ông làm tướng Bình Nguyên, hai người đều làm Biệt bộ tư mã, mỗi người thống lĩnh một phần quân.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/019.jpg"
+     },
+     {
+      "text": "Ba người ngủ cùng giường, ân nghĩa như anh em, và Quan Vũ theo Lưu Bị xoay xở khắp nơi, không né gian hiểm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/020.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_020.mp4"
+     },
+     {
+      "text": "Nhưng lúc ấy, danh vọng của ông hẳn mới chỉ vừa bằng một quận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/021.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Lời cầu cứu đầu tiên",
+    "beats": [
+     {
+      "text": "Rồi một người lạ tìm tới Bình Nguyên: Thái Sử Từ, đến từ Bắc Hải, nơi Khổng Dung đang bị giặc vây chặt, nguy trong sớm tối.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/022.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_022.mp4"
+     },
+     {
+      "text": "Khổng Dung là hậu duệ của Khổng Tử, và là một danh sĩ nổi tiếng thời ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/023.jpg"
+     },
+     {
+      "text": "Nghe lời cầu cứu, Lưu Bị xúc động. Ông nói: Khổng Bắc Hải mà cũng biết trên đời có người tên Lưu Bị sao?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/024.jpg"
+     },
+     {
+      "text": "Một câu nói nhỏ, nhưng hẳn nó cho thấy ông biết mình đang ở đâu: một tướng nhỏ ở phương bắc, vừa được một danh sĩ nhớ tên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/025.jpg"
+     },
+     {
+      "text": "Có thể đó là lần đầu có người ở tầm ấy nhắc đến ông. Ông không do dự.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/026.jpg"
+     },
+     {
+      "text": "Ông chia ngay ba nghìn quân tinh nhuệ cho Thái Sử Từ. Giặc nghe tin quân cứu viện kéo tới thì giải vây, tan chạy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/027.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_027.mp4"
+     },
+     {
+      "text": "Ông chưa có đất, nhưng ông đã có một người mang ơn ông: Khổng Dung.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/028.jpg"
+     },
+     {
+      "text": "Khi nào cần, ơn ấy sẽ quay lại, và có thể chính ông cũng chưa biết là khi nào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/029.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Món nợ của Tào Tháo",
+    "beats": [
+     {
+      "text": "Cùng thời gian ấy, ở Duyện Châu, Tào Tháo đang mạnh lên. Ông là người từng cầm quân tới Huỳnh Dương trong liên quân.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/030.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_030.mp4"
+     },
+     {
+      "text": "Cha ông, Tào Tung, đã bỏ quan về quê, rồi tránh loạn sang Lang Gia, vùng đất thuộc Từ Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/031.jpg"
+     },
+     {
+      "text": "Ở đó, ông cụ bị giết, và tội ấy được ghi cho Đào Khiêm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/032.jpg"
+     },
+     {
+      "text": "Chuyện ai ra tay, vì sao, còn nhiều lời kể khác nhau. Nhưng với Tào Tháo, bấy nhiêu là đủ: cha mình đã chết trên đất Từ Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/033.jpg"
+     },
+     {
+      "text": "Từ đó, ông có một lý do rất riêng để đánh Từ Châu: báo thù cho cha.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/034.jpg"
+     },
+     {
+      "text": "Từ Châu bấy giờ giàu có và đông dân, hẳn đó cũng là một cái mồi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/035.jpg"
+     },
+     {
+      "text": "Năm một trăm chín mươi ba, Tào Tháo đem quân đánh Đào Khiêm, hạ hơn mười thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/036.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_036.mp4"
+     },
+     {
+      "text": "Năm sau, ông đánh tiếp, hạ thêm năm thành, quân đi tới đâu, nơi ấy có nhiều người bị giết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/037.jpg"
+     },
+     {
+      "text": "Hẳn đó là điều dân Từ Châu nhớ nhất: một đạo quân tới vì thù riêng của một người, và họ phải trả giá.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/038.jpg"
+     },
+     {
+      "text": "Khi người ta đang sợ, người ta nhớ rất lâu ai đã chìa tay ra.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/039.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Lời cầu cứu thứ hai",
+    "beats": [
+     {
+      "text": "Đào Khiêm sai sứ đi báo gấp. Người nhận tin là Điền Giai. Điền Giai kéo quân đi cứu Đào Khiêm, và Lưu Bị đi cùng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/040.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_040.mp4"
+     },
+     {
+      "text": "Lần này ông không còn là người chia quân cho người khác. Ông tự mình đi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/041.jpg"
+     },
+     {
+      "text": "Quân của riêng ông chỉ hơn một nghìn người. Ông còn có kỵ binh Ô Hoàn, và vài nghìn dân đói thu nhận trên đường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/042.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_042.mp4"
+     },
+     {
+      "text": "Một đạo quân nhỏ như vậy khó mà đánh bại Tào Tháo. Lưu Bị cùng Tào Báo, tướng của Đào Khiêm, đóng quân phía đông Đàm để chặn đường, và bị Tào Tháo đánh bại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/043.jpg"
+     },
+     {
+      "text": "Hãy nhớ cái tên Tào Báo, vì ta sẽ gặp lại ông ta ở một nơi rất khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/044.jpg"
+     },
+     {
+      "text": "Nhưng Đào Khiêm nhìn thấy một điều khác: người từ xa tới cứu mình, khi nhiều người chỉ ngồi nhìn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/045.jpg"
+     },
+     {
+      "text": "Ông chia thêm cho Lưu Bị bốn nghìn quân Đan Dương. Lưu Bị rời Điền Giai, theo về với Đào Khiêm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/046.jpg"
+     },
+     {
+      "text": "Từ tướng của Công Tôn Toản, ông trở thành người đứng cạnh Đào Khiêm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/047.jpg"
+     },
+     {
+      "text": "Rồi Đào Khiêm dâng biểu cho ông làm thứ sử Dự Châu, đóng quân ở Tiểu Bái.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/048.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_048.mp4"
+     },
+     {
+      "text": "Một chức danh có tên một châu, kèm một chỗ đóng quân. Chưa phải đất, nhưng đã là chỗ đứng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/049.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Kẻ chạy khỏi Trường An",
+    "beats": [
+     {
+      "text": "Còn Tào Tháo thì phải rút quân, và lý do nằm ở một cái tên mà ta đã nghe: Lữ Bố.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/050.jpg"
+     },
+     {
+      "text": "Muốn hiểu vì sao tên ông lại xuất hiện ngay sau lưng Tào Tháo, phải quay lại mùa hè năm một trăm chín mươi hai, ngay sau khi Đổng Trác chết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/051.jpg"
+     },
+     {
+      "text": "Vương Doãn phong Lữ Bố làm Phấn Vũ tướng quân, cho giả tiết, tước Ôn hầu, cùng nắm triều chính.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/052.jpg"
+     },
+     {
+      "text": "Nhưng giết Trác xong, Lữ Bố lại sợ và ghét người Lương Châu, mà người Lương Châu cũng oán ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/053.jpg"
+     },
+     {
+      "text": "Thế là Lý Thôi cùng đồng bọn kéo nhau về đánh Trường An. Có lời kể rằng Lữ Bố ra giữa hai quân, bảo Quách Tỵ cứ hai người tự quyết thắng bại, rồi ông đâm trúng Tỵ, quân hai bên kéo hai người ra.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/054.jpg"
+     },
+     {
+      "text": "Nhưng quân ông không giữ nổi, Lý Thôi vào Trường An. Trác chết chưa đầy hai tháng thì Bố cũng bại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/055.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_055.mp4"
+     },
+     {
+      "text": "Lữ Bố dẫn vài trăm kỵ ra Vũ Quan, định tìm Viên Thuật. Ông cho rằng giết Trác là báo thù hộ Thuật, Thuật hẳn sẽ nhớ ơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/056.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_056.mp4"
+     },
+     {
+      "text": "Nhưng Viên Thuật ghét tính hay phản phúc của ông, và từ chối không nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/057.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_057.mp4"
+     },
+     {
+      "text": "Người từng giết chủ cũ và cha nuôi của mình, giờ không còn ai muốn nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/058.jpg"
+     },
+     {
+      "text": "Ông quay lên phía bắc, tới chỗ Viên Thiệu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/059.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Con ngựa Xích Thố",
+    "beats": [
+     {
+      "text": "Lữ Bố cùng Viên Thiệu đánh Trương Yên ở Thường Sơn. Quân Yên có hơn một vạn tinh binh, mấy nghìn kỵ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/060.jpg"
+     },
+     {
+      "text": "Ông có một con ngựa quý tên Xích Thố, và người đời bấy giờ truyền nhau câu: trong người có Lữ Bố, trong ngựa có Xích Thố.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/061.jpg"
+     },
+     {
+      "text": "Cùng vài thân tín, Thành Liêm và Ngụy Việt, ông xông thẳng vào trận, phá tan quân Yên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/062.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_062.mp4"
+     },
+     {
+      "text": "Nhưng ông xin thêm quân, còn tướng sĩ của ông thì đi cướp bóc. Viên Thiệu bắt đầu ghét và e ngại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/063.jpg"
+     },
+     {
+      "text": "Ông xin đi. Thiệu sợ ông quay lại hại mình, bèn sai tráng sĩ đêm tới giết. Không được.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/064.jpg"
+     },
+     {
+      "text": "Một lời kể khác tả rõ hơn: ông cho người ngồi đánh đàn tranh trong trướng, còn mình lẻn đi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/065.jpg"
+     },
+     {
+      "text": "Nửa đêm lính xông vào, chém loạn lên giường chăn, tưởng ông đã chết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/066.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_066.mp4"
+     },
+     {
+      "text": "Sáng ra Thiệu biết ông còn sống, liền đóng cửa thành. Nhưng ông đã đi khỏi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/067.jpg"
+     },
+     {
+      "text": "Quân Thiệu đuổi theo, mà ai cũng sợ ông, không dám đến gần. Ông tới nương Trương Dương ở Hà Nội.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/068.jpg"
+     },
+     {
+      "text": "Một người mạnh đến mức cả Viên Thiệu cũng e. Nhưng cũng chính vì thế, ai nuôi ông cũng phải lo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/069.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Bạn cũ của Tào Tháo",
+    "beats": [
+     {
+      "text": "Trong lúc ấy, Tào Tháo giữ Duyện Châu, và có một người bạn mà ông tin hơn ai hết: Trương Mạc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/070.jpg"
+     },
+     {
+      "text": "Trước khi đi đánh Đào Khiêm, Tháo dặn nhà rằng nếu ông không trở về thì hãy đến nương Mạc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/071.jpg"
+     },
+     {
+      "text": "Tháo về, hai người nhìn nhau rơi lệ. Thân thiết đến thế. Nhưng Mạc sợ rằng cuối cùng Tháo sẽ vì Viên Thiệu mà đánh mình, trong lòng không yên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/072.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_072.mp4"
+     },
+     {
+      "text": "Năm một trăm chín mươi bốn, khi Tháo lại đi đánh Từ Châu, em Mạc là Trương Siêu cùng Trần Cung, người từng là tướng của Tháo, bàn nhau làm phản.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/073.jpg"
+     },
+     {
+      "text": "Trần Cung nói với Mạc: quân của châu đã đi xa, nơi này trống.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/074.jpg"
+     },
+     {
+      "text": "Lữ Bố là tráng sĩ, đánh đâu thắng đó, hãy tạm đón ông ta về cùng cai quản Duyện Châu, rồi xem thế thiên hạ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/075.jpg"
+     },
+     {
+      "text": "Mạc nghe theo. Lữ Bố được đón làm Duyện Châu mục, đóng ở Bộc Dương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/076.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_076.mp4"
+     },
+     {
+      "text": "Quận huyện hưởng ứng, chỉ còn Chân Thành, Đông A và Phạm giữ cho Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/077.jpg"
+     },
+     {
+      "text": "Đây chính là lúc Tháo phải quay về, và Từ Châu thoát nạn. Điều đó là sự thật, và kênh này không có lý do gì để giấu: Từ Châu thoát nạn không phải vì Lưu Bị thắng, mà vì Tào Tháo phải quay lại giữ nhà.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/078.jpg"
+     },
+     {
+      "text": "Nhưng người ta nhớ ai đã đến cứu, chứ không nhớ vì sao Tào Tháo rút.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/079.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Lời trăn trối",
+    "beats": [
+     {
+      "text": "Đào Khiêm lâm bệnh nặng. Người ở bên ông là Mi Trúc, quan biệt giá của châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/080.jpg"
+     },
+     {
+      "text": "Mi Trúc xuất thân từ một gia tộc buôn bán qua nhiều đời, nuôi cả vạn người làm và khách, của cải lên tới hàng ức.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/081.jpg"
+     },
+     {
+      "text": "Đào Khiêm nói với Mi Trúc: ngoài Lưu Bị ra, không ai giữ yên được Từ Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/082.jpg"
+     },
+     {
+      "text": "Hẳn lúc ấy, không ai ở Từ Châu nghĩ đến chuyện đợi triều đình xa xôi cử người đến thay. Đào Khiêm mất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/083.jpg"
+     },
+     {
+      "text": "Mi Trúc vâng di mệnh, dẫn người cả châu ra đón Lưu Bị ở Tiểu Bái. Và Lưu Bị không dám nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/084.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_084.mp4"
+     }
+    ]
+   },
+   {
+    "title": "Những người khuyên ông",
+    "beats": [
+     {
+      "text": "Một người ở Hạ Bì tên Trần Đăng đứng ra khuyên. Ông nói: nhà Hán đang suy, đây là lúc lập công; Từ Châu giàu có, dân số tới cả trăm vạn, mong ông về lo việc châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/085.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_085.mp4"
+     },
+     {
+      "text": "Lưu Bị đáp: Viên Thuật ở ngay Thọ Xuân, nhà bốn đời năm công, thiên hạ đang trông vào ông ta, sao không giao cho ông ta?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/086.jpg"
+     },
+     {
+      "text": "Trần Đăng đáp: Viên Thuật kiêu ngạo, không phải người dẹp loạn. Rồi Khổng Dung, lúc ấy là tướng Bắc Hải, người mà Lưu Bị từng đem ba nghìn quân tới cứu, cũng lên tiếng khuyên.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/087.jpg"
+     },
+     {
+      "text": "Ông gọi Viên Thuật là khúc xương khô trong mộ, và nói trời cho mà không nhận thì hối không kịp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/088.jpg"
+     },
+     {
+      "text": "Lúc ấy Lưu Bị mới nhận lĩnh Từ Châu. Ân huệ nhỏ ở Bắc Hải đã quay lại, theo cách không ai tính trước.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/089.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_089.mp4"
+     },
+     {
+      "text": "Hãy nhìn những người đưa ông lên: Mi Trúc, nhà buôn giàu; Trần Đăng, người Hạ Bì; Khổng Dung, danh sĩ Bắc Hải.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/090.jpg"
+     },
+     {
+      "text": "Không ai trong số họ là quân nhân. Đó là một liên minh của tiền bạc, danh tiếng và lòng dân địa phương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/091.jpg"
+     },
+     {
+      "text": "Với một người không có đất, đó có lẽ là thứ vốn duy nhất có thể có.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/092.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Ba lần nhường, hay một cuộc tính toán",
+    "beats": [
+     {
+      "text": "Còn Lưu Bị, người vài năm trước chỉ giữ Bình Nguyên, giờ là chủ một châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/093.jpg"
+     },
+     {
+      "text": "Nhưng ông không cướp nó, cũng không đánh chiếm nó. Người ta đưa nó cho ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/094.jpg"
+     },
+     {
+      "text": "Tiểu thuyết kể Đào Khiêm nhường ba lần, Lưu Bị từ chối ba lần.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/095.jpg"
+     },
+     {
+      "text": "Sử chép ngắn hơn nhiều: ông chưa dám nhận, được Trần Đăng và Khổng Dung khuyên, rồi mới nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/096.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_096.mp4"
+     },
+     {
+      "text": "Tiểu thuyết để ông từ chối vì đức. Sử cho ông từ chối, rồi nghe những lý lẽ rất thực tế: Từ Châu giàu, và nếu ông không nhận thì Viên Thuật sẽ nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/097.jpg"
+     },
+     {
+      "text": "Tiểu thuyết cũng viết Tào Tháo rút vì Lữ Bố chiếm Duyện Châu, và chỗ này tiểu thuyết đúng với sử.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/098.jpg"
+     },
+     {
+      "text": "Khác biệt lớn nhất không nằm ở số lần nhường. Nó nằm ở lý do: trong tiểu thuyết là đức, trong sử là một cuộc tính toán của cả một châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/099.jpg"
+     },
+     {
+      "text": "Điều đó không làm Lưu Bị nhỏ đi. Nó chỉ làm ông bớt giống thánh nhân, và giống người hơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/100.jpg"
+     },
+     {
+      "text": "Hãy nhìn lại hành trình ấy. Lưu Bị khi đó mới ngoài ba mươi tuổi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/101.jpg"
+     },
+     {
+      "text": "Mười năm trước, sau trận Khăn Vàng, ông chỉ được làm úy An Hỷ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/102.jpg"
+     },
+     {
+      "text": "Sử chép ông nhiều lần mất chức, nhiều lần bỏ quan, nhiều lần phải bắt đầu lại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/103.jpg"
+     },
+     {
+      "text": "Từ An Hỷ tới Bình Nguyên, từ Bình Nguyên tới Từ Châu, mỗi bước đi là một lần ông chịu đi trước khi người khác chưa dám.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/104.jpg"
+     },
+     {
+      "text": "Không bước nào trong số đó là bước lớn, nhưng cộng lại thì thành một con đường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/105.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Món quà có độc",
+    "beats": [
+     {
+      "text": "Nhưng một châu giàu cũng là một châu bị nhiều người nhòm ngó. Ở phía bắc, Tào Tháo chưa từng quên Từ Châu, món nợ của cha ông vẫn còn đó.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/106.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_106.mp4"
+     },
+     {
+      "text": "Ở phía nam, Viên Thuật ngồi ở Thọ Xuân, và chính ông ta vừa bị Khổng Dung gọi là khúc xương khô.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/107.jpg"
+     },
+     {
+      "text": "Ngay trong Từ Châu, những người từng theo Đào Khiêm chưa chắc đã đồng lòng với người từ xa đến.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/108.jpg"
+     },
+     {
+      "text": "Và Lưu Bị không có một đạo quân lớn để giữ tất cả những điều ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/109.jpg"
+     },
+     {
+      "text": "Một châu giàu, bốn bề là kẻ mạnh, mà người giữ nó lại là người mới đến.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/110.jpg"
+     },
+     {
+      "text": "Một món quà như thế, nhận được đã khó, giữ được còn khó hơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/111.jpg"
+     },
+     {
+      "text": "Và độc của nó sẽ phát ra từ một nơi mà không ai nhìn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/112.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Kết cục ở Duyện Châu",
+    "beats": [
+     {
+      "text": "Muốn biết độc ấy từ đâu tới, hãy nhìn về Duyện Châu, nơi Tào Tháo và Lữ Bố giằng co hơn một trăm ngày.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/113.jpg"
+     },
+     {
+      "text": "Có lần Tháo cưỡi ngựa phi qua lửa, ngã xuống, cháy lòng bàn tay trái.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/114.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_114.mp4"
+     },
+     {
+      "text": "Năm ấy hạn hán, châu chấu, một hộc thóc giá hơn năm mươi vạn tiền, người ta đói đến mức ăn thịt nhau.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/115.jpg"
+     },
+     {
+      "text": "Tháo mất Duyện Châu, quân lương cạn. Viên Thiệu cho người đến đề nghị hòa, Tháo định nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/116.jpg"
+     },
+     {
+      "text": "Trình Dục ngăn lại, và Tháo nghe theo. Năm một trăm chín mươi lăm, Tháo đánh bại Lữ Bố ở Cự Dã, rồi lần lượt lấy lại các thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/117.jpg"
+     },
+     {
+      "text": "Trương Mạc theo Bố. Em ông là Siêu giữ Ung Khâu, bị Tháo vây rồi tự sát.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/118.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_118.mp4"
+     },
+     {
+      "text": "Mạc đi cầu cứu Viên Thuật, và bị chính quân mình giết. Người bạn mà Tào Tháo từng dặn nhà đến nương, kết cục như thế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/119.jpg"
+     },
+     {
+      "text": "Còn Lữ Bố, thua rồi, lại chạy về phía đông. Sử chép gọn: Bố chạy về phía đông, đến nương Lưu Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/120.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_120.mp4"
+     },
+     {
+      "text": "Kẻ từng tự tay giết Đổng Trác, bị Viên Thuật từ chối, bị Viên Thiệu muốn giết, vừa thua Tào Tháo, đang đứng trước cửa nhà Lưu Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/121.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Người cho nương nhờ",
+    "beats": [
+     {
+      "text": "Lúc ấy Lưu Bị đã là chủ Từ Châu. Có lời kể rằng Lữ Bố rất kính Bị, nói rằng ta với ngươi đều là người vùng biên ải.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/122.jpg"
+     },
+     {
+      "text": "Bố nói thêm: khi ta giết Trác rồi ra phía đông, các tướng Quan Đông không ai dung ta, ai cũng muốn giết ta.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/123.jpg"
+     },
+     {
+      "text": "Ông mời Bị ngồi trong trướng, trên giường của vợ mình, bảo vợ ra bái, rót rượu, và gọi Bị là em.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/124.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_124.mp4"
+     },
+     {
+      "text": "Còn Lưu Bị? Ông thấy lời Bố nói chẳng nhất quán, ngoài mặt đồng ý, trong lòng không vui.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/125.jpg"
+     },
+     {
+      "text": "Có thể ông đã nhìn ra con người ấy. Nhưng khó mà đuổi đi một người đang nổi danh cả thiên hạ, khi chính mình vừa mới nhận một châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/126.jpg"
+     },
+     {
+      "text": "Ở phía nam là Viên Thuật, ở phía bắc là Tào Tháo, và ngay trong nhà là Lữ Bố.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/127.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Hạ Bì",
+    "beats": [
+     {
+      "text": "Năm một trăm chín mươi sáu, Tào Tháo tâu cho Lưu Bị làm Trấn Đông tướng quân, phong Nghi Thành đình hầu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/128.jpg"
+     },
+     {
+      "text": "Cũng năm ấy, Viên Thuật đem quân tới đánh Bị. Bị cự Thuật ở Hu Di và Hoài Âm, hai bên giằng co suốt cả một tháng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/129.jpg"
+     },
+     {
+      "text": "Độc của món quà phát ra đúng ở chỗ này. Ở phía sau, trong thành Hạ Bì, người giữ thành là Tào Báo, chính viên tướng của Đào Khiêm từng cùng Lưu Bị đóng quân phía đông Đàm để chặn Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/130.jpg"
+     },
+     {
+      "text": "Tiểu thuyết kể: Trương Phi giữ Hạ Bì, uống say, đánh Tào Báo, và Lữ Bố nhân đó chiếm thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/131.jpg"
+     },
+     {
+      "text": "Còn sử chỉ chép gọn: Lữ Bố thừa lúc trống đánh úp Hạ Bì; tướng giữ thành là Tào Báo phản, ngầm đón Bố vào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/132.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_132.mp4"
+     },
+     {
+      "text": "Bố bắt vợ con Lưu Bị. Bị phải rút quân về Hải Tây. Trong đoạn ấy, sử không nhắc tên Trương Phi, cũng không có chuyện ai say rượu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/133.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_133.mp4"
+     },
+     {
+      "text": "Chuyện cụ thể hơn thì nằm ở một lời kể phụ, không phải đoạn sử chính.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/134.jpg"
+     },
+     {
+      "text": "Lời kể ấy nói: Hứa Đam, một tướng của Bị, ban đêm sai tư mã Chương Cuống tới gặp Bố, báo rằng Trương Phi tranh chấp với Tào Báo, giết Báo, trong thành đại loạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/135.jpg"
+     },
+     {
+      "text": "Một bộ sử khác kể cùng chuyện ấy theo thứ tự rõ hơn: Viên Thuật viết thư xúi Bố đánh Hạ Bì; trong thành, Phi và Báo bất hòa, Phi giết Báo; rồi Hứa Đam mở cổng đón Bố.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/136.jpg"
+     },
+     {
+      "text": "Cũng không có chén rượu nào. Lời kể phụ còn nói: một nghìn quân Đan Dương đóng trong cổng tây Bạch Thành, nghe Bố tới thì mừng rỡ, sẽ mở cổng đón.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/137.jpg"
+     },
+     {
+      "text": "Bố tiến quân trong đêm, sáng tới chân thành. Quân Đan Dương mở hết cổng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/138.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_138.mp4"
+     },
+     {
+      "text": "Bố ngồi trên cổng, cho bộ kỵ phóng lửa, phá tan quân Phi, bắt cả gia quyến của Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/139.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_139.mp4"
+     },
+     {
+      "text": "Vậy là tiểu thuyết đặt Trương Phi đúng chỗ ấy, và cho ông xung đột với Tào Báo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/140.jpg"
+     },
+     {
+      "text": "Cái nó thêm vào, là chén rượu, và chuyện Báo ôm hận rồi tự mở cổng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/141.jpg"
+     },
+     {
+      "text": "Còn chuyện quân Đan Dương, có thể đây là cùng một nguồn quân Đào Khiêm từng cho Lưu Bị, dù chưa có gì chắc chắn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/142.jpg"
+     },
+     {
+      "text": "Người làm mất Từ Châu, theo sử, không phải một người say. Mà là một châu bị kẹp giữa hai phía, và bên trong có người chọn mở cửa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/143.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Cầu hòa và Tiểu Bái",
+    "beats": [
+     {
+      "text": "Lưu Bị cầu hòa với Lữ Bố, và Bố trả lại vợ con cho ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/144.jpg"
+     },
+     {
+      "text": "Bị trở về, Bố cho ông đóng ở Tiểu Bái, còn mình tự xưng Từ Châu thứ sử.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/145.jpg"
+     },
+     {
+      "text": "Người từng là chủ giờ phải đi nương nhờ, người từng được nương nhờ giờ thành chủ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/146.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_146.mp4"
+     },
+     {
+      "text": "Còn một lá thư của Viên Thuật gửi Lữ Bố được giữ lại, viết lúc Bố mới vào Từ Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/147.jpg"
+     },
+     {
+      "text": "Thư kể ba công của Bố: giết Trác là báo thù cho Thuật, phá Duyện Châu là rửa nhục cho Thuật.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/148.jpg"
+     },
+     {
+      "text": "Công thứ ba: từ khi sinh ra, Thuật chưa nghe thiên hạ có Lưu Bị, vậy mà Bị dám cầm quân đối chiến, nay nhờ uy Bố mà Thuật đánh bại được.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/149.jpg"
+     },
+     {
+      "text": "Rồi Thuật hứa tặng hai mươi vạn hộc gạo. Câu \"chưa nghe thiên hạ có Lưu Bị\" gợi lại lời chính Lưu Bị lúc ở Bình Nguyên: Khổng Bắc Hải mà cũng biết trên đời có Lưu Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/150.jpg"
+     },
+     {
+      "text": "Hai người nhìn cùng một cái tên mà khác nhau đến thế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/151.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Bắn kích viên môn",
+    "beats": [
+     {
+      "text": "Rồi Viên Thuật sai Kỷ Linh đem ba vạn bộ kỵ đánh Bị ở Tiểu Bái. Bị cầu cứu Lữ Bố.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/152.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_152.mp4"
+     },
+     {
+      "text": "Các tướng của Bố nói: tướng quân vẫn muốn giết Bị, nay có thể mượn tay Thuật. Bố đáp: không được.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/153.jpg"
+     },
+     {
+      "text": "Nếu Thuật phá được Bị thì sẽ nối với các tướng Thái Sơn ở phía bắc, ta nằm trong vòng vây của Thuật, nên không thể không cứu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/154.jpg"
+     },
+     {
+      "text": "Ông đem một nghìn bộ, hai trăm kỵ, phi tới Tiểu Bái. Nghe tin, Kỷ Linh thu quân.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/155.jpg"
+     },
+     {
+      "text": "Bố đóng quân ở phía tây nam thành Bái, mời Kỷ Linh cùng ăn uống.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/156.jpg"
+     },
+     {
+      "text": "Ông nói: Huyền Đức là em ta, em bị các ông vây nên ta đến cứu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/157.jpg"
+     },
+     {
+      "text": "Ta không thích đánh nhau, chỉ thích giải đánh nhau. Ông bảo dựng một cây kích ở cổng doanh, nói: nếu ta bắn một phát trúng nhánh nhỏ của nó, các ông rút quân; không trúng thì ở lại quyết đấu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/158.jpg"
+     },
+     {
+      "text": "Bố giương cung, trúng nhánh nhỏ. Các tướng kinh hãi, nói tướng quân có uy trời.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/159.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_159.mp4"
+     },
+     {
+      "text": "Hôm sau lại họp vui, rồi mỗi bên lui quân. Đó là cảnh bắn kích viên môn nổi tiếng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/160.jpg"
+     },
+     {
+      "text": "Nhưng nó là lời kể phụ, không nằm trong đoạn sử chính. Lưu Bị được cứu, nhưng lý do Bố tự nói ra lại là tính toán của riêng ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/161.jpg"
+     },
+     {
+      "text": "Hẳn tình anh em ở đây cũng có phần tính toán.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/162.jpg"
+     }
+    ]
+   },
+   {
+    "title": "Chạy sang Tào",
+    "beats": [
+     {
+      "text": "Còn Lưu Bị, ở Tiểu Bái, lại hợp được hơn một vạn quân. Lữ Bố ghét điều ấy, tự đem quân đánh Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/163.jpg"
+     },
+     {
+      "text": "Bị bại, chạy về với Tào Tháo. Tào Tháo đãi ông rất hậu, cho làm Dự Châu mục, cấp lương và thêm quân để đánh Bố.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/164.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_164.mp4"
+     },
+     {
+      "text": "Trình Dục nói với Tháo rằng Lưu Bị có hùng tài, rất được lòng người, rồi sẽ không chịu dưới ai, nên sớm trừ đi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/165.jpg"
+     },
+     {
+      "text": "Tháo đáp: bây giờ là lúc thu nạp anh hùng, giết một người mà mất lòng thiên hạ thì không được.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/166.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_166.mp4"
+     }
+    ]
+   },
+   {
+    "title": "Lời kết",
+    "beats": [
+     {
+      "text": "Tóm lại, Lưu Bị có Từ Châu không phải vì may, cũng không phải vì ba lần nhường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/167.jpg"
+     },
+     {
+      "text": "Ông có nó vì hai lần đi cứu người, một lần ở Bắc Hải, một lần ở Từ Châu, khi nhiều người khác ngồi yên, và vì vài người đủ quan trọng ở Từ Châu đã chọn tin ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/168.jpg"
+     },
+     {
+      "text": "Rồi Từ Châu cũng không mất vì một chén rượu. Nó mất vì Lưu Bị đi cự Viên Thuật suốt một tháng, phía sau bỏ trống, một tướng giữ thành chọn mở cổng, và Lữ Bố thừa lúc ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/169.jpg"
+     },
+     {
+      "text": "Lữ Bố không cướp Từ Châu từ tay một người xa lạ. Ông cướp từ tay người đã cho ông nương nhờ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/170.jpg"
+     },
+     {
+      "text": "Tiểu thuyết cần một chén rượu để có bi kịch, và cần ba lần nhường để có đức.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/171.jpg"
+     },
+     {
+      "text": "Sử thì không cần cả hai: một châu mới nhận, một kẻ trong nhà, một kẻ ngoài cửa, thế là đủ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/172.jpg"
+     },
+     {
+      "text": "Và Lưu Bị, lần đầu mất đất, lại chạy sang chính Tào Tháo, người từng đem quân tới Từ Châu vì thù cha.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/173.jpg"
+     },
+     {
+      "text": "Cũng trong năm ấy, Tào Tháo đón thiên tử từ Lạc Dương đổ nát về phía đông, đóng ở Hứa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/174.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_174.mp4"
+     },
+     {
+      "text": "Hán thất, từ ngày dời đô về tây, lại có tông miếu xã tắc theo chế độ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/175.jpg"
+     },
+     {
+      "text": "Vì sao một người vừa nắm trong tay thiên tử, lại giữ cạnh mình một người mà chính mưu sĩ của ông nói là không chịu dưới ai?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/176.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_176.mp4"
+     },
+     {
+      "text": "Sử thật… lạ hơn cả truyện. Tập sau sẽ kể tiếp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ45_V2/177.jpg",
+      "clip_file": "assets/clips_2d/TQ45/E4_177.mp4"
+     }
+    ]
+   }
+  ]
+ },
+ "binh_luan": {
+  "dai": {
+   "ghim": "Tập này gộp chuyện Lưu Bị nhận Từ Châu và mất Từ Châu. Theo bạn, vì sao ông giữ không nổi: Ⓐ Lữ Bố phản · Ⓑ Trương Phi · Ⓒ thiếu quân? Bình luận chữ cái nhé.",
+   "phu": [
+    "Lưu ý: một số chi tiết lấy từ nguồn thứ cấp, hình ảnh là tranh minh họa."
+   ]
+  }
+ }
+}

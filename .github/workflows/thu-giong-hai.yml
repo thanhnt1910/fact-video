@@ -1,6 +1,9 @@
 name: Thử giọng hài Gemini
 
 on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/chay.txt']
   workflow_dispatch:
     inputs:
       voices:
@@ -45,7 +48,7 @@ jobs:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: |
           mkdir -p assets/thu_giong_hai
-          python thu_giong_hai.py "${{ inputs.file }}" "${{ inputs.voices }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
+          python thu_giong_hai.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/habi.json' }}" "${{ inputs.voices || 'Puck,Sadaltager' }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo
         if: always()
         run: |

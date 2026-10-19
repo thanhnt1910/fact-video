@@ -1,12 +1,1 @@
-còn thiếu 64 câu
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 98 - 113 88.9 giây
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 114 - 127 100.9 giây
-OK cụm 144 - 159 120.8 giây
-OK cụm 160 - 175 105.1 giây
-OK cụm 176 - 177 8.8 giây
+còn thiếu 0 câu

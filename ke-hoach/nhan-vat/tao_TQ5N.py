@@ -166,6 +166,19 @@ V4K = "010 015 024 026 030 066 107 117 121 130 131 150 156".split()
 for o in out:
     if o["key"] in V4K: o["prompt"] = o["prompt"].rstrip() + V4
     if o["key"] == "089": o["prompt"] = o["prompt"].rstrip() + " There is no horse and no animal anywhere in the picture."
+
+# --- vòng 5 (19/10): viết lại cảnh 117, 121, 156 (ngựa thiếu chân, ngựa xuống nước, đầu người trên lưng ngựa) ---
+NEW5 = {
+ "121": "Lu Bu stands on foot in a courtyard of bare plain-walled houses and hands a closed tied bamboo-strip bundle to a messenger in armour who also stands on foot facing him and bows, only two men and nobody else, morning light",
+ "117": "Lu Bu and two other horsemen ride at a steady trot along a dry dusty road across open flat country with low hills, each rider sitting upright on his own horse, every horse shown full length with all four legs on the dry road, a small distant decorated cart far ahead, dry land only",
+ "156": "four soldiers on foot push a small two-wheeled hand cart carrying a plain wooden coffin along a dusty street away from a walled town, banners drooping, grey light, only men on foot",
+}
+for o in out:
+    if o["key"] in NEW5:
+        head, _, tail = o["prompt"].partition(". nothing written")
+        if "bare plain walls" in head: head = ""
+        o["prompt"] = NEW5[o["key"]] + ". the buildings have bare plain walls and gates with no signboard, no plaque and no banner with writing. nothing written" + tail
+        o["prompt"] = o["prompt"].replace(V4, "")
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_moi.txt").write_text(",".join(o["key"] for o in out if "beat_cu" in o), encoding="utf-8")

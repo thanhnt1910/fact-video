@@ -1,0 +1,7 @@
++ nproc
+4
+++ head -1 ../ke-hoach/thu-giong-hai/dung.txt
++ MODE='thu 240 1792423330'
++ python -
+tổng khung 960 đoạn 1 240 480
++ read A0 A1

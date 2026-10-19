@@ -38,6 +38,8 @@ jobs:
       - name: Dựng đoạn ${{ matrix.idx }}
         working-directory: phim_ban_do
         run: |
+          exec > >(tee "log_doan_${{ matrix.idx }}.txt") 2>&1
+          set -x
           nproc
           MODE=$(head -1 ../ke-hoach/thu-giong-hai/dung.txt)
           python - <<PY
@@ -51,8 +53,15 @@ jobs:
           print("tổng khung", N, "đoạn", i, a0, a1)
           PY
           read A0 A1 < range.txt
-          python -u mapfilm2.py "$PWD/doan_${{ matrix.idx }}.mp4" $A0 $A1 2>&1 | tail -n 5
+          python -u mapfilm2.py "$PWD/doan_${{ matrix.idx }}.mp4" $A0 $A1 2>&1 | tail -n 15
           ls -la doan_*.mp4
+      - name: Lưu nhật ký vào repo
+        if: always()
+        run: |
+          git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+          git add -f phim_ban_do/log_doan_${{ matrix.idx }}.txt
+          git commit -q -m "Nhật ký dựng đoạn ${{ matrix.idx }}" || exit 0
+          for k in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM % 8 + 2)); done
       - uses: actions/upload-artifact@v4
         with:
           name: doan-${{ matrix.idx }}

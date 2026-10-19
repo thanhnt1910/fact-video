@@ -159,6 +159,13 @@ V3 = {
 }
 for o in out:
     if o["key"] in V3: o["prompt"] = o["prompt"].rstrip() + V3[o["key"]]
+
+# --- vòng 4 (19/10): rà lại toàn bộ ảnh có ngựa ---
+V4 = " Draw each horse once, complete and clearly separate: one head, four legs, one tail, no horse part growing out of a person, no extra hoof or leg; riders sit upright on top of the saddle; the horses stand or walk in a single row with space between them, each horse fully visible beside the next one."
+V4K = "010 015 024 026 030 066 107 117 121 130 131 150 156".split()
+for o in out:
+    if o["key"] in V4K: o["prompt"] = o["prompt"].rstrip() + V4
+    if o["key"] == "089": o["prompt"] = o["prompt"].rstrip() + " There is no horse and no animal anywhere in the picture."
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_moi.txt").write_text(",".join(o["key"] for o in out if "beat_cu" in o), encoding="utf-8")

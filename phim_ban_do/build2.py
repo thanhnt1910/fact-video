@@ -1,7 +1,7 @@
 import json,math,os
 from PIL import Image,ImageDraw,ImageFont
 W,H,FPS=1920,1080,24
-FONT='/tmp/wt/assets/fonts/Lora-Variable.ttf'
+FONT=os.environ.get('FONT','/tmp/wt/assets/fonts/Lora-Variable.ttf')
 def font(sz,bold=True):
     f=ImageFont.truetype(FONT,int(sz))
     try: f.set_variation_by_name('Bold' if bold else 'Regular')

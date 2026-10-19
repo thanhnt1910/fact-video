@@ -133,5 +133,5 @@ if VD:
     m=np.convolve(np.abs(voice),np.ones(2000)/2000,'same');duck=1-0.55*np.clip(m*14,0,1)
     out=np.clip(voice+sfx*duck*0.9,-1,1)
 pcm=(out*32767).astype(np.int16)
-with wave.open('/tmp/proto/a2.wav','wb') as f: f.setnchannels(1);f.setsampwidth(2);f.setframerate(SR);f.writeframes(pcm.tobytes())
+with wave.open(__import__('os').environ.get('A2_OUT','/tmp/proto/a2.wav'),'wb') as f: f.setnchannels(1);f.setsampwidth(2);f.setframerate(SR);f.writeframes(pcm.tobytes())
 print('ok',TOTAL)

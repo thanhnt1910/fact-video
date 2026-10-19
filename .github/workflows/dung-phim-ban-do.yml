@@ -1,0 +1,95 @@
+name: Dựng phim bản đồ
+
+# Chạy khi đẩy ke-hoach/thu-giong-hai/dung.txt trên nhánh thu-giong-hai.
+# Dòng đầu của dung.txt: "thu N" (dựng thử N khung đầu) hoặc "full" (dựng cả video).
+on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/dung.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  NPROC: 4
+  SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/tq45_hai.json
+  VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/puck
+  WORLD: ${{ github.workspace }}/phim_ban_do/world2.png
+  LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
+  FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf
+
+jobs:
+  doan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        idx: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pip install -q numpy pillow scipy
+      - name: Dựng đoạn ${{ matrix.idx }}
+        working-directory: phim_ban_do
+        run: |
+          nproc
+          MODE=$(head -1 ../ke-hoach/thu-giong-hai/dung.txt)
+          python - <<PY
+          import os, build2 as B
+          mode = """$MODE""".split()
+          N = int(B.TOTAL * B.FPS)
+          if mode[0] == "thu": N = min(N, int(mode[1]) * 4)
+          q = 4; i = ${{ matrix.idx }}
+          a0, a1 = N * i // q, N * (i + 1) // q
+          open("range.txt", "w").write(f"{a0} {a1}")
+          print("tổng khung", N, "đoạn", i, a0, a1)
+          PY
+          read A0 A1 < range.txt
+          python -u mapfilm2.py "$PWD/doan_${{ matrix.idx }}.mp4" $A0 $A1 2>&1 | tail -n 5
+          ls -la doan_*.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doan-${{ matrix.idx }}
+          path: phim_ban_do/doan_${{ matrix.idx }}.mp4
+          retention-days: 3
+
+  ghep:
+    needs: doan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pip install -q numpy pillow scipy
+      - uses: actions/download-artifact@v4
+        with:
+          path: doan
+      - name: Âm thanh, ghép đoạn và thêm tiếng
+        working-directory: phim_ban_do
+        run: |
+          A2_OUT=$PWD/a2.wav python -u audio2.py 2>&1 | tail -n 3
+          for i in 0 1 2 3; do echo "file '$GITHUB_WORKSPACE/doan/doan-$i/doan_$i.mp4'" >> list.txt; done
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy ghep.mp4
+          ffmpeg -y -loglevel error -i ghep.mp4 -i a2.wav -c:v copy -c:a aac -b:a 160k -shortest tap4_hai_puck.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 tap4_hai_puck.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-hoan-chinh
+          path: phim_ban_do/tap4_hai_puck.mp4
+          retention-days: 7
+      - name: Đăng bản phát hành để tải về
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="phim-ban-do-${{ github.run_id }}"
+          gh release create "$TAG" phim_ban_do/tap4_hai_puck.mp4 --title "Video tập 4 (hài, Puck) ${{ github.run_id }}" --notes "Dựng tự động" --prerelease

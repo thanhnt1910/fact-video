@@ -6,7 +6,7 @@ from build2 import T,D,TOTAL,texts,chap,W,H,FPS,ease,clamp,font,comp
 from mapdraw import *
 import mapdraw as MD
 from world2 import RW,RH,wp
-WORLD=Image.open('/tmp/proto/world2.png').convert('RGB')
+WORLD=Image.open(os.environ.get('WORLD','/tmp/proto/world2.png')).convert('RGB')
 PYR=[WORLD]
 for i in range(1,4): PYR.append(PYR[-1].resize((RW>>i,RH>>i),Image.LANCZOS))
 def lerp(a,b,u): return a+(b-a)*u
@@ -88,7 +88,7 @@ PAPER=MD.paper()
 STATIC=Image.alpha_composite(VIGN,PAPER)
 _h=Image.new('RGBA',(W,H),(0,0,0,0));_hd=ImageDraw.Draw(_h);MD.compass(_hd,W-110,245,46);MD.scalebar(_hd,W-290,320,170)
 def _logo(px,a):
-    lg=Image.open('/home/claude/fact-video/assets/logo/nguoi-gac-su.png').convert('RGBA').resize((px,px),Image.LANCZOS)
+    lg=Image.open(os.environ.get('LOGO','/home/claude/fact-video/assets/logo/nguoi-gac-su.png')).convert('RGBA').resize((px,px),Image.LANCZOS)
     al=lg.split()[3].point(lambda v:int(v*a));lg.putalpha(al);return lg
 _h.alpha_composite(_logo(130,0.8),(W-44-130,34))
 _h.alpha_composite(_logo(96,0.2),(60,H-300))
@@ -320,7 +320,7 @@ if __name__=='__main__':
     N=int(TOTAL*FPS);out=sys.argv[1] if len(sys.argv)>1 else '/tmp/proto/mv2.mp4'
     a0,a1=(int(sys.argv[2]),int(sys.argv[3])) if len(sys.argv)>3 else (0,N)
     p=subprocess.Popen(['ffmpeg','-y','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(FPS),'-i','-','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p',out],stdin=subprocess.PIPE)
-    with mp.Pool(2) as pool:
+    with mp.Pool(int(os.environ.get('NPROC','2'))) as pool:
         for i,b in enumerate(pool.imap(work,range(a0,a1),chunksize=4)):
             p.stdin.write(b)
             if i%300==0: print(i,a1-a0,flush=True)

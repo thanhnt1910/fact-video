@@ -49,7 +49,7 @@ jobs:
           if mode[0] == "thu": N = min(N, int(mode[1]) * 4)
           q = 4; i = ${{ matrix.idx }}
           a0, a1 = N * i // q, N * (i + 1) // q
-          open("range.txt", "w").write(f"{a0} {a1}")
+          open("range.txt", "w").write(f"{a0} {a1}\n")
           print("tổng khung", N, "đoạn", i, a0, a1)
           PY
           read A0 A1 < range.txt

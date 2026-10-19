@@ -50,7 +50,7 @@ jobs:
           set -o pipefail
           mkdir -p assets/thu_giong_hai
           export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
-          timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
+          timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai_cum.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 8 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo
         if: always()
         run: |

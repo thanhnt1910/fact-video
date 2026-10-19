@@ -184,6 +184,12 @@ for o in out:
 for o in out:
     if o["key"] == "030":
         o["prompt"] = o["prompt"].replace(V4, "").rstrip() + " All the people walk on foot on the riverbank path: the young emperor in front and two armed officers beside him, three walking men only, and the only other things in the picture are boats, houses and hills."
+
+# --- 030 lần 2: viết lại cảnh, không ngựa, không cờ ---
+for o in out:
+    if o["key"] == "030":
+        head, _, tail = o["prompt"].partition(". Han Chinese")
+        o["prompt"] = "three men walk side by side up a wide stone stairway from a quiet river landing toward a small walled town at dawn, the young emperor in a plain dark robe and two officers walking on their own feet, a wooden rowing boat moored on the water behind them, bare plain-walled mud houses and green hills, no flags, no banners, no signboards, only three walking men in the whole picture" + ". Han Chinese" + tail.split(". All the people walk")[0]
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_moi.txt").write_text(",".join(o["key"] for o in out if "beat_cu" in o), encoding="utf-8")

@@ -112,6 +112,7 @@ def _synth_generate(model, text, style, voice, key):
     return _wav_from_any(base64.b64decode(part["data"]), part.get("mimeType", ""))
 
 
+MAX_WAIT = int(os.environ.get("GEMINI_MAX_WAIT", "900"))
 _WORKING = {}
 
 
@@ -135,7 +136,7 @@ def synth(text, style, voice, key=None, log=print):
                     w = min(120, gemini_keys.wait_seconds() + 1)
                     log(f"   [gemini] mọi khóa đang hết lượt, đợi {w:.0f}s…")
                     waited += w
-                    if waited >= 900:
+                    if waited >= MAX_WAIT:
                         raise RuntimeError("mọi khóa Gemini đều hết lượt")
                     time.sleep(w)
                     continue
@@ -159,7 +160,7 @@ def synth(text, style, voice, key=None, log=print):
                         + ("" if more else " (hết khóa dự phòng)"))
                     if more:
                         continue
-                if ("429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg or "500" in msg) and waited < 900:
+                if ("429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg or "500" in msg) and waited < MAX_WAIT:
                     if not shown:
                         log(f"   [gemini] {model} báo: {' '.join(msg.split())[:260]}")
                         shown = True

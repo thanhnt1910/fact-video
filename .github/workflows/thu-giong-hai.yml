@@ -47,14 +47,16 @@ jobs:
           GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: |
+          set -o pipefail
           mkdir -p assets/thu_giong_hai
-          python thu_giong_hai.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
+          export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
+          timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo
         if: always()
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git add assets/thu_giong_hai
+          git add assets/thu_giong_hai logs_thu_giong.txt
           git commit -q -m "Giọng đọc thử kịch bản hài" || exit 0
           git pull --rebase -q || true
           git push -q

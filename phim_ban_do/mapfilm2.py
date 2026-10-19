@@ -91,10 +91,7 @@ def _logo(px,a):
     lg=Image.open(os.environ.get('LOGO','/home/claude/fact-video/assets/logo/nguoi-gac-su.png')).convert('RGBA').resize((px,px),Image.LANCZOS)
     al=lg.split()[3].point(lambda v:int(v*a));lg.putalpha(al);return lg
 _h.alpha_composite(_logo(130,0.8),(W-44-130,34))
-_h.alpha_composite(_logo(96,0.2),(60,H-300))
-_h.alpha_composite(_logo(96,0.2),(W//2-48,H//2-110))
 STATIC=Image.alpha_composite(STATIC,_h)
-SUBS={n:B.sub_layer(texts[n]) for n in texts}
 CARDL={c[0]:B.card_layer(c[1],c[2],c[3]) for c in C.CARDS}
 NUML={n:B.num_layer(b,s) for n,b,s,_ in C.NUMS}
 CHIPS={}
@@ -305,8 +302,8 @@ def frame(t):
             s=T[cn]+dl;e=s+2.6
             if s<=t<=e:
                 k=min(clamp((t-s)/0.25),clamp((e-t)/0.4));out=comp(out,NUML[cn],(0,0),ease(k))
-    lt=t-T[n];k=min(clamp(lt/0.35),clamp((D[n]-lt)/0.3))
-    out=comp(out,SUBS[n],(0,0),ease(k) if lt>0.05 else 0)
+    sl,sa=B.sub_at(t)
+    if sl is not None: out=comp(out,sl,(0,0),ease(sa))
     if t<0.5: out=Image.blend(Image.new('RGBA',(W,H),(8,5,3,255)),out,ease(t/0.5))
     if t>TOTAL-1.0: out=Image.blend(out,Image.new('RGBA',(W,H),(8,5,3,255)),ease((t-(TOTAL-1.0))/1.0))
     return out.convert('RGB')

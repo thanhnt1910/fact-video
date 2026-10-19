@@ -37,6 +37,45 @@ def sub_layer(txt):
         w=g.textlength(l,font=f);x=W/2-w/2;y=y0+15+i*lh
         g.text((x+2,y+3),l,font=f,fill=(0,0,0,255));g.text((x,y),l,font=f,fill=(250,244,228,255))
     return im
+
+_PH=os.environ.get('PHUDE',os.path.join(os.path.dirname(os.path.abspath(__file__)),'phude.json'))
+PH=json.load(open(_PH)) if os.path.exists(_PH) else {}
+_cache={}
+def sub_words(words,k):
+    """Phụ đề một cụm: chữ đã đọc sáng, chữ chưa đọc mờ."""
+    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(46,False);fb=font(46,True)
+    lines=wrap(' '.join(words),f,1560,g);lh=62;h=lh*len(lines)+30;y0=H-70-h
+    wmax=max(g.textlength(l,font=f) for l in lines)+80
+    g.rounded_rectangle((W/2-wmax/2,y0,W/2+wmax/2,y0+h),22,fill=(8,5,3,150))
+    idx=0
+    for i,l in enumerate(lines):
+        lw=g.textlength(l,font=f);x=W/2-lw/2;y=y0+15+i*lh
+        for w_ in l.split():
+            on=idx<k;col=(250,244,228,255) if on else (190,180,160,150)
+            g.text((x+2,y+3),w_,font=f,fill=(0,0,0,200 if on else 90));g.text((x,y),w_,font=f,fill=col)
+            x+=g.textlength(w_+' ',font=f);idx+=1
+    return im
+def sub_at(t):
+    """Trả về (lớp phụ đề, độ đậm) tại thời điểm t, bám theo giọng đọc."""
+    n=beat_of(t);lt=t-T[n];al=min(clamp(lt/0.35),clamp((D[n]-lt)/0.3))
+    if lt<0.05: return None,0
+    cl=PH.get(str(n))
+    if not cl:
+        key=('b',n)
+        if key not in _cache: _cache.clear();_cache[key]=sub_layer(texts[n])
+        return _cache[key],al
+    v=lt-0.12;i=0
+    for j,c in enumerate(cl):
+        if v>=c[1]-0.05: i=j
+    txt,s,e=cl[i];words=txt.split()
+    wt=[len(w_)+2 for w_ in words];tot=float(sum(wt));acc=0;k=0
+    for w_,x_ in zip(words,wt):
+        acc+=x_
+        if v>=s+(e-s)*(acc/tot)-0.12*(x_/ (tot/len(words))): k+=1
+    k=min(len(words),max(0,k))
+    key=('c',n,i,k)
+    if key not in _cache: _cache.clear();_cache[key]=sub_words(words,k)
+    return _cache[key],al
 def card_layer(name,role,col):
     im=Image.new('RGBA',(640,150),(0,0,0,0));g=ImageDraw.Draw(im)
     g.rounded_rectangle((0,0,640,150),16,fill=(16,10,6,225),outline=col+(255,),width=3)

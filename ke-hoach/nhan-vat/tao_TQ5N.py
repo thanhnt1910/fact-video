@@ -136,6 +136,16 @@ for k, (b, p, text) in enumerate(units, 1):
             pr = m + ". An empty quiet scene of objects and landscape only. 2D franco-belgian ligne claire comic illustration of ancient China, clean uniform dark ink outlines, flat muted colours with soft shading, earthy palette of ochre, jade green, indigo and warm cream, no text, no numerals, no letters, no watermark, not 3D, not a photo. " + T.ANTI
         out.append({"key": key, "cau": k, "nv": nv, "text": text, "prompt": pr, "beat_cu": b})
         canh.append({"key": key, "nv": nv, "mo_ta": m})
+
+# --- 19/10: sửa lỗi ngựa (dính vào người, thừa/thiếu chân, ngựa trong nhà) ---
+HFIX = ("Every horse is drawn complete: one head, one neck, four legs, one tail, clearly separate from every person; "
+        "each person stands or sits fully in front of or beside a horse, never overlapping a horse body, no horse behind a person's back")
+HKEYS = "020 022 024 026 029 030 050 054 064 079 080 082 094 099 115 118 148 155 156".split()
+INDOOR = "049 089".split()
+for o in out:
+    if o["key"] in HKEYS: o["prompt"] = o["prompt"].rstrip() + " " + HFIX + "."
+    if o["key"] in INDOOR: o["prompt"] = o["prompt"].rstrip() + " An interior of a room with only the people, desk, lamp and wall hangings described here and nothing else; the whole picture is inside the room."
+    if o["key"] == "099": o["prompt"] = o["prompt"].rstrip() + " Sun Ce walks on foot with ordinary human legs in cloth trousers and boots."
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_moi.txt").write_text(",".join(o["key"] for o in out if "beat_cu" in o), encoding="utf-8")

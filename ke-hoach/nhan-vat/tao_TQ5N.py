@@ -171,7 +171,7 @@ for o in out:
 NEW5 = {
  "121": "Lu Bu stands on foot in a courtyard of bare plain-walled houses and hands a closed tied bamboo-strip bundle to a messenger in armour who also stands on foot facing him and bows, only two men and nobody else, morning light",
  "117": "Lu Bu and two other horsemen ride at a steady trot along a dry dusty road across open flat country with low hills, each rider sitting upright on his own horse, every horse shown full length with all four legs on the dry road, a small distant decorated cart far ahead, dry land only",
- "156": "four soldiers on foot push a small two-wheeled hand cart carrying a plain wooden coffin along a dusty street away from a walled town, banners drooping, grey light, only men on foot",
+ "156": "exactly four soldiers on foot, all in iron helmets, push a small two-wheeled hand cart carrying a plain wooden coffin along an empty dusty street away from a walled town, banners drooping, grey light, every figure is a human soldier with a human face, nothing else walks in the street",
 }
 for o in out:
     if o["key"] in NEW5:

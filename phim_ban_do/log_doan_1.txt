@@ -23,4 +23,4 @@ tổng khung 30767 đoạn 1 7691 15383
 7500 7692
 xong
 + ls -la doan_1.mp4
--rw-r--r-- 1 runner runner 147423342 Oct 19 15:57 doan_1.mp4
+-rw-r--r-- 1 runner runner 147423342 Oct 19 16:59 doan_1.mp4

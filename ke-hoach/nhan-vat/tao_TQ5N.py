@@ -148,6 +148,17 @@ for o in out:
     if o["key"] == "106": o["prompt"] = o["prompt"].rstrip() + " The hall is lit only by daylight from the open gate; the ceiling is bare wooden beams with nothing hanging from it; guests sit on straw mats and low benches."
     if o["key"] == "164": o["prompt"] = o["prompt"].rstrip() + " The hall contains only the low bed platform and a small low stool; the walls are bare."
     if o["key"] == "099": o["prompt"] = o["prompt"].rstrip() + " Sun Ce walks on foot with ordinary human legs in cloth trousers and boots."
+
+# --- vòng 3 (19/10): ngựa còn lỗi ---
+V3 = {
+ "024": " Exactly three horses in total, each carrying exactly one rider, the three riders side by side in a row.",
+ "026": " The rebel leader walks on foot at the very front of the picture, alone on the left half, with all the horsemen riding far behind him in the distance.",
+ "089": " The room is empty except for the two men and the small stool: a plain mud-walled room with a bare floor and one small open doorway.",
+ "099": " Sun Ce wears long grey cloth trousers tucked into tall leather boots, no bare legs.",
+ "155": " The front man walks in long dark trousers and boots on ordinary human legs, the horses are only seen far behind the marching line.",
+}
+for o in out:
+    if o["key"] in V3: o["prompt"] = o["prompt"].rstrip() + V3[o["key"]]
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_moi.txt").write_text(",".join(o["key"] for o in out if "beat_cu" in o), encoding="utf-8")

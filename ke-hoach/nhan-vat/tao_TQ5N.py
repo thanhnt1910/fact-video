@@ -98,13 +98,13 @@ n(80, [TB, "dan", "linh"], "clerks and farmers bring ox carts of grain into a bi
 n(81, ["vienthuat_t5a"], "exactly ONE man only: Yuan Shu lies on a plain low bed in a dim room with a hand on his chest and an empty wooden bowl on the floor, no second figure")
 n(82, ["nuthanh", "linh"], "a young woman in a plain pale robe is escorted by a few soldiers through the gate of a palace in Jiangdong, morning light")
 n(83, [TB, HD, "quan"], "seen from behind Cao Cao stands in the doorway of a hall facing the seated emperor while many officials bow in rows")
-n(84, [], "a ruined mansion gate overgrown with grass and fallen plain banners in a dusty yard, completely empty, absolutely no people")
+n(84, [], "a ruined courtyard with two bare earthen walls overgrown with grass, a dusty yard with a path of flat stones, a few rolled bamboo-slip bundles tied with cord lying in the grass, completely empty, absolutely no people, the picture fills the whole frame edge to edge")
 n(85, [HD], "exactly ONE man only: the young emperor stands at a wooden lattice window looking out over the walls and roofs of Xu at dusk, no second figure")
 # --- đợt 1 sau khi soi (19/10): sửa 16 ảnh có biển chữ, sách, hai người giống nhau, ba người trên một ngựa ---
 NOSIGN = "the buildings have bare plain walls and gates with no signboard, no plaque and no banner with writing above them"
 n(2, ["vienthuat_t5a"], "exactly ONE man only: Yuan Shu in plain unmarked armour stands alone in a grand hall of Shouchun gazing greedily at a bare empty raised wooden platform with nothing on it, no second figure, no crowd, red hangings")
 n(32, [HD, TB], "the young emperor, a slim beardless teenager with a smooth pale face in a pale cream robe, stands beside Cao Cao, a short man with a moustache in a dark charcoal robe, on a dais, two clearly different men, officials in rows below, plain mud-walled hall")
-n(45, [TB, HD, "dan"], "the young emperor sits in an open ox-drawn cart while Cao Cao rides on a separate horse beside the cart, exactly one rider per horse, citizens bow along the street of Xu, banners, daylight")
+n(45, [TB, HD, "dan"], "the young emperor sits in an open ox-drawn cart while Cao Cao rides on a separate horse beside the cart, exactly one rider per horse, citizens bow along an earthen street of Xu lined with bare plain-walled mud houses that have bare fronts, plain solid-colour banners, daylight")
 n(55, [TB], "exactly ONE man only: Cao Cao stands on the steps of a hall holding a closed tied bamboo-strip bundle in his hand, calm look, no book, no second figure")
 ADD = {1: NOSIGN, 10: NOSIGN, 15: "Han Chinese grey-tiled mud-brick houses only, no red-tiled roofs, no European buildings, no flowers in the foreground", 21: NOSIGN, 41: "flags and banners are plain solid colour with no emblem", 56: NOSIGN, 67: NOSIGN, 77: NOSIGN+", the coffin is a plain wooden box", 80: NOSIGN+", the storehouse has bare walls", 81: "the bed is a low straw-mat platform, the wall behind is bare with no hanging scrolls and no writing, no chair", 82: NOSIGN+", flags plain solid colour", 84: "no hanging banners, a single full-frame picture, no panels, no border, no frame"}
 
@@ -145,6 +145,8 @@ INDOOR = "049 089".split()
 for o in out:
     if o["key"] in HKEYS: o["prompt"] = o["prompt"].rstrip() + " " + HFIX + "."
     if o["key"] in INDOOR: o["prompt"] = o["prompt"].rstrip() + " An interior of a room with only the people, desk, lamp and wall hangings described here and nothing else; the whole picture is inside the room."
+    if o["key"] == "106": o["prompt"] = o["prompt"].rstrip() + " The hall is lit only by daylight from the open gate; the ceiling is bare wooden beams with nothing hanging from it; guests sit on straw mats and low benches."
+    if o["key"] == "164": o["prompt"] = o["prompt"].rstrip() + " The hall contains only the low bed platform and a small low stool; the walls are bare."
     if o["key"] == "099": o["prompt"] = o["prompt"].rstrip() + " Sun Ce walks on foot with ordinary human legs in cloth trousers and boots."
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

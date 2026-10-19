@@ -179,6 +179,11 @@ for o in out:
         if "bare plain walls" in head: head = ""
         o["prompt"] = NEW5[o["key"]] + ". the buildings have bare plain walls and gates with no signboard, no plaque and no banner with writing. nothing written" + tail
         o["prompt"] = o["prompt"].replace(V4, "")
+
+# --- bỏ ngựa khỏi cảnh 030 (chủ kênh 19/10) ---
+for o in out:
+    if o["key"] == "030":
+        o["prompt"] = o["prompt"].replace(V4, "").rstrip() + " All the people walk on foot on the riverbank path: the young emperor in front and two armed officers beside him, three walking men only, and the only other things in the picture are boats, houses and hills."
 (R / "TQ5N.json").write_text(json.dumps({"ma": "TQ5N", "ghi_chu": "Tập 5 chia lại theo câu: 173 ảnh (88 dùng lại từ TQ5, 85 mới)", "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ5N_moi.txt").write_text(",".join(o["key"] for o in out if "beat_cu" in o), encoding="utf-8")

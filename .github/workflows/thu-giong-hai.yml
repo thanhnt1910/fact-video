@@ -21,7 +21,7 @@ permissions:
 jobs:
   demo:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -48,7 +48,7 @@ jobs:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: |
           mkdir -p assets/thu_giong_hai
-          python thu_giong_hai.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/habi.json' }}" "${{ inputs.voices || 'Puck,Sadaltager' }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
+          python thu_giong_hai.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo
         if: always()
         run: |

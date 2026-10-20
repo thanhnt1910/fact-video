@@ -86,6 +86,13 @@ def title_layer(year, name, sub):
     im = Image.new('RGBA', (W, H), (0, 0, 0, 0))
     g = ImageDraw.Draw(im)
     f1, f2, f3 = font(130), font(96), font(40, False)
+    _g = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
+    for _sz in range(96, 40, -4):
+        f2 = font(_sz)
+        if _g.textlength(name, font=f2) <= 1600: break
+    for _sz in range(40, 24, -2):
+        f3 = font(_sz, False)
+        if _g.textlength(sub, font=f3) <= 1600: break
     y0 = H // 2 - 190
     t1 = year
     w1 = g.textlength(t1, font=f1)
@@ -174,9 +181,13 @@ def joke_layer(icon, text, t, k):
         g.ellipse((cx - r * 0.5, cy - r * 0.5, cx + r * 0.5, cy + r * 0.5), fill=(222, 176, 60, 255), outline=INK, width=6)
         g.rectangle((cx - r * 0.12, cy - r * 0.2, cx + r * 0.12, cy + r * 0.2), outline=INK, width=6)
     f = font(66)
-    wt = g.textlength(text, font=f)
-    g.rounded_rectangle((W / 2 - wt / 2 - 40, cy + r + 24, W / 2 + wt / 2 + 40, cy + r + 124), 22, fill=(14, 9, 5, 232), outline=GOLD, width=3)
-    g.text((W / 2 - wt / 2, cy + r + 36), text, font=f, fill=(250, 244, 228, 255))
+    lines = wrap(text, f, 1500, g)
+    wt = max(g.textlength(l, font=f) for l in lines)
+    lh = 84
+    g.rounded_rectangle((W / 2 - wt / 2 - 40, cy + r + 24, W / 2 + wt / 2 + 40, cy + r + 64 + lh * len(lines)), 22, fill=(14, 9, 5, 232), outline=GOLD, width=3)
+    for i, l in enumerate(lines):
+        lw = g.textlength(l, font=f)
+        g.text((W / 2 - lw / 2, cy + r + 36 + i * lh), l, font=f, fill=(250, 244, 228, 255))
     return im
 
 

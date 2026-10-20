@@ -23,7 +23,25 @@ def main():
         x = np.frombuffer(raw, np.int16)
         if len(cl) == 1 or len(x) < SR: res[str(n)] = [[cl[0], 0.0, len(x)/SR]]; continue
         spans, _ = H.split_by_pauses(x, [max(1, len(c.split())) for c in cl])
-        res[str(n)] = [[c, round(float(s)/SR, 3), round(float(e)/SR, 3)] for c, (s, e) in zip(cl, spans)]
+        hop = SR // 100
+        env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(hop * 2) / (hop * 2), 'same'))
+        thr = max(0.006, 0.08 * float(np.percentile(env, 98)))
+        rows = []
+        for c, (s, e) in zip(cl, spans):
+            s, e = int(s), int(e)
+            seg = np.where(env[s:e] > thr)[0]
+            vs, ve = ((s + seg[0]) / SR, (s + seg[-1]) / SR) if len(seg) else (s / SR, e / SR)
+            rows.append([c, round(s / SR, 3), round(e / SR, 3), round(vs, 3), round(ve, 3)])
+        changed = True
+        while changed and len(rows) > 1:
+            changed = False
+            for i, r in enumerate(rows):
+                if (r[4] - r[3]) / max(1, len(r[0].split())) < 0.15:
+                    j = i + 1 if i + 1 < len(rows) else i - 1
+                    a, b2 = sorted((i, j)); A, B = rows[a], rows[b2]
+                    rows[a:b2 + 1] = [[A[0] + ' ' + B[0], A[1], B[2], A[3], B[4]]]
+                    changed = True; break
+        res[str(n)] = rows
     json.dump(res, open(dst, 'w'), ensure_ascii=False)
     print(len(res), 'câu,', sum(len(v) for v in res.values()), 'cụm')
 if __name__ == '__main__': main()

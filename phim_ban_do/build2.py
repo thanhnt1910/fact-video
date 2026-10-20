@@ -67,11 +67,12 @@ def sub_at(t):
     v=lt-0.12;i=0
     for j,c in enumerate(cl):
         if v>=c[1]-0.05: i=j
-    txt,s,e=cl[i];words=txt.split()
+    txt,s,e=cl[i][:3];words=txt.split()
+    if len(cl[i])>=5: s,e=cl[i][3]-0.10,cl[i][4]
     wt=[len(w_)+2 for w_ in words];tot=float(sum(wt));acc=0;k=0
     for w_,x_ in zip(words,wt):
         acc+=x_
-        if v>=s+(e-s)*(acc/tot)-0.12*(x_/ (tot/len(words))): k+=1
+        if v>=s+(e-s)*((acc-x_*0.5)/tot): k+=1
     k=min(len(words),max(0,k))
     key=('c',n,i,k)
     if key not in _cache: _cache.clear();_cache[key]=sub_words(words,k)

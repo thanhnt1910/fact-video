@@ -4,8 +4,12 @@ INF=1e9
 def R(n,o=0): return T[1000+n]+o
 def E(n,o=0): return T[1000+n]+D[1000+n]+o
 def at(n,sub,off=0.0):
-    for c,s_,e_ in PH.get(str(1000+n),[]):
-        if sub.lower() in c.lower(): return T[1000+n]+0.12+s_+off
+    for r in PH.get(str(1000+n),[]):
+        c,s_,e_=r[:3]
+        if sub.lower() in c.lower():
+            if len(r)>=5:
+                p=c.lower().index(sub.lower())/max(1,len(c));s_=r[3]+(r[4]-r[3])*p-0.1
+            return T[1000+n]+0.12+s_+off
     return T[1000+n]+1.0+off
 GR=(52,142,86);BL=(54,96,176);RD=(190,52,42);PU=(138,52,112);DK=(46,38,58);GD=(205,160,40)
 TL=(40,140,150);BR=(150,100,60);OR=(200,110,40);GY=(110,110,110);OL=(110,130,50);BK=(60,60,60);YW=(214,176,40);NEU=(150,140,120);PUF=(122,96,140)

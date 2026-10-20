@@ -244,3 +244,10 @@ def sack(d, x, y, s, a=255):
 def saddle(d, x, y, s, a=255):
     d.arc((x - s * 0.6, y - s * 0.5, x + s * 0.6, y + s * 0.4), 180, 360, fill=(120, 74, 38, a), width=max(3, int(s * 0.28)))
     d.line([(x - s * 0.6, y - s * 0.05), (x + s * 0.6, y - s * 0.05)], fill=(120, 74, 38, a), width=max(3, int(s * 0.22)))
+
+
+def boat(d,x,y,s,col,face=1):
+    """Thuyền chiến nhỏ có buồm."""
+    d.polygon([(x-s*1.4,y),(x+s*1.4,y),(x+s*0.9,y+s*0.55),(x-s*0.9,y+s*0.55)],fill=col+(255,),outline=INK)
+    d.line([(x,y),(x,y-s*1.5)],fill=(60,44,28,255),width=max(2,int(s*0.12)))
+    d.polygon([(x,y-s*1.5),(x+face*s*1.0,y-s*0.7),(x,y-s*0.2)],fill=(236,226,200,255),outline=INK)

@@ -5,8 +5,8 @@ import build2 as B
 from build2 import T,D,TOTAL,texts,chap,W,H,FPS,ease,clamp,font,comp
 from mapdraw import *
 import mapdraw as MD
-from world2 import RW,RH,wp
-WORLD=Image.open(os.environ.get('WORLD','/tmp/proto/world2.png')).convert('RGB')
+from world3 import RW,RH,wp
+WORLD=Image.open(os.environ.get('WORLD','/tmp/proto/world3.jpg')).convert('RGB')
 PYR=[WORLD]
 for i in range(1,4): PYR.append(PYR[-1].resize((RW>>i,RH>>i),Image.LANCZOS))
 def lerp(a,b,u): return a+(b-a)*u
@@ -75,8 +75,8 @@ class Group:
 GROUPS=[Group(**{k:v for k,v in g.items() if k!='n2'}) for g in C.GROUPS]
 # nền trang trí
 _r=random.Random(77);DECO=[];_p=PYR[3]
-for _ in range(5200):
-    lo=_r.uniform(108.4,121.6);la=_r.uniform(31.8,38.4);x,y=wp(lo,la)
+for _ in range(9000):
+    lo=_r.uniform(107.2,121.6);la=_r.uniform(28.8,41.4);x,y=wp(lo,la)
     px=_p.getpixel((min(_p.width-1,int(x/8)),min(_p.height-1,int(y/8))))
     water=px[2]>px[0]+10
     DECO.append((lo,la,'wave' if water else ('tree' if _r.random()<0.5 else 'none'),_r.random()))
@@ -98,7 +98,7 @@ CARDL={}
 for c in getattr(C,'CARDS3',[]): CARDL[(c[2],c[3])]=M3.card3(c[2],c[3],c[4])
 TITL={i:M3.title_layer(*x[2:]) for i,x in enumerate(getattr(C,'TITLES',[]))}
 QUOL={i:M3.quote_layer(x[2],x[3],x[4]) for i,x in enumerate(getattr(C,'QUOTES',[]))}
-MINI0=M3.minimap_base(PYR[3])
+MINI0=M3.minimap_base(PYR[3],300,int(300*RH/RW))
 NUML={n:B.num_layer(b,s) for n,b,s,_ in C.NUMS}
 NUMT={}
 CHIPS={}
@@ -120,6 +120,7 @@ def frame(t):
     MD.deco(d,v,K,z,ik,DECO)
     # vùng (châu)
     for rg in C.REGIONS:
+        if rg.get('win') and not(rg['win'][0]<=t<=rg['win'][1]): continue
         fc=colcurve(rg['own'],t);pts=[v.sc(*p,K) for p in rg['poly']]
         d.polygon(pts,fill=fc+(rg.get('alpha',30),))
         dashed(d,pts+[pts[0]],fc,5,K,26,200)
@@ -133,6 +134,8 @@ def frame(t):
             lx,ly=v.sc(*lab,K);d.text((lx,ly),nm,font=MD.F(30*K*min(1.7,z**0.3)),fill=(40,78,110,200),anchor='mm',stroke_width=3,stroke_fill=(230,240,246,200))
     # thành
     for nm,(lo,la,kind) in C.CITIES.items():
+        cw=getattr(C,'CITY_SHOW',{}).get(nm)
+        if hasattr(C,'CITY_SHOW') and (cw is None or not any(a<=t<=b for a,b in cw)): continue
         x,y=v.sc(lo,la,K)
         if not(-200<x<W*K+200 and -200<y<H*K+200): continue
         oc=colcurve(C.CITY_OWN[nm],t) if nm in C.CITY_OWN else None
@@ -267,7 +270,7 @@ def frame(t):
                 d.ellipse((ax-rr,ay-rr,ax+rr,ay+rr),outline=(250,230,160,al),width=int(4*K*0.6))
     for (t0,t1,kind,a,b) in getattr(C,'OBJ',[]):
         if t<t0: continue
-        ax,ay=v.sc(*a,K);bx,by=v.sc(*b,K)
+        ax,ay=v.sc(*a,K);bx,by=v.sc(*b[:2],K)
         if kind=='tower':
             if t<=t1: M3.tower(d,ax,ay,ik*0.9,t)
             elif t<=t1+1.8: M3.debris(d,ax,ay,ik*0.9,(t-t1)/1.8)
@@ -282,6 +285,20 @@ def frame(t):
                 for j in range(int(u*6)):
                     q=(j+1)/7;mx,my=lerp(ax,bx,q),lerp(ay,by,q)
                     d.polygon([(mx-ik*0.5,my),(mx,my-ik*0.5),(mx+ik*0.5,my)],fill=(120,84,48,al),outline=(50,36,24,al))
+        elif kind=='fleet':
+            u=clamp((t-t0)/1.0);n_=int(b[2]) if len(b)>2 else 6
+            for j in range(n_):
+                q=j/max(1,n_-1);M3.boat(d,lerp(ax,bx,q),lerp(ay,by,q)+math.sin(t*2+j)*ik*0.15,ik*0.9,(70,60,50),1)
+            for j in range(n_-1):
+                q0=j/max(1,n_-1);q1=(j+1)/max(1,n_-1);d.line([(lerp(ax,bx,q0),lerp(ay,by,q0)),(lerp(ax,bx,q1),lerp(ay,by,q1))],fill=(40,34,30,255),width=int(4*K*0.6))
+        elif kind=='fireboat':
+            u=clamp((t-t0)/(t1-t0))
+            for j in range(5):
+                px=lerp(ax,bx,u)+j*ik*0.7;py=lerp(ay,by,u)+(j-2)*ik*0.8
+                M3.boat(d,px,py,ik*0.8,(120,80,40),-1);fire(d,px,py-ik*0.4,ik*0.8,t,j+int(ax))
+        elif kind=='flood':
+            u=clamp((t-t0)/3.0);rr=ik*(2+u*9)
+            d.ellipse((ax-rr*1.6,ay-rr*0.9,ax+rr*1.6,ay+rr*0.9),fill=(90,140,190,int(120*u)),outline=(60,110,170,int(200*u)),width=int(4*K*0.6))
         elif kind=='loot':
             u=clamp((t-t0)/2.0)
             for j in range(int(u*7)):
@@ -362,7 +379,7 @@ def frame(t):
         for gg in GROUPS:
             if gg.vis(t):
                 lon,lat,_=path_pos(gg.keys,t);px_,py_=mp(lon,lat);g_.ellipse((px_-5,py_-5,px_+5,py_+5),fill=gg.col+(255,),outline=(255,255,255,255))
-        out=comp(out,m,(W-44-380,370),clamp((t-0.8)/0.6))
+        out=comp(out,m,(W-44-300,370),clamp((t-0.8)/0.6))
     for i,x in enumerate(getattr(C,'QUOTES',[])):
         if x[0]<=t<=x[1]:
             k=min(clamp((t-x[0])/0.5),clamp((x[1]-t)/0.4));ql=QUOL[i];out=comp(out,ql,((W-ql.width)//2,int(770-ql.height+(1-ease(k))*40)),ease(k))

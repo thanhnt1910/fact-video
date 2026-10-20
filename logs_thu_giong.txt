@@ -1,1 +1,4 @@
-còn thiếu 0 câu
+còn thiếu 30 câu
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK cụm 1177 - 1192 146.8 giây
+OK cụm 1193 - 1206 115.3 giây

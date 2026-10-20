@@ -1,0 +1,923 @@
+[
+ {
+  "slot": "D01",
+  "beats": null,
+  "mo_ta": "chuyến bay đầu tiên 17/12/1903 Kitty Hawk",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/First_flight3.jpg/1920px-First_flight3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6603,
+    "h": 4280,
+    "credit": "\"First flight3.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:First_flight3.jpg)",
+    "text": "File:First flight3.jpg First successful flight of the Wright Flyer, by the Wright brothers. The machine traveled 120 ft (36.6 m) in 12 seconds at 10:35 a.m. at Kitty Hawk, North Carolina. Orville Wrig"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/First_flight2.jpg/1920px-First_flight2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6603,
+    "h": 4280,
+    "credit": "\"First flight2.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:First_flight2.jpg)",
+    "text": "File:First flight2.jpg First successful flight of the Wright Flyer, by the Wright brothers. The machine traveled 120 ft (36.6 m) in 12 seconds at 10:35 a.m. at Kill Devil Hills, North Carolina. Orvill"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/The_Wright_Brothers%3B_first_powered_flight_HU98267.jpg/1920px-The_Wright_Brothers%3B_first_powered_flight_HU98267.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2480,
+    "h": 1754,
+    "credit": "\"The Wright Brothers; first powered flight HU98267.jpg\" – Daniels John T, Kill Devil Hills Life Saving Station, Public domain (https://commons.wikimedia.org/wiki/File:The_Wright_Brothers;_first_powered_flight_HU98267.jpg)",
+    "text": "File:The Wright Brothers; first powered flight HU98267.jpg The Wright Brothers\nThe Wright Flyer airborne during the first powered flight at Kitty Hawk, North Carolina, United States of America, 17 Dec"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Airplanes_-_Historical_-_Wright_Brothers%27_1903_Aeroplane_%28%22Kitty_Hawk%22%29_in_first_flight%2C_December_17%2C_1903_at_Kitty_Hawk%2C_N.C._Orville_Wright_at_controls._Wilbur_Wright_standing_at_right._%28First_flight_was_12_sec%28...%29_-_NARA_-_17338962.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5754,
+    "h": 3216,
+    "credit": "\"Airplanes - Historical - Wright Brothers' 1903 Aeroplane (\"Kitty Hawk\") in first flight, December 17, 1903 at Kitty Hawk, N.C. Orville Wright at controls. Wilbur Wright standing at right. (First flight was 12 sec(...) - NARA - 17338962.jpg\" – Unknown authorUnknown author or not provided, Public domain (https://commons.wikimedia.org/wiki/File:Airplanes_-_Historical_-_Wright_Brothers%27_1903_Aeroplane_(%22Kitty_Hawk%22)_in_first_flight,_December_17,_1903_at_Kitty_Hawk,_N.C._Orville_Wright_at_controls._Wilbur_Wright_standing_at_right._(First_flight_was_12_sec(...)_-_NARA_-_17338962.jpg)",
+    "text": "File:Airplanes - Historical - Wright Brothers' 1903 Aeroplane (\"Kitty Hawk\") in first flight, December 17, 1903 at Kitty Hawk, N.C. Orville Wright at controls. Wilbur Wright standing at right. (First "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Wright_Brothers%27_1903_Aeroplane_Kitty_Hawk_in_First_Flight_-_NARA_-_7580929.jpg/1920px-Wright_Brothers%27_1903_Aeroplane_Kitty_Hawk_in_First_Flight_-_NARA_-_7580929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2786,
+    "h": 1928,
+    "credit": "\"Wright Brothers' 1903 Aeroplane Kitty Hawk in First Flight - NARA - 7580929.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Brothers%27_1903_Aeroplane_Kitty_Hawk_in_First_Flight_-_NARA_-_7580929.jpg)",
+    "text": "File:Wright Brothers' 1903 Aeroplane Kitty Hawk in First Flight - NARA - 7580929.jpg Scope and content:  Original caption: Original Wright Brothers' 1903 Aeroplane (\"Kitty Hawk\") in first flight, Dece"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Wrightflyer.jpg/1920px-Wrightflyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2400,
+    "h": 1432,
+    "credit": "\"Wrightflyer.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:Wrightflyer.jpg)",
+    "text": "File:Wrightflyer.jpg First successful flight of the Wright Flyer, by the Wright brothers. The machine traveled 120 ft (36.6 m) in 12 seconds at 10:35 a.m. on 17 December 1903 at Kitty Hawk, North Caro"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Wright_First_Flight_1903Dec17_%28full_restore_115%29_%28cropped%29.jpg/1920px-Wright_First_Flight_1903Dec17_%28full_restore_115%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4331,
+    "h": 1751,
+    "credit": "\"Wright First Flight 1903Dec17 (full restore 115) (cropped).jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:Wright_First_Flight_1903Dec17_(full_restore_115)_(cropped).jpg)",
+    "text": "File:Wright First Flight 1903Dec17 (full restore 115) (cropped).jpg The first powered, controlled, sustained airplane flight in history. Orville Wright, age 32, is at the controls of the machine, lyin"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Wright_First_Flight_1903Dec17_%28full_restore_115%29.jpg/1920px-Wright_First_Flight_1903Dec17_%28full_restore_115%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7162,
+    "h": 5178,
+    "credit": "\"Wright First Flight 1903Dec17 (full restore 115).jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:Wright_First_Flight_1903Dec17_(full_restore_115).jpg)",
+    "text": "File:Wright First Flight 1903Dec17 (full restore 115).jpg The first powered, controlled, sustained airplane flight in history. Orville Wright, age 32, is at the controls of the machine, lying prone on"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Wright_First_Flight_1903Dec17_%28restore_115-OverlayMask%29.png/1920px-Wright_First_Flight_1903Dec17_%28restore_115-OverlayMask%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7500,
+    "h": 5406,
+    "credit": "\"Wright First Flight 1903Dec17 (restore 115-OverlayMask).png\" – Wright Stuf, CC0 (https://commons.wikimedia.org/wiki/File:Wright_First_Flight_1903Dec17_(restore_115-OverlayMask).png)",
+    "text": "File:Wright First Flight 1903Dec17 (restore 115-OverlayMask).png This mask can be used to recover 16-bit pixel depth for the restored image by overlaying on the source image here:  File:Wright first f"
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Wright_Brothers_First_Heavier-than-air_Flight_-_GPN-2002-000128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1639,
+    "h": 1304,
+    "credit": "\"The Wright Brothers First Heavier-than-air Flight - GPN-2002-000128.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:The_Wright_Brothers_First_Heavier-than-air_Flight_-_GPN-2002-000128.jpg)",
+    "text": "File:The Wright Brothers First Heavier-than-air Flight - GPN-2002-000128.jpg On December 17, 1903, at 10:30 am at Kitty Hawk, North Carolina, this airplane arose for a few seconds to make the first po"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Firstflight_2_cropped.jpg/1920px-Firstflight_2_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4571,
+    "h": 2853,
+    "credit": "\"Firstflight 2 cropped.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:Firstflight_2_cropped.jpg)",
+    "text": "File:Firstflight 2 cropped.jpg First successful flight of the Wright Flyer, by the Wright brothers. The machine traveled 120 ft (36.6 m) in 12 seconds at 10:35 a.m. at Kitty Hawk, North Carolina. Orvi"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hap_Arnold%27s_address_on_presentation_of_the_Wright_Brothers%27_original_1903_%22Kitty_Hawk%22_at_the_Smithsonian%2C_Operation_Homecoming%2C_Dec_17%2C_1948.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1600,
+    "h": 1050,
+    "credit": "\"Hap Arnold's address on presentation of the Wright Brothers' original 1903 \"Kitty Hawk\" at the Smithsonian, Operation Homecoming, Dec 17, 1948.png\" – \"Patricia Williams\", Public domain (https://commons.wikimedia.org/wiki/File:Hap_Arnold%27s_address_on_presentation_of_the_Wright_Brothers%27_original_1903_%22Kitty_Hawk%22_at_the_Smithsonian,_Operation_Homecoming,_Dec_17,_1948.png)",
+    "text": "File:Hap Arnold's address on presentation of the Wright Brothers' original 1903 \"Kitty Hawk\" at the Smithsonian, Operation Homecoming, Dec 17, 1948.png General of the Air Force Henry 'Hap' Arnold's ad"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Wright_Flyer_4th_Flight_1903Dec17.jpg/1920px-Wright_Flyer_4th_Flight_1903Dec17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7500,
+    "h": 5426,
+    "credit": "\"Wright Flyer 4th Flight 1903Dec17.jpg\" – Wilbur & Orville Wright (contributors), Public domain (https://commons.wikimedia.org/wiki/File:Wright_Flyer_4th_Flight_1903Dec17.jpg)",
+    "text": "File:Wright Flyer 4th Flight 1903Dec17.jpg Distant view of the Wright airplane just after landing, taken from the starting point, with wing-rest in center of picture and launching rail at right. This "
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/1903_Wright_Flyer_third_flight_17_December_1903.jpg/1920px-1903_Wright_Flyer_third_flight_17_December_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7500,
+    "h": 5389,
+    "credit": "\"1903 Wright Flyer third flight 17 December 1903.jpg\" – Attributed to Wilbur Wright (1867–1912)., Public domain (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_third_flight_17_December_1903.jpg)",
+    "text": "File:1903 Wright Flyer third flight 17 December 1903.jpg The 1903 Wright Flyer, being flown by Orville Wright, during its third flight of December 17, 1903, at Kitty Hawk, North Carolina."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_17%29.jpg/1920px-1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1430,
+    "credit": "\"1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 17).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_(page_17).jpg)",
+    "text": "File:1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 17).jpg Canard biplane with one 12-horsepower Wright horizontal four-cylinder engine driving two pusher propellers via sprocket-a"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kitty_hawk_gross.jpg/1920px-Kitty_hawk_gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5078,
+    "h": 3736,
+    "credit": "\"Kitty hawk gross.jpg\" – Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright., Public domain (https://commons.wikimedia.org/wiki/File:Kitty_hawk_gross.jpg)",
+    "text": "File:Kitty hawk gross.jpg Wilbur Wright at the controls of the damaged Wright Flyer, on the ground after unsuccessful trial of December 14, 1903, Kitty Hawk, North Carolina."
+   }
+  ]
+ },
+ {
+  "slot": "D02",
+  "beats": null,
+  "mo_ta": "chân dung Wilbur Wright",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Wilbur_Wright-crop.jpg/1920px-Wilbur_Wright-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3284,
+    "h": 4105,
+    "credit": "\"Wilbur Wright-crop.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright-crop.jpg)",
+    "text": "File:Wilbur Wright-crop.jpg Wilbur Wright, age 38, head and shoulders."
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Wilbur_Wright_1905.jpg/1920px-Wilbur_Wright_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5452,
+    "h": 7500,
+    "credit": "\"Wilbur Wright 1905.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_1905.jpg)",
+    "text": "File:Wilbur Wright 1905.jpg Wilbur Wright, age 38, head and shoulders. (full resolution)"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/1920px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3582,
+    "h": 4477,
+    "credit": "\"Orville Wright 1905-crop.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg)",
+    "text": "File:Orville Wright 1905-crop.jpg Orville Wright, age 34, head and shoulders, with mustache."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Wilbur_Wright_by_Bouveret%2C_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1069,
+    "h": 1656,
+    "credit": "\"Wilbur Wright by Bouveret, 1908.jpg\" – J. Bouveret, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_by_Bouveret,_1908.jpg)",
+    "text": "File:Wilbur Wright by Bouveret, 1908.jpg Wilbur Wright with his dog Flyer at his feet."
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Orville_and_Wilbur_Wright%2C_full_length_portrait%2C_standing%2C_wearing_derbies_LCCN2016649438.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 1222,
+    "credit": "\"Orville and Wilbur Wright, full length portrait, standing, wearing derbies LCCN2016649438.jpg\" – Miscellaneous Items in High Demand, PPOC, Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Orville_and_Wilbur_Wright,_full_length_portrait,_standing,_wearing_derbies_LCCN2016649438.jpg)",
+    "text": "File:Orville and Wilbur Wright, full length portrait, standing, wearing derbies LCCN2016649438.jpg Title: Orville and Wilbur Wright, full length portrait, standing, wearing derbies\nAbstract/medium: 1 "
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Wilbur_Wright_en_ao%C3%BBt_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1481,
+    "h": 1640,
+    "credit": "\"Wilbur Wright en août 1908.jpg\" – Jules Beau, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_en_ao%C3%BBt_1908.jpg)",
+    "text": "File:Wilbur Wright en août 1908.jpg [Collection Jules Beau. Photographie sportive] : T. 35. AnnÃ©es 1908, 1909 et 1910 / Jules Beau :"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wilbur_Wright_by_L%C3%A9on_Boll%C3%A9e%2C_1908%2C_gelatin_silver_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_98_61Wright-000002.jpg/1920px-Wilbur_Wright_by_L%C3%A9on_Boll%C3%A9e%2C_1908%2C_gelatin_silver_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_98_61Wright-000002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4403,
+    "h": 3167,
+    "credit": "\"Wilbur Wright by Léon Bollée, 1908, gelatin silver print, from the National Portrait Gallery - NPG-NPG 98 61Wright-000002.jpg\" – Léon Bollée, CC0 (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_by_L%C3%A9on_Boll%C3%A9e,_1908,_gelatin_silver_print,_from_the_National_Portrait_Gallery_-_NPG-NPG_98_61Wright-000002.jpg)",
+    "text": "File:Wilbur Wright by Léon Bollée, 1908, gelatin silver print, from the National Portrait Gallery - NPG-NPG 98 61Wright-000002.jpg Wilbur Wright by Léon Bollée, 1908, gelatin silver print, from the Na"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Allan_Ryan_%26_Wilbur_Wright_LCCN97520143.jpg/1920px-Allan_Ryan_%26_Wilbur_Wright_LCCN97520143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4096,
+    "h": 3280,
+    "credit": "\"Allan Ryan & Wilbur Wright LCCN97520143.jpg\" – Miscellaneous Items in High Demand, PPOC, Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Allan_Ryan_%26_Wilbur_Wright_LCCN97520143.jpg)",
+    "text": "File:Allan Ryan & Wilbur Wright LCCN97520143.jpg Title: Allan Ryan & Wilbur Wright\nAbstract/medium: 1 photographic print."
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Wilbur_Wright_funeral_LCCN2001704180.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1141,
+    "h": 1536,
+    "credit": "\"Wilbur Wright funeral LCCN2001704180.jpg\" – George Grantham Bain Collection, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_funeral_LCCN2001704180.jpg)",
+    "text": "File:Wilbur Wright funeral LCCN2001704180.jpg Title: Wilbur Wright funeral\nAbstract/medium: 2 photographic prints on mount."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Wilbur_Wright_funeral_-_crowds_outside_1st_Presbyterian_church_-_Dayton_LCCN2001704184.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 890,
+    "credit": "\"Wilbur Wright funeral - crowds outside 1st Presbyterian church - Dayton LCCN2001704184.jpg\" – George Grantham Bain Collection, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_funeral_-_crowds_outside_1st_Presbyterian_church_-_Dayton_LCCN2001704184.jpg)",
+    "text": "File:Wilbur Wright funeral - crowds outside 1st Presbyterian church - Dayton LCCN2001704184.jpg Title: Wilbur Wright funeral - crowds outside 1st Presbyterian church - Dayton\nAbstract/medium: 1 photog"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Wilbur_Wright_funeral_-_crowds_outside_1st_Presbyterian_church%2C_Dayton_LCCN2001704183.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 1159,
+    "credit": "\"Wilbur Wright funeral - crowds outside 1st Presbyterian church, Dayton LCCN2001704183.jpg\" – George Grantham Bain Collection, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_funeral_-_crowds_outside_1st_Presbyterian_church,_Dayton_LCCN2001704183.jpg)",
+    "text": "File:Wilbur Wright funeral - crowds outside 1st Presbyterian church, Dayton LCCN2001704183.jpg Title: Wilbur Wright funeral - crowds outside 1st Presbyterian church, Dayton\nAbstract/medium: 1 photogra"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wilbur_and_Orville_Wright_Signed_Photograph%2C_1909.jpg/1920px-Wilbur_and_Orville_Wright_Signed_Photograph%2C_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1956,
+    "h": 1464,
+    "credit": "\"Wilbur and Orville Wright Signed Photograph, 1909.jpg\" – Harris & Ewing, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_and_Orville_Wright_Signed_Photograph,_1909.jpg)",
+    "text": "File:Wilbur and Orville Wright Signed Photograph, 1909.jpg Wilbur and Orville Wright Signed Photograph, Also Signed by President William H. Taft and other notables. The photograph (9.25\" x 7\") is moun"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Portrait_of_Wilbur_Wright%2C_c._1890s._%28a18491e3-1dd8-b71b-0b60-b22327e85541%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1064,
+    "h": 1361,
+    "credit": "\"Portrait of Wilbur Wright, c. 1890s. (a18491e3-1dd8-b71b-0b60-b22327e85541).jpg\" – NPS Photo, Public domain (https://commons.wikimedia.org/wiki/File:Portrait_of_Wilbur_Wright,_c._1890s._(a18491e3-1dd8-b71b-0b60-b22327e85541).jpg)",
+    "text": "File:Portrait of Wilbur Wright, c. 1890s. (a18491e3-1dd8-b71b-0b60-b22327e85541).jpg Portrait of a man in a hat\nPortrait of Wilbur Wright, c. 1890s."
+   },
+   {
+    "so": 13,
+    "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3NtaXRoc25ucGducGc5ODYxd3JpZ2h0MDAwMDAyLWltYWdlLmpwZw.jpg",
+    "w": 4403,
+    "h": 3167,
+    "credit": "\"Wilbur Wright\" – không rõ, CC0 (https://www.rawpixel.com/image/8849359/wilbur-wright)",
+    "text": "Wilbur Wright airplane wright inventor portrait science vintage aviation wilbur wright"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wilbur_Wright.jpg/1920px-Wilbur_Wright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3796,
+    "h": 5010,
+    "credit": "\"Wilbur Wright.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright.jpg)",
+    "text": "File:Wilbur Wright.jpg Wilbur Wright, age 38, head and shoulders."
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Orville_Wright_1905.jpg/1920px-Orville_Wright_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5257,
+    "h": 7339,
+    "credit": "\"Orville Wright 1905.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright_1905.jpg)",
+    "text": "File:Orville Wright 1905.jpg Orville Wright, age 34, head and shoulders, with mustache"
+   }
+  ]
+ },
+ {
+  "slot": "D03",
+  "beats": null,
+  "mo_ta": "chân dung Orville Wright",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/1920px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3582,
+    "h": 4477,
+    "credit": "\"Orville Wright 1905-crop.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg)",
+    "text": "File:Orville Wright 1905-crop.jpg Orville Wright, age 34, head and shoulders, with mustache."
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Orville_Wright_1905.jpg/1920px-Orville_Wright_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5257,
+    "h": 7339,
+    "credit": "\"Orville Wright 1905.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright_1905.jpg)",
+    "text": "File:Orville Wright 1905.jpg Orville Wright, age 34, head and shoulders, with mustache"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Wilbur_Wright-crop.jpg/1920px-Wilbur_Wright-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3284,
+    "h": 4105,
+    "credit": "\"Wilbur Wright-crop.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright-crop.jpg)",
+    "text": "File:Wilbur Wright-crop.jpg Wilbur Wright, age 38, head and shoulders."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Orville_and_Wilbur_Wright%2C_full_length_portrait%2C_standing%2C_wearing_derbies_LCCN2016649438.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 1222,
+    "credit": "\"Orville and Wilbur Wright, full length portrait, standing, wearing derbies LCCN2016649438.jpg\" – Miscellaneous Items in High Demand, PPOC, Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Orville_and_Wilbur_Wright,_full_length_portrait,_standing,_wearing_derbies_LCCN2016649438.jpg)",
+    "text": "File:Orville and Wilbur Wright, full length portrait, standing, wearing derbies LCCN2016649438.jpg Title: Orville and Wilbur Wright, full length portrait, standing, wearing derbies\nAbstract/medium: 1 "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Orville_Wright%2C_William_Wright%2C_and_Katharine_Wright%2C_half-length_portraits%2C_standing_outdoors_LCCN95507539.jpg/1920px-Orville_Wright%2C_William_Wright%2C_and_Katharine_Wright%2C_half-length_portraits%2C_standing_outdoors_LCCN95507539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4096,
+    "h": 3209,
+    "credit": "\"Orville Wright, William Wright, and Katharine Wright, half-length portraits, standing outdoors LCCN95507539.jpg\" – George Grantham Bain Collection, Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright,_William_Wright,_and_Katharine_Wright,_half-length_portraits,_standing_outdoors_LCCN95507539.jpg)",
+    "text": "File:Orville Wright, William Wright, and Katharine Wright, half-length portraits, standing outdoors LCCN95507539.jpg Title: Orville Wright, William Wright, and Katharine Wright, half-length portraits,"
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Famous_Living_Americans_-_Orville_Wright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1513,
+    "h": 2773,
+    "credit": "\"Famous Living Americans - Orville Wright.jpg\" – Editor Mary Griffin Webb and Edna Lenore Webb, Public domain (https://commons.wikimedia.org/wiki/File:Famous_Living_Americans_-_Orville_Wright.jpg)",
+    "text": "File:Famous Living Americans - Orville Wright.jpg Orville Wright."
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Orville_Wright.jpg/1920px-Orville_Wright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2152,
+    "h": 2562,
+    "credit": "\"Orville Wright.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright.jpg)",
+    "text": "File:Orville Wright.jpg Photographic portrait of Orville Wright, then aged 34, taken in 1905"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wilbur_and_Orville_Wright_Signed_Photograph%2C_1909.jpg/1920px-Wilbur_and_Orville_Wright_Signed_Photograph%2C_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1956,
+    "h": 1464,
+    "credit": "\"Wilbur and Orville Wright Signed Photograph, 1909.jpg\" – Harris & Ewing, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_and_Orville_Wright_Signed_Photograph,_1909.jpg)",
+    "text": "File:Wilbur and Orville Wright Signed Photograph, 1909.jpg Wilbur and Orville Wright Signed Photograph, Also Signed by President William H. Taft and other notables. The photograph (9.25\" x 7\") is moun"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Portrait_of_Orville_Wright%2C_c._1890s._%28a186d4d5-1dd8-b71b-0bf3-9666e7a80efa%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1066,
+    "h": 1353,
+    "credit": "\"Portrait of Orville Wright, c. 1890s. (a186d4d5-1dd8-b71b-0bf3-9666e7a80efa).jpg\" – NPS Photo, Public domain (https://commons.wikimedia.org/wiki/File:Portrait_of_Orville_Wright,_c._1890s._(a186d4d5-1dd8-b71b-0bf3-9666e7a80efa).jpg)",
+    "text": "File:Portrait of Orville Wright, c. 1890s. (a186d4d5-1dd8-b71b-0bf3-9666e7a80efa).jpg Portrait of a man staring into camera\nPortrait of Orville Wright, c. 1890s."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Orville_Wright%2C_about_three_years_old%2C_half-length_portrait%2C_in_oval%2C_facing_front_LCCN2003663044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 719,
+    "h": 1024,
+    "credit": "\"Orville Wright, about three years old, half-length portrait, in oval, facing front LCCN2003663044.jpg\" – Miscellaneous Items in High Demand, PPOC, Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright,_about_three_years_old,_half-length_portrait,_in_oval,_facing_front_LCCN2003663044.jpg)",
+    "text": "File:Orville Wright, about three years old, half-length portrait, in oval, facing front LCCN2003663044.jpg Title: Orville Wright, about three years old, half-length portrait, in oval, facing front\nAbs"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/%28Les_fr%C3%A8res%29_Wright_%C3%A0_Pau_-_le_roi_d%27Espagne_f%C3%A9licitant_Wilburg_et_Orville_Wright_-_btv1b90189020.jpg/1920px-%28Les_fr%C3%A8res%29_Wright_%C3%A0_Pau_-_le_roi_d%27Espagne_f%C3%A9licitant_Wilburg_et_Orville_Wright_-_btv1b90189020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7000,
+    "h": 5059,
+    "credit": "\"(Les frères) Wright à Pau - le roi d'Espagne félicitant Wilburg et Orville Wright - btv1b90189020.jpg\" – Agence de presse Meurisse. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:(Les_fr%C3%A8res)_Wright_%C3%A0_Pau_-_le_roi_d%27Espagne_f%C3%A9licitant_Wilburg_et_Orville_Wright_-_btv1b90189020.jpg)",
+    "text": "File:(Les frères) Wright à Pau - le roi d'Espagne félicitant Wilburg et Orville Wright - btv1b90189020.jpg Sujet : Wright, Orville (1871-1948) -- Portraits\nWright, Wilbur (1867-1912) -- Portraits\nAlph"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/M._Orville_Wright_interview%C3%A9_par_M._Breyer_et_autres_journalistes_-_btv1b53225137v.jpg/1920px-M._Orville_Wright_interview%C3%A9_par_M._Breyer_et_autres_journalistes_-_btv1b53225137v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 8791,
+    "h": 6376,
+    "credit": "\"M. Orville Wright interviewé par M. Breyer et autres journalistes - btv1b53225137v.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:M._Orville_Wright_interview%C3%A9_par_M._Breyer_et_autres_journalistes_-_btv1b53225137v.jpg)",
+    "text": "File:M. Orville Wright interviewé par M. Breyer et autres journalistes - btv1b53225137v.jpg Sujet : Wright, Orville (1871-1948)\nBreyer, Victor (1869-1960)\nAviation\nIssy-les-Moulineaux (Hauts-de-Seine,"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Wilbur_Wright_1905.jpg/1920px-Wilbur_Wright_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5452,
+    "h": 7500,
+    "credit": "\"Wilbur Wright 1905.jpg\" – Orville Wright and Wilbur Wright (credited as photographers) [1], [2], Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_1905.jpg)",
+    "text": "File:Wilbur Wright 1905.jpg Wilbur Wright, age 38, head and shoulders. (full resolution)"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Orville_Wright%2C_John_F_Curry%2C_and_Charles_Lindbergh_in_1927.jpg/1920px-Orville_Wright%2C_John_F_Curry%2C_and_Charles_Lindbergh_in_1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6981,
+    "h": 4943,
+    "credit": "\"Orville Wright, John F Curry, and Charles Lindbergh in 1927.jpg\" – Unknown authorUnknown author; \"Papers of Wilbur and Orville Wright\" collection, Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright,_John_F_Curry,_and_Charles_Lindbergh_in_1927.jpg)",
+    "text": "File:Orville Wright, John F Curry, and Charles Lindbergh in 1927.jpg John F. Curry (center) with Orville Wright (left) and Charles Lindbergh (right) at Wright Field, Dayton, Ohio, on June 22, 1927."
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Wright_flyer_III_loc_gov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 749,
+    "h": 1024,
+    "credit": "\"Wright flyer III loc gov.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Wright_flyer_III_loc_gov.jpg)",
+    "text": "File:Wright flyer III loc gov.jpg Left front view of flight 46, Orville turning to the left, in the last photographed flight of 1905; Huffman Prairie, Dayton, Ohio\nCALL NUMBER:  LC-W86- 67 P&P\nREPRODU"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/1905_Wright_Flyer_Kill_Devil_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1247,
+    "credit": "\"1905 Wright Flyer Kill Devil Hills.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:1905_Wright_Flyer_Kill_Devil_Hills.jpg)",
+    "text": "File:1905 Wright Flyer Kill Devil Hills.jpg "
+   }
+  ]
+ },
+ {
+  "slot": "D04",
+  "beats": null,
+  "mo_ta": "tiệm xe đạp Wright Cycle Company Dayton",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Wright_Cycle_Company_Offices.jpg/1920px-Wright_Cycle_Company_Offices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2816,
+    "h": 2112,
+    "credit": "\"Wright Cycle Company Offices.jpg\" – Nyttend, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Cycle_Company_Offices.jpg)",
+    "text": "File:Wright Cycle Company Offices.jpg The Wright Cycle Company offices at 22 S. Williams Street in western Dayton, Ohio, United States. Constructed in 1886, the building was rented by the Wright broth"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wright_Cycle_Company%2C_c._1990_%289e8e6a1f-1dd8-b71b-0b7f-648ecb47291e%29.jpg/1920px-Wright_Cycle_Company%2C_c._1990_%289e8e6a1f-1dd8-b71b-0b7f-648ecb47291e%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 11614,
+    "h": 8383,
+    "credit": "\"Wright Cycle Company, c. 1990 (9e8e6a1f-1dd8-b71b-0b7f-648ecb47291e).jpg\" – NPS Photo, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Cycle_Company,_c._1990_(9e8e6a1f-1dd8-b71b-0b7f-648ecb47291e).jpg)",
+    "text": "File:Wright Cycle Company, c. 1990 (9e8e6a1f-1dd8-b71b-0b7f-648ecb47291e).jpg Brick building/store front with sidewalks and driveways in foreground\nBlack & White photo of the Wright Cycle Company bike"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Orville_Wright_in_a_work_apron_standing_behind_equipment_at_the_Wright_Cycle_Company%2C_c._1890s._%28a1895985-1dd8-b71b-0bd7-087631da420f%29.jpg/1920px-Orville_Wright_in_a_work_apron_standing_behind_equipment_at_the_Wright_Cycle_Company%2C_c._1890s._%28a1895985-1dd8-b71b-0bd7-087631da420f%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2085,
+    "h": 2103,
+    "credit": "\"Orville Wright in a work apron standing behind equipment at the Wright Cycle Company, c. 1890s. (a1895985-1dd8-b71b-0bd7-087631da420f).jpg\" – NPS Photo, Public domain (https://commons.wikimedia.org/wiki/File:Orville_Wright_in_a_work_apron_standing_behind_equipment_at_the_Wright_Cycle_Company,_c._1890s._(a1895985-1dd8-b71b-0bd7-087631da420f).jpg)",
+    "text": "File:Orville Wright in a work apron standing behind equipment at the Wright Cycle Company, c. 1890s. (a1895985-1dd8-b71b-0bd7-087631da420f).jpg Man in apron behind machines\nOrville Wright in a work ap"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_1%29.jpg/1920px-DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1500,
+    "credit": "\"DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 1).jpg\" – DePalma Manufacturing Company (Detroit, Michigan), CC0 (https://commons.wikimedia.org/wiki/File:DePalma,_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_(page_1).jpg)",
+    "text": "File:DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 1).jpg Type: Reciprocating, 4 cylinders, V-type, air cooledPower rating: 28-37 kW (38-50 hp)Displacement: UnknownBore and Strok"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_6%29.jpg/1920px-DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1417,
+    "credit": "\"DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 6).jpg\" – DePalma Manufacturing Company (Detroit, Michigan), CC0 (https://commons.wikimedia.org/wiki/File:DePalma,_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_(page_6).jpg)",
+    "text": "File:DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 6).jpg Type: Reciprocating, 4 cylinders, V-type, air cooledPower rating: 28-37 kW (38-50 hp)Displacement: UnknownBore and Strok"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_4%29.jpg/1920px-DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1649,
+    "credit": "\"DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 4).jpg\" – DePalma Manufacturing Company (Detroit, Michigan), CC0 (https://commons.wikimedia.org/wiki/File:DePalma,_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_(page_4).jpg)",
+    "text": "File:DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 4).jpg Type: Reciprocating, 4 cylinders, V-type, air cooledPower rating: 28-37 kW (38-50 hp)Displacement: UnknownBore and Strok"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_3%29.jpg/1920px-DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1336,
+    "credit": "\"DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 3).jpg\" – DePalma Manufacturing Company (Detroit, Michigan), CC0 (https://commons.wikimedia.org/wiki/File:DePalma,_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_(page_3).jpg)",
+    "text": "File:DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 3).jpg Type: Reciprocating, 4 cylinders, V-type, air cooledPower rating: 28-37 kW (38-50 hp)Displacement: UnknownBore and Strok"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_2%29.jpg/1920px-DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1399,
+    "credit": "\"DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 2).jpg\" – DePalma Manufacturing Company (Detroit, Michigan), CC0 (https://commons.wikimedia.org/wiki/File:DePalma,_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_(page_2).jpg)",
+    "text": "File:DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 2).jpg Type: Reciprocating, 4 cylinders, V-type, air cooledPower rating: 28-37 kW (38-50 hp)Displacement: UnknownBore and Strok"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_5%29.jpg/1920px-DePalma%2C_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_%28page_5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1594,
+    "credit": "\"DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 5).jpg\" – DePalma Manufacturing Company (Detroit, Michigan), CC0 (https://commons.wikimedia.org/wiki/File:DePalma,_V-4_Engine_-_DPLA_-_6cf1768c987a2d0041779d5c6a792679_(page_5).jpg)",
+    "text": "File:DePalma, V-4 Engine - DPLA - 6cf1768c987a2d0041779d5c6a792679 (page 5).jpg Type: Reciprocating, 4 cylinders, V-type, air cooledPower rating: 28-37 kW (38-50 hp)Displacement: UnknownBore and Strok"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Wright_Brothers_Bicycle_Shop_-_GPN-2003-00068.jpg/1920px-Wright_Brothers_Bicycle_Shop_-_GPN-2003-00068.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3000,
+    "h": 2501,
+    "credit": "\"Wright Brothers Bicycle Shop - GPN-2003-00068.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Brothers_Bicycle_Shop_-_GPN-2003-00068.jpg)",
+    "text": "File:Wright Brothers Bicycle Shop - GPN-2003-00068.jpg After a brief stint in the printing business, Orville and Wilbur Wright decided to open a bicycle shop together. After initially only selling and"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_Wright_Brothers_First_Heavier-than-air_Flight_-_GPN-2002-000128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1639,
+    "h": 1304,
+    "credit": "\"The Wright Brothers First Heavier-than-air Flight - GPN-2002-000128.jpg\" – John T. Daniels, Public domain (https://commons.wikimedia.org/wiki/File:The_Wright_Brothers_First_Heavier-than-air_Flight_-_GPN-2002-000128.jpg)",
+    "text": "File:The Wright Brothers First Heavier-than-air Flight - GPN-2002-000128.jpg On December 17, 1903, at 10:30 am at Kitty Hawk, North Carolina, this airplane arose for a few seconds to make the first po"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_13%29.jpg/1920px-1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1999,
+    "h": 1366,
+    "credit": "\"1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 13).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_(page_13).jpg)",
+    "text": "File:1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 13).jpg Canard biplane with one 12-horsepower Wright horizontal four-cylinder engine driving two pusher propellers via sprocket-a"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_5%29.jpg/1920px-1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1999,
+    "h": 1457,
+    "credit": "\"1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 5).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_(page_5).jpg)",
+    "text": "File:1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 5).jpg Canard biplane with one 12-horsepower Wright horizontal four-cylinder engine driving two pusher propellers via sprocket-an"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_10%29.jpg/1920px-1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_10%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1383,
+    "credit": "\"1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 10).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_(page_10).jpg)",
+    "text": "File:1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 10).jpg Canard biplane with one 12-horsepower Wright horizontal four-cylinder engine driving two pusher propellers via sprocket-a"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_4%29.jpg/1920px-1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 1333,
+    "credit": "\"1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 4).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_(page_4).jpg)",
+    "text": "File:1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 4).jpg Canard biplane with one 12-horsepower Wright horizontal four-cylinder engine driving two pusher propellers via sprocket-an"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_%28page_18%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1333,
+    "h": 2000,
+    "credit": "\"1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 18).jpg\" – không rõ, CC0 (https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_-_DPLA_-_913052369bd2468611aff158239166f4_(page_18).jpg)",
+    "text": "File:1903 Wright Flyer - DPLA - 913052369bd2468611aff158239166f4 (page 18).jpg Canard biplane with one 12-horsepower Wright horizontal four-cylinder engine driving two pusher propellers via sprocket-a"
+   }
+  ]
+ },
+ {
+  "slot": "D05",
+  "beats": null,
+  "mo_ta": "tàu lượn và đường hầm gió 1901-1902",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/1902_Wright_Brothers%27_Glider_Tests_-_GPN-2002-000125.jpg/1920px-1902_Wright_Brothers%27_Glider_Tests_-_GPN-2002-000125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2396,
+    "h": 1670,
+    "credit": "\"1902 Wright Brothers' Glider Tests - GPN-2002-000125.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1902_Wright_Brothers%27_Glider_Tests_-_GPN-2002-000125.jpg)",
+    "text": "File:1902 Wright Brothers' Glider Tests - GPN-2002-000125.jpg Historic photo of the Wright brothers' third test glider being launched at Kill Devil Hills, North Carolina, on October 10, 1902. Wilbur W"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/1902_Wright_glider_turns.jpeg/1920px-1902_Wright_glider_turns.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3374,
+    "h": 2267,
+    "credit": "\"1902 Wright glider turns.jpeg\" – Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright., Public domain (https://commons.wikimedia.org/wiki/File:1902_Wright_glider_turns.jpeg)",
+    "text": "File:1902 Wright glider turns.jpeg Rear view of Wilbur Wright making a right turn with the Wright Glider (\"in glide from No. 2 Hill, right wing tipped close to the ground\")."
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/1902_Wright_glider_fly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1800,
+    "h": 1452,
+    "credit": "\"1902 Wright glider fly.jpg\" – User Willy Logan on en.wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:1902_Wright_glider_fly.jpg)",
+    "text": "File:1902 Wright glider fly.jpg The 1902 Wright Glider on one of its more than 700 flights. Taken from"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/1902_Wright_glider_in_right_turn_%28cropped%29.jpg/1920px-1902_Wright_glider_in_right_turn_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5000,
+    "h": 4000,
+    "credit": "\"1902 Wright glider in right turn (cropped).jpg\" – Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright., Public domain (https://commons.wikimedia.org/wiki/File:1902_Wright_glider_in_right_turn_(cropped).jpg)",
+    "text": "File:1902 Wright glider in right turn (cropped).jpg Rear view of Wilbur Wright making a right turn with the Wright Glider (\"in glide from No. 2 Hill, right wing tipped close to the ground\")."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/1902_Wright_glider_in_right_turn.jpg/1920px-1902_Wright_glider_in_right_turn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7500,
+    "h": 5446,
+    "credit": "\"1902 Wright glider in right turn.jpg\" – Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright., Public domain (https://commons.wikimedia.org/wiki/File:1902_Wright_glider_in_right_turn.jpg)",
+    "text": "File:1902 Wright glider in right turn.jpg Rear view of Wilbur Wright making a right turn with the Wright Glider (\"in glide from No. 2 Hill, right wing tipped close to the ground\")."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Wright_Brothers_1902_glider.jpg/1920px-Wright_Brothers_1902_glider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3872,
+    "h": 2592,
+    "credit": "\"Wright Brothers 1902 glider.jpg\" – Jarek Tuszyński, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Wright_Brothers_1902_glider.jpg)",
+    "text": "File:Wright Brothers 1902 glider.jpg Wright Brother Glider replica in Wright Brothers National Memorial, NC"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/WrightBrothers_1902_Wilbur_flying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1534,
+    "h": 1097,
+    "credit": "\"WrightBrothers 1902 Wilbur flying.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:WrightBrothers_1902_Wilbur_flying.jpg)",
+    "text": "File:WrightBrothers 1902 Wilbur flying.jpg Wilbur in the air with the glider"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/1902-10-10_KittyHawk_WilburWrightGliding.jpg/1920px-1902-10-10_KittyHawk_WilburWrightGliding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4160,
+    "h": 2340,
+    "credit": "\"1902-10-10 KittyHawk WilburWrightGliding.jpg\" – Orville Wright, Public domain (https://commons.wikimedia.org/wiki/File:1902-10-10_KittyHawk_WilburWrightGliding.jpg)",
+    "text": "File:1902-10-10 KittyHawk WilburWrightGliding.jpg Wilbur Wright piloting 1902 glider near Kitty Hawk, N.C.\nTITLE:  [Wilbur gliding to the right, bottom view of glider]\nCALL NUMBER:  LC-W86- 13 [P&P]\nR"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Wright_Brothers_Wind_Tunnel_%28MIT%29_-_DSC00264.JPG/1920px-Wright_Brothers_Wind_Tunnel_%28MIT%29_-_DSC00264.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4282,
+    "h": 2910,
+    "credit": "\"Wright Brothers Wind Tunnel (MIT) - DSC00264.JPG\" – User:Daderot, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Brothers_Wind_Tunnel_(MIT)_-_DSC00264.JPG)",
+    "text": "File:Wright Brothers Wind Tunnel (MIT) - DSC00264.JPG Building of the Massachusetts Institute of Technology (MIT), Cambridge, Massachusetts, USA."
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/MIT_wind_tunnel_interior_2017.jpg/1920px-MIT_wind_tunnel_interior_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4618,
+    "h": 3464,
+    "credit": "\"MIT wind tunnel interior 2017.jpg\" – Phoebe, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:MIT_wind_tunnel_interior_2017.jpg)",
+    "text": "File:MIT wind tunnel interior 2017.jpg Interior of the Wright Brothers wind tunnel on the campus of the Massachusetts Institute of Technology, November 2017. The tunnel was first constructed in 1938; "
+   },
+   {
+    "so": 10,
+    "url": "https://live.staticflickr.com/65535/51851759330_ddd3038dc2_b.jpg",
+    "w": 1024,
+    "h": 830,
+    "credit": "\"Wright Brothers 1901 Wind Tunnel\" – loganrickert, CC BY 2.0 (https://www.flickr.com/photos/188857455@N02/51851759330)",
+    "text": "Wright Brothers 1901 Wind Tunnel airforce dayton museum nationalmuseumoftheunitedstatesairforce nationalmuseumoftheusaf ohio unitedstatesairforce usaf usairforce"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wright_1901_glider_landing.jpg/1920px-Wright_1901_glider_landing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7500,
+    "h": 5981,
+    "credit": "\"Wright 1901 glider landing.jpg\" – Orville Wright?, Public domain (https://commons.wikimedia.org/wiki/File:Wright_1901_glider_landing.jpg)",
+    "text": "File:Wright 1901 glider landing.jpg Wilbur Wright in prone position on glider just after landing, its skid marks visible behind it and, in the foreground, skid marks from a previous landing; Kitty Haw"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/1901_glider_being_flown_as_a_kite.jpg/1920px-1901_glider_being_flown_as_a_kite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6440,
+    "h": 5768,
+    "credit": "\"1901 glider being flown as a kite.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1901_glider_being_flown_as_a_kite.jpg)",
+    "text": "File:1901 glider being flown as a kite.jpg "
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/1901_glider_being_flown_as_a_kite_%28cropped_16%E2%88%B610%29.jpg/1920px-1901_glider_being_flown_as_a_kite_%28cropped_16%E2%88%B610%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5824,
+    "h": 3640,
+    "credit": "\"1901 glider being flown as a kite (cropped 16∶10).jpg\" – Orville or Wilbur Wright, Public domain (https://commons.wikimedia.org/wiki/File:1901_glider_being_flown_as_a_kite_(cropped_16%E2%88%B610).jpg)",
+    "text": "File:1901 glider being flown as a kite (cropped 16∶10).jpg "
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/1901_glider_being_flown_as_a_kite_%28cropped_4%E2%88%B63%29.jpg/1920px-1901_glider_being_flown_as_a_kite_%28cropped_4%E2%88%B63%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5824,
+    "h": 4368,
+    "credit": "\"1901 glider being flown as a kite (cropped 4∶3).jpg\" – Orville or Wilbur Wright, Public domain (https://commons.wikimedia.org/wiki/File:1901_glider_being_flown_as_a_kite_(cropped_4%E2%88%B63).jpg)",
+    "text": "File:1901 glider being flown as a kite (cropped 4∶3).jpg "
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/1901_glider_being_flown_as_a_kite_%28cropped%29.jpg/1920px-1901_glider_being_flown_as_a_kite_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6072,
+    "h": 5541,
+    "credit": "\"1901 glider being flown as a kite (cropped).jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:1901_glider_being_flown_as_a_kite_(cropped).jpg)",
+    "text": "File:1901 glider being flown as a kite (cropped).jpg "
+   }
+  ]
+ },
+ {
+  "slot": "D06",
+  "beats": null,
+  "mo_ta": "bay biểu diễn 1908 Le Mans / Fort Myer",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/HartBerg_with_WilburWright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 970,
+    "h": 1226,
+    "credit": "\"HartBerg with WilburWright.jpg\" – Agence Rol, Public domain (https://commons.wikimedia.org/wiki/File:HartBerg_with_WilburWright.jpg)",
+    "text": "File:HartBerg with WilburWright.jpg Hart O. Berg(1865-19??) (left), the American business agent in France for the Wright brothers, with Wilbur Wright (1867-1912) at Le Mans Aeroclub in 1908. (Berg in "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Wilbur_Wright_au_camp_d%27Auvours_%28Sarthe%29_12septembre_1908_-_btv1b69110221.jpg/1920px-Wilbur_Wright_au_camp_d%27Auvours_%28Sarthe%29_12septembre_1908_-_btv1b69110221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 2778,
+    "credit": "\"Wilbur Wright au camp d'Auvours (Sarthe) 12septembre 1908 - btv1b69110221.jpg\" – Agence Rol, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright_au_camp_d%27Auvours_(Sarthe)_12septembre_1908_-_btv1b69110221.jpg)",
+    "text": "File:Wilbur Wright au camp d'Auvours (Sarthe) 12septembre 1908 - btv1b69110221.jpg Sujet : Wright, Wilbur (1867-1912)\nAviation\nPionniers\nPilotes (aéronautique)\nPhotographie de presse -- 1900-1945\nRéfé"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/1908-10-08_QueenOfItaly_WilburWright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1280,
+    "h": 848,
+    "credit": "\"1908-10-08 QueenOfItaly WilburWright.jpg\" – J. Bouveret, Public domain (https://commons.wikimedia.org/wiki/File:1908-10-08_QueenOfItaly_WilburWright.jpg)",
+    "text": "File:1908-10-08 QueenOfItaly WilburWright.jpg Margarethe von Italien und Wilbur Wright in Le Mans"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Wilbur_Wright%2C_11_ao%C3%BBt_1908_%28%C3%A0_l%27hippodrome_des_Hunaudi%C3%A8res_au_Mans%29_-_btv1b6911024v.jpg/1920px-Wilbur_Wright%2C_11_ao%C3%BBt_1908_%28%C3%A0_l%27hippodrome_des_Hunaudi%C3%A8res_au_Mans%29_-_btv1b6911024v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 2778,
+    "credit": "\"Wilbur Wright, 11 août 1908 (à l'hippodrome des Hunaudières au Mans) - btv1b6911024v.jpg\" – Agence Rol, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright,_11_ao%C3%BBt_1908_(%C3%A0_l%27hippodrome_des_Hunaudi%C3%A8res_au_Mans)_-_btv1b6911024v.jpg)",
+    "text": "File:Wilbur Wright, 11 août 1908 (à l'hippodrome des Hunaudières au Mans) - btv1b6911024v.jpg Sujet : Wright, Wilbur (1867-1912)\nAviation\nPionniers\nPilotes (aéronautique)\nLe Mans -- Hippodrome\nPhotogr"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Wilbur_Wright%2C_11_ao%C3%BBt_1908_%28%C3%A0_l%27hippodrome_des_Hunaudi%C3%A8res_au_Mans%29_-_btv1b69110258.jpg/1920px-Wilbur_Wright%2C_11_ao%C3%BBt_1908_%28%C3%A0_l%27hippodrome_des_Hunaudi%C3%A8res_au_Mans%29_-_btv1b69110258.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 2778,
+    "credit": "\"Wilbur Wright, 11 août 1908 (à l'hippodrome des Hunaudières au Mans) - btv1b69110258.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright,_11_ao%C3%BBt_1908_(%C3%A0_l%27hippodrome_des_Hunaudi%C3%A8res_au_Mans)_-_btv1b69110258.jpg)",
+    "text": "File:Wilbur Wright, 11 août 1908 (à l'hippodrome des Hunaudières au Mans) - btv1b69110258.jpg Sujet : Wright, Wilbur (1867-1912)\nAviation\nPionniers\nPilotes (aéronautique)\nLe Mans -- Hippodrome\nPhotogr"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Wilbur_Wright%2C_L%C3%A9on_Boll%C3%A9e%2C_Hart_O._Berg_et_le_pr%C3%A9sident_de_l%27a%C3%A9roclub_du_Mans_-_btv1b6911095x.jpg/1920px-Wilbur_Wright%2C_L%C3%A9on_Boll%C3%A9e%2C_Hart_O._Berg_et_le_pr%C3%A9sident_de_l%27a%C3%A9roclub_du_Mans_-_btv1b6911095x.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2000,
+    "h": 2778,
+    "credit": "\"Wilbur Wright, Léon Bollée, Hart O. Berg et le président de l'aéroclub du Mans - btv1b6911095x.jpg\" – Agence Rol. Agence photographique (commanditaire), Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_Wright,_L%C3%A9on_Boll%C3%A9e,_Hart_O._Berg_et_le_pr%C3%A9sident_de_l%27a%C3%A9roclub_du_Mans_-_btv1b6911095x.jpg)",
+    "text": "File:Wilbur Wright, Léon Bollée, Hart O. Berg et le président de l'aéroclub du Mans - btv1b6911095x.jpg Sujet : Wright, Wilbur (1867-1912)\nBerg, Hart O. (1865-1941)\nBollée, Léon (1870-1913)\nPilotes (a"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Btv1b8433368f-p005.jpg/1920px-Btv1b8433368f-p005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3792,
+    "h": 4994,
+    "credit": "\"Btv1b8433368f-p005.jpg\" – Jules Beau, Public domain (https://commons.wikimedia.org/wiki/File:Btv1b8433368f-p005.jpg)",
+    "text": "File:Btv1b8433368f-p005.jpg [Collection Jules Beau. Photographie sportive] : T. 35. Années 1908, 1909 et 1910 / Jules Beau : [Aviation, Wilbur Wright, Le Mans, 8 août 1908]"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Wright_Military_Flyer_arrives_at_Fort_Myer_VA_DA-SD-05-00659_trimmed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1350,
+    "h": 800,
+    "credit": "\"Wright Military Flyer arrives at Fort Myer VA DA-SD-05-00659 trimmed.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Military_Flyer_arrives_at_Fort_Myer_VA_DA-SD-05-00659_trimmed.jpg)",
+    "text": "File:Wright Military Flyer arrives at Fort Myer VA DA-SD-05-00659 trimmed.jpg The Wright Brothers Flyer arrives at Fort Myer, Virginia (VA) aboard a wagon, attracting the attention of children and adu"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Wright_Flyer_Test_Flights_at_Fort_Myer%2C_VA_-_GPN-2002-000124.jpg/1920px-Wright_Flyer_Test_Flights_at_Fort_Myer%2C_VA_-_GPN-2002-000124.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2824,
+    "h": 2063,
+    "credit": "\"Wright Flyer Test Flights at Fort Myer, VA - GPN-2002-000124.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Flyer_Test_Flights_at_Fort_Myer,_VA_-_GPN-2002-000124.jpg)",
+    "text": "File:Wright Flyer Test Flights at Fort Myer, VA - GPN-2002-000124.jpg The Wright Flyer demonstrations at Fort Myer, Virginia on September 3, 1908.\nIn January 1907 the Wright Brothers submitted a bid t"
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Wright_Military_Flyer_arrives_at_Fort_Myer_VA_DA-SD-05-00659.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1350,
+    "h": 1013,
+    "credit": "\"Wright Military Flyer arrives at Fort Myer VA DA-SD-05-00659.JPEG\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Military_Flyer_arrives_at_Fort_Myer_VA_DA-SD-05-00659.JPEG)",
+    "text": "File:Wright Military Flyer arrives at Fort Myer VA DA-SD-05-00659.JPEG The Wright Military Flyer arrives at Fort Myer, Virginia aboard a wagon, attracting the attention of children and adults."
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Wright_and_Selfridge_on_Wright_flyer_%28MIS_63-720-4%29%2C_National_Museum_of_Health_and_Medicine_%283323201715%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1204,
+    "credit": "\"Wright and Selfridge on Wright flyer (MIS 63-720-4), National Museum of Health and Medicine (3323201715).jpg\" – National Museum of  Health and Medicine, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Wright_and_Selfridge_on_Wright_flyer_(MIS_63-720-4),_National_Museum_of_Health_and_Medicine_(3323201715).jpg)",
+    "text": "File:Wright and Selfridge on Wright flyer (MIS 63-720-4), National Museum of Health and Medicine (3323201715).jpg Wright and Selfridge on Wright flyer (MIS 63-720-4), National Museum of Health and Med"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Wright_and_Selfridge_in_Wright_flyer_before_flight_%28MIS_63-720-5%29%2C_National_Museum_of_Health_and_Medicine_%283323202385%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1093,
+    "credit": "\"Wright and Selfridge in Wright flyer before flight (MIS 63-720-5), National Museum of Health and Medicine (3323202385).jpg\" – National Museum of  Health and Medicine, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Wright_and_Selfridge_in_Wright_flyer_before_flight_(MIS_63-720-5),_National_Museum_of_Health_and_Medicine_(3323202385).jpg)",
+    "text": "File:Wright and Selfridge in Wright flyer before flight (MIS 63-720-5), National Museum of Health and Medicine (3323202385).jpg Wright and Selfridge in Wright flyer before flight (MIS 63-720-5), Natio"
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lieutenant_Thomas_Selfridge_laying_unconscious_was_victim_of_the_world%27s_first_fatal_aircraft_accident_in_the_world_at_Fort_Myer%2C_Virginia_on_September_17%2C_1908_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1352,
+    "h": 1018,
+    "credit": "\"Lieutenant Thomas Selfridge laying unconscious was victim of the world's first fatal aircraft accident in the world at Fort Myer, Virginia on September 17, 1908 (cropped).jpg\" – National Museum of  Health and Medicine, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Lieutenant_Thomas_Selfridge_laying_unconscious_was_victim_of_the_world%27s_first_fatal_aircraft_accident_in_the_world_at_Fort_Myer,_Virginia_on_September_17,_1908_(cropped).jpg)",
+    "text": "File:Lieutenant Thomas Selfridge laying unconscious was victim of the world's first fatal aircraft accident in the world at Fort Myer, Virginia on September 17, 1908 (cropped).jpg Attending to a victi"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wright_flyer_after_first_fatal_aicraft_accident_%28MIS_63-720-14%29%2C_National_Museum_of_Health_and_Medicine_%283324036288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1178,
+    "credit": "\"Wright flyer after first fatal aicraft accident (MIS 63-720-14), National Museum of Health and Medicine (3324036288).jpg\" – National Museum of  Health and Medicine, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Wright_flyer_after_first_fatal_aicraft_accident_(MIS_63-720-14),_National_Museum_of_Health_and_Medicine_(3324036288).jpg)",
+    "text": "File:Wright flyer after first fatal aicraft accident (MIS 63-720-14), National Museum of Health and Medicine (3324036288).jpg Wright flyer after first fatal aicraft accident (MIS 63-720-14), National "
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Wright_flyer_after_the_first_fatal_aircraft_accident_%28MIS_63-720-3%29%2C_National_Museum_of_Health_and_Medicine_%283324036648%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1104,
+    "credit": "\"Wright flyer after the first fatal aircraft accident (MIS 63-720-3), National Museum of Health and Medicine (3324036648).jpg\" – National Museum of  Health and Medicine, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Wright_flyer_after_the_first_fatal_aircraft_accident_(MIS_63-720-3),_National_Museum_of_Health_and_Medicine_(3324036648).jpg)",
+    "text": "File:Wright flyer after the first fatal aircraft accident (MIS 63-720-3), National Museum of Health and Medicine (3324036648).jpg Wright flyer after the first fatal aircraft accident (MIS 63-720-3), N"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Destroyed_Wright_flyer_after_the_first_fatal_aircraft_accident_%28MIS_63-720-9%29%2C_National_Museum_of_Health_and_Medicine_%283323201975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1400,
+    "h": 1162,
+    "credit": "\"Destroyed Wright flyer after the first fatal aircraft accident (MIS 63-720-9), National Museum of Health and Medicine (3323201975).jpg\" – National Museum of  Health and Medicine, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Destroyed_Wright_flyer_after_the_first_fatal_aircraft_accident_(MIS_63-720-9),_National_Museum_of_Health_and_Medicine_(3323201975).jpg)",
+    "text": "File:Destroyed Wright flyer after the first fatal aircraft accident (MIS 63-720-9), National Museum of Health and Medicine (3323201975).jpg Destroyed Wright flyer after the first fatal aircraft accide"
+   }
+  ]
+ },
+ {
+  "slot": "D07",
+  "beats": null,
+  "mo_ta": "Wright Flyer III / Huffman Prairie 1905",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/1905_Wright_Flyer_III_%28flight_46%29.jpg/1920px-1905_Wright_Flyer_III_%28flight_46%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3789,
+    "h": 1524,
+    "credit": "\"1905 Wright Flyer III (flight 46).jpg\" – Wilbur Wright, Public domain (https://commons.wikimedia.org/wiki/File:1905_Wright_Flyer_III_(flight_46).jpg)",
+    "text": "File:1905 Wright Flyer III (flight 46).jpg Front in-flight view of Wright Flyer III during its 46th flight (which was the last photographed flight of 1905); Huffman Prairie, Dayton, Ohio, October 4, 1"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Wright_flyer_III_loc_gov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 749,
+    "h": 1024,
+    "credit": "\"Wright flyer III loc gov.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Wright_flyer_III_loc_gov.jpg)",
+    "text": "File:Wright flyer III loc gov.jpg Left front view of flight 46, Orville turning to the left, in the last photographed flight of 1905; Huffman Prairie, Dayton, Ohio\nCALL NUMBER:  LC-W86- 67 P&P\nREPRODU"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/1905_Wright_Flyer_Kill_Devil_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1247,
+    "credit": "\"1905 Wright Flyer Kill Devil Hills.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:1905_Wright_Flyer_Kill_Devil_Hills.jpg)",
+    "text": "File:1905 Wright Flyer Kill Devil Hills.jpg "
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Wright_Flyer_III_at_Carillon_Park.jpg/1920px-Wright_Flyer_III_at_Carillon_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2816,
+    "h": 2112,
+    "credit": "\"Wright Flyer III at Carillon Park.jpg\" – Nyttend, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Flyer_III_at_Carillon_Park.jpg)",
+    "text": "File:Wright Flyer III at Carillon Park.jpg Front of the Wright Flyer III inside Wright Hall at Carillon Historical Park in Dayton, Ohio, United States.  Built in 1905, it was the first practical airpl"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flyer_5_replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1600,
+    "h": 1050,
+    "credit": "\"Flyer 5 replica.jpg\" – usaf, Public domain (https://commons.wikimedia.org/wiki/File:Flyer_5_replica.jpg)",
+    "text": "File:Flyer 5 replica.jpg Mark Dusenberry flying replica of 1905 Wright Flyer III"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Wright_Flyer_III_at_Carillon_Historical_Park%2C_c._1990_%289ed87aef-1dd8-b71b-0b28-a725455f0291%29.jpg/1920px-Wright_Flyer_III_at_Carillon_Historical_Park%2C_c._1990_%289ed87aef-1dd8-b71b-0b28-a725455f0291%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 11411,
+    "h": 6864,
+    "credit": "\"Wright Flyer III at Carillon Historical Park, c. 1990 (9ed87aef-1dd8-b71b-0b28-a725455f0291).jpg\" – NPS Photo, Public domain (https://commons.wikimedia.org/wiki/File:Wright_Flyer_III_at_Carillon_Historical_Park,_c._1990_(9ed87aef-1dd8-b71b-0b28-a725455f0291).jpg)",
+    "text": "File:Wright Flyer III at Carillon Historical Park, c. 1990 (9ed87aef-1dd8-b71b-0b28-a725455f0291).jpg An early airplane with bi-wings sits in an indoor recessed display area\nBlack & White photo of the"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/1904-10-04_Huffman-Prairie_WrightFlyerIII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1421,
+    "h": 1080,
+    "credit": "\"1904-10-04 Huffman-Prairie WrightFlyerIII.jpg\" – Wright brothers, Public domain (https://commons.wikimedia.org/wiki/File:1904-10-04_Huffman-Prairie_WrightFlyerIII.jpg)",
+    "text": "File:1904-10-04 Huffman-Prairie WrightFlyerIII.jpg Titel: Linke Vorderansicht des Flugs 46, Orvile dreht nach links, im letzten fotografierten Flug von 1905; Huffman Prairie, Dayton, Ohio (A.d.R.: Wri"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CatapultWrightFlyer1905.jpg/1920px-CatapultWrightFlyer1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4984,
+    "h": 1076,
+    "credit": "\"CatapultWrightFlyer1905.jpg\" – Attributed to Wilbur and/or Orville Wright., Public domain (https://commons.wikimedia.org/wiki/File:CatapultWrightFlyer1905.jpg)",
+    "text": "File:CatapultWrightFlyer1905.jpg Title: Start of the first flight of 1905, Orville Wright at controls of the machine, near the hangar at Huffman Prairie. The two figures in the center are probably Wil"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Wilbur_and_Orville_Wright_with_Flyer_II_at_Huffman_Prairie_-_GPN-2002-000126.jpg/1920px-Wilbur_and_Orville_Wright_with_Flyer_II_at_Huffman_Prairie_-_GPN-2002-000126.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2807,
+    "h": 1882,
+    "credit": "\"Wilbur and Orville Wright with Flyer II at Huffman Prairie - GPN-2002-000126.jpg\" – Photograph:  unknown, Public domain (https://commons.wikimedia.org/wiki/File:Wilbur_and_Orville_Wright_with_Flyer_II_at_Huffman_Prairie_-_GPN-2002-000126.jpg)",
+    "text": "File:Wilbur and Orville Wright with Flyer II at Huffman Prairie - GPN-2002-000126.jpg Wilbur and Orville Wright with the Flyer II at Huffman Prairie, outside of Dayton, Ohio, in May 1904. The Wrights "
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Released_to_Public_Wilber_and_Orville_Wright_with_Flyer_II_at_Huffman_Prairie%2C_1904_%28NASA_GPN-2002-000126%29_%28288983182%29.jpg/1920px-Released_to_Public_Wilber_and_Orville_Wright_with_Flyer_II_at_Huffman_Prairie%2C_1904_%28NASA_GPN-2002-000126%29_%28288983182%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2807,
+    "h": 1882,
+    "credit": "\"Released to Public Wilber and Orville Wright with Flyer II at Huffman Prairie, 1904 (NASA GPN-2002-000126) (288983182).jpg\" – pingnews.com, Public domain (https://commons.wikimedia.org/wiki/File:Released_to_Public_Wilber_and_Orville_Wright_with_Flyer_II_at_Huffman_Prairie,_1904_(NASA_GPN-2002-000126)_(288983182).jpg)",
+    "text": "File:Released to Public Wilber and Orville Wright with Flyer II at Huffman Prairie, 1904 (NASA GPN-2002-000126) (288983182).jpg Public Use Permitted.  Credit: NASA. For more information <a href=\"http:"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/ShimadaK2008-Huffman_Prairie_Ohio_marker-PICT2769.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 800,
+    "h": 852,
+    "credit": "\"ShimadaK2008-Huffman Prairie Ohio marker-PICT2769.jpg\" – K. Shimada, Public domain (https://commons.wikimedia.org/wiki/File:ShimadaK2008-Huffman_Prairie_Ohio_marker-PICT2769.jpg)",
+    "text": "File:ShimadaK2008-Huffman Prairie Ohio marker-PICT2769.jpg Sign plate by Ohio State at Huffman Prairie. Wright Brothers extensively used the field for their flights. Located at Dayton, Ohio, USA."
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/WrightFlyer1904Circling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1077,
+    "h": 740,
+    "credit": "\"WrightFlyer1904Circling.jpg\" – Wright brothers, Public domain (https://commons.wikimedia.org/wiki/File:WrightFlyer1904Circling.jpg)",
+    "text": "File:WrightFlyer1904Circling.jpg Flight 82: Wilbur piloting at a considerable height, flying a distance of 2 3/4 miles in 5 minutes and 4 seconds, almost four circles of the field at Huffman Prairie, "
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/1904WrightFlyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1920,
+    "h": 1080,
+    "credit": "\"1904WrightFlyer.jpg\" – Wright Brothers, Public domain (https://commons.wikimedia.org/wiki/File:1904WrightFlyer.jpg)",
+    "text": "File:1904WrightFlyer.jpg Flight 85: Orville in flight, covering a distance of approximately 1,760 feet in 40 1/5 seconds; Huffman Prairie, Dayton, Ohio."
+   }
+  ]
+ }
+]

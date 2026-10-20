@@ -73,7 +73,8 @@ def bow(t0,g=0.5):
     th=int(0.12*SR);tu=np.arange(th)/SR;add((lp(rng.normal(0,1,th).astype(np.float32),500)*np.exp(-tu/0.025)*3).astype(np.float32),t0+0.6,g*0.9)
 def volley(a,b,n,g=0.45):
     for k in range(n): bow(a+(b-a)*k/max(1,n-1)+rng.uniform(-0.12,0.12),g*rng.uniform(0.6,1))
-import tq45_content as C
+import importlib,os
+C=importlib.import_module(os.environ.get('CONTENT','tq45_content'))
 def bt(n): return T[n]
 for (t0,t1,bl,bt_,who) in C.BATT:
     clangs(t0,t1,6);volley(t0+0.2,t1-0.5,max(3,int((t1-t0)*0.8)),0.4);drum(t0,0.8);murmur(t0,t1-t0+1,0.4)
@@ -105,6 +106,17 @@ for (t0,t1,kind,a_,b_) in getattr(C,'FX',[]):
         volley(t0,t1,max(4,int((t1-t0)*3)),0.4);crackle(t0,t1-t0+1,0.3,18)
     elif kind=='horn':
         horn(t0,min(2.2,t1-t0+0.8),0.5)
+    elif kind=='volley':
+        volley(t0,t1,max(4,int((t1-t0)*2.5)),0.3)
+for (t0,t1,kind,a_,b_) in getattr(C,'OBJ',[]):
+    if kind=='tower': thump(t1+0.05,0.9);crackle(t1,1.2,0.3,25)
+    elif kind in ('tunnel','ditch'): steps(t0,2.5)
+    elif kind=='loot': tick(t0+0.5,0.5)
+for x in getattr(C,'TITLES',[]): thump(x[0],1.0);horn(x[0]+0.1,2.4,0.4)
+for x in getattr(C,'JOKES',[]): tick(x[0],0.9);tick(x[0]+0.12,0.5)
+for x in getattr(C,'QUOTES',[]): tick(x[0],0.5)
+for x in getattr(C,'CARDS3',[]): tick(x[0],0.35)
+for x in getattr(C,'METERS',[]): tick(x[0],0.5)
 for (t0,t1,a_,b_,nm) in C.LETTERS: whoosh(t0,min(4,t1-t0),0.35)
 for (t0,t1,a_,b_,col,lab) in C.ARROWS: tick(t0,0.35)
 for g in C.GROUPS:
@@ -114,10 +126,15 @@ for g in C.GROUPS:
         if (a_[1],a_[2])!=(b_[1],b_[2]) and b_[0]-a_[0]>0.6 and b_[0]<TOTAL:
             if kind=='cav': hoof(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.2)
             else: steps(a_[0]+0.3,min(b_[0]-a_[0],8.0))
-for t0 in (C.R(137)+6.5,C.R(144)): creak(t0)
+if C.__name__=='tq45_content':
+    for t0 in (C.R(137)+6.5,C.R(144)): creak(t0)
 for (t0,t1,tx,ty,txt,col) in C.NOTES:
     if txt in ('TRÚNG!',): tick(t0,0.8)
 for m in C.MARKS: drum(m[0],0.9)
+if C.__name__!='tq45_content':
+  for g in C.GROUPS:
+    for (td,kd,te) in g.get('defeats',[]) or []:
+        if td<TOTAL: drum(td,0.8)
 # phủ mờ vào/ra, chuẩn hóa
 fade=int(0.8*SR);out[:fade]*=np.linspace(0,1,fade);out[-fade:]*=np.linspace(1,0,fade)
 out=lp(out,9000);out=out/np.max(np.abs(out))*0.7

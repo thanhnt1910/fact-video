@@ -23,4 +23,4 @@ tổng khung 61383 đoạn 7 35806 40922
 5100 5116
 xong
 + ls -la doan_7.mp4
--rw-r--r-- 1 runner runner 65551283 Oct 20 02:40 doan_7.mp4
+-rw-r--r-- 1 runner runner 65550931 Oct 20 04:49 doan_7.mp4

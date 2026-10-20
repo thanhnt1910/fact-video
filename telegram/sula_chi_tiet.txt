@@ -1,0 +1,149 @@
+════ DANH SÁCH SỬ LẠ ĐỂ CHỌN (bài chi tiết ở các tin sau) ════
+Trả lời mã chuyện bạn muốn dựng (vd: SL10, SL13, SL19).
+Chưa dựng, có bài chi tiết:
+SL3  Củ tulip đắt ngang căn nhà (dự trữ)
+SL5  Mona Lisa biến mất 2 năm
+SL7  Con sóng mật đường Boston (dự trữ)
+SL8  Napoleon và đàn thỏ (dự trữ)
+SL9  Cuộc chiến 38 phút (dự trữ)
+SL10 Vị vua nước Anh dưới bãi đỗ xe
+SL11 Cỗ máy Antikythera 2.000 tuổi
+SL13 Nobel đọc cáo phó của chính mình
+SL14 Thuốc súng ra đời khi tìm trường sinh
+SL15 Điện thoại: cuộc đua vài giờ
+SL16 Morse và lá thư đến muộn
+SL17 Gutenberg mất trắng
+SL18 Vắc-xin và cô gái vắt sữa bò
+SL19 Bác sĩ bị chế giễu vì bảo rửa tay
+SL20 X-quang đầu tiên: bàn tay vợ
+SL21 Anh em Wright, chuyến bay 12 giây
+Đã có kịch bản/đã dựng: SL1 nhảy múa 1518, SL2 chiến tranh emu, SL12 nhật ký xây kim tự tháp.
+Nhóm 🗺️ Đất nước khó tin (chưa viết bài chi tiết, nói nếu muốn): DN1 đất nước nhỏ hơn công viên, DN2 Sealand, DN3 Bir Tawil, DN4 Nauru, DN5 đội quân 80 người, DN6 hai hoàng tử Andorra, DN7 San Marino, DN8 Tuvalu và .tv
+
+════ SL3 · Củ hoa tulip đắt ngang một căn nhà ════
+BỐI CẢNH: Hà Lan thế kỷ 17 (Thời kỳ Hoàng kim), rất giàu nhờ thương mại. Hoa tulip du nhập từ Đế quốc Ottoman, trở thành biểu tượng địa vị.
+DIỄN BIẾN: Một số giống bị virus làm cánh hoa nổi sọc đỏ trắng, cực hiếm và đắt nhất (nổi tiếng là "Semper Augustus"). Cuối những năm 1630, người ta mua bán cả củ chưa mọc bằng hợp đồng kỳ hạn, giá tăng điên cuồng. Đầu tháng 2/1637, một buổi đấu giá ở Haarlem không có người mua, giá sụp chỉ trong vài ngày.
+CÚ LẬT: Câu chuyện "cả nước phá sản, người ta nhảy sông" phần lớn là phóng đại của các cây bút đạo đức thế kỷ 17–19. Nghiên cứu của sử gia Anne Goldgar (2007) cho thấy rất ít bằng chứng về phá sản hàng loạt; chủ yếu thiệt hại nằm ở một nhóm nhỏ thương nhân.
+ĐIỂM MẠNH: Vừa là chuyện lạ, vừa "lật" một quan niệm sai quen thuộc. Chủ đề tiền bạc dễ cuốn người xem.
+LƯU Ý: Con số "ngang một căn nhà" là giá của vài củ hiếm nhất, không phải mọi củ. Dùng tranh màu nước, tranh tĩnh vật Hà Lan (đã hết bản quyền).
+ĐỘ KHÓ DỰNG: Dễ. Ảnh PD nhiều.
+
+════ SL5 · Mona Lisa biến mất 2 năm ════
+BỐI CẢNH: Louvre (Paris) năm 1911 an ninh lỏng lẻo, tranh chưa quá nổi tiếng với đại chúng.
+DIỄN BIẾN: Sáng thứ Hai 21/8/1911 người ta phát hiện chỗ treo tranh trống. Louvre đóng cửa cả tuần để điều tra. Cảnh sát nghi ngờ nhiều người: nhà thơ Guillaume Apollinaire bị bắt giam vài ngày, họa sĩ Picasso bị thẩm vấn, rồi cả hai được thả.
+CÚ LẬT: Thủ phạm là Vincenzo Peruggia, người Ý, từng làm thợ lắp kính cho chính Louvre. Anh ta ở lại trong bảo tàng, lấy tranh ra khỏi khung giấu dưới áo khoác rồi đi ra. Hơn hai năm sau (cuối 1913), anh ta tìm cách bán tranh cho một người buôn đồ cổ ở Florence và bị bắt. Anh ta nói muốn đưa tranh "về quê hương". Tranh được trả về Louvre đầu năm 1914.
+ĐIỂM MẠNH: Có vụ án, có nhân vật nổi tiếng bị nghi (Picasso), cú lật "thợ lắp kính". Tên tuổi đủ lớn.
+LƯU Ý: Các chi tiết hậu trường (kẻ giả mạo bán tranh giả, v.v.) còn nhiều giai thoại, chỉ kể điều có nguồn. Kênh đã xếp chuyện này xuống thấp vì quen thuộc.
+ĐỘ KHÓ DỰNG: Dễ, ảnh tư liệu 1911 nhiều, nhưng cần kiểm tra bản quyền từng ảnh.
+
+════ SL7 · Con sóng mật đường ở Boston ════
+BỐI CẢNH: Khu North End, Boston, 15/1/1919, giữa trưa một ngày bất thường ấm sau nhiều ngày lạnh.
+DIỄN BIẾN: Bồn chứa của công ty Purity Distilling (khoảng 8,7 triệu lít mật đường dùng làm rượu và thuốc súng) nứt vỡ. Một con sóng cao khoảng 7,6 mét, tốc độ ước tính khoảng 56 km/h, tràn qua phố, làm sập nhà cửa, lật đổ cả đoạn đường sắt trên cao.
+CÚ LẬT: 21 người chết, khoảng 150 người bị thương. Công ty ban đầu đổ lỗi cho kẻ phá hoại, nhưng vụ kiện tập thể (một trong những vụ lớn đầu tiên ở Mỹ) kết luận bồn chứa xây ẩu: thép quá mỏng, chưa thử tải kỹ. Công ty phải bồi thường. Sau đó các quy định yêu cầu kỹ sư tính toán và ký duyệt công trình được siết chặt.
+ĐIỂM MẠNH: Hook hình ảnh rất mạnh, chủ đề "tưởng buồn cười nhưng thật ra bi kịch".
+LƯU Ý: Giọng tôn trọng người thiệt mạng, không đùa cợt. Không dùng ảnh hiện trường nạn nhân.
+ĐỘ KHÓ DỰNG: Trung bình. Ảnh 1919 nhiều nhưng phải chọn ảnh PD rõ nguồn.
+
+════ SL8 · Napoleon và đàn thỏ ════
+BỐI CẢNH: Sau hòa ước Tilsit (7/1807), Napoleon đang ở đỉnh cao quyền lực.
+DIỄN BIẾN: Tướng Berthier, tham mưu trưởng của ông, tổ chức một buổi săn thỏ giải trí. Người ta mang đến hàng trăm con thỏ (một số nguồn nói hàng nghìn).
+CÚ LẬT: Đó là thỏ nuôi, quen được cho ăn. Thấy đoàn người, chúng lao thẳng về phía họ thay vì chạy trốn. Cả đoàn, kể cả Napoleon, phải lên xe lui đi. Chuyện bắt nguồn từ hồi ký của tướng Thiébault và các lời kể lại, nên nói rõ "theo hồi ký kể lại".
+ĐIỂM MẠNH: Hài, dễ chia sẻ. Có thể gắn thêm mẩu "Napoleon không hề lùn": ông cao khoảng 1,69 m, hơn mức trung bình thời đó (chuyện "lùn" do khác biệt đơn vị đo Pháp/Anh và biếm họa của người Anh).
+LƯU Ý: Chi tiết số lượng thỏ và mức độ "bỏ chạy" là giai thoại, tránh khẳng định tuyệt đối.
+ĐỘ KHÓ DỰNG: Dễ. Ảnh biếm họa Anh thời đó là PD. Khá ngắn, hợp video ngắn hơn video dài.
+
+════ SL9 · Cuộc chiến 38 phút ════
+BỐI CẢNH: Zanzibar năm 1896 nằm dưới ảnh hưởng của Anh theo thỏa thuận với Đức.
+DIỄN BIẾN: Sultan thân Anh Hamad bin Thuwaini mất ngày 25/8/1896. Người cháu Khalid bin Barghash, không được Anh ủng hộ, chiếm cung điện và tự xưng sultan. Anh ra tối hậu thư yêu cầu rời cung điện trước 9 giờ sáng 27/8. Khalid không rút lui, tập hợp khoảng 2.800 người trong cung điện.
+CÚ LẬT: 9 giờ 02 phút, các tàu chiến Anh nổ súng. Cuộc giao tranh kéo dài khoảng 38–45 phút tùy nguồn, cờ trên cung điện bị hạ. Khalid chạy vào lãnh sự quán Đức rồi trốn sang Đông Phi thuộc Đức. Phía Anh chỉ một thủy thủ bị thương nhẹ; phía Zanzibar khoảng 500 người thương vong. Anh đưa Hamoud bin Mohammed, người dễ bảo hơn, lên ngôi.
+ĐIỂM MẠNH: Một "kỷ lục" dễ nhớ, nhưng là mở ra bài học về chủ nghĩa thực dân.
+LƯU Ý: Con số 38–45 phút tùy nguồn. Chi tiết "Anh bắt Zanzibar trả tiền đạn" là giai thoại, chỉ nói "có tài liệu kể". Giọng tôn trọng người thiệt mạng.
+ĐỘ KHÓ DỰNG: Trung bình.
+
+════ SL10 · Vị vua nước Anh dưới bãi đỗ xe ════
+BỐI CẢNH: Vua Richard III, vị vua cuối cùng của dòng Plantagenet, tử trận ở Bosworth ngày 22/8/1485, kết thúc Chiến tranh Hoa hồng.
+DIỄN BIẾN: Thi hài được chôn vội trong tu viện Greyfriars ở Leicester. Tu viện bị phá dỡ khoảng năm 1538, vị trí mộ bị lãng quên. Dự án do bà Philippa Langley khởi xướng, cùng Đại học Leicester. Tháng 8/2012 đào thử dưới một bãi đỗ xe của hội đồng thành phố và ngay ngày đầu tìm thấy hài cốt.
+CÚ LẬT: Bộ xương có cột sống cong rõ (cong vẹo cột sống) và những vết thương lúc tử trận. ADN ty thể khớp với Michael Ibsen, một thợ đóng đồ gỗ ở London, hậu duệ đời thứ 17 (theo dòng mẹ) của chị gái nhà vua. Tháng 2/2013 kết quả được công bố. Tháng 3/2015 nhà vua được an táng lại trọng thể tại nhà thờ lớn Leicester.
+ĐIỂM MẠNH: Cú lật "khoa học phá án" rất cuốn; có nhân vật đời thường (người thợ).
+LƯU Ý: Không dùng ảnh hài cốt hay khu khai quật 2012 (còn bản quyền). Dùng chân dung và tranh Bosworth PD, tranh AI bãi đỗ xe.
+ĐỘ KHÓ DỰNG: Trung bình. Mốc thời gian đã kiểm chứng.
+
+════ SL11 · Cỗ máy Antikythera ════
+BỐI CẢNH: Mùa xuân 1900, thợ lặn mò bọt biển người Hy Lạp trú bão gần đảo Antikythera, phát hiện một xác tàu La Mã chìm.
+DIỄN BIẾN: Họ vớt lên tượng đồng, tượng đá, đồ gốm và nhiều mảnh đồng gỉ. Đến năm 1902, nhà khảo cổ Valerios Stais để ý một mảnh có bánh răng. Trong nhiều thập kỷ, giới khoa học nghiên cứu nó mà không hiểu hết.
+CÚ LẬT: Các nghiên cứu về sau, nổi bật là dự án chụp cắt lớp năm 2005, cho thấy khoảng 30 bánh răng còn sót lại cùng nhiều dòng chữ Hy Lạp khắc hướng dẫn. Cỗ máy mô phỏng chuyển động của Mặt Trời, Mặt Trăng, dự đoán nhật thực, nguyệt thực và cả lịch các kỳ Thế vận hội. Niên đại ước tính thế kỷ 2–1 TCN (còn tranh luận). Một cơ khí tinh xảo như vậy mãi sau đó rất lâu (thời Trung cổ muộn) châu Âu mới lại có.
+ĐIỂM MẠNH: "Vật thể không đúng thời đại" là chủ đề cực cuốn, thật và có nghiên cứu đầy đủ.
+LƯU Ý: Đến nay không rõ ai chế tạo; tránh suy đoán "người ngoài hành tinh". Không tự vẽ bánh răng nếu không chính xác.
+ĐỘ KHÓ DỰNG: Trung bình. Cần ảnh PD/CC0 chuẩn.
+
+════ SL13 · Nobel đọc cáo phó của chính mình ════
+BỐI CẢNH: Alfred Nobel (1833–1896), nhà hóa học Thụy Điển, giàu lên nhờ dynamite (sáng chế 1867) và hàng chục nhà máy.
+DIỄN BIẾN: Năm 1864 một vụ nổ ở xưởng thuốc nổ của gia đình làm em trai ông là Emil thiệt mạng. Ông tìm cách làm nitroglycerin an toàn hơn và đạt đến dynamite, giúp làm đường, đào hầm nhưng cũng được dùng trong chiến tranh.
+CÚ LẬT: Năm 1888 anh trai ông là Ludvig qua đời. Theo câu chuyện được kể lại nhiều nhất, một tờ báo Pháp nhầm và đăng cáo phó của Alfred, gọi ông là "lái buôn cái chết" (marchand de la mort). Năm 1895 ông viết di chúc để lại phần lớn tài sản lập ra các giải thưởng cho những người "mang lại lợi ích lớn nhất cho nhân loại". Giải đầu tiên trao năm 1901.
+ĐIỂM MẠNH: Hook cực mạnh, kết đẹp, thương hiệu Nobel ai cũng biết.
+LƯU Ý: Các sử gia chưa tìm thấy bản báo gốc, nên luôn nói "theo câu chuyện được kể lại". Không dùng hình huy chương Nobel.
+ĐỘ KHÓ DỰNG: Dễ.
+
+════ SL14 · Thuốc súng ra đời khi tìm thuốc trường sinh ════
+BỐI CẢNH: Trung Hoa thời Đường (618–907), nhiều hoàng đế và quý tộc mê thuốc trường sinh, các đạo sĩ luyện đan thử nghiệm khoáng chất, trong đó có lưu huỳnh và diêm tiêu.
+DIỄN BIẾN: Một văn bản luyện đan khoảng thế kỷ 9 cảnh báo rằng trộn một số chất sẽ bùng cháy dữ dội, thậm chí làm cháy cả nhà. Đây thường được xem là mô tả sớm nhất về hỗn hợp thuốc súng.
+CÚ LẬT: Đến năm 1044 thời Tống, sách quân sự Vũ kinh tổng yếu ghi công thức thuốc súng dùng trong chiến tranh, công thức sớm nhất còn được biết. Về sau thuốc súng lan khắp Á–Âu theo các con đường giao thương và chinh phạt.
+ĐIỂM MẠNH: Nghịch lý "đi tìm sự sống, tạo ra phương tiện giết chóc" rất cuốn. Có cả yếu tố Á Đông, gần khán giả Việt.
+LƯU Ý: Niên đại thế kỷ 9 nói "khoảng". Không đưa tỉ lệ pha chế (không hướng dẫn làm thuốc nổ).
+ĐỘ KHÓ DỰNG: Dễ. Tranh cổ Trung Hoa PD nhiều.
+
+════ SL15 · Điện thoại và cuộc đua vài giờ ════
+BỐI CẢNH: Giữa thập niên 1870, nhiều người chạy đua truyền tiếng nói bằng điện. Alexander Graham Bell dạy người khiếm thính và nghiên cứu điện báo đa kênh; Elisha Gray cũng làm hướng tương tự.
+DIỄN BIẾN: Ngày 14/2/1876 hồ sơ của Bell (do luật sư nộp) và một "caveat" (thông báo ý tưởng) của Gray cùng đến Cục Sáng chế Mỹ. Bell được cấp bằng ngày 7/3/1876. Ngày 10/3 ông thực hiện cuộc gọi đầu tiên tới trợ lý Thomas Watson.
+CÚ LẬT: Có cáo buộc về việc Bell được biết nội dung của Gray và về thứ tự nộp hồ sơ trong ngày. Hàng trăm vụ kiện xảy ra, Bell thắng. Về sau còn có tranh cãi cả về Antonio Meucci (Quốc hội Mỹ năm 2002 từng thông qua nghị quyết ghi nhận công lao của ông).
+ĐIỂM MẠNH: Câu chuyện "chỉ vài giờ" dễ gây tranh luận, tốt cho bình luận.
+LƯU Ý: Thứ tự nộp trong ngày vẫn còn tranh cãi; chỉ nói "có cáo buộc". Cuộc gọi đầu: câu "Anh Watson, sang đây" theo ghi chép của Bell.
+ĐỘ KHÓ DỰNG: Dễ. Bản vẽ trong bằng sáng chế là PD.
+
+════ SL16 · Morse: lá thư đến muộn ════
+BỐI CẢNH: Samuel Morse (1791–1872) là họa sĩ vẽ chân dung nổi tiếng ở Mỹ, không xuất thân từ khoa học.
+DIỄN BIẾN: Năm 1825, khi đang ở Washington vẽ tranh cho tướng Lafayette, ông nhận thư báo vợ là Lucretia bệnh. Ông vội về nhưng bà đã qua đời và được an táng. Nhiều người cho rằng nỗi đau vì tin tức đến quá chậm thôi thúc ông tìm cách truyền tin nhanh.
+CÚ LẬT: Về sau Morse cùng Alfred Vail phát triển máy điện báo và bộ mã chấm, gạch. Ngày 24/5/1844 ông gửi bức điện nổi tiếng "What hath God wrought" từ Washington tới Baltimore, quãng đường thư từ mất nhiều ngày.
+ĐIỂM MẠNH: Có nỗi đau con người, có sự đổi nghề bất ngờ.
+LƯU Ý: Mối liên hệ cái chết của vợ với phát minh nói là "được cho là". Cần công bằng với Alfred Vail, người đóng góp lớn cho bộ mã.
+ĐỘ KHÓ DỰNG: Dễ. Tranh của chính Morse là PD.
+
+════ SL17 · Gutenberg mất trắng ════
+BỐI CẢNH: Johannes Gutenberg (khoảng 1400–1468), thợ kim hoàn ở Mainz, Đức.
+DIỄN BIẾN: Khoảng năm 1450 ông hoàn thiện kỹ thuật in chữ rời bằng kim loại. Ông vay vốn nhiều lần từ thương nhân Johann Fust. Bộ Kinh Thánh 42 dòng (khoảng 1455) đẹp tới mức nhiều người tưởng chép tay.
+CÚ LẬT: Năm 1455 Fust kiện đòi nợ và thắng; ông lấy phần lớn thiết bị cùng những cuốn Kinh Thánh in dở, rồi mở xưởng in cùng người thợ Peter Schöffer. Gutenberg tiếp tục in nhưng gặp khó khăn. Năm 1465 ông được tổng giám mục Adolf II ban bổng lộc. Máy in sau đó lan khắp châu Âu, đặt nền tảng cho cuộc cách mạng tri thức.
+ĐIỂM MẠNH: "Phát minh vĩ đại, người sáng chế mất trắng" là mô-típ quen thuộc nhưng luôn hút.
+LƯU Ý: Còn nhiều điều về Gutenberg chưa chắc (chân dung truyền lại là tưởng tượng). Mốc nói "khoảng".
+ĐỘ KHÓ DỰNG: Dễ. Nhiều ảnh trang Kinh Thánh PD.
+
+════ SL18 · Vắc-xin đầu tiên và cô gái vắt sữa ════
+BỐI CẢNH: Thế kỷ 18, đậu mùa giết hàng trăm nghìn người mỗi năm ở châu Âu, người sống sót thường để sẹo, nhiều người mù.
+DIỄN BIẾN: Bác sĩ nông thôn Edward Jenner để ý những người vắt sữa từng mắc đậu bò (bệnh nhẹ) dường như không mắc đậu mùa. Tháng 5/1796 ông lấy dịch từ vết đậu bò trên tay cô vắt sữa Sarah Nelmes cấy cho cậu bé James Phipps (8 tuổi). Sau đó ông cho cậu tiếp xúc với đậu mùa, cậu không mắc bệnh.
+CÚ LẬT: Hội Hoàng gia Anh ban đầu từ chối công bố; biếm họa của James Gillray năm 1802 chế giễu cảnh người tiêm bị mọc đầu bò. Nhưng phương pháp lan khắp thế giới; chữ "vaccine" bắt nguồn từ tiếng Latin "vacca" (con bò). Năm 1980 WHO tuyên bố đậu mùa đã bị xóa sổ.
+ĐIỂM MẠNH: Kết "xóa sổ một căn bệnh" rất mạnh, cú lật biếm họa vui.
+LƯU Ý: Thử nghiệm trên một đứa trẻ là chuẩn mực y đức khác ngày nay, kể trung lập. Không đưa thông tin sai lệch về vắc-xin hiện đại.
+ĐỘ KHÓ DỰNG: Dễ.
+
+════ SL19 · Bác sĩ bị chế giễu vì bảo rửa tay ════
+BỐI CẢNH: Bệnh viện Vienna General năm 1847. Hai khoa sản: khoa do bác sĩ và sinh viên y phụ trách có tỉ lệ sản phụ chết vì sốt hậu sản cao hơn hẳn khoa do nữ hộ sinh phụ trách.
+DIỄN BIẾN: Ignaz Semmelweis để ý bác sĩ thường đi thẳng từ phòng giải phẫu tử thi sang phòng sinh. Sau cái chết của đồng nghiệp bị nhiễm sau một vết cắt khi mổ xác, ông cho rằng "chất từ xác chết" lây bệnh, và yêu cầu rửa tay bằng dung dịch chlorine.
+CÚ LẬT: Tỉ lệ tử vong giảm mạnh. Nhưng nhiều bác sĩ không chấp nhận ý tưởng chính tay mình gây bệnh; ông bị gạt ra ngoài, cuối đời sức khỏe tinh thần sa sút. Ông mất năm 1865. Vài năm sau, thuyết vi trùng của Pasteur và kỹ thuật sát trùng của Lister mới chứng minh ông đúng.
+ĐIỂM MẠNH: Cảm xúc mạnh, thông điệp rõ: sự thật có thể bị từ chối vì tự ái.
+LƯU Ý: Chỉ nói "ông mất năm 1865", không kể chi tiết cái chết. Số liệu tỉ lệ tử vong chỉ nói "giảm mạnh" hoặc dùng con số theo nguồn đáng tin.
+ĐỘ KHÓ DỰNG: Dễ.
+
+════ SL20 · Ảnh X-quang đầu tiên: bàn tay vợ ════
+BỐI CẢNH: Wilhelm Röntgen, giáo sư vật lý ở Würzburg (Đức), năm 1895 nghiên cứu ống phóng điện.
+DIỄN BIẾN: Ngày 8/11/1895 trong phòng tối, ông thấy một tấm bìa phủ hóa chất ở xa vẫn phát sáng. Ông gọi loại tia vô hình xuyên được vật chắn là "tia X" (X là ẩn số). Ngày 22/12/1895 ông chụp bàn tay vợ, bà Anna Bertha, thấy rõ xương và chiếc nhẫn cưới.
+CÚ LẬT: Theo lời kể lại, bà nói như vừa nhìn thấy cái chết của chính mình. Röntgen nhận giải Nobel Vật lý đầu tiên năm 1901, và không đăng ký bằng sáng chế để ai cũng dùng được. Chỉ vài tháng sau, bệnh viện nhiều nước đã dùng tia X.
+ĐIỂM MẠNH: Hình ảnh gây ấn tượng, có chi tiết nhân văn.
+LƯU Ý: Câu nói của bà Bertha ghi "theo lời kể". Ảnh X-quang bàn tay 1895 là PD.
+ĐỘ KHÓ DỰNG: Dễ.
+
+════ SL21 · Hai thợ sửa xe đạp và chuyến bay 12 giây ════
+BỐI CẢNH: Anh em Wilbur và Orville Wright, thợ sửa xe đạp ở Dayton, bang Ohio, không có bằng đại học.
+DIỄN BIẾN: Họ tự xây đường hầm gió, tự đo đạc và chế tạo cánh, động cơ. Ngày 17/12/1903 ở Kitty Hawk, Orville bay chuyến đầu tiên khoảng 12 giây, 37 mét; trong ngày họ bay thêm ba lần, chuyến tốt nhất khoảng 59 giây, 260 mét.
+CÚ LẬT: Báo chí gần như bỏ qua, nhiều người nghi ngờ. Năm 1908, khi bay biểu diễn trước công chúng ở Pháp (Wilbur) và Mỹ (Orville), họ mới được cả thế giới công nhận. Orville mất năm 1948, sống đủ lâu để thấy máy bay vượt tốc độ âm thanh (1947).
+ĐIỂM MẠNH: "Người ngoài ngành làm nên việc lớn" thu hút, tư liệu ảnh PD rất đẹp (ảnh chuyến bay đầu của Thư viện Quốc hội Mỹ).
+LƯU Ý: Có tranh cãi nhỏ về những người bay sớm khác; chỉ nói "chuyến bay có động cơ, có điều khiển, được ghi nhận rộng rãi".
+ĐỘ KHÓ DỰNG: Dễ.

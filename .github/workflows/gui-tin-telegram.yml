@@ -1,0 +1,27 @@
+name: Gửi file chữ lên Telegram
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Đường dẫn file chữ trong repo (vd telegram/sula_chi_tiet.txt)"
+        required: true
+      tieu_de:
+        description: "Tiêu đề tin"
+        required: false
+        default: "Tài liệu"
+
+permissions:
+  contents: read
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gửi
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 tg_text.py "${{ inputs.file }}" "${{ inputs.tieu_de }}"

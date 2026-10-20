@@ -5,21 +5,25 @@ Phong cách: kể liền mạch, hài nhẹ (giọng Puck), giữ nguyên sự k
 Mỗi dòng: `số câu. [nhãn · sắc thái] lời kể`. Sắc thái: L = vui, C = nghiêm hơn.
 
 Nhãn độ chắc:
-- [SỬ] sự kiện có trong chính sử (Tam quốc chí, Hậu Hán thư, Tư trị thông giám), viết từ hiểu biết sẵn có, CHƯA đối chiếu nguyên văn trong lượt này.
+- [SỬ] sự kiện có trong chính sử (Tam quốc chí, Hậu Hán thư, Tư trị thông giám), đã đối chiếu với bài tổng hợp Wikipedia ngày 20/10/2026 (xem mục dưới); chưa mở nguyên văn.
 - [KIỂM] năm, số quân hoặc chi tiết cần kiểm trước khi dựng.
 - [BÌNH] lời bình hoặc câu đùa của kênh, không đóng khung là trích sử.
 
-## TRẠNG THÁI KIỂM CHỨNG (đọc trước khi duyệt)
-- Chỉ một mốc được đối chiếu thật trong lượt này: trận Tiêu Dao Tân năm hai trăm mười bốn đến hai trăm mười lăm (Wikipedia tiếng Anh), thuộc video 2.
-- Mọi mốc khác trong video này viết từ hiểu biết sẵn có. Các điểm cần kiểm nguyên văn trước khi dựng: số quân hai bên ở Quan Độ; năm Tôn Kiên mất (một trăm chín mươi mốt hay một trăm chín mươi hai); số dân đi theo Lưu Bị ở Trường Bản; số quân Tào Tháo xuống phía nam năm hai trăm linh tám.
-- Hai câu ở chương 2 (khẩu hiệu "trời xanh đã chết") và chương 12 (gió đông nam) lấy từ Hậu Hán thư và Ngô thư; cần mở nguyên văn trước khi chốt.
-
+## TRẠNG THÁI KIỂM CHỨNG (đã đối chiếu ngày 20/10/2026)
+Đã đối chiếu với các trang Wikipedia tiếng Anh dựa trên Tam quốc chí và chú của Bùi Tùng Chi: Yellow Turban Rebellion, Dong Zhuo, Sun Jian, Yuan Shu, Yuan Shao, Liu Biao, Lü Bu, Battle of Xiapi, Emperor Xian of Han, Guo Jia, Cao Cao, Battle of Guandu, Battle of Changban, Battle of Red Cliffs.
+- Đã khớp nguồn: Khăn Vàng nổi dậy tháng ba năm 184, Trương Giác mất vì bệnh cuối năm; Đổng Trác bị giết ngày 22/5/192 (tháng tư âm lịch), bấc đèn trên bụng; Tôn Kiên thắng ở Dương Nhân và chém Hoa Hùng, mất năm 191 (Bùi Tùng Chi và Tư Mã Quang; Hậu Hán thư chép 192); Viên Thuật xưng đế 197, mất 199 xin nước mật ong; Viên Thiệu lấy Ký Châu 191, mất 202; Hạ Bì vây khoảng ba tháng, đê Nghi và Tứ, Lữ Bố bị xử tử ngày 7/2/199 (tháng chạp năm 198 âm lịch); Quan Độ tháng tám đến tháng mười năm 200, Viên Thiệu chạy với khoảng tám trăm kỵ; Trường Bản tháng mười năm 208, Trương Phi 20 kỵ; Xích Bích mùa đông năm 208, Tôn Quyền chém góc bàn, bệnh dịch, Ô Lâm, cỏ lót đường, Tào Nhân và Từ Hoảng giữ Giang Lăng, Lưu Bị lấy bốn quận; Quách Gia mất khoảng năm 207, ba mươi tám tuổi theo tuổi ta.
+- Đã sửa theo nguồn trong bản này: Tôn Kiên mất năm 191 (không còn nói "191 hoặc 192"); Tôn Sách 17 tuổi; Quan Độ kéo dài vài tuần (không phải nửa năm); Viên Thiệu chạy với khoảng tám trăm kỵ; Hạ Bì vây ba tháng; Từ Hoảng không giữ Tương Dương; số thuyền hỏa công không nêu cụ thể (Tam quốc chí ghi "mấy chục", Tư trị thông giám ghi mười); Tôn Quyền giao cho Chu Du ba vạn quân (không nói Chu Du xin ba vạn); Gia Cát Lượng chưa đầy ba mươi tuổi khi Lưu Bị ba lần đến thăm; bỏ chuyện Hiến Đế tra gia phả gọi Lưu Bị là chú (chỉ có trong tiểu thuyết).
+- Còn mang nhãn [CG]/[KIỂM] vì chỉ có trong chú giải hoặc chưa tìm được nguồn thứ hai: khẩu hiệu "trời xanh đã chết"; Lư Thực bị tố vì không đút lót (chuyện đòi quà); Tào Tháo đốt thư của thuộc hạ gửi Viên Thiệu; "xe sấm sét" ném đá; Lưu Bị khóc vì đùi béo ở Tân Dã; Lưu Bị trồng rau ở Hứa; cách Trần Cung đối đáp với Tào Tháo; Tào Tháo viết thư cho Tôn Quyền nói tự đốt thuyền (có trong Giang Biểu truyện, nguồn Wikipedia chỉ nói ông nhận bệnh dịch làm ông đốt thuyền); việc Trương Cáp và Cao Lãm hàng Tào Tháo là theo Vũ Đế kỷ (Trương Cáp truyện chép khác, cho rằng hàng sau khi Viên Thiệu thua).
+- Chưa mở được nguyên văn Tam quốc chí; các nguồn là bài tổng hợp, nên các mốc tháng chỉ ghi khi có trong nguồn. Hai điểm cần chú ý: Hiến Đế về Lạc Dương tháng bảy năm 196 (một số bài viết ghi 195); số quân Quan Độ không nêu trong lời kể vì các nguồn lệch nhau.
 ## Chi tiết đã bỏ khỏi lời kể (tiểu thuyết hoặc nghi vấn)
 - Tam anh chiến Lữ Bố, hâm rượu chém Hoa Hùng của Quan Vũ (chính sử chép Tôn Kiên chém Hoa Hùng).
 - Điêu Thuyền, liên hoàn kế (chính sử chỉ nói Lữ Bố tư thông với người hầu của Đổng Trác).
 - Quan Vũ treo ấn từ quan, qua năm ải chém sáu tướng; Quan Vũ thả Tào Tháo ở Hoa Dung.
 - Gia Cát Lượng mượn gió đông, thuyền cỏ mượn tên, khẩu chiến quần nho, Bàng Thống dâng kế liên hoàn.
 - Ấn ngọc truyền quốc trong giếng ở Lạc Dương (nguồn nghi vấn).
+- Trương Phi giết Tào Báo ở Hạ Bì (Anh hùng ký) và Tào Báo làm phản (Tam quốc chí): hai nguồn mâu thuẫn, lời kể chỉ nói trong thành có nội loạn.
+- Hiến Đế tra gia phả gọi Lưu Bị là "hoàng thúc" (tiểu thuyết); Tam quốc chí chỉ chép Tào Tháo tâu phong Lưu Bị làm tướng quân.
+- Quan Vũ treo ấn: đã bỏ ở trên; Hạ Hầu Đôn mất mắt trong trận đánh Cao Thuận (không đưa vào lời kể).
 
 ---
 
@@ -55,7 +59,7 @@ Nhãn độ chắc:
 25. [SỬ · L] Lư Thực vây Trương Giác ở Quảng Tông. Nhưng có sứ giả từ kinh đô tới đòi quà, Lư Thực không đưa, sứ giả về tâu láo, và Lư Thực bị giam. Chuyện cũ như đất.
 26. [SỬ · C] Hoàng Phủ Tung và Chu Tuấn đánh quân Khăn Vàng ở Dĩnh Xuyên. Quân Khăn Vàng đóng trại giữa đồng cỏ khô, lúc trời nổi gió.
 27. [SỬ · C] Hoàng Phủ Tung bảo quân đốt cỏ ngay trong đêm, rồi đánh từ ngoài vào. Trại cháy, quân Khăn Vàng thua to. Trong trận này có một sĩ quan trẻ tên Tào Tháo, mới hơn hai mươi chín tuổi.
-28. [SỬ · C] Trương Giác ốm rồi mất giữa năm đó, em ông là Trương Bảo, Trương Lương cũng bị giết. Cuộc khởi nghĩa lớn nhất của nhà Hán gần như tan trong một năm.
+28. [SỬ · C] Trương Giác ốm rồi mất vào cuối năm đó, còn hai em ông là Trương Bảo, Trương Lương cũng bị giết. Cuộc khởi nghĩa lớn nhất của nhà Hán gần như tan trong một năm.
 29. [SỬ · L] Nhưng những ngọn lửa nhỏ vẫn còn, ở khắp nơi, và chúng không tắt hẳn nhiều năm sau.
 30. [SỬ · C] Còn ba người trẻ vừa bước ra từ cuộc chiến. Tào Tháo, con của một gia đình quan lại có tiếng. Tôn Kiên, người miền Giang Đông, lập công ngay những ngày đầu.
 31. [SỬ · C] Và Lưu Bị, người xuất thân nghèo, theo đội quân địa phương dẹp giặc, được cử làm quan nhỏ coi việc trị an ở huyện An Hỷ. Ông ấy mới ngoài hai mươi tuổi, chức bé xíu.
@@ -117,7 +121,7 @@ Nhãn độ chắc:
 78. [SỬ · C] Vương Doãn khéo léo kéo Lữ Bố về phía mình, vì cả hai cùng quê ở vùng phía bắc và biết nói chuyện với nhau.
 79. [SỬ · C] Tháng tư năm một trăm chín mươi hai, khi Đổng Trác vào cung dự lễ chúc mừng hoàng đế khỏi bệnh, Lữ Bố ra tay trước cổng cung và giết ông ngay tại chỗ.
 80. [SỬ · L] Một người từng tự hào là sẽ không ai dám đụng, bị chính người ông tin nhất giết. Tin ông chết lan ra, dân Trường An đem rượu thịt ra đường ăn mừng.
-81. [SỬ · C] Thi thể ông bị bày ngoài chợ. Người ta nói rằng ông béo đến mức mỡ chảy, và quân lính đặt bấc châm đèn trên bụng ông suốt đêm.
+81. [CG · C] Thi thể ông bị bày ngoài chợ. Người ta nói rằng ông béo đến mức mỡ chảy, và quân lính đặt bấc châm đèn trên bụng ông suốt đêm.
 82. [SỬ · C] Nhưng chưa tới hai tháng, những tướng cũ của Đổng Trác là Lý Thôi và Quách Dĩ, nghe tin sợ bị xử, đem quân đánh vào Trường An để báo thù.
 83. [SỬ · C] Quân Lữ Bố không giữ nổi. Vương Doãn bị giết, Lữ Bố phải chạy ra khỏi thành với vài trăm kỵ binh.
 84. [SỬ · L] Cùng một hoàng đế, hai nhóm lính, đổi chủ chỉ trong vài ngày. Hiến Đế ngồi đó, bị bao quanh bởi những người hôm trước còn là kẻ thù của nhau.
@@ -131,8 +135,8 @@ Nhãn độ chắc:
 89. [SỬ · C] Ở phía bắc, Công Tôn Toản mạnh nhờ đội kỵ binh ngựa trắng. Ông đánh bại quân Khăn Vàng còn sót, và mở rộng đất sát biên giới.
 90. [SỬ · C] Ở phía nam, Viên Thuật dựa vào vùng Nam Dương giàu có, sống xa hoa, nhưng thích tự coi mình là người kế thừa nhà Hán.
 91. [SỬ · C] Còn ở Kinh Châu, một viên quan nhỏ tên Lưu Biểu, đi một mình bằng ngựa vào nhận chức, rồi dùng người địa phương khéo đến mức Kinh Châu yên ổn suốt nhiều năm.
-92. [SỬ · C] Tôn Kiên, người đã đánh Đổng Trác, quay sang đánh Lưu Biểu theo lệnh Viên Thuật. Ông đi tuần xem địa hình một mình, bị bắn lén bằng tên và mất khoảng năm một trăm chín mươi mốt hoặc một trăm chín mươi hai.
-93. [KIỂM · C] Con trai ông là Tôn Sách mới mười mấy tuổi, ở lại Giang Đông. Cậu sẽ làm một việc rất lớn sau này, nhưng chưa phải lúc.
+92. [SỬ · C] Tôn Kiên, người đã đánh Đổng Trác, quay sang đánh Lưu Biểu theo lệnh Viên Thuật. Ông đi tuần xem địa hình một mình, bị bắn lén bằng tên và mất năm một trăm chín mươi mốt, khi mới ba mươi sáu, ba mươi bảy tuổi.
+93. [SỬ · C] Con trai ông là Tôn Sách mới mười bảy tuổi, ở lại Giang Đông. Cậu sẽ làm một việc rất lớn sau này, nhưng chưa phải lúc.
 94. [SỬ · C] Trong lúc ấy, ở Duyện Châu, quân Khăn Vàng lại nổi lên và giết cả quan chức địa phương. Quan đứng đầu châu là Lưu Đại bị giết.
 95. [SỬ · C] Một nhóm quan địa phương mời Tào Tháo về làm người đứng đầu. Ông nhận, và đánh quân Khăn Vàng ở Duyện Châu.
 96. [SỬ · C] Quân Khăn Vàng gồm mấy chục vạn người cả lính lẫn dân. Tào Tháo chiêu hàng họ, chọn người khỏe nhất, lập thành đội quân riêng gọi là Thanh Châu binh.
@@ -156,7 +160,7 @@ Nhãn độ chắc:
 111. [SỬ · C] Lưu Bị lúc đầu không dám nhận. Trần Đăng, Khổng Dung đều khuyên. Cuối cùng ông nhận Từ Châu, không bằng chiến thắng, mà bằng sự tin cậy của người địa phương.
 112. [SỬ · C] Còn Lữ Bố thì thua Tào Tháo ở Duyện Châu và chạy sang nương nhờ Lưu Bị. Lưu Bị cho ở lại, vì lòng tốt và vì không biết nói không thế nào cho khéo.
 113. [SỬ · C] Năm một trăm chín mươi sáu, Viên Thuật đem quân đánh Lưu Bị. Lưu Bị dẫn quân ra chặn ở vùng Hu Di và Hoài Âm, giằng co suốt một tháng.
-114. [SỬ · C] Ông giao thành Hạ Bì cho Trương Phi giữ. Trong thành, Trương Phi và Tào Báo cãi nhau, Trương Phi giết Tào Báo, và trong thành loạn.
+114. [SỬ · C] Ông giao thành Hạ Bì cho Trương Phi giữ. Trong lúc ông đi xa, trong thành xảy ra một cuộc nội loạn giữa các tướng giữ thành.
 115. [SỬ · C] Một tướng của Lưu Bị tên Hứa Đam gửi thư mời Lữ Bố vào. Lữ Bố kéo quân suốt đêm, sáng tới Hạ Bì, quân Đan Dương mở cổng thành đón ông.
 116. [SỬ · L] Một thành vừa có chủ nhân đi xa đã mất ngay trong một đêm. Nhà chủ không khóa cửa, khách ở nhờ thì nhìn rất kỹ cái chìa.
 117. [SỬ · C] Lữ Bố bắt vợ con của Lưu Bị, rồi tự xưng người đứng đầu Từ Châu. Lưu Bị rút về Hải Tây, rồi cầu hòa. Lữ Bố trả lại gia đình ông, cho ông về đóng ở Tiểu Bái.
@@ -190,8 +194,8 @@ Nhãn độ chắc:
 142. [SỬ · C] Nhưng Viên Thiệu từ đó bắt đầu chuẩn bị đánh Tào. Một người trên danh nghĩa là đồng minh, thực chất là đối thủ lớn nhất.
 143. [SỬ · C] Bên kia, Viên Thuật ở Thọ Xuân nghĩ: nếu ai cũng nói nhà Hán sắp hết, sao ta không làm vua? Năm một trăm chín mươi bảy, ông tự xưng hoàng đế.
 144. [SỬ · L] Xưng đế mà không ai theo thì chỉ là một người mặc áo đẹp ngồi trong phòng. Tôn Sách cắt đứt quan hệ, các lãnh chúa khác đều chống.
-145. [SỬ · C] Viên Thuật bị đánh thua, mất dần đất. Đến năm một trăm chín mươi chín, ông chết trên đường chạy trốn, nghe nói trước khi mất xin ít nước mật ong mà không ai có.
-146. [KIỂM · L] Một người từng xưng hoàng đế, lúc cuối chỉ xin một ly mật ong. Câu chuyện nhỏ nhưng cho thấy tham vọng lớn không giữ được bữa nước ngọt.
+145. [SỬ · C] Viên Thuật bị đánh thua, mất dần đất. Đến năm một trăm chín mươi chín, ông bệnh và đói rồi mất. Nghe nói lúc cuối ông xin một ly nước mật ong mà không ai có.
+146. [SỬ · L] Một người từng xưng hoàng đế, lúc cuối chỉ xin một ly mật ong. Câu chuyện nhỏ nhưng cho thấy tham vọng lớn không giữ được bữa nước ngọt.
 147. [SỬ · C] Trong khi đó, Tào Tháo cũng có lúc vấp. Năm một trăm chín mươi bảy, ông đem quân tới Uyển Thành, nhận hàng của Trương Tú.
 148. [SỬ · C] Rồi ông làm một việc không hay: lấy người vợ góa của chú Trương Tú làm vợ lẽ. Trương Tú nổi giận, đang đêm đem quân đánh úp doanh trại.
 149. [SỬ · C] Trong trận ấy, con trai cả của Tào Tháo là Tào Ngang, người cháu Tào An Dân, và võ sĩ Điển Vi đều chết. Điển Vi đứng chặn cửa doanh cho Tào Tháo chạy, đến khi gục mới thôi.
@@ -204,7 +208,7 @@ Nhãn độ chắc:
 153. [SỬ · C] Quay lại với Lữ Bố. Sau khi thắng Lưu Bị, ông ngồi ở Hạ Bì, cầm cả Từ Châu. Một người từng thua nhiều lần, giờ bỗng thấy mình mạnh.
 154. [SỬ · C] Ông giữ lời hứa với Viên Thuật rồi trở mặt, đánh Lưu Bị rồi lại cầu hòa. Ai làm ăn với ông cũng đều lo.
 155. [SỬ · C] Cuối năm một trăm chín mươi bảy sang năm một trăm chín mươi tám, Lữ Bố lại đánh Lưu Bị lần nữa, và Tào Tháo cử tướng đi cứu. Lưu Bị thua, vợ con lại bị bắt.
-156. [SỬ · C] Rồi Tào Tháo tự mình dẫn quân đi đánh Lữ Bố, hợp với Lưu Bị. Quân Tào vây Hạ Bì trong nhiều tháng.
+156. [SỬ · C] Rồi Tào Tháo tự mình dẫn quân đi đánh Lữ Bố, hợp với Lưu Bị. Quân Tào vây Hạ Bì khoảng ba tháng.
 157. [KIỂM · C] Trần Cung khuyên Lữ Bố: đem quân ra ngoài đánh, tôi giữ thành, hai bên cùng đỡ nhau. Lữ Bố định đi, nhưng vợ ông khuyên đừng bỏ thành. Ông không đi, và cơ hội mất.
 158. [SỬ · L] Một võ tướng nổi tiếng vì dũng, mà không dám rời nhà vì vợ khuyên. Cũng có thể hiểu: ông rất sợ mất cái đã có.
 159. [SỬ · C] Quân Tào đã mệt, Tào Tháo định rút. Nhưng Tuân Du và Quách Gia khuyên: Lữ Bố mạnh mà không có mưu, giờ quân ông ta đã chán. Cứ đánh nữa.
@@ -212,14 +216,14 @@ Nhãn độ chắc:
 161. [SỬ · C] Rồi bộ hạ của Lữ Bố là Hầu Thành, Tống Hiến, Ngụy Tục phản. Họ trói Trần Cung và mở cổng thành. Lữ Bố trèo lên Bạch Môn Lâu, tháp cổng thành, nhìn quân Tào kéo vào.
 162. [SỬ · C] Ông xuống đầu hàng. Lúc bị trói, ông nói: trói chặt quá, nới ra cho ta. Tào Tháo nói: trói hổ sao không chặt?
 163. [SỬ · C] Lữ Bố nói thêm: bây giờ ông không lo gì nữa. Cho tôi cầm kỵ binh, ông cầm bộ binh, thiên hạ không khó định. Tào Tháo hơi do dự.
-164. [SỬ · L] Lưu Bị ngồi bên cạnh, nhẹ nhàng nhắc: ông không thấy Đinh Nguyên và Đổng Trác bị Lữ Bố xử ra sao sao? Chỉ một câu nhắc, mà Tào Tháo hiểu ngay.
+164. [SỬ · L] Lưu Bị ngồi bên cạnh, bước tới nhắc: ông không thấy Đinh Nguyên và Đổng Trác bị Lữ Bố xử ra sao sao? Chỉ một câu nhắc, mà Tào Tháo hiểu ngay.
 165. [SỬ · C] Lữ Bố quay lại, mắng Lưu Bị: thằng nhãi tai to, mày là kẻ không đáng tin nhất. Câu cuối cùng của ông. Rồi ông bị xử tử, treo cổ rồi chém.
-166. [SỬ · C] Trần Cung cũng bị bắt, Tào Tháo hỏi: sao ngươi bỏ ta mà theo Lữ Bố? Trần Cung đáp: ông giỏi mưu mà thiếu thật lòng, nên tôi bỏ. Ông xin chết, và Tào Tháo cho ông chết.
+166. [CG · C] Trần Cung cũng bị bắt, Tào Tháo hỏi: sao ngươi bỏ ta mà theo Lữ Bố? Trần Cung đáp: ông giỏi mưu mà thiếu thật lòng, nên tôi bỏ. Ông xin chết, và Tào Tháo cho ông chết.
 167. [SỬ · C] Tào Tháo chăm lo cho mẹ và vợ con của Trần Cung đến cuối đời, một chi tiết ít người nhắc.
 168. [SỬ · C] Một tướng nổi tiếng thiên hạ, chết vì chính những người dưới quyền mình. Vì ông luôn đi theo người mạnh, và những người đi theo ông cũng làm đúng như thế.
 169. [BÌNH · L] Ai từng trở mặt thì khó đòi người khác không trở mặt với mình. Một bài học nhỏ cho mọi nhóm bạn.
-170. [SỬ · C] Tào Tháo đưa Lưu Bị về Hứa. Hoàng đế gặp ông, tra gia phả, thấy ông thuộc dòng họ Hán, bèn gọi là chú. Từ đó người ta gọi Lưu Bị là Lưu hoàng thúc.
-171. [SỬ · C] Nghe đẹp thật, nhưng Lưu Bị biết mình đang ở trong lồng son. Ở Hứa ông giả vờ trồng rau, cốt để Tào Tháo bớt dè chừng.
+170. [SỬ · C] Tào Tháo đưa Lưu Bị về Hứa, tâu lên hoàng đế phong ông làm tướng quân và đối đãi rất hậu. Lưu Bị cùng họ với nhà Hán, nên được trọng vọng.
+171. [CG · C] Nghe đẹp thật, nhưng Lưu Bị biết mình đang ở trong lồng son. Ở Hứa ông giả vờ trồng rau, cốt để Tào Tháo bớt dè chừng.
 172. [SỬ · C] Trong triều, Đổng Thừa, một quan lớn, nhận mật chiếu từ Hiến Đế, nghe nói viết trên đai áo, để giết Tào Tháo. Lưu Bị được mời vào tham gia.
 173. [SỬ · C] Năm một trăm chín mươi chín, Tào Tháo cử Lưu Bị đi chặn Viên Thuật. Lưu Bị lên đường, đến Từ Châu thì giết quan Tào đóng ở đó, lấy lại Từ Châu.
 174. [SỬ · C] Đầu năm hai trăm, âm mưu Đổng Thừa bị lộ. Đổng Thừa và nhiều người bị giết, cả người phi bầu của hoàng đế cũng không thoát.
@@ -242,8 +246,8 @@ Nhãn độ chắc:
 188. [SỬ · C] Văn Sửu, tướng giỏi thứ hai của Viên Thiệu, đuổi theo quân Tào ở Diên Tân. Tào Tháo cho quân rải yên ngựa, đồ đạc dọc đường làm mồi nhử.
 189. [SỬ · C] Quân Viên Thiệu tranh nhau nhặt đồ, đội hình rối. Quân Tào từ trên đồi đánh xuống, giết Văn Sửu. Hai tướng giỏi nhất của Viên Thiệu chết liên tiếp.
 190. [SỬ · C] Rồi hai bên đối đầu ở Quan Độ. Viên Thiệu dựng đài cao, bắn tên xuống doanh Tào, làm quân Tào phải che khiên khi đi lại.
-191. [SỬ · C] Tào Tháo chế ra xe bắn đá, gọi là xe sấm sét, ném đá phá những đài cao ấy. Đây là một trong những lần xe bắn đá được ghi lại trong một trận lớn.
-192. [KIỂM · C] Viên Thiệu rồi đào địa đạo, định chui dưới đất vào doanh. Tào Tháo cho đào hào ngang chặn lại. Hai bên giằng co hơn nửa năm.
+191. [CG · C] Tào Tháo chế ra xe bắn đá, gọi là xe sấm sét, ném đá phá những đài cao ấy. Đây là một trong những lần xe bắn đá được ghi lại trong một trận lớn.
+192. [SỬ · C] Viên Thiệu rồi đào địa đạo, định chui dưới đất vào doanh. Tào Tháo cho đào hào ngang chặn lại. Hai bên giằng co nhiều tuần liền.
 193. [SỬ · C] Quân Tào ngày càng thiếu lương. Tào Tháo viết thư cho Tuân Úc ở Hứa, hỏi nên rút về không. Câu trả lời của Tuân Úc có lẽ là câu gối đầu giường của cả trận.
 194. [SỬ · C] Ông viết: đây là lúc quyết thắng thua. Ông ấy đông hơn ta nhiều mà ta cầm cự được, ai lùi trước, người ấy thua. Xin ông cứ giữ.
 195. [SỬ · L] Một lá thư ngắn, nhưng giữ cả bản đồ Trung Quốc ở lại thêm vài tháng.
@@ -252,8 +256,8 @@ Nhãn độ chắc:
 198. [SỬ · C] Tào Tháo đích thân dẫn năm nghìn quân, mặc cờ hiệu giả của Viên Thiệu, đêm đi tắt tới Ô Sào, và đốt sạch kho lương.
 199. [SỬ · C] Viên Thiệu hay tin, quyết định đánh thẳng vào doanh Tào thay vì cứu Ô Sào. Hai tướng Trương Cáp và Cao Lãm đem quân đi đánh, thấy ngược ý, rồi sợ bị vu, bèn đầu hàng Tào Tháo.
 200. [SỬ · L] Một đạo quân hàng chục vạn người, bỗng tan vỡ chỉ vì một đống lương cháy và hai tướng giận. Quan Độ là một bài học về chuyện lương thực.
-201. [SỬ · C] Viên Thiệu chỉ kịp cùng con trai và vài trăm kỵ binh vượt sông chạy về phía bắc. Quân bị bỏ lại bị Tào Tháo xử rất nặng, nhiều vạn người chết.
-202. [SỬ · C] Trong số đồ vật bắt được, Tào Tháo thấy một chồng thư của quan lại và tướng của mình gửi cho Viên Thiệu, hứa hẹn nếu Viên Thiệu thắng thì theo.
+201. [SỬ · C] Viên Thiệu chỉ kịp cùng con trai và khoảng tám trăm kỵ binh vượt sông chạy về phía bắc. Quân bị bỏ lại bị Tào Tháo xử rất nặng, nhiều vạn người chết.
+202. [CG · C] Trong số đồ vật bắt được, Tào Tháo thấy một chồng thư của quan lại và tướng của mình gửi cho Viên Thiệu, hứa hẹn nếu Viên Thiệu thắng thì theo.
 203. [SỬ · C] Ông không đọc, đốt hết. Ông nói: lúc Viên Thiệu mạnh như vậy, ta còn không tự bảo đảm được mình, huống chi người khác.
 204. [SỬ · L] Một người thắng trận mà đốt hết bằng chứng phản bội. Đó là một cách giữ người, rẻ hơn mọi phần thưởng.
 205. [SỬ · C] Quan Độ không phải trận lớn nhất về số người, nhưng là trận quyết định: phía bắc từ đó không còn ai đủ sức giành thiên hạ với Tào Tháo.
@@ -276,7 +280,7 @@ Nhãn độ chắc:
 219. [SỬ · C] Lưu Biểu cho ông đóng quân ở Tân Dã, một thị trấn nhỏ phía bắc Kinh Châu, như làm một hàng rào chống Tào.
 220. [SỬ · C] Ông ở đó bảy năm. Có lần đi vệ sinh, thấy bắp đùi mình mập ra vì lâu ngày không cưỡi ngựa, ông khóc. Ông nói: ngày tháng trôi, già đến nơi mà công danh chưa có gì.
 221. [KIỂM · L] Một người anh hùng ngồi khóc vì đùi béo. Chuyện này nghe buồn cười, nhưng là cách người ta nói về nỗi sợ lãng phí đời mình.
-222. [SỬ · C] Một bạn tên Từ Thứ giới thiệu cho ông một người trẻ ở Long Trung, tên Gia Cát Lượng, hơn hai mươi tuổi, có tiếng là Ngọa Long, con rồng nằm.
+222. [SỬ · C] Một bạn tên Từ Thứ giới thiệu cho ông một người trẻ ở Long Trung, tên Gia Cát Lượng, chưa đầy ba mươi tuổi, có tiếng là Ngọa Long, con rồng nằm.
 223. [SỬ · C] Lưu Bị đến thăm ba lần mới gặp. Gia Cát Lượng nói về thế cục: Tào Tháo có quân mạnh và thiên tử trong tay, không thể đánh trực diện. Tôn Quyền giữ Giang Đông ba đời, nên làm bạn, không làm địch.
 224. [SỬ · C] Còn Kinh Châu và Ích Châu là hai nơi nên lấy: Kinh Châu có thể đi bốn hướng, Ích Châu hiểm trở, đất đai màu mỡ. Chiếm hai nơi ấy, kết với Tôn Quyền, chờ thiên hạ có biến, sẽ đánh hai đường ra Trung Nguyên.
 225. [SỬ · C] Lưu Bị nói: tôi gặp Khổng Minh như cá gặp nước. Quan Vũ và Trương Phi lúc đầu không vui, vì họ đi theo ông đã mười mấy năm mà chưa thấy ai được ông ví như vậy.
@@ -305,17 +309,17 @@ Nhãn độ chắc:
 245. [SỬ · L] Tôn Quyền không đáp. Ông ra ngoài, đi tới chỗ Lỗ Túc, và Lỗ Túc nói thẳng: những người khác hàng thì vẫn được làm quan. Chủ công mà hàng, thì còn đâu chỗ ngồi?
 246. [SỬ · C] Tôn Quyền thở dài, nắm tay Lỗ Túc. Ông gọi Chu Du từ Phan Dương về. Chu Du, tướng giỏi, bình tĩnh phân tích số liệu.
 247. [SỬ · C] Chu Du nói: Tào Tháo xưng tám mươi vạn, thực ra chỉ chừng mười lăm, mười sáu vạn, cộng thêm quân Kinh Châu mới hàng, lòng chưa phục. Người phương bắc không quen thủy chiến, lại sắp vào mùa đông, thiếu cỏ cho ngựa, đất lạ thì bệnh dễ phát.
-248. [SỬ · C] Ông xin ba vạn quân tinh nhuệ, nói: tôi sẽ phá Tào Tháo cho chủ công. Tôn Quyền rút gươm chém một góc bàn, nói: ai còn nói chuyện đầu hàng, sẽ như cái bàn này.
+248. [SỬ · C] Tôn Quyền rút gươm chém một góc bàn, nói: ai còn nói chuyện đầu hàng, sẽ như cái bàn này. Rồi ông giao ba vạn quân tinh nhuệ cho Chu Du, và Chu Du hứa sẽ phá Tào Tháo.
 249. [SỬ · C] Chu Du cùng Trình Phổ dẫn thủy quân, với Lỗ Túc làm tham mưu, đi ngược sông, gặp Lưu Bị ở vùng Phàn Khẩu. Hai bên hợp lực tiến lên.
 250. [SỬ · C] Lúc đó, quân Tào Tháo trên sông bắt đầu có bệnh dịch. Hai bên chạm nhau lần đầu ở Xích Bích, quân Tào thua, rút về bờ bắc đóng ở Ô Lâm.
 251. [SỬ · C] Quân Tào cho thuyền đóng sát nhau, nối thành một dải dài. Nhìn thì vững, nhưng cũng có nghĩa là một đốm lửa sẽ cháy hết cả dải.
 252. [SỬ · C] Tướng Hoàng Cái của Chu Du nhìn thấy điều ấy và dâng kế: đốt. Ông nói: thuyền Tào nối đuôi nhau, có thể dùng lửa đánh đuổi.
-253. [SỬ · C] Ông chuẩn bị mười chiếc thuyền nhỏ, chất đầy củi khô, tẩm dầu, phủ vải bạt, buộc kèm thuyền nhẹ phía sau. Rồi ông viết thư giả vờ xin hàng Tào Tháo.
-254. [SỬ · C] Một buổi tối, đúng lúc gió đông nam thổi gấp, Hoàng Cái cho mười chiếc thuyền chạy thẳng về phía thủy trại quân Tào. Thủy quân Tào đứng nhìn, tưởng người đến hàng.
+253. [SỬ · C] Ông chuẩn bị một đội thuyền nhỏ, chất đầy củi khô, tẩm dầu, phủ vải bạt, buộc kèm thuyền nhẹ phía sau. Rồi ông viết thư giả vờ xin hàng Tào Tháo.
+254. [SỬ · C] Một buổi tối, đúng lúc gió đông nam thổi gấp, Hoàng Cái cho cả đội thuyền chạy thẳng về phía thủy trại quân Tào. Thủy quân Tào đứng nhìn, tưởng người đến hàng.
 255. [SỬ · L] Cách quân Tào hai dặm, Hoàng Cái ra lệnh: châm lửa. Lửa bốc cao, gió đưa, cả hàng thuyền Tào cháy cùng lúc. Tào Tháo thấy rồi mới biết mình bị lừa, nhưng đã muộn.
 256. [SỬ · C] Lửa lan cả lên bờ, thiêu cháy các doanh trại. Quân Tào hoảng loạn, người chết cháy, chết đuối, chết vì giẫm đạp. Chu Du và Lưu Bị thừa thế đánh sang.
 257. [SỬ · C] Tào Tháo rút về phía bắc theo đường nhỏ, qua vùng bùn lầy. Quân bệnh, đói, phải lấy cỏ lót đường cho ngựa đi. Nhiều người chết ở đấy.
-258. [SỬ · C] Ông để Tào Nhân giữ Giang Lăng, Từ Hoảng giữ Tương Dương, rồi lui về phương bắc, mang theo một quân đội nhỏ hơn nhiều.
+258. [SỬ · C] Ông để Tào Nhân và Từ Hoảng ở lại giữ Giang Lăng, rồi lui về phương bắc, mang theo một quân đội nhỏ hơn nhiều.
 259. [SỬ · L] Sau trận, Tào Tháo viết thư cho Tôn Quyền, đại ý: gặp dịch bệnh, ta tự đốt thuyền rút quân, để Chu Du mang tiếng lập công. Một cách thua rất nhã nhặn.
 260. [SỬ · C] Trận Xích Bích không kết thúc ngay. Chu Du đánh Tào Nhân ở Giang Lăng hơn một năm, trong đó trúng tên ở ngực. Lưu Bị thừa cơ chiếm bốn quận phía nam Kinh Châu.
 261. [SỬ · C] Với việc ấy, một trận lửa đã cắt đôi nhà Hán thành ba phần: phía bắc của Tào Tháo, phía đông của Tôn Quyền, và những mảnh đất phía nam của Lưu Bị, đủ để làm chỗ đứng.

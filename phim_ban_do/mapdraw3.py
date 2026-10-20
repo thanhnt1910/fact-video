@@ -89,10 +89,10 @@ def title_layer(year, name, sub):
     _g = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
     for _sz in range(96, 40, -4):
         f2 = font(_sz)
-        if _g.textlength(name, font=f2) <= 1600: break
+        if _g.textlength(name, font=f2) <= (W - 160): break
     for _sz in range(40, 24, -2):
         f3 = font(_sz, False)
-        if _g.textlength(sub, font=f3) <= 1600: break
+        if _g.textlength(sub, font=f3) <= (W - 160): break
     y0 = H // 2 - 190
     t1 = year
     w1 = g.textlength(t1, font=f1)
@@ -140,14 +140,18 @@ def wrap(txt, f, maxw, g):
     return lines
 
 
+import os as _os
+_P = bool(_os.environ.get('PORTRAIT'))
+
+
 def quote_layer(text, who, col):
     f = font_i(50)
     fw = font(34)
     g0 = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
-    lines = wrap(text, f, 1020, g0)
+    lines = wrap(text, f, 800 if _P else 1020, g0)
     lh = 68
     h = len(lines) * lh + 150
-    w = 1200
+    w = 980 if _P else 1200
     im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     g = ImageDraw.Draw(im)
     g.rounded_rectangle((0, 0, w, h), 24, fill=(14, 9, 5, 232), outline=col + (255,), width=4)
@@ -166,7 +170,7 @@ def joke_layer(icon, text, t, k):
     im = Image.new('RGBA', (W, H), (0, 0, 0, 0))
     g = ImageDraw.Draw(im)
     r = 150 * (0.72 + 0.28 * ease(min(1, k * 1.6))) * (1 + 0.04 * math.sin(t * 6))
-    cx, cy = W // 2, 400
+    cx, cy = W // 2, (640 if _P else 400)
     g.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(246, 238, 214, 245), outline=(60, 44, 28, 255), width=8)
     g.ellipse((cx - r + 18, cy - r + 18, cx + r - 18, cy + r - 18), outline=(176, 130, 60, 255), width=4)
     if icon == 'fire':
@@ -181,7 +185,7 @@ def joke_layer(icon, text, t, k):
         g.ellipse((cx - r * 0.5, cy - r * 0.5, cx + r * 0.5, cy + r * 0.5), fill=(222, 176, 60, 255), outline=INK, width=6)
         g.rectangle((cx - r * 0.12, cy - r * 0.2, cx + r * 0.12, cy + r * 0.2), outline=INK, width=6)
     f = font(66)
-    lines = wrap(text, f, 1500, g)
+    lines = wrap(text, f, (W - 140) if _P else 1500, g)
     wt = max(g.textlength(l, font=f) for l in lines)
     lh = 84
     g.rounded_rectangle((W / 2 - wt / 2 - 40, cy + r + 24, W / 2 + wt / 2 + 40, cy + r + 64 + lh * len(lines)), 22, fill=(14, 9, 5, 232), outline=GOLD, width=3)

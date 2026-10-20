@@ -1,6 +1,8 @@
 import json,math,os
 from PIL import Image,ImageDraw,ImageFont
-W,H,FPS=1920,1080,24
+P=bool(os.environ.get('PORTRAIT'))
+W,H,FPS=(1080,1920,24) if P else (1920,1080,24)
+SUBW=W-150 if P else 1560;SUBF=58 if P else 46;SUBY=340 if P else 70
 FONT=os.environ.get('FONT','/tmp/wt/assets/fonts/Lora-Variable.ttf')
 def font(sz,bold=True):
     f=ImageFont.truetype(FONT,int(sz))
@@ -30,9 +32,9 @@ def wrap(txt,f,maxw,g):
         else: lines.append(cur);cur=w_
     lines.append(cur);return lines
 def sub_layer(txt):
-    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(46,False)
-    lines=wrap(txt,f,1560,g);lh=62;h=lh*len(lines)+30;y0=H-70-h
-    g.rounded_rectangle((W/2-820,y0,W/2+820,y0+h),22,fill=(8,5,3,150))
+    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(SUBF,False)
+    lines=wrap(txt,f,SUBW,g);lh=int(SUBF*1.35);h=lh*len(lines)+30;y0=H-SUBY-h
+    g.rounded_rectangle((W/2-SUBW/2-40,y0,W/2+SUBW/2+40,y0+h),22,fill=(8,5,3,150))
     for i,l in enumerate(lines):
         w=g.textlength(l,font=f);x=W/2-w/2;y=y0+15+i*lh
         g.text((x+2,y+3),l,font=f,fill=(0,0,0,255));g.text((x,y),l,font=f,fill=(250,244,228,255))
@@ -43,8 +45,8 @@ PH=json.load(open(_PH)) if os.path.exists(_PH) else {}
 _cache={}
 def sub_words(words,k):
     """Phụ đề một cụm: chữ đã đọc sáng, chữ chưa đọc mờ."""
-    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(46,False);fb=font(46,True)
-    lines=wrap(' '.join(words),f,1560,g);lh=62;h=lh*len(lines)+30;y0=H-70-h
+    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(SUBF,False);fb=font(SUBF,True)
+    lines=wrap(' '.join(words),f,SUBW,g);lh=int(SUBF*1.35);h=lh*len(lines)+30;y0=H-SUBY-h
     wmax=max(g.textlength(l,font=f) for l in lines)+80
     g.rounded_rectangle((W/2-wmax/2,y0,W/2+wmax/2,y0+h),22,fill=(8,5,3,150))
     idx=0

@@ -27,7 +27,7 @@ def cam(t):
 ZMIN=max(W/RW*1.0,0)  # z=1 = nguyên bề ngang bản đồ
 class View:
     def __init__(s,t):
-        s.cx,s.cy,s.z=cam(t);s.z=max(s.z,(RW*H/W)/RH*1.01)
+        s.cx,s.cy,s.z=cam(t);s.z=max(s.z*(1.3 if B.P else 1.0),(RW*H/W)/RH*1.01)
         s.bw=RW/s.z;s.bh=s.bw*H/W
         s.x0=min(max(s.cx-s.bw/2,0),RW-s.bw);s.y0=min(max(s.cy-s.bh*0.40,0),RH-s.bh)
     def sc(s,lon,lat,k=1):
@@ -367,10 +367,10 @@ def frame(t):
         if t0<=t<=t1:
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.4))
             ml=M3.meter_layer(title,[(lab,col,curve(cv,t)) for lab,col,cv in rows])
-            out=comp(out,ml,(50-int((1-ease(k))*160),500),ease(k))
+            out=comp(out,ml,(30-int((1-ease(k))*160),(1000 if B.P else 500)),ease(k))
     # bản đồ nhỏ
     mm=getattr(C,'MINI',None)
-    if mm is not None and any(a<=t<=b for a,b in mm) and not ttl:
+    if mm is not None and any(a<=t<=b for a,b in mm) and not ttl and not B.P:
         m=MINI0.copy();g_=ImageDraw.Draw(m);mw,mh=m.size
         def mp(lon,lat):
             x_,y_=wp(lon,lat);return x_/RW*mw,y_/RH*mh
@@ -382,7 +382,7 @@ def frame(t):
         out=comp(out,m,(W-44-300,370),clamp((t-0.8)/0.6))
     for i,x in enumerate(getattr(C,'QUOTES',[])):
         if x[0]<=t<=x[1]:
-            k=min(clamp((t-x[0])/0.5),clamp((x[1]-t)/0.4));ql=QUOL[i];out=comp(out,ql,((W-ql.width)//2,int(770-ql.height+(1-ease(k))*40)),ease(k))
+            k=min(clamp((t-x[0])/0.5),clamp((x[1]-t)/0.4));ql=QUOL[i];out=comp(out,ql,((W-ql.width)//2,int((1250 if B.P else 770)-ql.height+(1-ease(k))*40)),ease(k))
     if ttl: out=comp(out,TITL[ttl[0]],(0,0),ease(ttl[1]))
     for (t0,t1,icon,txt) in getattr(C,'JOKES',[]):
         if t0<=t<=t1:

@@ -7,3 +7,20 @@ tổng khung 30767 đoạn 2 15383 23075
 + read A0 A1
 + python -u mapfilm2.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_2.mp4 15383 23075
 + tail -n 15
+3600 7692
+3900 7692
+4200 7692
+4500 7692
+4800 7692
+5100 7692
+5400 7692
+5700 7692
+6000 7692
+6300 7692
+6600 7692
+6900 7692
+7200 7692
+7500 7692
+xong
++ ls -la doan_2.mp4
+-rw-r--r-- 1 runner runner 138051180 Oct 19 23:55 doan_2.mp4

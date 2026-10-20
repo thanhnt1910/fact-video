@@ -1,0 +1,40 @@
+name: Tải ảnh PD theo danh sách và gửi Telegram
+
+on:
+  workflow_dispatch:
+    inputs:
+      danh_sach:
+        description: "File JSON danh sách ảnh (vd telegram/anh_sl21.json)"
+        required: true
+      thu_muc:
+        description: "Thư mục lưu ảnh trong repo (vd telegram/anh_fb/SL21)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow
+      - name: Tải và gửi
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python gui_anh_json.py "${{ inputs.danh_sach }}" "${{ inputs.thu_muc }}" 2>&1 | tee out.txt
+          if grep -q "LỖI" out.txt; then echo "::error::$(tr '\n' ' ' < out.txt | tail -c 700)"; fi
+      - name: Lưu ảnh vào repo
+        if: always()
+        run: |
+          git add "${{ inputs.thu_muc }}" || true
+          git diff --cached --quiet && exit 0
+          git config user.name "fact-video-bot"; git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Ảnh PD đã tải ${{ inputs.thu_muc }} [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

@@ -74,6 +74,8 @@ def messages(title, text):
 
 def send(msg):
     token, chat = os.environ.get("TG_TOKEN"), os.environ.get("TG_CHAT")
+    if not chat and Path("telegram_chat_id.txt").exists():
+        chat = Path("telegram_chat_id.txt").read_text().strip()
     data = urllib.parse.urlencode({"chat_id": chat, "text": msg, "parse_mode": "HTML",
                                    "disable_web_page_preview": "true"}).encode()
     req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=data)

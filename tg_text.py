@@ -13,6 +13,7 @@ import html
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -76,8 +77,12 @@ def send(msg):
     data = urllib.parse.urlencode({"chat_id": chat, "text": msg, "parse_mode": "HTML",
                                    "disable_web_page_preview": "true"}).encode()
     req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=data)
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r).get("ok")
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.load(r).get("ok")
+    except urllib.error.HTTPError as e:
+        print("Telegram báo lỗi:", e.code, e.read().decode("utf-8", "replace")[:300])
+        return False
 
 
 def main():

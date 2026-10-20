@@ -24,4 +24,6 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python3 tg_text.py "${{ inputs.file }}" "${{ inputs.tieu_de }}"
+        run: |
+          python3 tg_text.py "${{ inputs.file }}" "${{ inputs.tieu_de }}" 2>&1 | tee out.txt
+          if grep -q "LỖI\|báo lỗi" out.txt; then echo "::error::$(tr '\n' ' ' < out.txt | tail -c 700)"; exit 1; fi

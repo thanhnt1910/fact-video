@@ -30,6 +30,6 @@ jobs:
       - name: Lưu kết quả
         run: |
           git config user.email noreply@anthropic.com; git config user.name Claude
-          git add phim_ban_do/asr_*.json phim_ban_do/asr_log.txt
+          git add phim_ban_do/asr_log.txt; git add phim_ban_do/asr_*.json || true
           git commit -q -m "Mốc từng chữ từ nhận dạng giọng" || exit 0
           git pull -q --rebase; git push -q

@@ -38,14 +38,28 @@ def base_frame(v):
     while lvl<3 and mpp*(2**(lvl+1))<=1.0: lvl+=1
     im=PYR[lvl];f=2**lvl
     return im.resize((W,H),Image.BICUBIC,box=(max(0,v.x0/f),max(0,v.y0/f),min(im.width,(v.x0+v.bw)/f),min(im.height,(v.y0+v.bh)/f)))
+def _vel(keys,i,ax):
+    # vận tốc tại khóa i (đơn vị/giây); 0 nếu đầu/cuối đường hoặc kề đoạn đứng yên => không giật khi qua khóa
+    if i<=0 or i>=len(keys)-1: return 0.0
+    a,b,c=keys[i-1],keys[i],keys[i+1]
+    if (a[1],a[2])==(b[1],b[2]) or (b[1],b[2])==(c[1],c[2]): return 0.0
+    dt=c[0]-a[0]
+    if dt<=1e-6: return 0.0
+    return (c[ax]-a[ax])/dt
 def path_pos(keys,t):
     if t<=keys[0][0]: return keys[0][1],keys[0][2],0.0
     for i in range(len(keys)-1):
         a,b=keys[i],keys[i+1]
         if t<=b[0]:
-            u=ease((t-a[0])/(b[0]-a[0])) if b[0]>a[0] else 1
             moving=(a[1],a[2])!=(b[1],b[2])
-            return lerp(a[1],b[1],u),lerp(a[2],b[2],u),(1.0 if moving and 0<u<1 else 0.0)
+            if b[0]<=a[0] or not moving: return b[1],b[2],0.0
+            h=b[0]-a[0];u=(t-a[0])/h;u2=u*u;u3=u2*u
+            h00=2*u3-3*u2+1;h10=u3-2*u2+u;h01=-2*u3+3*u2;h11=u3-u2
+            out=[]
+            for ax in (1,2):
+                m0=_vel(keys,i,ax);m1=_vel(keys,i+1,ax)
+                out.append(h00*a[ax]+h10*h*m0+h01*b[ax]+h11*h*m1)
+            return out[0],out[1],(1.0 if 0<u<1 else 0.0)
     return keys[-1][1],keys[-1][2],0.0
 def curve(pts,t,default=0.0):
     if not pts: return default
@@ -139,8 +153,89 @@ def _build_track():
     def sm(a):
         pad=np.concatenate([np.full(4*sg,a[0]),a,np.full(4*sg,a[-1])]);return np.convolve(pad,k,'same')[4*sg:-4*sg]
     return dt,sm(X),sm(Y),np.exp(sm(Z))
+# ---- máy quay theo tiêu điểm (CAMFOCUS): mỗi câu zoom vào đúng vật đang được kể, đặt giữa vùng an toàn của khung
+SAFE=(100,170,1550,840)
+BASE_N=getattr(C,'BASE',0)
+def _beat_subjects(n):
+    t0=T[n];t1=t0+D[n];prim=[];sec=[]
+    for (f0,f1,fp,rep) in getattr(C,'FOC',[]):
+        if f0<=n-BASE_N<=f1 and rep: return list(fp),[]
+        if f0<=n-BASE_N<=f1: prim+=list(fp)
+    def act(a,b): return a<t1 and b>t0
+    for pr in getattr(C,'PROPS',[]):
+        if act(pr[0],pr[1]): prim.append((pr[3],pr[4]))
+    for x in C.NOTES:
+        if act(x[0],x[1]): prim.append((x[2],x[3]))
+    for x in C.ARROWS:
+        if act(x[0],x[1]): prim+= [x[2],x[3]]
+    for x in C.LETTERS:
+        if act(x[0],x[1]): prim+= [x[2],x[3]]
+    for x in C.FIRES:
+        if act(x[0],x[1]): prim.append((x[2],x[3]))
+    for x in C.BATT:
+        if act(x[0],x[1]): prim.append((x[2],x[3]))
+    for x in getattr(C,'OBJ',[]):
+        if act(x[0],x[1]): prim+= [x[3],x[4][:2]]
+    for x in getattr(C,'FX',[]):
+        if act(x[0],x[1]): prim+= [x[3],x[4]]
+    for (e0,e1,lo,la,nm) in _MEN:
+        if act(e0,e1): prim.append((lo,la))
+    for g in GROUPS:
+        for k in range(6):
+            t=t0+(t1-t0)*(k+0.5)/6
+            if g.vis(t) and g.frac(t)>0.02:
+                lon,lat,mv=path_pos(g.keys,t);sec.append((lon,lat))
+    return prim,sec
+def _focus_target(n,bz):
+    prim,sec=_beat_subjects(n)
+    if prim:
+        pts=list(prim)
+        cx0=sum(p[0] for p in pts)/len(pts);cy0=sum(p[1] for p in pts)/len(pts)
+        r0=max(0.6,max(math.hypot(p[0]-cx0,p[1]-cy0) for p in pts))
+        pts+= [q for q in sec if math.hypot(q[0]-cx0,q[1]-cy0)<=r0*1.2+0.5]
+    elif sec: pts=list(sec)
+    else: return None
+    pad=0.28
+    lo0=min(p[0] for p in pts)-pad;lo1=max(p[0] for p in pts)+pad;la0=min(p[1] for p in pts)-pad;la1=max(p[1] for p in pts)+pad
+    (xa,ya),(xb,yb)=wp(lo0,la1),wp(lo1,la0)
+    bwx=max(xb-xa,1);bhy=max(yb-ya,1)
+    sw=SAFE[2]-SAFE[0];sh=SAFE[3]-SAFE[1]
+    zw=RW*sw/(W*bwx);zh=(RW*H/W)*sh/(H*bhy)*1.0  # bh=bw*H/W, bhy*H/(bh*... ) -> z cho chiều cao
+    zh=RW*(sh/H)*(H/W)*0+RW*sh/(W*bhy)
+    z=min(zw,zh);z=max(0.9,min(4.2,z))
+    if z>3.4: z=3.4
+    bcx,bcy=(xa+xb)/2,(ya+yb)/2
+    bw=RW/z;bh=bw*H/W
+    cx=bcx+bw*(0.5-((SAFE[0]+SAFE[2])/2)/W)
+    cy=bcy+bh*(0.40-((SAFE[1]+SAFE[3])/2)/H)
+    return cx,cy,z
+_MEN=_mention_events() if getattr(C,'CAMFOCUS',False) else []
+_FTRK=None
+def _build_focus():
+    dt=0.2;N=int(TOTAL/dt)+2;X=np.zeros(N);Y=np.zeros(N);Z=np.zeros(N)
+    order=sorted(T.keys());last=None
+    beatof=lambda t: B.beat_of(t)
+    cur=None;cur_n=None
+    for i in range(N):
+        t=i*dt+0.5;n=beatof(min(t,TOTAL-0.01))
+        if n!=cur_n:
+            cur_n=n;bx,by,bz=_cam_base(T[n]+0.1);tg=_focus_target(n,bz)
+            if tg is None: tg=(bx,by,bz)
+            if cur is not None:
+                bwc=RW/cur[2]
+                if abs(tg[0]-cur[0])<0.12*bwc and abs(tg[1]-cur[1])<0.12*bwc and abs(math.log(tg[2]/cur[2]))<0.18: tg=cur
+            cur=tg
+        X[i],Y[i],Z[i]=cur[0],cur[1],math.log(cur[2])
+    sg=max(1,int(1.6/dt));k=np.exp(-0.5*(np.arange(-4*sg,4*sg+1)/sg)**2);k/=k.sum()
+    def sm(a):
+        pad=np.concatenate([np.full(4*sg,a[0]),a,np.full(4*sg,a[-1])]);return np.convolve(pad,k,'same')[4*sg:-4*sg]
+    return dt,sm(X),sm(Y),np.exp(sm(Z))
 def cam(t):
-    global _TRK
+    global _TRK,_FTRK
+    if getattr(C,'CAMFOCUS',False):
+        if _FTRK is None: _FTRK=_build_focus()
+        dt,X,Y,Z=_FTRK;f=min(max(t/dt,0),len(X)-1.001);i=int(f);u=f-i
+        return X[i]+(X[i+1]-X[i])*u,Y[i]+(Y[i+1]-Y[i])*u,Z[i]+(Z[i+1]-Z[i])*u
     if not getattr(C,'CAMFOLLOW',False): return _cam_base(t)
     if _TRK is None: _TRK=_build_track()
     dt,X,Y,Z=_TRK;f=min(max(t/dt,0),len(X)-1.001);i=int(f);u=f-i

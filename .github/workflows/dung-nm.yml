@@ -15,11 +15,11 @@ env:
   NPROC: 4
   SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/nm_full.json
   VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/puck
-  WORLD: ${{ github.workspace }}/phim_ban_do/world5.jpg
+  WORLD: ${{ github.workspace }}/phim_ban_do/world6.jpg
   LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
   FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf
   CONTENT: nm_content
-  WORLDMOD: world5
+  WORLDMOD: world6
   PHUDE: ${{ github.workspace }}/phim_ban_do/phude_nm.json
 
 jobs:

@@ -7,3 +7,20 @@ tổng khung 61004 đoạn 6 30502 35585
 + read A0 A1
 + python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_6.mp4 30502 35585
 + tail -n 15
+900 5083
+1200 5083
+1500 5083
+1800 5083
+2100 5083
+2400 5083
+2700 5083
+3000 5083
+3300 5083
+3600 5083
+3900 5083
+4200 5083
+4500 5083
+4800 5083
+xong
++ ls -la doan_6.mp4
+-rw-r--r-- 1 runner runner 164871402 Oct 20 18:13 doan_6.mp4

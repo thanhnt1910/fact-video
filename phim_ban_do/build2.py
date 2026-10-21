@@ -43,7 +43,7 @@ def sub_layer(txt):
 _PH=os.environ.get('PHUDE',os.path.join(os.path.dirname(os.path.abspath(__file__)),'phude.json'))
 PH=json.load(open(_PH)) if os.path.exists(_PH) else {}
 _cache={}
-def sub_words(words,k):
+def sub_words(words,k,reveal=False):
     """Phụ đề một cụm: chữ đã đọc sáng, chữ chưa đọc mờ."""
     im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(SUBF,False);fb=font(SUBF,True)
     lines=wrap(' '.join(words),f,SUBW,g);lh=int(SUBF*1.35);h=lh*len(lines)+30;y0=H-SUBY-h
@@ -55,6 +55,7 @@ def sub_words(words,k):
         for w_ in l.split():
             on=idx<k
             if on: g.text((x+2,y+3),w_,font=f,fill=(0,0,0,200));g.text((x,y),w_,font=f,fill=(250,244,228,255))
+            elif not reveal: g.text((x+2,y+3),w_,font=f,fill=(0,0,0,90));g.text((x,y),w_,font=f,fill=(190,180,160,150))
             x+=g.textlength(w_+' ',font=f);idx+=1
     return im
 def sub_at(t):
@@ -71,7 +72,8 @@ def sub_at(t):
         st=c[5][0] if len(c)>=6 and c[5] else c[1]
         if v>=st-0.05: i=j
     txt,s,e=cl[i][:3];words=txt.split()
-    if len(cl[i])>=6 and cl[i][5]:
+    rev=len(cl[i])>=6 and bool(cl[i][5])
+    if rev:
         k=sum(1 for ws in cl[i][5] if v>=ws-0.03)
     else:
         if len(cl[i])>=5: s,e=cl[i][3]-0.10,cl[i][4]
@@ -80,9 +82,9 @@ def sub_at(t):
             acc+=x_
             if v>=s+(e-s)*((acc-x_*0.5)/tot): k+=1
     k=min(len(words),max(0,k))
-    if k==0: return None,0
+    if rev and k==0: return None,0
     key=('c',n,i,k)
-    if key not in _cache: _cache.clear();_cache[key]=sub_words(words,k)
+    if key not in _cache: _cache.clear();_cache[key]=sub_words(words,k,rev)
     return _cache[key],al
 def card_layer(name,role,col):
     im=Image.new('RGBA',(640,150),(0,0,0,0));g=ImageDraw.Draw(im)

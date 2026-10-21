@@ -49,8 +49,33 @@ def chu_moc(x, vs, ve, words):
     for i in range(N - 1, 1, -1): cuts.append(back[i][cuts[-1]])
     cuts = [0] + cuts[::-1]
     return [round(vs + c / 100.0, 3) for c in cuts]
+def _nor(w): return re.sub(r'[^\w]', '', w.lower())
+def asr_moc(words, asr):
+    """Mốc bắt đầu từng chữ của lời kể theo kết quả nhận dạng giọng (asr: [[chữ, bắt đầu, kết thúc], ...])."""
+    import difflib
+    if not asr: return None
+    a = [_nor(w) for w in words]; b = [_nor(r[0]) for r in asr]
+    t = [None] * len(words)
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if tag == 'equal' or (tag == 'replace' and i2 - i1 == j2 - j1):
+            for k in range(i2 - i1): t[i1 + k] = asr[j1 + k][1]
+        elif tag == 'replace':
+            st, en = asr[j1][1], asr[j2 - 1][2]
+            for k in range(i2 - i1): t[i1 + k] = st + (en - st) * k / (i2 - i1)
+    known = [i for i, v in enumerate(t) if v is not None]
+    if len(known) < 0.5 * len(words): return None
+    end = asr[-1][2]
+    for i in range(len(t)):
+        if t[i] is not None: continue
+        l = max([k for k in known if k < i], default=None); r = min([k for k in known if k > i], default=None)
+        if l is None: t[i] = max(0.0, t[r] - 0.28 * (r - i))
+        elif r is None: t[i] = min(end, t[l] + 0.28 * (i - l))
+        else: t[i] = t[l] + (t[r] - t[l]) * (i - l) / (r - l)
+    for i in range(1, len(t)): t[i] = max(t[i], t[i - 1])
+    return [round(v, 3) for v in t]
 def main():
     src, vd, dst = sys.argv[1:4]
+    ASR = json.load(open(sys.argv[4], encoding='utf-8')) if len(sys.argv) > 4 else {}
     beats = json.load(open(src, encoding='utf-8')); res = {}
     for b in beats:
         n = b['n']; cl = cum(b['text'])
@@ -59,7 +84,10 @@ def main():
         if len(cl) == 1 or len(x) < SR:
             _env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(SR // 50) / (SR // 50), 'same')); _v = np.where(_env > max(0.006, 0.08 * float(np.percentile(_env, 98))))[0]
             _vs, _ve = ((_v[0] / SR, _v[-1] / SR) if len(_v) else (0.0, len(x) / SR))
-            res[str(n)] = [[cl[0], 0.0, len(x)/SR, round(_vs, 3), round(_ve, 3), chu_moc(x, _vs, _ve, cl[0].split())]]; continue
+            _r = [cl[0], 0.0, len(x)/SR, round(_vs, 3), round(_ve, 3), chu_moc(x, _vs, _ve, cl[0].split())]
+            _am = asr_moc(b['text'].split(), ASR.get(str(n)))
+            if _am: _r[5] = _am
+            res[str(n)] = [_r]; continue
         spans, _ = H.split_by_pauses(x, [max(1, len(c.split())) for c in cl])
         hop = SR // 100
         env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(hop * 2) / (hop * 2), 'same'))
@@ -79,6 +107,11 @@ def main():
                     a, b2 = sorted((i, j)); A, B = rows[a], rows[b2]
                     rows[a:b2 + 1] = [[A[0] + ' ' + B[0], A[1], B[2], A[3], B[4], chu_moc(x, A[3], B[4], (A[0] + ' ' + B[0]).split())]]
                     changed = True; break
+        am = asr_moc(b['text'].split(), ASR.get(str(n)))
+        if am:
+            k = 0
+            for r in rows:
+                m = len(r[0].split()); r[5] = am[k:k + m]; k += m
         res[str(n)] = rows
     json.dump(res, open(dst, 'w'), ensure_ascii=False)
     print(len(res), 'câu,', sum(len(v) for v in res.values()), 'cụm')

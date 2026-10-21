@@ -53,8 +53,8 @@ def sub_words(words,k):
     for i,l in enumerate(lines):
         lw=g.textlength(l,font=f);x=W/2-lw/2;y=y0+15+i*lh
         for w_ in l.split():
-            on=idx<k;col=(250,244,228,255) if on else (190,180,160,150)
-            g.text((x+2,y+3),w_,font=f,fill=(0,0,0,200 if on else 90));g.text((x,y),w_,font=f,fill=col)
+            on=idx<k
+            if on: g.text((x+2,y+3),w_,font=f,fill=(0,0,0,200));g.text((x,y),w_,font=f,fill=(250,244,228,255))
             x+=g.textlength(w_+' ',font=f);idx+=1
     return im
 def sub_at(t):
@@ -66,15 +66,19 @@ def sub_at(t):
         key=('b',n)
         if key not in _cache: _cache.clear();_cache[key]=sub_layer(texts[n])
         return _cache[key],al
-    v=lt-0.12;i=0
+    v=lt-0.05;i=0
     for j,c in enumerate(cl):
-        if v>=c[1]-0.05: i=j
+        st=c[5][0] if len(c)>=6 and c[5] else c[1]
+        if v>=st-0.05: i=j
     txt,s,e=cl[i][:3];words=txt.split()
-    if len(cl[i])>=5: s,e=cl[i][3]-0.10,cl[i][4]
-    wt=[len(w_)+2 for w_ in words];tot=float(sum(wt));acc=0;k=0
-    for w_,x_ in zip(words,wt):
-        acc+=x_
-        if v>=s+(e-s)*((acc-x_*0.5)/tot): k+=1
+    if len(cl[i])>=6 and cl[i][5]:
+        k=sum(1 for ws in cl[i][5] if v>=ws-0.03)
+    else:
+        if len(cl[i])>=5: s,e=cl[i][3]-0.10,cl[i][4]
+        wt=[len(w_)+2 for w_ in words];tot=float(sum(wt));acc=0;k=0
+        for w_,x_ in zip(words,wt):
+            acc+=x_
+            if v>=s+(e-s)*((acc-x_*0.5)/tot): k+=1
     k=min(len(words),max(0,k))
     key=('c',n,i,k)
     if key not in _cache: _cache.clear();_cache[key]=sub_words(words,k)

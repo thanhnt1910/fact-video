@@ -5,7 +5,8 @@ import build2 as B
 from build2 import T,D,TOTAL,texts,chap,W,H,FPS,ease,clamp,font,comp
 from mapdraw import *
 import mapdraw as MD
-from world3 import RW,RH,wp
+import importlib as _il
+_wm=_il.import_module(os.environ.get('WORLDMOD','world3'));RW,RH,wp=_wm.RW,_wm.RH,_wm.wp
 WORLD=Image.open(os.environ.get('WORLD','/tmp/proto/world3.jpg')).convert('RGB')
 PYR=[WORLD]
 for i in range(1,4): PYR.append(PYR[-1].resize((RW>>i,RH>>i),Image.LANCZOS))
@@ -76,7 +77,7 @@ GROUPS=[Group(**{k:v for k,v in g.items() if k!='n2'}) for g in C.GROUPS]
 # nền trang trí
 _r=random.Random(77);DECO=[];_p=PYR[3]
 for _ in range(9000):
-    lo=_r.uniform(107.2,121.6);la=_r.uniform(28.8,41.4);x,y=wp(lo,la)
+    _w4=os.environ.get('WORLDMOD')=='world4';lo=_r.uniform(102.2 if _w4 else 107.2,121.6);la=_r.uniform(27.2 if _w4 else 28.8,41.4);x,y=wp(lo,la)
     px=_p.getpixel((min(_p.width-1,int(x/8)),min(_p.height-1,int(y/8))))
     water=px[2]>px[0]+10
     DECO.append((lo,la,'wave' if water else ('tree' if _r.random()<0.5 else 'none'),_r.random()))

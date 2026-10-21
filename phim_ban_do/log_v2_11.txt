@@ -23,4 +23,4 @@ tổng khung 58404 đoạn 11 53537 58404
 4800 4867
 xong
 + ls -la doan_11.mp4
--rw-r--r-- 1 runner runner 71117674 Oct 20 09:28 doan_11.mp4
+-rw-r--r-- 1 runner runner 71117674 Oct 20 10:35 doan_11.mp4

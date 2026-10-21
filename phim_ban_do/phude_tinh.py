@@ -73,6 +73,20 @@ def asr_moc(words, asr):
         else: t[i] = t[l] + (t[r] - t[l]) * (i - l) / (r - l)
     for i in range(1, len(t)): t[i] = max(t[i], t[i - 1])
     return [round(v, 3) for v in t]
+def chia_ngan(rows, toi_da=7):
+    """Chia cụm dài thành các đoạn phụ đề ngắn (tối đa toi_da chữ), mỗi đoạn có mốc từng chữ riêng."""
+    out = []
+    for r in rows:
+        w = r[0].split(); tm = r[5] if len(r) >= 6 and r[5] else None
+        if len(w) <= toi_da or not tm or len(tm) != len(w): out.append(r); continue
+        k = -(-len(w) // toi_da); base, ex = divmod(len(w), k); i = 0; parts = []
+        for j in range(k):
+            m = base + (1 if j < ex else 0); parts.append((i, i + m)); i += m
+        for j, (a, b) in enumerate(parts):
+            e = tm[parts[j + 1][0]] if j + 1 < len(parts) else r[2]
+            ve = r[4] if j + 1 == len(parts) else min(e, tm[b - 1] + 0.4)
+            out.append([' '.join(w[a:b]), round(tm[a] if j else r[1], 3), round(e, 3), round(tm[a], 3), round(ve, 3), tm[a:b]])
+    return out
 def main():
     src, vd, dst = sys.argv[1:4]
     ASR = json.load(open(sys.argv[4], encoding='utf-8')) if len(sys.argv) > 4 else {}
@@ -87,7 +101,7 @@ def main():
             _r = [cl[0], 0.0, len(x)/SR, round(_vs, 3), round(_ve, 3), chu_moc(x, _vs, _ve, cl[0].split())]
             _am = asr_moc(b['text'].split(), ASR.get(str(n)))
             if _am: _r[5] = _am
-            res[str(n)] = [_r]; continue
+            res[str(n)] = chia_ngan([_r]); continue
         spans, _ = H.split_by_pauses(x, [max(1, len(c.split())) for c in cl])
         hop = SR // 100
         env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(hop * 2) / (hop * 2), 'same'))
@@ -112,7 +126,7 @@ def main():
             k = 0
             for r in rows:
                 m = len(r[0].split()); r[5] = am[k:k + m]; k += m
-        res[str(n)] = rows
+        res[str(n)] = chia_ngan(rows)
     json.dump(res, open(dst, 'w'), ensure_ascii=False)
     print(len(res), 'câu,', sum(len(v) for v in res.values()), 'cụm')
 if __name__ == '__main__': main()

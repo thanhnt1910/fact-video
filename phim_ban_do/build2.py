@@ -2,7 +2,7 @@ import json,math,os
 from PIL import Image,ImageDraw,ImageFont
 P=bool(os.environ.get('PORTRAIT'))
 W,H,FPS=(1080,1920,24) if P else (1920,1080,24)
-SUBW=W-150 if P else 1560;SUBF=58 if P else 46;SUBY=340 if P else 70
+SUBW=W-150 if P else 1250;SUBF=58 if P else 46;SUBY=340 if P else 70
 FONT=os.environ.get('FONT','/tmp/wt/assets/fonts/Lora-Variable.ttf')
 def font(sz,bold=True):
     f=ImageFont.truetype(FONT,int(sz))
@@ -74,7 +74,7 @@ def sub_at(t):
     txt,s,e=cl[i][:3];words=txt.split()
     rev=len(cl[i])>=6 and bool(cl[i][5])
     if rev:
-        k=sum(1 for ws in cl[i][5] if v>=ws-0.03)
+        k=len(words)
     else:
         if len(cl[i])>=5: s,e=cl[i][3]-0.10,cl[i][4]
         wt=[len(w_)+2 for w_ in words];tot=float(sum(wt));acc=0;k=0

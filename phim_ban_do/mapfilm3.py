@@ -74,6 +74,77 @@ class Group:
         r=random.Random(seed);s.off=[(r.uniform(-1,1),r.uniform(-1,1)) for _ in range(n)];s.phase=[r.uniform(0,6.28) for _ in range(n)]
     def frac(s,t): return curve(s.alive,t,1.0)
 GROUPS=[Group(**{k:v for k,v in g.items() if k!='n2'}) for g in C.GROUPS]
+
+# ---- máy quay bám theo: đi theo quân đang di chuyển, thư, và zoom vào nơi lời kể đang nhắc (bật bằng CAMFOLLOW=True trong nội dung)
+_cam_base=cam
+_TRK=None
+def _ten_nho(tok): return tok.strip('.,;:!?…—"“”()')
+def _mention_events():
+    ev=[];LOC=getattr(C,'LOC',{});skip={'Kế','Đàm','Ngô','Hứa Du'}
+    names=sorted([k for k in LOC if k not in skip],key=lambda k:-len(k.split()))
+    for n,txt in texts.items():
+        words=txt.split();toks=[_ten_nho(w) for w in words]
+        rows=B.PH.get(str(n),[]);wt=[None]*len(words);k=0
+        for r in rows:
+            m=len(r[0].split());tm=r[5] if len(r)>=6 and r[5] else None
+            for j in range(m):
+                if k+j<len(words):
+                    if tm: wt[k+j]=tm[j]
+                    elif len(r)>=5: wt[k+j]=r[3]+(r[4]-r[3])*j/max(1,m)
+                    else: wt[k+j]=r[1]+(r[2]-r[1])*j/max(1,m)
+            k+=m
+        i=0
+        while i<len(toks):
+            hit=None
+            for nm in names:
+                parts=nm.split()
+                if toks[i:i+len(parts)]==parts: hit=(nm,len(parts));break
+            if hit:
+                tm=wt[i] if wt[i] is not None else 0.5*D[n]
+                t0=T[n]+0.12+tm;ev.append((t0-0.4,t0+3.0,LOC[hit[0]][0],LOC[hit[0]][1],hit[0]));i+=hit[1]
+            else: i+=1
+    return ev
+def _build_track():
+    dt=0.2;N=int(TOTAL/dt)+2;ev=_mention_events()
+    X=np.zeros(N);Y=np.zeros(N);Z=np.zeros(N)
+    for i in range(N):
+        t=i*dt;bx,by,bz=_cam_base(t);tgt=None
+        for (t0,t1,bl,bt,who) in C.BATT:
+            if t0-1<=t<=t1+1: x,y=wp(bl,bt);tgt=(x,y,max(bz,3.0));break
+        if tgt is None:
+            for (e0,e1,lo,la,nm) in ev:
+                if e0<=t<=e1: x,y=wp(lo,la);tgt=(x,y,max(bz,2.6));break
+        if tgt is None:
+            pts=[]
+            for g in GROUPS:
+                if not g.vis(t): continue
+                lon,lat,mv=path_pos(g.keys,t)
+                if mv: pts.append(wp(lon,lat))
+            for (t0,t1,a,b,nm) in C.LETTERS:
+                if t0<=t<=t1:
+                    u=ease((t-t0)/(t1-t0));pts.append(wp(lerp(a[0],b[0],u),lerp(a[1],b[1],u)))
+            if pts:
+                xs=[q[0] for q in pts];ys=[q[1] for q in pts];ex=max(xs)-min(xs);ey=max(ys)-min(ys)
+                zf=min(RW*0.5/max(ex,1),RW*H/W*0.45/max(ey,1),3.2);z=min(3.2,max(2.2,zf,min(bz,3.4)))
+                tgt=((max(xs)+min(xs))/2,(max(ys)+min(ys))/2,z)
+        if tgt is None:
+            for (t0,t1,lon,lat,txt,col) in C.NOTES:
+                if t0<=t<=t1: x,y=wp(lon,lat);tgt=(x,y,max(bz,2.4));break
+        if tgt is None:
+            for m_ in C.MARKS:
+                if m_[0]<=t<=m_[1]: x,y=wp(m_[2],m_[3]);tgt=(x,y,max(bz,2.4));break
+        if tgt is None: tgt=(bx,by,bz)
+        X[i],Y[i],Z[i]=tgt[0],tgt[1],math.log(tgt[2])
+    sg=max(1,int(1.0/dt));k=np.exp(-0.5*(np.arange(-4*sg,4*sg+1)/sg)**2);k/=k.sum()
+    def sm(a):
+        pad=np.concatenate([np.full(4*sg,a[0]),a,np.full(4*sg,a[-1])]);return np.convolve(pad,k,'same')[4*sg:-4*sg]
+    return dt,sm(X),sm(Y),np.exp(sm(Z))
+def cam(t):
+    global _TRK
+    if not getattr(C,'CAMFOLLOW',False): return _cam_base(t)
+    if _TRK is None: _TRK=_build_track()
+    dt,X,Y,Z=_TRK;f=min(max(t/dt,0),len(X)-1.001);i=int(f);u=f-i
+    return X[i]+(X[i+1]-X[i])*u,Y[i]+(Y[i+1]-Y[i])*u,Z[i]+(Z[i+1]-Z[i])*u
 # nền trang trí
 _r=random.Random(77);DECO=[];_p=PYR[3]
 for _ in range(9000):

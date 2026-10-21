@@ -80,6 +80,7 @@ def sub_at(t):
             acc+=x_
             if v>=s+(e-s)*((acc-x_*0.5)/tot): k+=1
     k=min(len(words),max(0,k))
+    if k==0: return None,0
     key=('c',n,i,k)
     if key not in _cache: _cache.clear();_cache[key]=sub_words(words,k)
     return _cache[key],al

@@ -25,8 +25,10 @@ a = ap.parse_args()
 TEN = a.ten; KB = os.path.join(ROOT, 'ke-hoach/thu-giong-hai')
 BASE = a.base if a.base is not None else {'v1': 1000, 'v2': 2000, 'nm1': 3000}.get(TEN, 0)
 BEATS = json.load(open(f'{KB}/{TEN}_full.json'))
+import glob
+TF = [x for x in a.tts.split(',') if x] or [os.path.basename(f)[:-10] for f in sorted(glob.glob(f'{KB}/{TEN}?_full.json'))]
 TTS = {}
-for f in [x for x in a.tts.split(',') if x]:
+for f in TF:
     for b in json.load(open(f'{KB}/{f}_full.json')):
         if 'tts' in b: TTS[b['n']] = b['tts']
 def tim(*ds):

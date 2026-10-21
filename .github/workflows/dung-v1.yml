@@ -93,6 +93,17 @@ jobs:
           ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy ghep.mp4
           ffmpeg -y -loglevel error -i ghep.mp4 -i a2.wav -c:v copy -c:a aac -b:a 160k -shortest tap1_ban_do.mp4
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 tap1_ban_do.mp4
+      - name: Kiểm video (giọng, phụ đề, khớp cảnh, file)
+        continue-on-error: true
+        run: |
+          python -u phim_ban_do/kiem_video.py v1 --video phim_ban_do/tap1_ban_do.mp4 2>&1 | tee kiem_video.txt || true
+          cat logs/kiem_video/v1.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bao-cao-kiem-video
+          path: logs/kiem_video/v1.md
+          retention-days: 14
       - uses: actions/upload-artifact@v4
         with:
           name: video-hoan-chinh
@@ -103,4 +114,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="tap1-${{ github.run_id }}"
-          gh release create "$TAG" phim_ban_do/tap1_ban_do.mp4 --title "Tập 1 bản đồ ${{ github.run_id }}" --notes "Dựng tự động" --prerelease
+          gh release create "$TAG" phim_ban_do/tap1_ban_do.mp4 --title "Tập 1 bản đồ ${{ github.run_id }}" --notes "Dựng tự động. $(head -4 logs/kiem_video/v1.md 2>/dev/null | tr '\n' ' ')" --prerelease

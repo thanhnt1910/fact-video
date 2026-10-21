@@ -1,0 +1,15 @@
+còn thiếu 10 câu
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK cụm 2008 - 2008 16.0 giây
+OK cụm 2026 - 2026 8.8 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK cụm 2085 - 2085 10.4 giây
+OK cụm 2093 - 2093 12.4 giây
+OK cụm 2179 - 2179 8.3 giây
+OK cụm 2212 - 2212 9.9 giây
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK cụm 2032 - 2032 9.2 giây
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK cụm 2051 - 2051 12.0 giây
+OK cụm 2069 - 2069 12.4 giây
+OK cụm 2118 - 2118 9.8 giây

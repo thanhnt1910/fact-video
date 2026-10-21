@@ -1,0 +1,9 @@
++ nproc
+4
+++ head -1 ../ke-hoach/thu-giong-hai/dung_v1.txt
++ MODE='full 1792513563'
++ python -
+tổng khung 61004 đoạn 2 10167 15251
++ read A0 A1
++ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_2.mp4 10167 15251
++ tail -n 15

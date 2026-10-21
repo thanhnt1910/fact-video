@@ -1,6 +1,6 @@
 # Tam Quốc trọn bộ, video 2: Từ thế chân vạc đến nhà Tấn (năm 209 đến năm 280)
 
-Bản nháp kịch bản để chủ kênh duyệt (20/10/2026). Chưa chuyển sang JSON, chưa đọc giọng, chưa dựng.
+Bản kịch bản đã sửa theo đề xuất của chủ kênh duyệt ngày 20/10/2026: bỏ câu 24–25 (bút rơi) và sửa các câu nhãn [CG] về Trương Liêu, Lữ Mông, Dương Tu, Mạnh Hoạch, Tư Mã Ý, Lưu Thiền, Tào Mao; số câu giữ nguyên, câu 24–25 để trống. Đã chuyển sang JSON (`ke-hoach/thu-giong-hai/v2_full.json`).
 Phong cách: kể liền mạch, hài nhẹ (giọng Puck), giữ nguyên sự kiện; tên nhân vật ghi đủ họ tên; năm viết bằng chữ; không so sánh "tiểu thuyết / sử chép" trong lời kể.
 Mỗi dòng: `số câu. [nhãn · sắc thái] lời kể`. Sắc thái: L = vui, C = nghiêm hơn.
 
@@ -18,6 +18,8 @@ Nhãn độ chắc:
 - Chưa mở được nguyên văn Tam quốc chí; các nguồn là bài tổng hợp.
 
 ## Chi tiết đã bỏ khỏi lời kể (tiểu thuyết hoặc nghi vấn)
+- Tào Tháo đánh rơi bút (không tìm ra nguồn); Trương Liêu "trẻ con nín khóc" (không có trong nguồn đối chiếu); câu "sử cũ chép" về Tư Mã Ý (chưa có nguồn).
+- Còn trong lời kể nhưng ghi cần kiểm: Bàng Đức mang quan tài, "tám trăm cây dâu", mỗi lính một bó cỏ ở Di Lăng, Mã Tắc bị xử hay chết trong ngục, ngày Tào Hoán nhường ngôi (tháng chạp năm 265 âm lịch).
 - Không Thành kế (Tư Mã Ý không có mặt ở Nhai Đình); Quan Vũ hiển thánh, Quan Vũ cạo xương; Ngũ hổ tướng (cách gọi về sau); Tào Tháo bệnh đau đầu do ma quỷ; Thất tinh đăng; Thạch Binh trận.
 - Số "bảy lần bắt bảy lần tha" Mạnh Hoạch (chỉ có trong chú giải, nghi vấn con số).
 - Điêu Thuyền, Chu Du tức chết vì Gia Cát Lượng (chính sử Chu Du mất vì bệnh sau khi bị thương).
@@ -55,14 +57,12 @@ Nhãn độ chắc:
 21. [SỬ · C] Chu Du nói thêm: Lưu Bị là người có chí kiêu hùng, lại có Quan Vũ và Trương Phi là hai con hổ. Người như thế sẽ không chịu làm kẻ dưới mãi. Ông nói đúng, nhưng chưa ai nghe.
 22. [SỬ · C] Năm hai trăm mười, Chu Du bị bệnh nặng ở đường đi, trên đường về chuẩn bị đánh Ích Châu. Ông mất khi mới ba mươi sáu tuổi, để lại thư cho Tôn Quyền giới thiệu Lỗ Túc thay mình.
 23. [SỬ · C] Lỗ Túc là người rất khác Chu Du. Ông không nghĩ phải diệt Lưu Bị. Ông nghĩ nên giữ Lưu Bị ở lại để cùng chống Tào Tháo. Ông khuyên Tôn Quyền cho Lưu Bị mượn Giang Lăng.
-24. [CG · L] Khi Tào Tháo nghe tin, ông đang viết thư. Ông giật mình, đánh rơi bút xuống đất. Một người cầm cả phương bắc, mà nghe tin có người cho Lưu Bị mượn đất, vẫn run tay.
-25. [CG · L] Chi tiết bút rơi nằm trong chú giải, có thể chỉ là cách người đời sau kể cho kịch tính. Nhưng nó nói đúng điều Tào Tháo lo: việc này nguy hiểm hơn nhiều trận đánh.
 26. [SỬ · C] Lưu Bị có Kinh Châu rồi, nhưng chỉ là chỗ đứng. Ông cần một vùng rộng hơn để nuôi quân. Và đúng lúc ấy, một người mời ông đi.
 27. [SỬ · C] Người mời là Lưu Chương, quan đứng đầu Ích Châu, con của Lưu Yên. Ông này yếu, đang bị Trương Lỗ ở Hán Trung đe dọa, nên muốn mượn quân Lưu Bị chống.
 28. [SỬ · C] Pháp Chính và Trương Tùng, hai mưu sĩ của Lưu Chương, thật ra nghĩ rằng chủ mình không đủ sức giữ Thục. Họ bí mật khuyên mời Lưu Bị về làm chủ.
 29. [BÌNH · L] Họ nghĩ đổi chủ yếu lấy chủ giỏi là có lợi cho cả Ích Châu. Có lợi cho họ nữa, nhưng điều đó họ không nói ra.
 30. [SỬ · C] Năm hai trăm mười một, Lưu Bị dẫn mấy vạn quân vào Thục. Bàng Thống, một mưu sĩ nổi tiếng, đi cùng. Ông để Gia Cát Lượng, Quan Vũ, Trương Phi ở Kinh Châu giữ nhà.
-31. [CG · C] Lưu Chương ra tận nơi đón, bày tiệc lớn. Bàng Thống khuyên Lưu Bị ra tay bắt Lưu Chương ngay trong tiệc. Lưu Bị không đồng ý: mới gặp mà làm vậy thì thiên hạ ai tin ta?
+31. [SỬ · C] Lưu Chương ra tận nơi đón, bày tiệc lớn. Bàng Thống khuyên Lưu Bị ra tay bắt Lưu Chương ngay trong tiệc. Lưu Bị không đồng ý: mới gặp mà làm vậy thì thiên hạ ai tin ta?
 32. [SỬ · C] Ông ở Gia Manh gần một năm, giúp dân, thu lòng người, chứ không đánh Trương Lỗ. Đến năm hai trăm mười hai, hai bên trở mặt.
 33. [SỬ · C] Lưu Chương nhận ra mình bị lừa, ra lệnh cắt đường cung cấp lương. Lưu Bị tức giận, quay quân đánh về phía nam. Các thành thất thủ dần.
 34. [SỬ · C] Tới Lạc Thành, quân Thục chống cự rất lâu. Bàng Thống bị tên bắn chết khi đang chỉ huy công thành. Ông mới khoảng ba mươi sáu tuổi.
@@ -94,11 +94,11 @@ Nhãn độ chắc:
 57. [SỬ · C] Tôn Quyền hoảng, chạy lên gò cao, tay cầm kích dài. Trương Liêu kêu: xuống đánh! Tôn Quyền không dám.
 58. [SỬ · L] Một người chỉ huy trăm nghìn quân, bị tám trăm người xông vào giữa doanh. Chắc chắn đó là buổi sáng tệ nhất của ông.
 59. [SỬ · C] Quân Ngô vây vài ngày không hạ được, rồi rút. Khi rút tới bến Tiêu Dao, Trương Liêu lại đuổi theo. Tôn Quyền cưỡi ngựa nhảy qua cây cầu đã bị phá ván mới thoát.
-60. [CG · C] Quân Tào thắng lớn với quân ít. Từ đó ở vùng Giang Đông, người ta nói chuyện Trương Liêu đến mức trẻ con đang khóc cũng im khi nghe tên ông.
+60. [SỬ · C] Quân Tào thắng lớn với quân ít. Tôn Quyền và cả đạo quân Ngô kinh hoàng trước sức một người, không ai dám chặn đường ông.
 61. [SỬ · C] Năm hai trăm mười sáu, Tào Tháo được phong làm Ngụy vương, một chức vương thật sự, dù vẫn dưới Hiến Đế. Ông đã đi một bước rất gần ngai vàng.
 62. [BÌNH · L] Nhưng ông không bước thêm. Một người đủ sức xưng đế mà không xưng, chắc đã tính đến chuyện: có những việc nên để con làm.
 63. [SỬ · C] Ở Giang Đông, Lỗ Túc mất năm hai trăm mười bảy, Lữ Mông lên thay. Ông này vốn là tướng võ, nghe lời khuyên của Tôn Quyền chịu đọc sách, và tiến bộ nhanh đến mức Lỗ Túc từng ngạc nhiên.
-64. [CG · C] Lỗ Túc nói với ông: không còn là A Mông ở Ngô ngày xưa nữa. Lữ Mông đáp: người đi xa ba ngày, khi gặp lại phải nhìn bằng mắt khác.
+64. [CG · C] Người ta kể, Lỗ Túc nói với ông: không còn là A Mông ở Ngô ngày xưa nữa. Lữ Mông đáp: người đi xa ba ngày, khi gặp lại phải nhìn bằng mắt khác.
 65. [SỬ · L] Một câu mà cả hai nước nhớ đến nay: một người vừa có sức, vừa chịu học, đáng sợ hơn người chỉ có sức.
 66. [SỬ · C] Cả ba nước lúc này đều có một mối lo giống nhau: sau lưng, người bạn hôm qua có thể là kẻ thù hôm nay. Mối lo đó sắp nổ ở Kinh Châu.
 
@@ -114,7 +114,7 @@ Nhãn độ chắc:
 74. [SỬ · C] Tào Tháo nghe tin, tự mình đem đại quân tới Hán Trung. Ông tới vào mùa xuân, nhưng Lưu Bị cố thủ hiểm trở, không ra đánh.
 75. [SỬ · C] Quân Tào ăn không đủ, lính bắt đầu bỏ trốn. Tào Tháo ở lại hơn hai tháng, không đánh được, không rút được. Một buổi tối, ông nói câu khẩu lệnh: kê lặc, tức xương gà.
 76. [CG · L] Ý ông là: món này ăn thì ít thịt, bỏ thì tiếc. Một tham mưu tên Dương Tu nghe vậy, bảo người nhà thu xếp hành lý. Vì ông đoán: chủ công sắp rút.
-77. [CG · C] Đúng như vậy, Tào Tháo rút quân. Còn Dương Tu, vì đoán ý chủ quá nhanh, về sau bị Tào Tháo giết. Chi tiết này được ghi trong chú giải, và đáng nhớ.
+77. [CG · C] Đúng như vậy, Tào Tháo rút quân. Còn Dương Tu, về sau bị Tào Tháo giết, vì nhiều lý do: ông thân với con trai của Tào Tháo, và quá hay đoán trúng ý chủ. Đoán ý người cầm quyền giỏi quá cũng là điều nguy hiểm.
 78. [SỬ · C] Lưu Bị thu cả Hán Trung. Mùa thu năm ấy, các tướng tôn ông làm Hán Trung vương, và ông nhận. Lần đầu ông mang tước vương, nghĩa là ngang hàng với Tào Tháo.
 79. [SỬ · C] Ông phong Quan Vũ làm Tiền tướng quân, Trương Phi làm Hữu tướng quân, Mã Siêu làm Tả tướng quân, Hoàng Trung làm Hậu tướng quân. Mã Siêu lúc này đã về theo ông.
 80. [SỬ · L] Có người tả: Lưu Bị lúc này thấy ngay cả núi cũng đang nghiêng về phía mình. Nhưng cái giá là Quan Vũ đang đứng một mình ở Kinh Châu, cách nhà ông cả ngàn dặm.
@@ -182,8 +182,8 @@ Nhãn độ chắc:
 136. [SỬ · C] Sau đó Gia Cát Lượng ba năm liền lo cho dân nghỉ ngơi, trồng lúa, sửa đường, luyện quân. Ông biết một nước nhỏ mà vội đánh thì chỉ chết nhanh hơn.
 137. [SỬ · C] Năm hai trăm hai mươi lăm, ông đem quân vào phía nam, vùng đất của người Nam Trung, để dẹp loạn do Ung Khải và Mạnh Hoạch cầm đầu.
 138. [SỬ · C] Có một người bạn, Mã Tốc, tiễn ông và khuyên: đánh vào lòng người là thượng sách, đánh vào thành là hạ sách. Xin ông hãy làm cho họ phục từ trong lòng.
-139. [CG · C] Theo lời kể về sau, Gia Cát Lượng bắt Mạnh Hoạch bảy lần và thả bảy lần, cho đến khi Mạnh Hoạch nói: ông có uy trời, người phương nam không nổi loạn nữa.
-140. [CG · L] Bắt bảy lần, thả bảy lần, có lẽ Mạnh Hoạch về nhà mà vẫn tự hỏi hôm nay mình đang đi tù hay đi du lịch.
+139. [CG · C] Người ta kể lại rằng Gia Cát Lượng bắt Mạnh Hoạch rồi thả, nhiều lần như vậy, cho đến khi Mạnh Hoạch nói: ông có uy trời, người phương nam không nổi loạn nữa.
+140. [CG · L] Bắt rồi thả, bắt rồi thả, có lẽ Mạnh Hoạch về nhà mà vẫn tự hỏi hôm nay mình đang đi tù hay đi du lịch.
 141. [SỬ · C] Dù con số bảy là chuyện kể thêm hay thật, kết quả thì chắc: vùng nam yên ổn, Thục có thêm lính, voi, trâu ngựa và vàng bạc, và Gia Cát Lượng để người địa phương tự cai quản.
 142. [SỬ · C] Năm hai trăm hai mươi bảy, ông chuẩn bị đánh Ngụy, và viết cho vua Lưu Thiền một bài dâng lên, gọi là Xuất sư biểu, tức bài tâu trước khi xuất quân.
 143. [SỬ · C] Trong bài ấy ông nói: nay thiên hạ chia ba, Ích Châu mệt mỏi, đó là lúc nguy cấp. Xin bệ hạ đừng coi nhẹ mình, đừng nghe lời nịnh, hãy gần người hiền, xa kẻ tiểu nhân.
@@ -207,7 +207,7 @@ Nhãn độ chắc:
 161. [SỬ · C] Tư Mã Ý nghe vậy, nói: ăn ít mà làm nhiều, làm sao sống lâu được. Câu ấy đúng.
 162. [SỬ · C] Mùa thu năm hai trăm ba mươi bốn, Gia Cát Lượng mất trong doanh, thọ năm mươi tư tuổi. Ông dặn chôn ở Định Quân Sơn, mộ chỉ cần vừa đủ đặt quan tài, mặc áo thường.
 163. [SỬ · C] Quân Thục lặng lẽ rút. Tư Mã Ý nghe tin liền đuổi theo, nhưng thấy quân Thục quay cờ, đánh trống như sắp phản công, nên không dám tiến.
-164. [CG · L] Dân gian sau này gọi là: người chết dọa người sống. Sử cũ chép Tư Mã Ý vừa nghe vậy vừa cười, rằng ông chỉ biết đoán người sống, không biết đoán người chết.
+164. [CG · L] Dân gian sau này gọi là: người chết dọa người sống. Người ta kể Tư Mã Ý nghe vậy thì cười, nói rằng ông chỉ biết đoán người sống, không biết đoán người chết.
 165. [SỬ · C] Sau đó Tư Mã Ý đến xem doanh trại bỏ lại của Thục, thấy bố trí chặt chẽ, than rằng: người này đúng là kỳ tài thiên hạ.
 166. [SỬ · C] Trước đó, Gia Cát Lượng tâu với vua: nhà ông có tám trăm cây dâu và mười lăm khoảnh ruộng, đủ cho con cháu ăn mặc. Ông không có tiền riêng ở bên ngoài, và khi ông mất, trong nhà sẽ không thừa một tấc vải hay một đồng tiền.
 167. [BÌNH · L] Sáu lần xuất quân, không lần nào lấy được thiên hạ. Nhưng chính vì thế, người đời sau nhớ ông không vì thắng, mà vì chưa bao giờ ngừng cố.
@@ -254,7 +254,7 @@ Nhãn độ chắc:
 202. [SỬ · C] Một người con của Lưu Thiền, Lưu Kham, không chịu hàng. Ông đến miếu Lưu Bị khóc, rồi tự sát cùng vợ con. Rất ít người nhớ chuyện này, nhưng người Thục nhớ.
 203. [SỬ · C] Khương Duy nghe Lưu Thiền đã hàng, đành ra lệnh quân đầu hàng Chung Hội. Quân Thục tức giận, đến mức chém đá xuống đất.
 204. [SỬ · C] Lưu Thiền được đưa về Lạc Dương, phong làm An Nhạc công, và sống thêm khoảng bảy năm. Ông không bị giết, vì Tư Mã Chiêu cần cho thấy mình độ lượng.
-205. [CG · C] Có chuyện kể: một lần Tư Mã Chiêu mở tiệc, cho nhạc Thục. Người Thục khóc, còn Lưu Thiền thản nhiên. Hỏi có nhớ Thục không, ông đáp: ở đây vui quá, tôi không nhớ Thục.
+205. [CG · C] Người ta kể rằng một lần Tư Mã Chiêu mở tiệc, cho nhạc Thục. Người Thục khóc, còn Lưu Thiền thản nhiên. Hỏi có nhớ Thục không, ông đáp: ở đây vui quá, tôi không nhớ Thục.
 206. [CG · L] Dân gian vẫn tranh cãi, ông thật sự vô tâm, hay diễn giỏi nhất trong ba nước. Nhưng ít nhất, ông sống yên đến cuối đời.
 207. [SỬ · C] Còn hai người chinh phục. Đặng Ngải, người leo núi, bị nghi ngờ phản, bị bắt rồi bị giết. Chung Hội, người đi sau, cũng muốn nổi loạn, rủ cả Khương Duy.
 208. [SỬ · C] Khương Duy giả vờ theo, hy vọng khôi phục nhà Thục. Nhưng quân của Chung Hội không theo. Binh biến xảy ra, cả Chung Hội và Khương Duy đều chết. Mọi kế hoạch vỡ tan.
@@ -265,7 +265,7 @@ Nhãn độ chắc:
 210. [SỬ · C] Diệt Thục xong, Tư Mã Chiêu đủ công lao. Năm hai trăm sáu mươi ba, ông được phong làm Tấn công, năm sau lên Tấn vương, nghĩa là chỉ còn một bước nữa là làm vua.
 211. [SỬ · C] Trước đó, năm hai trăm sáu mươi, vua Ngụy là Tào Mao, mới hai mươi tuổi, không chịu làm bù nhìn. Ông cầm kiếm dẫn vài trăm người định đánh Tư Mã Chiêu.
 212. [SỬ · C] Ông bị chặn ngay trước cổng cung và bị giết bởi thuộc hạ của Tư Mã Chiêu. Cả triều đình sửng sốt: một ông vua bị giết giữa ban ngày, trước mặt mọi người.
-213. [CG · L] Có một câu nổi tiếng nói về chuyện này: lòng dạ Tư Mã Chiêu, người đi đường cũng biết. Người nói đã nói đúng điều mà ai cũng nghĩ.
+213. [CG · L] Trước đó, vua Tào Mao từng nói với các quan thân cận một câu nổi tiếng: lòng dạ Tư Mã Chiêu, người đi đường cũng biết. Ông nói đúng điều mà ai cũng nghĩ.
 214. [SỬ · C] Tư Mã Chiêu không kịp làm vua. Năm hai trăm sáu mươi lăm, ông mất. Con trai ông là Tư Mã Viêm kế vị, lấy chức Tấn vương.
 215. [SỬ · C] Cuối năm đó, Tư Mã Viêm ép vua Ngụy cuối cùng là Tào Hoán nhường ngôi. Cách làm giống hệt ngày xưa Tào Phi ép Hiến Đế, gần như từng bước một.
 216. [SỬ · C] Nhà Ngụy tồn tại bốn mươi lăm năm. Tào Hoán được phong làm Trần Lưu vương. Vòng quay đã khép: người từng cướp ngôi nhà Hán, giờ đến lượt bị cướp.

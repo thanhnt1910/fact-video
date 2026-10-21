@@ -138,18 +138,6 @@
   "text": "Lỗ Túc là người rất khác Chu Du. Ông không nghĩ phải diệt Lưu Bị. Ông nghĩ nên giữ Lưu Bị ở lại để cùng chống Tào Tháo. Ông khuyên Tôn Quyền cho Lưu Bị mượn Giang Lăng."
  },
  {
-  "n": 2024,
-  "chuong": "Mượn đất Kinh Châu",
-  "tone": "light",
-  "text": "Khi Tào Tháo nghe tin, ông đang viết thư. Ông giật mình, đánh rơi bút xuống đất. Một người cầm cả phương bắc, mà nghe tin có người cho Lưu Bị mượn đất, vẫn run tay."
- },
- {
-  "n": 2025,
-  "chuong": "Mượn đất Kinh Châu",
-  "tone": "light",
-  "text": "Chi tiết bút rơi nằm trong chú giải, có thể chỉ là cách người đời sau kể cho kịch tính. Nhưng nó nói đúng điều Tào Tháo lo: việc này nguy hiểm hơn nhiều trận đánh."
- },
- {
   "n": 2026,
   "chuong": "Mượn đất Kinh Châu",
   "tone": "calm",
@@ -357,7 +345,7 @@
   "n": 2060,
   "chuong": "Tào Tháo xưng vương",
   "tone": "calm",
-  "text": "Quân Tào thắng lớn với quân ít. Từ đó ở vùng Giang Đông, người ta nói chuyện Trương Liêu đến mức trẻ con đang khóc cũng im khi nghe tên ông."
+  "text": "Quân Tào thắng lớn với quân ít. Tôn Quyền và cả đạo quân Ngô kinh hoàng trước sức một người, không ai dám chặn đường ông."
  },
  {
   "n": 2061,
@@ -381,7 +369,7 @@
   "n": 2064,
   "chuong": "Tào Tháo xưng vương",
   "tone": "calm",
-  "text": "Lỗ Túc nói với ông: không còn là A Mông ở Ngô ngày xưa nữa. Lữ Mông đáp: người đi xa ba ngày, khi gặp lại phải nhìn bằng mắt khác."
+  "text": "Người ta kể, Lỗ Túc nói với ông: không còn là A Mông ở Ngô ngày xưa nữa. Lữ Mông đáp: người đi xa ba ngày, khi gặp lại phải nhìn bằng mắt khác."
  },
  {
   "n": 2065,
@@ -459,7 +447,7 @@
   "n": 2077,
   "chuong": "Hán Trung và Phàn Thành",
   "tone": "calm",
-  "text": "Đúng như vậy, Tào Tháo rút quân. Còn Dương Tu, vì đoán ý chủ quá nhanh, về sau bị Tào Tháo giết. Chi tiết này được ghi trong chú giải, và đáng nhớ."
+  "text": "Đúng như vậy, Tào Tháo rút quân. Còn Dương Tu, về sau bị Tào Tháo giết, vì nhiều lý do: ông thân với con trai của Tào Tháo, và quá hay đoán trúng ý chủ. Đoán ý người cầm quyền giỏi quá cũng là điều nguy hiểm."
  },
  {
   "n": 2078,
@@ -831,13 +819,13 @@
   "n": 2139,
   "chuong": "Gia Cát Lượng",
   "tone": "calm",
-  "text": "Theo lời kể về sau, Gia Cát Lượng bắt Mạnh Hoạch bảy lần và thả bảy lần, cho đến khi Mạnh Hoạch nói: ông có uy trời, người phương nam không nổi loạn nữa."
+  "text": "Người ta kể lại rằng Gia Cát Lượng bắt Mạnh Hoạch rồi thả, nhiều lần như vậy, cho đến khi Mạnh Hoạch nói: ông có uy trời, người phương nam không nổi loạn nữa."
  },
  {
   "n": 2140,
   "chuong": "Gia Cát Lượng",
   "tone": "light",
-  "text": "Bắt bảy lần, thả bảy lần, có lẽ Mạnh Hoạch về nhà mà vẫn tự hỏi hôm nay mình đang đi tù hay đi du lịch."
+  "text": "Bắt rồi thả, bắt rồi thả, có lẽ Mạnh Hoạch về nhà mà vẫn tự hỏi hôm nay mình đang đi tù hay đi du lịch."
  },
  {
   "n": 2141,
@@ -981,7 +969,7 @@
   "n": 2164,
   "chuong": "Gia Cát Lượng",
   "tone": "light",
-  "text": "Dân gian sau này gọi là: người chết dọa người sống. Sử cũ chép Tư Mã Ý vừa nghe vậy vừa cười, rằng ông chỉ biết đoán người sống, không biết đoán người chết."
+  "text": "Dân gian sau này gọi là: người chết dọa người sống. Người ta kể Tư Mã Ý nghe vậy thì cười, nói rằng ông chỉ biết đoán người sống, không biết đoán người chết."
  },
  {
   "n": 2165,
@@ -1227,7 +1215,7 @@
   "n": 2205,
   "chuong": "Thục mất",
   "tone": "calm",
-  "text": "Có chuyện kể: một lần Tư Mã Chiêu mở tiệc, cho nhạc Thục. Người Thục khóc, còn Lưu Thiền thản nhiên. Hỏi có nhớ Thục không, ông đáp: ở đây vui quá, tôi không nhớ Thục."
+  "text": "Người ta kể rằng một lần Tư Mã Chiêu mở tiệc, cho nhạc Thục. Người Thục khóc, còn Lưu Thiền thản nhiên. Hỏi có nhớ Thục không, ông đáp: ở đây vui quá, tôi không nhớ Thục."
  },
  {
   "n": 2206,
@@ -1275,7 +1263,7 @@
   "n": 2213,
   "chuong": "Nhà Tấn",
   "tone": "light",
-  "text": "Có một câu nổi tiếng nói về chuyện này: lòng dạ Tư Mã Chiêu, người đi đường cũng biết. Người nói đã nói đúng điều mà ai cũng nghĩ."
+  "text": "Trước đó, vua Tào Mao từng nói với các quan thân cận một câu nổi tiếng: lòng dạ Tư Mã Chiêu, người đi đường cũng biết. Ông nói đúng điều mà ai cũng nghĩ."
  },
  {
   "n": 2214,

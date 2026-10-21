@@ -22,7 +22,7 @@ VDIR=os.environ.get('VOICE_DIR','')
 if VDIR and os.path.exists(VDIR+'/thoi_luong.json'):
     _d=json.load(open(VDIR+'/thoi_luong.json'));D={n:(_d[str(n)]+0.45 if str(n) in _d else D[n]) for n in texts}
 T={};t=0.5
-for n in range(FIRST,LAST+1): T[n]=t;t+=D[n]
+for n in sorted(texts): T[n]=t;t+=D[n]
 TOTAL=t+1.5
 def wrap(txt,f,maxw,g):
     words=txt.split();lines=[];cur=''
@@ -107,7 +107,7 @@ def comp(base,layer,pos=(0,0),a=1.0):
     L=layer if a>=1 else Image.merge('RGBA',(*layer.split()[:3],layer.split()[3].point(lambda v:int(v*a))))
     base.paste(L,pos,L);return base
 def beat_of(t):
-    for n in range(FIRST,LAST+1):
+    for n in sorted(texts):
         if T[n]<=t<T[n]+D[n]: return n
     return FIRST if t<T[FIRST] else LAST
 if __name__=='__main__': print('tổng',round(TOTAL,1),'s',round(TOTAL/60,1),'phút')

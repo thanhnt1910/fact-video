@@ -1,12 +1,3 @@
-còn thiếu 115 câu
+còn thiếu 14 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 2060 - 2060 6.6 giây
-OK cụm 2064 - 2064 10.2 giây
-OK cụm 2077 - 2077 13.6 giây
-OK cụm 2129 - 2144 158.6 giây
-OK cụm 2145 - 2160 155.8 giây
-OK cụm 2161 - 2176 148.1 giây
-OK cụm 2177 - 2192 158.7 giây
-OK cụm 2193 - 2208 157.1 giây
-OK cụm 2209 - 2224 140.4 giây
-OK cụm 2225 - 2240 167.0 giây
+OK cụm 3001 - 3014 109.7 giây

@@ -21,3 +21,6 @@ Mỗi tập đạt mức sàn 10 phút (1.900 tiếng ở 3 tiếng/giây). Mu�
 - Chủ kênh đọc và duyệt, nhất là mục "Cần kiểm trước khi đăng" của từng tập.
 - Đối chiếu nguyên văn Đại Việt sử ký toàn thư cho các mốc ngày (tôi chưa mở được bản gốc).
 - Sau khi duyệt: chuyển sang JSON, chọn cách dựng (bản đồ động hay ảnh), soạn mô tả đăng bài.
+
+## Cập nhật 21/10/2026: gộp thành một video
+Chủ kênh chọn một video dài (không chia hai tập 30 phút), giọng kể thêm hài hước nhưng giữ cốt truyện. Bản gộp: `nguyen-mong-gop-van-xuoi.md` (332 câu, khoảng 6.000 tiếng, ≈ 33 phút ở 3 tiếng/giây, 26 chương, 3 phần). Câu đùa gắn nhãn [H], có thể bỏ mà không mất cốt truyện. Ba file kịch bản từng tập giữ lại làm gốc đối chiếu.

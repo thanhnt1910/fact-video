@@ -7,20 +7,3 @@ tổng khung 61004 đoạn 7 35585 40669
 + read A0 A1
 + python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_7.mp4 35585 40669
 + tail -n 15
-900 5084
-1200 5084
-1500 5084
-1800 5084
-2100 5084
-2400 5084
-2700 5084
-3000 5084
-3300 5084
-3600 5084
-3900 5084
-4200 5084
-4500 5084
-4800 5084
-xong
-+ ls -la doan_7.mp4
--rw-r--r-- 1 runner runner 139472802 Oct 21 03:05 doan_7.mp4

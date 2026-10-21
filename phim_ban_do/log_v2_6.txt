@@ -23,4 +23,4 @@ tổng khung 58404 đoạn 6 29202 34069
 4800 4867
 xong
 + ls -la doan_6.mp4
--rw-r--r-- 1 runner runner 50127160 Oct 20 09:23 doan_6.mp4
+-rw-r--r-- 1 runner runner 50127160 Oct 20 10:30 doan_6.mp4

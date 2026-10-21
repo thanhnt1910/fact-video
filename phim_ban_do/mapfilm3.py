@@ -185,6 +185,12 @@ def dashed(d,pts,col,w,K,dash=22,alpha=150):
         n=max(1,int(L/(dash*K)))
         for j in range(0,n,2):
             u0=j/n;u1=min(1,(j+1)/n);d.line([(lerp(p[0],q[0],u0),lerp(p[1],q[1],u0)),(lerp(p[0],q[0],u1),lerp(p[1],q[1],u1))],fill=col+(alpha,),width=int(w*K*0.55))
+def _boat_unit(d,x,y,s,col,face,bob,alpha=255):
+    M3.boat(d,x,y+math.sin(bob*0.35)*s*0.18,s*0.95,col,face)
+def UNIT(kind): return soldier if kind=='inf' else (_boat_unit if kind=='ship' else horse)
+def stake(d,x,y,h,a):
+    d.line([(x,y),(x,y-h)],fill=(92,62,34,a),width=max(2,int(h*0.2)))
+    d.polygon([(x-h*0.22,y-h*0.78),(x,y-h*1.12),(x+h*0.22,y-h*0.78)],fill=(150,152,158,a),outline=(40,36,32,a))
 def frame(t):
     v=View(t);im=base_frame(v).convert('RGBA')
     K=2;ov=Image.new('RGBA',(W*K,H*K),(0,0,0,0));d=ImageDraw.Draw(ov)
@@ -204,6 +210,23 @@ def frame(t):
         M3.draw_river(d,P,wd*K*min(2.2,z**0.45)*0.9,t,K)
         if lab:
             lx,ly=v.sc(*lab,K);d.text((lx,ly),nm,font=MD.F(30*K*min(1.7,z**0.3)),fill=(40,78,110,200),anchor='mm',stroke_width=3,stroke_fill=(230,240,246,200))
+    # thủy triều và cọc: TIDE=[(đường sông, mực nước [(t,0..1)], cọc [(lon,lat)], nhãn)]
+    for _td in getattr(C,'TIDE',[]):
+        poly,lvl,stakes_,tlab=_td[:4];t_show=_td[4] if len(_td)>4 else 0
+        Lv=curve(lvl,t,1.0);P=[v.sc(*p,K) for p in poly];S_=M3.smooth(P,8);bw_=ik*(1.1+2.4*Lv)
+        mud=clamp((0.5-Lv)/0.5)
+        d.line(S_,fill=(150,128,92,int(150*mud)),width=int(ik*3.6),joint='curve')
+        d.line(S_,fill=(76,134,184,int(70+130*Lv)),width=int(bw_),joint='curve')
+        for (lo,la) in stakes_:
+            x,y=v.sc(lo,la,K)
+            if -200<x<W*K+200 and -200<y<H*K+200:
+                stake(d,x,y,ik*(0.9+0.5*mud),int(255*max(0.22,clamp((0.62-Lv)/0.25))*clamp((t-t_show)/1.2)))
+        if tlab and tlab[0]<=t<=tlab[1]:
+            mx,my=P[max(1,len(P)//4)]
+            ff=font(int(24*K*min(1.3,z**0.2)));txt='TRIỀU LÊN' if Lv>0.5 else 'TRIỀU RÚT'
+            bb=d.textbbox((0,0),txt,font=ff);tw=bb[2]-bb[0]
+            d.rounded_rectangle((mx-tw/2-16,my-ik*5.4,mx+tw/2+16,my-ik*5.4+(bb[3]-bb[1])+18),10,fill=(30,70,110,225) if Lv>0.5 else (120,84,40,225))
+            d.text((mx-tw/2,my-ik*5.4+6),txt,font=ff,fill=(250,244,226,255))
     # thành
     for nm,(lo,la,kind) in C.CITIES.items():
         cw=getattr(C,'CITY_SHOW',{}).get(nm)
@@ -266,8 +289,8 @@ def frame(t):
             if infight: bob=t*14+g.phase[i];px+=math.sin(t*10+g.phase[i])*s*0.5*face
             if dead:
                 gc=tuple(int(0.35*c+0.65*110) for c in col);py+=s*0.35
-                (soldier if g.kind=='inf' else horse)(d,px,py,s*0.95,gc,face,0.0,alpha=190)
-            else: (soldier if g.kind=='inf' else horse)(d,px,py,s,col,face,bob)
+                UNIT(g.kind)(d,px,py,s*0.95,gc,face,0.0,alpha=190)
+            else: UNIT(g.kind)(d,px,py,s,col,face,bob)
         fcol=(120,120,126) if dead else col
         if dead: flag(d,x-spr*1.9,y-spr*0.1,s*0.7,fcol)
         else: flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)

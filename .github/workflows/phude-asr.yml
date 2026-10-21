@@ -32,4 +32,9 @@ jobs:
           git config user.email noreply@anthropic.com; git config user.name Claude
           git add phim_ban_do/asr_log.txt; git add phim_ban_do/asr_*.json || true
           git commit -q -m "Mốc từng chữ từ nhận dạng giọng" || exit 0
-          git pull -q --rebase; git push -q
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: asr
+          path: phim_ban_do/asr_*

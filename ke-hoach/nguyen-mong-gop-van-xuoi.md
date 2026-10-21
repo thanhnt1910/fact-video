@@ -17,7 +17,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 7. Vào các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm, và một nghìn hai trăm tám mươi tám. **[C]**
 8. Ba lần kẻ mạnh đến. Ba lần kẻ mạnh phải quay về. **[C]**
 9. Vậy vì sao nước nhỏ ấy không đổ như những nơi khác? **[CC]**
-10. Câu chuyện hôm nay dài khoảng ba mươi phút, chia làm ba phần: cơn bão đầu tiên, ngọn lửa mùa hè năm một nghìn hai trăm tám mươi lăm, và những cọc gỗ dưới sông Bạch Đằng. **[C]**
+10. Câu chuyện hôm nay dài khoảng ba mươi phút. Nó đi từ cơn bão đầu tiên, qua ngọn lửa mùa hè năm một nghìn hai trăm tám mươi lăm, đến những cọc gỗ dưới sông Bạch Đằng. **[C]**
 11. Một lời hứa trước khi bắt đầu: mọi sự kiện trong video là chuyện có thật, kể theo các tài liệu lịch sử. **[C]**
 12. Còn những câu đùa là của người kể. Chúng chỉ để câu chuyện đỡ nặng, không thay đổi bất cứ điều gì đã xảy ra. **[H]**
 13. Chỗ nào các tài liệu nói khác nhau, tôi sẽ nói thẳng là chúng khác nhau. **[C]**
@@ -26,8 +26,6 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 *Gợi ý bản đồ:* toàn châu Á, vệt đỏ Mông Cổ lan từ bắc xuống nam, zoom vào Đại Việt; ba mốc 1258, 1285, 1288 hiện dần.
 
 ---
-
-# PHẦN MỘT: Cơn bão đầu tiên (1257–1258)
 
 
 ## Chương 2. Người Mông Cổ từ đâu đến
@@ -174,12 +172,10 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 
 ---
 
-# PHẦN HAI: Ngọn lửa năm 1285
-
 
 ## Chương 9. Người hàng xóm quay lại
 
-110. Hết phần một. Trong hơn hai mươi năm ấy, ở phía bắc mọi thứ đã khác: nhà Nguyên đã chiếm gần hết Trung Hoa. **[CC]**
+110. Trong hơn hai mươi năm ấy, ở phía bắc mọi thứ đã khác: nhà Nguyên đã chiếm gần hết Trung Hoa. **[CC]**
 111. Họ có hạm đội, có công thành, có cả quân người Hán đi theo. **[CC]**
 112. Hai mươi năm là đủ để một cậu bé lớn thành người lính, và đủ để một người hàng xóm nuôi lại cơn tức. **[H]**
 113. Lần này họ không đến để thử một nước láng giềng. Họ đến để giải quyết một vấn đề. **[CG]**
@@ -351,8 +347,6 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 *Gợi ý bản đồ:* hai nhãn "thắng / trả giá"; mốc "chưa đầy sáu tháng".
 
 ---
-
-# PHẦN BA: Cọc gỗ trên sông Bạch Đằng (1287–1288)
 
 
 ## Chương 18. Hốt Tất Liệt không chịu thua

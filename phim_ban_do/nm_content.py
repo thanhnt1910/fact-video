@@ -92,9 +92,6 @@ S(310,318,105.8,21.6,1.7)
 S(319,332,105.5,22.2,1.5)
 # ======================================================= TIÊU ĐỀ
 TITLES.append((0.3,5.2,'NGUYÊN MÔNG · TRỌN BỘ','BA LẦN KHÔNG ĐỔ','1258 · 1285 · 1288'))
-TITLES.append((R(15,0.2),R(15,4.6),'PHẦN MỘT','CƠN BÃO ĐẦU TIÊN','năm 1257 đến năm 1258'))
-TITLES.append((R(110,0.3),R(110,4.6),'PHẦN HAI','NGỌN LỬA NĂM 1285','năm 1281 đến năm 1285'))
-TITLES.append((R(222,0.3),R(222,4.6),'PHẦN BA','CỌC GỖ BẠCH ĐẰNG','năm 1287 đến năm 1288'))
 TITLES.append((R(332,0.2),E(332,0.6),'NGƯỜI GÁC SỬ','CẢM ƠN BẠN ĐÃ XEM','chuyện có thật, kể theo tài liệu lịch sử'))
 # ======================================================= THÀNH
 show('Thăng Long',1,END);show('Vân Nam',1,66);show('Đại Lý',27,55)

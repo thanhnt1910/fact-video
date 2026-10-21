@@ -12,4 +12,4 @@ tổng khung 2862 đoạn 3 2146 2862
 600 716
 xong
 + ls -la doan_3.mp4
--rw-r--r-- 1 runner runner 14303052 Oct 20 10:27 doan_3.mp4
+-rw-r--r-- 1 runner runner 14177491 Oct 20 18:16 doan_3.mp4

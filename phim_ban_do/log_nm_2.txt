@@ -1,0 +1,26 @@
++ nproc
+4
+++ head -1 ../ke-hoach/thu-giong-hai/dung_nm.txt
++ MODE=full
++ python -
+tổng khung 45767 đoạn 2 11441 17162
++ read A0 A1
++ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_2.mp4 11441 17162
++ tail -n 15
+1800 5721
+2100 5721
+2400 5721
+2700 5721
+3000 5721
+3300 5721
+3600 5721
+3900 5721
+4200 5721
+4500 5721
+4800 5721
+5100 5721
+5400 5721
+5700 5721
+xong
++ ls -la doan_2.mp4
+-rw-r--r-- 1 runner runner 43783816 Oct 21 13:27 doan_2.mp4

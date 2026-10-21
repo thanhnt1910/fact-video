@@ -1,7 +1,7 @@
 # Kiểm video nm
 
 - Kịch bản 332 câu; có nhận dạng 332 câu; nhận dạng: asr_nm.json
-- ❌ lỗi: 124  ⚠️ cảnh báo: 80
+- ❌ lỗi: 124  ⚠️ cảnh báo: 81
 
 ## ❌ Lỗi
 - Câu 5002: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Họ cỡi ngựa nhanh."
@@ -189,6 +189,7 @@
 - Câu 5328: giọng chỉ khớp 31% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 5078: phụ đề đầu câu hiện TRỄ 0.7s so với giọng
 - Câu 5314: phụ đề đầu câu hiện TRỄ 0.7s so với giọng
+- Cảnh gắn vào câu 4 lệch +5.0s nhưng câu chỉ dài 2.6s (rơi sang câu sau)
 - Cảnh gắn vào câu 95 lệch +6.0s nhưng câu chỉ dài 4.2s (rơi sang câu sau)
 - Cảnh gắn vào câu 59 lệch +5.0s nhưng câu chỉ dài 1.2s (rơi sang câu sau)
 - Cảnh gắn vào câu 59 lệch +3.5s nhưng câu chỉ dài 1.2s (rơi sang câu sau)

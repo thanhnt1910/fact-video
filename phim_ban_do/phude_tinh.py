@@ -110,6 +110,29 @@ def chia_ngan(rows, toi_da=7):
             ve = r[4] if j + 1 == len(parts) else min(e, tm[b - 1] + 0.4)
             out.append([' '.join(w[a:b]), round(tm[a] if j else r[1], 3), round(e, 3), round(tm[a], 3), round(ve, 3), tm[a:b]])
     return out
+def canh_moc(rows, x):
+    """Canh mốc đầu mỗi đoạn phụ đề theo chỗ giọng thật bắt đầu nói (nhận dạng giọng hay lệch vài phần mười giây)."""
+    hop = SR // 100
+    env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(hop * 2) / (hop * 2), 'same'))[::hop]
+    thr = max(0.006, 0.08 * float(np.percentile(env, 98)))
+    on = [i / 100.0 for i in range(len(env)) if env[i] > thr and (i < 5 or env[i - 5:i].max() <= thr)]
+    prev = -1.0
+    for j, r in enumerate(rows):
+        tm = r[5]
+        if not tm: continue
+        t = tm[0]
+        if on:
+            if j == 0: t = on[0]
+            else:
+                c = [o for o in on if abs(o - t) <= 0.4]
+                if c: t = min(c, key=lambda o: abs(o - t))
+        t = max(t, prev + 0.25 if j else 0.0)
+        if t != tm[0]:
+            tm[0] = round(t, 3)
+            for k in range(1, len(tm)):
+                if tm[k] < tm[0]: tm[k] = tm[0]
+        prev = tm[0]
+    return rows
 def main():
     src, vd, dst = sys.argv[1:4]
     ASR = json.load(open(sys.argv[4], encoding='utf-8')) if len(sys.argv) > 4 else {}
@@ -126,7 +149,7 @@ def main():
             if _am: _r[5] = _am
             if len(_r[5]) == len(_r[0].split()):
                 _ow, _ot = so_nam(_r[0].split(), _r[5]); _r[0] = ' '.join(_ow); _r[5] = _ot
-            res[str(n)] = chia_ngan([_r]); continue
+            res[str(n)] = canh_moc(chia_ngan([_r], 6), x); continue
         spans, _ = H.split_by_pauses(x, [max(1, len(c.split())) for c in cl])
         hop = SR // 100
         env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(hop * 2) / (hop * 2), 'same'))
@@ -154,7 +177,7 @@ def main():
         for r in rows:
             if len(r) >= 6 and r[5] and len(r[5]) == len(r[0].split()):
                 ow, ot = so_nam(r[0].split(), r[5]); r[0] = ' '.join(ow); r[5] = ot
-        res[str(n)] = chia_ngan(rows)
+        res[str(n)] = canh_moc(chia_ngan(rows, 6), x)
     json.dump(res, open(dst, 'w'), ensure_ascii=False)
     print(len(res), 'câu,', sum(len(v) for v in res.values()), 'cụm')
 if __name__ == '__main__': main()

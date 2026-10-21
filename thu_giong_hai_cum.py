@@ -63,12 +63,12 @@ def main():
     for ch in chunks:
         calm = sum(1 for b in ch if b["tone"] == "calm") > len(ch) / 2
         style = STYLE_HAI + TONE["calm" if calm else "light"] + " Read each sentence as its own beat with a clear short pause between sentences."
-        text = "\n\n".join(b["text"] for b in ch)
+        text = "\n\n".join(b.get("tts", b["text"]) for b in ch)
         try: wav = gemini_tts.synth(text, style, voice)
         except Exception as e: print("LỖI cụm", ch[0]["n"], str(e)[:200], flush=True); continue
         with wave.open(io.BytesIO(wav)) as f:
             global SR; SR = f.getframerate(); x = np.frombuffer(f.readframes(f.getnframes()), np.int16)
-        spans, _ = split_by_pauses(x, [max(1, len(b["text"].split())) for b in ch])
+        spans, _ = split_by_pauses(x, [max(1, len(b.get("tts", b["text"]).split())) for b in ch])
         for b, (s, e) in zip(ch, spans):
             s, e = max(0, int(s - 0.05 * SR)), min(len(x), int(e + 0.08 * SR))
             seg = x[s:e]; w = d / f"{b['n']}.wav"

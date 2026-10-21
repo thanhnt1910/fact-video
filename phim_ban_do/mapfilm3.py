@@ -77,7 +77,7 @@ GROUPS=[Group(**{k:v for k,v in g.items() if k!='n2'}) for g in C.GROUPS]
 # nền trang trí
 _r=random.Random(77);DECO=[];_p=PYR[3]
 for _ in range(9000):
-    _w4=os.environ.get('WORLDMOD')=='world4';lo=_r.uniform(102.2 if _w4 else 107.2,121.6);la=_r.uniform(27.2 if _w4 else 28.8,41.4);x,y=wp(lo,la)
+    _w3=os.environ.get('WORLDMOD','world3')=='world3';lo=_r.uniform(107.2 if _w3 else _wm.LON0+0.2,121.6 if _w3 else _wm.LON1-0.2);la=_r.uniform(28.8 if _w3 else _wm.LAT0+0.2,41.4 if _w3 else _wm.LAT1-0.2);x,y=wp(lo,la)
     px=_p.getpixel((min(_p.width-1,int(x/8)),min(_p.height-1,int(y/8))))
     water=px[2]>px[0]+10
     DECO.append((lo,la,'wave' if water else ('tree' if _r.random()<0.5 else 'none'),_r.random()))

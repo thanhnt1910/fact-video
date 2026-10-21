@@ -12,7 +12,8 @@ def cum(text):
     for p in parts:
         if out and (len(out[-1].split()) < 3): out[-1] += ' ' + p
         else: out.append(p)
-    if len(out) > 1 and len(out[-1].split()) < 3: out[-2] += ' ' + out.pop()
+    if len(out) > 1 and len(out[-1].split()) < 3:
+        last = out.pop(); out[-1] += ' ' + last
     return out
 def main():
     src, vd, dst = sys.argv[1:4]

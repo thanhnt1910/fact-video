@@ -1,0 +1,212 @@
+# Kiểm video nm
+
+- Kịch bản 332 câu; có nhận dạng 332 câu; nhận dạng: asr_nm.json
+- ❌ lỗi: 124  ⚠️ cảnh báo: 80
+
+## ❌ Lỗi
+- Câu 5002: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Họ cỡi ngựa nhanh."
+- Câu 5003: MẤT 4 chữ ở đầu (câu bị cụt đầu)
+- Câu 5005: MẤT 6 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5006: thừa 6 chữ ở ĐẦU (lẫn đuôi câu trước): "Nơi nhà Trần đang cầm quyền."
+- Câu 5006: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5008: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5009: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "3 lần kẻ mạnh phải quay về."
+- Câu 5024: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "họ nhờ thợ bản xứ đóng thuyền."
+- Câu 5024: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5054: thừa 5 chữ ở CUỐI (lẫn đầu câu sau): "Từ vùng đối Vân Nam."
+- Câu 5055: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Ngày 17 tháng 1"
+- Câu 5055: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 5056: thừa 13 chữ ở CUỐI (lẫn đầu câu sau): "Các nhà sử học cho rằng đó là vùng vĩnh phúc ngày nay."
+- Câu 5056: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 5057: MẤT 13 chữ ở đầu (câu bị cụt đầu)
+- Câu 5065: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Giữa lúc này thì..."
+- Câu 5066: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5084: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5085: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "Quân của Vua Trần không ngồi yên."
+- Câu 5101: thừa 6 chữ ở CUỐI (lẫn đầu câu sau): "đã việt thua những chận đầu."
+- Câu 5101: MẤT 6 chữ ở đầu (câu bị cụt đầu)
+- Câu 5102: MẤT 6 chữ ở đầu (câu bị cụt đầu)
+- Câu 5103: thừa 3 chữ ở CUỐI (lẫn đầu câu sau): "Sau chận này..."
+- Câu 5104: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5105: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Hãy nhớ một điều."
+- Câu 5106: thừa 7 chữ ở CUỐI (lẫn đầu câu sau): "Người mong cổ không quên đại Việt."
+- Câu 5106: MẤT 4 chữ ở đầu (câu bị cụt đầu)
+- Câu 5107: MẤT 7 chữ ở đầu (câu bị cụt đầu)
+- Câu 5114: thừa 6 chữ ở ĐẦU (lẫn đuôi câu trước): "Họ đến để giải quyết một"
+- Câu 5114: MẤT 5 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5115: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "Vấn đề ấy tên là Chiêm Thanh."
+- Câu 5115: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5115: đọc LẶP "chiem thanh"
+- Câu 5116: MẤT 9 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5117: thừa 9 chữ ở ĐẦU (lẫn đuôi câu trước): "đừng bộ lại phải đi qua đất đại Việt."
+- Câu 5117: MẤT 8 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5118: thừa 8 chữ ở ĐẦU (lẫn đuôi câu trước): "Chuyện ấy hiếm khi kết thúc em đẹp."
+- Câu 5118: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5119: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "Nó có một đoạn dạo đầu dài."
+- Câu 5120: MẤT 6 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5121: thừa 6 chữ ở ĐẦU (lẫn đuôi câu trước): "Chưa bao giờ là nghỉ dễ?"
+- Câu 5127: MẤT 3 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5128: thừa 3 chữ ở ĐẦU (lẫn đuôi câu trước): "mà không hài."
+- Câu 5134: thừa 6 chữ ở CUỐI (lẫn đầu câu sau): "Nghe thì chỉ là mượn đường."
+- Câu 5135: MẤT 6 chữ ở đầu (câu bị cụt đầu)
+- Câu 5139: thừa 6 chữ ở CUỐI (lẫn đầu câu sau): "Ông hỏi các cụ, nền đánh."
+- Câu 5140: thừa 5 chữ ở CUỐI (lẫn đầu câu sau): "các cụ đồng thành đáp."
+- Câu 5140: MẤT 6 chữ ở đầu (câu bị cụt đầu)
+- Câu 5141: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 5148: thừa 5 chữ ở CUỐI (lẫn đầu câu sau): "Họ tiến theo nhiều đường."
+- Câu 5149: thừa 7 chữ ở CUỐI (lẫn đầu câu sau): "một đạo khác đi theo sông trải."
+- Câu 5149: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 5151: MẤT 10 chữ ở đầu (câu bị cụt đầu)
+- Câu 5154: thừa 3 chữ ở CUỐI (lẫn đầu câu sau): "Đầu tháng 2"
+- Câu 5155: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5156: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Côn nguyên đuổi theo."
+- Câu 5157: MẤT 4 chữ ở đầu (câu bị cụt đầu)
+- Câu 5165: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Phía nguyên tử chối."
+- Câu 5184: MẤT 8 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5185: thừa 8 chữ ở ĐẦU (lẫn đuôi câu trước): "Đã quân phía nam cũng không đứng yên."
+- Câu 5185: MẤT 5 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5186: thừa 5 chữ ở ĐẦU (lẫn đuôi câu trước): "Quả bố chính, nghệ an."
+- Câu 5194: MẤT 6 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5195: thừa 6 chữ ở ĐẦU (lẫn đuôi câu trước): "và rất hợp với bệnh tật."
+- Câu 5195: MẤT 7 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5196: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "Giờ ngồi giữa vùng đất ngập nước,"
+- Câu 5197: thừa 8 chữ ở ĐẦU (lẫn đuôi câu trước): "nhưng họ đang thua điều kiện ăn ở"
+- Câu 5198: thừa 6 chữ ở ĐẦU (lẫn đuôi câu trước): "Đại việt chuyển sang phản công."
+- Câu 5210: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Còn nguyên giút lùi."
+- Câu 5218: thừa 7 chữ ở ĐẦU (lẫn đuôi câu trước): "nhiều nơi mất mùa, nhiều người chết."
+- Câu 5219: thừa 8 chữ ở ĐẦU (lẫn đuôi câu trước): "trong đó có cả người trong hoàn tộc."
+- Câu 5219: MẤT 4 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5220: thừa 4 chữ ở ĐẦU (lẫn đuôi câu trước): "Nó khó hơn nhiều."
+- Câu 5220: MẤT 3 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5221: thừa 3 chữ ở ĐẦU (lẫn đuôi câu trước): "Rồi đổi lại."
+- Câu 5229: thừa 7 chữ ở CUỐI (lẫn đầu câu sau): "Lần nay họ chia làm 2 đạng."
+- Câu 5230: thừa 9 chữ ở CUỐI (lẫn đầu câu sau): "Hai đạo quân hẹn gặp nhau ở vạn kiếp."
+- Câu 5230: MẤT 7 chữ ở đầu (câu bị cụt đầu)
+- Câu 5231: thừa 8 chữ ở CUỐI (lẫn đầu câu sau): "Cùng đi còn có đoàn thuyền trở lương."
+- Câu 5232: thừa 7 chữ ở CUỐI (lẫn đầu câu sau): "Họ giúp bài học từ lần trước."
+- Câu 5232: MẤT 8 chữ ở đầu (câu bị cụt đầu)
+- Câu 5233: MẤT 7 chữ ở đầu (câu bị cụt đầu)
+- Câu 5234: thừa 6 chữ ở CUỐI (lẫn đầu câu sau): "Người Việt cũng biết điều đó."
+- Câu 5236: thừa 3 chữ ở CUỐI (lẫn đầu câu sau): "Nhưng lần này..."
+- Câu 5236: MẤT 10 chữ ở đầu (câu bị cụt đầu)
+- Câu 5237: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5243: thừa 5 chữ ở CUỐI (lẫn đầu câu sau): "Ô mã nhì chạy trước."
+- Câu 5244: thừa 5 chữ ở CUỐI (lẫn đầu câu sau): "Tin về đến chiều đêm."
+- Câu 5244: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 5245: thừa 3 chữ ở CUỐI (lẫn đầu câu sau): "Ông không chạy."
+- Câu 5245: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 5246: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5247: thừa 7 chữ ở CUỐI (lẫn đầu câu sau): "Lý do của ông rất đơn giản."
+- Câu 5248: MẤT 7 chữ ở đầu (câu bị cụt đầu)
+- Câu 5283: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Chỉ vài tuần trước,"
+- Câu 5284: MẤT 4 chữ ở đầu (câu bị cụt đầu)
+- Câu 5285: thừa 13 chữ ở CUỐI (lẫn đầu câu sau): "Sông này có nhiều nhánh và có thủy trều lên xuống rất mạnh."
+- Câu 5285: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5287: thừa 8 chữ ở CUỐI (lẫn đầu câu sau): "Khi nước lên, cặp nằm dưới mặt nước."
+- Câu 5287: MẤT 6 chữ ở đầu (câu bị cụt đầu)
+- Câu 5288: thừa 9 chữ ở CUỐI (lẫn đầu câu sau): "Khi nước xuống, tuyên nguyên sẽ bị mắc cạn."
+- Câu 5288: MẤT 8 chữ ở đầu (câu bị cụt đầu)
+- Câu 5292: MẤT 4 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5293: thừa 4 chữ ở ĐẦU (lẫn đuôi câu trước): "Thuyền nguyên vào xong."
+- Câu 5293: MẤT 4 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5296: thừa 12 chữ ở ĐẦU (lẫn đuôi câu trước): "Những chiếc thuyền lớn của nguyên mắc vào cập nằm giữa giòng."
+- Câu 5296: MẤT 11 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5297: thừa 11 chữ ở ĐẦU (lẫn đuôi câu trước): "Nó chưa bao giờ đến muộn, và nó không nhận lương."
+- Câu 5297: MẤT 10 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5299: thừa 12 chữ ở ĐẦU (lẫn đuôi câu trước): "nhiều thuyền nguyên bị đốt hoặc chìm. Ô mặt nhì bị bắt?"
+- Câu 5300: thừa 13 chữ ở ĐẦU (lẫn đuôi câu trước): "Có ngôn nói ông bị bắt. Chí tiết này các sách lệch nhau."
+- Câu 5316: thừa 7 chữ ở CUỐI (lẫn đầu câu sau): "Người kế vị chấm giết chiến tranh."
+- Câu 5317: thừa 3 chữ ở CUỐI (lẫn đầu câu sau): "Con chiêm thành."
+- Câu 5317: MẤT 7 chữ ở đầu (câu bị cụt đầu)
+- Câu 5318: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 5324: thừa 5 chữ ở ĐẦU (lẫn đuôi câu trước): "Nóng ẩm và cả mua."
+- Câu 5324: MẤT 4 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5325: thừa 4 chữ ở ĐẦU (lẫn đuôi câu trước): "và trên khánh dư."
+- Câu 5326: MẤT 5 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5327: thừa 5 chữ ở ĐẦU (lẫn đuôi câu trước): "nhưng không thắng nhẹ nhàng."
+- Câu 5328: MẤT 9 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5329: thừa 9 chữ ở ĐẦU (lẫn đuôi câu trước): "Nhiều người vẫn đến đền thờ ông của đó."
+- Câu 5330: MẤT 3 chữ ở cuối (câu bị cụt đuôi)
+- Câu 5331: thừa 3 chữ ở ĐẦU (lẫn đuôi câu trước): "hay lòng người."
+
+## ⚠️ Cảnh báo
+- Câu 5007: giọng chỉ khớp 10% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5008: giọng chỉ khớp 59% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5024: giọng chỉ khớp 50% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5041: giọng chỉ khớp 50% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5056: giọng chỉ khớp 41% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5057: giọng chỉ khớp 57% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5058: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5059: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5084: giọng chỉ khớp 27% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5101: giọng chỉ khớp 45% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5106: giọng chỉ khớp 52% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5107: giọng chỉ khớp 53% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5114: giọng chỉ khớp 27% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5116: giọng chỉ khớp 36% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5117: giọng chỉ khớp 59% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5118: giọng chỉ khớp 34% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5120: giọng chỉ khớp 33% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5137: giọng chỉ khớp 50% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5140: giọng chỉ khớp 35% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5141: giọng chỉ khớp 29% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5148: giọng chỉ khớp 51% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5150: giọng chỉ khớp 24% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5166: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5184: giọng chỉ khớp 55% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5185: giọng chỉ khớp 58% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5195: giọng chỉ khớp 52% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5196: giọng chỉ khớp 41% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5197: giọng chỉ khớp 15% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5201: giọng chỉ khớp 25% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5203: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5210: giọng chỉ khớp 50% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5211: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5217: giọng chỉ khớp 47% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5218: giọng chỉ khớp 54% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5229: giọng chỉ khớp 42% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5230: giọng chỉ khớp 58% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5231: giọng chỉ khớp 51% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5232: giọng chỉ khớp 44% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5235: giọng chỉ khớp 12% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5251: giọng chỉ khớp 58% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5285: giọng chỉ khớp 48% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5286: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5287: giọng chỉ khớp 58% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5288: giọng chỉ khớp 32% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5292: giọng chỉ khớp 57% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5293: giọng chỉ khớp 53% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5294: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5295: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5296: giọng chỉ khớp 39% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5297: giọng chỉ khớp 40% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5298: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5299: giọng chỉ khớp 33% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5303: giọng chỉ khớp 58% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5316: giọng chỉ khớp 53% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5320: giọng chỉ khớp 50% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5326: giọng chỉ khớp 55% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5328: giọng chỉ khớp 31% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5078: phụ đề đầu câu hiện TRỄ 0.7s so với giọng
+- Câu 5314: phụ đề đầu câu hiện TRỄ 0.7s so với giọng
+- Cảnh gắn vào câu 95 lệch +6.0s nhưng câu chỉ dài 4.2s (rơi sang câu sau)
+- Cảnh gắn vào câu 59 lệch +5.0s nhưng câu chỉ dài 1.2s (rơi sang câu sau)
+- Cảnh gắn vào câu 59 lệch +3.5s nhưng câu chỉ dài 1.2s (rơi sang câu sau)
+- Cảnh gắn vào câu 149 lệch +6.0s nhưng câu chỉ dài 5.2s (rơi sang câu sau)
+- Cảnh gắn vào câu 163 lệch +5.0s nhưng câu chỉ dài 2.1s (rơi sang câu sau)
+- Cảnh gắn vào câu 214 lệch +5.0s nhưng câu chỉ dài 4.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 150 lệch +6.0s nhưng câu chỉ dài 2.7s (rơi sang câu sau)
+- Cảnh gắn vào câu 152 lệch +5.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 159 lệch +4.0s nhưng câu chỉ dài 2.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 185 lệch +5.0s nhưng câu chỉ dài 4.2s (rơi sang câu sau)
+- Cảnh gắn vào câu 201 lệch +3.0s nhưng câu chỉ dài 2.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 279 lệch +5.0s nhưng câu chỉ dài 3.1s (rơi sang câu sau)
+- Cảnh gắn vào câu 282 lệch +5.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 282 lệch +6.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 293 lệch +8.0s nhưng câu chỉ dài 4.5s (rơi sang câu sau)
+- Cảnh gắn vào câu 297 lệch +9.0s nhưng câu chỉ dài 4.9s (rơi sang câu sau)
+- Cảnh gắn vào câu 281 lệch +5.0s nhưng câu chỉ dài 4.2s (rơi sang câu sau)
+- Cảnh gắn vào câu 293 lệch +6.0s nhưng câu chỉ dài 4.5s (rơi sang câu sau)
+- Cảnh gắn vào câu 295 lệch +3.0s nhưng câu chỉ dài 1.8s (rơi sang câu sau)
+- Cảnh gắn vào câu 298 lệch +6.0s nhưng câu chỉ dài 3.4s (rơi sang câu sau)
+- Cảnh gắn vào câu 298 lệch +8.0s nhưng câu chỉ dài 3.4s (rơi sang câu sau)

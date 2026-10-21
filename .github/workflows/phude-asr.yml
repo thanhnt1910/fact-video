@@ -1,0 +1,35 @@
+name: Nhận dạng giọng để chỉnh phụ đề
+
+# Chạy khi đẩy ke-hoach/thu-giong-hai/asr.txt; dòng đầu: "<tên>" (v1, v2 hoặc nm1) hoặc "<tên> <mô hình>".
+on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/asr.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  asr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pip install -q faster-whisper
+      - name: Nhận dạng
+        run: |
+          read NAME MODEL < <(head -1 ke-hoach/thu-giong-hai/asr.txt)
+          MODEL=${MODEL:-medium}
+          python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/${NAME}_full.json assets/thu_giong_hai/puck phim_ban_do/asr_${NAME}.json $MODEL
+      - name: Lưu kết quả
+        run: |
+          git config user.email noreply@anthropic.com; git config user.name Claude
+          git add phim_ban_do/asr_*.json
+          git commit -q -m "Mốc từng chữ từ nhận dạng giọng" || exit 0
+          git pull -q --rebase; git push -q

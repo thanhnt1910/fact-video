@@ -15,6 +15,40 @@ def cum(text):
     if len(out) > 1 and len(out[-1].split()) < 3:
         last = out.pop(); out[-1] += ' ' + last
     return out
+def chu_moc(x, vs, ve, words):
+    """Mốc bắt đầu từng chữ trong cụm [vs,ve]: tiếng Việt mỗi chữ một âm tiết, nên cắt ở chỗ năng lượng thấp,
+    độ dài mỗi chữ bám theo độ dài kỳ vọng (quy hoạch động)."""
+    N = len(words)
+    if N <= 1: return [round(vs, 3)]
+    hop = SR // 100
+    k = np.ones(hop * 3) / (hop * 3)
+    e = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, k, 'same'))
+    f0, f1 = int(vs * 100), int(ve * 100)
+    env = np.array([e[min(len(e) - 1, i * hop)] for i in range(f0, f1 + 1)]); M = len(env) - 1
+    if M < N: return [round(vs + (ve - vs) * i / N, 3) for i in range(N)]
+    env = env / (env.max() + 1e-9)
+    w = np.array([1.0 + 0.12 * len(t) for t in words]); L = M * w / w.sum()
+    INF = 1e18
+    cost = np.full((N, M + 1), INF); back = np.zeros((N, M + 1), int); cost[0][0] = 0
+    for i in range(1, N):
+        lo_i, hi_i = int(0.55 * L[i - 1]), int(1.6 * L[i - 1]) + 1
+        for f in range(1, M):
+            best, bj = INF, 0
+            for g in range(max(0, f - hi_i), f - lo_i + 1):
+                if cost[i - 1][g] >= INF: continue
+                d = ((f - g) - L[i - 1]) / L[i - 1]
+                c = cost[i - 1][g] + 1.2 * d * d
+                if c < best: best, bj = c, g
+            if best < INF: cost[i][f] = best + 4.0 * env[f]; back[i][f] = bj
+    fin, fj = INF, None
+    for f in range(1, M):
+        d = ((M - f) - L[N - 1]) / L[N - 1]; c = cost[N - 1][f] + 1.2 * d * d
+        if c < fin: fin, fj = c, f
+    if fj is None: return [round(vs + (ve - vs) * i / N, 3) for i in range(N)]
+    cuts = [fj]
+    for i in range(N - 1, 1, -1): cuts.append(back[i][cuts[-1]])
+    cuts = [0] + cuts[::-1]
+    return [round(vs + c / 100.0, 3) for c in cuts]
 def main():
     src, vd, dst = sys.argv[1:4]
     beats = json.load(open(src, encoding='utf-8')); res = {}
@@ -22,7 +56,10 @@ def main():
         n = b['n']; cl = cum(b['text'])
         raw = subprocess.run(['ffmpeg','-v','error','-i',f'{vd}/{n}.mp3','-f','s16le','-ac','1','-ar',str(SR),'-'],capture_output=True).stdout
         x = np.frombuffer(raw, np.int16)
-        if len(cl) == 1 or len(x) < SR: res[str(n)] = [[cl[0], 0.0, len(x)/SR]]; continue
+        if len(cl) == 1 or len(x) < SR:
+            _env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(SR // 50) / (SR // 50), 'same')); _v = np.where(_env > max(0.006, 0.08 * float(np.percentile(_env, 98))))[0]
+            _vs, _ve = ((_v[0] / SR, _v[-1] / SR) if len(_v) else (0.0, len(x) / SR))
+            res[str(n)] = [[cl[0], 0.0, len(x)/SR, round(_vs, 3), round(_ve, 3), chu_moc(x, _vs, _ve, cl[0].split())]]; continue
         spans, _ = H.split_by_pauses(x, [max(1, len(c.split())) for c in cl])
         hop = SR // 100
         env = np.sqrt(np.convolve((x.astype(np.float64) / 32768.0) ** 2, np.ones(hop * 2) / (hop * 2), 'same'))
@@ -32,7 +69,7 @@ def main():
             s, e = int(s), int(e)
             seg = np.where(env[s:e] > thr)[0]
             vs, ve = ((s + seg[0]) / SR, (s + seg[-1]) / SR) if len(seg) else (s / SR, e / SR)
-            rows.append([c, round(s / SR, 3), round(e / SR, 3), round(vs, 3), round(ve, 3)])
+            rows.append([c, round(s / SR, 3), round(e / SR, 3), round(vs, 3), round(ve, 3), chu_moc(x, vs, ve, c.split())])
         changed = True
         while changed and len(rows) > 1:
             changed = False
@@ -40,7 +77,7 @@ def main():
                 if (r[4] - r[3]) / max(1, len(r[0].split())) < 0.15:
                     j = i + 1 if i + 1 < len(rows) else i - 1
                     a, b2 = sorted((i, j)); A, B = rows[a], rows[b2]
-                    rows[a:b2 + 1] = [[A[0] + ' ' + B[0], A[1], B[2], A[3], B[4]]]
+                    rows[a:b2 + 1] = [[A[0] + ' ' + B[0], A[1], B[2], A[3], B[4], chu_moc(x, A[3], B[4], (A[0] + ' ' + B[0]).split())]]
                     changed = True; break
         res[str(n)] = rows
     json.dump(res, open(dst, 'w'), ensure_ascii=False)

@@ -1,16 +1,3 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-0 267
-20 267
-40 267
-60 267
-80 267
-100 267
-120 267
-140 267
-160 267
-180 267
-200 267
-220 267
-240 267
-260 267
-xong 267
+0 4
+xong 4

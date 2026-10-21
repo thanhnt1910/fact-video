@@ -12,4 +12,4 @@ tổng khung 2862 đoạn 0 0 715
 600 715
 xong
 + ls -la doan_0.mp4
--rw-r--r-- 1 runner runner 7496818 Oct 20 18:08 doan_0.mp4
+-rw-r--r-- 1 runner runner 7496877 Oct 21 00:37 doan_0.mp4

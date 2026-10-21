@@ -205,7 +205,9 @@ def frame(t):
         cx_,cy_=v.sc(*rg['lab'],K);d.text((cx_,cy_),rg['name'],font=MD.F(34*K*min(1.6,z**0.3)*0.9),fill=fc+(150,),anchor='mm')
     for nm,(lo,la),sz in C.WATER:
         x,y=v.sc(lo,la,K);d.text((x,y),nm,font=MD.F(sz*K*min(1.7,z**0.3)),fill=(70,100,120,150),anchor='mm')
-    for (nm,pts,wd,lab) in getattr(C,'RIVERS',[]):
+    for _rv in getattr(C,'RIVERS',[]):
+        nm,pts,wd,lab=_rv[:4]
+        if len(_rv)>4 and not(_rv[4][0]<=t<=_rv[4][1]): continue
         P=[v.sc(*p,K) for p in pts]
         M3.draw_river(d,P,wd*K*min(2.2,z**0.45)*0.9,t,K)
         if lab:
@@ -213,6 +215,8 @@ def frame(t):
     # thủy triều và cọc: TIDE=[(đường sông, mực nước [(t,0..1)], cọc [(lon,lat)], nhãn)]
     for _td in getattr(C,'TIDE',[]):
         poly,lvl,stakes_,tlab=_td[:4];t_show=_td[4] if len(_td)>4 else 0
+        _w=_td[5] if len(_td)>5 else None
+        if _w and not(_w[0]<=t<=_w[1]): continue
         Lv=curve(lvl,t,1.0);P=[v.sc(*p,K) for p in poly];S_=M3.smooth(P,8);bw_=ik*(1.1+2.4*Lv)
         mud=clamp((0.5-Lv)/0.5)
         d.line(S_,fill=(150,128,92,int(150*mud)),width=int(ik*3.6),joint='curve')
@@ -365,6 +369,7 @@ def frame(t):
                 d.ellipse((ax-rr,ay-rr,ax+rr,ay+rr),outline=(250,230,160,al),width=int(4*K*0.6))
     for (t0,t1,kind,a,b) in getattr(C,'OBJ',[]):
         if t<t0: continue
+        if kind=='fireboat' and t>t1: continue
         if kind=='flood' and len(b)>2 and t>t1+b[2]: continue
         ax,ay=v.sc(*a,K);bx,by=v.sc(*b[:2],K)
         if kind=='tower':

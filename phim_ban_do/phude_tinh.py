@@ -73,6 +73,29 @@ def asr_moc(words, asr):
         else: t[i] = t[l] + (t[r] - t[l]) * (i - l) / (r - l)
     for i in range(1, len(t)): t[i] = max(t[i], t[i - 1])
     return [round(v, 3) for v in t]
+_D = {'một': 1, 'mốt': 1, 'hai': 2, 'ba': 3, 'bốn': 4, 'tư': 4, 'năm': 5, 'lăm': 5, 'sáu': 6, 'bảy': 7, 'tám': 8, 'chín': 9}
+def _doc_so(tk, i):
+    """Đọc số kiểu 'một trăm chín mươi hai' bắt đầu ở tk[i]; trả (giá trị, số chữ đã dùng) hoặc None."""
+    g = lambda j: re.sub(r'[^\w]', '', tk[j].lower()) if j < len(tk) else ''
+    if g(i) not in ('một', 'hai') or g(i + 1) != 'trăm': return None
+    v = _D[g(i)] * 100; k = i + 2
+    if g(k) in ('linh', 'lẻ') and g(k + 1) in _D: return v + _D[g(k + 1)], k + 2 - i
+    if g(k) == 'mười': v += 10; k += 1
+    elif g(k) in _D and g(k + 1) == 'mươi': v += _D[g(k)] * 10; k += 2
+    else: return v, k - i
+    if g(k) in _D and not (g(k) == 'năm' and g(k + 1) in ('tuổi', 'sau', 'trước')): v += _D[g(k)]; k += 1
+    return v, k - i
+def so_nam(words, times):
+    """Đổi năm viết chữ trong phụ đề thành số (năm một trăm chín mươi hai -> năm 192); mốc giờ lấy theo chữ đầu của số."""
+    ow, ot = [], []; i = 0
+    while i < len(words):
+        r = None
+        if re.sub(r'[^\w]', '', words[i].lower()) == 'năm' and i + 1 < len(words): r = _doc_so(words, i + 1)
+        if r:
+            val, used = r; last = words[i + used]; tail = re.search(r'[^\w]+$', last)
+            ow += [words[i], str(val) + (tail.group(0) if tail else '')]; ot += [times[i], times[i + 1]]; i += used + 1
+        else: ow.append(words[i]); ot.append(times[i]); i += 1
+    return ow, ot
 def chia_ngan(rows, toi_da=7):
     """Chia cụm dài thành các đoạn phụ đề ngắn (tối đa toi_da chữ), mỗi đoạn có mốc từng chữ riêng."""
     out = []
@@ -101,6 +124,8 @@ def main():
             _r = [cl[0], 0.0, len(x)/SR, round(_vs, 3), round(_ve, 3), chu_moc(x, _vs, _ve, cl[0].split())]
             _am = asr_moc(b['text'].split(), ASR.get(str(n)))
             if _am: _r[5] = _am
+            if len(_r[5]) == len(_r[0].split()):
+                _ow, _ot = so_nam(_r[0].split(), _r[5]); _r[0] = ' '.join(_ow); _r[5] = _ot
             res[str(n)] = chia_ngan([_r]); continue
         spans, _ = H.split_by_pauses(x, [max(1, len(c.split())) for c in cl])
         hop = SR // 100
@@ -126,6 +151,9 @@ def main():
             k = 0
             for r in rows:
                 m = len(r[0].split()); r[5] = am[k:k + m]; k += m
+        for r in rows:
+            if len(r) >= 6 and r[5] and len(r[5]) == len(r[0].split()):
+                ow, ot = so_nam(r[0].split(), r[5]); r[0] = ' '.join(ow); r[5] = ot
         res[str(n)] = chia_ngan(rows)
     json.dump(res, open(dst, 'w'), ensure_ascii=False)
     print(len(res), 'câu,', sum(len(v) for v in res.values()), 'cụm')

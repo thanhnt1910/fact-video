@@ -1,4 +1,11 @@
-còn thiếu 1 câu
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+còn thiếu 6 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 1143 - 1143 9.3 giây
+OK cụm 1013 - 1013 10.0 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK cụm 1036 - 1036 9.2 giây
+OK cụm 1092 - 1092 12.2 giây
+OK cụm 1177 - 1177 20.8 giây
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+OK cụm 1207 - 1207 9.9 giây
+OK cụm 1210 - 1210 12.2 giây

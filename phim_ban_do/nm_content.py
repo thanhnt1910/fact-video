@@ -43,7 +43,7 @@ def C3(n,name,role,col,o=0.3,dur=3.4): CARDS3.append((R(n,o),min(R(n,o+dur),E(n,
 def Q(n,sub,text,who,col,dur=None):
     t0=at(n,sub);QUOTES.append((t0,min(E(n,-0.1),t0+(dur or 6.0)),text,who,col))
 def J(n,icon,text,off=1.2): JOKES.append((R(n,off),E(n,-0.1),icon,text))
-def NU(n,big,small,delay=1.2): NUMS.append((BASE+n,big,small,delay))
+def NU(n,big,small,delay=1.2,dur=None): NUMS.append((BASE+n,big,small,delay)+((dur,) if dur else ()))
 def AR(n,o,dur,a,b,col,txt): ARROWS.append((R(n,o),R(n,o+dur),a,b,col,txt))
 def AR2(n0,n1,a,b,col,txt): ARROWS.append((R(n0,0.2),E(n1,-0.1),a,b,col,txt))
 def LET(n,o,dur,a,b,txt): LETTERS.append((R(n,o),R(n,o+dur),a,b,txt))
@@ -109,7 +109,7 @@ RIVERS.append(('SÔNG BẠCH ĐẰNG',[(106.40,21.10),(106.52,21.07),(106.63,21.
 G('Kỵ binh Mông Cổ',NG,14,[(R(1,0),100.7,25.5),(R(3,5),101.5,25.3),(R(4,5),102.6,25.05),(R(14,0),102.7,25.05)],show=(R(1,0),E(14,0)),emb='tri',seed=501,kind='cav',soff=(-60,-20))
 AR2(2,4,(100.2,25.9),(102.2,25.15),NG,'từ thảo nguyên phía bắc')
 J(2,'flag','Thi toát mồ hôi: họ thắng khỏi chấm')
-NU(7,'1258 · 1285 · 1288','ba lần đứng trước đế quốc',1.0)
+NU(7,'1258','lần thứ nhất',2.7,2.1);NU(7,'1285','lần thứ hai',4.85,1.2);NU(7,'1288','lần thứ ba',6.0,2.0)
 # ---- chương 2
 NU(16,'THÀNH CÁT TƯ HÃN','gom các bộ tộc thảo nguyên',1.0)
 NT2(20,22,105.6,22.3,'đất ngập nước: sân nhà của Đại Việt',GR)
@@ -378,9 +378,9 @@ NT(5,2.0,4.0,104.9,21.6,'nhiều sông',BL)
 NT(5,3.4,3.0,106.2,20.3,'đầm lầy',GR)
 PR(5,6,'ping',105.85,21.03,'g',1.0)
 G('Quân Đại Việt',GR,8,[(R(5,0),105.7,21.15),(R(9,0),105.7,21.15)],show=(R(5,0),E(9,0)),emb='sun',seed=530,soff=(-90,40))
-AR(7,0.3,3.0,(104.3,22.9),(105.8,21.15),NG,'1258')
-AR(7,2.8,3.0,(106.9,22.7),(106.0,21.15),NG,'1285')
-AR(7,5.0,3.0,(108.6,21.4),(106.1,21.1),NG,'1288')
+AR(7,2.9,3.5,(104.3,22.9),(105.8,21.15),NG,'1258')
+AR(7,5.0,3.0,(106.9,22.7),(106.0,21.15),NG,'1285')
+AR(7,6.15,2.2,(108.6,21.4),(106.1,21.1),NG,'1288')
 # ======================================================= HOÀN TẤT
 SCN.sort(key=lambda x:x[0])
 CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]

@@ -171,7 +171,7 @@ for c in getattr(C,'CARDS3',[]): CARDL[(c[2],c[3])]=M3.card3(c[2],c[3],c[4])
 TITL={i:M3.title_layer(*x[2:]) for i,x in enumerate(getattr(C,'TITLES',[]))}
 QUOL={i:M3.quote_layer(x[2],x[3],x[4]) for i,x in enumerate(getattr(C,'QUOTES',[]))}
 MINI0=M3.minimap_base(PYR[3],300,int(300*RH/RW))
-NUML={n:B.num_layer(b,s) for n,b,s,_ in C.NUMS}
+NUML={i:B.num_layer(x[1],x[2]) for i,x in enumerate(C.NUMS)}
 NUMT={}
 CHIPS={}
 def chip_for(n):
@@ -470,11 +470,12 @@ def frame(t):
     act=[c for c in getattr(C,'CARDS3',[]) if c[0]<=t<=c[1]]
     for idx,c in enumerate(act):
         k=min(clamp((t-c[0])/0.5),clamp((c[1]-t)/0.4));out=comp(out,CARDL[(c[2],c[3])],(50-int((1-ease(k))*160),215+idx*136),ease(k))
-    for (cn,_,_,dl) in C.NUMS:
-        if n==cn:
-            s_=T[cn]+dl;e=s_+2.6
+    for ni,nx in enumerate(C.NUMS):
+        cn,dl=nx[0],nx[3];du=nx[4] if len(nx)>4 else 2.6
+        if n==cn or (len(nx)>4 and T[cn]+dl<=t<=T[cn]+dl+du):
+            s_=T[cn]+dl;e=s_+du
             if s_<=t<=e:
-                k=min(clamp((t-s_)/0.25),clamp((e-t)/0.4));out=comp(out,NUML[cn],(0,0),ease(k))
+                k=min(clamp((t-s_)/0.25),clamp((e-t)/0.4));out=comp(out,NUML[ni],(0,0),ease(k))
     # thanh sức mạnh
     for (t0,t1,title,rows) in getattr(C,'METERS',[]):
         if t0<=t<=t1:

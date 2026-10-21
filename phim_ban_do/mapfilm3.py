@@ -405,6 +405,18 @@ def frame(t):
             for j in range(int(u*7)):
                 q=(j+0.5)/7;mx,my=lerp(ax,bx,q),lerp(ay,by,q)+((j%2)*2-1)*ik*0.7
                 (M3.saddle if j%2 else M3.sack)(d,mx,my,ik*0.9,255 if t<t1 else int(255*(1-clamp((t-t1)/1.0))))
+    # hình minh họa nổi (PROPS)
+    for pr in getattr(C,'PROPS',[]):
+        t0,t1,kind,lon,lat,arg=pr[:6];sc_=pr[6] if len(pr)>6 else 1.0
+        if not(t0<=t<=t1): continue
+        x,y=v.sc(lon,lat,K)
+        if not(-300<x<W*K+300 and -300<y<H*K+300): continue
+        import mapprops as MP
+        fa=min(clamp((t-t0)/0.4),clamp((t1-t)/0.4));u_=(t-t0)/max(1e-6,t1-t0)
+        if fa>=0.999: MP.draw(d,kind,x,y,ik*1.7*sc_,u_,t,arg)
+        else:
+            lay=Image.new('RGBA',(W*K,H*K),(0,0,0,0));MP.draw(ImageDraw.Draw(lay),kind,x,y,ik*1.7*sc_,u_,t,arg)
+            lay.putalpha(lay.getchannel('A').point(lambda a_,f_=fa:int(a_*f_)));d.bitmap((0,0),Image.new('L',(1,1))) if False else ov.alpha_composite(lay)
     # lửa
     for (t0,t1,lon,lat) in C.FIRES:
         if t0<=t<=t1:

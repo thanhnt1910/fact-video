@@ -1,7 +1,7 @@
 + nproc
 4
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_nm.txt
-+ MODE=full
++ MODE='full 1792591828'
 + python -
 tổng khung 45767 đoạn 2 11441 17162
 + read A0 A1
@@ -23,4 +23,4 @@ tổng khung 45767 đoạn 2 11441 17162
 5700 5721
 xong
 + ls -la doan_2.mp4
--rw-r--r-- 1 runner runner 43783816 Oct 21 13:27 doan_2.mp4
+-rw-r--r-- 1 runner runner 43783820 Oct 21 14:21 doan_2.mp4

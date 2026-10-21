@@ -1,0 +1,12 @@
+{
+ "id": "SL21",
+ "slots": [
+  {"slot": "D01", "mo_ta": "chuyến bay đầu tiên 17/12/1903 Kitty Hawk", "queries": ["Wright first flight 1903", "Wright Flyer December 17 1903 Kitty Hawk", "First flight Orville Wright Wilbur running"]},
+  {"slot": "D02", "mo_ta": "chân dung Wilbur Wright", "queries": ["Wilbur Wright portrait", "Wilbur Wright 1905"]},
+  {"slot": "D03", "mo_ta": "chân dung Orville Wright", "queries": ["Orville Wright portrait", "Orville Wright 1905"]},
+  {"slot": "D04", "mo_ta": "tiệm xe đạp Wright Cycle Company Dayton", "queries": ["Wright Cycle Company Dayton", "Wright brothers bicycle shop"]},
+  {"slot": "D05", "mo_ta": "tàu lượn và đường hầm gió 1901-1902", "queries": ["Wright 1902 glider", "Wright brothers wind tunnel", "Wright 1901 glider Kitty Hawk"]},
+  {"slot": "D06", "mo_ta": "bay biểu diễn 1908 Le Mans / Fort Myer", "queries": ["Wilbur Wright Le Mans 1908", "Wright Flyer Fort Myer 1908", "Wilbur Wright flight France 1908"]},
+  {"slot": "D07", "mo_ta": "Wright Flyer III / Huffman Prairie 1905", "queries": ["Wright Flyer III 1905", "Huffman Prairie Wright flight"]}
+ ]
+}

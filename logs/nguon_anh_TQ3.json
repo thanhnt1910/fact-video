@@ -1,12 +1,12 @@
 {
  "ma": "TQ3",
- "cap_nhat": "2026-10-19T04:39:49",
+ "cap_nhat": "2026-10-21T04:45:31",
  "anh": [
   {
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/001.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 1 ảnh 1"
@@ -16,7 +16,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/002.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 1 ảnh 2"
@@ -26,7 +26,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/037.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 2 ảnh 1"
@@ -36,7 +36,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/026.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 2 ảnh 2"
@@ -46,7 +46,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/033.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 1"
@@ -56,7 +56,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/036.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 3 ảnh 2"
@@ -66,7 +66,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/043.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 1"
@@ -76,7 +76,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/044.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 4 ảnh 2"
@@ -86,7 +86,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/046.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 1"
@@ -96,7 +96,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/048.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 5 ảnh 2"
@@ -106,7 +106,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/064.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 1"
@@ -116,7 +116,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/080.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 6 ảnh 2"
@@ -126,7 +126,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/075.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 1"
@@ -136,7 +136,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/076.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 7 ảnh 2"
@@ -146,7 +146,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/084.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 8 ảnh 1"
@@ -156,7 +156,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/063.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 8 ảnh 2"
@@ -166,7 +166,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/085.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 9 ảnh 1"
@@ -176,7 +176,7 @@
    "loai": "tranh AI",
    "prompt": "ảnh 2D vẽ bằng FLUX.2 klein: assets/anh_2d/TQ3/082.jpg",
    "model": "@cf/black-forest-labs/flux-1-schnell (Cloudflare Workers AI)",
-   "ngay_tao": "2026-10-19",
+   "ngay_tao": "2026-10-21",
    "giay_phep": "ảnh do kênh tạo bằng AI từ mô tả chữ (model cho phép dùng thương mại)",
    "dung_o": [
     "ngắn · cảnh 9 ảnh 2"

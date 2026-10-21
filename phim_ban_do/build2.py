@@ -87,10 +87,18 @@ def card_layer(name,role,col):
     g.text((40,88),role,font=font(30,False),fill=(215,200,170,255))
     return im
 def num_layer(big,small):
-    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(150);fs=font(44,False)
-    w=g.textlength(big,font=f);x=W/2-w/2;y=250
-    g.text((x+5,y+7),big,font=f,fill=(0,0,0,230));g.text((x,y),big,font=f,fill=(246,206,102,255))
-    w2=g.textlength(small,font=fs);g.text((W/2-w2/2+2,y+190),small,font=fs,fill=(0,0,0,230));g.text((W/2-w2/2,y+188),small,font=fs,fill=(250,244,228,255))
+    """Số lớn ở giữa phía trên, có nền tối, nhỏ hơn và không che quân."""
+    im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im)
+    sz=96 if not P else 110
+    f=font(sz);fs=font(40 if not P else 44,False)
+    while g.textlength(big,font=f)>W-300 and sz>50: sz-=4;f=font(sz)
+    while g.textlength(small,font=fs)>W-200 and fs.size>24: fs=font(fs.size-2,False)
+    w1=g.textlength(big,font=f);w2=g.textlength(small,font=fs)
+    bw=max(w1,w2)+90;y=44 if not P else 260;bh=sz+fs.size+60
+    x0=W/2-bw/2
+    g.rounded_rectangle((x0,y,x0+bw,y+bh),22,fill=(12,8,5,215),outline=(246,206,102,255),width=3)
+    g.text((W/2-w1/2,y+14),big,font=f,fill=(246,206,102,255))
+    g.text((W/2-w2/2,y+sz+30),small,font=fs,fill=(250,244,228,255))
     return im
 def chip_layer(chapter,year):
     _g=ImageDraw.Draw(Image.new('RGBA',(10,10)));wd=int(max(420,_g.textlength(chapter,font=font(40 if not year else 26))+70))

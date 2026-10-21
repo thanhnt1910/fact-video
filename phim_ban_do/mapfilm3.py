@@ -271,6 +271,7 @@ def frame(t):
                 d.ellipse((ax-rr,ay-rr,ax+rr,ay+rr),outline=(250,230,160,al),width=int(4*K*0.6))
     for (t0,t1,kind,a,b) in getattr(C,'OBJ',[]):
         if t<t0: continue
+        if kind=='flood' and len(b)>2 and t>t1+b[2]: continue
         ax,ay=v.sc(*a,K);bx,by=v.sc(*b[:2],K)
         if kind=='tower':
             if t<=t1: M3.tower(d,ax,ay,ik*0.9,t)

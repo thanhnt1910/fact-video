@@ -1,7 +1,7 @@
 # Kiểm video nm
 
 - Kịch bản 332 câu; có nhận dạng 332 câu; nhận dạng: asr_nm.json
-- ❌ lỗi: 124  ⚠️ cảnh báo: 81
+- ❌ lỗi: 124  ⚠️ cảnh báo: 83
 
 ## ❌ Lỗi
 - Câu 5002: thừa 4 chữ ở CUỐI (lẫn đầu câu sau): "Họ cỡi ngựa nhanh."
@@ -152,6 +152,7 @@
 - Câu 5141: giọng chỉ khớp 29% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 5148: giọng chỉ khớp 51% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 5150: giọng chỉ khớp 24% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 5158: giọng chỉ khớp 20% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 5166: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 5184: giọng chỉ khớp 55% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 5185: giọng chỉ khớp 58% với kịch bản (nhận dạng có thể sai, nên nghe lại)
@@ -194,16 +195,17 @@
 - Cảnh gắn vào câu 59 lệch +5.0s nhưng câu chỉ dài 1.2s (rơi sang câu sau)
 - Cảnh gắn vào câu 59 lệch +3.5s nhưng câu chỉ dài 1.2s (rơi sang câu sau)
 - Cảnh gắn vào câu 149 lệch +6.0s nhưng câu chỉ dài 5.2s (rơi sang câu sau)
-- Cảnh gắn vào câu 163 lệch +5.0s nhưng câu chỉ dài 2.1s (rơi sang câu sau)
 - Cảnh gắn vào câu 214 lệch +5.0s nhưng câu chỉ dài 4.0s (rơi sang câu sau)
 - Cảnh gắn vào câu 150 lệch +6.0s nhưng câu chỉ dài 2.7s (rơi sang câu sau)
 - Cảnh gắn vào câu 152 lệch +5.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
 - Cảnh gắn vào câu 159 lệch +4.0s nhưng câu chỉ dài 2.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 181 lệch +3.0s nhưng câu chỉ dài 2.1s (rơi sang câu sau)
 - Cảnh gắn vào câu 185 lệch +5.0s nhưng câu chỉ dài 4.2s (rơi sang câu sau)
 - Cảnh gắn vào câu 201 lệch +3.0s nhưng câu chỉ dài 2.0s (rơi sang câu sau)
 - Cảnh gắn vào câu 279 lệch +5.0s nhưng câu chỉ dài 3.1s (rơi sang câu sau)
 - Cảnh gắn vào câu 282 lệch +5.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
 - Cảnh gắn vào câu 282 lệch +6.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 282 lệch +4.0s nhưng câu chỉ dài 3.0s (rơi sang câu sau)
 - Cảnh gắn vào câu 293 lệch +8.0s nhưng câu chỉ dài 4.5s (rơi sang câu sau)
 - Cảnh gắn vào câu 297 lệch +9.0s nhưng câu chỉ dài 4.9s (rơi sang câu sau)
 - Cảnh gắn vào câu 281 lệch +5.0s nhưng câu chỉ dài 4.2s (rơi sang câu sau)

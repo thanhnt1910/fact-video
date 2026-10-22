@@ -1,11 +1,4 @@
-BUOC=gui
+BUOC=lay
 TEN=demo
-ANH=dance_in/demo/anh.jpg
 MAU=dance_in/demo/mau.mp4
-TONG=3
-DOAN=10
-BAT_DAU=4
-THU=true
-CHO=0
-# lan 2: lưu nhật ký vào nhánh
-# lan 3: cài ffmpeg
+CHO=100

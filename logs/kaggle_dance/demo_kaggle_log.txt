@@ -1,0 +1,48 @@
+[{"stream_name":"stdout","time":26.459012634,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 96.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":26.497597023,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 20.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":26.868229529,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 49.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":26.914361386,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 290.4/290.4 kB 10.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.143208114,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 79.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.723598816,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 MB 32.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.761963331,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 328.4/328.4 kB 15.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.803073377,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.8/44.8 kB 1.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.845774467,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 13.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.884518517,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 37.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":64.951710437,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":64.951740284,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":64.951746196,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.951750866,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.951755872,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.95176025,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.951766268,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.951770647,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":65.288396288,"data":"[    64s] cài xong thư viện\n"}
+,{"stream_name":"stdout","time":125.365285838,"data":"[   124s] GPU: Tesla T4 | khung 368x640\n"}
+,{"stream_name":"stderr","time":125.687591126,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/mediapipe_face/mediapipe_face_common.py:7: UserWarning: The module 'mediapipe' is not installed. The package will have limited functionality. Please install it using the command: pip install 'mediapipe'\n"}
+,{"stream_name":"stderr","time":125.687627996,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":128.900205357,"data":"/usr/local/lib/python3.13/dist-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers\n"}
+,{"stream_name":"stderr","time":128.900239766,"data":"  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)\n"}
+,{"stream_name":"stderr","time":128.90238384,"data":"/usr/local/lib/python3.13/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models\n"}
+,{"stream_name":"stderr","time":128.902395922,"data":"  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.models\", FutureWarning)\n"}
+,{"stream_name":"stderr","time":128.902949356,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_5m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_5m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
+,{"stream_name":"stderr","time":128.902962327,"data":"  return register_model(fn_wrapper)\n"}
+,{"stream_name":"stderr","time":128.903046201,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_11m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_11m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
+,{"stream_name":"stderr","time":128.903060821,"data":"  return register_model(fn_wrapper)\n"}
+,{"stream_name":"stderr","time":128.903074826,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
+,{"stream_name":"stderr","time":128.903080646,"data":"  return register_model(fn_wrapper)\n"}
+,{"stream_name":"stderr","time":128.903091491,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_384 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
+,{"stream_name":"stderr","time":128.903096342,"data":"  return register_model(fn_wrapper)\n"}
+,{"stream_name":"stderr","time":128.903184944,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_512 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_512. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
+,{"stream_name":"stderr","time":128.903193348,"data":"  return register_model(fn_wrapper)\n"}
+,{"stream_name":"stderr","time":128.920821912,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":128.921139668,"data":"  File \"/kaggle/src/script.py\", line 35, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":128.921161915,"data":"    dw = DWposeDetector.from_pretrained(\"yzd-v/DWPose\", \"yzd-v/DWPose\", det_filename=\"yolox_l.onnx\",\n"}
+,{"stream_name":"stderr","time":128.921167894,"data":"         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":128.921178618,"data":"AttributeError: type object 'DWposeDetector' has no attribute 'from_pretrained'\n"}
+,{"stream_name":"stderr","time":138.677722996,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":138.677758152,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":139.036131108,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":139.036157297,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":139.906763103,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":141.270932098,"data":"[NbConvertApp] Writing 316668 bytes to __results__.html\n"}
+]

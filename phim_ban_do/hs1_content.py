@@ -76,7 +76,6 @@ J(20,'coin','Một cái đùi lợn sống, một lời can',1.6) if False else 
 AR(23,0.6,5.5,(109.245,34.405),X('Bá Thượng'),HAN,'đường tắt')
 NT(25,0.4,3.2,109.20,34.40,'chén ngọc bị đập vỡ',SO)
 J(28,'coin','Một chuyến đi nhà xí đổi cả lịch sử',2.5)
-TITLES.append((R(28,3.4),E(28,0.5),'HẾT BẢN DEMO','HỒNG MÔN YẾN','Bữa tiệc suýt đổi cả lịch sử'))
 # ======================= HOÀN TẤT
 SCN.sort(key=lambda x:x[0])
 CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]

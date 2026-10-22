@@ -1,15 +1,9 @@
 name: Gửi tệp (ảnh, video) lên Telegram
 
 on:
-  workflow_dispatch:
-    inputs:
-      files:
-        description: "Các tệp trong repo, cách nhau dấu cách (ảnh gửi dạng tệp, mp4 gửi dạng video)"
-        required: true
-      caption:
-        description: "Chú thích (dùng cho tệp đầu tiên)"
-        required: false
-        default: ""
+  push:
+    paths:
+      - "ke-hoach/thu-giong-hai/gui_tg.txt"
 
 permissions:
   contents: read
@@ -24,11 +18,12 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-          FILES: ${{ inputs.files }}
-          CAP: ${{ inputs.caption }}
+          FILES_FILE: ke-hoach/thu-giong-hai/gui_tg.txt
+          CAP: ""
         run: |
           [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
           fail=0
+          FILES=$(tail -n +2 "$FILES_FILE" | tr "\n" " ")
           for f in $FILES; do
             case "$f" in
               *.mp4) m=sendVideo; k=video; extra="-F supports_streaming=true" ;;

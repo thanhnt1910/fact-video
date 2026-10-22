@@ -1,170 +1,1394 @@
 [
  {
-  "n": 6001,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7001,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Hai nghìn hai trăm năm trước, có hai người đàn ông từng nhận nhau là anh em. Rồi họ đánh nhau năm năm liền để giành cả thiên hạ."
+ },
+ {
+  "n": 7002,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Một người là quý tộc nước Sở, cao lớn, khỏe đến mức nhấc nổi cái vạc đồng nặng. Người kia là một viên đình trưởng ở làng quê, thích rượu và hay ăn nợ."
+ },
+ {
+  "n": 7003,
+  "chuong": "Mở đầu",
+  "tone": "light",
+  "text": "Người thứ nhất thắng gần như mọi trận. Người thứ hai thua gần như mọi trận. Chỉ trừ trận cuối cùng."
+ },
+ {
+  "n": 7004,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Mà trận cuối ấy quyết định tất cả. Nhà Hán ra đời, kéo dài bốn trăm năm. Đến nay người Trung Hoa vẫn tự gọi mình là người Hán."
+ },
+ {
+  "n": 7005,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Hai người ấy là Hạng Vũ và Lưu Bang. Cuộc đối đầu của họ được gọi là Hán Sở tranh hùng: nước Hán của Lưu Bang đấu với nước Sở của Hạng Vũ."
+ },
+ {
+  "n": 7006,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Câu chuyện chia làm hai phần, mỗi phần khoảng ba mươi phút. Hôm nay là phần đầu: từ năm hai trăm linh chín đến năm hai trăm linh năm trước Công nguyên."
+ },
+ {
+  "n": 7007,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Một lời hứa trước khi bắt đầu. Mọi sự kiện kể ở đây là chuyện có thật, theo các sách sử xưa của Trung Hoa."
+ },
+ {
+  "n": 7008,
+  "chuong": "Mở đầu",
+  "tone": "light",
+  "text": "Còn những câu đùa là của người kể. Chúng chỉ để câu chuyện bớt nặng, và không thay đổi điều gì đã xảy ra."
+ },
+ {
+  "n": 7009,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Một lưu ý nữa. Sách xưa hay ghi những con số rất lớn: quân hàng trăm nghìn, tù binh hàng trăm nghìn. Nhiều nhà nghiên cứu ngày nay cho rằng các con số ấy bị thổi phồng."
+ },
+ {
+  "n": 7010,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Giờ ta điểm nhanh các mốc chính, để khi nghe tên mới còn biết mình đang ở đâu."
+ },
+ {
+  "n": 7011,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Năm hai trăm linh chín, Trần Thắng và Ngô Quảng nổi dậy chống nhà Tần. Cùng năm, Hạng Lương, Hạng Vũ và Lưu Bang cũng khởi binh."
+ },
+ {
+  "n": 7012,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Năm hai trăm linh tám, Hạng Lương chết trận ở Định Đào. Cháu ông là Hạng Vũ bước lên nắm quân Sở."
+ },
+ {
+  "n": 7013,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Năm hai trăm linh bảy, Hạng Vũ thắng trận Cự Lộc, trận quyết định số phận nhà Tần. Cuối năm, Lưu Bang vào kinh đô nhà Tần trước, và nhà Tần sụp đổ."
+ },
+ {
+  "n": 7014,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Đầu năm hai trăm linh sáu là bữa tiệc ở Hồng Môn. Rồi Hạng Vũ chia thiên hạ thành mười tám nước, và đẩy Lưu Bang vào vùng núi Hán Trung. Cuối năm, một người tên Hàn Tín dẫn quân vượt núi quay ra."
+ },
+ {
+  "n": 7015,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Năm hai trăm linh năm, Lưu Bang đem quân đi về phía đông, và chiếm luôn thủ đô của Hạng Vũ."
+ },
+ {
+  "n": 7016,
+  "chuong": "Mở đầu",
+  "tone": "calm",
+  "text": "Hãy giữ trong đầu một câu hỏi. Người đánh thắng nhiều trận nhất, vì sao lại thua cả cuộc chiến? Mỗi chương sẽ cho thêm một mảnh câu trả lời."
+ },
+ {
+  "n": 7017,
+  "chuong": "Mở đầu",
+  "tone": "light",
+  "text": "Bắt đầu thôi. Từ một cơn mưa."
+ },
+ {
+  "n": 7018,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Vua Tần Thủy Hoàng đã gom cả Trung Hoa về một mối. Ông chết năm hai trăm mười trước Công nguyên, để lại đứa con kém tài là Tần Nhị Thế. Người thật sự cầm quyền là hoạn quan Triệu Cao."
+ },
+ {
+  "n": 7019,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Luật nhà Tần nổi tiếng nghiêm khắc. Làm việc chậm, trễ hạn là bị xử phạt rất nặng, có khi mất đầu."
+ },
+ {
+  "n": 7020,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Mùa thu năm hai trăm linh chín, chín trăm lính thú bị điều đi canh biên giới xa phía bắc. Hai người chỉ huy toán lính ấy là Trần Thắng và Ngô Quảng."
+ },
+ {
+  "n": 7021,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Họ đi đến vùng Đại Trạch Hương thì trời mưa lớn. Đường ngập hết, không thể tới nơi đúng hạn."
+ },
+ {
+  "n": 7022,
+  "chuong": "Một cơn mưa",
+  "tone": "light",
+  "text": "Trễ hạn thì chết. Bỏ trốn cũng chết. Còn nổi dậy thì… cũng chết, nhưng ít ra là chết có việc để làm."
+ },
+ {
+  "n": 7023,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Trần Thắng nói với mọi người một câu mà đời sau còn nhớ: vua chúa, tướng tá, đâu phải do dòng giống mà ra."
+ },
+ {
+  "n": 7024,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Chín trăm người ấy kéo cờ nổi dậy. Chỉ vài ngày sau, họ đã có hàng nghìn người theo, rồi hàng vạn."
+ },
+ {
+  "n": 7025,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Trần Thắng xưng vương. Nhưng chưa đầy nửa năm sau, quân Tần do tướng Chương Hàm đánh tan ông, và chính người đánh xe của ông đã giết ông."
+ },
+ {
+  "n": 7026,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Cùng mùa thu năm ấy, ở vùng đất cũ của nước Sở, một người trẻ tuổi cao lớn tên Hạng Vũ cùng chú là Hạng Lương nổi dậy ở Cối Kê."
+ },
+ {
+  "n": 7027,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Hồi nhỏ, Hạng Vũ học chữ thì bỏ, học kiếm cũng bỏ. Ông nói: chữ chỉ để ghi tên, kiếm chỉ địch một người, ta muốn học cái để địch vạn người."
+ },
+ {
+  "n": 7028,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Có lần ông đứng xem Tần Thủy Hoàng đi tuần, nói to: kẻ ấy, ta có thể thay thế. Chú ông vội bịt miệng, vì câu ấy đủ để cả nhà bị chém."
+ },
+ {
+  "n": 7029,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Ở Cối Kê, hai chú cháu ra tay chiếm quyền của quan Tần đứng đầu quận. Họ gom được khoảng tám nghìn người, và quân số nhanh chóng lên hàng chục nghìn."
+ },
+ {
+  "n": 7030,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Còn ở huyện Bái, cách đó không xa, có một người khác. Ông tên Lưu Bang, làm đình trưởng."
+ },
+ {
+  "n": 7031,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Đình trưởng là chức quan nhỏ nhất, coi một trạm dọc đường: bắt trộm, thu thuế, tiếp khách qua đường. Nói nôm na là trưởng trạm."
+ },
+ {
+  "n": 7032,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Lưu Bang không giống Hạng Vũ ở bất cứ điểm nào. Ông xuất thân nông dân, không có dòng dõi, thích rượu, hay ghé quán ăn rồi ghi sổ nợ."
+ },
+ {
+  "n": 7033,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Cũng như Hạng Vũ, Lưu Bang một hôm nhìn thấy Tần Thủy Hoàng đi qua. Ông thở dài: ôi, đại trượng phu phải như thế này."
+ },
+ {
+  "n": 7034,
+  "chuong": "Một cơn mưa",
+  "tone": "light",
+  "text": "Cùng một người, hai cách nghĩ. Hạng Vũ nghĩ: ta sẽ thay ông ta. Lưu Bang nghĩ: giá mà ta được như ông ta. Có lẽ đó đã là bản tóm tắt của cả cuộc chiến."
+ },
+ {
+  "n": 7035,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Một lần, Lưu Bang được giao áp giải một nhóm tù đi làm lao dịch ở núi Lệ Sơn. Dọc đường, tù trốn mất rất nhiều."
+ },
+ {
+  "n": 7036,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Ông tính nhẩm: đến nơi mà thiếu người thì mất đầu. Bèn dừng lại uống rượu, rồi thả hết số tù còn lại: các anh cứ đi đi, tôi cũng đi đây."
+ },
+ {
+  "n": 7037,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Có mười mấy người xin đi theo ông. Từ đó ông thành người bỏ trốn, ẩn trong núi đầm."
+ },
+ {
+  "n": 7038,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Khi tin Trần Thắng nổi dậy truyền đến, dân huyện Bái giết quan huyện, rước Lưu Bang vào làm người đứng đầu. Từ đó ông được gọi là Bái Công, nghĩa là ông chủ vùng Bái."
+ },
+ {
+  "n": 7039,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Bên cạnh ông có Tiêu Hà và Tào Tham, hai viên chức trong huyện, và Phàn Khoái, một người làm nghề mổ chó. Ba người này sẽ theo ông suốt cuộc chiến."
+ },
+ {
+  "n": 7040,
+  "chuong": "Một cơn mưa",
+  "tone": "calm",
+  "text": "Thế là cuối năm hai trăm linh chín, trên đất Trung Hoa có ba đám lửa lớn: Trần Thắng đã tắt, Hạng Vũ và Lưu Bang vừa bùng lên."
+ },
+ {
+  "n": 7041,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Nhà Hạng ở nước Sở có một mưu sĩ già, tên Phạm Tăng, lúc đó đã bảy mươi tuổi. Ông tìm đến Hạng Lương và đưa ra một lời khuyên."
+ },
+ {
+  "n": 7042,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Ông nói: nước Sở ngày xưa mất vì bị lừa. Dân Sở vẫn còn nhớ. Có câu: nước Sở dù chỉ còn ba nhà, người diệt nhà Tần cũng sẽ là Sở."
+ },
+ {
+  "n": 7043,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Vậy nên đừng tự xưng vương. Hãy tìm con cháu của vua Sở cũ, lập lên, để người Sở có một lá cờ mà theo."
+ },
+ {
+  "n": 7044,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Hạng Lương nghe theo. Họ tìm thấy một người cháu của vua Sở, đang chăn cừu cho người ta, tên Hùng Tâm."
+ },
+ {
+  "n": 7045,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Họ đưa cậu lên làm vua, lấy tên là Sở Hoài Vương. Chú chăn cừu bỗng thành vua, còn quyền hành thì vẫn nằm trong tay nhà họ Hạng."
+ },
+ {
+  "n": 7046,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Bên dưới ngọn cờ ấy, quân của Hạng Lương thắng liên tiếp mấy trận. Ông bắt đầu kiêu."
+ },
+ {
+  "n": 7047,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Cuối mùa hè năm hai trăm linh tám, tướng Tần Chương Hàm tăng thêm quân. Một đêm, ông đánh úp doanh trại quân Sở ở Định Đào."
+ },
+ {
+  "n": 7048,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Hạng Lương chết trong trận ấy."
+ },
+ {
+  "n": 7049,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Chương Hàm nghĩ rằng quân Sở đã hết sức, bèn quay sang đánh nước Triệu ở phía bắc. Ông vây vua Triệu trong thành Cự Lộc."
+ },
+ {
+  "n": 7050,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Vua Sở Hoài Vương lúc này phải sắp xếp lại mọi thứ. Ông chia quân làm hai đường."
+ },
+ {
+  "n": 7051,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Đường thứ nhất đi về phía bắc, cứu nước Triệu. Chỉ huy cao nhất là Tống Nghĩa, phó tướng là Hạng Vũ, còn Phạm Tăng làm người bày mưu."
+ },
+ {
+  "n": 7052,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Đường thứ hai đi về phía tây, thẳng vào đất Tần. Chỉ huy là Lưu Bang."
+ },
+ {
+  "n": 7053,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Rồi Hoài Vương đưa ra một giao ước, và nó sẽ là hạt giống của cả cuộc chiến. Ai vào vùng Quan Trung trước thì được làm vua nơi đó."
+ },
+ {
+  "n": 7054,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Quan Trung là vùng đất trong các cửa ải quanh kinh đô nhà Tần. Giàu có, hiểm trở, dễ thủ. Ai làm chủ nơi đó là có nửa thiên hạ trong tay."
+ },
+ {
+  "n": 7055,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Hạng Vũ xin đi đường tây để báo thù cho chú. Hoài Vương không cho. Ông cho rằng Hạng Vũ nóng nảy, từng tàn sát ở nhiều nơi, còn Lưu Bang thì rộng lượng."
+ },
+ {
+  "n": 7056,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Quân Sở đi bắc, đến An Dương thì Tống Nghĩa dừng lại. Ông ở đó bốn mươi sáu ngày, không tiến lên."
+ },
+ {
+  "n": 7057,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Ông giải thích rất khéo: để quân Tần và quân Triệu đánh nhau cho mệt, rồi mình ra nhặt lợi. Nghe có lý."
+ },
+ {
+  "n": 7058,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Trời lạnh, mưa dầm, quân sĩ đói rét. Vậy mà Tống Nghĩa vẫn mở tiệc lớn tiễn con trai đi làm quan ở nước Tề."
+ },
+ {
+  "n": 7059,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Hạng Vũ nói với các tướng: quân Tần mạnh vây Triệu, ta lại ngồi đây? Triệu mà mất thì Tần càng mạnh, ta còn gì để nhặt?"
+ },
+ {
+  "n": 7060,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Sáng hôm sau, Hạng Vũ bước vào trướng của Tống Nghĩa, giết ông ngay trong trướng. Rồi ra ngoài, tuyên bố Tống Nghĩa đã âm mưu cùng nước Tề phản Sở."
+ },
+ {
+  "n": 7061,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Các tướng sợ hãi, không ai dám cãi. Họ nói: người dựng lên nước Sở chính là nhà Hạng, nay tướng nhà Hạng trừ kẻ phản là đúng. Hoài Vương đành chấp nhận, phong Hạng Vũ làm tướng chỉ huy cao nhất."
+ },
+ {
+  "n": 7062,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Ông cho tướng Anh Bố cùng một tướng nữa dẫn khoảng hai mươi nghìn quân qua sông Chương trước, đánh cắt đường lương của quân Tần."
+ },
+ {
+  "n": 7063,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Và ông làm một việc mà người ta nhớ đến tận ngày nay. Ông ra lệnh đập vỡ hết nồi nấu cơm, đục chìm hết thuyền, đốt hết lều trại, mỗi người chỉ mang lương khô đủ ba ngày."
+ },
+ {
+  "n": 7064,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Ý của ông rất rõ: chúng ta không có đường về, cũng không có gì để ăn. Muốn sống thì phải thắng, và muốn ăn thì phải lấy lương của địch."
+ },
+ {
+  "n": 7065,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Câu thành ngữ phá nồi chìm thuyền của người Trung Hoa, nghĩa là quyết tâm không đường lui, bắt nguồn từ chính hôm ấy."
+ },
+ {
+  "n": 7066,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Quân Sở lao vào quân Tần. Theo sử chép, chín trận liên tiếp đều thắng, quân Tần bị chặn đường lương, bị đánh tan từng đạo."
+ },
+ {
+  "n": 7067,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Sau trận, khi Hạng Vũ cho gọi các vua ấy vào gặp, sách chép rằng họ quỳ gối bước vào cổng doanh, không ai dám ngẩng đầu nhìn thẳng."
+ },
+ {
+  "n": 7068,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Còn Chương Hàm thì rơi vào thế khó. Triều đình nhà Tần nghi ngờ ông, vì Triệu Cao không ưa. Ông gửi người về xin quân thì bị bỏ mặc."
+ },
+ {
+  "n": 7069,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Sợ bị Triệu Cao hại, mùa hè năm hai trăm linh bảy, ông dẫn quân đầu hàng Hạng Vũ. Hạng Vũ nhận hàng và hứa cho ông làm vương."
+ },
+ {
+  "n": 7070,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Theo sử, khi quân Sở đi vào đất Tần, Hạng Vũ lo số quân Tần đầu hàng sẽ nổi loạn. Ông ra lệnh chôn sống họ ở Tân An. Sách ghi con số khoảng hai trăm nghìn người."
+ },
+ {
+  "n": 7071,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Nhiều nhà nghiên cứu nghi ngờ con số này. Nhưng chuyện ấy được ghi trong sử, và dân Quan Trung về sau ghi nhớ rất lâu."
+ },
+ {
+  "n": 7072,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Hạng Vũ thắng trận mà lòng người chẳng theo. Đây sẽ là điểm yếu lớn nhất của ông. Bạn sẽ thấy nó quay lại nhiều lần."
+ },
+ {
+  "n": 7073,
+  "chuong": "Định Đào và Cự Lộc",
+  "tone": "calm",
+  "text": "Và trong lúc ấy, người đang đi đường tây vào đất Tần là một người hoàn toàn khác."
+ },
+ {
+  "n": 7074,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Trong lúc Hạng Vũ đánh Cự Lộc, Lưu Bang đi đường tây. Ông có ít quân hơn nhiều, và đi chậm hơn nhiều."
+ },
+ {
+  "n": 7075,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Nhưng ông đi theo một cách khác. Gặp thành khó đánh thì đi vòng, gặp nơi có thể chiêu hàng thì chiêu hàng, và ra lệnh cho quân không được cướp bóc dân."
+ },
+ {
+  "n": 7076,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Dọc đường, ông thu nhận thêm người tài. Một trong số đó là Trương Lương."
+ },
+ {
+  "n": 7077,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Trương Lương là con cháu một nhà quý tộc nước Hàn. Nước Hàn bị Tần diệt, ông thề trả thù, từng thuê lực sĩ ném chùy vào xe Tần Thủy Hoàng. Chùy trượt, ông phải trốn nhiều năm."
+ },
+ {
+  "n": 7078,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Ông nói các kế ấy với nhiều người, chẳng ai hiểu. Chỉ Lưu Bang nghe là hiểu ngay và làm theo."
+ },
+ {
+  "n": 7079,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Từ đó, ông ở lại bên Lưu Bang suốt cuộc chiến."
+ },
+ {
+  "n": 7080,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Trong khi đó, ở kinh đô nhà Tần, chuyện còn lạ hơn. Triệu Cao nắm hết quyền, và muốn thử xem trong triều ai theo mình."
+ },
+ {
+  "n": 7081,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Một hôm, ông dắt một con hươu vào, nói với Tần Nhị Thế: thần xin dâng bệ hạ một con ngựa. Vua cười: ông nhầm rồi, đây là hươu."
+ },
+ {
+  "n": 7082,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Ai gật đầu nói là ngựa thì yên. Ai nói thật là hươu thì sau đó bị Triệu Cao trừ khử. Câu thành ngữ chỉ hươu bảo ngựa bắt đầu từ đây."
+ },
+ {
+  "n": 7083,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Cuối năm hai trăm linh bảy, nghe tin quân Tần thua liên tiếp, Triệu Cao sợ vua đổ tội cho mình. Ông ép Tần Nhị Thế tự sát, rồi lập một người trong hoàng tộc là Tử Anh lên thay."
+ },
+ {
+  "n": 7084,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Tử Anh không xưng hoàng đế nữa, chỉ xưng Tần vương, vì đế quốc đã gần như tan rã. Rồi ông giết Triệu Cao."
+ },
+ {
+  "n": 7085,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Chỉ ít ngày sau, quân Lưu Bang đến Bá Thượng, ngay sát kinh đô."
+ },
+ {
+  "n": 7086,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Tử Anh ngồi xe trắng, kéo bởi ngựa trắng, màu của tang lễ. Ông buộc dây vào cổ, dâng ấn của nhà Tần, đứng chờ bên đường."
+ },
+ {
+  "n": 7087,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Thế là đế quốc mà Tần Thủy Hoàng dựng lên chưa tròn mười lăm năm đã đổ."
+ },
+ {
+  "n": 7088,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Lưu Bang vào Hàm Dương. Các tướng đòi giết Tử Anh, nhưng ông không đồng ý: người đã hàng mà giết thì không lành."
+ },
+ {
+  "n": 7089,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Rồi ông bước vào cung điện nhà Tần. Vàng bạc chất thành đống, mỹ nữ có hàng nghìn, rèm gấm, màn lụa."
+ },
+ {
+  "n": 7090,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "light",
+  "text": "Người đàn ông từng ghi nợ ở quán rượu giờ ngồi giữa cả kho báu. Ông muốn ở lại."
+ },
+ {
+  "n": 7091,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Phàn Khoái can: ông muốn làm vua hay làm nhà giàu? Lưu Bang không nghe."
+ },
+ {
+  "n": 7092,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Trương Lương nói thẳng: nhà Tần vô đạo nên ông mới vào được đây. Mới vào đã hưởng lạc là giúp kẻ ác làm điều ác. Xin ông nghe Phàn Khoái."
+ },
+ {
+  "n": 7093,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Lưu Bang nghe. Ông niêm phong kho báu, đóng cửa cung, rút quân về đóng ở Bá Thượng, ngoài kinh đô."
+ },
+ {
+  "n": 7094,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Lúc ấy, có một người khác đã làm một việc mà chẳng ai chú ý. Ông là Tiêu Hà."
+ },
+ {
+  "n": 7095,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Khi các tướng chạy đi tranh vàng bạc, Tiêu Hà vào văn phòng của nhà Tần, lấy hết sổ sách, bản đồ, hộ khẩu."
+ },
+ {
+  "n": 7096,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Nhờ những thứ ấy, Lưu Bang sau này biết rõ đất nào đông dân, kho nào nhiều lương, đường nào hiểm. Còn vàng thì đem tiêu hết cũng vậy."
+ },
+ {
+  "n": 7097,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Lưu Bang gọi các bô lão trong vùng đến, nói với họ: các vị khổ vì luật nhà Tần đã lâu. Nay ta ước ba điều thôi."
+ },
+ {
+  "n": 7098,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Giết người thì phải chết. Làm người bị thương và ăn trộm thì bị trị tội. Còn lại, bỏ hết luật nhà Tần."
+ },
+ {
+  "n": 7099,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Dân mừng khôn xiết, mang rượu thịt đến mời quân. Lưu Bang từ chối, nói kho còn nhiều lương. Dân càng quý ông."
+ },
+ {
+  "n": 7100,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Có người gợi ý với Lưu Bang: quân Hạng Vũ sắp tới, đông gấp mấy lần ta. Hãy đóng cửa ải Hàm Cốc, đừng cho quân chư hầu vào, ông cứ làm vua Quan Trung."
+ },
+ {
+  "n": 7101,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "calm",
+  "text": "Lưu Bang cho là hay. Ông cử quân giữ Hàm Cốc."
+ },
+ {
+  "n": 7102,
+  "chuong": "Vào kinh đô nhà Tần",
+  "tone": "light",
+  "text": "Đó là một quyết định ngắn, vừa làm trong vài phút. Nó suýt khiến ông mất mạng."
+ },
+ {
+  "n": 7103,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Hạng Vũ dẫn quân tới Hàm Cốc, thấy cửa ải đóng chặt, quân Lưu Bang đứng trên lũy. Ông nổi giận."
  },
  {
-  "n": 6002,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7104,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Ông ra lệnh phá cửa, tiến thẳng vào, đóng quân ở Hồng Môn, không xa quân Lưu Bang."
  },
  {
-  "n": 6003,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7105,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Sử nói quân Hạng Vũ lúc ấy bốn trăm nghìn người, quân Lưu Bang một trăm nghìn. Thực tế có lẽ ít hơn."
+ },
+ {
+  "n": 7106,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Đúng lúc ấy, Tào Vô Thương, một quan nhỏ của Lưu Bang, báo với Hạng Vũ: Lưu Bang muốn xưng vương Quan Trung và đã giữ hết báu vật."
  },
  {
-  "n": 6004,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7107,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Hạng Vũ nghe xong tức giận: sáng mai cho quân ăn no, rồi đánh Lưu Bang."
+ },
+ {
+  "n": 7108,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Phạm Tăng phụ họa: Lưu Bang ở phía đông vốn tham tiền, mê gái. Nay vào Quan Trung chẳng lấy gì, chẳng đụng ai. Chí hắn không nhỏ. Phải đánh sớm."
+ },
+ {
+  "n": 7109,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Lúc đó, trong quân Sở có một người là Hạng Bá, chú của Hạng Vũ. Hạng Bá lại là bạn thân của Trương Lương, vì Trương Lương từng cứu mạng ông."
  },
  {
-  "n": 6005,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7110,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Đêm ấy, Hạng Bá phi ngựa tới doanh Lưu Bang, gặp Trương Lương, bảo: đi đi, đừng chết theo chủ vô ích."
  },
  {
-  "n": 6006,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7111,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Trương Lương không bỏ chủ mà đi. Ông vào báo ngay cho Lưu Bang."
+ },
+ {
+  "n": 7112,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Lưu Bang giật mình hỏi: làm sao bây giờ? Trương Lương hỏi: ông tự thấy quân ông đủ sức chống Hạng Vương không? Lưu Bang im lặng một lúc, rồi đáp: chắc chắn không."
  },
  {
-  "n": 6007,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7113,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Lưu Bang mời Hạng Bá vào, tiếp đãi như khách quý. Ông rót rượu chúc thọ, hứa kết thông gia: con cháu hai nhà sẽ làm sui gia."
  },
  {
-  "n": 6008,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7114,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Ông nói với Hạng Bá: tôi vào Quan Trung không dám lấy một sợi tóc, niêm phong kho, chờ tướng quân. Đóng cửa ải là để đề phòng trộm cướp. Xin ông nói giúp."
+ },
+ {
+  "n": 7115,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Hạng Bá về nói với Hạng Vũ: Lưu Bang không vào Quan Trung trước thì ngài đâu vào được. Người có công mà đánh là bất nghĩa. Hạng Vũ nghe theo."
  },
  {
-  "n": 6009,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7116,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Sáng hôm sau, Lưu Bang mang hơn một trăm kỵ binh đến Hồng Môn xin lỗi. Ông nói: tôi và tướng quân cùng đánh Tần, ông đánh phía bắc sông, tôi đánh phía nam. Không ngờ tôi vào Quan Trung trước. Có kẻ tiểu nhân nói xấu, làm hai ta xa cách."
  },
  {
-  "n": 6010,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7117,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Hạng Vũ nghe xong, buột miệng: đó là lời Tào Vô Thương người của ông nói, nếu không thì ta đâu có đến đây?"
  },
  {
-  "n": 6011,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7118,
+  "chuong": "Hồng Môn yến",
   "tone": "light",
   "text": "Đó là lần hiếm hoi người đưa tin bị bán đứng ngay trước mặt người bị tố cáo. Tào Vô Thương mà nghe được chắc đã toát mồ hôi lạnh."
  },
  {
-  "n": 6012,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7119,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Hạng Vũ mở tiệc. Ông ngồi chỗ tôn quý nhất, còn Lưu Bang ngồi chỗ thấp hơn, như một bề tôi."
  },
  {
-  "n": 6013,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7120,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Phạm Tăng liên tục nháy mắt với Hạng Vũ. Ông còn nâng miếng ngọc đeo bên người lên, ba lần, ám hiệu: quyết định đi, ra tay đi."
  },
  {
-  "n": 6014,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7121,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Phạm Tăng ra ngoài, gọi Hạng Trang, em họ của Hạng Vũ: đại vương không nỡ ra tay. Ngươi vào múa kiếm giúp vui, nhân đó đâm Lưu Bang chết ngay trên chiếu. Không thì cả bọn ta thành tù nhân."
  },
  {
-  "n": 6015,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7122,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Hạng Trang bước vào, chúc rượu xong, nói: trong quân không có gì vui, xin múa kiếm. Hạng Vũ cho phép."
+ },
+ {
+  "n": 7123,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Hạng Trang rút kiếm múa. Nhưng Hạng Bá cũng đứng dậy, rút kiếm múa theo, lấy thân mình che cho Lưu Bang. Hạng Trang không sao ra tay được."
  },
  {
-  "n": 6016,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7124,
+  "chuong": "Hồng Môn yến",
   "tone": "light",
   "text": "Một điệu múa kiếm có hai người, một người muốn đâm, một người muốn che. Đây có lẽ là điệu múa nhiều tính toán nhất trong lịch sử."
  },
  {
-  "n": 6017,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7125,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Trương Lương lẳng lặng bước ra doanh, gặp Phàn Khoái đang đứng canh: việc nguy lắm, Hạng Trang múa kiếm, ý hắn luôn nhắm vào chủ ta."
+ },
+ {
+  "n": 7126,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Phàn Khoái nói: để tôi vào cùng sống chết. Rồi ông cầm kiếm, khiên, xông thẳng vào cổng, hất cả lính canh ngã."
  },
  {
-  "n": 6018,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7127,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Ông bước vào, quay mặt về phía Hạng Vũ, đứng nhìn trừng trừng. Sách tả tóc ông dựng ngược lên, mắt như nứt ra."
+ },
+ {
+  "n": 7128,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Hạng Vũ cầm kiếm, ngồi thẳng người dậy hỏi: khách là ai? Trương Lương đáp: là người hộ vệ của Lưu Bang. Hạng Vũ nói: tráng sĩ! Ban cho ông ấy rượu."
  },
  {
-  "n": 6019,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7129,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Phàn Khoái uống một hơi hết một đấu rượu. Hạng Vũ bảo ban thêm thịt. Họ đưa cho ông một cái đùi lợn sống."
  },
  {
-  "n": 6020,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7130,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Ông úp khiên xuống đất, đặt đùi lợn lên, rút kiếm cắt ăn."
  },
  {
-  "n": 6021,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7131,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Ông nói thẳng: Lưu Bang vào Hàm Dương không dám đụng gì, về đóng quân chờ ngài. Công lớn như vậy chưa được thưởng, lại nghe lời xấu muốn giết người có công. Như thế là đi theo vết xe nhà Tần đã đổ."
  },
  {
-  "n": 6022,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7132,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Hạng Vũ không đáp được. Ông chỉ nói: ngồi xuống đi."
+ },
+ {
+  "n": 7133,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Một lúc sau, Lưu Bang đứng dậy nói đi nhà xí, và gọi Phàn Khoái đi theo. Ông chưa cáo từ."
  },
  {
-  "n": 6023,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7134,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Phàn Khoái can: chưa từ biệt, như vậy có sao không? Lưu Bang lưỡng lự. Phàn Khoái nói một câu rất nổi tiếng: người ta là dao với thớt, mình là cá với thịt, từ biệt làm gì?"
+ },
+ {
+  "n": 7135,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Lưu Bang bỏ lại xe ngựa, cùng bốn người cầm kiếm khiên, đi bộ trốn theo đường tắt dưới chân núi về Bá Thượng. Ông dặn Trương Lương: tính khi ta về tới doanh rồi hãy vào chào."
  },
  {
-  "n": 6024,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7136,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Trương Lương nán lại, đợi chừng đủ lâu mới vào xin lỗi thay chủ: Lưu Bang uống không nổi rượu. Xin dâng tướng quân đôi ngọc bích, và tặng Phạm Tăng đôi chén ngọc."
  },
  {
-  "n": 6025,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
-  "tone": "light",
+  "n": 7137,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
   "text": "Hạng Vũ nhận ngọc, đặt lên chiếu. Phạm Tăng nhận chén ngọc, ném xuống đất, rút kiếm đập vỡ."
  },
  {
-  "n": 6026,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7138,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Ông than: than ôi, thằng nhóc này không đáng cùng bàn việc lớn. Người cướp thiên hạ của Hạng Vương nhất định là Lưu Bang. Rồi bọn ta đều sẽ thành tù binh."
+ },
+ {
+  "n": 7139,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Lưu Bang về doanh, việc đầu tiên là giết Tào Vô Thương. Ông ta đã đóng vai người báo tin và nhận về một kết cục không hay."
  },
  {
-  "n": 6027,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7140,
+  "chuong": "Hồng Môn yến",
+  "tone": "calm",
+  "text": "Vì sao Hạng Vũ lại tha? Sử không giải thích rõ. Có thể ông quá tự tin, có thể ông trọng thể diện, có thể ông chưa coi Lưu Bang là đối thủ."
+ },
+ {
+  "n": 7141,
+  "chuong": "Hồng Môn yến",
   "tone": "calm",
   "text": "Phạm Tăng đã nói đúng. Chỉ vài năm sau, chính Lưu Bang sẽ là người giành thiên hạ khỏi tay Hạng Vũ."
  },
  {
-  "n": 6028,
-  "chuong": "Hồng Môn, năm hai trăm linh sáu",
+  "n": 7142,
+  "chuong": "Hồng Môn yến",
   "tone": "light",
   "text": "Cả bữa tiệc, có một cái đùi lợn sống, hai điệu múa, ba ám hiệu bằng ngọc, và một chuyến đi nhà xí. Rồi cả lịch sử Trung Hoa rẽ sang hướng khác."
+ },
+ {
+  "n": 7143,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Vài ngày sau Hồng Môn, Hạng Vũ vào Hàm Dương. Việc đầu tiên ông làm là giết Tử Anh, người đã đầu hàng."
+ },
+ {
+  "n": 7144,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Ông cho đốt cung điện nhà Tần. Sách chép rằng lửa cháy ba tháng mới tắt. Có thể hơi quá, nhưng nó cho thấy cảnh tượng hãi hùng đến mức nào."
+ },
+ {
+  "n": 7145,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Có người khuyên ông ở lại Quan Trung. Vùng đất này hiểm trở, màu mỡ, núi sông bao quanh, đóng đô ở đây là có thể làm bá chủ thiên hạ."
+ },
+ {
+  "n": 7146,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Hạng Vũ nhìn cảnh cung điện đổ nát, lại nhớ quê, bèn nói: giàu sang mà không về quê, như mặc áo gấm đi ban đêm, ai biết cho?"
+ },
+ {
+  "n": 7147,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Người khuyên thở dài, lui ra, nói nhỏ với người bên cạnh: người ta nói người Sở chỉ là khỉ đội mũ người, quả đúng."
+ },
+ {
+  "n": 7148,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Có người nghe được, báo lại. Hạng Vũ nổi giận, bắt ông ta xử tử."
+ },
+ {
+  "n": 7149,
+  "chuong": "Chia thiên hạ",
+  "tone": "light",
+  "text": "Một lời chê đúng, nhưng nói sai chỗ và sai thời điểm."
+ },
+ {
+  "n": 7150,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Rồi đến chuyện giao ước. Hạng Vũ viết thư hỏi Hoài Vương: Lưu Bang vào Quan Trung trước, vậy theo giao ước, ông ta có được làm vua không?"
+ },
+ {
+  "n": 7151,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Hoài Vương trả lời ngắn gọn: cứ làm theo giao ước."
+ },
+ {
+  "n": 7152,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Hạng Vũ bực. Ông nghĩ: Hoài Vương chỉ là người nhà Hạng lập ra, có công gì? Công diệt Tần là của các tướng và của ta."
+ },
+ {
+  "n": 7153,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Ông bèn tôn Hoài Vương lên làm Nghĩa Đế. Nghe thì sang, nhưng thực chất là cắt hết quyền. Rồi ông ra lệnh đưa Nghĩa Đế đến vùng sông nước xa xôi phía nam."
+ },
+ {
+  "n": 7154,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Về sau, theo sử, ông lén sai Anh Bố giết Nghĩa Đế dọc đường. Chuyện này làm ông mất lòng người, và Lưu Bang sẽ tận dụng nó."
+ },
+ {
+  "n": 7155,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Rồi Hạng Vũ làm việc lớn nhất của ông: chia lại thiên hạ."
+ },
+ {
+  "n": 7156,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Ông tự xưng Tây Sở Bá Vương. Chữ Bá nghĩa là người đứng đầu các vua. Tức là, ông là vua của các vua."
+ },
+ {
+  "n": 7157,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Đất của ông là chín quận ở vùng Sở, kinh đô là Bành Thành."
+ },
+ {
+  "n": 7158,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Ông chia phần còn lại thành khoảng mười tám nước nhỏ, phong vương cho những người ông tin: tướng có công, quý tộc nước cũ, và cả những tướng đã hàng."
+ },
+ {
+  "n": 7159,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Nhưng cách chia lại thiên vị quá. Người thân thì được nhiều, người từng chống ông thì bị bỏ rơi. Người nhiều công như Điền Vinh ở Tề, Trần Dư ở Triệu không được phần xứng đáng."
+ },
+ {
+  "n": 7160,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Với Lưu Bang, ông có cách riêng. Ông không dám phong ông ở Quan Trung. Ông phong cho ông làm Hán Vương, cai quản vùng Ba, Thục và Hán Trung."
+ },
+ {
+  "n": 7161,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Hán Vương là vua của nước Hán, một nước nhỏ nằm trong núi. Hãy nhớ chữ Hán này, vì nó sẽ thành tên của cả một triều đại bốn trăm năm."
+ },
+ {
+  "n": 7162,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Còn Quan Trung, chỗ Lưu Bang đáng ra được làm vua, Hạng Vũ chia làm ba, trao cho ba tướng Tần đã hàng: Chương Hàm, Tư Mã Hân, Đổng Ế, gọi là Tam Tần. Họ chặn đúng cửa núi Lưu Bang muốn bước ra."
+ },
+ {
+  "n": 7163,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Lưu Bang đọc tin, nổi giận như lửa. Ông muốn đem quân đánh ngay, dù biết không đủ sức."
+ },
+ {
+  "n": 7164,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Ông nói: làm vua Hán Trung tuy xấu, nhưng còn hơn chết. Cứ ở đó nuôi dân, thu người hiền, rồi quay ra lấy Tam Tần. Thiên hạ có thể định."
+ },
+ {
+  "n": 7165,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Lưu Bang suy nghĩ rồi nghe theo. Ông gật đầu: được, ta sẽ nhịn."
+ },
+ {
+  "n": 7166,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Hạng Vũ cho ba vạn lính đi theo Lưu Bang vào Hán Trung. Cộng thêm vài nghìn người từ nơi khác ngưỡng mộ ông nên đi theo."
+ },
+ {
+  "n": 7167,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Trương Lương tiễn ông một đoạn đường, rồi khuyên: sau khi qua hết đường gỗ trên vách núi, ông hãy cho đốt đi."
+ },
+ {
+  "n": 7168,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Đường gỗ trên vách núi ấy gọi là sạn đạo. Ông giải thích: đốt đi có hai lợi. Một là chặn quân khác đánh lén sau lưng. Hai là cho Hạng Vũ thấy ông không có ý quay lại."
+ },
+ {
+  "n": 7169,
+  "chuong": "Chia thiên hạ",
+  "tone": "light",
+  "text": "Cắt đường lui của chính mình là cách hơi lạ để chứng tỏ mình ngoan. Nhưng nó hiệu nghiệm."
+ },
+ {
+  "n": 7170,
+  "chuong": "Chia thiên hạ",
+  "tone": "calm",
+  "text": "Đoàn quân của Lưu Bang vào vùng núi, phía sau đường gỗ bốc cháy. Họ không còn đường lui."
+ },
+ {
+  "n": 7171,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Vào đến Hán Trung, Lưu Bang gặp ngay một vấn đề lớn. Lính của ông phần lớn là người phía đông, và họ nhớ nhà."
+ },
+ {
+  "n": 7172,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Ngày nào cũng có người bỏ trốn. Rồi tướng cũng bỏ trốn. Sử chép có hàng chục tướng bỏ ông trên đường vào núi."
+ },
+ {
+  "n": 7173,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Một trong những người trốn là Hàn Tín. Ông này không có chức gì to. Nhưng trong tương lai, ông sẽ thành người quan trọng nhất cuộc chiến."
+ },
+ {
+  "n": 7174,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Hàn Tín là người đất Hoài Âm, nghèo, không biết làm ăn, ngày nào cũng đeo một thanh kiếm đi lang thang."
+ },
+ {
+  "n": 7175,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Sau đó, ông ra sông câu cá. Một bà già giặt lụa thương ông, cho ông ăn cơm mấy chục ngày."
+ },
+ {
+  "n": 7176,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Hàn Tín hứa: sau này con nhất định sẽ báo đáp bà. Bà giận: đàn ông không tự nuôi nổi thân, ta thương công tử, chứ có trông báo đáp đâu!"
+ },
+ {
+  "n": 7177,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Chuyện nổi tiếng nhất là ở chợ. Một tên côn đồ chặn ông lại: to cao, hay đeo kiếm, nhưng thật ra nhát. Có gan thì đâm ta, không thì chui qua háng ta."
+ },
+ {
+  "n": 7178,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Hàn Tín nhìn hắn một lúc lâu. Rồi cúi xuống, chui qua háng. Cả chợ cười ầm."
+ },
+ {
+  "n": 7179,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Ông không đánh nhau vì một lời thách, vì còn việc lớn hơn. Nhiều năm sau, ông tìm lại tên côn đồ ấy, phong cho một chức quan nhỏ, nói: lúc ấy ta không thể giết hắn nên mới nhịn."
+ },
+ {
+  "n": 7180,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Khi nhà Tần sụp, Hàn Tín theo Hạng Lương, rồi theo Hạng Vũ, làm lính đứng gác trong trướng. Ông nhiều lần dâng kế, Hạng Vũ không dùng."
+ },
+ {
+  "n": 7181,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Một lần, Hàn Tín phạm một lỗi gì đó, bị kết án chém cùng mười ba người khác. Mười hai người đã bị xử xong. Đến lượt ông."
+ },
+ {
+  "n": 7182,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Ông ngẩng lên, thấy Hạ Hầu Anh, người thân cận của Lưu Bang, đứng gần đó. Ông nói to: Hán Vương không muốn lấy thiên hạ sao? Sao lại chém tráng sĩ?"
+ },
+ {
+  "n": 7183,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Hạ Hầu Anh thấy lời lạ, nhìn ông thêm một lát, rồi thả ông ra. Ông kể chuyện với Lưu Bang, nhưng Lưu Bang cũng chẳng để ý lắm."
+ },
+ {
+  "n": 7184,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Chỉ có một người thấy ngay: Tiêu Hà. Ông nói chuyện với Hàn Tín vài lần, rồi nhận ra đây là kỳ tài. Ông tiến cử với Lưu Bang. Lưu Bang không dùng."
+ },
+ {
+  "n": 7185,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Thấy mình không có tương lai, Hàn Tín quyết định trốn."
+ },
+ {
+  "n": 7186,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Tiêu Hà nghe tin Hàn Tín bỏ đi, không kịp báo, nhảy lên ngựa đuổi theo ngay giữa đêm."
+ },
+ {
+  "n": 7187,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Có người chạy đến báo Lưu Bang: Thừa tướng Tiêu Hà, người giúp ông lo hết việc nước, đã trốn mất rồi! Lưu Bang giận như mất cả hai cánh tay."
+ },
+ {
+  "n": 7188,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Hai ngày sau, Tiêu Hà trở về. Lưu Bang vừa mừng vừa giận, mắng: ngươi trốn làm gì? Tiêu Hà đáp: thần đâu dám trốn, thần đuổi người trốn. Lưu Bang hỏi: ai? Tiêu Hà đáp: Hàn Tín."
+ },
+ {
+  "n": 7189,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Tiêu Hà nói bình tĩnh: tướng thường thì dễ kiếm. Còn Hàn Tín là bậc kỳ tài, không ai sánh bằng. Nếu ông chỉ muốn ở mãi Hán Trung thì không cần dùng ông ấy. Còn muốn tranh thiên hạ thì ngoài Hàn Tín, không ai bàn việc cùng ông."
+ },
+ {
+  "n": 7190,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Lưu Bang nói: vì ngươi, ta cho ông ấy làm tướng. Tiêu Hà lắc đầu: làm tướng thì ông ấy không ở. Phải làm đại tướng, người chỉ huy toàn quân."
+ },
+ {
+  "n": 7191,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Lưu Bang nói: vậy cho ông ấy làm đại tướng. Tiêu Hà đáp: ông hay coi thường người, gọi như gọi trẻ con. Muốn bái đại tướng phải chọn ngày, ăn chay, lập đàn, làm lễ đàng hoàng."
+ },
+ {
+  "n": 7192,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Lưu Bang nghe theo. Cả quân nghe tin sắp có lễ bái đại tướng, ai cũng mừng, ai cũng nghĩ mình là người được chọn."
+ },
+ {
+  "n": 7193,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Đến ngày lễ, người được gọi lên là một người ai cũng ngạc nhiên: Hàn Tín. Cả quân sửng sốt."
+ },
+ {
+  "n": 7194,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Sau lễ, Lưu Bang ngồi nói chuyện với Hàn Tín: ông có kế gì cho ta không? Hàn Tín hỏi ngược lại: về dũng cảm, nhân từ, và sức mạnh, ông tự thấy mình so với Hạng Vũ thế nào?"
+ },
+ {
+  "n": 7195,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Lưu Bang im lặng một lúc, rồi đáp: ta không bằng. Hàn Tín cúi chào, nói: thần cũng nghĩ ông không bằng. Nhưng thần từng thờ ông ấy, xin nói về ông ấy."
+ },
+ {
+  "n": 7196,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Ông nói: Hạng Vũ hét một tiếng, hàng nghìn người khiếp sợ. Nhưng ông ấy không biết dùng tướng tài. Đó chỉ là cái dũng của một người, không phải của một thủ lĩnh."
+ },
+ {
+  "n": 7197,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Ông ấy đối xử với người rất nhã nhặn. Ai bệnh thì rơi nước mắt, chia cơm. Nhưng khi có người lập công đáng phong, ấn đã khắc xong, ông ấy mân mê đến mòn cả góc mà không nỡ trao. Đó là cái nhân của đàn bà."
+ },
+ {
+  "n": 7198,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Ông ấy bỏ vùng Quan Trung hiểm trở để về Bành Thành. Ông ấy phong vương theo người thân. Đi qua đâu cũng tàn sát, dân oán. Chỉ vì mạnh nên thiên hạ mới phục, chứ lòng thì không."
+ },
+ {
+  "n": 7199,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Hàn Tín nói tiếp: làm ngược lại với ông ấy thì thiên hạ có thể định. Dùng người tài, đừng tiếc. Chia đất cho công thần, đừng tiếc. Dẫn quân đánh về phía đông, đám lính nhớ nhà sẽ hùng hổ theo ông."
+ },
+ {
+  "n": 7200,
+  "chuong": "Hàn Tín",
+  "tone": "calm",
+  "text": "Lưu Bang nghe xong, mừng rỡ. Ông chỉ tiếc đã gặp Hàn Tín muộn."
+ },
+ {
+  "n": 7201,
+  "chuong": "Hàn Tín",
+  "tone": "light",
+  "text": "Câu hỏi là: người chui qua háng và người cầm mân mê ấn đến mòn góc, ai là người thật sự mạnh? Câu trả lời sẽ còn xuất hiện nhiều lần."
+ },
+ {
+  "n": 7202,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Mùa thu năm hai trăm linh sáu, Hàn Tín bắt tay vào việc. Ông tập trung quân, chia nhiệm vụ cho từng tướng, tất cả theo những điều ông đã nói."
+ },
+ {
+  "n": 7203,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Rồi ông làm một việc mà người đời còn nhắc tới như một câu thành ngữ: sửa sạn đạo ở chỗ sáng, vượt Trần Thương ở chỗ tối."
+ },
+ {
+  "n": 7204,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Ông cho vài nghìn lính ra sửa đường gỗ bị đốt, dưới ánh sáng ban ngày, để tướng Tam Tần nhìn thấy. Họ nghĩ: sạn đạo dài như thế, bao giờ mới sửa xong?"
+ },
+ {
+  "n": 7205,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Trong khi đó, đại quân của Hàn Tín lặng lẽ đi vòng theo một con đường khác, và bất ngờ xuất hiện ở Trần Thương, ngay trước mặt Chương Hàm."
+ },
+ {
+  "n": 7206,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Câu thành ngữ này nổi tiếng hơn chính sử. Sách sử chép khá ngắn gọn, còn chi tiết sửa đường giả và chi tiết đi vòng được nhiều người kể thêm."
+ },
+ {
+  "n": 7207,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Điều chắc chắn là quân Lưu Bang đã ra khỏi núi bất ngờ, đánh bại Chương Hàm hai trận liền. Chương Hàm bị vây ở Phế Khâu và đến năm hai trăm linh năm thì tự sát."
+ },
+ {
+  "n": 7208,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Tư Mã Hân và Đổng Ế đầu hàng. Chỉ trong vài tháng, Quan Trung rơi vào tay Lưu Bang."
+ },
+ {
+  "n": 7209,
+  "chuong": "Bành Thành",
+  "tone": "light",
+  "text": "Đây là điều mà Hạng Vũ không ngờ: người ông tưởng đã nhốt trong núi lại ra khỏi núi dễ dàng như đi dạo."
+ },
+ {
+  "n": 7210,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Lưu Bang để Tiêu Hà ở lại giữ Quan Trung. Tiêu Hà lo việc dân, lo lương, lo tuyển quân."
+ },
+ {
+  "n": 7211,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Về sau, mỗi lần Lưu Bang thua trận, Tiêu Hà lại gửi đến lúc nào cũng đúng lúc: quân mới, lương mới. Cuộc chiến được quyết định ở sau lưng không kém ở chiến trường."
+ },
+ {
+  "n": 7212,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Trong khi đó, Hạng Vũ không rảnh để lo cho Lưu Bang. Phía đông của ông đang bốc cháy."
+ },
+ {
+  "n": 7213,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Điền Vinh, quý tộc nước Tề, bị Hạng Vũ bỏ rơi khi chia đất. Ông giết các vua do Hạng Vũ phong ở Tề, rồi liên kết với Bành Việt, một thủ lĩnh quân du kích, để chống Hạng Vũ."
+ },
+ {
+  "n": 7214,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Hạng Vũ đem quân phía bắc đánh Tề. Ông thắng nhiều trận, giết được Điền Vinh. Nhưng thắng xong lại không biết dừng."
+ },
+ {
+  "n": 7215,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Sách chép ông cho đốt thành, bắt người đem đi. Dân Tề căm giận, nổi dậy khắp nơi. Hạng Vũ bị lún sâu trong Tề, không rút ra được."
+ },
+ {
+  "n": 7216,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Chính vào lúc này, Lưu Bang thấy cơ hội. Ông cho quân ra khỏi Hàm Cốc, đi về phía đông."
+ },
+ {
+  "n": 7217,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Vua Ân và vua Hà Nam, hai nước nhỏ chắn đường, lần lượt đầu hàng. Lưu Bang tiến vào Lạc Dương."
+ },
+ {
+  "n": 7218,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Ở Lạc Dương, một cụ già có danh vọng chặn ngựa ông lại, nói: thuận đức thì thịnh, nghịch đức thì vong. Muốn đánh người, phải có lý do."
+ },
+ {
+  "n": 7219,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Ông nói tiếp: Hạng Vũ đã giết Nghĩa Đế, người cả thiên hạ từng thờ làm vua. Đó là đại nghịch. Xin ông mặc tang cho Nghĩa Đế, rồi kêu gọi các vua cùng đánh kẻ giết vua."
+ },
+ {
+  "n": 7220,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Lưu Bang nghe xong, cởi áo một bên vai, khóc lớn. Rồi ông ra lệnh cả quân mặc tang phục, để tang ba ngày."
+ },
+ {
+  "n": 7221,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Sau đó, ông gửi thư đi khắp các nước: Hạng Vũ đã giết Nghĩa Đế, ta xin cùng các vị đánh kẻ giết vua."
+ },
+ {
+  "n": 7222,
+  "chuong": "Bành Thành",
+  "tone": "light",
+  "text": "Lưu Bang chưa chắc từng thân với Nghĩa Đế đến thế. Nhưng ông là người biết biến một cái chết thành một lá cờ. Người ta gọi đó là chính trị."
+ },
+ {
+  "n": 7223,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Và nó hiệu nghiệm. Hết vua này đến vua khác gửi quân theo. Đầu năm hai trăm linh năm, Lưu Bang đã có trong tay một liên quân của năm vua."
+ },
+ {
+  "n": 7224,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Sử chép số quân là năm trăm sáu mươi nghìn người. Đó là con số hiếm khi được tin. Nhiều nhà nghiên cứu cho rằng thực tế ít hơn rất nhiều."
+ },
+ {
+  "n": 7225,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Hạng Vũ không có mặt. Ông còn đang kẹt ở nước Tề phía bắc. Bành Thành gần như bỏ trống."
+ },
+ {
+  "n": 7226,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Quân của Lưu Bang vào Bành Thành, gần như không gặp chống cự."
+ },
+ {
+  "n": 7227,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Họ chiếm kho báu của Hạng Vũ, bắt các phụ nữ trong cung, thu hết vàng bạc."
+ },
+ {
+  "n": 7228,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Lưu Bang mở tiệc ăn mừng, ngày đêm không ngừng, rượu thịt ê hề. Sử chép rằng ông và các tướng uống đến say, quên hết mọi chuyện."
+ },
+ {
+  "n": 7229,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Chỉ khoảng một năm, người bị đẩy vào núi như đi đày đã quay lại ngồi ngay trong kinh đô của chính kẻ đã đày mình."
+ },
+ {
+  "n": 7230,
+  "chuong": "Bành Thành",
+  "tone": "light",
+  "text": "Nhưng có một điều ông chưa tính. Chủ nhà còn chưa chết. Và anh ta biết rất rõ đường về nhà."
+ },
+ {
+  "n": 7231,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Vì sao một liên quân đông như thế, vào được kinh đô của kẻ thù rồi mà lại không biết giữ? Và vì sao người đang thắng lớn nhất lại là người dễ ngã nhất?"
+ },
+ {
+  "n": 7232,
+  "chuong": "Bành Thành",
+  "tone": "calm",
+  "text": "Tập sau sẽ kể tiếp: Hạng Vũ quay về chỉ với ba mươi nghìn quân tinh nhuệ, và Lưu Bang sắp phải chạy trốn như chưa từng chạy."
  }
 ]

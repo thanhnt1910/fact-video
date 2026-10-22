@@ -66,7 +66,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install -q pillow kaggle
+      - name: Cài FFmpeg và thư viện
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg
+          python -m pip install -q pillow kaggle
       - name: Chạy
         env:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}

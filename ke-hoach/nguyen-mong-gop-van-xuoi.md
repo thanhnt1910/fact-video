@@ -244,7 +244,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 155. Đầu tháng hai, họ thua ở ải Nội Bàng. **[CG]**
 156. Trần Quốc Tuấn không đem quân đón đánh ngoài biên giới. Ông cho rút về Vạn Kiếp, một căn cứ ở Chí Linh. **[CG]**
 157. Quân Nguyên đuổi theo, đánh Vạn Kiếp. **[CG]**
-158. Một trận thủy chiến lớn nổ ra vào giữa tháng hai. Vua Trần đến tận nơi để động viên. **[CG]**
+158. Họ phá phòng tuyến của quân Trần, rồi dùng thuyền bắt được để vượt sông Cầu vào ngày mười tám tháng hai. **[CG]**
 159. Quân Trần lại phải rút. **[CG]**
 160. Nhiều tướng của quân Trần đã ngã xuống hoặc bị bắt, như Nghê Nhuận và Đoàn Thai. **[CG]**
 161. Có người nhìn vào đây và nói: Đại Việt đang thua. **[CC]**

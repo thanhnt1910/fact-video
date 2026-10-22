@@ -7,6 +7,10 @@ name: Video người nhảy (Kaggle, miễn phí)
 # Không chạy cùng lúc với workflow Kaggle khác (vẽ ảnh, tranh thành video).
 
 on:
+  # Kích hoạt kiểu của repo: đẩy file dance_in/demo/chay.txt lên nhánh này (không cần có workflow trên main).
+  push:
+    branches: [them-video-nhay-kaggle]
+    paths: ['dance_in/demo/chay.txt']
   workflow_dispatch:
     inputs:
       buoc:
@@ -76,8 +80,10 @@ jobs:
           BAT_DAU: ${{ inputs.bat_dau }}
           THU: ${{ inputs.thu }}
           CHO: ${{ inputs.cho }}
+          SU_KIEN: ${{ github.event_name }}
         run: |
           set -e
+          if [ "$SU_KIEN" = "push" ]; then set -a; . dance_in/demo/chay.txt; set +a; fi
           if [ "$BUOC" = "gui" ]; then
             EXTRA=""
             if [ "$THU" = "true" ]; then EXTRA="--thu"; fi
@@ -89,8 +95,9 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: video-nhay-${{ inputs.ten }}
+          name: video-nhay-${{ inputs.ten || github.run_id }}
           path: |
             output/dance/*.mp4
             logs/kaggle_dance/*
           if-no-files-found: ignore
+          retention-days: 1   # repo public nên cho video tự xóa sau 1 ngày; tải về ngay

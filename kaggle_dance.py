@@ -220,8 +220,10 @@ def cmd_gui(a):
     shutil.rmtree(WORK, ignore_errors=True)
     ds = WORK / "dataset"
     ds.mkdir(parents=True)
-    from PIL import Image
-    Image.open(anh).convert("RGB").save(ds / "anh.jpg", quality=92)
+    from PIL import Image, ImageOps
+    # cắt ảnh cho đúng tỉ lệ khung (giữ phần trên, không bóp méo) để kernel không phải kéo giãn ảnh
+    ImageOps.fit(Image.open(anh).convert("RGB"), (a.rong * 2, a.cao * 2), Image.LANCZOS,
+                 centering=(0.5, 0.0)).save(ds / "anh.jpg", quality=92)
     clips, t, i = [], 0.0, 0
     while t < total - 0.05:
         ln = min(a.doan, total - t)

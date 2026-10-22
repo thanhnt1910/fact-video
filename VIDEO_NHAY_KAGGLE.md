@@ -24,5 +24,5 @@ Chạy từ máy: `python kaggle_dance.py gui --ten abc --anh ... --mau ... --th
 - Ước tính chậm: có thể vài chục phút đến hơn một giờ cho mỗi 10 giây video ở khung 368x640. Hạn mức GPU Kaggle khoảng 30 giờ mỗi tuần (số do người dùng báo cáo, Kaggle không công bố). Hạ `--rong/--cao` hoặc `--buoc-suy-luan` để nhanh hơn, chất lượng giảm.
 - Kernel dùng một slug cố định: mỗi lần chỉ một video, và không chạy cùng lúc với workflow Kaggle khác (vẽ ảnh, tranh thành video).
 - Không có bước chỉnh dáng người theo ảnh (retarget): ảnh và video mẫu nên có dáng người và khung hình tương tự.
-- Khung xương lấy bằng DWPose (controlnet-aux), mặt cắt bằng OpenCV YuNet. Hai phần này là bản xấp xỉ của bước tiền xử lý gốc của Wan-Animate nên chất lượng có thể kém bản gốc.
+- Khung xương lấy bằng DWPose (easy-dwpose), mặt cắt bằng OpenCV YuNet. Hai phần này là bản xấp xỉ của bước tiền xử lý gốc của Wan-Animate nên chất lượng có thể kém bản gốc.
 - Workflow không commit gì vào repo; video chỉ nằm ở Artifacts (giữ theo thời hạn mặc định của GitHub).

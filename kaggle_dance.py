@@ -50,8 +50,10 @@ if _tok:
     os.environ["HF_TOKEN"] = _tok
 subprocess.run([sys.executable, "-m", "pip", "uninstall", "-y", "-q", "torchao"])
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "git+https://github.com/huggingface/diffusers.git",
-                "transformers", "accelerate", "bitsandbytes", "controlnet-aux", "onnxruntime", "opencv-python-headless",
-                "imageio", "imageio-ffmpeg", "ftfy", "sentencepiece", "protobuf"], check=True)
+                "transformers", "accelerate", "bitsandbytes", "onnxruntime", "loguru", "omegaconf", "matplotlib",
+                "opencv-python-headless", "imageio", "imageio-ffmpeg", "ftfy", "sentencepiece", "protobuf"], check=True)
+# easy-dwpose chạy bằng ONNX (không cần mmpose); --no-deps để khỏi kéo onnxruntime-gpu bản cũ
+subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--no-deps", "easy-dwpose"], check=True)
 log("cài xong thư viện")
 import numpy as np, cv2, torch
 from PIL import Image
@@ -72,9 +74,10 @@ MID = "Wan-AI/Wan2.2-Animate-14B-Diffusers"
 log("GPU:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "KHÔNG CÓ GPU", f"| khung {W}x{H}")
 
 # ---------- tiền xử lý: khung xương (pose) + khuôn mặt (face) từ video nhảy mẫu ----------
-from controlnet_aux import DWposeDetector
-dw = DWposeDetector.from_pretrained("yzd-v/DWPose", "yzd-v/DWPose", det_filename="yolox_l.onnx",
-                                    pose_filename="dw-ll_ucoco_384.onnx", torchscript_device="cpu")
+os.makedirs("/tmp/dwp", exist_ok=True)
+os.chdir("/tmp/dwp")                      # easy-dwpose tải mô hình ONNX vào ./checkpoints
+from easy_dwpose import DWposeDetector
+dw = DWposeDetector(device="cpu")
 yunet = "/tmp/yunet.onnx"
 if not os.path.exists(yunet):
     urllib.request.urlretrieve("https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/"
@@ -124,8 +127,7 @@ def face_crops(frames):
 def pose_frames(frames):
     out = []
     for f in frames:
-        p = dw(Image.fromarray(f), detect_resolution=512, image_resolution=512, include_body=True, include_hand=True,
-               include_face=False, output_type="pil")
+        p = dw(Image.fromarray(f), detect_resolution=512, include_face=False, include_hands=True)
         out.append(p.convert("RGB").resize((W, H), Image.LANCZOS))
     return out
 

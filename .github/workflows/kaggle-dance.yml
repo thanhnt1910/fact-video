@@ -14,9 +14,9 @@ on:
   workflow_dispatch:
     inputs:
       buoc:
-        description: "gui = gửi lên Kaggle; lay = lấy kết quả về"
+        description: "gui = gửi lên Kaggle; lay = lấy kết quả về; tatca = gửi rồi chờ và lấy về"
         type: choice
-        options: [gui, lay]
+        options: [gui, lay, tatca]
         default: gui
       ten:
         description: "Tên video (chữ không dấu, không khoảng trắng, vd: abc)"
@@ -90,11 +90,13 @@ jobs:
           mkdir -p logs/kaggle_dance
           exec > >(tee logs/kaggle_dance/chay_log.txt) 2>&1
           if [ "$SU_KIEN" = "push" ]; then set -a; . dance_in/demo/chay.txt; set +a; fi
-          if [ "$BUOC" = "gui" ]; then
+          if [ "$BUOC" = "gui" ] || [ "$BUOC" = "tatca" ]; then
             EXTRA=""
             if [ "$THU" = "true" ]; then EXTRA="--thu"; fi
             python kaggle_dance.py gui --ten "$TEN" --anh "$ANH" --mau "$MAU" --tong "$TONG" --doan "$DOAN" --bat-dau "$BAT_DAU" $EXTRA
-          else
+          fi
+          if [ "$BUOC" = "tatca" ]; then sleep 180; fi   # đợi Kaggle bắt đầu chạy bản mới trước khi xem trạng thái
+          if [ "$BUOC" = "lay" ] || [ "$BUOC" = "tatca" ]; then
             python kaggle_dance.py lay --ten "$TEN" --mau "$MAU" --cho "$CHO"
           fi
       - name: Lưu nhật ký vào nhánh

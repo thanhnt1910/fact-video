@@ -107,12 +107,13 @@ def num_layer(big,small):
     g.text((W/2-w1/2,y+14),big,font=f,fill=(246,206,102,255))
     g.text((W/2-w2/2,y+sz+30),small,font=fs,fill=(250,244,228,255))
     return im
+ERA='sau Công nguyên'   # nội dung có thể đổi (Hán Sở: 'trước Công nguyên')
 def chip_layer(chapter,year):
-    _g=ImageDraw.Draw(Image.new('RGBA',(10,10)));wd=int(max(420,_g.textlength(chapter,font=font(40 if not year else 26))+70))
+    _g=ImageDraw.Draw(Image.new('RGBA',(10,10)));wd=int(max(420,_g.textlength(chapter,font=font(40 if not year else 26))+70,(190+_g.textlength(ERA,font=font(28,False))+30) if year else 0))
     im=Image.new('RGBA',(wd,120),(0,0,0,0));g=ImageDraw.Draw(im)
     g.rounded_rectangle((0,0,wd,120),16,fill=(16,10,6,205))
     if year:
-        g.text((26,12),str(year),font=font(60),fill=(246,206,102,255));g.text((190,34),'sau Công nguyên',font=font(28,False),fill=(230,220,195,255))
+        g.text((26,12),str(year),font=font(60),fill=(246,206,102,255));g.text((190,34),ERA,font=font(28,False),fill=(230,220,195,255))
         g.text((26,80),chapter,font=font(26,False),fill=(215,200,170,255))
     else:
         g.text((26,34),chapter,font=font(40),fill=(246,206,102,255))

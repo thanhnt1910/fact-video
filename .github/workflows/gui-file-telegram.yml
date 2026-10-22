@@ -1,0 +1,40 @@
+name: Gửi tệp (ảnh, video) lên Telegram
+
+on:
+  workflow_dispatch:
+    inputs:
+      files:
+        description: "Các tệp trong repo, cách nhau dấu cách (ảnh gửi dạng tệp, mp4 gửi dạng video)"
+        required: true
+      caption:
+        description: "Chú thích (dùng cho tệp đầu tiên)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gửi
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FILES: ${{ inputs.files }}
+          CAP: ${{ inputs.caption }}
+        run: |
+          [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
+          fail=0
+          for f in $FILES; do
+            case "$f" in
+              *.mp4) m=sendVideo; k=video; extra="-F supports_streaming=true" ;;
+              *) m=sendDocument; k=document; extra="" ;;
+            esac
+            code=$(curl -s -o r.txt -w "%{http_code}" -F chat_id="$TG_CHAT" -F "$k=@$f" -F caption="${CAP:-$(basename $f)}" $extra "https://api.telegram.org/bot${TG_TOKEN}/$m")
+            echo "$f -> $code"; [ "$code" = 200 ] || { fail=1; head -c 300 r.txt; }
+          done
+          exit $fail

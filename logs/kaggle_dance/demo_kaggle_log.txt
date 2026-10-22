@@ -1,48 +1,159 @@
-[{"stream_name":"stdout","time":26.459012634,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 96.7 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":26.497597023,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 20.3 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":26.868229529,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 49.8 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":26.914361386,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 290.4/290.4 kB 10.0 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":27.143208114,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 79.0 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":27.723598816,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 MB 32.9 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":27.761963331,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 328.4/328.4 kB 15.0 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":27.803073377,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.8/44.8 kB 1.5 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":27.845774467,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 13.1 MB/s eta 0:00:00\n"}
-,{"stream_name":"stdout","time":27.884518517,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 37.7 MB/s eta 0:00:00\n"}
-,{"stream_name":"stderr","time":64.951710437,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stderr","time":64.951740284,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
-,{"stream_name":"stderr","time":64.951746196,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":64.951750866,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":64.951755872,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
-,{"stream_name":"stderr","time":64.95176025,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":64.951766268,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":64.951770647,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
-,{"stream_name":"stdout","time":65.288396288,"data":"[    64s] cài xong thư viện\n"}
-,{"stream_name":"stdout","time":125.365285838,"data":"[   124s] GPU: Tesla T4 | khung 368x640\n"}
-,{"stream_name":"stderr","time":125.687591126,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/mediapipe_face/mediapipe_face_common.py:7: UserWarning: The module 'mediapipe' is not installed. The package will have limited functionality. Please install it using the command: pip install 'mediapipe'\n"}
-,{"stream_name":"stderr","time":125.687627996,"data":"  warnings.warn(\n"}
-,{"stream_name":"stderr","time":128.900205357,"data":"/usr/local/lib/python3.13/dist-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers\n"}
-,{"stream_name":"stderr","time":128.900239766,"data":"  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)\n"}
-,{"stream_name":"stderr","time":128.90238384,"data":"/usr/local/lib/python3.13/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models\n"}
-,{"stream_name":"stderr","time":128.902395922,"data":"  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.models\", FutureWarning)\n"}
-,{"stream_name":"stderr","time":128.902949356,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_5m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_5m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
-,{"stream_name":"stderr","time":128.902962327,"data":"  return register_model(fn_wrapper)\n"}
-,{"stream_name":"stderr","time":128.903046201,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_11m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_11m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
-,{"stream_name":"stderr","time":128.903060821,"data":"  return register_model(fn_wrapper)\n"}
-,{"stream_name":"stderr","time":128.903074826,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
-,{"stream_name":"stderr","time":128.903080646,"data":"  return register_model(fn_wrapper)\n"}
-,{"stream_name":"stderr","time":128.903091491,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_384 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
-,{"stream_name":"stderr","time":128.903096342,"data":"  return register_model(fn_wrapper)\n"}
-,{"stream_name":"stderr","time":128.903184944,"data":"/usr/local/lib/python3.13/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_512 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_512. This is because the name being registered conflicts with an existing name. Please check if this is not expected.\n"}
-,{"stream_name":"stderr","time":128.903193348,"data":"  return register_model(fn_wrapper)\n"}
-,{"stream_name":"stderr","time":128.920821912,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":128.921139668,"data":"  File \"/kaggle/src/script.py\", line 35, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":128.921161915,"data":"    dw = DWposeDetector.from_pretrained(\"yzd-v/DWPose\", \"yzd-v/DWPose\", det_filename=\"yolox_l.onnx\",\n"}
-,{"stream_name":"stderr","time":128.921167894,"data":"         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":128.921178618,"data":"AttributeError: type object 'DWposeDetector' has no attribute 'from_pretrained'\n"}
-,{"stream_name":"stderr","time":138.677722996,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":138.677758152,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":139.036131108,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":139.036157297,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":139.906763103,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":141.270932098,"data":"[NbConvertApp] Writing 316668 bytes to __results__.html\n"}
+[{"stream_name":"stdout","time":17.888949104,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.3/80.3 kB 2.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":20.199265302,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 33.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":20.245345395,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 12.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":23.400276949,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 9.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.850648466,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.8/23.8 MB 16.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.89449967,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.6/61.6 kB 1.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.959245115,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 254.2/254.2 kB 5.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":25.566997077,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 16.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.179955052,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 MB 17.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.219096413,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 328.4/328.4 kB 13.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.250543485,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.8/44.8 kB 2.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.292537121,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 12.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.348062839,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 20.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":80.95041366,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":80.950449827,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":80.950461185,"data":"grpcio-tools 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.950468406,"data":"google-cloud-aiplatform 2.3.0 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c7.0.0,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.950472108,"data":"ydata-profiling 4.18.4 requires matplotlib\u003c=3.10,\u003e=3.5, but you have matplotlib 3.11.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.950475498,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.950492454,"data":"google-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,\u003c6.0.0dev,\u003e=3.20.2, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.950497949,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.950500543,"data":"grpcio-status 1.71.2 requires protobuf\u003c6.0dev,\u003e=5.26.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":82.725971984,"data":"[    82s] cài xong thư viện\n"}
+,{"stream_name":"stdout","time":117.65378764,"data":"[   117s] GPU: Tesla T4 | khung 368x640\n"}
+,{"stream_name":"stderr","time":123.210454874,"data":"[ WARN:0@40.213] global net_impl_backend.cpp:345 setPreferableTarget Targets are not supported by the new graph engine for now\n"}
+,{"stream_name":"stderr","time":123.210639557,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":123.2106607,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":188.199443272,"data":"\rFetching 19 files:   0%|          | 0/19 [00:00\u003c?, ?it/s]\rFetching 19 files:   5%|▌         | 1/19 [00:00\u003c00:02,  6.17it/s]\rFetching 19 files:  37%|███▋      | 7/19 [00:00\u003c00:00, 26.77it/s]\rFetching 19 files:  58%|█████▊    | 11/19 [00:00\u003c00:00, 22.06it/s]\rFetching 19 files:  74%|███████▎  | 14/19 [00:04\u003c00:02,  2.16it/s]\rFetching 19 files:  79%|███████▉  | 15/19 [00:14\u003c00:01,  2.16it/s]\rFetching 19 files:  84%|████████▍ | 16/19 [01:04\u003c00:22,  7.56s/it]\rFetching 19 files: 100%|██████████| 19/19 [01:04\u003c00:00,  3.40s/it]\n"}
+,{"stream_name":"stderr","time":188.499572396,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":188.600413577,"data":"\rLoading weights:   0%|          | 0/242 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":188.613931221,"data":"\rLoading weights:  84%|████████▍ | 203/242 [00:00\u003c00:00, 2024.68it/s]\u001b[A\rLoading weights: 100%|██████████| 242/242 [00:00\u003c00:00, 2127.43it/s]\n"}
+,{"stream_name":"stderr","time":189.170973919,"data":"\rLoading pipeline components...:  20%|██        | 1/5 [00:00\u003c00:01,  2.33it/s]\n"}
+,{"stream_name":"stderr","time":189.272072919,"data":"\rLoading weights:   0%|          | 0/519 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":189.372223485,"data":"\rLoading weights:  38%|███▊      | 196/519 [00:00\u003c00:00, 1951.39it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":189.405181027,"data":"\rLoading weights:  84%|████████▎ | 434/519 [00:00\u003c00:00, 2201.27it/s]\u001b[A\rLoading weights: 100%|██████████| 519/519 [00:00\u003c00:00, 2222.80it/s]\n"}
+,{"stream_name":"stderr","time":193.196330789,"data":"\rLoading pipeline components...:  40%|████      | 2/5 [00:01\u003c00:01,  1.54it/s]\rLoading pipeline components...:  60%|██████    | 3/5 [00:03\u003c00:02,  1.27s/it]\rLoading pipeline components...:  80%|████████  | 4/5 [00:04\u003c00:01,  1.46s/it]\rLoading pipeline components...: 100%|██████████| 5/5 [00:04\u003c00:00,  1.00it/s]\n"}
+,{"stream_name":"stdout","time":248.702608444,"data":"[   248s] mã hóa câu mô tả xong\n"}
+,{"stream_name":"stderr","time":248.818987577,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.\n"}
+,{"stream_name":"stderr","time":248.819014884,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":569.635363254,"data":"\rFetching 27 files:   0%|          | 0/27 [00:00\u003c?, ?it/s]\rFetching 27 files:  41%|████      | 11/27 [00:00\u003c00:00, 66.44it/s]\rFetching 27 files:  41%|████      | 11/27 [00:19\u003c00:00, 66.44it/s]\rFetching 27 files:  44%|████▍     | 12/27 [02:54\u003c05:01, 20.09s/it]\rFetching 27 files:  74%|███████▍  | 20/27 [02:55\u003c01:00,  8.70s/it]\rFetching 27 files:  74%|███████▍  | 20/27 [03:11\u003c01:00,  8.70s/it]\rFetching 27 files:  78%|███████▊  | 21/27 [03:51\u003c01:18, 13.06s/it]\rFetching 27 files:  81%|████████▏ | 22/27 [05:10\u003c01:43, 20.79s/it]\rFetching 27 files: 100%|██████████| 27/27 [05:10\u003c00:00, 11.51s/it]\n"}
+,{"stream_name":"stderr","time":569.791228374,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":569.943854744,"data":"\rLoading weights:   0%|          | 0/519 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":570.05464356,"data":"\rLoading weights:   2%|▏         | 9/519 [00:00\u003c00:08, 59.10it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":570.219194833,"data":"\rLoading weights:   6%|▋         | 33/519 [00:00\u003c00:03, 139.37it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":570.355957142,"data":"\rLoading weights:   9%|▉         | 49/519 [00:00\u003c00:04, 117.48it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":570.466257043,"data":"\rLoading weights:  12%|█▏        | 62/519 [00:00\u003c00:04, 108.92it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":570.641436941,"data":"\rLoading weights:  14%|█▍        | 74/519 [00:00\u003c00:04, 108.89it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":570.83235933,"data":"\rLoading weights:  17%|█▋        | 89/519 [00:00\u003c00:04, 99.37it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":570.960020472,"data":"\rLoading weights:  20%|██        | 105/519 [00:01\u003c00:04, 93.31it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":571.156215787,"data":"\rLoading weights:  23%|██▎       | 121/519 [00:01\u003c00:03, 101.99it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":571.261751906,"data":"\rLoading weights:  26%|██▋       | 137/519 [00:01\u003c00:04, 94.36it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":571.454326822,"data":"\rLoading weights:  29%|██▉       | 153/519 [00:01\u003c00:03, 107.22it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":571.576453785,"data":"\rLoading weights:  33%|███▎      | 169/519 [00:01\u003c00:03, 98.28it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":571.763593341,"data":"\rLoading weights:  36%|███▌      | 185/519 [00:01\u003c00:03, 106.44it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":571.908650838,"data":"\rLoading weights:  39%|███▊      | 201/519 [00:01\u003c00:03, 99.08it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":572.043834122,"data":"\rLoading weights:  42%|████▏     | 217/519 [00:02\u003c00:02, 102.20it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":572.229551927,"data":"\rLoading weights:  45%|████▍     | 233/519 [00:02\u003c00:02, 106.60it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":572.379866811,"data":"\rLoading weights:  48%|████▊     | 249/519 [00:02\u003c00:02, 99.47it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":572.528363247,"data":"\rLoading weights:  51%|█████     | 265/519 [00:02\u003c00:02, 101.47it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":572.697349072,"data":"\rLoading weights:  54%|█████▍    | 281/519 [00:02\u003c00:02, 103.29it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":572.843258367,"data":"\rLoading weights:  57%|█████▋    | 297/519 [00:02\u003c00:02, 100.54it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":573.023703452,"data":"\rLoading weights:  60%|██████    | 313/519 [00:03\u003c00:01, 103.12it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":573.170256959,"data":"\rLoading weights:  63%|██████▎   | 329/519 [00:03\u003c00:01, 98.31it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":573.343208481,"data":"\rLoading weights:  66%|██████▋   | 345/519 [00:03\u003c00:01, 101.33it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":573.471390622,"data":"\rLoading weights:  70%|██████▉   | 361/519 [00:03\u003c00:01, 98.51it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":573.635157965,"data":"\rLoading weights:  73%|███████▎  | 377/519 [00:03\u003c00:01, 105.17it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":573.809324476,"data":"\rLoading weights:  76%|███████▌  | 393/519 [00:03\u003c00:01, 102.80it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":573.924323722,"data":"\rLoading weights:  79%|███████▉  | 409/519 [00:04\u003c00:01, 99.27it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":574.118880855,"data":"\rLoading weights:  82%|████████▏ | 425/519 [00:04\u003c00:00, 108.60it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":574.247763293,"data":"\rLoading weights:  85%|████████▍ | 441/519 [00:04\u003c00:00, 99.08it/s] \u001b[A\n"}
+,{"stream_name":"stderr","time":574.415592841,"data":"\rLoading weights:  88%|████████▊ | 457/519 [00:04\u003c00:00, 105.46it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":574.563672295,"data":"\rLoading weights:  91%|█████████ | 473/519 [00:04\u003c00:00, 102.21it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":574.714733302,"data":"\rLoading weights:  94%|█████████▍| 489/519 [00:04\u003c00:00, 103.89it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":574.716880594,"data":"\rLoading weights:  97%|█████████▋| 505/519 [00:04\u003c00:00, 104.49it/s]\u001b[A\rLoading weights: 100%|██████████| 519/519 [00:04\u003c00:00, 105.37it/s]\n"}
+,{"stream_name":"stderr","time":576.58125726,"data":"\rLoading pipeline components...:  20%|██        | 1/5 [00:05\u003c00:20,  5.11s/it]\n"}
+,{"stream_name":"stderr","time":596.790926127,"data":"\rLoading checkpoint shards:   0%|          | 0/15 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":616.649279471,"data":"\rLoading checkpoint shards:   7%|▋         | 1/15 [00:20\u003c04:42, 20.21s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":636.465066028,"data":"\rLoading checkpoint shards:  13%|█▎        | 2/15 [00:40\u003c04:20, 20.00s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":656.224374774,"data":"\rLoading checkpoint shards:  20%|██        | 3/15 [00:59\u003c03:59, 19.92s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":675.987379622,"data":"\rLoading checkpoint shards:  27%|██▋       | 4/15 [01:19\u003c03:38, 19.85s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":695.347662126,"data":"\rLoading checkpoint shards:  33%|███▎      | 5/15 [01:39\u003c03:18, 19.82s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":714.757792511,"data":"\rLoading checkpoint shards:  40%|████      | 6/15 [01:58\u003c02:56, 19.66s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":734.125259892,"data":"\rLoading checkpoint shards:  47%|████▋     | 7/15 [02:18\u003c02:36, 19.58s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":753.624340706,"data":"\rLoading checkpoint shards:  53%|█████▎    | 8/15 [02:37\u003c02:16, 19.51s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":772.975978529,"data":"\rLoading checkpoint shards:  60%|██████    | 9/15 [02:57\u003c01:57, 19.51s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":792.341648307,"data":"\rLoading checkpoint shards:  67%|██████▋   | 10/15 [03:16\u003c01:37, 19.46s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":811.704859487,"data":"\rLoading checkpoint shards:  73%|███████▎  | 11/15 [03:35\u003c01:17, 19.43s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":831.077237973,"data":"\rLoading checkpoint shards:  80%|████████  | 12/15 [03:55\u003c00:58, 19.41s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":850.857120014,"data":"\rLoading checkpoint shards:  87%|████████▋ | 13/15 [04:14\u003c00:38, 19.40s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":853.343112496,"data":"\rLoading checkpoint shards:  93%|█████████▎| 14/15 [04:34\u003c00:19, 19.51s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":853.343414757,"data":"\rLoading checkpoint shards: 100%|██████████| 15/15 [04:36\u003c00:00, 14.38s/it]\u001b[A\rLoading checkpoint shards: 100%|██████████| 15/15 [04:36\u003c00:00, 18.45s/it]\n"}
+,{"stream_name":"stderr","time":853.436108321,"data":"\rLoading pipeline components...:  40%|████      | 2/5 [04:43\u003c08:18, 166.03s/it]\rLoading pipeline components...: 100%|██████████| 5/5 [04:43\u003c00:00, 56.76s/it] \n"}
+,{"stream_name":"stdout","time":862.248043936,"data":"[   861s] tải xong Wan 2.2 Animate 14B (4-bit) torch.float16\n"}
+,{"stream_name":"stdout","time":863.432691333,"data":"[   862s] demo_00 đọc 90 khung; làm pose + face\n"}
+,{"stream_name":"stdout","time":955.692892351,"data":"[   955s] demo_00 tiền xử lý xong 93 giây; bắt đầu tạo video\n"}
+,{"stream_name":"stderr","time":1076.785814236,"data":"\r  0%|          | 0/20 [00:00\u003c?, ?it/s]\r  0%|          | 0/20 [00:10\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":1076.785881851,"data":"[  1076s] LỖI demo_00 OutOfMemoryError('CUDA out of memory. Tried to allocate 378.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 62.81 MiB is free. Including non-PyTorch memory, this process has 14.50 GiB memory in use. Of the allocated memory 12.79 GiB is allocated by PyTorch, and 1.54 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=\n"}
+,{"stream_name":"stderr","time":1076.813777389,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1076.815642755,"data":"  File \"/kaggle/src/script.py\", line 132, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1076.815664143,"data":"    out = pipe(image=ref, pose_video=pose, face_video=face, prompt_embeds=pe.to(\"cuda\", dt),\n"}
+,{"stream_name":"stderr","time":1076.815669509,"data":"          ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815674479,"data":"               height=H, width=W, segment_frame_length=77, prev_segment_conditioning_frames=1,\n"}
+,{"stream_name":"stderr","time":1076.815678809,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815683242,"data":"               guidance_scale=1.0, num_inference_steps=JOB[\"steps\"], mode=\"animate\",\n"}
+,{"stream_name":"stderr","time":1076.815687766,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815709672,"data":"               generator=torch.Generator(\"cuda\").manual_seed(0)).frames[0]\n"}
+,{"stream_name":"stderr","time":1076.815713416,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815716619,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
+,{"stream_name":"stderr","time":1076.815720622,"data":"    return func(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815724042,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/wan/pipeline_wan_animate.py\", line 1116, in __call__\n"}
+,{"stream_name":"stderr","time":1076.815728313,"data":"    noise_pred = self.transformer(\n"}
+,{"stream_name":"stderr","time":1076.81573185,"data":"                 ~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1076.8157348,"data":"        hidden_states=latent_model_input,\n"}
+,{"stream_name":"stderr","time":1076.81573825,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815741515,"data":"    ...\u003c7 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1076.815744963,"data":"        return_dict=False,\n"}
+,{"stream_name":"stderr","time":1076.815748363,"data":"        ^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815751647,"data":"    )[0]\n"}
+,{"stream_name":"stderr","time":1076.815754949,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1076.815758269,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":1076.81576189,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815765575,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.81576874,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stderr","time":1076.815772332,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815775857,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 192, in new_forward\n"}
+,{"stream_name":"stderr","time":1076.815779767,"data":"    output = module._old_forward(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815783242,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/peft_utils.py\", line 323, in wrapper\n"}
+,{"stream_name":"stderr","time":1076.815786859,"data":"    result = forward_fn(self, *args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815791201,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/transformers/transformer_wan_animate.py\", line 1270, in forward\n"}
+,{"stream_name":"stderr","time":1076.815796009,"data":"    hidden_states = block(hidden_states, encoder_hidden_states, timestep_proj, rotary_emb)\n"}
+,{"stream_name":"stderr","time":1076.815799735,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":1076.815803496,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815806934,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1076.815810229,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stderr","time":1076.815814567,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":1076.815818284,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/transformers/transformer_wan_animate.py\", line 981, in forward\n"}
+,{"stream_name":"stderr","time":1076.815826355,"data":"    hidden_states = (hidden_states.float() + ff_output.float() * c_gate_msa).type_as(hidden_states)\n"}
+,{"stream_name":"stderr","time":1076.815830277,"data":"                                             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\n"}
+,{"stream_name":"stderr","time":1076.815840911,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 378.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 62.81 MiB is free. Including non-PyTorch memory, this process has 14.50 GiB memory in use. Of the allocated memory 12.79 GiB is allocated by PyTorch, and 1.54 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":1080.05680915,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.\n"}
+,{"stream_name":"stderr","time":1080.056840065,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":1080.159458549,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":1080.15948675,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":1080.434245489,"data":"\rLoading pipeline components...:   0%|          | 0/5 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":1080.540125214,"data":"\rLoading weights:   0%|          | 0/519 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":1080.6421726,"data":"\rLoading weights:  17%|█▋        | 87/519 [00:00\u003c00:00, 842.75it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":1080.756708438,"data":"\rLoading weights:  37%|███▋      | 190/519 [00:00\u003c00:00, 940.39it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":1080.857862747,"data":"\rLoading weights:  55%|█████▍    | 285/519 [00:00\u003c00:00, 886.57it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":1080.957219272,"data":"\rLoading weights:  77%|███████▋  | 398/519 [00:00\u003c00:00, 973.94it/s]\u001b[A\rLoading weights: 100%|██████████| 519/519 [00:00\u003c00:00, 997.59it/s]\n"}
+,{"stream_name":"stderr","time":1082.191671364,"data":"\rLoading pipeline components...:  20%|██        | 1/5 [00:00\u003c00:02,  1.45it/s]\rLoading pipeline components...:  20%|██        | 1/5 [00:01\u003c00:07,  1.91s/it]\n"}
+,{"stream_name":"stdout","time":1082.191718744,"data":"[  1081s] BỎ demo_00 OutOfMemoryError('CUDA out of memory. Tried to allocate 8.04 GiB. GPU 0 has a total capacity of 14.56 GiB of which 1.06 GiB is free. Including non-PyTorch memory, this process has 13.50 GiB memory in use. Of the allocated memory 12.05 GiB is allocated by PyTorch, and 1.29 GiB is reserved by PyTorch \n"}
+,{"stream_name":"stdout","time":1082.959925818,"data":"[  1082s] XONG {'clips': {'demo_00': {'loi': \"OutOfMemoryError('CUDA out of memory. Tried to allocate 8.04 GiB. GPU 0 has a total capacity of 14.56 GiB of which 1.06 GiB is free. Including non-PyTorch memory, this process has 13.50 GiB memory in use. Of the allocated memory 12.05 GiB is allocated by PyTorch, and 1.29 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=exp\"}}, 'tong_giay': 1082}\n"}
+,{"stream_name":"stderr","time":1093.254887055,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1093.254917849,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1093.629541585,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1093.629568535,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1095.41973613,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1096.569830351,"data":"[NbConvertApp] Writing 317241 bytes to __results__.html\n"}
 ]

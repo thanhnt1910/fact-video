@@ -1,3 +1,56 @@
-Kaggle: .error
+Chuẩn bị xong: 1 đoạn, tổng 3.0s, khung 368x640, dữ liệu 0.7 MB
+Dataset đã có hoặc tạo lỗi, thử đẩy phiên bản mới...
+Đợi Kaggle xử lý dataset...
+Đã gửi kernel thanhnguyen9x/ngs-dance-animate. Kaggle chạy nền; vài giờ sau chạy: python kaggle_dance.py lay --ten demo --mau dance_in/demo/mau.mp4
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .queued
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .running
+Kaggle: .complete
 [!] Thiếu đoạn demo_00 (xem logs/kaggle_dance/demo_kaggle_log.txt)
 Không có đoạn nào để ghép

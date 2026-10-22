@@ -263,6 +263,10 @@ _h.alpha_composite(_logo(130,0.8),(W-44-130,34))
 STATIC=Image.alpha_composite(STATIC,_h)
 CARDL={}
 for c in getattr(C,'CARDS3',[]): CARDL[(c[2],c[3])]=M3.card3(c[2],c[3],c[4])
+def _quiet(t):
+    for (a,b) in list(getattr(C,'QUIET',[]))+[(x[0]-0.5,x[1]+0.5) for x in C.BATT]:
+        if a<=t<=b: return True
+    return False
 TITL={i:M3.title_layer(*x[2:]) for i,x in enumerate(getattr(C,'TITLES',[]))}
 QUOL={i:M3.quote_layer(x[2],x[3],x[4]) for i,x in enumerate(getattr(C,'QUOTES',[]))}
 MINI0=M3.minimap_base(PYR[3],300,int(300*RH/RW))
@@ -536,7 +540,7 @@ def frame(t):
             if nm: tag(d,px,py-ik*3.8,nm,(110,70,30),int(20*K*min(1.3,z**0.2)))
     # ghi chú nổi
     for (t0,t1,lon,lat,txt,col) in C.NOTES:
-        if t0<=t<=t1:
+        if t0<=t<=t1 and not _quiet(t):
             k=min(clamp((t-t0)/0.4),clamp((t1-t)/0.4));x,y=v.sc(lon,lat,K)
             if -200<x<W*K+200 and -200<y<H*K+200: tag(d,x,y-ik*(3.6+0.8*(1-ease(k))),txt,col,int(26*K*min(1.3,z**0.2)))
     ov=ov.resize((W,H),Image.BILINEAR)
@@ -569,7 +573,7 @@ def frame(t):
         cn,dl=nx[0],nx[3];du=nx[4] if len(nx)>4 else 2.6
         if n==cn or (len(nx)>4 and T[cn]+dl<=t<=T[cn]+dl+du):
             s_=T[cn]+dl;e=s_+du
-            if s_<=t<=e:
+            if s_<=t<=e and not _quiet(t):
                 k=min(clamp((t-s_)/0.25),clamp((e-t)/0.4));out=comp(out,NUML[ni],(0,0),ease(k))
     # thanh sức mạnh
     for (t0,t1,title,rows) in getattr(C,'METERS',[]):
@@ -594,7 +598,7 @@ def frame(t):
             k=min(clamp((t-x[0])/0.5),clamp((x[1]-t)/0.4));ql=QUOL[i];out=comp(out,ql,((W-ql.width)//2,int((1250 if B.P else 770)-ql.height+(1-ease(k))*40)),ease(k))
     if ttl: out=comp(out,TITL[ttl[0]],(0,0),ease(ttl[1]))
     for (t0,t1,icon,txt) in getattr(C,'JOKES',[]):
-        if t0<=t<=t1:
+        if t0<=t<=t1 and not _quiet(t):
             k=min(clamp((t-t0)/0.45),clamp((t1-t)/0.4));out=comp(out,M3.joke_layer(icon,txt,t,k),(0,int((1-ease(k))*60)),ease(k))
     sl,sa=B.sub_at(t)
     if sl is not None: out=comp(out,sl,(0,0),ease(sa))

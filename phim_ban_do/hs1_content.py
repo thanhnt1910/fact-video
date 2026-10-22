@@ -30,7 +30,7 @@ def NT(n,o,dur,lo,la,txt,col=DK): NOTES.append((R(n,o),min(R(n,o+dur),E(n,-0.1))
 def C3(n,o,dur,name,role,col): CARDS3.append((R(n,o),min(R(n,o+dur),E(n,-0.2)),name,role,col))
 def Q(n,sub,text,who,col,dur=None):
     t0=at(n,sub);QUOTES.append((t0,min(E(n,-0.1),t0+(dur or 5.0)),text,who,col))
-def J(n,icon,text,off=1.2): JOKES.append((R(n,off),E(n,-0.1),icon,text))
+def J(n,icon,text,off=1.2,dur=3.0): JOKES.append((R(n,off),min(E(n,-0.1),R(n,off)+dur),icon,text))
 def AR(n,o,dur,a,b,col,txt): ARROWS.append((R(n,o),min(R(n,o+dur),E(n,-0.1)),a,b,col,txt))
 def X(name): return LOC[name][:2]
 SCN=[]
@@ -45,15 +45,15 @@ S(9,11,109.30,34.37,7.8);S(12,16,109.30,34.37,8.4);S(17,21,109.30,34.37,8.8);S(2
 TITLES.append((0.3,5.2,'HÁN SỞ TRANH HÙNG','HỒNG MÔN YẾN','năm 206 trước Công nguyên · bản demo'))
 # ---------------- quân
 # Hạng Vũ (xanh lam, đông) từ Hàm Cốc vào Hồng Môn; sau đó đóng ở Hồng Môn
-G('Quân Hạng Vũ',SO,10,[(0,110.55,34.58),(R(1,1.0),110.45,34.52),(R(2,0.4),110.45,34.52),(R(2,6.0),109.37,34.415),(INF,109.37,34.415)],show=(0,INF),emb='tri',seed=611,kind='inf',soff=(70,-95))
-G('Quân Lưu Bang',HAN,6,[(0,109.045,34.295)],show=(0,INF),emb='sun',seed=612,soff=(140,40))
+G('Quân Hạng Vũ',SO,10,[(0,110.55,34.58),(R(1,1.0),110.45,34.52),(R(2,0.4),110.45,34.52),(R(2,6.0),109.37,34.415),(INF,109.37,34.415)],show=(0,INF),emb='tri',seed=611,kind='inf',spread=0.6,soff=(70,-95))
+G('Quân Lưu Bang',HAN,6,[(0,109.045,34.295)],show=(0,INF),emb='sun',seed=612,spread=0.45,soff=(-60,-85))
 G('Quân giữ ải',HAN,3,[(0,110.42,34.50)],show=(0,R(2,3.0)),emb='sun',seed=613,soff=(-70,-45),alive=[(0,1),(R(2,1.0),1),(R(2,4.0),0.0)])
 # Hạng Bá phi ngựa trong đêm sang doanh Lưu Bang, rồi về
 G('Hạng Bá',SO,1,[(0,109.36,34.41),(R(5,0.2),109.33,34.405),(R(5,5.0),109.06,34.30),(R(8,0.2),109.06,34.30),(R(8,4.5),109.33,34.405),(INF,109.33,34.405)],show=(R(5,0),R(9,0)),emb='tri',seed=614,kind='cav',soff=(-80,60),label=False)
 # Lưu Bang và đoàn kỵ binh đến Hồng Môn xin lỗi, ở lại đến hết tiệc
 G('Đoàn Lưu Bang',HAN,4,[(0,109.045,34.295),(R(9,0.2),109.045,34.295),(R(9,5.0),109.245,34.405),(INF,109.245,34.405)],show=(R(9,0),R(23,0.5)),emb='sun',seed=615,kind='cav',spread=0.6,soff=(-90,-70))
 # Lưu Bang chạy bộ theo đường tắt về Bá Thượng với bốn người
-G('Lưu Bang chạy tắt',HAN,5,[(0,109.245,34.405),(R(23,0.1),109.245,34.405),(R(23,6.0),109.15,34.35),(R(24,3.0),109.045,34.295),(INF,109.045,34.295)],show=(R(23,0),R(26,3.0)),emb='sun',seed=616,soff=(95,-20),label=False)
+G('Lưu Bang chạy tắt',HAN,5,[(0,109.245,34.405),(R(23,0.1),109.245,34.405),(R(23,6.0),109.15,34.35),(R(24,3.0),109.045,34.295),(INF,109.045,34.295)],show=(R(23,0),R(26,3.0)),emb='sun',seed=616,spread=0.5,soff=(-60,-85),label=False)
 # ---------------- thẻ nhân vật (mỗi lần xuất hiện đầu tiên)
 C3(1,0.4,3.4,'Hạng Vũ','chỉ huy quân Sở',SO)
 C3(4,0.2,3.2,'Hạng Bá','chú của Hạng Vũ, bạn của Trương Lương',SO)
@@ -72,7 +72,6 @@ NT(7,0.5,3.0,109.00,34.35,'rót rượu, hứa kết thông gia',HAN)
 AR(9,1.0,4.5,X('Bá Thượng'),X('Hồng Môn'),HAN,'đến xin lỗi')
 J(11,'scroll','Người đưa tin bị bán đứng',2.0)
 NT(12,0.4,3.0,109.30,34.46,'tiệc ở Hồng Môn',SO)
-J(16,'flag','Điệu múa nhiều tính toán nhất lịch sử',2.2)
 J(20,'coin','Một cái đùi lợn sống, một lời can',1.6) if False else None
 AR(23,0.6,5.5,(109.245,34.405),X('Bá Thượng'),HAN,'đường tắt')
 NT(25,0.4,3.2,109.20,34.40,'chén ngọc bị đập vỡ',SO)

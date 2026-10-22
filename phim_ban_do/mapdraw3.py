@@ -87,6 +87,9 @@ def title_layer(year, name, sub):
     g = ImageDraw.Draw(im)
     f1, f2, f3 = font(130), font(96), font(40, False)
     _g = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
+    for _sz in range(130, 50, -4):  # chữ lớn phải nằm gọn trong khung (lề tối thiểu 60 px)
+        f1 = font(_sz)
+        if _g.textlength(year, font=f1) <= (W - 160): break
     for _sz in range(96, 40, -4):
         f2 = font(_sz)
         if _g.textlength(name, font=f2) <= (W - 160): break

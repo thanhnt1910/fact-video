@@ -133,8 +133,6 @@ Xem đủ 32 phút "Nguyên Mông trọn bộ" trên YouTube và Facebook Ngư�
 
 #lichsu #bachdang #nguyenmong #daiviet #nguoigacsu #lichsuvietnam #fyp
 
-(Sửa lỗi gõ: dùng `#daiviet`, không dùng `#daiviet`.)
-
 Chữ trên ảnh bìa: "NƯỚC NHỎ, 3 LẦN THẮNG. Vì sao Đại Việt không đổ?"
 Chữ trong clip: tiêu đề "TRẬN BẠCH ĐẰNG" và dòng cuối "Xem đủ 32 phút".
 

@@ -51,7 +51,7 @@ on:
         default: "0"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: kaggle-dance
@@ -82,7 +82,9 @@ jobs:
           CHO: ${{ inputs.cho }}
           SU_KIEN: ${{ github.event_name }}
         run: |
-          set -e
+          set -eo pipefail
+          mkdir -p logs/kaggle_dance
+          exec > >(tee logs/kaggle_dance/chay_log.txt) 2>&1
           if [ "$SU_KIEN" = "push" ]; then set -a; . dance_in/demo/chay.txt; set +a; fi
           if [ "$BUOC" = "gui" ]; then
             EXTRA=""
@@ -91,6 +93,15 @@ jobs:
           else
             python kaggle_dance.py lay --ten "$TEN" --mau "$MAU" --cho "$CHO"
           fi
+      - name: Lưu nhật ký vào nhánh
+        if: always()
+        run: |
+          git add -f logs/kaggle_dance/chay_log.txt || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Nhật ký video nhảy [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done
       - name: Video và nhật ký
         if: always()
         uses: actions/upload-artifact@v4

@@ -7,3 +7,4 @@ DOAN=10
 BAT_DAU=4
 THU=true
 CHO=0
+# lan 2: lưu nhật ký vào nhánh

@@ -1,0 +1,96 @@
+name: Video người nhảy (Kaggle, miễn phí)
+
+# Chỉ chạy khi bấm tay (workflow_dispatch). Không có push/schedule, không commit gì vào repo.
+# Bước 1 "gui": cắt video mẫu, đẩy lên Kaggle rồi thoát (Kaggle chạy nền vài giờ).
+# Bước 2 "lay": xem Kaggle xong chưa, xong thì tải về, ghép, gắn nhạc; video nằm ở mục Artifacts của lần chạy.
+# Ảnh nhân vật và video nhảy mẫu phải được đưa vào repo trước (vd: dance_in/abc/anh.jpg, dance_in/abc/mau.mp4).
+# Không chạy cùng lúc với workflow Kaggle khác (vẽ ảnh, tranh thành video).
+
+on:
+  workflow_dispatch:
+    inputs:
+      buoc:
+        description: "gui = gửi lên Kaggle; lay = lấy kết quả về"
+        type: choice
+        options: [gui, lay]
+        default: gui
+      ten:
+        description: "Tên video (chữ không dấu, không khoảng trắng, vd: abc)"
+        required: true
+      anh:
+        description: "Đường dẫn ảnh nhân vật trong repo (bước gui)"
+        required: false
+        default: ""
+      mau:
+        description: "Đường dẫn video nhảy mẫu trong repo (cả hai bước; bước lay dùng để lấy nhạc)"
+        required: false
+        default: ""
+      tong:
+        description: "Tổng độ dài giây (bước gui)"
+        required: false
+        default: "30"
+      doan:
+        description: "Độ dài mỗi đoạn giây (bước gui)"
+        required: false
+        default: "10"
+      bat_dau:
+        description: "Bắt đầu cắt video mẫu từ giây thứ mấy (bước gui)"
+        required: false
+        default: "0"
+      thu:
+        description: "Chỉ thử 3 giây (bước gui), nên bật ở lần đầu"
+        type: boolean
+        default: true
+      cho:
+        description: "Bước lay: số phút chờ Kaggle xong (0 = xem một lần)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kaggle-dance
+  cancel-in-progress: false
+
+jobs:
+  dance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow kaggle
+      - name: Chạy
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          BUOC: ${{ inputs.buoc }}
+          TEN: ${{ inputs.ten }}
+          ANH: ${{ inputs.anh }}
+          MAU: ${{ inputs.mau }}
+          TONG: ${{ inputs.tong }}
+          DOAN: ${{ inputs.doan }}
+          BAT_DAU: ${{ inputs.bat_dau }}
+          THU: ${{ inputs.thu }}
+          CHO: ${{ inputs.cho }}
+        run: |
+          set -e
+          if [ "$BUOC" = "gui" ]; then
+            EXTRA=""
+            if [ "$THU" = "true" ]; then EXTRA="--thu"; fi
+            python kaggle_dance.py gui --ten "$TEN" --anh "$ANH" --mau "$MAU" --tong "$TONG" --doan "$DOAN" --bat-dau "$BAT_DAU" $EXTRA
+          else
+            python kaggle_dance.py lay --ten "$TEN" --mau "$MAU" --cho "$CHO"
+          fi
+      - name: Video và nhật ký
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-nhay-${{ inputs.ten }}
+          path: |
+            output/dance/*.mp4
+            logs/kaggle_dance/*
+          if-no-files-found: ignore

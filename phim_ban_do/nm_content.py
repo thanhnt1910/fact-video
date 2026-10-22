@@ -208,7 +208,7 @@ NT2(153,153,106.95,22.2,'ải biên giới: không giữ nổi',GR)
 NT2(154,154,104.7,21.85,'Thu Vật: Trần Nhật Duật chặn',GR)
 NT2(155,155,106.6,21.72,'Nội Bàng: thua',GR)
 BATT.append((R(157,1.0),R(159,4.0),106.4,21.12,['Đạo Thoát Hoan','Quân Trần']))
-NT2(158,159,106.55,20.9,'vượt sông Cầu',NG)
+NT2(158,159,106.55,20.62,'vượt sông Cầu',NG)
 # ---- chương 13
 NT2(164,165,106.18,21.2,'sông Đuống',DK)
 NT2(167,167,105.95,20.55,'Lý Nhân: vẫn không thắng',GR)

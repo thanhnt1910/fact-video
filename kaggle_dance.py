@@ -45,6 +45,7 @@ t0 = time.time()
 def log(*a):
     print(f"[{time.time()-t0:6.0f}s]", *a, flush=True)
 os.environ["HF_HOME"] = "/tmp/hf"
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 _tok = __HFTOK__
 if _tok:
     os.environ["HF_TOKEN"] = _tok
@@ -168,24 +169,36 @@ for c in JOB["clips"]:
         n = min(len(pose), len(face))
         pose, face = pose[:n], face[:n]
         log(key, "tiền xử lý xong", round(time.time() - t1), "giây; bắt đầu tạo video")
-        for attempt in range(2):
+        out, queue, black_retry = None, list(JOB.get("seg_frames") or [45, 29, 17]), False
+        while queue:
+            seg, kind, msg = queue[0], None, ""
             try:
                 out = pipe(image=ref, pose_video=pose, face_video=face, prompt_embeds=pe.to("cuda", dt),
-                           height=H, width=W, segment_frame_length=77, prev_segment_conditioning_frames=1,
+                           height=H, width=W, segment_frame_length=seg, prev_segment_conditioning_frames=1,
                            guidance_scale=1.0, num_inference_steps=JOB["steps"], mode="animate",
                            generator=torch.Generator("cuda").manual_seed(0)).frames[0]
                 arr = np.asarray(out[len(out) // 2])
                 if float(arr.mean()) < (3 if arr.max() > 1.5 else 3 / 255):
                     raise RuntimeError("video đen (tràn số fp16)")
                 export_to_video(out, f"{OUT}/{key}.mp4", fps=JOB["fps"])
+                log(key, "tạo xong với cỡ đoạn", seg, "khung")
                 break
+            except torch.OutOfMemoryError as e:
+                kind = "oom"; log("HẾT BỘ NHỚ ở cỡ đoạn", seg, str(e)[:160])
             except Exception as e:
-                log("LỖI", key, repr(e)[:400]); traceback.print_exc()
-                if dt == torch.float16 and attempt == 0:
-                    del pipe; gc.collect(); torch.cuda.empty_cache()
-                    dt = torch.bfloat16; pipe = load(dt); log("chuyển sang bf16")
-                else:
-                    raise
+                kind = "loi"; msg = repr(e)[:300]; log("LỖI", key, msg); traceback.print_exc()
+            out = None
+            gc.collect(); torch.cuda.empty_cache()      # ngoài khối except để giải phóng hết tham chiếu tới lỗi
+            if kind == "oom":
+                queue.pop(0)
+                if not queue:
+                    raise RuntimeError("hết bộ nhớ GPU ở mọi cỡ đoạn đã thử")
+            elif dt == torch.float16 and not black_retry and "đen" in msg:
+                black_retry = True
+                del pipe; gc.collect(); torch.cuda.empty_cache()
+                dt = torch.bfloat16; pipe = load(dt); log("chuyển sang bf16")
+            else:
+                raise RuntimeError(msg)
         sec = time.time() - t1
         res["clips"][key] = {"giay": round(sec), "khung": len(out), "dtype": str(dt)}
         log("xong", key, f"{sec:.0f}s")
@@ -237,7 +250,8 @@ def cmd_gui(a):
         t += ln
         i += 1
     job = {"ten": a.ten, "w": a.rong, "h": a.cao, "fps": FPS, "steps": a.buoc_suy_luan, "prompt": a.prompt or PROMPT,
-           "neg": NEG, "bat_dau": a.bat_dau, "tong": round(total, 2), "clips": clips}
+           "neg": NEG, "bat_dau": a.bat_dau, "tong": round(total, 2), "clips": clips,
+           "seg_frames": [int(x) for x in a.seg_khung.split(",")]}
     (ds / "job.json").write_text(json.dumps(job, ensure_ascii=False, indent=1), encoding="utf-8")
     size = sum(p.stat().st_size for p in ds.iterdir()) / 1e6
     print(f"Chuẩn bị xong: {len(clips)} đoạn, tổng {total:.1f}s, khung {a.rong}x{a.cao}, dữ liệu {size:.1f} MB")
@@ -342,6 +356,8 @@ def main():
     g.add_argument("--cao", type=int, default=640, help="bội số của 16")
     g.add_argument("--buoc-suy-luan", type=int, default=20)
     g.add_argument("--prompt", default="")
+    g.add_argument("--seg-khung", default="45,29,17",
+                   help="cỡ đoạn (số khung, dạng 4n+1) thử lần lượt; hết bộ nhớ GPU thì thử cỡ nhỏ hơn")
     g.add_argument("--thu", action="store_true", help="chỉ làm 3 giây để thử")
     g.set_defaults(f=cmd_gui)
     l = sub.add_parser("lay")

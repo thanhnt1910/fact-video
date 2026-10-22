@@ -7,3 +7,4 @@ DOAN=10
 BAT_DAU=4
 THU=true
 CHO=90
+# lan 4: thu cac co doan nho dan khi het bo nho GPU

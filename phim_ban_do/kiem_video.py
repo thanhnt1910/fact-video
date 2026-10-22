@@ -59,11 +59,18 @@ for b in BEATS:
     # ASR cũ? thời lượng file giọng so với từ cuối
     dur = TL.get(k)
     if dur and ASR[k][-1][2] > dur + 0.8: bad(f'Câu {n}: nhận dạng dài hơn file giọng ({ASR[k][-1][2]:.1f}s > {dur:.1f}s): kết quả nhận dạng CŨ, chạy lại phude-asr')
-    ops = difflib.SequenceMatcher(None, spk, got, autojunk=False).get_opcodes()
-    th = ops[0][4] - ops[0][3] if ops[0][0] == 'insert' else 0
-    tc = ops[-1][4] - ops[-1][3] if ops[-1][0] == 'insert' else 0
-    mh = ops[0][2] - ops[0][1] if ops[0][0] == 'delete' else 0
-    mc = ops[-1][2] - ops[-1][1] if ops[-1][0] == 'delete' else 0
+    sm = difflib.SequenceMatcher(None, spk, got, autojunk=False)
+    ops = sm.get_opcodes()
+    # chữ thừa/mất ở đầu và cuối: tính theo khối khớp ĐẦU TIÊN/CUỐI CÙNG (>=3 chữ), không dựa vào một phép "insert"
+    # (difflib hay gộp chữ thừa với chữ lệch thành "replace", làm sót lỗi đọc lại đuôi câu trước)
+    blk = [m for m in sm.get_matching_blocks() if m.size >= 3]
+    if blk:
+        b0, b1 = blk[0], blk[-1]
+        th = max(0, b0.b - b0.a); mh = max(0, b0.a - b0.b)
+        tc = max(0, (len(got) - (b1.b + b1.size)) - (len(spk) - (b1.a + b1.size)))
+        mc = max(0, (len(spk) - (b1.a + b1.size)) - (len(got) - (b1.b + b1.size)))
+    else:
+        th = tc = mh = mc = 0
     if th >= 3: bad(f'Câu {n}: thừa {th} chữ ở ĐẦU (lẫn đuôi câu trước): "{" ".join(x[0] for x in ASR[k][:th])}"')
     if tc >= 3: bad(f'Câu {n}: thừa {tc} chữ ở CUỐI (lẫn đầu câu sau): "{" ".join(x[0] for x in ASR[k][-tc:])}"')
     if mh >= 3: bad(f'Câu {n}: MẤT {mh} chữ ở đầu (câu bị cụt đầu)')
@@ -77,6 +84,30 @@ for b in BEATS:
             if got[i:i + L] == got[i + L:i + 2 * L]:
                 g = ' '.join(got[i:i + L])
                 if (g + ' ' + g) not in ktxt: bad(f'Câu {n}: đọc LẶP "{g}"')
+    # đọc LẶP CẢ CÂU / CẢ VẾ (chủ kênh yêu cầu 22/10/2026, demo Hồng Môn yến bị lặp câu)
+    #  (a) giọng có nhiều chữ hơn kịch bản từ 4 chữ trở lên (số "100" thay "một trăm" chỉ làm ÍT chữ đi)
+    if len(got) - len(spk) >= 4: bad(f'Câu {n}: giọng nhiều hơn kịch bản {len(got) - len(spk)} chữ (nghi đọc lặp hoặc lẫn câu khác)')
+    #  (b) một vế của kịch bản (>=4 chữ, tách theo dấu câu) được đọc từ 2 lần trở lên
+    for seg in re.split(r'[.!?;:,]\s', b['text']):
+        sg = [norm(x) for x in seg.split() if norm(x)]
+        sg = [SO.get(x, x) for x in sg]
+        if len(sg) < 4: continue
+        hit = sum(1 for i in range(len(got) - len(sg) + 1) if got[i:i + len(sg)] == sg)
+        if hit >= 2 and ' '.join(sg) not in ' '.join(spk).replace(' '.join(sg), '', 1): bad(f'Câu {n}: vế "{seg.strip()[:50]}" bị đọc {hit} lần')
+    #  (c) đuôi câu trước bị đọc lại ở đầu câu này, hoặc đầu câu sau bị đọc ở cuối câu này
+    i_b = BEATS.index(b)
+    if i_b > 0:
+        pv = [SO.get(norm(x), norm(x)) for x in BEATS[i_b - 1]['text'].split() if norm(x)]
+        for L in (6, 4, 3):
+            tailp = pv[-L:]
+            if len(tailp) == L and any(got[i:i + L] == tailp for i in range(0, min(len(got), L + 8) - L + 1)) and spk[:L] != tailp:
+                bad(f'Câu {n}: ĐẦU câu đọc lại đuôi câu trước ("{" ".join(tailp)}")'); break
+    if i_b + 1 < len(BEATS):
+        nx = [SO.get(norm(x), norm(x)) for x in BEATS[i_b + 1]['text'].split() if norm(x)]
+        for L in (6, 4, 3):
+            head = nx[:L]
+            if len(head) == L and any(got[i:i + L] == head for i in range(max(0, len(got) - L - 8), len(got) - L + 1)) and spk[-L:] != head:
+                bad(f'Câu {n}: CUỐI câu đọc lẫn đầu câu sau ("{" ".join(head)}")'); break
     r = difflib.SequenceMatcher(None, spk, got, autojunk=False).ratio()
     if r < 0.6: warn(f'Câu {n}: giọng chỉ khớp {r:.0%} với kịch bản (nhận dạng có thể sai, nên nghe lại)')
     # năm

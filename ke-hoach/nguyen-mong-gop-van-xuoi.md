@@ -13,7 +13,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 356. Họ mệt, họ đói, nhưng vẫn đông và vẫn mạnh. **[CG]**
 357. Họ không biết rằng dưới mặt nước, Trần Quốc Tuấn, vị tướng chỉ huy quân Đại Việt, đã cho cắm sẵn những hàng cọc gỗ nhọn, đầu bịt sắt. **[C]**
 358. Khi thủy triều lên, nước dâng cao và phủ kín những cái cọc, nên từ trên thuyền không ai nhìn thấy chúng. Trần Quốc Tuấn đã chờ đúng lúc ấy để cho quân đánh. **[C]**
-359. Rồi thủy triều rút xuống. Nước hạ thấp, những cái cọc nhọn lộ ra, thuyền Nguyên mắc vào cọc, hạm đội vỡ ra từng mảng, và tướng Ô Mã Nhi bị bắt sống. **[C]**
+359. Rồi thủy triều rút xuống. Nước hạ thấp, những cái cọc nhọn lộ ra, thuyền chiến của quân Nguyên mắc vào cọc, cả hạm đội vỡ ra từng mảng, và tướng Ô Mã Nhi bị bắt sống. **[C]**
 360. Đế quốc lớn nhất thế giới thời ấy bị chặn lại bởi những cây cọc gỗ và con nước của chính dòng sông. **[CC]**
 361. Đó là lần thứ ba. Còn hai lần trước thì sao? Và vì sao một nước nhỏ làm được điều này ba lần liền? **[CC]**
 362. Ta hãy quay lại từ đầu. **[CC]**
@@ -453,13 +453,13 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 289. Mỗi ngày nước lên, nước xuống, và người Việt tính từng giờ. **[CC]**
 290. Thuyền lớn nặng nề chỉ chạy tốt khi nước đầy. Khi nước rút, nó trở thành mục tiêu đứng yên. **[CC]**
 291. Ông chọn nơi đánh và giờ đánh theo đúng lúc nước lên nước xuống. **[CG]**
-292. Sáng ngày chín tháng tư, thuyền Nguyên vào sông. **[CG]**
-293. Thuyền nhỏ của Đại Việt ra đánh, rồi giả vờ rút. Thuyền Nguyên đuổi theo. **[CG]**
+292. Sáng ngày chín tháng tư, hạm đội thuyền chiến của quân Nguyên tiến vào sông Bạch Đằng. **[CG]**
+293. Thuyền nhỏ của Đại Việt ra đánh, rồi giả vờ rút. Các thuyền chiến của quân Nguyên đuổi theo. **[CG]**
 294. Nước bắt đầu xuống. **[CG]**
 295. Những chiếc thuyền lớn của Nguyên mắc vào cọc, nằm giữa dòng. **[CG]**
 296. Thủy triều là một đồng minh rất đáng tin: nó chưa bao giờ đến muộn, và nó không nhận lương. **[H]**
 297. Thuyền nhỏ của Đại Việt quay lại. Trận đánh kéo dài cả ngày, từ sáng đến chiều. **[CG]**
-298. Nhiều thuyền Nguyên bị đốt hoặc chìm. Ô Mã Nhi bị bắt. **[CG]**
+298. Nhiều thuyền chiến của quân Nguyên bị đốt cháy hoặc bị chìm. Ô Mã Nhi bị bắt. **[CG]**
 299. Có nguồn nói tướng Phàn Tiếp nhảy xuống sông, có nguồn nói ông bị bắt. Chi tiết này các sách lệch nhau. **[CG]**
 300. Đây không phải lần đầu người Việt đánh trận này. Từ năm chín trăm ba mươi tám, Ngô Quyền đã dùng cọc và thủy triều đánh quân Nam Hán trên chính con sông ấy. **[C]**
 301. Trần Quốc Tuấn đã học một bài học cũ từ hơn ba trăm năm trước. **[C]**
@@ -471,11 +471,11 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 
 ## Chương 25. Thoát Hoan về nước, và những gì còn lại
 
-303. Với Ô Mã Nhi bị bắt, hạm đội Nguyên coi như mất. **[CG]**
+303. Tướng Ô Mã Nhi đã bị bắt, và hạm đội của quân Nguyên coi như mất hẳn. **[CG]**
 304. Còn đoàn thuyền lương thì đã mất từ Vân Đồn, hơn hai tháng trước. **[CG]**
 305. Tin ấy không kịp đến tai Thoát Hoan trước khi ông ra lệnh rút. **[CG]**
 306. Quân Nguyên mất thủy quân, mất lương, và mất cả đường lui. **[CG]**
-307. Những người còn sống sót phải mất rất lâu mới thoát được về đến đất Nguyên. **[CG]**
+307. Những người còn sống sót phải mất rất lâu mới thoát được về đến lãnh thổ của nhà Nguyên. **[CG]**
 308. Con số thương vong không rõ ràng: các nguồn chép từ vài nghìn đến hàng chục nghìn người, và các nhà nghiên cứu chưa thống nhất. **[CG]**
 309. Còn lại là phần chuyện sau trận. **[CC]**
 310. Năm một nghìn hai trăm tám mươi chín, Đại Việt thả phần lớn tù binh. **[CG]**
@@ -497,7 +497,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 319. Ba lần, một nước nhỏ đứng trước đế quốc lớn nhất thế giới. Ba lần đều không đổ. **[C]**
 320. Vì sao? **[CC]**
 321. Thứ nhất, họ biết mình yếu hơn nên không đối đầu cả mặt trận lớn. Họ lùi, họ chờ, họ đánh vào điểm yếu. **[CC]**
-322. Thứ hai, họ hiểu rằng quân đội nào cũng phải ăn. Cả ba lần, lương thực là điểm đau nhất của người Nguyên. **[CC]**
+322. Thứ hai, họ hiểu rằng quân đội nào cũng phải ăn. Cả ba lần, lương thực là điểm đau nhất của quân Nguyên. **[CC]**
 323. Thứ ba, họ biết dùng đất và nước của mình: đầm lầy, thủy triều, nóng ẩm và cả mùa. **[CC]**
 324. Và thứ tư, trong cả ba lần, triều đình hầu như không đứng một mình: có những người dân rời làng, những cụ già nói "đánh", những tướng như Trần Bình Trọng và Trần Khánh Dư. **[CC]**
 325. Nhưng cũng cần nói thẳng: chiến thắng ấy có giá của nó. Nhiều làng mất mùa, nhiều người chết, và vài người trong hoàng tộc đã chọn đứng về phía kẻ thù. **[CG]**
@@ -735,3 +735,4 @@ Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc l
 - Việc cần làm trước khi đọc giọng: nghe lại nhịp mở đầu mới; cập nhật `nm_full.json` (thêm 9 câu mới, xóa 2 câu bỏ).
 - Câu 358–360 viết lại đầy đủ (thủy triều lên / rút, không nói tắt "triều lên", "nước rút") theo góp ý chủ kênh 23/10/2026. Quy tắc: khi kể thủy triều luôn nói đủ "thủy triều lên", "thủy triều rút xuống", giải thích hệ quả ngay trong câu.
 - Câu 357–358: nêu tên Trần Quốc Tuấn là người chỉ huy trận Bạch Đằng ngay ở chương 0 (chủ kênh yêu cầu 23/10/2026); không dùng "người Việt" chung chung khi đang nói về người đánh trận.
+- Viết đầy đủ, không viết tắt: "thuyền Nguyên" thành "thuyền chiến của quân Nguyên", "hạm đội Nguyên" thành "hạm đội của quân Nguyên", "đất Nguyên" thành "lãnh thổ của nhà Nguyên" (câu 292, 293, 298, 303, 307, 322, 359; chủ kênh yêu cầu 23/10/2026).

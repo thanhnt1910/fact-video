@@ -8,16 +8,22 @@ import world7 as _W
 INF=1e9
 BASE=9000
 _B.ERA=''   # năm ghi kèm TCN/SCN trong year_of
-def R(n,o=0): return T[BASE+n]+o
-def E(n,o=0): return T[BASE+n]+D[BASE+n]+o
+import json as _j,os as _o
+_TACH=_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),'..','ke-hoach','thu-giong-hai','hbt_tach.json')
+M={int(k):tuple(v) for k,v in _j.load(open(_TACH,encoding='utf-8')).items()} if _o.path.exists(_TACH) else {}
+def _f(n): return (M[BASE+n][0] if M else BASE+n)   # số đoạn mới đầu của đoạn cũ n
+def _l(n): return (M[BASE+n][1] if M else BASE+n)   # số đoạn mới cuối
+def R(n,o=0): return T[_f(n)]+o
+def E(n,o=0): return T[_l(n)]+D[_l(n)]+o
 def at(n,sub,off=0.0):
-    for r in PH.get(str(BASE+n),[]):
-        c,s_,e_=r[:3]
-        if sub.lower() in c.lower():
-            if len(r)>=5:
-                p=c.lower().index(sub.lower())/max(1,len(c));s_=r[3]+(r[4]-r[3])*p-0.1
-            return T[BASE+n]+0.12+s_+off
-    return T[BASE+n]+1.0+off
+    for k in range(_f(n),_l(n)+1):
+        for r in PH.get(str(k),[]):
+            c,s_,e_=r[:3]
+            if sub.lower() in c.lower():
+                if len(r)>=5:
+                    p=c.lower().index(sub.lower())/max(1,len(c));s_=r[3]+(r[4]-r[3])*p-0.1
+                return T[k]+0.12+s_+off
+    return T[_f(n)]+1.0+off
 GR=(52,142,86);BL=(54,96,176);RD=(190,52,42);PU=(138,52,112);DK=(46,38,58);GD=(205,160,40)
 TL=(40,140,150);BR=(150,100,60);OR=(200,110,40);GY=(110,110,110);OL=(110,130,50);BK=(60,60,60);YW=(214,176,40);NEU=(150,140,120)
 NH=RD;VT=GR;NV=BL   # nhà Hán đỏ, Nam Việt (Triệu Đà) xanh dương, người Việt / Hai Bà Trưng xanh lá
@@ -46,7 +52,7 @@ def Q(a,b): QUIET.append((R(a,0),E(b,0)))
 def NT(n,o,dur,lo,la,txt,col=DK): NOTES.append((R(n,o),min(R(n,o+min(dur,3.5)),E(n,-0.1)),lo,la,txt,col))
 def C3(n,o,dur,name,role,col): CARDS3.append((R(n,o),min(R(n,o+dur),E(n,-0.2)),name,role,col))
 def J(n,icon,text,off=1.2,dur=3.0): JOKES.append((R(n,off),min(E(n,-0.1),R(n,off)+dur),icon,text))
-def NU(n,big,small,delay=1.2): NUMS.append((BASE+n,big,small,delay))
+def NU(n,big,small,delay=1.2): NUMS.append((_f(n),big,small,delay))
 def AR(n,o,dur,a,b,col,txt): ARROWS.append((R(n,o),min(R(n,o+dur),E(n,-0.1)),a,b,col,txt))
 def LET(n,o,dur,a,b,txt): LETTERS.append((R(n,o),R(n,o+dur),a,b,txt))
 def SKULL(n,o,dur,lo,la,txt): MARKS.append((R(n,o),R(n,o+dur),lo,la,'skull',txt))
@@ -241,7 +247,7 @@ NIGHT.append((TOTAL,0));NIGHT=sorted(NIGHT,key=lambda k:k[0])
 MINI=[(0,TOTAL)]
 def gate_open(t): return 0
 def year_of(n):
-    m=n-BASE
+    m=next((o for o,(a,b) in ((k-BASE,v) for k,v in M.items()) if a<=n<=b),n-BASE) if M else n-BASE
     for a,b,y in [(1,4,'40 SCN'),(5,8,'207 TCN'),(9,9,'196 TCN'),(23,30,'111 TCN'),(38,40,'39 SCN'),(45,50,'40 SCN'),(51,54,'41 SCN'),(55,59,'42 SCN'),(60,65,'43 SCN')]:
         if a<=m<=b: return y
     return None

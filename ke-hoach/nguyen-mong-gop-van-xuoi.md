@@ -621,6 +621,8 @@ Tôi **chưa mở được bản gốc** của Đại Việt sử ký toàn thư
 5. Câu 299 (Phàn Tiếp): nguồn lệch, đã nói rõ. Có thể bỏ cả câu.
 6. Câu 250, 304 (đoàn thuyền lương bị đánh ở Vân Đồn, tháng giêng): hai nguồn xếp thứ tự khác nhau, cần kiểm xem đoàn thuyền lương bị đánh một lần hay hai lần.
 7. Câu 312 (Ô Mã Nhi chết do thuyền chìm): nguồn nói thuyền bị đánh chìm giữa biển; đã nói thận trọng.
+8. Câu 327–328 (Trần Quốc Tuấn mất năm 1300, đền ở Vạn Kiếp): chỉ một bài báo; chưa đối chiếu Toàn thư. Ngày 20/8/1300 (âm lịch hay dương lịch) cần kiểm.
+9. Câu 315–317 (kết cục 1292–1294): chỉ Wikipedia tiếng Anh.
 
 ### Điểm các nguồn lệch nhau
 

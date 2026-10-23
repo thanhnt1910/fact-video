@@ -51,11 +51,18 @@ def cut_times(text, parts, words, x):
 new, mp_old, tmp = [], {}, f'{VD}/_tach'
 os.makedirs(tmp, exist_ok=True); n_new = min(b['n'] for b in beats) - 1; asr_new = {}; dur_new = {}
 for b in beats:
-    n = str(b['n']); parts = groups(b['text']); x = wav(n); words = asr[n]
-    cuts = cut_times(b['text'], parts, words, x) if len(parts) > 1 else []
-    bounds = [0.0] + cuts + [len(x) / SR]; first = n_new + 1
+    n = str(b['n']); parts = groups(b['text']); first = n_new + 1
+    ok = n in asr and os.path.exists(f'{VD}/{n}.mp3') and H.get(n) == hashlib.md5((b['text'] + b['tone'] + 'Puck').encode()).hexdigest()
+    if ok:
+        x = wav(n); words = asr[n]
+        cuts = cut_times(b['text'], parts, words, x) if len(parts) > 1 else []
+        bounds = [0.0] + cuts + [len(x) / SR]
+    else: print('chưa có giọng khớp, để đọc lại:', n)
     for gi, p in enumerate(parts):
-        n_new += 1; a, e = bounds[gi], bounds[gi + 1]
+        n_new += 1
+        if not ok:
+            new.append(dict(n=n_new, chuong=b['chuong'], tone=b['tone'], text=p)); continue
+        a, e = bounds[gi], bounds[gi + 1]
         seg = x[int(a * SR):int(e * SR)].astype(np.float32); f = int(0.008 * SR)
         if len(seg) > 2 * f: seg[:f] *= np.linspace(0, 1, f); seg[-f:] *= np.linspace(1, 0, f)
         subprocess.run(['ffmpeg', '-y', '-v', 'error', '-f', 's16le', '-ac', '1', '-ar', str(SR), '-i', '-', '-b:a', '128k', f'{tmp}/{n_new}.mp3'], input=seg.astype(np.int16).tobytes(), check=True)
@@ -75,8 +82,10 @@ for b in beats:
 for f in os.listdir(tmp): shutil.move(f'{tmp}/{f}', f'{VD}/{f}')
 os.rmdir(tmp)
 for b in beats: dur.pop(str(b['n']), None); H.pop(str(b['n']), None)
+for k in [k for k in list(dur) if k not in dur_new and int(k) >= min(b['n'] for b in beats)]: dur.pop(k, None); H.pop(k, None)
 dur.update(dur_new)
-for x in new: H[str(x['n'])] = hashlib.md5((x['text'] + x['tone'] + 'Puck').encode()).hexdigest()
+for x in new:
+    if str(x['n']) in dur_new: H[str(x['n'])] = hashlib.md5((x['text'] + x['tone'] + 'Puck').encode()).hexdigest()
 json.dump(dur, open(f'{VD}/thoi_luong.json', 'w')); json.dump(H, open(f'{VD}/hash.json', 'w'))
 json.dump(new, open(FP, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 for b in beats: asr.pop(str(b['n']), None)

@@ -12,8 +12,8 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 3. Người khiến ông ta phải chạy không phải một vị tướng nổi tiếng. Đó là hai người chị em, Trưng Trắc và Trưng Nhị. **[C]**
 4. Sử cũ chép rằng sau đó, sáu mươi lăm thành trì ở vùng Lĩnh Nam đã về tay họ. **[CG]**
 5. Nhưng chỉ ba năm sau, tất cả khép lại. **[C]**
-6. Nhà Hán đã sai một vị tướng đem quân tiến về phương nam, và để đi được, ông phải san núi làm đường suốt hơn một nghìn dặm. **[C]**
-7. Vậy hai người phụ nữ ấy là ai? Vì sao họ dám nổi binh? Và điều gì đã xảy ra trong ba năm ngắn ngủi ấy? **[CC]**
+6. Nhà Hán đã sai một vị tướng tên là Mã Viện đem quân tiến về phương nam, và để đi được, ông phải san núi làm đường suốt hơn một nghìn dặm. **[C]**
+7. Vậy hai người phụ nữ ấy là ai? Vì sao họ dám nổi binh? Và vì sao một cuộc nổi dậy lớn như thế chỉ kéo dài ba năm? **[CC]**
 8. Muốn hiểu, ta phải quay lại rất lâu trước đó, với một người đàn ông tên là Triệu Đà. **[CC]**
 
 *Gợi ý bản đồ:* Mở bằng cảnh gần: Mê Linh, cờ nhà Hán, một đoàn người chạy về phía bắc; rồi kéo ra thấy sáu mươi lăm thành (chấm sáng dần ở vùng Lĩnh Nam); cuối chương hiện chữ năm 40 → 43 và hình một đoàn quân đi trên đường núi. Không có khung đùa.
@@ -92,7 +92,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 ## Chương 5. Hai thái thú tốt: Tích Quang và Nhâm Diên (khoảng 1 phút 40 giây)
 
 57. Người đầu tiên được nhà Hán giao cai quản vùng đất này là Thạch Đái. Sau ông là Chu Chương. **[C]**
-58. Hơn một trăm năm trôi qua. Trong thời gian đó, nhà Hán cử rất nhiều quan sang cai trị Giao Chỉ. **[CC]**
+58. Hơn một trăm năm trôi qua. Trong thời gian đó, nhà Hán cử rất nhiều quan sang cai trị Giao Chỉ. Họ cai trị ra sao? **[CC]**
 59. Nhưng có hai người mà sử cũ nhớ mãi. **[CC]**
 60. Cuối thời Vương Mãng, Trung Hoa rối loạn, người đứng đầu châu Giao là Đặng Nhượng cùng các quận đóng cửa ải để tự giữ đất. **[C]**
 61. Về sau, theo lời khuyên của một tướng nhà Hán tên là Sầm Bành, họ sai sứ sang cống nhà Hán. Đó là năm hai mươi chín sau Công nguyên. **[C]**
@@ -117,7 +117,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 73. Sử cũ chỉ ghi ngắn một câu: chính sự của Tô Định tham lam và tàn bạo. **[C]**
 74. Chi tiết cụ thể thì sử không kể. Nhưng chỉ một câu ngắn ấy cũng đủ để hiểu vì sao người ta đứng lên. **[CC]**
 75. Ông ta cai trị dân bằng pháp luật nhà Hán, và sử dùng chính chữ trói buộc để nói về điều đó. Sử không nói rõ những điều luật ấy là gì. **[CG]**
-76. Và rồi có một chuyện còn nghiêm trọng hơn, liên quan đến chính gia đình của một người phụ nữ ở Mê Linh. **[C]**
+76. Và rồi có một chuyện còn nghiêm trọng hơn. Theo sử cũ, Tô Định đã giết chồng của một người phụ nữ ở Mê Linh. **[C]**
 77. Người đó là Trưng Trắc. **[C]**
 
 *Gợi ý bản đồ:* Hình dinh thái thú; một cuộn lệnh được đóng dấu; màu đỏ nhà Hán đậm dần ở Giao Chỉ. Không đặt chân dung Tô Định. Không khung đùa ở chương này.
@@ -134,7 +134,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 83. Bà có một người em gái tên là Nhị. **[C]**
 84. Mê Linh nằm ở vùng đồng bằng sông Hồng. Chu Diên nằm ở vùng sông Đáy, xa hơn về phía nam. **[CG]**
 85. Sử không kể tuổi của hai chị em, cũng không kể họ đã được học hành hay luyện võ thế nào. **[C]**
-86. Điều sử ghi rõ là tình cảnh của họ: một nhà tướng bị quan thái thú ràng buộc bằng pháp luật, và một người chồng đã mất. **[CG]**
+86. Điều sử ghi rõ là tình cảnh của họ: một nhà tướng bị quan thái thú ràng buộc bằng pháp luật, và một người chồng bị giết. **[CG]**
 
 *Gợi ý bản đồ:* Bản đồ phóng gần vùng sông Hồng: điểm Mê Linh (đóng đô sau này), điểm Chu Diên (đánh dấu nơi nhà Thi Sách), một đường nối hai nơi. Thẻ nhân vật Trưng Trắc, Trưng Nhị (vẽ đơn giản). Không khung đùa.
 
@@ -143,7 +143,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 ## Chương 8. Mùa xuân năm bốn mươi: khởi binh (khoảng 2 phút)
 
 87. Mùa xuân, tháng hai, năm bốn mươi. **[C]**
-88. Trưng Trắc đã chịu đựng lâu. Sử viết rằng bà khổ vì Thái thú Tô Định dùng pháp luật trói buộc, và bà còn mang mối thù vì Tô Định đã giết chồng bà. **[C]**
+88. Trưng Trắc đã chịu đựng lâu. Sử viết rằng bà khổ vì Thái thú Tô Định dùng pháp luật trói buộc, lại mang mối thù chồng bị giết. Với bà, đó là giọt nước làm tràn ly. **[C]**
 89. Bà cùng em gái là Trưng Nhị cất quân nổi dậy. Người đời sau gọi hai chị em là Hai Bà Trưng. **[C]**
 90. Họ đánh vào nơi đặt bộ máy cai trị của Hán trong vùng. **[C]**
 91. Và Tô Định, người từng dùng pháp luật để trói buộc người khác, đã chạy về nước. **[C]**

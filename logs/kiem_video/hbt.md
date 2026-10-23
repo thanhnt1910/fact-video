@@ -1,0 +1,74 @@
+# Kiểm video hbt
+
+- Kịch bản 73 câu; có nhận dạng 73 câu; nhận dạng: asr_hbt.json
+- ❌ lỗi: 30  ⚠️ cảnh báo: 36
+
+## ❌ Lỗi
+- Câu 9002: CUỐI câu đọc lẫn đầu câu sau ("nhung chi ba nam")
+- Câu 9003: MẤT 9 chữ ở đầu (câu bị cụt đầu)
+- Câu 9007: thừa 3 chữ ở ĐẦU (lẫn đuôi câu trước): "Năm hai trăm"
+- Câu 9007: NĂM 207 không nghe thấy (nhận dạng: không có số)
+- Câu 9008: giọng nhiều hơn kịch bản 4 chữ (nghi đọc lặp hoặc lẫn câu khác)
+- Câu 9008: NĂM 196 không nghe thấy (nhận dạng: không có số)
+- Câu 9011: MẤT 11 chữ ở đầu (câu bị cụt đầu)
+- Câu 9014: MẤT 18 chữ ở đầu (câu bị cụt đầu)
+- Câu 9015: MẤT 24 chữ ở đầu (câu bị cụt đầu)
+- Câu 9017: MẤT 23 chữ ở đầu (câu bị cụt đầu)
+- Câu 9018: CUỐI câu đọc lẫn đầu câu sau ("ong ta hua rang")
+- Câu 9019: MẤT 18 chữ ở đầu (câu bị cụt đầu)
+- Câu 9025: CUỐI câu đọc lẫn đầu câu sau ("duong boc con lay duoc ca")
+- Câu 9025: NĂM 111 không nghe thấy (nhận dạng: không có số)
+- Câu 9026: thừa 9 chữ ở CUỐI (lẫn đầu câu sau): "Vừa trập tối, quân Hán tiến đến Phiên Ngung."
+- Câu 9026: MẤT 10 chữ ở đầu (câu bị cụt đầu)
+- Câu 9027: CUỐI câu đọc lẫn đầu câu sau ("vay la nuoc nam")
+- Câu 9029: MẤT 24 chữ ở đầu (câu bị cụt đầu)
+- Câu 9030: thừa 3 chữ ở ĐẦU (lẫn đuôi câu trước): "Từ năm một"
+- Câu 9030: NĂM 111 không nghe thấy (nhận dạng: không có số)
+- Câu 9035: CUỐI câu đọc lẫn đầu câu sau ("nhieu nguoi ngheo khong co tien")
+- Câu 9036: CUỐI câu đọc lẫn đầu câu sau ("ong lam thai thu bon nam")
+- Câu 9038: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 9054: đọc LẶP "thong bao"
+- Câu 9055: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 9058: thừa 13 chữ ở CUỐI (lẫn đầu câu sau): "Bà quyết định rút quân về giữ một nơi tên là Cấm Khê."
+- Câu 9058: giọng nhiều hơn kịch bản 13 chữ (nghi đọc lặp hoặc lẫn câu khác)
+- Câu 9058: CUỐI câu đọc lẫn đầu câu sau ("ba quyet dinh rut quan ve")
+- Câu 9069: MẤT 27 chữ ở đầu (câu bị cụt đầu)
+- Câu 9070: MẤT 6 chữ ở cuối (câu bị cụt đuôi)
+
+## ⚠️ Cảnh báo
+- Câu 9002: giọng chỉ khớp 8% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9015: giọng chỉ khớp 59% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9018: giọng chỉ khớp 15% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9025: giọng chỉ khớp 17% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9027: giọng chỉ khớp 8% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9033: giọng chỉ khớp 57% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9034: giọng chỉ khớp 11% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9035: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9036: giọng chỉ khớp 5% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9037: giọng chỉ khớp 3% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9054: giọng chỉ khớp 4% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9059: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9064: giọng chỉ khớp 3% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9069: giọng chỉ khớp 56% với kịch bản (nhận dạng có thể sai, nên nghe lại)
+- Câu 9002: phụ đề đầu câu hiện SỚM 11.4s so với giọng
+- Câu 9003: phụ đề đầu câu hiện SỚM 1.1s so với giọng
+- Câu 9011: phụ đề đầu câu hiện SỚM 3.7s so với giọng
+- Câu 9015: phụ đề đầu câu hiện SỚM 7.1s so với giọng
+- Câu 9017: phụ đề đầu câu hiện SỚM 5.5s so với giọng
+- Câu 9019: phụ đề đầu câu hiện SỚM 4.0s so với giọng
+- Câu 9025: phụ đề đầu câu hiện SỚM 1.9s so với giọng
+- Câu 9029: phụ đề đầu câu hiện SỚM 5.9s so với giọng
+- Câu 9034: phụ đề đầu câu hiện SỚM 3.0s so với giọng
+- Câu 9035: phụ đề đầu câu hiện SỚM 5.1s so với giọng
+- Câu 9036: phụ đề đầu câu hiện SỚM 6.8s so với giọng
+- Câu 9037: phụ đề đầu câu hiện SỚM 12.4s so với giọng
+- Câu 9048: phụ đề đầu câu hiện TRỄ 0.8s so với giọng
+- Câu 9069: phụ đề đầu câu hiện SỚM 2.3s so với giọng
+- Câu 9071: phụ đề đầu câu hiện SỚM 2.2s so với giọng
+- Cảnh gắn vào câu 21 lệch +6.0s nhưng câu chỉ dài 3.3s (rơi sang câu sau)
+- Cảnh gắn vào câu 21 lệch +9.0s nhưng câu chỉ dài 3.3s (rơi sang câu sau)
+- Cảnh gắn vào câu 45 lệch +8.0s nhưng câu chỉ dài 6.9s (rơi sang câu sau)
+- Cảnh gắn vào câu 57 lệch +6.0s nhưng câu chỉ dài 4.0s (rơi sang câu sau)
+- Cảnh gắn vào câu 59 lệch +5.0s nhưng câu chỉ dài 2.7s (rơi sang câu sau)
+- Cảnh gắn vào câu 59 lệch +5.0s nhưng câu chỉ dài 2.7s (rơi sang câu sau)
+- Cảnh gắn vào câu 57 lệch +6.0s nhưng câu chỉ dài 4.0s (rơi sang câu sau)

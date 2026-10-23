@@ -709,3 +709,8 @@ Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc l
 - Tượng vàng (câu 315): tài liệu đã đọc (bài nghiencuulichsu.com tổng hợp) cho biết Toàn thư, Việt sử lược và An Nam chí lược KHÔNG chép việc cống người vàng; chuyện "người vàng thế thân" chỉ gắn với lời đòi của nhà Nguyên năm 1279 và được chép ở sách đời sau (Cương mục, Tiền biên...). Wikipedia tiếng Anh ghi 1292 nhưng không có nguồn Toàn thư. Đã bỏ chuyện tượng vàng khỏi lời kể, chỉ giữ ý chắc: không sang chầu, vẫn cống lễ vật. Năm sứ đoàn: chỉ chắc có sứ năm 1288 (cống phương vật) và các năm sau; chưa gắn năm vào câu.
 - Thứ tự Lạng Sơn / Bạch Đằng: Wikipedia ghi Bạch Đằng 9/4/1288, Thoát Hoan trúng tên độc ở Lạng Sơn 10/4/1288. Hai việc diễn ra gần như cùng lúc, nên giữ thứ tự chương 23 (đường bộ) rồi 24 (đường thủy) với câu nối "Cùng những ngày ấy"; không cần đảo chương. Chưa đối chiếu được nguyên văn Toàn thư.
 - Vẫn cần mở Toàn thư (bản Thiệu Bảo 10) để xác nhận ngày Lạng Sơn và ngày Thoát Hoan qua biên giới.
+
+### Tìm nguyên văn Toàn thư (23/10/2026): không lấy được
+- Các bản Toàn thư trực tuyến (PDF thpthiephoa1, medialib, Internet Archive, Scribd) chỉ đọc được phần đầu hoặc bị chặn; quangduc và Wikisource không tải được. Chưa có nguyên văn Bản kỷ quyển 5.
+- Qua bài znews "Sử nhà Nguyên viết gì về trận Bạch Đằng năm 1288" (có đối chiếu Toàn thư): Toàn thư ghi Ô Mã Nhi bị Đỗ Hành bắt; lễ hiến tiệp ở lăng Thái Tông ngày 17 tháng 3 âm (18/4/1288), vua về Thăng Long ngày 27 tháng 3 âm (28/4/1288). Nguyên sử: Bạch Đằng 9/4/1288, Thoát Hoan về đến Tư Minh 19/4/1288 (bài không nói rõ nguồn). Ngày Lạng Sơn và tên độc vẫn chỉ có từ Wikipedia (10/4).
+- Kết luận: thứ tự chương 23–24 và việc bỏ tượng vàng khỏi lời kể không đổi; ngày Lạng Sơn vẫn không đưa vào lời kể.

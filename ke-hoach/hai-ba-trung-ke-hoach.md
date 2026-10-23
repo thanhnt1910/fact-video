@@ -58,3 +58,19 @@ Các chi tiết dân gian (Hát Môn thề, voi trận, nhảy xuống sông Há
 - Có làm trước Hồng Bàng / An Dương Vương / Triệu Đà (nếu muốn đúng từ đầu bộ sử) hay bắt đầu từ Hai Bà Trưng?
 - Đăng Hai Bà Trưng trước hay Ngô Quyền trước (Ngô Quyền gần xong)?
 - Cột đồng Mã Viện: bỏ khỏi lời kể (khuyến nghị) hay nói "theo một số sách"?
+
+## 8. ĐỐI CHIẾU TOÀN THƯ (23/10/2026, đã có toàn văn do chủ kênh gửi PDF; văn bản trích ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, dòng 944–1160)
+Cập nhật mục 2: giờ đã có nguyên văn. Các điểm sau là TOÀN THƯ chép (mức A):
+- Cuối "Kỷ thuộc Tây Hán", năm Kỷ Hợi [39]: "Thái thú Giao Chỉ là Tô Định chính sự tham lam tàn bạo, Trưng Nữ Vương dấy binh đánh."
+- "Kỷ Trưng Nữ Vương": ở ngôi 3 năm. Tên húy Trắc, họ Trưng, nguyên họ Lạc, con gái Lạc tướng huyện Mê Linh (Phong Châu), vợ Thi Sách ở huyện Chu Diên (Thi Sách cũng là con Lạc tướng). Đóng đô ở Mê Linh.
+- Canh Tý [40], mùa xuân tháng 2: "khổ vì Thái thú Tô Định dùng pháp luật trói buộc, lại thù Định giết chồng mình", cùng em gái là Nhị nổi binh đánh hãm trị sở ở châu; "Định chạy về nước". Nam Hải, Cửu Chân, Nhật Nam, Hợp Phố hưởng ứng, lấy 65 thành ở Lĩnh Nam, tự lập làm vua, xưng họ Trưng.
+- Tân Sửu [41]: nhà Hán sai Trường Sa, Hợp Phố và Giao Châu sắp xe thuyền, sửa cầu đường, chứa lương; Mã Viện làm Phục Ba tướng quân, Phù Lạc hầu Lưu Long làm phó.
+- Nhâm Dần [42], mùa xuân tháng giêng: Mã Viện theo ven biển, san núi làm đường hơn nghìn dặm, đến Lãng Bạc đánh nhau với vua; vua thấy thế giặc mạnh, quân mình ô hợp, lui về giữ Cấm Khê; quân tan chạy; "Quốc thống lại mất". Chú thích dịch giả: Toàn thư cho Lãng Bạc là Hồ Tây là lầm, các nhà nghiên cứu đoán ở vùng Tiên Sơn (Bắc Ninh).
+- Quý Mão [43], mùa xuân tháng giêng: Trưng Nữ Vương cùng em Nhị chống cự, "thế cô, đều thua chết"; Mã Viện đuổi quân còn sót là bọn Đô Dương, đến huyện Cư Phong thì họ đầu hàng; dựng cột đồng làm giới hạn cuối cùng của nhà Hán (chú thích: tương truyền ở động Cổ Lâu, châu Khâm; lời thề "Cột đồng gãy thì Giao Châu diệt"). Chia huyện Tây Vu, đắp thành Kiển Giang. Ba năm sau Viện trở về. Người địa phương làm đền thờ ở xã Hát Giang.
+- Lời bình Lê Văn Hưu: hai bà hô một tiếng mà 65 thành hưởng ứng; trách đàn ông hơn nghìn năm sau chỉ cúi đầu làm tôi tớ phương Bắc. Lời bình Ngô Sĩ Liên: họ Trưng giận thái thú bạo ngược; sau khi chết còn linh ứng khi cầu đảo.
+Hệ quả cho kế hoạch:
+- Cột đồng: CÓ trong Toàn thư (có chú thích), nên được đưa vào lời kể với mức "sử cũ chép"; khuyến nghị nói ngắn, không khẳng định vị trí. (Bài nghiên cứu ghi Hậu Hán thư không chép; mức B.)
+- 65 thành: Toàn thư chép nguyên văn; đưa vào lời kể kèm "sử cũ chép" (không nói là chắc chắn từng thành).
+- Tháng mất: Toàn thư chỉ ghi năm 43 tháng giêng; dùng đúng mức này, bỏ chuyện tháng 4.
+- Nguyên nhân khởi binh Toàn thư nêu: pháp luật trói buộc + thù Tô Định giết chồng. KHÔNG có tên Thi Sách "bị giết" ở dạng chi tiết; chỉ nói Định giết chồng.
+- Giọng hài về Tô Định: Toàn thư chỉ ghi "Định chạy về nước", chưa có chi tiết cải trang; chỉ dùng tình huống này.

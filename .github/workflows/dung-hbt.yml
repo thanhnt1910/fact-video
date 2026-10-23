@@ -36,8 +36,10 @@ jobs:
         with: { python-version: "3.12" }
       - name: Cài đặt
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          python -m pip install -q numpy pillow scipy
+          for k in 1 2 3 4; do
+            timeout 240 bash -c 'sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null && python -m pip install -q numpy pillow scipy' && break
+            echo "cài đặt lần $k quá 4 phút hoặc lỗi, thử lại"; sleep 5
+          done
       - name: Dựng đoạn ${{ matrix.idx }}
         working-directory: phim_ban_do
         run: |

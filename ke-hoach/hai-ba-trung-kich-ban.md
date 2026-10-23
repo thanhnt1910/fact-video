@@ -11,7 +11,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 2. Ông ta tên là Tô Định, người đang đứng đầu việc cai trị cả vùng Giao Chỉ, vùng đất phía bắc Việt Nam ngày nay. **[C]**
 3. Người khiến ông ta phải chạy không phải một vị tướng nổi tiếng. Đó là hai người chị em, Trưng Trắc và Trưng Nhị. **[C]**
 4. Sử cũ chép rằng sau đó, sáu mươi lăm thành trì ở vùng Lĩnh Nam đã về tay họ. **[CG]**
-5. Nhưng chỉ ba năm sau, tất cả khép lại. **[C]**
+5. Nhưng chỉ ba năm sau, mọi chuyện khép lại. **[C]**
 6. Nhà Hán đã sai một vị tướng tên là Mã Viện đem quân tiến về phương nam, và để đi được, ông phải san núi làm đường suốt hơn một nghìn dặm. **[C]**
 7. Vậy hai người phụ nữ ấy là ai? Vì sao họ dám nổi binh? Và vì sao một cuộc nổi dậy lớn như thế chỉ kéo dài ba năm? **[CC]**
 8. Muốn hiểu, ta phải quay lại rất lâu trước đó, với một người đàn ông tên là Triệu Đà. **[CC]**

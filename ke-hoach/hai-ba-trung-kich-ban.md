@@ -226,12 +226,11 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 140. Còn một lý do khác nằm ngay trong chuyện vừa kể: quân của hai bà mới tập hợp, chưa quen đánh trận, còn nhà Hán đã chuẩn bị từ trước. **[CC]**
 141. Từ năm bốn mươi bốn, nhà Hán trở lại cai trị. Sử cũ ghi rằng trải qua năm đời vua nhà Hán, tất cả tám mươi hai năm. **[C]**
 142. Một sử gia xưa còn viết rằng chỉ cần hai người phụ nữ hô lên một tiếng, sáu mươi lăm thành đã đáp lại, thì đủ thấy đất Việt có thể dựng nên nghiệp lớn. **[C]**
-143. Trong khoảng thời gian ấy, hầu như chỉ có một viên quan được nhớ tên vì làm điều tốt: Lý Thiện, thái thú Nhật Nam rồi Cửu Chân, khiến dân yên ổn và mến phục. **[C]**
-144. Mãi đến năm một trăm tám mươi bảy, một người họ Sĩ tên là Nhiếp, cùng ba người em, nắm quyền cai quản các quận ở Giao Châu, và giữ vùng này suốt bốn mươi năm. **[CG]**
-145. Người Việt gọi ông là Sĩ Vương. **[C]**
-146. Vậy Sĩ Nhiếp là người như thế nào? Vì sao ông có thể giữ yên đất Giao Châu giữa thời loạn? Tập sau sẽ kể tiếp. **[CC]**
+143. Mùa xuân năm bốn mươi, một viên quan nhà Hán đã phải bỏ chạy khỏi đất này. **[C]**
+144. Ông ta không chạy trước một đội quân của triều đình, mà trước hai người chị em ở Mê Linh. **[CC]**
+145. Họ chỉ ở ngôi ba năm. Nhưng gần hai nghìn năm đã trôi qua, tên Trưng Trắc và Trưng Nhị vẫn còn được kể lại. **[CC]**
 
-*Gợi ý bản đồ:* Dòng thời gian ngắn: 40 → 43; hình dãy núi Ngũ Lĩnh ở phía bắc; rồi bản đồ chuyển sang vùng Giao Châu, chữ 'hơn tám mươi năm'; kết bằng hình một người cưỡi ngựa, vòng chữ năm 187, không dùng thẻ 'HẾT'. Không khung đùa.
+*Gợi ý bản đồ:* Dòng thời gian ngắn: 40 → 43; hình dãy núi Ngũ Lĩnh ở phía bắc; chữ 'hơn tám mươi năm' ở vùng Giao Châu; kết bằng cảnh quay lại vùng Mê Linh lúc đầu, bản đồ mờ dần, không dùng thẻ 'HẾT'. Không khung đùa.
 
 ---
 

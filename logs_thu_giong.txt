@@ -1,49 +1,5 @@
-còn thiếu 17 câu
+còn thiếu 2 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 9005 - 9005 3.1 giây
+OK cụm 9092 - 9092 7.3 giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9006 - 9006 9.8 giây
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9007 - 9007 3.9 giây
-OK cụm 9008 - 9008 4.0 giây
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9009 - 9009 5.8 giây
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9020 - 9020 5.9 giây
-OK cụm 9021 - 9021 3.3 giây
-OK cụm 9022 - 9022 4.0 giây
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9023 - 9023 6.2 giây
-OK cụm 9062 - 9062 4.2 giây
-OK cụm 9063 - 9063 9.1 giây
-OK cụm 9082 - 9082 8.8 giây
-   [gemini] khóa …f-Vg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 25s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 27s…
-   [gemini] mọi khóa đang hết lượt, đợi 64s…
-OK cụm 9089 - 9089 5.2 giây
-OK cụm 9090 - 9090 7.3 giây
-OK cụm 9091 - 9091 4.7 giây
-   [gemini] khóa …f-Vg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 17h34m37s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-LỖI cụm 9092 Gemini TTS lỗi:
-  gemini-3.8-flash-tts: mọi khóa Gemini đều hết lượt
-  gemini-3.8-flash-tts: mọi khóa Gemini đều hết lượt
-  gemini-3.1-flash-tts-preview: mọi khóa Gemini đều hết lượt
-  gemini-2.5-flas
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-   [gemini] mọi khóa đang hết lượt, đợi 120s…
-LỖI cụm 9093 Gemini TTS lỗi:
-  gemini-3.8-flash-tts: mọi khóa Gemini đều hết lượt
-  gemini-3.8-flash-tts: mọi khóa Gemini đều hết lượt
-  gemini-3.1-flash-tts-preview: mọi khóa Gemini đều hết lượt
-  gemini-2.5-flas
+OK cụm 9093 - 9093 3.7 giây

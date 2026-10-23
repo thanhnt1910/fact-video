@@ -1,0 +1,65 @@
+name: Ghép video Hai Bà Trưng từ các đoạn đã dựng
+
+# Chạy khi đẩy ke-hoach/thu-giong-hai/ghep_hbt.txt. Dòng đầu: mã run dựng đã có đủ 16 đoạn (doan-0..15).
+# Chỉ ghép, không dựng lại. Không dùng apt update; chỉ cài khi thiếu, có giới hạn thời gian.
+on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/ghep_hbt.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+env:
+  NPROC: 4
+  SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/hbt_full.json
+  VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/puck
+  WORLD: ${{ github.workspace }}/phim_ban_do/world7.jpg
+  LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
+  FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf
+  CONTENT: hbt_content
+  WORLDMOD: world7
+  PHUDE: ${{ github.workspace }}/phim_ban_do/phude_hbt.json
+
+jobs:
+  ghep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Chuẩn bị công cụ
+        run: |
+          which ffmpeg || for k in 1 2 3; do timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null && break; echo "thử lại $k"; done
+          python3 -c "import numpy" 2>/dev/null || for k in 1 2 3; do timeout 150 python3 -m pip install -q numpy pillow scipy && break; done
+          python3 -c "import numpy, PIL, scipy" || for k in 1 2 3; do timeout 150 python3 -m pip install -q numpy pillow scipy && break; done
+          ffmpeg -version | head -1
+      - name: Mã run dựng
+        id: rid
+        run: echo "id=$(head -1 ke-hoach/thu-giong-hai/ghep_hbt.txt | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+      - uses: actions/download-artifact@v4
+        with:
+          path: doan
+          pattern: doan-*
+          run-id: ${{ steps.rid.outputs.id }}
+          github-token: ${{ github.token }}
+      - name: Âm thanh, ghép đoạn và thêm tiếng
+        working-directory: phim_ban_do
+        run: |
+          A2_OUT=$PWD/a2.wav python3 -u audio2.py 2>&1 | tail -n 3
+          for i in $(seq 0 15); do echo "file '$GITHUB_WORKSPACE/doan/doan-$i/doan_$i.mp4'" >> list.txt; done
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy ghep.mp4
+          ffmpeg -y -loglevel error -i ghep.mp4 -i a2.wav -c:v copy -c:a aac -b:a 160k -shortest hbt_video.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 hbt_video.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-hoan-chinh
+          path: phim_ban_do/hbt_video.mp4
+          retention-days: 7
+      - name: Đăng bản phát hành để tải về
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="hbt-${{ github.run_id }}"
+          gh release create "$TAG" phim_ban_do/hbt_video.mp4 --title "Hai Bà Trưng năm 40–43 ${{ github.run_id }}" --notes "Ghép từ run ${{ steps.rid.outputs.id }}" --prerelease

@@ -6,6 +6,26 @@ Trạng thái: DÀN Ý + ĐỐI CHIẾU NGUỒN (chưa viết lời kể). Mục
 - Công cụ của mình KHÔNG mở được văn bản Toàn thư trực tiếp (trang Wikisource bị từ chối). Các điểm dưới đây lấy từ bài nghiên cứu, báo và Wikipedia có dẫn Toàn thư, Cương mục, Việt sử lược, Tư trị thông giám, Tân Ngũ Đại sử. Mọi điểm đánh dấu [kiểm Toàn thư] cần đối chiếu với bản dịch Toàn thư (kỷ nhà Ngô, quyển V) trước khi đọc giọng.
 - Cách nhanh nhất: chủ kênh gửi ảnh chụp hoặc văn bản Toàn thư quyển V và mục kỷ nhà Ngô (bản dịch của Viện Sử học, NXB Khoa học xã hội, hoặc bản chữ Hán trên Wikisource); mình đọc và đối chiếu từng câu.
 
+## KẾT QUẢ ĐỐI CHIẾU ngày 23/10/2026 (chỉ ghi điều có trích dẫn nguồn, không suy luận)
+Mình KHÔNG mở được toàn văn Toàn thư (Wikisource trả lỗi; trang "Đời thuộc Tùy và Đường" bị cắt trước phần Ngô). Mình chỉ dùng các trang có trích Toàn thư/Cương mục. Mức: A = có trích Toàn thư; B = có trích Cương mục hoặc Ngũ đại sử; C = chỉ bài viết hiện đại, chưa có trích sử cũ.
+
+| Chi tiết | Mức | Ghi chú nguồn |
+|---|---|---|
+| Ngô Quyền giết Kiều Công Tiễn, tự lập làm vương, đóng đô Loa Thành (Cổ Loa) | A | Toàn thư, qua mocban.vn |
+| Ngô Quyền ở ngôi 6 năm (939–944) | A | Toàn thư, qua mocban.vn (Ngự chế ghi "6 tháng": lệch, bỏ Ngự chế) |
+| Cọc nhọn bịt sắt cắm ở cửa biển; thuyền địch theo triều lên vào hàng cọc; Quyền nói "không kế gì hơn kế ấy" | A | Toàn thư, trích trên quansu.haiphong.gov.vn |
+| Vua Nam Hán đóng quân ở biên giới tiếp ứng, nghe tin thua thì khóc thương, thu nhặt tàn quân rút lui | A | Toàn thư, trích trên bachdanggiang.vn; Ngũ đại sử: "đem dư chúng quay trở lại" |
+| Kiều Công Tiễn sai sứ mang của đút lót sang Nam Hán cầu cứu | B | Cương mục, qua mocban.vn |
+| Vua Nam Hán muốn nhân loạn chiếm Giao Châu, phong con là Hoằng Tháo làm Giao vương, cho sang "cứu" Công Tiễn | B | Cương mục, qua mocban.vn |
+| Quyền cho thuyền nhẹ ra khiêu chiến, giả thua nhử địch vào bãi cọc; nước triều rút, thuyền địch mắc cọc | B | Cương mục (và Ngự chế), qua mocban.vn |
+| Hoằng Tháo chết trong trận | B | Ngũ đại sử: tử trận. Cách chết khác nhau: Cương mục "chết đuối", Ngự chế "bị bắt giết". Lời kể chỉ nói "Hoằng Tháo chết trong trận". |
+| Tên vua Nam Hán | không thống nhất | Lưu Cung (Cương mục, Ngũ đại sử), Lưu Yểm (Ngự chế), Lưu Nghiễm (Wikipedia). Lời kể chỉ nói "vua Nam Hán", không gọi tên. |
+| Ngày tháng chính xác trận Bạch Đằng | CHƯA XÁC ĐỊNH | Toàn thư (tháng 10 mùa đông), Cương mục (tháng 9 mùa thu), Việt sử lược (tháng Chạp) lệch nhau; mình chưa đọc được nguyên văn câu của Toàn thư. Lời kể chỉ nói "cuối năm 938", không nêu tháng. |
+| Khúc Thừa Dụ 905, Dương Đình Nghệ 931, Kiều Công Tiễn giết Dương Đình Nghệ 937, Ngô Quyền gả con gái Dương Đình Nghệ | C | Nhiều bài hiện đại khớp nhau nhưng mình chưa có trích Toàn thư: để nhãn [kiểm Toàn thư], hoặc bỏ nếu không đối chiếu được |
+| Cha Ngô Mân, mẹ họ Phùng, sinh 898 hoặc 897, "cuối thế kỷ chín" | C | Bỏ khỏi lời kể |
+
+Việc còn lại để đạt "chính xác hoàn toàn": cần văn bản Toàn thư kỷ nhà Ngô (Ngoại kỷ quyển V). Chủ kênh gửi ảnh chụp hoặc văn bản thì mình đối chiếu nốt các dòng mức C và câu ghi tháng.
+
 ## Điểm các nguồn chép KHÁC NHAU (quan trọng)
 | Điểm | Chép thế nào |
 |---|---|

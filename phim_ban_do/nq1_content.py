@@ -6,16 +6,22 @@ import build2 as _B
 import world7 as _W
 INF=1e9
 BASE=8000
-def R(n,o=0): return T[BASE+n]+o
-def E(n,o=0): return T[BASE+n]+D[BASE+n]+o
+import json as _j,os as _o
+_TACH=_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),'..','ke-hoach','thu-giong-hai','nq1_tach.json')
+M={int(k):tuple(v) for k,v in _j.load(open(_TACH,encoding='utf-8')).items()} if _o.path.exists(_TACH) else {}
+def _f(n): return (M[BASE+n][0] if M else BASE+n)   # số đoạn mới đầu của câu cũ n
+def _l(n): return (M[BASE+n][1] if M else BASE+n)   # số đoạn mới cuối
+def R(n,o=0): return T[_f(n)]+o
+def E(n,o=0): return T[_l(n)]+D[_l(n)]+o
 def at(n,sub,off=0.0):
-    for r in PH.get(str(BASE+n),[]):
-        c,s_,e_=r[:3]
-        if sub.lower() in c.lower():
-            if len(r)>=5:
-                p=c.lower().index(sub.lower())/max(1,len(c));s_=r[3]+(r[4]-r[3])*p-0.1
-            return T[BASE+n]+0.12+s_+off
-    return T[BASE+n]+1.0+off
+    for k in range(_f(n),_l(n)+1):
+        for r in PH.get(str(k),[]):
+            c,s_,e_=r[:3]
+            if sub.lower() in c.lower():
+                if len(r)>=5:
+                    p=c.lower().index(sub.lower())/max(1,len(c));s_=r[3]+(r[4]-r[3])*p-0.1
+                return T[k]+0.12+s_+off
+    return T[_f(n)]+1.0+off
 GR=(52,142,86);BL=(54,96,176);RD=(190,52,42);PU=(138,52,112);DK=(46,38,58);GD=(205,160,40)
 TL=(40,140,150);BR=(150,100,60);OR=(200,110,40);GY=(110,110,110);OL=(110,130,50);BK=(60,60,60);YW=(214,176,40);NEU=(150,140,120)
 NH=RD;VT=GR   # Nam Hán đỏ, Giao Châu (Việt) xanh lá
@@ -43,7 +49,7 @@ def Q(a,b): QUIET.append((R(a,0),E(b,0)))
 def NT(n,o,dur,lo,la,txt,col=DK): NOTES.append((R(n,o),min(R(n,o+min(dur,3.5)),E(n,-0.1)),lo,la,txt,col))
 def C3(n,o,dur,name,role,col): CARDS3.append((R(n,o),min(R(n,o+dur),E(n,-0.2)),name,role,col))
 def J(n,icon,text,off=1.2,dur=3.0): JOKES.append((R(n,off),min(E(n,-0.1),R(n,off)+dur),icon,text))
-def NU(n,big,small,delay=1.2): NUMS.append((BASE+n,big,small,delay))
+def NU(n,big,small,delay=1.2): NUMS.append((_f(n),big,small,delay))
 def AR(n,o,dur,a,b,col,txt): ARROWS.append((R(n,o),min(R(n,o+dur),E(n,-0.1)),a,b,col,txt))
 def LET(n,o,dur,a,b,txt): LETTERS.append((R(n,o),R(n,o+dur),a,b,txt))
 def SKULL(n,o,dur,lo,la,txt): MARKS.append((R(n,o),R(n,o+dur),lo,la,'skull',txt))
@@ -98,7 +104,7 @@ NU(15,'năm 931','Dương Đình Nghệ lại đánh Nam Hán',0.6)
 G('Quân Trần Bảo',NH,12,[(R(16,6),113.26,23.13),(R(17,0),110.9,22.5),(R(17,4),108.3,22.3),(R(17,8),106.6,21.7),(R(17,12),105.9,21.2),(R(18,2),105.9,21.2)],show=(R(16,6),E(18,0)),emb='tri',seed=815,soff=(-60,-30),alive=[(0,1),(R(17,10),1),(R(18,0),0.1)])
 BATT.append((R(17,11),R(18,2),105.88,21.10,['Quân Trần Bảo','Quân Dương Đình Nghệ']))
 NT(16,1.5,3.0,105.85,21.2,'Lý Tiến cho ngựa báo về Quảng Châu',NH)
-NT(18,0.5,3.0,105.85,21.2,'Đình Nghệ tự xưng tiết độ sứ',VT)
+NT(18,0.5,3.0,105.85,21.2,'Dương Đình Nghệ tự xưng người đứng đầu vùng',VT)
 # ======================= CHƯƠNG 4: NGƯỜI TƯỚNG Ở ÁI CHÂU (19–23)
 S2(19,23,[X('Ái Châu'),X('Đại La')],4.2)
 show('Ái Châu',19,23);show('Đại La',19,23);show('Đường Lâm',19,23)
@@ -128,6 +134,7 @@ SKULL(33,0.4,3.2,105.85,21.03,'Kiều Công Tiễn bị giết')
 AMBIENT.append((R(26,0),E(33,0),'sea',0.35));AMBIENT.append((R(31,0),E(31,5),'rain',0.35))
 FX.append((R(28,6),R(28,9),'oars',X('Quảng Châu'),X('Hải Môn')))
 FX.append((R(32,3),R(32,10),'drums',X('Hải Môn'),(107.0,20.75)))
+FX.append((R(24,5.0),R(24,8.0),'drums',X('Ái Châu'),X('Đại La')))
 # ======================= CHƯƠNG 6: CON SÔNG VÀ NƯỚC TRIỀU (34–40)
 S(34,40,106.72,20.97,8.8*_W.RW/6031)
 show('Bạch Đằng',34,40);show('Nam Sách',34,47)
@@ -137,10 +144,8 @@ G('Ngô Quyền',VT,10,[(R(34,0),106.62,21.03),(R(34,6),106.62,21.03),(R(47,8),1
 G('Ngô Quyền ',VT,10,[(R(41,0),106.62,21.03),(R(47,8),106.62,21.03)],show=(R(41,0),E(47,0)),emb='sun',seed=821,soff=(-190,-30),spread=0.6,label=False)
 STK=[(106.69,20.985),(106.72,20.965),(106.745,20.955),(106.765,20.94),(106.785,20.93),(106.80,20.92),(106.815,20.905),(106.835,20.89),(106.70,20.96),(106.73,20.98),(106.76,20.955),(106.79,20.915),(106.82,20.925),(106.85,20.87)]
 TIDE.append(([(106.60,21.03),(106.70,20.98),(106.80,20.92),(106.88,20.84),(106.92,20.75)],[(0,1.0),(R(43,0),1.0),(R(44,1),0.95),(R(45,3),0.08),(R(47,4),0.08),(R(48,2),0.7)],STK,(R(41,0),R(41,5)),R(37,2.0),(R(37,0),E(47,6))))
-NT(35,0.4,3.0,106.78,21.0,'địch xa tới, đã mệt',NH)
 NT(37,0.5,3.2,106.78,21.02,'cọc gỗ lớn, đầu nhọn bịt sắt',BR)
-NT(38,0.3,3.2,106.76,21.0,'nước lên: cọc chìm dưới nước',BL)
-NT(39,0.5,3.0,106.76,21.0,'cọc đóng ngầm ở cửa biển',BR)
+NT(38,0.3,3.2,106.76,21.0,'thủy triều lên: cọc chìm dưới nước',BL)
 NT(41,0.2,3.0,106.93,20.70,'thuyền chiến lớn của Nam Hán',NH)
 NT(42,0.3,3.0,106.70,21.03,'giả thua, nhử vào hàng cọc',VT)
 AMBIENT.append((R(34,0),E(40,0),'sea',0.35))
@@ -164,7 +169,7 @@ FX.append((R(46,3.8),R(46,4.2),'splash',(106.78,20.94),(106.82,20.90)))
 BATT.append((R(45,3.0),R(46,7.0),106.77,20.94,['Thuyền Nam Hán','Thuyền Giao Châu']))
 SKULL(47,0.5,4.0,106.78,20.94,'Hoằng Tháo bị bắt và giết')
 AMBIENT.append((R(41,0),E(47,6),'sea',0.45));AMBIENT.append((E(47,2),E(48,0),'gulls',0.2))
-Q(44,47)
+Q(17,18);Q(43,47)
 # ======================= CHƯƠNG 8: VUA NAM HÁN RÚT LUI (48–53)
 S2(48,53,[X('Hải Môn'),(106.9,20.75)],2.6)
 show('Hải Môn',48,53)
@@ -178,8 +183,9 @@ show('Cổ Loa',54,59);show('Đường Lâm',54,59)
 OW('Cổ Loa',VT)
 C3(54,0.4,3.2,'Ngô Quyền','xưng vương năm 939',VT)
 NU(55,'năm 939','Ngô Quyền xưng vương',1.0)
-NT(55,3.0,3.0,105.88,21.30,'đặt trăm quan, định triều nghi',VT)
+NT(55,3.0,3.0,105.88,21.30,'đặt trăm quan, lập triều đình',VT)
 NU(59,'năm 944','Ngô Quyền mất',1.0)
+FX.append((R(55,2.0),R(55,4.0),'trumpet',X('Cổ Loa'),(105.95,21.2)))
 # ======================= CHƯƠNG 10: SAU KHI NGÔ QUYỀN MẤT (60–65)
 S2(60,65,[X('Cổ Loa'),X('Nam Sách')],4.2)
 show('Cổ Loa',60,65);show('Nam Sách',60,65)
@@ -201,7 +207,8 @@ NIGHT.append((TOTAL,0));NIGHT=sorted(NIGHT,key=lambda k:k[0])
 MINI=[(0,TOTAL)]
 def gate_open(t): return 0
 def year_of(n):
-    m=n-BASE
+    m=[k for k in range(1,71) if M and _f(k)<=n<=_l(k)]
+    m=m[0] if m else n-BASE
     for a,b,y in [(1,4,938),(5,10,907),(11,14,923),(15,18,931),(19,23,937),(24,53,938),(54,58,939),(59,59,944),(60,65,945),(66,70,None)]:
         if a<=m<=b: return y
     return None

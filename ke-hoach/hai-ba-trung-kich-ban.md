@@ -217,7 +217,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 ## Chương 12. Vì sao chỉ ba năm? (khoảng 1 phút 50 giây)
 
 133. Hai Bà Trưng ở ngôi ba năm. **[C]**
-134. Bộ sử ấy dành riêng cho hai bà một phần gọi là kỷ, giống như dành cho các triều vua. **[C]**
+134. Bộ sử cũ dành riêng cho hai bà một phần gọi là kỷ, giống như dành cho các triều vua. **[C]**
 135. Nhưng sử cũ ghi về ba năm này rất ít, nên nhiều điều ta vẫn chưa biết. **[C]**
 136. Họ đã làm được điều mà trước đó nhiều thế hệ không làm được: đuổi được quan thái thú, và khiến sáu mươi lăm thành đứng lên. **[CG]**
 137. Vậy vì sao họ không giữ được lâu? **[CC]**

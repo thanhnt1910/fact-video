@@ -6,6 +6,22 @@ Quy tắc cho câu đùa: chỉ đùa về hậu cần, sự chủ quan, sự l�
 Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đầy đủ họ tên, năm viết bằng chữ, câu ngắn, từ đời thường. Phần "Gợi ý bản đồ" chỉ để dựng, không đọc.
 
 
+## Chương 0. Mở đầu: một buổi chiều ở sông Bạch Đằng (cảnh trước, khoảng 45 giây)
+
+354. Tháng tư năm một nghìn hai trăm tám mươi tám. Sông Bạch Đằng, ở phía đông bắc Đại Việt. **[C]**
+355. Một hạm đội lớn của quân Nguyên đang đi ngược dòng sông, trên đường rút về nước. **[C]**
+356. Họ mệt, họ đói, nhưng vẫn đông và vẫn mạnh. **[CG]**
+357. Họ không biết rằng dưới mặt nước, người Việt đã cắm sẵn những hàng cọc gỗ nhọn, đầu bịt sắt. **[C]**
+358. Người Việt chờ nước triều lên, để cọc chìm khuất dưới mặt nước. **[C]**
+359. Rồi nước rút. Thuyền Nguyên mắc vào cọc, hạm đội vỡ ra từng mảng, và tướng Ô Mã Nhi bị bắt sống. **[C]**
+360. Đế quốc lớn nhất thế giới thời ấy bị chặn lại bởi gỗ, nước và đúng một giờ nước rút. **[CC]**
+361. Đó là lần thứ ba. Còn hai lần trước thì sao? Và vì sao một nước nhỏ làm được điều này ba lần liền? **[CC]**
+362. Ta hãy quay lại từ đầu. **[CC]**
+
+*Gợi ý bản đồ:* mở bằng cảnh gần: sông Bạch Đằng, thuyền Nguyên đi vào, cọc hiện dần dưới nước, nước rút, thuyền mắc cọc; rồi kéo máy quay ra toàn châu Á để vào chương 1. Không đặt khung đùa trong chương này.
+
+---
+
 ## Chương 1. Mở đầu: một nước nhỏ, ba lần, và một đế quốc
 
 1. Giữa thế kỷ mười ba, có một đội quân khiến cả châu Á lẫn châu Âu phải dè chừng: kỵ binh Mông Cổ. **[CC]**
@@ -15,8 +31,6 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 5. Ở đó có một nước nhỏ hơn nhiều, nằm ven biển, nhiều sông, nhiều đầm lầy: Đại Việt, nơi nhà Trần đang cầm quyền. **[CC]**
 6. Nước nhỏ ấy đã đứng trước đế quốc lớn nhất thế giới thời ấy, không phải một lần, mà ba lần. **[C]**
 7. Vào các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm, và một nghìn hai trăm tám mươi tám. **[C]**
-8. Ba lần kẻ mạnh đến. Ba lần kẻ mạnh phải quay về. **[C]**
-9. Vậy vì sao nước nhỏ ấy không đổ như những nơi khác? **[CC]**
 14. Nào, ta bắt đầu từ lúc người Mông Cổ gõ cửa Đại Việt. **[CC]**
 
 *Gợi ý bản đồ:* toàn châu Á, vệt đỏ Mông Cổ lan từ bắc xuống nam, zoom vào Đại Việt; ba mốc 1258, 1285, 1288 hiện dần.
@@ -607,8 +621,6 @@ Tôi **chưa mở được bản gốc** của Đại Việt sử ký toàn thư
 5. Câu 299 (Phàn Tiếp): nguồn lệch, đã nói rõ. Có thể bỏ cả câu.
 6. Câu 250, 304 (đoàn thuyền lương bị đánh ở Vân Đồn, tháng giêng): hai nguồn xếp thứ tự khác nhau, cần kiểm xem đoàn thuyền lương bị đánh một lần hay hai lần.
 7. Câu 312 (Ô Mã Nhi chết do thuyền chìm): nguồn nói thuyền bị đánh chìm giữa biển; đã nói thận trọng.
-8. Câu 327–328 (Trần Quốc Tuấn mất năm 1300, đền ở Vạn Kiếp): chỉ một bài báo; chưa đối chiếu Toàn thư. Ngày 20/8/1300 (âm lịch hay dương lịch) cần kiểm.
-9. Câu 315–317 (kết cục 1292–1294): chỉ Wikipedia tiếng Anh.
 
 ### Điểm các nguồn lệch nhau
 
@@ -714,3 +726,8 @@ Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc l
 - Các bản Toàn thư trực tuyến (PDF thpthiephoa1, medialib, Internet Archive, Scribd) chỉ đọc được phần đầu hoặc bị chặn; quangduc và Wikisource không tải được. Chưa có nguyên văn Bản kỷ quyển 5.
 - Qua bài znews "Sử nhà Nguyên viết gì về trận Bạch Đằng năm 1288" (có đối chiếu Toàn thư): Toàn thư ghi Ô Mã Nhi bị Đỗ Hành bắt; lễ hiến tiệp ở lăng Thái Tông ngày 17 tháng 3 âm (18/4/1288), vua về Thăng Long ngày 27 tháng 3 âm (28/4/1288). Nguyên sử: Bạch Đằng 9/4/1288, Thoát Hoan về đến Tư Minh 19/4/1288 (bài không nói rõ nguồn). Ngày Lạng Sơn và tên độc vẫn chỉ có từ Wikipedia (10/4).
 - Kết luận: thứ tự chương 23–24 và việc bỏ tượng vàng khỏi lời kể không đổi; ngày Lạng Sơn vẫn không đưa vào lời kể.
+
+### Sửa ngày 23/10/2026 (chủ kênh chọn: một tập dài, thêm chương mở đầu cảnh Bạch Đằng)
+- Thêm Chương 0, câu 354–362, đặt trước Chương 1 (đánh số tiếp từ 354; khi làm giọng thì đọc theo thứ tự trong file, không theo số). Mọi chi tiết đã có trong chương 24: cọc bịt sắt, thủy triều, Ô Mã Nhi bị bắt; không nói số thuyền.
+- Bỏ câu 8 và 9 ở Chương 1 (đã bị chương 0 hỏi thay): "Ba lần kẻ mạnh đến. Ba lần kẻ mạnh phải quay về." và "Vậy vì sao nước nhỏ ấy không đổ như những nơi khác?".
+- Việc cần làm trước khi đọc giọng: nghe lại nhịp mở đầu mới; cập nhật `nm_full.json` (thêm 9 câu mới, xóa 2 câu bỏ).

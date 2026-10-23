@@ -205,3 +205,7 @@ def year_of(n):
     for a,b,y in [(1,4,938),(5,10,907),(11,14,923),(15,18,931),(19,23,937),(24,53,938),(54,58,939),(59,59,944),(60,65,945),(66,70,None)]:
         if a<=m<=b: return y
     return None
+
+# bỏ nhãn tên trên nhóm quân/thuyền; phe phân biệt bằng màu cờ + bảng chú giải góc trái trên
+NO_GROUP_LABEL=True
+SIDES=[('Nam Hán',NH,{g['name'].strip() for g in GROUPS if g['col']==NH}),('Giao Châu (Việt)',VT,{g['name'].strip() for g in GROUPS if g['col']==VT})]

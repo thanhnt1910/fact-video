@@ -397,7 +397,7 @@ def frame(t):
         fcol=(120,120,126) if dead else col
         if dead: flag(d,x-spr*1.9,y-spr*0.1,s*0.7,fcol)
         else: flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)
-        if g.label: tag2(d,x,y+spr*1.1,g,col,int(24*K*min(1.3,z**0.25)),max(fr,0.0),dead,t)
+        if g.label and not getattr(C,'NO_GROUP_LABEL',False): tag2(d,x,y+spr*1.1,g,col,int(24*K*min(1.3,z**0.25)),max(fr,0.0),dead,t)
         if dead:
             u=(t-dd[0])/0.8
             badge(d,x,y-spr*1.5-ik*1.2,ik*2.3,dd[1],u)
@@ -581,6 +581,20 @@ def frame(t):
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.4))
             ml=M3.meter_layer(title,[(lab,col,curve(cv,t)) for lab,col,cv in rows])
             out=comp(out,ml,(30-int((1-ease(k))*160),(1000 if B.P else 500)),ease(k))
+    # chú giải phe (thay nhãn tên trên từng nhóm): chỉ liệt kê phe đang có mặt trên màn hình
+    sides=getattr(C,'SIDES',None)
+    if sides and not ttl:
+        vis_=[(nm,col) for nm,col,names in sides if any(gg.vis(t) and (gg.name.strip() in names) for gg in GROUPS)]
+        if vis_:
+            fl=font(int(26*(1 if not B.P else 1.2)));rh=48;pw=300;ph=rh*len(vis_)+24
+            lay=Image.new('RGBA',(pw,ph),(0,0,0,0));ld=ImageDraw.Draw(lay)
+            ld.rounded_rectangle((0,0,pw-1,ph-1),14,fill=(28,20,12,200),outline=(246,238,214,230),width=2)
+            for i,(nm,col) in enumerate(vis_):
+                cy=12+i*rh+rh//2
+                ld.line([(26,cy-18),(26,cy+18)],fill=(70,50,30,255),width=4)
+                ld.polygon([(26,cy-18),(60,cy-8),(26,cy+2)],fill=col+(255,),outline=(250,244,226,255))
+                ld.text((76,cy),nm,font=fl,fill=(250,244,226,255),anchor='lm')
+            out=comp(out,lay,(W-44-300,(530 if not B.P else 700)),clamp(t/0.8))
     # bản đồ nhỏ
     mm=getattr(C,'MINI',None)
     if mm is not None and any(a<=t<=b for a,b in mm) and not ttl and not B.P:

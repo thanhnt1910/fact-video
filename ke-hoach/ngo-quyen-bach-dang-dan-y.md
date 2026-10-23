@@ -18,13 +18,17 @@ Mình KHÔNG mở được toàn văn Toàn thư (Wikisource trả lỗi; trang 
 | Kiều Công Tiễn sai sứ mang của đút lót sang Nam Hán cầu cứu | B | Cương mục, qua mocban.vn |
 | Vua Nam Hán muốn nhân loạn chiếm Giao Châu, phong con là Hoằng Tháo làm Giao vương, cho sang "cứu" Công Tiễn | B | Cương mục, qua mocban.vn |
 | Quyền cho thuyền nhẹ ra khiêu chiến, giả thua nhử địch vào bãi cọc; nước triều rút, thuyền địch mắc cọc | B | Cương mục (và Ngự chế), qua mocban.vn |
-| Hoằng Tháo chết trong trận | B | Ngũ đại sử: tử trận. Cách chết khác nhau: Cương mục "chết đuối", Ngự chế "bị bắt giết". Lời kể chỉ nói "Hoằng Tháo chết trong trận". |
+| Quân Nam Hán thua, chết đuối quá nửa; Ngô Quyền thừa thắng truy kích, BẮT VÀ GIẾT Hoằng Tháo; vua Nam Hán thương xót, thu quân còn lại rút lui | A | Toàn thư, bản số hóa nomfoundation.org, tr. [20a] (đọc trực tiếp). Cương mục chép Hoằng Tháo "chết đuối", Ngũ đại sử "tử trận": lệch; lời kể theo Toàn thư. |
+| Lời bình Ngô Sĩ Liên: Lưu Cung (tức Lưu Nghiễm) tham đất, chưa được đất đã hại con và dân | A | Toàn thư tr. [20a]; đây là lời bình của sử thần, không đưa vào lời kể như sự kiện. Chú thích: Lưu Cung cũng là Lưu Nghiễm |
+| Thời Nam Bắc phân tranh 32 năm, từ Đinh Mão 907 đến Mậu Tuất 938 | A | Toàn thư tr. [20a] |
+| Tiền Ngô Vương ở ngôi 6 năm, thọ 47 tuổi (898–944 theo chú thích) | A | Toàn thư tr. [20a] |
+| 907: Khúc Hạo (người Giao Châu) chiếm châu trị, tự xưng tiết độ sứ; 911 Lưu Ẩn mất, Lưu Nham nối; 917 Lưu Nham lập nước Hán (Nam Hán); Khúc Hạo sai con là Khúc Thừa Mỹ sang Quảng Châu dò xét, Hạo mất Thừa Mỹ nối; 919 Thừa Mỹ xin tiết việt nhà Lương, vua Nam Hán giận | A | Toàn thư tr. [17b]. LƯU Ý: Toàn thư mở đầu họ Khúc bằng KHÚC HẠO năm 907, không có "Khúc Thừa Dụ 905" như dàn ý ban đầu; bỏ mốc 905 hoặc chỉ nói họ Khúc theo Toàn thư |
 | Tên vua Nam Hán | không thống nhất | Lưu Cung (Cương mục, Ngũ đại sử), Lưu Yểm (Ngự chế), Lưu Nghiễm (Wikipedia). Lời kể chỉ nói "vua Nam Hán", không gọi tên. |
 | Ngày tháng chính xác trận Bạch Đằng | CHƯA XÁC ĐỊNH | Toàn thư (tháng 10 mùa đông), Cương mục (tháng 9 mùa thu), Việt sử lược (tháng Chạp) lệch nhau; mình chưa đọc được nguyên văn câu của Toàn thư. Lời kể chỉ nói "cuối năm 938", không nêu tháng. |
-| Khúc Thừa Dụ 905, Dương Đình Nghệ 931, Kiều Công Tiễn giết Dương Đình Nghệ 937, Ngô Quyền gả con gái Dương Đình Nghệ | C | Nhiều bài hiện đại khớp nhau nhưng mình chưa có trích Toàn thư: để nhãn [kiểm Toàn thư], hoặc bỏ nếu không đối chiếu được |
+| Dương Đình Nghệ 931, Kiều Công Tiễn giết Dương Đình Nghệ 937, Ngô Quyền là con rể Dương Đình Nghệ; Nam Hán chiếm 930 | C (nằm ở các trang 2–5 của mục "Kỷ Nam Bắc phân tranh" mà mình chưa đọc được) | Nhiều bài hiện đại khớp nhau nhưng mình chưa có trích Toàn thư: để nhãn [kiểm Toàn thư], hoặc bỏ nếu không đối chiếu được |
 | Cha Ngô Mân, mẹ họ Phùng, sinh 898 hoặc 897, "cuối thế kỷ chín" | C | Bỏ khỏi lời kể |
 
-Việc còn lại để đạt "chính xác hoàn toàn": cần văn bản Toàn thư kỷ nhà Ngô (Ngoại kỷ quyển V). Chủ kênh gửi ảnh chụp hoặc văn bản thì mình đối chiếu nốt các dòng mức C và câu ghi tháng.
+Đã tìm thấy bản số hóa toàn văn Toàn thư (chữ Hán, phiên âm, dịch Quốc ngữ) của Nôm Foundation: https://www.nomfoundation.org/nom-project/history-of-greater-vietnam/Fulltext/13-Ky-Nam-Bac-phan-tranh?uiLang=vn (mục 13, 5 trang, phân trang bằng JavaScript) và .../14-Ky-Nha-Ngo?uiLang=vn (mục 14, 14 trang). Công cụ của mình chỉ đọc được trang 1 của mỗi mục (mục 13: 907–919 tr.[17b]; mục 14: phần cuối trận Bạch Đằng và mở đầu Tiền Ngô Vương tr.[20a]). Còn thiếu: trang 2–5 của mục 13 (919 → 938: Dương Đình Nghệ, Kiều Công Tiễn, bàn kế đóng cọc, tháng của trận) và các trang 2+ của mục 14 (939 xưng vương, Cổ Loa, 944 mất, Dương Tam Kha). Chủ kênh mở link, bấm sang trang 2–5, chép văn bản Quốc ngữ gửi mình thì đối chiếu xong hoàn toàn. Bản dịch này có bản quyền (Viện Sử học): chỉ dùng để kiểm, không chép câu vào lời kể.
 
 ## Điểm các nguồn chép KHÁC NHAU (quan trọng)
 | Điểm | Chép thế nào |

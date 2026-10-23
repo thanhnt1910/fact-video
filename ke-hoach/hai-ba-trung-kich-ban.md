@@ -39,7 +39,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 
 ## Chương 3. Thái hậu họ Cù và tể tướng Lữ Gia (khoảng 2 phút)
 
-19. Nhưng đến đời vua thứ ba, mọi chuyện bắt đầu rối. **[CC]**
+19. Đến đời vua thứ ba, mọi chuyện bắt đầu rối. **[CC]**
 20. Vua Triệu Minh Vương từng làm con tin ở kinh đô nhà Hán. Ở đó, ông lấy một người phụ nữ họ Cù, người Hán, và sinh được một người con trai tên là Hưng. **[C]**
 21. Khi Minh Vương mất, Hưng lên nối ngôi. Đó là Ai Vương, lúc ấy còn rất trẻ. **[C]**
 22. Mẹ vua, tức Cù thái hậu, là người Hán. Bà muốn nước Nam Việt trở thành một nước phụ thuộc nhà Hán. **[C]**
@@ -79,7 +79,7 @@ Trạng thái: CHỜ CHỦ KÊNH DUYỆT. Chưa tạo json giọng, chưa chạy
 49. Vừa chập tối, Dương Bộc đánh bại quân Nam Việt, và cho phóng lửa đốt thành. **[C]**
 50. Sáng hôm sau, những người còn lại trong thành xin hàng. **[C]**
 51. Nhà vua và Lữ Gia cùng vài trăm người chạy ra biển trong đêm, nhưng đều bị bắt. **[C]**
-52. Vậy là nước Nam Việt, tồn tại gần một trăm năm, đã mất. **[C]**
+52. Vậy là nước Nam Việt, tồn tại gần một trăm năm, đã không còn nữa. **[C]**
 53. Các quan người Việt ở vùng phía nam đem trâu, rượu và sổ ghi số dân đến xin hàng. Lộ Bác Đức cho họ giữ chức như cũ để cai quản dân. **[CG]**
 54. Sau đó nhà Hán chia vùng đất này thành chín quận. Phía nam có ba quận là Giao Chỉ, Cửu Chân và Nhật Nam. **[C]**
 55. Họ đặt ra chức thứ sử để coi một châu, và chức thái thú để cai trị một quận. Thái thú là viên quan đứng đầu một quận. **[C]**

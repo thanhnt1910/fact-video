@@ -469,7 +469,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 312. Hốt Tất Liệt đòi Ô Mã Nhi trở về. Người ta nói rằng chiếc thuyền chở ông bị chìm giữa đường. **[CG]**
 313. Chiến thắng không có nghĩa là hết khó khăn. Trong những năm sau đó, đất nước còn gặp nạn đói kéo dài. **[CG]**
 314. Hốt Tất Liệt giận đến mức chuẩn bị đánh lần thứ tư. Nhưng ông được khuyên nên dùng ngoại giao trước. **[CG]**
-315. Vài năm sau, sứ giả Nguyên đến Thăng Long. Vua Trần Nhân Tông không sang Trung Hoa, mà gửi một bức tượng người bằng vàng và lời xin lỗi. **[CG]**
+315. Vài năm sau, sứ giả Nguyên còn đến Thăng Long đòi vua sang chầu. Vua Trần Nhân Tông không sang Trung Hoa, nhưng chịu gửi lễ vật và sứ đi cống để giữ hòa. **[CG]**
 316. Năm một nghìn hai trăm chín mươi ba, Hốt Tất Liệt vẫn còn ý định đánh. Nhưng đầu năm một nghìn hai trăm chín mươi tư, ông mất. **[CG]**
 317. Người kế vị chấm dứt chiến tranh. Hai nước giữ quan hệ triều cống, kéo dài đến khi nhà Nguyên sụp đổ. **[CG]**
 318. Còn Chiêm Thành, nơi bắt đầu mọi chuyện, về sau giữ quan hệ cống nạp với nhà Nguyên. Năm một nghìn ba trăm linh sáu, vua Chiêm Thành là Chế Mân cưới công chúa Huyền Trân của Đại Việt và dâng hai châu Ô, Lý. **[CG]**
@@ -705,7 +705,7 @@ Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc l
 - 315. Năm một nghìn hai trăm chín mươi hai, sứ giả Nguyên đến Thăng Long. Vua Trần Nhân Tông không sang Trung Hoa, mà gửi một bức tượng người bằng vàng và lời xin lỗi. **[CG]**
 - 318. Còn Chiêm Thành, nơi bắt đầu mọi chuyện, về sau giữ quan hệ cống nạp với nhà Nguyên. Năm một nghìn ba trăm linh năm, vua Chiêm Thành là Chế Mân cưới công chúa Huyền Trân của Đại Việt và dâng hai châu Ô, Lý. **[CG]**
 
-### Còn cần kiểm với Toàn thư
-- Năm sứ giả Nguyên và tượng vàng (câu 315).
-- Nhịp thời gian trận Lạng Sơn so với Bạch Đằng: nếu muốn kể đúng thứ tự thì đảo hai chương 23–24 (phải đánh số lại và đọc lại giọng).
-- Phần mở đầu đã rút còn khoảng một phút lai lịch: nên nghe lại nhịp mới khi dựng.
+### Kiểm lại ngày 23/10/2026 (thay mục "Còn cần kiểm")
+- Tượng vàng (câu 315): tài liệu đã đọc (bài nghiencuulichsu.com tổng hợp) cho biết Toàn thư, Việt sử lược và An Nam chí lược KHÔNG chép việc cống người vàng; chuyện "người vàng thế thân" chỉ gắn với lời đòi của nhà Nguyên năm 1279 và được chép ở sách đời sau (Cương mục, Tiền biên...). Wikipedia tiếng Anh ghi 1292 nhưng không có nguồn Toàn thư. Đã bỏ chuyện tượng vàng khỏi lời kể, chỉ giữ ý chắc: không sang chầu, vẫn cống lễ vật. Năm sứ đoàn: chỉ chắc có sứ năm 1288 (cống phương vật) và các năm sau; chưa gắn năm vào câu.
+- Thứ tự Lạng Sơn / Bạch Đằng: Wikipedia ghi Bạch Đằng 9/4/1288, Thoát Hoan trúng tên độc ở Lạng Sơn 10/4/1288. Hai việc diễn ra gần như cùng lúc, nên giữ thứ tự chương 23 (đường bộ) rồi 24 (đường thủy) với câu nối "Cùng những ngày ấy"; không cần đảo chương. Chưa đối chiếu được nguyên văn Toàn thư.
+- Vẫn cần mở Toàn thư (bản Thiệu Bảo 10) để xác nhận ngày Lạng Sơn và ngày Thoát Hoan qua biên giới.

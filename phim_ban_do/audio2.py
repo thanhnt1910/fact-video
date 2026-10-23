@@ -166,6 +166,19 @@ for (t0,t1,kind,a_,b_) in getattr(C,'FX',[]):
     elif kind=='drums': war_drums(t0,t1,0.6)
     elif kind=='tide_up': tide_rush(t0,t1-t0,0.55,True)
     elif kind=='tide_down': tide_rush(t0,t1-t0,0.6,False)
+def trumpet(t0,dur=1.3,g=0.5):
+    n=int(dur*SR);t=np.arange(n)/SR;f=380*(1+0.35*np.minimum(t/0.2,1))*(1-0.25*np.clip((t-0.7)/0.6,0,1))*(1+0.02*np.sin(t*40));ph=np.cumsum(2*math.pi*f/SR)
+    s=(np.sin(ph)+0.8*np.sin(2*ph)+0.5*np.sin(3*ph)+0.3*np.sin(5*ph))*0.3+lp(rng.normal(0,1,n).astype(np.float32),2500)*0.12
+    e=np.minimum(t/0.08,1)*np.minimum((dur-t)/0.4,1);add((s*e).astype(np.float32),t0,g)
+for (t0,t1,kind,a_,b_) in getattr(C,'FX',[]):
+    if kind=='trumpet': trumpet(t0,min(1.6,t1-t0+0.6),0.5)
+for g_ in C.GROUPS:
+    if g_.get('kind')=='ele':
+        ks=g_['keys']
+        for i in range(len(ks)-1):
+            if (ks[i+1][1],ks[i+1][2])!=(ks[i][1],ks[i][2]):
+                tt=ks[i][0]
+                while tt<ks[i+1][0]-0.3: thump(tt,0.35);tt+=0.95
 for (t0,t1,kind,gn) in getattr(C,'AMBIENT',[]):
     if kind=='sea': wave_bed(t0,t1,gn)
     elif kind=='rain': rain(t0,t1,gn)

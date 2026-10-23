@@ -25,6 +25,26 @@ def horse(d,x,y,s,col,face,bob,alpha=255):
     d.ellipse((x-s*0.24,y-s*1.5,x+s*0.24,y-s*0.95),fill=(232,196,150,alpha),outline=ink)
     d.pieslice((x-s*0.3,y-s*1.65,x+s*0.3,y-s*1.0),180,360,fill=(70,70,78,alpha),outline=ink)
     d.line([(x+face*s*0.4,y-s*2.1),(x+face*s*0.4,y-s*0.3)],fill=(110,80,50,alpha),width=max(2,int(s*0.1)))
+def elephant(d,x,y,s,col,face,bob,alpha=255):
+    """Voi chiến: thân xám, ngà trắng, vòi cong, người cưỡi và cờ (màu phe)."""
+    ink=(30,22,16,alpha);gc=(128,124,120,alpha);dk=(104,100,96,alpha)
+    y-=abs(math.sin(bob*0.5))*s*0.12;k=s*2.1
+    for lx,ph in((-0.75,0),(-0.3,1.6),(0.3,3.1),(0.75,4.6)):
+        a=math.sin(bob*0.5+ph)*0.35
+        d.line([(x+face*lx*k,y+k*0.35),(x+face*(lx+a*0.3)*k,y+k*1.2)],fill=dk,width=max(3,int(k*0.34)))
+    d.ellipse((x-k*1.15,y-k*0.75,x+k*1.15,y+k*0.55),fill=gc,outline=ink)
+    hx=x+face*k*1.1
+    d.ellipse((hx-k*0.5,y-k*0.85,hx+k*0.5,y+k*0.25),fill=gc,outline=ink)
+    sw=math.sin(bob*0.5)*0.15
+    tr=[(hx+face*k*0.35,y-k*0.1),(hx+face*k*0.75,y+k*(0.35+sw)),(hx+face*k*0.8,y+k*(0.85+sw)),(hx+face*k*0.6,y+k*(1.0+sw))]
+    d.line(tr,fill=dk,width=max(3,int(k*0.26)),joint='curve')
+    d.line([(hx+face*k*0.38,y+k*0.12),(hx+face*k*0.95,y+k*0.3)],fill=(244,238,220,alpha),width=max(2,int(k*0.12)))
+    d.ellipse((hx-face*k*0.3-k*0.22,y-k*0.7,hx-face*k*0.3+k*0.22,y-k*0.05),fill=dk,outline=ink)
+    d.rectangle((x-k*0.5,y-k*1.0,x+k*0.5,y-k*0.7),fill=col+(alpha,),outline=ink)
+    d.polygon([(x-k*0.2,y-k*1.0),(x+k*0.2,y-k*1.0),(x+k*0.16,y-k*1.45),(x-k*0.16,y-k*1.45)],fill=(210,180,130,alpha),outline=ink)
+    d.ellipse((x-k*0.17,y-k*1.75,x+k*0.17,y-k*1.4),fill=(232,196,150,alpha),outline=ink)
+    d.line([(x+face*k*0.3,y-k*2.3),(x+face*k*0.3,y-k*1.0)],fill=(110,80,50,alpha),width=max(2,int(k*0.08)))
+    d.polygon([(x+face*k*0.3,y-k*2.3),(x+face*k*0.3+face*k*0.6,y-k*2.15),(x+face*k*0.3,y-k*1.95)],fill=col+(alpha,),outline=ink)
 def flag(d,x,y,s,col,txt=None,fn=None):
     d.line([(x,y),(x,y-s*3.2)],fill=(70,50,30,255),width=max(3,int(s*0.18)))
     d.polygon([(x,y-s*3.2),(x+s*1.9,y-s*2.85),(x+s*1.6,y-s*2.35),(x+s*1.9,y-s*1.9),(x,y-s*2.2)],fill=col+(255,),outline=(25,18,12,255))

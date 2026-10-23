@@ -286,7 +286,7 @@ def dashed(d,pts,col,w,K,dash=22,alpha=150):
             u0=j/n;u1=min(1,(j+1)/n);d.line([(lerp(p[0],q[0],u0),lerp(p[1],q[1],u0)),(lerp(p[0],q[0],u1),lerp(p[1],q[1],u1))],fill=col+(alpha,),width=int(w*K*0.55))
 def _boat_unit(d,x,y,s,col,face,bob,alpha=255):
     M3.boat(d,x,y+math.sin(bob*0.35)*s*0.18,s*0.95,col,face)
-def UNIT(kind): return soldier if kind=='inf' else (_boat_unit if kind=='ship' else horse)
+def UNIT(kind): return soldier if kind=='inf' else (_boat_unit if kind=='ship' else (elephant if kind=='ele' else horse))
 def stake(d,x,y,h,a):
     d.line([(x,y),(x,y-h)],fill=(92,62,34,a),width=max(2,int(h*0.2)))
     d.polygon([(x-h*0.22,y-h*0.78),(x,y-h*1.12),(x+h*0.22,y-h*0.78)],fill=(150,152,158,a),outline=(40,36,32,a))
@@ -394,6 +394,10 @@ def frame(t):
                 gc=tuple(int(0.35*c+0.65*110) for c in col);py+=s*0.35
                 UNIT(g.kind)(d,px,py,s*0.95,gc,face,0.0,alpha=190)
             else: UNIT(g.kind)(d,px,py,s,col,face,bob)
+        if g.kind=='ele' and mv and not dead:
+            for k_ in range(7):
+                ph_=(t*1.3+k_/7.0)%1.0;rr=s*(0.5+1.4*ph_);ax=x-face*spr*(0.9+1.6*ph_)+math.sin(k_*2.1)*s*0.8;ay=y+spr*0.6+math.cos(k_*1.7)*s*0.5
+                d.ellipse((ax-rr,ay-rr*0.6,ax+rr,ay+rr*0.6),fill=(196,176,138,int(110*(1-ph_))))
         fcol=(120,120,126) if dead else col
         if dead: flag(d,x-spr*1.9,y-spr*0.1,s*0.7,fcol)
         else: flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)
@@ -461,7 +465,7 @@ def frame(t):
                 px=lerp(ax,bx,u)+off;py=lerp(ay,by,u)-math.sin(u*math.pi)*(dist*0.2+ik*1.5)
                 u2=max(0,u-0.05);qx=lerp(ax,bx,u2)+off;qy=lerp(ay,by,u2)-math.sin(u2*math.pi)*(dist*0.2+ik*1.5)
                 d.line([(qx,qy),(px,py)],fill=(40,28,18,235),width=int(4*K*0.6))
-        elif kind=='horn' and t<=t1:
+        elif kind in ('horn','trumpet') and t<=t1:
             k=(t-t0)/(t1-t0)
             for r_ in range(3):
                 rr=ik*(1.5+((k*2+r_*0.33)%1)*5);al=int(200*(1-((k*2+r_*0.33)%1)))

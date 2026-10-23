@@ -1,21 +1,27 @@
 # Kiểm video hbt
 
 - Kịch bản 73 câu; có nhận dạng 73 câu; nhận dạng: asr_hbt.json
-- ❌ lỗi: 30  ⚠️ cảnh báo: 36
+- ❌ lỗi: 40  ⚠️ cảnh báo: 47
 
 ## ❌ Lỗi
+- Câu 9002: nhận dạng dài hơn file giọng (13.2s > 11.7s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9002: CUỐI câu đọc lẫn đầu câu sau ("nhung chi ba nam")
 - Câu 9003: MẤT 9 chữ ở đầu (câu bị cụt đầu)
+- Câu 9006: nhận dạng dài hơn file giọng (10.8s > 9.5s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9007: thừa 3 chữ ở ĐẦU (lẫn đuôi câu trước): "Năm hai trăm"
 - Câu 9007: NĂM 207 không nghe thấy (nhận dạng: không có số)
 - Câu 9008: giọng nhiều hơn kịch bản 4 chữ (nghi đọc lặp hoặc lẫn câu khác)
 - Câu 9008: NĂM 196 không nghe thấy (nhận dạng: không có số)
+- Câu 9011: nhận dạng dài hơn file giọng (13.0s > 11.6s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9011: MẤT 11 chữ ở đầu (câu bị cụt đầu)
+- Câu 9014: nhận dạng dài hơn file giọng (14.0s > 13.1s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9014: MẤT 18 chữ ở đầu (câu bị cụt đầu)
 - Câu 9015: MẤT 24 chữ ở đầu (câu bị cụt đầu)
 - Câu 9017: MẤT 23 chữ ở đầu (câu bị cụt đầu)
+- Câu 9018: nhận dạng dài hơn file giọng (10.1s > 9.1s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9018: CUỐI câu đọc lẫn đầu câu sau ("ong ta hua rang")
 - Câu 9019: MẤT 18 chữ ở đầu (câu bị cụt đầu)
+- Câu 9025: nhận dạng dài hơn file giọng (11.2s > 9.2s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9025: CUỐI câu đọc lẫn đầu câu sau ("duong boc con lay duoc ca")
 - Câu 9025: NĂM 111 không nghe thấy (nhận dạng: không có số)
 - Câu 9026: thừa 9 chữ ở CUỐI (lẫn đầu câu sau): "Vừa trập tối, quân Hán tiến đến Phiên Ngung."
@@ -27,13 +33,17 @@
 - Câu 9035: CUỐI câu đọc lẫn đầu câu sau ("nhieu nguoi ngheo khong co tien")
 - Câu 9036: CUỐI câu đọc lẫn đầu câu sau ("ong lam thai thu bon nam")
 - Câu 9038: MẤT 5 chữ ở đầu (câu bị cụt đầu)
+- Câu 9054: nhận dạng dài hơn file giọng (10.9s > 10.1s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9054: đọc LẶP "thong bao"
 - Câu 9055: MẤT 3 chữ ở đầu (câu bị cụt đầu)
+- Câu 9058: nhận dạng dài hơn file giọng (13.9s > 9.8s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9058: thừa 13 chữ ở CUỐI (lẫn đầu câu sau): "Bà quyết định rút quân về giữ một nơi tên là Cấm Khê."
 - Câu 9058: giọng nhiều hơn kịch bản 13 chữ (nghi đọc lặp hoặc lẫn câu khác)
 - Câu 9058: CUỐI câu đọc lẫn đầu câu sau ("ba quyet dinh rut quan ve")
+- Câu 9069: nhận dạng dài hơn file giọng (14.2s > 13.4s): kết quả nhận dạng CŨ, chạy lại phude-asr
 - Câu 9069: MẤT 27 chữ ở đầu (câu bị cụt đầu)
 - Câu 9070: MẤT 6 chữ ở cuối (câu bị cụt đuôi)
+- Câu 9071: nhận dạng dài hơn file giọng (10.9s > 8.9s): kết quả nhận dạng CŨ, chạy lại phude-asr
 
 ## ⚠️ Cảnh báo
 - Câu 9002: giọng chỉ khớp 8% với kịch bản (nhận dạng có thể sai, nên nghe lại)
@@ -50,21 +60,32 @@
 - Câu 9059: giọng chỉ khớp 0% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 9064: giọng chỉ khớp 3% với kịch bản (nhận dạng có thể sai, nên nghe lại)
 - Câu 9069: giọng chỉ khớp 56% với kịch bản (nhận dạng có thể sai, nên nghe lại)
-- Câu 9002: phụ đề đầu câu hiện SỚM 11.4s so với giọng
-- Câu 9003: phụ đề đầu câu hiện SỚM 1.1s so với giọng
-- Câu 9011: phụ đề đầu câu hiện SỚM 3.7s so với giọng
-- Câu 9015: phụ đề đầu câu hiện SỚM 7.1s so với giọng
+- Câu 9002: phụ đề đầu câu hiện SỚM 11.9s so với giọng
+- Câu 9002: phụ đề tắt sớm 1.6s trước khi hết giọng
+- Câu 9003: phụ đề đầu câu hiện SỚM 1.3s so với giọng
+- Câu 9006: phụ đề tắt sớm 1.4s trước khi hết giọng
+- Câu 9011: phụ đề đầu câu hiện SỚM 4.4s so với giọng
+- Câu 9011: phụ đề tắt sớm 1.5s trước khi hết giọng
+- Câu 9014: phụ đề tắt sớm 1.0s trước khi hết giọng
+- Câu 9015: phụ đề đầu câu hiện SỚM 7.7s so với giọng
 - Câu 9017: phụ đề đầu câu hiện SỚM 5.5s so với giọng
-- Câu 9019: phụ đề đầu câu hiện SỚM 4.0s so với giọng
+- Câu 9018: phụ đề tắt sớm 1.1s trước khi hết giọng
+- Câu 9019: phụ đề đầu câu hiện SỚM 4.2s so với giọng
 - Câu 9025: phụ đề đầu câu hiện SỚM 1.9s so với giọng
-- Câu 9029: phụ đề đầu câu hiện SỚM 5.9s so với giọng
+- Câu 9025: phụ đề tắt sớm 2.1s trước khi hết giọng
+- Câu 9029: phụ đề đầu câu hiện SỚM 6.5s so với giọng
 - Câu 9034: phụ đề đầu câu hiện SỚM 3.0s so với giọng
-- Câu 9035: phụ đề đầu câu hiện SỚM 5.1s so với giọng
-- Câu 9036: phụ đề đầu câu hiện SỚM 6.8s so với giọng
-- Câu 9037: phụ đề đầu câu hiện SỚM 12.4s so với giọng
+- Câu 9035: phụ đề đầu câu hiện SỚM 5.5s so với giọng
+- Câu 9036: phụ đề đầu câu hiện SỚM 7.1s so với giọng
+- Câu 9037: phụ đề đầu câu hiện SỚM 12.9s so với giọng
 - Câu 9048: phụ đề đầu câu hiện TRỄ 0.8s so với giọng
-- Câu 9069: phụ đề đầu câu hiện SỚM 2.3s so với giọng
-- Câu 9071: phụ đề đầu câu hiện SỚM 2.2s so với giọng
+- Câu 9054: phụ đề tắt sớm 0.9s trước khi hết giọng
+- Câu 9055: phụ đề đầu câu hiện SỚM 0.8s so với giọng
+- Câu 9058: phụ đề tắt sớm 4.2s trước khi hết giọng
+- Câu 9069: phụ đề đầu câu hiện SỚM 2.9s so với giọng
+- Câu 9069: phụ đề tắt sớm 0.9s trước khi hết giọng
+- Câu 9071: phụ đề đầu câu hiện SỚM 2.4s so với giọng
+- Câu 9071: phụ đề tắt sớm 2.0s trước khi hết giọng
 - Cảnh gắn vào câu 21 lệch +6.0s nhưng câu chỉ dài 3.3s (rơi sang câu sau)
 - Cảnh gắn vào câu 21 lệch +9.0s nhưng câu chỉ dài 3.3s (rơi sang câu sau)
 - Cảnh gắn vào câu 45 lệch +8.0s nhưng câu chỉ dài 6.9s (rơi sang câu sau)

@@ -25,7 +25,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 ## Chương 1. Mở đầu: một nước nhỏ, ba lần, và một đế quốc
 
 1. Giữa thế kỷ mười ba, có một đội quân khiến cả châu Á lẫn châu Âu phải dè chừng: kỵ binh Mông Cổ. **[CC]**
-2. Họ đáng sợ đến mức nhiều thành trì mở cửa đầu hàng ngay khi nghe tin họ đang đến, trước cả khi họ kịp đưa quân tới gần. **[H]**
+2. Nếu họ nộp hồ sơ xin việc, chỉ cần một dòng: cưỡi ngựa giỏi, bắn cung giỏi, và hầu như chưa bị ai từ chối. **[H]**
 3. Họ cưỡi ngựa nhanh, bắn cung giỏi, và gần như nơi nào họ đến, thành trì nơi ấy đều phải mở cửa. **[CC]**
 4. Rồi họ nhìn xuống phương nam. **[CC]**
 5. Ở đó có một nước nhỏ hơn nhiều, nằm ven biển, nhiều sông, nhiều đầm lầy: Đại Việt, nơi nhà Trần đang cầm quyền. **[CC]**
@@ -737,3 +737,4 @@ Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc l
 - Câu 357–358: nêu tên Trần Quốc Tuấn là người chỉ huy trận Bạch Đằng ngay ở chương 0 (chủ kênh yêu cầu 23/10/2026); không dùng "người Việt" chung chung khi đang nói về người đánh trận.
 - Viết đầy đủ, không viết tắt: "thuyền Nguyên" thành "thuyền chiến của quân Nguyên", "hạm đội Nguyên" thành "hạm đội của quân Nguyên", "đất Nguyên" thành "lãnh thổ của nhà Nguyên" (câu 292, 293, 298, 303, 307, 322, 359; chủ kênh yêu cầu 23/10/2026).
 - Câu 2 thay bằng câu mới (chủ kênh yêu cầu 23/10/2026). Câu cũ: Nếu có một cuộc thi "đội quân khiến cả thế giới toát mồ hôi", họ sẽ thắng mà chẳng cần ai chấm điểm. **[H]**
+- Câu 2 đổi lần nữa: chọn phương án "hồ sơ xin việc" (chủ kênh duyệt 23/10/2026).

@@ -1,5 +1,3 @@
-còn thiếu 2 câu
+còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 9092 - 9092 7.3 giây
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9093 - 9093 3.7 giây
+OK cụm 9005 - 9005 3.0 giây

@@ -29,7 +29,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        idx: [0, 1, 2, 3, 4, 5, 6, 7]
+        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -50,7 +50,7 @@ jobs:
           mode = """$MODE""".split()
           N = int(B.TOTAL * B.FPS)
           if mode[0] == "thu": N = min(N, int(mode[1]) * 4)
-          q = 8; i = ${{ matrix.idx }}
+          q = 16; i = ${{ matrix.idx }}
           a0, a1 = N * i // q, N * (i + 1) // q
           open("range.txt", "w").write(f"{a0} {a1}\n")
           print("tổng khung", N, "đoạn", i, a0, a1)
@@ -90,7 +90,7 @@ jobs:
         working-directory: phim_ban_do
         run: |
           A2_OUT=$PWD/a2.wav python -u audio2.py 2>&1 | tail -n 3
-          for i in 0 1 2 3 4 5 6 7; do echo "file '$GITHUB_WORKSPACE/doan/doan-$i/doan_$i.mp4'" >> list.txt; done
+          for i in $(seq 0 15); do echo "file '$GITHUB_WORKSPACE/doan/doan-$i/doan_$i.mp4'" >> list.txt; done
           ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy ghep.mp4
           ffmpeg -y -loglevel error -i ghep.mp4 -i a2.wav -c:v copy -c:a aac -b:a 160k -shortest hbt_video.mp4
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 hbt_video.mp4

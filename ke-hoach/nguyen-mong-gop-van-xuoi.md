@@ -12,9 +12,9 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 355. Một hạm đội lớn của quân Nguyên đang đi ngược dòng sông, trên đường rút về nước. **[C]**
 356. Họ mệt, họ đói, nhưng vẫn đông và vẫn mạnh. **[CG]**
 357. Họ không biết rằng dưới mặt nước, người Việt đã cắm sẵn những hàng cọc gỗ nhọn, đầu bịt sắt. **[C]**
-358. Người Việt chờ nước triều lên, để cọc chìm khuất dưới mặt nước. **[C]**
-359. Rồi nước rút. Thuyền Nguyên mắc vào cọc, hạm đội vỡ ra từng mảng, và tướng Ô Mã Nhi bị bắt sống. **[C]**
-360. Đế quốc lớn nhất thế giới thời ấy bị chặn lại bởi gỗ, nước và đúng một giờ nước rút. **[CC]**
+358. Khi thủy triều lên, nước dâng cao và phủ kín những cái cọc, nên từ trên thuyền không ai nhìn thấy chúng. Người Việt đã chờ đúng lúc ấy. **[C]**
+359. Rồi thủy triều rút xuống. Nước hạ thấp, những cái cọc nhọn lộ ra, thuyền Nguyên mắc vào cọc, hạm đội vỡ ra từng mảng, và tướng Ô Mã Nhi bị bắt sống. **[C]**
+360. Đế quốc lớn nhất thế giới thời ấy bị chặn lại bởi những cây cọc gỗ và con nước của chính dòng sông. **[CC]**
 361. Đó là lần thứ ba. Còn hai lần trước thì sao? Và vì sao một nước nhỏ làm được điều này ba lần liền? **[CC]**
 362. Ta hãy quay lại từ đầu. **[CC]**
 
@@ -733,3 +733,4 @@ Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc l
 - Thêm Chương 0, câu 354–362, đặt trước Chương 1 (đánh số tiếp từ 354; khi làm giọng thì đọc theo thứ tự trong file, không theo số). Mọi chi tiết đã có trong chương 24: cọc bịt sắt, thủy triều, Ô Mã Nhi bị bắt; không nói số thuyền.
 - Bỏ câu 8 và 9 ở Chương 1 (đã bị chương 0 hỏi thay): "Ba lần kẻ mạnh đến. Ba lần kẻ mạnh phải quay về." và "Vậy vì sao nước nhỏ ấy không đổ như những nơi khác?".
 - Việc cần làm trước khi đọc giọng: nghe lại nhịp mở đầu mới; cập nhật `nm_full.json` (thêm 9 câu mới, xóa 2 câu bỏ).
+- Câu 358–360 viết lại đầy đủ (thủy triều lên / rút, không nói tắt "triều lên", "nước rút") theo góp ý chủ kênh 23/10/2026. Quy tắc: khi kể thủy triều luôn nói đủ "thủy triều lên", "thủy triều rút xuống", giải thích hệ quả ngay trong câu.

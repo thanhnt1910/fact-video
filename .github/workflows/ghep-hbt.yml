@@ -32,8 +32,7 @@ jobs:
       - name: Chuẩn bị công cụ
         run: |
           which ffmpeg || for k in 1 2 3; do timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null && break; echo "thử lại $k"; done
-          python3 -c "import numpy" 2>/dev/null || for k in 1 2 3; do timeout 150 python3 -m pip install -q numpy pillow scipy && break; done
-          python3 -c "import numpy, PIL, scipy" || for k in 1 2 3; do timeout 150 python3 -m pip install -q numpy pillow scipy && break; done
+          python3 -c "import numpy, PIL, scipy" 2>/dev/null || for k in 1 2 3; do timeout 150 python3 -m pip install -q numpy pillow scipy && break; echo "thử lại $k"; done
           ffmpeg -version | head -1
       - name: Mã run dựng
         id: rid

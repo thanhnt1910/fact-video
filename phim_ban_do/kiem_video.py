@@ -55,6 +55,7 @@ for b in BEATS:
         bad(f'Câu {n}: chưa có kết quả nhận dạng giọng'); continue
     n_asr += 1
     w = TTS.get(n, b['text']).split(); ow, _ = P.so_nam(w, [0] * len(w))
+    if not any(re.search(r'\d', x[0]) for x in ASR[k]): ow = list(w)   # nhận dạng ghi năm bằng chữ: so bằng chữ, không đổi thành số
     spk = [norm(x) for x in ow if norm(x)]; got = [norm(x[0]) for x in ASR[k] if norm(x[0])]
     # ASR cũ? thời lượng file giọng so với từ cuối
     dur = TL.get(k)

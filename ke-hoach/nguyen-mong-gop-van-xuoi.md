@@ -17,11 +17,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 7. Vào các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm, và một nghìn hai trăm tám mươi tám. **[C]**
 8. Ba lần kẻ mạnh đến. Ba lần kẻ mạnh phải quay về. **[C]**
 9. Vậy vì sao nước nhỏ ấy không đổ như những nơi khác? **[CC]**
-10. Câu chuyện hôm nay dài khoảng ba mươi phút. Nó đi từ cơn bão đầu tiên, qua ngọn lửa mùa hè năm một nghìn hai trăm tám mươi lăm, đến những cọc gỗ dưới sông Bạch Đằng. **[C]**
-11. Một lời hứa trước khi bắt đầu: mọi sự kiện trong video là chuyện có thật, kể theo các tài liệu lịch sử. **[C]**
-12. Còn những câu đùa là của người kể. Chúng chỉ để câu chuyện đỡ nặng, không thay đổi bất cứ điều gì đã xảy ra. **[H]**
-13. Chỗ nào các tài liệu nói khác nhau, tôi sẽ nói thẳng là chúng khác nhau. **[C]**
-14. Nào, bắt đầu từ chuyện người Mông Cổ từ đâu đến. **[CC]**
+14. Nào, ta bắt đầu từ lúc người Mông Cổ gõ cửa Đại Việt. **[CC]**
 
 *Gợi ý bản đồ:* toàn châu Á, vệt đỏ Mông Cổ lan từ bắc xuống nam, zoom vào Đại Việt; ba mốc 1258, 1285, 1288 hiện dần.
 
@@ -32,16 +28,9 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 
 15. Hãy lùi lại một chút. Đầu thế kỷ mười ba, các bộ tộc ở thảo nguyên Mông Cổ vẫn đánh nhau lẻ tẻ. **[CC]**
 16. Rồi một người tên là Thành Cát Tư Hãn gom họ lại thành một khối. Từ đó, thảo nguyên bắt đầu đổ ra bên ngoài. **[CC]**
-17. Họ đánh nhà Kim ở miền bắc Trung Hoa. Họ đi về phía tây, qua cả Trung Á. **[CC]**
-18. Điều làm họ đáng sợ không chỉ là sức mạnh. Họ biết giữ kỷ luật, biết đánh nhanh, và biết dùng người của chính những nơi họ chinh phục. **[CC]**
-19. Mỗi lần có một nơi chống cự đến cùng mà thua, kẻ chống cự thường bị trừng phạt rất nặng. Tin ấy lan đi trước quân đội. Nhiều nơi nghe tin đã mở cửa. **[CC]**
 20. Nhưng kỵ binh có một điểm yếu. Ngựa quen cỏ khô, đường rộng, trời mát. Đất ngập nước, rừng rậm và nóng ẩm không phải là sân nhà của họ. **[CC]**
 21. Hãy tưởng tượng một con ngựa thảo nguyên đứng giữa ruộng nước ngập đến bụng, nhìn quanh và tự hỏi mình đã làm gì sai trong đời. **[H]**
 22. Điều này sẽ quan trọng rất nhiều ở phía sau. **[CC]**
-23. Họ còn học rất nhanh. Gặp tường thành, họ mượn thợ và máy bắn đá của những người đã hàng. Gặp sông, họ nhờ thợ bản xứ đóng thuyền. **[CC]**
-24. Họ không cần giỏi mọi thứ ngay từ đầu. Họ chỉ cần biết dùng người giỏi. **[CC]**
-25. Nói cách khác, họ là kiểu người đi xin việc không cần biết làm gì, chỉ cần biết thuê ai. **[H]**
-26. Vì vậy cả thế giới thời ấy đều sợ họ. Có nước mở cửa ngay khi nghe tin. Có nước chống cự và bị san phẳng. **[CC]**
 
 *Gợi ý bản đồ:* mũi tên Mông Cổ lan sang đông, tây; biểu tượng ngựa, cung.
 
@@ -49,18 +38,10 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 
 ## Chương 3. Đến sát cổng nhà Đại Việt
 
-27. Đến giữa thế kỷ mười ba, người Mông Cổ đã nuốt gần hết miền bắc Trung Hoa. Họ chưa chiếm được nhà Tống ở phía nam. **[CC]**
-28. Họ cần một con đường vòng. Con đường ấy đi qua miền tây nam. **[CC]**
 29. Khoảng năm một nghìn hai trăm năm mươi ba, họ tiến vào Đại Lý, một nước ở vùng Vân Nam ngày nay. Từ đó, quân Mông Cổ đóng ngay sát biên giới phía bắc của Đại Việt. **[CG]**
 30. Đại Việt bỗng có một người hàng xóm đáng sợ nhất thế giới. **[CC]**
-31. Vậy lúc ấy Đại Việt là một nước như thế nào? **[CC]**
 32. Nhà Trần mới lên ngôi từ năm một nghìn hai trăm hai mươi lăm. Người sắp đặt cuộc đổi triều đó là Trần Thủ Độ. **[CC]**
 33. Kinh đô là Thăng Long, tức Hà Nội ngày nay. Vua lúc này là Trần Thái Tông. **[CC]**
-34. Đại Việt nhỏ hơn rất nhiều so với đế quốc ở phía bắc. Nhưng đây là một nước có quân đội, có cách đánh riêng, và có nhiều sông ngòi để dựa vào. **[CC]**
-35. Đó là những gì mà người Mông Cổ sắp phải đối mặt. **[CC]**
-36. Vua Trần Thái Tông lên ngôi khi còn rất nhỏ. Người cầm việc nước thay vua trẻ là Trần Thủ Độ, một người nổi tiếng cứng rắn. **[CC]**
-37. Nhà Trần có một đặc điểm: các vương hầu trong họ đều cầm quân. Hoàng tộc không chỉ ngồi trên ngai. Họ còn là tướng. **[CC]**
-38. Điều đó sẽ có ích khi chiến tranh đến, vì mệnh lệnh đi nhanh hơn và người cầm quân hiểu người cầm quyền. **[CC]**
 
 *Gợi ý bản đồ:* Vân Nam tô đỏ, Đại Việt tô xanh, biên giới giữa hai bên.
 
@@ -136,9 +117,8 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 83. Chín ngày: chưa đủ để dọn nhà, nhưng đủ để hiểu mình đã đến nhầm chỗ. **[H]**
 84. Trong chín ngày ấy, quân của vua Trần không ngồi yên. **[CC]**
 85. Cuối tháng một, vua Trần cùng thái tử đem thuyền quay lại, đánh bất ngờ ở Đông Bộ Đầu, bên sông Hồng. **[C]**
-86. Đông Bộ Đầu là một bến sông ở ngay cạnh kinh thành. **[CG]**
+86. Đông Bộ Đầu là một bến sông bên sông Hồng, sát Thăng Long. Đánh ở đó nghĩa là đánh ngay trước mặt kẻ địch đang đóng trong thành. **[CG]**
 87. Đại Việt thắng. **[C]**
-88. Đông Bộ Đầu là một bến sông bên sông Hồng, sát Thăng Long. Đánh ở đó nghĩa là đánh ngay trước mặt kẻ địch đang đóng trong thành. **[CG]**
 89. Người Việt quen sông nước hơn người Mông Cổ rất nhiều. Trên sông, kỵ binh không còn là kỵ binh. Họ chỉ còn là những người đứng trên bờ. **[CC]**
 90. Kể từ trận này, người Mông Cổ không còn lý do ở lại. **[CG]**
 91. Họ rút lên phía bắc. **[C]**
@@ -160,7 +140,6 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 100. Hai bên đều có sử, và cả hai bộ sử đều tự tin tặng chiến thắng cho phe mình. Chúng ta, những người đến sau, chỉ biết gật gù. **[H]**
 101. Quân Mông Cổ vào được thành, nhưng không giữ được thành. **[CC]**
 102. Đại Việt thua những trận đầu, nhưng không bị bẻ gãy. **[CC]**
-103. Sự thật có lẽ nằm giữa hai lời kể ấy. **[C]**
 104. Sau trận này, nhà vua nhường ngôi cho con. Thái tử lên làm vua. Đó là vua Trần Thánh Tông. **[CG]**
 105. Đại Việt và người Mông Cổ sau đó giữ một mối quan hệ chưa rõ ràng giữa hai bên: Đại Việt chịu gửi sứ giả đến, nhưng không chịu để người Mông Cổ cai quản. **[CG]**
 106. Hãy nhớ một điều. Đây mới chỉ là lần đầu. **[C]**
@@ -203,7 +182,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 128. Đây có lẽ là quả cam nổi tiếng nhất lịch sử Việt Nam, và cũng là quả cam đáng thương nhất. **[H]**
 129. Sau đó, cậu tự gom gia nhân, họ hàng, lập thành một đội quân và may một lá cờ sáu chữ: "Phá cường địch, báo hoàng ân." **[CG]**
 130. Chi tiết về cậu còn nhiều tranh luận. Nhưng câu chuyện cho thấy một điều: lúc đó cả triều đình, từ vua đến trẻ con, đều hiểu chiến tranh sắp đến. **[CG]**
-131. Cùng thời gian, phía nam đã có chiến sự. Toa Đô, một tướng của Hốt Tất Liệt, đem quân đánh Chiêm Thành bằng đường biển. Quân Trần cũng từng gửi quân sang giúp Chiêm Thành. **[CG]**
+131. Cùng thời gian, phía nam đã có chiến sự. Toa Đô, một tướng của Hốt Tất Liệt, đem quân đánh Chiêm Thành bằng đường biển. **[CG]**
 
 *Gợi ý bản đồ:* bến Bình Than (gần Chí Linh, Hải Dương), biểu tượng hội nghị, chân dung nhỏ vua và vua cha; một ô ghi chú về Trần Quốc Toản.
 
@@ -221,7 +200,6 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 139. Cuối năm một nghìn hai trăm tám mươi bốn, vua cha mời các cụ già trong nước về một buổi tiệc ở điện Diên Hồng. **[C]**
 140. Ông hỏi các cụ: nên đánh hay nên hòa? **[C]**
 141. Các cụ đồng thanh đáp: "Đánh!" **[C]**
-142. Đó là một trong những cuộc bỏ phiếu ngắn nhất lịch sử: một câu hỏi, một đáp án, không cần đếm. **[H]**
 143. Trong cả cuộc chiến, có lẽ đó là cuộc họp được nhớ nhiều nhất. **[CC]**
 144. Cuộc họp ấy diễn ra ngắn gọn. Phần còn lại, người đời sau kể thêm rất nhiều. Nhưng ý chính thì giữ nguyên: cả nước chọn đánh. **[C]**
 145. Cùng lúc ấy, vua giao cho Trần Quốc Tuấn, người sau này được gọi là Hưng Đạo Vương, quyền chỉ huy toàn quân. **[CG]**
@@ -383,14 +361,12 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 
 238. Trước khi nói đến trận lớn, phải kể một người. Tên ông là Trần Khánh Dư. **[C]**
 239. Ông là tướng nhà Trần. Trước đó, ông từng làm vua giận, bị lấy hết của cải, phải về quê sống. **[CG]**
-240. Vân Đồn là vùng đảo ngoài vịnh Bắc Bộ, nơi thuyền bè phải đi qua trước khi vào các cửa sông. **[CC]**
-241. Rồi vì cần người giỏi, vua lại gọi ông ra. Cuối năm một nghìn hai trăm tám mươi bảy, ông được giao canh giữ vùng biển ở Vân Đồn, phía đông bắc. **[CG]**
+241. Rồi vì cần người giỏi, vua lại gọi ông ra. Cuối năm một nghìn hai trăm tám mươi bảy, ông được giao canh giữ Vân Đồn, một vùng đảo ở phía đông bắc, nơi thuyền bè phải đi qua trước khi vào các cửa sông. **[CG]**
 242. Đoàn thuyền lương của Trương Văn Hổ gồm khoảng bảy mươi chiếc, chở rất nhiều thóc, đi sau thủy quân Ô Mã Nhi. **[CG]**
 243. Ô Mã Nhi đi qua Vân Đồn. Quân Trần Khánh Dư chặn không nổi. **[CG]**
 244. Ô Mã Nhi chạy trước, thuyền lương chạy sau, và không ai nhớ báo cho nhau biết mình đang ở đâu. **[H]**
 245. Tin về đến triều đình. Nhà vua ra lệnh gọi Trần Khánh Dư về chịu phạt. **[CG]**
 246. Ông không chạy. Ông xin vài ngày để chuộc lỗi. **[CG]**
-247. Bị gọi về chịu phạt mà còn xin gia hạn vài ngày: đó là kiểu xin gia hạn dũng cảm nhất lịch sử. **[H]**
 248. Lý do của ông rất đơn giản. Ô Mã Nhi đi nhanh quá, tưởng đã thắng, nên bỏ lại đoàn thuyền lương không ai bảo vệ. **[CG]**
 249. Ông chờ. Khi đoàn thuyền lương đến Vân Đồn, ông cho đánh ngay. **[CG]**
 250. Nhiều thuyền bị chặn, đốt, hoặc bị chiếm. Trương Văn Hổ chạy thoát chỉ với một chiếc thuyền. **[CG]**
@@ -440,11 +416,11 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 
 ## Chương 23. Đường bộ: Thoát Hoan bị rình trong rừng
 
-276. Đường bộ không dễ chút nào. **[CC]**
+276. Cùng những ngày ấy, đường bộ cũng không dễ chút nào. **[CC]**
 277. Người Việt đã phá cầu, chặt cây chắn đường, đặt bẫy dọc theo đường rút. **[CG]**
 278. Tóm lại, người Việt đã làm mọi cách để đường về nhà của quân Nguyên biến thành đường vòng. **[H]**
 279. Quân Nguyên đi từng đoạn, bị đánh từng đoạn. **[CG]**
-280. Đến Lạng Sơn, vào ngày mười tháng tư, Thoát Hoan bị trúng một mũi tên có tẩm độc. **[CG]**
+280. Đến Lạng Sơn, Thoát Hoan bị trúng một mũi tên có tẩm độc. **[CG]**
 281. Ông thoát được, nhưng phải chạy qua rừng, chỉ còn vài người đi theo. **[CG]**
 282. Lúc ấy, đạo quân đi cùng ông đã tan tác. **[CG]**
 283. Một số ước tính cho rằng riêng việc vượt núi biên giới đã làm mất khoảng mười nghìn người. **[CG]**
@@ -460,7 +436,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 286. Sông này có nhiều nhánh và có thủy triều lên xuống rất mạnh. **[C]**
 287. Trần Quốc Tuấn đã chuẩn bị. Ông cho đóng nhiều cọc gỗ nhọn, đầu bịt sắt, xuống lòng sông ở các nhánh phụ. **[CG]**
 288. Khi nước lên, cọc nằm dưới mặt nước, không ai nhìn thấy. **[CG]**
-289. Sông Bạch Đằng có thủy triều lên xuống rất mạnh. Mỗi ngày nước lên, nước xuống, và người Việt tính từng giờ. **[CC]**
+289. Mỗi ngày nước lên, nước xuống, và người Việt tính từng giờ. **[CC]**
 290. Thuyền lớn nặng nề chỉ chạy tốt khi nước đầy. Khi nước rút, nó trở thành mục tiêu đứng yên. **[CC]**
 291. Ông chọn nơi đánh và giờ đánh theo đúng lúc nước lên nước xuống. **[CG]**
 292. Sáng ngày chín tháng tư, thuyền Nguyên vào sông. **[CG]**
@@ -485,7 +461,7 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 304. Còn đoàn thuyền lương thì đã mất từ Vân Đồn, hơn hai tháng trước. **[CG]**
 305. Tin ấy không kịp đến tai Thoát Hoan trước khi ông ra lệnh rút. **[CG]**
 306. Quân Nguyên mất thủy quân, mất lương, và mất cả đường lui. **[CG]**
-307. Những người còn sống sót mới về đến đất Nguyên vào dịp Tết năm một nghìn hai trăm tám mươi chín. **[CG]**
+307. Những người còn sống sót phải mất rất lâu mới thoát được về đến đất Nguyên. **[CG]**
 308. Con số thương vong không rõ ràng: các nguồn chép từ vài nghìn đến hàng chục nghìn người, và các nhà nghiên cứu chưa thống nhất. **[CG]**
 309. Còn lại là phần chuyện sau trận. **[CC]**
 310. Năm một nghìn hai trăm tám mươi chín, Đại Việt thả phần lớn tù binh. **[CG]**
@@ -493,10 +469,10 @@ Quy cách: kể liền mạch, không nêu tên sách trong lời kể, tên đ�
 312. Hốt Tất Liệt đòi Ô Mã Nhi trở về. Người ta nói rằng chiếc thuyền chở ông bị chìm giữa đường. **[CG]**
 313. Chiến thắng không có nghĩa là hết khó khăn. Trong những năm sau đó, đất nước còn gặp nạn đói kéo dài. **[CG]**
 314. Hốt Tất Liệt giận đến mức chuẩn bị đánh lần thứ tư. Nhưng ông được khuyên nên dùng ngoại giao trước. **[CG]**
-315. Năm một nghìn hai trăm chín mươi hai, sứ giả Nguyên đến Thăng Long. Vua Trần Nhân Tông không sang Trung Hoa, mà gửi một bức tượng người bằng vàng và lời xin lỗi. **[CG]**
+315. Vài năm sau, sứ giả Nguyên đến Thăng Long. Vua Trần Nhân Tông không sang Trung Hoa, mà gửi một bức tượng người bằng vàng và lời xin lỗi. **[CG]**
 316. Năm một nghìn hai trăm chín mươi ba, Hốt Tất Liệt vẫn còn ý định đánh. Nhưng đầu năm một nghìn hai trăm chín mươi tư, ông mất. **[CG]**
 317. Người kế vị chấm dứt chiến tranh. Hai nước giữ quan hệ triều cống, kéo dài đến khi nhà Nguyên sụp đổ. **[CG]**
-318. Còn Chiêm Thành, nơi bắt đầu mọi chuyện, về sau giữ quan hệ cống nạp với nhà Nguyên. Năm một nghìn ba trăm linh năm, vua Chiêm Thành là Chế Mân cưới công chúa Huyền Trân của Đại Việt và dâng hai châu Ô, Lý. **[CG]**
+318. Còn Chiêm Thành, nơi bắt đầu mọi chuyện, về sau giữ quan hệ cống nạp với nhà Nguyên. Năm một nghìn ba trăm linh sáu, vua Chiêm Thành là Chế Mân cưới công chúa Huyền Trân của Đại Việt và dâng hai châu Ô, Lý. **[CG]**
 
 *Gợi ý bản đồ:* thuyền lương vào ngõ cụt; bản đồ thu lại quá trình 1258–1288; bức tượng vàng đi về phương bắc.
 
@@ -668,3 +644,68 @@ Tôi **chưa mở được bản gốc** của Đại Việt sử ký toàn thư
 - Giáo dục Việt Nam, "Danh tướng Trần Khánh Dư với chiến thắng Vân Đồn đầu năm 1288": https://giaoduc.net.vn/danh-tuong-tran-khanh-du-voi-chien-thang-van-don-dau-nam-1288-post184740.gd
 - Lịch sử Việt Nam, "Vạn Kiếp – nỗi ghi dấu những chiến công hiển hách": https://lsvn.vn/van-kiep-noi-ghi-dau-nhung-chien-cong-hien-hach-a159185.html
 - Luật Dương Gia (chỉ dùng để so lệch): https://luatduonggia.vn/?p=833525
+
+
+---
+
+## SỬA NGÀY 23/10/2026 (theo góp ý xem lại video, số câu giữ nguyên, câu cắt để trống)
+Chưa đẩy lên giọng và dựng lại: khi dựng lại video thì đọc lại các câu đã sửa, xóa câu cắt khỏi `nm_full.json`, `thoi_luong.json` và mp3.
+
+- Câu 10, 11, 12, 13: nói về video/lời hứa/ghi chú nguồn: chuyển xuống mô tả và bình luận ghim
+- Câu 14: cầu nối ngắn, bỏ phần lai lịch dài
+- Câu 17, 18, 19, 23, 24, 25, 26: rút gọn lai lịch Mông Cổ (chương 2) còn khoảng 25 giây
+- Câu 27, 28, 31, 34, 35, 36, 37, 38: rút gọn chương 3 còn khoảng 25 giây, sớm tới cảnh sứ giả
+- Câu 86: gộp câu lặp 86 và 88
+- Câu 88: trùng với câu 86
+- Câu 103: câu "Sự thật có lẽ nằm giữa hai lời kể ấy": dễ bị khán giả phản ứng, câu 101–102 đã đủ ý
+- Câu 142, 247: hai câu đùa chạm vào Diên Hồng và Trần Khánh Dư: theo quy tắc kênh không đùa về khoảnh khắc và nhân vật của dân tộc
+- Câu 131: bỏ vế "quân Trần gửi quân giúp Chiêm Thành": chưa tìm được nguồn khớp
+- Câu 240: Vân Đồn được giải thích chen giữa chuyện bị phạt và được gọi lại; gộp vào câu 241
+- Câu 241: gộp giải thích Vân Đồn
+- Câu 276: tránh đảo thứ tự: trận Lạng Sơn (10/4) kể trước Bạch Đằng (9/4)
+- Câu 280: bỏ ngày "mười tháng tư" để khỏi lệch thứ tự với trận Bạch Đằng ở chương sau
+- Câu 289: bỏ vế lặp câu 286
+- Câu 307: bỏ "Tết năm 1289": nhiều khả năng sai, Thoát Hoan về đến biên giới khoảng tháng tư năm 1288
+- Câu 315: bỏ năm 1292: chưa kiểm được
+- Câu 318: 1305 thành 1306 (năm gả Huyền Trân; Wikipedia ghi 1306)
+
+### Câu đã cắt hoặc sửa (nguyên văn cũ, để khôi phục nếu cần)
+- 10. Câu chuyện hôm nay dài khoảng ba mươi phút. Nó đi từ cơn bão đầu tiên, qua ngọn lửa mùa hè năm một nghìn hai trăm tám mươi lăm, đến những cọc gỗ dưới sông Bạch Đằng. **[C]**
+- 11. Một lời hứa trước khi bắt đầu: mọi sự kiện trong video là chuyện có thật, kể theo các tài liệu lịch sử. **[C]**
+- 12. Còn những câu đùa là của người kể. Chúng chỉ để câu chuyện đỡ nặng, không thay đổi bất cứ điều gì đã xảy ra. **[H]**
+- 13. Chỗ nào các tài liệu nói khác nhau, tôi sẽ nói thẳng là chúng khác nhau. **[C]**
+- 14. Nào, bắt đầu từ chuyện người Mông Cổ từ đâu đến. **[CC]**
+- 17. Họ đánh nhà Kim ở miền bắc Trung Hoa. Họ đi về phía tây, qua cả Trung Á. **[CC]**
+- 18. Điều làm họ đáng sợ không chỉ là sức mạnh. Họ biết giữ kỷ luật, biết đánh nhanh, và biết dùng người của chính những nơi họ chinh phục. **[CC]**
+- 19. Mỗi lần có một nơi chống cự đến cùng mà thua, kẻ chống cự thường bị trừng phạt rất nặng. Tin ấy lan đi trước quân đội. Nhiều nơi nghe tin đã mở cửa. **[CC]**
+- 23. Họ còn học rất nhanh. Gặp tường thành, họ mượn thợ và máy bắn đá của những người đã hàng. Gặp sông, họ nhờ thợ bản xứ đóng thuyền. **[CC]**
+- 24. Họ không cần giỏi mọi thứ ngay từ đầu. Họ chỉ cần biết dùng người giỏi. **[CC]**
+- 25. Nói cách khác, họ là kiểu người đi xin việc không cần biết làm gì, chỉ cần biết thuê ai. **[H]**
+- 26. Vì vậy cả thế giới thời ấy đều sợ họ. Có nước mở cửa ngay khi nghe tin. Có nước chống cự và bị san phẳng. **[CC]**
+- 27. Đến giữa thế kỷ mười ba, người Mông Cổ đã nuốt gần hết miền bắc Trung Hoa. Họ chưa chiếm được nhà Tống ở phía nam. **[CC]**
+- 28. Họ cần một con đường vòng. Con đường ấy đi qua miền tây nam. **[CC]**
+- 31. Vậy lúc ấy Đại Việt là một nước như thế nào? **[CC]**
+- 34. Đại Việt nhỏ hơn rất nhiều so với đế quốc ở phía bắc. Nhưng đây là một nước có quân đội, có cách đánh riêng, và có nhiều sông ngòi để dựa vào. **[CC]**
+- 35. Đó là những gì mà người Mông Cổ sắp phải đối mặt. **[CC]**
+- 36. Vua Trần Thái Tông lên ngôi khi còn rất nhỏ. Người cầm việc nước thay vua trẻ là Trần Thủ Độ, một người nổi tiếng cứng rắn. **[CC]**
+- 37. Nhà Trần có một đặc điểm: các vương hầu trong họ đều cầm quân. Hoàng tộc không chỉ ngồi trên ngai. Họ còn là tướng. **[CC]**
+- 38. Điều đó sẽ có ích khi chiến tranh đến, vì mệnh lệnh đi nhanh hơn và người cầm quân hiểu người cầm quyền. **[CC]**
+- 86. Đông Bộ Đầu là một bến sông ở ngay cạnh kinh thành. **[CG]**
+- 88. Đông Bộ Đầu là một bến sông bên sông Hồng, sát Thăng Long. Đánh ở đó nghĩa là đánh ngay trước mặt kẻ địch đang đóng trong thành. **[CG]**
+- 103. Sự thật có lẽ nằm giữa hai lời kể ấy. **[C]**
+- 142. Đó là một trong những cuộc bỏ phiếu ngắn nhất lịch sử: một câu hỏi, một đáp án, không cần đếm. **[H]**
+- 247. Bị gọi về chịu phạt mà còn xin gia hạn vài ngày: đó là kiểu xin gia hạn dũng cảm nhất lịch sử. **[H]**
+- 131. Cùng thời gian, phía nam đã có chiến sự. Toa Đô, một tướng của Hốt Tất Liệt, đem quân đánh Chiêm Thành bằng đường biển. Quân Trần cũng từng gửi quân sang giúp Chiêm Thành. **[CG]**
+- 240. Vân Đồn là vùng đảo ngoài vịnh Bắc Bộ, nơi thuyền bè phải đi qua trước khi vào các cửa sông. **[CC]**
+- 241. Rồi vì cần người giỏi, vua lại gọi ông ra. Cuối năm một nghìn hai trăm tám mươi bảy, ông được giao canh giữ vùng biển ở Vân Đồn, phía đông bắc. **[CG]**
+- 276. Đường bộ không dễ chút nào. **[CC]**
+- 280. Đến Lạng Sơn, vào ngày mười tháng tư, Thoát Hoan bị trúng một mũi tên có tẩm độc. **[CG]**
+- 289. Sông Bạch Đằng có thủy triều lên xuống rất mạnh. Mỗi ngày nước lên, nước xuống, và người Việt tính từng giờ. **[CC]**
+- 307. Những người còn sống sót mới về đến đất Nguyên vào dịp Tết năm một nghìn hai trăm tám mươi chín. **[CG]**
+- 315. Năm một nghìn hai trăm chín mươi hai, sứ giả Nguyên đến Thăng Long. Vua Trần Nhân Tông không sang Trung Hoa, mà gửi một bức tượng người bằng vàng và lời xin lỗi. **[CG]**
+- 318. Còn Chiêm Thành, nơi bắt đầu mọi chuyện, về sau giữ quan hệ cống nạp với nhà Nguyên. Năm một nghìn ba trăm linh năm, vua Chiêm Thành là Chế Mân cưới công chúa Huyền Trân của Đại Việt và dâng hai châu Ô, Lý. **[CG]**
+
+### Còn cần kiểm với Toàn thư
+- Năm sứ giả Nguyên và tượng vàng (câu 315).
+- Nhịp thời gian trận Lạng Sơn so với Bạch Đằng: nếu muốn kể đúng thứ tự thì đảo hai chương 23–24 (phải đánh số lại và đọc lại giọng).
+- Phần mở đầu đã rút còn khoảng một phút lai lịch: nên nghe lại nhịp mới khi dựng.

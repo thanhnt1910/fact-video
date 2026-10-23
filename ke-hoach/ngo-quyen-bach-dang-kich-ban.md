@@ -23,11 +23,11 @@ Nhưng ở phía bên kia, có một người đã tính trước mọi thứ. [
 Trận đánh ngày hôm ấy khiến người phương Bắc không dám sang nữa trong nhiều chục năm. [T-bình]
 Vì sao một trận đánh trên sông lại quan trọng đến thế? [LĐ]
 Và ông đã làm gì để thắng? [LĐ]
-Câu chuyện bắt đầu từ trước đó khá lâu, khi nhà Đường sụp đổ. [LĐ]
+Muốn hiểu, ta phải quay về ba mươi mốt năm trước, năm chín trăm linh bảy, khi nhà Đường sụp đổ. [LĐ]
 
 ## Chương 2. Khi nhà Đường mất
 
-Năm chín trăm linh bảy, nhà Đường mất. [T]
+Khi ấy nhà Đường mất. [T]
 Trung Quốc chia thành nhiều thế lực nhỏ, mỗi nơi một người đứng đầu. [LĐ]
 Ở vùng Quảng Châu, một người tên Lưu Ẩn được triều đình mới phong làm tiết độ sứ. [T]
 Tiết độ sứ là viên quan đứng đầu cả một vùng, có quyền cầm quân. [LĐ]
@@ -244,7 +244,7 @@ Về sau, Ngô Xương Văn lật đổ Dương Tam Kha. [kiểm]
 ## Chương 11. Kết
 
 Nhìn lại, trận Bạch Đằng chỉ kéo dài một ngày. [LĐ]
-Nhưng nó là kết quả của nhiều năm chuẩn bị. [LĐ]
+Nhưng nó là kết quả của hơn ba mươi năm chuẩn bị, kể từ năm chín trăm linh bảy. [LĐ]
 Họ Khúc dựng quyền tự chủ. [T]
 Dương Đình Nghệ hai lần đuổi quân Nam Hán. [T]
 Ngô Quyền hiểu con sông, hiểu nước triều, hiểu đối thủ. [LĐ]

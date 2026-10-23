@@ -1,4 +1,13 @@
-còn thiếu 54 câu
+còn thiếu 73 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 8017 - 8024 93.6 giây
-OK cụm 8025 - 8032 94.2 giây
+OK cụm 9001 - 9008 88.9 giây
+OK cụm 9009 - 9016 87.0 giây
+OK cụm 9017 - 9024 88.0 giây
+OK cụm 9025 - 9032 85.4 giây
+OK cụm 9033 - 9040 85.4 giây
+OK cụm 9041 - 9048 92.9 giây
+OK cụm 9049 - 9056 90.8 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK cụm 9057 - 9064 89.9 giây
+OK cụm 9065 - 9072 77.2 giây
+OK cụm 9073 - 9073 6.7 giây

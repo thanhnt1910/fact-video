@@ -3,19 +3,8 @@
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_hbt.txt
 + MODE=full
 + python -
-tổng khung 19612 đoạn 6 14709 17160
-+ read A0 A1
-+ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_6.mp4 14709 17160
-+ tail -n 15
-0 2451
-300 2451
-600 2451
-900 2451
-1200 2451
-1500 2451
-1800 2451
-2100 2451
-2400 2451
-xong
-+ ls -la doan_6.mp4
--rw-r--r-- 1 runner runner 26926852 Oct 23 09:47 doan_6.mp4
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/build2.py", line 2, in <module>
+    from PIL import Image,ImageDraw,ImageFont
+ModuleNotFoundError: No module named 'PIL'

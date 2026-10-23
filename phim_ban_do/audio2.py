@@ -73,6 +73,56 @@ def bow(t0,g=0.5):
     th=int(0.12*SR);tu=np.arange(th)/SR;add((lp(rng.normal(0,1,th).astype(np.float32),500)*np.exp(-tu/0.025)*3).astype(np.float32),t0+0.6,g*0.9)
 def volley(a,b,n,g=0.45):
     for k in range(n): bow(a+(b-a)*k/max(1,n-1)+rng.uniform(-0.12,0.12),g*rng.uniform(0.6,1))
+
+# ---------- âm thanh mới cho cảnh sông nước (Ngô Quyền – Bạch Đằng)
+def wave_bed(t0,t1,g=0.4):
+    n=int((t1-t0)*SR);t=np.arange(n)/SR
+    x=lp(rng.normal(0,1,n).astype(np.float32),1100)
+    sw=0.5+0.5*np.sin(2*math.pi*t/6.5+rng.uniform(0,6));sw2=0.5+0.5*np.sin(2*math.pi*t/4.1+rng.uniform(0,6))
+    e=(0.25+0.75*sw*sw2)*np.minimum(t/1.5,1)*np.minimum((t1-t0-t)/1.5,1)
+    add((x*e).astype(np.float32),t0,g)
+def rain(t0,t1,g=0.3):
+    n=int((t1-t0)*SR);t=np.arange(n)/SR
+    x=hp(lp(rng.normal(0,1,n).astype(np.float32),7000),1500)
+    e=np.minimum(t/1.0,1)*np.minimum((t1-t0-t)/1.0,1);add((x*e).astype(np.float32),t0,g)
+    crackle(t0,t1-t0,g*0.5,40)
+def tide_rush(t0,dur,g=0.5,rising=True):
+    n=int(dur*SR);t=np.arange(n)/SR;x=lp(rng.normal(0,1,n).astype(np.float32),900)
+    u=t/dur;e=(u if rising else (1-u))**0.8*np.minimum((dur-t)/0.8,1)*np.minimum(t/0.3,1)
+    sw=0.6+0.4*np.sin(2*math.pi*t*0.45);add((x*e*sw*1.4).astype(np.float32),t0,g)
+def oars(t0,dur,g=0.35,iv=1.05):
+    t=t0
+    while t<t0+dur:
+        n=int(0.35*SR);tt=np.arange(n)/SR
+        s=lp(rng.normal(0,1,n).astype(np.float32),1800)*np.exp(-tt/0.09)*np.minimum(tt/0.02,1)
+        add(s.astype(np.float32),t+rng.normal(0,0.03),g*rng.uniform(0.6,1));
+        k=int(0.06*SR);add((lp(rng.normal(0,1,k).astype(np.float32),500)*env(k,0.002,0.02)).astype(np.float32),t+0.3,g*0.6)
+        t+=iv*rng.uniform(0.92,1.08)
+def splash(t0,g=0.6):
+    n=int(0.9*SR);tt=np.arange(n)/SR
+    s=hp(lp(rng.normal(0,1,n).astype(np.float32),4500),300)*np.exp(-tt/0.18)*np.minimum(tt/0.004,1)
+    s+=lp(rng.normal(0,1,n).astype(np.float32),400)*np.exp(-tt/0.3)*0.9
+    add(s.astype(np.float32),t0,g)
+def woodcrack(t0,g=0.7):
+    for k,o in enumerate([0,0.06,0.15]):
+        n=int(0.25*SR);tt=np.arange(n)/SR
+        s=hp(rng.normal(0,1,n).astype(np.float32),400)*np.exp(-tt/0.03)*np.minimum(tt/0.001,1)
+        s+=(np.sin(2*math.pi*(180-60*k)*tt)*np.exp(-tt/0.06)).astype(np.float32)*0.8
+        add(s.astype(np.float32),t0+o,g*(1-0.2*k))
+    creak(t0+0.15,0.9,g*0.5);splash(t0+0.35,g*0.8)
+def gong(t0,g=0.5):
+    n=int(3.0*SR);tt=np.arange(n)/SR
+    s=sum(np.sin(2*math.pi*f*tt+p)*a for f,a,p in [(96,1,0),(144,0.6,1),(213,0.45,2),(341,0.25,0.5)])*np.exp(-tt/1.1)
+    s=s*np.minimum(tt/0.004,1)+hp(rng.normal(0,1,n).astype(np.float32),900)*np.exp(-tt/0.05)*0.4
+    add((s*0.35).astype(np.float32),t0,g)
+def gull(t0,g=0.25):
+    n=int(0.7*SR);tt=np.arange(n)/SR;f=1500+500*np.sin(2*math.pi*tt*3)-500*tt
+    ph=np.cumsum(2*math.pi*f/SR);s=(np.sin(ph)+0.4*np.sin(2*ph))*np.sin(np.linspace(0,math.pi,n))**1.2*0.4
+    add(s.astype(np.float32),t0,g)
+def war_drums(t0,t1,g=0.6,iv=0.75):
+    t=t0;i=0
+    while t<t1: drum(t,g*(1 if i%4==0 else 0.6));t+=iv;i+=1
+
 import importlib,os
 C=importlib.import_module(os.environ.get('CONTENT','tq45_content'))
 def bt(n): return T[n]
@@ -108,6 +158,20 @@ for (t0,t1,kind,a_,b_) in getattr(C,'FX',[]):
         horn(t0,min(2.2,t1-t0+0.8),0.5)
     elif kind=='volley':
         volley(t0,t1,max(4,int((t1-t0)*2.5)),0.3)
+for (t0,t1,kind,a_,b_) in getattr(C,'FX',[]):
+    if kind=='crack': woodcrack(t0,0.8)
+    elif kind=='splash': splash(t0,0.6)
+    elif kind=='gong': gong(t0,0.6)
+    elif kind=='oars': oars(t0,t1-t0,0.35)
+    elif kind=='drums': war_drums(t0,t1,0.6)
+    elif kind=='tide_up': tide_rush(t0,t1-t0,0.55,True)
+    elif kind=='tide_down': tide_rush(t0,t1-t0,0.6,False)
+for (t0,t1,kind,gn) in getattr(C,'AMBIENT',[]):
+    if kind=='sea': wave_bed(t0,t1,gn)
+    elif kind=='rain': rain(t0,t1,gn)
+    elif kind=='gulls':
+        tt=t0
+        while tt<t1: gull(tt,gn);tt+=rng.uniform(3,7)
 for (t0,t1,kind,a_,b_) in getattr(C,'OBJ',[]):
     if kind=='tower': thump(t1+0.05,0.9);crackle(t1,1.2,0.3,25)
     elif kind in ('tunnel','ditch'): steps(t0,2.5)

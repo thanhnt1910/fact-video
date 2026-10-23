@@ -1,42 +1,16 @@
-còn thiếu 33 câu
+còn thiếu 10 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 9002 - 9002 12.0 giây
+OK cụm 9011 - 9011 11.2 giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9003 - 9003 11.2 giây
-OK cụm 9006 - 9006 10.0 giây
-OK cụm 9007 - 9007 9.1 giây
-OK cụm 9008 - 9008 13.4 giây
-OK cụm 9010 - 9010 5.9 giây
-OK cụm 9011 - 9011 12.0 giây
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9013 - 9013 9.0 giây
-OK cụm 9014 - 9014 13.5 giây
-OK cụm 9015 - 9015 12.3 giây
-OK cụm 9016 - 9016 9.0 giây
-OK cụm 9017 - 9017 15.8 giây
+OK cụm 9014 - 9014 11.8 giây
+OK cụm 9017 - 9017 16.5 giây
+OK cụm 9019 - 9019 12.2 giây
+OK cụm 9028 - 9028 14.6 giây
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9018 - 9018 9.4 giây
-OK cụm 9019 - 9019 11.8 giây
-OK cụm 9025 - 9025 9.6 giây
-OK cụm 9026 - 9026 9.8 giây
-OK cụm 9027 - 9027 13.5 giây
-OK cụm 9028 - 9028 13.1 giây
-OK cụm 9029 - 9029 15.6 giây
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9030 - 9030 5.1 giây
-OK cụm 9035 - 9035 9.7 giây
-OK cụm 9036 - 9036 9.4 giây
+OK cụm 9033 - 9033 8.3 giây
+OK cụm 9034 - 9034 10.6 giây
 OK cụm 9037 - 9037 15.2 giây
-OK cụm 9038 - 9038 10.2 giây
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9054 - 9054 10.6 giây
-OK cụm 9055 - 9055 16.0 giây
-OK cụm 9058 - 9058 10.2 giây
-OK cụm 9059 - 9059 12.7 giây
-OK cụm 9064 - 9064 13.0 giây
-   [gemini] khóa …f-Vg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9068 - 9068 7.7 giây
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK cụm 9069 - 9069 13.7 giây
-OK cụm 9070 - 9070 8.2 giây
-OK cụm 9071 - 9071 9.3 giây
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK cụm 9054 - 9054 10.1 giây
+OK cụm 9064 - 9064 14.1 giây

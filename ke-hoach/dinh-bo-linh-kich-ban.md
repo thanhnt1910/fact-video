@@ -1,9 +1,8 @@
 # Đinh Bộ Lĩnh dẹp mười hai sứ quân (Đại Cồ Việt, 968): kịch bản tối ưu giọng đọc
 
-Mã `dbl1`, 97 đoạn (9001–9097), 2328 chữ, dự kiến khoảng 11–12 phút (sàn là 10 phút; đo thời lượng thật sau khi dựng). Dàn ý đã duyệt: `ke-hoach/dinh-bo-linh-dan-y.md`. Mỗi đoạn tối đa 2 câu, `kiem_kich_ban.py dbl1`: 0 ❌.
+Mã `dbl1`, 97 đoạn (9001–9097), 2334 chữ, dự kiến khoảng 11–12 phút (sàn là 10 phút; đo thời lượng thật sau khi dựng). Dàn ý đã duyệt: `ke-hoach/dinh-bo-linh-dan-y.md`. Mỗi đoạn tối đa 2 câu, `kiem_kich_ban.py dbl1`: 0 ❌.
 
 Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Liễn bị treo trên ngọn sào và vụ giết Hạng Lang; không nối sang tập Lê Hoàn, mỗi video trọn gói (cuối video chỉ nêu kết cục nhà Đinh, không nói "tập sau").
-
 
 ## Mở đầu
 
@@ -87,7 +86,7 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 9057. Sau khi dẹp yên các sứ quân, Đinh Bộ Lĩnh tự lập làm hoàng đế. Ông cần chọn một nơi để đóng đô.
 9058. Ông từng thấy một chỗ đất đẹp ở Đàm thôn. Nhưng thế đất chật hẹp, lại không có chỗ hiểm để phòng thủ.
 9059. Vì vậy ông vẫn chọn Hoa Lư, quê mình, nơi có núi đá bao quanh làm thành tự nhiên.
-9060. Năm chín trăm sáu mươi tám, ông lên ngôi và đặt tên nước là Đại Cồ Việt. Tên ấy thường được hiểu là nước Việt lớn.
+9060. Năm chín trăm sáu mươi tám, ông lên ngôi và đặt quốc hiệu là Đại Cồ Việt. Quốc hiệu là tên chính thức của nước.
 9061. Ông dời kinh đô về Hoa Lư, đắp thành, đào hào, xây cung điện và đặt ra nghi lễ trong triều.
 9062. Các quan dâng ông hiệu là Đại Thắng Minh Hoàng Đế. Người đời sau thường gọi ông là Đinh Tiên Hoàng.
 9063. Lê Văn Hưu viết rằng ông mở nước dựng đô, đổi xưng hoàng đế, đặt trăm quan và lập sáu quân. Chế độ lúc ấy đã gần đầy đủ.
@@ -125,25 +124,25 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 9086. Đinh Bộ Lĩnh mất khi mới năm mươi sáu tuổi, sau mười hai năm ở ngôi. Ông được chôn ở Trường Yên, gần kinh đô Hoa Lư.
 9087. Nguyễn Bặc bắt được Đỗ Thích và xử tử.
 9088. Sử chép Đỗ Thích tin vào một điềm lạ nên nảy ý giết vua. Đó chỉ là chuyện truyền lại, không có gì để kiểm chứng.
-9089. Ngô Sĩ Liên bàn rằng vua không giữ được trọn đời là vì chưa làm hết việc của người. Sau khi dựng nghiệp, vẫn phải lo nghĩ đề phòng cho đời sau.
 
 ## Kết
 
-9090. Đinh Toàn lên nối ngôi khi mới sáu tuổi. Quyền hành rơi vào tay Lê Hoàn, người giữ chức Thập đạo tướng quân.
-9091. Sử ghi Đinh Toàn ở ngôi tám tháng. Sau đó Lê Hoàn lên ngôi, và nhà Đinh chấm dứt.
-9092. Đinh Bộ Lĩnh xuất thân từ một động núi đá và mấy làng nhỏ. Thế hiểm ở Hoa Lư giúp ông đứng vững, dù nhiều người có đất rộng hơn.
-9093. Ông chấm dứt cảnh mười hai sứ quân, lập nước Đại Cồ Việt, dựng kinh đô, đặt ra quân đội, quan chức và nghi lễ.
-9094. Vậy vì sao một người xuất thân chăn trâu lại làm được điều mà mười hai người có sẵn đất đai không làm được?
-9095. Có thể vì ông biết dựa vào thế hiểm của Hoa Lư, biết nhờ người có uy tín như Trần Minh Công, và biết thu phục dần từng vùng.
-9096. Nhưng ông cũng không giữ được trọn đời, và sự yêu thương không đúng chỗ đã làm tan nhà mình.
+9089. Đinh Toàn lên nối ngôi khi mới sáu tuổi. Quyền hành rơi vào tay Lê Hoàn, người giữ chức Thập đạo tướng quân.
+9090. Sử ghi Đinh Toàn ở ngôi tám tháng. Sau đó Lê Hoàn lên ngôi, và nhà Đinh chấm dứt.
+9091. Đinh Bộ Lĩnh xuất thân từ một động núi đá và mấy làng nhỏ. Thế hiểm ở Hoa Lư giúp ông đứng vững, dù nhiều người có đất rộng hơn.
+9092. Ông chấm dứt cảnh mười hai sứ quân, lập nước Đại Cồ Việt, dựng kinh đô, đặt ra quân đội, quan chức và nghi lễ.
+9093. Sử gia Ngô Sĩ Liên bàn rằng người dựng nghiệp vua đều nhờ ở trời. Nhưng bậc thánh nhân không dựa vào mệnh trời mà bỏ phần việc của mình.
+9094. Ông viết rằng việc đã thành thì càng phải lo nghĩ đề phòng. Phải sửa sang lễ nghi, cách xử án và việc cai trị để giữ lòng người.
+9095. Ông còn nói phải đặt nhiều lớp cửa và đánh hiệu canh để đề phòng kẻ hung bạo. Đó là nghĩ xa cho đời sau.
+9096. Vì vậy ông kết luận rằng Đinh Tiên Hoàng không giữ được trọn đời, là do chưa làm hết việc của người, chứ không phải trời không giúp.
 9097. Đó là câu chuyện về Đinh Bộ Lĩnh, người dẹp mười hai sứ quân và lập nước Đại Cồ Việt. Cảm ơn bạn đã theo dõi.
 
 ## Ghi chú độ chắc (không đọc trong video)
 - Mọi sự kiện lấy từ `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (Ngoại kỷ q.V, Bản kỷ q.I), mức A, xem bảng trong dàn ý.
 - Mức B (chú thích của bản dịch, không phải chính văn Toàn thư): động Hoa Lư bốn mặt núi đá dựng đứng (9024, 9059, trích Cương mục); Bình Kiều ở Thanh Hóa (9017, chú thích 4).
-- Cách hiểu thông thường, không có trong Toàn thư: Đại Cồ Việt là "nước Việt lớn" (9060, đã viết "thường được hiểu"). Cần kiểm trước khi đăng nếu muốn nói chắc hơn.
-- Diễn giải của người viết (không phải sử): 9094–9095 (vì sao Đinh Bộ Lĩnh thành công), 9096 ("sự yêu thương không đúng chỗ"). Nếu chủ kênh muốn giữ đúng sử, đổi thành lời bàn của Ngô Sĩ Liên.
-- Lời bàn nêu tên người bàn: Lê Văn Hưu (9055, 9063, 9077), Ngô Sĩ Liên (9011, 9056, 9082, 9089).
+- 9060: Toàn thư chỉ chép "đặt quốc hiệu là Đại Cồ Việt", không giải nghĩa tên; lời kể không nêu nghĩa (đã bỏ cách hiểu "nước Việt lớn", chủ kênh yêu cầu kiểm 24/10/2026).
+- Đoạn kết 9093–9096 lấy theo lời bàn của Ngô Sĩ Liên (Bản kỷ q.I, sau đoạn Đỗ Thích giết vua): người dựng nghiệp nhờ trời nhưng thánh nhân không cậy mệnh trời; việc đã thành càng phải đề phòng; Tiên Hoàng không trọn đời là do chưa làm hết việc người, không phải trời không giúp. Đoạn 9091–9092 chỉ nhắc lại sự kiện có trong sử, không thêm diễn giải.
+- Lời bàn nêu tên người bàn: Lê Văn Hưu (9055, 9063, 9077), Ngô Sĩ Liên (9011, 9056, 9082, 9093–9096).
 
 ## Chi tiết đã bỏ khỏi lời kể
 - Hai con rồng vàng hộ vệ khi cầu gãy; ngọc khuê trong giỏ cá và lời nhà sư; sao sa vào miệng Đỗ Thích (chỉ nhắc "một điềm lạ"); bài sấm "Đỗ Thích thí Đinh Đinh" (do người đời sau làm).

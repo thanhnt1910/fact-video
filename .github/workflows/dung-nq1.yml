@@ -34,10 +34,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Cài đặt
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          python -m pip install -q numpy pillow scipy
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy pillow scipy"
       - name: Dựng đoạn ${{ matrix.idx }}
         working-directory: phim_ban_do
         run: |
@@ -79,10 +78,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Cài đặt
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          python -m pip install -q numpy pillow scipy
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy pillow scipy"
       - uses: actions/download-artifact@v4
         with:
           path: doan

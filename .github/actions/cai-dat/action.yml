@@ -1,0 +1,18 @@
+name: Cài đặt nhanh
+description: ffmpeg (chỉ khi thiếu, không apt update) và gói pip (có cache, giới hạn thời gian, thử lại)
+inputs:
+  pip:
+    description: Các gói pip, cách nhau dấu cách
+    default: "numpy"
+runs:
+  using: composite
+  steps:
+    - uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: pip-${{ runner.os }}-${{ inputs.pip }}
+    - shell: bash
+      run: |
+        which ffmpeg > /dev/null || for k in 1 2 3; do timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null && break; echo "apt thử lại $k"; sleep 3; done
+        for k in 1 2 3; do timeout 200 python -m pip install -q --prefer-binary ${{ inputs.pip }} && break; echo "pip thử lại $k"; sleep 3; done
+        ffmpeg -version | head -1

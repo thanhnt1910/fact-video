@@ -18,10 +18,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Cài đặt
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          python -m pip install -q faster-whisper numpy
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "faster-whisper numpy"
       - name: Nhận dạng
         run: |
           read NAME MODEL OPT _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)

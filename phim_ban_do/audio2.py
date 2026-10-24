@@ -1,5 +1,8 @@
 import json,math,wave,numpy as np,sys
 import build2 as b
+import importlib,os
+C=importlib.import_module(os.environ.get('CONTENT','tq45_content'))
+QA=getattr(C,'QUIET_AUDIO',False)
 SR=44100;T,D,TOTAL=b.T,b.D,b.TOTAL
 N=int(TOTAL*SR);rng=np.random.default_rng(7)
 out=np.zeros(N,np.float32)
@@ -21,7 +24,7 @@ def env(n,a=0.005,d=0.15):
 # gió nền: nhiễu nâu lọc thấp, nhấp nhô chậm
 w=lp(rng.normal(0,1,N).astype(np.float32),500);w=lp(w,300)
 mod=0.55+0.45*np.sin(2*math.pi*np.arange(N)/SR/9.0+1.3)
-out+=w*mod*0.9
+out+=w*mod*(0.0 if QA else 0.9)
 # tiếng vó ngựa phi: nhịp 4 bước
 def hoof(t0,dur,spd=0.17):
     t=t0
@@ -54,7 +57,7 @@ def creak(t0,dur=1.6,g=0.4):
     e=np.minimum(t/0.2,1)*np.minimum((dur-t)/0.4,1);add(s*e,t0,g)
 def tick(t0,g=0.5):
     n=int(0.05*SR);s=hp(rng.normal(0,1,n).astype(np.float32),2000)*env(n,0.001,0.01);add(s,t0,g)
-# --- lịch tiếng động theo bản đồ
+
 def clang(t0,g=0.5):
     n=int(0.35*SR);tt=np.arange(n)/SR
     s=hp(rng.normal(0,1,n).astype(np.float32),1800)*env(n,0.001,0.02)
@@ -123,9 +126,11 @@ def war_drums(t0,t1,g=0.6,iv=0.75):
     t=t0;i=0
     while t<t1: drum(t,g*(1 if i%4==0 else 0.6));t+=iv;i+=1
 
-import importlib,os
-C=importlib.import_module(os.environ.get('CONTENT','tq45_content'))
 def bt(n): return T[n]
+if QA:
+    _nop=lambda *a,**k:None
+    tick=whoosh=crackle=murmur=clang=clangs=volley=bow=wave_bed=rain=creak=_nop
+
 for (t0,t1,bl,bt_,who) in C.BATT:
     clangs(t0,t1,6);volley(t0+0.2,t1-0.5,max(3,int((t1-t0)*0.8)),0.4);drum(t0,0.8);murmur(t0,t1-t0+1,0.4)
 for (t0,t1,lon,lat) in C.FIRES: pass
@@ -182,6 +187,7 @@ for g_ in C.GROUPS:
 for (t0,t1,kind,gn) in getattr(C,'AMBIENT',[]):
     if kind=='sea': wave_bed(t0,t1,gn)
     elif kind=='rain': rain(t0,t1,gn)
+    elif QA and kind!='gulls': pass
     elif kind=='wind':
         n=int((t1-t0)*SR);x=lp(lp(rng.normal(0,1,n).astype(np.float32),700),500);x=x*(0.5+0.5*np.sin(2*math.pi*np.arange(n)/SR/5.5+rng.uniform(0,6)))
         add(x*np.minimum(np.minimum(np.arange(n)/SR/1.5,1),np.minimum((n-np.arange(n))/SR/1.5,1)).astype(np.float32),t0,gn*2.2)
@@ -220,6 +226,7 @@ for (t0,t1,a_,b_,nm) in C.LETTERS: whoosh(t0,min(4,t1-t0),0.35)
 for (t0,t1,a_,b_,col,lab) in C.ARROWS: tick(t0,0.35)
 for g in C.GROUPS:
     ks=g['keys'];kind=g.get('kind','inf')
+    if QA and g.get('label') is False: continue
     for i in range(len(ks)-1):
         a_,b_=ks[i],ks[i+1]
         if (a_[1],a_[2])!=(b_[1],b_[2]) and b_[0]-a_[0]>0.6 and b_[0]<TOTAL:

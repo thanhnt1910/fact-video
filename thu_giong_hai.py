@@ -12,13 +12,14 @@ TONE = {"light": "Playful and amused.",
         "calm": "Calmer and more serious for this line, only a hint of dry humour, no laughing."}
 
 # Phong cách kể chuyện lịch sử có biên độ cao thấp (video sử nghiêm túc, giọng Puck). Dùng khi đoạn có tone thuộc TONE_KE.
-STYLE_KE = ("Native Vietnamese storyteller (Northern accent) narrating a gripping true-history documentary, like a master storyteller holding a room spellbound. "
-            "Very expressive with a wide pitch range: rise in pitch on questions, surprises and turning points; drop low and slow, almost hushed, for danger, loss and solemn moments; "
-            "lean on the key word of each sentence; short dramatic pause before a reveal; pace follows the action (faster in tension, slower in awe). "
-            "Warm, alive, human. Clear diction, natural Vietnamese tones. Never flat, never robotic, never news-anchor, no laughing. ")
+STYLE_KE = ("Native Vietnamese storyteller (Northern accent) narrating a stirring heroic epic of Vietnamese history, like a proud national-history broadcaster rousing an audience. "
+            "Bright, resonant, energetic and commanding voice at a medium-high pitch; confident, brisk, driving pace; strong emphasis on names, titles and deeds; "
+            "rising, ringing intonation on triumphs and turning points; short dramatic pauses before reveals. "
+            "Never low-pitched, never sleepy, never mumbling, never whispering, no gloomy drone; solemn moments are firm and measured, not deep or slow. "
+            "Clear diction, natural Vietnamese tones, full of life and fighting spirit. ")
 TONE_KE = {"hook": "Hushed, gripping urgency like the opening of a thriller; voice trembles with tension on the hostage image, then rises with curiosity on the questions.",
            "tense": "Tense and urgent: low, tight voice, quicker pace, sharp emphasis, a held breath before the danger.",
-           "story": "One continuous flowing performance: let the pitch follow the meaning of each sentence. Rise on questions, surprises, turning points and proud achievements; drop low and slow, almost hushed, for danger, loss, the hostage and the final night; warm and bright when admiring a bold deed; keep the same voice and energy from start to end.",
+           "story": "One continuous, flowing, stirring performance from start to end: keep the same bright heroic voice and energy throughout; let the pitch rise on questions, victories and the founding of the nation, and stay firm and clear (not deep or slow) in tense or sad moments.",
            "wry": "Knowing and slightly wry about the absurd chaos of the situation, rising pitch on each new claimant, never mocking any hero.",
            "warm": "Warm, lively and affectionate with a spark of admiration for a clever, bold boy; brighter and higher pitch.",
            "epic": "Proud, rising and majestic, chest-voice confidence, ringing emphasis on names and titles.",

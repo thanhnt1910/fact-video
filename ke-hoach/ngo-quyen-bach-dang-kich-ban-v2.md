@@ -126,7 +126,7 @@
 8095. Nghĩa là từ một người cầm quân, ông bước sang việc dựng một triều đình thật sự.
 8096. Sử gia Lê Văn Hưu nhận xét rằng ông chỉ xưng vương, chưa lên ngôi hoàng đế, chưa đặt niên hiệu riêng. Nhưng chính thống của nước Việt đã được nối lại.
 8097. Sử gia Ngô Sĩ Liên thì thấy việc đặt quan và lập nghi lễ ấy đã có quy mô của một bậc đế vương.
-8098. Chỉ tiếc rằng ông ở ngôi không lâu, chưa kịp thấy hiệu quả của thời bình.
+8098. Chỉ tiếc là ông ở ngôi không lâu, nên chưa được thấy nhiều năm thái bình.
 8099. Năm chín trăm bốn mươi bốn, Ngô Quyền mất. Ông ở ngôi sáu năm và thọ bốn mươi bảy tuổi.
 
 ## Sau khi Ngô Quyền mất

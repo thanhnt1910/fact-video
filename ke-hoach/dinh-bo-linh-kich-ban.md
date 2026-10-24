@@ -31,7 +31,7 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 10016. Ngô Xương Xí, cháu của Nam Tấn Vương, chiếm Bình Kiều ở Thanh Hóa. Ngô Nhật Khánh chiếm Đường Lâm, quê của Ngô Quyền.
 10017. Kiểu Công Hãn chiếm Phong Châu, vùng đất phía bắc. Trần Lãm chiếm vùng cửa sông Bố Hải Khẩu.
 10018. Tám người còn lại cũng chiếm giữ mỗi người một vùng quanh đồng bằng sông Hồng.
-10019. Mười hai người, mười hai vùng đất, và không ai chịu nghe lệnh ai.
+10019. Mười hai vùng đất, và không ai chịu nghe lệnh ai.
 10020. Sử chép rằng trong nước không có chủ, các sứ quân tranh nhau làm trưởng. Mỗi người còn xưng một hiệu riêng, như Kiểu Tam Chế hay Ngô Lãm Công.
 10021. Sử cũng ghi chú rằng tên và nơi ở của các sứ quân được các sách chép không hoàn toàn giống nhau. Vì vậy ta chỉ nhắc vài người.
 10022. Và người chấm dứt cảnh chia cắt ấy chính là người cha ở động Hoa Lư mà ta đã gặp lúc đầu.

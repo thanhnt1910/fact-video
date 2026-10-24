@@ -14,7 +14,7 @@ permissions:
 env:
   NPROC: 4
   SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/dbl1_full.json
-  VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/puck
+  VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/dbl1_chuan
   WORLD: ${{ github.workspace }}/phim_ban_do/world7.jpg
   LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
   FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf

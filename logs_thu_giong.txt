@@ -11,4 +11,6 @@
    [khóa] GEMINI_API_KEY_11: trống
    [khóa] GEMINI_API_KEY_12: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 0 câu
+còn thiếu 1 câu
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK cụm 8098 - 8098 5.1 giây

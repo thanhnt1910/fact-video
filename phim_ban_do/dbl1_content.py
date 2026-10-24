@@ -13,9 +13,16 @@ INF=1e9
 BASE=10000
 def _f(n): return BASE+n
 def _l(n): return BASE+n
-def R(n,o=0): return T[BASE+n]+o
-def E(n,o=0): return T[BASE+n]+D[BASE+n]+o
+def _nx(n):
+    while BASE+n not in T and n<200: n+=1   # đoạn đã bỏ khi sửa bố cục: lấy đoạn kế sau
+    return n
+def _pv(n):
+    while BASE+n not in T and n>0: n-=1     # đoạn đã bỏ: lấy đoạn kế trước
+    return n
+def R(n,o=0): n=_nx(n); return T[BASE+n]+o
+def E(n,o=0): n=_pv(n); return T[BASE+n]+D[BASE+n]+o
 def at(n,sub,off=0.0):
+    n=_nx(n)
     """Thời điểm chữ `sub` được đọc trong đoạn n (theo nhận dạng giọng); chưa có nhận dạng thì ước theo vị trí chữ."""
     for r in PH.get(str(BASE+n),[]):
         c,s_,e_=r[:3]

@@ -1,16 +1,5 @@
 + nproc
 4
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_dbl1.txt
-+ MODE=full
-+ python -
-tổng khung 17588 đoạn 11 12091 13191
-+ read A0 A1
-+ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_11.mp4 12091 13191
-+ tail -n 15
-0 1100
-300 1100
-600 1100
-900 1100
-xong
-+ ls -la doan_11.mp4
--rw-r--r-- 1 runner runner 22141227 Oct 24 08:17 doan_11.mp4
+head: cannot open '../ke-hoach/thu-giong-hai/dung_dbl1.txt' for reading: No such file or directory
++ MODE=

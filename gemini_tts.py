@@ -114,6 +114,7 @@ def _synth_generate(model, text, style, voice, key):
 
 MAX_WAIT = int(os.environ.get("GEMINI_MAX_WAIT", "900"))
 _WORKING = {}
+_SHOWN = set()
 
 
 def synth(text, style, voice, key=None, log=print):
@@ -158,6 +159,10 @@ def synth(text, style, voice, key=None, log=print):
                     more = gemini_keys.mark_bad(key, msg)
                     log(f"   [gemini] khóa …{key[-4:]} hết lượt/bị từ chối ({msg[:60]!r}), đổi khóa"
                         + ("" if more else " (hết khóa dự phòng)"))
+                    # ghi nguyên nhân đầy đủ (loại hạn mức, theo phút hay theo ngày, thời gian chờ) một lần cho mỗi khóa và mô hình
+                    if (key, model) not in _SHOWN:
+                        _SHOWN.add((key, model))
+                        log(f"   [gemini] chi tiết …{key[-4:]} / {model}: {' '.join(msg.split())[:700]}")
                     if more:
                         continue
                 if ("429" in msg or "RESOURCE_EXHAUSTED" in msg or "503" in msg or "500" in msg) and waited < MAX_WAIT:

@@ -6,6 +6,10 @@ import numpy as np
 import gemini_tts, audio_fx
 from thu_giong_hai import STYLE_HAI, TONE
 SR = 24000
+import os as _os
+for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 13)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
+    _v = _os.environ.get(_n, "").strip()
+    print(f"   [khóa] {_n}: " + (f"…{_v[-4:]}" if _v else "trống"), flush=True)
 
 def split_by_pauses(samples, weights):
     """Chia âm thanh 1 chương thành các đoạn theo khoảng lặng gần nhất với tỉ lệ độ dài chữ."""

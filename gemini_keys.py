@@ -38,12 +38,12 @@ def current():
 
 
 def is_quota_error(msg):
-    return any(c in msg for c in ("429", "402", "403", "RESOURCE_EXHAUSTED", "PERMISSION_DENIED"))
+    return any(c in msg for c in ("429", "402", "403", "401", "RESOURCE_EXHAUSTED", "PERMISSION_DENIED", "UNAUTHENTICATED"))
 
 
 def mark_bad(key, msg=""):
     """Khóa này hết lượt: cho nghỉ rồi chuyển sang khóa kế. Trả về True nếu còn khóa khác dùng được."""
-    long = any(c in msg for c in ("402", "403", "PERMISSION_DENIED", "prepayment", "per day", "PerDay"))
+    long = any(c in msg for c in ("401", "402", "403", "PERMISSION_DENIED", "UNAUTHENTICATED", "prepayment", "per day", "PerDay"))
     _BAD[key] = time.time() + (6 * 3600 if long else _COOL)
     ks = all_keys()
     if key in ks:

@@ -18,7 +18,7 @@ STYLE_KE = ("Native Vietnamese storyteller (Northern accent) narrating a grippin
             "Warm, alive, human. Clear diction, natural Vietnamese tones. Never flat, never robotic, never news-anchor, no laughing. ")
 TONE_KE = {"hook": "Hushed, gripping urgency like the opening of a thriller; voice trembles with tension on the hostage image, then rises with curiosity on the questions.",
            "tense": "Tense and urgent: low, tight voice, quicker pace, sharp emphasis, a held breath before the danger.",
-           "story": "Vivid and dramatic storytelling with clear rises and falls, building momentum from cause to effect.",
+           "story": "One continuous flowing performance: let the pitch follow the meaning of each sentence. Rise on questions, surprises, turning points and proud achievements; drop low and slow, almost hushed, for danger, loss, the hostage and the final night; warm and bright when admiring a bold deed; keep the same voice and energy from start to end.",
            "wry": "Knowing and slightly wry about the absurd chaos of the situation, rising pitch on each new claimant, never mocking any hero.",
            "warm": "Warm, lively and affectionate with a spark of admiration for a clever, bold boy; brighter and higher pitch.",
            "epic": "Proud, rising and majestic, chest-voice confidence, ringing emphasis on names and titles.",

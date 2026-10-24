@@ -101,13 +101,13 @@ for b in BEATS:
         pv = [SO.get(norm(x), norm(x)) for x in BEATS[i_b - 1]['text'].split() if norm(x)]
         for L in (6, 4, 3):
             tailp = pv[-L:]
-            if len(tailp) == L and any(got[i:i + L] == tailp for i in range(0, min(len(got), L + 8) - L + 1)) and spk[:L] != tailp:
+            if len(tailp) == L and any(got[i:i + L] == tailp for i in range(0, min(len(got), L + 8) - L + 1)) and spk[:L] != tailp and not any(spk[i:i + L] == tailp for i in range(0, min(len(spk), L + 8) - L + 1)):
                 bad(f'Câu {n}: ĐẦU câu đọc lại đuôi câu trước ("{" ".join(tailp)}")'); break
     if i_b + 1 < len(BEATS):
         nx = [SO.get(norm(x), norm(x)) for x in BEATS[i_b + 1]['text'].split() if norm(x)]
         for L in (6, 4, 3):
             head = nx[:L]
-            if len(head) == L and any(got[i:i + L] == head for i in range(max(0, len(got) - L - 8), len(got) - L + 1)) and spk[-L:] != head:
+            if len(head) == L and any(got[i:i + L] == head for i in range(max(0, len(got) - L - 8), len(got) - L + 1)) and spk[-L:] != head and not any(spk[i:i + L] == head for i in range(max(0, len(spk) - L - 8), len(spk) - L + 1)):
                 bad(f'Câu {n}: CUỐI câu đọc lẫn đầu câu sau ("{" ".join(head)}")'); break
     r = difflib.SequenceMatcher(None, spk, got, autojunk=False).ratio()
     if r < 0.6: warn(f'Câu {n}: giọng chỉ khớp {r:.0%} với kịch bản (nhận dạng có thể sai, nên nghe lại)')

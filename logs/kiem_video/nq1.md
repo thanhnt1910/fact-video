@@ -1,12 +1,9 @@
 # Kiểm video nq1
 
 - Kịch bản 119 câu; có nhận dạng 119 câu; nhận dạng: asr_nq1.json
-- ❌ lỗi: 3  ⚠️ cảnh báo: 27
+- ❌ lỗi: 0  ⚠️ cảnh báo: 27
 
 ## ❌ Lỗi
-- Câu 8020: CUỐI câu đọc lẫn đầu câu sau ("duong dinh nghe")
-- Câu 8063: CUỐI câu đọc lẫn đầu câu sau ("khi thuy trieu")
-- Câu 8103: CUỐI câu đọc lẫn đầu câu sau ("ngo xuong ngap")
 
 ## ⚠️ Cảnh báo
 - Câu 8070: phụ đề đầu câu hiện TRỄ 0.7s so với giọng

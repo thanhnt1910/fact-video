@@ -182,6 +182,28 @@ for g_ in C.GROUPS:
 for (t0,t1,kind,gn) in getattr(C,'AMBIENT',[]):
     if kind=='sea': wave_bed(t0,t1,gn)
     elif kind=='rain': rain(t0,t1,gn)
+    elif kind=='wind':
+        n=int((t1-t0)*SR);x=lp(lp(rng.normal(0,1,n).astype(np.float32),700),500);x=x*(0.5+0.5*np.sin(2*math.pi*np.arange(n)/SR/5.5+rng.uniform(0,6)))
+        add(x*np.minimum(np.minimum(np.arange(n)/SR/1.5,1),np.minimum((n-np.arange(n))/SR/1.5,1)).astype(np.float32),t0,gn*2.2)
+    elif kind=='forest':
+        tt=t0+0.5
+        while tt<t1-0.5:
+            f0=rng.uniform(2200,3800);m=int(0.16*SR);tq=np.arange(m)/SR
+            add((np.sin(2*math.pi*(f0*tq+900*tq**2))*env(m,0.01,0.07)).astype(np.float32),tt,gn*0.5)
+            if rng.random()<0.6: add((np.sin(2*math.pi*(f0*1.12*tq+700*tq**2))*env(m,0.01,0.06)).astype(np.float32),tt+0.2,gn*0.4)
+            tt+=rng.uniform(1.2,3.8)
+        n=int((t1-t0)*SR);add(lp(rng.normal(0,1,n).astype(np.float32),600)*0.5,t0,gn*0.8)
+    elif kind=='night':
+        n=int((t1-t0)*SR);tc=np.arange(n)/SR
+        cr=(np.sin(2*math.pi*4300*tc)*(np.sin(2*math.pi*17*tc)>0.3)).astype(np.float32)*(0.6+0.4*np.sin(2*math.pi*tc/4.3))
+        add(cr*np.minimum(np.minimum(tc/1.5,1),np.minimum((t1-t0-tc)/1.5,1)).astype(np.float32),t0,gn*0.35)
+        tt=t0+rng.uniform(2,6)
+        while tt<t1-2:
+            m=int(0.55*SR);tq=np.arange(m)/SR;add((np.sin(2*math.pi*(420*tq-120*tq**2))*env(m,0.05,0.25)).astype(np.float32),tt,gn*0.35);tt+=rng.uniform(7,14)
+    elif kind=='crowd':
+        tt=t0
+        while tt<t1-0.5: murmur(tt,min(3.0,t1-tt),gn);tt+=2.4
+    elif kind=='fire': crackle(t0,t1-t0,gn,16)
     elif kind=='gulls':
         tt=t0
         while tt<t1: gull(tt,gn);tt+=rng.uniform(3,7)

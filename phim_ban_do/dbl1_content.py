@@ -232,6 +232,39 @@ S2(89,89,[X('Hoa Lư')],5.2)
 night(R(89,0.2),E(89,0.0))
 S2(90,91,[X('Hồi Hồ') if 'Hồi Hồ' in LOC else LOC['       '][:2],X('Bố Hải Khẩu'),X('Bình Kiều'),X('Phong Châu')],2.4,hmax=340)
 C3(90,0.4,3.0,'Ngô Sĩ Liên','sử gia',GD)
+# ======================= HIỆU ỨNG THÊM (hình và âm, không thêm chữ trên màn hình)
+# trại và cờ hiệu
+PROPS.append((R(23,0.5),E(34,0),'pennants',105.62,20.14,'g',0.6))
+PROPS.append((R(30,0.5),E(34,0),'camp',105.64,20.34,'',0.42))
+PROPS.append((R(35,0.5),E(42,0),'camp',106.16,21.04,'',0.42))
+PROPS.append((R(35,0.5),E(42,0),'pennants',106.18,21.26,'',0.6))
+PROPS.append((R(45,3.0),R(47,1.0),'meeting',106.34,20.52,'',0.55))
+# vòng sóng lan ra khi nơi nào về một cờ (chỉ minh họa)
+for _i,_nm in enumerate(PIN12+['         ']):
+    _lo,_la=LOC[_nm][:2];PROPS.append((_tf+1.6+0.22*_i,_tf+4.4+0.22*_i,'ping',_lo,_la,'g',0.55))
+PROPS.append((R(60,0.0),R(60,4.0),'ping',105.90,20.28,'g',0.9))
+PROPS.append((R(52,0.5),R(52,3.5),'ping',105.88,21.12,'g',0.8))
+# quân tỏa từ Hoa Lư ra các nơi (minh họa câu "một phen cất quân")
+for _i,_nm in enumerate(PIN12):
+    _lo,_la=LOC[_nm][:2]
+    G('Đạo tỏa %d'%_i,VT,3,[(_tf+0.2,105.90,20.28),(_tf+3.2,_lo,_la),(_tf+6.0,_lo,_la)],show=(_tf+0.2,_tf+6.0),emb='sun',seed=940+_i,spread=0.25,label=False)
+FX.append((_tf+2.2,_tf+5.5,'drums',X('Hoa Lư'),X('Bố Hải Khẩu')))
+# trận phục binh, các trận đã kể
+FX.append((at(12,'phục binh'),at(12,'phục binh',2.6),'volley',(105.88,21.12),(106.22,20.58)))
+FX.append((R(32,0.5),R(32,4.5),'drums',X('Hoa Lư'),(105.97,20.31)))
+FX.append((R(50,0.8),R(50,4.0),'drums',(106.03,20.64),(106.12,20.60)))
+FX.append((R(48,0.0),R(48,1.5),'horn',(106.05,20.62),(106.05,20.62)))
+# đoàn sứ đi sang nhà Tống và trở về
+G('Đoàn sứ',VT,5,[(at(67,'sai sứ'),105.90,20.28),(at(67,'sai sứ')+6.5,_NORTH[0],_NORTH[1]),(R(69,0),_NORTH[0],_NORTH[1])],kind='cav',show=(at(67,'sai sứ'),R(69,0)),emb='sun',seed=960,spread=0.35,label=False)
+G('Đoàn sứ về',VT,5,[(at(70,'Nhà Tống'),_NORTH[0],_NORTH[1]),(at(70,'Nhà Tống')+6.5,105.90,20.28),(E(71,0),105.90,20.28)],kind='cav',show=(at(70,'Nhà Tống'),E(71,0)),emb='sun',seed=961,spread=0.35,label=False)
+PROPS.append((at(70,'Nhà Tống')+0.5,at(70,'Nhà Tống')+4.5,'seal',107.2,23.45,'',0.7))
+# đêm yến tiệc: vòng đỏ nhỏ ở Hoa Lư lúc biến cố
+PROPS.append((at(81,'giết'),at(81,'giết')+3.0,'ping',105.90,20.28,'r',0.7))
+# nền âm thanh theo chương (audio2.py)
+AMBIENT.extend([(R(1,0),E(6,0),'wind',0.35),(R(7,0),E(14,0),'wind',0.4),(R(15,0),E(22,0),'crowd',0.3),(R(23,0),E(34,0),'forest',0.45),
+ (R(35,0),E(43,0),'wind',0.4),(R(44,0),E(52,0),'forest',0.35),(R(45,4),E(47,0),'sea',0.25),(R(53,0),E(56,0),'wind',0.35),
+ (R(57,0),E(66,0),'crowd',0.3),(R(60,0),E(66,0),'gulls',0.2),(R(67,0),E(72,0),'crowd',0.25),(R(73,0),E(78,0),'crowd',0.2),
+ (R(79,0),E(83,0),'night',0.5),(R(79,0),E(83,0),'fire',0.2),(R(84,0),E(88,0),'wind',0.3),(R(89,0),E(89,0),'night',0.45),(R(90,0),TOTAL-1,'wind',0.3)])
 # ======================= HOÀN TẤT
 SCN.sort(key=lambda x:x[0])
 CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]

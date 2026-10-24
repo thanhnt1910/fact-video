@@ -11,6 +11,20 @@ STYLE_HAI = ("Native Vietnamese storyteller (Northern accent) narrating a histor
 TONE = {"light": "Playful and amused.",
         "calm": "Calmer and more serious for this line, only a hint of dry humour, no laughing."}
 
+# Phong cách kể chuyện lịch sử có biên độ cao thấp (video sử nghiêm túc, giọng Puck). Dùng khi đoạn có tone thuộc TONE_KE.
+STYLE_KE = ("Native Vietnamese storyteller (Northern accent) narrating a gripping true-history documentary, like a master storyteller holding a room spellbound. "
+            "Very expressive with a wide pitch range: rise in pitch on questions, surprises and turning points; drop low and slow, almost hushed, for danger, loss and solemn moments; "
+            "lean on the key word of each sentence; short dramatic pause before a reveal; pace follows the action (faster in tension, slower in awe). "
+            "Warm, alive, human. Clear diction, natural Vietnamese tones. Never flat, never robotic, never news-anchor, no laughing. ")
+TONE_KE = {"hook": "Hushed, gripping urgency like the opening of a thriller; voice trembles with tension on the hostage image, then rises with curiosity on the questions.",
+           "tense": "Tense and urgent: low, tight voice, quicker pace, sharp emphasis, a held breath before the danger.",
+           "story": "Vivid and dramatic storytelling with clear rises and falls, building momentum from cause to effect.",
+           "wry": "Knowing and slightly wry about the absurd chaos of the situation, rising pitch on each new claimant, never mocking any hero.",
+           "warm": "Warm, lively and affectionate with a spark of admiration for a clever, bold boy; brighter and higher pitch.",
+           "epic": "Proud, rising and majestic, chest-voice confidence, ringing emphasis on names and titles.",
+           "grave": "Hushed, solemn and ominous, low and slow, long pauses, quiet dread.",
+           "reflect": "Thoughtful and measured with gravitas, softer and lower, a long reflective pause before the closing line."}
+
 def main():
     src, voices, out = sys.argv[1], [v for v in sys.argv[2].split(",") if v], Path(sys.argv[3])
     beats = json.loads(Path(src).read_text(encoding="utf-8"))
@@ -20,7 +34,7 @@ def main():
         for b in beats:
             import hashlib; hh = hashlib.md5((b['text']+b['tone']+v).encode()).hexdigest()
             if H.get(str(b['n'])) == hh and (d / f"{b['n']}.mp3").exists() and str(b['n']) in dur: continue
-            style = STYLE_HAI + TONE[b["tone"]]
+            style = (STYLE_KE + TONE_KE[b["tone"]]) if b["tone"] in TONE_KE else STYLE_HAI + TONE[b["tone"]]
             try:
                 wav = gemini_tts.synth(b["text"], style, v)
             except Exception as e:

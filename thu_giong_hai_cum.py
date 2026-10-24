@@ -4,7 +4,7 @@ import io, json, subprocess, sys, wave, hashlib
 from pathlib import Path
 import numpy as np
 import gemini_tts, audio_fx
-from thu_giong_hai import STYLE_HAI, TONE
+from thu_giong_hai import STYLE_HAI, TONE, STYLE_KE, TONE_KE
 SR = 24000
 import os as _os
 for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 13)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
@@ -61,12 +61,15 @@ def main():
     print("còn thiếu", len(todo), "câu", flush=True)
     chunks, cur = [], []
     for b in todo:
-        if cur and (len(cur) >= per or b["n"] != cur[-1]["n"] + 1): chunks.append(cur); cur = []
+        if cur and (len(cur) >= per or b["n"] != cur[-1]["n"] + 1 or (b["tone"] in TONE_KE and b["tone"] != cur[-1]["tone"])): chunks.append(cur); cur = []
         cur.append(b)
     if cur: chunks.append(cur)
     for ch in chunks:
-        calm = sum(1 for b in ch if b["tone"] == "calm") > len(ch) / 2
-        style = STYLE_HAI + TONE["calm" if calm else "light"] + " Read each sentence as its own beat with a clear short pause between sentences."
+        if ch[0]["tone"] in TONE_KE:
+            style = STYLE_KE + TONE_KE[ch[0]["tone"]] + " Read each sentence as its own beat with a clear short pause between sentences."
+        else:
+            calm = sum(1 for b in ch if b["tone"] == "calm") > len(ch) / 2
+            style = STYLE_HAI + TONE["calm" if calm else "light"] + " Read each sentence as its own beat with a clear short pause between sentences."
         text = "\n\n".join(b.get("tts", b["text"]) for b in ch)
         try: wav = gemini_tts.synth(text, style, voice)
         except Exception as e: print("LỖI cụm", ch[0]["n"], str(e)[:200], flush=True); continue

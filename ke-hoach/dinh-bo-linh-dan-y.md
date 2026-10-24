@@ -1,7 +1,7 @@
 # Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân: dàn ý video bản đồ 14–15 phút, giọng Puck (chờ chủ kênh duyệt)
 
 Trạng thái: DÀN Ý ĐÃ DUYỆT (24/10/2026); kịch bản đã viết ở `ke-hoach/dinh-bo-linh-kich-ban.md`. Ngày lập 24/10/2026.
-Mục tiêu: 14–15 phút ≈ 2.700–3.000 chữ lời kể, khoảng 100–110 đoạn ngắn (20–30 chữ mỗi đoạn, tối đa 2 câu). Mã đề nghị `dbl1`, đánh số đoạn từ 9001.
+Mục tiêu: 14–15 phút ≈ 2.700–3.000 chữ lời kể, khoảng 100–110 đoạn ngắn (20–30 chữ mỗi đoạn, tối đa 2 câu). Mã đề nghị `dbl1`, đánh số đoạn từ 10001 (dải 9001 trở đi đã thuộc Hai Bà Trưng trong thư mục giọng dùng chung).
 Quy tắc: xem `CLAUDE.md` (dừng trước 1858; không đùa cợt anh hùng dân tộc; viết đầy đủ không nói tắt; năm viết bằng chữ; từ cổ giải thích ngay).
 Vị trí trong lộ trình: video số 10 của `ke-hoach/dai-viet-su-ky-lo-trinh.md`, kể tiếp ngay sau video Ngô Quyền.
 

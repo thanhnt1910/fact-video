@@ -212,6 +212,34 @@ if C.__name__!='tq45_content':
   for g in C.GROUPS:
     for (td,kd,te) in g.get('defeats',[]) or []:
         if td<TOTAL: drum(td,0.8)
+# nhạc nền tự tổng hợp (không dùng bản nhạc có bản quyền). Chỉ chạy khi file nội dung khai báo MUSIC=[(bắt đầu, kết thúc, tâm trạng, âm lượng)].
+def _pluck(t0,f,g=0.5,dec=0.9):
+    n=int(min(2.5,dec*4)*SR);t=np.arange(n)/SR
+    y=(np.sin(2*math.pi*f*t)+0.4*np.sin(2*math.pi*2*f*t)+0.15*np.sin(2*math.pi*3*f*t))*np.exp(-t/dec)*np.minimum(t/0.006,1)
+    add(y.astype(np.float32),t0,g)
+def _pad(t0,t1,freqs,g=0.3):
+    n=int((t1-t0)*SR);t=np.arange(n)/SR;y=np.zeros(n,np.float32)
+    for k,f in enumerate(freqs):
+        for dt in (-0.7,0.7): y+=np.sin(2*math.pi*(f+dt)*t+k).astype(np.float32)
+    y*=np.minimum(np.minimum(t/1.8,1),np.minimum((t1-t0-t)/1.8,1)).astype(np.float32)
+    y*=(0.8+0.2*np.sin(2*math.pi*t/7.0)).astype(np.float32)
+    add(lp(y,1400)/max(1,len(freqs)),t0,g)
+_N={'D2':73.4,'A2':110.0,'F2':87.3,'G2':98.0,'D3':146.8,'A3':220.0,'F3':174.6,'E3':164.8,'G3':196.0,'B3':246.9,'C4':261.6,'D4':293.7,'E4':329.6,'F4':349.2,'G4':392.0,'A4':440.0,'B4':493.9,'C5':523.3,'D5':587.3}
+_MOOD={'binh':(['D2','A2','D3'],['D4','E4','G4','A4','B4'],2.4,0.9),'mo':(['D2','A2','E3'],['A4','G4','E4','D4'],3.2,0.8),
+ 'bi':(['D2','F2','A2'],['D4','F4','A4','G4'],3.0,1.0),'loan':(['D2','A2','F3'],['D4','F4','E4','A4','C5'],1.4,0.5),
+ 'cang':(['D2','A2'],['A3','D4','F4'],1.8,0.6),'hanh':(['D2','A2','D3'],['D4','F4','G4','A4'],1.1,0.45),
+ 'trang':(['D2','A2','D3','A3'],['D4','E4','G4','A4','B4','D5'],1.6,0.9),'dem':(['D2','A2'],['A3','D4','E4'],3.8,1.2)}
+_rm=np.random.default_rng(11)
+for (m0,m1,mood,vol) in getattr(C,'MUSIC',[]):
+    if m1<=m0 or mood not in _MOOD: continue
+    drone,mel,gap,dec=_MOOD[mood]
+    _pad(m0,min(m1+1.0,TOTAL-0.5),[_N[x] for x in drone],0.20*vol)
+    t=m0+0.6
+    while t<m1-0.8:
+        _pluck(t,_N[mel[int(_rm.integers(len(mel)))]],0.16*vol,dec);t+=gap*(0.75+0.5*_rm.random())
+    if mood in ('cang','hanh','loan'):
+        iv={'cang':0.9,'hanh':0.62,'loan':0.5}[mood];tt=m0+0.3
+        while tt<m1-0.3: thump(tt,0.35*vol) if 'thump' in globals() else drum(tt,0.35*vol);tt+=iv
 # phủ mờ vào/ra, chuẩn hóa
 fade=int(0.8*SR);out[:fade]*=np.linspace(0,1,fade);out[-fade:]*=np.linspace(1,0,fade)
 out=lp(out,9000);out=out/np.max(np.abs(out))*0.7

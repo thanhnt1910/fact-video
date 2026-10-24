@@ -103,3 +103,20 @@ jobs:
         run: |
           TAG="dbl1-${{ github.run_id }}"
           gh release create "$TAG" phim_ban_do/dbl1_video.mp4 --title "Đinh Bộ Lĩnh dẹp mười hai sứ quân ${{ github.run_id }}" --notes "Dựng tự động" --prerelease
+      - name: Gửi Telegram để chủ kênh kiểm tra
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
+          F=phim_ban_do/dbl1_video.mp4
+          SZ=$(stat -c %s $F)
+          if [ "$SZ" -gt 48000000 ]; then
+            D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $F)
+            VB=$(python3 -c "print(int((46*8*1000*1000/$D-96000)/1000))")
+            ffmpeg -y -loglevel error -i $F -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate ${VB}k -bufsize $((VB*2))k -c:a aac -b:a 96k phim_ban_do/dbl1_xem_thu.mp4
+            F=phim_ban_do/dbl1_xem_thu.mp4
+            CAP="Đinh Bộ Lĩnh dẹp mười hai sứ quân: bản xem thử đã nén (bản đầy đủ nằm ở mục Releases của repo)"
+          else CAP="Đinh Bộ Lĩnh dẹp mười hai sứ quân: bản dựng hoàn chỉnh để kiểm tra"; fi
+          ls -la $F
+          curl -s -o r.txt -w "%{http_code}\n" -F chat_id="$TG_CHAT" -F video=@$F -F supports_streaming=true -F caption="$CAP" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"; head -c 300 r.txt

@@ -1,6 +1,6 @@
 # Đinh Bộ Lĩnh dẹp mười hai sứ quân (Đại Cồ Việt, 968): kịch bản tối ưu giọng đọc
 
-Mã `dbl1`, 91 đoạn (10001–10091), 2251 chữ, dự kiến khoảng 11 phút (sàn là 10 phút; đo thời lượng thật sau khi dựng). Dàn ý đã duyệt: `ke-hoach/dinh-bo-linh-dan-y.md`. `kiem_kich_ban.py dbl1`: 0 ❌, 0 ⚠️. Bản sửa 24/10/2026 (sau rà soát): xem mục "Đã sửa sau rà soát" ở cuối.
+Mã `dbl1`, 86 đoạn (10001–10091, bỏ 10004, 10006, 10010, 10011, 10021), 2129 chữ, dự kiến khoảng 11 phút (sàn là 10 phút; đo thời lượng thật sau khi dựng). Dàn ý đã duyệt: `ke-hoach/dinh-bo-linh-dan-y.md`. `kiem_kich_ban.py dbl1`: 0 ❌, 0 ⚠️. Bản sửa 24/10/2026 (sau rà soát): xem mục "Đã sửa sau rà soát" ở cuối.
 
 Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Liễn bị treo trên ngọn sào và vụ giết Hạng Lang; không nối sang tập Lê Hoàn, mỗi video trọn gói (cuối video chỉ nêu kết cục nhà Đinh, không nói "tập sau"); đoạn kết lấy theo lời bàn của Ngô Sĩ Liên; bỏ nghĩa của tên Đại Cồ Việt vì sử không giải thích; chương lập triều đình rút gọn, mở đầu bằng cảnh gây tò mò cho đỡ nhàm, nhưng không đổi cốt truyện chính (xem `CLAUDE.md`, mục "Sáng tạo cho đỡ nhàm").
 
@@ -9,19 +9,15 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 
 10001. Có một người cha đứng nhìn kẻ địch treo con trai mình lên ngọn sào. Ông trả lời bằng cách ra lệnh cho quân cầm nỏ nhắm vào con mình.
 10002. Người cha ấy là Đinh Bộ Lĩnh. Ông xuất thân là một cậu bé chăn trâu ở vùng núi đá, và về sau lập ra nước Đại Cồ Việt.
-10003. Ông lớn lên vào giữa thế kỷ mười, khi hai vua nhà Ngô còn trị vì, rồi nổi lên lúc nước Việt không còn người đứng đầu.
-10004. Ngô Quyền thắng trận Bạch Đằng năm chín trăm ba mươi tám. Ông mất hơn hai mươi năm trước khi Đinh Bộ Lĩnh lên ngôi.
+10003. Ông lớn lên sau thời Ngô Quyền, khi nhà Ngô suy yếu và nước Việt không còn người đứng đầu.
 10005. Đứa con trên ngọn sào ấy sống hay chết? Và vì sao nước Việt có mười hai sứ quân, để người cha ấy phải dẹp yên?
-10006. Chuyện kể theo Đại Việt sử ký toàn thư, bộ sử xưa nhất còn đầy đủ của nước ta. Chỗ nào sử chép khác nhau, ta nói rõ.
 
 ## Nước không có chủ
 
-10007. Năm chín trăm bốn mươi bốn, Ngô Quyền mất. Dương Tam Kha, anh của hoàng hậu, cướp lấy quyền và đẩy con trai Ngô Quyền ra ngoài.
-10008. Năm chín trăm năm mươi mốt, con thứ của Ngô Quyền là Ngô Xương Văn lật đổ Dương Tam Kha và lấy lại ngôi vua.
-10009. Ông xưng là Nam Tấn Vương, rồi đón anh trai là Ngô Xương Ngập về cùng trông coi việc nước. Người anh xưng là Thiên Sách Vương.
-10010. Hai anh em cùng xưng vương, nhưng người anh nắm hết quyền. Sử gia Ngô Sĩ Liên chê rằng như vậy là mất đạo nghĩa anh em.
-10011. Năm chín trăm năm mươi tư, Ngô Xương Ngập mất. Nam Tấn Vương lại giữ quyền một mình.
-10012. Năm chín trăm sáu mươi lăm, ông đem quân đánh hai thôn Đường và Nguyễn. Quân ông bị phục binh bắn nỏ, và ông chết ở đó.
+10007. Theo Đại Việt sử ký toàn thư, năm chín trăm bốn mươi bốn Ngô Quyền mất. Dương Tam Kha, anh của hoàng hậu, cướp lấy quyền.
+10008. Năm chín trăm năm mươi mốt, con thứ của Ngô Quyền là Ngô Xương Văn lật đổ Dương Tam Kha và xưng là Nam Tấn Vương.
+10009. Ông cùng anh là Ngô Xương Ngập trông coi việc nước. Ngô Xương Ngập mất năm chín trăm năm mươi tư, và Nam Tấn Vương giữ quyền một mình.
+10012. Năm chín trăm sáu mươi lăm, Nam Tấn Vương đem quân đánh hai thôn Đường và Nguyễn. Quân ông bị phục binh bắn nỏ, và ông chết ở đó.
 10013. Nhà Ngô mất người đứng đầu. Năm chín trăm sáu mươi sáu, các hùng trưởng nổi lên khắp nơi, chiếm quận ấp để tự giữ.
 10014. Hùng trưởng là người có thế lực mạnh nhất trong một vùng. Ai cũng chiếm một nơi, dựng quân riêng và giữ lấy đất của mình.
 
@@ -30,10 +26,9 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 10015. Sử gọi họ là mười hai sứ quân. Sứ quân là người cầm quân, giữ một vùng và tự xưng đứng đầu vùng ấy.
 10016. Ngô Xương Xí, cháu của Nam Tấn Vương, chiếm Bình Kiều ở Thanh Hóa. Ngô Nhật Khánh chiếm Đường Lâm, quê của Ngô Quyền.
 10017. Kiểu Công Hãn chiếm Phong Châu, vùng đất phía bắc. Trần Lãm chiếm vùng cửa sông Bố Hải Khẩu.
-10018. Tám người còn lại cũng chiếm giữ mỗi người một vùng quanh đồng bằng sông Hồng.
+10018. Tám người còn lại mỗi người chiếm một vùng quanh đồng bằng sông Hồng. Sách chép tên và nơi ở của họ không hoàn toàn giống nhau.
 10019. Mười hai vùng đất, và không ai chịu nghe lệnh ai.
 10020. Sử chép rằng trong nước không có chủ, các sứ quân tranh nhau làm trưởng. Mỗi người còn xưng một hiệu riêng, như Kiểu Tam Chế hay Ngô Lãm Công.
-10021. Sử cũng ghi chú rằng tên và nơi ở của các sứ quân được các sách chép không hoàn toàn giống nhau. Vì vậy ta chỉ nhắc vài người.
 10022. Và người chấm dứt cảnh chia cắt ấy chính là người cha ở động Hoa Lư mà ta đã gặp lúc đầu.
 
 ## Cậu bé ở động Hoa Lư
@@ -163,3 +158,5 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 - Chương "Một phen cất quân" (10053 đến 10056): biến việc sử không kể từng trận thành điểm gây tò mò; cao trào dồn vào chương "Về với Trần Minh Công" (Trần Minh Công, Phạm Phòng Át, trận Ô Man).
 - Gộp 10083 và 10084 cũ; bỏ câu "Ta cũng chỉ kể lại đúng như vậy"; rút các lời bàn quá dài; sửa các cảnh báo của `kiem_kich_ban.py`. Từ 93 còn 91 đoạn, đã đánh số lại liên tục. `ke-hoach/thu-giong-hai/dbl1_full.json` đã đồng bộ.
 - 10088 và 10089 (lớp cửa, hiệu canh): lời bàn của Ngô Sĩ Liên là nguyên lý chung, câu "đặt nhiều lần cửa, đánh hiệu canh là đề phòng kẻ hung bạo" gần với câu Kinh Dịch được Toàn thư dẫn lại ở đời Lê (Bản kỷ q.XIV, "gõ hiệu canh từng lớp cửa thành để ngăn ngừa kẻ bạo nghịch"). Quét toàn văn Toàn thư trong repo không thấy chỗ nào chép cung Hoa Lư có hay không có lớp cửa, hiệu canh. Vì vậy lời kể chỉ đặt lời bàn cạnh cảnh vua say rượu nằm giữa sân, không khẳng định cung thiếu cửa hay hiệu canh.
+
+- **Sửa theo quy tắc bố cục cuốn hút (24/10/2026, bản so sánh):** bỏ 10004 và 10006 khỏi mở đầu (mở đầu còn 4 đoạn, khoảng 35 giây); nguồn Toàn thư chuyển vào câu đầu 10007; gộp 10008–10011 thành 10008–10009 (bỏ tên Thiên Sách Vương, chuyện Ngô Sĩ Liên chê hai anh em); gộp ghi chú tên các sứ quân chép khác nhau vào 10018 (bỏ 10021). Không đổi sự kiện, người, kết cục.

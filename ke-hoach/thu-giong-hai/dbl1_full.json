@@ -15,13 +15,7 @@
   "n": 10003,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Ông lớn lên vào giữa thế kỷ mười, khi hai vua nhà Ngô còn trị vì, rồi nổi lên lúc nước Việt không còn người đứng đầu."
- },
- {
-  "n": 10004,
-  "chuong": "Mở đầu",
-  "tone": "story",
-  "text": "Ngô Quyền thắng trận Bạch Đằng năm chín trăm ba mươi tám. Ông mất hơn hai mươi năm trước khi Đinh Bộ Lĩnh lên ngôi."
+  "text": "Ông lớn lên sau thời Ngô Quyền, khi nhà Ngô suy yếu và nước Việt không còn người đứng đầu."
  },
  {
   "n": 10005,
@@ -30,46 +24,28 @@
   "text": "Đứa con trên ngọn sào ấy sống hay chết? Và vì sao nước Việt có mười hai sứ quân, để người cha ấy phải dẹp yên?"
  },
  {
-  "n": 10006,
-  "chuong": "Mở đầu",
-  "tone": "story",
-  "text": "Chuyện kể theo Đại Việt sử ký toàn thư, bộ sử xưa nhất còn đầy đủ của nước ta. Chỗ nào sử chép khác nhau, ta nói rõ."
- },
- {
   "n": 10007,
   "chuong": "Nước không có chủ",
   "tone": "story",
-  "text": "Năm chín trăm bốn mươi bốn, Ngô Quyền mất. Dương Tam Kha, anh của hoàng hậu, cướp lấy quyền và đẩy con trai Ngô Quyền ra ngoài."
+  "text": "Theo Đại Việt sử ký toàn thư, năm chín trăm bốn mươi bốn Ngô Quyền mất. Dương Tam Kha, anh của hoàng hậu, cướp lấy quyền."
  },
  {
   "n": 10008,
   "chuong": "Nước không có chủ",
   "tone": "story",
-  "text": "Năm chín trăm năm mươi mốt, con thứ của Ngô Quyền là Ngô Xương Văn lật đổ Dương Tam Kha và lấy lại ngôi vua."
+  "text": "Năm chín trăm năm mươi mốt, con thứ của Ngô Quyền là Ngô Xương Văn lật đổ Dương Tam Kha và xưng là Nam Tấn Vương."
  },
  {
   "n": 10009,
   "chuong": "Nước không có chủ",
   "tone": "story",
-  "text": "Ông xưng là Nam Tấn Vương, rồi đón anh trai là Ngô Xương Ngập về cùng trông coi việc nước. Người anh xưng là Thiên Sách Vương."
- },
- {
-  "n": 10010,
-  "chuong": "Nước không có chủ",
-  "tone": "story",
-  "text": "Hai anh em cùng xưng vương, nhưng người anh nắm hết quyền. Sử gia Ngô Sĩ Liên chê rằng như vậy là mất đạo nghĩa anh em."
- },
- {
-  "n": 10011,
-  "chuong": "Nước không có chủ",
-  "tone": "story",
-  "text": "Năm chín trăm năm mươi tư, Ngô Xương Ngập mất. Nam Tấn Vương lại giữ quyền một mình."
+  "text": "Ông cùng anh là Ngô Xương Ngập trông coi việc nước. Ngô Xương Ngập mất năm chín trăm năm mươi tư, và Nam Tấn Vương giữ quyền một mình."
  },
  {
   "n": 10012,
   "chuong": "Nước không có chủ",
   "tone": "story",
-  "text": "Năm chín trăm sáu mươi lăm, ông đem quân đánh hai thôn Đường và Nguyễn. Quân ông bị phục binh bắn nỏ, và ông chết ở đó."
+  "text": "Năm chín trăm sáu mươi lăm, Nam Tấn Vương đem quân đánh hai thôn Đường và Nguyễn. Quân ông bị phục binh bắn nỏ, và ông chết ở đó."
  },
  {
   "n": 10013,
@@ -105,7 +81,7 @@
   "n": 10018,
   "chuong": "Mười hai người xưng hùng",
   "tone": "story",
-  "text": "Tám người còn lại cũng chiếm giữ mỗi người một vùng quanh đồng bằng sông Hồng."
+  "text": "Tám người còn lại mỗi người chiếm một vùng quanh đồng bằng sông Hồng. Sách chép tên và nơi ở của họ không hoàn toàn giống nhau."
  },
  {
   "n": 10019,
@@ -118,12 +94,6 @@
   "chuong": "Mười hai người xưng hùng",
   "tone": "story",
   "text": "Sử chép rằng trong nước không có chủ, các sứ quân tranh nhau làm trưởng. Mỗi người còn xưng một hiệu riêng, như Kiểu Tam Chế hay Ngô Lãm Công."
- },
- {
-  "n": 10021,
-  "chuong": "Mười hai người xưng hùng",
-  "tone": "story",
-  "text": "Sử cũng ghi chú rằng tên và nơi ở của các sứ quân được các sách chép không hoàn toàn giống nhau. Vì vậy ta chỉ nhắc vài người."
  },
  {
   "n": 10022,

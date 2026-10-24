@@ -25,7 +25,8 @@ jobs:
         run: |
           read NAME MODEL OPT _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)
           MODEL=${MODEL:-medium}
-          python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/${NAME}_full.json assets/thu_giong_hai/puck phim_ban_do/asr_${NAME}.json $MODEL $OPT > phim_ban_do/asr_log.txt 2>&1 || echo "LỖI $?" >> phim_ban_do/asr_log.txt
+          VD=assets/thu_giong_hai/puck; [ -d assets/thu_giong_hai/${NAME}_chuan ] && VD=assets/thu_giong_hai/${NAME}_chuan
+          python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/${NAME}_full.json $VD phim_ban_do/asr_${NAME}.json $MODEL $OPT > phim_ban_do/asr_log.txt 2>&1 || echo "LỖI $?" >> phim_ban_do/asr_log.txt
       - name: Lưu kết quả
         run: |
           git config user.email noreply@anthropic.com; git config user.name Claude

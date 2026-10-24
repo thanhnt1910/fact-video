@@ -1,6 +1,6 @@
 # Đinh Bộ Lĩnh dẹp loạn mười hai sứ quân: dàn ý video bản đồ 14–15 phút, giọng Puck (chờ chủ kênh duyệt)
 
-Trạng thái: DÀN Ý + ĐỐI CHIẾU NGUỒN (chưa viết lời kể). Ngày lập 24/10/2026.
+Trạng thái: DÀN Ý ĐÃ DUYỆT (24/10/2026); kịch bản đã viết ở `ke-hoach/dinh-bo-linh-kich-ban.md`. Ngày lập 24/10/2026.
 Mục tiêu: 14–15 phút ≈ 2.700–3.000 chữ lời kể, khoảng 100–110 đoạn ngắn (20–30 chữ mỗi đoạn, tối đa 2 câu). Mã đề nghị `dbl1`, đánh số đoạn từ 9001.
 Quy tắc: xem `CLAUDE.md` (dừng trước 1858; không đùa cợt anh hùng dân tộc; viết đầy đủ không nói tắt; năm viết bằng chữ; từ cổ giải thích ngay).
 Vị trí trong lộ trình: video số 10 của `ke-hoach/dai-viet-su-ky-lo-trinh.md`, kể tiếp ngay sau video Ngô Quyền.
@@ -90,7 +90,7 @@ Phạm vi: Toàn thư Ngoại kỷ q.III phần sau và q.IV, từ Sĩ Vương �
 - **Đặc biệt so với các tập khác:** nhiều nhân vật và chức quan, ít cao trào rõ; hợp để gộp thành một video "một nghìn năm mất nước", nhưng cần nói rõ chỗ nguồn mỏng (Triệu Ẩu).
 Không có kế hoạch dựng ngay; chờ chủ kênh chốt (gộp hay tách video 4 và 5).
 
-## Việc chủ kênh cần chốt
-1. Duyệt dàn ý này (mười ba chương). Chỗ nào muốn đổi trọng tâm (nhiều hơn ở sứ quân hay ở triều Đinh)?
-2. Cách xử lý chuyện Đinh Liễn bị treo trên sào và giết Hạng Lang: kể thẳng như Toàn thư (đề nghị) hay lược bớt?
-3. Có nhắc cầu nối sang Lê Hoàn ở cuối (Ngô Nhật Khánh, nhà Tống) hay chỉ dừng ở cái chết của vua Đinh?
+## Quyết định của chủ kênh (24/10/2026)
+1. Dàn ý ổn, đẩy lên git (đã đẩy).
+2. Chuyện Đinh Liễn bị treo trên ngọn sào và vụ giết Hạng Lang: kể thẳng như Toàn thư.
+3. Không nối sang tập Lê Hoàn: mỗi video trọn gói một chủ đề. Chương 12 trong kịch bản chỉ nêu kết cục nhà Đinh (Đinh Toàn nối ngôi 6 tuổi, Lê Hoàn lên ngôi) rồi kết, không có "tập sau".

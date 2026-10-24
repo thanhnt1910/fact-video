@@ -140,10 +140,10 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 
 ## Ghi chú độ chắc (không đọc trong video)
 - Mọi sự kiện lấy từ `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (Ngoại kỷ q.V, Bản kỷ q.I), mức A, xem bảng trong dàn ý.
-- Mức B (chú thích của bản dịch, không phải chính văn Toàn thư): động Hoa Lư bốn mặt núi đá dựng đứng (9025, 9059, 9092, trích Cương mục); Bình Kiều ở Thanh Hóa (9017, chú thích 4).
+- Mức B (chú thích của bản dịch, không phải chính văn Toàn thư): động Hoa Lư bốn mặt núi đá dựng đứng (9024, 9059, trích Cương mục); Bình Kiều ở Thanh Hóa (9017, chú thích 4).
 - Cách hiểu thông thường, không có trong Toàn thư: Đại Cồ Việt là "nước Việt lớn" (9060, đã viết "thường được hiểu"). Cần kiểm trước khi đăng nếu muốn nói chắc hơn.
 - Diễn giải của người viết (không phải sử): 9094–9095 (vì sao Đinh Bộ Lĩnh thành công), 9096 ("sự yêu thương không đúng chỗ"). Nếu chủ kênh muốn giữ đúng sử, đổi thành lời bàn của Ngô Sĩ Liên.
-- Lời bàn nêu tên người bàn: Lê Văn Hưu (9055, 9072, 9076), Ngô Sĩ Liên (9011, 9056, 9081, 9087).
+- Lời bàn nêu tên người bàn: Lê Văn Hưu (9055, 9063, 9077), Ngô Sĩ Liên (9011, 9056, 9082, 9089).
 
 ## Chi tiết đã bỏ khỏi lời kể
 - Hai con rồng vàng hộ vệ khi cầu gãy; ngọc khuê trong giỏ cá và lời nhà sư; sao sa vào miệng Đỗ Thích (chỉ nhắc "một điềm lạ"); bài sấm "Đỗ Thích thí Đinh Đinh" (do người đời sau làm).
@@ -153,4 +153,4 @@ Quyết định của chủ kênh (24/10/2026): kể thẳng chuyện Đinh Li�
 
 ## Nhắc khi làm tiếp
 - Chưa có nội dung bản đồ (`dbl1_content.py`), chưa đọc giọng, chưa dựng. Chờ chủ kênh duyệt kịch bản, rồi mới làm theo quy trình trong `CLAUDE.md` (kiểm kịch bản, cụm 8, kiểm giọng, chuẩn hóa âm lượng và tốc độ, dựng, `kiem_video.py`).
-- Khung đùa (nếu có) chỉ ở 9019 và các tình huống mười hai sứ quân; không đùa Đinh Bộ Lĩnh, Ngô Quyền, Lê Hoàn.
+- Khung đùa (nếu có) chỉ ở 9020 và các tình huống mười hai sứ quân; không đùa Đinh Bộ Lĩnh, Ngô Quyền, Lê Hoàn.

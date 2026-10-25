@@ -304,3 +304,66 @@ def boat(d,x,y,s,col,face=1):
     d.polygon([(x-s*1.4,y),(x+s*1.4,y),(x+s*0.9,y+s*0.55),(x-s*0.9,y+s*0.55)],fill=col+(255,),outline=INK)
     d.line([(x,y),(x,y-s*1.5)],fill=(60,44,28,255),width=max(2,int(s*0.12)))
     d.polygon([(x,y-s*1.5),(x+face*s*1.0,y-s*0.7),(x,y-s*0.2)],fill=(236,226,200,255),outline=INK)
+
+
+# ------------------------------------------------------------ cảnh xen (toàn khung): đối đầu, chân dung, mốc thời gian
+def _wrapw(g, txt, f, mw):
+    out, cur = [], ''
+    for wd in txt.split():
+        tr = (cur + ' ' + wd).strip()
+        if g.textlength(tr, font=f) <= mw: cur = tr
+        else:
+            if cur: out.append(cur)
+            cur = wd
+    if cur: out.append(cur)
+    return out or ['']
+
+
+def inter_layer(kind, data):
+    """Lớp toàn khung (tối nền bản đồ, nội dung nằm trong 60–1860 px và trên vùng phụ đề)."""
+    im = Image.new('RGBA', (W, H), (10, 7, 4, 238))
+    g = ImageDraw.Draw(im)
+    ft, fb, fs = font(46), font(34, False), font(28, False)
+    top, bot = 90, 800
+    if kind == 'split':
+        head = data['head']
+        g.text((W // 2, top), head, font=ft, fill=GOLD, anchor='mt')
+        colw = 700
+        for side, cx in (('left', 520), ('right', W - 520)):
+            nm, fk, col, lines = data[side]
+            sp = MD.face_sprite(fk, col, 220)
+            im.alpha_composite(sp, (cx - 110, top + 90))
+            g.text((cx, top + 330), nm, font=ft, fill=tuple(col) + (255,), anchor='mt')
+            y = top + 410
+            for ln in lines:
+                for k, seg in enumerate(_wrapw(g, ln, fb, colw)):
+                    g.text((cx, y), ('• ' if k == 0 else '  ') + seg if False else seg, font=fb, fill=CREAM, anchor='mt'); y += 44
+                y += 14
+        g.line((W // 2, top + 110, W // 2, bot - 10), fill=(176, 130, 60, 255), width=3)
+        g.ellipse((W // 2 - 44, top + 300 - 44, W // 2 + 44, top + 300 + 44), fill=(16, 10, 6, 255), outline=GOLD, width=3)
+        g.text((W // 2, top + 300), 'VS', font=font(36), fill=GOLD, anchor='mm')
+    elif kind == 'portrait':
+        fk, col, nm, role, txt = data['kind'], data['col'], data['name'], data['role'], data['text']
+        sp = MD.face_sprite(fk, col, 360)
+        im.alpha_composite(sp, (300 - 180, 170))
+        g.text((300, 560), nm, font=ft, fill=GOLD, anchor='mt')
+        g.text((300, 622), role, font=fs, fill=(215, 200, 170, 255), anchor='mt')
+        g.text((620, 170), '“', font=font(150), fill=(176, 130, 60, 255))
+        y = 290
+        for seg in _wrapw(g, txt, font(44), 1180):
+            g.text((660, y), seg, font=font(44), fill=CREAM); y += 62
+    elif kind == 'timeline':
+        g.text((W // 2, top), data['head'], font=ft, fill=GOLD, anchor='mt')
+        nodes = data['nodes']; n = len(nodes)
+        x0, x1, ly = 220, W - 220, 330
+        g.line((x0 - 60, ly, x1 + 60, ly), fill=(176, 130, 60, 255), width=5)
+        for i, (yr, txt) in enumerate(nodes):
+            x = int(x0 + (x1 - x0) * i / max(1, n - 1))
+            g.ellipse((x - 18, ly - 18, x + 18, ly + 18), fill=GOLD, outline=(16, 10, 6, 255), width=4)
+            g.text((x, ly - 60), yr, font=font(42), fill=GOLD, anchor='mb')
+            cw = int((x1 - x0) / max(1, n - 1)) - 30 if n > 1 else 400
+            cw = min(max(cw, 260), 380)
+            y = ly + 50
+            for seg in _wrapw(g, txt, fs, cw):
+                g.text((x, y), seg, font=fs, fill=CREAM, anchor='mt'); y += 38
+    return im

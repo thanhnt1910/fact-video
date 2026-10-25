@@ -321,11 +321,23 @@ TABLES.append((R(34,0.3),min(E(34,-0.2),R(34,0.3)+7.0),'Hai bức thư và hai �
  ('Thư vua Tống (tháng tám)','Ví nước ta như ngón tay ngón chân trên thân nhà Tống; không theo thì sẽ bị dẹp sạch.'),
  ('Thư giả của Lê Hoàn (tháng mười)','Mượn tên Đinh Toàn xin nhà Tống phong chức của cha, để nhà Tống hoãn đem quân sang.'),
  ('Thư trả lời của nhà Tống','Hai đường: Đinh Toàn làm thống soái, Lê Hoàn làm phó; hoặc mẹ con Đinh Toàn sang theo nhà Tống.')]))
-TABLES.append((R(86,0.3),min(E(87,-0.2),R(86,0.3)+14.0),'Bốn lần Lê Hoàn tiếp sứ nhà Tống',[
- ('Năm 986','Nhận chế thư rất kính cẩn, trả về hai tướng Tống bị bắt.'),
- ('Năm 987','Sứ Lý Giác sang; sư Pháp Thuận giả làm người coi sông ra đón, hai bên đối thơ.'),
- ('Năm 990','Sứ Tống Cảo sang; Lê Hoàn bưng thư đặt lên điện mà không lạy, nói là ngã ngựa đau chân.'),
- ('Năm 996','Sứ Lý Nhược Chuyết sang; Lê Hoàn ra đón ngoài thành, ngạo mạn, sau mới tạ lỗi.')]))
+# ======================= LH2: tông màu riêng + cảnh xen toàn khung (dùng số đoạn lh2 tuyệt đối)
+def RA(n,o=0): return T[BASE+n]+o
+def EA(n,o=0): return T[BASE+n]+D[BASE+n]+o
+GRADE={'sat':0.62,'tint':(188,212,232),'amt':0.8,'gain':0.97,'vig':0.6}
+INTER=[]
+INTER.append((RA(38,0.2),min(EA(38,-0.3),RA(38,0.2)+7.0),'split',{'head':'Tháng hai năm 981: hai bên đối mặt',
+ 'left':('Đại Cồ Việt','king',(200,60,50),['Vua Lê Hoàn đích thân cầm quân','Đóng cọc xuống sông Chi Lăng']),
+ 'right':('Nhà Tống','general',(60,90,170),['Quân chia ba hướng','Lạng Sơn, Tây Kết, sông Bạch Đằng'])}))
+INTER.append((RA(51,0.2),min(EA(51,-0.3),RA(51,0.2)+6.0),'portrait',{'kind':'noble','col':(150,110,60),'name':'Lê Văn Hưu',
+ 'role':'Sử gia đời Trần','text':'Lê Hoàn bắt hai tướng Tống dễ như lùa trẻ con.'}))
+INTER.append((RA(70,0.2),min(EA(70,-0.3),RA(70,0.2)+7.0),'portrait',{'kind':'king','col':(200,60,50),'name':'Lê Hoàn',
+ 'role':'Lý do ông nói với sứ Tống (ông bịa ra)','text':'Năm ngoái đi đánh giặc, bị ngã ngựa đau chân.'}))
+INTER.append((RA(89,0.3),min(EA(90,-0.3),RA(89,0.3)+14.0),'timeline',{'head':'Bốn lần Lê Hoàn tiếp sứ nhà Tống','nodes':[
+ ('986','Nhận chế thư rất kính cẩn, trả hai tướng Tống bị bắt'),
+ ('987','Sứ Lý Giác sang, hai bên đối thơ'),
+ ('990','Bưng thư đặt lên điện mà không lạy'),
+ ('996','Ra đón ngoài thành, sau mới tạ lỗi')]}))
 # ======================= HOÀN TẤT
 SCN.sort(key=lambda x:x[0])
 CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]

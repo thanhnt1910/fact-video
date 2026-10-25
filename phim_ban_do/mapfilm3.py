@@ -290,8 +290,24 @@ def UNIT(kind): return soldier if kind=='inf' else (_boat_unit if kind=='ship' e
 def stake(d,x,y,h,a):
     d.line([(x,y),(x,y-h)],fill=(92,62,34,a),width=max(2,int(h*0.2)))
     d.polygon([(x-h*0.22,y-h*0.78),(x,y-h*1.12),(x+h*0.22,y-h*0.78)],fill=(150,152,158,a),outline=(40,36,32,a))
+_VIG={}
+def _grade(im,gr):
+    a=np.asarray(im.convert('RGB'),dtype=np.float32)
+    g=a.mean(axis=2,keepdims=True);sat=gr.get('sat',1.0)
+    a=g+(a-g)*sat
+    tint=np.array(gr.get('tint',(255,255,255)),dtype=np.float32)/255.0;amt=gr.get('amt',0.0)
+    a=a*(1-amt)+a*tint*amt*1.0+0
+    a=a*gr.get('gain',1.0)
+    h,w=a.shape[:2]
+    if (h,w) not in _VIG:
+        yy,xx=np.mgrid[0:h,0:w].astype(np.float32);r=np.sqrt(((xx-w/2)/(w/2))**2+((yy-h/2)/(h/2))**2)/1.414
+        _VIG[(h,w)]=r[...,None]**2
+    a=a*(1-gr.get('vig',0.0)*_VIG[(h,w)])
+    return Image.fromarray(np.clip(a,0,255).astype(np.uint8)).convert('RGBA')
 def frame(t):
     v=View(t);im=base_frame(v).convert('RGBA')
+    _gr=getattr(C,'GRADE',None)
+    if _gr: im=_grade(im,_gr)
     K=2;ov=Image.new('RGBA',(W*K,H*K),(0,0,0,0));d=ImageDraw.Draw(ov)
     z=v.z;ik=min(2.0,max(0.85,z**0.38))*13.0*K
     MD.deco(d,v,K,z,ik,DECO)
@@ -647,6 +663,10 @@ def frame(t):
     for (t0,t1,icon,txt) in getattr(C,'JOKES',[]):
         if t0<=t<=t1 and not _quiet(t):
             k=min(clamp((t-t0)/0.45),clamp((t1-t)/0.4));out=comp(out,M3.joke_layer(icon,txt,t,k),(0,int((1-ease(k))*60)),ease(k))
+    for ii,(t0,t1,kind,dat) in enumerate(getattr(C,'INTER',[])):
+        if t0<=t<=t1:
+            if ('_in',ii) not in CARDL: CARDL[('_in',ii)]=M3.inter_layer(kind,dat)
+            k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.5));out=comp(out,CARDL[('_in',ii)],(0,0),ease(k))
     sl,sa=B.sub_at(t)
     if sl is not None: out=comp(out,sl,(0,0),ease(sa))
     if t<0.5: out=Image.blend(Image.new('RGBA',(W,H),(8,5,3,255)),out,ease(t/0.5))

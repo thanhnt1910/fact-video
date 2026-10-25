@@ -1,0 +1,39 @@
+name: Thử ảnh thành video (LTX-Video, Kaggle)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ma:
+        description: "Mã ảnh (assets/anh_2d/<mã>)"
+        required: true
+        default: "LH5Q"
+      anh:
+        description: "Số ảnh, cách nhau dấu phẩy"
+        required: true
+        default: "020,029,024"
+
+permissions:
+  contents: write
+
+jobs:
+  thu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow kaggle
+      - name: Chạy LTX-Video trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python -u kaggle_i2v_thu.py "${{ inputs.ma }}" "${{ inputs.anh }}" 2>&1 | tee /tmp/i2v.txt
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+          git add -f logs/kaggle_i2v 2>/dev/null || true
+          git commit -q -m "Thử LTX-Video [skip ci]" || exit 0
+          for k in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM % 8 + 2)); done

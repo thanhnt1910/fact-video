@@ -13,4 +13,4 @@ tổng khung 16246 đoạn 9 9138 10153
 900 1015
 xong
 + ls -la doan_9.mp4
--rw-r--r-- 1 runner runner 10950262 Oct 25 03:58 doan_9.mp4
+-rw-r--r-- 1 runner runner 10958499 Oct 25 04:45 doan_9.mp4

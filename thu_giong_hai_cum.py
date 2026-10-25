@@ -6,6 +6,11 @@ import numpy as np
 import gemini_tts, audio_fx
 from thu_giong_hai import STYLE_HAI, TONE, STYLE_KE, TONE_KE
 SR = 24000
+STYLE_A = ("Native Vietnamese storyteller (Northern accent) telling a true story aloud to one listener: conversational yet resonant. "
+           "Clear, bright, full voice with firm projection and crisp diction on every syllable and tone mark; medium pace, never rushed; "
+           "natural flowing intonation so the sentences connect into one continuous narration, with only short natural breaths between them, no theatrical pauses. "
+           "Stress key words and names; pitch lifts a little on questions and turning points and settles at the end of each sentence. "
+           "Not a news anchor, not a stage actor, never mumbling, never whispering, never low or sleepy. ")
 import os as _os
 for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 13)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
     _v = _os.environ.get(_n, "").strip()
@@ -65,7 +70,12 @@ def main():
         cur.append(b)
     if cur: chunks.append(cur)
     for ch in chunks:
-        if ch[0]["tone"] in TONE_KE:
+        _sv = _os.environ.get("STYLE_VAR", "")
+        if _sv == "A":
+            style = STYLE_A
+        elif _sv == "B":
+            style = STYLE_KE + TONE_KE["story"]
+        elif ch[0]["tone"] in TONE_KE:
             style = STYLE_KE + TONE_KE[ch[0]["tone"]] + " Read each sentence as its own beat with a clear short pause between sentences."
         else:
             calm = sum(1 for b in ch if b["tone"] == "calm") > len(ch) / 2

@@ -162,7 +162,7 @@ S2(23,28,[H],6.0)
 PROPS.append((R(24,0.0),E(28,0),'hall',105.90,20.31,'',0.6))
 C3(23,0.4,3.0,'Dương Thái hậu','mẹ vua Đinh Toàn',VT)
 C3(23,3.4,2.8,'Phạm Cự Lạng','đại tướng quân',VT)
-G('Các tướng của Phạm Cự Lạng',VT,9,[(R(24,0),105.72,20.20),(R(24,4.0),105.86,20.27),(E(26,0),105.86,20.27)],show=(R(24,0),E(26,0)),emb='sun',seed=1109,spread=0.55,soff=(-30,20),label=False)
+G('Các tướng của Phạm Cự Lạng',VT,9,[(R(24,0),105.72,20.20),(R(24,4.0),105.86,20.27),(E(26,0),105.86,20.27)],show=(R(24,0),E(26,0)),emb='sun',seed=1109,spread=0.9,soff=(-115,30),label=False)
 FX.append((at(26,'vạn tuế'),at(26,'vạn tuế',1.8),'trumpet',H,H))
 NU(27,'năm 980','Lê Hoàn lên ngôi hoàng đế',0.4)
 FACE(27,3.4,3.4,'Lê Hoàn','Hoa Lư','king',GD,dy=-125)
@@ -186,7 +186,7 @@ G('Đạo Trần Khâm Tộ',TG,12,[(R(36,3),107.00,22.70),(at(37,'Tây Kết'),
   show=(R(36,3),E(47,0)),emb='tri',seed=1111,spread=0.6,soff=(-70,-45),alive=[(0,1),(at(42,'thua to'),1),(at(42,'thua to')+3.0,0.4)],defeats=[(at(42,'thua to'),'flag',E(47,0))])
 G('Thuyền Lưu Trừng',TG,8,[(R(37,0),107.60,20.90),(at(37,'Bạch Đằng'),106.85,20.93),(E(41,0),106.85,20.93)],kind='ship',show=(R(37,0),E(47,0)),emb='tri',seed=1112,spread=0.4,soff=(80,25),label=False,
   alive=[(0,1),(at(41,'thua trận'),1),(at(41,'thua trận')+2.0,0.25)],defeats=[(at(41,'thua trận'),'flag',E(47,0))])
-G('Quân Lê Hoàn ',VT,14,[(R(38,0),105.90,20.28),(R(38,5.0),106.46,21.62),(R(41,0),106.46,21.62),(at(42,'đuổi theo'),106.50,21.95),(R(43,0),106.60,22.35),(E(43,0),106.60,22.35),(E(43,0)+2.0,105.90,20.28)],
+G('Quân Lê Hoàn ',VT,14,[(R(38,0),105.90,20.28),(R(38,2.5),105.98,20.72),(R(38,5.0),106.46,21.62),(R(41,0),106.46,21.62),(at(42,'đuổi theo'),106.50,21.95),(R(43,0),106.60,22.35),(E(43,0),106.60,22.35),(E(43,0)+2.0,105.90,20.28)],
   show=(R(38,0),E(44,0)),emb='sun',seed=1113,spread=0.6,soff=(-95,45))
 FACE(38,0.3,3.0,'Lê Hoàn','Hoa Lư','general',VT,dx=0,dy=0,t_min=R(38,0.3))
 BATT.append((at(42,'đuổi theo'),at(42,'đuổi theo')+4.6,106.60,22.35,['Đạo Trần Khâm Tộ','Quân Lê Hoàn ']))
@@ -237,7 +237,8 @@ C3(63,0.3,2.8,'Ngô Khuông Việt','sư, làm bài từ tiễn',VT)
 S2(65,65,[(109.15,21.65),BDG,H],2.4,hmax=360)
 NU(65,'năm 990','Sứ Tống Cảo sang',0.4)
 show('Liêm Châu',65,66)
-G('Sứ Tống Cảo',TG,5,[(R(65,0),109.15,21.65),(R(65,6.5),106.85,20.95),(R(66,0),106.85,20.95),(R(66,5.0),105.99,20.38),(E(67,0),105.97,20.36)],kind='cav',show=(R(65,0),E(67,0)),emb='tri',seed=1118,spread=0.4,soff=(60,5),label=False)
+G('Sứ Tống Cảo',TG,5,[(R(65,0),109.15,21.65),(R(65,6.5),106.85,20.95),(R(66,0),106.85,20.95),(R(66,3.0),106.35,20.58)],kind='ship',show=(R(65,0),R(66,3.0)),emb='tri',seed=1118,spread=0.4,soff=(60,5),label=False)
+G('Sứ Tống Cảo đi bộ',TG,5,[(R(66,3.0),106.35,20.58),(R(66,5.5),106.20,20.45),(E(67,0),106.14,20.47)],kind='cav',show=(R(66,3.0),E(67,0)),emb='tri',seed=1118,spread=0.4,soff=(70,-25),label=False)
 G('Thuyền đón sứ',VT,9,[(R(65,0.5),106.60,20.90),(R(65,6.5),106.85,20.95),(E(65,0),106.85,20.95)],kind='ship',show=(R(65,0.5),E(65,0)),emb='sun',seed=1119,spread=0.6,soff=(-30,-20),label=False)
 C3(65,0.4,2.9,'Tống Cảo','sứ nhà Tống',TG)
 S2(66,67,[H,(106.05,20.46)],5.0)
@@ -290,7 +291,7 @@ S2(86,87,[H,LS,UC],2.4,hmax=380)
 PROPS.append((R(86,0.4),R(86,3.4),'ping',LS[0],LS[1],'g',0.9))
 PROPS.append((R(86,3.8),R(86,6.8),'ping',H[0],H[1],'g',0.9))
 # ======================= HIỆU ỨNG THÊM
-PROPS.append((R(11,0.5),E(13,0),'camp',105.82,20.14,'',0.45))
+PROPS.append((R(11,0.5),E(13,0),'camp',105.52,20.02,'',0.40))
 PROPS.append((R(38,0.5),E(43,0),'pennants',106.30,22.05,'',0.55))
 PROPS.append((R(36,0.5),E(41,0),'camp',107.20,22.20,'r',0.40))
 PROPS.append((R(36,0.3),R(36,3.3),'ping',LS[0],LS[1],'r',0.8))
@@ -319,7 +320,7 @@ def year_of(n):
     return None
 NO_GROUP_LABEL=True
 SIDES=[('Đại Cồ Việt',VT,{g['name'].strip() for g in GROUPS if g['col']==VT}),('Nhà Tống',TG,{g['name'].strip() for g in GROUPS if g['col']==TG}),
-       ('Quân Bặc, Điền, Hạp',BD,{g['name'].strip() for g in GROUPS if g['col']==BD}),('Chiêm Thành',CH,{g['name'].strip() for g in GROUPS if g['col']==CH}),
+       ('Bặc, Điền, Hạp',BD,{g['name'].strip() for g in GROUPS if g['col']==BD}),('Chiêm Thành',CH,{g['name'].strip() for g in GROUPS if g['col']==CH}),
        ('Địa phương',NEU,{g['name'].strip() for g in GROUPS if g['col']==NEU})]
 SFX=[(at(21,'hẹn ngày'),'horn'),(at(26,'vạn tuế'),'trumpet'),(at(27,'lên ngôi'),'gong'),(at(45,'rút quân'),'horn'),(R(65,0.2),'horn'),(R(67,1.0),'gong')]
-SFX_GROUPS=['Sứ nhà Tống','Sứ Tống Cảo','Sứ Lý Giác','Quân Tống rút về']
+SFX_GROUPS=['Sứ nhà Tống','Sứ Tống Cảo','Sứ Tống Cảo đi bộ','Sứ Lý Giác','Quân Tống rút về']

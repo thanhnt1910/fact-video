@@ -115,6 +115,8 @@ def _synth_generate(model, text, style, voice, key):
 MAX_WAIT = int(os.environ.get("GEMINI_MAX_WAIT", "900"))
 _WORKING = {}
 _SHOWN = set()
+_N429 = [0]
+MAX_429 = int(os.environ.get("GEMINI_MAX_429", "8"))   # tổng số lần 429 tối đa mỗi lần chạy, quá thì dừng hẳn để khỏi bị khóa khóa
 
 
 def synth(text, style, voice, key=None, log=print):
@@ -155,6 +157,11 @@ def synth(text, style, voice, key=None, log=print):
                 return wav
             except Exception as e:
                 msg = str(e)
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                    _N429[0] += 1
+                    if _N429[0] >= MAX_429:
+                        log(f"   [gemini] đã gặp {_N429[0]} lần 429 trong lần chạy này, DỪNG HẲN để khỏi bị khóa khóa")
+                        raise SystemExit(3)
                 if not fixed and key and gemini_keys.is_quota_error(msg) and "HTTP" in msg:
                     more = gemini_keys.mark_bad(key, msg)
                     log(f"   [gemini] khóa …{key[-4:]} hết lượt/bị từ chối ({msg[:60]!r}), đổi khóa"

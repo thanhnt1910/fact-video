@@ -13,4 +13,4 @@ tổng khung 16246 đoạn 12 12184 13199
 900 1015
 xong
 + ls -la doan_12.mp4
--rw-r--r-- 1 runner runner 15640135 Oct 25 03:58 doan_12.mp4
+-rw-r--r-- 1 runner runner 15743166 Oct 25 04:45 doan_12.mp4

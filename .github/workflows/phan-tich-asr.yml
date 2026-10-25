@@ -1,0 +1,27 @@
+name: Phân tích video mẫu (nhận dạng lời)
+on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['assets/phan_tich/chay.txt']
+permissions:
+  contents: write
+jobs:
+  asr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "faster-whisper numpy"
+      - name: Nhận dạng
+        run: python phan_tich_asr.py > assets/phan_tich/log.txt 2>&1 || echo "LỖI $?" >> assets/phan_tich/log.txt
+      - name: Lưu
+        if: always()
+        run: |
+          git config user.email noreply@anthropic.com; git config user.name Claude
+          git add assets/phan_tich
+          git commit -q -m "Nhận dạng video mẫu [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done

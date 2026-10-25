@@ -10,7 +10,7 @@ T={10001:0.5,10002:9.83,10005:24.92}
 import importlib;os.environ.setdefault('SCRIPT','ke-hoach/thu-giong-hai/dbl1_full.json');os.environ.setdefault('VOICE_DIR','assets/thu_giong_hai/dbl1_chuan');os.environ.setdefault('WORLD','phim_ban_do/world7.jpg');os.environ['PHUDE']='phim_ban_do/phude_dbl1.json';os.environ['CONTENT']='dbl1_content'
 sys.path.insert(0,'phim_ban_do');import build2 as b
 SEG=[(0.4,b.T[10002]+b.D[10002],[10001,10002]),(b.T[10005],b.T[10005]+b.D[10005],[10005]),(b.T[10038],b.T[10043]+b.D[10043],[10038,10039,10040,10041,10042,10043])]
-OUTRO=6.0;off=0;subs=[];segs=[]
+OUTRO=5.4;off=0;subs=[];segs=[]
 for k,(s,e,ps) in enumerate(SEG):
     segs.append((s,e-s,off))
     for n in ps:

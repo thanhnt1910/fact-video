@@ -15,7 +15,7 @@ def fit(t,p,maxw,s):
     while font(p,s).getlength(t)>maxw: s-=2
     return font(p,s)
 def ngang(src,out):
-    fr=Image.open(src).convert('RGB').crop((150,100,1110,640)).resize((1920,1080),Image.LANCZOS)
+    fr=Image.open(src).convert('RGB').crop((150,168,1110,708)).resize((1920,1080),Image.LANCZOS)
     im=fr.convert('RGBA')
     g=Image.new('RGBA',im.size,(0,0,0,0)); d=ImageDraw.Draw(g)
     for x in range(1000): d.line([(x,0),(x,1080)],fill=(20,12,5,int(240*(1-x/1000)**1.05)))
@@ -35,7 +35,7 @@ def ngang(src,out):
     d.line([(85,985),(165,985)],fill=YEL,width=4); d.text((185,958),'Người Gác Sử',font=font(LORA,44),fill=YEL)
     im.convert('RGB').save(out,quality=93)
 def doc(src,out):
-    fr=Image.open(src).convert('RGB').crop((0,0,1440,900)).resize((1080,675),Image.LANCZOS)
+    fr=Image.open(src).convert('RGB').crop((150,165,1110,765)).resize((1080,675),Image.LANCZOS)
     im=Image.new('RGBA',(1080,1920),(25,16,8,255))
     bg=Image.open(src).convert('RGB').resize((3413,1920)).crop((1000,0,2080,1920)).filter(ImageFilter.GaussianBlur(28))
     im.paste(bg.convert('RGBA'),(0,0)); im.alpha_composite(Image.new('RGBA',im.size,(15,10,5,150)))

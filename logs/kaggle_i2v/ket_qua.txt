@@ -1,0 +1,27 @@
+Kaggle: .complete sau 12 phút
+{
+ "jobs": {
+  "LH5Q_020": {
+   "giay_chay": 138,
+   "dtype": "torch.float16",
+   "khung": 97,
+   "buoc": 40
+  },
+  "LH5Q_029": {
+   "giay_chay": 129,
+   "dtype": "torch.float16",
+   "khung": 97,
+   "buoc": 40
+  },
+  "LH5Q_024": {
+   "giay_chay": 130,
+   "dtype": "torch.float16",
+   "khung": 97,
+   "buoc": 40
+  }
+ },
+ "tong_giay": 681
+}
+LH5Q_020.mp4: có
+LH5Q_029.mp4: có
+LH5Q_024.mp4: có

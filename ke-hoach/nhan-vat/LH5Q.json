@@ -1,0 +1,221 @@
+{
+ "ma": "LH5Q",
+ "ghi_chu": "thử phong cách sáng, dễ thương (mẫu video giáo dục), 16 cảnh mở đầu lh5",
+ "nhan_vat": {
+  "lehoan": "Le Hoan, a broad-shouldered Vietnamese man of about 49 with a square weathered friendly face, thick straight eyebrows, a short dark beard, hair tied up under a plain dark headcloth, wearing a dark-brown crossed-collar tunic with a plain sash, firm calm dignified look, empty hands, no weapon",
+  "lehoan_tre": "young Le Hoan at about 22, a sturdy young man with the same square face and thick straight eyebrows, no beard, hair tied up under a plain dark headcloth, plain brown tunic, honest determined look",
+  "lehoan_be": "Le Hoan as a thin poor orphan boy of about eight with the same thick straight eyebrows, short messy dark hair, a worn patched brown tunic, bare feet, big sad hopeful eyes",
+  "quan_ho_le": "a kind middle-aged village official with a gentle smile and a short grey beard, wearing a simple faded blue-grey crossed-collar robe and a plain cloth hat",
+  "tong_a": "a Song dynasty envoy, a thin man of about 45 with a long thin moustache and narrow face, wearing a green round-collared robe with a wide belt and a black official hat with two straight flat wings",
+  "tong_b": "a second Song envoy, a plump man of about 55 with a round face, a short grey beard and kind tired eyes, wearing a red round-collared robe with a wide belt and a black official hat with two straight flat wings",
+  "tong_quan": "a proud Song official of about 50, lean, with a pointed chin beard and a smug raised chin, wearing a purple round-collared robe with a wide belt and a black official hat with two straight flat wings",
+  "tong_de": "the Song emperor on a grand throne, a middle-aged man in a yellow robe and a flat-topped crown with hanging bead strings, calm and remote",
+  "dinh_lien": "Dinh Lien, a handsome young prince of about 20 in a rich dark-red robe with a golden sash and a small crown, confident friendly look",
+  "dinh_vuong": "King Dinh Tien Hoang, a stern dignified man of about 55 with a full dark beard, wearing a golden-yellow robe and a tall ornate crown, powerful presence",
+  "dinh_toan": "little Dinh Toan, a six-year-old boy king in an oversized golden robe and a crown too big for his head, tiny, wide bewildered eyes"
+ },
+ "canh": [
+  {
+   "key": "001",
+   "nv": [
+    "tong_a"
+   ],
+   "mo_ta": "dramatic low angle: a Song envoy gallops on a brown horse along a mountain road "
+  },
+  {
+   "key": "002",
+   "nv": [
+    "lehoan",
+    "tong_a",
+    "tong_b"
+   ],
+   "mo_ta": "Le Hoan stands tall with chin raised in a sunny courtyard while a long row of Vi"
+  },
+  {
+   "key": "003",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "comic close-up: a huge cloth-bandaged foot fills the lower foreground, behind it"
+  },
+  {
+   "key": "004",
+   "nv": [],
+   "mo_ta": "a saddled brown horse stands alone on a dirt road, reins hanging, a dropped dark"
+  },
+  {
+   "key": "005",
+   "nv": [
+    "tong_a",
+    "tong_b"
+   ],
+   "mo_ta": "the two Song envoys put their hands on their hearts with worried sympathetic fac"
+  },
+  {
+   "key": "006",
+   "nv": [],
+   "mo_ta": "huge Song dynasty capital city seen from above with towering grey walls, golden "
+  },
+  {
+   "key": "007",
+   "nv": [
+    "tong_a",
+    "tong_b"
+   ],
+   "mo_ta": "a giant golden question mark floats above the heads of the two Song envoys who l"
+  },
+  {
+   "key": "008",
+   "nv": [
+    "tong_a"
+   ],
+   "mo_ta": "exactly ONE man only: the thin Song envoy scratches his chin with a puzzled look"
+  },
+  {
+   "key": "009",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "heroic low-angle view: exactly ONE man only, Le Hoan stands on the steps of his "
+  },
+  {
+   "key": "010",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "exactly ONE man only: close portrait of Le Hoan with a calm knowing half-smile a"
+  },
+  {
+   "key": "011",
+   "nv": [
+    "tong_quan",
+    "tong_de"
+   ],
+   "mo_ta": "in a grand bright Song hall the proud Song official in purple points confidently"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "tong_quan"
+   ],
+   "mo_ta": "exactly ONE man only: the proud Song official in purple laughs smugly with his c"
+  },
+  {
+   "key": "013",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "exactly ONE man only: Le Hoan stands at a low table pointing with one finger at "
+  },
+  {
+   "key": "014",
+   "nv": [],
+   "mo_ta": "three rolled scrolls made of narrow bamboo slips strung with cord stand in a row"
+  },
+  {
+   "key": "015",
+   "nv": [],
+   "mo_ta": "extreme close-up of a bamboo-slip scroll glowing with golden light and rays, tie"
+  },
+  {
+   "key": "016",
+   "nv": [],
+   "mo_ta": "wide sunny landscape of limestone hills and a rice plain with a winding path lea"
+  },
+  {
+   "key": "017",
+   "nv": [],
+   "mo_ta": "night view of a silent timber palace under a huge full moon, all windows dark, a"
+  },
+  {
+   "key": "018",
+   "nv": [],
+   "mo_ta": "close view of an empty carved royal throne in a dark hall with a single small cl"
+  },
+  {
+   "key": "019",
+   "nv": [],
+   "mo_ta": "two palace guards stand with bowed heads and spears upright on the steps of a ti"
+  },
+  {
+   "key": "020",
+   "nv": [
+    "dinh_toan"
+   ],
+   "mo_ta": "a tiny six-year-old boy king sits on a huge golden throne with his feet dangling"
+  },
+  {
+   "key": "021",
+   "nv": [
+    "lehoan",
+    "dinh_toan"
+   ],
+   "mo_ta": "Le Hoan stands protectively right behind the boy king's throne with a steady dig"
+  },
+  {
+   "key": "022",
+   "nv": [
+    "lehoan",
+    "dinh_toan"
+   ],
+   "mo_ta": "the boy king looks up trustfully at Le Hoan who stands beside him and looks ahea"
+  },
+  {
+   "key": "023",
+   "nv": [
+    "lehoan_be"
+   ],
+   "mo_ta": "exactly ONE child: a thin poor orphan boy sits alone on a mud bank at the edge o"
+  },
+  {
+   "key": "024",
+   "nv": [
+    "lehoan_be",
+    "quan_ho_le"
+   ],
+   "mo_ta": "the kind village official holds the orphan boy's hand and leads him along a vill"
+  },
+  {
+   "key": "025",
+   "nv": [
+    "lehoan_be"
+   ],
+   "mo_ta": "exactly ONE child: the orphan boy carries two small water buckets on a shoulder "
+  },
+  {
+   "key": "026",
+   "nv": [
+    "lehoan_be"
+   ],
+   "mo_ta": "exactly ONE child: the boy swings a long bamboo stick like a sword in a sunrise "
+  },
+  {
+   "key": "027",
+   "nv": [
+    "lehoan_tre",
+    "dinh_lien"
+   ],
+   "mo_ta": "in a bright palace courtyard young Le Hoan bows respectfully to the young prince"
+  },
+  {
+   "key": "028",
+   "nv": [
+    "dinh_vuong",
+    "lehoan_tre"
+   ],
+   "mo_ta": "King Dinh Tien Hoang on his throne nods approvingly toward young Le Hoan who sta"
+  },
+  {
+   "key": "029",
+   "nv": [
+    "lehoan_tre"
+   ],
+   "mo_ta": "seen from behind: young Le Hoan walks at the head of a long column of a thousand"
+  },
+  {
+   "key": "030",
+   "nv": [],
+   "mo_ta": "bird's-eye view of a large army camp where ranks of tiny soldiers train in neat "
+  }
+ ]
+}

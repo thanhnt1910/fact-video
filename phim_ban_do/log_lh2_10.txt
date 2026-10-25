@@ -3,14 +3,14 @@
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_lh2.txt
 + MODE=full
 + python -
-tổng khung 16955 đoạn 10 10596 11656
+tổng khung 16908 đoạn 10 10567 11624
 + read A0 A1
-+ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_10.mp4 10596 11656
++ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_10.mp4 10567 11624
 + tail -n 15
-0 1060
-300 1060
-600 1060
-900 1060
+0 1057
+300 1057
+600 1057
+900 1057
 xong
 + ls -la doan_10.mp4
--rw-r--r-- 1 runner runner 10472677 Oct 25 11:24 doan_10.mp4
+-rw-r--r-- 1 runner runner 10466174 Oct 25 11:44 doan_10.mp4

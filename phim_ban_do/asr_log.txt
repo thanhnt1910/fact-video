@@ -1,7 +1,2 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-0 87
-20 87
-40 87
-60 87
-80 87
 xong 87

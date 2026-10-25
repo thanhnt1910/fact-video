@@ -43,7 +43,7 @@ LOC={'Hoa Lư':(105.90,20.28,'big'),'Ái Châu':(105.78,19.80,'mid'),'Cát Lợi
      'Lạng Sơn':(106.76,21.85,'mid'),'Chi Lăng':(106.50,21.68,'town'),'Tây Kết':(106.05,22.15,'town'),'Bạch Đằng':(106.80,20.95,'town'),
      'Ung Châu':(108.35,22.82,'big'),'Quảng Châu':(113.26,23.13,'big'),'Triều Tống':(110.80,24.60,'mid'),'Liêm Châu':(109.15,21.65,'town'),
      'Sách Giang':(106.35,21.00,'town'),'Núi Đọi':(105.95,20.63,'town'),'Cử Long':(105.47,20.22,'town'),'Như Hồng':(108.55,21.75,'town'),
-     'Chiêm Thành':(106.45,18.55,'mid')}
+     'Chiêm Thành':(105.15,19.00,'mid')}
 CITIES=dict(LOC)
 CITY_SHOW={}
 CITY_OWN={}
@@ -209,11 +209,11 @@ C3(49,0.4,3.0,'Lê Văn Hưu','sử gia',GD)
 # ======================= CHƯƠNG 8: ĐI ĐÁNH CHIÊM THÀNH (51–55)
 S2(51,55,[H,SOUTH],1.9,hmax=380)
 NU(52,'năm 982','Lê Hoàn đích thân đi đánh Chiêm Thành',3.4)
-G('Quân Lê Hoàn đi nam',VT,12,[(at(52,'tự mình'),105.95,20.20),(at(52,'tự mình')+5.5,106.45,18.80),(R(54,0),106.45,18.80),(E(54,0),106.45,18.80)],kind='ship',show=(at(52,'tự mình'),E(54,0)),emb='sun',seed=1115,spread=0.9,soff=(-50,0))
-G('Quân Chiêm Thành',CH,10,[(R(51,0),106.55,18.60),(E(54,0),106.55,18.60)],show=(R(51,0),E(54,0)),emb='tri',seed=1116,spread=0.7,soff=(55,5),defeats=[(at(53,'thua to'),'flag',E(54,0))])
+G('Quân Lê Hoàn đi nam',VT,12,[(at(52,'tự mình'),105.95,20.20),(at(52,'tự mình')+5.5,105.98,19.05),(R(54,0),105.98,19.05),(E(54,0),105.98,19.05)],kind='ship',show=(at(52,'tự mình'),E(54,0)),emb='sun',seed=1115,spread=0.9,soff=(-50,0))
+G('Quân Chiêm Thành',CH,10,[(R(51,0),105.15,19.00),(E(54,0),105.15,19.00)],show=(R(51,0),E(54,0)),emb='tri',seed=1116,spread=0.6,soff=(-10,-20),defeats=[(at(53,'thua to'),'flag',E(54,0))])
 NT(51,0.5,3.2,SOUTH[0],SOUTH[1]+0.40,'sứ giả Từ Mục, Ngô Tử Canh bị Chiêm Thành bắt giữ',CH)
-BATT.append((at(53,'thua to')-1.2,at(53,'thua to')+3.8,106.50,18.68,['Quân Lê Hoàn đi nam','Quân Chiêm Thành']))
-FX.append((at(53,'thua to')-1.0,at(53,'thua to')+3.6,'drums',(106.40,18.95),SOUTH))
+BATT.append((at(53,'thua to')-1.2,at(53,'thua to')+3.8,105.50,19.02,['Quân Lê Hoàn đi nam','Quân Chiêm Thành']))
+FX.append((at(53,'thua to')-1.0,at(53,'thua to')+3.6,'drums',(105.50,19.15),SOUTH))
 Q(52,54)
 NT(55,2.0,3.2,105.80,19.60,'kênh mới ở vùng núi Đồng Cổ, sông Bà Hòa',BR)
 # ======================= CHƯƠNG 9: SỨ NHÀ TỐNG VÀ HAI CON NGỖNG (56–64)

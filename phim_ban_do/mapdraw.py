@@ -161,3 +161,91 @@ def paper():
         dd.ellipse((cx-14,cy-14,cx+14,cy+14),fill=(150,110,60,230),outline=(60,44,28,255),width=3)
     return im
 
+
+
+# ---- mặt nhân vật (huy hiệu tròn) để hiện trên bản đồ khi nhắc tên ----
+_FACE_CACHE = {}
+def face_sprite(kind, col, S=256):
+    """Huy hiệu tròn vẽ phẳng: nền giấy, vai áo màu phe, mặt, mũ/tóc theo vai trò. Trả về ảnh RGBA S×S."""
+    key = (kind, tuple(col), S)
+    if key in _FACE_CACHE: return _FACE_CACHE[key]
+    from PIL import Image as _I, ImageDraw as _D
+    Q = 2; N = S * Q; c = N // 2
+    im = _I.new('RGBA', (N, N), (0, 0, 0, 0)); g = _D.Draw(im)
+    u = N / 256.0
+    def R(x0, y0, x1, y1): return (c + x0 * u - 128 * u + 128 * u * 0, y0 * u, c + x1 * u - 128 * u + 128 * u * 0, y1 * u)
+    def E_(cx, cy, rx, ry, **kw): g.ellipse((c + (cx - 128 + 0) * u - rx * u + 128 * u * 0 + 0, cy * u - ry * u, c + (cx - 128) * u + rx * u, cy * u + ry * u), **kw)
+    ink = (34, 24, 18, 255); skin = (234, 192, 152, 255); paper = (240, 229, 200, 255)
+    dark = tuple(max(0, int(v * 0.62)) for v in col) + (255,); mid = tuple(col) + (255,)
+    light = tuple(min(255, int(v * 0.4 + 150)) for v in col) + (255,)
+    gold = (222, 178, 52, 255); steel = (122, 128, 138, 255); black = (30, 26, 28, 255)
+    g.rectangle((0, 0, N, N), fill=paper)
+    # vai áo và cổ áo
+    E_(128, 262, 112, 78, fill=mid, outline=ink, width=int(5 * u))
+    g.polygon([(c - 26 * u, 190 * u), (c + 26 * u, 190 * u), (c, 238 * u)], fill=light, outline=ink)
+    g.rectangle((c - 17 * u, 160 * u, c + 17 * u, 196 * u), fill=skin)
+    child = (kind == 'child'); 
+    hw, hh, hy = (50, 56, 126) if child else (45, 56, 118)
+    # tóc/phần sau đầu
+    if kind in ('youth', 'child', 'prince'):
+        E_(128, hy - 12, hw + 3, hh - 8, fill=black)
+    E_(128, hy + 8, hw, hh, fill=skin, outline=ink, width=int(5 * u))
+    # tai
+    for s in (-1, 1): E_(128 + s * (hw - 1), hy + 14, 8, 13, fill=skin, outline=ink, width=int(3 * u))
+    # mũ / tóc theo vai trò
+    if kind == 'king':
+        g.rectangle((c - 56 * u, 40 * u, c + 56 * u, 70 * u), fill=black, outline=ink, width=int(4 * u))
+        g.rectangle((c - 56 * u, 62 * u, c + 56 * u, 74 * u), fill=gold, outline=ink, width=int(3 * u))
+        g.rectangle((c - 34 * u, 24 * u, c + 34 * u, 42 * u), fill=black, outline=ink, width=int(4 * u))
+        for s in (-1, 1):
+            for k in range(4): E_(128 + s * (58 + 0), 82 + k * 13, 4, 5, fill=gold, outline=ink, width=int(2 * u))
+    elif kind == 'general':
+        g.pieslice((c - 58 * u, 38 * u, c + 58 * u, 140 * u), 180, 360, fill=steel, outline=ink, width=int(4 * u))
+        g.rectangle((c - 58 * u, 86 * u, c + 58 * u, 96 * u), fill=gold, outline=ink, width=int(3 * u))
+        g.polygon([(c - 7 * u, 40 * u), (c + 7 * u, 40 * u), (c + 3 * u, 14 * u), (c - 3 * u, 14 * u)], fill=(176, 40, 34, 255), outline=ink)
+    elif kind == 'lord':
+        g.pieslice((c - 52 * u, 46 * u, c + 52 * u, 128 * u), 180, 360, fill=dark, outline=ink, width=int(4 * u))
+        g.rectangle((c - 52 * u, 84 * u, c + 52 * u, 94 * u), fill=mid, outline=ink, width=int(3 * u))
+        E_(128, 40, 11, 13, fill=dark, outline=ink, width=int(3 * u))
+    elif kind == 'noble':
+        g.rectangle((c - 44 * u, 36 * u, c + 44 * u, 74 * u), fill=black, outline=ink, width=int(4 * u))
+        g.rectangle((c - 96 * u, 52 * u, c - 44 * u, 62 * u), fill=black, outline=ink, width=int(3 * u))
+        g.rectangle((c + 44 * u, 52 * u, c + 96 * u, 62 * u), fill=black, outline=ink, width=int(3 * u))
+    elif kind in ('youth', 'prince'):
+        E_(128, 40, 15, 17, fill=black, outline=ink, width=int(3 * u))
+        g.rectangle((c - 46 * u, 70 * u, c + 46 * u, 82 * u), fill=mid if kind == 'youth' else gold, outline=ink, width=int(3 * u))
+    elif kind == 'child':
+        for s in (-1, 1): E_(128 + s * 50, 66, 19, 21, fill=black, outline=ink, width=int(3 * u))
+        g.pieslice((c - 52 * u, 56 * u, c + 52 * u, 150 * u), 180, 360, fill=black)
+    elif kind == 'servant':
+        g.pieslice((c - 50 * u, 44 * u, c + 50 * u, 130 * u), 180, 360, fill=(128, 118, 106, 255), outline=ink, width=int(4 * u))
+    # mặt: mày, mắt, mũi, miệng
+    sad = kind in ('child',)
+    for s in (-1, 1):
+        ex = c + s * 19 * u; ey = (hy + 6) * u
+        g.line([(ex - 11 * u, ey - 14 * u + (0 if sad else s * -3 * u)), (ex + 11 * u, ey - 14 * u + (0 if sad else s * 3 * u))], fill=ink, width=int(5 * u))
+        if child: E_(128 + s * 19, hy + 8, 6.5, 8.5, fill=ink)
+        else: E_(128 + s * 19, hy + 8, 5.5, 7, fill=ink)
+    g.line([(c, (hy + 14) * u), (c - 4 * u, (hy + 30) * u), (c + 3 * u, (hy + 31) * u)], fill=(150, 104, 76, 255), width=int(3 * u))
+    if child:
+        for s in (-1, 1): E_(128 + s * 31, hy + 28, 8, 5, fill=(236, 150, 130, 255))
+        g.arc((c - 12 * u, (hy + 34) * u, c + 12 * u, (hy + 52) * u), 15, 165, fill=ink, width=int(4 * u))
+    elif kind in ('youth', 'prince'):
+        g.arc((c - 14 * u, (hy + 34) * u, c + 14 * u, (hy + 50) * u), 20, 160, fill=ink, width=int(4 * u))
+    else:
+        g.line([(c - 13 * u, (hy + 46) * u), (c + 13 * u, (hy + 46) * u)], fill=ink, width=int(4 * u))
+    # râu
+    if kind in ('king', 'general', 'lord', 'noble'):
+        g.polygon([(c - 24 * u, (hy + 34) * u), (c, (hy + 26) * u), (c + 24 * u, (hy + 34) * u), (c + 14 * u, (hy + 40) * u), (c - 14 * u, (hy + 40) * u)], fill=black)
+        if kind in ('king', 'noble'):
+            g.polygon([(c - 12 * u, (hy + 52) * u), (c + 12 * u, (hy + 52) * u), (c + 5 * u, (hy + 86) * u), (c - 5 * u, (hy + 86) * u)], fill=black)
+    # khung tròn + mặt nạ
+    ring = max(10, int(14 * u))
+    msk = _I.new('L', (N, N), 0); _D.Draw(msk).ellipse((0, 0, N - 1, N - 1), fill=255)
+    out = _I.new('RGBA', (N, N), (0, 0, 0, 0)); out.paste(im, (0, 0), msk)
+    go = _D.Draw(out)
+    go.ellipse((0, 0, N - 1, N - 1), outline=ink, width=ring + int(6 * u))
+    go.ellipse((int(3 * u), int(3 * u), N - 1 - int(3 * u), N - 1 - int(3 * u)), outline=tuple(col) + (255,), width=ring)
+    out = out.resize((S, S), _I.LANCZOS)
+    _FACE_CACHE[key] = out
+    return out

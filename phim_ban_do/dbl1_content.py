@@ -55,7 +55,7 @@ def own(name,col0,*steps):
     seq=[(0,col0)]
     for (t,c) in steps: seq.append((t,seq[-1][1]));seq.append((t+2.0,c))
     CITY_OWN[name]=seq
-GROUPS=[];BATT=[];FIRES=[];FX=[];OBJ=[];LETTERS=[];ARROWS=[];NOTES=[];MARKS=[];CARDS3=[];QUOTES=[];JOKES=[];METERS=[];NUMS=[];TITLES=[]
+GROUPS=[];BATT=[];FIRES=[];FX=[];OBJ=[];LETTERS=[];ARROWS=[];NOTES=[];MARKS=[];FACES=[];CARDS3=[];QUOTES=[];JOKES=[];METERS=[];NUMS=[];TITLES=[]
 REGIONS=[];RIVERS=[];ROUTES=[];TIDE=[];AMBIENT=[];PROPS=[]
 WATER=[('VỊNH BẮC BỘ',(107.3,19.9),26)]
 NIGHT=[(0,0)]
@@ -65,13 +65,27 @@ def G(name,col,n,keys,show=None,**kw):
 QUIET=[]
 def Q(a,b): QUIET.append((R(a,0),E(b,0)))
 def NT(n,o,dur,lo,la,txt,col=DK): NOTES.append((R(n,o),min(R(n,o+min(dur,3.5)),E(n,-0.1)),lo,la,txt,col))
-def C3(n,o,dur,name,role,col): CARDS3.append((R(n,o),min(R(n,o+dur),E(n,-0.2)),name,role,col))
+FACEMAP={'Dương Tam Kha':('Cổ Loa','noble'),'Ngô Xương Văn':('Cổ Loa','king'),'Ngô Xương Ngập':('Cổ Loa','king'),
+ 'Ngô Xương Xí':('Bình Kiều','lord'),'Ngô Nhật Khánh':('Đường Lâm','lord'),'Kiểu Công Hãn':('Phong Châu','lord'),'Trần Lãm':('Bố Hải Khẩu','lord'),
+ 'Đinh Bộ Lĩnh':('Hoa Lư','general'),'Vạn Thắng Vương':('Hoa Lư','general'),'Đinh Liễn':('Hoa Lư','youth'),'Trần Minh Công':('Bố Hải Khẩu','lord'),
+ 'Đại Thắng Minh Hoàng Đế':('Hoa Lư','king'),'Nguyễn Bặc':('Hoa Lư','general'),'Lê Hoàn':('Hoa Lư','general'),'Hạng Lang':('Hoa Lư','child'),'Đinh Toàn':('Hoa Lư','child')}
+def C3(n,o,dur,name,role,col):
+    CARDS3.append((R(n,o),min(R(n,o+dur),E(n,-0.2)),name,role,col))
+    if name in FACEMAP:
+        loc,kind=FACEMAP[name]
+        if name=='Đinh Liễn' and n>=66: kind='prince'
+        tm=CITY_SHOW[loc][0][0] if (kind=='lord' and loc in CITY_SHOW and CITY_SHOW[loc]) else None
+        FACE(n,o,dur,name,loc,kind,col,t_min=tm)
 def J(n,icon,text,off=1.2,dur=3.0): JOKES.append((R(n,off),min(E(n,-0.1),R(n,off)+dur),icon,text))
 def NU(n,big,small,delay=1.2): NUMS.append((_f(n),big,small,delay))
 def AR(n,o,dur,a,b,col,txt): ARROWS.append((R(n,o),min(R(n,o+dur),E(n,-0.1)),a,b,col,txt))
 def LET(n,o,dur,a,b,txt): LETTERS.append((R(n,o),R(n,o+dur),a,b,txt))
 def SKULL(n,o,dur,lo,la,txt): MARKS.append((R(n,o),R(n,o+dur),lo,la,'skull',txt))
 def X(name): return LOC[name][:2]
+def FACE(n,o,dur,name,loc,kind,col,dx=0,dy=0,t_min=None):
+    s=R(n,o)
+    if t_min is not None: s=max(s,t_min)
+    FACES.append((s,min(max(R(n,o+dur),s+2.2),E(n,-0.1)))+X(loc)+(name,kind,col,dx,dy))
 SCN=[]
 def S(a,b,lo,la,z): SCN.append((a,b,lo,la,z))
 def S2(a,b,pts,zmax=8.0,zmin=0.9,hmax=440):
@@ -98,6 +112,7 @@ P_DCV=[(105.05,21.50),(106.55,21.45),(106.90,20.60),(106.30,19.95),(105.40,19.72
 # sông Hồng (gần đúng): Bạch Hạc, Hà Nội, rồi xuôi về cửa Ba Lạt
 RIVER_HONG=[(105.43,21.30),(105.52,21.12),(105.72,21.06),(105.86,21.02),(105.95,20.86),(106.06,20.66),(106.17,20.44),(106.36,20.30),(106.55,20.22)]
 
+FACE(2,0.3,2.6,'Đinh Bộ Lĩnh','Hoa Lư','general',VT)
 TITLES.append((0.3,4.0,'ĐINH BỘ LĨNH','DẸP MƯỜI HAI SỨ QUÂN','Đại Cồ Việt, năm 968'))
 RIVERS.append(('SÔNG HỒNG',RIVER_HONG,6,(105.62,21.04),(0,R(15,0))))
 # ======================= CHƯƠNG 1: MỞ ĐẦU (1–6): cảnh treo con trên ngọn sào, rồi hai câu hỏi
@@ -193,6 +208,7 @@ S2(60,66,[X('Cổ Loa'),X('Bình Kiều'),X('Hoa Lư'),X('Bố Hải Khẩu')],2
 reg('ĐẠI CỒ VIỆT',(105.80,21.40),P_DCV,VT,(60,66),alpha=18)
 NU(60,'năm 968','Đinh Bộ Lĩnh lên ngôi, quốc hiệu Đại Cồ Việt',1.2)
 FX.append((at(60,'lên ngôi'),at(60,'lên ngôi',1.8),'trumpet',X('Hoa Lư'),(105.95,20.40)))
+FACE(60,0.3,3.0,'Đinh Bộ Lĩnh','Hoa Lư','king',VT)
 PROPS.append((R(61,0.6),E(61,0),'hall',105.90,20.31,'',0.9))
 C3(62,0.4,3.0,'Đại Thắng Minh Hoàng Đế','hiệu các quan dâng Đinh Bộ Lĩnh',VT)
 FX.append((R(62,0.3),R(62,1.5),'gong',X('Hoa Lư'),X('Hoa Lư')))
@@ -297,3 +313,6 @@ def year_of(n):
 NO_GROUP_LABEL=True
 SIDES=[('Nhà Ngô',NG,{g['name'].strip() for g in GROUPS if g['col']==NG}),('Các sứ quân',SQ,{g['name'].strip() for g in GROUPS if g['col']==SQ}),
        ('Đinh Bộ Lĩnh',VT,{g['name'].strip() for g in GROUPS if g['col']==VT}),('Địa phương',NEU,{g['name'].strip() for g in GROUPS if g['col']==NEU})]
+
+FACE(81,0.3,2.8,'Đỗ Thích','Hoa Lư','servant',(150,60,50))
+FACE(85,1.2,2.8,'Lê Hoàn','Hoa Lư','king',GD)

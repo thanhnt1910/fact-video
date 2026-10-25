@@ -416,6 +416,29 @@ def frame(t):
             if -200<x<W*K+200 and -200<y<H*K+200:
                 badge(d,x,y-ik*1.6,ik*1.9,kind,(t-tm)/0.8)
                 if lab: tag(d,x,y+ik*0.6,lab,(120,30,26),int(22*K*min(1.3,z**0.2)))
+    # mặt nhân vật hiện trên bản đồ khi được nhắc tên
+    for (t0,t1,lon,lat,nm_,kind_,col_,dx_,dy_) in getattr(C,'FACES',[]):
+        if not(t0<=t<=t1): continue
+        x,y=v.sc(lon,lat,K)
+        if not(-300<x<W*K+300 and -300<y<H*K+300): continue
+        u_=t-t0;k_=min(clamp(u_/0.45),clamp((t1-t)/0.4))
+        pop=ease(clamp(u_/0.45))*(1+0.16*math.sin(clamp(u_/0.45)*math.pi))
+        r_=max(ik*2.15,44*K)*pop*(0.5+0.5*min(1,k_*2));bob=math.sin(t*3.2+lon*9)*ik*0.14
+        fx=x+dx_*K;fy=y-max(ik*4.6,r_+ik*1.6)+dy_*K-bob
+        # vòng sóng lan ra tại điểm nhắc tên
+        for j_ in range(2):
+            ph_=((u_*0.9)+j_*0.5)%1.0
+            d.ellipse((x-ik*(0.6+2.2*ph_),y-ik*(0.6+2.2*ph_)*0.62,x+ik*(0.6+2.2*ph_),y+ik*(0.6+2.2*ph_)*0.62),outline=col_+(int(190*(1-ph_)*k_),),width=max(2,int(3*K*0.7)))
+        d.polygon([(fx-r_*0.30,fy+r_*0.80),(fx+r_*0.30,fy+r_*0.80),(x,y-ik*1.3)],fill=col_+(int(255*k_),),outline=(34,24,18,int(255*k_)))
+        sp_=MD.face_sprite(kind_,col_)
+        sz_=max(8,int(r_*2));sp2=sp_.resize((sz_,sz_),Image.LANCZOS)
+        if k_<1:
+            al_=sp2.getchannel('A').point(lambda a_:int(a_*k_));sp2.putalpha(al_)
+        ov.paste(sp2,(int(fx-r_),int(fy-r_)),sp2)
+        if kind_=='king' and u_<1.4:
+            for q_ in range(10):
+                an_=q_*0.628+0.3;rr_=r_*(1.05+0.9*(u_/1.4));d.line([(fx+math.cos(an_)*rr_*0.95,fy+math.sin(an_)*rr_*0.95),(fx+math.cos(an_)*rr_*1.25,fy+math.sin(an_)*rr_*1.25)],fill=(255,226,120,int(230*(1-u_/1.4))),width=max(3,int(4*K*0.6)))
+        tag(d,fx,fy-r_-ik*1.35,nm_,col_,int(24*K*min(1.3,z**0.2)))
     # trận
     for (t0,t1,bl,bt,who) in C.BATT:
         if t0<=t<=t1:

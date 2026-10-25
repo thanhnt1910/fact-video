@@ -11,11 +11,7 @@
    [khóa] GEMINI_API_KEY_11: trống
    [khóa] GEMINI_API_KEY_12: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 87 câu
+còn thiếu 2 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 11001 - 11016 117.6 giây
-OK cụm 11017 - 11032 123.9 giây
-OK cụm 11033 - 11048 109.0 giây
-OK cụm 11049 - 11064 129.0 giây
-OK cụm 11065 - 11080 111.5 giây
-OK cụm 11081 - 11087 53.3 giây
+OK cụm 11007 - 11007 8.5 giây
+OK cụm 11010 - 11010 7.3 giây

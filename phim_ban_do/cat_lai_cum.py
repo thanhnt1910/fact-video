@@ -9,9 +9,12 @@ def tok(t): return re.sub(r'[^\w\s]', ' ', t.lower()).split()
 def main():
     kb = json.load(open(sys.argv[1], encoding='utf-8')); kc = json.load(open(sys.argv[2], encoding='utf-8'))
     asr = json.load(open(sys.argv[3], encoding='utf-8')); vd, out = sys.argv[4], sys.argv[5]; per = int(sys.argv[6]) if len(sys.argv) > 6 else 16
+    sizes = [int(x) for x in sys.argv[7].split(',')] if len(sys.argv) > 7 else None
+    offs = [0]
+    for z in (sizes or []): offs.append(offs[-1] + z)
     os.makedirs(out, exist_ok=True); rep = []
     for ci, c in enumerate(kc):
-        g = kb[ci * per:(ci + 1) * per]; W = asr[str(c['n'])]
+        g = kb[offs[ci]:offs[ci + 1]] if sizes else kb[ci * per:(ci + 1) * per]; W = asr[str(c['n'])]
         x = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', f"{vd}/{c['n']}.mp3", '-f', 's16le', '-ac', '1', '-ar', str(SR), '-'], capture_output=True).stdout, np.int16).astype(np.float32) / 32768
         S = []; own = []
         for pi, b in enumerate(g):

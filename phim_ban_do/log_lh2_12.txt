@@ -1,0 +1,16 @@
++ nproc
+4
+++ head -1 ../ke-hoach/thu-giong-hai/dung_lh2.txt
++ MODE=full
++ python -
+tổng khung 16955 đoạn 12 12716 13775
++ read A0 A1
++ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_12.mp4 12716 13775
++ tail -n 15
+0 1059
+300 1059
+600 1059
+900 1059
+xong
++ ls -la doan_12.mp4
+-rw-r--r-- 1 runner runner 11785333 Oct 25 11:24 doan_12.mp4

@@ -13,4 +13,4 @@
    [khóa] GEMINI_API_KEYS: trống
 còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 12061 - 12061 8.4 giây
+OK cụm 12089 - 12089 9.6 giây

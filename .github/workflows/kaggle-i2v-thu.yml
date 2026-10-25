@@ -1,16 +1,11 @@
 name: Thử ảnh thành video (LTX-Video, Kaggle)
 
+# Chạy khi đẩy ke-hoach/thu-giong-hai/i2v_chay.txt trên nhánh thu-giong-hai.
+# Dòng đầu: "<mã> <số ảnh cách nhau dấu phẩy>", ví dụ: LH5Q 020,029,024
 on:
-  workflow_dispatch:
-    inputs:
-      ma:
-        description: "Mã ảnh (assets/anh_2d/<mã>)"
-        required: true
-        default: "LH5Q"
-      anh:
-        description: "Số ảnh, cách nhau dấu phẩy"
-        required: true
-        default: "020,029,024"
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/i2v_chay.txt']
 
 permissions:
   contents: write
@@ -29,7 +24,7 @@ jobs:
         env:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: python -u kaggle_i2v_thu.py "${{ inputs.ma }}" "${{ inputs.anh }}" 2>&1 | tee /tmp/i2v.txt
+        run: python -u kaggle_i2v_thu.py $(head -1 ke-hoach/thu-giong-hai/i2v_chay.txt) 2>&1 | tee /tmp/i2v.txt
       - name: Lưu kết quả
         if: always()
         run: |

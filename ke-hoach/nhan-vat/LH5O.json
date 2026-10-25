@@ -1,0 +1,119 @@
+{
+ "ma": "LH5O",
+ "ghi_chu": "16 ảnh mở đầu lh5, khung ngang",
+ "nhan_vat": {
+  "lehoan": "Le Hoan, a broad-shouldered Vietnamese warlord-king of about 49 with a square weathered face, thick straight eyebrows, a short dark beard, hair tied up under a plain dark headcloth, wearing a dark-brown crossed-collar tunic with a plain sash, firm calm dignified look, empty hands, no weapon",
+  "tong_a": "a Song dynasty envoy, a thin man of about 45 with a long thin moustache and narrow face, wearing a green round-collared robe with a wide belt and a black official hat with two straight flat wings",
+  "tong_b": "a second Song envoy, a plump man of about 55 with a round face, a short grey beard and kind tired eyes, wearing a red round-collared robe with a wide belt and a black official hat with two straight flat wings",
+  "tong_quan": "a proud Song official of about 50, lean, with a pointed chin beard and a smug raised chin, wearing a purple round-collared robe with a wide belt and a black official hat with two straight flat wings",
+  "tong_de": "the Song emperor on a grand throne, a middle-aged man in a yellow robe and a flat-topped crown with hanging bead strings, calm and remote"
+ },
+ "canh": [
+  {
+   "key": "001",
+   "nv": [
+    "tong_a"
+   ],
+   "mo_ta": "a Song envoy gallops on a brown horse along a misty mountain road at dawn toward"
+  },
+  {
+   "key": "002",
+   "nv": [
+    "lehoan",
+    "tong_a",
+    "tong_b"
+   ],
+   "mo_ta": "in the courtyard of a timber hall Le Hoan stands tall and upright with chin rais"
+  },
+  {
+   "key": "003",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "exactly ONE man only: Le Hoan sits composed on a low wooden bench in a timber ha"
+  },
+  {
+   "key": "004",
+   "nv": [],
+   "mo_ta": "a saddled brown horse stands alone on a dirt road in front of a timber fortress "
+  },
+  {
+   "key": "005",
+   "nv": [
+    "tong_a",
+    "tong_b"
+   ],
+   "mo_ta": "close shot of the two Song envoys side by side nodding with worried sympathetic "
+  },
+  {
+   "key": "006",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "exactly ONE man only: close side view of Le Hoan glancing sideways with a calm u"
+  },
+  {
+   "key": "007",
+   "nv": [],
+   "mo_ta": "huge Song dynasty capital city with towering grey walls, many-tiered pagoda towe"
+  },
+  {
+   "key": "008",
+   "nv": [
+    "tong_de"
+   ],
+   "mo_ta": "the Song emperor sits tiny on a grand throne at the far end of a vast hall, rows"
+  },
+  {
+   "key": "009",
+   "nv": [
+    "tong_a"
+   ],
+   "mo_ta": "exactly ONE man only: the thin Song envoy stands alone in a timber hall with a p"
+  },
+  {
+   "key": "010",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "exactly ONE man only: Le Hoan stands on the steps of his timber hall at dawn wit"
+  },
+  {
+   "key": "011",
+   "nv": [
+    "tong_quan",
+    "tong_de"
+   ],
+   "mo_ta": "in a grand Song hall the proud Song official in purple stands before the emperor"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "tong_quan"
+   ],
+   "mo_ta": "exactly ONE man only: close shot of the proud Song official in purple smiling sm"
+  },
+  {
+   "key": "013",
+   "nv": [],
+   "mo_ta": "a bamboo quiver full of arrows and a bow hang unused on a timber wall, a single "
+  },
+  {
+   "key": "014",
+   "nv": [],
+   "mo_ta": "three bamboo-slip scrolls tied with cord lie in a row on a low dark wooden table"
+  },
+  {
+   "key": "015",
+   "nv": [
+    "lehoan"
+   ],
+   "mo_ta": "exactly ONE man only: Le Hoan looks straight ahead with a determined face, dawn "
+  },
+  {
+   "key": "016",
+   "nv": [],
+   "mo_ta": "wide dawn landscape of limestone hills and a rice plain with a distant timber ci"
+  }
+ ]
+}

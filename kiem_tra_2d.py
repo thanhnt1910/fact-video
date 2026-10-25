@@ -19,6 +19,12 @@ ROOT = Path(__file__).resolve().parent
 # Quy ước riêng từng loạt (khóa = tiền tố mã). era: mô tả "sai thời"; extra: trường JSON thêm; cac_loi: đổi tên trường -> lý do vẽ lại.
 SERIES_MAC_DINH = {"era": "vật hiện đại không đúng năm 1914-1917, ví dụ máy tính, máy ảnh SLR, nhà kính hiện đại", "extra": "", "cac_loi": {}}
 SERIES = {
+    "LH": {
+        "era": "vật, trang phục không đúng Việt Nam hoặc Trung Hoa nhà Tống thế kỷ 10: đèn điện, kính, ghế có lưng, nến, sách đóng gáy, giấy, vật hiện đại, súng",
+        "extra": ('"bao_luc": <true nếu thấy máu, người bị chém, bị đâm hoặc cảnh giết>, '
+                  '"co_chu_bieu_tuong": <true nếu có chữ hoặc ký tự nhìn rõ trên cờ, biển, vật>, '),
+        "cac_loi": {"bao_luc": "có máu hoặc cảnh giết (không được)", "co_chu_bieu_tuong": "có chữ hoặc ký tự"},
+    },
     "TQ": {
         "era": "vật, trang phục không đúng Đông Hán năm 184-192 SCN: áo kiểu Minh/Thanh, bím tóc Mãn Thanh, trang điểm hí kịch, bàn đạp ngựa, súng, đường nhựa có vạch kẻ, cột điện, đèn điện / bóng đèn / chao đèn / đèn bàn / đèn lồng thủy tinh, cửa sổ kính ô vuông, ổ cắm hoặc công tắc trên tường, khung tranh, sách đóng gáy hiện đại, cốc có quai kiểu phương Tây, ghế kiểu phương Tây, vật hiện đại",
         "extra": ('"ngua_loi": <true nếu có con ngựa bị méo thân, thừa/thiếu chân, đầu sai, yên cương sai thời; ngựa vẽ đúng thì false>, '

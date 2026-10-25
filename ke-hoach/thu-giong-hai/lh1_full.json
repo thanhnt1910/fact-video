@@ -3,25 +3,25 @@
   "n": 11001,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Một quan nhà Tống từng nói, đánh nước Việt không tốn một mũi tên. Người ấy tính rằng ba mươi nghìn quân là đủ."
+  "text": "Có một vị vua nhận thư của vua Tống mà không chịu lạy."
  },
  {
   "n": 11002,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Vua Tống nghe theo. Vậy mà quân mới sang tới Lạng Sơn, viên quan cầm đầu một đạo đã bị dụ ra rồi bị chém."
+  "text": "Ông nói mình bị ngã ngựa đau chân. Lý do ấy là bịa ra, vậy mà hai sứ giả nhà Tống tin là thật."
  },
  {
   "n": 11003,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Người ra lệnh ấy là Lê Hoàn, vị vua vừa lên ngôi nước Đại Cồ Việt. Mấy tháng trước, ông còn giữ quyền thay một cậu bé sáu tuổi."
+  "text": "Vị vua ấy là Lê Hoàn. Mười năm trước, một quan nhà Tống còn tính đánh nước ông mà không tốn một mũi tên."
  },
  {
   "n": 11004,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Làm sao một viên tướng vừa lên ngôi lại chặn được quân Tống? Muốn biết, ta phải quay về cái chết của vua Đinh Tiên Hoàng."
+  "text": "Vì sao nước Đại Cồ Việt dám như vậy? Muốn biết, ta phải quay về cái chết của vua Đinh Tiên Hoàng."
  },
  {
   "n": 11005,
@@ -165,7 +165,7 @@
   "n": 11028,
   "chuong": "Tiếng hô vạn tuế",
   "tone": "story",
-  "text": "Về sau các sử gia cãi nhau mãi về việc này. Ta sẽ gặp lại cuộc tranh cãi ấy ở cuối câu chuyện."
+  "text": "Từ lúc ấy, Lê Hoàn không chỉ giữ quyền thay vua nhỏ. Ông là người phải đối mặt với quân Tống đang tiến tới."
  },
  {
   "n": 11029,
@@ -451,96 +451,72 @@
  },
  {
   "n": 11076,
-  "chuong": "Dựng nghiệp trong nước",
+  "chuong": "Không lạy sứ giả",
   "tone": "story",
-  "text": "Trong nước, Lê Hoàn cũng lo dựng cơ nghiệp. Năm chín trăm tám mươi bốn, ông cho đúc tiền Thiên Phúc, rồi dựng nhiều cung điện ở Hoa Lư."
+  "text": "Trước đây sứ Tống sang thường mượn cớ đòi cống nước mắm để bắt dân đóng góp."
  },
  {
   "n": 11077,
-  "chuong": "Dựng nghiệp trong nước",
+  "chuong": "Không lạy sứ giả",
   "tone": "story",
-  "text": "Mùa xuân năm chín trăm tám mươi bảy, lần đầu tiên ông xuống ruộng ở núi Đọi, đích thân cày ruộng tịch điền, ruộng để nhà vua mở đầu mùa cày."
+  "text": "Tống Chân Tông lên ngôi thì chỉ sai quan giữ biên giới nhận mệnh, không sai sứ sang nữa."
  },
  {
   "n": 11078,
   "chuong": "Dựng nghiệp trong nước",
   "tone": "story",
-  "text": "Các vùng núi trong nước cũng chưa yên. Năm chín trăm chín mươi chín, ông thân chinh đi đánh bốn mươi chín động, từ đó các châu động đều quy phục."
+  "text": "Trong nước, Lê Hoàn cũng lo dựng cơ nghiệp. Năm chín trăm tám mươi bốn, ông cho đúc tiền Thiên Phúc, rồi dựng nhiều cung điện ở Hoa Lư."
  },
  {
   "n": 11079,
   "chuong": "Dựng nghiệp trong nước",
   "tone": "story",
-  "text": "Năm một nghìn lẻ một, ông đi thuyền đuổi giặc ở Cử Long. Giặc bày trận hai bên bờ, quân của ông bị kẹt giữa sông."
+  "text": "Mùa xuân năm chín trăm tám mươi bảy, lần đầu tiên ông xuống ruộng ở núi Đọi, đích thân cày ruộng tịch điền, ruộng để nhà vua mở đầu mùa cày."
  },
  {
   "n": 11080,
   "chuong": "Dựng nghiệp trong nước",
   "tone": "story",
-  "text": "Vệ Vương Đinh Toàn, vị vua nhỏ ngày trước, trúng tên chết tại trận. Lê Hoàn kêu trời ba tiếng rồi thúc quân đánh, và giặc tan vỡ."
+  "text": "Các vùng núi trong nước cũng chưa yên. Năm chín trăm chín mươi chín, ông thân chinh đi đánh bốn mươi chín động, từ đó các châu động đều quy phục."
  },
  {
   "n": 11081,
   "chuong": "Dựng nghiệp trong nước",
   "tone": "story",
-  "text": "Năm một nghìn lẻ hai, ông định luật lệnh và chọn lại quân lính. Mười đạo cũ được đổi thành lộ, phủ và châu."
+  "text": "Năm một nghìn lẻ một, ông đi thuyền đuổi giặc ở Cử Long. Giặc bày trận hai bên bờ, quân của ông bị kẹt giữa sông."
  },
  {
   "n": 11082,
-  "chuong": "Kết",
+  "chuong": "Dựng nghiệp trong nước",
   "tone": "story",
-  "text": "Mùa xuân năm một nghìn lẻ năm, Lê Hoàn mất ở điện Trường Xuân, sau hai mươi bốn năm ở ngôi. Người đời gọi ông là Đại Hành Hoàng Đế."
+  "text": "Vệ Vương Đinh Toàn, vị vua nhỏ ngày trước, trúng tên chết tại trận. Lê Hoàn kêu trời ba tiếng rồi thúc quân đánh, và giặc tan vỡ."
  },
  {
   "n": 11083,
-  "chuong": "Kết",
+  "chuong": "Dựng nghiệp trong nước",
   "tone": "story",
-  "text": "Lê Văn Hưu đem ông so với Lý Thái Tổ, vua lập ra nhà Lý sau này."
+  "text": "Năm một nghìn lẻ hai, ông định luật lệnh và chọn lại quân lính. Mười đạo cũ được đổi thành lộ, phủ và châu."
  },
  {
   "n": 11084,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Về việc dẹp loạn trong, đánh tan giặc ngoài và khiến nhà Tống phải nể, Lê Văn Hưu cho rằng Lê Hoàn có công gian khổ hơn."
+  "text": "Mùa xuân năm một nghìn lẻ năm, Lê Hoàn mất ở điện Trường Xuân, sau hai mươi bốn năm ở ngôi. Người đời gọi ông là Đại Hành Hoàng Đế."
  },
  {
   "n": 11085,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Nhưng về ân đức và việc để phúc cho con cháu, ông thấy Lê Hoàn không bằng Lý Thái Tổ."
+  "text": "Người xưa tổng kết rằng ông trừ được kẻ bên trong để lấy nước, đuổi được giặc ngoài để yên dân. Trong nước thanh bình, Bắc Nam không có việc gì."
  },
  {
   "n": 11086,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Người đời sau cũng tiếc rằng Lê Hoàn không sớm chọn người nối ngôi."
+  "text": "Mười năm sau trận Lạng Sơn, ông bưng thư vua Tống mà không lạy, và nhà Tống bằng lòng cho thư từ trao nhận ở biên giới."
  },
  {
   "n": 11087,
-  "chuong": "Kết",
-  "tone": "story",
-  "text": "Ngô Sĩ Liên thì nhìn khác. Ông viết rằng Đinh Toàn tuy nhỏ vẫn là vua, vậy mà Lê Hoàn tự xưng Phó Vương và rắp tâm làm điều bất lợi."
- },
- {
-  "n": 11088,
-  "chuong": "Kết",
-  "tone": "story",
-  "text": "Theo ông, Nguyễn Bặc và Đinh Điền khởi binh để giữ nhà Đinh chứ không làm loạn. Họ chết vì không giết được Lê Hoàn, ấy là chết đúng chỗ."
- },
- {
-  "n": 11089,
-  "chuong": "Kết",
-  "tone": "story",
-  "text": "Một bên nhìn vào người đã giữ yên bờ cõi. Bên kia nhìn vào cách ông ngồi lên ngôi vua."
- },
- {
-  "n": 11090,
-  "chuong": "Kết",
-  "tone": "story",
-  "text": "Riêng mùa xuân năm chín trăm tám mươi mốt thì kết cục rất rõ. Quân Tống sang tới Lạng Sơn rồi phải rút về."
- },
- {
-  "n": 11091,
   "chuong": "Kết",
   "tone": "story",
   "text": "Đó là chuyện của Lê Hoàn, người đã chặn quân Tống ở vùng biên giới phía bắc."

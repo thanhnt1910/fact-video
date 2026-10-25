@@ -1,4 +1,4 @@
-# Lê Hoàn đánh quân Tống (981): dàn ý video bản đồ khoảng 11–12 phút, giọng Puck (chờ chủ kênh duyệt)
+# Lê Hoàn không lạy sứ Tống (đánh quân Tống 981): dàn ý video bản đồ khoảng 11–12 phút, giọng Puck (chờ chủ kênh duyệt)
 
 Trạng thái: DÀN Ý + KỊCH BẢN ĐỀ XUẤT. Kịch bản: `ke-hoach/le-hoan-kich-ban.md`; dữ liệu giọng: `ke-hoach/thu-giong-hai/lh1_full.json` (mã `lh1`, đoạn 11001–11091). Ngày lập 25/10/2026.
 Vị trí trong lộ trình: video số 11 của `ke-hoach/dai-viet-su-ky-lo-trinh.md` (sau Đinh Bộ Lĩnh, video 10), trọn gói một chủ đề.
@@ -13,21 +13,21 @@ Chỉ dùng `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (bản dịch Viện Kh
 ## Bảng chương
 | # | Chương | Nội dung | Mức | Thời điểm ước tính |
 |---|---|---|---|---|
-| 1 | Mở đầu | Lời quan nhà Tống "không tốn một mũi tên", Hầu Nhân Bảo bị dụ và chém; Lê Hoàn là ai | A | 0:00 |
-| 2 | Đứa bé sáu tuổi và người giữ quyền | Đinh Tiên Hoàng mất, Đinh Toàn sáu tuổi, Lê Hoàn nhiếp chính; Bặc, Điền, Hạp dấy binh và thua; Ngô Nhật Khánh gặp bão | A | 0:31 |
-| 3 | Nhà Tống nhìn sang | Hầu Nhân Bảo dâng thư, Lư Đa Tốn bàn đánh úp, Tống chia quân hai đạo | A | 1:58 |
-| 4 | Tiếng hô vạn tuế | Phạm Cự Lạng và các tướng tôn Lê Hoàn; nhà Đinh chấm dứt | A | 2:56 |
-| 5 | Hai bức thư | Thư Tống Thái Tông; thư giả mượn tên Đinh Toàn; thư trả lời hai đường | A, B | 3:43 |
-| 6 | Mùa xuân ở Lạng Sơn | Trận năm 981: đóng cọc, trá hàng, chém Hầu Nhân Bảo, đuổi Trần Khâm Tộ, bắt hai tướng | A, B | 4:36 |
-| 7 | Quân Tống rút về | Tống rút quân, xử các tướng; lời Lê Văn Hưu | A | 5:35 |
-| 8 | Đi đánh Chiêm Thành | Sứ giả bị bắt, chiến dịch 982, kênh mới | A | 6:16 |
-| 9 | Sứ nhà Tống và hai con ngỗng | Tiết độ sứ, trả hai tướng, Lý Giác và sư Pháp Thuận | A | 6:55 |
-| 10 | Không lạy sứ giả | Tống Cảo 990, vụ Như Hồng 995, Lý Nhược Chuyết 996 | A | 8:04 |
-| 11 | Dựng nghiệp trong nước | Đúc tiền, tịch điền, dẹp động, Cử Long, định luật lệnh | A, B | 9:21 |
-| 12 | Kết | Mất năm 1005; Lê Văn Hưu và Ngô Sĩ Liên bàn khác nhau | A | 10:12 |
+| 1 | Mở đầu | Cảnh Lê Hoàn không lạy sứ Tống năm 990, rồi quay về 979 | A | 0:00 |
+| 2 | Đứa bé sáu tuổi và người giữ quyền | Đinh Tiên Hoàng mất, Đinh Toàn sáu tuổi, Lê Hoàn nhiếp chính; Bặc, Điền, Hạp dấy binh và thua; Ngô Nhật Khánh gặp bão | A | 0:25 |
+| 3 | Nhà Tống nhìn sang | Hầu Nhân Bảo dâng thư, Lư Đa Tốn bàn đánh úp, Tống chia quân hai đạo | A | 1:52 |
+| 4 | Tiếng hô vạn tuế | Phạm Cự Lạng và các tướng tôn Lê Hoàn; nhà Đinh chấm dứt | A | 2:49 |
+| 5 | Hai bức thư | Thư Tống Thái Tông; thư giả mượn tên Đinh Toàn; thư trả lời hai đường | A, B | 3:36 |
+| 6 | Mùa xuân ở Lạng Sơn | Trận năm 981: đóng cọc, trá hàng, chém Hầu Nhân Bảo, đuổi Trần Khâm Tộ, bắt hai tướng | A, B | 4:29 |
+| 7 | Quân Tống rút về | Tống rút quân, xử các tướng; lời Lê Văn Hưu | A | 5:29 |
+| 8 | Đi đánh Chiêm Thành | Sứ giả bị bắt, chiến dịch 982, kênh mới | A | 6:10 |
+| 9 | Sứ nhà Tống và hai con ngỗng | Tiết độ sứ, trả hai tướng, Lý Giác và sư Pháp Thuận | A | 6:49 |
+| 10 | Không lạy sứ giả | Tống Cảo 990, vụ Như Hồng 995, Lý Nhược Chuyết 996 | A | 7:57 |
+| 11 | Dựng nghiệp trong nước | Đúc tiền, tịch điền, dẹp động, Cử Long, định luật lệnh | A, B | 9:27 |
+| 12 | Kết | Mất năm 1005; câu tổng kết công trạng; nối lại cảnh không lạy | A | 10:18 |
 
-## Điểm cần chủ kênh quyết định
-1. Chủ đề này hay chuyển sang đề tài khác (Lý Công Uẩn dời đô, Lý Thường Kiệt, Tây Sơn: dàn ý đã có ở `tay-son-dan-y.md`)?
-2. Có giữ đoạn Ngô Sĩ Liên chê Lê Hoàn (chương Kết) không? Đoạn này cân bằng với Lê Văn Hưu và làm lời kết có chiều sâu, nhưng nêu việc Lê Hoàn tự xưng Phó Vương và chiếm ngôi vua nhỏ.
-3. Giữ hay bỏ hai chương ngoại giao (9 và 10, khoảng 3 phút)? Bỏ thì video còn khoảng 8 phút, dưới sàn 10 phút, nên nếu bỏ phải thay bằng chất liệu khác có nguồn.
-4. Mở đầu dùng lời của Lư Đa Tốn và cái kết của Hầu Nhân Bảo (đề xuất), hay mở bằng cảnh Lê Hoàn bước lên điện không lạy sứ Tống (chương 10)?
+## Đã chốt (chủ kênh 25/10/2026)
+1. Giữ chủ đề Lê Hoàn để liền mạch sử.
+2. Bỏ đoạn Ngô Sĩ Liên chê và so sánh với Lý Thái Tổ; đoạn kết thay bằng câu tổng kết công trạng và nối lại cảnh không lạy sứ Tống.
+3. Giữ hai chương ngoại giao (chương 9 và 10), vì nay chúng là phần mở đầu và giữ độ dài trên 10 phút; chất liệu dự phòng nếu thiếu nằm cuối `le-hoan-kich-ban.md`.
+4. Mở đầu bằng cảnh Lê Hoàn bưng thư vua Tống mà không lạy (năm 990).

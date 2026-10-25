@@ -34,6 +34,20 @@ def hoof(t0,dur,spd=0.17):
             s+=np.sin(2*math.pi*110*np.arange(n)/SR).astype(np.float32)*env(n,0.002,0.03)*0.7
             add(s,t+o,0.9)
         t+=0.19+spd*0.8
+def clop(t0,dur,g=0.55):
+    t=t0
+    while t<t0+dur:
+        for o_,ff in ((0,520),(0.16,410)):
+            m=int(0.07*SR);tq=np.arange(m)/SR
+            s=(np.sin(2*math.pi*ff*tq)+0.5*np.sin(2*math.pi*ff*2.3*tq))*np.exp(-tq/0.018)+lp(rng.normal(0,1,m).astype(np.float32),2500)*np.exp(-tq/0.01)*0.6
+            add(s.astype(np.float32),t+o_,g)
+        t+=0.42
+def bells(t0,dur,g=0.16):
+    tt=t0
+    while tt<t0+dur:
+        f=rng.choice([2900,3300,3800,4300]);m=int(0.22*SR);tq=np.arange(m)/SR
+        add((np.sin(2*math.pi*f*tq)*np.exp(-tq/0.06)+0.4*np.sin(2*math.pi*f*2.01*tq)*np.exp(-tq/0.03)).astype(np.float32),tt,g)
+        tt+=rng.uniform(0.16,0.34)
 def steps(t0,dur,bpm=104):
     iv=60/bpm;t=t0;i=0
     while t<t0+dur:
@@ -218,6 +232,10 @@ for (t0,t1,kind,a_,b_) in getattr(C,'OBJ',[]):
     elif kind in ('tunnel','ditch'): steps(t0,2.5)
     elif kind=='loot': tick(t0+0.5,0.5)
 for x in getattr(C,'TITLES',[]): thump(x[0],1.0);horn(x[0]+0.1,2.4,0.4)
+for (ts,kd) in getattr(C,'SFX',[]):
+    if kd=='horn': horn(ts,1.8,0.45)
+    elif kd=='gong': gong(ts,0.6)
+    elif kd=='trumpet': trumpet(ts,1.3,0.5)
 for x in getattr(C,'JOKES',[]): tick(x[0],0.9);tick(x[0]+0.12,0.5)
 for x in getattr(C,'QUOTES',[]): tick(x[0],0.5)
 for x in getattr(C,'CARDS3',[]): tick(x[0],0.35)
@@ -226,11 +244,13 @@ for (t0,t1,a_,b_,nm) in C.LETTERS: whoosh(t0,min(4,t1-t0),0.35)
 for (t0,t1,a_,b_,col,lab) in C.ARROWS: tick(t0,0.35)
 for g in C.GROUPS:
     ks=g['keys'];kind=g.get('kind','inf')
-    if QA and g.get('label') is False: continue
+    if QA and g.get('label') is False and g['name'] not in getattr(C,'SFX_GROUPS',()): continue
     for i in range(len(ks)-1):
         a_,b_=ks[i],ks[i+1]
         if (a_[1],a_[2])!=(b_[1],b_[2]) and b_[0]-a_[0]>0.6 and b_[0]<TOTAL:
-            if kind=='cav': hoof(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.2)
+            if kind=='cav':
+                hoof(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.2)
+                if g['name'] in getattr(C,'SFX_GROUPS',()): clop(a_[0]+0.3,min(b_[0]-a_[0],8.0));bells(a_[0]+0.3,min(b_[0]-a_[0],8.0))
             else: steps(a_[0]+0.3,min(b_[0]-a_[0],8.0))
 if C.__name__=='tq45_content':
     for t0 in (C.R(137)+6.5,C.R(144)): creak(t0)
@@ -246,23 +266,24 @@ def _pluck(t0,f,g=0.5,dec=0.9):
     n=int(min(2.5,dec*4)*SR);t=np.arange(n)/SR
     y=(np.sin(2*math.pi*f*t)+0.4*np.sin(2*math.pi*2*f*t)+0.15*np.sin(2*math.pi*3*f*t))*np.exp(-t/dec)*np.minimum(t/0.006,1)
     add(y.astype(np.float32),t0,g)
-def _pad(t0,t1,freqs,g=0.3):
+def _pad(t0,t1,freqs,g=0.3,steady=False):
     n=int((t1-t0)*SR);t=np.arange(n)/SR;y=np.zeros(n,np.float32)
     for k,f in enumerate(freqs):
-        for dt in (-0.7,0.7): y+=np.sin(2*math.pi*(f+dt)*t+k).astype(np.float32)
+        for dt in ((0.0,) if steady else (-0.7,0.7)): y+=np.sin(2*math.pi*(f+dt)*t+k).astype(np.float32)
     y*=np.minimum(np.minimum(t/1.8,1),np.minimum((t1-t0-t)/1.8,1)).astype(np.float32)
-    y*=(0.8+0.2*np.sin(2*math.pi*t/7.0)).astype(np.float32)
-    add(lp(y,1400)/max(1,len(freqs)),t0,g)
+    if not steady: y*=(0.8+0.2*np.sin(2*math.pi*t/7.0)).astype(np.float32)
+    add(lp(y,1400)/max(1,len(freqs))*(1.6 if steady else 1.0),t0,g)
 _N={'D2':73.4,'A2':110.0,'F2':87.3,'G2':98.0,'D3':146.8,'A3':220.0,'F3':174.6,'E3':164.8,'G3':196.0,'B3':246.9,'C4':261.6,'D4':293.7,'E4':329.6,'F4':349.2,'G4':392.0,'A4':440.0,'B4':493.9,'C5':523.3,'D5':587.3}
 _MOOD={'binh':(['D2','A2','D3'],['D4','E4','G4','A4','B4'],2.4,0.9),'mo':(['D2','A2','E3'],['A4','G4','E4','D4'],3.2,0.8),
  'bi':(['D2','F2','A2'],['D4','F4','A4','G4'],3.0,1.0),'loan':(['D2','A2','F3'],['D4','F4','E4','A4','C5'],1.4,0.5),
  'cang':(['D2','A2'],['A3','D4','F4'],1.8,0.6),'hanh':(['D2','A2','D3'],['D4','F4','G4','A4'],1.1,0.45),
+ 'vac':(['D2','A2','D3'],['D4','E4','G4','A4','B4'],2.2,0.9),
  'trang':(['D2','A2','D3','A3'],['D4','E4','G4','A4','B4','D5'],1.6,0.9),'dem':(['D2','A2'],['A3','D4','E4'],3.8,1.2)}
 _rm=np.random.default_rng(11)
 for (m0,m1,mood,vol) in getattr(C,'MUSIC',[]):
     if m1<=m0 or mood not in _MOOD: continue
     drone,mel,gap,dec=_MOOD[mood]
-    _pad(m0,min(m1+1.0,TOTAL-0.5),[_N[x] for x in drone],0.20*vol)
+    _pad(m0,min(m1+1.0,TOTAL-0.5),[_N[x] for x in drone],0.20*vol,steady=(mood=='vac'))
     t=m0+0.6
     while t<m1-0.8:
         _pluck(t,_N[mel[int(_rm.integers(len(mel)))]],0.16*vol,dec);t+=gap*(0.75+0.5*_rm.random())

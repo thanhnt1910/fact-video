@@ -299,7 +299,7 @@ MINI=[(0,TOTAL)]
 # âm nhạc nền tự tổng hợp (audio2.py), theo từng chương: (bắt đầu, kết thúc, tâm trạng, âm lượng)
 QUIET_AUDIO=True   # tắt mọi tiếng nhiễu (gió, tick, whoosh, lửa, đám đông, bước chân nhóm nhỏ); chỉ giữ nhạc, trống, kèn, chiêng
 MUSIC=[(0,R(3,0),'cang',1.0),(R(3,0),R(7,0),'mo',1.0),(R(7,0),R(15,0),'bi',1.0),(R(15,0),R(23,0),'loan',1.0),(R(23,0),R(35,0),'binh',1.0),
-       (R(35,0),R(44,0),'cang',1.0),(R(44,0),R(53,0),'hanh',1.0),(R(53,0),_tf,'cang',1.0),(_tf,R(57,0),'trang',1.0),(R(57,0),R(67,0),'trang',0.9),
+       (R(35,0),R(44,0),'cang',1.0),(R(44,0),R(53,0),'hanh',1.0),(R(53,0),_tf,'cang',1.0),(_tf,R(57,0),'trang',1.0),(R(57,0),R(64,-1.0),'trang',0.9),(R(64,-1.0),R(66,0),'vac',0.9),(R(66,0),R(67,0),'trang',0.9),
        (R(67,0),R(73,0),'binh',0.9),(R(73,0),R(79,0),'bi',1.0),(R(79,0),R(84,0),'dem',1.0),(R(84,0),R(89,0),'bi',1.0),(R(89,0),E(89,0),'dem',1.0),
        (E(89,0),TOTAL,'trang',1.0)]
 def gate_open(t): return 0
@@ -316,3 +316,7 @@ SIDES=[('Nhà Ngô',NG,{g['name'].strip() for g in GROUPS if g['col']==NG}),('C�
 
 FACE(81,0.3,2.8,'Đỗ Thích','Hoa Lư','servant',(150,60,50))
 FACE(85,1.2,2.8,'Lê Hoàn','Hoa Lư','king',GD)
+
+# tiếng riêng: đoàn sứ xuất phát, đến nhà Tống, đoàn sứ về tới Hoa Lư
+SFX=[(at(67,'sai sứ'),'horn'),(at(67,'sai sứ')+6.5,'trumpet'),(at(70,'Nhà Tống')+0.3,'gong'),(at(70,'Nhà Tống')+6.5,'gong')]
+SFX_GROUPS=['Đoàn sứ','Đoàn sứ về']   # nhóm không nhãn nhưng vẫn có tiếng vó ngựa và lục lạc

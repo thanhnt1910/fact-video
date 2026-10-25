@@ -1,0 +1,37 @@
+TỔNG HỢP KIỂM ẢNH · LH5Q · 30 ảnh · 3934 giây · 0 vòng vẽ lại
+Còn lỗi (9): 001,002,003,005,006,007,008,009,010
+Chưa kiểm bằng AI (21): 004,011,012,013,014,015,016,017,018,019,020,021,022,023,024,025,026,027,028,029,030
+
+001 · LỖI: có người giống trẻ con / hoạt hình; lệch nhân vật: Song dynasty envoy sai mũ quan hai cánh thẳng, mặt và nét vẽ hoạt hình thiếu nhi; sai thời: mũ vành tròn kiểu hiện đại; điểm 2/5 · điểm 2
+002 · LỖI: có người giống trẻ con / hoạt hình; lệch nhân vật: Le Hoan nét mặt hoảng hốt thay vì uy nghiêm điềm tĩnh; Hai sứ Tống tạo hình dạng hoạt hình đầu to mắt tròn; thừa người (9 thay vì 3); điểm 2/5 · điểm 2
+003 · LỖI: có người giống trẻ con / hoạt hình; giải phẫu: Bàn chân bó bột/băng gạc bị phóng to biến dạng cực đại so với cơ thể; lệch nhân vật: Le Hoan vẽ theo phong cách hoạt hình, đầu to, nét mặt tròn thiếu vẻ dạn dày; sai thời: Băng bó kiểu hiện đại kèm hiệu ứng lấp lánh; điểm 2/5 · điểm 2
+004 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This
+005 · LỖI: có người giống trẻ con / hoạt hình; lệch nhân vật: cả hai sứ giả đội mũ vành tròn thay vì mũ cánh chuồn nhà Tống; sai thời: mũ quan sai quy chế nhà Tống; điểm 2/5 · điểm 2
+006 · LỖI: có người giống trẻ con / hoạt hình · điểm 3
+007 · LỖI: có người giống trẻ con / hoạt hình; lệch nhân vật: Cánh mũ quan chưa đúng dạng cánh chuồn dài phẳng nhà Tống; sai thời: Biểu tượng dấu chấm hỏi hiện đại lơ lửng trên trời; có chữ hoặc ký tự; điểm 2/5 · điểm 2
+008 · LỖI: có người giống trẻ con / hoạt hình; lệch nhân vật: Xuất hiện 2 sứ giả thay vì 1, nét mặt hoạt hình mắt to chưa đúng độ tuổi 45 sạm gió; thừa người (2 thay vì 1) · điểm 3
+009 · LỖI: có người giống trẻ con / hoạt hình; lệch nhân vật: Le Hoan; thừa người (5 thay vì 1); điểm 2/5 · điểm 2
+010 · LỖI: có người giống trẻ con / hoạt hình; thừa người (2 thay vì 1) · điểm 3
+011 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+012 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+013 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+014 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+015 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+016 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+017 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+018 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+019 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+020 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+021 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+022 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+023 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+024 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+025 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+026 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+027 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+028 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+029 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+030 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)

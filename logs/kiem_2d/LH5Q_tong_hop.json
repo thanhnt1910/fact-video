@@ -1,0 +1,295 @@
+{
+ "001": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "lệch nhân vật: Song dynasty envoy sai mũ quan hai cánh thẳng, mặt và nét vẽ hoạt hình thiếu nhi",
+   "sai thời: mũ vành tròn kiểu hiện đại",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Nhân vật vẽ theo phong cách hoạt hình thiếu nhi và sai hoàn toàn mũ quan nhà Tống.",
+  "da_kiem_ai": true
+ },
+ "002": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "lệch nhân vật: Le Hoan nét mặt hoảng hốt thay vì uy nghiêm điềm tĩnh; Hai sứ Tống tạo hình dạng hoạt hình đầu to mắt tròn",
+   "thừa người (9 thay vì 3)",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Nhân vật vẽ theo nét hoạt hình thiếu nhi với mắt to và biểu cảm cường điệu, chưa đạt yêu cầu nghiêm túc.",
+  "da_kiem_ai": true
+ },
+ "003": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "giải phẫu: Bàn chân bó bột/băng gạc bị phóng to biến dạng cực đại so với cơ thể",
+   "lệch nhân vật: Le Hoan vẽ theo phong cách hoạt hình, đầu to, nét mặt tròn thiếu vẻ dạn dày",
+   "sai thời: Băng bó kiểu hiện đại kèm hiệu ứng lấp lánh",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Hình ảnh mang nét hoạt hình thiếu nhi và tỷ lệ chân bị phóng đại bất thường.",
+  "da_kiem_ai": true
+ },
+ "004": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "005": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "lệch nhân vật: cả hai sứ giả đội mũ vành tròn thay vì mũ cánh chuồn nhà Tống",
+   "sai thời: mũ quan sai quy chế nhà Tống",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Nét vẽ mang tính hoạt hình tròn trịa và mũ sai thời kỳ.",
+  "da_kiem_ai": true
+ },
+ "006": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình"
+  ],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Binh lính và nhân vật vẽ nét hoạt hình đầu to mắt tròn kiểu trẻ em, chưa đạt độ chín chắn nghiêm túc.",
+  "da_kiem_ai": true
+ },
+ "007": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "lệch nhân vật: Cánh mũ quan chưa đúng dạng cánh chuồn dài phẳng nhà Tống",
+   "sai thời: Biểu tượng dấu chấm hỏi hiện đại lơ lửng trên trời",
+   "có chữ hoặc ký tự",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Hình vẽ phong cách hoạt hình trẻ con và có biểu tượng dấu hỏi giữa trời.",
+  "da_kiem_ai": true
+ },
+ "008": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "lệch nhân vật: Xuất hiện 2 sứ giả thay vì 1, nét mặt hoạt hình mắt to chưa đúng độ tuổi 45 sạm gió",
+   "thừa người (2 thay vì 1)"
+  ],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Tranh vẽ 2 sứ giả giống nhau với nét hoạt hình mắt to và bong bóng suy nghĩ chưa sát phong cách lịch sử nghiêm túc.",
+  "da_kiem_ai": true
+ },
+ "009": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "lệch nhân vật: Le Hoan",
+   "thừa người (5 thay vì 1)",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Nhân vật vẽ theo nét hoạt hình trẻ con, mắt to tròn thiếu vẻ chững chạc và sạm gió của độ tuổi 49.",
+  "da_kiem_ai": true
+ },
+ "010": {
+  "loi": [
+   "có người giống trẻ con / hoạt hình",
+   "thừa người (2 thay vì 1)"
+  ],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Nét mặt mang phong cách hoạt hình tròn trịa và có trẻ em ở hậu cảnh.",
+  "da_kiem_ai": true
+ },
+ "011": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "012": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "013": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "014": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "015": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "016": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "017": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "018": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "019": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "020": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "021": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "022": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "023": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "024": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "025": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "026": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "027": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "028": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "029": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "030": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ }
+}

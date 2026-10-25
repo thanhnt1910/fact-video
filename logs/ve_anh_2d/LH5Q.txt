@@ -1,0 +1,25 @@
+Vẽ 30 ảnh (đợt 0)
+     🖥️  Gửi 30 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .running
+     🖥️  16.3 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (16 phút)
+     🖥️  Nhận về 30/30 tranh từ Kaggle
+Nhận về 30/30 ảnh
+== Kiểm ảnh (vòng 0): 30 ảnh ==
+   001: điểm 2 · có người giống trẻ con / hoạt hình; lệch nhân vật: Song dynasty envoy sai mũ quan hai cánh thẳng, mặt và nét vẽ hoạt hình thiếu nhi; sai thời: mũ vành tròn kiểu hiện đại; điểm 2/5
+   002: điểm 2 · có người giống trẻ con / hoạt hình; lệch nhân vật: Le Hoan nét mặt hoảng hốt thay vì uy nghiêm điềm tĩnh; Hai sứ Tống tạo hình dạng hoạt hình đầu to mắt tròn; thừa người (9 thay vì 3); điểm 2/5
+   003: điểm 2 · có người giống trẻ con / hoạt hình; giải phẫu: Bàn chân bó bột/băng gạc bị phóng to biến dạng cực đại so với cơ thể; lệch nhân vật: Le Hoan vẽ theo phong cách hoạt hình, đầu to, nét mặt tròn thiếu vẻ dạn dày; sai thời: Băng bó kiểu hiện đại kèm hiệu ứng lấp lánh; điểm 2/5
+   004: Gemini không kiểm được (1/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   005: điểm 2 · có người giống trẻ con / hoạt hình; lệch nhân vật: cả hai sứ giả đội mũ vành tròn thay vì mũ cánh chuồn nhà Tống; sai thời: mũ quan sai quy chế nhà Tống; điểm 2/5
+   006: điểm 3 · có người giống trẻ con / hoạt hình
+   007: điểm 2 · có người giống trẻ con / hoạt hình; lệch nhân vật: Cánh mũ quan chưa đúng dạng cánh chuồn dài phẳng nhà Tống; sai thời: Biểu tượng dấu chấm hỏi hiện đại lơ lửng trên trời; có chữ hoặc ký tự; điểm 2/5
+   008: điểm 3 · có người giống trẻ con / hoạt hình; lệch nhân vật: Xuất hiện 2 sứ giả thay vì 1, nét mặt hoạt hình mắt to chưa đúng độ tuổi 45 sạm gió; thừa người (2 thay vì 1)
+   009: điểm 2 · có người giống trẻ con / hoạt hình; lệch nhân vật: Le Hoan; thừa người (5 thay vì 1); điểm 2/5
+   010: điểm 3 · có người giống trẻ con / hoạt hình; thừa người (2 thay vì 1)
+Vòng 0: 9 ảnh lỗi / 30: 001,002,003,005,006,007,008,009,010
+TỔNG HỢP KIỂM ẢNH · LH5Q · 30 ảnh · 3934 giây · 0 vòng vẽ lại
+Còn lỗi (9): 001,002,003,005,006,007,008,009,010
+Chưa kiểm bằng AI (21): 004,011,012,013,014,015,016,017,018,019,020,021,022,023,024,025,026,027,028,029,030

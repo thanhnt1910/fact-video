@@ -340,6 +340,19 @@ INTER.append((T[BASE+87]+0.3,min(EA(90,-0.3),T[BASE+87]+14.0),'timeline',{'head'
  ('987','Sứ Lý Giác sang, hai bên đối thơ'),
  ('990','Bưng thư đặt lên điện mà không lạy'),
  ('996','Ra đón ngoài thành, sau mới tạ lỗi')]}))
+# ======================= ẢNH 2D CHEN TOÀN KHUNG (thử nghiệm, chương Bằng chứng thứ nhất) + máy quay bám tiêu điểm
+CAMFOCUS=True
+_PIC='/home/claude/fact-video/assets/anh_2d/LH5R/%03d.jpg'
+def PIC(n,off,dur,img,z0=1.0,z1=1.08,dx=0,dy=0):
+    t0=T[n]+off
+    INTER.append((t0,min(t0+dur,T[n]+D[n]-0.1),'pic',{'path':_PIC%img,'z0':z0,'z1':z1,'dx':dx,'dy':dy}))
+PIC(16006,0.4,3.0,17,1.0,1.10,0,1)      # đêm trăng, ngai trống
+PIC(16007,0.3,3.0,20,1.08,1.0,1,0)      # vua nhỏ trên ngai
+PIC(16007,3.6,2.6,21,1.0,1.08,-1,0)     # Lê Hoàn đứng sau ngai
+PIC(16008,0.3,3.0,23,1.0,1.10,1,0)      # cậu bé mồ côi
+PIC(16008,3.8,2.8,24,1.08,1.0,-1,0)     # được quan nhận nuôi
+PIC(16009,0.3,2.6,28,1.0,1.08,0,-1)     # vua khen
+PIC(16009,3.5,2.8,29,1.0,1.10,0,1)      # dẫn một nghìn quân
 # ======================= HOÀN TẤT
 SCN.sort(key=lambda x:x[0])
 CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]

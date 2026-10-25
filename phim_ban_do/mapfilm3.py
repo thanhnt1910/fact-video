@@ -664,6 +664,18 @@ def frame(t):
         if t0<=t<=t1 and not _quiet(t):
             k=min(clamp((t-t0)/0.45),clamp((t1-t)/0.4));out=comp(out,M3.joke_layer(icon,txt,t,k),(0,int((1-ease(k))*60)),ease(k))
     for ii,(t0,t1,kind,dat) in enumerate(getattr(C,'INTER',[])):
+        if t0<=t<=t1 and kind=='pic':
+            # cảnh ảnh 2D toàn khung, máy quay trượt/phóng chậm (dat: path, z0, z1, dx, dy)
+            if ('_pic',ii) not in CARDL:
+                _im=Image.open(dat['path']).convert('RGB');_s=max(W/_im.width,H/_im.height)*1.18
+                CARDL[('_pic',ii)]=_im.resize((int(_im.width*_s),int(_im.height*_s)),Image.LANCZOS)
+            _bg=CARDL[('_pic',ii)];u=clamp((t-t0)/max(t1-t0,0.01));z=dat.get('z0',1.0)+(dat.get('z1',1.08)-dat.get('z0',1.0))*u
+            vw=int(_bg.width/1.18/z);vh=int(vw*H/W)
+            cx=_bg.width/2+dat.get('dx',0)*(u-0.5)*_bg.width*0.06;cy=_bg.height/2+dat.get('dy',0)*(u-0.5)*_bg.height*0.06
+            box=(int(cx-vw/2),int(cy-vh/2),int(cx+vw/2),int(cy+vh/2))
+            _fr=_bg.crop(box).resize((W,H),Image.BILINEAR).convert('RGBA')
+            k=min(clamp((t-t0)/0.3),clamp((t1-t)/0.3));out=comp(out,_fr,(0,0),ease(k))
+            continue
         if t0<=t<=t1:
             if ('_in',ii) not in CARDL: CARDL[('_in',ii)]=M3.inter_layer(kind,dat)
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.5));out=comp(out,CARDL[('_in',ii)],(0,0),ease(k))

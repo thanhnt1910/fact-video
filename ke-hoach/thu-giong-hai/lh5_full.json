@@ -1,0 +1,536 @@
+[
+ {
+  "n": 16001,
+  "chuong": "Câu đố",
+  "tone": "story",
+  "text": "Có một lá thư của vua Tống được đưa đến, và người nhận không chịu lạy."
+ },
+ {
+  "n": 16002,
+  "chuong": "Câu đố",
+  "tone": "story",
+  "text": "Ông bảo mình bị ngã ngựa đau chân. Chuyện ấy ông bịa ra, vậy mà hai sứ giả nhà Tống tin thật."
+ },
+ {
+  "n": 16003,
+  "chuong": "Câu đố",
+  "tone": "story",
+  "text": "Bạn thử nghĩ xem. Nhà Tống là nước lớn, vậy sao một lời bịa đơn giản như thế lại qua được?"
+ },
+ {
+  "n": 16004,
+  "chuong": "Câu đố",
+  "tone": "story",
+  "text": "Người nói dối ấy là Lê Hoàn. Mười năm trước đó, một quan nhà Tống còn khoe sẽ thắng nước ông mà không tốn một mũi tên."
+ },
+ {
+  "n": 16005,
+  "chuong": "Câu đố",
+  "tone": "story",
+  "text": "Hôm nay mình đi tìm lý do. Mình tìm được ba bằng chứng, và bằng chứng cuối cùng sẽ giải đúng câu đố này."
+ },
+ {
+  "n": 16006,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Bằng chứng thứ nhất nằm ở một cái chết. Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết."
+ },
+ {
+  "n": 16007,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Con trai ông là Đinh Toàn mới sáu tuổi, được đưa lên nối ngôi. Người giữ quyền thay cho cậu bé là Lê Hoàn."
+ },
+ {
+  "n": 16008,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Mà xuất thân của Lê Hoàn rất nghèo. Ông mồ côi từ bé, được một viên quan trong thôn cùng họ Lê nhận về nuôi."
+ },
+ {
+  "n": 16009,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Lớn lên, ông theo giúp Đinh Liễn, con trai vua Đinh Tiên Hoàng. Nhà vua khen ông vừa giỏi vừa dũng, và giao cho ông quản một nghìn quân."
+ },
+ {
+  "n": 16010,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Ông thăng dần đến chức Thập đạo tướng quân, người chỉ huy mười đạo quân. Khi vua nhỏ lên ngôi, ông tự xưng là Phó Vương."
+ },
+ {
+  "n": 16011,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Nhưng ba người từng phục vụ nhà Đinh là Nguyễn Bặc, Đinh Điền và Phạm Hạp thì không yên tâm. Họ ngờ rằng Lê Hoàn sẽ làm hại vua nhỏ."
+ },
+ {
+  "n": 16012,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Họ dấy binh, chia hai đường thủy bộ tiến về kinh đô để giết Lê Hoàn. Nhưng họ không đánh nổi."
+ },
+ {
+  "n": 16013,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Trên sông, Lê Hoàn nhân lúc có gió, phóng lửa đốt thuyền chiến của họ. Đinh Điền bị chém ngay tại trận, còn Nguyễn Bặc bị bắt rồi xử chém."
+ },
+ {
+  "n": 16014,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Phạm Hạp tan chạy về Cát Lợi, rồi bị Lê Hoàn đuổi theo bắt sống. Chưa hết, lại có kẻ khác kéo tới."
+ },
+ {
+  "n": 16015,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Ngô Nhật Khánh, một sứ quân cũ, dẫn hơn một nghìn thuyền chiến Chiêm Thành đánh vào Hoa Lư. Nhưng chỉ một đêm bão nổi lên, thuyền lật đắm gần hết."
+ },
+ {
+  "n": 16016,
+  "chuong": "Bằng chứng thứ nhất",
+  "tone": "story",
+  "text": "Ngô Nhật Khánh chết đuối, chỉ có thuyền của vua Chiêm Thành thoát về nước. Vậy là bằng chứng thứ nhất, ông đã dẹp xong chuyện trong nhà."
+ },
+ {
+  "n": 16017,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Nhưng nhà trong vừa yên thì giặc ngoài đã đến. Tin vua Đinh và Đinh Liễn đều đã chết lan sang phía bắc."
+ },
+ {
+  "n": 16018,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Ở Ung Châu, sát biên giới nước ta, quan nhà Tống là Hầu Nhân Bảo nghe được tin ấy."
+ },
+ {
+  "n": 16019,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Mùa hạ năm chín trăm tám mươi, ông dâng thư lên vua Tống. Ông cho rằng nước Việt sắp mất, nên xin đem quân sang ngay."
+ },
+ {
+  "n": 16020,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Vua Tống định gọi Hầu Nhân Bảo về hỏi cho rõ. Nhưng Lư Đa Tốn can rằng làm vậy sẽ lộ kế, và đối phương sẽ dựa vào núi mà phòng thủ."
+ },
+ {
+  "n": 16021,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Lư Đa Tốn nói chỉ cần chọn tướng giỏi, đem ba mươi nghìn quân vùng Kinh Hồ tiến thẳng sang. Thắng nước Việt sẽ dễ như bẻ cành khô gỗ mục."
+ },
+ {
+  "n": 16022,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Vua Tống cho là phải. Mùa thu, nhà Tống giao chức cho các tướng và chia quân làm hai đạo, hẹn ngày cùng tiến sang."
+ },
+ {
+  "n": 16023,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Châu Lạng cấp báo về kinh đô. Dương Thái hậu, mẹ vua Đinh Toàn, sai Lê Hoàn chọn dũng sĩ đi đánh giặc, và đặt Phạm Cự Lạng làm đại tướng quân."
+ },
+ {
+  "n": 16024,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Khi triều đình đang bàn kế xuất quân, Phạm Cự Lạng cùng các tướng đều mặc áo trận, đi thẳng vào cung."
+ },
+ {
+  "n": 16025,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Họ nói vua còn nhỏ, các tướng có liều chết chặn giặc thì cũng chẳng ai biết công. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy xuất quân."
+ },
+ {
+  "n": 16026,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Quân sĩ nghe vậy đều hô vang vạn tuế, chúc vua sống lâu. Thấy mọi người đồng lòng, Thái hậu sai lấy áo vua thêu rồng khoác lên người Lê Hoàn."
+ },
+ {
+  "n": 16027,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Lê Hoàn lên ngôi hoàng đế, lấy niên hiệu là Thiên Phúc. Đinh Toàn bị giáng xuống làm Vệ Vương, và nhà Đinh kết thúc sau mười ba năm."
+ },
+ {
+  "n": 16028,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Tháng tám, vua Tống gửi sang một bức thư dài, ví các nước xung quanh như tay chân bị bệnh, phải chữa bằng thuốc rồi đến châm cứu."
+ },
+ {
+  "n": 16029,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Thư nói nước ta chỉ như ngón tay ngón chân của nhà Tống. Nếu không chịu theo, quân Tống sẽ dẹp sạch đất này."
+ },
+ {
+  "n": 16030,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Lê Hoàn trả lời bằng một lá thư giả. Tháng mười, ông sai hai sứ giả mang sang nhà Tống một bức thư mượn tên Đinh Toàn."
+ },
+ {
+  "n": 16031,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Trong thư, cậu bé xin được phong chức của cha."
+ },
+ {
+  "n": 16032,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Mục đích là làm nhà Tống hoãn việc đem quân sang. Nhà Tống thì đang muốn hỏi tội Lê Hoàn xưng đế, lại có ý chiếm nước Việt."
+ },
+ {
+  "n": 16033,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Họ gửi thư trả lời, đưa ra hai đường. Đường thứ nhất, Đinh Toàn làm tổng chỉ huy, Lê Hoàn làm phó."
+ },
+ {
+  "n": 16034,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Đường thứ hai, đưa cả mẹ con Đinh Toàn cùng thân thuộc sang xin theo nhà Tống. Lê Hoàn không chọn đường nào cả."
+ },
+ {
+  "n": 16035,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Hết thư từ, giờ chỉ còn cách đánh. Tháng hai năm chín trăm tám mươi mốt, quân Tống kéo đến sát biên giới."
+ },
+ {
+  "n": 16036,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Một đạo do Hầu Nhân Bảo và Tôn Toàn Hưng chỉ huy đã tiến vào Lạng Sơn. Trần Khâm Tộ đi về Tây Kết, còn Lưu Trừng theo sông Bạch Đằng."
+ },
+ {
+  "n": 16037,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Quân Tống chia làm ba hướng, cùng ép vào Đại Cồ Việt. Lê Hoàn không ngồi chờ, ông tự cầm quân ra chặn giặc."
+ },
+ {
+  "n": 16038,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Ông cho đóng cọc xuống sông Chi Lăng để cản đường. Rồi ông bày một mưu, cho một số quân giả vờ đầu hàng để dụ Hầu Nhân Bảo."
+ },
+ {
+  "n": 16039,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Hầu Nhân Bảo mắc mưu, và bị chém. Còn mưu ấy chạy ra sao thì không ai kể lại được."
+ },
+ {
+  "n": 16040,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Tin quân thủy thua trận đến tai Trần Khâm Tộ. Ông vội dẫn quân quay về."
+ },
+ {
+  "n": 16041,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Lê Hoàn dẫn các tướng đuổi theo. Quân của Trần Khâm Tộ thua nặng, chết hơn một nửa, xác nằm đầy đồng."
+ },
+ {
+  "n": 16042,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, đưa về Hoa Lư. Từ đó trong nước yên ổn."
+ },
+ {
+  "n": 16043,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Đây là trận đánh quyết định của cả cuộc chiến, vậy mà chỉ được chép vài dòng. Ta biết bên nào thắng, còn từng bước đi của hai bên thì chưa rõ."
+ },
+ {
+  "n": 16044,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Về phía nhà Tống, thư báo thua bay về triều. Hứa Trọng Tuyên, quan lo việc chuyển vận vùng Giang Nam, tâu rằng Hầu Nhân Bảo đã thua và chết."
+ },
+ {
+  "n": 16045,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Vua Tống ra lệnh rút quân, rồi sai sứ đi quở trách ba tướng đã dẫn quân sang, là Lưu Trừng, Giả Thực và Vương Soạn."
+ },
+ {
+  "n": 16046,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Lưu Trừng ốm chết. Vương Soạn bị giết ở Ung Châu, còn Tôn Toàn Hưng bị xử tử giữa chợ."
+ },
+ {
+  "n": 16047,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Sử gia Lê Văn Hưu viết rằng Lê Hoàn bắt hai tướng Tống dễ như lùa trẻ con."
+ },
+ {
+  "n": 16048,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Lê Văn Hưu còn viết rằng chưa đầy mấy năm bờ cõi đã yên. Công đánh dẹp ấy, dẫu nhà Hán, nhà Đường cũng không hơn được."
+ },
+ {
+  "n": 16049,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Xong việc ở phía bắc, Lê Hoàn quay xuống phía nam. Hai sứ giả của ông là Từ Mục và Ngô Tử Canh đã bị Chiêm Thành bắt giữ."
+ },
+ {
+  "n": 16050,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Năm chín trăm tám mươi hai, ông tự mình cầm quân đi đánh. Chiêm Thành thua to, thủ lĩnh Bê Mi Thuế bị chém tại trận."
+ },
+ {
+  "n": 16051,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Quân Đại Cồ Việt bắt rất nhiều tù binh, thu về vàng bạc châu báu hàng vạn. Họ phá thành, phá miếu thờ, rồi kéo quân về."
+ },
+ {
+  "n": 16052,
+  "chuong": "Bằng chứng thứ hai",
+  "tone": "story",
+  "text": "Vậy bằng chứng thứ hai là ông thắng cả hai phía, bắc lẫn nam. Nhưng thắng thôi chưa đủ để dám không lạy."
+ },
+ {
+  "n": 16053,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Bằng chứng thứ ba là điều ít người để ý. Ông thắng, nhưng không phải lúc nào ông cũng cứng."
+ },
+ {
+  "n": 16054,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Năm chín trăm tám mươi ba, Lê Hoàn sai sứ sang kết giao với nhà Tống. Ba năm sau, nhà Tống cử sứ mang thư của vua sang phong chức cho ông."
+ },
+ {
+  "n": 16055,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Chức ấy là Tiết độ sứ, nghĩa là người đứng đầu một vùng biên giới. Trong nước ông vẫn là hoàng đế, còn với nhà Tống ông nhận chức này."
+ },
+ {
+  "n": 16056,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Lê Hoàn nhận thư phong chức rất kính cẩn. Sau đó ông cho đưa hai tướng Tống bị bắt về nước, là Quách Quân Biện và Triệu Phụng Huân."
+ },
+ {
+  "n": 16057,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Bạn thấy không? Ông vừa thắng quân Tống, vừa cho nhà Tống một lối xuống thang."
+ },
+ {
+  "n": 16058,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Năm chín trăm tám mươi bảy, sứ Tống là Lý Giác lại sang. Lê Hoàn sai sư Pháp Thuận giả làm người coi sông, ra đón sứ giả."
+ },
+ {
+  "n": 16059,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Lý Giác rất thích thơ. Thấy hai con ngỗng bơi trên nước, ông ngâm ngay hai câu tả chúng ngẩng mặt nhìn trời."
+ },
+ {
+  "n": 16060,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Người coi sông đối lại liền bằng hai câu tả lông trắng trên nước biếc và mái chèo hồng khua sóng xanh. Lý Giác rất ngạc nhiên."
+ },
+ {
+  "n": 16061,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Về nơi ở, Lý Giác làm thơ khen rằng ngoài trời này lại có một trời khác soi chiếu."
+ },
+ {
+  "n": 16062,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Khi ông ra về, vua sai sư Ngô Khuông Việt làm một bài từ để tiễn."
+ },
+ {
+  "n": 16063,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Bài từ tả cánh buồm giương trong nắng tươi, đường về xa muôn dặm, và nhờ sứ giả đem lòng nước Nam về tâu với vua của mình."
+ },
+ {
+  "n": 16064,
+  "chuong": "Bằng chứng thứ ba",
+  "tone": "story",
+  "text": "Mình nghĩ cách cư xử ấy cho thấy ông biết dùng lễ nghĩa và thơ ca để giữ hòa khí. Chỗ nào cần mềm, ông mềm."
+ },
+ {
+  "n": 16065,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Giờ mình quay lại câu đố. Năm chín trăm chín mươi, nhà Tống cử Tống Cảo và Vương Thế Tắc sang phong thêm chức."
+ },
+ {
+  "n": 16066,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Lê Hoàn sai chín thuyền chở ba trăm người đi đón hai sứ giả. Gần tới kinh đô, ông ra ngoài thành đón."
+ },
+ {
+  "n": 16067,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Ông bày thủy quân và khí giới để khoe sức mạnh."
+ },
+ {
+  "n": 16068,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Ông tự cầm cương ngựa đi cùng sứ giả. Tới cửa Minh Đức, ông tự bưng thư của vua Tống đặt lên điện mà không lạy."
+ },
+ {
+  "n": 16069,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Ông nói năm ngoái đi đánh giặc, ông bị ngã ngựa đau chân. Đó là cái cớ ông bịa ra, nhưng hai sứ giả tin là thật."
+ },
+ {
+  "n": 16070,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Vì sao tin? Mình nghĩ lý do nằm ở ba bằng chứng ta vừa thấy."
+ },
+ {
+  "n": 16071,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Ông có ngôi vững, ông đã thắng quân Tống, và ông vẫn giữ lễ."
+ },
+ {
+  "n": 16072,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Sức mạnh đã bày ra trước mắt, sự kính cẩn thì họ đã thấy nhiều lần. Một lời bịa nhỏ, trong hoàn cảnh ấy, đủ để hai bên cùng giữ thể diện."
+ },
+ {
+  "n": 16073,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Trong bữa tiệc, ông xin từ nay thư từ cứ trao nhận ở biên giới, để sứ giả khỏi phải đi xa. Tống Cảo về tâu lại, và vua Tống bằng lòng."
+ },
+ {
+  "n": 16074,
+  "chuong": "Lời giải",
+  "tone": "story",
+  "text": "Từ đó, Lê Hoàn đỡ phải đón sứ nhà Tống tận kinh đô. Đó là cái giá mà lời bịa ngã ngựa đã mua được."
+ },
+ {
+  "n": 16075,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Nhưng ông không phải lúc nào cũng mềm. Năm chín trăm chín mươi lăm, quan nhà Tống ở biên giới tâu rằng thuyền chiến từ nước ta cướp phá trấn Như Hồng."
+ },
+ {
+  "n": 16076,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Vua Tống muốn yên chuyện nên bỏ qua. Năm sau, sứ Tống là Lý Nhược Chuyết mang chiếu thư và đai ngọc sang."
+ },
+ {
+  "n": 16077,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Lê Hoàn ra đón ngoài thành, tỏ ý ngạo mạn và không làm lễ. Ông nói việc cướp trấn Như Hồng là do giặc biển, không phải quân Giao Châu."
+ },
+ {
+  "n": 16078,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Nếu Giao Châu làm phản, ông đã đánh Phiên Ngung trước, đâu chỉ dừng ở một trấn nhỏ. Nói xong, ông mới cúi đầu tạ lỗi."
+ },
+ {
+  "n": 16079,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Năm sau, nhà Tống phong ông làm Nam Bình Vương. Trước đây sứ Tống sang thường mượn cớ đòi cống nước mắm để bắt dân đóng góp."
+ },
+ {
+  "n": 16080,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Đến khi Tống Chân Tông lên ngôi, vua chỉ sai quan giữ biên giới nhận mệnh. Vua không sai sứ sang nữa."
+ },
+ {
+  "n": 16081,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Trong nước, Lê Hoàn cũng lo dựng cơ nghiệp. Ông cho đúc tiền Thiên Phúc."
+ },
+ {
+  "n": 16082,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Ông còn đích thân cày ruộng tịch điền ở núi Đọi, ruộng để nhà vua mở đầu mùa cày."
+ },
+ {
+  "n": 16083,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Năm một nghìn lẻ một, ông đi thuyền đuổi giặc ở Cử Long. Vệ Vương Đinh Toàn, vị vua nhỏ ngày trước, trúng tên chết tại trận."
+ },
+ {
+  "n": 16084,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Lê Hoàn kêu trời ba tiếng rồi thúc quân đánh, và giặc tan vỡ. Năm một nghìn lẻ hai, ông định luật lệnh và chọn lại quân lính."
+ },
+ {
+  "n": 16085,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Mùa xuân năm một nghìn lẻ năm, Lê Hoàn mất ở điện Trường Xuân, sau hai mươi bốn năm ở ngôi. Người đời gọi ông là Đại Hành Hoàng Đế."
+ },
+ {
+  "n": 16086,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Người xưa tổng kết rằng ông trừ được kẻ bên trong để lấy nước, đuổi được giặc ngoài để yên dân. Trong nước thanh bình, Bắc Nam không có việc gì."
+ },
+ {
+  "n": 16087,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Vậy câu đố ban đầu có lời giải. Ông dám không lạy vì ông có ngôi vững, đã thắng quân Tống, và biết lúc nào nên cúi."
+ },
+ {
+  "n": 16088,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Một vị vua nhận thư của vua Tống mà không chịu lạy, và nhà Tống vẫn bằng lòng cho thư từ trao nhận ở biên giới."
+ },
+ {
+  "n": 16089,
+  "chuong": "Sau đó",
+  "tone": "story",
+  "text": "Lời bịa ngã ngựa ấy chỉ là nước đi cuối cùng."
+ }
+]

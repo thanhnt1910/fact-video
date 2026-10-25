@@ -218,6 +218,41 @@ def meter_layer(title, rows):
     return im
 
 
+def table_layer(title, rows, w=1180):
+    """Khung so sánh/sơ đồ: rows [(nhãn trái, nội dung phải)]; tự xuống dòng, luôn nằm gọn trong w."""
+    pad = 30
+    ft, fl, fr = font(40), font(30), font(30, False)
+    im0 = Image.new('RGBA', (8, 8)); g0 = ImageDraw.Draw(im0)
+    lw = max(int(g0.textlength(l, font=fl)) for l, _ in rows) + 28
+    lw = min(lw, 360)
+    rw = w - 2 * pad - lw - 30
+    def wrap(t, f, mw):
+        out, cur = [], ''
+        for wd in t.split():
+            tr = (cur + ' ' + wd).strip()
+            if g0.textlength(tr, font=f) <= mw: cur = tr
+            else:
+                if cur: out.append(cur)
+                cur = wd
+        if cur: out.append(cur)
+        return out or ['']
+    blocks = [(wrap(l, fl, lw - 10), wrap(r, fr, rw)) for l, r in rows]
+    lh = 40
+    hs = [max(len(a), len(b)) * lh + 22 for a, b in blocks]
+    h = pad + 56 + sum(hs) + pad
+    im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+    g = ImageDraw.Draw(im)
+    g.rounded_rectangle((0, 0, w - 1, h - 1), 20, fill=(14, 9, 5, 232), outline=(176, 130, 60, 255), width=3)
+    g.text((pad, pad - 4), title, font=ft, fill=GOLD)
+    y = pad + 62
+    for (la, ra), hh in zip(blocks, hs):
+        g.line((pad, y - 6, w - pad, y - 6), fill=(110, 84, 48, 255), width=2)
+        for i, ln in enumerate(la): g.text((pad, y + i * lh), ln, font=fl, fill=GOLD)
+        for i, ln in enumerate(ra): g.text((pad + lw + 30, y + i * lh), ln, font=fr, fill=(236, 226, 200, 255))
+        y += hh
+    return im
+
+
 # ------------------------------------------------------------ bản đồ nhỏ
 def minimap_base(pyr3, w=380, h=230):
     im = pyr3.resize((w, h), Image.LANCZOS).convert('RGBA')

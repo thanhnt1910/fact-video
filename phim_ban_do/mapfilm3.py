@@ -608,6 +608,12 @@ def frame(t):
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.4))
             ml=M3.meter_layer(title,[(lab,col,curve(cv,t)) for lab,col,cv in rows])
             out=comp(out,ml,(30-int((1-ease(k))*160),(1000 if B.P else 500)),ease(k))
+    # khung so sánh / sơ đồ
+    for ti,(t0,t1,title,rows) in enumerate(getattr(C,'TABLES',[])):
+        if t0<=t<=t1:
+            if ('_tb',ti) not in CARDL: CARDL[('_tb',ti)]=M3.table_layer(title,rows)
+            tl=CARDL[('_tb',ti)];k=min(clamp((t-t0)/0.4),clamp((t1-t)/0.4))
+            out=comp(out,tl,((1920-tl.size[0])//2,max(60,(1080-tl.size[1])//2-30)),ease(k))
     # chú giải phe (thay nhãn tên trên từng nhóm): chỉ liệt kê phe đang có mặt trên màn hình
     sides=getattr(C,'SIDES',None)
     if sides and not ttl:

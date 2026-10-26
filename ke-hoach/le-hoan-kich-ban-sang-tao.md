@@ -104,7 +104,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17056 | Lần đánh lừa thứ hai, lời đầu hàng | Hầu Nhân Bảo mắc mưu và bị chém. Còn mưu ấy chạy ra sao thì không ai còn kể lại. |
 | 17057 | Lần đánh lừa thứ hai, lời đầu hàng | Tin quân Tống thua trận truyền đến Trần Khâm Tộ, và ông vội dẫn quân quay về. |
 | 17058 | Lần đánh lừa thứ hai, lời đầu hàng | Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng. |
-| 17059 | Lần đánh lừa thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, đưa về Hoa Lư. Từ đó trong nước rất yên. |
+| 17059 | Lần đánh lừa thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống và đưa về Hoa Lư. Sau trận ấy, trong nước không còn quân Tống nào nữa. |
 | 17060 | Lần đánh lừa thứ hai, lời đầu hàng | Trận đánh quyết định ấy chỉ được ghi lại vài dòng. Vì vậy ta biết kết quả, còn từng bước đi của hai bên thì chưa rõ. |
 | 17061 | Quân Tống rút về | Quan lo việc chuyển vận vùng Giang Nam là Hứa Trọng Tuyên tâu về triều rằng Hầu Nhân Bảo đã thua và chết. Vua Tống ra lệnh rút quân. |
 | 17062 | Quân Tống rút về | Vua Tống còn sai sứ đi quở trách các tướng đã dẫn quân sang, là Lưu Trừng, Giả Thực và Vương Soạn. |
@@ -112,13 +112,13 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17064 | Quân Tống rút về | Còn Tôn Toàn Hưng, người từng kéo quân tới Lạng Sơn, cuối cùng bị xử tử giữa chợ. |
 | 17065 | Quân Tống rút về | Về phía Đại Cồ Việt, các quan dâng cho Lê Hoàn một tôn hiệu rất dài, tức danh hiệu để ca ngợi công đức của ông. |
 | 17066 | Quân Tống rút về | Sử gia Lê Văn Hưu viết rằng Lê Hoàn bắt hai tướng Tống dễ như lùa trẻ con. |
-| 17067 | Quân Tống rút về | Lê Văn Hưu còn viết rằng chưa đầy mấy năm bờ cõi đã yên. Công đánh dẹp ấy dẫu nhà Hán, nhà Đường cũng không hơn được. |
+| 17067 | Quân Tống rút về | Lê Văn Hưu còn viết rằng chỉ vài năm sau, bờ cõi đã yên. Ông cho rằng công ấy, đến cả nhà Hán và nhà Đường cũng không hơn được. |
 | 17068 | Đi đánh Chiêm Thành | Xong việc ở phía bắc, Lê Hoàn quay xuống phía nam. Trước đó, hai sứ giả của ông là Từ Mục và Ngô Tử Canh đã bị Chiêm Thành bắt giữ. |
 | 17069 | Đi đánh Chiêm Thành | Năm chín trăm tám mươi hai, ông cho đóng chiến thuyền và sửa binh khí. Rồi ông tự mình cầm quân đi đánh. |
 | 17070 | Đi đánh Chiêm Thành | Chiêm Thành thua to, thủ lĩnh Bê Mi Thuế bị chém tại trận. Quân Đại Cồ Việt bắt rất nhiều tù binh và thu vàng bạc châu báu hàng vạn. |
 | 17071 | Đi đánh Chiêm Thành | Họ phá thành, phá miếu thờ của nước ấy rồi trở về sau chừng một năm. |
 | 17072 | Đi đánh Chiêm Thành | Năm ấy trong nước đói to. Sang năm sau, vì đường núi hiểm và biển động, ông cho đào một con kênh mới để thuyền bè đi lại thuận tiện. |
-| 17073 | Lần đánh lừa thứ ba, người coi sông | Phía bắc đã yên, phía nam đã yên, nhưng nhà Tống vẫn là nước lớn sát biên giới. Từ đây, cuộc đối đầu chuyển sang sứ giả và lễ nghi. |
+| 17073 | Lần đánh lừa thứ ba, người coi sông | Giặc phía bắc và phía nam đều đã lui, nhưng nhà Tống vẫn là nước lớn sát biên giới. Từ đây, cuộc đối đầu chuyển sang sứ giả và lễ nghi. |
 | 17074 | Lần đánh lừa thứ ba, người coi sông | Năm chín trăm tám mươi ba, Lê Hoàn sai sứ sang kết giao với nhà Tống. |
 | 17075 | Lần đánh lừa thứ ba, người coi sông | Ba năm sau, nhà Tống cử sứ mang thư của vua Tống sang phong chức cho ông. |
 | 17076 | Lần đánh lừa thứ ba, người coi sông | Chức ấy là Tiết độ sứ, nghĩa là người đứng đầu một vùng biên giới. Trong nước ông vẫn là hoàng đế, còn với nhà Tống ông nhận chức này. |
@@ -134,7 +134,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17086 | Lần đánh lừa thứ tư, cái chân đau | Lê Hoàn sai chín chiếc thuyền chở ba trăm người đi đón sứ giả. Gần tới kinh đô, ông ra ngoài thành đón. |
 | 17087 | Lần đánh lừa thứ tư, cái chân đau | Ông bày thủy quân và khí giới để khoe, rồi tự cầm cương ngựa đi cùng sứ giả. |
 | 17088 | Lần đánh lừa thứ tư, cái chân đau | Tới cửa Minh Đức, ông tự bưng thư của vua Tống đặt lên điện mà không lạy. Ông nói năm ngoái đi đánh giặc, bị ngã ngựa đau chân. |
-| 17089 | Lần đánh lừa thứ tư, cái chân đau | Đó là cái cớ ông bịa ra, nhưng hai sứ giả tin là thật. |
+| 17089 | Lần đánh lừa thứ tư, cái chân đau | Chuyện ngã ngựa ấy chưa từng xảy ra, nhưng hai sứ giả vẫn tin là thật. |
 | 17090 | Lần đánh lừa thứ tư, cái chân đau | Trong bữa tiệc, ông xin từ nay thư từ cứ trao nhận ở biên giới, khỏi phiền sứ giả đi xa. |
 | 17091 | Lần đánh lừa thứ tư, cái chân đau | Tống Cảo về tâu lại và vua Tống bằng lòng. Từ đó, Lê Hoàn đỡ phải đón sứ nhà Tống tận kinh đô. |
 | 17092 | Lần đánh lừa thứ tư, cái chân đau | Lần ấy trót lọt, và nhiều năm sau ông còn dám đi xa hơn. |

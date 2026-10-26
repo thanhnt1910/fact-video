@@ -6,8 +6,8 @@ Mã `lh6`, 112 đoạn (17001–17112). 2.550 chữ, khoảng 14,2 phút. Bộ k
 
 - **Mở đầu:** cảnh thật năm 990 ở cửa Minh Đức: Lê Hoàn không lạy thư vua Tống, bịa chuyện ngã ngựa đau chân, sứ giả tin. Cảnh này được kể đầy đủ ở chương 10.
 
-- **Móc nối đầu – cuối:** đoạn mở đầu nói cái giả thứ tư là cái đáng nói nhất, và chỉ đến cuối video mới giải thích: nó không thắng trận nào nhưng đổi cách hai nước trao thư (thư từ nhận ở biên giới, sứ Tống khỏi tới kinh đô). Đây là phần sáng tạo, "đáng nói nhất" là cách nhấn của em, chủ kênh duyệt.
-- **Giữ bí mật:** đoạn mở đầu không liệt kê ba cái giả còn lại, chỉ hứa "trước đó còn ba lần nữa"; người xem phải xem hết mới biết, và mới hiểu vì sao cái giả thứ tư đáng nói nhất.
+- **Móc nối đầu – cuối:** đoạn mở đầu đặt câu hỏi "vì sao một vị vua lại chọn bịa ra cái chân đau trước sứ giả nước lớn?". Cuối video trả lời bằng sự việc có thật: ngay sau đó ông xin thư từ trao nhận ở biên giới và vua Tống bằng lòng. Không có lời kết luận của người kể.
+- **Giữ bí mật:** đoạn mở đầu chỉ nói đây là lần thứ tư và không liệt kê ba lần trước; người xem phải xem hết mới biết.
 - **(Cũ) Lời hứa với người xem:** ông bốn lần dùng cái giả trước nhà Tống: lá thư giả, lời đầu hàng giả, người coi sông giả, cái chân đau giả. Người xem ở lại để chờ từng cái giả xuất hiện.
 
 - **Vòng lặp:** chương 10 quay lại đúng cửa Minh Đức của đoạn mở đầu để khép vòng.

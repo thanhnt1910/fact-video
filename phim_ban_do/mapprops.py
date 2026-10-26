@@ -260,10 +260,84 @@ def storm(d, x, y, s, u, t, arg):
         bx = x + math.sin(int(t / 2.6) * 2.1) * s * 2.2
         pts = [(bx, y - s * 3.8), (bx - s * 0.7, y - s * 2.2), (bx + s * 0.3, y - s * 2.0), (bx - s * 0.8, y - s * 0.2), (bx + s * 0.5, y - s * 1.2), (bx - s * 0.2, y - s * 1.3), (bx + s * 0.6, y - s * 3.2)]
         d.polygon(pts, fill=(255, 246, 170, 255), outline=(255, 255, 255, 255))
-        d.ellipse((bx - s * 3.2, y - s * 4.6, bx + s * 3.2, y + s * 0.8), fill=(255, 250, 220, 18))
+
+
+def _ship(d, x, y, s, tilt, col, flame=0.0, sink=0.0):
+    """Một chiếc thuyền chiến lớn, có cột buồm và buồm; tilt (rad) nghiêng, sink 0..1 chìm dần."""
+    c, sn = math.cos(tilt), math.sin(tilt)
+    def R(px, py): return (x + px * c - py * sn, y + sink * s * 1.6 + px * sn + py * c)
+    hull = [R(-2.2 * s, 0), R(2.4 * s, 0), R(1.8 * s, 0.9 * s), R(-1.7 * s, 0.9 * s)]
+    d.polygon([R(-2.2 * s, -0.25 * s), R(-1.9 * s, 0)] + hull[1:2] + [R(2.7 * s, -0.4 * s)] + hull[2:], fill=col + (255,), outline=INK)
+    d.line([R(0, 0), R(0, -3.6 * s)], fill=(70, 46, 28, 255), width=_lw(s, 0.16))
+    d.polygon([R(0.1 * s, -3.4 * s), R(1.9 * s, -0.5 * s), R(0.1 * s, -0.5 * s)], fill=(236, 226, 200, 255), outline=INK)
+    d.polygon([R(-0.1 * s, -3.0 * s), R(-1.5 * s, -0.7 * s), R(-0.1 * s, -0.7 * s)], fill=(214, 202, 172, 255), outline=INK)
+    if flame > 0:
+        for k in range(4):
+            fx, fy = R((-0.6 + k * 0.5) * s, -0.8 * s - (k % 2) * s * 0.6)
+            h = s * (0.5 + 0.5 * flame) * (0.8 + 0.4 * math.sin(k * 2.0 + flame * 9))
+            d.polygon([(fx - h * 0.35, fy), (fx, fy - h * 1.5), (fx + h * 0.35, fy)], fill=(255, 150, 40, 235))
+            d.polygon([(fx - h * 0.18, fy), (fx, fy - h * 0.9), (fx + h * 0.18, fy)], fill=(255, 226, 120, 245))
+
+def ship_strike(d, x, y, s, u, t, arg):
+    """Cận cảnh: ba thuyền chiến giữa sóng lớn, sét đánh trúng thuyền giữa, cháy rồi đắm dần."""
+    # biển và sóng
+    for k in range(9):
+        wx = x + (k - 4) * s * 1.35; ph = math.sin(t * 1.7 + k * 0.8)
+        d.arc((wx - s * 1.1, y + s * 1.0 + ph * s * 0.2, wx + s * 1.1, y + s * 2.3 + ph * s * 0.2), 200, 340, fill=(236, 244, 255, 220), width=_lw(s, 0.12))
+    for k in range(6):
+        wy = y + s * (1.6 + k * 0.45); d.arc((x - s * 5.6, wy - s * 0.3, x + s * 5.6, wy + s * 0.3), 200, 340, fill=(200, 220, 240, 130), width=_lw(s, 0.07))
+    hit = _clamp((u - 0.25) / 0.2)
+    sink = _clamp((u - 0.55) / 0.4)
+    rock = math.sin(t * 2.1) * 0.10
+    _ship(d, x - s * 4.3, y + s * 0.5 + math.sin(t * 1.3) * s * 0.15, s, 0.08 + rock, (120, 70, 130), 0.0, sink * 0.5)
+    _ship(d, x + s * 4.3, y + s * 0.3 + math.sin(t * 1.1 + 2) * s * 0.15, s, -0.10 - rock, (120, 70, 130), 0.0, sink * 0.8)
+    _ship(d, x, y + s * 0.2 + math.sin(t * 1.6 + 1) * s * 0.18, s, 0.16 * hit + rock, (140, 80, 140), hit * (1 - sink * 0.5), sink)
+    # mây đen phía trên
+    for k, (dx, dy, rx, ry, g) in enumerate(((-3.0, -8.2, 3.2, 1.3, 52), (0.4, -9.0, 4.0, 1.6, 44), (3.4, -8.1, 3.0, 1.2, 58))):
+        d.ellipse((x + dx * s - rx * s, y + dy * s - ry * s, x + dx * s + rx * s, y + dy * s + ry * s), fill=(g, g + 4, g + 14, 245), outline=(20, 20, 30, 255))
+    # mưa
+    r = random.Random(7)
+    for i in range(110):
+        px = x + r.uniform(-6.5, 6.5) * s; ph = (t * 1.8 + r.random()) % 1
+        py = y - 7.0 * s + ph * 9.6 * s
+        d.line([(px, py), (px - s * 0.3, py + s * 0.85)], fill=(226, 236, 252, 150), width=_lw(s, 0.07))
+    # tia sét đánh vào đỉnh cột thuyền giữa, lóe theo nhịp
+    cyc = (t % 2.6) / 2.6
+    if cyc < 0.16 or 0.22 < cyc < 0.3:
+        top = (x, y - s * 3.4)
+        pts = [(x - s * 0.8, y - s * 7.6), (x + s * 0.5, y - s * 6.1), (x - s * 0.3, y - s * 5.8), (x + s * 0.7, y - s * 4.6), (x - s * 0.1, y - s * 4.4), top]
+        d.line(pts, fill=(255, 255, 255, 255), width=_lw(s, 0.34))
+        d.line(pts, fill=(255, 238, 140, 255), width=_lw(s, 0.16))
+
+def stakes(d, x, y, s, u, t, arg):
+    """Cận cảnh: lòng sông với nhiều hàng cọc nhọn cắm chéo dòng nước, thêm dần theo thời gian; hai bên bờ có lính."""
+    d.polygon([(x - s * 6.5, y - s * 3.0), (x + s * 6.5, y - s * 3.6), (x + s * 6.5, y + s * 3.4), (x - s * 6.5, y + s * 3.0)], fill=(96, 142, 168, 215), outline=(40, 70, 90, 255))
+    for k in range(7):
+        wy = y + (k - 3) * s * 0.9
+        d.arc((x - s * 6.0, wy - s * 0.25, x + s * 6.0, wy + s * 0.25), 190, 350, fill=(220, 238, 250, 150), width=_lw(s, 0.06))
+    rows = 4; per = 8; total = rows * per
+    shown = int(total * _clamp(u * 1.4))
+    n = 0
+    for rw in range(rows):
+        for k in range(per):
+            n += 1
+            if n > shown: break
+            px = x + (k - (per - 1) / 2) * s * 1.55 + (rw % 2) * s * 0.7
+            py = y + (rw - 1.5) * s * 1.55 + (k - per / 2) * s * 0.08
+            rise = 1.0 if n < shown - 1 else 0.5
+            h = s * 2.1 * rise
+            d.polygon([(px - s * 0.2, py), (px + s * 0.2, py), (px + s * 0.12, py - h * 0.8), (px, py - h), (px - s * 0.12, py - h * 0.8)], fill=(124, 82, 46, 255), outline=INK)
+            d.line([(px - s * 0.2, py), (px + s * 0.2, py)], fill=(30, 50, 70, 200), width=_lw(s, 0.1))
+    # lính hai bên bờ, một người giơ búa đóng cọc
+    for bx_, hat in ((x - s * 7.4, (60, 120, 70)), (x + s * 7.4, (60, 120, 70))):
+        _person(d, bx_, y + s * 0.2, s * 0.8, (70, 110, 150), hat=hat)
+    sw = abs(math.sin(t * 5.0)) * 0.6
+    _person(d, x - s * 8.8, y - s * 0.8, s * 0.8, (60, 100, 140), hat=(60, 120, 70), arm=sw)
+
+KINDS_EXTRA = dict(ship_strike=ship_strike, stakes=stakes)
 
 KINDS = dict(ping=ping, orange=orange, banner=banner, hall=hall, granary=granary, bridge=bridge, heat=heat, tomb=tomb, statue=statue, seal=seal,
-             meeting=meeting, scrolls2=scrolls2, pawn=pawn, calendar=calendar, bowl=bowl, cross=cross, camp=camp, pennants=pennant_row, storm=storm)
+             meeting=meeting, scrolls2=scrolls2, pawn=pawn, calendar=calendar, bowl=bowl, cross=cross, camp=camp, pennants=pennant_row, storm=storm, ship_strike=ship_strike, stakes=stakes)
 
 def draw(d, kind, x, y, s, u, t, arg):
     KINDS[kind](d, x, y, s, u, t, arg)

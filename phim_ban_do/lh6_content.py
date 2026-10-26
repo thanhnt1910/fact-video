@@ -141,7 +141,8 @@ FACE(18,0.3,3.0,'Ngô Nhật Khánh','Cửa Đại Ác','lord',CH)
 show('Cửa Đại Ác',17,20)
 night(R(19,0.0),E(20,0.0))
 FX.append((at(19,'bão'),at(19,'bão',3.0),'sea',(105.95,19.93),(105.95,19.93)))
-PROPS.append((at(19,'bão')-0.5,E(20,0),'storm',105.98,19.84,'',0.45))
+PROPS.append((at(19,'bão')-0.5,at(19,'bão')+1.6,'storm',105.98,19.84,'',0.45))
+PROPS.append((at(19,'bão')+1.6,E(20,-0.3),'ship_strike',105.97,19.87,'',0.75))
 Q(19,20)
 # ======================= CHƯƠNG 3: LÁ THƯ CỦA KẺ MUỐN ĐÁNH ÚP (22–34)
 S2(22,34,[H,UC,TT,QC],1.7,hmax=360)
@@ -314,7 +315,7 @@ def RA(n,o=0): return T[BASE+n]+o
 def EA(n,o=0): return T[BASE+n]+D[BASE+n]+o
 GRADE={'sat':0.62,'tint':(188,212,232),'amt':0.8,'gain':0.97,'vig':0.6}
 INTER=[]
-INTER.append((RA(54,0.2),min(EA(54,-0.3),RA(54,0.2)+7.0),'split',{'head':'Tháng hai năm 981: hai bên đối mặt',
+INTER.append((RA(54,0.2),min(EA(54,-0.3),RA(54,0.2)+4.3),'split',{'head':'Tháng hai năm 981: hai bên đối mặt',
  'left':('Đại Cồ Việt','king',(200,60,50),['Vua Lê Hoàn đích thân cầm quân','Đóng cọc xuống sông Chi Lăng']),
  'right':('Nhà Tống','general',(60,90,170),['Quân chia ba hướng','Lạng Sơn, Tây Kết, sông Bạch Đằng'])}))
 INTER.append((RA(66,0.2),min(EA(66,-0.3),RA(66,0.2)+6.0),'portrait',{'kind':'noble','col':(150,110,60),'name':'Lê Văn Hưu',
@@ -332,6 +333,12 @@ CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]
 for (a_,b_,lo,la,z) in SCN:
     CAM.append((R(a_)+1.6,lo,la,z));CAM.append((E(b_)-0.2,lo+0.01,la,z*1.03))
 CAM=sorted(CAM,key=lambda k:k[0])
+# ---- cận cảnh chi tiết (26/10): zoom sâu vào đúng chỗ lời kể đang nói, rồi lùi về máy quay thường
+def CLOSE(t0,t1,lo,la,z,push=1.08):
+    global CAM
+    CAM=[k for k in CAM if not (t0-1.8<=k[0]<=t1+1.2)]
+    CAM+= [(t0,lo,la,z),(t1,lo+0.001,la,z*push)]
+    CAM=sorted(CAM,key=lambda k:k[0])
 NIGHT.append((TOTAL,0));NIGHT=sorted(NIGHT,key=lambda k:k[0])
 MINI=[(0,TOTAL)]
 QUIET_AUDIO=True
@@ -355,6 +362,9 @@ SFX_GROUPS=['Sứ nhà Tống','Sứ Tống Cảo','Sứ Tống Cảo đi bộ',
 # âm thanh bão và cọc (26/10): mưa suốt cảnh bão, sấm sau mỗi tia chớp (chu kỳ 2,6 giây của hiệu ứng storm), tiếng cọc gãy ở Chi Lăng
 _s0=at(19,'bão')-0.5
 AMBIENT.append((_s0,E(20,0),'rain',0.5))
-for _k in range(int((E(20,0)-_s0)/2.6)): SFX.append((_s0+_k*2.6+0.35,'thunder'))
+for _m in range(int(_s0/2.6)+1,int(E(20,0)/2.6)+1): SFX.append((_m*2.6+0.45,'thunder'))
 FX.append((at(54,'đóng cọc'),at(54,'đóng cọc',1.5),'crack',CLG,CLG))
 FX.append((at(19,'đắm'),at(19,'đắm',1.0),'splash',(105.95,19.93),(105.95,19.93)))
+CLOSE(at(19,'bão')-0.6,E(20,-0.3),105.97,19.91,7.5)
+CLOSE(RA(54,0.2)+3.6,E(54,-0.1),CLG[0],CLG[1],8.0)
+PROPS.append((RA(54,0.2)+4.6,E(54,-0.1),'stakes',CLG[0],CLG[1],'',0.8))

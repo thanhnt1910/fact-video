@@ -1,3 +1,4 @@
+import os
 import math,random,json,numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
 from build2 import font,W,H,FPS
@@ -165,8 +166,33 @@ def paper():
 
 # ---- mặt nhân vật (huy hiệu tròn) để hiện trên bản đồ khi nhắc tên ----
 _FACE_CACHE = {}
-def face_sprite(kind, col, S=256):
+_ICON_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets', 'icon_nhan_vat')
+def _slug(name):
+    import unicodedata, re
+    t = unicodedata.normalize('NFD', name.replace('đ', 'd').replace('Đ', 'D'))
+    return re.sub(r'[^a-z0-9]', '', ''.join(c for c in t if unicodedata.category(c) != 'Mn').lower())
+def icon_sprite(name, col, S):
+    """Chân dung AI riêng của nhân vật (assets/icon_nhan_vat/<tên không dấu>.png|jpg), cắt tròn, viền màu phe. Không có ảnh thì trả None."""
+    from PIL import Image as _I, ImageDraw as _D
+    sl = _slug(name)
+    for ext in ('png', 'jpg'):
+        p = os.path.join(_ICON_DIR, sl + '.' + ext)
+        if os.path.exists(p): break
+    else: return None
+    key = ('icon', sl, tuple(col), S)
+    if key in _FACE_CACHE: return _FACE_CACHE[key]
+    im = _I.open(p).convert('RGB'); w, h = im.size; m = min(w, h)
+    im = im.crop(((w - m) // 2, int((h - m) * 0.35), (w - m) // 2 + m, int((h - m) * 0.35) + m)).resize((S * 2, S * 2), _I.LANCZOS)
+    out = _I.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0)); mk = _I.new('L', (S * 2, S * 2), 0)
+    _D.Draw(mk).ellipse((0, 0, S * 2 - 1, S * 2 - 1), fill=255); out.paste(im, (0, 0), mk)
+    g = _D.Draw(out); b = max(6, S // 14)
+    g.ellipse((b // 2, b // 2, S * 2 - 1 - b // 2, S * 2 - 1 - b // 2), outline=tuple(col) + (255,), width=b)
+    out = out.resize((S, S), _I.LANCZOS); _FACE_CACHE[key] = out; return out
+def face_sprite(kind, col, S=256, name=None):
     """Huy hiệu tròn vẽ phẳng: nền giấy, vai áo màu phe, mặt, mũ/tóc theo vai trò. Trả về ảnh RGBA S×S."""
+    if name:
+        ic = icon_sprite(name, col, S)
+        if ic is not None: return ic
     key = (kind, tuple(col), S)
     if key in _FACE_CACHE: return _FACE_CACHE[key]
     from PIL import Image as _I, ImageDraw as _D

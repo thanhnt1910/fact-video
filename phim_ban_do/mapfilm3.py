@@ -446,7 +446,7 @@ def frame(t):
             ph_=((u_*0.9)+j_*0.5)%1.0
             d.ellipse((x-ik*(0.6+2.2*ph_),y-ik*(0.6+2.2*ph_)*0.62,x+ik*(0.6+2.2*ph_),y+ik*(0.6+2.2*ph_)*0.62),outline=col_+(int(190*(1-ph_)*k_),),width=max(2,int(3*K*0.7)))
         d.polygon([(fx-r_*0.30,fy+r_*0.80),(fx+r_*0.30,fy+r_*0.80),(x,y-ik*1.3)],fill=col_+(int(255*k_),),outline=(34,24,18,int(255*k_)))
-        sp_=MD.face_sprite(kind_,col_)
+        sp_=MD.face_sprite(kind_,col_,name=nm_)
         sz_=max(8,int(r_*2));sp2=sp_.resize((sz_,sz_),Image.LANCZOS)
         if k_<1:
             al_=sp2.getchannel('A').point(lambda a_:int(a_*k_));sp2.putalpha(al_)

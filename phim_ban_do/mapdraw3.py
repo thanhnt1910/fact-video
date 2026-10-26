@@ -344,7 +344,7 @@ def inter_layer(kind, data):
         g.text((W // 2, top + 300), 'VS', font=font(36), fill=GOLD, anchor='mm')
     elif kind == 'portrait':
         fk, col, nm, role, txt = data['kind'], data['col'], data['name'], data['role'], data['text']
-        sp = MD.face_sprite(fk, col, 360)
+        sp = MD.face_sprite(fk, col, 360, name=nm)
         im.alpha_composite(sp, (300 - 180, 170))
         g.text((300, 560), nm, font=ft, fill=GOLD, anchor='mt')
         g.text((300, 622), role, font=fs, fill=(215, 200, 170, 255), anchor='mt')

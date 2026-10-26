@@ -310,29 +310,35 @@ def ship_strike(d, x, y, s, u, t, arg):
         d.line(pts, fill=(255, 238, 140, 255), width=_lw(s, 0.16))
 
 def stakes(d, x, y, s, u, t, arg):
-    """Cận cảnh: lòng sông với nhiều hàng cọc nhọn cắm chéo dòng nước, thêm dần theo thời gian; hai bên bờ có lính."""
-    d.polygon([(x - s * 6.5, y - s * 3.0), (x + s * 6.5, y - s * 3.6), (x + s * 6.5, y + s * 3.4), (x - s * 6.5, y + s * 3.0)], fill=(96, 142, 168, 215), outline=(40, 70, 90, 255))
-    for k in range(7):
-        wy = y + (k - 3) * s * 0.9
-        d.arc((x - s * 6.0, wy - s * 0.25, x + s * 6.0, wy + s * 0.25), 190, 350, fill=(220, 238, 250, 150), width=_lw(s, 0.06))
-    rows = 4; per = 8; total = rows * per
-    shown = int(total * _clamp(u * 1.4))
+    """Cận cảnh: lòng sông với các hàng cọc nhọn; cọc được đóng thụt lên xuống theo nhịp búa và mọc dần. Dải sông dời lên trên để không che quân."""
+    y = y - s * 2.6
+    d.polygon([(x - s * 6.5, y - s * 2.4), (x + s * 6.5, y - s * 2.9), (x + s * 6.5, y + s * 2.1), (x - s * 6.5, y + s * 1.8)], fill=(96, 142, 168, 150), outline=(40, 70, 90, 220))
+    for k in range(5):
+        wy = y + (k - 2) * s * 0.85
+        d.arc((x - s * 6.0, wy - s * 0.25, x + s * 6.0, wy + s * 0.25), 190, 350, fill=(220, 238, 250, 120), width=_lw(s, 0.06))
+    rows = 3; per = 8; total = rows * per
+    shown = int(total * _clamp(u * 1.3))
     n = 0
     for rw in range(rows):
         for k in range(per):
             n += 1
             if n > shown: break
             px = x + (k - (per - 1) / 2) * s * 1.55 + (rw % 2) * s * 0.7
-            py = y + (rw - 1.5) * s * 1.55 + (k - per / 2) * s * 0.08
-            rise = 1.0 if n < shown - 1 else 0.5
-            h = s * 2.1 * rise
+            py = y + (rw - 1) * s * 1.35 + (k - per / 2) * s * 0.08
+            # nhịp đóng: mỗi cọc có pha riêng, thụt xuống khi búa giáng rồi nhô lên lại
+            ph = (t * 1.25 + n * 0.37) % 1.0
+            drive = 0.5 + 0.5 * math.cos(ph * 2 * math.pi)
+            hit = max(0.0, 1.0 - ph * 6.0)
+            h = s * (1.35 + 0.65 * drive) * (0.45 if n >= shown - 1 else 1.0)
             d.polygon([(px - s * 0.2, py), (px + s * 0.2, py), (px + s * 0.12, py - h * 0.8), (px, py - h), (px - s * 0.12, py - h * 0.8)], fill=(124, 82, 46, 255), outline=INK)
             d.line([(px - s * 0.2, py), (px + s * 0.2, py)], fill=(30, 50, 70, 200), width=_lw(s, 0.1))
-    # lính hai bên bờ, một người giơ búa đóng cọc
-    for bx_, hat in ((x - s * 7.4, (60, 120, 70)), (x + s * 7.4, (60, 120, 70))):
-        _person(d, bx_, y + s * 0.2, s * 0.8, (70, 110, 150), hat=hat)
+            if hit > 0:  # bụi nước văng lên khi cọc lún xuống
+                d.arc((px - s * 0.45, py - s * 0.2, px + s * 0.45, py + s * 0.2), 200, 340, fill=(255, 255, 255, int(220 * hit)), width=_lw(s, 0.08))
+    # lính hai bên bờ, một người giơ búa đóng cọc theo nhịp
+    for bx_ in (x - s * 7.4, x + s * 7.4):
+        _person(d, bx_, y + s * 0.4, s * 0.8, (70, 110, 150), hat=(60, 120, 70))
     sw = abs(math.sin(t * 5.0)) * 0.6
-    _person(d, x - s * 8.8, y - s * 0.8, s * 0.8, (60, 100, 140), hat=(60, 120, 70), arm=sw)
+    _person(d, x - s * 8.8, y - s * 0.4, s * 0.8, (60, 100, 140), hat=(60, 120, 70), arm=sw)
 
 KINDS_EXTRA = dict(ship_strike=ship_strike, stakes=stakes)
 

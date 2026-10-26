@@ -1,17 +1,17 @@
 + nproc
 4
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_lh6.txt
-+ MODE=full
++ MODE='full 1792996883'
 + python -
-tổng khung 19693 đoạn 15 18462 19693
+tổng khung 19771 đoạn 15 18535 19771
 + read A0 A1
-+ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_15.mp4 18462 19693
++ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_15.mp4 18535 19771
 + tail -n 15
-0 1231
-300 1231
-600 1231
-900 1231
-1200 1231
+0 1236
+300 1236
+600 1236
+900 1236
+1200 1236
 xong
 + ls -la doan_15.mp4
--rw-r--r-- 1 runner runner 3864524 Oct 26 05:28 doan_15.mp4
+-rw-r--r-- 1 runner runner 4085051 Oct 26 06:47 doan_15.mp4

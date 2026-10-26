@@ -45,7 +45,7 @@
   "n": 17008,
   "chuong": "Cửa Minh Đức",
   "tone": "story",
-  "text": "Nhưng đó mới chỉ là cái giả thứ tư. Ba cái giả đầu tiên còn lạ hơn, và chúng bắt đầu từ một lá thư viết thay cho một đứa trẻ."
+  "text": "Đó là cái giả thứ tư, và là cái đáng nói nhất. Muốn hiểu vì sao, bạn phải đi qua ba cái giả trước nó."
  },
  {
   "n": 17009,
@@ -657,10 +657,16 @@
   "n": 17110,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Nhờ đó, nhà Tống vẫn bằng lòng cho thư từ trao nhận ở biên giới."
+  "text": "Cái giả thứ tư không thắng một trận nào."
  },
  {
   "n": 17111,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Nhưng nhờ nó, thư từ hai nước từ đó trao nhận ở biên giới, và Lê Hoàn đỡ phải đón sứ nhà Tống tận kinh đô."
+ },
+ {
+  "n": 17112,
   "chuong": "Kết",
   "tone": "reflect",
   "text": "Đó là câu chuyện về Lê Hoàn, người đã chặn quân Tống ở vùng biên giới phía bắc. Cảm ơn bạn đã theo dõi."

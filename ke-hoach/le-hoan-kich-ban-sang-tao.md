@@ -1,11 +1,12 @@
 # Kịch bản sáng tạo video Lê Hoàn (lh6) — bản để chủ kênh duyệt
 
-Mã `lh6`, 111 đoạn (17001–17111), 2.530 chữ, khoảng 14,1 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bản này bỏ hẳn giọng hài theo yêu cầu 26/10.
+Mã `lh6`, 112 đoạn (17001–17112), 2.572 chữ, khoảng 14,3 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bản này bỏ hẳn giọng hài theo yêu cầu 26/10.
 
 ## Ý tưởng chính
 
 - **Mở đầu:** cảnh thật năm 990 ở cửa Minh Đức: Lê Hoàn không lạy thư vua Tống, bịa chuyện ngã ngựa đau chân, sứ giả tin. Cảnh này được kể đầy đủ ở chương 10.
 
+- **Móc nối đầu – cuối:** đoạn mở đầu nói cái giả thứ tư là cái đáng nói nhất, và chỉ đến cuối video mới giải thích: nó không thắng trận nào nhưng đổi cách hai nước trao thư (thư từ nhận ở biên giới, sứ Tống khỏi tới kinh đô). Đây là phần sáng tạo, "đáng nói nhất" là cách nhấn của em, chủ kênh duyệt.
 - **Lời hứa với người xem:** ông bốn lần dùng cái giả trước nhà Tống: lá thư giả, lời đầu hàng giả, người coi sông giả, cái chân đau giả. Người xem ở lại để chờ từng cái giả xuất hiện.
 
 - **Vòng lặp:** chương 10 quay lại đúng cửa Minh Đức của đoạn mở đầu để khép vòng.
@@ -52,7 +53,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17005 | Cửa Minh Đức | Người đứng trước họ là Lê Hoàn. Mười năm trước, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
 | 17006 | Cửa Minh Đức | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
 | 17007 | Cửa Minh Đức | Vậy giữa hai mốc ấy đã xảy ra chuyện gì, để kẻ định đánh úp phải đứng chờ một lời nói dối? |
-| 17008 | Cửa Minh Đức | Nhưng đó mới chỉ là cái giả thứ tư. Ba cái giả đầu tiên còn lạ hơn, và chúng bắt đầu từ một lá thư viết thay cho một đứa trẻ. |
+| 17008 | Cửa Minh Đức | Đó là cái giả thứ tư, và là cái đáng nói nhất. Muốn hiểu vì sao, bạn phải đi qua ba cái giả trước nó. |
 | 17009 | Cửa Minh Đức | Một lá thư giả, một cuộc đầu hàng giả, một người coi sông giả, và cuối cùng là cái chân đau giả mà bạn vừa thấy. |
 | 17010 | Cửa Minh Đức | Bây giờ hãy quay về mười một năm trước, khi một đứa bé sáu tuổi ngồi lên ngai vàng. |
 | 17011 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
@@ -154,5 +155,6 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17107 | Kết | Năm chín trăm tám mươi sáu, ông nhận thư phong chức của vua Tống rất kính cẩn. |
 | 17108 | Kết | Bốn năm sau, ông bưng thư vua Tống đặt lên điện mà không lạy. |
 | 17109 | Kết | Giữa hai lần ấy là một lá thư giả, một lời hàng giả, một người coi sông giả, và một cái chân đau giả. |
-| 17110 | Kết | Nhờ đó, nhà Tống vẫn bằng lòng cho thư từ trao nhận ở biên giới. |
-| 17111 | Kết | Đó là câu chuyện về Lê Hoàn, người đã chặn quân Tống ở vùng biên giới phía bắc. Cảm ơn bạn đã theo dõi. |
+| 17110 | Kết | Cái giả thứ tư không thắng một trận nào. |
+| 17111 | Kết | Nhưng nhờ nó, thư từ hai nước từ đó trao nhận ở biên giới, và Lê Hoàn đỡ phải đón sứ nhà Tống tận kinh đô. |
+| 17112 | Kết | Đó là câu chuyện về Lê Hoàn, người đã chặn quân Tống ở vùng biên giới phía bắc. Cảm ơn bạn đã theo dõi. |

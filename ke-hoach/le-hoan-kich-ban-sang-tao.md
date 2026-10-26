@@ -46,7 +46,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 
 | n | chương | lời |
 |---|---|---|
-| 17001 | Bốn lần đánh lừa | Từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua nước Việt đã dùng bốn lần đánh lừa nhà Tống. |
+| 17001 | Bốn lần đánh lừa | Từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua nước Việt đã bốn lần đánh lừa nhà Tống. |
 | 17002 | Bốn lần đánh lừa | Vào đầu quãng thời gian ấy, có quan nhà Tống khoe thắng nước ông dễ như bẻ cành khô mà không tốn một mũi tên. |
 | 17003 | Bốn lần đánh lừa | Vậy mà rốt cuộc, quân Tống phải rút về, và triều đình nhà Tống về sau phải dè chừng ông. |
 | 17004 | Bốn lần đánh lừa | Bốn lần đánh lừa ấy là gì, và vì sao cái cuối cùng lại khiến vua Tống phải bằng lòng với ông? Câu trả lời nằm ở cuối video. |

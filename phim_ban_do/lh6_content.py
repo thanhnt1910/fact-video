@@ -344,9 +344,7 @@ MINI=[(0,TOTAL)]
 QUIET_AUDIO=True
 CAMFOCUS=True
 FOC=[]
-MUSIC=[(0,R(5,0),'cang',1.0),(R(5,0),R(17,0),'bi',1.0),(R(17,0),R(22,0),'cang',1.0),(R(22,0),R(35,0),'cang',0.9),(R(35,0),R(43,0),'trang',1.0),
-       (R(43,0),R(52,0),'cang',0.9),(R(52,0),R(61,0),'hanh',1.0),(R(61,0),R(68,0),'trang',1.0),(R(68,0),R(73,0),'hanh',1.0),(R(73,0),R(85,0),'binh',0.9),
-       (R(85,0),R(92,0),'mo',0.9),(R(92,0),R(100,0),'binh',0.9),(R(100,0),R(106,0),'binh',1.0),(R(106,0),R(108,0),'bi',1.0),(R(108,0),TOTAL,'trang',1.0)]
+MUSIC=[]  # chủ kênh yêu cầu bỏ nhạc nền (26/10/2026)
 def gate_open(t): return 0
 def year_of(n):
     m=n-BASE

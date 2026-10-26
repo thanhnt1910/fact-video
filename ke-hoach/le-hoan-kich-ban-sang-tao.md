@@ -6,8 +6,8 @@ Mã `lh6`, 112 đoạn (17001–17112). 2.550 chữ, khoảng 14,2 phút. Bộ k
 
 - **Mở đầu:** cảnh thật năm 990 ở cửa Minh Đức: Lê Hoàn không lạy thư vua Tống, bịa chuyện ngã ngựa đau chân, sứ giả tin. Cảnh này được kể đầy đủ ở chương 10.
 
-- **Móc nối đầu – cuối:** đoạn mở đầu đặt câu hỏi "vì sao một vị vua lại chọn bịa ra cái chân đau trước sứ giả nước lớn?". Cuối video trả lời bằng sự việc có thật: ngay sau đó ông xin thư từ trao nhận ở biên giới và vua Tống bằng lòng. Không có lời kết luận của người kể.
-- **Giữ bí mật:** đoạn mở đầu chỉ nói đây là lần thứ tư và không liệt kê ba lần trước; người xem phải xem hết mới biết.
+- **Móc nối đầu – cuối (giữ theo ý chủ kênh):** đoạn mở đầu hứa "vì sao cái chân đau mới là điều đáng nói nhất, câu trả lời ở cuối video". Cuối video đáp bằng sự việc có thật: ba cái giả đầu gắn với trận đánh và việc tiếp sứ, còn cái thứ tư không thắng trận nào nhưng ngay sau đó ông xin thư từ trao nhận ở biên giới và vua Tống bằng lòng. "Đáng nói nhất" là cách nhấn của người làm video, chủ kênh duyệt.
+- **Giữ bí mật:** đoạn mở đầu không liệt kê ba cái giả còn lại; người xem phải xem hết mới biết.
 - **(Cũ) Lời hứa với người xem:** ông bốn lần dùng cái giả trước nhà Tống: lá thư giả, lời đầu hàng giả, người coi sông giả, cái chân đau giả. Người xem ở lại để chờ từng cái giả xuất hiện.
 
 - **Vòng lặp:** chương 10 quay lại đúng cửa Minh Đức của đoạn mở đầu để khép vòng.
@@ -53,8 +53,8 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17004 | Cửa Minh Đức | Chuyện ngã ngựa ấy chưa từng xảy ra. Nhưng hai sứ giả vẫn tin là thật. |
 | 17005 | Cửa Minh Đức | Người đứng trước họ là Lê Hoàn. Mười năm trước, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
 | 17006 | Cửa Minh Đức | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
-| 17007 | Cửa Minh Đức | Chân không đau, nhưng ông nói là đau. Vì sao một vị vua lại chọn bịa ra chuyện ấy trước sứ giả của một nước lớn? |
-| 17008 | Cửa Minh Đức | Đây là lần thứ tư ông dùng đến cái giả để đối mặt với nhà Tống. Ba lần trước là gì, và câu trả lời nằm ở cuối video. |
+| 17007 | Cửa Minh Đức | Nhưng đó chưa phải lần đầu ông đem cái giả ra đối mặt với nhà Tống. Trước đó còn ba lần nữa. |
+| 17008 | Cửa Minh Đức | Ba lần ấy là gì, và vì sao cái chân đau mới là điều đáng nói nhất? Câu trả lời nằm ở cuối video. |
 | 17009 | Cửa Minh Đức | Muốn biết, hãy quay về mười một năm trước, khi một đứa bé sáu tuổi ngồi lên ngai vàng. |
 | 17010 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
 | 17011 | Đứa bé và người giữ quyền | Sáu tuổi thì chưa thể tự cầm quyền một nước. Người đứng ra giữ quyền thay cậu bé là Lê Hoàn. |
@@ -155,6 +155,6 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17106 | Kết | Năm chín trăm tám mươi sáu, ông nhận thư phong chức của vua Tống rất kính cẩn. |
 | 17107 | Kết | Bốn năm sau, ông bưng thư vua Tống đặt lên điện mà không lạy. |
 | 17108 | Kết | Giữa hai lần ấy là một lá thư giả, một lời hàng giả, một người coi sông giả, và một cái chân đau giả. |
-| 17109 | Kết | Cái giả thứ tư không thắng một trận nào. |
+| 17109 | Kết | Ba cái giả đầu gắn với trận đánh và việc tiếp sứ, còn cái giả thứ tư không thắng một trận nào. |
 | 17110 | Kết | Nhưng ngay sau đó, ông xin thư từ hai nước trao nhận ở biên giới, và vua Tống bằng lòng, nên ông đỡ phải đón sứ tận kinh đô. |
 | 17111 | Kết | Đó là câu chuyện về Lê Hoàn, người đã chặn quân Tống ở vùng biên giới phía bắc. Cảm ơn bạn đã theo dõi. |

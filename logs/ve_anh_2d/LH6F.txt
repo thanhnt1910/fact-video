@@ -1,0 +1,7 @@
+Cần vẽ 21 ảnh (đợt 1)
+     🖥️  Gửi 21 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .running
+     🖥️  11.2 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (11 phút)
+     🖥️  Nhận về 21/21 tranh từ Kaggle
+Nhận về 21/21 ảnh

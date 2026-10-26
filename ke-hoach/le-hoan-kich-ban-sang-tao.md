@@ -1,13 +1,13 @@
 # Kịch bản sáng tạo video Lê Hoàn (lh6) — bản để chủ kênh duyệt
 
-Mã `lh6`, 112 đoạn (17001–17112), 2.576 chữ, khoảng 14,3 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bỏ hẳn giọng hài (26/10). Mở đầu theo ý chủ kênh: một vị vua dùng bốn thứ giả khiến nhà Tống phải dè chừng.
+Mã `lh6`, 112 đoạn (17001–17112), 2.576 chữ, khoảng 14,3 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bỏ hẳn giọng hài (26/10). Mở đầu theo ý chủ kênh: một vị vua dùng bốn lần giả vờ khiến nhà Tống phải dè chừng.
 
 ## Ý tưởng chính
 
-- **Mở đầu (theo ý chủ kênh):** nêu thẳng "từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua dùng bốn thứ giả để đối mặt với nhà Tống", đối chiếu với lời khoe "không tốn một mũi tên", rồi kết quả: quân Tống phải rút về và triều đình nhà Tống về sau phải dè chừng ông.
+- **Mở đầu (theo ý chủ kênh):** nêu thẳng "từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua dùng bốn lần giả vờ để đối mặt với nhà Tống", đối chiếu với lời khoe "không tốn một mũi tên", rồi kết quả: quân Tống phải rút về và triều đình nhà Tống về sau phải dè chừng ông.
 
-- **Móc nối đầu – cuối:** hỏi "bốn thứ giả ấy là gì, và vì sao cái cuối cùng khiến vua Tống phải bằng lòng với ông?". Cuối video trả lời bằng việc có thật: sau cái giả thứ tư ông xin thư từ trao nhận ở biên giới và vua Tống bằng lòng. Ba cái giả đầu gắn với trận đánh và việc tiếp sứ, còn cái thứ tư không thắng trận nào.
-- **Giữ bí mật:** mở đầu chỉ nói có bốn thứ giả, không nói là những thứ nào.
+- **Móc nối đầu – cuối:** hỏi "bốn lần giả vờ ấy là gì, và vì sao cái cuối cùng khiến vua Tống phải bằng lòng với ông?". Cuối video trả lời bằng việc có thật: sau lần giả vờ thứ tư ông xin thư từ trao nhận ở biên giới và vua Tống bằng lòng. Ba lần giả vờ đầu gắn với trận đánh và việc tiếp sứ, còn cái thứ tư không thắng trận nào.
+- **Giữ bí mật:** mở đầu chỉ nói có bốn lần giả vờ, không nói là những thứ nào.
 
 - **Thân bài:** quay về năm 979, kể đúng thứ tự thời gian. Mỗi chương kết bằng một câu treo dẫn sang chương sau.
 
@@ -46,11 +46,11 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 
 | n | chương | lời |
 |---|---|---|
-| 17001 | Bốn thứ giả | Từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua đã dùng bốn thứ giả để đối mặt với nhà Tống. Ông là Lê Hoàn. |
-| 17002 | Bốn thứ giả | Vào đầu quãng thời gian ấy, có quan nhà Tống khoe thắng nước ông dễ như bẻ cành khô mà không tốn một mũi tên. |
-| 17003 | Bốn thứ giả | Vậy mà rốt cuộc, quân Tống phải rút về, và triều đình nhà Tống về sau phải dè chừng ông. |
-| 17004 | Bốn thứ giả | Bốn thứ giả ấy là gì, và vì sao cái cuối cùng lại khiến vua Tống phải bằng lòng với ông? Câu trả lời nằm ở cuối video. |
-| 17005 | Bốn thứ giả | Muốn biết, hãy quay về những ngày một đứa bé sáu tuổi ngồi lên ngai vàng. |
+| 17001 | Bốn lần giả vờ | Từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua đã dùng bốn lần giả vờ để đối mặt với nhà Tống. Ông là Lê Hoàn. |
+| 17002 | Bốn lần giả vờ | Vào đầu quãng thời gian ấy, có quan nhà Tống khoe thắng nước ông dễ như bẻ cành khô mà không tốn một mũi tên. |
+| 17003 | Bốn lần giả vờ | Vậy mà rốt cuộc, quân Tống phải rút về, và triều đình nhà Tống về sau phải dè chừng ông. |
+| 17004 | Bốn lần giả vờ | Bốn lần giả vờ ấy là gì, và vì sao cái cuối cùng lại khiến vua Tống phải bằng lòng với ông? Câu trả lời nằm ở cuối video. |
+| 17005 | Bốn lần giả vờ | Muốn biết, hãy quay về những ngày một đứa bé sáu tuổi ngồi lên ngai vàng. |
 | 17006 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
 | 17007 | Đứa bé và người giữ quyền | Sáu tuổi thì chưa thể tự cầm quyền một nước. Nước ấy khi đó mang tên Đại Cồ Việt, kinh đô đặt ở Hoa Lư. |
 | 17008 | Đứa bé và người giữ quyền | Người đứng ra giữ quyền thay cậu bé là Lê Hoàn, một người xuất thân rất nghèo. |
@@ -87,24 +87,24 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17039 | Tiếng hô vạn tuế | Lê Hoàn lên ngôi hoàng đế, lấy niên hiệu là Thiên Phúc, tức tên dùng để ghi năm trong triều. |
 | 17040 | Tiếng hô vạn tuế | Đinh Toàn bị giáng xuống làm Vệ Vương, và nhà Đinh chấm dứt sau mười ba năm. |
 | 17041 | Tiếng hô vạn tuế | Từ lúc ấy, ông không còn là người giữ quyền thay vua nhỏ. Ông là hoàng đế, và ông phải đối mặt với quân Tống đang kéo tới. |
-| 17042 | Cái giả thứ nhất, một lá thư | Cái giả thứ nhất là một lá thư. Nhưng trước đó, nhà Tống đã gửi đến một lá thư thật. |
-| 17043 | Cái giả thứ nhất, một lá thư | Tháng tám, vua Tống gửi sang một bức thư dài. Ông ví các nước xung quanh như tay chân bị bệnh, phải chữa bằng thuốc rồi đến châm cứu. |
-| 17044 | Cái giả thứ nhất, một lá thư | Thư nói nước ta chỉ như ngón tay ngón chân trên thân thể nhà Tống. Nếu không chịu theo, quân Tống sẽ dẹp sạch đất này. |
-| 17045 | Cái giả thứ nhất, một lá thư | Lê Hoàn đáp lại bằng một bức thư giả. Tháng mười, khi sắp xuất quân, ông sai hai sứ giả mang sang nhà Tống bức thư mượn tên Đinh Toàn. |
-| 17046 | Cái giả thứ nhất, một lá thư | Trong thư, Đinh Toàn xin nhà Tống chính thức phong cho mình chức của cha. Mục đích là làm nhà Tống hoãn việc đem quân sang. |
-| 17047 | Cái giả thứ nhất, một lá thư | Nhà Tống đang muốn hỏi tội việc Lê Hoàn xưng đế, lại có ý chiếm nước Việt. Họ trả lời bằng một bức thư khác, đưa ra hai đường. |
-| 17048 | Cái giả thứ nhất, một lá thư | Đường thứ nhất, Đinh Toàn làm tổng chỉ huy và Lê Hoàn làm phó. |
-| 17049 | Cái giả thứ nhất, một lá thư | Đường thứ hai, đưa cả mẹ con Đinh Toàn cùng thân thuộc sang xin theo nhà Tống. |
-| 17050 | Cái giả thứ nhất, một lá thư | Lê Hoàn không nghe theo đường nào. Việc bàn bằng thư từ đến đó chấm dứt, và hai bên chỉ còn cách dùng quân. |
-| 17051 | Cái giả thứ hai, lời đầu hàng | Tháng hai năm chín trăm tám mươi mốt, quân Tống áp sát bờ cõi. Hầu Nhân Bảo cùng Tôn Toàn Hưng kéo tới Lạng Sơn. |
-| 17052 | Cái giả thứ hai, lời đầu hàng | Trần Khâm Tộ tới Tây Kết, còn Lưu Trừng tiến đến sông Bạch Đằng. Quân Tống chia làm ba hướng, cùng ép vào Đại Cồ Việt. |
-| 17053 | Cái giả thứ hai, lời đầu hàng | Lê Hoàn không ngồi chờ. Ông đích thân làm tướng ra chặn giặc, và quân của ông đóng cọc xuống sông Chi Lăng để ngăn đường. |
-| 17054 | Cái giả thứ hai, lời đầu hàng | Rồi đến cái giả thứ hai. Ông sai một số quân giả vờ đầu hàng để dụ Hầu Nhân Bảo. |
-| 17055 | Cái giả thứ hai, lời đầu hàng | Hầu Nhân Bảo mắc mưu và bị chém. Còn mưu ấy chạy ra sao thì không ai còn kể lại. |
-| 17056 | Cái giả thứ hai, lời đầu hàng | Tin quân thủy của nhà Tống thua trận truyền đến Trần Khâm Tộ, và ông vội dẫn quân quay về. |
-| 17057 | Cái giả thứ hai, lời đầu hàng | Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng. |
-| 17058 | Cái giả thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, đưa về Hoa Lư. Từ đó trong nước rất yên. |
-| 17059 | Cái giả thứ hai, lời đầu hàng | Trận đánh quyết định ấy chỉ được ghi lại vài dòng. Vì vậy ta biết kết quả, còn từng bước đi của hai bên thì chưa rõ. |
+| 17042 | Lần giả vờ thứ nhất, một lá thư | Lần giả vờ thứ nhất là một lá thư. Nhưng trước đó, nhà Tống đã gửi đến một lá thư thật. |
+| 17043 | Lần giả vờ thứ nhất, một lá thư | Tháng tám, vua Tống gửi sang một bức thư dài. Ông ví các nước xung quanh như tay chân bị bệnh, phải chữa bằng thuốc rồi đến châm cứu. |
+| 17044 | Lần giả vờ thứ nhất, một lá thư | Thư nói nước ta chỉ như ngón tay ngón chân trên thân thể nhà Tống. Nếu không chịu theo, quân Tống sẽ dẹp sạch đất này. |
+| 17045 | Lần giả vờ thứ nhất, một lá thư | Lê Hoàn đáp lại bằng một bức thư giả. Tháng mười, khi sắp xuất quân, ông sai hai sứ giả mang sang nhà Tống bức thư mượn tên Đinh Toàn. |
+| 17046 | Lần giả vờ thứ nhất, một lá thư | Trong thư, Đinh Toàn xin nhà Tống chính thức phong cho mình chức của cha. Mục đích là làm nhà Tống hoãn việc đem quân sang. |
+| 17047 | Lần giả vờ thứ nhất, một lá thư | Nhà Tống đang muốn hỏi tội việc Lê Hoàn xưng đế, lại có ý chiếm nước Việt. Họ trả lời bằng một bức thư khác, đưa ra hai đường. |
+| 17048 | Lần giả vờ thứ nhất, một lá thư | Đường thứ nhất, Đinh Toàn làm tổng chỉ huy và Lê Hoàn làm phó. |
+| 17049 | Lần giả vờ thứ nhất, một lá thư | Đường thứ hai, đưa cả mẹ con Đinh Toàn cùng thân thuộc sang xin theo nhà Tống. |
+| 17050 | Lần giả vờ thứ nhất, một lá thư | Lê Hoàn không nghe theo đường nào. Việc bàn bằng thư từ đến đó chấm dứt, và hai bên chỉ còn cách dùng quân. |
+| 17051 | Lần giả vờ thứ hai, lời đầu hàng | Tháng hai năm chín trăm tám mươi mốt, quân Tống áp sát bờ cõi. Hầu Nhân Bảo cùng Tôn Toàn Hưng kéo tới Lạng Sơn. |
+| 17052 | Lần giả vờ thứ hai, lời đầu hàng | Trần Khâm Tộ tới Tây Kết, còn Lưu Trừng tiến đến sông Bạch Đằng. Quân Tống chia làm ba hướng, cùng ép vào Đại Cồ Việt. |
+| 17053 | Lần giả vờ thứ hai, lời đầu hàng | Lê Hoàn không ngồi chờ. Ông đích thân làm tướng ra chặn giặc, và quân của ông đóng cọc xuống sông Chi Lăng để ngăn đường. |
+| 17054 | Lần giả vờ thứ hai, lời đầu hàng | Rồi đến lần giả vờ thứ hai. Ông sai một số quân giả vờ đầu hàng để dụ Hầu Nhân Bảo. |
+| 17055 | Lần giả vờ thứ hai, lời đầu hàng | Hầu Nhân Bảo mắc mưu và bị chém. Còn mưu ấy chạy ra sao thì không ai còn kể lại. |
+| 17056 | Lần giả vờ thứ hai, lời đầu hàng | Tin quân thủy của nhà Tống thua trận truyền đến Trần Khâm Tộ, và ông vội dẫn quân quay về. |
+| 17057 | Lần giả vờ thứ hai, lời đầu hàng | Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng. |
+| 17058 | Lần giả vờ thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, đưa về Hoa Lư. Từ đó trong nước rất yên. |
+| 17059 | Lần giả vờ thứ hai, lời đầu hàng | Trận đánh quyết định ấy chỉ được ghi lại vài dòng. Vì vậy ta biết kết quả, còn từng bước đi của hai bên thì chưa rõ. |
 | 17060 | Quân Tống rút về | Quan lo việc chuyển vận vùng Giang Nam là Hứa Trọng Tuyên tâu về triều rằng Hầu Nhân Bảo đã thua và chết. Vua Tống ra lệnh rút quân. |
 | 17061 | Quân Tống rút về | Vua Tống còn sai sứ đi quở trách các tướng đã dẫn quân sang, là Lưu Trừng, Giả Thực và Vương Soạn. |
 | 17062 | Quân Tống rút về | Kết cục của họ khác xa lời hứa ban đầu. Lưu Trừng ốm chết, còn Vương Soạn bị giết ở Ung Châu. |
@@ -117,33 +117,33 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17069 | Đi đánh Chiêm Thành | Chiêm Thành thua to, thủ lĩnh Bê Mi Thuế bị chém tại trận. Quân Đại Cồ Việt bắt rất nhiều tù binh và thu vàng bạc châu báu hàng vạn. |
 | 17070 | Đi đánh Chiêm Thành | Họ phá thành, phá miếu thờ của nước ấy rồi trở về sau chừng một năm. |
 | 17071 | Đi đánh Chiêm Thành | Năm ấy trong nước đói to. Sang năm sau, vì đường núi hiểm và biển động, ông cho đào một con kênh mới để thuyền bè đi lại thuận tiện. |
-| 17072 | Cái giả thứ ba, người coi sông | Phía bắc đã yên, phía nam đã yên, nhưng nhà Tống vẫn là nước lớn sát biên giới. Từ đây, cuộc đối đầu chuyển sang sứ giả và lễ nghi. |
-| 17073 | Cái giả thứ ba, người coi sông | Năm chín trăm tám mươi ba, Lê Hoàn sai sứ sang kết giao với nhà Tống. |
-| 17074 | Cái giả thứ ba, người coi sông | Ba năm sau, nhà Tống cử sứ mang thư của vua Tống sang phong chức cho ông. |
-| 17075 | Cái giả thứ ba, người coi sông | Chức ấy là Tiết độ sứ, nghĩa là người đứng đầu một vùng biên giới. Trong nước ông vẫn là hoàng đế, còn với nhà Tống ông nhận chức này. |
-| 17076 | Cái giả thứ ba, người coi sông | Lê Hoàn nhận bức thư phong chức rất kính cẩn. Sau đó ông cho đưa hai tướng Tống bị bắt về nước, là Quách Quân Biện và Triệu Phụng Huân. |
-| 17077 | Cái giả thứ ba, người coi sông | Năm chín trăm tám mươi bảy, sứ Tống là Lý Giác lại sang. |
-| 17078 | Cái giả thứ ba, người coi sông | Đây là cái giả thứ ba, khi Lê Hoàn sai sư Pháp Thuận giả làm người coi sông. |
-| 17079 | Cái giả thứ ba, người coi sông | Lý Giác rất thích thơ. Thấy hai con ngỗng bơi trên nước, ông ngâm ngay hai câu tả chúng ngẩng mặt nhìn trời. |
-| 17080 | Cái giả thứ ba, người coi sông | Người coi sông đối lại ngay bằng hai câu tả lông trắng trên nước biếc và mái chèo hồng khua sóng xanh. Lý Giác rất ngạc nhiên. |
-| 17081 | Cái giả thứ ba, người coi sông | Về nơi ở, Lý Giác làm thơ khen rằng ngoài trời này lại có một trời khác soi chiếu. |
-| 17082 | Cái giả thứ ba, người coi sông | Khi ông ra về, vua sai sư Ngô Khuông Việt làm một bài từ để tiễn. |
-| 17083 | Cái giả thứ ba, người coi sông | Bài từ tả cánh buồm giương trong nắng tươi, đường về xa muôn dặm, và nhờ sứ giả đem lòng nước Nam về tâu với vua của mình. |
-| 17084 | Cái giả thứ tư, cái chân đau | Giờ đến cái giả thứ tư, cái cuối cùng. Năm chín trăm chín mươi, nhà Tống cử Tống Cảo và Vương Thế Tắc sang phong thêm chức. |
-| 17085 | Cái giả thứ tư, cái chân đau | Lê Hoàn sai chín chiếc thuyền chở ba trăm người đi đón sứ giả. Gần tới kinh đô, ông ra ngoài thành đón. |
-| 17086 | Cái giả thứ tư, cái chân đau | Ông bày thủy quân và khí giới để khoe, rồi tự cầm cương ngựa đi cùng sứ giả. |
-| 17087 | Cái giả thứ tư, cái chân đau | Tới cửa Minh Đức, ông tự bưng thư của vua Tống đặt lên điện mà không lạy. Ông nói năm ngoái đi đánh giặc, bị ngã ngựa đau chân. |
-| 17088 | Cái giả thứ tư, cái chân đau | Đó là cái cớ ông bịa ra, nhưng hai sứ giả tin là thật. |
-| 17089 | Cái giả thứ tư, cái chân đau | Trong bữa tiệc, ông xin từ nay thư từ cứ trao nhận ở biên giới, khỏi phiền sứ giả đi xa. |
-| 17090 | Cái giả thứ tư, cái chân đau | Tống Cảo về tâu lại và vua Tống bằng lòng. Từ đó, Lê Hoàn đỡ phải đón sứ nhà Tống tận kinh đô. |
-| 17091 | Cái giả thứ tư, cái chân đau | Lần ấy trót lọt, và nhiều năm sau ông còn dám đi xa hơn. |
-| 17092 | Cái giả thứ tư, cái chân đau | Năm chín trăm chín mươi lăm, quan nhà Tống ở biên giới tâu rằng thuyền chiến từ nước ta cướp phá trấn Như Hồng. Vua Tống muốn yên chuyện nên bỏ qua. |
-| 17093 | Cái giả thứ tư, cái chân đau | Năm sau, sứ Tống là Lý Nhược Chuyết mang chiếu thư và đai ngọc sang. Lê Hoàn ra đón ngoài thành, có ý ngạo mạn và không làm lễ. |
-| 17094 | Cái giả thứ tư, cái chân đau | Ông nói việc cướp trấn Như Hồng là do giặc biển, không phải quân Giao Châu. |
-| 17095 | Cái giả thứ tư, cái chân đau | Nếu Giao Châu làm phản, ông đã đánh Phiên Ngung trước, đâu chỉ dừng ở một trấn nhỏ. |
-| 17096 | Cái giả thứ tư, cái chân đau | Nói xong, ông mới cúi đầu tạ lỗi. Năm sau, nhà Tống phong ông làm Nam Bình Vương. |
-| 17097 | Cái giả thứ tư, cái chân đau | Tống Chân Tông lên ngôi thì chỉ sai quan giữ biên giới nhận mệnh, không sai sứ sang nữa. |
-| 17098 | Cái giả thứ tư, cái chân đau | Trước đó, sứ Tống sang thường mượn cớ đòi cống nước mắm để bắt dân đóng góp. |
+| 17072 | Lần giả vờ thứ ba, người coi sông | Phía bắc đã yên, phía nam đã yên, nhưng nhà Tống vẫn là nước lớn sát biên giới. Từ đây, cuộc đối đầu chuyển sang sứ giả và lễ nghi. |
+| 17073 | Lần giả vờ thứ ba, người coi sông | Năm chín trăm tám mươi ba, Lê Hoàn sai sứ sang kết giao với nhà Tống. |
+| 17074 | Lần giả vờ thứ ba, người coi sông | Ba năm sau, nhà Tống cử sứ mang thư của vua Tống sang phong chức cho ông. |
+| 17075 | Lần giả vờ thứ ba, người coi sông | Chức ấy là Tiết độ sứ, nghĩa là người đứng đầu một vùng biên giới. Trong nước ông vẫn là hoàng đế, còn với nhà Tống ông nhận chức này. |
+| 17076 | Lần giả vờ thứ ba, người coi sông | Lê Hoàn nhận bức thư phong chức rất kính cẩn. Sau đó ông cho đưa hai tướng Tống bị bắt về nước, là Quách Quân Biện và Triệu Phụng Huân. |
+| 17077 | Lần giả vờ thứ ba, người coi sông | Năm chín trăm tám mươi bảy, sứ Tống là Lý Giác lại sang. |
+| 17078 | Lần giả vờ thứ ba, người coi sông | Đây là lần giả vờ thứ ba, khi Lê Hoàn sai sư Pháp Thuận giả làm người coi sông. |
+| 17079 | Lần giả vờ thứ ba, người coi sông | Lý Giác rất thích thơ. Thấy hai con ngỗng bơi trên nước, ông ngâm ngay hai câu tả chúng ngẩng mặt nhìn trời. |
+| 17080 | Lần giả vờ thứ ba, người coi sông | Người coi sông đối lại ngay bằng hai câu tả lông trắng trên nước biếc và mái chèo hồng khua sóng xanh. Lý Giác rất ngạc nhiên. |
+| 17081 | Lần giả vờ thứ ba, người coi sông | Về nơi ở, Lý Giác làm thơ khen rằng ngoài trời này lại có một trời khác soi chiếu. |
+| 17082 | Lần giả vờ thứ ba, người coi sông | Khi ông ra về, vua sai sư Ngô Khuông Việt làm một bài từ để tiễn. |
+| 17083 | Lần giả vờ thứ ba, người coi sông | Bài từ tả cánh buồm giương trong nắng tươi, đường về xa muôn dặm, và nhờ sứ giả đem lòng nước Nam về tâu với vua của mình. |
+| 17084 | Lần giả vờ thứ tư, cái chân đau | Giờ đến lần giả vờ thứ tư, lần cuối cùng. Năm chín trăm chín mươi, nhà Tống cử Tống Cảo và Vương Thế Tắc sang phong thêm chức. |
+| 17085 | Lần giả vờ thứ tư, cái chân đau | Lê Hoàn sai chín chiếc thuyền chở ba trăm người đi đón sứ giả. Gần tới kinh đô, ông ra ngoài thành đón. |
+| 17086 | Lần giả vờ thứ tư, cái chân đau | Ông bày thủy quân và khí giới để khoe, rồi tự cầm cương ngựa đi cùng sứ giả. |
+| 17087 | Lần giả vờ thứ tư, cái chân đau | Tới cửa Minh Đức, ông tự bưng thư của vua Tống đặt lên điện mà không lạy. Ông nói năm ngoái đi đánh giặc, bị ngã ngựa đau chân. |
+| 17088 | Lần giả vờ thứ tư, cái chân đau | Đó là cái cớ ông bịa ra, nhưng hai sứ giả tin là thật. |
+| 17089 | Lần giả vờ thứ tư, cái chân đau | Trong bữa tiệc, ông xin từ nay thư từ cứ trao nhận ở biên giới, khỏi phiền sứ giả đi xa. |
+| 17090 | Lần giả vờ thứ tư, cái chân đau | Tống Cảo về tâu lại và vua Tống bằng lòng. Từ đó, Lê Hoàn đỡ phải đón sứ nhà Tống tận kinh đô. |
+| 17091 | Lần giả vờ thứ tư, cái chân đau | Lần ấy trót lọt, và nhiều năm sau ông còn dám đi xa hơn. |
+| 17092 | Lần giả vờ thứ tư, cái chân đau | Năm chín trăm chín mươi lăm, quan nhà Tống ở biên giới tâu rằng thuyền chiến từ nước ta cướp phá trấn Như Hồng. Vua Tống muốn yên chuyện nên bỏ qua. |
+| 17093 | Lần giả vờ thứ tư, cái chân đau | Năm sau, sứ Tống là Lý Nhược Chuyết mang chiếu thư và đai ngọc sang. Lê Hoàn ra đón ngoài thành, có ý ngạo mạn và không làm lễ. |
+| 17094 | Lần giả vờ thứ tư, cái chân đau | Ông nói việc cướp trấn Như Hồng là do giặc biển, không phải quân Giao Châu. |
+| 17095 | Lần giả vờ thứ tư, cái chân đau | Nếu Giao Châu làm phản, ông đã đánh Phiên Ngung trước, đâu chỉ dừng ở một trấn nhỏ. |
+| 17096 | Lần giả vờ thứ tư, cái chân đau | Nói xong, ông mới cúi đầu tạ lỗi. Năm sau, nhà Tống phong ông làm Nam Bình Vương. |
+| 17097 | Lần giả vờ thứ tư, cái chân đau | Tống Chân Tông lên ngôi thì chỉ sai quan giữ biên giới nhận mệnh, không sai sứ sang nữa. |
+| 17098 | Lần giả vờ thứ tư, cái chân đau | Trước đó, sứ Tống sang thường mượn cớ đòi cống nước mắm để bắt dân đóng góp. |
 | 17099 | Dựng nghiệp trong nước | Còn trong nước, Lê Hoàn cũng không ngừng dựng cơ nghiệp. Năm chín trăm tám mươi bốn, ông cho đúc tiền Thiên Phúc, rồi dựng nhiều cung điện ở Hoa Lư. |
 | 17100 | Dựng nghiệp trong nước | Mùa xuân năm chín trăm tám mươi bảy, lần đầu tiên ông xuống ruộng ở núi Đọi, đích thân cày ruộng tịch điền, ruộng để nhà vua mở đầu mùa cày. |
 | 17101 | Dựng nghiệp trong nước | Các vùng núi trong nước cũng chưa yên. Năm chín trăm chín mươi chín, ông thân chinh đi đánh bốn mươi chín động, từ đó các châu động đều quy phục. |
@@ -155,6 +155,6 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17107 | Kết | Năm chín trăm tám mươi sáu, ông nhận thư phong chức của vua Tống rất kính cẩn. |
 | 17108 | Kết | Bốn năm sau, ông bưng thư vua Tống đặt lên điện mà không lạy. |
 | 17109 | Kết | Giữa hai lần ấy là một lá thư giả, một lời hàng giả, một người coi sông giả, và một cái chân đau giả. |
-| 17110 | Kết | Ba cái giả đầu gắn với trận đánh và việc tiếp sứ, còn cái giả thứ tư không thắng một trận nào. |
+| 17110 | Kết | Ba lần giả vờ đầu gắn với trận đánh và việc tiếp sứ, còn lần thứ tư không thắng một trận nào. |
 | 17111 | Kết | Nhưng ngay sau đó, ông xin thư từ hai nước trao nhận ở biên giới, và vua Tống bằng lòng, nên ông đỡ phải đón sứ tận kinh đô. |
 | 17112 | Kết | Đó là câu chuyện về Lê Hoàn, người đã chặn quân Tống ở vùng biên giới phía bắc. Cảm ơn bạn đã theo dõi. |

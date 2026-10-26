@@ -30,12 +30,13 @@ Mã `ly1`, 181 đoạn (18001–18181), 3,121 chữ, khoảng 17.3 phút ở 3 c
 | Ba vị vương phục binh | Đông Chinh ở Long Thành, Dực Thánh và Vũ Đức ở cửa Quảng Phúc; thái tử vào cửa Tường Phù đến điện Càn Nguyên; Lý Nhân Nghĩa; thái tử im lặng muốn giữ tình ruột thịt; Lê Phụng Hiểu xông tới ngựa Vũ Đức Vương, bắt giết; hai vương chạy; báo tin trước linh cữu; lời khen hơn Uất Trì Kính Đức | khớp (tờ 10b–12b). Sửa nhiều so với bản đầu (bản đầu viết "bao vây kinh thành" và "dàn quân giữ cửa", sai) |
 | Kết | Hô ứng: cửa và điện dựng 1010 là nơi vua mất và nơi giữ ngôi 1028 | suy ra từ các chương trên |
 
-## Còn cần chủ kênh chốt
+## Đã chốt theo ý chủ kênh (27/10/2026)
 
-- Lời kể ghi "thọ năm mươi lăm tuổi theo cách tính của người xưa" (Toàn thư ghi 55; nếu tính theo năm sinh 974 thì 54). Giữ hay chỉ nói "thọ năm mươi lăm tuổi" theo Toàn thư?
-- Chuyện hạt mận trong quả khế (Lê Long Đĩnh tìm giết người họ Lý) là chuyện Toàn thư chép nhưng mang màu sấm điềm; mình để vì nó nói về Lê Long Đĩnh chứ không phải sự kiện chính. Bỏ cũng được.
-- "Gần một trăm rưỡi năm" từ lúc Cao Biền xây Đại La: cần xác nhận năm xây thành trong Toàn thư (kỷ thuộc Bắc) nếu muốn giữ con số.
-- Tên "Trường Yên" (Toàn thư) khác "Tràng An" (cách gọi hiện đại); lời kể theo Toàn thư.
+- **Tuổi thọ:** Toàn thư ghi "thọ 55 tuổi [974-1028]" (tính theo cách xưa, kể cả năm sinh). Tính tròn từ 12 tháng 2 năm 974 đến mồng 3 tháng 3 năm 1028 là hơn 54 tuổi. Lời kể ghi cả hai: "thọ năm mươi lăm tuổi theo cách tính của người xưa, tức là hơn năm mươi bốn tuổi tròn".
+- **Năm Cao Biền đắp thành:** đã kiểm, Toàn thư chép dưới năm Bính Tuất 866; lời kể ghi "năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước".
+- **Độ dài:** giữ khoảng 17 phút.
+- **Chuyện hạt mận trong quả khế:** vẫn để trong lời kể (chương "Người giữ cung điện", 4 câu), chủ kênh quyết định bỏ hay giữ. Ý "màu sấm điềm": Toàn thư chép Lê Long Đĩnh tin đó là lời sấm báo họ Lý sẽ lên, nên đó là chuyện điềm báo, không phải sự kiện chính; video chỉ kể như chuyện sử chép.
+- Tên "Trường Yên" theo Toàn thư (cách gọi hiện đại là Tràng An).
 
 ## Chi tiết đã bỏ khỏi lời kể
 
@@ -122,7 +123,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18068 | Hoa Lư không còn đủ | Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và chỉ tồn tại hai mươi chín năm. |
 | 18069 | Hoa Lư không còn đủ | Lý Công Uẩn muốn tránh con đường ấy, nên ông tìm một vùng đất khác. |
 | 18070 | Hoa Lư không còn đủ | Ông chọn thành Đại La bên sông Hồng. |
-| 18071 | Đại La, thành cũ bên sông | Đại La là một tòa thành cũ do tướng Cao Biền của nhà Đường cho xây từ gần một trăm rưỡi năm trước. |
+| 18071 | Đại La, thành cũ bên sông | Đại La là một tòa thành cũ, do tướng Cao Biền của nhà Đường cho đắp từ năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước. |
 | 18072 | Đại La, thành cũ bên sông | Chính bản chiếu của nhà vua gọi nó là đô cũ của Cao Vương. |
 | 18073 | Đại La, thành cũ bên sông | Thời nhà Đường, Đại La là nơi các quan cai trị đất Giao Châu. |
 | 18074 | Đại La, thành cũ bên sông | Vị trí của nó rất đặc biệt, vì sông Hồng chảy ngay bên cạnh. |
@@ -196,7 +197,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18142 | Những năm cuối | Thái tử Lý Phật Mã đã trưởng thành, từng thay cha cầm quân đi đánh các nơi. |
 | 18143 | Những năm cuối | Mùa xuân năm một nghìn không trăm hai mươi tám, nhà vua không khỏe. |
 | 18144 | Những năm cuối | Mồng một tháng ba âm lịch, trời có nhật thực. |
-| 18145 | Những năm cuối | Hai ngày sau, nhà vua mất ở điện Long An, thọ năm mươi lăm tuổi theo cách tính của người xưa. |
+| 18145 | Những năm cuối | Hai ngày sau, nhà vua mất ở điện Long An, thọ năm mươi lăm tuổi theo cách tính của người xưa, tức là hơn năm mươi bốn tuổi tròn. |
 | 18146 | Những năm cuối | Ông ở ngôi mười tám năm, và được an táng ở Thọ Lăng. |
 | 18147 | Những năm cuối | Sử cũ đánh giá ông là người khoan thứ nhân từ, hòa nhã, có lượng của bậc đế vương. |
 | 18148 | Những năm cuối | Nhưng sử cũng trách rằng ông chưa làm sáng tỏ đạo học, lại ưa tin điềm lạ. |

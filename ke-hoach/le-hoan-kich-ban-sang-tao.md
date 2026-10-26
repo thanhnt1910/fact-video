@@ -17,7 +17,7 @@ Mã `lh6`, 112 đoạn (17001–17112), 2.576 chữ, khoảng 14,3 phút. Bộ k
 
 ## Ghi chú độ chắc (phần sáng tạo, chủ kênh duyệt)
 
-- Đảo thứ tự trình bày: kết quả và lời hứa đưa lên đầu, thân bài vẫn theo thời gian. "Phải dè chừng ông" là cách nói của chủ kênh, sử chỉ ghi quân Tống rút về, vua Tống bằng lòng cho nhận thư ở biên giới và về sau không sai sứ sang nữa; chủ kênh duyệt.
+- Đảo thứ tự trình bày: kết quả và lời hứa đưa lên đầu, thân bài vẫn theo thời gian. Câu "quân Tống phải rút về" theo sử; sử ghi quân Tống rút về, vua Tống bằng lòng cho nhận thư ở biên giới và về sau không sai sứ sang nữa; chủ kênh duyệt.
 
 - Gom bốn việc có thật dưới tên "bốn cái giả". Cách gọi này là của tôi (cách kể), không phải lời sử. Lưu ý: "lời đầu hàng giả" (chương 6) sử chỉ chép vài dòng, và cách mưu chạy thế nào không rõ; lời kể đã nói thẳng điều này.
 
@@ -47,10 +47,10 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | n | chương | lời |
 |---|---|---|
 | 17001 | Bốn lần đánh lừa | Từ năm chín trăm tám mươi đến năm chín trăm chín mươi, có một vị vua nước Việt đã bốn lần đánh lừa nhà Tống. |
-| 17002 | Bốn lần đánh lừa | Vào đầu quãng thời gian ấy, có quan nhà Tống khoe thắng nước ông dễ như bẻ cành khô mà không tốn một mũi tên. |
-| 17003 | Bốn lần đánh lừa | Vậy mà rốt cuộc, quân Tống phải rút về, và triều đình nhà Tống về sau phải dè chừng ông. |
-| 17004 | Bốn lần đánh lừa | Bốn lần đánh lừa ấy là gì, và vì sao cái cuối cùng lại khiến vua Tống phải bằng lòng với ông? Câu trả lời nằm ở cuối video. |
-| 17005 | Bốn lần đánh lừa | Muốn biết, hãy quay về những ngày một đứa bé sáu tuổi ngồi lên ngai vàng, và một người tên Lê Hoàn đứng bên cạnh. |
+| 17002 | Bốn lần đánh lừa | Vị vua ấy là ai, và bốn lần đánh lừa ấy là gì? Vì sao lần cuối cùng lại khiến vua Tống phải bằng lòng với ông? |
+| 17003 | Bốn lần đánh lừa | Ngay đầu quãng thời gian ấy, có quan nhà Tống khoe thắng nước ông dễ như bẻ cành khô, vậy mà rốt cuộc quân Tống phải rút về. |
+| 17004 | Bốn lần đánh lừa | Câu trả lời nằm ở cuối video, và để đến được đó, ta phải quay về những ngày đầu. |
+| 17005 | Bốn lần đánh lừa | Đó là lúc một đứa bé sáu tuổi ngồi lên ngai vàng, và một người tên Lê Hoàn đứng bên cạnh. |
 | 17006 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
 | 17007 | Đứa bé và người giữ quyền | Sáu tuổi thì chưa thể tự cầm quyền một nước. Nước ấy khi đó mang tên Đại Cồ Việt, kinh đô đặt ở Hoa Lư. |
 | 17008 | Đứa bé và người giữ quyền | Người đứng ra giữ quyền thay cậu bé là Lê Hoàn, một người xuất thân rất nghèo. |

@@ -147,12 +147,13 @@ def war_drums(t0,t1,g=0.6,iv=0.75):
     while t<t1: drum(t,g*(1 if i%4==0 else 0.6));t+=iv;i+=1
 
 def bt(n): return T[n]
+_R_clangs,_R_volley,_R_murmur,_R_creak=clangs,volley,murmur,creak
 if QA:
     _nop=lambda *a,**k:None
     tick=whoosh=crackle=murmur=clang=clangs=volley=bow=wave_bed=rain=creak=_nop
 
 for (t0,t1,bl,bt_,who) in C.BATT:
-    clangs(t0,t1,6);volley(t0+0.2,t1-0.5,max(3,int((t1-t0)*0.8)),0.4);drum(t0,0.8);murmur(t0,t1-t0+1,0.4)
+    _R_clangs(t0,t1,6,0.55);_R_volley(t0+0.2,t1-0.5,max(3,int((t1-t0)*0.8)),0.45);drum(t0,0.8);_R_murmur(t0,t1-t0+1,0.45)
 for (t0,t1,lon,lat) in C.FIRES: pass
 fr_done=set()
 for (t0,t1,lon,lat) in C.FIRES:
@@ -258,6 +259,8 @@ for g in C.GROUPS:
             if kind=='cav':
                 hoof(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.2)
                 if g['name'] in getattr(C,'SFX_GROUPS',()): clop(a_[0]+0.3,min(b_[0]-a_[0],8.0));bells(a_[0]+0.3,min(b_[0]-a_[0],8.0))
+            elif kind=='ship':
+                oars(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.4);_R_creak(a_[0]+0.5,1.6,0.3)
             else: steps(a_[0]+0.3,min(b_[0]-a_[0],8.0))
 if C.__name__=='tq45_content':
     for t0 in (C.R(137)+6.5,C.R(144)): creak(t0)

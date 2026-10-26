@@ -53,7 +53,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17005 | Bốn lần đánh lừa | Để hiểu vì sao, hãy quay về lúc một đứa bé sáu tuổi ngồi lên ngai vàng, và một người đứng bên cạnh nắm giữ quyền hành. |
 | 17006 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
 | 17007 | Đứa bé và người giữ quyền | Sáu tuổi thì chưa thể tự cầm quyền một nước. Nước ấy khi đó mang tên Đại Cồ Việt, kinh đô đặt ở Hoa Lư. |
-| 17008 | Đứa bé và người giữ quyền | Người đứng ra giữ quyền thay cậu bé là Lê Hoàn, một người xuất thân rất nghèo. |
+| 17008 | Đứa bé và người giữ quyền | Người đứng ra giữ quyền thay vua lúc đó là Lê Hoàn, một người xuất thân rất nghèo. |
 | 17009 | Đứa bé và người giữ quyền | Ông mồ côi từ nhỏ, được một viên quan cùng họ Lê trong thôn nhận về nuôi. |
 | 17010 | Đứa bé và người giữ quyền | Lớn lên, ông theo giúp Đinh Liễn, con trai Đinh Tiên Hoàng. Nhà vua khen ông vừa giỏi vừa dũng, và giao cho ông quản một nghìn quân. |
 | 17011 | Đứa bé và người giữ quyền | Ông thăng dần đến chức Thập đạo tướng quân, người chỉ huy mười đạo quân. |

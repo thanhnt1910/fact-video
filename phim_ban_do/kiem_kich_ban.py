@@ -29,7 +29,7 @@ for x in d:
     sents = [s for s in re.split(r'(?<=[.!?])\s+', t) if s]
     if len(w) > 32: B(n, f'dài {len(w)} chữ (tối đa 32, nên 20–30): tách đoạn')
     elif len(w) > 30: W(n, f'{len(w)} chữ, hơi dài')
-    if len(w) < 12: W(n, f'ngắn {len(w)} chữ (nên gộp với đoạn kề, trừ câu hỏi hoặc câu chốt)')
+    if len(w) < 12: W(n, f'ngắn {len(w)} chữ, dễ thành câu cụt: gộp với đoạn kề hoặc thêm chủ thể, nguyên nhân, bối cảnh (trừ câu hỏi hoặc câu nhấn có chủ ý)')
     if len(sents) > 2: B(n, f'{len(sents)} câu trong một đoạn (tối đa 2)')
     if len(re.findall(r',', t)) > 3: W(n, 'nhiều hơn 3 dấu phẩy, câu dễ bị đọc lệch')
     if re.search(r'[()"“”—–…:;]|\.\.|\d', t): B(n, 'có ký tự dễ đọc sai (ngoặc, ngoặc kép, gạch, hai chấm, chấm phẩy, chấm lửng, chữ số); năm viết bằng chữ')

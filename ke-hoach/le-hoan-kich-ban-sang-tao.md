@@ -50,7 +50,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17001 | Cửa Minh Đức | Cửa Minh Đức, năm chín trăm chín mươi. Hai sứ giả nhà Tống đứng chờ một điều mà họ tin chắc sẽ xảy ra. |
 | 17002 | Cửa Minh Đức | Họ đứng đợi vua nước Việt quỳ xuống lạy thư của hoàng đế mình. Thế nhưng vị vua ra đón họ lại không hề cúi đầu lạy. |
 | 17003 | Cửa Minh Đức | Ông tự bưng bức thư, đặt lên điện, rồi nói rằng năm ngoái đi đánh giặc, mình bị ngã ngựa đau chân. |
-| 17004 | Cửa Minh Đức | Chuyện ngã ngựa ấy chưa từng xảy ra, vậy mà hai sứ giả vẫn tin. |
+| 17004 | Cửa Minh Đức | Chuyện ngã ngựa ấy chưa từng xảy ra. Nhưng hai sứ giả vẫn tin là thật. |
 | 17005 | Cửa Minh Đức | Người đứng trước họ là Lê Hoàn. Mười năm trước, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
 | 17006 | Cửa Minh Đức | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
 | 17007 | Cửa Minh Đức | Nhưng đó chưa phải lần đầu ông đem cái giả ra đối mặt với nhà Tống. Trước đó còn ba lần nữa. |

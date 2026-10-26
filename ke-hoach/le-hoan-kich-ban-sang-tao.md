@@ -1,6 +1,6 @@
 # Kịch bản sáng tạo video Lê Hoàn (lh6) — bản để chủ kênh duyệt
 
-Mã `lh6`, 112 đoạn (17001–17112), 2.572 chữ, khoảng 14,3 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bản này bỏ hẳn giọng hài theo yêu cầu 26/10.
+Mã `lh6`, 112 đoạn (17001–17112), 2.559 chữ, khoảng 14,2 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bản này bỏ hẳn giọng hài theo yêu cầu 26/10.
 
 ## Ý tưởng chính
 

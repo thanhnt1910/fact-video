@@ -71,7 +71,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17023 | Lá thư của kẻ muốn đánh úp | Đó là Hầu Nhân Bảo, một quan ở Ung Châu, vùng sát biên giới nước ta. |
 | 17024 | Lá thư của kẻ muốn đánh úp | Mùa hạ năm chín trăm tám mươi, ông dâng thư lên vua Tống. Trong thư, ông cho rằng nước Việt sắp mất và xin đem quân sang chiếm ngay. |
 | 17025 | Lá thư của kẻ muốn đánh úp | Vua Tống định gọi Hầu Nhân Bảo về triều hỏi cho rõ. |
-| 17026 | Lá thư của kẻ muốn đánh úp | Nhưng một quan khác tên Lư Đa Tốn tâu rằng làm vậy sẽ lộ kế, và đối phương sẽ kịp dựa vào núi mà phòng thủ. |
+| 17026 | Lá thư của kẻ muốn đánh úp | Nhưng một quan khác tên Lư Đa Tốn tâu rằng làm vậy sẽ để lộ kế hoạch, và đối phương sẽ kịp dựa vào núi mà phòng thủ. |
 | 17027 | Lá thư của kẻ muốn đánh úp | Lư Đa Tốn muốn đánh úp, nhanh như sét đánh không kịp bịt tai. |
 | 17028 | Lá thư của kẻ muốn đánh úp | Ông nói chỉ cần chọn tướng giỏi, đem ba mươi nghìn quân vùng Kinh Hồ tiến thẳng sang. |
 | 17029 | Lá thư của kẻ muốn đánh úp | Ông còn nói thắng nước Việt sẽ dễ như bẻ cành khô gỗ mục, không tốn một mũi tên. Đó chính là lời khoe bạn đã nghe ở đầu video. |
@@ -82,7 +82,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17034 | Lá thư của kẻ muốn đánh úp | Nhưng ai sẽ ra trận, khi vua mới sáu tuổi? |
 | 17035 | Tiếng hô vạn tuế | Dương Thái hậu, mẹ vua Đinh Toàn, sai Lê Hoàn chọn dũng sĩ đi đánh giặc. Bà đặt Phạm Cự Lạng làm đại tướng quân. |
 | 17036 | Tiếng hô vạn tuế | Khi triều đình đang bàn kế xuất quân, Phạm Cự Lạng cùng các tướng đều mặc áo trận và đi thẳng vào cung. |
-| 17037 | Tiếng hô vạn tuế | Họ nói vua còn thơ ấu, dù các tướng liều chết chặn giặc thì cũng chẳng ai biết công. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy xuất quân. |
+| 17037 | Tiếng hô vạn tuế | Họ nói vua còn quá nhỏ, tướng sĩ có liều chết chặn giặc thì cũng không ai ghi công. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy xuất quân. |
 | 17038 | Tiếng hô vạn tuế | Quân sĩ nghe vậy đều hô vang vạn tuế, tỏ rõ họ đồng ý tôn Lê Hoàn lên làm vua. |
 | 17039 | Tiếng hô vạn tuế | Thấy mọi người đồng lòng, Thái hậu sai lấy áo vua thêu rồng khoác lên người Lê Hoàn. |
 | 17040 | Tiếng hô vạn tuế | Lê Hoàn lên ngôi hoàng đế, lấy niên hiệu là Thiên Phúc, tức tên dùng để ghi năm trong triều. |
@@ -93,7 +93,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17045 | Lần đánh lừa thứ nhất, một lá thư | Thư nói nước ta chỉ như ngón tay ngón chân trên thân thể nhà Tống. Nếu không chịu theo, quân Tống sẽ dẹp sạch đất này. |
 | 17046 | Lần đánh lừa thứ nhất, một lá thư | Lê Hoàn đáp lại bằng một bức thư giả. Tháng mười, khi sắp xuất quân, ông sai hai sứ giả mang sang nhà Tống bức thư mượn tên Đinh Toàn. |
 | 17047 | Lần đánh lừa thứ nhất, một lá thư | Trong thư, Đinh Toàn xin nhà Tống chính thức phong cho mình chức của cha. Mục đích là làm nhà Tống hoãn việc đem quân sang. |
-| 17048 | Lần đánh lừa thứ nhất, một lá thư | Nhà Tống đang muốn hỏi tội việc Lê Hoàn xưng đế, lại có ý chiếm nước Việt. Họ trả lời bằng một bức thư khác, đưa ra hai đường. |
+| 17048 | Lần đánh lừa thứ nhất, một lá thư | Nhà Tống đang muốn hỏi tội việc Lê Hoàn tự xưng là hoàng đế, lại có ý chiếm nước Việt. Họ trả lời bằng một bức thư khác, đưa ra hai đường. |
 | 17049 | Lần đánh lừa thứ nhất, một lá thư | Đường thứ nhất, Đinh Toàn làm tổng chỉ huy và Lê Hoàn làm phó. |
 | 17050 | Lần đánh lừa thứ nhất, một lá thư | Đường thứ hai, đưa cả mẹ con Đinh Toàn cùng gia quyến sang xin theo nhà Tống. |
 | 17051 | Lần đánh lừa thứ nhất, một lá thư | Lê Hoàn không nghe theo đường nào. Việc bàn bằng thư từ đến đó chấm dứt, và hai bên chỉ còn cách dùng quân. |
@@ -110,7 +110,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17062 | Quân Tống rút về | Vua Tống còn sai sứ đi quở trách các tướng đã dẫn quân sang, là Lưu Trừng, Giả Thực và Vương Soạn. |
 | 17063 | Quân Tống rút về | Kết cục của họ khác xa lời hứa ban đầu. Lưu Trừng ốm chết, còn Vương Soạn bị giết ở Ung Châu. |
 | 17064 | Quân Tống rút về | Còn Tôn Toàn Hưng, người từng kéo quân tới Lạng Sơn, cuối cùng bị xử tử giữa chợ. |
-| 17065 | Quân Tống rút về | Về phía Đại Cồ Việt, bầy tôi dâng cho Lê Hoàn một tôn hiệu rất dài, tức danh hiệu để ca ngợi công đức của ông. |
+| 17065 | Quân Tống rút về | Về phía Đại Cồ Việt, các quan dâng cho Lê Hoàn một tôn hiệu rất dài, tức danh hiệu để ca ngợi công đức của ông. |
 | 17066 | Quân Tống rút về | Sử gia Lê Văn Hưu viết rằng Lê Hoàn bắt hai tướng Tống dễ như lùa trẻ con. |
 | 17067 | Quân Tống rút về | Lê Văn Hưu còn viết rằng chưa đầy mấy năm bờ cõi đã yên. Công đánh dẹp ấy dẫu nhà Hán, nhà Đường cũng không hơn được. |
 | 17068 | Đi đánh Chiêm Thành | Xong việc ở phía bắc, Lê Hoàn quay xuống phía nam. Trước đó, hai sứ giả của ông là Từ Mục và Ngô Tử Canh đã bị Chiêm Thành bắt giữ. |

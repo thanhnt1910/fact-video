@@ -50,7 +50,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17002 | Bốn lần đánh lừa | Vị vua ấy là ai, bốn lần đánh lừa ấy là gì, và vì sao lần cuối cùng lại khiến vua Tống phải bằng lòng với ông? |
 | 17003 | Bốn lần đánh lừa | Câu trả lời nằm ở cuối video, còn bây giờ hãy bắt đầu từ lúc nhà Tống tin rằng mình sắp chiếm được nước Việt. |
 | 17004 | Bốn lần đánh lừa | Họ tin rằng thắng nước Việt dễ như bẻ cành khô, vậy mà rốt cuộc quân Tống phải rút về. |
-| 17005 | Bốn lần đánh lừa | Để hiểu vì sao, hãy quay về lúc một đứa bé sáu tuổi ngồi lên ngai vàng, và một người tên Lê Hoàn đứng bên cạnh. |
+| 17005 | Bốn lần đánh lừa | Để hiểu vì sao, hãy quay về lúc một đứa bé sáu tuổi ngồi lên ngai vàng, và một người đứng bên cạnh nắm giữ quyền hành. |
 | 17006 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
 | 17007 | Đứa bé và người giữ quyền | Sáu tuổi thì chưa thể tự cầm quyền một nước. Nước ấy khi đó mang tên Đại Cồ Việt, kinh đô đặt ở Hoa Lư. |
 | 17008 | Đứa bé và người giữ quyền | Người đứng ra giữ quyền thay cậu bé là Lê Hoàn, một người xuất thân rất nghèo. |

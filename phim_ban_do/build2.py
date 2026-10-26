@@ -100,6 +100,7 @@ def num_layer(big,small):
     f=font(sz);fs=font(40 if not P else 44,False)
     while g.textlength(big,font=f)>W-300 and sz>50: sz-=4;f=font(sz)
     while g.textlength(small,font=fs)>W-200 and fs.size>24: fs=font(fs.size-2,False)
+    while not P and g.textlength(big,font=f)+90>W-2*560 and sz>56: sz-=4;f=font(sz)   # chừa ô năm góc trái (đến x=560)
     w1=g.textlength(big,font=f);w2=g.textlength(small,font=fs)
     bw=max(w1,w2)+90;y=44 if not P else 260;bh=sz+fs.size+60
     x0=W/2-bw/2

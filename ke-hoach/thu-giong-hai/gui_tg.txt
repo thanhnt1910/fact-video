@@ -1,5 +1,6 @@
-gui 1792907618
-assets/bia/DBL1/DBL1_dai_thumbnail.jpg
-assets/bia/DBL1/DBL1_dai_thumbnail_fb.jpg
-assets/bia/DBL1/DBL1_thumbnail_tiktok.jpg
-assets/bia/DBL1/DBL1_tiktok.mp4
+gui 1793031032
+assets/bia/LH6/LH6_dai_thumbnail.jpg
+assets/bia/LH6/LH6_dai_thumbnail_fb.jpg
+assets/bia/LH6/LH6_thumbnail_tiktok.jpg
+assets/bia/LH6/LH6_tiktok.mp4
+ke-hoach/le-hoan-bai-dang.md

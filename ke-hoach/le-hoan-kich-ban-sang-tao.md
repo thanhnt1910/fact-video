@@ -79,7 +79,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17031 | Lá thư của kẻ muốn đánh úp | Mùa thu, nhà Tống giao chức cho các tướng và chia quân làm hai đạo. Một đạo họp ở Ung Châu, đạo kia họp ở Quảng Châu, hẹn ngày cùng tiến sang. |
 | 17032 | Lá thư của kẻ muốn đánh úp | Trên giấy, mọi thứ đã sẵn sàng. Tướng đã chọn, quân đã chia, và chiến thắng được hứa là không tốn một mũi tên. |
 | 17033 | Lá thư của kẻ muốn đánh úp | Rồi tin từ Châu Lạng báo về Hoa Lư, quân Tống sắp kéo sang. |
-| 17034 | Lá thư của kẻ muốn đánh úp | Nhưng ai sẽ ra trận, khi vua mới sáu tuổi? |
+| 17034 | Lá thư của kẻ muốn đánh úp | Nhưng ai sẽ cầm quân ra trận, khi vua mới sáu tuổi? |
 | 17035 | Tiếng hô vạn tuế | Dương Thái hậu, mẹ vua Đinh Toàn, sai Lê Hoàn chọn dũng sĩ đi đánh giặc. Bà đặt Phạm Cự Lạng làm đại tướng quân. |
 | 17036 | Tiếng hô vạn tuế | Khi triều đình đang bàn kế xuất quân, Phạm Cự Lạng cùng các tướng đều mặc áo trận và đi thẳng vào cung. |
 | 17037 | Tiếng hô vạn tuế | Họ nói vua còn quá nhỏ, tướng sĩ có liều chết chặn giặc thì cũng không ai ghi công. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy xuất quân. |

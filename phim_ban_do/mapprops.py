@@ -242,7 +242,7 @@ def storm(d, x, y, s, u, t, arg):
     """Bão trên biển: mây đen, mưa xiên, tia chớp lóe lên theo nhịp, sóng cuộn quanh vùng thuyền."""
     r = random.Random(23)
     # mây
-    for k, (dx, dy, rx, ry, g) in enumerate(((4.0, -9.0, 3.6, 1.7, 58), (7.2, -9.8, 4.4, 2.1, 46), (10.4, -8.9, 3.4, 1.6, 62), (6.4, -8.2, 4.0, 1.4, 70))):
+    for k, (dx, dy, rx, ry, g) in enumerate(((2.2, -7.8, 3.6, 1.7, 58), (5.4, -8.6, 4.4, 2.1, 46), (8.6, -7.7, 3.4, 1.6, 62), (4.6, -7.0, 4.0, 1.4, 70))):
         wob = math.sin(t * 0.9 + k) * s * 0.25
         d.ellipse((x + dx * s - rx * s + wob, y + dy * s - ry * s, x + dx * s + rx * s + wob, y + dy * s + ry * s), fill=(g, g + 4, g + 14, 235), outline=(20, 20, 30, 255))
     # mưa xiên
@@ -254,13 +254,14 @@ def storm(d, x, y, s, u, t, arg):
     for k in range(7):
         q = (t * 0.55 + k / 7.0) % 1; rr = s * (1.4 + 4.4 * q)
         d.arc((x - rr * 1.5, y + s * 1.5 - rr * 0.55, x + rr * 1.5, y + s * 1.5 + rr * 0.55), 200, 340, fill=(240, 246, 255, int(220 * (1 - q))), width=_lw(s, 0.16))
-    # tia chớp: lóe vài lần mỗi chu kỳ 2,6 giây
+    # tia chớp: lóe vài lần mỗi chu kỳ 2,6 giây, đánh thẳng xuống đoàn thuyền
     cyc = (t % 2.6) / 2.6
     if cyc < 0.16 or 0.22 < cyc < 0.3:
-        bx = x + math.sin(int(t / 2.6) * 2.1) * s * 2.2
-        pts = [(bx, y - s * 3.8), (bx - s * 0.7, y - s * 2.2), (bx + s * 0.3, y - s * 2.0), (bx - s * 0.8, y - s * 0.2), (bx + s * 0.5, y - s * 1.2), (bx - s * 0.2, y - s * 1.3), (bx + s * 0.6, y - s * 3.2)]
-        d.polygon(pts, fill=(255, 246, 170, 255), outline=(255, 255, 255, 255))
-
+        bx = x + s * 1.2 + math.sin(int(t / 2.6) * 2.1) * s * 1.6
+        pts = [(bx + s * 0.6, y - s * 6.4), (bx - s * 0.3, y - s * 4.6), (bx + s * 0.5, y - s * 4.4), (bx - s * 0.5, y - s * 2.4), (bx + s * 0.25, y - s * 2.2), (bx - s * 0.4, y - s * 1.0), (bx + s * 0.2, y - s * 1.0), (bx - s * 0.1, y - s * 0.2)]
+        d.line(pts, fill=(255, 255, 255, 255), width=_lw(s, 0.34))
+        d.line(pts, fill=(255, 238, 140, 255), width=_lw(s, 0.16))
+        d.ellipse((bx - s * 0.5, y - s * 0.6, bx + s * 0.5, y + s * 0.2), fill=(255, 250, 200, 255))
 
 def _ship(d, x, y, s, tilt, col, flame=0.0, sink=0.0):
     """Một chiếc thuyền chiến lớn, có cột buồm và buồm; tilt (rad) nghiêng, sink 0..1 chìm dần."""

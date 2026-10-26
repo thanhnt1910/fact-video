@@ -340,7 +340,7 @@ NIGHT.append((TOTAL,0));NIGHT=sorted(NIGHT,key=lambda k:k[0])
 MINI=[(0,TOTAL)]
 QUIET_AUDIO=True
 CAMFOCUS=True
-FOC=[]
+FOC=[(35,42,[(105.45,20.00),(106.35,20.55)],True)]  # chương 4: giữ máy quay ở Hoa Lư, không kéo sang quân Tống
 MUSIC=[]  # chủ kênh yêu cầu bỏ nhạc nền (26/10/2026)
 def gate_open(t): return 0
 def year_of(n):

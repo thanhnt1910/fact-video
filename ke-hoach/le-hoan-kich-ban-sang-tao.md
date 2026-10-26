@@ -117,7 +117,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17069 | Đi đánh Chiêm Thành | Năm chín trăm tám mươi hai, ông cho đóng chiến thuyền và sửa binh khí. Rồi ông tự mình cầm quân đi đánh. |
 | 17070 | Đi đánh Chiêm Thành | Chiêm Thành thua to, thủ lĩnh Bê Mi Thuế bị chém tại trận. Quân Đại Cồ Việt bắt rất nhiều tù binh và thu vàng bạc châu báu hàng vạn. |
 | 17071 | Đi đánh Chiêm Thành | Họ phá thành, phá miếu thờ của nước ấy rồi trở về sau chừng một năm. |
-| 17072 | Đi đánh Chiêm Thành | Năm ấy trong nước đói to. Sang năm sau, vì đường núi hiểm và biển động, ông cho đào một con kênh mới để thuyền bè đi lại thuận tiện. |
+| 17072 | Đi đánh Chiêm Thành | Năm ông trở về, nước ta có nạn đói lớn. Năm sau, vì đường núi hiểm và biển động, ông cho đào kênh để thuyền đi lại. |
 | 17073 | Lần đánh lừa thứ ba, người coi sông | Giặc phía bắc và phía nam đều đã lui, nhưng nhà Tống vẫn là nước lớn sát biên giới. Từ đây, cuộc đối đầu chuyển sang sứ giả và lễ nghi. |
 | 17074 | Lần đánh lừa thứ ba, người coi sông | Năm chín trăm tám mươi ba, Lê Hoàn sai sứ sang kết giao với nhà Tống. |
 | 17075 | Lần đánh lừa thứ ba, người coi sông | Ba năm sau, nhà Tống cử sứ mang thư của vua Tống sang phong chức cho ông. |

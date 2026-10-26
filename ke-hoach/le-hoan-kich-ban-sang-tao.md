@@ -64,7 +64,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17015 | Đứa bé và người giữ quyền | Ông thăng dần đến chức Thập đạo tướng quân, người chỉ huy mười đạo quân. |
 | 17016 | Đứa bé và người giữ quyền | Khi vua nhỏ lên ngôi, ông tự xưng là Phó Vương, người phụ chính bên cạnh nhà vua. |
 | 17017 | Đứa bé và người giữ quyền | Nhưng có ba người từng phục vụ nhà Đinh không tin ông. Họ là Nguyễn Bặc, Đinh Điền và Phạm Hạp, và họ ngờ ông sẽ làm hại vua nhỏ. |
-| 17018 | Đứa bé và người giữ quyền | Họ dấy binh, chia hai đường thủy và bộ tiến về kinh đô để giết Lê Hoàn. Nhưng cuộc tiến quân ấy bị chặn lại ngay trên sông. |
+| 17018 | Đứa bé và người giữ quyền | Họ dấy binh, chia hai đường thủy và bộ tiến về kinh đô để giết Lê Hoàn. Nhưng cả hai đường tiến quân ấy đều bị chặn lại. |
 | 17019 | Đứa bé và người giữ quyền | Trên sông, Lê Hoàn nhân lúc có gió, phóng lửa đốt thuyền chiến của họ. Đinh Điền bị chém ngay tại trận, còn Nguyễn Bặc bị bắt rồi bị xử chém. |
 | 17020 | Đứa bé và người giữ quyền | Quân của Phạm Hạp mất hết khí thế và tan chạy về Cát Lợi. Lê Hoàn đuổi theo, bắt sống Phạm Hạp rồi đem về kinh đô. |
 | 17021 | Đứa bé và người giữ quyền | Việc trong nhà vừa yên thì có kẻ từ ngoài kéo tới. |

@@ -52,7 +52,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17005 | Cửa Minh Đức | Người đứng trước họ là Lê Hoàn. Mười năm trước, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
 | 17006 | Cửa Minh Đức | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
 | 17007 | Cửa Minh Đức | Vậy giữa hai mốc ấy đã xảy ra chuyện gì, để kẻ định đánh úp phải đứng chờ một lời nói dối? |
-| 17008 | Cửa Minh Đức | Trên đường đi đó, Lê Hoàn bốn lần dùng đến cái giả. Bạn hãy nhớ con số bốn. |
+| 17008 | Cửa Minh Đức | Nhưng đó mới chỉ là cái giả thứ tư. Ba cái giả đầu tiên còn lạ hơn, và chúng bắt đầu từ một lá thư viết thay cho một đứa trẻ. |
 | 17009 | Cửa Minh Đức | Một lá thư giả, một cuộc đầu hàng giả, một người coi sông giả, và cuối cùng là cái chân đau giả mà bạn vừa thấy. |
 | 17010 | Cửa Minh Đức | Bây giờ hãy quay về mười một năm trước, khi một đứa bé sáu tuổi ngồi lên ngai vàng. |
 | 17011 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |

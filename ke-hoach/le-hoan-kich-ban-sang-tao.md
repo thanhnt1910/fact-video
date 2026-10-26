@@ -39,7 +39,7 @@ Mã `lh6`, 111 đoạn (17001–17111), 2.530 chữ, khoảng 14,1 phút. Bộ k
 
 3. Lê Hoàn: người đối đầu nhà Tống bằng những điều giả
 
-Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy. Ông bưng thư đặt lên điện rồi nói mình bị ngã ngựa đau chân. Chuyện đó là bịa."
+Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy. Ông bưng thư đặt lên điện rồi nói mình bị ngã ngựa đau chân. Chuyện ngã ngựa ấy chưa từng xảy ra."
 
 ## Lời kể
 
@@ -48,7 +48,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17001 | Cửa Minh Đức | Cửa Minh Đức, năm chín trăm chín mươi. Hai sứ giả nhà Tống đứng chờ một điều mà họ tin chắc sẽ xảy ra. |
 | 17002 | Cửa Minh Đức | Họ chờ vua nước Việt cúi lạy thư của hoàng đế họ. Nhưng người ra đón không cúi xuống. |
 | 17003 | Cửa Minh Đức | Ông tự bưng bức thư, đặt lên điện, rồi nói rằng năm ngoái đi đánh giặc, mình bị ngã ngựa đau chân. |
-| 17004 | Cửa Minh Đức | Chuyện ngã ngựa ấy không có thật. Vậy mà hai sứ giả tin. |
+| 17004 | Cửa Minh Đức | Chuyện ngã ngựa ấy chưa từng xảy ra. Vậy mà hai sứ giả tin. |
 | 17005 | Cửa Minh Đức | Người đứng trước họ là Lê Hoàn. Mười năm trước, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
 | 17006 | Cửa Minh Đức | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
 | 17007 | Cửa Minh Đức | Vậy giữa hai mốc ấy đã xảy ra chuyện gì, để kẻ định đánh úp phải đứng chờ một lời nói dối? |

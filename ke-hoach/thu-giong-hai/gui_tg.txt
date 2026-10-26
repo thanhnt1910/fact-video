@@ -1,6 +1,3 @@
-gui 1793031032
-assets/bia/LH6/LH6_dai_thumbnail.jpg
-assets/bia/LH6/LH6_dai_thumbnail_fb.jpg
-assets/bia/LH6/LH6_thumbnail_tiktok.jpg
-assets/bia/LH6/LH6_tiktok.mp4
-ke-hoach/le-hoan-bai-dang.md
+Bìa mới v2 Lê Hoàn
+assets/bia/LH6/LH6_v2_dai.jpg
+assets/bia/LH6/LH6_v2_tiktok.jpg

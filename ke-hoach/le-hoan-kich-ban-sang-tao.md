@@ -95,7 +95,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17047 | Lần đánh lừa thứ nhất, một lá thư | Trong thư, Đinh Toàn xin nhà Tống chính thức phong cho mình chức của cha. Mục đích là làm nhà Tống hoãn việc đem quân sang. |
 | 17048 | Lần đánh lừa thứ nhất, một lá thư | Nhà Tống đang muốn hỏi tội việc Lê Hoàn xưng đế, lại có ý chiếm nước Việt. Họ trả lời bằng một bức thư khác, đưa ra hai đường. |
 | 17049 | Lần đánh lừa thứ nhất, một lá thư | Đường thứ nhất, Đinh Toàn làm tổng chỉ huy và Lê Hoàn làm phó. |
-| 17050 | Lần đánh lừa thứ nhất, một lá thư | Đường thứ hai, đưa cả mẹ con Đinh Toàn cùng thân thuộc sang xin theo nhà Tống. |
+| 17050 | Lần đánh lừa thứ nhất, một lá thư | Đường thứ hai, đưa cả mẹ con Đinh Toàn cùng gia quyến sang xin theo nhà Tống. |
 | 17051 | Lần đánh lừa thứ nhất, một lá thư | Lê Hoàn không nghe theo đường nào. Việc bàn bằng thư từ đến đó chấm dứt, và hai bên chỉ còn cách dùng quân. |
 | 17052 | Lần đánh lừa thứ hai, lời đầu hàng | Tháng hai năm chín trăm tám mươi mốt, quân Tống áp sát bờ cõi. Hầu Nhân Bảo cùng Tôn Toàn Hưng kéo tới Lạng Sơn. |
 | 17053 | Lần đánh lừa thứ hai, lời đầu hàng | Trần Khâm Tộ tới Tây Kết, còn Lưu Trừng tiến đến sông Bạch Đằng. Quân Tống chia làm ba hướng, cùng ép vào Đại Cồ Việt. |

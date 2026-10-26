@@ -353,6 +353,16 @@ PIC(16008,0.3,3.0,23,1.0,1.10,1,0)      # cậu bé mồ côi
 PIC(16008,3.8,2.8,24,1.08,1.0,-1,0)     # được quan nhận nuôi
 PIC(16009,0.3,2.6,28,1.0,1.08,0,-1)     # vua khen
 PIC(16009,3.5,2.8,29,1.0,1.10,0,1)      # dẫn một nghìn quân
+def PICSEQ(n,imgs,k0=0):
+    """Nhiều ảnh nối nhau trong một đoạn lời kể (ảnh sau phủ lên ảnh trước 0,3 giây), máy quay đổi hướng luân phiên."""
+    t0=T[n];seg=D[n]/len(imgs);dirs=[(1.0,1.09,0,1),(1.09,1.0,1,0),(1.0,1.09,-1,0),(1.08,1.0,0,-1)]
+    for i,img in enumerate(imgs):
+        a=t0+seg*i;b=t0+seg*(i+1)+(0.3 if i<len(imgs)-1 or n<16005 else 0)
+        z0,z1,dx,dy=dirs[(k0+i)%4]
+        INTER.append((a,b,'pic',{'path':_PIC%img,'z0':z0,'z1':z1,'dx':dx,'dy':dy}))
+    return k0+len(imgs)
+_k=0
+_k=PICSEQ(16001,[1,2],_k);_k=PICSEQ(16002,[3,4,5,6],_k);_k=PICSEQ(16003,[7,8,9],_k);_k=PICSEQ(16004,[10,11,12,13],_k);_k=PICSEQ(16005,[14,15,16],_k)
 # ======================= HOÀN TẤT
 SCN.sort(key=lambda x:x[0])
 CAM=[(0,SCN[0][2],SCN[0][3],SCN[0][4])]

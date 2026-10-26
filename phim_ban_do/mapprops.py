@@ -238,8 +238,32 @@ def ping(d, x, y, s, u, t, arg):
         d.ellipse((x - rr, y - rr * 0.7, x + rr, y + rr * 0.7), outline=col + (int(230 * (1 - q)),), width=_lw(s, 0.2))
     d.ellipse((x - s * 0.45, y - s * 0.45, x + s * 0.45, y + s * 0.45), fill=col + (255,), outline=INK)
 
+def storm(d, x, y, s, u, t, arg):
+    """Bão trên biển: mây đen, mưa xiên, tia chớp lóe lên theo nhịp, sóng cuộn quanh vùng thuyền."""
+    r = random.Random(23)
+    # mây
+    for k, (dx, dy, rx, ry, g) in enumerate(((-3.2, -4.6, 3.6, 1.7, 58), (0.2, -5.4, 4.4, 2.1, 46), (3.4, -4.5, 3.4, 1.6, 62), (-0.8, -3.8, 4.0, 1.4, 70))):
+        wob = math.sin(t * 0.9 + k) * s * 0.25
+        d.ellipse((x + dx * s - rx * s + wob, y + dy * s - ry * s, x + dx * s + rx * s + wob, y + dy * s + ry * s), fill=(g, g + 4, g + 14, 235), outline=(20, 20, 30, 255))
+    # mưa xiên
+    for i in range(80):
+        px = x + (r.uniform(-8, 8)) * s; ph = (t * 1.6 + r.random()) % 1
+        py = y - 3.4 * s + ph * 8.2 * s
+        d.line([(px, py), (px - s * 0.35, py + s * 0.95)], fill=(226, 236, 252, 215), width=_lw(s, 0.12))
+    # sóng cuộn
+    for k in range(4):
+        q = (t * 0.45 + k / 4.0) % 1; rr = s * (1.4 + 4.4 * q)
+        d.arc((x - rr * 1.5, y + s * 1.5 - rr * 0.55, x + rr * 1.5, y + s * 1.5 + rr * 0.55), 200, 340, fill=(240, 246, 255, int(220 * (1 - q))), width=_lw(s, 0.16))
+    # tia chớp: lóe vài lần mỗi chu kỳ 2,6 giây
+    cyc = (t % 2.6) / 2.6
+    if cyc < 0.16 or 0.22 < cyc < 0.3:
+        bx = x + math.sin(int(t / 2.6) * 2.1) * s * 2.2
+        pts = [(bx, y - s * 3.8), (bx - s * 0.7, y - s * 2.2), (bx + s * 0.3, y - s * 2.0), (bx - s * 0.8, y - s * 0.2), (bx + s * 0.5, y - s * 1.2), (bx - s * 0.2, y - s * 1.3), (bx + s * 0.6, y - s * 3.2)]
+        d.polygon(pts, fill=(255, 246, 170, 255), outline=(255, 255, 255, 255))
+        d.ellipse((bx - s * 3.2, y - s * 4.6, bx + s * 3.2, y + s * 0.8), fill=(255, 250, 220, 55))
+
 KINDS = dict(ping=ping, orange=orange, banner=banner, hall=hall, granary=granary, bridge=bridge, heat=heat, tomb=tomb, statue=statue, seal=seal,
-             meeting=meeting, scrolls2=scrolls2, pawn=pawn, calendar=calendar, bowl=bowl, cross=cross, camp=camp, pennants=pennant_row)
+             meeting=meeting, scrolls2=scrolls2, pawn=pawn, calendar=calendar, bowl=bowl, cross=cross, camp=camp, pennants=pennant_row, storm=storm)
 
 def draw(d, kind, x, y, s, u, t, arg):
     KINDS[kind](d, x, y, s, u, t, arg)

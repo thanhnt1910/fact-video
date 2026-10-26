@@ -1,6 +1,6 @@
 # Kịch bản sáng tạo video Lê Hoàn (lh6) — bản để chủ kênh duyệt
 
-Mã `lh6`, 112 đoạn (17001–17112), 2.559 chữ, khoảng 14,2 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bản này bỏ hẳn giọng hài theo yêu cầu 26/10.
+Mã `lh6`, 112 đoạn (17001–17112). 2.550 chữ, khoảng 14,2 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bản này bỏ hẳn giọng hài theo yêu cầu 26/10.
 
 ## Ý tưởng chính
 
@@ -52,9 +52,9 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17004 | Cửa Minh Đức | Chuyện ngã ngựa ấy chưa từng xảy ra, vậy mà hai sứ giả vẫn tin. |
 | 17005 | Cửa Minh Đức | Người đứng trước họ là Lê Hoàn. Mười năm trước, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
 | 17006 | Cửa Minh Đức | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
-| 17007 | Cửa Minh Đức | Vậy giữa hai mốc ấy đã xảy ra chuyện gì, để kẻ định đánh úp phải đứng chờ một lời nói dối? |
-| 17008 | Cửa Minh Đức | Đó là cái giả thứ tư, và là cái đáng nói nhất. Muốn hiểu vì sao, bạn phải đi qua ba cái giả trước nó. |
-| 17009 | Cửa Minh Đức | Một lá thư giả, một cuộc đầu hàng giả, một người coi sông giả, và cuối cùng là cái chân đau giả mà bạn vừa thấy. |
+| 17007 | Cửa Minh Đức | Từ lời khoe ấy đến cái chân đau này, Lê Hoàn đã bốn lần đặt cái giả trước mặt nhà Tống. |
+| 17008 | Cửa Minh Đức | Cái chân đau là cái giả thứ tư, và là cái đáng nói nhất. |
+| 17009 | Cửa Minh Đức | Muốn hiểu vì sao, bạn phải đi qua ba cái giả trước nó, là một lá thư giả, một cuộc đầu hàng giả và một người coi sông giả. |
 | 17010 | Cửa Minh Đức | Bây giờ hãy quay về mười một năm trước, khi một đứa bé sáu tuổi ngồi lên ngai vàng. |
 | 17011 | Đứa bé và người giữ quyền | Năm chín trăm bảy mươi chín, vua Đinh Tiên Hoàng bị giết. Người nối ngôi là con ông, Đinh Toàn, mới sáu tuổi. |
 | 17012 | Đứa bé và người giữ quyền | Sáu tuổi thì chưa thể tự cầm quyền một nước. Người đứng ra giữ quyền thay cậu bé là Lê Hoàn. |

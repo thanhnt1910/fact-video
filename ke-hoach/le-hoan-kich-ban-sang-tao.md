@@ -67,7 +67,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17018 | Đứa bé và người giữ quyền | Họ dấy binh, chia hai đường thủy và bộ tiến về kinh đô để giết Lê Hoàn. |
 | 17019 | Đứa bé và người giữ quyền | Trên sông, Lê Hoàn nhân lúc có gió, phóng lửa đốt thuyền chiến của họ. Đinh Điền bị chém ngay tại trận, còn Nguyễn Bặc bị bắt rồi bị xử chém. |
 | 17020 | Đứa bé và người giữ quyền | Quân của Phạm Hạp mất hết khí thế và tan chạy về Cát Lợi. Lê Hoàn đuổi theo, bắt sống Phạm Hạp rồi đem về kinh đô. |
-| 17021 | Đứa bé và người giữ quyền | Việc trong nhà vừa yên thì có kẻ từ ngoài kéo tới. |
+| 17021 | Đứa bé và người giữ quyền | Hoa Lư chưa kịp yên thì một đạo quân từ phương nam đã kéo tới. |
 | 17022 | Đứa bé và người giữ quyền | Ngô Nhật Khánh, người từng chiếm giữ một vùng làm sứ quân, dẫn hơn một nghìn thuyền chiến của quân Chiêm Thành đánh vào Hoa Lư. |
 | 17023 | Đứa bé và người giữ quyền | Nhưng một đêm bão nổi lên, thuyền lật đắm gần hết. Ngô Nhật Khánh chết đuối, chỉ có thuyền của vua Chiêm Thành thoát về nước. |
 | 17024 | Đứa bé và người giữ quyền | Trong nước tạm yên. Nhưng ở phía bắc, đã có người cầm bút viết một lá thư nhắm vào đứa trẻ ấy. |

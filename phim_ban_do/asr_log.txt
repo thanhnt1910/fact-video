@@ -1,7 +1,4 @@
-0 113
-20 113
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 40 113
 60 113
-80 113
-100 113
 xong 113

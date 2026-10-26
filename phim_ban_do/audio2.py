@@ -127,6 +127,12 @@ def woodcrack(t0,g=0.7):
         s+=(np.sin(2*math.pi*(180-60*k)*tt)*np.exp(-tt/0.06)).astype(np.float32)*0.8
         add(s.astype(np.float32),t0+o,g*(1-0.2*k))
     creak(t0+0.15,0.9,g*0.5);splash(t0+0.35,g*0.8)
+def thunder(t0,g=0.8):
+    n=int(3.2*SR);tt=np.arange(n)/SR
+    s=lp(rng.normal(0,1,n).astype(np.float32),260)*np.exp(-tt/1.1)*np.minimum(tt/0.03,1)
+    s+=lp(rng.normal(0,1,n).astype(np.float32),900)*np.exp(-tt/0.12)*np.minimum(tt/0.004,1)*0.7
+    s+=(np.sin(2*math.pi*(55-10*tt)*tt)*np.exp(-tt/0.9)).astype(np.float32)*0.6
+    add((s*1.2).astype(np.float32),t0,g)
 def gong(t0,g=0.5):
     n=int(3.0*SR);tt=np.arange(n)/SR
     s=sum(np.sin(2*math.pi*f*tt+p)*a for f,a,p in [(96,1,0),(144,0.6,1),(213,0.45,2),(341,0.25,0.5)])*np.exp(-tt/1.1)
@@ -236,6 +242,7 @@ for (ts,kd) in getattr(C,'SFX',[]):
     if kd=='horn': horn(ts,1.8,0.45)
     elif kd=='gong': gong(ts,0.6)
     elif kd=='trumpet': trumpet(ts,1.3,0.5)
+    elif kd=='thunder': thunder(ts,0.8)
 for x in getattr(C,'JOKES',[]): tick(x[0],0.9);tick(x[0]+0.12,0.5)
 for x in getattr(C,'QUOTES',[]): tick(x[0],0.5)
 for x in getattr(C,'CARDS3',[]): tick(x[0],0.35)

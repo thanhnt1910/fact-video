@@ -74,14 +74,27 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
       - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy pillow scipy"
       - uses: actions/download-artifact@v4
         with:
           path: doan
-      - name: Ghép đoạn (video thử, chưa có tiếng)
+      - name: Âm thanh hiệu ứng (chưa có giọng), ghép đoạn
+        env:
+          SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/lh6_full.json
+          WORLD: ${{ github.workspace }}/phim_ban_do/world7.jpg
+          LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
+          FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf
+          CONTENT: lh6_content
+          WORLDMOD: world7
         run: |
+          (cd phim_ban_do && A2_OUT=$PWD/a2.wav python -u audio2.py 2>&1 | tail -n 3)
           for i in $(seq 0 15); do echo "file '$GITHUB_WORKSPACE/doan/doan-$i/doan_$i.mp4'" >> list.txt; done
-          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy lh6_thu.mp4
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy ghep.mp4
+          ffmpeg -y -loglevel error -i ghep.mp4 -i phim_ban_do/a2.wav -c:v copy -c:a aac -b:a 160k -shortest lh6_thu.mp4
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 lh6_thu.mp4
       - uses: actions/upload-artifact@v4
         with:
@@ -96,5 +109,5 @@ jobs:
           [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
           D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 lh6_thu.mp4)
           VB=$(python3 -c "print(int((46*8*1000*1000/$D-96000)/1000))")
-          ffmpeg -y -loglevel error -i lh6_thu.mp4 -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate ${VB}k -bufsize $((VB*2))k -an lh6_xem.mp4
-          curl -s -o r.txt -w "%{http_code}\n" -F chat_id="$TG_CHAT" -F video=@lh6_xem.mp4 -F supports_streaming=true -F caption="Lê Hoàn bốn lần đánh lừa nhà Tống: bản dựng thử bản đồ, chưa có giọng (thời lượng ước tính)" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"; head -c 300 r.txt
+          ffmpeg -y -loglevel error -i lh6_thu.mp4 -vf scale=1280:-2 -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate ${VB}k -bufsize $((VB*2))k -c:a aac -b:a 96k lh6_xem.mp4
+          curl -s -o r.txt -w "%{http_code}\n" -F chat_id="$TG_CHAT" -F video=@lh6_xem.mp4 -F supports_streaming=true -F caption="Lê Hoàn bốn lần đánh lừa nhà Tống: bản dựng thử bản đồ có hiệu ứng âm thanh, chưa có giọng (thời lượng ước tính)" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"; head -c 300 r.txt

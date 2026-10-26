@@ -351,3 +351,10 @@ SIDES=[('Đại Cồ Việt',VT,{g['name'].strip() for g in GROUPS if g['col']==
        ('Địa phương',NEU,{g['name'].strip() for g in GROUPS if g['col']==NEU})]
 SFX=[(at(31,'hẹn ngày'),'horn'),(at(38,'vạn tuế'),'trumpet'),(at(40,'lên ngôi'),'gong'),(at(61,'rút quân'),'horn'),(R(85,0.2),'horn'),(R(88,1.0),'gong')]
 SFX_GROUPS=['Sứ nhà Tống','Sứ Tống Cảo','Sứ Tống Cảo đi bộ','Sứ Lý Giác','Quân Tống rút về','Quân Tống rút về (mở đầu)']
+
+# âm thanh bão và cọc (26/10): mưa suốt cảnh bão, sấm sau mỗi tia chớp (chu kỳ 2,6 giây của hiệu ứng storm), tiếng cọc gãy ở Chi Lăng
+_s0=at(19,'bão')-0.5
+AMBIENT.append((_s0,E(20,0),'rain',0.5))
+for _k in range(int((E(20,0)-_s0)/2.6)): SFX.append((_s0+_k*2.6+0.35,'thunder'))
+FX.append((at(54,'đóng cọc'),at(54,'đóng cọc',1.5),'crack',CLG,CLG))
+FX.append((at(19,'đắm'),at(19,'đắm',1.0),'splash',(105.95,19.93),(105.95,19.93)))

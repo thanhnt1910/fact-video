@@ -11,6 +11,54 @@
    [khóa] GEMINI_API_KEY_11: trống
    [khóa] GEMINI_API_KEY_12: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 1 câu
+còn thiếu 113 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 12089 - 12089 9.6 giây
+OK cụm 17001 - 17003 20.2 giây
+OK cụm 17004 - 17011 50.8 giây
+OK cụm 17012 - 17014 19.6 giây
+OK cụm 17015 - 17015 9.4 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 29s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17016 - 17018 18.8 giây
+OK cụm 17019 - 17020 11.9 giây
+OK cụm 17021 - 17028 44.6 giây
+OK cụm 17029 - 17031 21.2 giây
+OK cụm 17032 - 17033 11.5 giây
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 49s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17034 - 17037 25.8 giây
+OK cụm 17038 - 17039 10.3 giây
+OK cụm 17040 - 17045 41.8 giây
+OK cụm 17046 - 17046 8.9 giây
+OK cụm 17047 - 17050 25.6 giây
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 8s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17051 - 17052 13.4 giây
+OK cụm 17053 - 17054 15.7 giây
+OK cụm 17055 - 17055 6.0 giây
+OK cụm 17056 - 17062 51.6 giây
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 34s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17063 - 17064 12.3 giây
+OK cụm 17065 - 17065 6.8 giây
+OK cụm 17066 - 17067 13.7 giây
+OK cụm 17068 - 17075 57.0 giây
+OK cụm 17076 - 17077 18.5 giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 54s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17078 - 17079 9.1 giây
+OK cụm 17080 - 17084 35.3 giây
+OK cụm 17085 - 17085 9.0 giây
+OK cụm 17086 - 17087 13.1 giây
+OK cụm 17088 - 17088 8.3 giây
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …pPaA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 24s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17089 - 17096 53.1 giây
+OK cụm 17097 - 17103 52.3 giây
+OK cụm 17104 - 17104 9.8 giây
+OK cụm 17105 - 17105 7.8 giây
+OK cụm 17106 - 17107 20.5 giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 33s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 17108 - 17112 29.7 giây
+OK cụm 17113 - 17113 7.3 giây

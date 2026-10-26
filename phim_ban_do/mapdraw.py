@@ -182,7 +182,8 @@ def icon_sprite(name, col, S):
     key = ('icon', sl, tuple(col), S)
     if key in _FACE_CACHE: return _FACE_CACHE[key]
     im = _I.open(p).convert('RGB'); w, h = im.size; m = min(w, h)
-    im = im.crop(((w - m) // 2, int((h - m) * 0.35), (w - m) // 2 + m, int((h - m) * 0.35) + m)).resize((S * 2, S * 2), _I.LANCZOS)
+    cs = int(m * 0.74); x0 = (w - cs) // 2; y0 = int(m * 0.06)
+    im = im.crop((x0, y0, x0 + cs, y0 + cs)).resize((S * 2, S * 2), _I.LANCZOS)
     out = _I.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0)); mk = _I.new('L', (S * 2, S * 2), 0)
     _D.Draw(mk).ellipse((0, 0, S * 2 - 1, S * 2 - 1), fill=255); out.paste(im, (0, 0), mk)
     g = _D.Draw(out); b = max(6, S // 14)

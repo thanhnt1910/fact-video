@@ -104,7 +104,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17056 | Lần đánh lừa thứ hai, lời đầu hàng | Hầu Nhân Bảo mắc mưu và bị chém. Còn mưu ấy chạy ra sao thì không ai còn kể lại. |
 | 17057 | Lần đánh lừa thứ hai, lời đầu hàng | Tin quân Tống thua trận truyền đến Trần Khâm Tộ, và ông vội dẫn quân quay về. |
 | 17058 | Lần đánh lừa thứ hai, lời đầu hàng | Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng. |
-| 17059 | Lần đánh lừa thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống và đưa về Hoa Lư. Sau trận ấy, trong nước không còn quân Tống nào nữa. |
+| 17059 | Lần đánh lừa thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống và đưa về Hoa Lư. Nhờ chiến thắng ấy, cuộc xâm lược của nhà Tống thất bại và đất nước được yên ổn. |
 | 17060 | Lần đánh lừa thứ hai, lời đầu hàng | Trận đánh quyết định ấy chỉ được ghi lại vài dòng. Vì vậy ta biết kết quả, còn từng bước đi của hai bên thì chưa rõ. |
 | 17061 | Quân Tống rút về | Quan lo việc chuyển vận vùng Giang Nam là Hứa Trọng Tuyên tâu về triều rằng Hầu Nhân Bảo đã thua và chết. Vua Tống ra lệnh rút quân. |
 | 17062 | Quân Tống rút về | Vua Tống còn sai sứ đi quở trách các tướng đã dẫn quân sang, là Lưu Trừng, Giả Thực và Vương Soạn. |

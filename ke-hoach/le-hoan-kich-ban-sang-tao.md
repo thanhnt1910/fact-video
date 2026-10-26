@@ -66,16 +66,16 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17018 | Đứa bé và người giữ quyền | Ngô Nhật Khánh, người từng chiếm giữ một vùng làm sứ quân, dẫn hơn một nghìn thuyền chiến của quân Chiêm Thành đánh vào Hoa Lư. |
 | 17019 | Đứa bé và người giữ quyền | Quân của Ngô Nhật Khánh chưa kịp giao chiến thì một đêm bão nổi lên, sóng đánh lật đắm gần hết thuyền chiến. |
 | 17020 | Đứa bé và người giữ quyền | Ngô Nhật Khánh chết đuối, và chỉ có thuyền của vua Chiêm Thành thoát được về nước. |
-| 17021 | Đứa bé và người giữ quyền | Trong nước tạm yên. Nhưng ở phía bắc, đã có người cầm bút viết một lá thư nhắm vào đứa trẻ ấy. |
-| 17022 | Lá thư của kẻ muốn đánh úp | Tin vua Đinh và Đinh Liễn đều đã chết lan sang phía bắc, và có một người nhà Tống nghe được. |
+| 17021 | Đứa bé và người giữ quyền | Trong nước tạm yên. Nhưng ở phía bắc, đã có người cầm bút viết một lá thư nhắm vào vị vua nhỏ tuổi của nước Việt. |
+| 17022 | Lá thư của kẻ muốn đánh úp | Tin vua Đinh Tiên Hoàng và Đinh Liễn đều đã chết lan sang phía bắc, và một người nhà Tống nghe được tin ấy. |
 | 17023 | Lá thư của kẻ muốn đánh úp | Đó là Hầu Nhân Bảo, một quan ở Ung Châu, vùng sát biên giới nước ta. |
 | 17024 | Lá thư của kẻ muốn đánh úp | Mùa hạ năm chín trăm tám mươi, ông dâng thư lên vua Tống. Trong thư, ông cho rằng nước Việt sắp mất và xin đem quân sang chiếm ngay. |
 | 17025 | Lá thư của kẻ muốn đánh úp | Vua Tống định gọi Hầu Nhân Bảo về triều hỏi cho rõ. |
 | 17026 | Lá thư của kẻ muốn đánh úp | Nhưng một quan khác tên Lư Đa Tốn tâu rằng làm vậy sẽ để lộ kế hoạch, và đối phương sẽ kịp dựa vào núi mà phòng thủ. |
 | 17027 | Lá thư của kẻ muốn đánh úp | Lư Đa Tốn muốn đánh úp, nhanh như sét đánh không kịp bịt tai. |
 | 17028 | Lá thư của kẻ muốn đánh úp | Ông nói chỉ cần chọn tướng giỏi, đem ba mươi nghìn quân vùng Kinh Hồ tiến thẳng sang. |
-| 17029 | Lá thư của kẻ muốn đánh úp | Ông còn nói thắng nước Việt sẽ dễ như bẻ cành khô gỗ mục, không tốn một mũi tên. Đó chính là lời khoe bạn đã nghe ở đầu video. |
-| 17030 | Lá thư của kẻ muốn đánh úp | Nghe xong, vua Tống thấy kế đánh úp ấy hợp lý và chấp thuận cho chuẩn bị đưa quân sang. |
+| 17029 | Lá thư của kẻ muốn đánh úp | Ông còn quả quyết rằng thắng nước Việt sẽ dễ như bẻ cành khô gỗ mục, không tốn một mũi tên. |
+| 17030 | Lá thư của kẻ muốn đánh úp | Nghe xong, vua Tống thấy kế đánh úp ấy hợp lý, nên đồng ý cho các tướng chuẩn bị đem quân sang. |
 | 17031 | Lá thư của kẻ muốn đánh úp | Mùa thu, nhà Tống giao chức cho các tướng và chia quân làm hai đạo. Một đạo họp ở Ung Châu, đạo kia họp ở Quảng Châu, hẹn ngày cùng tiến sang. |
 | 17032 | Lá thư của kẻ muốn đánh úp | Trên giấy, mọi thứ đã sẵn sàng. Tướng đã chọn, quân đã chia, và chiến thắng được hứa là không tốn một mũi tên. |
 | 17033 | Lá thư của kẻ muốn đánh úp | Rồi tin từ Châu Lạng báo về Hoa Lư, quân Tống sắp kéo sang. |
@@ -89,8 +89,8 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17041 | Tiếng hô vạn tuế | Đinh Toàn bị giáng xuống làm Vệ Vương, và nhà Đinh chấm dứt sau mười ba năm. |
 | 17042 | Tiếng hô vạn tuế | Từ lúc ấy, ông không còn là người giữ quyền thay vua nhỏ. Ông là hoàng đế, và ông phải đối mặt với quân Tống đang kéo tới. |
 | 17043 | Lần đánh lừa thứ nhất, một lá thư | Lần đánh lừa thứ nhất là một lá thư. Nhưng trước đó, nhà Tống đã gửi đến một lá thư thật. |
-| 17044 | Lần đánh lừa thứ nhất, một lá thư | Tháng tám, vua Tống gửi sang một bức thư dài. Ông ví các nước xung quanh như tay chân bị bệnh, phải chữa bằng thuốc rồi đến châm cứu. |
-| 17045 | Lần đánh lừa thứ nhất, một lá thư | Thư nói nước ta chỉ như ngón tay ngón chân trên thân thể nhà Tống. Nếu không chịu theo, quân Tống sẽ dẹp sạch đất này. |
+| 17044 | Lần đánh lừa thứ nhất, một lá thư | Tháng tám, vua Tống gửi sang một bức thư dài. Ông viết rằng chữa bệnh thì uống thuốc trước, không khỏi mới châm cứu. |
+| 17045 | Lần đánh lừa thứ nhất, một lá thư | Ý ông là khuyên trước, không nghe mới đánh. Thư nói nước ta như ngón tay trên thân thể nhà Tống, nếu không theo thì quân Tống sẽ dẹp sạch. |
 | 17046 | Lần đánh lừa thứ nhất, một lá thư | Lê Hoàn đáp lại bằng một bức thư giả. Tháng mười, khi sắp xuất quân, ông sai hai sứ giả mang sang nhà Tống bức thư mượn tên Đinh Toàn. |
 | 17047 | Lần đánh lừa thứ nhất, một lá thư | Trong thư, Đinh Toàn xin nhà Tống chính thức phong cho mình chức của cha. Mục đích là làm nhà Tống hoãn việc đem quân sang. |
 | 17048 | Lần đánh lừa thứ nhất, một lá thư | Nhà Tống đang muốn hỏi tội việc Lê Hoàn tự xưng là hoàng đế, lại có ý chiếm nước Việt. Họ trả lời bằng một bức thư khác, đưa ra hai đường. |
@@ -102,7 +102,7 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17054 | Lần đánh lừa thứ hai, lời đầu hàng | Lê Hoàn không ngồi chờ. Ông đích thân làm tướng ra chặn giặc, và quân của ông đóng cọc xuống sông Chi Lăng để ngăn đường. |
 | 17055 | Lần đánh lừa thứ hai, lời đầu hàng | Rồi đến lần đánh lừa thứ hai. Ông sai một số quân giả vờ đầu hàng để dụ Hầu Nhân Bảo. |
 | 17056 | Lần đánh lừa thứ hai, lời đầu hàng | Hầu Nhân Bảo mắc mưu và bị chém. Còn mưu ấy chạy ra sao thì không ai còn kể lại. |
-| 17057 | Lần đánh lừa thứ hai, lời đầu hàng | Tin quân thủy của nhà Tống thua trận truyền đến Trần Khâm Tộ, và ông vội dẫn quân quay về. |
+| 17057 | Lần đánh lừa thứ hai, lời đầu hàng | Tin quân Tống thua trận truyền đến Trần Khâm Tộ, và ông vội dẫn quân quay về. |
 | 17058 | Lần đánh lừa thứ hai, lời đầu hàng | Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng. |
 | 17059 | Lần đánh lừa thứ hai, lời đầu hàng | Hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, đưa về Hoa Lư. Từ đó trong nước rất yên. |
 | 17060 | Lần đánh lừa thứ hai, lời đầu hàng | Trận đánh quyết định ấy chỉ được ghi lại vài dòng. Vì vậy ta biết kết quả, còn từng bước đi của hai bên thì chưa rõ. |

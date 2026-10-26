@@ -1,6 +1,6 @@
 # Kịch bản sáng tạo video Lê Hoàn (lh6) — bản để chủ kênh duyệt
 
-Mã `lh6`, 115 đoạn (17001–17115), 2.643 chữ, khoảng 14,7 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bỏ hẳn giọng hài (26/10). Mở đầu là bản thử không nhắc chuyện cúi lạy.
+Mã `lh6`, 115 đoạn (17001–17115), 2.654 chữ, khoảng 14,7 phút. Bộ kiểm `kiem_kich_ban.py`: 0 lỗi. Nội dung sử lấy từ `lh2_full.json`, chỉ đổi cách kể. Bỏ hẳn giọng hài (26/10). Mở đầu là bản thử không nhắc chuyện cúi lạy.
 
 ## Ý tưởng chính
 
@@ -49,8 +49,8 @@ Dòng đầu Facebook: "Hai sứ giả nhà Tống đứng chờ vua cúi lạy.
 | 17001 | Trên sông | Năm chín trăm tám mươi bảy, trên một con sông của Đại Cồ Việt, sứ giả nhà Tống là Lý Giác thấy hai con ngỗng bơi, liền ngâm ngay hai câu thơ. |
 | 17002 | Trên sông | Người coi sông đứng gần đó đối lại ngay bằng hai câu khác. Lý Giác rất ngạc nhiên. |
 | 17003 | Trên sông | Nhưng người coi sông ấy không phải người coi sông. Đó là một nhà sư, được vua Đại Cồ Việt sai đóng vai để ra đón sứ giả. |
-| 17004 | Trên sông | Vị vua ấy là Lê Hoàn. Trước đó, nhà Tống từng nghĩ khác hẳn về đất nước của ông. |
-| 17005 | Trên sông | Một quan nhà Tống khi ấy khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
+| 17004 | Trên sông | Vị vua ấy là Lê Hoàn. Bảy năm trước, một quan nhà Tống khoe rằng thắng nước ông dễ như bẻ cành khô, không tốn một mũi tên. |
+| 17005 | Trên sông | Vậy mà bây giờ, sứ giả nhà Tống lại bị một nhà sư đóng vai người coi sông đánh lừa ngay trên sông. |
 | 17006 | Trên sông | Đó mới chỉ là cái giả thứ ba trong đời ông. Trước nó còn hai cái, và sau nó còn một cái nữa. |
 | 17007 | Trên sông | Vì sao ông phải giả, và cái cuối cùng khiến vua Tống bằng lòng điều gì? Câu trả lời nằm ở cuối video. |
 | 17008 | Trên sông | Muốn biết, hãy quay về những ngày một đứa bé sáu tuổi ngồi lên ngai vàng. |

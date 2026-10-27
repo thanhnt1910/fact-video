@@ -1,0 +1,53 @@
+name: "Giọng tự kiểm: chuẩn hóa, nghe lại, đọc lại đoạn lỗi"
+
+# Chạy khi đẩy ke-hoach/thu-giong-hai/tu_kiem.txt; dòng đầu: "<tên> [số vòng] <mốc>"
+on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/tu_kiem.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tu-kiem:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "faster-whisper numpy"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-whisper-medium
+      - name: Tự kiểm giọng
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          GEMINI_MAX_WAIT: "300"
+        run: |
+          read NAME VONG _ < <(head -1 ke-hoach/thu-giong-hai/tu_kiem.txt)
+          python -u phim_ban_do/giong_tu_kiem.py "$NAME" "${VONG:-2}" 2>&1 | tee logs_tu_kiem.txt
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+          git add assets/thu_giong_hai phim_ban_do/asr_*.json phim_ban_do/asr_*.h.json logs logs_tu_kiem.txt ke-hoach/thu-giong-hai/cum.txt || true
+          git commit -q -m "Giọng tự kiểm: báo cáo và đoạn đã sửa" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done

@@ -1,5 +1,5 @@
 name: Cài đặt nhanh
-description: ffmpeg (chỉ khi thiếu, không apt update) và gói pip (có cache, giới hạn thời gian, thử lại)
+description: ffmpeg bản dựng sẵn (lưu cache, không dùng apt) và gói pip (có cache, giới hạn thời gian, thử lại)
 inputs:
   pip:
     description: Các gói pip, cách nhau dấu cách
@@ -11,8 +11,23 @@ runs:
       with:
         path: ~/.cache/pip
         key: pip-${{ runner.os }}-${{ inputs.pip }}
+    - uses: actions/cache@v4
+      id: ffc
+      with:
+        path: ~/ffbin
+        key: ffmpeg-btbn-linux64-gpl-v1
     - shell: bash
       run: |
-        which ffmpeg > /dev/null || for k in 1 2 3; do timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null && break; echo "apt thử lại $k"; sleep 3; done
+        # ffmpeg dựng sẵn (có libx264, rubberband): lần đầu tải rồi lưu cache, các lần sau lấy từ cache trong vài giây
+        if [ ! -x "$HOME/ffbin/ffmpeg" ]; then
+          mkdir -p ~/ffbin /tmp/ffdl
+          for k in 1 2 3; do
+            timeout 180 curl -fsSL -o /tmp/ffdl/ff.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz \
+              && tar -xf /tmp/ffdl/ff.tar.xz -C /tmp/ffdl && cp /tmp/ffdl/ffmpeg-*/bin/ffmpeg /tmp/ffdl/ffmpeg-*/bin/ffprobe ~/ffbin/ && break
+            echo "tải ffmpeg thử lại $k"; sleep 3
+          done
+        fi
+        if [ -x "$HOME/ffbin/ffmpeg" ]; then echo "$HOME/ffbin" >> "$GITHUB_PATH"; export PATH="$HOME/ffbin:$PATH"
+        else which ffmpeg > /dev/null || for k in 1 2 3; do timeout 150 sudo apt-get install -y -qq --no-install-recommends ffmpeg > /dev/null && break; echo "apt thử lại $k"; sleep 3; done; fi
         for k in 1 2 3; do timeout 200 python -m pip install -q --prefer-binary ${{ inputs.pip }} && break; echo "pip thử lại $k"; sleep 3; done
         ffmpeg -version | head -1

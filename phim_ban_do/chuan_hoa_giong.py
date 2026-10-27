@@ -7,6 +7,7 @@ import numpy as np
 from kiem_cao_do import doc as _doc, f0_trung_vi as _f0
 TRIM = json.load(open(f'ke-hoach/thu-giong-hai/{sys.argv[1]}_cat_duoi.json')) if os.path.exists(f'ke-hoach/thu-giong-hai/{sys.argv[1]}_cat_duoi.json') else {}  # n -> giây (mốc nhận dạng trên bản chuẩn) cắt bỏ phần đọc thừa sau đó
 ten = sys.argv[1]
+NOI = json.load(open(f'ke-hoach/thu-giong-hai/{ten}_noi_dau.json')) if os.path.exists(f'ke-hoach/thu-giong-hai/{ten}_noi_dau.json') else {}  # n -> đoạn trước: phần đuôi đã cắt của đoạn trước (đọc dính sang) được nối vào đầu đoạn n
 nguon = sys.argv[sys.argv.index('--nguon') + 1] if '--nguon' in sys.argv else 'assets/thu_giong_hai/puck'
 kb = json.load(open(f'ke-hoach/thu-giong-hai/{ten}_full.json', encoding='utf-8'))
 dst = f'assets/thu_giong_hai/{ten}_chuan'; os.makedirs(dst, exist_ok=True)
@@ -30,6 +31,9 @@ for b in kb:
     tempo = 1 / r if abs(r - 1) > 0.05 else 1.0
     tempo = max(0.90, min(1.10, tempo))
     tmp = f'/tmp/_ch_{n}.wav'
+    if str(n) in NOI:   # nối đuôi đoạn trước (phần sau mốc cắt) vào đầu đoạn này
+        pv, mc = NOI[str(n)]   # đoạn trước và mốc (giây trên bản thô) bắt đầu phần đuôi cần nối
+        subprocess.run(['ffmpeg','-y','-v','error','-ss',f'{mc:.3f}','-i',f'{nguon}/{pv}.mp3','-i',src,'-filter_complex','[0][1]concat=n=2:v=0:a=1','-ar','24000','-ac','1',f'/tmp/_noi_{n}.wav'],check=True); src = f'/tmp/_noi_{n}.wav'
     pr = 1.0
     if f0[n] == f0[n] and abs(f0m / f0[n] - 1) > 0.03: pr = max(0.90, min(1.10, f0m / f0[n]))   # kéo cao độ từng đoạn về trung vị (tối đa 10%), giữ nguyên tốc độ
     cut = ''

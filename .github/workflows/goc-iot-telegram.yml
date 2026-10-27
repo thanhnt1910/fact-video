@@ -1,0 +1,35 @@
+name: Góc IoT - gửi video về Telegram
+
+on:
+  push:
+    branches: ["goc-iot-video-1-6"]
+    paths: ["goc-iot/gui-telegram.txt"]
+
+permissions:
+  contents: read
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gửi video kèm mô tả và hashtag
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] || { echo "Thiếu token hoặc chat id"; exit 1; }
+          CHAT=$(cat telegram_chat_id.txt)
+          for f in goc-iot/xem-truoc/video-*.mp4; do
+            [ -f "$f" ] || continue
+            n=$(basename "$f" | sed -E 's/video-([0-9]+)-.*/\1/')
+            python3 - "$n" <<'PY' > /tmp/cap.txt
+          import json, sys
+          n = int(sys.argv[1])
+          v = next(x for x in json.load(open('goc-iot/mo-ta.json', encoding='utf-8')) if x['id'] == n)
+          cap = f"🎬 Video {n}: {v['tieu_de']}\n(bản xem trước, chưa có tiếng)\n\n{v['mo_ta']}\n\n{v['hashtag']}"
+          print(cap[:1020])
+          PY
+            curl -s -o /dev/null -w "video $n: %{http_code}\n" -F chat_id="$CHAT" -F supports_streaming=true \
+              -F video=@"$f" -F "caption=</tmp/cap.txt" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo" || true
+          done

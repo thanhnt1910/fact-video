@@ -1,0 +1,38 @@
+[
+ {
+  "id": 1,
+  "tieu_de": "Bóng tự giới thiệu: IoT là gì?",
+  "mo_ta": "Bạn đã bao giờ bật đèn nhà mình từ xa bằng điện thoại chưa?\n\nChào bạn, mình là Bóng, chú bóng đèn thông minh của Góc IoT.\n\nIoT là viết tắt của Internet of Things: những vật dụng quen thuộc được gắn chip và kết nối mạng. Đèn, camera, đồng hồ đều có thể là IoT.\n\nMỗi ngày Bóng sẽ kể một điều nhỏ về chúng. Không cần giỏi kỹ thuật, chỉ cần tò mò là đủ.\n\nBạn đang dùng thiết bị thông minh nào? Bình luận cho Bóng biết nhé!",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #IoTLaGi"
+ },
+ {
+  "id": 2,
+  "tieu_de": "Nhà bạn có bao nhiêu thiết bị IoT?",
+  "mo_ta": "Đếm thử xem nhà bạn có mấy thiết bị đang kết nối mạng?\n\nBộ phát WiFi, tivi thông minh, đồng hồ thông minh, camera, và cả máy lọc không khí hay nồi cơm có ứng dụng trên điện thoại đều được tính.\n\nNhiều người đang dùng IoT hằng ngày mà không hề biết. Mỗi thiết bị kết nối mạng giống như một cánh cửa, nên bạn cần biết nó làm gì.\n\nNhà bạn đếm được bao nhiêu thiết bị?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #DemThietBi"
+ },
+ {
+  "id": 3,
+  "tieu_de": "Cảm biến là gì?",
+  "mo_ta": "Làm sao chiếc đèn biết có người vừa đi vào phòng?\n\nNhờ cảm biến. Cảm biến giống như giác quan của thiết bị: có cảm biến nhiệt độ, độ ẩm, ánh sáng, chuyển động và khoảng cách.\n\nMỗi loại biến một hiện tượng ngoài đời thành con số để thiết bị hiểu được. Không có cảm biến, thiết bị sẽ không biết gì về thế giới xung quanh.\n\nBạn muốn Bóng kể về cảm biến nào trước?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #CamBien"
+ },
+ {
+  "id": 4,
+  "tieu_de": "Vi điều khiển: bộ não nhỏ của thiết bị",
+  "mo_ta": "Ai ra lệnh cho cảm biến và bóng đèn?\n\nĐó là vi điều khiển, một con chip nhỏ chạy chương trình. ESP32 và Arduino là hai bảng mạch nổi tiếng với người mới học.\n\nNó đọc dữ liệu từ cảm biến rồi quyết định bật đèn, mở quạt hoặc gửi thông báo. Cảm biến là mắt và tai, còn vi điều khiển là bộ não.\n\nBạn đã từng thấy mạch Arduino hay ESP32 chưa?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #ViDieuKhien #ESP32 #Arduino"
+ },
+ {
+  "id": 5,
+  "tieu_de": "Thiết bị nói chuyện với nhau bằng gì?",
+  "mo_ta": "Đèn và điện thoại không có dây nối, vậy chúng nói chuyện với nhau bằng cách nào?\n\nWiFi truyền được nhiều dữ liệu nhưng tốn điện hơn. Bluetooth dùng cho khoảng cách gần và tiết kiệm pin. Zigbee là mạng lưới cho các thiết bị nhỏ, pin bền và thường cần một bộ trung tâm.\n\nMỗi cách phù hợp với một việc khác nhau.\n\nNhà bạn đang dùng cách nào nhiều nhất?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #WiFi #Bluetooth #Zigbee"
+ },
+ {
+  "id": 6,
+  "tieu_de": "Dữ liệu đi đâu? Đám mây là gì?",
+  "mo_ta": "Đi du lịch xa mà vẫn xem được nhiệt độ trong nhà, nhờ đâu?\n\nThiết bị gửi dữ liệu lên máy chủ, còn gọi là đám mây. Máy chủ lưu trữ rồi gửi về điện thoại của bạn. Thực ra đám mây chỉ là máy tính của một công ty, đặt ở nơi khác.\n\nTiện lợi, nhưng cần có internet và cần tin tưởng nhà cung cấp.\n\nBạn có lo dữ liệu của mình trên đám mây không?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #DamMay #DuLieu"
+ }
+]

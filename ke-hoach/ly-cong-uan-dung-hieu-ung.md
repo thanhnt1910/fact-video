@@ -88,6 +88,44 @@ Ký hiệu: `NT` ghi chú nổi (tối đa 4 mỗi chương, mỗi cái tối đ
 - **NT:** 18133 "hơn 200 năm" (một cái duy nhất). Không thẻ HẾT.
 - **Âm thanh:** sóng sông trở lại; giọng kể chậm ở 18134; mờ dần cả hình lẫn tiếng.
 
+## 2b. Tiểu cảnh phóng vào (bổ sung theo yêu cầu 27/10: nhiều hiệu ứng hơn, kiểu cày ruộng ở demo Lê Hoàn)
+Cách làm giống `plough`: từ một điểm trên bản đồ, một khung tranh nhỏ phóng ra, có người và vật chuyển động nhẹ trong vài giây, rồi thu về. Khai báo bằng `PROPS.append((t0, t1, loại, kinh độ, vĩ độ, tham số, cỡ))`. Mỗi lúc chỉ một tiểu cảnh, không đặt trong đoạn `Q` giao tranh, cờ và biển để trơn, không chữ. Gồm 23 tiểu cảnh; chín cảnh dùng lại hình đã có trong `mapprops.py` (`calendar`, `banner`, `meeting`, `scrolls2`, `granary`, `storm`, `tomb`, `ditch`, khung `orange`), khoảng 16 hình còn lại phải vẽ mới.
+
+| Câu | Tiểu cảnh | Chuyển động | Trạng thái |
+|---|---|---|---|
+| 18001 | **Tờ lịch** ở châu Cổ Pháp: số ngày chạy tới 12, hiện chữ "tháng hai" | Lật số | Dùng lại `calendar` |
+| 18004 | **Sân chùa**: người mẹ đưa cậu bé tới, nhà sư đưa tay đón, chuông chùa rung | Bước đi, chuông đung đưa, khói hương | Vẽ mới `chua` |
+| 18006 | **Đổi triều**: lá cờ nhà Đinh hạ xuống, cờ nhà Tiền Lê kéo lên (cờ trơn) | Cờ kéo lên cột | Dùng lại `banner`, đổi màu |
+| 18008-18010 | **Chùa Lục Tổ**: cậu bé đọc thẻ tre bên sư Vạn Hạnh; sau đó mặc áo võ quan đứng gác | Lật thẻ tre, hóa trang bằng mờ chồng | Vẽ mới `hoc_chua` |
+| 18014-18016 | **Ngai vàng trống** giữa điện: ba bóng hoàng tử xoay quanh, một bóng lùi ra, chỉ còn một bóng đứng cạnh ngai | Bóng xoay, ngai sáng tắt | Vẽ mới `ngai_tranh` |
+| 18017 | **Điện vắng**: các quan chạy ra cửa, chỉ một người quỳ lại cạnh tấm vải trắng (không vẽ thi thể) | Quan chạy, một bóng quỳ, đèn lung lay | Vẽ mới `quy_khoc` |
+| 18021 | **Quả khế bổ đôi**, lòng quả có hạt mận lộ ra, quả bị xoay chậm | Quả xoay, ánh sáng loé | Dùng khung `orange`, vẽ mới ruột quả `khe` |
+| 18027-18028 | **Hai đội 500 quân** đứng hai bên ngai (hai hàng icon nhỏ), nhãn "500" ở mỗi hàng | Hàng quân xếp ngay ngắn | Vẽ mới `hai_doi` |
+| 18030-18035 | **Đêm đèn dầu**: hai bóng người sát nhau, đèn dầu chập chờn, bóng một người giơ tay (giả vờ mắng), bóng kia lùi | Ngọn đèn dầu lung lay, bóng đổ trên tường | Vẽ mới `den_dau` |
+| 18036-18038 | **Họp của các quan**: vòng tròn quan quanh bàn, từng người gật đầu | Gật đầu lần lượt | Dùng lại `meeting` |
+| 18039-18040 | **Lên ngôi**: một bóng được dìu lên bậc điện, hàng quan cúi xuống từng lớp, cờ phất | Quan cúi theo sóng, cờ bay | Vẽ mới `len_ngoi` |
+| 18049 | **Hoa Lư giữa núi đá**: núi dựng như tường thành, quân giữ ở cửa ải hẹp | Cờ bay, mây trôi qua đỉnh núi | Vẽ mới `nui_da` |
+| 18068-18069 | **Cuộn chiếu** mở ra dài, cọ viết lướt, rồng cuộn hổ ngồi hiện mờ sau lưng | Cuộn mở, nét cọ chạy | Dùng lại `scrolls2`, vẽ thêm cọ viết `co_viet` |
+| 18073-18075 | **Rồng vàng** cuộn bay lên từ mặt sông, thuyền nhỏ dưới chân thành, nhãn "theo lời kể" | Rồng uốn, sóng vỗ | Vẽ mới `rong_vang` |
+| 18076-18079 | **Dựng thành**: thợ nâng cột, đắp tường, đào hào, bốn cửa lần lượt dựng lên | Thợ khiêng, bụi bay, hào đầy nước | Vẽ mới `dung_thanh`, dùng lại `ditch` |
+| 18083-18084 | **Kho thóc** mở cửa, thóc chảy ra chia cho dân (thuế được miễn) | Thóc rơi, người nhận | Dùng lại `granary` |
+| 18093-18096 | **Bão Biện Sơn**: thuyền nhỏ giữa sấm chớp, bóng vua đốt hương, mây tan sau lời khấn (theo lời kể) | Mưa xiên, tia chớp, khói hương, trời sáng | Dùng lại `storm`, vẽ thêm khói hương `huong` |
+| 18104 | **Đúc chuông**: lò rực lửa, đổ đồng vào khuôn, chuông treo lên gác | Lửa bập bùng, tia đồng nóng chảy | Vẽ mới `duc_chuong` |
+| 18110 | **Nhật thực**: vòng đen che dần mặt trời, chim bay về tổ, ánh sáng tối đi | Vòng đen trượt, màn tối | Vẽ mới `nhat_thuc` |
+| 18112 | **Thọ Lăng**: gò đất và bia đá, khói hương bay lên | Khói hương | Dùng lại `tomb` |
+| 18114-18116 | **Cửa Quảng Phúc**: cánh cửa gỗ nặng, bóng quân giấu sau cánh, thái tử đi vào từ cửa Tường Phù | Cửa khép mở, bóng quân động | Vẽ mới `cua_thanh` |
+| 18119 | **Thái tử mặc áo tang** đứng cạnh linh cữu trắng, nến đèn lung lay | Áo tang bay nhẹ, đèn dầu | Vẽ mới `ao_tang` |
+| 18126 | **Lên ngôi lần hai**: ngai vàng sáng, bóng thái tử bước lên | Bước lên bậc | Dùng lại `len_ngoi` |
+
+**Về cảnh tịch điền:** demo Lê Hoàn có cảnh cày ruộng vì sử chép việc đó. Theo Toàn thư, buổi cày ruộng nghi lễ (tịch điền) của nhà Lý bắt đầu từ vua Lý Thái Tông năm một nghìn không trăm ba mươi tám, không phải thời Lý Công Uẩn, nên tôi không đưa cảnh cày vào để tránh gắn sai thời. Nếu chủ kênh muốn có cảnh cày thì chỉ đặt ở 18083–18084 như cảnh "dân được miễn thuế, về làm ruộng", ghi rõ là cảnh minh họa; tôi đề nghị không dùng.
+
+**Thêm hiệu ứng nhỏ trên bản đồ (không phải tiểu cảnh):**
+- `ping` nhấp nháy ở Cổ Pháp, Hoa Lư, Đại La khi nhắc tới tên lần đầu.
+- Đường nét đứt chạy từ Hoa Lư tới Đại La (18056, 18072), thuyền chạy dọc theo đường.
+- `REGIONS` tô màu: 18088 mười đạo chia thành hai mươi bốn lộ, ô tách đôi.
+- Lớp đêm `NIGHT` ở chương 3 (18030–18035) và lớp tối nhật thực ở chương 10.
+- `FX` đã có: `horn`, `trumpet`, `gong`, `drums`, `volley`, `crack` (cửa nặng), `thunder`, `sea`, `splash`. Thêm tiếng mới: chuông chùa, dế đêm, búa đục, mái chèo.
+
 ## 3. Quy tắc chung của video này
 1. **Không đùa các anh hùng và nhân vật chính:** chỉ khung đùa nhắm vào tình huống hoặc quân xâm lược; không đùa Lý Công Uẩn, Lý Thái Tông, Lý Phật Mã, Đào Cam Mộc, Lê Phụng Hiểu, Lê Hoàn; không đùa cái chết hay bệnh tật của Lê Long Đĩnh.
 2. **Không máu, không cảnh giết:** chết/thua dùng cờ rũ, chuyển xám, "THUA TRẬN" hoặc "BỊ DIỆT" nhỏ; tránh đầu lâu to.

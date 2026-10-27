@@ -5,6 +5,7 @@ import numpy as np
 from faster_whisper import WhisperModel
 def main():
     src, vd, dst = sys.argv[1:4]; mo = sys.argv[4] if len(sys.argv) > 4 else 'medium'; goi_y = not (len(sys.argv) > 5 and sys.argv[5] == 'khong_goi_y')
+    if not goi_y: dst = dst.replace('.json', '_ngoai.json')   # nghe không gợi ý: ghi file riêng, không đè mốc chữ đang dùng
     m = WhisperModel(mo, device='cpu', compute_type='int8', cpu_threads=os.cpu_count() or 4)
     beats = json.load(open(src, encoding='utf-8'))
     res = json.load(open(dst, encoding='utf-8')) if os.path.exists(dst) else {}

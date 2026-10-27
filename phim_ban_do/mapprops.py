@@ -341,10 +341,128 @@ def stakes(d, x, y, s, u, t, arg):
     sw = abs(math.sin(t * 5.0)) * 0.6
     _person(d, x - s * 8.8, y - s * 0.4, s * 0.8, (60, 100, 140), hat=(60, 120, 70), arm=sw)
 
+
+# ---- tiểu cảnh: cày ruộng (trâu kéo cày, người cày, bụi đất, chim cò, cỏ lay) ----
+def _ln(d, pts, col, w):
+    d.line(pts, fill=col, width=max(1, int(w)))
+
+def _buffalo(d, x, y, s, ph):
+    """Trâu quay mặt sang phải: thân xám đen, sừng cong ra sau, bốn chân bước luân phiên."""
+    body = (74, 78, 86, 255); dark = (48, 50, 58, 255)
+    for lx, p in ((-1.0, 0.0), (-0.45, 3.1), (0.55, 1.6), (1.1, 4.7)):
+        a = math.sin(ph + p) * 0.45
+        _ln(d, [(x + lx * s, y + s * 0.5), (x + (lx + a) * s, y + s * 1.55)], dark, s * 0.2)
+        d.ellipse((x + (lx + a) * s - s * 0.14, y + s * 1.48, x + (lx + a) * s + s * 0.2, y + s * 1.62), fill=(30, 28, 30, 255))
+    _ln(d, [(x - s * 1.5, y - s * 0.1), (x - s * 1.9, y + s * 0.5 + math.sin(ph * 0.7) * s * 0.15)], dark, s * 0.12)
+    d.ellipse((x - s * 1.6, y - s * 0.7, x + s * 1.5, y + s * 0.85), fill=body, outline=INK)
+    d.ellipse((x - s * 0.9, y - s * 0.55, x + s * 0.3, y - s * 0.05), fill=(96, 100, 108, 150))
+    d.polygon([(x + s * 1.1, y - s * 0.55), (x + s * 1.95, y - s * 0.35), (x + s * 2.25, y + s * 0.2), (x + s * 1.2, y + s * 0.55)], fill=body, outline=INK)
+    d.ellipse((x + s * 1.85, y - s * 0.02, x + s * 2.3, y + s * 0.34), fill=(150, 142, 138, 255), outline=INK)
+    d.arc((x + s * 1.0, y - s * 1.2, x + s * 1.9, y - s * 0.3), 200, 340, fill=(226, 218, 196, 255), width=max(2, int(s * 0.14)))
+    d.ellipse((x + s * 1.55, y - s * 0.35, x + s * 1.7, y - s * 0.2), fill=(250, 250, 250, 255))
+    d.ellipse((x + s * 1.6, y - s * 0.31, x + s * 1.68, y - s * 0.23), fill=INK)
+
+def _egret(d, x, y, s, ph):
+    """Cò trắng đứng/bước theo luống cày."""
+    _ln(d, [(x - s * 0.1, y), (x - s * 0.12, y + s * 0.55)], (60, 50, 40, 255), s * 0.07)
+    _ln(d, [(x + s * 0.08, y), (x + s * 0.1, y + s * 0.55)], (60, 50, 40, 255), s * 0.07)
+    d.ellipse((x - s * 0.38, y - s * 0.3, x + s * 0.38, y + s * 0.15), fill=(250, 250, 248, 255), outline=INK)
+    _ln(d, [(x + s * 0.25, y - s * 0.15), (x + s * 0.5, y - s * 0.55 + math.sin(ph) * s * 0.06)], (250, 250, 248, 255), s * 0.1)
+    d.polygon([(x + s * 0.5, y - s * 0.6), (x + s * 0.8, y - s * 0.52), (x + s * 0.5, y - s * 0.5)], fill=(240, 190, 60, 255))
+
+def plough(d, x, y, s, u, t, arg):
+    """Tiểu cảnh người cày ruộng: ruộng đất nâu, trâu kéo cày chậm rãi, đất lật theo lưỡi cày, bụi bay, cò trắng bay theo."""
+    # phóng ra từ điểm trên bản đồ lúc vào và thu về lúc ra (hiệu ứng "zoom vào tiểu cảnh")
+    g = min(1.0, u * 7.0, (1.0 - u) * 7.0); g = max(0.0, g); g = g * g * (3 - 2 * g)
+    s = s * (0.18 + 0.82 * g)
+    W2, H2 = s * 10.5, s * 6.0
+    # bóng đổ và khung giấy
+    d.rounded_rectangle((x - W2 + s * 0.35, y - H2 + s * 0.5, x + W2 + s * 0.35, y + H2 * 0.92 + s * 0.5), radius=int(s * 0.9), fill=(40, 30, 20, 80))
+    top = y - H2; hor = y - s * 1.7; bot = y + H2 * 0.92
+    d.rounded_rectangle((x - W2, top, x + W2, bot), radius=int(s * 0.9), fill=(222, 234, 208, 255), outline=INK, width=_lw(s, 0.12))
+    # trời, núi xa, mặt trời
+    d.ellipse((x + s * 6.3, top + s * 0.9, x + s * 8.1, top + s * 2.7), fill=(255, 236, 160, 255))
+    d.ellipse((x + s * 5.9, top + s * 0.5, x + s * 8.5, top + s * 3.1), outline=(255, 236, 160, 120), width=_lw(s, 0.1))
+    for cx, cw, ch, col in ((-6.5, 3.7, 2.3, (176, 200, 168)), (-0.5, 4.9, 2.9, (160, 190, 160)), (6.1, 4.0, 2.1, (172, 198, 166))):
+        d.pieslice((x + cx * s - cw * s, hor - ch * s, x + cx * s + cw * s, hor + ch * s), 180, 360, fill=col + (255,))
+    # cánh chim bay trên trời
+    for k in range(3):
+        bx = x - s * 6.5 + ((t * 0.55 + k * 0.33) % 1.0) * s * 13 ; by = top + s * (1.4 + 0.7 * k) + math.sin(t * 2 + k) * s * 0.15
+        fl = math.sin(t * 9 + k) * s * 0.18
+        _ln(d, [(bx - s * 0.4, by + fl), (bx, by), (bx + s * 0.4, by + fl)], (70, 70, 76, 255), s * 0.07)
+    # mặt ruộng: nửa đã cày (trái) sẫm, nửa chưa cày (phải) nhạt
+    d.rounded_rectangle((x - W2 + s * 0.12, hor, x + W2 - s * 0.12, bot - s * 0.06), radius=int(s * 0.8), fill=(168, 126, 82, 255), corners=(False, False, True, True))
+    d.rectangle((x - W2 + s * 0.12, hor, x + W2 - s * 0.12, hor + s * 0.5), fill=(138, 160, 96, 255))
+    px = x - s * 0.8 + math.sin(t * 0.5) * s * 0.35
+    d.rounded_rectangle((x - W2 + s * 0.12, hor + s * 0.5, px, bot - s * 0.06), radius=int(s * 0.8), fill=(118, 80, 50, 255), corners=(False, False, False, True))
+    scroll_ = (t * 1.4) % 1.0
+    for i in range(10):
+        fy = hor + s * (0.95 + i * 0.62)
+        pts = []
+        for j in range(0, 41):
+            fx = x - W2 + s * 0.15 + (px - (x - W2 + s * 0.15)) * j / 40
+            pts.append((fx, fy + math.sin(j * 0.55 - scroll_ * 6.283 + i) * s * 0.07))
+        _ln(d, pts, (88, 58, 36, 255), s * 0.13)
+        _ln(d, [(a, b + s * 0.1) for a, b in pts], (150, 108, 70, 255), s * 0.05)
+        # luống chưa cày: gốc rạ
+        for j in range(0, 12):
+            gx = px + s * 0.6 + j * (x + W2 - s * 0.5 - px) / 12
+            if gx < x + W2 - s * 0.3:
+                _ln(d, [(gx, fy), (gx + math.sin(t * 2.5 + i + j) * s * 0.05, fy - s * 0.28)], (120, 138, 70, 255), s * 0.05)
+    # bước đi
+    ph = t * 3.2
+    base_y = y + s * 0.9
+    ub = s * 1.15
+    bx_ = px + s * 5.0 + math.sin(ph * 2) * s * 0.03
+    by_ = base_y + s * 1.35 - ub * 1.55 - abs(math.sin(ph * 2)) * s * 0.05
+    # trục cày nối từ ách trên cổ trâu xuống lưỡi cày
+    nx, ny = bx_ + ub * 1.05, by_ - ub * 0.25
+    d.polygon([(px + s * 0.35, base_y + s * 0.62), (px + s * 0.55, base_y + s * 0.8), (nx + s * 0.05, ny + s * 0.2), (nx - s * 0.1, ny - s * 0.05)], fill=(130, 92, 56, 255), outline=INK)
+    _ln(d, [(nx - s * 0.15, ny - s * 0.45), (nx + s * 0.25, ny + s * 0.55)], (96, 66, 40, 255), s * 0.2)
+    # lưỡi cày và đất lật
+    d.polygon([(px + s * 0.1, base_y + s * 0.8), (px + s * 0.7, base_y + s * 0.8), (px + s * 0.4, base_y + s * 1.2)], fill=(70, 74, 84, 255), outline=INK)
+    for k in range(7):
+        a = ((t * 1.3 + k * 0.17) % 1.0)
+        cx = px - s * (0.1 + 1.5 * a); cy = base_y + s * 0.85 - math.sin(a * 3.1416) * s * 0.8 + a * a * s * 0.7
+        r = s * (0.13 - 0.06 * a)
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(112, 76, 46, int(255 * (1 - a * 0.5))))
+    for k in range(5):
+        a = ((t * 0.9 + k * 0.23) % 1.0)
+        cx = px - s * (0.2 + 2.2 * a); cy = base_y + s * 1.05 - a * s * 0.35
+        r = s * (0.12 + 0.3 * a)
+        d.ellipse((cx - r, cy - r * 0.6, cx + r, cy + r * 0.6), fill=(196, 168, 128, int(140 * (1 - a))))
+    # người cày: nón lá, áo nâu, hai tay giữ cán cày
+    fx_ = px - s * 1.3 + math.sin(ph * 2) * s * 0.03
+    fy_ = base_y - s * 0.05
+    for sg in (-1, 1):
+        a = math.sin(ph + (0 if sg < 0 else 3.14)) * 0.4
+        _ln(d, [(fx_ + sg * s * 0.12, fy_ + s * 0.7), (fx_ + sg * s * 0.12 + a * s, fy_ + s * 1.5)], (96, 74, 54, 255), s * 0.22)
+    d.polygon([(fx_ - s * 0.5, fy_ + s * 0.85), (fx_ + s * 0.5, fy_ + s * 0.85), (fx_ + s * 0.38, fy_ - s * 0.5), (fx_ - s * 0.3, fy_ - s * 0.5)], fill=(116, 84, 56, 255), outline=INK)
+    d.ellipse((fx_ - s * 0.3, fy_ - s * 1.08, fx_ + s * 0.3, fy_ - s * 0.5), fill=SKIN, outline=INK)
+    d.polygon([(fx_ - s * 0.95, fy_ - s * 0.88), (fx_ + s * 0.05, fy_ - s * 1.75), (fx_ + s * 1.0, fy_ - s * 0.88)], fill=(214, 184, 112, 255), outline=INK)
+    hx, hy = px + s * 0.3, base_y + s * 0.8
+    _ln(d, [(hx, hy), (fx_ + s * 0.5, fy_ - s * 0.1)], (130, 92, 56, 255), s * 0.15)
+    _ln(d, [(fx_ + s * 0.25, fy_ + s * 0.1), (fx_ + s * 0.55, fy_ - s * 0.05)], SKIN, s * 0.17)
+    # trâu
+    _buffalo(d, bx_, by_, ub, ph * 2)
+    # cò trắng đi theo luống vừa cày
+    for k in range(3):
+        ex = px - s * (2.2 + k * 1.9) + math.sin(t * 0.8 + k * 2) * s * 0.3
+        ey = base_y + s * (1.5 + 0.35 * k) - abs(math.sin(t * 2.2 + k * 1.7)) * s * 0.1
+        _egret(d, ex, ey, s * 0.9, t * 3 + k)
+    # cỏ lay ở mép dưới khung
+    for j in range(46):
+        gx = x - W2 + s * 0.4 + j * (2 * W2 - s * 0.8) / 45
+        gh = s * (0.55 + 0.35 * ((j * 37) % 7) / 7)
+        sway = math.sin(t * 2.2 + j * 0.6) * s * 0.22
+        _ln(d, [(gx, bot - s * 0.18), (gx + sway, bot - s * 0.18 - gh)], (96, 140, 70, 255), s * 0.08)
+        _ln(d, [(gx + s * 0.07, bot - s * 0.18), (gx + sway * 1.2 + s * 0.1, bot - s * 0.18 - gh * 0.8)], (126, 168, 84, 255), s * 0.05)
+    d.rounded_rectangle((x - W2, top, x + W2, bot), radius=int(s * 0.9), outline=INK, width=_lw(s, 0.12))
+
 KINDS_EXTRA = dict(ship_strike=ship_strike, stakes=stakes)
 
 KINDS = dict(ping=ping, orange=orange, banner=banner, hall=hall, granary=granary, bridge=bridge, heat=heat, tomb=tomb, statue=statue, seal=seal,
-             meeting=meeting, scrolls2=scrolls2, pawn=pawn, calendar=calendar, bowl=bowl, cross=cross, camp=camp, pennants=pennant_row, storm=storm, ship_strike=ship_strike, stakes=stakes)
+             meeting=meeting, scrolls2=scrolls2, pawn=pawn, calendar=calendar, bowl=bowl, cross=cross, camp=camp, pennants=pennant_row, storm=storm, ship_strike=ship_strike, stakes=stakes, plough=plough)
 
 def draw(d, kind, x, y, s, u, t, arg):
     KINDS[kind](d, x, y, s, u, t, arg)

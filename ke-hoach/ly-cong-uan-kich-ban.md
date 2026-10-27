@@ -1,6 +1,6 @@
 # Kịch bản Lý Công Uẩn: dời đô về Thăng Long (bản 2, hướng "Cánh cửa Quảng Phúc", để chủ kênh duyệt)
 
-Mã `ly1`, 151 đoạn (18001–18151), 3,127 chữ, khoảng 17.4 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
+Mã `ly1`, 151 đoạn (18001–18151), 3,122 chữ, khoảng 17.3 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
 
 **Nguồn đối chiếu:** toàn văn bản dịch Đại Việt sử ký toàn thư, lưu ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (kỷ nhà Lý, Thái Tổ Hoàng Đế, và đoạn năm 1028 ở cuối quyển II).
 
@@ -111,7 +111,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18008 | Đứa trẻ bên nhà thiền sư | Khi ông khoảng sáu tuổi, tướng Lê Hoàn lên thay nhà Đinh, mở ra triều Tiền Lê, và ông lớn lên dưới triều đại mới ấy. |  |
 | 18009 | Đứa trẻ bên nhà thiền sư | Lúc đi học ở chùa Lục Tổ, ông gặp sư Vạn Hạnh, và người ta kể rằng vị sư đã nói ông sau này sẽ làm bậc minh chủ. |  |
 | 18010 | Đứa trẻ bên nhà thiền sư | Lời ấy chỉ là chuyện kể về sau, còn điều thấy rõ hơn là tính cách của ông. |  |
-| 18011 | Đứa trẻ bên nhà thiền sư | Ông không ham làm giàu và cũng không miệt mài đèn sách, nhưng sống khảng khái và có chí lớn. |  |
+| 18011 | Đứa trẻ bên nhà thiền sư | Ông không chuyên tâm chuyện học hành, nhưng sống khảng khái và có chí lớn. |  |
 | 18012 | Đứa trẻ bên nhà thiền sư | Khi trưởng thành, ông vào làm quan võ trong triều đình nhà Tiền Lê, rồi dần lên chỉ huy quân bảo vệ cung vua. |  |
 | 18013 | Đứa trẻ bên nhà thiền sư | Làm sao một viên tướng chỉ huy quân bảo vệ vua, đứng cạnh vị vua thích giết người, lại được tôn lên ngôi mà không có một trận đánh nào? |  |
 | 18014 | Đứa trẻ bên nhà thiền sư | Câu trả lời nằm ở những năm cuối của triều Tiền Lê. |  |

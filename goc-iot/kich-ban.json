@@ -18,8 +18,7 @@
    "title": "IoT là gì? Đèn nhà bạn bật từ xa thế nào?",
    "scenes": [
     "Bạn bấm một nút trên điện thoại, và chiếc đèn ở nhà bật sáng. Chuyện đó xảy ra thế nào?",
-    "Mình là Bóng, chú bóng đèn thông minh của Góc IoT. Cùng nhìn vào bên trong nhé!",
-    "Đây là một thiết bị IoT. IoT là viết tắt của Internet of Things, nghĩa là những vật dụng được kết nối internet.",
+    "Chiếc đèn đó là một thiết bị IoT. IoT là viết tắt của Internet of Things, nghĩa là những vật dụng được kết nối internet.",
     "Bên trong có ba phần chính: một chip nhỏ để xử lý lệnh, một cách kết nối mạng như WiFi, và có thể thêm cảm biến để biết điều đang xảy ra.",
     "Khi bạn bấm nút, lệnh đi qua internet, thường qua máy chủ của hãng, về WiFi nhà bạn, rồi tới chip trong bóng đèn. Chip nhận lệnh và bật đèn.",
     "Cách nhận biết rất dễ: vật dụng nào có ứng dụng điều khiển trên điện thoại hoặc nối được WiFi thường là thiết bị IoT.",

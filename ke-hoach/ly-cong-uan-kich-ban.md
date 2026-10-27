@@ -213,7 +213,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18107 | Điện Long An | Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương. |  |
 | 18108 | Điện Long An | Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi, còn nhà vua bước vào năm cuối đời. |  |
 | 18109 | Điện Long An | Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Công Uẩn không khỏe. | 1010: tháng 2 âm = 17/2–18/3/1010 |
-| 18110 | Điện Long An | Đến mồng một tháng ba, tức ngày hai mươi chín tháng ba, nhật thực che khuất mặt trời giữa ban ngày. |  |
+| 18110 | Điện Long An | Đến mồng một tháng ba, tức ngày hai mươi chín tháng ba, nhật thực che khuất mặt trời giữa ban ngày. | 1028: mồng 1 tháng 3 (Bính Thân) = 29/3/1028 |
 | 18111 | Điện Long An | Hai ngày sau, ngày ba mươi mốt tháng ba, ông mất ngay tại điện Long An do chính ông dựng. | 1028: ngày Mậu Tuất = 31/3/1028 |
 | 18112 | Điện Long An | Ông thọ năm mươi lăm tuổi theo cách tính của người xưa, ở ngôi mười tám năm và được an táng ở Thọ Lăng. |  |
 | 18113 | Cánh cửa Quảng Phúc | Nhà Lý chưa kịp lo xong tang lễ, mối nguy đã nổ ra ngay trong hoàng tộc. |  |

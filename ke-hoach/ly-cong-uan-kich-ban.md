@@ -143,9 +143,9 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18037 | Lời nói khích và ngôi vua | Các quan nói rằng dân đã chán vua cũ, còn vua mới thì quá nhỏ nên không ai chịu theo. |  |
 | 18038 | Lời nói khích và ngôi vua | Vì thế họ quyết định tôn Lý Công Uẩn lên ngay, kẻo triều đình rối loạn. |  |
 | 18039 | Lời nói khích và ngôi vua | Vậy là ngày hai mươi mốt tháng mười một năm một nghìn không trăm linh chín, cả triều dìu ông lên chính điện. | 1009: ngày Quý Sửu = 21/11/1009 |
-| 18040 | Lời nói khích và ngôi vua | Trăm quan lạy rạp dưới sân và hô chúc nhà vua sống muôn năm. |  |
-| 18041 | Lời nói khích và ngôi vua | Cuộc đổi ngôi ấy diễn ra êm thấm, không có một trận giao tranh nào. |  |
-| 18042 | Lời nói khích và ngôi vua | Tân hoàng đế tha tội cho nhiều người trong cả nước, rồi lấy năm sau làm năm đầu niên hiệu Thuận Thiên, nghĩa là thuận theo ý trời. |  |
+| 18040 | Lời nói khích và ngôi vua | Trăm quan lạy rạp dưới sân và hô vạn tuế, vạn tuế. |  |
+| 18041 | Lời nói khích và ngôi vua | Nhà Tiền Lê mất ngôi, nhà Lý bắt đầu, mà không có một trận đánh nào. |  |
+| 18042 | Lời nói khích và ngôi vua | Sau khi lên ngôi, Lý Công Uẩn tha tội cho nhiều người, và lấy năm sau làm năm đầu niên hiệu Thuận Thiên, nghĩa là thuận theo ý trời. |  |
 | 18043 | Lời nói khích và ngôi vua | Ông ban danh hiệu cho cha mẹ đã mất và lập con trai trưởng là Lý Phật Mã làm thái tử. |  |
 | 18044 | Lời nói khích và ngôi vua | Rồi ông gả con gái lớn cho Đào Cam Mộc. |  |
 | 18045 | Lời nói khích và ngôi vua | Người đã ngỏ lời đầu tiên ấy được phong làm Nghĩa Tín Hầu. |  |

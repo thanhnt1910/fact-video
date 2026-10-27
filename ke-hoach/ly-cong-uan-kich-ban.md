@@ -100,13 +100,13 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18001 | Đứa trẻ bên nhà thiền sư | Lý Công Uẩn chào đời ở châu Cổ Pháp, và mẹ ông họ Phạm. |  |
 | 18002 | Đứa trẻ bên nhà thiền sư | Ông sinh ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
 | 18003 | Đứa trẻ bên nhà thiền sư | Còn về cha ông, sử sách không ghi rõ ông là ai. |  |
-| 18004 | Đứa trẻ bên nhà thiền sư | Khi cậu bé lên ba, người mẹ ẵm cậu đến nhà thiền sư Lý Khánh Văn. |  |
-| 18005 | Đứa trẻ bên nhà thiền sư | Thiền sư nhận cậu làm con nuôi, nên từ đó cậu mang họ Lý, lớn lên thông minh và có dáng người tuấn tú khác thường. |  |
+| 18004 | Đứa trẻ bên nhà thiền sư | Năm ba tuổi, Lý Công Uẩn được mẹ ẵm đến nhà thiền sư Lý Khánh Văn, và thiền sư nhận ông làm con nuôi. |  |
+| 18005 | Đứa trẻ bên nhà thiền sư | Vì thế ông mang họ Lý của người cha nuôi, rồi lớn lên thông minh và có dáng người tuấn tú khác thường. |  |
 | 18006 | Đứa trẻ bên nhà thiền sư | Đứa trẻ nuôi trong chùa ấy về sau sẽ làm vua, và dời cả kinh đô từ vùng núi đá ra bên bờ sông. |  |
 | 18007 | Đứa trẻ bên nhà thiền sư | Vì sao ông dám bỏ nơi đã đóng đô hơn bốn mươi năm, và việc ấy đã cứu nhà Lý ra sao? |  |
-| 18008 | Đứa trẻ bên nhà thiền sư | Lúc đi học ở chùa Lục Tổ, cậu gặp sư Vạn Hạnh, và người ta kể rằng vị sư đã nói cậu bé sau này sẽ làm bậc minh chủ. |  |
-| 18009 | Đứa trẻ bên nhà thiền sư | Đó chỉ là lời kể về sau nên ta không coi là bằng chứng, còn điều chắc chắn hơn nằm ở chính tính cách của cậu. |  |
-| 18010 | Đứa trẻ bên nhà thiền sư | Cậu không chăm lo của cải, học kinh sử cũng chỉ qua loa, nhưng khảng khái và có chí lớn, nên khi trưởng thành đã bước vào triều đình nhà Lê. |  |
+| 18008 | Đứa trẻ bên nhà thiền sư | Lúc đi học ở chùa Lục Tổ, ông gặp sư Vạn Hạnh, và người ta kể rằng vị sư đã nói ông sau này sẽ làm bậc minh chủ. |  |
+| 18009 | Đứa trẻ bên nhà thiền sư | Đó chỉ là lời kể về sau, còn điều chắc chắn hơn nằm ở chính tính cách của ông. |  |
+| 18010 | Đứa trẻ bên nhà thiền sư | Ông không chăm lo của cải, học kinh sử cũng chỉ qua loa, nhưng khảng khái và có chí lớn, nên khi trưởng thành đã bước vào triều đình nhà Lê. |  |
 | 18011 | Người giữ cung nhà Lê | Triều Tiền Lê do vua Lê Hoàn dựng nên, nhưng ông mất vào tháng ba âm lịch năm một nghìn không trăm linh năm thì các con liền tranh ngôi. | 1005: tháng 3 âm = 12/4–10/5/1005 |
 | 18012 | Người giữ cung nhà Lê | Cuộc giành giật kéo dài tám tháng, trong nước không có vua, rồi mùa đông Lê Long Việt lên ngôi và ba ngày sau bị em là Lê Long Đĩnh giết. | 1005: mùa đông (tháng 10 âm = 5/11–3/12/1005) |
 | 18013 | Người giữ cung nhà Lê | Các quan sợ hãi bỏ chạy hết, chỉ riêng Lý Công Uẩn ở lại ôm xác nhà vua mà khóc. |  |

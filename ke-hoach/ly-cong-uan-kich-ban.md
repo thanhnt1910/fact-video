@@ -97,9 +97,9 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 
 | n | chương | lời | mốc ngày (Julian, tính lại) |
 |---|---|---|---|
-| 18001 | Đứa trẻ bên nhà thiền sư | Lý Công Uẩn chào đời ở châu Cổ Pháp, và mẹ ông họ Phạm. |  |
+| 18001 | Đứa trẻ bên nhà thiền sư | Lý Công Uẩn chào đời ở châu Cổ Pháp, một vùng đất nằm phía bắc sông Hồng, và mẹ ông họ Phạm. |  |
 | 18002 | Đứa trẻ bên nhà thiền sư | Ông sinh ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
-| 18003 | Đứa trẻ bên nhà thiền sư | Còn về cha ông, sử sách không ghi rõ ông là ai. |  |
+| 18003 | Đứa trẻ bên nhà thiền sư | Còn cha ông là ai thì không ai biết rõ. |  |
 | 18004 | Đứa trẻ bên nhà thiền sư | Năm ba tuổi, Lý Công Uẩn được mẹ ẵm đến nhà thiền sư Lý Khánh Văn, và thiền sư nhận ông làm con nuôi. |  |
 | 18005 | Đứa trẻ bên nhà thiền sư | Vì thế ông mang họ Lý của người cha nuôi, rồi lớn lên thông minh và có dáng người tuấn tú khác thường. |  |
 | 18006 | Đứa trẻ bên nhà thiền sư | Đứa trẻ nuôi trong chùa ấy về sau sẽ làm vua, và dời cả kinh đô từ vùng núi đá ra bên bờ sông. |  |

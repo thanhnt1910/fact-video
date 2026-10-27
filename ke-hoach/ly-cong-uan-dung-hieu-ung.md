@@ -117,16 +117,21 @@ Cách làm giống `plough`: từ một điểm trên bản đồ, một khung t
 | 18119 | **Thái tử mặc áo tang** đứng cạnh linh cữu trắng, nến đèn lung lay | Áo tang bay nhẹ, đèn dầu | Vẽ mới `ao_tang` |
 | 18126 | **Lên ngôi lần hai**: ngai vàng sáng, bóng thái tử bước lên | Bước lên bậc | Dùng lại `len_ngoi` |
 
-**Về cảnh tịch điền:** demo Lê Hoàn có cảnh cày ruộng vì sử chép việc đó. Theo Toàn thư, buổi cày ruộng nghi lễ (tịch điền) của nhà Lý bắt đầu từ vua Lý Thái Tông năm một nghìn không trăm ba mươi tám, không phải thời Lý Công Uẩn, nên tôi không đưa cảnh cày vào để tránh gắn sai thời. Nếu chủ kênh muốn có cảnh cày thì chỉ đặt ở 18083–18084 như cảnh "dân được miễn thuế, về làm ruộng", ghi rõ là cảnh minh họa; tôi đề nghị không dùng.
-
 **Thêm hiệu ứng nhỏ trên bản đồ (không phải tiểu cảnh):**
 - `ping` nhấp nháy ở Cổ Pháp, Hoa Lư, Đại La khi nhắc tới tên lần đầu.
 - Đường nét đứt chạy từ Hoa Lư tới Đại La (18056, 18072), thuyền chạy dọc theo đường.
-- `REGIONS` tô màu: 18088 mười đạo chia thành hai mươi bốn lộ, ô tách đôi.
+- `REGIONS` (vùng được tô màu): câu 18088, mười đạo được tô màu, rồi tách ra thành hai mươi bốn lộ, mỗi lộ một sắc nhạt khác nhau.
 - Lớp đêm `NIGHT` ở chương 3 (18030–18035) và lớp tối nhật thực ở chương 10.
 - `FX` đã có: `horn`, `trumpet`, `gong`, `drums`, `volley`, `crack` (cửa nặng), `thunder`, `sea`, `splash`. Thêm tiếng mới: chuông chùa, dế đêm, búa đục, mái chèo.
 
 ## 2c. Làm lại cờ và dấu hiệu quân (chủ kênh nhận xét 27/10: cờ chiến còn đơn giản)
+**Cờ đang đại diện cho gì (theo mã hiện có):**
+- Lá cờ cắm cạnh mỗi cụm quân (`flag` trong `mapfilm3.py`): đánh dấu **phe của cụm quân** bằng màu cờ; khi quân thua, cờ chuyển xám và thu nhỏ.
+- Hàng cờ nhỏ (`pennants`): đánh dấu **nơi đóng quân hoặc nơi một phe đang có mặt**.
+- Lá cờ trên thẻ nhân vật (`card3`): chỉ **màu phe của nhân vật**.
+- Phù hiệu tròn trên thẻ tên quân: **phe** (không phải cá nhân).
+Như vậy cờ chỉ nói "bên nào", cùng một việc với màu thẻ tên, nên trong video này cờ cạnh quân là phần thừa nhất.
+
 Hiện nay cờ chỉ là một cột với một mảnh tam giác phẳng (`flag` trong `mapdraw.py`), hàng cờ nhỏ (`pennants`) và huy hiệu tròn trên thẻ tên. Đề xuất thay bằng năm thứ sau, ảnh thử `ke-hoach/anh-thu/co_demo.png`:
 
 1. **Cờ vải lượn sóng:** vải gợn theo gió, sáng tối theo nếp, viền vàng hai mép, tua rua ở mép phải, đầu cột có mũi nhọn. Hướng gió thuận theo hướng quân đi.
@@ -141,6 +146,34 @@ Hiện nay cờ chỉ là một cột với một mảnh tam giác phẳng (`fla
 - Phù hiệu tròn trên thẻ tên → giữ nhưng thêm **viền theo màu cờ** để khớp với cờ vải.
 - Dấu chấm nhấp nháy `ping` ở địa danh → giữ chỗ nhắc tên lần đầu, không dùng thay cờ.
 - Cờ mọi bên đều để trơn một màu theo màu phe; không chữ, không hình trên cờ.
+
+## 2d. Chân dung nhân vật (icon tròn xuất hiện khi nhắc tên lần đầu)
+Demo Lê Hoàn đã có sẵn cơ chế này: lệnh `FACE(n, giây, thời gian, tên, địa danh, loại, màu phe)` làm một huy hiệu tròn nảy lên cạnh địa danh, viền theo màu phe. Nếu có ảnh `assets/icon_nhan_vat/<tên không dấu>.jpg` thì dùng ảnh chân dung vẽ bằng AI; không có thì dùng hình khuôn vẽ phẳng theo vai trò (`king`, `general`, `lord`, `noble`, `youth`, `prince`, `child`, `servant`), kém nhận diện hơn. Đã có sẵn `lehoan.jpg` và `vuatong.jpg`; các nhân vật còn lại cần vẽ mới.
+
+| Nhân vật | Xuất hiện | Màu viền | Mô tả chân dung (ảnh minh họa, không phải khuôn mặt có thật) |
+|---|---|---|---|
+| Lý Công Uẩn, cậu bé | 18004 | xanh lá (nhà Lý) | Cậu bé khoảng ba, bốn tuổi, tóc búi hai bên, áo vải nâu, nền sân chùa |
+| Lý Công Uẩn, tướng trẻ | 18010 | xanh lá | Người trẻ khoảng hai mươi lăm tuổi, vóc người cao tuấn tú, mũ võ quan, áo giáp nhẹ, tay không |
+| Lý Công Uẩn, nhà vua | 18039 | xanh lá | Người đàn ông ngoài ba mươi, mũ vua và áo bào vàng đơn giản, ánh mắt điềm tĩnh |
+| Lý Khánh Văn | 18004 | nâu (nhà chùa) | Thiền sư trung niên, đầu cạo, áo nâu |
+| Vạn Hạnh | 18007 | nâu | Sư già, đầu cạo, áo nâu, râu thưa |
+| Lê Hoàn | 18006 | vàng đồng (Tiền Lê) | Dùng lại `lehoan.jpg` |
+| Lê Long Việt | 18016 | vàng đồng | Người trẻ mặc áo bào vua, vẻ non nớt |
+| Lê Long Đĩnh | 18016 | vàng đồng | Người đàn ông gầy, sắc mặt nhợt nhạt, mũ vua, ánh mắt khó đoán (không vẽ biểu cảm quái dị) |
+| Nguyễn Đê | 18027 | vàng đồng | Tướng quân trung niên, mũ võ, râu ngắn |
+| Đào Cam Mộc | 18029 | xanh lá | Quan hầu cận trung niên, mũ quan, râu mỏng, vẻ lanh lợi |
+| Lý Phật Mã | 18043 | xanh lá | Thái tử trẻ, tóc búi cao, trán rộng; sau lên ngôi thành vua Lý Thái Tông (18126) mặc áo vua |
+| Cao Biền (Cao Vương) | 18057 | xám xanh (nhà Đường) | Tướng nhà Đường, mũ giáp nhà Đường, râu dài |
+| Vua Tống | 18065 | đỏ (nhà Tống) | Dùng lại `vuatong.jpg` |
+| Dực Thánh Vương | 18100 | xanh lá | Hoàng tử cầm quân, mũ giáp, vẻ nghiêm nghị |
+| Đông Chinh Vương | 18115 | cam (phản loạn) | Hoàng tử trung niên, áo hoàng tộc |
+| Vũ Đức Vương | 18115 | cam | Hoàng tử trẻ, áo hoàng tộc |
+| Lý Nhân Nghĩa | 18120 | xanh lá | Hoạn quan trung niên, mũ nhỏ, không râu |
+| Lê Phụng Hiểu | 18121 | xanh lá | Võ tướng vạm vỡ, giáp nhẹ, vẻ dũng mãnh; **tay không**, không vẽ gươm trần |
+
+Cách vẽ: mỗi người một khuôn mặt khác nhau, cùng phong cách hoạt hình phẳng với bộ có sẵn, không chữ, không biểu tượng trên mũ áo, nền một màu giấy; trang phục theo thời Lý và Tiền Lê, không vẽ đồ thời sau; không vẽ vũ khí trần. Tuổi theo năm đang kể (Lý Công Uẩn sinh 974). Cần hai đến ba bản mỗi nhân vật rồi chọn bản đúng nhất; xem từng ảnh ở cỡ lớn trước khi dùng. Vẽ bằng workflow vẽ ảnh khi chủ kênh cho chạy. Nhân vật nhà Tống, Cao Biền chỉ hiện một lần.
+
+Mỗi lần hiện chân dung dùng tối đa 3 giây, không đặt trong đoạn `Q`; chỉ một chân dung hiện cùng lúc, không trùng với thẻ nhân vật (`C3`).
 
 ## 3. Quy tắc chung của video này
 1. **Không đùa các anh hùng và nhân vật chính:** chỉ khung đùa nhắm vào tình huống hoặc quân xâm lược; không đùa Lý Công Uẩn, Lý Thái Tông, Lý Phật Mã, Đào Cam Mộc, Lê Phụng Hiểu, Lê Hoàn; không đùa cái chết hay bệnh tật của Lê Long Đĩnh.

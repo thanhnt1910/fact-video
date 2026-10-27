@@ -1,6 +1,6 @@
 # Kịch bản Lý Công Uẩn: dời đô về Thăng Long (bản 2, hướng "Cánh cửa Quảng Phúc", để chủ kênh duyệt)
 
-Mã `ly1`, 141 đoạn (18001–18141), 2,931 chữ, khoảng 16.3 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
+Mã `ly1`, 141 đoạn (18001–18141), 2,935 chữ, khoảng 16.3 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
 
 **Nguồn đối chiếu:** toàn văn bản dịch Đại Việt sử ký toàn thư, lưu ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (kỷ nhà Lý, Thái Tổ Hoàng Đế, và đoạn năm 1028 ở cuối quyển II).
 
@@ -104,8 +104,8 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 
 | n | chương | lời | mốc ngày (Julian, tính lại) |
 |---|---|---|---|
-| 18001 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba, dưới thời vua Đinh Bộ Lĩnh, tại châu Cổ Pháp, một vùng đất nằm ở phía bắc sông Hồng, một cậu bé ra đời. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
-| 18002 | Đứa trẻ bên nhà thiền sư | Hơn ba mươi năm sau, chính cậu bé đó sẽ lên ngôi vua, mở đầu cho nhà Lý. |  |
+| 18001 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba dương lịch, dưới thời vua Đinh Bộ Lĩnh, một cậu bé đã chào đời tại châu Cổ Pháp, vùng đất nằm ở phía bắc sông Hồng. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
+| 18002 | Đứa trẻ bên nhà thiền sư | Hơn ba mươi năm sau, chính cậu bé đó sẽ bước lên ngai vàng, mở ra vương triều nhà Lý. |  |
 | 18003 | Đứa trẻ bên nhà thiền sư | Cậu bé ấy tên là Lý Công Uẩn. |  |
 | 18004 | Đứa trẻ bên nhà thiền sư | Năm ba tuổi, Lý Công Uẩn được mẹ đưa đến nhà thiền sư Lý Khánh Văn, thiền sư nhận ông làm con nuôi và từ đó ông mang họ Lý. |  |
 | 18005 | Đứa trẻ bên nhà thiền sư | Ông lớn lên rất thông minh, lại có dáng người tuấn tú khác thường. |  |

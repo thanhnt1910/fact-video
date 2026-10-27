@@ -1,6 +1,6 @@
 # Kịch bản Lý Công Uẩn: dời đô về Thăng Long (bản 2, hướng "Cánh cửa Quảng Phúc", để chủ kênh duyệt)
 
-Mã `ly1`, 125 đoạn (18001–18125), 3,227 chữ, khoảng 17.9 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
+Mã `ly1`, 125 đoạn (18001–18125), 3,230 chữ, khoảng 17.9 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
 
 **Nguồn đối chiếu:** toàn văn bản dịch Đại Việt sử ký toàn thư, lưu ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (kỷ nhà Lý, Thái Tổ Hoàng Đế, và đoạn năm 1028 ở cuối quyển II).
 
@@ -62,7 +62,7 @@ Những mốc chỉ có tháng thì lời kể nói đúng "tháng X âm lịch"
 ## Điểm cần chủ kênh duyệt (phần sáng tạo, ghi độ chắc)
 
 - **"Ba người em của thái tử", "hai người con của ông":** thái tử gọi ba vương là "anh em"; Dực Thánh Vương là con thứ theo chú thích; Vũ Đức Vương Toàn thư chú là "chưa rõ" thân thế. **Cần kiểm thêm** nếu muốn nói chắc "con của vua".
-- **"Mặt trời tắt giữa ban ngày" (nhật thực):** hình ảnh mở đầu; nhật thực mồng 1 tháng 3 là có thật.
+- **Câu mở đầu đã viết lại (27/10/2026):** "Vua vừa mất, ba hoàng tử đem quân phục sẵn trong cung để cướp ngôi." (15 chữ, không ngày tháng, ai cũng hiểu: có vua chết, có người cướp ngôi). Câu sau cho biết đó là vua đầu tiên nhà Lý và ngày mất. Hình ảnh nhật thực chuyển về chương "Điện Long An" (nhật thực mồng 1 tháng 3 là có thật). Lý do: câu cũ "Hai ngày sau khi mặt trời tắt giữa ban ngày, nhà vua qua đời" không nói vua nào, chuyện gì, nên khó hiểu.
 - **Hai câu của người kể ở phần kết:** "Không ai biết ông có nghĩ trước đến ngày ấy hay không" và "kinh đô ông dựng vẫn đứng vững, ngôi vua vẫn truyền được cho con". Đây là nối sự việc, không phải lời bình của sử gia; chủ kênh quyết định giữ hay bỏ.
 - **Câu báo trước "Hãy nhớ cánh cửa phía tây ấy"** là kỹ thuật kể, không thêm sự kiện.
 - **Ghi chú giọng:** đo cao độ Lê Hoàn cho thấy hai cụm đọc (đoạn 17041–17048 và 17089–17096) trôi trầm 9% và 16% so với phần còn lại; các cụm trộn tone bị chia thành 35 lượt gọi độc lập. Đinh Bộ Lĩnh (toàn `story`, đọc cụm 16) không bị. Vì vậy ly1 đọc toàn `story`, cụm 16, rồi chạy `phim_ban_do/kiem_cao_do.py`.
@@ -91,8 +91,8 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 
 | n | chương | lời | mốc ngày (Julian, tính lại) |
 |---|---|---|---|
-| 18001 | Cánh cửa phía tây | Hai ngày sau khi mặt trời tắt giữa ban ngày, nhà vua qua đời trong cung. |  |
-| 18002 | Cánh cửa phía tây | Đó là ngày mồng ba tháng ba âm lịch, tức ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám theo dương lịch. | 1028: mồng 3 tháng 3 = 31/3/1028 |
+| 18001 | Cánh cửa phía tây | Vua vừa mất, ba hoàng tử đem quân phục sẵn trong cung để cướp ngôi. |  |
+| 18002 | Cánh cửa phía tây | Đó là vị vua đầu tiên của nhà Lý, mất ngày mồng ba tháng ba âm lịch, tức ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám. | 1028: mồng 3 tháng 3 = 31/3/1028 |
 | 18003 | Cánh cửa phía tây | Các quan kéo đến xin thái tử nối ngôi theo lời cha dặn, nhưng ba người em của ông đã đem quân vào thành và ẩn sẵn để chờ ông đi qua. |  |
 | 18004 | Cánh cửa phía tây | Một đạo quân nấp trong Long Thành, còn hai đạo kia nấp ngay sau cánh cửa Quảng Phúc, cánh cửa mở ra ở phía tây kinh thành. |  |
 | 18005 | Cánh cửa phía tây | Cánh cửa ấy do chính vua cha dựng mười tám năm trước, trên một vùng đất mà ông phải bỏ cả kinh đô cũ mới có được. |  |

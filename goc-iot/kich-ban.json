@@ -15,14 +15,16 @@
   {
    "id": 1,
    "slug": "bong-tu-gioi-thieu",
-   "title": "Bóng tự giới thiệu: IoT là gì?",
+   "title": "IoT là gì? Đèn nhà bạn bật từ xa thế nào?",
    "scenes": [
-    "Bạn có từng bật đèn nhà mình từ xa bằng điện thoại chưa?",
-    "Xin chào, mình là Bóng, chú bóng đèn thông minh của Góc IoT!",
-    "IoT là viết tắt của Internet of Things: những vật dụng quen thuộc được gắn chip và kết nối mạng.",
-    "Đèn, camera, đồng hồ... đều có thể là IoT. Mỗi ngày Bóng sẽ kể một điều nhỏ về chúng.",
-    "Không cần giỏi kỹ thuật, chỉ cần tò mò là đủ!",
-    "Bạn đang dùng thiết bị thông minh nào? Bình luận cho Bóng biết nhé!"
+    "Bạn bấm một nút trên điện thoại, và chiếc đèn ở nhà bật sáng. Chuyện đó xảy ra thế nào?",
+    "Mình là Bóng, chú bóng đèn thông minh của Góc IoT. Cùng nhìn vào bên trong nhé!",
+    "Đây là một thiết bị IoT. IoT là viết tắt của Internet of Things, nghĩa là những vật dụng được kết nối internet.",
+    "Bên trong có ba phần chính: một chip nhỏ để xử lý lệnh, một cách kết nối mạng như WiFi, và có thể thêm cảm biến để biết điều đang xảy ra.",
+    "Khi bạn bấm nút, lệnh đi qua internet, thường qua máy chủ của hãng, về WiFi nhà bạn, rồi tới chip trong bóng đèn. Chip nhận lệnh và bật đèn.",
+    "Cách nhận biết rất dễ: vật dụng nào có ứng dụng điều khiển trên điện thoại hoặc nối được WiFi thường là thiết bị IoT.",
+    "Đèn, camera, đồng hồ thông minh, khóa cửa, hay nồi cơm điện có ứng dụng, đều có thể là IoT.",
+    "Nhà bạn có thiết bị nào như vậy? Bình luận cho Bóng biết nhé!"
    ]
   },
   {
@@ -82,11 +84,14 @@
    "slug": "du-lieu-di-dau-dam-may-la-gi",
    "title": "Dữ liệu đi đâu? Đám mây là gì?",
    "scenes": [
-    "Đi du lịch xa mà vẫn xem được nhiệt độ trong nhà, nhờ đâu?",
-    "Thiết bị gửi dữ liệu lên máy chủ, còn gọi là đám mây.",
-    "Máy chủ lưu trữ dữ liệu rồi gửi về điện thoại của bạn.",
-    "Thực ra, đám mây chỉ là máy tính của một công ty, đặt ở nơi khác.",
-    "Tiện lợi, nhưng cần có internet và cần tin tưởng nhà cung cấp.",
+    "Bạn đi du lịch xa mà vẫn xem được nhiệt độ trong nhà. Con số đó đi đường nào?",
+    "Đầu tiên, cảm biến trong nhà đo nhiệt độ, và thiết bị gửi con số đó qua WiFi.",
+    "Từ WiFi, dữ liệu đi qua internet đến một máy chủ của hãng sản xuất. Máy chủ này gọi là đám mây.",
+    "Thực ra đám mây không nằm trên trời. Đó là những máy tính của một công ty, đặt trong trung tâm dữ liệu ở nơi khác.",
+    "Máy chủ lưu con số lại, rồi gửi về ứng dụng trên điện thoại bạn, dù bạn đang ở đâu.",
+    "Nhờ vậy bạn xem được từ xa, xem lại lịch sử, và thiết bị còn nhận được bản cập nhật phần mềm.",
+    "Nhưng cũng cần nhớ: mất internet thì nhiều thiết bị không điều khiển từ xa được, và dữ liệu của bạn nằm ở công ty đó.",
+    "Ba việc nên làm: đặt mật khẩu mạnh cho tài khoản, bật xác thực hai bước nếu có, và cập nhật ứng dụng thường xuyên.",
     "Bạn có lo dữ liệu của mình trên đám mây không? Bình luận cho Bóng biết nhé!"
    ]
   }

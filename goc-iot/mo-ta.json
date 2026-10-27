@@ -1,8 +1,8 @@
 [
  {
   "id": 1,
-  "tieu_de": "Bóng tự giới thiệu: IoT là gì?",
-  "mo_ta": "Bạn đã bao giờ bật đèn nhà mình từ xa bằng điện thoại chưa?\n\nChào bạn, mình là Bóng, chú bóng đèn thông minh của Góc IoT.\n\nIoT là viết tắt của Internet of Things: những vật dụng quen thuộc được gắn chip và kết nối mạng. Đèn, camera, đồng hồ đều có thể là IoT.\n\nMỗi ngày Bóng sẽ kể một điều nhỏ về chúng. Không cần giỏi kỹ thuật, chỉ cần tò mò là đủ.\n\nBạn đang dùng thiết bị thông minh nào? Bình luận cho Bóng biết nhé!",
+  "tieu_de": "IoT là gì? Đèn nhà bạn bật từ xa thế nào?",
+  "mo_ta": "Bạn bấm một nút trên điện thoại, và chiếc đèn ở nhà bật sáng. Chuyện đó xảy ra thế nào?\n\nChiếc đèn là một thiết bị IoT. IoT là viết tắt của Internet of Things, nghĩa là những vật dụng được kết nối internet. Bên trong có một chip nhỏ để xử lý lệnh, một cách kết nối mạng như WiFi, và có thể thêm cảm biến.\n\nKhi bạn bấm nút, lệnh đi qua internet, thường qua máy chủ của hãng, về WiFi nhà bạn rồi tới chip trong bóng đèn.\n\nCách nhận biết: vật dụng nào có ứng dụng điều khiển trên điện thoại hoặc nối được WiFi thường là thiết bị IoT.\n\nNhà bạn có thiết bị nào như vậy? Bình luận cho Bóng biết nhé!",
   "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #IoTLaGi"
  },
  {
@@ -32,7 +32,7 @@
  {
   "id": 6,
   "tieu_de": "Dữ liệu đi đâu? Đám mây là gì?",
-  "mo_ta": "Đi du lịch xa mà vẫn xem được nhiệt độ trong nhà, nhờ đâu?\n\nThiết bị gửi dữ liệu lên máy chủ, còn gọi là đám mây. Máy chủ lưu trữ rồi gửi về điện thoại của bạn. Thực ra đám mây chỉ là máy tính của một công ty, đặt ở nơi khác.\n\nTiện lợi, nhưng cần có internet và cần tin tưởng nhà cung cấp.\n\nBạn có lo dữ liệu của mình trên đám mây không?",
+  "mo_ta": "Bạn đi du lịch xa mà vẫn xem được nhiệt độ trong nhà. Con số đó đi đường nào?\n\nCảm biến đo nhiệt độ, thiết bị gửi con số qua WiFi, rồi qua internet đến máy chủ của hãng. Máy chủ này gọi là đám mây. Thực ra đám mây chỉ là máy tính của một công ty, đặt trong trung tâm dữ liệu ở nơi khác. Máy chủ lưu con số rồi gửi về ứng dụng trên điện thoại bạn.\n\nLợi ích: xem từ xa, xem lại lịch sử, nhận cập nhật phần mềm. Cần nhớ: mất internet thì nhiều thiết bị không điều khiển từ xa được, và dữ liệu nằm ở công ty cung cấp.\n\nBa việc nên làm: đặt mật khẩu mạnh, bật xác thực hai bước nếu có, cập nhật ứng dụng thường xuyên.\n\nBạn có lo dữ liệu của mình trên đám mây không? Bình luận cho Bóng biết nhé!",
   "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #DamMay #DuLieu"
  }
 ]

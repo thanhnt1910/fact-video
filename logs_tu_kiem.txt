@@ -1,0 +1,30 @@
+$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
+cao độ trung vị 154 Hz
+tốc độ trung vị 3.46 chữ/giây
+đoạn đã chỉnh tốc độ: 76 / 134
+âm lượng sau chuẩn hóa: -15.7 đến -15.2 LUFS
+tổng thời lượng giọng 12.76 phút
+
+$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
+0 134
+20 134
+40 134
+60 134
+80 134
+100 134
+120 134
+xong 134
+
+$ python phim_ban_do/kiem_ngoai.py ly1 -> 1
+❌ 18071 khớp 60%
+❌ 18093 mất 'tren duong ve'
+132/134 câu sạch
+
+# Tự kiểm giọng ly1
+
+## Vòng 1: 2 đoạn nghi lỗi
+- 18071: khớp 60%
+- 18093: mất 'tren duong ve'
+
+## Kết quả cuối
+Còn nghi lỗi (có thể do nhận dạng nghe nhầm, nên nghe lại): 18071 (khớp 60%), 18093 (mất 'tren duong ve')

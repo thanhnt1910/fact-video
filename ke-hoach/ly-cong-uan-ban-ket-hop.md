@@ -32,7 +32,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 ## Chương 4: Hoa Lư không còn đủ (đoạn 18048–18055)
 
-**Lời kể:** Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước, giữa những dãy núi đá dựng đứng. Trong thời loạn, núi đá như bức tường che chở khiến nơi này rất dễ giữ. Nhưng nhà vua cho rằng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. Kinh đô ấy cần dân cư đông đúc, đường đi thuận tiện và đất rộng để mở mang dần. Trong khi đó, theo ông, Hoa Lư lại ẩm thấp và chật hẹp. Nhà vua cũng nhìn lại hai triều trước. Cả hai đều đóng đô ở Hoa Lư và đều ngắn ngủi. Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm.
+**Lời kể:** Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước, giữa những dãy núi đá dựng đứng. Trong thời loạn, núi đá như bức tường thành, giặc khó đánh vào mà quân mình dễ phòng thủ. Nhưng nhà vua cho rằng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. Kinh đô ấy cần dân cư đông đúc, đường đi thuận tiện và đất rộng để mở mang dần. Trong khi đó, theo ông, Hoa Lư lại ẩm thấp và chật hẹp. Nhà vua cũng nhìn lại hai triều trước. Cả hai đều đóng đô ở Hoa Lư và đều ngắn ngủi. Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm.
 
 **Hình ảnh:** Bản đồ so sánh: Hoa Lư giữa núi đá, chật hẹp; bên cạnh là đồng bằng rộng. Hai triều Đinh, Tiền Lê hiện như hai nấc ngắn.
 
@@ -40,7 +40,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 ## Chương 5: Đại La bên sông (đoạn 18056–18063)
 
-**Lời kể:** Lý Công Uẩn không muốn đi vào vận ngắn ngủi ấy, nên ông nhìn về thành Đại La bên sông Hồng. Đó là tòa thành cũ do tướng Cao Biền của nhà Đường đắp từ năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước. Các quan nhà Đường từng ngồi đó cai trị vùng đất Giao Châu lúc bấy giờ. Chính bản chiếu của vua cũng gọi nơi này là đô cũ của Cao Vương, tức Cao Biền. Thành có sông Hồng chảy ngay bên cạnh nên thuyền bè nhiều nơi có thể cập bến, còn đất quanh đó thì rộng và bằng phẳng. Ở đó kinh đô có thể mở rộng mãi, chứ không bị núi đá bó chặt như Hoa Lư. Dời đô là việc rất lớn, vì phải bỏ cung điện cũ và dựng lại từ đầu ở một nơi xa. Vì thế nhà vua viết một bản chiếu để thuyết phục cả triều đình.
+**Lời kể:** Lý Công Uẩn không muốn đi vào vận ngắn ngủi ấy, nên ông nhìn về thành Đại La bên sông Hồng. Đó là tòa thành cũ do tướng Cao Biền của nhà Đường đắp từ năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước. Các quan nhà Đường từng ngồi đó cai trị vùng đất Giao Châu lúc bấy giờ. Chính bản chiếu cũng gọi nơi này là thành cũ của Cao Vương, tên gọi khác của Cao Biền. Thành có sông Hồng chảy ngay bên cạnh nên thuyền bè nhiều nơi có thể cập bến, còn đất quanh đó thì rộng và bằng phẳng. Ở đó kinh đô có thể mở rộng mãi, chứ không bị núi đá bó chặt như Hoa Lư. Dời đô là việc rất lớn, vì phải bỏ cung điện cũ và dựng lại từ đầu ở một nơi xa. Vì thế nhà vua viết một bản chiếu để thuyết phục cả triều đình.
 
 **Hình ảnh:** Bản đồ thành Đại La bên sông Hồng, thuyền bè cập bến, đất rộng quanh thành.
 
@@ -48,7 +48,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 ## Chương 6: Lá chiếu dời đô (đoạn 18064–18071)
 
-**Lời kể:** Tháng hai âm lịch năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp quê mình và ban tiền lụa cho các cụ già trong làng. Cũng trong năm ấy ông sai sứ sang nhà Tống để giữ tình hòa hảo. Chiếu mở đầu bằng chuyện xưa của Trung Hoa, rằng nhà Thương năm lần dời đô và nhà Chu ba lần, để mưu nghiệp lớn cho con cháu muôn đời. Còn nhà Đinh và nhà Tiền Lê thì cứ yên đóng đô một chỗ, nên vận nước ngắn ngủi và trăm họ hao tổn. Chiếu tả Đại La có thế đất như rồng cuộn hổ ngồi, rộng mà bằng phẳng, cao mà sáng sủa, muôn vật đều tươi tốt. Cuối chiếu, ông không ra lệnh mà hỏi các quan rằng ông muốn chọn Đại La làm nơi đóng đô, mọi người nghĩ thế nào? Các quan đáp rằng nhà vua lập kế lâu dài cho thiên hạ, điều lợi như thế thì ai dám không theo. Nhà vua rất mừng.
+**Lời kể:** Tháng hai âm lịch năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp quê mình và ban tiền lụa cho các cụ già trong làng. Cũng trong năm ấy ông sai sứ sang nhà Tống để giữ tình hòa hảo. Chiếu mở đầu bằng chuyện xưa của Trung Hoa, rằng nhà Thương năm lần dời đô và nhà Chu ba lần, để mưu nghiệp lớn cho con cháu muôn đời. Còn nhà Đinh và nhà Tiền Lê thì cứ yên đóng đô một chỗ, nên vận nước ngắn ngủi và trăm họ hao tổn. Chiếu tả Đại La có thế đất như rồng cuộn hổ ngồi, rộng mà bằng phẳng, cao mà sáng sủa, muôn vật đều tươi tốt. Cuối chiếu, ông không ra lệnh mà hỏi các quan rằng ông muốn chọn Đại La làm nơi đóng đô, mọi người nghĩ thế nào? Các quan đáp rằng nhà vua lập kế lâu dài cho thiên hạ, điều lợi như thế thì ai dám không theo. Lý Công Uẩn rất mừng.
 
 **Hình ảnh:** Nhà vua viết chiếu; cuộn chiếu mở ra không có chữ đọc được; vua đứng hỏi các quan; các quan cúi đầu đồng ý.
 
@@ -56,7 +56,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 ## Chương 7: Con thuyền dưới chân thành (đoạn 18072–18075)
 
-**Lời kể:** Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư, đi thuyền ra Đại La. Thuyền vừa dừng dưới chân thành thì có người kể rằng một con rồng vàng hiện lên. Không ai chứng minh được điều đó, nhưng người xưa tin rằng đây là dấu hiệu trời chọn nơi này và chọn vị vua ấy. Nhà vua liền đổi tên Đại La thành Thăng Long, nghĩa là rồng bay lên.
+**Lời kể:** Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư, đi thuyền ra Đại La. Thuyền vừa dừng dưới chân thành thì có người kể rằng một con rồng vàng hiện lên. Không ai chứng minh được điều đó, nhưng người xưa tin rằng đây là dấu hiệu trời chọn nơi này và chọn vị vua ấy. Lý Công Uẩn liền đổi tên Đại La thành Thăng Long, nghĩa là rồng bay lên.
 
 **Hình ảnh:** Đoàn thuyền rẽ sóng trên sông Hồng; thuyền dừng dưới chân thành; hiệu ứng rồng vàng nhẹ trên mặt nước, ghi chú trên màn hình: theo lời kể.
 
@@ -64,7 +64,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 ## Chương 8: Bốn cánh cửa và các điện (đoạn 18076–18086)
 
-**Lời kể:** Sau khi dời đô, nhà vua dựng điện Càn Nguyên ở phía trước làm nơi họp triều, hai bên là điện Tập Hiền và điện Giảng Võ. Sau điện Càn Nguyên là hai điện Long An và Long Thụy, nơi nhà vua nghỉ ngơi. Rồi ông cho dựng kho tàng, đắp thành và đào hào. Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức. Không ai ngờ cánh cửa phía tây ấy sẽ còn chứng kiến một biến cố lớn. Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc. Châu Cổ Pháp quê ông thành phủ Thiên Đức, còn Hoa Lư thành phủ Trường Yên. Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong, và nhân dịp ấy ông tha thuế cho cả nước ba năm. Những người mồ côi, góa chồng, già yếu mà còn thiếu thuế từ lâu cũng được tha hết. Cũng năm ấy nhà Tống phong ông làm Giao Chỉ quận vương. Vậy là kinh đô mới vừa dựng đã được nước láng giềng phương bắc công nhận.
+**Lời kể:** Sau khi dời đô, ông cho dựng điện Càn Nguyên ở phía trước làm nơi họp triều, hai bên là điện Tập Hiền và điện Giảng Võ. Sau điện Càn Nguyên là hai điện Long An và Long Thụy. Rồi ông cho dựng kho tàng, đắp thành và đào hào. Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức. Không ai ngờ cánh cửa phía tây ấy sẽ còn chứng kiến một biến cố lớn. Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc. Châu Cổ Pháp quê ông thành phủ Thiên Đức, còn Hoa Lư thành phủ Trường Yên. Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong, nhân dịp ấy ông miễn thuế cho cả nước ba năm. Những người mồ côi, góa bụa, già yếu và nghèo túng mà còn nợ thuế từ lâu cũng được xóa hết nợ. Cũng năm ấy nhà Tống phong ông làm Giao Chỉ quận vương. Vậy là kinh đô mới vừa dựng đã được nước láng giềng phương bắc công nhận.
 
 **Hình ảnh:** Hoạt cảnh dựng điện Càn Nguyên, hai điện Tập Hiền và Giảng Võ; bốn cửa thành lần lượt hiện lên theo bốn hướng; cửa phía tây sáng lên.
 
@@ -80,7 +80,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 ## Chương 10: Điện Long An (đoạn 18107–18112)
 
-**Lời kể:** Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương. Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi, còn nhà vua bước vào năm cuối đời. Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, nhà vua không khỏe. Đến mồng một tháng ba, tức hai mươi chín tháng ba, mặt trời bị nhật thực che khuất giữa ban ngày. Hai ngày sau, ngày ba mươi mốt tháng ba, nhà vua mất ngay tại điện Long An do chính ông dựng, thọ năm mươi lăm tuổi theo cách tính của người xưa. Tính theo ngày sinh thì ông mới hơn năm mươi bốn tuổi, ở ngôi mười tám năm và được an táng ở Thọ Lăng.
+**Lời kể:** Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương. Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi, còn nhà vua bước vào năm cuối đời. Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Công Uẩn không khỏe. Đến mồng một tháng ba, tức ngày hai mươi chín tháng ba, nhật thực che khuất mặt trời giữa ban ngày. Hai ngày sau, ngày ba mươi mốt tháng ba, ông mất ngay tại điện Long An do chính ông dựng. Ông thọ năm mươi lăm tuổi theo cách tính của người xưa, ở ngôi mười tám năm và được an táng ở Thọ Lăng.
 
 **Hình ảnh:** Điện Long An buổi chiều, nhà vua nằm nghỉ; mặt trời bị nhật thực che dần giữa ban ngày; thái tử đứng bên ngoài.
 

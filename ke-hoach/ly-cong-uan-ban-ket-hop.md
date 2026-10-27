@@ -86,15 +86,15 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 **Âm thanh:** Nhạc tối dần, im lặng khi nhật thực.
 
-## Chương 11: Cánh cửa Quảng Phúc (đoạn 18114–18125)
+## Chương 11: Cánh cửa Quảng Phúc (đoạn 18114–18127)
 
-**Lời kể:** Nhà Lý chưa kịp lo xong tang lễ, mối nguy đã nổ ra ngay trong hoàng tộc. Điểm mai phục chính là cửa Quảng Phúc, cánh cửa phía tây do chính vua cha dựng. Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đem quân giấu sẵn trong thành, định bất ngờ tấn công thái tử Lý Phật Mã. Thái tử đi vào từ cửa Tường Phù. Đến điện Càn Nguyên, ông phát hiện có âm mưu nổi loạn, liền ra lệnh đóng chặt các cửa và bố trí phòng giữ. Ông không muốn anh em giết nhau khi linh cữu vua cha còn chưa được an táng. Vì thế thái tử đành mặc áo tang đứng hầu, giao toàn quyền quyết định cho các quan. Viên nội thị Lý Nhân Nghĩa cùng các quan lạy hai lạy, rồi lập tức mở cửa cho lính canh trong cung xông ra. Hai bên giao chiến mãi chưa phân thắng bại, thì tướng Lê Phụng Hiểu rút gươm, chạy thẳng tới cửa Quảng Phúc. Ông xông thẳng ra ngoài, bắt và giết Vũ Đức Vương. Quân phản loạn thua chạy, và Lê Phụng Hiểu vẫn mặc nguyên áo giáp vào báo tin thắng trước linh cữu vua cha. Rồi ông sang điện Càn Nguyên báo cho thái tử, và sau đó thái tử lên ngôi, tức vua Lý Thái Tông.
+**Lời kể:** Nhà Lý chưa kịp lo xong tang lễ, mối nguy đã nổ ra ngay trong hoàng tộc. Điểm mai phục chính là cửa Quảng Phúc, cánh cửa phía tây do chính vua cha dựng. Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đem quân giấu sẵn trong thành, định bất ngờ tấn công thái tử Lý Phật Mã. Thái tử đi vào từ cửa Tường Phù. Đến điện Càn Nguyên, ông phát hiện có âm mưu nổi loạn, liền ra lệnh đóng chặt các cửa và bố trí phòng giữ. Ông không muốn anh em giết nhau khi linh cữu vua cha còn chưa được an táng. Vì thế thái tử đành mặc áo tang đứng hầu, giao toàn quyền quyết định cho các quan. Viên nội thị Lý Nhân Nghĩa cùng các quan lạy hai lạy, rồi lập tức mở cửa cho lính canh trong cung xông ra. Hai bên giao chiến mãi chưa phân thắng bại, thì tướng Lê Phụng Hiểu rút gươm, chạy thẳng tới cửa Quảng Phúc. Ông xông thẳng ra ngoài, bắt và giết Vũ Đức Vương. Quân phản loạn thua chạy, cuộc nổi loạn bị dẹp yên. Lê Phụng Hiểu vẫn mặc nguyên áo giáp, vào báo tin thắng trước linh cữu vua cha. Sau đó ông sang điện Càn Nguyên báo cho thái tử. Thái tử lên ngôi, tức vua Lý Thái Tông.
 
 **Hình ảnh:** Quân nấp sau cánh cửa phía tây (chỉ thấy bóng và cờ để trơn); thái tử vào điện Càn Nguyên, cửa điện đóng; hai bên đối mặt qua sân; tướng Lê Phụng Hiểu chạy tới cửa; ngựa quỵ xuống; quân bỏ chạy. Không vẽ máu, không vẽ cảnh chém giết.
 
 **Âm thanh:** Nhạc dồn dập, tiếng bước chân và trống; tiếng ngựa; im lặng khi thái tử mặc áo tang.
 
-## Chương 12: Kết (đoạn 18126–18133)
+## Chương 12: Kết (đoạn 18128–18135)
 
 **Lời kể:** Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ. Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. Nhưng đến ngày ấy, kinh đô do ông dựng vẫn đứng vững. Cuộc tranh ngôi trong hoàng tộc đã kết thúc ngay tại cánh cửa phía tây mà ông từng dựng. Mười tám năm trước, ông chỉ hỏi các quan một câu, rằng nếu chọn Đại La làm kinh đô thì mọi người nghĩ thế nào. Từ câu hỏi ấy, nhà Lý có một kinh đô để giữ ngôi hơn hai trăm năm. Còn cái tên Thăng Long thì sống lâu hơn cả triều đại của ông.
 

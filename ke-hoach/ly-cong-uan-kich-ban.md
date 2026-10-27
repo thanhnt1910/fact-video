@@ -173,7 +173,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18067 | Lá chiếu dời đô | Chiếu mở đầu bằng chuyện xưa của Trung Hoa, rằng nhà Thương năm lần dời đô và nhà Chu ba lần, để mưu nghiệp lớn cho con cháu muôn đời. |  |
 | 18068 | Lá chiếu dời đô | Còn nhà Đinh và nhà Tiền Lê thì cứ yên đóng đô một chỗ, nên vận nước ngắn ngủi và trăm họ hao tổn. |  |
 | 18069 | Lá chiếu dời đô | Chiếu tả Đại La có thế đất như rồng cuộn hổ ngồi, rộng mà bằng phẳng, cao mà sáng sủa, muôn vật đều tươi tốt. |  |
-| 18070 | Lá chiếu dời đô | Cuối chiếu, ông không ra lệnh mà hỏi bầy tôi rằng nhân thế đất tốt ấy mà định nơi ở, các quan nghĩ thế nào? |  |
+| 18070 | Lá chiếu dời đô | Cuối chiếu, ông không ra lệnh mà hỏi bầy tôi rằng ông muốn chọn vùng đất tốt ấy làm nơi đóng đô, các quan nghĩ thế nào? |  |
 | 18071 | Lá chiếu dời đô | Bầy tôi đáp rằng nhà vua lập kế lâu dài cho thiên hạ, điều lợi như thế thì ai dám không theo. |  |
 | 18072 | Lá chiếu dời đô | Nhà vua rất mừng. |  |
 | 18073 | Con thuyền dưới chân thành | Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư, đi thuyền ra Đại La. | 1010: tháng 7 âm = 13/8–10/9/1010 |
@@ -242,6 +242,6 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18136 | Kết | Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. | 1028: 31/3/1028 |
 | 18137 | Kết | Nhưng đến ngày ấy, kinh đô do ông dựng vẫn đứng vững, và ngôi vua vẫn được truyền cho con. |  |
 | 18138 | Kết | Cuộc tranh ngôi trong hoàng tộc đã kết thúc ngay tại cánh cửa phía tây mà ông từng dựng. |  |
-| 18139 | Kết | Mười tám năm trước, ông chỉ hỏi bầy tôi một câu, rằng nhân đất tốt ấy mà định nơi ở thì các quan nghĩ thế nào. |  |
+| 18139 | Kết | Mười tám năm trước, ông chỉ hỏi bầy tôi một câu, rằng nếu chọn vùng đất tốt ấy làm kinh đô thì các quan nghĩ thế nào. |  |
 | 18140 | Kết | Từ câu hỏi ấy, nhà Lý có một kinh đô để giữ ngôi hơn hai trăm năm. |  |
 | 18141 | Kết | Còn cái tên Thăng Long mà ông đặt cho nơi con thuyền dừng lại thì sống lâu hơn cả triều đại của ông. |  |

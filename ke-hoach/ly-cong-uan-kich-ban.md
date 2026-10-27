@@ -9,7 +9,7 @@ Mã `ly1`, 116 đoạn (18001–18116), 3,105 chữ, khoảng 17.2 phút ở 3 c
 - **Mở đầu bằng cảnh năm 1028 ở cánh cửa Quảng Phúc:** ba vương nấp sau cánh cửa chờ thái tử. Đây là sự kiện có thật, được kể đầy đủ ở chương "Cánh cửa Quảng Phúc". Hook chỉ nêu mối nguy và câu hỏi vì sao vua cha bỏ kinh đô cũ để dựng cánh cửa ấy; không lộ kết cục.
 - **Không dùng cầu nối "Muốn trả lời, ta phải bắt đầu từ..."** như video Lê Hoàn. Chuyển sang quá khứ bằng một câu tương phản: "Người dựng nó đã lớn lên bên một thiền sư chứ không phải trong cung điện."
 - **Thân bài đúng thứ tự thời gian** (974, 1005, 1009, 1010, 1011–1015, 1028), mỗi chương gắn với một nơi chốn: Cổ Pháp, cửa cung nhà Lê, chính điện, Hoa Lư, Đại La, thuyền dưới chân thành, bốn cửa và các điện, điện Long An.
-- **Một câu báo trước** ở chương dựng thành ("Hãy nhớ cánh cửa phía tây ấy, vì mười tám năm sau hai người con của ông sẽ nấp sau nó") và **kết quay lại đúng cánh cửa** mở đầu. Kết không bình luận, chỉ nối các sự việc: ông dựng cửa năm 1010, đến 1028 cửa ấy là nơi cuộc tranh ngôi kết thúc.
+- **Một câu báo trước** ở chương dựng thành ("Hãy nhớ cánh cửa phía tây ấy, vì mười tám năm sau sẽ có hai vị vương nấp sau nó") và **kết quay lại đúng cánh cửa** mở đầu. Kết không bình luận, chỉ nối các sự việc: ông dựng cửa năm 1010, đến 1028 cửa ấy là nơi cuộc tranh ngôi kết thúc.
 - **Đoạn viết liền mạch:** mỗi đoạn 2 vế, câu sau nêu lý do hoặc hệ quả của câu trước; không còn dòng cụt đứng riêng.
 - **Toàn bộ tone `story`** (không trộn `tense`/`reflect`) để giọng Gemini không trôi cao độ giữa các lượt gọi (nguyên nhân xem ghi chú giọng ở cuối).
 - **Không có câu đùa, không có "tập sau".**
@@ -61,8 +61,8 @@ Những mốc chỉ có tháng thì lời kể nói đúng "tháng X âm lịch"
 
 ## Điểm cần chủ kênh duyệt (phần sáng tạo, ghi độ chắc)
 
-- **"Ba người em của thái tử", "hai người con của ông":** thái tử gọi ba vương là "anh em"; Dực Thánh Vương là con thứ theo chú thích; Vũ Đức Vương Toàn thư chú là "chưa rõ" thân thế. **Cần kiểm thêm** nếu muốn nói chắc "con của vua".
-- **Câu mở đầu đã viết lại (27/10/2026):** "Vua vừa mất, ba hoàng tử đem quân phục sẵn trong cung để cướp ngôi." (15 chữ, không ngày tháng, ai cũng hiểu: có vua chết, có người cướp ngôi). Câu sau cho biết đó là vua đầu tiên nhà Lý và ngày mất. Hình ảnh nhật thực chuyển về chương "Điện Long An" (nhật thực mồng 1 tháng 3 là có thật). Lý do: câu cũ "Hai ngày sau khi mặt trời tắt giữa ban ngày, nhà vua qua đời" không nói vua nào, chuyện gì, nên khó hiểu.
+- **Quan hệ của ba vương với vua (đã kiểm Toàn thư, 27/10/2026):** chỉ Đông Chinh Vương chắc là con vua (Toàn thư 1018: "phong Hoàng tử Lực làm Đông Chinh Vương"). Dực Thánh Vương: Đại Việt sử lược ghi là em của Lý Công Uẩn, còn Cương mục dẫn Nam Thiên trung nghĩa lục nói là con thứ, người biên dịch Toàn thư nghiêng về sử lược, nên chưa rõ. Vũ Đức Vương: chú thích Toàn thư ghi "chưa rõ", trước năm 1028 không thấy nhắc. Vì vậy lời kể **không còn gọi họ là con hay em của vua**, chỉ gọi là "ba vị vương trong hoàng tộc"; lời thái tử nói "anh em", "tình cốt nhục" vẫn giữ vì là lời chính thái tử trong sử.
+- **Câu mở đầu đã viết lại (27/10/2026):** "Vua vừa mất, ba vị vương đem quân phục sẵn trong cung để cướp ngôi." (15 chữ, không ngày tháng, ai cũng hiểu: có vua chết, có người cướp ngôi). Câu sau cho biết đó là vua đầu tiên nhà Lý và ngày mất. Hình ảnh nhật thực chuyển về chương "Điện Long An" (nhật thực mồng 1 tháng 3 là có thật). Lý do: câu cũ "Hai ngày sau khi mặt trời tắt giữa ban ngày, nhà vua qua đời" không nói vua nào, chuyện gì, nên khó hiểu.
 - **Hai câu của người kể ở phần kết:** "Không ai biết ông có nghĩ trước đến ngày ấy hay không" và "kinh đô ông dựng vẫn đứng vững, ngôi vua vẫn truyền được cho con". Đây là nối sự việc, không phải lời bình của sử gia; chủ kênh quyết định giữ hay bỏ.
 - **Câu báo trước "Hãy nhớ cánh cửa phía tây ấy"** là kỹ thuật kể, không thêm sự kiện.
 - **Ghi chú giọng:** đo cao độ Lê Hoàn cho thấy hai cụm đọc (đoạn 17041–17048 và 17089–17096) trôi trầm 9% và 16% so với phần còn lại; các cụm trộn tone bị chia thành 35 lượt gọi độc lập. Đinh Bộ Lĩnh (toàn `story`, đọc cụm 16) không bị. Vì vậy ly1 đọc toàn `story`, cụm 16, rồi chạy `phim_ban_do/kiem_cao_do.py`.
@@ -94,9 +94,9 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 
 | n | chương | lời | mốc ngày (Julian, tính lại) |
 |---|---|---|---|
-| 18001 | Cánh cửa phía tây | Vua vừa mất, ba hoàng tử đem quân phục sẵn trong cung để cướp ngôi. |  |
+| 18001 | Cánh cửa phía tây | Vua vừa mất, ba vị vương đem quân phục sẵn trong cung để cướp ngôi. |  |
 | 18002 | Cánh cửa phía tây | Đó là vị vua đầu tiên của nhà Lý, mất ngày mồng ba tháng ba âm lịch, tức ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám. | 1028: mồng 3 tháng 3 = 31/3/1028 |
-| 18003 | Cánh cửa phía tây | Các quan kéo đến cung Long Đức xin thái tử vâng di chiếu lên ngôi, còn ba người em của ông nghe tin liền đem quân vào phục sẵn trong thành. |  |
+| 18003 | Cánh cửa phía tây | Các quan kéo đến cung Long Đức xin thái tử vâng di chiếu lên ngôi, còn ba vị vương trong hoàng tộc nghe tin liền đem quân vào phục sẵn trong thành. |  |
 | 18004 | Cánh cửa phía tây | Một đạo quân nấp trong Long Thành, còn hai đạo kia nấp sau cánh cửa Quảng Phúc, cửa phía tây của kinh thành, chờ thái tử đến để đánh úp. |  |
 | 18005 | Cánh cửa phía tây | Cánh cửa ấy do chính vua cha dựng mười tám năm trước, trên một vùng đất mà ông đã phải rời bỏ cả kinh đô cũ để có được. |  |
 | 18006 | Cánh cửa phía tây | Vì sao một vị vua lại bỏ kinh đô đã đóng hơn bốn mươi năm, để dựng cánh cửa ấy ở một vùng đất mới bên sông? |  |
@@ -161,7 +161,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18065 | Bốn cánh cửa và các điện | Có tên rồi thì phải có cung điện, nên phía trước nhà vua dựng điện Càn Nguyên làm nơi coi chầu, hai bên là điện Tập Hiền và điện Giảng Võ. |  |
 | 18066 | Bốn cánh cửa và các điện | Sau điện Càn Nguyên là hai điện Long An và Long Thụy, nơi nhà vua nghỉ ngơi, rồi ông cho dựng kho tàng, đắp thành và đào hào. |  |
 | 18067 | Bốn cánh cửa và các điện | Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức. |  |
-| 18068 | Bốn cánh cửa và các điện | Hãy nhớ cánh cửa phía tây ấy, vì mười tám năm sau hai người con của ông sẽ nấp sau nó. |  |
+| 18068 | Bốn cánh cửa và các điện | Hãy nhớ cánh cửa phía tây ấy, vì mười tám năm sau sẽ có hai vị vương nấp sau nó. |  |
 | 18069 | Bốn cánh cửa và các điện | Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc, châu Cổ Pháp quê ông thành phủ Thiên Đức, còn thành Hoa Lư thành phủ Trường Yên. |  |
 | 18070 | Bốn cánh cửa và các điện | Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong, và nhân dịp ấy ông tha thuế cho cả nước ba năm. | 1010: tháng 12 âm = 7/1–5/2/1011 |
 | 18071 | Bốn cánh cửa và các điện | Những người mồ côi, góa chồng, già yếu mà còn thiếu thuế từ lâu cũng được tha hết, và cũng năm ấy nhà Tống phong ông làm Giao Chỉ quận vương. |  |
@@ -186,7 +186,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18090 | Điện Long An | Hai ngày sau, ngày ba mươi mốt tháng ba, nhà vua mất ngay tại điện Long An do chính ông dựng, thọ năm mươi lăm tuổi theo cách tính của người xưa. | 1028: ngày Mậu Tuất = 31/3/1028 |
 | 18091 | Điện Long An | Tính tròn thì ông hơn năm mươi bốn tuổi, ở ngôi mười tám năm và được an táng ở Thọ Lăng. |  |
 | 18092 | Cánh cửa Quảng Phúc | Nhà Lý chưa kịp lo xong tang lễ thì mối nguy đã nổ ra ngay trong hoàng tộc, đúng tại cánh cửa mà ta đã gặp lúc đầu. |  |
-| 18093 | Cánh cửa Quảng Phúc | Ba người em của thái tử Lý Phật Mã là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đã đem quân phủ mình vào ẩn sẵn trong thành. |  |
+| 18093 | Cánh cửa Quảng Phúc | Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đã đem quân phủ mình vào ẩn sẵn trong thành, chờ thái tử Lý Phật Mã. |  |
 | 18094 | Cánh cửa Quảng Phúc | Đông Chinh Vương nấp ở Long Thành, còn Dực Thánh Vương và Vũ Đức Vương nấp ở cửa Quảng Phúc, chờ thái tử đi qua để đánh úp. |  |
 | 18095 | Cánh cửa Quảng Phúc | Một lát sau thái tử đi vào từ cửa Tường Phù, và khi đến điện Càn Nguyên thì ông nhận ra có biến. |  |
 | 18096 | Cánh cửa Quảng Phúc | Ông cho đóng hết các cửa điện và sai lính canh trong cung phòng giữ, rồi nói rằng mình không hề phụ bạc anh em. |  |
@@ -209,4 +209,4 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18113 | Kết | Nhưng đến ngày ấy kinh đô ông dựng vẫn đứng vững, và ngôi vua vẫn truyền được cho con. |  |
 | 18114 | Kết | Nhà Lý giữ ngôi hơn hai trăm năm, còn cái tên Thăng Long mà ông đặt cho nơi con thuyền dừng lại cũng sống lâu hơn cả triều đại của ông. |  |
 | 18115 | Kết | Mười tám năm trước ông chỉ hỏi bầy tôi một câu, rằng nhân đất tốt ấy mà định nơi ở thì các khanh nghĩ thế nào. |  |
-| 18116 | Kết | Và ở cánh cửa Quảng Phúc, cánh cửa phía tây ông dựng, một cuộc tranh ngôi giữa chính các con ông đã kết thúc. |  |
+| 18116 | Kết | Và ở cánh cửa Quảng Phúc, cánh cửa phía tây ông dựng, một cuộc tranh ngôi ngay trong hoàng tộc của ông đã kết thúc. |  |

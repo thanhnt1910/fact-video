@@ -32,7 +32,7 @@ for b in kb:
     tempo = max(0.90, min(1.10, tempo))
     tmp = f'/tmp/_ch_{n}.wav'
     if str(n) in NOI:   # nối đuôi đoạn trước (phần sau mốc cắt) vào đầu đoạn này
-        pv = NOI[str(n)]; mc = TRIM[pv] * max(0.90, min(1.10, 1 / (wps[int(pv)] / med) if abs(wps[int(pv)] / med - 1) > 0.05 else 1.0))
+        pv, mc = NOI[str(n)]   # đoạn trước và mốc (giây trên bản thô) bắt đầu phần đuôi cần nối
         subprocess.run(['ffmpeg','-y','-v','error','-ss',f'{mc:.3f}','-i',f'{nguon}/{pv}.mp3','-i',src,'-filter_complex','[0][1]concat=n=2:v=0:a=1','-ar','24000','-ac','1',f'/tmp/_noi_{n}.wav'],check=True); src = f'/tmp/_noi_{n}.wav'
     pr = 1.0
     if f0[n] == f0[n] and abs(f0m / f0[n] - 1) > 0.03: pr = max(0.90, min(1.10, f0m / f0[n]))   # kéo cao độ từng đoạn về trung vị (tối đa 10%), giữ nguyên tốc độ

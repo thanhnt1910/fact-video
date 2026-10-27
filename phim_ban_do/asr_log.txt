@@ -1,10 +1,5 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/phim_ban_do/phude_asr.py", line 25, in <module>
-    if __name__ == '__main__': main()
-                               ^^^^^^
-  File "/home/runner/work/fact-video/fact-video/phim_ban_do/phude_asr.py", line 14, in main
-    hh = hashlib.md5(open(f'{vd}/{n}.mp3','rb').read()).hexdigest()
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'assets/thu_giong_hai/ly1_chuan/18013.mp3'
-LỖI 1
+20 134
+80 134
+120 134
+xong 134

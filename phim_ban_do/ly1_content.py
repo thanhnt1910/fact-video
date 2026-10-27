@@ -264,6 +264,7 @@ PROPS.append((R(134,0.3),R(134,3.5),'ping',DL[0],DL[1],'g',0.9))
 FOC=[]
 def SC(a,b,kind,pt,sc=1.0,o0=0.2):
     PROPS.append((R(a,o0),E(b,0),kind,pt[0],pt[1],'',sc));FOC.append((a,b,[pt],True))
+FOC.append((6,6,[H],True))
 SC(4,4,'canh_chua',CP)
 SC(24,24,'canh_ngoa_trieu',H)
 SC(40,40,'canh_van_tue',H)

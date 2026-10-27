@@ -104,9 +104,9 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 
 | n | chương | lời | mốc ngày (Julian, tính lại) |
 |---|---|---|---|
-| 18001 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba, dưới thời vua Đinh Bộ Lĩnh, một cậu bé ra đời. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
-| 18002 | Đứa trẻ bên nhà thiền sư | Nơi ấy là châu Cổ Pháp, một vùng đất nằm ở phía bắc sông Hồng. |  |
-| 18003 | Đứa trẻ bên nhà thiền sư | Hơn ba mươi năm sau, chính cậu bé ấy sẽ lên ngôi vua, mở đầu cho nhà Lý, và đó là Lý Công Uẩn. |  |
+| 18001 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba, dưới thời vua Đinh Bộ Lĩnh, tại châu Cổ Pháp, một vùng đất nằm ở phía bắc sông Hồng, một cậu bé ra đời. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
+| 18002 | Đứa trẻ bên nhà thiền sư | Hơn ba mươi năm sau, chính cậu bé đó sẽ lên ngôi vua, mở đầu cho nhà Lý. |  |
+| 18003 | Đứa trẻ bên nhà thiền sư | Cậu bé ấy tên là Lý Công Uẩn. |  |
 | 18004 | Đứa trẻ bên nhà thiền sư | Năm ba tuổi, Lý Công Uẩn được mẹ đưa đến nhà thiền sư Lý Khánh Văn, thiền sư nhận ông làm con nuôi và từ đó ông mang họ Lý. |  |
 | 18005 | Đứa trẻ bên nhà thiền sư | Ông lớn lên rất thông minh, lại có dáng người tuấn tú khác thường. |  |
 | 18006 | Đứa trẻ bên nhà thiền sư | Khi ông khoảng sáu tuổi, tướng Lê Hoàn lên thay nhà Đinh, mở ra triều Tiền Lê, và ông lớn lên dưới triều đại mới ấy. |  |

@@ -148,7 +148,7 @@ Hiện nay cờ chỉ là một cột với một mảnh tam giác phẳng (`fla
 - Cờ mọi bên đều để trơn một màu theo màu phe; không chữ, không hình trên cờ.
 
 ## 2d. Chân dung nhân vật (icon tròn xuất hiện khi nhắc tên lần đầu)
-Demo Lê Hoàn đã có sẵn cơ chế này: lệnh `FACE(n, giây, thời gian, tên, địa danh, loại, màu phe)` làm một huy hiệu tròn nảy lên cạnh địa danh, viền theo màu phe. Nếu có ảnh `assets/icon_nhan_vat/<tên không dấu>.jpg` thì dùng ảnh chân dung vẽ bằng AI; không có thì dùng hình khuôn vẽ phẳng theo vai trò (`king`, `general`, `lord`, `noble`, `youth`, `prince`, `child`, `servant`), kém nhận diện hơn. Đã có sẵn `lehoan.jpg` và `vuatong.jpg`; các nhân vật còn lại cần vẽ mới.
+Demo Lê Hoàn đã có sẵn cơ chế này: lệnh `FACE(n, giây, thời gian, tên, địa danh, loại, màu phe)` làm một huy hiệu tròn nảy lên cạnh địa danh, viền theo màu phe. Chủ kênh đã loại hình khuôn vẽ phẳng theo vai trò (27/10: xấu); video này chỉ dùng ảnh chân dung vẽ bằng AI `assets/icon_nhan_vat/<tên không dấu>.jpg`. Danh sách lệnh vẽ: `ke-hoach/nhan-vat/LY1F_anh.json` (16 chân dung và hai hình minh họa rồng vàng, quả khế). Đã có sẵn `lehoan.jpg` và `vuatong.jpg`; các nhân vật còn lại cần vẽ mới.
 
 | Nhân vật | Xuất hiện | Màu viền | Mô tả chân dung (ảnh minh họa, không phải khuôn mặt có thật) |
 |---|---|---|---|

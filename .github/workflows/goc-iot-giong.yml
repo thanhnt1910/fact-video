@@ -1,0 +1,52 @@
+name: Góc IoT - đọc giọng video 1-6
+
+on:
+  push:
+    branches: ["goc-iot-video-1-6"]
+    paths: ["goc-iot/chay-giong.txt"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: goc-iot-giong
+  cancel-in-progress: false
+
+jobs:
+  giong:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Đọc giọng Gemini
+        env:
+          GEMINI_MAX_WAIT: "2400"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+        run: |
+          set -o pipefail
+          mkdir -p goc-iot/logs
+          python goc-iot/tao_giong.py 2>&1 | tee goc-iot/logs/giong.txt
+      - name: Lưu giọng vào nhánh
+        if: always()
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add goc-iot/giong goc-iot/logs || true
+          git commit -q -m "Góc IoT: giọng đọc video 1-6 [skip ci]" || exit 0
+          git pull --rebase -q || true
+          git push -q

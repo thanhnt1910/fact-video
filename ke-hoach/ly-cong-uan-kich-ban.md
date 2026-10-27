@@ -1,6 +1,6 @@
 # Kịch bản Lý Công Uẩn: dời đô về Thăng Long (bản 2, hướng "Cánh cửa Quảng Phúc", để chủ kênh duyệt)
 
-Mã `ly1`, 136 đoạn (18001–18136), 2,774 chữ, khoảng 15.4 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
+Mã `ly1`, 133 đoạn (18001–18133), 2,666 chữ, khoảng 14.8 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
 
 **Nguồn đối chiếu:** toàn văn bản dịch Đại Việt sử ký toàn thư, lưu ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (kỷ nhà Lý, Thái Tổ Hoàng Đế, và đoạn năm 1028 ở cuối quyển II).
 
@@ -217,26 +217,23 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18111 | Điện Long An | Đến mồng một tháng ba, tức hai mươi chín tháng ba, mặt trời bị nhật thực che khuất giữa ban ngày. | 1028: mồng 1 tháng 3 (Bính Thân) = 29/3/1028 |
 | 18112 | Điện Long An | Hai ngày sau, ngày ba mươi mốt tháng ba, nhà vua mất ngay tại điện Long An do chính ông dựng, thọ năm mươi lăm tuổi theo cách tính của người xưa. | 1028: ngày Mậu Tuất = 31/3/1028 |
 | 18113 | Điện Long An | Tính theo ngày sinh thì ông mới hơn năm mươi bốn tuổi, ở ngôi mười tám năm và được an táng ở Thọ Lăng. |  |
-| 18114 | Cánh cửa Quảng Phúc | Nhà Lý chưa kịp lo xong tang lễ thì mối nguy đã nổ ra ngay trong hoàng tộc. |  |
-| 18115 | Cánh cửa Quảng Phúc | Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đem quân phủ mình vào ẩn trong thành, chờ đánh úp thái tử Lý Phật Mã. |  |
-| 18116 | Cánh cửa Quảng Phúc | Đông Chinh Vương nấp ở Long Thành, còn hai vương kia nấp ở cửa Quảng Phúc, cánh cửa phía tây do vua cha dựng. |  |
-| 18117 | Cánh cửa Quảng Phúc | Thái tử đi vào từ cửa Tường Phù, đến điện Càn Nguyên thì nhận ra có biến, liền cho đóng hết cửa điện và sai lính canh giữ. |  |
-| 18118 | Cánh cửa Quảng Phúc | Ông nói ba vương đã quên lời cha dặn mà định chiếm ngôi, rồi hỏi các quan nên làm thế nào. |  |
-| 18119 | Cánh cửa Quảng Phúc | Viên nội thị Lý Nhân Nghĩa xin đánh một trận, nhưng thái tử không chịu. |  |
-| 18120 | Cánh cửa Quảng Phúc | Ông nói vua cha vừa mất chưa kịp an táng mà anh em đã giết nhau thì muôn đời sẽ chê cười. |  |
-| 18121 | Cánh cửa Quảng Phúc | Ông muốn để ba vương tự rút quân, nhưng quân của họ lại vây càng gấp. |  |
-| 18122 | Cánh cửa Quảng Phúc | Thái tử nói rằng nếu thế thì ông chỉ còn biết mặc áo tang đứng hầu vua cha, còn mọi việc xin giao cho các quan. |  |
-| 18123 | Cánh cửa Quảng Phúc | Lý Nhân Nghĩa cùng các quan lạy hai lạy, nói rằng chết vì vua là bổn phận của họ, rồi ra lệnh mở cửa cho vệ sĩ xông ra đánh. |  |
-| 18124 | Cánh cửa Quảng Phúc | Hai bên giao chiến mãi chưa phân thắng bại, thì tướng Lê Phụng Hiểu tức giận rút gươm, chạy thẳng tới cửa Quảng Phúc. |  |
-| 18125 | Cánh cửa Quảng Phúc | Ông xông tới chỗ ngựa của Vũ Đức Vương, ngựa quỵ xuống, và Vũ Đức Vương bị bắt rồi bị giết. |  |
-| 18126 | Cánh cửa Quảng Phúc | Quân của ba vương thua chạy, chỉ có Đông Chinh Vương và Dực Thánh Vương thoát được. |  |
-| 18127 | Cánh cửa Quảng Phúc | Lê Phụng Hiểu mặc nguyên áo trận vào báo tin thắng trước linh cữu vua cha, rồi sang báo cho thái tử. |  |
-| 18128 | Cánh cửa Quảng Phúc | Thái tử khen Lê Phụng Hiểu còn trung dũng hơn Uất Trì Kính Đức, vị công thần nổi tiếng của nhà Đường, rồi lên ngôi, tức vua Lý Thái Tông. |  |
-| 18129 | Kết | Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. |  |
-| 18130 | Kết | Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ. |  |
-| 18131 | Kết | Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. | 1028: 31/3/1028 |
-| 18132 | Kết | Nhưng đến ngày ấy, kinh đô do ông dựng vẫn đứng vững. |  |
-| 18133 | Kết | Cuộc tranh ngôi trong hoàng tộc đã kết thúc ngay tại cánh cửa phía tây mà ông từng dựng. |  |
-| 18134 | Kết | Mười tám năm trước, ông chỉ hỏi các quan một câu, rằng nếu chọn Đại La làm kinh đô thì mọi người nghĩ thế nào. |  |
-| 18135 | Kết | Từ câu hỏi ấy, nhà Lý có một kinh đô để giữ ngôi hơn hai trăm năm. |  |
-| 18136 | Kết | Còn cái tên Thăng Long thì sống lâu hơn cả triều đại của ông. |  |
+| 18114 | Cánh cửa Quảng Phúc | Nhà Lý chưa kịp lo xong tang lễ, mối nguy đã nổ ra ngay trong hoàng tộc. |  |
+| 18115 | Cánh cửa Quảng Phúc | Điểm mai phục chính là cửa Quảng Phúc, cánh cửa phía tây do chính vua cha dựng. |  |
+| 18116 | Cánh cửa Quảng Phúc | Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đem quân giấu sẵn trong thành, định bất ngờ tấn công thái tử Lý Phật Mã. |  |
+| 18117 | Cánh cửa Quảng Phúc | Thái tử đi vào từ cửa Tường Phù. |  |
+| 18118 | Cánh cửa Quảng Phúc | Đến điện Càn Nguyên, ông phát hiện có âm mưu nổi loạn, liền ra lệnh đóng chặt các cửa và bố trí phòng giữ. |  |
+| 18119 | Cánh cửa Quảng Phúc | Ông không muốn anh em giết nhau khi linh cữu vua cha còn chưa được an táng. |  |
+| 18120 | Cánh cửa Quảng Phúc | Vì thế thái tử đành mặc áo tang đứng hầu, giao toàn quyền quyết định cho các quan. |  |
+| 18121 | Cánh cửa Quảng Phúc | Viên nội thị Lý Nhân Nghĩa cùng các quan lạy hai lạy, rồi lập tức mở cửa cho lính canh trong cung xông ra. |  |
+| 18122 | Cánh cửa Quảng Phúc | Hai bên giao chiến mãi chưa phân thắng bại, thì tướng Lê Phụng Hiểu rút gươm, chạy thẳng tới cửa Quảng Phúc. |  |
+| 18123 | Cánh cửa Quảng Phúc | Ông xông thẳng tới chỗ Vũ Đức Vương, và vương bị ông bắt giết. |  |
+| 18124 | Cánh cửa Quảng Phúc | Quân phản loạn thua chạy, và Lê Phụng Hiểu vẫn mặc nguyên áo giáp vào báo tin thắng trước linh cữu vua cha. |  |
+| 18125 | Cánh cửa Quảng Phúc | Rồi ông sang điện Càn Nguyên báo cho thái tử, và sau đó thái tử lên ngôi, tức vua Lý Thái Tông. |  |
+| 18126 | Kết | Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. |  |
+| 18127 | Kết | Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ. |  |
+| 18128 | Kết | Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. | 1028: 31/3/1028 |
+| 18129 | Kết | Nhưng đến ngày ấy, kinh đô do ông dựng vẫn đứng vững. |  |
+| 18130 | Kết | Cuộc tranh ngôi trong hoàng tộc đã kết thúc ngay tại cánh cửa phía tây mà ông từng dựng. |  |
+| 18131 | Kết | Mười tám năm trước, ông chỉ hỏi các quan một câu, rằng nếu chọn Đại La làm kinh đô thì mọi người nghĩ thế nào. |  |
+| 18132 | Kết | Từ câu hỏi ấy, nhà Lý có một kinh đô để giữ ngôi hơn hai trăm năm. |  |
+| 18133 | Kết | Còn cái tên Thăng Long thì sống lâu hơn cả triều đại của ông. |  |

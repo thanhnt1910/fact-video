@@ -226,7 +226,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18120 | Cánh cửa Quảng Phúc | Vì thế thái tử đành mặc áo tang đứng hầu, giao toàn quyền quyết định cho các quan. |  |
 | 18121 | Cánh cửa Quảng Phúc | Viên nội thị Lý Nhân Nghĩa cùng các quan lạy hai lạy, rồi lập tức mở cửa cho lính canh trong cung xông ra. |  |
 | 18122 | Cánh cửa Quảng Phúc | Hai bên giao chiến mãi chưa phân thắng bại, thì tướng Lê Phụng Hiểu rút gươm, chạy thẳng tới cửa Quảng Phúc. |  |
-| 18123 | Cánh cửa Quảng Phúc | Ông xông thẳng tới chỗ Vũ Đức Vương, và vương bị ông bắt giết. |  |
+| 18123 | Cánh cửa Quảng Phúc | Ông xông thẳng ra ngoài, bắt và giết Vũ Đức Vương. |  |
 | 18124 | Cánh cửa Quảng Phúc | Quân phản loạn thua chạy, và Lê Phụng Hiểu vẫn mặc nguyên áo giáp vào báo tin thắng trước linh cữu vua cha. |  |
 | 18125 | Cánh cửa Quảng Phúc | Rồi ông sang điện Càn Nguyên báo cho thái tử, và sau đó thái tử lên ngôi, tức vua Lý Thái Tông. |  |
 | 18126 | Kết | Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. |  |

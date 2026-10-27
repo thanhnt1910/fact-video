@@ -1,9 +1,9 @@
 [
  {
   "id": 1,
-  "tieu_de": "IoT là gì? Đèn nhà bạn bật từ xa thế nào?",
-  "mo_ta": "Bạn bấm một nút trên điện thoại, và chiếc đèn ở nhà bật sáng. Chuyện đó xảy ra thế nào?\n\nChiếc đèn là một thiết bị IoT. IoT là viết tắt của Internet of Things, nghĩa là những vật dụng được kết nối internet. Bên trong có một chip nhỏ để xử lý lệnh, một cách kết nối mạng như WiFi, và có thể thêm cảm biến.\n\nKhi bạn bấm nút, lệnh đi qua internet, thường qua máy chủ của hãng, về WiFi nhà bạn rồi tới chip trong bóng đèn.\n\nCách nhận biết: vật dụng nào có ứng dụng điều khiển trên điện thoại hoặc nối được WiFi thường là thiết bị IoT.\n\nNhà bạn có thiết bị nào như vậy? Bình luận cho Bóng biết nhé!",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #IoTLaGi"
+  "tieu_de": "Camera nhà bạn còn dùng mật khẩu mặc định?",
+  "mo_ta": "Camera hay bộ phát WiFi nhà bạn có thể đang dùng một mật khẩu mà ai cũng đoán được. Bạn đã đổi chưa?\n\nNhiều thiết bị khi xuất xưởng có sẵn tên đăng nhập và mật khẩu mặc định, ví dụ admin và admin. Những mật khẩu này in trong hướng dẫn sử dụng và có thể tra trên mạng.\n\nKẻ xấu dùng chương trình tự động dò hàng loạt thiết bị trên internet, và thử đúng những mật khẩu đó. Năm 2016, phần mềm độc hại Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách này.\n\nCách phòng: khi mới lắp, đổi ngay mật khẩu; đặt mật khẩu dài và không dùng lại ở nơi khác. Kiểm tra nhanh: nếu vẫn đăng nhập được bằng admin hoặc mật khẩu in trên nhãn, hãy đổi ngay.\n\nBạn đã đổi mật khẩu camera nhà mình chưa?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #MatKhau #Camera"
  },
  {
   "id": 2,

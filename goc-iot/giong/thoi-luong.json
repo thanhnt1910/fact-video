@@ -1,40 +1,4 @@
 {
- "v1_s1": {
-  "giay": 3.12,
-  "tu": 13,
-  "tu_moi_giay": 4.17,
-  "chu": "Bạn có từng bật đèn nhà mình từ xa bằng điện thoại chưa?"
- },
- "v1_s2": {
-  "giay": 4.16,
-  "tu": 13,
-  "tu_moi_giay": 3.12,
-  "chu": "Xin chào, mình là Bóng, chú bóng đèn thông minh của Góc IoT!"
- },
- "v1_s3": {
-  "giay": 8.04,
-  "tu": 20,
-  "tu_moi_giay": 2.49,
-  "chu": "IoT là viết tắt của Internet of Things: những vật dụng quen thuộc được gắn chip và kết nối mạng."
- },
- "v1_s4": {
-  "giay": 7.28,
-  "tu": 19,
-  "tu_moi_giay": 2.61,
-  "chu": "Đèn, camera, đồng hồ... đều có thể là IoT. Mỗi ngày Bóng sẽ kể một điều nhỏ về chúng."
- },
- "v1_s5": {
-  "giay": 3.6,
-  "tu": 11,
-  "tu_moi_giay": 3.06,
-  "chu": "Không cần giỏi kỹ thuật, chỉ cần tò mò là đủ!"
- },
- "v1_s6": {
-  "giay": 3.72,
-  "tu": 14,
-  "tu_moi_giay": 3.76,
-  "chu": "Bạn đang dùng thiết bị thông minh nào? Bình luận cho Bóng biết nhé!"
- },
  "v2_s1": {
   "giay": 3.68,
   "tu": 13,

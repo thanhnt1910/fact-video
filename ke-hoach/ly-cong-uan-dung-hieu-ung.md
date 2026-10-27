@@ -1,0 +1,112 @@
+# Lý Công Uẩn: kịch bản dựng video bản đồ (bản nháp để chủ kênh duyệt)
+
+Mã `ly1`, số câu 18001–18134 (134 đoạn), khoảng 14,6 phút (ước 3 chữ/giây; đo lại sau khi có giọng). Kiểu phim bản đồ động, giọng Puck, tiếng động mô phỏng, không nhạc nền. Mọi bố cục theo CLAUDE.md: không khung trích lời, ít banner, chữ nằm gọn trong khung 60–1860 px, chỉ một lớp chữ lớn mỗi lúc.
+
+## 1. Việc phải làm mới so với các video bản đồ trước
+| Việc | Chi tiết |
+|---|---|
+| Bản đồ nền | Các video cũ dùng nền Trung Hoa (`world4`). Video này cần nền vùng Đại Việt: đồng bằng sông Hồng, Thanh Hóa, Nghệ An, thêm một góc phía bắc (nhà Tống) và phía tây (Nam Chiếu). Zoom ra mức cả vùng, vào mức một khu thành. Tên địa danh chỉ dùng tên đương thời, không ghi tên tỉnh hiện nay. |
+| Địa danh (`LOC`) | Cổ Pháp, Hoa Lư, Đại La (sau đổi Thăng Long), Ái Châu, Diễn Châu, vùng biển Biện Sơn, bến Kim Hoa, Nam Chiếu, nhà Tống. Toạ độ chỉ gần đúng (Kim Hoa và Biện Sơn chưa chắc vị trí), ghi rõ khi giao. |
+| Sơ đồ khu thành | Một cảnh phóng to riêng của thành Thăng Long: bốn cửa (Tường Phù đông, Quảng Phúc tây, hai cửa còn lại), điện Càn Nguyên ở giữa, Tập Hiền và Giảng Võ hai bên, Long An và Long Thụy phía sau. Vẽ sơ đồ phẳng, cờ và biển để trơn, không chữ trên cờ. Dùng cho chương 8, 10, 11, 12. |
+| Hiệu ứng "hai lớp thời gian" | Ô năm góc trái chạy theo lời kể (974 → 1005 → 1009 → 1010 → 1028). Ngày âm kèm ngày dương chỉ hiện ở các mốc có trong lời kể. Ghi chú nhỏ "ngày dương lịch quy đổi theo lịch Julian" ở phần mô tả, không đưa lên màn hình. |
+| Logo | Logo cây đèn 130 px, góc trên bên phải, như `mapfilm3.py`. |
+| Mở và kết | Thẻ tiêu đề ở giây đầu (3–4 giây), kết bằng mờ dần, không thẻ HẾT. |
+
+## 2. Bảng hiệu ứng theo chương
+Ký hiệu: `NT` ghi chú nổi (tối đa 4 mỗi chương, mỗi cái tối đa 3,5 giây), `J` khung đùa (tối đa 2 mỗi chương, tối đa 3 giây, chỉ nhắm tình huống hoặc quân xâm lược, không đùa Lý Công Uẩn, không đùa các vua bị giết), `NU` thẻ số, `Q` đoạn giao tranh (ẩn NT, J, NU).
+
+### Chương 1: Đứa trẻ bên nhà thiền sư (18001–18012)
+- **Hình:** mở bằng toàn cảnh đồng bằng sông Hồng, zoom vào châu Cổ Pháp, một chấm sáng nhấp nháy khi đọc 18001. Ô năm: 974. Dưới thời Đinh Bộ Lĩnh hiện hai chữ "nhà Đinh" bằng nhãn nhỏ. Tua nhanh năm tháng khi đọc 18006: ô năm chạy 974 → 980 và lá cờ nhà Đinh đổi sang cờ nhà Tiền Lê (cờ để trơn một màu). 18007 chùa Lục Tổ hiện icon chùa.
+- **Câu 18011 (hook):** bản đồ tối đi nhẹ, icon cung điện Tiền Lê sáng lên, một dấu hỏi lớn mờ rồi tan; không thêm chữ.
+- **NT:** 18001 "ngày sinh: 12 tháng 2 âm lịch"; 18004 "năm ba tuổi"; 18007 "chuyện kể về sau, chưa chắc" (đúng với câu 18008); 18010 "quan võ nhà Tiền Lê".
+- **J:** không dùng (chương mở đầu nghiêm túc).
+- **Âm thanh:** chuông chùa khẽ, gió; im lặng nửa giây trước câu hook.
+
+### Chương 2: Người giữ cung nhà Lê (18013–18026)
+- **Hình:** bản đồ vào kinh đô Hoa Lư. Ô năm: 1005. Cảnh các hoàng tử tranh ngôi: ba icon hoàng tử chạm nhau, một bị mờ đi khi đọc 18016, chỉ dùng biểu tượng "thua" (cờ rũ), không máu, không đầu lâu. 18017: các icon quan chạy ra rìa, một icon ở lại giữa. 18019: thăng chức bằng thanh cấp bậc tăng.
+- **NT:** 18015 "tám tháng không có vua"; 18019 "chỉ huy quân bảo vệ vua"; 18025 "năm 1009" (mốc chết của Lê Long Đĩnh). Không thêm NT cho chuyện hạt mận.
+- **J (nhắm tình huống):** 18021 "Điềm báo từ quả khế" (chỉ nhắm vào chuyện mê tín, không chê người); bỏ nếu thấy nhạy.
+- **NU:** một thẻ "1005 → 1009" ở đầu chương.
+- **Âm thanh:** trống chậm, bước chân trong cung, tiếng đổ nhẹ khi 18016, im một nhịp ở câu 18017.
+
+### Chương 3: Lời nói khích và ngôi vua (18027–18047)
+- **Hình:** sơ đồ cung nội: hai đội 500 quân (Lý Công Uẩn và Nguyễn Đê) là hai cụm icon nhỏ cạnh ngai. 18030–18035 ban đêm (lớp tối `NIGHT`), hai icon người sát nhau dưới đèn dầu, không vẽ mặt. 18036–18038 các icon quan quây lại thành vòng tròn họp. 18039–18040 sáng dần, đoàn icon dìu một icon lên điện, hàng quan cúi.
+- **Q:** không có giao tranh. 18041 hiện ba chấm sáng "không có một trận đánh nào": chỉ là nhịp, không chữ.
+- **NT:** 18033 "người nói khích đầu tiên"; 18039 "21 tháng 11 âm lịch năm 1009"; 18042 "niên hiệu Thuận Thiên: thuận theo ý trời".
+- **J:** không dùng (tập trung nghe để hiểu).
+- **Âm thanh:** dế đêm, nhịp tim chậm ở 18032 và 18034; tiếng bước dìu và vải áo; sáng dần, tiếng hô "vạn tuế, vạn tuế" từ nhiều người (hạ nhỏ khi giọng đọc).
+
+### Chương 4: Hoa Lư không còn đủ (18048–18055)
+- **Hình:** hai khung so sánh: bên trái Hoa Lư giữa núi đá (núi vẽ đậm, đường vào hẹp), bên phải vùng đồng bằng mở rộng. 18049 hiện hai mũi tên: giặc khó vào, quân dễ giữ. 18054–18055 hai thanh thời gian ngắn: Đinh (hai vua), Tiền Lê (ba vua, 29 năm) hiện thành hai thanh.
+- **NU:** thẻ số hai/ba/29 nhỏ đúng lúc đọc 18055 (không trùng NT).
+- **NT:** 18049 "ưu: dễ phòng thủ"; 18052 "nhược: chật và ẩm thấp".
+- **Âm thanh:** gió núi, tiếng vọng hang đá; nhịp suy tính đều.
+
+### Chương 5: Đại La bên sông (18056–18063)
+- **Hình:** camera chạy từ Hoa Lư sang Đại La theo đường nét đứt, sông Hồng hiện sáng; 18057 hiện tường thành cũ, ô năm lùi 866. 18060 thuyền bè nhiều nơi cập bến (ba bốn icon thuyền). 18062 hai icon "bỏ cung cũ, dựng lại" (cung cũ mờ, khung nền mới hiện). 
+- **NT:** 18057 "thành do Cao Biền đắp năm 866"; 18060 "sông, thuyền, đất rộng".
+- **Âm thanh:** nước sông, mái chèo, tiếng chim nước.
+
+### Chương 6: Lá chiếu dời đô (18064–18071)
+- **Hình:** thẻ vua ngồi trước cuộn thẻ tre (không chữ đọc được). 18064 ghé Cổ Pháp: icon dân làng, tặng tiền lụa cho cụ già. 18065 icon sứ giả đi lên phía bắc đến nhà Tống. 18066–18068 ba biểu tượng lần lượt: chuyện nhà Thương, nhà Chu (hai cuộn), rồi hình rồng cuộn hổ ngồi vẽ cách điệu. 18069 vua đứng, các quan cúi; 18070 các quan cúi đầu; 18071 một nhịp sáng ấm.
+- **NT:** 18066 "nhà Thương dời đô 5 lần, nhà Chu 3 lần"; 18069 "vua hỏi chứ không ra lệnh".
+- **J:** không dùng.
+- **Âm thanh:** cọ viết khẽ, lật thẻ tre; giọng kể chậm lại ở 18069.
+
+### Chương 7: Con thuyền dưới chân thành (18072–18075)
+- **Hình:** ô năm 1010, 18072 hiện cả ngày âm lẫn "khoảng tháng tám dương lịch". Đoàn thuyền rẽ sóng, ánh vàng chạy trên mặt nước khi đọc 18073, kèm nhãn nhỏ "theo lời kể" (đúng với câu 18074). 18075: nhãn "Đại La" mờ đi, nhãn "Thăng Long" sáng lên (đổi tên). Thẻ tiêu đề nhỏ chỉ 2 giây.
+- **Âm thanh:** sóng, mái chèo, trống thuyền; tiếng vang nhẹ khi rồng "hiện" (chỉ nửa giây).
+
+### Chương 8: Bốn cánh cửa và các điện (18076–18086)
+- **Hình:** chuyển sang sơ đồ khu thành. Điện Càn Nguyên hiện đầu tiên, rồi Tập Hiền, Giảng Võ; Long An, Long Thụy phía sau (18076–18077). Kho tàng, tường thành, hào nước đào (18078). Bốn cửa hiện theo bốn hướng (18079), cửa tây sáng nhẹ ở 18080 rồi tắt. 18082 hai nhãn đổi tên: Cổ Pháp → phủ Thiên Đức, Hoa Lư → phủ Trường Yên. 18083–18084 thuế: biểu tượng túi thóc biến mất, 18085 cờ nhà Tống trao ấn cho ông.
+- **NT:** 18079 "Tường Phù (đông), Quảng Phúc (tây)"; 18083 "miễn thuế ba năm"; 18085 "nhà Tống phong Giao Chỉ quận vương".
+- **NU:** không dùng.
+- **Âm thanh:** búa, đục, xe chở đá; cuối chương nhạc không có, chỉ tiếng chuông khi cửa tây sáng.
+
+### Chương 9: Những năm trị vì (18087–18106)
+- **Hình:** bản đồ cả nước. 18088 mười đạo thành hai mươi bốn lộ: mười vùng tách thành hai mươi bốn ô nhỏ. 18089–18091 quân đi đánh Cử Long ở Ái Châu (hai cụm icon đối diện, quân Đại Việt tiến, bộ lạc cháy nhẹ rồi quân giặc tan). 18092–18096 hành quân về Diễn Châu, biển Biện Sơn tối sầm, sấm chớp, vua đốt hương (icon vua đứng một mình trên thuyền, trời tối rồi sáng, đúng với "người ta kể"). 18098–18101 Nam Chiếu đóng trại ở Kim Hoa, Dực Thánh Vương tiến quân thắng, quân đối phương chạy (chuyển xám, cờ rũ, "THUA TRẬN"). 18102 ngựa bắt được dẫn sang nhà Tống. 18103–18105 chùa, tiếng chuông, đoàn người đi tu.
+- **Q:** (18089, 18091), (18098, 18101): ẩn NT, J, NU. Chỉ giữ phụ đề và nhãn quân.
+- **NT (ngoài Q):** 18088 "10 đạo → 24 lộ"; 18090 "hai triều trước không đánh nổi"; 18094 "theo lời kể: gió sấm yên".
+- **J (nhắm quân xâm lược, tối đa 2):** 18101 "Nam Chiếu đến lấy ngựa, về mất cả ngựa"; chưa chắc nên chỉ dùng nếu chủ kênh duyệt.
+- **NU:** một thẻ ở 18098: "năm 1014".
+- **Âm thanh:** trống trận, vó ngựa, tiếng sấm (18093), chuông chùa (18103–18105).
+
+### Chương 10: Điện Long An (18107–18112)
+- **Hình:** sơ đồ thành buổi chiều, đèn dầu lên dần. Ô năm: 1028. 18108 icon thái tử đứng bên ngoài. 18110 nhật thực: một vòng tròn đen che dần mặt trời ở rìa màn hình, khung hình tối nhẹ. 18111 ngôi điện sáng một lần rồi dịu. Không vẽ cảnh nằm hay cảnh chết.
+- **NT:** 18110 "nhật thực 29 tháng 3"; 18112 "ở ngôi 18 năm". 
+- **Âm thanh:** gió, chuông xa; tắt hết tiếng động ở 18110 (im lặng thật), giọng kể trầm chậm; sau 18112 một nhịp lặng rồi vào chương sau.
+
+### Chương 11: Cánh cửa Quảng Phúc (18113–18126)
+- **Hình:** sơ đồ khu thành, Quảng Phúc ở rìa tây. 18114–18115 ba cụm quân nhỏ giấu sau cổng (chỉ thấy bóng và cờ trơn, đúng với "ba vương đem quân giấu sẵn"). 18116 thái tử đi vào cửa Tường Phù, đường nét sáng. 18117 cửa đóng, quân bố trí quanh điện. 18118–18119 thái tử mặc áo tang đứng hầu, ánh sáng dịu. 18120 cổng mở, lính cung xông ra; 18121 hai bên đối mặt giữa sân, icon Lê Phụng Hiểu chạy tới cửa; 18122 Vũ Đức Vương: chỉ dùng biểu tượng "BỊ DIỆT" mờ, không đầu lâu rõ, không mô phỏng chém giết; 18123 quân phản loạn chạy, chuyển xám cờ rũ. 18124–18125 icon tướng vẫn mặc giáp bước vào điện báo tin, rồi sang điện Càn Nguyên. 18126 thái tử bước lên ngai, dải sáng chạy ngang.
+- **Q:** (18117, 18123): ẩn NT, J, NU, chỉ còn phụ đề và nhãn quân.
+- **NT (ngoài Q):** 18113 "tang lễ chưa xong"; 18126 "Lý Thái Tông". Chỉ hai cái.
+- **J:** không dùng (cảnh đau thương trong hoàng tộc, không đùa).
+- **Âm thanh:** trống dồn nhưng đều; bước chân, cửa gỗ nặng đóng mở; vó ngựa (18121) hạ nhỏ; tắt hết khi 18119 (áo tang); sau 18123 mọi tiếng tắt đột ngột, chỉ còn chuông.
+
+### Chương 12: Kết (18127–18134)
+- **Hình:** sơ đồ thành, bốn nơi sáng lần lượt đúng thứ tự trong 18127: Tường Phù, Quảng Phúc, Càn Nguyên, Long An. Ô năm: 1010 rồi nhảy 1028 khi đọc 18129. 18130–18131 cửa tây sáng, một dòng sáng nối tới điện Càn Nguyên. 18132 hiện lại chữ nhỏ "Đại La?" mờ rồi tan. 18133 ô năm chạy tới đầu thế kỷ mười ba (hơn hai trăm năm nhà Lý). 18134 camera kéo ra cao dần: toàn cảnh Thăng Long nhìn từ trên cao, thuyền trên sông, nhãn "Thăng Long" sáng nhất rồi mờ dần ra kết.
+- **NT:** 18133 "hơn 200 năm" (một cái duy nhất). Không thẻ HẾT.
+- **Âm thanh:** sóng sông trở lại; giọng kể chậm ở 18134; mờ dần cả hình lẫn tiếng.
+
+## 3. Quy tắc chung của video này
+1. **Không đùa các anh hùng và nhân vật chính:** chỉ khung đùa nhắm vào tình huống hoặc quân xâm lược; không đùa Lý Công Uẩn, Lý Thái Tông, Lý Phật Mã, Đào Cam Mộc, Lê Phụng Hiểu, Lê Hoàn; không đùa cái chết hay bệnh tật của Lê Long Đĩnh.
+2. **Không máu, không cảnh giết:** chết/thua dùng cờ rũ, chuyển xám, "THUA TRẬN" hoặc "BỊ DIỆT" nhỏ; tránh đầu lâu to.
+3. **Truyền thuyết có nhãn:** rồng vàng (18073), gió sấm yên sau lời khấn (18096), lời sư Vạn Hạnh (18007): luôn có nhãn nhỏ "theo lời kể" hoặc "chưa chắc", đúng với câu trong lời kể.
+4. **Ghi chú nổi:** tổng cộng khoảng 25–30 cái cho cả video, mỗi cái tối đa 3,5 giây, không đặt trong đoạn `Q`.
+5. **Khung đùa:** tối đa 2 cái mỗi chương, thực tế đề xuất chỉ 1–2 cái cho cả video (chương 2 và chương 9), chủ kênh duyệt.
+6. **Bố cục:** nhãn quân và nhãn thành dùng `soff` để không đè nhau; quân đứng yên `spread` 0,45–0,6; thẻ nhân vật chỉ ở lần xuất hiện đầu (Lý Công Uẩn, Lê Long Đĩnh, Đào Cam Mộc, Lê Phụng Hiểu, Lý Phật Mã).
+7. **Màu phe:** Đại Việt (nhà Lê rồi nhà Lý) xanh lá, giữ cùng một màu qua đổi triều và chỉ đổi phù hiệu; nhà Tống đỏ; Nam Chiếu tím; giặc Cử Long xám nâu; quân phản loạn cam (chỉ ở chương 11).
+8. **Chữ trong khung:** mọi thẻ tự xuống dòng hoặc thu nhỏ, lề tối thiểu 60 px; kiểm hộp bao chữ trước khi dựng.
+
+## 4. Quy trình sau khi chủ kênh duyệt (không tự chạy workflow)
+1. Viết `phim_ban_do/ly1_content.py` theo mẫu `hs1_content.py`.
+2. Chạy `kiem_kich_ban.py ly1` (còn đoạn 18001 dài 45 chữ, quyết định giữ hay tách).
+3. Chủ kênh bảo mới chạy giọng (`cum.txt`, tone `story`), nhận dạng, `kiem_giong.py`, chuẩn hóa âm lượng và tốc độ, `phude_tinh.py`.
+4. Xem các khung hình thật (đầu, giữa, nhiều quân nhất, câu cuối) bằng `mapfilm3.py still`.
+5. Dựng, rồi `kiem_video.py` đến khi không còn ❌; đo thời lượng thật (≥ 10 phút), làm bìa có logo.
+
+## 5. Điểm cần chủ kênh quyết
+- Có dùng hai khung đùa (câu 18021 chuyện quả khế, câu 18101 Nam Chiếu mất ngựa) hay không dùng khung đùa nào.
+- Câu hook 18011: giữ một dấu hỏi mờ hay để hoàn toàn không hiệu ứng.
+- Vị trí gần đúng của Kim Hoa, Biện Sơn có chấp nhận ghi "vị trí gần đúng".
+- Có thêm một lớp tua nhanh năm tháng ở chương 1 hay giữ ô năm đơn giản.

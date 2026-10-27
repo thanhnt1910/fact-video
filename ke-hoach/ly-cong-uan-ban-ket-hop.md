@@ -54,15 +54,15 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 **Âm thanh:** Giọng kể trầm, tiếng cọ viết khẽ.
 
-## Chương 7: Con thuyền dưới chân thành (đoạn 18073–18077)
+## Chương 7: Con thuyền dưới chân thành (đoạn 18073–18076)
 
-**Lời kể:** Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư, đi thuyền ra Đại La. Thuyền vừa dừng dưới chân thành thì có người kể rằng một con rồng vàng hiện lên. Không ai chứng minh được điều đó, nhưng người xưa tin rằng đây là dấu hiệu trời chọn nơi này và chọn vị vua ấy. Nhà vua liền đổi tên Đại La thành Thăng Long, nghĩa là rồng bay lên. Cái tên do chính ông đặt ấy sống lâu hơn cả triều đại nhà Lý.
+**Lời kể:** Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư, đi thuyền ra Đại La. Thuyền vừa dừng dưới chân thành thì có người kể rằng một con rồng vàng hiện lên. Không ai chứng minh được điều đó, nhưng người xưa tin rằng đây là dấu hiệu trời chọn nơi này và chọn vị vua ấy. Nhà vua liền đổi tên Đại La thành Thăng Long, nghĩa là rồng bay lên.
 
 **Hình ảnh:** Đoàn thuyền rẽ sóng trên sông Hồng; thuyền dừng dưới chân thành; hiệu ứng rồng vàng nhẹ trên mặt nước, ghi chú trên màn hình: theo lời kể.
 
 **Âm thanh:** Tiếng sóng, tiếng rồng xa; nhạc hùng tráng.
 
-## Chương 8: Bốn cánh cửa và các điện (đoạn 18078–18088)
+## Chương 8: Bốn cánh cửa và các điện (đoạn 18077–18087)
 
 **Lời kể:** Sau khi dời đô, nhà vua dựng điện Càn Nguyên ở phía trước làm nơi họp triều, hai bên là điện Tập Hiền và điện Giảng Võ. Sau điện Càn Nguyên là hai điện Long An và Long Thụy, nơi nhà vua nghỉ ngơi. Rồi ông cho dựng kho tàng, đắp thành và đào hào. Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức. Không ai ngờ cánh cửa phía tây ấy sẽ còn chứng kiến một biến cố lớn. Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc. Châu Cổ Pháp quê ông thành phủ Thiên Đức, còn Hoa Lư thành phủ Trường Yên. Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong, và nhân dịp ấy ông tha thuế cho cả nước ba năm. Những người mồ côi, góa chồng, già yếu mà còn thiếu thuế từ lâu cũng được tha hết. Cũng năm ấy nhà Tống phong ông làm Giao Chỉ quận vương. Vậy là kinh đô mới vừa dựng đã được nước láng giềng phương bắc công nhận.
 
@@ -70,7 +70,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 **Âm thanh:** Nhạc tươi sáng; tiếng búa, tiếng thợ.
 
-## Chương 9: Những năm trị vì (đoạn 18089–18108)
+## Chương 9: Những năm trị vì (đoạn 18088–18107)
 
 **Lời kể:** Dời đô chỉ là bước đầu, vì kinh đô chỉ vững khi cả đất nước cũng vững. Vì thế ngay năm ấy ông đổi mười đạo thành hai mươi bốn lộ, tức chia đất nước thành các vùng nhỏ hơn cho dễ cai quản. Tháng hai âm lịch năm một nghìn không trăm mười một, ông đem quân đi đánh giặc Cử Long ở Ái Châu. Hai triều Đinh và Tiền Lê đều không đánh nổi bọn giặc này. Nhưng lần ấy nhà vua đốt các bộ lạc của chúng và bắt kẻ đầu sỏ, nên giặc tan. Năm một nghìn không trăm mười hai ông thân chinh đi đánh Diễn Châu. Trên đường về, đến vùng biển Biện Sơn, trời đất bỗng tối sầm, gió sấm dữ dội. Nhà vua đốt hương khấn rằng mình là người ít đức, không dám cậy binh uy mà đánh bừa, chỉ vì Diễn Châu làm điều tàn ngược nên buộc phải đánh. Ông xin rằng nếu lỡ giết oan người hiền thì trời cứ trách riêng mình. Người ta kể rằng khấn xong gió sấm đều yên lặng. Sau chiến trận ông lo việc trong nước, và năm một nghìn không trăm mười ba ông định ra các thứ thuế, chia làm sáu loại. Đến tháng giêng âm lịch năm một nghìn không trăm mười bốn, quân của nước Nam Chiếu ở phía tây bắc kéo rất đông vào cướp. Họ đóng trại ở bến Kim Hoa. Nhà vua sai Dực Thánh Vương, một vị vương trong hoàng tộc, đem quân đánh thắng lớn. Quân của nhà vua bắt được rất nhiều quân và ngựa của đối phương. Ông cho đem một trăm con ngựa bắt được sang biếu nhà Tống, và vua Tống ban thưởng mũ, đai, tiền bạc cho sứ giả. Bên cạnh việc quân, nhà vua dốc sức cho Phật giáo. Ông cho xây nhiều chùa, đúc chuông, chép kinh Tam tạng, và cho hơn một nghìn người ở kinh đô đi tu. Điều ấy không lạ, vì ông từng lớn lên bên nhà thiền sư và suốt thời trị vì vẫn coi trọng đạo Phật. Tháng giêng âm lịch năm một nghìn không trăm mười lăm, Đào Cam Mộc, người từng khuyên ông lên ngôi, qua đời và được tặng chức Thái sư á vương.
 
@@ -78,7 +78,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 **Âm thanh:** Nhạc khí thế, nhịp nhanh rồi chậm ở cảnh chùa.
 
-## Chương 10: Điện Long An (đoạn 18109–18114)
+## Chương 10: Điện Long An (đoạn 18108–18113)
 
 **Lời kể:** Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương. Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi, còn nhà vua bước vào năm cuối đời. Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, nhà vua không khỏe. Đến mồng một tháng ba, tức hai mươi chín tháng ba, mặt trời bị nhật thực che khuất giữa ban ngày. Hai ngày sau, ngày ba mươi mốt tháng ba, nhà vua mất ngay tại điện Long An do chính ông dựng, thọ năm mươi lăm tuổi theo cách tính của người xưa. Tính theo ngày sinh thì ông mới hơn năm mươi bốn tuổi, ở ngôi mười tám năm và được an táng ở Thọ Lăng.
 
@@ -86,7 +86,7 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 **Âm thanh:** Nhạc tối dần, im lặng khi nhật thực.
 
-## Chương 11: Cánh cửa Quảng Phúc (đoạn 18115–18134)
+## Chương 11: Cánh cửa Quảng Phúc (đoạn 18114–18133)
 
 **Lời kể:** Nhà Lý chưa kịp lo xong tang lễ thì mối nguy đã nổ ra ngay trong hoàng tộc. Nó nổ ra đúng tại cánh cửa Quảng Phúc, cửa phía tây do chính nhà vua vừa mất đã dựng. Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đã đem quân phủ mình vào ẩn sẵn trong thành, chờ thái tử Lý Phật Mã. Đông Chinh Vương nấp ở Long Thành, còn Dực Thánh Vương và Vũ Đức Vương nấp ở cửa Quảng Phúc, chờ thái tử đi qua để đánh úp. Một lát sau thái tử đi vào từ cửa Tường Phù, và khi đến điện Càn Nguyên thì ông nhận ra có biến. Ông cho đóng hết các cửa điện và sai lính canh trong cung phòng giữ, rồi nói rằng mình không hề phụ bạc anh em. Ông nói ba vương đã quên lời cha dặn mà định chiếm ngôi báu, và hỏi các quan xung quanh nên làm thế nào. Viên nội thị Lý Nhân Nghĩa xin cho đánh một trận để quyết thắng thua, nhưng thái tử chưa chịu. Thái tử im lặng hồi lâu rồi nói rằng vua cha vừa mất chưa kịp quàn mà anh em đã giết nhau thì muôn đời sẽ chê cười. Ông muốn che giấu tội của ba vương để họ tự rút quân, giữ trọn tình ruột thịt, nhưng quân của ba vương lại bao vây càng gấp. Lúc ấy thái tử nói rằng nếu thế thì ông chỉ còn biết mặc áo tang đứng hầu vua cha, còn mọi việc xin giao cho các quan. Lý Nhân Nghĩa cùng các quan lạy hai lạy, nói rằng chết vì vua gặp nạn là bổn phận của họ, rồi ra lệnh mở cửa cho vệ sĩ xông ra đánh. Vệ sĩ trong cung ai cũng vui lòng xông pha, mỗi người địch với trăm người, nhưng hai bên giao chiến mãi chưa phân thắng bại. Bỗng tướng Lê Phụng Hiểu tức giận rút gươm, chạy thẳng tới cửa Quảng Phúc. Ông hô lớn rằng Vũ Đức Vương nhòm ngó ngôi báu, trên quên ơn vua cha, dưới trái nghĩa tôi con. Rồi ông xông thẳng tới chỗ ngựa của Vũ Đức Vương, vương quay ngựa tránh nhưng ngựa quỵ xuống, và Vũ Đức Vương bị Lê Phụng Hiểu bắt giết. Quân của ba vương thua chạy, và chỉ có hai vương Đông Chinh cùng Dực Thánh thoát được. Lê Phụng Hiểu trở về, mặc nguyên áo trận vào báo tin thắng ngay trước linh cữu của vua cha, rồi sang điện Càn Nguyên báo cho thái tử. Thái tử khen rằng ông còn trung dũng hơn Uất Trì Kính Đức, vị công thần nổi tiếng của nhà Đường. Sau đó thái tử lên ngôi, và đó là vua Lý Thái Tông.
 
@@ -94,9 +94,9 @@ Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay v
 
 **Âm thanh:** Nhạc dồn dập, tiếng bước chân và trống; tiếng ngựa; im lặng khi thái tử mặc áo tang.
 
-## Chương 12: Kết (đoạn 18135–18141)
+## Chương 12: Kết (đoạn 18134–18141)
 
-**Lời kể:** Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ. Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. Nhưng đến ngày ấy kinh đô ông dựng vẫn đứng vững, và ngôi vua vẫn truyền được cho con. Nhà Lý giữ ngôi hơn hai trăm năm, còn cái tên Thăng Long mà ông đặt cho nơi con thuyền dừng lại cũng sống lâu hơn cả triều đại của ông. Mười tám năm trước ông chỉ hỏi bầy tôi một câu, rằng nhân đất tốt ấy mà định nơi ở thì các quan nghĩ thế nào. Và ở cánh cửa Quảng Phúc, cánh cửa phía tây ông dựng, một cuộc tranh ngôi ngay trong hoàng tộc của ông đã kết thúc.
+**Lời kể:** Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ. Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. Nhưng đến ngày ấy, kinh đô do ông dựng vẫn đứng vững, và ngôi vua vẫn được truyền cho con. Cuộc tranh ngôi trong hoàng tộc đã kết thúc ngay tại cánh cửa phía tây mà ông từng dựng. Mười tám năm trước, ông chỉ hỏi bầy tôi một câu, rằng nhân đất tốt ấy mà định nơi ở thì các quan nghĩ thế nào. Từ câu hỏi ấy, nhà Lý có một kinh đô để giữ ngôi hơn hai trăm năm. Còn cái tên Thăng Long mà ông đặt cho nơi con thuyền dừng lại thì sống lâu hơn cả triều đại của ông.
 
 **Hình ảnh:** Lần lượt các cửa Tường Phù, Quảng Phúc, điện Càn Nguyên, Long An; cuối cùng là thành Thăng Long nhìn từ trên cao, thuyền trên sông.
 

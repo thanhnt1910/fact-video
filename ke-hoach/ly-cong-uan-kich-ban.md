@@ -1,6 +1,6 @@
 # Kịch bản Lý Công Uẩn: dời đô về Thăng Long (bản 2, hướng "Cánh cửa Quảng Phúc", để chủ kênh duyệt)
 
-Mã `ly1`, 143 đoạn (18001–18143), 2,950 chữ, khoảng 16.4 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
+Mã `ly1`, 143 đoạn (18001–18143), 2,953 chữ, khoảng 16.4 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
 
 **Nguồn đối chiếu:** toàn văn bản dịch Đại Việt sử ký toàn thư, lưu ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (kỷ nhà Lý, Thái Tổ Hoàng Đế, và đoạn năm 1028 ở cuối quyển II).
 
@@ -99,6 +99,9 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 
 > Bản 7 (27/10): mở đầu theo ý chủ kênh: bắt đầu từ ngày sinh, "có một cậu bé ra đời ở châu Cổ Pháp", thêm bối cảnh nhà Đinh, Hoa Lư, rồi mới nói em bé ấy là Lý Công Uẩn.
 
+
+> Đối chiếu Toàn thư (27/10): "vua nối còn bé", "con nối thơ ấu" (Sạ là con trưởng, phong Khai Phong Vương năm 1006; sử không nói rõ có lên ngôi); các cung điện, bốn cửa thành chép liền sau việc dời đô tháng 7 năm 1010, không có tháng riêng; cung Thúy Hoa xong tháng 12.
+
 | n | chương | lời | mốc ngày (Julian, tính lại) |
 |---|---|---|---|
 | 18001 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba, có một cậu bé ra đời. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
@@ -125,10 +128,10 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18022 | Người giữ cung nhà Lê | Nhưng phục vụ vị vua mới không hề dễ, vì Lê Long Đĩnh thích giết người và nổi tiếng là một ông vua bạo ngược. |  |
 | 18023 | Người giữ cung nhà Lê | Có lần vua ăn quả khế thấy hạt mận, mà chữ Lý cũng có nghĩa là cây mận, nên vua tin đó là điềm báo người họ Lý sẽ làm vua. |  |
 | 18024 | Người giữ cung nhà Lê | Từ đó vua ngầm cho người tìm giết những người họ Lý. |  |
-| 18025 | Người giữ cung nhà Lê | Vậy mà Lý Công Uẩn ngày ngày đứng cạnh vua, mà vua không hề biết. |  |
+| 18025 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng ngay cạnh vua, vua vẫn không hề biết. |  |
 | 18026 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc bệnh trĩ nặng, phải nằm nghe việc triều đình, nên người đời gọi ông là Lê Ngọa Triều, nghĩa là vua nằm nghe việc nước. |  |
 | 18027 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, Lê Long Đĩnh qua đời. | 1009: ngày Tân Hợi = 19/11/1009 |
-| 18028 | Người giữ cung nhà Lê | Người con của ông còn quá nhỏ, chưa thể tự lo việc nước. |  |
+| 18028 | Người giữ cung nhà Lê | Người con nối ngôi của ông còn quá nhỏ, chưa thể tự lo việc nước. |  |
 | 18029 | Lời nói khích và ngôi vua | Khi ấy Lý Công Uẩn và một viên tướng tên Nguyễn Đê mỗi người dẫn năm trăm quân canh giữ trong cung. |  |
 | 18030 | Lời nói khích và ngôi vua | Hai đạo quân ấy mạnh nhất hoàng cung, nên ngai vàng như nằm trong tay hai người. |  |
 | 18031 | Lời nói khích và ngôi vua | Một viên quan hầu cận tên Đào Cam Mộc nhìn ra cơ hội ấy. |  |
@@ -180,7 +183,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18077 | Con thuyền dưới chân thành | Không ai chứng minh được điều đó, nhưng người xưa tin rằng đây là dấu hiệu trời chọn nơi này và chọn vị vua ấy. |  |
 | 18078 | Con thuyền dưới chân thành | Nhà vua liền đổi tên Đại La thành Thăng Long, nghĩa là rồng bay lên. |  |
 | 18079 | Con thuyền dưới chân thành | Cái tên do chính ông đặt ấy sống lâu hơn cả triều đại nhà Lý. |  |
-| 18080 | Bốn cánh cửa và các điện | Cũng trong năm ấy nhà vua dựng điện Càn Nguyên ở phía trước làm nơi họp triều, hai bên là điện Tập Hiền và điện Giảng Võ. |  |
+| 18080 | Bốn cánh cửa và các điện | Sau khi dời đô, nhà vua dựng điện Càn Nguyên ở phía trước làm nơi họp triều, hai bên là điện Tập Hiền và điện Giảng Võ. |  |
 | 18081 | Bốn cánh cửa và các điện | Sau điện Càn Nguyên là hai điện Long An và Long Thụy, nơi nhà vua nghỉ ngơi. |  |
 | 18082 | Bốn cánh cửa và các điện | Rồi ông cho dựng kho tàng, đắp thành và đào hào. |  |
 | 18083 | Bốn cánh cửa và các điện | Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức. |  |

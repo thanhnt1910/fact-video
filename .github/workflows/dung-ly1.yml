@@ -1,4 +1,4 @@
-name: Dựng video Lý Công Uẩn: người dời đô (có giọng Puck)
+name: "Dựng video Lý Công Uẩn người dời đô (có giọng Puck)"
 
 # Chạy khi đẩy ke-hoach/thu-giong-hai/dung_ly1.txt trên nhánh lh6-dung-thu.
 # Dòng đầu của dung_ly1.txt: "thu N" (dựng thử N khung đầu) hoặc "full" (dựng cả video).

@@ -7,27 +7,27 @@
  },
  {
   "id": 2,
-  "tieu_de": "Nhà bạn có bao nhiêu thiết bị IoT?",
-  "mo_ta": "Đếm thử xem nhà bạn có mấy thiết bị đang kết nối mạng?\n\nBộ phát WiFi, tivi thông minh, đồng hồ thông minh, camera, và cả máy lọc không khí hay nồi cơm có ứng dụng trên điện thoại đều được tính.\n\nNhiều người đang dùng IoT hằng ngày mà không hề biết. Mỗi thiết bị kết nối mạng giống như một cánh cửa, nên bạn cần biết nó làm gì.\n\nNhà bạn đếm được bao nhiêu thiết bị?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #DemThietBi"
+  "tieu_de": "Có thiết bị lạ trong WiFi nhà bạn không?",
+  "mo_ta": "Ai đang dùng WiFi nhà bạn ngay lúc này? Ngoài điện thoại và tivi của bạn, có thể còn thiết bị khác.\n\nBộ phát WiFi nào cũng giữ danh sách các thiết bị đang kết nối. Bạn xem được trong ứng dụng của nhà mạng, hoặc trang quản trị của bộ phát.\n\nTên thiết bị đôi khi khó hiểu. Cách dễ nhất là tắt từng thiết bị, rồi xem tên nào biến mất.\n\nNếu có thiết bị lạ, hãy đổi mật khẩu WiFi rồi kết nối lại các thiết bị của nhà mình. Nên xem lại danh sách vài tháng một lần.\n\nBạn đếm được bao nhiêu thiết bị trong WiFi nhà mình?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #WiFi"
  },
  {
   "id": 3,
-  "tieu_de": "Cảm biến là gì?",
-  "mo_ta": "Làm sao chiếc đèn biết có người vừa đi vào phòng?\n\nNhờ cảm biến. Cảm biến giống như giác quan của thiết bị: có cảm biến nhiệt độ, độ ẩm, ánh sáng, chuyển động và khoảng cách.\n\nMỗi loại biến một hiện tượng ngoài đời thành con số để thiết bị hiểu được. Không có cảm biến, thiết bị sẽ không biết gì về thế giới xung quanh.\n\nBạn muốn Bóng kể về cảm biến nào trước?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #CamBien"
+  "tieu_de": "Camera và bộ phát WiFi cũng cần cập nhật",
+  "mo_ta": "Điện thoại của bạn hay báo cập nhật. Nhưng camera, bộ phát WiFi và đèn thông minh thì sao?\n\nCác thiết bị này cũng chạy phần mềm bên trong, và phần mềm có thể có lỗi. Có lỗi cho phép kẻ xấu chiếm quyền điều khiển thiết bị. Hãng sửa lỗi bằng bản cập nhật.\n\nNhiều thiết bị không tự cập nhật. Hãy mở ứng dụng của thiết bị, tìm mục cập nhật phần mềm, và bật cập nhật tự động nếu có. Bộ phát WiFi là thiết bị cần cập nhật đầu tiên.\n\nThiết bị quá cũ có thể không còn được hãng cập nhật. Khi mua, hãy hỏi hãng hỗ trợ cập nhật trong bao lâu.\n\nLần gần nhất bạn cập nhật camera nhà mình là khi nào?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #CapNhat"
  },
  {
   "id": 4,
-  "tieu_de": "Vi điều khiển: bộ não nhỏ của thiết bị",
-  "mo_ta": "Ai ra lệnh cho cảm biến và bóng đèn?\n\nĐó là vi điều khiển, một con chip nhỏ chạy chương trình. ESP32 và Arduino là hai bảng mạch nổi tiếng với người mới học.\n\nNó đọc dữ liệu từ cảm biến rồi quyết định bật đèn, mở quạt hoặc gửi thông báo. Cảm biến là mắt và tai, còn vi điều khiển là bộ não.\n\nBạn đã từng thấy mạch Arduino hay ESP32 chưa?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #ViDieuKhien #ESP32 #Arduino"
+  "tieu_de": "Tách WiFi riêng cho thiết bị thông minh",
+  "mo_ta": "Nếu một chiếc camera rẻ tiền bị chiếm quyền, các thiết bị khác trong nhà bạn có còn an toàn không?\n\nKhi mọi thiết bị dùng chung một mạng WiFi, thiết bị bị chiếm quyền có thể dò tìm những thiết bị còn lại trong cùng mạng.\n\nCách giảm rủi ro là tách mạng. Nhiều bộ phát WiFi có sẵn tính năng mạng khách: bật lên, đặt tên và mật khẩu riêng. Hãy nối camera, đèn, ổ cắm thông minh vào mạng khách, còn máy tính chứa dữ liệu quan trọng ở lại mạng chính.\n\nLưu ý: một số thiết bị có thể không điều khiển được khi tách mạng. Nếu gặp lỗi, hãy xem hướng dẫn của hãng.\n\nBộ phát WiFi nhà bạn có mạng khách chưa?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #WiFi #MangKhach"
  },
  {
   "id": 5,
-  "tieu_de": "Thiết bị nói chuyện với nhau bằng gì?",
-  "mo_ta": "Đèn và điện thoại không có dây nối, vậy chúng nói chuyện với nhau bằng cách nào?\n\nWiFi truyền được nhiều dữ liệu nhưng tốn điện hơn. Bluetooth dùng cho khoảng cách gần và tiết kiệm pin. Zigbee là mạng lưới cho các thiết bị nhỏ, pin bền và thường cần một bộ trung tâm.\n\nMỗi cách phù hợp với một việc khác nhau.\n\nNhà bạn đang dùng cách nào nhiều nhất?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #WiFi #Bluetooth #Zigbee"
+  "tieu_de": "Camera trong nhà: giữ riêng tư thế nào?",
+  "mo_ta": "Camera trong nhà giúp bạn yên tâm, nhưng cũng có thể làm lộ hình ảnh riêng tư của gia đình.\n\nNăm việc nên làm:\n- Không đặt camera trong phòng ngủ, phòng tắm hay nơi thay đồ.\n- Đặt mật khẩu mạnh và riêng cho ứng dụng camera, bật xác thực hai bước nếu có.\n- Khi cả nhà ở nhà, tắt camera hoặc bật chế độ riêng tư nếu có.\n- Xóa những người không còn cần khỏi danh sách được xem.\n- Khi bán hoặc cho lại camera, khôi phục cài đặt gốc và xóa thiết bị khỏi tài khoản.\n\nBạn đã kiểm tra danh sách người xem camera nhà mình chưa?",
+  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #Camera #RiengTu"
  },
  {
   "id": 6,

@@ -29,54 +29,62 @@
   },
   {
    "id": 2,
-   "slug": "nha-ban-co-bao-nhieu-thiet-bi-iot",
-   "title": "Nhà bạn có bao nhiêu thiết bị IoT?",
+   "slug": "co-thiet-bi-la-trong-wifi",
+   "title": "Có thiết bị lạ trong WiFi nhà bạn không?",
    "scenes": [
-    "Đếm thử xem nhà bạn có mấy thiết bị đang kết nối mạng?",
-    "Trước hết là bộ phát WiFi, rồi tivi thông minh, đồng hồ thông minh và camera.",
-    "Cả máy lọc không khí hay nồi cơm có ứng dụng trên điện thoại cũng được tính.",
-    "Nhiều người đang dùng IoT hằng ngày mà không hề biết.",
-    "Mỗi thiết bị kết nối mạng giống như một cánh cửa. Vì vậy, bạn nên biết nó làm gì.",
-    "Nhà bạn đếm được bao nhiêu thiết bị? Bình luận cho Bóng biết nhé!"
+    "Ai đang dùng WiFi nhà bạn ngay lúc này? Ngoài điện thoại và tivi của bạn, có thể còn thiết bị khác.",
+    "Bộ phát WiFi nào cũng giữ danh sách các thiết bị đang kết nối. Bạn xem được trong ứng dụng của nhà mạng, hoặc trang quản trị của bộ phát, địa chỉ thường in trên nhãn dưới thiết bị.",
+    "Hãy đếm thử: điện thoại, máy tính, tivi, camera, đồng hồ, loa thông minh, cả máy lọc không khí hay nồi cơm có ứng dụng.",
+    "Tên thiết bị trong danh sách đôi khi rất khó hiểu, ví dụ một dãy chữ và số. Cách dễ nhất là tắt từng thiết bị, rồi xem tên nào biến mất.",
+    "Nếu có thiết bị mà bạn không nhận ra, hãy đổi mật khẩu WiFi, rồi kết nối lại các thiết bị của nhà mình.",
+    "Nên đặt mật khẩu WiFi dài, và xem lại danh sách này vài tháng một lần.",
+    "Mỗi thiết bị kết nối mạng giống như một cánh cửa. Bạn nên biết cửa nào đang mở.",
+    "Bạn đếm được bao nhiêu thiết bị trong WiFi nhà mình? Bình luận cho Bóng biết nhé!"
    ]
   },
   {
    "id": 3,
-   "slug": "cam-bien-la-gi",
-   "title": "Cảm biến là gì?",
+   "slug": "cap-nhat-phan-mem-thiet-bi",
+   "title": "Camera và bộ phát WiFi cũng cần cập nhật",
    "scenes": [
-    "Làm sao chiếc đèn biết có người vừa đi vào phòng?",
-    "Nhờ cảm biến. Cảm biến giống như giác quan của thiết bị.",
-    "Có cảm biến nhiệt độ, độ ẩm, ánh sáng, chuyển động và khoảng cách.",
-    "Mỗi loại biến một hiện tượng ngoài đời thành con số, để thiết bị hiểu được.",
-    "Không có cảm biến, thiết bị sẽ không biết gì về thế giới xung quanh.",
-    "Bạn muốn Bóng kể về cảm biến nào trước? Bình luận nhé!"
+    "Điện thoại của bạn hay báo cập nhật. Nhưng camera, bộ phát WiFi và đèn thông minh thì sao?",
+    "Các thiết bị này cũng chạy phần mềm bên trong, và phần mềm có thể có lỗi.",
+    "Có những lỗi cho phép kẻ xấu chiếm quyền điều khiển thiết bị. Hãng sửa lỗi bằng cách phát hành bản cập nhật.",
+    "Nếu bạn không cập nhật, lỗi cũ vẫn còn đó, và kẻ xấu có thể khai thác nó.",
+    "Nhiều thiết bị không tự cập nhật. Bạn cần mở ứng dụng của thiết bị, tìm mục cập nhật phần mềm, và bật cập nhật tự động nếu có.",
+    "Bộ phát WiFi là thiết bị quan trọng nhất cần cập nhật, vì mọi thiết bị trong nhà đều đi qua nó.",
+    "Lưu ý: thiết bị quá cũ có thể không còn được hãng cập nhật nữa. Khi mua, hãy hỏi hãng sẽ hỗ trợ cập nhật trong bao lâu.",
+    "Lần gần nhất bạn cập nhật camera nhà mình là khi nào? Bình luận cho Bóng biết nhé!"
    ]
   },
   {
    "id": 4,
-   "slug": "vi-dieu-khien",
-   "title": "Vi điều khiển: bộ não nhỏ của thiết bị",
+   "slug": "tach-wifi-cho-thiet-bi-thong-minh",
+   "title": "Tách WiFi riêng cho thiết bị thông minh",
    "scenes": [
-    "Ai ra lệnh cho cảm biến và bóng đèn?",
-    "Đó là vi điều khiển, một con chip nhỏ chạy chương trình.",
-    "Ví dụ như ESP32 hay Arduino, hai bảng mạch nổi tiếng với người mới học.",
-    "Nó đọc dữ liệu từ cảm biến, rồi quyết định bật đèn, mở quạt hoặc gửi thông báo.",
-    "Cảm biến là mắt và tai, còn vi điều khiển là bộ não.",
-    "Bạn đã từng thấy mạch Arduino hay ESP32 chưa? Kể cho Bóng nghe nhé!"
+    "Nếu một chiếc camera rẻ tiền bị chiếm quyền, các thiết bị khác trong nhà bạn có còn an toàn không?",
+    "Khi mọi thiết bị dùng chung một mạng WiFi, thiết bị bị chiếm quyền có thể dò tìm những thiết bị còn lại trong cùng mạng, như máy tính hay điện thoại.",
+    "Cách giảm rủi ro là tách mạng: máy tính và điện thoại dùng một mạng, còn thiết bị thông minh dùng một mạng riêng.",
+    "Nhiều bộ phát WiFi có sẵn tính năng mạng khách. Bạn chỉ cần bật lên, đặt tên và mật khẩu riêng. Mạng khách thường được tách khỏi mạng chính.",
+    "Sau đó nối camera, đèn, ổ cắm thông minh vào mạng khách, còn máy tính chứa dữ liệu quan trọng ở lại mạng chính.",
+    "Mạng khách cũng dùng được cho bạn bè đến chơi, để họ không cần biết mật khẩu mạng chính.",
+    "Lưu ý: một số thiết bị có thể không điều khiển được khi tách mạng. Nếu gặp lỗi, hãy xem hướng dẫn của hãng.",
+    "Bộ phát WiFi nhà bạn có mạng khách chưa? Bình luận cho Bóng biết nhé!"
    ]
   },
   {
    "id": 5,
-   "slug": "thiet-bi-noi-chuyen-bang-gi",
-   "title": "Thiết bị nói chuyện với nhau bằng gì?",
+   "slug": "camera-trong-nha-rieng-tu",
+   "title": "Camera trong nhà: giữ riêng tư thế nào?",
    "scenes": [
-    "Đèn và điện thoại không có dây nối, vậy chúng nói chuyện với nhau bằng cách nào?",
-    "WiFi truyền được nhiều dữ liệu, nhưng tốn điện hơn.",
-    "Bluetooth dùng cho khoảng cách gần và tiết kiệm pin.",
-    "Zigbee là mạng lưới cho các thiết bị nhỏ, pin bền, và thường cần một bộ trung tâm.",
-    "Mỗi cách phù hợp với một việc khác nhau.",
-    "Nhà bạn đang dùng cách nào nhiều nhất? Bình luận cho Bóng biết nhé!"
+    "Camera trong nhà giúp bạn yên tâm, nhưng cũng có thể là nơi làm lộ hình ảnh riêng tư của gia đình.",
+    "Đầu tiên là chỗ đặt. Không đặt camera trong phòng ngủ, phòng tắm hay nơi thay đồ. Nên đặt ở lối ra vào hoặc khu vực chung.",
+    "Tiếp theo là tài khoản. Đặt mật khẩu mạnh và riêng cho ứng dụng camera, và bật xác thực hai bước nếu có.",
+    "Khi cả nhà ở nhà, hãy tắt camera hoặc bật chế độ riêng tư nếu camera có tính năng này.",
+    "Xem lại danh sách những người được chia sẻ quyền xem. Xóa những người không còn cần, ví dụ người thuê nhà cũ hay người giúp việc cũ.",
+    "Khi bán hoặc cho lại camera, hãy khôi phục cài đặt gốc và xóa thiết bị khỏi tài khoản của bạn.",
+    "Nếu camera đặt ở nơi có người khác sinh hoạt, như người giúp việc hay khách thuê, hãy báo cho họ biết.",
+    "Bạn đã kiểm tra danh sách người xem camera nhà mình chưa? Bình luận cho Bóng biết nhé!"
    ]
   },
   {

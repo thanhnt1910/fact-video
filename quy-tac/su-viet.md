@@ -21,3 +21,9 @@ Quy tắc nội dung và giọng hài cho sử Việt, kèm cách làm bản m�
 - **Sửa kịch bản sau khi đã có nội dung bản đồ:** giữ nguyên số đoạn `n` còn lại; đoạn bỏ thì để trống số, và `R()`, `E()`, `at()` trong file nội dung tự lấy đoạn kề (đã làm trong `dbl1_content.py`). Mọi tham chiếu số đoạn trong nội dung phải kiểm lại sau khi bỏ đoạn.
 - **Quy tắc kịch bản rút từ bản Đinh Bộ Lĩnh sửa theo bố cục cuốn hút:** mở đầu 4 đoạn (khoảng 35 giây), nguồn sử chuyển vào mấy chữ đầu chương sau ("Theo Đại Việt sử ký toàn thư, ..."), chương nền gộp tên riêng (bỏ tước hiệu phụ, lời chê của sử gia ở chương dẫn nhập), ghi chú "sách chép khác nhau" gộp vào một đoạn có lời kể. Mẫu: `ke-hoach/dinh-bo-linh-kich-ban.md` (86 đoạn, 2.129 chữ, dựng thực tế 11 phút 14 giây, tốc độ đọc khoảng 3,3 chữ/giây nên 2.100 chữ vẫn đủ sàn 10 phút).
 - **Kiểm sau dựng:** `kiem_video.py` phải 0 ❌. Cảnh báo "cảnh gắn vào câu lệch" thì dời cảnh về đúng câu đang đọc ở lượt chỉnh kế tiếp.
+
+## Lời kể sử Việt: không lời bình của sử gia, kể liền mạch như một câu chuyện (chủ kênh yêu cầu 27/10/2026)
+- **Bỏ hết lời bình, lời chê khen của sử gia** (Lê Văn Hưu, Ngô Sĩ Liên, đoạn đánh giá cuối truyện của Toàn thư...) khỏi lời kể. Video kể lịch sử, không phân tích lời bình. Sử gia chỉ xuất hiện khi chính họ là một nhân vật của sự kiện.
+- **Không dịch sát từng câu sử.** Mỗi đoạn lời không là một ý rời; các câu phải nối nhau bằng quan hệ nguyên nhân – kết quả hoặc đối lập ("vì thế", "nhưng", "thấy vậy"), có hình ảnh dẫn xuyên suốt (ví dụ cánh cửa, câu hỏi cuối chiếu). Đọc nối các đoạn liền nhau phải thấy một mạch văn, không thấy danh sách.
+- **Sáng tạo ở cách kể** (xem mục "Sáng tạo cho đỡ nhàm" trong `chung.md`): câu mở đầu ai nghe cũng hiểu (ai, chuyện gì), thân bài đúng thứ tự thời gian, báo trước và quay lại hình ảnh mở đầu ở cuối.
+

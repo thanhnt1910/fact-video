@@ -11,24 +11,18 @@
    [khóa] GEMINI_API_KEY_11: trống
    [khóa] GEMINI_API_KEY_12: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 134 câu
+còn thiếu 9 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 18001 - 18008 53.6 giây
-OK cụm 18009 - 18016 45.0 giây
-OK cụm 18017 - 18024 49.0 giây
-OK cụm 18025 - 18032 42.4 giây
-OK cụm 18033 - 18040 49.4 giây
-OK cụm 18041 - 18048 44.3 giây
-OK cụm 18049 - 18056 37.8 giây
-OK cụm 18057 - 18064 42.1 giây
+OK cụm 18047 - 18047 5.9 giây
+OK cụm 18077 - 18077 3.9 giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 9s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK cụm 18065 - 18072 54.9 giây
-OK cụm 18073 - 18080 46.2 giây
-OK cụm 18081 - 18088 46.2 giây
-OK cụm 18089 - 18096 42.0 giây
-OK cụm 18097 - 18104 39.8 giây
-OK cụm 18105 - 18112 55.0 giây
-OK cụm 18113 - 18120 42.8 giây
-OK cụm 18121 - 18128 40.8 giây
-OK cụm 18129 - 18134 30.2 giây
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 19h11m29s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18078 - 18078 3.6 giây
+OK cụm 18090 - 18090 3.6 giây
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 19h11m21s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18091 - 18091 5.3 giây
+OK cụm 18116 - 18116 2.8 giây
+OK cụm 18129 - 18129 6.2 giây
+OK cụm 18130 - 18130 3.9 giây
+OK cụm 18131 - 18131 5.0 giây

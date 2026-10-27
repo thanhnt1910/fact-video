@@ -409,14 +409,16 @@ def frame(t):
             if dead:
                 gc=tuple(int(0.35*c+0.65*110) for c in col);py+=s*0.35
                 UNIT(g.kind)(d,px,py,s*0.95,gc,face,0.0,alpha=190)
-            else: UNIT(g.kind)(d,px,py,s,col,face,bob)
+            else:
+                UNIT(g.kind)(d,px,py,s,col,face,bob)
+                if i==0 and getattr(C,'FLAG2',False) and g.kind in ('inf','cav'): MD.bearer_flag(d,px,py,s,col,t,face)
         if g.kind=='ele' and mv and not dead:
             for k_ in range(7):
                 ph_=(t*1.3+k_/7.0)%1.0;rr=s*(0.5+1.4*ph_);ax=x-face*spr*(0.9+1.6*ph_)+math.sin(k_*2.1)*s*0.8;ay=y+spr*0.6+math.cos(k_*1.7)*s*0.5
                 d.ellipse((ax-rr,ay-rr*0.6,ax+rr,ay+rr*0.6),fill=(196,176,138,int(110*(1-ph_))))
         fcol=(120,120,126) if dead else col
         if dead: flag(d,x-spr*1.9,y-spr*0.1,s*0.7,fcol)
-        else: flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)
+        elif not (getattr(C,'FLAG2',False) and g.kind in ('inf','cav')): flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)
         if g.label and not getattr(C,'NO_GROUP_LABEL',False): tag2(d,x,y+spr*1.1,g,col,int(24*K*min(1.3,z**0.25)),max(fr,0.0),dead,t)
         if dead:
             u=(t-dd[0])/0.8

@@ -46,6 +46,20 @@ def elephant(d,x,y,s,col,face,bob,alpha=255):
     d.ellipse((x-k*0.17,y-k*1.75,x+k*0.17,y-k*1.4),fill=(232,196,150,alpha),outline=ink)
     d.line([(x+face*k*0.3,y-k*2.3),(x+face*k*0.3,y-k*1.0)],fill=(110,80,50,alpha),width=max(2,int(k*0.08)))
     d.polygon([(x+face*k*0.3,y-k*2.3),(x+face*k*0.3+face*k*0.6,y-k*2.15),(x+face*k*0.3,y-k*1.95)],fill=col+(alpha,),outline=ink)
+def bearer_flag(d,x,y,s,col,t,face=1):
+    """Cờ của lính cầm cờ trong cụm quân: cán cao, lá cờ lượn sóng có viền, hai dải sáng và tua, mũi giáo vàng ở đỉnh."""
+    ink=(25,18,12,255);px=x+face*s*0.55;top=y-s*4.4
+    d.line([(px,y+s*0.4),(px,top)],fill=(86,58,34,255),width=max(3,int(s*0.16)))
+    d.polygon([(px,top-s*0.55),(px-s*0.16,top+0.02*s),(px+s*0.16,top+0.02*s)],fill=(214,176,60,255),outline=ink)
+    L=s*2.6;Hh=s*1.45;n=9;dirn=1 if face>=0 else -1
+    def wave(u,v): return (px+dirn*u*L, top+s*0.1+v*Hh+math.sin(t*5.0+u*4.2)*s*0.16*u)
+    up=[wave(i/n,0) for i in range(n+1)];dn=[wave(i/n,1.0-0.12*(i/n)) for i in range(n+1)][::-1]
+    d.polygon(up+dn,fill=col+(255,),outline=ink)
+    lt=tuple(min(255,int(c*0.55+255*0.45)) for c in col)
+    for v0,v1 in ((0.30,0.42),(0.62,0.74)):
+        a=[wave(i/n,v0) for i in range(1,n)];b=[wave(i/n,v1) for i in range(1,n)][::-1]
+        d.polygon(a+b,fill=lt+(255,))
+    ex,ey=wave(1.0,0.5);d.polygon([(ex,ey-s*0.18),(ex+dirn*s*0.5,ey),(ex,ey+s*0.18)],fill=(214,176,60,255),outline=ink)
 def flag(d,x,y,s,col,txt=None,fn=None):
     d.line([(x,y),(x,y-s*3.2)],fill=(70,50,30,255),width=max(3,int(s*0.18)))
     d.polygon([(x,y-s*3.2),(x+s*1.9,y-s*2.85),(x+s*1.6,y-s*2.35),(x+s*1.9,y-s*1.9),(x,y-s*2.2)],fill=col+(255,),outline=(25,18,12,255))

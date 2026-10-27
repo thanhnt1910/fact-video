@@ -126,6 +126,22 @@ Cách làm giống `plough`: từ một điểm trên bản đồ, một khung t
 - Lớp đêm `NIGHT` ở chương 3 (18030–18035) và lớp tối nhật thực ở chương 10.
 - `FX` đã có: `horn`, `trumpet`, `gong`, `drums`, `volley`, `crack` (cửa nặng), `thunder`, `sea`, `splash`. Thêm tiếng mới: chuông chùa, dế đêm, búa đục, mái chèo.
 
+## 2c. Làm lại cờ và dấu hiệu quân (chủ kênh nhận xét 27/10: cờ chiến còn đơn giản)
+Hiện nay cờ chỉ là một cột với một mảnh tam giác phẳng (`flag` trong `mapdraw.py`), hàng cờ nhỏ (`pennants`) và huy hiệu tròn trên thẻ tên. Đề xuất thay bằng năm thứ sau, ảnh thử `ke-hoach/anh-thu/co_demo.png`:
+
+1. **Cờ vải lượn sóng:** vải gợn theo gió, sáng tối theo nếp, viền vàng hai mép, tua rua ở mép phải, đầu cột có mũi nhọn. Hướng gió thuận theo hướng quân đi.
+2. **Cờ phướn dài:** dải cờ treo dọc dưới thanh ngang, đuôi răng cưa, hai đai vàng; dùng cho đạo quân lớn, đoàn thuyền và điện lớn.
+3. **Lọng vàng và quạt lông:** đi theo vua và thái tử, giúp nhận ra "nhà vua đi đâu" mà không cần chữ. Dùng ở chương 3, 7, 11 và 12.
+4. **Quân cầm cờ:** trong mỗi cụm quân, cứ vài lính có một lính cầm cờ riêng, cờ bay theo bước đi; tướng dẫn đầu cầm cờ lớn hơn. Cờ chỉ có màu và dải viền, không chữ, không biểu tượng.
+5. **Cờ đổi theo trạng thái:** thắng thì cờ dựng thẳng, thua thì cờ rũ rồi đổ xuống, đổi triều thì cờ cũ hạ xuống và cờ mới kéo lên (câu 18006, 18039–18041).
+
+**Thay những chỗ đang dùng cờ:**
+- Hàng cờ `pennants` ở đóng quân → **trại quân**: lều, cờ vải nhỏ, khói bếp, lính đi tuần (dùng `camp` có sẵn rồi nâng cấp).
+- Cờ đánh dấu chiếm thành → **cột cờ trên tường thành**, cờ kéo lên theo nhịp.
+- Phù hiệu tròn trên thẻ tên → giữ nhưng thêm **viền theo màu cờ** để khớp với cờ vải.
+- Dấu chấm nhấp nháy `ping` ở địa danh → giữ chỗ nhắc tên lần đầu, không dùng thay cờ.
+- Cờ mọi bên đều để trơn một màu theo màu phe; không chữ, không hình trên cờ.
+
 ## 3. Quy tắc chung của video này
 1. **Không đùa các anh hùng và nhân vật chính:** chỉ khung đùa nhắm vào tình huống hoặc quân xâm lược; không đùa Lý Công Uẩn, Lý Thái Tông, Lý Phật Mã, Đào Cam Mộc, Lê Phụng Hiểu, Lê Hoàn; không đùa cái chết hay bệnh tật của Lê Long Đĩnh.
 2. **Không máu, không cảnh giết:** chết/thua dùng cờ rũ, chuyển xám, "THUA TRẬN" hoặc "BỊ DIỆT" nhỏ; tránh đầu lâu to.

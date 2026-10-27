@@ -116,7 +116,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18010 | Đứa trẻ bên nhà thiền sư | Khi trưởng thành, ông vào làm quan võ trong triều đình nhà Tiền Lê, rồi dần lên chỉ huy quân bảo vệ cung vua. |  |
 | 18011 | Đứa trẻ bên nhà thiền sư | Làm sao một viên tướng chỉ huy quân bảo vệ vua, đứng cạnh vị vua thích giết người, lại được tôn lên ngôi mà không có một trận đánh nào? |  |
 | 18012 | Đứa trẻ bên nhà thiền sư | Câu trả lời nằm ở những năm cuối của triều Tiền Lê. |  |
-| 18013 | Người giữ cung nhà Lê | Triều Tiền Lê khi ấy do vua Lê Hoàn dựng nên và trị vì hơn hai mươi năm. |  |
+| 18013 | Người giữ cung nhà Lê | Triều Tiền Lê khi ấy do vua Lê Hoàn dựng lên và trị vì hơn hai mươi năm. |  |
 | 18014 | Người giữ cung nhà Lê | Tháng ba âm lịch năm một nghìn không trăm linh năm, Lê Hoàn mất, và các con của ông liền tranh ngôi. |  |
 | 18015 | Người giữ cung nhà Lê | Cuộc giành giật kéo dài tám tháng, trong nước không có vua. | 1005: mùa đông (tháng 10 âm = 5/11–3/12/1005) |
 | 18016 | Người giữ cung nhà Lê | Mùa đông năm ấy Lê Long Việt lên ngôi, và ba ngày sau bị em là Lê Long Đĩnh giết rồi lên thay. |  |

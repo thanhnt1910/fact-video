@@ -466,3 +466,9 @@ KINDS = dict(ping=ping, orange=orange, banner=banner, hall=hall, granary=granary
 
 def draw(d, kind, x, y, s, u, t, arg):
     KINDS[kind](d, x, y, s, u, t, arg)
+
+try:
+    from mapscenes import SCENES as _SC
+    KINDS.update(_SC)
+except Exception as _e:  # tiểu cảnh phụ: lỗi nhập không làm hỏng các prop cũ
+    print('mapscenes:', _e)

@@ -556,6 +556,7 @@ def frame(t):
         x,y=v.sc(lon,lat,K)
         if not(-300<x<W*K+300 and -300<y<H*K+300): continue
         import mapprops as MP
+        MP._DUR=t1-t0;import mapscenes as _MS;_MS._DUR=t1-t0
         fa=min(clamp((t-t0)/0.4),clamp((t1-t)/0.4));u_=(t-t0)/max(1e-6,t1-t0)
         if fa>=0.999: MP.draw(d,kind,x,y,ik*1.7*sc_,u_,t,arg)
         else:

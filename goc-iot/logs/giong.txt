@@ -1,0 +1,76 @@
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+v1_s1 lần 1: 3.12s, 4.17 từ/giây
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v1_s1 lần 2: 3.04s, 4.28 từ/giây
+v1_s1 lần 3: 3.04s, 4.28 từ/giây
+v1_s2 lần 1: 4.16s, 3.12 từ/giây
+v1_s3 lần 1: 8.04s, 2.49 từ/giây
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v1_s4 lần 1: 7.28s, 2.61 từ/giây
+v1_s5 lần 1: 3.60s, 3.06 từ/giây
+v1_s6 lần 1: 3.56s, 3.93 từ/giây
+v1_s6 lần 2: 3.60s, 3.89 từ/giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v1_s6 lần 3: 3.72s, 3.76 từ/giây
+v2_s1 lần 1: 3.68s, 3.53 từ/giây
+v2_s2 lần 1: 6.28s, 2.55 từ/giây
+v2_s3 lần 1: 4.60s, 3.70 từ/giây
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v2_s3 lần 2: 4.40s, 3.86 từ/giây
+v2_s3 lần 3: 4.36s, 3.90 từ/giây
+v2_s4 lần 1: 3.96s, 2.78 từ/giây
+v2_s5 lần 1: 5.84s, 3.25 từ/giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v2_s6 lần 1: 3.36s, 4.17 từ/giây
+v2_s6 lần 2: 3.68s, 3.80 từ/giây
+v2_s6 lần 3: 3.20s, 4.38 từ/giây
+v3_s1 lần 1: 3.00s, 3.67 từ/giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 55s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 57s…
+v3_s1 lần 2: 3.24s, 3.40 từ/giây
+v3_s2 lần 1: 3.36s, 3.57 từ/giây
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v3_s3 lần 1: 5.20s, 2.69 từ/giây
+v3_s4 lần 1: 4.92s, 3.25 từ/giây
+v3_s5 lần 1: 3.76s, 3.99 từ/giây
+v3_s5 lần 2: 3.88s, 3.87 từ/giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v3_s5 lần 3: 3.96s, 3.79 từ/giây
+v3_s6 lần 1: 3.36s, 3.57 từ/giây
+v4_s1 lần 1: 2.44s, 3.69 từ/giây
+v4_s1 lần 2: 2.36s, 3.81 từ/giây
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v4_s1 lần 3: 2.20s, 4.09 từ/giây
+v4_s2 lần 1: 3.80s, 3.16 từ/giây
+v4_s3 lần 1: 6.40s, 2.34 từ/giây
+v4_s4 lần 1: 5.68s, 3.17 từ/giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v4_s5 lần 1: 4.12s, 3.16 từ/giây
+v4_s6 lần 1: 5.20s, 2.69 từ/giây
+v5_s1 lần 1: 4.60s, 3.70 từ/giây
+v5_s1 lần 2: 4.76s, 3.57 từ/giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 39s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 41s…
+   [gemini] mọi khóa đang hết lượt, đợi 2s…
+v5_s2 lần 1: 3.92s, 2.55 từ/giây
+v5_s3 lần 1: 2.88s, 3.47 từ/giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 13h59m49s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+v5_s4 lần 1: 5.72s, 3.15 từ/giây
+v5_s5 lần 1: 2.64s, 3.41 từ/giây
+v5_s6 lần 1: 3.64s, 3.85 từ/giây
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v5_s6 lần 2: 3.16s, 4.43 từ/giây
+v5_s6 lần 3: 3.28s, 4.27 từ/giây
+v6_s1 lần 1: 3.92s, 3.57 từ/giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 13h59m13s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+v6_s2 lần 1: 3.68s, 3.53 từ/giây
+v6_s3 lần 1: 3.36s, 3.87 từ/giây
+v6_s3 lần 2: 3.56s, 3.65 từ/giây

@@ -128,3 +128,58 @@ Chữ trong clip: tiêu đề "LÊ HOÀN · 980–990 · BỐN LẦN ĐÁNH LỪ
 
 ### Tiểu sử (bio) gợi ý
 Người Gác Sử | Chuyện có thật trong lịch sử 🏮 Video đầy đủ: YouTube @nguoigacsu · Facebook nguoigacsu
+
+---
+
+## 4. BÌNH LUẬN THÊM (chủ page đăng sau bình luận ghim, mỗi cái cách nhau vài giờ hoặc khi có người hỏi)
+
+Đã đối chiếu từng chi tiết với Đại Việt sử ký toàn thư (Bản kỷ quyển I, phần Lê Đại Hành). Không có bình luận nào nhắc tới video sau.
+
+### Bình luận 1: câu nói nhà Tống tự tin (Facebook và YouTube)
+💬 Câu "không tốn một mũi tên" từ đâu ra?
+
+Năm 980, quan nhà Tống là Hầu Nhân Bảo xin đem quân sang chiếm nước Việt. Quan Lư Đa Tốn tâu thêm: thắng nước Việt dễ như bẻ cành khô gỗ mục, không phải lo tốn một mũi tên.
+
+Vua Tống cho là đúng. Kết quả thì ngược lại: quân Tống thua, hai tướng Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống.
+
+Theo Đại Việt sử ký toàn thư. 🏮
+
+### Bình luận 2: hai câu thơ về con ngỗng (Facebook và YouTube)
+🦢 Người coi sông và bài thơ hai con ngỗng
+
+Năm 987, sứ Tống Lý Giác đến chùa Sách Giang. Thấy hai con ngỗng bơi trên nước, ông ngâm:
+"Ngỗng ngỗng hai con ngỗng, ngửa mặt nhìn chân trời."
+
+Người coi sông, thật ra là sư Pháp Thuận, đối lại ngay:
+"Nước lục phô lông trắng, chèo hồng sóng xanh bơi."
+
+Lý Giác rất ngạc nhiên, về sứ quán còn làm thơ tặng. Theo Đại Việt sử ký toàn thư.
+
+### Bình luận 3: hai lần nhận thư, hai thái độ (Facebook)
+📌 Năm 986 và năm 990 khác nhau thế nào?
+
+Năm 986, sứ Tống sang phong chức. Sử chép Lê Hoàn nhận thư rất kính cẩn, thết đãi thật hậu, còn bày nhiều đồ quý lạ ở sân để khoe sự giàu có.
+
+Năm 990, ông bưng thư vua Tống đặt lên điện mà không lạy, rồi nói mình bị ngã ngựa đau chân. Sử ghi đó là lời nói dối, nhưng hai sứ giả vẫn tin.
+
+Bốn năm, hai cách ứng xử. Bạn thấy ông thay đổi vì điều gì? 🤔
+
+### Bình luận 4: lời một sử gia xưa (Facebook và YouTube)
+📚 Sử gia Lê Văn Hưu nói gì về Lê Hoàn?
+
+Lê Văn Hưu so sánh vua Lê Đại Hành với vua Lý Thái Tổ. Ông viết: về việc trừ kẻ gian bên trong, đánh tan giặc bên ngoài, làm mạnh nước Việt, ra oai với nhà Tống, thì Lý Thái Tổ không bằng Lê Đại Hành, vì Lê Đại Hành có công lao gian khổ hơn.
+
+Còn về ân đức, lòng người và phúc cho con cháu về sau, ông cho rằng nhà Lý hơn. Theo Đại Việt sử ký toàn thư.
+
+### Bình luận 5: câu hỏi cho người xem (Facebook)
+🗳️ Trong bốn lần đánh lừa, bạn thấy lần nào khôn ngoan nhất?
+
+A. Lá thư mượn tên vua nhỏ Đinh Toàn
+B. Lời đầu hàng giả để dụ Hầu Nhân Bảo
+C. Người coi sông đối thơ với sứ Tống
+D. Cái chân đau giả khi nhận thư
+
+Bình chọn bằng chữ A, B, C hoặc D ở dưới nhé. 🏮
+
+### Bình luận 6: ghi chú nguồn (YouTube)
+Ghi chú về nguồn: các chi tiết trong video lấy từ Đại Việt sử ký toàn thư (Bản kỷ quyển I, phần Lê Đại Hành). Trận năm 981, kế giả vờ đầu hàng chỉ được chép rất ngắn, nên video nói rõ là chưa biết diễn biến cụ thể. Bạn thấy chỗ nào cần kiểm lại, cứ nhắn ở đây nhé.

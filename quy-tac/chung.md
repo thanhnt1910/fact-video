@@ -97,3 +97,8 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - **Hook đầu video phải giữ bí mật.** Mở bằng một cảnh thật, nêu câu hỏi và hứa trả lời ở cuối video, nhưng KHÔNG liệt kê sẵn các đáp án (ví dụ không kể ra cả bốn "cái giả" ngay từ đầu). Cuối video phải trả lời đúng câu hỏi đã hứa bằng sự việc có thật trong sử, không bằng lời kết luận của người kể. Cách nhấn như "điều đáng nói nhất" ghi vào "Ghi chú độ chắc" để chủ kênh duyệt.
 - **Cảnh có người di chuyển hoặc mốc sự kiện nên gọi tên từng lần** ("Đây là cái giả thứ ba") để người nghe đếm theo và có lý do ở lại đến lần cuối.
 - Mẫu: `ke-hoach/le-hoan-kich-ban-sang-tao.md` (mã `lh6`).
+
+## Mở đầu mỗi video một kiểu khác, đoạn không cụt (chủ kênh yêu cầu 27/10/2026, từ Lý Công Uẩn)
+- **Không lặp cầu nối mở đầu giữa các video.** Câu "Vì sao ...? Muốn trả lời, ta phải bắt đầu từ ..." đã dùng ở Lê Hoàn và nghe dập khuôn với video khác của kênh: cấm dùng lại. Mỗi video chọn một cách vào chuyện riêng; cách chuyển sang quá khứ bằng một câu tương phản hoặc một nơi chốn, không bằng câu hứa "để trả lời thì...".
+- **Khuôn mở đầu đã dùng:** Đinh Bộ Lĩnh (cảnh Đinh Liễn bị treo trên sào); Lê Hoàn (bốn cái giả, câu hỏi rồi lùi về đầu truyện); Lý Công Uẩn (cảnh năm 1028 ở cánh cửa Quảng Phúc, thân bài gắn theo nơi chốn, kết quay lại cánh cửa). Video mới đọc danh sách này và chọn khuôn khác; thêm khuôn mới vào đây.
+- **Không để đoạn lẻ ngắn, thiếu đầu thiếu đuôi.** Đoạn nào dưới 14 chữ phải gộp thành đoạn hai vế (câu sau nêu lý do hoặc hệ quả của câu trước), trừ câu hỏi. Mục tiêu 20–30 chữ mỗi đoạn, trung bình khoảng 26. Cảnh báo ⚠️ "ngắn" của `kiem_kich_ban.py` không phải để chấp nhận: gặp thì gộp, không giữ.

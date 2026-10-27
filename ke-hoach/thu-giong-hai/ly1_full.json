@@ -1,1088 +1,722 @@
 [
  {
   "n": 18001,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Có một vị vua kết thúc bản chiếu do chính tay mình viết bằng một câu hỏi rất ngắn, gửi cho bầy tôi."
+  "chuong": "Cánh cửa phía tây",
+  "tone": "story",
+  "text": "Hai ngày sau khi mặt trời tắt giữa ban ngày, nhà vua qua đời trong cung."
  },
  {
   "n": 18002,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Trẫm muốn nhân thế đất tốt ấy để định nơi ở, các khanh nghĩ thế nào?"
+  "chuong": "Cánh cửa phía tây",
+  "tone": "story",
+  "text": "Các quan kéo đến xin thái tử nối ngôi theo lời cha dặn, nhưng ba người em của ông đã đem quân vào thành và ẩn sẵn để chờ ông đi qua."
  },
  {
   "n": 18003,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Cả triều đình đồng lòng tán thành, và nơi đóng đô hơn bốn mươi năm của nước Việt bị bỏ lại phía sau."
+  "chuong": "Cánh cửa phía tây",
+  "tone": "story",
+  "text": "Một đạo quân nấp trong Long Thành, còn hai đạo kia nấp ngay sau cánh cửa Quảng Phúc, cánh cửa mở ra ở phía tây kinh thành."
  },
  {
   "n": 18004,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Còn kinh đô mới ấy đứng vững qua nhiều triều đại."
+  "chuong": "Cánh cửa phía tây",
+  "tone": "story",
+  "text": "Cánh cửa ấy do chính vua cha dựng mười tám năm trước, trên một vùng đất mà ông phải bỏ cả kinh đô cũ mới có được."
  },
  {
   "n": 18005,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Người đặt nó xuống từng là một đứa trẻ sống nhờ nhà một thiền sư."
+  "chuong": "Cánh cửa phía tây",
+  "tone": "story",
+  "text": "Vì sao một vị vua lại chịu bỏ nơi đã làm kinh đô hơn bốn mươi năm, để dựng nên cánh cửa ấy ở một vùng đất mới bên sông?"
  },
  {
   "n": 18006,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Ông là Lý Công Uẩn, người sáng lập nhà Lý."
+  "chuong": "Đứa trẻ bên nhà thiền sư",
+  "tone": "story",
+  "text": "Người dựng nó đã lớn lên bên một thiền sư chứ không phải trong cung điện, và ông tên là Lý Công Uẩn."
  },
  {
   "n": 18007,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Vì sao một vị vua dám bỏ kinh đô đang có, để ra một vùng đất ven sông chưa từng là kinh đô của nước Việt độc lập?"
+  "chuong": "Đứa trẻ bên nhà thiền sư",
+  "tone": "story",
+  "text": "Ông sinh ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn ở châu Cổ Pháp, mẹ ông họ Phạm."
  },
  {
   "n": 18008,
-  "chuong": "Một câu hỏi của nhà vua",
-  "tone": "tense",
-  "text": "Muốn trả lời, ta phải bắt đầu từ đứa trẻ ấy."
+  "chuong": "Đứa trẻ bên nhà thiền sư",
+  "tone": "story",
+  "text": "Về người cha chỉ có truyền thuyết nên ta bỏ qua. Câu chuyện thật bắt đầu năm ông ba tuổi, khi mẹ ẵm ông đến nhà thiền sư Lý Khánh Văn."
  },
  {
   "n": 18009,
-  "chuong": "Đứa trẻ nhà thiền sư",
+  "chuong": "Đứa trẻ bên nhà thiền sư",
   "tone": "story",
-  "text": "Lý Công Uẩn sinh ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, ở châu Cổ Pháp."
+  "text": "Thiền sư nhận ông làm con nuôi nên ông mang họ Lý từ đó, và đứa bé lớn lên thông minh, dáng người tuấn tú khác thường."
  },
  {
   "n": 18010,
-  "chuong": "Đứa trẻ nhà thiền sư",
+  "chuong": "Đứa trẻ bên nhà thiền sư",
   "tone": "story",
-  "text": "Mẹ ông họ Phạm, còn chuyện về cha ông chỉ là truyền thuyết nên ta không kể."
+  "text": "Lúc nhỏ đi học, ông gặp sư Vạn Hạnh ở chùa Lục Tổ. Người ta kể rằng vị sư khen cậu bé sau này sẽ làm bậc minh chủ."
  },
  {
   "n": 18011,
-  "chuong": "Đứa trẻ nhà thiền sư",
+  "chuong": "Đứa trẻ bên nhà thiền sư",
   "tone": "story",
-  "text": "Năm ông ba tuổi, mẹ ẵm ông đến nhà thiền sư Lý Khánh Văn."
+  "text": "Đó là lời kể về sau nên ta không coi nó là bằng chứng, và điều chắc chắn hơn nằm ở tính cách của ông."
  },
  {
   "n": 18012,
-  "chuong": "Đứa trẻ nhà thiền sư",
+  "chuong": "Đứa trẻ bên nhà thiền sư",
   "tone": "story",
-  "text": "Thiền sư nhận ông làm con nuôi, nên ông mang họ Lý từ đó."
+  "text": "Lớn lên ông không chăm lo sản nghiệp, chỉ học kinh sử qua loa, nhưng khảng khái và có chí lớn, rồi bước vào triều đình nhà Lê."
  },
  {
   "n": 18013,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Từ bé ông đã thông minh, dáng người tuấn tú khác thường."
- },
- {
-  "n": 18014,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Lúc nhỏ đi học, ông gặp sư Vạn Hạnh ở chùa Lục Tổ."
- },
- {
-  "n": 18015,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Người ta kể rằng sư khen đứa bé này không phải người thường, lớn lên sẽ làm bậc minh chủ trong thiên hạ."
- },
- {
-  "n": 18016,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Đó là lời kể về sau, nên ta không coi nó là bằng chứng."
- },
- {
-  "n": 18017,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Điều chắc chắn hơn nằm ở tính cách của ông."
- },
- {
-  "n": 18018,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Lớn lên, ông không chăm lo sản nghiệp, chỉ học kinh sử qua loa, nhưng khảng khái và có chí lớn."
- },
- {
-  "n": 18019,
-  "chuong": "Đứa trẻ nhà thiền sư",
-  "tone": "story",
-  "text": "Rồi ông bước vào triều đình nhà Lê."
- },
- {
-  "n": 18020,
-  "chuong": "Người giữ cung điện",
+  "chuong": "Người giữ cung nhà Lê",
   "tone": "story",
   "text": "Triều Tiền Lê do vua Lê Hoàn dựng nên, nhưng ông vừa mất thì các con đã tranh nhau ngôi."
  },
  {
-  "n": 18021,
-  "chuong": "Người giữ cung điện",
+  "n": 18014,
+  "chuong": "Người giữ cung nhà Lê",
   "tone": "story",
-  "text": "Năm một nghìn không trăm linh năm, Lê Long Việt mới lên ngôi được ba ngày đã bị em là Lê Long Đĩnh giết."
+  "text": "Năm một nghìn không trăm linh năm, Lê Long Việt mới lên ngôi được ba ngày đã bị em là Lê Long Đĩnh giết, và các quan sợ hãi bỏ đi hết."
+ },
+ {
+  "n": 18015,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Chỉ riêng Lý Công Uẩn ở lại ôm xác nhà vua mà khóc, nên Lê Long Đĩnh khen ông là người trung thành."
+ },
+ {
+  "n": 18016,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Ông được làm phó chỉ huy quân canh giữ kinh thành, rồi thăng đến chức Tả thân vệ điện tiền chỉ huy sứ, đứng đầu đội quân canh giữ cung vua."
+ },
+ {
+  "n": 18017,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Nhưng vị vua mới không phải người dễ phục vụ, vì Lê Long Đĩnh thích giết người và nổi tiếng là một ông vua bạo ngược."
+ },
+ {
+  "n": 18018,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Một lần vua ăn quả khế thì thấy hạt mận, mà chữ Lý trong tên họ cũng có nghĩa là cây mận, nên vua tin đó là lời sấm."
+ },
+ {
+  "n": 18019,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Từ đó vua ngầm cho người đi tìm giết những người họ Lý, vậy mà Lý Công Uẩn đang đứng ngay bên cạnh vua và vua vẫn không hề biết."
+ },
+ {
+  "n": 18020,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Về sau Lê Long Đĩnh mắc bệnh trĩ nặng, phải nằm để nghe việc triều đình, nên người đời gọi là Lê Ngọa Triều, nghĩa là ông vua nằm nghe việc nước."
+ },
+ {
+  "n": 18021,
+  "chuong": "Người giữ cung nhà Lê",
+  "tone": "story",
+  "text": "Mùa đông năm một nghìn không trăm linh chín, Lê Long Đĩnh qua đời, và người con nối ngôi lúc ấy còn quá bé."
  },
  {
   "n": 18022,
-  "chuong": "Người giữ cung điện",
+  "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Các quan sợ hãi bỏ đi hết, chỉ riêng Lý Công Uẩn đến ôm xác nhà vua mà khóc."
+  "text": "Lúc ấy Lý Công Uẩn và Nguyễn Đê mỗi người dẫn năm trăm quân vào canh trong cung, nên sức mạnh lớn nhất của hoàng cung nằm trong tay họ."
  },
  {
   "n": 18023,
-  "chuong": "Người giữ cung điện",
+  "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Lê Long Đĩnh nghe chuyện thì khen ông là người trung thành."
+  "text": "Một viên quan hầu cận tên Đào Cam Mộc nhận ra điều đó, nên nhân lúc vắng người ông ta nói khích."
  },
  {
   "n": 18024,
-  "chuong": "Người giữ cung điện",
+  "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Lúc ấy ông được cho làm phó chỉ huy quân bảo vệ bốn mặt kinh thành, rồi thăng đến chức Tả thân vệ điện tiền chỉ huy sứ."
+  "text": "Ông ta bảo vua cũ bạo ngược nên trời chán ghét, còn vua nối thì quá nhỏ."
  },
  {
   "n": 18025,
-  "chuong": "Người giữ cung điện",
+  "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Chức ấy đặt ông đứng đầu đội quân canh giữ cung vua."
- },
- {
-  "n": 18026,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Nhưng vị vua mới này không phải người dễ phục vụ."
- },
- {
-  "n": 18027,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Lê Long Đĩnh thích giết người, và nổi tiếng là một ông vua bạo ngược."
- },
- {
-  "n": 18028,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Một lần, vua ăn quả khế thì thấy hạt mận, mà chữ Lý trong tên họ nghĩa là cây mận."
- },
- {
-  "n": 18029,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Vua tin đó là lời sấm, nên ngầm cho người đi tìm giết những người họ Lý."
- },
- {
-  "n": 18030,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Vậy mà Lý Công Uẩn đang đứng ngay bên cạnh vua, và vua vẫn không hề biết."
- },
- {
-  "n": 18031,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Về sau Lê Long Đĩnh mắc bệnh trĩ nặng, đến nỗi phải nằm để nghe việc triều đình."
- },
- {
-  "n": 18032,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Vì thế người đời gọi ông là Lê Ngọa Triều, nghĩa là ông vua nằm nghe việc nước."
- },
- {
-  "n": 18033,
-  "chuong": "Người giữ cung điện",
-  "tone": "story",
-  "text": "Mùa đông năm một nghìn không trăm linh chín, vua qua đời, còn người con nối ngôi thì còn quá bé."
- },
- {
-  "n": 18034,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Lúc ấy Lý Công Uẩn cùng một viên chỉ huy khác là Nguyễn Đê, mỗi người được dẫn năm trăm quân hầu vào làm lính canh trong cung."
- },
- {
-  "n": 18035,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Nghĩa là trong cả hoàng cung, hai người này nắm sức mạnh lớn nhất."
- },
- {
-  "n": 18036,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Một viên quan hầu cận tên là Đào Cam Mộc đã nhận ra điều đó."
- },
- {
-  "n": 18037,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Nhân lúc vắng người, ông ta nói khích."
- },
- {
-  "n": 18038,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Đào Cam Mộc bảo vua cũ bạo ngược nên trời chán ghét, còn vua nối thì quá nhỏ."
- },
- {
-  "n": 18039,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
   "text": "Rồi ông ta hỏi vì sao Lý Công Uẩn không thuận lòng trời, theo ý dân, mà cứ giữ mãi những lễ nhỏ."
  },
  {
-  "n": 18040,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Lý Công Uẩn trong lòng thích lời ấy, nhưng còn ngờ Đào Cam Mộc có mưu khác."
+  "n": 18026,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Lý Công Uẩn thích lời ấy nhưng còn ngờ Đào Cam Mộc có mưu khác, nên ông giả vờ mắng rằng sao lại nói thế, tôi phải bắt ông nộp quan."
  },
  {
-  "n": 18041,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Vì thế ông bèn giả vờ mắng rằng sao lại nói thế, tôi phải bắt ông nộp quan."
- },
- {
-  "n": 18042,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
+  "n": 18027,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
   "text": "Đào Cam Mộc thong thả đáp rằng ông thấy thiên thời nhân sự là như vậy nên mới dám nói, và ông không sợ chết."
  },
  {
-  "n": 18043,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Lúc ấy Lý Công Uẩn mới đáp lại."
+  "n": 18028,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Lúc ấy Lý Công Uẩn mới đáp rằng mình đâu nỡ tố cáo ai, chỉ sợ lời ấy lọt ra ngoài thì cả hai cùng chết."
  },
  {
-  "n": 18044,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Ông bảo mình đâu nỡ tố cáo ai, chỉ sợ lời ấy lọt ra ngoài thì cả hai cùng chết."
+  "n": 18029,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Hôm sau Đào Cam Mộc lại tìm ông, nói rằng ai cũng bảo họ Lý sắp khởi nghiệp lớn, và đây là lúc trời trao người theo, còn ngại gì nữa."
  },
  {
-  "n": 18045,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Hôm sau, Đào Cam Mộc lại tìm ông, nói rằng người trong nước ai cũng bảo họ Lý sắp khởi nghiệp lớn."
- },
- {
-  "n": 18046,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Đào Cam Mộc nói đây là lúc trời trao người theo, còn ngại gì nữa."
- },
- {
-  "n": 18047,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
+  "n": 18030,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
   "text": "Lý Công Uẩn đáp rằng mình hiểu ý ông ta, và ý ấy giống hệt ý sư Vạn Hạnh."
  },
  {
-  "n": 18048,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
+  "n": 18031,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
   "text": "Đào Cam Mộc liền đem chuyện ấy nói với các quan trong triều, và ai cũng vui lòng theo."
  },
  {
-  "n": 18049,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Ngay hôm ấy, họ họp bàn trong triều."
+  "n": 18032,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Ngay hôm ấy họ họp bàn, nói rằng dân chán vua cũ và không ai muốn theo vua nối."
  },
  {
-  "n": 18050,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Họ nói dân chán vua cũ, không ai muốn theo vua nối."
+  "n": 18033,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Họ còn nói nếu không nhân lúc này tôn Lý Công Uẩn lên, lỡ có biến thì chưa chắc còn giữ được cái đầu."
  },
  {
-  "n": 18051,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Họ nói nếu không nhân lúc này tôn Lý Công Uẩn lên, lỡ có biến thì chưa chắc còn giữ được cái đầu."
+  "n": 18034,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Thế là cả triều cùng dìu ông lên chính điện, và trăm quan lạy rạp dưới sân, hô chúc nhà vua sống muôn năm."
  },
  {
-  "n": 18052,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Thế là cả triều cùng dìu ông lên chính điện, và trăm quan lạy rạp dưới sân hô vạn tuế."
+  "n": 18035,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Cuộc đổi ngôi ấy không có một trận giao tranh nào được ghi lại, và tân hoàng đế tha tội cho nhiều người trong cả nước."
  },
  {
-  "n": 18053,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Cuộc đổi ngôi này không có một trận giao tranh nào được ghi lại."
+  "n": 18036,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Ông lấy năm sau làm năm đầu của niên hiệu Thuận Thiên, nghĩa là thuận theo ý trời, còn các quan dâng cho ông một tôn hiệu dài tới năm mươi chữ."
  },
  {
-  "n": 18054,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Tân hoàng đế tha tội cho nhiều người trong cả nước, và lấy năm sau làm năm đầu của niên hiệu Thuận Thiên."
- },
- {
-  "n": 18055,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Thuận Thiên nghĩa là thuận theo ý trời."
- },
- {
-  "n": 18056,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Các quan còn dâng cho ông một tôn hiệu dài tới năm mươi chữ."
- },
- {
-  "n": 18057,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
+  "n": 18037,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
   "text": "Sử gia Ngô Sĩ Liên về sau chê rằng như vậy là nịnh vua, vì người xưa tôn vua nhiều lắm cũng chỉ hơn mười chữ."
  },
  {
-  "n": 18058,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
+  "n": 18038,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
   "text": "Nhà vua truy phong cha là Hiển Khánh Vương, mẹ là Minh Đức Thái hậu, và lập con trai trưởng là Lý Phật Mã làm thái tử."
  },
  {
-  "n": 18059,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Nhà vua còn gả con gái trưởng cho Đào Cam Mộc, và phong ông ta làm Nghĩa Tín Hầu."
+  "n": 18039,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Ông còn gả con gái trưởng cho Đào Cam Mộc và phong người đã ngỏ lời đầu tiên ấy làm Nghĩa Tín Hầu."
  },
  {
-  "n": 18060,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Nhưng ngôi vua đã có, còn một câu hỏi lớn đang chờ."
+  "n": 18040,
+  "chuong": "Lời nói khích và ngôi vua",
+  "tone": "story",
+  "text": "Nhưng ngôi vua đã có thì còn một câu hỏi lớn đang chờ, là triều đình mới của ông sẽ đặt ở đâu."
  },
  {
-  "n": 18061,
-  "chuong": "Ngôi vua không có tiếng giao tranh",
-  "tone": "tense",
-  "text": "Triều đình mới của ông sẽ đặt ở đâu?"
- },
- {
-  "n": 18062,
+  "n": 18041,
   "chuong": "Hoa Lư không còn đủ",
   "tone": "story",
-  "text": "Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước."
+  "text": "Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước giữa những dãy núi đá."
  },
  {
-  "n": 18063,
+  "n": 18042,
   "chuong": "Hoa Lư không còn đủ",
   "tone": "story",
-  "text": "Trong thời loạn, Hoa Lư giữa các dãy núi đá là một nơi dễ giữ."
+  "text": "Trong thời loạn, núi đá che chở khiến Hoa Lư rất dễ giữ, nhưng thời loạn đã qua, và một kinh đô cho thời bình cần nhiều thứ hơn núi đá."
  },
  {
-  "n": 18064,
+  "n": 18043,
   "chuong": "Hoa Lư không còn đủ",
   "tone": "story",
-  "text": "Nhưng thời loạn đã qua, và một kinh đô cho thời bình cần nhiều thứ hơn núi đá che chở."
+  "text": "Nó cần chỗ cho dân cư đông đúc, cần đường đi thuận tiện, và cần đất rộng để thành phố lớn dần."
  },
  {
-  "n": 18065,
-  "chuong": "Hoa Lư không còn đủ",
-  "tone": "story",
-  "text": "Nó cần chỗ cho dân cư đông đúc, cần đường đi thuận tiện, cần đất rộng để thành phố lớn dần."
- },
- {
-  "n": 18066,
+  "n": 18044,
   "chuong": "Hoa Lư không còn đủ",
   "tone": "story",
   "text": "Chính nhà vua nhận xét rằng thành Hoa Lư ẩm thấp và chật hẹp, không đủ làm chỗ ở của bậc đế vương."
  },
  {
-  "n": 18067,
+  "n": 18045,
   "chuong": "Hoa Lư không còn đủ",
   "tone": "story",
-  "text": "Hơn nữa, hai triều đại trước đều ngồi ở đây và đều ngắn ngủi."
+  "text": "Hơn nữa, hai triều đại trước đều ngồi ở đây, và cả hai đều ngắn ngủi."
  },
  {
-  "n": 18068,
+  "n": 18046,
   "chuong": "Hoa Lư không còn đủ",
   "tone": "story",
-  "text": "Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và chỉ tồn tại hai mươi chín năm."
+  "text": "Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm."
  },
  {
-  "n": 18069,
-  "chuong": "Hoa Lư không còn đủ",
+  "n": 18047,
+  "chuong": "Đại La bên sông",
   "tone": "story",
-  "text": "Lý Công Uẩn muốn tránh con đường ấy, nên ông tìm một vùng đất khác."
+  "text": "Lý Công Uẩn muốn tránh con đường ấy, nên ông nhìn về thành Đại La bên sông Hồng."
  },
  {
-  "n": 18070,
-  "chuong": "Hoa Lư không còn đủ",
+  "n": 18048,
+  "chuong": "Đại La bên sông",
   "tone": "story",
-  "text": "Ông chọn thành Đại La bên sông Hồng."
+  "text": "Đại La là tòa thành cũ do tướng Cao Biền của nhà Đường cho đắp từ năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước đó."
  },
  {
-  "n": 18071,
-  "chuong": "Đại La, thành cũ bên sông",
+  "n": 18049,
+  "chuong": "Đại La bên sông",
   "tone": "story",
-  "text": "Đại La là một tòa thành cũ, do tướng Cao Biền của nhà Đường cho đắp từ năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước."
+  "text": "Thời nhà Đường đây là nơi các quan cai trị đất Giao Châu, và chính bản chiếu của vua gọi nó là đô cũ của Cao Vương."
  },
  {
-  "n": 18072,
-  "chuong": "Đại La, thành cũ bên sông",
+  "n": 18050,
+  "chuong": "Đại La bên sông",
   "tone": "story",
-  "text": "Chính bản chiếu của nhà vua gọi nó là đô cũ của Cao Vương."
+  "text": "Vị trí của thành rất đặc biệt vì sông Hồng chảy ngay bên cạnh, nên thuyền bè từ nhiều nơi có thể cập bến."
  },
  {
-  "n": 18073,
-  "chuong": "Đại La, thành cũ bên sông",
+  "n": 18051,
+  "chuong": "Đại La bên sông",
   "tone": "story",
-  "text": "Thời nhà Đường, Đại La là nơi các quan cai trị đất Giao Châu."
+  "text": "Đất đai quanh thành lại rộng rãi và bằng phẳng, đúng là chỗ để một kinh đô lớn lên thành một thành phố."
  },
  {
-  "n": 18074,
-  "chuong": "Đại La, thành cũ bên sông",
+  "n": 18052,
+  "chuong": "Đại La bên sông",
   "tone": "story",
-  "text": "Vị trí của nó rất đặc biệt, vì sông Hồng chảy ngay bên cạnh."
+  "text": "Nhưng dời kinh đô là bỏ những cung điện đã dựng để dựng lại từ đầu ở một nơi xa, nên nhà vua cần một lý lẽ thật vững."
  },
  {
-  "n": 18075,
-  "chuong": "Đại La, thành cũ bên sông",
-  "tone": "story",
-  "text": "Thuyền bè từ nhiều nơi có thể cập bến, và đất đai quanh thành rộng rãi, bằng phẳng."
- },
- {
-  "n": 18076,
-  "chuong": "Đại La, thành cũ bên sông",
-  "tone": "story",
-  "text": "Đây là chỗ mà một kinh đô có thể lớn lên thành một thành phố."
- },
- {
-  "n": 18077,
-  "chuong": "Đại La, thành cũ bên sông",
-  "tone": "story",
-  "text": "Nhưng dời kinh đô không phải việc nhỏ."
- },
- {
-  "n": 18078,
-  "chuong": "Đại La, thành cũ bên sông",
-  "tone": "story",
-  "text": "Làm vậy là bỏ những cung điện đã dựng, rồi dựng lại từ đầu ở một nơi xa."
- },
- {
-  "n": 18079,
-  "chuong": "Đại La, thành cũ bên sông",
-  "tone": "story",
-  "text": "Muốn làm điều ấy, nhà vua cần một lý lẽ thật vững."
- },
- {
-  "n": 18080,
+  "n": 18053,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Mùa xuân năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp, quê mình."
+  "text": "Mùa xuân năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp, quê mình, và ban tiền lụa cho các cụ già trong làng theo từng bậc khác nhau."
  },
  {
-  "n": 18081,
+  "n": 18054,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Nhà vua ban tiền và lụa cho các cụ già trong làng, theo từng bậc khác nhau."
+  "text": "Cũng trong năm ấy ông sai sứ sang nhà Tống để giữ hòa hảo, rồi tự tay viết bản chiếu dời đô, văn bản nhà vua gửi cho cả triều đình."
  },
  {
-  "n": 18082,
+  "n": 18055,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Cũng trong năm ấy, ông sai sứ sang nhà Tống để kết hảo."
+  "text": "Bản chiếu mở đầu bằng chuyện xưa của Trung Hoa, rằng nhà Thương đến đời vua Bàn Canh đã năm lần dời đô, còn nhà Chu cũng ba lần."
  },
  {
-  "n": 18083,
+  "n": 18056,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Rồi ông tự tay viết bản chiếu dời đô, văn bản nhà vua gửi cho cả triều đình."
+  "text": "Theo bản chiếu, các vua ấy không dời đô bừa theo ý riêng, mà làm vậy để mưu nghiệp lớn và lo cho con cháu muôn đời."
  },
  {
-  "n": 18084,
+  "n": 18057,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Bản chiếu mở đầu bằng chuyện xưa của Trung Hoa."
+  "text": "Rồi ông nói thẳng về hai triều đại ngay trước mình, rằng nhà Đinh và nhà Tiền Lê theo ý riêng, cứ yên đóng đô một chỗ."
  },
  {
-  "n": 18085,
+  "n": 18058,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Nhà Thương đến đời vua Bàn Canh đã năm lần dời đô, còn nhà Chu đến đời vua Thành Vương cũng ba lần dời đô."
+  "text": "Vì thế, nhà vua viết, vận nước ngắn ngủi và trăm họ hao tổn, nên ông rất đau đớn mà không thể không dời."
  },
  {
-  "n": 18086,
+  "n": 18059,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Theo bản chiếu, các vua ấy không phải dời đô bừa theo ý riêng, mà làm vậy để mưu nghiệp lớn và lo cho con cháu muôn đời."
+  "text": "Tiếp đó ông tả Đại La bằng những lời đầy tự hào, rằng thành ở giữa vùng trời đất, thế đất như rồng cuộn hổ ngồi."
  },
  {
-  "n": 18087,
-  "chuong": "Lá chiếu dời đô",
-  "tone": "story",
-  "text": "Rồi ông nói thẳng về hai triều đại ngay trước mình."
- },
- {
-  "n": 18088,
-  "chuong": "Lá chiếu dời đô",
-  "tone": "story",
-  "text": "Nhà Đinh và nhà Tiền Lê theo ý riêng, không noi theo việc cũ của nhà Thương nhà Chu, cứ yên đóng đô một chỗ."
- },
- {
-  "n": 18089,
-  "chuong": "Lá chiếu dời đô",
-  "tone": "story",
-  "text": "Nhà vua viết rằng vì thế vận nước ngắn ngủi, trăm họ hao tổn, nên ông rất đau đớn mà không thể không dời."
- },
- {
-  "n": 18090,
-  "chuong": "Lá chiếu dời đô",
-  "tone": "story",
-  "text": "Tiếp đó ông tả Đại La bằng những lời đầy tự hào."
- },
- {
-  "n": 18091,
-  "chuong": "Lá chiếu dời đô",
-  "tone": "story",
-  "text": "Bản chiếu viết rằng thành ở giữa vùng trời đất, thế đất như rồng cuộn hổ ngồi, đúng giữa bốn phương nam bắc đông tây."
- },
- {
-  "n": 18092,
+  "n": 18060,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
   "text": "Đất ở đó rộng mà bằng phẳng, cao mà sáng sủa, dân không khổ vì thấp trũng tối tăm, muôn vật đều tươi tốt."
  },
  {
-  "n": 18093,
+  "n": 18061,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
   "text": "Kết lại, nhà vua cho rằng đó là nơi tụ hội quan trọng của bốn phương, xứng đáng làm kinh đô muôn đời."
  },
  {
-  "n": 18094,
+  "n": 18062,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Và ở cuối bản chiếu, ông hỏi câu mà video này mở đầu."
+  "text": "Cuối bản chiếu, ông hỏi bầy tôi rằng trẫm muốn nhân thế đất tốt ấy để định nơi ở, các khanh nghĩ thế nào?"
  },
  {
-  "n": 18095,
+  "n": 18063,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Trẫm muốn nhân thế đất tốt ấy để định nơi ở, các khanh nghĩ thế nào?"
+  "text": "Bầy tôi đáp rằng bệ hạ vì thiên hạ lập kế lâu dài, điều lợi như thế thì ai dám không theo, và nhà vua cả mừng."
  },
  {
-  "n": 18096,
-  "chuong": "Lá chiếu dời đô",
+  "n": 18064,
+  "chuong": "Con thuyền dưới chân thành",
   "tone": "story",
-  "text": "Bầy tôi đáp rằng bệ hạ vì thiên hạ lập kế lâu dài, điều lợi như thế thì ai dám không theo."
+  "text": "Mùa thu, tháng bảy năm một nghìn không trăm mười, nhà vua rời thành Hoa Lư để ra thành Đại La, và thuyền ngự tạm đỗ dưới chân thành."
  },
  {
-  "n": 18097,
-  "chuong": "Lá chiếu dời đô",
+  "n": 18065,
+  "chuong": "Con thuyền dưới chân thành",
   "tone": "story",
-  "text": "Nghe bầy tôi đồng lòng như vậy, nhà vua cả mừng."
+  "text": "Từ chỗ ấy người xưa kể lại một chi tiết rất lạ, rằng có một con rồng vàng hiện lên trên thuyền của nhà vua."
  },
  {
-  "n": 18098,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18066,
+  "chuong": "Con thuyền dưới chân thành",
   "tone": "story",
-  "text": "Mùa thu, tháng bảy năm một nghìn không trăm mười, nhà vua rời thành Hoa Lư để ra thành Đại La."
+  "text": "Đây là điềm lạ do người xưa ghi lại chứ không ai chứng minh được, nhưng ý nghĩa của nó thì rõ ràng."
  },
  {
-  "n": 18099,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18067,
+  "chuong": "Con thuyền dưới chân thành",
   "tone": "story",
-  "text": "Thuyền ngự tạm đỗ dưới chân thành."
+  "text": "Người ta muốn nói rằng đất này được trời chấp nhận và vị vua này là người được chọn. Nhà vua đổi tên thành thành Thăng Long, nghĩa là rồng bay lên."
  },
  {
-  "n": 18100,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18068,
+  "chuong": "Con thuyền dưới chân thành",
   "tone": "story",
-  "text": "Từ chỗ ấy, người xưa kể lại một chi tiết rất lạ."
+  "text": "Cái tên ấy do chính ông đặt, và nó sống lâu hơn cả triều đại nhà Lý."
  },
  {
-  "n": 18101,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18069,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Theo lời kể, có một con rồng vàng hiện lên trên thuyền của nhà vua."
+  "text": "Có tên rồi thì phải có cung điện, nên phía trước nhà vua dựng điện Càn Nguyên làm nơi coi chầu, hai bên là điện Tập Hiền và điện Giảng Võ."
  },
  {
-  "n": 18102,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18070,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Đây là điềm lạ do người xưa ghi lại, chứ không ai có thể chứng minh nó có thật."
+  "text": "Sau điện Càn Nguyên là hai điện Long An và Long Thụy, nơi nhà vua nghỉ ngơi, rồi ông cho dựng kho tàng, đắp thành và đào hào."
  },
  {
-  "n": 18103,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18071,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Nhưng ý nghĩa của điềm ấy thì rõ ràng."
+  "text": "Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức."
  },
  {
-  "n": 18104,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18072,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Người ta muốn nói rằng đất này được trời chấp nhận, và vị vua này là người được chọn."
+  "text": "Hãy nhớ cánh cửa phía tây ấy, vì mười tám năm sau hai người con của ông sẽ nấp sau nó."
  },
  {
-  "n": 18105,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18073,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Nhân đó nhà vua đổi tên thành thành Thăng Long, nghĩa là rồng bay lên."
+  "text": "Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc, châu Cổ Pháp quê ông thành phủ Thiên Đức, còn thành Hoa Lư thành phủ Trường Yên."
  },
  {
-  "n": 18106,
-  "chuong": "Rồng hiện trên sông",
+  "n": 18074,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Cái tên ấy do ông đặt, và nó sống lâu hơn cả triều đại nhà Lý."
+  "text": "Tháng mười hai cung Thúy Hoa xây xong, và nhân dịp khánh thành ông tha thuế cho cả nước trong ba năm."
  },
  {
-  "n": 18107,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18075,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Có tên rồi, giờ phải có cung điện."
+  "text": "Những người mồ côi, góa chồng, già yếu mà còn thiếu thuế từ lâu cũng được tha hết."
  },
  {
-  "n": 18108,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18076,
+  "chuong": "Bốn cánh cửa và các điện",
   "tone": "story",
-  "text": "Phía trước, nhà vua dựng điện Càn Nguyên làm nơi coi chầu, hai bên là điện Tập Hiền và điện Giảng Võ."
+  "text": "Cũng năm ấy nhà Tống phong ông là Giao Chỉ quận vương, nên kinh đô mới vừa dựng đã được nước láng giềng phương bắc công nhận."
  },
  {
-  "n": 18109,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18077,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Sau điện Càn Nguyên là hai điện Long An và Long Thụy, nơi nhà vua nghỉ ngơi."
+  "text": "Dời đô chỉ là bước đầu, vì cùng năm ấy ông đổi mười đạo thành hai mươi bốn lộ để chia nhỏ đất nước cho dễ cai quản."
  },
  {
-  "n": 18110,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18078,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Nhà vua cho dựng kho tàng, đắp thành, đào hào, và mở bốn cửa thành."
+  "text": "Năm sau ông đem sáu quân đi đánh giặc Cử Long ở Ái Châu, bọn giặc mà hai triều Đinh và Lê đều không đánh nổi."
  },
  {
-  "n": 18111,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18079,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng, cửa phía bắc tên Diệu Đức."
+  "text": "Lần này nhà vua đốt các bộ lạc của chúng và bắt kẻ đầu sỏ, nên giặc ấy tan."
  },
  {
-  "n": 18112,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18080,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc."
+  "text": "Năm một nghìn không trăm mười hai ông thân chinh đi đánh Diễn Châu, và trên đường về, đến vùng biển Biện Sơn, trời đất bỗng tối sầm, gió sấm dữ dội."
  },
  {
-  "n": 18113,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18081,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Châu Cổ Pháp, quê ông, thành phủ Thiên Đức, còn thành Hoa Lư thành phủ Trường Yên."
+  "text": "Nhà vua đốt hương khấn rằng mình là người ít đức, không dám cậy binh uy mà đánh bừa, vì Diễn Châu làm điều tàn ngược nên buộc phải đánh."
  },
  {
-  "n": 18114,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18082,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Tháng mười hai, cung Thúy Hoa xây xong, và nhà vua làm lễ khánh thành."
+  "text": "Ông xin rằng nếu lỡ giết oan người hiền thì trời cứ trách riêng mình, và người ta kể rằng khấn xong gió sấm đều yên lặng."
  },
  {
-  "n": 18115,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18083,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Nhân dịp ấy ông tha thuế cho cả nước trong ba năm."
+  "text": "Năm một nghìn không trăm mười ba ông định ra các thứ thuế trong nước, chia làm sáu loại, rồi năm sau quân Nam Chiếu tràn vào cướp ở phía bắc."
  },
  {
-  "n": 18116,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18084,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Những người mồ côi, góa chồng, già yếu mà còn thiếu thuế từ lâu thì được tha hết."
+  "text": "Nhà vua sai Dực Thánh Vương đem quân đánh thắng lớn ở bến Kim Hoa, bắt được rất nhiều quân và ngựa."
  },
  {
-  "n": 18117,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18085,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Cũng năm ấy, nhà Tống phong ông là Giao Chỉ quận vương, kiêm chức quan cai quản vùng Tĩnh Hải."
+  "text": "Ông cho đem một trăm con ngựa bắt được sang biếu nhà Tống, và vua Tống sai quan đón tiếp sứ giả suốt dọc đường, rồi ban thưởng mũ, đai, tiền bạc."
  },
  {
-  "n": 18118,
-  "chuong": "Dựng kinh đô mới",
+  "n": 18086,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Như vậy, kinh đô mới vừa dựng, nước láng giềng phương bắc cũng đã công nhận ông."
+  "text": "Bên cạnh việc quân, nhà vua dốc sức cho Phật giáo, cho xây nhiều chùa, đúc chuông, chép kinh Tam tạng, và cho hơn một nghìn người ở kinh đô đi tu."
  },
  {
-  "n": 18119,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Dời đô chỉ là bước đầu, còn nhiều việc khác đang đợi."
- },
- {
-  "n": 18120,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Cùng năm ấy, ông đổi mười đạo thành hai mươi bốn lộ, để chia nhỏ đất nước cho dễ cai quản."
- },
- {
-  "n": 18121,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Năm sau, ông đem quân đi đánh giặc Cử Long ở Ái Châu."
- },
- {
-  "n": 18122,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Bọn giặc này hung dữ đến nỗi hai triều Đinh và Lê đều không đánh nổi."
- },
- {
-  "n": 18123,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Nhà vua đem sáu quân đi đánh, đốt các bộ lạc của chúng, bắt kẻ đầu sỏ, và giặc ấy tan."
- },
- {
-  "n": 18124,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Năm một nghìn không trăm mười hai, ông lại thân chinh đi đánh Diễn Châu."
- },
- {
-  "n": 18125,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Trên đường về, đến vùng biển Biện Sơn, trời đất bỗng tối sầm, gió sấm dữ dội."
- },
- {
-  "n": 18126,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Nhà vua đốt hương khấn rằng mình là người ít đức, không dám cậy binh uy mà đánh bừa."
- },
- {
-  "n": 18127,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Lời khấn nói rằng Diễn Châu không theo giáo hóa, làm điều tàn ngược nên buộc phải đánh, và nếu lỡ giết oan người hiền thì xin trời trách riêng mình."
- },
- {
-  "n": 18128,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Khấn xong, người ta kể rằng gió sấm đều yên lặng."
- },
- {
-  "n": 18129,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Năm một nghìn không trăm mười ba, ông định ra các thứ thuế trong nước, chia làm sáu loại."
- },
- {
-  "n": 18130,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Năm sau, một đạo quân Nam Chiếu tràn vào cướp ở phía bắc, đóng trại ở bến Kim Hoa."
- },
- {
-  "n": 18131,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Vua sai Dực Thánh Vương đem quân đi đánh, và đánh thắng lớn, bắt được rất nhiều quân và ngựa."
- },
- {
-  "n": 18132,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Nhà vua cho đem một trăm con ngựa bắt được sang biếu nhà Tống."
- },
- {
-  "n": 18133,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Vua Tống sai quan đón tiếp sứ giả suốt dọc đường, rồi tiếp ở điện Sùng Đức và ban thưởng mũ, đai, tiền bạc."
- },
- {
-  "n": 18134,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Bên cạnh việc quân, nhà vua dốc sức cho Phật giáo."
- },
- {
-  "n": 18135,
-  "chuong": "Cách ông trị nước",
-  "tone": "story",
-  "text": "Nhà vua cho xây nhiều chùa, đúc chuông, chép kinh Tam tạng, và cho hơn một nghìn người ở kinh đô được xuất gia làm sư."
- },
- {
-  "n": 18136,
-  "chuong": "Cách ông trị nước",
+  "n": 18087,
+  "chuong": "Những năm trị vì",
   "tone": "story",
   "text": "Sử gia Lê Văn Hưu chê rằng tông miếu chưa dựng mà đã vội xây tám ngôi chùa, rồi trách việc ấy tốn của dân."
  },
  {
-  "n": 18137,
-  "chuong": "Cách ông trị nước",
+  "n": 18088,
+  "chuong": "Những năm trị vì",
   "tone": "story",
   "text": "Chuyện ấy cũng dễ hiểu, vì ông từng lớn lên bên nhà thiền sư và suốt thời trị vì vẫn dành cho đạo Phật sự coi trọng ấy."
  },
  {
-  "n": 18138,
-  "chuong": "Cách ông trị nước",
+  "n": 18089,
+  "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Năm một nghìn không trăm mười lăm, Đào Cam Mộc, người từng thuyết phục ông nhận ngôi, qua đời."
+  "text": "Năm một nghìn không trăm mười lăm Đào Cam Mộc, người từng khuyên ông nhận ngôi, qua đời, và nhà vua tặng ông ta chức Thái sư á vương."
  },
  {
-  "n": 18139,
-  "chuong": "Cách ông trị nước",
+  "n": 18090,
+  "chuong": "Điện Long An",
   "tone": "story",
-  "text": "Nhà vua tặng ông ta chức Thái sư á vương."
+  "text": "Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương."
  },
  {
-  "n": 18140,
-  "chuong": "Những năm cuối",
+  "n": 18091,
+  "chuong": "Điện Long An",
   "tone": "story",
-  "text": "Mười tám năm trôi qua kể từ khi ông dời đô."
+  "text": "Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi. Mùa xuân năm một nghìn không trăm hai mươi tám, nhà vua không khỏe."
  },
  {
-  "n": 18141,
-  "chuong": "Những năm cuối",
+  "n": 18092,
+  "chuong": "Điện Long An",
   "tone": "story",
-  "text": "Kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương."
+  "text": "Rồi đến ngày mồng một tháng ba âm lịch, khi trời có nhật thực, và hai ngày sau nhà vua mất ngay tại điện Long An do chính ông dựng."
  },
  {
-  "n": 18142,
-  "chuong": "Những năm cuối",
+  "n": 18093,
+  "chuong": "Điện Long An",
   "tone": "story",
-  "text": "Thái tử Lý Phật Mã đã trưởng thành, từng thay cha cầm quân đi đánh các nơi."
+  "text": "Ông thọ năm mươi lăm tuổi theo cách tính của người xưa, tức là hơn năm mươi bốn tuổi tròn, ở ngôi mười tám năm và được an táng ở Thọ Lăng."
  },
  {
-  "n": 18143,
-  "chuong": "Những năm cuối",
-  "tone": "story",
-  "text": "Mùa xuân năm một nghìn không trăm hai mươi tám, nhà vua không khỏe."
- },
- {
-  "n": 18144,
-  "chuong": "Những năm cuối",
-  "tone": "story",
-  "text": "Mồng một tháng ba âm lịch, trời có nhật thực."
- },
- {
-  "n": 18145,
-  "chuong": "Những năm cuối",
-  "tone": "story",
-  "text": "Hai ngày sau, nhà vua mất ở điện Long An, thọ năm mươi lăm tuổi theo cách tính của người xưa, tức là hơn năm mươi bốn tuổi tròn."
- },
- {
-  "n": 18146,
-  "chuong": "Những năm cuối",
-  "tone": "story",
-  "text": "Nhà vua ở ngôi mười tám năm, và được an táng ở Thọ Lăng."
- },
- {
-  "n": 18147,
-  "chuong": "Những năm cuối",
+  "n": 18094,
+  "chuong": "Điện Long An",
   "tone": "story",
   "text": "Người xưa đánh giá ông là người khoan thứ nhân từ, hòa nhã, có lượng của bậc đế vương."
  },
  {
-  "n": 18148,
-  "chuong": "Những năm cuối",
+  "n": 18095,
+  "chuong": "Điện Long An",
   "tone": "story",
   "text": "Nhưng người xưa cũng trách rằng ông chưa làm sáng tỏ đạo học, lại ưa tin điềm lạ."
  },
  {
-  "n": 18149,
-  "chuong": "Những năm cuối",
+  "n": 18096,
+  "chuong": "Cánh cửa Quảng Phúc",
   "tone": "story",
-  "text": "Nhà Lý chưa kịp lo tang xong thì một mối nguy đã nổ ra ngay trong hoàng tộc."
+  "text": "Nhà Lý chưa kịp lo xong tang thì mối nguy đã nổ ra ngay trong hoàng tộc, đúng tại cánh cửa mà ta đã gặp lúc đầu."
  },
  {
-  "n": 18150,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Các quan đều đến cung Long Đức, xin thái tử Lý Phật Mã vâng di chiếu lên ngôi."
+  "n": 18097,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Ba người em của thái tử Lý Phật Mã là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đã đem quân phủ mình vào ẩn sẵn trong thành."
  },
  {
-  "n": 18151,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Nhưng ba người em của thái tử, là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương, đã đem quân phủ mình vào ẩn sẵn trong thành."
+  "n": 18098,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Đông Chinh Vương nấp ở Long Thành, còn Dực Thánh Vương và Vũ Đức Vương nấp ở cửa Quảng Phúc, chờ thái tử đi qua để đánh úp."
  },
  {
-  "n": 18152,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Đông Chinh Vương nấp ở Long Thành, còn Dực Thánh Vương và Vũ Đức Vương nấp ở cửa Quảng Phúc."
+  "n": 18099,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Một lát sau thái tử đi vào từ cửa Tường Phù, đến điện Càn Nguyên thì nhận ra có biến."
  },
  {
-  "n": 18153,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Họ chờ thái tử đi qua để đánh úp."
+  "n": 18100,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Ông cho đóng hết các cửa điện và sai lính canh trong cung phòng giữ."
  },
  {
-  "n": 18154,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Một lát sau, thái tử đi vào từ cửa Tường Phù, đến điện Càn Nguyên thì nhận ra có biến."
+  "n": 18101,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Ông nói với những người xung quanh rằng mình không hề phụ bạc anh em, mà ba vương lại quên lời cha dặn, định chiếm ngôi báu."
  },
  {
-  "n": 18155,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Thái tử cho đóng hết các cửa điện, và sai lính canh trong cung phòng giữ."
+  "n": 18102,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Viên nội thị Lý Nhân Nghĩa xin cho đánh một trận để quyết thua được, nhưng thái tử chưa chịu."
  },
  {
-  "n": 18156,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Rồi ông nói với những người xung quanh rằng mình không hề phụ bạc anh em, mà ba vương lại quên di mệnh của vua cha, định chiếm ngôi báu."
+  "n": 18103,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Thái tử im lặng hồi lâu rồi nói rằng vua cha vừa mất chưa kịp quàn mà anh em đã giết nhau thì muôn đời sẽ chê cười."
  },
  {
-  "n": 18157,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Viên nội thị Lý Nhân Nghĩa xin cho đánh một trận để quyết thua được."
+  "n": 18104,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Ông muốn che giấu tội của ba vương để họ tự rút quân, giữ trọn tình ruột thịt, nhưng quân của ba vương lại bao vây càng gấp."
  },
  {
-  "n": 18158,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Thái tử im lặng, rồi nói rằng vua cha vừa mất chưa kịp quàn mà anh em đã giết nhau thì muôn đời sẽ chê cười."
+  "n": 18105,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Lúc ấy thái tử nói rằng nếu thế thì ông chỉ còn biết mặc áo tang đứng hầu vua cha, còn việc còn lại giao cho các quan."
  },
  {
-  "n": 18159,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Ông còn nói muốn che giấu tội của ba vương, để họ tự rút quân mà giữ trọn tình ruột thịt."
+  "n": 18106,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Lý Nhân Nghĩa cùng các quan lạy hai lạy, nói rằng chết vì vua gặp nạn là bổn phận của họ, rồi ra lệnh mở cửa cho vệ sĩ xông ra đánh."
  },
  {
-  "n": 18160,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Nhưng quân của ba vương bao vây càng gấp."
+  "n": 18107,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Vệ sĩ trong cung ai cũng vui lòng xông pha, mỗi người địch với trăm người, nhưng hai bên giao chiến mãi chưa phân thắng bại."
  },
  {
-  "n": 18161,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Thái tử nói rằng nếu thế thì ông chỉ biết mặc áo tang đứng hầu vua cha, còn việc còn lại giao cho các quan."
+  "n": 18108,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Bỗng tướng Lê Phụng Hiểu tức giận rút gươm, chạy thẳng tới cửa Quảng Phúc."
  },
  {
-  "n": 18162,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Lý Nhân Nghĩa cùng các quan lạy hai lạy, nói rằng chết vì vua gặp nạn là bổn phận của họ."
+  "n": 18109,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Ông hô lớn rằng Vũ Đức Vương nhòm ngó ngôi báu, trên quên ơn vua cha, dưới trái nghĩa tôi con."
  },
  {
-  "n": 18163,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Họ ra lệnh mở cửa, và vệ sĩ trong cung xông ra đánh, mỗi người địch với trăm người."
+  "n": 18110,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Rồi ông xông thẳng tới chỗ ngựa của Vũ Đức Vương, vương quay ngựa tránh nhưng ngựa quỵ xuống, và Vũ Đức Vương bị Lê Phụng Hiểu bắt giết."
  },
  {
-  "n": 18164,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Hai bên giao chiến mãi chưa phân thắng bại."
+  "n": 18111,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Quân của ba vương thua chạy, và chỉ có hai vương Đông Chinh cùng Dực Thánh thoát được."
  },
  {
-  "n": 18165,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Bỗng một viên tướng tên Lê Phụng Hiểu tức giận rút gươm, chạy thẳng tới cửa Quảng Phúc."
+  "n": 18112,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Lê Phụng Hiểu trở về, mặc nguyên áo trận vào báo tin thắng ngay trước linh cữu của vua cha, rồi sang điện Càn Nguyên báo cho thái tử."
  },
  {
-  "n": 18166,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Giữa trận, ông hô lớn rằng Vũ Đức Vương nhòm ngó ngôi báu, trên quên ơn vua cha, dưới trái nghĩa tôi con."
+  "n": 18113,
+  "chuong": "Cánh cửa Quảng Phúc",
+  "tone": "story",
+  "text": "Thái tử khen rằng ông còn trung dũng hơn cả Uất Trì Kính Đức, vị công thần nổi tiếng của nhà Đường, rồi lên ngôi, và đó là vua Lý Thái Tông."
  },
  {
-  "n": 18167,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Rồi ông xông thẳng tới chỗ ngựa của Vũ Đức Vương."
- },
- {
-  "n": 18168,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Vương quay ngựa tránh, nhưng ngựa quỵ xuống, và Vũ Đức Vương bị Lê Phụng Hiểu bắt giết."
- },
- {
-  "n": 18169,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Quân của ba vương thua chạy, và chỉ hai vương Đông Chinh cùng Dực Thánh thoát được."
- },
- {
-  "n": 18170,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Lê Phụng Hiểu trở về, mặc nguyên áo trận vào báo tin thắng ngay trước linh cữu Lý Thái Tổ."
- },
- {
-  "n": 18171,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Thái tử khen rằng ông còn trung dũng hơn cả Uất Trì Kính Đức, vị công thần nổi tiếng của nhà Đường."
- },
- {
-  "n": 18172,
-  "chuong": "Ba vị vương phục binh",
-  "tone": "tense",
-  "text": "Thái tử lên ngôi, và đó là vua Lý Thái Tông."
- },
- {
-  "n": 18173,
+  "n": 18114,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An đều do Lý Công Uẩn dựng năm một nghìn không trăm mười."
+  "tone": "story",
+  "text": "Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười."
  },
  {
-  "n": 18174,
+  "n": 18115,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Mười tám năm sau, chính những nơi ấy là chỗ ông qua đời, và chỗ con ông phải giữ lấy ngai vàng."
+  "tone": "story",
+  "text": "Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ."
  },
  {
-  "n": 18175,
+  "n": 18116,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Một đứa trẻ sống nhờ nhà thiền sư đã thành người nắm quân bảo vệ cung điện."
+  "tone": "story",
+  "text": "Không ai biết ông có nghĩ trước đến ngày năm một nghìn không trăm hai mươi tám ấy hay không."
  },
  {
-  "n": 18176,
+  "n": 18117,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Người ấy được bầy tôi tôn lên làm vua mà không có trận giao tranh nào được ghi lại."
+  "tone": "story",
+  "text": "Nhưng đến ngày ấy kinh đô ông dựng vẫn đứng vững, và ngôi vua vẫn truyền được cho con."
  },
  {
-  "n": 18177,
+  "n": 18118,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Và vị vua ấy dám bỏ kinh đô cũ chật hẹp, để dựng một kinh đô mới ở vùng đất rộng mở bên sông."
+  "tone": "story",
+  "text": "Nhà Lý giữ ngôi hơn hai trăm năm, còn cái tên Thăng Long mà ông đặt cho nơi con thuyền dừng lại cũng sống lâu hơn cả triều đại của ông."
  },
  {
-  "n": 18178,
+  "n": 18119,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Quyết định năm một nghìn không trăm mười của ông là một trong những quyết định lớn nhất lịch sử nước Việt."
+  "tone": "story",
+  "text": "Mười tám năm trước ông chỉ hỏi bầy tôi một câu, rằng nhân đất tốt ấy mà định nơi ở thì các khanh nghĩ thế nào."
  },
  {
-  "n": 18179,
+  "n": 18120,
   "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Vì nó cho thấy một triều đại muốn đi xa không chỉ cần quân mạnh, mà cần cả một vùng đất đủ rộng để lớn lên."
- },
- {
-  "n": 18180,
-  "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Câu hỏi của ông năm xưa vẫn còn nguyên."
- },
- {
-  "n": 18181,
-  "chuong": "Kết",
-  "tone": "reflect",
-  "text": "Nếu là bầy tôi đứng trong triều hôm ấy, bạn sẽ trả lời ra sao?"
+  "tone": "story",
+  "text": "Và ở cánh cửa Quảng Phúc, cánh cửa phía tây ông dựng, một cuộc tranh ngôi trong chính con cháu ông đã kết thúc."
  }
 ]

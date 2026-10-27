@@ -122,7 +122,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18016 | Người giữ cung nhà Lê | Mùa đông năm ấy Lê Long Việt lên ngôi, và ba ngày sau bị em là Lê Long Đĩnh giết rồi lên thay. |  |
 | 18017 | Người giữ cung nhà Lê | Các quan sợ hãi bỏ chạy hết, chỉ riêng Lý Công Uẩn ở lại ôm xác nhà vua mà khóc. |  |
 | 18018 | Người giữ cung nhà Lê | Thấy vậy, Lê Long Đĩnh khen ông là người trung thành. |  |
-| 18019 | Người giữ cung nhà Lê | Vua cho ông giữ quân canh kinh thành, rồi thăng dần đến chức đứng đầu đội quân canh giữ cung vua. |  |
+| 18019 | Người giữ cung nhà Lê | Vua cho ông làm phó chỉ huy quân bảo vệ kinh thành, rồi thăng dần đến chức chỉ huy quân bảo vệ vua. |  |
 | 18020 | Người giữ cung nhà Lê | Nhưng phục vụ vị vua mới không hề dễ, vì Lê Long Đĩnh thích giết người và nổi tiếng là một ông vua bạo ngược. |  |
 | 18021 | Người giữ cung nhà Lê | Có lần vua ăn quả khế thấy hạt mận, mà chữ Lý cũng có nghĩa là cây mận, nên vua tin đó là điềm báo người họ Lý sẽ làm vua. |  |
 | 18022 | Người giữ cung nhà Lê | Từ đó vua ngầm cho người tìm giết những người họ Lý. |  |
@@ -130,7 +130,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18024 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc bệnh trĩ nặng, phải nằm nghe việc triều đình, nên người đời gọi ông là Lê Ngọa Triều, nghĩa là vua nằm nghe việc nước. |  |
 | 18025 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, Lê Long Đĩnh qua đời. | 1009: ngày Tân Hợi = 19/11/1009 |
 | 18026 | Người giữ cung nhà Lê | Người con nối ngôi của ông còn quá nhỏ, chưa thể tự lo việc nước. |  |
-| 18027 | Lời nói khích và ngôi vua | Khi ấy Lý Công Uẩn và một viên tướng tên Nguyễn Đê mỗi người dẫn năm trăm quân canh giữ trong cung. |  |
+| 18027 | Lời nói khích và ngôi vua | Khi ấy Lý Công Uẩn và một viên tướng tên Nguyễn Đê mỗi người dẫn năm trăm quân bảo vệ trong cung. |  |
 | 18028 | Lời nói khích và ngôi vua | Hai đạo quân ấy mạnh nhất hoàng cung, nên ngai vàng như nằm trong tay hai người. |  |
 | 18029 | Lời nói khích và ngôi vua | Một viên quan hầu cận tên Đào Cam Mộc nhìn ra cơ hội ấy. |  |
 | 18030 | Lời nói khích và ngôi vua | Một hôm vắng người, ông ta tìm đến Lý Công Uẩn nói khích. |  |

@@ -34,25 +34,25 @@ Mã `ly1`, 116 đoạn (18001–18116), 3,105 chữ, khoảng 17.2 phút ở 3 c
 
 ## Mốc ngày tháng (mới, theo yêu cầu "ghi rõ ngày tháng năm với từng mốc")
 
-**Cách tính (cần chủ kênh biết):** Toàn thư ghi ngày bằng can chi và tháng âm lịch, gần như không ghi số ngày. Mình đổi sang dương lịch bằng cách tính chu kỳ 60 ngày can chi (liên tục, không bị lệch) kết hợp lịch trăng tính bằng thiên văn. **Kiểm chứng:** ngày mồng 1 tháng 3 năm 1028 là ngày Bính Thân (sử chép nhật thực), và tính ra đúng 29/3/1028 với ngày Mậu Tuất là 31/3/1028 (mồng 3), khớp với "hai ngày sau". Các ngày này do mình **tính lại, không phải Toàn thư ghi sẵn**, nên cần đối chiếu thêm với một bảng đổi lịch đã công bố trước khi đăng.
+**Cách tính (cần chủ kênh biết):** Toàn thư ghi ngày bằng can chi và tháng âm lịch, gần như không ghi số ngày. Mình đổi sang dương lịch bằng cách tính chu kỳ 60 ngày can chi (liên tục, không bị lệch) kết hợp lịch trăng tính bằng thiên văn. **Kiểm chứng:** ngày mồng 1 tháng 3 năm 1028 là ngày Bính Thân (sử chép nhật thực), và tính ra đúng 29/3/1028 với ngày Mậu Tuất là 31/3/1028 (mồng 3), khớp với "hai ngày sau". Các ngày này do mình **tính lại, không phải Toàn thư ghi sẵn**, **Đã đối chiếu (27/10/2026)** với bảng đổi lịch Trung Hoa – Julian giai đoạn Tống 960–1279 của Y. T. Liu (ytliu0.github.io/ChineseCalendar, tải mã về chạy cục bộ): ngày đầu mỗi tháng khớp với tính toán của mình, trừ năm chỗ lệch 1 ngày ở đầu hoặc cuối tháng (1005 tháng 3, 1010 tháng 7, 1014 và 1015 tháng giêng) đã sửa theo bảng. Mọi ngày tính bằng can chi (19/11/1009, 21/11/1009, 29/3/1028, 31/3/1028) không đổi. Lưu ý bảng này cũng là lịch tính bằng thiên văn, không phải lịch Tống–Việt thời ấy, nên đầu tháng vẫn có thể lệch 1 ngày so với lịch dùng lúc đó; ngày can chi thì không bị ảnh hưởng.
 
 **Lịch dương trong lời kể là lịch Julian**, lịch chính thức thời ấy và là cách phần lớn sách sử Việt ghi mốc trước năm 1582. Muốn đổi sang lịch Gregorian hiện nay thì cộng 6 ngày (31/3/1028 thành 6/4/1028). Lời kể chỉ nói "dương lịch" cho gọn; chủ kênh quyết định có đổi sang Gregorian hay thêm chữ "Julian" trên màn hình hay không.
 
 | Mốc | Âm lịch (Toàn thư) | Dương lịch Julian (tính) | Độ chắc |
 |---|---|---|---|
 | Lý Công Uẩn sinh | 12 tháng 2 năm Giáp Tuất | 8/3/974 | ngày âm ghi trong sử; đổi dương lịch có thể lệch 1 ngày vì lịch thời Đinh |
-| Lê Hoàn mất | tháng 3 năm Ất Tỵ (Ứng Thiên 12) | trong khoảng 11/4–10/5/1005 | sử chỉ ghi tháng |
+| Lê Hoàn mất | tháng 3 năm Ất Tỵ (Ứng Thiên 12) | trong khoảng 12/4–10/5/1005 | sử chỉ ghi tháng |
 | Lê Long Việt lên ngôi 3 ngày rồi bị giết | mùa đông năm Ất Tỵ | cuối năm 1005 | sử chỉ ghi mùa, sau 8 tháng giằng co |
-| Lê Long Đĩnh mất | ngày Tân Hợi, tháng 10 năm Kỷ Dậu | 19/11/1009 | ngày can chi chắc; lịch tính hiện đại xếp ngày này vào mồng 1 tháng 11, lệch một ngày so với chữ "tháng 10" trong sử, có thể do lịch thời ấy tính đầu tháng khác cách tính thiên văn |
-| Lý Công Uẩn lên ngôi | ngày Quý Sửu cùng tháng | 21/11/1009 | như trên |
-| Về thăm Cổ Pháp, sai sứ sang Tống, viết chiếu | tháng 2 năm Canh Tuất | trong khoảng 17/2–17/3/1010 | sử chỉ ghi tháng; ngày viết chiếu không rõ |
-| Rời Hoa Lư, thuyền đỗ dưới thành Đại La, đổi tên Thăng Long | tháng 7 năm Canh Tuất | trong khoảng 12/8–10/9/1010 | sử chỉ ghi tháng |
+| Lê Long Đĩnh mất | ngày Tân Hợi, tháng 10 năm Kỷ Dậu | 19/11/1009 | ngày can chi chắc; theo bảng đổi lịch đây là ngày 30, ngày cuối của tháng 10, khớp với chữ "tháng 10 ngày Tân Hợi" trong sử |
+| Lý Công Uẩn lên ngôi | ngày Quý Sửu cùng tháng | 21/11/1009 | ngày can chi chắc (Wikipedia tiếng Anh cũng ghi 21/11 trong phần nội dung). Theo bảng đây là mồng 2 tháng 11, trong khi sử viết "tháng ấy"; vì vậy lời kể chỉ đọc ngày dương lịch, không đọc tháng âm lịch của ngày này |
+| Về thăm Cổ Pháp, sai sứ sang Tống, viết chiếu | tháng 2 năm Canh Tuất | trong khoảng 17/2–18/3/1010 (năm này có tháng 2 nhuận) | sử chỉ ghi tháng; ngày viết chiếu không rõ |
+| Rời Hoa Lư, thuyền đỗ dưới thành Đại La, đổi tên Thăng Long | tháng 7 năm Canh Tuất | trong khoảng 13/8–10/9/1010 | sử chỉ ghi tháng |
 | Cung Thúy Hoa xong, tha thuế 3 năm | tháng 12 năm Canh Tuất | trong khoảng 7/1–5/2/1011 | sử chỉ ghi tháng |
 | Đánh giặc Cử Long | tháng 2 năm Tân Hợi | trong khoảng 8/3–5/4/1011 | sử chỉ ghi tháng |
 | Diễn Châu, lời khấn ở Biện Sơn | năm Nhâm Tý | năm 1012 | sử không ghi tháng |
 | Định sáu loại thuế | năm Quý Sửu | năm 1013 | sử không ghi tháng |
-| Nam Chiếu vào cướp, trận Kim Hoa | tháng giêng năm Giáp Dần | trong khoảng 2/2–3/3/1014 | sử chỉ ghi tháng |
-| Đào Cam Mộc mất | tháng giêng năm Ất Mão | trong khoảng 23/1–20/2/1015 | sử chỉ ghi tháng |
+| Nam Chiếu vào cướp, trận Kim Hoa | tháng giêng năm Giáp Dần | trong khoảng 3/2–3/3/1014 | sử chỉ ghi tháng |
+| Đào Cam Mộc mất | tháng giêng năm Ất Mão | trong khoảng 23/1–21/2/1015 | sử chỉ ghi tháng |
 | Nhà vua không khỏe | tháng 2 năm Mậu Thìn | trong khoảng 28/2–28/3/1028 | sử chỉ ghi tháng |
 | Nhật thực | mồng 1 tháng 3 (Bính Thân) | 29/3/1028 | ngày chắc (sử ghi can chi, đã kiểm bằng tính lịch) |
 | Vua mất, ba vương phục binh, Lê Phụng Hiểu bắt giết Vũ Đức Vương | ngày Mậu Tuất (mồng 3) tháng 3 | 31/3/1028 | ngày chắc |
@@ -107,7 +107,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18011 | Đứa trẻ bên nhà thiền sư | Lúc đi học ở chùa Lục Tổ, cậu gặp sư Vạn Hạnh, và người ta kể rằng vị sư đã nói cậu bé sau này sẽ làm bậc minh chủ. |  |
 | 18012 | Đứa trẻ bên nhà thiền sư | Đó chỉ là lời kể về sau nên ta không coi là bằng chứng, còn điều chắc chắn hơn nằm ở chính tính cách của cậu. |  |
 | 18013 | Đứa trẻ bên nhà thiền sư | Cậu không chăm lo của cải, học kinh sử cũng chỉ qua loa, nhưng khảng khái và có chí lớn, nên khi trưởng thành đã bước vào triều đình nhà Lê. |  |
-| 18014 | Người giữ cung nhà Lê | Triều Tiền Lê do vua Lê Hoàn dựng nên, nhưng ông mất vào tháng ba âm lịch năm một nghìn không trăm linh năm thì các con liền tranh ngôi. | 1005: tháng 3 âm = 11/4–10/5/1005 |
+| 18014 | Người giữ cung nhà Lê | Triều Tiền Lê do vua Lê Hoàn dựng nên, nhưng ông mất vào tháng ba âm lịch năm một nghìn không trăm linh năm thì các con liền tranh ngôi. | 1005: tháng 3 âm = 12/4–10/5/1005 |
 | 18015 | Người giữ cung nhà Lê | Cuộc giành giật kéo dài tám tháng, trong nước không có vua, rồi mùa đông Lê Long Việt lên ngôi và ba ngày sau bị em là Lê Long Đĩnh giết. | 1005: mùa đông (tháng 10 âm = 5/11–3/12/1005) |
 | 18016 | Người giữ cung nhà Lê | Các quan sợ hãi bỏ chạy hết, chỉ riêng Lý Công Uẩn ở lại ôm xác nhà vua mà khóc. |  |
 | 18017 | Người giữ cung nhà Lê | Thấy vậy, Lê Long Đĩnh khen ông là người trung thành, rồi cho ông giữ quân canh kinh thành và thăng dần đến chức đứng đầu đội quân canh giữ cung vua. |  |
@@ -143,7 +143,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18047 | Đại La bên sông | Thành có sông Hồng chảy ngay bên cạnh nên thuyền bè nhiều nơi có thể cập bến, còn đất quanh đó thì rộng và bằng phẳng. |  |
 | 18048 | Đại La bên sông | Ở đó một kinh đô có thể lớn dần lên thành một thành phố, chứ không bị núi đá bó chặt như Hoa Lư. |  |
 | 18049 | Đại La bên sông | Nhưng dời kinh đô là bỏ những cung điện đã dựng để làm lại từ đầu ở một nơi xa, nên nhà vua cần một lý lẽ thật vững. |  |
-| 18050 | Lá chiếu dời đô | Tháng hai âm lịch năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp quê mình và ban tiền lụa cho các cụ già trong làng. | 1010: tháng 2 âm = 17/2–17/3/1010 |
+| 18050 | Lá chiếu dời đô | Tháng hai âm lịch năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp quê mình và ban tiền lụa cho các cụ già trong làng. | 1010: tháng 2 âm = 17/2–18/3/1010 |
 | 18051 | Lá chiếu dời đô | Cũng trong năm ấy ông sai sứ sang nhà Tống để giữ hòa hảo, rồi tự tay viết bản chiếu dời đô gửi cho cả triều đình. |  |
 | 18052 | Lá chiếu dời đô | Bản chiếu mở đầu bằng chuyện xưa của Trung Hoa, rằng nhà Thương đến đời vua Bàn Canh đã năm lần dời đô, còn nhà Chu cũng ba lần. |  |
 | 18053 | Lá chiếu dời đô | Theo bản chiếu, các vua ấy không dời đô bừa theo ý riêng, mà làm vậy để mưu nghiệp lớn và lo cho con cháu muôn đời. |  |
@@ -154,7 +154,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18058 | Lá chiếu dời đô | Kết lại, nhà vua cho rằng đó là nơi tụ hội quan trọng của bốn phương, xứng đáng làm kinh đô muôn đời. |  |
 | 18059 | Lá chiếu dời đô | Và ở cuối bản chiếu, ông không ra lệnh mà hỏi bầy tôi rằng, trẫm muốn nhân thế đất tốt ấy để định nơi ở, các khanh nghĩ thế nào? |  |
 | 18060 | Lá chiếu dời đô | Bầy tôi đáp rằng bệ hạ vì thiên hạ lập kế lâu dài, điều lợi như thế thì ai dám không theo, và nhà vua cả mừng. |  |
-| 18061 | Con thuyền dưới chân thành | Tháng bảy âm lịch năm một nghìn không trăm mười, khoảng giữa tháng tám dương lịch, nhà vua rời Hoa Lư ra Đại La, thuyền ngự tạm đỗ dưới chân thành. | 1010: tháng 7 âm = 12/8–10/9/1010 |
+| 18061 | Con thuyền dưới chân thành | Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư ra Đại La, thuyền ngự tạm đỗ dưới chân thành. | 1010: tháng 7 âm = 13/8–10/9/1010 |
 | 18062 | Con thuyền dưới chân thành | Người xưa kể rằng lúc ấy có rồng vàng hiện lên trên thuyền của nhà vua, nhưng đó là điềm lạ được ghi lại chứ không ai chứng minh được. |  |
 | 18063 | Con thuyền dưới chân thành | Dù vậy, ý nghĩa của nó rất rõ, là đất này được trời chấp nhận và vị vua này là người được chọn. |  |
 | 18064 | Con thuyền dưới chân thành | Nhà vua liền đổi tên thành thành Thăng Long, nghĩa là rồng bay lên, và cái tên do chính ông đặt ấy sống lâu hơn cả triều đại nhà Lý. |  |
@@ -173,12 +173,12 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18077 | Những năm trị vì | Nhà vua đốt hương khấn rằng mình là người ít đức, không dám cậy binh uy mà đánh bừa, chỉ vì Diễn Châu làm điều tàn ngược nên buộc phải đánh. |  |
 | 18078 | Những năm trị vì | Ông xin rằng nếu lỡ giết oan người hiền thì trời cứ trách riêng mình, và người ta kể rằng khấn xong gió sấm đều yên lặng. |  |
 | 18079 | Những năm trị vì | Năm một nghìn không trăm mười ba ông định ra các thứ thuế trong nước, chia làm sáu loại. |  |
-| 18080 | Những năm trị vì | Đến tháng giêng âm lịch năm một nghìn không trăm mười bốn, quân Nam Chiếu đem rất đông người tràn vào cướp ở phía bắc và đóng trại ở bến Kim Hoa. | 1014: tháng giêng âm = 2/2–3/3/1014 |
+| 18080 | Những năm trị vì | Đến tháng giêng âm lịch năm một nghìn không trăm mười bốn, quân Nam Chiếu đem rất đông người tràn vào cướp ở phía bắc và đóng trại ở bến Kim Hoa. | 1014: tháng giêng âm = 3/2–3/3/1014 |
 | 18081 | Những năm trị vì | Nhà vua sai Dực Thánh Vương đem quân đánh thắng lớn, bắt được rất nhiều quân và ngựa của đối phương. |  |
 | 18082 | Những năm trị vì | Ông cho đem một trăm con ngựa bắt được sang biếu nhà Tống, và vua Tống ban thưởng mũ, đai, tiền bạc cho sứ giả. |  |
 | 18083 | Những năm trị vì | Bên cạnh việc quân, nhà vua dốc sức cho Phật giáo, cho xây nhiều chùa, đúc chuông, chép kinh Tam tạng, và cho hơn một nghìn người ở kinh đô đi tu. |  |
 | 18084 | Những năm trị vì | Điều đó cũng dễ hiểu, vì ông từng lớn lên bên nhà thiền sư và suốt thời trị vì vẫn dành cho đạo Phật sự coi trọng ấy. |  |
-| 18085 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười lăm, Đào Cam Mộc, người từng khuyên ông lên ngôi, qua đời và được tặng chức Thái sư á vương. | 1015: tháng giêng âm = 23/1–20/2/1015 |
+| 18085 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười lăm, Đào Cam Mộc, người từng khuyên ông lên ngôi, qua đời và được tặng chức Thái sư á vương. | 1015: tháng giêng âm = 23/1–21/2/1015 |
 | 18086 | Điện Long An | Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương. |  |
 | 18087 | Điện Long An | Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi, còn nhà vua bước vào năm cuối đời. |  |
 | 18088 | Điện Long An | Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, nhà vua không khỏe. | 1028: tháng 2 âm = 28/2–28/3/1028 |

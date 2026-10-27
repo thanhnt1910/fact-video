@@ -153,9 +153,9 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18050 | Lời nói khích và ngôi vua | Có ngôi vua rồi, ông còn một câu hỏi lớn phải trả lời, đó là triều đình mới nên đặt ở đâu. |  |
 | 18051 | Hoa Lư không còn đủ | Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước, giữa những dãy núi đá dựng đứng. |  |
 | 18052 | Hoa Lư không còn đủ | Trong thời loạn, núi đá như bức tường che chở khiến nơi này rất dễ giữ. |  |
-| 18053 | Hoa Lư không còn đủ | Nhưng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. |  |
+| 18053 | Hoa Lư không còn đủ | Nhưng nhà vua cho rằng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. |  |
 | 18054 | Hoa Lư không còn đủ | Kinh đô ấy cần dân cư đông đúc, đường đi thuận tiện và đất rộng để thành phố lớn dần. |  |
-| 18055 | Hoa Lư không còn đủ | Trong khi đó, Hoa Lư lại ẩm thấp và chật hẹp. |  |
+| 18055 | Hoa Lư không còn đủ | Trong khi đó, theo ông, Hoa Lư lại ẩm thấp và chật hẹp. |  |
 | 18056 | Hoa Lư không còn đủ | Nhà vua cũng nhìn lại hai triều trước. |  |
 | 18057 | Hoa Lư không còn đủ | Cả hai đều đóng đô ở Hoa Lư và đều ngắn ngủi. |  |
 | 18058 | Hoa Lư không còn đủ | Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm. |  |
@@ -252,3 +252,7 @@ Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "th
 | 18149 | Kết | Nhà Lý giữ ngôi hơn hai trăm năm, còn cái tên Thăng Long mà ông đặt cho nơi con thuyền dừng lại cũng sống lâu hơn cả triều đại của ông. |  |
 | 18150 | Kết | Mười tám năm trước ông chỉ hỏi bầy tôi một câu, rằng nhân đất tốt ấy mà định nơi ở thì các quan nghĩ thế nào. |  |
 | 18151 | Kết | Và ở cánh cửa Quảng Phúc, cánh cửa phía tây ông dựng, một cuộc tranh ngôi ngay trong hoàng tộc của ông đã kết thúc. |  |
+
+
+## Ghi chú thêm (27/10)
+- Trận năm 1014 gọi là quân Nam Chiếu theo cách chép của sử cũ; nhiều nhà nghiên cứu cho rằng lúc ấy nước này đã đổi thành Đại Lý. Giữ cách gọi của sử cũ, cần chủ kênh duyệt.

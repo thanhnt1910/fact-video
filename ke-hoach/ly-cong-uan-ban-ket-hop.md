@@ -2,7 +2,9 @@
 
 Lời kể là bản 150 đoạn đã kiểm nguồn. Gợi ý hình ảnh và âm thanh lấy ý từ bản Gemini, đã bỏ mọi chi tiết trái quy tắc (cảnh chém giết, địa danh ngày nay, chữ trên cờ).
 
-Đoạn câu hỏi dẫn vào câu chuyện: đặt cuối chương 1 và chương 2.
+Câu hỏi dẫn vào câu chuyện đặt ở cuối chương 1, và được trả lời ở chương 2 và 3.
+
+Lưu ý hình ảnh: không hiển thị chữ trên cờ, biển, chiếu hay văn bản.
 
 ## Chương 1: Đứa trẻ bên nhà thiền sư (đoạn 18001–18014)
 
@@ -30,7 +32,7 @@ Lời kể là bản 150 đoạn đã kiểm nguồn. Gợi ý hình ảnh và �
 
 ## Chương 4: Hoa Lư không còn đủ (đoạn 18051–18058)
 
-**Lời kể:** Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước, giữa những dãy núi đá dựng đứng. Trong thời loạn, núi đá như bức tường che chở khiến nơi này rất dễ giữ. Nhưng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. Kinh đô ấy cần dân cư đông đúc, đường đi thuận tiện và đất rộng để thành phố lớn dần. Trong khi đó, Hoa Lư lại ẩm thấp và chật hẹp. Nhà vua cũng nhìn lại hai triều trước. Cả hai đều đóng đô ở Hoa Lư và đều ngắn ngủi. Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm.
+**Lời kể:** Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước, giữa những dãy núi đá dựng đứng. Trong thời loạn, núi đá như bức tường che chở khiến nơi này rất dễ giữ. Nhưng nhà vua cho rằng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. Kinh đô ấy cần dân cư đông đúc, đường đi thuận tiện và đất rộng để thành phố lớn dần. Trong khi đó, theo ông, Hoa Lư lại ẩm thấp và chật hẹp. Nhà vua cũng nhìn lại hai triều trước. Cả hai đều đóng đô ở Hoa Lư và đều ngắn ngủi. Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm.
 
 **Hình ảnh:** Bản đồ so sánh: Hoa Lư giữa núi đá, chật hẹp; bên cạnh là đồng bằng rộng. Hai triều Đinh, Tiền Lê hiện như hai nấc ngắn.
 

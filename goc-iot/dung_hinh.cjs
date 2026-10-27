@@ -8,7 +8,7 @@ const outDir = process.argv[3];
 const mode = process.argv[4] || 'test';
 const KB = JSON.parse(fs.readFileSync('/home/claude/fact-video/goc-iot/kich-ban.json', 'utf-8'));
 let TL = {};
-try { TL = JSON.parse(fs.readFileSync('/home/claude/fact-video/goc-iot/giong/thoi-luong.json', 'utf-8')); } catch (e) {}
+try { TL = JSON.parse(fs.readFileSync((process.env.TLFILE || '/home/claude/fact-video/goc-iot/giong/thoi-luong.json'), 'utf-8')); } catch (e) {}
 const FONT = "Inter, 'DejaVu Sans', sans-serif";
 const NAVY = '#12233F', YEL = '#FFD84D', TEAL = '#35C9B8';
 
@@ -498,11 +498,11 @@ const DEFS = {
       { ic: 'eye', x: 540, y: 300, k: 1.25, label: 'Cảm biến', w: 'cảm' },
       { pill: '= giác quan', x: 540, y: 600, k: 1, w: 'giác', pyoff: 0 }] }),
     G({ items: [
-      { ic: 'thermo', x: X5[0], y: 330, k: 0.72, label: 'Nhiệt độ', w: 'nhiệt' },
-      { ic: 'drop', x: X5[1], y: 330, k: 0.72, label: 'Độ ẩm', w: 'ẩm' },
-      { ic: 'sun', x: X5[2], y: 330, k: 0.72, label: 'Ánh sáng', w: 'ánh' },
-      { ic: 'motion', x: X5[3], y: 330, k: 0.72, label: 'Chuyển động', w: 'chuyển' },
-      { ic: 'ruler', x: X5[4], y: 330, k: 0.72, label: 'Khoảng cách', w: 'khoảng' }] }),
+      { ic: 'thermo', x: X5[0], y: 330, k: 0.72, label: 'Nhiệt|độ', w: 'nhiệt' },
+      { ic: 'drop', x: X5[1], y: 330, k: 0.72, label: 'Độ|ẩm', w: 'ẩm' },
+      { ic: 'sun', x: X5[2], y: 330, k: 0.72, label: 'Ánh|sáng', w: 'ánh' },
+      { ic: 'motion', x: X5[3], y: 330, k: 0.72, label: 'Chuyển|động', w: 'chuyển' },
+      { ic: 'ruler', x: X5[4], y: 330, k: 0.72, label: 'Khoảng|cách', w: 'khoảng' }] }),
     G({ items: [
       { ic: 'thermo', x: X3[0], y: 330, k: 0.95, label: 'Hiện tượng|ngoài đời', w: 'hiện' },
       { pill: '28°C', x: X3[1], y: 330, k: 1, w: 'con' },

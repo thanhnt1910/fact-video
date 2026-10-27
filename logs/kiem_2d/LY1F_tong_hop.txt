@@ -1,0 +1,22 @@
+TỔNG HỢP KIỂM ẢNH · LY1F · 18 ảnh · 4057 giây · 3 vòng vẽ lại
+Còn lỗi (1): 001
+Chưa kiểm bằng AI (17): 002,003,004,005,006,007,008,009,010,011,012,013,014,015,016,017,018
+
+001 · LỖI: có người giống trẻ con / hoạt hình; điểm 2/5 · điểm 2
+002 · đạt · cảnh báo: Gemini không kiểm được: Remote end closed connection without response
+003 · đạt · cảnh báo: Gemini không kiểm được: Remote end closed connection without response
+004 · đạt · cảnh báo: Gemini không kiểm được: Remote end closed connection without response
+005 · đạt · cảnh báo: Gemini không kiểm được: Remote end closed connection without response
+006 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+007 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+008 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+009 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+010 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+011 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+012 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+013 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+014 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+015 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+016 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+017 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+018 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)

@@ -29,7 +29,11 @@ try { if (process.env.ALIGN) ALIGN = JSON.parse(fs.readFileSync(process.env.ALIG
 let scenes = [];
 let TOTAL = 0;
 
-const LAY = { big: { cy: 800, s: 1.25 }, small: { cy: 1040, s: 0.76 } };
+const LAY = { big: { cy: 800, s: 1.25 }, small: { cy: 1040, s: 0.76 }, corner: { cy: 1275, s: 0.44 } };
+// Nội dung chính đặt giữa khung hình; Bóng đứng ở góc dưới (xen kẽ trái, phải theo cảnh).
+const CT = { cx: 540, cy: 790, sg: 1.08, ay: 500 };
+const ctx = (x) => CT.cx + (x - 540) * CT.sg;
+const cty = (y) => CT.cy + (y - CT.ay) * CT.sg;
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const clamp01 = (x) => Math.max(0, Math.min(1, x));
@@ -316,8 +320,14 @@ function gfxGen(local, sc) {
       dots += `<circle cx="${f1(lerp(A.x, B.x, u))}" cy="${f1(lerp(A.y, B.y, u))}" r="10" fill="#FFFFFF"/>`;
     }
   });
+  let hl = '';
+  d.items.forEach((it) => {
+    if (it.pill || it.hide || it.p === false) return;
+    const u = (local - it.t - 0.25) / 1.4;
+    if (u > 0 && u < 1) hl += `<circle cx="${it.x}" cy="${it.y}" r="${f1(125 * (it.k || 1) * (1.05 + 0.25 * u))}" fill="none" stroke="${YEL}" stroke-width="${f1(10 * (1 - u) + 2)}" stroke-opacity="${(0.9 * (1 - u)).toFixed(2)}"/>`;
+  });
   const an = d.anim && ANIMS[d.anim] ? ANIMS[d.anim](local, d.items) : '';
-  return links + out + an + d.items.map((it) => itemSVG(it, local)).join('') + dots;
+  return `<g transform="translate(${CT.cx} ${CT.cy}) scale(${CT.sg}) translate(-540 -${CT.ay})">${links + out + an + d.items.map((it) => itemSVG(it, local)).join('') + hl + dots}</g>`;
 }
 function qBubbles(local, t1, t2) {
   const s = easeOutBack(local / 0.5), a = clamp01(local / 0.3);
@@ -341,7 +351,7 @@ function armPose(side, local, pts, lay, bounce) {
   const S = side < 0 ? [350, 495] : [450, 495];
   let best = null, bw = 0;
   for (const p of pts) {
-    if ((p.x < 480) !== (side < 0)) continue;
+    if ((p.x < (lay.corner ? 540 + (lay.ox || 0) : 480)) !== (side < 0)) continue;
     const w = smooth((local - p.a) / 0.3) * (1 - smooth((local - p.b) / 0.3));
     if (w > bw) { bw = w; best = p; }
   }
@@ -349,9 +359,9 @@ function armPose(side, local, pts, lay, bounce) {
   const tx = (best.x - (540 + (lay.ox || 0))) / lay.s + 400, ty = (best.y - (lay.cy + (lay.oy || 0) + bounce)) / lay.s + 400;
   const vx = tx - S[0], vy = ty - S[1];
   const dist = Math.hypot(vx, vy);
-  let d = [vx / dist + side * 0.7, vy / dist];
+  let d = [vx / dist + side * 0.7 * Math.min(1, 260 / dist), vy / dist];
   const dl = Math.hypot(d[0], d[1]); d = [d[0] / dl, d[1] / dl];
-  const reach = Math.min(300, Math.max(180, dist - 90)) + 8 * Math.sin((local - best.a) * 9) * bw;
+  const reach = Math.min(lay.corner ? 340 : 300, Math.max(180, dist - 90)) + 8 * Math.sin((local - best.a) * 9) * bw;
   const H = [S[0] + d[0] * reach, S[1] + d[1] * reach];
   let pp = [d[1], -d[0]];
   if (pp[0] * side < 0) pp = [-pp[0], -pp[1]];
@@ -501,6 +511,10 @@ function subtitle(fullText, local, dur, key) {
 const oxMemo = {};
 function oxAt(idx, local) {
   const sc = scenes[idx];
+  if (sc.mode === 'corner') {
+    const start0 = idx > 0 ? oxEnd(idx - 1) : 0, tgt = (idx % 2 ? 1 : -1) * 355;
+    return lerp(start0, tgt, smooth(local / 0.8)) + 10 * Math.sin(local * 1.7 + idx);
+  }
   const pts = (sc.pts || []).slice().sort((a, b) => a.a - b.a);
   const start = idx > 0 ? oxEnd(idx - 1) : 0;
   const kf = [[0, start]];
@@ -763,7 +777,7 @@ const iconBatSwell = () => `<rect x="-64" y="-34" width="120" height="68" rx="10
 Object.assign(ICONS, { batswell: iconBatSwell });
 const iconVac = () => `<circle cx="0" cy="8" r="62" fill="${NAVY}" stroke="#FFFFFF" stroke-width="6"/><circle cx="0" cy="8" r="46" fill="#1B3358"/><circle cx="0" cy="-8" r="14" fill="${TEAL}" stroke="#FFFFFF" stroke-width="4"/><circle cx="0" cy="-8" r="5" fill="#FFFFFF"/><rect x="-22" y="26" width="44" height="8" rx="4" fill="${YEL}"/>`;
 Object.assign(ICONS, { vac: iconVac });
-const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
+const G = (gen) => ({ mode: 'corner', wave: false, kind: 'gen', gen });
 const DEFS = {
   11: [
     Q('Điều gì xảy ra nếu', 'robot hút bụi chụp ảnh?'),
@@ -1078,7 +1092,7 @@ function buildScenes() {
       if (d.kind === 'gen') {
         const g = buildGeneric(d.gen, text, dur, key);
         sc.gen = Object.assign({}, d.gen, { items: g.items });
-        sc.pts = g.pts;
+        sc.pts = g.pts.map((q) => Object.assign({}, q, { x: ctx(q.x), y: cty(q.y) }));
       }
     }
     sc.text = text; sc.t0 = t; sc.t1 = t + dur; sc.key = key;
@@ -1106,7 +1120,7 @@ function frameSVG(f) {
   else if (st === 3) { oy = 38 * Math.cos(local * 1.2) - 12; rot = 5 * Math.sin(local * 2.4); }
   if (idx % 3 === 1 && local < 0.9) rot += 360 * smooth(local / 0.9);
   oy = Math.max(-70, Math.min(70, oy));
-  const lay2 = { cy: lay.cy, s: lay.s * entry, ox, vel, jump: jump * (idx % 3 === 1 ? 1.6 : 1), oy, rot };
+  const lay2 = { cy: lay.cy, s: lay.s * entry, ox, vel, jump: jump * (idx % 3 === 1 ? 1.6 : 1), oy, rot, corner: sc.mode === 'corner' };
   let bok = '';
   for (let i = 0; i < 14; i++) {
     const x = (i * 163 + 60) % 1080;
@@ -1121,7 +1135,7 @@ function frameSVG(f) {
 <path d="M0 1380 H130 L190 1440 H330"/><path d="M1080 1330 H950 L890 1390 H760"/>
 <path d="M0 1800 H260 L320 1860 H520"/><path d="M1080 1780 H820 L760 1840"/></g>
 ${bok}
-<circle cx="${(540 + lay2.ox * 0.5).toFixed(1)}" cy="${(lay.cy + lay2.oy * 0.6).toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
+<circle cx="${(540 + lay2.ox * (lay2.corner ? 1 : 0.5)).toFixed(1)}" cy="${(lay.cy + lay2.oy * 0.6).toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
 ${gfx(sc.gfx, lw, t, sc)}
 ${bong(t, sc.wave, lay2, sc.glow, sc.pts || [], lw)}
 ${subtitle(sc.text, local, sc.t1 - sc.t0, sc.key)}

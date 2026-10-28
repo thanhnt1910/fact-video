@@ -9,64 +9,58 @@
   "n": 20002,
   "chuong": "Vì sao",
   "tone": "story",
-  "text": "Trần Hưng Đạo tên thật là Trần Quốc Tuấn, thuộc hoàng tộc nhà Trần. Ông chỉ huy quân Đại Việt ba lần đánh thắng quân Nguyên."
+  "text": "Trần Hưng Đạo tên thật là Trần Quốc Tuấn. Ông chỉ huy quân Đại Việt ba lần đánh thắng quân Nguyên, nên được tôn là anh hùng dân tộc."
  },
  {
   "n": 20003,
-  "chuong": "Vì sao",
-  "tone": "story",
-  "text": "Vì công lao giữ nước ấy, ông được tôn là anh hùng dân tộc. Tên ông được đặt cho đường phố để người đời sau ghi nhớ."
- },
- {
-  "n": 20004,
   "chuong": "Hà Nội",
   "tone": "story",
   "text": "Đầu tiên là Hà Nội. Phố Trần Hưng Đạo dài khoảng hai phẩy hai sáu ki-lô-mét, từ cuối phố Phan Chu Trinh đến Quảng trường Một Tháng Năm."
  },
  {
+  "n": 20004,
+  "chuong": "Hà Nội",
+  "tone": "story",
+  "text": "Thời Pháp thuộc, phố này tên là Gam-bét-ta, theo tên một chính trị gia Pháp. Năm một nghìn chín trăm bốn mươi lăm, phố đổi sang tên Trần Hưng Đạo."
+ },
+ {
   "n": 20005,
   "chuong": "Hà Nội",
   "tone": "story",
-  "text": "Thời Pháp thuộc, phố này tên là Gam-bét-ta, theo tên một chính trị gia người Pháp. Sau Cách mạng Tháng Tám, phố mang tên vị anh hùng dân tộc."
+  "text": "Người đổi tên là bác sĩ Trần Văn Lai, khi đó đứng đầu thành phố. Ông ngưỡng mộ anh hùng dân tộc và đặt tên họ cho nhiều phố lớn."
  },
  {
   "n": 20006,
   "chuong": "TP.HCM",
   "tone": "story",
-  "text": "Tiếp theo là Thành phố Hồ Chí Minh. Đường Trần Hưng Đạo dài khoảng sáu ki-lô-mét, chạy qua Quận Một và Quận Năm."
+  "text": "Tiếp theo là Thành phố Hồ Chí Minh. Đại lộ nối Sài Gòn với Chợ Lớn này xong năm một nghìn chín trăm mười sáu, mang tên một tướng Pháp là Ga-li-ê-ni."
  },
  {
   "n": 20007,
   "chuong": "TP.HCM",
   "tone": "story",
-  "text": "Đoạn phía Sài Gòn xưa tên Ga-li-ê-ni, theo tên một vị tướng người Pháp. Tháng Ba năm một nghìn chín trăm năm mươi lăm, đoạn này mang tên Trần Hưng Đạo."
+  "text": "Năm một nghìn chín trăm năm mươi lăm, đại lộ đổi sang tên Trần Hưng Đạo. Từ năm một nghìn chín trăm bảy mươi lăm, đường dài hơn sáu ki-lô-mét."
  },
  {
   "n": 20008,
-  "chuong": "TP.HCM",
+  "chuong": "Đà Nẵng",
   "tone": "story",
-  "text": "Đoạn phía Chợ Lớn lúc đó mang tên khác. Năm một nghìn chín trăm bảy mươi lăm, hai đoạn nối lại thành một con đường mang tên ông."
+  "text": "Cuối cùng là Đà Nẵng. Đường Trần Hưng Đạo chạy dọc bờ đông sông Hàn, dài khoảng hai phẩy bảy ki-lô-mét, từ cầu Nguyễn Văn Trỗi."
  },
  {
   "n": 20009,
   "chuong": "Đà Nẵng",
   "tone": "story",
-  "text": "Cuối cùng là Đà Nẵng. Con đường này trước kia mang tên Véc-đung, một địa danh ở nước Pháp."
+  "text": "Lúc đầu đường tên Bạch Đằng Đông. Ngày mười hai tháng Giêng năm hai nghìn không trăm linh hai, thành phố đổi sang tên Trần Hưng Đạo."
  },
  {
   "n": 20010,
   "chuong": "Đà Nẵng",
   "tone": "story",
-  "text": "Sau khi người Pháp rời Việt Nam, đường được đổi sang tên Trần Hưng Đạo, vào cuối năm một nghìn chín trăm năm mươi lăm hoặc đầu năm sau."
+  "text": "Tên này nằm đối diện đường Bạch Đằng bên kia sông, để tôn vinh ông và chiến thắng Bạch Đằng."
  },
  {
   "n": 20011,
-  "chuong": "Kết",
-  "tone": "story",
-  "text": "Ba thành phố, ba cái tên Pháp cũ, nhưng cùng được thay bằng tên người đã bảo vệ đất nước trước quân Nguyên."
- },
- {
-  "n": 20012,
   "chuong": "Kết",
   "tone": "story",
   "text": "Con đường Trần Hưng Đạo gần nhà bạn nằm ở đâu?"

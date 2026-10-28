@@ -293,3 +293,10 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - **Vẫn giữ mọi quy tắc cũ:** đủ họ tên, năm viết bằng chữ, không nói tắt, không bịa lời thoại, đoạn ngắn 20–30 chữ cho giọng đọc, không câu nào cần đọc hai lần mới hiểu.
 - **Cách làm:** viết xong bản chính xác về sử rồi mới "tự nhiên hóa" (đổi chữ, nhịp, câu mở), không đổi sự kiện, năm, tên, số. Đo bằng `python phim_ban_do/kiem_kich_ban.py <tên>` (0 ❌) và đếm các kiểu câu mở, câu ngắn, "tức/nghĩa là". Làm bản so sánh trước/sau cho chủ kênh duyệt (trang artifact hoặc bảng trong kịch bản) trước khi đọc giọng, vì sửa kịch bản sau khi đọc giọng tốn hạn mức Gemini.
 - Mẫu: `ke-hoach/dinh-bo-linh-kich-ban.md` (bản tự nhiên, 86 đoạn, 2.103 chữ).
+
+## Giao video: mỗi video dựng xong phải gửi Telegram kèm tiêu đề và hashtag (chủ kênh yêu cầu 28/10/2026, áp dụng mọi video từ nay)
+- Mỗi video dựng xong (ngắn hay dài, mọi series) phải gửi vào Telegram của chủ kênh, KHÔNG chỉ báo đường dẫn file. Tin nhắn gồm: file video (hoặc link tải nếu quá dung lượng), **tiêu đề đề xuất** (một dòng, gọn, gây tò mò, đúng nội dung) và **hashtag** (khoảng 5–8 thẻ: tên kênh, chủ đề, nhân vật hoặc địa danh, thời đại; không hashtag sai chủ đề hay câu khách).
+- Gửi kèm ảnh bìa nếu đã có. Tiêu đề và hashtag viết theo văn phong rõ ràng của bài Facebook ở trên; tiêu đề không đoán sai sự thật, không giật tít sai lệch.
+- Chỉ gửi sau khi đã qua bước kiểm (`kiem_video.py`, `review.py` không có ❌). Video chưa đạt thì không gửi, báo chủ kênh lỗi nào.
+- Cách gửi: workflow `gui-file-telegram.yml` (ghi đường dẫn vào `ke-hoach/thu-giong-hai/gui_tg.txt`) hoặc `telegram/tg_text.py` cho phần chữ. Chỉ chạy khi chủ kênh đã yêu cầu dựng video đó (xem mục Git: workflow chỉ chạy khi được yêu cầu). Gửi xong phải xác nhận tin đã tới, không giả định.
+- Với video dựng trong phiên làm việc này (không qua workflow): gửi file trực tiếp cho chủ kênh trong cuộc trò chuyện, kèm tiêu đề và hashtag trong cùng tin nhắn.

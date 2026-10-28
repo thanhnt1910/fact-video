@@ -1,0 +1,176 @@
+{
+ "ten_duong": "Nguyễn Trãi",
+ "danh_hieu": "Danh nhân văn hóa thế giới · 1380 – 1442",
+ "moc": [
+  {
+   "nam": 1380,
+   "n": 19002
+  },
+  {
+   "nam": 1400,
+   "n": 19005
+  },
+  {
+   "nam": 1428,
+   "n": 19009
+  },
+  {
+   "nam": 1442,
+   "n": 19011
+  },
+  {
+   "nam": 1464,
+   "n": 19013
+  },
+  {
+   "nam": 1980,
+   "n": 19014
+  }
+ ],
+ "anh": {
+  "19001": {
+   "file": "19001.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: trungydang, CC BY 3.0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3ANguy%E1%BB%85n_Tr%C3%A3i%2C_tp._H%C3%A0_Giang%2C_Ha_Giang%2C_Vietnam_-_panoramio_%287%29.jpg",
+   "tieu_de": "File:Nguyễn Trãi, tp. Hà Giang, Ha Giang, Vietnam - panoramio (7).jpg",
+   "giay_phep": "CC BY 3.0",
+   "tac_gia": "trungydang"
+  },
+  "19002": {
+   "file": "19002.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3ANguyen_Trai.jpg",
+   "tieu_de": "File:Nguyen Trai.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Unknown authorUnknown author"
+  },
+  "19003": {
+   "file": "19003.jpg",
+   "mode": "phai",
+   "ghi_nguon": "Ảnh: Syced, CC0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3A2003%2C_nature_in_Con_Son.jpg",
+   "tieu_de": "File:2003, nature in Con Son.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Syced"
+  },
+  "19004": {
+   "file": "19004.jpg",
+   "mode": "trai",
+   "ghi_nguon": "Ảnh: Syced, CC0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AJuly_2003%2C_Con_Son_8.jpg",
+   "tieu_de": "File:July 2003, Con Son 8.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Syced"
+  },
+  "19005": {
+   "file": "19005.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AHano%C3%AF_-_Pagode_de_la_litt%C3%A9rature_-_Route_de_Sinh-Thu.jpg",
+   "tieu_de": "File:Hanoï - Pagode de la littérature - Route de Sinh-Thu.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Pierre Dieulefils"
+  },
+  "19006": {
+   "file": "19006.jpg",
+   "mode": "out",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3ATh%E1%BB%A7_t%C3%ADn_thi%C3%AAn_h%E1%BA%A1_v%C4%83n_v%C5%A9_quy%E1%BB%81n_h%C3%A0nh_%28%E5%8F%96%E4%BF%A1%E5%A4%A9%E4%B8%8B%E6%96%87%E6%AD%A6%E6%AC%8A%E8%A1%8C%29_on_a_document_related_to_farming_%28Gia_Long_5_-_1806%29.png",
+   "tieu_de": "File:Thủ tín thiên hạ văn vũ quyền hành (取信天下文武權行) on a document related to farming (Gia Long 5 - 1806).png",
+   "giay_phep": "Public domain",
+   "tac_gia": "The government of the Nguyễn"
+  },
+  "19007": {
+   "file": "19007.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AAn_Nam_qu%E1%BB%91c_%C4%91%E1%BB%93.png",
+   "tieu_de": "File:An Nam quốc đồ.png",
+   "giay_phep": "Public domain",
+   "tac_gia": "Capon (thảo luận)"
+  },
+  "19008": {
+   "file": "19008.jpg",
+   "mode": "trai",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3A%E9%BB%8E%E6%9C%9D%E5%8F%B2%E8%A8%98_%E2%80%A2_L%C3%AA_tri%E1%BB%81u_s%E1%BB%AD_k%C3%BD-0649-001.jpg",
+   "tieu_de": "File:黎朝史記 • Lê triều sử ký-0649-001.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author"
+  },
+  "19009": {
+   "file": "19009.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AB%C3%ACnh_Ng%C3%B4_%C4%91%E1%BA%A1i_c%C3%A1o_%E5%B9%B3%E5%90%B3%E5%A4%A7%E8%AA%A5.png",
+   "tieu_de": "File:Bình Ngô đại cáo 平吳大誥.png",
+   "giay_phep": "Public domain",
+   "tac_gia": "Nguyễn Trãi"
+  },
+  "19010": {
+   "file": "19010.jpg",
+   "mode": "phai",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3A%C6%AFcTraiDiT%E1%BA%ADpQ6T15-18.jpg",
+   "tieu_de": "File:ƯcTraiDiTậpQ6T15-18.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "Nguyen Trai"
+  },
+  "19011": {
+   "file": "19011.jpg",
+   "mode": "out",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3A%E9%BB%8E%E6%9C%9D%E5%8F%B2%E8%A8%98_%E2%80%A2_L%C3%AA_tri%E1%BB%81u_s%E1%BB%AD_k%C3%BD-0649-002.jpg",
+   "tieu_de": "File:黎朝史記 • Lê triều sử ký-0649-002.jpg",
+   "giay_phep": "Public domain",
+   "tac_gia": "AnonymousUnknown author"
+  },
+  "19012": {
+   "file": "19012.jpg",
+   "mode": "trai",
+   "ghi_nguon": "Ảnh: Syced, CC0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AJuly_2003%2C_Con_Son_14.jpg",
+   "tieu_de": "File:July 2003, Con Son 14.jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Syced"
+  },
+  "19013": {
+   "file": "19013.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: phạm vi công cộng · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AVua_L%C3%AA_Th%C3%A1nh_T%C3%B4ng_%28t%C6%B0%E1%BB%A3ng_%C4%91%E1%BB%93ng%29.JPG",
+   "tieu_de": "File:Vua Lê Thánh Tông (tượng đồng).JPG",
+   "giay_phep": "Public domain",
+   "tac_gia": "Duyphuong (thảo luận)Duyphuo"
+  },
+  "19014": {
+   "file": "19014.jpg",
+   "mode": "phai",
+   "ghi_nguon": "Ảnh: Chuhai07, CC0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3AV%C4%83n_Mi%E1%BA%BFu_%E2%80%93_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m_%283%29.jpg",
+   "tieu_de": "File:Văn Miếu – Quốc Tử Giám (3).jpg",
+   "giay_phep": "CC0",
+   "tac_gia": "Chuhai07"
+  },
+  "19015": {
+   "file": "19015.jpg",
+   "mode": "out",
+   "ghi_nguon": "Ảnh: trungydang, CC BY 3.0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3ADuong_Nguyen_trai%2C_Xuan_hoa%2C_tx._long_khanh%2C_Dongnai.vn_-_panoramio.jpg",
+   "tieu_de": "File:Duong Nguyen trai, Xuan hoa, tx. long khanh, Dongnai.vn - panoramio.jpg",
+   "giay_phep": "CC BY 3.0",
+   "tac_gia": "trungydang"
+  },
+  "mac_dinh": {
+   "file": "19001.jpg",
+   "mode": "vao",
+   "ghi_nguon": "Ảnh: trungydang, CC BY 3.0 · Wikimedia Commons",
+   "trang": "https://commons.wikimedia.org/wiki/File%3ANguy%E1%BB%85n_Tr%C3%A3i%2C_tp._H%C3%A0_Giang%2C_Ha_Giang%2C_Vietnam_-_panoramio_%287%29.jpg",
+   "tieu_de": "File:Nguyễn Trãi, tp. Hà Giang, Ha Giang, Vietnam - panoramio (7).jpg",
+   "giay_phep": "CC BY 3.0",
+   "tac_gia": "trungydang"
+  }
+ }
+}

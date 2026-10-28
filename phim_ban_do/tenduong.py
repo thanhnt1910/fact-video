@@ -73,7 +73,52 @@ def photo(fn, u, mode):
     s = s0 * z; w, h = int(im.width * s), int(im.height * s); r = im.resize((w, h), Image.BILINEAR)
     px = {'trai': 0.35 + 0.3 * u, 'phai': 0.65 - 0.3 * u}.get(mode, 0.5); py = 0.5
     x0 = int((w - PW) * px); y0 = int((h - PH) * py); return r.crop((x0, y0, x0 + PW, y0 + PH))
+def _banner(img, big, sub=None):
+    im = img.copy().convert('RGBA'); d = ImageDraw.Draw(im); h = 190 if sub else 130
+    ov = Image.new('RGBA', (PW, h), (6, 18, 36, 215)); im.alpha_composite(ov, (0, PH - h - 44))
+    d = ImageDraw.Draw(im); f = PLAY(64); tw_ = d.textbbox((0, 0), big, font=f)[2]; d.text(((PW - tw_) / 2, PH - h - 44 + 14), big, font=f, fill=GOLD + (255,))
+    if sub: f = BVP(34, False); tw_ = d.textbbox((0, 0), sub, font=f)[2]; d.text(((PW - tw_) / 2, PH - h - 44 + 106), sub, font=f, fill=WHITE + (255,))
+    return im.convert('RGB')
+def _portrait(fn, big, sub):
+    im = load(fn).convert('RGB'); bg = im.resize((PW, PH), Image.BILINEAR).filter(ImageFilter.GaussianBlur(30)); bg = Image.blend(bg, Image.new('RGB', (PW, PH), (6, 18, 36)), 0.5)
+    s = min(PW / im.width, (PH - 150) / im.height); r = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
+    bg.paste(r, ((PW - r.width) // 2, 20)); d = ImageDraw.Draw(bg)
+    f = PLAY(54); w1 = d.textbbox((0, 0), big, font=f)[2]; d.text(((PW - w1) / 2, PH - 130), big, font=f, fill=GOLD)
+    f = BVP(30, False); w2 = d.textbbox((0, 0), sub, font=f)[2]; d.text(((PW - w2) / 2, PH - 60), sub, font=f, fill=WHITE); return bg
+def card_for(n, ts, u):
+    import tdcards as C
+    C.setfonts(BVP, BARLOW, PLAY)
+    ph = lambda: (lambda m: photo(m['file'], u, m.get('mode', 'vao')))(meta['anh'][str(n)])
+    if n == 19001: return ph(), meta['anh'][str(n)]
+    if n == 19002: return _portrait(meta['anh'][str(n)]['file'], 'Ức Trai · sinh năm 1380', 'chân dung theo truyền thống'), {}
+    if n == 19003: return C.card_map(ts, u, {'Chí Linh': (106.38, 21.13, 24, -70), 'Nhị Khê': (105.87, 20.80, -24, 10)}, ('Chí Linh', 'Nhị Khê'), 'Từ Chí Linh về Nhị Khê', (106.12, 20.96), 8.0), {}
+    if n == 19004: return C.card_family(ts, u), {}
+    if n == 19005: return C.card_year(ts, u, 1400, 'Đỗ Thái học sinh', '20 tuổi, học vị tương đương tiến sĩ'), {}
+    if n == 19006: return C.card_text(ts, u, 'Ngự sử đài chánh chưởng', ['Chức quan giữ việc giám sát các quan khác']), {}
+    if n == 19007: return C.card_timeline(ts, u), {}
+    if n == 19008: return C.card_map(ts, u, {'Lam Sơn': (105.38, 19.93, 24, -20), 'Hà Nội': (105.85, 21.03, 24, -60)}, ('Hà Nội', 'Lam Sơn'), 'Nguyễn Trãi tìm đến Lê Lợi ở Lam Sơn', (105.6, 20.5), 6.0), {}
+    if n == 19009: return _banner(ph(), '1428 · Bình Ngô đại cáo', 'tuyên bố nước ta độc lập'), meta['anh'][str(n)]
+    if n == 19010: return C.card_books(ts, u), {}
+    if n == 19011: return C.card_year(ts, u, 1442, 'Vụ án Lệ Chi Viên', 'vua Lê Thái Tông qua đột ngột'), {}
+    if n == 19012: return C.card_text(ts, u, 'Bị kết tội', ['cả gia đình cũng bị liên lụy']), {}
+    if n == 19013: return _banner(ph(), '1464 · được minh oan', 'vua Lê Thánh Tông khôi phục danh dự'), meta['anh'][str(n)]
+    if n == 19014: return _banner(ph(), '1980 · UNESCO', 'Danh nhân văn hóa thế giới'), meta['anh'][str(n)]
+    if n == 19016: return C.card_city(ts, u, 0), {}
+    if n == 19017: return C.card_city(ts, u, 1), {}
+    if n == 19015: return C.card_text(ts, u, 'Đường Nguyễn Trãi gần nhà bạn nằm ở đâu?', []), {}
+    return ph(), meta['anh'][str(n)]
 def frame_photo(t):
+    if os.environ.get('TDC'):
+        idx = [i for i, b in enumerate(beats) if T[b['n']] <= t]; idx = idx[-1] if idx else 0; n = beats[idx]['n']; ts = max(0.0, t - T[n])
+        img, m = card_for(n, ts, ts / max(0.1, D[n]))
+        if idx > 0 and ts < 0.35:
+            pn = beats[idx - 1]['n']; old, _ = card_for(pn, D[pn], 1.0); img = Image.blend(old.convert('RGB'), img.convert('RGB'), ease(ts / 0.35))
+        return img.convert('RGB'), m
+    if os.environ.get('TD2D'):
+        import doc2_fx2 as FX
+        n = [b['n'] for b in beats if T[b['n']] <= t]; n = n[-1] if n else beats[0]['n']
+        sp = FX.spec_for(n, TEXT); im = FX.render(sp, max(0.0, t - T[n])).convert('RGB').resize((PW, PH), Image.LANCZOS)
+        return im, {'ghi_nguon': ''}
     cur = None
     for b in beats:
         if T[b['n']] <= t: cur = b
@@ -108,6 +153,23 @@ def timeline(t, cur_n):
     return d_im
 # ---------- phụ đề chạy chữ ----------
 WORDS = {}
+_D = {'một': 1, 'mốt': 1, 'hai': 2, 'ba': 3, 'bốn': 4, 'tư': 4, 'năm': 5, 'lăm': 5, 'sáu': 6, 'bảy': 7, 'tám': 8, 'chín': 9}
+def _doc_nam(tk, i):
+    """Đọc số năm dạng 'một nghìn ba trăm tám mươi' hoặc 'một trăm chín mươi hai' bắt đầu ở tk[i]; trả (giá trị, số chữ dùng) hoặc None."""
+    import re as _re
+    g = lambda j: _re.sub(r'[^\w]', '', tk[j].lower()) if j < len(tk) else ''
+    k = i; v = 0
+    if g(k) in _D and g(k + 1) == 'nghìn': v = _D[g(k)] * 1000; k += 2
+    if g(k) in _D and g(k + 1) == 'trăm': v += _D[g(k)] * 100; k += 2
+    elif v == 0: return None
+    if g(k) in ('linh', 'lẻ') and g(k + 1) in _D: return v + _D[g(k + 1)], k + 2 - i
+    if g(k) == 'mười':
+        v += 10; k += 1
+        if g(k) in ('lăm', 'một', 'hai', 'ba', 'bốn', 'sáu', 'bảy', 'tám', 'chín') and g(k) != 'năm': v += _D[g(k)]; k += 1
+    elif g(k) in _D and g(k + 1) == 'mươi':
+        v += _D[g(k)] * 10; k += 2
+        if g(k) in _D and not (g(k) == 'năm' and g(k + 1) in ('tuổi', 'sau', 'trước')): v += _D[g(k)]; k += 1
+    return v, k - i
 def words(n):
     if n in WORDS: return WORDS[n]
     src = TEXT[n].split(); a = ASR.get(str(n), []); row = []
@@ -115,7 +177,15 @@ def words(n):
         if a: j = round(i * (len(a) - 1) / max(1, len(src) - 1)); s, e = a[j][1], a[j][2]
         else: s = 0.15 + (D[n] - 0.45) * i / len(src); e = 0.15 + (D[n] - 0.45) * (i + 1) / len(src)
         row.append((w, T[n] + s, T[n] + e))
-    WORDS[n] = row; return row
+    import re as _re
+    out = []; i = 0
+    while i < len(row):
+        r = _doc_nam([x[0] for x in row], i + 1) if _re.sub(r'[^\w]', '', row[i][0].lower()) == 'năm' and i + 1 < len(row) else None
+        if r:
+            val, used = r; last = row[i + used][0]; tail = _re.search(r'[^\w]+$', last)
+            out.append(row[i]); out.append((str(val) + (tail.group(0) if tail else ''), row[i + 1][1], row[i + used][2])); i += used + 1
+        else: out.append(row[i]); i += 1
+    WORDS[n] = out; return out
 def subs(t, n):
     row = words(n); fnt = BVP(54); lay = Image.new('RGBA', (W, 380), (0, 0, 0, 0)); d = ImageDraw.Draw(lay); x0, x1 = 70, W - 70; lines = []; line = []; wd = 0
     for w in row:
@@ -135,6 +205,18 @@ def subs(t, n):
             col = GOLD + (255,) if now else (WHITE + (255,) if on else (150, 172, 205, 255)); d.text((x, y), w, font=fnt, fill=col); x += ww
         y += 76
     return lay
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lamp import lamp, CW, CH
+def den(t, n):
+    since = t - T[n]; talk = 0.0
+    if 0.1 < since < D[n] - 0.25: talk = 0.5 + 0.5 * abs(math.sin(t * 9.0))
+    fresh = 0 <= since < 0.6
+    seg = int(t / 3.5); gk = (seg * 7 + n) % 5; larm = 1 if gk == 1 else (2 if gk == 3 else 0)
+    ang = -0.95 + 0.08 * math.sin(t * 3.0) - (0.3 * math.sin(min(1, since / 0.35) * math.pi) if fresh else 0.0)
+    L, _ = lamp(t, talk, 'happy', None if t < 1.6 else (ang, 300), 1.0 if t < 1.6 else 0.0, larm=larm, stride=1.0)
+    hop = (50 * abs(math.sin(min(1, since / 0.6) * math.pi)) if fresh else 0.0) + 14 * talk * abs(math.sin(t * 7.0))
+    sc = 0.46; L = L.resize((int(CW * sc), int(CH * sc)), Image.LANCZOS)
+    return L, hop
 def frame(t):
     f = BG.copy(); n = [b['n'] for b in beats if T[b['n']] <= t]; n = n[-1] if n else beats[0]['n']
     img, m = frame_photo(t); cred = m.get('ghi_nguon', '')
@@ -144,6 +226,7 @@ def frame(t):
     sg = sign(min(1, t / 1.0)); f.alpha_composite(sg, (int(60 + (800 + 40 - sg.width) / 2), int(60 + (300 - sg.height) / 2)))
     f.alpha_composite(timeline(t, n), (0, 1385))
     f.alpha_composite(subs(t, n), (0, 1520))
+    L, hop = den(t, n); f.alpha_composite(L, (-40, int(1330 - L.height - hop + 20)))
     f.alpha_composite(LOGO, (W - 44 - 130, 34))
     d = ImageDraw.Draw(f); d.rectangle((0, H - 14, W, H), fill=(6, 18, 36, 255)); d.rectangle((0, H - 14, int(W * t / TOTAL), H), fill=GOLD + (255,))
     if t < 0.3: f.alpha_composite(Image.new('RGBA', (W, H), (8, 20, 38, int(255 * (1 - t / 0.3)))))

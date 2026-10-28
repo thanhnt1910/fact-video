@@ -122,4 +122,4 @@ jobs:
             CAP="Lý Công Uẩn người dời đô: bản xem thử đã nén (bản đầy đủ nằm ở mục Releases của repo)"
           else CAP="Lý Công Uẩn người dời đô: bản dựng hoàn chỉnh để kiểm tra"; fi
           ls -la $F
-          curl -s -o r.txt -w "%{http_code}\n" -F chat_id="$TG_CHAT" -F video=@$F -F supports_streaming=true -F caption="$CAP" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"; head -c 300 r.txt
+          for i in 1 2 3; do curl -s --max-time 400 -o r.txt -w "%{http_code}\n" -F chat_id="$TG_CHAT" -F video=@$F -F supports_streaming=true -F caption="$CAP" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo" && grep -q '"ok":true' r.txt && break; sleep 10; done; head -c 300 r.txt

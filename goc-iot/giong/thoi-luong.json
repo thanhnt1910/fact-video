@@ -214,5 +214,59 @@
   "tu": 16,
   "tu_moi_giay": 3.85,
   "chu": "Camera nhà bạn đã đổi mật khẩu mặc định chưa? Bình luận cho Bóng biết nhé!"
+ },
+ "v10_s1": {
+  "giay": 4.12,
+  "tu": 14,
+  "tu_moi_giay": 3.4,
+  "chu": "Điều gì xảy ra nếu pin của thiết bị bạn bị sạc sai cách?"
+ },
+ "v10_s2": {
+  "giay": 9.48,
+  "tu": 28,
+  "tu_moi_giay": 2.95,
+  "chu": "Nhiều thiết bị thông minh dùng pin lithium, như camera không dây, vòng tay và sạc dự phòng. Loại pin này nhỏ nhưng chứa rất nhiều năng lượng."
+ },
+ "v10_s3": {
+  "giay": 7.72,
+  "tu": 23,
+  "tu_moi_giay": 2.98,
+  "chu": "Khi pin bị nóng, bị sạc sai hoặc bị hư, bên trong có thể sinh ra khí. Khí này làm pin phồng lên."
+ },
+ "v10_s4": {
+  "giay": 6.28,
+  "tu": 26,
+  "tu_moi_giay": 4.14,
+  "chu": "Các nhà nghiên cứu ở Đại học Maryland, Mỹ, đã tổng hợp điều này trong một bài báo năm hai nghìn không trăm hai mươi lăm."
+ },
+ "v10_s5": {
+  "giay": 8.04,
+  "tu": 25,
+  "tu_moi_giay": 3.11,
+  "chu": "Pin phồng có thể kéo theo giảm dung lượng và, trong trường hợp nặng, gây nguy hiểm. Vì thế phồng là dấu hiệu cảnh báo."
+ },
+ "v10_s6": {
+  "giay": 7.76,
+  "tu": 24,
+  "tu_moi_giay": 3.09,
+  "chu": "Nguyên nhân thường gặp là để nóng, ví dụ trong xe dưới nắng, dùng sạc không đúng hãng, hoặc pin bị rơi va đập."
+ },
+ "v10_s7": {
+  "giay": 7.48,
+  "tu": 24,
+  "tu_moi_giay": 3.21,
+  "chu": "Nếu thấy pin phồng, hãy ngừng dùng và ngừng sạc ngay. Không bóp, không chọc thủng, vì có thể thoát ra khí dễ cháy."
+ },
+ "v10_s8": {
+  "giay": 8.08,
+  "tu": 27,
+  "tu_moi_giay": 3.34,
+  "chu": "Sau đó để thiết bị ở nơi thoáng, xa vật dễ cháy, trong hộp kim loại. Đem tới điểm thu hồi pin, đừng vứt vào thùng rác."
+ },
+ "v10_s9": {
+  "giay": 3.92,
+  "tu": 15,
+  "tu_moi_giay": 3.83,
+  "chu": "Thiết bị nào trong nhà bạn dùng pin sạc? Bình luận cho Bóng biết nhé!"
  }
 }

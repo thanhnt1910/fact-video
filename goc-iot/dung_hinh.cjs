@@ -24,6 +24,8 @@ const V1DEF = [
   { t0: 38, t1: 44, gfx: 'end', wave: true, mode: 'big', glow: true, text: 'Bạn đang dùng thiết bị thông minh nào? Bình luận cho Bóng biết nhé!', pts: [] },
 ];
 
+let ALIGN = {};
+try { if (process.env.ALIGN) ALIGN = JSON.parse(fs.readFileSync(process.env.ALIGN, 'utf-8')); } catch (e) {}
 let scenes = [];
 let TOTAL = 0;
 
@@ -250,16 +252,17 @@ const ICONS = { bulb: iconBulb, camera: iconCamera, watch: iconWatch, chip: icon
 
 // ===== dựng cảnh theo lời đọc =====
 const stripW = (w) => w.toLowerCase().replace(/[.,!?:;…]+/g, '');
-function wordTimes(text, dur) {
+function wordTimes(text, dur, key) {
   const ws = text.split(' ');
+  if (key && ALIGN[key] && ALIGN[key].length === ws.length) return ALIGN[key];
   const total = ws.reduce((a, w) => a + w.length + 1, 0);
   const start = 0.25, span = Math.max(0.5, dur - 0.7);
   let cum = 0;
   return ws.map((w) => { const t = start + span * cum / total; cum += w.length + 1; return t; });
 }
-function buildGeneric(def, text, dur) {
+function buildGeneric(def, text, dur, key) {
   const ws = text.split(' ').map(stripW);
-  const wt = wordTimes(text, dur);
+  const wt = wordTimes(text, dur, key);
   let from = 0;
   const items = (def.items || []).map((it) => {
     let k = 0;
@@ -429,13 +432,14 @@ ${tongue}
   return shadow + glowEl + body;
 }
 
-function subtitle(fullText, local, dur) {
+function subtitle(fullText, local, dur, key) {
   // Cụm ngắn (tối đa 2 dòng); từng từ chỉ hiện khi được đọc tới. Vị trí chữ cố định nên không bị nhảy.
   const fw = fullText.split(' ');
   const ftotal = fw.reduce((s, w) => s + w.length + 1, 0);
   const fspan = Math.max(0.5, dur - 0.7);
   let fc = 0;
-  const ft = fw.map((w) => { const t0 = 0.25 + fspan * fc / ftotal; fc += w.length + 1; return t0; });
+  let ft = fw.map((w) => { const t0 = 0.25 + fspan * fc / ftotal; fc += w.length + 1; return t0; });
+  if (key && ALIGN[key] && ALIGN[key].length === fw.length) ft = ALIGN[key];
   const chunks = [];
   let cur = [];
   fw.forEach((w, k) => {
@@ -655,7 +659,7 @@ function buildScenes() {
       const d = DEFS[VID][i];
       sc = { mode: d.mode, glow: d.glow, wave: d.wave, gfx: d.kind === 'gen' ? 'gen' : d.kind, q: d.q, pts: [] };
       if (d.kind === 'gen') {
-        const g = buildGeneric(d.gen, text, dur);
+        const g = buildGeneric(d.gen, text, dur, key);
         sc.gen = Object.assign({}, d.gen, { items: g.items });
         sc.pts = g.pts;
       }
@@ -694,7 +698,7 @@ ${bok}
 <circle cx="540" cy="${lay.cy.toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
 ${gfx(sc.gfx, lw, t, sc)}
 ${bong(t, sc.wave, lay2, sc.glow, sc.pts || [], lw)}
-${subtitle(sc.text, local, sc.t1 - sc.t0)}
+${subtitle(sc.text, local, sc.t1 - sc.t0, sc.key)}
 </svg>`;
 }
 

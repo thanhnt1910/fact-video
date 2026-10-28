@@ -52,5 +52,23 @@
   "tu": 21,
   "tu_moi_giay": 3.62,
   "chu": "Bạn đã kiểm tra mật khẩu và danh sách người xem camera nhà mình chưa? Bình luận cho Bóng biết nhé!"
+ },
+ "v7_s1": {
+  "giay": 7.2,
+  "tu": 25,
+  "tu_moi_giay": 3.47,
+  "chu": "WiFi gửi dữ liệu qua không khí. Sóng không dừng ở bức tường, nên người đứng gần nhà cũng có thể bắt được tín hiệu."
+ },
+ "v7_s2": {
+  "giay": 7.12,
+  "tu": 24,
+  "tu_moi_giay": 3.37,
+  "chu": "Router đổi dữ liệu thành sóng vô tuyến. Điện thoại nhận sóng rồi đổi lại thành dữ liệu, và chiều ngược lại cũng vậy."
+ },
+ "v7_s3": {
+  "giay": 11.32,
+  "tu": 32,
+  "tu_moi_giay": 2.83,
+  "chu": "WiFi có hai băng tần. Một băng đi xa hơn, một băng nhanh hơn. Càng xa router, sóng càng yếu. Trong nhà, sóng thường phủ khoảng ba mươi đến năm mươi mét."
  }
 }

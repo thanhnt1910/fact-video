@@ -1,19 +1,43 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-v1_s1 lần 1: 8.08s, 3.47 từ/giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v1_s2 lần 1: 8.76s, 3.20 từ/giây
-v1_s3 lần 1: 13.40s, 2.91 từ/giây
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+v7_s1 lần 1: 7.20s, 3.47 từ/giây
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v1_s4 lần 1: 6.08s, 3.45 từ/giây
-v1_s5 lần 1: 10.28s, 3.50 từ/giây
-v1_s6 lần 1: 5.88s, 3.40 từ/giây
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v1_s7 lần 1: 10.48s, 3.05 từ/giây
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v1_s8 lần 1: 6.08s, 3.45 từ/giây
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v1_s9 lần 1: 5.20s, 4.04 từ/giây
-v1_s9 lần 2: 5.80s, 3.62 từ/giây
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v1_s9 lần 3: 4.84s, 4.34 từ/giây
-Cảnh tốc độ lạ (cần nghe lại): ['v1_s9']
+v7_s2 lần 1: 7.12s, 3.37 từ/giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v7_s3 lần 1: 11.32s, 2.83 từ/giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h52m26s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+   [gemini] mọi khóa đang hết lượt, đợi 120s…
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/goc-iot/tao_giong.py", line 60, in <module>
+    main()
+  File "/home/runner/work/fact-video/fact-video/goc-iot/tao_giong.py", line 43, in main
+    wav = gemini_tts.synth(say, STYLE, voice)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/fact-video/fact-video/gemini_tts.py", line 177, in synth
+    raise RuntimeError("Gemini TTS lỗi:\n  " + "\n  ".join(errs))
+RuntimeError: Gemini TTS lỗi:
+  gemini-3.8-flash-tts: mọi khóa Gemini đều hết lượt
+  gemini-3.8-flash-tts: mọi khóa Gemini đều hết lượt
+  gemini-3.1-flash-tts-preview: mọi khóa Gemini đều hết lượt
+  gemini-2.5-flash-preview-tts: mọi khóa Gemini đều hết lượt
+  gemini-2.5-pro-preview-tts: mọi khóa Gemini đều hết lượt

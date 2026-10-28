@@ -1,0 +1,29 @@
+name: Tìm ảnh Commons (lọc giấy phép)
+
+on:
+  push:
+    paths: ['ke-hoach/ten-duong/anh_chay.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Tìm và tải ảnh
+        run: |
+          TEN=$(head -1 ke-hoach/ten-duong/anh_chay.txt | cut -d' ' -f1)
+          python -u phim_ban_do/tim_anh_commons.py "$TEN" 2>&1 | tee tim_anh.log
+          mkdir -p logs; cp tim_anh.log logs/tim_anh_$TEN.log
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add assets/ten_duong ke-hoach/ten-duong logs || true
+          git -c user.email=actions@users.noreply.github.com -c user.name=bot commit -qm "Ảnh ứng viên Commons [skip ci]" || exit 0
+          for i in 1 2 3; do git pull --rebase -q -X theirs && git push -q && exit 0; sleep 5; done

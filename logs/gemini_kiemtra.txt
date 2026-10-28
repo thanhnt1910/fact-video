@@ -1,22 +1,34 @@
-Kiểm tra lúc 2026-10-13 15:57:57 UTC
-Số khóa tìm thấy: 5
+Kiểm tra lúc 2026-10-28 02:05:55 UTC
+Số khóa tìm thấy: 8
 
 [GEMINI_API_KEY] dấu vân tay 6a898e57, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 503 UNAVAILABLE: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_2] dấu vân tay a5829c1b, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_3] dấu vân tay 8a28a818, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_4] dấu vân tay 7673ded0, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_5] dấu vân tay 50693f29, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_6] dấu vân tay 7eecaab1, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_7] dấu vân tay 16514519, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_8] dấu vân tay c584db37, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được

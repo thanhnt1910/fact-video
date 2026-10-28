@@ -148,5 +148,17 @@
   "tu": 18,
   "tu_moi_giay": 3.81,
   "chu": "Nhà bạn có thiết bị nào sẽ ngừng chạy khi mất mạng? Bình luận cho Bóng biết nhé!"
+ },
+ "v8_s5": {
+  "giay": 10.12,
+  "tu": 34,
+  "tu_moi_giay": 3.36,
+  "chu": "Nhiều dịch vụ trên mạng bị gián đoạn, trong đó có thiết bị trong nhà. Một ví dụ là giường thông minh Eight Sleep, giá khoảng hai nghìn đô la, cần mạng liên tục."
+ },
+ "v8_s6": {
+  "giay": 9.88,
+  "tu": 34,
+  "tu_moi_giay": 3.44,
+  "chu": "Theo báo chí, có giường nóng quá, có giường ngừng làm mát, có giường không phản hồi. Ứng dụng không nối được với đám mây, nên giường chỉ còn giữ cài đặt cuối cùng."
  }
 }

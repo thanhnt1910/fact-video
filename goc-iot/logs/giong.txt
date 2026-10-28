@@ -1,23 +1,26 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-v10_s1 lần 1: 3.72s, 3.76 từ/giây
-v10_s1 lần 2: 4.12s, 3.40 từ/giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s2 lần 1: 9.48s, 2.95 từ/giây
-v10_s3 lần 1: 7.72s, 2.98 từ/giây
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s4 lần 1: 5.76s, 4.51 từ/giây
-v10_s4 lần 2: 5.32s, 4.89 từ/giây
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+v11_s1 lần 1: 5.48s, 3.47 từ/giây
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s4 lần 3: 6.28s, 4.14 từ/giây
-v10_s5 lần 1: 8.04s, 3.11 từ/giây
-v10_s6 lần 1: 7.76s, 3.09 từ/giây
+v11_s2 lần 1: 7.52s, 3.32 từ/giây
+v11_s3 lần 1: 9.60s, 3.12 từ/giây
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s7 lần 1: 7.48s, 3.21 từ/giây
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s8 lần 1: 8.08s, 3.34 từ/giây
+v11_s4 lần 1: 11.40s, 2.89 từ/giây
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s9 lần 1: 3.68s, 4.08 từ/giây
+v11_s5 lần 1: 8.88s, 3.60 từ/giây
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v10_s9 lần 2: 3.88s, 3.87 từ/giây
-v10_s9 lần 3: 3.92s, 3.83 từ/giây
-Cảnh tốc độ lạ (cần nghe lại): ['v10_s4', 'v10_s9']
+v11_s5 lần 2: 8.56s, 3.74 từ/giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v11_s5 lần 3: 8.96s, 3.57 từ/giây
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v11_s6 lần 1: 9.16s, 3.60 từ/giây
+v11_s6 lần 2: 8.68s, 3.80 từ/giây
+   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v11_s6 lần 3: 8.80s, 3.75 từ/giây
+v11_s7 lần 1: 8.64s, 3.59 từ/giây
+v11_s8 lần 1: 10.20s, 3.24 từ/giây
+v11_s9 lần 1: 4.24s, 3.30 từ/giây
+Cảnh tốc độ lạ (cần nghe lại): ['v11_s6']

@@ -6,9 +6,9 @@ const W = 1080, H = 1920, FPS = 24;
 const VID = parseInt(process.argv[2], 10);
 const outDir = process.argv[3];
 const mode = process.argv[4] || 'test';
-const KB = JSON.parse(fs.readFileSync('/home/claude/fact-video/goc-iot/kich-ban.json', 'utf-8'));
+const KB = JSON.parse(fs.readFileSync(path.join(__dirname, 'kich-ban.json'), 'utf-8'));
 let TL = {};
-try { TL = JSON.parse(fs.readFileSync((process.env.TLFILE || '/home/claude/fact-video/goc-iot/giong/thoi-luong.json'), 'utf-8')); } catch (e) {}
+try { TL = JSON.parse(fs.readFileSync((process.env.TLFILE || path.join(__dirname, 'giong', 'thoi-luong.json')), 'utf-8')); } catch (e) {}
 const FONT = "Inter, 'DejaVu Sans', sans-serif";
 const NAVY = '#12233F', YEL = '#FFD84D', TEAL = '#35C9B8';
 
@@ -429,7 +429,21 @@ ${tongue}
   return shadow + glowEl + body;
 }
 
-function subtitle(text, local, dur) {
+function subtitle(fullText, local, dur) {
+  // hiện từng câu một để phụ đề không che nhân vật
+  const fw = fullText.split(' ');
+  const ftotal = fw.reduce((s, w) => s + w.length + 1, 0);
+  const fspan = Math.max(0.5, dur - 0.7);
+  let fc = 0;
+  const ft = fw.map((w) => { const t0 = 0.25 + fspan * fc / ftotal; fc += w.length + 1; return t0; });
+  let cur0 = 0;
+  for (let k = 0; k < fw.length; k++) if (local >= ft[k]) cur0 = k;
+  let s0 = 0;
+  for (let k = cur0 - 1; k >= 0; k--) if (/[.!?…]$/.test(fw[k])) { s0 = k + 1; break; }
+  let e0 = fw.length - 1;
+  for (let k = cur0; k < fw.length; k++) if (/[.!?…]$/.test(fw[k])) { e0 = k; break; }
+  const text = fw.slice(s0, e0 + 1).join(' ');
+  const base = s0;
   const lines = wrap(text, 27);
   const lh = 74, pad = 24;
   const boxH = lines.length * lh + pad * 2;
@@ -437,10 +451,7 @@ function subtitle(text, local, dur) {
   const top = bottom - boxH;
   const a = clamp01(local / 0.25);
   const allWords = text.split(' ');
-  const total = allWords.reduce((s, w) => s + w.length + 1, 0);
-  const start = 0.25, span = Math.max(0.5, dur - 0.7);
-  let cum = 0;
-  const times = allWords.map((w) => { const ts = start + span * cum / total; cum += w.length + 1; return ts; });
+  const times = ft.slice(base, base + allWords.length);
   let idx = 0;
   const tx = lines.map((l, i) => {
     const ws = l.split(' ');
@@ -467,11 +478,63 @@ function layoutAt(t, idx, local) {
 }
 
 
+
+// ===== icon cho loạt an toàn và bảo mật =====
+const RED = '#E5484D';
+const slash = (r = 50) => `<line x1="${-r}" y1="${-r}" x2="${r}" y2="${r}" stroke="${RED}" stroke-width="12" stroke-linecap="round"/>`;
+const iconLock = () => `<path d="M-26 -4 V-26 Q-26 -58 0 -58 Q26 -58 26 -26 V-4" fill="none" stroke="${NAVY}" stroke-width="11" stroke-linecap="round"/><rect x="-46" y="-6" width="92" height="68" rx="14" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="22" r="9" fill="${NAVY}"/><rect x="-4" y="28" width="8" height="20" rx="3" fill="${NAVY}"/>`;
+const iconBug = () => `<g stroke="${NAVY}" stroke-width="6" stroke-linecap="round">${[-22, 0, 22].map((y) => `<line x1="-30" y1="${y}" x2="-56" y2="${y - 8}"/><line x1="30" y1="${y}" x2="56" y2="${y - 8}"/>`).join('')}</g><ellipse cx="0" cy="8" rx="34" ry="42" fill="${RED}" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="-40" r="18" fill="${NAVY}"/><circle cx="-7" cy="-42" r="5" fill="#FFFFFF"/><circle cx="7" cy="-42" r="5" fill="#FFFFFF"/><line x1="0" y1="-30" x2="0" y2="52" stroke="${NAVY}" stroke-width="5"/>`;
+const iconUpdate = () => `<g fill="none" stroke="${NAVY}" stroke-width="10" stroke-linecap="round"><path d="M-40 -8 A42 42 0 0 1 30 -30"/><path d="M40 8 A42 42 0 0 1 -30 30"/></g><path d="M16 -52 L44 -30 L10 -20 Z" fill="${NAVY}"/><path d="M-16 52 L-44 30 L-10 20 Z" fill="${NAVY}"/><circle cx="0" cy="0" r="12" fill="${TEAL}"/>`;
+const iconUpdateX = () => `<g opacity="0.55">${iconUpdate()}</g>${slash(52)}`;
+const iconReset = () => `<path d="M36 -26 A46 46 0 1 0 46 10" fill="none" stroke="${NAVY}" stroke-width="11" stroke-linecap="round"/><path d="M52 -52 L52 -12 L14 -28 Z" fill="${NAVY}"/><circle cx="0" cy="0" r="12" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/>`;
+const iconHouse = () => `<g transform="scale(0.4) translate(0 -10)">${house(false, 0)}</g>`;
+const iconBedX = () => `<g opacity="0.8"><rect x="-56" y="-2" width="112" height="34" rx="8" fill="#8FD3FF" stroke="${NAVY}" stroke-width="6"/><rect x="-56" y="-34" width="14" height="66" rx="6" fill="${NAVY}"/><rect x="-36" y="-14" width="36" height="20" rx="9" fill="#FFFFFF" stroke="${NAVY}" stroke-width="4"/><rect x="-52" y="32" width="10" height="14" fill="${NAVY}"/><rect x="42" y="32" width="10" height="14" fill="${NAVY}"/></g><circle cx="0" cy="0" r="62" fill="none" stroke="${RED}" stroke-width="10"/>${slash(44)}`;
+const iconList = () => `<rect x="-54" y="-62" width="108" height="124" rx="14" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${[-36, -6].map((y) => `<circle cx="-30" cy="${y}" r="9" fill="${NAVY}"/><line x1="-12" y1="${y}" x2="38" y2="${y}" stroke="#8A97A8" stroke-width="7" stroke-linecap="round"/>`).join('')}<circle cx="-30" cy="26" r="9" fill="${NAVY}"/><g stroke="${RED}" stroke-width="9" stroke-linecap="round"><line x1="-6" y1="14" x2="18" y2="38"/><line x1="18" y1="14" x2="-6" y2="38"/></g>`;
+const iconNoCopy = () => `<rect x="-48" y="-44" width="62" height="78" rx="10" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="-14" y="-22" width="62" height="78" rx="10" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><line x1="-4" y1="-4" x2="38" y2="-4" stroke="#8A97A8" stroke-width="6" stroke-linecap="round"/><line x1="-4" y1="14" x2="38" y2="14" stroke="#8A97A8" stroke-width="6" stroke-linecap="round"/>${slash(56)}`;
+Object.assign(ICONS, { lock: iconLock, bug: iconBug, update: iconUpdate, updx: iconUpdateX, reset: iconReset, house: iconHouse, bedx: iconBedX, list: iconList, nocopy: iconNoCopy });
+
 const X3 = [210, 540, 870], X4 = [165, 420, 675, 930], X5 = [120, 330, 540, 750, 960];
 const E = { mode: 'big', glow: true, wave: true, kind: 'end' };
 const Q = (a, b) => ({ mode: 'big', glow: true, wave: false, kind: 'q', q: [a, b] });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
+  1: [
+    G({ items: [
+      { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Camera|trong nhà', w: 'camera' },
+      { ic: 'house', x: X3[1], y: 330, k: 0.95, label: 'Hình ảnh|gia đình', w: 'gia' },
+      { ic: 'eye', x: X3[2], y: 330, k: 0.95, label: 'Người lạ xem', w: 'người' },
+      { pill: '3 việc cần làm', x: 540, y: 700, k: 1, w: 'ba' }], links: [[0, 1], [1, 2]] }),
+    G({ title: 'Việc 1: Đổi mật khẩu mặc định', titleSize: 54, items: [
+      { ic: 'lock', x: 540, y: 300, k: 1.25, label: 'Mật khẩu|mặc định', w: 'mật' },
+      { pill: 'admin', x: 270, y: 700, k: 0.9, w: 'admin' },
+      { pill: '123456', x: 810, y: 700, k: 0.9, w: '123456' }] }),
+    G({ items: [
+      { ic: 'bug', x: X3[0], y: 330, k: 0.95, label: 'Chương trình|tự động thử', w: 'chương' },
+      { ic: 'camera', x: X3[1], y: 330, k: 0.95, label: 'Hàng loạt|thiết bị', w: 'hàng' },
+      { pill: '2016', x: 300, y: 700, k: 0.9, w: 'năm' },
+      { pill: 'Mirai', x: 780, y: 700, k: 0.9, w: 'mirai' },
+      { ic: 'camera', x: X3[2], y: 330, k: 0.95, label: 'Hàng trăm nghìn|camera', w: 'hàng' }], links: [[0, 1]] }),
+    G({ items: [
+      { ic: 'lock', x: X3[0], y: 330, k: 0.95, label: 'Mật khẩu|dài', w: 'mật' },
+      { ic: 'nocopy', x: X3[1], y: 330, k: 0.95, label: 'Không dùng lại|ở nơi khác', w: 'không' },
+      { ic: 'shield', x: X3[2], y: 330, k: 0.95, label: 'Xác thực|hai bước', w: 'xác' }] }),
+    G({ title: 'Việc 2: Cập nhật phần mềm', titleSize: 54, items: [
+      { ic: 'bug', x: X3[0], y: 300, k: 0.85, label: 'Phần mềm|có lỗi', w: 'lỗi' },
+      { ic: 'shield', x: X3[1], y: 300, k: 0.85, label: 'Hãng sửa lỗi', w: 'sửa' },
+      { ic: 'update', x: X3[2], y: 300, k: 0.85, label: 'Bản cập nhật', w: 'bản' },
+      { pill: 'Bật tự động', x: 540, y: 700, k: 1, w: 'tự' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Thiết bị|quá cũ', w: 'thiết' },
+      { ic: 'updx', x: X3[1], y: 330, k: 0.95, label: 'Hết cập nhật', w: 'cập' },
+      { ic: 'camera', x: X3[2], y: 330, k: 0.95, label: 'Nên thay mới', w: 'thay' }], links: [[0, 1], [1, 2]] }),
+    G({ title: 'Việc 3: Chỗ đặt và người xem', titleSize: 54, items: [
+      { ic: 'bedx', x: 300, y: 330, k: 1.1, label: 'Phòng ngủ,|phòng tắm', w: 'phòng' },
+      { ic: 'list', x: 780, y: 330, k: 1.1, label: 'Xóa người|không còn cần', w: 'xóa' }] }),
+    G({ items: [
+      { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Bán hoặc|cho lại', w: 'camera' },
+      { ic: 'reset', x: X3[1], y: 330, k: 0.95, label: 'Khôi phục|cài đặt gốc', w: 'khôi' },
+      { ic: 'person', x: X3[2], y: 330, k: 0.95, label: 'Xóa khỏi|tài khoản', w: 'tài' }], links: [[0, 1], [1, 2]] }),
+    E],
   2: [
     Q('Đếm thử nhé!', 'Nhà bạn có mấy thiết bị nối mạng?'),
     G({ items: [
@@ -582,7 +645,7 @@ function buildScenes() {
     const key = `v${VID}_s${i + 1}`;
     const dur = (TL[key] ? TL[key].giay : text.split(' ').length / 2.6) + 0.7;
     let sc;
-    if (VID === 1) {
+    if (VID === 1 && !DEFS[1]) {
       const o = V1DEF[i];
       sc = Object.assign({}, o, { old: o.t1 - o.t0 });
     } else {

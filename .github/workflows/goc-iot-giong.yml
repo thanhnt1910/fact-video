@@ -25,7 +25,9 @@ jobs:
         run: pip install numpy
       - name: Đọc giọng Gemini
         env:
-          GEMINI_MAX_WAIT: "2400"
+          GEMINI_MAX_WAIT: "300"
+          GOC_IOT_VIDEOS: "1"
+          GOC_IOT_VOICE: "Puck"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}

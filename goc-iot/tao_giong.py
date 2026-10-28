@@ -7,9 +7,10 @@ sys.path.insert(0, str(ROOT.parent))
 import gemini_tts
 import am_thanh  # số, năm -> chữ (chỉ cho bản gửi giọng đọc, chữ trên màn hình giữ nguyên)
 
-STYLE = ("Native Vietnamese voice (Northern accent, Hanoi) of 'Bóng', a cheerful friendly light-bulb mascot "
-         "who explains IoT and home technology to ordinary families. Warm, lively, curious, clear diction, natural "
-         "Vietnamese tones, medium pace, smiling. Short natural pauses between sentences. Not robotic, not news-anchor flat.")
+STYLE = ("Native Vietnamese voice (Northern accent, Hanoi) of 'Bóng', a friendly smart light-bulb who teaches ordinary "
+         "families how to keep their smart home safe. Upbeat, playful and a little cheeky, dry sense of humor, clear diction, "
+         "natural Vietnamese tones, medium pace. Slow down and soften for warnings and risks, then bounce back for the tips. "
+         "Short natural pauses between sentences. Not robotic, not news-anchor flat.")
 
 def dur(wav):
     with wave.open(io.BytesIO(wav)) as w:

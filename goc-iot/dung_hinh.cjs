@@ -702,6 +702,25 @@ async function render(f, file) {
 (async () => {
   fs.mkdirSync(outDir, { recursive: true });
   buildScenes();
+  // mốc tiếng động theo hình (dùng cho sfx_video.py)
+  const NEG = ['updx', 'bedx', 'nocopy'], GOOD = ['shield', 'lock', 'update', 'reset'];
+  const ev = [];
+  scenes.forEach((c, i) => {
+    if (i === 0) ev.push({ t: 0.05, name: 'impact', gain: 0.45 });
+    else ev.push({ t: c.t0, name: 'transition', gain: 0.5 });
+    if (c.gfx === 'end') { ev.push({ t: c.t0 + 0.1, name: 'outro', gain: 0.8 }); ev.push({ t: c.t0 + 1.0, name: 'pop', gain: 0.8 }); }
+    if (c.gen) {
+      if (c.gen.title) ev.push({ t: c.t0 + (c.gen.titleT || 0.3), name: 'reveal', gain: 0.55 });
+      c.gen.items.forEach((it) => {
+        const name = it.pill ? 'tick' : NEG.includes(it.ic) ? 'impact' : it.ic === 'bug' ? 'impact' : GOOD.includes(it.ic) ? 'chime' : 'pop';
+        const gain = name === 'impact' ? 0.35 : name === 'chime' ? 0.5 : name === 'tick' ? 0.8 : 1;
+        ev.push({ t: c.t0 + it.t, name, gain });
+      });
+      (c.gen.links || []).forEach((l) => ev.push({ t: c.t0 + Math.max(c.gen.items[l[0]].t, c.gen.items[l[1]].t) + 0.5, name: 'tick', gain: 0.5 }));
+    }
+  });
+  ev.sort((x, y) => x.t - y.t);
+  fs.writeFileSync(path.join(outDir, 'events.json'), JSON.stringify({ total: TOTAL, events: ev }, null, 1));
   fs.writeFileSync(path.join(outDir, 'scenes.json'), JSON.stringify(scenes.map((c) => ({ t0: c.t0, t1: c.t1, text: c.text })), null, 1));
   if (mode === 'test') {
     const times = [];

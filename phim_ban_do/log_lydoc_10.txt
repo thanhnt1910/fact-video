@@ -1,7 +1,7 @@
 + nproc
 4
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_ly1_doc.txt
-+ MODE='full 1793160208'
++ MODE='full 1793161271'
 + python -
 tổng khung 20032 đoạn 10 12520 13772
 + read A0 A1
@@ -14,4 +14,4 @@ tổng khung 20032 đoạn 10 12520 13772
 1200 1252
 xong
 + ls -la docdoan_10.mp4
--rw-r--r-- 1 runner runner 10951078 Oct 28 04:08 docdoan_10.mp4
+-rw-r--r-- 1 runner runner 13673026 Oct 28 04:27 docdoan_10.mp4

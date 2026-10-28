@@ -27,7 +27,9 @@
     "Reddit": "Rét-đít",
     "Spotify": "Xpót-ti-phai",
     "lithium": "li-thi-um",
-    "Maryland": "Ma-ri-len"
+    "Maryland": "Ma-ri-len",
+    "iRobot": "ai rô bốt",
+    "MIT Technology Review": "Em Ai Ti Téc-nô-lô-di Ri-viu"
   },
   "videos": [
     {
@@ -185,6 +187,22 @@
         "Nếu thấy pin phồng, hãy ngừng dùng và ngừng sạc ngay. Không bóp, không chọc thủng, vì có thể thoát ra khí dễ cháy.",
         "Sau đó để thiết bị ở nơi thoáng, xa vật dễ cháy, trong hộp kim loại. Đem tới điểm thu hồi pin, đừng vứt vào thùng rác.",
         "Thiết bị nào trong nhà bạn dùng pin sạc? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "what-if-robot-hut-bui-chup-anh",
+      "title": "Điều gì xảy ra nếu robot hút bụi chụp ảnh trong nhà?",
+      "scenes": [
+        "Điều gì xảy ra nếu robot hút bụi trong nhà chụp ảnh, rồi ảnh đó rời khỏi nhà bạn?",
+        "Một số robot hút bụi có camera để nhìn đường và tránh vật cản. Để dạy máy nhận ra đồ vật, hệ thống cần rất nhiều ảnh thật.",
+        "Những ảnh này thường được người thật xem và gắn nhãn, ví dụ đây là tivi, đây là cây cảnh. Việc đó hay được giao cho nhân viên làm thuê từ xa.",
+        "Chuyện này đã xảy ra. Tháng mười hai năm hai nghìn không trăm hai mươi hai, tạp chí MIT Technology Review có được mười lăm ảnh chụp trong nhà, nằm trong nhóm kín.",
+        "Theo hãng iRobot, ảnh đến từ robot thử nghiệm không bán ra thị trường, chụp ở nhiều nước từ tháng sáu đến tháng mười một năm hai nghìn không trăm hai mươi.",
+        "Ảnh được gửi cho một công ty gắn nhãn dữ liệu, rồi tới những người làm thuê ở nước khác. Họ đã đăng ảnh lên nhóm kín, trái với thỏa thuận bảo mật.",
+        "Hãng cho biết người dùng máy thử nghiệm đã ký đồng ý, và đã chấm dứt hợp tác với bên làm lộ. Hãng nói đã chia sẻ hơn hai triệu ảnh cho các bên gắn nhãn.",
+        "Bạn làm được gì? Đọc kỹ chính sách quyền riêng tư, chỉ cho phép chia sẻ dữ liệu cần để máy hoạt động, và tắt camera nếu thiết bị có tùy chọn đó.",
+        "Robot hút bụi nhà bạn có camera không? Bình luận cho Bóng biết nhé!"
       ]
     }
   ]

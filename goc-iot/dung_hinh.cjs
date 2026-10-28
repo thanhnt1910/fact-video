@@ -598,6 +598,10 @@ const ANIMS = {
     }
     return o;
   },
+  shutter(local, it) {
+    const t = local - it[1].t - 0.2; if (t < 0) return '';
+    return ringsAt(540, 370, 100, 220, 1.2, t, 2, '#FFFFFF', 0.75);
+  },
   rings1(local, it) {
     const t = local - it[0].t - 0.4; if (t < 0) return '';
     return `<clipPath id="c1"><rect x="0" y="150" width="1080" height="440"/></clipPath><g clip-path="url(#c1)">${ringsAt(210, 370, 130, 760, 2.4, t, 4, '#FFFFFF', 0.55)}</g>`;
@@ -757,8 +761,41 @@ const iconBedHot = () => `${iconBed()}<g fill="none" stroke="${RED}" stroke-widt
 Object.assign(ICONS, { bed: iconBed, cloudx: iconCloudX, bedhot: iconBedHot });
 const iconBatSwell = () => `<rect x="-64" y="-34" width="120" height="68" rx="10" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="56" y="-14" width="14" height="28" rx="4" fill="${NAVY}"/><path d="M-50 -34 Q-6 -78 40 -34" fill="#FFFFFF" stroke="${RED}" stroke-width="7"/><rect x="-48" y="-18" width="86" height="36" rx="6" fill="#FFD84D"/>`;
 Object.assign(ICONS, { batswell: iconBatSwell });
+const iconVac = () => `<circle cx="0" cy="8" r="62" fill="${NAVY}" stroke="#FFFFFF" stroke-width="6"/><circle cx="0" cy="8" r="46" fill="#1B3358"/><circle cx="0" cy="-8" r="14" fill="${TEAL}" stroke="#FFFFFF" stroke-width="4"/><circle cx="0" cy="-8" r="5" fill="#FFFFFF"/><rect x="-22" y="26" width="44" height="8" rx="4" fill="${YEL}"/>`;
+Object.assign(ICONS, { vac: iconVac });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
+  11: [
+    Q('Điều gì xảy ra nếu', 'robot hút bụi chụp ảnh?'),
+    G({ anim: 'shutter', items: [
+      { ic: 'vac', x: X3[0], y: 330, k: 0.95, label: 'Robot|hút bụi', w: 'robot' },
+      { ic: 'camera', x: X3[1], y: 330, k: 0.95, label: 'Camera', w: 'camera' },
+      { ic: 'chip', x: X3[2], y: 330, k: 0.95, label: 'Dạy máy|nhận đồ vật', w: 'dạy' }], links: [[0, 1]] }),
+    G({ items: [
+      { ic: 'person', x: X3[0], y: 330, k: 0.95, label: 'Người thật|xem ảnh', w: 'người' },
+      { ic: 'list', x: X3[1], y: 330, k: 0.95, label: 'Gắn nhãn:|tivi, cây cảnh', w: 'nhãn' },
+      { ic: 'phone', x: X3[2], y: 330, k: 0.95, label: 'Làm thuê|từ xa', w: 'xa' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { pill: '12/2022', x: 540, y: 670, k: 1, w: 'tháng' },
+      { ic: 'eye', x: 540, y: 270, k: 0.9, label: 'Tạp chí|MIT Technology Review', w: 'mit' },
+      { pill: '15 ảnh', x: 540, y: 750, k: 1, w: 'mười' }] }),
+    G({ items: [
+      { ic: 'vac', x: X3[0], y: 330, k: 0.95, label: 'Máy thử|không bán ra', w: 'robot' },
+      { ic: 'mesh', x: X3[2], y: 330, k: 0.95, label: 'Nhiều nước', w: 'nhiều' },
+      { pill: 'Tháng 6 đến 11/2020', x: 540, y: 720, k: 0.95, w: 'tháng' }] }),
+    G({ anim: 'camflow', items: [
+      { ic: 'list', x: X3[0], y: 330, k: 0.95, label: 'Công ty|gắn nhãn', w: 'công' },
+      { ic: 'person', x: X3[1], y: 330, k: 0.95, label: 'Người làm thuê|nước khác', w: 'người' },
+      { ic: 'lock', x: X3[2], y: 330, k: 0.95, label: 'Đăng lên|nhóm kín', w: 'nhóm' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { ic: 'person', x: X3[0], y: 330, k: 0.95, label: 'Người dùng|đã ký đồng ý', w: 'người' },
+      { ic: 'nocopy', x: X3[2], y: 330, k: 0.95, label: 'Chấm dứt|hợp tác', w: 'chấm' },
+      { pill: 'Hơn 2 triệu ảnh đã chia sẻ', x: 540, y: 720, k: 0.95, w: 'hai' }] }),
+    G({ items: [
+      { ic: 'list', x: X3[0], y: 330, k: 0.95, label: 'Đọc chính sách|riêng tư', w: 'đọc' },
+      { ic: 'shield', x: X3[1], y: 330, k: 0.95, label: 'Chỉ chia sẻ|dữ liệu cần', w: 'chia' },
+      { ic: 'eyex', x: X3[2], y: 330, k: 0.95, label: 'Tắt camera|nếu có', w: 'tắt' }] }),
+    E],
   10: [
     Q('Điều gì xảy ra nếu', 'pin bị sạc sai cách?'),
     G({ items: [

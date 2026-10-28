@@ -58,5 +58,11 @@
     "tieu_de": "Điều gì xảy ra nếu pin thiết bị bị sạc sai cách?",
     "mo_ta": "Camera không dây, vòng tay, sạc dự phòng đều dùng pin lithium. Khi pin bị nóng, sạc sai hoặc hư, bên trong có thể sinh khí làm pin phồng lên. Một bài tổng quan năm 2025 của nhóm nghiên cứu ở Đại học Maryland (Mỹ) nêu sinh khí là một trong các cơ chế làm pin phồng, và liên hệ pin phồng với giảm dung lượng và rủi ro an toàn trong trường hợp nặng.\n\nNguyên nhân thường gặp: để nóng (xe dưới nắng), dùng sạc không đúng hãng, pin rơi va đập.\n\nNếu thấy pin phồng: ngừng dùng và ngừng sạc ngay, không bóp hay chọc thủng, để nơi thoáng xa vật dễ cháy, rồi mang tới điểm thu hồi pin. Không vứt vào thùng rác.\n\nNguồn: CALCE, Đại học Maryland (Batteries, 2025); hướng dẫn xử lý pin phồng của Anker.\n\nThiết bị nào trong nhà bạn dùng pin sạc?",
     "hashtag": "#GocIoT #WhatIf #PinLithium #AnToan #CongNghe #NhaThongMinh"
+  },
+  {
+    "id": 11,
+    "tieu_de": "Điều gì xảy ra nếu robot hút bụi chụp ảnh trong nhà?",
+    "mo_ta": "Một số robot hút bụi có camera để tránh vật cản, và hệ thống cần nhiều ảnh thật để học nhận ra đồ vật. Những ảnh đó thường do người thật xem và gắn nhãn.\n\nTháng 12/2022, tạp chí MIT Technology Review có được 15 ảnh chụp trong nhà, đang nằm trong các nhóm kín trên mạng. Theo hãng iRobot, ảnh đến từ robot thử nghiệm không bán ra thị trường, chụp từ tháng 6 đến tháng 11/2020, và bị đăng lên trái với thỏa thuận bảo mật của một bên gắn nhãn dữ liệu. Hãng cho biết người dùng máy thử nghiệm đã ký đồng ý, đã chấm dứt hợp tác với bên làm lộ, và đã chia sẻ hơn 2 triệu ảnh cho các bên gắn nhãn.\n\nViệc làm được ngay: đọc kỹ chính sách quyền riêng tư, chỉ cho phép chia sẻ dữ liệu cần để máy hoạt động, tắt camera nếu có tùy chọn.\n\nNguồn: MIT Technology Review (19/12/2022); AdGuard tổng hợp.\n\nRobot hút bụi nhà bạn có camera không?",
+    "hashtag": "#GocIoT #WhatIf #RobotHutBui #RiengTu #CongNghe #NhaThongMinh"
   }
 ]

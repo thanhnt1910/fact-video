@@ -1,16 +1,15 @@
 $ python phim_ban_do/chuan_hoa_giong.py nt1 -> 0
 cao độ trung vị 152 Hz
-tốc độ trung vị 4.04 chữ/giây
-đoạn đã chỉnh tốc độ: 11 / 15
-âm lượng sau chuẩn hóa: -15.5 đến -15.1 LUFS
-tổng thời lượng giọng 1.38 phút
+tốc độ trung vị 4.07 chữ/giây
+đoạn đã chỉnh tốc độ: 13 / 17
+âm lượng sau chuẩn hóa: -15.6 đến -15.1 LUFS
+tổng thời lượng giọng 1.64 phút
 
 $ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/nt1_full.json assets/thu_giong_hai/nt1_chuan phim_ban_do/asr_nt1.json medium khong_goi_y -> 0
-0 15
-xong 15
+xong 17
 
 $ python phim_ban_do/kiem_ngoai.py nt1 -> 0
-15/15 câu sạch
+17/17 câu sạch
 
 # Tự kiểm giọng nt1
 

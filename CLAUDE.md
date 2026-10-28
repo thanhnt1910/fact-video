@@ -233,3 +233,9 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Mỗi video vẫn trọn gói một chủ đề, không nối sang video khác (chủ kênh 24/10/2026): không có "tập sau", chỉ kết bằng kết cục của chính câu chuyện.
 - Video sử Việt vẫn tuân thủ mục "Series lịch sử Việt Nam": hài chỉ nhắm vào tình huống và quân xâm lược, không đùa anh hùng dân tộc.
 - Mẫu: `ke-hoach/dinh-bo-linh-kich-ban.md` (mở đầu bằng cảnh Đinh Liễn bị treo trên sào, chương lập triều đình rút gọn).
+
+## Video Góc IoT: luôn có hiệu ứng, Bóng chuyển động đa dạng (chủ kênh yêu cầu 28/10/2026, áp dụng mọi video Góc IoT)
+- Mọi video phải có hiệu ứng: ví dụ minh họa phải chuyển động (sóng lan, gói dữ liệu chạy, mã hóa biến đổi, thanh tiến độ...), biểu tượng nhún nhẹ, kèm tiếng động tự tổng hợp (`sfx_video.py`). Không để ví dụ chỉ là biểu tượng đứng yên.
+- Nhân vật Bóng không chỉ đi ngang: phải có nhiều kiểu chuyển động (lên xuống, nhảy, xoay khi đổi cảnh, nghiêng, co giãn khi tiếp đất, bay lơ lửng) và đổi kiểu theo cảnh.
+- Mỗi video có hoạt họa riêng theo ý từng cảnh, đăng ký trong `ANIMS` của `goc-iot/dung_hinh.cjs` (`G({ anim: 'tên', items: [...] })`).
+- Video xong thì gửi Telegram kèm tiêu đề và hashtag: đặt `goc-iot/video/video-<số>-<tên>.mp4`, đổi nội dung `goc-iot/gui-telegram.txt`, đẩy lên nhánh; chỉ để trong thư mục đó các video cần gửi.

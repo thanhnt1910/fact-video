@@ -139,12 +139,11 @@ module.exports = function (H) {
 
   // Cảnh 5: máy thử nghiệm không bán ra, nhiều nước, tháng 6 đến 11/2020
   v11.push({
-    w: [['doan', 'đoán'], ['nhung', 'nhưng'], ['ban', 'bán'], ['nuoc', 'nhiều'], ['nam', 'năm']],
-    point: [['doan', 400, 400], ['ban', 250, 620], ['nuoc', 700, 620]],
+    w: [['robot', 'robot'], ['ban', 'bán'], ['nuoc', 'nhiều'], ['nam', 'tháng']],
+    point: [['robot', 250, 620], ['nuoc', 700, 620], ['nam', 540, 960]],
     draw(l, t) {
-      let o = myth(l, t.doan, t.nhung, 'Robot bán ngoài cửa hàng?', 540, 400, 640);
-      o += pop(l, t.nhung, 250, 640, 1.2, `<circle r="140" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(1.5)">${ICONS.vac()}</g>`);
-      if (l >= t.nhung) o += pop(l, t.nhung + 0.3, 250, 820, 1, `<rect x="-150" y="-30" width="300" height="58" rx="29" fill="${YEL}" stroke="${NAVY}" stroke-width="5"/>${T(0, 12, 'MÁY THỬ NGHIỆM', 30)}`);
+      let o = pop(l, t.robot, 250, 640, 1.2, `<circle r="140" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(1.5)">${ICONS.vac()}</g>`);
+      if (l >= t.robot) o += pop(l, t.robot + 0.3, 250, 820, 1, `<rect x="-150" y="-30" width="300" height="58" rx="29" fill="${YEL}" stroke="${NAVY}" stroke-width="5"/>${T(0, 12, 'MÁY THỬ NGHIỆM', 30)}`);
       if (l >= t.ban) {
         const p = easeOutBack((l - t.ban) / 0.5);
         o += `<g transform="translate(250 640) scale(${p.toFixed(2)})"><circle r="156" fill="none" stroke="${RED}" stroke-width="14"/><line x1="-110" y1="110" x2="110" y2="-110" stroke="${RED}" stroke-width="14" stroke-linecap="round"/></g>`;
@@ -197,11 +196,10 @@ module.exports = function (H) {
 
   // Cảnh 7: ký đồng ý, chấm dứt hợp tác, hơn 2 triệu ảnh
   v11.push({
-    w: [['nghi', 'nghĩ'], ['hang', 'hãng'], ['ky', 'ký'], ['chain', 'chấm'], ['hai', 'hai']],
+    w: [['ky', 'ký'], ['chain', 'chấm'], ['hai', 'hai']],
     point: [['ky', 250, 620], ['chain', 780, 620], ['hai', 540, 960]],
     draw(l, t) {
-      let o = myth(l, t.nghi, t.hang, 'Chủ nhà không hề biết?', 540, 392, 600);
-      o += pop(l, t.ky - 0.2, 270, 680, 1, `${panel(-150, -190, 300, 380, '#FFFFFF', 22)}${[-130, -100, -70, -40].map((y) => `<rect x="-110" y="${y}" width="${y === -40 ? 120 : 220}" height="12" rx="6" fill="${NAVY}" fill-opacity="0.25"/>`).join('')}${T(0, 120, 'Đã ký đồng ý', 34, NAVY, 800)}`);
+      let o = pop(l, t.ky - 0.2, 270, 680, 1, `${panel(-150, -190, 300, 380, '#FFFFFF', 22)}${[-130, -100, -70, -40].map((y) => `<rect x="-110" y="${y}" width="${y === -40 ? 120 : 220}" height="12" rx="6" fill="${NAVY}" fill-opacity="0.25"/>`).join('')}${T(0, 120, 'Đã ký đồng ý', 34, NAVY, 800)}`);
       if (l >= t.ky + 0.4) {
         const p = pr(l, t.ky + 0.4, 1.0), pts = [[-100, 70], [-70, 20], [-40, 76], [-10, 24], [30, 72], [70, 30]];
         let d = '', total = pts.length - 1, upto = p * total;

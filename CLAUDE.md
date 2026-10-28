@@ -239,3 +239,10 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Nhân vật Bóng không chỉ đi ngang: phải có nhiều kiểu chuyển động (lên xuống, nhảy, xoay khi đổi cảnh, nghiêng, co giãn khi tiếp đất, bay lơ lửng) và đổi kiểu theo cảnh.
 - Mỗi video có hoạt họa riêng theo ý từng cảnh, đăng ký trong `ANIMS` của `goc-iot/dung_hinh.cjs` (`G({ anim: 'tên', items: [...] })`).
 - **Mỗi lần dựng xong MỘT video là gửi ngay vào Telegram kèm tiêu đề + hashtag (chủ kênh yêu cầu 28/10/2026), không đợi gom đủ lô, không đợi nhắc.** Thêm mục trong `goc-iot/mo-ta.json` (tiêu đề, mô tả có nguồn, hashtag) trước khi gửi. Cách gửi: đặt `goc-iot/video/video-<số>-<tên>.mp4`, đổi nội dung `goc-iot/gui-telegram.txt`, đẩy lên nhánh; chỉ để trong thư mục đó các video cần gửi.
+
+### Định dạng video Góc IoT (chủ kênh chốt 28/10/2026, áp dụng mọi video Góc IoT sau)
+- **Chủ đề tập trung dạng "Điều gì xảy ra nếu...", "Bạn có biết...".** Mở bằng câu hỏi, trả lời bằng cơ chế, neo vào sự việc có thật có nguồn, kết bằng việc làm được ngay.
+- **Kịch bản "sai rồi đúng": mỗi video chỉ MỘT chỗ** nêu câu trả lời sai (điều nhiều người dễ nghĩ) rồi lời kể sửa lại cho đúng. Không quá một chỗ, vì nhiều chỗ làm video rối. Chọn ý quan trọng nhất; câu sửa phải dựa nguồn đã kiểm chứng. Trên màn hình: bong bóng câu sai, khi lời kể sửa thì gạch đỏ kèm nhãn SAI (`myth` trong `goc-iot/minh_hoa.cjs`). Mẫu: video 11, câu "Ảnh chỉ nằm trong máy?" (cảnh 2 và 3).
+- **Cảnh minh họa chuyển động thật, không chỉ hàng icon** (chủ kênh 28/10/2026): mỗi ý một cảnh vẽ riêng trong `goc-iot/minh_hoa.cjs` (phòng nhìn từ trên xuống, ảnh bay, khung nhãn vẽ lên, bộ đếm, chuỗi chạy giữa các nút, công tắc gạt...). Hàng icon `G({items})` chỉ dùng cho cảnh phụ.
+- **Bố cục:** nội dung chính nằm giữa khung hình; Bóng nhỏ ở góc dưới, đổi bên theo từng cảnh, chỉ tay về phía mục đang nói. Cảnh mở đầu và kết giữ Bóng lớn ở giữa.
+- **Giọng đọc:** `tao_giong.py` chỉ bỏ qua cảnh có chữ trùng bản hiện tại; sửa lời cảnh nào thì cảnh đó tự đọc lại, nên chỉnh kịch bản xong mới đẩy `chay-giong.txt`.

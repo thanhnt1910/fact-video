@@ -154,7 +154,7 @@ def _build_track():
         pad=np.concatenate([np.full(4*sg,a[0]),a,np.full(4*sg,a[-1])]);return np.convolve(pad,k,'same')[4*sg:-4*sg]
     return dt,sm(X),sm(Y),np.exp(sm(Z))
 # ---- máy quay theo tiêu điểm (CAMFOCUS): mỗi câu zoom vào đúng vật đang được kể, đặt giữa vùng an toàn của khung
-SAFE=(100,170,1550,840)
+SAFE=(60,170,1020,870) if os.environ.get('DOCMODE') else (100,170,1550,840)
 BASE_N=getattr(C,'BASE',0)
 def _beat_subjects(n):
     t0=T[n];t1=t0+D[n];prim=[];sec=[]
@@ -207,7 +207,7 @@ def _focus_target(n,bz):
     bcx,bcy=(xa+xb)/2,(ya+yb)/2
     bw=RW/z;bh=bw*H/W
     cx=bcx+bw*(0.5-((SAFE[0]+SAFE[2])/2)/W)
-    cy=bcy+bh*(0.40-((SAFE[1]+SAFE[3])/2)/H)
+    cy=bcy+bh*((0.5 if os.environ.get('DOCMODE') else 0.40)-((SAFE[1]+SAFE[3])/2)/H)
     return cx,cy,z
 _MEN=_mention_events() if getattr(C,'CAMFOCUS',False) else []
 _FTRK=None
@@ -683,9 +683,17 @@ def frame(t):
             if ('_in',ii) not in CARDL: CARDL[('_in',ii)]=M3.inter_layer(kind,dat)
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.5));out=comp(out,CARDL[('_in',ii)],(0,0),ease(k))
     sl,sa=B.sub_at(t)
+    if os.environ.get('DOCMODE'):
+        import doc_mascot as DM;DM.ACTIVE=False
+    if os.environ.get('DOCMODE') and not _quiet(t):
+        import doc_mascot as DM
+        out=DM.stage(out,t,C,n,chip_for(n),_logo(130,0.8),font,clamp,ease)
     if sl is not None: out=comp(out,sl,(0,0),ease(sa))
     if t<0.5: out=Image.blend(Image.new('RGBA',(W,H),(8,5,3,255)),out,ease(t/0.5))
     if t>TOTAL-1.0: out=Image.blend(out,Image.new('RGBA',(W,H),(8,5,3,255)),ease((t-(TOTAL-1.0))/1.0))
+    if os.environ.get('DOCMODE'):
+        import doc_mascot as DM;tg=(470,930) if DM.ACTIVE else None
+        out=DM.overlay(out,t,tg,T,D,TOTAL)
     return out.convert('RGB')
 def work(i): return frame(i/FPS).tobytes()
 if __name__=='__main__':

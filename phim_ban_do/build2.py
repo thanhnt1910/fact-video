@@ -2,7 +2,7 @@ import json,math,os
 from PIL import Image,ImageDraw,ImageFont
 P=bool(os.environ.get('PORTRAIT'))
 W,H,FPS=(1080,1920,24) if P else (1920,1080,24)
-SUBW=W-150 if P else 1250;SUBF=58 if P else 46;SUBY=340 if P else 70
+SUBW=W-150 if P else 1250;SUBF=58 if P else 46;SUBY=(700 if os.environ.get('DOCMODE') else 340) if P else 70
 FONT=os.environ.get('FONT','/tmp/wt/assets/fonts/Lora-Variable.ttf')
 def font(sz,bold=True):
     f=ImageFont.truetype(FONT,int(sz))

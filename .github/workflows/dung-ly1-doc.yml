@@ -1,0 +1,122 @@
+name: "Dựng video dọc Lý Công Uẩn (chưa có tiếng)"
+
+# Chạy khi đẩy ke-hoach/thu-giong-hai/dung_ly1_doc.txt trên nhánh lh6-dung-thu.
+# Dòng đầu của dung_ly1.txt: "thu N" (dựng thử N khung đầu) hoặc "full" (dựng cả video).
+on:
+  push:
+    branches: [lh6-dung-thu]
+    paths: ['ke-hoach/thu-giong-hai/dung_ly1_doc.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  NPROC: 4
+  PORTRAIT: "1"
+  DOCMODE: "1"
+  SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/ly1_full.json
+  VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/ly1_chuan
+  WORLD: ${{ github.workspace }}/phim_ban_do/world7.jpg
+  LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
+  FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf
+  CONTENT: ly1_content
+  WORLDMOD: world7
+  PHUDE: ${{ github.workspace }}/phim_ban_do/phude_ly1.json
+
+jobs:
+  doan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy pillow scipy"
+      - name: Dựng đoạn ${{ matrix.idx }}
+        working-directory: phim_ban_do
+        run: |
+          exec > >(tee "log_lydoc_${{ matrix.idx }}.txt") 2>&1
+          set -x
+          nproc
+          MODE=$(head -1 ../ke-hoach/thu-giong-hai/dung_ly1_doc.txt)
+          python - <<PY
+          import os, build2 as B
+          mode = """$MODE""".split()
+          N = int(B.TOTAL * B.FPS)
+          if mode[0] == "thu": N = min(N, int(mode[1]) * 4)
+          q = 16; i = ${{ matrix.idx }}
+          a0, a1 = N * i // q, N * (i + 1) // q
+          open("range.txt", "w").write(f"{a0} {a1}\n")
+          print("tổng khung", N, "đoạn", i, a0, a1)
+          PY
+          read A0 A1 < range.txt
+          python -u mapfilm3.py "$PWD/docdoan_${{ matrix.idx }}.mp4" $A0 $A1 2>&1 | tail -n 15
+          ls -la docdoan_*.mp4
+      - name: Lưu nhật ký vào repo
+        if: always()
+        run: |
+          git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+          git add -f phim_ban_do/log_lydoc_${{ matrix.idx }}.txt
+          git commit -q -m "Nhật ký dựng đoạn ${{ matrix.idx }}" || exit 0
+          for k in 1 2 3 4 5; do git pull --rebase -q origin lh6-dung-thu && git push -q origin HEAD:lh6-dung-thu && break; sleep $((RANDOM % 8 + 2)); done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: docdoan-${{ matrix.idx }}
+          path: phim_ban_do/docdoan_${{ matrix.idx }}.mp4
+          retention-days: 3
+
+  ghep:
+    needs: doan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy pillow scipy"
+      - uses: actions/download-artifact@v4
+        with:
+          path: doan
+      - name: Âm thanh, ghép đoạn và thêm tiếng
+        working-directory: phim_ban_do
+        run: |
+          for i in $(seq 0 15); do echo "file '$GITHUB_WORKSPACE/doan/docdoan-$i/docdoan_$i.mp4'" >> list.txt; done
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy lydoc_video.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 lydoc_video.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-hoan-chinh
+          path: phim_ban_do/lydoc_video.mp4
+          retention-days: 7
+      - name: Đăng bản phát hành để tải về
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="lydoc-${{ github.run_id }}"
+          gh release create "$TAG" phim_ban_do/lydoc_video.mp4 --title "Lý Công Uẩn người dời đô ${{ github.run_id }}" --notes "Dựng tự động" --prerelease
+      - name: Gửi Telegram để chủ kênh kiểm tra
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
+          F=phim_ban_do/lydoc_video.mp4
+          SZ=$(stat -c %s $F)
+          if [ "$SZ" -gt 48000000 ]; then
+            D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $F)
+            VB=$(python3 -c "print(int((46*8*1000*1000/$D-96000)/1000))")
+            ffmpeg -y -loglevel error -i $F -vf scale=720:-2 -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate ${VB}k -bufsize $((VB*2))k -c:a aac -b:a 96k phim_ban_do/lydoc_xem_thu.mp4
+            F=phim_ban_do/lydoc_xem_thu.mp4
+            CAP="Lý Công Uẩn người dời đô: bản xem thử đã nén (bản đầy đủ nằm ở mục Releases của repo)"
+          else CAP="Lý Công Uẩn người dời đô: bản dựng hoàn chỉnh để kiểm tra"; fi
+          ls -la $F
+          curl -s -o r.txt -w "%{http_code}\n" -F chat_id="$TG_CHAT" -F video=@$F -F supports_streaming=true -F caption="$CAP" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"; head -c 300 r.txt

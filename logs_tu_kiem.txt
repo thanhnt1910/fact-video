@@ -1,19 +1,81 @@
-$ python phim_ban_do/chuan_hoa_giong.py nt1 -> 0
-cao độ trung vị 152 Hz
-tốc độ trung vị 4.07 chữ/giây
-đoạn đã chỉnh tốc độ: 13 / 17
-âm lượng sau chuẩn hóa: -15.6 đến -15.1 LUFS
-tổng thời lượng giọng 1.64 phút
+$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
+cao độ trung vị 163 Hz
+tốc độ trung vị 3.73 chữ/giây
+đoạn đã chỉnh tốc độ: 95 / 134
+âm lượng sau chuẩn hóa: -15.6 đến -15.2 LUFS
+tổng thời lượng giọng 12.03 phút
 
-$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/nt1_full.json assets/thu_giong_hai/nt1_chuan phim_ban_do/asr_nt1.json medium khong_goi_y -> 0
-xong 17
+$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
+0 134
+20 134
+40 134
+60 134
+80 134
+100 134
+120 134
+xong 134
 
-$ python phim_ban_do/kiem_ngoai.py nt1 -> 0
-17/17 câu sạch
+$ python phim_ban_do/kiem_ngoai.py ly1 -> 1
+❌ 18024 thừa 'vay sao' ở đầu
+❌ 18087 thừa 'roi dau' ở đầu
+❌ 18120 thừa 'song da' ở cuối
+131/134 câu sạch
 
-# Tự kiểm giọng nt1
+$ python thu_giong_hai_cum.py ke-hoach/thu-giong-hai/ly1_full.json Puck assets/thu_giong_hai 1 -> 0
+   [khóa] GEMINI_API_KEY: …8www
+   [khóa] GEMINI_API_KEY_2: …fACw
+   [khóa] GEMINI_API_KEY_3: …Ag8A
+   [khóa] GEMINI_API_KEY_4: …mplw
+   [khóa] GEMINI_API_KEY_5: …Qp4A
+   [khóa] GEMINI_API_KEY_6: …pPaA
+   [khóa] GEMINI_API_KEY_7: …g7rQ
+   [khóa] GEMINI_API_KEY_8: …DmvQ
+   [khóa] GEMINI_API_KEY_9: …2eGQ
+   [khóa] GEMINI_API_KEY_10: …xfFA
+   [khóa] GEMINI_API_KEY_11: …XVkg
+   [khóa] GEMINI_API_KEY_12: trống
+   [khóa] GEMINI_API_KEYS: trống
+còn thiếu 3 câu
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK cụm 18024 - 18024 9.8 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 21h36m4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 21h36m4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18087 - 18087 5.8 giây
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 21h35m59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 21h35m59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 21h35m58s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18120 - 18120 6.6 giây
 
-## Vòng 1: 0 đoạn nghi lỗi
+$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
+cao độ trung vị 163 Hz
+tốc độ trung vị 3.73 chữ/giây
+đoạn đã chỉnh tốc độ: 97 / 134
+âm lượng sau chuẩn hóa: -15.6 đến -15.2 LUFS
+tổng thời lượng giọng 12.03 phút
+
+$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
+xong 134
+
+$ python phim_ban_do/kiem_ngoai.py ly1 -> 1
+❌ 18024 thừa 'vay sao' ở đầu
+❌ 18120 thừa 'song da' ở cuối
+132/134 câu sạch
+
+# Tự kiểm giọng ly1
+
+## Vòng 1: 3 đoạn nghi lỗi
+- 18024: thừa 'vay sao' ở đầu
+- 18087: thừa 'roi dau' ở đầu
+- 18120: thừa 'song da' ở cuối
+(đã đọc lại 3 đoạn riêng; thoát mã 0)
+## Vòng 2: 2 đoạn nghi lỗi
+- 18024: thừa 'vay sao' ở đầu
+- 18120: thừa 'song da' ở cuối
 
 ## Kết quả cuối
-Sạch.
+Còn nghi lỗi (có thể do nhận dạng nghe nhầm, nên nghe lại): 18024 (thừa 'vay sao' ở đầu), 18120 (thừa 'song da' ở cuối)

@@ -131,7 +131,7 @@ def _subs(f, t, n, B):
 def compose(out, t, n, C, B, TOTAL, quiet, chap, year):
     setup(C, B); f = BG.copy()
     # chọn thẻ
-    mode = 'map'; t0 = 0.0; img = None; tag = None; _k = ''
+    mode = 'map'; t0 = 0.0; img = None; tag = None; _k = ''; _sp = {'figs': []}
     if not quiet:
         for pr in getattr(C, 'PROPS', []):
             if pr[2].startswith('canh_') and pr[0] <= t <= pr[1]: mode = 'scene'; t0 = pr[0]; pr_ = pr
@@ -140,9 +140,8 @@ def compose(out, t, n, C, B, TOTAL, quiet, chap, year):
                 if c[0] <= t <= c[1] and portrait(c[2]) is not None: mode = 'face'; t0 = c[0]; tag = c[2]; img = portrait(c[2])
     if mode == 'scene': img = scene_img(pr_[2], (t - pr_[0]) / max(1e-6, pr_[1] - pr_[0]), t, pr_[1] - pr_[0])
     if mode == 'map':
-        import doc2_fx as FX
-        _k = FX.pick(B.texts.get(n, ''), n); img = FX.render(_k, max(0.0, t - B.T[n]))
-        if n % 2: img = img.transpose(Image.FLIP_LEFT_RIGHT)
+        import doc2_fx2 as FX
+        _sp = FX.spec_for(n, B.texts); _k = _sp['back']; img = FX.render(_sp, max(0.0, t - B.T[n]))
         # thẻ bản đồ đứng yên theo chương: không nảy lại mỗi giây
         t0 = B.T[n] if False else 0.0
     u = t - t0; pop = back(min(1, u / 0.45)) if mode != 'map' else 1.0
@@ -167,7 +166,7 @@ def compose(out, t, n, C, B, TOTAL, quiet, chap, year):
     # cử động: mỗi ~3,5 giây đổi một kiểu; nhún theo nhịp nói; nhảy lên khi thẻ mới hiện hoặc nhãn dán bật
     seg = int(t / 3.5); gk = (seg * 7 + n) % 5
     larm = 1 if (wow or gk == 1) else (2 if gk == 3 else 0)
-    run = 1.9 if (mode == 'map' and _k == 'army') or gk == 4 else 1.0
+    run = 1.9 if (mode == 'map' and 'quan' in _sp['figs']) or gk == 4 else 1.0
     since = (t - t0) if mode != 'map' else (t - B.T[n]); fresh = since < 0.6 and since >= 0
     ang = -1.28 + 0.10 * math.sin(t * 3.0) - (0.35 * math.sin(min(1, since / 0.35) * math.pi) if fresh else 0.0)
     ln = 330 + (40 * math.sin(min(1, since / 0.35) * math.pi) if fresh else 0.0)

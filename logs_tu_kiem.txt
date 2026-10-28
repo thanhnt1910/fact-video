@@ -1,24 +1,18 @@
-$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
+$ python phim_ban_do/chuan_hoa_giong.py nt1 -> 0
 cao độ trung vị 152 Hz
-tốc độ trung vị 3.73 chữ/giây
-đoạn đã chỉnh tốc độ: 112 / 134
-âm lượng sau chuẩn hóa: -15.8 đến -15.2 LUFS
-tổng thời lượng giọng 12.36 phút
+tốc độ trung vị 4.04 chữ/giây
+đoạn đã chỉnh tốc độ: 11 / 15
+âm lượng sau chuẩn hóa: -15.5 đến -15.1 LUFS
+tổng thời lượng giọng 1.38 phút
 
-$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
-0 134
-20 134
-40 134
-60 134
-80 134
-100 134
-120 134
-xong 134
+$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/nt1_full.json assets/thu_giong_hai/nt1_chuan phim_ban_do/asr_nt1.json medium khong_goi_y -> 0
+0 15
+xong 15
 
-$ python phim_ban_do/kiem_ngoai.py ly1 -> 0
-134/134 câu sạch
+$ python phim_ban_do/kiem_ngoai.py nt1 -> 0
+15/15 câu sạch
 
-# Tự kiểm giọng ly1
+# Tự kiểm giọng nt1
 
 ## Vòng 1: 0 đoạn nghi lỗi
 

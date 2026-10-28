@@ -160,5 +160,59 @@
   "tu": 34,
   "tu_moi_giay": 3.44,
   "chu": "Theo báo chí, có giường nóng quá, có giường ngừng làm mát, có giường không phản hồi. Ứng dụng không nối được với đám mây, nên giường chỉ còn giữ cài đặt cuối cùng."
+ },
+ "v9_s1": {
+  "giay": 4.48,
+  "tu": 15,
+  "tu_moi_giay": 3.35,
+  "chu": "Điều gì xảy ra nếu nhiều camera trong nhà cùng bị người xấu chiếm quyền?"
+ },
+ "v9_s2": {
+  "giay": 9.36,
+  "tu": 31,
+  "tu_moi_giay": 3.31,
+  "chu": "Một camera bị chiếm thì người lạ có thể xem hình. Nhưng nếu rất nhiều camera bị chiếm cùng lúc, chúng còn bị bắt đi tấn công những mục tiêu khác."
+ },
+ "v9_s3": {
+  "giay": 9.32,
+  "tu": 33,
+  "tu_moi_giay": 3.54,
+  "chu": "Một nhóm thiết bị bị chiếm như vậy gọi là botnet, nghĩa là mạng máy bị điều khiển từ xa. Kẻ tấn công ra lệnh từ xa cho cả nhóm cùng hành động."
+ },
+ "v9_s4": {
+  "giay": 9.28,
+  "tu": 33,
+  "tu_moi_giay": 3.56,
+  "chu": "Chuyện này đã xảy ra. Ngày hai mươi mốt tháng mười năm hai nghìn không trăm mười sáu, phần mềm độc hại Mirai chiếm camera và đầu ghi hình để cùng tấn công."
+ },
+ "v9_s5": {
+  "giay": 9.12,
+  "tu": 34,
+  "tu_moi_giay": 3.73,
+  "chu": "Nó vào được vì nhiều thiết bị còn dùng tên đăng nhập và mật khẩu mặc định của nhà sản xuất. Có thiết bị còn cài sẵn mật khẩu mà chủ không đổi được."
+ },
+ "v9_s6": {
+  "giay": 10.0,
+  "tu": 34,
+  "tu_moi_giay": 3.4,
+  "chu": "Mục tiêu là Dyn, công ty giữ dịch vụ tìm địa chỉ cho các trang web, giống như danh bạ của internet. Dyn bị dồn dập yêu cầu giả nên không trả lời kịp."
+ },
+ "v9_s7": {
+  "giay": 10.52,
+  "tu": 32,
+  "tu_moi_giay": 3.04,
+  "chu": "Kết quả là Twitter, Netflix, Reddit, Spotify và nhiều trang khác bị gián đoạn trong ngày hôm đó. Hãng Dyn ước tính có tới khoảng một trăm nghìn thiết bị tham gia."
+ },
+ "v9_s8": {
+  "giay": 9.84,
+  "tu": 29,
+  "tu_moi_giay": 2.95,
+  "chu": "Bạn làm được gì? Đổi mật khẩu mặc định của camera và router, cập nhật phần mềm, và thay thiết bị quá cũ không còn được hãng hỗ trợ."
+ },
+ "v9_s9": {
+  "giay": 4.16,
+  "tu": 16,
+  "tu_moi_giay": 3.85,
+  "chu": "Camera nhà bạn đã đổi mật khẩu mặc định chưa? Bình luận cho Bóng biết nhé!"
  }
 }

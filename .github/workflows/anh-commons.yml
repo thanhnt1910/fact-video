@@ -20,7 +20,7 @@ jobs:
         run: |
           TEN=$(head -1 ke-hoach/ten-duong/anh_chay.txt | cut -d' ' -f1)
           python -u phim_ban_do/tim_anh_commons.py "$TEN" 2>&1 | tee tim_anh.log
-          mkdir -p logs; cp tim_anh.log logs/tim_anh_$TEN.log
+          mkdir -p logs; cp tim_anh.log logs/tim_anh_$TEN.txt
       - name: Lưu kết quả
         if: always()
         run: |

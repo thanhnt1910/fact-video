@@ -3,94 +3,136 @@
   "n": 20001,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Ở Hà Nội và Thành phố Hồ Chí Minh đều có đường mang tên Trần Hưng Đạo. Ông là ai mà được nhớ đến như vậy?"
+  "text": "Năm một nghìn hai trăm tám mươi lăm, quân Nguyên của người Mông Cổ tiến sát kinh thành Thăng Long. Triều đình lo sợ và bàn chuyện đầu hàng."
  },
  {
   "n": 20002,
-  "chuong": "Xuất thân",
+  "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Ông tên thật là Trần Quốc Tuấn, sinh năm một nghìn hai trăm hai mươi tám theo nhiều tài liệu."
+  "text": "Trần Hưng Đạo tâu rằng, nếu muốn hàng thì xin hãy chém đầu ông trước đã. Ông là ai mà dám nói như vậy?"
  },
  {
   "n": 20003,
   "chuong": "Xuất thân",
   "tone": "story",
-  "text": "Ông thuộc hoàng tộc nhà Trần, là con của Trần Liễu, anh trai của vua Trần Thái Tông."
+  "text": "Ông tên thật là Trần Quốc Tuấn, sinh năm một nghìn hai trăm hai mươi tám theo nhiều tài liệu."
  },
  {
   "n": 20004,
-  "chuong": "Chức vụ",
+  "chuong": "Xuất thân",
   "tone": "story",
-  "text": "Ông giữ chức Quốc công Tiết chế, nghĩa là người đứng đầu chỉ huy toàn bộ quân đội của nhà Trần."
+  "text": "Ông thuộc hoàng tộc nhà Trần, là con của Trần Liễu, anh trai của vua Trần Thái Tông."
  },
  {
   "n": 20005,
-  "chuong": "Kháng chiến",
+  "chuong": "Xuất thân",
   "tone": "story",
-  "text": "Nhà Nguyên của người Mông Cổ ba lần đưa quân sang đánh nước Đại Việt."
+  "text": "Theo Đại Việt sử ký toàn thư, trước khi mất, Trần Liễu dặn con hãy lấy ngôi vua để báo thù cho cha."
  },
  {
   "n": 20006,
-  "chuong": "Kháng chiến",
+  "chuong": "Xuất thân",
   "tone": "story",
-  "text": "Đó là các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm và một nghìn hai trăm tám mươi bảy."
+  "text": "Nhưng Trần Quốc Tuấn không làm theo, mà đặt lợi ích của nhà Trần lên trên hết."
  },
  {
   "n": 20007,
-  "chuong": "Kháng chiến",
+  "chuong": "Chức vụ",
   "tone": "story",
-  "text": "Trong những năm chống giặc, ông viết Hịch tướng sĩ để kêu gọi các tướng giữ vững lòng quyết chiến."
+  "text": "Về sau ông giữ chức Quốc công Tiết chế, nghĩa là người đứng đầu chỉ huy toàn bộ quân đội của nhà Trần."
  },
  {
   "n": 20008,
   "chuong": "Kháng chiến",
   "tone": "story",
-  "text": "Theo nhiều tài liệu, ông cũng biên soạn sách về binh pháp để lại cho đời sau."
+  "text": "Nhà Nguyên ba lần đưa quân sang đánh nước Đại Việt."
  },
  {
   "n": 20009,
-  "chuong": "Bạch Đằng",
+  "chuong": "Kháng chiến",
   "tone": "story",
-  "text": "Năm một nghìn hai trăm tám mươi tám, ông chỉ huy trận đánh trên sông Bạch Đằng."
+  "text": "Đó là các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm và một nghìn hai trăm tám mươi bảy."
  },
  {
   "n": 20010,
+  "chuong": "Kháng chiến",
+  "tone": "story",
+  "text": "Trong những năm chống giặc, ông viết Hịch tướng sĩ để kêu gọi các tướng giữ vững lòng quyết chiến."
+ },
+ {
+  "n": 20011,
+  "chuong": "Kháng chiến",
+  "tone": "story",
+  "text": "Theo nhiều tài liệu, ông cũng biên soạn sách về binh pháp để lại cho đời sau."
+ },
+ {
+  "n": 20012,
+  "chuong": "Kháng chiến",
+  "tone": "story",
+  "text": "Năm một nghìn hai trăm tám mươi lăm, quân Nguyên chiếm Thăng Long. Nhưng quân Đại Việt phản công và giành lại kinh thành vào tháng sáu."
+ },
+ {
+  "n": 20013,
+  "chuong": "Bạch Đằng",
+  "tone": "story",
+  "text": "Hai năm sau, quân Nguyên lại kéo sang. Năm một nghìn hai trăm tám mươi tám, ông chỉ huy trận đánh trên sông Bạch Đằng."
+ },
+ {
+  "n": 20014,
   "chuong": "Bạch Đằng",
   "tone": "story",
   "text": "Quân Đại Việt cắm cọc gỗ nhọn dưới lòng sông. Khi thủy triều rút xuống, thuyền chiến của quân Nguyên mắc vào cọc và bị đánh tan."
  },
  {
-  "n": 20011,
-  "chuong": "Cuối đời",
+  "n": 20015,
+  "chuong": "Bạch Đằng",
   "tone": "story",
-  "text": "Ông mất năm một nghìn ba trăm tại Vạn Kiếp, nay thuộc Chí Linh, tỉnh Hải Dương."
+  "text": "Quân Nguyên thất bại nặng nề, nhiều tướng giặc bị bắt, và phải rút quân về nước."
  },
  {
-  "n": 20012,
+  "n": 20016,
+  "chuong": "Cuối đời",
+  "tone": "story",
+  "text": "Năm một nghìn ba trăm, khi ông ốm nặng, vua Trần Anh Tông đến hỏi kế giữ nước."
+ },
+ {
+  "n": 20017,
+  "chuong": "Cuối đời",
+  "tone": "story",
+  "text": "Ông đáp rằng phải khoan thư sức dân, nghĩa là nới sức cho dân, để làm kế sâu rễ bền gốc. Ông cho đó là thượng sách giữ nước."
+ },
+ {
+  "n": 20018,
+  "chuong": "Cuối đời",
+  "tone": "story",
+  "text": "Ông mất cùng năm đó tại Vạn Kiếp, nay thuộc Chí Linh, tỉnh Hải Dương."
+ },
+ {
+  "n": 20019,
   "chuong": "Cuối đời",
   "tone": "story",
   "text": "Nhân dân tôn kính ông là Đức Thánh Trần và lập đền thờ ông ở nhiều nơi, trong đó có đền Kiếp Bạc."
  },
  {
-  "n": 20013,
+  "n": 20020,
   "chuong": "Con đường",
   "tone": "story",
   "text": "Ở Hà Nội, phố Trần Hưng Đạo dài khoảng hai phẩy hai sáu ki-lô-mét, bắt đầu từ cuối phố Phan Chu Trinh."
  },
  {
-  "n": 20014,
+  "n": 20021,
   "chuong": "Con đường",
   "tone": "story",
   "text": "Ở Thành phố Hồ Chí Minh, đường Trần Hưng Đạo dài khoảng sáu ki-lô-mét, đi từ khu chợ Bến Thành sang Quận Năm."
  },
  {
-  "n": 20015,
+  "n": 20022,
   "chuong": "Con đường",
   "tone": "story",
   "text": "Đường này mang tên ông từ năm một nghìn chín trăm năm mươi lăm."
  },
  {
-  "n": 20016,
+  "n": 20023,
   "chuong": "Kết",
   "tone": "story",
   "text": "Con đường Trần Hưng Đạo gần nhà bạn nằm ở đâu?"

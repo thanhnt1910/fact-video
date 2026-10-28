@@ -40,5 +40,11 @@
     "tieu_de": "WiFi hoạt động thế nào, vì sao cần mật khẩu",
     "mo_ta": "WiFi truyền dữ liệu bằng sóng vô tuyến, và sóng lan cả ra ngoài tường. Vì vậy dữ liệu được mã hóa, và mật khẩu WiFi là chìa để giải mã.\n\n- WPA3 mới hơn WPA2, chống việc đoán mật khẩu ngoại tuyến tốt hơn và cho mỗi lần kết nối một chìa riêng.\n- Hãy dùng WPA3, hoặc WPA2 với mã hóa AES. Tránh mạng không mật khẩu và chuẩn quá cũ.\n- Mật khẩu nên là cụm 5 đến 7 từ không liên quan, ít nhất 16 ký tự, không dùng lại.\n\nVào cài đặt router để xem chuẩn bảo mật nhà bạn đang dùng.\n\nNguồn: CISA (Securing Your Home Wi-Fi), Malwarebytes (What is WPA3), HelpDeskGeek (How Does WiFi Work).",
     "hashtag": "#GocIoT #WiFi #AnToanSo #BaoMat #Router"
+  },
+  {
+    "id": 8,
+    "tieu_de": "Điều gì xảy ra nếu máy chủ đám mây sập?",
+    "mo_ta": "Nhiều thiết bị thông minh gửi lệnh qua đám mây. Khi đám mây gặp sự cố thì sao?\n\nNgày 20/10/2025 (giờ Mỹ), một sự cố lớn ở trung tâm dữ liệu của Amazon tại Virginia làm nhiều dịch vụ gián đoạn. Giường thông minh Eight Sleep cần kết nối mạng liên tục, nên theo báo chí có giường nóng quá, có giường ngừng làm mát, có giường không phản hồi. Sau đó hãng cho biết sẽ làm chế độ khi mất mạng.\n\nViệc làm được ngay: trước khi mua, hãy hỏi nếu mất mạng thì thiết bị còn điều khiển được tại chỗ không. Với khóa cửa, nên có thêm chìa cơ dự phòng.\n\nNguồn: Engadget, CTV News (23/10/2025), MacTrast, Cơ sở dữ liệu sự cố AI (incidentdatabase.ai).\n\nNhà bạn có thiết bị nào sẽ ngừng chạy khi mất mạng?",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #WhatIf #DamMay"
   }
 ]

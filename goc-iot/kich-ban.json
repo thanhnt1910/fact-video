@@ -16,7 +16,10 @@
     "WPA2": "vê kép pê a hai",
     "WPA3": "vê kép pê a ba",
     "AES": "ây i ét",
-    "router": "ráu tơ"
+    "router": "ráu tơ",
+    "Eight Sleep": "Ây Xlíp",
+    "Amazon": "A-ma-dôn",
+    "Virginia": "Vơ-gin-ni-a"
   },
   "videos": [
     {
@@ -126,6 +129,22 @@
         "Mạng không mật khẩu hoặc chuẩn quá cũ thì bảo vệ rất yếu. Hãy dùng WPA3, hoặc WPA2 với mã hóa AES. Nếu router chỉ có chuẩn cũ, hãy nhờ nhà mạng nâng cấp hoặc thay router.",
         "Mật khẩu nên là cụm năm đến bảy từ không liên quan, ít nhất mười sáu ký tự, và không dùng lại. Hãy vào cài đặt router để xem chuẩn bảo mật đang dùng.",
         "Nhà bạn đang dùng chuẩn WiFi nào? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "what-if-may-chu-dam-may-sap",
+      "title": "Điều gì xảy ra nếu máy chủ đám mây sập?",
+      "scenes": [
+        "Điều gì xảy ra nếu máy chủ đám mây của thiết bị trong nhà bạn bị sập?",
+        "Hãy xem đường đi của một lệnh. Bạn bấm vào ứng dụng, lệnh bay lên đám mây, rồi mới quay về thiết bị trong nhà.",
+        "Nếu đám mây sập, lệnh không đi được nữa. Có thiết bị sẽ đứng yên ở cài đặt cuối cùng.",
+        "Chuyện này đã xảy ra. Ngày hai mươi tháng mười năm hai nghìn không trăm hai mươi lăm, giờ Mỹ, một trung tâm dữ liệu của Amazon ở bang Virginia gặp sự cố lớn.",
+        "Giường thông minh Eight Sleep, giá khoảng hai nghìn đô la, cần mạng liên tục. Theo báo chí, có giường nóng quá, có giường ngừng làm mát, có giường không phản hồi.",
+        "Lý do là ứng dụng không nối được với đám mây, nên giường chỉ còn giữ cài đặt cuối cùng.",
+        "Sau đó người đứng đầu hãng nói sẽ làm việc suốt ngày đêm để tạo chế độ khi mất mạng. Báo chí đưa tin hãng đã ra mắt chế độ này.",
+        "Bạn làm được gì? Trước khi mua, hãy hỏi nếu mất mạng thì thiết bị còn điều khiển được tại chỗ không. Khóa cửa nên có thêm chìa cơ dự phòng.",
+        "Nhà bạn có thiết bị nào sẽ ngừng chạy khi mất mạng? Bình luận cho Bóng biết nhé!"
       ]
     }
   ]

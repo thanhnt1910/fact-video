@@ -9,7 +9,10 @@
   "Arduino": "Ác đu i nô",
   "Internet of Things": "In tơ nét ốp Thinh",
   "internet": "in tơ nét",
-  "Bóng": "Bóng"
+  "Bóng": "Bóng",
+  "123456": "một hai ba bốn năm sáu",
+  "admin": "át min",
+  "Mirai": "Mi ra i"
  },
  "videos": [
   {
@@ -19,7 +22,7 @@
    "scenes": [
     "Camera trong nhà giúp bạn yên tâm, nhưng nếu cài sai, hình ảnh gia đình bạn có thể bị người lạ xem. Có ba việc cần làm ngay.",
     "Một, đổi mật khẩu mặc định. Nhiều thiết bị xuất xưởng có sẵn mật khẩu như admin hoặc 123456, in trong hướng dẫn và tra được trên mạng.",
-    "Kẻ xấu dùng chương trình tự động thử những mật khẩu này trên hàng loạt thiết bị. Năm hai nghìn không trăm mười sáu, phần mềm độc hại tên Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách đó.",
+    "Kẻ xấu dùng chương trình tự động thử những mật khẩu này trên hàng loạt thiết bị. Năm 2016, phần mềm độc hại tên Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách đó.",
     "Hãy đặt mật khẩu dài, không dùng lại ở nơi khác, và bật xác thực hai bước nếu ứng dụng có.",
     "Hai, cập nhật phần mềm. Phần mềm trong camera cũng có lỗi, và hãng sửa lỗi bằng bản cập nhật. Hãy bật cập nhật tự động, hoặc kiểm tra trong ứng dụng vài tháng một lần.",
     "Thiết bị quá cũ có thể không còn được hãng cập nhật. Đó là lúc nên nghĩ đến việc thay.",

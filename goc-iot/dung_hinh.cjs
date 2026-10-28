@@ -430,41 +430,44 @@ ${tongue}
 }
 
 function subtitle(fullText, local, dur) {
-  // hiện từng câu một để phụ đề không che nhân vật
+  // Cụm ngắn (tối đa 2 dòng); từng từ chỉ hiện khi được đọc tới. Vị trí chữ cố định nên không bị nhảy.
   const fw = fullText.split(' ');
   const ftotal = fw.reduce((s, w) => s + w.length + 1, 0);
   const fspan = Math.max(0.5, dur - 0.7);
   let fc = 0;
   const ft = fw.map((w) => { const t0 = 0.25 + fspan * fc / ftotal; fc += w.length + 1; return t0; });
-  let cur0 = 0;
-  for (let k = 0; k < fw.length; k++) if (local >= ft[k]) cur0 = k;
-  let s0 = 0;
-  for (let k = cur0 - 1; k >= 0; k--) if (/[.!?…]$/.test(fw[k])) { s0 = k + 1; break; }
-  let e0 = fw.length - 1;
-  for (let k = cur0; k < fw.length; k++) if (/[.!?…]$/.test(fw[k])) { e0 = k; break; }
-  const text = fw.slice(s0, e0 + 1).join(' ');
-  const base = s0;
-  const lines = wrap(text, 27);
+  const chunks = [];
+  let cur = [];
+  fw.forEach((w, k) => {
+    const joined = cur.concat([w]).join(' ');
+    if (cur.length && wrap(joined, 27).length > 2) { chunks.push(cur); cur = []; }
+    cur.push(w);
+    const len = cur.join(' ').length;
+    if (/[,;:.!?…]$/.test(w) && (len >= 20 || /[.!?…]$/.test(w))) { chunks.push(cur); cur = []; }
+  });
+  if (cur.length) chunks.push(cur);
+  let pos = 0;
+  const info = chunks.map((c) => { const o = { words: c, from: pos }; pos += c.length; return o; });
+  let curK = -1;
+  for (let k = 0; k < fw.length; k++) if (local >= ft[k]) curK = k;
+  if (curK < 0) return '';
+  const ch = info.find((c) => curK >= c.from && curK < c.from + c.words.length);
+  const lines = wrap(ch.words.join(' '), 27);
   const lh = 74, pad = 24;
   const boxH = lines.length * lh + pad * 2;
-  const bottom = 1620;
-  const top = bottom - boxH;
-  const a = clamp01(local / 0.25);
-  const allWords = text.split(' ');
-  const times = ft.slice(base, base + allWords.length);
-  let idx = 0;
+  const top = 1620 - boxH;
+  const a = clamp01((local - ft[ch.from]) / 0.15 + 0.3);
+  let idx = ch.from;
   const tx = lines.map((l, i) => {
-    const ws = l.split(' ');
-    const spans = ws.map((w) => {
+    const spans = l.split(' ').map((w) => {
       const k = idx++;
-      const cur = local >= times[k] && (k === allWords.length - 1 || local < times[k + 1]);
-      const fut = local < times[k];
-      const fill = cur ? YEL : '#FFFFFF';
-      return `<tspan fill="${fill}" fill-opacity="${fut ? 0.4 : 1}">${esc(w)}</tspan>`;
+      const shown = local >= ft[k];
+      const isCur = k === curK;
+      return `<tspan fill="${isCur ? YEL : '#FFFFFF'}" fill-opacity="${shown ? 1 : 0}">${esc(w)}</tspan>`;
     }).join(' ');
     return `<text x="540" y="${top + pad + i * lh + 54}" text-anchor="middle" font-family="${FONT}" font-weight="700" font-size="56">${spans}</text>`;
   }).join('\n');
-  return `<g opacity="${a}"><rect x="50" y="${top}" width="980" height="${boxH}" rx="36" fill="${NAVY}" fill-opacity="0.92"/>${tx}</g>`;
+  return `<g opacity="${a.toFixed(2)}"><rect x="50" y="${top}" width="980" height="${boxH}" rx="36" fill="${NAVY}" fill-opacity="0.92"/>${tx}</g>`;
 }
 
 function layoutAt(t, idx, local) {
@@ -722,6 +725,10 @@ async function render(f, file) {
   ev.sort((x, y) => x.t - y.t);
   fs.writeFileSync(path.join(outDir, 'events.json'), JSON.stringify({ total: TOTAL, events: ev }, null, 1));
   fs.writeFileSync(path.join(outDir, 'scenes.json'), JSON.stringify(scenes.map((c) => ({ t0: c.t0, t1: c.t1, text: c.text })), null, 1));
+  if (mode === 'at') {
+    for (const tt of (process.env.AT || '').split(',').filter(Boolean)) await render(Math.round(parseFloat(tt) * FPS), path.join(outDir, `at_${tt}.png`));
+    return;
+  }
   if (mode === 'test') {
     const times = [];
     scenes.forEach((c) => { times.push(c.t0 + (c.t1 - c.t0) * 0.35); times.push(c.t0 + (c.t1 - c.t0) * 0.8); });

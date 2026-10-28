@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Cài numpy (cho am_thanh.py)
+        run: pip install numpy
       - name: Đọc giọng Gemini
         env:
           GEMINI_MAX_WAIT: "2400"

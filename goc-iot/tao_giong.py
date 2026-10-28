@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT.parent))
 import gemini_tts
+import am_thanh  # số, năm -> chữ (chỉ cho bản gửi giọng đọc, chữ trên màn hình giữ nguyên)
 
 STYLE = ("Native Vietnamese voice (Northern accent, Hanoi) of 'Bóng', a cheerful friendly light-bulb mascot "
          "who explains IoT and home technology to ordinary families. Warm, lively, curious, clear diction, natural "
@@ -34,6 +35,7 @@ def main():
             say = text
             for a in sorted(pron, key=len, reverse=True):
                 say = say.replace(a, pron[a])
+            say = am_thanh.chuan_hoa(say, tu_dien={})
             words = len(text.split())
             best = None
             for attempt in range(3):

@@ -131,7 +131,7 @@ def _subs(f, t, n, B):
 def compose(out, t, n, C, B, TOTAL, quiet, chap, year):
     setup(C, B); f = BG.copy()
     # chọn thẻ
-    mode = 'map'; t0 = 0.0; img = None; tag = None
+    mode = 'map'; t0 = 0.0; img = None; tag = None; _k = ''
     if not quiet:
         for pr in getattr(C, 'PROPS', []):
             if pr[2].startswith('canh_') and pr[0] <= t <= pr[1]: mode = 'scene'; t0 = pr[0]; pr_ = pr
@@ -164,9 +164,22 @@ def compose(out, t, n, C, B, TOTAL, quiet, chap, year):
     f.alpha_composite(PANEL, (0, PY))
     e, SR = _env(B, TOTAL); i = int(t * SR); talk = float(min(1, e[i] * 2.5)) if 0 <= i < len(e) else 0.0
     wave = 1.0 if t < 1.6 else 0.0
-    L, _ = lamp(t, talk, 'wow' if wow else 'happy', None if wave else (-1.28, 330), wave)
-    sq = 1 + 0.025 * math.sin(t * 8.0 if wow else t * 4.0); L = L.resize((int(CW * 0.92 * (2 - sq)), int(CH * 0.92 * sq)), Image.LANCZOS)
-    f.alpha_composite(L, (60, H - 40 - L.height))
+    # cử động: mỗi ~3,5 giây đổi một kiểu; nhún theo nhịp nói; nhảy lên khi thẻ mới hiện hoặc nhãn dán bật
+    seg = int(t / 3.5); gk = (seg * 7 + n) % 5
+    larm = 1 if (wow or gk == 1) else (2 if gk == 3 else 0)
+    run = 1.9 if (mode == 'map' and _k == 'army') or gk == 4 else 1.0
+    since = (t - t0) if mode != 'map' else (t - B.T[n]); fresh = since < 0.6 and since >= 0
+    ang = -1.28 + 0.10 * math.sin(t * 3.0) - (0.35 * math.sin(min(1, since / 0.35) * math.pi) if fresh else 0.0)
+    ln = 330 + (40 * math.sin(min(1, since / 0.35) * math.pi) if fresh else 0.0)
+    L, _ = lamp(t, talk, 'wow' if wow else 'happy', None if wave else (ang, ln), wave, larm=larm, stride=run)
+    hop = 70 * abs(math.sin(min(1, since / 0.6) * math.pi)) if fresh else 0.0
+    hop += 22 * talk * abs(math.sin(t * 7.0)) + (26 * abs(math.sin(t * 8.0)) if run > 1.5 else 0.0)
+    sq = 1 + 0.025 * math.sin(t * 8.0 if wow else t * 4.0) + (0.05 if hop > 30 else 0.0)
+    L = L.resize((int(CW * 0.92 * (2 - sq)), int(CH * 0.92 * sq)), Image.LANCZOS)
+    sway = 3.5 * math.sin(t * 2.2) + (6 * math.sin(t * 8.0) if run > 1.5 else 0.0)
+    Lp = Image.new('RGBA', (L.width + 200, L.height + 200), (0, 0, 0, 0)); Lp.alpha_composite(L, (100, 100))
+    Lp = Lp.rotate(sway, resample=Image.BICUBIC, center=(100 + L.width // 2, 100 + L.height - 20))
+    f.alpha_composite(Lp, (int(60 - 100), int(H - 40 - L.height - 100 - hop)))
     _subs(f, t, n, B); d = ImageDraw.Draw(f)
     d.rounded_rectangle((36, 40, 760, 150), radius=34, fill=(186, 62, 48, 255), outline=(255, 222, 130, 255), width=5)
     d.text((70, 52), str(year), font=font(FS, 56), fill=(255, 234, 160, 255)); d.text((218, 60), 'sau Công nguyên', font=font(FB, 26), fill=(255, 240, 210, 255)); d.text((218, 96), chap, font=font(FB, 26), fill=(255, 240, 210, 255))

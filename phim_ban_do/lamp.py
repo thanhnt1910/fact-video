@@ -10,7 +10,7 @@ def _grad(w, h, top, bot):
 def _limb(d, pts, w, col):
     d.line(pts, fill=col, width=w, joint='curve')
     for p in (pts[0], pts[-1]): d.ellipse((p[0] - w / 2, p[1] - w / 2, p[0] + w / 2, p[1] + w / 2), fill=col)
-def lamp(t, talk=0.0, mood="happy", point=None, wave=0.0, blink_phase=None):
+def lamp(t, talk=0.0, mood="happy", point=None, wave=0.0, blink_phase=None, larm=0, stride=1.0):
     blink_phase = t if blink_phase is None else blink_phase
     """Trả về RGBA (CW x CH) và toạ độ đầu thước (cục bộ) nếu có point=(góc độ, độ dài)."""
     S = 2; im = Image.new('RGBA', (CW * S, CH * S), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
@@ -19,14 +19,16 @@ def lamp(t, talk=0.0, mood="happy", point=None, wave=0.0, blink_phase=None):
     cx = 320; base_y = 600 + bob
     # chân
     for sg in (-1, 1):
-        hx = cx + sg * 62; ph = step * sg * 10
-        _limb(d, [sc(hx, base_y - 4 + 0), sc(hx + ph * 0.3, base_y + 60), sc(hx + ph, 835 - 14)], 22 * S, INK)
-        d.ellipse(sc(hx + ph - 44 + sg * 6, 812, hx + ph + 44 + sg * 6, 846), fill=SHOE, outline=INK, width=3 * S)
+        hx = cx + sg * 62; ph = step * sg * 10 * stride; lift = 22 * max(0.0, step * sg) * max(0.0, stride - 1.0)
+        _limb(d, [sc(hx, base_y - 4 + 0), sc(hx + ph * 0.3, base_y + 60 - lift * 0.5), sc(hx + ph, 835 - 14 - lift)], 22 * S, INK)
+        d.ellipse(sc(hx + ph - 44 + sg * 6, 812 - lift, hx + ph + 44 + sg * 6, 846 - lift), fill=SHOE, outline=INK, width=3 * S)
     # tay trái (sau thân): vẫy khi wave>0
     ang = -0.6 - wave * (1.6 + 0.5 * math.sin(t * 9)) if wave > 0 else 0.5 + 0.08 * math.sin(t * 3)
     sx, sy = cx - 150, 400 + bob
     ex, ey = sx - 40 * math.cos(ang) - 20, sy + 70 - 90 * math.sin(max(0, -ang)) if wave > 0 else sy + 80
-    hx2, hy2 = (sx - 85 - 20 * wave, sy - 40 * wave * 2.2 + 85 * (1 - wave)) if wave > 0 else (sx - 62, sy + 150)
+    hx2, hy2 = (sx - 85 - 20 * wave, sy - 40 * wave * 2.2 + 85 * (1 - wave)) if wave > 0 else (sx - 62 + 26 * math.sin(t * 4.0), sy + 150 - 16 * math.cos(t * 4.0))
+    if wave <= 0 and larm == 1: hx2, hy2 = sx - 78 + 14 * math.sin(t * 11), sy - 175 + 22 * math.sin(t * 9)
+    if wave <= 0 and larm == 2: hx2, hy2 = sx + 6, sy + 120 + 4 * math.sin(t * 3)
     _limb(d, [sc(sx, sy), sc((sx + hx2) / 2 - 22, (sy + hy2) / 2), sc(hx2, hy2)], 20 * S, INK)
     d.ellipse(sc(hx2 - 27, hy2 - 27, hx2 + 27, hy2 + 27), fill=GLOVE, outline=INK, width=3 * S)
     # vòng treo + nắp

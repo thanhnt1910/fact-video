@@ -54,7 +54,8 @@ function at(cx, cy, k, local, delay, inner) {
   const o = clamp01((local - delay) / 0.3);
   if (o <= 0) return '';
   const s = k * easeOutBack((local - delay) / 0.5);
-  return `<g opacity="${o.toFixed(2)}" transform="translate(${cx} ${cy}) scale(${s.toFixed(3)})">${inner}</g>`;
+  const bob = local - delay > 0.6 ? 6 * Math.sin((local - delay) * 2.4 + cx * 0.013) : 0;
+  return `<g opacity="${o.toFixed(2)}" transform="translate(${cx} ${(cy + bob).toFixed(1)}) scale(${s.toFixed(3)})">${inner}</g>`;
 }
 
 function wifi(cx, cy, col, op, w = 6) {
@@ -288,6 +289,7 @@ function buildGeneric(def, text, dur, key) {
   return { items, pts };
 }
 function itemSVG(it, local) {
+  if (it.hide) return '';
   const k = it.k || 1;
   if (it.pill) {
     const w = it.pill.length * 30 + 70;
@@ -314,7 +316,8 @@ function gfxGen(local, sc) {
       dots += `<circle cx="${f1(lerp(A.x, B.x, u))}" cy="${f1(lerp(A.y, B.y, u))}" r="10" fill="#FFFFFF"/>`;
     }
   });
-  return links + out + d.items.map((it) => itemSVG(it, local)).join('') + dots;
+  const an = d.anim && ANIMS[d.anim] ? ANIMS[d.anim](local, d.items) : '';
+  return links + out + an + d.items.map((it) => itemSVG(it, local)).join('') + dots;
 }
 function qBubbles(local, t1, t2) {
   const s = easeOutBack(local / 0.5), a = clamp01(local / 0.3);
@@ -547,44 +550,132 @@ const iconKey = () => `<circle cx="-22" cy="-6" r="28" fill="${YEL}" stroke="${N
 const iconScramble = () => `<rect x="-62" y="-44" width="124" height="88" rx="14" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><text x="0" y="14" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="46" fill="${NAVY}">#@%&amp;</text>`;
 Object.assign(ICONS, { key: iconKey, scramble: iconScramble });
 
+
+// ===== hoạt họa minh họa cho từng ví dụ =====
+const guessStr = (seed) => { const ch = 'abcdefghjkmnpqrstuvwxyz23456789'; let x = (seed * 9301 + 49297) % 233280, o = ''; for (let i = 0; i < 6; i++) { x = (x * 9301 + 49297) % 233280; o += ch[x % ch.length]; } return o; };
+const ringsAt = (cx, cy, r0, r1, per, t, n, col, op) => { let o = ''; for (let k = 0; k < n; k++) { const ph = ((t / per) + k / n) % 1; const r = r0 + (r1 - r0) * ph; o += `<circle cx="${cx}" cy="${cy}" r="${r.toFixed(1)}" fill="none" stroke="${col}" stroke-width="8" stroke-opacity="${((1 - ph) * op).toFixed(2)}"/>`; } return o; };
+const ANIMS = {
+  rings1(local, it) {
+    const t = local - it[0].t - 0.4; if (t < 0) return '';
+    return `<clipPath id="c1"><rect x="0" y="150" width="1080" height="440"/></clipPath><g clip-path="url(#c1)">${ringsAt(210, 370, 130, 760, 2.4, t, 4, '#FFFFFF', 0.55)}</g>`;
+  },
+  packets(local, it) {
+    const t = local - it[1].t - 0.3; if (t < 0) return '';
+    let o = '';
+    const x0 = 210, x1 = 870;
+    for (let k = 0; k < 3; k++) {
+      const u = ((t * 0.35) + k / 3) % 1, x = lerp(x0, x1, u);
+      if (u < 0.22 || u > 0.78) o += `<g transform="translate(${x.toFixed(1)} 610)"><rect x="-34" y="-20" width="68" height="40" rx="12" fill="#FFFFFF" stroke="${NAVY}" stroke-width="4"/><text x="0" y="9" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="26" fill="${NAVY}">1 0 1</text></g>`;
+      else { const y = 610 + 26 * Math.sin(u * 40); o += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="11" fill="#FFFFFF"/><circle cx="${(x - 30).toFixed(1)}" cy="${(610 + 26 * Math.sin(u * 40 - 1.2)).toFixed(1)}" r="7" fill="#FFFFFF" fill-opacity="0.6"/>`; }
+    }
+    for (let k = 0; k < 2; k++) {
+      const u = ((t * 0.35) + 0.15 + k / 2) % 1, x = lerp(x1, x0, u);
+      if (u < 0.22 || u > 0.78) o += `<g transform="translate(${x.toFixed(1)} 690)"><rect x="-34" y="-20" width="68" height="40" rx="12" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/><text x="0" y="9" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="26" fill="${NAVY}">0 1 1</text></g>`;
+      else o += `<circle cx="${x.toFixed(1)}" cy="${(690 + 26 * Math.sin(u * 40)).toFixed(1)}" r="11" fill="${YEL}"/>`;
+    }
+    return o;
+  },
+  bands(local, it) {
+    let o = '';
+    const a = local - it[0].t - 0.3, b = local - it[1].t - 0.3, c = local - it[2].t - 0.3;
+    if (a > 0) o += ringsAt(210, 370, 130, 270, 3.0, a, 2, '#FFFFFF', 0.6);
+    if (b > 0) o += ringsAt(540, 370, 130, 190, 0.8, b, 2, YEL, 0.7);
+    if (c > 0) {
+      const ph = (c * 0.3) % 1, filled = 4 - Math.min(3, Math.floor(ph * 4));
+      for (let i = 0; i < 4; i++) o += `<rect x="${812 + i * 34}" y="${215 - i * 16}" width="22" height="${16 + i * 16}" rx="5" fill="${i < filled ? '#FFFFFF' : NAVY}" fill-opacity="${i < filled ? 1 : 0.25}"/>`;
+      o += `<circle cx="${(740 + 130 * ph).toFixed(1)}" cy="620" r="12" fill="${YEL}"/>`;
+    }
+    return o;
+  },
+  token(local, it) {
+    const t = local - it[0].t - 0.3; if (t < 0) return '';
+    const u = (t * 0.28) % 1, x = lerp(210, 870, u);
+    const phase = u < 0.3 ? 0 : u < 0.78 ? 1 : 2;
+    const txt = phase === 1 ? '#@%&' : 'Chào bạn';
+    const fill = phase === 1 ? RED : phase === 2 ? '#3DDC84' : '#FFFFFF';
+    const col = phase === 1 ? '#FFFFFF' : NAVY;
+    return `<line x1="210" y1="170" x2="870" y2="170" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="5" stroke-dasharray="14 16"/><g transform="translate(${x.toFixed(1)} 170)"><rect x="-86" y="-30" width="172" height="60" rx="30" fill="${fill}" stroke="${NAVY}" stroke-width="5"/><text x="0" y="12" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="34" fill="${col}">${esc(txt)}</text></g>`;
+  },
+  guess(local, it) {
+    let o = '';
+    const a = local - it[0].t - 0.4, b = local - it[1].t - 0.4;
+    if (a > 0) for (let i = 0; i < 3; i++) o += `<text x="250" y="${560 + i * 46}" text-anchor="middle" font-family="${FONT}" font-weight="700" font-size="34" fill="#FFFFFF" fill-opacity="${(0.85 - i * 0.2).toFixed(2)}">${guessStr(Math.floor(a * 14) + i * 7)}</text>`;
+    if (b > 0) {
+      o += `<text x="830" y="560" text-anchor="middle" font-family="${FONT}" font-weight="700" font-size="34" fill="#FFFFFF">${guessStr(Math.floor(b * 1.2))}</text>`;
+      const blocked = (b % 2.4) > 1.0;
+      o += `<text x="830" y="608" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="34" fill="${blocked ? RED : YEL}">${blocked ? 'Bị chặn' : 'chờ...'}</text>`;
+    }
+    return o;
+  },
+  sessions(local, it) {
+    const t0 = it[1].t + 0.3; let o = '';
+    const cols = ['#FF8A5B', '#7B61FF', '#3DDC84'];
+    for (let i = 0; i < 3; i++) {
+      const tt = local - (t0 + i * 0.7); if (tt < 0) continue;
+      const s = easeOutBack(tt / 0.4), y = 300 + i * 90;
+      o += `<g transform="translate(540 ${y}) scale(${s.toFixed(2)})"><text x="-108" y="10" font-family="${FONT}" font-weight="700" font-size="26" fill="#FFFFFF">Lần ${i + 1}</text><circle cx="-30" cy="0" r="22" fill="${cols[i]}" stroke="${NAVY}" stroke-width="5"/><rect x="-14" y="-6" width="52" height="12" rx="5" fill="${cols[i]}" stroke="${NAVY}" stroke-width="4"/><rect x="62" y="-20" width="44" height="40" rx="10" fill="${cols[i]}" stroke="${NAVY}" stroke-width="5"/><rect x="72" y="-34" width="24" height="22" rx="10" fill="none" stroke="${NAVY}" stroke-width="5"/></g>`;
+    }
+    return o;
+  },
+  pulses(local, it) {
+    let o = '';
+    const s = (i) => local - it[i].t - 0.4;
+    if (s(0) > 0) o += `<circle cx="210" cy="370" r="${(130 + 8 * Math.sin(s(0) * 5)).toFixed(1)}" fill="none" stroke="${RED}" stroke-width="8" stroke-opacity="${(0.45 + 0.35 * Math.sin(s(0) * 5)).toFixed(2)}"/>`;
+    if (s(1) > 0) o += `<circle cx="540" cy="370" r="${(130 + 8 * Math.sin(s(1) * 5)).toFixed(1)}" fill="none" stroke="#3DDC84" stroke-width="8" stroke-opacity="${(0.55 + 0.35 * Math.sin(s(1) * 5)).toFixed(2)}"/>`;
+    if (s(2) > 0) o += `<g transform="translate(870 370) rotate(${(s(2) * 120).toFixed(1)})"><circle cx="0" cy="0" r="136" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-dasharray="40 30" stroke-opacity="0.8"/></g>`;
+    return o;
+  },
+  chips(local, it) {
+    const t0 = it[0].t; if (local < t0) return '';
+    const words = ['cam', 'mưa', 'sông', 'đèn', 'gió'];
+    let o = `<text x="540" y="130" text-anchor="middle" font-family="${FONT}" font-weight="700" font-size="32" fill="#FFFFFF" fill-opacity="0.85">Ví dụ cụm từ</text>`;
+    words.forEach((w, i) => {
+      const tt = local - (t0 + 0.2 + i * 0.35); if (tt < 0) return;
+      const sc = easeOutBack(tt / 0.4), x = 540 + (i - 2) * 138;
+      o += `<g transform="translate(${x} 210) scale(${sc.toFixed(2)})"><rect x="-58" y="-34" width="116" height="68" rx="34" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><text x="0" y="12" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="36" fill="${NAVY}">${w}</text></g>`;
+    });
+    return o;
+  },
+};
+
 const X3 = [210, 540, 870], X4 = [165, 420, 675, 930], X5 = [120, 330, 540, 750, 960];
 const E = { mode: 'big', glow: true, wave: true, kind: 'end' };
 const Q = (a, b) => ({ mode: 'big', glow: true, wave: false, kind: 'q', q: [a, b] });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
   7: [
-    G({ items: [
+    G({ anim: 'rings1', items: [
       { ic: 'router', x: X3[0], y: 330, k: 0.95, label: 'Router|phát sóng', w: 'wifi' },
       { ic: 'wifi', x: X3[1], y: 330, k: 0.95, label: 'Sóng lan|ra ngoài tường', w: 'sóng' },
       { ic: 'person', x: X3[2], y: 330, k: 0.95, label: 'Người đứng|gần nhà', w: 'người' }], links: [[0, 1], [1, 2]] }),
-    G({ items: [
+    G({ anim: 'packets', items: [
       { ic: 'router', x: X3[0], y: 330, k: 0.95, label: 'Router', w: 'router' },
       { ic: 'wifi', x: X3[1], y: 330, k: 0.95, label: 'Sóng|vô tuyến', w: 'sóng' },
-      { ic: 'phone', x: X3[2], y: 330, k: 0.95, label: 'Điện thoại', w: 'điện' }], links: [[0, 1], [1, 2]] }),
-    G({ items: [
+      { ic: 'phone', x: X3[2], y: 330, k: 0.95, label: 'Điện thoại', w: 'điện' }] }),
+    G({ anim: 'bands', items: [
       { ic: 'wifi', x: X3[0], y: 330, k: 0.95, label: 'Đi xa|hơn', w: 'xa' },
       { ic: 'wifi', x: X3[1], y: 330, k: 0.95, label: 'Nhanh|hơn', w: 'nhanh' },
       { ic: 'ruler', x: X3[2], y: 330, k: 0.95, label: 'Khoảng 30 đến|50 mét', w: 'ba' }] }),
-    G({ items: [
+    G({ anim: 'token', items: [
       { ic: 'scramble', x: X3[0], y: 330, k: 0.95, label: 'Dữ liệu|bị xáo trộn', w: 'xáo' },
       { ic: 'lock', x: X3[1], y: 330, k: 0.95, label: 'Mật khẩu|WiFi', w: 'mật' },
-      { ic: 'key', x: X3[2], y: 330, k: 0.95, label: 'Chìa|giải mã', w: 'chìa' }], links: [[0, 1], [1, 2]] }),
-    G({ items: [
+      { ic: 'key', x: X3[2], y: 330, k: 0.95, label: 'Chìa|giải mã', w: 'chìa' }] }),
+    G({ anim: 'guess', items: [
       { pill: 'WPA2', x: 300, y: 700, k: 1, w: 'wpa2' },
       { pill: 'WPA3', x: 780, y: 700, k: 1, w: 'wpa3' },
       { ic: 'shield', x: 540, y: 300, k: 1.1, label: 'Chống đoán|mật khẩu', w: 'chống' }] }),
-    G({ items: [
+    G({ anim: 'sessions', items: [
       { pill: 'WPA3', x: 540, y: 700, k: 1, w: 'wpa3' },
       { ic: 'key', x: X3[0] + 80, y: 330, k: 0.95, label: 'Mỗi lần|một chìa riêng', w: 'chìa' },
-      { ic: 'lock', x: X3[2] - 80, y: 330, k: 0.95, label: 'Dữ liệu cũ|vẫn kín', w: 'kín' }], links: [[1, 2]] }),
-    G({ items: [
+      { ic: 'lock', x: X3[2] - 80, y: 330, k: 0.95, label: 'Dữ liệu cũ|vẫn kín', w: 'kín' }] }),
+    G({ anim: 'pulses', items: [
       { ic: 'list', x: X3[0], y: 330, k: 0.95, label: 'Không mật khẩu|hoặc chuẩn cũ', w: 'không' },
       { ic: 'shield', x: X3[1], y: 330, k: 0.95, label: 'WPA3 hoặc|WPA2 AES', w: 'wpa3' },
       { ic: 'router', x: X3[2], y: 330, k: 0.95, label: 'Nâng cấp|hoặc thay', w: 'thay' }] }),
-    G({ items: [
-      { ic: 'lock', x: X3[0], y: 330, k: 0.95, label: 'Cụm 5 đến|7 từ', w: 'cụm' },
-      { pill: '16 ký tự', x: 540, y: 700, k: 0.9, w: 'mười' },
-      { ic: 'router', x: X3[2], y: 330, k: 0.95, label: 'Kiểm tra|chuẩn bảo mật', w: 'router' }] }),
+    G({ anim: 'chips', items: [
+      { hide: true, p: false, x: 0, y: 0, w: 'cụm' },
+      { pill: '16 ký tự', x: 330, y: 560, k: 0.9, w: 'mười' },
+      { ic: 'router', x: 780, y: 520, k: 0.85, label: 'Kiểm tra|chuẩn bảo mật', w: 'router' }] }),
     E],
   1: [
     G({ items: [

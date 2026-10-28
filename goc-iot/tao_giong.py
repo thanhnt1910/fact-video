@@ -31,7 +31,7 @@ def main():
         for k, text in enumerate(v["scenes"], 1):
             name = f"v{v['id']}_s{k}"
             f = out / f"{name}.wav"
-            if f.exists() and name in info:
+            if f.exists() and name in info and info[name].get('chu') == text:
                 continue
             say = text
             for a in sorted(pron, key=len, reverse=True):

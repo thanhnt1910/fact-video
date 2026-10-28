@@ -337,6 +337,7 @@ function qBubbles(local, t1, t2) {
 
 function gfx(kind, local, t, sc) {
   if (kind === 'gen') return gfxGen(local, sc);
+  if (kind === 'draw') return sc.draw(local, sc.tt);
   if (kind === 'q') return qBubbles(local, sc.q[0], sc.q[1]);
   if (kind === 's1') return gfxS1(local);
   if (kind === 'hello') return gfxHello(local);
@@ -777,9 +778,12 @@ const iconBatSwell = () => `<rect x="-64" y="-34" width="120" height="68" rx="10
 Object.assign(ICONS, { batswell: iconBatSwell });
 const iconVac = () => `<circle cx="0" cy="8" r="62" fill="${NAVY}" stroke="#FFFFFF" stroke-width="6"/><circle cx="0" cy="8" r="46" fill="#1B3358"/><circle cx="0" cy="-8" r="14" fill="${TEAL}" stroke="#FFFFFF" stroke-width="4"/><circle cx="0" cy="-8" r="5" fill="#FFFFFF"/><rect x="-22" y="26" width="44" height="8" rx="4" fill="${YEL}"/>`;
 Object.assign(ICONS, { vac: iconVac });
+const D = (dr) => ({ mode: 'corner', wave: false, kind: 'draw', dr });
 const G = (gen) => ({ mode: 'corner', wave: false, kind: 'gen', gen });
+const MH = require('./minh_hoa.cjs')({ NAVY, YEL, TEAL, RED, FONT, esc, f1, lerp, smooth, clamp01, easeOutBack, ICONS });
 const DEFS = {
-  11: [
+  11: [Q('Điều gì xảy ra nếu', 'robot hút bụi chụp ảnh?'), ...MH.v11.map((x) => D(x)), E],
+  1100: [
     Q('Điều gì xảy ra nếu', 'robot hút bụi chụp ảnh?'),
     G({ anim: 'shutter', items: [
       { ic: 'vac', x: X3[0], y: 330, k: 0.95, label: 'Robot|hút bụi', w: 'robot' },
@@ -1088,7 +1092,19 @@ function buildScenes() {
       sc = Object.assign({}, o, { old: o.t1 - o.t0 });
     } else {
       const d = DEFS[VID][i];
-      sc = { mode: d.mode, glow: d.glow, wave: d.wave, gfx: d.kind === 'gen' ? 'gen' : d.kind, q: d.q, pts: [] };
+      sc = { mode: d.mode, glow: d.glow, wave: d.wave, gfx: d.kind, q: d.q, pts: [] };
+      if (d.kind === 'draw') {
+        const ws = text.split(' ').map(stripW), wt = wordTimes(text, dur, key);
+        const tt = {}; let from = 0;
+        d.dr.w.forEach(([name, word]) => {
+          const a = stripW(word); let f = -1;
+          for (let i = from; i < ws.length; i++) if (ws[i] === a || ws[i].startsWith(a)) { f = i; break; }
+          if (f < 0) throw new Error('không thấy từ "' + word + '" trong: ' + text);
+          tt[name] = Math.max(0.1, wt[f] - 0.15); from = f + 1;
+        });
+        sc.draw = d.dr.draw; sc.tt = tt;
+        sc.pts = (d.dr.point || []).map(([name, x, y]) => ({ a: tt[name] + 0.25, b: tt[name] + 1.9, x, y }));
+      }
       if (d.kind === 'gen') {
         const g = buildGeneric(d.gen, text, dur, key);
         sc.gen = Object.assign({}, d.gen, { items: g.items });

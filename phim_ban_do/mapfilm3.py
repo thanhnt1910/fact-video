@@ -683,6 +683,9 @@ def frame(t):
             if ('_in',ii) not in CARDL: CARDL[('_in',ii)]=M3.inter_layer(kind,dat)
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.5));out=comp(out,CARDL[('_in',ii)],(0,0),ease(k))
     sl,sa=B.sub_at(t)
+    if os.environ.get('DOC2'):
+        import doc2 as D2
+        return D2.compose(out,t,n,C,B,TOTAL,_quiet(t),chap[n],C.year_of(n))
     if os.environ.get('DOCMODE'):
         import doc_mascot as DM;DM.ACTIVE=False
     if os.environ.get('DOCMODE') and not _quiet(t):

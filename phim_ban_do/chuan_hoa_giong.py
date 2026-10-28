@@ -16,7 +16,14 @@ def lufs(p):
     r = subprocess.run(['ffmpeg','-nostats','-i',p,'-af','ebur128=peak=true','-f','null','-'],capture_output=True,text=True).stderr
     m = re.findall(r'I:\s+(-?[\d.]+) LUFS', r); return float(m[-1]) if m else -23.0
 nw = {b['n']: len(re.sub(r'[^\w\s]', ' ', b['text']).split()) for b in kb}
-d0 = {b['n']: dur(f'{nguon}/{b["n"]}.mp3') for b in kb}
+SIL = 'silenceremove=start_periods=1:start_threshold=-60dB:start_silence={a},areverse,silenceremove=start_periods=1:start_threshold=-60dB:start_silence={b},areverse'
+LEAD, TAIL = 0.15, 0.25   # giữ đúng chừng này im lặng ở đầu và đuôi mỗi đoạn: khoảng nghỉ giữa hai câu đều nhau (~0,4 giây)
+def dur_noi(p):   # thời lượng phần có tiếng (bỏ im lặng đầu/đuôi) để tính tốc độ đọc thật
+    t = '/tmp/_dn.wav'
+    subprocess.run(['ffmpeg','-y','-v','error','-i',p,'-af',SIL.format(a=0,b=0),t])
+    try: return dur(t)
+    except Exception: return dur(p)
+d0 = {b['n']: dur_noi(f'{nguon}/{b["n"]}.mp3') for b in kb}
 wps = {n: nw[n] / d0[n] for n in nw}
 med = statistics.median(wps.values())
 f0 = {n: _f0(_doc(f'{nguon}/{n}.mp3')) for n in nw}
@@ -28,8 +35,8 @@ for b in kb:
     n = b['n']; src = f'{nguon}/{n}.mp3'; dp = f'{dst}/{n}.mp3'
     r = wps[n] / med; tempo = 1.0
     if abs(r - 1) > 0.05: tempo = max(0.90, min(1.10, r))   # nhanh hơn trung vị thì làm chậm (atempo<1) hay ngược lại: atempo = r làm giọng nhanh lên khi r>1
-    tempo = 1 / r if abs(r - 1) > 0.05 else 1.0
-    tempo = max(0.90, min(1.10, tempo))
+    tempo = 1 / r if abs(r - 1) > 0.03 else 1.0
+    tempo = max(0.88, min(1.12, tempo))
     tmp = f'/tmp/_ch_{n}.wav'
     if str(n) in NOI:   # nối đuôi đoạn trước (phần sau mốc cắt) vào đầu đoạn này
         pv, mc = NOI[str(n)]   # đoạn trước và mốc (giây trên bản thô) bắt đầu phần đuôi cần nối
@@ -38,7 +45,7 @@ for b in kb:
     if f0[n] == f0[n] and abs(f0m / f0[n] - 1) > 0.03: pr = max(0.90, min(1.10, f0m / f0[n]))   # kéo cao độ từng đoạn về trung vị (tối đa 10%), giữ nguyên tốc độ
     cut = ''
     if str(n) in TRIM: cut = f'atrim=end={TRIM[str(n)] * tempo:.3f},'
-    af = f'{cut}rubberband=tempo={tempo:.4f}:pitch={pr:.4f}:formant=preserved,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=none'
+    af = f'{cut}' + SIL.format(a=LEAD, b=TAIL) + f',rubberband=tempo={tempo:.4f}:pitch={pr:.4f}:formant=preserved,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=none'
     subprocess.run(['ffmpeg','-y','-v','error','-i',src,'-af',af,'-ar','24000','-ac','1',tmp],check=True)
     L = lufs(tmp); g = -16.0 - L
     subprocess.run(['ffmpeg','-y','-v','error','-i',tmp,'-af',f'volume={g:.2f}dB,alimiter=limit=0.89','-ar','24000','-ac','1','-b:a','96k',dp],check=True)

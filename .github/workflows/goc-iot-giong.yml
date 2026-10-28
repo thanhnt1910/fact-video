@@ -26,7 +26,7 @@ jobs:
       - name: Đọc giọng Gemini
         env:
           GEMINI_MAX_WAIT: "300"
-          GOC_IOT_VIDEOS: "1"
+          GOC_IOT_VIDEOS: "7"
           GOC_IOT_VOICE: "Puck"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}

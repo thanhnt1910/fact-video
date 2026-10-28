@@ -559,6 +559,27 @@ Object.assign(ICONS, { key: iconKey, scramble: iconScramble });
 const guessStr = (seed) => { const ch = 'abcdefghjkmnpqrstuvwxyz23456789'; let x = (seed * 9301 + 49297) % 233280, o = ''; for (let i = 0; i < 6; i++) { x = (x * 9301 + 49297) % 233280; o += ch[x % ch.length]; } return o; };
 const ringsAt = (cx, cy, r0, r1, per, t, n, col, op) => { let o = ''; for (let k = 0; k < n; k++) { const ph = ((t / per) + k / n) % 1; const r = r0 + (r1 - r0) * ph; o += `<circle cx="${cx}" cy="${cy}" r="${r.toFixed(1)}" fill="none" stroke="${col}" stroke-width="8" stroke-opacity="${((1 - ph) * op).toFixed(2)}"/>`; } return o; };
 const ANIMS = {
+  cmdflow(local, it) {
+    const t = local - it[0].t - 0.3; if (t < 0) return '';
+    const pts = [[210, 190], [540, 190], [870, 190]]; let o = '';
+    for (let k = 0; k < 2; k++) {
+      const u = ((t * 0.25) + k / 2) % 1, seg = u < 0.5 ? 0 : 1, v = (u % 0.5) / 0.5;
+      const x = lerp(pts[seg][0], pts[seg + 1][0], v);
+      o += `<g transform="translate(${x.toFixed(1)} 190)"><rect x="-26" y="-18" width="52" height="36" rx="10" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/><text x="0" y="8" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="22" fill="${NAVY}">BẬT</text></g>`;
+    }
+    return o;
+  },
+  blocked(local, it) {
+    const t = local - it[1].t - 0.3; if (t < 0) return '';
+    const u = (t * 0.45) % 1, x = u < 0.5 ? lerp(210, 470, u / 0.5) : lerp(470, 210, (u - 0.5) / 0.5);
+    let o = `<g transform="translate(${x.toFixed(1)} 190)"><rect x="-26" y="-18" width="52" height="36" rx="10" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/><text x="0" y="8" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="22" fill="${NAVY}">BẬT</text></g>`;
+    if (u > 0.42 && u < 0.6) o += `<circle cx="540" cy="370" r="${(120 + 30 * (u - 0.42) / 0.18).toFixed(1)}" fill="none" stroke="${RED}" stroke-width="8" stroke-opacity="0.6"/>`;
+    return o;
+  },
+  hot(local, it) {
+    const t = local - it[0].t - 0.3; if (t < 0) return '';
+    return ringsAt(540, 370, 120, 200, 1.6, t, 2, RED, 0.55);
+  },
   rings1(local, it) {
     const t = local - it[0].t - 0.4; if (t < 0) return '';
     return `<clipPath id="c1"><rect x="0" y="150" width="1080" height="440"/></clipPath><g clip-path="url(#c1)">${ringsAt(210, 370, 130, 760, 2.4, t, 4, '#FFFFFF', 0.55)}</g>`;
@@ -712,8 +733,41 @@ const ANIMS = {
 const X3 = [210, 540, 870], X4 = [165, 420, 675, 930], X5 = [120, 330, 540, 750, 960];
 const E = { mode: 'big', glow: true, wave: true, kind: 'end' };
 const Q = (a, b) => ({ mode: 'big', glow: true, wave: false, kind: 'q', q: [a, b] });
+const iconBed = () => `<rect x="-56" y="-2" width="112" height="34" rx="8" fill="#8FD3FF" stroke="${NAVY}" stroke-width="6"/><rect x="-56" y="-34" width="14" height="66" rx="6" fill="${NAVY}"/><rect x="-36" y="-14" width="36" height="20" rx="9" fill="#FFFFFF" stroke="${NAVY}" stroke-width="4"/><rect x="-52" y="32" width="10" height="14" fill="${NAVY}"/><rect x="42" y="32" width="10" height="14" fill="${NAVY}"/>`;
+const iconCloudX = () => `${iconCloud()}<g stroke="${RED}" stroke-width="12" stroke-linecap="round"><line x1="-22" y1="-14" x2="22" y2="30"/><line x1="22" y1="-14" x2="-22" y2="30"/></g>`;
+const iconBedHot = () => `${iconBed()}<g fill="none" stroke="${RED}" stroke-width="7" stroke-linecap="round"><path d="M-20 -44 Q-30 -58 -20 -70"/><path d="M4 -44 Q-6 -58 4 -70"/><path d="M28 -44 Q18 -58 28 -70"/></g>`;
+Object.assign(ICONS, { bed: iconBed, cloudx: iconCloudX, bedhot: iconBedHot });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
+  8: [
+    Q('Điều gì xảy ra nếu', 'đám mây nhà bạn sập?'),
+    G({ anim: 'cmdflow', items: [
+      { ic: 'phone', x: X3[0], y: 330, k: 0.95, label: 'Ứng dụng', w: 'ứng' },
+      { ic: 'cloud', x: X3[1], y: 330, k: 0.95, label: 'Đám mây', w: 'đám' },
+      { ic: 'bulb', x: X3[2], y: 330, k: 0.95, label: 'Thiết bị|trong nhà', w: 'thiết' }] }),
+    G({ anim: 'blocked', items: [
+      { ic: 'phone', x: X3[0], y: 330, k: 0.95, label: 'Lệnh|không đi được', w: 'nếu' },
+      { ic: 'cloudx', x: X3[1], y: 330, k: 0.95, label: 'Đám mây|sập', w: 'sập' },
+      { ic: 'bulb', x: X3[2], y: 330, k: 0.95, label: 'Đứng yên|cài đặt cuối', w: 'đứng' }] }),
+    G({ items: [
+      { pill: '20/10/2025 (giờ Mỹ)', x: 540, y: 720, k: 0.95, w: 'hai' },
+      { ic: 'server', x: 540, y: 300, k: 0.95, label: 'Trung tâm dữ liệu|bang Virginia, Mỹ', w: 'trung' }] }),
+    G({ anim: 'hot', items: [
+      { ic: 'bedhot', x: 540, y: 300, k: 0.95, label: 'Giường thông minh|cần mạng liên tục', w: 'giường' },
+      { pill: 'Khoảng 2.000 USD', x: 540, y: 740, k: 0.95, w: 'khoảng' }] }),
+    G({ anim: 'blocked', items: [
+      { ic: 'phone', x: X3[0], y: 330, k: 0.95, label: 'Ứng dụng', w: 'ứng' },
+      { ic: 'cloudx', x: X3[1], y: 330, k: 0.95, label: 'Mất kết nối', w: 'đám' },
+      { ic: 'bed', x: X3[2], y: 330, k: 0.95, label: 'Giữ cài đặt|cuối cùng', w: 'giường' }] }),
+    G({ items: [
+      { ic: 'person', x: X3[0], y: 330, k: 0.95, label: 'Người đứng|đầu hãng', w: 'người' },
+      { ic: 'update', x: X3[1], y: 330, k: 0.95, label: 'Làm việc|suốt ngày đêm', w: 'suốt' },
+      { ic: 'shield', x: X3[2], y: 330, k: 0.95, label: 'Chế độ|khi mất mạng', w: 'chế' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { ic: 'router', x: X3[1], y: 330, k: 0.95, label: 'Mất mạng', w: 'mất' },
+      { ic: 'door', x: X3[0], y: 330, k: 0.95, label: 'Điều khiển|tại chỗ?', w: 'tại' },
+      { ic: 'key', x: X3[2], y: 330, k: 0.95, label: 'Chìa cơ|dự phòng', w: 'chìa' }] }),
+    E],
   7: [
     G({ anim: 'rings1', items: [
       { ic: 'router', x: X3[0], y: 330, k: 0.95, label: 'Router|phát sóng', w: 'wifi' },

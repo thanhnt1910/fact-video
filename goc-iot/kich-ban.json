@@ -25,7 +25,9 @@
     "Twitter": "Tuýt-tơ",
     "Netflix": "Nét-phlíc",
     "Reddit": "Rét-đít",
-    "Spotify": "Xpót-ti-phai"
+    "Spotify": "Xpót-ti-phai",
+    "lithium": "li-thi-um",
+    "Maryland": "Ma-ri-len"
   },
   "videos": [
     {
@@ -167,6 +169,22 @@
         "Kết quả là Twitter, Netflix, Reddit, Spotify và nhiều trang khác bị gián đoạn trong ngày hôm đó. Hãng Dyn ước tính có tới khoảng một trăm nghìn thiết bị tham gia.",
         "Bạn làm được gì? Đổi mật khẩu mặc định của camera và router, cập nhật phần mềm, và thay thiết bị quá cũ không còn được hãng hỗ trợ.",
         "Camera nhà bạn đã đổi mật khẩu mặc định chưa? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "what-if-pin-lithium-sac-sai",
+      "title": "Điều gì xảy ra nếu pin bị sạc sai cách?",
+      "scenes": [
+        "Điều gì xảy ra nếu pin của thiết bị bạn bị sạc sai cách?",
+        "Nhiều thiết bị thông minh dùng pin lithium, như camera không dây, vòng tay và sạc dự phòng. Loại pin này nhỏ nhưng chứa rất nhiều năng lượng.",
+        "Khi pin bị nóng, bị sạc sai hoặc bị hư, bên trong có thể sinh ra khí. Khí này làm pin phồng lên.",
+        "Các nhà nghiên cứu ở Đại học Maryland, Mỹ, đã tổng hợp điều này trong một bài báo năm hai nghìn không trăm hai mươi lăm.",
+        "Pin phồng có thể kéo theo giảm dung lượng và, trong trường hợp nặng, gây nguy hiểm. Vì thế phồng là dấu hiệu cảnh báo.",
+        "Nguyên nhân thường gặp là để nóng, ví dụ trong xe dưới nắng, dùng sạc không đúng hãng, hoặc pin bị rơi va đập.",
+        "Nếu thấy pin phồng, hãy ngừng dùng và ngừng sạc ngay. Không bóp, không chọc thủng, vì có thể thoát ra khí dễ cháy.",
+        "Sau đó để thiết bị ở nơi thoáng, xa vật dễ cháy, trong hộp kim loại. Đem tới điểm thu hồi pin, đừng vứt vào thùng rác.",
+        "Thiết bị nào trong nhà bạn dùng pin sạc? Bình luận cho Bóng biết nhé!"
       ]
     }
   ]

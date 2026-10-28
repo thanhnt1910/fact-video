@@ -52,5 +52,11 @@
     "tieu_de": "Điều gì xảy ra nếu nhiều camera cùng bị chiếm quyền?",
     "mo_ta": "Một camera bị chiếm quyền đã đáng lo. Nếu rất nhiều camera bị chiếm cùng lúc thì chúng có thể bị bắt đi tấn công nơi khác.\n\nNgày 21/10/2016, phần mềm độc hại Mirai chiếm camera và đầu ghi hình còn dùng mật khẩu mặc định, rồi điều khiển chúng tấn công Dyn, công ty giữ dịch vụ tìm địa chỉ cho các trang web. Nhiều trang như Twitter, Netflix, Reddit, Spotify bị gián đoạn. Dyn ước tính có tới khoảng 100.000 thiết bị tham gia (con số ban đầu hàng chục triệu sau đó được hãng cho là ước tính quá cao).\n\nViệc làm được ngay: đổi mật khẩu mặc định của camera và router, cập nhật phần mềm, thay thiết bị quá cũ không còn được hỗ trợ.\n\nNguồn: KrebsOnSecurity (21/10/2016), phân tích sau sự cố của Dyn (qua tổng hợp của Namefi), Đại học Syracuse (JOST).\n\nCamera nhà bạn đã đổi mật khẩu mặc định chưa?",
     "hashtag": "#GocIoT #WhatIf #Camera #BaoMat #MatKhau #CongNghe"
+  },
+  {
+    "id": 10,
+    "tieu_de": "Điều gì xảy ra nếu pin thiết bị bị sạc sai cách?",
+    "mo_ta": "Camera không dây, vòng tay, sạc dự phòng đều dùng pin lithium. Khi pin bị nóng, sạc sai hoặc hư, bên trong có thể sinh khí làm pin phồng lên. Một bài tổng quan năm 2025 của nhóm nghiên cứu ở Đại học Maryland (Mỹ) nêu sinh khí là một trong các cơ chế làm pin phồng, và liên hệ pin phồng với giảm dung lượng và rủi ro an toàn trong trường hợp nặng.\n\nNguyên nhân thường gặp: để nóng (xe dưới nắng), dùng sạc không đúng hãng, pin rơi va đập.\n\nNếu thấy pin phồng: ngừng dùng và ngừng sạc ngay, không bóp hay chọc thủng, để nơi thoáng xa vật dễ cháy, rồi mang tới điểm thu hồi pin. Không vứt vào thùng rác.\n\nNguồn: CALCE, Đại học Maryland (Batteries, 2025); hướng dẫn xử lý pin phồng của Anker.\n\nThiết bị nào trong nhà bạn dùng pin sạc?",
+    "hashtag": "#GocIoT #WhatIf #PinLithium #AnToan #CongNghe #NhaThongMinh"
   }
 ]

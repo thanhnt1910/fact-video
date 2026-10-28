@@ -589,6 +589,15 @@ const ANIMS = {
     }
     return o;
   },
+  puff(local, it) {
+    const t = local - it[1].t - 0.2; if (t < 0) return '';
+    let o = '';
+    for (let k = 0; k < 6; k++) {
+      const u = ((t * 0.45) + k / 6) % 1, x = lerp(540, 870, u), y = 330 - 90 * u - 24 * Math.sin(u * 9 + k);
+      o += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(8 + 8 * u).toFixed(1)}" fill="#FFFFFF" fill-opacity="${(0.8 - 0.5 * u).toFixed(2)}"/>`;
+    }
+    return o;
+  },
   rings1(local, it) {
     const t = local - it[0].t - 0.4; if (t < 0) return '';
     return `<clipPath id="c1"><rect x="0" y="150" width="1080" height="440"/></clipPath><g clip-path="url(#c1)">${ringsAt(210, 370, 130, 760, 2.4, t, 4, '#FFFFFF', 0.55)}</g>`;
@@ -746,8 +755,41 @@ const iconBed = () => `<rect x="-56" y="-2" width="112" height="34" rx="8" fill=
 const iconCloudX = () => `${iconCloud()}<g stroke="${RED}" stroke-width="12" stroke-linecap="round"><line x1="-22" y1="-14" x2="22" y2="30"/><line x1="22" y1="-14" x2="-22" y2="30"/></g>`;
 const iconBedHot = () => `${iconBed()}<g fill="none" stroke="${RED}" stroke-width="7" stroke-linecap="round"><path d="M-20 -44 Q-30 -58 -20 -70"/><path d="M4 -44 Q-6 -58 4 -70"/><path d="M28 -44 Q18 -58 28 -70"/></g>`;
 Object.assign(ICONS, { bed: iconBed, cloudx: iconCloudX, bedhot: iconBedHot });
+const iconBatSwell = () => `<rect x="-64" y="-34" width="120" height="68" rx="10" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="56" y="-14" width="14" height="28" rx="4" fill="${NAVY}"/><path d="M-50 -34 Q-6 -78 40 -34" fill="#FFFFFF" stroke="${RED}" stroke-width="7"/><rect x="-48" y="-18" width="86" height="36" rx="6" fill="#FFD84D"/>`;
+Object.assign(ICONS, { batswell: iconBatSwell });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
+  10: [
+    Q('Điều gì xảy ra nếu', 'pin bị sạc sai cách?'),
+    G({ items: [
+      { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Camera|không dây', w: 'camera' },
+      { ic: 'watch', x: X3[1], y: 330, k: 0.95, label: 'Vòng tay', w: 'vòng' },
+      { ic: 'batfull', x: X3[2], y: 330, k: 0.95, label: 'Sạc|dự phòng', w: 'sạc' }] }),
+    G({ anim: 'puff', items: [
+      { ic: 'thermo', x: X3[0], y: 330, k: 0.95, label: 'Nóng, sạc sai|hoặc hư', w: 'nóng' },
+      { ic: 'cloud', x: X3[1], y: 330, k: 0.95, label: 'Sinh ra khí', w: 'khí' },
+      { ic: 'batswell', x: X3[2], y: 330, k: 0.95, label: 'Pin phồng', w: 'phồng' }], links: [[0, 1]] }),
+    G({ items: [
+      { ic: 'person', x: X3[0], y: 330, k: 0.95, label: 'Nhà nghiên|cứu Maryland', w: 'nhà' },
+      { ic: 'list', x: X3[1], y: 330, k: 0.95, label: 'Bài báo|tổng quan', w: 'bài' },
+      { pill: '2025', x: 540, y: 700, k: 1, w: 'năm' }] }),
+    G({ items: [
+      { ic: 'batswell', x: X3[0], y: 330, k: 0.95, label: 'Pin phồng', w: 'pin' },
+      { ic: 'batlow', x: X3[1], y: 330, k: 0.95, label: 'Giảm|dung lượng', w: 'dung' },
+      { ic: 'bell', x: X3[2], y: 330, k: 0.95, label: 'Dấu hiệu|cảnh báo', w: 'cảnh' }] }),
+    G({ items: [
+      { ic: 'sun', x: X3[0], y: 330, k: 0.95, label: 'Để nóng,|xe dưới nắng', w: 'nóng' },
+      { ic: 'nocopy', x: X3[1], y: 330, k: 0.95, label: 'Sạc không|đúng hãng', w: 'sạc' },
+      { ic: 'batlow', x: X3[2], y: 330, k: 0.95, label: 'Rơi,|va đập', w: 'rơi' }] }),
+    G({ items: [
+      { ic: 'batswell', x: X3[0], y: 330, k: 0.95, label: 'Thấy pin phồng', w: 'phồng' },
+      { ic: 'nocopy', x: X3[1], y: 330, k: 0.95, label: 'Ngừng dùng|ngừng sạc', w: 'ngừng' },
+      { ic: 'updx', x: X3[2], y: 330, k: 0.95, label: 'Không bóp,|không chọc', w: 'không' }] }),
+    G({ items: [
+      { ic: 'shield', x: X3[0], y: 330, k: 0.95, label: 'Nơi thoáng,|hộp kim loại', w: 'nơi' },
+      { ic: 'reset', x: X3[1], y: 330, k: 0.95, label: 'Điểm thu hồi|pin', w: 'điểm' },
+      { ic: 'nocopy', x: X3[2], y: 330, k: 0.95, label: 'Không vứt|thùng rác', w: 'đừng' }] }),
+    E],
   9: [
     Q('Điều gì xảy ra nếu', 'nhiều camera bị chiếm quyền?'),
     G({ items: [

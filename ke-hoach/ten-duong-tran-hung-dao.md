@@ -5,12 +5,12 @@
 20003 [Hà Nội] Đầu tiên là Hà Nội. Phố Trần Hưng Đạo dài khoảng hai phẩy hai sáu ki-lô-mét, từ cuối phố Phan Chu Trinh đến Quảng trường Một Tháng Năm.
 20004 [Hà Nội] Thời Pháp thuộc, phố này tên là Gam-bét-ta, theo tên một chính trị gia Pháp. Năm một nghìn chín trăm bốn mươi lăm, phố đổi sang tên Trần Hưng Đạo.
 20005 [Hà Nội] Người đổi tên là bác sĩ Trần Văn Lai, khi đó đứng đầu thành phố. Ông ngưỡng mộ anh hùng dân tộc và đặt tên họ cho nhiều phố lớn.
-20006 [TP.HCM] Tiếp theo là Thành phố Hồ Chí Minh. Đại lộ nối Sài Gòn với Chợ Lớn này xong năm một nghìn chín trăm mười sáu, mang tên một tướng Pháp là Ga-li-ê-ni.
+20006 [TP.HCM] Tiếp theo là Thành phố Hồ Chí Minh. Đại lộ nối Sài Gòn với Chợ Lớn hoàn thành năm một nghìn chín trăm mười sáu, mang tên một tướng Pháp là Ga-li-ê-ni.
 20007 [TP.HCM] Năm một nghìn chín trăm năm mươi lăm, đại lộ đổi sang tên Trần Hưng Đạo. Từ năm một nghìn chín trăm bảy mươi lăm, đường dài hơn sáu ki-lô-mét.
 20008 [Đà Nẵng] Cuối cùng là Đà Nẵng. Đường Trần Hưng Đạo chạy dọc bờ đông sông Hàn, dài khoảng hai phẩy bảy ki-lô-mét, từ cầu Nguyễn Văn Trỗi.
 20009 [Đà Nẵng] Lúc đầu đường tên Bạch Đằng Đông. Ngày mười hai tháng Giêng năm hai nghìn không trăm linh hai, thành phố đổi sang tên Trần Hưng Đạo.
 20010 [Đà Nẵng] Tên này nằm đối diện đường Bạch Đằng bên kia sông, để tôn vinh ông và chiến thắng Bạch Đằng.
-20011 [Kết] Con đường Trần Hưng Đạo gần nhà bạn nằm ở đâu?
+20011 [Kết] Nơi bạn sống có đường Trần Hưng Đạo không?
 
 ## Ghi chú độ chắc và nguồn (đã tra 28/10/2026, đối chiếu lại trước khi đăng)
 - Hà Nội: dài 2,26 km, từ cuối phố Phan Chu Trinh đến Quảng trường 1-5 (hatika.vn, nguồn thứ cấp). Tên cũ Boulevard Gambetta. Đổi tên thành phố Trần Hưng Đạo dưới thời bác sĩ Trần Văn Lai làm Đốc lý Hà Nội (từ 20/7/1945 đến khi Cách mạng Tháng Tám nổ ra), nên lời kể nói "năm 1945" (scov.gov.vn, bài "Người đặt tên mới cho nhiều con phố Hà Nội"). Bài ghi ông Lai ngưỡng mộ anh hùng dân tộc, đặt tên danh nhân cho nhiều phố lớn; KHÔNG ghi lý do riêng cho phố này, nên lời kể chỉ nói ông "chọn tên họ đặt cho nhiều phố lớn". Ngày tháng chính xác chưa có: cần tra thêm (Hà Nội địa chí, tài liệu Trung tâm lưu trữ).

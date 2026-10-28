@@ -761,8 +761,8 @@ const DEFS = {
       { ic: 'bed', x: X3[2], y: 330, k: 0.95, label: 'Giữ cài đặt|cuối cùng', w: 'giường' }] }),
     G({ items: [
       { ic: 'person', x: X3[0], y: 330, k: 0.95, label: 'Người đứng|đầu hãng', w: 'người' },
-      { ic: 'update', x: X3[1], y: 330, k: 0.95, label: 'Làm việc|suốt ngày đêm', w: 'suốt' },
-      { ic: 'shield', x: X3[2], y: 330, k: 0.95, label: 'Chế độ|khi mất mạng', w: 'chế' }], links: [[0, 1], [1, 2]] }),
+      { ic: 'update', x: X3[1], y: 330, k: 0.95, label: 'Làm việc|ngày đêm', w: 'suốt' },
+      { ic: 'shield', x: X3[2], y: 330, k: 0.95, label: 'Chế độ|mất mạng', w: 'chế' }], links: [[0, 1], [1, 2]] }),
     G({ items: [
       { ic: 'router', x: X3[1], y: 330, k: 0.95, label: 'Mất mạng', w: 'mất' },
       { ic: 'door', x: X3[0], y: 330, k: 0.95, label: 'Điều khiển|tại chỗ?', w: 'tại' },

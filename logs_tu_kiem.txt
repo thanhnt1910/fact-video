@@ -1,21 +1,122 @@
 $ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
-cao độ trung vị 154 Hz
-tốc độ trung vị 3.46 chữ/giây
-đoạn đã chỉnh tốc độ: 76 / 134
-âm lượng sau chuẩn hóa: -15.7 đến -15.2 LUFS
-tổng thời lượng giọng 12.76 phút
+cao độ trung vị 151 Hz
+tốc độ trung vị 3.39 chữ/giây
+đoạn đã chỉnh tốc độ: 86 / 134
+âm lượng sau chuẩn hóa: -15.8 đến -15.2 LUFS
+tổng thời lượng giọng 12.99 phút
 
 $ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
+0 134
+20 134
+40 134
+60 134
+80 134
+100 134
+120 134
 xong 134
 
 $ python phim_ban_do/kiem_ngoai.py ly1 -> 1
-❌ 18071 khớp 60%
-133/134 câu sạch
+❌ 18047 thừa 'cong oi' ở đầu
+❌ 18077 thừa 'roi ong cho dung kho tang' ở cuối; nhiều hơn kịch bản 6 chữ
+❌ 18078 khớp 50%
+❌ 18090 thừa 'nhung lan ay' ở cuối; nhiều hơn kịch bản 3 chữ
+❌ 18091 mất 'nhung lan ay'
+❌ 18092 thừa 'trau tren duong ve' ở cuối; nhiều hơn kịch bản 3 chữ; khớp 59%
+❌ 18093 mất 'tren duong ve'
+❌ 18098 thừa 'ho dong chay o bien kim hoa' ở cuối; nhiều hơn kịch bản 7 chữ
+❌ 18099 thừa 'nha vua sai giat thanh vuong' ở đầu; khớp 0%
+❌ 18100 mất 'nha vua sai duc thanh vuong'
+❌ 18121 thừa 'ong song thang ra ngoai' ở cuối; nhiều hơn kịch bản 5 chữ
+❌ 18122 mất 'ong xong thang ra ngoai'
+❌ 18129 thừa 'nhung den ngay ay' ở cuối; nhiều hơn kịch bản 4 chữ
+❌ 18130 mất 'nhung den ngay ay'
+120/134 câu sạch
+
+$ python thu_giong_hai_cum.py ke-hoach/thu-giong-hai/ly1_full.json Puck assets/thu_giong_hai 1 -> 3
+ GEMINI_API_KEYS: trống
+còn thiếu 14 câu
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m16s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m16s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m16s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m16s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK cụm 18047 - 18047 7.0 giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …pPaA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 3h44m4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] đã gặp 8 lần 429 trong lần chạy này, DỪNG HẲN để khỏi bị khóa khóa
+
+$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 1
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/chuan_hoa_giong.py", line 19, in <module>
+    d0 = {b['n']: dur(f'{nguon}/{b["n"]}.mp3') for b in kb}
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/chuan_hoa_giong.py", line 14, in dur
+    def dur(p): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p],capture_output=True,text=True).stdout.strip())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
+120 134
+xong 134
+
+$ python phim_ban_do/kiem_ngoai.py ly1 -> 1
+❌ 18047 thừa 'cong oi' ở đầu
+❌ 18077 thừa 'roi ong cho dung kho tang' ở cuối; nhiều hơn kịch bản 6 chữ
+❌ 18078 khớp 50%
+❌ 18090 thừa 'nhung lan ay' ở cuối; nhiều hơn kịch bản 3 chữ
+❌ 18091 mất 'nhung lan ay'
+❌ 18092 thừa 'trau tren duong ve' ở cuối; nhiều hơn kịch bản 3 chữ; khớp 59%
+❌ 18093 mất 'tren duong ve'
+❌ 18098 thừa 'ho dong chay o bien kim hoa' ở cuối; nhiều hơn kịch bản 7 chữ
+❌ 18099 thừa 'nha vua sai giat thanh vuong' ở đầu; khớp 0%
+❌ 18100 mất 'nha vua sai duc thanh vuong'
+❌ 18121 thừa 'ong song thang ra ngoai' ở cuối; nhiều hơn kịch bản 5 chữ
+❌ 18122 mất 'ong xong thang ra ngoai'
+❌ 18129 thừa 'nhung den ngay ay' ở cuối; nhiều hơn kịch bản 4 chữ
+❌ 18130 mất 'nhung den ngay ay'
+120/134 câu sạch
 
 # Tự kiểm giọng ly1
 
-## Vòng 1: 1 đoạn nghi lỗi
-- 18071: khớp 60%
+## Vòng 1: 14 đoạn nghi lỗi
+- 18047: thừa 'cong oi' ở đầu
+- 18077: thừa 'roi ong cho dung kho tang' ở cuối; nhiều hơn kịch bản 6 chữ
+- 18078: khớp 50%
+- 18090: thừa 'nhung lan ay' ở cuối; nhiều hơn kịch bản 3 chữ
+- 18091: mất 'nhung lan ay'
+- 18092: thừa 'trau tren duong ve' ở cuối; nhiều hơn kịch bản 3 chữ; khớp 59%
+- 18093: mất 'tren duong ve'
+- 18098: thừa 'ho dong chay o bien kim hoa' ở cuối; nhiều hơn kịch bản 7 chữ
+- 18099: thừa 'nha vua sai giat thanh vuong' ở đầu; khớp 0%
+- 18100: mất 'nha vua sai duc thanh vuong'
+- 18121: thừa 'ong song thang ra ngoai' ở cuối; nhiều hơn kịch bản 5 chữ
+- 18122: mất 'ong xong thang ra ngoai'
+- 18129: thừa 'nhung den ngay ay' ở cuối; nhiều hơn kịch bản 4 chữ
+- 18130: mất 'nhung den ngay ay'
+(đã đọc lại 14 đoạn riêng; thoát mã 3)
+## Vòng 2: 14 đoạn nghi lỗi
+- 18047: thừa 'cong oi' ở đầu
+- 18077: thừa 'roi ong cho dung kho tang' ở cuối; nhiều hơn kịch bản 6 chữ
+- 18078: khớp 50%
+- 18090: thừa 'nhung lan ay' ở cuối; nhiều hơn kịch bản 3 chữ
+- 18091: mất 'nhung lan ay'
+- 18092: thừa 'trau tren duong ve' ở cuối; nhiều hơn kịch bản 3 chữ; khớp 59%
+- 18093: mất 'tren duong ve'
+- 18098: thừa 'ho dong chay o bien kim hoa' ở cuối; nhiều hơn kịch bản 7 chữ
+- 18099: thừa 'nha vua sai giat thanh vuong' ở đầu; khớp 0%
+- 18100: mất 'nha vua sai duc thanh vuong'
+- 18121: thừa 'ong song thang ra ngoai' ở cuối; nhiều hơn kịch bản 5 chữ
+- 18122: mất 'ong xong thang ra ngoai'
+- 18129: thừa 'nhung den ngay ay' ở cuối; nhiều hơn kịch bản 4 chữ
+- 18130: mất 'nhung den ngay ay'
 
 ## Kết quả cuối
-Còn nghi lỗi (có thể do nhận dạng nghe nhầm, nên nghe lại): 18071 (khớp 60%)
+Còn nghi lỗi (có thể do nhận dạng nghe nhầm, nên nghe lại): 18047 (thừa 'cong oi' ở đầu), 18077 (thừa 'roi ong cho dung kho tang' ở cuối; nhiều hơn kịch bản 6 chữ), 18078 (khớp 50%), 18090 (thừa 'nhung lan ay' ở cuối; nhiều hơn kịch bản 3 chữ), 18091 (mất 'nhung lan ay'), 18092 (thừa 'trau tren duong ve' ở cuối; nhiều hơn kịch bản 3 chữ; khớp 59%), 18093 (mất 'tren duong ve'), 18098 (thừa 'ho dong chay o bien kim hoa' ở cuối; nhiều hơn kịch bản 7 chữ), 18099 (thừa 'nha vua sai giat thanh vuong' ở đầu; khớp 0%), 18100 (mất 'nha vua sai duc thanh vuong'), 18121 (thừa 'ong song thang ra ngoai' ở cuối; nhiều hơn kịch bản 5 chữ), 18122 (mất 'ong xong thang ra ngoai'), 18129 (thừa 'nhung den ngay ay' ở cuối; nhiều hơn kịch bản 4 chữ), 18130 (mất 'nhung den ngay ay')

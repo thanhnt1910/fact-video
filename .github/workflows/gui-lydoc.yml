@@ -1,0 +1,34 @@
+name: Gửi lại video dọc ly1 lên Telegram
+
+on:
+  push:
+    paths: ['ke-hoach/thu-giong-hai/gui_lydoc.txt']
+
+permissions:
+  contents: read
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tải, nén và gửi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
+          TAG=$(head -1 ke-hoach/thu-giong-hai/gui_lydoc.txt)
+          gh release download "$TAG" -p lydoc_video.mp4 -D .
+          F=lydoc_video.mp4; ls -la $F
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $F)
+          VB=$(python3 -c "print(int((40*8*1000*1000/$D-96000)/1000))")
+          ffmpeg -y -loglevel error -i $F -c:v libx264 -preset veryfast -b:v ${VB}k -maxrate ${VB}k -bufsize $((VB*2))k -c:a aac -b:a 96k xem.mp4
+          ls -la xem.mp4
+          for i in 1 2 3; do
+            code=$(curl -s --max-time 400 -o r.txt -w "%{http_code}" -F chat_id="$TG_CHAT" -F video=@xem.mp4 -F supports_streaming=true -F caption="Lý Công Uẩn (video dọc, có tiếng, bản xem thử nén)" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo")
+            echo "lần $i -> $code"; [ "$code" = 200 ] && exit 0; head -c 300 r.txt; sleep 5
+          done
+          exit 1

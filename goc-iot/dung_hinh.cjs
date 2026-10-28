@@ -756,9 +756,9 @@ const DEFS = {
       { ic: 'bedhot', x: 540, y: 300, k: 0.95, label: 'Giường thông minh|cần mạng liên tục', w: 'giường' },
       { pill: 'Khoảng 2.000 USD', x: 540, y: 740, k: 0.95, w: 'khoảng' }] }),
     G({ anim: 'blocked', items: [
+      { ic: 'bedhot', x: X3[2], y: 330, k: 0.95, label: 'Nóng quá,|ngừng làm mát', w: 'giường' },
       { ic: 'phone', x: X3[0], y: 330, k: 0.95, label: 'Ứng dụng', w: 'ứng' },
-      { ic: 'cloudx', x: X3[1], y: 330, k: 0.95, label: 'Mất kết nối', w: 'đám' },
-      { ic: 'bed', x: X3[2], y: 330, k: 0.95, label: 'Giữ cài đặt|cuối cùng', w: 'giường' }] }),
+      { ic: 'cloudx', x: X3[1], y: 330, k: 0.95, label: 'Mất kết nối', w: 'đám' }] }),
     G({ items: [
       { ic: 'person', x: X3[0], y: 330, k: 0.95, label: 'Người đứng|đầu hãng', w: 'người' },
       { ic: 'update', x: X3[1], y: 330, k: 0.95, label: 'Làm việc|ngày đêm', w: 'suốt' },

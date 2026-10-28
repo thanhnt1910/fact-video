@@ -90,8 +90,10 @@ jobs:
       - name: Âm thanh, ghép đoạn và thêm tiếng
         working-directory: phim_ban_do
         run: |
+          A2_OUT=$PWD/a2.wav python -u audio2.py 2>&1 | tail -n 3
           for i in $(seq 0 15); do echo "file '$GITHUB_WORKSPACE/doan/docdoan-$i/docdoan_$i.mp4'" >> list.txt; done
-          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy lydoc_video.mp4
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy ghep.mp4
+          ffmpeg -y -loglevel error -i ghep.mp4 -i a2.wav -c:v copy -c:a aac -b:a 160k -shortest lydoc_video.mp4
           ffprobe -v error -show_entries format=duration,size -of default=nw=1 lydoc_video.mp4
       - uses: actions/upload-artifact@v4
         with:

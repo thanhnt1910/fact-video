@@ -140,7 +140,9 @@ def compose(out, t, n, C, B, TOTAL, quiet, chap, year):
                 if c[0] <= t <= c[1] and portrait(c[2]) is not None: mode = 'face'; t0 = c[0]; tag = c[2]; img = portrait(c[2])
     if mode == 'scene': img = scene_img(pr_[2], (t - pr_[0]) / max(1e-6, pr_[1] - pr_[0]), t, pr_[1] - pr_[0])
     if mode == 'map':
-        img = out.convert('RGB').crop((40, 200, 1040, 920)).resize((820, 590), Image.LANCZOS)
+        import doc2_fx as FX
+        _k = FX.pick(B.texts.get(n, ''), n); img = FX.render(_k, max(0.0, t - B.T[n]))
+        if n % 2: img = img.transpose(Image.FLIP_LEFT_RIGHT)
         # thẻ bản đồ đứng yên theo chương: không nảy lại mỗi giây
         t0 = B.T[n] if False else 0.0
     u = t - t0; pop = back(min(1, u / 0.45)) if mode != 'map' else 1.0

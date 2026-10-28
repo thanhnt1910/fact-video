@@ -11,6 +11,59 @@
    [khóa] GEMINI_API_KEY_11: trống
    [khóa] GEMINI_API_KEY_12: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 2 câu
+còn thiếu 134 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 19016 - 19017 15.1 giây
+OK cụm 18001 - 18001 11.9 giây
+OK cụm 18002 - 18002 5.4 giây
+OK cụm 18003 - 18003 2.2 giây
+OK cụm 18004 - 18004 8.5 giây
+OK cụm 18005 - 18005 4.4 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 31s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18006 - 18006 8.6 giây
+OK cụm 18007 - 18007 8.9 giây
+OK cụm 18008 - 18008 5.0 giây
+OK cụm 18009 - 18009 4.6 giây
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 15s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18010 - 18010 6.8 giây
+OK cụm 18011 - 18011 7.7 giây
+OK cụm 18012 - 18012 3.4 giây
+OK cụm 18013 - 18013 4.5 giây
+OK cụm 18014 - 18014 6.4 giây
+OK cụm 18015 - 18015 3.8 giây
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 52s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18016 - 18016 7.2 giây
+OK cụm 18017 - 18017 5.9 giây
+OK cụm 18018 - 18018 3.4 giây
+OK cụm 18019 - 18019 6.7 giây
+OK cụm 18020 - 18020 7.2 giây
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 32s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18021 - 18021 9.6 giây
+OK cụm 18022 - 18022 4.0 giây
+OK cụm 18023 - 18023 5.1 giây
+OK cụm 18024 - 18024 8.7 giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 14s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18025 - 18025 4.8 giây
+OK cụm 18026 - 18026 4.0 giây
+OK cụm 18027 - 18027 6.5 giây
+OK cụm 18028 - 18028 4.9 giây
+OK cụm 18029 - 18029 4.3 giây
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …pPaA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 53s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18030 - 18030 4.4 giây
+OK cụm 18031 - 18031 5.8 giây
+OK cụm 18032 - 18032 4.8 giây
+OK cụm 18033 - 18033 6.0 giây
+OK cụm 18034 - 18034 6.6 giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 34s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 18035 - 18035 9.0 giây
+OK cụm 18036 - 18036 4.4 giây
+OK cụm 18037 - 18037 6.5 giây
+OK cụm 18038 - 18038 4.7 giây
+OK cụm 18039 - 18039 6.5 giây
+   [gemini] đã gặp 8 lần 429 trong lần chạy này, DỪNG HẲN để khỏi bị khóa khóa

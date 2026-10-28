@@ -2,11 +2,11 @@
 
 Mở đầu bằng cảnh năm 1285 (có thật, kể ở chương Kháng chiến). Nguồn thứ cấp, cần đối chiếu Đại Việt sử ký toàn thư.
 
-20001 [Mở đầu] Năm một nghìn hai trăm tám mươi lăm, quân Nguyên áp sát Thăng Long và triều đình bàn chuyện hàng. Trần Hưng Đạo tâu rằng, muốn hàng thì xin chém đầu ông trước.
+20001 [Mở đầu] Năm một nghìn hai trăm tám mươi lăm, quân Nguyên áp sát Thăng Long, triều đình bàn chuyện hàng. Trần Hưng Đạo tâu: muốn hàng thì xin chém đầu ông trước.
 20002 [Xuất thân] Ông là ai mà dám nói như vậy? Ông tên thật là Trần Quốc Tuấn, sinh năm một nghìn hai trăm hai mươi tám theo nhiều tài liệu.
 20003 [Xuất thân] Ông thuộc hoàng tộc nhà Trần, là con của Trần Liễu. Theo Toàn thư, cha ông dặn lấy ngôi vua để báo thù, nhưng ông không làm theo.
-20004 [Chức vụ] Ông giữ chức Quốc công Tiết chế, người chỉ huy toàn bộ quân đội nhà Trần, và viết Hịch tướng sĩ để kêu gọi các tướng quyết chiến.
-20005 [Kháng chiến] Nhà Nguyên ba lần đưa quân sang đánh Đại Việt, vào các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm và một nghìn hai trăm tám mươi bảy.
+20004 [Chức vụ] Ông giữ chức Quốc công Tiết chế, chỉ huy toàn bộ quân đội nhà Trần, và viết Hịch tướng sĩ kêu gọi các tướng quyết chiến.
+20005 [Kháng chiến] Nhà Nguyên ba lần đưa quân sang, vào các năm một nghìn hai trăm năm mươi tám, một nghìn hai trăm tám mươi lăm và một nghìn hai trăm tám mươi bảy.
 20006 [Kháng chiến] Năm một nghìn hai trăm tám mươi lăm, quân Đại Việt giành lại Thăng Long. Năm một nghìn hai trăm tám mươi tám, ông chỉ huy trận Bạch Đằng.
 20007 [Bạch Đằng] Quân Đại Việt cắm cọc gỗ nhọn dưới lòng sông. Khi thủy triều rút xuống, thuyền chiến của quân Nguyên mắc vào cọc và bị đánh tan.
 20008 [Cuối đời] Quân Nguyên thua nặng và phải rút về nước. Ông mất năm một nghìn ba trăm tại Vạn Kiếp, nay thuộc Chí Linh, tỉnh Hải Dương.

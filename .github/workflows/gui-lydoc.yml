@@ -5,7 +5,7 @@ on:
     paths: ['ke-hoach/thu-giong-hai/gui_lydoc.txt']
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   gui:
@@ -19,6 +19,7 @@ jobs:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          exec > >(tee gui_lydoc.log) 2>&1
           [ -z "$TG_CHAT" ] && TG_CHAT=$(cat telegram_chat_id.txt)
           TAG=$(head -1 ke-hoach/thu-giong-hai/gui_lydoc.txt)
           gh release download "$TAG" -p lydoc_video.mp4 -D .
@@ -32,3 +33,9 @@ jobs:
             echo "lần $i -> $code"; [ "$code" = 200 ] && exit 0; head -c 300 r.txt; sleep 5
           done
           exit 1
+      - name: Lưu log
+        if: always()
+        run: |
+          mkdir -p logs; cp gui_lydoc.log logs/gui_lydoc.log || true
+          git add logs/gui_lydoc.log; git -c user.email=actions@users.noreply.github.com -c user.name=bot commit -qm "log gửi video dọc [skip ci]" || exit 0
+          git pull --rebase -q; git push -q

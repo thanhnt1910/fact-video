@@ -70,5 +70,41 @@
   "tu": 32,
   "tu_moi_giay": 2.83,
   "chu": "WiFi có hai băng tần. Một băng đi xa hơn, một băng nhanh hơn. Càng xa router, sóng càng yếu. Trong nhà, sóng thường phủ khoảng ba mươi đến năm mươi mét."
+ },
+ "v7_s4": {
+  "giay": 9.56,
+  "tu": 28,
+  "tu_moi_giay": 2.93,
+  "chu": "Vì sóng lan ra ngoài nhà, dữ liệu phải được mã hóa. Mã hóa là xáo trộn dữ liệu, và mật khẩu WiFi là chìa để giải mã."
+ },
+ "v7_s5": {
+  "giay": 9.96,
+  "tu": 23,
+  "tu_moi_giay": 2.31,
+  "chu": "Có nhiều chuẩn bảo vệ WiFi. WPA2 là chuẩn phổ biến. WPA3 mới hơn, chống việc đoán mật khẩu ngoại tuyến tốt hơn."
+ },
+ "v7_s6": {
+  "giay": 8.76,
+  "tu": 26,
+  "tu_moi_giay": 2.97,
+  "chu": "WPA3 còn cho mỗi lần kết nối một chìa riêng. Nếu mật khẩu bị lộ sau này, dữ liệu gửi trước đó vẫn được giữ kín."
+ },
+ "v7_s7": {
+  "giay": 13.48,
+  "tu": 37,
+  "tu_moi_giay": 2.74,
+  "chu": "Mạng không mật khẩu hoặc chuẩn quá cũ thì bảo vệ rất yếu. Hãy dùng WPA3, hoặc WPA2 với mã hóa AES. Nếu router chỉ có chuẩn cũ, hãy nhờ nhà mạng nâng cấp hoặc thay router."
+ },
+ "v7_s8": {
+  "giay": 9.6,
+  "tu": 34,
+  "tu_moi_giay": 3.54,
+  "chu": "Mật khẩu nên là cụm năm đến bảy từ không liên quan, ít nhất mười sáu ký tự, và không dùng lại. Hãy vào cài đặt router để xem chuẩn bảo mật đang dùng."
+ },
+ "v7_s9": {
+  "giay": 3.64,
+  "tu": 13,
+  "tu_moi_giay": 3.57,
+  "chu": "Nhà bạn đang dùng chuẩn WiFi nào? Bình luận cho Bóng biết nhé!"
  }
 }

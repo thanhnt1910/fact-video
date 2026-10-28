@@ -543,11 +543,49 @@ const iconList = () => `<rect x="-54" y="-62" width="108" height="124" rx="14" f
 const iconNoCopy = () => `<rect x="-48" y="-44" width="62" height="78" rx="10" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="-14" y="-22" width="62" height="78" rx="10" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><line x1="-4" y1="-4" x2="38" y2="-4" stroke="#8A97A8" stroke-width="6" stroke-linecap="round"/><line x1="-4" y1="14" x2="38" y2="14" stroke="#8A97A8" stroke-width="6" stroke-linecap="round"/>${slash(56)}`;
 Object.assign(ICONS, { lock: iconLock, bug: iconBug, update: iconUpdate, updx: iconUpdateX, reset: iconReset, house: iconHouse, bedx: iconBedX, list: iconList, nocopy: iconNoCopy });
 
+const iconKey = () => `<circle cx="-22" cy="-6" r="28" fill="${YEL}" stroke="${NAVY}" stroke-width="7"/><circle cx="-22" cy="-6" r="9" fill="${NAVY}"/><rect x="2" y="-14" width="62" height="16" rx="6" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/><rect x="40" y="2" width="12" height="22" rx="3" fill="${NAVY}"/><rect x="56" y="2" width="10" height="16" rx="3" fill="${NAVY}"/>`;
+const iconScramble = () => `<rect x="-62" y="-44" width="124" height="88" rx="14" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><text x="0" y="14" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="46" fill="${NAVY}">#@%&amp;</text>`;
+Object.assign(ICONS, { key: iconKey, scramble: iconScramble });
+
 const X3 = [210, 540, 870], X4 = [165, 420, 675, 930], X5 = [120, 330, 540, 750, 960];
 const E = { mode: 'big', glow: true, wave: true, kind: 'end' };
 const Q = (a, b) => ({ mode: 'big', glow: true, wave: false, kind: 'q', q: [a, b] });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
+  7: [
+    G({ items: [
+      { ic: 'router', x: X3[0], y: 330, k: 0.95, label: 'Router|phát sóng', w: 'wifi' },
+      { ic: 'wifi', x: X3[1], y: 330, k: 0.95, label: 'Sóng lan|ra ngoài tường', w: 'sóng' },
+      { ic: 'person', x: X3[2], y: 330, k: 0.95, label: 'Người đứng|gần nhà', w: 'người' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { ic: 'router', x: X3[0], y: 330, k: 0.95, label: 'Router', w: 'router' },
+      { ic: 'wifi', x: X3[1], y: 330, k: 0.95, label: 'Sóng|vô tuyến', w: 'sóng' },
+      { ic: 'phone', x: X3[2], y: 330, k: 0.95, label: 'Điện thoại', w: 'điện' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { ic: 'wifi', x: X3[0], y: 330, k: 0.95, label: 'Đi xa|hơn', w: 'xa' },
+      { ic: 'wifi', x: X3[1], y: 330, k: 0.95, label: 'Nhanh|hơn', w: 'nhanh' },
+      { ic: 'ruler', x: X3[2], y: 330, k: 0.95, label: 'Khoảng 30 đến|50 mét', w: 'ba' }] }),
+    G({ items: [
+      { ic: 'scramble', x: X3[0], y: 330, k: 0.95, label: 'Dữ liệu|bị xáo trộn', w: 'xáo' },
+      { ic: 'lock', x: X3[1], y: 330, k: 0.95, label: 'Mật khẩu|WiFi', w: 'mật' },
+      { ic: 'key', x: X3[2], y: 330, k: 0.95, label: 'Chìa|giải mã', w: 'chìa' }], links: [[0, 1], [1, 2]] }),
+    G({ items: [
+      { pill: 'WPA2', x: 300, y: 700, k: 1, w: 'wpa2' },
+      { pill: 'WPA3', x: 780, y: 700, k: 1, w: 'wpa3' },
+      { ic: 'shield', x: 540, y: 300, k: 1.1, label: 'Chống đoán|mật khẩu', w: 'chống' }] }),
+    G({ items: [
+      { pill: 'WPA3', x: 540, y: 700, k: 1, w: 'wpa3' },
+      { ic: 'key', x: X3[0] + 80, y: 330, k: 0.95, label: 'Mỗi lần|một chìa riêng', w: 'chìa' },
+      { ic: 'lock', x: X3[2] - 80, y: 330, k: 0.95, label: 'Dữ liệu cũ|vẫn kín', w: 'kín' }], links: [[1, 2]] }),
+    G({ items: [
+      { ic: 'list', x: X3[0], y: 330, k: 0.95, label: 'Không mật khẩu|hoặc chuẩn cũ', w: 'không' },
+      { ic: 'shield', x: X3[1], y: 330, k: 0.95, label: 'WPA3 hoặc|WPA2 AES', w: 'wpa3' },
+      { ic: 'router', x: X3[2], y: 330, k: 0.95, label: 'Nâng cấp|hoặc thay', w: 'thay' }] }),
+    G({ items: [
+      { ic: 'lock', x: X3[0], y: 330, k: 0.95, label: 'Cụm 5 đến|7 từ', w: 'cụm' },
+      { pill: '16 ký tự', x: 540, y: 700, k: 0.9, w: 'mười' },
+      { ic: 'router', x: X3[2], y: 330, k: 0.95, label: 'Kiểm tra|chuẩn bảo mật', w: 'router' }] }),
+    E],
   1: [
     G({ items: [
       { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Camera|trong nhà', w: 'camera' },

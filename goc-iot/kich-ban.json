@@ -1,112 +1,132 @@
 {
- "giong": "Puck",
- "phat_am": {
-  "IoT": "ai ô ti",
-  "WiFi": "oai phai",
-  "Bluetooth": "blu tút",
-  "Zigbee": "zích bi",
-  "ESP32": "E ét pi ba mươi hai",
-  "Arduino": "Ác đu i nô",
-  "Internet of Things": "In tơ nét ốp Thinh",
-  "internet": "in tơ nét",
-  "Bóng": "Bóng",
-  "123456": "một hai ba bốn năm sáu",
-  "admin": "át min",
-  "Mirai": "Mi ra i"
- },
- "videos": [
-  {
-   "id": 1,
-   "slug": "camera-an-toan-ba-viec",
-   "title": "Camera nhà bạn có an toàn không? Ba việc cần làm",
-   "scenes": [
-    "Camera trong nhà giúp bạn yên tâm, nhưng nếu cài sai, hình ảnh gia đình bạn có thể bị người lạ xem. Có ba việc cần làm ngay.",
-    "Một, đổi mật khẩu mặc định. Nhiều thiết bị xuất xưởng có sẵn mật khẩu như admin hoặc 123456, in trong hướng dẫn và tra được trên mạng.",
-    "Kẻ xấu dùng chương trình tự động thử những mật khẩu này trên hàng loạt thiết bị. Năm 2016, phần mềm độc hại tên Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách đó.",
-    "Hãy đặt mật khẩu dài, không dùng lại ở nơi khác, và bật xác thực hai bước nếu ứng dụng có.",
-    "Hai, cập nhật phần mềm. Phần mềm trong camera cũng có lỗi, và hãng sửa lỗi bằng bản cập nhật. Hãy bật cập nhật tự động, hoặc kiểm tra trong ứng dụng vài tháng một lần.",
-    "Thiết bị quá cũ có thể không còn được hãng cập nhật. Đó là lúc nên nghĩ đến việc thay.",
-    "Ba, chọn chỗ đặt và người được xem. Không đặt camera trong phòng ngủ, phòng tắm hay nơi thay đồ. Xóa những người không còn cần khỏi danh sách được chia sẻ.",
-    "Khi bán hoặc cho lại camera, hãy khôi phục cài đặt gốc và xóa thiết bị khỏi tài khoản của bạn.",
-    "Bạn đã kiểm tra mật khẩu và danh sách người xem camera nhà mình chưa? Bình luận cho Bóng biết nhé!"
-   ]
+  "giong": "Puck",
+  "phat_am": {
+    "IoT": "ai ô ti",
+    "WiFi": "oai phai",
+    "Bluetooth": "blu tút",
+    "Zigbee": "zích bi",
+    "ESP32": "E ét pi ba mươi hai",
+    "Arduino": "Ác đu i nô",
+    "Internet of Things": "In tơ nét ốp Thinh",
+    "internet": "in tơ nét",
+    "Bóng": "Bóng",
+    "123456": "một hai ba bốn năm sáu",
+    "admin": "át min",
+    "Mirai": "Mi ra i",
+    "WPA2": "vê kép pê a hai",
+    "WPA3": "vê kép pê a ba",
+    "AES": "ây i ét",
+    "router": "ráu tơ"
   },
-  {
-   "id": 2,
-   "slug": "co-thiet-bi-la-trong-wifi",
-   "title": "Có thiết bị lạ trong WiFi nhà bạn không?",
-   "scenes": [
-    "Ai đang dùng WiFi nhà bạn ngay lúc này? Ngoài điện thoại và tivi của bạn, có thể còn thiết bị khác.",
-    "Bộ phát WiFi nào cũng giữ danh sách các thiết bị đang kết nối. Bạn xem được trong ứng dụng của nhà mạng, hoặc trang quản trị của bộ phát, địa chỉ thường in trên nhãn dưới thiết bị.",
-    "Hãy đếm thử: điện thoại, máy tính, tivi, camera, đồng hồ, loa thông minh, cả máy lọc không khí hay nồi cơm có ứng dụng.",
-    "Tên thiết bị trong danh sách đôi khi rất khó hiểu, ví dụ một dãy chữ và số. Cách dễ nhất là tắt từng thiết bị, rồi xem tên nào biến mất.",
-    "Nếu có thiết bị mà bạn không nhận ra, hãy đổi mật khẩu WiFi, rồi kết nối lại các thiết bị của nhà mình.",
-    "Nên đặt mật khẩu WiFi dài, và xem lại danh sách này vài tháng một lần.",
-    "Và hãy cập nhật phần mềm cho bộ phát WiFi, vì mọi thiết bị trong nhà đều đi qua nó.",
-    "Mỗi thiết bị kết nối mạng giống như một cánh cửa. Bạn nên biết cửa nào đang mở.",
-    "Bạn đếm được bao nhiêu thiết bị trong WiFi nhà mình? Bình luận cho Bóng biết nhé!"
-   ]
-  },
-  {
-   "id": 3,
-   "slug": "tach-wifi-cho-thiet-bi-thong-minh",
-   "title": "Tách WiFi riêng cho thiết bị thông minh",
-   "scenes": [
-    "Nếu một chiếc camera rẻ tiền bị chiếm quyền, các thiết bị khác trong nhà bạn có còn an toàn không?",
-    "Khi mọi thiết bị dùng chung một mạng WiFi, thiết bị bị chiếm quyền có thể dò tìm những thiết bị còn lại trong cùng mạng, như máy tính hay điện thoại.",
-    "Cách giảm rủi ro là tách mạng: máy tính và điện thoại dùng một mạng, còn thiết bị thông minh dùng một mạng riêng.",
-    "Nhiều bộ phát WiFi có sẵn tính năng mạng khách. Bạn chỉ cần bật lên, đặt tên và mật khẩu riêng. Mạng khách thường được tách khỏi mạng chính.",
-    "Sau đó nối camera, đèn, ổ cắm thông minh vào mạng khách, còn máy tính chứa dữ liệu quan trọng ở lại mạng chính.",
-    "Mạng khách cũng dùng được cho bạn bè đến chơi, để họ không cần biết mật khẩu mạng chính.",
-    "Lưu ý: một số thiết bị có thể không điều khiển được khi tách mạng. Nếu gặp lỗi, hãy xem hướng dẫn của hãng.",
-    "Bộ phát WiFi nhà bạn có mạng khách chưa? Bình luận cho Bóng biết nhé!"
-   ]
-  },
-  {
-   "id": 4,
-   "slug": "truoc-khi-mua-thiet-bi-thong-minh",
-   "title": "Trước khi mua thiết bị thông minh, hãy xem gì?",
-   "scenes": [
-    "Một chiếc ổ cắm hay camera thông minh giá rẻ rất hấp dẫn. Nhưng giá rẻ đôi khi đi kèm rủi ro. Trước khi mua, hãy kiểm tra bốn điều.",
-    "Một, hãng là ai. Chọn hãng có tên tuổi, có trang web và thông tin liên hệ rõ ràng, để còn nơi hỏi khi có sự cố.",
-    "Hai, hãng hỗ trợ cập nhật phần mềm trong bao lâu. Thiết bị không còn được cập nhật sẽ ngày càng dễ bị tấn công.",
-    "Ba, ứng dụng xin quyền gì. Một chiếc đèn không cần xem danh bạ hay vị trí của bạn. Nếu ứng dụng xin quá nhiều quyền, hãy cân nhắc.",
-    "Bốn, có đổi được mật khẩu và bật được xác thực hai bước không. Thiết bị chỉ cho dùng mật khẩu mặc định thì nên tránh.",
-    "Hãy đọc đánh giá của người dùng, đặc biệt là những đánh giá nói về ứng dụng và chuyện cập nhật.",
-    "Và hãy tự hỏi: thiết bị này có thật sự cần kết nối mạng không? Không phải thứ gì cũng cần thông minh.",
-    "Lần mua thiết bị thông minh gần nhất, bạn có kiểm tra những điều này không? Bình luận cho Bóng biết nhé!"
-   ]
-  },
-  {
-   "id": 5,
-   "slug": "loa-thong-minh-nghe-va-luu-gi",
-   "title": "Loa thông minh nghe gì và lưu gì?",
-   "scenes": [
-    "Bạn nói một câu, và loa thông minh trả lời. Vậy nó có đang nghe mọi thứ trong nhà bạn không?",
-    "Loa thông minh luôn chờ một từ khóa đánh thức, thường là tên của trợ lý. Nghe thấy từ khóa, nó mới bắt đầu xử lý yêu cầu của bạn. Tuy vậy, đôi khi loa nghe nhầm và tự kích hoạt.",
-    "Yêu cầu của bạn thường được gửi lên máy chủ của hãng để xử lý, và nhiều hãng lưu lại lịch sử.",
-    "Bạn có thể vào ứng dụng của loa để xem và xóa lịch sử này. Nhiều ứng dụng còn cho đặt tự động xóa sau một thời gian.",
-    "Hầu hết loa có nút tắt micro, thường có đèn báo. Hãy dùng khi nói chuyện riêng tư.",
-    "Đừng đặt loa ở nơi bạn hay nói chuyện nhạy cảm. Nếu loa cho mua hàng bằng giọng nói, hãy bật mã xác nhận.",
-    "Giống camera, hãy đặt mật khẩu mạnh và bật xác thực hai bước cho tài khoản gắn với loa.",
-    "Bạn đã từng xem lịch sử mà loa thông minh lưu chưa? Bình luận cho Bóng biết nhé!"
-   ]
-  },
-  {
-   "id": 6,
-   "slug": "du-lieu-di-dau-dam-may-la-gi",
-   "title": "Dữ liệu đi đâu? Đám mây là gì?",
-   "scenes": [
-    "Bạn đi du lịch xa mà vẫn xem được nhiệt độ trong nhà. Con số đó đi đường nào?",
-    "Đầu tiên, cảm biến trong nhà đo nhiệt độ, và thiết bị gửi con số đó qua WiFi.",
-    "Từ WiFi, dữ liệu đi qua internet đến một máy chủ của hãng sản xuất. Máy chủ này gọi là đám mây.",
-    "Thực ra đám mây không nằm trên trời. Đó là những máy tính của một công ty, đặt trong trung tâm dữ liệu ở nơi khác.",
-    "Máy chủ lưu con số lại, rồi gửi về ứng dụng trên điện thoại bạn, dù bạn đang ở đâu.",
-    "Nhờ vậy bạn xem được từ xa, xem lại lịch sử, và thiết bị còn nhận được bản cập nhật phần mềm.",
-    "Nhưng cũng cần nhớ: mất internet thì nhiều thiết bị không điều khiển từ xa được, và dữ liệu của bạn nằm ở công ty đó.",
-    "Để bảo vệ dữ liệu trên đám mây: bật xác thực hai bước, xem những thiết bị đang đăng nhập vào tài khoản nếu ứng dụng có, và xóa tài khoản hoặc dữ liệu khi không dùng thiết bị nữa.",
-    "Bạn có lo dữ liệu của mình trên đám mây không? Bình luận cho Bóng biết nhé!"
-   ]
-  }
- ]
+  "videos": [
+    {
+      "id": 1,
+      "slug": "camera-an-toan-ba-viec",
+      "title": "Camera nhà bạn có an toàn không? Ba việc cần làm",
+      "scenes": [
+        "Camera trong nhà giúp bạn yên tâm, nhưng nếu cài sai, hình ảnh gia đình bạn có thể bị người lạ xem. Có ba việc cần làm ngay.",
+        "Một, đổi mật khẩu mặc định. Nhiều thiết bị xuất xưởng có sẵn mật khẩu như admin hoặc 123456, in trong hướng dẫn và tra được trên mạng.",
+        "Kẻ xấu dùng chương trình tự động thử những mật khẩu này trên hàng loạt thiết bị. Năm 2016, phần mềm độc hại tên Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách đó.",
+        "Hãy đặt mật khẩu dài, không dùng lại ở nơi khác, và bật xác thực hai bước nếu ứng dụng có.",
+        "Hai, cập nhật phần mềm. Phần mềm trong camera cũng có lỗi, và hãng sửa lỗi bằng bản cập nhật. Hãy bật cập nhật tự động, hoặc kiểm tra trong ứng dụng vài tháng một lần.",
+        "Thiết bị quá cũ có thể không còn được hãng cập nhật. Đó là lúc nên nghĩ đến việc thay.",
+        "Ba, chọn chỗ đặt và người được xem. Không đặt camera trong phòng ngủ, phòng tắm hay nơi thay đồ. Xóa những người không còn cần khỏi danh sách được chia sẻ.",
+        "Khi bán hoặc cho lại camera, hãy khôi phục cài đặt gốc và xóa thiết bị khỏi tài khoản của bạn.",
+        "Bạn đã kiểm tra mật khẩu và danh sách người xem camera nhà mình chưa? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "co-thiet-bi-la-trong-wifi",
+      "title": "Có thiết bị lạ trong WiFi nhà bạn không?",
+      "scenes": [
+        "Ai đang dùng WiFi nhà bạn ngay lúc này? Ngoài điện thoại và tivi của bạn, có thể còn thiết bị khác.",
+        "Bộ phát WiFi nào cũng giữ danh sách các thiết bị đang kết nối. Bạn xem được trong ứng dụng của nhà mạng, hoặc trang quản trị của bộ phát, địa chỉ thường in trên nhãn dưới thiết bị.",
+        "Hãy đếm thử: điện thoại, máy tính, tivi, camera, đồng hồ, loa thông minh, cả máy lọc không khí hay nồi cơm có ứng dụng.",
+        "Tên thiết bị trong danh sách đôi khi rất khó hiểu, ví dụ một dãy chữ và số. Cách dễ nhất là tắt từng thiết bị, rồi xem tên nào biến mất.",
+        "Nếu có thiết bị mà bạn không nhận ra, hãy đổi mật khẩu WiFi, rồi kết nối lại các thiết bị của nhà mình.",
+        "Nên đặt mật khẩu WiFi dài, và xem lại danh sách này vài tháng một lần.",
+        "Và hãy cập nhật phần mềm cho bộ phát WiFi, vì mọi thiết bị trong nhà đều đi qua nó.",
+        "Mỗi thiết bị kết nối mạng giống như một cánh cửa. Bạn nên biết cửa nào đang mở.",
+        "Bạn đếm được bao nhiêu thiết bị trong WiFi nhà mình? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "tach-wifi-cho-thiet-bi-thong-minh",
+      "title": "Tách WiFi riêng cho thiết bị thông minh",
+      "scenes": [
+        "Nếu một chiếc camera rẻ tiền bị chiếm quyền, các thiết bị khác trong nhà bạn có còn an toàn không?",
+        "Khi mọi thiết bị dùng chung một mạng WiFi, thiết bị bị chiếm quyền có thể dò tìm những thiết bị còn lại trong cùng mạng, như máy tính hay điện thoại.",
+        "Cách giảm rủi ro là tách mạng: máy tính và điện thoại dùng một mạng, còn thiết bị thông minh dùng một mạng riêng.",
+        "Nhiều bộ phát WiFi có sẵn tính năng mạng khách. Bạn chỉ cần bật lên, đặt tên và mật khẩu riêng. Mạng khách thường được tách khỏi mạng chính.",
+        "Sau đó nối camera, đèn, ổ cắm thông minh vào mạng khách, còn máy tính chứa dữ liệu quan trọng ở lại mạng chính.",
+        "Mạng khách cũng dùng được cho bạn bè đến chơi, để họ không cần biết mật khẩu mạng chính.",
+        "Lưu ý: một số thiết bị có thể không điều khiển được khi tách mạng. Nếu gặp lỗi, hãy xem hướng dẫn của hãng.",
+        "Bộ phát WiFi nhà bạn có mạng khách chưa? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "truoc-khi-mua-thiet-bi-thong-minh",
+      "title": "Trước khi mua thiết bị thông minh, hãy xem gì?",
+      "scenes": [
+        "Một chiếc ổ cắm hay camera thông minh giá rẻ rất hấp dẫn. Nhưng giá rẻ đôi khi đi kèm rủi ro. Trước khi mua, hãy kiểm tra bốn điều.",
+        "Một, hãng là ai. Chọn hãng có tên tuổi, có trang web và thông tin liên hệ rõ ràng, để còn nơi hỏi khi có sự cố.",
+        "Hai, hãng hỗ trợ cập nhật phần mềm trong bao lâu. Thiết bị không còn được cập nhật sẽ ngày càng dễ bị tấn công.",
+        "Ba, ứng dụng xin quyền gì. Một chiếc đèn không cần xem danh bạ hay vị trí của bạn. Nếu ứng dụng xin quá nhiều quyền, hãy cân nhắc.",
+        "Bốn, có đổi được mật khẩu và bật được xác thực hai bước không. Thiết bị chỉ cho dùng mật khẩu mặc định thì nên tránh.",
+        "Hãy đọc đánh giá của người dùng, đặc biệt là những đánh giá nói về ứng dụng và chuyện cập nhật.",
+        "Và hãy tự hỏi: thiết bị này có thật sự cần kết nối mạng không? Không phải thứ gì cũng cần thông minh.",
+        "Lần mua thiết bị thông minh gần nhất, bạn có kiểm tra những điều này không? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "loa-thong-minh-nghe-va-luu-gi",
+      "title": "Loa thông minh nghe gì và lưu gì?",
+      "scenes": [
+        "Bạn nói một câu, và loa thông minh trả lời. Vậy nó có đang nghe mọi thứ trong nhà bạn không?",
+        "Loa thông minh luôn chờ một từ khóa đánh thức, thường là tên của trợ lý. Nghe thấy từ khóa, nó mới bắt đầu xử lý yêu cầu của bạn. Tuy vậy, đôi khi loa nghe nhầm và tự kích hoạt.",
+        "Yêu cầu của bạn thường được gửi lên máy chủ của hãng để xử lý, và nhiều hãng lưu lại lịch sử.",
+        "Bạn có thể vào ứng dụng của loa để xem và xóa lịch sử này. Nhiều ứng dụng còn cho đặt tự động xóa sau một thời gian.",
+        "Hầu hết loa có nút tắt micro, thường có đèn báo. Hãy dùng khi nói chuyện riêng tư.",
+        "Đừng đặt loa ở nơi bạn hay nói chuyện nhạy cảm. Nếu loa cho mua hàng bằng giọng nói, hãy bật mã xác nhận.",
+        "Giống camera, hãy đặt mật khẩu mạnh và bật xác thực hai bước cho tài khoản gắn với loa.",
+        "Bạn đã từng xem lịch sử mà loa thông minh lưu chưa? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "du-lieu-di-dau-dam-may-la-gi",
+      "title": "Dữ liệu đi đâu? Đám mây là gì?",
+      "scenes": [
+        "Bạn đi du lịch xa mà vẫn xem được nhiệt độ trong nhà. Con số đó đi đường nào?",
+        "Đầu tiên, cảm biến trong nhà đo nhiệt độ, và thiết bị gửi con số đó qua WiFi.",
+        "Từ WiFi, dữ liệu đi qua internet đến một máy chủ của hãng sản xuất. Máy chủ này gọi là đám mây.",
+        "Thực ra đám mây không nằm trên trời. Đó là những máy tính của một công ty, đặt trong trung tâm dữ liệu ở nơi khác.",
+        "Máy chủ lưu con số lại, rồi gửi về ứng dụng trên điện thoại bạn, dù bạn đang ở đâu.",
+        "Nhờ vậy bạn xem được từ xa, xem lại lịch sử, và thiết bị còn nhận được bản cập nhật phần mềm.",
+        "Nhưng cũng cần nhớ: mất internet thì nhiều thiết bị không điều khiển từ xa được, và dữ liệu của bạn nằm ở công ty đó.",
+        "Để bảo vệ dữ liệu trên đám mây: bật xác thực hai bước, xem những thiết bị đang đăng nhập vào tài khoản nếu ứng dụng có, và xóa tài khoản hoặc dữ liệu khi không dùng thiết bị nữa.",
+        "Bạn có lo dữ liệu của mình trên đám mây không? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "wifi-hoat-dong-the-nao",
+      "title": "WiFi hoạt động thế nào, vì sao cần mật khẩu",
+      "scenes": [
+        "WiFi gửi dữ liệu qua không khí. Sóng không dừng ở bức tường, nên người đứng gần nhà cũng có thể bắt được tín hiệu.",
+        "Router đổi dữ liệu thành sóng vô tuyến. Điện thoại nhận sóng rồi đổi lại thành dữ liệu, và chiều ngược lại cũng vậy.",
+        "WiFi có hai băng tần. Một băng đi xa hơn, một băng nhanh hơn. Càng xa router, sóng càng yếu. Trong nhà, sóng thường phủ khoảng ba mươi đến năm mươi mét.",
+        "Vì sóng lan ra ngoài nhà, dữ liệu phải được mã hóa. Mã hóa là xáo trộn dữ liệu, và mật khẩu WiFi là chìa để giải mã.",
+        "Có nhiều chuẩn bảo vệ WiFi. WPA2 là chuẩn phổ biến. WPA3 mới hơn, chống việc đoán mật khẩu ngoại tuyến tốt hơn.",
+        "WPA3 còn cho mỗi lần kết nối một chìa riêng. Nếu mật khẩu bị lộ sau này, dữ liệu gửi trước đó vẫn được giữ kín.",
+        "Mạng không mật khẩu hoặc chuẩn quá cũ thì bảo vệ rất yếu. Hãy dùng WPA3, hoặc WPA2 với mã hóa AES. Nếu router chỉ có chuẩn cũ, hãy nhờ nhà mạng nâng cấp hoặc thay router.",
+        "Mật khẩu nên là cụm năm đến bảy từ không liên quan, ít nhất mười sáu ký tự, và không dùng lại. Hãy vào cài đặt router để xem chuẩn bảo mật đang dùng.",
+        "Nhà bạn đang dùng chuẩn WiFi nào? Bình luận cho Bóng biết nhé!"
+      ]
+    }
+  ]
 }

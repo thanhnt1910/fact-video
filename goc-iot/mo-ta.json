@@ -1,38 +1,44 @@
 [
- {
-  "id": 1,
-  "tieu_de": "Camera nhà bạn có an toàn không? Ba việc cần làm",
-  "mo_ta": "Camera trong nhà giúp bạn yên tâm, nhưng nếu cài sai, hình ảnh gia đình có thể bị người lạ xem. Ba việc cần làm ngay:\n\n1. Đổi mật khẩu mặc định. Mật khẩu như admin hay 123456 in trong hướng dẫn và tra được trên mạng. Năm 2016, phần mềm độc hại Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách này. Hãy đặt mật khẩu dài, không dùng lại, và bật xác thực hai bước nếu có.\n\n2. Cập nhật phần mềm. Hãng sửa lỗi bằng bản cập nhật, nên hãy bật cập nhật tự động hoặc kiểm tra vài tháng một lần. Thiết bị quá cũ có thể không còn được hỗ trợ.\n\n3. Chọn chỗ đặt và người được xem. Không đặt camera trong phòng ngủ, phòng tắm. Xóa người không còn cần khỏi danh sách chia sẻ. Khi bán hoặc cho lại camera, khôi phục cài đặt gốc.\n\nBạn đã kiểm tra mật khẩu và danh sách người xem camera nhà mình chưa?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #Camera #MatKhau"
- },
- {
-  "id": 2,
-  "tieu_de": "Có thiết bị lạ trong WiFi nhà bạn không?",
-  "mo_ta": "Ai đang dùng WiFi nhà bạn ngay lúc này? Ngoài điện thoại và tivi của bạn, có thể còn thiết bị khác.\n\nBộ phát WiFi nào cũng giữ danh sách các thiết bị đang kết nối. Bạn xem được trong ứng dụng của nhà mạng, hoặc trang quản trị của bộ phát.\n\nTên thiết bị đôi khi khó hiểu. Cách dễ nhất là tắt từng thiết bị, rồi xem tên nào biến mất.\n\nNếu có thiết bị lạ, hãy đổi mật khẩu WiFi rồi kết nối lại các thiết bị của nhà mình. Nên xem lại danh sách vài tháng một lần.\n\nBạn đếm được bao nhiêu thiết bị trong WiFi nhà mình?\n\nHãy cập nhật cả phần mềm của bộ phát WiFi, vì mọi thiết bị đều đi qua nó.",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #WiFi"
- },
- {
-  "id": 3,
-  "tieu_de": "Tách WiFi riêng cho thiết bị thông minh",
-  "mo_ta": "Nếu một chiếc camera rẻ tiền bị chiếm quyền, các thiết bị khác trong nhà bạn có còn an toàn không?\n\nKhi mọi thiết bị dùng chung một mạng WiFi, thiết bị bị chiếm quyền có thể dò tìm những thiết bị còn lại trong cùng mạng.\n\nCách giảm rủi ro là tách mạng. Nhiều bộ phát WiFi có sẵn tính năng mạng khách: bật lên, đặt tên và mật khẩu riêng. Hãy nối camera, đèn, ổ cắm thông minh vào mạng khách, còn máy tính chứa dữ liệu quan trọng ở lại mạng chính.\n\nLưu ý: một số thiết bị có thể không điều khiển được khi tách mạng. Nếu gặp lỗi, hãy xem hướng dẫn của hãng.\n\nBộ phát WiFi nhà bạn có mạng khách chưa?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #WiFi #MangKhach"
- },
- {
-  "id": 4,
-  "tieu_de": "Trước khi mua thiết bị thông minh, hãy xem gì?",
-  "mo_ta": "Một chiếc ổ cắm hay camera thông minh giá rẻ rất hấp dẫn, nhưng giá rẻ đôi khi đi kèm rủi ro. Trước khi mua, hãy kiểm tra bốn điều:\n\n1. Hãng là ai: chọn hãng có tên tuổi, thông tin liên hệ rõ ràng.\n2. Hãng hỗ trợ cập nhật phần mềm trong bao lâu.\n3. Ứng dụng xin quyền gì: một chiếc đèn không cần xem danh bạ hay vị trí của bạn.\n4. Có đổi được mật khẩu và bật xác thực hai bước không.\n\nHãy đọc đánh giá của người dùng, và tự hỏi thiết bị này có thật sự cần kết nối mạng không.\n\nLần mua thiết bị thông minh gần nhất, bạn có kiểm tra những điều này không?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #MuaSam"
- },
- {
-  "id": 5,
-  "tieu_de": "Loa thông minh nghe gì và lưu gì?",
-  "mo_ta": "Bạn nói một câu, và loa thông minh trả lời. Vậy nó có đang nghe mọi thứ trong nhà bạn không?\n\nLoa luôn chờ một từ khóa đánh thức, nghe thấy mới xử lý yêu cầu. Tuy vậy, đôi khi loa nghe nhầm và tự kích hoạt. Yêu cầu của bạn thường được gửi lên máy chủ của hãng, và nhiều hãng lưu lại lịch sử.\n\nBạn nên:\n- Vào ứng dụng của loa để xem và xóa lịch sử.\n- Dùng nút tắt micro khi nói chuyện riêng tư.\n- Bật mã xác nhận nếu loa cho mua hàng bằng giọng nói.\n- Đặt mật khẩu mạnh, bật xác thực hai bước cho tài khoản gắn với loa.\n\nBạn đã từng xem lịch sử mà loa thông minh lưu chưa?",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #LoaThongMinh #RiengTu"
- },
- {
-  "id": 6,
-  "tieu_de": "Dữ liệu đi đâu? Đám mây là gì?",
-  "mo_ta": "Bạn đi du lịch xa mà vẫn xem được nhiệt độ trong nhà. Con số đó đi đường nào?\n\nCảm biến đo nhiệt độ, thiết bị gửi con số qua WiFi, rồi qua internet đến máy chủ của hãng. Máy chủ này gọi là đám mây. Thực ra đám mây chỉ là máy tính của một công ty, đặt trong trung tâm dữ liệu ở nơi khác. Máy chủ lưu con số rồi gửi về ứng dụng trên điện thoại bạn.\n\nLợi ích: xem từ xa, xem lại lịch sử, nhận cập nhật phần mềm. Cần nhớ: mất internet thì nhiều thiết bị không điều khiển từ xa được, và dữ liệu nằm ở công ty cung cấp.\n\nĐể bảo vệ dữ liệu: bật xác thực hai bước, xem những thiết bị đang đăng nhập vào tài khoản nếu ứng dụng có, và xóa tài khoản hoặc dữ liệu khi không dùng thiết bị nữa.\n\nBạn có lo dữ liệu của mình trên đám mây không? Bình luận cho Bóng biết nhé!",
-  "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #DamMay #DuLieu"
- }
+  {
+    "id": 1,
+    "tieu_de": "Camera nhà bạn có an toàn không? Ba việc cần làm",
+    "mo_ta": "Camera trong nhà giúp bạn yên tâm, nhưng nếu cài sai, hình ảnh gia đình có thể bị người lạ xem. Ba việc cần làm ngay:\n\n1. Đổi mật khẩu mặc định. Mật khẩu như admin hay 123456 in trong hướng dẫn và tra được trên mạng. Năm 2016, phần mềm độc hại Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách này. Hãy đặt mật khẩu dài, không dùng lại, và bật xác thực hai bước nếu có.\n\n2. Cập nhật phần mềm. Hãng sửa lỗi bằng bản cập nhật, nên hãy bật cập nhật tự động hoặc kiểm tra vài tháng một lần. Thiết bị quá cũ có thể không còn được hỗ trợ.\n\n3. Chọn chỗ đặt và người được xem. Không đặt camera trong phòng ngủ, phòng tắm. Xóa người không còn cần khỏi danh sách chia sẻ. Khi bán hoặc cho lại camera, khôi phục cài đặt gốc.\n\nBạn đã kiểm tra mật khẩu và danh sách người xem camera nhà mình chưa?",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #Camera #MatKhau"
+  },
+  {
+    "id": 2,
+    "tieu_de": "Có thiết bị lạ trong WiFi nhà bạn không?",
+    "mo_ta": "Ai đang dùng WiFi nhà bạn ngay lúc này? Ngoài điện thoại và tivi của bạn, có thể còn thiết bị khác.\n\nBộ phát WiFi nào cũng giữ danh sách các thiết bị đang kết nối. Bạn xem được trong ứng dụng của nhà mạng, hoặc trang quản trị của bộ phát.\n\nTên thiết bị đôi khi khó hiểu. Cách dễ nhất là tắt từng thiết bị, rồi xem tên nào biến mất.\n\nNếu có thiết bị lạ, hãy đổi mật khẩu WiFi rồi kết nối lại các thiết bị của nhà mình. Nên xem lại danh sách vài tháng một lần.\n\nBạn đếm được bao nhiêu thiết bị trong WiFi nhà mình?\n\nHãy cập nhật cả phần mềm của bộ phát WiFi, vì mọi thiết bị đều đi qua nó.",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #WiFi"
+  },
+  {
+    "id": 3,
+    "tieu_de": "Tách WiFi riêng cho thiết bị thông minh",
+    "mo_ta": "Nếu một chiếc camera rẻ tiền bị chiếm quyền, các thiết bị khác trong nhà bạn có còn an toàn không?\n\nKhi mọi thiết bị dùng chung một mạng WiFi, thiết bị bị chiếm quyền có thể dò tìm những thiết bị còn lại trong cùng mạng.\n\nCách giảm rủi ro là tách mạng. Nhiều bộ phát WiFi có sẵn tính năng mạng khách: bật lên, đặt tên và mật khẩu riêng. Hãy nối camera, đèn, ổ cắm thông minh vào mạng khách, còn máy tính chứa dữ liệu quan trọng ở lại mạng chính.\n\nLưu ý: một số thiết bị có thể không điều khiển được khi tách mạng. Nếu gặp lỗi, hãy xem hướng dẫn của hãng.\n\nBộ phát WiFi nhà bạn có mạng khách chưa?",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #WiFi #MangKhach"
+  },
+  {
+    "id": 4,
+    "tieu_de": "Trước khi mua thiết bị thông minh, hãy xem gì?",
+    "mo_ta": "Một chiếc ổ cắm hay camera thông minh giá rẻ rất hấp dẫn, nhưng giá rẻ đôi khi đi kèm rủi ro. Trước khi mua, hãy kiểm tra bốn điều:\n\n1. Hãng là ai: chọn hãng có tên tuổi, thông tin liên hệ rõ ràng.\n2. Hãng hỗ trợ cập nhật phần mềm trong bao lâu.\n3. Ứng dụng xin quyền gì: một chiếc đèn không cần xem danh bạ hay vị trí của bạn.\n4. Có đổi được mật khẩu và bật xác thực hai bước không.\n\nHãy đọc đánh giá của người dùng, và tự hỏi thiết bị này có thật sự cần kết nối mạng không.\n\nLần mua thiết bị thông minh gần nhất, bạn có kiểm tra những điều này không?",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #MuaSam"
+  },
+  {
+    "id": 5,
+    "tieu_de": "Loa thông minh nghe gì và lưu gì?",
+    "mo_ta": "Bạn nói một câu, và loa thông minh trả lời. Vậy nó có đang nghe mọi thứ trong nhà bạn không?\n\nLoa luôn chờ một từ khóa đánh thức, nghe thấy mới xử lý yêu cầu. Tuy vậy, đôi khi loa nghe nhầm và tự kích hoạt. Yêu cầu của bạn thường được gửi lên máy chủ của hãng, và nhiều hãng lưu lại lịch sử.\n\nBạn nên:\n- Vào ứng dụng của loa để xem và xóa lịch sử.\n- Dùng nút tắt micro khi nói chuyện riêng tư.\n- Bật mã xác nhận nếu loa cho mua hàng bằng giọng nói.\n- Đặt mật khẩu mạnh, bật xác thực hai bước cho tài khoản gắn với loa.\n\nBạn đã từng xem lịch sử mà loa thông minh lưu chưa?",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #BaoMat #LoaThongMinh #RiengTu"
+  },
+  {
+    "id": 6,
+    "tieu_de": "Dữ liệu đi đâu? Đám mây là gì?",
+    "mo_ta": "Bạn đi du lịch xa mà vẫn xem được nhiệt độ trong nhà. Con số đó đi đường nào?\n\nCảm biến đo nhiệt độ, thiết bị gửi con số qua WiFi, rồi qua internet đến máy chủ của hãng. Máy chủ này gọi là đám mây. Thực ra đám mây chỉ là máy tính của một công ty, đặt trong trung tâm dữ liệu ở nơi khác. Máy chủ lưu con số rồi gửi về ứng dụng trên điện thoại bạn.\n\nLợi ích: xem từ xa, xem lại lịch sử, nhận cập nhật phần mềm. Cần nhớ: mất internet thì nhiều thiết bị không điều khiển từ xa được, và dữ liệu nằm ở công ty cung cấp.\n\nĐể bảo vệ dữ liệu: bật xác thực hai bước, xem những thiết bị đang đăng nhập vào tài khoản nếu ứng dụng có, và xóa tài khoản hoặc dữ liệu khi không dùng thiết bị nữa.\n\nBạn có lo dữ liệu của mình trên đám mây không? Bình luận cho Bóng biết nhé!",
+    "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #DamMay #DuLieu"
+  },
+  {
+    "id": 7,
+    "tieu_de": "WiFi hoạt động thế nào, vì sao cần mật khẩu",
+    "mo_ta": "WiFi truyền dữ liệu bằng sóng vô tuyến, và sóng lan cả ra ngoài tường. Vì vậy dữ liệu được mã hóa, và mật khẩu WiFi là chìa để giải mã.\n\n- WPA3 mới hơn WPA2, chống việc đoán mật khẩu ngoại tuyến tốt hơn và cho mỗi lần kết nối một chìa riêng.\n- Hãy dùng WPA3, hoặc WPA2 với mã hóa AES. Tránh mạng không mật khẩu và chuẩn quá cũ.\n- Mật khẩu nên là cụm 5 đến 7 từ không liên quan, ít nhất 16 ký tự, không dùng lại.\n\nVào cài đặt router để xem chuẩn bảo mật nhà bạn đang dùng.\n\nNguồn: CISA (Securing Your Home Wi-Fi), Malwarebytes (What is WPA3), HelpDeskGeek (How Does WiFi Work).",
+    "hashtag": "#GocIoT #WiFi #AnToanSo #BaoMat #Router"
+  }
 ]

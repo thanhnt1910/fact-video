@@ -2,7 +2,7 @@
 
 Mở đầu bằng cảnh năm 1285 (có thật, kể ở chương Kháng chiến). Nguồn thứ cấp, cần đối chiếu Đại Việt sử ký toàn thư.
 
-20001 [Mở đầu] Năm một nghìn hai trăm tám mươi lăm, quân Nguyên áp sát Thăng Long, triều đình bàn chuyện hàng. Trần Hưng Đạo tâu: muốn hàng thì xin chém đầu ông trước.
+20001 [Mở đầu] Năm một nghìn hai trăm tám mươi lăm, quân Nguyên áp sát Thăng Long, triều đình bàn chuyện hàng. Trần Hưng Đạo tâu rằng, muốn hàng thì xin chém đầu ông trước.
 20002 [Xuất thân] Ông là ai mà dám nói như vậy? Ông tên thật là Trần Quốc Tuấn, sinh năm một nghìn hai trăm hai mươi tám theo nhiều tài liệu.
 20003 [Xuất thân] Ông thuộc hoàng tộc nhà Trần, là con của Trần Liễu. Theo Toàn thư, cha ông dặn lấy ngôi vua để báo thù, nhưng ông không làm theo.
 20004 [Chức vụ] Ông giữ chức Quốc công Tiết chế, chỉ huy toàn bộ quân đội nhà Trần, và viết Hịch tướng sĩ kêu gọi các tướng quyết chiến.

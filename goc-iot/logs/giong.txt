@@ -1,12 +1,28 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-v7_s4 lần 1: 9.56s, 2.93 từ/giây
+v8_s1 lần 1: 4.48s, 3.79 từ/giây
+v8_s1 lần 2: 4.40s, 3.86 từ/giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v8_s1 lần 3: 3.88s, 4.38 từ/giây
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v7_s5 lần 1: 9.96s, 2.31 từ/giây
+v8_s2 lần 1: 6.92s, 3.61 từ/giây
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v7_s6 lần 1: 8.76s, 2.97 từ/giây
-v7_s7 lần 1: 13.48s, 2.74 từ/giây
+v8_s2 lần 2: 7.04s, 3.55 từ/giây
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-v7_s8 lần 1: 9.60s, 3.54 từ/giây
-v7_s9 lần 1: 3.64s, 3.57 từ/giây
-Cảnh tốc độ lạ (cần nghe lại): không có
+v8_s3 lần 1: 5.52s, 3.62 từ/giây
+v8_s3 lần 2: 5.68s, 3.52 từ/giây
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v8_s4 lần 1: 10.52s, 3.23 từ/giây
+v8_s5 lần 1: 11.44s, 2.80 từ/giây
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v8_s6 lần 1: 6.04s, 3.31 từ/giây
+v8_s7 lần 1: 8.60s, 3.60 từ/giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v8_s7 lần 2: 8.44s, 3.67 từ/giây
+v8_s7 lần 3: 8.52s, 3.64 từ/giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v8_s8 lần 1: 9.44s, 3.28 từ/giây
+v8_s9 lần 1: 4.68s, 3.85 từ/giây
+v8_s9 lần 2: 4.72s, 3.81 từ/giây
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+v8_s9 lần 3: 4.68s, 3.85 từ/giây
+Cảnh tốc độ lạ (cần nghe lại): ['v8_s1', 'v8_s7', 'v8_s9']

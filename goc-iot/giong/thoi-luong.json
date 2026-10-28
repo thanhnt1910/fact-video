@@ -106,5 +106,59 @@
   "tu": 13,
   "tu_moi_giay": 3.57,
   "chu": "Nhà bạn đang dùng chuẩn WiFi nào? Bình luận cho Bóng biết nhé!"
+ },
+ "v8_s1": {
+  "giay": 4.48,
+  "tu": 17,
+  "tu_moi_giay": 3.79,
+  "chu": "Điều gì xảy ra nếu máy chủ đám mây của thiết bị trong nhà bạn bị sập?"
+ },
+ "v8_s2": {
+  "giay": 7.04,
+  "tu": 25,
+  "tu_moi_giay": 3.55,
+  "chu": "Hãy xem đường đi của một lệnh. Bạn bấm vào ứng dụng, lệnh bay lên đám mây, rồi mới quay về thiết bị trong nhà."
+ },
+ "v8_s3": {
+  "giay": 5.68,
+  "tu": 20,
+  "tu_moi_giay": 3.52,
+  "chu": "Nếu đám mây sập, lệnh không đi được nữa. Có thiết bị sẽ đứng yên ở cài đặt cuối cùng."
+ },
+ "v8_s4": {
+  "giay": 10.52,
+  "tu": 34,
+  "tu_moi_giay": 3.23,
+  "chu": "Chuyện này đã xảy ra. Ngày hai mươi tháng mười năm hai nghìn không trăm hai mươi lăm, giờ Mỹ, một trung tâm dữ liệu của Amazon ở bang Virginia gặp sự cố lớn."
+ },
+ "v8_s5": {
+  "giay": 11.44,
+  "tu": 32,
+  "tu_moi_giay": 2.8,
+  "chu": "Giường thông minh Eight Sleep, giá khoảng hai nghìn đô la, cần mạng liên tục. Theo báo chí, có giường nóng quá, có giường ngừng làm mát, có giường không phản hồi."
+ },
+ "v8_s6": {
+  "giay": 6.04,
+  "tu": 20,
+  "tu_moi_giay": 3.31,
+  "chu": "Lý do là ứng dụng không nối được với đám mây, nên giường chỉ còn giữ cài đặt cuối cùng."
+ },
+ "v8_s7": {
+  "giay": 8.6,
+  "tu": 31,
+  "tu_moi_giay": 3.6,
+  "chu": "Sau đó người đứng đầu hãng nói sẽ làm việc suốt ngày đêm để tạo chế độ khi mất mạng. Báo chí đưa tin hãng đã ra mắt chế độ này."
+ },
+ "v8_s8": {
+  "giay": 9.44,
+  "tu": 31,
+  "tu_moi_giay": 3.28,
+  "chu": "Bạn làm được gì? Trước khi mua, hãy hỏi nếu mất mạng thì thiết bị còn điều khiển được tại chỗ không. Khóa cửa nên có thêm chìa cơ dự phòng."
+ },
+ "v8_s9": {
+  "giay": 4.72,
+  "tu": 18,
+  "tu_moi_giay": 3.81,
+  "chu": "Nhà bạn có thiết bị nào sẽ ngừng chạy khi mất mạng? Bình luận cho Bóng biết nhé!"
  }
 }

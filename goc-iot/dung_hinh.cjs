@@ -343,7 +343,7 @@ function armPose(side, local, pts, lay, bounce) {
     if (w > bw) { bw = w; best = p; }
   }
   if (!best || bw < 0.001) return { w: 0 };
-  const tx = (best.x - 540) / lay.s + 400, ty = (best.y - (lay.cy + bounce)) / lay.s + 400;
+  const tx = (best.x - (540 + (lay.ox || 0))) / lay.s + 400, ty = (best.y - (lay.cy + bounce)) / lay.s + 400;
   const vx = tx - S[0], vy = ty - S[1];
   const dist = Math.hypot(vx, vy);
   let d = [vx / dist + side * 0.7, vy / dist];
@@ -371,7 +371,9 @@ function bong(t, wave, lay, glow, pts, local) {
   const px = 3 * Math.sin(t * 0.9);
   const rayOp = 0.55 + 0.45 * Math.sin(t * 3);
   const hop = Math.abs(Math.sin(t * Math.PI * 1.4));
-  const bounce = -22 * hop * (lay.s / 1.25);
+  const ox = lay.ox || 0, vel = lay.vel || 0, sp = Math.min(1, Math.abs(vel) / 260);
+  const jump = lay.jump || 0;
+  const bounce = (-22 * hop - 30 * sp * hop - 90 * jump) * (lay.s / 1.25);
   const sc = lay.s;
   const aL = armPose(-1, local, pts, lay, bounce), aR = armPose(1, local, pts, lay, bounce);
   const mix = (a, b, w) => [lerp(a[0], b[0], w), lerp(a[1], b[1], w)];
@@ -384,11 +386,15 @@ function bong(t, wave, lay, glow, pts, local) {
   const wr = 1 - aR.w;
   const mouthBottom = 375 + 27.5 * m;
   const tongue = m > 0.55 ? `<ellipse cx="400" cy="${(mouthBottom - 9).toFixed(1)}" rx="14" ry="${(7 * m).toFixed(1)}" fill="#FF8A8A"/>` : '';
-  const tr = `translate(540 ${lay.cy.toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)`;
+  const tr = `translate(${(540 + ox).toFixed(1)} ${lay.cy.toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)`;
   const shadow = `<g transform="${tr}"><ellipse cx="425" cy="700" rx="${(110 - 16 * hop).toFixed(1)}" ry="14" fill="${NAVY}" fill-opacity="0.2"/></g>`;
   const glowEl = glow ? `<g transform="${tr}"><circle cx="400" cy="330" r="${(215 + 22 * Math.sin(t * 3)).toFixed(1)}" fill="#FFF6C2" fill-opacity="0.32"/></g>` : '';
-  const body = `
-<g transform="translate(540 ${(lay.cy + bounce).toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)" fill="none">
+  const tilt = Math.max(-14, Math.min(14, vel * 0.05)) + 3 * Math.sin(t * 5) * sp;
+  const feetY = lay.cy + 300 * sc;
+  const dust = [0, 1, 2].map((k) => { const ph = (t * 2.2 + k / 3) % 1; const dir = vel >= 0 ? -1 : 1; return sp > 0.15 ? `<circle cx="${(540 + ox + dir * (30 + ph * 90)).toFixed(1)}" cy="${(feetY - 10 - ph * 40).toFixed(1)}" r="${(10 + ph * 26) * sc}" fill="#FFFFFF" fill-opacity="${((1 - ph) * 0.4 * sp).toFixed(2)}"/>` : ''; }).join('');
+  const lines = sp > 0.3 ? [0, 1, 2].map((k) => { const dir = vel >= 0 ? -1 : 1; const y = lay.cy - 120 + k * 90; return `<line x1="${(540 + ox + dir * 190 * sc).toFixed(1)}" y1="${y}" x2="${(540 + ox + dir * (190 + 90 * sp) * sc).toFixed(1)}" y2="${y}" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="8" stroke-linecap="round"/>`; }).join('') : '';
+  const body = dust + lines + `
+<g transform="rotate(${tilt.toFixed(2)} ${(540 + ox).toFixed(1)} ${feetY.toFixed(1)}) translate(${(540 + ox).toFixed(1)} ${(lay.cy + bounce).toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)" fill="none">
 <g stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-opacity="${rayOp.toFixed(2)}">
 <line x1="400" y1="150" x2="400" y2="116"/><line x1="269" y1="199" x2="246" y2="176"/>
 <line x1="531" y1="199" x2="554" y2="176"/><line x1="215" y1="330" x2="183" y2="330"/></g>
@@ -429,7 +435,18 @@ ${tongue}
 <path d="M250 410 L256 428 L274 434 L256 440 L250 458 L244 440 L226 434 L244 428 Z" fill="#FFFFFF" fill-opacity="${(0.5 + 0.5 * Math.sin(t * 4)).toFixed(2)}"/>
 <path d="M590 485 L594 497 L606 501 L594 505 L590 517 L586 505 L574 501 L586 497 Z" fill="#FFFFFF" fill-opacity="${(0.5 + 0.5 * Math.sin(t * 4 + 2)).toFixed(2)}"/>
 </g>`;
-  return shadow + glowEl + body;
+  let burst = '';
+  for (const p of pts) {
+    const q = local - p.a;
+    if (q < 0 || q > 0.6) continue;
+    const k = q / 0.6;
+    for (let j = 0; j < 7; j++) {
+      const ang = j / 7 * Math.PI * 2 + 0.4, r = 30 + 90 * k, sz = 14 * (1 - k);
+      const cx = p.x + Math.cos(ang) * r, cy = p.y + Math.sin(ang) * r;
+      burst += `<path d="M${cx} ${cy - sz} L${cx + sz * 0.3} ${cy - sz * 0.3} L${cx + sz} ${cy} L${cx + sz * 0.3} ${cy + sz * 0.3} L${cx} ${cy + sz} L${cx - sz * 0.3} ${cy + sz * 0.3} L${cx - sz} ${cy} L${cx - sz * 0.3} ${cy - sz * 0.3} Z" fill="${j % 2 ? '#FFFFFF' : YEL}" fill-opacity="${(1 - k).toFixed(2)}"/>`;
+    }
+  }
+  return shadow + glowEl + body + burst;
 }
 
 function subtitle(fullText, local, dur, key) {
@@ -472,6 +489,32 @@ function subtitle(fullText, local, dur, key) {
     return `<text x="540" y="${top + pad + i * lh + 54}" text-anchor="middle" font-family="${FONT}" font-weight="700" font-size="56">${spans}</text>`;
   }).join('\n');
   return `<g opacity="${a.toFixed(2)}"><rect x="50" y="${top}" width="980" height="${boxH}" rx="36" fill="${NAVY}" fill-opacity="0.92"/>${tx}</g>`;
+}
+
+const oxMemo = {};
+function oxAt(idx, local) {
+  const sc = scenes[idx];
+  const pts = (sc.pts || []).slice().sort((a, b) => a.a - b.a);
+  const start = idx > 0 ? oxEnd(idx - 1) : 0;
+  const kf = [[0, start]];
+  if (!pts.length) kf.push([0.9, (idx % 2 ? 1 : -1) * 190]);
+  else {
+    let lastT = 0;
+    for (const p of pts) {
+      const tt = Math.max(lastT + 0.25, p.a + 0.15);
+      kf.push([tt, Math.max(-300, Math.min(300, (p.x - 540) * 0.6))]);
+      lastT = tt;
+    }
+    kf.push([Math.max(lastT + 0.6, pts[pts.length - 1].b + 0.6), (idx % 2 ? 1 : -1) * 120]);
+  }
+  let v = kf[kf.length - 1][1];
+  if (local <= 0) v = kf[0][1];
+  else for (let i = 0; i < kf.length - 1; i++) if (local < kf[i + 1][0]) { v = lerp(kf[i][1], kf[i + 1][1], smooth((local - kf[i][0]) / (kf[i + 1][0] - kf[i][0]))); break; }
+  return v + 22 * Math.sin(local * 1.7 + idx);
+}
+function oxEnd(idx) {
+  if (oxMemo[idx] === undefined) oxMemo[idx] = oxAt(idx, scenes[idx].t1 - scenes[idx].t0);
+  return oxMemo[idx];
 }
 
 function layoutAt(t, idx, local) {
@@ -680,7 +723,9 @@ function frameSVG(f) {
   const lw = sc.old ? local * sc.old / (sc.t1 - sc.t0) : local;
   const lay = layoutAt(t, idx, local);
   const entry = t < 0.7 ? Math.max(0.01, easeOutBack(t / 0.7)) : 1;
-  const lay2 = { cy: lay.cy, s: lay.s * entry };
+  const ox = oxAt(idx, lw), vel = (oxAt(idx, lw + 0.04) - oxAt(idx, Math.max(0, lw - 0.04))) / 0.08;
+  const jump = idx > 0 && local < 0.5 ? Math.sin(Math.PI * local / 0.5) : 0;
+  const lay2 = { cy: lay.cy, s: lay.s * entry, ox, vel, jump };
   let bok = '';
   for (let i = 0; i < 14; i++) {
     const x = (i * 163 + 60) % 1080;
@@ -695,7 +740,7 @@ function frameSVG(f) {
 <path d="M0 1380 H130 L190 1440 H330"/><path d="M1080 1330 H950 L890 1390 H760"/>
 <path d="M0 1800 H260 L320 1860 H520"/><path d="M1080 1780 H820 L760 1840"/></g>
 ${bok}
-<circle cx="540" cy="${lay.cy.toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
+<circle cx="${(540 + lay2.ox * 0.5).toFixed(1)}" cy="${lay.cy.toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
 ${gfx(sc.gfx, lw, t, sc)}
 ${bong(t, sc.wave, lay2, sc.glow, sc.pts || [], lw)}
 ${subtitle(sc.text, local, sc.t1 - sc.t0, sc.key)}

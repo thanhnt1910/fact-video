@@ -1,9 +1,9 @@
 $ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
 cao độ trung vị 152 Hz
-tốc độ trung vị 3.54 chữ/giây
-đoạn đã chỉnh tốc độ: 105 / 134
-âm lượng sau chuẩn hóa: -15.6 đến -15.2 LUFS
-tổng thời lượng giọng 12.72 phút
+tốc độ trung vị 3.73 chữ/giây
+đoạn đã chỉnh tốc độ: 112 / 134
+âm lượng sau chuẩn hóa: -15.8 đến -15.2 LUFS
+tổng thời lượng giọng 12.36 phút
 
 $ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
 0 134
@@ -15,69 +15,12 @@ $ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/th
 120 134
 xong 134
 
-$ python phim_ban_do/kiem_ngoai.py ly1 -> 1
-❌ 18040 khớp 70%
-❌ 18044 thừa 'ca mong' ở cuối
-❌ 18092 khớp 57%
-❌ 18120 thừa 'song gia' ở cuối
-130/134 câu sạch
-
-$ python thu_giong_hai_cum.py ke-hoach/thu-giong-hai/ly1_full.json Puck assets/thu_giong_hai 1 -> 0
-   [khóa] GEMINI_API_KEY: …8www
-   [khóa] GEMINI_API_KEY_2: …fACw
-   [khóa] GEMINI_API_KEY_3: …Ag8A
-   [khóa] GEMINI_API_KEY_4: …mplw
-   [khóa] GEMINI_API_KEY_5: …Qp4A
-   [khóa] GEMINI_API_KEY_6: …pPaA
-   [khóa] GEMINI_API_KEY_7: …g7rQ
-   [khóa] GEMINI_API_KEY_8: …DmvQ
-   [khóa] GEMINI_API_KEY_9: …2eGQ
-   [khóa] GEMINI_API_KEY_10: trống
-   [khóa] GEMINI_API_KEY_11: trống
-   [khóa] GEMINI_API_KEY_12: trống
-   [khóa] GEMINI_API_KEYS: trống
-còn thiếu 4 câu
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 18040 - 18040 4.4 giây
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 59m35s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK cụm 18044 - 18044 2.8 giây
-OK cụm 18092 - 18092 4.0 giây
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 59m28s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK cụm 18120 - 18120 6.6 giây
-
-$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
-cao độ trung vị 152 Hz
-tốc độ trung vị 3.55 chữ/giây
-đoạn đã chỉnh tốc độ: 106 / 134
-âm lượng sau chuẩn hóa: -15.6 đến -15.2 LUFS
-tổng thời lượng giọng 12.69 phút
-
-$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
-0 134
-20 134
-40 134
-60 134
-80 134
-100 134
-120 134
-xong 134
-
-$ python phim_ban_do/kiem_ngoai.py ly1 -> 1
-❌ 18040 khớp 64%
-133/134 câu sạch
+$ python phim_ban_do/kiem_ngoai.py ly1 -> 0
+134/134 câu sạch
 
 # Tự kiểm giọng ly1
 
-## Vòng 1: 4 đoạn nghi lỗi
-- 18040: khớp 70%
-- 18044: thừa 'ca mong' ở cuối
-- 18092: khớp 57%
-- 18120: thừa 'song gia' ở cuối
-(đã đọc lại 4 đoạn riêng; thoát mã 0)
-## Vòng 2: 1 đoạn nghi lỗi
-- 18040: khớp 64%
+## Vòng 1: 0 đoạn nghi lỗi
 
 ## Kết quả cuối
-Còn nghi lỗi (có thể do nhận dạng nghe nhầm, nên nghe lại): 18040 (khớp 64%)
+Sạch.

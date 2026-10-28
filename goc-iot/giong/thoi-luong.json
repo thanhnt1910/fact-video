@@ -1,1 +1,56 @@
-{}
+{
+ "v1_s1": {
+  "giay": 8.08,
+  "tu": 28,
+  "tu_moi_giay": 3.47,
+  "chu": "Camera trong nhà giúp bạn yên tâm, nhưng nếu cài sai, hình ảnh gia đình bạn có thể bị người lạ xem. Có ba việc cần làm ngay."
+ },
+ "v1_s2": {
+  "giay": 8.76,
+  "tu": 28,
+  "tu_moi_giay": 3.2,
+  "chu": "Một, đổi mật khẩu mặc định. Nhiều thiết bị xuất xưởng có sẵn mật khẩu như admin hoặc 123456, in trong hướng dẫn và tra được trên mạng."
+ },
+ "v1_s3": {
+  "giay": 13.4,
+  "tu": 39,
+  "tu_moi_giay": 2.91,
+  "chu": "Kẻ xấu dùng chương trình tự động thử những mật khẩu này trên hàng loạt thiết bị. Năm 2016, phần mềm độc hại tên Mirai đã chiếm quyền hàng trăm nghìn camera và thiết bị mạng theo cách đó."
+ },
+ "v1_s4": {
+  "giay": 6.08,
+  "tu": 21,
+  "tu_moi_giay": 3.45,
+  "chu": "Hãy đặt mật khẩu dài, không dùng lại ở nơi khác, và bật xác thực hai bước nếu ứng dụng có."
+ },
+ "v1_s5": {
+  "giay": 10.28,
+  "tu": 36,
+  "tu_moi_giay": 3.5,
+  "chu": "Hai, cập nhật phần mềm. Phần mềm trong camera cũng có lỗi, và hãng sửa lỗi bằng bản cập nhật. Hãy bật cập nhật tự động, hoặc kiểm tra trong ứng dụng vài tháng một lần."
+ },
+ "v1_s6": {
+  "giay": 5.88,
+  "tu": 20,
+  "tu_moi_giay": 3.4,
+  "chu": "Thiết bị quá cũ có thể không còn được hãng cập nhật. Đó là lúc nên nghĩ đến việc thay."
+ },
+ "v1_s7": {
+  "giay": 10.48,
+  "tu": 32,
+  "tu_moi_giay": 3.05,
+  "chu": "Ba, chọn chỗ đặt và người được xem. Không đặt camera trong phòng ngủ, phòng tắm hay nơi thay đồ. Xóa những người không còn cần khỏi danh sách được chia sẻ."
+ },
+ "v1_s8": {
+  "giay": 6.08,
+  "tu": 21,
+  "tu_moi_giay": 3.45,
+  "chu": "Khi bán hoặc cho lại camera, hãy khôi phục cài đặt gốc và xóa thiết bị khỏi tài khoản của bạn."
+ },
+ "v1_s9": {
+  "giay": 5.8,
+  "tu": 21,
+  "tu_moi_giay": 3.62,
+  "chu": "Bạn đã kiểm tra mật khẩu và danh sách người xem camera nhà mình chưa? Bình luận cho Bóng biết nhé!"
+ }
+}

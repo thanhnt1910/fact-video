@@ -346,7 +346,7 @@ function armPose(side, local, pts, lay, bounce) {
     if (w > bw) { bw = w; best = p; }
   }
   if (!best || bw < 0.001) return { w: 0 };
-  const tx = (best.x - (540 + (lay.ox || 0))) / lay.s + 400, ty = (best.y - (lay.cy + bounce)) / lay.s + 400;
+  const tx = (best.x - (540 + (lay.ox || 0))) / lay.s + 400, ty = (best.y - (lay.cy + (lay.oy || 0) + bounce)) / lay.s + 400;
   const vx = tx - S[0], vy = ty - S[1];
   const dist = Math.hypot(vx, vy);
   let d = [vx / dist + side * 0.7, vy / dist];
@@ -376,6 +376,8 @@ function bong(t, wave, lay, glow, pts, local) {
   const hop = Math.abs(Math.sin(t * Math.PI * 1.4));
   const ox = lay.ox || 0, vel = lay.vel || 0, sp = Math.min(1, Math.abs(vel) / 260);
   const jump = lay.jump || 0;
+  const oy = lay.oy || 0, rot = lay.rot || 0;
+  const cyy = lay.cy + oy;
   const bounce = (-22 * hop - 30 * sp * hop - 90 * jump) * (lay.s / 1.25);
   const sc = lay.s;
   const aL = armPose(-1, local, pts, lay, bounce), aR = armPose(1, local, pts, lay, bounce);
@@ -389,15 +391,17 @@ function bong(t, wave, lay, glow, pts, local) {
   const wr = 1 - aR.w;
   const mouthBottom = 375 + 27.5 * m;
   const tongue = m > 0.55 ? `<ellipse cx="400" cy="${(mouthBottom - 9).toFixed(1)}" rx="14" ry="${(7 * m).toFixed(1)}" fill="#FF8A8A"/>` : '';
-  const tr = `translate(${(540 + ox).toFixed(1)} ${lay.cy.toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)`;
+  const tr = `translate(${(540 + ox).toFixed(1)} ${cyy.toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)`;
   const shadow = `<g transform="${tr}"><ellipse cx="425" cy="700" rx="${(110 - 16 * hop).toFixed(1)}" ry="14" fill="${NAVY}" fill-opacity="0.2"/></g>`;
   const glowEl = glow ? `<g transform="${tr}"><circle cx="400" cy="330" r="${(215 + 22 * Math.sin(t * 3)).toFixed(1)}" fill="#FFF6C2" fill-opacity="0.32"/></g>` : '';
   const tilt = Math.max(-14, Math.min(14, vel * 0.05)) + 3 * Math.sin(t * 5) * sp;
-  const feetY = lay.cy + 300 * sc;
+  const feetY = cyy + 300 * sc;
+  const sq = Math.max(0, 1 - hop) ** 3, sy = 1 - 0.08 * sq + 0.05 * hop * (1 + sp), sx = 1 / sy;
+  const fx = 540 + ox;
   const dust = [0, 1, 2].map((k) => { const ph = (t * 2.2 + k / 3) % 1; const dir = vel >= 0 ? -1 : 1; return sp > 0.15 ? `<circle cx="${(540 + ox + dir * (30 + ph * 90)).toFixed(1)}" cy="${(feetY - 10 - ph * 40).toFixed(1)}" r="${(10 + ph * 26) * sc}" fill="#FFFFFF" fill-opacity="${((1 - ph) * 0.4 * sp).toFixed(2)}"/>` : ''; }).join('');
   const lines = sp > 0.3 ? [0, 1, 2].map((k) => { const dir = vel >= 0 ? -1 : 1; const y = lay.cy - 120 + k * 90; return `<line x1="${(540 + ox + dir * 190 * sc).toFixed(1)}" y1="${y}" x2="${(540 + ox + dir * (190 + 90 * sp) * sc).toFixed(1)}" y2="${y}" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="8" stroke-linecap="round"/>`; }).join('') : '';
-  const body = dust + lines + `
-<g transform="rotate(${tilt.toFixed(2)} ${(540 + ox).toFixed(1)} ${feetY.toFixed(1)}) translate(${(540 + ox).toFixed(1)} ${(lay.cy + bounce).toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)" fill="none">
+  const body = dust + lines + `<g transform="rotate(${rot.toFixed(1)} ${fx.toFixed(1)} ${(cyy + bounce).toFixed(1)})"><g transform="translate(${fx.toFixed(1)} ${feetY.toFixed(1)}) scale(${sx.toFixed(3)} ${sy.toFixed(3)}) translate(${(-fx).toFixed(1)} ${(-feetY).toFixed(1)})">
+<g transform="rotate(${tilt.toFixed(2)} ${(540 + ox).toFixed(1)} ${feetY.toFixed(1)}) translate(${(540 + ox).toFixed(1)} ${(cyy + bounce).toFixed(1)}) scale(${sc.toFixed(3)}) translate(-400 -400)" fill="none">
 <g stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-opacity="${rayOp.toFixed(2)}">
 <line x1="400" y1="150" x2="400" y2="116"/><line x1="269" y1="199" x2="246" y2="176"/>
 <line x1="531" y1="199" x2="554" y2="176"/><line x1="215" y1="330" x2="183" y2="330"/></g>
@@ -437,7 +441,7 @@ ${tongue}
 <path d="M614 332 Q632 346 628 374"/><path d="M632 314 Q662 342 652 382"/></g>
 <path d="M250 410 L256 428 L274 434 L256 440 L250 458 L244 440 L226 434 L244 428 Z" fill="#FFFFFF" fill-opacity="${(0.5 + 0.5 * Math.sin(t * 4)).toFixed(2)}"/>
 <path d="M590 485 L594 497 L606 501 L594 505 L590 517 L586 505 L574 501 L586 497 Z" fill="#FFFFFF" fill-opacity="${(0.5 + 0.5 * Math.sin(t * 4 + 2)).toFixed(2)}"/>
-</g>`;
+</g></g></g>`;
   let burst = '';
   for (const p of pts) {
     const q = local - p.a;
@@ -625,6 +629,73 @@ const ANIMS = {
     if (s(2) > 0) o += `<g transform="translate(870 370) rotate(${(s(2) * 120).toFixed(1)})"><circle cx="0" cy="0" r="136" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-dasharray="40 30" stroke-opacity="0.8"/></g>`;
     return o;
   },
+
+  camflow(local, it) {
+    const t = local - it[1].t - 0.2; if (t < 0) return '';
+    let o = '';
+    for (let k = 0; k < 3; k++) {
+      const u = ((t * 0.3) + k / 3) % 1, x = lerp(210, 870, u);
+      o += `<g transform="translate(${x.toFixed(1)} 190)"><rect x="-30" y="-22" width="60" height="44" rx="8" fill="#FFFFFF" stroke="${NAVY}" stroke-width="4"/><circle cx="-10" cy="-6" r="6" fill="${YEL}"/><path d="M-26 18 L-8 0 L4 12 L14 2 L26 18 Z" fill="#35C9B8"/></g>`;
+    }
+    const e = local - it[2].t - 0.3;
+    if (e > 0) o += `<circle cx="870" cy="370" r="${(130 + 10 * Math.sin(e * 6)).toFixed(1)}" fill="none" stroke="${RED}" stroke-width="8" stroke-opacity="${(0.45 + 0.4 * Math.sin(e * 6)).toFixed(2)}"/>`;
+    return o;
+  },
+  tries(local, it) {
+    const t = local - it[0].t - 0.3; if (t < 0) return '';
+    const words = ['1234', 'qwerty', 'admin', '0000', 'password', '123456', 'abc123', 'admin'];
+    let o = '';
+    for (const side of [0, 1]) {
+      const idx = Math.floor(t * 6 + side * 3) % words.length, w = words[idx], hit = w === 'admin' || w === '123456';
+      const x = side ? 880 : 200;
+      o += `<g transform="translate(${x} 380)"><rect x="-110" y="-34" width="220" height="68" rx="34" fill="${hit ? RED : '#FFFFFF'}" stroke="${NAVY}" stroke-width="5"/><text x="0" y="12" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="36" fill="${hit ? '#FFFFFF' : NAVY}">${w}</text></g>`;
+    }
+    return o;
+  },
+  infect(local, it) {
+    const t = local - it[0].t - 0.2; if (t < 0) return '';
+    let o = `<text x="540" y="140" text-anchor="middle" font-family="${FONT}" font-weight="700" font-size="30" fill="#FFFFFF" fill-opacity="0.85">Bị chiếm quyền lần lượt</text>`;
+    for (let i = 0; i < 11; i++) {
+      const x = 130 + i * 82, bad = t * 3.2 > i + 1, sc = easeOutBack((t * 3 - i * 0.3) / 0.4);
+      if (sc <= 0) continue;
+      o += `<g transform="translate(${x} 205) scale(${sc.toFixed(2)})"><rect x="-27" y="-20" width="54" height="40" rx="9" fill="${bad ? RED : '#FFFFFF'}" stroke="${NAVY}" stroke-width="4"/><circle cx="0" cy="0" r="11" fill="${bad ? '#FFFFFF' : NAVY}"/></g>`;
+    }
+    return o;
+  },
+  strength(local, it) {
+    const t = local - it[0].t - 0.2; if (t < 0) return '';
+    const p = Math.min(1, t / 3.2), col = p < 0.34 ? RED : p < 0.7 ? YEL : '#3DDC84';
+    const n = Math.round(p * 16);
+    return `<text x="540" y="150" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="44" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7" paint-order="stroke">${'•'.repeat(n)}</text><rect x="240" y="180" width="600" height="26" rx="13" fill="${NAVY}" fill-opacity="0.35"/><rect x="240" y="180" width="${(600 * p).toFixed(1)}" height="26" rx="13" fill="${col}"/>`;
+  },
+  progress(local, it) {
+    const t = local - it[2].t - 0.2; if (t < 0) return '';
+    const p = Math.min(1, (t * 0.35) % 1.3), done = p >= 1;
+    return `<rect x="240" y="190" width="600" height="26" rx="13" fill="${NAVY}" fill-opacity="0.35"/><rect x="240" y="190" width="${(600 * Math.min(1, p)).toFixed(1)}" height="26" rx="13" fill="${done ? '#3DDC84' : YEL}"/><text x="540" y="172" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="30" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6" paint-order="stroke">${done ? 'Đã cập nhật' : 'Đang cập nhật ' + Math.round(p * 100) + '%'}</text>`;
+  },
+  drain(local, it) {
+    const t = local - it[0].t - 0.2; if (t < 0) return '';
+    const p = Math.max(0, 1 - t / 3.4);
+    return `<text x="540" y="140" text-anchor="middle" font-family="${FONT}" font-weight="800" font-size="34" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6" paint-order="stroke">Hãng còn hỗ trợ</text><rect x="240" y="170" width="600" height="30" rx="15" fill="${NAVY}" fill-opacity="0.35"/><rect x="240" y="170" width="${(600 * p).toFixed(1)}" height="30" rx="15" fill="${p > 0.4 ? '#3DDC84' : RED}"/>`;
+  },
+  pulse2(local, it) {
+    let o = '';
+    const a = local - it[0].t - 0.4, b = local - it[1].t - 0.4;
+    if (a > 0) o += ringsAt(300, 370, 125, 190, 1.4, a, 2, RED, 0.6);
+    if (b > 0) o += ringsAt(780, 370, 125, 190, 1.4, b, 2, YEL, 0.6);
+    return o;
+  },
+  wipe(local, it) {
+    const t = local - it[0].t - 0.3; if (t < 0) return '';
+    let o = '';
+    for (let k = 0; k < 4; k++) {
+      const u = ((t * 0.3) + k / 4) % 1, x = lerp(210, 540, u), op = 1 - smooth((u - 0.6) / 0.4);
+      o += `<g opacity="${op.toFixed(2)}" transform="translate(${x.toFixed(1)} 690)"><rect x="-26" y="-18" width="52" height="36" rx="8" fill="#FFFFFF" stroke="${NAVY}" stroke-width="4"/></g>`;
+    }
+    const q = local - it[1].t - 0.3;
+    if (q > 0) o += `<g transform="translate(540 370) rotate(${(q * 140).toFixed(1)})"><circle cx="0" cy="0" r="136" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-dasharray="40 30" stroke-opacity="0.8"/></g>`;
+    return o;
+  },
   chips(local, it) {
     const t0 = it[0].t; if (local < t0) return '';
     const words = ['cam', 'mưa', 'sông', 'đèn', 'gió'];
@@ -678,38 +749,38 @@ const DEFS = {
       { ic: 'router', x: 780, y: 520, k: 0.85, label: 'Kiểm tra|chuẩn bảo mật', w: 'router' }] }),
     E],
   1: [
-    G({ items: [
+    G({ anim: 'camflow', items: [
       { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Camera|trong nhà', w: 'camera' },
       { ic: 'house', x: X3[1], y: 330, k: 0.95, label: 'Hình ảnh|gia đình', w: 'gia' },
       { ic: 'eye', x: X3[2], y: 330, k: 0.95, label: 'Người lạ xem', w: 'người' },
       { pill: '3 việc cần làm', x: 540, y: 700, k: 1, w: 'ba' }], links: [[0, 1], [1, 2]] }),
-    G({ title: 'Việc 1: Đổi mật khẩu mặc định', titleSize: 54, items: [
+    G({ anim: 'tries', title: 'Việc 1: Đổi mật khẩu mặc định', titleSize: 54, items: [
       { ic: 'lock', x: 540, y: 300, k: 1.25, label: 'Mật khẩu|mặc định', w: 'mật' },
       { pill: 'admin', x: 270, y: 700, k: 0.9, w: 'admin' },
       { pill: '123456', x: 810, y: 700, k: 0.9, w: '123456' }] }),
-    G({ items: [
+    G({ anim: 'infect', items: [
       { ic: 'bug', x: X3[0], y: 330, k: 0.95, label: 'Chương trình|tự động thử', w: 'chương' },
       { ic: 'camera', x: X3[1], y: 330, k: 0.95, label: 'Hàng loạt|thiết bị', w: 'hàng' },
       { pill: '2016', x: 300, y: 700, k: 0.9, w: 'năm' },
       { pill: 'Mirai', x: 780, y: 700, k: 0.9, w: 'mirai' },
       { ic: 'camera', x: X3[2], y: 330, k: 0.95, label: 'Hàng trăm nghìn|camera', w: 'hàng' }], links: [[0, 1]] }),
-    G({ items: [
+    G({ anim: 'strength', items: [
       { ic: 'lock', x: X3[0], y: 330, k: 0.95, label: 'Mật khẩu|dài', w: 'mật' },
       { ic: 'nocopy', x: X3[1], y: 330, k: 0.95, label: 'Không dùng lại|ở nơi khác', w: 'không' },
       { ic: 'shield', x: X3[2], y: 330, k: 0.95, label: 'Xác thực|hai bước', w: 'xác' }] }),
-    G({ title: 'Việc 2: Cập nhật phần mềm', titleSize: 54, items: [
+    G({ anim: 'progress', title: 'Việc 2: Cập nhật phần mềm', titleSize: 54, items: [
       { ic: 'bug', x: X3[0], y: 300, k: 0.85, label: 'Phần mềm|có lỗi', w: 'lỗi' },
       { ic: 'shield', x: X3[1], y: 300, k: 0.85, label: 'Hãng sửa lỗi', w: 'sửa' },
       { ic: 'update', x: X3[2], y: 300, k: 0.85, label: 'Bản cập nhật', w: 'bản' },
       { pill: 'Bật tự động', x: 540, y: 700, k: 1, w: 'tự' }], links: [[0, 1], [1, 2]] }),
-    G({ items: [
+    G({ anim: 'drain', items: [
       { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Thiết bị|quá cũ', w: 'thiết' },
       { ic: 'updx', x: X3[1], y: 330, k: 0.95, label: 'Hết cập nhật', w: 'cập' },
       { ic: 'camera', x: X3[2], y: 330, k: 0.95, label: 'Nên thay mới', w: 'thay' }], links: [[0, 1], [1, 2]] }),
-    G({ title: 'Việc 3: Chỗ đặt và người xem', titleSize: 54, items: [
+    G({ anim: 'pulse2', title: 'Việc 3: Chỗ đặt và người xem', titleSize: 54, items: [
       { ic: 'bedx', x: 300, y: 330, k: 1.1, label: 'Phòng ngủ,|phòng tắm', w: 'phòng' },
       { ic: 'list', x: 780, y: 330, k: 1.1, label: 'Xóa người|không còn cần', w: 'xóa' }] }),
-    G({ items: [
+    G({ anim: 'wipe', items: [
       { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Bán hoặc|cho lại', w: 'camera' },
       { ic: 'reset', x: X3[1], y: 330, k: 0.95, label: 'Khôi phục|cài đặt gốc', w: 'khôi' },
       { ic: 'person', x: X3[2], y: 330, k: 0.95, label: 'Xóa khỏi|tài khoản', w: 'tài' }], links: [[0, 1], [1, 2]] }),
@@ -854,7 +925,14 @@ function frameSVG(f) {
   const entry = t < 0.7 ? Math.max(0.01, easeOutBack(t / 0.7)) : 1;
   const ox = oxAt(idx, lw), vel = (oxAt(idx, lw + 0.04) - oxAt(idx, Math.max(0, lw - 0.04))) / 0.08;
   const jump = idx > 0 && local < 0.5 ? Math.sin(Math.PI * local / 0.5) : 0;
-  const lay2 = { cy: lay.cy, s: lay.s * entry, ox, vel, jump };
+  const st = idx % 4;
+  let oy = 0, rot = 0;
+  if (st === 1) oy = -35 + 38 * Math.sin(local * 1.7);
+  else if (st === 2) { oy = 10 * Math.sin(local * 2.2); rot = 10 * Math.sin(local * 3.6); }
+  else if (st === 3) { oy = 38 * Math.cos(local * 1.2) - 12; rot = 5 * Math.sin(local * 2.4); }
+  if (idx % 3 === 1 && local < 0.9) rot += 360 * smooth(local / 0.9);
+  oy = Math.max(-70, Math.min(70, oy));
+  const lay2 = { cy: lay.cy, s: lay.s * entry, ox, vel, jump: jump * (idx % 3 === 1 ? 1.6 : 1), oy, rot };
   let bok = '';
   for (let i = 0; i < 14; i++) {
     const x = (i * 163 + 60) % 1080;
@@ -869,7 +947,7 @@ function frameSVG(f) {
 <path d="M0 1380 H130 L190 1440 H330"/><path d="M1080 1330 H950 L890 1390 H760"/>
 <path d="M0 1800 H260 L320 1860 H520"/><path d="M1080 1780 H820 L760 1840"/></g>
 ${bok}
-<circle cx="${(540 + lay2.ox * 0.5).toFixed(1)}" cy="${lay.cy.toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
+<circle cx="${(540 + lay2.ox * 0.5).toFixed(1)}" cy="${(lay.cy + lay2.oy * 0.6).toFixed(1)}" r="${ringR.toFixed(1)}" fill="#2DB8A8"/>
 ${gfx(sc.gfx, lw, t, sc)}
 ${bong(t, sc.wave, lay2, sc.glow, sc.pts || [], lw)}
 ${subtitle(sc.text, local, sc.t1 - sc.t0, sc.key)}

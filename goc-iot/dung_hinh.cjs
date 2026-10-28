@@ -580,6 +580,15 @@ const ANIMS = {
     const t = local - it[0].t - 0.3; if (t < 0) return '';
     return ringsAt(540, 370, 120, 200, 1.6, t, 2, RED, 0.55);
   },
+  swarm(local, it) {
+    const t = local - it[1].t - 0.2; if (t < 0) return '';
+    let o = '';
+    for (let k = 0; k < 8; k++) {
+      const u = ((t * 0.4) + k / 8) % 1, x = lerp(1010, 300, u), y = 150 + (k % 4) * 55 + 18 * Math.sin(u * 14 + k);
+      o += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="9" fill="${RED}" fill-opacity="${(0.9 - 0.4 * u).toFixed(2)}"/>`;
+    }
+    return o;
+  },
   rings1(local, it) {
     const t = local - it[0].t - 0.4; if (t < 0) return '';
     return `<clipPath id="c1"><rect x="0" y="150" width="1080" height="440"/></clipPath><g clip-path="url(#c1)">${ringsAt(210, 370, 130, 760, 2.4, t, 4, '#FFFFFF', 0.55)}</g>`;
@@ -739,6 +748,38 @@ const iconBedHot = () => `${iconBed()}<g fill="none" stroke="${RED}" stroke-widt
 Object.assign(ICONS, { bed: iconBed, cloudx: iconCloudX, bedhot: iconBedHot });
 const G = (gen) => ({ mode: 'small', wave: false, kind: 'gen', gen });
 const DEFS = {
+  9: [
+    Q('Điều gì xảy ra nếu', 'nhiều camera bị chiếm quyền?'),
+    G({ items: [
+      { ic: 'camera', x: X3[0], y: 330, k: 0.95, label: 'Một camera|bị chiếm', w: 'camera' },
+      { ic: 'eye', x: X3[1], y: 330, k: 0.95, label: 'Người lạ|xem hình', w: 'người' },
+      { ic: 'mesh', x: X3[2], y: 330, k: 0.95, label: 'Rất nhiều|camera', w: 'rất' }], links: [[0, 1]] }),
+    G({ items: [
+      { ic: 'mesh', x: X3[0], y: 330, k: 0.95, label: 'Nhóm thiết bị|bị chiếm', w: 'nhóm' },
+      { pill: 'botnet', x: 540, y: 700, k: 1, w: 'botnet' },
+      { ic: 'person', x: X3[2], y: 330, k: 0.95, label: 'Kẻ tấn công|ra lệnh', w: 'kẻ' }], links: [[2, 0]] }),
+    G({ items: [
+      { pill: '21/10/2016', x: 540, y: 720, k: 1, w: 'hai' },
+      { ic: 'bug', x: X3[0], y: 330, k: 0.95, label: 'Phần mềm độc hại|Mirai', w: 'mirai' },
+      { ic: 'camera', x: X3[2], y: 330, k: 0.95, label: 'Camera, đầu|ghi hình', w: 'camera' }], links: [[1, 2]] }),
+    G({ items: [
+      { ic: 'lock', x: X3[0], y: 330, k: 0.95, label: 'Mật khẩu|mặc định', w: 'mật' },
+      { ic: 'key', x: X3[1], y: 330, k: 0.95, label: 'Cài sẵn|trong máy', w: 'cài' },
+      { ic: 'nocopy', x: X3[2], y: 330, k: 0.95, label: 'Chủ không|đổi được', w: 'không' }] }),
+    G({ anim: 'swarm', items: [
+      { ic: 'server', x: X3[0], y: 330, k: 0.95, label: 'Dyn', w: 'dyn' },
+      { ic: 'list', x: X3[1], y: 330, k: 0.95, label: 'Danh bạ|của internet', w: 'danh' }] }),
+    G({ items: [
+      { pill: 'Twitter', x: 300, y: 500, k: 0.95, w: 'twitter' },
+      { pill: 'Netflix', x: 780, y: 500, k: 0.95, w: 'netflix' },
+      { pill: 'Reddit', x: 300, y: 610, k: 0.95, w: 'reddit' },
+      { pill: 'Spotify', x: 780, y: 610, k: 0.95, w: 'spotify' },
+      { pill: 'Khoảng 100.000 thiết bị', x: 540, y: 730, k: 0.9, w: 'khoảng' }] }),
+    G({ items: [
+      { ic: 'lock', x: X3[0], y: 330, k: 0.95, label: 'Đổi mật khẩu|mặc định', w: 'mật' },
+      { ic: 'update', x: X3[1], y: 330, k: 0.95, label: 'Cập nhật|phần mềm', w: 'cập' },
+      { ic: 'updx', x: X3[2], y: 330, k: 0.95, label: 'Thay thiết bị|hết hỗ trợ', w: 'thay' }] }),
+    E],
   8: [
     Q('Điều gì xảy ra nếu', 'đám mây nhà bạn sập?'),
     G({ anim: 'cmdflow', items: [

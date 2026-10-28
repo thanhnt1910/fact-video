@@ -19,7 +19,13 @@
     "router": "ráu tơ",
     "Eight Sleep": "Ây Xlíp",
     "Amazon": "A-ma-dôn",
-    "Virginia": "Vơ-gin-ni-a"
+    "Virginia": "Vơ-gin-ni-a",
+    "botnet": "bót nét",
+    "Dyn": "Đain",
+    "Twitter": "Tuýt-tơ",
+    "Netflix": "Nét-phlíc",
+    "Reddit": "Rét-đít",
+    "Spotify": "Xpót-ti-phai"
   },
   "videos": [
     {
@@ -145,6 +151,22 @@
         "Sau đó người đứng đầu hãng nói sẽ làm việc suốt ngày đêm để tạo chế độ khi mất mạng. Báo chí đưa tin hãng đã ra mắt chế độ này.",
         "Bạn làm được gì? Trước khi mua, hãy hỏi nếu mất mạng thì thiết bị còn điều khiển được tại chỗ không. Khóa cửa nên có thêm chìa cơ dự phòng.",
         "Nhà bạn có thiết bị nào sẽ ngừng chạy khi mất mạng? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "what-if-camera-bi-chiem-quyen",
+      "title": "Điều gì xảy ra nếu nhiều camera cùng bị chiếm quyền?",
+      "scenes": [
+        "Điều gì xảy ra nếu nhiều camera trong nhà cùng bị người xấu chiếm quyền?",
+        "Một camera bị chiếm thì người lạ có thể xem hình. Nhưng nếu rất nhiều camera bị chiếm cùng lúc, chúng còn bị bắt đi tấn công những mục tiêu khác.",
+        "Một nhóm thiết bị bị chiếm như vậy gọi là botnet, nghĩa là mạng máy bị điều khiển từ xa. Kẻ tấn công ra lệnh từ xa cho cả nhóm cùng hành động.",
+        "Chuyện này đã xảy ra. Ngày hai mươi mốt tháng mười năm hai nghìn không trăm mười sáu, phần mềm độc hại Mirai chiếm camera và đầu ghi hình để cùng tấn công.",
+        "Nó vào được vì nhiều thiết bị còn dùng tên đăng nhập và mật khẩu mặc định của nhà sản xuất. Có thiết bị còn cài sẵn mật khẩu mà chủ không đổi được.",
+        "Mục tiêu là Dyn, công ty giữ dịch vụ tìm địa chỉ cho các trang web, giống như danh bạ của internet. Dyn bị dồn dập yêu cầu giả nên không trả lời kịp.",
+        "Kết quả là Twitter, Netflix, Reddit, Spotify và nhiều trang khác bị gián đoạn trong ngày hôm đó. Hãng Dyn ước tính có tới khoảng một trăm nghìn thiết bị tham gia.",
+        "Bạn làm được gì? Đổi mật khẩu mặc định của camera và router, cập nhật phần mềm, và thay thiết bị quá cũ không còn được hãng hỗ trợ.",
+        "Camera nhà bạn đã đổi mật khẩu mặc định chưa? Bình luận cho Bóng biết nhé!"
       ]
     }
   ]

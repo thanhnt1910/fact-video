@@ -46,5 +46,11 @@
     "tieu_de": "Điều gì xảy ra nếu máy chủ đám mây sập?",
     "mo_ta": "Nhiều thiết bị thông minh gửi lệnh qua đám mây. Khi đám mây gặp sự cố thì sao?\n\nNgày 20/10/2025 (giờ Mỹ), một sự cố lớn ở trung tâm dữ liệu của Amazon tại Virginia làm nhiều dịch vụ gián đoạn. Giường thông minh Eight Sleep cần kết nối mạng liên tục, nên theo báo chí có giường nóng quá, có giường ngừng làm mát, có giường không phản hồi. Sau đó hãng cho biết sẽ làm chế độ khi mất mạng.\n\nViệc làm được ngay: trước khi mua, hãy hỏi nếu mất mạng thì thiết bị còn điều khiển được tại chỗ không. Với khóa cửa, nên có thêm chìa cơ dự phòng.\n\nNguồn: Engadget, CTV News (23/10/2025), MacTrast, Cơ sở dữ liệu sự cố AI (incidentdatabase.ai).\n\nNhà bạn có thiết bị nào sẽ ngừng chạy khi mất mạng?",
     "hashtag": "#GocIoT #IoT #CongNghe #NhaThongMinh #BongDen #WhatIf #DamMay"
+  },
+  {
+    "id": 9,
+    "tieu_de": "Điều gì xảy ra nếu nhiều camera cùng bị chiếm quyền?",
+    "mo_ta": "Một camera bị chiếm quyền đã đáng lo. Nếu rất nhiều camera bị chiếm cùng lúc thì chúng có thể bị bắt đi tấn công nơi khác.\n\nNgày 21/10/2016, phần mềm độc hại Mirai chiếm camera và đầu ghi hình còn dùng mật khẩu mặc định, rồi điều khiển chúng tấn công Dyn, công ty giữ dịch vụ tìm địa chỉ cho các trang web. Nhiều trang như Twitter, Netflix, Reddit, Spotify bị gián đoạn. Dyn ước tính có tới khoảng 100.000 thiết bị tham gia (con số ban đầu hàng chục triệu sau đó được hãng cho là ước tính quá cao).\n\nViệc làm được ngay: đổi mật khẩu mặc định của camera và router, cập nhật phần mềm, thay thiết bị quá cũ không còn được hỗ trợ.\n\nNguồn: KrebsOnSecurity (21/10/2016), phân tích sau sự cố của Dyn (qua tổng hợp của Namefi), Đại học Syracuse (JOST).\n\nCamera nhà bạn đã đổi mật khẩu mặc định chưa?",
+    "hashtag": "#GocIoT #WhatIf #Camera #BaoMat #MatKhau #CongNghe"
   }
 ]

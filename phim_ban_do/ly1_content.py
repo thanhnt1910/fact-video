@@ -309,7 +309,7 @@ VSHOTS=[(2,3,'co_phap_dem'),(4,5,'chua_don'),(7,9,'chua_luc_to'),(10,12,'trieu_d
  (13,14,'hall_tang'),(15,15,'tranh_ngoi'),(16,16,'doi_ngoi'),(17,19,'om_xac'),(20,21,'khe_man'),(22,22,'lung_giet'),(23,23,'canh_vua'),(24,24,'nghe_viec'),(25,25,'vua_mat'),(26,26,'vua_nho'),
  (27,28,'hai_doi_quan'),(29,31,'dao_cam_moc'),(32,34,'gia_mang'),(35,35,'den_sang'),(36,38,'hop_quan'),(39,40,'len_ngoi'),(41,41,'co_doi'),(42,42,'tha_toi'),(43,43,'lap_thai_tu'),(44,46,'phong_thuong'),
  (48,49,'hoa_lu'),(50,51,'kinh_do_mo'),(52,52,'hoa_lu_am'),
- (57,58,'dap_thanh'),(60,61,'ben_song'),(62,63,'soan_chieu'),(66,66,'doi_do_xua'),(67,67,'nen_ngan'),(68,68,'the_dat'),(69,71,'hoi_quan'),(73,75,'rong_vang'),
+ (57,58,'dap_thanh'),(60,61,'ben_song'),(62,63,'soan_chieu'),(66,66,'doi_do_xua'),(67,67,'nen_ngan'),(68,68,'the_dat'),(69,71,'hoi_quan'),(74,75,'rong_vang'),
  (76,77,'xay_dien'),(78,78,'dao_hao'),(79,80,'bon_cua'),(83,84,'mien_thue'),(85,86,'su_tong'),
  (93,96,'bao_bien'),(103,105,'chua_xay'),(106,106,'tang_cam_moc'),(108,108,'thai_tu'),(109,109,'vua_om'),(110,110,'nhat_thuc'),(111,111,'vua_bang'),(112,112,'tang_le'),
  (113,115,'mai_phuc'),(116,117,'thai_tu_vao'),(118,119,'thai_tu_tang'),(120,120,'mo_cua'),(121,123,'giao_chien'),(124,125,'bao_tin'),(126,126,'thai_tong_len_ngoi'),
@@ -319,6 +319,8 @@ def VS(a,b,name):
     ms=[R(n,-0.1)-t0 for n in range(a,b+1)]+[t1-t0]
     INTER.append((t0,t1,'vsvg',dict(name=name,ms=ms,fi=0.35,fo=0.35)))
 for _a,_b,_n in VSHOTS: VS(_a,_b,_n)
+_t0=R(72,4.9);_t1=R(74,-0.1)
+INTER.append((_t0,_t1,'vsvg',dict(name='doan_di',ms=[0,R(73,-0.1)-_t0,_t1-_t0],fi=0.5,fo=0.35)))
 INTER.sort(key=lambda x:x[0])
 for _i in range(len(INTER)-1):
     if INTER[_i][2]=='vsvg' and INTER[_i+1][2]=='vsvg' and abs(INTER[_i+1][0]-INTER[_i][1])<0.06: INTER[_i][3]['fo']=0

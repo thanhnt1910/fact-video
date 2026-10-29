@@ -133,38 +133,54 @@ def _walker(d,x,y,S,ph,robe,helm=False):
     d.ellipse((x-4.5*S,y-17*S,x+4.5*S,y-8*S),fill=(232,195,154,255),outline=(40,24,10,255))
     d.polygon([(x-5*S,y-14*S),(x,y-22*S),(x+5*S,y-14*S)],fill=((110,120,132) if helm else (30,30,36))+(255,))
     k=math.sin(ph)*3.5*S; d.line([(x-2*S,y+8*S),(x-2*S+k,y+13*S)],fill=(40,24,10,255),width=int(2*S)+1); d.line([(x+2*S,y+8*S),(x+2*S-k,y+13*S)],fill=(40,24,10,255),width=int(2*S)+1)
+def _chaikin(P,k=3):
+    for _ in range(k):
+        Q=[P[0]]
+        for i in range(len(P)-1):
+            a,b=P[i],P[i+1]; Q.append((a[0]*.75+b[0]*.25,a[1]*.75+b[1]*.25)); Q.append((a[0]*.25+b[0]*.75,a[1]*.25+b[1]*.75))
+        Q.append(P[-1]); P=Q
+    return P
+def _ribbon(P,L,upto,w0,w1):
+    """dải cong thon dần về phía đầu: trả về (trái, phải, điểm đầu, hướng)"""
+    n=max(2,int(upto/6)); Lp=[];Rp=[]; tot=L[-1]
+    for i in range(n+1):
+        s=upto*i/n; x,y,a=_at(P,L,s); w=w0+(w1-w0)*(s/tot)**0.8; nx,ny=-math.sin(a),math.cos(a)
+        Lp.append((x+nx*w,y+ny*w)); Rp.append((x-nx*w,y-ny*w))
+    return Lp,Rp
 def dode(out,t,v,C,pp=None):
-    t0=C.R(72,-0.2); t1=C.E(72,0.3)
-    if not(t0-0.6<=t<=t1+1.2): return out
-    Q=[(C.H[0]+0.02,C.H[1]+0.05),(106.10,20.80),(105.95,20.93),(105.88,21.00)]
-    P=_smooth([v.sc(lo,la)[:2] for lo,la in Q],12); L=_poly_len(P)
-    S2_=2; lay=Image.new('RGBA',(W*S2_,H*S2_),(0,0,0,0)); d=ImageDraw.Draw(lay,'RGBA')
-    P2=[(x*S2_,y*S2_) for x,y in P]; L2=[l*S2_ for l in L]
-    u=clamp((t-t0-0.5)/max(t1-t0-3.0,1.0)); u=0.85*u+0.15*ease(u); head=u*L2[-1]; fade=ease((t-(t0-0.6))/0.6)*(1-ease((t-t1)/1.2))
-    A=int(255*fade); sc=S2_*1.0
-    # vệt đứt vàng đã đi qua
-    n=int(head/24)
-    for i in range(0,n,2):
-        x1,y1,_=_at(P2,L2,i*24); x2,y2,_=_at(P2,L2,min(head,i*24+14)); d.line([(x1,y1),(x2,y2)],fill=GOLD+(int(190*fade),),width=int(6*sc))
-    # mũi tên chạy dọc đường (phía trước đoàn): chevron trôi về Đại La
-    off=(t*90*S2_)%(70*S2_); s=head+30*S2_+off-70*S2_
-    while s<L2[-1]-10*S2_:
-        if s>head:
-            x,y,a=_at(P2,L2,s); al=int(A*max(0,min(1,1-(s-head)/(260*S2_)))*0.95)
-            c,sn=math.cos(a),math.sin(a); w=24*sc
-            pts=[(x+c*w-sn*w,y+sn*w+c*w),(x+c*w*1.6,y+sn*w*1.6),(x+c*w+sn*w,y+sn*w-c*w),(x+c*w*0.6+sn*w*0.6,y+sn*w*0.6-c*w*0.6),(x+c*w*0.9,y+sn*w*0.9),(x+c*w*0.6-sn*w*0.6,y+sn*w*0.6+c*w*0.6)]
-            d.polygon(pts,fill=(255,214,90,al),outline=(150,96,10,al))
-        s+=70*S2_
-    # đích Đại La: vòng sáng nhấp nháy
-    ex,ey=P2[-1]; pul=0.5+0.5*math.sin(t*4)
-    for r,al in ((40,150),(62,90)): d.ellipse((ex-r*sc*(0.8+0.2*pul),ey-r*sc*(0.8+0.2*pul),ex+r*sc*(0.8+0.2*pul),ey+r*sc*(0.8+0.2*pul)),outline=GOLD+(int(al*fade),),width=int(4*sc))
-    # quân và dân đi bộ ven bờ (lệch 34px về một phía), đoàn thuyền trên sông
-    for k in range(12):
-        s=max(0.0,head-(40+k*46)*S2_)
-        x,y,a=_at(P2,L2,s); nx,ny=-math.sin(a),math.cos(a); side=1 if k%2 else -1
-        _walker(d,x+nx*(34+(k%3)*8)*sc*side,y+ny*(34+(k%3)*8)*sc*side,sc*1.7,t*7+k*1.3,[(150,60,50),(60,90,140),(60,120,70),(150,110,50),(110,70,130)][k%5],helm=(k%4==0))
-    for k in range(5):
-        s=max(0.0,head-(8+k*72)*S2_)
-        x,y,a=_at(P2,L2,s); _boat(d,x,y,a*0.6,sc*1.7,math.sin(t*3+k)*3*sc,[(190,40,40),(40,120,70),(200,160,40)][k%3])
-    lay=lay.resize((W,H),Image.LANCZOS)
+    t0=C.R(72,-0.2); t1=C.R(72,4.9)+0.5
+    if not(t0-0.6<=t<=t1+0.2): return out
+    Q=[(C.H[0]+0.02,C.H[1]+0.05),(106.12,20.78),(106.06,20.86),(105.95,20.93),(105.88,21.00)]
+    P=_chaikin([v.sc(lo,la)[:2] for lo,la in Q],3); L=_poly_len(P)
+    k=3; lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay,'RGBA')
+    gl=Image.new('RGBA',(W,H),(0,0,0,0)); gd=ImageDraw.Draw(gl,'RGBA')
+    u=clamp((t-(t0+0.5))/max((C.R(72,4.9)-0.4)-(t0+0.5),1.0)); u=ease(u)*0.9+u*0.1; head=u*L[-1]
+    fade=ease((t-(t0-0.6))/0.6)*(1-ease((t-(t1-0.3))/0.4)); A=int(255*fade)
+    ex,ey=P[-1]; sx,sy=P[0]
+    # vòng khởi hành (Hoa Lư) và vòng đích (Đại La)
+    pul=0.5+0.5*math.sin(t*4)
+    for (cx,cy,on) in ((sx,sy,1.0),(ex,ey,ease((head/L[-1]-0.85)/0.15))):
+        for r,al in ((26,200),(40,120)):
+            rr=r*(0.85+0.15*pul); d.ellipse((cx-rr,cy-rr,cx+rr,cy+rr),outline=GOLD+(int(al*fade*on),),width=3)
+    if head>8:
+        Lp,Rp=_ribbon(P,L,head,6,21)
+        poly=Lp+Rp[::-1]
+        gd.polygon([(x,y) for x,y in poly],fill=(255,214,90,int(170*fade)))
+        gl=gl.filter(ImageFilter.GaussianBlur(14))
+        lay=Image.alpha_composite(lay,gl); d=ImageDraw.Draw(lay,'RGBA')
+        # viền đậm rồi ruột vàng và đường sáng giữa
+        d.polygon(poly,fill=(120,72,10,A),outline=(70,38,4,A))
+        Lp2,Rp2=_ribbon(P,L,head,4,17.5); d.polygon(Lp2+Rp2[::-1],fill=(244,190,56,A))
+        Lp3,Rp3=_ribbon(P,L,head,0.8,5.5); d.polygon(Lp3+Rp3[::-1],fill=(255,240,170,int(A*0.9)))
+        # chấm sáng chạy dọc thân mũi tên
+        for j in range(6):
+            s=((t*140+j*L[-1]/6)%max(head,1)); x,y,a=_at(P,L,s)
+            d.ellipse((x-3,y-3,x+3,y+3),fill=(255,255,235,int(A*0.8)))
+        # đầu mũi tên lớn
+        x,y,a=_at(P,L,head); c,sn=math.cos(a),math.sin(a); nx,ny=-sn,c
+        tip=(x+c*52,y+sn*52); bl=(x-c*8+nx*40,y-sn*8+ny*40); br=(x-c*8-nx*40,y-sn*8-ny*40); nt=(x+c*12,y+sn*12)
+        d.polygon([bl,tip,br,nt],fill=(70,38,4,A))
+        tip2=(x+c*44,y+sn*44); bl2=(x-c*3+nx*31,y-sn*3+ny*31); br2=(x-c*3-nx*31,y-sn*3-ny*31); nt2=(x+c*14,y+sn*14)
+        d.polygon([bl2,tip2,br2,nt2],fill=(250,200,64,A))
+        d.polygon([(x+c*14,y+sn*14),tip2,(x-c*3+nx*8,y-sn*3+ny*8)],fill=(255,240,170,int(A*0.85)))
     return Image.alpha_composite(out,lay)

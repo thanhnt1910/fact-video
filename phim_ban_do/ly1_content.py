@@ -120,7 +120,6 @@ C3(16,3.2,2.6,'Lê Long Đĩnh','giết anh, lên thay',TL)
 FX.append((at(16,'giết'),at(16,'giết',1.6),'gong',H,H))
 C3(19,0.3,2.8,'Lý Công Uẩn','chỉ huy quân bảo vệ vua',LY)
 INTER=[]
-INTER.append(PIC(21,21,'018.jpg',1.0,1.08))
 NU(25,'năm 1009','Lê Long Đĩnh qua đời',0.4)
 # ======================= CHƯƠNG 3: LỜI NÓI KHÍCH VÀ NGÔI VUA (27–47)
 S2(27,47,[H],6.2)
@@ -165,10 +164,9 @@ NT(68,0.4,3.2,DL[0],DL[1]-0.22,'Đại La: rồng cuộn hổ ngồi, rộng mà
 PROPS.append((R(69,0.3),E(69,0),'scrolls2',DL[0]+0.06,DL[1]+0.06,'',0.5))
 PROPS.append((R(70,0.3),R(70,3.3),'meeting',H[0]+0.02,H[1]+0.02,'',0.55))
 # ======================= CHƯƠNG 7: CON THUYỀN DƯỚI CHÂN THÀNH (72–75)
-S2(72,75,[H,DL],3.0,hmax=400)
+S2(72,75,[H,DL],6.0,hmax=600)
 NU(72,'năm 1010','Nhà vua rời Hoa Lư, đi thuyền ra Đại La',0.6)
-G('Thuyền vua ra Đại La',LY,8,[(R(72,0.5),H[0]+0.02,H[1]+0.05),(R(72,6.5),106.10,20.80),(R(73,0.0),105.95,20.93),(R(73,0.2),105.88,21.00),(E(75,0),105.88,21.00)],kind='ship',show=(R(72,0.5),E(75,0)),emb='sun',seed=1806,spread=0.5,soff=(30,15),label=False)
-INTER.append(PIC(73,73,'017.jpg',1.0,1.1))
+G('Thuyền vua ra Đại La',LY,8,[(R(72,0.5),H[0]+0.02,H[1]+0.05),(R(72,6.5),106.10,20.80),(R(73,0.0),105.95,20.93),(R(73,0.2),105.88,21.00),(E(75,0),105.88,21.00)],kind='ship',show=(R(72,0.5)+9999,E(75,0)+9999),emb='sun',seed=1806,spread=0.5,soff=(30,15),label=False)
 FX.append((at(75,'Thăng Long'),at(75,'Thăng Long',1.6),'trumpet',DL,DL))
 show_t('Thăng Long',R(75,-1),R(134,1))
 NU(75,'Thăng Long','nghĩa là rồng bay lên',0.2)
@@ -303,6 +301,24 @@ _s0=at(93,'tối sầm')-0.3
 for _m in range(int(_s0/2.6)+1,int(E(95,0)/2.6)+1): SFX.append((_m*2.6+0.45,'thunder'))
 COMPARE=(304.3,311.0)
 
-# ---- 8 cảnh vector (ly1_scenes.py) chèn toàn khung theo lời kể
-for _a,_b,_k,_z in [(24,24,1,(0.86,0.9)),(17,17,2,(0.86,0.9)),(30,30,3,(0.9,0.86)),(39,40,4,(0.86,0.92)),(63,63,5,(0.86,0.92)),(69,69,5,(0.92,0.86)),(79,79,6,(0.86,0.9)),(94,94,7,(0.86,0.92)),(110,110,8,(0.86,0.92))]:
-    INTER.append(PIC(_a,_b,'vec%d.jpg'%_k,*_z))
+# ---- Cảnh vector CHUYỂN ĐỘNG (ly1_anim + ly1_s1..s5), chèn toàn khung theo dòng lời kể. Còn lại là bản đồ.
+PROPS.clear(); FACES.clear(); CARDS3.clear(); FOC.clear()   # bỏ hiệu ứng cũ đè lên thành
+COMPARE=(-10.0,-9.0)
+INTER[:]=[x for x in INTER if x[2]!='pic']
+VSHOTS=[(2,3,'co_phap_dem'),(4,5,'chua_don'),(7,9,'chua_luc_to'),(10,12,'trieu_dinh'),
+ (13,14,'hall_tang'),(15,15,'tranh_ngoi'),(16,16,'doi_ngoi'),(17,19,'om_xac'),(20,21,'khe_man'),(22,22,'lung_giet'),(23,23,'canh_vua'),(24,24,'nghe_viec'),(25,25,'vua_mat'),(26,26,'vua_nho'),
+ (27,28,'hai_doi_quan'),(29,31,'dao_cam_moc'),(32,34,'gia_mang'),(35,35,'den_sang'),(36,38,'hop_quan'),(39,40,'len_ngoi'),(41,41,'co_doi'),(42,42,'tha_toi'),(43,43,'lap_thai_tu'),(44,46,'phong_thuong'),
+ (48,49,'hoa_lu'),(50,51,'kinh_do_mo'),(52,52,'hoa_lu_am'),
+ (57,58,'dap_thanh'),(60,61,'ben_song'),(62,63,'soan_chieu'),(66,66,'doi_do_xua'),(67,67,'nen_ngan'),(68,68,'the_dat'),(69,71,'hoi_quan'),(73,75,'rong_vang'),
+ (76,77,'xay_dien'),(78,78,'dao_hao'),(79,80,'bon_cua'),(83,84,'mien_thue'),(85,86,'su_tong'),
+ (93,96,'bao_bien'),(103,105,'chua_xay'),(106,106,'tang_cam_moc'),(108,108,'thai_tu'),(109,109,'vua_om'),(110,110,'nhat_thuc'),(111,111,'vua_bang'),(112,112,'tang_le'),
+ (113,115,'mai_phuc'),(116,117,'thai_tu_vao'),(118,119,'thai_tu_tang'),(120,120,'mo_cua'),(121,123,'giao_chien'),(124,125,'bao_tin'),(126,126,'thai_tong_len_ngoi'),
+ (127,128,'bon_noi'),(131,132,'cua_tay_chieu'),(133,134,'hoang_hon')]
+def VS(a,b,name):
+    t0=R(a,-0.1);t1=R(b+1,-0.1) if b<134 else TOTAL-0.3
+    ms=[R(n,-0.1)-t0 for n in range(a,b+1)]+[t1-t0]
+    INTER.append((t0,t1,'vsvg',dict(name=name,ms=ms,fi=0.35,fo=0.35)))
+for _a,_b,_n in VSHOTS: VS(_a,_b,_n)
+INTER.sort(key=lambda x:x[0])
+for _i in range(len(INTER)-1):
+    if INTER[_i][2]=='vsvg' and INTER[_i+1][2]=='vsvg' and abs(INTER[_i+1][0]-INTER[_i][1])<0.06: INTER[_i][3]['fo']=0

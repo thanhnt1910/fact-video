@@ -42,7 +42,7 @@ def sub_layer(txt):
 
 _PH=os.environ.get('PHUDE',os.path.join(os.path.dirname(os.path.abspath(__file__)),'phude.json'))
 PH=json.load(open(_PH)) if os.path.exists(_PH) else {}
-_cache={}
+_cache={};_CV={}
 def sub_words(words,k,reveal=False):
     """Phụ đề một cụm: chữ đã đọc sáng, chữ chưa đọc mờ."""
     im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(SUBF,False);fb=font(SUBF,True)
@@ -65,12 +65,21 @@ def sub_at(t):
     cl=PH.get(str(n))
     if not cl:
         key=('b',n)
-        if key not in _cache: _cache.clear();_cache[key]=sub_layer(texts[n])
+        if key not in _cache:
+            _t=texts[n]
+            if os.environ.get('SUBSO','1')=='1':
+                import phude_so as _PS;_t=_PS.chuyen([[_t]])[0][0]
+            _cache.clear();_cache[key]=sub_layer(_t)
         return _cache[key],al
     v=lt-0.05;i=0
     for j,c in enumerate(cl):
         st=c[5][0] if len(c)>=6 and c[5] else c[1]
         if v>=st-0.05: i=j
+    if os.environ.get('SUBSO','1')=='1':
+        if n not in _CV:
+            import phude_so as _PS;_CV[n]=_PS.chuyen(cl)
+        cl=_CV[n]
+        while i>0 and not cl[i][0].strip(): i-=1
     txt,s,e=cl[i][:3];words=txt.split()
     rev=len(cl[i])>=6 and bool(cl[i][5])
     if rev:

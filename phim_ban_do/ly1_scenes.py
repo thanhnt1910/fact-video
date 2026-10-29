@@ -5,12 +5,12 @@ VB='viewBox="0 0 1600 900"'
 def png(svg,w=1600,h=900):
     return Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode(),output_width=w,output_height=h))).convert('RGB')
 SKIN='#e8c39a'; OUT='#2a1608'
-def person(x,y,s=1.0,robe='#7a3030',trim='#e8c36a',hat='cap',pose='stand',face=1,hands='sleeve',armor=False,skin=SKIN,hair='#1c1208'):
+def person(x,y,s=1.0,robe='#7a3030',trim='#e8c36a',hat='cap',pose='stand',face=1,hands='sleeve',armor=False,skin=SKIN,hair='#1c1208',ang=None):
     """x,y = giữa hai bàn chân. s=1 cao ~230px."""
     o=f'<g transform="translate({x},{y}) scale({s*face},{s})" stroke="{OUT}" stroke-width="2.5" stroke-linejoin="round">'
     if pose=='lie':
         o=f'<g transform="translate({x},{y}) scale({s*face},{s}) rotate(-90) translate(0,-8)" stroke="{OUT}" stroke-width="2.5" stroke-linejoin="round">'
-    ang={'bow':32,'kneelbow':52}.get(pose,0)
+    ang=ang if ang is not None else {'bow':32,'kneelbow':52}.get(pose,0)
     if pose=='kneel' or pose=='kneelbow': o+='<g transform="scale(1,.72)">'
     # váy (phần dưới, đứng yên)
     if armor: o+=f'<path d="M-30,0 L-27,-60 L27,-60 L30,0Z" fill="#4a525c"/><path d="M-30,-26 L30,-26 L33,0 L-33,0Z" fill="#3c434c"/>'
@@ -29,6 +29,7 @@ def person(x,y,s=1.0,robe='#7a3030',trim='#e8c36a',hat='cap',pose='stand',face=1
     if hat=='cap': o+=f'<path d="M-21,-148 Q0,-182 21,-148 L18,-156 Q0,-170 -18,-156Z" fill="{hair}"/><rect x="-24" y="-156" width="48" height="8" rx="3" fill="#2a2a30"/><rect x="-14" y="-176" width="28" height="22" rx="3" fill="#2a2a30"/>'
     elif hat=='crown': o+=f'<path d="M-24,-152 L-24,-188 L-10,-170 L0,-196 L10,-170 L24,-188 L24,-152Z" fill="#f2c94c"/><rect x="-24" y="-158" width="48" height="8" fill="#d4a017"/>'
     elif hat=='helm': o+=f'<path d="M-22,-148 Q0,-196 22,-148 Z" fill="#7d8896"/><rect x="-24" y="-152" width="48" height="8" fill="#4a525c"/><path d="M0,-172 L0,-198" stroke="#b22a2a" stroke-width="7" stroke-linecap="round"/>'
+    elif hat=='bald': pass
     elif hat=='hood': o+=f'<path d="M-24,-146 Q0,-190 24,-146 L24,-136 L-24,-136Z" fill="#555"/>'
     else: o+=f'<path d="M-20,-150 Q0,-184 20,-150 Q0,-160 -20,-150Z" fill="{hair}"/><circle cx="0" cy="-176" r="9" fill="{hair}"/>'
     o+='</g>'

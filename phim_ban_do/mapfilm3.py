@@ -593,6 +593,7 @@ def frame(t):
     out=Image.alpha_composite(im,ov)
     if os.environ.get('LYX'):
         import ly1_extra as _X;out=_X.apply_map(out,t,v,GROUPS,path_pos,C)
+        if hasattr(_X,'dode'): out=_X.dode(out,t,v,C)
     n_=curve(C.NIGHT,t,0.0)
     if n_>0.01:
         arr=np.asarray(out.convert('RGB'),np.float32)
@@ -669,6 +670,11 @@ def frame(t):
         if t0<=t<=t1 and not _quiet(t):
             k=min(clamp((t-t0)/0.45),clamp((t1-t)/0.4));out=comp(out,M3.joke_layer(icon,txt,t,k),(0,int((1-ease(k))*60)),ease(k))
     for ii,(t0,t1,kind,dat) in enumerate(getattr(C,'INTER',[])):
+        if t0<=t<=t1 and kind=='vsvg':
+            import ly1_anim as _A, ly1_s1,ly1_s2,ly1_s3,ly1_s4,ly1_s5
+            _fr=_A.render(dat['name'],t-t0,t1-t0,W,H,dat['ms']).convert('RGBA')
+            k=min(clamp((t-t0)/max(dat.get('fi',0.35),0.01)),clamp((t1-t)/max(dat['fo'],0.01)) if dat.get('fo',0.35)>0 else 1.0)
+            out=comp(out,_fr,(0,0),ease(k));continue
         if t0<=t<=t1 and kind=='pic':
             # cảnh ảnh 2D toàn khung, máy quay trượt/phóng chậm (dat: path, z0, z1, dx, dy)
             if ('_pic',ii) not in CARDL:

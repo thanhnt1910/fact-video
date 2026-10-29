@@ -61,7 +61,7 @@ E = {
     19019: "two armies meet in a field, dust clouds rising, on the left a plain red flag, on the right a plain orange flag, soldiers far away with simple faces, everyone standing",
     19020: "courtyard of an ancestral temple, a row of prisoners stand with bowed heads in front of the temple, {CC} at the head of the row, no heavy chains, {TTG} stands on the temple steps",
     19022: "inside a palace hall, {LTK-G} kneels to receive an honor from {TTG}, two court officials of different ages and beards stand on either side",
-    19023: "a funeral procession of people in white following a hearse in a palace courtyard, seen from far away, faces not visible",
+    19023: "a funeral procession of people in plain white hemp robes carrying a wooden bier on two poles through an ancient Vietnamese palace courtyard with tiled roofs, seen from far away, faces not visible, no vehicles",
     19024: "a large golden throne with {NT} sitting tiny on it, behind a curtain the shadows of {DTH} and {YL}, {LDT} stands beside the throne",
     19025: "court officials in three groups wearing three different colours (blue, brown, green) stand around a small throne where {NT} sits in the middle, each official a different age and beard",
     19028: "{LTK-G} kneels on one knee receiving a seal from a ceremonial official, palace hall with red pillars",
@@ -72,8 +72,8 @@ E = {
     19034: "a riverside shipyard, workers building a wooden ship hull, far away Song soldiers drilling in a row, seen from far with simple faces",
     19036: "a Vietnamese envoy unrolls a blank paper scroll in front of ranks of soldiers with plain red flags, the soldiers seen from behind",
     19037: "beside a green rice field a Song farmer receives a small bag of coins from a clerk holding a blank scroll, the two men of different ages and clothes",
-    19038: "two armies set out: on the left war boats going down a river, on the right a column of foot soldiers on a road, plain red flags, seen from above, small soldiers with simple faces",
-    19040: "Vietnamese war boats land on the shore of a coastal town, on the shore a line of ordinary villagers being led away, seen from far and from behind, calm",
+    19038: "two armies set out: on the left wooden war boats with woven sails going down a river, on the right a column of foot soldiers on a road, plain red flags, seen from above, small soldiers with simple faces",
+    19040: "wooden war boats with woven sails land on the shore of a coastal town, on the shore a line of ordinary villagers being led away, seen from far and from behind, calm",
     19042: "{TTT} riding a horse leading Song soldiers to rescue a city, soldiers behind him small and far away",
     19043: "a mountain pass between two steep cliffs, on the left soldiers with plain red flags hiding behind rocks, on the right soldiers with plain blue flags marching in, dust clouds, a tense silent standoff",
     19044: "{TD} stands in front of countless tents of an army camp set around a distant walled city, plain red flags",
@@ -100,13 +100,13 @@ E = {
     19076: "{DTN} holding a staff with plain tassels leads five tame elephants along a road, each elephant with a different handler",
     19077: "a Vietnamese embassy walking along a dirt road toward a distant Song city gate, plain red flags, seen from far and behind",
     19079: "returning people at a border: on the left Vietnamese officials in brown, on the right Song officials in blue, ordinary people walking through the middle",
-    19080: "inside an army camp, {LVT} sits on one side of a table, a Song official sits opposite, a map with drawn lines only and no writing lies between them",
-    19083: "inside a general's residence, {LTK-G} sits at a wooden table with a map of drawn lines only, a few candles, a military officer standing beside him",
+    19080: "inside an army camp, {LVT} sits on a mat on one side of a low table, a Song official sits on a mat opposite, a map with drawn lines only and no writing lies between them",
+    19083: "inside a general's residence, {LTK-G} sits on a woven mat beside a low wooden table with a map of drawn lines only, a small clay oil dish with a tiny flame, a military officer standing beside him",
     19085: "{LG} stands on a section of freshly built earth wall, villagers far away, plain flags",
     19086: "Vietnamese army arriving on a dirt road, plain red flags, seen from far, a small earth fort ahead",
-    19088: "an army camp at night, lanterns glowing, {LTK-L} stands in the middle of the camp looking south",
+    19088: "an army camp at night, small clay oil dishes and campfires glowing, {LTK-L} stands in the middle of the camp looking south",
     19089: "{LTK-L} sits by a window looking far away in the evening light, inside a mansion, exactly ONE character only",
-    19090: "a quiet office with one small oil lamp, an empty chair and a court robe and hat hanging on a stand, completely empty, no people",
+    19090: "a quiet room with one small clay oil dish, an empty low wooden seat on a mat and a court robe and hat hanging on a wooden stand, bare plain walls, no pictures, completely empty, no people",
     19091: "in the court, {LTH} kneels receiving a marquis title from a ceremonial official, another official standing by",
     19092: "three golden thrones in a row, on each a faint king like a memory ({TT}, {TTG}, {NT}), {LTK-L} standing small in front",
     19096: "a moonlit night on a river bank, a bamboo palisade, thin mist, completely empty, no people",
@@ -116,14 +116,22 @@ SONG = {19029, 19030, 19031, 19033, 19034, 19037, 19042, 19045, 19046, 19047, 19
         19055, 19057, 19061, 19062, 19066, 19068, 19069, 19074}
 MIX = {19002, 19003, 19019, 19038, 19040, 19043, 19052, 19060, 19063, 19064, 19079, 19080, 19096, 19023}
 SOMBER = set(range(19045, 19054))
-ERA_VN = "ancient Vietnam, 11th century, grey tiled roofs and thatched houses, plain red flags with no emblem"
-ERA_SONG = "Song dynasty China, 11th century, multi-tier grey tiled roofs, plain dark blue flags with no emblem"
+NOMOD = "wood, bamboo, clay and woven cloth only, dirt roads, bare plain walls"
+ERA_VN = ("ancient Vietnam, Ly dynasty 11th century, grey tiled roofs and thatched houses, "
+          "soldiers in brown leather armor, conical bamboo hats, bare feet, spears, "
+          "plain brown-red triangular cloth pennants; " + NOMOD)
+ERA_SONG = ("Song dynasty China, 11th century, grey tiled roofs, black cloth hats with two flat side wings, "
+            "plain dark blue triangular cloth pennants; " + NOMOD)
 SUFFIX = "single full-frame picture, no panels, no border, no text, detailed background"
 
 
 def build(n, scene):
     s = re.sub(r"\{([A-Z0-9-]+)\}", lambda m: CH[m.group(1)], scene)
-    era = "" if n in MIX else (ERA_SONG if n in SONG else ERA_VN)
+    s = re.sub(r"plain (red|orange) flags?", lambda m: "plain brown-red cloth pennants" if m.group(1) == "red" else "plain orange cloth pennants", s)
+    s = re.sub(r"plain (dark blue|blue) flags?", "plain dark blue cloth pennants", s)
+    s = re.sub(r"\bflags\b", "cloth pennants", s)
+    s = re.sub(r"\bflag\b", "cloth pennant", s)
+    era = ERA_SONG if n in SONG else ERA_VN
     tone = "muted grey and orange tones, somber mood" if n in SOMBER else ""
     parts = [OPEN, s]
     if era:
@@ -145,7 +153,7 @@ def main():
         n = int(n)
         p = build(n, E[n])
         w = len(p.split())
-        if w > 175:
+        if w > 150:
             warn.append((n, w))
         items.append({"n": n, "lora": 0.0, "seed": n, "prompt": p})
     OUT.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")

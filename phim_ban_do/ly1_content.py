@@ -95,21 +95,17 @@ _ROOT=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..')
 def PIC(a,b,fn,z0=1.0,z1=1.1):
     t0=R(a,0.2);t1=min(E(b,-0.3),t0+6.0)
     return (t0,t1,'pic',dict(path=os.path.join(_ROOT,'assets','anh_2d','LY1F',fn),z0=z0,z1=z1,dx=0,dy=0))
-# ======================= CHƯƠNG 1: ĐỨA TRẺ BÊN NHÀ THIỀN SƯ (1–12)
+# ======================= CHƯƠNG 1: MỞ ĐẦU + ĐỨA TRẺ BÊN NHÀ THIỀN SƯ (1–12). Câu 1–5 là cảnh mở đầu năm 1028 (kể lại đầy đủ ở chương 11)
 TITLES.append((0.3,4.2,'LÝ CÔNG UẨN','NGƯỜI DỜI ĐÔ','Từ năm 974 đến năm 1028'))
-show('Cổ Pháp',1,12);show('Hoa Lư',6,134)
+show('Thăng Long',1,4);show('Hoa Lư',4,134);show('Cổ Pháp',5,12)
 own('Cổ Pháp',LY);own('Hoa Lư',TL,(R(39,0),LY))
-S2(1,5,[CP],5.0)
-S2(6,12,[CP,H],2.6,hmax=380)
+S2(1,3,[DL],6.0)
+S2(4,4,[H,DL],2.8,hmax=380)
+S2(5,9,[CP],5.0)
+S2(10,12,[CP,H],2.6,hmax=380)
 reg('ĐẠI CỒ VIỆT',(105.55,21.55),P_DV,TL,(1,12),alpha=14)
-NU(1,'năm 974','Lý Công Uẩn chào đời ở châu Cổ Pháp',3.6)
-PROPS.append((R(1,3.8),R(1,6.8),'ping',CP[0],CP[1],'g',0.9))
-C3(3,0.2,2.8,'Lý Công Uẩn lúc bé','sinh năm 974',LY)
-C3(4,0.5,3.0,'Lý Khánh Văn','thiền sư, cha nuôi',LY)
-NU(6,'năm 980','Lê Hoàn lên thay nhà Đinh',0.8)
-C3(6,3.0,2.8,'Lê Hoàn','mở triều Tiền Lê',TL)
-C3(7,0.3,3.0,'Vạn Hạnh','sư ở chùa Lục Tổ',LY)
-PROPS.append((R(10,0.3),E(10,0),'pennants',H[0]+0.12,H[1]+0.10,'g',0.45))
+AR(4,0.4,3.2,H,DL,LY,'')
+PROPS.append((R(5,3.0),R(6,0.4),'ping',CP[0],CP[1],'g',0.9))
 # ======================= CHƯƠNG 2: NGƯỜI GIỮ CUNG NHÀ LÊ (13–26)
 S2(13,26,[H],5.0)
 reg('ĐẠI CỒ VIỆT',(105.55,21.55),P_DV,TL,(13,26),alpha=14)
@@ -117,7 +113,7 @@ NU(14,'năm 1005','Lê Hoàn mất, các con tranh ngôi',0.8)
 PROPS.append((R(14,0.3),E(15,0),'hall',H[0],H[1]+0.075,'',0.45))
 C3(16,0.3,2.8,'Lê Long Việt','lên ngôi ba ngày',TL)
 C3(16,3.2,2.6,'Lê Long Đĩnh','giết anh, lên thay',TL)
-FX.append((at(16,'giết'),at(16,'giết',1.6),'gong',H,H))
+FX.append((at(16,'đoạt mạng'),at(16,'giết',1.6),'gong',H,H))
 C3(19,0.3,2.8,'Lý Công Uẩn','chỉ huy quân bảo vệ vua',LY)
 INTER=[]
 NU(25,'năm 1009','Lê Long Đĩnh qua đời',0.4)
@@ -188,30 +184,30 @@ reg('ĐẠI CỒ VIỆT',(105.55,21.55),P_DV,LY,(87,106),alpha=16)
 S2(89,91,[DL,AC,CL],2.6,hmax=440)
 show('Ái Châu',89,91);show('Cử Long',89,91)
 G('Quân đi đánh giặc Cử Long',LY,10,[(R(89,0),DL[0],DL[1]),(R(89,5.0),105.80,20.30),(R(90,2.0),105.62,20.18),(R(91,0),105.52,20.20),(E(91,0),105.52,20.20)],show=(R(89,0),E(91,0)),emb='sun',seed=1808,spread=0.6,soff=(-35,10),label=True)
-G('Giặc Cử Long',NEU,8,[(R(90,0),105.42,20.24),(E(91,0),105.42,20.24)],show=(R(90,0),E(91,0)),emb='circle',seed=1809,spread=0.6,soff=(-35,-20),defeats=[(at(91,'giặc tan'),'flag',E(91,0))])
+G('Giặc Cử Long',NEU,8,[(R(90,0),105.42,20.24),(E(91,0),105.42,20.24)],show=(R(90,0),E(91,0)),emb='circle',seed=1809,spread=0.6,soff=(-35,-20),defeats=[(at(91,'tan rã'),'flag',E(91,0))])
 BATT.append((R(91,0.0),E(91,-0.2),105.48,20.22,['Quân đi đánh giặc Cử Long','Giặc Cử Long']))
-FIRES.append((at(91,'đốt'),E(91,0),105.43,20.25))
+FIRES.append((at(91,'thiêu rụi'),E(91,0),105.43,20.25))
 NT(90,0.4,3.0,CL[0],CL[1]-0.3,'hai triều trước không đánh nổi giặc này',GY)
 Q(91,91)
 S2(92,96,[AC,DC,BS],2.8,hmax=440)
 show('Diễn Châu',92,96);show('Biện Sơn',92,96);show('Triều Tống',102,102);show('Triều Tống',85,86)
 G('Thuyền đi đánh Diễn Châu',LY,10,[(R(92,0),DL[0],DL[1]),(R(92,5.5),105.95,19.30),(R(92,7.5),105.68,19.12),(R(93,0.3),105.68,19.12),(R(93,3.2),BS[0]-0.02,BS[1]-0.03),(E(96,0),BS[0]-0.02,BS[1]-0.03)],kind='ship',show=(R(92,0),E(96,0)),emb='sun',seed=1810,spread=0.6,soff=(75,-45),label=False)
-FX.append((at(93,'tối sầm'),at(93,'tối sầm',3.0),'sea',BS,BS))
+FX.append((at(93,'mây đen'),at(93,'mây đen',3.0),'sea',BS,BS))
 C3(94,0.3,3.0,'Lý Công Uẩn, vua','đốt hương khấn trời',LY)
 FACEMAP['Lý Công Uẩn, vua']=('Biện Sơn','king')
-AMBIENT.append((at(93,'tối sầm')-0.3,E(95,0),'rain',0.45))
+AMBIENT.append((at(93,'mây đen')-0.3,E(95,0),'rain',0.45))
 S2(97,97,[DL],5.0)
 NU(97,'năm 1013','Định sáu loại thuế',0.6)
 S2(98,102,[KH,DL,NCZ],2.0,hmax=440)
 show('Kim Hoa',98,101);show('Nam Chiếu',98,100)
 NU(98,'năm 1014','Quân Nam Chiếu vào cướp',0.6)
 G('Quân Nam Chiếu',NC,12,[(R(98,0),NCZ[0],NCZ[1]),(R(98,6.5),KH[0]+0.28,KH[1]-0.08),(R(100,0),KH[0]+0.28,KH[1]-0.08),(E(101,0),KH[0]+0.28,KH[1]-0.08)],kind='cav',show=(R(98,0),E(101,0)),emb='tri',seed=1811,spread=0.8,soff=(-30,10),
-  defeats=[(at(100,'thắng lớn'),'flag',E(101,0))])
+  defeats=[(at(100,'thắng lợi'),'flag',E(101,0))])
 PROPS.append((R(99,0.5),E(99,0),'camp',KH[0]+0.05,KH[1]+0.02,'r',0.4))
 C3(100,0.3,2.8,'Dực Thánh Vương','tướng nhà Lý',LY)
 G('Quân Dực Thánh Vương',LY,10,[(R(100,0),DL[0],DL[1]),(R(100,6.0),105.40,21.80),(E(101,0),105.40,21.80)],show=(R(100,0),E(101,0)),emb='sun',seed=1812,spread=0.6,soff=(30,15),label=False)
-BATT.append((at(100,'thắng lớn')-1.0,E(101,-0.3),KH[0]+0.22,KH[1]-0.06,['Quân Dực Thánh Vương','Quân Nam Chiếu']))
-FX.append((at(100,'thắng lớn')-1.0,at(100,'thắng lớn',2.8),'drums',DL,KH))
+BATT.append((at(100,'thắng lợi')-1.0,E(101,-0.3),KH[0]+0.22,KH[1]-0.06,['Quân Dực Thánh Vương','Quân Nam Chiếu']))
+FX.append((at(100,'thắng lợi')-1.0,at(100,'thắng lợi',2.8),'drums',DL,KH))
 Q(100,101)
 G('Sứ mang ngựa biếu nhà Tống',LY,5,[(R(102,0),DL[0],DL[1]),(R(102,6.0),TT[0],TT[1]),(E(102,0),TT[0],TT[1])],kind='cav',show=(R(102,0),E(102,0)),emb='sun',seed=1813,spread=0.4,soff=(30,0),label=False)
 PROPS.append((R(102,4.0),E(102,0),'seal',TT[0]-0.1,TT[1]-0.35,'',0.6))
@@ -238,7 +234,7 @@ C3(115,0.2,2.6,'Đông Chinh Vương','giấu quân trong thành',REB)
 C3(115,2.8,2.6,'Dực Thánh Vương','giấu quân trong thành',REB)
 C3(115,5.4,2.6,'Vũ Đức Vương','giấu quân trong thành',REB)
 G('Quân ba vương mai phục',REB,10,[(R(114,0),DL[0]-0.05,DL[1]+0.012),(R(115,0),DL[0]-0.04,DL[1]+0.012),(E(123,0),DL[0]-0.04,DL[1]+0.012)],show=(R(114,0),E(123,0)),emb='circle',seed=1814,spread=0.45,soff=(-70,45),
-  defeats=[(at(123,'thua chạy'),'flag',E(123,0))],label=False)
+  defeats=[(at(123,'bỏ chạy'),'flag',E(123,0))],label=False)
 G('Đoàn thái tử',LY,6,[(R(116,0),DL[0]+0.075,DL[1]+0.01),(R(116,4.0),DL[0]+0.034,DL[1]+0.004),(R(117,1.0),DL[0]+0.004,DL[1]+0.012),(E(125,0),DL[0]+0.004,DL[1]+0.012)],show=(R(116,0),E(125,0)),emb='sun',seed=1815,spread=0.4,soff=(40,10),label=False)
 C3(116,0.3,2.8,'Lý Phật Mã','thái tử',LY)
 PROPS.append((R(117,0.3),E(117,0),'hall',DL[0]+0.004,DL[1]+0.02,'',0.6))
@@ -288,7 +284,7 @@ MUSIC=[]
 def gate_open(t): return 0
 def year_of(n):
     m=n-BASE
-    for a,b,y in [(1,5,974),(6,12,980),(13,15,1005),(16,26,1009),(27,47,1009),(48,71,1010),(72,86,1010),(87,102,1011),(103,106,1015),(107,112,1028),(113,134,1028)]:
+    for a,b,y in [(1,5,1028),(6,9,974),(10,12,980),(13,15,1005),(16,26,1009),(27,47,1009),(48,71,1010),(72,86,1010),(87,102,1011),(103,106,1015),(107,112,1028),(113,134,1028)]:
         if a<=m<=b: return y
     return None
 NO_GROUP_LABEL=True
@@ -297,7 +293,7 @@ SIDES=[('Nhà Lý',LY,{g['name'].strip() for g in GROUPS if g['col']==LY}),('Nh�
        ('Ba vị vương',REB,{g['name'].strip() for g in GROUPS if g['col']==REB}),('Địa phương',NEU,{g['name'].strip() for g in GROUPS if g['col']==NEU})]
 SFX=[(R(40,0.2),'trumpet'),(R(85,0.2),'horn'),(R(112,3.0),'gong')]
 SFX_GROUPS=['Sứ Tống phong vương','Sứ mang ngựa biếu nhà Tống','Sứ sang nhà Tống','Đoàn vua về Cổ Pháp','Thuyền vua ra Đại La','Thuyền đi đánh Diễn Châu']
-_s0=at(93,'tối sầm')-0.3
+_s0=at(93,'mây đen')-0.3
 for _m in range(int(_s0/2.6)+1,int(E(95,0)/2.6)+1): SFX.append((_m*2.6+0.45,'thunder'))
 COMPARE=(304.3,311.0)
 
@@ -305,7 +301,7 @@ COMPARE=(304.3,311.0)
 PROPS.clear(); FACES.clear(); CARDS3.clear(); FOC.clear()   # bỏ hiệu ứng cũ đè lên thành
 COMPARE=(-10.0,-9.0)
 INTER[:]=[x for x in INTER if x[2]!='pic']
-VSHOTS=[(2,3,'co_phap_dem'),(4,5,'chua_don'),(7,9,'chua_luc_to'),(10,12,'trieu_dinh'),
+VSHOTS=[(2,3,'mai_phuc',3),(5,6,'co_phap_dem'),(7,8,'chua_don'),(9,9,'chua_luc_to',3),(10,12,'trieu_dinh'),
  (13,14,'hall_tang'),(15,15,'tranh_ngoi'),(16,16,'doi_ngoi'),(17,19,'om_xac'),(20,21,'khe_man'),(22,22,'lung_giet'),(23,23,'canh_vua'),(24,24,'nghe_viec'),(25,25,'vua_mat'),(26,26,'vua_nho'),
  (27,28,'hai_doi_quan'),(29,31,'dao_cam_moc'),(32,34,'gia_mang'),(35,35,'den_sang'),(36,38,'hop_quan'),(39,40,'len_ngoi'),(41,41,'co_doi'),(42,42,'tha_toi'),(43,43,'lap_thai_tu'),(44,46,'phong_thuong'),
  (48,49,'hoa_lu'),(50,51,'kinh_do_mo'),(52,52,'hoa_lu_am'),
@@ -314,11 +310,12 @@ VSHOTS=[(2,3,'co_phap_dem'),(4,5,'chua_don'),(7,9,'chua_luc_to'),(10,12,'trieu_d
  (93,96,'bao_bien'),(103,105,'chua_xay'),(106,106,'tang_cam_moc'),(108,108,'thai_tu'),(109,109,'vua_om'),(110,110,'nhat_thuc'),(111,111,'vua_bang'),(112,112,'tang_le'),
  (113,115,'mai_phuc'),(116,117,'thai_tu_vao'),(118,119,'thai_tu_tang'),(120,120,'mo_cua'),(121,123,'giao_chien'),(124,125,'bao_tin'),(126,126,'thai_tong_len_ngoi'),
  (127,128,'bon_noi'),(131,132,'cua_tay_chieu'),(133,134,'hoang_hon')]
-def VS(a,b,name):
+def VS(a,b,name,split=0):
     t0=R(a,-0.1);t1=R(b+1,-0.1) if b<134 else TOTAL-0.3
     ms=[R(n,-0.1)-t0 for n in range(a,b+1)]+[t1-t0]
+    if split and split!=len(ms)-1: ms=[(t1-t0)*i/split for i in range(split+1)]
     INTER.append((t0,t1,'vsvg',dict(name=name,ms=ms,fi=0.35,fo=0.35)))
-for _a,_b,_n in VSHOTS: VS(_a,_b,_n)
+for _v in VSHOTS: VS(*_v)
 _t0=R(72,4.9);_t1=R(74,-0.1)
 INTER.append((_t0,_t1,'vsvg',dict(name='doan_di',ms=[0,R(73,-0.1)-_t0,_t1-_t0],fi=0.5,fo=0.35)))
 INTER.sort(key=lambda x:x[0])

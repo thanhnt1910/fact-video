@@ -1,240 +1,172 @@
-# Kịch bản Lý Công Uẩn: dời đô về Thăng Long (bản 2, hướng "Cánh cửa Quảng Phúc", để chủ kênh duyệt)
+# Kịch bản Lý Công Uẩn (ly1): bản chủ kênh sửa lời ngày 29/10/2026
 
-Mã `ly1`, 135 đoạn (18001–18135), 2,666 chữ, khoảng 14.8 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây nên khoảng 15–16 phút, vượt sàn 10 phút). Bộ kiểm `kiem_kich_ban.py ly1`: 0 lỗi, không đoạn nào dưới 14 chữ; đã thêm ngày tháng năm cho các mốc có ngày ghi trong sử (bản 3, 27/10/2026). File giọng: `ke-hoach/thu-giong-hai/ly1_full.json`. Chưa chạy giọng, chưa làm bản đồ, chưa dựng. Bản 1 (mở bằng câu hỏi cuối chiếu) đã bỏ vì dập khuôn Lê Hoàn.
+Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 16.3 phút). Giọng luôn Sadaltager, đọc từng đoạn một (`cum.txt` = 1).
 
-**Nguồn đối chiếu:** toàn văn bản dịch Đại Việt sử ký toàn thư, lưu ở `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (kỷ nhà Lý, Thái Tổ Hoàng Đế, và đoạn năm 1028 ở cuối quyển II).
+**Trạng thái:** lấy theo bản chủ kênh viết; video phải dựng lại nội dung bản đồ theo bản này (xem ghi chú cuối file). Chưa đọc giọng mới, chưa dựng.
 
-## Ý tưởng chính (phần sáng tạo, chủ kênh duyệt)
+**Nguồn đối chiếu:** Đại Việt sử ký toàn thư (`ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`), kỷ nhà Lý, Thái Tổ.
 
-- **Mở đầu bằng cảnh năm 1028 ở cánh cửa Quảng Phúc:** ba vương nấp sau cánh cửa chờ thái tử. Đây là sự kiện có thật, được kể đầy đủ ở chương "Cánh cửa Quảng Phúc". Hook chỉ nêu mối nguy và câu hỏi vì sao vua cha bỏ kinh đô cũ để dựng cánh cửa ấy; không lộ kết cục.
-- **Không dùng cầu nối "Muốn trả lời, ta phải bắt đầu từ..."** như video Lê Hoàn. Chuyển sang quá khứ bằng một câu tương phản: "Người dựng nó đã lớn lên bên một thiền sư chứ không phải trong cung điện."
-- **Thân bài đúng thứ tự thời gian** (974, 1005, 1009, 1010, 1011–1015, 1028), mỗi chương gắn với một nơi chốn: Cổ Pháp, cửa cung nhà Lê, chính điện, Hoa Lư, Đại La, thuyền dưới chân thành, bốn cửa và các điện, điện Long An.
-- **Một câu báo trước** ở chương dựng thành ("Hãy nhớ cánh cửa phía tây ấy, vì mười tám năm sau sẽ có hai vị vương nấp sau nó") và **kết quay lại đúng cánh cửa** mở đầu. Kết không bình luận, chỉ nối các sự việc: ông dựng cửa năm 1010, đến 1028 cửa ấy là nơi cuộc tranh ngôi kết thúc.
-- **Đoạn viết liền mạch:** mỗi đoạn 2 vế, câu sau nêu lý do hoặc hệ quả của câu trước; không còn dòng cụt đứng riêng.
-- **Toàn bộ tone `story`** (không trộn `tense`/`reflect`) để giọng Gemini không trôi cao độ giữa các lượt gọi (nguyên nhân xem ghi chú giọng ở cuối).
-- **Không có câu đùa, không có "tập sau".**
+## Chương
 
-## Chương và độ chắc (đã đối chiếu Toàn thư)
-
-| Chương | Nội dung | Toàn thư |
+| Chương | Đoạn | Số đoạn |
 |---|---|---|
-| Cánh cửa phía tây | Mồng 1 tháng 3 nhật thực, ngày Mậu Tuất (mồng 3) vua băng; ba vương phục sẵn, Đông Chinh ở Long Thành, Dực Thánh và Vũ Đức ở cửa Quảng Phúc; cửa dựng năm 1010 | khớp (Q.II, năm Mậu Thìn 1028; Q.II, dựng bốn cửa); "hơn bốn mươi năm" tính từ Hoa Lư thời Đinh (968) |
-| Đứa trẻ bên nhà thiền sư | Sinh 12/2 năm Giáp Tuất 974; ba tuổi nhà Lý Khánh Văn; Vạn Hạnh ở chùa Lục Tổ; không chăm sản nghiệp | khớp; truyện cha thần giao bỏ khỏi lời kể; lời khen của Vạn Hạnh nói là lời kể về sau |
-| Người giữ cung nhà Lê | Trung Tông 3 ngày; ôm xác khóc; Tả thân vệ điện tiền chỉ huy sứ; hạt mận trong quả khế; Ngọa Triều; mất mùa đông 1009 | khớp |
-| Lời nói khích và ngôi vua | Công Uẩn và Nguyễn Đê mỗi người 500 quân; Cam Mộc nói khích; giả vờ mắng; hôm sau; họp triều; Thuận Thiên; truy phong; gả con gái | khớp từng ý |
-| Hoa Lư không còn đủ | "ẩm thấp chật hẹp, không đủ làm chỗ ở của đế vương"; nhà Đinh 2 vua, Tiền Lê 3 vua 29 năm | khớp; câu "núi đá che chở" là hiểu biết chung về địa thế |
-| Đại La bên sông | Cao Biền đắp thành năm 866; "đô cũ của Cao Vương"; sông Hồng bên cạnh | khớp; các câu về thuyền bè và đất rộng suy từ chính bản chiếu |
-| Lá chiếu dời đô | Mùa xuân 1010 về Cổ Pháp; sai sứ sang Tống; Bàn Canh 5 lần, nhà Chu 3 lần; phê Đinh, Lê; tả Đại La; câu hỏi cuối; bầy tôi đáp | khớp |
-| Con thuyền dưới chân thành | Mùa thu tháng 7, thuyền đỗ dưới thành, rồng vàng, tên Thăng Long | khớp; nói rõ là điềm người xưa kể, không phải bằng chứng |
-| Bốn cánh cửa và các điện | Điện Càn Nguyên, Tập Hiền, Giảng Võ, Long An, Long Thụy; bốn cửa Tường Phù (đông), Quảng Phúc (tây), Đại Hưng (nam), Diệu Đức (bắc); phủ Thiên Đức, phủ Trường Yên; cung Thúy Hoa; tha thuế 3 năm; Tống phong Giao Chỉ quận vương | khớp |
-| Những năm trị vì | 10 đạo thành 24 lộ; Cử Long; Diễn Châu và lời khấn ở Biện Sơn; 6 loại thuế; Nam Chiếu, Dực Thánh Vương thắng ở Kim Hoa; 100 ngựa biếu Tống; chùa, chuông, Tam tạng; Cam Mộc mất 1015 | khớp |
-| Điện Long An | Mười tám năm; mồng 1 tháng 3 nhật thực; băng ở điện Long An; thọ 55 (hơn 54 tuổi tròn); Thọ Lăng; lời đánh giá | khớp; cách nói hai cách tuổi đã chốt |
-| Cánh cửa Quảng Phúc | Thái tử vào cửa Tường Phù đến điện Càn Nguyên; đóng cửa điện; Lý Nhân Nghĩa; thái tử im lặng; mở cửa đánh; Lê Phụng Hiểu bắt giết Vũ Đức Vương; hai vương thoát; báo tin trước linh cữu; Uất Trì Kính Đức | khớp từng ý |
-| Kết | Các cửa và điện dựng 1010 là nơi diễn ra ngày 1028; nhà Lý hơn 200 năm; tên Thăng Long | nối các chương trên; nhà Lý 1009–1225 khoảng 216 năm (kỷ nhà Lý kết thúc ở Chiêu Hoàng) |
-
-## Mốc ngày tháng (mới, theo yêu cầu "ghi rõ ngày tháng năm với từng mốc")
-
-**Cách tính (cần chủ kênh biết):** Toàn thư ghi ngày bằng can chi và tháng âm lịch, gần như không ghi số ngày. Mình đổi sang dương lịch bằng cách tính chu kỳ 60 ngày can chi (liên tục, không bị lệch) kết hợp lịch trăng tính bằng thiên văn. **Kiểm chứng:** ngày mồng 1 tháng 3 năm 1028 là ngày Bính Thân (sử chép nhật thực), và tính ra đúng 29/3/1028 với ngày Mậu Tuất là 31/3/1028 (mồng 3), khớp với "hai ngày sau". Các ngày này do mình **tính lại, không phải Toàn thư ghi sẵn**, **Đã đối chiếu (27/10/2026)** với bảng đổi lịch Trung Hoa – Julian giai đoạn Tống 960–1279 của Y. T. Liu (ytliu0.github.io/ChineseCalendar, tải mã về chạy cục bộ): ngày đầu mỗi tháng khớp với tính toán của mình, trừ năm chỗ lệch 1 ngày ở đầu hoặc cuối tháng (1005 tháng 3, 1010 tháng 7, 1014 và 1015 tháng giêng) đã sửa theo bảng. Mọi ngày tính bằng can chi (19/11/1009, 21/11/1009, 29/3/1028, 31/3/1028) không đổi. Lưu ý bảng này cũng là lịch tính bằng thiên văn, không phải lịch Tống–Việt thời ấy, nên đầu tháng vẫn có thể lệch 1 ngày so với lịch dùng lúc đó; ngày can chi thì không bị ảnh hưởng.
-
-**Lịch dương trong lời kể là lịch Julian**, lịch chính thức thời ấy và là cách phần lớn sách sử Việt ghi mốc trước năm 1582. Muốn đổi sang lịch Gregorian hiện nay thì cộng 6 ngày (31/3/1028 thành 6/4/1028). Lời kể chỉ nói "dương lịch" cho gọn; chủ kênh quyết định có đổi sang Gregorian hay thêm chữ "Julian" trên màn hình hay không.
-
-| Mốc | Âm lịch (Toàn thư) | Dương lịch Julian (tính) | Độ chắc |
-|---|---|---|---|
-| Lý Công Uẩn sinh | 12 tháng 2 năm Giáp Tuất | 8/3/974 | ngày âm ghi trong sử; đổi dương lịch có thể lệch 1 ngày vì lịch thời Đinh |
-| Lê Hoàn mất | tháng 3 năm Ất Tỵ (Ứng Thiên 12) | trong khoảng 12/4–10/5/1005 | sử chỉ ghi tháng |
-| Lê Long Việt lên ngôi 3 ngày rồi bị giết | mùa đông năm Ất Tỵ | cuối năm 1005 | sử chỉ ghi mùa, sau 8 tháng giằng co |
-| Lê Long Đĩnh mất | ngày Tân Hợi, tháng 10 năm Kỷ Dậu | 19/11/1009 | ngày can chi chắc; theo bảng đổi lịch đây là ngày 30, ngày cuối của tháng 10, khớp với chữ "tháng 10 ngày Tân Hợi" trong sử |
-| Lý Công Uẩn lên ngôi | ngày Quý Sửu cùng tháng | 21/11/1009 | ngày can chi chắc (Wikipedia tiếng Anh cũng ghi 21/11 trong phần nội dung). Theo bảng đây là mồng 2 tháng 11, trong khi sử viết "tháng ấy"; vì vậy lời kể chỉ đọc ngày dương lịch, không đọc tháng âm lịch của ngày này |
-| Về thăm Cổ Pháp, sai sứ sang Tống, viết chiếu | tháng 2 năm Canh Tuất | trong khoảng 17/2–18/3/1010 (năm này có tháng 2 nhuận) | sử chỉ ghi tháng; ngày viết chiếu không rõ |
-| Rời Hoa Lư, thuyền đỗ dưới thành Đại La, đổi tên Thăng Long | tháng 7 năm Canh Tuất | trong khoảng 13/8–10/9/1010 | sử chỉ ghi tháng |
-| Cung Thúy Hoa xong, tha thuế 3 năm | tháng 12 năm Canh Tuất | trong khoảng 7/1–5/2/1011 | sử chỉ ghi tháng |
-| Đánh giặc Cử Long | tháng 2 năm Tân Hợi | trong khoảng 8/3–5/4/1011 | sử chỉ ghi tháng |
-| Diễn Châu, lời khấn ở Biện Sơn | năm Nhâm Tý | năm 1012 | sử không ghi tháng |
-| Định sáu loại thuế | năm Quý Sửu | năm 1013 | sử không ghi tháng |
-| Nam Chiếu vào cướp, trận Kim Hoa | tháng giêng năm Giáp Dần | trong khoảng 3/2–3/3/1014 | sử chỉ ghi tháng |
-| Đào Cam Mộc mất | tháng giêng năm Ất Mão | trong khoảng 23/1–21/2/1015 | sử chỉ ghi tháng |
-| Nhà vua không khỏe | tháng 2 năm Mậu Thìn | trong khoảng 28/2–28/3/1028 | sử chỉ ghi tháng |
-| Nhật thực | mồng 1 tháng 3 (Bính Thân) | 29/3/1028 | ngày chắc (sử ghi can chi, đã kiểm bằng tính lịch) |
-| Vua mất, ba vương phục binh, Lê Phụng Hiểu bắt giết Vũ Đức Vương | ngày Mậu Tuất (mồng 3) tháng 3 | 31/3/1028 | ngày chắc |
-
-Những mốc chỉ có tháng thì lời kể nói đúng "tháng X âm lịch", không bịa số ngày. Ngày dương lịch chỉ được đọc to ở bốn mốc có can chi hoặc ngày âm rõ (sinh, Long Đĩnh mất, lên ngôi, 1028); các mốc còn lại để thành ô ngày trên màn hình khi làm bản đồ.
-
-## Điểm cần chủ kênh duyệt (phần sáng tạo, ghi độ chắc)
-
-- **Quan hệ của ba vương với vua (đã kiểm Toàn thư, 27/10/2026):** chỉ Đông Chinh Vương chắc là con vua (Toàn thư 1018: "phong Hoàng tử Lực làm Đông Chinh Vương"). Dực Thánh Vương: Đại Việt sử lược ghi là em của Lý Công Uẩn, còn Cương mục dẫn Nam Thiên trung nghĩa lục nói là con thứ, người biên dịch Toàn thư nghiêng về sử lược, nên chưa rõ. Vũ Đức Vương: chú thích Toàn thư ghi "chưa rõ", trước năm 1028 không thấy nhắc. Vì vậy lời kể **không còn gọi họ là con hay em của vua**, chỉ gọi là "ba vị vương trong hoàng tộc"; lời thái tử nói "anh em", "tình cốt nhục" vẫn giữ vì là lời chính thái tử trong sử.
-- **Câu mở đầu đã viết lại (27/10/2026):** "Vua vừa mất, ba vị vương mai phục sẵn để cướp ngôi của thái tử." (15 chữ, không ngày tháng, ai cũng hiểu: có vua chết, có người cướp ngôi). Câu sau cho biết đó là vua đầu tiên nhà Lý và ngày mất. Hình ảnh nhật thực chuyển về chương "Điện Long An" (nhật thực mồng 1 tháng 3 là có thật). Lý do: câu cũ "Hai ngày sau khi mặt trời tắt giữa ban ngày, nhà vua qua đời" không nói vua nào, chuyện gì, nên khó hiểu.
-- **Hai câu của người kể ở phần kết:** "Không ai biết ông có nghĩ trước đến ngày ấy hay không" và "kinh đô ông dựng vẫn đứng vững, ngôi vua vẫn truyền được cho con". Đây là nối sự việc, không phải lời bình của sử gia; chủ kênh quyết định giữ hay bỏ.
-- **Câu báo trước "Hãy nhớ cánh cửa phía tây ấy"** là kỹ thuật kể, không thêm sự kiện.
-- **Ghi chú giọng:** đo cao độ Lê Hoàn cho thấy hai cụm đọc (đoạn 17041–17048 và 17089–17096) trôi trầm 9% và 16% so với phần còn lại; các cụm trộn tone bị chia thành 35 lượt gọi độc lập. Đinh Bộ Lĩnh (toàn `story`, đọc cụm 16) không bị. Vì vậy ly1 đọc toàn `story`, cụm 16, rồi chạy `phim_ban_do/kiem_cao_do.py`.
-
-## Đã chốt theo ý chủ kênh (27/10/2026)
-
-- **Tuổi thọ:** Toàn thư ghi "thọ 55 tuổi [974-1028]" (tính theo cách xưa, kể cả năm sinh). Tính tròn từ 12 tháng 2 năm 974 đến mồng 3 tháng 3 năm 1028 là hơn 54 tuổi. Lời kể ghi cả hai: "thọ năm mươi lăm tuổi theo cách tính của người xưa, tức là hơn năm mươi bốn tuổi tròn".
-- **Năm Cao Biền đắp thành:** đã kiểm, Toàn thư chép dưới năm Bính Tuất 866; lời kể ghi "năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước".
-- **Độ dài:** giữ khoảng 17 phút.
-- **Chuyện hạt mận trong quả khế:** vẫn để trong lời kể (chương "Người giữ cung nhà Lê", 4 đoạn), chủ kênh quyết định bỏ hay giữ. Ý "màu sấm điềm": Toàn thư chép Lê Long Đĩnh tin đó là lời sấm báo họ Lý sẽ lên, nên đó là chuyện điềm báo, không phải sự kiện chính; video chỉ kể như chuyện sử chép.
-- Tên "Trường Yên" theo Toàn thư (cách gọi hiện đại là Tràng An).
-
-## Chi tiết đã bỏ khỏi lời kể
-
-**Bản 4 (27/10/2026, chủ kênh yêu cầu): bỏ hết lời bình của sử gia** (Lê Văn Hưu chê xây chùa trước khi dựng tông miếu, Ngô Sĩ Liên chê tôn hiệu năm mươi chữ, và đoạn đánh giá "khoan thứ nhân từ... ưa dị đoan" cuối truyện), cùng chuyện tôn hiệu năm mươi chữ. Lời kể chỉ còn sự việc, viết liền mạch theo nguyên nhân kết quả, không còn lối dịch sát từng câu sử.
-
-Chuyện mẹ gặp người thần ở chùa Tiêu Sơn, chó con có chữ "thiên tử", cây gạo bị sét có sấm ký, lời Vạn Hạnh nói với Công Uẩn hơn 70 tuổi, các điềm lạ năm 1012 (vết chân thần), 1016, 1017, 1020, ngựa Bạch Long, tin đồn đầu độc, việc giết hai em của Lê Long Đĩnh (An Nam chí lược), các chi tiết bạo ngược nặng của Lê Long Đĩnh (róc mía trên đầu nhà sư, giết mèo cho các vương ăn...).
-
-## Gợi ý tiêu đề
-
-1. Vì sao Lý Công Uẩn bỏ Hoa Lư để ra Thăng Long?
-2. Đứa trẻ nuôi trong nhà thiền sư và quyết định dời đô năm 1010
-3. Một câu hỏi cuối lá chiếu đã đổi kinh đô nước Việt
-4. Lê Phụng Hiểu và ngày ba vị vương phục binh trong cung vua
-5. Cánh cửa Lý Công Uẩn dựng và ngày ba người con nấp sau nó
-
+| Mở đầu | 18001 đến 18005 | 5 |
+| Đứa trẻ bên nhà thiền sư | 18006 đến 18012 | 7 |
+| Người giữ cung nhà Lê | 18013 đến 18026 | 14 |
+| Lời nói khích và ngôi vua | 18027 đến 18047 | 21 |
+| Hoa Lư không còn đủ | 18048 đến 18055 | 8 |
+| Đại La bên sông | 18056 đến 18063 | 8 |
+| Lá chiếu dời đô | 18064 đến 18071 | 8 |
+| Con thuyền dưới chân thành | 18072 đến 18075 | 4 |
+| Bốn cánh cửa và các điện | 18076 đến 18086 | 11 |
+| Những năm trị vì | 18087 đến 18106 | 20 |
+| Điện Long An | 18107 đến 18112 | 6 |
+| Cánh cửa Quảng Phúc | 18113 đến 18126 | 14 |
+| Kết | 18127 đến 18134 | 8 |
 
 ## Lời kể
 
+| Đoạn | Chương | Lời |
+|---|---|---|
+| 18001 | Mở đầu | Hoàng đế vừa băng hà, tang lễ chưa kịp cử hành thì sóng gió đoạt vị đã chực chờ ập đến. |
+| 18002 | Mở đầu | Phía sau cánh cửa Quảng Phúc, ba vị vương gia đã đem quân mai phục kín kẽ, chỉ chờ thái tử bước qua là ập ra hạ sát đoạt ngôi. |
+| 18003 | Mở đầu | Cánh cửa hiểm yếu ấy do chính tay vị tiên hoàng vừa khuất tự mình thiết kế và hưng công xây dựng từ mười tám năm về trước. |
+| 18004 | Mở đầu | Vì cớ gì ngài lại quyết định rũ bỏ kinh đô cũ kiên cố, để dời ra vùng đất mới và dựng lên cánh cửa định mệnh này? |
+| 18005 | Mở đầu | Bậc quân vương dựng nên nó không lớn lên trong nhung lụa cung đình, mà trưởng thành dưới bóng bồ đề của một thiền sư. Ngài chính là Lý Công Uẩn. |
+| 18006 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba dương lịch, cậu bé Công Uẩn chào đời tại châu Cổ Pháp. |
+| 18007 | Đứa trẻ bên nhà thiền sư | Lên ba tuổi, Công Uẩn được mẹ gửi nương nhờ nơi cửa Phật, bái thiền sư Lý Khánh Văn làm nghĩa phụ, từ đó mang họ Lý. |
+| 18008 | Đứa trẻ bên nhà thiền sư | Lớn lên, chàng thanh niên bộc lộ trí tuệ hơn người, cùng dung mạo tuấn tú, khác hẳn bậc phàm nhân. |
+| 18009 | Đứa trẻ bên nhà thiền sư | Thuở theo học tại chùa Lục Tổ, ông hội ngộ sư Vạn Hạnh. Người đời sau truyền rằng vị thiền sư vừa nhìn đã đoán ông sẽ là bậc minh chủ. |
+| 18010 | Đứa trẻ bên nhà thiền sư | Dù không dùi mài kinh sử, ông lại mang cốt cách khảng khái, ôm hoài bão lớn lao và sớm bước vào con đường binh nghiệp dưới triều Tiền Lê. |
+| 18011 | Đứa trẻ bên nhà thiền sư | Làm thế nào một viên tướng cấm vệ quân, kề cận một quân vương khát máu, lại có thể thuận lợi đăng cơ mà không dấy lên can qua khói lửa? |
+| 18012 | Đứa trẻ bên nhà thiền sư | Lời giải nằm ở những ngày tháng tàn mạt của vương triều đi trước. |
+| 18013 | Người giữ cung nhà Lê | Triều Tiền Lê bấy giờ do hoàng đế Lê Hoàn khai mở, trị vì đất nước suốt hơn hai thập kỷ. |
+| 18014 | Người giữ cung nhà Lê | Tháng ba âm lịch năm một nghìn không trăm linh năm, Lê Hoàn băng hà. Các hoàng tử lập tức dấy binh tranh đoạt ngai vàng. |
+| 18015 | Người giữ cung nhà Lê | Cuộc cốt nhục tương tàn kéo dài đằng đẵng tám tháng, khiến đất nước rơi vào cảnh vô chủ. |
+| 18016 | Người giữ cung nhà Lê | Mùa đông năm ấy, Lê Long Việt vừa lên ngôi được vỏn vẹn ba ngày thì bị chính em ruột là Lê Long Đĩnh đoạt mạng cướp ngôi. |
+| 18017 | Người giữ cung nhà Lê | Bá quan văn võ khiếp đảm tháo chạy, duy chỉ có Lý Công Uẩn ở lại ôm xác tiên đế gào khóc. |
+| 18018 | Người giữ cung nhà Lê | Lê Long Đĩnh chứng kiến cảnh ấy, cất lời khen ông là kẻ tôi trung hiếm có. |
+| 18019 | Người giữ cung nhà Lê | Vua cắt cử ông làm phó chỉ huy quân phòng vệ kinh thành, rồi thăng dần lên thống lĩnh cấm vệ quân bảo vệ hoàng đế. |
+| 18020 | Người giữ cung nhà Lê | Phụng sự vị tân vương này tựa như đi trên mũi kiếm, bởi Lê Long Đĩnh vốn bản tính tàn bạo, khét tiếng thích giết người. |
+| 18021 | Người giữ cung nhà Lê | Có bận vua ăn quả khế lại nhả ra hạt mận. Chữ Lý mang nghĩa là cây mận, khiến vua tin sấm truyền rằng họ Lý tất sẽ dấy nghiệp xưng vương. |
+| 18022 | Người giữ cung nhà Lê | Kể từ đó, nhà vua ráo riết ngầm hạ lệnh săn lùng, tru diệt những người mang họ Lý. |
+| 18023 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng cạnh ngai vàng, lưỡi gươm kề cổ, nhà vua vẫn không mảy may nghi ngờ. |
+| 18024 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc chứng bệnh trĩ trầm trọng, thiết triều cũng phải nằm, nên sử sách gọi là Lê Ngọa Triều. |
+| 18025 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, bạo chúa Lê Long Đĩnh qua đời. |
+| 18026 | Người giữ cung nhà Lê | Trữ quân nối ngôi khi ấy còn quá ấu trĩ, chưa thể gánh vác việc nước. |
+| 18027 | Lời nói khích và ngôi vua | Lúc bấy giờ, binh lực tinh nhuệ nhất hoàng cung nằm cả trong tay Lý Công Uẩn và tướng Nguyễn Đê, mỗi người thống lĩnh năm trăm cấm quân. |
+| 18028 | Lời nói khích và ngôi vua | Cầm giữ hai đạo quân ấy, ngai vàng Đại Cồ Việt coi như đã nằm gọn trong lòng bàn tay hai ông. |
+| 18029 | Lời nói khích và ngôi vua | Viên quan hầu cận Đào Cam Mộc đã tinh ý nhìn thấu cơ hội này. |
+| 18030 | Lời nói khích và ngôi vua | Nhân một dịp vắng người, Đào Cam Mộc mạo muội tìm đến Lý Công Uẩn dùng lời kích tướng. |
+| 18031 | Lời nói khích và ngôi vua | Ông nói thẳng rằng cựu vương tàn ngược, ấu chúa còn thơ dại, cớ sao ngài không thuận theo lòng trời ý dân mà bước lên bảo tọa? |
+| 18032 | Lời nói khích và ngôi vua | Lý Công Uẩn trong lòng mừng thầm nhưng ngoài mặt vẫn vờ nổi giận, dọa bắt Cam Mộc giải đi cáo quan. |
+| 18033 | Lời nói khích và ngôi vua | Đào Cam Mộc khẳng khái đáp rằng ông không màng sinh tử, vì chính lòng người quy tụ mới khiến ông dám can đảm cất lời. |
+| 18034 | Lời nói khích và ngôi vua | Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ tiết lộ, cả hai mang họa tru di. |
+| 18035 | Lời nói khích và ngôi vua | Hôm sau Đào Cam Mộc lại đến, nói thiên hạ râm ran họ Lý sắp dựng nghiệp lớn. Lý Công Uẩn đáp rằng ý ấy giống lời sư Vạn Hạnh thuở nào. |
+| 18036 | Lời nói khích và ngôi vua | Đào Cam Mộc đem đại sự bàn bạc cùng bá quan văn võ. Ngay hôm ấy, quần thần lập tức nghị triều. |
+| 18037 | Lời nói khích và ngôi vua | Quần thần đồng tình rằng bách tính đã oán thán cựu vương, ấu chúa lại quá nhỏ bé, khó lòng thu phục nhân tâm. |
+| 18038 | Lời nói khích và ngôi vua | Đứng trước thời cuộc, họ quyết đoán phải suy tôn Lý Công Uẩn đăng cơ ngay lập tức, phòng trừ triều đình sinh loạn. |
+| 18039 | Lời nói khích và ngôi vua | Vậy là vào ngày hai mươi mốt tháng mười một năm một nghìn không trăm linh chín, bá quan dìu Lý Công Uẩn lên chính điện. |
+| 18040 | Lời nói khích và ngôi vua | Trăm quan quỳ rạp dưới thềm rồng, đồng thanh hô vang vạn tuế. |
+| 18041 | Lời nói khích và ngôi vua | Vương triều Tiền Lê sụp đổ, thời đại nhà Lý mở ra uy nghiêm mà không vương một giọt máu nào. |
+| 18042 | Lời nói khích và ngôi vua | Yên vị trên ngai vàng, Lý Công Uẩn ban lệnh tha tội và giảm thuế cho cả nước, đổi niên hiệu năm sau là Thuận Thiên, nghĩa là thuận theo mệnh trời. |
+| 18043 | Lời nói khích và ngôi vua | Nhà vua truy phong tước vị cho đấng sinh thành đã khuất, phong con trai trưởng Lý Phật Mã làm đông cung thái tử. |
+| 18044 | Lời nói khích và ngôi vua | Sau đó, vua gả công chúa trưởng cho Đào Cam Mộc để đền công người đã đứng ra khuyên mình. |
+| 18045 | Lời nói khích và ngôi vua | Kẻ đầu tiên cất lời xúi giục đổi ngôi được phong tước Nghĩa Tín Hầu. |
+| 18046 | Lời nói khích và ngôi vua | Từ một viên quan hầu cận, Đào Cam Mộc vụt sáng thành khai quốc công thần của tân triều. |
+| 18047 | Lời nói khích và ngôi vua | Ổn định ngôi báu, hoàng đế lập tức đối mặt với bài toán quyết định hưng vong, là định đô ở đâu? |
+| 18048 | Hoa Lư không còn đủ | Kinh đô đương thời là Hoa Lư, nơi Đinh Tiên Hoàng dựng cung điện hơn bốn thập kỷ trước, lọt thỏm giữa những vách núi đá chót vót. |
+| 18049 | Hoa Lư không còn đủ | Giữa thời loạn lạc, núi đá biến thành bức trường thành thiên nhiên, giặc ngoài khó phạm, quân trong dễ thủ. |
+| 18050 | Hoa Lư không còn đủ | Nhưng Lý Thái Tổ nhìn nhận sâu xa rằng, đất nước thái bình cần một đế đô vươn mình, mở tung cánh cửa ra bốn phương tám hướng. |
+| 18051 | Hoa Lư không còn đủ | Một đế đô thực thụ phải quy tụ muôn dân, giao thương thuận lợi, và sở hữu quỹ đất đủ lớn để không ngừng phồn vinh. |
+| 18052 | Hoa Lư không còn đủ | Trong mắt nhà vua, Hoa Lư quá đỗi chật hẹp, ẩm thấp và tù túng. |
+| 18053 | Hoa Lư không còn đủ | Hoàng đế chiêm nghiệm bài học từ hai triều đại đi trước. |
+| 18054 | Hoa Lư không còn đủ | Cả nhà Đinh lẫn nhà Lê đều cố thủ tại Hoa Lư, và kết cục vận mệnh đều vô cùng ngắn ngủi. |
+| 18055 | Hoa Lư không còn đủ | Nhà Đinh truyền được hai đời, còn triều Tiền Lê qua ba đời vua cũng chỉ kéo dài hai mươi chín năm. |
+| 18056 | Đại La bên sông | Kiên quyết cự tuyệt vết xe đổ ấy, Lý Công Uẩn phóng tầm mắt về thành Đại La nằm nép mình bên dòng sông Hồng. |
+| 18057 | Đại La bên sông | Đó là thành cũ do tướng nhà Đường là Cao Biền đắp từ năm tám trăm sáu mươi sáu, cách bấy giờ hơn một trăm bốn mươi năm. |
+| 18058 | Đại La bên sông | Các đô hộ sứ nhà Đường từng trấn giữ nơi đây để cai trị toàn cõi Giao Châu. |
+| 18059 | Đại La bên sông | Trong chính bản chiếu dời đô, hoàng đế đã nhắc đến nơi đây bằng danh xưng cố đô của Cao Vương. |
+| 18060 | Đại La bên sông | Được bao bọc bởi sông Hồng, Đại La hưởng lợi từ mạng lưới giao thương đường thủy tấp nập, lại tọa lạc trên vùng bình nguyên mênh mông, khoáng đạt. |
+| 18061 | Đại La bên sông | Nơi đây mang đến không gian rộng mở cho vương quốc không ngừng vươn mình, phá bỏ giới hạn của những núi đá giam hãm như ở Hoa Lư. |
+| 18062 | Đại La bên sông | Dời đô là một cuộc trường chinh dời non lấp bể, buộc phải dỡ bỏ cung điện cựu triều, tái thiết mọi thứ từ đống hoang tàn ở một miền đất lạ. |
+| 18063 | Đại La bên sông | Nhận thức được trọng trách vĩ đại, Lý Thái Tổ thân hành ngự bút soạn chiếu dời đô để hiệu triệu bá quan văn võ. |
+| 18064 | Lá chiếu dời đô | Tháng hai âm lịch năm một nghìn không trăm mười, hoàng đế hồi hương thăm châu Cổ Pháp, rộng rãi ban phát lụa là, tiền bạc cho các bô lão. |
+| 18065 | Lá chiếu dời đô | Cũng trong năm đó, triều đình phái sứ giả vượt biên ải sang Bắc Tống để củng cố giao bang. |
+| 18066 | Lá chiếu dời đô | Bản chiếu mở đầu bằng tấm gương đế vương Trung Hoa xưa, là nhà Thương dời đô năm lần, nhà Chu dời ba lần, đều vì nghiệp lớn cho muôn đời sau. |
+| 18067 | Lá chiếu dời đô | Bản chiếu nghiêm khắc phê bình nhà Đinh và nhà Tiền Lê vì tư lợi mà chôn chân một chỗ, khiến quốc tộ suy vi, muôn dân kiệt quệ. |
+| 18068 | Lá chiếu dời đô | Chiếu ca ngợi địa thế Đại La rồng cuộn hổ ngồi, cao ráo, quang đãng, đất rộng bằng phẳng, hứa hẹn muôn loài phồn vinh sinh sôi. |
+| 18069 | Lá chiếu dời đô | Ở dòng cuối, vua không ép buộc mà ôn tồn hỏi bầy tôi rằng trẫm muốn dựa vào sự thuận lợi của đất ấy để định chỗ ở, các khanh nghĩ sao? |
+| 18070 | Lá chiếu dời đô | Quần thần đồng thanh tấu rằng hoàng đế đang tính kế trăm năm cho thiên hạ, điều đại lợi như vậy cớ sao lại không tuân phục. |
+| 18071 | Lá chiếu dời đô | Nhà vua nghe xong thì vô cùng hoan hỉ. |
+| 18072 | Con thuyền dưới chân thành | Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, ngự giá rời Hoa Lư, rẽ sóng xuôi về Đại La. |
+| 18073 | Con thuyền dưới chân thành | Thuyền rồng vừa cập bến dưới chân thành trì, dân gian truyền tụng rằng bỗng có điềm rồng vàng bay lên không trung. |
+| 18074 | Con thuyền dưới chân thành | Dù không thể kiểm chứng, nhưng người xưa kiên định tin tưởng đây là điềm lành trời ban, khẳng định chân mệnh thiên tử bảo trợ vương triều. |
+| 18075 | Con thuyền dưới chân thành | Lý Công Uẩn lập tức ban lệnh đổi tên Đại La thành Thăng Long, mang khát vọng rồng thiêng cất cánh bay cao. |
+| 18076 | Bốn cánh cửa và các điện | Ở vùng đất mới, vua xây điện Càn Nguyên ở trung tâm làm nơi thiết triều, hai bên là điện Tập Hiền và điện Giảng Võ. |
+| 18077 | Bốn cánh cửa và các điện | Phía sau điện Càn Nguyên là điện Long An và điện Long Thụy uy nghi. |
+| 18078 | Bốn cánh cửa và các điện | Tiếp đó, ông cho xây dựng hệ thống kho tàng, đắp thành lũy kiên cố và đào hào phòng thủ. |
+| 18079 | Bốn cánh cửa và các điện | Bốn mặt thành có bốn cửa, phía đông là Tường Phù, phía tây là Quảng Phúc, phía nam là Đại Hưng, còn mặt bắc là Diệu Đức. |
+| 18080 | Bốn cánh cửa và các điện | Nào ai ngờ rằng cánh cửa phía tây ngày ấy lại là chứng nhân lịch sử cho một cuộc binh biến đẫm máu về sau. |
+| 18081 | Bốn cánh cửa và các điện | Các địa danh cũ cũng được sắc phong tên mới nhằm khắc cốt ghi tâm công ơn tổ tông. |
+| 18082 | Bốn cánh cửa và các điện | Quê hương Cổ Pháp được nâng cấp thành phủ Thiên Đức, còn Hoa Lư lùi về thành phủ Trường Yên. |
+| 18083 | Bốn cánh cửa và các điện | Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong. Nhân dịp ấy, vua miễn toàn bộ thuế trong ba năm. |
+| 18084 | Bốn cánh cửa và các điện | Hàng vạn trẻ mồ côi, quả phụ, người già yếu bần hàn mắc nợ thuế lưu cữu lập tức được xóa bỏ hoàn toàn gánh nặng. |
+| 18085 | Bốn cánh cửa và các điện | Cùng năm đó, hoàng đế Tống triều chính thức sắc phong Lý Thái Tổ làm Giao Chỉ quận vương. |
+| 18086 | Bốn cánh cửa và các điện | Đế đô mới vừa đặt nền móng đã nhận được sự kiêng nể và công nhận từ láng giềng phương bắc quyền lực. |
+| 18087 | Những năm trị vì | Dời đô chỉ là bản lề cho một chiến lược trị quốc vĩ đại. Kinh đô chỉ hưng thịnh khi giang sơn xã tắc cường bạo. |
+| 18088 | Những năm trị vì | Vì vậy ngay năm khai quốc, ông mạnh tay cải cách hành chính, chia lại mười đạo thành hai mươi bốn lộ, nhằm dễ bề phân quyền quản lý lãnh thổ. |
+| 18089 | Những năm trị vì | Tháng hai âm lịch năm một nghìn không trăm mười một, hoàng đế ngự giá thân chinh phạt giặc Cử Long ở Ái Châu. |
+| 18090 | Những năm trị vì | Bọn phản nghịch này từng khiến hai triều Đinh, Lê bất lực trong việc càn quét. |
+| 18091 | Những năm trị vì | Nhưng dưới ngọn cờ của Lý Thái Tổ, các hang ổ bộ lạc của chúng bị thiêu rụi, tướng giặc bị tóm gọn, quân phản loạn tan rã. |
+| 18092 | Những năm trị vì | Năm một nghìn không trăm mười hai, vua tiếp tục thân chinh giương cờ dẹp loạn Diễn Châu. |
+| 18093 | Những năm trị vì | Trên đường ban sư hồi triều, đoàn chiến thuyền tiến đến vùng biển Biện Sơn thì bỗng mây đen kịt trời, sấm chớp ầm ĩ. |
+| 18094 | Những năm trị vì | Hoàng đế thắp nhang khấn trời đất rằng ngài không dám cậy binh mã mà lạm sát. Chỉ vì Diễn Châu gây tội tàn ngược nên ngài mới đem quân đi dẹp. |
+| 18095 | Những năm trị vì | Ngài cầu xin bề trên rằng nếu lỡ làm oan khuất người vô tội, xin trời cao hãy giáng tội lên một mình trẫm. |
+| 18096 | Những năm trị vì | Người xưa truyền tụng rằng lời khấn vừa dứt, bão táp sấm sét lập tức tiêu tan. |
+| 18097 | Những năm trị vì | Tạm gác đao kiếm, hoàng đế chuyên tâm việc trong nước, và đến năm một nghìn không trăm mười ba, ông ban hành quy định phân loại sáu sắc thuế. |
+| 18098 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười bốn, ranh giới tây bắc bị giặc Nam Chiếu ồ ạt xua quân tràn sang cướp bóc. |
+| 18099 | Những năm trị vì | Hàng vạn quân giặc lập doanh trại cố thủ tại bến Kim Hoa. |
+| 18100 | Những năm trị vì | Nhà vua hạ lệnh cho Dực Thánh Vương, một nhân tài hoàng tộc, xuất binh dẹp loạn và giành thắng lợi rực rỡ. |
+| 18101 | Những năm trị vì | Quân Nam Chiếu đại bại, cống nạp vô số binh sĩ cùng chiến mã cho quân đội Đại Cồ Việt. |
+| 18102 | Những năm trị vì | Lý Công Uẩn đem một trăm ngựa chiến cống nạp nhà Tống. Vua Tống vui mừng ban tặng mão, đai quý giá cho đoàn sứ giả Đại Việt. |
+| 18103 | Những năm trị vì | Không chỉ phát dương quang đại võ bị, Lý Thái Tổ còn dốc tâm phụng dưỡng Phật pháp. |
+| 18104 | Những năm trị vì | Ông xuất ngân khố kiến tạo chùa chiền, đúc chuông đồng, chép kinh Tam tạng, và độ điệp cho hơn một nghìn tăng ni ở kinh thành. |
+| 18105 | Những năm trị vì | Đó là hệ quả tất yếu, bởi vị minh quân vĩ đại ấy từng lớn lên dưới bóng bồ đề và cống hiến trọn kiếp vì Phật môn. |
+| 18106 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười lăm, khai quốc công thần Đào Cam Mộc tạ thế, được triều đình truy tặng hàm Thái sư á vương. |
+| 18107 | Điện Long An | Trải qua mười tám năm từ ngày dời đô, Thăng Long bừng sáng với cung điện tráng lệ, tường thành vững chãi, bốn mặt thành hiên ngang mở ra thế giới. |
+| 18108 | Điện Long An | Thái tử Lý Phật Mã đã trưởng thành và dày dạn sa trường sau những lần thay vua cha dẹp giặc. Còn hoàng đế bước vào những ngày cuối đời. |
+| 18109 | Điện Long An | Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Thái Tổ long thể bất an. |
+| 18110 | Điện Long An | Mồng một tháng ba âm lịch, tức ngày hai mươi chín tháng ba dương lịch, mặt trời bỗng bị nhật thực che phủ tối tăm giữa ban ngày. |
+| 18111 | Điện Long An | Chỉ hai ngày sau, tức ba mươi mốt tháng ba dương lịch, hoàng đế băng hà ngay tại điện Long An do chính tay ông dựng lập. |
+| 18112 | Điện Long An | Vua thọ năm mươi lăm tuổi theo cách tính của cổ nhân, trị vì đất nước mười tám năm, linh cữu được an táng tại Thọ Lăng uy nghi. |
+| 18113 | Cánh cửa Quảng Phúc | Tang lễ tiên đế chưa kịp cử hành, sóng gió gia tộc đã chực chờ ập đến. |
+| 18114 | Cánh cửa Quảng Phúc | Mũi nhọn phục kích nhắm thẳng vào cánh cửa Quảng Phúc phía tây do chính tay tiên hoàng xây cất. |
+| 18115 | Cánh cửa Quảng Phúc | Ba vị vương gia Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đem quân mai phục kín kẽ, chờ cơ hội ám sát thái tử Lý Phật Mã đoạt ngôi. |
+| 18116 | Cánh cửa Quảng Phúc | Theo đúng lộ trình, thái tử sẽ đi qua cửa Tường Phù, nằm ở phía đông kinh thành. |
+| 18117 | Cánh cửa Quảng Phúc | Vừa đến điện Càn Nguyên, nhận thấy có binh biến, ngài lập tức hạ lệnh niêm phong toàn bộ các cửa điện, điều động cấm quân nghênh chiến. |
+| 18118 | Cánh cửa Quảng Phúc | Vốn nặng lòng nhân ái, thái tử không đành lòng để cốt nhục tương tàn khi linh cữu vua cha còn lạnh lẽo. |
+| 18119 | Cánh cửa Quảng Phúc | Ông quyết định mặc nguyên áo tang đứng hầu, giao phó sinh tử ngai vàng cho bá quan quyết định. |
+| 18120 | Cánh cửa Quảng Phúc | Viên nội thị Lý Nhân Nghĩa cùng quần thần lạy hai lạy trước thềm, rồi ra lệnh cho cấm vệ quân mở tung các cánh cửa xông ra huyết chiến. |
+| 18121 | Cánh cửa Quảng Phúc | Giữa trận hỗn chiến chưa phân thắng bại, dũng tướng Lê Phụng Hiểu tuốt gươm trần xông thẳng về phía cửa Quảng Phúc. |
+| 18122 | Cánh cửa Quảng Phúc | Dũng mãnh xé toạc vòng vây, ông bắt sống và hạ sát Vũ Đức Vương ngay tại trận. |
+| 18123 | Cánh cửa Quảng Phúc | Thấy chủ soái bỏ mạng, phản quân khiếp đảm buông vũ khí bỏ chạy, cuộc phản loạn tan tành như mây khói. |
+| 18124 | Cánh cửa Quảng Phúc | Lê Phụng Hiểu mặc nguyên chiến bào nhuốm máu, bước thẳng vào điện báo công trước linh cữu tiên hoàng. |
+| 18125 | Cánh cửa Quảng Phúc | Sau đó, ông bước sang điện Càn Nguyên tâu trình báo tin đại thắng với thái tử. |
+| 18126 | Cánh cửa Quảng Phúc | Thái tử Lý Phật Mã thuận lợi đăng cơ, hiệu xưng là vua Lý Thái Tông. |
+| 18127 | Kết | Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, tất cả đều do Lý Công Uẩn cho xây từ năm một nghìn không trăm mười. |
+| 18128 | Kết | Ngày soạn chiếu dời đô, ông từng lên án nhà Đinh và Tiền Lê bảo thủ chôn chân ở Hoa Lư để rồi tự chuốc lấy diệt vong. |
+| 18129 | Kết | Liệu khi vẽ thành Đại La, hoàng đế có nghĩ tới cảnh anh em tranh ngôi vào ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám? |
+| 18130 | Kết | Dù thế nào đi nữa, kinh đô kiên cố mà ông tâm huyết xây dựng vẫn đứng vững trơ gan cùng tuế nguyệt. |
+| 18131 | Kết | Trận huynh đệ tương tàn đã vùi thây ngay trước cánh cửa phía tây do chính hoàng đế thiết kế. |
+| 18132 | Kết | Mười tám năm trước đó, nhà vua đã khéo léo dò hỏi quần thần rằng nếu đổi Đại La làm kinh đô thì lòng bá quan có thuận phục hay không. |
+| 18133 | Kết | Cốt nhục từ một câu hỏi khéo léo ấy, nhà Lý đã có một thủ đô vững chãi để duy trì quốc tộ suốt hai thế kỷ rực rỡ. |
+| 18134 | Kết | Còn mỹ danh Thăng Long thì kiêu hãnh trường tồn vượt qua cả sự hữu hạn của vương triều. |
 
-> Bản 5 (27/10): bỏ đoạn hook mở đầu; vào thẳng cốt truyện từ lúc Lý Công Uẩn sinh, câu hỏi "vì sao dời đô" đặt ngay sau khi nhận làm con nuôi; cảnh ba vương phục sẵn kể đúng thứ tự thời gian ở cuối.
+## Ghi chú
 
-> Bản 6 (27/10): rà soát toàn bộ, tách câu thiếu chủ vị, bỏ chữ "cậu", "ta", "sử sách", "đó là lời bàn"; giải thích tên và từ cổ (Nguyễn Đê, Cao Vương, lộ, bệ hạ, trẫm, thiên thời); sửa các chữ "ông" mơ hồ.
-
-> Bản 7 (27/10): mở đầu theo ý chủ kênh: bắt đầu từ ngày sinh, "có một cậu bé ra đời ở châu Cổ Pháp", thêm bối cảnh nhà Đinh, Hoa Lư, rồi mới nói em bé ấy là Lý Công Uẩn.
-
-
-> Đối chiếu Toàn thư (27/10): "vua nối còn bé", "con nối thơ ấu" (Sạ là con trưởng, phong Khai Phong Vương năm 1006; sử không nói rõ có lên ngôi); các cung điện, bốn cửa thành chép liền sau việc dời đô tháng 7 năm 1010, không có tháng riêng; cung Thúy Hoa xong tháng 12.
-
-| n | chương | lời | mốc ngày (Julian, tính lại) |
-|---|---|---|---|
-| 18001 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba dương lịch, dưới thời vua Đinh Bộ Lĩnh, một cậu bé đã chào đời tại châu Cổ Pháp, vùng đất nằm ở phía bắc sông Hồng. | 974: 12 tháng 2 âm ≈ 8/3/974 (Julian), khoảng |
-| 18002 | Đứa trẻ bên nhà thiền sư | Hơn ba mươi năm sau, chính cậu bé đó sẽ bước lên ngai vàng, mở ra vương triều nhà Lý. |  |
-| 18003 | Đứa trẻ bên nhà thiền sư | Cậu bé ấy tên là Lý Công Uẩn. |  |
-| 18004 | Đứa trẻ bên nhà thiền sư | Năm ba tuổi, Lý Công Uẩn được mẹ đưa đến nhà thiền sư Lý Khánh Văn, thiền sư nhận ông làm con nuôi và từ đó ông mang họ Lý. |  |
-| 18005 | Đứa trẻ bên nhà thiền sư | Ông lớn lên rất thông minh, lại có dáng người tuấn tú khác thường. |  |
-| 18006 | Đứa trẻ bên nhà thiền sư | Khi ông khoảng sáu tuổi, tướng Lê Hoàn lên thay nhà Đinh, mở ra triều Tiền Lê, và ông lớn lên dưới triều đại mới ấy. |  |
-| 18007 | Đứa trẻ bên nhà thiền sư | Lúc đi học ở chùa Lục Tổ, ông gặp sư Vạn Hạnh, và người ta kể rằng vị sư đã nói ông sau này sẽ làm bậc minh chủ. |  |
-| 18008 | Đứa trẻ bên nhà thiền sư | Lời ấy chỉ là chuyện kể về sau, còn điều thấy rõ hơn là tính cách của ông. |  |
-| 18009 | Đứa trẻ bên nhà thiền sư | Ông không chuyên tâm chuyện học hành, nhưng sống khảng khái và có chí lớn. |  |
-| 18010 | Đứa trẻ bên nhà thiền sư | Khi trưởng thành, ông vào làm quan võ trong triều đình nhà Tiền Lê, rồi dần lên chỉ huy quân bảo vệ cung vua. |  |
-| 18011 | Đứa trẻ bên nhà thiền sư | Làm sao một viên tướng chỉ huy quân bảo vệ vua, đứng cạnh vị vua thích giết người, lại được tôn lên ngôi mà không có một trận đánh nào? |  |
-| 18012 | Đứa trẻ bên nhà thiền sư | Câu trả lời nằm ở những năm cuối của triều Tiền Lê. |  |
-| 18013 | Người giữ cung nhà Lê | Triều Tiền Lê khi ấy do vua Lê Hoàn dựng lên và trị vì hơn hai mươi năm. |  |
-| 18014 | Người giữ cung nhà Lê | Tháng ba âm lịch năm một nghìn không trăm linh năm, Lê Hoàn mất, và các con của ông liền tranh ngôi. |  |
-| 18015 | Người giữ cung nhà Lê | Cuộc giành giật kéo dài tám tháng, trong nước không có vua. | 1005: mùa đông (tháng 10 âm = 5/11–3/12/1005) |
-| 18016 | Người giữ cung nhà Lê | Mùa đông năm ấy Lê Long Việt lên ngôi, và ba ngày sau bị em là Lê Long Đĩnh giết rồi lên thay. |  |
-| 18017 | Người giữ cung nhà Lê | Các quan sợ hãi bỏ chạy hết, chỉ riêng Lý Công Uẩn ở lại ôm xác nhà vua mà khóc. |  |
-| 18018 | Người giữ cung nhà Lê | Thấy vậy, Lê Long Đĩnh khen ông là người trung thành. |  |
-| 18019 | Người giữ cung nhà Lê | Vua cho ông làm phó chỉ huy quân bảo vệ kinh thành, rồi thăng dần đến chức chỉ huy quân bảo vệ vua. |  |
-| 18020 | Người giữ cung nhà Lê | Nhưng phục vụ vị vua mới không hề dễ, vì Lê Long Đĩnh thích giết người và nổi tiếng là một ông vua bạo ngược. |  |
-| 18021 | Người giữ cung nhà Lê | Có lần vua ăn quả khế thấy hạt mận, mà chữ Lý cũng có nghĩa là cây mận, nên vua tin đó là điềm báo người họ Lý sẽ làm vua. |  |
-| 18022 | Người giữ cung nhà Lê | Từ đó vua ngầm cho người tìm giết những người họ Lý. |  |
-| 18023 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng ngay cạnh vua, vua vẫn không hề biết. |  |
-| 18024 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc bệnh trĩ nặng, phải nằm nghe việc triều đình, nên người đời gọi ông là Lê Ngọa Triều, nghĩa là vua nằm nghe việc nước. |  |
-| 18025 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, Lê Long Đĩnh qua đời. | 1009: ngày Tân Hợi = 19/11/1009 |
-| 18026 | Người giữ cung nhà Lê | Người con nối ngôi của ông còn quá nhỏ, chưa thể tự lo việc nước. |  |
-| 18027 | Lời nói khích và ngôi vua | Khi ấy Lý Công Uẩn và một viên tướng tên Nguyễn Đê mỗi người dẫn năm trăm quân bảo vệ trong cung. |  |
-| 18028 | Lời nói khích và ngôi vua | Hai đạo quân ấy mạnh nhất hoàng cung, nên ngai vàng như nằm trong tay hai người. |  |
-| 18029 | Lời nói khích và ngôi vua | Một viên quan hầu cận tên Đào Cam Mộc nhìn ra cơ hội ấy. |  |
-| 18030 | Lời nói khích và ngôi vua | Một hôm vắng người, ông ta tìm đến Lý Công Uẩn và nói khích. |  |
-| 18031 | Lời nói khích và ngôi vua | Ông ta bảo vua cũ tàn bạo, vua mới còn nhỏ, sao ông không thuận lòng dân mà làm vua? |  |
-| 18032 | Lời nói khích và ngôi vua | Lý Công Uẩn mừng nhưng còn ngờ, nên giả vờ mắng và dọa bắt ông ta. |  |
-| 18033 | Lời nói khích và ngôi vua | Đào Cam Mộc đáp rằng ông ta không sợ chết, vì chính lòng người đã khiến ông ta dám nói. |  |
-| 18034 | Lời nói khích và ngôi vua | Thấy ông ta thật lòng, Lý Công Uẩn mới nói thật, rằng ông chỉ sợ chuyện lộ ra thì cả hai cùng bị giết. |  |
-| 18035 | Lời nói khích và ngôi vua | Hôm sau Đào Cam Mộc lại đến, nói ai cũng bảo họ Lý sắp dựng nghiệp lớn, và Lý Công Uẩn đáp rằng ý ấy giống hệt ý sư Vạn Hạnh. |  |
-| 18036 | Lời nói khích và ngôi vua | Đào Cam Mộc đem chuyện nói với các quan, và họ cùng bàn ngay hôm ấy. |  |
-| 18037 | Lời nói khích và ngôi vua | Các quan nói rằng dân đã chán vua cũ, còn vua mới thì quá nhỏ nên không ai chịu theo. |  |
-| 18038 | Lời nói khích và ngôi vua | Vì thế họ quyết định tôn Lý Công Uẩn lên ngay, kẻo triều đình rối loạn. |  |
-| 18039 | Lời nói khích và ngôi vua | Vậy là ngày hai mươi mốt tháng mười một năm một nghìn không trăm linh chín, cả triều dìu ông lên chính điện. | 1009: ngày Quý Sửu = 21/11/1009 |
-| 18040 | Lời nói khích và ngôi vua | Trăm quan lạy rạp dưới sân và hô vạn tuế, vạn tuế. |  |
-| 18041 | Lời nói khích và ngôi vua | Nhà Tiền Lê mất ngôi, nhà Lý bắt đầu, mà không có một trận đánh nào. |  |
-| 18042 | Lời nói khích và ngôi vua | Sau khi lên ngôi, Lý Công Uẩn tha tội cho nhiều người, và lấy năm sau làm năm đầu niên hiệu Thuận Thiên, nghĩa là thuận theo ý trời. |  |
-| 18043 | Lời nói khích và ngôi vua | Ông ban danh hiệu cho cha mẹ đã mất và lập con trai trưởng là Lý Phật Mã làm thái tử. |  |
-| 18044 | Lời nói khích và ngôi vua | Rồi ông gả con gái lớn cho Đào Cam Mộc. |  |
-| 18045 | Lời nói khích và ngôi vua | Người đã ngỏ lời đầu tiên ấy được phong làm Nghĩa Tín Hầu. |  |
-| 18046 | Lời nói khích và ngôi vua | Từ một viên quan hầu cận, ông ta trở thành người có công lớn của triều mới. |  |
-| 18047 | Lời nói khích và ngôi vua | Có ngôi vua rồi, ông còn một câu hỏi lớn phải trả lời, đó là triều đình mới nên đặt ở đâu. |  |
-| 18048 | Hoa Lư không còn đủ | Kinh đô lúc ấy là Hoa Lư, nơi vua Đinh Bộ Lĩnh dựng cung điện hơn bốn mươi năm trước, giữa những dãy núi đá dựng đứng. |  |
-| 18049 | Hoa Lư không còn đủ | Trong thời loạn, núi đá như bức tường thành, giặc khó đánh vào mà quân mình dễ phòng thủ. |  |
-| 18050 | Hoa Lư không còn đủ | Nhưng nhà vua cho rằng thời bình cần một kinh đô có những cánh cửa mở ra bốn phương. |  |
-| 18051 | Hoa Lư không còn đủ | Kinh đô ấy cần dân cư đông đúc, đường đi thuận tiện và đất rộng để mở mang dần. |  |
-| 18052 | Hoa Lư không còn đủ | Trong khi đó, theo ông, Hoa Lư lại ẩm thấp và chật hẹp. |  |
-| 18053 | Hoa Lư không còn đủ | Nhà vua cũng nhìn lại hai triều trước. |  |
-| 18054 | Hoa Lư không còn đủ | Cả hai đều đóng đô ở Hoa Lư và đều ngắn ngủi. |  |
-| 18055 | Hoa Lư không còn đủ | Nhà Đinh chỉ có hai vua, còn nhà Tiền Lê có ba vua và tồn tại hai mươi chín năm. |  |
-| 18056 | Đại La bên sông | Lý Công Uẩn không muốn đi vào vận ngắn ngủi ấy, nên ông nhìn về thành Đại La bên sông Hồng. |  |
-| 18057 | Đại La bên sông | Đó là tòa thành cũ do tướng Cao Biền của nhà Đường đắp từ năm tám trăm sáu mươi sáu, hơn một trăm bốn mươi năm trước. |  |
-| 18058 | Đại La bên sông | Các quan nhà Đường từng ngồi đó cai trị vùng đất Giao Châu lúc bấy giờ. |  |
-| 18059 | Đại La bên sông | Chính bản chiếu cũng gọi nơi này là thành cũ của Cao Vương, tên gọi khác của Cao Biền. |  |
-| 18060 | Đại La bên sông | Thành có sông Hồng chảy ngay bên cạnh nên thuyền bè nhiều nơi có thể cập bến, còn đất quanh đó thì rộng và bằng phẳng. |  |
-| 18061 | Đại La bên sông | Ở đó kinh đô có thể mở rộng mãi, chứ không bị núi đá bó chặt như Hoa Lư. |  |
-| 18062 | Đại La bên sông | Dời đô là việc rất lớn, vì phải bỏ cung điện cũ và dựng lại từ đầu ở một nơi xa. |  |
-| 18063 | Đại La bên sông | Vì thế nhà vua viết một bản chiếu để thuyết phục cả triều đình. |  |
-| 18064 | Lá chiếu dời đô | Tháng hai âm lịch năm một nghìn không trăm mười, nhà vua về thăm châu Cổ Pháp quê mình và ban tiền lụa cho các cụ già trong làng. | 1010: tháng 2 âm = 17/2–18/3/1010 |
-| 18065 | Lá chiếu dời đô | Cũng trong năm ấy ông sai sứ sang nhà Tống để giữ tình hòa hảo. |  |
-| 18066 | Lá chiếu dời đô | Chiếu mở đầu bằng chuyện xưa của Trung Hoa, rằng nhà Thương năm lần dời đô và nhà Chu ba lần, để mưu nghiệp lớn cho con cháu muôn đời. |  |
-| 18067 | Lá chiếu dời đô | Còn nhà Đinh và nhà Tiền Lê thì cứ yên đóng đô một chỗ, nên vận nước ngắn ngủi và trăm họ hao tổn. |  |
-| 18068 | Lá chiếu dời đô | Chiếu tả Đại La có thế đất như rồng cuộn hổ ngồi, rộng mà bằng phẳng, cao mà sáng sủa, muôn vật đều tươi tốt. |  |
-| 18069 | Lá chiếu dời đô | Cuối chiếu, ông không ra lệnh mà hỏi các quan rằng ông muốn chọn Đại La làm nơi đóng đô, mọi người nghĩ thế nào? |  |
-| 18070 | Lá chiếu dời đô | Các quan đáp rằng nhà vua lập kế lâu dài cho thiên hạ, điều lợi như thế thì ai dám không theo. |  |
-| 18071 | Lá chiếu dời đô | Lý Công Uẩn rất mừng. |  |
-| 18072 | Con thuyền dưới chân thành | Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua rời Hoa Lư, đi thuyền ra Đại La. | 1010: tháng 7 âm = 13/8–10/9/1010 |
-| 18073 | Con thuyền dưới chân thành | Thuyền vừa dừng dưới chân thành thì có người kể rằng một con rồng vàng hiện lên. |  |
-| 18074 | Con thuyền dưới chân thành | Không ai chứng minh được điều đó, nhưng người xưa tin rằng đây là dấu hiệu trời chọn nơi này và chọn vị vua ấy. |  |
-| 18075 | Con thuyền dưới chân thành | Lý Công Uẩn liền đổi tên Đại La thành Thăng Long, nghĩa là rồng bay lên. |  |
-| 18076 | Bốn cánh cửa và các điện | Sau khi dời đô, ông cho dựng điện Càn Nguyên ở phía trước làm nơi họp triều, hai bên là điện Tập Hiền và điện Giảng Võ. |  |
-| 18077 | Bốn cánh cửa và các điện | Sau điện Càn Nguyên là hai điện Long An và Long Thụy. |  |
-| 18078 | Bốn cánh cửa và các điện | Rồi ông cho dựng kho tàng, đắp thành và đào hào. |  |
-| 18079 | Bốn cánh cửa và các điện | Bốn mặt thành mở bốn cửa, cửa phía đông tên Tường Phù, cửa phía tây tên Quảng Phúc, cửa phía nam tên Đại Hưng và cửa phía bắc tên Diệu Đức. |  |
-| 18080 | Bốn cánh cửa và các điện | Không ai ngờ cánh cửa phía tây ấy sẽ còn chứng kiến một biến cố lớn. |  |
-| 18081 | Bốn cánh cửa và các điện | Các nơi cũ cũng được đổi tên để ghi nhớ nguồn gốc. |  |
-| 18082 | Bốn cánh cửa và các điện | Châu Cổ Pháp quê ông thành phủ Thiên Đức, còn Hoa Lư thành phủ Trường Yên. |  |
-| 18083 | Bốn cánh cửa và các điện | Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong, nhân dịp ấy ông miễn thuế cho cả nước ba năm. | 1010: tháng 12 âm = 7/1–5/2/1011 |
-| 18084 | Bốn cánh cửa và các điện | Những người mồ côi, góa bụa, già yếu và nghèo túng mà còn nợ thuế từ lâu cũng được xóa hết nợ. |  |
-| 18085 | Bốn cánh cửa và các điện | Cũng năm ấy nhà Tống phong ông làm Giao Chỉ quận vương. |  |
-| 18086 | Bốn cánh cửa và các điện | Vậy là kinh đô mới vừa dựng đã được nước láng giềng phương bắc công nhận. |  |
-| 18087 | Những năm trị vì | Dời đô chỉ là bước đầu, vì kinh đô chỉ vững khi cả đất nước cũng vững. |  |
-| 18088 | Những năm trị vì | Vì thế ngay năm ấy ông đổi mười đạo thành hai mươi bốn lộ, tức chia đất nước thành các vùng nhỏ hơn cho dễ cai quản. |  |
-| 18089 | Những năm trị vì | Tháng hai âm lịch năm một nghìn không trăm mười một, ông đem quân đi đánh giặc Cử Long ở Ái Châu. | 1010: tháng 2 âm = 17/2–18/3/1010 |
-| 18090 | Những năm trị vì | Hai triều Đinh và Tiền Lê đều không đánh nổi bọn giặc này. |  |
-| 18091 | Những năm trị vì | Nhưng lần ấy nhà vua đốt các bộ lạc của chúng và bắt kẻ đầu sỏ, nên giặc tan. |  |
-| 18092 | Những năm trị vì | Năm một nghìn không trăm mười hai ông thân chinh đi đánh Diễn Châu. |  |
-| 18093 | Những năm trị vì | Trên đường về, đến vùng biển Biện Sơn, trời đất bỗng tối sầm, gió sấm dữ dội. |  |
-| 18094 | Những năm trị vì | Nhà vua đốt hương khấn rằng mình là người ít đức, không dám cậy binh uy mà đánh bừa, chỉ vì Diễn Châu làm điều tàn ngược nên buộc phải đánh. |  |
-| 18095 | Những năm trị vì | Ông xin rằng nếu lỡ giết oan người hiền thì trời cứ trách riêng mình. |  |
-| 18096 | Những năm trị vì | Người ta kể rằng khấn xong gió sấm đều yên lặng. |  |
-| 18097 | Những năm trị vì | Sau chiến trận ông lo việc trong nước, và năm một nghìn không trăm mười ba ông định ra các thứ thuế, chia làm sáu loại. |  |
-| 18098 | Những năm trị vì | Đến tháng giêng âm lịch năm một nghìn không trăm mười bốn, quân của nước Nam Chiếu ở phía tây bắc kéo rất đông vào cướp. | 1014: tháng giêng âm = 3/2–3/3/1014 |
-| 18099 | Những năm trị vì | Họ đóng trại ở bến Kim Hoa. |  |
-| 18100 | Những năm trị vì | Nhà vua sai Dực Thánh Vương, một vị vương trong hoàng tộc, đem quân đánh thắng lớn. |  |
-| 18101 | Những năm trị vì | Quân của nhà vua bắt được rất nhiều quân và ngựa của đối phương. |  |
-| 18102 | Những năm trị vì | Ông cho đem một trăm con ngựa bắt được sang biếu nhà Tống, và vua Tống ban thưởng mũ, đai, tiền bạc cho sứ giả. |  |
-| 18103 | Những năm trị vì | Bên cạnh việc quân, nhà vua dốc sức cho Phật giáo. |  |
-| 18104 | Những năm trị vì | Ông cho xây nhiều chùa, đúc chuông, chép kinh Tam tạng, và cho hơn một nghìn người ở kinh đô đi tu. |  |
-| 18105 | Những năm trị vì | Điều ấy không lạ, vì ông từng lớn lên bên nhà thiền sư và suốt thời trị vì vẫn coi trọng đạo Phật. |  |
-| 18106 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười lăm, Đào Cam Mộc, người từng khuyên ông lên ngôi, qua đời và được tặng chức Thái sư á vương. | 1015: tháng giêng âm = 23/1–21/2/1015 |
-| 18107 | Điện Long An | Mười tám năm đã trôi qua từ ngày dời đô, và kinh thành Thăng Long đã có cung điện, có thành, có bốn cửa mở ra bốn phương. |  |
-| 18108 | Điện Long An | Thái tử Lý Phật Mã đã trưởng thành và từng thay cha cầm quân đi đánh các nơi, còn nhà vua bước vào năm cuối đời. |  |
-| 18109 | Điện Long An | Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Công Uẩn không khỏe. | 1010: tháng 2 âm = 17/2–18/3/1010 |
-| 18110 | Điện Long An | Đến mồng một tháng ba, tức ngày hai mươi chín tháng ba, nhật thực che khuất mặt trời giữa ban ngày. | 1028: mồng 1 tháng 3 (Bính Thân) = 29/3/1028 |
-| 18111 | Điện Long An | Hai ngày sau, ngày ba mươi mốt tháng ba, ông mất ngay tại điện Long An do chính ông dựng. | 1028: ngày Mậu Tuất = 31/3/1028 |
-| 18112 | Điện Long An | Ông thọ năm mươi lăm tuổi theo cách tính của người xưa, ở ngôi mười tám năm và được an táng ở Thọ Lăng. |  |
-| 18113 | Cánh cửa Quảng Phúc | Nhà Lý chưa kịp lo xong tang lễ, mối nguy đã nổ ra ngay trong hoàng tộc. |  |
-| 18114 | Cánh cửa Quảng Phúc | Điểm mai phục chính là cửa Quảng Phúc, cánh cửa phía tây do chính vua cha dựng. |  |
-| 18115 | Cánh cửa Quảng Phúc | Ba vị vương là Đông Chinh Vương, Dực Thánh Vương và Vũ Đức Vương đem quân giấu sẵn trong thành, định bất ngờ tấn công thái tử Lý Phật Mã. |  |
-| 18116 | Cánh cửa Quảng Phúc | Thái tử đi vào từ cửa Tường Phù. |  |
-| 18117 | Cánh cửa Quảng Phúc | Đến điện Càn Nguyên, ông phát hiện có âm mưu nổi loạn, liền ra lệnh đóng chặt các cửa và bố trí phòng giữ. |  |
-| 18118 | Cánh cửa Quảng Phúc | Ông không muốn anh em giết nhau khi linh cữu vua cha còn chưa được an táng. |  |
-| 18119 | Cánh cửa Quảng Phúc | Vì thế thái tử đành mặc áo tang đứng hầu, giao toàn quyền quyết định cho các quan. |  |
-| 18120 | Cánh cửa Quảng Phúc | Viên nội thị Lý Nhân Nghĩa cùng các quan lạy hai lạy, rồi lập tức mở cửa cho lính canh trong cung xông ra. |  |
-| 18121 | Cánh cửa Quảng Phúc | Hai bên giao chiến mãi chưa phân thắng bại, thì tướng Lê Phụng Hiểu rút gươm, chạy thẳng tới cửa Quảng Phúc. |  |
-| 18122 | Cánh cửa Quảng Phúc | Ông xông thẳng ra ngoài, bắt và giết Vũ Đức Vương. |  |
-| 18123 | Cánh cửa Quảng Phúc | Quân phản loạn thua chạy, cuộc nổi loạn bị dẹp yên. |  |
-| 18124 | Cánh cửa Quảng Phúc | Lê Phụng Hiểu vẫn mặc nguyên áo giáp, vào báo tin thắng trước linh cữu vua cha. |  |
-| 18125 | Cánh cửa Quảng Phúc | Sau đó ông sang điện Càn Nguyên báo cho thái tử. |  |
-| 18126 | Cánh cửa Quảng Phúc | Thái tử lên ngôi, tức vua Lý Thái Tông. |  |
-| 18127 | Kết | Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, những nơi diễn ra ngày hôm ấy, đều do Lý Công Uẩn dựng năm một nghìn không trăm mười. |  |
-| 18128 | Kết | Khi dựng chúng, ông đã viết trong bản chiếu rằng nhà Đinh và nhà Tiền Lê vận nước ngắn ngủi vì cứ yên đóng đô một chỗ. |  |
-| 18129 | Kết | Không ai biết ông có nghĩ trước đến ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám ấy hay không. | 1028: 31/3/1028 |
-| 18130 | Kết | Nhưng đến ngày ấy, kinh đô do ông dựng vẫn đứng vững. |  |
-| 18131 | Kết | Cuộc tranh ngôi trong hoàng tộc đã kết thúc ngay tại cánh cửa phía tây mà ông từng dựng. |  |
-| 18132 | Kết | Mười tám năm trước, ông chỉ hỏi các quan một câu, rằng nếu chọn Đại La làm kinh đô thì mọi người nghĩ thế nào. |  |
-| 18133 | Kết | Từ câu hỏi ấy, nhà Lý có một kinh đô để giữ ngôi hơn hai trăm năm. |  |
-| 18134 | Kết | Còn cái tên Thăng Long thì sống lâu hơn cả triều đại của ông. |  |
+- Số đoạn và số hiệu giữ nguyên 18001 đến 18134 như bản chủ kênh. Chỉ rút ngắn nhẹ hoặc đổi dấu câu ở 24 đoạn để qua bộ kiểm giọng đọc (đoạn tối đa 32 chữ, không hai chấm, không gạch, không chữ số): 18006, 18009, 18034, 18035, 18042, 18044, 18047, 18057, 18066, 18069, 18071, 18076, 18079, 18083, 18094, 18097, 18108, 18116, 18127, 18129.
+- Đổi nghĩa nhẹ: 18042 "đại xá" thành "tha tội và giảm thuế cho cả nước"; 18044 thêm lý do gả công chúa; 18116 thêm "nằm ở phía đông kinh thành".
+- Còn 19 cảnh báo nhẹ (đoạn 31 đến 32 chữ, vài đoạn ngắn hoặc nhiều dấu phẩy), không phải lỗi.
+- Chi tiết dân gian đã ghi rõ là lời truyền: sấm trái khế (18021), rồng vàng bay lên (18073), lời khấn lúc bão (18096). Giữ ghi chú "theo lời truyền" trên màn hình.
+- Cần đối chiếu Toàn thư trước khi đọc giọng: 18009 (sư Vạn Hạnh tiên đoán), 18105 ("trọn kiếp vì Phật môn"), 18127 (cửa và điện do Lý Công Uẩn xây từ năm một nghìn không trăm mười).

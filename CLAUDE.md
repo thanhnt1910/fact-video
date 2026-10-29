@@ -29,3 +29,11 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 - Mọi video (dài và ngắn, mọi series) đọc bằng giọng Gemini **Sadaltager**: workflow `thu-giong-hai.yml` với `-f voices=Sadaltager`. Không đổi sang Puck hay giọng khác nếu chủ kênh chưa yêu cầu.
 - Cả video chỉ một giọng, một mô hình, cùng `cum.txt` (xem mục "Giọng đọc đồng đều"). Video ly1 dựng thử bằng Puck cũ chỉ là bản xem trước hình ảnh; bản giao phải đọc lại bằng Sadaltager.
 - Kịch bản mới (lt1 và sau) ghi sẵn trong mục "Việc cần chủ kênh quyết" rằng giọng là Sadaltager.
+
+## Nhân vật chibi: dùng LoRA Muapi (chủ kênh chọn 29/10/2026, áp dụng khi làm video kiểu chibi)
+
+- Kết quả thử nằm ở `logs/chibi/` (`tong_hop.jpg`, ảnh từng kiểu); mã thử: `kaggle_chibi_thu.py`, workflow `chibi-thu.yml` (kích hoạt bằng cách đẩy `ke-hoach/thu-giong-hai/chibi_thu.txt`).
+- **Kiểu được chọn:** FLUX.1 schnell (GGUF Q8) + LoRA `Muapi/chibi-characters-flux-dev`, câu mở đầu prompt `A vibrant chibi-style illustration`, độ mạnh LoRA thử ở 1,0. Vẽ trên Kaggle (GPU miễn phí), không dùng Gemini (để dành hạn mức cho giọng đọc).
+- **Đã biết:** LoRA này làm khuôn mặt các nhân vật hơi giống nhau. Mỗi cảnh phải mô tả riêng từng người (tuổi, râu tóc, màu áo) và soi bằng mắt ở cỡ lớn; cảnh nhiều người nên thử hạ độ mạnh xuống khoảng 0,6 rồi so sánh.
+- **Không dùng:** `LoliOverflow/chibi` (LoRA của Stable Diffusion, không nạp được vào FLUX). Kiểu "không LoRA" chỉ ghi trong câu lệnh là phương án dự phòng khi cần nhân vật khác mặt nhau.
+- Các quy tắc ảnh của series (không chữ, không máu, đúng thời, không hai người giống hệt, soi ảnh cỡ lớn) vẫn áp dụng cho ảnh chibi.

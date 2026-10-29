@@ -160,8 +160,8 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.208 chữ, khoảng 17,8 phút �
 | 18130 | Kết | Dù thế nào đi nữa, kinh đô kiên cố mà ông tâm huyết xây dựng vẫn đứng vững qua bao thăng trầm của lịch sử. |
 | 18131 | Kết | Trận huynh đệ tương tàn đã vùi thây ngay trước cánh cửa phía tây do chính hoàng đế thiết kế. |
 | 18132 | Kết | Mười tám năm trước đó, nhà vua đã khéo léo dò hỏi quần thần rằng nếu đổi Đại La làm kinh đô thì lòng bá quan có thuận phục hay không. |
-| 18133 | Kết | Khởi nguồn từ một câu hỏi khéo léo ấy, nhà Lý đã có một thủ đô vững chãi để duy trì cơ nghiệp suốt hai thế kỷ rực rỡ. |
-| 18134 | Kết | Còn mỹ danh Thăng Long thì kiêu hãnh trường tồn vượt qua cả sự hữu hạn của vương triều. |
+| 18133 | Kết | Khởi nguồn từ một câu hỏi khéo léo ấy, nhà Lý đã có một thủ đô vững chãi để duy trì cơ nghiệp suốt hai thế kỷ. |
+| 18134 | Kết | Còn cái tên Thăng Long thì vẫn trường tồn, sống lâu hơn cả triều đại của ông. |
 
 ## Ghi chú
 

@@ -37,7 +37,7 @@ jobs:
         with: { python-version: "3.12" }
       - uses: ./.github/actions/cai-dat
         with:
-          pip: "numpy pillow scipy"
+          pip: "numpy pillow scipy cairosvg"
       - name: Dựng đoạn ${{ matrix.idx }}
         working-directory: phim_ban_do
         run: |
@@ -81,7 +81,7 @@ jobs:
         with: { python-version: "3.12" }
       - uses: ./.github/actions/cai-dat
         with:
-          pip: "numpy pillow scipy"
+          pip: "numpy pillow scipy cairosvg"
       - uses: actions/download-artifact@v4
         with:
           path: doan

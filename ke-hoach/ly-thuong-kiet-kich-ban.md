@@ -20,18 +20,18 @@ Mã `lt1`, 100 đoạn (19001–19100), 2129 chữ, khoảng 11.8 phút ở 3 ch
 | Chương | Đoạn | Nội dung | Độ chắc và nguồn |
 |---|---|---|---|
 | Thành bị vây | 19001–19004 | Hook: vượt biên giới, vây thành 40 ngày, bao đất | khớp Toàn thư (Bản kỷ III, năm Ất Mão 1075) |
-| Người hầu cận trong cung | 19005–19010 | Thái Hòa, hoàng môn chi hậu, nội thị sảnh đô tri, thái bảo, tiết việt, Thanh Hóa, Nghệ An | khớp phần chép sau khi ông mất (Toàn thư, Ất Dậu 1105); **năm sinh bỏ khỏi lời kể** (các sách ghi 1019 hoặc 1030, chưa chắc) |
-| Mặt trận phía nam | 19011–19022 | 1069 vua thân chinh, tiên phong, Cư Liên, Ỷ Lan, Chế Củ và 5 vạn dân, dâng ba châu, phụ quốc thái phó | khớp Toàn thư (Kỷ Dậu 1069 và đoạn chép sau khi ông mất) |
+| Người hầu cận trong cung | 19005–19011 | Thái Hòa, hoàng môn chi hậu, nội thị sảnh đô tri, thái bảo, tiết việt, Thanh Hóa, Nghệ An | khớp phần chép sau khi ông mất (Toàn thư, Ất Dậu 1105); **năm sinh bỏ khỏi lời kể** (các sách ghi 1019 hoặc 1030, chưa chắc) |
+| Mặt trận phía nam | 19012–19022 | 1069 vua thân chinh, tiên phong, Cư Liên, Ỷ Lan, Chế Củ và 5 vạn dân, dâng ba châu, phụ quốc thái phó | khớp Toàn thư (Kỷ Dậu 1069 và đoạn chép sau khi ông mất) |
 | Một đứa trẻ bảy tuổi | 19023–19028 | 1072 Nhân Tông 7 tuổi, Ỷ Lan, thái hậu họ Dương, Lý Đạo Thành; 1075 đánh Chiêm không thắng, vẽ địa đồ ba châu, thái úy | khớp Toàn thư (Nhâm Tý 1072, Ất Mão 1075 mùa thu) |
-| Tin từ phía bắc | 19029–19036 | Vương An Thạch, Thẩm Khởi, Lưu Di ở Quế Châu, đóng thuyền, cấm buôn bán, Lý Thường Kiệt và Tông Đản; lời tuyên bố phép thanh miêu | khớp Toàn thư; lý do thật của chiến tranh ghi rõ là **lời sử Đại Việt chép**, người nay còn bàn |
-| Đi trước một bước | 19037–19043 | Hai đạo thủy bộ hơn 10 vạn quân, Khâm Liêm, Ung, cửa ải Côn Lôn, Trương Thủ Tiết bị chém | khớp Toàn thư; **số quân 10 vạn là số của Toàn thư**; Cương mục không chép số này |
-| Bốn mươi ngày bên tường thành | 19044–19053 | Tô Giám, vây trên 40 ngày, bao đất, thành hạ, 36 người nhà, 5 vạn 8 nghìn, 10 vạn, bắt sống người ba châu, thụy Trung Dũng, lời Ngô Sĩ Liên | khớp Toàn thư; **con số người chết là của sử Đại Việt, nguồn Trung Hoa chép khác**, lời kể đã nói rõ |
-| Quân Tống kéo xuống | 19054–19059 | Quách Quỳ, Triệu Tiết, chín tướng, Chiêm Thành, Chân Lạp, cuối năm 1076 | khớp Toàn thư (nhưng Toàn thư ghi nhầm tháng 3 năm 1076, Cương mục sửa; lời kể chỉ nói "cuối năm") |
+| Tin từ phía bắc | 19029–19037 | Vương An Thạch, Thẩm Khởi, Lưu Di ở Quế Châu, đóng thuyền, cấm buôn bán, Lý Thường Kiệt và Tông Đản; lời tuyên bố phép thanh miêu | khớp Toàn thư; lý do thật của chiến tranh ghi rõ là **lời sử Đại Việt chép**, người nay còn bàn |
+| Đi trước một bước | 19038–19044 | Hai đạo thủy bộ hơn 10 vạn quân, Khâm Liêm, Ung, cửa ải Côn Lôn, Trương Thủ Tiết bị chém | khớp Toàn thư; **số quân 10 vạn là số của Toàn thư**; Cương mục không chép số này |
+| Bốn mươi ngày bên tường thành | 19045–19054 | Tô Giám, vây trên 40 ngày, bao đất, thành hạ, 36 người nhà, 5 vạn 8 nghìn, 10 vạn, bắt sống người ba châu, thụy Trung Dũng, lời Ngô Sĩ Liên | khớp Toàn thư; **con số người chết là của sử Đại Việt, nguồn Trung Hoa chép khác**, lời kể đã nói rõ |
+| Quân Tống kéo xuống | 19055–19059 | Quách Quỳ, Triệu Tiết, chín tướng, Chiêm Thành, Chân Lạp, cuối năm 1076 | khớp Toàn thư (nhưng Toàn thư ghi nhầm tháng 3 năm 1076, Cương mục sửa; lời kể chỉ nói "cuối năm") |
 | Phòng tuyến sông Như Nguyệt | 19060–19070 | Sông Cầu, hàng rào, quân Tống chết trên 1000, đền hai anh em họ Trương, bài thơ, Quách Quỳ lui và lấy Quảng Nguyên | khớp Toàn thư; hàng rào và bài thơ là **chuyện người đời truyền** (Toàn thư ghi trong ngoặc) |
-| Cuộc giằng co | 19071–19077 | Quân Tống không vượt sông, bệnh tật, hơn 8 vạn chết quá nửa, xin hòa, giữ lại 4 châu, khoảng năm 1077 | Việt sử lược và Cương mục; **số 8 vạn và "quá nửa" chỉ là tài liệu thứ cấp, lời kể ghi "có sách chép"**; tháng ngừng chiến không rõ |
-| Sau chiến tranh | 19078–19085 | 1078 Đào Tống Nguyên cống 5 voi, 1079 trả Thuận Châu, 1081 trả tù binh, 1084 Lê Văn Thịnh, 6 huyện 3 động, câu thơ người Tống | khớp Toàn thư (các năm Mậu Ngọ, Kỷ Mùi, Tân Dậu, Giáp Tý) |
-| Những năm cuối | 19086–19094 | Thái úy, 1101 kiêm chức, 1103 Lý Giác, 1104 Chế Ma Na, mất tháng 6 năm 1105, Việt quốc công, Lý Thường Hiến | khớp Toàn thư (các năm Tân Tỵ, Quý Mùi, Giáp Thân, Ất Dậu) |
-| Trở lại bên tường thành | 19095–19100 | Ba đời vua, hai chấm Ung Châu và Như Nguyệt, bài thơ | nối các chương trên; "khoảng một năm" giữa hai trận là tính gần đúng |
+| Cuộc giằng co | 19071–19078 | Quân Tống không vượt sông, bệnh tật, hơn 8 vạn chết quá nửa, xin hòa, giữ lại 4 châu, khoảng năm 1077 | Việt sử lược và Cương mục; **số 8 vạn và "quá nửa" chỉ là tài liệu thứ cấp, lời kể ghi "có sách chép"**; tháng ngừng chiến không rõ |
+| Sau chiến tranh | 19079–19086 | 1078 Đào Tống Nguyên cống 5 voi, 1079 trả Thuận Châu, 1081 trả tù binh, 1084 Lê Văn Thịnh, 6 huyện 3 động, câu thơ người Tống | khớp Toàn thư (các năm Mậu Ngọ, Kỷ Mùi, Tân Dậu, Giáp Tý) |
+| Những năm cuối | 19087–19095 | Thái úy, 1101 kiêm chức, 1103 Lý Giác, 1104 Chế Ma Na, mất tháng 6 năm 1105, Việt quốc công, Lý Thường Hiến | khớp Toàn thư (các năm Tân Tỵ, Quý Mùi, Giáp Thân, Ất Dậu) |
+| Trở lại bên tường thành | 19096–19100 | Ba đời vua, hai chấm Ung Châu và Như Nguyệt, bài thơ | nối các chương trên; "khoảng một năm" giữa hai trận là tính gần đúng |
 
 ## Chi tiết đã bỏ khỏi lời kể (nghi vấn hoặc chỉ có ở nguồn thứ cấp)
 
@@ -47,7 +47,7 @@ Mã `lt1`, 100 đoạn (19001–19100), 2129 chữ, khoảng 11.8 phút ở 3 ch
 
 ## Cảnh bản đồ và cảnh vector
 
-Tổng 100 đoạn, **24 đoạn cảnh vector** (cột "Cảnh" bắt đầu bằng "vector:") và **76 đoạn bản đồ**, ghi chú nhỏ (số liệu lệch giữa các nguồn, chuyện truyền lại) là khung chú thích trên bản đồ. Tỉ lệ vector khoảng 24 phần trăm (ly1 là 79 phần trăm); chủ kênh quyết định có đẩy bản đồ lên khoảng 30 đến 40 phần trăm không.
+Tổng 100 đoạn, **24 đoạn cảnh vector** (cột "Cảnh" bắt đầu bằng "vector:") và **76 đoạn bản đồ**, ghi chú nhỏ (số liệu lệch giữa các nguồn, chuyện truyền lại) là khung chú thích trên bản đồ. Tỉ lệ vector khoảng 24 phần trăm, bản đồ khoảng 76 phần trăm (ly1 là 79 phần trăm vector, nên video này nghiêng về bản đồ); chủ kênh quyết định có đẩy bản đồ lên khoảng 30 đến 40 phần trăm không.
 
 Hướng bản đồ gợi ý (dùng lại bản đồ ly1, thêm vùng):
 - **Mở rộng phía bắc:** cần Quế Châu, Ung Châu (Nam Ninh), Khâm Châu, Liêm Châu, cửa ải Côn Lôn, Quảng Nguyên, sông Cầu (Như Nguyệt). Tọa độ cần kiểm lại khi dựng.

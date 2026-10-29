@@ -591,6 +591,8 @@ def frame(t):
             if -200<x<W*K+200 and -200<y<H*K+200: tag(d,x,y-ik*(3.6+0.8*(1-ease(k))),txt,col,int(26*K*min(1.3,z**0.2)))
     ov=ov.resize((W,H),Image.BILINEAR)
     out=Image.alpha_composite(im,ov)
+    if os.environ.get('LYX'):
+        import ly1_extra as _X;out=_X.apply_map(out,t,v,GROUPS,path_pos,C)
     n_=curve(C.NIGHT,t,0.0)
     if n_>0.01:
         arr=np.asarray(out.convert('RGB'),np.float32)
@@ -682,6 +684,8 @@ def frame(t):
         if t0<=t<=t1:
             if ('_in',ii) not in CARDL: CARDL[('_in',ii)]=M3.inter_layer(kind,dat)
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.5));out=comp(out,CARDL[('_in',ii)],(0,0),ease(k))
+    if os.environ.get('LYX'):
+        import ly1_extra as _X;out=_X.apply_top(out,t,C)
     sl,sa=B.sub_at(t)
     if os.environ.get('DOC2'):
         import doc2 as D2

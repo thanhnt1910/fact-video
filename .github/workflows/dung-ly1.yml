@@ -13,6 +13,7 @@ permissions:
 
 env:
   NPROC: 4
+  LYX: 1
   SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/ly1_full.json
   VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/ly1_chuan
   WORLD: ${{ github.workspace }}/phim_ban_do/world7.jpg

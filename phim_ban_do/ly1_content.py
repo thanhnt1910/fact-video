@@ -301,3 +301,8 @@ SFX=[(R(40,0.2),'trumpet'),(R(85,0.2),'horn'),(R(112,3.0),'gong')]
 SFX_GROUPS=['Sứ Tống phong vương','Sứ mang ngựa biếu nhà Tống','Sứ sang nhà Tống','Đoàn vua về Cổ Pháp','Thuyền vua ra Đại La','Thuyền đi đánh Diễn Châu']
 _s0=at(93,'tối sầm')-0.3
 for _m in range(int(_s0/2.6)+1,int(E(95,0)/2.6)+1): SFX.append((_m*2.6+0.45,'thunder'))
+COMPARE=(304.3,311.0)
+
+# ---- 8 cảnh vector (ly1_scenes.py) chèn toàn khung theo lời kể
+for _a,_b,_k,_z in [(24,24,1,(0.86,0.9)),(17,17,2,(0.86,0.9)),(30,30,3,(0.9,0.86)),(39,40,4,(0.86,0.92)),(63,63,5,(0.86,0.92)),(69,69,5,(0.92,0.86)),(79,79,6,(0.86,0.9)),(94,94,7,(0.86,0.92)),(110,110,8,(0.86,0.92))]:
+    INTER.append(PIC(_a,_b,'vec%d.jpg'%_k,*_z))

@@ -13,4 +13,4 @@ tổng khung 18846 đoạn 15 17668 18846
 900 1178
 xong
 + ls -la doan_15.mp4
--rw-r--r-- 1 runner runner 8874454 Oct 29 02:29 doan_15.mp4
+-rw-r--r-- 1 runner runner 8207674 Oct 29 02:54 doan_15.mp4

@@ -147,7 +147,7 @@ def main():
         w = len(p.split())
         if w > 175:
             warn.append((n, w))
-        items.append({"n": n, "lora": float(lora.replace(",", ".")), "seed": n, "prompt": p})
+        items.append({"n": n, "lora": 0.0, "seed": n, "prompt": p})
     OUT.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Ghi {len(items)} prompt -> {OUT}; dài nhất {max(len(i['prompt'].split()) for i in items)} từ; cảnh báo dài >175 từ: {warn}")
 

@@ -30,10 +30,10 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 - Cả video chỉ một giọng, một mô hình, cùng `cum.txt` (xem mục "Giọng đọc đồng đều"). Video ly1 dựng thử bằng Puck cũ chỉ là bản xem trước hình ảnh; bản giao phải đọc lại bằng Sadaltager.
 - Kịch bản mới (lt1 và sau) ghi sẵn trong mục "Việc cần chủ kênh quyết" rằng giọng là Sadaltager.
 
-## Nhân vật chibi: dùng LoRA Muapi (chủ kênh chọn 29/10/2026, áp dụng khi làm video kiểu chibi)
+## Nhân vật chibi: vẽ KHÔNG LoRA (chủ kênh đổi lại 29/10/2026 sau khi xem ảnh thật, áp dụng khi làm video kiểu chibi)
 
-- Kết quả thử nằm ở `logs/chibi/` (`tong_hop.jpg`, ảnh từng kiểu); mã thử: `kaggle_chibi_thu.py`, workflow `chibi-thu.yml` (kích hoạt bằng cách đẩy `ke-hoach/thu-giong-hai/chibi_thu.txt`).
-- **Kiểu được chọn:** FLUX.1 schnell (GGUF Q8) + LoRA `Muapi/chibi-characters-flux-dev`, câu mở đầu prompt `A vibrant chibi-style illustration`, độ mạnh LoRA thử ở 1,0. Vẽ trên Kaggle (GPU miễn phí), không dùng Gemini (để dành hạn mức cho giọng đọc).
-- **Đã biết:** LoRA này làm khuôn mặt các nhân vật hơi giống nhau. Mỗi cảnh phải mô tả riêng từng người (tuổi, râu tóc, màu áo) và soi bằng mắt ở cỡ lớn; cảnh nhiều người nên thử hạ độ mạnh xuống khoảng 0,6 rồi so sánh.
-- **Không dùng:** `LoliOverflow/chibi` (LoRA của Stable Diffusion, không nạp được vào FLUX). Kiểu "không LoRA" chỉ ghi trong câu lệnh là phương án dự phòng khi cần nhân vật khác mặt nhau.
-- Các quy tắc ảnh của series (không chữ, không máu, đúng thời, không hai người giống hệt, soi ảnh cỡ lớn) vẫn áp dụng cho ảnh chibi.
+- Kết quả thử nằm ở `logs/chibi/tong_hop.jpg` (hàng trên: không LoRA; hàng giữa: LoRA Muapi). Chủ kênh chọn hàng trên vì đẹp và rõ nét hơn: LoRA Muapi (độ mạnh 1,0 và 0,6) làm mặt tròn như bánh, mắt chấm, màu nhợt, các nhân vật giống nhau.
+- **Kiểu được chọn:** FLUX.1 schnell (GGUF Q8), KHÔNG nạp LoRA; kiểu vẽ chỉ nằm trong câu lệnh, câu mở đầu prompt `A vibrant chibi-style illustration`. Vẽ trên Kaggle (GPU miễn phí), không dùng Gemini (để dành hạn mức cho giọng đọc). Trong `*_chibi.json` đặt `"lora": 0.0` cho mọi cảnh (mã `kaggle_chibi_ve.py` tự bỏ qua bước nạp LoRA).
+- **Không dùng:** `Muapi/chibi-characters-flux-dev` (ảnh xấu như trên); `LoliOverflow/chibi` (LoRA của Stable Diffusion, không nạp được vào FLUX).
+- Mã thử: `kaggle_chibi_thu.py`, workflow `chibi-thu.yml`; mã vẽ hàng loạt: `kaggle_chibi_ve.py`, workflow `chibi-ve.yml` (đẩy `ke-hoach/chibi/chay_<mã>.txt`).
+- Mỗi cảnh vẫn phải mô tả riêng từng người (tuổi, râu tóc, màu áo) và soi bằng mắt ở cỡ lớn. Các quy tắc ảnh của series (không chữ, không máu, đúng thời, không hai người giống hệt, soi ảnh cỡ lớn) vẫn áp dụng.

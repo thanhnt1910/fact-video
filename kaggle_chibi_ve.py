@@ -1,4 +1,4 @@
-"""Vẽ hàng loạt ảnh chibi cho một video: FLUX.1 schnell (GGUF Q8) + LoRA Muapi/chibi-characters-flux-dev trên GPU Kaggle miễn phí.
+"""Vẽ hàng loạt ảnh chibi cho một video: FLUX.1 schnell (GGUF Q8) trên GPU Kaggle miễn phí; không LoRA (chủ kênh chốt 29/10/2026) khi mọi cảnh có độ mạnh 0.
 
   python kaggle_chibi_ve.py lt1                      -> vẽ mọi cảnh trong ke-hoach/chibi/lt1_chibi.json
   python kaggle_chibi_ve.py lt1 chi_ve=19004,19024   -> chỉ vẽ lại các đoạn này
@@ -62,12 +62,14 @@ pipe.to("cuda")
 log("tải xong FLUX.1 schnell Q8")
 lora_ok = False
 try:
+    if not any(float(i["lora"]) > 0 for i in ITEMS):
+        raise RuntimeError("không dùng LoRA (mọi cảnh độ mạnh 0)")
     fs = [f for f in HfApi().list_repo_files(LORA_REPO) if f.endswith(".safetensors")]
     log("file trong", LORA_REPO, fs)
     pipe.load_lora_weights(hf_hub_download(LORA_REPO, fs[0]), adapter_name="chibi")
     lora_ok = True; log("nạp LoRA xong")
 except Exception as e:
-    log("LỖI nạp LoRA, vẽ không LoRA:", repr(e)[:400]); traceback.print_exc()
+    log("vẽ KHÔNG LoRA:", repr(e)[:400])
 lats = {}; loi = []
 for it in sorted(ITEMS, key=lambda x: x["lora"]):
     n = it["n"]

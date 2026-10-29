@@ -1,1 +1,4 @@
 chay
+
+
+# lần 2: không LoRA

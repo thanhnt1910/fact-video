@@ -153,21 +153,31 @@ def _():
 def _():
     bg=NIGHT_DEF+'<rect x="-400" y="-300" width="2400" height="1700" fill="url(#skyn)"/><circle cx="1350" cy="120" r="50" fill="#f6f0cf"/>'
     bg+=palace(420,720,560,240,'#7a2a1c','#a89068')+'<rect x="-400" y="720" width="2400" height="500" fill="#3a3a44"/>'
-    bg+=gate(1150,720,1.2,0)+'<rect x="900" y="560" width="120" height="160" fill="#b99a64" stroke="#2a1608" stroke-width="4"/>'
+    bg+=gate(1150,720,1.2,0)
     def fg(t,u,ms):
         o=stars(t,30,7,300)
         for x in (200,400,600): o+=flag(x,420,t,90,56,WHITE,300,x*.01,trim='#ddd')
         o+=torch(960,640,t,1.3,0)+torch(1340,640,t,1.3,2)
-        # lính mai phục lấp ló sau tường
-        for i in range(9):
-            x=780+i*60;a=sstep(t,ms[1]-.5,ms[1]+1.5)
-            yy=560+(1-a)*60
-            o+=f'<g transform="translate({x},{yy:.0f})"><path d="M-16,40 Q-16,0 0,-6 Q16,0 16,40Z" fill="#c4742c" stroke="{OUT}" stroke-width="2"/><ellipse cx="0" cy="-20" rx="13" ry="14" fill="#7d8896" stroke="{OUT}" stroke-width="2"/></g>'
-            o+=f'<rect x="{x+10}" y="{yy-70:.0f}" width="4" height="90" fill="#5a3a20"/><path d="M{x+8},{yy-70:.0f} l4,-20 l4,20z" fill="#cfd4da" stroke="{OUT}" stroke-width="1.5"/>'
-        # ba vị vương
+        # lính mai phục nấp sau tường thành, đứng dậy từ từ, giáo dựng đứng
+        a=sstep(t,ms[1]-.5,ms[1]+1.8)
+        rob=['#4a525c','#5a4a3a','#3e5a4a','#5a3a3a']
+        pts=[(790+i*92,0) for i in range(11) if not 1030<790+i*92<1280]
+        sold=''
+        for i,(x,_) in enumerate(pts):
+            row=i%2
+            yb=700+row*10+(1-a)*30
+            sw=3*math.sin(t*1.7+i)
+            sold+=f'<rect x="{x+22+sw*.1:.0f}" y="{yb-250:.0f}" width="5" height="190" fill="#5a3a20" stroke="{OUT}" stroke-width="1.5"/><path d="M{x+20+sw*.1:.0f},{yb-250:.0f} l4.5,-34 l4.5,34z" fill="#d6dae0" stroke="{OUT}" stroke-width="2"/><path d="M{x+23:.0f},{yb-232:.0f} q12,6 14,22 q-10,-8 -14,-8z" fill="#b22a2a" opacity=".85"/>'
+            sold+=P(x,yb,.82-row*.04,t,'idle',p=i*.9,robe=rob[i%4],hat='helm',armor=True,trim='#b22a2a',hands='sleeve',face=-1)
+        o+=f'<g opacity="{sstep(t,ms[1]-.6,ms[1]+.6):.2f}">'+sold+'</g>'
+        # tường thành che nửa người lính
+        o+=f'<g stroke="{OUT}" stroke-width="4"><rect x="700" y="662" width="340" height="70" fill="#8d7a56"/><rect x="1270" y="662" width="430" height="70" fill="#8d7a56"/>'+''.join(f'<rect x="{x}" y="636" width="46" height="30" fill="#8d7a56"/>' for x in list(range(706,1030,92))+list(range(1282,1700,92)))+'<path d="M700,700 H1040 M1270,700 H1700" stroke="#6a5a3c" stroke-width="3" fill="none"/></g>'
+        # ba vị vương gia: dáng và y phục khác nhau, đứng cách xa nhau, không đè lên lính
         b=sstep(t,ms[2]-.2,ms[2]+1.2)
-        for i,(x,rb) in enumerate([(1010,'#c4742c'),(1090,'#d98a3a'),(1170,'#a8523a')]):
-            o+=P(x,820,1.2,t,'talk',p=i*2,robe=rb,trim='#f2c94c',hat='crown',hands='hold',face=-1 if i==0 else 1)
+        for i,(x,rb,ht,fc) in enumerate([(760,'#a8523a','crown',-1),(560,'#c4742c','helm',1),(950,'#5a4a7a','cap',-1)]):
+            pass
+        for i,(x,rb,ht,fc,sc) in enumerate([(640,'#c4742c','crown',1,1.3),(840,'#a8523a','helm',1,1.2),(1040,'#5a4a7a','cap',-1,1.25)]):
+            o+=P(x,860,sc,t,'talk',p=i*2,robe=rb,trim='#f2c94c',hat=ht,hands='hold',face=fc,armor=(ht=='helm'))
         return o
     return bg,fg,lambda u,t:(lerp(500,1050,ease(seg(u,.1,.7))),600,lerp(1.1,1.7,ease(seg(u,.5,1))))
 @scene('thai_tu_vao')

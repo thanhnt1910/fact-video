@@ -13,4 +13,4 @@ tổng khung 18846 đoạn 13 15312 16490
 900 1178
 xong
 + ls -la doan_13.mp4
--rw-r--r-- 1 runner runner 4070725 Oct 29 00:57 doan_13.mp4
+-rw-r--r-- 1 runner runner 11170485 Oct 29 02:28 doan_13.mp4

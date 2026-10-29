@@ -673,8 +673,14 @@ def frame(t):
         if t0<=t<=t1 and kind=='vsvg':
             import ly1_anim as _A, ly1_s1,ly1_s2,ly1_s3,ly1_s4,ly1_s5,ly1_s6
             _fr=_A.render(dat['name'],t-t0,t1-t0,W,H,dat['ms']).convert('RGBA')
-            k=min(clamp((t-t0)/max(dat.get('fi',0.35),0.01)),clamp((t1-t)/max(dat['fo'],0.01)) if dat.get('fo',0.35)>0 else 1.0)
-            out=comp(out,_fr,(0,0),ease(k));continue
+            k=min(clamp((t-t0)/max(dat.get('fi',0.35),0.01)) if dat.get('fi',0.35)>0 else 1.0,clamp((t1-t)/max(dat['fo'],0.01)) if dat.get('fo',0.35)>0 else 1.0)
+            if k>=1.0: out=comp(out,_fr,(0,0),1.0)
+            else:
+                # chuyển qua nền đen: nửa đầu bản đồ tối dần, nửa sau cảnh vector hiện từ đen (không chồng hiệu ứng bản đồ lên ảnh vector)
+                _blk=Image.new('RGBA',(W,H),(0,0,0,255))
+                if k<=0.5: out=comp(out,_blk,(0,0),ease(k*2))
+                else: out=comp(_blk,_fr,(0,0),ease((k-0.5)*2))
+            continue
         if t0<=t<=t1 and kind=='pic':
             # cảnh ảnh 2D toàn khung, máy quay trượt/phóng chậm (dat: path, z0, z1, dx, dy)
             if ('_pic',ii) not in CARDL:

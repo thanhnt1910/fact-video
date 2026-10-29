@@ -323,4 +323,4 @@ _t0=R(72,4.9);_t1=R(74,-0.1)
 INTER.append((_t0,_t1,'vsvg',dict(name='doan_di',ms=[0,R(73,-0.1)-_t0,_t1-_t0],fi=0.5,fo=0.35)))
 INTER.sort(key=lambda x:x[0])
 for _i in range(len(INTER)-1):
-    if INTER[_i][2]=='vsvg' and INTER[_i+1][2]=='vsvg' and abs(INTER[_i+1][0]-INTER[_i][1])<0.06: INTER[_i][3]['fo']=0
+    if INTER[_i][2]=='vsvg' and INTER[_i+1][2]=='vsvg' and abs(INTER[_i+1][0]-INTER[_i][1])<0.06: INTER[_i][3]['fo']=0;INTER[_i+1][3]['fi']=0

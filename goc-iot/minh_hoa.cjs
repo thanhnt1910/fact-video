@@ -326,13 +326,13 @@ module.exports = function (H) {
       }
       if (l >= t.may) {
         const dy = 640 - 30 * Math.sin(l * 3), rot = (l * 900) % 360;
-        o += `<g transform="translate(${f1(dx)} ${f1(dy)})"><rect x="-40" y="-14" width="80" height="28" rx="12" fill="${NAVY}"/><rect x="-62" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/><rect x="32" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/>${[-47, 47].map((x) => `<ellipse cx="${x}" cy="-26" rx="${f1(24 * Math.abs(Math.cos(rot * Math.PI / 90)) + 6)}" ry="4" fill="${TEAL}"/>`).join('')}<circle cx="0" cy="4" r="6" fill="${YEL}"/></g>`;
+        o += `<g transform="translate(${f1(dx)} ${f1(dy)}) scale(1.7)"><rect x="-40" y="-14" width="80" height="28" rx="12" fill="${NAVY}"/><rect x="-62" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/><rect x="32" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/>${[-47, 47].map((x) => `<ellipse cx="${x}" cy="-26" rx="${f1(24 * Math.abs(Math.cos(rot * Math.PI / 90)) + 6)}" ry="4" fill="${TEAL}"/>`).join('')}<circle cx="0" cy="4" r="6" fill="${YEL}"/></g>`;
         if (dx > 220) for (let i = 0; i < 3; i++) { const u = ((l * 0.9) + i / 3) % 1; o += `<circle cx="${f1(dx + 60 + u * (bx - 150 - dx - 80))}" cy="${f1(dy + 10 + u * 80)}" r="${f1(6 + 6 * u)}" fill="none" stroke="${RED}" stroke-width="5" opacity="${(1 - u).toFixed(2)}"/>`; }
       }
       if (l >= t.tram) {
         const x0 = 130, x1 = 640, y = 1010;
         o += `<g opacity="${pr(l, t.tram, 0.4).toFixed(2)}"><line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${NAVY}" stroke-width="6" stroke-dasharray="12 12"/><path d="M${x0 + 24} ${y - 16} L${x0} ${y} L${x0 + 24} ${y + 16} M${x1 - 24} ${y - 16} L${x1} ${y} L${x1 - 24} ${y + 16}" fill="none" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/></g>`;
-        o += pop(l, t.tram + 0.1, 385, 1090, 1, tag(0, 0, 'Bắt đầu từ 350 m', 420));
+        o += pop(l, t.tram + 0.1, 385, 1090, 1, tag(0, 0, 'Bắt đầu từ 350 m', 480, NAVY, YEL, 40));
       }
       if (l >= t.nhieu) o += pop(l, t.nhieu, 270, 520, 1, `<rect x="-250" y="-44" width="500" height="88" rx="44" fill="${NAVY}"/>${T(0, 16, 'Đèn bị điều khiển: ' + n, 40, YEL)}`);
       return o;
@@ -344,7 +344,7 @@ module.exports = function (H) {
     w: [['tinh', 'tính'], ['gan', 'gần'], ['lay', 'lây'], ['toan', 'toán']],
     point: [['tinh', 540, 780], ['gan', 400, 780], ['lay', 700, 780], ['toan', 540, 1040]],
     draw(l, t) {
-      const C = 6, R = 4, sx = 165, sy = 620, dxg = 150, dyg = 120, s0 = [0, 1];
+      const C = 6, R = 4, sx = 165, sy = 540, dxg = 150, dyg = 110, s0 = [0, 1];
       let o = '';
       for (let j = 0; j < C * R; j++) {
         const c = j % C, r = Math.floor(j / C), x = sx + c * dxg, y = sy + r * dyg + (c % 2) * 28;
@@ -355,7 +355,7 @@ module.exports = function (H) {
         o += pop(l, t.tinh + (j % 6) * 0.05 + Math.floor(j / 6) * 0.05, x, y, 1, `<g>${bulbS(1, bad ? RED : YEL)}</g>`);
         if (bad && l >= t.tinh + 0.5) { const u = bad ? ((l - (inf ? t.lay + dist * 0.45 : t.gan)) * 1.4) % 1 : 0; o += `<circle cx="${x}" cy="${y}" r="${f1(30 + 50 * u)}" fill="none" stroke="${RED}" stroke-width="5" opacity="${(0.8 * (1 - u)).toFixed(2)}"/>`; }
       }
-      if (l >= t.toan) o += pop(l, t.toan, 540, 1050, 1, `<rect x="-380" y="-56" width="760" height="112" rx="26" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7"/>${T(0, -2, 'Mới là tính toán', 50, NAVY)}${T(0, 40, 'không phải vụ tấn công có thật', 32, RED, 700)}`);
+      if (l >= t.toan) o += pop(l, t.toan, 540, 1020, 1, `<rect x="-350" y="-56" width="700" height="112" rx="26" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7"/>${T(0, -2, 'Mới là tính toán', 50, NAVY)}${T(0, 40, 'không phải vụ tấn công có thật', 30, RED, 700)}`);
       return o;
     },
   });
@@ -367,9 +367,9 @@ module.exports = function (H) {
     draw(l, t) {
       const X = [140, 540, 930], Y = 720;
       let o = pop(l, 0.2, X[0], Y, 1, `<circle r="92" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="-22" r="26" fill="#FFC9A8" stroke="${NAVY}" stroke-width="5"/><path d="M-46 36 Q-46 2 0 2 Q46 2 46 36 Z" fill="${NAVY}"/>${lines(0, 150, 'Nhóm|nghiên cứu', 30)}`);
-      o += pop(l, 0.35, X[1], Y, 1, `<circle r="104" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${bulbS(1)}<g transform="translate(0 -4) scale(1.5)">${bulbS(1)}</g>${lines(0, 170, 'Hãng Philips', 34)}`);
+      o += pop(l, 0.35, X[1], Y, 1, `<circle r="104" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="translate(0 -4) scale(1.6)">${bulbS(1)}</g>${lines(0, 170, 'Hãng Philips', 34)}`);
       if (l >= t.bao) for (let i = 0; i < 2; i++) { const u = ((l - t.bao) * 0.6 + i * 0.5) % 1; o += `<g transform="translate(${f1(lerp(X[0] + 110, X[1] - 120, u))} ${f1(Y - 70 - 40 * Math.sin(Math.PI * u))})"><rect x="-32" y="-22" width="64" height="44" rx="6" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/><path d="M-32 -22 L0 4 L32 -22" fill="none" stroke="${NAVY}" stroke-width="5"/></g>`; }
-      if (l >= t.bao) o += pop(l, t.bao + 0.2, 340, 880, 1, tag(0, 0, 'Báo trước', 240));
+      if (l >= t.bao) o += pop(l, t.bao + 0.2, 300, 600, 1, tag(0, 0, 'Báo trước', 220));
       if (l >= t.va) {
         const p = pr(l, t.va, 1.2);
         o += pop(l, t.va, 540, 500, 1, `<rect x="-200" y="-44" width="400" height="88" rx="44" fill="${GRN}" stroke="${NAVY}" stroke-width="6"/>${T(0, 16, p >= 1 ? 'Đã vá lỗi' : 'Đang vá lỗi...', 42, NAVY)}`);
@@ -379,7 +379,7 @@ module.exports = function (H) {
         o += pop(l, t.ung, X[2], Y, 1, `<g transform="scale(1.9)">${ICONS.phone()}</g>`);
         for (let i = 0; i < 3; i++) { const u = ((l - t.ung) * 0.7 + i / 3) % 1; o += `<g transform="translate(${f1(lerp(X[1] + 120, X[2] - 100, u))} ${Y + 10})" opacity="${Math.sin(Math.PI * u).toFixed(2)}"><rect x="-22" y="-22" width="44" height="44" rx="8" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/><path d="M0 -10 V10 M-9 2 L0 11 L9 2" fill="none" stroke="${NAVY}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>`; }
         o += pop(l, t.ung + 0.3, X[2] - 20, 960, 1, lines(0, 0, 'Cài ứng dụng|của hãng', 34));
-        o += pop(l, t.ung + 1.2, 540, 1080, 1, tag(0, 0, 'Mới nhận bản vá tự động', 560, GRN, NAVY, 36));
+        o += pop(l, t.ung + 1.2, 540, 1040, 1, tag(0, 0, 'Mới nhận bản vá tự động', 560, GRN, NAVY, 36));
       }
       return o;
     },

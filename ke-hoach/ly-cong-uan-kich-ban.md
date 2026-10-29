@@ -69,9 +69,9 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18039 | Lời nói khích và ngôi vua | Vậy là vào ngày hai mươi mốt tháng mười một năm một nghìn không trăm linh chín, bá quan dìu Lý Công Uẩn lên chính điện. |
 | 18040 | Lời nói khích và ngôi vua | Trăm quan quỳ rạp dưới thềm rồng, đồng thanh hô vang vạn tuế. |
 | 18041 | Lời nói khích và ngôi vua | Vương triều Tiền Lê sụp đổ, thời đại nhà Lý mở ra uy nghiêm mà không vương một giọt máu nào. |
-| 18042 | Lời nói khích và ngôi vua | Yên vị trên ngai vàng, Lý Công Uẩn ban lệnh tha tội và giảm thuế cho cả nước, đổi niên hiệu năm sau là Thuận Thiên, nghĩa là thuận theo mệnh trời. |
+| 18042 | Lời nói khích và ngôi vua | Yên vị trên ngai vàng, Lý Công Uẩn đại xá thiên hạ, đổi niên hiệu năm sau là Thuận Thiên, mang ý nghĩa thuận theo mệnh trời. |
 | 18043 | Lời nói khích và ngôi vua | Nhà vua truy phong tước vị cho đấng sinh thành đã khuất, phong con trai trưởng Lý Phật Mã làm đông cung thái tử. |
-| 18044 | Lời nói khích và ngôi vua | Sau đó, vua gả công chúa trưởng cho Đào Cam Mộc để đền công người đã đứng ra khuyên mình. |
+| 18044 | Lời nói khích và ngôi vua | Sau đó, vua gả công chúa trưởng cho Đào Cam Mộc. |
 | 18045 | Lời nói khích và ngôi vua | Kẻ đầu tiên cất lời xúi giục đổi ngôi được phong tước Nghĩa Tín Hầu. |
 | 18046 | Lời nói khích và ngôi vua | Từ một viên quan hầu cận, Đào Cam Mộc vụt sáng thành khai quốc công thần của tân triều. |
 | 18047 | Lời nói khích và ngôi vua | Ổn định ngôi báu, hoàng đế lập tức đối mặt với bài toán quyết định hưng vong, là định đô ở đâu? |
@@ -165,8 +165,8 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 
 ## Ghi chú
 
-- Số đoạn và số hiệu giữ nguyên 18001 đến 18134 như bản chủ kênh. Chỉ rút ngắn nhẹ hoặc đổi dấu câu ở 24 đoạn để qua bộ kiểm giọng đọc (đoạn tối đa 32 chữ, không hai chấm, không gạch, không chữ số): 18006, 18009, 18034, 18035, 18042, 18044, 18047, 18057, 18066, 18069, 18071, 18076, 18079, 18083, 18094, 18097, 18108, 18116, 18127, 18129.
-- Đổi nghĩa nhẹ: 18042 "đại xá" thành "tha tội và giảm thuế cho cả nước"; 18044 thêm lý do gả công chúa; 18116 thêm "nằm ở phía đông kinh thành".
+- Số đoạn và số hiệu giữ nguyên 18001 đến 18134 như bản chủ kênh. Chỉ rút ngắn nhẹ hoặc đổi dấu câu ở 24 đoạn để qua bộ kiểm giọng đọc (đoạn tối đa 32 chữ, không hai chấm, không gạch, không chữ số): 18006, 18009, 18034, 18035, 18047, 18057, 18066, 18069, 18071, 18076, 18079, 18083, 18094, 18097, 18108, 18116, 18127, 18129.
+- Chủ kênh chốt 29/10: 18042 và 18044 giữ nguyên lời bản chủ kênh; 18116 giữ câu đã thêm "nằm ở phía đông kinh thành".
 - Còn 19 cảnh báo nhẹ (đoạn 31 đến 32 chữ, vài đoạn ngắn hoặc nhiều dấu phẩy), không phải lỗi.
 - Chi tiết dân gian đã ghi rõ là lời truyền: sấm trái khế (18021), rồng vàng bay lên (18073), lời khấn lúc bão (18096). Giữ ghi chú "theo lời truyền" trên màn hình.
 - Cần đối chiếu Toàn thư trước khi đọc giọng: 18009 (sư Vạn Hạnh tiên đoán), 18105 ("trọn kiếp vì Phật môn"), 18127 (cửa và điện do Lý Công Uẩn xây từ năm một nghìn không trăm mười).

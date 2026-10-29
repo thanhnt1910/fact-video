@@ -1,0 +1,35 @@
+name: Góc IoT - thử giọng Cloudflare
+
+on:
+  push:
+    branches: ["goc-iot-video-1-6"]
+    paths: ["goc-iot/thu-cf.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  thu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Thử MeloTTS và Whisper
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID_2: ${{ secrets.CF_ACCOUNT_ID_2 }}
+          CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
+          CF_ACCOUNT_ID_3: ${{ secrets.CF_ACCOUNT_ID_3 }}
+          CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
+        run: python3 goc-iot/cf_tts_thu.py
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add goc-iot/logs/cf_tts.txt goc-iot/logs/cf || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Góc IoT: thử giọng Cloudflare [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

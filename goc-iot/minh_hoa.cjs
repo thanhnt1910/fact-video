@@ -247,164 +247,371 @@ module.exports = function (H) {
     },
   });
 
-  // ====== Video 12: bóng đèn thông minh bị hack ======
-  const bulbG = (on, k = 1, col = YEL) => `<g transform="scale(${k})"><circle cx="0" cy="-10" r="100" fill="${on ? col : '#DDE3EA'}" stroke="${on ? '#FFB300' : '#9AA7B6'}" stroke-width="10"/><path d="M-30 20 Q0 -40 30 20" fill="none" stroke="${on ? '#FFFFFF' : '#9AA7B6'}" stroke-width="7" stroke-linecap="round" stroke-opacity="0.8"/><rect x="-44" y="86" width="88" height="22" rx="8" fill="#8A97A8"/><rect x="-36" y="108" width="72" height="20" rx="8" fill="#6F7C8E"/><rect x="-18" y="128" width="36" height="14" rx="7" fill="${NAVY}"/></g>`;
-  const bulbS = (c, fill = YEL) => `<circle cx="0" cy="-4" r="24" fill="${fill}" stroke="${NAVY}" stroke-width="5"/><rect x="-11" y="18" width="22" height="14" rx="5" fill="#8A97A8" stroke="${NAVY}" stroke-width="3"/>`;
+  // ====== Helpers chung cho video 12-14 ======
   const tag = (x, y, text, w, fill = NAVY, col = YEL, size = 34) => `<rect x="${-w / 2}" y="-30" width="${w}" height="58" rx="29" fill="${fill}"/>${T(0, 12, text, size, col)}`;
   const toggle = (on, k = 1) => `<g transform="scale(${k})"><rect x="-60" y="-30" width="120" height="60" rx="30" fill="${on ? GRN : '#B8C4D2'}" stroke="${NAVY}" stroke-width="6"/><circle cx="${on ? 30 : -30}" cy="0" r="22" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/></g>`;
+  const cal = (month, year, k = 1) => `<g transform="scale(${k})">${panel(-130, -150, 260, 300, '#FFFFFF', 22)}<path d="M-130 -128 Q-130 -150 -108 -150 H108 Q130 -150 130 -128 V-80 H-130 Z" fill="${RED}" stroke="${NAVY}" stroke-width="6"/>${T(0, -96, month, 36, '#FFFFFF')}${T(0, 50, year, 84, NAVY)}</g>`;
+  const person = (hair = NAVY, skin = '#FFC9A8') => `<circle cx="0" cy="-70" r="50" fill="${skin}" stroke="${NAVY}" stroke-width="6"/><path d="M-50 -78 Q-44 -126 0 -124 Q44 -126 50 -78 Q20 -100 -50 -78 Z" fill="${hair}"/><path d="M-80 60 Q-80 -10 0 -10 Q80 -10 80 60 Z" fill="${NAVY}"/><rect x="-100" y="50" width="200" height="14" rx="7" fill="${NAVY}"/><rect x="-86" y="2" width="172" height="52" rx="8" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/><circle cx="0" cy="28" r="9" fill="${TEAL}"/>`;
+  const check = (r = 38) => `<circle r="${r}" fill="${GRN}" stroke="${NAVY}" stroke-width="5"/><path d="M${-r * 0.47} ${r * 0.05} L${-r * 0.13} ${r * 0.4} L${r * 0.5} ${-r * 0.37}" fill="none" stroke="#FFFFFF" stroke-width="${r * 0.26}" stroke-linecap="round" stroke-linejoin="round"/>`;
+  const cross = (r = 38) => `<circle r="${r}" fill="${RED}" stroke="${NAVY}" stroke-width="5"/><path d="M${-r * 0.4} ${-r * 0.4} L${r * 0.4} ${r * 0.4} M${r * 0.4} ${-r * 0.4} L${-r * 0.4} ${r * 0.4}" fill="none" stroke="#FFFFFF" stroke-width="${r * 0.26}" stroke-linecap="round"/>`;
+  const counter = (l, t0, dur, to, fmt) => fmt(Math.round(to * smooth(pr(l, t0, dur))));
+  const dots = (n) => n.toLocaleString('en-US').replace(/,/g, '.');
+  const tvBox = (w, h, l, hue = 0) => {
+    let sc = '';
+    const cols = [RED, YEL, TEAL, '#8F7BFF', GRN];
+    for (let i = 0; i < 5; i++) { const bw = w / 5 - 4, ph = (Math.sin(l * 3 + i * 1.3 + hue) + 1) / 2; sc += `<rect x="${f1(-w / 2 + 8 + i * (w - 16) / 5)}" y="${f1(h / 2 - 16 - (h - 56) * (0.3 + 0.7 * ph))}" width="${f1(bw - 4)}" height="${f1((h - 56) * (0.3 + 0.7 * ph))}" rx="6" fill="${cols[i]}"/>`; }
+    return `<rect x="${-w / 2 - 14}" y="${-h / 2 - 14}" width="${w + 28}" height="${h + 28}" rx="22" fill="${NAVY}"/><rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" rx="12" fill="#1B3358"/>${sc}<rect x="-70" y="${h / 2 + 14}" width="140" height="16" rx="8" fill="${NAVY}"/><rect x="-110" y="${h / 2 + 26}" width="220" height="12" rx="6" fill="${NAVY}"/>`;
+  };
+  const carSide = (k = 1, col = YEL) => `<g transform="scale(${k})"><path d="M-170 40 Q-170 -4 -130 -8 L-84 -66 Q-76 -80 -56 -80 H60 Q80 -80 94 -62 L138 -8 Q172 -4 172 40 Z" fill="${col}" stroke="${NAVY}" stroke-width="8" stroke-linejoin="round"/><path d="M-66 -12 L-40 -58 H54 L90 -12 Z" fill="${SKY}" stroke="${NAVY}" stroke-width="6" stroke-linejoin="round"/><circle cx="-100" cy="44" r="34" fill="${NAVY}"/><circle cx="-100" cy="44" r="14" fill="#B8C4D2"/><circle cx="104" cy="44" r="34" fill="${NAVY}"/><circle cx="104" cy="44" r="14" fill="#B8C4D2"/></g>`;
+  const watchIc = (k = 1) => `<g transform="scale(${k})">${ICONS.watch()}</g>`;
+
+  // ====== Video 12: TV thông minh ghi lại bạn xem gì ======
   const v12 = [];
-  // Cảnh 2: ai nghĩ bóng đèn chỉ bật tắt
-  v12.push({
-    w: [['nghi', 'nghĩ'], ['bat', 'bật'], ['tan', 'tấn']],
-    point: [['nghi', 540, 600], ['bat', 860, 960], ['tan', 540, 800]],
+  v12.push({ // 2: TV chỉ để xem?
+    w: [['tv', 'TV'], ['xem', 'xem'], ['theo', 'theo']],
+    point: [['tv', 540, 700], ['xem', 540, 600], ['theo', 540, 800]],
     draw(l, t) {
-      const on = l < t.bat ? true : Math.floor((l - t.bat) / 0.7) % 2 === 0;
-      let o = pop(l, 0.15, 540, 790, 1, `${on ? `<circle cx="0" cy="-10" r="${f1(150 + 12 * Math.sin(l * 6))}" fill="${YEL}" fill-opacity="0.25"/>` : ''}${bulbG(on)}`);
-      o += myth(l, t.nghi, null, 'Đèn thì ai thèm hack?', 540, 470, 620);
-      if (l >= t.bat) o += pop(l, t.bat, 860, 1000, 1, `${toggle(on)}${T(0, 80, on ? 'BẬT' : 'TẮT', 34, NAVY)}`);
-      if (l >= t.tan) {
-        const p = pr(l, t.tan, 0.5), r = 190 - 40 * smooth(p);
-        o += `<g transform="translate(540 790)" opacity="${p.toFixed(2)}" stroke="${RED}" stroke-width="9" fill="none" stroke-linecap="round"><circle r="${f1(r)}"/><line x1="-${f1(r + 30)}" y1="0" x2="-${f1(r - 40)}" y2="0"/><line x1="${f1(r + 30)}" y1="0" x2="${f1(r - 40)}" y2="0"/><line x1="0" y1="-${f1(r + 30)}" x2="0" y2="-${f1(r - 40)}"/><line x1="0" y1="${f1(r + 30)}" x2="0" y2="${f1(r - 40)}"/></g>`;
+      let o = pop(l, 0.2, 540, 800, 1, tvBox(560, 330, l));
+      o += myth(l, t.xem, null, 'TV chỉ để xem thôi?', 540, 470, 600);
+      if (l >= t.theo) o += pop(l, t.theo, 860, 640, 1, `<circle r="64" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(1.1)">${ICONS.eye()}</g>`);
+      return o;
+    },
+  });
+  v12.push({ // 3: tháng 2/2017 Vizio bị phạt 2,2 triệu đô
+    w: [['khong', 'không'], ['thang', 'tháng'], ['phat', 'phạt']],
+    point: [['thang', 220, 640], ['phat', 780, 760]],
+    draw(l, t) {
+      let o = myth(l, 0.1, t.khong, 'TV chỉ để xem thôi?', 540, 470, 600);
+      o += pop(l, t.thang, 220, 760, 0.9, cal('THÁNG 2', '2017'));
+      o += pop(l, t.thang + 0.3, 220, 960, 1, tag(0, 0, 'Hãng Vizio', 250));
+      if (l >= t.phat) {
+        o += pop(l, t.phat, 740, 740, 1, `<rect x="-280" y="-150" width="560" height="300" rx="34" fill="#FFFFFF" stroke="${RED}" stroke-width="10"/>${T(0, -70, 'BỊ PHẠT', 56, RED)}${T(0, 50, counter(l, t.phat, 1.6, 22, (n) => (n / 10).toFixed(1).replace('.', ',')) + ' triệu', 76, NAVY)}${T(0, 112, 'đô la', 44, NAVY, 700)}`);
+        for (let i = 0; i < 5; i++) { const u = ((l - t.phat) * 0.8 + i / 5) % 1; o += `<g transform="translate(${f1(400 + i * 140)} ${f1(930 - 70 * u)})" opacity="${(1 - u).toFixed(2)}"><circle r="20" fill="${YEL}" stroke="${NAVY}" stroke-width="5"/>${T(0, 9, '$', 24, NAVY)}</g>`; }
       }
       return o;
     },
   });
-
-  // Cảnh 3: bóng đèn có chip, sóng, phần mềm = máy tính nhỏ
-  v12.push({
-    w: [['khong', 'không'], ['chip', 'chip'], ['song', 'sóng'], ['mem', 'mềm'], ['may', 'máy']],
-    point: [['chip', 260, 760], ['song', 560, 760], ['mem', 850, 760], ['may', 540, 1040]],
+  v12.push({ // 4: từ 2014, từng giây, 11 triệu TV
+    w: [['nam', 'năm'], ['giay', 'giây'], ['trieu', 'triệu']],
+    point: [['nam', 160, 620], ['giay', 260, 760], ['trieu', 540, 960]],
     draw(l, t) {
-      let o = myth(l, 0.1, t.khong, 'Đèn thì ai thèm hack?', 540, 470, 620);
-      o += `<g transform="translate(260 790) scale(0.9)" opacity="${pr(l, 0.1, 0.4).toFixed(2)}">${bulbG(true)}</g>`;
-      o += pop(l, t.chip, 260, 770, 0.55, ic('chip', 1.3));
-      o += pop(l, t.chip + 0.2, 260, 960, 1, tag(0, 0, 'Chip', 150));
-      if (l >= t.song) {
-        for (let i = 0; i < 3; i++) { const u = ((l - t.song) * 0.8 + i / 3) % 1; o += `<path d="M${f1(370 + u * 200)} ${f1(790 - 70 * (0.4 + u))} Q${f1(400 + u * 220)} 790 ${f1(370 + u * 200)} ${f1(790 + 70 * (0.4 + u))}" fill="none" stroke="${NAVY}" stroke-width="9" stroke-linecap="round" opacity="${(1 - u).toFixed(2)}"/>`; }
-        o += pop(l, t.song + 0.2, 560, 930, 1, tag(0, 0, 'Sóng vô tuyến', 290));
+      let o = pop(l, t.nam, 160, 600, 0.55, cal('NĂM', '2014'));
+      o += pop(l, 0.2, 280, 800, 1, tvBox(300, 190, l));
+      o += pop(l, 0.3, 840, 800, 1, `<g transform="scale(1.6)">${ICONS.server()}</g>`);
+      if (l >= t.giay) {
+        for (let i = 0; i < 4; i++) { const u = ((l - t.giay) * 1.2 + i / 4) % 1; o += `<g transform="translate(${f1(lerp(430, 760, u))} ${f1(800 - 10 * Math.sin(Math.PI * u))})" opacity="${Math.sin(Math.PI * u).toFixed(2)}"><rect x="-26" y="-18" width="52" height="36" rx="6" fill="#FFFFFF" stroke="${NAVY}" stroke-width="4"/><rect x="-18" y="-10" width="36" height="20" rx="3" fill="${TEAL}"/></g>`; }
+        o += pop(l, t.giay + 0.2, 560, 940, 1, tag(0, 0, 'Từng giây', 230));
+        const sec = Math.floor((l - t.giay) % 10) + 1; o += pop(l, t.giay + 0.2, 280, 960, 1, T(0, 0, sec + ' giây', 40, NAVY));
       }
-      if (l >= t.mem) {
-        o += pop(l, t.mem, 850, 780, 1, `${panel(-140, -130, 280, 260, '#1B3358', 22)}${[-80, -40, 0, 40, 80].map((y, i) => `<rect x="-100" y="${y - 8}" width="${f1(40 + ((i * 53 + Math.floor(l * 4) * 37) % 120))}" height="14" rx="7" fill="${i % 2 ? TEAL : YEL}"/>`).join('')}`);
-        o += pop(l, t.mem + 0.2, 850, 960, 1, tag(0, 0, 'Phần mềm', 250));
-      }
-      if (l >= t.may) o += pop(l, t.may, 540, 1060, 1, `<rect x="-300" y="-52" width="600" height="104" rx="30" fill="${NAVY}"/>${T(0, 22, '= Máy tính nhỏ', 66, YEL)}`);
-      return o;
-    },
-  });
-
-  // Cảnh 4: năm 2016, nhóm nghiên cứu Israel thử trên đèn Philips Hue
-  v12.push({
-    w: [['nam', 'năm'], ['nhom', 'nhóm'], ['den', 'đèn']],
-    point: [['nam', 190, 560], ['nhom', 540, 560], ['den', 880, 560]],
-    draw(l, t) {
-      let o = pop(l, t.nam, 190, 720, 1, `${panel(-130, -150, 260, 300, '#FFFFFF', 22)}<path d="M-130 -128 Q-130 -150 -108 -150 H108 Q130 -150 130 -128 V-80 H-130 Z" fill="${RED}" stroke="${NAVY}" stroke-width="6"/>${T(0, 36, '2016', 84, NAVY)}`);
-      o += pop(l, t.nhom, 540, 720, 1, `<circle cx="0" cy="-70" r="50" fill="#FFC9A8" stroke="${NAVY}" stroke-width="6"/><path d="M-80 60 Q-80 -10 0 -10 Q80 -10 80 60 Z" fill="${NAVY}"/><rect x="-100" y="50" width="200" height="14" rx="7" fill="${NAVY}"/><rect x="-86" y="2" width="172" height="52" rx="8" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/><circle cx="0" cy="28" r="9" fill="${TEAL}"/>${lines(0, 130, 'Nhóm nghiên cứu|bảo mật ở Israel', 32)}`);
-      o += pop(l, t.den, 880, 720, 1, `<g transform="scale(0.8)">${bulbG(true)}</g>${T(0, 130, 'Philips Hue', 40, NAVY)}`);
-      if (l >= t.den + 0.3) {
-        for (let i = 0; i < 4; i++) { const u = ((l - t.den) * 0.6 + i / 4) % 1; o += `<circle cx="${f1(lerp(640, 780, u))}" cy="${f1(700 - 20 * Math.sin(Math.PI * u))}" r="9" fill="${i % 2 ? YEL : TEAL}" stroke="${NAVY}" stroke-width="3"/>`; }
-        o += pop(l, t.den + 0.7, 540, 1040, 1, `<rect x="-230" y="-34" width="460" height="68" rx="34" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/>${T(0, 14, 'THỬ NGHIỆM', 44, NAVY)}`);
+      if (l >= t.trieu) {
+        for (let i = 0; i < 22; i++) { const x = 130 + (i % 11) * 82, y = 1060 + Math.floor(i / 11) * 62; o += pop(l, t.trieu + i * 0.05, x, y, 0.5, tvBox(70, 44, l, i)); }
+        o += pop(l, t.trieu, 540, 1000, 1, T(0, 0, counter(l, t.trieu, 1.4, 11, (n) => n) + ' triệu TV', 64, YEL, 800, NAVY));
       }
       return o;
     },
   });
-
-  // Cảnh 5: máy bay không người lái tiến lại gần tòa nhà, đèn bị điều khiển dần
-  v12.push({
-    w: [['may', 'máy'], ['tram', 'trăm'], ['nhieu', 'nhiều'], ['dieu', 'điều']],
-    point: [['may', 300, 640], ['tram', 400, 1010], ['nhieu', 800, 720], ['dieu', 800, 720]],
+  v12.push({ // 5: phim cáp, DVD, mạng + tuổi, thu nhập
+    w: [['cap', 'cáp'], ['dvd', 'DVD'], ['mang', 'mạng'], ['tuoi', 'tuổi'], ['thu', 'thu']],
+    point: [['cap', 190, 600], ['dvd', 190, 740], ['mang', 190, 880], ['tuoi', 700, 900], ['thu', 700, 980]],
     draw(l, t) {
-      const bx = 790, by = 800, cols = 3, rows = 4;
-      let o = `<g opacity="${pr(l, 0.1, 0.4).toFixed(2)}">${panel(bx - 150, by - 250, 300, 500, '#FFFFFF', 18)}</g>`;
-      const dx = lerp(130, 560, l >= t.may ? smooth(pr(l, t.may, 7)) : 0);
-      let n = 0;
-      for (let j = 0; j < cols * rows; j++) {
-        const c = j % cols, r = Math.floor(j / cols), wx = bx - 90 + c * 90, wy = by - 190 + r * 120;
-        const hit = l >= t.may && dx > 300 + j * 20;
-        if (hit) n++;
-        const flick = hit && Math.floor(l * 6 + j) % 2 === 0;
-        o += `<g transform="translate(${wx} ${wy}) scale(0.8)"><rect x="-34" y="-34" width="68" height="68" rx="10" fill="#EAF1F8" stroke="${NAVY}" stroke-width="4"/>${bulbS(1, hit ? (flick ? RED : '#FFFFFF') : YEL).replace(/r="24"/, 'r="18"')}</g>`;
+      const chip = (t0, y, lab, inner) => pop(l, t0, 190, y, 1, `<circle r="68" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${inner}<text x="150" y="12" font-family="${FONT}" font-weight="800" font-size="34" fill="${NAVY}">${lab}</text>`);
+      let o = chip(t.cap, 600, 'Phim cáp', `<rect x="-36" y="-24" width="72" height="48" rx="8" fill="${NAVY}"/><circle cx="-12" cy="0" r="8" fill="${TEAL}"/><rect x="6" y="-8" width="22" height="16" rx="4" fill="${YEL}"/>`);
+      o += chip(t.dvd, 740, 'Đĩa DVD', `<circle r="38" fill="#CFE6F5" stroke="${NAVY}" stroke-width="6"/><circle r="12" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/>`);
+      o += chip(t.mang, 880, 'Phim trên mạng', `<g transform="scale(0.75)">${ICONS.cloud()}</g>`);
+      const showBox = l >= t.cap + 0.6;
+      if (showBox) {
+        o += pop(l, t.cap + 0.6, 780, 740, 1, `${panel(-150, -150, 300, 300, '#FFFFFF', 26)}${T(0, -92, 'Dữ liệu xem', 34, NAVY)}${[-40, 10, 60].map((y, i) => `<rect x="-100" y="${y}" width="${f1(80 + 60 * ((Math.sin(l * 2 + i) + 1) / 2))}" height="16" rx="8" fill="${[RED, YEL, TEAL][i]}"/>`).join('')}`);
+        for (let i = 0; i < 3; i++) { const tt = [t.cap, t.dvd, t.mang][i]; if (l >= tt) { const u = ((l - tt) * 0.9) % 1; o += `<g transform="translate(${f1(lerp(520, 640, u))} ${f1(lerp([600, 740, 880][i], 740, u))}) scale(0.5)" opacity="${(1 - u * 0.3).toFixed(2)}">${photo(60, 44)}</g>`; } }
       }
-      if (l >= t.may) {
-        const dy = 640 - 30 * Math.sin(l * 3), rot = (l * 900) % 360;
-        o += `<g transform="translate(${f1(dx)} ${f1(dy)}) scale(1.7)"><rect x="-40" y="-14" width="80" height="28" rx="12" fill="${NAVY}"/><rect x="-62" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/><rect x="32" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/>${[-47, 47].map((x) => `<ellipse cx="${x}" cy="-26" rx="${f1(24 * Math.abs(Math.cos(rot * Math.PI / 90)) + 6)}" ry="4" fill="${TEAL}"/>`).join('')}<circle cx="0" cy="4" r="6" fill="${YEL}"/></g>`;
-        if (dx > 220) for (let i = 0; i < 3; i++) { const u = ((l * 0.9) + i / 3) % 1; o += `<circle cx="${f1(dx + 60 + u * (bx - 150 - dx - 80))}" cy="${f1(dy + 10 + u * 80)}" r="${f1(6 + 6 * u)}" fill="none" stroke="${RED}" stroke-width="5" opacity="${(1 - u).toFixed(2)}"/>`; }
-      }
-      if (l >= t.tram) {
-        const x0 = 130, x1 = 640, y = 1010;
-        o += `<g opacity="${pr(l, t.tram, 0.4).toFixed(2)}"><line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${NAVY}" stroke-width="6" stroke-dasharray="12 12"/><path d="M${x0 + 24} ${y - 16} L${x0} ${y} L${x0 + 24} ${y + 16} M${x1 - 24} ${y - 16} L${x1} ${y} L${x1 - 24} ${y + 16}" fill="none" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/></g>`;
-        o += pop(l, t.tram + 0.1, 385, 1090, 1, tag(0, 0, 'Bắt đầu từ 350 m', 480, NAVY, YEL, 40));
-      }
-      if (l >= t.nhieu) o += pop(l, t.nhieu, 270, 520, 1, `<rect x="-250" y="-44" width="500" height="88" rx="44" fill="${NAVY}"/>${T(0, 16, 'Đèn bị điều khiển: ' + n, 40, YEL)}`);
+      if (l >= t.tuoi) o += pop(l, t.tuoi, 780, 950, 1, `<rect x="-170" y="-34" width="340" height="68" rx="34" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/>${T(0, 14, '+ Tuổi', 42, NAVY)}`);
+      if (l >= t.thu) o += pop(l, t.thu, 780, 1040, 1, `<rect x="-170" y="-34" width="340" height="68" rx="34" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/>${T(0, 14, '+ Thu nhập', 42, NAVY)}`);
       return o;
     },
   });
-
-  // Cảnh 6: tính toán lây lan giữa các đèn gần nhau (chỉ là tính toán)
-  v12.push({
-    w: [['tinh', 'tính'], ['gan', 'gần'], ['lay', 'lây'], ['toan', 'toán']],
-    point: [['tinh', 540, 780], ['gan', 400, 780], ['lay', 700, 780], ['toan', 540, 1040]],
+  v12.push({ // 6: bán cho bên thứ ba, nhắm quảng cáo, không xin đồng ý
+    w: [['ban', 'bán'], ['quang', 'quảng'], ['khong', 'không'], ['dongy', 'đồng']],
+    point: [['ban', 540, 700], ['quang', 880, 760], ['khong', 540, 980], ['dongy', 300, 990]],
     draw(l, t) {
-      const C = 6, R = 4, sx = 165, sy = 540, dxg = 150, dyg = 110, s0 = [0, 1];
-      let o = '';
-      for (let j = 0; j < C * R; j++) {
-        const c = j % C, r = Math.floor(j / C), x = sx + c * dxg, y = sy + r * dyg + (c % 2) * 28;
-        const dist = Math.abs(c - s0[0]) + Math.abs(r - s0[1]);
-        const inf = l >= t.lay && (l - t.lay) > dist * 0.45;
-        const seed = l >= t.gan && j === s0[1] * C + s0[0];
-        const bad = inf || seed;
-        o += pop(l, t.tinh + (j % 6) * 0.05 + Math.floor(j / 6) * 0.05, x, y, 1, `<g>${bulbS(1, bad ? RED : YEL)}</g>`);
-        if (bad && l >= t.tinh + 0.5) { const u = bad ? ((l - (inf ? t.lay + dist * 0.45 : t.gan)) * 1.4) % 1 : 0; o += `<circle cx="${x}" cy="${y}" r="${f1(30 + 50 * u)}" fill="none" stroke="${RED}" stroke-width="5" opacity="${(0.8 * (1 - u)).toFixed(2)}"/>`; }
-      }
-      if (l >= t.toan) o += pop(l, t.toan, 540, 1020, 1, `<rect x="-350" y="-56" width="700" height="112" rx="26" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7"/>${T(0, -2, 'Mới là tính toán', 50, NAVY)}${T(0, 40, 'không phải vụ tấn công có thật', 30, RED, 700)}`);
+      let o = pop(l, 0.2, 190, 720, 1, `<circle r="90" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(0.5) translate(0 -20)">${tvBox(150, 96, l)}</g>${lines(0, 140, 'Hãng TV', 32)}`);
+      o += pop(l, t.ban, 880, 720, 1, `<circle r="90" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="-44" y="-46" width="88" height="92" rx="8" fill="${SKY}" stroke="${NAVY}" stroke-width="6"/><g fill="#FFFFFF">${[-24, 0, 24].map((x) => [-30, -4, 22].map((y) => `<rect x="${x - 8}" y="${y}" width="16" height="16" rx="3"/>`).join('')).join('')}</g>${lines(0, 140, 'Bên thứ ba', 32)}`);
+      if (l >= t.ban) for (let i = 0; i < 3; i++) { const u = ((l - t.ban) * 0.8 + i / 3) % 1; o += `<g transform="translate(${f1(lerp(300, 770, u))} ${f1(720 - 30 * Math.sin(Math.PI * u))})"><circle r="18" fill="${YEL}" stroke="${NAVY}" stroke-width="5"/>${T(0, 8, '$', 22, NAVY)}</g>`; }
+      if (l >= t.quang) o += pop(l, t.quang, 540, 560, 1, `<rect x="-290" y="-52" width="580" height="104" rx="26" fill="${NAVY}"/>${T(0, 16, 'Nhắm đúng quảng cáo', 50, YEL)}`);
+      if (l >= t.khong) o += pop(l, t.khong, 540, 960, 1, `<rect x="-300" y="-44" width="600" height="88" rx="44" fill="#FFFFFF" stroke="${RED}" stroke-width="8"/>${T(0, 14, 'Không nói rõ cho người dùng', 36, RED)}`);
+      if (l >= t.dongy) o += pop(l, t.dongy, 300, 1070, 1, `<rect x="-40" y="-40" width="80" height="80" rx="14" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7"/>`) + pop(l, t.dongy + 0.4, 300, 1070, 1, cross(36)) + pop(l, t.dongy + 0.3, 640, 1070, 1, `${T(0, 0, 'Chưa xin đồng ý', 40, NAVY)}`);
       return o;
     },
   });
-
-  // Cảnh 7: báo trước cho hãng, hãng vá lỗi, chủ nhà cài ứng dụng thì nhận bản vá
-  v12.push({
-    w: [['bao', 'báo'], ['va', 'vá'], ['ung', 'ứng']],
-    point: [['bao', 360, 600], ['va', 540, 560], ['ung', 920, 600]],
-    draw(l, t) {
-      const X = [140, 540, 930], Y = 720;
-      let o = pop(l, 0.2, X[0], Y, 1, `<circle r="92" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="-22" r="26" fill="#FFC9A8" stroke="${NAVY}" stroke-width="5"/><path d="M-46 36 Q-46 2 0 2 Q46 2 46 36 Z" fill="${NAVY}"/>${lines(0, 150, 'Nhóm|nghiên cứu', 30)}`);
-      o += pop(l, 0.35, X[1], Y, 1, `<circle r="104" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="translate(0 -4) scale(1.6)">${bulbS(1)}</g>${lines(0, 170, 'Hãng Philips', 34)}`);
-      if (l >= t.bao) for (let i = 0; i < 2; i++) { const u = ((l - t.bao) * 0.6 + i * 0.5) % 1; o += `<g transform="translate(${f1(lerp(X[0] + 110, X[1] - 120, u))} ${f1(Y - 70 - 40 * Math.sin(Math.PI * u))})"><rect x="-32" y="-22" width="64" height="44" rx="6" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/><path d="M-32 -22 L0 4 L32 -22" fill="none" stroke="${NAVY}" stroke-width="5"/></g>`; }
-      if (l >= t.bao) o += pop(l, t.bao + 0.2, 300, 600, 1, tag(0, 0, 'Báo trước', 220));
-      if (l >= t.va) {
-        const p = pr(l, t.va, 1.2);
-        o += pop(l, t.va, 540, 500, 1, `<rect x="-200" y="-44" width="400" height="88" rx="44" fill="${GRN}" stroke="${NAVY}" stroke-width="6"/>${T(0, 16, p >= 1 ? 'Đã vá lỗi' : 'Đang vá lỗi...', 42, NAVY)}`);
-        o += `<rect x="430" y="548" width="220" height="16" rx="8" fill="${NAVY}" fill-opacity="0.25"/><rect x="430" y="548" width="${f1(220 * p)}" height="16" rx="8" fill="${GRN}"/>`;
-      }
-      if (l >= t.ung) {
-        o += pop(l, t.ung, X[2], Y, 1, `<g transform="scale(1.9)">${ICONS.phone()}</g>`);
-        for (let i = 0; i < 3; i++) { const u = ((l - t.ung) * 0.7 + i / 3) % 1; o += `<g transform="translate(${f1(lerp(X[1] + 120, X[2] - 100, u))} ${Y + 10})" opacity="${Math.sin(Math.PI * u).toFixed(2)}"><rect x="-22" y="-22" width="44" height="44" rx="8" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/><path d="M0 -10 V10 M-9 2 L0 11 L9 2" fill="none" stroke="${NAVY}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>`; }
-        o += pop(l, t.ung + 0.3, X[2] - 20, 960, 1, lines(0, 0, 'Cài ứng dụng|của hãng', 34));
-        o += pop(l, t.ung + 1.2, 540, 1040, 1, tag(0, 0, 'Mới nhận bản vá tự động', 560, GRN, NAVY, 36));
-      }
-      return o;
-    },
-  });
-
-  // Cảnh 8: ba việc làm được
-  v12.push({
-    w: [['cai', 'cài'], ['bat', 'bật'], ['thay', 'thay']],
-    point: [['cai', 190, 640], ['bat', 540, 640], ['thay', 890, 640]],
+  v12.push({ // 7: nộp phạt, xóa dữ liệu, xin đồng ý trước
+    w: [['phat', 'phạt'], ['xoa', 'xóa'], ['dongy', 'đồng']],
+    point: [['phat', 190, 640], ['xoa', 540, 640], ['dongy', 890, 640]],
     draw(l, t) {
       const X = [190, 540, 890], Y = 650;
-      let o = pop(l, t.cai, X[0], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(1.7)">${ICONS.phone()}</g>`);
-      if (l >= t.cai) o += `<g transform="translate(${X[0] + 80} ${Y - 80})">${pop(l, t.cai + 0.6, 0, 0, 1, `<circle r="30" fill="${GRN}" stroke="${NAVY}" stroke-width="5"/><path d="M-12 2 L-3 11 L14 -9" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>`)}</g>`;
-      o += pop(l, t.cai + 0.2, X[0], Y + 250, 1, lines(0, 0, 'Cài ứng dụng|của hãng', 34));
-      const on = l >= t.bat + 0.5, p = pr(l, t.bat + 0.5, 2.4);
-      o += pop(l, t.bat, X[1], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="translate(0 -30) scale(1.0)">${toggle(on)}</g><rect x="-80" y="50" width="160" height="22" rx="11" fill="${NAVY}" fill-opacity="0.2"/><rect x="-80" y="50" width="${f1(160 * p)}" height="22" rx="11" fill="${GRN}"/>`);
-      o += pop(l, t.bat + 0.2, X[1], Y + 250, 1, lines(0, 0, 'Bật cập nhật|phần mềm', 34));
-      if (l >= t.thay) {
-        const q = pr(l, t.thay + 0.5, 0.8);
-        o += pop(l, t.thay, X[2], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g opacity="${(1 - q).toFixed(2)}" transform="translate(${f1(-60 * q)} 0) scale(0.7)">${bulbG(false)}</g><g opacity="${q.toFixed(2)}" transform="translate(${f1(60 * (1 - q))} 0) scale(0.7)">${bulbG(true)}</g>`);
-        o += pop(l, t.thay + 0.2, X[2], Y + 250, 1, lines(0, 0, 'Thay đèn nếu hãng|ngừng hỗ trợ', 32));
-      }
+      let o = pop(l, t.phat, X[0], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><circle r="52" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/>${T(0, 20, '$', 62, NAVY)}`);
+      o += pop(l, t.phat + 0.2, X[0], Y + 230, 1, lines(0, 0, 'Nộp tiền phạt', 34));
+      o += pop(l, t.xoa, X[1], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="-48" y="-30" width="96" height="100" rx="12" fill="#B8C4D2" stroke="${NAVY}" stroke-width="6"/><rect x="-62" y="-52" width="124" height="18" rx="9" fill="${NAVY}"/>`);
+      if (l >= t.xoa) for (let i = 0; i < 3; i++) { const u = ((l - t.xoa) * 0.8 + i / 3) % 1; o += `<g transform="translate(${f1(X[1] + (i - 1) * 40)} ${f1(Y - 190 + 190 * u)}) scale(0.4)" opacity="${(1 - u).toFixed(2)}">${photo(60, 44)}</g>`; }
+      o += pop(l, t.xoa + 0.2, X[1], Y + 230, 1, lines(0, 0, 'Xóa dữ liệu cũ', 34));
+      o += pop(l, t.dongy, X[2], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><rect x="-44" y="-44" width="88" height="88" rx="14" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7"/>`);
+      if (l >= t.dongy + 0.4) o += `<g transform="translate(${X[2]} ${Y}) scale(${easeOutBack((l - t.dongy - 0.4) / 0.5).toFixed(2)})">${check(34)}</g>`;
+      o += pop(l, t.dongy + 0.2, X[2], Y + 230, 1, lines(0, 0, 'Xin đồng ý|trước khi thu thập', 32));
+      return o;
+    },
+  });
+  v12.push({ // 8: cài đặt TV, tắt mục theo dõi
+    w: [['cai', 'cài'], ['muc', 'mục'], ['tat', 'tắt']],
+    point: [['cai', 540, 600], ['muc', 800, 800], ['tat', 800, 800]],
+    draw(l, t) {
+      const rows = ['Âm thanh', 'Hình ảnh', 'Theo dõi nội dung xem', 'Mạng'];
+      let o = pop(l, t.cai - 0.2, 540, 790, 1, `${panel(-400, -230, 800, 470, '#FFFFFF', 30)}${T(0, -158, 'Cài đặt TV', 46, NAVY)}`);
+      const on = l < t.tat + 0.2;
+      rows.forEach((r, i) => {
+        const y = 700 + i * 84, hi = i === 2, hl = hi && l >= t.muc;
+        o += `<g opacity="${pr(l, t.cai + i * 0.2, 0.3).toFixed(2)}"><rect x="170" y="${y - 32}" width="740" height="64" rx="16" fill="${hl ? '#FFF3C4' : '#F1F5F9'}" stroke="${hl ? RED : 'none'}" stroke-width="6"/><text x="200" y="${y + 11}" font-family="${FONT}" font-weight="${hi ? 800 : 700}" font-size="32" fill="${NAVY}">${r}</text>${hi ? `<g transform="translate(840 ${y}) scale(0.55)">${toggle(on)}</g>` : ''}</g>`;
+      });
+      if (l >= t.tat + 0.3) o += pop(l, t.tat + 0.3, 540, 1060, 1, tag(0, 0, 'Tên mục khác nhau tùy hãng', 600, '#FFFFFF', NAVY, 32));
       return o;
     },
   });
 
-  return { v11, v12 };
+  // ====== Video 13: bản đồ nhiệt Strava ======
+  const v13 = [];
+  const routeD = 'M-120 60 C-90 -20 -20 -40 20 10 S110 70 140 -10';
+  v13.push({ // 2: ẩn danh thì không ai biết?
+    w: [['nghi', 'nghĩ'], ['an', 'ẩn'], ['ai', 'ai']],
+    point: [['nghi', 540, 600], ['an', 800, 760], ['ai', 800, 760]],
+    draw(l, t) {
+      let o = pop(l, 0.2, 260, 790, 1.7, watchIc(1));
+      o += `<g transform="translate(260 760) scale(1.0)" opacity="${pr(l, 0.8, 0.4).toFixed(2)}"><path d="${routeD}" fill="none" stroke="${RED}" stroke-width="8" stroke-linecap="round" stroke-dasharray="500" stroke-dashoffset="${f1(500 * (1 - pr(l, 0.8, 2.5)))}" transform="translate(0 250)"/></g>`;
+      o += myth(l, t.nghi, null, 'Ẩn danh thì không ai biết?', 540, 470, 640);
+      if (l >= t.an) o += pop(l, t.an, 800, 780, 1, `<circle r="100" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="-24" r="34" fill="#B8C4D2"/><path d="M-54 56 Q-54 8 0 8 Q54 8 54 56 Z" fill="#B8C4D2"/>${T(0, 20, '?', 60, NAVY)}${T(0, 150, 'Ẩn danh', 36, NAVY)}`);
+      return o;
+    },
+  });
+  const mapBase = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="26" fill="#0F2036" stroke="${NAVY}" stroke-width="6"/>`;
+  const hotLines = (l, t0, x0, y0, w, h, n, seed = 0) => {
+    let o = '';
+    const CL = [[0.25, 0.35], [0.68, 0.6], [0.42, 0.8], [0.78, 0.25], [0.15, 0.75]];
+    for (let i = 0; i < n; i++) {
+      const tt = t0 + i * 0.1; if (l < tt) continue;
+      const c = CL[(i + seed) % CL.length], j = ((i * 61 + seed * 17) % 100) / 100 - 0.5, k2 = ((i * 37 + seed * 11) % 100) / 100 - 0.5;
+      const cx = x0 + w * c[0] + j * 120, cy = y0 + h * c[1] + k2 * 90, r = 40 + (i * 29) % 70, a = pr(l, tt, 0.5);
+      const d = `M${f1(cx - r)} ${f1(cy + k2 * 40)} C${f1(cx - r / 2)} ${f1(cy - r)} ${f1(cx + r / 2)} ${f1(cy + r)} ${f1(cx + r)} ${f1(cy + j * 40)}`;
+      o += `<path d="${d}" fill="none" stroke="#FF7A45" stroke-width="16" stroke-linecap="round" opacity="${(0.16 * a).toFixed(2)}"/><path d="${d}" fill="none" stroke="${i % 3 ? '#FFC53D' : '#FFE8A3'}" stroke-width="4" stroke-linecap="round" opacity="${(0.95 * a).toFixed(2)}"/>`;
+    }
+    return o;
+  };
+  v13.push({ // 3: tháng 11/2017 bản đồ nhiệt
+    w: [['khong', 'không'], ['thang', 'tháng'], ['do', 'đồ'], ['sang', 'sáng']],
+    point: [['thang', 210, 640], ['do', 700, 700], ['sang', 700, 700]],
+    draw(l, t) {
+      let o = myth(l, 0.1, t.khong, 'Ẩn danh thì không ai biết?', 540, 470, 640);
+      o += pop(l, t.thang, 190, 780, 0.8, cal('THÁNG 11', '2017'));
+      o += pop(l, t.thang + 0.3, 190, 960, 1, tag(0, 0, 'Strava', 200));
+      if (l >= t.do) {
+        o += pop(l, t.do, 690, 800, 1, mapBase(-300, -260, 600, 520));
+        o += `<g transform="translate(690 800)">${hotLines(l, t.sang - 0.2, -300, -260, 600, 520, 40)}</g>`;
+        o += pop(l, t.do + 0.3, 690, 1090, 1, tag(0, 0, 'Bản đồ nhiệt', 300));
+      }
+      return o;
+    },
+  });
+  v13.push({ // 4: 13 nghìn tỷ điểm
+    w: [['gom', 'gom'], ['nghin', 'nghìn'], ['diem', 'điểm']],
+    point: [['gom', 540, 760], ['nghin', 540, 960], ['diem', 540, 960]],
+    draw(l, t) {
+      let o = pop(l, 0.2, 540, 760, 1, mapBase(-380, -230, 760, 460));
+      o = `<g>${o}</g>`;
+      o += `<g transform="translate(540 760)">${hotLines(l, t.gom - 0.2, -380, -230, 760, 460, 70, 3)}</g>`;
+      if (l >= t.gom) for (let i = 0; i < 14; i++) { const u = ((l - t.gom) * 0.7 + i / 14) % 1, a = i * 2.4; o += `<circle cx="${f1(540 + Math.cos(a) * lerp(520, 40, u))}" cy="${f1(760 + Math.sin(a) * lerp(300, 30, u))}" r="6" fill="${YEL}" opacity="${(0.9 * (1 - u * 0.5)).toFixed(2)}"/>`; }
+      if (l >= t.nghin) o += pop(l, t.nghin, 540, 1060, 1, `<rect x="-330" y="-52" width="660" height="104" rx="30" fill="${NAVY}"/>${T(0, 22, counter(l, t.nghin, 1.4, 13, (n) => n) + ' nghìn tỷ điểm', 58, YEL)}`);
+      return o;
+    },
+  });
+  const baseOutline = (x, y, k = 1) => `<g transform="translate(${x} ${y}) scale(${k})"><rect x="-190" y="-110" width="380" height="220" rx="24" fill="none" stroke="#FFB300" stroke-width="9" stroke-dasharray="26 12"/><rect x="-120" y="-60" width="240" height="120" rx="14" fill="none" stroke="#FF7A45" stroke-width="7"/><path d="M-190 0 H-260 M190 0 H260" stroke="#FFB300" stroke-width="7" stroke-linecap="round"/></g>`;
+  v13.push({ // 5: cuối tháng 1/2018 sinh viên chỉ ra căn cứ quân sự
+    w: [['cuoi', 'cuối'], ['sinh', 'sinh'], ['lo', 'lộ'], ['cu', 'căn']],
+    point: [['cuoi', 200, 600], ['sinh', 190, 960], ['lo', 700, 760], ['cu', 700, 760]],
+    draw(l, t) {
+      let o = pop(l, t.cuoi, 190, 690, 0.8, cal('THÁNG 1', '2018'));
+      o += pop(l, t.sinh, 190, 960, 0.9, `<g transform="scale(0.8) translate(0 -20)">${person('#5B3A1E')}</g>${lines(0, 90, 'Sinh viên|người Úc', 30)}`);
+      o += pop(l, t.lo - 0.4, 700, 800, 1, mapBase(-300, -240, 600, 480));
+      if (l >= t.lo - 0.4) {
+        o += `<g transform="translate(700 800)">${hotLines(l, t.lo, -300, -240, 600, 480, 14, 7)}</g>`;
+        const p = pr(l, t.lo + 0.2, 0.6);
+        o += `<g opacity="${p.toFixed(2)}">${baseOutline(700, 800, 0.95)}</g>`;
+        o += `<g transform="translate(700 800)"><circle r="${f1(180 + 14 * Math.sin(l * 5))}" fill="none" stroke="${RED}" stroke-width="7" opacity="${(0.9 * pr(l, t.cu, 0.4)).toFixed(2)}"/></g>`;
+        if (l >= t.cu) o += pop(l, t.cu, 700, 1100, 1, tag(0, 0, 'Căn cứ quân sự', 380, RED, '#FFFFFF', 36));
+      }
+      return o;
+    },
+  });
+  v13.push({ // 6: lính chạy vòng, thói quen lặp lại
+    w: [['linh', 'lính'], ['tuan', 'tuần'], ['lap', 'lặp'], ['thoi', 'thói']],
+    point: [['linh', 540, 760], ['lap', 540, 760], ['thoi', 540, 1040]],
+    draw(l, t) {
+      let o = mapBase(60, 480, 960, 560) + baseOutline(540, 760, 1.5);
+      const loopP = (u) => { const a = u * Math.PI * 2; return [540 + 330 * Math.cos(a), 760 + 150 * Math.sin(a)]; };
+      if (l >= t.linh) {
+        for (let k = 0; k < 3; k++) {
+          const e = (l - t.linh) * (0.35 + k * 0.05); const [x, y] = loopP((e + k / 3) % 1);
+          o += pop(l, t.linh + k * 0.2, x, y, 0.8, `<circle r="26" fill="${GRN}" stroke="#FFFFFF" stroke-width="5"/><circle r="9" fill="#FFFFFF"/>`);
+        }
+      }
+      if (l >= t.tuan) {
+        const n = Math.min(60, Math.floor((l - t.tuan) * 14));
+        let d = ''; for (let i = 0; i <= n; i++) { const [x, y] = loopP(i / 20); d += (i ? 'L' : 'M') + f1(x) + ' ' + f1(y); }
+        o += `<path d="${d}" fill="none" stroke="#FFB300" stroke-width="${4 + Math.min(8, (l - t.tuan) * 1.5)}" stroke-linecap="round" opacity="0.9"/>`;
+      }
+      if (l >= t.lap) o += pop(l, t.lap, 540, 1090, 1, tag(0, 0, 'Đi lặp lại mỗi ngày', 480));
+      if (l >= t.thoi) o += pop(l, t.thoi, 540, 560, 1, `<rect x="-300" y="-44" width="600" height="88" rx="44" fill="${RED}"/>${T(0, 14, 'Lộ thói quen sinh hoạt', 40, '#FFFFFF')}`);
+      return o;
+    },
+  });
+  v13.push({ // 7: riêng tư thì không lên bản đồ, có thể tắt chia sẻ
+    w: [['rieng', 'riêng'], ['khong', 'không'], ['tat', 'tắt']],
+    point: [['rieng', 250, 700], ['khong', 700, 800], ['tat', 860, 1000]],
+    draw(l, t) {
+      let o = pop(l, 0.2, 250, 760, 1, `${panel(-170, -170, 340, 340, '#FFFFFF', 26)}<path d="${routeD}" transform="translate(0 -10) scale(0.9)" fill="none" stroke="${RED}" stroke-width="9" stroke-linecap="round"/>${T(0, 130, 'Hoạt động', 32, NAVY)}`);
+      if (l >= t.rieng) o += pop(l, t.rieng, 340, 600, 0.9, `<circle r="46" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(0.55)">${ICONS.lock()}</g>`) + pop(l, t.rieng + 0.2, 250, 990, 1, tag(0, 0, 'Riêng tư', 220, NAVY, YEL));
+      o += pop(l, 0.3, 760, 760, 1, mapBase(-210, -170, 420, 340));
+      o += `<g transform="translate(760 760)">${hotLines(l, 0.5, -210, -170, 420, 340, 14, 5)}</g>`;
+      if (l >= t.khong) { const a = pr(l, t.khong, 0.4); o += `<g transform="translate(540 760)" opacity="${a.toFixed(2)}"><path d="M-30 0 H80" stroke="${NAVY}" stroke-width="8" stroke-dasharray="12 12"/><g transform="translate(25 0)">${cross(30)}</g></g>`; }
+      if (l >= t.tat) o += pop(l, t.tat, 760, 1030, 1, `<rect x="-250" y="-50" width="500" height="100" rx="30" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${T(-60, 12, 'Chia sẻ', 36, NAVY)}<g transform="translate(130 0) scale(0.8)">${toggle(l < t.tat + 0.4)}</g>`);
+      return o;
+    },
+  });
+  v13.push({ // 8: ba việc làm được
+    w: [['rieng', 'riêng'], ['vung', 'vùng'], ['tat', 'tắt']],
+    point: [['rieng', 190, 640], ['vung', 540, 640], ['tat', 890, 640]],
+    draw(l, t) {
+      const X = [190, 540, 890], Y = 650;
+      let o = pop(l, t.rieng, X[0], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(1.6)">${ICONS.lock()}</g>`);
+      o += pop(l, t.rieng + 0.2, X[0], Y + 230, 1, lines(0, 0, 'Hoạt động|riêng tư', 34));
+      o += pop(l, t.vung, X[1], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><path d="M-60 20 L0 -40 L60 20 V70 H-60 Z" fill="${YEL}" stroke="${NAVY}" stroke-width="6" stroke-linejoin="round"/><rect x="-14" y="30" width="28" height="40" fill="${NAVY}"/>`);
+      if (l >= t.vung) o += `<g transform="translate(${X[1]} ${Y})"><circle r="${f1(112 + 6 * Math.sin(l * 4))}" fill="none" stroke="${TEAL}" stroke-width="7" stroke-dasharray="16 10"/></g>`;
+      o += pop(l, t.vung + 0.2, X[1], Y + 230, 1, lines(0, 0, 'Vùng ẩn|quanh nhà', 34));
+      o += pop(l, t.tat, X[2], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="translate(0 -10) scale(1.2)">${toggle(l < t.tat + 0.5)}</g>${T(0, 80, 'Bản đồ nhiệt', 28, NAVY, 700)}`);
+      o += pop(l, t.tat + 0.2, X[2], Y + 230, 1, lines(0, 0, 'Tắt đóng góp|dữ liệu', 34));
+      return o;
+    },
+  });
+
+  // ====== Video 14: xe bị điều khiển từ xa ======
+  const v14 = [];
+  v14.push({ // 2: xe hơi không phải thiết bị mạng?
+    w: [['nghi', 'nghĩ'], ['ket', 'kết'], ['ai', 'ai']],
+    point: [['nghi', 540, 600], ['ket', 540, 800], ['ai', 540, 800]],
+    draw(l, t) {
+      let o = pop(l, 0.2, 540, 800, 1.5, carSide(1));
+      o += myth(l, t.nghi, null, 'Xe hơi đâu phải thiết bị mạng?', 540, 470, 700);
+      if (l >= t.ket) o += pop(l, t.ket, 540, 640, 0.001 + 1, `<g opacity="0.9">${[0, 1, 2].map((i) => `<path d="M${-40 - i * 22} ${-10 - i * 10} Q0 ${-50 - i * 20} ${40 + i * 22} ${-10 - i * 10}" fill="none" stroke="${NAVY}" stroke-width="8" stroke-linecap="round" opacity="${(0.9 - i * 0.25).toFixed(2)}"/>`).join('')}<circle cy="14" r="9" fill="${NAVY}"/></g>`);
+      return o;
+    },
+  });
+  v14.push({ // 3: hệ thống giải trí nối mạng = cửa vào xe
+    w: [['khong', 'không'], ['giai', 'giải'], ['cua', 'cửa']],
+    point: [['giai', 540, 800], ['cua', 760, 800]],
+    draw(l, t) {
+      let o = myth(l, 0.1, t.khong, 'Xe hơi đâu phải thiết bị mạng?', 540, 470, 700);
+      o += pop(l, 0.2, 400, 850, 1.4, carSide(1));
+      if (l >= t.giai) {
+        o += pop(l, t.giai, 400, 782, 1, `<rect x="-40" y="-24" width="80" height="46" rx="8" fill="#1B3358" stroke="${NAVY}" stroke-width="5"/><rect x="-32" y="-16" width="64" height="30" rx="5" fill="${TEAL}" opacity="${(0.6 + 0.3 * Math.sin(l * 5)).toFixed(2)}"/>`);
+        o += pop(l, t.giai + 0.2, 400, 1030, 1, tag(0, 0, 'Hệ thống giải trí', 340));
+        for (let i = 0; i < 3; i++) { const u = ((l - t.giai) * 0.8 + i / 3) % 1; o += `<path d="M${f1(450 + u * 160)} ${f1(782 - 40 * (0.4 + u))} Q${f1(470 + u * 170)} 782 ${f1(450 + u * 160)} ${f1(782 + 40 * (0.4 + u))}" fill="none" stroke="${NAVY}" stroke-width="8" stroke-linecap="round" opacity="${(1 - u).toFixed(2)}"/>`; }
+        o += pop(l, t.giai + 0.5, 900, 700, 1, `<g transform="scale(1.1)">${ICONS.cloud()}</g>`);
+      }
+      if (l >= t.cua) {
+        const op = easeOutBack((l - t.cua) / 0.5);
+        o += `<g transform="translate(540 830) scale(${op.toFixed(2)})"><rect x="-34" y="-70" width="68" height="140" rx="10" fill="${RED}" fill-opacity="0.2" stroke="${RED}" stroke-width="8" stroke-dasharray="14 10"/><path d="M-6 -10 H18" stroke="${RED}" stroke-width="8" stroke-linecap="round"/></g>`;
+        o += pop(l, t.cua + 0.2, 640, 590, 1, tag(0, 0, 'Một cánh cửa vào xe', 400, RED, '#FFFFFF', 34));
+      }
+      return o;
+    },
+  });
+  v14.push({ // 4: tháng 7/2015, hai nhà nghiên cứu điều khiển Jeep
+    w: [['thang', 'tháng'], ['nha', 'nhà'], ['jeep', 'Jeep']],
+    point: [['thang', 190, 620], ['nha', 380, 680], ['jeep', 780, 800]],
+    draw(l, t) {
+      let o = pop(l, t.thang, 190, 740, 0.75, cal('THÁNG 7', '2015'));
+      o += pop(l, t.nha, 330, 960, 0.85, `<g transform="translate(-60 0)">${person('#3B2314')}</g><g transform="translate(70 20) scale(0.9)">${person('#E7B04A', '#E8B994')}</g>`);
+      o += pop(l, t.nha + 0.3, 330, 1110, 1, lines(0, 0, 'Hai nhà nghiên cứu', 32));
+      if (l >= t.jeep) {
+        o += pop(l, t.jeep, 790, 830, 1.1, carSide(1, '#7BC96F'));
+        for (let i = 0; i < 4; i++) { const u = ((l - t.jeep) * 0.7 + i / 4) % 1; o += `<circle cx="${f1(lerp(450, 700, u))}" cy="${f1(800 - 60 * Math.sin(Math.PI * u))}" r="9" fill="${i % 2 ? YEL : TEAL}" stroke="${NAVY}" stroke-width="3"/>`; }
+        o += pop(l, t.jeep + 0.3, 790, 1010, 1, tag(0, 0, 'Jeep Cherokee', 330));
+      }
+      return o;
+    },
+  });
+  v14.push({ // 5: gạt nước, đồng hồ, giảm tốc xuống dừng
+    w: [['gat', 'gạt'], ['dong', 'đồng'], ['giam', 'giảm']],
+    point: [['gat', 300, 660], ['dong', 780, 660], ['giam', 540, 1000]],
+    draw(l, t) {
+      let o = '';
+      // gạt nước
+      o += pop(l, 0.2, 280, 700, 1, `<path d="M-130 80 Q-130 -90 0 -110 Q130 -90 130 80 Z" fill="${SKY}" stroke="${NAVY}" stroke-width="8"/>`);
+      if (l >= t.gat) { const a = 70 * Math.sin((l - t.gat) * 6); o += `<g transform="translate(0 0)"><g transform="translate(280 770) rotate(${f1(a)})"><line x1="0" y1="0" x2="0" y2="-150" stroke="${NAVY}" stroke-width="10" stroke-linecap="round"/></g></g>`; o += pop(l, t.gat + 0.2, 280, 900, 1, tag(0, 0, 'Gạt nước tự chạy', 330)); }
+      // đồng hồ tốc độ
+      const sp = l < t.giam ? (l >= t.dong ? 40 + 110 * ((Math.sin((l - t.dong) * 7) + 1) / 2) : 120) : 120 * (1 - smooth(pr(l, t.giam, 3.5)));
+      o += pop(l, t.dong - 0.1, 790, 700, 1, `<path d="M-130 70 A130 130 0 0 1 130 70 Z" fill="#FFFFFF" stroke="${NAVY}" stroke-width="8"/><g transform="translate(0 70) rotate(${f1(-90 + sp * 1.2)})"><line x1="0" y1="0" x2="0" y2="-100" stroke="${RED}" stroke-width="9" stroke-linecap="round"/></g><circle cx="0" cy="70" r="14" fill="${NAVY}"/>`);
+      if (l >= t.dong) o += pop(l, t.dong + 0.2, 790, 900, 1, tag(0, 0, 'Đồng hồ nhảy loạn', 330));
+      // xe giảm tốc
+      if (l >= t.giam) {
+        const x = 540 + 180 * smooth(pr(l, t.giam, 3.5)) - 90;
+        o += `<g transform="translate(${f1(x)} 1050) scale(0.6)">${carSide(1)}</g>`;
+        o += pop(l, t.giam, 540, 1160, 1, T(0, 0, Math.round(sp * 1.0) + ' km/giờ' + (sp < 2 ? ' · DỪNG' : ''), 44, YEL, 800, NAVY));
+      }
+      return o;
+    },
+  });
+  v14.push({ // 6: thu hồi 1,4 triệu xe
+    w: [['hang', 'hãng'], ['thu', 'thu'], ['trieu', 'triệu']],
+    point: [['hang', 540, 640], ['thu', 540, 800], ['trieu', 540, 1000]],
+    draw(l, t) {
+      let o = pop(l, t.hang, 540, 600, 1, `<rect x="-250" y="-44" width="500" height="88" rx="44" fill="${NAVY}"/>${T(0, 14, 'Hãng Fiat Chrysler', 40, YEL)}`);
+      if (l >= t.thu) {
+        for (let i = 0; i < 18; i++) {
+          const c = i % 6, r = Math.floor(i / 6), u = pr(l, t.thu + i * 0.07, 0.6);
+          o += `<g transform="translate(${f1(130 + c * 164 + 600 * (1 - smooth(u)))} ${f1(740 + r * 105)}) scale(0.4)" opacity="${u.toFixed(2)}">${carSide(1, [YEL, '#7BC96F', '#FF9A6B'][i % 3])}</g>`;
+        }
+        o += pop(l, t.thu + 0.3, 880, 700, 1, `<rect x="-130" y="-34" width="260" height="68" rx="14" fill="${RED}" stroke="#FFFFFF" stroke-width="5" transform="rotate(-8)"/>${T(0, 14, 'THU HỒI', 44, '#FFFFFF').replace('<text', '<text transform="rotate(-8)"')}`);
+      }
+      if (l >= t.trieu) o += pop(l, t.trieu, 540, 1060, 1, `<rect x="-300" y="-52" width="600" height="104" rx="30" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${T(0, 22, counter(l, t.trieu, 1.4, 14, (n) => (n / 10).toFixed(1).replace('.', ',')) + ' triệu xe', 58, NAVY)}`);
+      return o;
+    },
+  });
+  v14.push({ // 7: cơ quan an toàn xem xét; bài học cập nhật
+    w: [['co', 'cơ'], ['xem', 'xem'], ['bai', 'bài'], ['cap', 'cập']],
+    point: [['co', 300, 700], ['xem', 300, 700], ['bai', 700, 700], ['cap', 800, 950]],
+    draw(l, t) {
+      let o = pop(l, t.co, 280, 800, 1, `${panel(-170, -190, 340, 380, '#FFFFFF', 26)}${T(0, -130, 'Đợt thu hồi', 34, NAVY)}${[-60, 10, 80].map((y) => `<rect x="-110" y="${y - 8}" width="${y === 80 ? 120 : 210}" height="16" rx="8" fill="${NAVY}" fill-opacity="0.25"/>`).join('')}`);
+      if (l >= t.xem) {
+        const mx = 280 + 40 * Math.sin((l - t.xem) * 2), my = 800 + 20 * Math.cos((l - t.xem) * 2.4);
+        o += `<g transform="translate(${f1(mx + 60)} ${f1(my - 10)})"><circle r="60" fill="#FFFFFF" fill-opacity="0.3" stroke="${NAVY}" stroke-width="9"/><line x1="42" y1="42" x2="96" y2="96" stroke="${NAVY}" stroke-width="14" stroke-linecap="round"/></g>`;
+        o += pop(l, t.xem + 0.3, 280, 1060, 1, tag(0, 0, 'Có hiệu quả không?', 400));
+      }
+      if (l >= t.bai) o += pop(l, t.bai, 780, 780, 1, `${panel(-220, -150, 440, 300, '#FFF3C4', 26)}${T(0, -80, 'Bài học', 38, RED)}${lines(0, -20, 'Thiết bị nối mạng|nào cũng cần|được cập nhật', 36)}`);
+      if (l >= t.cap) {
+        const p = pr(l, t.cap, 2.2);
+        o += pop(l, t.cap, 780, 1020, 1, `<rect x="-220" y="-14" width="440" height="28" rx="14" fill="${NAVY}" fill-opacity="0.2"/><rect x="-220" y="-14" width="${f1(440 * p)}" height="28" rx="14" fill="${p >= 1 ? GRN : YEL}"/>${T(0, 62, p >= 1 ? 'Đã cập nhật' : 'Đang cập nhật...', 34, NAVY)}`);
+      }
+      return o;
+    },
+  });
+  v14.push({ // 8: ba việc làm được
+    w: [['cap', 'cập'], ['kiem', 'kiểm'], ['dot', 'đợt']],
+    point: [['cap', 300, 700], ['kiem', 800, 700], ['dot', 800, 700]],
+    draw(l, t) {
+      const Y = 680;
+      let o = pop(l, 0.2, 280, Y, 1, `<circle r="140" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="translate(0 20) scale(0.5)">${carSide(1)}</g>`);
+      if (l >= t.cap) { const p = pr(l, t.cap, 2.4); o += pop(l, t.cap, 280, Y + 190, 1, `<rect x="-150" y="-12" width="300" height="24" rx="12" fill="${NAVY}" fill-opacity="0.2"/><rect x="-150" y="-12" width="${f1(300 * p)}" height="24" rx="12" fill="${p >= 1 ? GRN : YEL}"/>`) + pop(l, t.cap + 0.2, 280, Y + 270, 1, lines(0, 0, 'Cập nhật phần mềm|khi hãng thông báo', 32)); }
+      if (l >= t.kiem) {
+        o += pop(l, t.kiem, 800, Y, 1, `<circle r="140" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${[-50, 0, 50].map((y, i) => `<rect x="-90" y="${y - 12}" width="${i === 1 ? 110 : 150}" height="24" rx="12" fill="${NAVY}" fill-opacity="0.25"/>`).join('')}`);
+        const sy = -50 + 50 * ((Math.sin((l - t.kiem) * 3) + 1) / 2) * 2; o += `<g transform="translate(830 ${f1(Y + sy - 40)})"><circle r="44" fill="#FFFFFF" fill-opacity="0.3" stroke="${NAVY}" stroke-width="9"/><line x1="32" y1="32" x2="70" y2="70" stroke="${NAVY}" stroke-width="12" stroke-linecap="round"/></g>`;
+      }
+      if (l >= t.dot) o += pop(l, t.dot, 800, Y + 230, 1, lines(0, 0, 'Kiểm tra xe có trong|đợt thu hồi nào không', 32));
+      return o;
+    },
+  });
+  return { v11, v12, v13, v14 };
 };

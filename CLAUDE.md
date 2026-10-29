@@ -24,3 +24,8 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 - Kế hoạch, kịch bản từng video: thư mục `ke-hoach/`.
 
 @quy-tac/chung.md
+
+## Giọng đọc: luôn dùng Sadaltager (chủ kênh chốt 29/10/2026, áp dụng mọi video từ nay)
+- Mọi video (dài và ngắn, mọi series) đọc bằng giọng Gemini **Sadaltager**: workflow `thu-giong-hai.yml` với `-f voices=Sadaltager`. Không đổi sang Puck hay giọng khác nếu chủ kênh chưa yêu cầu.
+- Cả video chỉ một giọng, một mô hình, cùng `cum.txt` (xem mục "Giọng đọc đồng đều"). Video ly1 dựng thử bằng Puck cũ chỉ là bản xem trước hình ảnh; bản giao phải đọc lại bằng Sadaltager.
+- Kịch bản mới (lt1 và sau) ghi sẵn trong mục "Việc cần chủ kênh quyết" rằng giọng là Sadaltager.

@@ -33,7 +33,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18003 | Mở đầu | Cánh cửa hiểm yếu ấy do vị tiên hoàng vừa khuất cho xây từ mười tám năm về trước. |
 | 18004 | Mở đầu | Vì cớ gì ngài lại quyết định rũ bỏ kinh đô cũ kiên cố, để dời ra vùng đất mới và dựng lên cánh cửa định mệnh này? |
 | 18005 | Mở đầu | Bậc quân vương dựng nên nó không lớn lên trong nhung lụa cung đình, mà trưởng thành dưới bóng bồ đề của một thiền sư. Ngài chính là Lý Công Uẩn. |
-| 18006 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba dương lịch, cậu bé Công Uẩn chào đời tại châu Cổ Pháp. |
+| 18006 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi tư, tức khoảng ngày tám tháng ba dương lịch, cậu bé Công Uẩn chào đời tại châu Cổ Pháp. |
 | 18007 | Đứa trẻ bên nhà thiền sư | Lên ba tuổi, Công Uẩn được mẹ gửi nương nhờ nơi cửa Phật, bái thiền sư Lý Khánh Văn làm nghĩa phụ, từ đó mang họ Lý. |
 | 18008 | Đứa trẻ bên nhà thiền sư | Lớn lên, chàng thanh niên bộc lộ trí tuệ hơn người, cùng dung mạo tuấn tú, khác hẳn người thường. |
 | 18009 | Đứa trẻ bên nhà thiền sư | Thuở theo học tại chùa Lục Tổ, ông hội ngộ sư Vạn Hạnh. Người đời sau truyền rằng vị thiền sư vừa nhìn đã đoán ông sẽ là bậc minh chủ. |

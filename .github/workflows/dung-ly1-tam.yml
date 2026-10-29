@@ -17,7 +17,7 @@ env:
   SCRIPT: ${{ github.workspace }}/ke-hoach/thu-giong-hai/ly1_full.json
   VOICE_DIR: ${{ github.workspace }}/assets/thu_giong_hai/ly1_tam
   WORLD: ${{ github.workspace }}/phim_ban_do/world7.jpg
-  LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su.png
+  LOGO: ${{ github.workspace }}/assets/logo/nguoi-gac-su-cu.png
   FONT: ${{ github.workspace }}/assets/fonts/Lora-Variable.ttf
   CONTENT: ly1_content
   WORLDMOD: world7

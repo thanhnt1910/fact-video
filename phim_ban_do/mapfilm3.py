@@ -257,7 +257,7 @@ PAPER=MD.paper()
 STATIC=Image.alpha_composite(VIGN,PAPER)
 _h=Image.new('RGBA',(W,H),(0,0,0,0));_hd=ImageDraw.Draw(_h);MD.compass(_hd,W-110,245,46);MD.scalebar(_hd,W-290,320,170)
 def _logo(px,a):
-    lg=Image.open(os.environ.get('LOGO','/home/claude/fact-video/assets/logo/nguoi-gac-su.png')).convert('RGBA').resize((px,px),Image.LANCZOS)
+    lg=Image.open(os.environ.get('LOGO','/home/claude/fact-video/assets/logo/nguoi-gac-su-cu.png')).convert('RGBA').resize((px,px),Image.LANCZOS)
     al=lg.split()[3].point(lambda v:int(v*a));lg.putalpha(al);return lg
 _h.alpha_composite(_logo(130,0.8),(W-44-130,34))
 STATIC=Image.alpha_composite(STATIC,_h)
@@ -673,6 +673,7 @@ def frame(t):
         if t0<=t<=t1 and kind=='vsvg':
             import ly1_anim as _A, ly1_s1,ly1_s2,ly1_s3,ly1_s4,ly1_s5,ly1_s6
             _fr=_A.render(dat['name'],t-t0,t1-t0,W,H,dat['ms']).convert('RGBA')
+            _fr.alpha_composite(_logo(130,0.8),(W-44-130,34))  # logo kênh luôn hiện trong cảnh vector
             k=min(clamp((t-t0)/max(dat.get('fi',0.35),0.01)) if dat.get('fi',0.35)>0 else 1.0,clamp((t1-t)/max(dat['fo'],0.01)) if dat.get('fo',0.35)>0 else 1.0)
             if k>=1.0: out=comp(out,_fr,(0,0),1.0)
             else:
@@ -691,6 +692,7 @@ def frame(t):
             cx=_bg.width/2+dat.get('dx',0)*(u-0.5)*_bg.width*0.06;cy=_bg.height/2+dat.get('dy',0)*(u-0.5)*_bg.height*0.06
             box=(int(cx-vw/2),int(cy-vh/2),int(cx+vw/2),int(cy+vh/2))
             _fr=_bg.crop(box).resize((W,H),Image.BILINEAR).convert('RGBA')
+            _fr.alpha_composite(_logo(130,0.8),(W-44-130,34))
             k=min(clamp((t-t0)/0.3),clamp((t1-t)/0.3));out=comp(out,_fr,(0,0),ease(k))
             continue
         if t0<=t<=t1:

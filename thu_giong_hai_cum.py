@@ -12,7 +12,7 @@ STYLE_A = ("Native Vietnamese storyteller (Northern accent) telling a true story
            "Stress key words and names; pitch lifts a little on questions and turning points and settles at the end of each sentence. "
            "Not a news anchor, not a stage actor, never mumbling, never whispering, never low or sleepy. ")
 import os as _os
-for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 13)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
+for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 14)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
     _v = _os.environ.get(_n, "").strip()
     print(f"   [khóa] {_n}: " + (f"…{_v[-4:]}" if _v else "trống"), flush=True)
 

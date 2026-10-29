@@ -32,4 +32,9 @@ jobs:
           PY
             curl -s -o /dev/null -w "video $n: %{http_code}\n" -F chat_id="$CHAT" -F supports_streaming=true \
               -F video=@"$f" -F "caption=</tmp/cap.txt" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo" || true
+            b=$(ls goc-iot/bia/bia-${n}.* 2>/dev/null | head -1)
+            if [ -n "$b" ]; then
+              curl -s -o /dev/null -w "bia $n: %{http_code}\n" -F chat_id="$CHAT" \
+                -F photo=@"$b" -F "caption=Ảnh bìa video $n" "https://api.telegram.org/bot${TG_TOKEN}/sendPhoto" || true
+            fi
           done

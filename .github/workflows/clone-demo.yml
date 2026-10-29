@@ -50,6 +50,7 @@ jobs:
           GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
           GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
           GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: mkdir -p demo logs && rm -f demo/list.txt && python demo_clone.py "${{ inputs.voices }}" 2>&1 | tee logs/clone-demo.txt
       - name: Gửi Telegram

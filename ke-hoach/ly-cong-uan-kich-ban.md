@@ -1,6 +1,6 @@
 # Kịch bản Lý Công Uẩn (ly1): bản chủ kênh sửa lời ngày 29/10/2026
 
-Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 16.3 phút). Giọng luôn Sadaltager, đọc từng đoạn một (`cum.txt` = 1).
+Mã `ly1`, 134 đoạn (18001 đến 18134), 3.208 chữ, khoảng 17,8 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 16,2 phút). Giọng luôn Sadaltager, đọc từng đoạn một (`cum.txt` = 1).
 
 **Trạng thái:** lấy theo bản chủ kênh viết; video phải dựng lại nội dung bản đồ theo bản này (xem ghi chú cuối file). Chưa đọc giọng mới, chưa dựng.
 

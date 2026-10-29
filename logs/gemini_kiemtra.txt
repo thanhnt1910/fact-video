@@ -1,5 +1,5 @@
-Kiểm tra lúc 2026-10-28 02:06:11 UTC
-Số khóa tìm thấy: 8
+Kiểm tra lúc 2026-10-29 08:17:50 UTC
+Số khóa tìm thấy: 13
 
 [GEMINI_API_KEY] dấu vân tay 6a898e57, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
@@ -30,5 +30,25 @@ Số khóa tìm thấy: 8
    Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_8] dấu vân tay c584db37, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_9] dấu vân tay 0d9bdf98, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_10] dấu vân tay 2356cf53, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_11] dấu vân tay 6444e3af, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_12] dấu vân tay 2b6eb0f0, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_13] dấu vân tay 7bfca4b1, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
    Chữ flash-lite: ✅ dùng được

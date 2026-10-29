@@ -39,7 +39,7 @@ for n in sorted(B.T):
         caps.append((B.T[n] + c[1], B.T[n] + c[2], c[0]))
 caps = [c for c in caps if c[0] < DUR]
 
-FG_Y, FG_H = 330, 506          # khung 16:9 đã bỏ dải phụ đề: 1920x900 thu về 1080x506
+FG_Y, FG_H = 330, 530          # khung 16:9 đã bỏ dải phụ đề: 1920x900 thu về 1080x506
 CAP_Y = 960
 LOGO = Image.open(os.environ['LOGO']).convert('RGBA')
 
@@ -52,6 +52,9 @@ def static_layer():
         w = g.textlength(t, font=ff)
         g.text(((W - w) / 2 + 3, y + 4), t, font=ff, fill=(0, 0, 0, 200)); g.text(((W - w) / 2, y), t, font=ff, fill=col)
     h = 'NGƯỜI GÁC SỬ  ·  chuyện có thật trong lịch sử'
+    sz = 52
+    while g.textlength(h, font=font(sz, False)) > W - 120: sz -= 2
+    f2 = font(sz, False)
     w = g.textlength(h, font=f2); g.text(((W - w) / 2, H - 150), h, font=f2, fill=(250, 244, 228, 190))
     lg = LOGO.resize((130, 130), Image.LANCZOS); lg.putalpha(lg.split()[3].point(lambda v: int(v * 0.8)))
     im.alpha_composite(lg, (W - 44 - 130, 34))
@@ -87,7 +90,7 @@ while True:
     fr.paste(fr.crop((1734, 24, 1736, 172)).resize((150, 148), Image.BILINEAR), (1738, 24))   # che logo nhỏ trong video gốc
     bg = fr.resize((W // 6, H // 6), Image.BILINEAR).resize((W, H), Image.BICUBIC).filter(ImageFilter.GaussianBlur(14))
     bg = Image.eval(bg, lambda v: int(v * 0.55))
-    fg = fr.crop((0, 0, 1920, 900)).resize((W, FG_H), Image.LANCZOS)
+    fg = fr.crop((0, 0, 1920, 940)).resize((W, FG_H), Image.LANCZOS)
     bg.paste(fg, (0, FG_Y))
     canvas = bg.convert('RGBA')
     canvas.alpha_composite(STATIC)

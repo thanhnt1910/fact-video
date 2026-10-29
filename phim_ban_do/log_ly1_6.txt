@@ -1,17 +1,26 @@
 + nproc
 4
 ++ head -1 ../ke-hoach/thu-giong-hai/dung_ly1.txt
-+ MODE='full 1793145028'
++ MODE=full
 + python -
-tổng khung 19870 đoạn 6 7451 8693
+tổng khung 18846 đoạn 6 7067 8245
 + read A0 A1
-+ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_6.mp4 7451 8693
++ python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_6.mp4 7067 8245
 + tail -n 15
-0 1242
-300 1242
-600 1242
-900 1242
-1200 1242
-xong
+ModuleNotFoundError: No module named 'cairosvg'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/mapfilm3.py", line 716, in <module>
+    for i,b in enumerate(pool.imap(work,range(a0,a1),chunksize=4)):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/multiprocessing/pool.py", line 423, in <genexpr>
+    return (item for chunk in result for item in chunk)
+                              ^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/multiprocessing/pool.py", line 873, in next
+    raise value
+ModuleNotFoundError: No module named 'cairosvg'
 + ls -la doan_6.mp4
--rw-r--r-- 1 runner runner 15876775 Oct 27 23:53 doan_6.mp4
+-rw-r--r-- 1 runner runner 3137985 Oct 29 00:56 doan_6.mp4

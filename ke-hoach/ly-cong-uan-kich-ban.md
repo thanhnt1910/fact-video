@@ -30,7 +30,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 |---|---|---|
 | 18001 | Mở đầu | Hoàng đế vừa băng hà, tang lễ chưa kịp cử hành thì sóng gió đoạt vị đã chực chờ ập đến. |
 | 18002 | Mở đầu | Phía sau cánh cửa Quảng Phúc, ba vị vương gia đã đem quân mai phục kín kẽ, chỉ chờ thái tử bước qua là ập ra hạ sát đoạt ngôi. |
-| 18003 | Mở đầu | Cánh cửa hiểm yếu ấy do chính tay vị tiên hoàng vừa khuất tự mình thiết kế và hưng công xây dựng từ mười tám năm về trước. |
+| 18003 | Mở đầu | Cánh cửa hiểm yếu ấy do chính tay vị tiên hoàng vừa khuất tự mình thiết kế và xây dựng từ mười tám năm về trước. |
 | 18004 | Mở đầu | Vì cớ gì ngài lại quyết định rũ bỏ kinh đô cũ kiên cố, để dời ra vùng đất mới và dựng lên cánh cửa định mệnh này? |
 | 18005 | Mở đầu | Bậc quân vương dựng nên nó không lớn lên trong nhung lụa cung đình, mà trưởng thành dưới bóng bồ đề của một thiền sư. Ngài chính là Lý Công Uẩn. |
 | 18006 | Đứa trẻ bên nhà thiền sư | Ngày mười hai tháng hai âm lịch năm chín trăm bảy mươi bốn, tức khoảng ngày tám tháng ba dương lịch, cậu bé Công Uẩn chào đời tại châu Cổ Pháp. |
@@ -38,7 +38,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18008 | Đứa trẻ bên nhà thiền sư | Lớn lên, chàng thanh niên bộc lộ trí tuệ hơn người, cùng dung mạo tuấn tú, khác hẳn bậc phàm nhân. |
 | 18009 | Đứa trẻ bên nhà thiền sư | Thuở theo học tại chùa Lục Tổ, ông hội ngộ sư Vạn Hạnh. Người đời sau truyền rằng vị thiền sư vừa nhìn đã đoán ông sẽ là bậc minh chủ. |
 | 18010 | Đứa trẻ bên nhà thiền sư | Dù không dùi mài kinh sử, ông lại mang cốt cách khảng khái, ôm hoài bão lớn lao và sớm bước vào con đường binh nghiệp dưới triều Tiền Lê. |
-| 18011 | Đứa trẻ bên nhà thiền sư | Làm thế nào một viên tướng cấm vệ quân, kề cận một quân vương khát máu, lại có thể thuận lợi đăng cơ mà không dấy lên can qua khói lửa? |
+| 18011 | Đứa trẻ bên nhà thiền sư | Làm thế nào một viên tướng cấm vệ quân, kề cận một quân vương khát máu, lại có thể thuận lợi đăng cơ mà không hề gây ra một trận đổ máu nào? |
 | 18012 | Đứa trẻ bên nhà thiền sư | Lời giải nằm ở những ngày tháng tàn mạt của vương triều đi trước. |
 | 18013 | Người giữ cung nhà Lê | Triều Tiền Lê bấy giờ do hoàng đế Lê Hoàn khai mở, trị vì đất nước suốt hơn hai thập kỷ. |
 | 18014 | Người giữ cung nhà Lê | Tháng ba âm lịch năm một nghìn không trăm linh năm, Lê Hoàn băng hà. Các hoàng tử lập tức dấy binh tranh đoạt ngai vàng. |
@@ -94,7 +94,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18064 | Lá chiếu dời đô | Tháng hai âm lịch năm một nghìn không trăm mười, hoàng đế hồi hương thăm châu Cổ Pháp, rộng rãi ban phát lụa là, tiền bạc cho các bô lão. |
 | 18065 | Lá chiếu dời đô | Cũng trong năm đó, triều đình phái sứ giả vượt biên ải sang Bắc Tống để củng cố giao bang. |
 | 18066 | Lá chiếu dời đô | Bản chiếu mở đầu bằng tấm gương đế vương Trung Hoa xưa, là nhà Thương dời đô năm lần, nhà Chu dời ba lần, đều vì nghiệp lớn cho muôn đời sau. |
-| 18067 | Lá chiếu dời đô | Bản chiếu nghiêm khắc phê bình nhà Đinh và nhà Tiền Lê vì tư lợi mà chôn chân một chỗ, khiến quốc tộ suy vi, muôn dân kiệt quệ. |
+| 18067 | Lá chiếu dời đô | Bản chiếu nghiêm khắc phê bình nhà Đinh và nhà Tiền Lê vì tư lợi mà chôn chân một chỗ, khiến vận nước ngắn ngủi, muôn dân kiệt quệ. |
 | 18068 | Lá chiếu dời đô | Chiếu ca ngợi địa thế Đại La rồng cuộn hổ ngồi, cao ráo, quang đãng, đất rộng bằng phẳng, hứa hẹn muôn loài phồn vinh sinh sôi. |
 | 18069 | Lá chiếu dời đô | Ở dòng cuối, vua không ép buộc mà ôn tồn hỏi bầy tôi rằng trẫm muốn dựa vào sự thuận lợi của đất ấy để định chỗ ở, các khanh nghĩ sao? |
 | 18070 | Lá chiếu dời đô | Quần thần đồng thanh tấu rằng hoàng đế đang tính kế trăm năm cho thiên hạ, điều đại lợi như vậy cớ sao lại không tuân phục. |
@@ -111,16 +111,16 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18081 | Bốn cánh cửa và các điện | Các địa danh cũ cũng được sắc phong tên mới nhằm khắc cốt ghi tâm công ơn tổ tông. |
 | 18082 | Bốn cánh cửa và các điện | Quê hương Cổ Pháp được nâng cấp thành phủ Thiên Đức, còn Hoa Lư lùi về thành phủ Trường Yên. |
 | 18083 | Bốn cánh cửa và các điện | Tháng mười hai âm lịch, tức đầu năm một nghìn không trăm mười một, cung Thúy Hoa xây xong. Nhân dịp ấy, vua miễn toàn bộ thuế trong ba năm. |
-| 18084 | Bốn cánh cửa và các điện | Hàng vạn trẻ mồ côi, quả phụ, người già yếu bần hàn mắc nợ thuế lưu cữu lập tức được xóa bỏ hoàn toàn gánh nặng. |
+| 18084 | Bốn cánh cửa và các điện | Hàng vạn trẻ mồ côi, góa phụ, người già yếu bần hàn mắc nợ thuế từ lâu lập tức được xóa bỏ hoàn toàn gánh nặng. |
 | 18085 | Bốn cánh cửa và các điện | Cùng năm đó, hoàng đế Tống triều chính thức sắc phong Lý Thái Tổ làm Giao Chỉ quận vương. |
 | 18086 | Bốn cánh cửa và các điện | Đế đô mới vừa đặt nền móng đã nhận được sự kiêng nể và công nhận từ láng giềng phương bắc quyền lực. |
-| 18087 | Những năm trị vì | Dời đô chỉ là bản lề cho một chiến lược trị quốc vĩ đại. Kinh đô chỉ hưng thịnh khi giang sơn xã tắc cường bạo. |
+| 18087 | Những năm trị vì | Dời đô chỉ là bản lề cho một chiến lược trị quốc vĩ đại. Kinh đô chỉ hưng thịnh khi giang sơn xã tắc vững mạnh. |
 | 18088 | Những năm trị vì | Vì vậy ngay năm khai quốc, ông mạnh tay cải cách hành chính, chia lại mười đạo thành hai mươi bốn lộ, nhằm dễ bề phân quyền quản lý lãnh thổ. |
 | 18089 | Những năm trị vì | Tháng hai âm lịch năm một nghìn không trăm mười một, hoàng đế ngự giá thân chinh phạt giặc Cử Long ở Ái Châu. |
 | 18090 | Những năm trị vì | Bọn phản nghịch này từng khiến hai triều Đinh, Lê bất lực trong việc càn quét. |
 | 18091 | Những năm trị vì | Nhưng dưới ngọn cờ của Lý Thái Tổ, các hang ổ bộ lạc của chúng bị thiêu rụi, tướng giặc bị tóm gọn, quân phản loạn tan rã. |
 | 18092 | Những năm trị vì | Năm một nghìn không trăm mười hai, vua tiếp tục thân chinh giương cờ dẹp loạn Diễn Châu. |
-| 18093 | Những năm trị vì | Trên đường ban sư hồi triều, đoàn chiến thuyền tiến đến vùng biển Biện Sơn thì bỗng mây đen kịt trời, sấm chớp ầm ĩ. |
+| 18093 | Những năm trị vì | Trên đường rút quân về triều, đoàn chiến thuyền tiến đến vùng biển Biện Sơn thì bỗng mây đen kịt trời, sấm chớp ầm ĩ. |
 | 18094 | Những năm trị vì | Hoàng đế thắp nhang khấn trời đất rằng ngài không dám cậy binh mã mà lạm sát. Chỉ vì Diễn Châu gây tội tàn ngược nên ngài mới đem quân đi dẹp. |
 | 18095 | Những năm trị vì | Ngài cầu xin bề trên rằng nếu lỡ làm oan khuất người vô tội, xin trời cao hãy giáng tội lên một mình trẫm. |
 | 18096 | Những năm trị vì | Người xưa truyền tụng rằng lời khấn vừa dứt, bão táp sấm sét lập tức tiêu tan. |
@@ -131,7 +131,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18101 | Những năm trị vì | Quân Nam Chiếu đại bại, cống nạp vô số binh sĩ cùng chiến mã cho quân đội Đại Cồ Việt. |
 | 18102 | Những năm trị vì | Lý Công Uẩn đem một trăm ngựa chiến cống nạp nhà Tống. Vua Tống vui mừng ban tặng mão, đai quý giá cho đoàn sứ giả Đại Việt. |
 | 18103 | Những năm trị vì | Không chỉ phát dương quang đại võ bị, Lý Thái Tổ còn dốc tâm phụng dưỡng Phật pháp. |
-| 18104 | Những năm trị vì | Ông xuất ngân khố kiến tạo chùa chiền, đúc chuông đồng, chép kinh Tam tạng, và độ điệp cho hơn một nghìn tăng ni ở kinh thành. |
+| 18104 | Những năm trị vì | Ông xuất ngân khố kiến tạo chùa chiền, đúc chuông đồng, chép kinh Tam tạng, và cho phép hơn một nghìn người ở kinh thành đi tu. |
 | 18105 | Những năm trị vì | Đó là hệ quả tất yếu, bởi vị minh quân vĩ đại ấy từng lớn lên dưới bóng bồ đề và cống hiến trọn kiếp vì Phật môn. |
 | 18106 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười lăm, khai quốc công thần Đào Cam Mộc tạ thế, được triều đình truy tặng hàm Thái sư á vương. |
 | 18107 | Điện Long An | Trải qua mười tám năm từ ngày dời đô, Thăng Long bừng sáng với cung điện tráng lệ, tường thành vững chãi, bốn mặt thành hiên ngang mở ra thế giới. |
@@ -157,15 +157,15 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18127 | Kết | Cửa Tường Phù, cửa Quảng Phúc, điện Càn Nguyên và điện Long An, tất cả đều do Lý Công Uẩn cho xây từ năm một nghìn không trăm mười. |
 | 18128 | Kết | Ngày soạn chiếu dời đô, ông từng lên án nhà Đinh và Tiền Lê bảo thủ chôn chân ở Hoa Lư để rồi tự chuốc lấy diệt vong. |
 | 18129 | Kết | Liệu khi vẽ thành Đại La, hoàng đế có nghĩ tới cảnh anh em tranh ngôi vào ngày ba mươi mốt tháng ba năm một nghìn không trăm hai mươi tám? |
-| 18130 | Kết | Dù thế nào đi nữa, kinh đô kiên cố mà ông tâm huyết xây dựng vẫn đứng vững trơ gan cùng tuế nguyệt. |
+| 18130 | Kết | Dù thế nào đi nữa, kinh đô kiên cố mà ông tâm huyết xây dựng vẫn đứng vững qua bao thăng trầm của lịch sử. |
 | 18131 | Kết | Trận huynh đệ tương tàn đã vùi thây ngay trước cánh cửa phía tây do chính hoàng đế thiết kế. |
 | 18132 | Kết | Mười tám năm trước đó, nhà vua đã khéo léo dò hỏi quần thần rằng nếu đổi Đại La làm kinh đô thì lòng bá quan có thuận phục hay không. |
-| 18133 | Kết | Cốt nhục từ một câu hỏi khéo léo ấy, nhà Lý đã có một thủ đô vững chãi để duy trì quốc tộ suốt hai thế kỷ rực rỡ. |
+| 18133 | Kết | Khởi nguồn từ một câu hỏi khéo léo ấy, nhà Lý đã có một thủ đô vững chãi để duy trì cơ nghiệp suốt hai thế kỷ rực rỡ. |
 | 18134 | Kết | Còn mỹ danh Thăng Long thì kiêu hãnh trường tồn vượt qua cả sự hữu hạn của vương triều. |
 
 ## Ghi chú
 
-- Chủ kênh sửa lời 29/10 (sau bản đầu): 18025, 18026, 18031, 18037.
+- Chủ kênh sửa lời 29/10 (sau bản đầu): 18025, 18026, 18031, 18037, 18003, 18011, 18067, 18084, 18087, 18093, 18104, 18130, 18133.
 - Số đoạn và số hiệu giữ nguyên 18001 đến 18134 như bản chủ kênh. Chỉ rút ngắn nhẹ hoặc đổi dấu câu ở 24 đoạn để qua bộ kiểm giọng đọc (đoạn tối đa 32 chữ, không hai chấm, không gạch, không chữ số): 18006, 18009, 18034, 18035, 18047, 18057, 18066, 18069, 18071, 18076, 18079, 18083, 18094, 18097, 18108, 18116, 18127, 18129.
 - Chủ kênh chốt 29/10: 18042 và 18044 giữ nguyên lời bản chủ kênh; 18116 giữ câu đã thêm "nằm ở phía đông kinh thành".
 - Còn 19 cảnh báo nhẹ (đoạn 31 đến 32 chữ, vài đoạn ngắn hoặc nhiều dấu phẩy), không phải lỗi.

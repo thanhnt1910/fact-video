@@ -58,7 +58,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18028 | Lời nói khích và ngôi vua | Cầm giữ hai đạo quân ấy, ngai vàng Đại Cồ Việt coi như đã nằm gọn trong lòng bàn tay hai ông. |
 | 18029 | Lời nói khích và ngôi vua | Viên quan hầu cận Đào Cam Mộc đã tinh ý nhìn thấu cơ hội này. |
 | 18030 | Lời nói khích và ngôi vua | Nhân một dịp vắng người, Đào Cam Mộc mạo muội tìm đến Lý Công Uẩn dùng lời kích tướng. |
-| 18031 | Lời nói khích và ngôi vua | Ông nói thẳng rằng cựu vương tàn ngược, tân vương còn thơ dại, cớ sao ngài không thuận theo lòng trời ý dân mà bước lên bảo tọa. |
+| 18031 | Lời nói khích và ngôi vua | Ông nói thẳng rằng cựu vương tàn ngược, tân vương còn thơ dại, cớ sao ngài không thuận theo lòng trời ý dân mà bước lên ngai vàng. |
 | 18032 | Lời nói khích và ngôi vua | Lý Công Uẩn trong lòng mừng thầm nhưng ngoài mặt vẫn vờ nổi giận, dọa bắt Cam Mộc giải đi cáo quan. |
 | 18033 | Lời nói khích và ngôi vua | Đào Cam Mộc khẳng khái đáp rằng ông không màng sinh tử, vì chính lòng người quy tụ mới khiến ông dám can đảm cất lời. |
 | 18034 | Lời nói khích và ngôi vua | Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ tiết lộ, cả hai mang họa tru di. |

@@ -247,5 +247,164 @@ module.exports = function (H) {
     },
   });
 
-  return { v11 };
+  // ====== Video 12: bóng đèn thông minh bị hack ======
+  const bulbG = (on, k = 1, col = YEL) => `<g transform="scale(${k})"><circle cx="0" cy="-10" r="100" fill="${on ? col : '#DDE3EA'}" stroke="${on ? '#FFB300' : '#9AA7B6'}" stroke-width="10"/><path d="M-30 20 Q0 -40 30 20" fill="none" stroke="${on ? '#FFFFFF' : '#9AA7B6'}" stroke-width="7" stroke-linecap="round" stroke-opacity="0.8"/><rect x="-44" y="86" width="88" height="22" rx="8" fill="#8A97A8"/><rect x="-36" y="108" width="72" height="20" rx="8" fill="#6F7C8E"/><rect x="-18" y="128" width="36" height="14" rx="7" fill="${NAVY}"/></g>`;
+  const bulbS = (c, fill = YEL) => `<circle cx="0" cy="-4" r="24" fill="${fill}" stroke="${NAVY}" stroke-width="5"/><rect x="-11" y="18" width="22" height="14" rx="5" fill="#8A97A8" stroke="${NAVY}" stroke-width="3"/>`;
+  const tag = (x, y, text, w, fill = NAVY, col = YEL, size = 34) => `<rect x="${-w / 2}" y="-30" width="${w}" height="58" rx="29" fill="${fill}"/>${T(0, 12, text, size, col)}`;
+  const toggle = (on, k = 1) => `<g transform="scale(${k})"><rect x="-60" y="-30" width="120" height="60" rx="30" fill="${on ? GRN : '#B8C4D2'}" stroke="${NAVY}" stroke-width="6"/><circle cx="${on ? 30 : -30}" cy="0" r="22" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/></g>`;
+  const v12 = [];
+  // Cảnh 2: ai nghĩ bóng đèn chỉ bật tắt
+  v12.push({
+    w: [['nghi', 'nghĩ'], ['bat', 'bật'], ['tan', 'tấn']],
+    point: [['nghi', 540, 600], ['bat', 860, 960], ['tan', 540, 800]],
+    draw(l, t) {
+      const on = l < t.bat ? true : Math.floor((l - t.bat) / 0.7) % 2 === 0;
+      let o = pop(l, 0.15, 540, 790, 1, `${on ? `<circle cx="0" cy="-10" r="${f1(150 + 12 * Math.sin(l * 6))}" fill="${YEL}" fill-opacity="0.25"/>` : ''}${bulbG(on)}`);
+      o += myth(l, t.nghi, null, 'Đèn thì ai thèm hack?', 540, 470, 620);
+      if (l >= t.bat) o += pop(l, t.bat, 860, 1000, 1, `${toggle(on)}${T(0, 80, on ? 'BẬT' : 'TẮT', 34, NAVY)}`);
+      if (l >= t.tan) {
+        const p = pr(l, t.tan, 0.5), r = 190 - 40 * smooth(p);
+        o += `<g transform="translate(540 790)" opacity="${p.toFixed(2)}" stroke="${RED}" stroke-width="9" fill="none" stroke-linecap="round"><circle r="${f1(r)}"/><line x1="-${f1(r + 30)}" y1="0" x2="-${f1(r - 40)}" y2="0"/><line x1="${f1(r + 30)}" y1="0" x2="${f1(r - 40)}" y2="0"/><line x1="0" y1="-${f1(r + 30)}" x2="0" y2="-${f1(r - 40)}"/><line x1="0" y1="${f1(r + 30)}" x2="0" y2="${f1(r - 40)}"/></g>`;
+      }
+      return o;
+    },
+  });
+
+  // Cảnh 3: bóng đèn có chip, sóng, phần mềm = máy tính nhỏ
+  v12.push({
+    w: [['khong', 'không'], ['chip', 'chip'], ['song', 'sóng'], ['mem', 'mềm'], ['may', 'máy']],
+    point: [['chip', 260, 760], ['song', 560, 760], ['mem', 850, 760], ['may', 540, 1040]],
+    draw(l, t) {
+      let o = myth(l, 0.1, t.khong, 'Đèn thì ai thèm hack?', 540, 470, 620);
+      o += `<g transform="translate(260 790) scale(0.9)" opacity="${pr(l, 0.1, 0.4).toFixed(2)}">${bulbG(true)}</g>`;
+      o += pop(l, t.chip, 260, 770, 0.55, ic('chip', 1.3));
+      o += pop(l, t.chip + 0.2, 260, 960, 1, tag(0, 0, 'Chip', 150));
+      if (l >= t.song) {
+        for (let i = 0; i < 3; i++) { const u = ((l - t.song) * 0.8 + i / 3) % 1; o += `<path d="M${f1(370 + u * 200)} ${f1(790 - 70 * (0.4 + u))} Q${f1(400 + u * 220)} 790 ${f1(370 + u * 200)} ${f1(790 + 70 * (0.4 + u))}" fill="none" stroke="${NAVY}" stroke-width="9" stroke-linecap="round" opacity="${(1 - u).toFixed(2)}"/>`; }
+        o += pop(l, t.song + 0.2, 560, 930, 1, tag(0, 0, 'Sóng vô tuyến', 290));
+      }
+      if (l >= t.mem) {
+        o += pop(l, t.mem, 850, 780, 1, `${panel(-140, -130, 280, 260, '#1B3358', 22)}${[-80, -40, 0, 40, 80].map((y, i) => `<rect x="-100" y="${y - 8}" width="${f1(40 + ((i * 53 + Math.floor(l * 4) * 37) % 120))}" height="14" rx="7" fill="${i % 2 ? TEAL : YEL}"/>`).join('')}`);
+        o += pop(l, t.mem + 0.2, 850, 960, 1, tag(0, 0, 'Phần mềm', 250));
+      }
+      if (l >= t.may) o += pop(l, t.may, 540, 1060, 1, `<rect x="-300" y="-52" width="600" height="104" rx="30" fill="${NAVY}"/>${T(0, 22, '= Máy tính nhỏ', 66, YEL)}`);
+      return o;
+    },
+  });
+
+  // Cảnh 4: năm 2016, nhóm nghiên cứu Israel thử trên đèn Philips Hue
+  v12.push({
+    w: [['nam', 'năm'], ['nhom', 'nhóm'], ['den', 'đèn']],
+    point: [['nam', 190, 560], ['nhom', 540, 560], ['den', 880, 560]],
+    draw(l, t) {
+      let o = pop(l, t.nam, 190, 720, 1, `${panel(-130, -150, 260, 300, '#FFFFFF', 22)}<path d="M-130 -128 Q-130 -150 -108 -150 H108 Q130 -150 130 -128 V-80 H-130 Z" fill="${RED}" stroke="${NAVY}" stroke-width="6"/>${T(0, 36, '2016', 84, NAVY)}`);
+      o += pop(l, t.nhom, 540, 720, 1, `<circle cx="0" cy="-70" r="50" fill="#FFC9A8" stroke="${NAVY}" stroke-width="6"/><path d="M-80 60 Q-80 -10 0 -10 Q80 -10 80 60 Z" fill="${NAVY}"/><rect x="-100" y="50" width="200" height="14" rx="7" fill="${NAVY}"/><rect x="-86" y="2" width="172" height="52" rx="8" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/><circle cx="0" cy="28" r="9" fill="${TEAL}"/>${lines(0, 130, 'Nhóm nghiên cứu|bảo mật ở Israel', 32)}`);
+      o += pop(l, t.den, 880, 720, 1, `<g transform="scale(0.8)">${bulbG(true)}</g>${T(0, 130, 'Philips Hue', 40, NAVY)}`);
+      if (l >= t.den + 0.3) {
+        for (let i = 0; i < 4; i++) { const u = ((l - t.den) * 0.6 + i / 4) % 1; o += `<circle cx="${f1(lerp(640, 780, u))}" cy="${f1(700 - 20 * Math.sin(Math.PI * u))}" r="9" fill="${i % 2 ? YEL : TEAL}" stroke="${NAVY}" stroke-width="3"/>`; }
+        o += pop(l, t.den + 0.7, 540, 1040, 1, `<rect x="-230" y="-34" width="460" height="68" rx="34" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/>${T(0, 14, 'THỬ NGHIỆM', 44, NAVY)}`);
+      }
+      return o;
+    },
+  });
+
+  // Cảnh 5: máy bay không người lái tiến lại gần tòa nhà, đèn bị điều khiển dần
+  v12.push({
+    w: [['may', 'máy'], ['tram', 'trăm'], ['nhieu', 'nhiều'], ['dieu', 'điều']],
+    point: [['may', 300, 640], ['tram', 400, 1010], ['nhieu', 800, 720], ['dieu', 800, 720]],
+    draw(l, t) {
+      const bx = 790, by = 800, cols = 3, rows = 4;
+      let o = `<g opacity="${pr(l, 0.1, 0.4).toFixed(2)}">${panel(bx - 150, by - 250, 300, 500, '#FFFFFF', 18)}</g>`;
+      const dx = lerp(130, 560, l >= t.may ? smooth(pr(l, t.may, 7)) : 0);
+      let n = 0;
+      for (let j = 0; j < cols * rows; j++) {
+        const c = j % cols, r = Math.floor(j / cols), wx = bx - 90 + c * 90, wy = by - 190 + r * 120;
+        const hit = l >= t.may && dx > 300 + j * 20;
+        if (hit) n++;
+        const flick = hit && Math.floor(l * 6 + j) % 2 === 0;
+        o += `<g transform="translate(${wx} ${wy}) scale(0.8)"><rect x="-34" y="-34" width="68" height="68" rx="10" fill="#EAF1F8" stroke="${NAVY}" stroke-width="4"/>${bulbS(1, hit ? (flick ? RED : '#FFFFFF') : YEL).replace(/r="24"/, 'r="18"')}</g>`;
+      }
+      if (l >= t.may) {
+        const dy = 640 - 30 * Math.sin(l * 3), rot = (l * 900) % 360;
+        o += `<g transform="translate(${f1(dx)} ${f1(dy)})"><rect x="-40" y="-14" width="80" height="28" rx="12" fill="${NAVY}"/><rect x="-62" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/><rect x="32" y="-20" width="30" height="6" rx="3" fill="${NAVY}"/>${[-47, 47].map((x) => `<ellipse cx="${x}" cy="-26" rx="${f1(24 * Math.abs(Math.cos(rot * Math.PI / 90)) + 6)}" ry="4" fill="${TEAL}"/>`).join('')}<circle cx="0" cy="4" r="6" fill="${YEL}"/></g>`;
+        if (dx > 220) for (let i = 0; i < 3; i++) { const u = ((l * 0.9) + i / 3) % 1; o += `<circle cx="${f1(dx + 60 + u * (bx - 150 - dx - 80))}" cy="${f1(dy + 10 + u * 80)}" r="${f1(6 + 6 * u)}" fill="none" stroke="${RED}" stroke-width="5" opacity="${(1 - u).toFixed(2)}"/>`; }
+      }
+      if (l >= t.tram) {
+        const x0 = 130, x1 = 640, y = 1010;
+        o += `<g opacity="${pr(l, t.tram, 0.4).toFixed(2)}"><line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${NAVY}" stroke-width="6" stroke-dasharray="12 12"/><path d="M${x0 + 24} ${y - 16} L${x0} ${y} L${x0 + 24} ${y + 16} M${x1 - 24} ${y - 16} L${x1} ${y} L${x1 - 24} ${y + 16}" fill="none" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/></g>`;
+        o += pop(l, t.tram + 0.1, 385, 1090, 1, tag(0, 0, 'Bắt đầu từ 350 m', 420));
+      }
+      if (l >= t.nhieu) o += pop(l, t.nhieu, 270, 520, 1, `<rect x="-250" y="-44" width="500" height="88" rx="44" fill="${NAVY}"/>${T(0, 16, 'Đèn bị điều khiển: ' + n, 40, YEL)}`);
+      return o;
+    },
+  });
+
+  // Cảnh 6: tính toán lây lan giữa các đèn gần nhau (chỉ là tính toán)
+  v12.push({
+    w: [['tinh', 'tính'], ['gan', 'gần'], ['lay', 'lây'], ['toan', 'toán']],
+    point: [['tinh', 540, 780], ['gan', 400, 780], ['lay', 700, 780], ['toan', 540, 1040]],
+    draw(l, t) {
+      const C = 6, R = 4, sx = 165, sy = 620, dxg = 150, dyg = 120, s0 = [0, 1];
+      let o = '';
+      for (let j = 0; j < C * R; j++) {
+        const c = j % C, r = Math.floor(j / C), x = sx + c * dxg, y = sy + r * dyg + (c % 2) * 28;
+        const dist = Math.abs(c - s0[0]) + Math.abs(r - s0[1]);
+        const inf = l >= t.lay && (l - t.lay) > dist * 0.45;
+        const seed = l >= t.gan && j === s0[1] * C + s0[0];
+        const bad = inf || seed;
+        o += pop(l, t.tinh + (j % 6) * 0.05 + Math.floor(j / 6) * 0.05, x, y, 1, `<g>${bulbS(1, bad ? RED : YEL)}</g>`);
+        if (bad && l >= t.tinh + 0.5) { const u = bad ? ((l - (inf ? t.lay + dist * 0.45 : t.gan)) * 1.4) % 1 : 0; o += `<circle cx="${x}" cy="${y}" r="${f1(30 + 50 * u)}" fill="none" stroke="${RED}" stroke-width="5" opacity="${(0.8 * (1 - u)).toFixed(2)}"/>`; }
+      }
+      if (l >= t.toan) o += pop(l, t.toan, 540, 1050, 1, `<rect x="-380" y="-56" width="760" height="112" rx="26" fill="#FFFFFF" stroke="${NAVY}" stroke-width="7"/>${T(0, -2, 'Mới là tính toán', 50, NAVY)}${T(0, 40, 'không phải vụ tấn công có thật', 32, RED, 700)}`);
+      return o;
+    },
+  });
+
+  // Cảnh 7: báo trước cho hãng, hãng vá lỗi, chủ nhà cài ứng dụng thì nhận bản vá
+  v12.push({
+    w: [['bao', 'báo'], ['va', 'vá'], ['ung', 'ứng']],
+    point: [['bao', 360, 600], ['va', 540, 560], ['ung', 920, 600]],
+    draw(l, t) {
+      const X = [140, 540, 930], Y = 720;
+      let o = pop(l, 0.2, X[0], Y, 1, `<circle r="92" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="-22" r="26" fill="#FFC9A8" stroke="${NAVY}" stroke-width="5"/><path d="M-46 36 Q-46 2 0 2 Q46 2 46 36 Z" fill="${NAVY}"/>${lines(0, 150, 'Nhóm|nghiên cứu', 30)}`);
+      o += pop(l, 0.35, X[1], Y, 1, `<circle r="104" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/>${bulbS(1)}<g transform="translate(0 -4) scale(1.5)">${bulbS(1)}</g>${lines(0, 170, 'Hãng Philips', 34)}`);
+      if (l >= t.bao) for (let i = 0; i < 2; i++) { const u = ((l - t.bao) * 0.6 + i * 0.5) % 1; o += `<g transform="translate(${f1(lerp(X[0] + 110, X[1] - 120, u))} ${f1(Y - 70 - 40 * Math.sin(Math.PI * u))})"><rect x="-32" y="-22" width="64" height="44" rx="6" fill="#FFFFFF" stroke="${NAVY}" stroke-width="5"/><path d="M-32 -22 L0 4 L32 -22" fill="none" stroke="${NAVY}" stroke-width="5"/></g>`; }
+      if (l >= t.bao) o += pop(l, t.bao + 0.2, 340, 880, 1, tag(0, 0, 'Báo trước', 240));
+      if (l >= t.va) {
+        const p = pr(l, t.va, 1.2);
+        o += pop(l, t.va, 540, 500, 1, `<rect x="-200" y="-44" width="400" height="88" rx="44" fill="${GRN}" stroke="${NAVY}" stroke-width="6"/>${T(0, 16, p >= 1 ? 'Đã vá lỗi' : 'Đang vá lỗi...', 42, NAVY)}`);
+        o += `<rect x="430" y="548" width="220" height="16" rx="8" fill="${NAVY}" fill-opacity="0.25"/><rect x="430" y="548" width="${f1(220 * p)}" height="16" rx="8" fill="${GRN}"/>`;
+      }
+      if (l >= t.ung) {
+        o += pop(l, t.ung, X[2], Y, 1, `<g transform="scale(1.9)">${ICONS.phone()}</g>`);
+        for (let i = 0; i < 3; i++) { const u = ((l - t.ung) * 0.7 + i / 3) % 1; o += `<g transform="translate(${f1(lerp(X[1] + 120, X[2] - 100, u))} ${Y + 10})" opacity="${Math.sin(Math.PI * u).toFixed(2)}"><rect x="-22" y="-22" width="44" height="44" rx="8" fill="${YEL}" stroke="${NAVY}" stroke-width="4"/><path d="M0 -10 V10 M-9 2 L0 11 L9 2" fill="none" stroke="${NAVY}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>`; }
+        o += pop(l, t.ung + 0.3, X[2] - 20, 960, 1, lines(0, 0, 'Cài ứng dụng|của hãng', 34));
+        o += pop(l, t.ung + 1.2, 540, 1080, 1, tag(0, 0, 'Mới nhận bản vá tự động', 560, GRN, NAVY, 36));
+      }
+      return o;
+    },
+  });
+
+  // Cảnh 8: ba việc làm được
+  v12.push({
+    w: [['cai', 'cài'], ['bat', 'bật'], ['thay', 'thay']],
+    point: [['cai', 190, 640], ['bat', 540, 640], ['thay', 890, 640]],
+    draw(l, t) {
+      const X = [190, 540, 890], Y = 650;
+      let o = pop(l, t.cai, X[0], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="scale(1.7)">${ICONS.phone()}</g>`);
+      if (l >= t.cai) o += `<g transform="translate(${X[0] + 80} ${Y - 80})">${pop(l, t.cai + 0.6, 0, 0, 1, `<circle r="30" fill="${GRN}" stroke="${NAVY}" stroke-width="5"/><path d="M-12 2 L-3 11 L14 -9" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>`)}</g>`;
+      o += pop(l, t.cai + 0.2, X[0], Y + 250, 1, lines(0, 0, 'Cài ứng dụng|của hãng', 34));
+      const on = l >= t.bat + 0.5, p = pr(l, t.bat + 0.5, 2.4);
+      o += pop(l, t.bat, X[1], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g transform="translate(0 -30) scale(1.0)">${toggle(on)}</g><rect x="-80" y="50" width="160" height="22" rx="11" fill="${NAVY}" fill-opacity="0.2"/><rect x="-80" y="50" width="${f1(160 * p)}" height="22" rx="11" fill="${GRN}"/>`);
+      o += pop(l, t.bat + 0.2, X[1], Y + 250, 1, lines(0, 0, 'Bật cập nhật|phần mềm', 34));
+      if (l >= t.thay) {
+        const q = pr(l, t.thay + 0.5, 0.8);
+        o += pop(l, t.thay, X[2], Y, 1, `<circle r="130" fill="#FFFFFF" stroke="${NAVY}" stroke-width="6"/><g opacity="${(1 - q).toFixed(2)}" transform="translate(${f1(-60 * q)} 0) scale(0.7)">${bulbG(false)}</g><g opacity="${q.toFixed(2)}" transform="translate(${f1(60 * (1 - q))} 0) scale(0.7)">${bulbG(true)}</g>`);
+        o += pop(l, t.thay + 0.2, X[2], Y + 250, 1, lines(0, 0, 'Thay đèn nếu hãng|ngừng hỗ trợ', 32));
+      }
+      return o;
+    },
+  });
+
+  return { v11, v12 };
 };

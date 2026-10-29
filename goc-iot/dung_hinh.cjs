@@ -783,6 +783,7 @@ const G = (gen) => ({ mode: 'corner', wave: false, kind: 'gen', gen });
 const MH = require('./minh_hoa.cjs')({ NAVY, YEL, TEAL, RED, FONT, esc, f1, lerp, smooth, clamp01, easeOutBack, ICONS });
 const DEFS = {
   11: [Q('Điều gì xảy ra nếu', 'robot hút bụi chụp ảnh?'), ...MH.v11.map((x) => D(x)), E],
+  12: [Q('Điều gì xảy ra nếu', 'bóng đèn thông minh bị hack?'), ...MH.v12.map((x) => D(x)), E],
   1100: [
     Q('Điều gì xảy ra nếu', 'robot hút bụi chụp ảnh?'),
     G({ anim: 'shutter', items: [

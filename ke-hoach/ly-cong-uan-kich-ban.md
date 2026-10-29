@@ -38,7 +38,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18008 | Đứa trẻ bên nhà thiền sư | Lớn lên, chàng thanh niên bộc lộ trí tuệ hơn người, cùng dung mạo tuấn tú, khác hẳn bậc phàm nhân. |
 | 18009 | Đứa trẻ bên nhà thiền sư | Thuở theo học tại chùa Lục Tổ, ông hội ngộ sư Vạn Hạnh. Người đời sau truyền rằng vị thiền sư vừa nhìn đã đoán ông sẽ là bậc minh chủ. |
 | 18010 | Đứa trẻ bên nhà thiền sư | Dù không dùi mài kinh sử, ông lại mang cốt cách khảng khái, ôm hoài bão lớn lao và sớm bước vào con đường binh nghiệp dưới triều Tiền Lê. |
-| 18011 | Đứa trẻ bên nhà thiền sư | Làm thế nào một viên tướng cấm vệ quân, kề cận một quân vương khát máu, lại có thể thuận lợi đăng cơ mà không hề gây ra một trận đổ máu nào? |
+| 18011 | Đứa trẻ bên nhà thiền sư | Làm thế nào một viên tướng cấm vệ quân, kề cận một quân vương khát máu, lại có thể đăng cơ mà không hề gây ra một trận đổ máu nào? |
 | 18012 | Đứa trẻ bên nhà thiền sư | Lời giải nằm ở những ngày tháng tàn mạt của vương triều đi trước. |
 | 18013 | Người giữ cung nhà Lê | Triều Tiền Lê bấy giờ do hoàng đế Lê Hoàn khai mở, trị vì đất nước suốt hơn hai thập kỷ. |
 | 18014 | Người giữ cung nhà Lê | Tháng ba âm lịch năm một nghìn không trăm linh năm, Lê Hoàn băng hà. Các hoàng tử lập tức dấy binh tranh đoạt ngai vàng. |

@@ -13,4 +13,4 @@ tổng khung 18846 đoạn 5 5889 7067
 900 1178
 xong
 + ls -la doan_5.mp4
--rw-r--r-- 1 runner runner 8094705 Oct 29 00:57 doan_5.mp4
+-rw-r--r-- 1 runner runner 8364032 Oct 29 02:28 doan_5.mp4

@@ -11,7 +11,7 @@ Vậy mà khi Ngô Quyền vừa mất, ông đuổi con trai trưởng của vu
 Ông là Dương Tam Kha. Sử cũ chê ông nặng lời, nhưng không ghi ông hà khắc với dân. Vì sao vậy?
 
 👤 **Dương Tam Kha là ai?**
-Ông là con của Dương Đình Nghệ, vị tướng từng đánh đuổi quân Nam Hán khỏi Đại La. Em gái ông (hoặc chị) là vợ của Ngô Quyền. Khi Ngô Quyền xưng vương, ông là người thân tín trong triều.
+Ông là con của Dương Đình Nghệ, vị tướng từng đánh đuổi quân Nam Hán khỏi Đại La. Ông là anh vợ của Ngô Quyền, nên khi Ngô Quyền xưng vương, ông là người thân cận trong triều.
 
 ⚔️ **Ngô Quyền để lại gì?**
 Năm 938, Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng. Năm 939, ông xưng vương. Đến năm 944, ông mất. Người con trưởng là Ngô Xương Ngập, nối ngôi.
@@ -29,7 +29,7 @@ Năm 950, Dương Tam Kha sai Ngô Xương Văn cùng hai tướng đi đánh m�
 Ngô Xương Văn không giết ông. Ông bị giáng làm Chương Dương công và được cấp đất ở bến Chương Dương. Về việc này, sử gia Lê Văn Hưu cho rằng tha mà còn ban thực ấp là sai lầm lớn.
 
 📜 **Sử gia nói gì?**
-Ngô Sĩ Liên gọi Dương Tam Kha là kẻ gian thần, đuổi con đích của vua để cướp ngôi. Sử không ghi ông bạo ngược với dân. Điều bị chê là đạo nghĩa, vì ông phụ lòng người đã giao phó con.
+Ngô Sĩ Liên gọi Dương Tam Kha là kẻ gian thần, đuổi con đích của vua để cướp ngôi. Sử không ghi ông bạo ngược với dân. Điều bị chê là việc đuổi con vua để cướp ngôi.
 
 ⏳ **Mốc thời gian**
 • 938 – Ngô Quyền thắng quân Nam Hán ở Bạch Đằng
@@ -39,7 +39,7 @@ Ngô Sĩ Liên gọi Dương Tam Kha là kẻ gian thần, đuổi con đích c�
 • 965 – Ngô Xương Văn mất, sau đó loạn mười hai sứ quân
 
 💭 **Chốt lại**
-Một người nắm quyền nhờ lòng tin của người đã mất, rồi dùng quyền ấy để chiếm ngôi. Họ Ngô suy yếu từ đó, và chưa đầy hai mươi năm sau, nước rơi vào loạn mười hai sứ quân.
+Dương Tam Kha giữ ngôi chưa đầy sáu năm. Hơn mười lăm năm sau khi ông bị lật đổ, Ngô Xương Văn mất và nước rơi vào loạn mười hai sứ quân.
 
 ❓ Theo bạn, Ngô Xương Văn tha chết cho Dương Tam Kha là nhân nghĩa hay là sai lầm?
 
@@ -75,7 +75,7 @@ Nếu thiếu ảnh nào thì ghi rõ thiếu, không độn ảnh sai chủ đ�
 | Ý trong bài | Độ chắc | Ghi chú |
 |---|---|---|
 | Dương Tam Kha là con Dương Đình Nghệ | 🟡 | Wikipedia, cần đối chiếu Toàn thư |
-| Chị/em của ông là vợ Ngô Quyền | 🟡 | Một số nguồn ghi "anh vợ", cần kiểm |
+| Ông là anh vợ của Ngô Quyền | 🟡 | Wikipedia ghi là anh của hoàng hậu họ Dương; một số nguồn ghi "anh hoặc em vợ", cần kiểm Toàn thư |
 | Năm 944 hay 945 | 🟡 | Hai năm đều có nguồn; bài ghi cả hai |
 | Ông đuổi Ngô Xương Ngập, tự xưng Bình Vương | 🟢 | Toàn thư |
 | Nhận Ngô Xương Văn làm con nuôi | 🟢 | Toàn thư |

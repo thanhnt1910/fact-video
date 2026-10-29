@@ -1,0 +1,22 @@
+name: Gửi ảnh chibi + prompt Flow vào Telegram
+
+# Chỉ chạy khi chủ kênh yêu cầu. Kích hoạt bằng cách đẩy ke-hoach/chibi/gui_veo_lt1.txt trên nhánh lh6-dung-thu:
+#   dòng 1: mã video (lt1); dòng 2 (tùy chọn): danh sách số đoạn cần gửi, cách nhau dấu phẩy.
+on:
+  push:
+    branches: [lh6-dung-thu]
+    paths: ['ke-hoach/chibi/gui_veo_lt1.txt']
+  workflow_dispatch:
+
+jobs:
+  gui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gửi Telegram
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          F=ke-hoach/chibi/gui_veo_lt1.txt
+          python3 gui_veo_telegram.py "$(sed -n 1p $F | tr -d ' \r')" "$(sed -n 2p $F | tr -d ' \r')"

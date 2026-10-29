@@ -7,20 +7,10 @@ tổng khung 18846 đoạn 6 7067 8245
 + read A0 A1
 + python -u mapfilm3.py /home/runner/work/fact-video/fact-video/phim_ban_do/doan_6.mp4 7067 8245
 + tail -n 15
-ModuleNotFoundError: No module named 'cairosvg'
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/phim_ban_do/mapfilm3.py", line 716, in <module>
-    for i,b in enumerate(pool.imap(work,range(a0,a1),chunksize=4)):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/multiprocessing/pool.py", line 423, in <genexpr>
-    return (item for chunk in result for item in chunk)
-                              ^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/multiprocessing/pool.py", line 873, in next
-    raise value
-ModuleNotFoundError: No module named 'cairosvg'
+0 1178
+300 1178
+600 1178
+900 1178
+xong
 + ls -la doan_6.mp4
--rw-r--r-- 1 runner runner 3137985 Oct 29 00:56 doan_6.mp4
+-rw-r--r-- 1 runner runner 16643568 Oct 29 02:29 doan_6.mp4

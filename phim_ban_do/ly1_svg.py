@@ -4,44 +4,59 @@ import cairosvg
 from PIL import Image
 def _png(svg,w,h):
     return Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode(),output_width=w,output_height=h))).convert('RGBA')
-def _spine(ph,N=56,L=360):
+def _spine(ph,N=60,L=300):
     P=[]
     for i in range(N):
-        p=i/(N-1); y=p*L; x=math.sin(p*7.5-ph)*(10+80*p)+p*p*20; P.append((x,y,p))
+        p=i/(N-1); y=p*L; x=math.sin(p*5.2-ph)*(14+90*p)+p*p*10; P.append((x,y,p))
     return P
-def _offs(P,side):
+def _wid(p): return 40-33*p**0.8+3
+def _offs(P,side,k=1.0):
     out=[]
     for i,(x,y,p) in enumerate(P):
         a=P[min(i+1,len(P)-1)];b=P[max(i-1,0)]; dx,dy=a[0]-b[0],a[1]-b[1]; n=math.hypot(dx,dy) or 1
-        w=(30-24*p)+2; out.append((x+side*(-dy/n)*w, y+side*(dx/n)*w))
+        w=_wid(p)*k; out.append((x+side*(-dy/n)*w, y+side*(dx/n)*w))
     return out
 @functools.lru_cache(maxsize=400)
 def dragon_png(phq,size=520):
-    ph=phq/10.0; P=_spine(ph); l=_offs(P,1); r=_offs(P,-1)
+    ph=phq/10.0; P=_spine(ph); l=_offs(P,1); r=_offs(P,-1); bl=_offs(P,1,.45); br=_offs(P,-1,.45)
     body='M'+' L'.join('%.1f,%.1f'%q for q in l)+' L'+' L'.join('%.1f,%.1f'%q for q in reversed(r))+' Z'
-    spikes=''.join('<path d="M%.1f,%.1f l-11,-5 l5,-11 z" fill="#ffe27a" stroke="#8a5208" stroke-width="1.2"/>'%(l[i][0],l[i][1]) for i in range(3,len(P)-6,3))
-    scales=''.join('<path d="M%.1f,%.1f q%.1f,7 %.1f,0" fill="none" stroke="#c98a14" stroke-width="2" opacity=".7"/>'%(P[i][0]-9,P[i][1],9,18) for i in range(2,len(P)-4,2))
-    belly=' '.join('%.1f,%.1f'%(P[i][0],P[i][1]) for i in range(1,len(P)-3))
+    belly='M'+' L'.join('%.1f,%.1f'%q for q in bl)+' L'+' L'.join('%.1f,%.1f'%q for q in reversed(br))+' Z'
+    ribs=''.join('<path d="M%.1f,%.1f L%.1f,%.1f" stroke="#b9770e" stroke-width="2" opacity=".55"/>'%(bl[i][0],bl[i][1],br[i][0],br[i][1]) for i in range(2,len(P)-3,2))
+    scales=''
+    for i in range(3,len(P)-4,2):
+        x,y,p=P[i];w=_wid(p)
+        for j,k in enumerate((-.62,0,.62)):
+            if abs(k)*w>2: scales+='<path d="M%.1f,%.1f q%.1f,%.1f %.1f,0" fill="none" stroke="#c98a14" stroke-width="1.8" opacity=".75"/>'%(x+k*w*.9-5*(1-p*.5),y+(0 if j==1 else 4),5*(1-p*.5),6*(1-p*.4),10*(1-p*.5))
+    fins=''.join('<path d="M%.1f,%.1f q%.1f,%.1f %.1f,%.1f q-%.1f,-%.1f %.1f,%.1f z" fill="#ff5a2a" stroke="#8a2a08" stroke-width="1.6"/>'%(l[i][0],l[i][1],-6,-2,-(16-10*P[i][2]),-(12-6*P[i][2]),4,3,(16-10*P[i][2])+4,(12-6*P[i][2])-3) for i in range(2,len(P)-3,2))
+    def leg(i,side):
+        x,y=(l if side>0 else r)[i];dx=side*46
+        return (f'<g transform="translate({x:.1f},{y:.1f})"><path d="M0,0 q{dx:.0f},4 {dx*1.3:.0f},26 q{-side*2},12 {-side*6:.0f},16" fill="none" stroke="#8a5208" stroke-width="17" stroke-linecap="round"/>'
+                f'<path d="M0,0 q{dx:.0f},4 {dx*1.3:.0f},26 q{-side*2},12 {-side*6:.0f},16" fill="none" stroke="#f0b429" stroke-width="11" stroke-linecap="round"/>'
+                f'<path d="M{dx*1.3-side*6:.0f},42 l{side*10},8 m-{side*10},-8 l{side*2},12 m-{side*2},-12 l{-side*8},10" stroke="#fff6d0" stroke-width="3.5" stroke-linecap="round" fill="none"/></g>')
+    legs=leg(14,1)+leg(14,-1)+leg(30,1)+leg(30,-1)
+    tx,ty,_=P[-1]
+    tuft=''.join(f'<path d="M{tx:.1f},{ty:.1f} q{a*1.3:.0f},{14+abs(a)*.3:.0f} {a*2.2:.0f},{34+abs(a)*.5:.0f} q{-a*.8:.0f},{-12} {-a*2.2+a*.4:.0f},{-30-abs(a)*.3:.0f}z" fill="#ff7a2a" stroke="#8a2a08" stroke-width="2"/>' for a in (-26,-12,0,12,26))
     svg=f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="-210 -130 440 520">
-<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f6c33c"/><stop offset=".5" stop-color="#ffd966"/><stop offset="1" stop-color="#d9981a"/></linearGradient>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#e9ad25"/><stop offset=".5" stop-color="#ffd966"/><stop offset="1" stop-color="#d9981a"/></linearGradient>
 <radialGradient id="h"><stop offset="0" stop-color="#fff2b0"/><stop offset="1" stop-color="#f0b429"/></radialGradient>
 <filter id="gl"><feGaussianBlur stdDeviation="9"/></filter></defs>
-<path d="{body}" fill="#ffd34a" opacity=".55" filter="url(#gl)"/>
+<path d="{body}" fill="#ffd34a" opacity=".5" filter="url(#gl)"/>
+{tuft}{legs}
 <path d="{body}" fill="url(#g)" stroke="#8a5208" stroke-width="3.5" stroke-linejoin="round"/>
-{scales}{spikes}
-<polyline points="{belly}" fill="none" stroke="#fff0b8" stroke-width="5" stroke-linecap="round" opacity=".7"/>
-<g transform="translate(0,-4) rotate(-8)">
+<path d="{belly}" fill="#fff0b8" opacity=".85"/>
+{ribs}{scales}{fins}
+<g transform="translate(0,-4) rotate(-8) scale(.85)">
  <path d="M-20,-14 C-52,-26 -78,-60 -70,-100 M-46,-34 C-62,-44 -86,-40 -100,-56 M-34,-22 C-48,-24 -66,-14 -84,-20" fill="none" stroke="#b9770e" stroke-width="9" stroke-linecap="round"/>
  <path d="M-20,-14 C-52,-26 -78,-60 -70,-100 M-46,-34 C-62,-44 -86,-40 -100,-56 M-34,-22 C-48,-24 -66,-14 -84,-20" fill="none" stroke="#ffe27a" stroke-width="4.5" stroke-linecap="round"/>
- <path d="M-36,-24 C-52,-8 -50,22 -30,34 C-44,44 -34,62 -14,56 C-40,30 -40,-4 -24,-18Z" fill="#ff9d2e" stroke="#8a5208" stroke-width="2.5"/>
+ <path d="M-36,-24 C-52,-8 -50,22 -30,34 C-44,44 -34,62 -14,56 C-40,30 -40,-4 -24,-18Z" fill="#ff5a2a" stroke="#8a2a08" stroke-width="2.5"/>
  <path d="M-30,-8 C-34,-40 0,-52 34,-40 C62,-32 88,-22 112,-12 C120,-6 118,2 108,6 L50,14 C56,30 24,44 -2,36 C-24,30 -32,10 -30,-8Z" fill="url(#h)" stroke="#8a5208" stroke-width="3.5" stroke-linejoin="round"/>
  <path d="M108,8 C86,20 58,26 34,30 C60,46 98,40 118,22Z" fill="#f0b429" stroke="#8a5208" stroke-width="3" stroke-linejoin="round"/>
  <path d="M64,15 l6,10 l6,-10 M86,12 l5,9 l5,-10" fill="#fff" stroke="#8a5208" stroke-width="1.5"/>
  <circle cx="116" cy="-6" r="3" fill="#8a5208"/>
  <path d="M18,-34 C28,-52 44,-58 56,-52" fill="none" stroke="#8a5208" stroke-width="5" stroke-linecap="round"/>
- <path d="M14,-18 L40,-26 L36,-6 L16,-2Z" fill="#fffbe6" stroke="#8a5208" stroke-width="2.5"/>
  <ellipse cx="28" cy="-14" rx="9" ry="9" fill="#e23b1e"/><circle cx="28" cy="-14" r="4.5" fill="#1a0c02"/><circle cx="30" cy="-17" r="2" fill="#fff"/>
  <path d="M112,-6 C140,-26 176,-16 196,-38 M112,6 C146,24 176,12 200,34" fill="none" stroke="#fff0b8" stroke-width="3.5" stroke-linecap="round"/>
+ <path d="M-4,-40 C-6,-60 6,-76 20,-84 M20,-44 C24,-64 38,-76 52,-80" fill="none" stroke="#b9770e" stroke-width="7" stroke-linecap="round"/>
 </g>
 </svg>'''
     return _png(svg,size,int(size*520/440))

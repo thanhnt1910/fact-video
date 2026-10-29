@@ -1,13 +1,12 @@
 name: Thử kiểu chibi (FLUX + LoRA, Kaggle)
 
 # Chỉ chạy khi chủ kênh yêu cầu. Chạy một kernel Kaggle, không chạy song song với các lần vẽ khác.
+# Chạy khi đẩy ke-hoach/thu-giong-hai/chibi_thu.txt trên nhánh lh6-dung-thu; dòng đầu "chay" hoặc "chi_tai".
 on:
+  push:
+    branches: [lh6-dung-thu]
+    paths: ['ke-hoach/thu-giong-hai/chibi_thu.txt']
   workflow_dispatch:
-    inputs:
-      chi_tai:
-        description: "1 = không chạy mới, chỉ tải lại kết quả lần Kaggle trước"
-        required: false
-        default: "0"
 
 permissions:
   contents: write
@@ -28,7 +27,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           set -o pipefail
-          if [ "${{ inputs.chi_tai }}" = "1" ]; then
+          if [ "$(head -1 ke-hoach/thu-giong-hai/chibi_thu.txt 2>/dev/null)" = "chi_tai" ]; then
             python kaggle_chibi_thu.py chi_tai_lai=1 2>&1 | tee chibi_chay.txt
           else
             python kaggle_chibi_thu.py 2>&1 | tee chibi_chay.txt

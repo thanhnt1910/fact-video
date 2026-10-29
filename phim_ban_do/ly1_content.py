@@ -97,7 +97,7 @@ def PIC(a,b,fn,z0=1.0,z1=1.1):
     return (t0,t1,'pic',dict(path=os.path.join(_ROOT,'assets','anh_2d','LY1F',fn),z0=z0,z1=z1,dx=0,dy=0))
 # ======================= CHƯƠNG 1: MỞ ĐẦU + ĐỨA TRẺ BÊN NHÀ THIỀN SƯ (1–12). Câu 1–5 là cảnh mở đầu năm 1028 (kể lại đầy đủ ở chương 11)
 TITLES.append((0.3,4.2,'LÝ CÔNG UẨN','NGƯỜI DỜI ĐÔ','Từ năm 974 đến năm 1028'))
-show('Thăng Long',1,4);show('Hoa Lư',4,134);show('Cổ Pháp',5,12)
+show_t('Thăng Long',R(1,-1),E(4,-0.4));show('Hoa Lư',4,134);show_t('Cổ Pháp',R(5,0.0),E(12,1))
 own('Cổ Pháp',LY);own('Hoa Lư',TL,(R(39,0),LY))
 S2(1,3,[DL],6.0)
 S2(4,4,[H,DL],2.8,hmax=380)

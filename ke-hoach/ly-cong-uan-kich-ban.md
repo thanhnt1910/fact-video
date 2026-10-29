@@ -50,7 +50,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18020 | Người giữ cung nhà Lê | Phụng sự vị tân vương này tựa như đi trên mũi kiếm, bởi Lê Long Đĩnh vốn bản tính tàn bạo, khét tiếng thích giết người. |
 | 18021 | Người giữ cung nhà Lê | Có lần vua ăn quả khế, rồi nhả ra một hạt mận. Chữ Lý nghĩa là cây mận, nên vua tin lời sấm truyền rằng họ Lý sẽ lên làm vua. |
 | 18022 | Người giữ cung nhà Lê | Kể từ đó, nhà vua ráo riết ngầm hạ lệnh săn lùng, trừ khử những người mang họ Lý. |
-| 18023 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng cạnh ngai vàng, lưỡi gươm kề cổ, nhà vua vẫn không mảy may nghi ngờ. |
+| 18023 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng cạnh ngai vàng, nhà vua vẫn không mảy may nghi ngờ. |
 | 18024 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc chứng bệnh trĩ trầm trọng, thiết triều cũng phải nằm, nên sử sách gọi là Lê Ngọa Triều. |
 | 18025 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, vua Lê Long Đĩnh qua đời. |
 | 18026 | Người giữ cung nhà Lê | Người nối ngôi khi ấy còn quá nhỏ tuổi, chưa thể gánh vác việc nước. |
@@ -61,10 +61,10 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18031 | Lời nói khích và ngôi vua | Ông nói thẳng rằng cựu vương tàn ngược, tân vương còn thơ dại, cớ sao ngài không thuận theo lòng trời ý dân mà lên ngôi báu? |
 | 18032 | Lời nói khích và ngôi vua | Lý Công Uẩn trong lòng mừng thầm nhưng ngoài mặt vẫn vờ nổi giận, dọa bắt Cam Mộc đem đi cáo giác. |
 | 18033 | Lời nói khích và ngôi vua | Đào Cam Mộc khẳng khái đáp rằng ông không màng sinh tử, vì chính lòng người quy tụ mới khiến ông dám can đảm cất lời. |
-| 18034 | Lời nói khích và ngôi vua | Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ tiết lộ, cả hai sẽ bị giết cả họ. |
+| 18034 | Lời nói khích và ngôi vua | Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ bị lộ thì cả hai sẽ mất mạng. |
 | 18035 | Lời nói khích và ngôi vua | Hôm sau Đào Cam Mộc lại đến, nói thiên hạ râm ran họ Lý sắp dựng nghiệp lớn. Lý Công Uẩn đáp rằng ý ấy giống lời sư Vạn Hạnh thuở nào. |
 | 18036 | Lời nói khích và ngôi vua | Đào Cam Mộc đem đại sự bàn bạc cùng bá quan văn võ. Ngay hôm ấy, quần thần lập tức nghị triều. |
-| 18037 | Lời nói khích và ngôi vua | Quần thần đồng tình rằng bách tính đã oán thán cựu vương, vua mới lại quá nhỏ bé, khó lòng thu phục nhân tâm. |
+| 18037 | Lời nói khích và ngôi vua | Các quan đồng tình rằng dân đã oán giận vua cũ, vua mới lại quá nhỏ, khó thu phục lòng dân. |
 | 18038 | Lời nói khích và ngôi vua | Đứng trước thời cuộc, họ quyết đoán phải suy tôn Lý Công Uẩn đăng cơ ngay lập tức, phòng trừ triều đình sinh loạn. |
 | 18039 | Lời nói khích và ngôi vua | Vậy là vào ngày hai mươi mốt tháng mười một năm một nghìn không trăm linh chín, bá quan dìu Lý Công Uẩn lên chính điện. |
 | 18040 | Lời nói khích và ngôi vua | Trăm quan quỳ rạp dưới thềm rồng, đồng thanh hô vang vạn tuế. |
@@ -78,7 +78,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18048 | Hoa Lư không còn đủ | Kinh đô đương thời là Hoa Lư, nơi Đinh Tiên Hoàng dựng cung điện hơn bốn thập kỷ trước, lọt thỏm giữa những vách núi đá chót vót. |
 | 18049 | Hoa Lư không còn đủ | Giữa thời loạn lạc, núi đá biến thành bức trường thành thiên nhiên, giặc ngoài khó phạm, quân trong dễ thủ. |
 | 18050 | Hoa Lư không còn đủ | Nhưng Lý Thái Tổ nhìn nhận sâu xa rằng, đất nước thái bình cần một đế đô vươn mình, mở tung cánh cửa ra bốn phương tám hướng. |
-| 18051 | Hoa Lư không còn đủ | Một đế đô thực thụ phải quy tụ muôn dân, giao thương thuận lợi, và sở hữu quỹ đất đủ lớn để không ngừng phồn vinh. |
+| 18051 | Hoa Lư không còn đủ | Một đế đô thực thụ phải quy tụ muôn dân, giao thương thuận lợi, và sở hữu quỹ đất đủ lớn để không ngừng phát triển. |
 | 18052 | Hoa Lư không còn đủ | Trong mắt nhà vua, Hoa Lư quá đỗi chật hẹp, ẩm thấp và tù túng. |
 | 18053 | Hoa Lư không còn đủ | Hoàng đế chiêm nghiệm bài học từ hai triều đại đi trước. |
 | 18054 | Hoa Lư không còn đủ | Cả nhà Đinh lẫn nhà Tiền Lê đều chỉ đóng đô tại Hoa Lư, và kết cục vận mệnh đều vô cùng ngắn ngủi. |
@@ -89,13 +89,13 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18059 | Đại La bên sông | Trong chính bản chiếu dời đô, hoàng đế đã nhắc đến nơi đây bằng danh xưng cố đô của Cao Vương. |
 | 18060 | Đại La bên sông | Được bao bọc bởi sông Hồng, Đại La hưởng lợi từ mạng lưới giao thương đường thủy tấp nập, lại tọa lạc trên vùng bình nguyên mênh mông, khoáng đạt. |
 | 18061 | Đại La bên sông | Nơi đây mang đến không gian rộng mở cho vương quốc không ngừng vươn mình, phá bỏ giới hạn của những núi đá giam hãm như ở Hoa Lư. |
-| 18062 | Đại La bên sông | Dời đô là một công cuộc vĩ đại dời non lấp bể, buộc phải dỡ bỏ cung điện cũ, tái thiết mọi thứ từ đống hoang tàn ở một miền đất lạ. |
+| 18062 | Đại La bên sông | Dời đô là việc vô cùng khó khăn, phải bỏ cung điện cũ và xây lại mọi thứ từ đầu ở một vùng đất lạ. |
 | 18063 | Đại La bên sông | Nhận thức được việc lớn, Lý Thái Tổ tự tay soạn chiếu dời đô để hiệu triệu bá quan văn võ. |
 | 18064 | Lá chiếu dời đô | Tháng hai âm lịch năm một nghìn không trăm mười, hoàng đế hồi hương thăm châu Cổ Pháp, rộng rãi ban phát lụa là, tiền bạc cho các bô lão. |
 | 18065 | Lá chiếu dời đô | Cũng trong năm đó, triều đình phái sứ giả vượt biên ải sang Bắc Tống để củng cố giao bang. |
 | 18066 | Lá chiếu dời đô | Bản chiếu mở đầu bằng tấm gương đế vương Trung Hoa xưa, là nhà Thương dời đô năm lần, nhà Chu dời ba lần, đều vì nghiệp lớn cho muôn đời sau. |
-| 18067 | Lá chiếu dời đô | Bản chiếu nghiêm khắc phê bình nhà Đinh và nhà Tiền Lê vì tư lợi mà chôn chân một chỗ, khiến vận nước ngắn ngủi, muôn dân kiệt quệ. |
-| 18068 | Lá chiếu dời đô | Chiếu ca ngợi địa thế Đại La rồng cuộn hổ ngồi, cao ráo, quang đãng, đất rộng bằng phẳng, hứa hẹn muôn loài phồn vinh sinh sôi. |
+| 18067 | Lá chiếu dời đô | Bản chiếu phê bình nghiêm khắc nhà Đinh và nhà Tiền Lê, vì cứ theo ý riêng mà ở mãi một chỗ, khiến vận nước ngắn ngủi, dân chúng hao tổn. |
+| 18068 | Lá chiếu dời đô | Chiếu ca ngợi Đại La có thế rồng cuộn hổ ngồi, địa hình cao ráo, quang đãng, đất rộng và bằng phẳng, dân không khổ vì ngập lụt, muôn vật tươi tốt. |
 | 18069 | Lá chiếu dời đô | Ở dòng cuối, vua không ép buộc mà ôn tồn hỏi bầy tôi rằng trẫm muốn dựa vào sự thuận lợi của đất ấy để định chỗ ở, các khanh nghĩ sao? |
 | 18070 | Lá chiếu dời đô | Quần thần đồng thanh tấu rằng hoàng đế đang tính kế trăm năm cho thiên hạ, điều đại lợi như vậy cớ sao lại không tuân phục. |
 | 18071 | Lá chiếu dời đô | Nhà vua vô cùng vui mừng. |
@@ -130,11 +130,11 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18100 | Những năm trị vì | Nhà vua hạ lệnh cho Dực Thánh Vương, một nhân tài hoàng tộc, xuất binh dẹp loạn và giành thắng lợi rực rỡ. |
 | 18101 | Những năm trị vì | Quân Nam Chiếu đại bại, quân Đại Cồ Việt bắt được vô số binh sĩ cùng chiến mã. |
 | 18102 | Những năm trị vì | Lý Công Uẩn đem một trăm ngựa chiến cống nạp nhà Tống. Vua Tống vui mừng ban tặng mão, đai quý giá cho đoàn sứ giả Đại Việt. |
-| 18103 | Những năm trị vì | Không chỉ phát dương quang đại võ bị, Lý Thái Tổ còn dốc tâm phụng dưỡng Phật pháp. |
+| 18103 | Những năm trị vì | Ngoài việc lo quân đội, Lý Thái Tổ còn hết lòng chăm lo đạo Phật. |
 | 18104 | Những năm trị vì | Ông xuất ngân khố kiến tạo chùa chiền, đúc chuông đồng, chép kinh Tam tạng, và cho phép hơn một nghìn người ở kinh thành đi tu. |
 | 18105 | Những năm trị vì | Ông từng lớn lên trong chùa, dưới bóng bồ đề, và suốt đời hết lòng sùng đạo Phật. |
 | 18106 | Những năm trị vì | Tháng giêng âm lịch năm một nghìn không trăm mười lăm, khai quốc công thần Đào Cam Mộc qua đời, được triều đình phong tặng hàm Thái sư á vương. |
-| 18107 | Điện Long An | Trải qua mười tám năm từ ngày dời đô, Thăng Long bừng sáng với cung điện tráng lệ, tường thành vững chãi, bốn mặt thành hiên ngang mở ra thế giới. |
+| 18107 | Điện Long An | Trải qua mười tám năm từ ngày dời đô, Thăng Long bừng sáng với cung điện tráng lệ và tường thành vững chãi. |
 | 18108 | Điện Long An | Thái tử Lý Phật Mã đã trưởng thành và dày dạn sa trường sau những lần thay vua cha dẹp giặc. Còn hoàng đế bước vào những ngày cuối đời. |
 | 18109 | Điện Long An | Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Thái Tổ lâm bệnh nặng. |
 | 18110 | Điện Long An | Mồng một tháng ba âm lịch, tức ngày hai mươi chín tháng ba dương lịch, mặt trời bỗng bị nhật thực che phủ tối tăm giữa ban ngày. |

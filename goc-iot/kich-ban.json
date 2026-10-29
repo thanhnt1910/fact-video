@@ -30,10 +30,17 @@
     "Maryland": "Ma-ri-len",
     "iRobot": "ai rô bốt",
     "MIT Technology Review": "Em Ai Ti Téc-nô-lô-di Ri-viu",
-    "hack": "hách",
-    "Philips Hue": "Phi-líp Hiu",
-    "Philips": "Phi-líp",
-    "Israel": "Ít-xơ-ra-ên"
+    "Vizio": "Vi-di-ô",
+    "Strava": "Xtra-va",
+    "Nathan Ruser": "Nê-thân Ru-xơ",
+    "Jeep": "Díp",
+    "Cherokee": "Sê-rô-ki",
+    "Fiat Chrysler": "Phi-át Crai-xlơ",
+    "Chris Valasek": "Cờ-rít Va-la-xếch",
+    "Charlie Miller": "Sạc-li Mi-lơ",
+    "TV": "ti vi",
+    "DVD": "đi vi đi",
+    "GPS": "gi pi ét"
   },
   "videos": [
     {
@@ -211,18 +218,50 @@
     },
     {
       "id": 12,
-      "slug": "bong-den-thong-minh-bi-hack",
-      "title": "Điều gì xảy ra nếu một bóng đèn thông minh bị hack?",
+      "slug": "tv-thong-minh-ghi-lai-ban-xem-gi",
+      "title": "Điều gì xảy ra nếu TV thông minh ghi lại bạn đang xem gì?",
       "scenes": [
-        "Điều gì xảy ra nếu một bóng đèn thông minh bị hack?",
-        "Bạn có thể nghĩ bóng đèn chỉ biết bật tắt, nên chẳng ai thèm tấn công nó.",
-        "Không phải vậy. Bóng đèn thông minh có chip, có sóng vô tuyến và phần mềm riêng, nên nó cũng là một máy tính nhỏ.",
-        "Năm hai nghìn không trăm mười sáu, một nhóm nhà nghiên cứu bảo mật ở Israel đã thử nghiệm trên đèn Philips Hue.",
-        "Họ cho máy bay không người lái bay lại gần, bắt đầu từ cách ba trăm năm mươi mét. Càng bay gần, càng nhiều đèn trong tòa nhà bị điều khiển.",
-        "Họ còn tính rằng nếu đèn nằm đủ gần nhau, một bóng bị chiếm có thể lây sang bóng bên cạnh. Nhưng đó mới là tính toán, không phải vụ tấn công có thật.",
-        "Hãng Philips đã được báo trước và đã vá lỗi bằng bản cập nhật phần mềm. Chủ nhà phải cài ứng dụng của hãng thì mới nhận được bản vá tự động.",
-        "Bạn làm được gì? Cài ứng dụng của hãng, bật cập nhật phần mềm, và thay đèn nếu hãng đã ngừng hỗ trợ.",
-        "Nhà bạn có đèn thông minh không? Bình luận cho Bóng biết nhé!"
+        "Điều gì xảy ra nếu TV thông minh ghi lại bạn đang xem gì?",
+        "Bạn có thể nghĩ TV chỉ để xem, chứ đâu có theo dõi mình.",
+        "Không phải TV nào cũng vậy. Tháng hai năm hai nghìn không trăm mười bảy, hãng Vizio bị phạt hai phẩy hai triệu đô la ở Mỹ.",
+        "Theo cơ quan quản lý của Mỹ, từ năm hai nghìn không trăm mười bốn, hãng thu thông tin từng giây về hình đang chiếu trên mười một triệu chiếc TV.",
+        "Dữ liệu đó gồm cả phim cáp, đĩa DVD và ứng dụng xem phim trên mạng. Hãng còn gắn thêm tuổi và thu nhập của từng hộ gia đình.",
+        "Sau đó hãng bán dữ liệu cho bên thứ ba để nhắm quảng cáo. Cơ quan quản lý cho rằng hãng không nói rõ và không xin sự đồng ý của người dùng.",
+        "Hãng phải nộp tiền phạt, xóa dữ liệu cũ, và từ nay phải nói rõ rồi xin đồng ý trước khi thu thập.",
+        "Bạn làm được gì? Vào cài đặt quyền riêng tư của TV, tìm mục theo dõi nội dung đang xem và tắt nó. Tên mục khác nhau tùy hãng.",
+        "TV nhà bạn có mục theo dõi nội dung không? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "dong-ho-chay-bo-lo-duong-chay",
+      "title": "Điều gì xảy ra nếu đồng hồ chạy bộ để lộ đường chạy của bạn?",
+      "scenes": [
+        "Điều gì xảy ra nếu đồng hồ chạy bộ để lộ đường chạy của bạn?",
+        "Bạn có thể nghĩ dữ liệu ẩn danh thì chẳng ai biết là của ai.",
+        "Không hẳn. Tháng mười một năm hai nghìn không trăm mười bảy, ứng dụng Strava công bố một bản đồ nhiệt, sáng lên ở nơi có nhiều người chạy.",
+        "Bản đồ gom từ khoảng mười ba nghìn tỷ điểm định vị của người dùng.",
+        "Cuối tháng một năm hai nghìn không trăm mười tám, một sinh viên người Úc là Nathan Ruser chỉ ra rằng bản đồ làm lộ vị trí các căn cứ quân sự.",
+        "Có vẻ lính và nhân viên an ninh cũng dùng ứng dụng khi tập luyện và đi tuần. Đường đi lặp lại có thể cho thấy thói quen sinh hoạt quanh căn cứ.",
+        "Strava cho biết hoạt động đặt ở chế độ riêng tư không nằm trong bản đồ, và người dùng có thể tắt phần chia sẻ này.",
+        "Bạn làm được gì? Đặt hoạt động ở chế độ riêng tư, tạo vùng ẩn quanh nhà, và tắt đóng góp dữ liệu cho bản đồ nhiệt.",
+        "Bạn có dùng ứng dụng chạy bộ không? Bình luận cho Bóng biết nhé!"
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "xe-hoi-bi-dieu-khien-tu-xa",
+      "title": "Điều gì xảy ra nếu một chiếc xe bị điều khiển từ xa?",
+      "scenes": [
+        "Điều gì xảy ra nếu một chiếc xe bị điều khiển từ xa?",
+        "Bạn có thể nghĩ xe hơi không phải thiết bị kết nối mạng, nên không ai điều khiển từ xa được.",
+        "Không đúng. Xe đời mới có hệ thống giải trí nối mạng, và đó cũng là một cánh cửa vào xe.",
+        "Tháng bảy năm hai nghìn không trăm mười lăm, hai nhà nghiên cứu là Chris Valasek và Charlie Miller điều khiển từ xa một chiếc Jeep Cherokee.",
+        "Chiếc xe do một phóng viên lái. Họ làm gạt nước chạy, đổi đồng hồ tốc độ, rồi làm xe giảm từ hơn một trăm ki-lô-mét trên giờ xuống dừng.",
+        "Sau đó hãng Fiat Chrysler thu hồi một phẩy bốn triệu xe để xử lý nguy cơ này.",
+        "Cơ quan an toàn giao thông của Mỹ sau đó xem xét xem đợt thu hồi có hiệu quả không. Bài học là thiết bị nối mạng nào cũng cần được cập nhật.",
+        "Bạn làm được gì? Cập nhật phần mềm xe khi hãng thông báo, và kiểm tra xem xe của bạn có nằm trong đợt thu hồi nào không.",
+        "Xe nhà bạn có kết nối mạng không? Bình luận cho Bóng biết nhé!"
       ]
     }
   ]

@@ -64,5 +64,23 @@
     "tieu_de": "Điều gì xảy ra nếu robot hút bụi chụp ảnh trong nhà?",
     "mo_ta": "Một số robot hút bụi có camera để tránh vật cản, và hệ thống cần nhiều ảnh thật để học nhận ra đồ vật. Những ảnh đó thường do người thật xem và gắn nhãn.\n\nTháng 12/2022, tạp chí MIT Technology Review có được 15 ảnh chụp trong nhà, đang nằm trong các nhóm kín trên mạng. Theo hãng iRobot, ảnh đến từ robot thử nghiệm không bán ra thị trường, chụp từ tháng 6 đến tháng 11/2020, và bị đăng lên trái với thỏa thuận bảo mật của một bên gắn nhãn dữ liệu. Hãng cho biết người dùng máy thử nghiệm đã ký đồng ý, đã chấm dứt hợp tác với bên làm lộ, và đã chia sẻ hơn 2 triệu ảnh cho các bên gắn nhãn.\n\nViệc làm được ngay: đọc kỹ chính sách quyền riêng tư, chỉ cho phép chia sẻ dữ liệu cần để máy hoạt động, tắt camera nếu có tùy chọn.\n\nNguồn: MIT Technology Review (19/12/2022); AdGuard tổng hợp.\n\nRobot hút bụi nhà bạn có camera không?",
     "hashtag": "#GocIoT #WhatIf #RobotHutBui #RiengTu #CongNghe #NhaThongMinh"
+  },
+  {
+    "id": 12,
+    "tieu_de": "Điều gì xảy ra nếu TV thông minh ghi lại bạn đang xem gì?",
+    "mo_ta": "Tháng 2/2017, hãng TV Vizio bị phạt 2,2 triệu đô la theo thỏa thuận với Ủy ban Thương mại Liên bang Mỹ (FTC) và bang New Jersey. Theo cơ quan quản lý, từ năm 2014 hãng thu thông tin từng giây về hình đang chiếu trên 11 triệu TV, gồm cả phim cáp, đĩa DVD và ứng dụng xem phim trên mạng, rồi gắn thêm thông tin như tuổi và thu nhập của hộ gia đình và bán cho bên thứ ba để nhắm quảng cáo. Cơ quan quản lý cho rằng hãng không nói rõ và không xin sự đồng ý của người dùng.\n\nViệc làm được ngay: vào cài đặt quyền riêng tư của TV, tìm mục theo dõi nội dung đang xem và tắt đi (tên mục khác nhau tùy hãng).\n\nNguồn: thông cáo báo chí của FTC ngày 6/2/2017.\n\nTV nhà bạn có mục theo dõi nội dung không?",
+    "hashtag": "#GocIoT #WhatIf #TVThongMinh #RiengTu #CongNghe #NhaThongMinh"
+  },
+  {
+    "id": 13,
+    "tieu_de": "Điều gì xảy ra nếu đồng hồ chạy bộ để lộ đường chạy của bạn?",
+    "mo_ta": "Tháng 11/2017, ứng dụng Strava công bố bản đồ nhiệt gom từ khoảng 13 nghìn tỷ điểm định vị của người dùng. Cuối tháng 1/2018, sinh viên người Úc Nathan Ruser chỉ ra rằng bản đồ làm lộ vị trí các căn cứ quân sự; có vẻ lính và nhân viên an ninh cũng dùng ứng dụng khi tập luyện và đi tuần, nên đường đi lặp lại có thể cho thấy thói quen sinh hoạt quanh căn cứ. Strava cho biết hoạt động đặt riêng tư không nằm trong bản đồ và người dùng có thể tắt chia sẻ.\n\nViệc làm được ngay: đặt hoạt động ở chế độ riêng tư, tạo vùng ẩn quanh nhà, tắt đóng góp dữ liệu cho bản đồ nhiệt.\n\nNguồn: Help Net Security (29/1/2018).\n\nBạn có dùng ứng dụng chạy bộ không?",
+    "hashtag": "#GocIoT #WhatIf #Strava #RiengTu #CongNghe #DuLieuViTri"
+  },
+  {
+    "id": 14,
+    "tieu_de": "Điều gì xảy ra nếu một chiếc xe bị điều khiển từ xa?",
+    "mo_ta": "Tháng 7/2015, hai nhà nghiên cứu Chris Valasek và Charlie Miller điều khiển từ xa một chiếc Jeep Cherokee do phóng viên Andy Greenberg lái. Họ điều khiển được gạt nước, đồng hồ tốc độ và làm xe giảm từ khoảng 70 dặm/giờ (hơn 100 km/giờ) xuống dừng, qua lỗ hổng ở hệ thống giải trí UConnect. Hãng Fiat Chrysler sau đó thu hồi 1,4 triệu xe; cơ quan an toàn giao thông Mỹ xem xét hiệu quả đợt thu hồi.\n\nViệc làm được ngay: cập nhật phần mềm xe khi hãng thông báo và kiểm tra xe có nằm trong đợt thu hồi nào không.\n\nNguồn: Dark Reading (25/7/2015).\n\nXe nhà bạn có kết nối mạng không?",
+    "hashtag": "#GocIoT #WhatIf #XeHoi #AnToanThongTin #CongNghe #IoT"
   }
 ]

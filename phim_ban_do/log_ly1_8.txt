@@ -13,4 +13,4 @@ tổng khung 18846 đoạn 8 9423 10600
 900 1177
 xong
 + ls -la doan_8.mp4
--rw-r--r-- 1 runner runner 10473265 Oct 29 02:53 doan_8.mp4
+-rw-r--r-- 1 runner runner 10449781 Oct 29 04:44 doan_8.mp4

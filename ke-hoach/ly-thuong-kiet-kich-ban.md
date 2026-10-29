@@ -1,6 +1,6 @@
 # Kịch bản bản đồ: Lý Thường Kiệt, người đánh trước để giữ nước (để chủ kênh duyệt)
 
-Mã `lt1`, 99 đoạn (19001–19099), 2111 chữ, khoảng 11,7 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 10,7 phút, vượt sàn 10 phút). 13 chương. Bộ kiểm `kiem_kich_ban.py lt1`: 0 lỗi, 0 cảnh báo. File giọng: `ke-hoach/thu-giong-hai/lt1_full.json` (tone `story` toàn bộ, như ly1).
+Mã `lt1`, 99 đoạn (19001–19099), 2129 chữ, khoảng 11,8 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 10,8 phút, vượt sàn 10 phút). 13 chương. Bộ kiểm `kiem_kich_ban.py lt1`: 0 lỗi, 0 cảnh báo. File giọng: `ke-hoach/thu-giong-hai/lt1_full.json` (tone `story` toàn bộ, như ly1).
 
 **Nguồn chính:** toàn văn Đại Việt sử ký toàn thư (`ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, quyển III, kỷ nhà Lý: năm 1069, 1072 đến 1084, 1101 đến 1105, kể cả chú thích của bản dịch dẫn Khâm định Việt sử thông giám cương mục). Đối chiếu thêm: Cương mục (đoạn dẫn trên trang Mộc bản triều Nguyễn), Việt sử lược của Trần Trọng Kim (giảng hòa, quân Tống chết quá nửa), tổng quan tiếng Anh về cuộc chiến Tống – Đại Việt (chỉ để biết chỗ các nguồn lệch nhau, KHÔNG dùng làm gốc cho lời kể).
 
@@ -9,7 +9,7 @@ Mã `lt1`, 99 đoạn (19001–19099), 2111 chữ, khoảng 11,7 phút ở 3 ch�
 - **Mở đầu từ khởi đầu câu chuyện (quy tắc chủ kênh 27/10):** kể ngay từ cậu bé hầu cận trong cung ở Thăng Long, KHÔNG mở bằng cảnh tách khỏi bối cảnh. Câu hỏi gây tò mò đặt sau khi chuyện đã bắt đầu (sau chương đầu): rồi một mùa đông người ấy dẫn quân vượt biên giới sang lãnh thổ nhà Tống, vì sao nước nhỏ lại đi trước một bước. Cảnh vây thành Ung Châu được kể đầy đủ ở chương "Bốn mươi ngày bên tường thành".
 - **Chuyển sang chương sau bằng câu hỏi**, không dùng cầu nối "để hiểu điều này, ta phải bắt đầu từ...".
 - **Thân bài đúng thứ tự thời gian** (người hầu cận trong cung, 1069 đánh Chiêm Thành, 1072 vua nhỏ lên ngôi, 1075 tin từ phía bắc, Khâm Liêm Ung, 1076 đến 1077 sông Như Nguyệt, sau chiến tranh 1078 đến 1084, những năm cuối đến 1105). Mỗi chương gắn với một nơi: Thăng Long, Thanh Hóa – Nghệ An, Chiêm Thành, Quế Châu, Ung Châu, sông Cầu.
-- **Kết bằng một đời người và bài thơ bên sông**, không bình luận của mình. **Không có lời bàn của sử gia** (chủ kênh 27/10: bỏ nhận xét Ngô Sĩ Liên, Lê Văn Hưu); đoạn nhận xét của Ngô Sĩ Liên về Tô Giám đã được loại khỏi lời kể.
+- **Lời kết theo bản chủ kênh viết ngày 29/10** (chương "Trở lại bên tường thành": ba đời vua, từ thâm cung đến đỉnh cao quân sự, hai trận cách nhau khoảng một năm, bài thơ truyền mãi): đã thay đúng nguyên văn. Kết bằng bài thơ bên sông, không bình luận của mình. **Không có lời bàn của sử gia** (chủ kênh 27/10: bỏ nhận xét Ngô Sĩ Liên, Lê Văn Hưu); đoạn nhận xét của Ngô Sĩ Liên về Tô Giám đã được loại khỏi lời kể.
 - **Bài thơ "Nam quốc sơn hà" chỉ được kể là chuyện người đời truyền lại** (đúng như Toàn thư chép trong ngoặc), không kể như sự kiện chắc chắn; có đoạn nói thẳng "không phải điều có thể chứng minh".
 - **Cảnh ở Ung Châu nói thẳng đây là phần nặng nề**, không tán dương số người chết và nói rõ con số là do sử Đại Việt chép, các nguồn khác khác đi.
 - **Giọng hài:** chỉ nhắm vào tình huống và phía quân xâm lược: câu thơ người Tống tự chê "vì tham voi Giao Chỉ mà mất vàng Quảng Nguyên" (Toàn thư chép nguyên văn). Khung đùa tối đa hai khung mỗi chương, chỉ ở phía nhà Tống; tuyệt đối không đùa về Lý Thường Kiệt, vua Lý, Ỷ Lan.
@@ -30,7 +30,7 @@ Mã `lt1`, 99 đoạn (19001–19099), 2111 chữ, khoảng 11,7 phút ở 3 ch�
 | Cuộc giằng co | 19069–19076 | Quân Tống không vượt sông, bệnh tật, hơn 8 vạn chết quá nửa, xin hòa, giữ lại 4 châu, khoảng năm 1077 | Việt sử lược và Cương mục; **số 8 vạn và "quá nửa" chỉ là tài liệu thứ cấp, lời kể ghi "có sách chép"**; tháng ngừng chiến không rõ |
 | Sau chiến tranh | 19077–19085 | 1078 Đào Tống Nguyên cống 5 voi, 1079 trả Thuận Châu, 1081 trả tù binh, 1084 Lê Văn Thịnh, 6 huyện 3 động, câu thơ người Tống | khớp Toàn thư (các năm Mậu Ngọ, Kỷ Mùi, Tân Dậu, Giáp Tý) |
 | Những năm cuối | 19086–19094 | Thái úy, 1101 kiêm chức, 1103 Lý Giác, 1104 Chế Ma Na, mất tháng 6 năm 1105, Việt quốc công, Lý Thường Hiến | khớp Toàn thư (các năm Tân Tỵ, Quý Mùi, Giáp Thân, Ất Dậu) |
-| Một đời người | 19095–19099 | Ba đời vua, hai chấm Ung Châu và Như Nguyệt, bài thơ | nối các chương trên; "khoảng một năm" giữa hai trận là tính gần đúng |
+| Trở lại bên tường thành | 19095–19099 | Ba đời vua, từ thâm cung đến đỉnh cao quân sự, Ung Châu và Như Nguyệt cách nhau khoảng một năm, bài thơ (lời kết theo bản chủ kênh viết 29/10) | nối các chương trên; "khoảng một năm" giữa hai trận là tính gần đúng |
 
 ## Chi tiết đã bỏ khỏi lời kể (nghi vấn hoặc chỉ có ở nguồn thứ cấp)
 
@@ -46,7 +46,7 @@ Mã `lt1`, 99 đoạn (19001–19099), 2111 chữ, khoảng 11,7 phút ở 3 ch�
 
 ## Cảnh bản đồ và cảnh vector
 
-Tổng 99 đoạn, **68 đoạn cảnh vector** (cột "Cảnh" bắt đầu bằng "vector:") và **31 đoạn bản đồ**, ghi chú nhỏ (số liệu lệch giữa các nguồn, chuyện truyền lại) là khung chú thích trên bản đồ. Tỉ lệ vector khoảng 69 phần trăm, bản đồ khoảng 31 phần trăm (ly1 là 79 phần trăm vector, nên video này nghiêng về bản đồ); chủ kênh quyết định có đẩy bản đồ lên khoảng 30 đến 40 phần trăm không.
+Tổng 99 đoạn, **69 đoạn cảnh vector** (cột "Cảnh" bắt đầu bằng "vector:") và **30 đoạn bản đồ**, ghi chú nhỏ (số liệu lệch giữa các nguồn, chuyện truyền lại) là khung chú thích trên bản đồ. Tỉ lệ vector khoảng 69 phần trăm, bản đồ khoảng 31 phần trăm (ly1 là 79 phần trăm vector, nên video này nghiêng về bản đồ); chủ kênh quyết định có đẩy bản đồ lên khoảng 30 đến 40 phần trăm không.
 
 Hướng bản đồ gợi ý (dùng lại bản đồ ly1, thêm vùng):
 - **Mở rộng phía bắc:** cần Quế Châu, Ung Châu (Nam Ninh), Khâm Châu, Liêm Châu, cửa ải Côn Lôn, Quảng Nguyên, sông Cầu (Như Nguyệt). Tọa độ cần kiểm lại khi dựng.
@@ -155,11 +155,11 @@ Hướng bản đồ gợi ý (dùng lại bản đồ ly1, thêm vùng):
 | 19092 | Những năm cuối | Đó là lần cuối cùng sử ghi tên Lý Thường Kiệt cầm quân ra trận, chỉ hơn một năm trước khi ông mất. | vector: Lý Thường Kiệt già bên cửa sổ nhìn xa |
 | 19093 | Những năm cuối | Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt qua đời. | vector: phủ thái úy yên lặng, đèn dầu nhỏ |
 | 19094 | Những năm cuối | Triều đình truy tặng ông tước Việt quốc công, và cho người em là Lý Thường Hiến được nối tước hầu. | vector: lễ truy tặng, người em nhận phong |
-| 19095 | Một đời người | Từ cậu bé hầu cận trong cung đến vị thái úy đã chặn quân Tống bên sông Như Nguyệt, ông đã đi qua ba đời vua nhà Lý. | vector: ba ngai vàng hiện lần lượt, ba đời vua |
-| 19096 | Một đời người | Cuộc đời ông bắt đầu bằng việc hầu hạ trong cung và kết thúc khi đã là người đứng đầu việc quân của cả nước. | Thăng Long, hai chấm đầu và cuối |
-| 19097 | Một đời người | Trận Ung Châu và trận sông Như Nguyệt cách nhau khoảng một năm. | bản đồ: hai chấm Ung Châu, Như Nguyệt nối bằng một đường |
-| 19098 | Một đời người | Một trận ông đánh sang lãnh thổ đối phương, một trận ông giữ chắc đất của mình. | hai mũi tên ngược chiều |
-| 19099 | Một đời người | Còn bài thơ trong đêm bên sông, người ta vẫn truyền nhau đến ngày nay. | vector: bờ sông Cầu đêm trăng, hàng rào, bài thơ mờ dần |
+| 19095 | Trở lại bên tường thành | Từ một cậu bé hầu cận trong cung đến vị thái úy uy dũng chặn đứng quân Tống bên bờ Như Nguyệt, ông đã phụng sự qua ba đời vua nhà Lý. | vector: ba ngai vàng hiện lần lượt, ba đời vua |
+| 19096 | Trở lại bên tường thành | Cuộc đời ông khởi đầu từ chốn thâm cung và khép lại ở đỉnh cao của quyền lực quân sự. | vector: Lý Thường Kiệt từ người hầu trong cung đến thái úy, hai bóng người nối nhau |
+| 19097 | Trở lại bên tường thành | Trận vây thành Ung Châu và phòng tuyến sông Như Nguyệt diễn ra cách nhau chỉ khoảng một năm. | bản đồ: hai chấm Ung Châu, Như Nguyệt nối bằng một đường |
+| 19098 | Trở lại bên tường thành | Một trận ông mang quân dội bão lửa sang đất địch, một trận ông vững vàng bảo vệ tấc đất quê hương. | bản đồ: hai mũi tên ngược chiều |
+| 19099 | Trở lại bên tường thành | Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay. | vector: bờ sông Cầu đêm trăng, hàng rào, bài thơ mờ dần |
 
 ## Mô tả video và nguồn (để dán khi đăng)
 

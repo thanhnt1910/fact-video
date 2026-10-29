@@ -1,0 +1,45 @@
+name: Thử kiểu chibi (FLUX + LoRA, Kaggle)
+
+# Chỉ chạy khi chủ kênh yêu cầu. Chạy một kernel Kaggle, không chạy song song với các lần vẽ khác.
+on:
+  workflow_dispatch:
+    inputs:
+      chi_tai:
+        description: "1 = không chạy mới, chỉ tải lại kết quả lần Kaggle trước"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  chibi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow numpy requests kaggle
+      - name: Thử chibi trên Kaggle
+        env:
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          set -o pipefail
+          if [ "${{ inputs.chi_tai }}" = "1" ]; then
+            python kaggle_chibi_thu.py chi_tai_lai=1 2>&1 | tee chibi_chay.txt
+          else
+            python kaggle_chibi_thu.py 2>&1 | tee chibi_chay.txt
+          fi
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          mkdir -p logs/chibi
+          cp chibi_chay.txt logs/chibi/chay.txt || true
+          git config user.name "github-actions"
+          git config user.email "noreply@anthropic.com"
+          git add -f logs/chibi
+          git commit -q -m "Thử chibi: kết quả [skip ci]" || echo "không có gì mới"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

@@ -48,7 +48,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18018 | Người giữ cung nhà Lê | Lê Long Đĩnh chứng kiến cảnh ấy, cất lời khen ông là kẻ tôi trung hiếm có. |
 | 18019 | Người giữ cung nhà Lê | Vua cắt cử ông làm phó chỉ huy quân phòng vệ kinh thành, rồi thăng dần lên thống lĩnh cấm vệ quân bảo vệ hoàng đế. |
 | 18020 | Người giữ cung nhà Lê | Phụng sự vị tân vương này tựa như đi trên mũi kiếm, bởi Lê Long Đĩnh vốn bản tính tàn bạo, khét tiếng thích giết người. |
-| 18021 | Người giữ cung nhà Lê | Có bận vua ăn quả khế lại nhả ra hạt mận. Chữ Lý mang nghĩa là cây mận, khiến vua tin sấm truyền rằng họ Lý tất sẽ dấy nghiệp xưng vương. |
+| 18021 | Người giữ cung nhà Lê | Có lần vua ăn quả khế, rồi nhả ra một hạt mận. Chữ Lý nghĩa là cây mận, nên vua tin lời sấm truyền rằng họ Lý sẽ lên làm vua. |
 | 18022 | Người giữ cung nhà Lê | Kể từ đó, nhà vua ráo riết ngầm hạ lệnh săn lùng, trừ khử những người mang họ Lý. |
 | 18023 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng cạnh ngai vàng, lưỡi gươm kề cổ, nhà vua vẫn không mảy may nghi ngờ. |
 | 18024 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc chứng bệnh trĩ trầm trọng, thiết triều cũng phải nằm, nên sử sách gọi là Lê Ngọa Triều. |

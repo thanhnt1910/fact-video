@@ -15,7 +15,7 @@
   "n": 18003,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Cánh cửa hiểm yếu ấy do chính tay vị tiên hoàng vừa khuất tự mình thiết kế và xây dựng từ mười tám năm về trước."
+  "text": "Cánh cửa hiểm yếu ấy do vị tiên hoàng vừa khuất cho xây từ mười tám năm về trước."
  },
  {
   "n": 18004,
@@ -129,7 +129,7 @@
   "n": 18022,
   "chuong": "Người giữ cung nhà Lê",
   "tone": "story",
-  "text": "Kể từ đó, nhà vua ráo riết ngầm hạ lệnh săn lùng, tru diệt những người mang họ Lý."
+  "text": "Kể từ đó, nhà vua ráo riết ngầm hạ lệnh săn lùng, trừ khử những người mang họ Lý."
  },
  {
   "n": 18023,
@@ -177,7 +177,7 @@
   "n": 18030,
   "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Nhân một dịp vắng người, Đào Cam Mộc mạo muội tìm đến Lý Công Uẩn dùng lời kích tướng."
+  "text": "Nhân một dịp vắng người, Đào Cam Mộc bạo dạn tìm đến Lý Công Uẩn, nói những lời khích động."
  },
  {
   "n": 18031,
@@ -201,7 +201,7 @@
   "n": 18034,
   "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ tiết lộ, cả hai mang họa tru di."
+  "text": "Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ tiết lộ, cả hai sẽ bị giết cả họ."
  },
  {
   "n": 18035,
@@ -267,7 +267,7 @@
   "n": 18045,
   "chuong": "Lời nói khích và ngôi vua",
   "tone": "story",
-  "text": "Kẻ đầu tiên cất lời xúi giục đổi ngôi được phong tước Nghĩa Tín Hầu."
+  "text": "Người đầu tiên khuyên Lý Công Uẩn lên ngôi lại được phong tước Nghĩa Tín Hầu."
  },
  {
   "n": 18046,
@@ -423,13 +423,13 @@
   "n": 18071,
   "chuong": "Lá chiếu dời đô",
   "tone": "story",
-  "text": "Nhà vua vô cùng hoan hỉ."
+  "text": "Nhà vua vô cùng vui mừng."
  },
  {
   "n": 18072,
   "chuong": "Con thuyền dưới chân thành",
   "tone": "story",
-  "text": "Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, ngự giá rời Hoa Lư, rẽ sóng xuôi về Đại La."
+  "text": "Tháng bảy âm lịch năm một nghìn không trăm mười, vào khoảng tháng tám dương lịch, nhà vua lên thuyền rời Hoa Lư, rẽ sóng xuôi về Đại La."
  },
  {
   "n": 18073,
@@ -531,7 +531,7 @@
   "n": 18089,
   "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Tháng hai âm lịch năm một nghìn không trăm mười một, hoàng đế ngự giá thân chinh phạt giặc Cử Long ở Ái Châu."
+  "text": "Tháng hai âm lịch năm một nghìn không trăm mười một, hoàng đế thân chinh đi đánh giặc Cử Long ở Ái Châu."
  },
  {
   "n": 18090,
@@ -603,7 +603,7 @@
   "n": 18101,
   "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Quân Nam Chiếu đại bại, cống nạp vô số binh sĩ cùng chiến mã cho quân đội Đại Cồ Việt."
+  "text": "Quân Nam Chiếu đại bại, quân Đại Cồ Việt bắt được vô số binh sĩ cùng chiến mã."
  },
  {
   "n": 18102,
@@ -627,13 +627,13 @@
   "n": 18105,
   "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Đó là hệ quả tất yếu, bởi vị minh quân vĩ đại ấy từng lớn lên dưới bóng bồ đề và luôn hết lòng tôn sùng đạo Phật."
+  "text": "Ông từng lớn lên trong chùa, dưới bóng bồ đề, và suốt đời hết lòng sùng đạo Phật."
  },
  {
   "n": 18106,
   "chuong": "Những năm trị vì",
   "tone": "story",
-  "text": "Tháng giêng âm lịch năm một nghìn không trăm mười lăm, khai quốc công thần Đào Cam Mộc tạ thế, được triều đình truy tặng hàm Thái sư á vương."
+  "text": "Tháng giêng âm lịch năm một nghìn không trăm mười lăm, khai quốc công thần Đào Cam Mộc qua đời, được triều đình phong tặng hàm Thái sư á vương."
  },
  {
   "n": 18107,
@@ -651,7 +651,7 @@
   "n": 18109,
   "chuong": "Điện Long An",
   "tone": "story",
-  "text": "Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Thái Tổ long thể bất an."
+  "text": "Tháng hai âm lịch năm một nghìn không trăm hai mươi tám, Lý Thái Tổ lâm bệnh nặng."
  },
  {
   "n": 18110,
@@ -681,7 +681,7 @@
   "n": 18114,
   "chuong": "Cánh cửa Quảng Phúc",
   "tone": "story",
-  "text": "Mũi nhọn phục kích nhắm thẳng vào cánh cửa Quảng Phúc phía tây do chính tay tiên hoàng xây cất."
+  "text": "Mũi nhọn phục kích nhắm thẳng vào cánh cửa Quảng Phúc phía tây do tiên hoàng cho xây."
  },
  {
   "n": 18115,
@@ -783,19 +783,19 @@
   "n": 18131,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Trận huynh đệ tương tàn đã vùi thây ngay trước cánh cửa phía tây do chính hoàng đế thiết kế."
+  "text": "Trận huynh đệ tương tàn đã vùi thây ngay trước cánh cửa phía tây do chính hoàng đế cho xây."
  },
  {
   "n": 18132,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Mười tám năm trước đó, nhà vua đã khéo léo dò hỏi quần thần rằng nếu đổi Đại La làm kinh đô thì lòng bá quan có thuận phục hay không."
+  "text": "Mười tám năm trước đó, nhà vua đã khéo léo dò hỏi các quan rằng nếu đổi Đại La làm kinh đô thì lòng họ có thuận theo hay không."
  },
  {
   "n": 18133,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Khởi nguồn từ một câu hỏi khéo léo ấy, nhà Lý đã có một thủ đô vững chãi để duy trì cơ nghiệp suốt hai thế kỷ."
+  "text": "Từ ngày dời đô, nhà Lý giữ kinh thành ấy làm thủ đô suốt hai thế kỷ."
  },
  {
   "n": 18134,

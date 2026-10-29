@@ -52,19 +52,19 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 | 18022 | Người giữ cung nhà Lê | Kể từ đó, nhà vua ráo riết ngầm hạ lệnh săn lùng, tru diệt những người mang họ Lý. |
 | 18023 | Người giữ cung nhà Lê | Vậy mà ngày ngày Lý Công Uẩn đứng cạnh ngai vàng, lưỡi gươm kề cổ, nhà vua vẫn không mảy may nghi ngờ. |
 | 18024 | Người giữ cung nhà Lê | Về sau Lê Long Đĩnh mắc chứng bệnh trĩ trầm trọng, thiết triều cũng phải nằm, nên sử sách gọi là Lê Ngọa Triều. |
-| 18025 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, bạo chúa Lê Long Đĩnh qua đời. |
-| 18026 | Người giữ cung nhà Lê | Trữ quân nối ngôi khi ấy còn quá ấu trĩ, chưa thể gánh vác việc nước. |
+| 18025 | Người giữ cung nhà Lê | Ngày mười chín tháng mười một năm một nghìn không trăm linh chín, vua Lê Long Đĩnh qua đời. |
+| 18026 | Người giữ cung nhà Lê | Trữ quân nối ngôi khi ấy còn quá nhỏ tuổi, chưa thể gánh vác việc nước. |
 | 18027 | Lời nói khích và ngôi vua | Lúc bấy giờ, binh lực tinh nhuệ nhất hoàng cung nằm cả trong tay Lý Công Uẩn và tướng Nguyễn Đê, mỗi người thống lĩnh năm trăm cấm quân. |
 | 18028 | Lời nói khích và ngôi vua | Cầm giữ hai đạo quân ấy, ngai vàng Đại Cồ Việt coi như đã nằm gọn trong lòng bàn tay hai ông. |
 | 18029 | Lời nói khích và ngôi vua | Viên quan hầu cận Đào Cam Mộc đã tinh ý nhìn thấu cơ hội này. |
 | 18030 | Lời nói khích và ngôi vua | Nhân một dịp vắng người, Đào Cam Mộc mạo muội tìm đến Lý Công Uẩn dùng lời kích tướng. |
-| 18031 | Lời nói khích và ngôi vua | Ông nói thẳng rằng cựu vương tàn ngược, ấu chúa còn thơ dại, cớ sao ngài không thuận theo lòng trời ý dân mà bước lên bảo tọa? |
+| 18031 | Lời nói khích và ngôi vua | Ông nói thẳng rằng cựu vương tàn ngược, tân vương còn thơ dại, cớ sao ngài không thuận theo lòng trời ý dân mà bước lên bảo tọa. |
 | 18032 | Lời nói khích và ngôi vua | Lý Công Uẩn trong lòng mừng thầm nhưng ngoài mặt vẫn vờ nổi giận, dọa bắt Cam Mộc giải đi cáo quan. |
 | 18033 | Lời nói khích và ngôi vua | Đào Cam Mộc khẳng khái đáp rằng ông không màng sinh tử, vì chính lòng người quy tụ mới khiến ông dám can đảm cất lời. |
 | 18034 | Lời nói khích và ngôi vua | Nhận thấy lòng thành của Cam Mộc, Lý Công Uẩn mới nói nỗi e ngại lớn nhất, là chỉ sợ mưu cơ tiết lộ, cả hai mang họa tru di. |
 | 18035 | Lời nói khích và ngôi vua | Hôm sau Đào Cam Mộc lại đến, nói thiên hạ râm ran họ Lý sắp dựng nghiệp lớn. Lý Công Uẩn đáp rằng ý ấy giống lời sư Vạn Hạnh thuở nào. |
 | 18036 | Lời nói khích và ngôi vua | Đào Cam Mộc đem đại sự bàn bạc cùng bá quan văn võ. Ngay hôm ấy, quần thần lập tức nghị triều. |
-| 18037 | Lời nói khích và ngôi vua | Quần thần đồng tình rằng bách tính đã oán thán cựu vương, ấu chúa lại quá nhỏ bé, khó lòng thu phục nhân tâm. |
+| 18037 | Lời nói khích và ngôi vua | Quần thần đồng tình rằng bách tính đã oán thán cựu vương, vua mới lại quá nhỏ bé, khó lòng thu phục nhân tâm. |
 | 18038 | Lời nói khích và ngôi vua | Đứng trước thời cuộc, họ quyết đoán phải suy tôn Lý Công Uẩn đăng cơ ngay lập tức, phòng trừ triều đình sinh loạn. |
 | 18039 | Lời nói khích và ngôi vua | Vậy là vào ngày hai mươi mốt tháng mười một năm một nghìn không trăm linh chín, bá quan dìu Lý Công Uẩn lên chính điện. |
 | 18040 | Lời nói khích và ngôi vua | Trăm quan quỳ rạp dưới thềm rồng, đồng thanh hô vang vạn tuế. |
@@ -165,6 +165,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3,229 chữ, khoảng 17.9 phút �
 
 ## Ghi chú
 
+- Chủ kênh sửa lời 29/10 (sau bản đầu): 18025, 18026, 18031, 18037.
 - Số đoạn và số hiệu giữ nguyên 18001 đến 18134 như bản chủ kênh. Chỉ rút ngắn nhẹ hoặc đổi dấu câu ở 24 đoạn để qua bộ kiểm giọng đọc (đoạn tối đa 32 chữ, không hai chấm, không gạch, không chữ số): 18006, 18009, 18034, 18035, 18047, 18057, 18066, 18069, 18071, 18076, 18079, 18083, 18094, 18097, 18108, 18116, 18127, 18129.
 - Chủ kênh chốt 29/10: 18042 và 18044 giữ nguyên lời bản chủ kênh; 18116 giữ câu đã thêm "nằm ở phía đông kinh thành".
 - Còn 19 cảnh báo nhẹ (đoạn 31 đến 32 chữ, vài đoạn ngắn hoặc nhiều dấu phẩy), không phải lỗi.

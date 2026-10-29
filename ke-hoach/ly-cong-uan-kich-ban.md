@@ -95,7 +95,7 @@ Mã `ly1`, 134 đoạn (18001 đến 18134), 3.175 chữ, khoảng 17,6 phút �
 | 18065 | Lá chiếu dời đô | Cũng trong năm đó, triều đình phái sứ giả vượt biên ải sang Bắc Tống để củng cố giao bang. |
 | 18066 | Lá chiếu dời đô | Bản chiếu mở đầu bằng tấm gương đế vương Trung Hoa xưa, là nhà Thương dời đô năm lần, nhà Chu dời ba lần, đều vì nghiệp lớn cho muôn đời sau. |
 | 18067 | Lá chiếu dời đô | Bản chiếu phê bình nghiêm khắc nhà Đinh và nhà Tiền Lê, vì cứ theo ý riêng mà ở mãi một chỗ, khiến vận nước ngắn ngủi, dân chúng hao tổn. |
-| 18068 | Lá chiếu dời đô | Chiếu ca ngợi Đại La có thế rồng cuộn hổ ngồi, địa hình cao ráo, quang đãng, đất rộng và bằng phẳng, dân không khổ vì ngập lụt, muôn vật tươi tốt. |
+| 18068 | Lá chiếu dời đô | Chiếu ca ngợi Đại La có thế rồng cuộn hổ ngồi rất hợp để dân an cư lâu dài. |
 | 18069 | Lá chiếu dời đô | Ở dòng cuối, vua không ép buộc mà ôn tồn hỏi bầy tôi rằng trẫm muốn dựa vào sự thuận lợi của đất ấy để định chỗ ở, các khanh nghĩ sao? |
 | 18070 | Lá chiếu dời đô | Quần thần đồng thanh tấu rằng hoàng đế đang tính kế trăm năm cho thiên hạ, điều đại lợi như vậy cớ sao lại không tuân phục. |
 | 18071 | Lá chiếu dời đô | Nhà vua vô cùng vui mừng. |

@@ -1,0 +1,6 @@
+Thử lúc 2026-10-29 15:13:32 UTC
+Câu thử: Điều gì xảy ra nếu TV thông minh ghi lại bạn đang xem gì?
+Dùng tài khoản _1
+[melotts vi] HTTP 400: {"errors":[{"message":"AiError: AiError: Unsupported language 'vi'. Supported: ['en', 'es', 'fr', 'jp', 'kr', 'zh']. (008eabd9-ac9e-47da-9807-87cd2b1a5414)","code":8007}],"success":false,"result":{},"messages":[]}
+[melotts en] OK 287078 byte, 0.00s
+  Whisper nghe được: 'Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn'

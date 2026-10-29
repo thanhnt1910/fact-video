@@ -322,5 +322,59 @@
   "tu": 14,
   "tu_moi_giay": 3.3,
   "chu": "Robot hút bụi nhà bạn có camera không? Bình luận cho Bóng biết nhé!"
+ },
+ "v12_s1": {
+  "giay": 3.36,
+  "tu": 12,
+  "tu_moi_giay": 3.57,
+  "chu": "Điều gì xảy ra nếu một bóng đèn thông minh bị hack?"
+ },
+ "v12_s2": {
+  "giay": 5.2,
+  "tu": 17,
+  "tu_moi_giay": 3.27,
+  "chu": "Bạn có thể nghĩ bóng đèn chỉ biết bật tắt, nên chẳng ai thèm tấn công nó."
+ },
+ "v12_s3": {
+  "giay": 7.96,
+  "tu": 25,
+  "tu_moi_giay": 3.14,
+  "chu": "Không phải vậy. Bóng đèn thông minh có chip, có sóng vô tuyến và phần mềm riêng, nên nó cũng là một máy tính nhỏ."
+ },
+ "v12_s4": {
+  "giay": 6.28,
+  "tu": 23,
+  "tu_moi_giay": 3.66,
+  "chu": "Năm hai nghìn không trăm mười sáu, một nhóm nhà nghiên cứu bảo mật ở Israel đã thử nghiệm trên đèn Philips Hue."
+ },
+ "v12_s5": {
+  "giay": 8.76,
+  "tu": 31,
+  "tu_moi_giay": 3.54,
+  "chu": "Họ cho máy bay không người lái bay lại gần, bắt đầu từ cách ba trăm năm mươi mét. Càng bay gần, càng nhiều đèn trong tòa nhà bị điều khiển."
+ },
+ "v12_s6": {
+  "giay": 9.28,
+  "tu": 34,
+  "tu_moi_giay": 3.66,
+  "chu": "Họ còn tính rằng nếu đèn nằm đủ gần nhau, một bóng bị chiếm có thể lây sang bóng bên cạnh. Nhưng đó mới là tính toán, không phải vụ tấn công có thật."
+ },
+ "v12_s7": {
+  "giay": 8.0,
+  "tu": 32,
+  "tu_moi_giay": 4.0,
+  "chu": "Hãng Philips đã được báo trước và đã vá lỗi bằng bản cập nhật phần mềm. Chủ nhà phải cài ứng dụng của hãng thì mới nhận được bản vá tự động."
+ },
+ "v12_s8": {
+  "giay": 7.32,
+  "tu": 23,
+  "tu_moi_giay": 3.14,
+  "chu": "Bạn làm được gì? Cài ứng dụng của hãng, bật cập nhật phần mềm, và thay đèn nếu hãng đã ngừng hỗ trợ."
+ },
+ "v12_s9": {
+  "giay": 3.52,
+  "tu": 13,
+  "tu_moi_giay": 3.69,
+  "chu": "Nhà bạn có đèn thông minh không? Bình luận cho Bóng biết nhé!"
  }
 }

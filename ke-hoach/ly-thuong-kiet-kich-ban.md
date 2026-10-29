@@ -1,36 +1,43 @@
 # Kịch bản bản đồ: Lý Thường Kiệt, người đánh trước để giữ nước (để chủ kênh duyệt)
 
-Mã `lt1`, 99 đoạn (19001–19099), 2129 chữ, khoảng 11,8 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 10,8 phút, vượt sàn 10 phút). 13 chương. Bộ kiểm `kiem_kich_ban.py lt1`: 0 lỗi, 0 cảnh báo. File giọng: `ke-hoach/thu-giong-hai/lt1_full.json` (tone `story` toàn bộ, như ly1).
+Mã `lt1`, 100 đoạn (19001–19100), 2129 chữ, khoảng 11.8 phút ở 3 chữ/giây (đọc thực tế khoảng 3,3 chữ/giây thì khoảng 10.8 phút, vượt sàn 10 phút). 13 chương. Bộ kiểm `kiem_kich_ban.py lt1`: 0 lỗi, 3 cảnh báo nhẹ (đoạn 31 đến 32 chữ). File giọng: `ke-hoach/thu-giong-hai/lt1_full.json` (tone `story` toàn bộ, như ly1).
 
 **Nguồn chính:** toàn văn Đại Việt sử ký toàn thư (`ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, quyển III, kỷ nhà Lý: năm 1069, 1072 đến 1084, 1101 đến 1105, kể cả chú thích của bản dịch dẫn Khâm định Việt sử thông giám cương mục). Đối chiếu thêm: Cương mục (đoạn dẫn trên trang Mộc bản triều Nguyễn), Việt sử lược của Trần Trọng Kim (giảng hòa, quân Tống chết quá nửa), tổng quan tiếng Anh về cuộc chiến Tống – Đại Việt (chỉ để biết chỗ các nguồn lệch nhau, KHÔNG dùng làm gốc cho lời kể).
 
 ## Ý tưởng chính (phần sáng tạo, chủ kênh duyệt)
 
-- **Mở đầu từ khởi đầu câu chuyện (quy tắc chủ kênh 27/10):** kể ngay từ cậu bé hầu cận trong cung ở Thăng Long, KHÔNG mở bằng cảnh tách khỏi bối cảnh. Câu hỏi gây tò mò đặt sau khi chuyện đã bắt đầu (sau chương đầu): rồi một mùa đông người ấy dẫn quân vượt biên giới sang lãnh thổ nhà Tống, vì sao nước nhỏ lại đi trước một bước. Cảnh vây thành Ung Châu được kể đầy đủ ở chương "Bốn mươi ngày bên tường thành".
-- **Chuyển sang chương sau bằng câu hỏi**, không dùng cầu nối "để hiểu điều này, ta phải bắt đầu từ...".
+- **Mở đầu bằng cảnh có thật trong chính video:** năm 1075 một đạo quân Đại Việt vượt biên giới, vây thành Ung Châu hơn 40 ngày và chất bao đất để trèo lên tường (Toàn thư chép đủ). Hook chỉ nêu việc lạ, không lộ kết cục (thành thất thủ, Tô Giám tự thiêu), rồi hỏi: vì sao đánh trước, và người dẫn quân là ai. Cảnh này được kể đầy đủ ở chương "Bốn mươi ngày bên tường thành".
+- **Chuyển sang quá khứ bằng câu hỏi "người ấy là ai"**, không dùng cầu nối "để hiểu điều này, ta phải bắt đầu từ...".
 - **Thân bài đúng thứ tự thời gian** (người hầu cận trong cung, 1069 đánh Chiêm Thành, 1072 vua nhỏ lên ngôi, 1075 tin từ phía bắc, Khâm Liêm Ung, 1076 đến 1077 sông Như Nguyệt, sau chiến tranh 1078 đến 1084, những năm cuối đến 1105). Mỗi chương gắn với một nơi: Thăng Long, Thanh Hóa – Nghệ An, Chiêm Thành, Quế Châu, Ung Châu, sông Cầu.
-- **Lời kết theo bản chủ kênh viết ngày 29/10** (chương "Trở lại bên tường thành": ba đời vua, từ thâm cung đến đỉnh cao quân sự, hai trận cách nhau khoảng một năm, bài thơ truyền mãi): đã thay đúng nguyên văn. Kết bằng bài thơ bên sông, không bình luận của mình. **Không có lời bàn của sử gia** (chủ kênh 27/10: bỏ nhận xét Ngô Sĩ Liên, Lê Văn Hưu); đoạn nhận xét của Ngô Sĩ Liên về Tô Giám đã được loại khỏi lời kể.
+- **Kết quay lại Ung Châu và bài thơ bên sông**, không bình luận của mình. Lời bàn duy nhất là của sử thần Ngô Sĩ Liên (đoạn Tô Giám, có trong Toàn thư).
 - **Bài thơ "Nam quốc sơn hà" chỉ được kể là chuyện người đời truyền lại** (đúng như Toàn thư chép trong ngoặc), không kể như sự kiện chắc chắn; có đoạn nói thẳng "không phải điều có thể chứng minh".
 - **Cảnh ở Ung Châu nói thẳng đây là phần nặng nề**, không tán dương số người chết và nói rõ con số là do sử Đại Việt chép, các nguồn khác khác đi.
 - **Giọng hài:** chỉ nhắm vào tình huống và phía quân xâm lược: câu thơ người Tống tự chê "vì tham voi Giao Chỉ mà mất vàng Quảng Nguyên" (Toàn thư chép nguyên văn). Khung đùa tối đa hai khung mỗi chương, chỉ ở phía nhà Tống; tuyệt đối không đùa về Lý Thường Kiệt, vua Lý, Ỷ Lan.
 - **Không có "tập sau"**; video trọn gói, kết ở kết cục của câu chuyện.
 
+## Quyết định của chủ kênh (29/10/2026)
+
+- **Lấy theo bản chủ kênh đã sửa lời** (file đính kèm ngày 29/10): giữ chương mở đầu "Thành bị vây" (hook bằng cảnh vây Ung Châu) và giữ lời bàn của sử thần Ngô Sĩ Liên ở chương 7. Giữ nguyên câu về số người chết ở Ung Châu. Lời kết (chương 13) theo đúng bản chủ kênh viết.
+- Tôi chỉ sửa bốn chỗ nhỏ để qua bộ kiểm giọng đọc: bỏ hai chấm ở hai đoạn, đổi "đất Tống" thành "lãnh thổ nhà Tống" (đoạn 19011), rút ngắn hai đoạn dài hơn 32 chữ (19024, 19050).
+- Cảnh vector tăng lên khoảng 67 phần trăm. Giọng luôn Sadaltager, đọc từng đoạn một.
+
 ## Chương, độ chắc và nguồn
 
 | Chương | Đoạn | Nội dung | Độ chắc và nguồn |
 |---|---|---|---|
-| Người hầu cận trong cung | 19001–19008 | Thái Hòa, hoàng môn chi hậu, nội thị sảnh đô tri, thái bảo, tiết việt, Thanh Hóa, Nghệ An; hai câu hỏi gây tò mò ở cuối chương (vượt biên giới sang lãnh thổ nhà Tống, vì sao đi trước) | khớp phần chép sau khi ông mất (Toàn thư, Ất Dậu 1105); **năm sinh bỏ khỏi lời kể** (các sách ghi 1019 hoặc 1030, chưa chắc) |
-| Mặt trận phía nam | 19009–19019 | 1069 vua thân chinh, tiên phong, Cư Liên, Ỷ Lan, Chế Củ và 5 vạn dân, dâng ba châu, phụ quốc thái phó | khớp Toàn thư (Kỷ Dậu 1069 và đoạn chép sau khi ông mất) |
-| Một đứa trẻ bảy tuổi | 19020–19025 | 1072 Nhân Tông 7 tuổi, Ỷ Lan, thái hậu họ Dương, Lý Đạo Thành; 1075 đánh Chiêm không thắng, vẽ địa đồ ba châu, thái úy | khớp Toàn thư (Nhâm Tý 1072, Ất Mão 1075 mùa thu) |
-| Tin từ phía bắc | 19026–19034 | Vương An Thạch, Thẩm Khởi, Lưu Di ở Quế Châu, đóng thuyền, cấm buôn bán, Lý Thường Kiệt và Tông Đản; lời tuyên bố phép thanh miêu | khớp Toàn thư; lý do thật của chiến tranh ghi rõ là **lời sử Đại Việt chép**, người nay còn bàn |
-| Đi trước một bước | 19035–19041 | Hai đạo thủy bộ hơn 10 vạn quân, Khâm Liêm, Ung, cửa ải Côn Lôn, Trương Thủ Tiết bị chém | khớp Toàn thư; **số quân 10 vạn là số của Toàn thư**; Cương mục không chép số này |
-| Bốn mươi ngày bên tường thành | 19042–19050 | Tô Giám, vây trên 40 ngày, bao đất, thành hạ, 36 người nhà, 5 vạn 8 nghìn, 10 vạn, bắt sống người ba châu, thụy Trung Dũng (lời bàn của Ngô Sĩ Liên đã bỏ khỏi lời kể) | khớp Toàn thư; **con số người chết là của sử Đại Việt, nguồn Trung Hoa chép khác**, lời kể đã nói rõ |
-| Quân Tống kéo xuống | 19051–19057 | Quách Quỳ, Triệu Tiết, chín tướng, Chiêm Thành, Chân Lạp, cuối năm 1076 | khớp Toàn thư (nhưng Toàn thư ghi nhầm tháng 3 năm 1076, Cương mục sửa; lời kể chỉ nói "cuối năm") |
-| Phòng tuyến sông Như Nguyệt | 19058–19068 | Sông Cầu, hàng rào, quân Tống chết trên 1000, đền hai anh em họ Trương, bài thơ, Quách Quỳ lui và lấy Quảng Nguyên | khớp Toàn thư; hàng rào và bài thơ là **chuyện người đời truyền** (Toàn thư ghi trong ngoặc) |
-| Cuộc giằng co | 19069–19076 | Quân Tống không vượt sông, bệnh tật, hơn 8 vạn chết quá nửa, xin hòa, giữ lại 4 châu, khoảng năm 1077 | Việt sử lược và Cương mục; **số 8 vạn và "quá nửa" chỉ là tài liệu thứ cấp, lời kể ghi "có sách chép"**; tháng ngừng chiến không rõ |
-| Sau chiến tranh | 19077–19085 | 1078 Đào Tống Nguyên cống 5 voi, 1079 trả Thuận Châu, 1081 trả tù binh, 1084 Lê Văn Thịnh, 6 huyện 3 động, câu thơ người Tống | khớp Toàn thư (các năm Mậu Ngọ, Kỷ Mùi, Tân Dậu, Giáp Tý) |
-| Những năm cuối | 19086–19094 | Thái úy, 1101 kiêm chức, 1103 Lý Giác, 1104 Chế Ma Na, mất tháng 6 năm 1105, Việt quốc công, Lý Thường Hiến | khớp Toàn thư (các năm Tân Tỵ, Quý Mùi, Giáp Thân, Ất Dậu) |
-| Trở lại bên tường thành | 19095–19099 | Ba đời vua, từ thâm cung đến đỉnh cao quân sự, Ung Châu và Như Nguyệt cách nhau khoảng một năm, bài thơ (lời kết theo bản chủ kênh viết 29/10) | nối các chương trên; "khoảng một năm" giữa hai trận là tính gần đúng |
+| Thành bị vây | 19001–19004 | Hook: vượt biên giới, vây thành 40 ngày, bao đất | khớp Toàn thư (Bản kỷ III, năm Ất Mão 1075) |
+| Người hầu cận trong cung | 19005–19011 | Thái Hòa, hoàng môn chi hậu, nội thị sảnh đô tri, thái bảo, tiết việt, Thanh Hóa, Nghệ An | khớp phần chép sau khi ông mất (Toàn thư, Ất Dậu 1105); **năm sinh bỏ khỏi lời kể** (các sách ghi 1019 hoặc 1030, chưa chắc) |
+| Mặt trận phía nam | 19012–19022 | 1069 vua thân chinh, tiên phong, Cư Liên, Ỷ Lan, Chế Củ và 5 vạn dân, dâng ba châu, phụ quốc thái phó | khớp Toàn thư (Kỷ Dậu 1069 và đoạn chép sau khi ông mất) |
+| Một đứa trẻ bảy tuổi | 19023–19028 | 1072 Nhân Tông 7 tuổi, Ỷ Lan, thái hậu họ Dương, Lý Đạo Thành; 1075 đánh Chiêm không thắng, vẽ địa đồ ba châu, thái úy | khớp Toàn thư (Nhâm Tý 1072, Ất Mão 1075 mùa thu) |
+| Tin từ phía bắc | 19029–19037 | Vương An Thạch, Thẩm Khởi, Lưu Di ở Quế Châu, đóng thuyền, cấm buôn bán, Lý Thường Kiệt và Tông Đản; lời tuyên bố phép thanh miêu | khớp Toàn thư; lý do thật của chiến tranh ghi rõ là **lời sử Đại Việt chép**, người nay còn bàn |
+| Đi trước một bước | 19038–19044 | Hai đạo thủy bộ hơn 10 vạn quân, Khâm Liêm, Ung, cửa ải Côn Lôn, Trương Thủ Tiết bị chém | khớp Toàn thư; **số quân 10 vạn là số của Toàn thư**; Cương mục không chép số này |
+| Bốn mươi ngày bên tường thành | 19045–19054 | Tô Giám, vây trên 40 ngày, bao đất, thành hạ, 36 người nhà, 5 vạn 8 nghìn, 10 vạn, bắt sống người ba châu, thụy Trung Dũng, lời Ngô Sĩ Liên | khớp Toàn thư; **con số người chết là của sử Đại Việt, nguồn Trung Hoa chép khác**, lời kể đã nói rõ |
+| Quân Tống kéo xuống | 19055–19059 | Quách Quỳ, Triệu Tiết, chín tướng, Chiêm Thành, Chân Lạp, cuối năm 1076 | khớp Toàn thư (nhưng Toàn thư ghi nhầm tháng 3 năm 1076, Cương mục sửa; lời kể chỉ nói "cuối năm") |
+| Phòng tuyến sông Như Nguyệt | 19060–19070 | Sông Cầu, hàng rào, quân Tống chết trên 1000, đền hai anh em họ Trương, bài thơ, Quách Quỳ lui và lấy Quảng Nguyên | khớp Toàn thư; hàng rào và bài thơ là **chuyện người đời truyền** (Toàn thư ghi trong ngoặc) |
+| Cuộc giằng co | 19071–19078 | Quân Tống không vượt sông, bệnh tật, hơn 8 vạn chết quá nửa, xin hòa, giữ lại 4 châu, khoảng năm 1077 | Việt sử lược và Cương mục; **số 8 vạn và "quá nửa" chỉ là tài liệu thứ cấp, lời kể ghi "có sách chép"**; tháng ngừng chiến không rõ |
+| Sau chiến tranh | 19079–19086 | 1078 Đào Tống Nguyên cống 5 voi, 1079 trả Thuận Châu, 1081 trả tù binh, 1084 Lê Văn Thịnh, 6 huyện 3 động, câu thơ người Tống | khớp Toàn thư (các năm Mậu Ngọ, Kỷ Mùi, Tân Dậu, Giáp Tý) |
+| Những năm cuối | 19087–19095 | Thái úy, 1101 kiêm chức, 1103 Lý Giác, 1104 Chế Ma Na, mất tháng 6 năm 1105, Việt quốc công, Lý Thường Hiến | khớp Toàn thư (các năm Tân Tỵ, Quý Mùi, Giáp Thân, Ất Dậu) |
+| Trở lại bên tường thành | 19096–19100 | Ba đời vua, hai chấm Ung Châu và Như Nguyệt, bài thơ | nối các chương trên; "khoảng một năm" giữa hai trận là tính gần đúng |
 
 ## Chi tiết đã bỏ khỏi lời kể (nghi vấn hoặc chỉ có ở nguồn thứ cấp)
 
@@ -46,7 +53,7 @@ Mã `lt1`, 99 đoạn (19001–19099), 2129 chữ, khoảng 11,8 phút ở 3 ch�
 
 ## Cảnh bản đồ và cảnh vector
 
-Tổng 99 đoạn, **69 đoạn cảnh vector** (cột "Cảnh" bắt đầu bằng "vector:") và **30 đoạn bản đồ**, ghi chú nhỏ (số liệu lệch giữa các nguồn, chuyện truyền lại) là khung chú thích trên bản đồ. Tỉ lệ vector khoảng 69 phần trăm, bản đồ khoảng 31 phần trăm (ly1 là 79 phần trăm vector, nên video này nghiêng về bản đồ); chủ kênh quyết định có đẩy bản đồ lên khoảng 30 đến 40 phần trăm không.
+Tổng 100 đoạn, **67 đoạn cảnh vector** (cột "Cảnh" bắt đầu bằng "vector:") và **33 đoạn bản đồ**, ghi chú nhỏ (số liệu lệch giữa các nguồn, chuyện truyền lại) là khung chú thích trên bản đồ. Tỉ lệ vector khoảng 24 phần trăm, bản đồ khoảng 76 phần trăm (ly1 là 79 phần trăm vector, nên video này nghiêng về bản đồ); chủ kênh quyết định có đẩy bản đồ lên khoảng 30 đến 40 phần trăm không.
 
 Hướng bản đồ gợi ý (dùng lại bản đồ ly1, thêm vùng):
 - **Mở rộng phía bắc:** cần Quế Châu, Ung Châu (Nam Ninh), Khâm Châu, Liêm Châu, cửa ải Côn Lôn, Quảng Nguyên, sông Cầu (Như Nguyệt). Tọa độ cần kiểm lại khi dựng.
@@ -55,111 +62,110 @@ Hướng bản đồ gợi ý (dùng lại bản đồ ly1, thêm vùng):
 - **Chữ trên màn hình:** số liệu (hơn 40 ngày, 58 nghìn, 10 vạn) chỉ hiện đúng khoảnh khắc được nói, kèm nhãn "theo sử Đại Việt".
 - **Cảnh vector cần vẽ mới (khoảng 25 cảnh):** thành Ung Châu và bao đất, Tô Giám trên tường, khói từ thành (không có người, không máu), hai tướng Tống nhận lệnh, doanh trại Tống, hàng rào ven sông Cầu, đền hai anh em họ Trương ban đêm, đoàn sứ dẫn voi, cảnh bàn biên giới, lễ truy tặng. Mọi cảnh chiến tranh vẽ khói, hàng quân, thành bị vây; **không máu, không cảnh giết người**.
 
-- **Chương "Quân Tống kéo xuống"** thêm hai đoạn từ Toàn thư năm 1076 (tháng 4 đổi niên hiệu, chiếu cầu lời nói thẳng, chọn người hiền tài văn võ); chương "Sau chiến tranh" thêm việc sửa thành Đại La năm 1078.
-
 ## Lời kể (mã `lt1`, 19001 trở đi)
 
 | n | Chương | Lời kể | Cảnh |
 |---|---|---|---|
-| 19001 | Người hầu cận trong cung | Người ấy là Lý Thường Kiệt, quê ở phường Thái Hòa, trong thành Thăng Long, dòng nhà ông nhiều đời làm quan. | Thăng Long, ghim phường Thái Hòa |
-| 19002 | Người hầu cận trong cung | Sử cũ không ghi năm sinh của ông, nên các sách ngày nay mỗi nơi ghi một khác. | chữ trên bản đồ: năm sinh chưa rõ |
-| 19003 | Người hầu cận trong cung | Khi còn trẻ, ông được vào cung làm hoàng môn chi hậu, nghĩa là người hầu cận bên cạnh nhà vua, vì vẻ mặt tươi sáng. | vector: sân cung, người hầu đứng bên vua Lý Thái Tông |
-| 19004 | Người hầu cận trong cung | Ông theo hầu vua Lý Thái Tông, rồi được thăng dần lên chức nội thị sảnh đô tri, một chức lớn trông coi việc trong cung. | vector: người hầu bước lên bậc cung, mũ và áo đổi dần theo chức |
-| 19005 | Người hầu cận trong cung | Dưới thời vua Lý Thánh Tông, ông được phong làm thái bảo và được trao cờ tiết, nghĩa là cờ của vua, để đi thăm hỏi dân. | vector: sứ giả cầm cờ tiết cưỡi ngựa ra cổng thành |
-| 19006 | Người hầu cận trong cung | Ông đi qua hai vùng ở phía nam là Thanh Hóa và Nghệ An, hỏi han dân tình rồi mới về triều. | vector: đoàn quan đi qua làng Thanh Hóa, dân ra đón bên đường |
-| 19007 | Người hầu cận trong cung | Rồi đến một mùa đông, chính người ấy dẫn quân vượt biên giới đi về phía bắc, sang lãnh thổ của nhà Tống. | vector: đoàn quân vượt biên giới, cờ bay, mũi tên đỏ trên bản đồ nhỏ góc màn hình |
-| 19008 | Người hầu cận trong cung | Một nước nhỏ chủ động đánh sang nước láng giềng lớn là việc hiếm gặp, vậy vì sao Đại Việt lại đi trước một bước? | vector: Lý Thường Kiệt nhìn bản đồ, cuộn giấy mở ra |
-| 19009 | Mặt trận phía nam | Đại Việt thời ấy có hai biên giới cần canh giữ, một ở phía bắc giáp nhà Tống, một ở phía nam giáp nước Chiêm Thành. | bản đồ: hai biên giới tô màu |
-| 19010 | Mặt trận phía nam | Chiêm Thành nhiều lần đem quân quấy rối biên giới, và vua Lý Thánh Tông quyết định tự mình đi đánh. | mũi tên Chiêm Thành đỏ lên biên giới |
-| 19011 | Mặt trận phía nam | Mùa xuân, tháng hai năm một nghìn không trăm sáu mươi chín, nhà vua dẫn quân vào đánh Chiêm Thành. | vector: hàng quân đi xuống phía nam, cờ bay |
-| 19012 | Mặt trận phía nam | Lý Thường Kiệt đi trong đoàn quân ấy và làm tướng tiên phong, nghĩa là người dẫn đầu mở đường. | vector: đoàn quân hành quân, tướng đi đầu |
-| 19013 | Mặt trận phía nam | Trận đầu không dễ. Sử chép rằng nhà vua đánh mãi mà chưa thắng, nên đã cho quân quay về. | vector: vua nhìn bản đồ ở Cư Liên, lính dừng nghỉ bên lều |
-| 19014 | Mặt trận phía nam | Đến châu Cư Liên, vua nghe tin Nguyên phi Ỷ Lan ở lại kinh thành lo việc trong nước rất khéo, dân chúng yên vui. | vector: Ỷ Lan trong cung phát gạo, dân chắp tay |
-| 19015 | Mặt trận phía nam | Nhà vua nói rằng một người phụ nữ còn làm được như thế, thì mình là nam nhi lẽ nào lại bỏ dở việc lớn. | vector: vua đứng trước đoàn quân, nhìn về phía nam |
-| 19016 | Mặt trận phía nam | Vua cho quân quay lại và thắng. Quân Đại Việt bắt được vua Chiêm Thành là Chế Củ cùng năm vạn dân. | vector: hai đoàn quân giáp mặt, bụi mù, không máu |
-| 19017 | Mặt trận phía nam | Tháng bảy năm ấy, đoàn quân về đến kinh thành và dâng tù binh ở Thái Miếu, nơi thờ tổ tiên nhà Lý. | vector: sân Thái Miếu, tù binh đứng trước đền |
-| 19018 | Mặt trận phía nam | Để chuộc tội, Chế Củ xin dâng ba châu Địa Lý, Ma Linh và Bố Chính, và nhà vua đồng ý tha cho ông ta về nước. | bản đồ: ba châu đổi màu sang Đại Việt |
-| 19019 | Mặt trận phía nam | Nhờ công làm tướng tiên phong, Lý Thường Kiệt được phong làm phụ quốc thái phó, một chức lớn giúp vua trong triều. | vector: lễ phong chức trong điện, quan quỳ nhận |
-| 19020 | Một đứa trẻ bảy tuổi | Năm một nghìn không trăm bảy mươi hai, vua Lý Thánh Tông qua đời, thái tử Càn Đức lên ngôi, tức là vua Lý Nhân Tông. | vector: tang lễ Thánh Tông, đoàn người áo trắng |
-| 19021 | Một đứa trẻ bảy tuổi | Nhà vua mới bảy tuổi, nên mẹ là Ỷ Lan cùng thái hậu họ Dương buông rèm nghe việc triều đình, và thái sư Lý Đạo Thành giúp việc. | vector: ngai vàng nhỏ và hai bà sau rèm |
-| 19022 | Một đứa trẻ bảy tuổi | Triều đình khi ấy có một vị vua nhỏ tuổi và nhiều người cùng giữ quyền. | vector: các quan chia ba nhóm đứng quanh vua nhỏ |
-| 19023 | Một đứa trẻ bảy tuổi | Năm một nghìn không trăm bảy mươi lăm, Lý Thường Kiệt được sai đi đánh Chiêm Thành nhưng không thắng được. | mũi tên xuống phía nam, dừng lại |
-| 19024 | Một đứa trẻ bảy tuổi | Ông vẽ lại địa đồ ba châu Bố Chính, Địa Lý và Ma Linh rồi quay về, đổi tên hai châu và chiêu mộ dân đến ở. | bản đồ ba châu, tên mới hiện ra |
-| 19025 | Một đứa trẻ bảy tuổi | Triều đình phong ông làm thái úy, người đứng đầu việc quân. Và ngay năm ấy, tin dữ đến từ phía bắc. | vector: Lý Thường Kiệt nhận ấn thái úy |
-| 19026 | Tin từ phía bắc | Nhà Tống đang cải cách, và người nắm quyền lúc ấy là tể tướng Vương An Thạch. | vector: triều đình Tống, Vương An Thạch cầm cuộn tâu |
-| 19027 | Tin từ phía bắc | Sử Đại Việt chép rằng Vương An Thạch tâu với vua Tống là Đại Việt vừa bị Chiêm Thành đánh phá. | vector: quan nhà Tống tâu vua |
-| 19028 | Tin từ phía bắc | Ông ta nói quân còn lại chưa đầy một vạn người, nên nhà Tống có thể dùng kế chiếm lấy. | vector: quan nhà Tống chỉ bản đồ |
-| 19029 | Tin từ phía bắc | Đó là lời chép trong sử Đại Việt, còn các nhà nghiên cứu ngày nay vẫn bàn về nguyên nhân thật của cuộc chiến. | ghi chú nhỏ: nguồn lệch nhau |
-| 19030 | Tin từ phía bắc | Dù lý do thật là gì, vua Tống đã sai hai quan là Thẩm Khởi và Lưu Di đến vùng Quế Châu, sát biên giới. | vector: thành Quế Châu, cờ Tống bay |
-| 19031 | Tin từ phía bắc | Hai người ấy cho đóng thuyền, luyện thủy quân, tập hợp người dân miền núi, và cấm các châu huyện buôn bán với Đại Việt. | vector: xưởng thuyền, binh lính tập trận |
-| 19032 | Tin từ phía bắc | Tin này về đến Thăng Long, và triều đình sai Lý Thường Kiệt cùng tướng Tông Đản dẫn quân đi trước. | mũi tên tin Quế Châu về Thăng Long, hai tướng hiện |
-| 19033 | Tin từ phía bắc | Nhà Lý tuyên bố rằng quân sang để hỏi tội nhà Tống, vì phép thanh miêu của họ làm hại dân Trung Hoa. | vector: sứ giả đọc lời tuyên bố trước hàng quân |
-| 19034 | Tin từ phía bắc | Phép thanh miêu là lệ cho dân vay tiền khi lúa còn xanh, rồi trả lãi sau mùa gặt. | vector: nông dân vay tiền bên ruộng lúa |
-| 19035 | Đi trước một bước | Theo sử Đại Việt, quân chia thành hai đạo thủy bộ, tổng cộng hơn mười vạn người. | vector: hai đạo thủy bộ xuất quân, thuyền và hàng quân |
-| 19036 | Đi trước một bước | Đạo thủy do Lý Thường Kiệt chỉ huy đánh vào hai châu ven biển là Khâm Châu và Liêm Châu. | mũi tên thủy Khâm Châu, Liêm Châu |
-| 19037 | Đi trước một bước | Hai châu ấy thất thủ, và quân Đại Việt mang người ở đó về làm tù binh. | vector: thuyền chiến cập bờ Khâm Châu, tù binh dắt đi |
-| 19038 | Đi trước một bước | Cùng lúc, Tông Đản dẫn đạo quân bộ tiến thẳng về Ung Châu, tòa thành lớn nhất trong vùng. | mũi tên bộ Tông Đản đến Ung Châu |
-| 19039 | Đi trước một bước | Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết dẫn quân đến cứu Ung Châu. | vector: tướng Tống dẫn quân đi cứu |
-| 19040 | Đi trước một bước | Lý Thường Kiệt chặn đánh ông ta ở cửa ải Côn Lôn, và Trương Thủ Tiết bị chém ngay tại trận. | vector: ải Côn Lôn, hai đoàn quân đối đầu, bụi mù |
-| 19041 | Đi trước một bước | Cứu binh bị đánh tan, nên Ung Châu giờ chỉ còn trông vào những người giữ thành. | vector: Tông Đản vây thành, quân dựng trại quanh Ung Châu |
-| 19042 | Bốn mươi ngày bên tường thành | Người giữ Ung Châu là tri châu Tô Giám, một viên quan nhất quyết không hàng. | vector: Tô Giám trên tường thành |
-| 19043 | Bốn mươi ngày bên tường thành | Quân Đại Việt vây thành hơn bốn mươi ngày, nhưng tường thành quá cao để leo lên. | vector: tường thành, tờ lịch lật dần theo ngày |
-| 19044 | Bốn mươi ngày bên tường thành | Cuối cùng họ chất bao đất thành dốc nghiêng dần, cho quân có thể trèo thẳng lên đầu tường. | vector: bao đất xếp thành dốc |
-| 19045 | Bốn mươi ngày bên tường thành | Thành bị hạ. Tô Giám cho người nhà ba mươi sáu người chết trước, rồi tự châm lửa đốt mình. | vector: khói lên từ thành, không có người |
-| 19046 | Bốn mươi ngày bên tường thành | Sử Đại Việt chép rằng trong thành không ai chịu hàng, và hơn năm vạn tám nghìn người đã chết ở đây. | chữ trên bản đồ: con số theo sử Đại Việt |
-| 19047 | Bốn mươi ngày bên tường thành | Cộng cả Khâm Châu và Liêm Châu thì con số lên hơn mười vạn. Đây là con số do sử Đại Việt chép, và các nguồn khác chép khác đi. | ghi chú nhỏ: số liệu lệch giữa các nguồn |
-| 19048 | Bốn mươi ngày bên tường thành | Đây là phần nặng nề nhất của cuộc chiến, vì phần lớn người chết là dân thường trong thành. | vector: khói bay lên, bầu trời ửng đỏ, không có người |
-| 19049 | Bốn mươi ngày bên tường thành | Sau trận, quân Đại Việt bắt sống người ở ba châu đem về nước, rồi rút khỏi vùng đất ấy. | vector: đoàn tù binh đi về phía nam thành hàng |
-| 19050 | Bốn mươi ngày bên tường thành | Vua Tống truy tặng Tô Giám thụy hiệu là Trung Dũng, nghĩa là người trung thành và gan dạ, và ban nhà ruộng cho con cháu ông ta. | vector: nhà Tống ban thưởng cho gia đình |
-| 19051 | Quân Tống kéo xuống | Giữa lúc nguy cấp, tháng tư năm một nghìn không trăm bảy mươi sáu, triều đình đổi niên hiệu mới và xuống chiếu cầu lời nói thẳng. | vector: chiếu chỉ được đọc trước sân chầu |
-| 19052 | Quân Tống kéo xuống | Nhà vua cũng cho chọn những người hiền tài về văn lẫn võ, giao họ trông coi quân và dân. | vector: quan văn võ nhận ấn trước điện |
-| 19053 | Quân Tống kéo xuống | Nhưng nhà Tống không bỏ cuộc. Họ cử Quách Quỳ làm chiêu thảo sứ, nghĩa là người chỉ huy cuộc dẹp loạn, và Triệu Tiết làm phó. | vector: hai tướng Tống nhận lệnh |
-| 19054 | Quân Tống kéo xuống | Sử Đại Việt chép rằng họ đem quân của chín tướng, hợp với Chiêm Thành và Chân Lạp, tiến sang đánh Đại Việt. | vector: chín lá cờ tướng Tống xếp hàng |
-| 19055 | Quân Tống kéo xuống | Chân Lạp là nước nằm ở vùng đất mà ngày nay thuộc Campuchia, và Chiêm Thành nằm ở phía nam Đại Việt. | bản đồ: chỉ Chân Lạp và Chiêm Thành |
-| 19056 | Quân Tống kéo xuống | Quân Tống kéo xuống vào cuối năm một nghìn không trăm bảy mươi sáu, theo đường bộ, hướng thẳng về Thăng Long. | vector: quân Tống hành quân xuống đồng bằng |
-| 19057 | Quân Tống kéo xuống | Lý Thường Kiệt biết rằng phải chặn họ ở một nơi, và nơi ấy là một khúc sông. | bản đồ: chỉ sông Cầu |
-| 19058 | Phòng tuyến sông Như Nguyệt | Khúc sông ấy là sông Như Nguyệt, tức là sông Cầu ngày nay, chảy ngang con đường từ phía bắc về Thăng Long. | sông Cầu sáng lên, nhãn Như Nguyệt |
-| 19059 | Phòng tuyến sông Như Nguyệt | Người ta kể rằng Lý Thường Kiệt cho dựng hàng rào dọc theo sông, để ngăn quân Tống vượt qua. | vector: hàng rào tre ven sông |
-| 19060 | Phòng tuyến sông Như Nguyệt | Quân Tống đến bờ bắc, nhìn sang bờ bên kia, nhưng không tìm được chỗ nào dễ qua. | vector: quân Tống đứng bên sông |
-| 19061 | Phòng tuyến sông Như Nguyệt | Sử chép rằng quân Tống thử tiến công và bị đánh tan, chết hơn một nghìn người. | vector: quân Tống tiến đến bờ sông, bị hàng rào chặn lại |
-| 19062 | Phòng tuyến sông Như Nguyệt | Theo lời người đời truyền lại, vào một đêm, quân sĩ nghe trong đền thờ hai anh em họ Trương có tiếng ai đọc to một bài thơ. | vector: đền ven sông, đêm, sao |
-| 19063 | Phòng tuyến sông Như Nguyệt | Đền ấy thờ hai anh em họ Trương, vốn là tướng giỏi từ thời trước, mà theo truyền thuyết đã được phong làm thần sông. | vector: đền thờ hai thần bên sông |
-| 19064 | Phòng tuyến sông Như Nguyệt | Bài thơ nói rằng sông núi nước Nam là của vua nước Nam, đã được định rõ trong sách trời. | vector: bài thơ hiện từng câu trên nền đêm sao |
-| 19065 | Phòng tuyến sông Như Nguyệt | Bài thơ hỏi sao giặc lại sang xâm phạm, và báo rằng chúng sẽ chuốc lấy thất bại. | cuối bài thơ, ánh sáng nhẹ |
-| 19066 | Phòng tuyến sông Như Nguyệt | Sử không nói ai đã đọc bài thơ. Đây chỉ là chuyện người đời truyền lại, không phải điều có thể chứng minh. | ghi chú nhỏ: chuyện truyền lại |
-| 19067 | Phòng tuyến sông Như Nguyệt | Toàn thư chép thêm rằng sau đó mọi việc quả nhiên đúng như bài thơ báo. | vector: quân Tống đứng yên, đèn trại lấp lánh bờ bắc |
-| 19068 | Phòng tuyến sông Như Nguyệt | Quách Quỳ lui quân, và trên đường lui còn chiếm lấy châu Quảng Nguyên của Đại Việt. | vector: quân Tống rút về phía bắc, cờ rũ |
-| 19069 | Cuộc giằng co | Cuộc chiến kéo dài. Quân Tống chỉ đóng ở bờ bắc, không tiến được thêm. | bản đồ: hai bờ, đồng hồ ngày |
-| 19070 | Cuộc giằng co | Vùng đồng bằng ẩm và nóng hơn nhiều so với nơi quân Tống từng sống, nên sách chép rằng bệnh tật lan trong doanh trại. | vector: doanh trại Tống, người ốm |
-| 19071 | Cuộc giằng co | Họ đã đi một đường rất dài, rồi phải đứng chờ bên bờ sông mà không qua được. | vector: lính Tống mệt mỏi bên bờ sông |
-| 19072 | Cuộc giằng co | Có sách chép rằng quân Tống trước có hơn tám vạn người, về sau chết quá nửa vì bệnh và vì thất bại. | chữ trên bản đồ: số liệu từ sách sử |
-| 19073 | Cuộc giằng co | Thấy đánh lâu không có lợi, triều đình nhà Lý sai sứ sang xin hòa với nhà Tống. | vector: sứ giả chèo thuyền qua sông, cờ hiệu sứ |
-| 19074 | Cuộc giằng co | Vua Tống đồng ý rút quân, nhưng vẫn giữ lại các châu Quảng Nguyên, Tư Lang, Tô Mậu và huyện Quảng Lang. | bản đồ: Tống rút về, giữ lại vùng biên giới |
-| 19075 | Cuộc giằng co | Các sách khác nhau về tháng ngừng chiến, nên ta chỉ biết là vào khoảng năm một nghìn không trăm bảy mươi bảy. | chữ trên bản đồ: khoảng năm 1077 |
-| 19076 | Cuộc giằng co | Một cuộc chiến lớn đã kết thúc, nhưng chuyện biên giới thì chưa xong. | vector: doanh trại Tống thu quân, gấp lều |
-| 19077 | Sau chiến tranh | Chiến tranh xong, Đại Việt vẫn phải lo việc đòi lại những vùng đất bị giữ. | bản đồ: các châu còn thuộc Tống |
-| 19078 | Sau chiến tranh | Mùa xuân năm một nghìn không trăm bảy mươi tám, nhà Lý cho sửa lại thành Đại La, tức là thành của kinh đô Thăng Long. | vector: thợ xây sửa tường thành Thăng Long |
-| 19079 | Sau chiến tranh | Năm một nghìn không trăm bảy mươi tám, nhà Lý sai Đào Tống Nguyên mang năm con voi thuần sang biếu nhà Tống. | vector: người đi sứ dẫn voi |
-| 19080 | Sau chiến tranh | Họ xin trả lại các châu Quảng Nguyên và Tô Mậu, cùng những người dân bị bắt đi. | vector: sứ đoàn đi trên đường đất đến nhà Tống |
-| 19081 | Sau chiến tranh | Năm một nghìn không trăm bảy mươi chín, nhà Tống trả lại châu Quảng Nguyên, nhưng đã đổi tên là Thuận Châu. | Quảng Nguyên đổi tên Thuận Châu |
-| 19082 | Sau chiến tranh | Hai năm sau, Đại Việt trả lại cho nhà Tống những lính và dân đã bắt ở ba châu Ung, Khâm, Liêm. | vector: đoàn tù binh trở về, hai bên gặp nhau ở biên giới |
-| 19083 | Sau chiến tranh | Năm một nghìn không trăm tám mươi tư, Lê Văn Thịnh đến trại Vĩnh Bình để bàn việc phân chia biên giới với người Tống. | vector: hai bên ngồi bên bản đồ |
-| 19084 | Sau chiến tranh | Kết quả, nhà Tống trả lại cho Đại Việt sáu huyện và ba động nữa. | sáu huyện, ba động đổi màu |
-| 19085 | Sau chiến tranh | Người Tống làm thơ chê rằng vì tham voi của Giao Chỉ mà để mất vàng Quảng Nguyên. | thơ chữ nhỏ bên bản đồ |
-| 19086 | Những năm cuối | Sau cuộc chiến, Lý Thường Kiệt vẫn ở lại triều đình, giữ chức thái úy, người đứng đầu việc quân. | vector: Lý Thường Kiệt ngồi trong phủ thái úy bàn việc quân |
-| 19087 | Những năm cuối | Năm một nghìn một trăm linh một, vua cho ông kiêm thêm một chức lớn trông coi công việc trong ngoài cung điện. | Thăng Long, hiện chức mới |
-| 19088 | Những năm cuối | Năm một nghìn một trăm linh ba, người Diễn Châu tên Lý Giác nổi loạn và chiếm cứ cả châu ấy. | vector: người Diễn Châu đắp thành nổi dậy |
-| 19089 | Những năm cuối | Vua sai Lý Thường Kiệt dẫn quân đi đánh. Lý Giác thua chạy sang Chiêm Thành, và đồng đảng bị dẹp yên. | vector: quân Đại Việt kéo đến Diễn Châu |
-| 19090 | Những năm cuối | Năm sau, vua Chiêm Thành là Chế Ma Na đem quân lấy lại ba châu mà Chế Củ đã dâng. | Chiêm Thành lấn lên ba châu |
-| 19091 | Những năm cuối | Lý Thường Kiệt lại được sai đi đánh và thắng, và Chế Ma Na phải dâng đất ấy một lần nữa. | vector: quân Đại Việt đánh Chiêm Thành lần cuối, đèn trại |
-| 19092 | Những năm cuối | Đó là lần cuối cùng sử ghi tên Lý Thường Kiệt cầm quân ra trận, chỉ hơn một năm trước khi ông mất. | vector: Lý Thường Kiệt già bên cửa sổ nhìn xa |
-| 19093 | Những năm cuối | Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt qua đời. | vector: phủ thái úy yên lặng, đèn dầu nhỏ |
-| 19094 | Những năm cuối | Triều đình truy tặng ông tước Việt quốc công, và cho người em là Lý Thường Hiến được nối tước hầu. | vector: lễ truy tặng, người em nhận phong |
-| 19095 | Trở lại bên tường thành | Từ một cậu bé hầu cận trong cung đến vị thái úy uy dũng chặn đứng quân Tống bên bờ Như Nguyệt, ông đã phụng sự qua ba đời vua nhà Lý. | vector: ba ngai vàng hiện lần lượt, ba đời vua |
-| 19096 | Trở lại bên tường thành | Cuộc đời ông khởi đầu từ chốn thâm cung và khép lại ở đỉnh cao của quyền lực quân sự. | vector: Lý Thường Kiệt từ người hầu trong cung đến thái úy, hai bóng người nối nhau |
-| 19097 | Trở lại bên tường thành | Trận vây thành Ung Châu và phòng tuyến sông Như Nguyệt diễn ra cách nhau chỉ khoảng một năm. | bản đồ: hai chấm Ung Châu, Như Nguyệt nối bằng một đường |
-| 19098 | Trở lại bên tường thành | Một trận ông mang quân dội bão lửa sang đất địch, một trận ông vững vàng bảo vệ tấc đất quê hương. | bản đồ: hai mũi tên ngược chiều |
-| 19099 | Trở lại bên tường thành | Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay. | vector: bờ sông Cầu đêm trăng, hàng rào, bài thơ mờ dần |
+| 19001 | Thành bị vây | Mùa đông năm một nghìn không trăm bảy mươi lăm, một đạo quân vượt biên giới đi về phía bắc, tiến thẳng vào lãnh thổ nhà Tống. | bản đồ Đại Việt và nhà Tống, mũi tên đỏ vượt biên giới |
+| 19002 | Thành bị vây | Họ vây hãm một tòa thành hơn bốn mươi ngày, rồi chất bao đất cao dần để tràn lên mặt thành. | vector: thành Ung Châu, lính chất bao đất |
+| 19003 | Thành bị vây | Một quốc gia nhỏ bé chủ động tấn công một đế chế khổng lồ phương Bắc là điều hiếm thấy trong lịch sử nước ta. | vector: hai nước cạnh nhau, lá cờ hai bên đung đưa trong gió |
+| 19004 | Thành bị vây | Vậy vì sao quân Đại Việt lại đi trước một bước? Và người dẫn dắt đạo quân ấy là ai? | vector: Lý Thường Kiệt đứng trên tường thành Thăng Long nhìn về phía bắc, gió thổi áo |
+| 19005 | Người hầu cận trong cung | Người ấy là Lý Thường Kiệt, quê ở phường Thái Hòa, kinh thành Thăng Long, sinh ra trong một gia tộc nhiều đời làm quan. | Thăng Long, ghim phường Thái Hòa |
+| 19006 | Người hầu cận trong cung | Sử cũ không ghi năm sinh của ông, nên các tài liệu ngày nay mỗi nơi ghi một khác. | chữ trên bản đồ: năm sinh chưa rõ |
+| 19007 | Người hầu cận trong cung | Thuở thiếu thời, nhờ dung mạo khôi ngô, ông được tuyển vào cung giữ chức hoàng môn chi hậu, kề cận phục vụ nhà vua. | vector: sân cung, người hầu đứng bên vua Lý Thái Tông |
+| 19008 | Người hầu cận trong cung | Ông theo hầu vua Lý Thái Tông, rồi dần được thăng lên chức nội thị sảnh đô tri, nắm quyền cai quản công việc trong cung. | vector: người hầu bước lên bậc cung, mũ và áo đổi dần theo chức |
+| 19009 | Người hầu cận trong cung | Dưới thời vua Lý Thánh Tông, ông được phong làm thái bảo và được trao cờ tiết để thay mặt vua đi tuần thú, dò xét dân tình. | vector: sứ giả cầm cờ tiết cưỡi ngựa ra cổng thành |
+| 19010 | Người hầu cận trong cung | Ông đi qua hai vùng đất phía nam là Thanh Hóa và Nghệ An, hỏi han đời sống con dân rồi mới hồi triều. | vector: đoàn quan đi qua làng Thanh Hóa, dân ra đón bên đường |
+| 19011 | Người hầu cận trong cung | Nhưng hành trình của ông đã bắt đầu từ nhiều năm trước đó, rất lâu trước khi ông trở thành vị tướng tấn công sang lãnh thổ nhà Tống. | trở lại Thăng Long, lùi thời gian |
+| 19012 | Mặt trận phía nam | Đại Việt thời bấy giờ có hai đường biên giới cần canh giữ, phía bắc giáp nhà Tống và phía nam giáp nước Chiêm Thành. | bản đồ: hai biên giới tô màu |
+| 19013 | Mặt trận phía nam | Chiêm Thành nhiều lần xua quân quấy rối bờ cõi, khiến vua Lý Thánh Tông quyết định thân chinh đi đánh dẹp. | mũi tên Chiêm Thành đỏ lên biên giới |
+| 19014 | Mặt trận phía nam | Mùa xuân, tháng hai năm một nghìn không trăm sáu mươi chín, nhà vua dẫn đại quân tiến vào đất Chiêm. | vector: hàng quân đi xuống phía nam, cờ bay |
+| 19015 | Mặt trận phía nam | Lý Thường Kiệt đi trong đạo quân ấy và giữ vai trò tiên phong, mở đường xuyên phá đội hình địch. | vector: đoàn quân hành quân, tướng đi đầu |
+| 19016 | Mặt trận phía nam | Trận đầu gian nan. Sử chép rằng nhà vua đánh mãi không hạ được địch, bèn hạ lệnh lui binh. | vector: vua nhìn bản đồ ở Cư Liên, lính dừng nghỉ bên lều |
+| 19017 | Mặt trận phía nam | Về đến châu Cư Liên, vua nghe tin Nguyên phi Ỷ Lan ở lại kinh đô điều hành quốc sự rất khéo léo, muôn dân yên ấm. | vector: Ỷ Lan trong cung phát gạo, dân chắp tay |
+| 19018 | Mặt trận phía nam | Nhà vua than rằng, một người phụ nữ còn làm được như thế, mình là bậc nam nhi lẽ nào lại bỏ dở việc lớn. | vector: vua đứng trước đoàn quân, nhìn về phía nam |
+| 19019 | Mặt trận phía nam | Vua lập tức cho quân quay lại và giành đại thắng, bắt sống vua Chiêm Thành là Chế Củ cùng năm vạn người. | vector: hai đoàn quân giáp mặt, bụi mù, không máu |
+| 19020 | Mặt trận phía nam | Tháng bảy năm ấy, đoàn quân khải hoàn về kinh, dâng tù binh lên Thái Miếu để cáo công với tổ tiên nhà Lý. | vector: sân Thái Miếu, tù binh đứng trước đền |
+| 19021 | Mặt trận phía nam | Để chuộc mạng, Chế Củ xin dâng ba châu Địa Lý, Ma Linh và Bố Chính. Nhà vua ưng thuận và tha cho ông ta về nước. | bản đồ: ba châu đổi màu sang Đại Việt |
+| 19022 | Mặt trận phía nam | Nhờ lập công lớn ở vị trí tiên phong, Lý Thường Kiệt được thăng làm phụ quốc thái phó, dự bàn quốc sự trong triều. | vector: lễ phong chức trong điện, quan quỳ nhận |
+| 19023 | Một đứa trẻ bảy tuổi | Năm một nghìn không trăm bảy mươi hai, vua Lý Thánh Tông băng hà, thái tử Càn Đức lên ngôi, tức là vua Lý Nhân Tông. | vector: tang lễ Thánh Tông, đoàn người áo trắng |
+| 19024 | Một đứa trẻ bảy tuổi | Tân vương mới lên bảy tuổi, nên đích mẫu là thái hậu họ Dương cùng sinh mẫu là Ỷ Lan buông rèm nhiếp chính, có thái sư Lý Đạo Thành phụ tá. | vector: ngai vàng nhỏ và hai bà sau rèm |
+| 19025 | Một đứa trẻ bảy tuổi | Triều đình lúc bấy giờ được điều hành bởi một vị ấu chúa cùng nhiều thế lực san sẻ quyền bính. | vector: các quan chia ba nhóm đứng quanh vua nhỏ |
+| 19026 | Một đứa trẻ bảy tuổi | Năm một nghìn không trăm bảy mươi lăm, Lý Thường Kiệt lãnh mệnh đi đánh Chiêm Thành nhưng không phân thắng bại. | mũi tên xuống phía nam, dừng lại |
+| 19027 | Một đứa trẻ bảy tuổi | Ông vẽ lại địa đồ ba châu Bố Chính, Địa Lý và Ma Linh rồi rút về, sau đó đổi tên hai châu và chiêu mộ dân đến khai khẩn. | bản đồ ba châu, tên mới hiện ra |
+| 19028 | Một đứa trẻ bảy tuổi | Triều đình thăng ông làm thái úy, thống lĩnh toàn bộ binh quyền. Và ngay năm ấy, tin dữ báo về từ phương bắc. | vector: Lý Thường Kiệt nhận ấn thái úy |
+| 19029 | Tin từ phía bắc | Nhà Tống đương thời đang tiến hành cải cách, dưới sự điều hành của tể tướng Vương An Thạch. | vector: triều đình Tống, Vương An Thạch cầm cuộn tâu |
+| 19030 | Tin từ phía bắc | Sử Đại Việt chép rằng Vương An Thạch đã mật tấu với vua Tống về việc Đại Việt vừa bị Chiêm Thành đánh phá. | vector: quan nhà Tống tâu vua |
+| 19031 | Tin từ phía bắc | Ông ta khẳng định quân số Đại Việt còn lại chưa đầy một vạn, nhà Tống hoàn toàn có thể dùng mưu chiếm lấy. | vector: quan nhà Tống chỉ bản đồ |
+| 19032 | Tin từ phía bắc | Đó là lời chép trong sử Đại Việt, còn giới học giả ngày nay vẫn đang tranh luận về nguyên nhân thực sự của cuộc chiến. | ghi chú nhỏ: nguồn lệch nhau |
+| 19033 | Tin từ phía bắc | Bất luận lý do là gì, vua Tống đã phái hai viên quan là Thẩm Khởi và Lưu Di đến vùng Quế Châu sát biên giới. | vector: thành Quế Châu, cờ Tống bay |
+| 19034 | Tin từ phía bắc | Hai người này ra sức đóng chiến thuyền, luyện thủy quân, chiêu mộ dân miền núi, đồng thời cấm các châu huyện giao thương với Đại Việt. | vector: xưởng thuyền, binh lính tập trận |
+| 19035 | Tin từ phía bắc | Tình báo đưa về Thăng Long. Triều đình lập tức lệnh cho Lý Thường Kiệt và tướng Tông Đản dẫn quân xuất kích. | mũi tên tin Quế Châu về Thăng Long, hai tướng hiện |
+| 19036 | Tin từ phía bắc | Nhà Lý tuyên bố rằng việc cất quân là để hỏi tội nhà Tống, vì phép thanh miêu của họ làm lầm than bá tánh Trung Hoa. | vector: sứ giả đọc lời tuyên bố trước hàng quân |
+| 19037 | Tin từ phía bắc | Phép thanh miêu là chính sách cho nông dân vay tiền khi lúa còn xanh, và thu hồi cả vốn lẫn lãi sau vụ gặt. | vector: nông dân vay tiền bên ruộng lúa |
+| 19038 | Đi trước một bước | Theo sử Đại Việt, binh lực chia thành hai đạo thủy bộ, tổng quân số lên tới hơn mười vạn người. | vector: hai đạo thủy bộ xuất quân, thuyền và hàng quân |
+| 19039 | Đi trước một bước | Đạo thủy quân do Lý Thường Kiệt chỉ huy, đánh thốc vào hai châu ven biển là Khâm Châu và Liêm Châu. | mũi tên thủy Khâm Châu, Liêm Châu |
+| 19040 | Đi trước một bước | Khâm và Liêm nhanh chóng thất thủ, quân Đại Việt bắt người dân tại đây mang về làm tù binh. | vector: thuyền chiến cập bờ Khâm Châu, tù binh dắt đi |
+| 19041 | Đi trước một bước | Cùng lúc, tướng Tông Đản dẫn đạo quân bộ tiến thẳng về Ung Châu, tòa thành kiên cố nhất trong vùng. | mũi tên bộ Tông Đản đến Ung Châu |
+| 19042 | Đi trước một bước | Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu. | vector: tướng Tống dẫn quân đi cứu |
+| 19043 | Đi trước một bước | Lý Thường Kiệt phục kích đánh chặn tại ải Côn Lôn, Trương Thủ Tiết bị chém chết ngay tại trận. | vector: ải Côn Lôn, hai đoàn quân đối đầu, bụi mù |
+| 19044 | Đi trước một bước | Viện binh tan vỡ, Ung Châu giờ đây hoàn toàn bị cô lập, chỉ còn biết trông cậy vào lực lượng thủ thành. | vector: Tông Đản vây thành, quân dựng trại quanh Ung Châu |
+| 19045 | Bốn mươi ngày bên tường thành | Quan giữ thành Ung Châu là tri châu Tô Giám, một viên tướng thề chết không hàng. | vector: Tô Giám trên tường thành |
+| 19046 | Bốn mươi ngày bên tường thành | Quân Đại Việt vây hãm suốt hơn bốn mươi ngày, nhưng tường thành quá cao không thể leo lên. | vector: tường thành, tờ lịch lật dần theo ngày |
+| 19047 | Bốn mươi ngày bên tường thành | Cuối cùng, họ dùng chiến thuật chất bao đất thành một dốc lài, để quân sĩ có thể tràn thẳng lên mặt thành. | vector: bao đất xếp thành dốc |
+| 19048 | Bốn mươi ngày bên tường thành | Ung Châu thất thủ. Tô Giám bức tử ba mươi sáu người trong gia quyến, rồi châm lửa tự thiêu. | vector: khói lên từ thành, không có người |
+| 19049 | Bốn mươi ngày bên tường thành | Sử Đại Việt chép rằng trong thành không một ai chịu đầu hàng, và hơn năm vạn tám nghìn người đã tử trận tại đây. | chữ trên bản đồ: con số theo sử Đại Việt |
+| 19050 | Bốn mươi ngày bên tường thành | Cộng cả Khâm Châu và Liêm Châu, thương vong lên tới hơn mười vạn. Đây là số liệu do sử Đại Việt chép, còn các nguồn khác có sự chênh lệch. | ghi chú nhỏ: số liệu lệch giữa các nguồn |
+| 19051 | Bốn mươi ngày bên tường thành | Đây là chương bi thảm nhất của cuộc chiến, bởi phần lớn người ngã xuống lại là dân thường trong thành. | vector: khói bay lên, bầu trời ửng đỏ, không có người |
+| 19052 | Bốn mươi ngày bên tường thành | Trận đánh kết thúc, quân Đại Việt bắt người dân ở ba châu đem về nước, rồi rút toàn bộ lực lượng khỏi vùng đất này. | vector: đoàn tù binh đi về phía nam thành hàng |
+| 19053 | Bốn mươi ngày bên tường thành | Vua Tống truy tặng Tô Giám thụy hiệu Trung Dũng để ghi nhận sự trung thành gan dạ, đồng thời ban nhà cửa, ruộng đất cho con cháu ông. | vector: nhà Tống ban thưởng cho gia đình |
+| 19054 | Bốn mươi ngày bên tường thành | Sử thần Ngô Sĩ Liên bàn rằng, việc nhà Tống ban thụy hiệu ấy cũng đủ chứng minh Lý Thường Kiệt là người vẹn toàn cả trung lẫn dũng. | vector: sử thần Ngô Sĩ Liên viết sử bằng bút lông |
+| 19055 | Quân Tống kéo xuống | Nhưng nhà Tống không dễ dàng chấp nhận thất bại. Họ cử Quách Quỳ làm chiêu thảo sứ thống lĩnh đại quân, cùng phó tướng Triệu Tiết. | vector: hai tướng Tống nhận lệnh |
+| 19056 | Quân Tống kéo xuống | Sử Đại Việt chép rằng, nhà Tống đã huy động quân lực của chín tướng, liên kết cùng Chiêm Thành và Chân Lạp để kẹp đánh Đại Việt. | vector: chín lá cờ tướng Tống xếp hàng |
+| 19057 | Quân Tống kéo xuống | Chân Lạp là vương quốc nằm ở vùng lãnh thổ thuộc Campuchia ngày nay, còn Chiêm Thành án ngữ ngay phía nam Đại Việt. | bản đồ: chỉ Chân Lạp và Chiêm Thành |
+| 19058 | Quân Tống kéo xuống | Cuối năm một nghìn không trăm bảy mươi sáu, đại quân Tống tràn xuống theo đường bộ, nhắm thẳng hướng Thăng Long. | vector: quân Tống hành quân xuống đồng bằng |
+| 19059 | Quân Tống kéo xuống | Lý Thường Kiệt ý thức được rằng phải chặn đứng mũi tiến công này, và ông đã chọn một khúc sông hiểm yếu. | bản đồ: chỉ sông Cầu |
+| 19060 | Phòng tuyến sông Như Nguyệt | Đó là sông Như Nguyệt, tức sông Cầu ngày nay, ranh giới tự nhiên vắt ngang con đường huyết mạch từ phía bắc về Thăng Long. | sông Cầu sáng lên, nhãn Như Nguyệt |
+| 19061 | Phòng tuyến sông Như Nguyệt | Người đời truyền lại rằng Lý Thường Kiệt đã cho dựng một phòng tuyến hàng rào kiên cố dọc bờ sông để cản bước quân thù. | vector: hàng rào tre ven sông |
+| 19062 | Phòng tuyến sông Như Nguyệt | Quân Tống áp sát bờ bắc, phóng tầm mắt sang bờ bên kia, nhưng hoàn toàn bế tắc trong việc tìm đường vượt sông. | vector: quân Tống đứng bên sông |
+| 19063 | Phòng tuyến sông Như Nguyệt | Sử chép rằng quân Tống đã thử tổ chức tiến công nhưng bị đánh bật lại, bỏ xác hơn một nghìn người. | vector: quân Tống tiến đến bờ sông, bị hàng rào chặn lại |
+| 19064 | Phòng tuyến sông Như Nguyệt | Theo truyền thuyết dân gian, vào một đêm thanh vắng, quân sĩ bỗng nghe từ trong đền thờ hai anh em họ Trương vang lên tiếng ngâm một bài thơ. | vector: đền ven sông, đêm, sao |
+| 19065 | Phòng tuyến sông Như Nguyệt | Ngôi đền ấy thờ anh em họ Trương, những vị tướng tài ba đời trước, vốn được người đời tôn kính phong làm thần sông. | vector: đền thờ hai thần bên sông |
+| 19066 | Phòng tuyến sông Như Nguyệt | Bài thơ khẳng định sông núi nước Nam là của vua nước Nam, điều ấy đã được định đoạt rõ ràng trong sách trời. | vector: bài thơ hiện từng câu trên nền đêm sao |
+| 19067 | Phòng tuyến sông Như Nguyệt | Bài thơ chất vấn lũ giặc cớ sao dám sang xâm phạm, và báo trước một kết cục thảm bại không thể tránh khỏi. | cuối bài thơ, ánh sáng nhẹ |
+| 19068 | Phòng tuyến sông Như Nguyệt | Sử cũ không ghi ai là người đọc bài thơ ấy. Đây chỉ là giai thoại được lưu truyền, không phải sự kiện có thể chứng minh. | ghi chú nhỏ: chuyện truyền lại |
+| 19069 | Phòng tuyến sông Như Nguyệt | Tuy nhiên, Toàn thư chép thêm rằng, mọi diễn biến sau đó quả nhiên ứng nghiệm với những gì bài thơ đã báo. | vector: quân Tống đứng yên, đèn trại lấp lánh bờ bắc |
+| 19070 | Phòng tuyến sông Như Nguyệt | Quách Quỳ buộc phải lui binh, nhưng trên đường rút lui đã kịp chiếm lấy châu Quảng Nguyên của Đại Việt. | vector: quân Tống rút về phía bắc, cờ rũ |
+| 19071 | Cuộc giằng co | Cuộc chiến lâm vào thế giằng co. Quân Tống chôn chân ở bờ bắc, không thể tiến thêm được một bước. | bản đồ: hai bờ, đồng hồ ngày |
+| 19072 | Cuộc giằng co | Vùng đồng bằng oi bức và ẩm thấp hơn hẳn quê nhà của lính Tống, khiến dịch bệnh bùng phát tàn phá doanh trại. | vector: doanh trại Tống, người ốm |
+| 19073 | Cuộc giằng co | Vượt một chặng đường dài hiểm trở, để rồi đành bất lực đứng nhìn qua bờ kia dòng nước. | vector: lính Tống mệt mỏi bên bờ sông |
+| 19074 | Cuộc giằng co | Có sách chép rằng quân Tống ban đầu có hơn tám vạn người, về sau bỏ mạng quá nửa vì bệnh tật và thất bại. | chữ trên bản đồ: số liệu từ sách sử |
+| 19075 | Cuộc giằng co | Nhận thấy thế trận giằng co không mang lại lợi ích, triều đình nhà Lý chủ động sai sứ sang nghị hòa. | vector: sứ giả chèo thuyền qua sông, cờ hiệu sứ |
+| 19076 | Cuộc giằng co | Vua Tống chấp thuận rút quân, nhưng vẫn giữ quyền kiểm soát các châu Quảng Nguyên, Tư Lang, Tô Mậu và huyện Quảng Lang. | bản đồ: Tống rút về, giữ lại vùng biên giới |
+| 19077 | Cuộc giằng co | Thời điểm ngưng chiến được các sách ghi chép khác nhau, nên ta chỉ có thể xác định là vào khoảng năm một nghìn không trăm bảy mươi bảy. | chữ trên bản đồ: khoảng năm 1077 |
+| 19078 | Cuộc giằng co | Một cuộc chiến khốc liệt đã khép lại, nhưng những vấn đề về biên giới thì vẫn còn bỏ ngỏ. | vector: doanh trại Tống thu quân, gấp lều |
+| 19079 | Sau chiến tranh | Hậu chiến, triều đình Đại Việt vẫn canh cánh việc đòi lại những vùng lãnh thổ đang bị chiếm đóng. | bản đồ: các châu còn thuộc Tống |
+| 19080 | Sau chiến tranh | Năm một nghìn không trăm bảy mươi tám, nhà Lý phái Đào Tống Nguyên mang năm con voi thuần hóa sang cống nạp nhà Tống. | vector: người đi sứ dẫn voi |
+| 19081 | Sau chiến tranh | Sứ đoàn đưa ra yêu cầu trao trả châu Quảng Nguyên, Tô Mậu cùng những người dân đã bị bắt đi. | vector: sứ đoàn đi trên đường đất đến nhà Tống |
+| 19082 | Sau chiến tranh | Năm một nghìn không trăm bảy mươi chín, nhà Tống trả lại châu Quảng Nguyên, nhưng lúc này đã bị đổi tên thành Thuận Châu. | Quảng Nguyên đổi tên Thuận Châu |
+| 19083 | Sau chiến tranh | Hai năm sau, Đại Việt cũng trao trả lại cho nhà Tống những binh lính và dân thường bị bắt từ ba châu Ung, Khâm, Liêm. | vector: đoàn tù binh trở về, hai bên gặp nhau ở biên giới |
+| 19084 | Sau chiến tranh | Năm một nghìn không trăm tám mươi tư, Lê Văn Thịnh đến trại Vĩnh Bình để đàm phán phân định biên giới với người Tống. | vector: hai bên ngồi bên bản đồ |
+| 19085 | Sau chiến tranh | Kết quả, nhà Tống buộc phải trả thêm cho Đại Việt sáu huyện và ba động. | sáu huyện, ba động đổi màu |
+| 19086 | Sau chiến tranh | Người Tống khi ấy có câu thơ ngậm ngùi rằng vì tham voi của Giao Chỉ mà để mất vàng Quảng Nguyên. | thơ chữ nhỏ bên bản đồ |
+| 19087 | Những năm cuối | Khói lửa tan đi, Lý Thường Kiệt vẫn tiếp tục đảm đương chức thái úy, thống lĩnh binh quyền cả nước. | vector: Lý Thường Kiệt ngồi trong phủ thái úy bàn việc quân |
+| 19088 | Những năm cuối | Năm một nghìn một trăm linh một, nhà vua giao cho ông kiêm nhiệm thêm chức vụ quản lý công việc trong ngoài hoàng cung. | Thăng Long, hiện chức mới |
+| 19089 | Những năm cuối | Năm một nghìn một trăm linh ba, một kẻ tên Lý Giác làm phản, dấy binh chiếm giữ Diễn Châu. | vector: người Diễn Châu đắp thành nổi dậy |
+| 19090 | Những năm cuối | Vua lệnh cho Lý Thường Kiệt đem quân thảo phạt. Lý Giác đại bại phải tháo chạy sang Chiêm Thành, bè đảng bị dẹp yên. | vector: quân Đại Việt kéo đến Diễn Châu |
+| 19091 | Những năm cuối | Năm sau, vua Chiêm Thành là Chế Ma Na xua quân lên đánh chiếm lại ba châu mà vua cũ Chế Củ từng dâng. | Chiêm Thành lấn lên ba châu |
+| 19092 | Những năm cuối | Lý Thường Kiệt một lần nữa nhận lệnh xuất chinh và giành chiến thắng, buộc Chế Ma Na phải dâng trả lại vùng đất ấy. | vector: quân Đại Việt đánh Chiêm Thành lần cuối, đèn trại |
+| 19093 | Những năm cuối | Đó cũng là lần cuối cùng sử sách ghi nhận tên ông cầm quân ra trận, chỉ hơn một năm trước khi ông qua đời. | vector: Lý Thường Kiệt già bên cửa sổ nhìn xa |
+| 19094 | Những năm cuối | Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt nhắm mắt xuôi tay. | vector: phủ thái úy yên lặng, đèn dầu nhỏ |
+| 19095 | Những năm cuối | Triều đình truy tặng ông tước Việt quốc công, và ân chuẩn cho người em trai là Lý Thường Hiến được thế tập tước hầu. | vector: lễ truy tặng, người em nhận phong |
+| 19096 | Trở lại bên tường thành | Từ một cậu bé hầu cận trong cung đến vị thái úy uy dũng chặn đứng quân Tống bên bờ Như Nguyệt, ông đã phụng sự qua ba đời vua nhà Lý. | vector: ba ngai vàng hiện lần lượt, ba đời vua |
+| 19097 | Trở lại bên tường thành | Cuộc đời ông khởi đầu từ chốn thâm cung và khép lại ở đỉnh cao của quyền lực quân sự. | Thăng Long, hai chấm đầu và cuối |
+| 19098 | Trở lại bên tường thành | Trận vây thành Ung Châu và phòng tuyến sông Như Nguyệt diễn ra cách nhau chỉ khoảng một năm. | bản đồ: hai chấm Ung Châu, Như Nguyệt nối bằng một đường |
+| 19099 | Trở lại bên tường thành | Một trận ông mang quân dội bão lửa sang đất địch, một trận ông vững vàng bảo vệ tấc đất quê hương. | hai mũi tên ngược chiều |
+| 19100 | Trở lại bên tường thành | Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay. | vector: bờ sông Cầu đêm trăng, hàng rào, bài thơ mờ dần |
 
 ## Mô tả video và nguồn (để dán khi đăng)
 
@@ -172,7 +178,7 @@ Nguồn chính: Đại Việt sử ký toàn thư (Bản kỷ, quyển III, kỷ
 
 ## Việc cần chủ kênh quyết
 
-1. [Đã duyệt 29/10: giữ nguyên câu về số người chết ở Ung Châu.]
-2. [Đã duyệt 29/10: giữ nguyên câu số người chết; tăng vector.] Tỉ lệ vector hiện khoảng 69 phần trăm; chủ kênh cho biết nếu cần có thể chỉnh lại.
+1. [Đã duyệt 29/10: giữ nguyên câu số người chết ở Ung Châu; lấy theo bản chủ kênh đã sửa.]
+2. [Đã chỉnh 29/10] Tỉ lệ vector hiện khoảng 67 phần trăm.
 3. Có thêm trận Như Nguyệt chi tiết (máy bắn đá, cọc dưới sông) không: cần tìm thêm nguồn trước.
-4. Giọng: luôn Sadaltager (quy tắc chủ kênh chốt 29/10), đọc từng đoạn một (`cum.txt` = 1, chủ kênh 29/10). Gemini đang hết hạn mức ngày, làm mới khoảng 16:00 giờ Nhật.
+4. Giọng: luôn Sadaltager (quy tắc chủ kênh 29/10), đọc từng đoạn một (`cum.txt` = 1). Gemini đang hết hạn mức ngày, làm mới khoảng 16:00 giờ Nhật.

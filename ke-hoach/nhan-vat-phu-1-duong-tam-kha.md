@@ -8,7 +8,7 @@ Trạng thái: bản nháp chờ chủ kênh duyệt. Nguồn đã đối chiế
 
 Vậy mà khi Ngô Quyền vừa mất, ông đuổi con trai trưởng của vua để tự lên ngôi. Rồi chính người con nuôi của ông lại lật đổ ông.
 
-Ông là Dương Tam Kha. Sử cũ chê ông nặng lời, nhưng không ghi ông hà khắc với dân. Vì sao vậy?
+Ông là Dương Tam Kha. Sử cũ chê ông là kẻ cướp ngôi, nhưng không ghi ông hà khắc với dân. Vì sao ông bị lật đổ?
 
 👤 **Dương Tam Kha là ai?**
 Ông là con của Dương Đình Nghệ, vị tướng từng đánh đuổi quân Nam Hán khỏi Đại La. Sách chép ông là anh vợ, có sách chép là em vợ của Ngô Quyền. Khi Ngô Quyền xưng vương, ông là người thân cận trong triều.
@@ -28,8 +28,9 @@ Năm 950, Dương Tam Kha sai Ngô Xương Văn cùng hai tướng đi đánh m�
 🤝 **Ông bị xử thế nào?**
 Nhiều người muốn giết ông, nhưng Ngô Xương Văn không đồng ý vì ơn nuôi dưỡng. Ông bị giáng làm Chương Dương công và được cấp đất ở bến Chương Dương. Sau này Ngô Sĩ Liên chê Ngô Xương Văn quá mềm lòng, vì không trị tội người đã cướp ngôi.
 
-📜 **Sử gia nói gì?**
-Ngô Sĩ Liên gọi Dương Tam Kha là kẻ gian thần, đuổi con đích của vua để cướp ngôi. Sử không ghi ông bạo ngược với dân. Điều bị chê là việc đuổi con vua để cướp ngôi.
+🤴 **Sau đó, hai anh em ra sao?**
+Sau khi lật đổ Dương Tam Kha, Ngô Xương Văn xưng là Nam Tấn Vương. Ông cho đón anh trai là Ngô Xương Ngập về Cổ Loa. Ngô Xương Ngập xưng Thiên Sách Vương và hai anh em cùng giữ ngôi.
+Sử gọi đó là "một nước, hai vua". Ngô Xương Ngập mất năm 954.
 
 ⏳ **Mốc thời gian**
 • 938 – Ngô Quyền thắng quân Nam Hán ở Bạch Đằng
@@ -50,7 +51,8 @@ Dương Tam Kha giữ ngôi khoảng sáu năm. Hơn mười lăm năm sau khi �
 Nguồn của bài:
 • Đại Việt sử ký toàn thư, phần Ngô kỷ và kỷ nhà Dương (Bình Vương).
 • Khâm định Việt sử thông giám cương mục, phần Tiền biên.
-• Lời bàn của Ngô Sĩ Liên về Dương Tam Kha và về Ngô Xương Văn, in trong Đại Việt sử ký toàn thư (bản dịch của Mạc Bảo Thần, đăng trên Wikisource).
+• Lời bàn của Ngô Sĩ Liên về người họ Phạm và về Ngô Xương Văn, in trong Đại Việt sử ký toàn thư (bản dịch của Mạc Bảo Thần, đăng trên Wikisource).
+• Việc hai anh em cùng giữ ngôi ("một nước, hai vua") và Ngô Xương Ngập mất năm 954: Toàn thư; đối chiếu Wikipedia (Ngô Xương Ngập).
 
 Cần phân biệt:
 • Năm Dương Tam Kha cướp ngôi: sách chép 944 hoặc 945.
@@ -87,7 +89,8 @@ Nếu thiếu ảnh nào thì ghi rõ thiếu, không độn ảnh sai chủ đ�
 | Nhiều người muốn giết, Xương Văn không đồng ý; giáng làm Chương Dương công, cấp thực ấp | 🟢 | scov.gov.vn, hoangthanhthanglong.vn |
 | Ngô Sĩ Liên chê Xương Văn "vì lòng nhân như đàn bà trẻ con" mà không trị tội Tam Kha cướp ngôi | 🟢 | Đoạn Toàn thư dịch Mạc Bảo Thần, qua nguoikesu.com |
 | Ngô Quyền giao Tam Kha giúp lập thái tử | 🟡 | nguoikesu.com ("sai Dương Tam Kha giúp lập thái tử"), hoangthanhthanglong.vn, vanhoavaphattrien.vn; chưa thấy bản gốc. Bài ghi "theo một số sách" |
-| Ngô Sĩ Liên gọi là gian thần, khen Phạm Lệnh Công là trung | 🟢 | bienniensu.com, hoangthanhthanglong.vn |
+| Ngô Sĩ Liên khen Phạm Lệnh Công là trung | 🟢 | bienniensu.com, hoangthanhthanglong.vn |
+| Xương Văn xưng Nam Tấn Vương, đón Xương Ngập về, Ngập xưng Thiên Sách Vương, "một nước hai vua", Ngập mất 954 | 🟡 | Mới đối chiếu Wikipedia; cần kiểm bản Toàn thư |
 | Sử không ghi bạo ngược với dân | 🟡 | hoangthanhthanglong.vn nêu rõ không ghi; chưa đọc toàn văn kỷ nhà Dương |
 | Ngô Xương Văn mất năm 965 (Ất Sửu, năm thứ 15), bị nỏ bắn khi đi đánh hai thôn Đường, Nguyễn ở Thái Bình | 🟢 | Toàn thư, bản dịch Mạc Bảo Thần trên Wikisource (mục Hậu Ngô Vương) |
 | Họ Ngô thành "ba chúa kể cả Tam Kha"; sau đó loạn mười hai sứ quân | 🟢 | Wikisource, mục "Ngô sứ quân" |

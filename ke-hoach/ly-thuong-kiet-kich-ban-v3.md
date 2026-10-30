@@ -121,7 +121,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 41. Vậy vì sao một đạo quân hùng hậu lại không vượt nổi một con sông?  *(ảnh 19061)*
 
-42. Muốn sang bờ nam, họ phải xuống nước ngay trước hàng rào, khi quân Đại Việt đã đứng chờ sẵn. Càng đông người, họ càng khó dàn thế để vượt.  *(ảnh 19061)*
+42. Muốn sang bờ nam, quân Tống phải xuống nước ngay trước hàng rào, khi quân Đại Việt đã đứng chờ sẵn. Càng đông người, càng khó dàn thế để vượt.  *(ảnh 19061)*
 
 43. Quân Tống thử tiến công nhưng bị đánh bật, bỏ xác hơn một nghìn người.  *(ảnh 19062)*
 

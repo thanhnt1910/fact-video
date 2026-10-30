@@ -100,3 +100,7 @@ Nếu thiếu ảnh nào thì ghi rõ thiếu, không độn ảnh sai chủ đ�
 - Số lần quân Dương Tam Kha đến bắt Ngô Xương Ngập (các nguồn ghi ba hoặc bốn lần).
 - Việc Ngô Quyền "ủy thác" con cho Dương Tam Kha (chỉ có ở bài hiện đại, chưa thấy trong đoạn sử cũ đã trích).
 - Tên vợ Ngô Quyền (Dương Như Ngọc) và việc Tam Kha là "cậu" của Xương Ngập (suy luận từ cách xưng hô trong một bài hiện đại).
+
+## Ảnh đã tìm (30/10, Wikimedia Commons, chỉ public domain / CC0 / CC BY)
+Workflow: `anh-bai-viet.yml` (kích hoạt bằng `ke-hoach/nhan-vat-phu/anh_chay.txt`). Kết quả: `assets/anh_that/nvp1/raw/` (25 ảnh ứng viên, đã gửi Telegram), `assets/anh_that/nvp1/chon/` (7 ảnh tôi chọn), ghi công trong `ke-hoach/nhan-vat-phu/nvp1_anh_chon.json`.
+Không tìm được ảnh phù hợp cho: Dương Tam Kha, Nam Sách (nơi Xương Ngập trốn), bến Chương Dương, Cổ Loa thời Ngô. Ảnh đền thờ Ngô Quyền hay nhất đều là CC BY-SA nên workflow loại.

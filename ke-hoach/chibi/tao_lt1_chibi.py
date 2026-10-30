@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[2]
 MD = ROOT / "ke-hoach" / "ly-thuong-kiet-kich-ban.md"
 OUT = ROOT / "ke-hoach" / "chibi" / "lt1_chibi.json"
 
-OPEN_VN = "Cute chibi 2D cartoon set in ancient Vietnam, Dai Viet under the Ly dynasty, 11th century"
-OPEN_SONG = "Cute chibi 2D cartoon set in Song dynasty China, 11th century"
+OPEN_VN = "Realistic historical illustration with natural human proportions and a detailed painterly look, set in ancient Vietnam, Dai Viet under the Ly dynasty, 11th century"
+OPEN_SONG = "Realistic historical illustration with natural human proportions and a detailed painterly look, set in Song dynasty China, 11th century"
 OPEN = OPEN_VN
 
 # Mô tả cố định từng nhân vật (khớp bảng "Bảng nhân vật chibi" trong kịch bản). Chỉ mô tả hình dáng, không dùng tên riêng.

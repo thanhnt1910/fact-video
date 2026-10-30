@@ -58,16 +58,16 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 14. Lý do được nêu là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non.  *(ảnh 19037)*
 
-15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân nước Tống, và họ cất quân để cứu dân. Rồi hai đạo quân Đại Việt lên đường.  *(ảnh 19037)*
+15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân nước Tống, và họ cất quân để cứu dân.  *(ảnh 19037)*
 
 16. Nhưng vì sao Đại Việt lại nhân danh việc cứu dân nước Tống, khi dân ấy chưa hề nhờ cậy?  *(ảnh 19037)*
 
-17. Có lẽ vì cất quân sang nước lớn cần một danh nghĩa. Còn lý do thật nằm ở tin tình báo: nhà Tống đang dựng sẵn thủy quân và quân đội sát biên giới.  *(ảnh 19037)*
+17. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Lý do thật nằm ở tin tình báo: nhà Tống đang dựng sẵn thủy quân và quân đội sát biên giới.  *(ảnh 19037)*
 
 
 ### Đánh vào đâu
 
-18. Quân Đại Việt chia làm hai đạo thủy bộ, tổng cộng hơn mười vạn người. Đạo thủy do Lý Thường Kiệt tự chỉ huy, đạo bộ giao cho tướng Tông Đản.  *(ảnh 19038)*
+18. Rồi quân Đại Việt lên đường, chia làm hai đạo thủy bộ, hơn mười vạn người. Đạo thủy do Lý Thường Kiệt tự chỉ huy, đạo bộ giao cho tướng Tông Đản.  *(ảnh 19038)*
 
 19. Đạo thủy của ông đánh thốc vào Khâm Châu và Liêm Châu, hai châu ven biển. Hai nơi này nhanh chóng thất thủ, dân chúng bị bắt mang về làm tù binh.  *(ảnh 19040)*
 
@@ -75,7 +75,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 21. Vì sao Lý Thường Kiệt đánh vào mấy châu sát biên giới, thay vì chờ quân Tống tới Thăng Long?  *(ảnh 19043)*
 
-22. Vì đó là nơi nhà Tống đang gom quân và lương thực. Đánh vào đấy là phá thế chuẩn bị của họ, trước khi đại quân kịp tiến xuống phía nam.  *(ảnh 19043)*
+22. Nơi ấy nhà Tống đang gom quân và lương thực. Đánh vào đấy là phá thế chuẩn bị của họ, trước khi đại quân kịp tiến xuống phía nam.  *(ảnh 19043)*
 
 23. Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu.  *(ảnh 19042)*
 
@@ -98,7 +98,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 31. Thắng lớn như vậy, vì sao quân Đại Việt không ở lại giữ đất?  *(ảnh 19052)*
 
-32. Mục tiêu của cuộc tấn công là phá thế chuẩn bị của quân Tống, không phải chiếm đất. Ở lại xa nước, họ dễ bị đại quân Tống vây lại và cắt đường về.  *(ảnh 19052)*
+32. Mục tiêu là phá thế chuẩn bị của quân Tống, không phải chiếm đất. Ở lại xa nước, họ dễ bị vây lại và cắt mất đường về.  *(ảnh 19052)*
 
 
 ### Giữ sông bằng gì
@@ -111,9 +111,9 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 36. Nhà vua giao cho Lý Thường Kiệt đem quân đón đánh. Ông chọn chặn họ ở sông Như Nguyệt, tức sông Cầu ngày nay.  *(ảnh 19058)*
 
-37. Vì sao ông chọn chặn ở đúng khúc sông này?  *(ảnh 19058)*
+37. Vì sao ông chọn chặn ở đúng khúc sông này, mà không lùi về giữ kinh thành?  *(ảnh 19058)*
 
-38. Vì nếu quân Tống vượt qua, Thăng Long chỉ còn cách một quãng ngắn. Sông Như Nguyệt là lằn ranh cuối cùng mà quân Đại Việt có thể dựa vào để giữ.  *(ảnh 19058)*
+38. Nếu quân Tống vượt qua, Thăng Long chỉ còn cách một quãng ngắn. Sông Như Nguyệt là lằn ranh cuối cùng để quân Đại Việt dựa vào mà giữ.  *(ảnh 19058)*
 
 39. Khúc sông ấy vắt ngang con đường từ phương bắc về Thăng Long, và người đời truyền lại rằng ông cho dựng một hàng rào kiên cố dọc bờ sông.  *(ảnh 19060)*
 

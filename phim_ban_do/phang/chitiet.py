@@ -144,14 +144,14 @@ def _():
     L.append(mat('620,946 1300,946 1520,1080 400,1080', '#7a2a2a'))
     L.append(G('rugpat', ''.join(f'<path d="M{960+k*70},956 l18,-0 l-6,124 l-18,0Z" fill="#e0b040" opacity=".25"/>' for k in range(-4, 5))))
     # hai hàng quan đứng hầu hai bên
-    for i, (who, x, yy) in enumerate((('TG', 330, 1000), ('LD', 520, 985), ('TK', 1410, 985), ('VAT', 1600, 1000))):
+    for i, (who, x, yy) in enumerate((('TG', 250, 1000), ('LD', 520, 985), ('TK', 1400, 985), ('VAT', 1670, 1000))):
         L.append(P(who, x, yy, 1.5, pose='hands'))
     for x in (260, 1660):
         L.append(P('TTT', x, 940, 1.2, pose='spear', spear='bare'))
     L.append(kneeler(780, 1050, 1.7, '#6a7284', turban='#14121a', seed=26, hat='helmet'))
     L.append(kneeler(1140, 1050, 1.6, '#5a5a70', turban='#14121a', seed=27, hat='helmet'))
     L.append(incense(960, 1000, 1.2))
-    L.append(oildish(470, 740)); L.append(oildish(1470, 740))
+    L.append(oildish(690, 740)); L.append(oildish(1230, 740))
     return svg(L)
 
 
@@ -172,7 +172,7 @@ def _():
                 o += pen_droop(xx + 40 * scl, yy - 330 * scl, yy - 30 * scl, PEN_S if k % 4 == 0 else '#3a5a8a')
     L.append(G('troops', o))
     L.append(drum(300, 1020, 1.2)); L.append(drum(1650, 1010, 1.1))
-    L.append(dust(960, 1040, 760, .22))
+    L.append(dust(960, 1050, 1100, .09))
     return svg(L, 'grey')
 
 
@@ -202,7 +202,7 @@ def _():
     L.append(rice(800))
     L.append(hut_row([(330, 800, .6), (620, 795, .5), (1300, 797, .55), (1580, 802, .65)]))
     L.append(G('earthwall', '<polygon points="0,1080 0,880 400,800 1000,790 1500,800 1920,880 1920,1080" fill="#8a6a44"/><polygon points="0,880 400,800 1000,790 1500,800 1920,880 1920,910 1500,830 1000,820 400,830 0,910" fill="#a6845a"/>'))
-    L.append(grass(880, 1070, 7, '#5a7a38', 100))
+    L.append(grass(900, 1070, 7, '#6a8a44', 34))
     L.append(bamboo(120, 830, .8)); L.append(bamboo(1790, 840, .9))
     L.append(G('fence', ''.join(f'<line x1="{x}" y1="800" x2="{x}" y2="740" stroke="#6a4a2a" stroke-width="6"/><path d="M{x-4},740 l4,-12 l4,12Z" fill="#6a4a2a"/>' for x in range(300, 1700, 60))))
     L.append(P('LG', 960, 830, 2.6, pose='hands'))

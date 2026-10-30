@@ -12,7 +12,7 @@ bai-facebook/
 | Bài | Nhân vật | Ảnh | Trạng thái |
 |---|---|---|---|
 | 01 | Dương Tam Kha | 5 | Bản nháp chờ chủ kênh duyệt |
-| 02 | Kiều Công Tiễn | 0 (chưa tìm) | Bản nháp chờ chủ kênh duyệt; chờ chạy workflow tìm ảnh |
+| 02 | Kiều Công Tiễn | 4 | Bản nháp chờ chủ kênh duyệt |
 
 Quy tắc series và dàn ý: `ke-hoach/nhan-vat-phu-series-dan-y.md`. Quy tắc viết bài: `quy-tac/chung.md` và `quy-tac/su-viet.md`.
 

@@ -122,7 +122,12 @@ Cần phân biệt:
 • Sử không ghi quân số của Lưu Hoằng Tháo, bài không nêu.
 • Các chuyện trong gia đình họ Kiều (con trai, cháu theo hay chống ông) chỉ có trong thần tích địa phương, chưa có trong sử cũ nên bài không kể.
 
-Ảnh: ghi công từng ảnh ở đây sau khi chọn xong (tên tác giả, giấy phép, link Wikimedia Commons).
+Ảnh (Wikimedia Commons), thứ tự đăng: 01 đến 04:
+• Ảnh 1: Bãi cọc tái hiện trên sông Bạch Đằng (ảnh chụp ngày nay, không phải cọc thật năm 938). Tác giả: Goodmorninghpvn (vi.wikipedia). Public domain. https://commons.wikimedia.org/wiki/File:B%C3%A3i_c%E1%BB%8Dc_tr%C3%AAn_s%C3%B4ng_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng.jpg
+• Ảnh 2: Bãi cọc tái hiện ở cửa sông Bạch Đằng (ảnh chụp ngày nay). Tác giả: Goodmorninghpvn (vi.wikipedia). Public domain. https://commons.wikimedia.org/wiki/File:B%C3%A3i_c%E1%BB%8Dc_c%E1%BB%ADa_s%C3%B4ng_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng.jpg
+• Ảnh 3: Sông Bạch Đằng gần Đình Vũ (Hải Phòng), ảnh chụp ngày nay. Tác giả: Viethavvh (vi.wikipedia). Public domain. https://commons.wikimedia.org/wiki/File:Cua_song_Bach_Dang.JPG
+• Ảnh 4: Đền thờ Ngô Quyền ở Đường Lâm (Sơn Tây, Hà Nội). Tác giả: Ngokhong (tải lên vi.wikipedia). Giấy phép CC BY 3.0. https://commons.wikimedia.org/wiki/File:DenNgoQuyen.jpg
+Ghi chú khi đăng: không có ảnh nào về Kiều Công Tiễn hay Dương Đình Nghệ (sử không để lại ảnh, Commons không có ảnh phù hợp). Chú thích ảnh 1 và 2 phải ghi "bãi cọc tái hiện".
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #KieuCongTien #DuongDinhNghe #NgoQuyen #BachDang #NamHan #LichSu
@@ -136,7 +141,7 @@ Truy vấn đã soạn sẵn ở `ke-hoach/nhan-vat-phu/nvp2_anh_truy_van.txt`. 
 5. Đền Hùng hoặc cảnh quan Phú Thọ (vùng Phong Châu cũ), nếu không có ảnh riêng về họ Kiều.
 Không có ảnh chân dung Kiều Công Tiễn (sử không để lại). Thiếu ảnh nào ghi rõ thiếu, không độn ảnh sai chủ đề.
 Muốn chạy: đổi dòng 1 của `ke-hoach/nhan-vat-phu/anh_chay.txt` thành `nvp2` rồi đẩy lên nhánh (workflow `anh-bai-viet.yml`).
-**Trạng thái: thư mục `anh/` cạnh file này còn trống.** Sau khi chạy workflow và soi ảnh, chọn 3 đến 5 ảnh chép vào `anh/` (đặt tên `01.jpg`, `02.jpg`...) rồi điền ghi công vào dòng "Ảnh:" ở bình luận ghim.
+**Đã chạy workflow (30/10/2026): 16 ảnh ứng viên ở `assets/anh_that/nvp2/raw/` (ghi công gốc: `ke-hoach/nhan-vat-phu/nvp2_anh_ung_vien.json`). Đã chọn 4 ảnh vào thư mục `anh/` cạnh file này.** Loại: tranh trận Bạch Đằng năm 1288 (sai trận), đền Đình Suốt Hải Dương (không liên quan), châu bản và chữ ký thời Nguyễn, trống đồng, giếng Mỵ Châu (lạc đề). Thiếu ảnh cho Dương Đình Nghệ, Phong Châu và Hải Môn: không có ảnh phù hợp giấy phép.
 
 ## Mục "Ghi chú độ chắc"
 | Ý trong bài | Độ chắc | Ghi chú |

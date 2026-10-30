@@ -52,7 +52,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 11. Hai người này ra sức đóng chiến thuyền, luyện thủy quân, chiêu mộ dân miền núi, đồng thời cấm các châu huyện giao thương với Đại Việt.  *(ảnh 19034)*
 
-12. Tình báo đưa về Thăng Long. Lý Thường Kiệt và triều đình đứng trước hai lối: ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước.  *(ảnh 19035)*
+12. Tin báo từ biên giới dồn về Thăng Long. Lý Thường Kiệt và triều đình đứng trước hai lối: ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước.  *(ảnh 19035)*
 
 13. Triều đình chọn đánh trước, giao cho Lý Thường Kiệt cùng tướng Tông Đản dẫn quân xuất kích, với lời tuyên bố cất quân là để hỏi tội nhà Tống.  *(ảnh 19036)*
 
@@ -62,7 +62,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 16. Nhưng vì sao Đại Việt lại nhân danh việc cứu dân nước Tống, khi dân ấy chưa hề nhờ cậy?  *(ảnh 19037)*
 
-17. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Lý do thật nằm ở tin tình báo: nhà Tống đang dựng sẵn thủy quân và quân đội sát biên giới.  *(ảnh 19037)*
+17. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Lý do thật nằm ở những tin báo từ biên giới: nhà Tống đang dựng sẵn thủy quân và quân đội sát biên giới.  *(ảnh 19037)*
 
 
 ### Đánh vào đâu
@@ -186,7 +186,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 ## Ghi chú độ chắc (cần chủ kênh duyệt)
 **Các cặp hỏi–đáp mới (chủ kênh yêu cầu 30/10): đây là phần SUY LUẬN, không phải lời sử.** Phần sự kiện đi kèm lấy từ Toàn thư; phần giải thích "vì sao" là cách hiểu hợp lý, nên đã dùng chữ "có lẽ", "có thể hiểu", và cần bạn duyệt từng cặp:
-- Cặp 1 (cứu dân nước Tống): Toàn thư chép đúng lý do "phép thanh miêu làm hại dân Trung Quốc". Vế "cần một danh nghĩa" là suy luận. Vế "tin tình báo" khớp với đoạn Thẩm Khởi, Lưu Di chuẩn bị ở Quế Châu.
+- Cặp 1 (cứu dân nước Tống): Toàn thư chép đúng lý do "phép thanh miêu làm hại dân Trung Quốc". Vế "cần một danh nghĩa" là suy luận. Vế "tin báo từ biên giới" khớp với đoạn Thẩm Khởi, Lưu Di chuẩn bị ở Quế Châu.
 - Cặp 2 (đánh vào châu sát biên giới): vế "nơi nhà Tống gom quân và lương thực" là suy luận từ việc Tống đang chuẩn bị ở vùng biên; cần đối chiếu thêm Tống sử trước khi đăng.
 - Cặp 3 (không ở lại giữ đất): sự kiện rút quân có trong Toàn thư; lý do "phá thế chuẩn bị, không chiếm đất" là suy luận.
 - Cặp 4 (chọn sông Như Nguyệt): vị trí ngăn đường về Thăng Long có trong nguồn; "lằn ranh cuối cùng" là cách nói của người kể.
@@ -196,7 +196,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 Muốn bớt rủi ro, có thể thay vế suy luận bằng lời bàn có tên sử gia nếu tìm được trong Toàn thư.
 
 ### Ghi chú cũ
-- Đoạn 12 ("hai lối: chờ hay đánh trước") là cách đặt vấn đề của người kể, không phải lời sử; sự kiện đi kèm (tin tình báo, lệnh xuất kích) lấy từ Toàn thư. Đoạn 4 là hook, trả lời ở đoạn 50 bằng hai sự việc Ung Châu và Như Nguyệt.
+- Đoạn 12 ("hai lối: chờ hay đánh trước") là cách đặt vấn đề của người kể, không phải lời sử; sự kiện đi kèm (tin báo từ biên giới, lệnh xuất kích) lấy từ Toàn thư. Đoạn 4 là hook, trả lời ở đoạn 50 bằng hai sự việc Ung Châu và Như Nguyệt.
 - Câu "tự chỉ huy" (đoạn 16) theo kịch bản cũ ("đạo thủy do Lý Thường Kiệt chỉ huy"). Việc ông chọn sông Như Nguyệt (đoạn 32): Toàn thư chỉ chép vua sai ông đem quân đón đánh, đến sông Như Nguyệt thì đánh tan; chữ "chọn" là cách kể, đã có trong bản kịch bản cũ bạn duyệt.
 - Hàng rào dọc sông (đoạn 33) và bài thơ (35–37) là truyền thuyết, được nói rõ bằng "người đời truyền lại", "theo truyền thuyết dân gian".
 - Số người chết ở Ung Châu (đoạn 27) theo Toàn thư; nguồn khác ghi khác, để chữ "theo sử Đại Việt" trên màn hình và ghi chú tranh cãi ở mô tả. Thời điểm cuộc hành quân và cuộc ngừng chiến giữa Toàn thư và Cương mục lệch nhau (Toàn thư chép Quách Quỳ xuống từ mùa xuân 1076, Tống sử và Cương mục chép cuối năm 1076): kịch bản giữ cách ghi "cuối năm 1076" đã duyệt; chi tiết để ở mô tả.

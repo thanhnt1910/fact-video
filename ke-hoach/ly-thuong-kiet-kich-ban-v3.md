@@ -58,7 +58,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 14. Lý do được nêu là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non.  *(ảnh 19037)*
 
-15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân nước Tống, và họ cất quân để cứu dân.  *(ảnh 19037)*
+15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân nước Tống, và việc cất quân là để cứu dân.  *(ảnh 19037)*
 
 16. Nhưng vì sao Đại Việt lại nhân danh việc cứu dân nước Tống, khi dân ấy chưa hề nhờ cậy?  *(ảnh 19037)*
 
@@ -75,7 +75,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 21. Vì sao Lý Thường Kiệt đánh vào mấy châu sát biên giới, thay vì chờ quân Tống tới Thăng Long?  *(ảnh 19043)*
 
-22. Nơi ấy nhà Tống đang gom quân và lương thực. Đánh vào đấy là phá thế chuẩn bị của họ, trước khi đại quân kịp tiến xuống phía nam.  *(ảnh 19043)*
+22. Nơi ấy nhà Tống đang gom quân và lương thực. Đánh vào đấy là phá thế chuẩn bị của quân Tống, trước khi đại quân kịp tiến xuống phía nam.  *(ảnh 19043)*
 
 23. Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu.  *(ảnh 19042)*
 
@@ -88,7 +88,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 26. Người giữ thành là tri châu Tô Giám, một viên tướng thề chết không hàng. Quân Đại Việt vây hơn bốn mươi ngày vẫn không leo lên nổi tường thành cao.  *(ảnh 19045)*
 
-27. Cuối cùng, họ chất bao đất sát chân tường thành một con dốc thoai thoải như cái thang bằng đất, để quân sĩ chạy thẳng lên mặt thành.  *(ảnh 19047)*
+27. Cuối cùng, quân Đại Việt chất bao đất sát chân tường thành một con dốc thoai thoải như cái thang bằng đất, để quân sĩ chạy thẳng lên mặt thành.  *(ảnh 19047)*
 
 28. Ung Châu thất thủ. Tô Giám bức tử ba mươi sáu người trong gia quyến, rồi châm lửa tự thiêu.  *(ảnh 19048)*
 
@@ -103,13 +103,13 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 ### Giữ sông bằng gì
 
-33. Nhưng nhà Tống không chịu thất bại. Họ cử Quách Quỳ làm chiêu thảo sứ, thống lĩnh một đạo đại quân hùng hậu.  *(ảnh 19054)*
+33. Nhưng nhà Tống không chịu thất bại. Vua Tống cử Quách Quỳ làm chiêu thảo sứ, thống lĩnh một đạo đại quân hùng hậu.  *(ảnh 19054)*
 
-34. Họ còn liên kết với Chiêm Thành và Chân Lạp, vùng đất thuộc Campuchia ngày nay, để kẹp đánh Đại Việt từ hai phía.  *(ảnh 19055)*
+34. Nhà Tống còn liên kết với Chiêm Thành và Chân Lạp, vùng đất thuộc Campuchia ngày nay, để kẹp đánh Đại Việt từ hai phía.  *(ảnh 19055)*
 
 35. Cuối năm một nghìn không trăm bảy mươi sáu, đại quân Tống tràn xuống theo đường bộ, nhắm thẳng hướng Thăng Long.  *(ảnh 19057)*
 
-36. Nhà vua giao cho Lý Thường Kiệt đem quân đón đánh. Ông chọn chặn họ ở sông Như Nguyệt, tức sông Cầu ngày nay.  *(ảnh 19058)*
+36. Nhà vua giao cho Lý Thường Kiệt đem quân đón đánh. Ông chọn chặn quân Tống ở sông Như Nguyệt, tức sông Cầu ngày nay.  *(ảnh 19058)*
 
 37. Vì sao ông chọn chặn ở đúng khúc sông này, mà không lùi về giữ kinh thành?  *(ảnh 19058)*
 

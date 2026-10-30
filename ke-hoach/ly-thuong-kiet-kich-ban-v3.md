@@ -1,8 +1,8 @@
-# Lý Thường Kiệt (lt1) — kịch bản v3: một người, hai nước cờ (bản 30/10 18:30)
+# Lý Thường Kiệt (lt1) — kịch bản v3: một người, hai nước cờ (bản 30/10 19:00)
 
 Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài theo nội dung, không còn sàn 10 phút.
 
-**Số liệu:** 68 đoạn, khoảng 1730 chữ, ước 7.8 phút. Câu đầu 8 chữ, không ngày tháng, không tên riêng. Không đoạn liền nhau mở cùng một chữ. Đoạn dài nhất ≤32 chữ. Tên ông hoặc "ông/thái úy" có trong 25/68 đoạn.
+**Số liệu:** 68 đoạn, khoảng 1724 chữ, ước 7.8 phút (bộ kiểm tính ở 3 chữ/giây: 9,6 phút). `kiem_kich_ban.py`: 0 lỗi ❌, 13 cảnh báo ⚠️ (đều là "31–32 chữ, hơi dài"). Không đoạn liền nhau mở cùng một chữ. Tên ông hoặc "ông/thái úy" có trong 27/68 đoạn.
 
 ## Thời điểm bắt đầu từng chương
 | Đoạn | Chương | Bắt đầu | Vị trí |
@@ -13,11 +13,11 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 | 19 | Đánh vào đâu | 2.3 phút | 29% |
 | 27 | Bốn mươi ngày bên tường thành | 3.2 phút | 41% |
 | 34 | Giữ sông bằng gì | 4.0 phút | 51% |
-| 45 | Bài thơ bên sông | 5.2 phút | 66% |
-| 49 | Khi nào thì dừng | 5.7 phút | 72% |
-| 54 | Đòi lại đất | 6.2 phút | 79% |
-| 60 | Những năm cuối | 6.9 phút | 88% |
-| 66 | Trở lại bên sông | 7.5 phút | 96% |
+| 45 | Bài thơ bên sông | 5.1 phút | 66% |
+| 49 | Khi nào thì dừng | 5.6 phút | 72% |
+| 54 | Đòi lại đất | 6.1 phút | 79% |
+| 60 | Những năm cuối | 6.8 phút | 88% |
+| 65 | Trở lại bên sông | 7.4 phút | 95% |
 
 ## Lời kể
 
@@ -32,7 +32,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 4. Một nước nhỏ chủ động đánh sang đất nước lớn là chuyện hiếm trong lịch sử ta. Ai đã ra lệnh cho họ làm điều ấy?  *(ảnh 19004)*
 
-5. Người đó là Lý Thường Kiệt, thái úy triều Lý. Ông phải trả lời hai câu hỏi lớn: nên chờ hay đánh trước, và nếu đánh thì phải đánh vào đâu.  *(ảnh 19004)*
+5. Người đó là Lý Thường Kiệt, thái úy triều Lý. Ông phải trả lời hai câu hỏi lớn, là nên chờ hay đánh trước, và nếu đánh thì phải đánh vào đâu.  *(ảnh 19004)*
 
 
 ### Người cầm cờ tiết
@@ -54,9 +54,9 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 12. Hai người này ra sức đóng chiến thuyền, luyện thủy quân, chiêu mộ dân miền núi, đồng thời cấm các châu huyện giao thương với Đại Việt.  *(ảnh 19034)*
 
-13. Tin ấy đến tai triều đình ở Thăng Long. Lý Thường Kiệt và nhà vua đứng trước hai lối: ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước.  *(ảnh 19035)*
+13. Tin ấy đến tai triều đình ở Thăng Long. Lý Thường Kiệt và nhà vua đứng trước hai lối, hoặc ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước.  *(ảnh 19035)*
 
-14. Triều đình chọn đánh trước, giao cho Lý Thường Kiệt cùng tướng Tông Đản dẫn quân xuất kích, với lời tuyên bố cất quân là để hỏi tội nhà Tống.  *(ảnh 19036)*
+14. Triều đình chọn đánh trước, giao cho Lý Thường Kiệt cùng tướng Tông Đản dẫn quân lên đường, với lời tuyên bố cất quân là để hỏi tội nhà Tống.  *(ảnh 19036)*
 
 15. Lý do được nêu là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non.  *(ảnh 19037)*
 
@@ -64,7 +64,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 17. Nhưng vì sao Đại Việt lại nhân danh việc cứu dân nước Tống, khi dân ấy chưa hề nhờ cậy?  *(ảnh 19037)*
 
-18. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Lý do thật nằm ở tin vừa nhận được: nhà Tống đang đóng thuyền, luyện quân ngay sát biên giới.  *(ảnh 19037)*
+18. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Còn lý do thật là mối đe dọa nhà Tống đang chuẩn bị ngay sát biên giới.  *(ảnh 19037)*
 
 
 ### Đánh vào đâu
@@ -77,7 +77,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 22. Vì sao Lý Thường Kiệt đánh vào mấy châu sát biên giới, thay vì chờ quân Tống tới Thăng Long?  *(ảnh 19043)*
 
-23. Theo tin nhận được, nhà Tống đóng thuyền, tập thủy chiến và gom người miền núi ngay vùng giáp biên. Đánh vào đó trước là phá thế chuẩn bị của quân Tống.  *(ảnh 19043)*
+23. Có lẽ vì đó là vùng giáp biên, nơi nhà Tống đang chuẩn bị đánh sang. Đánh vào đó trước là phá thế chuẩn bị của quân Tống.  *(ảnh 19043)*
 
 24. Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu.  *(ảnh 19042)*
 
@@ -88,7 +88,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 ### Bốn mươi ngày bên tường thành
 
-27. Người giữ thành là tri châu Tô Giám, một viên tướng thề chết không hàng. Quân Đại Việt vây hơn bốn mươi ngày vẫn không leo lên nổi tường thành cao.  *(ảnh 19045)*
+27. Người giữ thành là tri châu Tô Giám. Quân Đại Việt vây hơn bốn mươi ngày vẫn không leo lên nổi tường thành cao.  *(ảnh 19045)*
 
 28. Cuối cùng, quân Đại Việt chất bao đất sát chân tường thành một con dốc thoai thoải như cái thang bằng đất, để quân sĩ chạy thẳng lên mặt thành.  *(ảnh 19047)*
 
@@ -136,20 +136,20 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 47. Rồi bài thơ chất vấn lũ giặc cớ sao dám sang xâm phạm, và báo trước một kết cục thảm bại không thể tránh khỏi.  *(ảnh 19065)*
 
-48. Người đời kể rằng sau đó mọi việc xảy ra đúng như lời thơ: quân Tống thất bại ngay trước phòng tuyến của Lý Thường Kiệt.  *(ảnh 19065)*
+48. Người đời kể rằng sau đó mọi việc xảy ra đúng như lời thơ, quân Tống thất bại ngay bên bờ sông do Lý Thường Kiệt trấn giữ.  *(ảnh 19065)*
 
 
 ### Khi nào thì dừng
 
 49. Vùng đồng bằng oi bức, ẩm thấp hơn hẳn quê nhà của lính Tống, khiến dịch bệnh bùng phát tàn phá doanh trại.  *(ảnh 19068)*
 
-50. Quách Quỳ buộc phải lui binh, còn châu Quảng Nguyên của Đại Việt thì rơi vào tay nhà Tống.  *(ảnh 19066)*
+50. Vì sao khi quân Tống đang hao mòn, nhà Lý lại chủ động sai sứ sang xin nghị hòa?  *(ảnh 19071)*
 
-51. Vì sao quân Tống đã lui mà nhà Lý vẫn chủ động sai sứ sang xin nghị hòa?  *(ảnh 19071)*
+51. Quân hai bên đều hao tổn, và trận chiến nằm quá gần kinh thành. Lý Thường Kiệt chọn dừng đúng lúc, vì kéo dài với nước lớn rất nguy hiểm.  *(ảnh 19071)*
 
-52. Đại Việt nhỏ hơn nhiều, nên một cuộc chiến kéo dài với nước lớn là điều nguy hiểm. Dừng đúng lúc quân Tống chùn bước là cách giữ chắc phần thắng.  *(ảnh 19071)*
+52. Quách Quỳ buộc phải lui binh, còn châu Quảng Nguyên của Đại Việt thì rơi vào tay nhà Tống.  *(ảnh 19066)*
 
-53. Vua Tống chấp thuận rút quân, nhưng vẫn giữ quyền kiểm soát các châu Quảng Nguyên, Tư Lang, Tô Mậu và huyện Quảng Lang.  *(ảnh 19072)*
+53. Nhà Tống chấp thuận rút quân, nhưng vẫn giữ lại một số châu miền núi, trong đó có Quảng Nguyên, Tư Lang và Tô Mậu.  *(ảnh 19072)*
 
 
 ### Đòi lại đất
@@ -175,31 +175,34 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 62. Vua lệnh cho Lý Thường Kiệt đem quân thảo phạt. Lý Giác đại bại phải tháo chạy sang Chiêm Thành, bè đảng bị dẹp yên.  *(ảnh 19086)*
 
-63. Năm sau, vua Chiêm Thành là Chế Ma Na đem quân lên đánh chiếm lại ba châu mà vua cũ Chế Củ từng dâng.  *(ảnh 19087)*
+63. Năm sau, vua Chiêm Thành là Chế Ma Na đánh chiếm lại ba châu đã dâng. Lý Thường Kiệt lại xuất chinh, thắng trận và buộc Chế Ma Na trả đất.  *(ảnh 19087)*
 
-64. Lý Thường Kiệt một lần nữa nhận lệnh xuất chinh và giành chiến thắng, buộc Chế Ma Na phải dâng trả lại vùng đất ấy.  *(ảnh 19088)*
-
-65. Đó là lần cuối cùng ông cầm quân ra trận. Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt qua đời.  *(ảnh 19090)*
+64. Đó là lần cuối cùng ông cầm quân ra trận. Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt qua đời.  *(ảnh 19090)*
 
 
 ### Trở lại bên sông
 
-66. Trận vây thành Ung Châu và phòng tuyến sông Như Nguyệt cách nhau chỉ khoảng một năm.  *(ảnh 19094)*
+65. Trận vây thành Ung Châu và trận giữ sông Như Nguyệt cách nhau chỉ khoảng một năm.  *(ảnh 19094)*
 
-67. Một trận ông mang quân dội bão lửa sang đất địch, một trận ông vững vàng bảo vệ tấc đất quê hương.  *(ảnh 19095)*
+66. Một trận ông mang binh lửa sang đất địch, một trận ông vững vàng giữ lấy tấc đất quê hương.  *(ảnh 19095)*
+
+67. Đó là hai nước cờ của cùng một người. Ông đánh trước để phá thế của giặc, rồi giữ sông để chặn bước giặc.  *(ảnh 19095)*
 
 68. Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay.  *(ảnh 19096)*
 
-## Ghi chú độ chắc (đã đối chiếu Toàn thư, bản kỷ quyển III, ngày 30/10)
-**Các cặp hỏi–đáp: sự kiện lấy từ Toàn thư, phần "vì sao" là suy luận và đã dùng chữ "có lẽ", "có thể hiểu".**
-- **Cặp 2 (đánh vào châu sát biên giới), đối chiếu xong:** Toàn thư KHÔNG chép Ung Châu là nơi Tống gom quân hay lương. Toàn thư chỉ chép: Vương An Thạch tâu có thể chiếm Đại Việt; Thẩm Khởi, Lưu Di làm tri Quế Châu, ngầm dấy binh người miền núi, đóng thuyền, tập thủy chiến, cấm buôn bán với ta; "vua biết tin" rồi sai Lý Thường Kiệt, Tông Đản đem hơn mười vạn quân đi đánh. Vì vậy đã bỏ ý "gom quân và lương thực ở Ung Châu" và "tin từ biên giới" (Toàn thư không nói tin đến từ đâu), chỉ giữ đúng điều sử chép: Tống đóng thuyền, luyện thủy chiến, dấy người miền núi ở vùng giáp biên. Kết luận "đánh trước để phá thế chuẩn bị" vẫn là suy luận.
-- **Cặp 7 (biếu voi), đối chiếu xong:** Toàn thư chép năm 1078 sai Đào Tống Nguyên đem 5 con voi thuần biếu Tống, xin trả các châu Quảng Nguyên, Tô Mậu và những người bị bắt ở các châu ấy; năm 1079 Tống trả Thuận Châu (tức Quảng Nguyên); năm 1081 ta trả lại dân và lính bị bắt ở ba châu Ung, Khâm, Liêm "vì nhà Tống đã trả lại các châu Quảng Nguyên". Sử không chép voi là "lễ triều cống" hay lý do biếu voi, nên đã bỏ ý "đường lễ nghi", chỉ giữ cách hiểu voi là lễ vật mở lời xin, và thêm sự kiện trao đổi năm 1081 (có nguồn) để người nghe thấy đây là một cuộc đổi qua lại.
-- **Cặp 1:** Toàn thư chép đúng lý do "phép thanh miêu tàn hại dân Trung quốc, cho nên đem quân sang hỏi tội để cứu giúp nhau". Vế "cần một danh nghĩa" là suy luận. Lời chú Toàn thư giải thanh miêu: nhà nước cho dân vay tiền lúc lúa còn non, khi gặt trả lãi hai phân.
-- **Cặp 3 (không ở lại giữ đất):** sự kiện rút quân có trong Toàn thư; lý do là suy luận.
-- **Cặp 4 (chọn sông Như Nguyệt):** Toàn thư chỉ chép vua sai Lý Thường Kiệt đón đánh, đến sông Như Nguyệt thì đánh tan, quân Tống chết hơn một nghìn người. Chữ "chọn" và "lằn ranh cuối cùng" là cách kể của người kể.
-- **Cặp 5, 6:** suy luận từ thế trận và vị thế nước nhỏ.
-- **Chương bài thơ:** Toàn thư chép trong ngoặc: "người đời truyền rằng Thường Kiệt làm hàng rào theo dọc sông để cố thủ", một đêm quân sĩ nghe tiếng đọc thơ trong đền Trương tướng quân, "sau đó quả nhiên như thế". Vì vậy đã gắn Lý Thường Kiệt vào chương này và thêm đoạn "mọi việc đúng như lời thơ". Vẫn là truyền thuyết, giữ chữ "theo truyền thuyết", "người đời kể". Tên anh em họ Trương: Toàn thư chép Khiếu và Hát (nguồn khác chép Hống), kịch bản chỉ nói "hai anh em họ Trương".
-- **Đoạn nói Quảng Nguyên rơi vào tay Tống:** khớp Toàn thư ("Quách Quỳ lui quân, lại lấy châu Quảng Nguyên của ta").
-- **Niên đại:** Toàn thư chép Quách Quỳ xuống mùa xuân 1076 và chép Khâm, Liêm hai lần (1075 và tháng 3/1077); Cương mục theo sử Trung Quốc đính chính chỉ một lần (tháng 11/1075 đánh Khâm, Liêm; tháng 1/1076 hạ Ung Châu). Kịch bản theo Cương mục và giữ "cuối năm một nghìn không trăm bảy mươi sáu" cho cuộc tiến quân của Quách Quỳ như bản đã duyệt; chi tiết để ở mô tả.
-- Số người chết ở Ung Châu (hơn năm vạn tám nghìn; cộng cả Khâm, Liêm hơn mười vạn) theo Toàn thư; nguồn khác ghi khác, ghi ở mô tả.
-- **Hook mới (đoạn 1–2, đổi 30/10 18:30):** mở bằng cảnh cuối của Ung Châu thay cho câu "bốn mươi ngày". Chi tiết lấy từ Toàn thư ("Giám cho gia thuộc 36 người chết trước, chôn xác vào hố, rồi châm lửa tự thiêu"; "cố thủ không hàng"; quân ta "đánh hơn 40 ngày, chồng bao đất trèo lên thành"). Cảnh này được kể đầy đủ ở chương "Bốn mươi ngày bên tường thành", đúng quy tắc hook là sự kiện có thật trong video. Hook không nêu tên người, không nói ai thắng, chỉ lộ thành sắp thất thủ; câu hỏi lớn ("ai ra lệnh") để đến đoạn 4–5. Đoạn thất thủ trong chương đã đổi từ "bức tử" sang "chết trước" cho sát nguyên văn, vì Toàn thư không nói ông ép gia quyến.
+
+## Ghi chú độ chắc (đã đối chiếu Toàn thư và nguồn Trung Quốc, 30/10)
+**Hỏi–đáp:** sự kiện lấy từ nguồn, phần "vì sao" là suy luận, đã dùng "có lẽ", "có thể hiểu". Cần chủ kênh duyệt từng cặp.
+- **Dịch bệnh (chương "Khi nào thì dừng"):** Toàn thư không chép. Nguồn Trung Quốc (Tống sử và các sách cùng thời, qua tổng hợp của Wikipedia "Battle of Như Nguyệt River") ghi khí hậu nhiệt đới và dịch bệnh làm yếu quân Tống; quân Tống mất khoảng 50–60% quân trước khi rút, khoảng một nửa số đó chết vì bệnh. Giữ đoạn, ghi nguồn ở mô tả. Nên đối chiếu thêm Tống sử gốc trước khi đăng.
+- **Cặp hỏi xin hòa (đã thay lời đáp):** nguồn Trung Quốc ghi Lý Thường Kiệt chủ động ngỏ ý hòa vì tổn thất hai bên ngày một nhiều, và triều đình ngại chiến tranh kéo dài sát kinh thành. Lời đáp mới bám đúng ý này (vẫn là cách kể, không phải lời sử Việt).
+- **Danh sách châu Tống giữ lại:** Toàn thư chép vua Tống vẫn giữ các châu miền núi; nguồn Trung Quốc ghi năm châu (Quảng Nguyên, Tư Lang, Môn, Tô Mậu, Quảng Lăng). Hai nguồn khác tên, nên kịch bản chỉ nêu ba châu chắc chắn (Quảng Nguyên, Tư Lang, Tô Mậu).
+- **Niên đại (đã giải quyết):** nguồn Trung Quốc ghi quân Tống vượt biên cuối năm 1076, hai đạo tụ ở bờ bắc sông Cầu đầu năm 1077, trận sông Như Nguyệt từ 18/1 đến 28/2/1077. Khớp Cương mục (đính chính Toàn thư chép Quách Quỳ xuống từ mùa xuân 1076 và chép Khâm, Liêm hai lần). Cuộc vây Ung Châu: tháng 1/1076 theo Cương mục. Vậy "hai trận cách nhau khoảng một năm" đúng.
+- **Năm trả lại dân và lính (đoạn 58):** Toàn thư chép năm 1081 ("hai năm sau" 1079); nguồn Trung Quốc ghi 1082. Kịch bản theo Toàn thư.
+- **Cặp 2 (đánh vào châu sát biên giới):** Toàn thư không chép Ung Châu là nơi Tống gom quân hay lương thực; chỉ chép Thẩm Khởi, Lưu Di ở Quế Châu dấy người miền núi, đóng thuyền, tập thủy chiến, cấm buôn bán. Lời đáp chỉ nói "vùng giáp biên, nơi Tống đang chuẩn bị đánh sang"; ý "phá thế chuẩn bị" là suy luận.
+- **Cặp 7 (biếu voi):** Toàn thư chép 1078 biếu năm voi xin trả các châu và người bị bắt; 1079 Tống trả Quảng Nguyên (Thuận Châu); 1081 ta trả dân và lính bị bắt ở Ung, Khâm, Liêm. Sử không nói voi là lễ triều cống; chỉ giữ cách hiểu "lễ vật mở lời xin".
+- **Cặp 1, 3, 4, 5:** sự kiện có nguồn, lời đáp là suy luận. Cặp 4: Toàn thư chỉ chép vua sai ông đón đánh, đến sông Như Nguyệt thì đánh tan, quân Tống chết hơn một nghìn người; chữ "chọn", "lằn ranh cuối cùng" là cách kể.
+- **Hook (đoạn 1–2):** Toàn thư ("Giám cho gia thuộc 36 người chết trước, chôn xác vào hố, rồi châm lửa tự thiêu"; "cố thủ không hàng"; "đánh hơn 40 ngày, chồng bao đất trèo lên thành"). Cảnh được kể đầy đủ ở chương Ung Châu. Đoạn thất thủ dùng "chết trước", không dùng "bức tử", vì Toàn thư không nói ông ép gia quyến.
+- **Chương bài thơ:** Toàn thư chép trong ngoặc "người đời truyền rằng Thường Kiệt làm hàng rào theo dọc sông", đền Trương tướng quân, "sau đó quả nhiên như thế". Đây là truyền thuyết, giữ chữ "theo truyền thuyết", "người đời kể". Toàn thư chép tên hai anh em là Khiếu và Hát (nguồn khác chép Hống), kịch bản chỉ nói "hai anh em họ Trương".
+- **Câu kết "hai nước cờ" (đoạn 67):** là lời tóm lược của người kể, không phải lời sử gia; cần chủ kênh duyệt.
+- **Số người chết ở Ung Châu** (hơn năm vạn tám nghìn; cộng cả Khâm, Liêm hơn mười vạn) theo Toàn thư; nguồn Trung Quốc ghi khác, nêu ở mô tả.
+- **Ảnh:** các cặp hỏi–đáp và đoạn bản đồ chưa có ảnh riêng; đang dùng chung mã ảnh của đoạn kề bên. Đoạn 63–64 (Lý Giác, Chế Ma Na) dùng lại ảnh 19085–19088.

@@ -62,7 +62,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 16. Nhưng vì sao Đại Việt lại nhân danh việc cứu dân nước Tống, khi dân ấy chưa hề nhờ cậy?  *(ảnh 19037)*
 
-17. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Lý do thật nằm ở những tin báo từ biên giới: nhà Tống đang dựng sẵn thủy quân và quân đội sát biên giới.  *(ảnh 19037)*
+17. Có lẽ cất quân sang nước lớn cần một danh nghĩa. Lý do thật nằm ở tin báo từ biên giới: nhà Tống đang dựng sẵn thủy quân và quân đội ngay bên kia.  *(ảnh 19037)*
 
 
 ### Đánh vào đâu

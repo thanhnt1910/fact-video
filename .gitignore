@@ -24,3 +24,4 @@ assets/sfx/*/*.wav
 # clip hoạt hình nhẹ sinh bằng anim_nhe.py (dựng lại được trong vài chục giây); thêm bằng git add -f khi chốt dùng
 assets/clips_2d/*_nhe/
 assets/dung_thu/
+__pycache__/

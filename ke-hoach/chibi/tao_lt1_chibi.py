@@ -15,19 +15,21 @@ ROOT = Path(__file__).resolve().parents[2]
 MD = ROOT / "ke-hoach" / "ly-thuong-kiet-kich-ban.md"
 OUT = ROOT / "ke-hoach" / "chibi" / "lt1_chibi.json"
 
-OPEN = "A vibrant chibi-style illustration"
+OPEN_VN = "Cute chibi 2D cartoon set in ancient Vietnam, Dai Viet under the Ly dynasty, 11th century"
+OPEN_SONG = "Cute chibi 2D cartoon set in Song dynasty China, 11th century"
+OPEN = OPEN_VN
 
 # Mô tả cố định từng nhân vật (khớp bảng "Bảng nhân vật chibi" trong kịch bản). Chỉ mô tả hình dáng, không dùng tên riêng.
 CH = {
-    "LTK-T": "a slim handsome young palace attendant with a smooth beardless face, black topknot, plain black cap and a dark blue court robe",
-    "LTK-G": "a dignified middle-aged general with a short neat black beard, calm serious face, deep crimson robe over dark armor",
-    "LTK-L": "a dignified elderly man with a white beard and thin white hair, calm eyes, deep crimson robe",
-    "TT": "an elderly king with a grey beard, golden yellow robe and a small gold crown",
-    "TTG": "a strong middle-aged king with a thin black mustache, golden yellow dragon robe and a gold crown",
-    "NT": "a tiny seven-year-old boy king with a round face, an oversized golden robe and a small gold crown",
-    "YL": "a graceful woman with her hair in a high bun with one jade pin and a pale green silk dress",
-    "DTH": "a stern older woman with a grey-streaked bun and a plum purple robe",
-    "LDT": "an elderly scholar-official with a long white beard, indigo robe and a black official hat",
+    "LTK-T": "a slim handsome young palace attendant with a smooth beardless face, black topknot, plain black wrapped cloth turban and a dark blue crossed-collar narrow-sleeved tunic",
+    "LTK-G": "a dignified middle-aged general with a short neat black beard, calm serious face, deep crimson crossed-collar narrow-sleeved tunic over dark armor",
+    "LTK-L": "a dignified elderly man with a white beard and thin white hair, calm eyes, deep crimson crossed-collar narrow-sleeved tunic",
+    "TT": "an elderly king with a grey beard, golden yellow crossed-collar narrow-sleeved tunic and a small gold diadem",
+    "TTG": "a strong middle-aged king with a thin black mustache, golden yellow narrow-sleeved dragon tunic and a gold diadem with small ornaments",
+    "NT": "a tiny seven-year-old boy king with a round face, an oversized golden crossed-collar narrow-sleeved tunic and a small gold diadem",
+    "YL": "a graceful woman with her hair in a high bun with one jade pin and a pale green crossed-collar silk tunic and long skirt",
+    "DTH": "a stern older woman with a grey-streaked bun and a plum purple crossed-collar narrow-sleeved tunic",
+    "LDT": "an elderly scholar-official with a long white beard, indigo crossed-collar narrow-sleeved tunic and a black wrapped cloth turban",
     "CC": "a Champa king with a thin mustache, a tall tiered golden crown and orange and white wrapped garments",
     "TD": "a broad-shouldered general with a thick black beard, olive brown armor and a helmet with a short red plume",
     "TG": "a middle-aged Song official with a thin grey beard, a dark teal wide-sleeved official robe and a black two-winged official hat",
@@ -37,10 +39,10 @@ CH = {
     "TTT": "a heavy-built Song general with a black beard, red-brown armor and a helmet with a long red tassel",
     "QQ": "a big strong Song commander with a white-streaked beard, dark steel armor and a tall helmet",
     "TT2": "a younger Song general with a thin mustache, black armor and a plain helmet",
-    "DTN": "a Vietnamese envoy with a goatee, mid-brown robe and a round hat",
-    "LVT": "a scholar-official with a small mustache, blue-grey robe and a black official hat",
+    "DTN": "a Vietnamese envoy with a goatee, mid-brown crossed-collar narrow-sleeved tunic and a round woven hat",
+    "LVT": "a scholar-official with a small mustache, blue-grey crossed-collar narrow-sleeved tunic and a black wrapped cloth turban",
     "LG": "a rough sturdy man in plain brown peasant clothes and a headband, no armor",
-    "LTH": "a younger man with a smooth face and a light mustache in a dark green robe",
+    "LTH": "a younger man with a smooth face and a light mustache in a dark green crossed-collar narrow-sleeved tunic",
     "SK": "a middle-aged Song emperor with a thin mustache, a dark gold robe and a flat-topped crown with hanging beads",
 }
 
@@ -49,7 +51,7 @@ E = {
     19002: "wide view of the tall grey stone walls of a Song city with plain dark blue flags; at the foot of the wall rows of Vietnamese soldiers in brown tunics with plain red flags carry earth sacks and pile them into a growing slope, soldiers seen from far away or from behind with simple faces",
     19003: "two lands side by side: on the left small green hills with a thatched village and a plain red flag, on the right a huge multi-tier walled fortress with a plain dark blue flag, wind blowing the flags, one small guard on each side with different faces",
     19004: "{LTK-G} stands alone on the wall of a hilltop citadel looking north, wind blowing his sleeves, exactly ONE character only, no second figure",
-    19007: "palace courtyard, {LTK-T} stands attending beside {TT} who sits on a low throne, two people only, tiled palace with red pillars",
+    19007: "palace courtyard, {LTK-T} stands attending beside {TT} who sits on a low throne, two people only, wooden palace hall",
     19008: "{LTK-T}, now a little older and taller, in a darker blue belted robe and a taller black cap, climbs the stone steps of a palace, exactly ONE character only",
     19009: "{LTK-T} holding a long staff with plain tassels rides a horse out of a city gate, two different guards riding behind him",
     19010: "{LTK-T} with two attendants, one thin with a long beard and one short and round without a beard, walks through a village, villagers stand on both sides of the road welcoming them, thatched houses and rice fields",
@@ -59,12 +61,12 @@ E = {
     19017: "in a palace courtyard, {YL} hands out rice to villagers who kneel with palms together in thanks, baskets of rice",
     19018: "{TTG} stands in front of his army looking south with a determined face, soldiers behind him seen from behind",
     19019: "two armies meet in a field, dust clouds rising, on the left a plain red flag, on the right a plain orange flag, soldiers far away with simple faces, everyone standing",
-    19020: "courtyard of an ancestral temple, a row of prisoners stand with bowed heads in front of the temple, {CC} at the head of the row, no heavy chains, {TTG} stands on the temple steps",
+    19020: "courtyard of an ancestral temple, a row of four prisoners with bowed heads, the front one {CC}, no heavy chains, {TTG} stands on the temple steps",
     19022: "inside a palace hall, {LTK-G} kneels to receive an honor from {TTG}, two court officials of different ages and beards stand on either side",
     19023: "a funeral procession of people in plain white hemp robes carrying a wooden bier on two poles through an ancient Vietnamese palace courtyard with tiled roofs, seen from far away, faces not visible, no vehicles",
-    19024: "a large golden throne with {NT} sitting tiny on it, behind a curtain the shadows of {DTH} and {YL}, {LDT} stands beside the throne",
+    19024: "a golden throne with {NT} sitting tiny on it, behind a hanging curtain the dark shadows of two women, an elderly scholar-official with a long white beard stands beside the throne, three people visible",
     19025: "court officials in three groups wearing three different colours (blue, brown, green) stand around a small throne where {NT} sits in the middle, each official a different age and beard",
-    19028: "{LTK-G} kneels on one knee receiving a seal from a ceremonial official, palace hall with red pillars",
+    19028: "{LTK-G} kneels on one knee receiving a seal from a ceremonial official, palace hall with dark wooden pillars",
     19029: "Song court: the Song emperor ({SK}) sits on a throne, {VAT} stands holding a plain blank scroll",
     19030: "close view of two people, {VAT} bows and whispers to the Song emperor ({SK}) who tilts his head to listen, a folding screen behind",
     19031: "{VAT} points at a map on a table (drawn lines only, no writing), the Song emperor ({SK}) stands beside him watching",
@@ -108,7 +110,7 @@ E = {
     19089: "{LTK-L} sits by a window looking far away in the evening light, inside a mansion, exactly ONE character only",
     19090: "a quiet room with one small clay oil dish, an empty low wooden seat on a mat and a court robe and hat hanging on a wooden stand, bare plain walls, no pictures, completely empty, no people",
     19091: "in the court, {LTH} kneels receiving a marquis title from a ceremonial official, another official standing by",
-    19092: "three golden thrones in a row, on each a faint king like a memory ({TT}, {TTG}, {NT}), {LTK-L} standing small in front",
+    19092: "three golden thrones in a row, on each a faint translucent king like a memory, an elderly man with a white beard in a crimson narrow-sleeved tunic standing small in front, exactly four figures",
     19096: "a moonlit night on a river bank, a bamboo palisade, thin mist, completely empty, no people",
 }
 
@@ -117,12 +119,13 @@ SONG = {19029, 19030, 19031, 19033, 19034, 19037, 19042, 19045, 19046, 19047, 19
 MIX = {19002, 19003, 19019, 19038, 19040, 19043, 19052, 19060, 19063, 19064, 19079, 19080, 19096, 19023}
 SOMBER = set(range(19045, 19054))
 NOMOD = "wood, bamboo, clay and woven cloth only, dirt roads, bare plain walls"
-ERA_VN = ("ancient Vietnam, Ly dynasty 11th century, grey tiled roofs and thatched houses, "
-          "soldiers in brown leather armor, conical bamboo hats, bare feet, spears, "
-          "plain brown-red triangular cloth pennants; " + NOMOD)
-ERA_SONG = ("Song dynasty China, 11th century, grey tiled roofs, black cloth hats with two flat side wings, "
+VN_DRESS = ("Vietnamese villagers and soldiers wear crossed-collar tunics with narrow sleeves tied by a cloth sash, short trousers, "
+            "bare feet, hair in a topknot or a wrapped cloth turban")
+ERA_VN = (VN_DRESS + "; low wooden halls with dark brown pillars and grey tiled roofs with curved dragon-head ridge ends, "
+          "thatched houses, brown leather armor, conical bamboo hats, spears, plain brown-red triangular cloth pennants; " + NOMOD)
+ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, "
             "plain dark blue triangular cloth pennants; " + NOMOD)
-SUFFIX = "single full-frame picture, no panels, no border, no text, detailed background"
+SUFFIX = ("each person drawn once with two arms, every face different, single full-frame picture, no border, no text, detailed background")
 
 
 def build(n, scene):
@@ -133,7 +136,7 @@ def build(n, scene):
     s = re.sub(r"\bflag\b", "cloth pennant", s)
     era = ERA_SONG if n in SONG else ERA_VN
     tone = "muted grey and orange tones, somber mood" if n in SOMBER else ""
-    parts = [OPEN, s]
+    parts = [OPEN_SONG if n in SONG else OPEN_VN, s]
     if era:
         parts.append(era)
     if tone:
@@ -153,7 +156,7 @@ def main():
         n = int(n)
         p = build(n, E[n])
         w = len(p.split())
-        if w > 150:
+        if w > 175:
             warn.append((n, w))
         items.append({"n": n, "lora": 0.0, "seed": n, "prompt": p})
     OUT.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")

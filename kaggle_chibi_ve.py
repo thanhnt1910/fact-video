@@ -156,6 +156,7 @@ def main():
         shutil.rmtree(out, ignore_errors=True)
         out.mkdir(parents=True, exist_ok=True)
         kd._kaggle(["kernels", "output", f"{user}/{SLUG}", "-p", str(out), "-o"], env, check=False)
+        print('   file tải về:', len(list(out.rglob('*'))), 'mục;', len(list(out.rglob('*.png'))), 'png', flush=True)
         for lg in out.glob("*.log"):
             shutil.copy(lg, logdir / f"{ma}_ve_luot{ci}.log")
         from PIL import Image

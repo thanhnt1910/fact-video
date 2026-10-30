@@ -75,7 +75,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 21. Vì sao Lý Thường Kiệt đánh vào mấy châu sát biên giới, thay vì chờ quân Tống tới Thăng Long?  *(ảnh 19043)*
 
-22. Theo tin nhận được, nhà Tống đóng thuyền, tập thủy chiến và gom người miền núi ngay vùng giáp biên. Đánh vào đó trước là phá thế chuẩn bị của họ.  *(ảnh 19043)*
+22. Theo tin nhận được, nhà Tống đóng thuyền, tập thủy chiến và gom người miền núi ngay vùng giáp biên. Đánh vào đó trước là phá thế chuẩn bị của quân Tống.  *(ảnh 19043)*
 
 23. Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu.  *(ảnh 19042)*
 

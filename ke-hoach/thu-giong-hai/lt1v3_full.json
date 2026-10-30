@@ -1,0 +1,410 @@
+[
+ {
+  "n": 20001,
+  "chuong": "Bốn mươi ngày",
+  "tone": "hook",
+  "text": "Ba mươi sáu người thân đã nằm dưới hố. Rồi viên quan giữ thành tự tay châm lửa thiêu mình."
+ },
+ {
+  "n": 20002,
+  "chuong": "Bốn mươi ngày",
+  "tone": "story",
+  "text": "Ông cố thủ không hàng, dù quân vây thành sau hơn bốn mươi ngày đã chất bao đất sát chân tường."
+ },
+ {
+  "n": 20003,
+  "chuong": "Bốn mươi ngày",
+  "tone": "story",
+  "text": "Đạo quân vây thành không đến từ phương bắc. Họ là quân Đại Việt, đã vượt biên giới tiến vào đất của một đế chế lớn gấp nhiều lần nước mình."
+ },
+ {
+  "n": 20004,
+  "chuong": "Bốn mươi ngày",
+  "tone": "story",
+  "text": "Một nước nhỏ chủ động đánh sang đất nước lớn là chuyện hiếm trong lịch sử ta. Ai đã ra lệnh cho họ làm điều ấy?"
+ },
+ {
+  "n": 20005,
+  "chuong": "Bốn mươi ngày",
+  "tone": "story",
+  "text": "Người đó là Lý Thường Kiệt, thái úy triều Lý. Ông phải trả lời hai câu hỏi lớn, là nên chờ hay đánh trước, và nếu đánh thì phải đánh vào đâu."
+ },
+ {
+  "n": 20006,
+  "chuong": "Người cầm cờ tiết",
+  "tone": "warm",
+  "text": "Lý Thường Kiệt quê ở phường Thái Hòa, kinh thành Thăng Long. Thuở thiếu thời, nhờ dung mạo khôi ngô, ông được tuyển vào cung kề cận phục vụ nhà vua."
+ },
+ {
+  "n": 20007,
+  "chuong": "Người cầm cờ tiết",
+  "tone": "warm",
+  "text": "Dưới thời vua Lý Thánh Tông, ông được phong làm thái bảo và được trao cờ tiết để thay mặt vua đi tuần thú, dò xét dân tình."
+ },
+ {
+  "n": 20008,
+  "chuong": "Người cầm cờ tiết",
+  "tone": "warm",
+  "text": "Mùa xuân năm một nghìn không trăm sáu mươi chín, ông làm tiên phong trong cuộc đánh Chiêm Thành, lập công lớn và được thăng lên làm phụ quốc thái phó."
+ },
+ {
+  "n": 20009,
+  "chuong": "Người cầm cờ tiết",
+  "tone": "warm",
+  "text": "Năm một nghìn không trăm bảy mươi lăm, ông lên chức thái úy, thống lĩnh toàn bộ binh quyền. Ngay năm ấy, tin dữ báo về từ phương bắc."
+ },
+ {
+  "n": 20010,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Nhà Tống đang cải cách do tể tướng Vương An Thạch đứng đầu. Ông ta tâu Đại Việt vừa bị Chiêm Thành đánh phá, quân còn lại chưa đầy một vạn."
+ },
+ {
+  "n": 20011,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Ông ta cho rằng nhà Tống hoàn toàn có thể dùng mưu chiếm lấy Đại Việt. Vua Tống bèn phái Thẩm Khởi và Lưu Di đến vùng Quế Châu, sát biên giới."
+ },
+ {
+  "n": 20012,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Hai người này ra sức đóng chiến thuyền, luyện thủy quân, chiêu mộ dân miền núi, đồng thời cấm các châu huyện giao thương với Đại Việt."
+ },
+ {
+  "n": 20013,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Tin ấy đến tai triều đình ở Thăng Long. Lý Thường Kiệt và nhà vua đứng trước hai lối, hoặc ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước."
+ },
+ {
+  "n": 20014,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Triều đình chọn đánh trước, giao cho Lý Thường Kiệt cùng tướng Tông Đản dẫn quân lên đường, với lời tuyên bố cất quân là để hỏi tội nhà Tống."
+ },
+ {
+  "n": 20015,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Lý do được nêu là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non."
+ },
+ {
+  "n": 20016,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân nước Tống, và việc cất quân là để cứu dân."
+ },
+ {
+  "n": 20017,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Nhưng vì sao Đại Việt lại nhân danh việc cứu dân nước Tống, khi dân ấy chưa hề nhờ cậy?"
+ },
+ {
+  "n": 20018,
+  "chuong": "Chờ hay đánh",
+  "tone": "story",
+  "text": "Có lẽ cất quân sang nước lớn cần một danh nghĩa. Còn lý do thật là mối đe dọa nhà Tống đang chuẩn bị ngay sát biên giới."
+ },
+ {
+  "n": 20019,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Rồi quân Đại Việt lên đường, chia làm hai đạo thủy bộ, hơn mười vạn người. Đạo thủy do Lý Thường Kiệt tự chỉ huy, đạo bộ giao cho tướng Tông Đản."
+ },
+ {
+  "n": 20020,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Đạo thủy của ông đánh thốc vào Khâm Châu và Liêm Châu, hai châu ven biển. Hai nơi này nhanh chóng thất thủ, dân chúng bị bắt mang về làm tù binh."
+ },
+ {
+  "n": 20021,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Cùng lúc, đạo bộ của Tông Đản tiến thẳng về Ung Châu, tòa thành kiên cố nhất trong vùng."
+ },
+ {
+  "n": 20022,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Vì sao Lý Thường Kiệt đánh vào mấy châu sát biên giới, thay vì chờ quân Tống tới Thăng Long?"
+ },
+ {
+  "n": 20023,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Có lẽ vì đó là vùng giáp biên, nơi nhà Tống đang chuẩn bị đánh sang. Đánh vào đó trước là phá thế chuẩn bị của quân Tống."
+ },
+ {
+  "n": 20024,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu."
+ },
+ {
+  "n": 20025,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Lý Thường Kiệt đã đón sẵn. Ông phục kích đánh chặn tại ải Côn Lôn, và Trương Thủ Tiết bị chém chết ngay tại trận."
+ },
+ {
+  "n": 20026,
+  "chuong": "Đánh vào đâu",
+  "tone": "tense",
+  "text": "Viện binh tan vỡ, Ung Châu hoàn toàn bị cô lập, chỉ còn biết trông cậy vào lực lượng thủ thành."
+ },
+ {
+  "n": 20027,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Người giữ thành là tri châu Tô Giám. Quân Đại Việt vây hơn bốn mươi ngày vẫn không leo lên nổi tường thành cao."
+ },
+ {
+  "n": 20028,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Cuối cùng, quân Đại Việt chất bao đất sát chân tường thành một con dốc thoai thoải như cái thang bằng đất, để quân sĩ chạy thẳng lên mặt thành."
+ },
+ {
+  "n": 20029,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Ung Châu thất thủ. Ba mươi sáu người nhà Tô Giám chết trước, rồi ông châm lửa tự thiêu giữa thành."
+ },
+ {
+  "n": 20030,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Trong thành không một ai chịu đầu hàng, và hơn năm vạn tám nghìn người đã tử trận tại đây, phần lớn là dân thường chứ không phải lính."
+ },
+ {
+  "n": 20031,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Trận đánh kết thúc, quân Đại Việt bắt người dân ở ba châu đem về nước, rồi rút toàn bộ lực lượng khỏi vùng đất này."
+ },
+ {
+  "n": 20032,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Thắng lớn như vậy, vì sao quân Đại Việt không ở lại giữ đất?"
+ },
+ {
+  "n": 20033,
+  "chuong": "Bốn mươi ngày bên tường thành",
+  "tone": "grave",
+  "text": "Mục tiêu là phá thế chuẩn bị của quân Tống, không phải chiếm đất. Ở lại giữa đất địch, quân Đại Việt sẽ bị vây và mất đường rút về nước."
+ },
+ {
+  "n": 20034,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Nhưng nhà Tống không chịu thất bại. Vua Tống cử Quách Quỳ làm chiêu thảo sứ, thống lĩnh một đạo đại quân hùng hậu."
+ },
+ {
+  "n": 20035,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Nhà Tống còn liên kết với Chiêm Thành và Chân Lạp, vùng đất thuộc Campuchia ngày nay, để kẹp đánh Đại Việt từ hai phía."
+ },
+ {
+  "n": 20036,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Cuối năm một nghìn không trăm bảy mươi sáu, đại quân Tống tràn xuống theo đường bộ, nhắm thẳng hướng Thăng Long."
+ },
+ {
+  "n": 20037,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Nhà vua giao cho Lý Thường Kiệt đem quân đón đánh. Ông chọn chặn quân Tống ở sông Như Nguyệt, tức sông Cầu ngày nay."
+ },
+ {
+  "n": 20038,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Vì sao ông chọn chặn ở đúng khúc sông này, mà không lùi về giữ kinh thành?"
+ },
+ {
+  "n": 20039,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Nếu quân Tống vượt qua, Thăng Long chỉ còn cách một quãng ngắn. Sông Như Nguyệt là lằn ranh cuối cùng để quân Đại Việt dựa vào mà giữ."
+ },
+ {
+  "n": 20040,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Khúc sông ấy vắt ngang con đường từ phương bắc về Thăng Long, và người đời truyền lại rằng ông cho dựng một hàng rào kiên cố dọc bờ sông."
+ },
+ {
+  "n": 20041,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Áp sát bờ bắc, quân Tống phóng tầm mắt sang bờ bên kia, nhưng hoàn toàn bế tắc trong việc tìm đường vượt sông."
+ },
+ {
+  "n": 20042,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Vậy vì sao một đạo quân hùng hậu lại không vượt nổi một con sông?"
+ },
+ {
+  "n": 20043,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Muốn sang bờ nam, quân Tống phải xuống nước ngay trước hàng rào, khi quân Đại Việt đã đứng chờ sẵn. Càng đông người, càng khó dàn thế để vượt."
+ },
+ {
+  "n": 20044,
+  "chuong": "Giữ sông bằng gì",
+  "tone": "tense",
+  "text": "Quân Tống thử tiến công nhưng bị đánh bật, bỏ xác hơn một nghìn người."
+ },
+ {
+  "n": 20045,
+  "chuong": "Bài thơ bên sông",
+  "tone": "epic",
+  "text": "Trong lúc ông giữ hàng rào ấy, theo truyền thuyết, một đêm quân sĩ bỗng nghe từ đền thờ hai anh em họ Trương có tiếng đọc to một bài thơ."
+ },
+ {
+  "n": 20046,
+  "chuong": "Bài thơ bên sông",
+  "tone": "epic",
+  "text": "Bài thơ khẳng định sông núi nước Nam là của vua nước Nam, điều ấy đã được định đoạt rõ ràng trong sách trời."
+ },
+ {
+  "n": 20047,
+  "chuong": "Bài thơ bên sông",
+  "tone": "epic",
+  "text": "Rồi bài thơ chất vấn lũ giặc cớ sao dám sang xâm phạm, và báo trước một kết cục thảm bại không thể tránh khỏi."
+ },
+ {
+  "n": 20048,
+  "chuong": "Bài thơ bên sông",
+  "tone": "epic",
+  "text": "Người đời kể rằng sau đó mọi việc xảy ra đúng như lời thơ, quân Tống thất bại ngay bên bờ sông do Lý Thường Kiệt trấn giữ."
+ },
+ {
+  "n": 20049,
+  "chuong": "Khi nào thì dừng",
+  "tone": "reflect",
+  "text": "Vùng đồng bằng oi bức, ẩm thấp hơn hẳn quê nhà của lính Tống, khiến dịch bệnh bùng phát tàn phá doanh trại."
+ },
+ {
+  "n": 20050,
+  "chuong": "Khi nào thì dừng",
+  "tone": "reflect",
+  "text": "Vì sao khi quân Tống đang hao mòn, nhà Lý lại chủ động sai sứ sang xin nghị hòa?"
+ },
+ {
+  "n": 20051,
+  "chuong": "Khi nào thì dừng",
+  "tone": "reflect",
+  "text": "Quân hai bên đều hao tổn, và trận chiến nằm quá gần kinh thành. Lý Thường Kiệt chọn dừng đúng lúc, vì kéo dài với nước lớn rất nguy hiểm."
+ },
+ {
+  "n": 20052,
+  "chuong": "Khi nào thì dừng",
+  "tone": "reflect",
+  "text": "Quách Quỳ buộc phải lui binh, còn châu Quảng Nguyên của Đại Việt thì rơi vào tay nhà Tống."
+ },
+ {
+  "n": 20053,
+  "chuong": "Khi nào thì dừng",
+  "tone": "reflect",
+  "text": "Nhà Tống chấp thuận rút quân, nhưng vẫn giữ lại một số châu miền núi, trong đó có Quảng Nguyên, Tư Lang và Tô Mậu."
+ },
+ {
+  "n": 20054,
+  "chuong": "Đòi lại đất",
+  "tone": "story",
+  "text": "Năm một nghìn không trăm bảy mươi tám, nhà Lý sai Đào Tống Nguyên mang năm con voi thuần sang biếu nhà Tống, xin trả lại các châu bị giữ."
+ },
+ {
+  "n": 20055,
+  "chuong": "Đòi lại đất",
+  "tone": "story",
+  "text": "Vì sao nhà Lý còn phải mang voi sang biếu, khi chính mình là bên đã đẩy lui quân Tống?"
+ },
+ {
+  "n": 20056,
+  "chuong": "Đòi lại đất",
+  "tone": "story",
+  "text": "Có thể hiểu voi là lễ vật mở lời xin, để cửa thương lượng còn mở. Nhà Lý không đòi bằng quân, mà trao đổi qua lại với nhà Tống."
+ },
+ {
+  "n": 20057,
+  "chuong": "Đòi lại đất",
+  "tone": "story",
+  "text": "Sang năm một nghìn không trăm bảy mươi chín, nhà Tống trả lại châu Quảng Nguyên, nhưng nơi ấy đã bị đổi tên thành Thuận Châu."
+ },
+ {
+  "n": 20058,
+  "chuong": "Đòi lại đất",
+  "tone": "story",
+  "text": "Hai năm sau, nhà Lý đáp lại bằng cách trả cho nhà Tống số dân và lính bị bắt ở ba châu Ung, Khâm, Liêm."
+ },
+ {
+  "n": 20059,
+  "chuong": "Đòi lại đất",
+  "tone": "story",
+  "text": "Đến năm một nghìn không trăm tám mươi tư, qua đàm phán ở trại Vĩnh Bình, nhà Tống phải trả thêm cho Đại Việt sáu huyện và ba động."
+ },
+ {
+  "n": 20060,
+  "chuong": "Những năm cuối",
+  "tone": "reflect",
+  "text": "Khói lửa tan đi, Lý Thường Kiệt vẫn giữ chức thái úy, thống lĩnh binh quyền cả nước."
+ },
+ {
+  "n": 20061,
+  "chuong": "Những năm cuối",
+  "tone": "reflect",
+  "text": "Đến năm một nghìn một trăm linh ba, một kẻ tên Lý Giác làm phản, dấy binh chiếm giữ Diễn Châu."
+ },
+ {
+  "n": 20062,
+  "chuong": "Những năm cuối",
+  "tone": "reflect",
+  "text": "Vua lệnh cho Lý Thường Kiệt đem quân thảo phạt. Lý Giác đại bại phải tháo chạy sang Chiêm Thành, bè đảng bị dẹp yên."
+ },
+ {
+  "n": 20063,
+  "chuong": "Những năm cuối",
+  "tone": "reflect",
+  "text": "Năm sau, vua Chiêm Thành là Chế Ma Na đánh chiếm lại ba châu đã dâng. Lý Thường Kiệt lại xuất chinh, thắng trận và buộc Chế Ma Na trả đất."
+ },
+ {
+  "n": 20064,
+  "chuong": "Những năm cuối",
+  "tone": "reflect",
+  "text": "Đó là lần cuối cùng ông cầm quân ra trận. Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt qua đời."
+ },
+ {
+  "n": 20065,
+  "chuong": "Trở lại bên sông",
+  "tone": "reflect",
+  "text": "Trận vây thành Ung Châu và trận giữ sông Như Nguyệt cách nhau chỉ khoảng một năm."
+ },
+ {
+  "n": 20066,
+  "chuong": "Trở lại bên sông",
+  "tone": "reflect",
+  "text": "Một trận ông mang binh lửa sang đất địch, một trận ông vững vàng giữ lấy tấc đất quê hương."
+ },
+ {
+  "n": 20067,
+  "chuong": "Trở lại bên sông",
+  "tone": "reflect",
+  "text": "Đó là hai nước cờ của cùng một người. Ông đánh trước để phá thế của giặc, rồi giữ sông để chặn bước giặc."
+ },
+ {
+  "n": 20068,
+  "chuong": "Trở lại bên sông",
+  "tone": "reflect",
+  "text": "Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay."
+ }
+]

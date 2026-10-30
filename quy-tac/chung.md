@@ -2,15 +2,14 @@
 
 Áp dụng cho mọi video và mọi bài đăng của kênh, bất kể series. Quy tắc riêng từng series nằm ở các file cùng thư mục (xem bảng trong `CLAUDE.md`).
 
-## Quy định thời lượng (chủ kênh đặt ngày 15/10/2026, áp dụng cho mọi video từ nay)
+## Quy định thời lượng: bỏ mức sàn 10 phút (chủ kênh đổi ngày 30/10/2026, thay quy định 15/10/2026)
 
-- Mọi VIDEO DÀI phải dài TỐI THIỂU 10 PHÚT. Đây là mức sàn.
-- Lời đọc ít nhất khoảng 1.900 tiếng (giọng Gemini đọc khoảng 3 tiếng/giây), khoảng 70–90 beat, 8–10 chương.
-- Thiếu chữ thì thêm chi tiết có nguồn, không độn câu, không lặp ý, không bịa. Chi tiết không chắc thì nói rõ là còn tranh cãi.
-- Sau khi dựng, đo thời lượng thật; dưới 10 phút thì bổ sung kịch bản, không đăng.
-- Video dọc vẫn 60–80 giây. Quy định này chỉ áp cho video dài.
-- Chi tiết đầy đủ: mục "VIDEO DÀI" trong `PROMPT_KICH_BAN.md`.
-- `review.py` đã áp mức sàn này: video dài dưới 10 phút báo ⚠️ (vẫn được gửi), dưới 6 phút báo ❌ (không được gửi Telegram).
+- Video dài KHÔNG còn mức sàn 10 phút. Độ dài do nội dung kịch bản quyết định: kể xong câu chuyện thì dừng, không độn câu, không lặp ý, không kéo dài để đủ giờ. Chuyện gọn thì 6–8 phút là đủ; chuyện nhiều tầng thì dài hơn.
+- Vẫn phải đủ ý và đủ chi tiết có nguồn để người xem hiểu trọn câu chuyện; thiếu ý quan trọng thì bổ sung, nhưng không bổ sung chỉ để đạt số phút.
+- Ưu tiên giữ chân người xem: bố cục theo mục "Bố cục video cuốn hút" bên dưới (hook, xung đột sớm, móc mỗi 60–90 giây).
+- Video dọc vẫn 60–80 giây.
+- `review.py` (video dài): ngoài khoảng 5–20 phút báo ⚠️ (vẫn được gửi), dưới 3 phút hoặc trên 32 phút báo ❌ (không được gửi Telegram).
+- Các nơi cũ còn nhắc "tối thiểu 10 phút", "1.900 tiếng", "70–90 beat" (ví dụ `PROMPT_KICH_BAN.md`, kịch bản cũ) coi như đã bỏ.
 
 ## Quy tắc nội dung
 

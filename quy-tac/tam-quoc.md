@@ -71,7 +71,7 @@ File này do chủ kênh yêu cầu (17/10) để ghi các quy tắc vẽ ảnh 
 ## Quy tắc viết kịch bản
 
 - Lời kể là một câu chuyện liền mạch, kể như kể chuyện, không trình bày nguồn. Không nhắc tên sách, chú giải; độ chắc từng câu nằm ở nhãn trong ngoặc vuông, không nằm trong lời kể.
-- Video dài tối thiểu 10 phút (khoảng 3 chữ mỗi giây). Quy cách đầy đủ: `PROMPT_KICH_BAN.md`, `review_checklist.md`.
+- Video dài không còn sàn 10 phút từ 30/10/2026, độ dài theo nội dung (khoảng 3 chữ mỗi giây). Quy cách đầy đủ: `PROMPT_KICH_BAN.md`, `review_checklist.md`.
 - Tài liệu kịch bản, lộ trình và quy ước trang phục lưu trong Project "Tam Quốc" (`claude/tam-quoc-*.md`).
 
 ## Quy trình vẽ ảnh một tập

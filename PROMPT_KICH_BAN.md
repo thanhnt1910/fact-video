@@ -118,14 +118,10 @@ Giọng đọc Gemini (Sadaltager) đọc tự nhiên nên KHÔNG dùng thẻ [n
     {"title": "Lời kết", "beats": [...]}
   ]
 }
-- QUY ĐỊNH BẮT BUỘC (chủ kênh đặt ngày 15/10/2026, áp dụng cho mọi video dài từ nay): video dài phải dài TỐI THIỂU 10 PHÚT.
-  Đây là mức sàn, không phải mục tiêu gần đúng; 10–12 phút là vừa.
-  + Lời đọc phải có ít nhất 1.900 tiếng (giọng Gemini đọc khoảng 3 tiếng/giây: 1.800 tiếng đúng 10 phút, nên viết dư để có biên an toàn),
-    khoảng 70–90 beat, 8–10 chương (chương đầu là mở đầu lạnh không tên).
-  + KHÔNG kéo dài bằng cách lặp ý, độn câu hay đọc chậm. Thiếu chữ thì thêm chi tiết CÓ NGUỒN: nhân vật, bối cảnh thời đại,
-    diễn biến theo thời gian, các giả thuyết, ý nghĩa. Chi tiết nào không chắc thì nói rõ là còn tranh cãi, đúng các quy tắc nội dung ở trên.
-  + Sau khi dựng, đo thời lượng thật của file video dài. Nếu dưới 10 phút thì quay lại bổ sung kịch bản, không đăng.
-  + Quy định này chỉ áp dụng cho video dài. Video dọc vẫn 60–80 giây.
+- ĐỘ DÀI (chủ kênh đổi ngày 30/10/2026, bỏ mức sàn 10 phút): độ dài video dài do nội dung quyết định, không có số phút hay số chữ tối thiểu.
+  + KHÔNG kéo dài bằng cách lặp ý, độn câu hay đọc chậm; kể xong thì dừng. Chi tiết nào không chắc thì nói rõ là còn tranh cãi.
+  + Vẫn phải đủ ý để người xem hiểu trọn câu chuyện. Tham khảo: chuyện gọn khoảng 6–8 phút.
+  + Video dọc vẫn 60–80 giây.
 - Kể CHI TIẾT hơn video ngắn: bối cảnh thời đại, nhân vật, diễn biến theo thời gian, các giả thuyết, ý nghĩa.
   Chương cuối tóm lại và kết bằng "Sử thật… lạ hơn cả truyện." KHÔNG giới thiệu chuyện tiếp theo.
 - Mỗi beat = 1 ảnh trên màn hình (trung bình 6–10 giây). Ảnh lấy theo thứ tự ưu tiên:

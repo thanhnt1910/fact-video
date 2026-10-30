@@ -262,14 +262,14 @@ TRẢ LỜI bằng JSON đúng dạng sau, viết tiếng Việt:
 
 # ================================================================== 1. kỹ thuật
 def tech_check(mp4, kind, narration=None, quiet_ranges=()):
-    """kind: "ngan" (dọc 1080x1920, 55–90 giây) hoặc "dai" (ngang 1920x1080, tối thiểu 10 phút theo quy định ngày 15/10/2026)."""
+    """kind: "ngan" (dọc 1080x1920, 55–90 giây) hoặc "dai" (ngang 1920x1080, độ dài theo nội dung, không còn sàn 10 phút từ 30/10/2026)."""
     out, label = [], ("Video ngắn" if kind == "ngan" else "Video dài")
     g = "Kỹ thuật"
     if not mp4.exists():
         return [issue("loi", g, label, f"không thấy file {mp4.name}")]
     info = probe(mp4)
     d = info["duration"]
-    lo, hi = (55, 90) if kind == "ngan" else (600, 900)  # video dài: sàn 10 phút; dưới 10 phút = cảnh báo, dưới 6 phút = lỗi
+    lo, hi = (55, 90) if kind == "ngan" else (300, 1200)  # video dài: không còn sàn 10 phút (30/10/2026); ngoài 5–20 phút = cảnh báo, dưới 3 phút hoặc trên 32 phút = lỗi
     if d < lo * 0.6 or d > hi * 1.6:
         out.append(issue("loi", g, label, f"thời lượng {fmt_t(d)} quá xa mức {fmt_t(lo)}–{fmt_t(hi)}"))
     elif not lo <= d <= hi:

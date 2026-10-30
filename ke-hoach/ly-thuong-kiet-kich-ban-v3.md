@@ -1,27 +1,29 @@
-# Lý Thường Kiệt (lt1) — kịch bản v3: một người, hai nước cờ
+# Lý Thường Kiệt (lt1) — kịch bản v3: một người, hai nước cờ (bản sửa 30/10 17:54)
 
-Bản nháp để chủ kênh duyệt (30/10/2026). Giọng đọc: Sadaltager. Độ dài theo nội dung, không còn sàn 10 phút. Chưa ghi đè `ke-hoach/ly-thuong-kiet-kich-ban.md`.
+Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài theo nội dung, không còn sàn 10 phút. Chưa ghi đè `ke-hoach/ly-thuong-kiet-kich-ban.md`.
 
-**Số liệu:** 50 đoạn, khoảng 1276 chữ (đếm từng tiếng), ước 5.8 phút (3,3 chữ/giây theo thang bộ kiểm). Câu đầu 8 chữ, không ngày tháng. Mọi đoạn 14–32 chữ: đạt. Không đoạn liền nhau mở bằng cùng một chữ: đạt. Không còn câu dẫn nguồn "Sử chép".
+**Số liệu:** 52 đoạn, khoảng 1331 chữ, ước 6.0 phút. Câu đầu 8 chữ, không ngày tháng. Mọi đoạn 14–32 chữ: đạt. Không đoạn liền nhau mở cùng một chữ: đạt. Có Lý Thường Kiệt (tên, "ông", "thái úy") trong 19/52 đoạn (bản trước 30/50).
 
-## Cách kể
-- Một câu hỏi xuyên suốt: bị dồn vào thế bao vây, một tướng làm gì? Hai nước cờ: **đánh trước** (Ung Châu) rồi **giữ sông và chịu hòa** (Như Nguyệt). Cuối video trả lời bằng chính hai sự việc ấy.
-- Bỏ khỏi bản cũ: chuyện Chiêm Thành đầu truyện (chỉ còn một câu), Ỷ Lan và vua nhỏ, Lý Giác và Chế Ma Na, các ghi chú tranh cãi số liệu (đưa vào mô tả và bình luận ghim).
-- Thơ: giữ ba đoạn thơ, là điểm cao trào cảm xúc.
+## Đã sửa theo góp ý
+- Câu 3 và 4 đổi theo bạn ("Ai đã ra lệnh…", "Người đó là…").
+- Phép thanh miêu giải thích thành hai đoạn (14, 15): chính sách là gì, và vì sao nhà Lý nêu nó làm lý do.
+- "Dốc lài" đổi thành "con dốc thoai thoải như cái thang bằng đất" (đoạn 23).
+- **Tập trung vào Lý Thường Kiệt:** ông là chủ ngữ ở mọi bước ngoặt (chia quân, chỉ huy đạo thủy, đón đánh Côn Lôn, chọn sông Như Nguyệt, dựng hàng rào, nhận lệnh đánh Lý Giác và Chế Ma Na, tuổi cuối đời). Bỏ các chi tiết không phải của ông: Triệu Tiết và chín tướng Tống, việc Tống truy tặng Tô Giám, tên Lê Văn Thịnh. Thêm lại chặng cuối đời của ông (Lý Giác, Chế Ma Na) vì đó là phần Toàn thư chép riêng về ông.
 
-## Thời điểm bắt đầu từng chương (kiểm bố cục)
+## Thời điểm bắt đầu từng chương
 | Đoạn | Chương | Bắt đầu | Vị trí |
 |---|---|---|---|
 | 1 | Bốn mươi ngày | 0.0 phút | 0% |
-| 5 | Người cầm cờ tiết | 0.5 phút | 9% |
-| 9 | Chờ hay đánh | 1.0 phút | 18% |
-| 15 | Đánh vào đâu | 1.8 phút | 32% |
-| 21 | Bốn mươi ngày bên tường thành | 2.5 phút | 43% |
-| 27 | Giữ sông bằng gì | 3.2 phút | 55% |
-| 34 | Bài thơ bên sông | 3.9 phút | 68% |
-| 37 | Khi nào thì dừng | 4.3 phút | 75% |
-| 41 | Đòi lại từng tấc đất | 4.7 phút | 82% |
-| 46 | Trở lại bên sông | 5.3 phút | 92% |
+| 5 | Người cầm cờ tiết | 0.5 phút | 8% |
+| 9 | Chờ hay đánh | 1.0 phút | 17% |
+| 16 | Đánh vào đâu | 1.9 phút | 32% |
+| 22 | Bốn mươi ngày bên tường thành | 2.6 phút | 44% |
+| 27 | Giữ sông bằng gì | 3.2 phút | 54% |
+| 34 | Bài thơ bên sông | 4.0 phút | 66% |
+| 37 | Khi nào thì dừng | 4.3 phút | 72% |
+| 41 | Đòi lại đất | 4.7 phút | 78% |
+| 44 | Những năm cuối | 5.1 phút | 85% |
+| 50 | Trở lại bên sông | 5.7 phút | 95% |
 
 ## Lời kể
 
@@ -32,9 +34,9 @@ Bản nháp để chủ kênh duyệt (30/10/2026). Giọng đọc: Sadaltager. 
 
 2. Đạo quân vây thành không đến từ phương bắc. Họ là quân Đại Việt, đã vượt biên giới tiến vào đất của một đế chế lớn gấp nhiều lần nước mình.  *(ảnh 19003)*
 
-3. Một nước nhỏ chủ động đánh sang đất nước lớn là chuyện hiếm trong lịch sử ta. Người nào đã ra lệnh cho họ làm điều ấy?  *(ảnh 19004)*
+3. Một nước nhỏ chủ động đánh sang đất nước lớn là chuyện hiếm trong lịch sử ta. Ai đã ra lệnh cho họ làm điều ấy?  *(ảnh 19004)*
 
-4. Người ấy là Lý Thường Kiệt, thái úy triều Lý. Ông phải trả lời hai câu hỏi lớn: nên chờ hay đánh trước, và nếu đánh thì phải đánh vào đâu.  *(ảnh 19004)*
+4. Người đó là Lý Thường Kiệt, thái úy triều Lý. Ông phải trả lời hai câu hỏi lớn: nên chờ hay đánh trước, và nếu đánh thì phải đánh vào đâu.  *(ảnh 19004)*
 
 
 ### Người cầm cờ tiết
@@ -56,54 +58,54 @@ Bản nháp để chủ kênh duyệt (30/10/2026). Giọng đọc: Sadaltager. 
 
 11. Hai người này ra sức đóng chiến thuyền, luyện thủy quân, chiêu mộ dân miền núi, đồng thời cấm các châu huyện giao thương với Đại Việt.  *(ảnh 19034)*
 
-12. Tình báo đưa về Thăng Long, và Đại Việt chỉ còn hai lối: ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước.  *(ảnh 19035)*
+12. Tình báo đưa về Thăng Long. Lý Thường Kiệt và triều đình đứng trước hai lối: ngồi chờ quân Tống kéo tới, hoặc đánh trước một bước.  *(ảnh 19035)*
 
-13. Triều đình chọn đánh trước, lệnh cho Lý Thường Kiệt và tướng Tông Đản dẫn quân xuất kích, với lời tuyên bố cất quân là để hỏi tội nhà Tống.  *(ảnh 19036)*
+13. Triều đình chọn đánh trước, giao cho Lý Thường Kiệt cùng tướng Tông Đản dẫn quân xuất kích, với lời tuyên bố cất quân là để hỏi tội nhà Tống.  *(ảnh 19036)*
 
-14. Lý do được nêu là phép thanh miêu của nhà Tống, cho nông dân vay tiền khi lúa còn xanh, đến vụ gặt phải trả cả vốn lẫn lãi.  *(ảnh 19037)*
+14. Lý do được nêu là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non.  *(ảnh 19037)*
+
+15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân Trung Hoa. Rồi hai đạo quân Đại Việt lên đường.  *(ảnh 19037)*
 
 
 ### Đánh vào đâu
 
-15. Quân Đại Việt chia làm hai đạo thủy bộ, tổng cộng hơn mười vạn người. Đạo thủy do Lý Thường Kiệt chỉ huy, đánh thốc vào các châu ven biển.  *(ảnh 19038)*
+16. Quân Đại Việt chia làm hai đạo thủy bộ, tổng cộng hơn mười vạn người. Đạo thủy do Lý Thường Kiệt tự chỉ huy, đạo bộ giao cho tướng Tông Đản.  *(ảnh 19038)*
 
-16. Đó là Khâm Châu và Liêm Châu. Hai châu nhanh chóng thất thủ, và quân Đại Việt bắt người dân tại đây mang về làm tù binh.  *(ảnh 19040)*
+17. Đạo thủy của ông đánh thốc vào Khâm Châu và Liêm Châu, hai châu ven biển. Hai nơi này nhanh chóng thất thủ, dân chúng bị bắt mang về làm tù binh.  *(ảnh 19040)*
 
-17. Cùng lúc, tướng Tông Đản dẫn đạo quân bộ tiến thẳng về Ung Châu, tòa thành kiên cố nhất trong vùng.  *(cảnh bản đồ: mũi tên bộ tới Ung Châu)*
+18. Cùng lúc, đạo bộ của Tông Đản tiến thẳng về Ung Châu, tòa thành kiên cố nhất trong vùng.  *(ảnh 19043)*
 
-18. Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu.  *(ảnh 19042)*
+19. Quan trấn giữ Quảng Tây của nhà Tống là Trương Thủ Tiết vội vã dẫn viện binh đến cứu nguy cho Ung Châu.  *(ảnh 19042)*
 
-19. Lý Thường Kiệt đã đón sẵn. Ông phục kích đánh chặn tại ải Côn Lôn, và Trương Thủ Tiết bị chém chết ngay tại trận.  *(ảnh 19043)*
+20. Lý Thường Kiệt đã đón sẵn. Ông phục kích đánh chặn tại ải Côn Lôn, và Trương Thủ Tiết bị chém chết ngay tại trận.  *(ảnh 19043)*
 
-20. Viện binh tan vỡ, Ung Châu hoàn toàn bị cô lập, chỉ còn biết trông cậy vào lực lượng thủ thành.  *(ảnh 19044)*
+21. Viện binh tan vỡ, Ung Châu hoàn toàn bị cô lập, chỉ còn biết trông cậy vào lực lượng thủ thành.  *(ảnh 19044)*
 
 
 ### Bốn mươi ngày bên tường thành
 
-21. Người giữ thành là tri châu Tô Giám, một viên tướng thề chết không hàng. Quân Đại Việt vây hơn bốn mươi ngày vẫn không leo lên nổi tường thành cao.  *(ảnh 19045)*
+22. Người giữ thành là tri châu Tô Giám, một viên tướng thề chết không hàng. Quân Đại Việt vây hơn bốn mươi ngày vẫn không leo lên nổi tường thành cao.  *(ảnh 19045)*
 
-22. Cuối cùng, họ chất bao đất thành một dốc lài sát chân tường, để quân sĩ có thể tràn thẳng lên mặt thành.  *(ảnh 19047)*
+23. Cuối cùng, họ chất bao đất sát chân tường thành một con dốc thoai thoải như cái thang bằng đất, để quân sĩ chạy thẳng lên mặt thành.  *(ảnh 19047)*
 
-23. Ung Châu thất thủ. Tô Giám bức tử ba mươi sáu người trong gia quyến, rồi châm lửa tự thiêu.  *(ảnh 19048)*
+24. Ung Châu thất thủ. Tô Giám bức tử ba mươi sáu người trong gia quyến, rồi châm lửa tự thiêu.  *(ảnh 19048)*
 
-24. Trong thành không một ai chịu đầu hàng, và hơn năm vạn tám nghìn người đã tử trận tại đây, phần lớn là dân thường chứ không phải lính.  *(ảnh 19051)*
+25. Trong thành không một ai chịu đầu hàng, và hơn năm vạn tám nghìn người đã tử trận tại đây, phần lớn là dân thường chứ không phải lính.  *(ảnh 19051)*
 
-25. Trận đánh kết thúc, quân Đại Việt bắt người dân ở ba châu đem về nước, rồi rút toàn bộ lực lượng khỏi vùng đất này.  *(ảnh 19052)*
-
-26. Vua Tống truy tặng Tô Giám thụy hiệu Trung Dũng để ghi nhận sự trung thành gan dạ, đồng thời ban nhà cửa, ruộng đất cho con cháu ông.  *(ảnh 19053)*
+26. Trận đánh kết thúc, quân Đại Việt bắt người dân ở ba châu đem về nước, rồi rút toàn bộ lực lượng khỏi vùng đất này.  *(ảnh 19052)*
 
 
 ### Giữ sông bằng gì
 
-27. Nhưng nhà Tống không chịu thất bại. Họ cử Quách Quỳ làm chiêu thảo sứ thống lĩnh đại quân, cùng phó tướng Triệu Tiết.  *(ảnh 19054)*
+27. Nhưng nhà Tống không chịu thất bại. Họ cử Quách Quỳ làm chiêu thảo sứ, thống lĩnh một đạo đại quân hùng hậu.  *(ảnh 19054)*
 
-28. Quân lực của chín tướng Tống được huy động, lại liên kết với Chiêm Thành và Chân Lạp, vương quốc ở vùng Campuchia ngày nay, để kẹp đánh Đại Việt.  *(ảnh 19055)*
+28. Họ còn liên kết với Chiêm Thành và Chân Lạp, vùng đất thuộc Campuchia ngày nay, để kẹp đánh Đại Việt từ hai phía.  *(ảnh 19055)*
 
 29. Cuối năm một nghìn không trăm bảy mươi sáu, đại quân Tống tràn xuống theo đường bộ, nhắm thẳng hướng Thăng Long.  *(ảnh 19057)*
 
-30. Lý Thường Kiệt chọn chặn họ ở sông Như Nguyệt, tức sông Cầu ngày nay, khúc sông hiểm yếu vắt ngang con đường từ phía bắc về Thăng Long.  *(ảnh 19058)*
+30. Nhà vua giao cho Lý Thường Kiệt đem quân đón đánh. Ông chọn chặn họ ở sông Như Nguyệt, tức sông Cầu ngày nay.  *(ảnh 19058)*
 
-31. Người đời truyền lại rằng ông cho dựng một phòng tuyến hàng rào kiên cố dọc bờ sông để cản bước quân thù.  *(ảnh 19060)*
+31. Khúc sông ấy vắt ngang con đường từ phương bắc về Thăng Long, và người đời truyền lại rằng ông cho dựng một hàng rào kiên cố dọc bờ sông.  *(ảnh 19060)*
 
 32. Áp sát bờ bắc, quân Tống phóng tầm mắt sang bờ bên kia, nhưng hoàn toàn bế tắc trong việc tìm đường vượt sông.  *(ảnh 19061)*
 
@@ -130,37 +132,43 @@ Bản nháp để chủ kênh duyệt (30/10/2026). Giọng đọc: Sadaltager. 
 40. Vua Tống chấp thuận rút quân, nhưng vẫn giữ quyền kiểm soát các châu Quảng Nguyên, Tư Lang, Tô Mậu và huyện Quảng Lang.  *(ảnh 19072)*
 
 
-### Đòi lại từng tấc đất
+### Đòi lại đất
 
-41. Năm một nghìn không trăm bảy mươi tám, nhà Lý phái Đào Tống Nguyên mang năm con voi thuần hóa sang cống nạp nhà Tống.  *(ảnh 19076)*
+41. Năm một nghìn không trăm bảy mươi tám, nhà Lý sai Đào Tống Nguyên mang năm con voi thuần sang biếu nhà Tống, xin trả lại các châu bị giữ.  *(ảnh 19076)*
 
-42. Sứ đoàn xin nhà Tống trả lại châu Quảng Nguyên, châu Tô Mậu cùng những người dân đã bị bắt đi.  *(ảnh 19077)*
+42. Sang năm một nghìn không trăm bảy mươi chín, nhà Tống trả lại châu Quảng Nguyên, nhưng nơi ấy đã bị đổi tên thành Thuận Châu.  *(ảnh 19078)*
 
-43. Năm một nghìn không trăm bảy mươi chín, nhà Tống trả lại châu Quảng Nguyên, nhưng lúc này nơi ấy đã bị đổi tên thành Thuận Châu.  *(ảnh 19078)*
+43. Đến năm một nghìn không trăm tám mươi tư, qua đàm phán ở trại Vĩnh Bình, nhà Tống phải trả thêm cho Đại Việt sáu huyện và ba động.  *(ảnh 19081)*
 
-44. Đến năm một nghìn không trăm tám mươi tư, Lê Văn Thịnh đến trại Vĩnh Bình đàm phán biên giới, và nhà Tống phải trả thêm cho Đại Việt sáu huyện, ba động.  *(ảnh 19080)*
 
-45. Người Tống khi ấy có câu thơ ngậm ngùi rằng vì tham voi của Giao Chỉ mà để mất vàng Quảng Nguyên.  *(ảnh 19082)*
+### Những năm cuối
+
+44. Khói lửa tan đi, Lý Thường Kiệt vẫn giữ chức thái úy, thống lĩnh binh quyền cả nước.  *(ảnh 19083)*
+
+45. Đến năm một nghìn một trăm linh ba, một kẻ tên Lý Giác làm phản, dấy binh chiếm giữ Diễn Châu.  *(ảnh 19085)*
+
+46. Vua lệnh cho Lý Thường Kiệt đem quân thảo phạt. Lý Giác đại bại phải tháo chạy sang Chiêm Thành, bè đảng bị dẹp yên.  *(ảnh 19086)*
+
+47. Năm sau, vua Chiêm Thành là Chế Ma Na đem quân lên đánh chiếm lại ba châu mà vua cũ Chế Củ từng dâng.  *(ảnh 19087)*
+
+48. Lý Thường Kiệt một lần nữa nhận lệnh xuất chinh và giành chiến thắng, buộc Chế Ma Na phải dâng trả lại vùng đất ấy.  *(ảnh 19088)*
+
+49. Đó là lần cuối cùng ông cầm quân ra trận. Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, thái úy Lý Thường Kiệt qua đời.  *(ảnh 19090)*
 
 
 ### Trở lại bên sông
 
-46. Khói lửa tan đi, Lý Thường Kiệt vẫn giữ chức thái úy, thống lĩnh binh quyền cả nước cho đến khi qua đời.  *(ảnh 19083)*
+50. Trận vây thành Ung Châu và phòng tuyến sông Như Nguyệt cách nhau chỉ khoảng một năm.  *(ảnh 19094)*
 
-47. Mùa hạ, tháng sáu năm một nghìn một trăm linh năm, ông qua đời. Triều đình truy tặng ông tước Việt quốc công.  *(ảnh 19090)*
+51. Một trận ông mang quân dội bão lửa sang đất địch, một trận ông vững vàng bảo vệ tấc đất quê hương.  *(ảnh 19095)*
 
-48. Trận vây thành Ung Châu và phòng tuyến sông Như Nguyệt cách nhau chỉ khoảng một năm.  *(ảnh 19094)*
-
-49. Một trận ông mang quân dội bão lửa sang đất địch, một trận ông vững vàng bảo vệ tấc đất quê hương.  *(ảnh 19095)*
-
-50. Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay.  *(ảnh 19096)*
+52. Còn bài thơ vọng vang trong đêm bên bờ sông thuở ấy, vẫn được người đời lưu truyền mãi đến tận hôm nay.  *(ảnh 19096)*
 
 
 ## Ghi chú độ chắc (cần chủ kênh duyệt)
-- Câu 12 ("chỉ còn hai lối: chờ hay đánh trước") là cách đặt vấn đề của người kể, không phải lời sử. Sự kiện đi kèm (tin tình báo, lệnh xuất kích) lấy từ Toàn thư.
-- Câu 4 ("hai câu hỏi lớn") là hook; trả lời ở câu 49 bằng hai sự việc Ung Châu và Như Nguyệt.
-- Câu 24 ở số liệu thương vong ("hơn năm vạn tám nghìn") theo Toàn thư, các nguồn khác ghi khác; để chữ trên màn hình "theo sử Đại Việt", ghi chú tranh cãi để ở mô tả và bình luận ghim.
-- Câu 31 và 34 là truyền thuyết, được nói rõ là "người đời truyền lại", "theo truyền thuyết dân gian".
-- Thời điểm ngừng chiến (khoảng năm 1077) các sách lệch nhau: không nêu trong lời kể, để ở mô tả.
-- Hạn chế: bỏ phần Chiêm Thành đầu truyện nên một số ảnh (19010 đến 19027, 19085 đến 19089) không còn dùng. Cảnh bản đồ cần làm lại cho khớp 50 đoạn mới.
-- Cảnh Ung Châu cần giữ tông nghiêm, không đùa; hài chỉ nhắm vào quân xâm lược nếu có.
+- Đoạn 12 ("hai lối: chờ hay đánh trước") là cách đặt vấn đề của người kể, không phải lời sử; sự kiện đi kèm (tin tình báo, lệnh xuất kích) lấy từ Toàn thư. Đoạn 4 là hook, trả lời ở đoạn 50 bằng hai sự việc Ung Châu và Như Nguyệt.
+- Câu "tự chỉ huy" (đoạn 16) theo kịch bản cũ ("đạo thủy do Lý Thường Kiệt chỉ huy"). Việc ông chọn sông Như Nguyệt (đoạn 32): Toàn thư chỉ chép vua sai ông đem quân đón đánh, đến sông Như Nguyệt thì đánh tan; chữ "chọn" là cách kể, đã có trong bản kịch bản cũ bạn duyệt.
+- Hàng rào dọc sông (đoạn 33) và bài thơ (35–37) là truyền thuyết, được nói rõ bằng "người đời truyền lại", "theo truyền thuyết dân gian".
+- Số người chết ở Ung Châu (đoạn 27) theo Toàn thư; nguồn khác ghi khác, để chữ "theo sử Đại Việt" trên màn hình và ghi chú tranh cãi ở mô tả. Thời điểm cuộc hành quân và cuộc ngừng chiến giữa Toàn thư và Cương mục lệch nhau (Toàn thư chép Quách Quỳ xuống từ mùa xuân 1076, Tống sử và Cương mục chép cuối năm 1076): kịch bản giữ cách ghi "cuối năm 1076" đã duyệt; chi tiết để ở mô tả.
+- Ung Châu cần tông nghiêm, không đùa; hài chỉ nhắm quân xâm lược nếu có.
+- Ảnh: chỗ ghi cùng mã (19004, 19037, 19043) là dùng lại một ảnh hoặc cần ảnh mới; các đoạn 12–13, 32 không có ảnh riêng, dùng cảnh bản đồ.

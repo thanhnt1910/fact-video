@@ -26,7 +26,7 @@ Ngô Xương Ngập chạy về vùng Nam Sách, nay thuộc Hải Dương. Ông
 Năm 950, Dương Tam Kha sai Ngô Xương Văn cùng hai tướng đi đánh một đám giặc ở Thái Bình. Quân đến Từ Liêm thì Ngô Xương Văn quay đầu. Ông nói rằng Bình Vương làm việc bất nghĩa, cướp ngôi anh em ông, tội không gì lớn hơn. Quân quay về, bắt Dương Tam Kha.
 
 🤝 **Ông bị xử thế nào?**
-Nhiều người muốn giết ông, nhưng Ngô Xương Văn không đồng ý vì ơn nuôi dưỡng. Ông bị giáng làm Chương Dương công và được cấp đất ở bến Chương Dương. Sau này Ngô Sĩ Liên chê Ngô Xương Văn quá mềm lòng, vì không trị tội người đã cướp ngôi.
+Nhiều người muốn giết ông, nhưng Ngô Xương Văn không đồng ý vì ơn nuôi dưỡng. Ông bị giáng làm Chương Dương công và được cấp đất ở bến Chương Dương.
 
 🤴 **Sau đó, hai anh em ra sao?**
 Sau khi lật đổ Dương Tam Kha, Ngô Xương Văn xưng là Nam Tấn Vương. Ông cho đón anh trai là Ngô Xương Ngập về Cổ Loa. Ngô Xương Ngập xưng Thiên Sách Vương và hai anh em cùng giữ ngôi.
@@ -51,7 +51,7 @@ Dương Tam Kha giữ ngôi khoảng sáu năm. Hơn mười lăm năm sau khi �
 Nguồn của bài:
 • Đại Việt sử ký toàn thư, phần Ngô kỷ và kỷ nhà Dương (Bình Vương).
 • Khâm định Việt sử thông giám cương mục, phần Tiền biên.
-• Lời bàn của Ngô Sĩ Liên về người họ Phạm và về Ngô Xương Văn, in trong Đại Việt sử ký toàn thư (bản dịch của Mạc Bảo Thần, đăng trên Wikisource).
+• Lời khen của Ngô Sĩ Liên về người họ Phạm, in trong Đại Việt sử ký toàn thư (bản dịch của Mạc Bảo Thần, đăng trên Wikisource).
 • Việc hai anh em cùng giữ ngôi ("một nước, hai vua") và Ngô Xương Ngập mất năm 954: Toàn thư; đối chiếu Wikipedia (Ngô Xương Ngập).
 
 Cần phân biệt:

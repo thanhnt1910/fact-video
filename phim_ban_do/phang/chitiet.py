@@ -93,6 +93,37 @@ def drum(x, y, s=1.0):
     return G('drum', o)
 
 
+
+def boat2(x, y, s, col='#6a4a2a', mui=False, oars=True):
+    """Thuyền sông: mũi và đuôi cong vút, ván ghép, mạn thuyền, mái nan (tuỳ chọn), mái chèo, gợn nước. Trả về (phần sau, phần trước)."""
+    dk, lt = sh(col, .62), sh(col, 1.25)
+    hull = (f'M{x-150*s},{y-52*s} Q{x-128*s},{y-18*s} {x-96*s},{y-6*s} L{x+96*s},{y-6*s} Q{x+130*s},{y-18*s} {x+156*s},{y-60*s} '
+            f'Q{x+120*s},{y-34*s} {x+88*s},{y-30*s} L{x-88*s},{y-30*s} Q{x-120*s},{y-34*s} {x-150*s},{y-52*s}Z')
+    b = f'<ellipse cx="{x}" cy="{y+6*s}" rx="{170*s}" ry="{9*s}" fill="#000" opacity=".22"/>'
+    b += f'<ellipse cx="{x}" cy="{y+14*s}" rx="{150*s}" ry="{5*s}" fill="#fff" opacity=".25"/>'
+    if oars:
+        for sd, ox in ((-1, x - 70 * s), (1, x + 80 * s)):
+            b += f'<line x1="{ox}" y1="{y-34*s}" x2="{ox+sd*60*s}" y2="{y+34*s}" stroke="{dk}" stroke-width="{5*s}"/><path d="M{ox+sd*52*s},{y+22*s} l{sd*22*s},{14*s} l{-sd*6*s},{12*s} l{-sd*22*s},{-12*s}Z" fill="{lt}"/>'
+    b += f'<path d="{hull}" fill="{col}"/>'
+    # ván thân thuyền
+    for k in (1, 2):
+        yy = y - 30 * s + k * 8 * s
+        b += f'<path d="M{x-118*s+k*9*s},{yy} L{x+118*s-k*9*s},{yy}" stroke="{dk}" stroke-width="{1.6*s}" opacity=".75"/>'
+    for k in range(-5, 6):
+        b += f'<line x1="{x+k*18*s}" y1="{y-30*s}" x2="{x+k*16*s}" y2="{y-8*s}" stroke="{dk}" stroke-width="{1.2*s}" opacity=".45"/>'
+    b += f'<path d="M{x-150*s},{y-52*s} Q{x-120*s},{y-34*s} {x-88*s},{y-30*s} L{x+88*s},{y-30*s} Q{x+120*s},{y-34*s} {x+156*s},{y-60*s}" stroke="{lt}" stroke-width="{4*s}" fill="none"/>'
+    b += f'<path d="M{x-150*s},{y-52*s} q{-8*s},{-18*s} {-2*s},{-34*s} M{x+156*s},{y-60*s} q{8*s},{-18*s} {2*s},{-34*s}" stroke="{col}" stroke-width="{7*s}" fill="none" stroke-linecap="round"/>'
+    b += f'<circle cx="{x-152*s}" cy="{y-86*s}" r="{5*s}" fill="#d8b04a"/><circle cx="{x+158*s}" cy="{y-94*s}" r="{5*s}" fill="#d8b04a"/>'
+    f = f'<path d="M{x-96*s},{y-6*s} L{x+96*s},{y-6*s} L{x+88*s},{y-20*s} L{x-88*s},{y-20*s}Z" fill="{sh(col,.9)}"/>'
+    f += f'<path d="M{x-150*s},{y-52*s} Q{x-128*s},{y-18*s} {x-96*s},{y-6*s}" stroke="{dk}" stroke-width="{2*s}" fill="none"/>'
+    for k in range(-4, 5):
+        f += f'<circle cx="{x+k*20*s}" cy="{y-13*s}" r="{1.6*s}" fill="{lt}"/>'
+    f += f'<path d="M{x-170*s},{y+8*s} q{20*s},{-6*s} {40*s},0 t{40*s},0 M{x+90*s},{y+10*s} q{20*s},{-6*s} {40*s},0 t{40*s},0" stroke="#fff" stroke-width="{2.4*s}" fill="none" opacity=".5"/>'
+    if mui:
+        f += f'<path d="M{x-60*s},{y-30*s} Q{x},{y-110*s} {x+60*s},{y-30*s}Z" fill="#a98a4a"/>' + ''.join(f'<path d="M{x-60*s+k*15*s},{y-30*s} Q{x+(k*15-60)*0.3*s},{y-85*s} {x-30*s+k*15*s*0.5},{y-100*s}" stroke="#7a5f2c" stroke-width="{1.4*s}" fill="none"/>' for k in range(0, 9))
+    return G('boat', b), G('boatf', f)
+
+
 SCN = {}
 
 
@@ -150,15 +181,17 @@ def _():
     L = outdoor('dawn', sun=(1500, 480), cl=38, mt=700)
     L.append(river(740, 1080, 'dawn'))
     L.append(sunpath(1500, 745, 1070))
-    L.append(boat(300, 790, .8, sail=True, col='#5a3a22')); L.append(boat(1750, 780, .6, sail=True, col='#5a3a22'))
-    L.append(boat(1200, 800, .55, sail=False)); 
+    L.append(boat2(300, 800, .5, col='#5a3a22', mui=True, oars=False)[0]+boat2(300, 800, .5, col='#5a3a22', mui=True, oars=False)[1]); L.append(boat2(1750, 790, .4, col='#5a3a22', oars=False)[0]+boat2(1750, 790, .4, col='#5a3a22', oars=False)[1])
+    
     L.append(G('bank', '<path d="M0,1080 L0,930 Q200,880 420,930 L520,1080Z" fill="#4a5a3a"/><path d="M1500,1080 L1620,950 Q1800,900 1920,930 L1920,1080Z" fill="#4a5a3a"/>'))
     L.append(reeds(20, 1000, 14, 220)); L.append(reeds(1640, 1010, 16, 200))
-    L.append(boat(960, 900, 2.3, sail=False))
+    bb, bf = boat2(960, 920, 2.1)
+    L.append(bb)
     L.append(G('staff', '<line x1="780" y1="880" x2="780" y2="460" stroke="#6b4a2a" stroke-width="8"/><path d="M780,470 l0,-26 M780,470 l-14,-22 M780,470 l14,-22" stroke="#e0b040" stroke-width="6"/>'
                '<path class="pen" d="M780,490 q50,10 90,-4 q-10,34 -28,70 q-30,-20 -62,-26Z" fill="#c0392b"/>'))
     L.append(sit('DTN', 880, 860, 1.9, pose='hands'))
     L.append(P('OFF1', 1180, 880, 1.7, col='#6a5a3a', turban=None, crown='headband', pose='spear', spear='bare', beard='white_goatee', seed=175))
+    L.append(bf)
     L.append(birds(1100, 220, 5, '#3a2a45', 7))
     return svg(L, 'dawn')
 

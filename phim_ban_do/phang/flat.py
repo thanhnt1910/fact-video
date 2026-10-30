@@ -6,6 +6,7 @@ Mỗi lớp nằm trong một nhóm <g id="..."> để sau này làm chuyển đ
 import random
 
 W, H = 1920, 1080
+DETAIL = False  # bật = thêm chi tiết mặt, nếp áo, hoa văn, giáp vảy
 TONES = ['#e2ad7e', '#d99f6e', '#e8b88a', '#cf9565', '#dfa77a', '#d4a074']
 
 
@@ -32,6 +33,11 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
     elif hat == 'helmet':
         o.append(f'<path d="M{x-19*s},{y-2*s} Q{x},{y-34*s} {x+19*s},{y-2*s}Z" fill="#4a4e58"/><rect x="{x-20*s}" y="{y-5*s}" width="{40*s}" height="{4*s}" fill="#2e3038"/>')
         o.append(f'<path d="M{x},{y-30*s} q{4*s},{-14*s} {12*s},{-10*s} q{-4*s},{8*s} {-12*s},{10*s}Z" fill="#b8352a"/>')
+        if DETAIL:
+            o.append(f'<path d="M{x-19*s},{y-2*s} Q{x},{y-34*s} {x+19*s},{y-2*s}" fill="none" stroke="#fff" stroke-width="{1.2*s}" opacity=".18"/><line x1="{x}" y1="{y-32*s}" x2="{x}" y2="{y-5*s}" stroke="#2e3038" stroke-width="{1.4*s}"/>')
+            for k in (-13, -6, 6, 13):
+                o.append(f'<circle cx="{x+k*s}" cy="{y-8*s}" r="{1.2*s}" fill="#d8c98a"/>')
+            o.append(f'<path d="M{x-20*s},{y-1*s} L{x-23*s},{y+12*s} L{x-15*s},{y+6*s}Z M{x+20*s},{y-1*s} L{x+23*s},{y+12*s} L{x+15*s},{y+6*s}Z" fill="#3a3d46"/>')
     elif hat == 'song':  # mũ phốc đầu của quan Tống: thân mũ cao, hai cánh dài nằm ngang
         o.append(f'<rect x="{x-15*s}" y="{y-34*s}" width="{30*s}" height="{30*s}" rx="{11*s}" fill="#14121a"/>')
         o.append(f'<rect x="{x-17*s}" y="{y-12*s}" width="{34*s}" height="{6*s}" fill="#e0b040"/>')
@@ -39,6 +45,13 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
         for sd in (-1, 1):
             o.append(f'<rect x="{x+(10 if sd>0 else -58)*s}" y="{y-23*s}" width="{48*s}" height="{6*s}" rx="{3*s}" fill="#14121a"/>')
             o.append(f'<rect x="{x+(10 if sd>0 else -58)*s}" y="{y-23*s}" width="{48*s}" height="{1.6*s}" rx="{1*s}" fill="#3a3642"/>')
+            if DETAIL:
+                for k in range(5):
+                    o.append(f'<circle cx="{x+(sd*(18+k*8))*s}" cy="{y-20*s}" r="{0.9*s}" fill="#e0b040"/>')
+        if DETAIL:
+            o.append(f'<path d="M{x-12*s},{y-30*s} Q{x},{y-35*s} {x+12*s},{y-30*s}" stroke="#fff" stroke-width="{1.3*s}" fill="none" opacity=".2"/>')
+            for k in (-8, 0, 8):
+                o.append(f'<circle cx="{x+k*s}" cy="{y-9*s}" r="{1.3*s}" fill="#e8d890"/>')
     elif hat == 'crownS':  # mũ miện hoàng đế: tấm phẳng trên cao, rèm hạt ngọc hai bên
         o.append(f'<rect x="{x-17*s}" y="{y-24*s}" width="{34*s}" height="{18*s}" rx="{4*s}" fill="#14121a"/>')
         o.append(f'<rect x="{x-38*s}" y="{y-34*s}" width="{76*s}" height="{9*s}" rx="{2*s}" fill="#14121a"/><rect x="{x-38*s}" y="{y-34*s}" width="{76*s}" height="{2.4*s}" fill="#e0b040"/>')
@@ -69,6 +82,19 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
         bt = 1 + rnd.random()
         o.append(f'<line x1="{x-ex-3*s+dx}" y1="{y-4*s}" x2="{x-ex+3*s+dx}" y2="{y-4.5*s}" stroke="#2a1c1c" stroke-width="{bt*s}"/><line x1="{x+ex-3*s+dx}" y1="{y-4.5*s}" x2="{x+ex+3*s+dx}" y2="{y-4*s}" stroke="#2a1c1c" stroke-width="{bt*s}"/>')
         o.append(f'<path d="M{x-4*s+dx},{y+8*s} Q{x+dx},{y+10*s} {x+4*s+dx},{y+8*s}" stroke="#7b2a22" stroke-width="{1.4*s}" fill="none"/>')
+        if DETAIL:
+            for sd in (-1, 1):
+                ex_ = x + sd * ex + dx
+                o.append(f'<ellipse cx="{ex_}" cy="{y+1*s}" rx="{3.4*s}" ry="{2.3*s}" fill="#fbf6ea"/><circle cx="{ex_+look*1.2*s}" cy="{y+1*s}" r="{1.7*s}" fill="#2a1a14"/><circle cx="{ex_+look*1.2*s+0.6*s}" cy="{y+0.3*s}" r="{0.55*s}" fill="#fff"/>')
+                o.append(f'<path d="M{ex_-3.6*s},{y+0.4*s} Q{ex_},{y-2.6*s} {ex_+3.6*s},{y+0.4*s}" stroke="#2a1a14" stroke-width="{0.9*s}" fill="none"/>')
+                o.append(f'<path d="M{ex_-3*s},{y+3.4*s} Q{ex_},{y+4.6*s} {ex_+3*s},{y+3.4*s}" stroke="{sh(sk,.8)}" stroke-width="{0.6*s}" fill="none"/>')
+                o.append(f'<path d="M{x+sd*17*s},{y+0*s} q{sd*1.6*s},{3*s} 0,{6*s}" stroke="{sh(sk,.7)}" stroke-width="{0.9*s}" fill="none"/>')
+            o.append(f'<ellipse cx="{x+3*s}" cy="{y+4.5*s}" rx="{2.6*s}" ry="{1.6*s}" fill="#000" opacity=".1"/>')
+            o.append(f'<path d="M{x-9*s},{y-7*s} Q{x},{y-10*s} {x+9*s},{y-7*s}" stroke="#fff" stroke-width="{2*s}" fill="none" opacity=".12"/>')
+            sm = rnd.random()
+            if sm < .5:
+                o.append(f'<path d="M{x-5*s+dx},{y+8*s} Q{x+dx},{y+12*s} {x+5*s+dx},{y+8*s}Z" fill="#7b2a22"/><path d="M{x-3*s+dx},{y+9*s} Q{x+dx},{y+10.6*s} {x+3*s+dx},{y+9*s}Z" fill="#f4eee2"/>')
+            o.append(f'<ellipse cx="{x}" cy="{y+16*s}" rx="{13*s}" ry="{3*s}" fill="#000" opacity=".1"/>')
         bc = '#e9e4dc' if beard and beard.startswith('white') else '#1b1417'
         if beard in ('goatee', 'white_goatee'):
             o.append(f'<path d="M{x-5*s},{y+11*s} Q{x},{y+26*s} {x+5*s},{y+11*s}Z" fill="{bc}"/>')
@@ -151,6 +177,20 @@ def body(x, y, s, col, sash='#a8452f', trim=None, armor=None, pose='hands', spea
         o.append(f'<path d="M{x-20*s},{y-h*0.8} L{x+20*s},{y-h*0.8} L{x+18*s},{y-h*0.52} L{x-18*s},{y-h*0.52}Z" fill="{armor}" opacity=".6"/>')
         for k in range(4):
             o.append(f'<line x1="{x-18*s}" y1="{y-h*(0.74-k*0.07)}" x2="{x+18*s}" y2="{y-h*(0.74-k*0.07)}" stroke="#000" stroke-width="{1.1*s}" opacity=".25"/>')
+    if DETAIL:
+        rr = random.Random(int(x * 3 + y))
+        for k in range(3):
+            xx = x + (-14 + k * 14 + rr.random() * 4) * s
+            o.append(f'<path d="M{xx},{y-h*0.38} q{3*s},{h*0.12} {-2*s},{h*0.24} q{3*s},{h*0.1} {1*s},{h*0.15}" stroke="{sh(col,.62)}" stroke-width="{1.1*s}" fill="none" opacity=".7"/>')
+        o.append(f'<path d="M{x-22*s},{y-h*0.8} Q{x-14*s},{y-h*0.62} {x-21*s},{y-h*0.45}" stroke="#fff" stroke-width="{1.4*s}" fill="none" opacity=".14"/>')
+        if not armor:
+            for k in range(-2, 3):
+                o.append(f'<path d="M{x+k*10*s},{y-hem-3*s} l{3*s},{-3*s} l{3*s},{3*s} l{-3*s},{3*s}Z" fill="{sh(edge,1.1)}" opacity=".9"/>')
+            o.append(f'<circle cx="{x}" cy="{y-h*0.66}" r="{6*s}" fill="none" stroke="{edge}" stroke-width="{1.2*s}" opacity=".8"/><circle cx="{x}" cy="{y-h*0.66}" r="{2.2*s}" fill="{edge}" opacity=".8"/>')
+        else:
+            for r_ in range(5):
+                for c_ in range(-3, 4):
+                    o.append(f'<path d="M{x+c_*5.4*s-2.7*s},{y-h*(0.77-r_*0.052)} q{2.7*s},{4*s} {5.4*s},0" stroke="#000" stroke-width="{0.8*s}" fill="none" opacity=".3"/>')
     o.append(f'<rect x="{x-23*s-ext}" y="{y-h*0.42}" width="{46*s+2*ext}" height="{8*s}" fill="{sash}"/><rect x="{x-3*s}" y="{y-h*0.425}" width="{7*s}" height="{9*s}" rx="{2*s}" fill="#e8d890" stroke="#8a6a20" stroke-width="{0.8*s}"/>')
     if not back:
         o.append(f'<path d="M{x+8*s},{y-h*0.4} l{4*s},{26*s} l{-9*s},0z" fill="{sash}"/>')

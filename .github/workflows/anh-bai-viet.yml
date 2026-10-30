@@ -32,4 +32,9 @@ jobs:
         run: |
           git add -f assets/anh_that ke-hoach/nhan-vat-phu logs || true
           git -c user.email=noreply@anthropic.com -c user.name=Claude commit -qm "Ảnh ứng viên cho bài viết [skip ci]" || exit 0
+          KQ=$(git rev-parse HEAD)
           for i in 1 2 3; do git pull --rebase -q -X theirs && git push -q && exit 0; sleep 5; done
+          # Nhánh chính bị phiên khác đẩy chen vào nên 3 lần đều hỏng: cất kết quả sang nhánh riêng để không mất ảnh.
+          MA=$(head -1 ke-hoach/nhan-vat-phu/anh_chay.txt | cut -d' ' -f1)
+          echo "::warning::Không đẩy được lên nhánh chính, đã đẩy kết quả sang nhánh kq-tim-anh-$MA"
+          git push -q -f origin "$KQ:refs/heads/kq-tim-anh-$MA"

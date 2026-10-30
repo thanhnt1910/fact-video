@@ -26,7 +26,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 1. Ba mươi sáu người thân đã nằm dưới hố. Rồi viên quan giữ thành tự tay châm lửa thiêu mình.  *(ảnh 19002)*
 
-2. Ông cố thủ không hàng, dù quân vây thành sau hơn bốn mươi ngày đã chất bao đất sát chân tường.  *(ảnh 19048)*
+2. Ông cố thủ không hàng, dù tòa thành đã bị vây hãm suốt hơn bốn mươi ngày liền.  *(ảnh 19048)*
 
 3. Đạo quân vây thành không đến từ phương bắc. Họ là quân Đại Việt, đã vượt biên giới tiến vào đất của một đế chế lớn gấp nhiều lần nước mình.  *(ảnh 19003)*
 
@@ -201,7 +201,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 - **Cặp 2 (đánh vào châu sát biên giới):** Toàn thư không chép Ung Châu là nơi Tống gom quân hay lương thực; chỉ chép Thẩm Khởi, Lưu Di ở Quế Châu dấy người miền núi, đóng thuyền, tập thủy chiến, cấm buôn bán. Lời đáp chỉ nói "vùng giáp biên, nơi Tống đang chuẩn bị đánh sang"; ý "phá thế chuẩn bị" là suy luận.
 - **Cặp 7 (biếu voi):** Toàn thư chép 1078 biếu năm voi xin trả các châu và người bị bắt; 1079 Tống trả Quảng Nguyên (Thuận Châu); 1081 ta trả dân và lính bị bắt ở Ung, Khâm, Liêm. Sử không nói voi là lễ triều cống; chỉ giữ cách hiểu "lễ vật mở lời xin".
 - **Cặp 1, 3, 4, 5:** sự kiện có nguồn, lời đáp là suy luận. Cặp 4: Toàn thư chỉ chép vua sai ông đón đánh, đến sông Như Nguyệt thì đánh tan, quân Tống chết hơn một nghìn người; chữ "chọn", "lằn ranh cuối cùng" là cách kể.
-- **Hook (đoạn 1–2):** Toàn thư ("Giám cho gia thuộc 36 người chết trước, chôn xác vào hố, rồi châm lửa tự thiêu"; "cố thủ không hàng"; "đánh hơn 40 ngày, chồng bao đất trèo lên thành"). Cảnh được kể đầy đủ ở chương Ung Châu. Đoạn thất thủ dùng "chết trước", không dùng "bức tử", vì Toàn thư không nói ông ép gia quyến.
+- **Hook (đoạn 1–2):** Toàn thư ("Giám cho gia thuộc 36 người chết trước, chôn xác vào hố, rồi châm lửa tự thiêu"; "cố thủ không hàng"; "đánh hơn 40 ngày"). Chi tiết chất bao đất chỉ nằm ở chương Ung Châu, không đưa vào hook (chủ kênh yêu cầu 30/10). Cảnh được kể đầy đủ ở chương Ung Châu. Đoạn thất thủ dùng "chết trước", không dùng "bức tử", vì Toàn thư không nói ông ép gia quyến.
 - **Chương bài thơ:** Toàn thư chép trong ngoặc "người đời truyền rằng Thường Kiệt làm hàng rào theo dọc sông", đền Trương tướng quân, "sau đó quả nhiên như thế". Đây là truyền thuyết, giữ chữ "theo truyền thuyết", "người đời kể". Toàn thư chép tên hai anh em là Khiếu và Hát (nguồn khác chép Hống), kịch bản chỉ nói "hai anh em họ Trương".
 - **Câu kết "hai nước cờ" (đoạn 67):** là lời tóm lược của người kể, không phải lời sử gia; cần chủ kênh duyệt.
 - **Số người chết ở Ung Châu** (hơn năm vạn tám nghìn; cộng cả Khâm, Liêm hơn mười vạn) theo Toàn thư; nguồn Trung Quốc ghi khác, nêu ở mô tả.

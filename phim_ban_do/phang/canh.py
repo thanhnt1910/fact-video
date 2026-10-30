@@ -309,8 +309,6 @@ def _():
     L.append(rows([(800, .45, 7), (840, .6, 7)], back=False, seed=6))
     L.append(horse(960, 1000, 1.7, '#4a2e22', facing=1))
     L.append(sit('LTK_G', 960, 1000 - 350 + 52, 1.7, pose='rein'))
-    # kiếm trong bao đeo hông
-    L.append(f'<path d="M{960-30},{1000-350+60} l-62,56 l12,12 l62,-52Z" fill="#3a2a22" stroke="#1a1210" stroke-width="3" stroke-linejoin="round"/><rect x="{960-38}" y="{1000-350+48}" width="18" height="18" rx="3" fill="#e0b040" stroke="#7a5a18" stroke-width="2.5"/><path d="M{960-30},{1000-350+60} l-62,56" stroke="#b9bcc4" stroke-width="2" opacity=".6"/>')
     L.append(pennant(1500, 560, 960, PEN_V, 150))
     L.append(dust(900, 1040, 700))
     return svg(L, 'day')

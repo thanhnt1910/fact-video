@@ -1,8 +1,7 @@
-Lượt 1/2: gửi 32 cảnh sang Kaggle
+Lượt 1/1: gửi 4 cảnh sang Kaggle
  0.5 phút: .running
-45.6 phút: .complete
+10.2 phút: .complete
    kết thúc: .complete
-   file tải về: 35 mục; 32 png
-   lượt 1: nhận 32/32 ảnh
-Lượt 2/2: gửi 32 cảnh sang Kaggle
- 0.5 phút: .running
+   file tải về: 7 mục; 4 png
+   lượt 1: nhận 4/4 ảnh
+TỔNG: nhận 4/4 ảnh; thiếu: []

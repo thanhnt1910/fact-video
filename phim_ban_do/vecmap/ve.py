@@ -11,17 +11,23 @@ OUT = HERE / "ra"
 OUT.mkdir(exist_ok=True)
 
 
+PAGE = "trang.html"
+
+
 def main():
+    global PAGE
     mode, args = sys.argv[1], sys.argv[2:]
+    if args and args[0].endswith(".html"):
+        PAGE = args.pop(0)
     with sync_playwright() as p:
         b = p.chromium.launch(args=["--allow-file-access-from-files"])
         pg = b.new_page(viewport={"width": 1920, "height": 1080})
-        pg.goto((HERE / "trang.html").as_uri())
+        pg.goto((HERE / PAGE).as_uri())
         pg.evaluate("window.ready")
         if mode == "still":
             for a in args:
                 pg.evaluate(f"T({a})")
-                pg.screenshot(path=str(OUT / f"khung_{a}.jpg"), type="jpeg", quality=90)
+                pg.screenshot(path=str(OUT / f"{Path(PAGE).stem}_{a}.jpg"), type="jpeg", quality=90)
                 print("ok", a)
         else:
             dur, fps = float(args[0]), 30
@@ -33,8 +39,8 @@ def main():
                 pg.screenshot(path=str(fr / f"{i:04d}.jpg"), type="jpeg", quality=88)
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", str(fr / "%04d.jpg"),
                             "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-                            str(OUT / "thu_bando.mp4")], check=True)
-            print("xong", OUT / "thu_bando.mp4")
+                            str(OUT / (Path(PAGE).stem + ".mp4"))], check=True)
+            print("xong")
         b.close()
 
 

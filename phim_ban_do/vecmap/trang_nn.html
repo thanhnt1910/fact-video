@@ -1,0 +1,119 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@font-face{font-family:Lora;src:url(../../assets/fonts/Lora-Variable.ttf);font-weight:400 700}
+html,body{margin:0;background:#000}svg{display:block}text{font-family:Lora,serif}
+</style>
+<script src="geo.js"></script>
+<svg id="s" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+<script>
+// Trận Như Nguyệt (sơ đồ minh họa): quân Tống áp sát bờ bắc, hàng rào bờ nam, các đợt tiến công bị đánh lui.
+const NS="http://www.w3.org/2000/svg";
+let G,svg,world,dyn,hud,riverPath,RL;
+function P(lon,lat){return [(lon-G.lon0)*G.k*G.scale,(G.lat1-lat)*G.scale]}
+function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+const ease=u=>u<0?0:u>1?1:u*u*(3-2*u);const lerp=(a,b,u)=>a+(b-a)*u;const cl=(u)=>Math.max(0,Math.min(1,u));
+function rnd(seed){let s=seed;return()=>{s=(s*16807)%2147483647;return s/2147483647}}
+const RIV=[[105.60,21.36],[105.78,21.30],[105.92,21.25],[106.05,21.19],[106.20,21.13],[106.42,21.09]];
+function smooth(ll){const p=ll.map(x=>P(x[0],x[1]));let d=`M${p[0][0]},${p[0][1]}`;for(let i=1;i<p.length;i++){const a=p[i-1],b=p[i];d+=` L${b[0]},${b[1]}`}return d}
+const NU=18,NR=5;let UT=[],UL=[];
+// vị trí trên bờ: u dọc sông (0..1), off lệch theo pháp tuyến (âm = bờ bắc, dương = bờ nam), đơn vị = px thế giới
+function at(u,off){const p=riverPath.getPointAtLength(u*RL),q=riverPath.getPointAtLength(Math.min(RL,u*RL+.5)),r=riverPath.getPointAtLength(Math.max(0,u*RL-.5));
+ let tx=q.x-r.x,ty=q.y-r.y;const m=Math.hypot(tx,ty)||1;tx/=m;ty/=m;let nx=-ty,ny=tx;if(ny<0){nx=-nx;ny=-ny}// pháp tuyến hướng NAM (y tăng)
+ return [p.x+nx*off,p.y+ny*off]}
+async function init(){
+ G=window.GEO;svg=document.getElementById('s');const defs=el('defs',{},svg);
+ const f=el('filter',{id:'grain',x:0,y:0,width:'100%',height:'100%'},defs);
+ el('feTurbulence',{type:'fractalNoise',baseFrequency:'.9',numOctaves:2,seed:3},f);
+ el('feColorMatrix',{values:'0 0 0 0 .35  0 0 0 0 .28  0 0 0 0 .18  0 0 0 .22 0'},f);
+ const gl=el('filter',{id:'gl',x:'-50%',y:'-50%',width:'200%',height:'200%'},defs);el('feGaussianBlur',{stdDeviation:1.2},gl);
+ const cp=el('clipPath',{id:'cl'},defs);el('path',{d:G.land},cp);
+ const pt=el('pattern',{id:'pd',width:3,height:3,patternUnits:'userSpaceOnUse'},defs);
+ el('path',{d:'M0,3 L3,0',stroke:'#b9a577','stroke-width':.18,opacity:.55},pt);
+ world=el('g',{},svg);
+ el('rect',{width:G.w,height:G.h,fill:'#b7cdc6'},world);
+ el('path',{d:G.land,fill:'#f1e7cb',stroke:'#7d6a47','stroke-width':.8,'stroke-linejoin':'round'},world);
+ el('rect',{width:G.w,height:G.h,fill:'url(#pd)','clip-path':'url(#cl)'},world);
+ // sông (sơ đồ): bờ nam xanh nhạt, dòng nước
+ riverPath=el('path',{d:smooth(RIV),fill:'none',stroke:'#7fa7c4','stroke-width':5.2,'stroke-linecap':'round','stroke-linejoin':'round'},world);
+ el('path',{d:smooth(RIV),fill:'none',stroke:'#a9c8dc','stroke-width':3.2,'stroke-linecap':'round','stroke-linejoin':'round'},world);
+ RL=riverPath.getTotalLength();
+ // hàng rào: các cọc nhọn dọc bờ nam
+ const fe=el('g',{id:'fence'},world);
+ for(let i=0;i<=80;i++){const u=.05+.9*i/80;const [x,y]=at(u,3.9);el('path',{d:`M${x},${y} l0.0,2.2`,stroke:'#5a3b1c','stroke-width':.8,'stroke-linecap':'round'},fe);
+  const [a,b]=at(u,3.6);el('circle',{cx:a,cy:b,r:.5,fill:'#7a5328'},fe)}
+ // đạo quân
+ const r=rnd(5);
+ for(let c=0;c<NU;c++)for(let k=0;k<NR;k++){UT.push({c,k,u:.07+.86*c/(NU-1)+(r()-.5)*.012,off:-(9+k*3.4)+(r()-.5)*.8,j:r()})}
+ for(let c=0;c<NU*2;c++)for(let k=0;k<2;k++){UL.push({u:.06+.88*c/(NU*2-1)+(r()-.5)*.006,off:8.0+k*3.4+(r()-.5)*.5})}
+ dyn=el('g',{},world);hud=el('g',{},svg);
+}
+function shield(g,x,y,col,s,a,rot){const e=el('g',{transform:`translate(${x},${y}) rotate(${rot||0})`,opacity:a},g);
+ el('path',{d:`M0,${-1.5*s} l0,${3*s}`,stroke:'#2b2218','stroke-width':.22,'stroke-linecap':'round'},e);
+ el('path',{d:`M${-.75*s},${-.6*s} l${1.5*s},0 l0,${1.0*s} q${-.75*s},${.8*s} ${-1.5*s},0z`,fill:col,stroke:'#2b2218','stroke-width':.15},e)}
+const WAVES=[[5.0,6.6],[7.2,8.8],[9.0,10.6]];
+// quân Tống tới: đi từ phía đông bắc
+let ROAD=null;
+function roadPt(u){if(!ROAD)ROAD=[P(106.76,21.86),P(106.62,21.62),P(106.40,21.42),P(106.20,21.30)];const n=ROAD.length-1,f=u*n,i=Math.min(n-1,Math.floor(f)),t=f-i;return [lerp(ROAD[i][0],ROAD[i+1][0],t),lerp(ROAD[i][1],ROAD[i+1][1],t)]}
+const CAM=[[0,106.45,21.55,3.3],[2.6,106.2,21.3,1.9],[5,106.08,21.21,1.0],[12,106.06,21.2,0.85]];
+function cam(t){let i=0;while(i<CAM.length-2&&t>CAM[i+1][0])i++;const a=CAM[i],b=CAM[i+1];const u=ease((t-a[0])/(b[0]-a[0]));return[lerp(a[1],b[1],u),lerp(a[2],b[2],u),lerp(a[3],b[3],u)]}
+function T(t){
+ const [clon,clat,wd]=cam(t);const [cx,cy]=P(clon,clat);const w=wd*G.k*G.scale,h=w*9/16,sc=1920/w;
+ world.setAttribute('transform',`scale(${sc}) translate(${-(cx-w/2)},${-(cy-h/2)})`);
+ dyn.innerHTML='';
+ const fenceOn=ease((t-2.4)/1.6);document.getElementById('fence').setAttribute('opacity',fenceOn);
+ // quân Đại Việt đứng chờ sau hàng rào
+ const lyA=ease((t-3.2)/1.4);
+ for(const q of UL){const [x,y]=at(q.u,q.off);shield(dyn,x,y,'#c9742a',1.55,lyA*.95,0)}
+ // quân Tống: hành quân tới rồi dàn bờ bắc
+ let alive=0;
+ for(const q of UT){
+  const rest=at(q.u,q.off);
+  let a=1,x,y,rot=0;
+  const arr=cl((t-0.2-q.c*0.05-q.k*0.03)/2.2);
+  if(arr<1){const [sx,sy]=roadPt(cl(arr*1.0));const e=ease(arr);const [rx,ry]=[sx+(rest[0]-sx)*e*e,sy+(rest[1]-sy)*e*e];
+   // đi theo đường rồi vào vị trí
+   const rp=roadPt(arr);x=lerp(rp[0],rest[0],ease(cl((arr-.6)/.4)));y=lerp(rp[1],rest[1],ease(cl((arr-.6)/.4)));a=arr>0?1:0}
+  else{x=rest[0];y=rest[1]}
+  // đợt tiến công
+  const wv=q.c%3;const [w0,w1]=WAVES[wv];
+  const takes=(q.k<4);
+  if(takes&&t>=w0&&t<=w1+.9){const u=(t-w0)/(w1-w0);
+   const go=ease(cl(u/0.5)),back=ease(cl((u-0.62)/0.38));const fall=(q.j<.42);
+   const reach=at(q.u,-5.2+(q.k*.5));
+   if(!fall){x=lerp(rest[0],reach[0],go*(1-back));y=lerp(rest[1],reach[1],go*(1-back))}
+   else{x=lerp(rest[0],reach[0],go);y=lerp(rest[1],reach[1],go);if(u>.55){a=Math.max(.0,1-(u-.55)*3.2);rot=70*cl((u-.55)*3)}}
+  }
+  // quân đã ngã sau đợt tấn công: dấu x mờ
+  if(takes&&q.j<.42&&t>w1+.9&&t>0){const dead=true;
+   el('path',{d:`M${rest[0]-.6},${rest[1]-.6} l1.2,1.2 M${rest[0]+.6},${rest[1]-.6} l-1.2,1.2`,stroke:'#27487f','stroke-width':.22,opacity:.5},dyn);continue}
+  if(a>0.02){const sick=cl((t-10.6)/1.2);shield(dyn,x,y,sick>0?`rgb(${Math.round(70+60*sick)},${Math.round(104+30*sick)},${Math.round(168-70*sick)})`:'#3a64a8',1.55,a,rot);alive++}
+ }
+ // mũi tên bay từ bờ nam
+ for(let wv=0;wv<3;wv++){const [w0,w1]=WAVES[wv];if(t>w0+.35&&t<w1){const u=(t-w0-.35)/(w1-w0-.35);
+  for(let i=0;i<14;i++){const ph=(u*1.6+i*.071)%1;const uu=.1+.8*((i*37+wv*13)%17)/17+wv*.0;const a0=at(uu,7.2),a1=at(Math.min(.95,uu+(wv-1)*.0),-4.6);
+   const x=lerp(a0[0],a1[0],ph),y=lerp(a0[1],a1[1],ph)-Math.sin(ph*Math.PI)*3.2;const x2=lerp(a0[0],a1[0],ph-.04),y2=lerp(a0[1],a1[1],ph-.04)-Math.sin((ph-.04)*Math.PI)*3.2;
+   el('path',{d:`M${x2},${y2} L${x},${y}`,stroke:'#fff3c7','stroke-width':.45,'stroke-linecap':'round',opacity:ph<.98?.95:0},dyn)}}}
+ // tia va chạm ở hàng rào
+ for(const [w0,w1] of WAVES){const u=(t-(w0+(w1-w0)*.45))/.7;if(u>0&&u<1){for(let i=0;i<7;i++){const [x,y]=at(.12+.76*i/6,-3.6);el('circle',{cx:x,cy:y,r:1+4*u,fill:'none',stroke:'#b3261e','stroke-width':.6*(1-u)+.08,opacity:(1-u)*.9},dyn)}}}
+ // nhãn (kích thước theo màn hình)
+ const fs=v=>v/sc;
+ const lab=(x,y,txt,s,c,anchor)=>{const e=el('text',{x,y,'text-anchor':anchor||'middle','font-size':fs(s),'font-weight':700,fill:c,'paint-order':'stroke',stroke:'#f1e7cb','stroke-width':fs(7),'letter-spacing':fs(3)},dyn);e.textContent=txt};
+ const nb=at(.5,-44),sb=at(.5,38),rv=at(.82,0);
+ const la=ease((t-1.0)/.8)*(t<10.8?1:0);
+ if(la>0){dyn.setAttribute('opacity',1)}
+ lab(nb[0],nb[1],'QUÂN TỐNG',42,'#27487f');lab(sb[0],sb[1],'QUÂN ĐẠI VIỆT',42,'#8a4a14');
+ const e=el('text',{x:rv[0],y:rv[1]+fs(10),'text-anchor':'middle','font-size':fs(24),'font-style':'italic',fill:'#2c4f6b','font-weight':600,'paint-order':'stroke',stroke:'#cfe0e8','stroke-width':fs(6)},dyn);e.textContent='sông Như Nguyệt';
+ if(t<4.5){const tl=P(105.85,21.03);el('rect',{x:tl[0]-1.2,y:tl[1]-1.2,width:2.4,height:2.4,fill:'#f7efd8',stroke:'#8a4a14','stroke-width':.6},dyn);
+ const tt=el('text',{x:tl[0]+fs(18),y:tl[1]+fs(8),'font-size':fs(32),'font-weight':700,fill:'#2b2218','paint-order':'stroke',stroke:'#f1e7cb','stroke-width':fs(7)},dyn);tt.textContent='Thăng Long';}
+ // phủ giấy, tối góc, thẻ
+ hud.innerHTML='';
+ el('rect',{width:1920,height:1080,filter:'url(#grain)',opacity:.9},hud);
+ const vg=el('radialGradient',{id:'vg',cx:.5,cy:.5,r:.75},hud);el('stop',{offset:.55,'stop-color':'#000','stop-opacity':0},vg);el('stop',{offset:1,'stop-color':'#1b1409','stop-opacity':.55},vg);
+ el('rect',{width:1920,height:1080,fill:'url(#vg)'},hud);
+ const sk=cl((t-10.6)/1.2);if(sk>0)el('rect',{width:1920,height:1080,fill:'#6b7a2a',opacity:sk*.22},hud);
+ const a=ease((t-0.2)/0.8);const g=el('g',{opacity:a,transform:`translate(70,${1000+(1-a)*30})`},hud);
+ el('rect',{x:-24,y:-70,width:560,height:96,rx:10,fill:'#241a0e',opacity:.82},g);
+ el('text',{x:0,y:-6,'font-size':50,'font-weight':700,fill:'#f1e7cb'},g).textContent='Cuối năm 1076';
+}
+window.T=T;window.ready=init().then(()=>{T(0);return true});
+</script>

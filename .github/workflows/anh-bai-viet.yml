@@ -1,0 +1,35 @@
+name: Tìm ảnh thật cho bài viết (Commons, gửi Telegram)
+
+# Chỉ chạy khi chủ kênh yêu cầu. Kích hoạt bằng cách đẩy ke-hoach/nhan-vat-phu/anh_chay.txt (dòng 1: mã bài, ví dụ nvp1).
+on:
+  push:
+    branches: [lh6-dung-thu]
+    paths: ['ke-hoach/nhan-vat-phu/anh_chay.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python -m pip install -q requests
+      - name: Tìm ảnh, tải và gửi Telegram
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          MA=$(head -1 ke-hoach/nhan-vat-phu/anh_chay.txt | cut -d' ' -f1)
+          python -u phim_ban_do/tim_anh_bai.py "$MA" 2>&1 | tee tim_anh_bai.log
+          mkdir -p logs; cp tim_anh_bai.log logs/tim_anh_bai_$MA.txt
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add -f assets/anh_that ke-hoach/nhan-vat-phu logs || true
+          git -c user.email=noreply@anthropic.com -c user.name=Claude commit -qm "Ảnh ứng viên cho bài viết [skip ci]" || exit 0
+          for i in 1 2 3; do git pull --rebase -q -X theirs && git push -q && exit 0; sleep 5; done

@@ -122,8 +122,8 @@ NOMOD = "wood, bamboo, clay and woven cloth only, dirt roads, bare plain walls"
 VN_DRESS = ("Vietnamese villagers and soldiers wear crossed-collar tunics with narrow sleeves tied by a cloth sash, short trousers, "
             "bare feet, hair in a topknot or a wrapped cloth turban")
 ERA_VN = (VN_DRESS + "; low wooden halls with dark brown pillars and grey tiled roofs with curved dragon-head ridge ends, "
-          "thatched houses, brown leather armor, conical bamboo hats, spears, plain brown-red triangular cloth pennants; " + NOMOD)
-ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, "
+          "thatched houses, brown leather armor, round iron helmets with a small rim, conical bamboo hats, long wooden spears, woven rattan shields, bows, plain brown-red triangular cloth pennants; " + NOMOD)
+ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, soldiers in scale armor with iron helmets and a small red tassel, "
             "plain dark blue triangular cloth pennants; " + NOMOD)
 SUFFIX = ("each person drawn once with two arms, every face different, single full-frame picture, no border, no text, detailed background")
 

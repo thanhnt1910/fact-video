@@ -64,7 +64,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 14. Lý do được nêu là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non.  *(ảnh 19037)*
 
-15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân Trung Hoa. Rồi hai đạo quân Đại Việt lên đường.  *(ảnh 19037)*
+15. Đến mùa gặt, nông dân phải trả cả vốn lẫn lãi, nên nhà Lý nói chính sách ấy làm khổ dân nước Tống, và họ cất quân để cứu dân. Rồi hai đạo quân Đại Việt lên đường.  *(ảnh 19037)*
 
 
 ### Đánh vào đâu

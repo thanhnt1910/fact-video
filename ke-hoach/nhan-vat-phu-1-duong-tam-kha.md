@@ -8,7 +8,7 @@ Trạng thái: bản nháp chờ chủ kênh duyệt. Nguồn đã đối chiế
 
 Vậy mà khi Ngô Quyền vừa mất, ông đuổi con trai trưởng của vua để tự lên ngôi. Rồi chính người con nuôi của ông lại lật đổ ông.
 
-Ông là Dương Tam Kha. Sử cũ chê ông là kẻ cướp ngôi, nhưng không ghi ông hà khắc với dân. Vì sao ông bị lật đổ?
+Ông là Dương Tam Kha. Vì sao người con nuôi lại quay quân lật đổ ông?
 
 👤 **Dương Tam Kha là ai?**
 Ông là con của Dương Đình Nghệ, vị tướng từng đánh đuổi quân Nam Hán khỏi Đại La. Sách chép ông là anh vợ, có sách chép là em vợ của Ngô Quyền. Khi Ngô Quyền xưng vương, ông là người thân cận trong triều.

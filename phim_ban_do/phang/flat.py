@@ -167,7 +167,7 @@ def body(x, y, s, col, sash='#a8452f', trim=None, armor=None, pose='hands', spea
     o.append(f'<path d="M{x-21*s-ext},{y-h*0.86} L{x-12*s},{y-h*0.86} L{x-14*s},{y-hem} L{x-24*s-ext},{y-hem}Z" fill="#fff" opacity=".08"/>')
     if not back:
         o.append(f'<path d="M{x-7*s},{y-h*0.9} L{x+1*s},{y-h*0.76} L{x+7*s},{y-h*0.9}" stroke="#f1ece0" stroke-width="{3*s}" fill="none" opacity=".95"/>')
-        o.append(f'<path d="M{x-12*s},{y-h*0.88} L{x+5*s},{y-h*0.62} M{x+12*s},{y-h*0.88} L{x-5*s},{y-h*0.64}" stroke="{edge}" stroke-width="{2.4*s}" fill="none"/>')
+        o.append(f'<path d="M{x-12*s},{y-h*0.88} L{x+5*s},{y-h*0.62} M{x+12*s},{y-h*0.88} L{x+5*s},{y-h*0.62}" stroke="{edge}" stroke-width="{2.4*s}" fill="none"/>')
     else:
         o.append(f'<line x1="{x}" y1="{y-h*0.88}" x2="{x}" y2="{y-h*0.42}" stroke="{sh(col,.6)}" stroke-width="{1.6*s}"/>')
     # nẹp gấu áo

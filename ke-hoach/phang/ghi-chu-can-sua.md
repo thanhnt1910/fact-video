@@ -39,3 +39,7 @@ Chủ kênh chọn kiểu ảnh phẳng (vector) thay chibi/FLUX. Mã nguồn: `
 - Áp mức chi tiết cao cho cả 64 ảnh hay không (chờ duyệt dáng thuyền và mức chi tiết).
 - Cảnh nào trong 64 cảnh làm chuyển động trước.
 - Dựng video đủ độ dài cần chạy workflow; chỉ chạy khi chủ kênh yêu cầu.
+
+## Đã sửa 30/10/2026 (phiên tiếp theo), cần chủ kênh xem lại
+- 19002 (bao tải đặt ở ngực, không còn như quầng sáng), 19016 (cổ áo giao lĩnh dạng chữ V, áp cho mọi nhân vật), 19015 (bao kiếm có viền rõ), 19038 (thêm ruộng và bờ sông), 19043 (quân Tống rải dọc thung lũng, không xếp cột), 19048 (khói thành cột liền), 19064 (nét sáng vàng nhạt thay dải cực quang xanh tím), 19092 (người dời xuống dưới bậc ngai).
+- 19047, 19068 đã xem lại: ổn. Chưa sửa: 4 ảnh chi tiết cao (19054, 19066, 19071, 19085), chuyển động, dựng video.

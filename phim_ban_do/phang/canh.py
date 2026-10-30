@@ -165,8 +165,8 @@ def _():
     o = ''
     for i, (x, y) in enumerate(((300, 1030), (560, 1060), (820, 1020), (1080, 1060), (1340, 1030), (1600, 1060))):
         sc = 1.7
-        o += f'<ellipse cx="{x-8*sc}" cy="{y-150*sc}" rx="{44*sc}" ry="{26*sc}" fill="#b09a68" transform="rotate(-16 {x} {y-150*sc})"/><path d="M{x-40*sc},{y-152*sc} q{30*sc},{-14*sc} {64*sc},{-6*sc}" stroke="#7a6a44" stroke-width="{2.4*sc}" fill="none"/>'
         o += soldier(x, y, sc, i + 3, back=True, pose='hands', pen=False)
+        o += f'<ellipse cx="{x+30*sc}" cy="{y-70*sc}" rx="{30*sc}" ry="{18*sc}" fill="#b09a68" transform="rotate(-12 {x+30*sc} {y-70*sc})"/><path d="M{x+6*sc},{y-72*sc} q{22*sc},{-10*sc} {46*sc},{-4*sc}" stroke="#7a6a44" stroke-width="{2.2*sc}" fill="none"/>'
     L.append(G('carriers', o))
     return svg(L, 'day')
 
@@ -298,7 +298,7 @@ def _():
     L.append(horse(960, 1000, 1.7, '#4a2e22', facing=1))
     L.append(sit('LTK_G', 960, 1000 - 350 + 52, 1.7, pose='hands'))
     # kiếm trong bao đeo hông
-    L.append(f'<path d="M{960-30},{1000-350+60} l-60,54 l10,10 l60,-50Z" fill="#2a1d1a"/><rect x="{960-34}" y="{1000-350+52}" width="14" height="14" fill="#e0b040"/>')
+    L.append(f'<path d="M{960-30},{1000-350+60} l-62,56 l12,12 l62,-52Z" fill="#3a2a22" stroke="#1a1210" stroke-width="3" stroke-linejoin="round"/><rect x="{960-38}" y="{1000-350+48}" width="18" height="18" rx="3" fill="#e0b040" stroke="#7a5a18" stroke-width="2.5"/><path d="M{960-30},{1000-350+60} l-62,56" stroke="#b9bcc4" stroke-width="2" opacity=".6"/>')
     L.append(pennant(1500, 560, 960, PEN_V, 150))
     L.append(dust(900, 1040, 700))
     return svg(L, 'day')
@@ -564,7 +564,13 @@ def _():
     L = [sky('day', sun=(1700, 160)), clouds('day', 18, 4)]
     L.append('<rect y="0" width="1920" height="1080" fill="#7aa05a"/>')
     L.append('<polygon points="0,200 760,200 560,1080 0,1080" fill="#5f95b0"/>')  # sông, nhìn từ trên cao
-    L.append(G('road', '<polygon points="1040,150 1220,150 1500,1080 1060,1080" fill="#b8905f"/>'))
+    pad = ''
+    for k in range(7):
+        y0 = 260 + k * 120
+        pad += f'<polygon points="{1280+k*60},{y0} 1920,{y0-30} 1920,{y0+70} {1330+k*70},{y0+90}" fill="{["#8fb85e","#6f9a48"][k%2]}" opacity=".85"/>'
+    L.append(G('fields', pad))
+    L.append('<polygon points="760,200 800,200 560,1080 500,1080" fill="#d8c79a" opacity=".55"/>')
+    L.append(G('road', '<polygon points="1040,150 1220,150 1500,1080 1060,1080" fill="#b8905f"/><polygon points="1120,150 1140,150 1280,1080 1250,1080" fill="#d0a876" opacity=".5"/>'))
     L.append(G('boats', ''.join(boat(220 + (i % 2) * 150, 330 + i * 130, .6) for i in range(5))))
     o = ''
     for i in range(18):
@@ -615,8 +621,9 @@ def _():
         L.append(f'<g>{soldier(x, y + 20, 1.0, i + 80, pen=(i == 0), pose="spear")}</g>')
         L.append(f'<ellipse cx="{x}" cy="{y+60}" rx="{160 if i==0 else 120}" ry="{96 if i==0 else 72}" fill="#58524a"/>')
     # quân lam hành quân bên phải
-    L.append(G('blue', ''.join(soldier(1500 + (i % 2) * 90, 700 + i * 70, .8 + i * .1, i + 90, 'song', pen=(i % 2 == 0), pose='spear') for i in range(5))))
-    L.append(dust(1500, 1000, 400, .3))
+    pts = ((930, 580, .5), (1060, 640, .62), (900, 720, .74), (1090, 810, .88), (960, 930, 1.04))
+    L.append(G('blue', ''.join(soldier(x, y, s, i + 90, 'song', pen=(i % 2 == 0), pose='spear') for i, (x, y, s) in enumerate(pts))))
+    L.append(dust(1000, 1000, 500, .3))
     return svg(L, 'day')
 
 
@@ -692,12 +699,11 @@ def _():
     L.append(G('glow', '<ellipse cx="960" cy="640" rx="760" ry="200" fill="#ff7a2a" opacity=".35"/><ellipse cx="960" cy="620" rx="420" ry="120" fill="#ffb347" opacity=".35"/>'))
     cols = ''
     for cx, sx in ((520, -1), (960, 0.4), (1400, 1)):
-        for k in range(9):
-            r = 56 + k * 17
-            x = cx + sx * k * 22 + (k % 2) * 14
-            y = 640 - k * 62
-            shade = ['#1c1614', '#2a201c', '#3a2e28', '#4a3c34'][k % 4]
-            cols += f'<circle class="smoke" cx="{x}" cy="{y}" r="{r}" fill="{shade}" opacity="{0.9-k*0.05:.2f}"/>'
+        for k, (sw, col, op) in enumerate(((190, '#1c1614', .55), (130, '#2a201c', .6), (80, '#3a2e28', .65))):
+            dx = sx * 60
+            cols += (f'<path class="smoke" d="M{cx-sw/2},650 C{cx-sw*0.9+dx*0.3},470 {cx+sw*0.2+dx},380 {cx+dx*1.2-sw*0.2},230 '
+                     f'C{cx+dx*1.4},120 {cx+dx*1.8+sw*0.6},60 {cx+dx*2.2},0 L{cx+dx*2.2+sw*1.4},0 '
+                     f'C{cx+dx*1.9+sw*1.5},140 {cx+dx*1.3+sw*1.2},260 {cx+dx*0.9+sw*0.9},400 C{cx+sw*0.9},520 {cx+sw/2},600 {cx+sw/2},650Z" fill="{col}" opacity="{op}"/>')
     L.append(G('smoke', cols))
     L.append(wall(620, 'smoke', tower_x=960, side='song', h=460))
     L.append(road('smoke', (900, 1020), 880, '#6a4a38'))
@@ -846,7 +852,7 @@ def _():
     L.append(river(780, 1080, 'night'))
     # dải sáng như nét cọ trên sông và trời
     o = ''
-    for i, (c, y) in enumerate((('#7affc8', 300), ('#9ab8ff', 380), ('#c8a0ff', 460))):
+    for i, (c, y) in enumerate((('#fff2c8', 300), ('#e8e0ff', 380), ('#f4d8a0', 460))):
         o += f'<path d="M0,{y} C400,{y-120} 700,{y+120} 1100,{y-40} S1700,{y-140} 1920,{y+20}" stroke="{c}" stroke-width="{46-i*8}" fill="none" opacity=".28" stroke-linecap="round"/>'
         o += f'<path d="M0,{y+520} C400,{y+400} 700,{y+640} 1100,{y+480} S1700,{y+380} 1920,{y+540}" stroke="{c}" stroke-width="{30-i*6}" fill="none" opacity=".16" stroke-linecap="round"/>'
     L.append(G('ribbons', o))
@@ -1072,7 +1078,7 @@ def _():
     for i, (who, x) in enumerate((('TT', 420), ('TTG', 960), ('NT', 1500))):
         L.append(f'<g opacity=".4">{sit(who, x, 780, 1.6, pose="hands")}</g>')
     L.append(mat('560,946 1360,946 1560,1080 360,1080'))
-    L.append(P('LTK_L', 960, 1060, 2.0, pose='hands', back=True, face=False))
+    L.append(P('LTK_L', 960, 1072, 1.3, pose='hands', back=True, face=False))
     return svg(L)
 
 

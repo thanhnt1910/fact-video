@@ -28,16 +28,22 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
         o.append(f'<path d="M{x-44*s},{y-4*s} L{x},{y-44*s} L{x-12*s},{y-8*s}Z" fill="#a9863f"/>')
         for k in (-20, -8, 6, 18):
             o.append(f'<line x1="{x}" y1="{y-44*s}" x2="{x+k*2*s}" y2="{y-6*s}" stroke="#a9863f" stroke-width="{1.2*s}"/>')
+        o.append(f'<path d="M{x-13*s},{y-3*s} Q{x-15*s},{y+14*s} {x},{y+17*s} Q{x+15*s},{y+14*s} {x+13*s},{y-3*s}" stroke="#7b2a22" stroke-width="{1.4*s}" fill="none"/>')
     elif hat == 'helmet':
         o.append(f'<path d="M{x-19*s},{y-2*s} Q{x},{y-34*s} {x+19*s},{y-2*s}Z" fill="#4a4e58"/><rect x="{x-20*s}" y="{y-5*s}" width="{40*s}" height="{4*s}" fill="#2e3038"/>')
         o.append(f'<path d="M{x},{y-30*s} q{4*s},{-14*s} {12*s},{-10*s} q{-4*s},{8*s} {-12*s},{10*s}Z" fill="#b8352a"/>')
-    elif hat == 'song':  # mũ hai cánh phẳng của quan Tống
-        o.append(f'<path d="M{x-17*s},{y-2*s} Q{x},{y-30*s} {x+17*s},{y-2*s}Z" fill="#14121a"/>')
-        o.append(f'<path d="M{x-17*s},{y-14*s} L{x-62*s},{y-20*s} L{x-62*s},{y-10*s} L{x-17*s},{y-6*s}Z" fill="#14121a"/><path d="M{x+17*s},{y-14*s} L{x+62*s},{y-20*s} L{x+62*s},{y-10*s} L{x+17*s},{y-6*s}Z" fill="#14121a"/>')
-    elif hat == 'crownS':  # mũ miện hoàng đế Tống: tấm phẳng, rèm hạt
-        o.append(f'<rect x="{x-30*s}" y="{y-26*s}" width="{60*s}" height="{9*s}" fill="#14121a"/><rect x="{x-17*s}" y="{y-18*s}" width="{34*s}" height="{10*s}" fill="#14121a"/>')
-        for k in range(-3, 4):
-            o.append(f'<line x1="{x+k*8*s}" y1="{y-17*s}" x2="{x+k*8*s}" y2="{y-3*s}" stroke="#e0b040" stroke-width="{1.5*s}"/>')
+    elif hat == 'song':  # mũ phốc đầu của quan Tống: thân mũ cao, hai cánh dài nằm ngang
+        o.append(f'<rect x="{x-15*s}" y="{y-34*s}" width="{30*s}" height="{30*s}" rx="{11*s}" fill="#14121a"/>')
+        o.append(f'<rect x="{x-17*s}" y="{y-12*s}" width="{34*s}" height="{6*s}" fill="#e0b040"/>')
+        o.append(f'<rect x="{x-15*s}" y="{y-26*s}" width="{30*s}" height="{3*s}" fill="#2a2630"/>')
+        for sd in (-1, 1):
+            o.append(f'<rect x="{x+(10 if sd>0 else -58)*s}" y="{y-23*s}" width="{48*s}" height="{6*s}" rx="{3*s}" fill="#14121a"/>')
+            o.append(f'<rect x="{x+(10 if sd>0 else -58)*s}" y="{y-23*s}" width="{48*s}" height="{1.6*s}" rx="{1*s}" fill="#3a3642"/>')
+    elif hat == 'crownS':  # mũ miện hoàng đế: tấm phẳng trên cao, rèm hạt ngọc hai bên
+        o.append(f'<rect x="{x-17*s}" y="{y-24*s}" width="{34*s}" height="{18*s}" rx="{4*s}" fill="#14121a"/>')
+        o.append(f'<rect x="{x-38*s}" y="{y-34*s}" width="{76*s}" height="{9*s}" rx="{2*s}" fill="#14121a"/><rect x="{x-38*s}" y="{y-34*s}" width="{76*s}" height="{2.4*s}" fill="#e0b040"/>')
+        for k in range(-4, 5):
+            o.append(f'<line x1="{x+k*8.5*s}" y1="{y-25*s}" x2="{x+k*8.5*s}" y2="{y-6*s}" stroke="#e8d890" stroke-width="{1.4*s}"/><circle cx="{x+k*8.5*s}" cy="{y-6*s}" r="{1.8*s}" fill="#e8d890"/>')
     elif hat == 'champa':  # mũ tầng vàng Chăm-pa
         for i, w in enumerate((24, 19, 14, 9)):
             o.append(f'<path d="M{x-w*s},{y-8*s-i*13*s} L{x-(w-3)*s},{y-21*s-i*13*s} L{x+(w-3)*s},{y-21*s-i*13*s} L{x+w*s},{y-8*s-i*13*s}Z" fill="#e0b040" stroke="#a9781d" stroke-width="{1.1*s}"/>')
@@ -51,9 +57,12 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
             o.append(f'<path d="M{x-17*s},{y-8*s} L{x-12*s},{y-26*s} L{x-5*s},{y-14*s} L{x},{y-30*s} L{x+5*s},{y-14*s} L{x+12*s},{y-26*s} L{x+17*s},{y-8*s}Z" fill="#e2b13c" stroke="#a9781d" stroke-width="{1.2*s}"/>')
         if crown == 'headband':
             o.append(f'<rect x="{x-17*s}" y="{y-9*s}" width="{34*s}" height="{5*s}" fill="#b8352a"/>')
+    o.append(f'<circle cx="{x-16*s}" cy="{y+2*s}" r="{3.4*s}" fill="{sk}"/><circle cx="{x+16*s}" cy="{y+2*s}" r="{3.4*s}" fill="{sk}"/>')
     if back:
         return ''.join(o)
     if face:
+        o.append(f'<circle cx="{x-9*s}" cy="{y+6*s}" r="{3*s}" fill="#d9776a" opacity=".28"/><circle cx="{x+9*s}" cy="{y+6*s}" r="{3*s}" fill="#d9776a" opacity=".28"/>')
+        o.append(f'<path d="M{x},{y+1*s} q{1.5*s},{4*s} 0,{5*s}" stroke="{sh(sk,.7)}" stroke-width="{1.2*s}" fill="none"/>')
         ex = (5.5 + rnd.random() * 2) * s
         dx = look * 3 * s
         o.append(f'<circle cx="{x-ex+dx}" cy="{y+1*s}" r="{1.9*s}" fill="#241a1a"/><circle cx="{x+ex+dx}" cy="{y+1*s}" r="{1.9*s}" fill="#241a1a"/>')
@@ -73,24 +82,36 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
     return ''.join(o)
 
 
-def _arms(x, y, s, col, pose):
+def _arms(x, y, s, col, pose, wide=False):
     h = 150 * s
     c = sh(col, .9)
+    cuff = sh(col, 1.3)
+    skin = TONES[0]
+    w = 1.5 if wide else 1.0
     if pose == 'hands':
-        return (f'<path d="M{x-21*s},{y-h*0.84} Q{x-30*s},{y-h*0.55} {x-6*s},{y-h*0.52} L{x+6*s},{y-h*0.52} Q{x+30*s},{y-h*0.55} {x+21*s},{y-h*0.84} '
-                f'L{x+14*s},{y-h*0.8} Q{x+16*s},{y-h*0.6} {x},{y-h*0.6} Q{x-16*s},{y-h*0.6} {x-14*s},{y-h*0.8}Z" fill="{c}"/>')
+        o = (f'<path d="M{x-21*s},{y-h*0.84} Q{x-30*s*w},{y-h*0.55} {x-6*s},{y-h*0.52} L{x+6*s},{y-h*0.52} Q{x+30*s*w},{y-h*0.55} {x+21*s},{y-h*0.84} '
+             f'L{x+14*s},{y-h*0.8} Q{x+16*s},{y-h*0.6} {x},{y-h*0.6} Q{x-16*s},{y-h*0.6} {x-14*s},{y-h*0.8}Z" fill="{c}"/>')
+        o += f'<path d="M{x-8*s},{y-h*0.54} Q{x},{y-h*0.5} {x+8*s},{y-h*0.54} L{x+8*s},{y-h*0.57} Q{x},{y-h*0.53} {x-8*s},{y-h*0.57}Z" fill="{cuff}"/>'
+        o += f'<circle cx="{x}" cy="{y-h*0.585}" r="{4.2*s}" fill="{skin}"/>'
+        if wide:
+            o += f'<path d="M{x-24*s},{y-h*0.8} Q{x-40*s},{y-h*0.5} {x-30*s},{y-h*0.3} L{x-18*s},{y-h*0.32} Q{x-22*s},{y-h*0.55} {x-16*s},{y-h*0.78}Z" fill="{c}" opacity=".85"/>'
+            o += f'<path d="M{x+24*s},{y-h*0.8} Q{x+40*s},{y-h*0.5} {x+30*s},{y-h*0.3} L{x+18*s},{y-h*0.32} Q{x+22*s},{y-h*0.55} {x+16*s},{y-h*0.78}Z" fill="{c}" opacity=".85"/>'
+        return o
     if pose == 'spear':
         return (f'<path d="M{x-21*s},{y-h*0.84} Q{x-32*s},{y-h*0.55} {x-14*s},{y-h*0.5} L{x-8*s},{y-h*0.56} Q{x-20*s},{y-h*0.6} {x-14*s},{y-h*0.8}Z" fill="{c}"/>'
+                f'<circle cx="{x-11*s}" cy="{y-h*0.53}" r="{3.6*s}" fill="{skin}"/>'
                 f'<path d="M{x+21*s},{y-h*0.84} Q{x+36*s},{y-h*0.7} {x+30*s},{y-h*0.6} L{x+22*s},{y-h*0.62} Q{x+24*s},{y-h*0.72} {x+14*s},{y-h*0.8}Z" fill="{c}"/>'
-                f'<circle cx="{x+27*s}" cy="{y-h*0.6}" r="{4*s}" fill="{TONES[0]}"/>')
+                f'<circle cx="{x+27*s}" cy="{y-h*0.6}" r="{4.2*s}" fill="{skin}"/>')
     if pose == 'point':
         return (f'<path d="M{x+20*s},{y-h*0.84} L{x+66*s},{y-h*0.95} L{x+68*s},{y-h*0.88} L{x+22*s},{y-h*0.7}Z" fill="{c}"/>'
-                f'<circle cx="{x+68*s}" cy="{y-h*0.92}" r="{4*s}" fill="{TONES[0]}"/>'
-                f'<path d="M{x-21*s},{y-h*0.84} Q{x-30*s},{y-h*0.6} {x-14*s},{y-h*0.5} L{x-8*s},{y-h*0.55} Q{x-18*s},{y-h*0.62} {x-14*s},{y-h*0.8}Z" fill="{c}"/>')
-    if pose == 'up':  # giơ một tay (nhận, thưa)
+                f'<circle cx="{x+70*s}" cy="{y-h*0.92}" r="{4.4*s}" fill="{skin}"/><path d="M{x+72*s},{y-h*0.93} l{9*s},{-2*s}" stroke="{skin}" stroke-width="{2.6*s}" stroke-linecap="round"/>'
+                f'<path d="M{x-21*s},{y-h*0.84} Q{x-30*s},{y-h*0.6} {x-14*s},{y-h*0.5} L{x-8*s},{y-h*0.55} Q{x-18*s},{y-h*0.62} {x-14*s},{y-h*0.8}Z" fill="{c}"/>'
+                f'<circle cx="{x-11*s}" cy="{y-h*0.53}" r="{3.6*s}" fill="{skin}"/>')
+    if pose == 'up':
         return (f'<path d="M{x+20*s},{y-h*0.84} L{x+44*s},{y-h*1.0} L{x+50*s},{y-h*0.93} L{x+24*s},{y-h*0.72}Z" fill="{c}"/>'
-                f'<circle cx="{x+47*s}" cy="{y-h*0.99}" r="{4*s}" fill="{TONES[0]}"/>'
-                f'<path d="M{x-21*s},{y-h*0.84} Q{x-30*s},{y-h*0.6} {x-14*s},{y-h*0.5} L{x-8*s},{y-h*0.55} Q{x-18*s},{y-h*0.62} {x-14*s},{y-h*0.8}Z" fill="{c}"/>')
+                f'<circle cx="{x+47*s}" cy="{y-h*0.99}" r="{4.4*s}" fill="{skin}"/>'
+                f'<path d="M{x-21*s},{y-h*0.84} Q{x-30*s},{y-h*0.6} {x-14*s},{y-h*0.5} L{x-8*s},{y-h*0.55} Q{x-18*s},{y-h*0.62} {x-14*s},{y-h*0.8}Z" fill="{c}"/>'
+                f'<circle cx="{x-11*s}" cy="{y-h*0.53}" r="{3.6*s}" fill="{skin}"/>')
     return ''
 
 
@@ -98,27 +119,42 @@ def body(x, y, s, col, sash='#a8452f', trim=None, armor=None, pose='hands', spea
     h = 150 * s
     o = []
     dark = sh(col, .72)
+    edge = trim or sh(col, 1.35)
+    o.append(f'<ellipse cx="{x}" cy="{y+2*s}" rx="{44*s}" ry="{7*s}" fill="#000" opacity=".16"/>')
     o.append(f'<ellipse cx="{x-9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/><ellipse cx="{x+9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/>')
     if skirt or long:
-        o.append(f'<path d="M{x-17*s},{y-h*0.52} L{x-26*s},{y-2*s} L{x+26*s},{y-2*s} L{x+17*s},{y-h*0.52}Z" fill="{dark}"/>')
-        o.append(f'<path d="M{x-24*s},{y-8*s} Q{x},{y-2*s} {x+24*s},{y-8*s}" stroke="{sh(col,.55)}" stroke-width="{2*s}" fill="none"/>')
+        o.append(f'<path d="M{x-17*s},{y-h*0.52} L{x-27*s},{y-2*s} L{x+27*s},{y-2*s} L{x+17*s},{y-h*0.52}Z" fill="{dark}"/>')
+        o.append(f'<path d="M{x-26*s},{y-9*s} Q{x},{y-2*s} {x+26*s},{y-9*s} L{x+27*s},{y-2*s} L{x-27*s},{y-2*s}Z" fill="{edge}"/>')
+        for k in (-14, -5, 5, 14):
+            o.append(f'<line x1="{x+k*s}" y1="{y-h*0.4}" x2="{x+k*1.7*s}" y2="{y-10*s}" stroke="{sh(col,.58)}" stroke-width="{1.2*s}"/>')
     else:
         o.append(f'<path d="M{x-17*s},{y-h*0.52} L{x-22*s},{y-4*s} L{x+22*s},{y-4*s} L{x+17*s},{y-h*0.52}Z" fill="{dark}"/>')
         o.append(f'<line x1="{x}" y1="{y-h*0.4}" x2="{x}" y2="{y-4*s}" stroke="{sh(col,.55)}" stroke-width="{1.5*s}"/>')
+        o.append(f'<rect x="{x-22*s}" y="{y-14*s}" width="{44*s}" height="{3*s}" fill="{sh(col,.6)}"/>')
     ext = 6 * s if wide else 0
     hem = h * 0.12 if long else h * 0.3
+    # cổ
+    o.append(f'<rect x="{x-6*s}" y="{y-h*0.9}" width="{12*s}" height="{h*0.07}" fill="{TONES[2]}"/>')
     o.append(f'<path d="M{x-21*s-ext},{y-h*0.86} L{x-24*s-ext},{y-hem} L{x+24*s+ext},{y-hem} L{x+21*s+ext},{y-h*0.86} Q{x},{y-h*0.9} {x-21*s-ext},{y-h*0.86}Z" fill="{col}"/>')
+    # bóng bên phải + sáng bên trái
+    o.append(f'<path d="M{x+4*s},{y-h*0.88} L{x+21*s+ext},{y-h*0.86} L{x+24*s+ext},{y-hem} L{x+6*s},{y-hem}Z" fill="#000" opacity=".12"/>')
+    o.append(f'<path d="M{x-21*s-ext},{y-h*0.86} L{x-12*s},{y-h*0.86} L{x-14*s},{y-hem} L{x-24*s-ext},{y-hem}Z" fill="#fff" opacity=".08"/>')
     if not back:
-        o.append(f'<path d="M{x-12*s},{y-h*0.88} L{x+6*s},{y-h*0.5} M{x+12*s},{y-h*0.88} L{x-6*s},{y-h*0.55}" stroke="{sh(col,.6)}" stroke-width="{2.2*s}" fill="none"/>')
+        o.append(f'<path d="M{x-7*s},{y-h*0.9} L{x+1*s},{y-h*0.76} L{x+7*s},{y-h*0.9}" stroke="#f1ece0" stroke-width="{3*s}" fill="none" opacity=".95"/>')
+        o.append(f'<path d="M{x-12*s},{y-h*0.88} L{x+5*s},{y-h*0.62} M{x+12*s},{y-h*0.88} L{x-5*s},{y-h*0.64}" stroke="{edge}" stroke-width="{2.4*s}" fill="none"/>')
     else:
         o.append(f'<line x1="{x}" y1="{y-h*0.88}" x2="{x}" y2="{y-h*0.42}" stroke="{sh(col,.6)}" stroke-width="{1.6*s}"/>')
-    if trim and not back:
-        o.append(f'<path d="M{x-12*s},{y-h*0.88} L{x+6*s},{y-h*0.5}" stroke="{trim}" stroke-width="{1.6*s}" fill="none"/>')
+    # nẹp gấu áo
+    o.append(f'<path d="M{x-24*s-ext},{y-hem-6*s} L{x+24*s+ext},{y-hem-6*s} L{x+24*s+ext},{y-hem} L{x-24*s-ext},{y-hem}Z" fill="{edge}" opacity=".85"/>')
     if armor:
-        o.append(f'<path d="M{x-22*s},{y-h*0.85} Q{x-30*s},{y-h*0.78} {x-26*s},{y-h*0.7} L{x-16*s},{y-h*0.78}Z" fill="{armor}"/><path d="M{x+22*s},{y-h*0.85} Q{x+30*s},{y-h*0.78} {x+26*s},{y-h*0.7} L{x+16*s},{y-h*0.78}Z" fill="{armor}"/>')
-        o.append(f'<path d="M{x-20*s},{y-h*0.8} L{x+20*s},{y-h*0.8} L{x+18*s},{y-h*0.52} L{x-18*s},{y-h*0.52}Z" fill="{armor}" opacity=".55"/>')
-    o.append(f'<rect x="{x-23*s-ext}" y="{y-h*0.42}" width="{46*s+2*ext}" height="{8*s}" fill="{sash}"/><path d="M{x+8*s},{y-h*0.4} l{4*s},{26*s} l{-9*s},0z" fill="{sash}"/>')
-    o.append(_arms(x, y, s, col, pose))
+        o.append(f'<path d="M{x-22*s},{y-h*0.85} Q{x-32*s},{y-h*0.78} {x-27*s},{y-h*0.68} L{x-15*s},{y-h*0.78}Z" fill="{armor}"/><path d="M{x+22*s},{y-h*0.85} Q{x+32*s},{y-h*0.78} {x+27*s},{y-h*0.68} L{x+15*s},{y-h*0.78}Z" fill="{armor}"/>')
+        o.append(f'<path d="M{x-20*s},{y-h*0.8} L{x+20*s},{y-h*0.8} L{x+18*s},{y-h*0.52} L{x-18*s},{y-h*0.52}Z" fill="{armor}" opacity=".6"/>')
+        for k in range(4):
+            o.append(f'<line x1="{x-18*s}" y1="{y-h*(0.74-k*0.07)}" x2="{x+18*s}" y2="{y-h*(0.74-k*0.07)}" stroke="#000" stroke-width="{1.1*s}" opacity=".25"/>')
+    o.append(f'<rect x="{x-23*s-ext}" y="{y-h*0.42}" width="{46*s+2*ext}" height="{8*s}" fill="{sash}"/><rect x="{x-3*s}" y="{y-h*0.425}" width="{7*s}" height="{9*s}" rx="{2*s}" fill="#e8d890" stroke="#8a6a20" stroke-width="{0.8*s}"/>')
+    if not back:
+        o.append(f'<path d="M{x+8*s},{y-h*0.4} l{4*s},{26*s} l{-9*s},0z" fill="{sash}"/>')
+    o.append(_arms(x, y, s, col, pose, wide=wide))
     if pose == 'spear' and spear:
         o.append(f'<line x1="{x+27*s}" y1="{y+2*s}" x2="{x+27*s}" y2="{y-h*1.55}" stroke="#6b4a2a" stroke-width="{3.2*s}"/>')
         o.append(f'<path d="M{x+23*s},{y-h*1.55} L{x+27*s},{y-h*1.72} L{x+31*s},{y-h*1.55}Z" fill="#b9bcc4"/>')
@@ -172,7 +208,7 @@ def svg(layers, kind='day', extra_defs=''):
              '<feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .07 0"/></filter>')
     body_ = ''.join(layers)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">'
-            f'<defs>{g}{grain}{extra_defs}</defs>{body_}<rect width="{W}" height="{H}" filter="url(#gr)"/></svg>')
+            f'<defs>{g}{grain}<radialGradient id="vg" cx=".5" cy=".5" r=".75"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></radialGradient>{extra_defs}</defs>{body_}<rect width="{W}" height="{H}" fill="url(#vg)"/><rect width="{W}" height="{H}" filter="url(#gr)"/></svg>')
 
 
 def G(name, content):

@@ -155,28 +155,20 @@ def scene(n):
 
 
 @scene(19002)
-def _(): 
+def _():
     L = outdoor('day', sun=(1500, 300))
     L.append(wall(560, 'grey', tower_x=420, side='song', h=520, merlon=True))
-    # đoạn tường Tống: ngói + cờ lam
-    L.append(pennant(1000, 300, 560, PEN_S))
-    L.append(pennant(1500, 330, 560, PEN_S))
+    L.append(pennant(1000, 300, 560, PEN_S)); L.append(pennant(1500, 330, 560, PEN_S))
     L.append(ground('day', 860, '#7a6a3f'))
-    # dốc đất đắp dần
-    L.append(G('ramp', '<polygon points="500,1080 1500,1080 1360,800 760,760 600,780" fill="#9a7a4a"/><polygon points="760,760 1360,800 1420,860 700,830" fill="#b09258"/>'))
-    L.append(G('sacks', sacks(1000, 800, .9, 6) + sacks(960, 780, .9, 4)))
-    # lính khiêng bao đất, nhìn từ sau, nhỏ
+    L.append(G('ramp', '<polygon points="380,1080 1620,1080 1380,760 760,700 560,760" fill="#9a7a4a"/><polygon points="760,700 1380,760 1460,830 700,790" fill="#b09258"/>'))
+    L.append(G('sacks', sacks(1040, 790, 1.2, 6) + sacks(980, 748, 1.2, 4) + sacks(1280, 800, 1.2, 3)))
     o = ''
-    r = random.Random(2)
-    for i in range(9):
-        x = 300 + i * 150 + r.randint(-20, 20)
-        y = 960 + (i % 3) * 40
-        sc = 1.15 - (i % 3) * 0.12
+    for i, (x, y) in enumerate(((300, 1030), (560, 1060), (820, 1020), (1080, 1060), (1340, 1030), (1600, 1060))):
+        sc = 1.7
+        o += f'<ellipse cx="{x-8*sc}" cy="{y-150*sc}" rx="{44*sc}" ry="{26*sc}" fill="#b09a68" transform="rotate(-16 {x} {y-150*sc})"/><path d="M{x-40*sc},{y-152*sc} q{30*sc},{-14*sc} {64*sc},{-6*sc}" stroke="#7a6a44" stroke-width="{2.4*sc}" fill="none"/>'
         o += soldier(x, y, sc, i + 3, back=True, pose='hands', pen=False)
-        o += f'<ellipse cx="{x+8*sc}" cy="{y-150*sc*0.9}" rx="{30*sc}" ry="{20*sc}" fill="#b09a68" transform="rotate(-18 {x} {y})"/>'
     L.append(G('carriers', o))
     return svg(L, 'day')
-
 
 @scene(19003)
 def _(): 
@@ -187,14 +179,14 @@ def _():
     L.append(huts('day', [(180, 840, .9), (360, 850, 1.1), (540, 835, .8)]))
     L.append(tree(90, 860, .9))
     L.append(pennant(700, 520, 840, PEN_V, 140))
-    L.append(soldier(780, 900, 1.4, 5, pen=False, pose='hands'))
+    L.append(soldier(780, 980, 2.1, 5, pen=False, pose='hands'))
     # phải: pháo đài khổng lồ nhiều tầng + cờ lam
     L.append(G('right', '<rect x="1060" y="560" width="860" height="320" fill="#6a7684"/>'))
     for r in range(0, 8):
         L.append(f'<line x1="1060" y1="{580+r*40}" x2="1920" y2="{580+r*40}" stroke="#56606c" stroke-width="2"/>')
     L.append(pagoda(1500, 560, 1.7, '#566070', '#16202c', '#2e3a48', glow=False))
     L.append(pennant(1160, 300, 560, PEN_S, 140))
-    L.append(soldier(1240, 920, 1.4, 6, side='song', pen=False, pose='hands'))
+    L.append(soldier(1240, 990, 2.1, 6, side='song', pen=False, pose='hands'))
     L.append(wall(860, 'grey', side='song', h=220, merlon=False)) if False else None
     return svg([l for l in L if l], 'day')
 
@@ -359,20 +351,17 @@ def _():
 @scene(19019)
 def _():
     L = outdoor('day', sun=(960, 260), cl=11)
-    L.append(ground('day', 780, '#9a8a4f'))
+    L.append(ground('day', 780, '#a8984f'))
     L.append(G('field', '<rect y="780" width="1920" height="300" fill="#a8984f"/>'))
-    r = random.Random(9)
     o = ''
-    for i in range(14):
-        x = 120 + i * 62
-        o += soldier(x, 880 + (i % 3) * 36, .8, i, 'viet', pen=(i % 2 == 0), penc=PEN_V, pose='spear')
-    for i in range(14):
-        x = 1800 - i * 62
-        o += soldier(x, 880 + (i % 3) * 36, .8, i + 20, 'viet', pen=(i % 2 == 0), penc=PEN_O, pose='spear')
+    for row, (y, s) in enumerate(((880, 1.0), (960, 1.25), (1040, 1.5))):
+        for i in range(5 - row if row < 2 else 4):
+            x = 90 + i * 150 + row * 40
+            o += soldier(x, y, s, i + row * 7, 'viet', pen=(i % 2 == 0), penc=PEN_V, pose='spear')
+            o += soldier(1830 - i * 150 - row * 40, y, s, i + row * 7 + 30, 'viet', pen=(i % 2 == 0), penc=PEN_O, pose='spear')
     L.append(G('armies', o))
-    L.append(dust(500, 940, 360, .3)); L.append(dust(1420, 940, 360, .3)); L.append(dust(960, 920, 220, .4))
+    L.append(dust(960, 960, 240, .42)); L.append(dust(560, 1000, 300, .3)); L.append(dust(1360, 1000, 300, .3))
     return svg(L, 'day')
-
 
 @scene(19020)
 def _():
@@ -412,17 +401,16 @@ def _():
     L = outdoor('grey', cl=13)
     L.append(ground('grey', 800, '#a8a090'))
     for x in (300, 960, 1620):
-        L.append(pagoda(x, 720, 1.5, '#8a8078', '#34383e', '#505860', glow=False))
-    L.append(G('court', '<rect y="720" width="1920" height="360" fill="#b0a898"/>'))
-    # kiệu gỗ trên hai đòn, bốn người khiêng áo gai trắng, nhìn từ xa
-    L.append(G('bier', '<rect x="560" y="780" width="840" height="14" fill="#6a4a2a"/><rect x="560" y="830" width="840" height="14" fill="#6a4a2a"/>'
-               '<rect x="700" y="690" width="560" height="100" fill="#8a6a44"/><rect x="700" y="690" width="560" height="14" fill="#6a4a2a"/><rect x="740" y="660" width="480" height="40" fill="#efe9dc"/>'))
-    for i, x in enumerate((600, 800, 1160, 1360)):
-        L.append(person(x, 960, 1.15, '#f1ede2', back=True, seed=80 + i, pose='hands', sash='#d8d2c4', turban='#f1ede2'))
-    for i in range(7):
-        L.append(person(300 + i * 220, 1040, 1.1, '#e8e3d6', back=True, seed=90 + i, pose='hands', sash='#d8d2c4', turban='#e8e3d6'))
+        L.append(pagoda(x, 600, 1.5, '#8a8078', '#34383e', '#505860', glow=False))
+    L.append(G('court', '<rect y="600" width="1920" height="480" fill="#b0a898"/>'))
+    for i, x in enumerate((130, 330, 640, 960, 1280, 1590, 1790)):
+        L.append(person(x, 930, 1.05, '#e8e3d6', back=True, seed=90 + i, pose='hands', sash='#d8d2c4', turban='#e8e3d6'))
+    L.append(G('bier', '<rect x="360" y="808" width="1200" height="16" fill="#6a4a2a"/><rect x="360" y="838" width="1200" height="16" fill="#6a4a2a"/>'
+               '<rect x="560" y="640" width="800" height="170" fill="#8a6a44"/><rect x="560" y="640" width="800" height="16" fill="#6a4a2a"/>'
+               '<rect x="600" y="590" width="720" height="56" fill="#efe9dc"/><path d="M600,590 q360,-30 720,0" stroke="#d8d2c4" stroke-width="8" fill="none"/>'))
+    for i, x in enumerate((520, 820, 1100, 1400)):
+        L.append(person(x, 1040, 1.75, '#f1ede2', back=True, seed=80 + i, pose='hands', sash='#d8d2c4', turban='#f1ede2'))
     return svg(L, 'grey')
-
 
 @scene(19024)
 def _():
@@ -582,7 +570,7 @@ def _():
     for i in range(18):
         x = 1130 + (i % 3) * 36 + i * 12
         y = 230 + i * 46
-        o += soldier(x, y, .55, i + 60, pen=(i % 3 == 0), pose='spear')
+        o += soldier(x, y, .7, i + 60, pen=(i % 3 == 0), pose='spear')
     L.append(G('column', o))
     for x, y in ((820, 300), (870, 700), (1580, 400)):
         L.append(tree(x, y, .6))
@@ -592,16 +580,14 @@ def _():
 @scene(19040)
 def _():
     L = outdoor('day', sun=(300, 260), cl=19)
-    L.append(river(700, 1080, 'day'))
-    L.append(G('shore', '<polygon points="0,700 1920,700 1920,800 1500,860 0,820" fill="#c9b283"/><rect y="760" width="1920" height="40" fill="#b09a68"/>'))
-    L.append(huts('day', [(1360, 770, .8), (1560, 765, .7), (1740, 770, .9)]))
-    L.append(tree(1840, 780, .8))
-    L.append(boat(400, 920, 1.2)); L.append(boat(820, 880, 1.0)); L.append(boat(1180, 940, 1.1))
-    # hàng dân được dẫn đi, từ xa và từ sau, bình thản
-    L.append(G('line', ''.join(person(700 + i * 85, 790 + (i % 2) * 8, .62, PCOL[i % 7], back=True, seed=120 + i, pose='hands', hat='cone' if i % 2 else None, turban='#5a4128' if i % 2 == 0 else None) for i in range(8))))
-    L.append(G('guards', ''.join(soldier(660 + i * 300, 830, .7, i + 70, back=True, pen=False, pose='spear') for i in range(3))))
+    L.append(river(660, 1080, 'day'))
+    L.append(G('shore', '<polygon points="0,660 1920,660 1920,780 1500,830 0,800" fill="#c9b283"/><rect y="740" width="1920" height="50" fill="#b09a68"/>'))
+    L.append(huts('day', [(1360, 740, .9), (1580, 735, .8), (1780, 740, 1.0)]))
+    L.append(tree(1860, 750, .9))
+    L.append(boat(380, 940, 1.7)); L.append(boat(860, 880, 1.4)); L.append(boat(1300, 960, 1.6))
+    L.append(G('line', ''.join(person(430 + i * 190, 800 + (i % 2) * 14, 1.0, PCOL[i % 7], back=True, seed=120 + i, pose='hands', hat='cone' if i % 2 else None, turban='#5a4128' if i % 2 == 0 else None) for i in range(6))))
+    L.append(G('guards', ''.join(soldier(340 + i * 420, 840, 1.15, i + 70, back=True, pen=False, pose='spear') for i in range(4))))
     return svg(L, 'day')
-
 
 @scene(19042)
 def _():
@@ -693,8 +679,8 @@ def _():
     L.append(G('ramp', '<polygon points="200,1080 1800,1080 1500,700 900,600 560,780" fill="#9a8450"/><polygon points="900,600 1500,700 1560,760 840,680" fill="#b09a68"/>'))
     L.append(G('sacks', sacks(1100, 860, 1.2, 6) + sacks(920, 780, 1.0, 4) + sacks(1260, 780, 1.0, 4) + sacks(720, 940, 1.2, 5)))
     for i, (x, y) in enumerate(((560, 960), (760, 1020), (1360, 1010), (1560, 950))):
-        L.append(soldier(x, y, .85, i + 100, back=True, pose='hands', pen=False))
-        L.append(f'<ellipse cx="{x+8}" cy="{y-128*.85}" rx="30" ry="20" fill="#b09a68" transform="rotate(-18 {x} {y})"/>')
+        L.append(soldier(x, y + 30, 1.4, i + 100, back=True, pose='hands', pen=False))
+        L.append(f'<ellipse cx="{x+14}" cy="{y+30-92*1.4}" rx="40" ry="24" fill="#b09a68" transform="rotate(-18 {x} {y})"/>')
     return svg(L, 'grey')
 
 
@@ -702,15 +688,21 @@ def _():
 def _():
     L = [sky('smoke'), clouds('smoke', 26, 4), mountains('smoke', 700, 4)]
     L.append(ground('smoke', 880))
-    L.append(wall(620, 'smoke', tower_x=960, side='song', h=400))
-    big = ''
-    for x in (780, 960, 1160):
-        big += f'<ellipse class="smoke" cx="{x}" cy="300" rx="130" ry="200" fill="#1c1614" opacity=".75"/><ellipse class="smoke" cx="{x+40}" cy="140" rx="180" ry="150" fill="#2a201c" opacity=".6"/>'
-    big += '<ellipse cx="960" cy="520" rx="320" ry="90" fill="#ff7a2a" opacity=".35"/>'
-    L.append(G('smoke', big))
+    # lửa cháy sau tường: quầng cam, cột khói đen cuộn lên từ phía sau tường
+    L.append(G('glow', '<ellipse cx="960" cy="640" rx="760" ry="200" fill="#ff7a2a" opacity=".35"/><ellipse cx="960" cy="620" rx="420" ry="120" fill="#ffb347" opacity=".35"/>'))
+    cols = ''
+    for cx, sx in ((520, -1), (960, 0.4), (1400, 1)):
+        for k in range(9):
+            r = 56 + k * 17
+            x = cx + sx * k * 22 + (k % 2) * 14
+            y = 640 - k * 62
+            shade = ['#1c1614', '#2a201c', '#3a2e28', '#4a3c34'][k % 4]
+            cols += f'<circle class="smoke" cx="{x}" cy="{y}" r="{r}" fill="{shade}" opacity="{0.9-k*0.05:.2f}"/>'
+    L.append(G('smoke', cols))
+    L.append(wall(620, 'smoke', tower_x=960, side='song', h=460))
     L.append(road('smoke', (900, 1020), 880, '#6a4a38'))
+    L.append(G('door', '<rect x="900" y="540" width="120" height="82" fill="#ff7a2a" opacity=".22"/>'))
     return svg(L, 'smoke')
-
 
 @scene(19051)
 def _():
@@ -774,16 +766,18 @@ def _():
 @scene(19055)
 def _():
     L = outdoor('day', sun=(960, 240), cl=30, mt=700)
-    L.append(ground('day', 800, '#a8984f'))
+    L.append(ground('day', 780, '#a8984f'))
     cols = ['#2e4a80', '#8a2a24', '#d9892e', '#3a6a4a', '#6a3a7a', '#e0b040', '#2e6a6a', '#7a7a80', '#a84a7a']
     o = ''
     for i, c in enumerate(cols):
-        x = 120 + i * 205
-        o += f'<line x1="{x}" y1="900" x2="{x}" y2="470" stroke="#2a1d1a" stroke-width="8"/><path class="pen" d="M{x},{480} L{x+130},{490} L{x+130},{640} L{x},{630}Z" fill="{c}"/><path d="M{x},{480} L{x+130},{490} L{x+130},{505} L{x},{495}Z" fill="{sh(c,1.25)}"/>'
+        x = 100 + i * 205
+        o += (f'<line x1="{x}" y1="880" x2="{x}" y2="330" stroke="#2a1d1a" stroke-width="9"/><path class="pen" d="M{x},{340} L{x+150},{352} L{x+150},{530} L{x},{518}Z" fill="{c}"/>'
+              f'<path d="M{x},{340} L{x+150},{352} L{x+150},{370} L{x},{358}Z" fill="{sh(c,1.25)}"/><circle cx="{x}" cy="{326}" r="9" fill="#e0b040"/>')
     L.append(G('flags', o))
-    L.append(G('gen', ''.join(person(420 + i * 520, 1000, .65, ['#2a2a32', '#3a3e4a', '#8a4a38'][i], hat='helmet', face=False, seed=150 + i, armor='#4a4e58', pose='hands', sash='#b8352a') for i in range(3))))
+    L.append(P('TT2', 480, 1050, 2.4, pose='hands', look=1))
+    L.append(P('QQ', 960, 1060, 2.4, pose='hands'))
+    L.append(P('TTT', 1440, 1050, 2.4, pose='hands', look=-1))
     return svg(L, 'day')
-
 
 @scene(19057)
 def _():
@@ -881,19 +875,19 @@ def _():
 def _():
     L = [sky('grey'), clouds('grey', 36, 4), mountains('grey', 640, 7)]
     L.append(ground('grey', 780, '#6a6a48'))
-    L.append(G('tents', tent(360, 820, 1.3) + tent(1540, 830, 1.2, col='#8a7a58', dark='#6a5a40')))
-    L.append(mat('620,960 1300,960 1340,1060 580,1060', '#8a7a58'))
-    # hai người nằm, một người ngồi ôm đầu
+    L.append(G('tents', tent(300, 860, 2.0) + tent(1620, 870, 1.8, col='#8a7a58', dark='#6a5a40')))
+    L.append(mat('560,940 1400,940 1500,1070 460,1070', '#8a7a58'))
     def lying(x, y, s, col, seed, beard=None):
-        return (f'<g class="fig"><rect x="{x-110*s}" y="{y-30*s}" width="{160*s}" height="{40*s}" rx="{16*s}" fill="{col}"/>'
+        return (f'<g class="fig"><ellipse cx="{x}" cy="{y+8*s}" rx="{130*s}" ry="{8*s}" fill="#000" opacity=".15"/>'
+                f'<rect x="{x-110*s}" y="{y-30*s}" width="{160*s}" height="{40*s}" rx="{16*s}" fill="{col}"/><rect x="{x-60*s}" y="{y-8*s}" width="{110*s}" height="{6*s}" fill="{sh(col,1.3)}"/>'
                 f'<rect x="{x+40*s}" y="{y-24*s}" width="{70*s}" height="{26*s}" rx="{10*s}" fill="{sh(col,.7)}"/>'
-                f'<circle cx="{x-130*s}" cy="{y-20*s}" r="{18*s}" fill="{TONES[seed % 6]}"/><path d="M{x-148*s},{y-26*s} Q{x-130*s},{y-48*s} {x-112*s},{y-26*s}Z" fill="#14121a"/>'
-                + (f'<path d="M{x-142*s},{y-10*s} Q{x-130*s},{y+8*s} {x-118*s},{y-10*s}Z" fill="#1b1417"/>' if beard else '') + '</g>')
-    L.append(lying(820, 1000, 1.5, '#3a4a6a', 3, 'x'))
-    L.append(lying(1120, 1030, 1.5, '#41506e', 5))
-    L.append(sit({'col': '#34445f', 'hat': 'helmet', 'seed': 161, 'armor': '#4a4e58', 'beard': 'white_goatee', 'sash': '#b8352a'}, 480, 960, 1.9, pose='hands'))
+                f'<circle cx="{x-130*s}" cy="{y-20*s}" r="{19*s}" fill="{TONES[seed % 6]}"/><path d="M{x-149*s},{y-26*s} Q{x-130*s},{y-50*s} {x-111*s},{y-26*s}Z" fill="#14121a"/>'
+                f'<circle cx="{x-136*s}" cy="{y-22*s}" r="{1.6*s}" fill="#241a1a"/><circle cx="{x-124*s}" cy="{y-22*s}" r="{1.6*s}" fill="#241a1a"/>'
+                + (f'<path d="M{x-142*s},{y-10*s} Q{x-130*s},{y+10*s} {x-118*s},{y-10*s}Z" fill="#1b1417"/>' if beard else '') + '</g>')
+    L.append(lying(850, 1000, 2.0, '#3a4a6a', 3, 'x'))
+    L.append(lying(1160, 1045, 2.0, '#41506e', 5))
+    L.append(sit({'col': '#34445f', 'hat': 'helmet', 'seed': 161, 'armor': '#4a4e58', 'beard': 'white_goatee', 'sash': '#b8352a'}, 300, 990, 2.7, pose='hands'))
     return svg(L, 'grey')
-
 
 @scene(19069)
 def _():
@@ -922,15 +916,14 @@ def _():
     L = outdoor('grey', cl=39, mt=680)
     L.append(ground('grey', 780, '#6a6a48'))
     o = ''
-    for i, x in enumerate((260, 520, 1560)):
-        o += f'<path d="M{x-90},880 L{x-20},800 L{x+70},880Z" fill="#9a8a68" opacity=".9"/>'  # lều xẹp
+    for i, x in enumerate((240, 560, 900)):
+        o += f'<path d="M{x-150},900 L{x-30},780 L{x+130},900Z" fill="#9a8a68" opacity=".95"/><path d="M{x-30},780 L{x+130},900 L{x+20},900Z" fill="#7a6a48"/>'
     L.append(G('foldedtents', o))
-    L.append(G('carts', cart(1100, 900, 1.2) + cart(1400, 940, 1.1)))
-    for i, x in enumerate((1040, 1160, 1340, 1460)):
-        L.append(f'<ellipse cx="{x}" cy="{810+ (i%2)*12}" rx="40" ry="26" fill="#9a8a68"/>')
-    L.append(G('men', ''.join(soldier(x, y, .62, i + 180, 'song', pen=False, pose='hands') for i, (x, y) in enumerate(((300, 950), (560, 980), (780, 940), (940, 990), (1240, 1000), (1560, 980))))))
+    L.append(G('carts', cart(1250, 940, 1.8) + cart(1650, 1000, 1.6)))
+    for i, x in enumerate((1160, 1300, 1560, 1700)):
+        L.append(f'<ellipse cx="{x}" cy="{800+(i%2)*12}" rx="60" ry="38" fill="#9a8a68"/>')
+    L.append(G('men', ''.join(soldier(x, y, 1.35, i + 180, 'song', pen=False, pose='hands') for i, (x, y) in enumerate(((280, 1030), (640, 1060), (960, 1040), (1100, 1070), (1480, 1070))))))
     return svg(L, 'grey')
-
 
 @scene(19076)
 def _():
@@ -971,7 +964,7 @@ def _():
         L.append(person(x, y, 2.0, c, sash='#c9a45e', pose='hands', **kw))
     for i, (x, y, c, kw) in enumerate(((1210, 990, '#2e6a8a', dict(seed=204, beard='thick')), (1400, 1030, '#34567a', dict(seed=205, young=True)), (1590, 990, '#2e4a80', dict(seed=206, beard='mustache')))):
         L.append(person(x, y, 2.0, c, hat='song', long=True, wide=True, sash='#c9a45e', pose='hands', **kw))
-    L.append(G('people', ''.join(person(840 + i * 48, 900 + (i % 2) * 24, .9, PCOL[i % 7], hat='cone' if i % 2 else None, turban='#5a4128' if i % 2 == 0 else None, seed=210 + i, pose='hands', sash=SASHV[i % 5]) for i in range(5))))
+    L.append(G('people', ''.join(person(820 + i * 70, 900 + (i % 2) * 30, 1.25, PCOL[i % 7], hat='cone' if i % 2 else None, turban='#5a4128' if i % 2 == 0 else None, seed=210 + i, pose='hands', sash=SASHV[i % 5]) for i in range(5))))
     return svg(L, 'day')
 
 
@@ -1008,7 +1001,7 @@ def _():
     L.append(G('fence', ''.join(f'<line x1="{x}" y1="800" x2="{x}" y2="740" stroke="#6a4a2a" stroke-width="6"/>' for x in range(300, 1700, 60))))
     L.append(P('LG', 960, 830, 2.6, pose='hands'))
     L.append(pennant(500, 520, 810, PEN_V)); L.append(pennant(1500, 520, 810, PEN_V))
-    L.append(G('far', ''.join(person(200 + i * 330, 760, .3, PCOL[i % 7], hat='cone', face=False, seed=220 + i, pose='hands') for i in range(5))))
+    L.append(G('far', ''.join(person(200 + i * 330, 770, .45, PCOL[i % 7], hat='cone', face=False, seed=220 + i, pose='hands') for i in range(5))))
     return svg(L, 'day')
 
 
@@ -1020,7 +1013,7 @@ def _():
     L.append(G('fort', '<rect x="800" y="640" width="320" height="140" fill="#8a6a44"/>' + ''.join(f'<rect x="{810+k*52}" y="610" width="30" height="34" fill="#8a6a44"/>' for k in range(6))
                + '<path d="M780,650 L960,560 L1140,650Z" fill="#5a4128"/>'))
     L.append(pennant(1160, 520, 780, PEN_V, 100))
-    L.append(rows([(840, .5, 8), (880, .62, 8), (940, .8, 7), (1010, 1.05, 5)], seed=9, pen=True))
+    L.append(rows([(850, .55, 8), (910, .85, 7), (990, 1.2, 5), (1070, 1.65, 3)], seed=9, pen=True))
     return svg(L, 'day')
 
 

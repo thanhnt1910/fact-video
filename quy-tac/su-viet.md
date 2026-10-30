@@ -24,6 +24,7 @@ Quy tắc nội dung và giọng hài cho sử Việt, kèm cách làm bản m�
 
 ## Lời kể sử Việt: không lời bình của sử gia, kể liền mạch như một câu chuyện (chủ kênh yêu cầu 27/10/2026)
 - **Bỏ hết lời bình, lời chê khen của sử gia** (Lê Văn Hưu, Ngô Sĩ Liên, đoạn đánh giá cuối truyện của Toàn thư...) khỏi lời kể. Video kể lịch sử, không phân tích lời bình. Sử gia chỉ xuất hiện khi chính họ là một nhân vật của sự kiện.
+- **Áp dụng cả cho bài đăng Facebook sử Việt** (chủ kênh yêu cầu 30/10/2026): bài chỉ kể cốt truyện, không có mục "Sử gia nói gì?", không lời bàn của sử gia, không lời khen chê của người viết. Chi tiết: `ke-hoach/nhan-vat-phu-series-dan-y.md`.
 - **Không dịch sát từng câu sử.** Mỗi đoạn lời không là một ý rời; các câu phải nối nhau bằng quan hệ nguyên nhân – kết quả hoặc đối lập ("vì thế", "nhưng", "thấy vậy"), có hình ảnh dẫn xuyên suốt (ví dụ cánh cửa, câu hỏi cuối chiếu). Đọc nối các đoạn liền nhau phải thấy một mạch văn, không thấy danh sách.
 - **Sáng tạo ở cách kể** (xem mục "Sáng tạo cho đỡ nhàm" trong `chung.md`): câu mở đầu ai nghe cũng hiểu (ai, chuyện gì), thân bài đúng thứ tự thời gian, báo trước và quay lại hình ảnh mở đầu ở cuối.
 

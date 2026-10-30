@@ -88,11 +88,6 @@ Gần ba mươi năm sau, năm 966, đất nước rơi vào loạn mười hai 
 
 Nhiều nhà nghiên cứu cho rằng hai người này là cháu của Kiều Công Tiễn. Sử cũ không ghi rõ quan hệ. Cả hai về sau đều bị Đinh Bộ Lĩnh dẹp.
 
-📜 **Sử gia nói gì?**
-Toàn thư không có lời bàn riêng về Kiều Công Tiễn. Lời bàn dành cho hai người còn lại trong câu chuyện:
-• Sử gia Ngô Sĩ Liên chê vua Nam Hán: tham đất của người, đất chưa lấy được mà đã mất con, lại hại cả dân.
-• Sử gia Lê Văn Hưu khen Ngô Quyền mưu giỏi, đánh cũng giỏi, khiến người phương Bắc không dám sang nữa.
-
 ⏳ **Mốc thời gian**
 • 931 – Dương Đình Nghệ đuổi quân Nam Hán, làm chủ Giao Châu
 • 3/937 – Kiều Công Tiễn giết Dương Đình Nghệ
@@ -101,9 +96,9 @@ Toàn thư không có lời bàn riêng về Kiều Công Tiễn. Lời bàn dà
 • 939 – Ngô Quyền xưng vương, đóng đô ở Cổ Loa
 
 💭 **Chốt lại**
-Kiều Công Tiễn muốn giữ ngôi bằng quân của nước ngoài. Ông không giữ được ngôi, cũng không kịp thấy quân cứu đến.
+Kiều Công Tiễn cầu cứu quân Nam Hán, nhưng bị Ngô Quyền giết trước khi đoàn quân ấy tới nơi.
 
-Còn lời cầu cứu của ông lại mở ra trận Bạch Đằng, trận đánh đưa Ngô Quyền lên ngôi vương.
+Đoàn thuyền chiến sang cứu ông lại thua tan ở sông Bạch Đằng. Mùa xuân năm sau, Ngô Quyền xưng vương.
 
 ❓ Theo bạn, nếu Kiều Công Tiễn không cầu cứu Nam Hán, trận Bạch Đằng năm 938 có xảy ra không?
 
@@ -124,7 +119,7 @@ Cần phân biệt:
 • Lý do ông giết chủ: sử Việt không chép. Hai lời giải thích trong bài đến từ sách soạn muộn hàng trăm năm.
 • Năm Nam Hán bắt Khúc Thừa Mỹ: Toàn thư ghi 923, sử Trung Quốc ghi 930. Bài không ghi năm.
 • Tên con vua Nam Hán: sử Việt chép Hoằng Tháo, sử Trung Quốc chép Hồng Tháo.
-• "Trăm vạn quân" của Lưu Hoằng Tháo là lời của Lê Văn Hưu, không phải con số thật. Sử không ghi quân số, bài không nêu.
+• Sử không ghi quân số của Lưu Hoằng Tháo, bài không nêu.
 • Các chuyện trong gia đình họ Kiều (con trai, cháu theo hay chống ông) chỉ có trong thần tích địa phương, chưa có trong sử cũ nên bài không kể.
 
 Ảnh: ghi công từng ảnh ở đây sau khi chọn xong (tên tác giả, giấy phép, link Wikimedia Commons).
@@ -170,15 +165,13 @@ Muốn chạy: đổi dòng 1 của `ke-hoach/nhan-vat-phu/anh_chay.txt` thành 
 | Hồi Hồ ở vùng Phú Thọ ngày nay | 🟡 | Toàn thư chú "xã Trần Xá huyện Hoa Khê"; vùng này nay thuộc Phú Thọ theo Wikipedia. Cần kiểm thêm nếu muốn ghi tên huyện |
 | Hai sứ quân là cháu Kiều Công Tiễn | 🟡 | Taylor (1991, tr. 272) qua Wikipedia tiếng Anh; sử cũ không ghi. Bài ghi "nhiều nhà nghiên cứu cho rằng" |
 | Cả hai bị Đinh Bộ Lĩnh dẹp | 🟢 | Toàn thư, kỷ nhà Đinh ("một phen cất quân là dẹp yên") |
-| Toàn thư không có lời bàn riêng về Kiều Công Tiễn | 🟢 | Đã soát toàn bộ chỗ nhắc "Công Tiễn" trong file Toàn thư (dòng 2730–2782) |
-| Ngô Sĩ Liên chê Lưu Cung; Lê Văn Hưu khen Ngô Quyền | 🟢 | Toàn thư (bài diễn lại, không trích nguyên văn dài) |
 
 ## Chi tiết đã bỏ khỏi bài
 - **Kiều Công Tiễn là một trong ba nghìn con nuôi của Dương Đình Nghệ**: chỉ có ở bài hiện đại (voer.edu.vn ghi "có tài liệu cho rằng"); Wikipedia tiếng Anh ghi Việt sử lược gọi ông là con nuôi, nhưng Sakurai đọc Việt sử lược thấy chỉ có "người Phong Châu". Chưa kiểm được nên bỏ.
 - **Chuyện trong nhà họ Kiều theo thần tích**: con trai Kiều Công Chuẩn bỏ cha về Phong Châu; cháu Kiều Công Hãn theo Ngô Quyền đánh ông nội; cháu Kiều Thuận theo ông nội rồi trốn về Hồi Hồ (voer.edu.vn, cauchuyenlichsu.vn, không dẫn nguồn sử). Hay nhưng chưa có trong sử cũ. Nếu chủ kênh muốn, có thể thêm một mục "Theo thần tích ở Phú Thọ" ghi rõ là truyền thuyết.
 - **Dương Tam Kha và Ngô Xương Ngập dẫn quân tiên phong hạ thành Đại La, giết Kiều Công Tiễn tháng 4/938**: chỉ có ở voer.edu.vn, mâu thuẫn với Toàn thư (Ngô Quyền ra quân tháng 12).
 - **Năm sinh 870, nơi mất là thành Đại La**: hộp thông tin Wikipedia, không dẫn nguồn.
-- **Con số "trăm vạn quân"**: lời Lê Văn Hưu, không phải số thật.
+- **Lời bàn của sử gia** (Ngô Sĩ Liên chê vua Nam Hán, Lê Văn Hưu khen Ngô Quyền và câu "trăm vạn quân"): bỏ theo quy tắc series ngày 30/10/2026, bài chỉ kể cốt truyện.
 - **Hoằng Tháo là con thứ chín, được phong Vạn Vương năm 932**: Wikipedia tiếng Anh, chưa kiểm.
 - **Hoàng hậu "Kiểu Quốc" của Đinh Tiên Hoàng có thể là người họ Kiều**: chỉ là đoán từ tên hiệu, Toàn thư không nói.
 - **Ngô Quyền "báo thù cho chủ"**: Toàn thư chỉ chép Ngô Quyền "cất quân đánh Công Tiễn", không nêu động cơ. Bài không dùng chữ "báo thù".

@@ -60,6 +60,18 @@ def sit(who_or_dict, x, seat_y, s=1.0, lap=True, **ov):
     if lap:
         o += (f'<path d="M{x-40*sc},{seat_y-6*sc} Q{x},{seat_y+10*sc} {x+40*sc},{seat_y-6*sc} L{x+50*sc},{seat_y+22*sc} '
               f'Q{x},{seat_y+34*sc} {x-50*sc},{seat_y+22*sc}Z" fill="{sh(col,.78)}"/>')
+        import flat as _fl
+        if _fl.LIMBS and seat_y > 300:
+            # chân thõng bên sườn ngựa: đùi, gối, ống chân, giày ủng, bàn đạp
+            tr = '#4b5062'
+            kx, ky = x + 30 * sc, seat_y + 52 * sc      # đầu gối
+            ax, ay = x + 24 * sc, seat_y + 104 * sc     # cổ chân
+            o += (f'<path d="M{x-4*sc},{seat_y+4*sc} Q{x+22*sc},{seat_y+14*sc} {kx},{ky}" stroke="#241a14" stroke-width="{26*sc}" fill="none" stroke-linecap="round"/>'
+                  f'<path d="M{x-4*sc},{seat_y+4*sc} Q{x+22*sc},{seat_y+14*sc} {kx},{ky}" stroke="{tr}" stroke-width="{23*sc}" fill="none" stroke-linecap="round"/>'
+                  f'<path d="M{kx},{ky} L{ax},{ay}" stroke="#241a14" stroke-width="{17*sc}" fill="none" stroke-linecap="round"/>'
+                  f'<path d="M{kx},{ky} L{ax},{ay}" stroke="{sh(tr,1.12)}" stroke-width="{14.5*sc}" fill="none" stroke-linecap="round"/>'
+                  f'<path d="M{ax-8*sc},{ay-6*sc} L{ax+8*sc},{ay-6*sc} L{ax+9*sc},{ay+14*sc} Q{ax+22*sc},{ay+15*sc} {ax+22*sc},{ay+24*sc} L{ax-9*sc},{ay+24*sc}Z" fill="#2a2024"/>'
+                  f'<path d="M{ax-9*sc},{ay+22*sc} L{ax+22*sc},{ay+22*sc}" stroke="#d9d0c0" stroke-width="{2*sc}" stroke-linecap="round"/>')
     return o
 
 

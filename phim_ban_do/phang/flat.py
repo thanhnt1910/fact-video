@@ -7,6 +7,7 @@ import random
 
 W, H = 1920, 1080
 DETAIL = False  # bật = thêm chi tiết mặt, nếp áo, hoa văn, giáp vảy
+LIMBS = False  # bật = vẽ rõ cánh tay, bàn tay có ngón, hai chân (ống quần, xà cạp, bàn chân có ngón)
 TONES = ['#e2ad7e', '#d99f6e', '#e8b88a', '#cf9565', '#dfa77a', '#d4a074']
 
 
@@ -108,7 +109,110 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
     return ''.join(o)
 
 
+def _tube(pts, w, col, outline=None):
+    """Ống tay: đường cong đi qua các điểm, đầu tròn; có viền tối phía dưới."""
+    d = f'M{pts[0][0]},{pts[0][1]} Q{pts[1][0]},{pts[1][1]} {pts[2][0]},{pts[2][1]}'
+    o = ''
+    if outline:
+        o += f'<path d="{d}" stroke="{outline}" stroke-width="{w+1.8}" fill="none" stroke-linecap="round"/>'
+    return o + f'<path d="{d}" stroke="{col}" stroke-width="{w}" fill="none" stroke-linecap="round"/>'
+
+
+def _hand(cx, cy, s, ang=0, grip=False, point=False, skin=None):
+    """Bàn tay có ngón: bàn tay (hình bầu dục), bốn ngón, ngón cái; grip = nắm cán giáo."""
+    skin = skin or TONES[0]; dk = sh(skin, .7)
+    o = f'<g transform="translate({cx},{cy}) rotate({ang})">'
+    if grip:
+        o += f'<rect x="{-5.5*s}" y="{-4.5*s}" width="{11*s}" height="{9*s}" rx="{3.4*s}" fill="{skin}" stroke="{dk}" stroke-width="{0.7*s}"/>'
+        for k in range(4):
+            o += f'<line x1="{(-4.2+k*2.8)*s}" y1="{-3.6*s}" x2="{(-4.2+k*2.8)*s}" y2="{3.6*s}" stroke="{dk}" stroke-width="{0.7*s}"/>'
+        o += f'<ellipse cx="{-5.2*s}" cy="{-1*s}" rx="{2.2*s}" ry="{3.4*s}" fill="{skin}" stroke="{dk}" stroke-width="{0.6*s}"/>'
+    else:
+        o += f'<ellipse cx="0" cy="0" rx="{6.5*s}" ry="{4.6*s}" fill="{skin}" stroke="{dk}" stroke-width="{0.7*s}"/>'
+        for k in range(4):
+            o += f'<path d="M{(-4.5+k*3)*s},{-3*s} q{0.5*s},{-3.2*s} {2.2*s},{-3.4*s}" stroke="{dk}" stroke-width="{0.8*s}" fill="none" stroke-linecap="round"/>'
+        o += f'<path d="M{-5.4*s},{1.4*s} q{-3.2*s},{-0.6*s} {-3.4*s},{-3.4*s}" stroke="{dk}" stroke-width="{1.1*s}" fill="none" stroke-linecap="round"/>'
+        if point:
+            o += f'<path d="M{5*s},{-1*s} l{10*s},{-1.4*s}" stroke="{skin}" stroke-width="{3*s}" stroke-linecap="round"/>'
+    return o + '</g>'
+
+
+def _legs(x, y, s, col, h):
+    """Hai chân: ống quần, đầu gối, xà cạp quấn bắp chân, bàn chân có ngón (chân đất)."""
+    pc = sh(col, .5); pl = sh(col, .66); wrap = sh(col, 1.05)
+    o = ''
+    for sgn, cls in ((-1, 'ftL'), (1, 'ftR')):
+        hx = x + sgn * 9 * s; ax = x + sgn * 13.5 * s
+        o += f'<path d="M{hx-8.5*s},{y-h*0.5} L{ax-6*s},{y-8*s} L{ax+6*s},{y-8*s} L{hx+8.5*s},{y-h*0.5}Z" fill="{pc if sgn<0 else pl}"/>'
+        o += f'<path d="M{hx-2*s},{y-h*0.34} q{3*s},{3*s} {6*s},0" stroke="#000" stroke-width="{1.1*s}" fill="none" opacity=".25"/>'
+        for k in range(3):
+            yy = y - (20 - k * 4.2) * s
+            o += f'<path d="M{ax-6.2*s},{yy} L{ax+6.2*s},{yy+1.8*s}" stroke="{wrap}" stroke-width="{2.1*s}" opacity=".85"/>'
+        o += f'<g class="{cls}"><ellipse cx="{ax+sgn*1.5*s}" cy="{y-2*s}" rx="{10.5*s}" ry="{4.6*s}" fill="#caa078" stroke="{sh("#caa078",.7)}" stroke-width="{0.7*s}"/>'
+        for k in range(4):
+            tx = ax + sgn * (3.5 + k * 2.4) * s
+            o += f'<line x1="{tx}" y1="{y-5*s}" x2="{tx}" y2="{y-1*s}" stroke="{sh("#caa078",.62)}" stroke-width="{0.7*s}"/>'
+        o += '</g>'
+    return o
+
+
+def _shoes(x, y, s):
+    """Giày vải mũi cong thò ra dưới vạt áo dài."""
+    o = ''
+    for sgn, cls in ((-1, 'ftL'), (1, 'ftR')):
+        cx = x + sgn * 10.5 * s
+        o += (f'<g class="{cls}"><path d="M{cx-9*s},{y-3*s} Q{cx-9*s},{y+4.5*s} {cx+sgn*3*s},{y+4.5*s} Q{cx+sgn*12*s},{y+4*s} {cx+sgn*13*s},{y-1*s} '
+              f'Q{cx+sgn*13*s},{y-5*s} {cx+sgn*10*s},{y-4*s} L{cx+9*s},{y-3*s}Z" fill="#2a2024"/>'
+              f'<path d="M{cx-8*s},{y+3.2*s} L{cx+sgn*10*s},{y+3.4*s}" stroke="#d9d0c0" stroke-width="{1.4*s}" stroke-linecap="round"/></g>')
+    return o
+
+
 def _arms(x, y, s, col, pose, wide=False):
+    if LIMBS:
+        return _arms_limbs(x, y, s, col, pose, wide)
+    return _arms_old(x, y, s, col, pose, wide)
+
+
+def _arms_limbs(x, y, s, col, pose, wide=False):
+    h = 150 * s
+    c = sh(col, .9); dk = sh(col, .62); cuff = sh(col, 1.35)
+    w = 13 * s * (1.35 if wide else 1.0)
+    o = ''
+    if pose == 'hands':
+        for sgn in (-1, 1):
+            sx, sy = x + sgn * 21 * s, y - h * 0.83
+            ex, ey = x + sgn * (30 + (6 if wide else 0)) * s, y - h * 0.66
+            wx, wy = x + sgn * 4 * s, y - h * 0.57
+            o += _tube(((sx, sy), (ex, ey), (wx, wy)), w, c, dk)
+            o += f'<path d="M{wx-sgn*1*s-6*s},{wy-4.5*s} L{wx-sgn*1*s+6*s},{wy+4.5*s}" stroke="{cuff}" stroke-width="{4.4*s}" stroke-linecap="round" opacity=".95"/>' if False else ''
+        # hai bàn tay chắp, tay phải đè lên tay trái
+        o += _hand(x - 2 * s, y - h * 0.575, s, ang=-8)
+        o += _hand(x + 3 * s, y - h * 0.585, s, ang=8)
+        o += f'<path d="M{x-9*s},{y-h*0.545} Q{x},{y-h*0.52} {x+9*s},{y-h*0.545}" stroke="{cuff}" stroke-width="{3.4*s}" fill="none" stroke-linecap="round"/>'
+        return o
+    if pose == 'spear':
+        # tay xa chống hông, tay gần nắm cán giáo
+        o += _tube(((x - 21 * s, y - h * 0.83), (x - 33 * s, y - h * 0.66), (x - 15 * s, y - h * 0.5)), w * 0.86, c, dk)
+        o += _hand(x - 13.5 * s, y - h * 0.49, s * 0.95, ang=-30)
+        o += _tube(((x + 21 * s, y - h * 0.83), (x + 33 * s, y - h * 0.72), (x + 27 * s, y - h * 0.6)), w * 0.86, c, dk)
+        o += _hand(x + 27 * s, y - h * 0.595, s, ang=0, grip=True)
+        return o
+    if pose == 'point':
+        o += _tube(((x + 20 * s, y - h * 0.83), (x + 44 * s, y - h * 0.9), (x + 66 * s, y - h * 0.92)), w * 0.86, c, dk)
+        o += _hand(x + 69 * s, y - h * 0.92, s, ang=-6, point=True)
+        o += _tube(((x - 21 * s, y - h * 0.83), (x - 31 * s, y - h * 0.65), (x - 14 * s, y - h * 0.52)), w * 0.86, c, dk)
+        o += _hand(x - 12 * s, y - h * 0.515, s * 0.95, ang=-20)
+        return o
+    if pose == 'up':
+        o += _tube(((x + 20 * s, y - h * 0.83), (x + 34 * s, y - h * 0.93), (x + 46 * s, y - h * 0.99)), w * 0.86, c, dk)
+        o += _hand(x + 47 * s, y - h * 1.0, s, ang=-70)
+        o += _tube(((x - 21 * s, y - h * 0.83), (x - 31 * s, y - h * 0.65), (x - 14 * s, y - h * 0.52)), w * 0.86, c, dk)
+        o += _hand(x - 12 * s, y - h * 0.515, s * 0.95, ang=-20)
+        return o
+    return ''
+
+
+def _arms_old(x, y, s, col, pose, wide=False):
     h = 150 * s
     c = sh(col, .9)
     cuff = sh(col, 1.3)
@@ -147,8 +251,13 @@ def body(x, y, s, col, sash='#a8452f', trim=None, armor=None, pose='hands', spea
     dark = sh(col, .72)
     edge = trim or sh(col, 1.35)
     o.append(f'<ellipse cx="{x}" cy="{y+2*s}" rx="{44*s}" ry="{7*s}" fill="#000" opacity=".16"/>')
-    o.append(f'<ellipse class="ftL" cx="{x-9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/><ellipse class="ftR" cx="{x+9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/>')
-    if skirt or long:
+    if LIMBS and not (skirt or long):
+        o.append(_legs(x, y, s, col, h))
+    else:
+        o.append(f'<ellipse class="ftL" cx="{x-9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/><ellipse class="ftR" cx="{x+9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/>')
+    if LIMBS and not (skirt or long):
+        pass
+    elif skirt or long:
         o.append(f'<path d="M{x-17*s},{y-h*0.52} L{x-27*s},{y-2*s} L{x+27*s},{y-2*s} L{x+17*s},{y-h*0.52}Z" fill="{dark}"/>')
         o.append(f'<path d="M{x-26*s},{y-9*s} Q{x},{y-2*s} {x+26*s},{y-9*s} L{x+27*s},{y-2*s} L{x-27*s},{y-2*s}Z" fill="{edge}"/>')
         for k in (-14, -5, 5, 14):
@@ -172,6 +281,8 @@ def body(x, y, s, col, sash='#a8452f', trim=None, armor=None, pose='hands', spea
         o.append(f'<line x1="{x}" y1="{y-h*0.88}" x2="{x}" y2="{y-h*0.42}" stroke="{sh(col,.6)}" stroke-width="{1.6*s}"/>')
     # nẹp gấu áo
     o.append(f'<path d="M{x-24*s-ext},{y-hem-6*s} L{x+24*s+ext},{y-hem-6*s} L{x+24*s+ext},{y-hem} L{x-24*s-ext},{y-hem}Z" fill="{edge}" opacity=".85"/>')
+    if LIMBS and (skirt or long):
+        o.append(_shoes(x, y, s))
     if armor:
         o.append(f'<path d="M{x-22*s},{y-h*0.85} Q{x-32*s},{y-h*0.78} {x-27*s},{y-h*0.68} L{x-15*s},{y-h*0.78}Z" fill="{armor}"/><path d="M{x+22*s},{y-h*0.85} Q{x+32*s},{y-h*0.78} {x+27*s},{y-h*0.68} L{x+15*s},{y-h*0.78}Z" fill="{armor}"/>')
         o.append(f'<path d="M{x-20*s},{y-h*0.8} L{x+20*s},{y-h*0.8} L{x+18*s},{y-h*0.52} L{x-18*s},{y-h*0.52}Z" fill="{armor}" opacity=".6"/>')

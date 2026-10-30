@@ -1,6 +1,6 @@
 Lượt 1/1: gửi 4 cảnh sang Kaggle
  0.5 phút: .running
-10.2 phút: .complete
+ 9.2 phút: .complete
    kết thúc: .complete
    file tải về: 7 mục; 4 png
    lượt 1: nhận 4/4 ảnh

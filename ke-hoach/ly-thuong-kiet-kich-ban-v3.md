@@ -26,7 +26,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 1. Ba mươi sáu người thân đã nằm dưới hố. Rồi viên quan giữ thành tự tay châm lửa thiêu mình.  *(ảnh 19002)*
 
-2. Ông cố thủ không hàng, dù quân vây thành sau hơn bốn mươi ngày đã chất bao đất sát chân tường để trèo lên.  *(ảnh 19048)*
+2. Ông cố thủ không hàng, dù quân vây thành sau hơn bốn mươi ngày đã chất bao đất sát chân tường.  *(ảnh 19048)*
 
 3. Đạo quân vây thành không đến từ phương bắc. Họ là quân Đại Việt, đã vượt biên giới tiến vào đất của một đế chế lớn gấp nhiều lần nước mình.  *(ảnh 19003)*
 
@@ -41,7 +41,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 7. Dưới thời vua Lý Thánh Tông, ông được phong làm thái bảo và được trao cờ tiết để thay mặt vua đi tuần thú, dò xét dân tình.  *(ảnh 19009)*
 
-8. Mùa xuân năm một nghìn không trăm sáu mươi chín, ông làm tiên phong trong cuộc đánh Chiêm Thành, lập công lớn và được thăng phụ quốc thái phó.  *(ảnh 19015)*
+8. Mùa xuân năm một nghìn không trăm sáu mươi chín, ông làm tiên phong trong cuộc đánh Chiêm Thành, lập công lớn và được thăng lên làm phụ quốc thái phó.  *(ảnh 19015)*
 
 9. Năm một nghìn không trăm bảy mươi lăm, ông lên chức thái úy, thống lĩnh toàn bộ binh quyền. Ngay năm ấy, tin dữ báo về từ phương bắc.  *(ảnh 19028)*
 

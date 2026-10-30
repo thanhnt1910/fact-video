@@ -123,9 +123,14 @@ VN_DRESS = ("Vietnamese villagers and soldiers wear crossed-collar tunics with n
             "simple straw sandals, hair in a topknot or a wrapped cloth turban")
 ERA_VN = (VN_DRESS + "; low wooden halls with dark brown pillars and grey tiled roofs with curved dragon-head ridge ends, "
           "thatched houses, simple brown leather vests or quilted cloth armor over the tunic, round iron helmets with a small rim, conical bamboo hats, long wooden spears, woven rattan shields, bows, plain brown-red triangular cloth pennants; " + NOMOD)
-ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, soldiers in dull dark-grey lamellar armor with plain round brimless iron helmets with a small red knot, no feathers and no wide hat brims, officials in black hats with two long flat wings sticking out sideways, no writing or signboards anywhere, "
+ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, soldiers in dull dark-grey lamellar armor with iron helmets with a rounded pointed top and a short neck guard, no wide brim, no feathers, officials in black hats with two long flat wings sticking out sideways, no writing or signboards anywhere, "
             "plain dark blue triangular cloth pennants; " + NOMOD)
-SUFFIX = ("each person drawn once with two arms, every face different, single full-frame picture, no border, no text, detailed background")
+ARMED = re.compile(r"soldier|army|armies|troop|warrior|guard|general|spear|battle|march|fleet|archer|officer|pennant|flag|cavalry|war ", re.I)
+CIVIL_VN = (VN_DRESS.replace("villagers and soldiers", "villagers and officials") + "; low wooden halls with dark brown pillars and grey tiled roofs with curved dragon-head ridge ends, thatched houses; "
+            "wood, bamboo, clay and woven cloth only, no soldiers, no weapons, no armor, no helmets, no banners unless described, no writing anywhere")
+CIVIL_SONG = ("grey tiled roofs, plain clay walls; officials in black cloth hats with two long straight flat wings sticking out sideways; "
+              "wood, bamboo, clay and woven cloth only, no soldiers unless described, no writing or signboards anywhere")
+SUFFIX = ("each person drawn once with two arms, every face, age and build different, single full-frame picture, one single image, no border, no text, detailed background")
 
 
 def build(n, scene):
@@ -134,7 +139,8 @@ def build(n, scene):
     s = re.sub(r"plain (dark blue|blue) flags?", "plain dark blue cloth pennants", s)
     s = re.sub(r"\bflags\b", "cloth pennants", s)
     s = re.sub(r"\bflag\b", "cloth pennant", s)
-    era = ERA_SONG if n in SONG else ERA_VN
+    armed = bool(ARMED.search(scene))
+    era = (ERA_SONG if armed else CIVIL_SONG) if n in SONG else (ERA_VN if armed else CIVIL_VN)
     tone = "muted grey and orange tones, somber mood" if n in SOMBER else ""
     parts = [OPEN_SONG if n in SONG else OPEN_VN, s]
     if era:

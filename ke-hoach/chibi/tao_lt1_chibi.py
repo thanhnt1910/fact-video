@@ -123,7 +123,7 @@ VN_DRESS = ("Vietnamese villagers and soldiers wear crossed-collar tunics with n
             "simple straw sandals, hair in a topknot or a wrapped cloth turban")
 ERA_VN = (VN_DRESS + "; low wooden halls with dark brown pillars and grey tiled roofs with curved dragon-head ridge ends, "
           "thatched houses, simple brown leather vests or quilted cloth armor over the tunic, round iron helmets with a small rim, conical bamboo hats, long wooden spears, woven rattan shields, bows, plain brown-red triangular cloth pennants; " + NOMOD)
-ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, soldiers in dull dark-grey lamellar armor with plain round iron helmets and a small red tassel, officials in black hats with two long flat wings sticking out sideways, no writing or signboards anywhere, "
+ERA_SONG = ("grey tiled roofs, black cloth hats with two flat side wings, soldiers in dull dark-grey lamellar armor with plain round brimless iron helmets with a small red knot, no feathers and no wide hat brims, officials in black hats with two long flat wings sticking out sideways, no writing or signboards anywhere, "
             "plain dark blue triangular cloth pennants; " + NOMOD)
 SUFFIX = ("each person drawn once with two arms, every face different, single full-frame picture, no border, no text, detailed background")
 

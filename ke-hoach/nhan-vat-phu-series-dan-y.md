@@ -7,6 +7,14 @@ Bài viết Facebook (không phải video), kèm ảnh thật không bản quy�
 - **Lời đánh giá phải của sử gia có tên** (Lê Văn Hưu, Ngô Sĩ Liên...). Không dùng lời kết án của riêng ta.
 - **Anh hùng dân tộc nghiêm túc, trân trọng.** Nhân vật phụ cũng không bị giễu cợt, không đặt biệt danh, không so sánh với thời nay.
 - Mỗi bài trả lời một câu hỏi: "Người này là ai? Họ đã làm gì? Hậu quả là gì? Sử gia nói gì?"
+- **Độ sâu thông tin (chủ kênh yêu cầu 30/10/2026, sau bài 1 "quá đơn giản, chi tiết ai cũng biết"):** mỗi bài phải có ít nhất 5 chi tiết ít người biết, đều có câu sử cụ thể. Cách tìm:
+  1. Đọc nguyên đoạn Toàn thư (`ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`) quanh nhân vật, kể cả **chú thích** cuối trang (hay đối chiếu sử Trung Quốc, tên gọi khác, năm lệch).
+  2. Đọc cả phía bên kia: sử Trung Quốc (Tân Ngũ đại sử, Tư trị thông giám, Tống sử, Minh thực lục) kể cùng sự việc thế nào.
+  3. Tìm **người xung quanh**: chủ, đồng liêu, con cháu, đối thủ, và họ xuất hiện lại ở đâu về sau (ví dụ họ Kiều thành hai sứ quân).
+  4. Tìm **chỗ sử im lặng** (không ghi lý do, cách ra tay) và nói thẳng là không rõ; nếu có giả thuyết muộn thì ghi rõ sách nào, thế kỷ nào.
+  5. Lời can, lời nói của nhân vật có trong sử (diễn lại ngắn, không bịa thêm).
+  Đầu file kịch bản ghi mục "Khác bài trước ở đâu" liệt kê các chi tiết mới. Bài dài hơn được, nhưng vẫn câu ngắn, mục ngắn theo `quy-tac/chung.md`.
+- Bài Facebook của series này giữ mục "Sử gia nói gì?" (lời bàn có tên sử gia); quy tắc bỏ lời bình sử gia trong `quy-tac/su-viet.md` là cho lời kể video.
 - Mỗi bài có: bài đăng (văn phong rõ ràng theo `CLAUDE.md`), 3–5 ảnh thật (Wikimedia Commons: public domain, CC0 hoặc CC-BY, ghi công đầy đủ), bình luận ghim chứa nguồn sử và ghi công ảnh.
 
 ## Danh sách bài (thứ tự đăng đề xuất)

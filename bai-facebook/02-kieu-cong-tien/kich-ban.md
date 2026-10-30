@@ -136,6 +136,7 @@ Truy vấn đã soạn sẵn ở `ke-hoach/nhan-vat-phu/nvp2_anh_truy_van.txt`. 
 5. Đền Hùng hoặc cảnh quan Phú Thọ (vùng Phong Châu cũ), nếu không có ảnh riêng về họ Kiều.
 Không có ảnh chân dung Kiều Công Tiễn (sử không để lại). Thiếu ảnh nào ghi rõ thiếu, không độn ảnh sai chủ đề.
 Muốn chạy: đổi dòng 1 của `ke-hoach/nhan-vat-phu/anh_chay.txt` thành `nvp2` rồi đẩy lên nhánh (workflow `anh-bai-viet.yml`).
+**Trạng thái: thư mục `anh/` cạnh file này còn trống.** Sau khi chạy workflow và soi ảnh, chọn 3 đến 5 ảnh chép vào `anh/` (đặt tên `01.jpg`, `02.jpg`...) rồi điền ghi công vào dòng "Ảnh:" ở bình luận ghim.
 
 ## Mục "Ghi chú độ chắc"
 | Ý trong bài | Độ chắc | Ghi chú |

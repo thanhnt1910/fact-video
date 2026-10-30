@@ -60,7 +60,13 @@ Cần phân biệt:
 • Việc ông là cha của bà Dương Vân Nga (vợ vua Đinh Tiên Hoàng, sau là vợ vua Lê Hoàn) chỉ là suy đoán của một số nhà nghiên cứu, chưa có trong sử cũ nên bài không kể.
 • Việc ông "chăm lo nông nghiệp, đắp đê" chỉ xuất hiện trong một số bài viết hiện đại, không có trong sử cũ, nên bài không kể.
 
-Ảnh: ghi công từng ảnh ở đây sau khi chọn xong (tên tác giả, giấy phép, link Wikimedia Commons).
+Ảnh (Wikimedia Commons), thứ tự đăng: 01 đến 05:
+• Ảnh 1: Đền thờ Ngô Quyền. Tác giả: Ngokhong (tải lên vi.wikipedia). Giấy phép CC BY 3.0. https://commons.wikimedia.org/wiki/File:DenNgoQuyen.jpg
+• Ảnh 2: Phù điêu "Bạch Đằng Giang chi chiến (938)". Public domain. https://commons.wikimedia.org/wiki/File:B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_Giang_chi_chi%E1%BA%BFn_(938).jpg
+• Ảnh 3: Đĩa sứ trận Bạch Đằng. Tác giả: Duyphuong. Giấy phép CC BY 3.0. https://commons.wikimedia.org/wiki/File:%C4%90%C4%A9a_s%E1%BB%A9_tr%E1%BA%ADn_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng.jpg
+• Ảnh 4: Mô hình trận Bạch Đằng năm 938. Tác giả: Daderot. CC0. https://commons.wikimedia.org/wiki/File:Model_of_Battle_in_Bach_Dang_River_in_938_AD_-_DSC05544.JPG
+• Ảnh 5: Tranh trận Bạch Đằng. Tác giả không rõ. CC0. https://commons.wikimedia.org/wiki/File:Battle_of_Bach_Dang_river.jpg
+Ghi chú: đây là ảnh về Ngô Quyền và trận Bạch Đằng, không phải ảnh về Dương Tam Kha (không có ảnh nào về ông). Khi đăng, ghi rõ trong chú thích ảnh.
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #DuongTamKha #NgoQuyen #NhaNgo #BachDang #LichSu
@@ -105,5 +111,5 @@ Nếu thiếu ảnh nào thì ghi rõ thiếu, không độn ảnh sai chủ đ�
 - Tên vợ Ngô Quyền (Dương Như Ngọc) và việc Tam Kha là "cậu" của Xương Ngập (suy luận từ cách xưng hô trong một bài hiện đại).
 
 ## Ảnh đã tìm (30/10, Wikimedia Commons, chỉ public domain / CC0 / CC BY)
-Workflow: `anh-bai-viet.yml` (kích hoạt bằng `ke-hoach/nhan-vat-phu/anh_chay.txt`). Kết quả: `assets/anh_that/nvp1/raw/` (25 ảnh ứng viên, đã gửi Telegram), `assets/anh_that/nvp1/chon/` (7 ảnh tôi chọn), ghi công trong `ke-hoach/nhan-vat-phu/nvp1_anh_chon.json`.
+Workflow: `anh-bai-viet.yml` (kích hoạt bằng `ke-hoach/nhan-vat-phu/anh_chay.txt`). Kho ứng viên: `assets/anh_that/nvp1/raw/` (25 ảnh, đã gửi Telegram) và `assets/anh_that/nvp1/chon/` (7 ảnh), ghi công gốc trong `ke-hoach/nhan-vat-phu/nvp1_anh_chon.json`. **Ảnh dùng cho bài: thư mục `anh/` cạnh file này (5 ảnh, chọn từ 7 ảnh trên; bỏ 2 trang Toàn thư vì là trang về Trần Ích Tắc, không liên quan).**
 Không tìm được ảnh phù hợp cho: Dương Tam Kha, Nam Sách (nơi Xương Ngập trốn), bến Chương Dương, Cổ Loa thời Ngô. Ảnh đền thờ Ngô Quyền hay nhất đều là CC BY-SA nên workflow loại.

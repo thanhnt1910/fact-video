@@ -35,5 +35,6 @@ Dự phòng (cần cân nhắc độ nhạy): Hồ Quý Ly, Mạc Đăng Dung, N
 ## Quy trình mỗi bài
 1. Lập danh sách nguồn: Đại Việt sử ký toàn thư, Khâm định Việt sử thông giám cương mục, Đại Nam thực lục (thời Tây Sơn), đối chiếu thêm sách nghiên cứu. Chi tiết chỉ có ở tiểu thuyết hoặc truyền thuyết thì ghi "theo lời kể" hoặc bỏ.
 2. Viết bài có nhãn độ chắc từng câu (🟢 sử chép rõ, 🟡 một nguồn hoặc cần đối chiếu, 🔴 bỏ khỏi bài), mục "Trạng thái kiểm chứng".
-3. Chạy workflow tìm ảnh (xem `ke-hoach/nhan-vat-phu-anh-workflow.md` khi làm) và Claude soi từng ảnh.
-4. Gửi Telegram cho chủ kênh duyệt: bài đăng, ảnh, bình luận ghim, hashtag.
+3. Chạy workflow tìm ảnh (`anh-bai-viet.yml`, chỉ khi chủ kênh yêu cầu) và Claude soi từng ảnh ở cỡ lớn.
+4. **Gom vào thư mục của bài** (chủ kênh yêu cầu 30/10/2026): `bai-facebook/NN-<tên-nhân-vật>/` gồm `kich-ban.md` và thư mục `anh/` có đúng 3 đến 5 ảnh đã chọn (`01.jpg`...). Ghi công từng ảnh trong dòng "Ảnh:" của bình luận ghim. Ảnh ứng viên chưa chọn vẫn nằm ở `assets/anh_that/<mã>/raw/`. Xem `bai-facebook/README.md`.
+5. Gửi Telegram cho chủ kênh duyệt: bài đăng, ảnh, bình luận ghim, hashtag.

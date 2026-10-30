@@ -85,7 +85,7 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
         if DETAIL:
             for sd in (-1, 1):
                 ex_ = x + sd * ex + dx
-                o.append(f'<ellipse cx="{ex_}" cy="{y+1*s}" rx="{3.4*s}" ry="{2.3*s}" fill="#fbf6ea"/><circle cx="{ex_+look*1.2*s}" cy="{y+1*s}" r="{1.7*s}" fill="#2a1a14"/><circle cx="{ex_+look*1.2*s+0.6*s}" cy="{y+0.3*s}" r="{0.55*s}" fill="#fff"/>')
+                o.append(f'<g class="eye"><ellipse cx="{ex_}" cy="{y+1*s}" rx="{3.4*s}" ry="{2.3*s}" fill="#fbf6ea"/><circle cx="{ex_+look*1.2*s}" cy="{y+1*s}" r="{1.7*s}" fill="#2a1a14"/><circle cx="{ex_+look*1.2*s+0.6*s}" cy="{y+0.3*s}" r="{0.55*s}" fill="#fff"/></g>')
                 o.append(f'<path d="M{ex_-3.6*s},{y+0.4*s} Q{ex_},{y-2.6*s} {ex_+3.6*s},{y+0.4*s}" stroke="#2a1a14" stroke-width="{0.9*s}" fill="none"/>')
                 o.append(f'<path d="M{ex_-3*s},{y+3.4*s} Q{ex_},{y+4.6*s} {ex_+3*s},{y+3.4*s}" stroke="{sh(sk,.8)}" stroke-width="{0.6*s}" fill="none"/>')
                 o.append(f'<path d="M{x+sd*17*s},{y+0*s} q{sd*1.6*s},{3*s} 0,{6*s}" stroke="{sh(sk,.7)}" stroke-width="{0.9*s}" fill="none"/>')
@@ -147,7 +147,7 @@ def body(x, y, s, col, sash='#a8452f', trim=None, armor=None, pose='hands', spea
     dark = sh(col, .72)
     edge = trim or sh(col, 1.35)
     o.append(f'<ellipse cx="{x}" cy="{y+2*s}" rx="{44*s}" ry="{7*s}" fill="#000" opacity=".16"/>')
-    o.append(f'<ellipse cx="{x-9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/><ellipse cx="{x+9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/>')
+    o.append(f'<ellipse class="ftL" cx="{x-9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/><ellipse class="ftR" cx="{x+9*s}" cy="{y}" rx="{10*s}" ry="{4*s}" fill="#caa078"/>')
     if skirt or long:
         o.append(f'<path d="M{x-17*s},{y-h*0.52} L{x-27*s},{y-2*s} L{x+27*s},{y-2*s} L{x+17*s},{y-h*0.52}Z" fill="{dark}"/>')
         o.append(f'<path d="M{x-26*s},{y-9*s} Q{x},{y-2*s} {x+26*s},{y-9*s} L{x+27*s},{y-2*s} L{x-27*s},{y-2*s}Z" fill="{edge}"/>')

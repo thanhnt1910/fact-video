@@ -42,3 +42,9 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 - Lần vẽ đầu (lt1) có khoảng 34/64 ảnh sai: cờ sao vàng, lính mũ cối và súng, đường nhựa, cột điện, tàu hơi nước, bàn ghế, nến, đèn lồng giấy, chữ Hán trên cờ. Nguyên nhân: prompt chỉ ghi "plain red flags" và không có mốc thời Lý; bỏ LoRA nên mô hình trôi về kiểu phổ biến.
 - Không dùng chữ "flag" / "red flag": viết "plain brown-red triangular cloth pennants". Mọi prompt (kể cả cảnh vắng người) phải có mốc "ancient Vietnam, Ly dynasty 11th century, grey tiled roofs and thatched houses" (hoặc Tống) và mô tả lính: áo giáp da nâu, nón tre, chân đất, giáo. Không dùng "chair, table, candle, lantern, ship" trơn: viết "woven mat, low wooden table, clay oil dish, wooden war boat with woven sails". Mã `ke-hoach/chibi/tao_lt1_chibi.py` đã gắn sẵn ERA_VN/ERA_SONG.
 - Sau mỗi đợt vẽ phải xem ảnh cỡ lớn (6 ảnh một tấm) và soi cờ, quân phục, đồ vật hiện đại trước khi báo xong.
+
+## Ảnh phẳng (vector) thay chibi cho video Lý Thường Kiệt (chủ kênh chọn 30/10/2026)
+- Chibi vẽ bằng FLUX không giữ được nhân vật đồng nhất, hay ra phong cách Hàn/Trung và sai thời → video lt1 dùng ảnh phẳng vẽ bằng code: nhân vật mặt đơn giản, nền nhiều lớp. Mã: `phim_ban_do/phang/` (`flat.py` thư viện, `canh.py` 64 cảnh, `ve.py` chạy ra ảnh).
+- Chạy: `python phim_ban_do/phang/ve.py [số cảnh ...]` → `ke-hoach/phang/lt1_svg/N.svg` (từng lớp có `<g id>` để làm chuyển động) và `assets/anh_phang/lt1/N.jpg` (1920×1080).
+- Số người trong cảnh do mã quyết định, không thừa tay thừa người; mỗi người một tông da, râu, màu áo. Trang phục Việt: áo giao lĩnh tay hẹp, nón lá/khăn quấn; quan Tống: mũ hai cánh. Sửa nhân vật ở `CAST` trong `canh.py`.
+- Soi ảnh ở cỡ lớn sau khi sửa; chibi (`ke-hoach/chibi/`) không dùng cho lt1 nữa.

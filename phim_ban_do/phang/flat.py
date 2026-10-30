@@ -56,8 +56,8 @@ def head(x, y, s, face=True, hair='#17121a', hat=None, turban=None, diadem=False
     elif hat == 'crownS':  # mũ miện hoàng đế: tấm phẳng trên cao, rèm hạt ngọc hai bên
         o.append(f'<rect x="{x-17*s}" y="{y-24*s}" width="{34*s}" height="{18*s}" rx="{4*s}" fill="#14121a"/>')
         o.append(f'<rect x="{x-38*s}" y="{y-34*s}" width="{76*s}" height="{9*s}" rx="{2*s}" fill="#14121a"/><rect x="{x-38*s}" y="{y-34*s}" width="{76*s}" height="{2.4*s}" fill="#e0b040"/>')
-        for k in range(-4, 5):
-            o.append(f'<line x1="{x+k*8.5*s}" y1="{y-25*s}" x2="{x+k*8.5*s}" y2="{y-6*s}" stroke="#e8d890" stroke-width="{1.4*s}"/><circle cx="{x+k*8.5*s}" cy="{y-6*s}" r="{1.8*s}" fill="#e8d890"/>')
+        for k in (-4, -3, -2, 2, 3, 4):
+            o.append(f'<line x1="{x+k*8.5*s}" y1="{y-25*s}" x2="{x+k*8.5*s}" y2="{y-12*s}" stroke="#e8d890" stroke-width="{1.3*s}"/><circle cx="{x+k*8.5*s}" cy="{y-12*s}" r="{1.7*s}" fill="#e8d890"/>')
     elif hat == 'champa':  # mũ tầng vàng Chăm-pa
         for i, w in enumerate((24, 19, 14, 9)):
             o.append(f'<path d="M{x-w*s},{y-8*s-i*13*s} L{x-(w-3)*s},{y-21*s-i*13*s} L{x+(w-3)*s},{y-21*s-i*13*s} L{x+w*s},{y-8*s-i*13*s}Z" fill="#e0b040" stroke="#a9781d" stroke-width="{1.1*s}"/>')
@@ -120,7 +120,7 @@ def _tube(pts, w, col, outline=None):
 
 def _hand(cx, cy, s, ang=0, grip=False, point=False, skin=None):
     """Bàn tay có ngón: bàn tay (hình bầu dục), bốn ngón, ngón cái; grip = nắm cán giáo."""
-    skin = skin or TONES[0]; dk = sh(skin, .7)
+    skin = skin or TONES[0]; dk = sh(skin, .7); s = s * 1.22
     o = f'<g transform="translate({cx},{cy}) rotate({ang})">'
     if grip:
         o += f'<rect x="{-5.5*s}" y="{-4.5*s}" width="{11*s}" height="{9*s}" rx="{3.4*s}" fill="{skin}" stroke="{dk}" stroke-width="{0.7*s}"/>'
@@ -338,6 +338,11 @@ def kneeler(x, y, s, col, turban='#1b1620', seed=0, hair='#17121a', hat=None):
     h = 150 * s
     o = f'<path d="M{x-46*s},{y} Q{x-40*s},{y-60*s} {x-18*s},{y-h*0.62} L{x+18*s},{y-h*0.62} Q{x+40*s},{y-60*s} {x+46*s},{y}Z" fill="{col}"/>'
     o += f'<path d="M{x-18*s},{y-h*0.62} Q{x},{y-h*0.5} {x+18*s},{y-h*0.62} L{x+30*s},{y-h*0.4} Q{x},{y-h*0.34} {x-30*s},{y-h*0.4}Z" fill="{sh(col,.8)}"/>'
+    if LIMBS:
+        c = sh(col, .9); dk = sh(col, .62)
+        for sgn in (-1, 1):
+            o += _tube(((x + sgn * 19 * s, y - h * 0.6), (x + sgn * 36 * s, y - h * 0.44), (x + sgn * 13 * s, y - h * 0.38)), 12 * s, c, dk)
+            o += _hand(x + sgn * 11 * s, y - h * 0.375, s * 0.9, ang=sgn * 10)
     o += head(x, y - h * 0.74, s, face=False, turban=turban, seed=seed, hair=hair, hat=hat, back=False)
     return f'<g class="fig">{o}</g>'
 

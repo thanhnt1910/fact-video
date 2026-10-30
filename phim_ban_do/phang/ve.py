@@ -2,6 +2,7 @@
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import chitiet            # bật flat.DETAIL = True: mọi ảnh vẽ ở mức chi tiết cao
+import flat; flat.LIMBS = True   # vẽ rõ tay, chân (chủ kênh duyệt 30/10/2026)
 canh = chitiet.canh
 from playwright.sync_api import sync_playwright
 from PIL import Image

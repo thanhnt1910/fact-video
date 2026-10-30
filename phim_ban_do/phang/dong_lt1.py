@@ -6,6 +6,7 @@ Cảnh quân hành quân nhìn từ sau (19066): chân bước luân phiên, b�
 import sys, pathlib, subprocess, shutil, tempfile
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import chitiet, dong, dongthat
+import flat; flat.LIMBS = True   # tay, chân rõ
 from playwright.sync_api import sync_playwright
 
 canh = chitiet.canh

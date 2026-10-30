@@ -47,7 +47,7 @@ def P(who, x, y, s=1.0, **ov):
     return person(x, y, s * SCALE.get(who, 1.0), col, **d)
 
 
-def sit(who_or_dict, x, seat_y, s=1.0, lap=True, **ov):
+def sit(who_or_dict, x, seat_y, s=1.0, lap=True, on_horse=False, **ov):
     d = dict(CAST[who_or_dict]) if isinstance(who_or_dict, str) else dict(who_or_dict)
     d.update(ov)
     col = d.pop('col')
@@ -61,7 +61,7 @@ def sit(who_or_dict, x, seat_y, s=1.0, lap=True, **ov):
         o += (f'<path d="M{x-40*sc},{seat_y-6*sc} Q{x},{seat_y+10*sc} {x+40*sc},{seat_y-6*sc} L{x+50*sc},{seat_y+22*sc} '
               f'Q{x},{seat_y+34*sc} {x-50*sc},{seat_y+22*sc}Z" fill="{sh(col,.78)}"/>')
         import flat as _fl
-        if _fl.LIMBS and seat_y > 300:
+        if _fl.LIMBS and on_horse:
             # chân thõng bên sườn ngựa: đùi, gối, ống chân, giày ủng, bàn đạp
             tr = '#4b5062'
             kx, ky = x + 28 * sc, seat_y + 30 * sc      # đầu gối
@@ -126,7 +126,7 @@ def horse(x, y, s=1.0, col='#7a4a2e', facing=1):
 def rider(who, x, y_horse, s=1.0, facing=1, pose='hands', **ov):
     """Người ngồi trên lưng ngựa (nhìn chính diện, ngựa nhìn nghiêng)."""
     seat = y_horse - 205 * s + 30
-    return sit(who, x, seat, s=s * 1.0, pose=pose, **ov)
+    return sit(who, x, seat, s=s * 1.0, pose=pose, on_horse=True, **ov)
 
 
 def banner(x, ybase, ytop, col, w=70):
@@ -255,12 +255,12 @@ def _():
     L.append(horse(1480, 930, 0.95, '#6a4a2e', facing=1))
     L.append(rider('OFF2', 1480, 930, .95, col='#5a4a2e', hat='cone', turban=None, pose='hands', seed=31, sash='#8a2a24', **{}) if False else '')
     L.append(horse(1700, 960, 1.0, '#8a6a4a', facing=1))
-    L.append(sit({'col': '#6b4a2e', 'hat': 'cone', 'seed': 32, 'sash': '#8a2a24'}, 1700, 960 - 205 + 30, 1.0, pose='hands'))
+    L.append(sit({'col': '#6b4a2e', 'hat': 'cone', 'seed': 32, 'sash': '#8a2a24'}, 1700, 960 - 205 + 30, 1.0, pose='hands', on_horse=True))
     L.append(horse(1240, 940, 0.98, '#5a3a24', facing=1))
-    L.append(sit({'col': '#7a5634', 'hat': 'cone', 'seed': 33, 'sash': '#6a8a3a'}, 1240, 940 - 205 + 30, .98, pose='hands'))
+    L.append(sit({'col': '#7a5634', 'hat': 'cone', 'seed': 33, 'sash': '#6a8a3a'}, 1240, 940 - 205 + 30, .98, pose='hands', on_horse=True))
     # sứ giả ở trước, cầm gậy tiết có tua
     L.append(horse(800, 990, 1.25, '#3a2a22', facing=1))
-    L.append(sit('LTK_T', 800, 990 - 256 + 38, 1.25, pose='hands'))
+    L.append(sit('LTK_T', 800, 990 - 256 + 38, 1.25, pose='hands', on_horse=True))
     L.append(G('staff', '<line x1="905" y1="990" x2="905" y2="520" stroke="#6b4a2a" stroke-width="7"/><path d="M905,520 l0,-24 M905,520 l-14,-22 M905,520 l14,-22" stroke="#e0b040" stroke-width="6"/>'
                '<path class="pen" d="M905,540 q50,10 90,-4 q-10,34 -28,70 q-30,-20 -62,-26Z" fill="#c0392b"/>'
                '<path d="M905,610 l-6,50 M905,610 l6,50 M905,610 l0,56" stroke="#c0392b" stroke-width="4"/>'))
@@ -308,7 +308,7 @@ def _():
     L.append(road_back('day'))
     L.append(rows([(800, .45, 7), (840, .6, 7)], back=False, seed=6))
     L.append(horse(960, 1000, 1.7, '#4a2e22', facing=1))
-    L.append(sit('LTK_G', 960, 1000 - 350 + 52, 1.7, pose='rein'))
+    L.append(sit('LTK_G', 960, 1000 - 350 + 52, 1.7, pose='rein', on_horse=True))
     L.append(pennant(1500, 560, 960, PEN_V, 150))
     L.append(dust(900, 1040, 700))
     return svg(L, 'day')
@@ -612,7 +612,7 @@ def _():
     L.append(road('grey', (720, 1200), 790, '#8a7a62'))
     L.append(rows([(800, .45, 8), (830, .55, 8)], side='song', seed=8, penc=PEN_S))
     L.append(horse(900, 1010, 1.8, '#5a3a2a', facing=1))
-    L.append(sit('TTT', 900, 1010 - 369 + 55, 1.8, pose='hands'))
+    L.append(sit('TTT', 900, 1010 - 369 + 55, 1.8, pose='hands', on_horse=True))
     L.append(pennant(1500, 540, 960, PEN_S, 150))
     L.append(dust(900, 1040, 700, .25))
     return svg(L, 'grey')
@@ -669,8 +669,8 @@ def _():
     # băng trời: mặt trời và trăng nối nhau theo một cung, nói về ngày tháng trôi
     o = ''
     for i in range(6):
-        x = 260 + i * 280
-        y = 250 - abs(i - 2.5) * 20
+        x = 170 + i * 200
+        y = 150 - abs(i - 2.5) * 14
         if i % 2 == 0:
             o += f'<circle cx="{x}" cy="{y}" r="58" fill="#ffd9a0" opacity=".95"/><circle cx="{x}" cy="{y}" r="96" fill="#ffd9a0" opacity=".2"/>'
         else:
@@ -726,8 +726,20 @@ def _():
     L.append(ground('smoke', 780, '#5a4030'))
     L.append(road('smoke', (700, 1220), 780, '#7a5a40'))
     L.append(wall(620, 'smoke', tower_x=1450, side='song', h=170))
-    L.append(cart_overturned(860, 960, 2.2))
-    L.append(smoke(1500, 600, 300, '#1c1614', .6, 22)); L.append(smoke(1300, 620, 260, '#2a201c', .5, 18))
+    cols = ''
+    for cx, sx in ((1250, -1), (1600, 1)):
+        for sw, col, op in ((150, '#1c1614', .5), (100, '#2a201c', .55)):
+            dx = sx * 50
+            cols += (f'<path class="smoke" d="M{cx-sw/2},620 C{cx-sw*0.9+dx*0.3},470 {cx+sw*0.2+dx},380 {cx+dx*1.2-sw*0.2},230 C{cx+dx*1.4},120 {cx+dx*1.8+sw*0.6},60 {cx+dx*2.2},0 '
+                     f'L{cx+dx*2.2+sw*1.3},0 C{cx+dx*1.9+sw*1.4},140 {cx+dx*1.3+sw*1.1},260 {cx+dx*0.9+sw*0.9},400 C{cx+sw*0.9},520 {cx+sw/2},600 {cx+sw/2},620Z" fill="{col}" opacity="{op}"/>')
+    L.append(G('smoke', cols))
+    # đồ bỏ lại sau trận: cờ đổ, giáo gãy, khiên rơi, bao đất
+    deb = ''
+    for i, (x, y, a) in enumerate(((420, 930, -12), (760, 990, 8), (1120, 940, -6), (1500, 1000, 14))):
+        deb += f'<g transform="translate({x},{y}) rotate({a})"><line x1="-150" y1="0" x2="150" y2="0" stroke="#6b4a2a" stroke-width="6"/><path d="M150,-3 L178,0 L150,3Z" fill="#b9bcc4"/>' + (f'<path d="M-150,-2 q40,-22 90,-8 q-20,22 -40,30 q-20,-14 -50,-20Z" fill="#a8452f"/>' if i % 2 == 0 else '') + '</g>'
+    for x, y in ((600, 1020), (1010, 1040), (1380, 1030)):
+        deb += f'<ellipse cx="{x}" cy="{y}" rx="46" ry="14" fill="#5a4030"/><ellipse cx="{x}" cy="{y-3}" rx="40" ry="10" fill="#6a4a38"/><circle cx="{x}" cy="{y-3}" r="7" fill="#a98a5a"/>'
+    L.append(G('debris', deb))
     L.append(bamboo(80, 850, 1.1, 'smoke'))
     return svg(L, 'smoke')
 

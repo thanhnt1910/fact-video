@@ -168,6 +168,8 @@ def _shoes(x, y, s):
 
 
 def _arms(x, y, s, col, pose, wide=False):
+    if pose == 'rein' and not LIMBS:
+        pose = 'hands'
     if LIMBS:
         return _arms_limbs(x, y, s, col, pose, wide)
     return _arms_old(x, y, s, col, pose, wide)
@@ -189,6 +191,15 @@ def _arms_limbs(x, y, s, col, pose, wide=False):
         o += _hand(x - 2 * s, y - h * 0.575, s, ang=-8)
         o += _hand(x + 3 * s, y - h * 0.585, s, ang=8)
         o += f'<path d="M{x-9*s},{y-h*0.545} Q{x},{y-h*0.52} {x+9*s},{y-h*0.545}" stroke="{cuff}" stroke-width="{3.4*s}" fill="none" stroke-linecap="round"/>'
+        return o
+    if pose == 'rein':
+        # người cưỡi ngựa: tay gần cầm dây cương đưa ra trước, tay xa đặt trên đùi
+        o += _tube(((x - 21 * s, y - h * 0.83), (x - 33 * s, y - h * 0.66), (x - 18 * s, y - h * 0.5)), w * 0.86, c, dk)
+        o += _hand(x - 16 * s, y - h * 0.495, s * 0.95, ang=-20)
+        hx, hy = x + 46 * s, y - h * 0.6
+        o += f'<path d="M{hx},{hy} Q{hx+80*s},{hy+14*s} {hx+144*s},{hy+2*s}" stroke="#3a2418" stroke-width="{2*s}" fill="none"/>'
+        o += _tube(((x + 21 * s, y - h * 0.83), (x + 36 * s, y - h * 0.72), (hx - 2 * s, hy - 1 * s)), w * 0.86, c, dk)
+        o += _hand(hx, hy, s, ang=0, grip=True)
         return o
     if pose == 'spear':
         # tay xa chống hông, tay gần nắm cán giáo

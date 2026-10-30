@@ -98,7 +98,7 @@ Bản nháp để chủ kênh duyệt. Giọng đọc: Sadaltager. Độ dài th
 
 31. Thắng lớn như vậy, vì sao quân Đại Việt không ở lại giữ đất?  *(ảnh 19052)*
 
-32. Mục tiêu là phá thế chuẩn bị của quân Tống, không phải chiếm đất. Ở lại xa nước, họ dễ bị vây lại và cắt mất đường về.  *(ảnh 19052)*
+32. Mục tiêu là phá thế chuẩn bị của quân Tống, không phải chiếm đất. Nếu ở lại giữa đất địch, quân Đại Việt sẽ bị đại quân nhà Tống bao vây và chặn mất đường rút về nước.  *(ảnh 19052)*
 
 
 ### Giữ sông bằng gì

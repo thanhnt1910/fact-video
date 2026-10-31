@@ -1,0 +1,3556 @@
+{
+ "project": "lt1v4",
+ "plan_version": "1",
+ "plan_status": "PLAN_OWNER_REVIEW",
+ "bible_versions": {
+  "master": "1.3",
+  "period": "1.3",
+  "khoi_prompt": "1.3"
+ },
+ "script": "ke-hoach/thu-giong-hai/lt1v4_full.json",
+ "scenes": [
+  {
+   "scene_id": "L01",
+   "segment_ids": [
+    1,
+    26
+   ],
+   "scene_type": "fortress",
+   "expected_people": 6,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "thành Ung Châu"
+   ],
+   "positions": "tường thành giữa khung; tiền cảnh là đồng bằng trống",
+   "groups": [
+    {
+     "name": "lính Tống trên đầu tường",
+     "count": 6,
+     "position": "trung cảnh, rải đều trên đầu tường",
+     "role": "canh giữ",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "đồng bằng trống",
+    "mid": "tường thành và lầu cổng, sáu lính nhỏ trên đầu tường",
+    "back": "trời xám"
+   },
+   "camera": "wide establishing, hơi cao",
+   "lighting": "ánh sáng xám, trời âm u",
+   "scenery": "Flat open plain under a grey overcast sky",
+   "blocks_used": [
+    "THANH_SONG",
+    "SONG_BO_BINH_NANG"
+   ],
+   "detail_tags": [
+    {
+     "item": "thành Tống (tường đá xám, lầu cổng gỗ)",
+     "block": "THANH_SONG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống trên đầu tường",
+     "bible_ref": "period-ly-tong#D Thành trì"
+    },
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống trên đầu tường",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide establishing shot from outside across an empty plain, the city wall fills the middle of the frame; six tiny Song soldiers stand spaced apart along the top of the wall, nobody on the plain in the foreground. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Flat open plain under a grey overcast sky. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "04ae7d1c80328ad89150a73a9418e9add22024bfa65d727491c3ed1dbdb1adea",
+   "prompt_version": "p1",
+   "prompt_chars": 836,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "ung-chau-wall",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Đoạn 1: không vẽ cái chết hay lửa (kịch bản v4 không nói). Đoạn 26 dùng lại: thành đứng một mình.",
+   "timing_note": "Đoạn 1 và đoạn 26 cách xa nhau, không liền."
+  },
+  {
+   "scene_id": "L02",
+   "segment_ids": [
+    2,
+    27
+   ],
+   "scene_type": "portrait",
+   "expected_people": 3,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Tô Giám (không có chân dung; tạo hình nghệ thuật)"
+   ],
+   "positions": "sĩ quan đứng trên đầu tường, lưng quay về máy, hai lính phía sau",
+   "groups": [
+    {
+     "name": "sĩ quan Tống (tri châu Tô Giám, tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh trái, nhìn từ phía sau",
+     "role": "chỉ huy giữ thành",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Tống",
+     "count": 2,
+     "position": "trung cảnh, sau sĩ quan vài bước",
+     "role": "hộ vệ",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sĩ quan nhìn từ phía sau",
+    "mid": "hai lính",
+    "back": "đồng bằng ngoài thành"
+   },
+   "camera": "medium shot, nhìn từ sau vai",
+   "lighting": "ánh sáng xám lạnh",
+   "scenery": "Plain beyond the wall under a grey sky",
+   "blocks_used": [
+    "THANH_SONG",
+    "SONG_SI_QUAN",
+    "SONG_BO_BINH_NANG"
+   ],
+   "detail_tags": [
+    {
+     "item": "thành Tống (tường đá xám, lầu cổng gỗ)",
+     "block": "THANH_SONG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống (tri châu Tô Giám, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Thành trì"
+    },
+    {
+     "item": "sĩ quan Tống",
+     "block": "SONG_SI_QUAN",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống (tri châu Tô Giám, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    },
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống (tri châu Tô Giám, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Medium shot: one Song officer stands on top of the city wall seen from behind and slightly from the side, looking out over the plain; two Song soldiers stand a few steps behind him. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Plain beyond the wall under a grey sky. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "dd6ab87789edd0c5534d1262994e281c3e1239b46279690b1c35e9014f3cc877",
+   "prompt_version": "p1",
+   "prompt_chars": 895,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "to-giam",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Đoạn 2 chưa nêu tên; đoạn 27 nêu tên Tô Giám. Tạo hình sĩ quan là phục dựng, không phải chân dung.",
+   "timing_note": "Hai đoạn cách xa nhau."
+  },
+  {
+   "scene_id": "L03",
+   "segment_ids": [
+    3,
+    66
+   ],
+   "scene_type": "army",
+   "expected_people": 16,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "đoàn quân Đại Việt"
+   ],
+   "positions": "ba hàng lính đi về cùng một hướng (bắc) trên đường đất",
+   "groups": [
+    {
+     "name": "lính Đại Việt tiền cảnh",
+     "count": 3,
+     "position": "tiền cảnh",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt trung cảnh",
+     "count": 7,
+     "position": "trung cảnh",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt hậu cảnh",
+     "count": 6,
+     "position": "hậu cảnh, nhỏ",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "3 lính",
+    "mid": "7 lính",
+    "back": "6 lính nhỏ"
+   },
+   "camera": "wide shot, hơi cao",
+   "lighting": "ánh sáng buổi sáng mát",
+   "scenery": "Green hills, dry dirt road",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot, slightly elevated: sixteen Vietnamese soldiers march in three rows along a dirt road through hills, all walking in the same direction. Three soldiers in the foreground, seven in the middle, six small in the background, clearly spaced apart. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. bare heads with black hair tied in a topknot. some barefoot, some in simple straw sandals. wooden spears with iron tips. Green hills, dry dirt road. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "7229fbb2946fe3263000756b0acc0c2ceade677cd2a72686957b1e2ab7942398",
+   "prompt_version": "p1",
+   "prompt_chars": 902,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "vn-vuot-bien-gioi",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Số lính trong ảnh chỉ minh họa, không phải số quân trong sử (kịch bản nói hơn mười vạn người). Không cờ.",
+   "timing_note": "Đoạn 66 dùng lại: nửa đầu đoạn."
+  },
+  {
+   "scene_id": "L04",
+   "segment_ids": [
+    4,
+    5,
+    60
+   ],
+   "scene_type": "command_room",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "một người đứng bên bàn thấp, mặt quay đi một phần",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "giữa khung, nhìn từ phía sau và hơi nghiêng",
+     "role": "đứng nhìn bản đồ",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "nhân vật từ phía sau",
+    "mid": "bàn thấp, bản đồ, đèn dầu",
+    "back": "tường và cột gỗ"
+   },
+   "camera": "medium shot, từ phía sau và hơi nghiêng",
+   "lighting": "ánh sáng ấm yếu từ đèn dầu",
+   "scenery": "",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG",
+    "DEN",
+    "NHA_DAN"
+   ],
+   "detail_tags": [
+    {
+     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "đèn dầu đất nung trên bàn thấp",
+     "block": "DEN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#F"
+    },
+    {
+     "item": "nhà gỗ đơn giản, sàn chiếu",
+     "block": "NHA_DAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Nhà dân"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "bản đồ cuộn không chữ",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "đạo cụ không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Medium shot from behind and slightly from the side: one general stands at a table looking down at an unrolled map with no writing on it, his face partly turned away, a plain timber hall around him. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "bfd00049e3ebbf3b17258dc3883c83cd0ae805fd56f8388ac11440553b1fe0a4",
+   "prompt_version": "p1",
+   "prompt_chars": 898,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": true,
+   "risk": "Medium",
+   "reuse_group": "ltk-hall",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Cần Character Reference Lý Thường Kiệt trước khi vẽ loạt nhân vật này. Dùng cho đoạn 4, 5 và 60.",
+   "timing_note": "Đoạn 4 và 5 liền nhau (khoảng 19 giây một ảnh): cần hiệu ứng chuyển động."
+  },
+  {
+   "scene_id": "L05",
+   "segment_ids": [
+    6
+   ],
+   "scene_type": "architecture",
+   "expected_people": 3,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "kinh thành Thăng Long"
+   ],
+   "positions": "sân cung điện, ba người nhỏ đi ngang cuối khung",
+   "groups": [
+    {
+     "name": "người hầu trong cung",
+     "count": 3,
+     "position": "tiền cảnh dưới, nhỏ",
+     "role": "đi qua sân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sân lát",
+    "mid": "cung điện gỗ mái ngói",
+    "back": "mái và trời"
+   },
+   "camera": "wide establishing shot",
+   "lighting": "ánh sáng buổi sáng mềm",
+   "scenery": "Open paved courtyard, soft morning haze",
+   "blocks_used": [
+    "KIEN_TRUC_CUNG"
+   ],
+   "detail_tags": [
+    {
+     "item": "cung điện gỗ mái ngói, đấu củng",
+     "block": "KIEN_TRUC_CUNG",
+     "tag": "historical_evidence",
+     "evidence_level": "A",
+     "who": "người hầu trong cung",
+     "bible_ref": "period-ly-tong#C Kiến trúc cung điện"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "người hầu trong cung mặc áo dài thô, đầu trần",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "trang phục người hầu không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide establishing shot of a palace courtyard in Thăng Long, three small attendants walk across the courtyard near the bottom of the frame. timber palace building with tiled roof and bracket system. Open paved courtyard, soft morning haze. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "2931e873b0913b485550fde9cae2c9a1a4e1c93e3e4c1304025696b59cddc968",
+   "prompt_version": "p1",
+   "prompt_chars": 579,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "thang-long",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ vua. Mô tả \"khôi ngô\" của kịch bản không thể hiện bằng ảnh này.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L06",
+   "segment_ids": [
+    7
+   ],
+   "scene_type": "small_group",
+   "expected_people": 8,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt thời trung niên (chưa có Character Reference)"
+   ],
+   "positions": "một quan đi giữa đường đất cạnh ruộng, ba người theo sau, bốn dân làng bên phải",
+   "groups": [
+    {
+     "name": "quan Đại Việt (Lý Thường Kiệt thời trẻ hơn, tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "giữa đường",
+     "role": "đi tuần",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "tùy tùng",
+     "count": 3,
+     "position": "sau quan",
+     "role": "đi theo",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "dân làng",
+     "count": 4,
+     "position": "bên phải, làm ruộng",
+     "role": "làm đồng",
+     "faction": "dan",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "quan và tùy tùng",
+    "mid": "ruộng lúa",
+    "back": "làng xa"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ban ngày dịu",
+   "scenery": "Rice fields, a village in the distance",
+   "blocks_used": [
+    "VN_TUONG",
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN"
+   ],
+   "detail_tags": [
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "quan Đại Việt (Lý Thường Kiệt thời trẻ hơn, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "quan Đại Việt (Lý Thường Kiệt thời trẻ hơn, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "quan Đại Việt (Lý Thường Kiệt thời trẻ hơn, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "quan Đại Việt (Lý Thường Kiệt thời trẻ hơn, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "dân làng mặc áo thô, đầu trần hoặc khăn quấn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "trang phục dân không có trong Bible",
+     "owner_approved": false
+    },
+    {
+     "item": "quan ở độ tuổi trung niên",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "Bible chỉ mô tả Lý Thường Kiệt lớn tuổi, râu bạc",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot: one Vietnamese official walks along a dirt road beside rice fields, followed by three attendants; four villagers work in the field on the right side. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. some barefoot, some in simple straw sandals. Rice fields, a village in the distance. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "ddd7c47f8dfd95c850740baa7bd522e0fcdbbaec118b8aeee6691f6bceef0a78",
+   "prompt_version": "p1",
+   "prompt_chars": 861,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "L06",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ \"cờ tiết\" (chưa có tư liệu về hình dạng và màu).",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L07",
+   "segment_ids": [
+    8,
+    63
+   ],
+   "scene_type": "army",
+   "expected_people": 12,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "đạo quân tiên phong"
+   ],
+   "positions": "hai hàng lính tiến về phía nam dọc bờ sông",
+   "groups": [
+    {
+     "name": "lính Đại Việt tiên phong tiền cảnh",
+     "count": 4,
+     "position": "tiền cảnh",
+     "role": "tiến quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt phía sau",
+     "count": 8,
+     "position": "trung cảnh",
+     "role": "tiến quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "4 lính",
+    "mid": "8 lính",
+    "back": "đồng bằng nhiệt đới"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh nắng rõ, bóng đổ",
+   "scenery": "Tropical lowland, palm trees, calm river",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiên phong tiền cảnh",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiên phong tiền cảnh",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiên phong tiền cảnh",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiên phong tiền cảnh",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiên phong tiền cảnh",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot: twelve Vietnamese soldiers advance south in two rows along a river bank among palm trees; four soldiers in the foreground, eight behind them, clearly spaced apart. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. a plain cloth headwrap. barefoot. wooden spears with iron tips. Tropical lowland, palm trees, calm river. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "1dbe0b70abf559503a67f1722eaece5fc3c779808a531fb9092d6fd0aaa3c408",
+   "prompt_version": "p1",
+   "prompt_chars": 782,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "chiem-thanh",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Dùng cho đoạn 8 (1069) và đoạn 63 (chiến dịch Chiêm Thành lần cuối). Địa hình nhiệt đới là suy luận từ hướng nam.",
+   "timing_note": "Hai lần dùng cách xa nhau."
+  },
+  {
+   "scene_id": "L08",
+   "segment_ids": [
+    9,
+    17,
+    18
+   ],
+   "scene_type": "small_group",
+   "expected_people": 3,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "tướng đứng trên đồi đá nhìn núi phía bắc, hai lính sau lưng",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh, nhìn từ phía sau",
+     "role": "nhìn về phía bắc",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt",
+     "count": 2,
+     "position": "sau tướng vài bước",
+     "role": "hộ vệ",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "tướng và hai lính",
+    "mid": "sườn đồi",
+    "back": "núi xanh xám chồng lớp"
+   },
+   "camera": "medium wide shot từ phía sau",
+   "lighting": "ánh sáng lạnh, có sương",
+   "scenery": "Rocky hill in the foreground, layered blue-grey mountains in the distance, cold light",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG",
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Medium wide shot from behind: one general stands on a rocky hill looking north across distant mountains, two soldiers stand a few steps behind him. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. a mix of bare heads and plain cloth headwraps. simple straw sandals. wooden spears with iron tips. Rocky hill in the foreground, layered blue-grey mountains in the distance, cold light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "a5e7238d2cf0c2ab6352dee5bcd72f012239c3e489a83d14ec7ce79fd789de6d",
+   "prompt_version": "p1",
+   "prompt_chars": 1052,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": true,
+   "risk": "Low",
+   "reuse_group": "ltk-nhin-bac",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Dùng cho 9, 17, 18 (đoạn 17 và 18 là câu hỏi và suy nghĩ về danh nghĩa tiến quân).",
+   "timing_note": "Đoạn 17 và 18 liền nhau, khoảng 23 giây: cần hiệu ứng chuyển động."
+  },
+  {
+   "scene_id": "L09",
+   "segment_ids": [
+    10
+   ],
+   "scene_type": "object_detail",
+   "expected_people": 0,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "không có người"
+   ],
+   "positions": "bàn gỗ sẫm với giấy cuộn, nghiên mực, bút lông, ánh sáng cửa sổ",
+   "groups": [
+    {
+     "name": "(không có người)",
+     "count": 0,
+     "position": "-",
+     "role": "-",
+     "faction": "-",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "mặt bàn",
+    "mid": "giấy cuộn",
+    "back": "mờ"
+   },
+   "camera": "close view",
+   "lighting": "ánh sáng cửa sổ mềm",
+   "scenery": "",
+   "blocks_used": [],
+   "detail_tags": [],
+   "free_text_details": [
+    {
+     "item": "bàn gỗ, giấy cuộn, nghiên mực và bút lông",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "đạo cụ triều đình Tống không có trong Bible; không vẽ Vương An Thạch vì chưa có tạo hình quan văn Tống",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Close view of a dark wooden desk with paper scrolls, an ink stone and a brush, soft window light, no people. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "de5a5e2fce36a7d328f11c1cf0b48acb6bf52e5616149e5d764578e35e667ad2",
+   "prompt_version": "p1",
+   "prompt_chars": 292,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "tong-trieu-dinh",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Cảnh thay cho Vương An Thạch và chính sách cải cách: không vẽ nhân vật.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "M1",
+   "segment_ids": [
+    11
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Vị trí Quế Châu sát biên giới, hai mũi tên cử Thẩm Khởi và Lưu Di từ phía Tống tới. Chỉ dựa trên kịch bản.",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M1",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L10",
+   "segment_ids": [
+    12,
+    22,
+    23
+   ],
+   "scene_type": "small_group",
+   "expected_people": 8,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "xưởng đóng thuyền của quân Tống"
+   ],
+   "positions": "bờ sông, hai thân thuyền gỗ trên giá, tám lính khuân ván",
+   "groups": [
+    {
+     "name": "lính Tống ở xưởng thuyền",
+     "count": 8,
+     "position": "tiền cảnh 4, gần thân thuyền 4",
+     "role": "khuân gỗ",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "4 lính khuân ván",
+    "mid": "2 thân thuyền trên giá",
+    "back": "dòng sông"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ban ngày",
+   "scenery": "River bank, muddy ground",
+   "blocks_used": [
+    "SONG_BO_BINH_NHE"
+   ],
+   "detail_tags": [
+    {
+     "item": "bộ binh nhẹ Tống",
+     "block": "SONG_BO_BINH_NHE",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống ở xưởng thuyền",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "thân thuyền gỗ đang đóng trên giá đỡ",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "chưa có tư liệu kiểu thuyền Tống ở Quế Châu",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot of a riverside yard: eight Song soldiers carry timber planks toward two unfinished wooden boat hulls resting on wooden supports; four soldiers in the foreground, four near the hulls. Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears. River bank, muddy ground. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "dbc62a9e23e6b5dafbaf6fd75ce257a612f86e6f50481da4ade10bddef6bdbab",
+   "prompt_version": "p1",
+   "prompt_chars": 651,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "quang-tay-chuan-bi",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Dùng cho 12 (đóng thuyền, luyện thủy quân), 22 và 23 (nhà Tống chuẩn bị lực lượng ở khu vực sát biên giới). Không vẽ cờ.",
+   "timing_note": "Đoạn 22 và 23 liền nhau, khoảng 19 giây."
+  },
+  {
+   "scene_id": "L11",
+   "segment_ids": [
+    13,
+    50,
+    51
+   ],
+   "scene_type": "command_room",
+   "expected_people": 4,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "bốn người quanh bàn thấp có bản đồ",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "đầu bàn phía xa, ba phần tư",
+     "role": "quyết định",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "sĩ quan Đại Việt",
+     "count": 3,
+     "position": "hai bên và đầu bàn gần",
+     "role": "bàn bạc",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sĩ quan đầu bàn gần",
+    "mid": "bàn, bản đồ, đèn dầu",
+    "back": "cột gỗ"
+   },
+   "camera": "medium shot, ba phần tư",
+   "lighting": "ánh sáng ấm từ đèn dầu",
+   "scenery": "",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG",
+    "DEN",
+    "NHA_DAN"
+   ],
+   "detail_tags": [
+    {
+     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "đèn dầu đất nung trên bàn thấp",
+     "block": "DEN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#F"
+    },
+    {
+     "item": "nhà gỗ đơn giản, sàn chiếu",
+     "block": "NHA_DAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Nhà dân"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "bản đồ cuộn không chữ",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "đạo cụ không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Medium shot, three-quarter view: four men stand around a low wooden table with an unrolled map with no writing on it, one elderly general at the far end and three officers, one on each side and one at the near end, all looking at the map. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "b4f327361c56b50b9b28031abc0d99dd3cbbc06129830a9c91b1b2c907265da2",
+   "prompt_version": "p1",
+   "prompt_chars": 939,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": true,
+   "risk": "Medium",
+   "reuse_group": "ltk-hoi-dong",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Dùng cho 13 (chờ hay đánh), 50 và 51 (nghị hòa). Không vẽ nhà vua (không có tạo hình trong Bible).",
+   "timing_note": "Đoạn 50 và 51 liền nhau, khoảng 19 giây."
+  },
+  {
+   "scene_id": "L12",
+   "segment_ids": [
+    14
+   ],
+   "scene_type": "army",
+   "expected_people": 14,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt",
+    "Tông Đản"
+   ],
+   "positions": "hai tướng đứng cạnh nhau, quay lưng, đối diện hai hàng lính",
+   "groups": [
+    {
+     "name": "tướng Đại Việt (Lý Thường Kiệt)",
+     "count": 1,
+     "position": "tiền cảnh trái, từ phía sau",
+     "role": "chỉ huy",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "tướng Đại Việt (Tông Đản, tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh phải, từ phía sau",
+     "role": "chỉ huy",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt",
+     "count": 12,
+     "position": "trung cảnh, hai hàng sáu người",
+     "role": "đứng chờ lệnh",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "hai tướng",
+    "mid": "12 lính hai hàng",
+    "back": "sân đất nện"
+   },
+   "camera": "medium wide shot từ phía sau",
+   "lighting": "ánh sáng buổi sáng",
+   "scenery": "Packed earth courtyard, soft morning light",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG",
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "tướng Đại Việt (Lý Thường Kiệt)",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "Tông Đản trẻ hơn Lý Thường Kiệt, râu đen ngắn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu về diện mạo Tông Đản",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Medium wide shot from behind: two Vietnamese generals stand side by side in the foreground, the left one elderly with a grey beard and the right one younger, facing twelve Vietnamese soldiers standing in two neat rows of six in a courtyard. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. bare heads with black hair tied in a topknot. barefoot. wooden spears with iron tips. Packed earth courtyard, soft morning light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "7c909425630630716851ec73273fbec13f194367df93adb3bc5d7cae1ce0d410",
+   "prompt_version": "p1",
+   "prompt_chars": 1089,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": true,
+   "risk": "Medium",
+   "reuse_group": "xuat-quan",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ cờ xuất quân (chưa có tư liệu).",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L13",
+   "segment_ids": [
+    15,
+    16
+   ],
+   "scene_type": "small_group",
+   "expected_people": 6,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "nông dân nhà Tống"
+   ],
+   "positions": "ruộng lúa chín, sáu người chia hai nhóm ba",
+   "groups": [
+    {
+     "name": "nông dân Tống",
+     "count": 3,
+     "position": "tiền cảnh",
+     "role": "gặt lúa",
+     "faction": "dan",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "nông dân Tống",
+     "count": 3,
+     "position": "trung cảnh",
+     "role": "bó lúa",
+     "faction": "dan",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "3 người gặt",
+    "mid": "3 người bó lúa",
+    "back": "đồi thấp"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng chiều vàng nhạt",
+   "scenery": "Open fields and low hills",
+   "blocks_used": [],
+   "detail_tags": [],
+   "free_text_details": [
+    {
+     "item": "nông dân Tống áo thô, đầu trần hoặc khăn quấn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "trang phục dân Tống không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot of a rice field at harvest: six Song farmers cut and bundle ripe golden rice, three in the foreground and three further back, clearly spaced apart. Open fields and low hills. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "13a6659b3314bd5571b31844a7e610077c5906f4274d8ffbe6950083c835227d",
+   "prompt_version": "p1",
+   "prompt_chars": 525,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "thanh-mieu",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Minh họa chính sách thanh miêu (vay khi lúa còn non, trả khi gặt). Không vẽ quan thu nợ.",
+   "timing_note": "Đoạn 15 và 16 liền nhau, khoảng 20 giây."
+  },
+  {
+   "scene_id": "M2",
+   "segment_ids": [
+    19
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Hai đạo thủy bộ: đạo thủy (Lý Thường Kiệt) đi dọc biển tới Khâm Châu và Liêm Châu; đạo bộ (Tông Đản) đi thẳng tới Ung Châu. Không ghi số quân trên bản đồ (kịch bản có nói hơn mười vạn người, cần nêu nguồn).",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M2",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L14",
+   "segment_ids": [
+    20
+   ],
+   "scene_type": "small_group",
+   "expected_people": 8,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "đạo thủy Đại Việt"
+   ],
+   "positions": "hai thuyền gỗ tấp bờ cát, mỗi thuyền bốn lính lội lên bờ",
+   "groups": [
+    {
+     "name": "lính Đại Việt xuống thuyền, thuyền trái",
+     "count": 4,
+     "position": "trung cảnh trái, lội ra bờ",
+     "role": "đổ bộ",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt, thuyền phải",
+     "count": 4,
+     "position": "trung cảnh phải",
+     "role": "đổ bộ",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "bãi cát",
+    "mid": "hai thuyền và tám lính",
+    "back": "biển"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ven biển",
+   "scenery": "Sandy beach, shallow surf, grey sea",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt xuống thuyền, thuyền trái",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt xuống thuyền, thuyền trái",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt xuống thuyền, thuyền trái",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt xuống thuyền, thuyền trái",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "thuyền gỗ lòng nông",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "chưa có tư liệu kiểu thuyền chiến nhà Lý",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot of a sandy coast: two wooden boats are pulled onto the shore, eight Vietnamese soldiers wade out of them onto the beach, four near each boat. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. barefoot. wooden spears with iron tips. Sandy beach, shallow surf, grey sea. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "7ced65b358b40da41dc7ea9e96a56f2cfe16e3861651479343c08adbdc1f41a0",
+   "prompt_version": "p1",
+   "prompt_chars": 676,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "dao-thuy",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ cảnh bắt dân (đoạn 20 nói bắt tù binh), chỉ vẽ đổ bộ.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L15",
+   "segment_ids": [
+    21
+   ],
+   "scene_type": "army",
+   "expected_people": 14,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "đạo bộ Tông Đản"
+   ],
+   "positions": "cột quân đi về phía thành ở xa",
+   "groups": [
+    {
+     "name": "lính Đại Việt tiền cảnh",
+     "count": 3,
+     "position": "tiền cảnh",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt giữa",
+     "count": 6,
+     "position": "trung cảnh",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt sau",
+     "count": 5,
+     "position": "hậu cảnh",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "3 lính",
+    "mid": "6 lính",
+    "back": "5 lính, thành nhỏ ở xa"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ban ngày",
+   "scenery": "Open road across low fields",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI",
+    "THANH_SONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    },
+    {
+     "item": "thành Tống (tường đá xám, lầu cổng gỗ)",
+     "block": "THANH_SONG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt tiền cảnh",
+     "bible_ref": "period-ly-tong#D Thành trì"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot: fourteen Vietnamese soldiers march in a column along a road toward a walled city seen small in the far distance; three soldiers in the foreground, six in the middle, five behind, clearly spaced apart. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. a mix of bare heads and plain cloth headwraps. some barefoot, some in simple straw sandals. wooden spears with iron tips. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. Open road across low fields. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "8c34750ac99ca7ec5fed2cb6e07d0e8eb6bae13c106dd10df625e37ba2294479",
+   "prompt_version": "p1",
+   "prompt_chars": 965,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "dao-bo",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L16",
+   "segment_ids": [
+    24
+   ],
+   "scene_type": "army",
+   "expected_people": 12,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Trương Thủ Tiết (không có chân dung)"
+   ],
+   "positions": "cột quân Tống đi trên đường núi: sĩ quan dẫn đầu, năm bộ binh nặng, sáu nỏ thủ",
+   "groups": [
+    {
+     "name": "sĩ quan Tống (Trương Thủ Tiết, tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh, dẫn đầu",
+     "role": "chỉ huy",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "bộ binh nặng Tống",
+     "count": 5,
+     "position": "trung cảnh",
+     "role": "hành quân",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "cung nỏ thủ Tống",
+     "count": 6,
+     "position": "hậu cảnh",
+     "role": "hành quân",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sĩ quan",
+    "mid": "5 bộ binh nặng",
+    "back": "6 nỏ thủ"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng xám",
+   "scenery": "Mountain road between steep hills",
+   "blocks_used": [
+    "SONG_SI_QUAN",
+    "SONG_BO_BINH_NANG",
+    "SONG_CUNG_NO"
+   ],
+   "detail_tags": [
+    {
+     "item": "sĩ quan Tống",
+     "block": "SONG_SI_QUAN",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống (Trương Thủ Tiết, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    },
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống (Trương Thủ Tiết, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    },
+    {
+     "item": "cung nỏ thủ Tống",
+     "block": "SONG_CUNG_NO",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống (Trương Thủ Tiết, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot: twelve Song soldiers march in a column along a mountain road; one officer leads at the front of the frame, five heavy infantry with round shields and spears follow in the middle, six crossbowmen walk at the rear, clearly spaced apart. a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows. Mountain road between steep hills. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "3ea7abf770bb077116b622b94f4c98e8bcca5dd5a23449dace41158b10ccb499",
+   "prompt_version": "p1",
+   "prompt_chars": 948,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "vien-binh-tong",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không cờ Tống. Binh chủng chọn theo Bible (nặng + nỏ).",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L17",
+   "segment_ids": [
+    25
+   ],
+   "scene_type": "battlefield",
+   "expected_people": 16,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "phục kích ở ải Côn Lôn"
+   ],
+   "positions": "đường hẹp dưới thung lũng, hai sườn dốc phía trên",
+   "groups": [
+    {
+     "name": "lính Tống trên đường",
+     "count": 8,
+     "position": "đường dưới thung lũng",
+     "role": "đi qua ải",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt sườn trái",
+     "count": 4,
+     "position": "sườn dốc trên trái, nấp sau đá",
+     "role": "phục kích",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt sườn phải",
+     "count": 4,
+     "position": "sườn dốc trên phải",
+     "role": "phục kích",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sườn dốc và đá",
+    "mid": "cột quân Tống",
+    "back": "đèo"
+   },
+   "camera": "wide shot, góc cao",
+   "lighting": "ánh sáng chiều xuyên khe núi",
+   "scenery": "Narrow pass between steep rocky slopes",
+   "blocks_used": [
+    "SONG_BO_BINH_NANG",
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống trên đường",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống trên đường",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống trên đường",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống trên đường",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống trên đường",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot from a high angle of a narrow mountain pass: eight Song soldiers walk in a short column on the road below, and on the steep slopes above, eight Vietnamese soldiers stand hidden among rocks and bushes, four on each side. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. simple straw sandals. wooden spears with iron tips. Narrow pass between steep rocky slopes. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "fc8ab51015059eb947ea0b27d255a32b66c587402c6dea9deca41fd6f4813de5",
+   "prompt_version": "p1",
+   "prompt_chars": 931,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "High",
+   "reuse_group": "phuc-kich",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ cảnh giết Trương Thủ Tiết hay máu. Chỉ vẽ khoảnh khắc phục kích. Rủi ro cao vì hai phe ở cùng khung.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L18",
+   "segment_ids": [
+    28,
+    65
+   ],
+   "scene_type": "fortress",
+   "expected_people": 11,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "quân vây thành Đại Việt"
+   ],
+   "positions": "dốc đất lớn áp tường, tám lính leo dốc, ba lính Tống trên tường",
+   "groups": [
+    {
+     "name": "lính Đại Việt vác đất",
+     "count": 8,
+     "position": "trên dốc đất",
+     "role": "vác giỏ đất lên dốc",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Tống giữ thành",
+     "count": 3,
+     "position": "trên đầu tường",
+     "role": "canh giữ",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "dốc đất",
+    "mid": "tám lính vác giỏ",
+    "back": "tường thành"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ban ngày",
+   "scenery": "",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "THANH_SONG",
+    "DOC_DAT",
+    "VAC_DAT",
+    "SONG_BO_BINH_NANG"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "thành Tống (tường đá xám, lầu cổng gỗ)",
+     "block": "THANH_SONG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#D Thành trì"
+    },
+    {
+     "item": "dốc đất đắp áp tường",
+     "block": "DOC_DAT",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#E"
+    },
+    {
+     "item": "vác đất bằng giỏ",
+     "block": "VAC_DAT",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#E"
+    },
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt vác đất",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot: against a tall grey stone city wall, eight Vietnamese soldiers climb the earth mound carrying baskets of soil, three Song defenders stand on the top of the wall. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. barefoot. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall. carrying baskets of soil. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "be515d3bb4b9317a41c8ac14626ef59628ce5133b77b7c6bd0a5e7ae295fd508",
+   "prompt_version": "p1",
+   "prompt_chars": 1055,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "doc-dat",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Dốc đất: sự kiện theo kịch bản (sử liệu), hình dạng là phục dựng (B). Không vũ khí công thành khác.",
+   "timing_note": "Đoạn 65 dùng lại: hai trận cách nhau một năm."
+  },
+  {
+   "scene_id": "L19",
+   "segment_ids": [
+    29
+   ],
+   "scene_type": "architecture",
+   "expected_people": 0,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "sân trong thành Ung Châu"
+   ],
+   "positions": "sân đá trống, cửa gỗ khép hờ, không người",
+   "groups": [
+    {
+     "name": "(không có người)",
+     "count": 0,
+     "position": "-",
+     "role": "-",
+     "faction": "-",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sân đá",
+    "mid": "cửa gỗ",
+    "back": "tường thành"
+   },
+   "camera": "medium wide shot",
+   "lighting": "ánh sáng xám âm u",
+   "scenery": "",
+   "blocks_used": [
+    "THANH_SONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "thành Tống (tường đá xám, lầu cổng gỗ)",
+     "block": "THANH_SONG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "(không có người)",
+     "bible_ref": "period-ly-tong#D Thành trì"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "sân đá trong thành, cửa gỗ khép hờ",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu về bố cục bên trong thành Ung Châu",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Quiet empty stone courtyard inside the walls of a Song city, the tall grey stone wall rising behind, wooden doors half open, no people. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "eed9057a95c77081927a4f2bade6374c881da0ce18fd3c014bec320ab2ee7231",
+   "prompt_version": "p1",
+   "prompt_chars": 420,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "ung-chau-trong",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ cái chết của Tô Giám và người thân (kịch bản v4 đoạn 29).",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L20",
+   "segment_ids": [
+    30
+   ],
+   "scene_type": "landscape",
+   "expected_people": 0,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "bãi đất trước tường thành"
+   ],
+   "positions": "dốc đất bên tường, đất xung quanh vắng, không người",
+   "groups": [
+    {
+     "name": "(không có người)",
+     "count": 0,
+     "position": "-",
+     "role": "-",
+     "faction": "-",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "đất trống",
+    "mid": "dốc đất",
+    "back": "tường thành trong sương"
+   },
+   "camera": "wide shot",
+   "lighting": "bình minh, sương mỏng",
+   "scenery": "",
+   "blocks_used": [
+    "THANH_SONG",
+    "DOC_DAT"
+   ],
+   "detail_tags": [
+    {
+     "item": "thành Tống (tường đá xám, lầu cổng gỗ)",
+     "block": "THANH_SONG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "(không có người)",
+     "bible_ref": "period-ly-tong#D Thành trì"
+    },
+    {
+     "item": "dốc đất đắp áp tường",
+     "block": "DOC_DAT",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "(không có người)",
+     "bible_ref": "period-ly-tong#E"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot at dawn: the ground around the huge earth mound beside the grey stone city wall is empty and quiet, mist over the fields, no people. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "7d663f351fc57c2bce8d02d9df0c433329c0325e233c7803cc114379f9830531",
+   "prompt_version": "p1",
+   "prompt_chars": 585,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "doc-dat-vang",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không vẽ thi thể. Số \"hơn năm vạn tám nghìn người\" (kịch bản nói là từ sử liệu được nhắc) nên hiện bằng chữ trên màn hình kèm nguồn, không bằng hình.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L21",
+   "segment_ids": [
+    31
+   ],
+   "scene_type": "small_group",
+   "expected_people": 14,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "người dân bị bắt"
+   ],
+   "positions": "đường rời thành: bốn lính đi trước, sáu dân ở giữa, bốn lính đi sau",
+   "groups": [
+    {
+     "name": "người dân Tống bị đưa về",
+     "count": 6,
+     "position": "giữa đường, xếp một hàng",
+     "role": "đi bộ",
+     "faction": "dan",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt dẫn đầu",
+     "count": 4,
+     "position": "phía trước hàng dân",
+     "role": "đi trước",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt đi sau",
+     "count": 4,
+     "position": "phía sau hàng dân",
+     "role": "đi sau",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "bốn lính dẫn đầu",
+    "mid": "sáu dân",
+    "back": "tường thành xa"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng chiều",
+   "scenery": "Dirt road across fields, the city wall small behind",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "người dân Tống bị đưa về",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "người dân Tống bị đưa về",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "người dân Tống bị đưa về",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "người dân Tống bị đưa về",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "dân Tống áo thô, đầu trần hoặc khăn quấn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "trang phục dân Tống không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot: on a road leading away from a Song city, six Song civilians walk in a line in the middle, four Vietnamese soldiers walk ahead of them and four behind, all heading the same direction away from the wall. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a mix of bare heads and plain cloth headwraps. some barefoot, some in simple straw sandals. wooden spears with iron tips. Dirt road across fields, the city wall small behind. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "3e930190a3220ef70c8ebe40b6c5cf94ad0811eb15256c4c3008285a22eeef87",
+   "prompt_version": "p1",
+   "prompt_chars": 811,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "rut-quan",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Không dùng xiềng xích, roi, bạo lực (kịch bản không nói).",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "M3",
+   "segment_ids": [
+    32,
+    33
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Ung Châu nằm sâu trong lãnh thổ nhà Tống, đường rút về biên giới và về Đại Việt, hai vùng ven biển Khâm và Liêm. Minh họa lý do \"không ở lại giữ thành\": đường rút dài, có thể bị bao vây.",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M3",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L22",
+   "segment_ids": [
+    34
+   ],
+   "scene_type": "army",
+   "expected_people": 12,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Quách Quỳ (không có chân dung)"
+   ],
+   "positions": "chỉ huy trên gò cao nhìn xuống hai hàng quân",
+   "groups": [
+    {
+     "name": "chỉ huy Tống (Quách Quỳ, tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh, nhìn từ phía sau",
+     "role": "chỉ huy",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "bộ binh nặng Tống",
+     "count": 6,
+     "position": "trung cảnh trước, một hàng",
+     "role": "đứng chờ",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "cung nỏ thủ Tống",
+     "count": 5,
+     "position": "trung cảnh sau, một hàng",
+     "role": "đứng chờ",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "chỉ huy",
+    "mid": "6 bộ binh nặng, 5 nỏ thủ",
+    "back": "đồng bằng"
+   },
+   "camera": "wide shot từ gò thấp",
+   "lighting": "ánh sáng nghiêm, trời trong",
+   "scenery": "Open plain, clear sky",
+   "blocks_used": [
+    "SONG_SI_QUAN",
+    "SONG_BO_BINH_NANG",
+    "SONG_CUNG_NO"
+   ],
+   "detail_tags": [
+    {
+     "item": "sĩ quan Tống",
+     "block": "SONG_SI_QUAN",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "chỉ huy Tống (Quách Quỳ, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    },
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "chỉ huy Tống (Quách Quỳ, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    },
+    {
+     "item": "cung nỏ thủ Tống",
+     "block": "SONG_CUNG_NO",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "chỉ huy Tống (Quách Quỳ, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot from a low hill: one Song commander stands in the foreground seen from behind, looking down at an assembled army of twelve Song soldiers: six heavy infantry in one row and five crossbowmen in a row behind them, clearly spaced apart. a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows. Open plain, clear sky. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "75fb3aba71a136c6fa176c30d4ba446dfef648d935aef51f244ef1c409204517",
+   "prompt_version": "p1",
+   "prompt_chars": 933,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "quach-quy",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "\"Đạo quân lớn\" của kịch bản chỉ được gợi bằng 11 lính; không vẽ cờ.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "M4",
+   "segment_ids": [
+    35
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Ba mũi áp lực lên Đại Việt: từ phía bắc (nhà Tống), phía nam (Chiêm Thành) và phía tây nam (Chân Lạp). Chỉ dựa trên kịch bản.",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M4",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L23",
+   "segment_ids": [
+    36
+   ],
+   "scene_type": "army",
+   "expected_people": 14,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "đại quân Tống"
+   ],
+   "positions": "cột quân Tống tiến về phía nam trên đường đất",
+   "groups": [
+    {
+     "name": "sĩ quan Tống",
+     "count": 1,
+     "position": "tiền cảnh, dẫn đầu",
+     "role": "dẫn quân",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "bộ binh nặng Tống",
+     "count": 7,
+     "position": "trung cảnh",
+     "role": "hành quân",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "cung nỏ thủ Tống",
+     "count": 6,
+     "position": "hậu cảnh",
+     "role": "hành quân",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sĩ quan",
+    "mid": "7 bộ binh nặng",
+    "back": "6 nỏ thủ"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng xám lạnh cuối năm",
+   "scenery": "Dry fields and low hills, cold grey light",
+   "blocks_used": [
+    "SONG_SI_QUAN",
+    "SONG_BO_BINH_NANG",
+    "SONG_CUNG_NO"
+   ],
+   "detail_tags": [
+    {
+     "item": "sĩ quan Tống",
+     "block": "SONG_SI_QUAN",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    },
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    },
+    {
+     "item": "cung nỏ thủ Tống",
+     "block": "SONG_CUNG_NO",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "sĩ quan Tống",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot: fourteen Song soldiers march south in a column along a dirt road: one officer at the front, seven heavy infantry with round shields and spears in the middle, six crossbowmen behind them, clearly spaced apart. a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows. Dry fields and low hills, cold grey light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "94792af0773cb316ff0e7b616eb7d115d345f6feadb04ca8b0ec7e6a7241e5bc",
+   "prompt_version": "p1",
+   "prompt_chars": 930,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "tong-tien-quan",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L24",
+   "segment_ids": [
+    37,
+    67
+   ],
+   "scene_type": "small_group",
+   "expected_people": 3,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "ba người đứng trên bờ nam nhìn qua sông",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh, nhìn từ phía sau",
+     "role": "nhìn ra sông",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "sĩ quan Đại Việt",
+     "count": 2,
+     "position": "hai bên, sau một bước",
+     "role": "đứng bên",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "ba người nhìn từ phía sau",
+    "mid": "dòng sông rộng",
+    "back": "bờ bắc mờ"
+   },
+   "camera": "wide shot từ phía sau",
+   "lighting": "hoàng hôn",
+   "scenery": "Wide calm river, flat banks, low evening light",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot from behind at dusk: a wide river, on the south bank one elderly general with a grey beard stands looking across the water, two Vietnamese officers stand beside him; the far bank is barely visible. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Wide calm river, flat banks, low evening light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "1c52d6abd77e34554bbc786d73b4812e3f10459ec29db70ba7ae8b9159253d86",
+   "prompt_version": "p1",
+   "prompt_chars": 813,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": true,
+   "risk": "Low",
+   "reuse_group": "ltk-song",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Đoạn 37 (chọn sông Như Nguyệt) và 67 (hai nước cờ, kết).",
+   "timing_note": "Hai đoạn cách xa nhau."
+  },
+  {
+   "scene_id": "M5",
+   "segment_ids": [
+    38,
+    39
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Sông Như Nguyệt (sông Cầu) nằm trên đường từ phía bắc về Thăng Long; vị trí khúc sông và khoảng cách tới kinh thành. Cần dữ liệu địa lý đã kiểm.",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M5",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L25",
+   "segment_ids": [
+    40,
+    66
+   ],
+   "scene_type": "landscape",
+   "expected_people": 10,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "phòng tuyến bờ nam"
+   ],
+   "positions": "hàng lũy đất cắm cọc dọc bờ, mười lính rải đều",
+   "groups": [
+    {
+     "name": "lính Đại Việt giữ phòng tuyến",
+     "count": 10,
+     "position": "rải dọc bờ nam",
+     "role": "đứng canh",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "lũy cọc ở bờ gần",
+    "mid": "mười lính",
+    "back": "dòng sông và bờ bắc xa"
+   },
+   "camera": "wide shot qua sông",
+   "lighting": "ánh sáng sớm",
+   "scenery": "Wide river, flat banks, early light",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt giữ phòng tuyến",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt giữ phòng tuyến",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt giữ phòng tuyến",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt giữ phòng tuyến",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt giữ phòng tuyến",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "lũy đất cắm cọc gỗ dọc bờ nam",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "kịch bản chỉ nói \"phòng tuyến kiên cố\"; kiểu lũy chưa có tư liệu đã kiểm",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot across a river: along the near south bank runs a long defensive line, an earth rampart with wooden stakes, with ten Vietnamese soldiers standing spaced along it facing the far bank. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. a mix of bare heads and plain cloth headwraps. some barefoot, some in simple straw sandals. wooden spears with iron tips. Wide river, flat banks, early light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "6952cebb704fedca9d2a81b01ceb6fb792ba3cd9e24a914abbf6d90be52bd2b9",
+   "prompt_version": "p1",
+   "prompt_chars": 852,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "phong-tuyen",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Đoạn 40 nói \"theo những ghi chép và truyền lại về sau\". Đoạn 66 dùng lại: nửa sau đoạn.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L26",
+   "segment_ids": [
+    41,
+    42,
+    43
+   ],
+   "scene_type": "army",
+   "expected_people": 13,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "quân Tống nhìn phòng tuyến"
+   ],
+   "positions": "năm lính Tống đứng bờ bắc, bờ nam xa có hàng lũy và tám lính nhỏ",
+   "groups": [
+    {
+     "name": "lính Tống bờ bắc",
+     "count": 5,
+     "position": "tiền cảnh, nhìn từ phía sau",
+     "role": "nhìn sang bờ nam",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt bờ nam",
+     "count": 8,
+     "position": "hậu cảnh, nhỏ, sau lũy",
+     "role": "giữ lũy",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "5 lính Tống",
+    "mid": "dòng sông",
+    "back": "lũy và 8 lính nhỏ"
+   },
+   "camera": "wide shot từ phía sau lính Tống",
+   "lighting": "ánh sáng buổi sáng",
+   "scenery": "Wide river, flat banks",
+   "blocks_used": [
+    "SONG_BO_BINH_NANG",
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống bờ bắc",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống bờ bắc",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống bờ bắc",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống bờ bắc",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống bờ bắc",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "lũy đất cắm cọc gỗ dọc bờ nam",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "như cảnh L25",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot from behind: five Song soldiers stand on the north bank in the foreground looking across a wide river, and on the far south bank a long earth rampart with wooden stakes and eight small Vietnamese soldiers behind it. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. some barefoot, some in simple straw sandals. wooden spears with iron tips. Wide river, flat banks. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "a5604a2911d17da7759316f8ed89b03a5f8cd5c071094111e7988ed6c30a49bd",
+   "prompt_version": "p1",
+   "prompt_chars": 912,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "bo-bac",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "",
+   "timing_note": "Ba đoạn liền nhau (41 đến 43), khoảng 30 giây một ảnh: cần hiệu ứng chuyển động hoặc đổi sang L25."
+  },
+  {
+   "scene_id": "L27",
+   "segment_ids": [
+    44
+   ],
+   "scene_type": "battlefield",
+   "expected_people": 16,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "trận vượt sông"
+   ],
+   "positions": "tám lính Tống lội nước tiến về bờ nam; tám lính Đại Việt đứng sau lũy",
+   "groups": [
+    {
+     "name": "lính Tống lội sông",
+     "count": 8,
+     "position": "trung cảnh, lội qua dòng nông",
+     "role": "vượt sông",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt sau lũy",
+     "count": 8,
+     "position": "hậu cảnh, sau lũy bờ nam",
+     "role": "giữ lũy",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "mặt nước",
+    "mid": "8 lính Tống",
+    "back": "lũy và 8 lính Đại Việt"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ban ngày",
+   "scenery": "Shallow river, flat banks",
+   "blocks_used": [
+    "SONG_BO_BINH_NANG",
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống lội sông",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống lội sông",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống lội sông",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Tống lội sông",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống lội sông",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "lũy đất cắm cọc gỗ dọc bờ nam",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "như cảnh L25",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot: eight Song soldiers wade into a shallow river carrying round shields toward the far bank, spread across the frame; on the far bank eight Vietnamese soldiers stand behind an earth rampart with wooden stakes, spears held upright. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. simple straw sandals. wooden spears with iron tips. Shallow river, flat banks. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "46a26e562630eb64611d2c0e42022c297ac73d74e8a0372e33c7a850d4da996c",
+   "prompt_version": "p1",
+   "prompt_chars": 927,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "High",
+   "reuse_group": "vuot-song",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Rủi ro cao: hai phe trong một khung, nhiều người trong nước. Không vẽ cung tên (chưa có khối vũ khí cung).",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L28",
+   "segment_ids": [
+    45,
+    48,
+    68
+   ],
+   "scene_type": "small_group",
+   "expected_people": 5,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "quân sĩ nghe bài thơ"
+   ],
+   "positions": "đền nhỏ bên sông phải khung, năm lính đứng trước",
+   "groups": [
+    {
+     "name": "lính Đại Việt",
+     "count": 5,
+     "position": "trước đền, nhóm lỏng",
+     "role": "đứng lặng nhìn về đền",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "bờ sông",
+    "mid": "năm lính và đền",
+    "back": "sương trên sông, rặng tre"
+   },
+   "camera": "wide shot",
+   "lighting": "đêm có trăng nhạt, sương",
+   "scenery": "Wide river at night, mist, bamboo and hills in the distance",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "lính Đại Việt",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Đại Việt",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "đền nhỏ bên sông mái ngói xám, đèn dầu bên trong",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "kiến trúc đền thờ Trương Hống, Trương Hát chưa có tư liệu hình dạng",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot at night under a pale moon, mist over the river: a small wooden riverside shrine with a grey tiled roof stands on the right, lit by a clay oil lamp inside; five Vietnamese soldiers stand quietly in a loose group in front of it, looking toward the shrine. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. barefoot. wooden spears with iron tips. Wide river at night, mist, bamboo and hills in the distance. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "bedfe02990db552bea89b6537b121df0e3c43648d8327351b94c92d6443c65d9",
+   "prompt_version": "p1",
+   "prompt_chars": 835,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "den-ben-song",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Đoạn 45 và 48 theo truyền thuyết. Không vẽ người đọc thơ hay thần linh. Đoạn 68 dùng lại để khép.",
+   "timing_note": "Dùng ba lần cách xa nhau."
+  },
+  {
+   "scene_id": "L29",
+   "segment_ids": [
+    46,
+    47
+   ],
+   "scene_type": "object_detail",
+   "expected_people": 0,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "cửa đền"
+   ],
+   "positions": "cửa gỗ chạm khắc của đền nhỏ, ánh đèn dầu, sương phía sau, không người",
+   "groups": [
+    {
+     "name": "(không có người)",
+     "count": 0,
+     "position": "-",
+     "role": "-",
+     "faction": "-",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "bậc thềm",
+    "mid": "cửa gỗ",
+    "back": "sương"
+   },
+   "camera": "close view",
+   "lighting": "ánh sáng ấm yếu từ đèn dầu, đêm",
+   "scenery": "",
+   "blocks_used": [],
+   "detail_tags": [],
+   "free_text_details": [
+    {
+     "item": "cửa đền gỗ chạm khắc đơn giản, đèn dầu đất nung",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu hình dạng đền",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Close view of the wooden doorway of a small riverside shrine at night, soft light from a clay oil lamp, mist behind, no people. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "63eeab0a37168d8013853161e84a4855f3d6c64f3428618dfb233a656817c684",
+   "prompt_version": "p1",
+   "prompt_chars": 311,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "den-chi-tiet",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Bài thơ nên hiện bằng chữ trên màn hình (không vẽ chữ trong ảnh).",
+   "timing_note": "Đoạn 46 và 47 liền nhau, khoảng 18 giây."
+  },
+  {
+   "scene_id": "L30",
+   "segment_ids": [
+    49
+   ],
+   "scene_type": "small_group",
+   "expected_people": 8,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "doanh trại quân Tống"
+   ],
+   "positions": "tám lính ngồi dưới đất chia hai nhóm bốn, cạnh lều vải đơn giản",
+   "groups": [
+    {
+     "name": "lính Tống ngồi nghỉ, nhóm trái",
+     "count": 4,
+     "position": "trung cảnh trái",
+     "role": "ngồi cúi đầu",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Tống ngồi nghỉ, nhóm phải",
+     "count": 4,
+     "position": "trung cảnh phải",
+     "role": "ngồi cúi đầu",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "đất ẩm",
+    "mid": "hai nhóm lính",
+    "back": "lều vải, sương"
+   },
+   "camera": "wide shot",
+   "lighting": "sương ẩm, ánh sáng xám",
+   "scenery": "Wet ground, humid mist, river in the distance",
+   "blocks_used": [
+    "SONG_BO_BINH_NHE"
+   ],
+   "detail_tags": [
+    {
+     "item": "bộ binh nhẹ Tống",
+     "block": "SONG_BO_BINH_NHE",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống ngồi nghỉ, nhóm trái",
+     "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "lều vải đơn giản của quân Tống",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot of a damp riverside camp in humid mist: eight Song soldiers sit on the ground in two groups of four near simple cloth shelters, heads bowed, spears laid on the ground beside them. Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears. Wet ground, humid mist, river in the distance. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "191517e5434742dbf83c9202a611a6d3e757e91dcd124aa9d8105114ef8d5e96",
+   "prompt_version": "p1",
+   "prompt_chars": 669,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "doanh-trai-tong",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Bệnh tật thể hiện bằng dáng ngồi, không vẽ thi thể hay người hấp hối.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L31",
+   "segment_ids": [
+    52
+   ],
+   "scene_type": "army",
+   "expected_people": 12,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "quân Tống rút lui"
+   ],
+   "positions": "cột quân đi về phía bắc, quay lưng về máy",
+   "groups": [
+    {
+     "name": "lính Tống tiền cảnh",
+     "count": 3,
+     "position": "tiền cảnh, từ phía sau",
+     "role": "rút lui",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Tống phía sau",
+     "count": 9,
+     "position": "trung cảnh và hậu cảnh",
+     "role": "rút lui",
+     "faction": "song",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "3 lính",
+    "mid": "9 lính",
+    "back": "đường dài"
+   },
+   "camera": "wide shot từ phía sau",
+   "lighting": "ánh sáng xám chiều",
+   "scenery": "Dirt road across low fields, grey late-afternoon light",
+   "blocks_used": [
+    "SONG_BO_BINH_NANG"
+   ],
+   "detail_tags": [
+    {
+     "item": "bộ binh nặng Tống",
+     "block": "SONG_BO_BINH_NANG",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "lính Tống tiền cảnh",
+     "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot from behind: twelve Song soldiers walk away north in a column along a road, three in the foreground and nine behind them, clearly spaced apart. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Dirt road across low fields, grey late-afternoon light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "a07c73cb59e4ddfe4430c0f328a66a67fb10a683f7591588845b83d137bc4216",
+   "prompt_version": "p1",
+   "prompt_chars": 690,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "tong-rut",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Đoạn 52 nói Quảng Nguyên rơi vào tay nhà Tống: dùng bản đồ M6.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "M6",
+   "segment_ids": [
+    53,
+    57,
+    59
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Các châu Quảng Nguyên, Tư Lang, Tô Mậu (quân Tống giữ lại); Quảng Nguyên đổi tên Thuận Châu (1079); trại Vĩnh Bình và sáu huyện, ba động được trả (1084). Cần dữ liệu địa lý đã kiểm.",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M6",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L32",
+   "segment_ids": [
+    54,
+    55,
+    56
+   ],
+   "scene_type": "small_group",
+   "expected_people": 6,
+   "expected_horses": 0,
+   "expected_animals_other": {
+    "voi": 5
+   },
+   "main_characters": [
+    "Đào Tống Nguyên (không có chân dung)"
+   ],
+   "positions": "sứ giả đi đầu, năm con voi theo hàng một, mỗi con một người dắt",
+   "groups": [
+    {
+     "name": "sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "dẫn đầu đoàn",
+     "role": "đi đầu",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "người dắt voi",
+     "count": 5,
+     "position": "mỗi người cạnh một con voi",
+     "role": "dắt voi",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "sứ giả",
+    "mid": "5 con voi",
+    "back": "đường đồng bằng"
+   },
+   "camera": "wide shot từ bên cạnh",
+   "lighting": "ánh sáng ban ngày",
+   "scenery": "Dirt road across open land",
+   "blocks_used": [
+    "VN_TUONG",
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN"
+   ],
+   "detail_tags": [
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot from the side: one Vietnamese envoy walks at the front of a procession along a dirt road, followed by exactly five elephants in single file, each led by one attendant on foot. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. barefoot. Dirt road across open land. Each elephant has one head, one trunk, four legs and two tusks, clearly separated from the others. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "5e039c84ba2bf46f83c4e335caf4c3f4de7fad7bfa71dfd50d69216dc175be1c",
+   "prompt_version": "p1",
+   "prompt_chars": 938,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "High",
+   "reuse_group": "su-bo-voi",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Master Style chỉ có quy tắc giải phẫu ngựa; voi chưa có khối giải phẫu được duyệt: câu giải phẫu voi trong prompt là đề xuất bổ sung, cần chủ kênh duyệt. Bộ kiểm chưa đếm voi.",
+   "timing_note": "Ba đoạn liền nhau (54 đến 56), khoảng 30 giây: cần hiệu ứng chuyển động."
+  },
+  {
+   "scene_id": "L33",
+   "segment_ids": [
+    58
+   ],
+   "scene_type": "small_group",
+   "expected_people": 12,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "người dân và binh lính được trao trả"
+   ],
+   "positions": "hai hàng dân đi về phía bắc, hai lính Đại Việt đi cuối",
+   "groups": [
+    {
+     "name": "người dân Tống được trả về",
+     "count": 10,
+     "position": "giữa đường, hai hàng năm người",
+     "role": "đi về phía bắc",
+     "faction": "dan",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt đi cùng",
+     "count": 2,
+     "position": "cuối hàng",
+     "role": "hộ tống",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "hàng dân",
+    "mid": "đường đất",
+    "back": "đồng bằng"
+   },
+   "camera": "wide shot",
+   "lighting": "ánh sáng ban ngày dịu",
+   "scenery": "Dirt road across open land",
+   "blocks_used": [
+    "VN_AO_VAI",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "người dân Tống được trả về",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "người dân Tống được trả về",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "người dân Tống được trả về",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "người dân Tống được trả về",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "dân và binh lính Tống được trả: áo thô, đầu trần hoặc khăn quấn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "trang phục không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Wide shot: ten Song civilians walk north in two loose lines of five along a dirt road, accompanied by two Vietnamese soldiers walking at the rear. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. some barefoot, some in simple straw sandals. wooden spears with iron tips. Dirt road across open land. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "5ea0629ef576bef64fb1d0356c0f7b1661213a0753be7008c7a8fa8575522a80",
+   "prompt_version": "p1",
+   "prompt_chars": 719,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Medium",
+   "reuse_group": "tra-nguoi",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "M7",
+   "segment_ids": [
+    61
+   ],
+   "scene_type": "map",
+   "render": "vector_map",
+   "map_note": "Diễn Châu (nơi Lý Giác dấy binh năm 1103). Chỉ dựa trên kịch bản.",
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "reuse_group": "M7",
+   "ghi_chu": "Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh."
+  },
+  {
+   "scene_id": "L34",
+   "segment_ids": [
+    62
+   ],
+   "scene_type": "army",
+   "expected_people": 14,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "tướng đi đầu, mười ba lính theo sau trên đường ven biển",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "count": 1,
+     "position": "tiền cảnh, từ phía sau",
+     "role": "dẫn quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    },
+    {
+     "name": "lính Đại Việt",
+     "count": 13,
+     "position": "sau tướng, ba nhóm",
+     "role": "hành quân",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "tướng",
+    "mid": "lính",
+    "back": "bờ biển"
+   },
+   "camera": "wide shot từ phía sau",
+   "lighting": "ánh sáng ban ngày",
+   "scenery": "Coastal road, sea on one side",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG",
+    "VN_AO_VAI",
+    "VN_GIAP",
+    "VN_DAU",
+    "VN_CHAN",
+    "VN_VU_KHI"
+   ],
+   "detail_tags": [
+    {
+     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "tướng và sĩ quan Đại Việt",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    },
+    {
+     "item": "quần áo lính vải thô",
+     "block": "VN_AO_VAI",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Quần áo lính"
+    },
+    {
+     "item": "giáp sắt và da (chỉ một phần lính)",
+     "block": "VN_GIAP",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Giáp lính"
+    },
+    {
+     "item": "đầu lính (búi tóc / khăn quấn)",
+     "block": "VN_DAU",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Mũ"
+    },
+    {
+     "item": "giày dép lính",
+     "block": "VN_CHAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Giày dép"
+    },
+    {
+     "item": "giáo gỗ đầu sắt",
+     "block": "VN_VU_KHI",
+     "tag": "cautious_reconstruction",
+     "evidence_level": "B",
+     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
+     "bible_ref": "period-ly-tong#C Vũ khí"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Wide shot from behind: one elderly general with a grey beard leads fourteen soldiers in total along a coastal road, he walks alone at the front and thirteen Vietnamese soldiers follow in three groups. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. a mix of bare heads and plain cloth headwraps. simple straw sandals. wooden spears with iron tips. Coastal road, sea on one side. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "110f57a08f20480866b9d9705b0bd437451511ce40e3beeb9defdd325244bdad",
+   "prompt_version": "p1",
+   "prompt_chars": 1049,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": true,
+   "risk": "Medium",
+   "reuse_group": "dep-loan",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Số lính chỉ minh họa. Không vẽ cờ.",
+   "timing_note": ""
+  },
+  {
+   "scene_id": "L35",
+   "segment_ids": [
+    64
+   ],
+   "scene_type": "command_room",
+   "expected_people": 0,
+   "expected_horses": 0,
+   "expected_animals_other": {},
+   "main_characters": [
+    "sảnh vắng"
+   ],
+   "positions": "sảnh gỗ vắng lúc bình minh, bàn thấp có bản đồ cuộn và đèn dầu đang cháy, không người",
+   "groups": [
+    {
+     "name": "(không có người)",
+     "count": 0,
+     "position": "-",
+     "role": "-",
+     "faction": "-",
+     "horses": 0,
+     "mounted": 0
+    }
+   ],
+   "composition": {
+    "fore": "bàn thấp",
+    "mid": "bản đồ và đèn",
+    "back": "cột gỗ"
+   },
+   "camera": "medium shot",
+   "lighting": "ánh sáng bình minh qua cửa, ấm yếu từ đèn dầu",
+   "scenery": "",
+   "blocks_used": [
+    "DEN",
+    "NHA_DAN"
+   ],
+   "detail_tags": [
+    {
+     "item": "đèn dầu đất nung trên bàn thấp",
+     "block": "DEN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "(không có người)",
+     "bible_ref": "period-ly-tong#F"
+    },
+    {
+     "item": "nhà gỗ đơn giản, sàn chiếu",
+     "block": "NHA_DAN",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "(không có người)",
+     "bible_ref": "period-ly-tong#C Nhà dân"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "bản đồ cuộn không chữ",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "đạo cụ không có trong Bible",
+     "owner_approved": false
+    }
+   ],
+   "image_prompt": "Medium shot of an empty plain timber hall at dawn: a low wooden table with a rolled map with no writing on it and a clay oil lamp burning, nobody in the hall. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "0f75270859efd684fe7ee9f2cc0364a50f869f90396de43c1f06ec9cb3c14706",
+   "prompt_version": "p1",
+   "prompt_chars": 485,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "needs_character_reference": false,
+   "risk": "Low",
+   "reuse_group": "sanh-vang",
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "ghi_chu": "Thay cho cảnh mất: không vẽ tang lễ hay mộ (kịch bản không nói, Bible không có).",
+   "timing_note": ""
+  }
+ ]
+}

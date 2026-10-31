@@ -24,6 +24,12 @@ BB = ['scene_id', 'segment_ids', 'scene_type', 'expected_people', 'expected_hors
 
 def kiem_canh(s):
     i = s.get('scene_id', '?')
+    if s.get('render') == 'vector_map':   # bản đồ làm bằng SVG/GeoJSON, không dùng FLUX (Master Style mục 3)
+        for k in ('scene_id', 'segment_ids', 'scene_type', 'map_note', 'plan_status'):
+            if k not in s: B(i, f'cảnh bản đồ thiếu trường {k}')
+        if s.get('scene_type') != 'map': B(i, 'render=vector_map thì scene_type phải là map')
+        if s.get('image_prompt'): B(i, 'cảnh bản đồ vector không được có image_prompt (không vẽ bằng FLUX)')
+        return
     miss = [k for k in BB if k not in s]
     for k in miss: B(i, f'thiếu trường {k}')
     if miss: return
@@ -32,10 +38,21 @@ def kiem_canh(s):
     if len(p) > BIEN: B(i, f'prompt {len(p)} ký tự (tối đa {BIEN} cho klein)')
     if KP['STYLE']['text'] not in p: B(i, 'prompt thiếu nguyên văn khối STYLE')
     if s['expected_people'] and KP['ANATOMY']['text'] not in p: B(i, 'cảnh có người nhưng thiếu nguyên văn khối ANATOMY')
-    if s['free_text_details']: B(i, f'free_text_details không rỗng: {s["free_text_details"]} (chỉ được dùng sau khi chủ kênh duyệt)')
+    for f in s['free_text_details']:
+        miss = [k for k in ('item', 'tag', 'evidence_level', 'reason', 'owner_approved') if k not in f]
+        if miss: B(i, f'free_text_details thiếu {miss}: {f}'); continue
+        if f['tag'] not in ('cautious_reconstruction', 'artistic_choice'): B(i, f'free_text_details "{f["item"]}" phải mang nhãn cautious_reconstruction hoặc artistic_choice')
+        if f['tag'] == 'artistic_choice' and f['evidence_level'] != 'C' or f['tag'] == 'cautious_reconstruction' and f['evidence_level'] != 'B': B(i, f'free_text_details "{f["item"]}": nhãn và evidence_level không khớp')
+        if not f['owner_approved']:
+            (B if s.get('plan_status') == 'PLAN_APPROVED' else W)(i, f'chi tiết ngoài khối "{f["item"]}" ({f["tag"]}) chưa được chủ kênh duyệt')
     used = set(s['blocks_used'])
     for b in used:
         if b not in KP or not isinstance(KP[b], dict): B(i, f'khối {b} không có trong khoi-prompt.json')
+    for b in used:
+        kb = KP.get(b)
+        if not isinstance(kb, dict) or kb.get('tag') == 'style_rule': continue
+        if 'text' in kb and kb['text'] not in p: B(i, f'khối {b} được khai trong blocks_used nhưng prompt không chứa nguyên văn khối')
+        elif 'chon_mot' in kb and not any(o in p for o in kb['chon_mot']): B(i, f'khối {b} được khai nhưng prompt không chứa phương án nào trong chon_mot')
     # --- detail_tags
     tagged = {}
     for t in s['detail_tags']:
@@ -54,7 +71,7 @@ def kiem_canh(s):
     for b in used:
         if b in KP and isinstance(KP[b], dict) and KP[b]['tag'] != 'style_rule' and b not in tagged: B(i, f'khối {b} (mức {KP[b]["evidence_level"]}) chưa có trong detail_tags')
     for pat, blk in CAM:
-        if re.search(pat, p, re.I) and (blk is None or blk not in used):
+        if re.search(pat, re.sub(r'\bno (?:stairs and no )?sacks?\b', '', p, flags=re.I), re.I) and (blk is None or blk not in used):
             B(i, f'prompt có "{pat}" nhưng cảnh không dùng khối cho phép ({blk or "không có khối nào"}) → chi tiết tự suy diễn')
     # --- nhóm, số người, số ngựa (kiểm tương tự nhau)
     g = s['groups']

@@ -109,3 +109,10 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - **Có câu hỏi "vì sao", "tại sao" ở những đoạn chính.** Mỗi chương có bước ngoặt hoặc quyết định quan trọng nên có ít nhất một câu hỏi ngắn đặt đúng lúc người nghe đang thắc mắc ("Vì sao ông lại chọn đánh trước?", "Tại sao các quan chịu đứng ngoài chờ?"), rồi đoạn kế tiếp trả lời ngay bằng sự việc có thật. Mục tiêu khoảng 1 câu hỏi cho mỗi chương chính, không quá 2 câu hỏi liên tiếp, không hỏi rồi bỏ lửng. Câu hỏi ở hook vẫn theo quy tắc "hook giữ bí mật".
 - **Không hỏi giả.** Câu hỏi phải có đáp án nằm trong sử của chính video; không hỏi để rồi trả lời bằng lời kết luận của người kể (xem mục "Sáng tạo cho đỡ nhàm").
 - Ghi trong "Ghi chú độ chắc" của kịch bản: danh sách từ Hán Việt đã đổi và vị trí các câu hỏi "vì sao".
+
+## Câu kết cuối video: một câu tóm gọn và lời cảm ơn (chủ kênh yêu cầu 31/10/2026, áp dụng mọi kịch bản từ nay)
+- Đoạn cuối cùng của mọi video dài kết bằng **một câu tóm gọn nội dung câu chuyện**, rồi **một câu cảm ơn người xem đã lắng nghe** (ví dụ: "Từ nay, thuyền lương và lòng dân là thứ giữ nước. Cảm ơn bạn đã lắng nghe câu chuyện này.").
+- Câu tóm gọn phải là điều đã kể trong chính video, đúng sự việc có thật và trả lời câu hỏi đã hứa ở hook; không thêm lời kết luận hay bình luận của riêng người kể (lời bàn vẫn phải là của sử gia có tên). Chỉ một câu, không tóm lại từng chương.
+- Đây là ngoại lệ duy nhất của quy tắc "cuối chương không tóm tắt": chỉ áp cho đoạn cuối cùng của video, không áp cho cuối từng chương.
+- Lời cảm ơn viết giản dị, không rủ "theo dõi, đăng ký", không hứa "tập sau" (mỗi video trọn gói một chủ đề). Video dọc 60–80 giây vẫn kết bằng lời mời xem bản đầy đủ.
+- Đoạn cuối vẫn theo luật chung: tối đa 32 chữ, nên gộp câu tóm gọn và lời cảm ơn trong một đoạn; ghi câu kết vào "Ghi chú độ chắc" để chủ kênh duyệt.

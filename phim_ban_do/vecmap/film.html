@@ -135,9 +135,9 @@ function tideM(t,it,a){const q=it.pts.map(x=>P(x[0],x[1]));const K=it.lv;let lv=
 function armyM(t,it,a){const n=it.n||14,u=ease(cl((t-it.t0)/(it.dur||3))),col=it.col||COL[it.side],kind=it.u||'inf',bob=t*7;
  const dir=uu=>{const p=polyAt(it.pts,uu),r=polyAt(it.pts,Math.min(1,uu+.02));return r[0]>=p[0]?1:-1};
  for(let j=0;j<n;j++){const uu=cl(u*(1+n*.012)-j*.012);if(uu<=0)continue;if(it.stay==false&&u>=1)continue;const [x,y]=polyAt(it.pts,uu);
-  const off=((j*7)%5-2)*FS(16),oy=((j*3)%4-1.5)*FS(12),aa=a*(it.stay==false&&u>.9?(1-u)*10:1),f=dir(uu),s=FS(kind=='ship'?24:16);
+  const off=((j%5)-2)*FS(kind=='ship'?44:30)+((j*7)%3-1)*FS(4),oy=(Math.floor(j/5)%4-1.5)*FS(kind=='ship'?30:26)+((j*3)%3-1)*FS(3),aa=a*(it.stay==false&&u>.9?(1-u)*10:1),f=dir(uu),s=FS(kind=='ship'?30:22);
   if(kind=='cav')horseM(dyn,x+off,y+oy,col,s,aa,f,bob+j);else if(kind=='ship')boatM(dyn,x+off,y+oy,col,s,aa,f,bob+j);else man(dyn,x+off,y+oy,col,s,aa,f,bob+j*.7);
-  if(it.flag&&(j==0||(n>=10&&j%6==0)))bearerM(dyn,x+off,y+oy-(kind=='cav'?FS(10):0),col,FS(kind=='ship'?11:10),t,f,aa)}}
+  if(it.flag&&(j==0||(n>=10&&j%6==0)))bearerM(dyn,x+off,y+oy-(kind=='cav'?FS(14):0),col,FS(kind=='ship'?14:13),t,f,aa)}}
 function subM(t,it,a){const lines=it.lines,fs=46,lh=62,h=lh*lines.length+30,y0=1080-70-h;
  el('rect',{x:960-640-40,y:y0,width:1360,height:h,rx:22,fill:'#080503',opacity:.6*a},hud);
  lines.forEach((l,i)=>{const tx=el('text',{x:960,y:y0+15+lh*(i+1)-14,'text-anchor':'middle','font-size':fs,fill:'#faf4e4',opacity:a,'paint-order':'stroke',stroke:'#000','stroke-width':3},hud);tx.textContent=l})}

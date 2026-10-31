@@ -86,7 +86,8 @@ for ten, got, want in cases:
     ok = got == want; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + ten + ('' if ok else f'  [{got}]'))
 # thư mục thật
 K.bad.clear(); real = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/anh.json', encoding='utf-8'))['images']; K.kiem_anh(real, [])
-ok = not K.bad and all((not r['duoc_dung_lam_tham_chieu'] and r['status'] == 'STALE') or r['image_id'] in ('CR-LTK-B2', 'CR-TD-4') for r in real) and sum(r['status'] != 'STALE' for r in real) == 2; kq.append(ok)
+sx = lambda r: str(r['scene_id']).startswith('L')   # ảnh sản xuất lt1v4 (từ 01/11/2026)
+ok = not K.bad and all((not r['duoc_dung_lam_tham_chieu'] and r['status'] == 'STALE') or r['image_id'] in ('CR-LTK-B2', 'CR-TD-4') or (sx(r) and not r['duoc_dung_lam_tham_chieu']) for r in real) and sum(r['status'] != 'STALE' and not sx(r) for r in real) == 2; kq.append(ok)
 print(('PASS ' if ok else 'FAIL ') + f'12 Sổ ảnh thật: {len(real)} ảnh, ảnh cũ đều STALE; ngoại lệ CR-LTK-B2 và CR-TD-4 (PASS, chủ kênh duyệt), 0 lỗi {K.bad[:2]}')
 ds = Q.tham_chieu_duoc_duyet('lt1v4')['anh']; ok = [x['image_id'] for x in ds] == ['CR-LTK-B2', 'CR-TD-4'] and all(x['muc_dich'] == 'face_only' and x['duyet_boi'] == 'chủ kênh' for x in ds) and all(Q.tham_chieu_hop_le('lt1v4', i)[0] for i in ('CR-LTK-B2', 'CR-TD-4')); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'13 Danh sách ảnh tham chiếu được duyệt: {len(ds)} ảnh (CR-LTK-B2 và CR-TD-4, face_only)')
 

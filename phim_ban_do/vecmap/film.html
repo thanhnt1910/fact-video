@@ -121,7 +121,7 @@ function bearerM(g,x,y,col,s,t,face,a){const dn=face<0?-1:1,e=el('g',{transform:
  const L=s*2.6,Hh=s*1.45,n=9,w=(u,v)=>[px+dn*u*L,top+s*.1+v*Hh+Math.sin(t*5+u*4.2)*s*.16*u];
  const up=[],dw=[];for(let i=0;i<=n;i++){up.push(w(i/n,0));dw.push(w(i/n,1-.12*(i/n)))}dw.reverse();
  el('polygon',{points:up.concat(dw).map(p=>p.join(',')).join(' '),fill:col,stroke:INK,'stroke-width':s*.07,'stroke-linejoin':'round'},e);
- for(const [v0,v1] of [[.30,.42],[.62,.74]]){const A=[],B=[];for(let i=1;i<n;i++){A.push(w(i/n,v0));B.push(w(i/n,v1))}B.reverse();el('polygon',{points:A.concat(B).map(p=>p.join(',')).join(' '),fill:'#fff',opacity:.4},e)}}
+}
 function fireM(g,x,y,s,t,a){for(let k=0;k<9;k++){const dx=(k-4)*s*.28,hh=s*(1.2+.8*Math.sin(t*9+k*1.7)),b=el('path',{d:`M${x+dx-s*.2},${y} q${s*.1},${-hh*.6} ${s*.2},${-hh} q${s*.1},${hh*.4} ${s*.2},${hh}z`,fill:k%2?'#e8821c':'#d63a1c',opacity:.9*a},g)}
  el('ellipse',{cx:x,cy:y-s*.3,rx:s*1.6,ry:s*1,fill:'#e8821c',opacity:.25*a,filter:'url(#gl)'},g);
  for(let k=0;k<4;k++){const u=((t*.8+k*.27)%1);el('ellipse',{cx:x+Math.sin(t+k)*s*.3,cy:y-s*(1.2+u*2.4),rx:s*(.4+u*.5),ry:s*.3,fill:'#4a4440',opacity:.45*(1-u)*a},g)}}

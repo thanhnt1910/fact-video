@@ -66,7 +66,7 @@ Năm 1006, tin các anh em nhà Lê đánh nhau lan sang đất Tống. Một vi
 
 Ông dựa vào lời của nhóm người do Hoàng Khánh Tập đứng đầu. Năm 1003, hơn 450 người ở thành Nhật Hiệu sợ bị trị tội đã trốn sang đất Tống. Thư năm 1006 nói nhóm này nay có hơn một nghìn người. Họ nói các con của Lê Đại Hành đặt trại khắp nơi, quan lại ly tán, dân lo sợ. Họ xin làm tiên phong.
 
-Viên quan xin thêm 5.000 quân khỏe, cho cả thủy quân lẫn bộ binh cùng tiến. Ông nói có thể dẹp yên ngay.
+Viên quan xin thêm 5.000 quân, cho cả thủy quân lẫn bộ binh cùng tiến. Ông nói có thể dẹp yên ngay.
 
 Vua Tống không đồng ý. Ông nói họ Lê vẫn sai con sang chầu, vùng biển yên ổn. Nay nghe tin có tang mà chưa viếng đã vội đánh người đang có tang, thì sao là việc của bậc vương giả?
 

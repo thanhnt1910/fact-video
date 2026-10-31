@@ -547,7 +547,9 @@
    "risk": "Medium",
    "seed": 24,
    "ghi_chu": "Tông Đản bản vẽ lại: nửa người, râu đen ngắn nhìn rõ (C). Sửa lỗi TD-3 thiếu râu.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REVIEW",
+   "review_note": "1 người, giải phẫu ổn, râu và ria đen ngắn nhìn rõ (đã sửa lỗi thiếu râu của TD-3), khăn đầu xám gần như khăn quấn, búi tóc. Khung ra gần toàn thân dù nêu nửa người, không thấy giày. Áo xanh ô-liu giống quân phục (mô hình tự thêm màu). Khuôn mặt to hơn TD-5: hợp làm tham chiếu face_only.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-TD-4.jpg"
   },
   {
    "scene_id": "CR-TD-5",
@@ -623,7 +625,9 @@
    "risk": "Medium",
    "seed": 23,
    "ghi_chu": "Tông Đản bản vẽ lại: toàn thân, râu đen ngắn, giày dép theo khối VN_CHAN (dép rơm đơn giản) thay cho ủng da của TD-3.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REVIEW",
+   "review_note": "1 người, giải phẫu ổn, râu và ria đen ngắn, dép rơm đúng khối VN_CHAN (không còn ủng da). Mặt nhỏ trong khung; khăn đầu hơi giống mũ nhỏ; áo xanh ô-liu giống quân phục. Tốt cho xem trang phục toàn thân, kém hơn TD-4 cho khuôn mặt.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-TD-5.jpg"
   },
   {
    "scene_id": "CR-LTK-B1",

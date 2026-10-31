@@ -13,9 +13,9 @@
    [khóa] GEMINI_API_KEYS: trống
 còn thiếu 49 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 22001 - 22016 113.8 giây
+OK cụm 22001 - 22016 121.3 giây
+OK cụm 22033 - 22048 124.5 giây
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 22h16m19s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK cụm 22033 - 22048 123.1 giây
-OK cụm 22049 - 22064 120.7 giây
-OK cụm 22065 - 22065 10.1 giây
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 21h25m45s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+OK cụm 22049 - 22064 130.4 giây
+OK cụm 22065 - 22065 10.0 giây

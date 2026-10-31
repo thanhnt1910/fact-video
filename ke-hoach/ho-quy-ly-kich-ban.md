@@ -1,6 +1,6 @@
 # Hồ Quý Ly và nhà Hồ (mã `hq1`)
 
-Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, mọi đoạn tone `story`. Nội dung để chạy giọng: `ke-hoach/thu-giong-hai/hq1_full.json`. Bản viết lại lần 3 (31/10/2026) theo bộ quy tắc viết kịch bản lịch sử mới (`quy-tac/chung.md`, mục "Quy tắc viết kịch bản lịch sử").
+Video dài, 57 đoạn (24001–24057), khoảng 8.8 phút, giọng Sadaltager, mọi đoạn tone `story`. Nội dung để chạy giọng: `ke-hoach/thu-giong-hai/hq1_full.json`. Bản viết lại lần 3 (31/10/2026) theo bộ quy tắc viết kịch bản lịch sử mới (`quy-tac/chung.md`, mục "Quy tắc viết kịch bản lịch sử").
 
 ## Lời kể (giọng Sadaltager, tone story)
 
@@ -12,14 +12,14 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 **24003.** Tướng Trần Khát Chân trừng mắt ngăn lại. Hồ Quý Ly chột dạ đứng dậy, được vệ sĩ đưa xuống lầu.
 
-**24004.** Ngưu Tất vứt gươm, nói rằng cả bọn chết uổng rồi. Tám năm sau, chính Hồ Quý Ly mất cả cơ nghiệp vào tay quân nhà Minh.
+**24004.** Ngưu Tất vứt gươm, nói rằng cả bọn chết uổng rồi. Hôm ấy Hồ Quý Ly thoát chết, và còn nắm quyền chặt hơn trước.
 
-**24005.** Vì sao người đã thoát chết hôm ấy lại mất nước chỉ sau tám năm?
+**24005.** Nhưng tám năm sau, ông mất cả nước vào tay quân nhà Minh. Vì sao?
 
 
 ### Người nắm hết quyền
 
-**24006.** Hồ Quý Ly không sinh ra trong hoàng tộc. Tổ tiên ông vào Thanh Hóa làm con nuôi một quan họ Lê, nên cả nhà đổi sang họ Lê.
+**24006.** Hồ Quý Ly không sinh ra trong hoàng tộc. Tổ tiên ông vốn họ Hồ, vào Thanh Hóa làm con nuôi một quan họ Lê nên đổi sang họ Lê.
 
 **24007.** Dưới thời vua Trần Nghệ Tông, ông leo dần lên chức cao. Ông giúp vua trông cả nước, và con gái ông là vợ vua Trần Thuận Tông.
 
@@ -27,7 +27,7 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 **24009.** Mùa hạ năm sau, ông bắt Thuận Tông đi tu trong một ngôi đạo quán, rồi sai người thắt cổ ông ấy.
 
-**24010.** Việc Trần Khát Chân định giết ông ở Đốn Sơn bị lộ. Hơn ba trăm bảy mươi người bị giết, và dân quen biết nhau chỉ dám đưa mắt ra hiệu.
+**24010.** Âm mưu giết ông ở Đốn Sơn bị lộ, và hơn ba trăm bảy mươi người bị giết. Người quen gặp nhau chỉ dám đưa mắt, không dám nói.
 
 
 ### Lên ngôi
@@ -36,7 +36,7 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 **24012.** Ông buộc người trong họ vua và các quan ba lần dâng biểu xin ông lên ngôi. Theo lời kể cũ, ông còn giả vờ từ chối rồi mới nhận.
 
-**24013.** Rồi ông tự lên làm vua, đặt tên nước là Đại Ngu và đổi lại sang họ Hồ.
+**24013.** Rồi ông tự lên làm vua và trở lại họ Hồ của tổ tiên. Ông nhận mình là con cháu vua Thuấn, nên đặt tên nước là Đại Ngu.
 
 **24014.** Nhà Trần mất ngôi từ đó. Chưa đầy một năm sau, ông nhường ngôi cho Hồ Hán Thương, nhưng vẫn làm vua cha và cùng con điều hành việc nước.
 
@@ -51,12 +51,12 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 **24018.** Năm một nghìn bốn trăm lẻ một, ai từ hai tuổi trở lên đều phải ghi tên vào sổ, bỏ làng đi cũng không xóa được.
 
-**24019.** Sổ làm xong, số người từ mười lăm đến sáu mươi tuổi tăng gấp bội, nên năm sau việc gọi lính được nhiều người hơn hẳn.
+**24019.** Sổ làm xong, theo lời kể cũ, số người từ mười lăm đến sáu mươi tuổi nhiều gấp bội so với trước, nên năm sau việc gọi lính được nhiều người hơn.
 
 
 ### Thuyền và đất mới
 
-**24020.** Cùng năm ấy, quân nhà Hồ đánh Chiêm Thành. Vua Chiêm phải dâng đất xin rút quân, và nhà Hồ chia vùng đất ấy thành bốn châu.
+**24020.** Năm một nghìn bốn trăm lẻ hai, quân nhà Hồ đánh Chiêm Thành. Vua Chiêm phải dâng đất xin rút quân, và nhà Hồ chia vùng đất ấy thành bốn châu.
 
 **24021.** Năm một nghìn bốn trăm lẻ bốn, Hồ Hán Thương cho đóng thuyền có đinh sắt, mỗi mái chèo hai người, trên sàn lính đứng đánh nhau.
 
@@ -104,7 +104,7 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 **24037.** Lúc này, quân Minh chép bảng văn kể tội họ Hồ, nói sẽ tìm người họ Trần cho nối lại ngôi vua, lên nhiều mảnh gỗ rồi thả theo dòng sông.
 
-**24038.** Theo lời kể cũ, quân sĩ nhặt được tin là thật, lại chán chính sự hà khắc của họ Hồ nên không còn bụng dạ chiến đấu.
+**24038.** Theo lời kể cũ, nhiều quân sĩ nhặt được thì tin là thật, và vốn đã chán chính sự hà khắc của họ Hồ.
 
 **24039.** Mạc Địch, Mạc Thúy và vài người nữa, vốn bất đắc chí, đón hàng quân Minh và được trao chức quan.
 
@@ -134,11 +134,11 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 **24049.** Ngày mười ba tháng ba, Hồ Nguyên Trừng cùng các tướng đem bảy vạn quân thủy bộ, nói phao là hai mươi mốt vạn, tiến đánh ở cửa Hàm Tử.
 
-**24050.** Quân nhà Hồ hai bên bờ sông quay ngược giáo, nhảy xuống chết. Thuyền chiến và thuyền chở lương đều chìm, không một người sống sót trở về.
+**24050.** Theo lời kể cũ, quân nhà Hồ hai bên bờ sông quay giáo, nhảy xuống chết. Thuyền chiến và thuyền chở lương đều chìm, không ai sống sót.
 
-**24051.** Mùa hạ, nhà Minh ra lệnh tìm con cháu nhà Trần để lập vua. Nhưng theo lời kể cũ, quan lại và người già nói rằng họ Trần đã hết người.
+**24051.** Đầu tháng tư, nhà Minh ra lệnh tìm con cháu nhà Trần để lập vua. Theo lời kể cũ, quan lại và người già nói họ Trần đã hết người.
 
-**24052.** Hồ Quý Ly và Hồ Hán Thương vượt biển về Thanh Hóa. Ngày hai mươi ba, quân Minh đánh vào cửa sông Lỗi Giang, và quân nhà Hồ không đánh mà tan.
+**24052.** Hồ Quý Ly và Hồ Hán Thương vượt biển về Thanh Hóa. Ngày hai mươi ba tháng tư, quân Minh đánh vào Lỗi Giang, và quân nhà Hồ không đánh mà tan.
 
 **24053.** Hai cha con định lánh nạn nhưng không thành. Quan Nguỵ Thức khuyên họ tự thiêu vì nước sắp mất, nhưng Hồ Quý Ly giận mà chém ông ta.
 
@@ -155,19 +155,19 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 | Giờ | % | Chương |
 |---|---|---|
 | 0:00 | 0% | Lễ thề ở Đốn Sơn |
-| 0:39 | 7% | Người nắm hết quyền |
-| 1:24 | 16% | Lên ngôi |
-| 2:00 | 22% | Một trăm vạn quân |
-| 2:47 | 31% | Thuyền và đất mới |
-| 3:07 | 35% | Dân bắt đầu oán |
-| 3:32 | 40% | Đánh hay hòa |
-| 4:20 | 49% | Trận đầu tiên |
-| 5:03 | 57% | Mất sông Cái |
-| 6:17 | 71% | Thành Đa Bang |
-| 6:54 | 79% | Những ngày cuối |
+| 0:38 | 7% | Người nắm hết quyền |
+| 1:23 | 15% | Lên ngôi |
+| 2:02 | 23% | Một trăm vạn quân |
+| 2:51 | 32% | Thuyền và đất mới |
+| 3:11 | 36% | Dân bắt đầu oán |
+| 3:36 | 41% | Đánh hay hòa |
+| 4:24 | 50% | Trận đầu tiên |
+| 5:07 | 58% | Mất sông Cái |
+| 6:20 | 72% | Thành Đa Bang |
+| 6:57 | 79% | Những ngày cuối |
 
-- Hook (5 đoạn đầu) khoảng 39 giây.
-- Nhà Minh đem quân vào nước ở 4:10, khoảng 47% thời lượng; xung đột trong nước (Đốn Sơn, ép vua nhường ngôi, dân oán) có từ đầu. Chưa vào khoảng 35–45% vì phải giữ trình tự và các cải cách là nguyên nhân cần có.
+- Hook (5 đoạn đầu) khoảng 38 giây.
+- Nhà Minh đem quân vào nước ở 4:14, khoảng 48% thời lượng; xung đột trong nước (Đốn Sơn, ép vua nhường ngôi, dân oán) có từ đầu. Chưa vào khoảng 35–45% vì phải giữ trình tự và các cải cách là nguyên nhân cần có.
 - Câu hỏi: đoạn 24005, 24024.
 
 ## Ghi chú độ chắc (chủ kênh duyệt)
@@ -184,6 +184,7 @@ Nguồn: Đại Việt sử ký toàn thư (phần Hồ), do triều sau chép n
   - Trận Hàm Tử: quân hai bên bờ "quay ngược giáo nhảy xuống chết", thuyền chìm không ai sống sót.
   - Đã bỏ các câu suy diễn tâm lý ("mệt mỏi... không còn bụng dạ" nay là "theo lời kể cũ") và câu "các lệnh vẫn giữ nguyên".
 - **Sửa lần 4 (31/10/2026, đối chiếu Toàn thư):** Quý Ly *buộc* tôn thất và các quan ba lần dâng biểu xin lên ngôi; "giả vờ từ chối" là lời Toàn thư nên gắn "theo lời kể cũ". Hoàng Hối Khanh giao trả 59 thôn Lộc Châu và bị Quý Ly trách mắng. Giới thiệu chức danh Hoàng Hối Khanh, Nguỵ Thức ở lần nhắc đầu. Việc đánh Chiêm Thành nằm cùng năm 1402 với đợt gọi lính.
+- **Sửa lần 5 (31/10/2026, theo góp ý của chủ kênh):** hook bỏ câu lặp "bị bắt trói" (đoạn 24004 chỉ nói thoát chết, đoạn 24005 nêu mất nước sau tám năm); giải thích họ Lê rồi trở lại họ Hồ (tổ tiên vốn họ Hồ, nhận là con cháu vua Thuấn nên đặt tên nước Đại Ngu); "tăng gấp bội" giữ vì Toàn thư chép nhưng gắn "theo lời kể cũ"; năm 1402 ghi thẳng; bỏ vế "không còn bụng dạ chiến đấu"; trận Hàm Tử gắn "theo lời kể cũ"; thêm tháng tư cho ngày hai mươi ba. Không dùng bản kết đề xuất vì quá ba câu và có lời kết luận của người kể.
 - **Hậu quả thêm vào cuối:** nhà Minh thống kê 48 phủ, châu, 168 huyện, hơn 3,1 triệu hộ dân và đặt quan cai trị.
 - **Câu kết:** nêu kết quả thực tế, trả lời câu hỏi hook bằng nhiều yếu tố (thành bị hạ, thuyền chìm, quân tan rã), không quy một nguyên nhân duy nhất.
 - **Từ Hán Việt đã đổi:** gia nô → người hầu; hộ tịch → sổ ghi tên dân; bô lão → người già; quán đạo → ngôi đạo quán; hoạn → làm thái giám; tử trận → thua chết/chết trận.

@@ -21,19 +21,19 @@
   "n": 24004,
   "chuong": "Lễ thề ở Đốn Sơn",
   "tone": "story",
-  "text": "Ngưu Tất vứt gươm, nói rằng cả bọn chết uổng rồi. Tám năm sau, chính Hồ Quý Ly mất cả cơ nghiệp vào tay quân nhà Minh."
+  "text": "Ngưu Tất vứt gươm, nói rằng cả bọn chết uổng rồi. Hôm ấy Hồ Quý Ly thoát chết, và còn nắm quyền chặt hơn trước."
  },
  {
   "n": 24005,
   "chuong": "Lễ thề ở Đốn Sơn",
   "tone": "story",
-  "text": "Vì sao người đã thoát chết hôm ấy lại mất nước chỉ sau tám năm?"
+  "text": "Nhưng tám năm sau, ông mất cả nước vào tay quân nhà Minh. Vì sao?"
  },
  {
   "n": 24006,
   "chuong": "Người nắm hết quyền",
   "tone": "story",
-  "text": "Hồ Quý Ly không sinh ra trong hoàng tộc. Tổ tiên ông vào Thanh Hóa làm con nuôi một quan họ Lê, nên cả nhà đổi sang họ Lê."
+  "text": "Hồ Quý Ly không sinh ra trong hoàng tộc. Tổ tiên ông vốn họ Hồ, vào Thanh Hóa làm con nuôi một quan họ Lê nên đổi sang họ Lê."
  },
  {
   "n": 24007,
@@ -57,7 +57,7 @@
   "n": 24010,
   "chuong": "Người nắm hết quyền",
   "tone": "story",
-  "text": "Việc Trần Khát Chân định giết ông ở Đốn Sơn bị lộ. Hơn ba trăm bảy mươi người bị giết, và dân quen biết nhau chỉ dám đưa mắt ra hiệu."
+  "text": "Âm mưu giết ông ở Đốn Sơn bị lộ, và hơn ba trăm bảy mươi người bị giết. Người quen gặp nhau chỉ dám đưa mắt, không dám nói."
  },
  {
   "n": 24011,
@@ -74,7 +74,7 @@
  {
   "chuong": "Lên ngôi",
   "tone": "story",
-  "text": "Rồi ông tự lên làm vua, đặt tên nước là Đại Ngu và đổi lại sang họ Hồ.",
+  "text": "Rồi ông tự lên làm vua và trở lại họ Hồ của tổ tiên. Ông nhận mình là con cháu vua Thuấn, nên đặt tên nước là Đại Ngu.",
   "n": 24013
  },
  {
@@ -111,13 +111,13 @@
   "n": 24019,
   "chuong": "Một trăm vạn quân",
   "tone": "story",
-  "text": "Sổ làm xong, số người từ mười lăm đến sáu mươi tuổi tăng gấp bội, nên năm sau việc gọi lính được nhiều người hơn hẳn."
+  "text": "Sổ làm xong, theo lời kể cũ, số người từ mười lăm đến sáu mươi tuổi nhiều gấp bội so với trước, nên năm sau việc gọi lính được nhiều người hơn."
  },
  {
   "n": 24020,
   "chuong": "Thuyền và đất mới",
   "tone": "story",
-  "text": "Cùng năm ấy, quân nhà Hồ đánh Chiêm Thành. Vua Chiêm phải dâng đất xin rút quân, và nhà Hồ chia vùng đất ấy thành bốn châu."
+  "text": "Năm một nghìn bốn trăm lẻ hai, quân nhà Hồ đánh Chiêm Thành. Vua Chiêm phải dâng đất xin rút quân, và nhà Hồ chia vùng đất ấy thành bốn châu."
  },
  {
   "n": 24021,
@@ -225,7 +225,7 @@
   "n": 24038,
   "chuong": "Mất sông Cái",
   "tone": "story",
-  "text": "Theo lời kể cũ, quân sĩ nhặt được tin là thật, lại chán chính sự hà khắc của họ Hồ nên không còn bụng dạ chiến đấu."
+  "text": "Theo lời kể cũ, nhiều quân sĩ nhặt được thì tin là thật, và vốn đã chán chính sự hà khắc của họ Hồ."
  },
  {
   "n": 24039,
@@ -297,19 +297,19 @@
   "n": 24050,
   "chuong": "Những ngày cuối",
   "tone": "story",
-  "text": "Quân nhà Hồ hai bên bờ sông quay ngược giáo, nhảy xuống chết. Thuyền chiến và thuyền chở lương đều chìm, không một người sống sót trở về."
+  "text": "Theo lời kể cũ, quân nhà Hồ hai bên bờ sông quay giáo, nhảy xuống chết. Thuyền chiến và thuyền chở lương đều chìm, không ai sống sót."
  },
  {
   "n": 24051,
   "chuong": "Những ngày cuối",
   "tone": "story",
-  "text": "Mùa hạ, nhà Minh ra lệnh tìm con cháu nhà Trần để lập vua. Nhưng theo lời kể cũ, quan lại và người già nói rằng họ Trần đã hết người."
+  "text": "Đầu tháng tư, nhà Minh ra lệnh tìm con cháu nhà Trần để lập vua. Theo lời kể cũ, quan lại và người già nói họ Trần đã hết người."
  },
  {
   "n": 24052,
   "chuong": "Những ngày cuối",
   "tone": "story",
-  "text": "Hồ Quý Ly và Hồ Hán Thương vượt biển về Thanh Hóa. Ngày hai mươi ba, quân Minh đánh vào cửa sông Lỗi Giang, và quân nhà Hồ không đánh mà tan."
+  "text": "Hồ Quý Ly và Hồ Hán Thương vượt biển về Thanh Hóa. Ngày hai mươi ba tháng tư, quân Minh đánh vào Lỗi Giang, và quân nhà Hồ không đánh mà tan."
  },
  {
   "n": 24053,

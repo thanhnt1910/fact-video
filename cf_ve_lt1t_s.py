@@ -18,7 +18,7 @@ want = sorted(items) if arg == "all" else [int(x) for x in arg.split(",") if x]
 out = ROOT / "assets/anh_chibi/lt1t_cfs"
 out.mkdir(parents=True, exist_ok=True)
 for n in want:
-    tmp = out / f"{n}.raw"
+    tmp = out / f"{n}.png"
     for attempt in range(3):
         try:
             ai._cloudflare(items[n]["prompt"], tmp, 8)

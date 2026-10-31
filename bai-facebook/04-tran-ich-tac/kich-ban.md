@@ -1,6 +1,6 @@
 # Bài 4: Trần Ích Tắc, hoàng tử học giỏi nhất triều nhưng ra hàng quân Nguyên
 
-Trạng thái: bản nháp chờ chủ kênh duyệt (31/10/2026).
+Trạng thái: bản nháp chờ chủ kênh duyệt (31/10/2026). Đã chọn 5 ảnh (thư mục `anh/`).
 
 Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**, Bản kỷ quyển V (Thánh Tông, Nhân Tông) và quyển VII (truyện Trần Nhật Duật), kể cả chú thích (bản dịch Viện KHXH; file `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, các dòng 8768–8769, 9440–9468, 10111–10115, 10159–10171, 10302–10306, 10511, 10569–10575, 10656, 10692–10699, 12555–12556, 12577, 12581–12582). Nguồn đối chiếu (đọc qua trang thứ cấp, chưa mở bản gốc): Wikipedia tiếng Anh về Trần Ích Tắc (nêu năm sinh 1254, mất 1329); bài của Lê Minh Khải trên blog cá nhân (nhận xét về chữ "kẻ" trong bản dịch). Chưa mở được *Nguyên sử* và *An Nam chí lược*.
 
@@ -114,19 +114,24 @@ Cần phân biệt:
 • Bài chưa đối chiếu được với Nguyên sử và An Nam chí lược.
 • Lời của Nguyễn Đại Phạp và của Ích Tắc là bản dịch Toàn thư, được rút gọn đôi chút.
 
-Ảnh: ghi công từng ảnh ở đây sau khi chọn xong.
+Ảnh (tất cả từ Wikimedia Commons):
+1. Trụ biểu ở khu Đền Trần, Nam Định. Hoangvantoanajc, CC0. https://commons.wikimedia.org/wiki/File:Den_Tran_Nam_Dinh.jpg
+2. Văn Miếu – Quốc Tử Giám, Hà Nội (ảnh minh họa chuyện học). Chuhai07, CC0. https://commons.wikimedia.org/wiki/File:V%C4%83n_Mi%E1%BA%BFu_%E2%80%93_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m_(21).jpg
+3. Tượng Mạc Đĩnh Chi ở chùa Dâu, Bắc Ninh. Duyệt-phố (Wikipedia tiếng Việt), public domain. https://commons.wikimedia.org/wiki/File:T%C6%B0%E1%BB%A3ng_M%E1%BA%A1c_%C4%90%C4%A9nh_Chi.jpeg
+4. Hốt Tất Liệt đi săn, tranh lụa của Lưu Quán Đạo (đời Nguyên), public domain. https://commons.wikimedia.org/wiki/File:Liu-Kuan-Tao-Jagd.JPG
+5. Bãi cọc tái hiện ở cửa sông Bạch Đằng. Goodmorninghpvn (Wikipedia tiếng Việt), public domain. https://commons.wikimedia.org/wiki/File:B%C3%A3i_c%E1%BB%8Dc_c%E1%BB%ADa_s%C3%B4ng_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng.jpg
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #TranIchTac #NhaTran #KhangNguyen #LichSu
 
-## Kế hoạch ảnh
+## Kế hoạch ảnh (đã chạy workflow nvp4 ngày 31/10/2026; chọn 5/24 ứng viên)
 Truy vấn ở `ke-hoach/nhan-vat-phu/nvp4_anh_truy_van.txt`. Chỉ lấy ảnh public domain, CC0 hoặc CC BY trên Wikimedia Commons:
 1. Đền hoặc di tích nhà Trần (Thái Bình, Nam Định, Hưng Yên).
 2. Văn Miếu Quốc Tử Giám hoặc ảnh về học đường xưa.
 3. Tranh hoặc tượng Mạc Đĩnh Chi.
 4. Bạch Đằng, nơi quân Nguyên thất bại (1288).
 5. Ngạc Châu (Vũ Hán) hoặc cảnh Hán Dương, nơi nhà Nguyên đặt hành tỉnh.
-Không có ảnh chân dung Ích Tắc đáng tin; thiếu ảnh nào ghi rõ thiếu.
+Không có ảnh chân dung Ích Tắc đáng tin. Chú thích khi đăng: ảnh 4 là tranh vẽ Hốt Tất Liệt đi săn (minh họa thời Nguyên, không phải quân đội trong bài); ảnh 5 là bãi cọc tái hiện; ảnh 2 và 3 chỉ minh họa chuyện học. Không có ảnh Ngạc Châu hay hành tỉnh nhà Nguyên đáng tin, nên bỏ.
 
 ## Mục "Ghi chú độ chắc"
 TT = Đại Việt sử ký toàn thư. Số dòng là dòng trong `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`.

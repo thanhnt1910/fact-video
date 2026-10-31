@@ -56,7 +56,7 @@ Video dài, 56 đoạn (24001–24056), khoảng 8.6 phút, giọng Sadaltager, 
 
 ### Thuyền và đất mới
 
-**24020.** Có lần ông hỏi các quan làm sao có được một trăm vạn quân để chống giặc phương Bắc. Quan Hoàng Hối Khanh dâng kế làm sổ ghi tên dân.
+**24020.** Cùng năm ấy, quân nhà Hồ đánh Chiêm Thành. Vua Chiêm phải dâng đất xin rút quân, và nhà Hồ chia vùng đất ấy thành bốn châu.
 
 **24021.** Năm một nghìn bốn trăm lẻ bốn, Hồ Hán Thương cho đóng thuyền có đinh sắt, mỗi mái chèo hai người, trên sàn lính đứng đánh nhau.
 

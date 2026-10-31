@@ -241,6 +241,9 @@ DA_DUYET = {f'AC{i:02d}' for i in range(1, 22)} | {'AC22', 'AC23', 'AC24'}   # A
 for x in sc:
     for f in x.get('free_text_details', []):
         if f['id'] in DA_DUYET: f.update(owner_approved=True, approved_by='chủ kênh', approved_date='2026-11-01')
+# --- Ảnh tham chiếu Lý Thường Kiệt do chủ kênh duyệt 01/11/2026 (CR-LTK-B2, face_only): chỉ cảnh thấy mặt ông ở giai đoạn S2
+for x in sc:
+    if x['scene_id'] in ('L04', 'L11'): x['reference_images'] = [dict(image_id='CR-LTK-B2', purpose='face_only')]
 # --- Liên kết hồ sơ nhân vật (kiến trúc 4 tầng, DRAFT). thay_mat = mặt nhân vật có nhìn thấy được trong ảnh (quyết định râu chỉ cần khi thay_mat=True)
 HO_SO = {'L04': ([('ly-thuong-kiet', ['S2'])], True), 'L08': ([('ly-thuong-kiet', ['S1', 'S2'])], False), 'L11': ([('ly-thuong-kiet', ['S2'])], True),
          'L12': ([('ly-thuong-kiet', ['S2']), ('tong-dan', ['S1'])], False), 'L24': ([('ly-thuong-kiet', ['S2'])], False), 'L34': ([('ly-thuong-kiet', ['S4'])], False)}

@@ -1,5 +1,10 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, câu cảm ơn cuối video, ảnh tham chiếu Lý Thường Kiệt được duyệt, vẽ lại Tông Đản
+- **Kịch bản 91 đoạn:** thêm đoạn cuối "Cảm ơn bạn đã lắng nghe." (chủ kênh duyệt; tách riêng vì ghép vào đoạn trước vượt 32 chữ; bộ kiểm cảnh báo ngắn có chủ ý). Bộ kiểm kịch bản: 0 lỗi.
+- **Ảnh tham chiếu được duyệt:** `CR-LTK-B2` (Lý Thường Kiệt, râu đen pha bạc), mục đích `face_only`, giai đoạn S2, vẫn mức C. Ghi vào `tham-chieu-duoc-duyet.json`, `anh.json` (PASS) và hồ sơ nhân vật. L04 và L11 khai tham chiếu này. Không sao chép trang phục, tư thế, bố cục, phụ kiện.
+- **Tông Đản:** chưa có ảnh tham chiếu được duyệt. CR-TD-3 thiếu râu và có ủng da ngoài khối; thêm hai ứng viên vẽ lại CR-TD-4 (nửa người, râu nhìn rõ) và CR-TD-5 (toàn thân, dép rơm theo khối VN_CHAN). Chờ chủ kênh chọn.
+
 ## 01/11/2026, chủ kênh duyệt đề xuất tiếp (AC22, DQ-001 ngoại lệ, kịch bản 90 đoạn) và chấp nhận nguồn thứ cấp cho bản đồ
 - **AC22** (lính Tống được trao trả ở L33, không vũ khí) đã duyệt, vẫn C/visual_only. Còn lại không chi tiết nghệ thuật nào chưa duyệt.
 - **DQ-001** có ngoại lệ do chủ kênh duyệt riêng cho L04 và L35 (`canh_ngoai_pham_vi_duoc_duyet`); không mở rộng cho cảnh khác ngoài 1075–1077. Bộ kiểm `dq_hop_le` hỗ trợ trường này.

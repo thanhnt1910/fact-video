@@ -86,9 +86,9 @@ for ten, got, want in cases:
     ok = got == want; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + ten + ('' if ok else f'  [{got}]'))
 # thư mục thật
 K.bad.clear(); real = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/anh.json', encoding='utf-8'))['images']; K.kiem_anh(real, [])
-ok = not K.bad and all(not r['duoc_dung_lam_tham_chieu'] and r['status'] == 'STALE' for r in real); kq.append(ok)
-print(('PASS ' if ok else 'FAIL ') + f'12 Sổ ảnh thật: {len(real)} ảnh cũ đều STALE, không ảnh nào được dùng làm tham chiếu, 0 lỗi {K.bad[:2]}')
-ds = Q.tham_chieu_duoc_duyet('lt1v4')['anh']; ok = ds == []; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'13 Danh sách ảnh tham chiếu được duyệt: {len(ds)} ảnh (rỗng = chưa có ảnh hợp lệ)')
+ok = not K.bad and all((not r['duoc_dung_lam_tham_chieu'] and r['status'] == 'STALE') or r['image_id'] == 'CR-LTK-B2' for r in real) and sum(r['status'] != 'STALE' for r in real) == 1; kq.append(ok)
+print(('PASS ' if ok else 'FAIL ') + f'12 Sổ ảnh thật: {len(real)} ảnh, ảnh cũ đều STALE; ngoại lệ duy nhất CR-LTK-B2 (PASS, chủ kênh duyệt), 0 lỗi {K.bad[:2]}')
+ds = Q.tham_chieu_duoc_duyet('lt1v4')['anh']; ok = [x['image_id'] for x in ds] == ['CR-LTK-B2'] and ds[0]['muc_dich'] == 'face_only' and ds[0]['duyet_boi'] == 'chủ kênh' and Q.tham_chieu_hop_le('lt1v4', 'CR-LTK-B2')[0]; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'13 Danh sách ảnh tham chiếu được duyệt: {len(ds)} ảnh (chỉ CR-LTK-B2, face_only; Tông Đản chưa có)')
 
 # --- ảnh cũ không thể lọt qua dù bị ghi nhầm vào danh sách duyệt; ảnh hợp lệ thì qua được
 import shutil
@@ -212,7 +212,7 @@ tinh('27b Hồ sơ nhân vật ghi ảnh tham chiếu chưa có trong danh sách
 pm = json.loads(json.dumps(PR)); pm[0]['ung_vien_chua_duyet'][0]['duoc_dung_lam_tham_chieu'] = True
 tinh('27c Ứng viên chưa duyệt bị đánh dấu dùng làm tham chiếu bị chặn', any('chưa được duyệt' in l for l in kr(None, pm)))
 tinh('27d Râu Lý Thường Kiệt: S2 đã APPROVED "đen pha bạc" (C, OWNER_APPROVAL, visual_only, không phải dữ kiện lịch sử, DQ-005); S1, S3, S4 vẫn UNDECIDED; Tông Đản UNDECIDED', all((g['dac_diem']['rau']['trang_thai'] == 'APPROVED' and g['dac_diem']['rau']['gia_tri'].startswith('đen pha bạc') and g['dac_diem']['rau']['quyet_dinh'] == 'DQ-005') if g['id'] == 'S2' else (g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' and g['dac_diem']['rau']['gia_tri'] is None) for g in PR[0]['giai_doan']) and all(g['dac_diem']['rau']['evidence_level'] == 'C' and g['dac_diem']['rau']['decision_mode'] == 'OWNER_APPROVAL' and g['dac_diem']['rau']['approval_scope'] == 'visual_only' and g['dac_diem']['rau']['la_du_kien_lich_su'] is False for p_ in PR for g in p_['giai_doan']) and all(g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' for g in PR[1]['giai_doan']))
-tinh('27e Danh sách ảnh tham chiếu được duyệt vẫn rỗng', Q.tham_chieu_duoc_duyet('lt1v4')['anh'] == [])
+tinh('27e Danh sách ảnh tham chiếu được duyệt chỉ có CR-LTK-B2; hồ sơ Lý Thường Kiệt khớp; Tông Đản chưa có ảnh duyệt', [x['image_id'] for x in Q.tham_chieu_duoc_duyet('lt1v4')['anh']] == ['CR-LTK-B2'] and PR[0]['anh_tham_chieu_da_duyet'] == ['CR-LTK-B2'] and PR[1]['anh_tham_chieu_da_duyet'] == [] and all(r.get('reference_images') == [dict(image_id='CR-LTK-B2', purpose='face_only')] for r in RS if r['scene_id'] in ('L04', 'L11')))
 # tài liệu APPROVED và phiên bản không đổi so với baseline b1
 BL = json.load(open(f'{Q.R}/phim_ban_do/baseline_kiem/baseline.json', encoding='utf-8'))['baseline']['b1']['sha256']
 for fn in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-tac/anh/khoi-prompt.json', 'quy-tac/anh/quy-trinh-anh.md'):
@@ -249,7 +249,7 @@ tinh('33e AC22 (lính Tống được trao trả) và AC20 (dân) đều đã du
 tinh('33f Mọi chi tiết ngoài khối (AC01..AC24) đã duyệt bởi chủ kênh 01/11/2026 và vẫn là C, visual_only', {f['id'] for x in RS for f in x.get('free_text_details', []) if f['owner_approved']} == {f'AC{i:02d}' for i in range(1, 25)} and all(f['evidence_level'] == 'C' and f['approval_scope'] == 'visual_only' and f['la_du_kien_lich_su'] is False for x in RS for f in x.get('free_text_details', [])))
 BD = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))
 tinh('33g Bản đồ: chủ kênh duyệt danh sách và chấp nhận nguồn thứ cấp; 9 mục VERIFIED kèm nguồn, không mục nào có tọa độ hay được vẽ; 7 bản đồ vẫn bị chặn', len(BD['items']) == 33 and BD['chu_kenh_duyet_danh_sach']['trang_thai'] == 'APPROVED' and sum(x['trang_thai'] == 'VERIFIED' for x in BD['items']) == 9 and all(x['toa_do'] is None and x['duoc_ve'] is False for x in BD['items']) and all(x.get('map_status') == 'BLOCKED_NEEDS_REVIEW' for x in RS if x.get('render') == 'vector_map'))
-tinh('33h Kịch bản của planner là bản tách 90 đoạn, từ ngữ khớp bản gốc (trừ đoạn cuối chủ kênh duyệt); bản gốc còn nguyên', real['script'].endswith('lt1v4_tach_full.json') and real['so_doan'] == 90 and len(json.load(open(f'{Q.R}/ke-hoach/thu-giong-hai/lt1v4_tach_full.json', encoding='utf-8'))) == 90 and len(json.load(open(f'{Q.R}/ke-hoach/thu-giong-hai/lt1v4_full.json', encoding='utf-8'))) == 68)
+tinh('33h Kịch bản của planner là bản tách 91 đoạn (đã thêm câu cảm ơn), từ ngữ khớp bản gốc trừ đoạn cuối chủ kênh duyệt; bản gốc 68 đoạn còn nguyên', real['script'].endswith('lt1v4_tach_full.json') and real['so_doan'] == 91 and len(json.load(open(f'{Q.R}/ke-hoach/thu-giong-hai/lt1v4_tach_full.json', encoding='utf-8'))) == 91 and len(json.load(open(f'{Q.R}/ke-hoach/thu-giong-hai/lt1v4_full.json', encoding='utf-8'))) == 68)
 d1 = next(d for d in REGJ['quyet_dinh'] if d['id'] == 'DQ-001')
 tinh('33i DQ-001: ngoại lệ chỉ L04 và L35 (chủ kênh duyệt), L11 vẫn trong phạm vi, cảnh khác ngoài phạm vi vẫn không được', set(d1['canh_ngoai_pham_vi_duoc_duyet']) == {'L04', 'L35'} and K.dq_hop_le(d1, S35)[0] and K.dq_hop_le(d1, S04)[0] and K.dq_hop_le(d1, S11)[0] and not K.dq_hop_le(d1, dict(S25, scene_id='L99', nien_dai_canh=[1105, 1105]))[0])
 print(f'\nTổng: {sum(kq)}/{len(kq)} phép kiểm đạt'); sys.exit(0 if all(kq) else 1)

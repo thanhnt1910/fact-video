@@ -36,7 +36,7 @@ Bible: master 1.3, period 1.3, khoi-prompt 1.3. 42 cảnh = 35 ảnh FLUX + 7 b�
 | L25 | [52, 87] | landscape | 10/0/0 | phòng tuyến bờ nam | lính Đại Việt giữ phòng tuyến ×10 (rải dọc bờ nam) | Medium | AC13 |
 | L26 | [53, 54, 55, 56] | army | 13/0/0 | quân Tống nhìn phòng tuyến | lính Tống bờ bắc ×5 (tiền cảnh, nhìn từ phía sau); lính Đại Việt bờ nam ×8 (hậu cảnh, nhỏ, sau lũy) | Medium | AC14 |
 | L27 | [57] | battlefield | 16/0/0 | trận vượt sông | lính Tống lội sông ×8 (trung cảnh, lội qua dòng nông); lính Đại Việt sau lũy ×8 (hậu cảnh, sau lũy bờ nam) | High | AC15 |
-| L28 | [58, 59, 62, 63, 89, 90] | small_group | 5/0/0 | quân sĩ nghe bài thơ | lính Đại Việt ×5 (trước đền, nhóm lỏng) | Low | AC16 |
+| L28 | [58, 59, 62, 63, 89, 90, 91] | small_group | 5/0/0 | quân sĩ nghe bài thơ | lính Đại Việt ×5 (trước đền, nhóm lỏng) | Low | AC16 |
 | L29 | [60, 61] | object_detail | 0/0/0 | cửa đền | (không có người) ×0 (-) | Low | AC17 |
 | L30 | [64] | small_group | 8/0/0 | doanh trại quân Tống | lính Tống ngồi nghỉ, nhóm trái ×4 (trung cảnh trái); lính Tống ngồi nghỉ, nhóm phải ×4 (trung cảnh phải) | Low | AC18 |
 | L31 | [68] | army | 12/0/0 | quân Tống rút lui | lính Tống tiền cảnh ×3 (tiền cảnh, từ phía sau); lính Tống phía sau ×9 (trung cảnh và hậu cảnh) | Medium | - |

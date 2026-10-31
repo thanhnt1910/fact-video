@@ -32,7 +32,7 @@ for x in src:
     elif n == 20064:
         s = cau(t); a, b = s[1].split(', khép lại ', 1); them(n, x, [s[0] + ' ' + a + '.', 'Khép lại ' + b])
     elif n == 20068:   # chủ kênh duyệt 01/11/2026 câu thay đoạn cuối (đổi duy nhất "người Việt" thành "quân dân Đại Việt")
-        them(n, x, ['Bài thơ vang lên bên bờ sông năm ấy.', 'Dù câu chuyện khởi nguồn còn được truyền lại qua nhiều thế hệ, nó vẫn trở thành một biểu tượng về ý chí giữ nước của quân dân Đại Việt.'])
+        them(n, x, ['Bài thơ vang lên bên bờ sông năm ấy.', 'Dù câu chuyện khởi nguồn còn được truyền lại qua nhiều thế hệ, nó vẫn trở thành một biểu tượng về ý chí giữ nước của quân dân Đại Việt.', 'Cảm ơn bạn đã lắng nghe.'])
     else: them(n, x, [t])
 # kiểm: ghép lại phải ra đúng các từ ban đầu (bỏ dấu câu, không phân biệt hoa thường)
 norm = lambda s: re.sub(r'[^\w\s]', '', s.lower()).split()

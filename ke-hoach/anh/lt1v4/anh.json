@@ -1,6 +1,6 @@
 {
  "project": "lt1v4",
- "ghi_chu": "Sổ ảnh theo quy-trinh-anh.md mục 3. Chỉ chứa ảnh thử cũ, đều STALE, không được dùng làm tham chiếu hay căn cứ đánh giá. Số người và ngựa THỰC TẾ ghi ở dem_thu_cong; số DỰ KIẾN ở ke_hoach (bản chụp từ Scene Planner lúc vẽ); hai trường luôn tách riêng.",
+ "ghi_chu": "Sổ ảnh theo quy-trinh-anh.md mục 3. Ảnh thử cũ đều STALE, không được dùng làm tham chiếu hay căn cứ đánh giá. Ngoại lệ duy nhất: CR-LTK-B2 (ảnh tham chiếu Lý Thường Kiệt do chủ kênh duyệt 01/11/2026, face_only). Số người và ngựa THỰC TẾ ghi ở dem_thu_cong; số DỰ KIẾN ở ke_hoach (bản chụp từ Scene Planner lúc vẽ); hai trường luôn tách riêng.",
  "images": [
   {
    "image_id": "lt1v4-test-01",
@@ -625,6 +625,37 @@
    "ke_hoach": null,
    "duoc_dung_lam_tham_chieu": false,
    "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
+  },
+  {
+   "image_id": "CR-LTK-B2",
+   "scene_id": "CR-LTK-B2",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "691d98745c39a253aef8b706e3bed6d0efa4921cad36136861498f85dd364b05",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 12,
+   "reference_images": [],
+   "file": "assets/anh_nhan_vat/lt1v4/CR-LTK-B2.jpg",
+   "file_sha256": "7e8dfa30dc22000fbacfcdd81539079403984593404f030c007f029c16c39904",
+   "attempt": 1,
+   "status": "PASS",
+   "duoc_dung_lam_tham_chieu": true,
+   "dem_thu_cong": {
+    "nguoi": 1,
+    "ngua": 0,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn; chủ kênh duyệt làm tham chiếu",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 1,
+    "ngua": 0
+   },
+   "ghi_chu": "Ứng viên Character Reference Lý Thường Kiệt, râu đen pha bạc (DQ-005, C, visual_only). Duyệt face_only cho giai đoạn S2. Áo xanh ô-liu và khăn đầu giống mũ: KHÔNG sao chép trang phục."
   }
  ]
 }

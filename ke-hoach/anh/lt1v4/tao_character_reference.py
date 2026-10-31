@@ -5,7 +5,7 @@ R = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..
 sys.path.insert(0, f'{R}/phim_ban_do')
 import anh_quy_tac as Q
 KP = json.load(open(f'{R}/quy-tac/anh/khoi-prompt.json', encoding='utf-8')); CUR = Q.phien_ban_hien_hanh()
-T = lambda b: KP[b]['text']
+T = lambda b: KP[b]['text'] if 'text' in KP[b] else 'Wearing ' + KP[b]['chon_mot'][2]   # khối giày dép: chọn phương án 'simple straw sandals'
 sc = []
 def C(cid, ten, seed, blocks, layout, extra, ft, tags_who, ghi_chu):
     parts = [layout] + [T(b) for b in blocks] + ([extra] if extra else []) + [T('ANATOMY'), T('STYLE')]
@@ -13,7 +13,7 @@ def C(cid, ten, seed, blocks, layout, extra, ft, tags_who, ghi_chu):
     sc.append(dict(scene_id=cid, segment_ids=[], scene_type='portrait', expected_people=1, expected_horses=0, expected_elephants=0, main_characters=[ten],
         positions='một người đứng giữa khung, nền trơn, không đạo cụ', groups=[dict(name=ten, count=1, position='giữa khung', role='tham chiếu nhân vật', faction='viet', horses=0, mounted=0, elephants=0)],
         composition='một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ', camera=layout.split(':')[0], lighting='ánh sáng mềm một hướng', scenery='plain background',
-        blocks_used=blocks, detail_tags=[dict(item=KP[b]['text'][:60], block=b, tag=KP[b]['tag'], evidence_level=KP[b]['evidence_level'], who=ten, bible_ref=KP[b]['bible_ref']) for b in blocks],
+        blocks_used=blocks, detail_tags=[dict(item=T(b)[:60], block=b, tag=KP[b]['tag'], evidence_level=KP[b]['evidence_level'], who=ten, bible_ref=KP[b]['bible_ref']) for b in blocks],
         free_text_details=[dict(item=i, tag='artistic_choice', evidence_level='C', reason=r, owner_approved=False, id=f'{cid}-AC{k+1}', approval_scope='visual_only') for k, (i, r) in enumerate(ft)],
         image_prompt=prompt, prompt_sha256=hashlib.sha256(prompt.encode()).hexdigest(), prompt_version='p1', prompt_chars=len(prompt), bible_versions=dict(CUR), reference_images=[],
         plan_status='PLAN_OWNER_REVIEW', risk='Medium', seed=seed, ghi_chu=ghi_chu, image_status='CANDIDATE_NOT_DRAWN'))
@@ -26,6 +26,10 @@ for k, (lay, seed) in enumerate([(H, 11), (H, 12), (Fl, 13)], 1):
 TDX = 'a younger Vietnamese general in his forties with a short black beard'
 for k, (lay, seed) in enumerate([(H, 21), (H, 22), (Fl, 23)], 1):
     C(f'CR-TD-{k}', TD, seed, ['VN_TUONG'], lay.format(w=TDX), '', [('Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn', 'không có tư liệu về diện mạo Tông Đản (cùng chi tiết AC ở cảnh L12)')], TD, 'Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.')
+# Vẽ lại Tông Đản (chủ kênh duyệt 01/11/2026): TD-3 thiếu râu và ủng da ngoài Bible. TD-4 nửa người, râu đen ngắn nhìn rõ (dùng cho khuôn mặt); TD-5 toàn thân, có khối giày dép (dép rơm đơn giản).
+TDR = 'The general has a short black beard and a short black moustache, clearly visible on his chin and upper lip.'
+C('CR-TD-4', TD, 24, ['VN_TUONG'], H.format(w=TDX), TDR, [('Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn', 'không có tư liệu về diện mạo Tông Đản (cùng chi tiết AC ở cảnh L12)')], TD, 'Tông Đản bản vẽ lại: nửa người, râu đen ngắn nhìn rõ (C). Sửa lỗi TD-3 thiếu râu.')
+C('CR-TD-5', TD, 23, ['VN_TUONG', 'VN_CHAN'], Fl.format(w=TDX), TDR, [('Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn', 'không có tư liệu về diện mạo Tông Đản (cùng chi tiết AC ở cảnh L12)')], TD, 'Tông Đản bản vẽ lại: toàn thân, râu đen ngắn, giày dép theo khối VN_CHAN (dép rơm đơn giản) thay cho ủng da của TD-3.')
 # Râu của Lý Thường Kiệt KHÔNG phải dữ kiện lịch sử (chủ kênh 01/11/2026): màu râu là artistic_choice (C). Các phương án so sánh không dùng khối VN_TUONG_LY_THUONG_KIET (khối này ghi râu bạc, chưa đổi Bible).
 MC = 'mature Vietnamese general'
 for cid, rau, seed, vi in [('CR-LTK-B1', 'a full black beard', 12, 'râu đen'), ('CR-LTK-B2', 'a full black beard streaked with grey', 12, 'râu đen pha bạc'),

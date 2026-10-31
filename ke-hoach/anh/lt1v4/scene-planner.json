@@ -9,7 +9,7 @@
  },
  "script": "ke-hoach/thu-giong-hai/lt1v4_tach_full.json",
  "script_goc": "ke-hoach/thu-giong-hai/lt1v4_full.json",
- "so_doan": 90,
+ "so_doan": 91,
  "ghi_chu_so_doan": "segment_ids theo bản tách 90 đoạn; số đoạn trong ghi_chu/timing_note/motion_plan/map_note theo bản 68 đoạn cũ (xem segment_ids_ban_cu và lt1v4_tach_anh-xa.json)",
  "segment_cuts": {
   "87": [
@@ -449,7 +449,12 @@
    "needs_character_reference": true,
    "risk": "Medium",
    "reuse_group": "ltk-hall",
-   "reference_images": [],
+   "reference_images": [
+    {
+     "image_id": "CR-LTK-B2",
+     "purpose": "face_only"
+    }
+   ],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Cần Character Reference Lý Thường Kiệt trước khi vẽ loạt nhân vật này. Dùng cho đoạn 4, 5 và 60.",
    "timing_note": "Đoạn 4 và 5 liền nhau (khoảng 19 giây một ảnh): cần hiệu ứng chuyển động.",
@@ -1298,7 +1303,12 @@
    "needs_character_reference": true,
    "risk": "Medium",
    "reuse_group": "ltk-hoi-dong",
-   "reference_images": [],
+   "reference_images": [
+    {
+     "image_id": "CR-LTK-B2",
+     "purpose": "face_only"
+    }
+   ],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Dùng cho 13 (chờ hay đánh), 50 và 51 (nghị hòa). Không vẽ nhà vua (không có tạo hình trong Bible).",
    "timing_note": "Đoạn 50 và 51 liền nhau, khoảng 19 giây.",
@@ -3335,7 +3345,8 @@
     62,
     63,
     89,
-    90
+    90,
+    91
    ],
    "scene_type": "small_group",
    "expected_people": 5,

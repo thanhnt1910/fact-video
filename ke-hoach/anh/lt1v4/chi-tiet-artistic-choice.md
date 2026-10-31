@@ -21,7 +21,7 @@
 | AC13 | L25 | [52, 87] | lũy đất cắm cọc gỗ dọc bờ nam | registry: DQ-003 | OWNER_APPROVAL | kịch bản chỉ nói "phòng tuyến kiên cố"; kiểu lũy chưa có tư liệu đã kiểm | PENDING (đồng ý / sửa / bỏ) |
 | AC14 | L26 | [53, 54, 55, 56] | lũy đất cắm cọc gỗ dọc bờ nam | registry: DQ-003 | OWNER_APPROVAL | như cảnh L25 | PENDING (đồng ý / sửa / bỏ) |
 | AC15 | L27 | [57] | lũy đất cắm cọc gỗ dọc bờ nam | registry: DQ-003 | OWNER_APPROVAL | như cảnh L25 | PENDING (đồng ý / sửa / bỏ) |
-| AC16 | L28 | [58, 59, 62, 63, 89, 90] | đền nhỏ bên sông mái ngói xám, đèn dầu bên trong | project: lt1v4 | OWNER_APPROVAL | kiến trúc đền thờ Trương Hống, Trương Hát chưa có tư liệu hình dạng | PENDING (đồng ý / sửa / bỏ) |
+| AC16 | L28 | [58, 59, 62, 63, 89, 90, 91] | đền nhỏ bên sông mái ngói xám, đèn dầu bên trong | project: lt1v4 | OWNER_APPROVAL | kiến trúc đền thờ Trương Hống, Trương Hát chưa có tư liệu hình dạng | PENDING (đồng ý / sửa / bỏ) |
 | AC17 | L29 | [60, 61] | cửa đền gỗ chạm khắc đơn giản, đèn dầu đất nung | project: lt1v4 | OWNER_APPROVAL | không có tư liệu hình dạng đền | PENDING (đồng ý / sửa / bỏ) |
 | AC18 | L30 | [64] | lều vải đơn giản của quân Tống | period_bible: lều vải đơn giản của quân Tống | OWNER_APPROVAL | không có tư liệu | PENDING (đồng ý / sửa / bỏ) |
 | AC19 | L32 | [70, 71, 72, 73, 74] | giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau (câu mô tả đề xuất; khoi-prompt chưa có khối voi) | registry: DQ-004 | OWNER_APPROVAL | chưa có khối voi trong khoi-prompt.json; không thêm ngà vì chưa có căn cứ | PENDING (đồng ý / sửa / bỏ) |

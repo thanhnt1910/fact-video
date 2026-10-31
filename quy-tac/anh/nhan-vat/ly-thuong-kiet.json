@@ -338,8 +338,8 @@
    "image_id": "CR-LTK-B2",
    "file": "assets/anh_nhan_vat/lt1v4/CR-LTK-B2.jpg",
    "giai_doan": null,
-   "ghi_chu": "râu đen pha bạc",
-   "duoc_dung_lam_tham_chieu": false
+   "ghi_chu": "râu đen pha bạc (ĐÃ DUYỆT 01/11/2026, face_only, S2)",
+   "duoc_dung_lam_tham_chieu": true
   },
   {
    "image_id": "CR-LTK-B3",
@@ -356,7 +356,9 @@
    "duoc_dung_lam_tham_chieu": false
   }
  ],
- "anh_tham_chieu_da_duyet": [],
+ "anh_tham_chieu_da_duyet": [
+  "CR-LTK-B2"
+ ],
  "pham_vi_tai_su_dung_anh": {
   "muc_dich_cho_phep": [
    "face_only"
@@ -368,7 +370,9 @@
    "phụ kiện"
   ],
   "chi_dung_khi": "ảnh có trong ke-hoach/anh/<dự án>/tham-chieu-duoc-duyet.json, status PASS, đúng phiên bản Bible",
-  "giai_doan_ap_dung": [],
+  "giai_doan_ap_dung": [
+   "S2"
+  ],
   "du_an": [
    "lt1v4"
   ]

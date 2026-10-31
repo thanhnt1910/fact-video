@@ -179,3 +179,14 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
    3. Những chi tiết phụ có thể loại bỏ.
    4. Biến cố chính dự kiến xuất hiện ở phần trăm thời lượng nào.
 * Sau khi hoàn thành, phải báo cáo tỷ lệ thực tế và giải thích nếu vượt mục tiêu 35–45%.
+
+## Bộ tiêu chuẩn hook, hình ảnh – âm thanh, quy trình sản xuất (chủ kênh yêu cầu 31/10/2026, áp dụng mọi video từ nay)
+
+**Bản nguyên văn ở `quy-tac/hook-va-quy-trinh-nguyen-van.md` (PHẢI đọc khi viết hook hoặc lên kế hoạch dựng). Phần dưới là tóm tắt kèm cách áp dụng trong repo; nếu khác nhau thì theo bản nguyên văn.**
+
+- **Hook 20 giây đầu:** (1) 0–3 giây chiếm sự chú ý: một câu tối đa 15 từ, không ngày tháng, không giới thiệu dài; (2) 3–10 giây tạo mâu thuẫn hoặc bí ẩn: một sự kiện, nghịch lý hoặc chi tiết khiến người xem muốn biết nguyên nhân; (3) 10–20 giây mở lời hứa nội dung: cho biết câu chuyện sẽ giải đáp điều gì, chưa tiết lộ toàn bộ kết quả. Khớp mục "Bố cục video cuốn hút" ở trên (mở đầu tối đa 40 giây, không lộ đáp án, nhân vật và xung đột trước 1 phút 30 giây).
+- **Sáu kiểu mở đầu để luân phiên:** sự kiện bất ngờ; nghịch lý lịch sử; câu hỏi bí ẩn; số phận nhân vật; trận chiến; sự thật bị hiểu nhầm. Có thể kết hợp hai kiểu. Ghi kiểu đã chọn vào "Ghi chú độ chắc" và vào danh sách "Khuôn mở đầu đã dùng" để video sau chọn kiểu khác.
+- **Hình ảnh và âm thanh:** hình minh họa phù hợp ngay từ giây đầu; chữ lớn hiện cùng câu hook, dễ đọc trên điện thoại; không mở bằng logo, intro hay lời chào dài; giọng có nhịp, nhấn đúng từ khóa; nhạc nền hỗ trợ cảm xúc, không lấn lời kể; không để bản đồ đơn giản xuất hiện khi lời kể đang mô tả cảnh giàu cảm xúc (khi đó dùng tranh minh họa).
+- **Quy trình sản xuất:** (1) hoàn thành kịch bản lịch sử và kiểm tra dữ kiện; (2) viết 3 phương án hook theo 3 hướng khác nhau (đưa chủ kênh chọn, ghi trong kịch bản); (3) chọn hook tốt nhất, dựng riêng 20 giây đầu; (4) chốt hình ảnh, giọng đọc, chữ, âm thanh; (5) hoàn thiện phần còn lại cùng ngôn ngữ hình ảnh; (6) đăng, đo lường, cập nhật tiêu chuẩn cho video sau. Số liệu tham chiếu: Ngô Quyền 21% xem đủ 3 giây, 51 giây trung bình; Lý Thường Kiệt (lt1, Facebook) 330 lượt, trung bình 11 giây, cần vượt mức này.
+- **Nguyên tắc biên tập:** không đánh đổi độ chính xác lịch sử để lấy sự giật gân. Hook không được biến giả thuyết thành sự thật, thêm tình tiết không có căn cứ, phóng đại số liệu hay sự kiện, hay đặt câu hỏi gây hiểu lầm so với nội dung video. Khi hook xung đột với độ chính xác thì theo độ chính xác.
+- **Rà hook trước khi giao kịch bản:** thêm vào bước "Rà 5 lần" (lần 3, giữ chân): câu đầu ≤15 từ và không ngày tháng? Có mâu thuẫn hoặc bí ẩn trong 10 giây đầu? Có lời hứa nội dung trong 20 giây đầu? Có 3 phương án hook? Hook có đúng sự thật và đúng nội dung video?

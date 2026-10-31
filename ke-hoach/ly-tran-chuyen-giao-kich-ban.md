@@ -15,7 +15,7 @@ Khuôn mở đầu: cảnh Lý Huệ Tông ngồi nhổ cỏ ở sân chùa và 
 
 23003. Người nhổ cỏ là Lý Huệ Tông, chưa đầy hai năm trước vẫn ngồi trên ngai vàng. Vì sao một nhà vua mất ngôi mà không một tiếng phản đối?
 
-23004. Câu trả lời bắt đầu từ một chiếc khăn trầu, ném cho một cậu bé đang bưng chậu nước hầu trong cung.
+23004. Chuyện ấy khởi đầu bằng một chiếc khăn trầu, ném cho một cậu bé đang bưng chậu nước hầu trong cung.
 
 
 ### Triều đình rệu rã (story)
@@ -117,7 +117,7 @@ Khuôn mở đầu: cảnh Lý Huệ Tông ngồi nhổ cỏ ở sân chùa và 
 
 ## Ghi chú độ chắc (chủ kênh duyệt)
 
-Bố cục (3 chữ mỗi giây): Nhổ cỏ 0 giây (0%); Triều đình rệu rã 35 giây (9%); Người giữ cấm quân 94 giây (25%); Chiếc khăn trầu 130 giây (35%); Cửa đóng 193 giây (51%); Chùa Chân Giáo 250 giây (66%); Hố ở Thái Đường 317 giây (84%); Ai giữ cửa 344 giây (91%). Cảnh gây tò mò ở giây 0; cảnh khăn trầu (xung đột chính) bắt đầu ở 35%, trước mốc 45%. Mở đầu 3 đoạn, khoảng 35 giây.
+Bố cục (3 chữ mỗi giây): Nhổ cỏ 0 giây (0%); Triều đình rệu rã 34 giây (9%); Người giữ cấm quân 93 giây (25%); Chiếc khăn trầu 129 giây (34%); Cửa đóng 192 giây (51%); Chùa Chân Giáo 249 giây (66%); Hố ở Thái Đường 317 giây (84%); Ai giữ cửa 343 giây (91%). Cảnh gây tò mò ở giây 0; cảnh khăn trầu (xung đột chính) bắt đầu ở 35%, trước mốc 45%. Mở đầu 3 đoạn, khoảng 35 giây.
 
 Nguồn: Đại Việt sử ký toàn thư, Bản kỷ quyển IV (Huệ Tông, Chiêu Hoàng) và quyển V (Trần Thái Tông), file `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`; mọi chi tiết đối chiếu với file này.
 

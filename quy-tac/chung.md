@@ -143,23 +143,25 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - Không dùng câu hỏi tu từ liên tục; chỉ hỏi ở bước chuyển quan trọng; không câu chuyển tiếp máy móc kiểu "Vậy chuyện gì xảy ra tiếp theo?"; không tạo bí ẩn cho thông tin không cần thiết; không lặp thông tin chỉ để nhắc người xem.
 
 ### 4. Lời kể
+- **Phong cách:** kể chuyện lịch sử, tự nhiên, rõ ràng, có chiều sâu và giàu tính hình ảnh.
 - Câu ngắn, mỗi câu một ý chính, động từ mạnh, hành động cụ thể; hạn chế văn hành chính, học thuật, giống sách giáo khoa; hạn chế từ Hán Việt khó hiểu (nếu cần phải giải thích bằng lời phổ thông).
 - Không lạm dụng: kinh hoàng, khủng khiếp, chấn động, định mệnh, "không ai ngờ"; không cường điệu sự kiện (ví dụ không thêm hình ảnh bi tráng không có thật); tránh lặp cấu trúc câu giữa các đoạn.
 - Phải tự nhiên khi đọc thành tiếng, không chỉ hay khi đọc bằng mắt.
 
 ### 5. Chia đoạn và giọng đọc
-- Mỗi đoạn một ý hoặc một diễn biến; ưu tiên 15–30 chữ (kiểm bằng `kiem_kich_ban.py`: tối đa 32 chữ, hai câu); tránh đoạn quá ngắn, rời rạc, thiếu ngữ cảnh; không ngắt đoạn giữa một ý; dùng dấu câu tạo nhịp nghỉ.
+- Mỗi đoạn chỉ tập trung một ý hoặc một diễn biến; ưu tiên 15–30 chữ (kiểm bằng `kiem_kich_ban.py`: tối đa 32 chữ, hai câu); đoạn dài hơn chỉ dùng khi nội dung thực sự cần thiết; tránh đoạn quá ngắn, rời rạc, thiếu ngữ cảnh; không ngắt đoạn giữa một ý; dùng dấu câu tạo nhịp nghỉ.
 - Viết số theo cách đọc bằng tiếng Việt; kiểm cách phát âm tên riêng, địa danh, thuật ngữ; giữ tone nhất quán (video sử Việt: tone "story" cả video).
 
 ### 6. Thời lượng
+- Phân bổ thời lượng hợp lý giữa bối cảnh, xung đột, cao trào và kết thúc; tạo điểm nhấn ở những biến cố quan trọng.
 - Xác định thời lượng mục tiêu trước khi viết, tính số chữ theo tốc độ đọc thực tế (khoảng 3 chữ mỗi giây); không kéo dài để đủ giờ; không để phần chuẩn bị chiếm quá nhiều so với diễn biến chính; kiểm bằng bản đọc thử thực tế khi đã có giọng.
 
 ### 7. Tuyệt đối không
 - Tự sáng tác lời thoại rồi trình bày như lời nói lịch sử; gán suy nghĩ, cảm xúc khi không có căn cứ; khẳng định nguyên nhân chỉ bằng suy luận; đưa số liệu không rõ nguồn thành sự thật; đánh đồng lời kể trong chính sử với sự thật đã xác minh; dùng từ hiện đại làm sai bối cảnh; thêm tình tiết cho bi tráng. Cần diễn giải hoặc nhận định thì phải nói rõ đó là nhận định (lời bàn vẫn phải là của sử gia có tên).
 
 ### 8. Rà 5 lần trước khi giao (ghi kết quả vào "Ghi chú độ chắc")
-1. **Lịch sử:** nhân vật, chức danh, địa danh, mốc thời gian, trình tự, số liệu và lời thoại có căn cứ; đối chiếu từng mốc với nguồn.
-2. **Nội dung:** có đoạn thừa, sự kiện quan trọng bị bỏ sót, nguyên nhân – kết quả chưa rõ, đoạn chỉ liệt kê?
-3. **Giữ chân:** hook hấp dẫn, xung đột đủ sớm, đoạn chậm, cao trào đủ sức nặng, kết đã giải đáp hook?
-4. **Lời kể:** tự nhiên khi đọc to, câu dài khó hiểu, lặp từ, lặp ý, lặp cấu trúc, quá nhiều câu hỏi tu từ, từ Hán Việt khó?
-5. **Kỹ thuật:** số đoạn và định dạng JSON, số chữ mỗi đoạn, tổng thời lượng, phân bổ chương, tên riêng nhất quán.
+1. **Lịch sử:** nhân vật, chức danh, địa danh đúng chưa? Mốc thời gian có chính xác không? Trình tự sự kiện có bị đảo lộn không? Số liệu và lời thoại có căn cứ không? (đối chiếu từng mốc với nguồn)
+2. **Nội dung:** có đoạn nào thừa không? Có sự kiện quan trọng nào bị bỏ sót không? Nguyên nhân và kết quả đã rõ chưa? Có đoạn nào chỉ liệt kê thông tin không?
+3. **Giữ chân:** hook có đủ hấp dẫn không? Xung đột chính xuất hiện đủ sớm chưa? Có đoạn nào chậm hoặc nhàm chán không? Cao trào có đủ sức nặng không? Kết thúc đã giải đáp hook chưa?
+4. **Lời kể:** có tự nhiên khi đọc thành tiếng không? Có câu quá dài hoặc khó hiểu không? Có lặp từ, lặp ý, lặp cấu trúc không? Có quá nhiều câu hỏi tu từ không? Có từ Hán Việt khó hiểu không?
+5. **Kỹ thuật:** số đoạn có đúng định dạng không? Số chữ mỗi đoạn có hợp lý không? Tổng thời lượng có đạt mục tiêu không? Các chương có phân bổ hợp lý không? Tên riêng có nhất quán không?

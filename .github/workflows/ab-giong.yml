@@ -1,5 +1,7 @@
 name: Thử A/B hồ sơ giọng Sadaltager
 on:
+  push:
+    paths: ['ke-hoach/thu-giong-hai/ab_chay.txt']
   workflow_dispatch:
 permissions:
   contents: write

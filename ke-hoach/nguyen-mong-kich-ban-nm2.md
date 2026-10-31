@@ -3,11 +3,13 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 
 
 ## Hai ba ngày (tone: hook)
+
 22001. Một viên tướng bị xiềng tay, giải về Thăng Long chịu tội. Ông xin hoãn hai ba ngày để lập công, rồi sẽ về nhận phạt.
 22002. Ông bị giải đi vì để hạm đội của quân Nguyên vượt qua vùng biển mình giữ. Vậy mà ông vẫn tin còn cơ hội, dù địch là đế quốc mạnh nhất.
 22003. Ông đang chờ thứ gì? Câu trả lời nằm rải qua ba lần quân Nguyên kéo xuống Đại Việt, lần đầu vào mùa đông năm một nghìn hai trăm năm mươi bảy.
 
 ## Lần thứ nhất (tone: story)
+
 22004. Cuối năm một nghìn hai trăm năm mươi bảy, tướng Mông Cổ Ngột Lương Hợp Thai đánh vào Bình Lệ Nguyên. Vua Trần Thái Tông đích thân ra trận.
 22005. Giặc mạnh quá nên quân Đại Việt phải lui, và nhà vua đến hỏi kế Nhật Hiệu, một đại thần cùng họ với vua.
 22006. Ông này lấy ngón tay viết lên mạn thuyền hai chữ nhập Tống, ý bảo hãy chạy sang đất nhà Tống.
@@ -17,21 +19,24 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22010. Liệu người Mông Cổ có bỏ đi? Câu trả lời là không, vì hơn hai mươi năm sau họ quay lại dưới cờ nhà Nguyên của hoàng đế Hốt Tất Liệt.
 
 ## Bình Than (tone: story)
+
 22011. Mùa đông năm một nghìn hai trăm tám mươi hai, vua ra bến Bình Than họp các vương hầu để bàn kế đánh giữ.
 22012. Hôm ấy, vua thấy một chiếc thuyền chở than, người lái đội nón lá, mặc áo ngắn. Vua nhận ra đó là Nhân Huệ Vương Trần Khánh Dư.
 22013. Ông từng phạm tội với hoàng tộc nên bị đánh, bị tước hết chức, phải về Chí Linh bán than.
 22014. Khi quân hiệu gọi, ông đáp mình chỉ là người buôn bán, có việc gì mà phải triệu. Vua nói nam nhi mà đến nỗi này thì thật cùng cực.
 22015. Rồi vua tha tội, ban áo ngự, cho ông ngồi bàn việc nước. Cũng ở hội nghị ấy, Hoài Văn hầu Trần Quốc Toản bị gạt ra vì còn trẻ.
-22016. Quốc Toản hổ thẹn đến mức bóp nát quả cam trong tay lúc nào không biết. Rồi ông tự gom hơn một nghìn gia nô, sắm vũ khí, đóng thuyền.
+22016. Trần Quốc Toản hổ thẹn đến mức bóp nát quả cam trong tay lúc nào không biết. Rồi ông tự gom hơn một nghìn gia nô, sắm vũ khí, đóng thuyền.
 22017. Trên cờ ông viết sáu chữ phá giặc mạnh, báo ơn vua. Đến lúc giặc kéo xuống, hai người bị gạt ra ngoài ấy sẽ ở đâu?
 
 ## Mượn đường (tone: story)
+
 22018. Cuối năm một nghìn hai trăm tám mươi bốn, sứ giả Trần Phủ về báo tin quân Nguyên xin mượn đường đánh Chiêm Thành. Vì sao họ mượn đường?
 22019. Thực ra họ định cướp nước ta chứ không phải Chiêm Thành. Đạo quân ấy do Thoát Hoan, con trai Hốt Tất Liệt, chỉ huy.
 22020. Vua cha Trần Thánh Tông, người đã nhường ngôi cho vua Trần Nhân Tông, triệu các cụ già có uy tín trong dân về điện Diên Hồng để hỏi kế đánh giặc.
 22021. Các cụ đều hô đánh, tiếng hô vang lên như từ một miệng. Hưng Đạo Vương Trần Quốc Tuấn, người thống lĩnh quân đội cả nước, lo việc chống giặc.
 
 ## Lần thứ hai (tone: tense)
+
 22022. Đầu năm một nghìn hai trăm tám mươi lăm, Ô Mã Nhi đánh vào căn cứ Vạn Kiếp và quân Đại Việt thua chạy.
 22023. Phía nam, Toa Đô đem quân từ Chiêm Thành ngược ra bắc, nên Đại Việt bị kẹp từ hai phía.
 22024. Ở bãi Đà Mạc, Bảo Nghĩa Vương Trần Bình Trọng bị bắt. Quân Nguyên hỏi ông có muốn làm vua đất Bắc không.
@@ -41,6 +46,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22028. Về sau, cách đánh ấy được gọi là vườn không nhà trống. Quân Đại Việt rút đi, không để lại lương thực, nên giặc càng đi sâu càng thiếu ăn.
 
 ## Phản công (tone: epic)
+
 22029. Chính lúc ấy, nhà vua cho phản công. Mùa hạ, ở Hàm Tử, quân của Trần Nhật Duật có cả người Tống.
 22030. Họ theo Đại Việt sau khi nhà Tống bị nhà Nguyên diệt.
 22031. Họ vẫn mặc áo Tống và cầm cung tên ra trận. Vì sao quân Nguyên thấy vậy mà kinh hãi bỏ chạy?
@@ -51,10 +57,11 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22036. Nhưng ngài ngầm sai giữ lại đầu Toa Đô, tẩm dầu để răn đe kẻ khác. Lý do là Toa Đô đã mượn đường cướp nước ta suốt ba năm.
 
 ## Lần thứ ba (tone: tense)
+
 22037. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.
-22038. Phía sau còn nhiều thuyền chở lương do Trương Văn Hổ chỉ huy. Hưng Đạo Vương giao việc giữ biển cho Khánh Dư, người bán than năm xưa, nay giữ Vân Đồn.
-22039. Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Vua cha nghe tin, sai người xiềng tay ông giải về kinh.
-22040. Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
+22038. Phía sau còn nhiều thuyền chở lương do Trương Văn Hổ chỉ huy. Hưng Đạo Vương giao Trần Khánh Dư, người bán than năm xưa, giữ biển Vân Đồn.
+22039. Hạm đội của Ô Mã Nhi vượt qua mà Trần Khánh Dư không chặn nổi. Vua cha nghe tin, sai người xiềng tay ông giải về kinh.
+22040. Trần Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
 22041. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
 22042. Chẳng bao lâu một đoàn thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
 22043. Vua cha tha tội cho ông. Ngài nói rằng quân Nguyên chỉ trông vào lương thực và vũ khí, nay đã mất mà giặc có thể chưa biết, nên còn hung hăng.
@@ -63,6 +70,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22046. Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp.
 
 ## Bạch Đằng (tone: epic)
+
 22047. Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?
 22048. Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước.
 22049. Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn.
@@ -74,13 +82,16 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22055. Trong buổi lễ ấy, nhà vua làm một bài thơ nói rằng đất nước hai lần phải chịu cảnh chiến tranh, nhưng non sông ngàn đời vẫn vững bền.
 
 ## Hai người bị gạt ra (tone: reflect)
+
 22056. Chiến thắng ấy có giá của nó. Cung điện bị giặc đốt hết, nên vua cha phải ở tạm dãy hành lang của đội thị vệ.
 22057. Nhà Nguyên chưa bỏ ý định, cho quân đóng ở biên giới chờ lệnh đánh lần thứ tư.
 22058. Nhưng đầu năm một nghìn hai trăm chín mươi tư, Hốt Tất Liệt qua đời, và người kế vị ra lệnh rút quân.
-22059. Thứ Khánh Dư chờ ở Vân Đồn cũng là thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương.
+22059. Thứ Trần Khánh Dư chờ ở Vân Đồn cũng là thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương.
 22060. Cả hai lần nó đều tới, và cả hai lần nó rơi vào tay quân Đại Việt.
-22061. Còn hai người bị gạt ra ở bến Bình Than thì sao? Khi Quốc Toản mất, vua rất thương tiếc, tự làm văn tế và phong ông tước vương.
-22062. Khánh Dư thì chẳng bỏ được tính tham lam, và người ở nơi ông trấn giữ đều ghét ông. Nhưng vua tiếc tài làm tướng của ông, nên không nỡ bỏ ông.
+22061. Còn hai người bị gạt ra ở bến Bình Than thì sao? Trần Quốc Toản về sau chết khi đang đuổi đánh quân Nguyên, lúc chưa đầy hai mươi tuổi.
+22062. Vua rất thương tiếc, tự làm văn tế và phong ông tước vương. Còn Trần Khánh Dư vẫn ép dân và lính nộp của cải, nên dân Vân Đồn kiện ông.
+22063. Ông cãi rằng tướng như chim ưng, dân lính như vịt, nuôi chim ưng bằng vịt có gì lạ. Vua không vui nhưng tiếc tài ông, nên không nỡ bỏ.
+
 ## Ghi chú độ chắc (chủ kênh duyệt)
 - **Đã sửa sau khi đối chiếu Toàn thư (bản nm2 đầu viết từ nguồn thứ cấp có sai):** (1) bỏ ý "mở kho trống ở Thăng Long ba lần": Toàn thư không chép; (2) đoàn thuyền lương không chỉ bị đánh ở Vân Đồn: Trần Khánh Dư bắt thuyền vận tải ở Vân Đồn (tháng chạp 1287, không phải tháng giêng 1288), còn thuyền lương của Trương Văn Hổ mắc cọc và đắm gần hết ở Bạch Đằng; (3) bỏ ý "Thoát Hoan trúng tên độc khi rút": chi tiết đó thuộc năm 1285 (Lý Hằng) và Toàn thư chép Thoát Hoan trốn về Tư Minh; (4) bỏ "Phù Lỗ", "chín ngày ở Thăng Long", "vườn không nhà trống chuyển gạo đi": không có trong Toàn thư; (5) Hàm Tử, Chương Dương, Tây Kết sắp lại đúng thứ tự (tháng tư, mồng mười tháng năm, hai mươi tháng năm), Toa Đô bị chém ở Tây Kết; (6) bỏ tuổi 26 của Trần Bình Trọng, bỏ "hứa cho chức cao"; (7) bỏ mọi ngày dương lịch.
 - **Khuôn mở đầu mới:** cảnh Trần Khánh Dư bị xiềng giải về kinh, xin khất hai ba ngày (có thật, Toàn thư chép trực tiếp, kể đủ ở chương "Lần thứ ba"). Câu đầu 13 chữ. Hook không nói đáp án. Cuối video trả lời: thứ ông chờ là thuyền chở lương, và quân Nguyên cũng chờ đúng thứ đó ở Bạch Đằng.
@@ -115,3 +126,5 @@ Người bóp nát quả cam là Trần Quốc Toản, không phải Trần Qu�
 
 Sửa đoàn thuyền lương (31/10/2026): hai lần thuyền lương trong kịch bản là hai đoàn khác nhau. Ở Vân Đồn, Khánh Dư bắt một đoàn thuyền vận tải (Toàn thư không nêu chỉ huy); đoàn của Trương Văn Hổ là số thuyền lương còn lại, đến Bạch Đằng thì mắc cọc. Toàn thư cũng chép trận Đại Bàng (ngày 8 tháng giêng 1288) bắt 300 thuyền giặc khi Ô Mã Nhi đi đón thuyền lương của Văn Hổ; lời kể chưa dùng chi tiết này.
 - Từ "thượng hoàng" đã bỏ (31/10/2026): thay bằng "vua cha", lần đầu nêu rõ là Trần Thánh Tông, người đã nhường ngôi cho vua Trần Nhân Tông.
+- Sửa 31/10/2026: tên đầy đủ "Trần Khánh Dư", "Trần Quốc Toản" ở mọi chỗ nhắc. Quốc Toản mất: Toàn thư chỉ chép "đến khi mất, vua rất thương tiếc, thân làm văn tế, lại gia phong tước vương", KHÔNG nêu nguyên nhân. Lời kể "chết khi đuổi đánh quân Nguyên, chưa đầy hai mươi tuổi" lấy từ Nguyên sử (khoảng 1285, tuổi 17–18) qua Wikipedia; nguồn này có nghi vấn là nhầm với Trần Quốc Kiện. Chủ kênh cân nhắc giữ hay bỏ vế lý do.
+- "Tham lam" của Trần Khánh Dư: Toàn thư (Bản kỷ, đời Nhân Tông) chép người trong trấn kiện ông tham lam thô bỉ; ông tâu "tướng là chim ưng, dân lính là vịt, dùng vịt nuôi chim ưng thì có gì lạ". Lời kể diễn lại thành "ép dân và lính nộp của cải" (cách hiểu từ lời tâu, Toàn thư không kể chi tiết); đoạn kể ở Vân Đồn là nơi ông trấn giữ.

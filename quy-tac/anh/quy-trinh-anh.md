@@ -1,4 +1,4 @@
-# QUY TRÌNH ẢNH – lưu `detail_tags`, kiểm duyệt Scene Planner, quản lý phiên bản (v1.2 APPROVED, 01/11/2026)
+# QUY TRÌNH ẢNH – lưu `detail_tags`, kiểm duyệt Scene Planner, quản lý phiên bản (v1.3 APPROVED, 01/11/2026)
 
 Áp dụng cho mọi video dùng ảnh FLUX. Chưa có Scene Planner nào được lập theo quy trình này.
 
@@ -61,7 +61,7 @@ Trạng thái kế hoạch (`plan_status`): `PLAN_DRAFT` → `PLAN_CHECKED` → 
 - Chưa có Character Reference được duyệt cho Lý Thường Kiệt.
 - Kiểm số người và ngựa trong ảnh do người đếm (chủ kênh chưa yêu cầu hệ thống tự động).
 
-## 5. Bổ sung 01/11/2026 theo yêu cầu chủ kênh (CHỜ CHỦ KÊNH DUYỆT; chưa đổi số phiên bản đã APPROVED)
+## 5. Bổ sung 01/11/2026 theo yêu cầu chủ kênh (ĐÃ ĐƯỢC CHỦ KÊNH DUYỆT 01/11/2026; nâng quy trình lên v1.3)
 - **Voi:** Scene Planner có `expected_elephants` (mặc định 0), mỗi nhóm có `elephants`, và `elephant_pairs` (mỗi người dắt gắn đúng một con voi, không trùng). Prompt có voi phải ghi "EXACTLY N elephants"; không có voi thì prompt không nhắc voi. Sổ ảnh: `dem_thu_cong.voi` (người đếm) tách khỏi `ke_hoach.voi`; ảnh PASS khi hai số khớp. Chỉ theo dõi voi, chưa mở rộng loài khác.
 - **Bản đồ vector:** cảnh bản đồ phải có `map_data_ref`/`map_items` trỏ tới `ban-do-can-xac-minh.json`. Mỗi mục thuộc một loại tách riêng (`DIA_LY`, `DUONG_QUAN_SU`, `DIEN_GIAI`), mặc định `NEEDS_REVIEW`, không tọa độ, không đường biên. Chỉ mục `VERIFIED` kèm `nguon_xac_minh` mới được điền tọa độ hoặc vẽ. Còn mục NEEDS_REVIEW thì bản đồ `BLOCKED_NEEDS_REVIEW` và không PLAN_APPROVED.
 - **Đoạn dùng nhiều cảnh:** phải có `segment_cuts` (thứ tự và câu cắt nằm đúng trong lời đọc). **Cảnh giữ từ 20 giây** phải có `motion_plan` (pan, zoom, cắt cận), chỉ thêm ảnh khi thật cần.

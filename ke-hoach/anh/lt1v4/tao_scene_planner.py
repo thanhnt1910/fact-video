@@ -17,6 +17,9 @@ ANAT, STY = T('ANATOMY'), T('STYLE')
 G = lambda name, n, pos, role, fac, h=0, e=0: dict(name=name, count=n, position=pos, role=role, faction=fac, horses=h, mounted=h, elephants=e)
 FT = lambda item, tag, why: dict(item=item, tag=tag, evidence_level='B' if tag == 'cautious_reconstruction' else 'C', reason=why, owner_approved=False)
 C, B_ = 'artistic_choice', 'cautious_reconstruction'
+FTI = lambda id_, item, tag, why, **kw: dict(FT(item, tag, why), id=id_, **kw)
+RAU_ITEM = 'râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm "grey beard" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt'
+RAU_TXT = 'an elderly Vietnamese general with a black beard lightly streaked with grey'
 VNS = ['VN_AO_VAI', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI']
 sc = []
 def S(sid, segs, typ, groups, chars, pos, comp, cam, light, blocks, layout, dau=None, chan=None, scenery='', extra='', ft=(), risk='Medium', reuse=None, note='', ltk=False, elephants=0, pairs=None, tim=''):
@@ -59,9 +62,9 @@ S('L03', [3, 66], 'army', [G('lính Đại Việt tiền cảnh', 3, 'tiền c�
   'Wide shot, slightly elevated: sixteen Vietnamese soldiers march in three rows along a dirt road through hills, all walking in the same direction. Three soldiers in the foreground, seven in the middle, six small in the background, clearly spaced apart',
   dau=DAU[0], chan=CHAN[0], scenery='Green hills, dry dirt road', risk='Medium', reuse='vn-vuot-bien-gioi', note='Số lính trong ảnh chỉ minh họa, không phải số quân trong sử (kịch bản nói hơn mười vạn người). Không cờ.', tim='Đoạn 66 dùng lại: nửa đầu đoạn.')
 S('L04', [4, 5, 60], 'command_room', [G('Lý Thường Kiệt (tạo hình nghệ thuật)', 1, 'giữa khung, nhìn từ phía sau và hơi nghiêng', 'đứng nhìn bản đồ', 'viet')], ['Lý Thường Kiệt'], 'một người đứng bên bàn thấp, mặt quay đi một phần',
-  dict(fore='nhân vật từ phía sau', mid='bàn thấp, bản đồ, đèn dầu', back='tường và cột gỗ'), 'medium shot, từ phía sau và hơi nghiêng', 'ánh sáng ấm yếu từ đèn dầu', ['VN_TUONG_LY_THUONG_KIET', 'VN_TUONG', 'DEN', 'NHA_DAN'],
-  'Medium shot from behind and slightly from the side: one general stands at a table looking down at an unrolled map with no writing on it, his face partly turned away, a plain timber hall around him',
-  ft=[FT('bản đồ cuộn không chữ', C, 'đạo cụ không có trong Bible')], risk='Medium', reuse='ltk-hall', ltk=True, note='Cần Character Reference Lý Thường Kiệt trước khi vẽ loạt nhân vật này. Dùng cho đoạn 4, 5 và 60.', tim='Đoạn 4 và 5 liền nhau (khoảng 19 giây một ảnh): cần hiệu ứng chuyển động.')
+  dict(fore='nhân vật từ phía sau', mid='bàn thấp, bản đồ, đèn dầu', back='tường và cột gỗ'), 'medium shot, từ phía sau và hơi nghiêng', 'ánh sáng ấm yếu từ đèn dầu', ['VN_TUONG', 'DEN', 'NHA_DAN'],
+  'Medium shot from behind and slightly from the side: one general stands at a table looking down at an unrolled map with no writing on it, his face partly turned away, a plain timber hall around him. ' + RAU_TXT,
+  ft=[FT('bản đồ cuộn không chữ', C, 'đạo cụ không có trong Bible'), FTI('AC23', RAU_ITEM, C, 'màu râu không có tư liệu; chủ kênh chọn B2 (DQ-005)', quyet_dinh='DQ-005')], risk='Medium', reuse='ltk-hall', ltk=True, note='Cần Character Reference Lý Thường Kiệt trước khi vẽ loạt nhân vật này. Dùng cho đoạn 4, 5 và 60.', tim='Đoạn 4 và 5 liền nhau (khoảng 19 giây một ảnh): cần hiệu ứng chuyển động.')
 S('L05', [6], 'architecture', [G('người hầu trong cung', 3, 'tiền cảnh dưới, nhỏ', 'đi qua sân', 'viet')], ['kinh thành Thăng Long'], 'sân cung điện, ba người nhỏ đi ngang cuối khung', dict(fore='sân lát', mid='cung điện gỗ mái ngói', back='mái và trời'),
   'wide establishing shot', 'ánh sáng buổi sáng mềm', ['KIEN_TRUC_CUNG'], 'Wide establishing shot of a palace courtyard in Thăng Long, three small attendants walk across the courtyard near the bottom of the frame',
   scenery='Open paved courtyard, soft morning haze', ft=[FT('người hầu trong cung mặc áo dài thô, đầu trần', C, 'trang phục người hầu không có trong Bible')], risk='Low', reuse='thang-long', note='Không vẽ vua. Mô tả "khôi ngô" của kịch bản không thể hiện bằng ảnh này.')
@@ -93,8 +96,8 @@ S('L10', [12, 22, 23], 'small_group', [G('lính Tống ở xưởng thuyền', 8
   note='Dùng cho 12 (đóng thuyền, luyện thủy quân), 22 và 23 (nhà Tống chuẩn bị lực lượng ở khu vực sát biên giới). Không vẽ cờ.', tim='Đoạn 22 và 23 liền nhau, khoảng 19 giây.')
 S('L11', [13, 50, 51], 'command_room', [G('Lý Thường Kiệt (tạo hình nghệ thuật)', 1, 'đầu bàn phía xa, ba phần tư', 'quyết định', 'viet'), G('sĩ quan Đại Việt', 3, 'hai bên và đầu bàn gần', 'bàn bạc', 'viet')],
   ['Lý Thường Kiệt'], 'bốn người quanh bàn thấp có bản đồ', dict(fore='sĩ quan đầu bàn gần', mid='bàn, bản đồ, đèn dầu', back='cột gỗ'), 'medium shot, ba phần tư', 'ánh sáng ấm từ đèn dầu',
-  ['VN_TUONG_LY_THUONG_KIET', 'VN_TUONG', 'DEN', 'NHA_DAN'], 'Medium shot, three-quarter view: four men stand around a low wooden table with an unrolled map with no writing on it, one elderly general at the far end and three officers, one on each side and one at the near end, all looking at the map',
-  ft=[FT('bản đồ cuộn không chữ', C, 'đạo cụ không có trong Bible')], risk='Medium', reuse='ltk-hoi-dong', ltk=True, note='Dùng cho 13 (chờ hay đánh), 50 và 51 (nghị hòa). Không vẽ nhà vua (không có tạo hình trong Bible).', tim='Đoạn 50 và 51 liền nhau, khoảng 19 giây.')
+  ['VN_TUONG', 'DEN', 'NHA_DAN'], 'Medium shot, three-quarter view: four men stand around a low wooden table with an unrolled map with no writing on it, one elderly general at the far end and three officers, one on each side and one at the near end, all looking at the map. The general at the far end is ' + RAU_TXT.replace('an elderly Vietnamese general with', 'an elderly man with'),
+  ft=[FT('bản đồ cuộn không chữ', C, 'đạo cụ không có trong Bible'), FTI('AC24', RAU_ITEM, C, 'màu râu không có tư liệu; chủ kênh chọn B2 (DQ-005)', quyet_dinh='DQ-005')], risk='Medium', reuse='ltk-hoi-dong', ltk=True, note='Dùng cho 13 (chờ hay đánh), 50 và 51 (nghị hòa). Không vẽ nhà vua (không có tạo hình trong Bible).', tim='Đoạn 50 và 51 liền nhau, khoảng 19 giây.')
 S('L12', [14], 'army', [G('tướng Đại Việt (Lý Thường Kiệt)', 1, 'tiền cảnh trái, từ phía sau', 'chỉ huy', 'viet'), G('tướng Đại Việt (Tông Đản, tạo hình nghệ thuật)', 1, 'tiền cảnh phải, từ phía sau', 'chỉ huy', 'viet'), G('lính Đại Việt', 12, 'trung cảnh, hai hàng sáu người', 'đứng chờ lệnh', 'viet')],
   ['Lý Thường Kiệt', 'Tông Đản'], 'hai tướng đứng cạnh nhau, quay lưng, đối diện hai hàng lính', dict(fore='hai tướng', mid='12 lính hai hàng', back='sân đất nện'), 'medium wide shot từ phía sau', 'ánh sáng buổi sáng',
   ['VN_TUONG_LY_THUONG_KIET', 'VN_TUONG', 'VN_AO_VAI', 'VN_GIAP', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'],
@@ -184,9 +187,10 @@ S('L32', [54, 55, 56], 'small_group', [G('sứ giả Đại Việt (Đào Tống
   dau=DAU[1], chan=CHAN[1], extra='Each elephant has one head, one trunk and four legs, clearly separated from the others', scenery='Dirt road across open land', elephants=5, pairs=PR,
   ft=[FT('giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau (câu mô tả đề xuất; khoi-prompt chưa có khối voi)', C, 'chưa có khối voi trong khoi-prompt.json; không thêm ngà vì chưa có căn cứ')],
   risk='High', reuse='su-bo-voi', note='Chỉ theo dõi voi (expected_elephants); chưa mở rộng loài khác. Số voi trong ảnh phải được người đếm, ghi riêng ở dem_thu_cong.voi.', tim='Ba đoạn liền nhau (54 đến 56), khoảng 30 giây: xem motion_plan.')
-S('L33', [58], 'small_group', [G('người dân Tống được trả về', 10, 'giữa đường, hai hàng năm người', 'đi về phía bắc', 'dan'), G('lính Đại Việt đi cùng', 2, 'cuối hàng', 'hộ tống', 'viet')], ['người dân và binh lính được trao trả'], 'hai hàng dân đi về phía bắc, hai lính Đại Việt đi cuối', dict(fore='hàng dân', mid='đường đất', back='đồng bằng'), 'wide shot', 'ánh sáng ban ngày dịu',
-  ['VN_AO_VAI', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'], 'Wide shot: ten Song civilians walk north in two loose lines of five along a dirt road, accompanied by two Vietnamese soldiers walking at the rear',
-  dau=DAU[0], chan=CHAN[0], scenery='Dirt road across open land', ft=[FT('dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn (cảnh chỉ vẽ dân; không có binh lính Tống)', C, 'trang phục không có trong Bible')], risk='Medium', reuse='tra-nguoi')
+S('L33', [58], 'small_group', [G('người dân Tống được trả về', 8, 'giữa đường, hai hàng bốn người', 'đi về phía bắc', 'dan'), G('lính Tống được trả về (không vũ khí)', 4, 'sau hàng dân, một hàng dọc', 'đi về phía bắc', 'song'), G('lính Đại Việt đi cùng', 2, 'cuối hàng', 'hộ tống', 'viet')], ['dân và binh lính nhà Tống được trao trả'], 'hai hàng dân đi trước, một hàng bốn lính Tống theo sau, hai lính Đại Việt đi cuối, tất cả đi về phía bắc', dict(fore='hàng dân', mid='hàng lính Tống, đường đất', back='đồng bằng'), 'wide shot', 'ánh sáng ban ngày dịu',
+  ['VN_AO_VAI', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'], 'Wide shot: eight Song civilians walk north in two loose lines of four along a dirt road, followed by four unarmed Song soldiers in a single line, accompanied by two Vietnamese soldiers walking at the rear',
+  dau=DAU[0], chan=CHAN[0], scenery='Dirt road across open land', extra='The four Song soldiers wear coarse plain tunics and wide-brimmed felt hats and carry nothing in their hands. Only the two Vietnamese soldiers carry the spears. Everyone walks in the same direction, north',
+  ft=[FT('dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn', C, 'trang phục không có trong Bible'), FTI('AC22', 'binh lính nhà Tống được trao trả: áo thô, mũ nỉ vành rộng, tay không (chủ kênh đồng ý vẽ binh lính; tạo hình tù binh/quân phục chưa có căn cứ)', C, 'tạo hình binh lính được trao trả không có trong Bible; đoạn 58 chỉ nói "dân và binh lính"')], risk='Medium', reuse='tra-nguoi')
 M('M7', [61], 'Diễn Châu (nơi Lý Giác dấy binh năm 1103). Chỉ dựa trên kịch bản.')
 S('L34', [62], 'army', [G('Lý Thường Kiệt (tạo hình nghệ thuật)', 1, 'tiền cảnh, từ phía sau', 'dẫn quân', 'viet'), G('lính Đại Việt', 13, 'sau tướng, ba nhóm', 'hành quân', 'viet')], ['Lý Thường Kiệt'], 'tướng đi đầu, mười ba lính theo sau trên đường ven biển', dict(fore='tướng', mid='lính', back='bờ biển'), 'wide shot từ phía sau', 'ánh sáng ban ngày',
   ['VN_TUONG_LY_THUONG_KIET', 'VN_TUONG', 'VN_AO_VAI', 'VN_GIAP', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'], 'Wide shot from behind: one elderly general with a grey beard leads fourteen soldiers in total along a coastal road, he walks alone at the front and thirteen Vietnamese soldiers follow in three groups',
@@ -212,14 +216,16 @@ CUTS = {'66': [dict(thu_tu=1, scene='L03', cau='Một lần, ông đưa quân v�
 n_ft = 0
 for x in sc:
     for f in x.get('free_text_details', []):
-        n_ft += 1; f['id'] = f'AC{n_ft:02d}'; f['approval_scope'] = 'visual_only'
+        if 'id' not in f:
+            n_ft += 1; f['id'] = f'AC{n_ft:02d}'
+        f['approval_scope'] = 'visual_only'
 # --- Phân loại theo kiến trúc 4 tầng (DRAFT, chưa duyệt): nơi lưu đề xuất, quyết định áp dụng, niên đại cảnh
 NOI_LUU = {'AC01': ('registry', 'DQ-001'), 'AC07': ('registry', 'DQ-001'), 'AC21': ('registry', 'DQ-001'), 'AC06': ('registry', 'DQ-002'), 'AC10': ('registry', 'DQ-002'),
            'AC13': ('registry', 'DQ-003'), 'AC14': ('registry', 'DQ-003'), 'AC15': ('registry', 'DQ-003'), 'AC19': ('registry', 'DQ-004'),
            'AC02': ('period_bible', 'dân thường và người hầu Đại Việt'), 'AC03': ('period_bible', 'dân thường và người hầu Đại Việt'),
            'AC09': ('period_bible', 'dân thường nhà Tống'), 'AC12': ('period_bible', 'dân thường nhà Tống'), 'AC20': ('period_bible', 'dân thường nhà Tống'), 'AC18': ('period_bible', 'lều vải đơn giản của quân Tống'),
            'AC04': ('character_profile', 'ly-thuong-kiet'), 'AC08': ('character_profile', 'tong-dan'),
-           'AC05': ('project', 'lt1v4'), 'AC11': ('project', 'lt1v4'), 'AC16': ('project', 'lt1v4'), 'AC17': ('project', 'lt1v4')}
+           'AC22': ('period_bible', 'binh lính nhà Tống được trao trả'), 'AC23': ('registry', 'DQ-005'), 'AC24': ('registry', 'DQ-005'), 'AC05': ('project', 'lt1v4'), 'AC11': ('project', 'lt1v4'), 'AC16': ('project', 'lt1v4'), 'AC17': ('project', 'lt1v4')}
 # Niên đại cảnh theo vị trí trong kịch bản (chưa đối chiếu nguồn ngoài kịch bản); None = không có năm
 NIEN_DAI = {'L04': [1075, None], 'L11': [1075, 1077], 'L35': [1105, 1105], 'L10': [1075, 1077], 'L14': [1075, 1077], 'L25': [1077, 1077], 'L26': [1077, 1077], 'L27': [1077, 1077], 'L32': [1078, 1078]}
 for x in sc:
@@ -230,6 +236,11 @@ for x in sc:
         f.update(noi_luu_de_xuat=nl, noi_luu_chi_tiet=ref, decision_mode='OWNER_APPROVAL', tinh_chat='quy_uoc_hinh_anh', la_du_kien_lich_su=False, quyet_dinh=(ref if nl == 'registry' else None))
         if nl == 'registry' and ref not in dqs: dqs.append(ref)
     if dqs: x['quyet_dinh_ap_dung'] = dqs
+# --- Chủ kênh duyệt 01/11/2026: 21 chi tiết AC01..AC21 + AC23, AC24 (râu, DQ-005); AC22 (lính Tống được trao trả) CHƯA duyệt
+DA_DUYET = {f'AC{i:02d}' for i in range(1, 22)} | {'AC23', 'AC24'}
+for x in sc:
+    for f in x.get('free_text_details', []):
+        if f['id'] in DA_DUYET: f.update(owner_approved=True, approved_by='chủ kênh', approved_date='2026-11-01')
 # --- Liên kết hồ sơ nhân vật (kiến trúc 4 tầng, DRAFT). thay_mat = mặt nhân vật có nhìn thấy được trong ảnh (quyết định râu chỉ cần khi thay_mat=True)
 HO_SO = {'L04': ([('ly-thuong-kiet', ['S2'])], True), 'L08': ([('ly-thuong-kiet', ['S1', 'S2'])], False), 'L11': ([('ly-thuong-kiet', ['S2'])], True),
          'L12': ([('ly-thuong-kiet', ['S2']), ('tong-dan', ['S1'])], False), 'L24': ([('ly-thuong-kiet', ['S2'])], False), 'L34': ([('ly-thuong-kiet', ['S4'])], False)}

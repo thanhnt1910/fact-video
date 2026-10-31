@@ -38,10 +38,13 @@ ghi(len(r0) == 44 and all(a == 'PASS' for a, _ in r0) and [n for _, n in r0] == 
 b1 = {t['ten']: t['ket_qua'] for t in BL['baseline']['b1']['tests']}
 r1 = res['b1']
 loch = [n.split('  ->')[0].strip() for a, n in r1 if a != b1.get(n)]
-ghi(len(r1) == 70 and len(loch) <= 26 and all(re.match(r'(16[b-h]|17[bc]|18[b-e]|19[ab]|20|21[ad]) ', n) for n in loch), f'2. Bộ test b1 (70 phép) với mã MỚI: {len(loch)} phép đổi hành vi (8 phép còn lại trong 26 phép mới là trường hợp hợp lệ, không đổi); cả {len(loch)} đều thuộc nhóm quy tắc mới (voi, bản đồ, đoạn, giữ lâu, duyệt nghệ thuật) chuyển từ chặn sang cảnh báo (Cách B)')
+ghi(len(r1) == 70 and len(loch) == 0, f'2. Bộ test b1 (70 phép) với mã MỚI: {len(loch)} phép đổi hành vi. Sau khi chủ kênh duyệt mục 5 (01/11/2026), 26 quy tắc mới chặn lại như ở b1, nên kỳ vọng 0 khác biệt (trước khi duyệt, Cách B: 18 phép đổi từ chặn sang cảnh báo, xem so_sanh_sau_khi_sua.txt cũ)')
 for n in loch: print('     - ' + n[:120])
 cur = {f: hashlib.sha256(open(f'{R}/{f}', 'rb').read()).hexdigest() for f in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-tac/anh/khoi-prompt.json', 'quy-tac/anh/quy-trinh-anh.md')}
 sb = BL['baseline']['b1']['sha256']
-for f, h in cur.items(): ghi(h == sb[f], f'4. SHA-256 {f.split("/")[-1]} {"không đổi" if h == sb[f] else "KHÁC baseline"}')
+SD = json.load(open(f'{R}/phim_ban_do/baseline_kiem/sau_duyet_2026-11-01.json', encoding='utf-8'))['sha256']
+for f, h in cur.items():
+    if f.endswith('quy-trinh-anh.md'): ghi(h != sb[f] and h == SD[f], '4. SHA-256 quy-trinh-anh.md khác baseline b1 ĐÚNG như dự kiến (chủ kênh duyệt mục 5, nâng v1.3) và khớp sau_duyet_2026-11-01.json')
+    else: ghi(h == sb[f], f'4. SHA-256 {f.split("/")[-1]} {"không đổi" if h == sb[f] else "KHÁC baseline"}')
 print(f'\nKết luận: {"ĐẠT, hành vi cũ không đổi" if all(KQ) else "CÓ LỆCH, xem các dòng LỆCH"}')
 sys.exit(0 if all(KQ) else 1)

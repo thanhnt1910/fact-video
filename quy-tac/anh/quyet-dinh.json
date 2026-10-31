@@ -3,7 +3,7 @@
  "phien_ban": "0.1-DRAFT",
  "trang_thai": "DRAFT",
  "ngay": "2026-11-01",
- "ghi_chu": "Chỉ lưu quyết định có giá trị tái sử dụng, ảnh hưởng quy chuẩn hoặc quy trình. Không lưu lựa chọn nhỏ của từng cảnh. Tài liệu DRAFT: chưa tài liệu APPROVED nào bị đổi. Quyết định PROPOSED không được AUTO. Quyết định APPROVED chỉ dùng trong đúng pham_vi và phien_ban_ap_dung.",
+ "ghi_chu": "Chỉ lưu quyết định có giá trị tái sử dụng, ảnh hưởng quy chuẩn hoặc quy trình. Không lưu lựa chọn nhỏ của từng cảnh. Tài liệu DRAFT: chưa tài liệu APPROVED nào bị đổi. Quyết định PROPOSED không được AUTO. Quyết định APPROVED chỉ dùng trong đúng pham_vi và phien_ban_ap_dung. | 01/11/2026: chủ kênh duyệt DQ-001..004, thêm DQ-005 (râu LTK S2 đen pha bạc), duyệt mục 5 quy-trinh-anh.md (QK-VOI, QK-BANDO, QK-DOAN, QK-GIULAU, QK-DUYET-NT thành APPROVED). QK-HOSO vẫn PROPOSED.",
  "truong": {
   "evidence_level": "A/B/C: căn cứ lịch sử",
   "decision_mode": "AUTO/OWNER_APPROVAL/MUST_VERIFY: ai được quyết",
@@ -66,7 +66,7 @@
   {
    "id": "DQ-001",
    "noi_dung": "Bản đồ cuộn không chữ (đạo cụ minh họa, bản đồ không có chữ, không biểu thị địa lý thật)",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "evidence_level": "C",
    "decision_mode": "OWNER_APPROVAL",
    "pham_vi": {
@@ -97,8 +97,8 @@
    ],
    "xu_ly_ngoai_pham_vi": "OWNER_APPROVAL",
    "can_cu": "Không có tư liệu về hình dạng bản đồ đương thời; chỉ là đạo cụ để thể hiện việc bàn quân cơ.",
-   "nguoi_duyet": null,
-   "ngay_duyet": null,
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01",
    "phien_ban_ap_dung": {
     "master": "1.3",
     "period": "1.3",
@@ -109,7 +109,7 @@
   {
    "id": "DQ-002",
    "noi_dung": "Thuyền gỗ (thân thuyền đang đóng trên giá, thuyền gỗ lòng nông), kiểu đơn giản",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "evidence_level": "C",
    "decision_mode": "OWNER_APPROVAL",
    "pham_vi": {
@@ -138,8 +138,8 @@
    ],
    "xu_ly_ngoai_pham_vi": "MUST_VERIFY",
    "can_cu": "Bible v1.3 mục I: thuyền chiến thời Lý chưa tra; sử chép có thủy quân, không rõ kiểu thuyền.",
-   "nguoi_duyet": null,
-   "ngay_duyet": null,
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01",
    "phien_ban_ap_dung": {
     "master": "1.3",
     "period": "1.3",
@@ -150,7 +150,7 @@
   {
    "id": "DQ-003",
    "noi_dung": "Lũy đất cắm cọc gỗ dọc bờ nam sông Như Nguyệt (biểu tượng minh họa phòng tuyến, không phải kiểu lũy lịch sử)",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "evidence_level": "C",
    "decision_mode": "OWNER_APPROVAL",
    "pham_vi": {
@@ -180,8 +180,8 @@
    ],
    "xu_ly_ngoai_pham_vi": "MUST_VERIFY",
    "can_cu": "Kịch bản đoạn 40 chỉ nói \"theo những ghi chép và truyền lại về sau ... phòng tuyến kiên cố dọc bờ nam\"; hình dạng chưa có tư liệu.",
-   "nguoi_duyet": null,
-   "ngay_duyet": null,
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01",
    "phien_ban_ap_dung": {
     "master": "1.3",
     "period": "1.3",
@@ -192,7 +192,7 @@
   {
    "id": "DQ-004",
    "noi_dung": "Giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau; không thêm ngà",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "evidence_level": "C",
    "decision_mode": "OWNER_APPROVAL",
    "pham_vi": {
@@ -213,51 +213,103 @@
    ],
    "xu_ly_ngoai_pham_vi": "GLOBAL",
    "can_cu": "Giải phẫu, không mang yếu tố thời kỳ. Chưa có khối voi trong khoi-prompt.json.",
-   "nguoi_duyet": null,
-   "ngay_duyet": null,
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01",
    "phien_ban_ap_dung": {
     "master": "1.3",
     "period": "1.3",
     "khoi_prompt": "1.3"
    },
    "tai_su_dung": "chỉ về mặt hình ảnh, trong đúng phạm vi và phiên bản"
+  },
+  {
+   "id": "DQ-005",
+   "noi_dung": "Râu Lý Thường Kiệt giai đoạn S2 (1075–1077): đen pha bạc (râu đen có điểm bạc), lựa chọn nghệ thuật của chủ kênh",
+   "trang_thai": "APPROVED",
+   "evidence_level": "C",
+   "decision_mode": "OWNER_APPROVAL",
+   "pham_vi": {
+    "cap": "CHARACTER",
+    "nhan_vat": "ly-thuong-kiet",
+    "giai_doan": [
+     "S2"
+    ],
+    "thoi_ky": null,
+    "nien_dai": [
+     1075,
+     1077
+    ],
+    "the_luc": null
+   },
+   "tinh_chat": "quy_uoc_hinh_anh",
+   "la_du_kien_lich_su": false,
+   "approval_scope": "visual_only",
+   "ghi_chu_bat_buoc": "Quy ước hình ảnh đã được chủ kênh duyệt để tái sử dụng về mặt hình ảnh. Đây KHÔNG phải dữ kiện lịch sử đã xác minh; không dùng làm căn cứ khi viết lời đọc, mô tả video hoặc bình luận ghim.",
+   "danh_sach_canh": [
+    "L04",
+    "L11"
+   ],
+   "chi_tiet_goc": [
+    "AC23",
+    "AC24"
+   ],
+   "xu_ly_ngoai_pham_vi": "OWNER_APPROVAL",
+   "can_cu": "Không có nguồn xác nhận màu râu của Lý Thường Kiệt giai đoạn 1075–1077. Chủ kênh chọn phương án B2 (đen pha bạc) vào 01/11/2026 sau khi xem so sánh B1–B4. Các giai đoạn khác (S1, S3, S4) vẫn UNDECIDED.",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01",
+   "phien_ban_ap_dung": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "tai_su_dung": "chỉ về mặt hình ảnh, cho Lý Thường Kiệt giai đoạn S2"
   }
  ],
  "quy_tac_kiem": [
   {
    "id": "QK-VOI",
    "noi_dung": "Kiểm voi: expected_elephants, elephant_pairs, \"EXACTLY N elephants\", sổ ảnh dem_thu_cong.voi",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "che_do": "block",
-   "tham_chieu": "quy-trinh-anh.md mục 5"
+   "tham_chieu": "quy-trinh-anh.md mục 5",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01"
   },
   {
    "id": "QK-BANDO",
    "noi_dung": "Bản đồ vector: map_data_ref, không tự đặt tọa độ, NEEDS_REVIEW chặn",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "che_do": "block",
-   "tham_chieu": "quy-trinh-anh.md mục 5"
+   "tham_chieu": "quy-trinh-anh.md mục 5",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01"
   },
   {
    "id": "QK-DOAN",
    "noi_dung": "Đoạn dùng nhiều cảnh phải có segment_cuts; mọi đoạn có cảnh",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "che_do": "block",
-   "tham_chieu": "quy-trinh-anh.md mục 5"
+   "tham_chieu": "quy-trinh-anh.md mục 5",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01"
   },
   {
    "id": "QK-GIULAU",
    "noi_dung": "Cảnh giữ từ 20 giây phải có motion_plan",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "che_do": "block",
-   "tham_chieu": "quy-trinh-anh.md mục 5"
+   "tham_chieu": "quy-trinh-anh.md mục 5",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01"
   },
   {
    "id": "QK-DUYET-NT",
    "noi_dung": "Duyệt chi tiết nghệ thuật: approved_by, approved_date, approval_scope = visual_only",
-   "trang_thai": "PROPOSED",
+   "trang_thai": "APPROVED",
    "che_do": "block",
-   "tham_chieu": "quy-trinh-anh.md mục 5"
+   "tham_chieu": "quy-trinh-anh.md mục 5",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01"
   },
   {
    "id": "QK-PHAMVI",

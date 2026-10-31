@@ -1,5 +1,14 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, chủ kênh duyệt năm mục (quy trình ảnh v1.3, DQ-001..005, râu S2, L33, danh sách bản đồ)
+- **Duyệt mục 5 của `quy-trinh-anh.md`:** nâng quy trình v1.2 → **v1.3 APPROVED**. Năm quy tắc QK-VOI, QK-BANDO, QK-DOAN, QK-GIULAU, QK-DUYET-NT chuyển PROPOSED → **APPROVED, chặn** (hết Cách B). QK-HOSO không thuộc mục 5 nên vẫn PROPOSED (cảnh báo). Retry, MANUAL_REVIEW, owner_unlock không đổi.
+- **Duyệt DQ-001..DQ-004** (APPROVED, vẫn C, `visual_only`, OWNER_APPROVAL, chưa AUTO) và **21 chi tiết AC01–AC21** (vẫn C, không thành dữ kiện lịch sử).
+- **Thêm DQ-005:** râu Lý Thường Kiệt giai đoạn S2 (1075–1077) = **đen pha bạc** (phương án B2), C, `visual_only`, phạm vi CHARACTER (`nhan_vat` + `giai_doan`). S1, S3, S4 và Tông Đản vẫn UNDECIDED. L04 và L11 (cảnh thấy mặt) thay khối `VN_TUONG_LY_THUONG_KIET` (cụm "grey beard" trong khối APPROVED, KHÔNG sửa) bằng câu râu đen pha bạc trong prompt (AC23, AC24).
+- **L33:** thêm 4 lính Tống được trao trả, không vũ khí (chủ kênh trả lời "Có"): 8 dân + 4 lính Tống + 2 lính Đại Việt = 14 người. Chi tiết AC22 CHƯA duyệt. Bible bổ sung có hàng riêng.
+- **Bản đồ:** chủ kênh duyệt danh sách 33 mục cần xác minh làm kế hoạch; mọi mục vẫn NEEDS_REVIEW, chưa nguồn, chưa tọa độ; 7 bản đồ vẫn bị chặn.
+- Bộ kiểm: phạm vi CHARACTER trong `dq_hop_le` và `kiem_registry`. Test 120/120. So sánh baseline: `baseline_kiem/so_sanh_sau_duyet_2026-11-01.txt`; SHA mới của quy-trinh-anh.md ở `baseline_kiem/sau_duyet_2026-11-01.json` (baseline b0/b1 giữ nguyên).
+- Không đổi: `master-style.md` v1.3, `period-ly-tong.md` v1.3, `khoi-prompt.json` v1.3, `bible_versions` lt1v4 (1.3). Planner vẫn PLAN_OWNER_REVIEW; danh sách ảnh tham chiếu được duyệt vẫn rỗng.
+
 ## 01/11/2026, triển khai kiến trúc 4 tầng (DRAFT, theo chủ kênh duyệt phương án; KHÔNG đổi tài liệu APPROVED)
 - Mới (DRAFT): `quyet-dinh.json` (Decision Registry 0.1: DQ-001 đến DQ-004 đều PROPOSED/C/OWNER_APPROVAL; nguyên tắc NT-01..06 do chủ kênh duyệt; trạng thái các quy tắc kiểm QK-*), `nhan-vat/ly-thuong-kiet.json`, `nhan-vat/tong-dan.json` (nhiều giai đoạn, râu UNDECIDED, ảnh tham chiếu đã duyệt: rỗng), `period-ly-tong-bo-sung.md` (phạm vi niên đại 1075–1077, 3 hàng quy ước hình ảnh C: dân thường Đại Việt, dân thường nhà Tống, lều vải quân Tống).
 - Bộ kiểm `kiem_scene_planner.py`: 26 quy tắc thêm sau ngày duyệt (voi, bản đồ, đoạn, giữ lâu, duyệt nghệ thuật) chuyển sang CẢNH BÁO (Cách B) cho tới khi duyệt mục 5 của `quy-trinh-anh.md`; thêm `kiem_registry`, kiểm phạm vi và AUTO, cổng `cong_san_xuat` (`--cong`). Retry, MANUAL_REVIEW, owner_unlock và quy tắc cũ không đổi.

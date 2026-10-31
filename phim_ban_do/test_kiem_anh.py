@@ -17,7 +17,7 @@ def chay(s):
     K.bad.clear(); K.warn.clear(); K.kiem_canh(s); return list(K.bad)
 kq = []
 def thu(ten, cho_loi, s=None, ky_vong=None, anh=None, w=False):
-    if w and anh is None and cho_loi is True:   # quy tắc mới chưa duyệt (Cách B): phải là CẢNH BÁO, không được chặn
+    if False and w and anh is None and cho_loi is True:   # (đã gỡ 01/11/2026: chủ kênh duyệt mục 5 nên 26 quy tắc mới chặn như quy tắc cũ; tham số w giữ để tương thích)
         K.bad.clear(); K.warn.clear(); K.kiem_canh(s)
         okw = any(ky_vong in l and 'quy tắc chưa duyệt' in l for l in K.warn) and not any(ky_vong in l for l in K.bad); kq.append(okw)
         print(('PASS ' if okw else 'FAIL ') + ten + ' [cảnh báo, không chặn]' + ('' if okw else f'  -> warn={K.warn[:2]} bad={K.bad[:2]}')); return
@@ -150,7 +150,7 @@ for x in nm:
     if x['scene_id'] == 'L32': x.pop('motion_plan')
 loi = doan(nm, real['segment_cuts']); ok = any('L32' in l and 'motion_plan' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '20 Ảnh giữ ~31 giây (L32) thiếu motion_plan bị chặn')
 la = copy.deepcopy(next(x for x in RS if x['scene_id'] == 'L04'))
-la['free_text_details'][0]['owner_approved'] = True
+la['free_text_details'][0]['owner_approved'] = True; la['free_text_details'][0].pop('approved_by', None); la['free_text_details'][0].pop('approved_date', None)
 thu('21a Duyệt chi tiết nghệ thuật thiếu approved_by/ngày', True, la, 'thiếu approved_by', w=True)
 la['free_text_details'][0].update(approved_by='chủ kênh', approved_date='2026-11-02')
 thu('21b Duyệt đủ thông tin vẫn giữ evidence_level C: hợp lệ', False, la)
@@ -169,7 +169,7 @@ K.QKS['QK-VOI'] = dict(id='QK-VOI', trang_thai='APPROVED', che_do='block')
 loi = chay(cau(EP, expected_people=2, expected_elephants=2, groups=eg(1), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[]))
 tinh('22a Sau khi QK-VOI APPROVED thì cùng lỗi voi chuyển thành ❌ chặn', any('tổng elephants' in l for l in loi), loi)
 K.QKS.clear(); K.QKS.update(old_q)
-tinh('22b Mọi quy tắc "kiểm thêm" (voi, bản đồ, đoạn, giữ lâu, duyệt nghệ thuật) đang PROPOSED (không chặn)', all(K.QKS[k]['trang_thai'] == 'PROPOSED' for k in ('QK-VOI', 'QK-BANDO', 'QK-DOAN', 'QK-GIULAU', 'QK-DUYET-NT')))
+tinh('22b Năm quy tắc "kiểm thêm" (voi, bản đồ, đoạn, giữ lâu, duyệt nghệ thuật) đã APPROVED bởi chủ kênh 01/11/2026 và chặn; QK-HOSO (không thuộc mục 5) vẫn PROPOSED', all(K.QKS[k]['trang_thai'] == 'APPROVED' and K.QKS[k]['che_do'] == 'block' and K.QKS[k].get('nguoi_duyet') and K.QKS[k].get('ngay_duyet') for k in ('QK-VOI', 'QK-BANDO', 'QK-DOAN', 'QK-GIULAU', 'QK-DUYET-NT')) and K.QKS['QK-HOSO']['trang_thai'] == 'PROPOSED')
 # cổng trước khi vẽ
 def gate(s): K.bad.clear(); K.warn.clear(); return K.cong_san_xuat(s)
 ap = lambda s: dict(s, plan_status='PLAN_APPROVED')
@@ -177,7 +177,7 @@ ok_, why = gate(ap(base)); tinh('23a Cổng cho phép cảnh sạch đã PLAN_AP
 ok_, why = gate(base); tinh('23b Cổng chặn cảnh chưa PLAN_APPROVED', not ok_ and any('chưa PLAN_APPROVED' in w for w in why))
 ok_, why = gate(ap(cau(P0, groups=[dict(name='lính', count=2, position='tiền cảnh', role='gác', horses=0, mounted=0)]))); tinh('23c Cổng chặn khi có lỗi quy tắc cũ đã APPROVED (số người)', not ok_ and any('lỗi quy tắc đã APPROVED' in w for w in why))
 ok_, why = gate(ap(base | dict(free_text_details=[dict(item='mái che', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=False)]))); tinh('23d Cổng chặn chi tiết nghệ thuật chưa duyệt', not ok_ and any('chưa được chủ kênh duyệt' in w for w in why))
-ok_, why = gate(ap(dict(ev(), groups=eg(1)))); tinh('23e Cổng chặn khi vi phạm quy tắc mới chưa duyệt (cảnh báo không phải giấy phép)', not ok_ and any('quy tắc chưa duyệt' in w for w in why))
+ok_, why = gate(ap(base | dict(thay_mat=True, ho_so_nhan_vat=[dict(ma='ly-thuong-kiet', giai_doan=['S1'])]))); tinh('23e Cổng chặn khi vi phạm quy tắc còn PROPOSED (QK-HOSO: râu S1 UNDECIDED, cảnh báo không phải giấy phép)', not ok_ and any('quy tắc chưa duyệt' in w for w in why))
 ok_, why = gate(ap(base | dict(free_text_details=[dict(item='bản vẽ', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=True, approved_by='a', approved_date='d', decision_mode='MUST_VERIFY')]))); tinh('23f Cổng chặn MUST_VERIFY chưa VERIFIED kèm nguồn', not ok_ and any('MUST_VERIFY' in w for w in why))
 ok_, why = gate(ap(base | dict(quyet_dinh_ap_dung=['DQ-001']))); tinh('23g Cổng chặn cảnh dùng quyết định mới PROPOSED', not ok_ and any('DQ-001' in w for w in why))
 rs = [x for x in RS if x.get('render') != 'vector_map']; res = [gate(x)[0] for x in rs + [x for x in RS if x.get('render') == 'vector_map']]
@@ -200,33 +200,53 @@ def kr(reg=None, prof=None, ar=None): K.bad.clear(); K.warn.clear(); K.kiem_regi
 PR = [json.load(open(f'{Q.R}/quy-tac/anh/nhan-vat/{n}.json', encoding='utf-8')) for n in ('ly-thuong-kiet', 'tong-dan')]
 tinh('26a Registry và 2 hồ sơ nhân vật thật: 0 lỗi', not kr(None, PR), kr(None, PR))
 mut = lambda **kw: dict(REGJ, quyet_dinh=[dict(REGJ['quyet_dinh'][0], **kw)] + REGJ['quyet_dinh'][1:])
-for ten, kw, want in [('26b Quyết định PROPOSED đặt AUTO bị chặn', dict(decision_mode='AUTO'), 'chưa APPROVED không được đặt AUTO'), ('26c Mục C bị đổi thành dữ kiện lịch sử', dict(la_du_kien_lich_su=True), 'la_du_kien_lich_su'),
+for ten, kw, want in [('26b Quyết định PROPOSED đặt AUTO bị chặn', dict(trang_thai='PROPOSED', decision_mode='AUTO'), 'chưa APPROVED không được đặt AUTO'), ('26c Mục C bị đổi thành dữ kiện lịch sử', dict(la_du_kien_lich_su=True), 'la_du_kien_lich_su'),
                       ('26d Mục C duyệt ngoài visual_only', dict(approval_scope='historical'), 'visual_only'), ('26e Mục C thiếu ghi chú "không phải dữ kiện lịch sử"', dict(ghi_chu_bat_buoc='ok'), 'KHÔNG phải dữ kiện'),
                       ('26f Quyết định PERIOD thiếu niên đại', dict(pham_vi=dict(cap='PERIOD', thoi_ky='Lý')), 'nien_dai'), ('26g Quyết định trỏ tới cảnh không tồn tại', dict(danh_sach_canh=['L99']), 'không tồn tại'),
                       ('26h APPROVED thiếu người duyệt', dict(trang_thai='APPROVED', nguoi_duyet=None), 'nguoi_duyet')]:
     loi = kr(mut(**kw)); tinh(ten, any(want in l for l in loi), loi)
-pm = json.loads(json.dumps(PR)); pm[0]['giai_doan'][1]['dac_diem']['rau'].update(gia_tri='bạc')
+pm = json.loads(json.dumps(PR)); pm[0]['giai_doan'][0]['dac_diem']['rau'].update(gia_tri='bạc')
 tinh('27a Màu râu UNDECIDED nhưng đã khóa giá trị bị chặn', any('UNDECIDED' in l for l in kr(None, pm)))
 pm = json.loads(json.dumps(PR)); pm[0]['anh_tham_chieu_da_duyet'] = ['CR-LTK-2']
 tinh('27b Hồ sơ nhân vật ghi ảnh tham chiếu chưa có trong danh sách duyệt bị chặn', any('tham-chieu-duoc-duyet' in l for l in kr(None, pm)))
 pm = json.loads(json.dumps(PR)); pm[0]['ung_vien_chua_duyet'][0]['duoc_dung_lam_tham_chieu'] = True
 tinh('27c Ứng viên chưa duyệt bị đánh dấu dùng làm tham chiếu bị chặn', any('chưa được duyệt' in l for l in kr(None, pm)))
-tinh('27d Râu Lý Thường Kiệt mọi giai đoạn: UNDECIDED, C, OWNER_APPROVAL, chưa khóa', all(g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' and g['dac_diem']['rau']['gia_tri'] is None and g['dac_diem']['rau']['evidence_level'] == 'C' and g['dac_diem']['rau']['decision_mode'] == 'OWNER_APPROVAL' for g in PR[0]['giai_doan']))
+tinh('27d Râu Lý Thường Kiệt: S2 đã APPROVED "đen pha bạc" (C, OWNER_APPROVAL, visual_only, không phải dữ kiện lịch sử, DQ-005); S1, S3, S4 vẫn UNDECIDED; Tông Đản UNDECIDED', all((g['dac_diem']['rau']['trang_thai'] == 'APPROVED' and g['dac_diem']['rau']['gia_tri'].startswith('đen pha bạc') and g['dac_diem']['rau']['quyet_dinh'] == 'DQ-005') if g['id'] == 'S2' else (g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' and g['dac_diem']['rau']['gia_tri'] is None) for g in PR[0]['giai_doan']) and all(g['dac_diem']['rau']['evidence_level'] == 'C' and g['dac_diem']['rau']['decision_mode'] == 'OWNER_APPROVAL' and g['dac_diem']['rau']['approval_scope'] == 'visual_only' and g['dac_diem']['rau']['la_du_kien_lich_su'] is False for p_ in PR for g in p_['giai_doan']) and all(g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' for g in PR[1]['giai_doan']))
 tinh('27e Danh sách ảnh tham chiếu được duyệt vẫn rỗng', Q.tham_chieu_duoc_duyet('lt1v4')['anh'] == [])
 # tài liệu APPROVED và phiên bản không đổi so với baseline b1
 BL = json.load(open(f'{Q.R}/phim_ban_do/baseline_kiem/baseline.json', encoding='utf-8'))['baseline']['b1']['sha256']
 for fn in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-tac/anh/khoi-prompt.json', 'quy-tac/anh/quy-trinh-anh.md'):
-    tinh(f'28 {fn.split("/")[-1]} giống hệt baseline (SHA-256)', _h.sha256(open(f'{Q.R}/{fn}', 'rb').read()).hexdigest() == BL[fn])
+    if fn.endswith('quy-trinh-anh.md'):   # chủ kênh duyệt mục 5 và nâng v1.3 (01/11/2026): SHA mới ghi ở sau_duyet_2026-11-01.json, baseline vẫn nguyên
+        SD = json.load(open(f'{Q.R}/phim_ban_do/baseline_kiem/sau_duyet_2026-11-01.json', encoding='utf-8'))['sha256']
+        h_ = _h.sha256(open(f'{Q.R}/{fn}', 'rb').read()).hexdigest()
+        tinh('28 quy-trinh-anh.md khớp SHA-256 sau khi chủ kênh duyệt mục 5 (v1.3), khác baseline b1', h_ == SD[fn] and h_ != BL[fn])
+    else: tinh(f'28 {fn.split("/")[-1]} giống hệt baseline (SHA-256)', _h.sha256(open(f'{Q.R}/{fn}', 'rb').read()).hexdigest() == BL[fn])
 tinh('29 bible_versions của lt1v4 vẫn 1.3 và planner chưa PLAN_APPROVED', real['bible_versions'] == dict(master='1.3', period='1.3', khoi_prompt='1.3') and real['plan_status'] == 'PLAN_OWNER_REVIEW' and not any(x['plan_status'] == 'PLAN_APPROVED' for x in RS))
 tinh('30 Không quyết định PROPOSED nào là AUTO', all(not (d['trang_thai'] == 'PROPOSED' and d['decision_mode'] == 'AUTO') for d in REGJ['quyet_dinh']))
-tinh('31 Bốn quyết định Registry: PROPOSED, C, OWNER_APPROVAL, visual_only', len(REGJ['quyet_dinh']) == 4 and all(d['trang_thai'] == 'PROPOSED' and d['evidence_level'] == 'C' and d['decision_mode'] == 'OWNER_APPROVAL' and d['approval_scope'] == 'visual_only' for d in REGJ['quyet_dinh']))
+tinh('31 Registry: DQ-001..004 APPROVED bởi chủ kênh 01/11/2026 (C, OWNER_APPROVAL, visual_only); DQ-005 râu CHARACTER APPROVED; chưa mục nào AUTO', {d['id'] for d in REGJ['quyet_dinh']} == {'DQ-001', 'DQ-002', 'DQ-003', 'DQ-004', 'DQ-005'} and all(d['trang_thai'] == 'APPROVED' and d['nguoi_duyet'] == 'chủ kênh' and d['ngay_duyet'] == '2026-11-01' and d['evidence_level'] == 'C' and d['decision_mode'] == 'OWNER_APPROVAL' and d['approval_scope'] == 'visual_only' and d['la_du_kien_lich_su'] is False for d in REGJ['quyet_dinh']))
 # --- liên kết hồ sơ nhân vật và quyết định râu chỉ khi thấy mặt
-S04 = next(x for x in RS if x['scene_id'] == 'L04'); S08 = next(x for x in RS if x['scene_id'] == 'L08')
-K.bad.clear(); K.warn.clear(); K.kiem_canh(S04)
-tinh('32a Cảnh thấy mặt Lý Thường Kiệt (L04) mà râu UNDECIDED: cảnh báo cần chủ kênh quyết', any('QK-HOSO' in l and 'UNDECIDED' in l for l in K.warn) and not any('QK-HOSO' in l for l in K.bad))
+S04 = next(x for x in RS if x['scene_id'] == 'L04'); S08 = next(x for x in RS if x['scene_id'] == 'L08'); S11 = next(x for x in RS if x['scene_id'] == 'L11')
+S1T = base | dict(thay_mat=True, ho_so_nhan_vat=[dict(ma='ly-thuong-kiet', giai_doan=['S1'])])
+K.bad.clear(); K.warn.clear(); K.kiem_canh(S1T)
+tinh('32a Cảnh thấy mặt Lý Thường Kiệt giai đoạn S1 mà râu UNDECIDED: cảnh báo cần chủ kênh quyết', any('QK-HOSO' in l and 'UNDECIDED' in l for l in K.warn) and not any('QK-HOSO' in l for l in K.bad))
+for sc_ in (S04, S11):
+    K.bad.clear(); K.warn.clear(); K.kiem_canh(sc_)
+    tinh(f'32a2 {sc_["scene_id"]} (S2, thấy mặt): râu đã quyết (DQ-005), không còn cảnh báo UNDECIDED; prompt có râu đen pha bạc, không còn "grey beard"', not any('UNDECIDED' in l for l in K.warn + K.bad) and 'black beard lightly streaked with grey' in sc_['image_prompt'] and 'grey beard' not in sc_['image_prompt'] and 'DQ-005' in sc_['quyet_dinh_ap_dung'])
 K.bad.clear(); K.warn.clear(); K.kiem_canh(S08)
 tinh('32b Cảnh nhìn từ phía sau (L08) không cần quyết định râu', not any('UNDECIDED' in l for l in K.warn))
 K.bad.clear(); K.warn.clear(); K.kiem_canh(dict(S08, ho_so_nhan_vat=[dict(ma='ly-thuong-kiet', giai_doan=['S9'])]))
 tinh('32c Giai đoạn không có trong hồ sơ bị đánh dấu', any('không có giai đoạn S9' in l for l in K.warn))
-ok_, why = gate(ap(S04)); tinh('32d Cổng vẫn chặn L04 khi râu chưa quyết (kể cả nếu giả sử PLAN_APPROVED)', not ok_ and any('UNDECIDED' in w for w in why))
+ok_, why = gate(ap(S1T)); tinh('32d Cổng chặn cảnh thấy mặt mà râu chưa quyết (kể cả nếu giả sử PLAN_APPROVED)', not ok_ and any('UNDECIDED' in w for w in why))
+# --- DQ-005 (phạm vi CHARACTER) và L33 (lính Tống được trao trả)
+d5 = next(d for d in REGJ['quyet_dinh'] if d['id'] == 'DQ-005')
+tinh('33a DQ-005 áp dụng cho cảnh khai Lý Thường Kiệt S2 (L11)', K.dq_hop_le(d5, S11)[0])
+tinh('33b DQ-005 không áp dụng cho cảnh khai giai đoạn S1 hoặc không khai hồ sơ → ngoài phạm vi', not K.dq_hop_le(d5, S1T)[0] and not K.dq_hop_le(d5, base)[0])
+tinh('33c Registry thiếu nhan_vat/giai_doan trong phạm vi CHARACTER bị chặn', any('CHARACTER' in l for l in kr(dict(REGJ, quyet_dinh=[dict(d5, pham_vi=dict(cap='CHARACTER'))] + [d for d in REGJ['quyet_dinh'] if d['id'] != 'DQ-005']))))
+S33 = next(x for x in RS if x['scene_id'] == 'L33')
+tinh('33d L33 có đúng 8 dân + 4 lính Tống không vũ khí + 2 lính Đại Việt = 14 người; prompt khớp', S33['expected_people'] == 14 and [g['count'] for g in S33['groups']] == [8, 4, 2] and 'four unarmed Song soldiers' in S33['image_prompt'] and 'carry nothing' in S33['image_prompt'])
+a22 = next(f for f in S33['free_text_details'] if f['id'] == 'AC22'); a20 = next(f for f in S33['free_text_details'] if f['id'] == 'AC20')
+tinh('33e AC22 (lính Tống được trao trả) CHƯA duyệt, còn AC20 (dân) đã duyệt; cả hai C, visual_only', a22['owner_approved'] is False and a20['owner_approved'] is True and a22['evidence_level'] == a20['evidence_level'] == 'C' and a22['approval_scope'] == 'visual_only')
+tinh('33f 21 chi tiết AC01..AC21 + AC23, AC24 đã duyệt bởi chủ kênh 01/11/2026 và vẫn là C; chỉ AC22 chưa duyệt', {f['id'] for x in RS for f in x.get('free_text_details', []) if f['owner_approved']} == {f'AC{i:02d}' for i in range(1, 22)} | {'AC23', 'AC24'} and all(f['evidence_level'] == 'C' and f['approval_scope'] == 'visual_only' and f['la_du_kien_lich_su'] is False for x in RS for f in x.get('free_text_details', [])))
+BD = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))
+tinh('33g Chủ kênh duyệt danh sách 33 mục bản đồ nhưng chưa xác minh: không mục nào VERIFIED, không tọa độ, không được vẽ', len(BD['items']) == 33 and BD['chu_kenh_duyet_danh_sach']['trang_thai'] == 'APPROVED' and all(x['trang_thai'] == 'NEEDS_REVIEW' and x['toa_do'] is None and x['duoc_ve'] is False for x in BD['items']))
 print(f'\nTổng: {sum(kq)}/{len(kq)} phép kiểm đạt'); sys.exit(0 if all(kq) else 1)

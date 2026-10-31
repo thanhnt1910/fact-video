@@ -32,6 +32,31 @@
    "evidence_level_after_approval": "C"
   },
   {
+   "id": "AC23",
+   "scene_id": "L04",
+   "segment_ids": [
+    4,
+    5,
+    60
+   ],
+   "item": "râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm \"grey beard\" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "màu râu không có tư liệu; chủ kênh chọn B2 (DQ-005)",
+   "approval_scope": "visual_only",
+   "noi_luu_de_xuat": "registry",
+   "noi_luu_chi_tiet": "DQ-005",
+   "decision_mode": "OWNER_APPROVAL",
+   "quyet_dinh": "DQ-005",
+   "tinh_chat": "quy_uoc_hinh_anh",
+   "la_du_kien_lich_su": false,
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
    "id": "AC02",
    "scene_id": "L05",
    "segment_ids": [
@@ -165,6 +190,31 @@
    "noi_luu_chi_tiet": "DQ-001",
    "decision_mode": "OWNER_APPROVAL",
    "quyet_dinh": "DQ-001",
+   "tinh_chat": "quy_uoc_hinh_anh",
+   "la_du_kien_lich_su": false,
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC24",
+   "scene_id": "L11",
+   "segment_ids": [
+    13,
+    50,
+    51
+   ],
+   "item": "râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm \"grey beard\" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "màu râu không có tư liệu; chủ kênh chọn B2 (DQ-005)",
+   "approval_scope": "visual_only",
+   "noi_luu_de_xuat": "registry",
+   "noi_luu_chi_tiet": "DQ-005",
+   "decision_mode": "OWNER_APPROVAL",
+   "quyet_dinh": "DQ-005",
    "tinh_chat": "quy_uoc_hinh_anh",
    "la_du_kien_lich_su": false,
    "owner_decision": "PENDING",
@@ -464,13 +514,36 @@
    "segment_ids": [
     58
    ],
-   "item": "dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn (cảnh chỉ vẽ dân; không có binh lính Tống)",
+   "item": "dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn",
    "tag": "artistic_choice",
    "evidence_level": "C",
    "reason": "trang phục không có trong Bible",
    "approval_scope": "visual_only",
    "noi_luu_de_xuat": "period_bible",
    "noi_luu_chi_tiet": "dân thường nhà Tống",
+   "decision_mode": "OWNER_APPROVAL",
+   "quyet_dinh": null,
+   "tinh_chat": "quy_uoc_hinh_anh",
+   "la_du_kien_lich_su": false,
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC22",
+   "scene_id": "L33",
+   "segment_ids": [
+    58
+   ],
+   "item": "binh lính nhà Tống được trao trả: áo thô, mũ nỉ vành rộng, tay không (chủ kênh đồng ý vẽ binh lính; tạo hình tù binh/quân phục chưa có căn cứ)",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "tạo hình binh lính được trao trả không có trong Bible; đoạn 58 chỉ nói \"dân và binh lính\"",
+   "approval_scope": "visual_only",
+   "noi_luu_de_xuat": "period_bible",
+   "noi_luu_chi_tiet": "binh lính nhà Tống được trao trả",
    "decision_mode": "OWNER_APPROVAL",
    "quyet_dinh": null,
    "tinh_chat": "quy_uoc_hinh_anh",

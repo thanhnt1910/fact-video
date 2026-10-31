@@ -33,6 +33,9 @@ def dq_hop_le(d, s):
     pv = d.get('pham_vi', {})
     if any(CUR.get(k) != v for k, v in d.get('phien_ban_ap_dung', {}).items()): return False, f'{d["id"]} áp dụng cho phiên bản Bible khác hiện hành', 'OWNER_APPROVAL'
     if pv.get('cap') == 'GLOBAL': return True, '', None
+    if pv.get('cap') == 'CHARACTER':
+        okc = any(h.get('ma') == pv.get('nhan_vat') and set(h.get('giai_doan', [])) <= set(pv.get('giai_doan', [])) and h.get('giai_doan') for h in s.get('ho_so_nhan_vat', []))
+        return (True, '', None) if okc else (False, f'{d["id"]} chỉ áp dụng {pv.get("nhan_vat")} giai đoạn {pv.get("giai_doan")}; cảnh không khai hồ sơ/giai đoạn này: ngoài phạm vi', d.get('xu_ly_ngoai_pham_vi', 'OWNER_APPROVAL'))
     nd, sd = pv.get('nien_dai'), s.get('nien_dai_canh')
     if not sd or sd[0] is None or sd[1] is None or not nd or sd[0] < nd[0] or sd[1] > nd[1]:
         return False, f'{d["id"]} chỉ áp dụng {pv.get("thoi_ky")} {nd}; cảnh có niên đại {sd}: ngoài phạm vi', d.get('xu_ly_ngoai_pham_vi', 'OWNER_APPROVAL')
@@ -278,6 +281,7 @@ def kiem_registry(reg=None, planner=None, profiles=None, approved_refs=None):
         pv = d.get('pham_vi') or {}
         if pv.get('cap') not in ('GLOBAL', 'PERIOD', 'CHARACTER', 'PROJECT'): Bk(i, 'pham_vi.cap không hợp lệ')
         if pv.get('cap') == 'PERIOD' and not (pv.get('thoi_ky') and pv.get('nien_dai')): Bk(i, 'phạm vi PERIOD phải có thoi_ky và nien_dai')
+        if pv.get('cap') == 'CHARACTER' and not (pv.get('nhan_vat') and pv.get('giai_doan')): Bk(i, 'phạm vi CHARACTER phải có nhan_vat và giai_doan')
         if d.get('xu_ly_ngoai_pham_vi') not in ('OWNER_APPROVAL', 'MUST_VERIFY', 'GLOBAL'): Bk(i, 'xu_ly_ngoai_pham_vi không hợp lệ')
         for sid in d.get('danh_sach_canh', []):
             if scenes and sid not in scenes: Bk(i, f'danh_sach_canh có cảnh {sid} không tồn tại trong planner')

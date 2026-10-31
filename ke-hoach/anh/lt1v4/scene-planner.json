@@ -355,20 +355,11 @@
    "lighting": "ánh sáng ấm yếu từ đèn dầu",
    "scenery": "",
    "blocks_used": [
-    "VN_TUONG_LY_THUONG_KIET",
     "VN_TUONG",
     "DEN",
     "NHA_DAN"
    ],
    "detail_tags": [
-    {
-     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
-     "block": "VN_TUONG_LY_THUONG_KIET",
-     "tag": "artistic_choice",
-     "evidence_level": "C",
-     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
-     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
-    },
     {
      "item": "tướng và sĩ quan Đại Việt",
      "block": "VN_TUONG",
@@ -400,7 +391,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "đạo cụ không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC01",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -408,13 +399,32 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-001"
+     "quyet_dinh": "DQ-001",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
+    },
+    {
+     "item": "râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm \"grey beard\" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "màu râu không có tư liệu; chủ kênh chọn B2 (DQ-005)",
+     "owner_approved": true,
+     "id": "AC23",
+     "quyet_dinh": "DQ-005",
+     "approval_scope": "visual_only",
+     "noi_luu_de_xuat": "registry",
+     "noi_luu_chi_tiet": "DQ-005",
+     "decision_mode": "OWNER_APPROVAL",
+     "tinh_chat": "quy_uoc_hinh_anh",
+     "la_du_kien_lich_su": false,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
-   "image_prompt": "Medium shot from behind and slightly from the side: one general stands at a table looking down at an unrolled map with no writing on it, his face partly turned away, a plain timber hall around him. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
-   "prompt_sha256": "bfd00049e3ebbf3b17258dc3883c83cd0ae805fd56f8388ac11440553b1fe0a4",
+   "image_prompt": "Medium shot from behind and slightly from the side: one general stands at a table looking down at an unrolled map with no writing on it, his face partly turned away, a plain timber hall around him. an elderly Vietnamese general with a black beard lightly streaked with grey. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "6cea0e9dd3aefd80c97252b6c540495617992836a674f284760c07311d4b10b8",
    "prompt_version": "p1",
-   "prompt_chars": 898,
+   "prompt_chars": 926,
    "bible_versions": {
     "master": "1.3",
     "period": "1.3",
@@ -433,7 +443,8 @@
     null
    ],
    "quyet_dinh_ap_dung": [
-    "DQ-001"
+    "DQ-001",
+    "DQ-005"
    ],
    "ho_so_nhan_vat": [
     {
@@ -497,7 +508,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "trang phục người hầu không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC02",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -505,7 +516,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide establishing shot of a palace courtyard in Thăng Long, three small attendants walk across the courtyard near the bottom of the frame. timber palace building with tiled roof and bracket system. Open paved courtyard, soft morning haze. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -624,7 +637,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "trang phục dân không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC03",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -632,14 +645,16 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     },
     {
      "item": "quan ở độ tuổi trung niên",
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "Bible chỉ mô tả Lý Thường Kiệt lớn tuổi, râu bạc",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC04",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "character_profile",
@@ -647,7 +662,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot: one Vietnamese official walks along a dirt road beside rice fields, followed by three attendants; four villagers work in the field on the right side. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. some barefoot, some in simple straw sandals. Rice fields, a village in the distance. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -960,7 +977,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "đạo cụ triều đình Tống không có trong Bible; không vẽ Vương An Thạch vì chưa có tạo hình quan văn Tống",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC05",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "project",
@@ -968,7 +985,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Close view of a dark wooden desk with paper scrolls, an ink stone and a brush, soft window light, no people. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -1062,7 +1081,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "chưa có tư liệu kiểu thuyền Tống ở Quế Châu",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC06",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -1070,7 +1089,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-002"
+     "quyet_dinh": "DQ-002",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot of a riverside yard: eight Song soldiers carry timber planks toward two unfinished wooden boat hulls resting on wooden supports; four soldiers in the foreground, four near the hulls. Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears. River bank, muddy ground. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -1144,20 +1165,11 @@
    "lighting": "ánh sáng ấm từ đèn dầu",
    "scenery": "",
    "blocks_used": [
-    "VN_TUONG_LY_THUONG_KIET",
     "VN_TUONG",
     "DEN",
     "NHA_DAN"
    ],
    "detail_tags": [
-    {
-     "item": "Lý Thường Kiệt (người lớn tuổi, râu bạc)",
-     "block": "VN_TUONG_LY_THUONG_KIET",
-     "tag": "artistic_choice",
-     "evidence_level": "C",
-     "who": "Lý Thường Kiệt (tạo hình nghệ thuật)",
-     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
-    },
     {
      "item": "tướng và sĩ quan Đại Việt",
      "block": "VN_TUONG",
@@ -1189,7 +1201,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "đạo cụ không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC07",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -1197,13 +1209,32 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-001"
+     "quyet_dinh": "DQ-001",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
+    },
+    {
+     "item": "râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm \"grey beard\" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "màu râu không có tư liệu; chủ kênh chọn B2 (DQ-005)",
+     "owner_approved": true,
+     "id": "AC24",
+     "quyet_dinh": "DQ-005",
+     "approval_scope": "visual_only",
+     "noi_luu_de_xuat": "registry",
+     "noi_luu_chi_tiet": "DQ-005",
+     "decision_mode": "OWNER_APPROVAL",
+     "tinh_chat": "quy_uoc_hinh_anh",
+     "la_du_kien_lich_su": false,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
-   "image_prompt": "Medium shot, three-quarter view: four men stand around a low wooden table with an unrolled map with no writing on it, one elderly general at the far end and three officers, one on each side and one at the near end, all looking at the map. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
-   "prompt_sha256": "b4f327361c56b50b9b28031abc0d99dd3cbbc06129830a9c91b1b2c907265da2",
+   "image_prompt": "Medium shot, three-quarter view: four men stand around a low wooden table with an unrolled map with no writing on it, one elderly general at the far end and three officers, one on each side and one at the near end, all looking at the map. The general at the far end is an elderly man with a black beard lightly streaked with grey. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "479fc0b5908f20e8c9354c7f0fb9ade9d90e21e8edaa902af5daf9b2941f6f3e",
    "prompt_version": "p1",
-   "prompt_chars": 939,
+   "prompt_chars": 982,
    "bible_versions": {
     "master": "1.3",
     "period": "1.3",
@@ -1222,7 +1253,8 @@
     1077
    ],
    "quyet_dinh_ap_dung": [
-    "DQ-001"
+    "DQ-001",
+    "DQ-005"
    ],
    "ho_so_nhan_vat": [
     {
@@ -1361,7 +1393,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "không có tư liệu về diện mạo Tông Đản",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC08",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "character_profile",
@@ -1369,7 +1401,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Medium wide shot from behind: two Vietnamese generals stand side by side in the foreground, the left one elderly with a grey beard and the right one younger, facing twelve Vietnamese soldiers standing in two neat rows of six in a courtyard. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. bare heads with black hair tied in a topknot. barefoot. wooden spears with iron tips. Packed earth courtyard, soft morning light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -1456,7 +1490,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "trang phục dân Tống không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC09",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -1464,7 +1498,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot of a rice field at harvest: six Song farmers cut and bundle ripe golden rice, three in the foreground and three further back, clearly spaced apart. Open fields and low hills. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -1597,7 +1633,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "chưa có tư liệu kiểu thuyền chiến nhà Lý",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC10",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -1605,7 +1641,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-002"
+     "quyet_dinh": "DQ-002",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot of a sandy coast: two wooden boats are pulled onto the shore, eight Vietnamese soldiers wade out of them onto the beach, four near each boat. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. barefoot. wooden spears with iron tips. Sandy beach, shallow surf, grey sea. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -2164,7 +2202,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "không có tư liệu về bố cục bên trong thành Ung Châu",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC11",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "project",
@@ -2172,7 +2210,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Quiet empty stone courtyard inside the walls of a Song city, the tall grey stone wall rising behind, wooden doors half open, no people. a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -2364,7 +2404,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "trang phục dân Tống không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC12",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -2372,7 +2412,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot: on a road leading away from a Song city, six Song civilians walk in a line in the middle, four Vietnamese soldiers walk ahead of them and four behind, all heading the same direction away from the wall. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a mix of bare heads and plain cloth headwraps. some barefoot, some in simple straw sandals. wooden spears with iron tips. Dirt road across fields, the city wall small behind. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -2841,7 +2883,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "kịch bản chỉ nói \"phòng tuyến kiên cố\"; kiểu lũy chưa có tư liệu đã kiểm",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC13",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -2849,7 +2891,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-003"
+     "quyet_dinh": "DQ-003",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot across a river: along the near south bank runs a long defensive line, an earth rampart with wooden stakes, with ten Vietnamese soldiers standing spaced along it facing the far bank. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a few of the soldiers wear plain iron-and-leather armor over the cloth tunic. a mix of bare heads and plain cloth headwraps. some barefoot, some in simple straw sandals. wooden spears with iron tips. Wide river, flat banks, early light. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -2976,7 +3020,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "như cảnh L25",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC14",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -2984,7 +3028,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-003"
+     "quyet_dinh": "DQ-003",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot from behind: five Song soldiers stand on the north bank in the foreground looking across a wide river, and on the far south bank a long earth rampart with wooden stakes and eight small Vietnamese soldiers behind it. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. some barefoot, some in simple straw sandals. wooden spears with iron tips. Wide river, flat banks. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3110,7 +3156,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "như cảnh L25",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC15",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -3118,7 +3164,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-003"
+     "quyet_dinh": "DQ-003",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot: eight Song soldiers wade into a shallow river carrying round shields toward the far bank, spread across the frame; on the far bank eight Vietnamese soldiers stand behind an earth rampart with wooden stakes, spears held upright. Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. simple straw sandals. wooden spears with iron tips. Shallow river, flat banks. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3226,7 +3274,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "kiến trúc đền thờ Trương Hống, Trương Hát chưa có tư liệu hình dạng",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC16",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "project",
@@ -3234,7 +3282,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot at night under a pale moon, mist over the river: a small wooden riverside shrine with a grey tiled roof stands on the right, lit by a clay oil lamp inside; five Vietnamese soldiers stand quietly in a loose group in front of it, looking toward the shrine. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. barefoot. wooden spears with iron tips. Wide river at night, mist, bamboo and hills in the distance. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3296,7 +3346,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "không có tư liệu hình dạng đền",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC17",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "project",
@@ -3304,7 +3354,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Close view of the wooden doorway of a small riverside shrine at night, soft light from a clay oil lamp, mist behind, no people. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3387,7 +3439,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "không có tư liệu",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC18",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -3395,7 +3447,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot of a damp riverside camp in humid mist: eight Song soldiers sit on the ground in two groups of four near simple cloth shelters, heads bowed, spears laid on the ground beside them. Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears. Wet ground, humid mist, river in the distance. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3604,7 +3658,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "chưa có khối voi trong khoi-prompt.json; không thêm ngà vì chưa có căn cứ",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC19",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -3612,7 +3666,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-004"
+     "quyet_dinh": "DQ-004",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot from the side: one Vietnamese envoy walks at the front of a procession along a dirt road, followed by EXACTLY five elephants in single file. Each elephant is led by one attendant on foot at its head: five attendants and five elephants in total, one attendant per elephant. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. a plain cloth headwrap. barefoot. Dirt road across open land. Each elephant has one head, one trunk and four legs, clearly separated from the others. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3673,20 +3729,30 @@
     58
    ],
    "scene_type": "small_group",
-   "expected_people": 12,
+   "expected_people": 14,
    "expected_horses": 0,
    "expected_elephants": 0,
    "main_characters": [
-    "người dân và binh lính được trao trả"
+    "dân và binh lính nhà Tống được trao trả"
    ],
-   "positions": "hai hàng dân đi về phía bắc, hai lính Đại Việt đi cuối",
+   "positions": "hai hàng dân đi trước, một hàng bốn lính Tống theo sau, hai lính Đại Việt đi cuối, tất cả đi về phía bắc",
    "groups": [
     {
      "name": "người dân Tống được trả về",
-     "count": 10,
-     "position": "giữa đường, hai hàng năm người",
+     "count": 8,
+     "position": "giữa đường, hai hàng bốn người",
      "role": "đi về phía bắc",
      "faction": "dan",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    },
+    {
+     "name": "lính Tống được trả về (không vũ khí)",
+     "count": 4,
+     "position": "sau hàng dân, một hàng dọc",
+     "role": "đi về phía bắc",
+     "faction": "song",
      "horses": 0,
      "mounted": 0,
      "elephants": 0
@@ -3704,7 +3770,7 @@
    ],
    "composition": {
     "fore": "hàng dân",
-    "mid": "đường đất",
+    "mid": "hàng lính Tống, đường đất",
     "back": "đồng bằng"
    },
    "camera": "wide shot",
@@ -3752,11 +3818,11 @@
    ],
    "free_text_details": [
     {
-     "item": "dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn (cảnh chỉ vẽ dân; không có binh lính Tống)",
+     "item": "dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn",
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "trang phục không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC20",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -3764,13 +3830,30 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
+    },
+    {
+     "item": "binh lính nhà Tống được trao trả: áo thô, mũ nỉ vành rộng, tay không (chủ kênh đồng ý vẽ binh lính; tạo hình tù binh/quân phục chưa có căn cứ)",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "tạo hình binh lính được trao trả không có trong Bible; đoạn 58 chỉ nói \"dân và binh lính\"",
+     "owner_approved": false,
+     "id": "AC22",
+     "approval_scope": "visual_only",
+     "noi_luu_de_xuat": "period_bible",
+     "noi_luu_chi_tiet": "binh lính nhà Tống được trao trả",
+     "decision_mode": "OWNER_APPROVAL",
+     "tinh_chat": "quy_uoc_hinh_anh",
+     "la_du_kien_lich_su": false,
      "quyet_dinh": null
     }
    ],
-   "image_prompt": "Wide shot: ten Song civilians walk north in two loose lines of five along a dirt road, accompanied by two Vietnamese soldiers walking at the rear. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. some barefoot, some in simple straw sandals. wooden spears with iron tips. Dirt road across open land. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
-   "prompt_sha256": "5ea0629ef576bef64fb1d0356c0f7b1661213a0753be7008c7a8fa8575522a80",
+   "image_prompt": "Wide shot: eight Song civilians walk north in two loose lines of four along a dirt road, followed by four unarmed Song soldiers in a single line, accompanied by two Vietnamese soldiers walking at the rear. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. some barefoot, some in simple straw sandals. wooden spears with iron tips. Dirt road across open land. The four Song soldiers wear coarse plain tunics and wide-brimmed felt hats and carry nothing in their hands. Only the two Vietnamese soldiers carry the spears. Everyone walks in the same direction, north. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "f5595013f151788a58035f70e2905d86d3b1bda9e6d05bc310d373304e85d4f7",
    "prompt_version": "p1",
-   "prompt_chars": 719,
+   "prompt_chars": 983,
    "bible_versions": {
     "master": "1.3",
     "period": "1.3",
@@ -4000,7 +4083,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "đạo cụ không có trong Bible",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC21",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "registry",
@@ -4008,7 +4091,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": "DQ-001"
+     "quyet_dinh": "DQ-001",
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Medium shot of an empty plain timber hall at dawn: a low wooden table with a rolled map with no writing on it and a clay oil lamp burning, nobody in the hall. a clay oil lamp on a low wooden table, nothing hanging from the ceiling. plain timber house with grey tiled or thatched roof, woven mat floor. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",

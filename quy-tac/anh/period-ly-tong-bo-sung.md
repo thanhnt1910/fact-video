@@ -1,6 +1,6 @@
 # PERIOD BIBLE BỔ SUNG – Đại Việt nhà Lý và nhà Tống (0.1-DRAFT, 01/11/2026)
 
-**Trạng thái: DRAFT, chờ chủ kênh duyệt.** File này KHÔNG sửa `period-ly-tong.md` (v1.3 APPROVED). Chỉ sau khi chủ kênh duyệt mới gộp thành phiên bản mới của Bible, giữ lịch sử phiên bản.
+**Trạng thái: DRAFT, chờ chủ kênh duyệt (chủ kênh đã duyệt dân thường nhà Tống/AC20 và các chi tiết AC01–AC21 ngày 01/11/2026 ở mức kế hoạch cảnh; việc gộp thành phiên bản mới của Bible chưa làm).** File này KHÔNG sửa `period-ly-tong.md` (v1.3 APPROVED). Chỉ sau khi chủ kênh duyệt mới gộp thành phiên bản mới của Bible, giữ lịch sử phiên bản.
 
 ## A. Phạm vi niên đại của Bible hiện tại (v1.3)
 - Phạm vi áp dụng đã xác định: **1075–1077** (chiến tranh Lý–Tống), phe Đại Việt nhà Lý và Bắc Tống (Quảng Tây).
@@ -27,11 +27,17 @@ Ghi chú bắt buộc cho mọi hàng dưới đây: **"Quy ước hình ảnh �
 
 Hạn chế: không thêm chi tiết nào ngoài bảng; hàng chưa duyệt không được AUTO.
 
-### Về hàng "dân thường nhà Tống" và cảnh L33 (đối chiếu theo yêu cầu chủ kênh)
-- Kịch bản đoạn 58 nói trao trả **"dân và binh lính"** bị bắt ở Ung, Khâm, Liêm.
-- Cảnh L33 hiện chỉ vẽ **10 người dân Tống** và **2 lính Đại Việt đi hộ tống** (lính Đại Việt dùng các khối Đại Việt đã có). **Không có binh lính Tống trong cảnh L33.**
-- Vì cảnh chỉ có dân thường Tống nên AC20 gộp vào hàng "Dân thường nhà Tống". Nhãn của AC20 trong kế hoạch được sửa cho đúng ("dân Tống được trao trả").
-- Câu hỏi mở cho chủ kênh: có muốn thể hiện cả binh lính Tống được trao trả không? Nếu có, phải thêm hàng riêng **"Binh lính nhà Tống được trao trả"** (C, OWNER_APPROVAL, chi tiết tù binh/quân phục chưa có căn cứ) và sửa Scene Planner; hiện KHÔNG tạo hàng này vì chưa có cảnh dùng.
+### Hàng "Binh lính nhà Tống được trao trả" và cảnh L33 (chủ kênh trả lời "Có" ngày 01/11/2026)
+- Kịch bản đoạn 58 nói trao trả **"dân và binh lính"** bị bắt ở Ung, Khâm, Liêm. Chủ kênh đồng ý thể hiện cả binh lính, nên L33 đã sửa: **8 dân Tống + 4 lính Tống được trao trả + 2 lính Đại Việt hộ tống = 14 người** (số người do Scene Planner quyết, không đổi nội dung kịch bản).
+- Tách thành hai hàng riêng, đều mức C, `visual_only`, `la_du_kien_lich_su = false`:
+
+| Hàng | Hướng thể hiện | evidence_level | Phạm vi | Trạng thái | decision_mode | Chi tiết gốc |
+|---|---|---|---|---|---|---|
+| **Dân thường nhà Tống** (đã nêu ở mục C) | Áo thô, đầu trần hoặc khăn quấn | C | 1075–1077 | AC20 đã được chủ kênh duyệt 01/11/2026 (nhãn bỏ chú thích "không có binh lính") | OWNER_APPROVAL | AC20 |
+| **Binh lính nhà Tống được trao trả** | Áo thô, mũ nỉ vành rộng, tay không (không giáp, không vũ khí, không cờ); không thể hiện tù binh bằng xiềng hay trói | C `artistic_choice` | Bắc Tống, 1075–1077 | **CHƯA duyệt**: AC22 `owner_approved = false`; chủ kênh mới đồng ý vẽ binh lính, chưa duyệt tạo hình | OWNER_APPROVAL | AC22 (L33) |
+
+- Cảnh báo bằng chứng: tình trạng, trang phục và cách giải giao binh lính được trao trả KHÔNG có căn cứ trong Bible; chỉ là quy ước hình ảnh. Mũ nỉ vành rộng lấy từ khối `SONG_BO_BINH_NHE` (B) nhưng bỏ giáo và giáp vì cảnh trả về; việc bỏ này là lựa chọn C.
+- Cổng trước khi vẽ vẫn chặn L33 cho tới khi AC22 được duyệt.
 
 ## D. Cách xử lý khi dự án nằm ngoài phạm vi
 | Tình huống | Chế độ |

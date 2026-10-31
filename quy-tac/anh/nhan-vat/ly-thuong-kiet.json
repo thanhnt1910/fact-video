@@ -99,13 +99,17 @@
    },
    "dac_diem": {
     "rau": {
-     "gia_tri": null,
+     "gia_tri": "đen pha bạc (râu đen có điểm bạc)",
      "evidence_level": "C",
      "decision_mode": "OWNER_APPROVAL",
-     "trang_thai": "UNDECIDED",
+     "trang_thai": "APPROVED",
      "approval_scope": "visual_only",
      "la_du_kien_lich_su": false,
-     "ung_vien": []
+     "ung_vien": [],
+     "nguoi_duyet": "chủ kênh",
+     "ngay_duyet": "2026-11-01",
+     "quyet_dinh": "DQ-005",
+     "ghi_chu": "Lựa chọn nghệ thuật C, visual_only. KHÔNG phải dữ kiện lịch sử. Chỉ giai đoạn S2."
     },
     "toc": {
      "gia_tri": null,

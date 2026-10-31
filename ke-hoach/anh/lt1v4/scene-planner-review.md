@@ -7,7 +7,7 @@ Bible: master 1.3, period 1.3, khoi-prompt 1.3. 42 cảnh = 35 ảnh FLUX + 7 b�
 | L01 | [1, 26] | fortress | 6/0/0 | thành Ung Châu | lính Tống trên đầu tường ×6 (trung cảnh, rải đều trên đầu tường) | Low | - |
 | L02 | [2, 27] | portrait | 3/0/0 | Tô Giám (không có chân dung; tạo hình nghệ thuật) | sĩ quan Tống (tri châu Tô Giám, tạo hình nghệ thuật) ×1 (tiền cảnh trái, nhìn từ phía sau); lính Tống ×2 (trung cảnh, sau sĩ quan vài bước) | Low | - |
 | L03 | [3, 66] | army | 16/0/0 | đoàn quân Đại Việt | lính Đại Việt tiền cảnh ×3 (tiền cảnh); lính Đại Việt trung cảnh ×7 (trung cảnh); lính Đại Việt hậu cảnh ×6 (hậu cảnh, nhỏ) | Medium | - |
-| L04 | [4, 5, 60] | command_room | 1/0/0 | Lý Thường Kiệt | Lý Thường Kiệt (tạo hình nghệ thuật) ×1 (giữa khung, nhìn từ phía sau và hơi nghiêng) | Medium | AC01 |
+| L04 | [4, 5, 60] | command_room | 1/0/0 | Lý Thường Kiệt | Lý Thường Kiệt (tạo hình nghệ thuật) ×1 (giữa khung, nhìn từ phía sau và hơi nghiêng) | Medium | AC01, AC23 |
 | L05 | [6] | architecture | 3/0/0 | kinh thành Thăng Long | người hầu trong cung ×3 (tiền cảnh dưới, nhỏ) | Low | AC02 |
 | L06 | [7] | small_group | 8/0/0 | Lý Thường Kiệt thời trung niên (chưa có Character Reference) | quan Đại Việt (Lý Thường Kiệt thời trẻ hơn, tạo hình nghệ thuật) ×1 (giữa đường); tùy tùng ×3 (sau quan); dân làng ×4 (bên phải, làm ruộng) | Low | AC03, AC04 |
 | L07 | [8, 63] | army | 12/0/0 | đạo quân tiên phong | lính Đại Việt tiên phong tiền cảnh ×4 (tiền cảnh); lính Đại Việt phía sau ×8 (trung cảnh) | Medium | - |
@@ -15,7 +15,7 @@ Bible: master 1.3, period 1.3, khoi-prompt 1.3. 42 cảnh = 35 ảnh FLUX + 7 b�
 | L09 | [10] | object_detail | 0/0/0 | không có người | (không có người) ×0 (-) | Low | AC05 |
 | M1 | [11] | bản đồ SVG | - | - | 4 mục địa lý NEEDS_REVIEW (xem ban-do-can-xac-minh.md) | - | - |
 | L10 | [12, 22, 23] | small_group | 8/0/0 | xưởng đóng thuyền của quân Tống | lính Tống ở xưởng thuyền ×8 (tiền cảnh 4, gần thân thuyền 4) | Medium | AC06 |
-| L11 | [13, 50, 51] | command_room | 4/0/0 | Lý Thường Kiệt | Lý Thường Kiệt (tạo hình nghệ thuật) ×1 (đầu bàn phía xa, ba phần tư); sĩ quan Đại Việt ×3 (hai bên và đầu bàn gần) | Medium | AC07 |
+| L11 | [13, 50, 51] | command_room | 4/0/0 | Lý Thường Kiệt | Lý Thường Kiệt (tạo hình nghệ thuật) ×1 (đầu bàn phía xa, ba phần tư); sĩ quan Đại Việt ×3 (hai bên và đầu bàn gần) | Medium | AC07, AC24 |
 | L12 | [14] | army | 14/0/0 | Lý Thường Kiệt, Tông Đản | tướng Đại Việt (Lý Thường Kiệt) ×1 (tiền cảnh trái, từ phía sau); tướng Đại Việt (Tông Đản, tạo hình nghệ thuật) ×1 (tiền cảnh phải, từ phía sau); lính Đại Việt ×12 (trung cảnh, hai hàng sáu người) | Medium | AC08 |
 | L13 | [15, 16] | small_group | 6/0/0 | nông dân nhà Tống | nông dân Tống ×3 (tiền cảnh); nông dân Tống ×3 (trung cảnh) | Low | AC09 |
 | M2 | [19] | bản đồ SVG | - | - | 7 mục địa lý NEEDS_REVIEW (xem ban-do-can-xac-minh.md) | - | - |
@@ -42,7 +42,7 @@ Bible: master 1.3, period 1.3, khoi-prompt 1.3. 42 cảnh = 35 ảnh FLUX + 7 b�
 | L31 | [52] | army | 12/0/0 | quân Tống rút lui | lính Tống tiền cảnh ×3 (tiền cảnh, từ phía sau); lính Tống phía sau ×9 (trung cảnh và hậu cảnh) | Medium | - |
 | M6 | [53, 57, 59] | bản đồ SVG | - | - | 6 mục địa lý NEEDS_REVIEW (xem ban-do-can-xac-minh.md) | - | - |
 | L32 | [54, 55, 56] | small_group | 6/0/5 | Đào Tống Nguyên (không có chân dung) | sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật) ×1 (dẫn đầu đoàn); người dắt voi (mỗi người một con) ×5 (mỗi người cạnh đầu con voi của mình) | High | AC19 |
-| L33 | [58] | small_group | 12/0/0 | người dân và binh lính được trao trả | người dân Tống được trả về ×10 (giữa đường, hai hàng năm người); lính Đại Việt đi cùng ×2 (cuối hàng) | Medium | AC20 |
+| L33 | [58] | small_group | 14/0/0 | dân và binh lính nhà Tống được trao trả | người dân Tống được trả về ×8 (giữa đường, hai hàng bốn người); lính Tống được trả về (không vũ khí) ×4 (sau hàng dân, một hàng dọc); lính Đại Việt đi cùng ×2 (cuối hàng) | Medium | AC20, AC22 |
 | M7 | [61] | bản đồ SVG | - | - | 2 mục địa lý NEEDS_REVIEW (xem ban-do-can-xac-minh.md) | - | - |
 | L34 | [62] | army | 14/0/0 | Lý Thường Kiệt | Lý Thường Kiệt (tạo hình nghệ thuật) ×1 (tiền cảnh, từ phía sau); lính Đại Việt ×13 (sau tướng, ba nhóm) | Medium | - |
 | L35 | [64] | command_room | 0/0/0 | sảnh vắng | (không có người) ×0 (-) | Low | AC21 |
@@ -92,6 +92,6 @@ Không đề xuất thêm ảnh mới ở bước này. Chỉ L32 có điều ki
 
 - Character Reference Lý Thường Kiệt (L04, L08, L11, L12, L24, L34) chưa duyệt; danh sách ảnh tham chiếu được duyệt rỗng.
 - 33 mục địa lý bản đồ NEEDS_REVIEW.
-- 21 chi tiết nghệ thuật chờ anh duyệt.
+- 24 chi tiết nghệ thuật chờ anh duyệt.
 - Cảnh rủi ro cao: L17, L27, L32.
 - Kịch bản v4 còn 31 ❌ / 13 ⚠️ của `kiem_kich_ban.py` (anh giữ nguyên lời đọc).

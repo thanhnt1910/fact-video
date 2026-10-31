@@ -1,0 +1,9 @@
+{
+ "ghi_chu": "Chụp SAU khi chủ kênh duyệt mục 5 quy-trinh-anh.md (01/11/2026, nâng v1.3). Baseline b0/b1 giữ nguyên, không sửa. Chỉ quy-trinh-anh.md khác baseline b1; ba tài liệu còn lại giống hệt.",
+ "sha256": {
+  "quy-tac/anh/master-style.md": "d650ab5e974a7190f7186cb413b051c3276536a1dcf1ac7f002044f14d8c9a18",
+  "quy-tac/anh/period-ly-tong.md": "32e7dfa27ac8772f271a0d621123fd7208a95539a529325c0a2b15c7c67ce5cf",
+  "quy-tac/anh/khoi-prompt.json": "026fc5e94e3f2662b300cea66d06a2a90aedfc4882147711d75b54c0fe9c1b95",
+  "quy-tac/anh/quy-trinh-anh.md": "e29c7d0d960831bd7bc9b9feef7c7400670ad96585eb839c9a2d0b45afac8051"
+ }
+}

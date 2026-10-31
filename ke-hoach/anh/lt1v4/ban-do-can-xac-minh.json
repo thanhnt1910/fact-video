@@ -7,6 +7,12 @@
   "Mục chỉ được vẽ (duoc_ve=true) khi trang_thai=VERIFIED và có nguon_xac_minh; toa_do chỉ điền khi VERIFIED.",
   "Cột co_so_kich_ban chỉ cho biết kịch bản nhắc tới điều gì, KHÔNG phải nguồn địa lý."
  ],
+ "chu_kenh_duyet_danh_sach": {
+  "trang_thai": "APPROVED",
+  "nguoi_duyet": "chủ kênh",
+  "ngay_duyet": "2026-11-01",
+  "pham_vi": "Duyệt DANH SÁCH các mục cần xác minh (33 mục, 7 bản đồ) làm kế hoạch xác minh. KHÔNG phải xác minh: mọi mục vẫn NEEDS_REVIEW, không tọa độ, không đường biên, duoc_ve=false cho tới khi có trang_thai=VERIFIED kèm nguon_xac_minh."
+ },
  "items": [
   {
    "id": "CHUNG-01",

@@ -50,6 +50,8 @@ add('M7', DL, 'Diễn Châu: vị trí', 61, 'vị trí châu thời Lý và tê
 add('M7', DG, 'Lý Giác dấy binh năm một nghìn một trăm linh ba (sự kiện trong kịch bản)', 61, 'chỉ đặt nhãn sự kiện tại Diễn Châu nếu vị trí đã xác minh; không vẽ đường hành quân')
 out = dict(project='lt1v4', quy_tac=['Không tự đặt tọa độ hay đường biên.', 'Không tạo bản đồ chỉ dựa trên suy đoán.', 'Ba loại thông tin tách riêng: DIA_LY (dữ kiện địa lý), DUONG_QUAN_SU (đường tiến quân/rút lui), DIEN_GIAI (diễn giải lịch sử).',
                                 'Mục chỉ được vẽ (duoc_ve=true) khi trang_thai=VERIFIED và có nguon_xac_minh; toa_do chỉ điền khi VERIFIED.', 'Cột co_so_kich_ban chỉ cho biết kịch bản nhắc tới điều gì, KHÔNG phải nguồn địa lý.'],
+           chu_kenh_duyet_danh_sach=dict(trang_thai='APPROVED', nguoi_duyet='chủ kênh', ngay_duyet='2026-11-01',
+               pham_vi='Duyệt DANH SÁCH các mục cần xác minh (33 mục, 7 bản đồ) làm kế hoạch xác minh. KHÔNG phải xác minh: mọi mục vẫn NEEDS_REVIEW, không tọa độ, không đường biên, duoc_ve=false cho tới khi có trang_thai=VERIFIED kèm nguon_xac_minh.'),
            items=[x for k in n.values() for x in k])
 json.dump(out, open(f'{D}/ban-do-can-xac-minh.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print({k: len(v) for k, v in n.items()}, sum(len(v) for v in n.values()), 'mục NEEDS_REVIEW')

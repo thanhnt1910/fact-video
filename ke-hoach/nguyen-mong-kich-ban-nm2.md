@@ -52,7 +52,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 
 ## Lần thứ ba (tone: tense)
 22037. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.
-22038. Phía sau còn nhiều thuyền chở lương do Trương Văn Hổ chỉ huy. Hưng Đạo Vương giao việc giữ biển cho Khánh Dư, người bán than năm xưa, nay là phó tướng ở Vân Đồn.
+22038. Phía sau còn nhiều thuyền chở lương do Trương Văn Hổ chỉ huy. Hưng Đạo Vương giao việc giữ biển cho Khánh Dư, người bán than năm xưa, nay giữ Vân Đồn.
 22039. Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Thượng hoàng nghe tin, sai người xiềng tay ông giải về kinh.
 22040. Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
 22041. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
@@ -66,7 +66,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22047. Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?
 22048. Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước.
 22049. Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn.
-22050. Đúng lúc ấy Trương Văn Hổ dẫn số thuyền lương còn lại tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết.
+22050. Đúng lúc ấy Trương Văn Hổ dẫn số thuyền lương còn lại tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc, nghiêng đắm gần hết.
 22051. Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh.
 22052. Thượng hoàng cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ.
 22053. Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy.

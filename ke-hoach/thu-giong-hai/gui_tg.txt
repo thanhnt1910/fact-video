@@ -1,2 +1,2 @@
-lt1-bia-logo-cu 1793419010
-assets/bia/LT1/LT1_ngang.jpg
+lt1 ban do vector
+telegram/lt1_ban_do_vector.mp4

@@ -15,7 +15,6 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22008. Thủ Độ đáp rằng chừng nào đầu thần còn chưa rơi xuống đất, bệ hạ cứ yên tâm.
 22009. Mười hai ngày sau, vua cùng thái tử ngồi thuyền lớn đến Đông Bộ Đầu, đón đánh và đánh tan quân giặc.
 22011. Liệu người Mông Cổ có bỏ đi? Câu trả lời là không, vì hơn hai mươi năm sau họ quay lại dưới cờ nhà Nguyên của hoàng đế Hốt Tất Liệt.
-22011. Liệu người Mông Cổ có bỏ đi? Câu trả lời là không, vì hơn hai mươi năm sau họ quay lại dưới cờ nhà Nguyên của hoàng đế Hốt Tất Liệt.
 
 ## Mượn đường (tone: story)
 22012. Cuối năm một nghìn hai trăm tám mươi bốn, sứ giả Trần Phủ về báo tin quân Nguyên xin mượn đường đánh Chiêm Thành. Vì sao họ mượn đường?

@@ -1,17 +1,115 @@
 {
- "phien_ban": "1.0-DRAFT",
- "ghi_chu": "Khối chữ cố định để ghép vào prompt. Sửa ở period-ly-tong.md rồi cập nhật tại đây.",
- "STYLE": "Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
- "ANATOMY": "Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items.",
- "HORSE": "EXACTLY {N} horses with {N} riders, each rider upright on exactly one horse, each horse has four natural legs and is clearly separated from the others.",
- "VN_LINH": "Vietnamese Ly dynasty soldiers in brown leather armor over earth-brown coarse cloth clothes, bare feet, wooden spears with iron tips",
- "VN_MU_NON": "conical bamboo hats",
- "VN_MU_KHAN": "bare heads with black hair tied in a topknot or a plain cloth headwrap",
- "VN_CO": "plain brown-red triangular cloth pennants",
- "SONG_LINH": "Chinese Song dynasty soldiers in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, no pennants",
- "VN_TUONG": "an elderly Vietnamese general with a grey beard, dark brown robe and brown leather shoulder armor",
- "DEN": "a clay oil lamp on the table, nothing hanging from the ceiling",
- "THANH_SONG": "a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof",
- "DOC_DAT": "one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall",
- "__chu_y": "VN_MU_NON, VN_LINH, VN_CO là mức C; chờ chủ kênh duyệt (period-ly-tong.md mục G)"
+ "phien_ban": "1.1-DRAFT",
+ "ghi_chu": "Khối chữ để ghép vào prompt, khớp period-ly-tong.md v1.1. Mỗi khối có nhãn: A (dùng thẳng), cautious_reconstruction (B), artistic_choice (C). Khối mang nhãn KHÔNG phải mặc định của cả đội quân: mỗi cảnh chọn theo nhóm người và đổi giữa các cảnh. Nhãn ghi vào detail_tags của cảnh, không dán vào prompt.",
+ "STYLE": {
+  "tag": "A",
+  "text": "Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9."
+ },
+ "ANATOMY": {
+  "tag": "A",
+  "text": "Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items."
+ },
+ "HORSE": {
+  "tag": "A",
+  "text": "EXACTLY {N} horses with {N} riders, each rider upright on exactly one horse, each horse has four natural legs and is clearly separated from the others."
+ },
+ "VN_AO_VAI": {
+  "tag": "artistic_choice",
+  "text": "Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors"
+ },
+ "VN_GIAP": {
+  "tag": "cautious_reconstruction",
+  "dung": "chỉ một phần lính trong cảnh (nhóm tiền cảnh hoặc tiền quân), phần còn lại dùng VN_AO_VAI",
+  "text": "a few of the soldiers wear plain iron-and-leather armor over the cloth tunic"
+ },
+ "VN_DAU": {
+  "tag": "artistic_choice",
+  "chon_mot": [
+   "bare heads with black hair tied in a topknot",
+   "a plain cloth headwrap",
+   "a mix of bare heads and plain cloth headwraps"
+  ],
+  "cam": "conical hat, peaked cap, helmet"
+ },
+ "VN_NON_DAN_PHU": {
+  "tag": "artistic_choice",
+  "dung": "chỉ dân phu, khi bối cảnh cần",
+  "text": "laborers wearing woven conical hats"
+ },
+ "VN_CHAN": {
+  "tag": "artistic_choice",
+  "chon_mot": [
+   "some barefoot, some in simple straw sandals",
+   "barefoot",
+   "simple straw sandals"
+  ],
+  "cam": "boots, modern shoes"
+ },
+ "VN_VU_KHI": {
+  "tag": "cautious_reconstruction",
+  "text": "wooden spears with iron tips"
+ },
+ "VN_CO": {
+  "tag": "artistic_choice",
+  "mac_dinh": "KHÔNG vẽ cờ",
+  "text_neu_can": "plain unmarked cloth banner, no symbols, no writing, no stars",
+  "cam": "red flag with star, brown-red pennants as default"
+ },
+ "VN_TUONG": {
+  "tag": "artistic_choice",
+  "text": "a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap",
+  "cam": "officer hat with wings, Song or later-dynasty official hat"
+ },
+ "VN_TUONG_LY_THUONG_KIET": {
+  "tag": "artistic_choice",
+  "text": "an elderly Vietnamese general with a grey beard",
+  "ghi_chu": "Chưa có Character Reference được duyệt; không dùng cho nhiều cảnh"
+ },
+ "SONG_BO_BINH_NANG": {
+  "tag": "cautious_reconstruction",
+  "text": "Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears"
+ },
+ "SONG_CUNG_NO": {
+  "tag": "cautious_reconstruction",
+  "text": "Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows"
+ },
+ "SONG_BO_BINH_NHE": {
+  "tag": "cautious_reconstruction",
+  "text": "Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears",
+  "dung": "ít"
+ },
+ "SONG_SI_QUAN": {
+  "tag": "cautious_reconstruction",
+  "text": "a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume"
+ },
+ "SONG_CO": {
+  "tag": "artistic_choice",
+  "mac_dinh": "KHÔNG vẽ cờ"
+ },
+ "SONG_QUY_TAC": "Mỗi cảnh chỉ định binh chủng nào xuất hiện; không dùng cùng một bộ giáp cho cả đội. Không chỉ định binh chủng thì dùng SONG_BO_BINH_NANG hoặc nhẹ và ghi artistic_choice.",
+ "THANH_SONG": {
+  "tag": "cautious_reconstruction",
+  "text": "a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof",
+  "ghi_chu": "Ung Châu cụ thể chưa xác nhận"
+ },
+ "DOC_DAT": {
+  "tag": "A (theo kịch bản v4 đoạn 28)",
+  "text": "one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall"
+ },
+ "VAC_DAT": {
+  "tag": "artistic_choice",
+  "text": "carrying baskets of soil"
+ },
+ "DEN": {
+  "tag": "artistic_choice",
+  "text": "a clay oil lamp on a low wooden table, nothing hanging from the ceiling"
+ },
+ "KIEN_TRUC_CUNG": {
+  "tag": "A",
+  "text": "timber palace building with tiled roof and bracket system"
+ },
+ "NHA_DAN": {
+  "tag": "artistic_choice",
+  "text": "plain timber house with grey tiled or thatched roof, woven mat floor"
+ }
 }

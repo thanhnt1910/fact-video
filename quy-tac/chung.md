@@ -106,7 +106,7 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - **Không dùng từ Hán Việt dịch thô, người nghe không hiểu ngay.** Gặp từ cổ hoặc từ chữ Hán trong sử (ví dụ "cấm đình", "thiền vị", "xa giá", "đại xá", "phụ chính", "tôn thất", "thực ấp") thì đổi sang lời đời thường hoặc kể bằng việc làm cụ thể ("nhường ngôi", "vua bỏ kinh thành chạy đi", "tha tội cho cả nước", "người giúp vua điều hành việc nước", "người trong họ nhà vua"). Chức quan, tên đất, tên người thì giữ nguyên, nhưng lần đầu nhắc phải kèm một cụm giải thích ngắn gộp vào câu. Không chép nguyên câu dịch máy của bản Toàn thư.
 - **Tự thử:** đọc to từng đoạn như kể cho người không học sử; chỗ nào khựng, chỗ nào phải đoán nghĩa thì viết lại. Soát thêm bằng cách tìm các từ Hán Việt hiếm trong bản nháp trước khi chạy `kiem_kich_ban.py`.
 - **Câu văn liền mạch với nhau.** Mỗi câu phải trả lời "rồi sao?" hoặc "vì thế?" của câu trước, nối bằng nguyên nhân, thời gian hoặc đối lập ("vì thế", "nhưng", "đúng lúc ấy", "chưa đầy một tháng sau"). Không xếp các sự kiện rời nhau như danh sách. Cuối đoạn phải dẫn được sang đầu đoạn sau; đọc liền hai đoạn kề nhau phải thấy một mạch.
-- **Có câu hỏi "vì sao", "tại sao" ở những đoạn chính.** Mỗi chương có bước ngoặt hoặc quyết định quan trọng nên có ít nhất một câu hỏi ngắn đặt đúng lúc người nghe đang thắc mắc ("Vì sao ông lại chọn đánh trước?", "Tại sao các quan chịu đứng ngoài chờ?"), rồi đoạn kế tiếp trả lời ngay bằng sự việc có thật. Mục tiêu khoảng 1 câu hỏi cho mỗi chương chính, không quá 2 câu hỏi liên tiếp, không hỏi rồi bỏ lửng. Câu hỏi ở hook vẫn theo quy tắc "hook giữ bí mật".
+- **Có câu hỏi "vì sao", "tại sao" ở những đoạn chính.** Mỗi chương có bước ngoặt hoặc quyết định quan trọng nên có ít nhất một câu hỏi ngắn đặt đúng lúc người nghe đang thắc mắc ("Vì sao ông lại chọn đánh trước?", "Tại sao các quan chịu đứng ngoài chờ?"), rồi đoạn kế tiếp trả lời ngay bằng sự việc có thật. Câu hỏi chỉ đặt ở các bước chuyển lớn (hook và vài bước ngoặt), không phải mỗi chương một câu: dùng liên tục người nghe sẽ nhận ra công thức (xem mục "Quy tắc viết kịch bản lịch sử" cuối file, ưu tiên hơn câu này). Không hai câu hỏi liền nhau, không hỏi rồi bỏ lửng. Câu hỏi ở hook vẫn theo quy tắc "hook giữ bí mật".
 - **Không hỏi giả.** Câu hỏi phải có đáp án nằm trong sử của chính video; không hỏi để rồi trả lời bằng lời kết luận của người kể (xem mục "Sáng tạo cho đỡ nhàm").
 - Ghi trong "Ghi chú độ chắc" của kịch bản: danh sách từ Hán Việt đã đổi và vị trí các câu hỏi "vì sao".
 
@@ -116,3 +116,48 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - Đây là ngoại lệ duy nhất của quy tắc "cuối chương không tóm tắt": chỉ áp cho đoạn cuối cùng của video, không áp cho cuối từng chương.
 - Lời cảm ơn viết giản dị, không rủ "theo dõi, đăng ký", không hứa "tập sau" (mỗi video trọn gói một chủ đề). Video dọc 60–80 giây vẫn kết bằng lời mời xem bản đầy đủ.
 - Đoạn cuối vẫn theo luật chung: tối đa 32 chữ, nên gộp câu tóm gọn và lời cảm ơn trong một đoạn; ghi câu kết vào "Ghi chú độ chắc" để chủ kênh duyệt.
+
+## Quy tắc viết kịch bản lịch sử (chủ kênh liệt kê 31/10/2026, áp dụng mọi kịch bản từ nay; khi trùng hoặc mâu thuẫn với mục cũ, mục này ưu tiên)
+
+**Mục tiêu:** chính xác về lịch sử (nhân vật, thời gian, địa danh, sự kiện); kể hấp dẫn, tạo tò mò và cảm xúc; mạch liên tục giữ chân người xem; ngôn ngữ tự nhiên, dễ nghe với giọng AI. Không hy sinh tính chính xác để lấy kịch tính.
+
+**Thứ tự ưu tiên khi các tiêu chí xung đột (không hy sinh mục trên để được mục dưới):** (1) đúng sự thật lịch sử; (2) đúng trình tự và bản chất sự kiện; (3) mạch truyện logic, dễ hiểu; (4) hấp dẫn, giữ chân; (5) ngôn ngữ đẹp và thời lượng phù hợp.
+
+### 1. Nghiên cứu
+- Ưu tiên sử liệu gốc, chính sử, tài liệu của cơ quan nghiên cứu và bảo tàng; đối chiếu nhiều nguồn cho sự kiện quan trọng.
+- Phân biệt sự kiện có căn cứ, lời kể trong sử liệu và nhận định của người nghiên cứu. Chi tiết chỉ có trong một chính sử (nhất là sử do triều sau chép về triều trước) thì gắn "theo lời kể cũ" trong lời kể, không biến lời kể trong chính sử thành sự thật đã xác minh.
+- Số liệu về quân đội, thương vong, dân số phải có căn cứ; nguồn ghi khác nhau thì thể hiện sự không chắc chắn trong lời kể.
+- Không tự tạo lời thoại, suy nghĩ, cảm xúc, động cơ của nhân vật; không biến truyền thuyết, giai thoại thành sự thật; không thêm chi tiết chỉ để hấp dẫn hơn.
+- Trước khi viết xác định: sự kiện chính, bối cảnh, nhân vật quan trọng, trình tự thời gian, nguyên nhân – kết quả, điểm còn tranh luận. Mốc thời gian phải đối chiếu với nguồn từng sự kiện (đừng gộp các cải cách khác năm vào một mạch, đừng đặt việc xảy ra sau trận đánh lên trước).
+
+### 2. Cấu trúc
+- **Hook:** mở bằng tình huống, hành động, xung đột hoặc nghịch lý; không tiểu sử dài, không câu chung chung ("Lịch sử Việt Nam có rất nhiều..."). Trong 5 đoạn đầu phải xác định được nhân vật, tình huống và vấn đề chính; đặt câu hỏi hoặc mâu thuẫn; không tiết lộ toàn bộ kết cục; được giải đáp ở cuối video.
+- **Thân bài:** đúng trình tự thời gian, mỗi chương một nhiệm vụ rõ, mỗi đoạn bổ sung thông tin hoặc đẩy diễn biến, có liên kết nguyên nhân – kết quả, không liệt kê như sách giáo khoa, không kéo dài thông tin phụ, KHÔNG bỏ sự kiện quan trọng chỉ để rút ngắn (chỉ rút phần phụ), giới thiệu rõ tên nhân vật, địa danh, chức danh trước khi dùng liên tục, chuyển chương bằng câu dẫn tự nhiên.
+- **Kết:** kết bằng kết quả thực tế; giải đáp câu hỏi hook; nêu hậu quả hoặc ý nghĩa lịch sử nếu phù hợp (đặt ở đoạn trước câu cuối); không áp một nguyên nhân duy nhất cho sự kiện nhiều nguyên nhân; không bài học đạo đức sáo rỗng; câu cuối có sức nặng, tạo dư âm; lời cảm ơn ngắn, không làm mất cảm xúc. Vẫn theo mục "Câu kết cuối video" (một câu tóm gọn + một câu cảm ơn, tối đa 32 chữ).
+
+### 3. Giữ chân
+- Xung đột chính nên xuất hiện trong khoảng 35–45% đầu video nếu cấu trúc lịch sử cho phép (không đảo trình tự lịch sử, không bỏ sự kiện cần thiết để làm được điều này; nếu không đạt thì ghi lý do trong "Ghi chú độ chắc").
+- Cao trào phải được chuẩn bị từ trước; sau biến cố lớn có diễn biến tiếp đủ hấp dẫn; đan xen hành động, quyết định, xung đột, hệ quả.
+- Không dùng câu hỏi tu từ liên tục; chỉ hỏi ở bước chuyển quan trọng; không câu chuyển tiếp máy móc kiểu "Vậy chuyện gì xảy ra tiếp theo?"; không tạo bí ẩn cho thông tin không cần thiết; không lặp thông tin chỉ để nhắc người xem.
+
+### 4. Lời kể
+- Câu ngắn, mỗi câu một ý chính, động từ mạnh, hành động cụ thể; hạn chế văn hành chính, học thuật, giống sách giáo khoa; hạn chế từ Hán Việt khó hiểu (nếu cần phải giải thích bằng lời phổ thông).
+- Không lạm dụng: kinh hoàng, khủng khiếp, chấn động, định mệnh, "không ai ngờ"; không cường điệu sự kiện (ví dụ không thêm hình ảnh bi tráng không có thật); tránh lặp cấu trúc câu giữa các đoạn.
+- Phải tự nhiên khi đọc thành tiếng, không chỉ hay khi đọc bằng mắt.
+
+### 5. Chia đoạn và giọng đọc
+- Mỗi đoạn một ý hoặc một diễn biến; ưu tiên 15–30 chữ (kiểm bằng `kiem_kich_ban.py`: tối đa 32 chữ, hai câu); tránh đoạn quá ngắn, rời rạc, thiếu ngữ cảnh; không ngắt đoạn giữa một ý; dùng dấu câu tạo nhịp nghỉ.
+- Viết số theo cách đọc bằng tiếng Việt; kiểm cách phát âm tên riêng, địa danh, thuật ngữ; giữ tone nhất quán (video sử Việt: tone "story" cả video).
+
+### 6. Thời lượng
+- Xác định thời lượng mục tiêu trước khi viết, tính số chữ theo tốc độ đọc thực tế (khoảng 3 chữ mỗi giây); không kéo dài để đủ giờ; không để phần chuẩn bị chiếm quá nhiều so với diễn biến chính; kiểm bằng bản đọc thử thực tế khi đã có giọng.
+
+### 7. Tuyệt đối không
+- Tự sáng tác lời thoại rồi trình bày như lời nói lịch sử; gán suy nghĩ, cảm xúc khi không có căn cứ; khẳng định nguyên nhân chỉ bằng suy luận; đưa số liệu không rõ nguồn thành sự thật; đánh đồng lời kể trong chính sử với sự thật đã xác minh; dùng từ hiện đại làm sai bối cảnh; thêm tình tiết cho bi tráng. Cần diễn giải hoặc nhận định thì phải nói rõ đó là nhận định (lời bàn vẫn phải là của sử gia có tên).
+
+### 8. Rà 5 lần trước khi giao (ghi kết quả vào "Ghi chú độ chắc")
+1. **Lịch sử:** nhân vật, chức danh, địa danh, mốc thời gian, trình tự, số liệu và lời thoại có căn cứ; đối chiếu từng mốc với nguồn.
+2. **Nội dung:** có đoạn thừa, sự kiện quan trọng bị bỏ sót, nguyên nhân – kết quả chưa rõ, đoạn chỉ liệt kê?
+3. **Giữ chân:** hook hấp dẫn, xung đột đủ sớm, đoạn chậm, cao trào đủ sức nặng, kết đã giải đáp hook?
+4. **Lời kể:** tự nhiên khi đọc to, câu dài khó hiểu, lặp từ, lặp ý, lặp cấu trúc, quá nhiều câu hỏi tu từ, từ Hán Việt khó?
+5. **Kỹ thuật:** số đoạn và định dạng JSON, số chữ mỗi đoạn, tổng thời lượng, phân bổ chương, tên riêng nhất quán.

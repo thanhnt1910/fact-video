@@ -70,6 +70,10 @@ def army(pts, side, i, off, dur, n=12, t1_i=None, stay=True, flag=True, u="inf",
     d = add("army", A(i, off), E_(t1_i or i), pts=[list(p) for p in pts], side=side, n=n, dur=dur, stay=stay, flag=flag, u=u, fi=0.2, fo=0.8)
     if col:
         d["col"] = col
+    if u == "cav":
+        fx("hoof", d["t0"], d["t0"] + dur)
+    elif u == "ship":
+        fx("water", d["t0"], d["t0"] + dur)
 
 
 def lab(text, p, col, i0, i1, fs=46, op=0.6, **kw):

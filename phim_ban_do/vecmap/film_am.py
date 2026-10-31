@@ -1,6 +1,7 @@
 """Âm thanh video lt1v3: ghép giọng đọc theo mốc từng đoạn + nhạc nền + hiệu ứng tự tổng hợp (không dùng tiếng có bản quyền) -> ra/am.wav.
 Chạy: python phim_ban_do/vecmap/film_am.py"""
 import json
+import os
 import subprocess
 from pathlib import Path
 
@@ -10,7 +11,10 @@ from scipy import signal
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 SR = 44100
-SP = json.load(open(HERE / "sfx.json"))
+SP = json.load(open(HERE / os.environ.get("SFX_JSON", "sfx.json")))
+VOICE_DIR = os.environ.get("VOICE_DIR", "assets/thu_giong_hai/lt1v3_chuan")
+ID_BASE = int(os.environ.get("ID_BASE", "20000"))
+OUT_WAV = os.environ.get("OUT_WAV", "ra/am.wav")
 TOTAL = SP["dur"]
 N = int(TOTAL * SR) + SR
 rng = np.random.default_rng(7)
@@ -101,8 +105,8 @@ def cricket_train(dur):
 def build():
     voice = np.zeros(N, np.float32)
     for i, st in SP["starts"].items():
-        n = 20000 + int(i)
-        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / f"assets/thu_giong_hai/lt1v3_chuan/{n}.mp3"), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
+        n = ID_BASE + int(i)
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / f"{VOICE_DIR}/{n}.mp3"), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                              capture_output=True, check=True).stdout
         put(voice, np.frombuffer(raw, np.float32), float(st))
     # hạ nền khi có giọng (đường bao trơn)
@@ -127,6 +131,12 @@ def build():
             tt = t0
             while tt < t1:
                 put(fxm, step(), tt, 0.5 * min(1, (tt - t0) / 1.0, (t1 - tt) / 1.0)); tt += 0.52 + rng.random() * 0.05
+        elif k == "hoof":
+            tt = t0
+            while tt < t1:
+                for q in range(4):
+                    put(fxm, thump(95 + 18 * (q % 2), 0.12), tt + q * 0.11, 0.38 * min(1, (tt - t0) / 1.0 + 0.3, (t1 - tt) / 1.0 + 0.3))
+                tt += 0.62 + rng.random() * 0.06
         elif k == "drum":
             tt = t0
             while tt < t1:
@@ -160,9 +170,9 @@ def build():
     out = out[:int(TOTAL * SR)]
     pk = np.max(np.abs(out))
     out = out / max(pk, 1e-6) * 0.89
-    (HERE / "ra").mkdir(exist_ok=True)
+    (HERE / OUT_WAV).parent.mkdir(exist_ok=True, parents=True)
     import wave
-    with wave.open(str(HERE / "ra/am.wav"), "wb") as w:
+    with wave.open(str(HERE / OUT_WAV), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes((out * 32767).astype(np.int16).tobytes())
     print("ghi ra/am.wav", round(len(out) / SR, 1), "giây; đỉnh trước chuẩn hóa", round(float(pk), 2))

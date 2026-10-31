@@ -24,7 +24,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "CHƯA tra: chưa kiểm giấy phép bộ dữ liệu nền.",
+    "nguon": [],
+    "muc_nguon": "chua_tra",
+    "de_xuat": "Cần tìm bộ dữ liệu nền có giấy phép rõ (đề xuất kiểm Natural Earth) và ghi nhãn \"bản đồ hiện đại\".",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "CHUNG-02",
@@ -36,7 +44,40 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Đối chiếu tên cổ – tên nay tra được: Ung Châu = Nam Ninh (Quảng Tây); Quảng Nguyên = Cao Bằng; sông Như Nguyệt = một khúc sông Cầu; Diễn Châu nay thuộc Nghệ An. Chưa có: Quế, Khâm, Liêm, Tư Lang, Tô Mậu, Vĩnh Bình, Côn Lôn.",
+    "nguon": [
+     {
+      "ma": "S1",
+      "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S3",
+      "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+      "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S4",
+      "ten": "Diễn Châu, Wikipedia tiếng Anh (chỉ nói xã Diễn Châu hiện nay, tỉnh Nghệ An)",
+      "url": "https://en.wikipedia.org/wiki/Di%E1%BB%85n_Ch%C3%A2u",
+      "loai": "thứ cấp, không nói về châu thời Lý"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Làm bảng đối chiếu cho các tên đã có nguồn; tên chưa có chỉ ghi tên cổ.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "CHUNG-03",
@@ -48,7 +89,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không cần nguồn: là quy ước ghi chú.",
+    "nguon": [],
+    "muc_nguon": "khong_ap_dung",
+    "de_xuat": "Chủ kênh duyệt quy ước: mũi tên không có sử liệu ghi nhãn \"minh họa\".",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M1-01",
@@ -60,7 +109,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "CHƯA tra được nguồn cho vị trí Quế Châu (trang tham khảo bị chặn trong phiên này).",
+    "nguon": [],
+    "muc_nguon": "chua_tra",
+    "de_xuat": "Cần nguồn riêng trước khi đặt nhãn.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M1-02",
@@ -72,7 +129,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không nguồn nào mô tả đường biên giới năm 1075 (Wikipedia tiếng Việt nói rõ không mô tả).",
+    "nguon": [
+     {
+      "ma": "S3",
+      "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+      "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Không vẽ đường biên. Chỉ ghi chữ \"biên giới\" bằng nhãn.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M1-03",
@@ -84,7 +156,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không nguồn nào nêu điểm xuất phát của Thẩm Khởi, Lưu Di.",
+    "nguon": [],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Chỉ nhãn tại Quế Châu (khi Quế Châu đã có nguồn), không mũi tên.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M1-04",
@@ -96,7 +176,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Diễn giải, không phải địa lý.",
+    "nguon": [],
+    "muc_nguon": "khong_ap_dung",
+    "de_xuat": "Giữ ở chữ trên màn hình, không ký hiệu bản đồ.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-01",
@@ -108,7 +196,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn nói hạm đội Lý Thường Kiệt chiếm Khâm Châu và Liêm Châu tháng 10 năm 1075 (Anderson 2008, tr.207–208) nhưng KHÔNG nêu vị trí nay.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "su_kien_co_nguon_vi_tri_chua",
+    "de_xuat": "Chưa đặt vị trí; cần nguồn địa danh.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-02",
@@ -120,7 +223,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Ung Châu (Yongzhou) = Nam Ninh hiện nay, Quảng Tây.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Có thể đánh dấu VERIFIED sau khi chủ kênh chấp nhận mức nguồn thứ cấp, hoặc tra thêm Tống sử.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-03",
@@ -132,7 +250,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không nguồn nào nêu nơi tập kết.",
+    "nguon": [],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Không vẽ điểm xuất phát.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-04",
@@ -144,7 +270,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không nguồn nào nêu tuyến biển cụ thể; nguồn chỉ nói đạo thủy chiếm Khâm, Liêm.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Chỉ mũi tên ước lệ có nhãn \"minh họa\", hoặc không vẽ.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-05",
@@ -156,7 +297,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn nói Tông Đản đưa quân vào Quảng Nam Tây đạo; không nêu tuyến cụ thể.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Như M2-04.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-06",
@@ -168,7 +324,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Phân công khớp: Tông Đản (nguồn ghi Nùng Tông Đản) đạo bộ, Lý Thường Kiệt đạo thủy (Anderson 2008 tr.207–208).",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Có thể ghi nhãn chỉ huy; kiểm lại bằng Toàn thư.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M2-07",
@@ -180,7 +351,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn KHÔNG khớp nhau về số quân: 63.000 (23.000 đạo bộ + 40.000 đạo thủy), 80.000, hoặc 80.000–100.000; có chỗ nói vua ra lệnh \"hơn một trăm nghìn\". Kịch bản ghi \"hơn mười vạn\".",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mau_thuan_nguon",
+    "de_xuat": "Không ghi số lên bản đồ. CẦN chủ kênh biết: câu \"hơn mười vạn người\" trong kịch bản chưa được nguồn nào ở đây xác nhận chắc; nên đối chiếu Toàn thư hoặc nói \"theo lời kể\".",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M3-01",
@@ -192,7 +378,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Ung Châu = Nam Ninh (xem M2-02). Chưa tính khoảng cách tới biên giới vì chưa có đường biên.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Không ước lượng bằng mắt.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M3-02",
@@ -204,7 +405,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không nguồn nào nêu đường rút.",
+    "nguon": [],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Không vẽ.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M3-03",
@@ -216,7 +425,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Là lập luận trong kịch bản.",
+    "nguon": [],
+    "muc_nguon": "khong_ap_dung",
+    "de_xuat": "Không vẽ vòng vây.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M4-01",
@@ -228,7 +445,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "CHƯA tra ranh giới các nước.",
+    "nguon": [],
+    "muc_nguon": "chua_tra",
+    "de_xuat": "Không vẽ đường biên; có thể chỉ ghi nhãn tên nước.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M4-02",
@@ -240,7 +465,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "CHƯA tra.",
+    "nguon": [],
+    "muc_nguon": "chua_tra",
+    "de_xuat": "Chưa đặt nhãn hướng.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M4-03",
@@ -252,7 +485,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Diễn giải.",
+    "nguon": [],
+    "muc_nguon": "khong_ap_dung",
+    "de_xuat": "Mũi tên áp lực chỉ là ký hiệu minh họa có nhãn.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M5-01",
@@ -264,7 +505,28 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Như Nguyệt là một khúc sông Cầu; phòng tuyến chạy từ chân núi Tam Đảo dọc sông; hai bến chính Như Nguyệt (vùng Hiệp Hòa, Bắc Giang) và Thị Cầu (sau gọi Đáp Cầu). Bản tiếng Anh ghi Bắc Ninh, bản tiếng Việt nhắc Hiệp Hòa thuộc Bắc Giang: khác nhau về tên tỉnh (chưa kiểm có do thay đổi địa giới hành chính hay không).",
+    "nguon": [
+     {
+      "ma": "S1",
+      "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S3",
+      "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+      "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Chủ kênh chọn cách ghi tên nay (tránh ghi tên tỉnh), hoặc tra thêm.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M5-02",
@@ -276,7 +538,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Chưa tra riêng vị trí Thăng Long thời Lý; nguồn chỉ nói sông Như Nguyệt \"gần kinh đô Thăng Long\".",
+    "nguon": [
+     {
+      "ma": "S1",
+      "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "chua_tra",
+    "de_xuat": "Cần nguồn riêng (kiến thức chung: thuộc Hà Nội hiện nay, nhưng chưa dẫn nguồn trong phiên này).",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M5-03",
@@ -288,7 +565,28 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Quân Lý giữ bờ nam, quân Tống ở bờ bắc (Triệu Tiết đối diện bến Như Nguyệt; Quách Quỳ khoảng 30 km về phía đông, đối diện Thị Cầu).",
+    "nguon": [
+     {
+      "ma": "S1",
+      "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S3",
+      "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+      "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Khớp kịch bản; có thể ghi nhãn bờ nam, bờ bắc.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M5-04",
@@ -300,7 +598,28 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn nói quân Quách Quỳ qua Lạng Sơn, Triệu Tiết qua cao nguyên Cao Bằng (Anderson 2008; Taylor 2013). Không có tuyến chi tiết.",
+    "nguon": [
+     {
+      "ma": "S1",
+      "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S3",
+      "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+      "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Chỉ mũi tên rất khái quát ước lệ, có nhãn \"minh họa\".",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M5-05",
@@ -312,7 +631,28 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Hai nguồn thứ cấp (Wikipedia tiếng Anh dẫn Trần Trọng Kim 1971 và tiếng Việt) cùng mô tả lũy đất đóng cọc tre nhiều lớp, hố chông dưới bãi sông, chạy dọc bờ nam. Chưa đối chiếu sử liệu gốc. Có liên quan DQ-003.",
+    "nguon": [
+     {
+      "ma": "S1",
+      "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+      "loai": "thứ cấp (bách khoa mở)"
+     },
+     {
+      "ma": "S3",
+      "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+      "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Vị trí và hình dạng cụ thể vẫn chưa có: không vẽ thành đường cụ thể. Chủ kênh có thể xem lại mức của chi tiết \"lũy đất cắm cọc\" (hiện C) sau khi có nguồn gốc; em không tự nâng mức.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M6-01",
@@ -324,7 +664,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Quảng Nguyên nay là Cao Bằng; Tư Lang, Môn, Tô Mậu, Quảng Lăng nay là phần lớn Cao Bằng và Lạng Sơn (câu này trong nguồn không có chú thích riêng).",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap_yeu",
+    "de_xuat": "Chỉ dùng Quảng Nguyên = Cao Bằng; ba châu còn lại cần nguồn riêng.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M6-02",
@@ -336,7 +691,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn nói nhà Tống giữ Quảng Nguyên và đổi thành Thuận Châu (Shun'anzhou). Năm đổi tên 1079 (kịch bản) chưa được trang này xác nhận.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mot_phan_thu_cap",
+    "de_xuat": "Cùng vùng với Quảng Nguyên; năm cần nguồn.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M6-03",
@@ -348,7 +718,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn nói cuộc đàm phán 1084 tổ chức tại trại Vĩnh Bình (Yongping) của nhà Tống, miền nam Quảng Nam; không nêu vị trí nay.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "su_kien_co_nguon_vi_tri_chua",
+    "de_xuat": "Chưa đặt vị trí.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M6-04",
@@ -360,7 +745,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "KHÔNG tìm thấy \"sáu huyện ba động\" trong nguồn đã đọc.",
+    "nguon": [],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Không đánh dấu; chỉ chữ trên màn hình theo kịch bản.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M6-05",
@@ -372,7 +765,15 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Không có nguồn về ranh giới.",
+    "nguon": [],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Không vẽ đường biên.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M6-06",
@@ -384,7 +785,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Nguồn thứ cấp ghi: 1077 nhà Tống giữ Quảng Nguyên và các châu khác; 1082 Đại Việt trả Ung, Khâm, Liêm cùng tù binh, đổi lại nhà Tống trả bốn châu và một huyện; 1084 đàm phán biên giới tại Vĩnh Bình (Anderson 2008 tr.209–210). Mốc 1082 này KHÔNG có trong kịch bản.",
+    "nguon": [
+     {
+      "ma": "S2",
+      "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+      "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+      "loai": "thứ cấp (bách khoa mở)"
+     }
+    ],
+    "muc_nguon": "mau_thuan_nguon",
+    "de_xuat": "CẦN chủ kênh biết: trình tự trong kịch bản (1079, 1084) chưa khớp hoàn toàn với nguồn này. Phải đối chiếu Toàn thư và Tục tư trị thông giám trước khi dùng nhãn năm.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M7-01",
@@ -396,7 +812,22 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "Chỉ tìm thấy Diễn Châu hiện nay là một xã thuộc Nghệ An; chưa có nguồn về châu Diễn thời Lý.",
+    "nguon": [
+     {
+      "ma": "S4",
+      "ten": "Diễn Châu, Wikipedia tiếng Anh (chỉ nói xã Diễn Châu hiện nay, tỉnh Nghệ An)",
+      "url": "https://en.wikipedia.org/wiki/Di%E1%BB%85n_Ch%C3%A2u",
+      "loai": "thứ cấp, không nói về châu thời Lý"
+     }
+    ],
+    "muc_nguon": "chua_tra",
+    "de_xuat": "Chưa đặt vị trí châu thời Lý.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   },
   {
    "id": "M7-02",
@@ -408,7 +839,50 @@
    "nguon_xac_minh": null,
    "toa_do": null,
    "trang_thai": "NEEDS_REVIEW",
-   "duoc_ve": false
+   "duoc_ve": false,
+   "tra_nguon": {
+    "ngay": "2026-11-01",
+    "ket_qua": "KHÔNG tìm thấy nguồn về Lý Giác 1103 trong các trang đã đọc.",
+    "nguon": [],
+    "muc_nguon": "khong_co_nguon",
+    "de_xuat": "Không đặt nhãn sự kiện.",
+    "ghi_chu": "Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn."
+   }
   }
- ]
+ ],
+ "tra_nguon_tong_ket": {
+  "ngay": "2026-11-01",
+  "nguon_dung": {
+   "S1": {
+    "ten": "Battle of Như Nguyệt River (1077), Wikipedia tiếng Anh (dẫn Anderson 2008; Taylor 2013; Trần Trọng Kim 1971; Kiernan 2019)",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Nh%C6%B0_Nguy%E1%BB%87t_River_(1077)",
+    "loai": "thứ cấp (bách khoa mở)"
+   },
+   "S2": {
+    "ten": "Lý–Song War, Wikipedia tiếng Anh, bản lưu IPFS (dẫn Anderson 2008 tr.206–210; Kiernan 2019; Chapuis 1995)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/L%C3%BD%E2%80%93Song_War",
+    "loai": "thứ cấp (bách khoa mở)"
+   },
+   "S3": {
+    "ten": "Trận Như Nguyệt, Wikipedia tiếng Việt (qua Wikiwand; chỉ có số chú thích, không có danh mục nguồn đầy đủ)",
+    "url": "https://wikiwand.com/vi/articles/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+    "loai": "thứ cấp (bách khoa mở)"
+   },
+   "S4": {
+    "ten": "Diễn Châu, Wikipedia tiếng Anh (chỉ nói xã Diễn Châu hiện nay, tỉnh Nghệ An)",
+    "url": "https://en.wikipedia.org/wiki/Di%E1%BB%85n_Ch%C3%A2u",
+    "loai": "thứ cấp, không nói về châu thời Lý"
+   }
+  },
+  "han_che": "Chỉ đọc được các trang tổng hợp thứ cấp; Đại Việt sử ký toàn thư, Tống sử, Tục tư trị thông giám trường biên CHƯA được đối chiếu. Trang về Quế Châu, Khâm, Liêm bị chặn trong phiên này.",
+  "thong_ke": {
+   "chua_tra": 6,
+   "khong_ap_dung": 4,
+   "khong_co_nguon": 9,
+   "mau_thuan_nguon": 2,
+   "mot_phan_thu_cap": 9,
+   "mot_phan_thu_cap_yeu": 1,
+   "su_kien_co_nguon_vi_tri_chua": 2
+  }
+ }
 }

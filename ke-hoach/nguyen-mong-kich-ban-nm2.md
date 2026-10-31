@@ -1,5 +1,5 @@
 # Nguyên Mông: thứ Trần Khánh Dư chờ (kịch bản nm2, làm lại theo quy tắc mới và đối chiếu Toàn thư)
-Giọng: Sadaltager. 49 đoạn, 1.245 chữ (~6,9 phút). Thay cho `nguyen-mong-gop-van-xuoi.md` (33 phút, 332 đoạn). Bản cũ giữ nguyên, chỉ thay khi chủ kênh duyệt bản này. Mọi sự kiện đã đối chiếu với `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (Bản kỷ q.V, các năm 1257, 1285, 1288).
+Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong-gop-van-xuoi.md` (33 phút, 332 đoạn). Bản cũ giữ nguyên, chỉ thay khi chủ kênh duyệt bản này. Mọi sự kiện đã đối chiếu với `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt` (Bản kỷ q.V, các năm 1257, 1285, 1288).
 
 
 ## Hai ba ngày (tone: hook)
@@ -33,39 +33,41 @@ Giọng: Sadaltager. 49 đoạn, 1.245 chữ (~6,9 phút). Thay cho `nguyen-mong
 22022. Quân Đại Việt rút đi, không để lại lương thực cho giặc, nên giặc càng đi sâu càng thiếu ăn. Chính lúc ấy, nhà vua cho phản công.
 
 ## Phản công (tone: epic)
-22023. Mùa hạ, ở Hàm Tử, quân của Trần Nhật Duật có cả người Tống, theo Đại Việt từ khi nhà Tống mất. Họ vẫn mặc áo Tống, cầm cung tên ra trận.
-22024. Vì sao quân Nguyên kinh hãi bỏ chạy? Vì chúng tưởng quân Tống đã sang giúp Đại Việt.
-22025. Ít lâu sau, ở Chương Dương, Trần Quang Khải cùng Hoài Văn hầu Trần Quốc Toản đánh quân Nguyên thua một trận thảm hại.
-22026. Thoát Hoan rút chạy qua sông Lô. Mười ngày sau, ở Tây Kết, quân Đại Việt chém đầu tướng Toa Đô.
-22027. Ô Mã Nhi chỉ còn một chiếc thuyền vượt biển trốn thoát. Nhìn đầu Toa Đô, nhà vua thương hại, nói rằng làm tôi thì phải như thế.
+22023. Mùa hạ, ở Hàm Tử, quân của Trần Nhật Duật có cả người Tống. Họ theo Đại Việt sau khi nhà Tống bị nhà Nguyên diệt.
+22024. Họ vẫn mặc áo Tống và cầm cung tên ra trận. Vì sao quân Nguyên thấy vậy mà kinh hãi bỏ chạy?
+22025. Vì thấy áo Tống, chúng tưởng một đạo quân Tống mới kéo sang giúp Đại Việt.
+22026. Ít lâu sau, ở Chương Dương, Trần Quang Khải cùng Hoài Văn hầu Trần Quốc Toản đánh quân Nguyên thua một trận thảm hại.
+22027. Thoát Hoan rút chạy qua sông Lô. Mười ngày sau, ở Tây Kết, quân Đại Việt chém đầu Toa Đô, còn Ô Mã Nhi chỉ còn một chiếc thuyền trốn thoát.
+22028. Nhìn đầu Toa Đô, nhà vua thương hại, nói rằng làm bề tôi phải trung với chủ đến chết như thế. Rồi ngài cởi áo ngự, sai quân liệm chôn.
+22029. Nhưng ngài ngầm giữ lại đầu, tẩm dầu để răn, vì Toa Đô mượn đường cướp nước ta đã ba năm.
 
 ## Lần thứ ba (tone: tense)
-22028. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.
-22029. Phía sau còn có đoàn thuyền chở lương của Trương Văn Hổ. Hưng Đạo Vương giao việc giữ vùng biển cho Trần Khánh Dư, người chỉ huy phụ ở Vân Đồn.
-22030. Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Thượng hoàng nghe tin, sai người xiềng tay ông giải về kinh.
-22031. Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
-22032. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
-22033. Chẳng bao lâu thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
-22034. Thượng hoàng tha tội cho ông, và nói rằng quân Nguyên trông cậy vào lương thực và vũ khí. Rồi ngài thả quân giặc bị bắt về báo tin.
-22035. Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên.
-22036. Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp.
+22030. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.
+22031. Phía sau còn có đoàn thuyền chở lương của Trương Văn Hổ. Hưng Đạo Vương giao việc giữ vùng biển cho Trần Khánh Dư, người chỉ huy phụ ở Vân Đồn.
+22032. Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Thượng hoàng nghe tin, sai người xiềng tay ông giải về kinh.
+22033. Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
+22034. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
+22035. Chẳng bao lâu thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
+22036. Thượng hoàng tha tội cho ông, và nói rằng quân Nguyên trông cậy vào lương thực và vũ khí. Rồi ngài thả quân giặc bị bắt về báo tin.
+22037. Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên.
+22038. Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp.
 
 ## Bạch Đằng (tone: epic)
-22037. Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?
-22038. Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước.
-22039. Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn.
-22040. Đúng lúc ấy Trương Văn Hổ dẫn thuyền lương tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết.
-22041. Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh.
-22042. Thượng hoàng cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ.
-22043. Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy.
-22044. Hai vua đem các tướng giặc bị bắt đến mộ vua Trần Thái Tông dâng lễ báo tin thắng trận. Quân Nguyên từng đào mộ ấy, nhưng không đụng tới quan tài.
-22045. Trong bài thơ mừng chiến thắng, nhà vua viết rằng đất nước hai phen khổ vì chiến trận, nhưng non sông ngàn đời vẫn vững bền.
+22039. Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?
+22040. Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước.
+22041. Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn.
+22042. Đúng lúc ấy Trương Văn Hổ dẫn thuyền lương tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết.
+22043. Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh.
+22044. Thượng hoàng cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ.
+22045. Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy.
+22046. Hai vua đem các tướng giặc bị bắt đến mộ vua Trần Thái Tông dâng lễ báo tin thắng trận. Quân Nguyên từng đào mộ ấy, nhưng không đụng tới quan tài.
+22047. Trong bài thơ mừng chiến thắng, nhà vua viết rằng đất nước hai phen khổ vì chiến trận, nhưng non sông ngàn đời vẫn vững bền.
 
 ## Hai ba ngày (tone: reflect)
-22046. Chiến thắng ấy có giá của nó. Cung điện ở Thăng Long bị giặc đốt hết, nên thượng hoàng phải ở tạm nơi dãy hành lang của quân canh gác.
-22047. Hốt Tất Liệt còn định đánh lần thứ tư, nhưng đầu năm một nghìn hai trăm chín mươi tư ông mất. Người kế vị chấm dứt chiến tranh.
-22048. Vậy Trần Khánh Dư đã chờ gì ở Vân Đồn? Chính thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương.
-22049. Cả hai lần nó đều tới, và cả hai lần nó rơi vào tay quân Đại Việt.
+22048. Chiến thắng ấy có giá của nó. Cung điện ở Thăng Long bị giặc đốt hết, nên thượng hoàng phải ở tạm nơi dãy hành lang của quân canh gác.
+22049. Hốt Tất Liệt còn định đánh lần thứ tư, nhưng đầu năm một nghìn hai trăm chín mươi tư ông mất. Người kế vị chấm dứt chiến tranh.
+22050. Vậy Trần Khánh Dư đã chờ gì ở Vân Đồn? Chính thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương.
+22051. Cả hai lần nó đều tới, và cả hai lần nó rơi vào tay quân Đại Việt.
 ## Ghi chú độ chắc (chủ kênh duyệt)
 - **Đã sửa sau khi đối chiếu Toàn thư (bản nm2 đầu viết từ nguồn thứ cấp có sai):** (1) bỏ ý "mở kho trống ở Thăng Long ba lần": Toàn thư không chép; (2) đoàn thuyền lương không chỉ bị đánh ở Vân Đồn: Trần Khánh Dư bắt thuyền vận tải ở Vân Đồn (tháng chạp 1287, không phải tháng giêng 1288), còn thuyền lương của Trương Văn Hổ mắc cọc và đắm gần hết ở Bạch Đằng; (3) bỏ ý "Thoát Hoan trúng tên độc khi rút": chi tiết đó thuộc năm 1285 (Lý Hằng) và Toàn thư chép Thoát Hoan trốn về Tư Minh; (4) bỏ "Phù Lỗ", "chín ngày ở Thăng Long", "vườn không nhà trống chuyển gạo đi": không có trong Toàn thư; (5) Hàm Tử, Chương Dương, Tây Kết sắp lại đúng thứ tự (tháng tư, mồng mười tháng năm, hai mươi tháng năm), Toa Đô bị chém ở Tây Kết; (6) bỏ tuổi 26 của Trần Bình Trọng, bỏ "hứa cho chức cao"; (7) bỏ mọi ngày dương lịch.
 - **Khuôn mở đầu mới:** cảnh Trần Khánh Dư bị xiềng giải về kinh, xin khất hai ba ngày (có thật, Toàn thư chép trực tiếp, kể đủ ở chương "Lần thứ ba"). Câu đầu 13 chữ. Hook không nói đáp án. Cuối video trả lời: thứ ông chờ là thuyền chở lương, và quân Nguyên cũng chờ đúng thứ đó ở Bạch Đằng.
@@ -78,7 +80,7 @@ Giọng: Sadaltager. 49 đoạn, 1.245 chữ (~6,9 phút). Thay cho `nguyen-mong
 
 
 ### Soát quy tắc 31/10/2026 (không dịch thô chữ Hán, câu liền mạch, câu hỏi vì sao)
-Bố cục mới: Hai ba ngày 0 giây (0.0%); Lần thứ nhất 30 giây (7.2%); Mượn đường 87 giây (20.9%); Lần thứ hai 120 giây (29.0%); Phản công 184 giây (44.4%); Lần thứ ba 225 giây (54.3%); Bạch Đằng 304 giây (73.1%); Hai ba ngày 383 giây (92.1%). Phản công bắt đầu dưới mốc 45%.
+Bố cục mới: Hai ba ngày 0 giây (0.0%); Lần thứ nhất 30 giây (7.0%); Mượn đường 87 giây (20.1%); Lần thứ hai 120 giây (27.9%); Phản công 184 giây (42.8%); Lần thứ ba 241 giây (55.9%); Bạch Đằng 319 giây (74.1%); Hai ba ngày 398 giây (92.4%). Phản công bắt đầu dưới mốc 45%.
 Từ Hán Việt đã đổi sang lời thường: thân hành thành đích thân; thế giặc thành giặc mạnh quá; lâu thuyền thành thuyền lớn; ngự thành ngồi; thủ cấp thành đầu; lương thảo, khí giới thành lương thực, vũ khí; tù binh thành quân giặc bị bắt; mai phục thành núp sẵn; khất thành hoãn; yến thành tiệc; bô lão thành các cụ già có uy tín trong dân; lăng thành mộ; xã tắc, ngựa đá, âu vàng thành lời thơ dễ hiểu; quan quân, nguyên soái, phó tướng, thủy quân đổi hoặc giải thích; Thượng hoàng được giới thiệu một lần là Trần Thánh Tông; nhập Tống được giải thích ngay trong câu.
 Câu hỏi vì sao đặt ở: hook (ông đang chờ thứ gì); Lần thứ nhất (liệu người Mông Cổ có bỏ đi); Mượn đường (vì sao họ cần mượn đường); Lần thứ hai (vì sao nhà vua vẫn tin sẽ thắng); Phản công (vì sao quân Nguyên bỏ chạy ở Hàm Tử); Lần thứ ba (vì sao Khánh Dư tin mình còn cơ hội); Bạch Đằng (vì sao giặc vẫn lao vào bãi cọc); phần kết (Khánh Dư chờ gì ở Vân Đồn). Mỗi câu hỏi đều có đáp án ngay đoạn sau, lấy từ sự việc trong sử.
 Chỗ cần chủ kênh để ý: bài thơ của vua được diễn lại bằng lời thường (đúng ý, mất vần); câu 'Thượng hoàng Trần Thánh Tông' là tên đã xác nhận qua niên đại nhưng nên đối chiếu thêm lần nữa với Toàn thư trước khi đọc giọng. Hook vẫn là bản Khánh Dư chờ chủ kênh chọn A–F.
@@ -86,3 +88,5 @@ Chỗ cần chủ kênh để ý: bài thơ của vua được diễn lại bằ
 Vườn không nhà trống (chủ kênh yêu cầu thêm 31/10/2026): Toàn thư không chép cụm này hay việc dân mang gạo bỏ làng; chủ kênh quyết định đưa vào vì đó là cách đánh đã áp dụng thật. Lời kể giữ đúng mức: lý lẽ của nhà vua (giặc đi xa, lương thực chở hàng vạn dặm) lấy từ Toàn thư; cụm 'vườn không nhà trống' nói là tên gọi về sau; câu rút đi không để lại lương thực cho giặc là cách hiểu chung của sử học, không phải trích Toàn thư. Đặt ở chương Lần thứ hai (2 đoạn). Nếu có nguồn ghi rõ (ví dụ sách của Hưng Đạo Vương hoặc sử Trung Quốc), bổ sung để chuyển thành sự kiện cụ thể.
 
 Hàm Tử (sửa 31/10/2026): Toàn thư chép quân của Chiêu Văn Vương Trần Nhật Duật có cả người Tống thật (nhà Tống mất, họ theo Đại Việt, Nhật Duật thu nạp), mặc áo Tống, nên quân Nguyên tưởng quân Tống sang giúp và thua chạy; Thượng hoàng còn phải sai người báo cho các quân biết đó là quân của Nhật Duật. Lời kể đã sửa cho đúng ý này. Cụm 'tan vỡ lớn' ở Chương Dương đổi thành 'thua một trận thảm hại'.
+
+Sửa lần hai (31/10/2026): (1) Hàm Tử: nói rõ người Tống theo Đại Việt sau khi nhà Tống bị nhà Nguyên diệt, và quân Nguyên thấy áo Tống thì tưởng một đạo quân Tống mới sang giúp, nên không còn mâu thuẫn. (2) Toa Đô: lời vua 'người làm bề tôi phải như thế này' được giải là trung với chủ đến chết (đúng lời bình của Ngô Sĩ Liên), thêm chi tiết có trong Toàn thư là vua cởi áo ngự liệm chôn nhưng ngầm giữ đầu tẩm dầu để răn vì Toa Đô mượn đường cướp nước ba năm. Toàn thư ghi chú có sách khác chép Toa Đô chết kiểu khác (rơi xuống nước, hoặc ở sông Cầu); lời kể theo Toàn thư.

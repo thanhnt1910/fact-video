@@ -1,0 +1,121 @@
+# Lý Thường Kiệt: một người, hai nước cờ (1075–1077): nội dung đăng (Facebook, YouTube, TikTok)
+
+Video dài: 8 phút 42 giây, bản đồ vector động (vây thành Ung Châu, giữ sông Như Nguyệt), giọng đọc Sadaltager, hiệu ứng âm thanh tự tổng hợp. Mã dựng: `phim_ban_do/vecmap/`.
+Ảnh bìa (có logo kênh đặt như video bản đồ): `assets/bia/LT1/LT1_ngang.jpg` (YouTube, Facebook). Mã: `assets/bia/LT1/tao_bia.py`.
+Lời kể lấy từ kịch bản `ke-hoach/ly-thuong-kiet-kich-ban-v3.md`; mọi chi tiết dưới đây nằm trong lời kể, không thêm chi tiết ngoài. Kịch bản v3 vẫn chờ chủ kênh duyệt.
+Chưa có clip dọc 60–80 giây kèm theo (quy tắc bố cục yêu cầu); sẽ làm khi chủ kênh duyệt bản dài.
+
+---
+
+## 1. FACEBOOK (bài đăng kèm video dài, copy nguyên khối)
+
+🏮 Ba mươi sáu người thân đã nằm dưới hố. Rồi viên quan giữ thành tự tay châm lửa thiêu mình.
+
+Đó là cảnh cuối cùng ở thành Ung Châu, sau hơn bốn mươi ngày bị vây.
+
+Đạo quân vây thành không đến từ phương bắc. Họ là quân Đại Việt, đã vượt biên giới tiến vào đất của một nước lớn gấp nhiều lần nước mình.
+
+🧭 Ai ra lệnh, và vì sao?
+Người đó là Lý Thường Kiệt, thái úy triều Lý.
+
+Năm 1075, nhà Tống chuẩn bị đánh Đại Việt. Hai người của nhà Tống là Thẩm Khởi và Lưu Di đóng chiến thuyền, luyện thủy quân và cấm buôn bán với Đại Việt ở vùng Quế Châu, sát biên giới.
+
+Triều đình nhà Lý chọn đánh trước. Lý do được nêu ra là phép thanh miêu của nhà Tống, một chính sách cho nông dân vay tiền khi lúa còn non.
+
+⚔️ Hai nước cờ
+Nước cờ thứ nhất: đánh vào châu sát biên giới. Quân Đại Việt hạ Khâm Châu, Liêm Châu, rồi vây Ung Châu hơn bốn mươi ngày. Viện binh của nhà Tống bị chặn ở ải Côn Lôn.
+
+Rồi quân Đại Việt rút về. Mục tiêu là phá thế chuẩn bị của quân Tống, không phải chiếm đất.
+
+Nước cờ thứ hai: giữ sông. Cuối năm 1076, đại quân nhà Tống do Quách Quỳ chỉ huy tràn xuống. Lý Thường Kiệt chặn họ ở sông Như Nguyệt, tức sông Cầu ngày nay.
+
+Quân Tống không vượt nổi sông, lại bị bệnh trong vùng đồng bằng ẩm thấp. Nhà Lý chủ động xin hòa, và Quách Quỳ phải lui binh.
+
+📌 Mốc thời gian
+• 1075: Lý Thường Kiệt lên chức thái úy, nhà Tống chuẩn bị đánh Đại Việt.
+• Cuối 1075 đến đầu 1076: quân Đại Việt đánh Khâm Châu, Liêm Châu, vây Ung Châu.
+• Cuối 1076: đại quân nhà Tống tràn xuống, chặn ở sông Như Nguyệt.
+• 1078–1084: hai bên đàm phán, nhà Tống trả lại một số châu và huyện.
+• 1105: Lý Thường Kiệt qua đời.
+
+🌙 Bài thơ bên sông
+Theo truyền thuyết, một đêm quân sĩ nghe từ đền thờ hai anh em họ Trương có tiếng đọc to một bài thơ. Bài thơ khẳng định sông núi nước Nam là của vua nước Nam, và báo trước kết cục thảm bại của quân xâm lược. Đây là truyền thuyết, không phải sử liệu chắc chắn.
+
+⚖️ Điều chưa rõ
+Các sách ghi khác nhau về số người chết ở Ung Châu, và về danh sách các châu nhà Tống giữ lại. Video chỉ nêu những gì hai nguồn cùng ghi. Chuyện dịch bệnh làm yếu quân Tống có trong sách Trung Quốc, không có trong Toàn thư.
+
+Nguồn sử xem ở bình luận đầu tiên 👇
+
+🤔 Theo bạn, đánh trước có phải là nước cờ đúng? Cho Người Gác Sử biết ở phần bình luận nhé 🏮
+
+#NguoiGacSu #LyThuongKiet #UngChau #NhuNguyet #LichSuVietNam
+
+### Bình luận đầu tiên (chủ page ghim)
+Video kể chuyện Lý Thường Kiệt qua hai trận: đánh sang vây thành Ung Châu (1075) và giữ sông Như Nguyệt (1077).
+
+📚 Nguồn: Đại Việt sử ký toàn thư (phần kỷ nhà Lý), đối chiếu Khâm định Việt sử thông giám cương mục và các sách Trung Quốc cùng thời (qua tổng hợp bài "Battle of Như Nguyệt River").
+
+Chỗ nào các sách ghi khác nhau (số người chết ở Ung Châu, năm trả lại dân và lính bị bắt, các châu nhà Tống giữ lại), video chỉ nêu phần chắc. Bài thơ "Nam quốc sơn hà" gắn với đền thờ hai anh em họ Trương chỉ là truyền thuyết. Phần "vì sao" trong video là cách hiểu của người kể, dựa trên sự kiện có ghi.
+
+---
+
+## 2. YOUTUBE
+
+### Tiêu đề (chọn một)
+1. Lý Thường Kiệt: vì sao một nước nhỏ dám đánh sang nước lớn? (Ung Châu và sông Như Nguyệt)
+2. Vây thành Ung Châu 40 ngày: chuyện thật về Lý Thường Kiệt (kể trên bản đồ)
+3. Một người, hai nước cờ: đánh trước rồi giữ sông
+
+(Tiêu đề 1 là bản khuyên dùng; dưới 100 ký tự.)
+
+### Mô tả (copy nguyên khối)
+Ba mươi sáu người thân đã nằm dưới hố. Rồi viên quan giữ thành tự tay châm lửa thiêu mình.
+
+Đạo quân vây thành ấy là quân Đại Việt, đã vượt biên giới đánh vào đất của một nước lớn gấp nhiều lần nước mình. Người ra lệnh là Lý Thường Kiệt, thái úy triều Lý.
+
+Video kể trọn câu chuyện trong gần 9 phút, trên bản đồ động có quân đội, vòng vây, dốc đất và hàng rào bên sông. Chỗ nào chỉ là truyền thuyết hoặc các sách ghi khác nhau, video nói rõ.
+
+Bạn sẽ xem:
+• Vì sao nhà Lý chọn đánh trước thay vì ngồi chờ
+• Vây thành Ung Châu hơn bốn mươi ngày và con dốc bằng bao đất
+• Vì sao quân Đại Việt rút về dù thắng lớn
+• Giữ sông Như Nguyệt trước đại quân Quách Quỳ
+• Bài thơ vang lên trong đêm bên sông (theo truyền thuyết)
+• Xin hòa, đòi lại đất bằng voi và lễ vật, những năm cuối đời của ông
+
+⏱️ Mục lục
+0:00 Mở đầu: bốn mươi ngày
+0:42 Người cầm cờ tiết
+1:19 Chờ hay đánh
+2:32 Đánh vào đâu
+3:31 Bốn mươi ngày bên tường thành
+4:20 Giữ sông bằng gì
+5:39 Bài thơ bên sông
+6:12 Khi nào thì dừng
+6:48 Đòi lại đất
+7:33 Những năm cuối
+8:12 Trở lại bên sông
+
+📚 Nguồn tham khảo: xem bình luận ghim.
+
+Video do AI hỗ trợ dựng: bản đồ vẽ bằng máy, giọng đọc tổng hợp, nhạc nền và hiệu ứng tự tổng hợp.
+
+👉 Đăng ký kênh Người Gác Sử để xem thêm những câu chuyện có thật trong lịch sử.
+Facebook: facebook.com/nguoigacsu
+
+#LýThườngKiệt #UngChâu #NhưNguyệt #LịchSửViệtNam #NgườiGácSử
+
+### Thẻ (tags)
+lý thường kiệt, ung châu, sông như nguyệt, nam quốc sơn hà, quách quỳ, tông đản, tô giám, nhà lý, nhà tống, kháng chiến chống tống, lịch sử việt nam, người gác sử
+
+### Bình luận ghim (chủ kênh)
+Video kể chuyện Lý Thường Kiệt qua hai trận: đánh sang vây thành Ung Châu (1075) và giữ sông Như Nguyệt (1077).
+
+📚 Nguồn: Đại Việt sử ký toàn thư (phần kỷ nhà Lý), đối chiếu Khâm định Việt sử thông giám cương mục và các sách Trung Quốc cùng thời.
+
+Số người chết ở Ung Châu, năm trả lại dân và lính bị bắt, danh sách các châu nhà Tống giữ lại: các sách ghi khác nhau, video chỉ nêu phần chắc. Bài thơ bên sông là truyền thuyết.
+
+---
+
+## 3. TIKTOK (chưa có clip dọc; dùng khi có)
+Ba mươi sáu người thân nằm dưới hố, rồi viên quan giữ thành tự thiêu mình. Vây thành bốn mươi ngày, ai ra lệnh? Xem trọn câu chuyện Lý Thường Kiệt ở video đầy đủ trên kênh 🏮 #NguoiGacSu #LyThuongKiet #LichSuVietNam

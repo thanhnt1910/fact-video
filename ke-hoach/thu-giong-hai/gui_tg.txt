@@ -1,3 +1,4 @@
-Bìa mới v2 Lê Hoàn
-assets/bia/LH6/LH6_v2_dai.jpg
-assets/bia/LH6/LH6_v2_tiktok.jpg
+lt1 1793413800
+assets/bia/LT1/LT1_video_xem_thu.mp4
+assets/bia/LT1/LT1_ngang.jpg
+telegram/lt1_mo_ta.txt

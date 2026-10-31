@@ -104,8 +104,8 @@ def cricket_train(dur):
 
 def build():
     voice = np.zeros(N, np.float32)
-    for i, st in SP["starts"].items():
-        n = ID_BASE + int(i)
+    for i, st in SP.get("pstarts", SP["starts"]).items():
+        n = int(i) if "pstarts" in SP else ID_BASE + int(i)
         raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / f"{VOICE_DIR}/{n}.mp3"), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                              capture_output=True, check=True).stdout
         put(voice, np.frombuffer(raw, np.float32), float(st))

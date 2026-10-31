@@ -157,7 +157,11 @@ function T(t){
    const d=pathD(it.pts);const w=(it.w||6)/SC;
    el('path',{d,fill:'none',stroke:'#3b2f1d','stroke-width':w*.5,'stroke-dasharray':`${w*.3} ${w*2}`,'stroke-linecap':'round',opacity:.35*a},dyn);
    el('path',{d,fill:'none',stroke:it.col,'stroke-width':w*2.2,'stroke-linecap':'round',filter:'url(#gl)',opacity:.55*a,'stroke-dasharray':`${L*u} ${L+10}`},dyn);
-   el('path',{d,fill:'none',stroke:it.col,'stroke-width':w,'stroke-linecap':'round',opacity:a,'stroke-dasharray':`${L*u} ${L+10}`},dyn)}
+   el('path',{d,fill:'none',stroke:it.col,'stroke-width':w,'stroke-linecap':'round',opacity:a,'stroke-dasharray':`${L*u} ${L+10}`},dyn)
+   if(it.arrow&&u>.02){const tip=polyAt(it.pts,u),bk=polyAt(it.pts,Math.max(0,u-.03)),an=Math.atan2(tip[1]-bk[1],tip[0]-bk[0]),r=w*3.2;
+    el('path',{d:`M${tip[0]+Math.cos(an)*r},${tip[1]+Math.sin(an)*r} L${tip[0]+Math.cos(an+2.5)*r*1.2},${tip[1]+Math.sin(an+2.5)*r*1.2} L${tip[0]+Math.cos(an-2.5)*r*1.2},${tip[1]+Math.sin(an-2.5)*r*1.2}z`,fill:it.col,stroke:'#2b2218','stroke-width':w*.25,'stroke-linejoin':'round',opacity:a},dyn)}
+   if(it.chev){const m=Math.floor(L/(w*16));for(let c=0;c<m;c++){const uu=((c/m)+t*.18)%1;if(uu>u)continue;const p0=polyAt(it.pts,uu),p1=polyAt(it.pts,Math.min(1,uu+.015)),an=Math.atan2(p1[1]-p0[1],p1[0]-p0[0]),r=w*2.2;
+    el('path',{d:`M${p0[0]+Math.cos(an+2.4)*r},${p0[1]+Math.sin(an+2.4)*r} L${p0[0]},${p0[1]} L${p0[0]+Math.cos(an-2.4)*r},${p0[1]+Math.sin(an-2.4)*r}`,fill:'none',stroke:'#fff',opacity:.8*a,'stroke-width':w*.5,'stroke-linecap':'round','stroke-linejoin':'round'},dyn)}}}
   else if(it.k=='area'){const p=it.pts.map(x=>P(x[0],x[1]).join(',')).join(' ');el('polygon',{points:p,fill:it.col,opacity:(it.op||.25)*a,stroke:it.col,'stroke-width':2/SC,'stroke-dasharray':`${8/SC} ${6/SC}`},dyn)}
   else if(it.k=='army'&&it.u){armyM(t,it,a)}
   else if(it.k=='volley'){const a0=P(it.a[0],it.a[1]),a1=P(it.b[0],it.b[1]);const n=it.n||14;for(let k=0;k<n;k++){const f=((t*it.sp+k/n*1.7)%1);const sx=(k%5-2)*FS(10),sy=((k*3)%4-1.5)*FS(8);const px=f2=>[lerp(a0[0],a1[0],f2)+sx*(1-f2),lerp(a0[1],a1[1],f2)+sy*(1-f2)-Math.sin(f2*Math.PI)*FS(it.h||60)];const [x,y]=px(f),[x2,y2]=px(Math.max(0,f-.05));el('path',{d:`M${x2},${y2} L${x},${y}`,stroke:it.col||'#fff3c7','stroke-width':FS(2.4),'stroke-linecap':'round',opacity:a*(f<.96?.95:0)},dyn)}}
@@ -179,6 +183,21 @@ function T(t){
    else if(it.shape=='flag'){flag(g,0,0,it.col||COL.v,s/24)}
    else if(it.shape=='dot'){el('circle',{r:s*.5,fill:it.col,stroke:'#2b2218','stroke-width':s*.12},g)}
    else if(it.shape=='arrow'){const ang=it.ang||0;el('path',{d:`M${-s*2},0 L${s*2},0 M${s*2},0 l${-s},${-s} M${s*2},0 l${-s},${s}`,stroke:it.col||'#b3261e','stroke-width':s*.4,'stroke-linecap':'round',transform:`rotate(${ang})`},g)}}
+  else if(it.k=='clash'){const [x,y]=P(it.lon,it.lat),q=FS(1),c1=it.c1||COL.v,c2=it.c2||COL.s,m=it.n||3;
+   for(let j=0;j<m;j++){const sw=Math.sin(t*5+j*2.1)*q*5,yy=y+(j-(m-1)/2)*q*17;man(dyn,x-q*21+sw+(j%2)*q*5,yy,c1,q*17,a,1,t*8+j);man(dyn,x+q*21-sw-(j%2)*q*5,yy,c2,q*17,a,-1,t*8+j+1.3)}
+   for(let k=0;k<5;k++){const ph=((t*2.4+k*.2)%1),an=-1.2+k*.95,r=q*(15+(k%2)*9),cx=x+Math.cos(k*2.3)*q*9,cy=y+Math.sin(k*3.1)*q*13-q*8;
+    el('path',{d:`M${cx+Math.cos(an)*r},${cy+Math.sin(an)*r} A${r},${r} 0 0 1 ${cx+Math.cos(an+1.5)*r},${cy+Math.sin(an+1.5)*r}`,stroke:'#fff7d6','stroke-width':q*3.4*(1-ph)+q*.5,fill:'none','stroke-linecap':'round',opacity:a*(1-ph)*(ph<.75?1:0)},dyn);
+    for(let z=0;z<3;z++){const sa=an+z*2.1+ph*3,sr=q*(8+ph*26);el('path',{d:`M${cx+Math.cos(sa)*sr},${cy+Math.sin(sa)*sr} l${Math.cos(sa)*q*7},${Math.sin(sa)*q*7}`,stroke:'#ffd84a','stroke-width':q*2.2,'stroke-linecap':'round',opacity:a*(1-ph)*(ph<.6?1:0)},dyn)}}
+   for(let k=0;k<4;k++){const ph=((t*.8+k*.25)%1);el('ellipse',{cx:x+(k-1.5)*q*18,cy:y+q*20-ph*q*14,rx:q*(8+ph*14),ry:q*(5+ph*7),fill:'#b59a6a',opacity:.4*(1-ph)*a},dyn)}
+   const sx=x,sy=y-q*52;el('path',{d:`M${sx-q*17},${sy-q*13} L${sx+q*17},${sy+q*13} M${sx+q*17},${sy-q*13} L${sx-q*17},${sy+q*13}`,stroke:'#dfe3e8','stroke-width':q*4.5,'stroke-linecap':'round',opacity:a*(.65+.35*Math.sin(t*9))},dyn)}
+  else if(it.k=='shell'){const a0=P(it.a[0],it.a[1]),a1=P(it.b[0],it.b[1]),q=FS(1),n=it.n||4,hh=q*(it.h||90);
+   const arm=Math.sin(t*it.sp*6.283)*.5;const g=el('g',{transform:`translate(${a0[0]},${a0[1]})`,opacity:a},dyn);
+   el('path',{d:`M${-q*16},${q*8} L${q*16},${q*8} L0,${-q*14}z`,fill:'#7a5634',stroke:INK,'stroke-width':q*2.6,'stroke-linejoin':'round'},g);
+   el('path',{d:`M${-q*22*Math.cos(arm)},${q*(-14+22*Math.sin(arm))} L${q*22*Math.cos(arm)},${q*(-14-22*Math.sin(arm))}`,stroke:'#563a22','stroke-width':q*4,'stroke-linecap':'round'},g);
+   for(let k=0;k<n;k++){const f=((t*it.sp+k/n)%1);const px=f2=>[lerp(a0[0],a1[0],f2),lerp(a0[1],a1[1],f2)-Math.sin(f2*Math.PI)*hh];
+    if(f<.9){const [x,y]=px(f/.9),[x2,y2]=px(Math.max(0,f/.9-.06));el('path',{d:`M${x2},${y2} L${x},${y}`,stroke:'#6b645c','stroke-width':q*3,'stroke-linecap':'round',opacity:a*.5},dyn);el('circle',{cx:x,cy:y,r:q*5.5,fill:'#4a4440',stroke:INK,'stroke-width':q*1.2,opacity:a},dyn)}
+    else{const u=(f-.9)/.1,[x,y]=a1;el('circle',{cx:x,cy:y,r:q*(8+u*34),fill:'none',stroke:'#ffd84a','stroke-width':q*(5*(1-u)+1),opacity:a*(1-u)},dyn);
+     for(let z=0;z<6;z++){const an=z*1.05;el('ellipse',{cx:x+Math.cos(an)*q*u*30,cy:y+Math.sin(an)*q*u*20-q*u*10,rx:q*(7+u*8),ry:q*(5+u*5),fill:'#6b645c',opacity:.55*(1-u)*a},dyn)}}}}
   else if(it.k=='siege')siege(t,it);
   else if(it.k=='river')river(t,it);
  }

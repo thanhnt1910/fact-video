@@ -10,11 +10,17 @@ DUR = json.load(open(ROOT / "assets/thu_giong_hai/nm2_chuan/thoi_luong.json"))
 BASE = 22000
 LEAD, GAP, TAIL = 1.0, 0.35, 4.0
 S, D, TXT = {}, {}, {}
+PS = []  # từng đoạn đọc giọng (đã tách câu): (bắt đầu, độ dài, chữ)
 t = LEAD
 for b in KB:
-    i = b["n"] - BASE
-    S[i], D[i], TXT[i] = t, DUR[str(b["n"])], b["text"]
-    t += D[i] + GAP
+    i = b.get("goc", b["n"] - BASE)  # i: số thứ tự đoạn gốc trong kịch bản của chủ kênh (65); các cảnh bên dưới đánh số theo i
+    d = DUR[str(b["n"])]
+    PS.append((t, d, b["text"]))
+    if i not in S:
+        S[i] = t
+    D[i] = t + d - S[i]  # tới hết mảnh cuối của đoạn gốc
+    TXT[i] = (TXT.get(i, "") + " " + b["text"]).strip()
+    t += d + GAP
 TOTAL = t + TAIL
 A = lambda i, off=0.0: S[i] + off
 E_ = lambda i: S[i] + D[i]
@@ -62,8 +68,8 @@ def chip(text, i0, i1, w=520):
     add("chip", A(i0), E_(i1), text=text, w=w, fi=0.6, fo=0.6, x=70, y=110)
 
 
-def route(rid, pts, col, i, off, dur, t1_i=None, w=6, fo=0.8):
-    add("route", A(i, off), E_(t1_i or i), id=rid, pts=[list(p) for p in pts], col=col, dur=dur, w=w, fi=0.2, fo=fo)
+def route(rid, pts, col, i, off, dur, t1_i=None, w=6, fo=0.8, **kw):
+    add("route", A(i, off), E_(t1_i or i), id=rid, pts=[list(p) for p in pts], col=col, dur=dur, w=w, fi=0.2, fo=fo, **kw)
 
 
 def army(pts, side, i, off, dur, n=12, t1_i=None, stay=True, flag=True, u="inf", col=None):
@@ -89,14 +95,13 @@ def fire(p, t0, t1, s=18):
 
 
 # ---- phụ đề: mỗi đoạn một khối, hai đến ba dòng (khi có mốc nhận dạng thì thay bằng phụ đề theo chữ) ----
-for i in S:
-    lines = textwrap.wrap(TXT[i], 52)
-    add("sub", A(i, 0.05), E_(i) + 0.1, lines=lines, fi=0.25, fo=0.25)
+for st, du, tx in PS:
+    add("sub", st + 0.05, st + du + 0.1, lines=textwrap.wrap(tx, 52), fi=0.25, fo=0.25)
 
 # ============ Chương 1: Hai ba ngày (1–4) ============
 C(1, 106.65, 21.15, 2.2); C(2, 106.9, 21.05, 2.4); C(3, 106.6, 21.1, 3.0); C(4, 106.4, 21.0, 4.0)
 city("Thăng Long", TL, "v", 1, 9, 28); city("Vân Đồn", VD, "v", 1, 4, 28)
-route("giai", [VD, (106.9, 21.2), (106.3, 21.2), TL], V, 1, 0.5, 6.0, t1_i=2, w=5)
+route("giai", [VD, (106.9, 21.2), (106.3, 21.2), TL], V, 1, 0.5, 6.0, t1_i=2, w=5, arrow=True)
 army([VD, (106.9, 21.2), (106.3, 21.2), TL], "v", 1, 0.8, 7.0, n=3, t1_i=2, flag=True, u="cav")
 card("Trần Khánh Dư", "bị xiềng tay, giải về kinh", 1, 0.4, 3.4)
 army([(108.4, 20.7), (107.6, 20.85), (106.9, 21.0)], "s", 2, 0.4, 6.0, n=10, t1_i=2, flag=True, u="ship")
@@ -136,7 +141,7 @@ add("mark", A(18, 3.0), E_(18), shape="q", lon=106.2, lat=21.35, s=40, fi=0.3, f
 C(19, 106.0, 20.5, 4.5); C(20, 106.3, 21.5, 2.0); C(21, 105.9, 21.1, 1.2); C(22, 105.9, 21.1, 1.2)
 chip("Năm 1284", 19, 20, 400)
 city("Chiêm Thành", CT, "v", 19, 19, 26); city("Lạng Sơn", LS, "v", 19, 22, 26); city("Thăng Long", TL, "v", 19, 22, 28)
-route("muon", [LS, (106.4, 20.8), (105.8, 19.8), CT], "#3a64a8", 19, 0.5, 5.0, t1_i=19, w=5)
+route("muon", [LS, (106.4, 20.8), (105.8, 19.8), CT], "#3a64a8", 19, 0.5, 5.0, t1_i=19, w=5, arrow=True)
 army([(107.2, 22.3), LS], "s", 20, 0.3, 4.0, n=16, t1_i=22, flag=True, u="cav")
 card("Thoát Hoan", "con trai Hốt Tất Liệt", 20, 2.4, 3.2, col=SO)
 card("Trần Thánh Tông", "triệu các cụ già về điện Diên Hồng", 21, 0.3, 4.5, w=1100)
@@ -194,7 +199,7 @@ army([(107.3, 21.0), (107.5, 21.08)], "v", 42, 0.5, 3.5, n=8, t1_i=43, flag=True
 add("ring", A(43, 1.8), E_(43), lon=107.62, lat=21.02, col="#b3261e", dur=1.6); fx("clash", A(43, 1.8)); fx("water", A(43, 1.8), E_(43))
 mark("x", (107.68, 21.0), 43, 2.4); mark("x", (107.74, 21.0), 43, 2.8)
 chip("Lương thực, khí giới bị bắt", 43, 44, 700)
-route("tin", [VD, (107.0, 21.5), LS], "#3a64a8", 45, 0.5, 4.0, w=4)
+route("tin", [VD, (107.0, 21.5), LS], "#3a64a8", 45, 0.5, 4.0, w=4, arrow=True)
 army([VD, (107.0, 21.5), LS], "s", 45, 0.8, 5.0, n=6, t1_i=45, stay=False, flag=False, u="inf")
 fire(LH, A(46, 0.9), E_(46), 20); fx("fire", A(46, 0.9), E_(46))
 add("mark", A(47, 0.4), E_(47), shape="q", lon=106.8, lat=20.95, s=40, fi=0.3, fo=0.4)
@@ -216,7 +221,7 @@ fire((106.78, 20.94), A(51, 4.0), E_(52), 16); fx("fire", A(51, 4.0), E_(52))
 add("ring", A(50, 3.0), E_(51), lon=106.76, lat=20.95, col="#b3261e", dur=1.6); fx("clash", A(50, 3.0)); fx("drum", A(50, 3.0), E_(51)); fx("water", A(48), E_(51))
 add("big", A(52, 0.3), A(52, 3.6), text="400 THUYỀN", col="#7a1f1f", fi=0.4, fo=0.8, y=360, fs=120)
 card("Ô Mã Nhi", "bị bắt sống", 52, 3.4, 3.0, col=SO)
-route("tron", [BDG, (107.0, 21.6), TM], "#3a64a8", 52, 1.0, 4.0, w=4)
+route("tron", [BDG, (107.0, 21.6), TM], "#3a64a8", 52, 1.0, 4.0, w=4, arrow=True, chev=True)
 army([BDG, (107.0, 21.6), TM], "s", 52, 1.2, 5.0, n=6, t1_i=52, stay=False, flag=False, u="inf")
 city("Tư Minh", TM, "s", 52, 52, 24)
 card("Trần Thánh Tông", "mời các tướng bị bắt", 53, 0.3, 3.0)
@@ -234,13 +239,119 @@ chip("Năm 1294: Hốt Tất Liệt qua đời", 59, 59, 900)
 army([LS, (107.1, 22.6), (107.4, 23.1)], "s", 59, 1.6, 4.0, n=12, t1_i=59, stay=False, flag=False, u="cav")
 city("Vân Đồn", VD, "v", 60, 65, 26); city("Bạch Đằng", BDG, "v", 60, 65, 26)
 add("ring", A(60, 0.4), A(60, 2.6), lon=VD[0], lat=VD[1], col="#c9742a", dur=1.6); add("ring", A(60, 3.8), A(60, 6.2), lon=BDG[0], lat=BDG[1], col="#c9742a", dur=1.6)
-chip("Cả hai lần, thuyền lương rơi vào tay Đại Việt", 61, 61, 1100)
+chip("Thuyền lương bị đánh ở Vân Đồn, không đến được Bạch Đằng", 61, 61, 1250)
 city("Bình Than", BT, "v", 62, 63, 26)
 add("mark", A(62, 1.8), E_(62), shape="flag", lon=BT[0], lat=BT[1], s=30, col=V, fi=.4, fo=.6)
 card("Trần Quốc Toản", "chết khi đang đuổi đánh quân Nguyên", 62, 0.3, 4.0, w=1100)
 card("Trần Khánh Dư", "bị dân Vân Đồn kiện, vua vẫn không bỏ", 63, 0.3, 4.5, w=1200)
 add("night", A(65, 0.0), TOTAL - 0.1, a=0.45, moon=True, fi=1.5, fo=1.0)
 fx("wind", A(57), TOTAL); fx("gong", A(62, 0.3))
+
+
+# ============ Hiệu ứng bổ sung (giao chiến, rút lui, pháo, mũi tên) ============
+def melee(p, i, off, t1_i=None, n=3, hits=True):
+    t0, t1 = A(i, off), E_(t1_i or i)
+    add("clash", t0, t1, lon=p[0], lat=p[1], n=n, c1=V, c2=SO, fi=0.3, fo=0.5)
+    if hits:
+        tt = t0
+        while tt < t1 - 0.5:
+            fx("clash", tt); tt += 1.6
+
+
+def arrows(a, b, i, off, t1_i=None, n=12, col=None, h=60):
+    t0, t1 = A(i, off), E_(t1_i or i)
+    d = add("volley", t0, t1, a=list(a), b=list(b), n=n, h=h, sp=0.7, fi=0.3, fo=0.5)
+    if col:
+        d["col"] = col
+    fx("arrow", t0, t1)
+
+
+def shell(a, b, i, off, t1_i=None, n=4, h=90):
+    t0, t1 = A(i, off), E_(t1_i or i)
+    add("shell", t0, t1, a=list(a), b=list(b), n=n, h=h, sp=0.35, fi=0.3, fo=0.5)
+    tt = t0 + 0.6
+    while tt < t1 - 0.3:
+        fx("drum", tt, tt + 1.0); tt += 2.8
+
+
+def retreat(rid, pts, side, i, off, dur, t1_i=None, n=10, u="inf", col=None, dest=True):
+    c = V if side == "v" else SO
+    route(rid, pts, c, i, off, dur, t1_i=t1_i, w=6, arrow=True, chev=True)
+    army(pts, side, i, off + 0.2, dur, n=n, t1_i=t1_i, flag=True, u=u, col=col)
+    if dest:
+        add("mark", A(i, off + dur * 0.8), E_(t1_i or i), shape="flag", lon=pts[-1][0], lat=pts[-1][1], s=26, col=c, fi=0.4, fo=0.6)
+        add("ring", A(i, off + dur * 0.9), E_(t1_i or i), lon=pts[-1][0], lat=pts[-1][1], col=c, dur=1.8)
+
+
+# Chương 1
+army([(108.9, 20.8), (108.2, 20.95), VD], "s", 4, 0.3, 6.0, n=8, t1_i=4, flag=False, u="ship", col=BRN)
+# Chương 2: Bình Lệ Nguyên, Đông Bộ Đầu
+arrows((105.2, 21.5), (105.58, 21.3), 5, 2.8, 6, 12, col="#cfe0ff")
+melee(BLN, 5, 3.6, 6)
+retreat("lui1", [BLN, (105.7, 21.2), TL], "v", 6, 0.3, 5.0, n=6, u="ship")
+arrows((105.7, 21.05), (105.95, 21.03), 9, 2.0, 9, 14)
+melee((TL[0] + .04, TL[1] + .01), 9, 2.4, 9)
+route("mong_lui", [(TL[0] + .06, TL[1] + .04), (105.5, 21.4), QH], SO, 10, 0.2, 4.5, t1_i=10, arrow=True, chev=True)
+arrows((105.45, 21.42), (105.25, 21.5), 10, 1.2, 10, 10)
+melee((105.12, 21.55), 10, 2.6, 10, n=2)
+# Chương 3: Bình Than
+army([(105.9, 20.7), (106.15, 20.95), (106.4, 21.12)], "v", 12, 0.6, 5.0, n=4, t1_i=13, flag=False, u="ship")
+army([(107.0, 21.4), (106.7, 21.25), (106.45, 21.17)], "v", 12, 1.0, 5.0, n=4, t1_i=13, flag=False, u="ship")
+route("toan", [BT, (106.45, 21.25), (106.3, 21.4)], V, 17, 1.2, 3.5, t1_i=18, w=5, arrow=True)
+# Chương 4
+route("nguyen_tien", [(107.2, 22.3), LS, (106.4, 21.5), TL], SO, 20, 0.3, 6.0, t1_i=22, w=6, arrow=True, chev=True)
+for q, st in enumerate([(105.3, 21.3), (106.5, 21.5), (105.9, 20.3)]):
+    army([st, (st[0] * .6 + TL[0] * .4, st[1] * .6 + TL[1] * .4), TL], "v", 21, 0.3 + q * 0.5, 4.5, n=4, t1_i=22, flag=False, u="inf", col=BRN)
+# Chương 5: lần thứ hai
+retreat("lui2", [VK, (106.1, 21.0), TL], "v", 23, 3.0, 4.0, t1_i=24, n=8, dest=False)
+arrows((106.6, 21.2), (106.4, 21.08), 23, 1.8, 24, 12, col="#cfe0ff")
+melee(VK, 23, 2.2, 24, hits=True)
+route("toado", [(105.15, 19.0), TH, (105.9, 20.3), DM], SO, 24, 0.3, 8.0, t1_i=26, w=6, arrow=True, chev=True)
+melee(DM, 25, 0.3, 25, n=2)
+arrows((106.15, 20.65), (106.03, 20.6), 25, 0.4, 25, 8, col="#cfe0ff")
+retreat("thanhhoa", [TL, (105.9, 20.4), TH], "v", 27, 0.4, 6.0, n=10)
+for q, st in enumerate([(105.7, 21.15), (106.0, 20.9)]):
+    army([TL, st, (105.3, 20.8)], "v", 28, 0.3 + q * 0.6, 5.0, n=6, t1_i=29, flag=False, u="inf", col=BRN)
+# Chương 6: phản công
+arrows((106.15, 20.8), HT, 30, 3.0, 33, 14)
+arrows((105.88, 20.86), (105.98, 20.84), 31, 0.2, 32, 10, col="#cfe0ff")
+melee(HT, 30, 3.3, 33)
+shell((106.2, 20.7), (105.98, 20.84), 33, 0.2, 33, n=3, h=70)
+route("nguyen_lui1", [HT, (105.88, 20.9), (105.7, 21.1)], SO, 33, 0.3, 3.5, t1_i=33, arrow=True)
+arrows((105.95, 21.02), (105.84, 20.99), 34, 0.6, 34, 12)
+shell((105.98, 21.06), (105.76, 20.99), 34, 0.4, 34, n=3, h=80)
+melee(CD, 34, 1.6, 34)
+melee(TKT, 35, 1.4, 35)
+arrows((106.34, 20.8), TKT, 35, 0.8, 35, 12)
+retreat("omn", [TKT, (106.5, 20.45), (107.0, 20.3)], "s", 35, 2.4, 4.0, n=4, u="ship", dest=False)
+route("nguyen_lui2", [CD, (105.7, 21.4), LS], SO, 35, 0.2, 3.0, t1_i=35, arrow=True)
+# Chương 7: lần thứ ba
+route("bo3", [(107.0, 22.5), LS, (106.6, 21.5), VK], SO, 38, 0.3, 10.0, t1_i=40, w=6, arrow=True, chev=True)
+route("thuy3", [(108.6, 20.7), (107.6, 21.0), VD, (106.8, 20.9), LH], SO, 38, 0.5, 14.0, t1_i=40, w=6, arrow=True, chev=True)
+arrows((107.35, 21.14), (107.6, 21.02), 42, 0.4, 43, 14)
+shell((107.3, 21.18), (107.66, 21.01), 43, 0.4, 43, n=4, h=70)
+melee((107.68, 21.0), 43, 1.4, 44)
+fire((107.7, 21.0), A(43, 3.0), E_(44), 16); fx("fire", A(43, 3.0), E_(44))
+army([VD, (107.3, 21.0), (106.9, 21.0)], "v", 44, 0.5, 5.0, n=6, t1_i=45, flag=True, u="ship", col=BRN)
+# Chương 8: Bạch Đằng
+route("duoi", [(106.62, 21.02), (106.82, 20.91), (106.88, 20.84)], V, 49, 0.4, 3.5, t1_i=49, w=6, arrow=True)
+arrows((106.70, 21.03), (106.78, 20.95), 50, 0.5, 51, 14)
+arrows((106.88, 20.86), (106.78, 20.95), 50, 1.2, 51, 12, col="#cfe0ff")
+shell((106.66, 21.05), (106.78, 20.94), 50, 3.0, 51, n=3, h=70)
+melee((106.76, 20.95), 50, 3.0, 51)
+army([(106.5, 21.1), (106.45, 21.0), LH], "v", 55, 0.4, 5.0, n=8, t1_i=56, flag=True, u="inf")
+# Chương 9
+route("rut3", [LS, (107.1, 22.6), (107.4, 23.1)], SO, 59, 1.4, 4.0, t1_i=59, arrow=True, chev=True)
+army([(106.9, 21.3), (107.05, 21.55), (107.15, 21.65)], "v", 62, 0.3, 3.5, n=6, t1_i=62, flag=True, u="cav")
+melee((107.18, 21.68), 62, 3.0, 62, n=2)
+
+# ---- máy quay trôi chậm khi một cảnh đứng lâu ----
+cam.sort(key=lambda k: k[0])
+for q in range(1, len(cam)):
+    a, b = cam[q - 1], cam[q]
+    if b[0] - a[0] > 2.5 and abs(a[1] - b[1]) < 1e-9 and abs(a[2] - b[2]) < 1e-9 and abs(a[3] - b[3]) < 1e-9:
+        sg = 1 if q % 2 else -1
+        b[1] += sg * 0.05 * b[3]; b[2] += 0.025 * b[3]; b[3] *= 0.9
 
 # ---- camera ----
 cam.sort(key=lambda k: k[0])
@@ -249,5 +360,5 @@ if cam[0][0] > 0:
 cam.append([TOTAL] + cam[-1][1:])
 SPEC = {"dur": round(TOTAL, 2), "cam": cam, "items": items, "fade0": 1.0, "fade1": 3.0, "starts": {i: round(S[i], 2) for i in S}}
 (HERE / "spec_nm2.js").write_text("window.SPEC=" + json.dumps(SPEC, ensure_ascii=False) + ";", encoding="utf-8")
-json.dump({"dur": TOTAL, "sfx": sfx, "starts": {i: S[i] for i in S}, "durs": {i: D[i] for i in D}}, open(HERE / "sfx_nm2.json", "w"), indent=1)
+json.dump({"dur": TOTAL, "sfx": sfx, "starts": {i: S[i] for i in S}, "pstarts": {str(b["n"]): PS[k][0] for k, b in enumerate(KB)}, "durs": {i: D[i] for i in D}}, open(HERE / "sfx_nm2.json", "w"), indent=1)
 print("tổng", round(TOTAL, 1), "giây =", round(TOTAL / 60, 2), "phút;", len(items), "mục hình;", len(sfx), "mục âm thanh")

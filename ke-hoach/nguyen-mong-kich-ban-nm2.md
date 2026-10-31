@@ -48,7 +48,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22033. Ít lâu sau, ở Chương Dương, Trần Quang Khải cùng Hoài Văn hầu Trần Quốc Toản, cậu bé bóp nát quả cam năm nào, đánh quân Nguyên thua một trận thảm hại.
 22034. Sau trận ấy, Thoát Hoan rút chạy qua sông Lô. Mười ngày sau, ở Tây Kết, quân Đại Việt chém đầu Toa Đô, còn Ô Mã Nhi trốn bằng một thuyền.
 22035. Nhìn đầu Toa Đô, nhà vua xót thương, nói rằng làm bề tôi phải trung với chủ đến chết như thế. Rồi ngài cởi áo ngự, sai quân liệm chôn.
-22036. Nhưng ngài ngầm giữ lại đầu, tẩm dầu để răn, vì Toa Đô mượn đường cướp nước ta đã ba năm.
+22036. Nhưng ngài ngầm sai giữ lại đầu Toa Đô, tẩm dầu để răn đe kẻ khác. Lý do là Toa Đô đã mượn đường cướp nước ta suốt ba năm.
 
 ## Lần thứ ba (tone: tense)
 22037. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.

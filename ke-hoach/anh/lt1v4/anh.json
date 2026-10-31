@@ -687,6 +687,110 @@
     "ngua": 0
    },
    "ghi_chu": "Ứng viên Character Reference Tông Đản (râu đen ngắn, C, visual_only). Duyệt face_only. Áo xanh ô-liu giống quân phục: KHÔNG sao chép trang phục."
+  },
+  {
+   "image_id": "L04-a1",
+   "scene_id": "L04",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "6cea0e9dd3aefd80c97252b6c540495617992836a674f284760c07311d4b10b8",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 13373520,
+   "reference_images": [
+    {
+     "image_id": "CR-LTK-B2",
+     "purpose": "face_only"
+    }
+   ],
+   "file": "assets/anh_lt1v4/L04_a1.jpg",
+   "file_sha256": "47a7521ed1254b54c10b64829ae1f6f90ae1f1074c201e81b1a44daa9317513c",
+   "attempt": 1,
+   "status": "REGENERATE",
+   "duoc_dung_lam_tham_chieu": false,
+   "dem_thu_cong": {
+    "nguoi": 1,
+    "ngua": 0,
+    "voi": 0,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 1,
+    "ngua": 0,
+    "voi": 0
+   },
+   "ghi_chu": "Vẽ thử lần 1: Có ổ cắm điện hiện đại trên tường phải (sai thời đại); Bình thủy tinh trong suốt kiểu hiện đại; Bản đồ có đường và sông như bản đồ hiện đại; Mặt nhìn thẳng, không quay đi như kế hoạch"
+  },
+  {
+   "image_id": "L32-a1",
+   "scene_id": "L32",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "c83b56f2ccf4ee428aa1f661a2080dc28c6f75d2412d54943395d00315eaec96",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 11662876,
+   "reference_images": [],
+   "file": "assets/anh_lt1v4/L32_a1.jpg",
+   "file_sha256": "93ad3184c1dff0a71b73da234bea1ba011d54125d205909db3aca231f63051c9",
+   "attempt": 1,
+   "status": "REGENERATE",
+   "duoc_dung_lam_tham_chieu": false,
+   "dem_thu_cong": {
+    "nguoi": 9,
+    "ngua": 0,
+    "voi": 4,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 6,
+    "ngua": 0,
+    "voi": 5
+   },
+   "ghi_chu": "Vẽ thử lần 1: Số người sai: thấy khoảng 9 người, kế hoạch 6 (1 sứ + 5 người dắt voi); Chỉ thấy khoảng 4 voi, kế hoạch 5; Người dắt đầu bị trán/vòi voi che, voi đầu hòa vào người; Nhiều người đi sau không dắt voi"
+  },
+  {
+   "image_id": "L33-a1",
+   "scene_id": "L33",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "f5595013f151788a58035f70e2905d86d3b1bda9e6d05bc310d373304e85d4f7",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 13469380,
+   "reference_images": [],
+   "file": "assets/anh_lt1v4/L33_a1.jpg",
+   "file_sha256": "6f2dcd8362d3c813a292f28dfecf3371896dbaf7a6b88500c8645642846e46b4",
+   "attempt": 1,
+   "status": "REGENERATE",
+   "duoc_dung_lam_tham_chieu": false,
+   "dem_thu_cong": {
+    "nguoi": 11,
+    "ngua": 0,
+    "voi": 0,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 14,
+    "ngua": 0,
+    "voi": 0
+   },
+   "ghi_chu": "Vẽ thử lần 1: Thấy khoảng 11-12 người, kế hoạch 14; Không rõ hai hàng bốn dân và nhóm bốn lính Tống; Không phân biệt rõ lính Tống với dân; mũ rộng vành ở nhiều người; Chỉ thấy 1-2 giáo, hai lính Đại Việt đi cuối không rõ"
   }
  ]
 }

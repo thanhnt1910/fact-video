@@ -19,6 +19,7 @@ Toàn thư gồm Ngoại kỷ (Hồng Bàng đến hết nhà Ngô và loạn Na
 | 11 | Lê Hoàn kháng Tống | Bản kỷ q.I: Tiền Lê | 3226–3408 | 980–1009 | |
 | 12 | Lý Công Uẩn dời đô | Bản kỷ q.II: nhà Lý (đầu) | 3409+ | 1009–1010 | |
 | 13 | Lý Thường Kiệt kháng Tống | Bản kỷ: nhà Lý | quanh 5894–6166 | 1075–1077 | |
+| 13b | Lý chuyển sang Trần: Huệ Tông, Chiêu Hoàng, Thủ Độ (`ly-tran-chuyen-giao-kich-ban.md`, mã lc1) | Bản kỷ q.IV–V | 8150–8720 | 1211–1226 | Chờ chủ kênh duyệt, làm trước video 14 |
 | 14 | Nguyên Mông ba lần (kịch bản đã có) | Bản kỷ: nhà Trần | 8395+ | 1257–1288 | Đã có `nguyen-mong-gop-van-xuoi.md` |
 | 15+ | Hồ Quý Ly và nhà Hồ; Lê Lợi khởi nghĩa Lam Sơn; Lê Thánh Tông; Mạc, Trịnh – Nguyễn; (Tây Sơn: không có trong Toàn thư, dùng Khâm định Việt sử) | Kỷ Hậu Trần, nhà Lê, Tục biên | 16070+ | 1400–1802 | Lập chi tiết sau |
 

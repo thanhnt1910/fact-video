@@ -1,5 +1,12 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, triển khai kiến trúc 4 tầng (DRAFT, theo chủ kênh duyệt phương án; KHÔNG đổi tài liệu APPROVED)
+- Mới (DRAFT): `quyet-dinh.json` (Decision Registry 0.1: DQ-001 đến DQ-004 đều PROPOSED/C/OWNER_APPROVAL; nguyên tắc NT-01..06 do chủ kênh duyệt; trạng thái các quy tắc kiểm QK-*), `nhan-vat/ly-thuong-kiet.json`, `nhan-vat/tong-dan.json` (nhiều giai đoạn, râu UNDECIDED, ảnh tham chiếu đã duyệt: rỗng), `period-ly-tong-bo-sung.md` (phạm vi niên đại 1075–1077, 3 hàng quy ước hình ảnh C: dân thường Đại Việt, dân thường nhà Tống, lều vải quân Tống).
+- Bộ kiểm `kiem_scene_planner.py`: 26 quy tắc thêm sau ngày duyệt (voi, bản đồ, đoạn, giữ lâu, duyệt nghệ thuật) chuyển sang CẢNH BÁO (Cách B) cho tới khi duyệt mục 5 của `quy-trinh-anh.md`; thêm `kiem_registry`, kiểm phạm vi và AUTO, cổng `cong_san_xuat` (`--cong`). Retry, MANUAL_REVIEW, owner_unlock và quy tắc cũ không đổi.
+- Test 107 phép (44 gốc + 26 quy tắc mới đã chỉnh sang cảnh báo + 37 phép cho cổng, phạm vi, AUTO, registry, hồ sơ nhân vật, tài liệu APPROVED). So sánh trước/sau: `phim_ban_do/baseline_kiem/so_sanh_sau_khi_sua.txt`.
+- Scene Planner lt1v4 (vẫn PLAN_OWNER_REVIEW, bible_versions 1.3): thêm `quyet_dinh_ap_dung`, `nien_dai_canh`, `decision_mode`; nhãn AC20 (L33) sửa thành "dân Tống được trao trả" vì cảnh chỉ vẽ dân.
+- Baseline chỉ đọc: `phim_ban_do/baseline_kiem/` và hai tag git riêng.
+
 ## 01/11/2026, bổ sung theo yêu cầu chủ kênh sau khi xem Scene Planner (CHỜ DUYỆT, không đổi số phiên bản APPROVED)
 - `quy-trinh-anh.md`: thêm mục 5 (kiểm voi, dữ liệu bản đồ, `segment_cuts`, `motion_plan`, duyệt chi tiết nghệ thuật chỉ ở phạm vi hình ảnh).
 - `kiem_scene_planner.py`, `test_kiem_anh.py` (70 phép kiểm): voi, bản đồ, đoạn nhiều cảnh, cảnh giữ lâu, duyệt chi tiết nghệ thuật.

@@ -16,7 +16,11 @@ P0 = f"Three soldiers at a gate. {KP['VN_AO_VAI']['text']}, bare heads with blac
 def chay(s):
     K.bad.clear(); K.warn.clear(); K.kiem_canh(s); return list(K.bad)
 kq = []
-def thu(ten, cho_loi, s=None, ky_vong=None, anh=None):
+def thu(ten, cho_loi, s=None, ky_vong=None, anh=None, w=False):
+    if w and anh is None and cho_loi is True:   # quy tắc mới chưa duyệt (Cách B): phải là CẢNH BÁO, không được chặn
+        K.bad.clear(); K.warn.clear(); K.kiem_canh(s)
+        okw = any(ky_vong in l and 'quy tắc chưa duyệt' in l for l in K.warn) and not any(ky_vong in l for l in K.bad); kq.append(okw)
+        print(('PASS ' if okw else 'FAIL ') + ten + ' [cảnh báo, không chặn]' + ('' if okw else f'  -> warn={K.warn[:2]} bad={K.bad[:2]}')); return
     if anh is None: loi = chay(s)
     else:
         K.bad.clear(); K.warn.clear(); K.kiem_anh(anh, [s] if s else []); loi = list(K.bad)
@@ -109,17 +113,17 @@ eg = lambda e, n=2: [dict(name='người dắt voi', count=n, position='cạnh v
 pairs = lambda n: [dict(handler=f'người {k}', elephant=f'voi {k}') for k in range(1, n + 1)]
 ev = lambda p=EP, **k: cau(p, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[], **k)
 thu('16a Cảnh 2 voi, 2 người dắt, 2 cặp: hợp lệ', False, ev())
-thu('16b Tổng voi các nhóm khác expected_elephants', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(1), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[]), 'tổng elephants')
-thu('16c Prompt ghi EXACTLY three elephants, kế hoạch 2', True, ev(EP.replace('two elephants', 'three elephants')), 'EXACTLY three')
-thu('16d Thiếu "EXACTLY N elephants" trong prompt', True, ev(f"Procession with two elephants. {A} {S}"), 'không có "EXACTLY')
-thu('16e Thiếu cặp người dắt – voi', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=pairs(1), blocks_used=[], detail_tags=[]), 'elephant_pairs phải có')
-thu('16f Hai người cùng dắt một con voi', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=[dict(handler='a', elephant='voi 1'), dict(handler='b', elephant='voi 1')], blocks_used=[], detail_tags=[]), 'chỉ xuất hiện đúng một lần')
-thu('16g expected_elephants=0 nhưng prompt nhắc voi', True, cau(P0 + ' elephant'), 'nhắc voi')
-thu('16h Còn dùng expected_animals_other', True, cau(P0, expected_animals_other={'voi': 1}), 'expected_animals_other')
+thu('16b Tổng voi các nhóm khác expected_elephants', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(1), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[]), 'tổng elephants', w=True)
+thu('16c Prompt ghi EXACTLY three elephants, kế hoạch 2', True, ev(EP.replace('two elephants', 'three elephants')), 'EXACTLY three', w=True)
+thu('16d Thiếu "EXACTLY N elephants" trong prompt', True, ev(f"Procession with two elephants. {A} {S}"), 'không có "EXACTLY', w=True)
+thu('16e Thiếu cặp người dắt – voi', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=pairs(1), blocks_used=[], detail_tags=[]), 'elephant_pairs phải có', w=True)
+thu('16f Hai người cùng dắt một con voi', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=[dict(handler='a', elephant='voi 1'), dict(handler='b', elephant='voi 1')], blocks_used=[], detail_tags=[]), 'chỉ xuất hiện đúng một lần', w=True)
+thu('16g expected_elephants=0 nhưng prompt nhắc voi', True, cau(P0 + ' elephant'), 'nhắc voi', w=True)
+thu('16h Còn dùng expected_animals_other', True, cau(P0, expected_animals_other={'voi': 1}), 'expected_animals_other', w=True)
 rv = lambda i, st, dv, kv, **k: rec(i, 'E', 1, st, dem=(2, 0), kh=(2, 0), **k) | dict(dem_thu_cong=dict(nguoi=2, ngua=0, voi=dv, nguoi_dem='chủ kênh', ngay='2026-11-02') if dv is not None else dict(nguoi=2, ngua=0, nguoi_dem='chủ kênh', ngay='2026-11-02'), ke_hoach=dict(nguoi=2, ngua=0, voi=kv))
 pe = ev() | dict(scene_id='E')
 def anhE(recs):
-    K.bad.clear(); K.warn.clear(); K.kiem_anh(recs, [pe]); return list(K.bad)
+    K.bad.clear(); K.warn.clear(); K.kiem_anh(recs, [pe]); return [l for l in K.bad + K.warn if 'QK-' in l or '❌' in l]
 for ten, recs, want in [('17a PASS, voi thực tế 2 khớp dự kiến 2', [rv('e1', 'PASS', 2, 2)], None), ('17b PASS nhưng voi thực tế 3, dự kiến 2', [rv('e1', 'PASS', 3, 2)], 'số voi thực tế'),
                         ('17c Cảnh có voi nhưng thiếu voi trong dem_thu_cong', [rv('e1', 'REVIEW', None, 2)], 'thiếu "voi"'), ('17d Voi lệch thì REVIEW được (không PASS)', [rv('e1', 'REVIEW', 3, 2)], None)]:
     loi = anhE(recs); ok = (not loi) if want is None else any(want in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + ten + ('' if ok else f'  -> {loi}'))
@@ -127,15 +131,15 @@ for ten, recs, want in [('17a PASS, voi thực tế 2 khớp dự kiến 2', [rv
 real = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/scene-planner.json', encoding='utf-8')); RS = real['scenes']
 mp = copy.deepcopy(next(x for x in RS if x['scene_id'] == 'M1'))
 thu('18a Bản đồ thật M1 bị chặn NEEDS_REVIEW, không lỗi', False, mp)
-thu('18b Bản đồ tự đặt toa_do trong planner', True, dict(mp, toa_do=[1, 2]), 'tự đặt toa_do')
-thu('18c Bản đồ thiếu danh sách dữ liệu cần xác minh', True, {k: v for k, v in mp.items() if k != 'map_items'}, 'thiếu map_data_ref')
-thu('18d Bản đồ còn NEEDS_REVIEW mà map_status không chặn', True, dict(mp, map_status='READY'), 'không phải BLOCKED')
-thu('18e Bản đồ NEEDS_REVIEW không được PLAN_APPROVED', True, dict(mp, plan_status='PLAN_APPROVED'), 'không thể PLAN_APPROVED')
+thu('18b Bản đồ tự đặt toa_do trong planner', True, dict(mp, toa_do=[1, 2]), 'tự đặt toa_do', w=True)
+thu('18c Bản đồ thiếu danh sách dữ liệu cần xác minh', True, {k: v for k, v in mp.items() if k != 'map_items'}, 'thiếu map_data_ref', w=True)
+thu('18d Bản đồ còn NEEDS_REVIEW mà map_status không chặn', True, dict(mp, map_status='READY'), 'không phải BLOCKED', w=True)
+thu('18e Bản đồ NEEDS_REVIEW không được PLAN_APPROVED', True, dict(mp, plan_status='PLAN_APPROVED'), 'không thể PLAN_APPROVED', w=True)
 mj = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))['items']
 ok = len(mj) == 33 and all(x['trang_thai'] == 'NEEDS_REVIEW' and x['toa_do'] is None and not x['duoc_ve'] and x['loai'] in ('DIA_LY', 'DUONG_QUAN_SU', 'DIEN_GIAI') for x in mj); kq.append(ok)
 print(('PASS ' if ok else 'FAIL ') + f'18f {len(mj)} mục xác minh bản đồ: đều NEEDS_REVIEW, không tọa độ, không được vẽ')
 def doan(sc, cuts):
-    K.bad.clear(); K.warn.clear(); K.kiem_doan(sc, cuts); return list(K.bad)
+    K.bad.clear(); K.warn.clear(); K.kiem_doan(sc, cuts); return [l for l in K.bad + K.warn if 'QK-' in l or '❌' in l]
 no66 = [x for x in RS]
 loi = doan(no66, {}); ok = any('đoạn 66' in l and 'segment_cuts' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19a Đoạn 66 dùng hai cảnh mà thiếu segment_cuts bị chặn')
 bad_cut = {'66': [dict(thu_tu=1, scene='L25', cau='Một lần khác, ông dựng phòng tuyến bên sông, bảo vệ từng tấc đất quê hương.'), dict(thu_tu=2, scene='L03', cau='Một lần, ông đưa quân vượt biên giới, đánh vào đất địch.')]}
@@ -147,11 +151,73 @@ for x in nm:
 loi = doan(nm, real['segment_cuts']); ok = any('L32' in l and 'motion_plan' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '20 Ảnh giữ ~31 giây (L32) thiếu motion_plan bị chặn')
 la = copy.deepcopy(next(x for x in RS if x['scene_id'] == 'L04'))
 la['free_text_details'][0]['owner_approved'] = True
-thu('21a Duyệt chi tiết nghệ thuật thiếu approved_by/ngày', True, la, 'thiếu approved_by')
+thu('21a Duyệt chi tiết nghệ thuật thiếu approved_by/ngày', True, la, 'thiếu approved_by', w=True)
 la['free_text_details'][0].update(approved_by='chủ kênh', approved_date='2026-11-02')
 thu('21b Duyệt đủ thông tin vẫn giữ evidence_level C: hợp lệ', False, la)
 la['free_text_details'][0]['evidence_level'] = 'B'
 thu('21c Sau duyệt đổi lựa chọn nghệ thuật thành mức B (dữ kiện): bị chặn', True, la, 'không khớp')
 la['free_text_details'][0].update(evidence_level='C', approval_scope='historical')
-thu('21d approval_scope không phải visual_only: bị chặn', True, la, 'visual_only')
+thu('21d approval_scope không phải visual_only: bị chặn', True, la, 'visual_only', w=True)
+# --- kiến trúc 4 tầng: cổng sản xuất, phạm vi, AUTO, registry, hồ sơ nhân vật, tài liệu APPROVED
+import hashlib as _h
+REGJ = json.load(open(f'{Q.R}/quy-tac/anh/quyet-dinh.json', encoding='utf-8'))
+def tinh(ten, ok, ghi=''):
+    kq.append(bool(ok)); print(('PASS ' if ok else 'FAIL ') + ten + (f'  [{ghi}]' if (ghi and not ok) else ''))
+# Cách B: quy tắc mới PROPOSED chỉ cảnh báo; khi chủ kênh duyệt (APPROVED + block) mới chặn
+old_q = dict(K.QKS)
+K.QKS['QK-VOI'] = dict(id='QK-VOI', trang_thai='APPROVED', che_do='block')
+loi = chay(cau(EP, expected_people=2, expected_elephants=2, groups=eg(1), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[]))
+tinh('22a Sau khi QK-VOI APPROVED thì cùng lỗi voi chuyển thành ❌ chặn', any('tổng elephants' in l for l in loi), loi)
+K.QKS.clear(); K.QKS.update(old_q)
+tinh('22b Mọi quy tắc "kiểm thêm" (voi, bản đồ, đoạn, giữ lâu, duyệt nghệ thuật) đang PROPOSED (không chặn)', all(K.QKS[k]['trang_thai'] == 'PROPOSED' for k in ('QK-VOI', 'QK-BANDO', 'QK-DOAN', 'QK-GIULAU', 'QK-DUYET-NT')))
+# cổng trước khi vẽ
+def gate(s): K.bad.clear(); K.warn.clear(); return K.cong_san_xuat(s)
+ap = lambda s: dict(s, plan_status='PLAN_APPROVED')
+ok_, why = gate(ap(base)); tinh('23a Cổng cho phép cảnh sạch đã PLAN_APPROVED', ok_, why)
+ok_, why = gate(base); tinh('23b Cổng chặn cảnh chưa PLAN_APPROVED', not ok_ and any('chưa PLAN_APPROVED' in w for w in why))
+ok_, why = gate(ap(cau(P0, groups=[dict(name='lính', count=2, position='tiền cảnh', role='gác', horses=0, mounted=0)]))); tinh('23c Cổng chặn khi có lỗi quy tắc cũ đã APPROVED (số người)', not ok_ and any('lỗi quy tắc đã APPROVED' in w for w in why))
+ok_, why = gate(ap(base | dict(free_text_details=[dict(item='mái che', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=False)]))); tinh('23d Cổng chặn chi tiết nghệ thuật chưa duyệt', not ok_ and any('chưa được chủ kênh duyệt' in w for w in why))
+ok_, why = gate(ap(dict(ev(), groups=eg(1)))); tinh('23e Cổng chặn khi vi phạm quy tắc mới chưa duyệt (cảnh báo không phải giấy phép)', not ok_ and any('quy tắc chưa duyệt' in w for w in why))
+ok_, why = gate(ap(base | dict(free_text_details=[dict(item='bản vẽ', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=True, approved_by='a', approved_date='d', decision_mode='MUST_VERIFY')]))); tinh('23f Cổng chặn MUST_VERIFY chưa VERIFIED kèm nguồn', not ok_ and any('MUST_VERIFY' in w for w in why))
+ok_, why = gate(ap(base | dict(quyet_dinh_ap_dung=['DQ-001']))); tinh('23g Cổng chặn cảnh dùng quyết định mới PROPOSED', not ok_ and any('DQ-001' in w for w in why))
+rs = [x for x in RS if x.get('render') != 'vector_map']; res = [gate(x)[0] for x in rs + [x for x in RS if x.get('render') == 'vector_map']]
+tinh(f'23h Planner thật đang PLAN_OWNER_REVIEW: cổng chặn cả {len(res)} cảnh (không cảnh nào vào sản xuất)', not any(res))
+# phạm vi và AUTO với quyết định giả định APPROVED (bản sao, không ghi file)
+dq_ok = lambda i, **kw: dict(next(d for d in REGJ['quyet_dinh'] if d['id'] == i), trang_thai='APPROVED', nguoi_duyet='x', ngay_duyet='d', **kw)
+S35 = next(x for x in RS if x['scene_id'] == 'L35'); S25 = next(x for x in RS if x['scene_id'] == 'L25'); S32 = next(x for x in RS if x['scene_id'] == 'L32')
+for ten, dq, sc_, want_ok, mode in [('24a DQ-001 APPROVED, cảnh năm 1105 (ngoài 1075–1077) → OWNER_APPROVAL', 'DQ-001', S35, False, 'OWNER_APPROVAL'), ('24b DQ-003 APPROVED, cảnh 1077 trong phạm vi', 'DQ-003', S25, True, None),
+                                    ('24c DQ-002 APPROVED, cảnh niên đại không rõ → MUST_VERIFY', 'DQ-002', dict(S25, nien_dai_canh=[1075, None]), False, 'MUST_VERIFY'), ('24d DQ-004 GLOBAL dùng được ở cảnh bất kỳ', 'DQ-004', dict(S32, nien_dai_canh=[1500, 1600]), True, None)]:
+    ok_, why, md = K.dq_hop_le(dq_ok(dq), sc_); tinh(ten, ok_ == want_ok and md == mode, (ok_, why, md))
+tinh('24e Quyết định APPROVED áp cho phiên bản Bible khác bị coi là ngoài phạm vi', not K.dq_hop_le(dq_ok('DQ-004', phien_ban_ap_dung=dict(period='1.9')), S32)[0])
+K.REG['DQ-009'] = dq_ok('DQ-001', id='DQ-009')
+K.bad.clear(); K.warn.clear(); K.kiem_canh(dict(base, free_text_details=[dict(item='bản đồ', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=False, decision_mode='AUTO', quyet_dinh='DQ-001')]))
+tinh('25a AUTO nhưng quyết định chưa APPROVED: bị đánh dấu coi như OWNER_APPROVAL', any('QK-AUTO' in l or 'AUTO' in l for l in K.warn), K.warn)
+K.bad.clear(); K.warn.clear(); K.kiem_canh(dict(base, nien_dai_canh=[1075, 1077], free_text_details=[dict(item='bản đồ', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=False, decision_mode='AUTO', quyet_dinh='DQ-009')]))
+tinh('25b AUTO có quyết định APPROVED đúng phạm vi: không bị hạ cấp', not any('AUTO' in l for l in K.warn + K.bad), K.warn + K.bad)
+K.REG.pop('DQ-009')
+# toàn vẹn registry
+def kr(reg=None, prof=None, ar=None): K.bad.clear(); K.warn.clear(); K.kiem_registry(reg, RS, prof, ar); return list(K.bad)
+PR = [json.load(open(f'{Q.R}/quy-tac/anh/nhan-vat/{n}.json', encoding='utf-8')) for n in ('ly-thuong-kiet', 'tong-dan')]
+tinh('26a Registry và 2 hồ sơ nhân vật thật: 0 lỗi', not kr(None, PR), kr(None, PR))
+mut = lambda **kw: dict(REGJ, quyet_dinh=[dict(REGJ['quyet_dinh'][0], **kw)] + REGJ['quyet_dinh'][1:])
+for ten, kw, want in [('26b Quyết định PROPOSED đặt AUTO bị chặn', dict(decision_mode='AUTO'), 'chưa APPROVED không được đặt AUTO'), ('26c Mục C bị đổi thành dữ kiện lịch sử', dict(la_du_kien_lich_su=True), 'la_du_kien_lich_su'),
+                      ('26d Mục C duyệt ngoài visual_only', dict(approval_scope='historical'), 'visual_only'), ('26e Mục C thiếu ghi chú "không phải dữ kiện lịch sử"', dict(ghi_chu_bat_buoc='ok'), 'KHÔNG phải dữ kiện'),
+                      ('26f Quyết định PERIOD thiếu niên đại', dict(pham_vi=dict(cap='PERIOD', thoi_ky='Lý')), 'nien_dai'), ('26g Quyết định trỏ tới cảnh không tồn tại', dict(danh_sach_canh=['L99']), 'không tồn tại'),
+                      ('26h APPROVED thiếu người duyệt', dict(trang_thai='APPROVED', nguoi_duyet=None), 'nguoi_duyet')]:
+    loi = kr(mut(**kw)); tinh(ten, any(want in l for l in loi), loi)
+pm = json.loads(json.dumps(PR)); pm[0]['giai_doan'][1]['dac_diem']['rau'].update(gia_tri='bạc')
+tinh('27a Màu râu UNDECIDED nhưng đã khóa giá trị bị chặn', any('UNDECIDED' in l for l in kr(None, pm)))
+pm = json.loads(json.dumps(PR)); pm[0]['anh_tham_chieu_da_duyet'] = ['CR-LTK-2']
+tinh('27b Hồ sơ nhân vật ghi ảnh tham chiếu chưa có trong danh sách duyệt bị chặn', any('tham-chieu-duoc-duyet' in l for l in kr(None, pm)))
+pm = json.loads(json.dumps(PR)); pm[0]['ung_vien_chua_duyet'][0]['duoc_dung_lam_tham_chieu'] = True
+tinh('27c Ứng viên chưa duyệt bị đánh dấu dùng làm tham chiếu bị chặn', any('chưa được duyệt' in l for l in kr(None, pm)))
+tinh('27d Râu Lý Thường Kiệt mọi giai đoạn: UNDECIDED, C, OWNER_APPROVAL, chưa khóa', all(g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' and g['dac_diem']['rau']['gia_tri'] is None and g['dac_diem']['rau']['evidence_level'] == 'C' and g['dac_diem']['rau']['decision_mode'] == 'OWNER_APPROVAL' for g in PR[0]['giai_doan']))
+tinh('27e Danh sách ảnh tham chiếu được duyệt vẫn rỗng', Q.tham_chieu_duoc_duyet('lt1v4')['anh'] == [])
+# tài liệu APPROVED và phiên bản không đổi so với baseline b1
+BL = json.load(open(f'{Q.R}/phim_ban_do/baseline_kiem/baseline.json', encoding='utf-8'))['baseline']['b1']['sha256']
+for fn in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-tac/anh/khoi-prompt.json', 'quy-tac/anh/quy-trinh-anh.md'):
+    tinh(f'28 {fn.split("/")[-1]} giống hệt baseline (SHA-256)', _h.sha256(open(f'{Q.R}/{fn}', 'rb').read()).hexdigest() == BL[fn])
+tinh('29 bible_versions của lt1v4 vẫn 1.3 và planner chưa PLAN_APPROVED', real['bible_versions'] == dict(master='1.3', period='1.3', khoi_prompt='1.3') and real['plan_status'] == 'PLAN_OWNER_REVIEW' and not any(x['plan_status'] == 'PLAN_APPROVED' for x in RS))
+tinh('30 Không quyết định PROPOSED nào là AUTO', all(not (d['trang_thai'] == 'PROPOSED' and d['decision_mode'] == 'AUTO') for d in REGJ['quyet_dinh']))
+tinh('31 Bốn quyết định Registry: PROPOSED, C, OWNER_APPROVAL, visual_only', len(REGJ['quyet_dinh']) == 4 and all(d['trang_thai'] == 'PROPOSED' and d['evidence_level'] == 'C' and d['decision_mode'] == 'OWNER_APPROVAL' and d['approval_scope'] == 'visual_only' for d in REGJ['quyet_dinh']))
 print(f'\nTổng: {sum(kq)}/{len(kq)} phép kiểm đạt'); sys.exit(0 if all(kq) else 1)

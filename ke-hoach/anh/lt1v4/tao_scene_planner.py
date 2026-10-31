@@ -186,7 +186,7 @@ S('L32', [54, 55, 56], 'small_group', [G('sứ giả Đại Việt (Đào Tống
   risk='High', reuse='su-bo-voi', note='Chỉ theo dõi voi (expected_elephants); chưa mở rộng loài khác. Số voi trong ảnh phải được người đếm, ghi riêng ở dem_thu_cong.voi.', tim='Ba đoạn liền nhau (54 đến 56), khoảng 30 giây: xem motion_plan.')
 S('L33', [58], 'small_group', [G('người dân Tống được trả về', 10, 'giữa đường, hai hàng năm người', 'đi về phía bắc', 'dan'), G('lính Đại Việt đi cùng', 2, 'cuối hàng', 'hộ tống', 'viet')], ['người dân và binh lính được trao trả'], 'hai hàng dân đi về phía bắc, hai lính Đại Việt đi cuối', dict(fore='hàng dân', mid='đường đất', back='đồng bằng'), 'wide shot', 'ánh sáng ban ngày dịu',
   ['VN_AO_VAI', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'], 'Wide shot: ten Song civilians walk north in two loose lines of five along a dirt road, accompanied by two Vietnamese soldiers walking at the rear',
-  dau=DAU[0], chan=CHAN[0], scenery='Dirt road across open land', ft=[FT('dân và binh lính Tống được trả: áo thô, đầu trần hoặc khăn quấn', C, 'trang phục không có trong Bible')], risk='Medium', reuse='tra-nguoi')
+  dau=DAU[0], chan=CHAN[0], scenery='Dirt road across open land', ft=[FT('dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn (cảnh chỉ vẽ dân; không có binh lính Tống)', C, 'trang phục không có trong Bible')], risk='Medium', reuse='tra-nguoi')
 M('M7', [61], 'Diễn Châu (nơi Lý Giác dấy binh năm 1103). Chỉ dựa trên kịch bản.')
 S('L34', [62], 'army', [G('Lý Thường Kiệt (tạo hình nghệ thuật)', 1, 'tiền cảnh, từ phía sau', 'dẫn quân', 'viet'), G('lính Đại Việt', 13, 'sau tướng, ba nhóm', 'hành quân', 'viet')], ['Lý Thường Kiệt'], 'tướng đi đầu, mười ba lính theo sau trên đường ven biển', dict(fore='tướng', mid='lính', back='bờ biển'), 'wide shot từ phía sau', 'ánh sáng ban ngày',
   ['VN_TUONG_LY_THUONG_KIET', 'VN_TUONG', 'VN_AO_VAI', 'VN_GIAP', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'], 'Wide shot from behind: one elderly general with a grey beard leads fourteen soldiers in total along a coastal road, he walks alone at the front and thirteen Vietnamese soldiers follow in three groups',
@@ -213,6 +213,23 @@ n_ft = 0
 for x in sc:
     for f in x.get('free_text_details', []):
         n_ft += 1; f['id'] = f'AC{n_ft:02d}'; f['approval_scope'] = 'visual_only'
+# --- Phân loại theo kiến trúc 4 tầng (DRAFT, chưa duyệt): nơi lưu đề xuất, quyết định áp dụng, niên đại cảnh
+NOI_LUU = {'AC01': ('registry', 'DQ-001'), 'AC07': ('registry', 'DQ-001'), 'AC21': ('registry', 'DQ-001'), 'AC06': ('registry', 'DQ-002'), 'AC10': ('registry', 'DQ-002'),
+           'AC13': ('registry', 'DQ-003'), 'AC14': ('registry', 'DQ-003'), 'AC15': ('registry', 'DQ-003'), 'AC19': ('registry', 'DQ-004'),
+           'AC02': ('period_bible', 'dân thường và người hầu Đại Việt'), 'AC03': ('period_bible', 'dân thường và người hầu Đại Việt'),
+           'AC09': ('period_bible', 'dân thường nhà Tống'), 'AC12': ('period_bible', 'dân thường nhà Tống'), 'AC20': ('period_bible', 'dân thường nhà Tống'), 'AC18': ('period_bible', 'lều vải đơn giản của quân Tống'),
+           'AC04': ('character_profile', 'ly-thuong-kiet'), 'AC08': ('character_profile', 'tong-dan'),
+           'AC05': ('project', 'lt1v4'), 'AC11': ('project', 'lt1v4'), 'AC16': ('project', 'lt1v4'), 'AC17': ('project', 'lt1v4')}
+# Niên đại cảnh theo vị trí trong kịch bản (chưa đối chiếu nguồn ngoài kịch bản); None = không có năm
+NIEN_DAI = {'L04': [1075, None], 'L11': [1075, 1077], 'L35': [1105, 1105], 'L10': [1075, 1077], 'L14': [1075, 1077], 'L25': [1077, 1077], 'L26': [1077, 1077], 'L27': [1077, 1077], 'L32': [1078, 1078]}
+for x in sc:
+    if x['scene_id'] in NIEN_DAI: x['nien_dai_canh'] = NIEN_DAI[x['scene_id']]
+    dqs = []
+    for f in x.get('free_text_details', []):
+        nl, ref = NOI_LUU[f['id']]
+        f.update(noi_luu_de_xuat=nl, noi_luu_chi_tiet=ref, decision_mode='OWNER_APPROVAL', tinh_chat='quy_uoc_hinh_anh', la_du_kien_lich_su=False, quyet_dinh=(ref if nl == 'registry' else None))
+        if nl == 'registry' and ref not in dqs: dqs.append(ref)
+    if dqs: x['quyet_dinh_ap_dung'] = dqs
 # --- kiểm bao phủ 68 đoạn
 cov = {}
 for s in sc:

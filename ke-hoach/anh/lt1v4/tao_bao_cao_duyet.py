@@ -10,11 +10,11 @@ ac = []
 for s in img:
     for f in s['free_text_details']:
         ac.append(dict(id=f['id'], scene_id=s['scene_id'], segment_ids=s['segment_ids'], item=f['item'], tag=f['tag'], evidence_level=f['evidence_level'], reason=f['reason'], approval_scope='visual_only',
-                       owner_decision='PENDING', owner_approved=False, approved_by=None, approved_date=None, evidence_level_after_approval=f['evidence_level']))
+                       noi_luu_de_xuat=f.get('noi_luu_de_xuat'), noi_luu_chi_tiet=f.get('noi_luu_chi_tiet'), decision_mode=f.get('decision_mode', 'OWNER_APPROVAL'), quyet_dinh=f.get('quyet_dinh'), tinh_chat='quy_uoc_hinh_anh', la_du_kien_lich_su=False, owner_decision='PENDING', owner_approved=False, approved_by=None, approved_date=None, evidence_level_after_approval=f['evidence_level']))
 json.dump(dict(project='lt1v4', quy_tac=['Chấp thuận chỉ có nghĩa chủ kênh đồng ý về mặt HÌNH ẢNH (visual_only).', 'evidence_level giữ nguyên C sau khi chấp thuận; không bao giờ thành dữ kiện lịch sử (A) hay phục dựng thận trọng (B).', 'Khi vẽ, không được viết chi tiết này như sự thật trong mô tả, bình luận hay lời đọc.'], items=ac), open(f'{D}/chi-tiet-artistic-choice.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-L = ['# Chi tiết ngoài khối prompt — chủ kênh duyệt (lt1v4)', '', f'{len(ac)} mục. Tất cả `artistic_choice`, `evidence_level = C`, phạm vi duyệt `visual_only`. Duyệt xong vẫn là C: không thành dữ kiện lịch sử.', '',
-     '| Mã | Cảnh | Đoạn | Chi tiết | Lý do | Quyết định |', '|---|---|---|---|---|---|']
-for x in ac: L.append(f'| {x["id"]} | {x["scene_id"]} | {x["segment_ids"]} | {x["item"]} | {x["reason"]} | PENDING (đồng ý / sửa / bỏ) |')
+L = ['# Chi tiết ngoài khối prompt — chủ kênh duyệt (lt1v4)', '', f'{len(ac)} mục. Tất cả `artistic_choice`, `evidence_level = C`, phạm vi duyệt `visual_only`. Duyệt xong vẫn là C: không thành dữ kiện lịch sử. Cột "Nơi lưu đề xuất" chỉ là đề xuất (DRAFT); chưa mục nào được AUTO.', '',
+     '| Mã | Cảnh | Đoạn | Chi tiết | Nơi lưu đề xuất | decision_mode | Lý do | Quyết định |', '|---|---|---|---|---|---|---|---|']
+for x in ac: L.append(f'| {x["id"]} | {x["scene_id"]} | {x["segment_ids"]} | {x["item"]} | {x["noi_luu_de_xuat"]}: {x["noi_luu_chi_tiet"]} | {x["decision_mode"]} | {x["reason"]} | PENDING (đồng ý / sửa / bỏ) |')
 by = {}
 for x in ac: by.setdefault(x['item'].split(' (')[0], []).append(x['id'])
 L += ['', '## Mục lặp lại (duyệt một lần cho cả nhóm nếu anh muốn)', ''] + [f'- {k}: {", ".join(v)}' for k, v in by.items() if len(v) > 1]

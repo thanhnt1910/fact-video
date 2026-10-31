@@ -27,7 +27,7 @@ out = {}; rep = []
 for b in kb:
     n = b['n']; src = f'{nguon}/{n}.mp3'; dp = f'{dst}/{n}.mp3'
     r = wps[n] / med; tempo = 1.0
-    if abs(r - 1) > 0.05: tempo = max(0.90, min(1.10, r))   # nhanh hơn trung vị thì làm chậm (atempo<1) hay ngược lại: atempo = r làm giọng nhanh lên khi r>1
+    if abs(r - 1) > 0.05 and '--khong-atempo' not in sys.argv: tempo = max(0.90, min(1.10, r))   # --khong-atempo: không đổi tốc độ từng đoạn (chỉ chỉnh âm lượng)   # nhanh hơn trung vị thì làm chậm (atempo<1) hay ngược lại: atempo = r làm giọng nhanh lên khi r>1
     tempo = 1 / r if abs(r - 1) > 0.05 else 1.0
     tempo = max(0.90, min(1.10, tempo))
     tmp = f'/tmp/_ch_{n}.wav'

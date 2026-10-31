@@ -114,6 +114,20 @@ def _synth_generate(model, text, style, voice, key):
 
 MAX_WAIT = int(os.environ.get("GEMINI_MAX_WAIT", "900"))
 _WORKING = {}
+LAST = {}   # thông tin lần tổng hợp thành công gần nhất: model thực tế, cách gọi, voice, giờ, có phải model dự phòng không
+STRICT = os.environ.get("GEMINI_STRICT_MODEL", "") == "1"   # =1: chỉ dùng model ưu tiên, lỗi thì dừng thay vì trộn model khác vào cùng video
+PREFERRED = MODELS_NEW[0]
+LOCKED = None      # (kind, model): đã khóa cho cả video; sau khi khóa KHÔNG tự đổi model hay phương thức, lỗi thì dừng
+CTX = {}           # do chương trình gọi đặt: nhóm đoạn, mã phiên bản prompt, ...
+REQ_LOG = os.environ.get("GEMINI_REQ_LOG", "")   # file JSON Lines: mỗi request một dòng (thành công hoặc lỗi)
+ALLOW_SWITCH = os.environ.get("GEMINI_ALLOW_SWITCH", "") == "1"   # chỉ đặt khi chủ kênh xác nhận tạo lại cả video bằng model khác
+
+
+def _req_log(**kw):
+    kw.update({"thoi_diem": time.strftime("%Y-%m-%d %H:%M:%S"), **{k: v for k, v in CTX.items() if k not in kw}})
+    if REQ_LOG:
+        with open(REQ_LOG, "a", encoding="utf-8") as f:
+            f.write(json.dumps(kw, ensure_ascii=False) + "\n")
 _SHOWN = set()
 _N429 = [0]
 MAX_429 = int(os.environ.get("GEMINI_MAX_429", "8"))   # tổng số lần 429 tối đa mỗi lần chạy, quá thì dừng hẳn để khỏi bị khóa khóa
@@ -125,11 +139,17 @@ def synth(text, style, voice, key=None, log=print):
     fixed = key
     if not (fixed or gemini_keys.has_key()):
         raise RuntimeError("Chưa có GEMINI_API_KEY")
-    order = ([_WORKING["way"]] if "way" in _WORKING else []) + \
-            [("i", m) for m in MODELS_NEW] + [("g", m) for m in MODELS_OLD]
+    if LOCKED and not ALLOW_SWITCH:
+        order = [LOCKED]    # video đã khóa một model và một phương thức: không chuyển sang cái khác
+    else:
+        order = ([_WORKING["way"]] if "way" in _WORKING else []) + \
+                [("i", m) for m in MODELS_NEW] + [("g", m) for m in MODELS_OLD]
     errs = []
     for way in order:
         kind, model = way
+        if STRICT and model != PREFERRED:
+            errs.append(f"{model}: bỏ qua do GEMINI_STRICT_MODEL=1 (không trộn model khác)")
+            continue
         waited, attempt, shown = 0, 0, False
         while True:
             try:
@@ -151,6 +171,10 @@ def synth(text, style, voice, key=None, log=print):
                     chi_phi.add_tokens("tts", model, len(text + style) / 4, sec * 25)
                 except Exception:
                     pass
+                _req_log(trang_thai="thanh_cong", model=model, phuong_thuc="interactions" if kind == "i" else "generateContent", voice=voice,
+                         du_phong=model != PREFERRED, khoa=bool(LOCKED), tham_so="mac_dinh_cua_API (khong dat temperature/seed)")
+                LAST.clear(); LAST.update({"model": model, "kind": "interactions" if kind == "i" else "generateContent", "voice": voice,
+                                           "time": time.strftime("%Y-%m-%d %H:%M:%S"), "fallback": model != PREFERRED, "style_in_metadata": kind == "i"})
                 if "way" not in _WORKING:
                     _WORKING["way"] = way
                     log(f"   [gemini] dùng {model} ({'interactions' if kind == 'i' else 'generateContent'})")
@@ -185,7 +209,10 @@ def synth(text, style, voice, key=None, log=print):
                     time.sleep(wait)
                     continue
                 errs.append(f"{model}: {msg[:300]}")
+                _req_log(trang_thai="loi", model=model, phuong_thuc="interactions" if kind == "i" else "generateContent", voice=voice, loi=msg[:300], khoa=bool(LOCKED))
                 break
+    if LOCKED and not ALLOW_SWITCH:
+        raise RuntimeError(f"DỪNG: model đã khóa {LOCKED[1]} ({'interactions' if LOCKED[0] == 'i' else 'generateContent'}) không dùng được, không tự chuyển sang model khác. Các file đã tạo được giữ nguyên. Chi tiết: " + " | ".join(errs))
     raise RuntimeError("Gemini TTS lỗi:\n  " + "\n  ".join(errs))
 
 

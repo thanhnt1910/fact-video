@@ -1,2 +1,2 @@
-nm2 Nguyên Mông bản đồ vector, giọng Sadaltager, 8 phút 56 giây
-telegram/nm2_ban_do_vector.mp4
+nm2 giọng hiện tại (hồ sơ cũ B, model gemini-3.8-flash-tts), 99 đoạn nối liền
+telegram/nm2_giong_hien_tai_B.mp3

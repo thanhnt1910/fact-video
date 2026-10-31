@@ -1,0 +1,48 @@
+name: Thử A/B hồ sơ giọng Sadaltager
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  ab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: ./.github/actions/cai-dat
+        with:
+          pip: "numpy"
+      - name: Tạo giọng B (cũ) và C (mới), mỗi loại 3 lần
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+        run: |
+          set -o pipefail
+          export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
+          for t in 1 2 3; do for v in B C; do
+            echo "=== $v lần $t ==="
+            STYLE_VAR=$v python -u thu_giong_hai_cum.py ke-hoach/thu-giong-hai/ab_mau.json Sadaltager assets/ab_giong/$v$t 16 2>&1 | tee -a logs_ab_giong.txt
+          done; done
+      - name: Đo và ghép nghe thử
+        run: python ab_do.py 2>&1 | tee -a logs_ab_giong.txt
+      - name: Lưu
+        if: always()
+        run: |
+          git config user.name Claude; git config user.email noreply@anthropic.com
+          git add assets/ab_giong logs_ab_giong.txt
+          git commit -q -m "Thử A/B hồ sơ giọng (B cũ, C mới) [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 8; done

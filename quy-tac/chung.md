@@ -119,6 +119,8 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 
 ## Quy tắc viết kịch bản lịch sử (chủ kênh liệt kê 31/10/2026, áp dụng mọi kịch bản từ nay; khi trùng hoặc mâu thuẫn với mục cũ, mục này ưu tiên)
 
+**Bản nguyên văn do chủ kênh viết nằm ở `quy-tac/viet-kich-ban-su-nguyen-van.md` (PHẢI đọc khi viết hoặc sửa kịch bản lịch sử). Phần dưới đây là bản tóm tắt kèm các giới hạn kỹ thuật của repo; nếu khác nhau thì theo bản nguyên văn.**
+
 **Mục tiêu:** chính xác về lịch sử (nhân vật, thời gian, địa danh, sự kiện); kể hấp dẫn, tạo tò mò và cảm xúc; mạch liên tục giữ chân người xem; ngôn ngữ tự nhiên, dễ nghe với giọng AI. Không hy sinh tính chính xác để lấy kịch tính.
 
 **Thứ tự ưu tiên khi các tiêu chí xung đột (không hy sinh mục trên để được mục dưới):** (1) đúng sự thật lịch sử; (2) đúng trình tự và bản chất sự kiện; (3) mạch truyện logic, dễ hiểu; (4) hấp dẫn, giữ chân; (5) ngôn ngữ đẹp và thời lượng phù hợp.

@@ -5,3 +5,10 @@ lỗi 19903 No module named 'numpy'
 lỗi 19904 No module named 'numpy'
 lỗi 19905 No module named 'numpy'
 lỗi 19906 No module named 'numpy'
+=== Đợt dot_aa: 19901,19902,19903,19904,19905,19906
+lỗi 19901 unknown file extension: .raw
+lỗi 19902 unknown file extension: .raw
+lỗi 19903 unknown file extension: .raw
+lỗi 19904 unknown file extension: .raw
+lỗi 19905 unknown file extension: .raw
+lỗi 19906 unknown file extension: .raw

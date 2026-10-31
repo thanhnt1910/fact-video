@@ -1,0 +1,557 @@
+{
+ "ghi_chu": "Baseline CHỈ ĐỌC, chụp 01/11/2026 trước khi triển khai kiến trúc 4 tầng. Không sửa hoặc ghi đè. b0 = bản kiểm gốc (44 phép), b1 = bản hiện tại trước khi sửa (70 phép).",
+ "tag_git": {
+  "b0": "baseline-kiem-b0-2026-11-01",
+  "b1": "baseline-kiem-b1-2026-11-01"
+ },
+ "baseline": {
+  "b0": {
+   "commit": "56579edf",
+   "tests": [
+    {
+     "ket_qua": "PASS",
+     "ten": "1 Cảnh hợp lệ không có lỗi"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2a Cảnh 3 ngựa hợp lệ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2b Số ngựa các nhóm (2) khác expected_horses (3)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2c Prompt ghi EXACTLY two horses, kế hoạch 3"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2d expected_horses=0 nhưng prompt nhắc kỵ binh"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2e Mỗi kỵ binh một ngựa: mounted 2, horses 3"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2f expected_horses=3 nhưng prompt thiếu \"EXACTLY N horses\""
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "3a Thiếu hẳn trường detail_tags"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "3b detail_tags rỗng nhưng có khối mức C"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "4a bible_ref: hạng mục không tồn tại trong Bible"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "4b bible_ref: file không tồn tại"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "4c bible_ref: mục Z không tồn tại"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "5a Đổi evidence_level (C → B)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "5b Nâng nhãn artistic_choice lên historical_evidence"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "6a Thiếu groups"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "6b Tổng số người các nhóm không khớp"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "6c Thiếu hẳn trường groups"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "7 Ảnh cũ 19901 làm tham chiếu"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "7 Ảnh cũ lt1v4-test-01 làm tham chiếu"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "7 Ảnh cũ lt1v4-test-12 làm tham chiếu"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8a Sổ ảnh hợp lệ (PASS, số đếm khớp)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8b PASS nhưng số người thực tế khác dự kiến"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8c Số ngựa thực tế khác dự kiến vẫn PASS"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8d Thiếu dem_thu_cong"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8e Thiếu ke_hoach (không có bản chụp số dự kiến)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9a attempt 4 chưa PASS mà vẫn REGENERATE"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9b attempt 5 (vượt 1 + 3 lần vẽ lại)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9c Vẽ tiếp sau MANUAL_REVIEW chưa có owner_unlock"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9d attempt 4 chuyển MANUAL_REVIEW là đúng"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "10 Bản ghi ảnh dùng tham chiếu chưa duyệt"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11a Chưa vẽ → VE"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11b attempt 1 REGENERATE → VE"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11c attempt 3 REGENERATE → VE (lần vẽ lại thứ 3)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11d attempt 4 chưa PASS → MANUAL_REVIEW"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11e đã PASS → DA_PASS"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11f MANUAL_REVIEW chưa unlock → MANUAL_REVIEW"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11g 24 ảnh thử STALE không tính là đã vẽ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "12 Sổ ảnh thật: 24 ảnh cũ đều STALE, không ảnh nào được dùng làm tham chiếu, 0 lỗi []"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "13 Danh sách ảnh tham chiếu được duyệt: 0 ảnh (rỗng = chưa có ảnh hợp lệ)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14a Ảnh STALE bị ghi nhầm vào danh sách duyệt vẫn bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14b Ảnh PASS theo phiên bản hiện hành, đã duyệt: được dùng"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14c Ảnh PASS nhưng vẽ theo phiên bản Bible cũ: bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14d Ảnh không có trong danh sách: bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "15 cf_ve_lt1t2.py ref: tham chiếu 19901 bị bỏ vì chưa duyệt"
+    }
+   ],
+   "so_phep": 44,
+   "canh_bao": [
+    "⚠️ L04: chi tiết ngoài khối \"bản đồ cuộn không chữ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L05: chi tiết ngoài khối \"người hầu trong cung mặc áo dài thô, đầu trần\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L06: chi tiết ngoài khối \"dân làng mặc áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L06: chi tiết ngoài khối \"quan ở độ tuổi trung niên\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L09: chi tiết ngoài khối \"bàn gỗ, giấy cuộn, nghiên mực và bút lông\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L10: chi tiết ngoài khối \"thân thuyền gỗ đang đóng trên giá đỡ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L11: chi tiết ngoài khối \"bản đồ cuộn không chữ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L12: chi tiết ngoài khối \"Tông Đản trẻ hơn Lý Thường Kiệt, râu đen ngắn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L13: chi tiết ngoài khối \"nông dân Tống áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L14: chi tiết ngoài khối \"thuyền gỗ lòng nông\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L19: chi tiết ngoài khối \"sân đá trong thành, cửa gỗ khép hờ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L21: chi tiết ngoài khối \"dân Tống áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L25: chi tiết ngoài khối \"lũy đất cắm cọc gỗ dọc bờ nam\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L26: chi tiết ngoài khối \"lũy đất cắm cọc gỗ dọc bờ nam\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L27: chi tiết ngoài khối \"lũy đất cắm cọc gỗ dọc bờ nam\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L28: chi tiết ngoài khối \"đền nhỏ bên sông mái ngói xám, đèn dầu bên trong\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L29: chi tiết ngoài khối \"cửa đền gỗ chạm khắc đơn giản, đèn dầu đất nung\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L30: chi tiết ngoài khối \"lều vải đơn giản của quân Tống\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L33: chi tiết ngoài khối \"dân và binh lính Tống được trả: áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L35: chi tiết ngoài khối \"bản đồ cuộn không chữ\" (artistic_choice) chưa được chủ kênh duyệt"
+   ],
+   "loi": [],
+   "tong_dong": [
+    "0 lỗi ❌, 20 cảnh báo ⚠️"
+   ],
+   "sha256": {
+    "quy-tac/anh/master-style.md": "d650ab5e974a7190f7186cb413b051c3276536a1dcf1ac7f002044f14d8c9a18",
+    "quy-tac/anh/period-ly-tong.md": "32e7dfa27ac8772f271a0d621123fd7208a95539a529325c0a2b15c7c67ce5cf",
+    "quy-tac/anh/khoi-prompt.json": "026fc5e94e3f2662b300cea66d06a2a90aedfc4882147711d75b54c0fe9c1b95",
+    "quy-tac/anh/quy-trinh-anh.md": "6db1e174e9cd7782b8e720797cbc35d627eb3f4a8de0289491b54ecf2db111c9",
+    "phim_ban_do/kiem_scene_planner.py": "817c14f70ef0ab6651a4428a7fd2cc7982429cad5a3d61c6e90452e7e68fe4bb",
+    "phim_ban_do/test_kiem_anh.py": "25199d864ea7b0aaef0b79fd4e43195c081abbadd6ce7a3cb099ab5df754a02b",
+    "phim_ban_do/anh_quy_tac.py": "252b6fc7eb4d314caed39fc88747a30c206dffba302c4bc1f30612d90739edfe",
+    "ke-hoach/anh/lt1v4/scene-planner.json": "6ad8bba20b61781e06147977139bcdde8a38051bd2dfbf35feade030f959e23b"
+   }
+  },
+  "b1": {
+   "commit": "88c3f1e46add03d3d0b6eb088928acb441233051",
+   "tests": [
+    {
+     "ket_qua": "PASS",
+     "ten": "1 Cảnh hợp lệ không có lỗi"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2a Cảnh 3 ngựa hợp lệ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2b Số ngựa các nhóm (2) khác expected_horses (3)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2c Prompt ghi EXACTLY two horses, kế hoạch 3"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2d expected_horses=0 nhưng prompt nhắc kỵ binh"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2e Mỗi kỵ binh một ngựa: mounted 2, horses 3"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "2f expected_horses=3 nhưng prompt thiếu \"EXACTLY N horses\""
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "3a Thiếu hẳn trường detail_tags"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "3b detail_tags rỗng nhưng có khối mức C"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "4a bible_ref: hạng mục không tồn tại trong Bible"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "4b bible_ref: file không tồn tại"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "4c bible_ref: mục Z không tồn tại"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "5a Đổi evidence_level (C → B)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "5b Nâng nhãn artistic_choice lên historical_evidence"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "6a Thiếu groups"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "6b Tổng số người các nhóm không khớp"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "6c Thiếu hẳn trường groups"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "7 Ảnh cũ 19901 làm tham chiếu"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "7 Ảnh cũ lt1v4-test-01 làm tham chiếu"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "7 Ảnh cũ lt1v4-test-12 làm tham chiếu"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8a Sổ ảnh hợp lệ (PASS, số đếm khớp)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8b PASS nhưng số người thực tế khác dự kiến"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8c Số ngựa thực tế khác dự kiến vẫn PASS"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8d Thiếu dem_thu_cong"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "8e Thiếu ke_hoach (không có bản chụp số dự kiến)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9a attempt 4 chưa PASS mà vẫn REGENERATE"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9b attempt 5 (vượt 1 + 3 lần vẽ lại)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9c Vẽ tiếp sau MANUAL_REVIEW chưa có owner_unlock"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "9d attempt 4 chuyển MANUAL_REVIEW là đúng"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "10 Bản ghi ảnh dùng tham chiếu chưa duyệt"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11a Chưa vẽ → VE"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11b attempt 1 REGENERATE → VE"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11c attempt 3 REGENERATE → VE (lần vẽ lại thứ 3)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11d attempt 4 chưa PASS → MANUAL_REVIEW"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11e đã PASS → DA_PASS"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11f MANUAL_REVIEW chưa unlock → MANUAL_REVIEW"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "11g 24 ảnh thử STALE không tính là đã vẽ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "12 Sổ ảnh thật: 24 ảnh cũ đều STALE, không ảnh nào được dùng làm tham chiếu, 0 lỗi []"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "13 Danh sách ảnh tham chiếu được duyệt: 0 ảnh (rỗng = chưa có ảnh hợp lệ)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14a Ảnh STALE bị ghi nhầm vào danh sách duyệt vẫn bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14b Ảnh PASS theo phiên bản hiện hành, đã duyệt: được dùng"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14c Ảnh PASS nhưng vẽ theo phiên bản Bible cũ: bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "14d Ảnh không có trong danh sách: bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "15 cf_ve_lt1t2.py ref: tham chiếu 19901 bị bỏ vì chưa duyệt"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16a Cảnh 2 voi, 2 người dắt, 2 cặp: hợp lệ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16b Tổng voi các nhóm khác expected_elephants"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16c Prompt ghi EXACTLY three elephants, kế hoạch 2"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16d Thiếu \"EXACTLY N elephants\" trong prompt"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16e Thiếu cặp người dắt – voi"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16f Hai người cùng dắt một con voi"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16g expected_elephants=0 nhưng prompt nhắc voi"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "16h Còn dùng expected_animals_other"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "17a PASS, voi thực tế 2 khớp dự kiến 2"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "17b PASS nhưng voi thực tế 3, dự kiến 2"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "17c Cảnh có voi nhưng thiếu voi trong dem_thu_cong"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "17d Voi lệch thì REVIEW được (không PASS)"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "18a Bản đồ thật M1 bị chặn NEEDS_REVIEW, không lỗi"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "18b Bản đồ tự đặt toa_do trong planner"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "18c Bản đồ thiếu danh sách dữ liệu cần xác minh"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "18d Bản đồ còn NEEDS_REVIEW mà map_status không chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "18e Bản đồ NEEDS_REVIEW không được PLAN_APPROVED"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "18f 33 mục xác minh bản đồ: đều NEEDS_REVIEW, không tọa độ, không được vẽ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "19a Đoạn 66 dùng hai cảnh mà thiếu segment_cuts bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "19b Thứ tự cắt đoạn 66 sai so với lời đọc bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "19c segment_cuts thật của đoạn 66 hợp lệ []"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "20 Ảnh giữ ~31 giây (L32) thiếu motion_plan bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "21a Duyệt chi tiết nghệ thuật thiếu approved_by/ngày"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "21b Duyệt đủ thông tin vẫn giữ evidence_level C: hợp lệ"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "21c Sau duyệt đổi lựa chọn nghệ thuật thành mức B (dữ kiện): bị chặn"
+    },
+    {
+     "ket_qua": "PASS",
+     "ten": "21d approval_scope không phải visual_only: bị chặn"
+    }
+   ],
+   "so_phep": 70,
+   "canh_bao": [
+    "⚠️ L04: chi tiết ngoài khối \"bản đồ cuộn không chữ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L05: chi tiết ngoài khối \"người hầu trong cung mặc áo dài thô, đầu trần\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L06: chi tiết ngoài khối \"dân làng mặc áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L06: chi tiết ngoài khối \"quan ở độ tuổi trung niên\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L09: chi tiết ngoài khối \"bàn gỗ, giấy cuộn, nghiên mực và bút lông\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ M1: bản đồ bị chặn: 4 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ L10: chi tiết ngoài khối \"thân thuyền gỗ đang đóng trên giá đỡ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L11: chi tiết ngoài khối \"bản đồ cuộn không chữ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L12: chi tiết ngoài khối \"Tông Đản trẻ hơn Lý Thường Kiệt, râu đen ngắn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L13: chi tiết ngoài khối \"nông dân Tống áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ M2: bản đồ bị chặn: 7 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ L14: chi tiết ngoài khối \"thuyền gỗ lòng nông\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L19: chi tiết ngoài khối \"sân đá trong thành, cửa gỗ khép hờ\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L21: chi tiết ngoài khối \"dân Tống áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ M3: bản đồ bị chặn: 3 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ M4: bản đồ bị chặn: 3 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ M5: bản đồ bị chặn: 5 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ L25: chi tiết ngoài khối \"lũy đất cắm cọc gỗ dọc bờ nam\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L26: chi tiết ngoài khối \"lũy đất cắm cọc gỗ dọc bờ nam\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L27: chi tiết ngoài khối \"lũy đất cắm cọc gỗ dọc bờ nam\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L28: chi tiết ngoài khối \"đền nhỏ bên sông mái ngói xám, đèn dầu bên trong\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L29: chi tiết ngoài khối \"cửa đền gỗ chạm khắc đơn giản, đèn dầu đất nung\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L30: chi tiết ngoài khối \"lều vải đơn giản của quân Tống\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ M6: bản đồ bị chặn: 6 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ L32: chi tiết ngoài khối \"giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau (câu mô tả đề xuất; khoi-prompt chưa có khối voi)\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ L33: chi tiết ngoài khối \"dân và binh lính Tống được trả: áo thô, đầu trần hoặc khăn quấn\" (artistic_choice) chưa được chủ kênh duyệt",
+    "⚠️ M7: bản đồ bị chặn: 2 mục địa lý chưa xác minh (không dựng)",
+    "⚠️ L35: chi tiết ngoài khối \"bản đồ cuộn không chữ\" (artistic_choice) chưa được chủ kênh duyệt"
+   ],
+   "loi": [],
+   "tong_dong": [
+    "0 lỗi ❌, 28 cảnh báo ⚠️"
+   ],
+   "sha256": {
+    "quy-tac/anh/master-style.md": "d650ab5e974a7190f7186cb413b051c3276536a1dcf1ac7f002044f14d8c9a18",
+    "quy-tac/anh/period-ly-tong.md": "32e7dfa27ac8772f271a0d621123fd7208a95539a529325c0a2b15c7c67ce5cf",
+    "quy-tac/anh/khoi-prompt.json": "026fc5e94e3f2662b300cea66d06a2a90aedfc4882147711d75b54c0fe9c1b95",
+    "quy-tac/anh/quy-trinh-anh.md": "f502151aac9f0926a6cd110b4570f9f2e6dfd0f28163be9de0086b83c24622ec",
+    "phim_ban_do/kiem_scene_planner.py": "569fa75a7dc4cb7a7932ba03a2074a7e1ab7b85b68052d3d2e07aa9362092f12",
+    "phim_ban_do/test_kiem_anh.py": "cde826dd96c41c653419c3d3b75fd84f00ff572402fae2ea2425f3d9acc33854",
+    "phim_ban_do/anh_quy_tac.py": "252b6fc7eb4d314caed39fc88747a30c206dffba302c4bc1f30612d90739edfe",
+    "ke-hoach/anh/lt1v4/scene-planner.json": "178fdf572e4f65d133f1f840fbf855a4426f3d5392f565bf9a14b0013fd85bda"
+   }
+  }
+ }
+}

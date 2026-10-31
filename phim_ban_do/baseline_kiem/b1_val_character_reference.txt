@@ -1,0 +1,13 @@
+Phiên bản hiện hành: {'master': '1.3', 'period': '1.3', 'khoi_prompt': '1.3'}; 10 cảnh
+⚠️ CR-TD-1: chi tiết ngoài khối "Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-TD-2: chi tiết ngoài khối "Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-TD-3: chi tiết ngoài khối "Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B1: chi tiết ngoài khối "Lý Thường Kiệt: râu đen" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B1: chi tiết ngoài khối "Lý Thường Kiệt: tuổi "mature" (không nêu số tuổi)" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B2: chi tiết ngoài khối "Lý Thường Kiệt: râu đen pha bạc" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B2: chi tiết ngoài khối "Lý Thường Kiệt: tuổi "mature" (không nêu số tuổi)" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B3: chi tiết ngoài khối "Lý Thường Kiệt: râu đen (hạt giống khác)" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B3: chi tiết ngoài khối "Lý Thường Kiệt: tuổi "mature" (không nêu số tuổi)" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B4: chi tiết ngoài khối "Lý Thường Kiệt: râu đen pha bạc (hạt giống khác)" (artistic_choice) chưa được chủ kênh duyệt
+⚠️ CR-LTK-B4: chi tiết ngoài khối "Lý Thường Kiệt: tuổi "mature" (không nêu số tuổi)" (artistic_choice) chưa được chủ kênh duyệt
+0 lỗi ❌, 11 cảnh báo ⚠️

@@ -2,6 +2,12 @@
 
 Quy tắc kỹ thuật và bố cục của dạng video bản đồ (`phim_ban_do/`): chữ trong khung, bố cục, kiểm video, quy trình giọng đọc Gemini, mặt nhân vật, tiếng nền. Dùng cho mọi series làm theo dạng bản đồ. Cũng đọc `chung.md` và file của series tương ứng.
 
+
+## Dựng bản đồ bằng VECTOR, không dùng bản đồ dạng cũ (chủ kênh chốt 31/10/2026, áp dụng mọi video bản đồ từ nay)
+- **Mọi video bản đồ mới dựng bằng bộ vector `phim_ban_do/vecmap/`** (bờ biển vẽ từ Natural Earth, trang `film.html` vẽ bằng SVG, bảng cảnh `film_spec.py` sinh `spec.js` và `sfx.json`, khung hình `ve_film.py`, âm thanh tổng hợp `film_am.py`). KHÔNG dùng lại bản đồ dạng cũ: `mapfilm3.py`, `world7.jpg` / `world7.py`, các file `<tên>_content.py`, `build2.py`, `audio2.py` và workflow `dung-<tên>.yml` kiểu cũ (`dung-lh6.yml`, `dung-nm1.yml`...). Các video đã dựng bằng bản cũ giữ nguyên, không dựng lại.
+- Video mới: sao `film_spec.py` thành bảng cảnh riêng của video (đổi đường dẫn `<tên>_full.json` và `assets/thu_giong_hai/<tên>_chuan/thoi_luong.json`), dùng các loại mục đã có: `card` (thẻ tên và chức), `chip` (thẻ năm), `city`, `route`, `army` (đoàn quân kèm cờ), `mark` (cờ, thuyền, dấu x, dấu hỏi, chấm, mũi tên), `ring`, `area`, `label`, `big`, `night`, `poem`, `river`, `siege`. Cảnh nào cần hình mới (bãi cọc và thủy triều, thuyền chiến, ngựa) thì thêm loại mục mới vào `film.html` rồi xem khung thật ở cỡ lớn (`python phim_ban_do/vecmap/ve_film.py still <giây>`).
+- Các mục "mặt nhân vật `FACE`", "`QUIET_AUDIO`", "`MUSIC`", "`SFX_GROUPS`" và các hàm của `mapfilm3`/`mapdraw` ở các mục dưới chỉ áp dụng cho video dựng bằng bản cũ. Với bản vector, nhân vật hiện bằng thẻ tên (`card`) và cờ trên đoàn quân (`army` với `flag`); quy tắc chữ trong khung, bố cục gọn mắt, kiểm giọng trước khi dựng, giọng đồng đều, cao độ vẫn áp dụng.
+
 ## Video bản đồ: mọi chữ trên màn hình phải nằm gọn trong khung (chủ kênh yêu cầu 20/10/2026, áp dụng mọi tập)
 
 - Không chữ nào được dài quá khung 1920×1080: thẻ hài, tiêu đề, thẻ nhân vật, thẻ câu nói, nhãn, phụ đề đều phải tự xuống dòng hoặc thu nhỏ chữ khi quá rộng (chừa lề tối thiểu 60 px mỗi bên). Hàm vẽ chữ mới phải có sẵn bước đo độ rộng (`textlength`) và xuống dòng; không vẽ một dòng dài cố định.

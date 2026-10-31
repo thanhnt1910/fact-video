@@ -52,11 +52,11 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 
 ## Lần thứ ba (tone: tense)
 22037. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.
-22038. Phía sau còn có thuyền lương của Trương Văn Hổ. Hưng Đạo Vương giao việc giữ biển cho Khánh Dư, người bán than năm xưa, nay là phó tướng ở Vân Đồn.
+22038. Phía sau còn nhiều thuyền chở lương do Trương Văn Hổ chỉ huy. Hưng Đạo Vương giao việc giữ biển cho Khánh Dư, người bán than năm xưa, nay là phó tướng ở Vân Đồn.
 22039. Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Thượng hoàng nghe tin, sai người xiềng tay ông giải về kinh.
 22040. Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
 22041. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
-22042. Chẳng bao lâu thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
+22042. Chẳng bao lâu một đoàn thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
 22043. Thượng hoàng tha tội cho ông. Ngài nói rằng quân Nguyên chỉ trông vào lương thực và vũ khí, nay đã mất mà giặc có thể chưa biết, nên còn hung hăng.
 22044. Vì vậy ngài thả những quân giặc bị bắt về doanh trại để báo tin, cho chúng biết đoàn thuyền lương đã mất.
 22045. Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên.
@@ -66,7 +66,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22047. Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?
 22048. Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước.
 22049. Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn.
-22050. Đúng lúc ấy Trương Văn Hổ dẫn thuyền lương tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết.
+22050. Đúng lúc ấy Trương Văn Hổ dẫn số thuyền lương còn lại tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết.
 22051. Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh.
 22052. Thượng hoàng cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ.
 22053. Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy.
@@ -112,3 +112,5 @@ Chi tiết Toàn thư ghi chú là sách khác chép khác: Toa Đô chết th�
 Chương Bình Than và cái kết mới (31/10/2026, theo yêu cầu chủ kênh): hai chi tiết Trần Khánh Dư và Trần Quốc Toản không còn là chi tiết rời mà thành một mạch, vì cùng xảy ra ở một hội nghị. Nguồn: Toàn thư Bản kỷ q.V, mùa đông 1282 (Nhâm Ngọ): vua ra Bình Than họp vương hầu và trăm quan; Khánh Dư từng bị đánh, bị tước hết quan tước, về Chí Linh bán than, vua nhận ra trên thuyền than, gọi, tha tội, cho ngồi bàn việc nước; vua không cho Quốc Toản và Hoài Nhân vương Kiện dự bàn vì còn trẻ, Quốc Toản bóp nát quả cam, rồi huy động hơn nghìn gia nô và thân thuộc, sắm vũ khí, đóng thuyền, viết lên cờ sáu chữ phá cường địch báo hoàng ân. Cái kết lấy từ Toàn thư: khi Quốc Toản mất vua thương tiếc, tự làm văn tế, gia phong tước vương; Khánh Dư tính tham lam, nơi ông trấn nhậm ai cũng ghét, vua tiếc tài làm tướng nên không nỡ bỏ.
 Chỗ cần để ý: Toàn thư chép tội của Khánh Dư là thông dâm với công chúa Thiên Thụy (vợ Hưng Vũ Vương, con Hưng Đạo Vương). Lời kể chỉ nói phạm tội với hoàng tộc cho gọn và tránh chi tiết nhạy cảm; chủ kênh quyết định có nói rõ không. Cũng ở Bình Than Toàn thư chép Khánh Dư được vua cho làm phó tướng quân vào tháng 10. Hưng Vũ Vương là con Hưng Đạo Vương nên việc vua sợ phật ý Quốc Tuấn là nguyên nhân vua cho đánh Khánh Dư; lời kể không nhắc.
 Người bóp nát quả cam là Trần Quốc Toản, không phải Trần Quốc Tuấn.
+
+Sửa đoàn thuyền lương (31/10/2026): hai lần thuyền lương trong kịch bản là hai đoàn khác nhau. Ở Vân Đồn, Khánh Dư bắt một đoàn thuyền vận tải (Toàn thư không nêu chỉ huy); đoàn của Trương Văn Hổ là số thuyền lương còn lại, đến Bạch Đằng thì mắc cọc. Toàn thư cũng chép trận Đại Bàng (ngày 8 tháng giêng 1288) bắt 300 thuyền giặc khi Ô Mã Nhi đi đón thuyền lương của Văn Hổ; lời kể chưa dùng chi tiết này.

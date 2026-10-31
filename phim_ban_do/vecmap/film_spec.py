@@ -69,6 +69,12 @@ def army(pts, side, i, off, dur, n=14, t1_i=None, stay=True, flag=True, u="inf")
     add("army", A(i, off), E_(t1_i or i) + (0.0 if stay else 0.0), pts=[list(p) for p in pts], side=side, n=n, dur=dur, stay=stay, flag=flag, u=u, fi=0.2, fo=0.8)
 
 
+def volley(a, b, i0, i1, off=0.0, n=14, h=60, col=None, sp=0.7):
+    d = add("volley", A(i0, off), E_(i1), a=list(a), b=list(b), n=n, h=h, sp=sp, fi=0.3, fo=0.5)
+    if col:
+        d["col"] = col
+
+
 def lab(text, p, col, i0, i1, fs=46, op=0.6, **kw):
     add("label", A(i0), E_(i1), lon=p[0], lat=p[1], text=text, col=col, fs=fs, op=op, fi=0.8, fo=0.8, **kw)
 
@@ -135,6 +141,8 @@ army(LAND, "v", 19, 1.2, 7.0, n=14, t1_i=21, flag=True)
 fx("horn", A(19, 0.9)); fx("water", A(19, 1.2), E_(20)); fx("march", A(19, 1.2), E_(21))
 city("Khâm Châu", KC, "s", 19, 26, 28); city("Liêm Châu", LC, "s", 19, 26, 28); city("Ung Châu", UC, "s", 19, 26, 30)
 add("ring", A(20, 0.8), E_(20), lon=KC[0], lat=KC[1], dur=1.6); add("ring", A(20, 2.6), E_(20), lon=LC[0], lat=LC[1], dur=1.6)
+fire_at = lambda p, i0, i1, off=0.0: add("fire", A(i0, off), E_(i1), lon=p[0], lat=p[1], s=20, fi=0.6, fo=0.8)
+fire_at(KC, 20, 20, 1.2); fire_at(LC, 20, 20, 3.0)
 fx("clash", A(20, 0.8)); fx("clash", A(20, 2.6))
 card("Tông Đản", "đạo bộ tiến về Ung Châu", 21, 0.3, 4.0)
 add("mark", A(22, 0.3), E_(22), shape="q", lon=107.7, lat=22.4, s=40, fi=0.3, fo=0.4)
@@ -143,6 +151,8 @@ army([QC, (109.4, 24.4), CL], "s", 24, 0.5, 5.0, n=14, t1_i=25, flag=True)
 add("mark", A(25, 0.2), E_(25), shape="dot", lon=CL[0] + .08, lat=CL[1] - .06, s=24, col=V, fi=0.4, fo=0.5)
 city("ải Côn Lôn", CL, "v", 25, 25, 26)
 add("ring", A(25, 3.5), E_(25), lon=CL[0], lat=CL[1], dur=1.8); fx("clash", A(25, 3.5)); fx("arrow", A(25, 2.6), A(25, 4.2))
+volley((CL[0] + .15, CL[1] - .12), (CL[0] - .02, CL[1] + .02), 25, 25, 2.4, n=14, h=70)
+volley((CL[0] - .06, CL[1] + .03), (CL[0] + .1, CL[1] - .1), 25, 25, 3.0, n=10, h=60, col="#cfe0ff")
 add("mark", A(26, 0.3), E_(26), shape="x", lon=CL[0], lat=CL[1], s=24, fi=0.3, fo=0.5)
 add("ring", A(26, 1.0), E_(26), lon=UC[0], lat=UC[1], col="#27487f", dur=2.0)
 

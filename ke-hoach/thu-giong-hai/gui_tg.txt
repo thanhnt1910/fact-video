@@ -1,4 +1,2 @@
-lt1 1793413800
-assets/bia/LT1/LT1_video_xem_thu.mp4
+lt1-bia-logo-cu 1793419010
 assets/bia/LT1/LT1_ngang.jpg
-telegram/lt1_mo_ta.txt

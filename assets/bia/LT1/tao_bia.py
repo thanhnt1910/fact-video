@@ -24,7 +24,7 @@ def fit(t,p,maxw,s):
 def shadow(im,xy,t,f,fill,off=6):
     d=ImageDraw.Draw(im); d.text((xy[0]+off,xy[1]+off),t,font=f,fill=(30,10,0)); d.text(xy,t,font=f,fill=fill)
 def add_logo(im,size=130):
-    logo=Image.open(ROOT/'assets/logo/nguoi-gac-su.png').convert('RGBA')
+    logo=Image.open(ROOT/'assets/logo/nguoi-gac-su-cu.png').convert('RGBA')
     l=logo.resize((size,size),Image.LANCZOS); l.putalpha(l.split()[3].point(lambda v:int(v*0.8)))
     im.alpha_composite(l,(im.size[0]-44-size,34))
 def ngang(out):

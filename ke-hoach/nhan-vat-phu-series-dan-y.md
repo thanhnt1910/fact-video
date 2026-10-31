@@ -23,7 +23,7 @@ Cột "Cần kiểm" là điều tôi chưa đối chiếu nguồn gốc, phải
 |---|---|---|---|---|
 | 1 | **Dương Tam Kha** | Sau Ngô Quyền (944–950) | Cướp ngôi con trưởng Ngô Quyền, nuôi con thứ rồi bị chính người con nuôi lật đổ. Sử chê cướp ngôi, không ghi bạo ngược với dân. | Năm 944 hay 945; Toàn thư bản gốc về lời Xương Văn |
 | 2 | **Kiều Công Tiễn** | Trước Bạch Đằng (937–938) | Giết chủ là Dương Đình Nghệ để cướp quyền, rồi cầu cứu Nam Hán, dẫn đến trận Bạch Đằng 938. | Năm giết Dương Đình Nghệ (937?) |
-| 3 | **Lê Long Đĩnh** | Cuối Tiền Lê (1005–1009) | Giết anh cướp ngôi; sử chép hành vi tàn bạo và bệnh nặng, gọi là Lê Ngọa Triều (đã có trong video Lý Công Uẩn). | Từng chi tiết "tàn bạo" phải có câu sử cụ thể |
+| 3 | **Lê Long Đĩnh** (đã viết, `bai-facebook/03-le-long-dinh/`) | Cuối Tiền Lê (1005–1009) | Giết anh cướp ngôi; sử chép hành vi tàn bạo và bệnh nặng, gọi là Lê Ngọa Triều (đã có trong video Lý Công Uẩn). | Từng chi tiết "tàn bạo" phải có câu sử cụ thể |
 | 4 | **Trần Ích Tắc** | Kháng chiến chống Nguyên Mông (1285) | Hoàng tử nhà Trần ra hàng quân Nguyên. Sử chép việc đầu hàng và hậu quả; nhạy cảm vì liên quan hoàng tộc, kể nghiêm. | Năm, hoàn cảnh ra hàng |
 | 5 | **Trần Dụ Tông** | Suy yếu nhà Trần (1341–1369) | Vua ham chơi, xa xỉ; sử chép triều chính rối loạn, dân đói. | Các việc cụ thể (xây dựng, thuế) |
 | 6 | **Lê Uy Mục** và **Lê Tương Dực** | Suy yếu Lê sơ (1505–1516) | Hai vua nổi tiếng tàn bạo và xa xỉ (kể bằng việc cụ thể sử chép, không dùng lời chê); triều đình loạn. | Từng việc phải có câu sử; tránh biệt danh dân gian |

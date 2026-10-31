@@ -13,6 +13,7 @@ bai-facebook/
 |---|---|---|---|
 | 01 | Dương Tam Kha | 5 | Bản nháp chờ chủ kênh duyệt |
 | 02 | Kiều Công Tiễn | 4 | Bản nháp chờ chủ kênh duyệt |
+| 03 | Lê Long Đĩnh | 0 | Bản nháp chờ chủ kênh duyệt (chưa tìm ảnh) |
 
 Quy tắc series và dàn ý: `ke-hoach/nhan-vat-phu-series-dan-y.md`. Quy tắc viết bài: `quy-tac/chung.md` và `quy-tac/su-viet.md`.
 

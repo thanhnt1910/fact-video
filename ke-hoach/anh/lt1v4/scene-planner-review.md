@@ -47,6 +47,17 @@ Bible: master 1.3, period 1.3, khoi-prompt 1.3. 42 cảnh = 35 ảnh FLUX + 7 b�
 | L34 | [62] | army | 14/0/0 | Lý Thường Kiệt | Lý Thường Kiệt (tạo hình nghệ thuật) ×1 (tiền cảnh, từ phía sau); lính Đại Việt ×13 (sau tướng, ba nhóm) | Medium | - |
 | L35 | [64] | command_room | 0/0/0 | sảnh vắng | (không có người) ×0 (-) | Low | AC21 |
 
+## Nhân vật có tên: hồ sơ, giai đoạn, thấy mặt
+
+| Cảnh | Hồ sơ / giai đoạn | Thấy mặt | Cần quyết râu trước khi vẽ |
+|---|---|---|---|
+| L04 | ly-thuong-kiet S2 | có | CÓ (râu UNDECIDED) |
+| L08 | ly-thuong-kiet S1,S2 | không (nhìn từ phía sau) | chưa cần |
+| L11 | ly-thuong-kiet S2 | có | CÓ (râu UNDECIDED) |
+| L12 | ly-thuong-kiet S2; tong-dan S1 | không (nhìn từ phía sau) | chưa cần |
+| L24 | ly-thuong-kiet S2 | không (nhìn từ phía sau) | chưa cần |
+| L34 | ly-thuong-kiet S4 | không (nhìn từ phía sau) | chưa cần |
+
 ## Đoạn 66 (hai cảnh L03 rồi L25)
 
 1. **L03** — "Một lần, ông đưa quân vượt biên giới, đánh vào đất địch." (12 chữ, khoảng 0–4 giây của đoạn). câu này nói về cuộc tiến quân sang đất Tống: cảnh quân Đại Việt hành quân lên phía bắc.

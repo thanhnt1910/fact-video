@@ -95,6 +95,15 @@ def kiem_canh(s):
         if f.get('decision_mode') == 'AUTO' and not _ok: Bq('QK-AUTO')(i, f'"{f["item"]}": decision_mode AUTO nhưng không có quyết định APPROVED còn hiệu lực đúng phạm vi: coi như OWNER_APPROVAL')
         if not f['owner_approved'] and not _ok:
             (B if s.get('plan_status') == 'PLAN_APPROVED' else W)(i, f'chi tiết ngoài khối "{f["item"]}" ({f["tag"]}) chưa được chủ kênh duyệt')
+    for hs_ in s.get('ho_so_nhan_vat', []):
+        pf = os.path.join(Q.R, 'quy-tac/anh/nhan-vat', f'{hs_.get("ma")}.json')
+        if not os.path.exists(pf): Bq('QK-HOSO')(i, f'hồ sơ nhân vật "{hs_.get("ma")}" không tồn tại'); continue
+        pj = json.load(open(pf, encoding='utf-8')); gd = {g['id']: g for g in pj.get('giai_doan', [])}
+        for g_ in hs_.get('giai_doan', []):
+            if g_ not in gd: Bq('QK-HOSO')(i, f'hồ sơ {hs_["ma"]} không có giai đoạn {g_}')
+            elif s.get('thay_mat'):
+                und = [k for k, v in gd[g_]['dac_diem'].items() if k == 'rau' and v.get('trang_thai') == 'UNDECIDED']
+                if und: Bq('QK-HOSO')(i, f'{hs_["ma"]}/{g_}: thấy mặt nhân vật nhưng màu râu còn UNDECIDED (cần chủ kênh quyết trước khi vẽ cảnh này)')
     for dqid in s.get('quyet_dinh_ap_dung', []):
         d_ = REG.get(dqid)
         if not d_: Bq('QK-REGISTRY')(i, f'quyet_dinh_ap_dung {dqid} không có trong registry'); continue

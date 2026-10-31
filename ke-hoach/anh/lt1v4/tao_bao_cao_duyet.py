@@ -48,6 +48,9 @@ for g in range(1, 69):
     k = tuple(m[g])
     if runs and runs[-1][0] == k: runs[-1][1].append(g)
     else: runs.append((k, [g]))
+R_ += ['', '## Nhân vật có tên: hồ sơ, giai đoạn, thấy mặt', '', '| Cảnh | Hồ sơ / giai đoạn | Thấy mặt | Cần quyết râu trước khi vẽ |', '|---|---|---|---|']
+for s_ in img:
+    if s_.get('ho_so_nhan_vat'): R_.append(f'| {s_["scene_id"]} | ' + '; '.join(f'{h["ma"]} {",".join(h["giai_doan"])}' for h in s_['ho_so_nhan_vat']) + f' | {"có" if s_["thay_mat"] else "không (nhìn từ phía sau)"} | {"CÓ (râu UNDECIDED)" if s_["thay_mat"] else "chưa cần"} |')
 R_ += ['', '## Đoạn 66 (hai cảnh L03 rồi L25)', '']
 for c in P['segment_cuts']['66']: R_.append(f'{c["thu_tu"]}. **{c["scene"]}** — "{c["cau"]}" ({c["so_chu"]} chữ, {c["thoi_gian_uoc_tinh"]}). {c["ly_do"]}.')
 R_ += ['', 'Chủ ý dùng hai cảnh: đoạn 66 gồm hai câu có hai ý đối nhau (vượt biên giới đánh trước / dựng phòng tuyến giữ sông), mỗi câu khoảng 4–5 giây. Cắt đúng ở dấu chấm sau "đất địch", không đổi lời đọc. Phương án khác: dùng L25 cho cả đoạn (bỏ L03 ở đoạn này), nhưng khi đó câu đầu hiện cảnh bờ sông không khớp lời. Em đề xuất giữ hai cảnh.', '',

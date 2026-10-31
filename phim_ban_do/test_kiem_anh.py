@@ -220,4 +220,13 @@ for fn in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-
 tinh('29 bible_versions của lt1v4 vẫn 1.3 và planner chưa PLAN_APPROVED', real['bible_versions'] == dict(master='1.3', period='1.3', khoi_prompt='1.3') and real['plan_status'] == 'PLAN_OWNER_REVIEW' and not any(x['plan_status'] == 'PLAN_APPROVED' for x in RS))
 tinh('30 Không quyết định PROPOSED nào là AUTO', all(not (d['trang_thai'] == 'PROPOSED' and d['decision_mode'] == 'AUTO') for d in REGJ['quyet_dinh']))
 tinh('31 Bốn quyết định Registry: PROPOSED, C, OWNER_APPROVAL, visual_only', len(REGJ['quyet_dinh']) == 4 and all(d['trang_thai'] == 'PROPOSED' and d['evidence_level'] == 'C' and d['decision_mode'] == 'OWNER_APPROVAL' and d['approval_scope'] == 'visual_only' for d in REGJ['quyet_dinh']))
+# --- liên kết hồ sơ nhân vật và quyết định râu chỉ khi thấy mặt
+S04 = next(x for x in RS if x['scene_id'] == 'L04'); S08 = next(x for x in RS if x['scene_id'] == 'L08')
+K.bad.clear(); K.warn.clear(); K.kiem_canh(S04)
+tinh('32a Cảnh thấy mặt Lý Thường Kiệt (L04) mà râu UNDECIDED: cảnh báo cần chủ kênh quyết', any('QK-HOSO' in l and 'UNDECIDED' in l for l in K.warn) and not any('QK-HOSO' in l for l in K.bad))
+K.bad.clear(); K.warn.clear(); K.kiem_canh(S08)
+tinh('32b Cảnh nhìn từ phía sau (L08) không cần quyết định râu', not any('UNDECIDED' in l for l in K.warn))
+K.bad.clear(); K.warn.clear(); K.kiem_canh(dict(S08, ho_so_nhan_vat=[dict(ma='ly-thuong-kiet', giai_doan=['S9'])]))
+tinh('32c Giai đoạn không có trong hồ sơ bị đánh dấu', any('không có giai đoạn S9' in l for l in K.warn))
+ok_, why = gate(ap(S04)); tinh('32d Cổng vẫn chặn L04 khi râu chưa quyết (kể cả nếu giả sử PLAN_APPROVED)', not ok_ and any('UNDECIDED' in w for w in why))
 print(f'\nTổng: {sum(kq)}/{len(kq)} phép kiểm đạt'); sys.exit(0 if all(kq) else 1)

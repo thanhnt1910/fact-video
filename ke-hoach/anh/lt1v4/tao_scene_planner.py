@@ -230,6 +230,13 @@ for x in sc:
         f.update(noi_luu_de_xuat=nl, noi_luu_chi_tiet=ref, decision_mode='OWNER_APPROVAL', tinh_chat='quy_uoc_hinh_anh', la_du_kien_lich_su=False, quyet_dinh=(ref if nl == 'registry' else None))
         if nl == 'registry' and ref not in dqs: dqs.append(ref)
     if dqs: x['quyet_dinh_ap_dung'] = dqs
+# --- Liên kết hồ sơ nhân vật (kiến trúc 4 tầng, DRAFT). thay_mat = mặt nhân vật có nhìn thấy được trong ảnh (quyết định râu chỉ cần khi thay_mat=True)
+HO_SO = {'L04': ([('ly-thuong-kiet', ['S2'])], True), 'L08': ([('ly-thuong-kiet', ['S1', 'S2'])], False), 'L11': ([('ly-thuong-kiet', ['S2'])], True),
+         'L12': ([('ly-thuong-kiet', ['S2']), ('tong-dan', ['S1'])], False), 'L24': ([('ly-thuong-kiet', ['S2'])], False), 'L34': ([('ly-thuong-kiet', ['S4'])], False)}
+for x in sc:
+    if x['scene_id'] in HO_SO:
+        hs, tm = HO_SO[x['scene_id']]
+        x['ho_so_nhan_vat'] = [dict(ma=m, giai_doan=g) for m, g in hs]; x['thay_mat'] = tm
 # --- kiểm bao phủ 68 đoạn
 cov = {}
 for s in sc:

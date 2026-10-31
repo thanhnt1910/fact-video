@@ -286,6 +286,13 @@
    "trang_thai": "APPROVED",
    "che_do": "gate",
    "tham_chieu": "NT-04"
+  },
+  {
+   "id": "QK-HOSO",
+   "noi_dung": "Cảnh có nhân vật có tên phải liên kết hồ sơ nhân vật và giai đoạn; thấy mặt mà màu râu còn UNDECIDED thì cần chủ kênh quyết trước khi vẽ",
+   "trang_thai": "PROPOSED",
+   "che_do": "block",
+   "tham_chieu": "NT-01"
   }
  ]
 }

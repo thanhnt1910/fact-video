@@ -434,7 +434,16 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-001"
-   ]
+   ],
+   "ho_so_nhan_vat": [
+    {
+     "ma": "ly-thuong-kiet",
+     "giai_doan": [
+      "S2"
+     ]
+    }
+   ],
+   "thay_mat": true
   },
   {
    "scene_id": "L05",
@@ -898,7 +907,17 @@
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Dùng cho 9, 17, 18 (đoạn 17 và 18 là câu hỏi và suy nghĩ về danh nghĩa tiến quân).",
    "timing_note": "Đoạn 17 và 18 liền nhau, khoảng 23 giây: cần hiệu ứng chuyển động.",
-   "motion_plan": "Đoạn 17: khung rộng, zoom chậm vào lưng tướng. Đoạn 18: pan lên dãy núi phía bắc (cắt cận núi). Một ảnh, ~23 giây; dùng lại cho đoạn 9 thì đổi hướng pan."
+   "motion_plan": "Đoạn 17: khung rộng, zoom chậm vào lưng tướng. Đoạn 18: pan lên dãy núi phía bắc (cắt cận núi). Một ảnh, ~23 giây; dùng lại cho đoạn 9 thì đổi hướng pan.",
+   "ho_so_nhan_vat": [
+    {
+     "ma": "ly-thuong-kiet",
+     "giai_doan": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "thay_mat": false
   },
   {
    "scene_id": "L09",
@@ -1204,7 +1223,16 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-001"
-   ]
+   ],
+   "ho_so_nhan_vat": [
+    {
+     "ma": "ly-thuong-kiet",
+     "giai_doan": [
+      "S2"
+     ]
+    }
+   ],
+   "thay_mat": true
   },
   {
    "scene_id": "L12",
@@ -1359,7 +1387,22 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không vẽ cờ xuất quân (chưa có tư liệu).",
-   "timing_note": ""
+   "timing_note": "",
+   "ho_so_nhan_vat": [
+    {
+     "ma": "ly-thuong-kiet",
+     "giai_doan": [
+      "S2"
+     ]
+    },
+    {
+     "ma": "tong-dan",
+     "giai_doan": [
+      "S1"
+     ]
+    }
+   ],
+   "thay_mat": false
   },
   {
    "scene_id": "L13",
@@ -2675,7 +2718,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Đoạn 37 (chọn sông Như Nguyệt) và 67 (hai nước cờ, kết).",
-   "timing_note": "Hai đoạn cách xa nhau."
+   "timing_note": "Hai đoạn cách xa nhau.",
+   "ho_so_nhan_vat": [
+    {
+     "ma": "ly-thuong-kiet",
+     "giai_doan": [
+      "S2"
+     ]
+    }
+   ],
+   "thay_mat": false
   },
   {
    "scene_id": "M5",
@@ -3876,7 +3928,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Số lính chỉ minh họa. Không vẽ cờ.",
-   "timing_note": ""
+   "timing_note": "",
+   "ho_so_nhan_vat": [
+    {
+     "ma": "ly-thuong-kiet",
+     "giai_doan": [
+      "S4"
+     ]
+    }
+   ],
+   "thay_mat": false
   },
   {
    "scene_id": "L35",

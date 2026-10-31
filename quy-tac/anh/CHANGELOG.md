@@ -1,5 +1,8 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, chủ kênh duyệt 35 cảnh ảnh (PLAN_APPROVED)
+- 35 cảnh vẽ ảnh của lt1v4 chuyển PLAN_APPROVED (`plan_approved_by`, `plan_approved_date`). 7 bản đồ vẫn PLAN_OWNER_REVIEW và bị cổng chặn (còn 20 mục địa lý chưa xác minh). Planner tổng vẫn PLAN_OWNER_REVIEW; `bible_versions` 1.3. Cổng `--cong all`: 35 cho phép, 7 chặn. Chưa vẽ ảnh sản xuất.
+
 ## 01/11/2026, chủ kênh chọn CR-TD-4 làm ảnh tham chiếu Tông Đản
 - `CR-TD-4` (Tông Đản, râu đen ngắn) vào danh sách duyệt, `face_only`, giai đoạn S1, mức C; ghi vào `tham-chieu-duoc-duyet.json`, `anh.json`, hồ sơ nhân vật. Không cảnh nào hiện đang thấy mặt Tông Đản nên chưa cảnh nào khai tham chiếu này.
 

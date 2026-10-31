@@ -264,5 +264,8 @@ for s in sc:
 miss = [i for i in range(1, N_MOI + 1) if i not in cov]
 assert not miss, f'đoạn chưa có cảnh: {miss}'
 for x in sc: x['plan_status'] = 'PLAN_OWNER_REVIEW'   # đã qua bộ kiểm, đang chờ chủ kênh duyệt (không tự chuyển PLAN_APPROVED)
+# Chủ kênh duyệt 35 cảnh vẽ ảnh (01/11/2026, "duyệt 35 cảnh"): PLAN_APPROVED từng cảnh. 7 bản đồ vẫn PLAN_OWNER_REVIEW (còn mục địa lý chưa xác minh). Planner tổng vẫn PLAN_OWNER_REVIEW.
+for x in sc:
+    if x.get('render') != 'vector_map': x.update(plan_status='PLAN_APPROVED', plan_approved_by='chủ kênh', plan_approved_date='2026-11-01')
 json.dump(dict(project='lt1v4', plan_version='2', plan_status='PLAN_OWNER_REVIEW', bible_versions=dict(CUR), script='ke-hoach/thu-giong-hai/lt1v4_tach_full.json', script_goc='ke-hoach/thu-giong-hai/lt1v4_full.json', so_doan=N_MOI, ghi_chu_so_doan='segment_ids theo bản tách 90 đoạn; số đoạn trong ghi_chu/timing_note/motion_plan/map_note theo bản 68 đoạn cũ (xem segment_ids_ban_cu và lt1v4_tach_anh-xa.json)', segment_cuts=CUTS, scenes=sc), open(f'{R}/ke-hoach/anh/lt1v4/scene-planner.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(sc), 'cảnh,', sum(1 for s in sc if s.get('render') == 'vector_map'), 'bản đồ;', 'đoạn nhiều cảnh:', {k: v for k, v in cov.items() if len(v) > 1})

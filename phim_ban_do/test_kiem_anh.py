@@ -181,7 +181,7 @@ ok_, why = gate(ap(base | dict(thay_mat=True, ho_so_nhan_vat=[dict(ma='ly-thuong
 ok_, why = gate(ap(base | dict(free_text_details=[dict(item='bản vẽ', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=True, approved_by='a', approved_date='d', decision_mode='MUST_VERIFY')]))); tinh('23f Cổng chặn MUST_VERIFY chưa VERIFIED kèm nguồn', not ok_ and any('MUST_VERIFY' in w for w in why))
 ok_, why = gate(ap(base | dict(quyet_dinh_ap_dung=['DQ-001']))); tinh('23g Cổng chặn cảnh dùng quyết định mới PROPOSED', not ok_ and any('DQ-001' in w for w in why))
 rs = [x for x in RS if x.get('render') != 'vector_map']; res = [gate(x)[0] for x in rs + [x for x in RS if x.get('render') == 'vector_map']]
-tinh(f'23h Planner thật đang PLAN_OWNER_REVIEW: cổng chặn cả {len(res)} cảnh (không cảnh nào vào sản xuất)', not any(res))
+tinh(f'23h Planner thật: 35 cảnh ảnh PLAN_APPROVED (chủ kênh duyệt 01/11/2026) qua cổng; 7 bản đồ vẫn bị chặn ({sum(res)} cảnh được phép)', sum(res) == 35 and all(not gate(x)[0] for x in RS if x.get('render') == 'vector_map') and all(x.get('plan_approved_by') == 'chủ kênh' for x in rs))
 # phạm vi và AUTO với quyết định giả định APPROVED (bản sao, không ghi file)
 dq_ok = lambda i, **kw: dict(next(d for d in REGJ['quyet_dinh'] if d['id'] == i), trang_thai='APPROVED', nguoi_duyet='x', ngay_duyet='d', **kw)
 S35 = next(x for x in RS if x['scene_id'] == 'L35'); S25 = next(x for x in RS if x['scene_id'] == 'L25'); S32 = next(x for x in RS if x['scene_id'] == 'L32')
@@ -221,7 +221,7 @@ for fn in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-
         h_ = _h.sha256(open(f'{Q.R}/{fn}', 'rb').read()).hexdigest()
         tinh('28 quy-trinh-anh.md khớp SHA-256 sau khi chủ kênh duyệt mục 5 (v1.3), khác baseline b1', h_ == SD[fn] and h_ != BL[fn])
     else: tinh(f'28 {fn.split("/")[-1]} giống hệt baseline (SHA-256)', _h.sha256(open(f'{Q.R}/{fn}', 'rb').read()).hexdigest() == BL[fn])
-tinh('29 bible_versions của lt1v4 vẫn 1.3 và planner chưa PLAN_APPROVED', real['bible_versions'] == dict(master='1.3', period='1.3', khoi_prompt='1.3') and real['plan_status'] == 'PLAN_OWNER_REVIEW' and not any(x['plan_status'] == 'PLAN_APPROVED' for x in RS))
+tinh('29 bible_versions của lt1v4 vẫn 1.3; planner tổng vẫn PLAN_OWNER_REVIEW; chỉ 35 cảnh ảnh PLAN_APPROVED, bản đồ thì không', real['bible_versions'] == dict(master='1.3', period='1.3', khoi_prompt='1.3') and real['plan_status'] == 'PLAN_OWNER_REVIEW' and sum(x['plan_status'] == 'PLAN_APPROVED' for x in RS) == 35 and not any(x['plan_status'] == 'PLAN_APPROVED' for x in RS if x.get('render') == 'vector_map'))
 tinh('30 Không quyết định PROPOSED nào là AUTO', all(not (d['trang_thai'] == 'PROPOSED' and d['decision_mode'] == 'AUTO') for d in REGJ['quyet_dinh']))
 tinh('31 Registry: DQ-001..004 APPROVED bởi chủ kênh 01/11/2026 (C, OWNER_APPROVAL, visual_only); DQ-005 râu CHARACTER APPROVED; chưa mục nào AUTO', {d['id'] for d in REGJ['quyet_dinh']} == {'DQ-001', 'DQ-002', 'DQ-003', 'DQ-004', 'DQ-005'} and all(d['trang_thai'] == 'APPROVED' and d['nguoi_duyet'] == 'chủ kênh' and d['ngay_duyet'] == '2026-11-01' and d['evidence_level'] == 'C' and d['decision_mode'] == 'OWNER_APPROVAL' and d['approval_scope'] == 'visual_only' and d['la_du_kien_lich_su'] is False for d in REGJ['quyet_dinh']))
 # --- liên kết hồ sơ nhân vật và quyết định râu chỉ khi thấy mặt

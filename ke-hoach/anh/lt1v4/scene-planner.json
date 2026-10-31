@@ -104,13 +104,15 @@
    "risk": "Low",
    "reuse_group": "ung-chau-wall",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Đoạn 1: không vẽ cái chết hay lửa (kịch bản v4 không nói). Đoạn 26 dùng lại: thành đứng một mình.",
    "timing_note": "Đoạn 1 và đoạn 26 cách xa nhau, không liền.",
    "segment_ids_ban_cu": [
     1,
     26
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L02",
@@ -202,13 +204,15 @@
    "risk": "Low",
    "reuse_group": "to-giam",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Đoạn 2 chưa nêu tên; đoạn 27 nêu tên Tô Giám. Tạo hình sĩ quan là phục dựng, không phải chân dung.",
    "timing_note": "Hai đoạn cách xa nhau.",
    "segment_ids_ban_cu": [
     2,
     27
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L03",
@@ -327,13 +331,15 @@
    "risk": "Medium",
    "reuse_group": "vn-vuot-bien-gioi",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Số lính trong ảnh chỉ minh họa, không phải số quân trong sử (kịch bản nói hơn mười vạn người). Không cờ.",
    "timing_note": "Đoạn 66 dùng lại: nửa đầu đoạn.",
    "segment_ids_ban_cu": [
     3,
     66
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L04",
@@ -455,7 +461,7 @@
      "purpose": "face_only"
     }
    ],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Cần Character Reference Lý Thường Kiệt trước khi vẽ loạt nhân vật này. Dùng cho đoạn 4, 5 và 60.",
    "timing_note": "Đoạn 4 và 5 liền nhau (khoảng 19 giây một ảnh): cần hiệu ứng chuyển động.",
    "motion_plan": "Đoạn 4: zoom chậm vào bản đồ trên bàn (cắt cận bàn). Đoạn 5: pan nhẹ sang nhân vật khi tên Lý Thường Kiệt được nhắc. Một ảnh, ~19 giây.",
@@ -480,7 +486,9 @@
     4,
     5,
     60
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L05",
@@ -560,12 +568,14 @@
    "risk": "Low",
    "reuse_group": "thang-long",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ vua. Mô tả \"khôi ngô\" của kịch bản không thể hiện bằng ảnh này.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     6
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L06",
@@ -709,12 +719,14 @@
    "risk": "Low",
    "reuse_group": "L06",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ \"cờ tiết\" (chưa có tư liệu về hình dạng và màu).",
    "timing_note": "",
    "segment_ids_ban_cu": [
     7
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L07",
@@ -825,13 +837,15 @@
    "risk": "Medium",
    "reuse_group": "chiem-thanh",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Dùng cho đoạn 8 (1069) và đoạn 63 (chiến dịch Chiêm Thành lần cuối). Địa hình nhiệt đới là suy luận từ hướng nam.",
    "timing_note": "Hai lần dùng cách xa nhau.",
    "segment_ids_ban_cu": [
     8,
     63
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L08",
@@ -961,7 +975,7 @@
    "risk": "Low",
    "reuse_group": "ltk-nhin-bac",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Dùng cho 9, 17, 18 (đoạn 17 và 18 là câu hỏi và suy nghĩ về danh nghĩa tiến quân).",
    "timing_note": "Đoạn 17 và 18 liền nhau, khoảng 23 giây: cần hiệu ứng chuyển động.",
    "motion_plan": "Đoạn 17: khung rộng, zoom chậm vào lưng tướng. Đoạn 18: pan lên dãy núi phía bắc (cắt cận núi). Một ảnh, ~23 giây; dùng lại cho đoạn 9 thì đổi hướng pan.",
@@ -979,7 +993,9 @@
     9,
     17,
     18
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L09",
@@ -1049,12 +1065,14 @@
    "risk": "Low",
    "reuse_group": "tong-trieu-dinh",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Cảnh thay cho Vương An Thạch và chính sách cải cách: không vẽ nhân vật.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     10
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M1",
@@ -1161,7 +1179,7 @@
    "risk": "Medium",
    "reuse_group": "quang-tay-chuan-bi",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Dùng cho 12 (đóng thuyền, luyện thủy quân), 22 và 23 (nhà Tống chuẩn bị lực lượng ở khu vực sát biên giới). Không vẽ cờ.",
    "timing_note": "Đoạn 22 và 23 liền nhau, khoảng 19 giây.",
    "motion_plan": "Đoạn 22: khung rộng xưởng thuyền. Đoạn 23: zoom vào hai thân thuyền. Một ảnh, ~19 giây.",
@@ -1176,7 +1194,9 @@
     12,
     22,
     23
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L11",
@@ -1309,7 +1329,7 @@
      "purpose": "face_only"
     }
    ],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Dùng cho 13 (chờ hay đánh), 50 và 51 (nghị hòa). Không vẽ nhà vua (không có tạo hình trong Bible).",
    "timing_note": "Đoạn 50 và 51 liền nhau, khoảng 19 giây.",
    "motion_plan": "Đoạn 50: khung ba phần tư. Đoạn 51: zoom vào bản đồ trên bàn. Một ảnh, ~19 giây.",
@@ -1334,7 +1354,9 @@
     13,
     50,
     51
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L12",
@@ -1489,7 +1511,7 @@
    "risk": "Medium",
    "reuse_group": "xuat-quan",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ cờ xuất quân (chưa có tư liệu).",
    "timing_note": "",
    "ho_so_nhan_vat": [
@@ -1509,7 +1531,9 @@
    "thay_mat": false,
    "segment_ids_ban_cu": [
     14
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L13",
@@ -1590,14 +1614,16 @@
    "risk": "Low",
    "reuse_group": "thanh-mieu",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Minh họa chính sách thanh miêu (vay khi lúa còn non, trả khi gặt). Không vẽ quan thu nợ.",
    "timing_note": "Đoạn 15 và 16 liền nhau, khoảng 20 giây.",
    "motion_plan": "Đoạn 15: khung rộng, zoom chậm vào nhóm gặt lúa phía trước. Đoạn 16: pan sang nhóm bó lúa phía sau. Một ảnh, ~20 giây.",
    "segment_ids_ban_cu": [
     15,
     16
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M2",
@@ -1741,7 +1767,7 @@
    "risk": "Medium",
    "reuse_group": "dao-thuy",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ cảnh bắt dân (đoạn 20 nói bắt tù binh), chỉ vẽ đổ bộ.",
    "timing_note": "",
    "nien_dai_canh": [
@@ -1753,7 +1779,9 @@
    ],
    "segment_ids_ban_cu": [
     20
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L15",
@@ -1880,12 +1908,14 @@
    "risk": "Medium",
    "reuse_group": "dao-bo",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "",
    "timing_note": "",
    "segment_ids_ban_cu": [
     21
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L16",
@@ -1985,12 +2015,14 @@
    "risk": "Medium",
    "reuse_group": "vien-binh-tong",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không cờ Tống. Binh chủng chọn theo Bible (nặng + nỏ).",
    "timing_note": "",
    "segment_ids_ban_cu": [
     24
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L17",
@@ -2108,12 +2140,14 @@
    "risk": "High",
    "reuse_group": "phuc-kich",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ cảnh giết Trương Thủ Tiết hay máu. Chỉ vẽ khoảnh khắc phục kích. Rủi ro cao vì hai phe ở cùng khung.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     25
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L18",
@@ -2240,13 +2274,15 @@
    "risk": "Medium",
    "reuse_group": "doc-dat",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Dốc đất: sự kiện theo kịch bản (sử liệu), hình dạng là phục dựng (B). Không vũ khí công thành khác.",
    "timing_note": "Đoạn 65 dùng lại: hai trận cách nhau một năm.",
    "segment_ids_ban_cu": [
     28,
     65
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L19",
@@ -2326,12 +2362,14 @@
    "risk": "Low",
    "reuse_group": "ung-chau-trong",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ cái chết của Tô Giám và người thân (kịch bản v4 đoạn 29).",
    "timing_note": "",
    "segment_ids_ban_cu": [
     29
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L20",
@@ -2403,12 +2441,14 @@
    "risk": "Low",
    "reuse_group": "doc-dat-vang",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không vẽ thi thể. Số \"hơn năm vạn tám nghìn người\" (kịch bản nói là từ sử liệu được nhắc) nên hiện bằng chữ trên màn hình kèm nguồn, không bằng hình.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     30
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L21",
@@ -2535,12 +2575,14 @@
    "risk": "Medium",
    "reuse_group": "rut-quan",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Không dùng xiềng xích, roi, bạo lực (kịch bản không nói).",
    "timing_note": "",
    "segment_ids_ban_cu": [
     31
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M3",
@@ -2666,12 +2708,14 @@
    "risk": "Medium",
    "reuse_group": "quach-quy",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "\"Đạo quân lớn\" của kịch bản chỉ được gợi bằng 11 lính; không vẽ cờ.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     34
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M4",
@@ -2793,12 +2837,14 @@
    "risk": "Medium",
    "reuse_group": "tong-tien-quan",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "",
    "timing_note": "",
    "segment_ids_ban_cu": [
     36
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L24",
@@ -2880,7 +2926,7 @@
    "risk": "Low",
    "reuse_group": "ltk-song",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Đoạn 37 (chọn sông Như Nguyệt) và 67 (hai nước cờ, kết).",
    "timing_note": "Hai đoạn cách xa nhau.",
    "ho_so_nhan_vat": [
@@ -2895,7 +2941,9 @@
    "segment_ids_ban_cu": [
     37,
     67
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M5",
@@ -3040,7 +3088,7 @@
    "risk": "Medium",
    "reuse_group": "phong-tuyen",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Đoạn 40 nói \"theo những ghi chép và truyền lại về sau\". Đoạn 66 dùng lại: nửa sau đoạn.",
    "timing_note": "",
    "nien_dai_canh": [
@@ -3053,7 +3101,9 @@
    "segment_ids_ban_cu": [
     40,
     66
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L26",
@@ -3182,7 +3232,7 @@
    "risk": "Medium",
    "reuse_group": "bo-bac",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "",
    "timing_note": "Ba đoạn liền nhau (41 đến 43), khoảng 30 giây một ảnh: cần hiệu ứng chuyển động hoặc đổi sang L25.",
    "motion_plan": "Ba đoạn ~29 giây. Đoạn 41: khung rộng từ lưng lính Tống. Đoạn 42: zoom chậm vào hàng lũy bờ nam. Đoạn 43: pan xuống mặt nước và lính Tống chuẩn bị lội. Một ảnh, ba lần cắt cận; nếu chủ kênh thấy đơn điệu thì đề xuất dùng L25 (cùng phòng tuyến) cho đoạn 43.",
@@ -3197,7 +3247,9 @@
     41,
     42,
     43
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L27",
@@ -3323,7 +3375,7 @@
    "risk": "High",
    "reuse_group": "vuot-song",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Rủi ro cao: hai phe trong một khung, nhiều người trong nước. Không vẽ cung tên (chưa có khối vũ khí cung).",
    "timing_note": "",
    "nien_dai_canh": [
@@ -3335,7 +3387,9 @@
    ],
    "segment_ids_ban_cu": [
     44
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L28",
@@ -3448,14 +3502,16 @@
    "risk": "Low",
    "reuse_group": "den-ben-song",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Đoạn 45 và 48 theo truyền thuyết. Không vẽ người đọc thơ hay thần linh. Đoạn 68 dùng lại để khép.",
    "timing_note": "Dùng ba lần cách xa nhau.",
    "segment_ids_ban_cu": [
     45,
     48,
     68
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L29",
@@ -3525,14 +3581,16 @@
    "risk": "Low",
    "reuse_group": "den-chi-tiet",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Bài thơ nên hiện bằng chữ trên màn hình (không vẽ chữ trong ảnh).",
    "timing_note": "Đoạn 46 và 47 liền nhau, khoảng 18 giây.",
    "motion_plan": "Đoạn 46 và 47 (~18 giây): zoom rất chậm vào cửa đền, đèn dầu sáng dần. Một ảnh.",
    "segment_ids_ban_cu": [
     46,
     47
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L30",
@@ -3622,12 +3680,14 @@
    "risk": "Low",
    "reuse_group": "doanh-trai-tong",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Bệnh tật thể hiện bằng dáng ngồi, không vẽ thi thể hay người hấp hối.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     49
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L31",
@@ -3699,12 +3759,14 @@
    "risk": "Medium",
    "reuse_group": "tong-rut",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Đoạn 52 nói Quảng Nguyên rơi vào tay nhà Tống: dùng bản đồ M6.",
    "timing_note": "",
    "segment_ids_ban_cu": [
     52
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M6",
@@ -3881,7 +3943,7 @@
    "risk": "High",
    "reuse_group": "su-bo-voi",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Chỉ theo dõi voi (expected_elephants); chưa mở rộng loài khác. Số voi trong ảnh phải được người đếm, ghi riêng ở dem_thu_cong.voi.",
    "timing_note": "Ba đoạn liền nhau (54 đến 56), khoảng 30 giây: xem motion_plan.",
    "motion_plan": "Ba đoạn ~31 giây. Đoạn 54: khung rộng cả đoàn (đếm được năm voi). Đoạn 55: pan dọc theo hàng voi. Đoạn 56: zoom vào sứ giả đi đầu. Một ảnh, ba lần cắt cận. Chỉ thêm ảnh thứ hai (cận cảnh sứ giả) nếu cắt cận từ ảnh gốc bị mờ.",
@@ -3896,7 +3958,9 @@
     54,
     55,
     56
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L33",
@@ -4040,12 +4104,14 @@
    "risk": "Medium",
    "reuse_group": "tra-nguoi",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "",
    "timing_note": "",
    "segment_ids_ban_cu": [
     58
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "M7",
@@ -4193,7 +4259,7 @@
    "risk": "Medium",
    "reuse_group": "dep-loan",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Số lính chỉ minh họa. Không vẽ cờ.",
    "timing_note": "",
    "ho_so_nhan_vat": [
@@ -4207,7 +4273,9 @@
    "thay_mat": false,
    "segment_ids_ban_cu": [
     62
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   },
   {
    "scene_id": "L35",
@@ -4297,7 +4365,7 @@
    "risk": "Low",
    "reuse_group": "sanh-vang",
    "reference_images": [],
-   "plan_status": "PLAN_OWNER_REVIEW",
+   "plan_status": "PLAN_APPROVED",
    "ghi_chu": "Thay cho cảnh mất: không vẽ tang lễ hay mộ (kịch bản không nói, Bible không có).",
    "timing_note": "",
    "nien_dai_canh": [
@@ -4309,7 +4377,9 @@
    ],
    "segment_ids_ban_cu": [
     64
-   ]
+   ],
+   "plan_approved_by": "chủ kênh",
+   "plan_approved_date": "2026-11-01"
   }
  ]
 }

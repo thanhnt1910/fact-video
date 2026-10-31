@@ -65,8 +65,8 @@ def route(rid, pts, col, i, off, dur, t1_i=None, w=6, fo=0.8):
     add("route", A(i, off), E_(t1_i or i), id=rid, pts=[list(p) for p in pts], col=col, dur=dur, w=w, fi=0.2, fo=fo)
 
 
-def army(pts, side, i, off, dur, n=14, t1_i=None, stay=True, flag=True):
-    add("army", A(i, off), E_(t1_i or i) + (0.0 if stay else 0.0), pts=[list(p) for p in pts], side=side, n=n, dur=dur, stay=stay, flag=flag, fi=0.2, fo=0.8)
+def army(pts, side, i, off, dur, n=14, t1_i=None, stay=True, flag=True, u="inf"):
+    add("army", A(i, off), E_(t1_i or i) + (0.0 if stay else 0.0), pts=[list(p) for p in pts], side=side, n=n, dur=dur, stay=stay, flag=flag, u=u, fi=0.2, fo=0.8)
 
 
 def lab(text, p, col, i0, i1, fs=46, op=0.6, **kw):
@@ -89,7 +89,7 @@ city("Thăng Long", TL, "v", 3, 9, 30)
 # ============ Chương 2: Người cầm cờ tiết (6–9) ============
 C(6, *TL, 1.1); C(7, 105.95, 21.15, 2.2); C(8, 105.9, 19.6, 8.0); C(9, 106.6, 22.0, 8.6)
 card("Phường Thái Hòa", "kinh thành Thăng Long", 6, 0.4, 4.0)
-add("army", A(7, 0.3), E_(7), pts=[list(TL), [105.55, 21.2], [105.95, 21.4], [106.3, 21.1], list(TL)], side="v", n=3, dur=6.5, stay=True, flag=True, fi=0.2, fo=0.6)
+add("army", A(7, 0.3), E_(7), pts=[list(TL), [105.55, 21.2], [105.95, 21.4], [106.3, 21.1], list(TL)], side="v", n=3, dur=6.5, stay=True, flag=True, u="cav", fi=0.2, fo=0.6)
 card("Cờ tiết", "thay vua đi tuần thú", 7, 0.5, 3.5)
 route("champa", [TL, (105.8, 20.2), (106.0, 19.0), (106.4, 18.0)], V, 8, 0.4, 5.0, w=6)
 army([TL, (105.8, 20.2), (106.0, 19.0), (106.4, 18.0)], "v", 8, 0.6, 5.5, n=16, flag=True)
@@ -130,7 +130,7 @@ C(19, 107.8, 22.0, 5.6); C(20, 108.5, 21.6, 3.0); C(21, 107.9, 22.1, 4.4); C(22,
 route("thuy", SEA, "#1f5f8b", 19, 0.8, 3.2, t1_i=26, w=7)
 route("bo", LAND, V, 19, 0.8, 4.8, t1_i=26, w=7)
 card("Đạo thủy", "Lý Thường Kiệt chỉ huy", 19, 1.0, 3.5, col="#1f5f8b")
-army(SEA, "v", 19, 1.2, 5.0, n=12, t1_i=20, flag=True)
+army(SEA, "v", 19, 1.2, 5.0, n=8, t1_i=20, flag=True, u="ship")
 army(LAND, "v", 19, 1.2, 7.0, n=14, t1_i=21, flag=True)
 fx("horn", A(19, 0.9)); fx("water", A(19, 1.2), E_(20)); fx("march", A(19, 1.2), E_(21))
 city("Khâm Châu", KC, "s", 19, 26, 28); city("Liêm Châu", LC, "s", 19, 26, 28); city("Ung Châu", UC, "s", 19, 26, 30)

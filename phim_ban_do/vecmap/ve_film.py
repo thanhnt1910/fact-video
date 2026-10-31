@@ -7,7 +7,9 @@ from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent
 FPS = 24
-SP = json.load(open(HERE / "sfx.json"))
+import os
+SPJS = os.environ.get("SPEC_JS", "spec.js")
+SP = json.load(open(HERE / os.environ.get("SFX_JSON", "sfx.json")))
 
 
 def main():
@@ -17,7 +19,7 @@ def main():
         pg = b.new_page(viewport={"width": 1920, "height": 1080})
         msgs = []
         pg.on("pageerror", lambda e: msgs.append(str(e)[:200]))
-        pg.goto((HERE / "film.html").as_uri())
+        pg.goto((HERE / "film.html").as_uri() + "?spec=" + SPJS + "&geo=" + os.environ.get("GEO_JS", "geo_nhe.js"))
         pg.evaluate("window.ready")
         if mode == "still":
             out = HERE / "ra" / "film"

@@ -78,7 +78,15 @@
    "risk": "Medium",
    "seed": 11,
    "ghi_chu": "Lý Thường Kiệt: người lớn tuổi, râu bạc (mức C, không có chân dung đương thời). Ba ứng viên khác nhau về khung hình/hạt giống.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REVIEW",
+   "review_note": "1 người, giải phẫu ổn. Áo xanh ô-liu giống quân phục (màu không có trong prompt, mô hình tự thêm); khăn đầu giống mũ lưỡi trai mềm; mặt hơi cau, râu bạc đúng.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-1.jpg",
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
+   },
+   "duoc_dung_lam_tham_chieu": false
   },
   {
    "scene_id": "CR-LTK-2",
@@ -144,7 +152,15 @@
    "risk": "Medium",
    "seed": 12,
    "ghi_chu": "Lý Thường Kiệt: người lớn tuổi, râu bạc (mức C, không có chân dung đương thời). Ba ứng viên khác nhau về khung hình/hạt giống.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REVIEW",
+   "review_note": "1 người, giải phẫu ổn, râu bạc, búi tóc và khăn quấn đúng khối VN_TUONG; ứng viên tốt nhất cho Lý Thường Kiệt. Áo nâu-ô-liu tối, vai da; khăn hơi giống mũ.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-2.jpg",
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
+   },
+   "duoc_dung_lam_tham_chieu": false
   },
   {
    "scene_id": "CR-LTK-3",
@@ -210,7 +226,15 @@
    "risk": "Medium",
    "seed": 13,
    "ghi_chu": "Lý Thường Kiệt: người lớn tuổi, râu bạc (mức C, không có chân dung đương thời). Ba ứng viên khác nhau về khung hình/hạt giống.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REVIEW",
+   "review_note": "1 người, nhưng toàn thân nhỏ, mặt khó nhìn; giày da kiểu ủng (chưa có khối giày tướng); áo xanh ô-liu. Chỉ dùng để xem trang phục toàn thân.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-3.jpg",
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
+   },
+   "duoc_dung_lam_tham_chieu": false
   },
   {
    "scene_id": "CR-TD-1",
@@ -277,7 +301,15 @@
    "risk": "Medium",
    "seed": 21,
    "ghi_chu": "Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REGENERATE",
+   "review_note": "Áo xanh lục tươi có thêu vàng và hoa văn (chi tiết tự thêm, không có trong prompt hay Bible); khăn như mũ. Trang trí vượt khối.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-TD-1.jpg",
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
+   },
+   "duoc_dung_lam_tham_chieu": false
   },
   {
    "scene_id": "CR-TD-2",
@@ -344,7 +376,15 @@
    "risk": "Medium",
    "seed": 22,
    "ghi_chu": "Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REGENERATE",
+   "review_note": "Như CR-TD-1: xanh lục tươi, thêu vàng ở tay áo, khóa đai chạm; tự thêm trang trí.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-TD-2.jpg",
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
+   },
+   "duoc_dung_lam_tham_chieu": false
   },
   {
    "scene_id": "CR-TD-3",
@@ -411,7 +451,15 @@
    "risk": "Medium",
    "seed": 23,
    "ghi_chu": "Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.",
-   "image_status": "CANDIDATE_NOT_DRAWN"
+   "image_status": "CANDIDATE_REVIEW",
+   "review_note": "1 người, râu đen ngắn đúng, búi tóc; áo xám ô-liu không thêu; có ủng da (chưa có khối giày). Nhân vật nhỏ trong khung. Ứng viên tốt nhất cho Tông Đản, nhưng cần sửa giày.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-TD-3.jpg",
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
+   },
+   "duoc_dung_lam_tham_chieu": false
   }
  ]
 }

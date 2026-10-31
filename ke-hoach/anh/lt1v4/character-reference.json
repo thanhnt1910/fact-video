@@ -1,0 +1,417 @@
+{
+ "project": "lt1v4",
+ "loai": "character_reference",
+ "plan_version": "1",
+ "plan_status": "PLAN_OWNER_REVIEW",
+ "bible_versions": {
+  "master": "1.3",
+  "period": "1.3",
+  "khoi_prompt": "1.3"
+ },
+ "quy_tac": [
+  "Mọi tạo hình là artistic_choice (C): không có chân dung đương thời đáng tin của hai người.",
+  "Ảnh vẽ xong chỉ là ứng viên (CANDIDATE); chỉ vào tham-chieu-duoc-duyet.json khi chủ kênh duyệt, kèm mục đích face_only.",
+  "Tham chiếu chỉ dùng cho khuôn mặt/độ tuổi/râu/dáng, không sao chép bố cục; không dùng làm căn cứ lịch sử."
+ ],
+ "scenes": [
+  {
+   "scene_id": "CR-LTK-1",
+   "segment_ids": [],
+   "scene_type": "portrait",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_elephants": 0,
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "một người đứng giữa khung, nền trơn, không đạo cụ",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt",
+     "count": 1,
+     "position": "giữa khung",
+     "role": "tham chiếu nhân vật",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    }
+   ],
+   "composition": "một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ",
+   "camera": "Half-length portrait",
+   "lighting": "ánh sáng mềm một hướng",
+   "scenery": "plain background",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "an elderly Vietnamese general with a grey beard",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "a Vietnamese general distinguished from the soldiers by a lo",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Half-length portrait: one elderly Vietnamese general stands facing three-quarters toward the viewer with a calm stern expression, hands relaxed at his sides, plain soft grey-brown background, no props, nothing in his hands. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "786408b9db76e540f9de14656dfa95e4a61eb95aa80c195913f4aed9fb91c6ac",
+   "prompt_version": "p1",
+   "prompt_chars": 781,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "risk": "Medium",
+   "seed": 11,
+   "ghi_chu": "Lý Thường Kiệt: người lớn tuổi, râu bạc (mức C, không có chân dung đương thời). Ba ứng viên khác nhau về khung hình/hạt giống.",
+   "image_status": "CANDIDATE_NOT_DRAWN"
+  },
+  {
+   "scene_id": "CR-LTK-2",
+   "segment_ids": [],
+   "scene_type": "portrait",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_elephants": 0,
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "một người đứng giữa khung, nền trơn, không đạo cụ",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt",
+     "count": 1,
+     "position": "giữa khung",
+     "role": "tham chiếu nhân vật",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    }
+   ],
+   "composition": "một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ",
+   "camera": "Half-length portrait",
+   "lighting": "ánh sáng mềm một hướng",
+   "scenery": "plain background",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "an elderly Vietnamese general with a grey beard",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "a Vietnamese general distinguished from the soldiers by a lo",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Half-length portrait: one elderly Vietnamese general stands facing three-quarters toward the viewer with a calm stern expression, hands relaxed at his sides, plain soft grey-brown background, no props, nothing in his hands. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "786408b9db76e540f9de14656dfa95e4a61eb95aa80c195913f4aed9fb91c6ac",
+   "prompt_version": "p1",
+   "prompt_chars": 781,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "risk": "Medium",
+   "seed": 12,
+   "ghi_chu": "Lý Thường Kiệt: người lớn tuổi, râu bạc (mức C, không có chân dung đương thời). Ba ứng viên khác nhau về khung hình/hạt giống.",
+   "image_status": "CANDIDATE_NOT_DRAWN"
+  },
+  {
+   "scene_id": "CR-LTK-3",
+   "segment_ids": [],
+   "scene_type": "portrait",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_elephants": 0,
+   "main_characters": [
+    "Lý Thường Kiệt"
+   ],
+   "positions": "một người đứng giữa khung, nền trơn, không đạo cụ",
+   "groups": [
+    {
+     "name": "Lý Thường Kiệt",
+     "count": 1,
+     "position": "giữa khung",
+     "role": "tham chiếu nhân vật",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    }
+   ],
+   "composition": "một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ",
+   "camera": "Full-length portrait",
+   "lighting": "ánh sáng mềm một hướng",
+   "scenery": "plain background",
+   "blocks_used": [
+    "VN_TUONG_LY_THUONG_KIET",
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "an elderly Vietnamese general with a grey beard",
+     "block": "VN_TUONG_LY_THUONG_KIET",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt",
+     "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+    },
+    {
+     "item": "a Vietnamese general distinguished from the soldiers by a lo",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Lý Thường Kiệt",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [],
+   "image_prompt": "Full-length portrait: one elderly Vietnamese general stands upright facing three-quarters toward the viewer, feet visible, plain soft grey-brown background, no props, nothing in his hands. an elderly Vietnamese general with a grey beard. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "b94eb04c3145860375883db23e7cf20810e4cb6905e764b48b3d7018fc6ea98a",
+   "prompt_version": "p1",
+   "prompt_chars": 746,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "risk": "Medium",
+   "seed": 13,
+   "ghi_chu": "Lý Thường Kiệt: người lớn tuổi, râu bạc (mức C, không có chân dung đương thời). Ba ứng viên khác nhau về khung hình/hạt giống.",
+   "image_status": "CANDIDATE_NOT_DRAWN"
+  },
+  {
+   "scene_id": "CR-TD-1",
+   "segment_ids": [],
+   "scene_type": "portrait",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_elephants": 0,
+   "main_characters": [
+    "Tông Đản"
+   ],
+   "positions": "một người đứng giữa khung, nền trơn, không đạo cụ",
+   "groups": [
+    {
+     "name": "Tông Đản",
+     "count": 1,
+     "position": "giữa khung",
+     "role": "tham chiếu nhân vật",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    }
+   ],
+   "composition": "một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ",
+   "camera": "Half-length portrait",
+   "lighting": "ánh sáng mềm một hướng",
+   "scenery": "plain background",
+   "blocks_used": [
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "a Vietnamese general distinguished from the soldiers by a lo",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Tông Đản",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu về diện mạo Tông Đản (cùng chi tiết AC ở cảnh L12)",
+     "owner_approved": false,
+     "id": "CR-TD-1-AC1",
+     "approval_scope": "visual_only"
+    }
+   ],
+   "image_prompt": "Half-length portrait: one a younger Vietnamese general in his forties with a short black beard stands facing three-quarters toward the viewer with a calm stern expression, hands relaxed at his sides, plain soft grey-brown background, no props, nothing in his hands. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "b038cf9c93a67452c6ec9f2da5de5a753dfd19c09087ca8b3787b1bbcfe172f0",
+   "prompt_version": "p1",
+   "prompt_chars": 774,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "risk": "Medium",
+   "seed": 21,
+   "ghi_chu": "Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.",
+   "image_status": "CANDIDATE_NOT_DRAWN"
+  },
+  {
+   "scene_id": "CR-TD-2",
+   "segment_ids": [],
+   "scene_type": "portrait",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_elephants": 0,
+   "main_characters": [
+    "Tông Đản"
+   ],
+   "positions": "một người đứng giữa khung, nền trơn, không đạo cụ",
+   "groups": [
+    {
+     "name": "Tông Đản",
+     "count": 1,
+     "position": "giữa khung",
+     "role": "tham chiếu nhân vật",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    }
+   ],
+   "composition": "một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ",
+   "camera": "Half-length portrait",
+   "lighting": "ánh sáng mềm một hướng",
+   "scenery": "plain background",
+   "blocks_used": [
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "a Vietnamese general distinguished from the soldiers by a lo",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Tông Đản",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu về diện mạo Tông Đản (cùng chi tiết AC ở cảnh L12)",
+     "owner_approved": false,
+     "id": "CR-TD-2-AC1",
+     "approval_scope": "visual_only"
+    }
+   ],
+   "image_prompt": "Half-length portrait: one a younger Vietnamese general in his forties with a short black beard stands facing three-quarters toward the viewer with a calm stern expression, hands relaxed at his sides, plain soft grey-brown background, no props, nothing in his hands. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "b038cf9c93a67452c6ec9f2da5de5a753dfd19c09087ca8b3787b1bbcfe172f0",
+   "prompt_version": "p1",
+   "prompt_chars": 774,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "risk": "Medium",
+   "seed": 22,
+   "ghi_chu": "Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.",
+   "image_status": "CANDIDATE_NOT_DRAWN"
+  },
+  {
+   "scene_id": "CR-TD-3",
+   "segment_ids": [],
+   "scene_type": "portrait",
+   "expected_people": 1,
+   "expected_horses": 0,
+   "expected_elephants": 0,
+   "main_characters": [
+    "Tông Đản"
+   ],
+   "positions": "một người đứng giữa khung, nền trơn, không đạo cụ",
+   "groups": [
+    {
+     "name": "Tông Đản",
+     "count": 1,
+     "position": "giữa khung",
+     "role": "tham chiếu nhân vật",
+     "faction": "viet",
+     "horses": 0,
+     "mounted": 0,
+     "elephants": 0
+    }
+   ],
+   "composition": "một nhân vật, nền trơn xám nâu nhạt, không bối cảnh, không đạo cụ",
+   "camera": "Full-length portrait",
+   "lighting": "ánh sáng mềm một hướng",
+   "scenery": "plain background",
+   "blocks_used": [
+    "VN_TUONG"
+   ],
+   "detail_tags": [
+    {
+     "item": "a Vietnamese general distinguished from the soldiers by a lo",
+     "block": "VN_TUONG",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "who": "Tông Đản",
+     "bible_ref": "period-ly-tong#C Tướng lĩnh"
+    }
+   ],
+   "free_text_details": [
+    {
+     "item": "Tông Đản trẻ hơn Lý Thường Kiệt, khoảng bốn mươi tuổi, râu đen ngắn",
+     "tag": "artistic_choice",
+     "evidence_level": "C",
+     "reason": "không có tư liệu về diện mạo Tông Đản (cùng chi tiết AC ở cảnh L12)",
+     "owner_approved": false,
+     "id": "CR-TD-3-AC1",
+     "approval_scope": "visual_only"
+    }
+   ],
+   "image_prompt": "Full-length portrait: one a younger Vietnamese general in his forties with a short black beard stands upright facing three-quarters toward the viewer, feet visible, plain soft grey-brown background, no props, nothing in his hands. a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+   "prompt_sha256": "3fb890612000f4a7c80d46cdc62c5610884bb55bbc63bfd39ff3bdd89df005ee",
+   "prompt_version": "p1",
+   "prompt_chars": 739,
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "reference_images": [],
+   "plan_status": "PLAN_OWNER_REVIEW",
+   "risk": "Medium",
+   "seed": 23,
+   "ghi_chu": "Tông Đản: trẻ hơn, râu đen ngắn (mức C). Dùng khối VN_TUONG cho trang phục.",
+   "image_status": "CANDIDATE_NOT_DRAWN"
+  }
+ ]
+}

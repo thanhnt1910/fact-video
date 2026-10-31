@@ -215,7 +215,7 @@ if __name__ == '__main__':
     d = json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else []
     sc = d['scenes'] if isinstance(d, dict) else d
     for s in sc: kiem_canh(s)
-    kiem_doan(sc, d.get('segment_cuts', {}) if isinstance(d, dict) else {})
+    if not (isinstance(d, dict) and d.get('loai') == 'character_reference'): kiem_doan(sc, d.get('segment_cuts', {}) if isinstance(d, dict) else {})
     if os.path.exists(ap): kiem_anh(json.load(open(ap, encoding='utf-8'))['images'], sc)
     print(f'Phiên bản hiện hành: {CUR}; {len(sc)} cảnh')
     print('\n'.join(bad + warn)); print(f'{len(bad)} lỗi ❌, {len(warn)} cảnh báo ⚠️')

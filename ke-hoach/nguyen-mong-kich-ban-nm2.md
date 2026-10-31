@@ -32,7 +32,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 
 22018. Cuối năm một nghìn hai trăm tám mươi bốn, sứ giả Trần Phủ về báo tin quân Nguyên xin mượn đường đánh Chiêm Thành. Vì sao họ mượn đường?
 22019. Thực ra họ định cướp nước ta chứ không phải Chiêm Thành. Đạo quân ấy do Thoát Hoan, con trai Hốt Tất Liệt, chỉ huy.
-22020. Vua cha Trần Thánh Tông, người đã nhường ngôi cho vua Trần Nhân Tông, triệu các cụ già có uy tín trong dân về điện Diên Hồng để hỏi kế đánh giặc.
+22020. Trần Thánh Tông, người đã nhường ngôi cho con là Trần Nhân Tông, triệu các cụ già có uy tín trong dân về điện Diên Hồng để hỏi kế đánh giặc.
 22021. Các cụ đều hô đánh, tiếng hô vang lên như từ một miệng. Hưng Đạo Vương Trần Quốc Tuấn, người thống lĩnh quân đội cả nước, lo việc chống giặc.
 
 ## Lần thứ hai (tone: tense)
@@ -41,7 +41,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22023. Phía nam, Toa Đô đem quân từ Chiêm Thành ngược ra bắc, nên Đại Việt bị kẹp từ hai phía.
 22024. Ở bãi Đà Mạc, Bảo Nghĩa Vương Trần Bình Trọng bị bắt. Quân Nguyên hỏi ông có muốn làm vua đất Bắc không.
 22025. Ông thét rằng thà làm ma nước Nam chứ không thèm làm vua đất Bắc, rồi bị giết.
-22026. Giặc đánh dồn dập, nên vua cha và vua con phải vào Thanh Hóa lánh giặc. Vì sao nhà vua vẫn tin sẽ thắng?
+22026. Giặc đánh dồn dập, nên Trần Thánh Tông và Trần Nhân Tông phải vào Thanh Hóa lánh giặc. Vì sao nhà vua vẫn tin sẽ thắng?
 22027. Ngài bàn với các quan rằng giặc đi xa nhiều năm, lương thực chở hàng vạn dặm nên ắt mỏi mệt.
 22028. Về sau, cách đánh ấy được gọi là vườn không nhà trống. Quân Đại Việt rút đi, không để lại lương thực, nên giặc càng đi sâu càng thiếu ăn.
 
@@ -60,11 +60,11 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 
 22037. Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy.
 22038. Phía sau còn nhiều thuyền chở lương do Trương Văn Hổ chỉ huy. Hưng Đạo Vương giao Trần Khánh Dư, người bán than năm xưa, giữ biển Vân Đồn.
-22039. Hạm đội của Ô Mã Nhi vượt qua mà Trần Khánh Dư không chặn nổi. Vua cha nghe tin, sai người xiềng tay ông giải về kinh.
+22039. Hạm đội của Ô Mã Nhi vượt qua mà Trần Khánh Dư không chặn nổi. Trần Thánh Tông nghe tin, sai người xiềng tay ông giải về kinh.
 22040. Trần Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?
 22041. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
 22042. Chẳng bao lâu một đoàn thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
-22043. Vua cha tha tội cho ông. Ngài nói rằng quân Nguyên chỉ trông vào lương thực và vũ khí, nay đã mất mà giặc có thể chưa biết, nên còn hung hăng.
+22043. Trần Thánh Tông tha tội cho ông. Ngài nói quân Nguyên chỉ trông vào lương thực và vũ khí, nay đã mất mà giặc có thể chưa biết, nên còn hung hăng.
 22044. Vì vậy ngài thả những quân giặc bị bắt về doanh trại để báo tin, cho chúng biết đoàn thuyền lương đã mất.
 22045. Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên.
 22046. Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp.
@@ -76,14 +76,14 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22049. Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn.
 22050. Đúng lúc ấy Trương Văn Hổ dẫn số thuyền lương còn lại tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc, nghiêng đắm gần hết.
 22051. Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh.
-22052. Vua cha cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ.
+22052. Trần Thánh Tông cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ.
 22053. Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy.
 22054. Hai vua đem các tướng giặc bị bắt đến mộ vua Trần Thái Tông dâng lễ báo tin thắng trận. Quân Nguyên từng đào mộ ấy, nhưng không đụng tới quan tài.
 22055. Trong buổi lễ ấy, nhà vua làm một bài thơ nói rằng đất nước hai lần phải chịu cảnh chiến tranh, nhưng non sông ngàn đời vẫn vững bền.
 
 ## Hai người bị gạt ra (tone: reflect)
 
-22056. Chiến thắng ấy có giá của nó. Cung điện bị giặc đốt hết, nên vua cha phải ở tạm dãy hành lang của đội thị vệ.
+22056. Chiến thắng ấy có giá của nó. Cung điện bị giặc đốt hết, nên Trần Thánh Tông phải ở tạm dãy hành lang của đội thị vệ.
 22057. Nhà Nguyên chưa bỏ ý định, cho quân đóng ở biên giới chờ lệnh đánh lần thứ tư.
 22058. Nhưng đầu năm một nghìn hai trăm chín mươi tư, Hốt Tất Liệt qua đời, và người kế vị ra lệnh rút quân.
 22059. Thứ Trần Khánh Dư chờ ở Vân Đồn cũng là thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương.
@@ -128,3 +128,4 @@ Sửa đoàn thuyền lương (31/10/2026): hai lần thuyền lương trong k�
 - Từ "thượng hoàng" đã bỏ (31/10/2026): thay bằng "vua cha", lần đầu nêu rõ là Trần Thánh Tông, người đã nhường ngôi cho vua Trần Nhân Tông.
 - Sửa 31/10/2026: tên đầy đủ "Trần Khánh Dư", "Trần Quốc Toản" ở mọi chỗ nhắc. Quốc Toản mất: Toàn thư chỉ chép "đến khi mất, vua rất thương tiếc, thân làm văn tế, lại gia phong tước vương", KHÔNG nêu nguyên nhân. Lời kể "chết khi đuổi đánh quân Nguyên, chưa đầy hai mươi tuổi" lấy từ Nguyên sử (khoảng 1285, tuổi 17–18) qua Wikipedia; nguồn này có nghi vấn là nhầm với Trần Quốc Kiện. Chủ kênh cân nhắc giữ hay bỏ vế lý do.
 - "Tham lam" của Trần Khánh Dư: Toàn thư (Bản kỷ, đời Nhân Tông) chép người trong trấn kiện ông tham lam thô bỉ; ông tâu "tướng là chim ưng, dân lính là vịt, dùng vịt nuôi chim ưng thì có gì lạ". Lời kể diễn lại thành "ép dân và lính nộp của cải" (cách hiểu từ lời tâu, Toàn thư không kể chi tiết); đoạn kể ở Vân Đồn là nơi ông trấn giữ.
+- Bỏ "vua cha / vua con" (31/10/2026): gọi thẳng tên Trần Thánh Tông (vua cha đã nhường ngôi) và Trần Nhân Tông (vua đang trị vì); đoạn Diên Hồng nêu rõ quan hệ cha con.

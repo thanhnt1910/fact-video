@@ -1,0 +1,3 @@
+Lượt 1/1: gửi 6 cảnh sang Kaggle
+ 0.5 phút: .queued
+35.8 phút: .running

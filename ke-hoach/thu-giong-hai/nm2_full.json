@@ -87,7 +87,7 @@
   "n": 22015,
   "chuong": "Lần thứ hai",
   "tone": "tense",
-  "text": "Đầu năm một nghìn hai trăm tám mươi lăm, Ô Mã Nhi đánh vào Vạn Kiếp và quân Đại Việt vỡ chạy."
+  "text": "Đầu năm một nghìn hai trăm tám mươi lăm, Ô Mã Nhi đánh vào Vạn Kiếp và quân Đại Việt thua chạy."
  },
  {
   "n": 22016,
@@ -135,154 +135,160 @@
   "n": 22023,
   "chuong": "Phản công",
   "tone": "epic",
-  "text": "Mùa hạ, ở Hàm Tử, Trần Nhật Duật cho cả những người nhà Tống mặc áo Tống ra trận. Vì sao quân Nguyên kinh hãi bỏ chạy?"
+  "text": "Mùa hạ, ở Hàm Tử, quân của Trần Nhật Duật có cả người Tống, theo Đại Việt từ khi nhà Tống mất. Họ vẫn mặc áo Tống, cầm cung tên ra trận."
  },
  {
   "n": 22024,
   "chuong": "Phản công",
   "tone": "epic",
-  "text": "Vì chúng tưởng quân Tống đã sang giúp Đại Việt. Ít lâu sau, ở Chương Dương, Trần Quang Khải cùng Hoài Văn hầu Trần Quốc Toản đánh giặc tan vỡ lớn."
+  "text": "Vì sao quân Nguyên kinh hãi bỏ chạy? Vì chúng tưởng quân Tống đã sang giúp Đại Việt."
  },
  {
   "n": 22025,
   "chuong": "Phản công",
   "tone": "epic",
-  "text": "Thoát Hoan rút chạy qua sông Lô. Mười ngày sau, ở Tây Kết, quân Đại Việt chém đầu tướng Toa Đô."
+  "text": "Ít lâu sau, ở Chương Dương, Trần Quang Khải cùng Hoài Văn hầu Trần Quốc Toản đánh quân Nguyên thua một trận thảm hại."
  },
  {
   "n": 22026,
   "chuong": "Phản công",
   "tone": "epic",
-  "text": "Ô Mã Nhi chỉ còn một chiếc thuyền vượt biển trốn thoát. Nhìn đầu Toa Đô, nhà vua thương hại, nói rằng làm tôi thì phải như thế."
+  "text": "Thoát Hoan rút chạy qua sông Lô. Mười ngày sau, ở Tây Kết, quân Đại Việt chém đầu tướng Toa Đô."
  },
  {
   "n": 22027,
-  "chuong": "Lần thứ ba",
-  "tone": "tense",
-  "text": "Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy."
+  "chuong": "Phản công",
+  "tone": "epic",
+  "text": "Ô Mã Nhi chỉ còn một chiếc thuyền vượt biển trốn thoát. Nhìn đầu Toa Đô, nhà vua thương hại, nói rằng làm tôi thì phải như thế."
  },
  {
   "n": 22028,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Phía sau còn có đoàn thuyền chở lương của Trương Văn Hổ. Hưng Đạo Vương giao việc giữ vùng biển cho Trần Khánh Dư, người chỉ huy phụ ở Vân Đồn."
+  "text": "Cuối năm một nghìn hai trăm tám mươi bảy, quân Nguyên lại kéo xuống theo hai đường. Thoát Hoan đi đường bộ, còn Ô Mã Nhi đi đường thủy."
  },
  {
   "n": 22029,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Thượng hoàng nghe tin, sai người xiềng tay ông giải về kinh."
+  "text": "Phía sau còn có đoàn thuyền chở lương của Trương Văn Hổ. Hưng Đạo Vương giao việc giữ vùng biển cho Trần Khánh Dư, người chỉ huy phụ ở Vân Đồn."
  },
  {
   "n": 22030,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?"
+  "text": "Hạm đội của Ô Mã Nhi vượt qua mà Khánh Dư không chặn nổi. Thượng hoàng nghe tin, sai người xiềng tay ông giải về kinh."
  },
  {
   "n": 22031,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn."
+  "text": "Khánh Dư xin hoãn hai ba ngày để lập công. Vì sao ông tin mình còn cơ hội?"
  },
  {
   "n": 22032,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Chẳng bao lâu thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc."
+  "text": "Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn."
  },
  {
   "n": 22033,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Thượng hoàng tha tội cho ông, và nói rằng quân Nguyên trông cậy vào lương thực và vũ khí. Rồi ngài thả quân giặc bị bắt về báo tin."
+  "text": "Chẳng bao lâu thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc."
  },
  {
   "n": 22034,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên."
+  "text": "Thượng hoàng tha tội cho ông, và nói rằng quân Nguyên trông cậy vào lương thực và vũ khí. Rồi ngài thả quân giặc bị bắt về báo tin."
  },
  {
   "n": 22035,
   "chuong": "Lần thứ ba",
   "tone": "tense",
-  "text": "Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp."
+  "text": "Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên."
  },
  {
   "n": 22036,
-  "chuong": "Bạch Đằng",
-  "tone": "epic",
-  "text": "Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?"
+  "chuong": "Lần thứ ba",
+  "tone": "tense",
+  "text": "Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp."
  },
  {
   "n": 22037,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước."
+  "text": "Hưng Đạo Vương đã đóng cọc xuống sông Bạch Đằng và phủ cỏ lên trên. Vì sao quân giặc vẫn lao vào đó?"
  },
  {
   "n": 22038,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn."
+  "text": "Hôm ấy, nhân lúc thủy triều lên, ông cho quân khiêu khích rồi giả vờ thua chạy. Quân Nguyên đuổi theo qua bãi cọc đang chìm dưới nước."
  },
  {
   "n": 22039,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Đúng lúc ấy Trương Văn Hổ dẫn thuyền lương tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết."
+  "text": "Khi thủy triều rút xuống, thuyền của chúng vướng cọc hết, và quân Đại Việt tung ra đánh lớn."
  },
  {
   "n": 22040,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh."
+  "text": "Đúng lúc ấy Trương Văn Hổ dẫn thuyền lương tới. Quân núp sẵn hai bên bờ xông ra, còn thuyền lương mắc cọc vì thủy triều rút nhanh, nghiêng đắm gần hết."
  },
  {
   "n": 22041,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Thượng hoàng cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ."
+  "text": "Quân Nguyên chết đuối rất nhiều và mất bốn trăm chiếc thuyền. Ô Mã Nhi bị bắt sống, còn Thoát Hoan dẫn quân trốn về Tư Minh."
  },
  {
   "n": 22042,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy."
+  "text": "Thượng hoàng cho dẫn các tướng bị bắt lên thuyền của mình, ngồi nói chuyện và uống rượu cùng họ."
  },
  {
   "n": 22043,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Hai vua đem các tướng giặc bị bắt đến mộ vua Trần Thái Tông dâng lễ báo tin thắng trận. Quân Nguyên từng đào mộ ấy, nhưng không đụng tới quan tài."
+  "text": "Cách dùng cọc và thủy triều này không mới. Hơn ba trăm năm trước, Ngô Quyền đã đánh quân Nam Hán ngay trên con sông này bằng chính cách ấy."
  },
  {
   "n": 22044,
   "chuong": "Bạch Đằng",
   "tone": "epic",
-  "text": "Trong bài thơ mừng chiến thắng, nhà vua viết rằng đất nước hai phen khổ vì chiến trận, nhưng non sông ngàn đời vẫn vững bền."
+  "text": "Hai vua đem các tướng giặc bị bắt đến mộ vua Trần Thái Tông dâng lễ báo tin thắng trận. Quân Nguyên từng đào mộ ấy, nhưng không đụng tới quan tài."
  },
  {
   "n": 22045,
-  "chuong": "Hai ba ngày",
-  "tone": "reflect",
-  "text": "Chiến thắng ấy có giá của nó. Cung điện ở Thăng Long bị giặc đốt hết, nên thượng hoàng phải ở tạm nơi dãy hành lang của quân canh gác."
+  "chuong": "Bạch Đằng",
+  "tone": "epic",
+  "text": "Trong bài thơ mừng chiến thắng, nhà vua viết rằng đất nước hai phen khổ vì chiến trận, nhưng non sông ngàn đời vẫn vững bền."
  },
  {
   "n": 22046,
   "chuong": "Hai ba ngày",
   "tone": "reflect",
-  "text": "Hốt Tất Liệt còn định đánh lần thứ tư, nhưng đầu năm một nghìn hai trăm chín mươi tư ông mất. Người kế vị chấm dứt chiến tranh."
+  "text": "Chiến thắng ấy có giá của nó. Cung điện ở Thăng Long bị giặc đốt hết, nên thượng hoàng phải ở tạm nơi dãy hành lang của quân canh gác."
  },
  {
   "n": 22047,
   "chuong": "Hai ba ngày",
   "tone": "reflect",
-  "text": "Vậy Trần Khánh Dư đã chờ gì ở Vân Đồn? Chính thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương."
+  "text": "Hốt Tất Liệt còn định đánh lần thứ tư, nhưng đầu năm một nghìn hai trăm chín mươi tư ông mất. Người kế vị chấm dứt chiến tranh."
  },
  {
   "n": 22048,
+  "chuong": "Hai ba ngày",
+  "tone": "reflect",
+  "text": "Vậy Trần Khánh Dư đã chờ gì ở Vân Đồn? Chính thứ quân Nguyên chờ ở Bạch Đằng, đó là thuyền chở lương."
+ },
+ {
+  "n": 22049,
   "chuong": "Hai ba ngày",
   "tone": "reflect",
   "text": "Cả hai lần nó đều tới, và cả hai lần nó rơi vào tay quân Đại Việt."

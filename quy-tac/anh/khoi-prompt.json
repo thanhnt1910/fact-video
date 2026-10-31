@@ -1,0 +1,17 @@
+{
+ "phien_ban": "1.0-DRAFT",
+ "ghi_chu": "Khối chữ cố định để ghép vào prompt. Sửa ở period-ly-tong.md rồi cập nhật tại đây.",
+ "STYLE": "Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+ "ANATOMY": "Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items.",
+ "HORSE": "EXACTLY {N} horses with {N} riders, each rider upright on exactly one horse, each horse has four natural legs and is clearly separated from the others.",
+ "VN_LINH": "Vietnamese Ly dynasty soldiers in brown leather armor over earth-brown coarse cloth clothes, bare feet, wooden spears with iron tips",
+ "VN_MU_NON": "conical bamboo hats",
+ "VN_MU_KHAN": "bare heads with black hair tied in a topknot or a plain cloth headwrap",
+ "VN_CO": "plain brown-red triangular cloth pennants",
+ "SONG_LINH": "Chinese Song dynasty soldiers in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, no pennants",
+ "VN_TUONG": "an elderly Vietnamese general with a grey beard, dark brown robe and brown leather shoulder armor",
+ "DEN": "a clay oil lamp on the table, nothing hanging from the ceiling",
+ "THANH_SONG": "a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof",
+ "DOC_DAT": "one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall",
+ "__chu_y": "VN_MU_NON, VN_LINH, VN_CO là mức C; chờ chủ kênh duyệt (period-ly-tong.md mục G)"
+}

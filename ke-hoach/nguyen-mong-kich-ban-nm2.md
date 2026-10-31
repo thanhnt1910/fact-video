@@ -14,8 +14,8 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22007. Nhà vua liền dời thuyền đến hỏi Thái sư Trần Thủ Độ, người nắm việc nước.
 22008. Thủ Độ đáp rằng chừng nào đầu thần còn chưa rơi xuống đất, bệ hạ cứ yên tâm.
 22009. Mười hai ngày sau, vua cùng thái tử ngồi thuyền lớn đến Đông Bộ Đầu, đón đánh và đánh tan quân giặc.
-22010. Quân Nguyên chạy về trại Quy Hóa thì bị chủ trại Hà Bổng đem dân vùng núi ra đánh, và lại thua. Đó là lần thứ nhất.
-22011. Liệu người Mông Cổ có bỏ đi? Hơn hai mươi năm sau, họ quay lại dưới cờ nhà Nguyên của hoàng đế Hốt Tất Liệt.
+22011. Liệu người Mông Cổ có bỏ đi? Câu trả lời là không, vì hơn hai mươi năm sau họ quay lại dưới cờ nhà Nguyên của hoàng đế Hốt Tất Liệt.
+22011. Liệu người Mông Cổ có bỏ đi? Câu trả lời là không, vì hơn hai mươi năm sau họ quay lại dưới cờ nhà Nguyên của hoàng đế Hốt Tất Liệt.
 
 ## Mượn đường (tone: story)
 22012. Cuối năm một nghìn hai trăm tám mươi bốn, sứ giả Trần Phủ về báo tin quân Nguyên xin mượn đường đánh Chiêm Thành. Vì sao họ mượn đường?

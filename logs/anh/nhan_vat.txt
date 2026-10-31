@@ -4,3 +4,7 @@ ok CR-LTK-3
 ok CR-TD-1
 ok CR-TD-2
 ok CR-TD-3
+ok CR-LTK-B1
+ok CR-LTK-B2
+ok CR-LTK-B3
+ok CR-LTK-B4

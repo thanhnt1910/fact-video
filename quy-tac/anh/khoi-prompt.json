@@ -1,26 +1,31 @@
 {
- "phien_ban": "1.1-DRAFT",
- "ghi_chu": "Khối chữ để ghép vào prompt, khớp period-ly-tong.md v1.1. Mỗi khối có nhãn: A (dùng thẳng), cautious_reconstruction (B), artistic_choice (C). Khối mang nhãn KHÔNG phải mặc định của cả đội quân: mỗi cảnh chọn theo nhóm người và đổi giữa các cảnh. Nhãn ghi vào detail_tags của cảnh, không dán vào prompt.",
+ "phien_ban": "1.2-DRAFT",
+ "ghi_chu": "Khối chữ để ghép vào prompt, khớp period-ly-tong.md v1.2 và master-style.md v1.1. Trường 'tag' chỉ nhận A, cautious_reconstruction hoặc artistic_choice. Khối mang nhãn KHÔNG phải mặc định của cả đội quân. Nhãn ghi vào detail_tags của cảnh, không dán vào prompt. Mỗi khối có 'bible_ref' trỏ về dòng trong Period Bible.",
  "STYLE": {
   "tag": "A",
-  "text": "Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9."
+  "text": "Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
+  "bible_ref": "master-style#1"
  },
  "ANATOMY": {
   "tag": "A",
-  "text": "Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items."
+  "text": "Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items.",
+  "bible_ref": "master-style#2"
  },
  "HORSE": {
   "tag": "A",
-  "text": "EXACTLY {N} horses with {N} riders, each rider upright on exactly one horse, each horse has four natural legs and is clearly separated from the others."
+  "text": "EXACTLY {N} horses with {N} riders, each rider upright on exactly one horse, each horse has four natural legs and is clearly separated from the others.",
+  "bible_ref": "master-style#2"
  },
  "VN_AO_VAI": {
   "tag": "artistic_choice",
-  "text": "Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors"
+  "text": "Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors",
+  "bible_ref": "period-ly-tong#C Quần áo lính"
  },
  "VN_GIAP": {
   "tag": "cautious_reconstruction",
   "dung": "chỉ một phần lính trong cảnh (nhóm tiền cảnh hoặc tiền quân), phần còn lại dùng VN_AO_VAI",
-  "text": "a few of the soldiers wear plain iron-and-leather armor over the cloth tunic"
+  "text": "a few of the soldiers wear plain iron-and-leather armor over the cloth tunic",
+  "bible_ref": "period-ly-tong#C Giáp lính"
  },
  "VN_DAU": {
   "tag": "artistic_choice",
@@ -29,12 +34,14 @@
    "a plain cloth headwrap",
    "a mix of bare heads and plain cloth headwraps"
   ],
-  "cam": "conical hat, peaked cap, helmet"
+  "cam": "conical hat, peaked cap, helmet",
+  "bible_ref": "period-ly-tong#C Mũ"
  },
  "VN_NON_DAN_PHU": {
   "tag": "artistic_choice",
   "dung": "chỉ dân phu, khi bối cảnh cần",
-  "text": "laborers wearing woven conical hats"
+  "text": "laborers wearing woven conical hats",
+  "bible_ref": "period-ly-tong#C Nón lá"
  },
  "VN_CHAN": {
   "tag": "artistic_choice",
@@ -43,73 +50,91 @@
    "barefoot",
    "simple straw sandals"
   ],
-  "cam": "boots, modern shoes"
+  "cam": "boots, modern shoes",
+  "bible_ref": "period-ly-tong#C Giày dép"
  },
  "VN_VU_KHI": {
   "tag": "cautious_reconstruction",
-  "text": "wooden spears with iron tips"
+  "text": "wooden spears with iron tips",
+  "bible_ref": "period-ly-tong#C Vũ khí"
  },
  "VN_CO": {
   "tag": "artistic_choice",
   "mac_dinh": "KHÔNG vẽ cờ",
   "text_neu_can": "plain unmarked cloth banner, no symbols, no writing, no stars",
-  "cam": "red flag with star, brown-red pennants as default"
+  "cam": "red flag with star, brown-red pennants as default",
+  "bible_ref": "period-ly-tong#C Cờ hiệu"
  },
  "VN_TUONG": {
   "tag": "artistic_choice",
   "text": "a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap",
-  "cam": "officer hat with wings, Song or later-dynasty official hat"
+  "cam": "officer hat with wings, Song or later-dynasty official hat",
+  "bible_ref": "period-ly-tong#C Tướng lĩnh"
  },
  "VN_TUONG_LY_THUONG_KIET": {
   "tag": "artistic_choice",
   "text": "an elderly Vietnamese general with a grey beard",
-  "ghi_chu": "Chưa có Character Reference được duyệt; không dùng cho nhiều cảnh"
+  "ghi_chu": "Chưa có Character Reference được duyệt; không dùng cho nhiều cảnh",
+  "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
  },
  "SONG_BO_BINH_NANG": {
   "tag": "cautious_reconstruction",
-  "text": "Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears"
+  "text": "Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears",
+  "bible_ref": "period-ly-tong#D Giáp vảy sắt"
  },
  "SONG_CUNG_NO": {
   "tag": "cautious_reconstruction",
-  "text": "Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows"
+  "text": "Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows",
+  "bible_ref": "period-ly-tong#D Phân theo binh chủng"
  },
  "SONG_BO_BINH_NHE": {
   "tag": "cautious_reconstruction",
   "text": "Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears",
-  "dung": "ít"
+  "dung": "ít",
+  "bible_ref": "period-ly-tong#D Phân theo binh chủng"
  },
  "SONG_SI_QUAN": {
   "tag": "cautious_reconstruction",
-  "text": "a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume"
+  "text": "a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume",
+  "bible_ref": "period-ly-tong#D Phân theo binh chủng"
  },
  "SONG_CO": {
   "tag": "artistic_choice",
-  "mac_dinh": "KHÔNG vẽ cờ"
+  "mac_dinh": "KHÔNG vẽ cờ",
+  "bible_ref": "period-ly-tong#D Cờ quân Tống"
  },
  "SONG_QUY_TAC": "Mỗi cảnh chỉ định binh chủng nào xuất hiện; không dùng cùng một bộ giáp cho cả đội. Không chỉ định binh chủng thì dùng SONG_BO_BINH_NANG hoặc nhẹ và ghi artistic_choice.",
  "THANH_SONG": {
   "tag": "cautious_reconstruction",
   "text": "a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof",
-  "ghi_chu": "Ung Châu cụ thể chưa xác nhận"
+  "ghi_chu": "Ung Châu cụ thể chưa xác nhận",
+  "bible_ref": "period-ly-tong#D Thành trì"
  },
  "DOC_DAT": {
-  "tag": "A (theo kịch bản v4 đoạn 28)",
-  "text": "one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall"
+  "tag": "A",
+  "text": "one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall",
+  "nguon": "kịch bản v4 đoạn 28",
+  "bible_ref": "period-ly-tong#E"
  },
  "VAC_DAT": {
   "tag": "artistic_choice",
-  "text": "carrying baskets of soil"
+  "text": "carrying baskets of soil",
+  "bible_ref": "period-ly-tong#E"
  },
  "DEN": {
   "tag": "artistic_choice",
-  "text": "a clay oil lamp on a low wooden table, nothing hanging from the ceiling"
+  "text": "a clay oil lamp on a low wooden table, nothing hanging from the ceiling",
+  "bible_ref": "period-ly-tong#F"
  },
  "KIEN_TRUC_CUNG": {
   "tag": "A",
-  "text": "timber palace building with tiled roof and bracket system"
+  "text": "timber palace building with tiled roof and bracket system",
+  "bible_ref": "period-ly-tong#C Kiến trúc cung điện"
  },
  "NHA_DAN": {
   "tag": "artistic_choice",
-  "text": "plain timber house with grey tiled or thatched roof, woven mat floor"
- }
+  "text": "plain timber house with grey tiled or thatched roof, woven mat floor",
+  "bible_ref": "period-ly-tong#C Nhà dân"
+ },
+ "NGUYEN_TAC": "Không có khối thì không có chi tiết (master-style#7). Khối ngoài danh sách phải thêm vào file này kèm bible_ref và tag trước khi dùng."
 }

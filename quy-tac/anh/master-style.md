@@ -1,4 +1,4 @@
-# MASTER STYLE – hệ thống hình ảnh tư liệu lịch sử (v1.0 DRAFT, 01/11/2026)
+# MASTER STYLE – hệ thống hình ảnh tư liệu lịch sử (v1.1 DRAFT, 01/11/2026)
 
 Dùng chung cho mọi video của kênh. Không đổi theo video. Đổi bản phải tăng version và có chủ kênh đồng ý.
 
@@ -19,17 +19,36 @@ Cảnh có ngựa thêm: `EXACTLY N horses with N riders, each rider upright on 
 
 ## 4. Quy tắc lịch sử (bắt buộc)
 - Không dùng phong cách chung để thay độ chính xác. Trang phục, kiến trúc, vũ khí, cờ lấy từ Period Bible, chi tiết nào chưa có trong đó thì không tự thêm.
-- Chi tiết mức C (không đủ bằng chứng) chỉ dùng dạng trung tính và phải ghi "phục dựng nghệ thuật" trong ghi chú cảnh, không khẳng định là sự thật.
+- Ba mức bằng chứng (A, B `cautious_reconstruction`, C `artistic_choice`) định nghĩa trong Period Bible mục B. Chi tiết mức B và C phải mang nhãn trong `detail_tags` của cảnh; chi tiết mức C không được trình bày như sự thật lịch sử và không thành đặc điểm cố định của cả đội quân.
 - Không trộn trang phục giữa các triều đại. Không đồ hiện đại.
 
 ## 5. Cách viết "điều cấm" cho FLUX
 Klein và schnell trên Cloudflare KHÔNG có ô negative prompt, và câu "no X" đôi khi làm model nhớ tới X. Vì vậy: ưu tiên mô tả điều CẦN có ("brown leather armor, bare heads, topknot") thay vì liệt kê điều cấm. Chỉ giữ "no text, no modern items" trong khối giải phẫu. Danh sách cấm đầy đủ (chibi, cartoon, anime, giáp fantasy, tỷ lệ siêu nhân, thiết bị quân sự hiện đại, vật liệu nhựa, giải phẫu méo, thừa chi, khuôn mặt nhân đôi, đồ vật lơ lửng, vũ khí vô lý, phụ kiện hiện đại, chữ, logo) dùng làm TIÊU CHÍ KIỂM ẢNH, không dán vào prompt.
 
-## 6. Kiểm ảnh (7 mục, mỗi ảnh phải báo)
-1. Đúng bối cảnh lịch sử? 2. Đúng quân phục từng phe? 3. Có đồ hiện đại? 4. Có tự thêm cờ hoặc đạo cụ? 5. Đúng số người, số ngựa? 6. Lỗi tay chân, ngựa, cơ thể? 7. Đúng phong cách tranh bán hiện thực?
+## 6. Kiểm ảnh (8 mục, mỗi ảnh phải báo)
+1. Đúng bối cảnh lịch sử? 2. Đúng quân phục từng phe? 3. Có đồ hiện đại? 4. Có tự thêm cờ hoặc đạo cụ? 5. Đúng số người, số ngựa? 6. Lỗi tay chân, ngựa, cơ thể? 7. Đúng phong cách tranh bán hiện thực? 8. Mọi chi tiết nhìn thấy có nằm trong `detail_tags` của cảnh không (mũ, giáp, giày, cờ, đạo cụ)?
 Trạng thái: PASS / REVIEW / REGENERATE. Không báo PASS chỉ vì ảnh đẹp. Chỉ vẽ lại ảnh REGENERATE (hạn mức Cloudflare miễn phí có hạn).
 
-## 7. Ảnh tham chiếu (klein nhận `input_image_N`)
-Thử 01/11/2026: ảnh tham chiếu giữ được quân phục và nét vẽ nhưng CHÉP LUÔN bố cục. Dùng cho cảnh khác bố cục thì phải ghi mạnh bố cục mới, hoặc không dùng tham chiếu. Không dùng ảnh lỗi làm tham chiếu. Ảnh tham chiếu đã duyệt: 19901 (quân Đại Việt hành quân, PASS).
+## 7. Nguyên tắc KHÔNG TỰ SUY DIỄN chi tiết lịch sử (bắt buộc, chủ kênh 01/11/2026)
+1. Mỗi chi tiết nhìn thấy trong ảnh (mũ, giáp, giày, cờ, vũ khí, kiến trúc, đồ vật, ánh sáng) phải truy được tới một khối trong `khoi-prompt.json` hoặc một dòng trong Period Bible. Không truy được thì không đưa vào prompt.
+2. Chi tiết chưa có trong Bible: không tự thêm. Dùng thiết kế trung tính và gắn `artistic_choice`, hoặc hỏi chủ kênh trước.
+3. Kịch bản không nói thì không thêm (số quân, binh chủng, vũ khí, phe thắng thua, thời tiết có ý nghĩa).
+4. Mọi chi tiết chưa được xác nhận (mức B hoặc C) phải được phân loại đúng một trong hai nhãn `cautious_reconstruction` hoặc `artistic_choice`, không để "không nhãn". Chi tiết mức A/B gộp (như giáp Tống) coi là `cautious_reconstruction` trừ khi chủ kênh xác nhận mức A.
+5. Model có thể tự thêm chi tiết mà prompt không yêu cầu (cờ, mũ, chữ). Chi tiết nhìn thấy trong ảnh mà không có trong `detail_tags` thì ảnh bị REVIEW (hoặc REGENERATE nếu là đồ sai thời).
+6. Nhãn không bao giờ biến một chi tiết thành "đặc điểm cố định của đội quân": mỗi cảnh chọn theo nhóm người, thay đổi giữa các cảnh khi hợp lý.
+7. Ảnh đẹp không phải bằng chứng. Không báo PASS chỉ vì ảnh đẹp.
 
-Trạng thái bản này: DRAFT, chờ chủ kênh duyệt.
+## 8. Ảnh tham chiếu của FLUX.2 klein (Cloudflare)
+**Cách gọi (đã dùng thực tế 01/11/2026):** gửi multipart với các trường `input_image_0`, `input_image_1`; ảnh tham chiếu thu nhỏ cạnh dài tối đa 768 px; đã thử tối đa 2 ảnh. Đây là quan sát thực nghiệm, chưa đối chiếu tài liệu chính thức của Cloudflare.
+
+**Nguy cơ sao chép bố cục (đã quan sát):** ảnh tham chiếu giữ được quân phục và nét vẽ nhưng klein cũng chép luôn bố cục. Với 3/3 cảnh ngoài trời rộng có hàng người (19902, 19903, 19904 lần 1, tham chiếu 19901 là cảnh hành quân), cả ba ra bố cục "hàng lính hành quân" giống ảnh tham chiếu và bỏ yêu cầu riêng của cảnh (3 kỵ binh, hai bờ sông, dốc đất). Với 2/2 cảnh khác loại hẳn (nội thất 19905, đêm bên sông 19906) bố cục theo prompt. Mẫu nhỏ, chưa kết luận chắc.
+
+**Quy tắc sử dụng:**
+1. Mặc định KHÔNG dùng ảnh tham chiếu. Chỉ dùng khi cần giữ khuôn mặt nhân vật (sau khi có Character Reference được duyệt) hoặc trang phục lặp lại ở nhiều cảnh.
+2. Trước khi dùng cho một loại cảnh mới, vẽ thử hai bản (có và không có tham chiếu) và so bố cục. Ghi kết quả vào sổ ảnh.
+3. Mỗi lần dùng phải khai rõ mục đích: `face_only`, `costume_only` hoặc `style_only`, và viết trong prompt bố cục mới bằng chữ viết hoa (số người, vị trí, hành động). Không dùng ảnh tham chiếu có bố cục gần với cảnh đích.
+4. Chỉ dùng ảnh tham chiếu đã duyệt VÀ còn hợp lệ với phiên bản Bible hiện hành. Ảnh tạo theo phiên bản cũ (trạng thái STALE) hoặc ảnh lỗi không được làm tham chiếu.
+5. Tối đa 2 ảnh tham chiếu mỗi lần. Ghi mã ảnh tham chiếu, mục đích và phiên bản vào bản ghi ảnh.
+6. **Ảnh 19901 KHÔNG còn là ảnh tham chiếu hợp lệ**: nó PASS theo Bible v1.0 nhưng vi phạm v1.1 (cả đội đội nón lá, giáp da nâu, cờ nâu đỏ). Chưa có ảnh tham chiếu nào được duyệt theo v1.1.
+
+Trạng thái bản này: DRAFT, chờ chủ kênh duyệt. Lịch sử phiên bản ở `quy-tac/anh/CHANGELOG.md`.

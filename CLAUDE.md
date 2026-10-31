@@ -16,7 +16,7 @@ Quy tắc chung luôn có hiệu lực (nhập tự động ngay dưới). Trư�
 | Lịch sử Việt Nam (Đinh Bộ Lĩnh, Lê Hoàn, Lý Công Uẩn, Tây Sơn...) | `quy-tac/su-viet.md` + `quy-tac/video-ban-do.md` |
 | Lịch sử thế giới (Hán Sở, Hannibal, Mông Cổ...) | `quy-tac/lich-su-the-gioi.md` + `quy-tac/video-ban-do.md` |
 | Tên đường: nhân vật gắn với tên đường (tiểu sử, không giới hạn năm) | `quy-tac/ten-duong.md` + `quy-tac/video-ban-do.md` |
-| Vẽ ảnh minh họa bằng FLUX (Cloudflare klein, Kaggle) | `quy-tac/anh/master-style.md` + Period Bible của thời kỳ (`quy-tac/anh/period-<tên>.md`, hiện có `period-ly-tong.md` DRAFT) + `quy-tac/anh/khoi-prompt.json` |
+| Vẽ ảnh minh họa bằng FLUX (Cloudflare klein, Kaggle) | `quy-tac/anh/master-style.md` + Period Bible của thời kỳ (`quy-tac/anh/period-<tên>.md`, hiện có `period-ly-tong.md` DRAFT) + `quy-tac/anh/khoi-prompt.json` + `quy-tac/anh/quy-trinh-anh.md` (lưu `detail_tags`, duyệt Scene Planner, phiên bản; kiểm bằng `phim_ban_do/kiem_scene_planner.py`) |
 
 Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừng thêm quy tắc riêng series vào `chung.md`. Quy tắc nào áp cho mọi series thì mới vào `chung.md`.
 

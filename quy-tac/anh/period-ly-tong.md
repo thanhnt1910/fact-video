@@ -1,6 +1,6 @@
-# PERIOD BIBLE – Đại Việt nhà Lý và Trung Hoa nhà Tống (v1.1 DRAFT, 01/11/2026)
+# PERIOD BIBLE – Đại Việt nhà Lý và Trung Hoa nhà Tống (v1.2 DRAFT, 01/11/2026)
 
-**Trạng thái: DRAFT (đã sửa theo quyết định phục dựng thận trọng của chủ kênh, chờ chủ kênh xác nhận quy chuẩn cuối).** Chưa APPROVED. Chưa lập Scene Planner, chưa vẽ lại ảnh nào theo bản này.
+**Trạng thái: DRAFT (đã sửa theo quyết định phục dựng thận trọng của chủ kênh và bổ sung quy tắc truy vết; chờ chủ kênh xác nhận quy chuẩn cuối).** Chưa APPROVED. Chưa lập Scene Planner, chưa vẽ lại ảnh nào theo bản này.
 
 ## A. Nhận diện
 - Thời kỳ: 1075–1077 (chiến tranh Lý–Tống), tham chiếu thêm 1069–1105 (đời Lý Thường Kiệt).
@@ -14,6 +14,8 @@
 | **C** | Lựa chọn nghệ thuật | `artistic_choice` | Không trình bày như sự thật lịch sử |
 
 **Quy tắc nhãn:**
+- Mọi chi tiết chưa được xác nhận (B hoặc C) phải mang MỘT trong hai nhãn; không có "không nhãn". Chi tiết ghi "A/B" trong bảng (giáp vảy, mũ sắt, vũ khí Tống) coi là `cautious_reconstruction`, trừ khi chủ kênh xác nhận mức A.
+- Không tự suy diễn: xem Master Style mục 7.
 - Mỗi cảnh trong Scene Planner có trường `detail_tags` liệt kê từng chi tiết chưa được xác nhận kèm nhãn, ví dụ `[{"item":"khăn quấn đầu","tag":"artistic_choice"},{"item":"giáp sắt và da","tag":"cautious_reconstruction"}]`. Nhãn nằm trong dữ liệu cảnh (và trong ghi chú gửi chủ kênh duyệt), không dán vào câu prompt vì FLUX không hiểu nhãn.
 - Chi tiết mang nhãn KHÔNG được tự biến thành đặc điểm cố định của cả đội quân. Mỗi cảnh chọn theo nhóm người (xem mục C), đổi giữa các cảnh khi hợp lý.
 - Chi tiết nào chưa có trong bảng thì không tự thêm; phải hỏi chủ kênh hoặc dùng thiết kế trung tính và gắn `artistic_choice`.
@@ -88,4 +90,11 @@ Quân vây thành đắp đất thành dốc áp chân tường: **A theo kịch
 - [Song Dynasty military overview (Dragon's Armory)](https://dragonsarmory.blogspot.com/2024/08/song-dynasty-960-1279-military-overview.html)
 - [Phỏng dựng kiến trúc cung điện thời Lý (Báo Văn hóa)](https://baovanhoa.vn/doi-song-van-hoa/phong-dung-kien-truc-cung-dien-thoi-ly-da-thuc-su-gan-voi-ngan-nam-lich-su-47638.html)
 
-Trạng thái: DRAFT v1.1. Chỉ chuyển APPROVED khi chủ kênh xác nhận.
+
+## K. Ghi chú phiên bản
+- v1.0: bản đầu (01/11/2026).
+- v1.1: phục dựng thận trọng theo quyết định chủ kênh (mục H).
+- v1.2: thêm quy tắc "không có không nhãn", gộp A/B thành `cautious_reconstruction`, thêm liên kết truy vết sang `khoi-prompt.json` (mỗi dòng bảng ứng với một khối `block`). Không đổi nội dung lịch sử.
+Bảng ánh xạ dòng bảng sang khối: Giáp lính → VN_GIAP; Quần áo lính → VN_AO_VAI; Mũ/đầu → VN_DAU; Nón lá → VN_NON_DAN_PHU; Tướng lĩnh → VN_TUONG; Giày dép → VN_CHAN; Vũ khí → VN_VU_KHI; Cờ Đại Việt → VN_CO; Lý Thường Kiệt → VN_TUONG_LY_THUONG_KIET; Kiến trúc cung điện → KIEN_TRUC_CUNG; Nhà dân → NHA_DAN; Giáp Tống theo binh chủng → SONG_BO_BINH_NANG, SONG_CUNG_NO, SONG_BO_BINH_NHE, SONG_SI_QUAN; Cờ Tống → SONG_CO; Thành trì → THANH_SONG; Dốc đất → DOC_DAT; Vác đất → VAC_DAT; Đèn → DEN.
+
+Trạng thái: DRAFT v1.2. Chỉ chuyển APPROVED khi chủ kênh xác nhận.

@@ -8,7 +8,7 @@ R = Path(__file__).resolve().parent
 items = {i["n"]: i for i in json.loads((R / "ke-hoach/chibi/lt1t2_chibi.json").read_text(encoding="utf-8"))}
 want = sorted(items) if sys.argv[1] == "all" else [int(x) for x in sys.argv[1].split(",")]
 use_ref = len(sys.argv) > 2 and sys.argv[2] == "ref"
-REFS = {19901: [], 19902: [19901], 19903: [19901], 19904: [19901, 19903], 19905: [19901], 19906: [19901]}
+REFS = {19901: [], 19902: [], 19903: [], 19904: [], 19905: [19901], 19906: [19901]}
 out = R / "assets/anh_chibi/lt1t2_cf"; out.mkdir(parents=True, exist_ok=True)
 def run(prompt, refs, seed):
     acc, tok = ai._creds()

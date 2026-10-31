@@ -136,15 +136,15 @@ thu('18c Bản đồ thiếu danh sách dữ liệu cần xác minh', True, {k: 
 thu('18d Bản đồ còn NEEDS_REVIEW mà map_status không chặn', True, dict(mp, map_status='READY'), 'không phải BLOCKED', w=True)
 thu('18e Bản đồ NEEDS_REVIEW không được PLAN_APPROVED', True, dict(mp, plan_status='PLAN_APPROVED'), 'không thể PLAN_APPROVED', w=True)
 mj = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))['items']
-ok = len(mj) == 33 and all(x['trang_thai'] == 'NEEDS_REVIEW' and x['toa_do'] is None and not x['duoc_ve'] and x['loai'] in ('DIA_LY', 'DUONG_QUAN_SU', 'DIEN_GIAI') for x in mj); kq.append(ok)
-print(('PASS ' if ok else 'FAIL ') + f'18f {len(mj)} mục xác minh bản đồ: đều NEEDS_REVIEW, không tọa độ, không được vẽ')
+ok = len(mj) == 33 and all(x['loai'] in ('DIA_LY', 'DUONG_QUAN_SU', 'DIEN_GIAI') and x['toa_do'] is None and not x['duoc_ve'] and ((x['trang_thai'] == 'VERIFIED' and x.get('nguon_xac_minh')) or x['trang_thai'] == 'NEEDS_REVIEW') for x in mj); kq.append(ok)
+print(('PASS ' if ok else 'FAIL ') + f'18f {len(mj)} mục xác minh bản đồ: VERIFIED phải kèm nguồn, còn lại NEEDS_REVIEW; không mục nào có tọa độ hay được vẽ')
 def doan(sc, cuts):
     K.bad.clear(); K.warn.clear(); K.kiem_doan(sc, cuts); return [l for l in K.bad + K.warn if 'QK-' in l or '❌' in l]
 no66 = [x for x in RS]
-loi = doan(no66, {}); ok = any('đoạn 66' in l and 'segment_cuts' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19a Đoạn 66 dùng hai cảnh mà thiếu segment_cuts bị chặn')
-bad_cut = {'66': [dict(thu_tu=1, scene='L25', cau='Một lần khác, ông dựng phòng tuyến bên sông, bảo vệ từng tấc đất quê hương.'), dict(thu_tu=2, scene='L03', cau='Một lần, ông đưa quân vượt biên giới, đánh vào đất địch.')]}
-loi = doan(no66, bad_cut); ok = any('sai thứ tự' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19b Thứ tự cắt đoạn 66 sai so với lời đọc bị chặn')
-loi = doan(no66, real['segment_cuts']); ok = not loi; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'19c segment_cuts thật của đoạn 66 hợp lệ {loi[:1]}')
+loi = doan(no66, {}); ok = any('đoạn 87' in l and 'segment_cuts' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19a Đoạn 87 (66 cũ) dùng hai cảnh mà thiếu segment_cuts bị chặn')
+bad_cut = {'87': [dict(thu_tu=1, scene='L25', cau='Một lần khác, ông dựng phòng tuyến bên sông, bảo vệ từng tấc đất quê hương.'), dict(thu_tu=2, scene='L03', cau='Một lần, ông đưa quân vượt biên giới, đánh vào đất địch.')]}
+loi = doan(no66, bad_cut); ok = any('sai thứ tự' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19b Thứ tự cắt đoạn 87 (66 cũ) sai so với lời đọc bị chặn')
+loi = doan(no66, real['segment_cuts']); ok = not loi; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'19c segment_cuts thật của đoạn 87 (66 cũ) hợp lệ {loi[:1]}')
 nm = [dict(x) for x in RS]
 for x in nm:
     if x['scene_id'] == 'L32': x.pop('motion_plan')
@@ -187,7 +187,7 @@ dq_ok = lambda i, **kw: dict(next(d for d in REGJ['quyet_dinh'] if d['id'] == i)
 S35 = next(x for x in RS if x['scene_id'] == 'L35'); S25 = next(x for x in RS if x['scene_id'] == 'L25'); S32 = next(x for x in RS if x['scene_id'] == 'L32')
 for ten, dq, sc_, want_ok, mode in [('24a DQ-001 APPROVED, cảnh năm 1105 (ngoài 1075–1077) → OWNER_APPROVAL', 'DQ-001', S35, False, 'OWNER_APPROVAL'), ('24b DQ-003 APPROVED, cảnh 1077 trong phạm vi', 'DQ-003', S25, True, None),
                                     ('24c DQ-002 APPROVED, cảnh niên đại không rõ → MUST_VERIFY', 'DQ-002', dict(S25, nien_dai_canh=[1075, None]), False, 'MUST_VERIFY'), ('24d DQ-004 GLOBAL dùng được ở cảnh bất kỳ', 'DQ-004', dict(S32, nien_dai_canh=[1500, 1600]), True, None)]:
-    ok_, why, md = K.dq_hop_le(dq_ok(dq), sc_); tinh(ten, ok_ == want_ok and md == mode, (ok_, why, md))
+    ok_, why, md = K.dq_hop_le(dq_ok(dq, canh_ngoai_pham_vi_duoc_duyet={}), sc_); tinh(ten, ok_ == want_ok and md == mode, (ok_, why, md))
 tinh('24e Quyết định APPROVED áp cho phiên bản Bible khác bị coi là ngoài phạm vi', not K.dq_hop_le(dq_ok('DQ-004', phien_ban_ap_dung=dict(period='1.9')), S32)[0])
 K.REG['DQ-009'] = dq_ok('DQ-001', id='DQ-009')
 K.bad.clear(); K.warn.clear(); K.kiem_canh(dict(base, free_text_details=[dict(item='bản đồ', tag='artistic_choice', evidence_level='C', reason='x', owner_approved=False, decision_mode='AUTO', quyet_dinh='DQ-001')]))
@@ -245,8 +245,11 @@ tinh('33c Registry thiếu nhan_vat/giai_doan trong phạm vi CHARACTER bị ch�
 S33 = next(x for x in RS if x['scene_id'] == 'L33')
 tinh('33d L33 có đúng 8 dân + 4 lính Tống không vũ khí + 2 lính Đại Việt = 14 người; prompt khớp', S33['expected_people'] == 14 and [g['count'] for g in S33['groups']] == [8, 4, 2] and 'four unarmed Song soldiers' in S33['image_prompt'] and 'carry nothing' in S33['image_prompt'])
 a22 = next(f for f in S33['free_text_details'] if f['id'] == 'AC22'); a20 = next(f for f in S33['free_text_details'] if f['id'] == 'AC20')
-tinh('33e AC22 (lính Tống được trao trả) CHƯA duyệt, còn AC20 (dân) đã duyệt; cả hai C, visual_only', a22['owner_approved'] is False and a20['owner_approved'] is True and a22['evidence_level'] == a20['evidence_level'] == 'C' and a22['approval_scope'] == 'visual_only')
-tinh('33f 21 chi tiết AC01..AC21 + AC23, AC24 đã duyệt bởi chủ kênh 01/11/2026 và vẫn là C; chỉ AC22 chưa duyệt', {f['id'] for x in RS for f in x.get('free_text_details', []) if f['owner_approved']} == {f'AC{i:02d}' for i in range(1, 22)} | {'AC23', 'AC24'} and all(f['evidence_level'] == 'C' and f['approval_scope'] == 'visual_only' and f['la_du_kien_lich_su'] is False for x in RS for f in x.get('free_text_details', [])))
+tinh('33e AC22 (lính Tống được trao trả) và AC20 (dân) đều đã duyệt 01/11/2026; cả hai C, visual_only, không phải dữ kiện lịch sử', a22['owner_approved'] is True and a22['approved_by'] == 'chủ kênh' and a20['owner_approved'] is True and a22['evidence_level'] == a20['evidence_level'] == 'C' and a22['approval_scope'] == 'visual_only')
+tinh('33f Mọi chi tiết ngoài khối (AC01..AC24) đã duyệt bởi chủ kênh 01/11/2026 và vẫn là C, visual_only', {f['id'] for x in RS for f in x.get('free_text_details', []) if f['owner_approved']} == {f'AC{i:02d}' for i in range(1, 25)} and all(f['evidence_level'] == 'C' and f['approval_scope'] == 'visual_only' and f['la_du_kien_lich_su'] is False for x in RS for f in x.get('free_text_details', [])))
 BD = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))
-tinh('33g Chủ kênh duyệt danh sách 33 mục bản đồ nhưng chưa xác minh: không mục nào VERIFIED, không tọa độ, không được vẽ', len(BD['items']) == 33 and BD['chu_kenh_duyet_danh_sach']['trang_thai'] == 'APPROVED' and all(x['trang_thai'] == 'NEEDS_REVIEW' and x['toa_do'] is None and x['duoc_ve'] is False for x in BD['items']))
+tinh('33g Bản đồ: chủ kênh duyệt danh sách và chấp nhận nguồn thứ cấp; 9 mục VERIFIED kèm nguồn, không mục nào có tọa độ hay được vẽ; 7 bản đồ vẫn bị chặn', len(BD['items']) == 33 and BD['chu_kenh_duyet_danh_sach']['trang_thai'] == 'APPROVED' and sum(x['trang_thai'] == 'VERIFIED' for x in BD['items']) == 9 and all(x['toa_do'] is None and x['duoc_ve'] is False for x in BD['items']) and all(x.get('map_status') == 'BLOCKED_NEEDS_REVIEW' for x in RS if x.get('render') == 'vector_map'))
+tinh('33h Kịch bản của planner là bản tách 90 đoạn, từ ngữ khớp bản gốc (trừ đoạn cuối chủ kênh duyệt); bản gốc còn nguyên', real['script'].endswith('lt1v4_tach_full.json') and real['so_doan'] == 90 and len(json.load(open(f'{Q.R}/ke-hoach/thu-giong-hai/lt1v4_tach_full.json', encoding='utf-8'))) == 90 and len(json.load(open(f'{Q.R}/ke-hoach/thu-giong-hai/lt1v4_full.json', encoding='utf-8'))) == 68)
+d1 = next(d for d in REGJ['quyet_dinh'] if d['id'] == 'DQ-001')
+tinh('33i DQ-001: ngoại lệ chỉ L04 và L35 (chủ kênh duyệt), L11 vẫn trong phạm vi, cảnh khác ngoài phạm vi vẫn không được', set(d1['canh_ngoai_pham_vi_duoc_duyet']) == {'L04', 'L35'} and K.dq_hop_le(d1, S35)[0] and K.dq_hop_le(d1, S04)[0] and K.dq_hop_le(d1, S11)[0] and not K.dq_hop_le(d1, dict(S25, scene_id='L99', nien_dai_canh=[1105, 1105]))[0])
 print(f'\nTổng: {sum(kq)}/{len(kq)} phép kiểm đạt'); sys.exit(0 if all(kq) else 1)

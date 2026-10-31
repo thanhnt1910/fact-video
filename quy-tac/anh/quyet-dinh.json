@@ -104,7 +104,20 @@
     "period": "1.3",
     "khoi_prompt": "1.3"
    },
-   "tai_su_dung": "chỉ về mặt hình ảnh, trong đúng phạm vi và phiên bản"
+   "tai_su_dung": "chỉ về mặt hình ảnh, trong đúng phạm vi và phiên bản",
+   "canh_ngoai_pham_vi_duoc_duyet": {
+    "L35": {
+     "ly_do": "Cảnh năm 1105 (ngoài 1075–1077). Bản đồ cuộn không chữ không khẳng định gì về thời kỳ nên chỉ dùng làm quy ước hình ảnh.",
+     "nguoi_duyet": "chủ kênh",
+     "ngay_duyet": "2026-11-01"
+    },
+    "L04": {
+     "ly_do": "Cảnh gộp đoạn mở đầu (1075) và đoạn sau chiến tranh (không nêu năm). Quy ước hình ảnh, không khẳng định thời điểm.",
+     "nguoi_duyet": "chủ kênh",
+     "ngay_duyet": "2026-11-01"
+    }
+   },
+   "ghi_chu_bat_buoc_them": "Duyệt ngoại lệ chỉ cho hai cảnh L04 và L35, không mở rộng sang cảnh khác ngoài 1075–1077."
   },
   {
    "id": "DQ-002",

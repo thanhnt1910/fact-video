@@ -33,6 +33,7 @@ def dq_hop_le(d, s):
     pv = d.get('pham_vi', {})
     if any(CUR.get(k) != v for k, v in d.get('phien_ban_ap_dung', {}).items()): return False, f'{d["id"]} áp dụng cho phiên bản Bible khác hiện hành', 'OWNER_APPROVAL'
     if pv.get('cap') == 'GLOBAL': return True, '', None
+    if s.get('scene_id') in d.get('canh_ngoai_pham_vi_duoc_duyet', {}): return True, '', None   # chủ kênh duyệt riêng từng cảnh (vẫn là quy ước hình ảnh)
     if pv.get('cap') == 'CHARACTER':
         okc = any(h.get('ma') == pv.get('nhan_vat') and set(h.get('giai_doan', [])) <= set(pv.get('giai_doan', [])) and h.get('giai_doan') for h in s.get('ho_so_nhan_vat', []))
         return (True, '', None) if okc else (False, f'{d["id"]} chỉ áp dụng {pv.get("nhan_vat")} giai đoạn {pv.get("giai_doan")}; cảnh không khai hồ sơ/giai đoạn này: ngoài phạm vi', d.get('xu_ly_ngoai_pham_vi', 'OWNER_APPROVAL'))
@@ -226,10 +227,15 @@ def kiem_anh(recs, planner):
         for a, b in zip(rs, rs[1:]):
             if a['status'] == 'MANUAL_REVIEW' and not (a.get('owner_unlock') or b.get('owner_unlock')): B(b['image_id'], 'vẽ tiếp sau MANUAL_REVIEW khi chưa có owner_unlock')
 
+def _script_path():
+    """Kịch bản mà planner thật đang dùng (trường script của scene-planner.json); mặc định bản gốc lt1v4_full.json."""
+    try: return json.load(open(os.path.join(Q.R, 'ke-hoach/anh/lt1v4/scene-planner.json'), encoding='utf-8')).get('script') or 'ke-hoach/thu-giong-hai/lt1v4_full.json'
+    except Exception: return 'ke-hoach/thu-giong-hai/lt1v4_full.json'
 def kiem_doan(sc, cuts):
     """Đoạn dùng nhiều cảnh phải khai thứ tự và điểm cắt; cảnh giữ lâu phải có kế hoạch chuyển động."""
-    dp = os.path.join(Q.R, 'ke-hoach/thu-giong-hai/lt1v4_full.json')
+    dp = os.path.join(Q.R, _script_path())
     txt = [x['text'] for x in json.load(open(dp, encoding='utf-8'))] if os.path.exists(dp) else []
+    NDOAN = len(txt) if txt else 68
     m = {}
     for s in sc:
         for g in s['segment_ids']: m.setdefault(g, []).append(s['scene_id'])
@@ -241,11 +247,11 @@ def kiem_doan(sc, cuts):
         if txt:
             t = txt[g - 1]; pos = [t.find(x['cau']) for x in sorted(c, key=lambda x: x['thu_tu'])]
             if any(p < 0 for p in pos) or pos != sorted(pos): Bq('QK-DOAN')(f'đoạn {g}', 'câu cắt trong segment_cuts không có trong lời đọc hoặc sai thứ tự (kịch bản không được đổi)')
-    for g in range(1, 69):
+    for g in range(1, NDOAN + 1):
         if g not in m: Bq('QK-DOAN')(f'đoạn {g}', 'chưa có cảnh nào')
     if txt:
         run = []
-        for g in range(1, 69):
+        for g in range(1, NDOAN + 1):
             k = tuple(m.get(g, []))
             if run and run[-1][0] == k: run[-1][1].append(g)
             else: run.append((k, [g]))

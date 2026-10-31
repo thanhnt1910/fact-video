@@ -7,9 +7,12 @@
   "period": "1.3",
   "khoi_prompt": "1.3"
  },
- "script": "ke-hoach/thu-giong-hai/lt1v4_full.json",
+ "script": "ke-hoach/thu-giong-hai/lt1v4_tach_full.json",
+ "script_goc": "ke-hoach/thu-giong-hai/lt1v4_full.json",
+ "so_doan": 90,
+ "ghi_chu_so_doan": "segment_ids theo bản tách 90 đoạn; số đoạn trong ghi_chu/timing_note/motion_plan/map_note theo bản 68 đoạn cũ (xem segment_ids_ban_cu và lt1v4_tach_anh-xa.json)",
  "segment_cuts": {
-  "66": [
+  "87": [
    {
     "thu_tu": 1,
     "scene": "L03",
@@ -35,7 +38,7 @@
    "scene_id": "L01",
    "segment_ids": [
     1,
-    26
+    34
    ],
    "scene_type": "fortress",
    "expected_people": 6,
@@ -103,13 +106,18 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Đoạn 1: không vẽ cái chết hay lửa (kịch bản v4 không nói). Đoạn 26 dùng lại: thành đứng một mình.",
-   "timing_note": "Đoạn 1 và đoạn 26 cách xa nhau, không liền."
+   "timing_note": "Đoạn 1 và đoạn 26 cách xa nhau, không liền.",
+   "segment_ids_ban_cu": [
+    1,
+    26
+   ]
   },
   {
    "scene_id": "L02",
    "segment_ids": [
     2,
-    27
+    35,
+    36
    ],
    "scene_type": "portrait",
    "expected_people": 3,
@@ -196,13 +204,17 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Đoạn 2 chưa nêu tên; đoạn 27 nêu tên Tô Giám. Tạo hình sĩ quan là phục dựng, không phải chân dung.",
-   "timing_note": "Hai đoạn cách xa nhau."
+   "timing_note": "Hai đoạn cách xa nhau.",
+   "segment_ids_ban_cu": [
+    2,
+    27
+   ]
   },
   {
    "scene_id": "L03",
    "segment_ids": [
     3,
-    66
+    87
    ],
    "scene_type": "army",
    "expected_people": 16,
@@ -317,14 +329,18 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Số lính trong ảnh chỉ minh họa, không phải số quân trong sử (kịch bản nói hơn mười vạn người). Không cờ.",
-   "timing_note": "Đoạn 66 dùng lại: nửa đầu đoạn."
+   "timing_note": "Đoạn 66 dùng lại: nửa đầu đoạn.",
+   "segment_ids_ban_cu": [
+    3,
+    66
+   ]
   },
   {
    "scene_id": "L04",
    "segment_ids": [
     4,
     5,
-    60
+    78
    ],
    "scene_type": "command_room",
    "expected_people": 1,
@@ -454,7 +470,12 @@
      ]
     }
    ],
-   "thay_mat": true
+   "thay_mat": true,
+   "segment_ids_ban_cu": [
+    4,
+    5,
+    60
+   ]
   },
   {
    "scene_id": "L05",
@@ -536,7 +557,10 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không vẽ vua. Mô tả \"khôi ngô\" của kịch bản không thể hiện bằng ảnh này.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    6
+   ]
   },
   {
    "scene_id": "L06",
@@ -682,13 +706,18 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không vẽ \"cờ tiết\" (chưa có tư liệu về hình dạng và màu).",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    7
+   ]
   },
   {
    "scene_id": "L07",
    "segment_ids": [
     8,
-    63
+    9,
+    82,
+    83
    ],
    "scene_type": "army",
    "expected_people": 12,
@@ -793,14 +822,20 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Dùng cho đoạn 8 (1069) và đoạn 63 (chiến dịch Chiêm Thành lần cuối). Địa hình nhiệt đới là suy luận từ hướng nam.",
-   "timing_note": "Hai lần dùng cách xa nhau."
+   "timing_note": "Hai lần dùng cách xa nhau.",
+   "segment_ids_ban_cu": [
+    8,
+    63
+   ]
   },
   {
    "scene_id": "L08",
    "segment_ids": [
-    9,
-    17,
-    18
+    10,
+    11,
+    22,
+    23,
+    24
    ],
    "scene_type": "small_group",
    "expected_people": 3,
@@ -934,12 +969,18 @@
      ]
     }
    ],
-   "thay_mat": false
+   "thay_mat": false,
+   "segment_ids_ban_cu": [
+    9,
+    17,
+    18
+   ]
   },
   {
    "scene_id": "L09",
    "segment_ids": [
-    10
+    12,
+    13
    ],
    "scene_type": "object_detail",
    "expected_people": 0,
@@ -1005,12 +1046,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Cảnh thay cho Vương An Thạch và chính sách cải cách: không vẽ nhân vật.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    10
+   ]
   },
   {
    "scene_id": "M1",
    "segment_ids": [
-    11
+    14,
+    15
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -1025,14 +1070,18 @@
    "map_status": "BLOCKED_NEEDS_REVIEW",
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M1",
-   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner."
+   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
+   "segment_ids_ban_cu": [
+    11
+   ]
   },
   {
    "scene_id": "L10",
    "segment_ids": [
-    12,
-    22,
-    23
+    16,
+    29,
+    30,
+    31
    ],
    "scene_type": "small_group",
    "expected_people": 8,
@@ -1117,14 +1166,20 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-002"
+   ],
+   "segment_ids_ban_cu": [
+    12,
+    22,
+    23
    ]
   },
   {
    "scene_id": "L11",
    "segment_ids": [
-    13,
-    50,
-    51
+    17,
+    65,
+    66,
+    67
    ],
    "scene_type": "command_room",
    "expected_people": 4,
@@ -1264,12 +1319,17 @@
      ]
     }
    ],
-   "thay_mat": true
+   "thay_mat": true,
+   "segment_ids_ban_cu": [
+    13,
+    50,
+    51
+   ]
   },
   {
    "scene_id": "L12",
    "segment_ids": [
-    14
+    18
    ],
    "scene_type": "army",
    "expected_people": 14,
@@ -1436,13 +1496,17 @@
      ]
     }
    ],
-   "thay_mat": false
+   "thay_mat": false,
+   "segment_ids_ban_cu": [
+    14
+   ]
   },
   {
    "scene_id": "L13",
    "segment_ids": [
-    15,
-    16
+    19,
+    20,
+    21
    ],
    "scene_type": "small_group",
    "expected_people": 6,
@@ -1519,12 +1583,17 @@
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Minh họa chính sách thanh miêu (vay khi lúa còn non, trả khi gặt). Không vẽ quan thu nợ.",
    "timing_note": "Đoạn 15 và 16 liền nhau, khoảng 20 giây.",
-   "motion_plan": "Đoạn 15: khung rộng, zoom chậm vào nhóm gặt lúa phía trước. Đoạn 16: pan sang nhóm bó lúa phía sau. Một ảnh, ~20 giây."
+   "motion_plan": "Đoạn 15: khung rộng, zoom chậm vào nhóm gặt lúa phía trước. Đoạn 16: pan sang nhóm bó lúa phía sau. Một ảnh, ~20 giây.",
+   "segment_ids_ban_cu": [
+    15,
+    16
+   ]
   },
   {
    "scene_id": "M2",
    "segment_ids": [
-    19
+    25,
+    26
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -1542,12 +1611,15 @@
    "map_status": "BLOCKED_NEEDS_REVIEW",
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M2",
-   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner."
+   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
+   "segment_ids_ban_cu": [
+    19
+   ]
   },
   {
    "scene_id": "L14",
    "segment_ids": [
-    20
+    27
    ],
    "scene_type": "small_group",
    "expected_people": 8,
@@ -1668,12 +1740,15 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-002"
+   ],
+   "segment_ids_ban_cu": [
+    20
    ]
   },
   {
    "scene_id": "L15",
    "segment_ids": [
-    21
+    28
    ],
    "scene_type": "army",
    "expected_people": 14,
@@ -1797,12 +1872,15 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    21
+   ]
   },
   {
    "scene_id": "L16",
    "segment_ids": [
-    24
+    32
    ],
    "scene_type": "army",
    "expected_people": 12,
@@ -1899,12 +1977,15 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không cờ Tống. Binh chủng chọn theo Bible (nặng + nỏ).",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    24
+   ]
   },
   {
    "scene_id": "L17",
    "segment_ids": [
-    25
+    33
    ],
    "scene_type": "battlefield",
    "expected_people": 16,
@@ -2019,13 +2100,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không vẽ cảnh giết Trương Thủ Tiết hay máu. Chỉ vẽ khoảnh khắc phục kích. Rủi ro cao vì hai phe ở cùng khung.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    25
+   ]
   },
   {
    "scene_id": "L18",
    "segment_ids": [
-    28,
-    65
+    37,
+    86
    ],
    "scene_type": "fortress",
    "expected_people": 11,
@@ -2148,12 +2232,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Dốc đất: sự kiện theo kịch bản (sử liệu), hình dạng là phục dựng (B). Không vũ khí công thành khác.",
-   "timing_note": "Đoạn 65 dùng lại: hai trận cách nhau một năm."
+   "timing_note": "Đoạn 65 dùng lại: hai trận cách nhau một năm.",
+   "segment_ids_ban_cu": [
+    28,
+    65
+   ]
   },
   {
    "scene_id": "L19",
    "segment_ids": [
-    29
+    38
    ],
    "scene_type": "architecture",
    "expected_people": 0,
@@ -2230,12 +2318,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không vẽ cái chết của Tô Giám và người thân (kịch bản v4 đoạn 29).",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    29
+   ]
   },
   {
    "scene_id": "L20",
    "segment_ids": [
-    30
+    39,
+    40
    ],
    "scene_type": "landscape",
    "expected_people": 0,
@@ -2303,12 +2395,15 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không vẽ thi thể. Số \"hơn năm vạn tám nghìn người\" (kịch bản nói là từ sử liệu được nhắc) nên hiện bằng chữ trên màn hình kèm nguồn, không bằng hình.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    30
+   ]
   },
   {
    "scene_id": "L21",
    "segment_ids": [
-    31
+    41
    ],
    "scene_type": "small_group",
    "expected_people": 14,
@@ -2432,13 +2527,17 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Không dùng xiềng xích, roi, bạo lực (kịch bản không nói).",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    31
+   ]
   },
   {
    "scene_id": "M3",
    "segment_ids": [
-    32,
-    33
+    42,
+    43,
+    44
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -2453,12 +2552,16 @@
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M3",
    "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
-   "motion_plan": "Bản đồ động: hai đoạn ~21 giây; hiện địa danh theo từng câu (đoạn 32: câu hỏi; đoạn 33: lập luận), không thêm ảnh."
+   "motion_plan": "Bản đồ động: hai đoạn ~21 giây; hiện địa danh theo từng câu (đoạn 32: câu hỏi; đoạn 33: lập luận), không thêm ảnh.",
+   "segment_ids_ban_cu": [
+    32,
+    33
+   ]
   },
   {
    "scene_id": "L22",
    "segment_ids": [
-    34
+    45
    ],
    "scene_type": "army",
    "expected_people": 12,
@@ -2555,12 +2658,15 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "\"Đạo quân lớn\" của kịch bản chỉ được gợi bằng 11 lính; không vẽ cờ.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    34
+   ]
   },
   {
    "scene_id": "M4",
    "segment_ids": [
-    35
+    46
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -2574,12 +2680,15 @@
    "map_status": "BLOCKED_NEEDS_REVIEW",
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M4",
-   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner."
+   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
+   "segment_ids_ban_cu": [
+    35
+   ]
   },
   {
    "scene_id": "L23",
    "segment_ids": [
-    36
+    47
    ],
    "scene_type": "army",
    "expected_people": 14,
@@ -2676,13 +2785,16 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    36
+   ]
   },
   {
    "scene_id": "L24",
    "segment_ids": [
-    37,
-    67
+    48,
+    88
    ],
    "scene_type": "small_group",
    "expected_people": 3,
@@ -2769,13 +2881,18 @@
      ]
     }
    ],
-   "thay_mat": false
+   "thay_mat": false,
+   "segment_ids_ban_cu": [
+    37,
+    67
+   ]
   },
   {
    "scene_id": "M5",
    "segment_ids": [
-    38,
-    39
+    49,
+    50,
+    51
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -2792,13 +2909,17 @@
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M5",
    "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
-   "motion_plan": "Bản đồ động ~18 giây: đoạn 38 hiện sông, đoạn 39 hiện Thăng Long và hướng tiến; không thêm ảnh."
+   "motion_plan": "Bản đồ động ~18 giây: đoạn 38 hiện sông, đoạn 39 hiện Thăng Long và hướng tiến; không thêm ảnh.",
+   "segment_ids_ban_cu": [
+    38,
+    39
+   ]
   },
   {
    "scene_id": "L25",
    "segment_ids": [
-    40,
-    66
+    52,
+    87
    ],
    "scene_type": "landscape",
    "expected_people": 10,
@@ -2918,14 +3039,19 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-003"
+   ],
+   "segment_ids_ban_cu": [
+    40,
+    66
    ]
   },
   {
    "scene_id": "L26",
    "segment_ids": [
-    41,
-    42,
-    43
+    53,
+    54,
+    55,
+    56
    ],
    "scene_type": "army",
    "expected_people": 13,
@@ -3056,12 +3182,17 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-003"
+   ],
+   "segment_ids_ban_cu": [
+    41,
+    42,
+    43
    ]
   },
   {
    "scene_id": "L27",
    "segment_ids": [
-    44
+    57
    ],
    "scene_type": "battlefield",
    "expected_people": 16,
@@ -3191,14 +3322,20 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-003"
+   ],
+   "segment_ids_ban_cu": [
+    44
    ]
   },
   {
    "scene_id": "L28",
    "segment_ids": [
-    45,
-    48,
-    68
+    58,
+    59,
+    62,
+    63,
+    89,
+    90
    ],
    "scene_type": "small_group",
    "expected_people": 5,
@@ -3302,13 +3439,18 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Đoạn 45 và 48 theo truyền thuyết. Không vẽ người đọc thơ hay thần linh. Đoạn 68 dùng lại để khép.",
-   "timing_note": "Dùng ba lần cách xa nhau."
+   "timing_note": "Dùng ba lần cách xa nhau.",
+   "segment_ids_ban_cu": [
+    45,
+    48,
+    68
+   ]
   },
   {
    "scene_id": "L29",
    "segment_ids": [
-    46,
-    47
+    60,
+    61
    ],
    "scene_type": "object_detail",
    "expected_people": 0,
@@ -3375,12 +3517,16 @@
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Bài thơ nên hiện bằng chữ trên màn hình (không vẽ chữ trong ảnh).",
    "timing_note": "Đoạn 46 và 47 liền nhau, khoảng 18 giây.",
-   "motion_plan": "Đoạn 46 và 47 (~18 giây): zoom rất chậm vào cửa đền, đèn dầu sáng dần. Một ảnh."
+   "motion_plan": "Đoạn 46 và 47 (~18 giây): zoom rất chậm vào cửa đền, đèn dầu sáng dần. Một ảnh.",
+   "segment_ids_ban_cu": [
+    46,
+    47
+   ]
   },
   {
    "scene_id": "L30",
    "segment_ids": [
-    49
+    64
    ],
    "scene_type": "small_group",
    "expected_people": 8,
@@ -3467,12 +3613,15 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Bệnh tật thể hiện bằng dáng ngồi, không vẽ thi thể hay người hấp hối.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    49
+   ]
   },
   {
    "scene_id": "L31",
    "segment_ids": [
-    52
+    68
    ],
    "scene_type": "army",
    "expected_people": 12,
@@ -3541,14 +3690,17 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "Đoạn 52 nói Quảng Nguyên rơi vào tay nhà Tống: dùng bản đồ M6.",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    52
+   ]
   },
   {
    "scene_id": "M6",
    "segment_ids": [
-    53,
-    57,
-    59
+    69,
+    75,
+    77
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -3565,14 +3717,21 @@
    "map_status": "BLOCKED_NEEDS_REVIEW",
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M6",
-   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner."
+   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
+   "segment_ids_ban_cu": [
+    53,
+    57,
+    59
+   ]
   },
   {
    "scene_id": "L32",
    "segment_ids": [
-    54,
-    55,
-    56
+    70,
+    71,
+    72,
+    73,
+    74
    ],
    "scene_type": "small_group",
    "expected_people": 6,
@@ -3721,12 +3880,17 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-004"
+   ],
+   "segment_ids_ban_cu": [
+    54,
+    55,
+    56
    ]
   },
   {
    "scene_id": "L33",
    "segment_ids": [
-    58
+    76
    ],
    "scene_type": "small_group",
    "expected_people": 14,
@@ -3839,7 +4003,7 @@
      "tag": "artistic_choice",
      "evidence_level": "C",
      "reason": "tạo hình binh lính được trao trả không có trong Bible; đoạn 58 chỉ nói \"dân và binh lính\"",
-     "owner_approved": false,
+     "owner_approved": true,
      "id": "AC22",
      "approval_scope": "visual_only",
      "noi_luu_de_xuat": "period_bible",
@@ -3847,7 +4011,9 @@
      "decision_mode": "OWNER_APPROVAL",
      "tinh_chat": "quy_uoc_hinh_anh",
      "la_du_kien_lich_su": false,
-     "quyet_dinh": null
+     "quyet_dinh": null,
+     "approved_by": "chủ kênh",
+     "approved_date": "2026-11-01"
     }
    ],
    "image_prompt": "Wide shot: eight Song civilians walk north in two loose lines of four along a dirt road, followed by four unarmed Song soldiers in a single line, accompanied by two Vietnamese soldiers walking at the rear. Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors. bare heads with black hair tied in a topknot. some barefoot, some in simple straw sandals. wooden spears with iron tips. Dirt road across open land. The four Song soldiers wear coarse plain tunics and wide-brimmed felt hats and carry nothing in their hands. Only the two Vietnamese soldiers carry the spears. Everyone walks in the same direction, north. Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items. Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
@@ -3865,12 +4031,15 @@
    "reference_images": [],
    "plan_status": "PLAN_OWNER_REVIEW",
    "ghi_chu": "",
-   "timing_note": ""
+   "timing_note": "",
+   "segment_ids_ban_cu": [
+    58
+   ]
   },
   {
    "scene_id": "M7",
    "segment_ids": [
-    61
+    79
    ],
    "scene_type": "map",
    "render": "vector_map",
@@ -3883,12 +4052,16 @@
    "map_status": "BLOCKED_NEEDS_REVIEW",
    "plan_status": "PLAN_OWNER_REVIEW",
    "reuse_group": "M7",
-   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner."
+   "ghi_chu": "Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.",
+   "segment_ids_ban_cu": [
+    61
+   ]
   },
   {
    "scene_id": "L34",
    "segment_ids": [
-    62
+    80,
+    81
    ],
    "scene_type": "army",
    "expected_people": 14,
@@ -4020,12 +4193,16 @@
      ]
     }
    ],
-   "thay_mat": false
+   "thay_mat": false,
+   "segment_ids_ban_cu": [
+    62
+   ]
   },
   {
    "scene_id": "L35",
    "segment_ids": [
-    64
+    84,
+    85
    ],
    "scene_type": "command_room",
    "expected_people": 0,
@@ -4118,6 +4295,9 @@
    ],
    "quyet_dinh_ap_dung": [
     "DQ-001"
+   ],
+   "segment_ids_ban_cu": [
+    64
    ]
   }
  ]

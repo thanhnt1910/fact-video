@@ -18,9 +18,10 @@
     1077
    ],
    "doan_kich_ban": [
-    14,
-    19,
-    21
+    18,
+    25,
+    26,
+    28
    ],
    "tuoi": {
     "gia_tri": null,
@@ -73,7 +74,13 @@
      "approval_scope": "visual_only",
      "la_du_kien_lich_su": false
     }
-   }
+   },
+   "doan_kich_ban_ban_cu": [
+    14,
+    19,
+    21
+   ],
+   "ghi_chu_doan": "Đoạn theo bản kịch bản tách 90 đoạn (lt1v4_tach_full.json); số cũ (bản 68 đoạn) ở doan_kich_ban_ban_cu."
   }
  ],
  "de_xuat_chua_duyet": {

@@ -1,5 +1,12 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, chủ kênh duyệt đề xuất tiếp (AC22, DQ-001 ngoại lệ, kịch bản 90 đoạn) và chấp nhận nguồn thứ cấp cho bản đồ
+- **AC22** (lính Tống được trao trả ở L33, không vũ khí) đã duyệt, vẫn C/visual_only. Còn lại không chi tiết nghệ thuật nào chưa duyệt.
+- **DQ-001** có ngoại lệ do chủ kênh duyệt riêng cho L04 và L35 (`canh_ngoai_pham_vi_duoc_duyet`); không mở rộng cho cảnh khác ngoài 1075–1077. Bộ kiểm `dq_hop_le` hỗ trợ trường này.
+- **Kịch bản 90 đoạn:** Scene Planner dùng `ke-hoach/thu-giong-hai/lt1v4_tach_full.json` (tách từ 68 đoạn, từ ngữ giữ nguyên; chỉ đổi dấu hai chấm/chấm phẩy thành phẩy và câu cuối do chủ kênh duyệt). Bản gốc `lt1v4_full.json` giữ nguyên. `segment_ids`, `segment_cuts`, hồ sơ nhân vật (`doan_kich_ban`), `co_so_kich_ban` của bản đồ đã chuyển sang số mới; số cũ lưu ở trường `*_ban_cu`. Bộ kiểm đọc kịch bản theo trường `script` của planner.
+- **Bản đồ:** chủ kênh chấp nhận nguồn thứ cấp; 9 mục VERIFIED kèm nguồn (chỉ phần đã ghi trong `xac_minh.pham_vi_xac_minh`), vẫn không tọa độ, không được vẽ; 7 bản đồ vẫn bị chặn vì còn mục NEEDS_REVIEW. Hai chỗ nguồn không khớp kịch bản (số quân, trình tự trả đất) ghi ở M2-07, M6-06.
+- Test 122/122; baseline đạt.
+
 ## 01/11/2026, chủ kênh duyệt năm mục (quy trình ảnh v1.3, DQ-001..005, râu S2, L33, danh sách bản đồ)
 - **Duyệt mục 5 của `quy-trinh-anh.md`:** nâng quy trình v1.2 → **v1.3 APPROVED**. Năm quy tắc QK-VOI, QK-BANDO, QK-DOAN, QK-GIULAU, QK-DUYET-NT chuyển PROPOSED → **APPROVED, chặn** (hết Cách B). QK-HOSO không thuộc mục 5 nên vẫn PROPOSED (cảnh báo). Retry, MANUAL_REVIEW, owner_unlock không đổi.
 - **Duyệt DQ-001..DQ-004** (APPROVED, vẫn C, `visual_only`, OWNER_APPROVAL, chưa AUTO) và **21 chi tiết AC01–AC21** (vẫn C, không thành dữ kiện lịch sử).

@@ -51,5 +51,13 @@ for x in d['items']:
                           ghi_chu='Chỉ là kết quả tra cứu; trang_thai giữ NEEDS_REVIEW, không tọa độ, không được vẽ, cho tới khi chủ kênh chấp nhận mức nguồn.')
 d['tra_nguon_tong_ket'] = dict(ngay='2026-11-01', nguon_dung=NG, han_che='Chỉ đọc được các trang tổng hợp thứ cấp; Đại Việt sử ký toàn thư, Tống sử, Tục tư trị thông giám trường biên CHƯA được đối chiếu. Trang về Quế Châu, Khâm, Liêm bị chặn trong phiên này.',
     thong_ke={k: sum(1 for x in d['items'] if x['tra_nguon']['muc_nguon'] == k) for k in sorted({x['tra_nguon']['muc_nguon'] for x in d['items']})})
+# Chủ kênh chấp nhận nguồn thứ cấp (01/11/2026): mục mức 'mot_phan_thu_cap' -> VERIFIED, chỉ cho phần đã nêu trong ket_qua. KHÔNG tọa độ, KHÔNG duoc_ve (nguồn không cho tọa độ).
+for x in d['items']:
+    t = x['tra_nguon']
+    if t['muc_nguon'] == 'mot_phan_thu_cap':
+        x['trang_thai'] = 'VERIFIED'
+        x['nguon_xac_minh'] = [dict(ma=k['ma'], ten=k['ten'], url=k['url'], loai=k['loai']) for k in t['nguon']]
+        x['xac_minh'] = dict(nguoi_chap_nhan='chủ kênh', ngay='2026-11-01', muc_nguon='thứ cấp, chưa đối chiếu sử liệu gốc', pham_vi_xac_minh=t['ket_qua'])
+d['tra_nguon_tong_ket']['chap_nhan'] = 'Chủ kênh chấp nhận nguồn thứ cấp 01/11/2026: các mục mức mot_phan_thu_cap đã VERIFIED (chỉ phần đã ghi), vẫn chưa tọa độ và chưa được vẽ.'
 json.dump(d, open(P, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(d['tra_nguon_tong_ket']['thong_ke'])

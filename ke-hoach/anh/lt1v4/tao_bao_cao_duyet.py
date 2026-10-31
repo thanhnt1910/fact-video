@@ -51,9 +51,10 @@ for g in range(1, 69):
 R_ += ['', '## Nhân vật có tên: hồ sơ, giai đoạn, thấy mặt', '', '| Cảnh | Hồ sơ / giai đoạn | Thấy mặt | Cần quyết râu trước khi vẽ |', '|---|---|---|---|']
 for s_ in img:
     if s_.get('ho_so_nhan_vat'): R_.append(f'| {s_["scene_id"]} | ' + '; '.join(f'{h["ma"]} {",".join(h["giai_doan"])}' for h in s_['ho_so_nhan_vat']) + f' | {"có" if s_["thay_mat"] else "không (nhìn từ phía sau)"} | {"CÓ (râu UNDECIDED)" if s_["thay_mat"] else "chưa cần"} |')
-R_ += ['', '## Đoạn 66 (hai cảnh L03 rồi L25)', '']
-for c in P['segment_cuts']['66']: R_.append(f'{c["thu_tu"]}. **{c["scene"]}** — "{c["cau"]}" ({c["so_chu"]} chữ, {c["thoi_gian_uoc_tinh"]}). {c["ly_do"]}.')
-R_ += ['', 'Chủ ý dùng hai cảnh: đoạn 66 gồm hai câu có hai ý đối nhau (vượt biên giới đánh trước / dựng phòng tuyến giữ sông), mỗi câu khoảng 4–5 giây. Cắt đúng ở dấu chấm sau "đất địch", không đổi lời đọc. Phương án khác: dùng L25 cho cả đoạn (bỏ L03 ở đoạn này), nhưng khi đó câu đầu hiện cảnh bờ sông không khớp lời. Em đề xuất giữ hai cảnh.', '',
+_K = next(iter(P['segment_cuts']))
+R_ += ['', f'## Đoạn {_K} của bản tách 90 đoạn (đoạn 66 của bản 68 đoạn; hai cảnh L03 rồi L25)', '']
+for c in P['segment_cuts'][_K]: R_.append(f'{c["thu_tu"]}. **{c["scene"]}** — "{c["cau"]}" ({c["so_chu"]} chữ, {c["thoi_gian_uoc_tinh"]}). {c["ly_do"]}.')
+R_ += ['', 'Chủ ý dùng hai cảnh: đoạn này gồm hai câu có hai ý đối nhau (vượt biên giới đánh trước / dựng phòng tuyến giữ sông), mỗi câu khoảng 4–5 giây. Cắt đúng ở dấu chấm sau "đất địch", không đổi lời đọc. Phương án khác: dùng L25 cho cả đoạn (bỏ L03 ở đoạn này), nhưng khi đó câu đầu hiện cảnh bờ sông không khớp lời. Em đề xuất giữ hai cảnh.', '',
        '## Ảnh/bản đồ giữ lâu (từ 18 giây) và cách xử lý', '', '| Cảnh | Đoạn | Giữ (giây) | Xử lý |', '|---|---|---|---|']
 for k, gs in runs:
     sec = sum(W(g) for g in gs) / 3

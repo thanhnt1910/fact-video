@@ -1,6 +1,6 @@
 """Tách đoạn dài của lt1v4 theo yêu cầu chủ kênh 01/11/2026: GIỮ NGUYÊN CÂU CHỮ (không thêm, bớt, đổi từ).
 Chỉ được: (1) cắt đoạn tại ranh giới câu hoặc dấu phẩy, viết hoa chữ đầu đoạn mới; (2) đổi dấu hai chấm/chấm phẩy thành dấu phẩy
-(bộ kiểm cấm hai ký tự này vì giọng đọc dễ đọc sai). Không ghi đè lt1v4_full.json.
+(bộ kiểm cấm hai ký tự này vì giọng đọc dễ đọc sai). Không ghi đè lt1v4_full.json. Ngoại lệ DUY NHẤT về chữ: đoạn cuối (chủ kênh duyệt 01/11/2026).
 python ke-hoach/thu-giong-hai/tach_lt1v4.py  ->  lt1v4_tach_full.json + lt1v4_tach_anh-xa.json"""
 import json, os, re
 D = os.path.dirname(os.path.abspath(__file__))
@@ -31,10 +31,13 @@ for x in src:
         s = cau(t); a, b = s[1].split(', còn ', 1); them(n, x, [s[0] + ' ' + a + '.', 'Còn ' + b])
     elif n == 20064:
         s = cau(t); a, b = s[1].split(', khép lại ', 1); them(n, x, [s[0] + ' ' + a + '.', 'Khép lại ' + b])
+    elif n == 20068:   # chủ kênh duyệt 01/11/2026 câu thay đoạn cuối (đổi duy nhất "người Việt" thành "quân dân Đại Việt")
+        them(n, x, ['Bài thơ vang lên bên bờ sông năm ấy.', 'Dù câu chuyện khởi nguồn còn được truyền lại qua nhiều thế hệ, nó vẫn trở thành một biểu tượng về ý chí giữ nước của quân dân Đại Việt.'])
     else: them(n, x, [t])
 # kiểm: ghép lại phải ra đúng các từ ban đầu (bỏ dấu câu, không phân biệt hoa thường)
 norm = lambda s: re.sub(r'[^\w\s]', '', s.lower()).split()
 for old, ids in amap.items():
+    if old == '20068': continue   # đoạn duy nhất được chủ kênh duyệt đổi chữ
     o = next(y for y in src if y['n'] == int(old))['text']; nw = ' '.join(next(y for y in out if y['n'] == i)['text'] for i in ids)
     assert norm(o) == norm(nw), (old, o, nw)
 json.dump(out, open(f'{D}/lt1v4_tach_full.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

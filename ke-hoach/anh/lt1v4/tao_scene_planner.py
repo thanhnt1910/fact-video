@@ -237,7 +237,7 @@ for x in sc:
         if nl == 'registry' and ref not in dqs: dqs.append(ref)
     if dqs: x['quyet_dinh_ap_dung'] = dqs
 # --- Chủ kênh duyệt 01/11/2026: 21 chi tiết AC01..AC21 + AC23, AC24 (râu, DQ-005); AC22 (lính Tống được trao trả) CHƯA duyệt
-DA_DUYET = {f'AC{i:02d}' for i in range(1, 22)} | {'AC23', 'AC24'}
+DA_DUYET = {f'AC{i:02d}' for i in range(1, 22)} | {'AC22', 'AC23', 'AC24'}   # AC22 (lính Tống được trao trả) duyệt tiếp 01/11/2026
 for x in sc:
     for f in x.get('free_text_details', []):
         if f['id'] in DA_DUYET: f.update(owner_approved=True, approved_by='chủ kênh', approved_date='2026-11-01')
@@ -248,12 +248,18 @@ for x in sc:
     if x['scene_id'] in HO_SO:
         hs, tm = HO_SO[x['scene_id']]
         x['ho_so_nhan_vat'] = [dict(ma=m, giai_doan=g) for m, g in hs]; x['thay_mat'] = tm
-# --- kiểm bao phủ 68 đoạn
+# --- Chuyển số đoạn sang bản kịch bản đã tách (90 đoạn, chủ kênh duyệt 01/11/2026). segment_ids và segment_cuts theo bản mới.
+# Số đoạn nhắc trong ghi_chu, timing_note, motion_plan, map_note vẫn theo bản 68 đoạn cũ (xem ke-hoach/thu-giong-hai/lt1v4_tach_anh-xa.json).
+AX = json.load(open(f'{R}/ke-hoach/thu-giong-hai/lt1v4_tach_anh-xa.json', encoding='utf-8'))['vi_tri_cu_sang_moi']
+N_MOI = max(m for v in AX.values() for m in v)
+for x in sc: x['segment_ids_ban_cu'] = list(x['segment_ids']); x['segment_ids'] = sorted({m for g in x['segment_ids'] for m in AX[str(g)]})
+CUTS = {str(AX[k][0]): v for k, v in CUTS.items()}
+# --- kiểm bao phủ toàn bộ đoạn
 cov = {}
 for s in sc:
     for g in s['segment_ids']: cov.setdefault(g, []).append(s['scene_id'])
-miss = [i for i in range(1, 69) if i not in cov]
+miss = [i for i in range(1, N_MOI + 1) if i not in cov]
 assert not miss, f'đoạn chưa có cảnh: {miss}'
 for x in sc: x['plan_status'] = 'PLAN_OWNER_REVIEW'   # đã qua bộ kiểm, đang chờ chủ kênh duyệt (không tự chuyển PLAN_APPROVED)
-json.dump(dict(project='lt1v4', plan_version='2', plan_status='PLAN_OWNER_REVIEW', bible_versions=dict(CUR), script='ke-hoach/thu-giong-hai/lt1v4_full.json', segment_cuts=CUTS, scenes=sc), open(f'{R}/ke-hoach/anh/lt1v4/scene-planner.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(dict(project='lt1v4', plan_version='2', plan_status='PLAN_OWNER_REVIEW', bible_versions=dict(CUR), script='ke-hoach/thu-giong-hai/lt1v4_tach_full.json', script_goc='ke-hoach/thu-giong-hai/lt1v4_full.json', so_doan=N_MOI, ghi_chu_so_doan='segment_ids theo bản tách 90 đoạn; số đoạn trong ghi_chu/timing_note/motion_plan/map_note theo bản 68 đoạn cũ (xem segment_ids_ban_cu và lt1v4_tach_anh-xa.json)', segment_cuts=CUTS, scenes=sc), open(f'{R}/ke-hoach/anh/lt1v4/scene-planner.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(sc), 'cảnh,', sum(1 for s in sc if s.get('render') == 'vector_map'), 'bản đồ;', 'đoạn nhiều cảnh:', {k: v for k, v in cov.items() if len(v) > 1})

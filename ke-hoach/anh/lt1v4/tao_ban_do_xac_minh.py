@@ -48,6 +48,16 @@ add('M6', DG, 'Trình tự trả đất theo năm (một nghìn không trăm b�
 # --- M7
 add('M7', DL, 'Diễn Châu: vị trí', 61, 'vị trí châu thời Lý và tên nay')
 add('M7', DG, 'Lý Giác dấy binh năm một nghìn một trăm linh ba (sự kiện trong kịch bản)', 61, 'chỉ đặt nhãn sự kiện tại Diễn Châu nếu vị trí đã xác minh; không vẽ đường hành quân')
+# co_so_kich_ban theo số đoạn của bản tách 90 đoạn (chủ kênh duyệt 01/11/2026); số cũ giữ trong co_so_kich_ban_ban_cu
+import re as _re
+_AX = json.load(open(f'{D}/../../thu-giong-hai/lt1v4_tach_anh-xa.json', encoding='utf-8'))['vi_tri_cu_sang_moi']
+def _moi(t):
+    def r(m):
+        a_, b_ = int(m.group(1)), int(m.group(2) or m.group(1)); return f'{min(_AX[str(a_)])}-{max(_AX[str(b_)])}' if a_ != b_ or len(_AX[str(a_)]) > 1 else str(_AX[str(a_)][0])
+    return _re.sub(r'(\d+)(?:-(\d+))?', r, t)
+for _k in n.values():
+    for _x in _k:
+        if _x['co_so_kich_ban'] != '-': _x['co_so_kich_ban_ban_cu'] = _x['co_so_kich_ban']; _x['co_so_kich_ban'] = _moi(_x['co_so_kich_ban'])
 out = dict(project='lt1v4', quy_tac=['Không tự đặt tọa độ hay đường biên.', 'Không tạo bản đồ chỉ dựa trên suy đoán.', 'Ba loại thông tin tách riêng: DIA_LY (dữ kiện địa lý), DUONG_QUAN_SU (đường tiến quân/rút lui), DIEN_GIAI (diễn giải lịch sử).',
                                 'Mục chỉ được vẽ (duoc_ve=true) khi trang_thai=VERIFIED và có nguon_xac_minh; toa_do chỉ điền khi VERIFIED.', 'Cột co_so_kich_ban chỉ cho biết kịch bản nhắc tới điều gì, KHÔNG phải nguồn địa lý.'],
            chu_kenh_duyet_danh_sach=dict(trang_thai='APPROVED', nguoi_duyet='chủ kênh', ngay_duyet='2026-11-01',

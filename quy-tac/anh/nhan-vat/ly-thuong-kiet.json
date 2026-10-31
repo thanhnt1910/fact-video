@@ -18,7 +18,8 @@
     1069
    ],
    "doan_kich_ban": [
-    8
+    8,
+    9
    ],
    "tuoi": {
     "gia_tri": null,
@@ -72,7 +73,10 @@
      "la_du_kien_lich_su": false
     }
    },
-   "ghi_chu_doan": "Đoạn gắn theo nội dung kịch bản v4; mốc năm chưa đối chiếu nguồn ngoài kịch bản."
+   "ghi_chu_doan": "Đoạn theo bản kịch bản tách 90 đoạn (lt1v4_tach_full.json); số cũ (bản 68 đoạn) ở doan_kich_ban_ban_cu.",
+   "doan_kich_ban_ban_cu": [
+    8
+   ]
   },
   {
    "id": "S2",
@@ -82,13 +86,15 @@
     1077
    ],
    "doan_kich_ban": [
-    13,
-    14,
-    19,
-    21,
-    37,
-    50,
-    51
+    17,
+    18,
+    25,
+    26,
+    28,
+    48,
+    65,
+    66,
+    67
    ],
    "tuoi": {
     "gia_tri": null,
@@ -146,7 +152,16 @@
      "la_du_kien_lich_su": false
     }
    },
-   "ghi_chu_doan": "Đoạn gắn theo nội dung kịch bản v4; mốc năm chưa đối chiếu nguồn ngoài kịch bản."
+   "ghi_chu_doan": "Đoạn theo bản kịch bản tách 90 đoạn (lt1v4_tach_full.json); số cũ (bản 68 đoạn) ở doan_kich_ban_ban_cu.",
+   "doan_kich_ban_ban_cu": [
+    13,
+    14,
+    19,
+    21,
+    37,
+    50,
+    51
+   ]
   },
   {
    "id": "S3",
@@ -156,12 +171,14 @@
     1084
    ],
    "doan_kich_ban": [
-    54,
-    55,
-    56,
-    57,
-    58,
-    59
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77
    ],
    "tuoi": {
     "gia_tri": null,
@@ -215,7 +232,15 @@
      "la_du_kien_lich_su": false
     }
    },
-   "ghi_chu_doan": "Đoạn gắn theo nội dung kịch bản v4; mốc năm chưa đối chiếu nguồn ngoài kịch bản."
+   "ghi_chu_doan": "Đoạn theo bản kịch bản tách 90 đoạn (lt1v4_tach_full.json); số cũ (bản 68 đoạn) ở doan_kich_ban_ban_cu.",
+   "doan_kich_ban_ban_cu": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59
+   ]
   },
   {
    "id": "S4",
@@ -225,10 +250,13 @@
     1105
    ],
    "doan_kich_ban": [
-    61,
-    62,
-    63,
-    64
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
    ],
    "tuoi": {
     "gia_tri": null,
@@ -282,7 +310,13 @@
      "la_du_kien_lich_su": false
     }
    },
-   "ghi_chu_doan": "Đoạn gắn theo nội dung kịch bản v4; mốc năm chưa đối chiếu nguồn ngoài kịch bản."
+   "ghi_chu_doan": "Đoạn theo bản kịch bản tách 90 đoạn (lt1v4_tach_full.json); số cũ (bản 68 đoạn) ở doan_kich_ban_ban_cu.",
+   "doan_kich_ban_ban_cu": [
+    61,
+    62,
+    63,
+    64
+   ]
   }
  ],
  "ung_vien_chua_duyet": [

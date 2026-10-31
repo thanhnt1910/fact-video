@@ -12,7 +12,7 @@
    "segment_ids": [
     4,
     5,
-    60
+    78
    ],
    "item": "bản đồ cuộn không chữ",
    "tag": "artistic_choice",
@@ -37,7 +37,7 @@
    "segment_ids": [
     4,
     5,
-    60
+    78
    ],
    "item": "râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm \"grey beard\" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt",
    "tag": "artistic_choice",
@@ -129,7 +129,8 @@
    "id": "AC05",
    "scene_id": "L09",
    "segment_ids": [
-    10
+    12,
+    13
    ],
    "item": "bàn gỗ, giấy cuộn, nghiên mực và bút lông",
    "tag": "artistic_choice",
@@ -152,9 +153,10 @@
    "id": "AC06",
    "scene_id": "L10",
    "segment_ids": [
-    12,
-    22,
-    23
+    16,
+    29,
+    30,
+    31
    ],
    "item": "thân thuyền gỗ đang đóng trên giá đỡ",
    "tag": "artistic_choice",
@@ -177,9 +179,10 @@
    "id": "AC07",
    "scene_id": "L11",
    "segment_ids": [
-    13,
-    50,
-    51
+    17,
+    65,
+    66,
+    67
    ],
    "item": "bản đồ cuộn không chữ",
    "tag": "artistic_choice",
@@ -202,9 +205,10 @@
    "id": "AC24",
    "scene_id": "L11",
    "segment_ids": [
-    13,
-    50,
-    51
+    17,
+    65,
+    66,
+    67
    ],
    "item": "râu Lý Thường Kiệt giai đoạn S2: đen pha bạc (râu đen có điểm bạc); thay cụm \"grey beard\" của khối VN_TUONG_LY_THUONG_KIET, khối này không dùng cho cảnh thấy mặt",
    "tag": "artistic_choice",
@@ -227,7 +231,7 @@
    "id": "AC08",
    "scene_id": "L12",
    "segment_ids": [
-    14
+    18
    ],
    "item": "Tông Đản trẻ hơn Lý Thường Kiệt, râu đen ngắn",
    "tag": "artistic_choice",
@@ -250,8 +254,9 @@
    "id": "AC09",
    "scene_id": "L13",
    "segment_ids": [
-    15,
-    16
+    19,
+    20,
+    21
    ],
    "item": "nông dân Tống áo thô, đầu trần hoặc khăn quấn",
    "tag": "artistic_choice",
@@ -274,7 +279,7 @@
    "id": "AC10",
    "scene_id": "L14",
    "segment_ids": [
-    20
+    27
    ],
    "item": "thuyền gỗ lòng nông",
    "tag": "artistic_choice",
@@ -297,7 +302,7 @@
    "id": "AC11",
    "scene_id": "L19",
    "segment_ids": [
-    29
+    38
    ],
    "item": "sân đá trong thành, cửa gỗ khép hờ",
    "tag": "artistic_choice",
@@ -320,7 +325,7 @@
    "id": "AC12",
    "scene_id": "L21",
    "segment_ids": [
-    31
+    41
    ],
    "item": "dân Tống áo thô, đầu trần hoặc khăn quấn",
    "tag": "artistic_choice",
@@ -343,8 +348,8 @@
    "id": "AC13",
    "scene_id": "L25",
    "segment_ids": [
-    40,
-    66
+    52,
+    87
    ],
    "item": "lũy đất cắm cọc gỗ dọc bờ nam",
    "tag": "artistic_choice",
@@ -367,9 +372,10 @@
    "id": "AC14",
    "scene_id": "L26",
    "segment_ids": [
-    41,
-    42,
-    43
+    53,
+    54,
+    55,
+    56
    ],
    "item": "lũy đất cắm cọc gỗ dọc bờ nam",
    "tag": "artistic_choice",
@@ -392,7 +398,7 @@
    "id": "AC15",
    "scene_id": "L27",
    "segment_ids": [
-    44
+    57
    ],
    "item": "lũy đất cắm cọc gỗ dọc bờ nam",
    "tag": "artistic_choice",
@@ -415,9 +421,12 @@
    "id": "AC16",
    "scene_id": "L28",
    "segment_ids": [
-    45,
-    48,
-    68
+    58,
+    59,
+    62,
+    63,
+    89,
+    90
    ],
    "item": "đền nhỏ bên sông mái ngói xám, đèn dầu bên trong",
    "tag": "artistic_choice",
@@ -440,8 +449,8 @@
    "id": "AC17",
    "scene_id": "L29",
    "segment_ids": [
-    46,
-    47
+    60,
+    61
    ],
    "item": "cửa đền gỗ chạm khắc đơn giản, đèn dầu đất nung",
    "tag": "artistic_choice",
@@ -464,7 +473,7 @@
    "id": "AC18",
    "scene_id": "L30",
    "segment_ids": [
-    49
+    64
    ],
    "item": "lều vải đơn giản của quân Tống",
    "tag": "artistic_choice",
@@ -487,9 +496,11 @@
    "id": "AC19",
    "scene_id": "L32",
    "segment_ids": [
-    54,
-    55,
-    56
+    70,
+    71,
+    72,
+    73,
+    74
    ],
    "item": "giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau (câu mô tả đề xuất; khoi-prompt chưa có khối voi)",
    "tag": "artistic_choice",
@@ -512,7 +523,7 @@
    "id": "AC20",
    "scene_id": "L33",
    "segment_ids": [
-    58
+    76
    ],
    "item": "dân Tống được trao trả: áo thô, đầu trần hoặc khăn quấn",
    "tag": "artistic_choice",
@@ -535,7 +546,7 @@
    "id": "AC22",
    "scene_id": "L33",
    "segment_ids": [
-    58
+    76
    ],
    "item": "binh lính nhà Tống được trao trả: áo thô, mũ nỉ vành rộng, tay không (chủ kênh đồng ý vẽ binh lính; tạo hình tù binh/quân phục chưa có căn cứ)",
    "tag": "artistic_choice",
@@ -558,7 +569,8 @@
    "id": "AC21",
    "scene_id": "L35",
    "segment_ids": [
-    64
+    84,
+    85
    ],
    "item": "bản đồ cuộn không chữ",
    "tag": "artistic_choice",

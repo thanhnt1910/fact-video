@@ -34,10 +34,10 @@ Hạn chế: không thêm chi tiết nào ngoài bảng; hàng chưa duyệt kh�
 | Hàng | Hướng thể hiện | evidence_level | Phạm vi | Trạng thái | decision_mode | Chi tiết gốc |
 |---|---|---|---|---|---|---|
 | **Dân thường nhà Tống** (đã nêu ở mục C) | Áo thô, đầu trần hoặc khăn quấn | C | 1075–1077 | AC20 đã được chủ kênh duyệt 01/11/2026 (nhãn bỏ chú thích "không có binh lính") | OWNER_APPROVAL | AC20 |
-| **Binh lính nhà Tống được trao trả** | Áo thô, mũ nỉ vành rộng, tay không (không giáp, không vũ khí, không cờ); không thể hiện tù binh bằng xiềng hay trói | C `artistic_choice` | Bắc Tống, 1075–1077 | **CHƯA duyệt**: AC22 `owner_approved = false`; chủ kênh mới đồng ý vẽ binh lính, chưa duyệt tạo hình | OWNER_APPROVAL | AC22 (L33) |
+| **Binh lính nhà Tống được trao trả** | Áo thô, mũ nỉ vành rộng, tay không (không giáp, không vũ khí, không cờ); không thể hiện tù binh bằng xiềng hay trói | C `artistic_choice` | Bắc Tống, 1075–1077 | **Đã duyệt 01/11/2026** (AC22 `owner_approved = true`, chủ kênh duyệt đề xuất: áo thô, mũ nỉ vành rộng, tay không); vẫn C, chỉ về hình ảnh | OWNER_APPROVAL | AC22 (L33) |
 
 - Cảnh báo bằng chứng: tình trạng, trang phục và cách giải giao binh lính được trao trả KHÔNG có căn cứ trong Bible; chỉ là quy ước hình ảnh. Mũ nỉ vành rộng lấy từ khối `SONG_BO_BINH_NHE` (B) nhưng bỏ giáo và giáp vì cảnh trả về; việc bỏ này là lựa chọn C.
-- Cổng trước khi vẽ vẫn chặn L33 cho tới khi AC22 được duyệt.
+- Nguồn thứ cấp (Anderson 2008 qua Wikipedia) có nhắc việc trả tù binh năm 1082, nhưng không nói về trang phục hay tình trạng của họ; tạo hình vẫn là C.
 
 ## D. Cách xử lý khi dự án nằm ngoài phạm vi
 | Tình huống | Chế độ |

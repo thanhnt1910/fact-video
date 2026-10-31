@@ -195,3 +195,17 @@ Khi có xung đột giữa các tiêu chí, thứ tự ưu tiên là:
 5. Ngôn ngữ đẹp và thời lượng phù hợp.
 
 Không được hy sinh các tiêu chí phía trên để đạt các tiêu chí phía dưới.
+
+## Quy tắc về thời điểm xuất hiện của biến cố chính (chủ kênh bổ sung 31/10/2026)
+
+* Với những câu chuyện lịch sử có biến cố lớn (chiến tranh, xâm lược, đảo chính, sụp đổ triều đại...), cần đặt mục tiêu để biến cố chính xuất hiện trong khoảng 35–45% tổng thời lượng kịch bản.
+* Đây là mục tiêu tối ưu nhịp kể, không phải giới hạn cứng.
+* Tuyệt đối không được loại bỏ, làm sai lệch hoặc lược bỏ những sự kiện lịch sử quan trọng chỉ để đạt tỷ lệ này.
+* Phải giữ đầy đủ các sự kiện cần thiết để người xem hiểu bối cảnh, nguyên nhân, quá trình hình thành xung đột và hậu quả.
+* Nếu các sự kiện lịch sử quan trọng khiến biến cố chính xuất hiện muộn hơn 45%, hãy ưu tiên tính chính xác và logic lịch sử. Khi đó, cần tối ưu cách kể: loại bỏ câu lặp, rút gọn diễn giải, giảm thông tin phụ và kết hợp những đoạn có nội dung trùng nhau, nhưng không xóa mất sự kiện quan trọng.
+* Trước khi viết, phải xác định:
+   1. Những sự kiện lịch sử bắt buộc phải có.
+   2. Những sự kiện có thể rút gọn.
+   3. Những chi tiết phụ có thể loại bỏ.
+   4. Biến cố chính dự kiến xuất hiện ở phần trăm thời lượng nào.
+* Sau khi hoàn thành, phải báo cáo tỷ lệ thực tế và giải thích nếu vượt mục tiêu 35–45%.

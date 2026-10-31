@@ -66,7 +66,7 @@ Số liệu video Ngô Quyền (12 phút 57 giây, Facebook): 559 lượt xem, c
 - **Giây 0–3:** có hình hoặc cảnh gây tò mò và một dòng chữ lớn (video hay tự phát không tiếng). Câu đầu tiên tối đa 15 chữ, không ngày tháng, không tên nước hay tên người lạ. Mẫu tốt: cảnh người cha nhìn con bị treo trên sào (Đinh Bộ Lĩnh).
 - **Mở đầu tối đa 40 giây, không lộ đáp án.** Chỉ đặt câu hỏi, chưa nói cách giải (Ngô Quyền đã nói "thủy triều lên rồi sẽ rút" ngay đoạn 4 nên người xem thấy không cần xem tiếp). Không đặt câu giới thiệu nguồn hay lời rào đón ở đoạn đầu; nguồn để ở mô tả và bình luận ghim, hoặc một câu ngắn sau phút đầu.
 - **Nhân vật chính và xung đột chính xuất hiện trước 1 phút 30 giây.** Phần bối cảnh trước đó tối đa 2 phút, chỉ giữ điều người nghe cần để hiểu xung đột; mỗi chương dẫn nhập tối đa 4 tên riêng mới. Danh sách tên, chức quan, số quân thì rút gọn hoặc đưa vào bản đồ và chữ trên màn hình.
-- **Điểm hấp dẫn nhất (kế sách, trận đánh, bước ngoặt) phải bắt đầu trước 45% thời lượng video**, không để sau phút thứ 8 của video 13 phút.
+- **Điểm hấp dẫn nhất (kế sách, trận đánh, bước ngoặt) nên bắt đầu trước 45% thời lượng video (mục tiêu, không phải giới hạn cứng; xem mục "Quy tắc về thời điểm xuất hiện của biến cố chính")**, không để sau phút thứ 8 của video 13 phút.
 - **Mỗi 60–90 giây có một "móc" mới:** một câu hỏi, một bước ngoặt, một cảnh hay hình mới. Cuối mỗi chương nêu việc sắp xảy ra hoặc câu hỏi dẫn sang chương sau.
 - **Đổi giọng theo chương:** căng ở xung đột và trận đánh, trầm ở mất mát, sáng ở thắng lợi; không để cả video một tone (video Ngô Quyền cả 119 đoạn đều tone "calm").
 - **Ảnh bìa:** một người hoặc một cảnh cụ thể, tối đa 4 chữ lớn, có logo kênh. Câu trên ảnh bìa là câu hỏi hoặc điều gây tò mò, không đặt tên chương.
@@ -138,7 +138,7 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - **Kết:** kết bằng kết quả thực tế; giải đáp câu hỏi hook; nêu hậu quả hoặc ý nghĩa lịch sử nếu phù hợp (đặt ở đoạn trước câu cuối); không áp một nguyên nhân duy nhất cho sự kiện nhiều nguyên nhân; không bài học đạo đức sáo rỗng; câu cuối có sức nặng, tạo dư âm; lời cảm ơn ngắn, không làm mất cảm xúc. Vẫn theo mục "Câu kết cuối video" (một câu tóm gọn + một câu cảm ơn, tối đa 32 chữ).
 
 ### 3. Giữ chân
-- Xung đột chính nên xuất hiện trong khoảng 35–45% đầu video nếu cấu trúc lịch sử cho phép (không đảo trình tự lịch sử, không bỏ sự kiện cần thiết để làm được điều này; nếu không đạt thì ghi lý do trong "Ghi chú độ chắc").
+- Biến cố chính (chiến tranh, xâm lược, đảo chính, sụp đổ...) nên xuất hiện trong khoảng 35–45% thời lượng: đây là mục tiêu nhịp kể, không phải giới hạn cứng. Chi tiết và quy trình xem mục "Quy tắc về thời điểm xuất hiện của biến cố chính" ngay dưới.
 - Cao trào phải được chuẩn bị từ trước; sau biến cố lớn có diễn biến tiếp đủ hấp dẫn; đan xen hành động, quyết định, xung đột, hệ quả.
 - Không dùng câu hỏi tu từ liên tục; chỉ hỏi ở bước chuyển quan trọng; không câu chuyển tiếp máy móc kiểu "Vậy chuyện gì xảy ra tiếp theo?"; không tạo bí ẩn cho thông tin không cần thiết; không lặp thông tin chỉ để nhắc người xem.
 
@@ -165,3 +165,17 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 3. **Giữ chân:** hook có đủ hấp dẫn không? Xung đột chính xuất hiện đủ sớm chưa? Có đoạn nào chậm hoặc nhàm chán không? Cao trào có đủ sức nặng không? Kết thúc đã giải đáp hook chưa?
 4. **Lời kể:** có tự nhiên khi đọc thành tiếng không? Có câu quá dài hoặc khó hiểu không? Có lặp từ, lặp ý, lặp cấu trúc không? Có quá nhiều câu hỏi tu từ không? Có từ Hán Việt khó hiểu không?
 5. **Kỹ thuật:** số đoạn có đúng định dạng không? Số chữ mỗi đoạn có hợp lý không? Tổng thời lượng có đạt mục tiêu không? Các chương có phân bổ hợp lý không? Tên riêng có nhất quán không?
+
+## Quy tắc về thời điểm xuất hiện của biến cố chính (chủ kênh bổ sung 31/10/2026)
+
+* Với những câu chuyện lịch sử có biến cố lớn (chiến tranh, xâm lược, đảo chính, sụp đổ triều đại...), cần đặt mục tiêu để biến cố chính xuất hiện trong khoảng 35–45% tổng thời lượng kịch bản.
+* Đây là mục tiêu tối ưu nhịp kể, không phải giới hạn cứng.
+* Tuyệt đối không được loại bỏ, làm sai lệch hoặc lược bỏ những sự kiện lịch sử quan trọng chỉ để đạt tỷ lệ này.
+* Phải giữ đầy đủ các sự kiện cần thiết để người xem hiểu bối cảnh, nguyên nhân, quá trình hình thành xung đột và hậu quả.
+* Nếu các sự kiện lịch sử quan trọng khiến biến cố chính xuất hiện muộn hơn 45%, hãy ưu tiên tính chính xác và logic lịch sử. Khi đó, cần tối ưu cách kể: loại bỏ câu lặp, rút gọn diễn giải, giảm thông tin phụ và kết hợp những đoạn có nội dung trùng nhau, nhưng không xóa mất sự kiện quan trọng.
+* Trước khi viết, phải xác định:
+   1. Những sự kiện lịch sử bắt buộc phải có.
+   2. Những sự kiện có thể rút gọn.
+   3. Những chi tiết phụ có thể loại bỏ.
+   4. Biến cố chính dự kiến xuất hiện ở phần trăm thời lượng nào.
+* Sau khi hoàn thành, phải báo cáo tỷ lệ thực tế và giải thích nếu vượt mục tiêu 35–45%.

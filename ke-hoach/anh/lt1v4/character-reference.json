@@ -556,13 +556,21 @@
    "risk": "Medium",
    "seed": 12,
    "ghi_chu": "Phương án so sánh màu râu: râu đen. Giữ khung hình và hạt giống như CR-LTK-2 (B1, B2) hoặc hạt giống khác (B3, B4).",
-   "image_status": "CANDIDATE_NOT_DRAWN",
+   "image_status": "CANDIDATE_REVIEW",
    "chi_tiet_rau": {
     "mau": "đen",
     "tag": "artistic_choice",
     "evidence_level": "C",
     "la_du_kien_lich_su": false,
     "ghi_chu": "Màu râu Lý Thường Kiệt chưa có tư liệu kiểm chứng cho 1075–1077; không coi là đặc điểm lịch sử."
+   },
+   "review_note": "Râu đen đầy, giữ khung, áo nâu ô-liu tối và vai da như CR-LTK-2. 1 người, giải phẫu ổn. Trông trẻ hơn (trung niên).",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-B1.jpg",
+   "duoc_dung_lam_tham_chieu": false,
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
    }
   },
   {
@@ -639,13 +647,21 @@
    "risk": "Medium",
    "seed": 12,
    "ghi_chu": "Phương án so sánh màu râu: râu đen pha bạc. Giữ khung hình và hạt giống như CR-LTK-2 (B1, B2) hoặc hạt giống khác (B3, B4).",
-   "image_status": "CANDIDATE_NOT_DRAWN",
+   "image_status": "CANDIDATE_REVIEW",
    "chi_tiet_rau": {
     "mau": "đen pha bạc",
     "tag": "artistic_choice",
     "evidence_level": "C",
     "la_du_kien_lich_su": false,
     "ghi_chu": "Màu râu Lý Thường Kiệt chưa có tư liệu kiểm chứng cho 1075–1077; không coi là đặc điểm lịch sử."
+   },
+   "review_note": "Râu đen pha bạc ở cằm, khung và trang phục gần như CR-LTK-2. 1 người, giải phẫu ổn. Ứng viên cân bằng nhất giữa hai hướng.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-B2.jpg",
+   "duoc_dung_lam_tham_chieu": false,
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
    }
   },
   {
@@ -722,13 +738,21 @@
    "risk": "Medium",
    "seed": 15,
    "ghi_chu": "Phương án so sánh màu râu: râu đen (hạt giống khác). Giữ khung hình và hạt giống như CR-LTK-2 (B1, B2) hoặc hạt giống khác (B3, B4).",
-   "image_status": "CANDIDATE_NOT_DRAWN",
+   "image_status": "CANDIDATE_REVIEW",
    "chi_tiet_rau": {
     "mau": "đen",
     "tag": "artistic_choice",
     "evidence_level": "C",
     "la_du_kien_lich_su": false,
     "ghi_chu": "Màu râu Lý Thường Kiệt chưa có tư liệu kiểm chứng cho 1075–1077; không coi là đặc điểm lịch sử."
+   },
+   "review_note": "Râu đen, hạt giống khác; áo xanh ô-liu nhạt hơn, nhìn như quân phục; khăn như mũ. Không giữ được trang phục của CR-LTK-2.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-B3.jpg",
+   "duoc_dung_lam_tham_chieu": false,
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
    }
   },
   {
@@ -805,13 +829,21 @@
    "risk": "Medium",
    "seed": 15,
    "ghi_chu": "Phương án so sánh màu râu: râu đen pha bạc (hạt giống khác). Giữ khung hình và hạt giống như CR-LTK-2 (B1, B2) hoặc hạt giống khác (B3, B4).",
-   "image_status": "CANDIDATE_NOT_DRAWN",
+   "image_status": "CANDIDATE_REVIEW",
    "chi_tiet_rau": {
     "mau": "đen pha bạc",
     "tag": "artistic_choice",
     "evidence_level": "C",
     "la_du_kien_lich_su": false,
     "ghi_chu": "Màu râu Lý Thường Kiệt chưa có tư liệu kiểm chứng cho 1075–1077; không coi là đặc điểm lịch sử."
+   },
+   "review_note": "Râu đen pha bạc, hạt giống khác; áo nâu tối giống CR-LTK-2 nhất trong nhóm hạt giống 15. 1 người, giải phẫu ổn.",
+   "image_file": "assets/anh_nhan_vat/lt1v4/CR-LTK-B4.jpg",
+   "duoc_dung_lam_tham_chieu": false,
+   "nguoi_dem_so_bo": {
+    "nguoi": 1,
+    "nguoi_dem": "Claude (sơ bộ, chủ kênh xác nhận)",
+    "ngay": "2026-11-01"
    }
   }
  ]

@@ -1,0 +1,382 @@
+{
+ "project": "lt1v4",
+ "quy_tac": [
+  "Chấp thuận chỉ có nghĩa chủ kênh đồng ý về mặt HÌNH ẢNH (visual_only).",
+  "evidence_level giữ nguyên C sau khi chấp thuận; không bao giờ thành dữ kiện lịch sử (A) hay phục dựng thận trọng (B).",
+  "Khi vẽ, không được viết chi tiết này như sự thật trong mô tả, bình luận hay lời đọc."
+ ],
+ "items": [
+  {
+   "id": "AC01",
+   "scene_id": "L04",
+   "segment_ids": [
+    4,
+    5,
+    60
+   ],
+   "item": "bản đồ cuộn không chữ",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "đạo cụ không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC02",
+   "scene_id": "L05",
+   "segment_ids": [
+    6
+   ],
+   "item": "người hầu trong cung mặc áo dài thô, đầu trần",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "trang phục người hầu không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC03",
+   "scene_id": "L06",
+   "segment_ids": [
+    7
+   ],
+   "item": "dân làng mặc áo thô, đầu trần hoặc khăn quấn",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "trang phục dân không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC04",
+   "scene_id": "L06",
+   "segment_ids": [
+    7
+   ],
+   "item": "quan ở độ tuổi trung niên",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "Bible chỉ mô tả Lý Thường Kiệt lớn tuổi, râu bạc",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC05",
+   "scene_id": "L09",
+   "segment_ids": [
+    10
+   ],
+   "item": "bàn gỗ, giấy cuộn, nghiên mực và bút lông",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "đạo cụ triều đình Tống không có trong Bible; không vẽ Vương An Thạch vì chưa có tạo hình quan văn Tống",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC06",
+   "scene_id": "L10",
+   "segment_ids": [
+    12,
+    22,
+    23
+   ],
+   "item": "thân thuyền gỗ đang đóng trên giá đỡ",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "chưa có tư liệu kiểu thuyền Tống ở Quế Châu",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC07",
+   "scene_id": "L11",
+   "segment_ids": [
+    13,
+    50,
+    51
+   ],
+   "item": "bản đồ cuộn không chữ",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "đạo cụ không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC08",
+   "scene_id": "L12",
+   "segment_ids": [
+    14
+   ],
+   "item": "Tông Đản trẻ hơn Lý Thường Kiệt, râu đen ngắn",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "không có tư liệu về diện mạo Tông Đản",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC09",
+   "scene_id": "L13",
+   "segment_ids": [
+    15,
+    16
+   ],
+   "item": "nông dân Tống áo thô, đầu trần hoặc khăn quấn",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "trang phục dân Tống không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC10",
+   "scene_id": "L14",
+   "segment_ids": [
+    20
+   ],
+   "item": "thuyền gỗ lòng nông",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "chưa có tư liệu kiểu thuyền chiến nhà Lý",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC11",
+   "scene_id": "L19",
+   "segment_ids": [
+    29
+   ],
+   "item": "sân đá trong thành, cửa gỗ khép hờ",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "không có tư liệu về bố cục bên trong thành Ung Châu",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC12",
+   "scene_id": "L21",
+   "segment_ids": [
+    31
+   ],
+   "item": "dân Tống áo thô, đầu trần hoặc khăn quấn",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "trang phục dân Tống không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC13",
+   "scene_id": "L25",
+   "segment_ids": [
+    40,
+    66
+   ],
+   "item": "lũy đất cắm cọc gỗ dọc bờ nam",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "kịch bản chỉ nói \"phòng tuyến kiên cố\"; kiểu lũy chưa có tư liệu đã kiểm",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC14",
+   "scene_id": "L26",
+   "segment_ids": [
+    41,
+    42,
+    43
+   ],
+   "item": "lũy đất cắm cọc gỗ dọc bờ nam",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "như cảnh L25",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC15",
+   "scene_id": "L27",
+   "segment_ids": [
+    44
+   ],
+   "item": "lũy đất cắm cọc gỗ dọc bờ nam",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "như cảnh L25",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC16",
+   "scene_id": "L28",
+   "segment_ids": [
+    45,
+    48,
+    68
+   ],
+   "item": "đền nhỏ bên sông mái ngói xám, đèn dầu bên trong",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "kiến trúc đền thờ Trương Hống, Trương Hát chưa có tư liệu hình dạng",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC17",
+   "scene_id": "L29",
+   "segment_ids": [
+    46,
+    47
+   ],
+   "item": "cửa đền gỗ chạm khắc đơn giản, đèn dầu đất nung",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "không có tư liệu hình dạng đền",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC18",
+   "scene_id": "L30",
+   "segment_ids": [
+    49
+   ],
+   "item": "lều vải đơn giản của quân Tống",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "không có tư liệu",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC19",
+   "scene_id": "L32",
+   "segment_ids": [
+    54,
+    55,
+    56
+   ],
+   "item": "giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau (câu mô tả đề xuất; khoi-prompt chưa có khối voi)",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "chưa có khối voi trong khoi-prompt.json; không thêm ngà vì chưa có căn cứ",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC20",
+   "scene_id": "L33",
+   "segment_ids": [
+    58
+   ],
+   "item": "dân và binh lính Tống được trả: áo thô, đầu trần hoặc khăn quấn",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "trang phục không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  },
+  {
+   "id": "AC21",
+   "scene_id": "L35",
+   "segment_ids": [
+    64
+   ],
+   "item": "bản đồ cuộn không chữ",
+   "tag": "artistic_choice",
+   "evidence_level": "C",
+   "reason": "đạo cụ không có trong Bible",
+   "approval_scope": "visual_only",
+   "owner_decision": "PENDING",
+   "owner_approved": false,
+   "approved_by": null,
+   "approved_date": null,
+   "evidence_level_after_approval": "C"
+  }
+ ]
+}

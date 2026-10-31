@@ -14,12 +14,12 @@ NHAN = {'VN_AO_VAI': 'quần áo lính vải thô', 'VN_GIAP': 'giáp sắt và 
         'THANH_SONG': 'thành Tống (tường đá xám, lầu cổng gỗ)', 'DOC_DAT': 'dốc đất đắp áp tường', 'VAC_DAT': 'vác đất bằng giỏ', 'DEN': 'đèn dầu đất nung trên bàn thấp',
         'NHA_DAN': 'nhà gỗ đơn giản, sàn chiếu', 'KIEN_TRUC_CUNG': 'cung điện gỗ mái ngói, đấu củng'}
 ANAT, STY = T('ANATOMY'), T('STYLE')
-G = lambda name, n, pos, role, fac, h=0: dict(name=name, count=n, position=pos, role=role, faction=fac, horses=h, mounted=h)
+G = lambda name, n, pos, role, fac, h=0, e=0: dict(name=name, count=n, position=pos, role=role, faction=fac, horses=h, mounted=h, elephants=e)
 FT = lambda item, tag, why: dict(item=item, tag=tag, evidence_level='B' if tag == 'cautious_reconstruction' else 'C', reason=why, owner_approved=False)
 C, B_ = 'artistic_choice', 'cautious_reconstruction'
 VNS = ['VN_AO_VAI', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI']
 sc = []
-def S(sid, segs, typ, groups, chars, pos, comp, cam, light, blocks, layout, dau=None, chan=None, scenery='', extra='', ft=(), risk='Medium', reuse=None, note='', ltk=False, animals=None, tim=''):
+def S(sid, segs, typ, groups, chars, pos, comp, cam, light, blocks, layout, dau=None, chan=None, scenery='', extra='', ft=(), risk='Medium', reuse=None, note='', ltk=False, elephants=0, pairs=None, tim=''):
     parts = [layout]
     for b in blocks:
         if b == 'VN_DAU': parts.append(dau)
@@ -32,14 +32,17 @@ def S(sid, segs, typ, groups, chars, pos, comp, cam, light, blocks, layout, dau=
     parts.append(STY)
     prompt = ' '.join(x.strip().rstrip('.') + '.' if not x.strip().endswith('.') else x.strip() for x in parts)
     tags = [dict(item=NHAN[b], block=b, tag=KP[b]['tag'], evidence_level=KP[b]['evidence_level'], who=(groups[0]['name'] if groups else ''), bible_ref=KP[b]['bible_ref']) for b in blocks if b in KP and KP[b]['tag'] != 'style_rule']
-    d = dict(scene_id=sid, segment_ids=segs, scene_type=typ, expected_people=people, expected_horses=0, expected_animals_other=animals or {}, main_characters=chars, positions=pos,
+    d = dict(scene_id=sid, segment_ids=segs, scene_type=typ, expected_people=people, expected_horses=0, expected_elephants=elephants, main_characters=chars, positions=pos,
              groups=groups, composition=comp, camera=cam, lighting=light, scenery=scenery, blocks_used=[b for b in blocks], detail_tags=tags, free_text_details=list(ft),
              image_prompt=prompt, prompt_sha256=hashlib.sha256(prompt.encode()).hexdigest(), prompt_version='p1', prompt_chars=len(prompt), bible_versions=dict(CUR),
-             needs_character_reference=ltk, risk=risk, reuse_group=reuse or sid, reference_images=[], plan_status='PLAN_CHECKED', ghi_chu=note, timing_note=tim)
+             needs_character_reference=ltk, **({'elephant_pairs': pairs} if pairs else {}), risk=risk, reuse_group=reuse or sid, reference_images=[], plan_status='PLAN_CHECKED', ghi_chu=note, timing_note=tim)
     sc.append(d)
+MAPD = json.load(open(f'{R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))['items']
 def M(sid, segs, note):
-    sc.append(dict(scene_id=sid, segment_ids=segs, scene_type='map', render='vector_map', map_note=note, plan_status='PLAN_CHECKED', reuse_group=sid,
-                   ghi_chu='Bản đồ làm bằng SVG/GeoJSON của kênh (Master Style: không dùng FLUX). Cần dữ liệu địa lý đã kiểm trước khi dựng; chưa chốt vị trí các địa danh.'))
+    its = [x['id'] for x in MAPD if x['map'] == sid]
+    sc.append(dict(scene_id=sid, segment_ids=segs, scene_type='map', render='vector_map', map_note=note, map_data_ref=f'ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json#{sid}', map_items=its,
+                   map_status='BLOCKED_NEEDS_REVIEW', plan_status='PLAN_CHECKED', reuse_group=sid,
+                   ghi_chu='Bản đồ SVG/GeoJSON của kênh (không dùng FLUX). KHÔNG dựng cho tới khi các mục dữ liệu địa lý liên quan được xác minh; không có tọa độ hay đường biên trong planner.'))
 NG = [G('(không có người)', 0, '-', '-', '-')]
 # ---------------- Mở đầu
 S('L01', [1, 26], 'fortress', [G('lính Tống trên đầu tường', 6, 'trung cảnh, rải đều trên đầu tường', 'canh giữ', 'song')], ['thành Ung Châu'], 'tường thành giữa khung; tiền cảnh là đồng bằng trống',
@@ -174,11 +177,13 @@ S('L31', [52], 'army', [G('lính Tống tiền cảnh', 3, 'tiền cảnh, từ 
   ['SONG_BO_BINH_NANG'], 'Wide shot from behind: twelve Song soldiers walk away north in a column along a road, three in the foreground and nine behind them, clearly spaced apart',
   scenery='Dirt road across low fields, grey late-afternoon light', risk='Medium', reuse='tong-rut', note='Đoạn 52 nói Quảng Nguyên rơi vào tay nhà Tống: dùng bản đồ M6.')
 M('M6', [53, 57, 59], 'Các châu Quảng Nguyên, Tư Lang, Tô Mậu (quân Tống giữ lại); Quảng Nguyên đổi tên Thuận Châu (1079); trại Vĩnh Bình và sáu huyện, ba động được trả (1084). Cần dữ liệu địa lý đã kiểm.')
-S('L32', [54, 55, 56], 'small_group', [G('sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)', 1, 'dẫn đầu đoàn', 'đi đầu', 'viet'), G('người dắt voi', 5, 'mỗi người cạnh một con voi', 'dắt voi', 'viet')],
-  ['Đào Tống Nguyên (không có chân dung)'], 'sứ giả đi đầu, năm con voi theo hàng một, mỗi con một người dắt', dict(fore='sứ giả', mid='5 con voi', back='đường đồng bằng'), 'wide shot từ bên cạnh', 'ánh sáng ban ngày',
-  ['VN_TUONG', 'VN_AO_VAI', 'VN_DAU', 'VN_CHAN'], 'Wide shot from the side: one Vietnamese envoy walks at the front of a procession along a dirt road, followed by exactly five elephants in single file, each led by one attendant on foot',
-  dau=DAU[1], chan=CHAN[1], extra='Each elephant has one head, one trunk, four legs and two tusks, clearly separated from the others', scenery='Dirt road across open land', animals={'voi': 5}, risk='High', reuse='su-bo-voi',
-  note='Master Style chỉ có quy tắc giải phẫu ngựa; voi chưa có khối giải phẫu được duyệt: câu giải phẫu voi trong prompt là đề xuất bổ sung, cần chủ kênh duyệt. Bộ kiểm chưa đếm voi.', tim='Ba đoạn liền nhau (54 đến 56), khoảng 30 giây: cần hiệu ứng chuyển động.')
+PR = [dict(handler=f'người dắt {k}', elephant=f'voi {k}', quan_he='đi bên cạnh đầu con voi này, một tay dắt') for k in range(1, 6)]
+S('L32', [54, 55, 56], 'small_group', [G('sứ giả Đại Việt (Đào Tống Nguyên, tạo hình nghệ thuật)', 1, 'dẫn đầu đoàn', 'đi đầu', 'viet'), G('người dắt voi (mỗi người một con)', 5, 'mỗi người cạnh đầu con voi của mình', 'dắt voi', 'viet', 0, 5)],
+  ['Đào Tống Nguyên (không có chân dung)'], 'sứ giả đi đầu, năm con voi theo hàng một, mỗi con một người dắt riêng', dict(fore='sứ giả', mid='5 con voi và 5 người dắt', back='đường đồng bằng'), 'wide shot từ bên cạnh', 'ánh sáng ban ngày',
+  ['VN_TUONG', 'VN_AO_VAI', 'VN_DAU', 'VN_CHAN'], 'Wide shot from the side: one Vietnamese envoy walks at the front of a procession along a dirt road, followed by EXACTLY five elephants in single file. Each elephant is led by one attendant on foot at its head: five attendants and five elephants in total, one attendant per elephant',
+  dau=DAU[1], chan=CHAN[1], extra='Each elephant has one head, one trunk and four legs, clearly separated from the others', scenery='Dirt road across open land', elephants=5, pairs=PR,
+  ft=[FT('giải phẫu voi: mỗi con một đầu, một vòi, bốn chân, tách rời nhau (câu mô tả đề xuất; khoi-prompt chưa có khối voi)', C, 'chưa có khối voi trong khoi-prompt.json; không thêm ngà vì chưa có căn cứ')],
+  risk='High', reuse='su-bo-voi', note='Chỉ theo dõi voi (expected_elephants); chưa mở rộng loài khác. Số voi trong ảnh phải được người đếm, ghi riêng ở dem_thu_cong.voi.', tim='Ba đoạn liền nhau (54 đến 56), khoảng 30 giây: xem motion_plan.')
 S('L33', [58], 'small_group', [G('người dân Tống được trả về', 10, 'giữa đường, hai hàng năm người', 'đi về phía bắc', 'dan'), G('lính Đại Việt đi cùng', 2, 'cuối hàng', 'hộ tống', 'viet')], ['người dân và binh lính được trao trả'], 'hai hàng dân đi về phía bắc, hai lính Đại Việt đi cuối', dict(fore='hàng dân', mid='đường đất', back='đồng bằng'), 'wide shot', 'ánh sáng ban ngày dịu',
   ['VN_AO_VAI', 'VN_DAU', 'VN_CHAN', 'VN_VU_KHI'], 'Wide shot: ten Song civilians walk north in two loose lines of five along a dirt road, accompanied by two Vietnamese soldiers walking at the rear',
   dau=DAU[0], chan=CHAN[0], scenery='Dirt road across open land', ft=[FT('dân và binh lính Tống được trả: áo thô, đầu trần hoặc khăn quấn', C, 'trang phục không có trong Bible')], risk='Medium', reuse='tra-nguoi')
@@ -189,11 +194,31 @@ S('L34', [62], 'army', [G('Lý Thường Kiệt (tạo hình nghệ thuật)', 1
 S('L35', [64], 'command_room', NG, ['sảnh vắng'], 'sảnh gỗ vắng lúc bình minh, bàn thấp có bản đồ cuộn và đèn dầu đang cháy, không người', dict(fore='bàn thấp', mid='bản đồ và đèn', back='cột gỗ'), 'medium shot', 'ánh sáng bình minh qua cửa, ấm yếu từ đèn dầu',
   ['DEN', 'NHA_DAN'], 'Medium shot of an empty plain timber hall at dawn: a low wooden table with a rolled map with no writing on it and a clay oil lamp burning, nobody in the hall',
   ft=[FT('bản đồ cuộn không chữ', C, 'đạo cụ không có trong Bible')], risk='Low', reuse='sanh-vang', note='Thay cho cảnh mất: không vẽ tang lễ hay mộ (kịch bản không nói, Bible không có).')
+MOTION = {
+ 'L04': 'Đoạn 4: zoom chậm vào bản đồ trên bàn (cắt cận bàn). Đoạn 5: pan nhẹ sang nhân vật khi tên Lý Thường Kiệt được nhắc. Một ảnh, ~19 giây.',
+ 'L13': 'Đoạn 15: khung rộng, zoom chậm vào nhóm gặt lúa phía trước. Đoạn 16: pan sang nhóm bó lúa phía sau. Một ảnh, ~20 giây.',
+ 'L08': 'Đoạn 17: khung rộng, zoom chậm vào lưng tướng. Đoạn 18: pan lên dãy núi phía bắc (cắt cận núi). Một ảnh, ~23 giây; dùng lại cho đoạn 9 thì đổi hướng pan.',
+ 'L10': 'Đoạn 22: khung rộng xưởng thuyền. Đoạn 23: zoom vào hai thân thuyền. Một ảnh, ~19 giây.',
+ 'L26': 'Ba đoạn ~29 giây. Đoạn 41: khung rộng từ lưng lính Tống. Đoạn 42: zoom chậm vào hàng lũy bờ nam. Đoạn 43: pan xuống mặt nước và lính Tống chuẩn bị lội. Một ảnh, ba lần cắt cận; nếu chủ kênh thấy đơn điệu thì đề xuất dùng L25 (cùng phòng tuyến) cho đoạn 43.',
+ 'L29': 'Đoạn 46 và 47 (~18 giây): zoom rất chậm vào cửa đền, đèn dầu sáng dần. Một ảnh.',
+ 'L11': 'Đoạn 50: khung ba phần tư. Đoạn 51: zoom vào bản đồ trên bàn. Một ảnh, ~19 giây.',
+ 'L32': 'Ba đoạn ~31 giây. Đoạn 54: khung rộng cả đoàn (đếm được năm voi). Đoạn 55: pan dọc theo hàng voi. Đoạn 56: zoom vào sứ giả đi đầu. Một ảnh, ba lần cắt cận. Chỉ thêm ảnh thứ hai (cận cảnh sứ giả) nếu cắt cận từ ảnh gốc bị mờ.',
+ 'M3': 'Bản đồ động: hai đoạn ~21 giây; hiện địa danh theo từng câu (đoạn 32: câu hỏi; đoạn 33: lập luận), không thêm ảnh.',
+ 'M5': 'Bản đồ động ~18 giây: đoạn 38 hiện sông, đoạn 39 hiện Thăng Long và hướng tiến; không thêm ảnh.'}
+for x in sc:
+    if x['scene_id'] in MOTION: x['motion_plan'] = MOTION[x['scene_id']]
+CUTS = {'66': [dict(thu_tu=1, scene='L03', cau='Một lần, ông đưa quân vượt biên giới, đánh vào đất địch.', tu_ngu_bat_dau='Một lần', so_chu=len('Một lần, ông đưa quân vượt biên giới, đánh vào đất địch.'.split()), thoi_gian_uoc_tinh='khoảng 0–4 giây của đoạn', ly_do='câu này nói về cuộc tiến quân sang đất Tống: cảnh quân Đại Việt hành quân lên phía bắc'),
+               dict(thu_tu=2, scene='L25', cau='Một lần khác, ông dựng phòng tuyến bên sông, bảo vệ từng tấc đất quê hương.', tu_ngu_bat_dau='Một lần khác', so_chu=len('Một lần khác, ông dựng phòng tuyến bên sông, bảo vệ từng tấc đất quê hương.'.split()), thoi_gian_uoc_tinh='khoảng 4–9 giây của đoạn', ly_do='câu này nói về phòng tuyến bên sông: cảnh lũy đất dọc bờ nam')]}
+n_ft = 0
+for x in sc:
+    for f in x.get('free_text_details', []):
+        n_ft += 1; f['id'] = f'AC{n_ft:02d}'; f['approval_scope'] = 'visual_only'
 # --- kiểm bao phủ 68 đoạn
 cov = {}
 for s in sc:
     for g in s['segment_ids']: cov.setdefault(g, []).append(s['scene_id'])
 miss = [i for i in range(1, 69) if i not in cov]
 assert not miss, f'đoạn chưa có cảnh: {miss}'
-json.dump(dict(project='lt1v4', plan_version='1', plan_status='PLAN_CHECKED', bible_versions=dict(CUR), script='ke-hoach/thu-giong-hai/lt1v4_full.json', scenes=sc), open(f'{R}/ke-hoach/anh/lt1v4/scene-planner.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+for x in sc: x['plan_status'] = 'PLAN_OWNER_REVIEW'   # đã qua bộ kiểm, đang chờ chủ kênh duyệt (không tự chuyển PLAN_APPROVED)
+json.dump(dict(project='lt1v4', plan_version='2', plan_status='PLAN_OWNER_REVIEW', bible_versions=dict(CUR), script='ke-hoach/thu-giong-hai/lt1v4_full.json', segment_cuts=CUTS, scenes=sc), open(f'{R}/ke-hoach/anh/lt1v4/scene-planner.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(sc), 'cảnh,', sum(1 for s in sc if s.get('render') == 'vector_map'), 'bản đồ;', 'đoạn nhiều cảnh:', {k: v for k, v in cov.items() if len(v) > 1})

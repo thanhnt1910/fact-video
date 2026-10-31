@@ -29,6 +29,25 @@ def kiem_canh(s):
             if k not in s: B(i, f'cảnh bản đồ thiếu trường {k}')
         if s.get('scene_type') != 'map': B(i, 'render=vector_map thì scene_type phải là map')
         if s.get('image_prompt'): B(i, 'cảnh bản đồ vector không được có image_prompt (không vẽ bằng FLUX)')
+        for k in ('toa_do', 'coordinates', 'bien_gioi', 'geojson'):
+            if k in s: B(i, f'cảnh bản đồ không được tự đặt {k} trong planner: dữ liệu địa lý chỉ nằm trong ban-do-can-xac-minh.json sau khi VERIFIED có nguồn')
+        ref = s.get('map_data_ref')
+        if not ref or not s.get('map_items'): B(i, 'cảnh bản đồ thiếu map_data_ref/map_items (danh sách dữ liệu địa lý cần xác minh)')
+        else:
+            mp = os.path.join(Q.R, ref.split('#')[0])
+            items = {x['id']: x for x in json.load(open(mp, encoding='utf-8'))['items']} if os.path.exists(mp) else {}
+            if not items: B(i, f'không đọc được {ref}')
+            for mid in s['map_items']:
+                x = items.get(mid)
+                if not x: B(i, f'map_items {mid} không có trong danh sách xác minh'); continue
+                if x['loai'] not in ('DIA_LY', 'DUONG_QUAN_SU', 'DIEN_GIAI'): B(mid, f'loai "{x["loai"]}" không hợp lệ (phải tách DIA_LY / DUONG_QUAN_SU / DIEN_GIAI)')
+                if x['trang_thai'] not in ('NEEDS_REVIEW', 'VERIFIED'): B(mid, f'trang_thai "{x["trang_thai"]}" không hợp lệ')
+                if (x.get('toa_do') is not None or x.get('duoc_ve')) and not (x['trang_thai'] == 'VERIFIED' and x.get('nguon_xac_minh')): B(mid, 'có toa_do hoặc duoc_ve nhưng chưa VERIFIED kèm nguon_xac_minh: không được tự đặt tọa độ hay vẽ')
+            nr = [m for m in s['map_items'] if m in items and items[m]['trang_thai'] != 'VERIFIED']
+            if nr:
+                if s.get('map_status') != 'BLOCKED_NEEDS_REVIEW': B(i, f'còn {len(nr)} mục NEEDS_REVIEW nhưng map_status không phải BLOCKED_NEEDS_REVIEW')
+                if s.get('plan_status') == 'PLAN_APPROVED': B(i, f'không thể PLAN_APPROVED: còn {len(nr)} mục địa lý NEEDS_REVIEW')
+                else: W(i, f'bản đồ bị chặn: {len(nr)} mục địa lý chưa xác minh (không dựng)')
         return
     miss = [k for k in BB if k not in s]
     for k in miss: B(i, f'thiếu trường {k}')
@@ -43,6 +62,8 @@ def kiem_canh(s):
         if miss: B(i, f'free_text_details thiếu {miss}: {f}'); continue
         if f['tag'] not in ('cautious_reconstruction', 'artistic_choice'): B(i, f'free_text_details "{f["item"]}" phải mang nhãn cautious_reconstruction hoặc artistic_choice')
         if f['tag'] == 'artistic_choice' and f['evidence_level'] != 'C' or f['tag'] == 'cautious_reconstruction' and f['evidence_level'] != 'B': B(i, f'free_text_details "{f["item"]}": nhãn và evidence_level không khớp')
+        if f['tag'] == 'artistic_choice' and f.get('approval_scope', 'visual_only') != 'visual_only': B(i, f'free_text_details "{f["item"]}": chấp thuận lựa chọn nghệ thuật chỉ có phạm vi hình ảnh (visual_only), không thành dữ kiện lịch sử')
+        if f['owner_approved'] and not (f.get('approved_by') and f.get('approved_date')): B(i, f'free_text_details "{f["item"]}": owner_approved=true thiếu approved_by/approved_date')
         if not f['owner_approved']:
             (B if s.get('plan_status') == 'PLAN_APPROVED' else W)(i, f'chi tiết ngoài khối "{f["item"]}" ({f["tag"]}) chưa được chủ kênh duyệt')
     used = set(s['blocks_used'])
@@ -95,6 +116,25 @@ def kiem_canh(s):
             v = m.group(1); v = int(v) if v.isdigit() else SO.get(v.lower())
             if v != n: B(i, f'prompt ghi EXACTLY {m.group(1)} horses nhưng expected_horses={n}')
     elif re.search(r'horse|cavalry|mounted', p, re.I): B(i, 'expected_horses=0 nhưng prompt nhắc ngựa hoặc kỵ binh')
+    # --- voi: kiểm như người/ngựa, mỗi người dắt gắn đúng một con voi (chỉ voi, không mở rộng loài khác)
+    ne = s.get('expected_elephants', 0)
+    se = sum(x.get('elephants', 0) for x in (g if isinstance(g, list) else []))
+    if se != ne: B(i, f'tổng elephants các nhóm ({se}) khác expected_elephants ({ne})')
+    if 'expected_animals_other' in s: B(i, 'expected_animals_other không còn dùng: chỉ theo dõi voi (expected_elephants), chưa mở rộng loài khác')
+    if ne:
+        m = re.search(r'EXACTLY (\w+) elephants', p)
+        if not m: B(i, f'expected_elephants={ne} nhưng prompt không có "EXACTLY N elephants"')
+        else:
+            v = m.group(1); v = int(v) if v.isdigit() else SO.get(v.lower())
+            if v != ne: B(i, f'prompt ghi EXACTLY {m.group(1)} elephants nhưng expected_elephants={ne}')
+        pr = s.get('elephant_pairs')
+        if not isinstance(pr, list) or len(pr) != ne: B(i, f'elephant_pairs phải có {ne} cặp (người dắt – voi)')
+        else:
+            hs, es = [q.get('handler') for q in pr], [q.get('elephant') for q in pr]
+            if None in hs or None in es or len(set(hs)) != ne or len(set(es)) != ne: B(i, 'elephant_pairs: mỗi người dắt và mỗi con voi chỉ xuất hiện đúng một lần, không để trống')
+            if ne > s['expected_people']: B(i, f'có {ne} voi nhưng chỉ {s["expected_people"]} người: không đủ người dắt')
+        if not re.search(r'one (?:attendant|handler|man)[^.]*each|each[^.]*one (?:attendant|handler|man)', p, re.I): W(i, 'prompt chưa nói rõ mỗi voi một người dắt')
+    elif re.search(r'elephant', p, re.I): B(i, 'expected_elephants=0 nhưng prompt nhắc voi')
     # --- ảnh tham chiếu: chỉ ảnh được chủ kênh duyệt và còn hợp lệ
     if len(s['reference_images']) > 2: B(i, 'quá 2 ảnh tham chiếu')
     for r in s['reference_images']:
@@ -120,12 +160,15 @@ def kiem_anh(recs, planner):
         if r['status'] in ('PASS', 'REVIEW', 'REGENERATE', 'MANUAL_REVIEW'):
             if not d or any(k not in d for k in ('nguoi', 'ngua', 'nguoi_dem', 'ngay')): B(i, 'thiếu dem_thu_cong {nguoi, ngua, nguoi_dem, ngay}: số thực tế phải ghi riêng')
             if not kh or any(k not in kh for k in ('nguoi', 'ngua')): B(i, 'thiếu ke_hoach {nguoi, ngua}: bản chụp số lượng dự kiến tại lúc vẽ')
+            cv = r['scene_id'] in plan and plan[r['scene_id']].get('expected_elephants', 0) > 0 or (kh or {}).get('voi', 0) > 0
+            if cv and (not d or 'voi' not in d or not kh or 'voi' not in kh): B(i, 'cảnh có voi: thiếu "voi" trong dem_thu_cong (số thực tế) hoặc ke_hoach (số dự kiến)')
         if d and kh:
             if d is kh or (d.get('nguoi') == kh.get('nguoi') and d.get('ngua') == kh.get('ngua') and not d.get('nguoi_dem')): B(i, 'dem_thu_cong trùng ke_hoach và không có người đếm: nghi ghi đè số dự kiến')
+            if r['status'] == 'PASS' and d.get('voi', 0) != kh.get('voi', 0): B(i, f'PASS nhưng số voi thực tế ({d.get("voi", 0)}) khác dự kiến ({kh.get("voi", 0)})')
             if r['status'] == 'PASS' and (d['nguoi'] != kh['nguoi'] or d['ngua'] != kh['ngua']): B(i, f'PASS nhưng số thực tế (người {d["nguoi"]}, ngựa {d["ngua"]}) khác dự kiến (người {kh["nguoi"]}, ngựa {kh["ngua"]})')
         if r['scene_id'] in plan and kh:
             s = plan[r['scene_id']]
-            if (kh['nguoi'], kh['ngua']) != (s['expected_people'], s['expected_horses']): W(i, 'ke_hoach trong bản ghi khác expected_* hiện tại của planner (planner đã đổi sau khi vẽ?)')
+            if (kh['nguoi'], kh['ngua'], kh.get('voi', 0)) != (s['expected_people'], s['expected_horses'], s.get('expected_elephants', 0)): W(i, 'ke_hoach trong bản ghi khác expected_* hiện tại của planner (planner đã đổi sau khi vẽ?)')
         for ref in r.get('reference_images', []) or []:
             ok, why = Q.tham_chieu_hop_le(ma, ref.get('image_id') if isinstance(ref, dict) else ref)
             if not ok: B(i, f'dùng ảnh tham chiếu không hợp lệ: {why}')
@@ -137,10 +180,42 @@ def kiem_anh(recs, planner):
         for a, b in zip(rs, rs[1:]):
             if a['status'] == 'MANUAL_REVIEW' and not (a.get('owner_unlock') or b.get('owner_unlock')): B(b['image_id'], 'vẽ tiếp sau MANUAL_REVIEW khi chưa có owner_unlock')
 
+def kiem_doan(sc, cuts):
+    """Đoạn dùng nhiều cảnh phải khai thứ tự và điểm cắt; cảnh giữ lâu phải có kế hoạch chuyển động."""
+    dp = os.path.join(Q.R, 'ke-hoach/thu-giong-hai/lt1v4_full.json')
+    txt = [x['text'] for x in json.load(open(dp, encoding='utf-8'))] if os.path.exists(dp) else []
+    m = {}
+    for s in sc:
+        for g in s['segment_ids']: m.setdefault(g, []).append(s['scene_id'])
+    for g, ids in sorted(m.items()):
+        if len(ids) < 2: continue
+        c = cuts.get(str(g))
+        if not c: B(f'đoạn {g}', f'dùng {len(ids)} cảnh {ids} nhưng thiếu segment_cuts (thứ tự và điểm cắt trong lời đọc)'); continue
+        if [x['scene'] for x in sorted(c, key=lambda x: x['thu_tu'])] != ids and set(x['scene'] for x in c) != set(ids): B(f'đoạn {g}', 'segment_cuts không khớp danh sách cảnh')
+        if txt:
+            t = txt[g - 1]; pos = [t.find(x['cau']) for x in sorted(c, key=lambda x: x['thu_tu'])]
+            if any(p < 0 for p in pos) or pos != sorted(pos): B(f'đoạn {g}', 'câu cắt trong segment_cuts không có trong lời đọc hoặc sai thứ tự (kịch bản không được đổi)')
+    for g in range(1, 69):
+        if g not in m: B(f'đoạn {g}', 'chưa có cảnh nào')
+    if txt:
+        run = []
+        for g in range(1, 69):
+            k = tuple(m.get(g, []))
+            if run and run[-1][0] == k: run[-1][1].append(g)
+            else: run.append((k, [g]))
+        for k, gs in run:
+            sec = sum(len(txt[g - 1].split()) for g in gs) / 3
+            if sec >= 18:
+                for sid in k:
+                    cn = next(x for x in sc if x['scene_id'] == sid)
+                    if sec >= 20 and not cn.get('motion_plan') and len(k) == 1: B(sid, f'ảnh giữ {sec:.0f} giây (đoạn {gs[0]}–{gs[-1]}) nhưng chưa có motion_plan')
+                    elif not cn.get('motion_plan') and len(k) == 1: W(sid, f'ảnh giữ {sec:.0f} giây (đoạn {gs[0]}–{gs[-1]}): nên có motion_plan')
+
 if __name__ == '__main__':
     d = json.load(open(fp, encoding='utf-8')) if os.path.exists(fp) else []
     sc = d['scenes'] if isinstance(d, dict) else d
     for s in sc: kiem_canh(s)
+    kiem_doan(sc, d.get('segment_cuts', {}) if isinstance(d, dict) else {})
     if os.path.exists(ap): kiem_anh(json.load(open(ap, encoding='utf-8'))['images'], sc)
     print(f'Phiên bản hiện hành: {CUR}; {len(sc)} cảnh')
     print('\n'.join(bad + warn)); print(f'{len(bad)} lỗi ❌, {len(warn)} cảnh báo ⚠️')

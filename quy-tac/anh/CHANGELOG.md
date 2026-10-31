@@ -1,5 +1,9 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, bổ sung theo yêu cầu chủ kênh sau khi xem Scene Planner (CHỜ DUYỆT, không đổi số phiên bản APPROVED)
+- `quy-trinh-anh.md`: thêm mục 5 (kiểm voi, dữ liệu bản đồ, `segment_cuts`, `motion_plan`, duyệt chi tiết nghệ thuật chỉ ở phạm vi hình ảnh).
+- `kiem_scene_planner.py`, `test_kiem_anh.py` (70 phép kiểm): voi, bản đồ, đoạn nhiều cảnh, cảnh giữ lâu, duyệt chi tiết nghệ thuật.
+
 ## 01/11/2026, DUYỆT (APPROVED) theo chỉ thị của chủ kênh sau kiểm cuối
 Điều kiện bắt buộc (5 phép kiểm, 44 trường hợp thử qua `python phim_ban_do/test_kiem_anh.py`) đều đạt.
 | Tài liệu | Phiên bản APPROVED | Ngày duyệt | Thay đổi so với bản chủ kênh đã xem |

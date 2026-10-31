@@ -103,4 +103,55 @@ code = "import sys,runpy,urllib.request as u; sys.argv=['cf_ve_lt1t2.py','19905'
 out = subprocess.run([sys.executable, '-c', code], cwd=Q.R, capture_output=True, text=True, timeout=60).stdout
 ok = 'bỏ ảnh tham chiếu chưa được chủ kênh duyệt' in out; kq.append(ok)
 print(('PASS ' if ok else 'FAIL ') + '15 cf_ve_lt1t2.py ref: tham chiếu 19901 bị bỏ vì chưa duyệt  ↳ ' + out.strip().split('\n')[0][:120])
+# --- voi (chỉ voi, kiểm như người/ngựa)
+EP = f"Procession. EXACTLY two elephants in single file, each led by one attendant on foot. {A} {S}"
+eg = lambda e, n=2: [dict(name='người dắt voi', count=n, position='cạnh voi', role='dắt', horses=0, mounted=0, elephants=e)]
+pairs = lambda n: [dict(handler=f'người {k}', elephant=f'voi {k}') for k in range(1, n + 1)]
+ev = lambda p=EP, **k: cau(p, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[], **k)
+thu('16a Cảnh 2 voi, 2 người dắt, 2 cặp: hợp lệ', False, ev())
+thu('16b Tổng voi các nhóm khác expected_elephants', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(1), elephant_pairs=pairs(2), blocks_used=[], detail_tags=[]), 'tổng elephants')
+thu('16c Prompt ghi EXACTLY three elephants, kế hoạch 2', True, ev(EP.replace('two elephants', 'three elephants')), 'EXACTLY three')
+thu('16d Thiếu "EXACTLY N elephants" trong prompt', True, ev(f"Procession with two elephants. {A} {S}"), 'không có "EXACTLY')
+thu('16e Thiếu cặp người dắt – voi', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=pairs(1), blocks_used=[], detail_tags=[]), 'elephant_pairs phải có')
+thu('16f Hai người cùng dắt một con voi', True, cau(EP, expected_people=2, expected_elephants=2, groups=eg(2), elephant_pairs=[dict(handler='a', elephant='voi 1'), dict(handler='b', elephant='voi 1')], blocks_used=[], detail_tags=[]), 'chỉ xuất hiện đúng một lần')
+thu('16g expected_elephants=0 nhưng prompt nhắc voi', True, cau(P0 + ' elephant'), 'nhắc voi')
+thu('16h Còn dùng expected_animals_other', True, cau(P0, expected_animals_other={'voi': 1}), 'expected_animals_other')
+rv = lambda i, st, dv, kv, **k: rec(i, 'E', 1, st, dem=(2, 0), kh=(2, 0), **k) | dict(dem_thu_cong=dict(nguoi=2, ngua=0, voi=dv, nguoi_dem='chủ kênh', ngay='2026-11-02') if dv is not None else dict(nguoi=2, ngua=0, nguoi_dem='chủ kênh', ngay='2026-11-02'), ke_hoach=dict(nguoi=2, ngua=0, voi=kv))
+pe = ev() | dict(scene_id='E')
+def anhE(recs):
+    K.bad.clear(); K.warn.clear(); K.kiem_anh(recs, [pe]); return list(K.bad)
+for ten, recs, want in [('17a PASS, voi thực tế 2 khớp dự kiến 2', [rv('e1', 'PASS', 2, 2)], None), ('17b PASS nhưng voi thực tế 3, dự kiến 2', [rv('e1', 'PASS', 3, 2)], 'số voi thực tế'),
+                        ('17c Cảnh có voi nhưng thiếu voi trong dem_thu_cong', [rv('e1', 'REVIEW', None, 2)], 'thiếu "voi"'), ('17d Voi lệch thì REVIEW được (không PASS)', [rv('e1', 'REVIEW', 3, 2)], None)]:
+    loi = anhE(recs); ok = (not loi) if want is None else any(want in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + ten + ('' if ok else f'  -> {loi}'))
+# --- bản đồ, đoạn dùng nhiều cảnh, cảnh giữ lâu, chi tiết nghệ thuật
+real = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/scene-planner.json', encoding='utf-8')); RS = real['scenes']
+mp = copy.deepcopy(next(x for x in RS if x['scene_id'] == 'M1'))
+thu('18a Bản đồ thật M1 bị chặn NEEDS_REVIEW, không lỗi', False, mp)
+thu('18b Bản đồ tự đặt toa_do trong planner', True, dict(mp, toa_do=[1, 2]), 'tự đặt toa_do')
+thu('18c Bản đồ thiếu danh sách dữ liệu cần xác minh', True, {k: v for k, v in mp.items() if k != 'map_items'}, 'thiếu map_data_ref')
+thu('18d Bản đồ còn NEEDS_REVIEW mà map_status không chặn', True, dict(mp, map_status='READY'), 'không phải BLOCKED')
+thu('18e Bản đồ NEEDS_REVIEW không được PLAN_APPROVED', True, dict(mp, plan_status='PLAN_APPROVED'), 'không thể PLAN_APPROVED')
+mj = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/ban-do-can-xac-minh.json', encoding='utf-8'))['items']
+ok = len(mj) == 33 and all(x['trang_thai'] == 'NEEDS_REVIEW' and x['toa_do'] is None and not x['duoc_ve'] and x['loai'] in ('DIA_LY', 'DUONG_QUAN_SU', 'DIEN_GIAI') for x in mj); kq.append(ok)
+print(('PASS ' if ok else 'FAIL ') + f'18f {len(mj)} mục xác minh bản đồ: đều NEEDS_REVIEW, không tọa độ, không được vẽ')
+def doan(sc, cuts):
+    K.bad.clear(); K.warn.clear(); K.kiem_doan(sc, cuts); return list(K.bad)
+no66 = [x for x in RS]
+loi = doan(no66, {}); ok = any('đoạn 66' in l and 'segment_cuts' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19a Đoạn 66 dùng hai cảnh mà thiếu segment_cuts bị chặn')
+bad_cut = {'66': [dict(thu_tu=1, scene='L25', cau='Một lần khác, ông dựng phòng tuyến bên sông, bảo vệ từng tấc đất quê hương.'), dict(thu_tu=2, scene='L03', cau='Một lần, ông đưa quân vượt biên giới, đánh vào đất địch.')]}
+loi = doan(no66, bad_cut); ok = any('sai thứ tự' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '19b Thứ tự cắt đoạn 66 sai so với lời đọc bị chặn')
+loi = doan(no66, real['segment_cuts']); ok = not loi; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'19c segment_cuts thật của đoạn 66 hợp lệ {loi[:1]}')
+nm = [dict(x) for x in RS]
+for x in nm:
+    if x['scene_id'] == 'L32': x.pop('motion_plan')
+loi = doan(nm, real['segment_cuts']); ok = any('L32' in l and 'motion_plan' in l for l in loi); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + '20 Ảnh giữ ~31 giây (L32) thiếu motion_plan bị chặn')
+la = copy.deepcopy(next(x for x in RS if x['scene_id'] == 'L04'))
+la['free_text_details'][0]['owner_approved'] = True
+thu('21a Duyệt chi tiết nghệ thuật thiếu approved_by/ngày', True, la, 'thiếu approved_by')
+la['free_text_details'][0].update(approved_by='chủ kênh', approved_date='2026-11-02')
+thu('21b Duyệt đủ thông tin vẫn giữ evidence_level C: hợp lệ', False, la)
+la['free_text_details'][0]['evidence_level'] = 'B'
+thu('21c Sau duyệt đổi lựa chọn nghệ thuật thành mức B (dữ kiện): bị chặn', True, la, 'không khớp')
+la['free_text_details'][0].update(evidence_level='C', approval_scope='historical')
+thu('21d approval_scope không phải visual_only: bị chặn', True, la, 'visual_only')
 print(f'\nTổng: {sum(kq)}/{len(kq)} phép kiểm đạt'); sys.exit(0 if all(kq) else 1)

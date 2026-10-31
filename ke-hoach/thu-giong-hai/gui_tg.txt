@@ -1,2 +1,3 @@
-lt1 ban do vector
+lt1 ban do vector, sua van thanh va Nhu Nguyet
 telegram/lt1_ban_do_vector.mp4
+assets/bia/LT1/LT1_ngang.jpg

@@ -1,6 +1,6 @@
 # Bài 3: Lê Long Đĩnh, người giết anh để lên ngôi và cuộc tấn công mà nhà Tống suýt thực hiện
 
-Trạng thái: bản nháp chờ chủ kênh duyệt (31/10/2026). Chưa tìm ảnh (chờ chủ kênh cho chạy workflow).
+Trạng thái: bản nháp chờ chủ kênh duyệt (31/10/2026). Đã chọn 5 ảnh (thư mục `anh/`).
 
 Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**, Bản kỷ quyển I, kỷ nhà Lê (mục Đại Hành, Trung Tông, Ngọa Triều), kể cả chú thích (bản dịch Viện KHXH 1993; file `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, khoảng dòng 3688–3693, 3736–3741, 3843–3862, 3915–3943, 3966–4098, 4160–4175). Nguồn đối chiếu (đọc qua trang thứ cấp, chưa mở bản gốc): Wikipedia tiếng Anh và tiếng Trung về Lê Long Đĩnh; *Tục tư trị thông giám trường biên* (qua chú thích của Wikipedia tiếng Trung).
 
@@ -142,12 +142,17 @@ Cần phân biệt:
 • Lời của vua Tống trong bài là diễn lại ý, không phải trích nguyên văn.
 • Hai việc "nhà Tống từ chối đánh" và "nhà Tống gửi thư dọa" đều nằm trong Toàn thư. Bài chưa đối chiếu được với sử Trung Quốc.
 
-Ảnh: ghi công từng ảnh ở đây sau khi chọn xong (tên tác giả, giấy phép, link Wikimedia Commons).
+Ảnh (tất cả từ Wikimedia Commons):
+1. Đường vào khu di tích cố đô Hoa Lư, Ninh Bình. Kien1980v, public domain. https://commons.wikimedia.org/wiki/File:Co_do_Hoa_Lu_112.JPG
+2. Đền vua Lê Đại Hành, Hoa Lư. Jakub Hałun, CC BY 4.0. https://commons.wikimedia.org/wiki/File:Temple_of_Emperor_Le_Dai_Hanh,_Hoa_L%C6%B0,_Ninh_B%C3%ACnh,_Vietnam,_20240203_1525_5704.jpg
+3. Tranh bán thân vua Tống Chân Tông, họa sĩ khuyết danh đời Tống, public domain. https://commons.wikimedia.org/wiki/File:SongEmperorAlbumZhenzongPortrait.jpg
+4. Tranh vua Tống Chân Tông ngồi, họa sĩ khuyết danh đời Bắc Tống, public domain. https://commons.wikimedia.org/wiki/File:Portrait_assis_de_l%27empereur_Song_Zhenzong.jpg
+5. Mô hình cảnh phố đời Bắc Tống trong bảo tàng (Bảo tàng tỉnh Hà Nam), Gary Todd, CC0. https://commons.wikimedia.org/wiki/File:Zhang_Zeduan_Painting_Model-_Northern_Song_at_Qingming.jpg
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #LeLongDinh #TienLe #LeNgoaTrieu #NhaTong #LichSu
 
-## Kế hoạch ảnh (chưa chạy workflow, chờ chủ kênh cho chạy)
+## Kế hoạch ảnh (đã chạy workflow nvp3 ngày 31/10/2026; chọn 5/16 ứng viên)
 Truy vấn đã soạn ở `ke-hoach/nhan-vat-phu/nvp3_anh_truy_van.txt`. Chỉ lấy ảnh public domain, CC0 hoặc CC BY trên Wikimedia Commons:
 1. Cố đô Hoa Lư (kinh đô nhà Tiền Lê), ảnh chụp ngày nay.
 2. Đền thờ vua Lê Đại Hành ở Hoa Lư.
@@ -155,7 +160,7 @@ Truy vấn đã soạn ở `ke-hoach/nhan-vat-phu/nvp3_anh_truy_van.txt`. Chỉ 
 4. Bản đồ hoặc tranh về nhà Tống thời Chân Tông.
 5. Tiền cổ thời Tiền Lê, nếu có.
 Không có ảnh chân dung Lê Long Đĩnh (sử không để lại). Thiếu ảnh nào ghi rõ thiếu, không độn ảnh sai chủ đề.
-Muốn chạy: đổi dòng 1 của `ke-hoach/nhan-vat-phu/anh_chay.txt` thành `nvp3` rồi đẩy lên nhánh (workflow `anh-bai-viet.yml`).
+Ghi chú khi đăng: ảnh 5 là mô hình trong bảo tàng, ghi chú "mô hình cảnh phố đời Tống"; ảnh 3 và 4 là tranh vua Tống Chân Tông. Không tìm được ảnh đền Lê Long Đĩnh hay tiền Tiền Lê phù hợp.
 
 ## Mục "Ghi chú độ chắc"
 Ký hiệu nguồn: TT = Đại Việt sử ký toàn thư (bản dịch 1993). Các số dòng là dòng trong `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`.

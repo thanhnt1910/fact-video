@@ -6,7 +6,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 
 22001. Một viên tướng bị xiềng tay, giải về Thăng Long chịu tội. Ông xin hoãn hai ba ngày để lập công, rồi sẽ về nhận phạt.
 22002. Ông bị giải đi vì để hạm đội của quân Nguyên vượt qua vùng biển mình giữ. Vậy mà ông vẫn tin còn cơ hội, dù địch là đế quốc mạnh nhất.
-22003. Ông đang chờ thứ gì? Câu trả lời nằm rải qua ba lần quân Nguyên kéo xuống Đại Việt, lần đầu vào mùa đông năm một nghìn hai trăm năm mươi bảy.
+22003. Ông đang chờ thứ gì? Ở hai lần cuối, đạo quân mạnh nhất thế giới gục ngã vì một thứ nhỏ bé hơn nhiều, là bữa ăn của chính mình.
 
 ## Lần thứ nhất (tone: story)
 
@@ -65,7 +65,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22041. Vì ông đoán rằng hạm đội đã qua thì thuyền chở lương sẽ theo sau. Ông bèn gom tàn binh, chờ sẵn.
 22042. Chẳng bao lâu một đoàn thuyền chở lương quả nhiên tới. Ông đánh bại chúng, bắt được rất nhiều lương thực, vũ khí và nhiều quân giặc.
 22043. Trần Thánh Tông tha tội cho ông. Ngài nói quân Nguyên chỉ trông vào lương thực và vũ khí, nay đã mất mà giặc có thể chưa biết, nên còn hung hăng.
-22044. Vì vậy ngài thả những quân giặc bị bắt về doanh trại để báo tin, cho chúng biết đoàn thuyền lương đã mất.
+22044. Vì vậy ngài thả những quân giặc bị bắt về doanh trại, để chúng báo cho quân Nguyên biết lương đã mất, hòng làm giặc bớt hung hăng và chịu rút lui.
 22045. Đầu năm một nghìn hai trăm tám mươi tám, Ô Mã Nhi đánh vào phủ Long Hưng, nơi có mộ các vua Trần. Quân Nguyên đào mộ vua Trần Thái Tông lên.
 22046. Tháng ba năm ấy, quân Nguyên tụ ở Bạch Đằng để đón đoàn thuyền chở lương của Trương Văn Hổ, nhưng không gặp.
 
@@ -91,7 +91,7 @@ Giọng: Sadaltager. 51 đoạn. 1.293 chữ (~7,2 phút). Thay cho `nguyen-mong
 22061. Còn hai người bị gạt ra ở bến Bình Than thì sao? Trần Quốc Toản về sau chết khi đang đuổi đánh quân Nguyên, lúc chưa đầy hai mươi tuổi.
 22062. Vua rất thương tiếc, tự làm văn tế và phong ông tước vương. Còn Trần Khánh Dư vẫn ép dân và lính nộp của cải, nên dân Vân Đồn kiện ông.
 22063. Ông cãi rằng tướng như chim ưng, dân lính như vịt, nuôi chim ưng bằng vịt có gì lạ. Vua không vui nhưng tiếc tài ông, nên không nỡ bỏ.
-22064. Ba lần quân Nguyên kéo sang, ba lần chúng thua, vì bị cắt lương thực và dân Đại Việt không chịu khuất phục. Cảm ơn bạn đã lắng nghe.
+22064. Ba lần quân Nguyên kéo sang, ba lần phải rút về, và hai lần cuối họ thua vì thuyền lương rơi vào tay quân Đại Việt. Cảm ơn bạn đã lắng nghe.
 
 ## Ghi chú độ chắc (chủ kênh duyệt)
 - **Đã sửa sau khi đối chiếu Toàn thư (bản nm2 đầu viết từ nguồn thứ cấp có sai):** (1) bỏ ý "mở kho trống ở Thăng Long ba lần": Toàn thư không chép; (2) đoàn thuyền lương không chỉ bị đánh ở Vân Đồn: Trần Khánh Dư bắt thuyền vận tải ở Vân Đồn (tháng chạp 1287, không phải tháng giêng 1288), còn thuyền lương của Trương Văn Hổ mắc cọc và đắm gần hết ở Bạch Đằng; (3) bỏ ý "Thoát Hoan trúng tên độc khi rút": chi tiết đó thuộc năm 1285 (Lý Hằng) và Toàn thư chép Thoát Hoan trốn về Tư Minh; (4) bỏ "Phù Lỗ", "chín ngày ở Thăng Long", "vườn không nhà trống chuyển gạo đi": không có trong Toàn thư; (5) Hàm Tử, Chương Dương, Tây Kết sắp lại đúng thứ tự (tháng tư, mồng mười tháng năm, hai mươi tháng năm), Toa Đô bị chém ở Tây Kết; (6) bỏ tuổi 26 của Trần Bình Trọng, bỏ "hứa cho chức cao"; (7) bỏ mọi ngày dương lịch.
@@ -131,3 +131,4 @@ Sửa đoàn thuyền lương (31/10/2026): hai lần thuyền lương trong k�
 - "Tham lam" của Trần Khánh Dư: Toàn thư (Bản kỷ, đời Nhân Tông) chép người trong trấn kiện ông tham lam thô bỉ; ông tâu "tướng là chim ưng, dân lính là vịt, dùng vịt nuôi chim ưng thì có gì lạ". Lời kể diễn lại thành "ép dân và lính nộp của cải" (cách hiểu từ lời tâu, Toàn thư không kể chi tiết); đoạn kể ở Vân Đồn là nơi ông trấn giữ.
 - Bỏ "vua cha / vua con" (31/10/2026): gọi thẳng tên Trần Thánh Tông (vua cha đã nhường ngôi) và Trần Nhân Tông (vua đang trị vì); đoạn Diên Hồng nêu rõ quan hệ cha con.
 - Câu kết cuối video (31/10/2026, theo quy tắc mới): tóm gọn "ba lần thua vì bị cắt lương thực và dân không khuất phục" (khớp hook: thứ Trần Khánh Dư chờ là thuyền lương; Diên Hồng quyết đánh) rồi cảm ơn người xem. Không thêm lời kết luận riêng.
+- Sửa 31/10/2026: (1) mục đích thả tù binh nêu rõ: để báo cho quân Nguyên biết lương đã mất, bớt hung hăng và chịu rút lui (Toàn thư: "sợ nó chưa biết, có thể còn hung hăng chăng"; "quân Nguyên quả nhiên rút lui"). (2) Hook đổi sang lương thực, chỉ nói hai lần cuối vì Toàn thư không chép lương thực là nguyên nhân thua ở lần đầu (Đông Bộ Đầu); câu kết khớp: ba lần rút về, hai lần cuối thua vì thuyền lương.

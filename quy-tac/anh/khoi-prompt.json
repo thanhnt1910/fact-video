@@ -1,31 +1,36 @@
 {
- "phien_ban": "1.2-DRAFT",
- "ghi_chu": "Khối chữ để ghép vào prompt, khớp period-ly-tong.md v1.2 và master-style.md v1.1. Trường 'tag' chỉ nhận A, cautious_reconstruction hoặc artistic_choice. Khối mang nhãn KHÔNG phải mặc định của cả đội quân. Nhãn ghi vào detail_tags của cảnh, không dán vào prompt. Mỗi khối có 'bible_ref' trỏ về dòng trong Period Bible.",
+ "phien_ban": "1.3-DRAFT",
+ "ghi_chu": "Khớp period-ly-tong.md v1.3 và master-style.md v1.2. 'tag' chỉ nhận historical_evidence (mức A), cautious_reconstruction (mức B), artistic_choice (mức C), hoặc style_rule (khối kiểu vẽ, không phải chi tiết lịch sử). 'evidence_level' giữ mức gốc A/B/C và KHÔNG được đổi khi ghép vào cảnh. Khối mang nhãn không phải mặc định của cả đội quân.",
  "STYLE": {
-  "tag": "A",
+  "tag": "style_rule",
   "text": "Cinematic historical illustration, semi-realistic traditional historical painting, epic documentary look, natural dramatic lighting, atmospheric depth, subtle painterly texture, 16:9.",
-  "bible_ref": "master-style#1"
+  "bible_ref": "master-style#1",
+  "evidence_level": "-"
  },
  "ANATOMY": {
-  "tag": "A",
+  "tag": "style_rule",
   "text": "Every person has one head, two arms, two legs, natural anatomy, clear separate silhouettes, no overlapping limbs, no fused bodies, no text, no modern items.",
-  "bible_ref": "master-style#2"
+  "bible_ref": "master-style#2",
+  "evidence_level": "-"
  },
  "HORSE": {
-  "tag": "A",
+  "tag": "style_rule",
   "text": "EXACTLY {N} horses with {N} riders, each rider upright on exactly one horse, each horse has four natural legs and is clearly separated from the others.",
-  "bible_ref": "master-style#2"
+  "bible_ref": "master-style#2",
+  "evidence_level": "-"
  },
  "VN_AO_VAI": {
   "tag": "artistic_choice",
   "text": "Vietnamese Ly dynasty soldiers in coarse plain cloth tunics in muted earth colors",
-  "bible_ref": "period-ly-tong#C Quần áo lính"
+  "bible_ref": "period-ly-tong#C Quần áo lính",
+  "evidence_level": "C"
  },
  "VN_GIAP": {
   "tag": "cautious_reconstruction",
   "dung": "chỉ một phần lính trong cảnh (nhóm tiền cảnh hoặc tiền quân), phần còn lại dùng VN_AO_VAI",
   "text": "a few of the soldiers wear plain iron-and-leather armor over the cloth tunic",
-  "bible_ref": "period-ly-tong#C Giáp lính"
+  "bible_ref": "period-ly-tong#C Giáp lính",
+  "evidence_level": "B"
  },
  "VN_DAU": {
   "tag": "artistic_choice",
@@ -35,13 +40,15 @@
    "a mix of bare heads and plain cloth headwraps"
   ],
   "cam": "conical hat, peaked cap, helmet",
-  "bible_ref": "period-ly-tong#C Mũ"
+  "bible_ref": "period-ly-tong#C Mũ",
+  "evidence_level": "C"
  },
  "VN_NON_DAN_PHU": {
   "tag": "artistic_choice",
   "dung": "chỉ dân phu, khi bối cảnh cần",
   "text": "laborers wearing woven conical hats",
-  "bible_ref": "period-ly-tong#C Nón lá"
+  "bible_ref": "period-ly-tong#C Nón lá",
+  "evidence_level": "C"
  },
  "VN_CHAN": {
   "tag": "artistic_choice",
@@ -51,90 +58,107 @@
    "simple straw sandals"
   ],
   "cam": "boots, modern shoes",
-  "bible_ref": "period-ly-tong#C Giày dép"
+  "bible_ref": "period-ly-tong#C Giày dép",
+  "evidence_level": "C"
  },
  "VN_VU_KHI": {
   "tag": "cautious_reconstruction",
   "text": "wooden spears with iron tips",
-  "bible_ref": "period-ly-tong#C Vũ khí"
+  "bible_ref": "period-ly-tong#C Vũ khí",
+  "evidence_level": "B"
  },
  "VN_CO": {
   "tag": "artistic_choice",
   "mac_dinh": "KHÔNG vẽ cờ",
   "text_neu_can": "plain unmarked cloth banner, no symbols, no writing, no stars",
   "cam": "red flag with star, brown-red pennants as default",
-  "bible_ref": "period-ly-tong#C Cờ hiệu"
+  "bible_ref": "period-ly-tong#C Cờ hiệu",
+  "evidence_level": "C"
  },
  "VN_TUONG": {
   "tag": "artistic_choice",
   "text": "a Vietnamese general distinguished from the soldiers by a longer wide-sleeved robe, a leather belt and plain shoulder guards, hair in a high topknot or plain headwrap",
   "cam": "officer hat with wings, Song or later-dynasty official hat",
-  "bible_ref": "period-ly-tong#C Tướng lĩnh"
+  "bible_ref": "period-ly-tong#C Tướng lĩnh",
+  "evidence_level": "C"
  },
  "VN_TUONG_LY_THUONG_KIET": {
   "tag": "artistic_choice",
   "text": "an elderly Vietnamese general with a grey beard",
   "ghi_chu": "Chưa có Character Reference được duyệt; không dùng cho nhiều cảnh",
-  "bible_ref": "period-ly-tong#C Lý Thường Kiệt"
+  "bible_ref": "period-ly-tong#C Lý Thường Kiệt",
+  "evidence_level": "C"
  },
  "SONG_BO_BINH_NANG": {
   "tag": "cautious_reconstruction",
   "text": "Chinese Song dynasty heavy infantry in dark-grey iron lamellar armor, ancient iron helmets with rounded pointed top, round shields, spears",
-  "bible_ref": "period-ly-tong#D Giáp vảy sắt"
+  "bible_ref": "period-ly-tong#D Giáp vảy sắt",
+  "evidence_level": "B"
  },
  "SONG_CUNG_NO": {
   "tag": "cautious_reconstruction",
   "text": "Chinese Song dynasty crossbowmen in lighter dark-grey lamellar armor, iron helmets, crossbows",
-  "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+  "bible_ref": "period-ly-tong#D Phân theo binh chủng",
+  "evidence_level": "B"
  },
  "SONG_BO_BINH_NHE": {
   "tag": "cautious_reconstruction",
   "text": "Chinese Song dynasty light infantry in coarse plain tunics, wide-brimmed felt hats, spears",
   "dung": "ít",
-  "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+  "bible_ref": "period-ly-tong#D Phân theo binh chủng",
+  "evidence_level": "B"
  },
  "SONG_SI_QUAN": {
   "tag": "cautious_reconstruction",
   "text": "a Chinese Song dynasty officer in dark-grey lamellar armor and an iron helmet with a plume",
-  "bible_ref": "period-ly-tong#D Phân theo binh chủng"
+  "bible_ref": "period-ly-tong#D Phân theo binh chủng",
+  "evidence_level": "B"
  },
  "SONG_CO": {
   "tag": "artistic_choice",
   "mac_dinh": "KHÔNG vẽ cờ",
-  "bible_ref": "period-ly-tong#D Cờ quân Tống"
+  "bible_ref": "period-ly-tong#D Cờ quân Tống",
+  "evidence_level": "C"
  },
  "SONG_QUY_TAC": "Mỗi cảnh chỉ định binh chủng nào xuất hiện; không dùng cùng một bộ giáp cho cả đội. Không chỉ định binh chủng thì dùng SONG_BO_BINH_NANG hoặc nhẹ và ghi artistic_choice.",
  "THANH_SONG": {
   "tag": "cautious_reconstruction",
   "text": "a Song dynasty walled border city with tall grey stone wall and a wooden gate tower with tiled roof",
   "ghi_chu": "Ung Châu cụ thể chưa xác nhận",
-  "bible_ref": "period-ly-tong#D Thành trì"
+  "bible_ref": "period-ly-tong#D Thành trì",
+  "evidence_level": "B"
  },
  "DOC_DAT": {
-  "tag": "A",
+  "tag": "cautious_reconstruction",
   "text": "one huge solid mound of packed raw brown earth, rough soil surface, no stairs and no sacks, sloping continuously from the ground to the top edge of the wall",
-  "nguon": "kịch bản v4 đoạn 28",
-  "bible_ref": "period-ly-tong#E"
+  "nguon": "kịch bản v4 đoạn 28 (theo sử liệu); hình dạng khối đất là phục dựng",
+  "bible_ref": "period-ly-tong#E",
+  "evidence_level": "B"
  },
  "VAC_DAT": {
   "tag": "artistic_choice",
   "text": "carrying baskets of soil",
-  "bible_ref": "period-ly-tong#E"
+  "bible_ref": "period-ly-tong#E",
+  "evidence_level": "C"
  },
  "DEN": {
   "tag": "artistic_choice",
   "text": "a clay oil lamp on a low wooden table, nothing hanging from the ceiling",
-  "bible_ref": "period-ly-tong#F"
+  "bible_ref": "period-ly-tong#F",
+  "evidence_level": "C"
  },
  "KIEN_TRUC_CUNG": {
-  "tag": "A",
+  "tag": "historical_evidence",
   "text": "timber palace building with tiled roof and bracket system",
-  "bible_ref": "period-ly-tong#C Kiến trúc cung điện"
+  "bible_ref": "period-ly-tong#C Kiến trúc cung điện",
+  "evidence_level": "A",
+  "nguon": "khai quật Hoàng thành Thăng Long"
  },
  "NHA_DAN": {
   "tag": "artistic_choice",
   "text": "plain timber house with grey tiled or thatched roof, woven mat floor",
-  "bible_ref": "period-ly-tong#C Nhà dân"
+  "bible_ref": "period-ly-tong#C Nhà dân",
+  "evidence_level": "C"
  },
  "NGUYEN_TAC": "Không có khối thì không có chi tiết (master-style#7). Khối ngoài danh sách phải thêm vào file này kèm bible_ref và tag trước khi dùng."
 }

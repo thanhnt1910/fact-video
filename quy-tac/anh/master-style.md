@@ -1,4 +1,4 @@
-# MASTER STYLE – hệ thống hình ảnh tư liệu lịch sử (v1.1 DRAFT, 01/11/2026)
+# MASTER STYLE – hệ thống hình ảnh tư liệu lịch sử (v1.2 DRAFT, 01/11/2026)
 
 Dùng chung cho mọi video của kênh. Không đổi theo video. Đổi bản phải tăng version và có chủ kênh đồng ý.
 
@@ -19,7 +19,7 @@ Cảnh có ngựa thêm: `EXACTLY N horses with N riders, each rider upright on 
 
 ## 4. Quy tắc lịch sử (bắt buộc)
 - Không dùng phong cách chung để thay độ chính xác. Trang phục, kiến trúc, vũ khí, cờ lấy từ Period Bible, chi tiết nào chưa có trong đó thì không tự thêm.
-- Ba mức bằng chứng (A, B `cautious_reconstruction`, C `artistic_choice`) định nghĩa trong Period Bible mục B. Chi tiết mức B và C phải mang nhãn trong `detail_tags` của cảnh; chi tiết mức C không được trình bày như sự thật lịch sử và không thành đặc điểm cố định của cả đội quân.
+- Ba mức bằng chứng giữ riêng, không gộp: A `historical_evidence`, B `cautious_reconstruction`, C `artistic_choice` định nghĩa trong Period Bible mục B. Chi tiết mức B và C phải mang nhãn trong `detail_tags` của cảnh; chi tiết mức C không được trình bày như sự thật lịch sử và không thành đặc điểm cố định của cả đội quân.
 - Không trộn trang phục giữa các triều đại. Không đồ hiện đại.
 
 ## 5. Cách viết "điều cấm" cho FLUX
@@ -27,13 +27,16 @@ Klein và schnell trên Cloudflare KHÔNG có ô negative prompt, và câu "no X
 
 ## 6. Kiểm ảnh (8 mục, mỗi ảnh phải báo)
 1. Đúng bối cảnh lịch sử? 2. Đúng quân phục từng phe? 3. Có đồ hiện đại? 4. Có tự thêm cờ hoặc đạo cụ? 5. Đúng số người, số ngựa? 6. Lỗi tay chân, ngựa, cơ thể? 7. Đúng phong cách tranh bán hiện thực? 8. Mọi chi tiết nhìn thấy có nằm trong `detail_tags` của cảnh không (mũ, giáp, giày, cờ, đạo cụ)?
-Trạng thái: PASS / REVIEW / REGENERATE. Không báo PASS chỉ vì ảnh đẹp. Chỉ vẽ lại ảnh REGENERATE (hạn mức Cloudflare miễn phí có hạn).
+Trạng thái: PASS / REVIEW / REGENERATE / MANUAL_REVIEW. Không báo PASS chỉ vì ảnh đẹp. Chỉ vẽ lại ảnh REGENERATE (hạn mức Cloudflare miễn phí có hạn).
+**Giới hạn vẽ lại:** tối đa 3 lần vẽ lại tự động sau lần vẽ đầu. Vẫn không đạt thì chuyển `MANUAL_REVIEW` cho chủ kênh. **Không được đổi nội dung lịch sử, nhãn bằng chứng hoặc tiêu chuẩn hình ảnh để ép cảnh đạt PASS**; chỉ được sửa cách viết bố cục, số lượng, góc máy trong phạm vi Bible.
+**Kiểm số người và ngựa:** do người đếm bằng mắt (chưa có hệ thống đếm tự động); kết quả ghi vào bản ghi ảnh.
+**Ảnh vẽ trước khi có Bible hiện hành** (ví dụ các ảnh thử 31/10 và các lượt Kaggle cũ) không được dùng làm căn cứ duyệt ảnh tham chiếu hay đánh giá chất lượng theo quy chuẩn mới.
 
 ## 7. Nguyên tắc KHÔNG TỰ SUY DIỄN chi tiết lịch sử (bắt buộc, chủ kênh 01/11/2026)
 1. Mỗi chi tiết nhìn thấy trong ảnh (mũ, giáp, giày, cờ, vũ khí, kiến trúc, đồ vật, ánh sáng) phải truy được tới một khối trong `khoi-prompt.json` hoặc một dòng trong Period Bible. Không truy được thì không đưa vào prompt.
 2. Chi tiết chưa có trong Bible: không tự thêm. Dùng thiết kế trung tính và gắn `artistic_choice`, hoặc hỏi chủ kênh trước.
 3. Kịch bản không nói thì không thêm (số quân, binh chủng, vũ khí, phe thắng thua, thời tiết có ý nghĩa).
-4. Mọi chi tiết chưa được xác nhận (mức B hoặc C) phải được phân loại đúng một trong hai nhãn `cautious_reconstruction` hoặc `artistic_choice`, không để "không nhãn". Chi tiết mức A/B gộp (như giáp Tống) coi là `cautious_reconstruction` trừ khi chủ kênh xác nhận mức A.
+4. Mọi chi tiết chưa được xác nhận phải được phân loại đúng một trong hai nhãn `cautious_reconstruction` (B) hoặc `artistic_choice` (C), không để "không nhãn". Chi tiết có bằng chứng trực tiếp mang `historical_evidence` (A). Mỗi chi tiết giữ nguyên mức gốc (`evidence_level`), không gộp và không tự nâng mức: chưa xác nhận được A thì ghi B.
 5. Model có thể tự thêm chi tiết mà prompt không yêu cầu (cờ, mũ, chữ). Chi tiết nhìn thấy trong ảnh mà không có trong `detail_tags` thì ảnh bị REVIEW (hoặc REGENERATE nếu là đồ sai thời).
 6. Nhãn không bao giờ biến một chi tiết thành "đặc điểm cố định của đội quân": mỗi cảnh chọn theo nhóm người, thay đổi giữa các cảnh khi hợp lý.
 7. Ảnh đẹp không phải bằng chứng. Không báo PASS chỉ vì ảnh đẹp.

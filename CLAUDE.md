@@ -39,12 +39,20 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 - Mã thử: `kaggle_chibi_thu.py`, workflow `chibi-thu.yml`; mã vẽ hàng loạt: `kaggle_chibi_ve.py`, workflow `chibi-ve.yml` (đẩy `ke-hoach/chibi/chay_<mã>.txt`).
 - Mỗi cảnh vẫn phải mô tả riêng từng người (tuổi, râu tóc, màu áo) và soi bằng mắt ở cỡ lớn. Các quy tắc ảnh của series (không chữ, không máu, đúng thời, không hai người giống hệt, soi ảnh cỡ lớn) vẫn áp dụng.
 
-## Ảnh chibi Lý Thường Kiệt: lỗi thời đại và cách tránh (chủ kênh phát hiện 30/10/2026)
+## Ảnh Lý Thường Kiệt v4: tranh bán hiện thực bằng FLUX.2 klein (chủ kênh chuyển hẳn 01/11/2026; CHỈ áp dụng cho dự án lt1 v4)
+- Dự án Lý Thường Kiệt v4 (`ke-hoach/thu-giong-hai/lt1v4_full.json`) chuyển hẳn sang phong cách **tranh bán hiện thực** theo Master Style, vẽ bằng **FLUX.2 klein trên Cloudflare Workers AI** (khóa API miễn phí, không Worker/D1/R2). Quy chuẩn nằm ở `quy-tac/anh/` (xem bảng đầu file): `master-style.md`, `period-ly-tong.md`, `khoi-prompt.json`, `quy-trinh-anh.md`. Các tài liệu này đang **DRAFT**, chờ chủ kênh duyệt, chưa APPROVED.
+- Ba mức bằng chứng giữ riêng: A `historical_evidence`, B `cautious_reconstruction`, C `artistic_choice`.
+- **Chưa áp dụng cho dự án khác.** Series khác (Tam Quốc, Nguyên Mông, Hồ Quý Ly...) giữ quy tắc ảnh riêng của series đó cho tới khi chủ kênh duyệt riêng việc áp dụng.
+- Hai mục dưới đây (chibi lt1 và ảnh phẳng lt1) được giữ nguyên làm lịch sử, KHÔNG xóa, và **DEPRECATED cho lt1 v4**.
+
+## [DEPRECATED cho lt1 v4, 01/11/2026] Ảnh chibi Lý Thường Kiệt: lỗi thời đại và cách tránh (chủ kênh phát hiện 30/10/2026)
+> DEPRECATED (chủ kênh 01/11/2026): các quy định áo giáp da nâu, nón tre, chân đất, cờ nâu đỏ "plain brown-red triangular cloth pennants" bên dưới KHÔNG còn dùng cho lt1 v4. Thay bằng `quy-tac/anh/period-ly-tong.md` (khăn quấn hoặc búi tóc, nón lá chỉ cho dân phu, giáp chỉ một phần lính, giày dép tùy nhóm, mặc định không vẽ cờ). Nội dung cũ giữ để tra lịch sử, không áp dụng cho dự án khác nếu chưa duyệt.
 - Lần vẽ đầu (lt1) có khoảng 34/64 ảnh sai: cờ sao vàng, lính mũ cối và súng, đường nhựa, cột điện, tàu hơi nước, bàn ghế, nến, đèn lồng giấy, chữ Hán trên cờ. Nguyên nhân: prompt chỉ ghi "plain red flags" và không có mốc thời Lý; bỏ LoRA nên mô hình trôi về kiểu phổ biến.
 - Không dùng chữ "flag" / "red flag": viết "plain brown-red triangular cloth pennants". Mọi prompt (kể cả cảnh vắng người) phải có mốc "ancient Vietnam, Ly dynasty 11th century, grey tiled roofs and thatched houses" (hoặc Tống) và mô tả lính: áo giáp da nâu, nón tre, chân đất, giáo. Không dùng "chair, table, candle, lantern, ship" trơn: viết "woven mat, low wooden table, clay oil dish, wooden war boat with woven sails". Mã `ke-hoach/chibi/tao_lt1_chibi.py` đã gắn sẵn ERA_VN/ERA_SONG.
 - Sau mỗi đợt vẽ phải xem ảnh cỡ lớn (6 ảnh một tấm) và soi cờ, quân phục, đồ vật hiện đại trước khi báo xong.
 
-## Ảnh phẳng (vector) thay chibi cho video Lý Thường Kiệt (chủ kênh chọn 30/10/2026)
+## [DEPRECATED cho lt1 v4, 01/11/2026] Ảnh phẳng (vector) thay chibi cho video Lý Thường Kiệt (chủ kênh chọn 30/10/2026)
+> DEPRECATED (chủ kênh 01/11/2026): quy chuẩn ảnh phẳng/vector của lt1 (mã `phim_ban_do/phang/`, 64 cảnh) không dùng cho lt1 v4, vì v4 chuyển sang tranh bán hiện thực FLUX.2 klein. Mã và ảnh cũ giữ nguyên, không xóa. Quy tắc "ảnh vẽ phải chi tiết" ở cuối mục này chỉ còn áp dụng cho các ảnh phẳng ở dự án khác nếu có.
 - Chibi vẽ bằng FLUX không giữ được nhân vật đồng nhất, hay ra phong cách Hàn/Trung và sai thời → video lt1 dùng ảnh phẳng vẽ bằng code: nhân vật mặt đơn giản, nền nhiều lớp. Mã: `phim_ban_do/phang/` (`flat.py` thư viện, `canh.py` 64 cảnh, `ve.py` chạy ra ảnh).
 - Chạy: `python phim_ban_do/phang/ve.py [số cảnh ...]` → `ke-hoach/phang/lt1_svg/N.svg` (từng lớp có `<g id>` để làm chuyển động) và `assets/anh_phang/lt1/N.jpg` (1920×1080).
 - Số người trong cảnh do mã quyết định, không thừa tay thừa người; mỗi người một tông da, râu, màu áo. Trang phục Việt: áo giao lĩnh tay hẹp, nón lá/khăn quấn; quan Tống: mũ hai cánh. Sửa nhân vật ở `CAST` trong `canh.py`.

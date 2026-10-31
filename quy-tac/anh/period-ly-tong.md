@@ -1,6 +1,6 @@
-# PERIOD BIBLE – Đại Việt nhà Lý và Trung Hoa nhà Tống (v1.2 DRAFT, 01/11/2026)
+# PERIOD BIBLE – Đại Việt nhà Lý và Trung Hoa nhà Tống (v1.3 DRAFT, 01/11/2026)
 
-**Trạng thái: DRAFT (đã sửa theo quyết định phục dựng thận trọng của chủ kênh và bổ sung quy tắc truy vết; chờ chủ kênh xác nhận quy chuẩn cuối).** Chưa APPROVED. Chưa lập Scene Planner, chưa vẽ lại ảnh nào theo bản này.
+**Trạng thái: DRAFT (đã sửa theo quyết định phục dựng thận trọng và giữ riêng ba mức bằng chứng; chờ chủ kênh xác nhận quy chuẩn cuối).** Chưa APPROVED. Chưa lập Scene Planner, chưa vẽ lại ảnh nào theo bản này.
 
 ## A. Nhận diện
 - Thời kỳ: 1075–1077 (chiến tranh Lý–Tống), tham chiếu thêm 1069–1105 (đời Lý Thường Kiệt).
@@ -9,12 +9,14 @@
 ## B. Ba mức bằng chứng và nhãn trong prompt (chủ kênh chốt 01/11/2026)
 | Mức | Nghĩa | Nhãn gắn vào chi tiết | Cách dùng |
 |---|---|---|---|
-| **A** | Bằng chứng khảo cổ trực tiếp | (không cần nhãn) | Dùng thẳng |
+| **A** | Bằng chứng khảo cổ trực tiếp | `historical_evidence` | Dùng thẳng; vẫn ghi trong `detail_tags` để truy vết |
 | **B** | Tư liệu lịch sử hoặc bằng chứng gián tiếp | `cautious_reconstruction` | Phục dựng thận trọng, không nêu kiểu dáng, màu, cấu tạo cụ thể khi chưa có tư liệu |
 | **C** | Lựa chọn nghệ thuật | `artistic_choice` | Không trình bày như sự thật lịch sử |
 
+**Ba mức được giữ riêng, không gộp.** Mỗi chi tiết giữ nguyên mức bằng chứng gốc (trường `evidence_level` A, B hoặc C trong `khoi-prompt.json` và `detail_tags`) để truy xuất về sau. Không nâng mức khi chưa có nguồn: chi tiết chưa xác nhận được là A thì ghi B.
+
 **Quy tắc nhãn:**
-- Mọi chi tiết chưa được xác nhận (B hoặc C) phải mang MỘT trong hai nhãn; không có "không nhãn". Chi tiết ghi "A/B" trong bảng (giáp vảy, mũ sắt, vũ khí Tống) coi là `cautious_reconstruction`, trừ khi chủ kênh xác nhận mức A.
+- Mọi chi tiết mức B hoặc C mang đúng nhãn của mình; chi tiết mức A mang `historical_evidence`. Không có "không nhãn".
 - Không tự suy diễn: xem Master Style mục 7.
 - Mỗi cảnh trong Scene Planner có trường `detail_tags` liệt kê từng chi tiết chưa được xác nhận kèm nhãn, ví dụ `[{"item":"khăn quấn đầu","tag":"artistic_choice"},{"item":"giáp sắt và da","tag":"cautious_reconstruction"}]`. Nhãn nằm trong dữ liệu cảnh (và trong ghi chú gửi chủ kênh duyệt), không dán vào câu prompt vì FLUX không hiểu nhãn.
 - Chi tiết mang nhãn KHÔNG được tự biến thành đặc điểm cố định của cả đội quân. Mỗi cảnh chọn theo nhóm người (xem mục C), đổi giữa các cảnh khi hợp lý.
@@ -24,7 +26,7 @@
 
 | Hạng mục | Hướng thể hiện | Mức / nhãn | Căn cứ | Hạn chế |
 |---|---|---|---|---|
-| Kiến trúc cung điện | Nhà gỗ, mái ngói, hệ đấu củng | **A** | Khai quật Hoàng thành Thăng Long (53 nền móng, 18 Hoàng Diệu và khu Quốc hội) | Dạng mái cụ thể, bố cục: còn đang nghiên cứu |
+| Kiến trúc cung điện | Nhà gỗ, mái ngói, hệ đấu củng | **A** `historical_evidence` | Khai quật Hoàng thành Thăng Long (53 nền móng, 18 Hoàng Diệu và khu Quốc hội) | Dạng mái cụ thể, bố cục: còn đang nghiên cứu |
 | Nhà dân, trướng quân | Nhà gỗ đơn giản, mái ngói xám hoặc tranh, sàn chiếu | C `artistic_choice` | Suy từ kiến trúc cung đình, không có tư liệu riêng | Không chạm trổ cầu kỳ |
 | Giáp lính Đại Việt | Giáp làm từ sắt và da. **Không mặc định cả đội quân mặc giáp**: một phần lính (nhóm tiền cảnh, tiền quân) mặc giáp, phần còn lại áo vải thô | **B** `cautious_reconstruction` | Wikipedia "Vietnamese armour": thời trung đại chỉ còn văn bản và tranh, hiện vật rất hiếm, không có chi tiết riêng thời Lý | **Không khẳng định kiểu dáng, màu sắc, cấu tạo giáp.** Khi vẽ phải chọn một dạng nhìn được, dạng đó là `artistic_choice` và không đồng nhất giữa các cảnh |
 | Quần áo lính | Áo vải thô tay hẹp, màu đất trầm, quần ngắn hoặc dài | C `artistic_choice` | Thiết kế trung tính | Không quân phục xanh, không phụ kiện hiện đại |
@@ -41,18 +43,18 @@
 
 | Hạng mục | Hướng thể hiện | Mức / nhãn | Căn cứ | Hạn chế |
 |---|---|---|---|---|
-| Giáp vảy sắt | Giáp vảy sắt (lamellar). Bộ binh hạng nặng: loại "bộ nhân giáp" (bu renjia) nặng khoảng 30 kg | **A/B** `cautious_reconstruction` khi nêu chi tiết | *Võ kinh tổng yếu* (1044), tổng quan Song armor (dragonsarmory) | **Không áp dụng đồng nhất mọi binh chủng** (xem dưới) |
-| Mũ sắt | Mũ sắt cổ, đỉnh tròn nhọn cho lính và tướng | **A/B** `cautious_reconstruction` | *Võ kinh tổng yếu* (mũ tướng có chùm lông), hiện vật phục dựng | Không mũ cánh chuồn cho lính |
+| Giáp vảy sắt | Giáp vảy sắt (lamellar). Bộ binh hạng nặng: loại "bộ nhân giáp" (bu renjia) nặng khoảng 30 kg | **B** `cautious_reconstruction` | *Võ kinh tổng yếu* (1044), tổng quan Song armor (dragonsarmory) | **Không áp dụng đồng nhất mọi binh chủng** (xem dưới) |
+| Mũ sắt | Mũ sắt cổ, đỉnh tròn nhọn cho lính và tướng | **B** `cautious_reconstruction` | *Võ kinh tổng yếu* (mũ tướng có chùm lông), hiện vật phục dựng | Không mũ cánh chuồn cho lính |
 | Phân theo binh chủng | Bộ binh nặng (giáp vảy nặng, khiên, giáo) / cung thủ và nỏ thủ (giáp nhẹ hơn khoảng 5 kg) / bộ binh nhẹ hoặc dân binh (áo thô, có thể mũ nỉ vành rộng) / sĩ quan, tướng (giáp khác, mũ có chùm lông). Mỗi cảnh chỉ định rõ binh chủng nào xuất hiện | B `cautious_reconstruction` | Tổng quan quân Tống (tác giả phục dựng hiện đại) | Không mặc cùng một bộ giáp cho cả đội; nếu kịch bản không nói binh chủng thì dùng bộ binh thường và ghi `artistic_choice` |
 | Mũ nỉ vành rộng | Chỉ cho bộ binh nhẹ | B `cautious_reconstruction` | Một bài tổng quan hiện đại, không phải nguồn gốc | Dùng ít |
 | Màu quân phục | Xám đậm, kim loại tối | C `artistic_choice` | Không nguồn xác định màu | Không thêm màu tươi |
 | Cờ quân Tống | Không vẽ cờ | C | Chưa có chỉ định màu, biểu tượng | Không tự thêm |
-| Vũ khí | Giáo, thương, khiên tròn, nỏ | A/B | *Võ kinh tổng yếu*: nỏ thần tý, khiên chắn | Không hỏa khí, không máy bắn đá nếu kịch bản không nói |
+| Vũ khí | Giáo, thương, khiên tròn, nỏ | B | *Võ kinh tổng yếu*: nỏ thần tý, khiên chắn | Không hỏa khí, không máy bắn đá nếu kịch bản không nói |
 | Thành trì | Tường đá hoặc gạch xám cao, lầu cổng gỗ mái ngói cong | B `cautious_reconstruction` | Thành Trung Hoa thời Tống nói chung | **Ung Châu cụ thể: chưa xác nhận tường đất hay gạch** |
 | Phòng thủ | Lính gác trên đầu tường, khói sau thành | B | Từ kịch bản | Không thêm thiết bị công phòng ngoài kịch bản |
 
 ## E. Công thành (theo kịch bản v4, đoạn 28)
-Quân vây thành đắp đất thành dốc áp chân tường: **A theo kịch bản**. Hình ảnh: một khối đất lớn, bề mặt thô, liên tục từ mặt đất lên mép tường; lính vác giỏ đất. Không bao tải, không bậc thang đá. Cách vác bằng giỏ: C `artistic_choice`.
+Quân vây thành đắp đất thành dốc áp chân tường: sự kiện theo kịch bản v4 (sử liệu), hình ảnh là **B** `cautious_reconstruction`. Hình ảnh: một khối đất lớn, bề mặt thô, liên tục từ mặt đất lên mép tường; lính vác giỏ đất. Không bao tải, không bậc thang đá. Cách vác bằng giỏ: C `artistic_choice`.
 
 ## F. Vật dụng và ánh sáng
 - Ánh sáng trong trướng: đèn dầu đất nung đặt trên bàn, không treo gì trên trần. (C `artistic_choice`)
@@ -63,7 +65,7 @@ Quân vây thành đắp đất thành dốc áp chân tường: **A theo kịch
 2. **Giáp Đại Việt:** giữ sắt và da ở mức B. Không cả quân mặc giáp da nâu. Không khẳng định kiểu dáng, màu, cấu tạo. → mục C, dòng "Giáp lính".
 3. **Giày dép:** không mặc định chân đất; tùy nhân vật. → mục C, dòng "Giày dép".
 4. **Cờ hiệu:** không mặc định nâu đỏ; màu, họa tiết, biểu tượng chỉ khi có tư liệu, còn lại ghi thiết kế nghệ thuật. → mục C, dòng "Cờ hiệu". Cách xử lý của tôi: mặc định không vẽ cờ.
-5. **Quân Tống:** giữ giáp vảy sắt và mũ sắt (A/B), không đồng nhất mọi binh chủng. → mục D, dòng "Phân theo binh chủng".
+5. **Quân Tống:** giữ giáp vảy sắt và mũ sắt (chủ kênh ghi "A/B"; xem v1.3: tôi ghi mức B vì chưa kiểm được nguồn khảo cổ trực tiếp), không đồng nhất mọi binh chủng. → mục D, dòng "Phân theo binh chủng".
 6. **Nhãn:** mọi chi tiết mức B/C đánh dấu `cautious_reconstruction` hoặc `artistic_choice` trong `detail_tags`, không thành đặc điểm cố định của cả quân.
 
 ## H. Danh sách thay đổi so với v1.0
@@ -94,7 +96,8 @@ Quân vây thành đắp đất thành dốc áp chân tường: **A theo kịch
 ## K. Ghi chú phiên bản
 - v1.0: bản đầu (01/11/2026).
 - v1.1: phục dựng thận trọng theo quyết định chủ kênh (mục H).
-- v1.2: thêm quy tắc "không có không nhãn", gộp A/B thành `cautious_reconstruction`, thêm liên kết truy vết sang `khoi-prompt.json` (mỗi dòng bảng ứng với một khối `block`). Không đổi nội dung lịch sử.
+- v1.2: thêm quy tắc "không có không nhãn", tạm gộp A/B thành `cautious_reconstruction` (ĐÃ BỎ ở v1.3), thêm liên kết truy vết sang `khoi-prompt.json` (mỗi dòng bảng ứng với một khối `block`). Không đổi nội dung lịch sử.
+- v1.3 (theo chủ kênh 01/11): giữ riêng ba mức A `historical_evidence`, B `cautious_reconstruction`, C `artistic_choice`, không gộp. Các dòng trước ghi "A/B" (giáp vảy, mũ sắt, vũ khí Tống) nay ghi **B** vì chưa có nguồn khảo cổ trực tiếp đã kiểm; dốc đất: sự kiện theo sử liệu, hình ảnh B. Chỉ kiến trúc cung điện giữ **A**. Mỗi chi tiết có `evidence_level` gốc, không đổi khi vào cảnh.
 Bảng ánh xạ dòng bảng sang khối: Giáp lính → VN_GIAP; Quần áo lính → VN_AO_VAI; Mũ/đầu → VN_DAU; Nón lá → VN_NON_DAN_PHU; Tướng lĩnh → VN_TUONG; Giày dép → VN_CHAN; Vũ khí → VN_VU_KHI; Cờ Đại Việt → VN_CO; Lý Thường Kiệt → VN_TUONG_LY_THUONG_KIET; Kiến trúc cung điện → KIEN_TRUC_CUNG; Nhà dân → NHA_DAN; Giáp Tống theo binh chủng → SONG_BO_BINH_NANG, SONG_CUNG_NO, SONG_BO_BINH_NHE, SONG_SI_QUAN; Cờ Tống → SONG_CO; Thành trì → THANH_SONG; Dốc đất → DOC_DAT; Vác đất → VAC_DAT; Đèn → DEN.
 
-Trạng thái: DRAFT v1.2. Chỉ chuyển APPROVED khi chủ kênh xác nhận.
+Trạng thái: DRAFT v1.3. Chỉ chuyển APPROVED khi chủ kênh xác nhận.

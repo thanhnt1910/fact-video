@@ -1,6 +1,6 @@
 {
  "project": "lt1v4",
- "ghi_chu": "Sổ ảnh theo quy-trinh-anh.md mục 3. Chỉ chứa ảnh thử cũ, đều STALE.",
+ "ghi_chu": "Sổ ảnh theo quy-trinh-anh.md mục 3. Chỉ chứa ảnh thử cũ, đều STALE, không được dùng làm tham chiếu hay căn cứ đánh giá. Số người và ngựa THỰC TẾ ghi ở dem_thu_cong; số DỰ KIẾN ở ke_hoach (bản chụp từ Scene Planner lúc vẽ); hai trường luôn tách riêng.",
  "images": [
   {
    "image_id": "lt1v4-test-01",
@@ -22,7 +22,11 @@
     "ghi_chu": "Cả đội đội nón lá, giáp da nâu, cờ nâu đỏ"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-02",
@@ -44,7 +48,11 @@
     "ghi_chu": "Nón lá, giáp da nâu, cờ nâu đỏ; 3 kỵ binh nhỏ"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-03",
@@ -66,7 +74,11 @@
     "ghi_chu": "Nón lá; quân Tống có cờ xanh không chỉ định"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-04",
@@ -88,7 +100,11 @@
     "ghi_chu": "Bao tải thay đất; nón lá"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-05",
@@ -110,7 +126,11 @@
     "ghi_chu": "Đèn lồng kính treo (sai thời)"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-06",
@@ -132,7 +152,11 @@
     "ghi_chu": "Quân phục xanh hiện đại, mũ lưỡi trai"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-07",
@@ -154,7 +178,11 @@
     "ghi_chu": "Cờ đỏ sao vàng, quân phục hiện đại, nét 3D"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-08",
@@ -176,7 +204,11 @@
     "ghi_chu": "Quân phục hiện đại, cờ đỏ sao vàng"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-09",
@@ -198,7 +230,11 @@
     "ghi_chu": "Quân phục hiện đại, cờ đỏ sao vàng"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-10",
@@ -220,7 +256,11 @@
     "ghi_chu": "Bao tải, cờ đỏ sao vàng"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-11",
@@ -242,7 +282,11 @@
     "ghi_chu": "Quân phục xanh, tướng cầm bản đồ kiểu hiện đại"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-12",
@@ -264,7 +308,11 @@
     "ghi_chu": "Lính cầm súng"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-13",
@@ -286,7 +334,11 @@
     "ghi_chu": "Cả đội nón lá, giáp da nâu, cờ nâu đỏ"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-14",
@@ -308,7 +360,11 @@
     "ghi_chu": "Chép bố cục 19901 (tham chiếu), 2 kỵ binh"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-15",
@@ -330,7 +386,11 @@
     "ghi_chu": "Chép bố cục 19901; nón lá"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-16",
@@ -352,7 +412,11 @@
     "ghi_chu": "Chép bố cục 19901; thiếu dốc đất"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-17",
@@ -374,7 +438,11 @@
     "ghi_chu": "Mũ lưỡi trai phẳng (hiện đại)"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-18",
@@ -396,7 +464,11 @@
     "ghi_chu": "Mũ sắt tròn; 6 người"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-19",
@@ -418,7 +490,11 @@
     "ghi_chu": "Cả đội nón lá, giáp da nâu, cờ nâu đỏ"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-20",
@@ -440,7 +516,11 @@
     "ghi_chu": "2 kỵ binh; nón lá; cờ nâu đỏ"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-21",
@@ -462,7 +542,11 @@
     "ghi_chu": "Ít người hơn 12; chưa dùng nhãn"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-22",
@@ -484,7 +568,11 @@
     "ghi_chu": "Nón lá trên lính vác đất (nên chỉ dân phu)"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-23",
@@ -506,7 +594,11 @@
     "ghi_chu": "Giáp da cho cả ba người; giày da hiện đại nhẹ"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   },
   {
    "image_id": "lt1v4-test-24",
@@ -528,7 +620,11 @@
     "ghi_chu": "Cờ nâu đỏ; nón lá; 6 người"
    },
    "ghi_chu": "Ảnh thử trước khi có Bible v1.1/v1.2. Không dùng làm ảnh tham chiếu. Vi phạm v1.1: nón lá, giáp da, cờ nâu đỏ, chân đất làm mặc định, hoặc đồ sai thời.",
-   "superseded_by": null
+   "superseded_by": null,
+   "dem_thu_cong": null,
+   "ke_hoach": null,
+   "duoc_dung_lam_tham_chieu": false,
+   "ly_do_khong_dung_lam_tham_chieu": "STALE: ảnh thử trước khi có Bible hiện hành; không có trong tham-chieu-duoc-duyet.json"
   }
  ]
 }

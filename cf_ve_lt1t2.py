@@ -9,6 +9,9 @@ items = {i["n"]: i for i in json.loads((R / "ke-hoach/chibi/lt1t2_chibi.json").r
 want = sorted(items) if sys.argv[1] == "all" else [int(x) for x in sys.argv[1].split(",")]
 use_ref = len(sys.argv) > 2 and sys.argv[2] == "ref"
 REFS = {19901: [], 19902: [], 19903: [], 19904: [], 19905: [19901], 19906: [19901]}
+# Quy chuẩn 01/11/2026: chỉ ảnh có trong tham-chieu-duoc-duyet.json (chủ kênh duyệt) mới được dùng làm tham chiếu.
+_ap = R / "ke-hoach/anh/lt1v4/tham-chieu-duoc-duyet.json"
+APPROVED = {x["image_id"] for x in json.loads(_ap.read_text(encoding="utf-8")).get("anh", [])} if _ap.exists() else set()
 out = R / "assets/anh_chibi/lt1t2_cf"; out.mkdir(parents=True, exist_ok=True)
 def run(prompt, refs, seed):
     acc, tok = ai._creds()
@@ -29,7 +32,9 @@ def run(prompt, refs, seed):
         raw, ct = r.read(), r.headers.get("Content-Type", "")
     return raw if ct.startswith("image/") else base64.b64decode(json.loads(raw)["result"]["image"])
 for n in want:
-    refs = REFS[n] if use_ref else []
+    refs = [r for r in (REFS[n] if use_ref else []) if r in APPROVED]
+    if use_ref and REFS[n] and len(refs) != len(REFS[n]):
+        print(f"bỏ ảnh tham chiếu chưa được chủ kênh duyệt theo quy chuẩn hiện hành: {[r for r in REFS[n] if r not in APPROVED]}", flush=True)
     try:
         (out / f"{n}.png").write_bytes(run(items[n]["prompt"], refs, n))
         Image.open(out / f"{n}.png").convert("RGB").save(out / f"{n}.jpg", quality=92); (out / f"{n}.png").unlink()

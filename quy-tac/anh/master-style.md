@@ -1,4 +1,4 @@
-# MASTER STYLE – hệ thống hình ảnh tư liệu lịch sử (v1.2 DRAFT, 01/11/2026)
+# MASTER STYLE – hệ thống hình ảnh tư liệu lịch sử (v1.3 APPROVED, 01/11/2026)
 
 Dùng chung cho mọi video của kênh. Không đổi theo video. Đổi bản phải tăng version và có chủ kênh đồng ý.
 
@@ -52,6 +52,7 @@ Trạng thái: PASS / REVIEW / REGENERATE / MANUAL_REVIEW. Không báo PASS ch�
 3. Mỗi lần dùng phải khai rõ mục đích: `face_only`, `costume_only` hoặc `style_only`, và viết trong prompt bố cục mới bằng chữ viết hoa (số người, vị trí, hành động). Không dùng ảnh tham chiếu có bố cục gần với cảnh đích.
 4. Chỉ dùng ảnh tham chiếu đã duyệt VÀ còn hợp lệ với phiên bản Bible hiện hành. Ảnh tạo theo phiên bản cũ (trạng thái STALE) hoặc ảnh lỗi không được làm tham chiếu.
 5. Tối đa 2 ảnh tham chiếu mỗi lần. Ghi mã ảnh tham chiếu, mục đích và phiên bản vào bản ghi ảnh.
-6. **Ảnh 19901 KHÔNG còn là ảnh tham chiếu hợp lệ**: nó PASS theo Bible v1.0 nhưng vi phạm v1.1 (cả đội đội nón lá, giáp da nâu, cờ nâu đỏ). Chưa có ảnh tham chiếu nào được duyệt theo v1.1.
+6. Chỉ ảnh có trong `ke-hoach/anh/<mã>/tham-chieu-duoc-duyet.json` (chủ kênh duyệt) mới được dùng; bộ kiểm và script vẽ chặn ảnh khác bằng mã.
+7. **Ảnh 19901 KHÔNG còn là ảnh tham chiếu hợp lệ**: nó PASS theo Bible v1.0 nhưng vi phạm v1.1 (cả đội đội nón lá, giáp da nâu, cờ nâu đỏ). Chưa có ảnh tham chiếu nào được duyệt theo v1.1.
 
-Trạng thái bản này: DRAFT, chờ chủ kênh duyệt. Lịch sử phiên bản ở `quy-tac/anh/CHANGELOG.md`.
+Trạng thái bản này: **APPROVED** (v1.3, 01/11/2026, theo chỉ thị của chủ kênh sau kiểm cuối). Lịch sử phiên bản ở `quy-tac/anh/CHANGELOG.md`.

@@ -16,7 +16,7 @@ Quy tắc chung luôn có hiệu lực (nhập tự động ngay dưới). Trư�
 | Lịch sử Việt Nam (Đinh Bộ Lĩnh, Lê Hoàn, Lý Công Uẩn, Tây Sơn...) | `quy-tac/su-viet.md` + `quy-tac/video-ban-do.md` |
 | Lịch sử thế giới (Hán Sở, Hannibal, Mông Cổ...) | `quy-tac/lich-su-the-gioi.md` + `quy-tac/video-ban-do.md` |
 | Tên đường: nhân vật gắn với tên đường (tiểu sử, không giới hạn năm) | `quy-tac/ten-duong.md` + `quy-tac/video-ban-do.md` |
-| Vẽ ảnh minh họa bằng FLUX (Cloudflare klein, Kaggle) | `quy-tac/anh/master-style.md` + Period Bible của thời kỳ (`quy-tac/anh/period-<tên>.md`, hiện có `period-ly-tong.md` DRAFT) + `quy-tac/anh/khoi-prompt.json` + `quy-tac/anh/quy-trinh-anh.md` (lưu `detail_tags`, duyệt Scene Planner, phiên bản; kiểm bằng `phim_ban_do/kiem_scene_planner.py`) |
+| Vẽ ảnh minh họa bằng FLUX (Cloudflare klein, Kaggle) | `quy-tac/anh/master-style.md` + Period Bible của thời kỳ (`quy-tac/anh/period-<tên>.md`, hiện có `period-ly-tong.md` APPROVED) + `quy-tac/anh/khoi-prompt.json` + `quy-tac/anh/quy-trinh-anh.md` (lưu `detail_tags`, duyệt Scene Planner, phiên bản; kiểm bằng `phim_ban_do/kiem_scene_planner.py`) |
 
 Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừng thêm quy tắc riêng series vào `chung.md`. Quy tắc nào áp cho mọi series thì mới vào `chung.md`.
 
@@ -40,7 +40,7 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 - Mỗi cảnh vẫn phải mô tả riêng từng người (tuổi, râu tóc, màu áo) và soi bằng mắt ở cỡ lớn. Các quy tắc ảnh của series (không chữ, không máu, đúng thời, không hai người giống hệt, soi ảnh cỡ lớn) vẫn áp dụng.
 
 ## Ảnh Lý Thường Kiệt v4: tranh bán hiện thực bằng FLUX.2 klein (chủ kênh chuyển hẳn 01/11/2026; CHỈ áp dụng cho dự án lt1 v4)
-- Dự án Lý Thường Kiệt v4 (`ke-hoach/thu-giong-hai/lt1v4_full.json`) chuyển hẳn sang phong cách **tranh bán hiện thực** theo Master Style, vẽ bằng **FLUX.2 klein trên Cloudflare Workers AI** (khóa API miễn phí, không Worker/D1/R2). Quy chuẩn nằm ở `quy-tac/anh/` (xem bảng đầu file): `master-style.md`, `period-ly-tong.md`, `khoi-prompt.json`, `quy-trinh-anh.md`. Các tài liệu này đang **DRAFT**, chờ chủ kênh duyệt, chưa APPROVED.
+- Dự án Lý Thường Kiệt v4 (`ke-hoach/thu-giong-hai/lt1v4_full.json`) chuyển hẳn sang phong cách **tranh bán hiện thực** theo Master Style, vẽ bằng **FLUX.2 klein trên Cloudflare Workers AI** (khóa API miễn phí, không Worker/D1/R2). Quy chuẩn nằm ở `quy-tac/anh/` (xem bảng đầu file): `master-style.md`, `period-ly-tong.md`, `khoi-prompt.json`, `quy-trinh-anh.md`. Các tài liệu này đã **APPROVED** ngày 01/11/2026 (master-style v1.3, period-ly-tong v1.3, khoi-prompt v1.3, quy-trinh-anh v1.2; xem `quy-tac/anh/CHANGELOG.md`). Chưa lập Scene Planner, chưa vẽ ảnh; chỉ ảnh có trong `tham-chieu-duoc-duyet.json` mới làm tham chiếu.
 - Ba mức bằng chứng giữ riêng: A `historical_evidence`, B `cautious_reconstruction`, C `artistic_choice`.
 - **Chưa áp dụng cho dự án khác.** Series khác (Tam Quốc, Nguyên Mông, Hồ Quý Ly...) giữ quy tắc ảnh riêng của series đó cho tới khi chủ kênh duyệt riêng việc áp dụng.
 - Hai mục dưới đây (chibi lt1 và ảnh phẳng lt1) được giữ nguyên làm lịch sử, KHÔNG xóa, và **DEPRECATED cho lt1 v4**.

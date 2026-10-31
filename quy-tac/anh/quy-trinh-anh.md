@@ -1,6 +1,6 @@
-# QUY TRÌNH ẢNH – lưu `detail_tags`, kiểm duyệt Scene Planner, quản lý phiên bản (v1.1 DRAFT, 01/11/2026)
+# QUY TRÌNH ẢNH – lưu `detail_tags`, kiểm duyệt Scene Planner, quản lý phiên bản (v1.2 APPROVED, 01/11/2026)
 
-Áp dụng cho mọi video dùng ảnh FLUX. Trạng thái DRAFT: chờ chủ kênh duyệt. Chưa có Scene Planner nào được lập theo quy trình này.
+Áp dụng cho mọi video dùng ảnh FLUX. Chưa có Scene Planner nào được lập theo quy trình này.
 
 ## 1. Nơi lưu và truy vết `detail_tags`
 Mọi thứ lưu trong repo (không dùng Worker, D1, R2):
@@ -14,7 +14,8 @@ scene_id, segment_ids, scene_type,
 expected_people, expected_horses,            # BẮT BUỘC, số nguyên (0 nếu không có)
 main_characters = ["tên hoặc mô tả nhân vật chính"],   # BẮT BUỘC
 positions = "vị trí chủ thể và các nhóm trong khung hình",   # BẮT BUỘC
-groups = [ {"name":..., "count":N, "position":"tiền cảnh trái|trung cảnh|...", "role":..., "faction":"viet|song|dan"} ],  # BẮT BUỘC; tổng count = expected_people
+groups = [ {"name":..., "count":N, "horses":H, "mounted":M, "position":"tiền cảnh trái|trung cảnh|...", "role":..., "faction":"viet|song|dan"} ],
+            # BẮT BUỘC. Tổng count = expected_people; tổng horses = expected_horses; mounted = horses (mỗi kỵ binh một ngựa), mounted ≤ count
 composition (tiền cảnh, trung cảnh, hậu cảnh), camera, lighting,
 blocks_used  = ["VN_DAU","VN_GIAP", ...]            # mọi khối đã ghép
 detail_tags  = [ {"item":"khăn quấn đầu", "block":"VN_DAU", "tag":"artistic_choice", "evidence_level":"C",
@@ -28,7 +29,7 @@ plan_status, reuse_group
 ```
 **Truy ngược một chi tiết trong ảnh:** ảnh → bản ghi trong `anh.json` (`scene_id`, `prompt_version`) → cảnh trong planner → `detail_tags` → `block` trong `khoi-prompt.json` → `bible_ref` trong Period Bible → mức bằng chứng và nguồn. `bible_versions` cho biết ảnh vẽ theo phiên bản quy chuẩn nào.
 
-**Kiểm bằng máy:** `python phim_ban_do/kiem_scene_planner.py <mã video>` kiểm: đủ trường; mọi `block` có thật và nhãn và `evidence_level` không nhẹ hơn của khối trong `khoi-prompt.json`; `groups` đủ trường và tổng `count` bằng `expected_people`; có `main_characters` và `positions`; không có từ cấm khi cảnh không có khối cho phép (nón, mũ lưỡi trai, cờ, bao tải, đèn lồng...); prompt chứa nguyên văn khối STYLE và ANATOMY; số người, số ngựa khớp chữ trong prompt; độ dài prompt (klein tối đa 1.800 ký tự); `bible_versions` khớp phiên bản hiện hành; `free_text_details` rỗng.
+**Kiểm bằng máy:** `python phim_ban_do/kiem_scene_planner.py <mã video>` kiểm: đủ trường; mọi `block` có thật và nhãn và `evidence_level` không nhẹ hơn của khối trong `khoi-prompt.json`; `groups` đủ trường, tổng `count` bằng `expected_people`, tổng `horses` bằng `expected_horses`, `mounted` bằng `horses`, prompt có đúng "EXACTLY N horses" với N khớp (cảnh không ngựa thì prompt không được nhắc ngựa hoặc kỵ binh); `bible_ref` phải giải được tới một mục và hạng mục có thật trong Bible; `detail_tags` không nhắc khối ngoài `blocks_used`; ảnh tham chiếu phải có trong danh sách chủ kênh duyệt; có `main_characters` và `positions`; không có từ cấm khi cảnh không có khối cho phép (nón, mũ lưỡi trai, cờ, bao tải, đèn lồng...); prompt chứa nguyên văn khối STYLE và ANATOMY; số người, số ngựa khớp chữ trong prompt; độ dài prompt (klein tối đa 1.800 ký tự); `bible_versions` khớp phiên bản hiện hành; `free_text_details` rỗng.
 
 ## 2. Kiểm duyệt Scene Planner trước khi tạo ảnh
 Trạng thái kế hoạch (`plan_status`): `PLAN_DRAFT` → `PLAN_CHECKED` → `PLAN_OWNER_REVIEW` → `PLAN_APPROVED`. Không vẽ ảnh khi chưa `PLAN_APPROVED`.
@@ -50,7 +51,9 @@ Trạng thái kế hoạch (`plan_status`): `PLAN_DRAFT` → `PLAN_CHECKED` → 
 - **Khi Bible đổi:** chạy lại kiểm để liệt kê ảnh `STALE` (ảnh có `blocks_used` chứa khối đã đổi) và gửi chủ kênh danh sách. Không tự động vẽ lại ảnh nào.
 - **Ảnh tham chiếu:** chỉ ảnh `PASS`, không `STALE`, mới được dùng (Master Style mục 8).
 - **Giới hạn vẽ lại:** lần vẽ đầu (`attempt` 1) cộng tối đa 3 lần vẽ lại tự động (`attempt` ≤ 4). Vẫn không đạt thì đặt `status` = `MANUAL_REVIEW` và dừng tự động. **Không đổi nội dung lịch sử, nhãn bằng chứng hay tiêu chuẩn hình ảnh để ép cảnh đạt PASS.** Cách xử lý được phép: sửa cách viết bố cục, số lượng, góc máy trong phạm vi Bible, hoặc đề xuất chia ảnh; mọi thay đổi khác do chủ kênh quyết.
-- **Kiểm số người, số ngựa:** do người đếm bằng mắt. Bản ghi ảnh có `dem_thu_cong` = {"nguoi":N,"ngua":N,"dung_voi_ke_hoach":true|false,"ngay":...}. Chưa xây hệ thống đếm tự động.
+- **Kiểm số người, số ngựa:** do người đếm bằng mắt. Số THỰC TẾ ghi riêng ở `dem_thu_cong` = {"nguoi":N,"ngua":N,"nguoi_dem":"...","ngay":"..."}; số DỰ KIẾN là bản chụp `ke_hoach` = {"nguoi":N,"ngua":N} lấy từ Scene Planner lúc vẽ. Hai trường luôn tách riêng, không ghi đè nhau và không ghi đè `expected_people`, `expected_horses` của planner. Ảnh PASS bắt buộc có cả hai và hai bên phải khớp; lệch thì chỉ được REVIEW hoặc REGENERATE. Chưa xây hệ thống đếm tự động.
+- **Ảnh tham chiếu được duyệt:** chỉ ảnh có trong `ke-hoach/anh/<mã>/tham-chieu-duoc-duyet.json` (do CHỦ KÊH duyệt, kèm `duyet_boi`, `ngay`), có bản ghi `PASS` và `bible_versions` khớp phiên bản hiện hành. Danh sách này hiện RỖNG. Ảnh cũ (19901 đến 19906 và 24 ảnh thử) là `STALE`, thư mục chứa chúng có file `KHONG_DUNG_LAM_THAM_CHIEU.md`, và `kiem_scene_planner.py` cùng `cf_ve_lt1t2.py` từ chối chúng.
+- **Chặn vẽ quá lượt bằng mã:** script vẽ hàng loạt phải gọi `python phim_ban_do/anh_quy_tac.py <mã> <scene_id>` (hoặc `anh_quy_tac.quyet_dinh_ve`) trước mỗi lần vẽ; mã thoát 0 mới được vẽ, 3 là phải chuyển `MANUAL_REVIEW`, và `kiem_scene_planner.py` báo lỗi nếu sổ ảnh vượt lượt.
 - **Ảnh vẽ trước quy chuẩn hiện hành** (ảnh thử 31/10, lượt Kaggle cũ) là `STALE`, không dùng làm căn cứ duyệt ảnh tham chiếu hay đánh giá chất lượng theo quy chuẩn mới.
 
 ## 4. Việc còn mở

@@ -1,6 +1,6 @@
-# PERIOD BIBLE – Đại Việt nhà Lý và Trung Hoa nhà Tống (v1.3 DRAFT, 01/11/2026)
+# PERIOD BIBLE – Đại Việt nhà Lý và Trung Hoa nhà Tống (v1.3 APPROVED, 01/11/2026)
 
-**Trạng thái: DRAFT (đã sửa theo quyết định phục dựng thận trọng và giữ riêng ba mức bằng chứng; chờ chủ kênh xác nhận quy chuẩn cuối).** Chưa APPROVED. Chưa lập Scene Planner, chưa vẽ lại ảnh nào theo bản này.
+**Trạng thái: APPROVED v1.3 (01/11/2026), theo chỉ thị của chủ kênh sau kiểm cuối.** Các chỗ còn thiếu tư liệu (mục I) KHÔNG chặn việc dùng: chi tiết thiếu căn cứ vẫn phải mang nhãn `artistic_choice` hoặc `cautious_reconstruction`. Chưa lập Scene Planner, chưa vẽ ảnh theo bản này.
 
 ## A. Nhận diện
 - Thời kỳ: 1075–1077 (chiến tranh Lý–Tống), tham chiếu thêm 1069–1105 (đời Lý Thường Kiệt).
@@ -100,4 +100,4 @@ Quân vây thành đắp đất thành dốc áp chân tường: sự kiện the
 - v1.3 (theo chủ kênh 01/11): giữ riêng ba mức A `historical_evidence`, B `cautious_reconstruction`, C `artistic_choice`, không gộp. Các dòng trước ghi "A/B" (giáp vảy, mũ sắt, vũ khí Tống) nay ghi **B** vì chưa có nguồn khảo cổ trực tiếp đã kiểm; dốc đất: sự kiện theo sử liệu, hình ảnh B. Chỉ kiến trúc cung điện giữ **A**. Mỗi chi tiết có `evidence_level` gốc, không đổi khi vào cảnh.
 Bảng ánh xạ dòng bảng sang khối: Giáp lính → VN_GIAP; Quần áo lính → VN_AO_VAI; Mũ/đầu → VN_DAU; Nón lá → VN_NON_DAN_PHU; Tướng lĩnh → VN_TUONG; Giày dép → VN_CHAN; Vũ khí → VN_VU_KHI; Cờ Đại Việt → VN_CO; Lý Thường Kiệt → VN_TUONG_LY_THUONG_KIET; Kiến trúc cung điện → KIEN_TRUC_CUNG; Nhà dân → NHA_DAN; Giáp Tống theo binh chủng → SONG_BO_BINH_NANG, SONG_CUNG_NO, SONG_BO_BINH_NHE, SONG_SI_QUAN; Cờ Tống → SONG_CO; Thành trì → THANH_SONG; Dốc đất → DOC_DAT; Vác đất → VAC_DAT; Đèn → DEN.
 
-Trạng thái: DRAFT v1.3. Chỉ chuyển APPROVED khi chủ kênh xác nhận.
+Trạng thái: APPROVED v1.3 (01/11/2026). Mọi thay đổi sau đây phải tăng phiên bản và có chủ kênh đồng ý; không tự sửa bản APPROVED.

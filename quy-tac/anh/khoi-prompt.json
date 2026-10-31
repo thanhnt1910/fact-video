@@ -1,5 +1,5 @@
 {
- "phien_ban": "1.3-DRAFT",
+ "phien_ban": "1.3-APPROVED",
  "ghi_chu": "Khớp period-ly-tong.md v1.3 và master-style.md v1.2. 'tag' chỉ nhận historical_evidence (mức A), cautious_reconstruction (mức B), artistic_choice (mức C), hoặc style_rule (khối kiểu vẽ, không phải chi tiết lịch sử). 'evidence_level' giữ mức gốc A/B/C và KHÔNG được đổi khi ghép vào cảnh. Khối mang nhãn không phải mặc định của cả đội quân.",
  "STYLE": {
   "tag": "style_rule",
@@ -160,5 +160,6 @@
   "bible_ref": "period-ly-tong#C Nhà dân",
   "evidence_level": "C"
  },
- "NGUYEN_TAC": "Không có khối thì không có chi tiết (master-style#7). Khối ngoài danh sách phải thêm vào file này kèm bible_ref và tag trước khi dùng."
+ "NGUYEN_TAC": "Không có khối thì không có chi tiết (master-style#7). Khối ngoài danh sách phải thêm vào file này kèm bible_ref và tag trước khi dùng.",
+ "ngay_duyet": "01/11/2026"
 }

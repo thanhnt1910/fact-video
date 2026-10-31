@@ -86,9 +86,9 @@ for ten, got, want in cases:
     ok = got == want; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + ten + ('' if ok else f'  [{got}]'))
 # thư mục thật
 K.bad.clear(); real = json.load(open(f'{Q.R}/ke-hoach/anh/lt1v4/anh.json', encoding='utf-8'))['images']; K.kiem_anh(real, [])
-ok = not K.bad and all((not r['duoc_dung_lam_tham_chieu'] and r['status'] == 'STALE') or r['image_id'] == 'CR-LTK-B2' for r in real) and sum(r['status'] != 'STALE' for r in real) == 1; kq.append(ok)
-print(('PASS ' if ok else 'FAIL ') + f'12 Sổ ảnh thật: {len(real)} ảnh, ảnh cũ đều STALE; ngoại lệ duy nhất CR-LTK-B2 (PASS, chủ kênh duyệt), 0 lỗi {K.bad[:2]}')
-ds = Q.tham_chieu_duoc_duyet('lt1v4')['anh']; ok = [x['image_id'] for x in ds] == ['CR-LTK-B2'] and ds[0]['muc_dich'] == 'face_only' and ds[0]['duyet_boi'] == 'chủ kênh' and Q.tham_chieu_hop_le('lt1v4', 'CR-LTK-B2')[0]; kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'13 Danh sách ảnh tham chiếu được duyệt: {len(ds)} ảnh (chỉ CR-LTK-B2, face_only; Tông Đản chưa có)')
+ok = not K.bad and all((not r['duoc_dung_lam_tham_chieu'] and r['status'] == 'STALE') or r['image_id'] in ('CR-LTK-B2', 'CR-TD-4') for r in real) and sum(r['status'] != 'STALE' for r in real) == 2; kq.append(ok)
+print(('PASS ' if ok else 'FAIL ') + f'12 Sổ ảnh thật: {len(real)} ảnh, ảnh cũ đều STALE; ngoại lệ CR-LTK-B2 và CR-TD-4 (PASS, chủ kênh duyệt), 0 lỗi {K.bad[:2]}')
+ds = Q.tham_chieu_duoc_duyet('lt1v4')['anh']; ok = [x['image_id'] for x in ds] == ['CR-LTK-B2', 'CR-TD-4'] and all(x['muc_dich'] == 'face_only' and x['duyet_boi'] == 'chủ kênh' for x in ds) and all(Q.tham_chieu_hop_le('lt1v4', i)[0] for i in ('CR-LTK-B2', 'CR-TD-4')); kq.append(ok); print(('PASS ' if ok else 'FAIL ') + f'13 Danh sách ảnh tham chiếu được duyệt: {len(ds)} ảnh (CR-LTK-B2 và CR-TD-4, face_only)')
 
 # --- ảnh cũ không thể lọt qua dù bị ghi nhầm vào danh sách duyệt; ảnh hợp lệ thì qua được
 import shutil
@@ -212,7 +212,7 @@ tinh('27b Hồ sơ nhân vật ghi ảnh tham chiếu chưa có trong danh sách
 pm = json.loads(json.dumps(PR)); pm[0]['ung_vien_chua_duyet'][0]['duoc_dung_lam_tham_chieu'] = True
 tinh('27c Ứng viên chưa duyệt bị đánh dấu dùng làm tham chiếu bị chặn', any('chưa được duyệt' in l for l in kr(None, pm)))
 tinh('27d Râu Lý Thường Kiệt: S2 đã APPROVED "đen pha bạc" (C, OWNER_APPROVAL, visual_only, không phải dữ kiện lịch sử, DQ-005); S1, S3, S4 vẫn UNDECIDED; Tông Đản UNDECIDED', all((g['dac_diem']['rau']['trang_thai'] == 'APPROVED' and g['dac_diem']['rau']['gia_tri'].startswith('đen pha bạc') and g['dac_diem']['rau']['quyet_dinh'] == 'DQ-005') if g['id'] == 'S2' else (g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' and g['dac_diem']['rau']['gia_tri'] is None) for g in PR[0]['giai_doan']) and all(g['dac_diem']['rau']['evidence_level'] == 'C' and g['dac_diem']['rau']['decision_mode'] == 'OWNER_APPROVAL' and g['dac_diem']['rau']['approval_scope'] == 'visual_only' and g['dac_diem']['rau']['la_du_kien_lich_su'] is False for p_ in PR for g in p_['giai_doan']) and all(g['dac_diem']['rau']['trang_thai'] == 'UNDECIDED' for g in PR[1]['giai_doan']))
-tinh('27e Danh sách ảnh tham chiếu được duyệt chỉ có CR-LTK-B2; hồ sơ Lý Thường Kiệt khớp; Tông Đản chưa có ảnh duyệt', [x['image_id'] for x in Q.tham_chieu_duoc_duyet('lt1v4')['anh']] == ['CR-LTK-B2'] and PR[0]['anh_tham_chieu_da_duyet'] == ['CR-LTK-B2'] and PR[1]['anh_tham_chieu_da_duyet'] == [] and all(r.get('reference_images') == [dict(image_id='CR-LTK-B2', purpose='face_only')] for r in RS if r['scene_id'] in ('L04', 'L11')))
+tinh('27e Ảnh tham chiếu được duyệt: CR-LTK-B2 (Lý Thường Kiệt) và CR-TD-4 (Tông Đản), hồ sơ khớp', [x['image_id'] for x in Q.tham_chieu_duoc_duyet('lt1v4')['anh']] == ['CR-LTK-B2', 'CR-TD-4'] and PR[0]['anh_tham_chieu_da_duyet'] == ['CR-LTK-B2'] and PR[1]['anh_tham_chieu_da_duyet'] == ['CR-TD-4'] and all(r.get('reference_images') == [dict(image_id='CR-LTK-B2', purpose='face_only')] for r in RS if r['scene_id'] in ('L04', 'L11')))
 # tài liệu APPROVED và phiên bản không đổi so với baseline b1
 BL = json.load(open(f'{Q.R}/phim_ban_do/baseline_kiem/baseline.json', encoding='utf-8'))['baseline']['b1']['sha256']
 for fn in ('quy-tac/anh/master-style.md', 'quy-tac/anh/period-ly-tong.md', 'quy-tac/anh/khoi-prompt.json', 'quy-tac/anh/quy-trinh-anh.md'):

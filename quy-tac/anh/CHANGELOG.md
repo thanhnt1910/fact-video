@@ -1,5 +1,8 @@
 # CHANGELOG quy chuẩn ảnh
 
+## 01/11/2026, chủ kênh chọn CR-TD-4 làm ảnh tham chiếu Tông Đản
+- `CR-TD-4` (Tông Đản, râu đen ngắn) vào danh sách duyệt, `face_only`, giai đoạn S1, mức C; ghi vào `tham-chieu-duoc-duyet.json`, `anh.json`, hồ sơ nhân vật. Không cảnh nào hiện đang thấy mặt Tông Đản nên chưa cảnh nào khai tham chiếu này.
+
 ## 01/11/2026, câu cảm ơn cuối video, ảnh tham chiếu Lý Thường Kiệt được duyệt, vẽ lại Tông Đản
 - **Kịch bản 91 đoạn:** thêm đoạn cuối "Cảm ơn bạn đã lắng nghe." (chủ kênh duyệt; tách riêng vì ghép vào đoạn trước vượt 32 chữ; bộ kiểm cảnh báo ngắn có chủ ý). Bộ kiểm kịch bản: 0 lỗi.
 - **Ảnh tham chiếu được duyệt:** `CR-LTK-B2` (Lý Thường Kiệt, râu đen pha bạc), mục đích `face_only`, giai đoạn S2, vẫn mức C. Ghi vào `tham-chieu-duoc-duyet.json`, `anh.json` (PASS) và hồ sơ nhân vật. L04 và L11 khai tham chiếu này. Không sao chép trang phục, tư thế, bố cục, phụ kiện.

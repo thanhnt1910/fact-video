@@ -11,6 +11,17 @@
    "duyet_boi": "chủ kênh",
    "ngay": "2026-11-01",
    "ghi_chu": "Chỉ mặt, tuổi, râu đen pha bạc. Không sao chép trang phục, tư thế, bố cục, phụ kiện. Mức C, không phải dữ kiện lịch sử."
+  },
+  {
+   "image_id": "CR-TD-4",
+   "nhan_vat": "tong-dan",
+   "giai_doan": [
+    "S1"
+   ],
+   "muc_dich": "face_only",
+   "duyet_boi": "chủ kênh",
+   "ngay": "2026-11-01",
+   "ghi_chu": "Chỉ mặt, tuổi, râu đen ngắn. Không sao chép trang phục, tư thế, bố cục, phụ kiện. Mức C, không phải dữ kiện lịch sử."
   }
  ]
 }

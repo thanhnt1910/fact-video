@@ -112,9 +112,20 @@
    "giai_doan": "S1",
    "ghi_chu": "tốt nhất trong ba, cần sửa giày",
    "duoc_dung_lam_tham_chieu": false
+  },
+  {
+   "image_id": "CR-TD-4",
+   "file": "assets/anh_nhan_vat/lt1v4/CR-TD-4.jpg",
+   "giai_doan": [
+    "S1"
+   ],
+   "ghi_chu": "râu đen ngắn (ĐÃ DUYỆT 01/11/2026, face_only)",
+   "duoc_dung_lam_tham_chieu": true
   }
  ],
- "anh_tham_chieu_da_duyet": [],
+ "anh_tham_chieu_da_duyet": [
+  "CR-TD-4"
+ ],
  "pham_vi_tai_su_dung_anh": {
   "muc_dich_cho_phep": [
    "face_only"
@@ -125,7 +136,9 @@
    "bố cục",
    "phụ kiện"
   ],
-  "giai_doan_ap_dung": [],
+  "giai_doan_ap_dung": [
+   "S1"
+  ],
   "du_an": [
    "lt1v4"
   ]

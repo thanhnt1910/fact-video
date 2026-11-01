@@ -2,6 +2,8 @@
 import sys
 sys.path.insert(0,'assets/bia/NQ1')
 from tao_bia import *
+import tao_bia
+tao_bia.logo=Image.open('assets/logo/nguoi-gac-su-cu.png').convert('RGBA')  # logo cây đèn (cũ), giống video bản đồ
 def ngang(src,out):
     im=Image.open(src).convert('RGB').crop((0,60,1280,780)).resize((1920,1080),Image.LANCZOS).convert('RGBA')
     g=Image.new('RGBA',im.size,(0,0,0,0)); d=ImageDraw.Draw(g)

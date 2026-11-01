@@ -31,6 +31,7 @@ function fig(P0,x,y,o){
   for(let i=-2;i<=2;i++)el('path',{d:`M${i*5},-28 L${i*5.6},-17`,stroke:INK,'stroke-width':.5,opacity:.5},g);
   if(o.pauld){for(const s of [-1,1]){el('ellipse',{cx:s*11.5,cy:-50,rx:6.4,ry:4.6,fill:ac,stroke:INK,'stroke-width':1},g);el('path',{d:`M${s*11.5-5},-50 L${s*11.5+5},-50`,stroke:'#e6c86a','stroke-width':1.1},g)}}}
  el('path',{d:'M-10.5,-29.5 L10.5,-29.5',stroke:'#3b2a1c','stroke-width':3},g);
+ if(o.sack)el('ellipse',{cx:-9,cy:-46,rx:10,ry:7.5,fill:'#cdbd8e',stroke:INK,'stroke-width':1.1},g);
  // tay + vũ khí
  const arm=(x0,y0,x1,y1,w)=>{const d=`M${x0},${y0} L${x1},${y1}`;el('path',{d,stroke:INK,'stroke-width':(w||5.6)+1.8,'stroke-linecap':'round'},g);el('path',{d,stroke:col,'stroke-width':w||5.6,'stroke-linecap':'round'},g);el('circle',{cx:x1,cy:y1,r:2.8,fill:sk,stroke:INK,'stroke-width':.7},g)};
  const w=o.arm;
@@ -145,8 +146,8 @@ function tree(g,x,y,s){const e=el('g',{transform:`translate(${x},${y}) scale(${K
 function stake(g,x,y,h,wd,col){const e=el('g',{transform:`translate(${x},${y}) scale(${K1})`},g);
  el('path',{d:`M${-wd},0 L${-wd},${-h} L0,${-h-wd*1.5} L${wd},${-h} L${wd},0z`,fill:col,stroke:INK,'stroke-width':1.2,'stroke-linejoin':'round'},e)}
 
-window.CC=function(t,it,a){
- setup(it);const tau=t-(it.ts==null?it.t0:it.ts);
+const CCnn=function(t,it,a){
+ setup(it);const tau=(t-(it.ts==null?it.t0:it.ts))*(it.sp||1);
  const zf=ease(cl((SC/SCf-.3)/.6)),al=a*zf;if(al<=.01)return;
  const GD=el('g',{opacity:a},dyn);ground(GD,tau);
  const D=el('g',{opacity:al},dyn);
@@ -246,12 +247,94 @@ function burst(cx,cy,u,txt){
  el('polygon',{points:pts.join(' '),fill:'#ffd84a',stroke:'#b3261e','stroke-width':6,'stroke-linejoin':'round'},g);
  el('text',{x:cx,y:cy+20*s,'text-anchor':'middle','font-size':58*s,'font-weight':700,fill:'#7a1f1f','paint-order':'stroke',stroke:'#fff3c4','stroke-width':4},g).textContent='!!!';
 }
-window.CCH=function(t,it,a){
- setup(it);const tau=t-(it.ts==null?it.t0:it.ts);if(tau<0)return;const zf=ease(cl((SC/SCf-.8)/.2));if(zf<=0.01||a<=0.01)return;
+const CCHnn=function(t,it,a){
+ setup(it);const tau=(t-(it.ts==null?it.t0:it.ts))*(it.sp||1);if(tau<0)return;const zf=ease(cl((SC/SCf-.8)/.2));if(zf<=0.01||a<=0.01)return;
  const g=el('g',{opacity:a*zf},hud);
  const save=hud;
  badge(t,tau,it,LTK.u,LTK.v-8,86,'v','Lý Thường Kiệt','Đại Việt',2.4,'cpL',true);
  badge(t,tau,it,QQ.u,QQ.v,84,'s','Quách Quỳ','nhà Tống',3.4,'cpQ');
  for(const r of [0,2]){const u=(tau-BURN[r]-.05)/1.5;if(u>0&&u<1){const rp=rafPos(r,tau),p=Lc(rp[0],rp[1]),[sx,sy]=toS(p[0],p[1]);burst(sx,sy-190*SC/SCf,u)}}
 };
+
+// =================== CẢNH ỨNG CHÂU: đắp đường đất bằng bao đất, đánh thành ===================
+const UW=-80,WH=118,UR=[-420,420];
+function ucBreach(){return 14.2}
+function wallTop(u){return Lc(u,UW)}
+function drawWall(D,tau,L){
+ const b1=Lc(UR[0],UW),b2=Lc(UR[1],UW),t=W(WH);
+ L.push({y:b1[1]-W(2),f:()=>{
+  el('polygon',{points:`${b1[0]},${b1[1]} ${b2[0]},${b2[1]} ${b2[0]},${b2[1]-t} ${b1[0]},${b1[1]-t}`,fill:'#bfb59d',stroke:INK,'stroke-width':W(2.2),'stroke-linejoin':'round'},D);
+  for(let r=1;r<6;r++){const y0=b1[1]+(b2[1]-b1[1])*0,p0=Lc(UR[0],UW),p1=Lc(UR[1],UW);el('path',{d:`M${p0[0]},${p0[1]-t*r/6} L${p1[0]},${p1[1]-t*r/6}`,stroke:'#8d8470','stroke-width':W(1),opacity:.8},D)}
+  for(let u=UR[0]+30,i=0;u<UR[1];u+=46,i++){for(let r=0;r<6;r++){const p=Lc(u+(r%2)*23,UW);el('path',{d:`M${p[0]},${p[1]-t*r/6} L${p[0]},${p[1]-t*(r+1)/6}`,stroke:'#8d8470','stroke-width':W(.9),opacity:.7},D)}}
+  const g=Lc(0,UW);el('path',{d:`M${g[0]-W(38)},${g[1]} L${g[0]-W(38)},${g[1]-W(58)} A${W(38)},${W(34)} 0 0 1 ${g[0]+W(38)},${g[1]-W(58)} L${g[0]+W(38)},${g[1]}z`,fill:'#3a2a1c',stroke:INK,'stroke-width':W(2)},D);
+  const open=cl((tau-ucBreach())/.8);
+  for(let i=-3;i<=3;i++)el('path',{d:`M${g[0]+W(i*10)},${g[1]} L${g[0]+W(i*10)},${g[1]-W(60)+W(Math.abs(i)*2)}`,stroke:'#6b4a28','stroke-width':W(5.2),opacity:1-open*.85},D);
+  for(const e of UR){const p=Lc(e,UW),w=W(34);el('rect',{x:p[0]-w,y:p[1]-W(158),width:2*w,height:W(158),fill:'#b3a98f',stroke:INK,'stroke-width':W(2.2)},D);
+   el('path',{d:`M${p[0]-w-W(12)},${p[1]-W(158)} L${p[0]},${p[1]-W(190)} L${p[0]+w+W(12)},${p[1]-W(158)}z`,fill:'#6e6a64',stroke:INK,'stroke-width':W(2.2),'stroke-linejoin':'round'},D)}
+ }});
+ // lỗ châu mai vẽ sau lính để che chân
+ for(let u=UR[0]+60;u<UR[1]-40;u+=46){const p=Lc(u,UW);L.push({y:p[1]-W(2)+W(.5),f:()=>el('rect',{x:p[0]-W(12),y:p[1]-t-W(14),width:W(24),height:W(14),fill:'#bfb59d',stroke:INK,'stroke-width':W(1.6)},D)})}
+}
+function house(D,x,y,s,burn,t){const e=el('g',{transform:`translate(${x},${y}) scale(${K1*s})`},D);
+ el('rect',{x:-30,y:-34,width:60,height:34,fill:'#d9ccaa',stroke:INK,'stroke-width':1.8},e);
+ el('path',{d:'M-38,-34 L0,-62 L38,-34z',fill:'#6e6a64',stroke:INK,'stroke-width':1.8,'stroke-linejoin':'round'},e);
+ el('rect',{x:-7,y:-20,width:14,height:20,fill:'#5a3b1c'},e);
+ if(burn>0)e.setAttribute('data-b','1')}
+function ground2(D,tau){
+ const poly=(pts,fill,ex)=>el('polygon',Object.assign({points:pts.map(p=>Lc(p[0],p[1]).join(',')).join(' '),fill},ex||{}),D);
+ const X=14000;poly([[-X,-1300],[X,-1300],[X,1300],[-X,1300]],'#dfe6bd',{opacity:.55});
+ poly([[-X,-40],[X,-40],[X,10],[-X,10]],'#8fb3c8',{opacity:.75});   // hào quanh thành
+ el('path',{d:`M${Lc(-900,215).join(',')} Q${Lc(-100,170).join(',')} ${Lc(60,60).join(',')}`,stroke:'#cdb985','stroke-width':W(30),fill:'none',opacity:.5,'stroke-linecap':'round'},D);
+}
+const CCuc=function(t,it,a){
+ setup(it);const tau=(t-(it.ts==null?it.t0:it.ts))*(it.sp||1);
+ const zf=ease(cl((SC/SCf-.3)/.6)),al=a*zf;
+ const GD=el('g',{opacity:a},dyn);ground2(GD,tau);
+ if(al<=.01)return;const D=el('g',{opacity:al},dyn);
+ const L=[];const push=(y,f)=>L.push({y,f});const BR=ucBreach();
+ const hRamp=WH*ease(cl((tau-1)/10.5));
+ // nhà trong thành
+ [[-330,-200],[-190,-250],[-60,-190],[90,-240],[220,-200],[340,-260],[-260,-320],[40,-330],[280,-340]].forEach(([u,v],i)=>{const p=Lc(u,v),b=ease(cl((tau-BR-.6-i*.35)/1.2));push(p[1],()=>{house(D,p[0],p[1],1.0+(i%3)*.12,b,t);if(b>0.02)flameC(D,p[0],p[1]-W(40),W(14)*b,t+i,1)})});
+ drawWall(D,tau,L);
+ // đường đất bao đất
+ {const bl=Lc(-45,155),br=Lc(175,155),h=W(hRamp),tr=Lc(100,UW+6),tl=Lc(20,UW+6);
+  push(bl[1],()=>{el('polygon',{points:`${bl[0]},${bl[1]} ${br[0]},${br[1]} ${tr[0]},${tr[1]-h} ${tl[0]},${tl[1]-h}`,fill:'#a98d5a',stroke:INK,'stroke-width':W(2.2),'stroke-linejoin':'round'},D);
+   for(let r=0;r<9;r++){const f=r/9;for(let c=0;c<6;c++){const x=lerp(lerp(bl[0],tl[0],f),lerp(br[0],tr[0],f),(c+.5+(r%2)*.5)/6.5),y=lerp(bl[1],tl[1]-h,f)+W(0);if(f*1.0<=1)el('ellipse',{cx:x,cy:y,rx:W(11)*(1-f*.4),ry:W(6)*(1-f*.4),fill:'#cdbd8e',stroke:INK,'stroke-width':W(.8)},D)}}})}
+ // kho bao đất
+ {const p=Lc(-300,205);push(p[1],()=>{for(let i=0;i<9;i++)el('ellipse',{cx:p[0]+W((i%3)*26-26),cy:p[1]-W(Math.floor(i/3)*11),rx:W(13),ry:W(7),fill:'#cdbd8e',stroke:INK,'stroke-width':W(1)},D)})}
+ // người khiêng đất
+ for(let k=0;k<8;k++){const pr=((tau*.075+k/8)%1);let u,v,hh=0,sack=true,fl=false;
+  if(pr<.25){const f=pr/.25;u=lerp(-290,60+(k%3-1)*22,f);v=lerp(205,150,f)}
+  else if(pr<.5){const f=(pr-.25)/.25;u=lerp(60+(k%3-1)*22,60+(k%3-1)*14,f);v=lerp(150,UW+30,f);hh=hRamp*f*.96}
+  else if(pr<.56){u=60+(k%3-1)*14;v=UW+30;hh=hRamp*.96;sack=false}
+  else {const f=(pr-.56)/.44;u=lerp(60+(k%3-1)*14,-290,f);v=lerp(UW+30,205,f);hh=hRamp*(1-ease(cl(f*3)));sack=false;fl=true}
+  const p=Lc(u,v);const dist=Math.hypot(p[0],p[1]);
+  push(p[1]+W(3),()=>fig(D,p[0],p[1]-W(hh),{sz:66,col:k%2?VI.tun:'#7a4f26',trou:VI.trou,hat:'khan',hatcol:k%2?'#6b4a2a':'#8a3a24',arm:'none',sack,flip:fl,walk:tau*7+k*1.3}))}
+ // cung thủ Đại Việt
+ [-260,-170,-80,260,340].forEach((u,j)=>{const p=Lc(u,128+(j%2)*10),sh=shot(j,tau,3.5,1.3,.27);push(p[1],()=>fig(D,p[0],p[1],{sz:70,col:VI.tun,trou:VI.trou,hat:'khan',hatcol:j%2?'#8a3a24':'#6b4a2a',arm:'bow',d:sh.d,nock:sh.nock,fire:tau>8&&j%2==0,armor:j==1,acol:VI.arm,flip:false}))});
+ [-200,-30,200,300].forEach((u,j)=>{const p=Lc(u,176),r=BR+1+j*.35;const adv=ease(cl((tau-r)/2.2));const q=Lc(lerp(u,u*.2,adv),lerp(176,UW-10,adv*(tau>BR?1:0)));const pp=tau>BR+.5?q:p;push(pp[1],()=>fig(D,pp[0],pp[1],{sz:70,col:j%2?VI.tun:'#7a4f26',trou:VI.trou,hat:'khan',hatcol:'#6b4a2a',arm:'spear',armor:j%2==0,acol:VI.arm,walk:tau>BR+.5&&adv<1?tau*8:0}))});
+ // lính Tống trên thành
+ for(let i=0;i<10;i++){const u=-360+i*76,p=wallTop(u),bow=i%3==1,sh=shot(i,tau,3.0,1.6,.3);
+  const gone=cl((tau-BR-.3-((i*37)%10)*.18)/1.4);if(gone>=1)continue;
+  push(p[1]-W(3),()=>fig(D,p[0],p[1]-W(WH)-W(3)+W(gone*18),{sz:64,col:SO.tun,trou:SO.trou,hat:'songhelm',plume:i==4,armor:true,acol:SO.arm,arm:gone>0?'flail':(bow?'bow':'spear'),tt:tau,ph:i,d:sh.d,nock:sh.nock&&bow,flip:!bow,al:1-gone}))}
+ // quân Việt lên thành sau khi thủng
+ for(let i=0;i<7;i++){const u=-120+i*42,p=wallTop(u),ap=ease(cl((tau-BR-1.2-i*.25)/.8));if(ap<=0)continue;push(p[1]-W(2),()=>fig(D,p[0],p[1]-W(WH)-W(3),{sz:66,col:i%2?VI.tun:'#7a4f26',trou:VI.trou,hat:'khan',hatcol:'#6b4a2a',arm:'spear',al:ap}))}
+ // Lý Thường Kiệt chỉ huy trên gò đất phía sau
+ {const p=Lc(-380,215);push(p[1],()=>{el('ellipse',{cx:p[0],cy:p[1],rx:W(76),ry:W(20),fill:'#a98d5a',stroke:INK,'stroke-width':W(1.6)},D);el('ellipse',{cx:p[0],cy:p[1]-W(5),rx:W(62),ry:W(14),fill:'#bfa36a'},D);
+   fig(D,p[0],p[1]-W(8),{sz:86,col:'#7a3b1c',trou:'#4a2a1a',hat:'ltk',hatcol:'#b3261e',arm:'point',armor:true,pauld:true,acol:'#b08a3a',cape:true,beard:true})})}
+ L.sort((x,y)=>x.y-y.y);for(const e of L)e.f();
+ const AR=el('g',{},D);
+ [-260,-170,-80,260,340].forEach((u,j)=>{const S0=Lc(u+18,128-52+(j%2)*10);for(let n=Math.max(0,Math.floor((tau-3.5-j*.27-.85)/1.3));n<=Math.floor((tau-3.5-j*.27)/1.3)+1;n++){const ts=3.5+j*.27+n*1.3,p=(tau-ts)/.85;if(p<=0||p>=1||ts>BR+.2)continue;
+  const T=Lc(-340+((j*3+n*5)%9)*76,UW-WH-30);arrow(AR,S0,T,p,120,tau>8&&j%2==0,t)}});
+ for(let i=1;i<10;i+=3){const p0=wallTop(-360+i*76),S0=[p0[0]+W(18),p0[1]-W(WH)-W(52)];for(let n=Math.max(0,Math.floor((tau-3.0-i*.3-.85)/1.6));n<=Math.floor((tau-3.0-i*.3)/1.6)+1;n++){const ts=3.0+i*.3+n*1.6,p=(tau-ts)/.85;if(p<=0||p>=1||ts>BR-.3)continue;
+  const T=Lc(-300+((i*7+n*3)%7)*80,135);arrow(AR,S0,T,p,90,false,t)}}
+};
+const CCHuc=function(t,it,a){
+ setup(it);const tau=(t-(it.ts==null?it.t0:it.ts))*(it.sp||1);if(tau<0)return;const zf=ease(cl((SC/SCf-.8)/.2));if(zf<=0.01||a<=0.01)return;
+ badge(t,tau,it,-380,207,86,'v','Lý Thường Kiệt','Đại Việt',2.0,'cpL',true);
+ const u=(tau-BR0()-.1)/1.6;if(u>0&&u<1){const p=Lc(40,UW),[sx,sy]=toS(p[0],p[1]);burst(sx,sy-120*SC/SCf,u)}
+};
+function BR0(){return ucBreach()}
+window.CC=(t,it,a)=>(it.scene=='uc'?CCuc:CCnn)(t,it,a);
+window.CCH=(t,it,a)=>(it.scene=='uc'?CCHuc:CCHnn)(t,it,a);
 })();

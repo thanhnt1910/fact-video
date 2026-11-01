@@ -1,0 +1,39 @@
+name: Thử phong cách hoạt hình (Cloudflare, FLUX.2 klein)
+
+# Chỉ chạy khi chủ kênh yêu cầu. Đẩy ke-hoach/thu-phong-cach/chay.txt (dòng 1: danh sách mã, hoặc all).
+on:
+  push:
+    branches: [lh6-dung-thu]
+    paths: ['ke-hoach/thu-phong-cach/chay.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -q pillow numpy
+      - name: Vẽ và đẩy ngay
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID_2: ${{ secrets.CF_ACCOUNT_ID_2 }}
+          CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
+          CF_ACCOUNT_ID_3: ${{ secrets.CF_ACCOUNT_ID_3 }}
+          CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          mkdir -p logs/anh
+          L="$(sed -n 1p ke-hoach/thu-phong-cach/chay.txt | tr -d ' \r')"
+          python cf_thu_hoat_hinh.py 2>&1 | tee -a logs/anh/thu_hoat_hinh.txt || true
+          git add -f assets/thu_phong_cach logs/anh
+          git commit -q -m "Thử phong cách hoạt hình [skip ci]" || true
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

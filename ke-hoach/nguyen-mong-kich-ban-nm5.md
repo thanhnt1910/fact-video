@@ -17,7 +17,7 @@ Mã: `nm5` (119 đoạn, 2.749 chữ, khoảng 15,3 phút). Chờ chủ kênh du
 - Câu diễn giải của người kể (đều có cụm "có thể hiểu"): đoạn về sứ giả mất tích, về lùi để kéo giặc vào sâu, về việc mang lương theo đường biển, về thiếu lương là điểm chung. Không bịa lời thoại.
 - Câu hỏi "vì sao": hook; "Vì sao đội quân đang thắng lại chùn bước?" (1285); câu hỏi ở Vân Đồn. Câu nhấn ngắn ở Bạch Đằng.
 - "Hãy hình dung" dùng một lần.
-- Câu kết: "Ba lần quân xâm lược vào Thăng Long, ba lần họ phải ra đi khi thiếu lương thực để ở lại. Cảm ơn bạn đã lắng nghe câu chuyện này."
+- Câu kết: "Ba lần quân xâm lược vào Thăng Long, ba lần họ phải ra đi khi thiếu lương thực để ở lại. Cảm ơn bạn đã lắng nghe."
 - Bộ kiểm `kiem_kich_ban.py nm5`: 0 ❌, 8 ⚠️ (đoạn 31–32 chữ, một câu hỏi ngắn).
 
 ## Kịch bản
@@ -170,4 +170,4 @@ Mã: `nm5` (119 đoạn, 2.749 chữ, khoảng 15,3 phút). Chờ chủ kênh du
 34116. Nhìn lại, có thể hiểu thiếu lương thực là điểm chung của cả ba lần, dù mỗi lần còn nhiều lý do khác.
 34117. Lần đầu kho lương trống khi quân Mông Cổ vào thành, lần hai lương thực đã được chuyển đi, và lần ba đoàn thuyền lương bị chặn ở Vân Đồn.
 34118. Trần Quốc Tuấn sống thêm hơn mười năm sau chiến thắng, và mất ở Vạn Kiếp vào năm một nghìn ba trăm.
-34119. Ba lần quân xâm lược vào Thăng Long, ba lần họ phải ra đi khi thiếu lương thực để ở lại. Cảm ơn bạn đã lắng nghe câu chuyện này.
+34119. Ba lần quân xâm lược vào Thăng Long, ba lần họ phải ra đi khi thiếu lương thực để ở lại. Cảm ơn bạn đã lắng nghe.

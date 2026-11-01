@@ -25,12 +25,12 @@ def build():
     sm = ''.join(f'<g class="sm" data-k="{k}">{smoke(x, WALLY-60, 260, "#d9c7b8", .42, 18)}</g>' for k, x in enumerate((1180, 1330, 1800)))
     L.append(G('smoke', sm))
     # cờ trên tháp và tường
-    L.append(G('flags', pennant(1620, 250, 470, '#b8352a', 170) + pennant(1210, 470, WALLY - 40, '#b8352a', 120) + pennant(1800, 480, WALLY - 40, '#b8352a', 120)))
+    L.append(G('flags', pennant(1620, 250, 470, '#2e4a80', 170) + pennant(1210, 470, WALLY - 40, '#2e4a80', 120) + pennant(1800, 480, WALLY - 40, '#2e4a80', 120)))
     # quân giữ thành (nhỏ, đứng sau lỗ châu mai)
     df = ''
     for i, x in enumerate((1010, 1090, 1170, 1250, 1330, 1700, 1780, 1860)):
-        s = .5; col = ('#5a4a62', '#4a5a72', '#62485a')[i % 3]
-        f = side_fig(f'd{i}', x, WALLY - 50 - 86 * s + 40, s, col, hat='song', seed=20 + i, pants=sh(col, .6), armor='#3a3e48', sash='#8a2a24', spear='#b8352a', flip=-1, shadow=False)
+        s = .5; col = ('#3a4a6a', '#34445f', '#41506e')[i % 3]
+        f = side_fig(f'd{i}', x, WALLY - 50 - 86 * s + 40, s, col, hat='song', seed=20 + i, pants=sh(col, .6), armor='#2e3a50', sash='#2e4a80', spear='#2e4a80', flip=-1, shadow=False)
         df += f.replace(f'class="sf" id="d{i}"', f'class="sf def" id="d{i}" data-i="{i}"')
     L.append(G('defenders', df))
     L.append(f'<rect y="{WALLY+250-8}" width="1920" height="12" fill="#2a2030"/>')
@@ -45,14 +45,19 @@ def build():
     # người xếp bao tại đống đất
     fillers = ''
     for k, x in enumerate((200, 330)):
-        f = side_fig(f'f{k}', x, GY + 24 - 86 * 1.1, 1.1, ('#3a4a6a', '#41506e')[k], hat='cone', seed=40 + k, pants='#3a3228', armor='#4a4e58', sash='#a8452f', shadow=True)
+        f = side_fig(f'f{k}', x, GY + 24 - 86 * 1.1, 1.1, ('#7a5a3a', '#6e4f30')[k], hat='cone', seed=40 + k, pants='#3a3228', armor=None, sash='#a8452f', shadow=True)
         fillers += f.replace(f'class="sf" id="f{k}"', f'class="sf fill" id="f{k}" data-i="{k}" data-x="{x}"')
     L.append(G('fillers', fillers))
+    gd = ''
+    for k, x in enumerate((1380, 1480)):
+        f = side_fig(f'g{k}', x, GY + 6 - 86 * 1.1, 1.1, ('#85633d', '#7a5a3a')[k], hat='cone', seed=50 + k, pants='#3a3228', armor='#5a4028', sash='#a8452f', spear='#a8452f', shadow=True)
+        gd += f.replace(f'class="sf" id="g{k}"', f'class="sf guard" id="g{k}" data-i="{k}" data-x="{x}"')
+    L.append(G('guards', gd))
     # người vác bao đất
     W_ = ''
-    cols = ['#3a4a6a', '#34445f', '#41506e', '#2e3d58', '#3c4c70', '#3a4a6a', '#41506e']
+    cols = ['#7a5a3a', '#6e4f30', '#85633d', '#6a4a2c', '#7d5c38', '#73532f', '#86653f']
     for i in range(7):
-        f = side_fig(f'w{i}', 0, 0, 1.08, cols[i], hat='cone' if i % 3 else 'helmet', seed=60 + i, pants=sh(cols[i], .6), armor='#4a4e58' if i % 2 else None, sash='#a8452f',
+        f = side_fig(f'w{i}', 0, 0, 1.08, cols[i], hat='cone', seed=60 + i, pants=sh(cols[i], .6), armor='#5a4028' if i % 2 else None, sash='#a8452f',
                      beard=('white_goatee' if i == 3 else None), shadow=True)
         W_ += f.replace(f'class="sf" id="w{i}"', f'class="sf walker" id="w{i}" data-i="{i}"')
     L.append(G('walkers', W_))
@@ -150,9 +155,11 @@ JS = r"""
       setR(fig(f,'.legF'),-6);setR(fig(f,'.legFs'),8);setR(fig(f,'.legB'),8);setR(fig(f,'.legBs'),6);
       const sp=fig(f,'.spear'); if(sp) sp.style.display='none';
       f.style.transform=`translate(${f.dataset.x}px,${GY+24-86*1.1+5}px) scale(${i?-1.1:1.1},1.1)`});
+    Q('.guard').forEach((f,i)=>{const w=2*Math.PI*(t/2.6+i*.4);setR(fig(f,'.armF'),-38+3*Math.sin(w));setR(fig(f,'.armFf'),-62);setR(fig(f,'.armB'),12);setR(fig(f,'.armBf'),-16);setR(fig(f,'.torso'),2+1*Math.sin(w));setR(fig(f,'.legF'),-4);setR(fig(f,'.legFs'),6);setR(fig(f,'.legB'),6);setR(fig(f,'.legBs'),4);
+      const sp=fig(f,'.spear'); if(sp) sp.style.transform='translate(22px,-8px) rotate('+(4+2*Math.sin(w))+'deg)'; f.style.transform=`translate(${f.dataset.x}px,${GY+6-86*1.1+5}px) scale(1.1,1.1)`});
     // quân giữ thành đung đưa nhẹ
     Q('.def').forEach((f,i)=>{const w=2*Math.PI*(t/2.2+i*.31);f.style.translate='0px '+(-2*Math.sin(w))+'px';
-      setR(fig(f,'.armF'),-90-14*Math.sin(w));setR(fig(f,'.armFf'),-20);setR(fig(f,'.armB'),10);setR(fig(f,'.torso'),2*Math.sin(w))});
+      setR(fig(f,'.armF'),-38+4*Math.sin(w));setR(fig(f,'.armFf'),-62);setR(fig(f,'.armB'),10);setR(fig(f,'.torso'),2*Math.sin(w));{const sp=fig(f,'.spear'); if(sp) sp.style.transform='translate(22px,-8px) rotate('+(3+2*Math.sin(w))+'deg)'}});
     // tên bắn từ thành xuống
     arrows.innerHTML='';
     for(let k=0;k<5;k++){const ph=((t/1.35+k*.21)%1), seedx=(Math.floor(t/1.35+k*.21)*37+k*11)%100/100;
@@ -165,7 +172,7 @@ JS = r"""
     Q('.walker').forEach((f,i)=>{const m=f.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px/); if(!m) return; const x=+m[1], y=+m[2]+86*1.08-6;
       for(let k=0;k<3;k++){const ph=((t*1.6+i*.3+k*.33)%1);el('ellipse',{cx:x-30*(f.style.transform.indexOf('scale(-')<0?1:-1)*ph-10,cy:y-4-ph*14,rx:6+ph*14,ry:3+ph*6,fill:'#c9a77a',opacity:.28*(1-ph)},dust)}});
     // camera: dolly + zoom mượt (ease-in-out liên tục)
-    const u=easeIO(cl(t/cfg.dur)), z=lerp(1.0,1.55,u), cx=lerp(960,1010,u), cy=lerp(560,700,u);
+    const u=easeIO(cl(t/cfg.dur)), z=lerp(1.0,1.55,u), cx=lerp(960,1010,u), cy=Math.min(lerp(560,700,u),1080-540/z);
     cam.style.transformOrigin='0 0'; cam.style.transform=`translate(${960-cx*z}px,${540-cy*z}px) scale(${z})`;
   };
 }

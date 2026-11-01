@@ -34,11 +34,11 @@ def build():
     vs = ''
     for i in range(14):
         x = 70 + i * 135 + (i % 3) * 18; s = .68
-        col = ('#3a4a6a', '#41506e', '#34445f')[i % 3]
-        f = side_fig(f'v{i}', x, PAL_Y - 86 * s - 40, s, col, hat='cone' if i % 3 else 'helmet', seed=80 + i, pants=sh(col, .6), armor='#4a4e58' if i % 2 else None, sash='#a8452f', flip=-1, shadow=False)
+        col = ('#7a5a3a', '#6e4f30', '#85633d')[i % 3]
+        f = side_fig(f'v{i}', x, PAL_Y - 86 * s - 40, s, col, hat='cone', seed=80 + i, pants=sh(col, .6), armor='#5a4028' if i % 2 else None, sash='#a8452f', spear='#a8452f', flip=-1, shadow=False)
         vs += f.replace(f'class="sf" id="v{i}"', f'class="sf vsold" id="v{i}" data-i="{i}" data-x="{x}"')
     L.append(G('vsoldiers', vs))
-    L.append(G('banners', ''.join(pennant(x, 330, PAL_Y - 150, '#8a3a2a', 130) for x in (330, 980, 1620))))
+    L.append(G('banners', ''.join(pennant(x, 330, PAL_Y - 150, '#a8452f', 130) for x in (330, 980, 1620))))
     L.append(G('palisade', palisade_detail()))
     # bờ nam + nước
     L.append(f'<rect y="{PAL_Y}" width="1920" height="{RIV_Y-PAL_Y+14}" fill="#6a5a3e"/>')
@@ -58,8 +58,8 @@ def build():
         logs = ''.join(f'<ellipse cx="{-196+j*0}" cy="{-2+j*9}" rx="9" ry="6" fill="#a98a5a" stroke="#3a2812" stroke-width="2"/>' for j in range(2))
         men = ''
         for m in range(3):
-            col = ('#4a5a6e', '#566070', '#3c4a60')[(k + m) % 3]
-            men += side_fig(f'r{k}{m}', -110 + m * 100, -86 * 1.0 - 4, 1.0, col, hat='song' if m == 1 else 'helmet', seed=100 + k * 3 + m, pants=sh(col, .6), armor='#3a3e48', sash='#2e4a80', flip=-1, shadow=False).replace(f'class="sf" id="r{k}{m}"', f'class="sf rman" id="r{k}{m}" data-k="{k}" data-m="{m}"')
+            col = ('#3a4a6a', '#34445f', '#41506e')[(k + m) % 3]
+            men += side_fig(f'r{k}{m}', -110 + m * 100, -86 * 1.0 - 4, 1.0, col, hat='song', seed=100 + k * 3 + m, pants=sh(col, .6), armor='#2e3a50', sash='#2e4a80', spear='#2e4a80', flip=-1, shadow=False).replace(f'class="sf" id="r{k}{m}"', f'class="sf rman" id="r{k}{m}" data-k="{k}" data-m="{m}"')
         rafts += f'<g class="raft" id="raft{k}"><ellipse cx="0" cy="22" rx="210" ry="14" fill="#1c2c36" opacity=".35"/>{men}{planks}{logs}<path d="M-190,12 L190,12 L180,34 L-180,34Z" fill="#5a3b1c"/><g class="rfire" id="rfire{k}"></g></g>'
     L.append(G('rafts', rafts))
     L.append('<g id="arrows"></g><g id="smokeg"></g>')
@@ -115,17 +115,16 @@ JS = r"""
     Q('.rman').forEach(f=>{const k=+f.dataset.k,m=+f.dataset.m; const w=2*Math.PI*(t/1.3+m*.31+k*.2); const [x,y,s]=rpos(k,t);
       const moving=t<(5.8+k*.8)||t>(7+k*.8); const burning=(k==0&&t>5.2)||(k==1&&t>8.2);
       const a=Math.sin(w);
-      if(burning){const pa=Math.sin(t*9+m);setR(f$(f,'.armF'),-150+20*pa);setR(f$(f,'.armFf'),-30);setR(f$(f,'.armB'),-130-20*pa);setR(f$(f,'.armBf'),-40);setR(f$(f,'.torso'),-6+5*pa)}
-      else if(m==1){setR(f$(f,'.armF'),-40+6*a);setR(f$(f,'.armFf'),-70);setR(f$(f,'.armB'),-40-6*a);setR(f$(f,'.armBf'),-72);setR(f$(f,'.torso'),4+2*a)}
-      else{const pole=.5-.5*Math.cos(w);setR(f$(f,'.armF'),-30-70*pole);setR(f$(f,'.armFf'),-20);setR(f$(f,'.armB'),-20-60*pole);setR(f$(f,'.armBf'),-20);setR(f$(f,'.torso'),-8+14*pole)}
+      const sp=f$(f,'.spear');
+      if(burning){const pa=Math.sin(t*9+m);setR(f$(f,'.armF'),-100+25*pa);setR(f$(f,'.armFf'),-30);setR(f$(f,'.armB'),-120-20*pa);setR(f$(f,'.armBf'),-40);setR(f$(f,'.torso'),-6+5*pa); if(sp) sp.style.transform='translate(22px,-8px) rotate('+(-18+10*pa)+'deg)'}
+      else{setR(f$(f,'.armF'),-38+4*a);setR(f$(f,'.armFf'),-62);setR(f$(f,'.armB'),-26-5*a);setR(f$(f,'.armBf'),-30);setR(f$(f,'.torso'),3+2*a); if(sp) sp.style.transform='translate(22px,-8px) rotate('+(4+3*a)+'deg)'}
       setR(f$(f,'.legF'),-5);setR(f$(f,'.legFs'),6);setR(f$(f,'.legB'),8);setR(f$(f,'.legBs'),5);
-      const sp=f$(f,'.spear'); if(sp) sp.style.display='none';
     });
     // quân Đại Việt sau hàng rào: giương cung ném giáo theo nhịp
     Q('.vsold').forEach((f,i)=>{const w=2*Math.PI*(t/1.9+i*.17), x=+f.dataset.x;const pa=Math.max(0,Math.sin(w));
       f.style.transform=`translate(${x}px,${f.getAttribute('transform').match(/translate\([^,]+,([\d.]+)/)[1]}px) scale(-.68,.68)`;
-      setR(f$(f,'.armF'),-110+50*pa);setR(f$(f,'.armFf'),-20);setR(f$(f,'.armB'),-60);setR(f$(f,'.armBf'),-25);setR(f$(f,'.torso'),-4+6*pa);
-      const sp=f$(f,'.spear'); if(sp) sp.style.display='none'; f.style.translate='0px '+(-2*Math.abs(Math.sin(w/2)))+'px'});
+      setR(f$(f,'.armF'),-38+8*pa);setR(f$(f,'.armFf'),-62);setR(f$(f,'.armB'),-30);setR(f$(f,'.armBf'),-25);setR(f$(f,'.torso'),-2+4*pa);
+      const sp=f$(f,'.spear'); if(sp) sp.style.transform='translate(22px,-8px) rotate('+(3+5*pa)+'deg)'; f.style.translate='0px '+(-2*Math.abs(Math.sin(w/2)))+'px'});
     // tên: tên thường từ hàng rào xuống bè; tên lửa nhắm bè đầu
     arrows.innerHTML='';
     for(let j=0;j<10;j++){const per=1.25, ph=((t/per+j*.1)%1), idx=Math.floor(t/per+j*.1);

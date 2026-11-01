@@ -370,7 +370,7 @@ def _dedupe_cam():
     for q, k in enumerate(out):
         if res and k[0] - res[-1][0] > 3.4:
             a0 = res[-1]
-            res.append([round(a0[0] + 2.6, 3), k[1], k[2], k[3]])
+            res.append([round(k[0] - 2.4, 3), a0[1], a0[2], a0[3]])   # giữ nguyên khung của cảnh đang kể, chỉ chuyển sang cảnh sau ở 2,4 giây cuối
         res.append(k[:4])
     cam[:] = res
 _dedupe_cam()

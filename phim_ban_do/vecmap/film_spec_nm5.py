@@ -365,7 +365,14 @@ def _dedupe_cam():
         out.append(k[:])
     for k in out:
         if k[3] < 2.0 and k[0] > 6 and len(k) <= 4: k[3] = 2.0
-    cam[:] = [k[:4] for k in out]
+    # chuyển cảnh nhanh rồi đứng yên: máy quay trôi chậm (dưới ~1 điểm ảnh mỗi khung) làm hình bị rung
+    res = []
+    for q, k in enumerate(out):
+        if res and k[0] - res[-1][0] > 3.4:
+            a0 = res[-1]
+            res.append([round(a0[0] + 2.6, 3), k[1], k[2], k[3]])
+        res.append(k[:4])
+    cam[:] = res
 _dedupe_cam()
 
 # ============ Các cảnh zoom chính (cận cảnh có hiệu ứng và âm thanh riêng) ============
@@ -395,7 +402,7 @@ for sc, i0, i1, (lo, la), fxs in ZS:
     cam[:] = [k for k in cam if not (ts0 - 1e-6 <= k[0] <= te + 1e-6)]
     cam.append([ts0, st0[1], st0[2], st0[3]])
     cam.append([ts0 + zin, lo, la, WD_CLOSE])
-    cam.append([te - zout, lo + 0.002, la - 0.003, WD_CLOSE * 0.96])
+    cam.append([te - zout, lo, la, WD_CLOSE])
     add("cc", ts0 - 0.2, te + 0.6, scene=sc, lon=lo, lat=la, ts=ts0 + zin - 0.4, sp=1.0, fi=0.8, fo=0.6)
     add("ring", ts0 - 0.6, ts0 + 1.2, lon=lo, lat=la, dur=1.8, fi=0.1, fo=0.4)
     fx("arrow", ts0, ts0 + 0.3)
@@ -473,13 +480,6 @@ for _i, _b in enumerate(KB, 1):
         _d = _span * len(p.split()) / _tot
         add("sub", _t0, _t0 + _d, lines=_wrap(p), fi=0.1, fo=0.1); _t0 += _d
 
-# ---- máy quay trôi chậm khi một cảnh đứng lâu ----
-cam.sort(key=lambda k: k[0])
-for q in range(1, len(cam)):
-    a, b = cam[q - 1], cam[q]
-    if b[0] - a[0] > 2.5 and abs(a[1] - b[1]) < 1e-9 and abs(a[2] - b[2]) < 1e-9 and abs(a[3] - b[3]) < 1e-9:
-        sg = 1 if q % 2 else -1
-        b[1] += sg * 0.05 * b[3]; b[2] += 0.025 * b[3]; b[3] *= 0.9
 cam.sort(key=lambda k: k[0])
 if cam[0][0] > 0:
     cam.insert(0, [0.0] + cam[0][1:])

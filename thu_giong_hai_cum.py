@@ -93,6 +93,8 @@ def main():
     if cur: chunks.append(cur)
     for ch in chunks:
         _sv = _os.environ.get("STYLE_VAR", "C")
+        _svf = Path("ke-hoach/thu-giong-hai/style_var.txt")        # tệp chọn hồ sơ giọng (A/B/C) thay biến môi trường
+        if _svf.exists() and _svf.read_text().strip(): _sv = _svf.read_text().strip()
         if _sv == "C":
             style = STYLE_C
         elif _sv == "A":

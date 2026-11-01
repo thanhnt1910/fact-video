@@ -61,6 +61,13 @@ if not vocab:   # tìm vocab ở repo khác của cùng tác giả hoặc bản 
             except Exception as e: log("  lỗi", r, str(e)[:100])
             if vocab: break
     except Exception as e: log("tìm vocab lỗi", e)
+if vocab:   # đệm vocab cho đủ 2566 dòng (2567 hàng nhúng gồm 1 hàng đệm)
+    L = open(vocab[0], encoding="utf-8").read().split("\n")
+    while L and L[-1] == "": L.pop()
+    log("vocab gốc", len(L), "dòng; đệm lên 2566")
+    ex = ["\u2e2e", "\u2e2f", "\u2e30"]
+    while len(L) < 2566: L.append(ex[len(L) % 3] + str(len(L)))
+    open("/tmp/vocab_dem.txt", "w", encoding="utf-8").write("\n".join(L) + "\n"); vocab = ["/tmp/vocab_dem.txt"]
 log("ckpt", ck[:3], "vocab", vocab)
 from f5_tts.api import F5TTS
 f5 = None

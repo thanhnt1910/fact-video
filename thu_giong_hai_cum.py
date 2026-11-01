@@ -104,6 +104,9 @@ def main():
         else:
             calm = sum(1 for b in ch if b["tone"] == "calm") > len(ch) / 2
             style = STYLE_HAI + TONE["calm" if calm else "light"] + " Read each sentence as its own beat with a clear short pause between sentences."
+        _ov = Path("ke-hoach/thu-giong-hai/style_thu.txt")      # prompt thử nghiệm (nếu có thì thay hồ sơ trên)
+        if _ov.exists() and _ov.read_text(encoding="utf-8").strip():
+            style = _ov.read_text(encoding="utf-8").strip(); _sv = "thu"
         text = "\n\n".join(b.get("tts", b["text"]) for b in ch)
         gemini_tts.CTX.update({"nhom": f"{ch[0]['n']}-{ch[-1]['n']}", "style_id": hashlib.md5(style.encode()).hexdigest()[:8], "style_var": _sv or "mac_dinh", "config": CONFIG_VERSION})
         try: wav = gemini_tts.synth(text, style, voice)

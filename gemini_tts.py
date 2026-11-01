@@ -85,6 +85,14 @@ def _wav_from_any(raw, mime=""):
     return buf.getvalue()
 
 
+def _tham_so():
+    """Đọc ke-hoach/thu-giong-hai/tts_tham_so.json (temperature, seed) nếu có; không có thì để mặc định của API."""
+    try:
+        return json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "ke-hoach/thu-giong-hai/tts_tham_so.json")))
+    except Exception:
+        return {}
+
+
 def _synth_interactions(model, text, style, voice, key):
     body = {
         "model": model,
@@ -92,7 +100,7 @@ def _synth_interactions(model, text, style, voice, key):
             "type": "text", "text": text,
             "annotations": [{"type": "speech_metadata", "style": style}]}]}],
         "response_format": {"type": "audio"},
-        "generation_config": {"speech_config": [{"voice": voice}]},
+        "generation_config": {"speech_config": [{"voice": voice}], **_tham_so()},
     }
     res = _post(f"{API}/interactions", body, key)
     for step in reversed(res.get("steps", [])):
@@ -105,7 +113,7 @@ def _synth_interactions(model, text, style, voice, key):
 def _synth_generate(model, text, style, voice, key):
     prompt = f"{style}\n\nRead the following Vietnamese text aloud exactly as written:\n{text}"
     body = {"contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseModalities": ["AUDIO"],
+            "generationConfig": {**_tham_so(), "responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
     res = _post(f"{API}/models/{model}:generateContent", body, key)
     part = res["candidates"][0]["content"]["parts"][0]["inlineData"]
@@ -172,7 +180,7 @@ def synth(text, style, voice, key=None, log=print):
                 except Exception:
                     pass
                 _req_log(trang_thai="thanh_cong", model=model, phuong_thuc="interactions" if kind == "i" else "generateContent", voice=voice,
-                         du_phong=model != PREFERRED, khoa=bool(LOCKED), tham_so="mac_dinh_cua_API (khong dat temperature/seed)")
+                         du_phong=model != PREFERRED, khoa=bool(LOCKED), tham_so=(json.dumps(_tham_so()) if _tham_so() else "mac_dinh_cua_API (khong dat temperature/seed)"))
                 LAST.clear(); LAST.update({"model": model, "kind": "interactions" if kind == "i" else "generateContent", "voice": voice,
                                            "time": time.strftime("%Y-%m-%d %H:%M:%S"), "fallback": model != PREFERRED, "style_in_metadata": kind == "i"})
                 if "way" not in _WORKING:

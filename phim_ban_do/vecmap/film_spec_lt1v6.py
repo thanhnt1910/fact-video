@@ -85,24 +85,87 @@ SH = []
 def shot(scene, i0, i1, lon, lat, wd=0.115, map_=False, **kw):
     SH.append(dict(scene=scene, i0=i0, i1=i1, lon=lon, lat=lat, wd=wd, map=map_, kw=kw))
 
+KEYS = {"canhGac", "thaiUy", "xuatQuan", "ai", "uc", "phongTuyen", "nn", "camp", "trongDen", "binhMinh", "leuDem", "voi", "vinhBinh", "tl", "bien", "nha", "hauCan", "songSang"}
+KEYFX = {   # âm thanh riêng + hiệu ứng riêng của từng cảnh zoom chính: (loại, từ giây tương đối, đến giây tương đối)
+    "xuatQuan": [("drum", 0.0, 99), ("horn", 0.8, 0)],
+    "ai": [("horn", 0.2, 0), ("clash", 2.0, 0), ("arrow", 1.0, 99), ("clash", 6.5, 0)],
+    "uc": [("drum", 0.0, 99), ("fire", 3.0, 99), ("clash", 5.0, 0), ("arrow", 2.0, 99), ("clash", 9.0, 0)],
+    "nn": [("water", 0.0, 99), ("arrow", 2.0, 99), ("clash", 4.0, 0), ("clash", 7.0, 0)],
+    "camp": [("wind", 0.0, 99), ("insect", 0.0, 99)],
+    "trongDen": [("insect", 0.0, 99), ("wind", 0.0, 99), ("gong", 0.3, 0)],
+    "voi": [("hoof", 0.0, 99), ("horn", 0.5, 0)],
+    "tl": [("gong", 0.3, 0)],
+    "nha": [("wind", 0.0, 99)],
+    "songSang": [("water", 0.0, 99), ("wind", 0.0, 99)],
+    "canhGac": [("wind", 0.0, 99), ("march", 0.5, 99)],
+    "thaiUy": [("gong", 0.3, 0)],
+    "phongTuyen": [("march", 0.0, 99), ("wind", 0.0, 99)],
+    "binhMinh": [("water", 0.0, 99), ("insect", 0.0, 99)],
+    "leuDem": [("fire", 0.0, 99), ("wind", 0.0, 99)],
+    "vinhBinh": [("gong", 0.4, 0), ("wind", 0.0, 99)],
+    "bien": [("water", 0.0, 99), ("wind", 0.0, 99)],
+    "hauCan": [("march", 0.0, 99), ("wind", 0.0, 99)],
+}
+NAMED = [("Thăng Long", TL), ("Ung Châu", UC), ("sông Như Nguyệt", (106.06, 21.20)), ("Lạng Sơn", LS), ("Khâm Châu", KC), ("Quế Lâm", QC), ("Quảng Tây", (109.85, 24.90))]
+PLACE = {"phuong": ("Thăng Long", TL), "giaDinh": ("Thăng Long", TL), "trieuDuong": ("Thăng Long", TL), "thaiUy": ("Thăng Long", TL),
+         "hopBan": ("Thăng Long", TL), "ngoaiGiao": ("Thăng Long", TL), "tuoiGia": ("Thăng Long", TL),
+         "hamDoi": ("Chiêm Thành", (107.05, 17.40)), "chiemThanh": ("Chiêm Thành", (107.55, 16.40)),
+         "trieuTong": ("Triều đình nhà Tống", QC), "taoLuyen": ("Quảng Tây", (109.85, 24.90)), "xuongThuyen": ("Ung Châu", UC),
+         "khamChau": ("Khâm Châu", KC), "duongBien": ("Liêm Châu", LC), "mattThanh": ("Ung Châu", UC), "daoDat": ("Ung Châu", UC),
+         "thanhHoang": ("Ung Châu", UC), "doDem": ("Ung Châu", UC), "dienChau": ("Diễn Châu", (105.80, 19.30)),
+         "bien": ("Nghệ An", (106.50, 17.80)), "nghiNgoi": ("sông Như Nguyệt", (106.22, 21.42))}
+
 def build_cam():
+    """Bản đồ là chính, chỉ zoom vào các cảnh chính (KEYS). Cảnh khác ở lại bản đồ, máy quay trôi theo."""
+    last_city = {}
+    for h in SH:
+        key = h["scene"] in KEYS
+        h["key"] = key
+        if not key:
+            h["map"] = True
+            lo, la = h["lon"], h["lat"]
+            h["wd"] = 3.2; h["lat"] = max(h["lat"], 19.6)
     prev = None
     for k, h in enumerate(SH):
         ts0, te = A(h["i0"]), E_(h["i1"]); span = te - ts0
         zin = min(2.6, span * 0.45); zout = min(1.9, span * 0.4)
         h["zin"], h["zout"] = zin, zout
-        if prev is None:
-            cam.append([ts0, h["lon"], h["lat"], 1.2 if not h["map"] else h["wd"] * 1.6])
-        else:
-            tb = (E_(prev["i1"]) + ts0) / 2
-            dist = math.hypot(h["lon"] - prev["lon"], h["lat"] - prev["lat"])
-            wide = max(0.9, max(prev["wd"], h["wd"]) * 1.6, min(dist * 1.5 + 0.5, 12))
-            cam.append([tb, (prev["lon"] + h["lon"]) / 2, (prev["lat"] + h["lat"]) / 2, wide])
-        cam.append([ts0 + zin, h["lon"], h["lat"], h["wd"]])
-        cam.append([te - zout, h["lon"] + (0.002 if not h["map"] else 0.03), h["lat"] - (0.003 if not h["map"] else 0.02), h["wd"] * (0.96 if not h["map"] else 0.9)])
-        if not h["map"]:
+        if h["key"]:
+            base = prev["wd"] if prev and not prev["key"] else 1.0
+            if prev is None:
+                cam.append([ts0, h["lon"], h["lat"], 1.2])
+            else:
+                dist = math.hypot(h["lon"] - prev["lon"], h["lat"] - prev["lat"])
+                tb = (E_(prev["i1"]) + ts0) / 2
+                if dist > 1.2:
+                    cam.append([tb, (prev["lon"] + h["lon"]) / 2, (prev["lat"] + h["lat"]) / 2, min(dist * 1.2 + 0.6, 10)])
+                cam.append([ts0 + 0.2, h["lon"], h["lat"], max(0.6, min(base, 1.2))])
+            cam.append([ts0 + zin, h["lon"], h["lat"], h["wd"]])
+            cam.append([te - zout, h["lon"] + 0.002, h["lat"] - 0.003, h["wd"] * 0.96])
             kw = dict(h["kw"]); sp = kw.pop("sp", None) or ((kw.pop("breach") / (0.78 * (te - ts0 - zin))) if "breach" in kw else 1.0); kw.pop("breach", None)
             add("cc", ts0 - 0.2, te + 0.6, scene=h["scene"], lon=h["lon"], lat=h["lat"], ts=ts0 + zin - 0.4, sp=round(sp, 4), fi=0.8, fo=0.6, **kw)
+            add("ring", ts0 - 0.6, ts0 + 1.2, lon=h["lon"], lat=h["lat"], dur=1.8, fi=0.1, fo=0.4)
+            fx("arrow", ts0, ts0 + 0.3)
+            for kind, o0, o1 in KEYFX.get(h["scene"], []):
+                fx(kind, ts0 + zin + o0, (te if o1 == 99 else ts0 + zin + o0 + 4)) if o1 == 99 else fx(kind, ts0 + zin + o0)
+        else:
+            if prev is not None and prev["key"]:
+                cam.append([ts0 + 1.3, h["lon"], h["lat"], h["wd"]])
+            else:
+                dist = math.hypot(h["lon"] - prev["lon"], h["lat"] - prev["lat"]) if prev else 0
+                if prev is not None and dist > 6:
+                    cam.append([(E_(prev["i1"]) + ts0) / 2, (prev["lon"] + h["lon"]) / 2, (prev["lat"] + h["lat"]) / 2, min(dist * 1.2 + 0.6, 10)])
+                cam.append([ts0 + 0.9, h["lon"], h["lat"], h["wd"]])
+            cam.append([te - 0.4, h["lon"] + 0.01, h["lat"] - 0.008, h["wd"] * 0.97])
+            pl = PLACE.get(h["scene"])
+            if not pl:
+                nm = min(NAMED, key=lambda q: math.hypot(q[1][0] - h["lon"], q[1][1] - h["lat"]))
+                if math.hypot(nm[1][0] - h["lon"], nm[1][1] - h["lat"]) < 0.9: pl = nm
+            if pl and last_city.get(pl[0], -9) < ts0 - 0.1:
+                add("city", ts0 + 0.5, te, lon=pl[1][0], lat=pl[1][1], name=pl[0], side="e", fs=30, fi=0.6, fo=0.6)
+                last_city[pl[0]] = te
+            if not any(x.get("k") in ("army", "route") and x["t0"] <= te and x.get("t1", 0) >= ts0 for x in items):
+                add("ring", ts0 + 0.6, ts0 + 2.6, lon=h["lon"], lat=h["lat"], dur=1.8, fi=0.1, fo=0.4)
         prev = h
 
 NNP = (106.05, 21.19); TLP = TL

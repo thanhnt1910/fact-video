@@ -143,6 +143,7 @@ function tideM(t,it,a){const q=it.pts.map(x=>P(x[0],x[1]));const K=it.lv;let lv=
  const mid=q[Math.floor(q.length/2)];const tx=el('text',{x:mid[0],y:mid[1]-FS(110),'text-anchor':'middle','font-size':FS(30),'font-weight':700,fill:lv>.5?'#1f5f8b':'#7a5a2a','paint-order':'stroke',stroke:'#f1e7cb','stroke-width':FS(6),opacity:a},dyn);tx.textContent=lv>.5?'THỦY TRIỀU LÊN':'THỦY TRIỀU RÚT'}
 function armyM(t,it,a){const n=it.n||14,u=ease(cl((t-it.t0)/(it.dur||3))),col=it.col||COL[it.side],kind=it.u||'inf',bob=t*7;
  const dir=uu=>{const p=polyAt(it.pts,uu),r=polyAt(it.pts,Math.min(1,uu+.02));return r[0]>=p[0]?1:-1};
+ const fin=polyAt(it.pts,1),cl2=SP.items.filter(c=>c.k=='clash'&&at(c,t)),hid=u>.9&&cl2.some(c=>{const p=P(c.lon,c.lat);return Math.hypot(p[0]-fin[0],p[1]-fin[1])<FS(220)});if(hid)return;
  for(let j=0;j<n;j++){const uu=cl(u*(1+n*.012)-j*.012);if(uu<=0)continue;if(it.stay==false&&u>=1)continue;const [x,y]=polyAt(it.pts,uu);
   const off=((j%5)-2)*FS(kind=='ship'?44:30)+((j*7)%3-1)*FS(4),oy=(Math.floor(j/5)%4-1.5)*FS(kind=='ship'?30:26)+((j*3)%3-1)*FS(3),aa=a*(it.stay==false&&u>.9?(1-u)*10:1),f=dir(uu),s=FS(kind=='ship'?30:22);
   if(kind=='cav')horseM(dyn,x+off,y+oy,col,s,aa,f,bob+j);else if(kind=='ship')boatM(dyn,x+off,y+oy,col,s,aa,f,bob+j);else figM(dyn,x+off,y+oy,it.side,s*1.15,aa,f,bob+j*.7,j);
@@ -172,12 +173,12 @@ function T(t){
  mnt.setAttribute('display',SC<9?'inline':'none');landEl.setAttribute('stroke-width',Math.min(1.4,2.2/SC));
  if(rivP){rivP.setAttribute('visibility','hidden');document.getElementById('rv2').setAttribute('visibility','hidden')}
  dyn.innerHTML='';hud.innerHTML='';
- for(const f of (SP.forts||[])){const [x,y]=P(f.lon,f.lat);fort(dyn,x,y,FS(f.big?13:9),f.side,.95)}
- for(const r of (SP.rivers||[])){const n=r.amb||0;for(let k=0;k<n;k++){const dr=(k%2?1:-1),u=(((t*.011*dr+k/n+r.id.length*.13)%1)+1)%1;const [x,y]=polyAt(r.pts,u),[x2]=polyAt(r.pts,Math.min(1,u+.01));boatM(dyn,x,y,'#b9965a',FS(7.5),.9,(x2>=x?1:-1)*dr,t*2+k)}}
- const route=SP.routes;
  const ccOn=SP.items.some(x=>x.k=='cc'&&at(x,t)&&fade(x,t)>.3);
+ if(!ccOn)for(const f of (SP.forts||[])){const [x,y]=P(f.lon,f.lat);fort(dyn,x,y,FS(f.big?13:9),f.side,.95)}
+ if(!ccOn)for(const r of (SP.rivers||[])){const n=r.amb||0;for(let k=0;k<n;k++){const dr=(k%2?1:-1),u=(((t*.011*dr+k/n+r.id.length*.13)%1)+1)%1;const [x,y]=polyAt(r.pts,u),[x2]=polyAt(r.pts,Math.min(1,u+.01));boatM(dyn,x,y,'#b9965a',FS(7.5),.9,(x2>=x?1:-1)*dr,t*2+k)}}
+ const route=SP.routes;
  for(const it of SP.items){if(!at(it,t))continue;const a=fade(it,t);
-  if(ccOn&&(it.k=='army'||it.k=='route'||it.k=='area'||it.k=='clash'||it.k=='volley'||it.k=='shell'||it.k=='defeat'))continue;
+  if(ccOn&&(it.k=='city'||it.k=='label'||it.k=='army'||it.k=='route'||it.k=='area'||it.k=='clash'||it.k=='volley'||it.k=='shell'||it.k=='defeat'))continue;
   if(it.k=='route'){const k=it.id;if(!routeEl[k]){const g=el('g',{},dyn);routeEl[k]={g}}
    const u=ease(cl((t-it.t0)/(it.dur||2)));const q=it.pts.map(x=>P(x[0],x[1]));let L=0;for(let i=1;i<q.length;i++)L+=Math.hypot(q[i][0]-q[i-1][0],q[i][1]-q[i-1][1]);
    const d=pathD(it.pts);const w=(it.w||6)/SC;
@@ -208,8 +209,8 @@ function T(t){
    else if(it.shape=='flag'){flag(g,0,0,it.col||COL.v,s/24)}
    else if(it.shape=='dot'){el('circle',{r:s*.5,fill:it.col,stroke:'#2b2218','stroke-width':s*.12},g)}
    else if(it.shape=='arrow'){const ang=it.ang||0;el('path',{d:`M${-s*2},0 L${s*2},0 M${s*2},0 l${-s},${-s} M${s*2},0 l${-s},${s}`,stroke:it.col||'#b3261e','stroke-width':s*.4,'stroke-linecap':'round',transform:`rotate(${ang})`},g)}}
-  else if(it.k=='clash'){const [x,y]=P(it.lon,it.lat),q=FS(1),c1=it.c1||COL.v,c2=it.c2||COL.s,m=it.n||3;
-   for(let j=0;j<m;j++){const sw=Math.sin(t*5+j*2.1)*q*5,yy=y+(j-(m-1)/2)*q*17;figM(dyn,x-q*21+sw+(j%2)*q*5,yy,'v',q*17*1.15,a,1,t*8+j,j);figM(dyn,x+q*21-sw-(j%2)*q*5,yy,'s',q*17*1.15,a,-1,t*8+j+1.3,j)}
+  else if(it.k=='clash'){const [x,y]=P(it.lon,it.lat),q=FS(1),c1=it.c1||COL.v,c2=it.c2||COL.s,m=Math.max(4,(it.n||3)+2);
+   for(let j=0;j<m;j++){const sw=Math.sin(t*5+j*2.1)*q*7,yy=y+(j-(m-1)/2)*q*40;figM(dyn,x-q*66+sw,yy,'v',q*24,a,1,t*8+j,j);figM(dyn,x+q*66-sw,yy+q*6,'s',q*24,a,-1,t*8+j+1.3,j)}
    for(let k=0;k<5;k++){const ph=((t*2.4+k*.2)%1),an=-1.2+k*.95,r=q*(15+(k%2)*9),cx=x+Math.cos(k*2.3)*q*9,cy=y+Math.sin(k*3.1)*q*13-q*8;
     el('path',{d:`M${cx+Math.cos(an)*r},${cy+Math.sin(an)*r} A${r},${r} 0 0 1 ${cx+Math.cos(an+1.5)*r},${cy+Math.sin(an+1.5)*r}`,stroke:'#fff7d6','stroke-width':q*3.4*(1-ph)+q*.5,fill:'none','stroke-linecap':'round',opacity:a*(1-ph)*(ph<.75?1:0)},dyn);
     for(let z=0;z<3;z++){const sa=an+z*2.1+ph*3,sr=q*(8+ph*26);el('path',{d:`M${cx+Math.cos(sa)*sr},${cy+Math.sin(sa)*sr} l${Math.cos(sa)*q*7},${Math.sin(sa)*q*7}`,stroke:'#ffd84a','stroke-width':q*2.2,'stroke-linecap':'round',opacity:a*(1-ph)*(ph<.6?1:0)},dyn)}}

@@ -21,9 +21,9 @@ for i, (name, col, kw, note) in enumerate(items):
     L.append(side_fig(f'p{i}', x, 740, 1.55, col, flip=1, **kw).replace('class="sf"', 'class="sf stat"'))
     import textwrap
     for j, ln in enumerate(textwrap.wrap(name, 17)):
-        L.append(f'<text x="{x}" y="{895+j*28}" text-anchor="middle" font-size="24" font-weight="700" fill="#2a1d10" font-family="Lora">{ln}</text>')
+        L.append(f'<text x="{x}" y="{925+j*28}" text-anchor="middle" font-size="24" font-weight="700" fill="#2a1d10" font-family="Lora">{ln}</text>')
     for j, ln in enumerate(textwrap.wrap(note, 24)):
-        L.append(f'<text x="{x}" y="{960+j*24}" text-anchor="middle" font-size="19" fill="#3a2a18" font-family="Lora">{ln}</text>')
+        L.append(f'<text x="{x}" y="{998+j*24}" text-anchor="middle" font-size="19" fill="#3a2a18" font-family="Lora">{ln}</text>')
 svg_ = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">{"".join(L)}</svg>'
 p = pathlib.Path('/tmp/bnv.svg'); p.write_text(svg_, encoding='utf-8')
 with sync_playwright() as pw:

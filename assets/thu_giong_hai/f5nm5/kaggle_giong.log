@@ -1,81 +1,659 @@
-[{"stream_name":"stderr","time":15.268423006,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stderr","time":15.268452392,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
-,{"stream_name":"stdout","time":15.528502001,"data":"[    15s] cài xong\n"}
-,{"stream_name":"stdout","time":22.915233779,"data":"[    22s] GPU: Tesla T4\n"}
-,{"stream_name":"stderr","time":39.906977608,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [00:00\u003c00:02,  1.43it/s]\rFetching 5 files:  80%|████████  | 4/5 [00:01\u003c00:00,  2.77it/s]\rFetching 5 files: 100%|██████████| 5/5 [00:16\u003c00:00,  4.34s/it]\rFetching 5 files: 100%|██████████| 5/5 [00:16\u003c00:00,  3.24s/it]\n"}
-,{"stream_name":"stdout","time":39.907641516,"data":"[    39s] repo hynt/F5-TTS-Vietnamese-ViVoice files: ['config.json', 'model_last.pt', 'README.md', 'qr.jpg']\n"}
-,{"stream_name":"stdout","time":39.907992266,"data":"[    39s] ckpt ['/tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt'] vocab []\n"}
-,{"stream_name":"stderr","time":73.576773366,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:300: SyntaxWarning: invalid escape sequence '\\('\n"}
-,{"stream_name":"stderr","time":73.576803331,"data":"  m = re.match('([su]([0-9]{1,2})p?) \\(([0-9]{1,2}) bit\\)$', token)\n"}
-,{"stream_name":"stderr","time":73.576813415,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:301: SyntaxWarning: invalid escape sequence '\\('\n"}
-,{"stream_name":"stderr","time":73.576817281,"data":"  m2 = re.match('([su]([0-9]{1,2})p?)( \\(default\\))?$', token)\n"}
-,{"stream_name":"stderr","time":73.576957704,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:310: SyntaxWarning: invalid escape sequence '\\('\n"}
-,{"stream_name":"stderr","time":73.576967424,"data":"  elif re.match('(flt)p?( \\(default\\))?$', token):\n"}
-,{"stream_name":"stderr","time":73.576972295,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:314: SyntaxWarning: invalid escape sequence '\\('\n"}
-,{"stream_name":"stderr","time":73.576977045,"data":"  elif re.match('(dbl)p?( \\(default\\))?$', token):\n"}
-,{"stream_name":"stdout","time":98.185093465,"data":"Download Vocos from huggingface charactr/vocos-mel-24khz\n"}
-,{"stream_name":"stdout","time":101.497671802,"data":"\n"}
-,{"stream_name":"stdout","time":101.497713951,"data":"vocab :  /usr/local/lib/python3.13/dist-packages/f5_tts/infer/examples/vocab.txt\n"}
-,{"stream_name":"stdout","time":101.497833194,"data":"token :  custom\n"}
-,{"stream_name":"stdout","time":101.497964674,"data":"model :  /tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt \n"}
-,{"stream_name":"stdout","time":101.49799716,"data":"\n"}
-,{"stream_name":"stdout","time":106.897394329,"data":"[   106s] nạp lỗi F5TTS_Base Error(s) in loading state_dict for CFM:\n"}
-,{"stream_name":"stdout","time":106.897443706,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is t\n"}
-,{"stream_name":"stderr","time":106.900707579,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":106.901883162,"data":"  File \"/kaggle/src/script.py\", line 34, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":106.90189633,"data":"    f5 = F5TTS(model=name, ckpt_file=ck[0], vocab_file=vocab[0] if vocab else \"\", device=\"cuda\"); log(\"nạp được với\", name); break\n"}
-,{"stream_name":"stderr","time":106.90344132,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/api.py\", line 82, in __init__\n"}
-,{"stream_name":"stderr","time":106.903453004,"data":"    self.ema_model = load_model(\n"}
-,{"stream_name":"stderr","time":106.903457125,"data":"                     ~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":106.903460487,"data":"        model_cls, model_arc, ckpt_file, self.mel_spec_type, vocab_file, self.ode_method, self.use_ema, self.device\n"}
-,{"stream_name":"stderr","time":106.903464027,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":106.90346745,"data":"    )\n"}
-,{"stream_name":"stderr","time":106.903471092,"data":"    ^\n"}
-,{"stream_name":"stderr","time":106.90347453,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 274, in load_model\n"}
-,{"stream_name":"stderr","time":106.903478877,"data":"    model = load_checkpoint(model, ckpt_path, device, dtype=dtype, use_ema=use_ema)\n"}
-,{"stream_name":"stderr","time":106.90349873,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 223, in load_checkpoint\n"}
-,{"stream_name":"stderr","time":106.903503306,"data":"    model.load_state_dict(checkpoint[\"model_state_dict\"])\n"}
-,{"stream_name":"stderr","time":106.903508027,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":106.903511604,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 2639, in load_state_dict\n"}
-,{"stream_name":"stderr","time":106.903515375,"data":"    raise RuntimeError(\n"}
-,{"stream_name":"stderr","time":106.903518723,"data":"    ...\u003c3 lines\u003e...\n"}
-,{"stream_name":"stderr","time":106.9035224,"data":"    )\n"}
-,{"stream_name":"stderr","time":106.903529445,"data":"RuntimeError: Error(s) in loading state_dict for CFM:\n"}
-,{"stream_name":"stderr","time":106.903538194,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is torch.Size([2546, 512]).\n"}
-,{"stream_name":"stdout","time":106.914453353,"data":"Download Vocos from huggingface charactr/vocos-mel-24khz\n"}
-,{"stream_name":"stdout","time":107.6888072,"data":"\n"}
-,{"stream_name":"stdout","time":107.688851698,"data":"vocab :  /usr/local/lib/python3.13/dist-packages/f5_tts/infer/examples/vocab.txt\n"}
-,{"stream_name":"stdout","time":107.689434419,"data":"token :  custom\n"}
-,{"stream_name":"stdout","time":107.689445767,"data":"model :  /tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt \n"}
-,{"stream_name":"stdout","time":107.689450517,"data":"\n"}
-,{"stream_name":"stdout","time":113.032667706,"data":"[   112s] nạp lỗi F5TTS_v1_Base Error(s) in loading state_dict for CFM:\n"}
-,{"stream_name":"stdout","time":113.032707121,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is t\n"}
-,{"stream_name":"stderr","time":113.033286398,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":113.034219143,"data":"  File \"/kaggle/src/script.py\", line 34, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":113.03423273,"data":"    f5 = F5TTS(model=name, ckpt_file=ck[0], vocab_file=vocab[0] if vocab else \"\", device=\"cuda\"); log(\"nạp được với\", name); break\n"}
-,{"stream_name":"stderr","time":113.034336795,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/api.py\", line 82, in __init__\n"}
-,{"stream_name":"stderr","time":113.034360484,"data":"    self.ema_model = load_model(\n"}
-,{"stream_name":"stderr","time":113.034365701,"data":"                     ~~~~~~~~~~^\n"}
-,{"stream_name":"stderr","time":113.034369535,"data":"        model_cls, model_arc, ckpt_file, self.mel_spec_type, vocab_file, self.ode_method, self.use_ema, self.device\n"}
-,{"stream_name":"stderr","time":113.034373592,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":113.034377624,"data":"    )\n"}
-,{"stream_name":"stderr","time":113.03438116,"data":"    ^\n"}
-,{"stream_name":"stderr","time":113.034396027,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 274, in load_model\n"}
-,{"stream_name":"stderr","time":113.034400567,"data":"    model = load_checkpoint(model, ckpt_path, device, dtype=dtype, use_ema=use_ema)\n"}
-,{"stream_name":"stderr","time":113.034404227,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 223, in load_checkpoint\n"}
-,{"stream_name":"stderr","time":113.03440828,"data":"    model.load_state_dict(checkpoint[\"model_state_dict\"])\n"}
-,{"stream_name":"stderr","time":113.034412307,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":113.034489072,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 2639, in load_state_dict\n"}
-,{"stream_name":"stderr","time":113.034496957,"data":"    raise RuntimeError(\n"}
-,{"stream_name":"stderr","time":113.034500318,"data":"    ...\u003c3 lines\u003e...\n"}
-,{"stream_name":"stderr","time":113.034503704,"data":"    )\n"}
-,{"stream_name":"stderr","time":113.034544882,"data":"RuntimeError: Error(s) in loading state_dict for CFM:\n"}
-,{"stream_name":"stderr","time":113.03456714,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is torch.Size([2546, 512]).\n"}
-,{"stream_name":"stderr","time":113.038890291,"data":"không nạp được F5\n"}
-,{"stream_name":"stderr","time":120.07012754,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":120.07015415,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":120.282914311,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":120.282952311,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":121.040433238,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":121.558744128,"data":"[NbConvertApp] Writing 903593 bytes to __results__.html\n"}
+[{"stream_name":"stderr","time":16.941185699000002,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.941226167,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":17.232862903,"data":"[    16s] cài xong\n"}
+,{"stream_name":"stdout","time":26.568931719,"data":"[    26s] GPU: Tesla T4\n"}
+,{"stream_name":"stderr","time":48.0228701,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [00:00\u003c00:01,  3.93it/s]\rFetching 5 files:  80%|████████  | 4/5 [00:00\u003c00:00,  4.24it/s]\rFetching 5 files: 100%|██████████| 5/5 [00:21\u003c00:00,  5.79s/it]\rFetching 5 files: 100%|██████████| 5/5 [00:21\u003c00:00,  4.22s/it]\n"}
+,{"stream_name":"stdout","time":48.023409407,"data":"[    47s] repo hynt/F5-TTS-Vietnamese-ViVoice files: ['config.json', 'model_last.pt', 'README.md', 'qr.jpg']\n"}
+,{"stream_name":"stdout","time":48.023625984,"data":"[    47s] ===== README.md =====\n"}
+,{"stream_name":"stdout","time":48.023640368,"data":"---\n"}
+,{"stream_name":"stdout","time":48.02364437,"data":"tags:\n"}
+,{"stream_name":"stdout","time":48.023647676,"data":"  - text-to-speech\n"}
+,{"stream_name":"stdout","time":48.023651137,"data":"  - vietnamese\n"}
+,{"stream_name":"stdout","time":48.023654556,"data":"  - ai-model\n"}
+,{"stream_name":"stdout","time":48.02365786,"data":"  - deep-learning\n"}
+,{"stream_name":"stdout","time":48.023661556,"data":"license: cc-by-nc-sa-4.0\n"}
+,{"stream_name":"stdout","time":48.023664688,"data":"library_name: pytorch\n"}
+,{"stream_name":"stdout","time":48.023667856,"data":"datasets:\n"}
+,{"stream_name":"stdout","time":48.02367095,"data":"  - ViVoice\n"}
+,{"stream_name":"stdout","time":48.023674034,"data":"  - VLSP2021\n"}
+,{"stream_name":"stdout","time":48.023677185,"data":"  - VLSP2022\n"}
+,{"stream_name":"stdout","time":48.023680346,"data":"  - VLSP2023\n"}
+,{"stream_name":"stdout","time":48.023683448,"data":"model_name: F5-TTS-Vietnamese-1000h\n"}
+,{"stream_name":"stdout","time":48.02368671,"data":"language: vi\n"}
+,{"stream_name":"stdout","time":48.023689821,"data":"---\n"}
+,{"stream_name":"stdout","time":48.023692844,"data":"\n"}
+,{"stream_name":"stdout","time":48.023695968,"data":"# 🛑 Important Note ⚠️  \n"}
+,{"stream_name":"stdout","time":48.023699935,"data":"This Text-to-Speech (TTS) model is provided solely for research, experimentation, and technology development purposes. Any audio content generated by the model does not represent the voice, identity, opinions, or endorsement of any real individual or organization. The authors and related parties assume no responsibility for any misuse, unlawful activities, violations of privacy, personality rights, intellectual property rights, or any direct or indirect damages arising from the use of this model.\n"}
+,{"stream_name":"stdout","time":48.0237057,"data":"\n"}
+,{"stream_name":"stdout","time":48.023710399,"data":"Users bear full responsibility and legal liability for the deployment, distribution, and use of the model. The use of this model for impersonation, voice cloning of individuals without lawful consent, creating misleading content, fraud, manipulation of public opinion, or any purpose that violates applicable laws is strictly prohibited. When using or sharing generated audio, it is strongly recommended to clearly disclose that the content is AI-generated and to comply fully with all applicable legal regulations, platform policies, and ethical standards.  \n"}
+,{"stream_name":"stdout","time":48.023725945,"data":"\n"}
+,{"stream_name":"stdout","time":48.023729234,"data":"# 🎙️ F5-TTS-Vietnamese-1000h  \n"}
+,{"stream_name":"stdout","time":48.023732919,"data":"A compact fine-tuned version of F5-TTS trained on 1000 hours of Vietnamese speech.  \n"}
+,{"stream_name":"stdout","time":48.023736777,"data":"\n"}
+,{"stream_name":"stdout","time":48.023739832,"data":"🔗 For more fine-tuning experiments, visit: https://github.com/nguyenthienhy/F5-TTS-Vietnamese.  \n"}
+,{"stream_name":"stdout","time":48.02374323,"data":"\n"}
+,{"stream_name":"stdout","time":48.023746063,"data":"📜 **License:** [CC-BY-NC-SA-4.0](https://spdx.org/licenses/CC-BY-NC-SA-4.0) — Non-commercial research use only.\n"}
+,{"stream_name":"stdout","time":48.023749438,"data":"\n"}
+,{"stream_name":"stdout","time":48.023752814,"data":"# ☕ Give Me a Coffee for Training Cost\n"}
+,{"stream_name":"stdout","time":48.023756269,"data":"\n"}
+,{"stream_name":"stdout","time":48.023759935,"data":"This model was trained entirely on **self-funded, personal hardware** — every GPU hour and electricity bill came out of my own pocket.  \n"}
+,{"stream_name":"stdout","time":48.023765669,"data":"If this work is useful to you, a small contribution helps cover the cost of the next training run and keeps future models free and open. Every coffee is hugely appreciated 🙏\n"}
+,{"stream_name":"stdout","time":48.023770467,"data":"\n"}
+,{"stream_name":"stdout","time":48.023774014,"data":"\u003cp align=\"center\"\u003e\n"}
+,{"stream_name":"stdout","time":48.023778226,"data":"  \u003cimg src=\"qr.jpg\" alt=\"VietQR — Give me a coffee\" width=\"320\"/\u003e\n"}
+,{"stream_name":"stdout","time":48.023782003,"data":"\u003c/p\u003e\n"}
+,{"stream_name":"stdout","time":48.023785111,"data":"\n"}
+,{"stream_name":"stdout","time":48.023788132,"data":"\u003cp align=\"center\"\u003e\u003ci\u003eScan with any VietQR / Napas 247 supported banking app\u003c/i\u003e\u003c/p\u003e\n"}
+,{"stream_name":"stdout","time":48.023792449,"data":"\n"}
+,{"stream_name":"stdout","time":48.023795523,"data":"Thank you for supporting open Vietnamese Speech! ❤️\n"}
+,{"stream_name":"stdout","time":48.023798744,"data":"\n"}
+,{"stream_name":"stdout","time":48.023801951,"data":"---\n"}
+,{"stream_name":"stdout","time":48.023805224,"data":"\n"}
+,{"stream_name":"stdout","time":48.023808484,"data":"## 📌 Model Details  \n"}
+,{"stream_name":"stdout","time":48.023811964,"data":"- **Dataset:** Vi-Voice, VLSP 2021, VLSP 2022, VLSP 2023\n"}
+,{"stream_name":"stdout","time":48.02381548,"data":"- **Total dataset durations:** 1000 hours\n"}
+,{"stream_name":"stdout","time":48.023818615,"data":"- **Data processing Technique:**\n"}
+,{"stream_name":"stdout","time":48.023822097,"data":"  - Remove all music background from audios, using facebook demucs model: https://github.com/facebookresearc\n"}
+,{"stream_name":"stdout","time":48.023867012,"data":"[    47s] ===== config.json =====\n"}
+,{"stream_name":"stdout","time":48.023880445,"data":" \n"}
+,{"stream_name":"stdout","time":48.023884743,"data":"!\n"}
+,{"stream_name":"stdout","time":48.023888785,"data":"\"\n"}
+,{"stream_name":"stdout","time":48.02389259,"data":"#\n"}
+,{"stream_name":"stdout","time":48.023896509,"data":"$\n"}
+,{"stream_name":"stdout","time":48.023900934,"data":"%\n"}
+,{"stream_name":"stdout","time":48.023904972,"data":"\u0026\n"}
+,{"stream_name":"stdout","time":48.023908817,"data":"'\n"}
+,{"stream_name":"stdout","time":48.023912517,"data":"(\n"}
+,{"stream_name":"stdout","time":48.02391617,"data":")\n"}
+,{"stream_name":"stdout","time":48.023929207,"data":"*\n"}
+,{"stream_name":"stdout","time":48.023933609,"data":"+\n"}
+,{"stream_name":"stdout","time":48.023937132,"data":",\n"}
+,{"stream_name":"stdout","time":48.023940816,"data":"-\n"}
+,{"stream_name":"stdout","time":48.023944447,"data":".\n"}
+,{"stream_name":"stdout","time":48.0239481,"data":"/\n"}
+,{"stream_name":"stdout","time":48.023951996,"data":"0\n"}
+,{"stream_name":"stdout","time":48.023956288,"data":"1\n"}
+,{"stream_name":"stdout","time":48.023959994,"data":"2\n"}
+,{"stream_name":"stdout","time":48.023963512,"data":"3\n"}
+,{"stream_name":"stdout","time":48.023967211,"data":"4\n"}
+,{"stream_name":"stdout","time":48.023970885,"data":"5\n"}
+,{"stream_name":"stdout","time":48.023974573,"data":"6\n"}
+,{"stream_name":"stdout","time":48.02397824,"data":"7\n"}
+,{"stream_name":"stdout","time":48.02398197,"data":"8\n"}
+,{"stream_name":"stdout","time":48.023985565,"data":"9\n"}
+,{"stream_name":"stdout","time":48.023989281,"data":":\n"}
+,{"stream_name":"stdout","time":48.023993234,"data":";\n"}
+,{"stream_name":"stdout","time":48.023997312,"data":"=\n"}
+,{"stream_name":"stdout","time":48.024001119,"data":"\u003e\n"}
+,{"stream_name":"stdout","time":48.024004732,"data":"?\n"}
+,{"stream_name":"stdout","time":48.02400807,"data":"@\n"}
+,{"stream_name":"stdout","time":48.02401106,"data":"A\n"}
+,{"stream_name":"stdout","time":48.024014629,"data":"B\n"}
+,{"stream_name":"stdout","time":48.024018098,"data":"C\n"}
+,{"stream_name":"stdout","time":48.024021666,"data":"D\n"}
+,{"stream_name":"stdout","time":48.024024833,"data":"E\n"}
+,{"stream_name":"stdout","time":48.024027829,"data":"F\n"}
+,{"stream_name":"stdout","time":48.024030864,"data":"G\n"}
+,{"stream_name":"stdout","time":48.024033925,"data":"H\n"}
+,{"stream_name":"stdout","time":48.024037068,"data":"I\n"}
+,{"stream_name":"stdout","time":48.02404015,"data":"J\n"}
+,{"stream_name":"stdout","time":48.024043558,"data":"K\n"}
+,{"stream_name":"stdout","time":48.024047179,"data":"L\n"}
+,{"stream_name":"stdout","time":48.024050787,"data":"M\n"}
+,{"stream_name":"stdout","time":48.024054375,"data":"N\n"}
+,{"stream_name":"stdout","time":48.02405804,"data":"O\n"}
+,{"stream_name":"stdout","time":48.024061666,"data":"P\n"}
+,{"stream_name":"stdout","time":48.024065815,"data":"Q\n"}
+,{"stream_name":"stdout","time":48.024070112,"data":"R\n"}
+,{"stream_name":"stdout","time":48.024073623,"data":"S\n"}
+,{"stream_name":"stdout","time":48.024077129,"data":"T\n"}
+,{"stream_name":"stdout","time":48.02408067,"data":"U\n"}
+,{"stream_name":"stdout","time":48.024084389,"data":"V\n"}
+,{"stream_name":"stdout","time":48.024088051,"data":"W\n"}
+,{"stream_name":"stdout","time":48.02409172,"data":"X\n"}
+,{"stream_name":"stdout","time":48.024095937,"data":"Y\n"}
+,{"stream_name":"stdout","time":48.024100039,"data":"Z\n"}
+,{"stream_name":"stdout","time":48.024103882,"data":"[\n"}
+,{"stream_name":"stdout","time":48.024107379,"data":"\\\n"}
+,{"stream_name":"stdout","time":48.024111116,"data":"]\n"}
+,{"stream_name":"stdout","time":48.024114757,"data":"_\n"}
+,{"stream_name":"stdout","time":48.024118446,"data":"a\n"}
+,{"stream_name":"stdout","time":48.024122371,"data":"a1\n"}
+,{"stream_name":"stdout","time":48.024127194,"data":"ai1\n"}
+,{"stream_name":"stdout","time":48.024131229,"data":"ai2\n"}
+,{"stream_name":"stdout","time":48.024134862,"data":"ai3\n"}
+,{"stream_name":"stdout","time":48.02414259,"data":"ai4\n"}
+,{"stream_name":"stdout","time":48.024146581,"data":"an1\n"}
+,{"stream_name":"stdout","time":48.024150399,"data":"an3\n"}
+,{"stream_name":"stdout","time":48.024154539,"data":"an4\n"}
+,{"stream_name":"stdout","time":48.02415848,"data":"ang1\n"}
+,{"stream_name":"stdout","time":48.024162119,"data":"ang2\n"}
+,{"stream_name":"stdout","time":48.024165664,"data":"ang4\n"}
+,{"stream_name":"stdout","time":48.024169448,"data":"ao1\n"}
+,{"stream_name":"stdout","time":48.024173126,"data":"ao2\n"}
+,{"stream_name":"stdout","time":48.024177443,"data":"ao3\n"}
+,{"stream_name":"stdout","time":48.02418155,"data":"ao4\n"}
+,{"stream_name":"stdout","time":48.024185457,"data":"b\n"}
+,{"stream_name":"stdout","time":48.02418901,"data":"ba\n"}
+,{"stream_name":"stdout","time":48.02419266,"data":"ba1\n"}
+,{"stream_name":"stdout","time":48.024196311,"data":"ba2\n"}
+,{"stream_name":"stdout","time":48.024200035,"data":"ba3\n"}
+,{"stream_name":"stdout","time":48.024203691,"data":"ba4\n"}
+,{"stream_name":"stdout","time":48.024207984,"data":"bai1\n"}
+,{"stream_name":"stdout","time":48.02421254,"data":"bai2\n"}
+,{"stream_name":"stdout","time":48.024217034,"data":"bai3\n"}
+,{"stream_name":"stdout","time":48.02422064,"data":"bai4\n"}
+,{"stream_name":"stdout","time":48.024224894,"data":"ban1\n"}
+,{"stream_name":"stdout","time":48.024228846,"data":"ban2\n"}
+,{"stream_name":"stdout","time":48.024232545,"data":"ban3\n"}
+,{"stream_name":"stdout","time":48.024236374,"data":"ban4\n"}
+,{"stream_name":"stdout","time":48.024240354,"data":"bang1\n"}
+,{"stream_name":"stdout","time":48.024244442,"data":"bang2\n"}
+,{"stream_name":"stdout","time":48.024248079,"data":"bang3\n"}
+,{"stream_name":"stdout","time":48.024251729,"data":"bang4\n"}
+,{"stream_name":"stdout","time":48.024255397,"data":"bao1\n"}
+,{"stream_name":"stdout","time":48.024259116,"data":"bao2\n"}
+,{"stream_name":"stdout","time":48.024262763,"data":"bao3\n"}
+,{"stream_name":"stdout","time":48.024266994,"data":"bao4\n"}
+,{"stream_name":"stdout","time":48.024271134,"data":"bei\n"}
+,{"stream_name":"stdout","time":48.024275048,"data":"bei1\n"}
+,{"stream_name":"stdout","time":48.024351776,"data":"bei2\n"}
+,{"stream_name":"stdout","time":48.024358402,"data":"bei3\n"}
+,{"stream_name":"stdout","time":48.02436216,"data":"bei4\n"}
+,{"stream_name":"stdout","time":48.02437943,"data":"ben1\n"}
+,{"stream_name":"stdout","time":48.024383294,"data":"ben2\n"}
+,{"stream_name":"stdout","time":48.024386986,"data":"ben3\n"}
+,{"stream_name":"stdout","time":48.024391074,"data":"ben4\n"}
+,{"stream_name":"stdout","time":48.024394873,"data":"beng\n"}
+,{"stream_name":"stdout","time":48.024398906,"data":"beng1\n"}
+,{"stream_name":"stdout","time":48.02440252,"data":"beng2\n"}
+,{"stream_name":"stdout","time":48.024406324,"data":"beng3\n"}
+,{"stream_name":"stdout","time":48.024410312,"data":"beng4\n"}
+,{"stream_name":"stdout","time":48.02441408,"data":"bi1\n"}
+,{"stream_name":"stdout","time":48.0244182,"data":"bi2\n"}
+,{"stream_name":"stdout","time":48.024422353,"data":"bi3\n"}
+,{"stream_name":"stdout","time":48.024426837,"data":"bi4\n"}
+,{"stream_name":"stdout","time":48.024430476,"data":"bian1\n"}
+,{"stream_name":"stdout","time":48.024434153,"data":"bian2\n"}
+,{"stream_name":"stdout","time":48.024437775,"data":"bian3\n"}
+,{"stream_name":"stdout","time":48.024441326,"data":"bian4\n"}
+,{"stream_name":"stdout","time":48.024451583,"data":"biao1\n"}
+,{"stream_name":"stdout","time":48.024456525,"data":"biao2\n"}
+,{"stream_name":"stdout","time":48.024460125,"data":"biao3\n"}
+,{"stream_name":"stdout","time":48.024463626,"data":"bie1\n"}
+,{"stream_name":"stdout","time":48.024467271,"data":"bie2\n"}
+,{"stream_name":"stdout","time":48.02447096,"data":"bie3\n"}
+,{"stream_name":"stdout","time":48.024474895,"data":"bie4\n"}
+,{"stream_name":"stdout","time":48.024495408,"data":"bin1\n"}
+,{"stream_name":"stdout","time":48.024499685,"data":"bin4\n"}
+,{"stream_name":"stdout","time":48.024508839,"data":"bing1\n"}
+,{"stream_name":"stdout","time":48.02451265,"data":"bing2\n"}
+,{"stream_name":"stdout","time":48.024516345,"data":"bing3\n"}
+,{"stream_name":"stdout","time":48.024520164,"data":"bing4\n"}
+,{"stream_name":"stdout","time":48.024524609,"data":"bo\n"}
+,{"stream_name":"stdout","time":48.024528576,"data":"bo1\n"}
+,{"stream_name":"stdout","time":48.024532313,"data":"bo2\n"}
+,{"stream_name":"stdout","time":48.024535653,"data":"bo3\n"}
+,{"stream_name":"stdout","time":48.024539281,"data":"bo4\n"}
+,{"stream_name":"stdout","time":48.024542825,"data":"bu2\n"}
+,{"stream_name":"stdout","time":48.024546383,"data":"bu3\n"}
+,{"stream_name":"stdout","time":48.024550086,"data":"bu4\n"}
+,{"stream_name":"stdout","time":48.024554085,"data":"c\n"}
+,{"stream_name":"stdout","time":48.024558508,"data":"ca1\n"}
+,{"stream_name":"stdout","time":48.024562385,"data":"cai1\n"}
+,{"stream_name":"stdout","time":48.024565907,"data":"cai2\n"}
+,{"stream_name":"stdout","time":48.024569834,"data":"cai3\n"}
+,{"stream_name":"stdout","time":48.024573415,"data":"cai4\n"}
+,{"stream_name":"stdout","time":48.024577113,"data":"can1\n"}
+,{"stream_name":"stdout","time":48.0245811,"data":"can2\n"}
+,{"stream_name":"stdout","time":48.024584927,"data":"can3\n"}
+,{"stream_name":"stdout","time":48.02458885,"data":"can4\n"}
+,{"stream_name":"stdout","time":48.02459235,"data":"cang1\n"}
+,{"stream_name":"stdout","time":48.024596053,"data":"cang2\n"}
+,{"stream_name":"stdout","time":48.024599693,"data":"cao1\n"}
+,{"stream_name":"stdout","time":48.024603388,"data":"cao2\n"}
+,{"stream_name":"stdout","time":48.02460706,"data":"cao3\n"}
+,{"stream_name":"stdout","time":48.024611186,"data":"ce4\n"}
+,{"stream_name":"stdout","time":48.024615042,"data":"cen1\n"}
+,{"stream_name":"stdout","time":48.024618888,"data":"cen2\n"}
+,{"stream_name":"stdout","time":48.024622428,"data":"ceng1\n"}
+,{"stream_name":"stdout","time":48.024626133,"data":"ceng2\n"}
+,{"stream_name":"stdout","time":48.024629783,"data":"ceng4\n"}
+,{"stream_name":"stdout","time":48.024633785,"data":"cha1\n"}
+,{"stream_name":"stdout","time":48.024637771,"data":"cha2\n"}
+,{"stream_name":"stdout","time":48.024642112,"data":"cha3\n"}
+,{"stream_name":"stdout","time":48.024646392,"data":"cha4\n"}
+,{"stream_name":"stdout","time":48.024649743,"data":"chai1\n"}
+,{"stream_name":"stdout","time":48.024653435,"data":"chai2\n"}
+,{"stream_name":"stdout","time":48.024657231,"data":"chan1\n"}
+,{"stream_name":"stdout","time":48.024661008,"data":"chan2\n"}
+,{"stream_name":"stdout","time":48.02466531,"data":"chan3\n"}
+,{"stream_name":"stdout","time":48.024669251,"data":"chan4\n"}
+,{"stream_name":"stdout","time":48.024673504,"data":"chang1\n"}
+,{"stream_name":"stdout","time":48.024677237,"data":"chang2\n"}
+,{"stream_name":"stdout","time":48.024680963,"data":"chang3\n"}
+,{"stream_name":"stdout","time":48.024690098,"data":"chang4\n"}
+,{"stream_name":"stdout","time":48.024694435,"data":"chao1\n"}
+,{"stream_name":"stdout","time":48.024698219,"data":"chao2\n"}
+,{"stream_name":"stdout","time":48.024701879,"data":"chao3\n"}
+,{"stream_name":"stdout","time":48.024706275,"data":"che1\n"}
+,{"stream_name":"stdout","time":48.024709856,"data":"che2\n"}
+,{"stream_name":"stdout","time":48.024713564,"data":"che3\n"}
+,{"stream_name":"stdout","time":48.02471726,"data":"che4\n"}
+,{"stream_name":"stdout","time":48.024720905,"data":"chen1\n"}
+,{"stream_name":"stdout","time":48.024724613,"data":"chen2\n"}
+,{"stream_name":"stdout","time":48.024728505,"data":"chen3\n"}
+,{"stream_name":"stdout","time":48.02473246,"data":"chen4\n"}
+,{"stream_name":"stdout","time":48.024736056,"data":"cheng1\n"}
+,{"stream_name":"stdout","time":48.024739845,"data":"cheng2\n"}
+,{"stream_name":"stdout","time":48.024743769,"data":"cheng3\n"}
+,{"stream_name":"stdout","time":48.024747495,"data":"cheng4\n"}
+,{"stream_name":"stdout","time":48.024751193,"data":"chi1\n"}
+,{"stream_name":"stdout","time":48.024755137,"data":"chi2\n"}
+,{"stream_name":"stdout","time":48.024759179,"data":"chi3\n"}
+,{"stream_name":"stdout","time":48.02476384,"data":"chi4\n"}
+,{"stream_name":"stdout","time":48.024767443,"data":"chong1\n"}
+,{"stream_name":"stdout","time":48.024771,"data":"chong2\n"}
+,{"stream_name":"stdout","time":48.024774609,"data":"chong3\n"}
+,{"stream_name":"stdout","time":48.024778337,"data":"chong4\n"}
+,{"stream_name":"stdout","time":48.024782558,"data":"chou1\n"}
+,{"stream_name":"stdout","time":48.024787126,"data":"chou2\n"}
+,{"stream_name":"stdout","time":48.024791508,"data":"chou3\n"}
+,{"stream_name":"stdout","time":48.024795257,"data":"chou4\n"}
+,{"stream_name":"stdout","time":48.024798977,"data":"chu1\n"}
+,{"stream_name":"stdout","time":48.02480262,"data":"chu2\n"}
+,{"stream_name":"stdout","time":48.02480634,"data":"chu3\n"}
+,{"stream_name":"stdout","time":48.024810161,"data":"chu4\n"}
+,{"stream_name":"stdout","time":48.024814077,"data":"chua1\n"}
+,{"stream_name":"stdout","time":48.024818359,"data":"chuai1\n"}
+,{"stream_name":"stdout","time":48.024821933,"data":"chuai2\n"}
+,{"stream_name":"stdout","time":48.024825583,"data":"chuai3\n"}
+,{"stream_name":"stdout","time":48.024829356,"data":"chuai4\n"}
+,{"stream_name":"stdout","time":48.024833054,"data":"chuan1\n"}
+,{"stream_name":"stdout","time":48.02483683,"data":"chuan2\n"}
+,{"stream_name":"stdout","time":48.024853161,"data":"chuan3\n"}
+,{"stream_name":"stdout","time":48.024856839,"data":"chuan4\n"}
+,{"stream_name":"stdout","time":48.024860581,"data":"chuang1\n"}
+,{"stream_name":"stdout","time":48.024864289,"data":"chuang2\n"}
+,{"stream_name":"stdout","time":48.024868039,"data":"chuang3\n"}
+,{"stream_name":"stdout","time":48.024872329,"data":"chuang4\n"}
+,{"stream_name":"stdout","time":48.024876476,"data":"chui1\n"}
+,{"stream_name":"stdout","time":48.024880108,"data":"chui2\n"}
+,{"stream_name":"stdout","time":48.024884059,"data":"chun1\n"}
+,{"stream_name":"stdout","time":48.024887832,"data":"chun2\n"}
+,{"stream_name":"stdout","time":48.024891516,"data":"chun3\n"}
+,{"stream_name":"stdout","time":48.024895238,"data":"chuo1\n"}
+,{"stream_name":"stdout","time":48.024899363,"data":"chuo4\n"}
+,{"stream_name":"stdout","time":48.02490343,"data":"ci1\n"}
+,{"stream_name":"stdout","time":48.024911639,"data":"ci2\n"}
+,{"stream_name":"stdout","time":48.024915602,"data":"ci3\n"}
+,{"stream_name":"stdout","time":48.024919344,"data":"ci4\n"}
+,{"stream_name":"stdout","time":48.024923039,"data":"cong1\n"}
+,{"stream_name":"stdout","time":48.024926957,"data":"cong2\n"}
+,{"stream_name":"stdout","time":48.02493088,"data":"cou4\n"}
+,{"stream_name":"stdout","time":48.024934847,"data":"cu1\n"}
+,{"stream_name":"stdout","time":48.024938419,"data":"cu4\n"}
+,{"stream_name":"stdout","time":48.024958261,"data":"cuan1\n"}
+,{"stream_name":"stdout","time":48.024962361,"data":"cuan2\n"}
+,{"stream_name":"stdout","time":48.024965978,"data":"cuan4\n"}
+,{"stream_name":"stdout","time":48.024969788,"data":"cui1\n"}
+,{"stream_name":"stdout","time":48.024973512,"data":"cui3\n"}
+,{"stream_name":"stdout","time":48.024977255,"data":"cui4\n"}
+,{"stream_name":"stdout","time":48.024981394,"data":"cun1\n"}
+,{"stream_name":"stdout","time":48.024985291,"data":"cun2\n"}
+,{"stream_name":"stdout","time":48.024989337,"data":"cun4\n"}
+,{"stream_name":"stdout","time":48.024992935,"data":"cuo1\n"}
+,{"stream_name":"stdout","time":48.024996609,"data":"cuo2\n"}
+,{"stream_name":"stdout","time":48.025000323,"data":"cuo4\n"}
+,{"stream_name":"stdout","time":48.025004066,"data":"d\n"}
+,{"stream_name":"stdout","time":48.025007888,"data":"da\n"}
+,{"stream_name":"stdout","time":48.02501222,"data":"da1\n"}
+,{"stream_name":"stdout","time":48.025016302,"data":"da2\n"}
+,{"stream_name":"stdout","time":48.025019886,"data":"da3\n"}
+,{"stream_name":"stdout","time":48.02502359,"data":"da4\n"}
+,{"stream_name":"stdout","time":48.025027584,"data":"dai1\n"}
+,{"stream_name":"stdout","time":48.025031291,"data":"dai2\n"}
+,{"stream_name":"stdout","time":48.025035615,"data":"dai3\n"}
+,{"stream_name":"stdout","time":48.025039956,"data":"dai4\n"}
+,{"stream_name":"stdout","time":48.025043771,"data":"dan1\n"}
+,{"stream_name":"stdout","time":48.025047222,"data":"dan2\n"}
+,{"stream_name":"stdout","time":48.025050942,"data":"dan3\n"}
+,{"stream_name":"stdout","time":48.025054581,"data":"dan4\n"}
+,{"stream_name":"stdout","time":48.025058345,"data":"dang1\n"}
+,{"stream_name":"stdout","time":48.025062118,"data":"dang2\n"}
+,{"stream_name":"stdout","time":48.025066096,"data":"dang3\n"}
+,{"stream_name":"stdout","time":48.025069903,"data":"dang4\n"}
+,{"stream_name":"stdout","time":48.025075097,"data":"dao1\n"}
+,{"stream_name":"stdout","time":48.025078713,"data":"dao2\n"}
+,{"stream_name":"stdout","time":48.025082427,"data":"dao3\n"}
+,{"stream_name":"stdout","time":48.025086107,"data":"dao4\n"}
+,{"stream_name":"stdout","time":48.025089857,"data":"de\n"}
+,{"stream_name":"stdout","time":48.025093954,"data":"de1\n"}
+,{"stream_name":"stdout","time":48.025099031,"data":"de2\n"}
+,{"stream_name":"stdout","time":48.025103082,"data":"dei3\n"}
+,{"stream_name":"stdout","time":48.025106778,"data":"den4\n"}
+,{"stream_name":"stdout","time":48.025110362,"data":"deng1\n"}
+,{"stream_name":"stdout","time":48.025114029,"data":"deng2\n"}
+,{"stream_name":"stdout","time":48.025117694,"data":"deng3\n"}
+,{"stream_name":"stdout","time":48.025121383,"data":"deng4\n"}
+,{"stream_name":"stdout","time":48.025125267,"data":"di1\n"}
+,{"stream_name":"stdout","time":48.025129512,"data":"di2\n"}
+,{"stream_name":"stdout","time":48.025133544,"data":"di3\n"}
+,{"stream_name":"stdout","time":48.025137259,"data":"di4\n"}
+,{"stream_name":"stdout","time":48.025144617,"data":"dia3\n"}
+,{"stream_name":"stdout","time":48.025148512,"data":"dian1\n"}
+,{"stream_name":"stdout","time":48.025152397,"data":"dian2\n"}
+,{"stream_name":"stdout","time":48.025156372,"data":"dian3\n"}
+,{"stream_name":"stdout","time":48.025160212,"data":"dian4\n"}
+,{"stream_name":"stdout","time":48.025163884,"data":"diao1\n"}
+,{"stream_name":"stdout","time":48.02516749,"data":"diao3\n"}
+,{"stream_name":"stdout","time":48.025171119,"data":"diao4\n"}
+,{"stream_name":"stdout","time":48.025174758,"data":"die1\n"}
+,{"stream_name":"stdout","time":48.025178457,"data":"die2\n"}
+,{"stream_name":"stdout","time":48.025182846,"data":"die4\n"}
+,{"stream_name":"stdout","time":48.025186838,"data":"ding1\n"}
+,{"stream_name":"stdout","time":48.025191003,"data":"ding2\n"}
+,{"stream_name":"stdout","time":48.025194837,"data":"ding3\n"}
+,{"stream_name":"stdout","time":48.025198461,"data":"ding4\n"}
+,{"stream_name":"stdout","time":48.025202097,"data":"diu1\n"}
+,{"stream_name":"stdout","time":48.025205943,"data":"dong1\n"}
+,{"stream_name":"stdout","time":48.025209641,"data":"dong3\n"}
+,{"stream_name":"stdout","time":48.025214023,"data":"dong4\n"}
+,{"stream_name":"stdout","time":48.025218309,"data":"dou1\n"}
+,{"stream_name":"stdout","time":48.025222477,"data":"dou2\n"}
+,{"stream_name":"stdout","time":48.025226083,"data":"dou3\n"}
+,{"stream_name":"stdout","time":48.025229871,"data":"dou4\n"}
+,{"stream_name":"stdout","time":48.025233992,"data":"du1\n"}
+,{"stream_name":"stdout","time":48.025237667,"data":"du2\n"}
+,{"stream_name":"stdout","time":48.025241586,"data":"du3\n"}
+,{"stream_name":"stdout","time":48.02524556,"data":"du4\n"}
+,{"stream_name":"stdout","time":48.025249539,"data":"duan1\n"}
+,{"stream_name":"stdout","time":48.025253734,"data":"duan2\n"}
+,{"stream_name":"stdout","time":48.025257381,"data":"duan3\n"}
+,{"stream_name":"stdout","time":48.025261049,"data":"duan4\n"}
+,{"stream_name":"stdout","time":48.025264839,"data":"dui1\n"}
+,{"stream_name":"stdout","time":48.025268539,"data":"dui4\n"}
+,{"stream_name":"stdout","time":48.025272371,"data":"dun1\n"}
+,{"stream_name":"stdout","time":48.025276154,"data":"dun3\n"}
+,{"stream_name":"stdout","time":48.025280027,"data":"dun4\n"}
+,{"stream_name":"stdout","time":48.025283591,"data":"duo1\n"}
+,{"stream_name":"stdout","time":48.025287316,"data":"duo2\n"}
+,{"stream_name":"stdout","time":48.025290983,"data":"duo3\n"}
+,{"stream_name":"stdout","time":48.025294696,"data":"duo4\n"}
+,{"stream_name":"stdout","time":48.025298909,"data":"e\n"}
+,{"stream_name":"stdout","time":48.025302944,"data":"e1\n"}
+,{"stream_name":"stdout","time":48.025307523,"data":"e2\n"}
+,{"stream_name":"stdout","time":48.025311144,"data":"e3\n"}
+,{"stream_name":"stdout","time":48.025314787,"data":"e4\n"}
+,{"stream_name":"stdout","time":48.025318332,"data":"ei2\n"}
+,{"stream_name":"stdout","time":48.025322046,"data":"en1\n"}
+,{"stream_name":"stdout","time":48.025325725,"data":"en4\n"}
+,{"stream_name":"stdout","time":48.025330116,"data":"er\n"}
+,{"stream_name":"stdout","time":48.025334299,"data":"er2\n"}
+,{"stream_name":"stdout","time":48.025338508,"data":"er3\n"}
+,{"stream_name":"stdout","time":48.02534171,"data":"er4\n"}
+,{"stream_name":"stdout","time":48.025344705,"data":"f\n"}
+,{"stream_name":"stdout","time":48.025348015,"data":"fa1\n"}
+,{"stream_name":"stdout","time":48.025351393,"data":"fa2\n"}
+,{"stream_name":"stdout","time":48.025359123,"data":"fa3\n"}
+,{"stream_name":"stdout","time":48.02536304,"data":"fa4\n"}
+,{"stream_name":"stdout","time":48.025367606,"data":"fan1\n"}
+,{"stream_name":"stdout","time":48.02537184,"data":"fan2\n"}
+,{"stream_name":"stdout","time":48.02537581,"data":"fan3\n"}
+,{"stream_name":"stdout","time":48.025379748,"data":"fan4\n"}
+,{"stream_name":"stdout","time":48.025383307,"data":"fang1\n"}
+,{"stream_name":"stdout","time":48.025386995,"data":"fang2\n"}
+,{"stream_name":"stdout","time":48.025390715,"data":"fang3\n"}
+,{"stream_name":"stdout","time":48.025394441,"data":"fang4\n"}
+,{"stream_name":"stdout","time":48.025398353,"data":"fei1\n"}
+,{"stream_name":"stdout","time":48.025402437,"data":"fei2\n"}
+,{"stream_name":"stdout","time":48.025406467,"data":"fei3\n"}
+,{"stream_name":"stdout","time":48.025410053,"data":"fei4\n"}
+,{"stream_name":"stdout","time":48.02541366,"data":"fen1\n"}
+,{"stream_name":"stdout","time":48.025417488,"data":"fen2\n"}
+,{"stream_name":"stdout","time":48.025421145,"data":"fen3\n"}
+,{"stream_name":"stdout","time":48.025424867,"data":"fen4\n"}
+,{"stream_name":"stdout","time":48.025429053,"data":"feng1\n"}
+,{"stream_name":"stdout","time":48.025433059,"data":"feng2\n"}
+,{"stream_name":"stdout","time":48.025436642,"data":"feng3\n"}
+,{"stream_name":"stdout","time":48.025440323,"data":"feng4\n"}
+,{"stream_name":"stdout","time":48.025444038,"data":"fo2\n"}
+,{"stream_name":"stdout","time":48.02544781,"data":"fou2\n"}
+,{"stream_name":"stdout","time":48.025451492,"data":"fou3\n"}
+,{"stream_name":"stdout","time":48.025455833,"data":"fu1\n"}
+,{"stream_name":"stdout","time":48.025460355,"data":"fu2\n"}
+,{"stream_name":"stdout","time":48.02546426,"data":"fu3\n"}
+,{"stream_name":"stdout","time":48.02546786,"data":"fu4\n"}
+,{"stream_name":"stdout","time":48.025471452,"data":"g\n"}
+,{"stream_name":"stdout","time":48.02547512,"data":"ga1\n"}
+,{"stream_name":"stdout","time":48.025493273,"data":"ga2\n"}
+,{"stream_name":"stdout","time":48.025501685,"data":"ga3\n"}
+,{"stream_name":"stdout","time":48.025506127,"data":"ga4\n"}
+,{"stream_name":"stdout","time":48.025509822,"data":"gai1\n"}
+,{"stream_name":"stdout","time":48.025513404,"data":"gai2\n"}
+,{"stream_name":"stdout","time":48.025517061,"data":"gai3\n"}
+,{"stream_name":"stdout","time":48.025520726,"data":"gai4\n"}
+,{"stream_name":"stdout","time":48.025524419,"data":"gan1\n"}
+,{"stream_name":"stdout","time":48.025528212,"data":"gan2\n"}
+,{"stream_name":"stdout","time":48.025532521,"data":"gan3\n"}
+,{"stream_name":"stdout","time":48.025535903,"data":"gan4\n"}
+,{"stream_name":"stdout","time":48.025539708,"data":"gang1\n"}
+,{"stream_name":"stdout","time":48.025543241,"data":"gang2\n"}
+,{"stream_name":"stdout","time":48.025546851,"data":"gang3\n"}
+,{"stream_name":"stdout","time":48.02555085,"data":"gang4\n"}
+,{"stream_name":"stdout","time":48.025554488,"data":"gao1\n"}
+,{"stream_name":"stdout","time":48.025558211,"data":"gao2\n"}
+,{"stream_name":"stdout","time":48.025562494,"data":"gao3\n"}
+,{"stream_name":"stdout","time":48.025566741,"data":"gao4\n"}
+,{"stream_name":"stdout","time":48.02557041,"data":"ge1\n"}
+,{"stream_name":"stdout","time":48.025574063,"data":"ge2\n"}
+,{"stream_name":"stdout","time":48.02557767,"data":"ge3\n"}
+,{"stream_name":"stdout","time":48.02558139,"data":"ge4\n"}
+,{"stream_name":"stdout","time":48.02558505,"data":"gei2\n"}
+,{"stream_name":"stdout","time":48.025594541,"data":"gei3\n"}
+,{"stream_name":"stdout","time":48.02559897,"data":"gen1\n"}
+,{"stream_name":"stdout","time":48.025602537,"data":"gen2\n"}
+,{"stream_name":"stdout","time":48.025606024,"data":"gen3\n"}
+,{"stream_name":"stdout","time":48.025609688,"data":"gen4\n"}
+,{"stream_name":"stdout","time":48.025613532,"data":"geng1\n"}
+,{"stream_name":"stdout","time":48.025617225,"data":"geng3\n"}
+,{"stream_name":"stdout","time":48.025621099,"data":"geng4\n"}
+,{"stream_name":"stdout","time":48.025625329,"data":"gong1\n"}
+,{"stream_name":"stdout","time":48.025629223,"data":"gong3\n"}
+,{"stream_name":"stdout","time":48.025632542,"data":"gong4\n"}
+,{"stream_name":"stdout","time":48.025636175,"data":"gou1\n"}
+,{"stream_name":"stdout","time":48.025639835,"data":"gou2\n"}
+,{"stream_name":"stdout","time":48.0256435,"data":"gou3\n"}
+,{"stream_name":"stdout","time":48.025647578,"data":"gou4\n"}
+,{"stream_name":"stdout","time":48.025651773,"data":"gu\n"}
+,{"stream_name":"stdout","time":48.025655785,"data":"gu1\n"}
+,{"stream_name":"stdout","time":48.025659825,"data":"gu2\n"}
+,{"stream_name":"stdout","time":48.02566343,"data":"gu3\n"}
+,{"stream_name":"stdout","time":48.025667123,"data":"gu4\n"}
+,{"stream_name":"stdout","time":48.02567087,"data":"gua1\n"}
+,{"stream_name":"stdout","time":48.025674561,"data":"gua2\n"}
+,{"stream_name":"stdout","time":48.025678405,"data":"gua3\n"}
+,{"stream_name":"stdout","time":48.025682604,"data":"gua4\n"}
+,{"stream_name":"stdout","time":48.025686341,"data":"guai1\n"}
+,{"stream_name":"stdout","time":48.025689989,"data":"guai2\n"}
+,{"stream_name":"stdout","time":48.025693703,"data":"guai3\n"}
+,{"stream_name":"stdout","time":48.025697891,"data":"guai4\n"}
+,{"stream_name":"stdout","time":48.025701633,"data":"guan1\n"}
+,{"stream_name":"stdout","time":48.025706149,"data":"guan2\n"}
+,{"stream_name":"stdout","time":48.025709782,"data":"guan3\n"}
+,{"stream_name":"stdout","time":48.025713993,"data":"guan4\n"}
+,{"stream_name":"stdout","time":48.025717323,"data":"guang1\n"}
+,{"stream_name":"stdout","time":48.02572089,"data":"guang2\n"}
+,{"stream_name":"stdout","time":48.02572478,"data":"guang3\n"}
+,{"stream_name":"stdout","time":48.025730869,"data":"guang4\n"}
+,{"stream_name":"stdout","time":48.025734808,"data":"gui1\n"}
+,{"stream_name":"stdout","time":48.02573874,"data":"gui2\n"}
+,{"stream_name":"stdout","time":48.025742228,"data":"gui3\n"}
+,{"stream_name":"stdout","time":48.025745636,"data":"gui4\n"}
+,{"stream_name":"stdout","time":48.025749173,"data":"gun3\n"}
+,{"stream_name":"stdout","time":48.025752468,"data":"gun4\n"}
+,{"stream_name":"stdout","time":48.025755833,"data":"guo1\n"}
+,{"stream_name":"stdout","time":48.02575928,"data":"guo2\n"}
+,{"stream_name":"stdout","time":48.025762767,"data":"guo3\n"}
+,{"stream_name":"stdout","time":48.025766515,"data":"guo4\n"}
+,{"stream_name":"stdout","time":48.025770073,"data":"h\n"}
+,{"stream_name":"stdout","time":48.025773698,"data":"ha1\n"}
+,{"stream_name":"stdout","time":48.025777309,"data":"ha2\n"}
+,{"stream_name":"stdout","time":48.025780864,"data":"ha3\n"}
+,{"stream_name":"stdout","time":48.025784569,"data":"hai1\n"}
+,{"stream_name":"stdout","time":48.025788627,"data":"hai2\n"}
+,{"stream_name":"stdout","time":48.025792408,"data":"hai3\n"}
+,{"stream_name":"stdout","time":48.025796831,"data":"hai4\n"}
+,{"stream_name":"stdout","time":48.025804101,"data":"han1\n"}
+,{"stream_name":"stdout","time":48.025807883,"data":"han2\n"}
+,{"stream_name":"stdout","time":48.025811488,"data":"han3\n"}
+,{"stream_name":"stdout","time":48.025815135,"data":"han4\n"}
+,{"stream_name":"stdout","time":48.025818941,"data":"hang1\n"}
+,{"stream_name":"stdout","time":48.025823194,"data":"hang2\n"}
+,{"stream_name":"stdout","time":48.025827121,"data":"hang4\n"}
+,{"stream_name":"stdout","time":48.025831048,"data":"hao1\n"}
+,{"stream_name":"stdout","time":48.025834463,"data":"hao2\n"}
+,{"stream_name":"stdout","time":48.025845645,"data":"hao3\n"}
+,{"stream_name":"stdout","time":48.025849982,"data":"hao4\n"}
+,{"stream_name":"stdout","time":48.025853778,"data":"he1\n"}
+,{"stream_name":"stdout","time":48.025857764,"data":"he2\n"}
+,{"stream_name":"stdout","time":48.025861433,"data":"he4\n"}
+,{"stream_name":"stdout","time":48.025865193,"data":"hei1\n"}
+,{"stream_name":"stdout","time":48.025868953,"data":"hen2\n"}
+,{"stream_name":"stdout","time":48.025872661,"data":"hen3\n"}
+,{"stream_name":"stdout","time":48.02587674,"data":"hen4\n"}
+,{"stream_name":"stdout","time":48.025880361,"data":"heng1\n"}
+,{"stream_name":"stdout","time":48.025884038,"data":"heng2\n"}
+,{"stream_name":"stdout","time":48.025887942,"data":"heng4\n"}
+,{"stream_name":"stdout","time":48.02589138,"data":"hong1\n"}
+,{"stream_name":"stdout","time":48.025894884,"data":"hong2\n"}
+,{"stream_name":"stdout","time":48.025898525,"data":"hong3\n"}
+,{"stream_name":"stdout","time":48.025902201,"data":"hong4\n"}
+,{"stream_name":"stdout","time":48.025906044,"data":"hou1\n"}
+,{"stream_name":"stdout","time":48.025910027,"data":"hou2\n"}
+,{"stream_name":"stdout","time":48.025913983,"data":"hou3\n"}
+,{"stream_name":"stdout","time":48.025917661,"data":"hou4\n"}
+,{"stream_name":"stdout","time":48.025921385,"data":"hu1\n"}
+,{"stream_name":"stdout","time":48.025925013,"data":"hu2\n"}
+,{"stream_name":"stdout","time":48.025928534,"data":"hu3\n"}
+,{"stream_name":"stdout","time":48.025932259,"data":"hu4\n"}
+,{"stream_name":"stdout","time":48.025936119,"data":"hua1\n"}
+,{"stream_name":"stdout","time":48.025940168,"data":"hua2\n"}
+,{"stream_name":"stdout","time":48.025944099,"data":"hua4\n"}
+,{"stream_name":"stdout","time":48.025947662,"data":"huai2\n"}
+,{"stream_name":"stdout","time":48.025951196,"data":"huai4\n"}
+,{"stream_name":"stdout","time":48.025954911,"data":"huan1\n"}
+,{"stream_name":"stdout","time":48.025958678,"data":"huan2\n"}
+,{"stream_name":"stdout","time":48.025962852,"data":"huan3\n"}
+,{"stream_name":"stdout","time":48.025979652,"data":"huan4\n"}
+,{"stream_name":"stdout","time":48.025983383,"data":"huang1\n"}
+,{"stream_name":"stdout","time":48.025987073,"data":"huang2\n"}
+,{"stream_name":"stdout","time":48.025990896,"data":"huang3\n"}
+,{"stream_name":"stdout","time":48.025995217,"data":"huang4\n"}
+,{"stream_name":"stdout","time":48.025998879,"data":"hui1\n"}
+,{"stream_name":"stdout","time":48.026002771,"data":"hui2\n"}
+,{"stream_name":"stdout","time":48.026006163,"data":"hui3\n"}
+,{"stream_name":"stdout","time":48.026009757,"data":"hui4\n"}
+,{"stream_name":"stdout","time":48.026013391,"data":"hun1\n"}
+,{"stream_name":"stdout","time":48.026017213,"data":"hun2\n"}
+,{"stream_name":"stdout","time":48.026020902,"data":"hun4\n"}
+,{"stream_name":"stdout","time":48.026025236,"data":"huo\n"}
+,{"stream_name":"stdout","time":48.026029252,"data":"huo1\n"}
+,{"stream_name":"stdout","time":48.026036747,"data":"huo2\n"}
+,{"stream_name":"stdout","time":48.02604047,"data":"huo3\n"}
+,{"stream_name":"stdout","time":48.026044021,"data":"huo4\n"}
+,{"stream_name":"stdout","time":48.026047739,"data":"i\n"}
+,{"stream_name":"stdout","time":48.026051718,"data":"j\n"}
+,{"stream_name":"stdout","time":48.026056347,"data":"ji1\n"}
+,{"stream_name":"stdout","time":48.026060408,"data":"ji2\n"}
+,{"stream_name":"stdout","time":48.02606432,"data":"ji3\n"}
+,{"stream_name":"stdout","time":48.026067892,"data":"ji4\n"}
+,{"stream_name":"stdout","time":48.026071676,"data":"jia\n"}
+,{"stream_name":"stdout","time":48.026075279,"data":"jia1\n"}
+,{"stream_name":"stdout","time":48.026078946,"data":"jia2\n"}
+,{"stream_name":"stdout","time":48.026082578,"data":"jia3\n"}
+,{"stream_name":"stdout","time":48.026086803,"data":"jia4\n"}
+,{"stream_name":"stdout","time":48.026090473,"data":"jian1\n"}
+,{"stream_name":"stdout","time":48.026094038,"data":"jian2\n"}
+,{"stream_name":"stdout","time":48.026097926,"data":"jian3\n"}
+,{"stream_name":"stdout","time":48.026101628,"data":"jian4\n"}
+,{"stream_name":"stdout","time":48.026105324,"data":"jiang1\n"}
+,{"stream_name":"stdout","time":48.026109356,"data":"jiang2\n"}
+,{"stream_name":"stdout","time":48.026114394,"data":"jiang3\n"}
+,{"stream_name":"stdout","time":48.026118183,"data":"jiang\n"}
+,{"stream_name":"stdout","time":48.026122159,"data":"[    47s] tìm vocab lỗi HfApi.list_models() got an unexpected keyword argument 'direction'\n"}
+,{"stream_name":"stdout","time":48.026126887,"data":"[    47s] ckpt ['/tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt'] vocab []\n"}
+,{"stream_name":"stderr","time":76.775145189,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:300: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":76.775198446,"data":"  m = re.match('([su]([0-9]{1,2})p?) \\(([0-9]{1,2}) bit\\)$', token)\n"}
+,{"stream_name":"stderr","time":76.775205679,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:301: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":76.775210852,"data":"  m2 = re.match('([su]([0-9]{1,2})p?)( \\(default\\))?$', token)\n"}
+,{"stream_name":"stderr","time":76.775271859,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:310: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":76.775291916,"data":"  elif re.match('(flt)p?( \\(default\\))?$', token):\n"}
+,{"stream_name":"stderr","time":76.775297721,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:314: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":76.775302583,"data":"  elif re.match('(dbl)p?( \\(default\\))?$', token):\n"}
+,{"stream_name":"stdout","time":105.631360102,"data":"Download Vocos from huggingface charactr/vocos-mel-24khz\n"}
+,{"stream_name":"stdout","time":107.834191861,"data":"\n"}
+,{"stream_name":"stdout","time":107.834242329,"data":"vocab :  /usr/local/lib/python3.13/dist-packages/f5_tts/infer/examples/vocab.txt\n"}
+,{"stream_name":"stdout","time":107.834311008,"data":"token :  custom\n"}
+,{"stream_name":"stdout","time":107.834428772,"data":"model :  /tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt \n"}
+,{"stream_name":"stdout","time":107.83445338,"data":"\n"}
+,{"stream_name":"stdout","time":113.209454149,"data":"[   112s] nạp lỗi F5TTS_Base Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stdout","time":113.209588389,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is t\n"}
+,{"stream_name":"stderr","time":113.214119671,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":113.215326011,"data":"  File \"/kaggle/src/script.py\", line 57, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":113.215339609,"data":"    f5 = F5TTS(model=name, ckpt_file=ck[0], vocab_file=vocab[0] if vocab else \"\", device=\"cuda\"); log(\"nạp được với\", name); break\n"}
+,{"stream_name":"stderr","time":113.215410316,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/api.py\", line 82, in __init__\n"}
+,{"stream_name":"stderr","time":113.215417622,"data":"    self.ema_model = load_model(\n"}
+,{"stream_name":"stderr","time":113.215421602,"data":"                     ~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":113.215425544,"data":"        model_cls, model_arc, ckpt_file, self.mel_spec_type, vocab_file, self.ode_method, self.use_ema, self.device\n"}
+,{"stream_name":"stderr","time":113.215430037,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":113.215433777,"data":"    )\n"}
+,{"stream_name":"stderr","time":113.215437849,"data":"    ^\n"}
+,{"stream_name":"stderr","time":113.215443827,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 274, in load_model\n"}
+,{"stream_name":"stderr","time":113.215448204,"data":"    model = load_checkpoint(model, ckpt_path, device, dtype=dtype, use_ema=use_ema)\n"}
+,{"stream_name":"stderr","time":113.21551223,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 223, in load_checkpoint\n"}
+,{"stream_name":"stderr","time":113.21552102,"data":"    model.load_state_dict(checkpoint[\"model_state_dict\"])\n"}
+,{"stream_name":"stderr","time":113.215524769,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":113.215571528,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 2639, in load_state_dict\n"}
+,{"stream_name":"stderr","time":113.215577543,"data":"    raise RuntimeError(\n"}
+,{"stream_name":"stderr","time":113.215581303,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":113.215585121,"data":"    )\n"}
+,{"stream_name":"stderr","time":113.215621256,"data":"RuntimeError: Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stderr","time":113.215626044,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is torch.Size([2546, 512]).\n"}
+,{"stream_name":"stdout","time":113.22754152,"data":"Download Vocos from huggingface charactr/vocos-mel-24khz\n"}
+,{"stream_name":"stdout","time":113.690393222,"data":"\n"}
+,{"stream_name":"stdout","time":113.690431492,"data":"vocab :  /usr/local/lib/python3.13/dist-packages/f5_tts/infer/examples/vocab.txt\n"}
+,{"stream_name":"stdout","time":113.690619791,"data":"token :  custom\n"}
+,{"stream_name":"stdout","time":113.690764941,"data":"model :  /tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt \n"}
+,{"stream_name":"stdout","time":113.690773064,"data":"\n"}
+,{"stream_name":"stdout","time":118.866230652,"data":"[   118s] nạp lỗi F5TTS_v1_Base Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stdout","time":118.866270478,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is t\n"}
+,{"stream_name":"stderr","time":118.866919455,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":118.867965635,"data":"  File \"/kaggle/src/script.py\", line 57, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":118.867981633,"data":"    f5 = F5TTS(model=name, ckpt_file=ck[0], vocab_file=vocab[0] if vocab else \"\", device=\"cuda\"); log(\"nạp được với\", name); break\n"}
+,{"stream_name":"stderr","time":118.868048193,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/api.py\", line 82, in __init__\n"}
+,{"stream_name":"stderr","time":118.868066687,"data":"    self.ema_model = load_model(\n"}
+,{"stream_name":"stderr","time":118.868071703,"data":"                     ~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":118.868075699,"data":"        model_cls, model_arc, ckpt_file, self.mel_spec_type, vocab_file, self.ode_method, self.use_ema, self.device\n"}
+,{"stream_name":"stderr","time":118.868080011,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":118.868084323,"data":"    )\n"}
+,{"stream_name":"stderr","time":118.868088075,"data":"    ^\n"}
+,{"stream_name":"stderr","time":118.868097469,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 274, in load_model\n"}
+,{"stream_name":"stderr","time":118.868101716,"data":"    model = load_checkpoint(model, ckpt_path, device, dtype=dtype, use_ema=use_ema)\n"}
+,{"stream_name":"stderr","time":118.868105675,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 223, in load_checkpoint\n"}
+,{"stream_name":"stderr","time":118.868110191,"data":"    model.load_state_dict(checkpoint[\"model_state_dict\"])\n"}
+,{"stream_name":"stderr","time":118.868114222,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":118.868176484,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 2639, in load_state_dict\n"}
+,{"stream_name":"stderr","time":118.86818514,"data":"    raise RuntimeError(\n"}
+,{"stream_name":"stderr","time":118.868188764,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":118.868193165,"data":"    )\n"}
+,{"stream_name":"stderr","time":118.868617127,"data":"RuntimeError: Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stderr","time":118.868627422,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is torch.Size([2546, 512]).\n"}
+,{"stream_name":"stderr","time":118.873028638,"data":"không nạp được F5\n"}
+,{"stream_name":"stderr","time":126.730715266,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":126.730742629,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":126.979326704,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":126.97935657,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":127.749140197,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":128.274836928,"data":"[NbConvertApp] Writing 911349 bytes to __results__.html\n"}
 ]

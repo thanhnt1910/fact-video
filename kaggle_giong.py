@@ -44,7 +44,7 @@ vocab = [p for p in glob.glob(d + "/**/*", recursive=True) if os.path.basename(p
 if not vocab:   # tìm vocab ở repo khác của cùng tác giả hoặc bản tiếng Việt khác
     try:
         from huggingface_hub import hf_hub_download, list_repo_files
-        cands = ["hynt/F5-TTS-Vietnamese-ViVoice"] + [m.id for m in HfApi().list_models(search="F5-TTS-Vietnamese", sort="downloads", direction=-1, limit=15)] + [m.id for m in HfApi().list_models(search="F5-TTS-Viet", limit=15)]
+        cands = ["hynt/F5-TTS-Vietnamese-ViVoice","hynt/F5-TTS-Vietnamese-100h","hynt/F5-TTS-Vietnamese","SWivid/F5-TTS"] + [m.id for m in HfApi().list_models(search="F5-TTS-Vietnamese", limit=20)] + [m.id for m in HfApi().list_models(search="F5-TTS-Viet", limit=15)]
         seen = set()
         for r in cands:
             if r in seen: continue

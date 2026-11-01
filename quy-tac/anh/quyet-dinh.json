@@ -276,6 +276,49 @@
     "khoi_prompt": "1.3"
    },
    "tai_su_dung": "chỉ về mặt hình ảnh, cho Lý Thường Kiệt giai đoạn S2"
+  },
+  {
+   "id": "DQ-006",
+   "noi_dung": "Video lt1v6 (bản đồ vector kèm cận cảnh): Lý Thường Kiệt giữ MỘT diện mạo cố định từ đầu đến cuối video, mọi năm kể cả cảnh 1105: râu đen pha bạc, khăn đỏ quấn đầu kèm búi tóc, mặc giáp (vai giáp, áo choàng đỏ nâu). Không đổi râu, tóc hay trang phục theo tuổi.",
+   "trang_thai": "APPROVED",
+   "evidence_level": "C",
+   "decision_mode": "OWNER_APPROVAL",
+   "pham_vi": {
+    "cap": "PROJECT",
+    "du_an": "lt1v6",
+    "nhan_vat": "ly-thuong-kiet",
+    "giai_doan": [
+     "S1",
+     "S2",
+     "S3",
+     "S4"
+    ],
+    "thoi_ky": null,
+    "nien_dai": [
+     1069,
+     1105
+    ],
+    "the_luc": null
+   },
+   "tinh_chat": "quy_uoc_hinh_anh",
+   "la_du_kien_lich_su": false,
+   "approval_scope": "visual_only",
+   "ghi_chu_bat_buoc": "Quy ước hình ảnh đã được chủ kênh duyệt để tái sử dụng về mặt hình ảnh. Đây KHÔNG phải dữ kiện lịch sử đã xác minh; không dùng làm căn cứ khi viết lời đọc, mô tả video hoặc bình luận ghim.",
+   "danh_sach_canh": [],
+   "chi_tiet_goc": [
+    "AC23",
+    "AC24"
+   ],
+   "xu_ly_ngoai_pham_vi": "OWNER_APPROVAL",
+   "can_cu": "Chủ kênh quyết 01/11/2026: giữ nguyên một nhân vật từ đầu đến cuối video, không tạo bản già hay trẻ riêng. Lựa chọn nghệ thuật, không có nguồn xác nhận diện mạo.",
+   "nguoi_duyet": "chủ kênh",
+   "ngay_duyet": "2026-11-01",
+   "phien_ban_ap_dung": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "tai_su_dung": "chỉ về mặt hình ảnh, chỉ trong video lt1v6; video khác vẫn cần duyệt riêng"
   }
  ],
  "quy_tac_kiem": [

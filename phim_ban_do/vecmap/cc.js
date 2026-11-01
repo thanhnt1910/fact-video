@@ -469,7 +469,7 @@ SCN.nha={gnd:{tint:'#ecd9b4',top:.7},build(c){
   scenery(c,51,{n:10,vmin:360});
   [[-420,-100],[420,-130]].forEach(([u,v],i)=>{const p=Lc(u,v);c.push(p[1],()=>house(c.D,p[0],p[1],1.7,0,0))});
   {const p=Lc(0,-120);c.push(p[1],()=>gateT(c.D,p[0],p[1],1.2))}
-  FG(c,-60,110,{sz:84,col:'#6e4a3a',trou:'#4a2a1a',hat:'khan',hatcol:'#7a3b1c',arm:'none',beard:true,cape:false},'ltk');
+  FG(c,-60,110,{sz:86,col:'#7a3b1c',trou:'#4a2a1a',hat:'ltk',hatcol:'#b3261e',arm:'none',armor:true,pauld:true,acol:'#b08a3a',cape:true,beard:true},'ltk');
   [100,-200,230].forEach((u,i)=>FG(c,u,125+i*10,VF(i,{flip:i!=1,arm:'none',sz:68}),null))},
  badges:()=>[{key:'ltk',fh:84,kind:'v',name:'Lý Thường Kiệt',sub:'qua đời năm 1105',t0:2,below:true}]};
 SCN.den={gnd:{river:[-100,70],tint:'#cfd6b4'},build(c){

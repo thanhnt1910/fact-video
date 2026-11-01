@@ -1,4 +1,4 @@
 Gửi sang Kaggle
  0.5 phút: .running
- 2.6 phút: .error
-Nhận 0 đoạn
+11.7 phút: .complete
+Nhận 119 đoạn

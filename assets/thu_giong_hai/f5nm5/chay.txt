@@ -1,4 +1,4 @@
 Gửi sang Kaggle
  0.5 phút: .running
- 2.5 phút: .error
+ 2.6 phút: .error
 Nhận 0 đoạn

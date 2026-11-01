@@ -791,6 +791,110 @@
     "voi": 0
    },
    "ghi_chu": "Vẽ thử lần 1: Thấy khoảng 11-12 người, kế hoạch 14; Không rõ hai hàng bốn dân và nhóm bốn lính Tống; Không phân biệt rõ lính Tống với dân; mũ rộng vành ở nhiều người; Chỉ thấy 1-2 giáo, hai lính Đại Việt đi cuối không rõ"
+  },
+  {
+   "image_id": "L04-a2",
+   "scene_id": "L04",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "6cea0e9dd3aefd80c97252b6c540495617992836a674f284760c07311d4b10b8",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 11576234,
+   "reference_images": [
+    {
+     "image_id": "CR-LTK-B2",
+     "purpose": "face_only"
+    }
+   ],
+   "file": "assets/anh_lt1v4/L04_a2.jpg",
+   "file_sha256": "857feb2e5f004d275a7ef9cdd85cc3a802d6446ea2701fc64cb80b60752fbdfd",
+   "attempt": 2,
+   "status": "REGENERATE",
+   "duoc_dung_lam_tham_chieu": false,
+   "dem_thu_cong": {
+    "nguoi": 1,
+    "ngua": 0,
+    "voi": 0,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 1,
+    "ngua": 0,
+    "voi": 0
+   },
+   "ghi_chu": "Vẽ lại lần 2 (nguyên prompt): Đèn dầu có ống thủy tinh kiểu hiện đại; Có ổ cắm điện nhỏ trên tường trái; Sàn chiếu kiểu tatami, mái tôn sóng, bản đồ có màu và đường như bản đồ hiện đại; Mặt vẫn nhìn thẳng, không quay đi như kế hoạch"
+  },
+  {
+   "image_id": "L32-a2",
+   "scene_id": "L32",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "c83b56f2ccf4ee428aa1f661a2080dc28c6f75d2412d54943395d00315eaec96",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 9931276,
+   "reference_images": [],
+   "file": "assets/anh_lt1v4/L32_a2.jpg",
+   "file_sha256": "3f8f914cc971f1b4d191ba452ad105b3a9d1d15b7a76166871f5338382141e8c",
+   "attempt": 2,
+   "status": "REGENERATE",
+   "duoc_dung_lam_tham_chieu": false,
+   "dem_thu_cong": {
+    "nguoi": 7,
+    "ngua": 0,
+    "voi": 3,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 6,
+    "ngua": 0,
+    "voi": 5
+   },
+   "ghi_chu": "Vẽ lại lần 2 (nguyên prompt): Chỉ thấy 2 voi lớn và 1 voi nhỏ ở xa, kế hoạch 5; Khoảng 7 người, kế hoạch 6; Người dắt đầu voi bị vòi và đầu voi che một phần"
+  },
+  {
+   "image_id": "L33-a2",
+   "scene_id": "L33",
+   "bo": "klein_v1",
+   "prompt_version": "p1",
+   "prompt_sha256": "f5595013f151788a58035f70e2905d86d3b1bda9e6d05bc310d373304e85d4f7",
+   "bible_versions": {
+    "master": "1.3",
+    "period": "1.3",
+    "khoi_prompt": "1.3"
+   },
+   "model": "FLUX.2 klein",
+   "seed": 2593148,
+   "reference_images": [],
+   "file": "assets/anh_lt1v4/L33_a2.jpg",
+   "file_sha256": "a782ab361a62e86e2296ac1d9d55470bac181e6444a3f28d8e5650462f15b38f",
+   "attempt": 2,
+   "status": "REGENERATE",
+   "duoc_dung_lam_tham_chieu": false,
+   "dem_thu_cong": {
+    "nguoi": 11,
+    "ngua": 0,
+    "voi": 0,
+    "nguoi_dem": "Claude soi ảnh cỡ lớn",
+    "ngay": "2026-11-01"
+   },
+   "ke_hoach": {
+    "nguoi": 14,
+    "ngua": 0,
+    "voi": 0
+   },
+   "ghi_chu": "Vẽ lại lần 2 (nguyên prompt): Thấy khoảng 11-12 người, kế hoạch 14; Thấy 4-5 cây giáo, kế hoạch chỉ 2 lính Đại Việt cầm giáo; Không phân biệt rõ dân, lính Tống và lính Đại Việt; không rõ hai hàng bốn dân"
   }
  ]
 }

@@ -1,16 +1,16 @@
 # Thư viện kỹ thuật kể chuyện (DRAFT, chờ chủ kênh duyệt)
 
-**Trạng thái:** DRAFT 01/11/2026. Chưa ghi vào bảng của `CLAUDE.md`, chưa có hiệu lực.
+**Trạng thái:** bản cuối cùng của DRAFT 01/11/2026, đã được chủ kênh duyệt các đề xuất ở mục 6 (đã cập nhật vào `chung.md`) và duyệt ghi vào bảng `CLAUDE.md` với chú thích "tham khảo". Bản thân tài liệu này vẫn chỉ là thư viện tham khảo, không phải quy tắc bắt buộc.
 **Tính chất:** thư viện tham khảo, không phải quy tắc bắt buộc. Tài liệu này không có quyền sửa đổi hoặc ghi đè `chung.md`. Các đề xuất ở mục 6 chỉ có hiệu lực sau khi chủ kênh phê duyệt và cập nhật trực tiếp vào tài liệu quy tắc tương ứng. Việc phê duyệt một đề xuất không đồng nghĩa với việc toàn bộ tài liệu DRAFT trở thành quy tắc bắt buộc.
 **Nguồn học:** cấu trúc của nhiều kênh lịch sử, trong đó có video mẫu của kênh Lịch Sử Ngoại Truyện Plus (xem `ke-hoach/phan-tich-video-mau-lsnt.md`). Không đưa nhận định lịch sử của video mẫu vào kho sử liệu. Không thay GLOBAL_RULES hay PERIOD_BIBLE.
 
 ## 1. Cách dùng
 - Claude chọn kỹ thuật hợp với câu chuyện. Không bắt mọi video phải có đủ tám kỹ thuật.
-- Chọn khoảng ba đến năm kỹ thuật cho một video và ghi vào "Ghi chú độ chắc" để chủ kênh duyệt.
+- Chọn khoảng ba đến năm kỹ thuật cho một video và ghi vào "Ghi chú kỹ thuật kể chuyện" (tách riêng khỏi "Ghi chú độ chắc", vì độ chắc nói về dữ kiện lịch sử còn kỹ thuật là lựa chọn biên tập) để chủ kênh duyệt.
 - Mỗi con số, ngưỡng trong tài liệu này (ví dụ độ dài câu mở đầu) là hướng dẫn mềm. Lệch có lý do thì ghi rõ, không coi là lỗi.
 
 ## 2. Ba lớp trong lời kể
-Mọi chỗ kể trong video thuộc một trong ba lớp, và người nghe phải nhận ra được lớp nào.
+Mọi chỗ kể trong video thuộc một trong ba lớp. Việc phân loại là thao tác kiểm soát nội dung khi viết và biên tập, không có nghĩa phải đọc thành lời các nhãn "Sử liệu", "Diễn giải", "Giới hạn" trong video; lời kể vẫn tự nhiên, chỉ cần các cụm như "sử chép", "có thể hiểu là", "chưa rõ" đủ để người nghe nhận ra lớp nào.
 
 | Lớp | Nội dung | Cách nói |
 |---|---|---|
@@ -47,7 +47,7 @@ Mọi chỗ kể trong video thuộc một trong ba lớp, và người nghe ph�
 
 **K4. Nút thắt.** Một chi tiết làm cách hiểu quen thuộc lung lay.
 - Làm: nêu hai sự việc có nguồn ở hai thời điểm, để người nghe tự thấy mối liên hệ.
-- Tránh: nói việc này gây ra việc kia khi sử không nêu. Nếu cần nối, dùng lớp diễn giải: "Có thể hiểu là hai việc này liên quan, nhưng sử không nói thẳng."
+- Tránh: nói việc này gây ra việc kia khi sử không nêu. Nếu sử liệu không nói rõ quan hệ giữa hai sự kiện, có thể đặt chúng cạnh nhau để phân tích, nhưng phải nói rõ nguồn chưa xác nhận quan hệ nhân quả. Không dùng riêng cụm "có thể hiểu là" để hợp thức hóa một mối liên hệ chưa được chứng minh.
 
 **K5. Giải nghĩa thuật ngữ tại chỗ.** Mỗi từ cổ hoặc chức quan lần đầu xuất hiện được giải nghĩa ngay sau, bằng hình ảnh dễ hiểu (cờ và búa, dây cương).
 - Làm: gộp lời giải vào câu khi được. Được dùng "nghĩa là" khi cách đó nghe tự nhiên nhất, miễn không biến cả video thành chuỗi định nghĩa.
@@ -75,7 +75,7 @@ Mọi chỗ kể trong video thuộc một trong ba lớp, và người nghe ph�
 - Không dùng câu hỏi "vì sao ông *phải* tìm cách kết thúc", vì câu ấy gài sẵn việc ông bị buộc như vậy. Câu hỏi trên cũng chỉ minh họa cách hỏi, mỗi video tự chọn câu hỏi theo sử liệu của mình.
 - Mọi mốc, số quân và tên phải kiểm nguồn theo quy trình bình thường.
 
-## 6. Đề xuất điều chỉnh `chung.md` (CHỜ CHỦ KÊNH DUYỆT, chưa sửa)
+## 6. Điều chỉnh `chung.md` (chủ kênh DUYỆT 01/11/2026, đã cập nhật vào mục "Diễn giải của người kể và ngưỡng biên tập mềm" của `chung.md`)
 1. Cho phép lớp "diễn giải" của người kể khi đủ năm điều kiện ở mục 2, thay vì cấm mọi kết luận của người kể. Lời bàn của sử gia có tên vẫn là lựa chọn ưu tiên. Giữ nguyên cấm bịa lời thoại, nội tâm cụ thể, đổi sự kiện, kể truyền thuyết như sự thật.
 2. Đổi các ngưỡng cứng sau thành mục tiêu mềm, lệch được khi có lý do ghi trong "Ghi chú độ chắc": câu mở đầu tối đa 15 từ; hạn chế "nghĩa là", "tức là" khoảng 5 lần; đoạn tối đa 32 chữ. Riêng giới hạn 32 chữ của `kiem_kich_ban.py` vẫn là lỗi ❌ của bộ kiểm cho đến khi chủ kênh nói đổi, vì đó là chuẩn kỹ thuật của giọng đọc. Việc đổi mục tiêu biên tập không tự động đổi logic của bộ kiểm, và Claude không được tự coi lỗi ❌ của bộ kiểm là cảnh báo mềm. Cách đếm thống nhất theo đúng bộ kiểm: tách theo khoảng trắng (`split()`), tối đa 32 chữ và 2 câu mỗi đoạn.
 3. Tách tài liệu này khỏi `chung.md`, ghi vào bảng của `CLAUDE.md` ở dòng "Mọi việc" với chú thích "tham khảo". Kiến trúc đề xuất: `CLAUDE.md` điều phối tài liệu nào cần đọc; `chung.md` là quy tắc bắt buộc; `ky-thuat-ke-chuyen.md` là thư viện tham khảo, Claude tự lựa chọn; PERIOD_BIBLE, CHARACTER_PROFILE, PROJECT cung cấp bối cảnh thời đại, nhân vật và yêu cầu cụ thể của video.

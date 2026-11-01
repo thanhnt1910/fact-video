@@ -190,3 +190,29 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - **Quy trình sản xuất:** (1) hoàn thành kịch bản lịch sử và kiểm tra dữ kiện; (2) viết 3 phương án hook theo 3 hướng khác nhau (đưa chủ kênh chọn, ghi trong kịch bản); (3) chọn hook tốt nhất, dựng riêng 20 giây đầu; (4) chốt hình ảnh, giọng đọc, chữ, âm thanh; (5) hoàn thiện phần còn lại cùng ngôn ngữ hình ảnh; (6) đăng, đo lường, cập nhật tiêu chuẩn cho video sau. Số liệu tham chiếu: Ngô Quyền 21% xem đủ 3 giây, 51 giây trung bình; Lý Thường Kiệt (lt1, Facebook) 330 lượt, trung bình 11 giây, cần vượt mức này.
 - **Nguyên tắc biên tập:** không đánh đổi độ chính xác lịch sử để lấy sự giật gân. Hook không được biến giả thuyết thành sự thật, thêm tình tiết không có căn cứ, phóng đại số liệu hay sự kiện, hay đặt câu hỏi gây hiểu lầm so với nội dung video. Khi hook xung đột với độ chính xác thì theo độ chính xác.
 - **Rà hook trước khi giao kịch bản:** thêm vào bước "Rà 5 lần" (lần 3, giữ chân): câu đầu ≤15 từ và không ngày tháng? Có mâu thuẫn hoặc bí ẩn trong 10 giây đầu? Có lời hứa nội dung trong 20 giây đầu? Có 3 phương án hook? Hook có đúng sự thật và đúng nội dung video?
+
+## Diễn giải của người kể và ngưỡng biên tập mềm (chủ kênh duyệt 01/11/2026; khi trùng hoặc mâu thuẫn với các mục cũ ở trên, mục này ưu tiên)
+
+### 1. Cho phép diễn giải của người kể (thay các câu cấm mọi "kết luận của người kể")
+Người kể được diễn giải khi đủ **năm điều kiện**:
+1. Dựa vào sự việc có nguồn đã được kể trong chính video.
+2. Không mâu thuẫn với sử liệu, không đổi kết cục, nguyên nhân chính, người thắng thua.
+3. Nói rõ đây là cách hiểu, không trình bày như sử chép ("có thể hiểu là", "nhìn từ kết quả thì", "cách dùng từ ấy gợi ra").
+4. Không bịa lời thoại hay ý nghĩ cụ thể của một người như thể có tài liệu; không áp một nguyên nhân duy nhất cho sự kiện nhiều nguyên nhân.
+5. Mức độ khẳng định không vượt quá mức các sự kiện và nguồn được dẫn cho phép: không biến khả năng thành sự chắc chắn, tương quan thành quan hệ nhân quả, kết quả về sau thành điều nhân vật đã biết trước. Nếu sử liệu không nói rõ quan hệ giữa hai sự kiện, có thể đặt chúng cạnh nhau, nhưng phải nói nguồn chưa xác nhận quan hệ nhân quả; không dùng riêng cụm "có thể hiểu là" để hợp thức hóa một mối liên hệ chưa được chứng minh.
+- Lời bàn của sử gia có tên (Lê Văn Hưu, Ngô Sĩ Liên...) vẫn là lựa chọn ưu tiên; chỗ có tên thì trích tên.
+- **Giữ nguyên các giới hạn:** không bịa lời thoại và nội tâm cụ thể; không kể truyền thuyết như sự thật; không thêm, bỏ hay đổi sự kiện chính; không đưa số liệu không rõ nguồn thành sự thật; không đánh đồng lời kể trong chính sử với sự thật đã xác minh.
+- Các câu cũ "dùng lời kết luận của mình thay cho lời sử", "lời bàn phải là của sử gia có tên", "không hỏi giả rồi trả lời bằng lời kết luận của người kể" vẫn đúng ở chỗ: không được thay sử liệu bằng kết luận của người kể và không được hỏi giả; chúng không còn cấm diễn giải đủ năm điều kiện.
+- Phân loại "sử liệu / diễn giải / giới hạn" là thao tác kiểm soát khi viết và biên tập, không đọc thành lời các nhãn đó trong video.
+- Ghi các đoạn diễn giải và kỹ thuật kể chuyện đã chọn vào "Ghi chú kỹ thuật kể chuyện" của kịch bản (tách riêng khỏi "Ghi chú độ chắc", vì độ chắc nói về dữ kiện lịch sử còn kỹ thuật là lựa chọn biên tập).
+
+### 2. Ngưỡng biên tập chuyển thành mục tiêu mềm
+Lệch thì ghi lý do trong ghi chú của kịch bản, không coi là lỗi:
+- Câu mở đầu khoảng 15 chữ trở xuống, không ngày tháng, không tên lạ (mục "Bố cục video cuốn hút", "Hook 20 giây đầu", câu "≤15 từ" ở bước rà hook).
+- Hạn chế "tức là", "nghĩa là" khoảng 5 lần cả video; dùng khi đó là cách nghe tự nhiên nhất, miễn không biến video thành chuỗi định nghĩa.
+- Đoạn 15–30 chữ, trung bình khoảng 26.
+- Các tỷ lệ "khoảng" khác của mục "Làm kịch bản bằng ngôn ngữ tự nhiên".
+
+### 3. Giữ nguyên là chuẩn kỹ thuật
+- `phim_ban_do/kiem_kich_ban.py` giữ nguyên logic: **tối đa 32 chữ và 2 câu mỗi đoạn**, đếm bằng tách theo khoảng trắng (`split()`). Đổi mục tiêu biên tập không tự động đổi bộ kiểm; Claude không được tự coi lỗi ❌ của bộ kiểm là cảnh báo mềm và không sửa bộ kiểm nếu chủ kênh chưa yêu cầu.
+- Tài liệu `quy-tac/ky-thuat-ke-chuyen.md` chỉ là thư viện tham khảo; nó không ghi đè `chung.md`.

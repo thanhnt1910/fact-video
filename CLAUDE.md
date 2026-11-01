@@ -11,6 +11,7 @@ Quy tắc chung luôn có hiệu lực (nhập tự động ngay dưới). Trư�
 | Đang làm | Đọc file |
 |---|---|
 | Mọi việc (kịch bản, bài đăng, bìa, git, workflow) | `quy-tac/chung.md` (đã nhập bên dưới) |
+| Tham khảo kỹ thuật kể chuyện (không bắt buộc, không ghi đè `chung.md`; Claude tự chọn kỹ thuật hợp từng câu chuyện) | `quy-tac/ky-thuat-ke-chuyen.md` |
 | Tam Quốc theo chính sử (video ảnh 2D, Veo) | `quy-tac/tam-quoc.md` |
 | Video dạng bản đồ động (dựng, giọng Puck, kiểm video) | `quy-tac/video-ban-do.md` |
 | Lịch sử Việt Nam (Đinh Bộ Lĩnh, Lê Hoàn, Lý Công Uẩn, Tây Sơn...) | `quy-tac/su-viet.md` + `quy-tac/video-ban-do.md` |

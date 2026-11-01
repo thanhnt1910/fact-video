@@ -28,6 +28,27 @@ def side_fig(uid, x, y, s, col, hat='cone', seed=0, pants='#4a3a2a', beard=None,
         hd += '<path d="M-14,-86 Q3,-112 20,-86Z" fill="#4a4e58"/><rect x="-15" y="-90" width="36" height="5" fill="#2e3038"/><path d="M3,-110 q4,-14 12,-10 q-4,8 -12,10Z" fill="#b8352a"/>' + ''.join(f'<circle cx="{k}" cy="-93" r="1.3" fill="#d8c98a"/>' for k in (-8, 0, 8, 16))
     elif hat == 'song':
         hd += '<rect x="-9" y="-122" width="26" height="30" rx="9" fill="#14121a"/><rect x="-10" y="-103" width="28" height="5" fill="#e0b040"/><rect x="-52" y="-113" width="104" height="6" rx="3" fill="#14121a"/>'
+    elif hat in ('songhelm', 'songtuong'):
+        # mũ sắt kiểu Tống: chỏm tròn nhọn, vành mũ, tấm che gáy bằng vảy sắt; sĩ quan có chùm lông
+        hd += ('<path d="M-17,-80 L-23,-60 L-14,-56 L-6,-76Z" fill="#454a54"/><path d="M-22,-62 L-14,-58 M-20,-69 L-11,-65" stroke="#2a2d34" stroke-width="1.4"/>'
+               '<path d="M-17,-84 Q3,-126 23,-84 Q3,-90 -17,-84Z" fill="#6a6f7a"/><path d="M-8,-93 Q2,-117 12,-96" stroke="#c8ccd4" stroke-width="2.4" fill="none" opacity=".6"/>'
+               '<rect x="-18" y="-88" width="42" height="6" rx="2" fill="#3a3e48"/><path d="M0,-118 L3,-132 L6,-118Z" fill="#b8bcc4"/>'
+               + ''.join(f'<circle cx="{k}" cy="-85" r="1.3" fill="#d8c98a"/>' for k in (-12, -5, 3, 11, 18)))
+        if hat == 'songtuong':
+            hd += '<path d="M3,-130 q-4,-20 6,-26 q8,10 -6,26Z" fill="#2e4a80"/><path d="M3,-128 q-12,-10 -22,6 q12,6 22,-6Z" fill="#3a5a9a"/>'
+    elif hat in ('khan', 'khantuong'):
+        # khăn quấn đầu của người Việt (mức C): vài vòng vải và búi tóc sau gáy
+        kc = '#6a4a2c' if hat == 'khan' else '#a8452f'
+        hd += (f'<circle cx="-12" cy="-90" r="7.5" fill="#17121a"/><path d="M-15,-92 Q3,-112 19,-91 L19,-86 Q3,-94 -15,-86Z" fill="{kc}"/>'
+               f'<path d="M-14,-97 Q3,-107 18,-95" stroke="{sh(kc,.7)}" stroke-width="1.8" fill="none"/><path d="M-14,-90 Q3,-100 19,-89" stroke="{sh(kc,1.25)}" stroke-width="1.6" fill="none"/>'
+               f'<path d="M-12,-88 q-10,6 -8,20 q6,-4 8,-14Z" fill="{kc}"/>')
+        if hat == 'khantuong':
+            hd += '<rect x="-14" y="-108" width="3" height="16" rx="1.4" fill="#d8b04a" transform="rotate(-24 -12 -100)"/><circle cx="-12" cy="-90" r="7.5" fill="#17121a"/>'
+    elif hat == 'mugiap_vn':
+        # phương án B cho Lý Thường Kiệt: mũ giáp riêng, không giống mũ Tống: chỏm dẹt có đỉnh hình búp sen, tua đỏ
+        hd += ('<path d="M-17,-80 L-21,-62 L-12,-58 L-6,-76Z" fill="#4a3a2a"/><path d="M-16,-86 Q3,-112 21,-86 Q3,-92 -16,-86Z" fill="#7a5a30"/>'
+               '<path d="M-3,-103 Q3,-122 9,-103Z" fill="#c9a24a"/><rect x="-17" y="-89" width="40" height="6" rx="2" fill="#a8452f"/>'
+               '<path d="M3,-120 q10,-4 8,-18 q-8,8 -8,18Z" fill="#a8452f"/>')
     else:
         hd += '<path d="M-13,-88 Q3,-104 19,-88 Q4,-94 -13,-88Z" fill="#17121a"/><circle cx="-12" cy="-96" r="7" fill="#17121a"/><rect x="-14" y="-92" width="34" height="5" fill="#b8352a"/>'
     arm_extra = ''
@@ -37,6 +58,12 @@ def side_fig(uid, x, y, s, col, hat='cone', seed=0, pants='#4a3a2a', beard=None,
              f'<path d="M-6,-66 L10,-48 M10,-66 L-2,-52" stroke="{lt}" stroke-width="2.2" fill="none"/><rect x="-5" y="-72" width="10" height="9" fill="{sk}"/>')
     if armor:
         torso += f'<path d="M-14,-60 L14,-60 L16,-14 L-16,-14Z" fill="{armor}" opacity=".7"/>' + ''.join(f'<line x1="-14" y1="{-54+k*9}" x2="15" y2="{-54+k*9}" stroke="#000" stroke-width="1.1" opacity=".3"/>' for k in range(5))
+    if hat in ('khantuong', 'mugiap_vn'):
+        torso += ('<path d="M-17,-62 Q-2,-72 17,-62 L19,-40 L-19,-40Z" fill="#3a2a22"/>'
+                  + ''.join(f'<path d="M-18,{-60+r*8} L18,{-60+r*8}" stroke="#d8b04a" stroke-width="1" opacity=".55"/>' for r in range(3))
+                  + '<ellipse cx="-17" cy="-62" rx="10" ry="7" fill="#5a4028" stroke="#d8b04a" stroke-width="1.2"/><ellipse cx="17" cy="-62" rx="10" ry="7" fill="#5a4028" stroke="#d8b04a" stroke-width="1.2"/>'
+                  + '<path d="M-17,30 L-22,52 L-8,52 L-4,30Z M4,30 L8,52 L22,52 L18,30Z" fill="#3a2a22" opacity=".95"/>'
+                  + '<path d="M-20,-60 Q-30,-30 -24,0 L-14,-4 Q-18,-30 -12,-58Z" fill="#a8452f"/>')
     sp = ''
     if spear:
         sp = f'<g class="spear"><line x1="0" y1="40" x2="0" y2="-185" stroke="#6b4a2a" stroke-width="4"/><path d="M-5,-185 L0,-208 L5,-185Z" fill="#b9bcc4"/><path class="pen" d="M0,-176 q24,-5 46,3 q-22,8 -46,14Z" fill="{spear}"/></g>'

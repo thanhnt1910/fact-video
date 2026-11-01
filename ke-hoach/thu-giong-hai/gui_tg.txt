@@ -1,8 +1,2 @@
-Thử A/B giọng: B là hồ sơ cũ, C là hồ sơ mới, mỗi loại 3 lần, 32 đoạn đầu
-assets/ab_giong/nghe_B1.mp3
-assets/ab_giong/nghe_B2.mp3
-assets/ab_giong/nghe_B3.mp3
-assets/ab_giong/nghe_C1.mp3
-assets/ab_giong/nghe_C2.mp3
-assets/ab_giong/nghe_C3.mp3
-assets/ab_giong/bao_cao.md
+# gửi nm5 1793534622
+ke-hoach/thu-giong-hai/nm5_video.mp4

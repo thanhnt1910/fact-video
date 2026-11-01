@@ -664,4 +664,5 @@ function genHUD(t,it,a){
  for(const b of def.burst||[]){const u=(tau-b.t)/1.5;if(u>0&&u<1){const p=Lc(b.u,b.v),[sx,sy]=toS(p[0],p[1]);burst(sx,sy-130*SC/SCf,u)}}}
 window.CC=(t,it,a)=>(it.scene=='uc'?CCuc(t,it,a):it.scene=='nn'?CCnn(t,it,a):genScene(t,it,a));
 window.CCH=(t,it,a)=>(it.scene=='uc'?CCHuc(t,it,a):it.scene=='nn'?CCHnn(t,it,a):genHUD(t,it,a));
+window.MAPFIG=function(g,x,y,side,s,a,face,bob,idx,rot){const sv=K1;K1=1;const o=side=='s'?FT.s(idx||0,{}):FT.v(idx||0,{});o.sz=3.4*s;o.al=a;o.flip=face<0;o.walk=bob;if(rot)o.rot=rot;fig(g,x,y,o);K1=sv};
 })();

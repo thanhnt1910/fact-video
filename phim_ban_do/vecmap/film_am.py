@@ -108,11 +108,14 @@ def build():
         n = int(i) if "pstarts" in SP else ID_BASE + int(i)
         raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / f"{VOICE_DIR}/{n}.mp3"), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                              capture_output=True, check=True).stdout
-        put(voice, np.frombuffer(raw, np.float32), float(st))
+        x = np.frombuffer(raw, np.float32).copy()
+        if os.environ.get("VOICE_GAIN") == "1" and np.any(x):   # chỉ chỉnh to nhỏ (không đổi âm sắc), tối đa ±4 dB
+            r = float(np.sqrt(np.mean(x[np.abs(x) > 0.01] ** 2) + 1e-9)); g = min(1.6, max(0.63, 0.14 / r)); x *= g
+        put(voice, x, float(st))
     # hạ nền khi có giọng (đường bao trơn)
     env = np.abs(voice)
     env = lp(env, 4, 1)
-    duck = 1.0 - 0.5 * np.clip(env / (np.percentile(env, 90) + 1e-6), 0, 1)
+    duck = 1.0 - float(os.environ.get('DUCK', '0.5')) * np.clip(env / (np.percentile(env, 70) + 1e-6), 0, 1)
 
     bed = np.zeros(N, np.float32)
     # nhạc nền: nốt kéo dài rất nhẹ (rê thứ) + sóng chậm
@@ -165,11 +168,11 @@ def build():
         elif k == "wind":
             n = int(d * SR); put(fxm, lp(noise(n), 600) * env_win(n, 1.5, 1.5), t0, 0.1)
     # trộn
-    out = voice * 1.0 + (bed + fxm * 0.8) * duck
+    out = voice * 1.0 + (bed + fxm * float(os.environ.get('FXG', '0.8'))) * duck
     # chuẩn hóa nhẹ
     out = out[:int(TOTAL * SR)]
     pk = np.max(np.abs(out))
-    out = out / max(pk, 1e-6) * 0.89
+    out = out / max(pk, 1e-6) * 0.89 if pk > 0.95 else out
     (HERE / OUT_WAV).parent.mkdir(exist_ok=True, parents=True)
     import wave
     with wave.open(str(HERE / OUT_WAV), "wb") as w:

@@ -1,0 +1,81 @@
+[{"stream_name":"stderr","time":17.458818253,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":17.458866401,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":17.732818836,"data":"[    17s] cài xong\n"}
+,{"stream_name":"stdout","time":26.302407462,"data":"[    25s] GPU: Tesla T4\n"}
+,{"stream_name":"stderr","time":37.756277682,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [00:00\u003c00:00,  5.35it/s]\rFetching 5 files:  80%|████████  | 4/5 [00:00\u003c00:00,  6.11it/s]\rFetching 5 files: 100%|██████████| 5/5 [00:11\u003c00:00,  3.06s/it]\rFetching 5 files: 100%|██████████| 5/5 [00:11\u003c00:00,  2.25s/it]\n"}
+,{"stream_name":"stdout","time":37.757195638,"data":"[    37s] repo hynt/F5-TTS-Vietnamese-ViVoice files: ['config.json', 'model_last.pt', 'README.md', 'qr.jpg']\n"}
+,{"stream_name":"stdout","time":37.757749141,"data":"[    37s] ckpt ['/tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt'] vocab []\n"}
+,{"stream_name":"stderr","time":73.753829155,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:300: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":73.753861009,"data":"  m = re.match('([su]([0-9]{1,2})p?) \\(([0-9]{1,2}) bit\\)$', token)\n"}
+,{"stream_name":"stderr","time":73.753867424,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:301: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":73.753873289,"data":"  m2 = re.match('([su]([0-9]{1,2})p?)( \\(default\\))?$', token)\n"}
+,{"stream_name":"stderr","time":73.753882766,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:310: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":73.753887995,"data":"  elif re.match('(flt)p?( \\(default\\))?$', token):\n"}
+,{"stream_name":"stderr","time":73.753946534,"data":"/usr/local/lib/python3.13/dist-packages/pydub/utils.py:314: SyntaxWarning: invalid escape sequence '\\('\n"}
+,{"stream_name":"stderr","time":73.753958079,"data":"  elif re.match('(dbl)p?( \\(default\\))?$', token):\n"}
+,{"stream_name":"stdout","time":101.310312546,"data":"Download Vocos from huggingface charactr/vocos-mel-24khz\n"}
+,{"stream_name":"stdout","time":102.923676497,"data":"\n"}
+,{"stream_name":"stdout","time":102.923712277,"data":"vocab :  /usr/local/lib/python3.13/dist-packages/f5_tts/infer/examples/vocab.txt\n"}
+,{"stream_name":"stdout","time":102.923731046,"data":"token :  custom\n"}
+,{"stream_name":"stdout","time":102.92386875,"data":"model :  /tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt \n"}
+,{"stream_name":"stdout","time":102.923902974,"data":"\n"}
+,{"stream_name":"stdout","time":108.177624861,"data":"[   107s] nạp lỗi F5TTS_Base Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stdout","time":108.17765999,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is t\n"}
+,{"stream_name":"stderr","time":108.191977063,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":108.193332233,"data":"  File \"/kaggle/src/script.py\", line 34, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":108.193348317,"data":"    f5 = F5TTS(model=name, ckpt_file=ck[0], vocab_file=vocab[0] if vocab else \"\", device=\"cuda\"); log(\"nạp được với\", name); break\n"}
+,{"stream_name":"stderr","time":108.194598192,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/api.py\", line 82, in __init__\n"}
+,{"stream_name":"stderr","time":108.194611047,"data":"    self.ema_model = load_model(\n"}
+,{"stream_name":"stderr","time":108.194616429,"data":"                     ~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":108.194621237,"data":"        model_cls, model_arc, ckpt_file, self.mel_spec_type, vocab_file, self.ode_method, self.use_ema, self.device\n"}
+,{"stream_name":"stderr","time":108.194626221,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":108.194630928,"data":"    )\n"}
+,{"stream_name":"stderr","time":108.194639708,"data":"    ^\n"}
+,{"stream_name":"stderr","time":108.194644432,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 274, in load_model\n"}
+,{"stream_name":"stderr","time":108.194649653,"data":"    model = load_checkpoint(model, ckpt_path, device, dtype=dtype, use_ema=use_ema)\n"}
+,{"stream_name":"stderr","time":108.194654373,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 223, in load_checkpoint\n"}
+,{"stream_name":"stderr","time":108.194659263,"data":"    model.load_state_dict(checkpoint[\"model_state_dict\"])\n"}
+,{"stream_name":"stderr","time":108.194663545,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":108.194667662,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 2639, in load_state_dict\n"}
+,{"stream_name":"stderr","time":108.194672096,"data":"    raise RuntimeError(\n"}
+,{"stream_name":"stderr","time":108.194676062,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":108.194680129,"data":"    )\n"}
+,{"stream_name":"stderr","time":108.194683967,"data":"RuntimeError: Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stderr","time":108.194693125,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is torch.Size([2546, 512]).\n"}
+,{"stream_name":"stdout","time":108.206921983,"data":"Download Vocos from huggingface charactr/vocos-mel-24khz\n"}
+,{"stream_name":"stdout","time":108.600174416,"data":"\n"}
+,{"stream_name":"stdout","time":108.60023715,"data":"vocab :  /usr/local/lib/python3.13/dist-packages/f5_tts/infer/examples/vocab.txt\n"}
+,{"stream_name":"stdout","time":108.600383602,"data":"token :  custom\n"}
+,{"stream_name":"stdout","time":108.600556195,"data":"model :  /tmp/hf/hub/models--hynt--F5-TTS-Vietnamese-ViVoice/snapshots/5c14cdd4e3f62b69e75140558bea2b2e293ee8f1/model_last.pt \n"}
+,{"stream_name":"stdout","time":108.600620792,"data":"\n"}
+,{"stream_name":"stdout","time":113.154265973,"data":"[   112s] nạp lỗi F5TTS_v1_Base Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stdout","time":113.154320559,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is t\n"}
+,{"stream_name":"stderr","time":113.155023166,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":113.156001011,"data":"  File \"/kaggle/src/script.py\", line 34, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":113.156018392,"data":"    f5 = F5TTS(model=name, ckpt_file=ck[0], vocab_file=vocab[0] if vocab else \"\", device=\"cuda\"); log(\"nạp được với\", name); break\n"}
+,{"stream_name":"stderr","time":113.156057716,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/api.py\", line 82, in __init__\n"}
+,{"stream_name":"stderr","time":113.156078872,"data":"    self.ema_model = load_model(\n"}
+,{"stream_name":"stderr","time":113.156083816,"data":"                     ~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":113.156087406,"data":"        model_cls, model_arc, ckpt_file, self.mel_spec_type, vocab_file, self.ode_method, self.use_ema, self.device\n"}
+,{"stream_name":"stderr","time":113.15609085,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":113.156094861,"data":"    )\n"}
+,{"stream_name":"stderr","time":113.15609883,"data":"    ^\n"}
+,{"stream_name":"stderr","time":113.156103638,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 274, in load_model\n"}
+,{"stream_name":"stderr","time":113.156108337,"data":"    model = load_checkpoint(model, ckpt_path, device, dtype=dtype, use_ema=use_ema)\n"}
+,{"stream_name":"stderr","time":113.156163303,"data":"  File \"/usr/local/lib/python3.13/dist-packages/f5_tts/infer/utils_infer.py\", line 223, in load_checkpoint\n"}
+,{"stream_name":"stderr","time":113.156174892,"data":"    model.load_state_dict(checkpoint[\"model_state_dict\"])\n"}
+,{"stream_name":"stderr","time":113.156179361,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":113.156203131,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 2639, in load_state_dict\n"}
+,{"stream_name":"stderr","time":113.156209721,"data":"    raise RuntimeError(\n"}
+,{"stream_name":"stderr","time":113.156213826,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":113.156217409,"data":"    )\n"}
+,{"stream_name":"stderr","time":113.156348681,"data":"RuntimeError: Error(s) in loading state_dict for CFM:\n"}
+,{"stream_name":"stderr","time":113.156356114,"data":"\tsize mismatch for transformer.text_embed.text_embed.weight: copying a param with shape torch.Size([2567, 512]) from checkpoint, the shape in current model is torch.Size([2546, 512]).\n"}
+,{"stream_name":"stderr","time":113.161263981,"data":"không nạp được F5\n"}
+,{"stream_name":"stderr","time":120.780372036,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":120.780394441,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":121.033057576,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":121.033082262,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":121.833982925,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":122.36528502,"data":"[NbConvertApp] Writing 902409 bytes to __results__.html\n"}
+]

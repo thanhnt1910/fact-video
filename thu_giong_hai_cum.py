@@ -11,12 +11,12 @@ STYLE_A = ("Native Vietnamese storyteller (Northern accent) telling a true story
            "natural flowing intonation so the sentences connect into one continuous narration, with only short natural breaths between them, no theatrical pauses. "
            "Stress key words and names; pitch lifts a little on questions and turning points and settles at the end of each sentence. "
            "Not a news anchor, not a stage actor, never mumbling, never whispering, never low or sleepy. ")
-# Hồ sơ giọng cố định mới (đề xuất, CHƯA là mặc định): dùng nguyên văn cho mọi cụm, mọi tone; chọn bằng STYLE_VAR=C để thử A/B
+# Hồ sơ giọng cố định C = MẶC ĐỊNH từ 01/11/2026 (chủ kênh chọn nghe_C1): dùng nguyên văn cho mọi cụm, mọi tone. STYLE_VAR=B/A chỉ để thử A/B
 STYLE_C = ("Native Vietnamese male narrator, Northern (Hanoi) accent, mature, bright and resonant, with clear diction. "
            "Documentary-style history storyteller: steady medium pace, even pitch and even energy from start to end, natural flowing intonation, short natural pauses between sentences. "
            "Stress only names and key actions, with light emotion that never changes the voice. Never whispering, never shouting, never theatrical, never sleepy or too low, not a news anchor. "
            "Keep exactly the same voice, pitch, pace and tone in every line.")
-CONFIG_VERSION = "v2-2026-10-31"   # đổi khi đổi cách tổng hợp; nằm trong mã hash để nhận ra file âm thanh cũ
+CONFIG_VERSION = "v3-2026-11-01-C"   # đổi khi đổi cách tổng hợp; nằm trong mã hash để nhận ra file âm thanh cũ
 import os as _os
 for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 13)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
     _v = _os.environ.get(_n, "").strip()
@@ -92,7 +92,7 @@ def main():
         cur.append(b)
     if cur: chunks.append(cur)
     for ch in chunks:
-        _sv = _os.environ.get("STYLE_VAR", "")
+        _sv = _os.environ.get("STYLE_VAR", "C")
         if _sv == "C":
             style = STYLE_C
         elif _sv == "A":

@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install -q pillow numpy requests kaggle
+      - run: python -m pip install -q pillow numpy requests kaggle six python-slugify tqdm urllib3 certifi python-dateutil protobuf bleach webencodings text-unidecode
       - run: sudo apt-get install -y -q ffmpeg || true
       - name: Chạy trên Kaggle
         env:

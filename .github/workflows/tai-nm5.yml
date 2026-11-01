@@ -1,0 +1,21 @@
+name: tai-nm5
+on:
+  push:
+    branches: [nm5-hq-tai]
+jobs:
+  ghep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ghép các phần
+        run: |
+          cd tai-nm5
+          for f in $(ls p*.mp4 | sort -V); do echo "file '$f'"; done > ds.txt
+          ffmpeg -loglevel error -f concat -safe 0 -i ds.txt -c copy ../nm5_video_nhet_1080p.mp4
+          ls -la ..
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nm5_video_nhet_1080p
+          path: nm5_video_nhet_1080p.mp4
+          compression-level: 0
+          retention-days: 7

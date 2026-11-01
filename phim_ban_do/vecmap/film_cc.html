@@ -151,7 +151,9 @@ function T(t){
  if(rivP){rivP.setAttribute('visibility','hidden');document.getElementById('rv2').setAttribute('visibility','hidden')}
  dyn.innerHTML='';hud.innerHTML='';
  const route=SP.routes;
+ const ccOn=SP.items.some(x=>x.k=='cc'&&at(x,t)&&fade(x,t)>.3);
  for(const it of SP.items){if(!at(it,t))continue;const a=fade(it,t);
+  if(ccOn&&(it.k=='army'||it.k=='route'||it.k=='area'||it.k=='clash'||it.k=='volley'||it.k=='shell'))continue;
   if(it.k=='route'){const k=it.id;if(!routeEl[k]){const g=el('g',{},dyn);routeEl[k]={g}}
    const u=ease(cl((t-it.t0)/(it.dur||2)));const q=it.pts.map(x=>P(x[0],x[1]));let L=0;for(let i=1;i<q.length;i++)L+=Math.hypot(q[i][0]-q[i-1][0],q[i][1]-q[i-1][1]);
    const d=pathD(it.pts);const w=(it.w||6)/SC;

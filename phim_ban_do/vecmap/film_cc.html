@@ -141,9 +141,9 @@ function armyM(t,it,a){const n=it.n||14,u=ease(cl((t-it.t0)/(it.dur||3))),col=it
   if(kind=='cav')horseM(dyn,x+off,y+oy,col,s,aa,f,bob+j);else if(kind=='ship')boatM(dyn,x+off,y+oy,col,s,aa,f,bob+j);else man(dyn,x+off,y+oy,col,s,aa,f,bob+j*.7);
   if(u<1&&kind!='ship'&&j%2==0){const bk=Math.max(0,uu-.012);const [dx,dy]=polyAt(it.pts,bk);for(let q=0;q<3;q++){const ph=((t*1.4+j*.31+q*.33)%1);el('ellipse',{cx:dx-f*ph*FS(26)+off,cy:dy+FS(14)-ph*FS(10),rx:FS(5+ph*10),ry:FS(3+ph*5),fill:'#b59a6a',opacity:.4*(1-ph)*aa},dyn)}}
   if(it.flag&&(j==0||(n>=10&&j%6==0)))bearerM(dyn,x+off,y+oy-(kind=='cav'?FS(14):0),col,FS(kind=='ship'?14:13),t,f,aa)}}
-function subM(t,it,a){const lines=it.lines,fs=46,lh=62,h=lh*lines.length+30,y0=1080-70-h;
- el('rect',{x:960-640-40,y:y0,width:1360,height:h,rx:22,fill:'#080503',opacity:.6*a},hud);
- lines.forEach((l,i)=>{const tx=el('text',{x:960,y:y0+15+lh*(i+1)-14,'text-anchor':'middle','font-size':fs,fill:'#faf4e4',opacity:a,'paint-order':'stroke',stroke:'#000','stroke-width':3},hud);tx.textContent=l})}
+function subM(t,it,a){const lines=it.lines,fs=40,lh=52,mx=Math.max(...lines.map(l=>l.length)),bw=Math.min(1200,mx*fs*0.5+70),h=lh*lines.length+22,y0=1080-38-h;
+ el('rect',{x:960-bw/2,y:y0,width:bw,height:h,rx:18,fill:'#080503',opacity:.5*a},hud);
+ lines.forEach((l,i)=>{const tx=el('text',{x:960,y:y0+11+lh*(i+1)-13,'text-anchor':'middle','font-size':fs,fill:'#faf4e4',opacity:a,'paint-order':'stroke',stroke:'#000','stroke-width':2.6},hud);tx.textContent=l})}
 function T(t){
  const [clon,clat,wd]=cam(t);const [cx,cy]=P(clon,clat);const w=wd*G.k*G.scale,h=w*9/16;SC=1920/w;FS=v=>v/SC;window.CAMX=cx-w/2;window.CAMY=cy-h/2;
  world.setAttribute('transform',`scale(${SC}) translate(${-(cx-w/2)},${-(cy-h/2)})`);

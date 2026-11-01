@@ -80,105 +80,135 @@ def lab(text, p, col, i0, i1, fs=46, op=0.6, **kw):
 
 
 
-SPAN = lambda i0, i1: E_(i1) - A(i0)
-def cc(scene, i0, i1, lon, lat, wd=0.15, zin=3.0, zout=1.8, w0=1.0, breach=None, **kw):
-    """Cận cảnh trên bản đồ cho đoạn i0..i1: camera zoom từ bản đồ vào (lon,lat), giữ, rồi zoom ra."""
-    ts = A(i0) + zin - 0.4
-    sp = kw.pop("sp", None) or ((breach / (0.78 * (E_(i1) - ts))) if breach else 1.0)
-    cam.append([A(i0), lon, lat, w0]); cam.append([A(i0) + zin, lon, lat, wd]); cam.append([E_(i1) - zout, lon + 0.002, lat - 0.004, wd * 0.96]); cam.append([E_(i1) + 0.1, lon, lat, 0.7])
-    add("cc", A(i0) - 0.2, E_(i1) + 0.6, scene=scene, lon=lon, lat=lat, ts=ts, sp=round(sp, 4), fi=0.8, fo=0.6, **kw)
+import math
+SH = []
+def shot(scene, i0, i1, lon, lat, wd=0.115, map_=False, **kw):
+    SH.append(dict(scene=scene, i0=i0, i1=i1, lon=lon, lat=lat, wd=wd, map=map_, kw=kw))
 
-NNP = (106.05, 21.19); CHM = (106.4, 18.0); TLP = TL
-# ===== Chương 1: hook (1–6) =====
-cc("uc", 1, 2, *UC, zin=0.6, w0=0.25, tau0=16, sp=0.35)
-add("chip", A(1), E_(2), text="Ung Châu, năm 1075", w=700, fi=0.6, fo=0.4, y=130)
-cc("march", 3, 4, 106.4, 21.5, side="v", n=12, dir=1, carry=1)
-cc("nn", 5, 6, *NNP, sp=0.1)
+def build_cam():
+    prev = None
+    for k, h in enumerate(SH):
+        ts0, te = A(h["i0"]), E_(h["i1"]); span = te - ts0
+        zin = min(2.6, span * 0.45); zout = min(1.9, span * 0.4)
+        h["zin"], h["zout"] = zin, zout
+        if prev is None:
+            cam.append([ts0, h["lon"], h["lat"], 1.2 if not h["map"] else h["wd"] * 1.6])
+        else:
+            tb = (E_(prev["i1"]) + ts0) / 2
+            dist = math.hypot(h["lon"] - prev["lon"], h["lat"] - prev["lat"])
+            wide = max(0.9, max(prev["wd"], h["wd"]) * 1.6, min(dist * 1.5 + 0.5, 12))
+            cam.append([tb, (prev["lon"] + h["lon"]) / 2, (prev["lat"] + h["lat"]) / 2, wide])
+        cam.append([ts0 + zin, h["lon"], h["lat"], h["wd"]])
+        cam.append([te - zout, h["lon"] + (0.002 if not h["map"] else 0.03), h["lat"] - (0.003 if not h["map"] else 0.02), h["wd"] * (0.96 if not h["map"] else 0.9)])
+        if not h["map"]:
+            kw = dict(h["kw"]); sp = kw.pop("sp", None) or ((kw.pop("breach") / (0.78 * (te - ts0 - zin))) if "breach" in kw else 1.0); kw.pop("breach", None)
+            add("cc", ts0 - 0.2, te + 0.6, scene=h["scene"], lon=h["lon"], lat=h["lat"], ts=ts0 + zin - 0.4, sp=round(sp, 4), fi=0.8, fo=0.6, **kw)
+        prev = h
+
+NNP = (106.05, 21.19); TLP = TL
+HN = (105.85, 21.03)
+# ===== Chương 1: mở đầu (1–6) =====
+shot("hoBien", 1, 1, 106.80, 21.88, tau0=0)
+add("chip", A(1), E_(1), text="Biên giới, cuối năm 1075", w=860, fi=0.6, fo=0.4, y=130)
+shot("canhGac", 2, 2, 106.30, 21.62)
+shot("haiHuong", 3, 4, 106.45, 21.55, mir=1)
+shot("nhinBac", 5, 6, 106.62, 21.72)
 add("big", A(5, 0.2), A(5, 3.4), text="?", col="#7a1f1f", fi=0.4, fo=0.8, y=200, fs=260)
 # ===== Chương 2: Người cầm cờ tiết (7–18) =====
-cc("tl", 7, 12, *TLP, tau0=2, badge=1)
-card("Phường Thái Hòa", "kinh thành Thăng Long", 7, 3.2, 4.0)
-cc("bien", 13, 14, *CHM, tau0=0)
-chip("Năm 1069", 13, 14, 400)
-cc("tl", 15, 18, *TLP, tau0=40, badge=1)
-chip("Năm 1075", 16, 16, 400); card("Thái úy", "một trong những chức quân sự cao nhất", 16, 3.2, 4.5)
+shot("phuong", 7, 7, 105.83, 21.04); card("Phường Thái Hòa", "kinh thành Thăng Long", 7, 1.0, 3.6)
+shot("giaDinh", 8, 9, 105.80, 21.07, mir=1)
+shot("trieuDuong", 10, 12, 105.87, 21.03)
+shot("hamDoi", 13, 13, 107.05, 17.40); chip("Năm 1069", 13, 14, 400)
+shot("chiemThanh", 14, 14, 107.55, 16.40, mir=1)
+shot("thaiUy", 15, 16, 105.89, 21.01); card("Thái úy", "một trong những chức quân sự cao nhất", 16, 2.0, 4.5)
+shot("tongBien", 17, 18, 107.30, 22.20); chip("Năm 1075", 17, 18, 400)
 # ===== Chương 3: Chờ hay đánh (19–32) =====
-cc("camp", 19, 22, *QC, tau0=3)
-card("Vương An Thạch", "người cải cách của nhà Tống", 21, 3.0, 4.5, col=SO)
-cc("xuong", 23, 24, *QC)
-cc("tl", 25, 27, *TLP, tau0=90)
-add("big", A(27, 0.3), E_(27), text="?", col="#7a1f1f", fi=0.4, fo=0.6, y=200, fs=260)
-cc("march", 28, 29, 106.4, 21.5, side="v", n=14, dir=1, badge=dict(kind="v", name="Lý Thường Kiệt", sub="chỉ huy chiến dịch"))
-cc("tl", 30, 32, 105.2, 21.5, tau0=150)
-add("big", A(30, 0.5), A(30, 3.5), text="THANH MIÊU", col="#7a1f1f", fi=0.5, fo=0.8, y=160, fs=110)
-card("Phép thanh miêu", "bắt dân vay tiền, trả cả vốn lẫn lãi", 31, 0.4, 4.5, w=1300, col=SO)
+shot("trieuTong", 19, 20, 110.29, 25.27); chip("Triều đình nhà Tống", 19, 20, 700)
+shot("vuongAnThach", 21, 21, 110.75, 25.80, mir=1)
+shot("taoLuyen", 22, 23, 109.85, 24.90)
+shot("xuongThuyen", 24, 24, 108.75, 23.15)
+shot("hopBan", 25, 26, 105.90, 21.05, mir=1)
+shot("thapCanh", 27, 27, 106.20, 21.40)
+add("big", A(27, 0.3), E_(27), text="?", col="#7a1f1f", fi=0.4, fo=0.6, y=200, fs=240)
+shot("xuatQuan", 28, 29, 105.95, 21.30)
+shot("thanhMieu", 30, 30, 109.55, 24.25); add("big", A(30, 0.5), A(30, 3.2), text="THANH MIÊU", col="#7a1f1f", fi=0.5, fo=0.8, y=160, fs=110)
+shot("leuQuan", 31, 32, 106.70, 21.80, mir=1)
 # ===== Chương 4: Đánh vào đâu (33–40) =====
-cc("bien", 33, 35, *KC, tau0=0)
-chip("Khâm Châu và Liêm Châu", 33, 35, 760)
-cc("march", 36, 37, 108.0, 22.6, side="v", n=14, dir=1, carry=1)
-cc("ai", 38, 39, *CL)
-chip("Cửa ải Côn Lôn", 38, 39, 640)
-cc("uc", 40, 40, *UC, tau0=0, sp=0.05)
+shot("map33", 33, 33, 107.60, 21.90, wd=3.4, map_=True)
+army([HN, (106.3, 21.4), LS, (107.5, 22.4), UC], "v", 33, 0.3, 4.6, n=14, t1_i=33)
+army([HN, (106.8, 20.7), (107.8, 21.1), KC], "v", 33, 0.8, 4.2, n=12, t1_i=33)
+shot("duongBien", 34, 34, 108.05, 21.45)
+shot("khamChau", 35, 35, 108.65, 21.96, mir=1); chip("Khâm Châu và Liêm Châu", 35, 35, 760)
+shot("duongNui", 36, 37, 107.70, 22.45)
+shot("ai", 38, 39, *CL); chip("Cửa ải Côn Lôn", 38, 39, 640)
+shot("ucXa", 40, 40, *UC, tau0=0)
 add("big", A(40, 0.3), A(40, 3.0), text="?", col="#7a1f1f", fi=0.4, fo=0.8, y=200, fs=240)
 # ===== Chương 5: Bốn mươi ngày (41–53) =====
-cc("uc", 41, 49, *UC, breach=14.2)
-add("chip", A(41), E_(42), text="Ung Châu, đầu năm 1076", w=860, fi=0.6, fo=0.5, y=130)
-add("big", A(47, 0.5), A(47, 4.0), text="40 NGÀY", col="#7a1f1f", fi=0.5, fo=0.8, y=140, fs=120)
-cc("march", 50, 53, 107.3, 22.3, side="v", n=12, dir=-1, carry=1)
+shot("mattThanh", 41, 41, UC[0] + 0.004, UC[1] + 0.003); chip("Ung Châu, đầu năm 1076", 41, 42, 860)
+shot("daoDat", 42, 43, UC[0] - 0.006, UC[1] - 0.004, mir=1)
+shot("uc", 44, 46, *UC, breach=14.2)
+shot("doDem", 47, 47, UC[0] + 0.01, UC[1] - 0.006); add("big", A(47, 0.3), A(47, 4.0), text="40 NGÀY", col="#7a1f1f", fi=0.5, fo=0.8, y=140, fs=120)
+shot("thanhHoang", 48, 49, UC[0] - 0.003, UC[1] + 0.002, mir=1)
+shot("rutQuan", 50, 51, 107.30, 22.30)
+shot("tramGac", 52, 53, 106.76, 21.85)
 # ===== Chương 6: Giữ sông bằng gì (54–68) =====
-cc("march", 54, 56, 108.0, 23.0, side="s", n=16, dir=1, badge=dict(kind="s", name="Quách Quỳ", sub="chỉ huy bộ binh nhà Tống"))
-add("chip", A(54), E_(56), text="Năm 1076", w=400, fi=0.6, fo=0.5, y=130)
-cc("nn", 57, 60, *NNP, sp=0.16)
-add("chip", A(57), E_(60), text="Sông Như Nguyệt", w=620, fi=0.6, fo=0.5, y=130)
-cc("nn", 61, 66, *NNP, sp=0.45, tau0=4)
-cc("camp", 67, 68, 106.0, 21.3, tau0=20)
-add("sick", A(67, 0.5), E_(68) + 2.0, fi=1.2, fo=1.5)
+shot("tongKetTap", 54, 54, 109.00, 24.00); chip("Năm 1076", 54, 56, 400)
+shot("quachQuy", 55, 55, 108.50, 23.50, mir=1)
+shot("nhinSong", 56, 56, 106.10, 21.30)
+shot("mapNN", 57, 60, 106.06, 21.20, wd=0.45, map_=True)
+add("route", A(57, 0.5), E_(60), id="nnline", pts=[[105.93, 21.15], [106.05, 21.19], [106.18, 21.22]], col=V, dur=4, w=7, fi=0.2, fo=0.8)
+army([(106.12, 21.7), (106.1, 21.42), (106.08, 21.22)], "s", 57, 0.6, 7.0, n=14, t1_i=60)
+lab("sông Như Nguyệt", (106.06, 21.17), "#3a64a8", 57, 60, fs=40, op=0.8)
+chip("Sông Như Nguyệt", 57, 60, 620)
+shot("phongTuyen", 61, 61, 106.04, 21.18, mir=1)
+shot("gacDem", 62, 62, 106.07, 21.20)
+shot("nn", 63, 64, *NNP, sp=0.45, tau0=4)
+shot("quanDuBi", 65, 66, 106.12, 21.23, mir=1)
+shot("camp", 67, 68, 106.00, 21.30, tau0=20); add("sick", A(67, 0.5), E_(68) + 2.0, fi=1.2, fo=1.5)
 # ===== Chương 7: Bài thơ bên sông (69–77) =====
-cc("den", 69, 77, 106.05, 21.2)
-add("night", A(69, 0.5), E_(77) - 0.5, a=0.55, moon=True, fi=1.5, fo=1.5)
-add("poem", A(71, 0.2), E_(71), lines=["Nam quốc sơn hà Nam đế cư", "Tiệt nhiên định phận tại thiên thư", "Như hà nghịch lỗ lai xâm phạm", "Nhữ đẳng hành khan thủ bại hư"], gap=2.4, fi=0.5, fo=0.8)
+shot("denDem", 69, 70, 106.00, 21.22)
+shot("trongDen", 71, 73, 106.03, 21.20)
+add("night", A(69, 0.5), E_(73) + 0.5, a=0.55, moon=True, fi=1.5, fo=1.5)
+add("poem", A(71, 0.2), E_(71), lines=["Nam quốc sơn hà Nam đế cư", "Tiệt nhiên định phận tại thiên thư", "Như hà nghịch lỗ lai xâm phạm", "Nhữ đẳng hành khan thủ bại hư"], gap=1.4, fi=0.8, fo=0.8)
 card("Đền hai anh em họ Trương", "theo truyền thuyết", 72, 0.8, 4.5, col="#8a8a8a")
-fx("insect", A(69), E_(77)); fx("wind", A(69), E_(77))
+shot("binhMinh", 74, 77, 106.08, 21.21, mir=1)
+fx("insect", A(69), E_(73)); fx("wind", A(69), E_(77))
 # ===== Chương 8: Khi nào thì dừng (78–86) =====
-cc("camp", 78, 80, 106.2, 21.4, tau0=40)
-cc("dam", 81, 85, 106.25, 21.5)
-cc("march", 86, 86, 106.8, 22.4, side="s", n=14, dir=-1)
+shot("nghiNgoi", 78, 78, 106.22, 21.42)
+shot("luongTong", 79, 80, 106.15, 21.60, mir=1)
+shot("leuDem", 81, 83, 106.30, 21.45)
+shot("thuongLuong", 84, 85, 106.45, 21.70, mir=1)
+shot("tongRut", 86, 86, 106.80, 22.40)
 # ===== Chương 9: Đòi lại đất (87–97) =====
-cc("voi", 87, 89, 107.0, 23.4)
-card("Đào Tống Nguyên", "mang năm con voi sang thương lượng", 89, 0.3, 4.0)
-chip("Năm 1078", 87, 89, 400)
-cc("giao", 90, 91, *QN)
-chip("Năm 1079", 90, 91, 400)
-cc("giao", 92, 94, 107.4, 22.2, tau0=30)
-chip("Năm 1081 và 1084", 92, 94, 640)
-card("Một số huyện và động", "số cụ thể còn cần đối chiếu", 94, 0.2, 3.5)
-cc("tl", 95, 97, *TLP, tau0=200)
+shot("ngoaiGiao", 87, 88, 105.92, 21.05)
+shot("voi", 89, 89, 107.00, 23.40, mir=1); card("Đào Tống Nguyên", "mang năm con voi sang thương lượng", 89, 0.3, 3.6); chip("Năm 1078", 87, 89, 400)
+shot("traDat", 90, 90, 106.26, 22.67); chip("Năm 1079", 90, 90, 400)
+shot("traTu", 91, 92, 106.55, 22.40, mir=1); chip("Năm 1081", 91, 92, 400)
+shot("vinhBinh", 93, 94, 107.40, 22.25); chip("Năm 1084", 93, 94, 400); card("Một số huyện và động", "số cụ thể còn cần đối chiếu", 94, 0.2, 3.0)
+shot("mapBien", 95, 97, 106.8, 22.4, wd=2.2, map_=True)
+add("route", A(95, 0.4), E_(97), id="bien", pts=[[106.0, 22.4], [106.6, 22.7], [107.3, 22.5], [108.0, 22.6]], col=V, dur=5, w=7, fi=0.2, fo=0.8)
+lab("vùng đất được trao trả", (106.8, 22.75), V, 95, 97, fs=40, op=0.8)
 # ===== Chương 10: Những năm cuối (98–105) =====
-cc("tl", 98, 99, *TLP, tau0=260, badge=1)
-card("Thái úy", "giữ trọng trách trong triều", 98, 3.0, 4.0)
-cc("march", 100, 100, 105.6, 19.0, side="v", n=12, dir=1)
-chip("Năm 1103", 100, 100, 400)
-cc("bien", 101, 102, *CHM, tau0=0)
-chip("Năm 1104", 101, 102, 400)
-cc("tl", 103, 103, *TLP, tau0=320)
-cc("nha", 104, 105, *TLP)
-chip("Năm 1105", 104, 105, 400)
-fx("gong", A(104, 0.4))
+shot("tl", 98, 99, *HN, tau0=260, badge=1, mir=1); card("Thái úy", "giữ trọng trách trong triều", 98, 3.0, 4.0)
+shot("dienChau", 100, 100, 105.80, 19.30); chip("Năm 1103", 100, 100, 400)
+shot("bien", 101, 102, 106.50, 17.80, tau0=0, mir=1); chip("Năm 1104", 101, 102, 400)
+shot("tuoiGia", 103, 103, 105.88, 21.02)
+shot("nha", 104, 105, 105.83, 21.00); chip("Năm 1105", 104, 105, 400); fx("gong", A(104, 0.4))
 # ===== Chương 11: Trở lại bên sông (106–115) =====
-cc("uc", 106, 107, *UC, tau0=0, sp=0.5)
-cc("nn", 108, 109, *NNP, sp=0.5, tau0=4)
+shot("mapKet", 106, 109, 107.2, 22.0, wd=2.6, map_=True)
+add("city", A(106), E_(109), lon=UC[0], lat=UC[1], name="Ung Châu, 1075", side="e", fs=30, fi=0.6, fo=0.6)
+add("city", A(106), E_(109), lon=NNP[0], lat=NNP[1], name="Như Nguyệt, 1076", side="e", fs=30, fi=0.6, fo=0.6)
+army([NNP, (106.4, 21.8), (107.4, 22.4), UC], "v", 106, 0.5, 5.0, n=12, t1_i=109)
 card("Hai nước cờ", "của cùng một người", 109, 0.5, 5.0)
-cc("tl", 110, 111, *TLP, tau0=380)
-cc("camp", 112, 113, 106.0, 21.3, tau0=60)
-cc("den", 114, 115, 106.05, 21.2)
-add("night", A(114, 0.0), TOTAL - 0.1, a=0.55, moon=True, fi=1.5, fo=1.0)
+shot("nga3", 110, 111, 106.40, 21.60)
+shot("hauCan", 112, 113, 106.00, 21.30, mir=1)
+shot("songSang", 114, 115, 106.05, 21.20)
 add("poem", A(114, 0.4), TOTAL - 0.1, lines=["Nam quốc sơn hà Nam đế cư", "Tiệt nhiên định phận tại thiên thư"], gap=1.6, fi=0.8, fo=1.0)
-fx("insect", A(114), TOTAL); fx("wind", A(114), TOTAL)
-
+build_cam()
 
 # ---- phụ đề theo từng đoạn (chia trang theo dấu câu, mốc theo số chữ) ----
 import re as _re
-def _wrap(txt, w=46):
+def _wrap(txt, w=36):
     out, cur = [], ""
     for wd_ in txt.split():
         if cur and len(cur) + 1 + len(wd_) > w:
@@ -187,17 +217,29 @@ def _wrap(txt, w=46):
             cur = (cur + " " + wd_).strip()
     if cur: out.append(cur)
     return out
+def _pages(t, mx=66):
+    parts = [p.strip() for p in _re.split(r"(?<=[.?!])\s+", t) if p.strip()]
+    pages = []
+    for p in parts:   # câu dài: tách tiếp theo dấu phẩy rồi theo độ dài
+        cl = [c.strip() for c in _re.split(r"(?<=,)\s+", p) if c.strip()] if len(p) > mx else [p]
+        pages.extend(cl)
+    out, cur = [], ""
+    for p in pages:
+        if cur and len(cur + " " + p) > mx: out.append(cur); cur = p
+        else: cur = (cur + " " + p).strip()
+    if cur: out.append(cur)
+    res = []
+    for p in out:   # trang vẫn dài hơn 2 dòng: cắt theo từ
+        if len(_wrap(p)) > 2:
+            ws = p.split(); h = len(ws) // 2; res += [" ".join(ws[:h]), " ".join(ws[h:])]
+        else: res.append(p)
+    return res
 for _i, _b in enumerate(KB, 1):
-    _t = _b["text"]; _parts = [p.strip() for p in _re.split(r"(?<=[.?!])\s+", _t) if p.strip()]
-    _pages, _cur = [], ""
-    for p in _parts:
-        if _cur and len((_cur + " " + p)) > 100: _pages.append(_cur); _cur = p
-        else: _cur = (_cur + " " + p).strip()
-    if _cur: _pages.append(_cur)
-    _tot = sum(len(p.split()) for p in _pages); _t0 = S[_i] + 0.05; _span = D[_i] - 0.1
-    for p in _pages:
+    _pages_ = _pages(_b["text"])
+    _tot = sum(len(p.split()) for p in _pages_); _t0 = S[_i] + 0.05; _span = D[_i] - 0.1
+    for p in _pages_:
         _d = _span * len(p.split()) / _tot
-        add("sub", _t0, _t0 + _d, lines=_wrap(p), fi=0.12, fo=0.12); _t0 += _d
+        add("sub", _t0, _t0 + _d, lines=_wrap(p), fi=0.1, fo=0.1); _t0 += _d
 
 # ---- camera: thêm khóa đầu / cuối và sắp theo thời gian ----
 cam.sort(key=lambda k: k[0])

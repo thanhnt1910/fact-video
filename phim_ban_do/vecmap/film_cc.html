@@ -225,7 +225,7 @@ function T(t){
  if(t<SP.fade0)el('rect',{width:1920,height:1080,fill:'#000',opacity:1-t/SP.fade0},hud);
  if(t>SP.dur-SP.fade1)el('rect',{width:1920,height:1080,fill:'#000',opacity:cl((t-(SP.dur-SP.fade1))/SP.fade1)},hud);
 }
-window.T=T;window.ready=init().then(()=>{T(0);return true});
+window.T=T;window.ready=new Promise(r=>addEventListener('load',r)).then(()=>init()).then(()=>{T(0);return true});
 </script>
 
 <script src="cc.js"></script>

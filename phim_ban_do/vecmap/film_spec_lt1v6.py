@@ -106,6 +106,15 @@ KEYFX = {   # âm thanh riêng + hiệu ứng riêng của từng cảnh zoom ch
     "bien": [("water", 0.0, 99), ("wind", 0.0, 99)],
     "hauCan": [("march", 0.0, 99), ("wind", 0.0, 99)],
 }
+CAP = {"phuong": "Phường Thái Hòa", "giaDinh": "Gia đình quan võ", "trieuDuong": "Triều đình nhà Lý", "hamDoi": "Năm 1069", "chiemThanh": "Đánh Chiêm Thành",
+       "thaiUy": "Thái úy", "tongBien": "Biên giới phía bắc", "trieuTong": "Triều đình nhà Tống", "vuongAnThach": "Triều đình nhà Tống",
+       "taoLuyen": "Quân Tống chuẩn bị", "xuongThuyen": "Xưởng thuyền", "hopBan": "Họp bàn", "thapCanh": "Chờ hay đánh", "thanhMieu": "Chính sách thanh miêu",
+       "leuQuan": "Doanh trại", "duongBien": "Đường ven biển", "khamChau": "Khâm Châu", "duongNui": "Đường núi", "ucXa": "Tiến sát Ung Châu",
+       "mattThanh": "Ung Châu", "daoDat": "Đào đất", "doDem": "Đêm bên thành", "thanhHoang": "Thành Ung Châu", "rutQuan": "Rút quân",
+       "tramGac": "Trạm gác", "tongKetTap": "Quân Tống tập kết", "quachQuy": "Quách Quỳ", "nhinSong": "Nhìn sông", "gacDem": "Gác đêm",
+       "quanDuBi": "Quân dự bị", "denDem": "Đêm bên sông", "nghiNgoi": "Có nên dừng", "luongTong": "Lương thực", "thuongLuong": "Bàn việc dừng",
+       "tongRut": "Quân Tống rút", "ngoaiGiao": "Thương lượng", "traDat": "Trả đất", "traTu": "Trao trả", "dienChau": "Diễn Châu",
+       "tuoiGia": "Tuổi già", "nga3": "Nhìn lại"}
 NAMED = [("Thăng Long", TL), ("Ung Châu", UC), ("sông Như Nguyệt", (106.06, 21.20)), ("Lạng Sơn", LS), ("Khâm Châu", KC), ("Quế Lâm", QC), ("Quảng Tây", (109.85, 24.90))]
 PLACE = {"phuong": ("Thăng Long", TL), "giaDinh": ("Thăng Long", TL), "trieuDuong": ("Thăng Long", TL), "thaiUy": ("Thăng Long", TL),
          "hopBan": ("Thăng Long", TL), "ngoaiGiao": ("Thăng Long", TL), "tuoiGia": ("Thăng Long", TL),
@@ -124,7 +133,7 @@ def build_cam():
         if not key:
             h["map"] = True
             lo, la = h["lon"], h["lat"]
-            h["wd"] = 3.2; h["lat"] = max(h["lat"], 19.6)
+            h["wd"] = 2.4; h["lat"] = max(h["lat"], 19.6)
     prev = None
     for k, h in enumerate(SH):
         ts0, te = A(h["i0"]), E_(h["i1"]); span = te - ts0
@@ -157,13 +166,10 @@ def build_cam():
                     cam.append([(E_(prev["i1"]) + ts0) / 2, (prev["lon"] + h["lon"]) / 2, (prev["lat"] + h["lat"]) / 2, min(dist * 1.2 + 0.6, 10)])
                 cam.append([ts0 + 0.9, h["lon"], h["lat"], h["wd"]])
             cam.append([te - 0.4, h["lon"] + 0.01, h["lat"] - 0.008, h["wd"] * 0.97])
-            pl = PLACE.get(h["scene"])
-            if not pl:
-                nm = min(NAMED, key=lambda q: math.hypot(q[1][0] - h["lon"], q[1][1] - h["lat"]))
-                if math.hypot(nm[1][0] - h["lon"], nm[1][1] - h["lat"]) < 0.9: pl = nm
-            if pl and last_city.get(pl[0], -9) < ts0 - 0.1:
-                add("city", ts0 + 0.5, te, lon=pl[1][0], lat=pl[1][1], name=pl[0], side="e", fs=30, fi=0.6, fo=0.6)
-                last_city[pl[0]] = te
+            cp = CAP.get(h["scene"])
+            if cp:
+                add("mark", ts0 + 0.4, te, lon=h["lon"], lat=h["lat"], s=30, fi=0.5, fo=0.5)
+                add("label", ts0 + 0.4, te, lon=h["lon"], lat=h["lat"] + 0.22, text=cp, col="#7a1f1f", fs=56, op=0.95, fi=0.6, fo=0.6)
             if not any(x.get("k") in ("army", "route") and x["t0"] <= te and x.get("t1", 0) >= ts0 for x in items):
                 add("ring", ts0 + 0.6, ts0 + 2.6, lon=h["lon"], lat=h["lat"], dur=1.8, fi=0.1, fo=0.4)
         prev = h
@@ -267,6 +273,10 @@ shot("nga3", 110, 111, 106.40, 21.60)
 shot("hauCan", 112, 113, 106.00, 21.30, mir=1)
 shot("songSang", 114, 115, 106.05, 21.20)
 add("poem", A(114, 0.4), TOTAL - 0.1, lines=["Nam quốc sơn hà Nam đế cư", "Tiệt nhiên định phận tại thiên thư"], gap=1.6, fi=0.8, fo=1.0)
+for nm, pt, fs in (("ĐẠI VIỆT", (105.7, 21.55), 70), ("NHÀ TỐNG", (108.2, 24.6), 70), ("CHIÊM THÀNH", (107.3, 18.2), 60)):
+    add("label", A(1), TOTAL - 1, lon=pt[0], lat=pt[1], text=nm, col="#7a6a50", fs=fs, op=0.38, fi=1.0, fo=1.0)
+for nm, pt, sd in (("Thăng Long", TL, "e"), ("Lạng Sơn", LS, "e"), ("Ung Châu", UC, "e"), ("Khâm Châu", KC, "e"), ("Liêm Châu", LC, "s"), ("Quế Lâm", QC, "e"), ("Như Nguyệt", (106.06, 21.20), "w"), ("Diễn Châu", (105.58, 19.05), "e"), ("Cao Bằng", (106.25, 22.67), "e")):
+    add("city", A(1), TOTAL - 1, lon=pt[0], lat=pt[1], name=nm, side=sd, fs=36, fi=1.0, fo=1.0)
 build_cam()
 
 # ---- phụ đề theo từng đoạn (chia trang theo dấu câu, mốc theo số chữ) ----

@@ -19,7 +19,7 @@ def main():
         pg = b.new_page(viewport={"width": 1920, "height": 1080})
         msgs = []
         pg.on("pageerror", lambda e: msgs.append(str(e)[:200]))
-        pg.goto((HERE / "film.html").as_uri() + "?spec=" + SPJS + "&geo=" + os.environ.get("GEO_JS", "geo_nhe.js"))
+        pg.goto((HERE / os.environ.get("FILM", "film.html")).as_uri() + "?spec=" + SPJS + "&geo=" + os.environ.get("GEO_JS", "geo_nhe.js"))
         pg.evaluate("window.ready")
         if mode == "still":
             out = HERE / "ra" / "film"

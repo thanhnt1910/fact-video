@@ -58,7 +58,7 @@ def card(title, sub, i, off=0.4, dur=4.0, col=V, **kw):
 
 
 def chip(text, i0, i1, w=520):
-    add("chip", A(i0), E_(i1), text=text, w=w, fi=0.6, fo=0.6)
+    add("chip", A(i0), E_(i1), text=text, w=w, fi=0.6, fo=0.6, y=130)
 
 
 def route(rid, pts, col, i, off, dur, t1_i=None, w=6, fo=0.8):
@@ -81,7 +81,7 @@ def lab(text, p, col, i0, i1, fs=46, op=0.6, **kw):
 
 
 SPAN = lambda i0, i1: E_(i1) - A(i0)
-def cc(scene, i0, i1, lon, lat, wd=0.2, zin=3.0, zout=1.8, w0=1.0, breach=None, **kw):
+def cc(scene, i0, i1, lon, lat, wd=0.15, zin=3.0, zout=1.8, w0=1.0, breach=None, **kw):
     """Cận cảnh trên bản đồ cho đoạn i0..i1: camera zoom từ bản đồ vào (lon,lat), giữ, rồi zoom ra."""
     ts = A(i0) + zin - 0.4
     sp = kw.pop("sp", None) or ((breach / (0.78 * (E_(i1) - ts))) if breach else 1.0)
@@ -91,7 +91,7 @@ def cc(scene, i0, i1, lon, lat, wd=0.2, zin=3.0, zout=1.8, w0=1.0, breach=None, 
 NNP = (106.05, 21.19); CHM = (106.4, 18.0); TLP = TL
 # ===== Chương 1: hook (1–6) =====
 cc("uc", 1, 2, *UC, zin=0.6, w0=0.25, tau0=16, sp=0.35)
-add("chip", A(1), E_(2), text="Ung Châu, năm 1075", w=700, fi=0.6, fo=0.4)
+add("chip", A(1), E_(2), text="Ung Châu, năm 1075", w=700, fi=0.6, fo=0.4, y=130)
 cc("march", 3, 4, 106.4, 21.5, side="v", n=12, dir=1, carry=1)
 cc("nn", 5, 6, *NNP, sp=0.1)
 add("big", A(5, 0.2), A(5, 3.4), text="?", col="#7a1f1f", fi=0.4, fo=0.8, y=200, fs=260)
@@ -122,14 +122,14 @@ cc("uc", 40, 40, *UC, tau0=0, sp=0.05)
 add("big", A(40, 0.3), A(40, 3.0), text="?", col="#7a1f1f", fi=0.4, fo=0.8, y=200, fs=240)
 # ===== Chương 5: Bốn mươi ngày (41–53) =====
 cc("uc", 41, 49, *UC, breach=14.2)
-add("chip", A(41), E_(42), text="Ung Châu, đầu năm 1076", w=860, fi=0.6, fo=0.5)
+add("chip", A(41), E_(42), text="Ung Châu, đầu năm 1076", w=860, fi=0.6, fo=0.5, y=130)
 add("big", A(47, 0.5), A(47, 4.0), text="40 NGÀY", col="#7a1f1f", fi=0.5, fo=0.8, y=140, fs=120)
 cc("march", 50, 53, 107.3, 22.3, side="v", n=12, dir=-1, carry=1)
 # ===== Chương 6: Giữ sông bằng gì (54–68) =====
 cc("march", 54, 56, 108.0, 23.0, side="s", n=16, dir=1, badge=dict(kind="s", name="Quách Quỳ", sub="chỉ huy bộ binh nhà Tống"))
-add("chip", A(54), E_(56), text="Năm 1076", w=400, fi=0.6, fo=0.5)
+add("chip", A(54), E_(56), text="Năm 1076", w=400, fi=0.6, fo=0.5, y=130)
 cc("nn", 57, 60, *NNP, sp=0.16)
-add("chip", A(57), E_(60), text="Sông Như Nguyệt", w=620, fi=0.6, fo=0.5)
+add("chip", A(57), E_(60), text="Sông Như Nguyệt", w=620, fi=0.6, fo=0.5, y=130)
 cc("nn", 61, 66, *NNP, sp=0.45, tau0=4)
 cc("camp", 67, 68, 106.0, 21.3, tau0=20)
 add("sick", A(67, 0.5), E_(68) + 2.0, fi=1.2, fo=1.5)
@@ -174,6 +174,30 @@ cc("den", 114, 115, 106.05, 21.2)
 add("night", A(114, 0.0), TOTAL - 0.1, a=0.55, moon=True, fi=1.5, fo=1.0)
 add("poem", A(114, 0.4), TOTAL - 0.1, lines=["Nam quốc sơn hà Nam đế cư", "Tiệt nhiên định phận tại thiên thư"], gap=1.6, fi=0.8, fo=1.0)
 fx("insect", A(114), TOTAL); fx("wind", A(114), TOTAL)
+
+
+# ---- phụ đề theo từng đoạn (chia trang theo dấu câu, mốc theo số chữ) ----
+import re as _re
+def _wrap(txt, w=46):
+    out, cur = [], ""
+    for wd_ in txt.split():
+        if cur and len(cur) + 1 + len(wd_) > w:
+            out.append(cur); cur = wd_
+        else:
+            cur = (cur + " " + wd_).strip()
+    if cur: out.append(cur)
+    return out
+for _i, _b in enumerate(KB, 1):
+    _t = _b["text"]; _parts = [p.strip() for p in _re.split(r"(?<=[.?!])\s+", _t) if p.strip()]
+    _pages, _cur = [], ""
+    for p in _parts:
+        if _cur and len((_cur + " " + p)) > 100: _pages.append(_cur); _cur = p
+        else: _cur = (_cur + " " + p).strip()
+    if _cur: _pages.append(_cur)
+    _tot = sum(len(p.split()) for p in _pages); _t0 = S[_i] + 0.05; _span = D[_i] - 0.1
+    for p in _pages:
+        _d = _span * len(p.split()) / _tot
+        add("sub", _t0, _t0 + _d, lines=_wrap(p), fi=0.12, fo=0.12); _t0 += _d
 
 # ---- camera: thêm khóa đầu / cuối và sắp theo thời gian ----
 cam.sort(key=lambda k: k[0])

@@ -4,7 +4,7 @@
 (function(){
 const A=0.2,cA=Math.cos(A),sA=Math.sin(A);
 let K1=1,FX=0,FY=0,SCf=1;
-function setup(it){const K=SP.cam[SP.cam.length-1];SCf=1920/(K[3]*G.k*G.scale);K1=1/SCf;const f=P(it.lon,it.lat);FX=f[0];FY=f[1]}
+function setup(it){SCf=1920/((it.wf||0.15)*G.k*G.scale);K1=1/SCf;const f=P(it.lon,it.lat);FX=f[0];FY=f[1]}
 const Lc=(u,v)=>[FX+(u*cA-v*sA)*K1,FY+(u*sA+v*cA)*K1];
 const toS=(x,y)=>[(x-CAMX)*SC,(y-CAMY)*SC];
 const W=px=>px*K1;
@@ -232,16 +232,18 @@ function portrait(g,cx,cy,r,kind,id){
 }
 function badge(t,tau,it,u,v,fh,kind,name,sub,t0,id,below){
  const e=ease(cl((tau-t0)/.6));if(e<=0)return;const p=Lc(u,v),[sx,sy]=toS(p[0],p[1]);
- const H=fh*SC/SCf,r=50,cy=below?sy+r+70:sy-H-r-46,g=el('g',{opacity:e,transform:`translate(${sx},${cy}) scale(${.6+.4*e}) translate(${-sx},${-cy})`},hud);
- if(below){el('path',{d:`M${sx},${cy-r-3} L${sx},${sy+12}`,stroke:'#241a0e','stroke-width':3,opacity:.85},g);el('circle',{cx:sx,cy:sy+12,r:5,fill:'#c9742a',stroke:'#241a0e','stroke-width':2},g)}
- else{el('path',{d:`M${sx},${cy+r+3} L${sx},${sy-H-4}`,stroke:'#241a0e','stroke-width':3,opacity:.85},g);
- el('circle',{cx:sx,cy:sy-H-4,r:5,fill:kind=='v'?'#c9742a':'#3a64a8',stroke:'#241a0e','stroke-width':2},g)}
- portrait(g,sx,cy,r,kind,id);
+ const H=fh*SC/SCf,r=50,dir=sx>420?-1:1;
+ const cx=below?sx+dir*190:sx,cy=below?sy-H*.75:sy-H-r-46;
+ const g=el('g',{opacity:e,transform:`translate(${cx},${cy}) scale(${.6+.4*e}) translate(${-cx},${-cy})`},hud);
+ const col=kind=='v'?'#c9742a':'#3a64a8';
+ if(below){el('path',{d:`M${cx-dir*(r+3)},${cy} L${sx},${sy-H*.5}`,stroke:'#241a0e','stroke-width':3,opacity:.85},g);el('circle',{cx:sx,cy:sy-H*.5,r:5,fill:col,stroke:'#241a0e','stroke-width':2},g)}
+ else{el('path',{d:`M${sx},${cy+r+3} L${sx},${sy-H-4}`,stroke:'#241a0e','stroke-width':3,opacity:.85},g);el('circle',{cx:sx,cy:sy-H-4,r:5,fill:col,stroke:'#241a0e','stroke-width':2},g)}
+ portrait(g,cx,cy,r,kind,id);
  const w=Math.max(220,name.length*17+40),py=below?cy+r+8:cy-r-62;
- el('rect',{x:sx-w/2,y:py,width:w,height:56,rx:10,fill:'#241a0e',opacity:.9},g);
- el('rect',{x:sx-w/2,y:py,width:7,height:56,fill:kind=='v'?'#c9742a':'#3a64a8'},g);
- el('text',{x:sx+3,y:py+27,'text-anchor':'middle','font-size':28,'font-weight':700,fill:'#f4ecc8'},g).textContent=name;
- el('text',{x:sx+3,y:py+49,'text-anchor':'middle','font-size':19,fill:'#d9ccaa'},g).textContent=sub;
+ el('rect',{x:cx-w/2,y:py,width:w,height:56,rx:10,fill:'#241a0e',opacity:.9},g);
+ el('rect',{x:cx-w/2,y:py,width:7,height:56,fill:col},g);
+ el('text',{x:cx+3,y:py+27,'text-anchor':'middle','font-size':28,'font-weight':700,fill:'#f4ecc8'},g).textContent=name;
+ el('text',{x:cx+3,y:py+49,'text-anchor':'middle','font-size':19,fill:'#d9ccaa'},g).textContent=sub;
 }
 function burst(cx,cy,u,txt){
  const s=ease(cl(u/.25))*(1-.15*cl((u-.8)/.2)),o=1-cl((u-.75)/.25),pts=[];const n=16;

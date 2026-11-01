@@ -36,8 +36,31 @@ if repo is None:
     except Exception as e: log("tìm lỗi", e)
     raise SystemExit("không có mô hình")
 log("repo", repo, "files:", [os.path.relpath(p, d) for p in glob.glob(d + "/**/*", recursive=True) if os.path.isfile(p)][:30])
+for fn in ("README.md", "config.json"):
+    try: log("=====", fn, "=====\n" + open(os.path.join(d, fn), encoding="utf-8").read()[:2500])
+    except Exception as e: log("không đọc", fn, e)
 ck = sorted([p for p in glob.glob(d + "/**/*", recursive=True) if p.endswith((".pt", ".safetensors"))], key=lambda p: -os.path.getsize(p))
 vocab = [p for p in glob.glob(d + "/**/*", recursive=True) if os.path.basename(p).startswith("vocab") and p.endswith(".txt")]
+if not vocab:   # tìm vocab ở repo khác của cùng tác giả hoặc bản tiếng Việt khác
+    try:
+        from huggingface_hub import hf_hub_download, list_repo_files
+        cands = ["hynt/F5-TTS-Vietnamese-ViVoice"] + [m.id for m in HfApi().list_models(search="F5-TTS-Vietnamese", sort="downloads", direction=-1, limit=15)] + [m.id for m in HfApi().list_models(search="F5-TTS-Viet", limit=15)]
+        seen = set()
+        for r in cands:
+            if r in seen: continue
+            seen.add(r)
+            try:
+                fl = list_repo_files(r); vf = [f for f in fl if "vocab" in f.lower()]
+                log("ỨNG VIÊN", r, vf[:3])
+                for f in vf:
+                    if f.endswith(".txt"):
+                        pth = hf_hub_download(r, f)
+                        n = sum(1 for _ in open(pth, encoding="utf-8"))
+                        log("  vocab", r, f, "dòng:", n)
+                        if abs(n - 2566) <= 3 or n == 2567: vocab = [pth]; break
+            except Exception as e: log("  lỗi", r, str(e)[:100])
+            if vocab: break
+    except Exception as e: log("tìm vocab lỗi", e)
 log("ckpt", ck[:3], "vocab", vocab)
 from f5_tts.api import F5TTS
 f5 = None

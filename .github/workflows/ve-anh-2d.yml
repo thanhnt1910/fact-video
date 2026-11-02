@@ -36,7 +36,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install -q pillow numpy requests kaggle opencv-python-headless
+      - run: python -m pip install -q pillow numpy requests kaggle six opencv-python-headless
       - name: Vẽ trên Kaggle
         env:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}

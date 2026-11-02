@@ -204,7 +204,7 @@ sc(173, [], "an empty prisoners' camp enclosed by a rough wooden fence, bare tra
 sc(174, [], "an old city gate standing open after a disaster, dust drifting, a broken cart, a torn banner on the wall, silence, no people")
 sc(175, ["huatuo", "khongdung7"], "two men stand apart in a dim hall with sad faces, the healer Hua Tuo with a medicine bag on the left and the scholar Kong Rong on the right, an oil dish, pillars, long shadows")
 sc(177, [], "a dirt road splitting into two paths in dry hills, a blank rough stone marker with no writing between them, grey sky, no people")
-sc(178, [], "a lonely fork in a plain dirt road at dusk, two paths leading in different directions, dry grass, a pale sky, no people")
+sc(178, [], "a wide dirt road that divides into a left path and a right path among dry hills at dusk, dry grass, a pale sky")
 sc(181, ["tt53", "dan"], "Cao Cao stands on a hill overlooking a large farming colony and a military camp in the plain below, scholars and officials around him bowing, farmers far away in the fields, hands in his sleeves, golden light")
 sc(182, ["tt53"], ONE + "Cao Cao stands from behind before a small fire in a camp, rolled bamboo letters turning to ash, the dark camp silent around him, hands in his sleeves")
 sc(183, ["tt53", "dan"], "Cao Cao stands before a line of hungry thin peasants on a ruined road, his head slightly bowed, his hands in his sleeves, a burnt village far behind, grey light, a feeling of responsibility")
@@ -238,7 +238,7 @@ il(140, "a palace room at night: against the wall a black shadow of a woman hudd
 il(142, "a wide stone-paved palace courtyard at cold grey dawn, completely empty, a trail of bare footprints and a single dropped hairpin leading across the stones towards the far gate, tall palace walls, no person visible")
 il(144, "a heavy closed palace door with a long shadow of the door bars falling across a stone corridor, one oil dish on the floor, completely dim and silent, no person visible")
 il(160, "a very large black shadow of a standing man cast across the ground and over a small grey-tiled house, a quiet village at pale dawn, no person visible")
-il(171, "a wide field of freshly turned earth mounds at dawn with spades and baskets left standing, thin mist and a few torches burnt down, nobody in the foreground, only a distant line of tiny black silhouettes on the horizon, grey sky")
+il(171, "a wide field of freshly turned earth mounds at dawn with spades and baskets left standing, thin mist and a few torches burnt down, grey sky")
 
 # ---- tạo file
 need = sorted(n for n, v in PLAN.items() if v[0] in "AB")
@@ -257,9 +257,9 @@ def pal(n):
     return "neutral soft grey palette, pale dawn light"
 # ---- Prompt ngắn, chỉ nói điều CẦN CÓ (quy tắc 18); có chốt chặn: vi phạm thì dừng ----
 import re as _re
-STYLE_E = ("2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, grey-tiled mud-brick architecture with wooden lattice windows")
+STYLE_E = ("2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, grey-tiled mud-brick architecture with wooden lattice windows, full-bleed picture")
 STYLE = ("2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, "
-         "realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows")
+         "realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows, full-bleed picture")
 CUT = [r",?\s*(?:and\s+)?(?:with\s+)?no (?:faces?|person|people|one|violence|blood|bulb|weapon|insignia|face)(?: visible| present)?",
        r",?\s*nobody(?: in the foreground)?(?: present)?", r",?\s*not a single person", r",?\s*(?:completely\s+)?(?:deserted|empty hands)",
        r",?\s*never [a-z ]+", r",?\s*no beard"]

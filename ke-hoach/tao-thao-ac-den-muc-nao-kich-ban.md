@@ -13,7 +13,7 @@ Nhãn độ chắc:
 
 ## TRẠNG THÁI KIỂM CHỨNG (02/11/2026)
 Đã đọc nguyên văn hai mục trên Wikisource: Hậu Hán thư, Khổng Dung truyện (quyển 70) và Hiến Đế kỷ (quyển 9: Mã Đằng, Phục hoàng hậu, hoàng hậu họ Tào). Các mục còn lại mới đối chiếu qua ba bài Wikipedia tiếng Anh (Cao Cao, Tao Qian, Hua Tuo); các trang Tam quốc chí trên Wikisource báo lỗi, chưa mở được nguyên văn.
-- Đã khớp: Tào Tung bị Trương Khải, thuộc hạ của Đào Khiêm, giết rồi cướp của. Có chỗ cho rằng Đào Khiêm không ra lệnh nhưng Tào Tháo vẫn quy tội. Lần đánh đầu hạ hơn mười thành, đánh lớn ở Bành Thành, rút vì thiếu lương. Tam quốc chí quyển tám (Đào Khiêm truyện) chép người chết hàng vạn và sông Tứ không chảy; bài viết nhận xét đây là cách nói văn chương. Lần hai rút vì Trương Mạc và Trần Cung đón Lã Bố chiếm Duyện Châu.
+- Đã khớp: Tào Tung bị Trương Khải, thuộc hạ của Đào Khiêm, giết rồi cướp của. Có chỗ cho rằng Đào Khiêm không ra lệnh nhưng Tào Tháo vẫn quy tội. Lần đánh đầu hạ hơn mười thành, đánh lớn ở Bành Thành, rút vì thiếu lương. Tam quốc chí quyển tám (Đào Khiêm truyện) chép người chết hàng vạn và sông Tứ không chảy; bài viết nhận xét đây là cách nói văn chương. Lần hai rút vì Trương Mạc và Trần Cung đón Lữ Bố chiếm Duyện Châu.
 - Đã khớp: Hoa Đà bị giam vì xin nghỉ rồi không về; Tuân Úc xin tha, Tào Tháo từ chối; Tào Xung bệnh mất, Tào Tháo nói hối hận vì giết Hoa Đà. Chi tiết mổ đầu gây mê chỉ có trong tiểu thuyết.
 - Đã khớp: Khổng Dung bị xử tử cùng gia đình khoảng năm 208; Tào Phi vẫn xếp Khổng Dung vào hàng nhà văn hàng đầu. Chế độ khai hoang ruộng bỏ hoang theo đề nghị của Tảo Chi và Hàn Hạo. Sau Quan Độ, Tào Tháo đốt thư của người phe mình gửi cho Viên Thiệu mà không điều tra. Tào Man truyện do người Đông Ngô soạn, được đánh giá là thù địch, có chỗ vu khống.
 - CHƯA đối chiếu được (trí nhớ, để [KIỂM] hoặc [CG]): chi tiết ba bản về Lã Bá Xa và câu "thà ta phụ người"; chuyện cây gậy nhiều màu và Kiển Thạc; lời Hứa Thiệu; Biên Nhượng bị giết; Mã Đằng bị giết năm 212; Phục hoàng hậu năm 214 và số người bị xử tội; Tào Tiết làm hoàng hậu; lời trong bài tự thuật năm 210; lời bình của Trần Thọ; lời Hao Lý hành; số hàng binh Khăn Vàng.
@@ -163,10 +163,10 @@ Nhãn độ chắc:
 62. [SỬ* · C] Năm một trăm chín mươi bốn, ông lại đưa quân trở lại, tiến qua Lang Nha và Đông Hải, tiếp tục gây chiến và tàn phá các vùng này.
 63. [BÌNH · C] Cuộc báo thù bắt đầu từ cái chết của Tào Tung, nhưng những người phải trả giá không chỉ là những kẻ bị xem là có liên quan.
 64. [BÌNH · C] Cả những người dân vô tội, thậm chí cả những người chạy loạn tìm nơi trú ẩn, cũng không thoát khỏi vó ngựa quân Tào.
-65. [SỬ* · C] Lần đánh thứ hai, ông nghe tin hậu phương bị cướp. Trương Mạc và Trần Cung, người từng đi theo ông, đã đón Lã Bố chiếm Duyện Châu.
+65. [SỬ* · C] Lần đánh thứ hai, ông nghe tin hậu phương bị cướp. Trương Mạc và Trần Cung, người từng đi theo ông, đã đón Lữ Bố chiếm Duyện Châu.
 66. [CG · C] Chú giải cho rằng Trương Mạc lo sợ vì Tào Tháo đã giết Biên Nhượng, một danh sĩ từng chê ông, cùng vợ con người này.
 67. [CG · C] Đó là cách giải thích của người xưa. Chuyện Biên Nhượng chỉ có trong sách thù địch hoặc sách chép muộn, nên không chắc chắn.
-68. [SỬ* · C] Ông phải mất hơn một năm đánh nhau với Lã Bố mới giữ được Duyện Châu.
+68. [SỬ* · C] Ông phải mất hơn một năm đánh nhau với Lữ Bố mới giữ được Duyện Châu.
 
 ## CHƯƠNG 6 – NGƯỜI NẮM QUYỀN
 

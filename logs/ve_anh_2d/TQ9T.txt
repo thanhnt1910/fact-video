@@ -1,0 +1,38 @@
+Vẽ 18 ảnh (đợt 0)
+     🖥️  Gửi 18 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .queued
+     🖥️   5.6 phút: .running
+     🖥️  16.8 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (17 phút)
+     🖥️  Nhận về 18/18 tranh từ Kaggle
+Nhận về 18/18 ảnh
+== Kiểm ảnh (vòng 0): 18 ảnh ==
+   1003: Gemini không kiểm được (1/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   1004: Gemini không kiểm được (2/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   1011: điểm 4 · cờ/vật có chữ hoặc biểu tượng
+   1150: Gemini không kiểm được (1/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   1177: Gemini không kiểm được (2/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   1178: Gemini không kiểm được (3/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   2003: điểm 3 · ổn
+   2004: điểm 3 · ảnh có viền khung
+   2011: Gemini không kiểm được (1/4): Remote end closed connection without response
+   2150: điểm 3 · sai thời: ghế tựa cao chân kiểu triều đại muộn
+Vòng 0: 3 ảnh lỗi / 18: 1011,2004,2150
+TỔNG HỢP KIỂM ẢNH · TQ9T · 18 ảnh · 3916 giây · 0 vòng vẽ lại
+Còn lỗi (3): 1011,2004,2150
+Chưa kiểm bằng AI (14): 1003,1004,1150,1177,1178,2011,2177,2178,3003,3004,3011,3150,3177,3178

@@ -1,0 +1,162 @@
+{
+ "1003": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "1004": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "1011": {
+  "loi": [
+   "cờ/vật có chữ hoặc biểu tượng"
+  ],
+  "canh_bao": [],
+  "diem": 4,
+  "ghi_chu": "Bối cảnh khuôn viên nhà cổ phù hợp nội dung, bố cục gọn gàng.",
+  "da_kiem_ai": true
+ },
+ "1150": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "1177": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "1178": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "2003": {
+  "loi": [],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Bối cảnh dòng sông yên bình, chưa thể hiện được sự kiện xác chết nghẽn dòng như lời dẫn.",
+  "da_kiem_ai": true
+ },
+ "2004": {
+  "loi": [
+   "ảnh có viền khung"
+  ],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Ảnh có viền đen quanh mép và khung cảnh hơi tĩnh lặng so với nội dung chiến trận.",
+  "da_kiem_ai": true
+ },
+ "2011": {
+  "loi": [],
+  "canh_bao": [
+   "Gemini không kiểm được: Remote end closed connection without response"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "2150": {
+  "loi": [
+   "sai thời: ghế tựa cao chân kiểu triều đại muộn"
+  ],
+  "canh_bao": [],
+  "diem": 3,
+  "ghi_chu": "Hình ảnh ngai vàng trống phù hợp lời dẫn, chi tiết ghế hơi muộn so với thời Hán.",
+  "da_kiem_ai": true
+ },
+ "2177": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "2178": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "3003": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "3004": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "3011": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "3150": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "3177": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ },
+ "3178": {
+  "loi": [],
+  "canh_bao": [
+   "chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)"
+  ],
+  "diem": null,
+  "ghi_chu": "",
+  "da_kiem_ai": false
+ }
+}

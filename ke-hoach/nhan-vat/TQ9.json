@@ -5,7 +5,6 @@
   "caopi": "Cao Pi, a cold composed man of about thirty-three with a smooth face and a thin moustache, dark ceremonial robe and a black formal cap",
   "caotiet": "Cao Jie, a young woman of about twenty in a deep-red robe, hair in a high bun, a calm noble face",
   "caoxung": "Cao Chong, a sickly pale boy of about twelve lying in bed under a quilt, a thin gentle face",
-  "chentho": "Chen Shou, a quiet scholar of about fifty in a plain grey robe, a thin moustache, hair in a topknot under a plain cap",
   "chukt": "an arrogant older man of about fifty in a rich dark-green robe with a gold-coloured sash, a puffed-up proud face and a thin grey beard",
   "dan": "a poor peasant man, thin, sunburnt, ragged hemp tunic, hair in a topknot",
   "dongtrac": "Dong Zhuo, a huge heavy fat man of about 55 with a thick neck, a heavy cruel face with a short thick beard, narrow suspicious eyes, dark fur-trimmed robe over an iron breastplate",
@@ -22,7 +21,6 @@
   "kienthac": "Jian Shuo, a powerful court eunuch of about forty-five with a smooth beardless face, a proud cold look, black official cap and a long dark-purple robe",
   "linh": "a Han soldier in a plain iron helmet and leather-and-iron scale armour over a dull red-brown tunic",
   "lubo_t5": "Lu Bu, a tall powerfully built man with a strong jaw and sharp eyes, hair in a topknot under a plain iron helmet, wearing cleaned iron scale armour over a dark-red cross-collared robe with a dark-red cloak, the confident bearing of a man who has taken a province",
-  "luson": "a young country host of about twenty-five in a plain brown tunic, friendly but uneasy",
   "masieu": "Ma Chao, a handsome strong young man of about thirty with a proud face, hair under a plain iron helmet, light iron armour over a dark tunic",
   "mateng": "Ma Teng, a stern old general of about sixty with a grey beard, dark official robe and a black cap",
   "quan": "a court official in a black cap and a dark grey robe",
@@ -201,16 +199,13 @@
   },
   {
    "key": "033",
-   "nv": [
-    "tt34b",
-    "luson"
-   ],
-   "mo_ta": "inside a country house a host and his family prepare a meal on a low table with bowls and clay jars, the guest Cao Cao sits on a straw mat in a plain traveller's robe, an oil dish, wooden lattice window"
+   "nv": [],
+   "mo_ta": "a dim farmhouse room at night, a low table with bowls and clay jars set for a meal, a guest's travelling cloak folded on a straw mat, a long black shadow of a standing man falling across the floor from the doorway"
   },
   {
    "key": "034",
    "nv": [],
-   "mo_ta": "the dark yard of a country house at night, a low table and clay jars, a small oil dish glowing, wooden doors half open, nobody present"
+   "mo_ta": "a dark courtyard of a country house at night, a tall black silhouette shadow of a man raising a sword cast on the mud-brick wall, light spilling from a half-open door, an overturned low table and scattered clay bowls on the ground, no person visible, no blood"
   },
   {
    "key": "035",
@@ -299,31 +294,23 @@
   },
   {
    "key": "049",
-   "nv": [
-    "tt38"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands before a low table with a large cloth map and small wooden markers, a stern angry face, hands hidden in his sleeves, dark banners and lamp light in a command tent"
+   "nv": [],
+   "mo_ta": "a large cloth map spread on a low table in a dark command tent, one huge black shadow of a man looming over the whole map from behind, a single oil dish, small wooden markers, no person visible"
   },
   {
    "key": "050",
-   "nv": [
-    "linh"
-   ],
-   "mo_ta": "Cao Cao's army in plain dark banners marches in long ranks through the gate of a walled city of Xu Province, spears upright, seen from outside the wall, bright afternoon light"
+   "nv": [],
+   "mo_ta": "a line of black silhouettes of soldiers with spears and plain banners marching along the top of a city wall against a burning orange sunset, long shadows on the ground, smoke"
   },
   {
    "key": "052",
-   "nv": [
-    "linh"
-   ],
-   "mo_ta": "an army advances through a green countryside past villages of mud-brick houses with thin smoke rising far ahead, plain dark banners, a dusty road, a heavy mood"
+   "nv": [],
+   "mo_ta": "a long army column seen only as black silhouettes with spears and plain banners crossing a plain towards thin lines of smoke on the horizon, villages far ahead, grey-brown sky"
   },
   {
    "key": "053",
-   "nv": [
-    "dan"
-   ],
-   "mo_ta": "villagers stand silently by a roadside in thick drifting smoke, women, old men and children, ragged clothes, tired faces, nothing violent shown, a burning house far away"
+   "nv": [],
+   "mo_ta": "a village road at dusk with a row of abandoned bundles, small shoes and a child's wooden toy on the ground, house doors open and empty, thick drifting smoke, no person visible"
   },
   {
    "key": "055",
@@ -352,7 +339,7 @@
   {
    "key": "059",
    "nv": [],
-   "mo_ta": "the Si River flowing slowly between low banks under heavy smoke drifting from the horizon, floating wreckage and an overturned boat, a quiet horror implied by emptiness"
+   "mo_ta": "the Si River at dusk crowded with floating wreckage, broken boats and bamboo poles that almost block the water, black smoke on the banks, no person visible"
   },
   {
    "key": "060",
@@ -368,10 +355,8 @@
   },
   {
    "key": "063",
-   "nv": [
-    "tt38"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands alone on a hill looking toward distant columns of smoke on the horizon, his hands in his sleeves, a stern unreadable face, wind in his cloak, evening sky"
+   "nv": [],
+   "mo_ta": "a black silhouette of a short man on a hill against a sky full of rising columns of dark smoke from burning villages in the plain below, wind in his cloak, seen from behind"
   },
   {
    "key": "064",
@@ -528,7 +513,7 @@
   {
    "key": "089",
    "nv": [],
-   "mo_ta": "the quiet plain of Guandu after the battle, torn plain banners stuck in the ground, trampled earth, low mist, no people"
+   "mo_ta": "a huge dark pit dug in the earth at night at a battlefield, edged by burning torches on poles and spades stuck in the soil, a few far-off black silhouettes of soldiers standing back, nothing visible inside the pit, grey smoke"
   },
   {
    "key": "092",
@@ -604,12 +589,12 @@
   {
    "key": "104",
    "nv": [],
-   "mo_ta": "a scholar's family house with a closed carved gate and a sealed wooden door, an empty courtyard, a dry tree, cold grey light"
+   "mo_ta": "the gate of a scholar's house at dawn, the shadows of armed soldiers with spears stretched across the yard, on the doorstep two pairs of small child shoes side by side, no person visible"
   },
   {
    "key": "106",
    "nv": [],
-   "mo_ta": "Cao Cao's mansion at night: a tiled roof under a pale moon, an oil dish glowing in a lattice window, silent courtyard, no people"
+   "mo_ta": "a large mansion at night under a pale moon, a window glowing with one oil light, on the lit paper-less lattice window the black silhouette of a man sitting alone, silent courtyard, no other person"
   },
   {
    "key": "107",
@@ -667,25 +652,18 @@
   },
   {
    "key": "115",
-   "nv": [
-    "tt53"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao sits alone on his seat and slowly shakes his head, a cold closed expression, hands in his sleeves, dark hall, one oil dish"
+   "nv": [],
+   "mo_ta": "on a stone wall the huge black shadow of a seated man lifting one hand in refusal, below it a small kneeling figure in silhouette with hands joined in plea, a single oil dish glowing, dark hall"
   },
   {
    "key": "116",
-   "nv": [
-    "huatuo"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Hua Tuo sits on a straw mat in a prison cell with wooden bars, a bundle of bamboo-slip scrolls beside him, a tired calm face, a thin ray of light from a high slit"
+   "nv": [],
+   "mo_ta": "a prison cell seen through thick wooden bars, a thin ray of light from a high slit falling on the straw floor, the dark silhouette of a seated man behind the bars with a small bundle of bamboo scrolls beside him"
   },
   {
    "key": "117",
-   "nv": [
-    "huatuo",
-    "linh"
-   ],
-   "mo_ta": "Hua Tuo kneels beside a small clay brazier where a bundle of bamboo slips burns, hands in his sleeves, a jailer stands far back by the open cell door with his back turned, faint orange light"
+   "nv": [],
+   "mo_ta": "a small clay brazier on the cell floor where a bundle of bamboo-slip scrolls burns with a bright flame, the shadow of a kneeling man bent over it and the shadow of a jailer turned away at the door, no faces visible"
   },
   {
    "key": "118",
@@ -768,10 +746,8 @@
   },
   {
    "key": "135",
-   "nv": [
-    "fuhou"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu sits at a low desk writing a letter on bamboo slips with a brush resting in her hand, an oil dish, a silk screen behind her, a worried noble face"
+   "nv": [],
+   "mo_ta": "on a low desk in a palace room at night a few bamboo slips with a brush laid across them and a cord ready to tie them, an oil dish, the shadow of a woman writing cast on a silk screen, no face visible"
   },
   {
    "key": "136",
@@ -783,10 +759,8 @@
   },
   {
    "key": "137",
-   "nv": [
-    "fuhuan"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Fu Wan kneels beside a closed lacquered chest, hands in his sleeves, a frightened face, afraid to open it, an oil dish, night"
+   "nv": [],
+   "mo_ta": "a dark room with a sealed lacquered chest on the floor, a cord around it, a trembling black shadow of a kneeling man on the wall behind it, one oil dish, no face visible"
   },
   {
    "key": "138",
@@ -798,18 +772,13 @@
   },
   {
    "key": "139",
-   "nv": [
-    "linh",
-    "quan"
-   ],
-   "mo_ta": "soldiers in iron helmets with spears enter a palace hall, their leader an officer in front, palace maids and attendants step aside, no violence, pillars and red cloth, morning light"
+   "nv": [],
+   "mo_ta": "a torch-lit palace corridor with long black silhouettes of armed soldiers with spears marching in, their huge shadows on the walls and floor, palace curtains swaying, no faces visible, no violence"
   },
   {
    "key": "140",
-   "nv": [
-    "fuhou"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu crouches in a narrow gap between a wall and a wooden partition, a frightened face half hidden, a torn silk sleeve, dim light, no violence"
+   "nv": [],
+   "mo_ta": "a palace room at night: against the wall a black shadow of a woman huddled low behind a wooden partition, and from the doorway the long shadows of spears and helmets of soldiers approaching, one torch, no faces visible, no violence"
   },
   {
    "key": "141",
@@ -821,10 +790,8 @@
   },
   {
    "key": "142",
-   "nv": [
-    "fuhou"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu with loose messy hair and bare feet walks across a stone courtyard, a few guards far behind her, tall palace walls, grey dawn"
+   "nv": [],
+   "mo_ta": "a wide stone-paved palace courtyard at cold grey dawn, a trail of bare footprints and a single dropped hairpin leading across the stones towards the far gate, tall palace walls, no person visible"
   },
   {
    "key": "143",
@@ -836,7 +803,7 @@
   {
    "key": "144",
    "nv": [],
-   "mo_ta": "a palace with heavy closed doors, a long stone corridor, an oil dish on the floor, long shadows, nobody present"
+   "mo_ta": "a heavy closed palace door with a long shadow of the door bars falling across a stone corridor, one oil dish on the floor, completely dim and silent, no person visible"
   },
   {
    "key": "146",
@@ -899,10 +866,8 @@
   },
   {
    "key": "160",
-   "nv": [
-    "chentho"
-   ],
-   "mo_ta": "exactly ONE man only, no second figure, no crowd. the historian Chen Shou sits at a low desk writing on bamboo slips with a brush resting in his hand, shelves of scrolls, an oil dish, a quiet focused face, night"
+   "nv": [],
+   "mo_ta": "a very large black shadow of a standing man cast across the ground and over a small grey-tiled house, a quiet village at pale dawn, no person visible"
   },
   {
    "key": "161",
@@ -935,11 +900,8 @@
   },
   {
    "key": "171",
-   "nv": [
-    "linh",
-    "dan"
-   ],
-   "mo_ta": "lines of captured soldiers with their heads bowed walk quietly through the gate of a camp between rows of guards, a wide field, a grey sky, no violence"
+   "nv": [],
+   "mo_ta": "a wide field of freshly turned earth mounds at dawn with spades and baskets left standing, thin mist and a few torches burnt down, a far line of black silhouettes of soldiers on the horizon, grey sky"
   },
   {
    "key": "173",

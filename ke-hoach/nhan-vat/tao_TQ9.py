@@ -212,23 +212,61 @@ sc(185, ["tt60"], ONE + "Cao Cao stands on a city wall at dawn looking straight 
 sc(186, ["tt60", "quan"], "Cao Cao stands in the centre of a great hall while officials bow deeply on both sides, a wide aisle, he stands small and alone amid the bowing crowd, pillars and red cloth")
 sc(187, ["tt65"], ONE + "an elderly Cao Cao seen from the chest up, in front of the grey gate-tower of a palace at dusk, a tired stern face, looking toward the viewer, hands out of frame")
 
+
+# ---- Cảnh minh họa gián tiếp (bóng, dấu vết), thay cảnh người đứng (chủ kênh duyệt 02/11/2026)
+ILL = {}
+def il(n, d): S[n] = ([], d); ILL[n] = True
+il(33, "a dim farmhouse room at night, a low table with bowls and clay jars set for a meal, a guest's travelling cloak folded on a straw mat, a long black shadow of a standing man falling across the floor from the doorway")
+il(34, "a dark courtyard of a country house at night, a tall black silhouette shadow of a man raising a sword cast on the mud-brick wall, light spilling from a half-open door, an overturned low table and scattered clay bowls on the ground, no person visible, no blood")
+il(49, "a large cloth map spread on a low table in a dark command tent, one huge black shadow of a man looming over the whole map from behind, a single oil dish, small wooden markers, no person visible")
+il(50, "a line of black silhouettes of soldiers with spears and plain banners marching along the top of a city wall against a burning orange sunset, long shadows on the ground, smoke")
+il(52, "a long army column seen only as black silhouettes with spears and plain banners crossing a plain towards thin lines of smoke on the horizon, villages far ahead, grey-brown sky")
+il(53, "a village road at dusk with a row of abandoned bundles, small shoes and a child's wooden toy on the ground, house doors open and empty, thick drifting smoke, no person visible")
+il(59, "the Si River at dusk crowded with floating wreckage, broken boats and bamboo poles that almost block the water, black smoke on the banks, no person visible")
+il(63, "a black silhouette of a short man on a hill against a sky full of rising columns of dark smoke from burning villages in the plain below, wind in his cloak, seen from behind")
+il(89, "a huge dark pit dug in the earth at night at a battlefield, edged by burning torches on poles and spades stuck in the soil, a few far-off black silhouettes of soldiers standing back, nothing visible inside the pit, grey smoke")
+il(104, "the gate of a scholar's house at dawn, the shadows of armed soldiers with spears stretched across the yard, on the doorstep two pairs of small child shoes side by side, no person visible")
+il(106, "a large mansion at night under a pale moon, a window glowing with one oil light, on the lit paper-less lattice window the black silhouette of a man sitting alone, silent courtyard, no other person")
+il(115, "on a stone wall the huge black shadow of a seated man lifting one hand in refusal, below it a small kneeling figure in silhouette with hands joined in plea, a single oil dish glowing, dark hall")
+il(116, "a prison cell seen through thick wooden bars, a thin ray of light from a high slit falling on the straw floor, the dark silhouette of a seated man behind the bars with a small bundle of bamboo scrolls beside him")
+il(117, "a small clay brazier on the cell floor where a bundle of bamboo-slip scrolls burns with a bright flame, the shadow of a kneeling man bent over it and the shadow of a jailer turned away at the door, no faces visible")
+il(135, "on a low desk in a palace room at night a few bamboo slips with a brush laid across them and a cord ready to tie them, an oil dish, the shadow of a woman writing cast on a silk screen, no face visible")
+il(137, "a dark room with a sealed lacquered chest on the floor, a cord around it, a trembling black shadow of a kneeling man on the wall behind it, one oil dish, no face visible")
+il(139, "a torch-lit palace corridor with long black silhouettes of armed soldiers with spears marching in, their huge shadows on the walls and floor, palace curtains swaying, no faces visible, no violence")
+il(140, "a palace room at night: against the wall a black shadow of a woman huddled low behind a wooden partition, and from the doorway the long shadows of spears and helmets of soldiers approaching, one torch, no faces visible, no violence")
+il(142, "a wide stone-paved palace courtyard at cold grey dawn, a trail of bare footprints and a single dropped hairpin leading across the stones towards the far gate, tall palace walls, no person visible")
+il(144, "a heavy closed palace door with a long shadow of the door bars falling across a stone corridor, one oil dish on the floor, completely dim and silent, no person visible")
+il(160, "a very large black shadow of a standing man cast across the ground and over a small grey-tiled house, a quiet village at pale dawn, no person visible")
+il(171, "a wide field of freshly turned earth mounds at dawn with spades and baskets left standing, thin mist and a few torches burnt down, a far line of black silhouettes of soldiers on the horizon, grey sky")
+
 # ---- tạo file
 need = sorted(n for n, v in PLAN.items() if v[0] in "AB")
 miss = [n for n in need if n not in S]; extra = [n for n in S if n not in need]
 assert not miss and not extra, (miss, extra)
 for n in need:
     nv, m = S[n]
-    assert (PLAN[n][0] == "B") == (len(nv) == 0), n
+    assert n in ILL or (PLAN[n][0] == "B") == (len(nv) == 0), n
+def pal(n):
+    if n<=30: return "warm ochre and soft golden daylight tones"
+    if n<=37: return "deep blue-black night palette with one small warm orange light"
+    if n<=45: return "dusty brown-grey palette"
+    if n<=68: return "desaturated ash-grey and dark brown-red palette, heavy dark smoke, overcast murky sky, low saturation"
+    if n<=97: return "warm gold and fresh green palette, bright hopeful daylight"
+    if n<=158: return "cold blue-grey palette, dim light with a single light source, deep shadows, low saturation"
+    return "neutral soft grey palette, pale dawn light"
 canh, out = [], []
 for n in need:
     nv, m = S[n]; k = f"{n:03d}"
     canh.append({"key": k, "nv": nv, "mo_ta": m})
-    if nv:
+    if n in ILL:
+        prompt = f"{m}. {pal(n)}. {PHONGCACH}. {SUF}."
+        it = {"key": k, "cau": n, "nv": [], "text": BEATS[n], "prompt": prompt}
+    elif nv:
         ch = "; ".join(NV[x] for x in nv)
-        prompt = f"{m}. Characters (keep exactly this look): {ch}. {PHONGCACH}. {SUF}."
+        prompt = f"{m}. Characters (keep exactly this look): {ch}. {pal(n)}. {PHONGCACH}. {SUF}."
         it = {"key": k, "cau": n, "nv": nv, "text": BEATS[n], "prompt": prompt}
     else:
-        prompt = f"Empty scenery illustration with ZERO people, no human figure anywhere in the frame: {m}. Only buildings, objects and landscape. {PHONGCACH}. {SUF}."
+        prompt = f"Empty scenery illustration with ZERO people, no human figure anywhere in the frame: {m}. Only buildings, objects and landscape. {pal(n)}. {PHONGCACH}. {SUF}."
         it = {"key": k, "cau": n, "nv": [], "so_nguoi": 0, "text": BEATS[n], "prompt": prompt}
     out.append(it)
 used = sorted({x for n in need for x in S[n][0]})

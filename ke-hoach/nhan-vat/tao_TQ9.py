@@ -53,7 +53,7 @@ NV.update({
 })
 PHONGCACH = tq["phong_cach"].replace("year 184 AD", "year 190 AD")
 SUF = ("Eastern Han China, 2nd century AD: dirt roads, grey-tiled mud-brick and timber buildings, wooden lattice windows without glass, shallow open bronze or clay oil dishes (no lamps, no candles), straw mats and low benches, bamboo-slip scrolls tied with cord; "
-       "plain solid-colour banners with no symbols; no text, no letters, no watermark; every person has exactly two arms and two hands with natural adult proportions and a different face; no gore, no blood; "
+       "every banner, cloth hanging and sign is a plain blank piece of cloth with no marks, no writing on any wall, scroll or sign; no lamps or lanterns on walls or posts, no chimneys, no electric poles or wires, no switches, no clocks, no beds with mattress or pillow; no text, no letters, no watermark; every person has exactly two arms and two hands with natural adult proportions and a different face; no gore, no blood; "
        "single full-frame picture, no panels, no border; rich detailed background that fits the place")
 ONE = "exactly ONE man only, no second figure, no crowd. "
 S = {}
@@ -159,8 +159,8 @@ sc(114, ["tuanuc_t5", "tt53"], "Xun Yu kneels and pleads before Cao Cao in a hal
 sc(115, ["tt53"], ONE + "Cao Cao sits alone on his seat and slowly shakes his head, a cold closed expression, hands in his sleeves, dark hall, one oil dish")
 sc(116, ["huatuo"], ONE + "Hua Tuo sits on a straw mat in a prison cell with wooden bars, a bundle of bamboo-slip scrolls beside him, a tired calm face, a thin ray of light from a high slit")
 sc(117, ["huatuo", "linh"], "Hua Tuo kneels beside a small clay brazier where a bundle of bamboo slips burns, hands in his sleeves, a jailer stands far back by the open cell door with his back turned, faint orange light")
-sc(118, ["tt53", "caoxung"], "Cao Cao sits at the edge of a bed holding his own forehead, in the same room a sick boy lies under a quilt, an oil dish and a clay bowl of medicine, dim light")
-sc(119, ["tt53"], ONE + "Cao Cao stands before a closed wooden door of a sickroom, head bowed in regret, hands in his sleeves, a lone oil dish on the floor, night")
+sc(118, ["tt53", "caoxung"], "Cao Cao sits on a low wooden platform covered with straw mat holding his own forehead, beside him a sick boy lies on the same straw mat under a plain quilt with his head on a wooden headrest, an oil dish and a clay bowl of medicine, dim light")
+sc(119, ["tt53"], ONE + "Cao Cao stands before the doorway of a sickroom closed by a hanging reed curtain, head bowed in regret, hands in his sleeves, a lone oil dish on the floor, night")
 sc(120, [], "an old study: a low desk with a few rolled bamboo-slip scrolls and a clay inkstone, shelves of scrolls, a small oil dish, a lattice window, nobody present")
 sc(121, [], "a few bamboo-slip scrolls tied with cord lying on a wooden table, a small oil dish, soft shadows, warm light, no people")
 sc(122, [], "a records room: shelves of rolled bamboo scrolls in rows, a low desk, an oil dish, dust in a ray of light, no people")
@@ -188,7 +188,7 @@ sc(149, ["hiende_t5", "tt60", "quan"], "the emperor sits on a throne on a dais s
 sc(150, [], "an empty throne on a high dais in a palace hall, red cloth and tall pillars, a ray of light on the seat, no one present")
 sc(153, [], "the city of Ye at dusk, a tall wall with a gate-tower and plain dark banners, a dusty road, red evening sky, no people")
 sc(154, ["tt60"], ONE + "Cao Cao stands beside a table with a large cloth map and an oil dish at night, deep in thought, hands in his sleeves, the room otherwise empty")
-sc(155, [], "the courtyard of a king's mansion at night with tall lanterns replaced by torches on iron stands, empty armour racks, a closed gate, long shadows, no people")
+sc(155, [], "the courtyard of a king's mansion at night lit by tall open bronze fire bowls with burning wood on tripod stands, empty armour racks, a closed gate, long shadows, no people")
 sc(157, ["linh", "dan"], "a funeral procession slowly carries a plain wooden coffin on a cart through a gate, soldiers and mourners in white hemp robes walk behind, plain white banners with no writing, grey sky, a sombre mood")
 sc(158, ["hiende_t5", "caopi"], "the emperor stands on a dais and hands over a small lacquered box set on a cushion to Cao Pi who bows, officials kneel in rows, a hall with red cloth, the moment of an abdication")
 # ---- Chương 9
@@ -197,7 +197,7 @@ sc(161, [], "a historian's study with a low desk, an inkstone, rolled bamboo-sli
 sc(162, [], "a library of the southern kingdom: tall wooden racks of bamboo scrolls under a tiled roof, soft light, no people")
 sc(163, [], "a wooden rack full of tied bamboo-slip scrolls with a small oil dish at its side, warm glow, no people")
 sc(167, ["dan"], "villagers run through a field with bundles in their arms toward a river, thick smoke rising on the horizon behind them, women and children, panic implied only by movement and smoke, no violence")
-sc(169, ["fuhou"], ONE + "Empress Fu sits alone in a dim palace room looking toward the door, a sad quiet face, an oil dish, silk screens")
+sc(169, ["fuhou"], ONE + "exactly ONE woman only: Empress Fu sits alone on a straw mat in a dim palace room looking toward the door, a sad quiet face, an oil dish, silk screens")
 sc(171, ["linh", "dan"], "lines of captured soldiers with their heads bowed walk quietly through the gate of a camp between rows of guards, a wide field, a grey sky, no violence")
 sc(173, [], "an empty prisoners' camp enclosed by a rough wooden fence, bare trampled ground, a closed gate, a grey sky, no people")
 sc(174, [], "an old city gate standing open after a disaster, dust drifting, a broken cart, a torn banner on the wall, silence, no people")
@@ -228,7 +228,7 @@ for n in need:
         prompt = f"{m}. Characters (keep exactly this look): {ch}. {PHONGCACH}. {SUF}."
         it = {"key": k, "cau": n, "nv": nv, "text": BEATS[n], "prompt": prompt}
     else:
-        prompt = f"{m}. Completely empty, absolutely no people, an empty quiet scene of objects and landscape only. {PHONGCACH}. {SUF}."
+        prompt = f"Empty scenery illustration with ZERO people, no human figure anywhere in the frame: {m}. Only buildings, objects and landscape. {PHONGCACH}. {SUF}."
         it = {"key": k, "cau": n, "nv": [], "so_nguoi": 0, "text": BEATS[n], "prompt": prompt}
     out.append(it)
 used = sorted({x for n in need for x in S[n][0]})

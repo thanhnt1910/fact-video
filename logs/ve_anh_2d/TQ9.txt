@@ -1,46 +1,7 @@
-Vẽ 144 ảnh (đợt 0)
-     🖥️  Gửi 144 tranh sang Kaggle (GPU miễn phí)
+Cần vẽ 56 ảnh (đợt 2)
+     🖥️  Gửi 56 tranh sang Kaggle (GPU miễn phí)
      🖥️   0.5 phút: .running
-     🖥️  65.8 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (66 phút)
-     🖥️  Nhận về 144/144 tranh từ Kaggle
-Nhận về 144/144 ảnh
-== Kiểm ảnh (vòng 0): 144 ảnh ==
-   001: điểm 4 · có người trong cảnh phải vắng người (1 người)
-   003: Gemini không kiểm được (1/4): Remote end closed connection without response
-   004: Gemini không kiểm được (2/4): Remote end closed connection without response
-   005: Gemini không kiểm được (3/4): Remote end closed connection without response
-   006: điểm 3 · sai thời: ghế ngồi thõng chân kiểu sau này; chảo có cán cầm hiện đại trên bàn; cờ/vật có chữ hoặc biểu tượng
-   011: Gemini không kiểm được (1/4): Remote end closed connection without response
-   012: Gemini không kiểm được (2/4): Remote end closed connection without response
-Vòng 0: 2 ảnh lỗi / 144: 001,006
-TỔNG HỢP KIỂM ẢNH · TQ9 · 144 ảnh · 6743 giây · 0 vòng vẽ lại
-Còn lỗi (2): 001,006
-Chưa kiểm bằng AI (142): 003,004,005,011,012,013,014,015,016,017,018,019,020,021,025,026,027,028,029,030,033,034,035,037,039,040,041,042,043,044,045,046,047,048,049,050,052,053,055,056,057,058,059,060,061,063,064,065,066,067,068,069,070,071,072,073,074,075,076,077,078,080,082,083,084,085,086,087,088,089,092,093,096,097,098,099,100,101,102,103,104,106,107,108,109,110,111,113,114,115,116,117,118,119,120,121,122,125,126,128,129,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,149,150,153,154,155,157,158,160,161,162,163,167,169,171,173,174,175,177,178,181,182,183,184,185,186,187
-Vẽ 2 ảnh (đợt 1)
-     🖥️  Gửi 2 tranh sang Kaggle (GPU miễn phí)
-     🖥️   0.5 phút: .running
-     🖥️   4.6 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (5 phút)
-     🖥️  Nhận về 2/2 tranh từ Kaggle
-Nhận về 2/2 ảnh
-== Kiểm ảnh (vòng 1): 2 ảnh ==
-   001: Gemini không kiểm được (1/4): Remote end closed connection without response
-   006: điểm 3 · lệch nhân vật: Cao Cao râu tóc quá bạc hoặc người còn lại không có râu; cờ/vật có chữ hoặc biểu tượng
-Vòng 1: 1 ảnh lỗi / 144: 006
-TỔNG HỢP KIỂM ẢNH · TQ9 · 144 ảnh · 7614 giây · 1 vòng vẽ lại
-Còn lỗi (1): 006
-Chưa kiểm bằng AI (143): 001,003,004,005,011,012,013,014,015,016,017,018,019,020,021,025,026,027,028,029,030,033,034,035,037,039,040,041,042,043,044,045,046,047,048,049,050,052,053,055,056,057,058,059,060,061,063,064,065,066,067,068,069,070,071,072,073,074,075,076,077,078,080,082,083,084,085,086,087,088,089,092,093,096,097,098,099,100,101,102,103,104,106,107,108,109,110,111,113,114,115,116,117,118,119,120,121,122,125,126,128,129,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,149,150,153,154,155,157,158,160,161,162,163,167,169,171,173,174,175,177,178,181,182,183,184,185,186,187
-Vẽ 1 ảnh (đợt 2)
-     🖥️  Gửi 1 tranh sang Kaggle (GPU miễn phí)
-     🖥️   0.5 phút: .running
-     🖥️   4.1 phút: .complete
-     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (4 phút)
-     🖥️  Nhận về 1/1 tranh từ Kaggle
-Nhận về 1/1 ảnh
-== Kiểm ảnh (vòng 2): 1 ảnh ==
-   006: điểm 4 · ổn
-Vòng 2: 0 ảnh lỗi / 144: 
-TỔNG HỢP KIỂM ẢNH · TQ9 · 144 ảnh · 8121 giây · 2 vòng vẽ lại
-Còn lỗi (0): không
-Chưa kiểm bằng AI (143): 001,003,004,005,011,012,013,014,015,016,017,018,019,020,021,025,026,027,028,029,030,033,034,035,037,039,040,041,042,043,044,045,046,047,048,049,050,052,053,055,056,057,058,059,060,061,063,064,065,066,067,068,069,070,071,072,073,074,075,076,077,078,080,082,083,084,085,086,087,088,089,092,093,096,097,098,099,100,101,102,103,104,106,107,108,109,110,111,113,114,115,116,117,118,119,120,121,122,125,126,128,129,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,149,150,153,154,155,157,158,160,161,162,163,167,169,171,173,174,175,177,178,181,182,183,184,185,186,187
+     🖥️  28.5 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (29 phút)
+     🖥️  Nhận về 56/56 tranh từ Kaggle
+Nhận về 56/56 ảnh

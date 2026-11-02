@@ -10,6 +10,10 @@ on:
         description: "Giọng Gemini, cách nhau dấu phẩy"
         required: false
         default: "Puck,Sadaltager"
+      mau_tq9:
+        description: "Đọc thử từng câu TQ9, vd 1-10 (để trống = chạy như cũ)"
+        required: false
+        default: ""
       file:
         description: "File kịch bản json"
         required: false
@@ -30,7 +34,7 @@ jobs:
       - name: Cài đặt
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          python -m pip install -q numpy
+          python -m pip install -q numpy pillow opencv-python-headless requests
       - name: Đọc thử
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -50,6 +54,7 @@ jobs:
           set -o pipefail
           mkdir -p assets/thu_giong_hai
           export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
+          if [ -n "${{ inputs.mau_tq9 }}" ]; then python -u doc_mau_tq9.py "${{ inputs.mau_tq9 }}" 2>&1 | tee logs_thu_giong.txt; exit $?; fi
           timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai_cum.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 16 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo
         if: always()

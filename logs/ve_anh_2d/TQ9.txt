@@ -1,0 +1,22 @@
+Vẽ 144 ảnh (đợt 0)
+     🖥️  Gửi 144 tranh sang Kaggle (GPU miễn phí)
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/ve_kiem_anh.py", line 203, in <module>
+    main()
+  File "/home/runner/work/fact-video/fact-video/ve_kiem_anh.py", line 163, in main
+    ve(ma, thieu, 0)
+  File "/home/runner/work/fact-video/fact-video/ve_kiem_anh.py", line 128, in ve
+    res = kaggle_draw.draw_batch(jobs, out, model="klein", timeout_min=150)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 213, in draw_batch
+    _kaggle(["kernels", "push", "-p", str(work / "k")], env)
+  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 181, in _kaggle
+    raise RuntimeError(f"kaggle {' '.join(args[:2])}: {(r.stderr or r.stdout)[-500:]}")
+RuntimeError: kaggle kernels push: 64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
+    from ..models.upload_file import UploadFile
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
+    import six
+ModuleNotFoundError: No module named 'six'
+

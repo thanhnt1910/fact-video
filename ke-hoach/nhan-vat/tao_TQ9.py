@@ -266,7 +266,7 @@ for n in need:
         prompt = f"{m}. Characters (keep exactly this look): {ch}. {pal(n)}. {PHONGCACH}. {SUF}."
         it = {"key": k, "cau": n, "nv": nv, "text": BEATS[n], "prompt": prompt}
     else:
-        prompt = f"Empty scenery illustration with ZERO people, no human figure anywhere in the frame: {m}. Only buildings, objects and landscape. {pal(n)}. {PHONGCACH}. {SUF}."
+        prompt = f"Deserted, abandoned, uninhabited place where nobody is present, no human figure and no human silhouette anywhere in the frame: {m}. A still-life of buildings, objects and landscape only, the foreground is empty ground. {pal(n)}. {PHONGCACH}. {SUF}."
         it = {"key": k, "cau": n, "nv": [], "so_nguoi": 0, "text": BEATS[n], "prompt": prompt}
     out.append(it)
 used = sorted({x for n in need for x in S[n][0]})

@@ -45,6 +45,7 @@ jobs:
         with:
           path: |
             assets/tts_cache
+            assets/ai_cache
           key: fv-gen-xuat-${{ github.run_id }}
           restore-keys: fv-gen-
       - name: Đọc thử

@@ -76,6 +76,22 @@ def chapter_audio(text, voice, work, extra=""):
     return mv.read_wav(wav)
 
 
+def _can_am_luong(smp, target_rms=3000.0):
+    """Cắt lặng thừa đầu/cuối và đưa âm lượng từng câu về cùng một mức (không tốn lượt Gemini)."""
+    x = np.frombuffer(smp.tobytes(), np.int16).astype(np.float32)
+    if len(x) < SR // 5:
+        return smp
+    win = int(0.02 * SR); k = len(x) // win
+    rms = np.sqrt((x[:k * win].reshape(k, win) ** 2).mean(1) + 1e-6)
+    loud = np.where(rms > max(120.0, 0.08 * float(np.percentile(rms, 90))))[0]
+    if len(loud):
+        x = x[max(0, (loud[0] - 3) * win):min(len(x), (loud[-1] + 4) * win)]
+    r = float(np.sqrt((x ** 2).mean()) + 1e-6); pk = float(np.abs(x).max()) + 1e-6
+    g = min(target_rms / r, 30000.0 / pk)
+    out = array.array("h"); out.frombytes(np.clip(x * g, -32767, 32767).astype(np.int16).tobytes())
+    return out
+
+
 def split_by_pauses(samples, weights):
     """Chia âm thanh 1 chương thành các đoạn theo khoảng lặng gần nhất với tỉ lệ độ dài chữ."""
     x = np.frombuffer(samples.tobytes(), np.int16).astype(np.float32)
@@ -542,14 +558,31 @@ def build(script, cfg, out_dir):
         texts = [gemini_tts.clean_text(b["text"])[0] for b in ch["beats"]]
         import am_thanh
         tu = am_thanh.load_dict()
-        if lc.get("giong_sac_thai", True):
+        per_beat = bool((script.get("long") or {}).get("giong_tung_cau") or lc.get("giong_tung_cau"))
+        if per_beat:
+            # đọc TỪNG CÂU bằng một lượt Gemini riêng, cùng một chỉ dẫn giọng, cân âm lượng từng câu: giọng đồng đều cả video
+            loai = ch.get("loai_canh") or ("hook" if ci == 0 else "ket" if ci == len(chapters) - 1
+                                           else "boi_canh" if ci == 1 else "leo_thang")
+            extra = (am_thanh.sac_thai(loai, script.get("phong_cach") == "huyen-bi") + " " + script.get("giong_them", "")).strip() \
+                if lc.get("giong_sac_thai", True) else script.get("giong_them", "")
+            audio, segs = array.array("h"), []
+            for x in texts:
+                one = chapter_audio(am_thanh.chuan_hoa(x, tu) if lc.get("giong_sac_thai", True) else x, voice, work, extra)
+                one = _can_am_luong(one)
+                st0 = len(audio)
+                audio.extend(one)
+                segs.append((st0, len(audio)))
+                audio.extend(mv.silence(0.35))
+            a, b = 0, len(audio) - int(0.35 * SR)
+        elif lc.get("giong_sac_thai", True):
             loai = ch.get("loai_canh") or ("hook" if ci == 0 else "ket" if ci == len(chapters) - 1
                                            else "boi_canh" if ci == 1 else "leo_thang")
             audio = chapter_audio("\n\n".join(am_thanh.chuan_hoa(x, tu) for x in texts), voice, work,
                                   (am_thanh.sac_thai(loai, script.get("phong_cach") == "huyen-bi") + " " + script.get("giong_them", "")).strip())
         else:
             audio = chapter_audio("\n\n".join(texts), voice, work, script.get("giong_them", ""))
-        segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])
+        if not per_beat:
+            segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])
         narr.extend(audio[a:b])
         for (s0, s1), beat in zip(segs, ch["beats"]):
             st, en = t + (s0 - a) / SR, t + (s1 - a) / SR

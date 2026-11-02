@@ -1,23 +1,2 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (17s)
-🎙️ 1 4.5 giây
-     🎙️  Gemini đọc xong 1 chương (3s)
-🎙️ 2 5.3 giây
-     🎙️  Gemini đọc xong 1 chương (4s)
-🎙️ 3 6.5 giây
-     🎙️  Gemini đọc xong 1 chương (4s)
-🎙️ 4 7.0 giây
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (6s)
-🎙️ 5 8.6 giây
-     🎙️  Gemini đọc xong 1 chương (4s)
-🎙️ 6 6.8 giây
-     🎙️  Gemini đọc xong 1 chương (4s)
-🎙️ 7 7.2 giây
-     🎙️  Gemini đọc xong 1 chương (4s)
-🎙️ 8 8.7 giây
-     🎙️  Gemini đọc xong 1 chương (5s)
-🎙️ 9 9.2 giây
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (5s)
-🎙️ 10 6.7 giây
+ĐÃ CÓ 110 câu: [1, 2, 3] … [108, 109, 110]
+CHƯA CÓ 81 câu: [111, 112, 113, 114, 115] …

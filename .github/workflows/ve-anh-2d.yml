@@ -19,6 +19,10 @@ on:
         description: "Số vòng tự vẽ lại ảnh lỗi sau khi kiểm (0 = chỉ vẽ và kiểm, không vẽ lại)"
         required: false
         default: "3"
+      cf:
+        description: "Số ảnh vẽ thử bằng Cloudflare (cách nhau dấu phẩy), ra assets/anh_2d/<mã>CF; để trống = vẽ bằng Kaggle như cũ"
+        required: false
+        default: ""
       chi_tai:
         description: "1 = không vẽ mới, chỉ tải lại kết quả lần Kaggle trước"
         required: false
@@ -56,8 +60,18 @@ jobs:
           GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
           GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID_2: ${{ secrets.CF_ACCOUNT_ID_2 }}
+          CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
+          CF_ACCOUNT_ID_3: ${{ secrets.CF_ACCOUNT_ID_3 }}
+          CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
         run: |
           set -o pipefail
+          if [ -n "${{ inputs.cf }}" ]; then
+            python ve_anh_cf.py "${{ inputs.cf }}" 2>&1 | tee /tmp/ve.txt
+            exit $?
+          fi
           # vẽ ảnh còn thiếu -> tự kiểm (kỹ thuật, trùng ảnh, Gemini) -> tự vẽ lại ảnh lỗi, tối đa N vòng
           # (chạy lại ảnh cụ thể: điền "lam_lai" như cũ thì dùng ve_anh_2d.py)
           if [ -n "${{ inputs.lam_lai }}" ]; then

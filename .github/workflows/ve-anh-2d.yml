@@ -69,7 +69,7 @@ jobs:
         run: |
           set -o pipefail
           if [ -n "${{ inputs.cf }}" ]; then
-            python ve_anh_cf.py "${{ inputs.cf }}" 2>&1 | tee /tmp/ve.txt
+            python ve_anh_cf.py "${{ inputs.cf }}" ${{ inputs.dot }} ${{ inputs.hau_to }} 2>&1 | tee /tmp/ve.txt
             exit $?
           fi
           # vẽ ảnh còn thiếu -> tự kiểm (kỹ thuật, trùng ảnh, Gemini) -> tự vẽ lại ảnh lỗi, tối đa N vòng

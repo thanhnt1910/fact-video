@@ -7,7 +7,7 @@ import ai_images as A
 
 keys = [k.strip() for k in sys.argv[1].split(",") if k.strip()]
 data = {str(d["key"]).zfill(3): d for d in json.load(open("ke-hoach/nhan-vat/TQ9_anh.json", encoding="utf-8"))}
-out_dir = Path("assets/anh_2d/TQ9CF"); out_dir.mkdir(parents=True, exist_ok=True)
+out_dir = Path(("assets/anh_2d/TQ9CF" + (sys.argv[3] if len(sys.argv) > 3 else ""))); out_dir.mkdir(parents=True, exist_ok=True)
 ok, fail = [], []
 for k in keys:
     d = data.get(k)
@@ -19,7 +19,7 @@ for k in keys:
         try:
             if A._CF_OUT["v"] and not A._next_account(print):
                 raise RuntimeError("hết lượt Cloudflare mọi tài khoản")
-            A._klein(d["prompt"][:2000], tmp, True, int(k) + 1000)
+            A._klein(d["prompt"][:2000], tmp, True, int(k) + 1000 * int(sys.argv[2] if len(sys.argv) > 2 else 0) + 1000)
             im = Image.open(tmp).convert("RGB")
             if im.size != (1344, 768): im = im.resize((1344, 768), Image.LANCZOS)
             im.save(out, quality=93); tmp.unlink(missing_ok=True)

@@ -1,0 +1,1023 @@
+{
+ "ma": "TQ9",
+ "ghi_chu": "Video dài Tào Tháo thật sự ác đến mức nào, theo chính sử",
+ "nhan_vat": {
+  "caopi": "Cao Pi, a cold composed man of about thirty-three with a smooth face and a thin moustache, dark ceremonial robe and a black formal cap",
+  "caotiet": "Cao Jie, a young woman of about twenty in a deep-red robe, hair in a high bun, a calm noble face",
+  "caoxung": "Cao Chong, a sickly pale boy of about twelve lying in bed under a quilt, a thin gentle face",
+  "chentho": "Chen Shou, a quiet scholar of about fifty in a plain grey robe, a thin moustache, hair in a topknot under a plain cap",
+  "chukt": "an arrogant older man of about fifty in a rich dark-green robe with a gold-coloured sash, a puffed-up proud face and a thin grey beard",
+  "dan": "a poor peasant man, thin, sunburnt, ragged hemp tunic, hair in a topknot",
+  "dongtrac": "Dong Zhuo, a huge heavy fat man of about 55 with a thick neck, a heavy cruel face with a short thick beard, narrow suspicious eyes, dark fur-trimmed robe over an iron breastplate",
+  "fuhou": "Empress Fu, a noble woman of about forty in a deep-red empress robe with a wide sash, hair in a high bun with plain hairpins, a dignified sad face",
+  "fuhuan": "Fu Wan, a worried official of about fifty-five in a dark robe and a black cap, a frightened thin face and a short grey beard",
+  "hatien": "He Jin, a heavy-set man of about 50 with a broad red face and a short beard, dark-red official robe and a black official cap, confident arrogant bearing",
+  "hiende": "Liu Xie, a small serious boy of about nine in a plain dark robe, hair in two small tufts",
+  "hiende_t5": "Emperor Xian of Han at about fifteen, a slim serious teenage emperor, tall and thin for his age, pale grave thoughtful face, no beard, hair in a topknot under a small plain black cap, wearing a worn dark cross-collared robe with a plain sash, composed mature bearing, never cute, never a small child",
+  "hoanquan": "a court eunuch, smooth beardless pale face, black official cap and long dark-purple official robe, hands tucked in sleeves",
+  "huathieu": "Xu Shao, a thin old fortune-teller scholar with a long white beard and keen narrow eyes, plain pale robe, hair in a topknot",
+  "huatuo": "Hua Tuo, a lean vigorous healer of about fifty-five with a thin white-flecked beard and a calm clever face, plain pale-green robe, hair in a topknot, a small cloth medicine bag at his side",
+  "khanvang": "a rebel peasant fighter with a yellow cloth tied around his head, a rough ochre tunic and a plain wooden staff",
+  "khongdung7": "Kong Rong, a refined scholar-official of about fifty-six with a thin grey-flecked beard and a proud thoughtful face, pale grey cross-collared scholar's robe with wide sleeves and a dark sash, black scholar's cap",
+  "kienthac": "Jian Shuo, a powerful court eunuch of about forty-five with a smooth beardless face, a proud cold look, black official cap and a long dark-purple robe",
+  "linh": "a Han soldier in a plain iron helmet and leather-and-iron scale armour over a dull red-brown tunic",
+  "lubo_t5": "Lu Bu, a tall powerfully built man with a strong jaw and sharp eyes, hair in a topknot under a plain iron helmet, wearing cleaned iron scale armour over a dark-red cross-collared robe with a dark-red cloak, the confident bearing of a man who has taken a province",
+  "luson": "a young country host of about twenty-five in a plain brown tunic, friendly but uneasy",
+  "masieu": "Ma Chao, a handsome strong young man of about thirty with a proud face, hair under a plain iron helmet, light iron armour over a dark tunic",
+  "mateng": "Ma Teng, a stern old general of about sixty with a grey beard, dark official robe and a black cap",
+  "quan": "a court official in a black cap and a dark grey robe",
+  "quanlai": "a county clerk, thin adult man in a plain grey robe and a small black cloth cap, bowing respectfully",
+  "sugia": "an envoy in a travelling robe with a rolled bamboo letter tucked in his sash",
+  "tcfather": "Cao Song at about forty, a calm well-fed man with a short black beard, dark-green official robe and a black cap",
+  "tctung": "Cao Song, an elderly man of about sixty with a kind tired face and a grey beard, hair in a topknot, a good plain brown robe",
+  "thieude": "Emperor Shao of Han, a thin pale frightened boy of about fourteen in rumpled dark-red robes and a small crooked crown",
+  "tt20": "Cao Cao at about twenty, a short wiry young man with sharp clever eyes, clean-shaven with only a faint moustache, hair in a topknot under a black official cap, dark-blue cross-collared robe with a dark sash, empty hands, no weapon",
+  "tt34a": "Cao Cao at about thirty-four, a short wiry man with sharp clever eyes, a thin moustache and a small beard, black official cap, dark-blue cross-collared official robe, empty hands, no weapon",
+  "tt34b": "Cao Cao at about thirty-four, a short wiry man with sharp clever eyes, a thin moustache and a small beard, disguised in a plain brown traveller's robe and a cloth headband, empty hands, no weapon",
+  "tt38": "Cao Cao, a short wiry man of about 38 with sharp clever eyes, a thin moustache and a small beard, dark charcoal cross-collared robe under dark iron scale armour with a dark cloak, the stern look of a general at war, empty hands, no weapon",
+  "tt41": "Cao Cao, a short wiry man of about 41 with sharp clever eyes, a thin moustache and a small beard, hair in a topknot under a plain dark cap, wearing a dark charcoal cross-collared robe with a dark sash, a calm commanding look, no insignia, empty hands, no weapon",
+  "tt45": "Cao Cao at about forty-five, a short wiry man with sharp clever eyes, a thin moustache and a small beard, dark charcoal cross-collared robe over light iron armour, a commanding look, empty hands, no weapon",
+  "tt53": "Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon",
+  "tt60": "Cao Cao at about sixty, a short thin man with sharp tired eyes, a thin grey moustache and a short grey beard, dark charcoal cross-collared robe with a wide sash, black cap, empty hands, no weapon",
+  "tt65": "Cao Cao at about sixty-five, a short thin man with grey hair under a black cap, a thin grey moustache and a short grey beard, deep lines on a tired stern face, dark charcoal cross-collared robe, empty hands, no weapon",
+  "tt_boy": "Cao Cao as a lively clever boy of about twelve with bright cheeky eyes, hair in two tufts, a fine silk robe in dark blue",
+  "tuanuc_t5": "Xun Yu, a refined slender scholar of about thirty-four with a clean elegant face and a thin moustache, hair in a topknot under a plain scholar's cap, wearing a pale-grey cross-collared robe with wide sleeves and a dark sash",
+  "tuongquan": "a Han army commander in his forties, stern face, short beard, iron scale armour over a red robe, plain helmet",
+  "vienthieu_t5": "Yuan Shao, a handsome tall man of about 42 with a neat short beard, proud composed look, deep-blue official robe over light armour, a black cap",
+  "vokhuatuo": "a worried woman of about forty in a plain brown robe, hair in a bun"
+ },
+ "canh": [
+  {
+   "key": "001",
+   "nv": [],
+   "mo_ta": "a great river flowing slowly through a misty ancient Chinese plain at dawn, bare banks and a lone broken wooden pier, soft thick mist over the water"
+  },
+  {
+   "key": "003",
+   "nv": [],
+   "mo_ta": "the Si River in northern China under a grey sky, thick smoke drifting over the still brown water, an overturned wooden cart and a torn cloth banner on the bank"
+  },
+  {
+   "key": "004",
+   "nv": [],
+   "mo_ta": "the river in the mist at dawn, a small empty wooden boat floating motionless, reeds and a pale low sun"
+  },
+  {
+   "key": "005",
+   "nv": [
+    "tt38"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands alone on a barren field at dusk looking at pale bones scattered far off in the grass, hands hidden in his sleeves, heavy grief on his face, bare trees, dark sky"
+  },
+  {
+   "key": "006",
+   "nv": [
+    "tt53",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao seated on a low dais gives an order to a court official who bows with both hands in his sleeves, shelves of bamboo-slip scrolls behind them, an oil dish on a low table, warm evening light"
+  },
+  {
+   "key": "011",
+   "nv": [],
+   "mo_ta": "a rich walled country house in the county of Qiao in the Eastern Han era, a courtyard with grey tiled roofs, a stone path and a carved wooden gate, afternoon sun"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "tt_boy",
+    "hoanquan",
+    "tcfather"
+   ],
+   "mo_ta": "a clever boy in a fine robe stands between his father and a smiling court eunuch in a wealthy house hall, wooden pillars, silk screens, a low table with food, warm light"
+  },
+  {
+   "key": "013",
+   "nv": [
+    "tt20"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. young Cao Cao rides a horse at a gallop across a hunting field, a hawk perched on a post far behind, hills and wide grass, carefree and mischievous face, correct four-legged horse"
+  },
+  {
+   "key": "014",
+   "nv": [
+    "tt20",
+    "quanlai"
+   ],
+   "mo_ta": "young Cao Cao in an official cap stands on the steps of a district office in Luoyang with a clerk bowing beside him, a long wooden hall with a tiled roof behind, morning light"
+  },
+  {
+   "key": "015",
+   "nv": [],
+   "mo_ta": "a quiet northern district of Luoyang, a long street of grey mud-brick houses with tiled roofs between high walls, a wooden watchtower at the end, early morning"
+  },
+  {
+   "key": "016",
+   "nv": [
+    "tt20"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. young Cao Cao in an official cap stands at the foot of the steps of a district office beside a tall wooden rack with five rods painted five colours, hands hidden in his sleeves, a firm serious face"
+  },
+  {
+   "key": "017",
+   "nv": [
+    "kienthac"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. a powerful court eunuch sits on a carved low couch in a palace hall, wooden pillars and hanging red cloth, an oil dish on a table, a proud cold face"
+  },
+  {
+   "key": "018",
+   "nv": [
+    "chukt"
+   ],
+   "mo_ta": "an arrogant older man in a rich robe strolls down the middle of a night street of Luoyang with two servants carrying torches, ignoring a closed gate, mud-brick houses and a watchtower behind, orange torch light"
+  },
+  {
+   "key": "019",
+   "nv": [
+    "tt20",
+    "quanlai"
+   ],
+   "mo_ta": "night scene in the courtyard of a district office: young Cao Cao seated on a low dais, clerks standing beside the rod rack, a wooden screen hides what lies beyond, torches on posts, no violence shown"
+  },
+  {
+   "key": "020",
+   "nv": [],
+   "mo_ta": "a street of Luoyang at night, completely deserted, closed wooden doors on both sides, a watchtower with a faint red glow, thin mist"
+  },
+  {
+   "key": "021",
+   "nv": [
+    "tt20",
+    "huathieu"
+   ],
+   "mo_ta": "the old fortune-teller Xu Shao sits in a quiet room studying young Cao Cao who kneels respectfully before him on a straw mat, an oil dish between them, wooden lattice window, dim warm light"
+  },
+  {
+   "key": "025",
+   "nv": [
+    "hatien",
+    "quan"
+   ],
+   "mo_ta": "He Jin in his hall hands a sealed bamboo letter to a kneeling messenger who bows, wooden pillars and red cloth, an oil dish, tense mood"
+  },
+  {
+   "key": "026",
+   "nv": [
+    "hoanquan"
+   ],
+   "mo_ta": "a court eunuch hurries through a palace courtyard at night carrying a torch, smoke rising from distant palace roofs, wooden doors flung open, chaos implied only by smoke and fire light, no violence shown"
+  },
+  {
+   "key": "027",
+   "nv": [
+    "dongtrac",
+    "thieude",
+    "hiende"
+   ],
+   "mo_ta": "on a palace dais the huge Dong Zhuo stands before a frightened young emperor who is led down from the throne, a smaller boy ready to take his place, kneeling officials in rows, pillars and red cloth"
+  },
+  {
+   "key": "028",
+   "nv": [
+    "dongtrac",
+    "tt34a"
+   ],
+   "mo_ta": "in a palace hall the huge Dong Zhuo offers an official post to Cao Cao with a broad hand gesture, Cao Cao stands calm with his hands in his sleeves, kneeling officials, pillars, lamp light"
+  },
+  {
+   "key": "029",
+   "nv": [
+    "tt34a"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands in a hall corridor and slowly shakes his head, hands in his sleeves, a firm cold look, wooden pillars and a wall of dark shadows"
+  },
+  {
+   "key": "030",
+   "nv": [
+    "tt34b"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. a disguised Cao Cao rides a horse out of the east gate of Luoyang at sunrise, a plain cloak, a tall city wall and gate-tower behind, a dirt road leading east, correct four-legged horse"
+  },
+  {
+   "key": "033",
+   "nv": [
+    "tt34b",
+    "luson"
+   ],
+   "mo_ta": "inside a country house a host and his family prepare a meal on a low table with bowls and clay jars, the guest Cao Cao sits on a straw mat in a plain traveller's robe, an oil dish, wooden lattice window"
+  },
+  {
+   "key": "034",
+   "nv": [],
+   "mo_ta": "the dark yard of a country house at night, a low table and clay jars, a small oil dish glowing, wooden doors half open, nobody present"
+  },
+  {
+   "key": "035",
+   "nv": [],
+   "mo_ta": "an empty country kitchen: a clay stove with a cold pot, bundles of firewood, hanging dried herbs, wooden shelves, warm dim light"
+  },
+  {
+   "key": "037",
+   "nv": [
+    "tt34b",
+    "dan"
+   ],
+   "mo_ta": "Cao Cao rides across a plain toward distant hills followed by two servants pulling a cart of wooden chests, a dirt road, wide sky, determined face, correct four-legged horse"
+  },
+  {
+   "key": "039",
+   "nv": [
+    "vienthieu_t5",
+    "tt38",
+    "tuongquan"
+   ],
+   "mo_ta": "a council of warlords in a large tent, a low table, several leaders arguing with raised hands while Cao Cao stands at the side with his hands in his sleeves, a map-less table, oil dishes, tent poles"
+  },
+  {
+   "key": "040",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "columns of Han soldiers turn away from a mountain pass and march back in different directions under plain banners, dusty roads, a grey sky, a feeling of an army dissolving"
+  },
+  {
+   "key": "041",
+   "nv": [],
+   "mo_ta": "an abandoned battlefield plain with torn plain banners stuck in the ground, cold ashes, a few broken carts, a distant mountain range, grey sky"
+  },
+  {
+   "key": "042",
+   "nv": [
+    "khanvang"
+   ],
+   "mo_ta": "a crowd of rebel peasants with yellow cloths on their heads pours across a plain toward a walled city under plain yellow banners, dust, farm fields"
+  },
+  {
+   "key": "043",
+   "nv": [
+    "tt38",
+    "quan"
+   ],
+   "mo_ta": "local officials in black caps bow in a courtyard and invite Cao Cao to take charge, Cao Cao stands calm with his hands in his sleeves, tiled roofs and wooden pillars"
+  },
+  {
+   "key": "044",
+   "nv": [
+    "khanvang",
+    "dan"
+   ],
+   "mo_ta": "a very long column of former rebel soldiers and their families walks slowly to surrender along a river road, carts and bundles, Cao Cao's soldiers watch from the side, wide plain, grey light"
+  },
+  {
+   "key": "045",
+   "nv": [
+    "tt38",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao stands before lines of tall strong soldiers picked from a large crowd, choosing men for his own army while soldiers in armour hold plain banners behind him, a camp of tents, dusty light"
+  },
+  {
+   "key": "046",
+   "nv": [
+    "tt38"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao sits alone in his tent reading a short bamboo-slip letter on a low table, his hands in his sleeves, a stunned grieving face, a small oil dish, tent poles and dark banners"
+  },
+  {
+   "key": "047",
+   "nv": [],
+   "mo_ta": "an old mansion of the Cao family in Xu Province, a quiet courtyard with fallen leaves, closed doors, a stone well, grey tiled roofs"
+  },
+  {
+   "key": "048",
+   "nv": [
+    "tctung",
+    "dan"
+   ],
+   "mo_ta": "a modest family convoy of two ox carts with luggage travels along a mountain road, an old man rides in one cart, servants walk beside, peaceful morning, green hills, no danger shown"
+  },
+  {
+   "key": "049",
+   "nv": [
+    "tt38"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands before a low table with a large cloth map and small wooden markers, a stern angry face, hands hidden in his sleeves, dark banners and lamp light in a command tent"
+  },
+  {
+   "key": "050",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "Cao Cao's army in plain dark banners marches in long ranks through the gate of a walled city of Xu Province, spears upright, seen from outside the wall, bright afternoon light"
+  },
+  {
+   "key": "052",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "an army advances through a green countryside past villages of mud-brick houses with thin smoke rising far ahead, plain dark banners, a dusty road, a heavy mood"
+  },
+  {
+   "key": "053",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "villagers stand silently by a roadside in thick drifting smoke, women, old men and children, ragged clothes, tired faces, nothing violent shown, a burning house far away"
+  },
+  {
+   "key": "055",
+   "nv": [],
+   "mo_ta": "a deserted village after soldiers have passed: mud-brick houses with blackened roofs, drifting smoke, an overturned cart and scattered baskets, not a single person"
+  },
+  {
+   "key": "056",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "a long line of refugees from the capital region carries bundles and pulls small carts into a river town of Xu Province, tired faces, evening light, mud-brick houses behind"
+  },
+  {
+   "key": "057",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "families carrying bundles on poles walk along a dirt road toward a river, children by the hand, old people leaning on sticks, a dim hopeful light, grey hills"
+  },
+  {
+   "key": "058",
+   "nv": [],
+   "mo_ta": "an empty river dock of Xu Province with moored wooden boats left behind, ropes, stacked jars, soft morning mist, no people"
+  },
+  {
+   "key": "059",
+   "nv": [],
+   "mo_ta": "the Si River flowing slowly between low banks under heavy smoke drifting from the horizon, floating wreckage and an overturned boat, a quiet horror implied by emptiness"
+  },
+  {
+   "key": "060",
+   "nv": [],
+   "mo_ta": "a cold wide field after a battle: broken spears stuck in the ground, black ashes, torn banners, thin smoke rising to a grey sky, not a single person"
+  },
+  {
+   "key": "061",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "a tired army with lowered plain banners marches away along a dry road, soldiers carrying empty grain sacks, grey sky, a low sun, a sense of hunger"
+  },
+  {
+   "key": "063",
+   "nv": [
+    "tt38"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands alone on a hill looking toward distant columns of smoke on the horizon, his hands in his sleeves, a stern unreadable face, wind in his cloak, evening sky"
+  },
+  {
+   "key": "064",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "a family of villagers sits among the ruins of a mud-brick house, a mother with a small child, an old man, empty bowls, thin smoke, a heavy quiet mood, no violence"
+  },
+  {
+   "key": "065",
+   "nv": [
+    "quan",
+    "lubo_t5"
+   ],
+   "mo_ta": "at the gate of Yanzhou the warlord Lu Bu rides in on a tall horse while two officials welcome him with bows, townspeople and soldiers watching from the wall, banners, correct four-legged horse"
+  },
+  {
+   "key": "066",
+   "nv": [],
+   "mo_ta": "the closed gate and courtyard of a scholar's house, a quiet garden with a stone table, bamboo-slip scrolls on a low desk, dusk light"
+  },
+  {
+   "key": "067",
+   "nv": [],
+   "mo_ta": "a dim study room: shelves full of rolled bamboo-slip scrolls, a low desk with a clay inkstone, a small oil dish, a wooden lattice window, no one present"
+  },
+  {
+   "key": "068",
+   "nv": [
+    "tt38",
+    "lubo_t5"
+   ],
+   "mo_ta": "two armies face each other across a wide plain, plain dark banners on the left and plain red banners on the right, in front a small short commander on one side and a tall commander in iron armour on a horse on the other, distant ranks of soldiers, grey sky"
+  },
+  {
+   "key": "069",
+   "nv": [],
+   "mo_ta": "the ruined palace of Luoyang: broken tiled roofs, blackened wooden pillars, weeds in a vast courtyard, grey sky, nobody present"
+  },
+  {
+   "key": "070",
+   "nv": [
+    "hiende_t5",
+    "linh"
+   ],
+   "mo_ta": "a young emperor in a worn robe walks on a dusty road with a thin line of tired officials and a few poorly armed soldiers, an ox cart behind, a bleak plain, wandering without protection"
+  },
+  {
+   "key": "071",
+   "nv": [
+    "tt41"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands on a hill at dawn looking down at a distant small column of a wandering court, hands in his sleeves, a calculating thoughtful face"
+  },
+  {
+   "key": "072",
+   "nv": [
+    "tuanuc_t5",
+    "tt41"
+   ],
+   "mo_ta": "Xun Yu in a pale grey robe speaks to Cao Cao in a hall, hands in his sleeves, Cao Cao listens with a thoughtful look, a low table with an oil dish, wooden pillars"
+  },
+  {
+   "key": "073",
+   "nv": [
+    "hiende_t5",
+    "tt41",
+    "linh"
+   ],
+   "mo_ta": "a long procession escorting a young emperor on a carriage toward the city of Xuchang, soldiers with spears and plain dark banners, Cao Cao riding beside the carriage, a dusty road, golden light, correct four-legged horse"
+  },
+  {
+   "key": "074",
+   "nv": [
+    "hiende_t5",
+    "tt41"
+   ],
+   "mo_ta": "a young emperor sits on a throne on a wide dais, Cao Cao stands beside it with his hands in his sleeves, officials kneel in rows below, pillars and red cloth, formal mood"
+  },
+  {
+   "key": "075",
+   "nv": [],
+   "mo_ta": "an empty grain storehouse with large wooden bins and bare floors, a few empty sacks, a ray of light through a high lattice window"
+  },
+  {
+   "key": "076",
+   "nv": [],
+   "mo_ta": "a wide field of abandoned farmland with dry weeds and cracked earth, a broken plough, distant mud-brick huts, grey sky"
+  },
+  {
+   "key": "077",
+   "nv": [
+    "quan",
+    "tt41"
+   ],
+   "mo_ta": "two officials in grey robes bow and present a rolled bamboo-slip plan to Cao Cao in a hall, Cao Cao reads it thoughtfully with his hands hidden in his sleeves, a table with a map, an oil dish"
+  },
+  {
+   "key": "078",
+   "nv": [
+    "dan",
+    "linh"
+   ],
+   "mo_ta": "peasants and soldiers farm together in neat rows of a large field, oxen pulling wooden ploughs, soldiers' spears planted at the field's edge, a young green crop, wide plain, morning light"
+  },
+  {
+   "key": "080",
+   "nv": [],
+   "mo_ta": "a full grain storehouse with rows of tall wooden bins brimming with golden grain and stacked sacks, warm light from a lattice window, no people"
+  },
+  {
+   "key": "082",
+   "nv": [
+    "vienthieu_t5",
+    "tt45"
+   ],
+   "mo_ta": "two great armies face each other across the Yellow River at Guandu: a vast army under plain blue banners on the far bank and a smaller army under plain dark banners on the near bank, two commanders watching, spear ranks, dust, grey sky"
+  },
+  {
+   "key": "083",
+   "nv": [
+    "linh"
+   ],
+   "mo_ta": "inside a captured camp, soldiers carry open wooden chests full of rolled bamboo-slip letters out of a command tent, officers watch, torches and tent poles at night"
+  },
+  {
+   "key": "084",
+   "nv": [],
+   "mo_ta": "the command tent of a defeated warlord at night, an open lacquered chest of rolled bamboo-slip letters on the floor, a small oil dish, tent poles, no people"
+  },
+  {
+   "key": "085",
+   "nv": [
+    "tt45",
+    "linh"
+   ],
+   "mo_ta": "Cao Cao stands before a pile of rolled bamboo-slip letters burning in a large bronze brazier in front of his tent, flames lighting his stern face, a few soldiers watching from a distance, hands hidden in his sleeves"
+  },
+  {
+   "key": "086",
+   "nv": [],
+   "mo_ta": "a large army camp at night after a defeat, a dying camp fire with embers, empty tents and plain dark banners, thin smoke, no people"
+  },
+  {
+   "key": "087",
+   "nv": [],
+   "mo_ta": "inside an empty tent a heap of grey ash still smoking on the ground, a toppled chest, faint orange glow, no people"
+  },
+  {
+   "key": "088",
+   "nv": [],
+   "mo_ta": "a camp after a battle at dawn, plain banners drooping on poles, stacked spears, cold fire pits, grey sky, no people"
+  },
+  {
+   "key": "089",
+   "nv": [],
+   "mo_ta": "the quiet plain of Guandu after the battle, torn plain banners stuck in the ground, trampled earth, low mist, no people"
+  },
+  {
+   "key": "092",
+   "nv": [],
+   "mo_ta": "the Guandu plain at sunrise, thin mist over trampled fields, torn banners, a pale pink sky, silence, no people"
+  },
+  {
+   "key": "093",
+   "nv": [
+    "tt53",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao seated on a low dais receives two scholars who bow before him, a hall with a low table and bamboo-slip scrolls, an oil dish, wooden pillars, warm light"
+  },
+  {
+   "key": "096",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "Cao Cao sits on a low dais, before him stand two men: a gentle scholar in a plain pale robe with a spotless modest look and a stern capable officer in dark armour with a proud look, a hall with pillars and an oil dish, the dais slightly raised"
+  },
+  {
+   "key": "097",
+   "nv": [
+    "tt53",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao points with an open palm toward a kneeling capable officer, hands otherwise in his sleeves, officials standing in two rows in a hall, wooden pillars, evening light"
+  },
+  {
+   "key": "098",
+   "nv": [
+    "tt53",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao presides over a court in a large hall, officials in black caps standing in two long rows facing each other, a wide empty central aisle, wooden pillars and red cloth"
+  },
+  {
+   "key": "099",
+   "nv": [
+    "quan"
+   ],
+   "mo_ta": "a small group of officials in black caps stand together in a corner of a palace hall with serious faces, whispering, hands in sleeves, the other officials far away, wooden pillars"
+  },
+  {
+   "key": "100",
+   "nv": [
+    "khongdung7",
+    "quan"
+   ],
+   "mo_ta": "Kong Rong stands among the courtiers in a palace hall, upright and calm in a pale grey scholar's robe, other officials turn their heads toward him, pillars and red cloth"
+  },
+  {
+   "key": "101",
+   "nv": [
+    "khongdung7"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Kong Rong sits at a low desk with bamboo-slip scrolls and a brush, writing by the light of an oil dish, a quiet smile of irony, wooden lattice window, night"
+  },
+  {
+   "key": "102",
+   "nv": [
+    "khongdung7",
+    "sugia"
+   ],
+   "mo_ta": "Kong Rong receives an envoy from the south in a hall, both bowing politely, an envoy in a different southern-style robe, officials looking on warily, wooden pillars, oil dishes"
+  },
+  {
+   "key": "103",
+   "nv": [],
+   "mo_ta": "an empty courtroom: a raised dais with a low judge's table, rows of empty mats, a rack of rods against the wall, grey light from a lattice window"
+  },
+  {
+   "key": "104",
+   "nv": [],
+   "mo_ta": "a scholar's family house with a closed carved gate and a sealed wooden door, an empty courtyard, a dry tree, cold grey light"
+  },
+  {
+   "key": "106",
+   "nv": [],
+   "mo_ta": "Cao Cao's mansion at night: a tiled roof under a pale moon, an oil dish glowing in a lattice window, silent courtyard, no people"
+  },
+  {
+   "key": "107",
+   "nv": [
+    "huatuo"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Hua Tuo walks along a country road with a small cloth medicine bag, green fields and hills, a calm friendly face, morning light"
+  },
+  {
+   "key": "108",
+   "nv": [
+    "huatuo",
+    "tt53"
+   ],
+   "mo_ta": "Cao Cao sits on a straw mat holding his forehead in pain while the healer Hua Tuo sits beside him calmly, a low table with a small clay jar, an oil dish, a quiet room"
+  },
+  {
+   "key": "109",
+   "nv": [
+    "huatuo"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Hua Tuo stands at a wooden lattice window looking out at a road, hesitating, hands in his sleeves, a quiet room with an oil dish and shelves"
+  },
+  {
+   "key": "110",
+   "nv": [
+    "huatuo",
+    "tt53"
+   ],
+   "mo_ta": "Hua Tuo kneels with hands in his sleeves before Cao Cao, who sits on a low seat, a respectful request, a hall with pillars and an oil dish"
+  },
+  {
+   "key": "111",
+   "nv": [
+    "sugia",
+    "vokhuatuo"
+   ],
+   "mo_ta": "an envoy stands at the wooden gate of a modest house while a worried woman looks out of the doorway, a courtyard with a clay jar and a small tree, afternoon light"
+  },
+  {
+   "key": "113",
+   "nv": [
+    "huatuo",
+    "linh"
+   ],
+   "mo_ta": "Hua Tuo walks with his head high between two soldiers on a dusty road toward a distant city wall, a few villagers watching from the side, evening light, no violence"
+  },
+  {
+   "key": "114",
+   "nv": [
+    "tuanuc_t5",
+    "tt53"
+   ],
+   "mo_ta": "Xun Yu kneels and pleads before Cao Cao in a hall, hands in his sleeves, Cao Cao sits with a cold face, an oil dish on a table, wooden pillars"
+  },
+  {
+   "key": "115",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao sits alone on his seat and slowly shakes his head, a cold closed expression, hands in his sleeves, dark hall, one oil dish"
+  },
+  {
+   "key": "116",
+   "nv": [
+    "huatuo"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Hua Tuo sits on a straw mat in a prison cell with wooden bars, a bundle of bamboo-slip scrolls beside him, a tired calm face, a thin ray of light from a high slit"
+  },
+  {
+   "key": "117",
+   "nv": [
+    "huatuo",
+    "linh"
+   ],
+   "mo_ta": "Hua Tuo kneels beside a small clay brazier where a bundle of bamboo slips burns, hands in his sleeves, a jailer stands far back by the open cell door with his back turned, faint orange light"
+  },
+  {
+   "key": "118",
+   "nv": [
+    "tt53",
+    "caoxung"
+   ],
+   "mo_ta": "Cao Cao sits at the edge of a bed holding his own forehead, in the same room a sick boy lies under a quilt, an oil dish and a clay bowl of medicine, dim light"
+  },
+  {
+   "key": "119",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands before a closed wooden door of a sickroom, head bowed in regret, hands in his sleeves, a lone oil dish on the floor, night"
+  },
+  {
+   "key": "120",
+   "nv": [],
+   "mo_ta": "an old study: a low desk with a few rolled bamboo-slip scrolls and a clay inkstone, shelves of scrolls, a small oil dish, a lattice window, nobody present"
+  },
+  {
+   "key": "121",
+   "nv": [],
+   "mo_ta": "a few bamboo-slip scrolls tied with cord lying on a wooden table, a small oil dish, soft shadows, warm light, no people"
+  },
+  {
+   "key": "122",
+   "nv": [],
+   "mo_ta": "a records room: shelves of rolled bamboo scrolls in rows, a low desk, an oil dish, dust in a ray of light, no people"
+  },
+  {
+   "key": "125",
+   "nv": [
+    "masieu",
+    "linh"
+   ],
+   "mo_ta": "Ma Chao rides at the head of a few weary riders across a dusty western plain at dusk after a defeat, banners lowered, hills far away, correct four-legged horses"
+  },
+  {
+   "key": "126",
+   "nv": [
+    "mateng",
+    "linh"
+   ],
+   "mo_ta": "old Ma Teng walks out of a palace gate between two guards, head held high, officials watching from the stairs, not bound, no violence, morning light"
+  },
+  {
+   "key": "128",
+   "nv": [],
+   "mo_ta": "the empty yard of a western general's house, a gate wide open, a stone horse-trough, dry leaves blowing, no one present"
+  },
+  {
+   "key": "129",
+   "nv": [],
+   "mo_ta": "a long empty dirt road stretching through dry hills in a haze of dust, a lone dead tree, a pale sky, no people"
+  },
+  {
+   "key": "132",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands alone in the middle of a vast palace hall with tall pillars and long shadows, small against the hall, hands in his sleeves"
+  },
+  {
+   "key": "133",
+   "nv": [
+    "tt53",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao stands holding nothing, a bronze tally lies on the table beside him, behind him officials stand in rows, his hand held out calmly over the tally, a hall with pillars"
+  },
+  {
+   "key": "134",
+   "nv": [
+    "hiende_t5",
+    "fuhou"
+   ],
+   "mo_ta": "the young emperor and Empress Fu sit side by side in a quiet palace room, silent and apart, an oil dish, silk screens, wooden pillars, dim light"
+  },
+  {
+   "key": "135",
+   "nv": [
+    "fuhou"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu sits at a low desk writing a letter on bamboo slips with a brush resting in her hand, an oil dish, a silk screen behind her, a worried noble face"
+  },
+  {
+   "key": "136",
+   "nv": [
+    "fuhuan",
+    "sugia"
+   ],
+   "mo_ta": "a messenger hands a rolled letter to Fu Wan in his house, Fu Wan takes it with trembling hands, an oil dish and a wooden screen, a tense hushed scene"
+  },
+  {
+   "key": "137",
+   "nv": [
+    "fuhuan"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Fu Wan kneels beside a closed lacquered chest, hands in his sleeves, a frightened face, afraid to open it, an oil dish, night"
+  },
+  {
+   "key": "138",
+   "nv": [
+    "tt60",
+    "quan"
+   ],
+   "mo_ta": "a kneeling official presents a rolled bamboo letter to Cao Cao who sits in a dark hall with a stern cold face, an oil dish, wooden pillars"
+  },
+  {
+   "key": "139",
+   "nv": [
+    "linh",
+    "quan"
+   ],
+   "mo_ta": "soldiers in iron helmets with spears enter a palace hall, their leader an officer in front, palace maids and attendants step aside, no violence, pillars and red cloth, morning light"
+  },
+  {
+   "key": "140",
+   "nv": [
+    "fuhou"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu crouches in a narrow gap between a wall and a wooden partition, a frightened face half hidden, a torn silk sleeve, dim light, no violence"
+  },
+  {
+   "key": "141",
+   "nv": [
+    "fuhou",
+    "hiende_t5"
+   ],
+   "mo_ta": "Empress Fu with loose hair meets the emperor on the steps outside a palace hall, both pale and silent, guards far in the background, a grey sky"
+  },
+  {
+   "key": "142",
+   "nv": [
+    "fuhou"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu with loose messy hair and bare feet walks across a stone courtyard, a few guards far behind her, tall palace walls, grey dawn"
+  },
+  {
+   "key": "143",
+   "nv": [
+    "hiende_t5"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. the young emperor stands on the palace steps with his head bowed, hands in his sleeves, powerless, a heavy mood, grey light"
+  },
+  {
+   "key": "144",
+   "nv": [],
+   "mo_ta": "a palace with heavy closed doors, a long stone corridor, an oil dish on the floor, long shadows, nobody present"
+  },
+  {
+   "key": "146",
+   "nv": [],
+   "mo_ta": "a long empty dirt road to the far north under a cold sky, a lone wooden cart wheel on the roadside, dry grass, no people"
+  },
+  {
+   "key": "147",
+   "nv": [
+    "caotiet"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Jie in a deep-red empress robe sits on a low throne in a palace room with a calm noble face, silk screens and pillars, an oil dish"
+  },
+  {
+   "key": "149",
+   "nv": [
+    "hiende_t5",
+    "tt60",
+    "quan"
+   ],
+   "mo_ta": "the emperor sits on a throne on a dais surrounded by officials in dark robes, Cao Cao stands among them with hands in his sleeves, a formal hall, the emperor looks small"
+  },
+  {
+   "key": "150",
+   "nv": [],
+   "mo_ta": "an empty throne on a high dais in a palace hall, red cloth and tall pillars, a ray of light on the seat, no one present"
+  },
+  {
+   "key": "153",
+   "nv": [],
+   "mo_ta": "the city of Ye at dusk, a tall wall with a gate-tower and plain dark banners, a dusty road, red evening sky, no people"
+  },
+  {
+   "key": "154",
+   "nv": [
+    "tt60"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands beside a table with a large cloth map and an oil dish at night, deep in thought, hands in his sleeves, the room otherwise empty"
+  },
+  {
+   "key": "155",
+   "nv": [],
+   "mo_ta": "the courtyard of a king's mansion at night with tall lanterns replaced by torches on iron stands, empty armour racks, a closed gate, long shadows, no people"
+  },
+  {
+   "key": "157",
+   "nv": [
+    "linh",
+    "dan"
+   ],
+   "mo_ta": "a funeral procession slowly carries a plain wooden coffin on a cart through a gate, soldiers and mourners in white hemp robes walk behind, plain white banners with no writing, grey sky, a sombre mood"
+  },
+  {
+   "key": "158",
+   "nv": [
+    "hiende_t5",
+    "caopi"
+   ],
+   "mo_ta": "the emperor stands on a dais and hands over a small lacquered box set on a cushion to Cao Pi who bows, officials kneel in rows, a hall with red cloth, the moment of an abdication"
+  },
+  {
+   "key": "160",
+   "nv": [
+    "chentho"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. the historian Chen Shou sits at a low desk writing on bamboo slips with a brush resting in his hand, shelves of scrolls, an oil dish, a quiet focused face, night"
+  },
+  {
+   "key": "161",
+   "nv": [],
+   "mo_ta": "a historian's study with a low desk, an inkstone, rolled bamboo-slip scrolls, a small oil dish, a lattice window and moonlight, nobody present"
+  },
+  {
+   "key": "162",
+   "nv": [],
+   "mo_ta": "a library of the southern kingdom: tall wooden racks of bamboo scrolls under a tiled roof, soft light, no people"
+  },
+  {
+   "key": "163",
+   "nv": [],
+   "mo_ta": "a wooden rack full of tied bamboo-slip scrolls with a small oil dish at its side, warm glow, no people"
+  },
+  {
+   "key": "167",
+   "nv": [
+    "dan"
+   ],
+   "mo_ta": "villagers run through a field with bundles in their arms toward a river, thick smoke rising on the horizon behind them, women and children, panic implied only by movement and smoke, no violence"
+  },
+  {
+   "key": "169",
+   "nv": [
+    "fuhou"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Empress Fu sits alone in a dim palace room looking toward the door, a sad quiet face, an oil dish, silk screens"
+  },
+  {
+   "key": "171",
+   "nv": [
+    "linh",
+    "dan"
+   ],
+   "mo_ta": "lines of captured soldiers with their heads bowed walk quietly through the gate of a camp between rows of guards, a wide field, a grey sky, no violence"
+  },
+  {
+   "key": "173",
+   "nv": [],
+   "mo_ta": "an empty prisoners' camp enclosed by a rough wooden fence, bare trampled ground, a closed gate, a grey sky, no people"
+  },
+  {
+   "key": "174",
+   "nv": [],
+   "mo_ta": "an old city gate standing open after a disaster, dust drifting, a broken cart, a torn banner on the wall, silence, no people"
+  },
+  {
+   "key": "175",
+   "nv": [
+    "huatuo",
+    "khongdung7"
+   ],
+   "mo_ta": "two men stand apart in a dim hall with sad faces, the healer Hua Tuo with a medicine bag on the left and the scholar Kong Rong on the right, an oil dish, pillars, long shadows"
+  },
+  {
+   "key": "177",
+   "nv": [],
+   "mo_ta": "a dirt road splitting into two paths in dry hills, a blank rough stone marker with no writing between them, grey sky, no people"
+  },
+  {
+   "key": "178",
+   "nv": [],
+   "mo_ta": "a lonely fork in a plain dirt road at dusk, two paths leading in different directions, dry grass, a pale sky, no people"
+  },
+  {
+   "key": "181",
+   "nv": [
+    "tt53",
+    "dan"
+   ],
+   "mo_ta": "Cao Cao stands on a hill overlooking a large farming colony and a military camp in the plain below, scholars and officials around him bowing, farmers far away in the fields, hands in his sleeves, golden light"
+  },
+  {
+   "key": "182",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands from behind before a small fire in a camp, rolled bamboo letters turning to ash, the dark camp silent around him, hands in his sleeves"
+  },
+  {
+   "key": "183",
+   "nv": [
+    "tt53",
+    "dan"
+   ],
+   "mo_ta": "Cao Cao stands before a line of hungry thin peasants on a ruined road, his head slightly bowed, his hands in his sleeves, a burnt village far behind, grey light, a feeling of responsibility"
+  },
+  {
+   "key": "184",
+   "nv": [],
+   "mo_ta": "a devastated land: an empty village street with blackened walls and fallen roof beams, a stray ox cart, grey smoke, a pale sky, no people"
+  },
+  {
+   "key": "185",
+   "nv": [
+    "tt60"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. Cao Cao stands on a city wall at dawn looking straight ahead at a wide plain, hands in his sleeves, a tired but resolute face, soft morning light"
+  },
+  {
+   "key": "186",
+   "nv": [
+    "tt60",
+    "quan"
+   ],
+   "mo_ta": "Cao Cao stands in the centre of a great hall while officials bow deeply on both sides, a wide aisle, he stands small and alone amid the bowing crowd, pillars and red cloth"
+  },
+  {
+   "key": "187",
+   "nv": [
+    "tt65"
+   ],
+   "mo_ta": "exactly ONE man only, no second figure, no crowd. an elderly Cao Cao seen from the chest up, in front of the grey gate-tower of a palace at dusk, a tired stern face, looking toward the viewer, hands out of frame"
+  }
+ ]
+}

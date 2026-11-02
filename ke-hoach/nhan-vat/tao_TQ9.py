@@ -255,21 +255,55 @@ def pal(n):
     if n<=97: return "warm gold and fresh green palette, bright hopeful daylight"
     if n<=158: return "cold blue-grey palette, dim light with a single light source, deep shadows, low saturation"
     return "neutral soft grey palette, pale dawn light"
+# ---- Prompt ngắn, chỉ nói điều CẦN CÓ (quy tắc 18); có chốt chặn: vi phạm thì dừng ----
+import re as _re
+STYLE_E = ("2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, grey-tiled mud-brick architecture with wooden lattice windows")
+STYLE = ("2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, "
+         "realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows")
+CUT = [r",?\s*(?:and\s+)?(?:with\s+)?no (?:faces?|person|people|one|violence|blood|bulb|weapon|insignia|face)(?: visible| present)?",
+       r",?\s*nobody(?: in the foreground)?(?: present)?", r",?\s*not a single person", r",?\s*(?:completely\s+)?(?:deserted|empty hands)",
+       r",?\s*never [a-z ]+", r",?\s*no beard"]
+SWAP = [("exactly ONE woman only:","exactly ONE woman,"),(" only a faint"," a faint"),("with only ","with "),("implied only by","implied by"),("seen only as","seen as"),("lamp light","oil-dish light"),
+        ("wandering without protection","wandering unprotected"),(", no danger shown",""),(", with no writing",""),(" with no writing",""),(", not bound",", hands free"),
+        ("after soldiers have passed","after the army has passed"),(", nothing visible inside the pit",", a deep dark pit"),("stands holding nothing","stands with open hands"),
+        ("a blank rough stone marker with no writing","a blank rough stone marker"),(", no other person",""),(", only a distant line",", a distant line"),("banners","flags"),("banner","flag"),("poles","wooden stakes"),("pole","wooden stake"),("lantern","clay oil dish"),
+        ("an empty ","an old "),("empty ",""),("completely ",""),("alone","")]
+def pos(t):
+    t = _re.sub("|".join(CUT), "", t)
+    for x, y in SWAP: t = t.replace(x, y)
+    return _re.sub(r"\s+", " ", t).replace(" ,", ",").strip(" ,.")
+BAD = _re.compile(r"\b(no|not|nobody|without|never|none|nothing|avoid|alone|only|text|sign|signs|lamp|lantern|chimney|wire|wires|banner|banners)\b", _re.I)
+PEOPLE = _re.compile(r"\b(person|people|man|men|woman|figure|figures|soldiers?|boy|girl|child)\b", _re.I)
+def guard(k, p, b_scene, cap):
+    err = []
+    p = p.replace(ONE.strip(), "")  # câu ONE là ngoại lệ đã thử và chốt (quy tắc 17)
+    if len(p) > cap: err.append(f"dài {len(p)}>{cap}")
+    w = BAD.findall(p)
+    if w: err.append("từ cấm " + ",".join(sorted({x.lower() for x in w})))
+    if b_scene and PEOPLE.findall(p): err.append("cảnh vắng có từ chỉ người " + ",".join(sorted({x.lower() for x in PEOPLE.findall(p)})))
+    return [f"{k}: {e}" for e in err]
+ERR = []
 canh, out = [], []
 for n in need:
     nv, m = S[n]; k = f"{n:03d}"
     canh.append({"key": k, "nv": nv, "mo_ta": m})
+    m2 = pos(m)
     if n in ILL:
-        prompt = f"{m}. {pal(n)}. {PHONGCACH}. {SUF}."
+        prompt = f"{m2}. {pal(n)}. {STYLE_E}."
         it = {"key": k, "cau": n, "nv": [], "text": BEATS[n], "prompt": prompt}
+        ERR += guard(k, prompt, False, 800)
     elif nv:
-        ch = "; ".join(NV[x] for x in nv)
-        prompt = f"{m}. Characters (keep exactly this look): {ch}. {pal(n)}. {PHONGCACH}. {SUF}."
+        ch = "; ".join(pos(NV[x]) for x in nv)
+        prompt = f"{m2}. {ch}. {pal(n)}. {STYLE}."
         it = {"key": k, "cau": n, "nv": nv, "text": BEATS[n], "prompt": prompt}
+        ERR += guard(k, prompt, False, 1150)
     else:
-        prompt = f"Deserted, abandoned, uninhabited place where nobody is present, no human figure and no human silhouette anywhere in the frame: {m}. A still-life of buildings, objects and landscape only, the foreground is empty ground. {pal(n)}. {PHONGCACH}. {SUF_E}."
+        prompt = f"{m2}. {pal(n)}. {STYLE_E}."
         it = {"key": k, "cau": n, "nv": [], "so_nguoi": 0, "text": BEATS[n], "prompt": prompt}
+        ERR += guard(k, prompt, True, 800)
     out.append(it)
+if ERR:
+    print("\n".join(ERR)); raise SystemExit(f"CHỐT CHẶN: {len(ERR)} lỗi prompt, không ghi file")
 used = sorted({x for n in need for x in S[n][0]})
 (R / "TQ9.json").write_text(json.dumps({"ma": "TQ9", "ghi_chu": "Video dài Tào Tháo thật sự ác đến mức nào, theo chính sử", "nhan_vat": {x: NV[x] for x in used}, "canh": canh}, ensure_ascii=False, indent=1), encoding="utf-8")
 (R / "TQ9_anh.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

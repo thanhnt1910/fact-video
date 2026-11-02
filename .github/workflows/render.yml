@@ -95,15 +95,6 @@ jobs:
           python -m pip install -q -r requirements.txt kaggle
           python -m playwright install --with-deps chromium > /dev/null
 
-      - name: Cài giọng đọc VieNeu-TTS
-        run: |
-          if ! .venv-tts/bin/python -c "import sys" 2>/dev/null; then
-            rm -rf .venv-tts
-            python -m venv .venv-tts
-          fi
-          .venv-tts/bin/python -m pip install -q --upgrade pip
-          .venv-tts/bin/python -m pip install -q vieneu
-
       - name: Dựng video
         env:
           HF_HUB_DISABLE_PROGRESS_BARS: "1"

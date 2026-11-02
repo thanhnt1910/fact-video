@@ -17,8 +17,9 @@ import make_video as mv
 ROOT = Path(__file__).resolve().parent
 DEFAULT = ["Ngọc Linh", "Thục Đoan", "Quỳnh Anh", "Mỹ Duyên", "Kim Thanh", "Trúc Ly",
            "Ngọc Huyền", "Đoan Trang", "Thiện Minh", "Thanh Bình", "Thái Sơn"]
-DEMO_SCRIPT = "kich-ban-cu/DV1.json"
-DEMO_SCENES = 4  # ~20–25 giây
+import os
+DEMO_SCRIPT = os.environ.get("DEMO_SCRIPT_FILE") or "kich-ban-cu/DV1.json"
+DEMO_SCENES = int(os.environ.get("DEMO_SCENES") or 4)  # ~20–25 giây
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")

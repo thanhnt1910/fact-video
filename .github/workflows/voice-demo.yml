@@ -8,6 +8,11 @@ on:
         required: false
         default: ""
 
+      kich_ban:
+        description: "File kịch bản đọc thử (để trống = Bạch tuộc)"
+        required: false
+        default: ""
+
 permissions:
   contents: write
 
@@ -37,6 +42,9 @@ jobs:
           if ! .venv-tts/bin/python -c "import sys" 2>/dev/null; then rm -rf .venv-tts; python -m venv .venv-tts; fi
           .venv-tts/bin/python -m pip install -q vieneu
       - name: Tạo file nghe thử
+        env:
+          DEMO_SCRIPT_FILE: ${{ inputs.kich_ban }}
+          DEMO_SCENES: ${{ inputs.kich_ban && 10 || 4 }}
         run: mkdir -p demo && python demo_voices.py "${{ inputs.voices }}" 2>&1 | tee demo-run.log
       - name: Gửi Telegram
         env:

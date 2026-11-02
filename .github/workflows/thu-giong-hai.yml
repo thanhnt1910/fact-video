@@ -10,6 +10,10 @@ on:
         description: "Giọng Gemini, cách nhau dấu phẩy"
         required: false
         default: "Puck,Sadaltager"
+      xuat_tq9:
+        description: "1 = xuất giọng Gemini TQ9 đã đọc xong trong bộ nhớ đệm"
+        required: false
+        default: ""
       mau_tq9:
         description: "Đọc thử từng câu TQ9, vd 1-10 (để trống = chạy như cũ)"
         required: false
@@ -35,6 +39,14 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           python -m pip install -q numpy pillow opencv-python-headless requests
+      - name: Khôi phục giọng đã đọc
+        if: ${{ inputs.xuat_tq9 != '' }}
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            assets/tts_cache
+          key: fv-gen-xuat-${{ github.run_id }}
+          restore-keys: fv-gen-
       - name: Đọc thử
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -54,6 +66,7 @@ jobs:
           set -o pipefail
           mkdir -p assets/thu_giong_hai
           export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
+          if [ -n "${{ inputs.xuat_tq9 }}" ]; then ls assets/tts_cache 2>/dev/null | wc -l; python -u xuat_giong_tq9.py 2>&1 | tee logs_thu_giong.txt; exit $?; fi
           if [ -n "${{ inputs.mau_tq9 }}" ]; then python -u doc_mau_tq9.py "${{ inputs.mau_tq9 }}" 2>&1 | tee logs_thu_giong.txt; exit $?; fi
           timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai_cum.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 16 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo

@@ -55,6 +55,7 @@ PHONGCACH = tq["phong_cach"].replace("year 184 AD", "year 190 AD")
 SUF = ("Eastern Han China, 2nd century AD: dirt roads, grey-tiled mud-brick and timber buildings, wooden lattice windows without glass, shallow open bronze or clay oil dishes (no lamps, no candles), straw mats and low benches, bamboo-slip scrolls tied with cord; "
        "every banner, cloth hanging and sign is a plain blank piece of cloth with no marks, no writing on any wall, scroll or sign; no lamps or lanterns on walls or posts, no chimneys, no electric poles or wires, no switches, no clocks, no beds with mattress or pillow; no text, no letters, no watermark; every person has exactly two arms and two hands with natural adult proportions and a different face; no gore, no blood; "
        "single full-frame picture, no panels, no border; rich detailed background that fits the place")
+SUF_E = SUF.replace("every person has exactly two arms and two hands with natural adult proportions and a different face; ", "")
 ONE = "exactly ONE man only, no second figure, no crowd. "
 S = {}
 def sc(n, nv, d): S[n] = (nv, d)
@@ -226,7 +227,7 @@ il(59, "the Si River at dusk crowded with floating wreckage, broken boats and ba
 il(63, "a black silhouette of a short man on a hill against a sky full of rising columns of dark smoke from burning villages in the plain below, wind in his cloak, seen from behind")
 il(89, "a huge dark pit dug in the earth at night at a battlefield, edged by burning torches on poles and spades stuck in the soil, a few far-off black silhouettes of soldiers standing back, nothing visible inside the pit, grey smoke")
 il(104, "the gate of a scholar's house at dawn, the shadows of armed soldiers with spears stretched across the yard, on the doorstep two pairs of small child shoes side by side, no person visible")
-il(106, "a large mansion at night under a pale moon, a window glowing with one oil light, on the lit paper-less lattice window the black silhouette of a man sitting alone, silent courtyard, no other person")
+il(106, "a large mansion at night under a pale moon, a window glowing with the soft flame of one clay oil dish, no bulb, on the lit paper-less lattice window the black silhouette of a man sitting alone, silent courtyard, no other person")
 il(115, "on a stone wall the huge black shadow of a seated man lifting one hand in refusal, below it a small kneeling figure in silhouette with hands joined in plea, a single oil dish glowing, dark hall")
 il(116, "a prison cell seen through thick wooden bars, a thin ray of light from a high slit falling on the straw floor, the dark silhouette of a seated man behind the bars with a small bundle of bamboo scrolls beside him")
 il(117, "a small clay brazier on the cell floor where a bundle of bamboo-slip scrolls burns with a bright flame, the shadow of a kneeling man bent over it and the shadow of a jailer turned away at the door, no faces visible")
@@ -234,10 +235,10 @@ il(135, "on a low desk in a palace room at night a few bamboo slips with a brush
 il(137, "a dark room with a sealed lacquered chest on the floor, a cord around it, a trembling black shadow of a kneeling man on the wall behind it, one oil dish, no face visible")
 il(139, "a torch-lit palace corridor with long black silhouettes of armed soldiers with spears marching in, their huge shadows on the walls and floor, palace curtains swaying, no faces visible, no violence")
 il(140, "a palace room at night: against the wall a black shadow of a woman huddled low behind a wooden partition, and from the doorway the long shadows of spears and helmets of soldiers approaching, one torch, no faces visible, no violence")
-il(142, "a wide stone-paved palace courtyard at cold grey dawn, a trail of bare footprints and a single dropped hairpin leading across the stones towards the far gate, tall palace walls, no person visible")
+il(142, "a wide stone-paved palace courtyard at cold grey dawn, completely empty, a trail of bare footprints and a single dropped hairpin leading across the stones towards the far gate, tall palace walls, no person visible")
 il(144, "a heavy closed palace door with a long shadow of the door bars falling across a stone corridor, one oil dish on the floor, completely dim and silent, no person visible")
 il(160, "a very large black shadow of a standing man cast across the ground and over a small grey-tiled house, a quiet village at pale dawn, no person visible")
-il(171, "a wide field of freshly turned earth mounds at dawn with spades and baskets left standing, thin mist and a few torches burnt down, a far line of black silhouettes of soldiers on the horizon, grey sky")
+il(171, "a wide field of freshly turned earth mounds at dawn with spades and baskets left standing, thin mist and a few torches burnt down, nobody in the foreground, only a distant line of tiny black silhouettes on the horizon, grey sky")
 
 # ---- tạo file
 need = sorted(n for n, v in PLAN.items() if v[0] in "AB")

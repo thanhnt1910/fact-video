@@ -281,6 +281,20 @@ FIX[63]=TOP+"The three bronze bells are plain smooth bronze with no inscriptions
 FIX[66]=TOP+"Zhou Yu stands among a few soldiers; everyone stands on the deck. The burning fleet far behind consists of boxy Han warships. "+ONEMAST
 ov(72,"a simple Han balance scale on a plain table, a plain wooden beam hung from a cord with a rope-hung bronze pan at each end: the left pan sagging low under several tied bundles of bamboo slips, the right pan high holding only a small wooden storyteller's block, soft window light, completely empty, absolutely no people","The scale is plain wooden and bronze with no dial, no clock face, no needle, no markings.")
 
+# --- Sửa lần 2 ngày 04/11 sau khi soi 85 ảnh CD2 (kính mắt, công tắc, cửa sổ kim loại, hai người giống hệt, lính giống trẻ con, biểu tượng cờ, chữ trên biển, rối giống em bé) ---
+ov(2,"a Han market square where a crowd of townspeople gathers around a laughing storyteller who stands behind a low wooden platform with a hand drum, on the platform in front of him two stiff carved wooden puppets, each as tall as a forearm, with a painted adult face, straight jointed wooden limbs and a tiny cap: a puppet in a teal robe lying on its back and a taller puppet in a white robe with a blue border standing over it, the townspeople gasping and pointing",
+   "The puppets are hard carved wooden figures with adult faces and stiff straight arms and legs, clearly toys of grown men. The audience wears plain tunics with topknots. ")
+FIX[7]=TOP+"The question-mark is a big golden curved symbol with a dot, drawn as a shining object in the air. Every face in the crowd is bare, with clear open eyes and nothing worn on the face; men have topknots under cloth caps."
+ov(16,"Cao Cao standing on a tall earthen platform with one arm raised proclaiming to an enormous army of grown men in dense disciplined ranks spread across the riverbank to the horizon, spearmen and archers, plain blank banners, wind in his sleeves",
+   "Every soldier is a broad-shouldered grown man with adult proportions and a bearded or stubbled face; the far ranks look small only because of distance. ")
+ov(18,"a rank of southern surrendered soldiers standing apart from the others, glancing at each other and whispering uncertainly toward a distant flag made of one single flat red cloth, wary faces, each face different, soft light",
+   "The flag is one flat red cloth from edge to edge; every soldier is a grown man. ")
+ov(43,"an army column marching west through a high mountain pass, two leaders on horses at the front looking ahead: a bearded commander in teal on a brown horse, and a younger clean-shaven officer in dark blue-grey armour on a black horse, plain blank banners, steep cliffs, wide view, soldiers small",
+   "The two riders differ in age, face, beard, armour colour and horse colour. ")
+ov(45,"Zhou Yu in teal at the gate of Jiangling city giving orders while grown-man officers load wagons and soldiers line up, morning light, officers with different faces",
+   "Full-bleed picture; the city gate is a plain open archway in a bare rammed-earth wall with nothing hanging on it and no plaque; everyone is an adult with a grown man's face and proportions; wagons are plain clay-brown carts. ")
+ov(48,None,"The silks show only brush-drawn wavy river lines and round ink dots. The walls are bare plain mud-brick with nothing mounted on them. The three men are grown adults of different ages: an old man with a white beard, a man of about thirty with a topknot, and a man of about forty with a thin moustache. Each has exactly two arms. "+ROBES)
+
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())
@@ -295,7 +309,7 @@ for n,nv,ton,era,desc in S:
 
 # --- Ảnh phần hai của câu dài (quy tắc: clip Veo 8 giây, câu dài hơn thì vẽ thêm ảnh; mã 100 + số câu) ---
 EXTRA={
-101:("H",C,"a single shallow bronze oil dish on a low plain wooden table at dusk, its tiny flame bending low and small, through a lattice window behind it the glow of a burning fleet on the river fading to dark, completely empty, absolutely no people",""),
+101:("H",C,"a single shallow bronze oil dish on a low plain wooden table at dusk, its tiny flame bending low and small, through a plain square window opening in a thick mud-brick wall with fixed wooden bars in a grid, beyond it the glow of a burning fleet on the river fading to dark, completely empty, absolutely no people","The wall is bare thick mud-brick and the window opening has only fixed wooden bars. "),
 116:("H",C,"a wide view from a hill over a vast riverside camp: countless small tents in endless rows and a packed crowd of small boats along the bank reaching the horizon, plain blank banners, tiny soldiers, cold winter light",SHIP),
 121:("H",C,"a sand-table model of a river on a plain wooden table seen from above: on the right a huge field of tiny red clay markers, on the left a small group of tiny blue clay markers, a calm hand placing one blue marker, soft window light, only the hand visible",""),
 124:("H",F,"the first fire boats crashing into the enemy fleet of boxy Han warships at night, bright flames leaping from ship to ship, strong wind bending the flames, black smoke, small figures on the decks, wide view",SHIP+" Every ship has exactly one mast; no European galleons, no multi-masted ships."),

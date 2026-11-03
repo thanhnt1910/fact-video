@@ -1,13 +1,14 @@
 """Vẽ lại ảnh TQ9 bằng FLUX.2 klein trên Cloudflare, đúng prompt trong TQ9_anh.json (không thêm style).
 Ảnh ra assets/anh_2d/TQ9CF/NNN.jpg (không đè bộ chính). Dùng: python ve_anh_cf.py 004,028,..."""
-import json, sys, io
+import json, sys, io, os
+MA = os.environ.get("MA") or "TQ9"
 from pathlib import Path
 from PIL import Image
 import ai_images as A
 
 keys = [k.strip() for k in sys.argv[1].split(",") if k.strip()]
-data = {str(d["key"]).zfill(3): d for f in ("TQ9_anh.json", "TQ9X_anh.json") if Path("ke-hoach/nhan-vat/" + f).exists() for d in json.load(open("ke-hoach/nhan-vat/" + f, encoding="utf-8"))}
-out_dir = Path(("assets/anh_2d/TQ9CF" + (sys.argv[3] if len(sys.argv) > 3 else ""))); out_dir.mkdir(parents=True, exist_ok=True)
+data = {str(d["key"]).zfill(3): d for f in (MA + "_anh.json", MA + "X_anh.json") if Path("ke-hoach/nhan-vat/" + f).exists() for d in json.load(open("ke-hoach/nhan-vat/" + f, encoding="utf-8"))}
+out_dir = Path(("assets/anh_2d/" + MA + "CF" + (sys.argv[3] if len(sys.argv) > 3 else ""))); out_dir.mkdir(parents=True, exist_ok=True)
 ok, fail = [], []
 for k in keys:
     d = data.get(k)

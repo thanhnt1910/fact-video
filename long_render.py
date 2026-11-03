@@ -151,7 +151,7 @@ def lamp_level(t):
 def render_layers(page, channel, labels, cards, work):
     """Vẽ các lớp tĩnh ra PNG. Trả về dict đường dẫn."""
     work.mkdir(parents=True, exist_ok=True)
-    page.evaluate("c => { document.getElementById('brand').textContent = c; }", channel)
+    page.evaluate("c => { document.getElementById('brand').textContent = ''; }", channel)   # logo kênh đã gắn riêng (logo.py), không vẽ chữ tên kênh
     page.evaluate(JS_PREP)
     out = {"lamp": [], "noise": [], "label": {}, "card": []}
 

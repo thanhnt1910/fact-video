@@ -6,7 +6,7 @@ from PIL import Image
 import ai_images as A
 
 keys = [k.strip() for k in sys.argv[1].split(",") if k.strip()]
-data = {str(d["key"]).zfill(3): d for d in json.load(open("ke-hoach/nhan-vat/TQ9_anh.json", encoding="utf-8"))}
+data = {str(d["key"]).zfill(3): d for f in ("TQ9_anh.json", "TQ9X_anh.json") if Path("ke-hoach/nhan-vat/" + f).exists() for d in json.load(open("ke-hoach/nhan-vat/" + f, encoding="utf-8"))}
 out_dir = Path(("assets/anh_2d/TQ9CF" + (sys.argv[3] if len(sys.argv) > 3 else ""))); out_dir.mkdir(parents=True, exist_ok=True)
 ok, fail = [], []
 for k in keys:

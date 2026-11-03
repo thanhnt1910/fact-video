@@ -1059,7 +1059,9 @@
     ]
    }
   ],
-  "giong_tung_cau": true
+  "giong_tung_cau": true,
+  "tts_engine": "vieneu",
+  "vieneu_voice": "Thiện Minh"
  },
  "binh_luan": {
   "dai": {

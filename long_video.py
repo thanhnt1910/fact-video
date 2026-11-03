@@ -76,6 +76,59 @@ def chapter_audio(text, voice, work, extra=""):
     return mv.read_wav(wav)
 
 
+def _vieneu_g2(raw_wav, out_wav):
+    """Bộ chỉnh G2 cho giọng VieNeu: cắt nghỉ (ngắn ~0,18 s, cuối câu ~0,45 s), hạ nửa cung, nhanh 18%, EQ ấm + rõ."""
+    import wave
+    tmp = Path(str(out_wav) + ".a.wav"); tmp2 = Path(str(out_wav) + ".b.wav")
+    mv.run_ffmpeg(["-i", str(raw_wav), "-ac", "1", "-ar", "24000", "-sample_fmt", "s16", str(tmp)])
+    w = wave.open(str(tmp)); x = np.frombuffer(w.readframes(w.getnframes()), np.int16); w.close()
+    win = 480; k = len(x) // win
+    r = np.sqrt((x[:k * win].astype(np.float64).reshape(k, win) ** 2).mean(1) + 1e-6)
+    thr = max(150.0, 0.1 * float(np.median(r[r > np.percentile(r, 40)]))); q = r < thr
+    out = []; i = 0
+    while i < k:
+        j = i
+        while j < k and q[j] == q[i]:
+            j += 1
+        if q[i]:
+            keep = min(int((0.45 if (j - i) * 0.02 >= 0.55 else 0.18) / 0.02), j - i)
+            out.append(x[i * win:(i + keep) * win])
+        else:
+            out.append(x[i * win:j * win])
+        i = j
+    y = np.concatenate(out) if out else x
+    wo = wave.open(str(tmp2), "wb"); wo.setnchannels(1); wo.setsampwidth(2); wo.setframerate(24000)
+    wo.writeframes(y.astype(np.int16).tobytes()); wo.close()
+    eq = ("equalizer=f=150:t=q:w=1:g=3,equalizer=f=3000:t=q:w=1:g=1.5,"
+          "acompressor=threshold=-20dB:ratio=2.5:attack=20:release=250")
+    try:
+        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"rubberband=pitch=0.944:tempo=1.18:formant=preserved,{eq}",
+                       "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(out_wav)])
+    except Exception:
+        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"asetrate=24000*0.944,aresample=24000,atempo=1.25,{eq}",
+                       "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(out_wav)])
+    tmp.unlink(missing_ok=True); tmp2.unlink(missing_ok=True)
+
+
+def vieneu_beats(texts, voice, work):
+    """Đọc từng câu bằng VieNeu v3 Turbo (CPU), chỉnh G2, lưu tạm theo nội dung. Trả về danh sách mẫu âm."""
+    TTS_CACHE.mkdir(parents=True, exist_ok=True)
+    keys = [hashlib.sha1(f"vieneu|{voice}|g2v1|{t}".encode()).hexdigest()[:16] for t in texts]
+    todo = [(k, t) for k, t in zip(keys, texts) if not (TTS_CACHE / f"{k}.wav").exists()]
+    if todo:
+        py = ROOT / ".venv-tts" / "bin" / "python"
+        job = {"voice": voice, "items": []}
+        for k, t in todo:
+            job["items"].append({"text": t, "out": str(work / f"{k}_vn.wav")})
+        jf = work / "vieneu_job.json"; jf.write_text(json.dumps(job, ensure_ascii=False), encoding="utf-8")
+        t0 = time.time()
+        subprocess.run([str(py if py.exists() else sys.executable), str(ROOT / "vieneu_tts.py"), str(jf)], check=True)
+        for k, t in todo:
+            _vieneu_g2(work / f"{k}_vn.wav", TTS_CACHE / f"{k}.wav")
+        log(f"     🎙️  VieNeu đọc {len(todo)} câu ({time.time() - t0:.0f}s)")
+    return [mv.read_wav(TTS_CACHE / f"{k}.wav") for k in keys]
+
+
 def _can_am_luong(smp, target_rms=3000.0):
     """Cắt lặng thừa đầu/cuối và đưa âm lượng từng câu về cùng một mức (không tốn lượt Gemini)."""
     x = np.frombuffer(smp.tobytes(), np.int16).astype(np.float32)
@@ -566,8 +619,13 @@ def build(script, cfg, out_dir):
             extra = (am_thanh.sac_thai(loai, script.get("phong_cach") == "huyen-bi") + " " + script.get("giong_them", "")).strip() \
                 if lc.get("giong_sac_thai", True) else script.get("giong_them", "")
             audio, segs = array.array("h"), []
-            for x in texts:
-                one = chapter_audio(am_thanh.chuan_hoa(x, tu) if lc.get("giong_sac_thai", True) else x, voice, work, extra)
+            if (script.get("long") or {}).get("tts_engine") == "vieneu":
+                _vn = vieneu_beats([am_thanh.chuan_hoa(x, tu) for x in texts],
+                                   (script.get("long") or {}).get("vieneu_voice", "Thiện Minh"), work)
+            else:
+                _vn = None
+            for _i, x in enumerate(texts):
+                one = _vn[_i] if _vn is not None else chapter_audio(am_thanh.chuan_hoa(x, tu) if lc.get("giong_sac_thai", True) else x, voice, work, extra)
                 one = _can_am_luong(one)
                 st0 = len(audio)
                 audio.extend(one)

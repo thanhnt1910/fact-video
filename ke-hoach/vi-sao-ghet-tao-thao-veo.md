@@ -1,0 +1,71 @@
+# Vì sao cả ngàn năm người ta ghét Tào Tháo? — Clip Veo (nhóm A, 24 clip)
+
+Soạn 03/11/2026 sau khi xem cả 74 ảnh ở cỡ lớn. **Tổng ảnh: 74. Số clip Veo: 24 (≥ 20). Số cảnh hoạt hình nhẹ: 16. Số ảnh tĩnh: 34.**
+Chọn theo tầm quan trọng của câu chuyện (mở đầu, lúc bước ngoặt, câu hỏi cuối), mỗi clip chỉ một hành động nhỏ và chậm kèm chuyển động phụ (gió, khói, nước, vạt áo, ánh sáng) để cảnh sống động mà ảnh không bị vẽ lại. Có 21 clip dự phòng cho trường hợp Veo vẽ lại khung đầu hoặc mọc thêm tay.
+Lưu clip ở `assets/clips_2d/TQ10/NNN.mp4` (NNN = số câu = số ảnh), kèm `danh_sach.json`. Chủ kênh tạo clip trong Google Flow.
+
+## Nhóm A — Veo (24 clip)
+
+Chọn "Frames to Video", tải ảnh `assets/anh_2d/TQ10/NNN.jpg` làm khung đầu, 16:9, 8 giây, tắt âm nếu có. Dán tiền tố rồi dán prompt. Mỗi ảnh một clip. **Làm thử 3 clip trước: 003 (đám trẻ reo hò), 029 (người đi), 065 (gió biển)**, thấy ổn mới làm các clip còn lại. Cột `rủi ro` trong `ke-hoach/veo/TQ10_clips.json` cho biết clip nào hay lỗi (tay, ngựa, đám đông).
+
+**Tiền tố dán vào MỌI prompt:**
+
+`Animate this exact 2D ligne claire illustration. Keep the same drawing style, flat colours, outlines, and exactly the same characters, faces, clothes and objects. Keep exactly the same people in the foreground. Han dynasty clothing only, no modern objects, no new foreground people, no text, no letters, no camera cut, no zoom into faces, silent, no music, no speech. Motion:`
+
+**Quy tắc về tên:** prompt Veo TUYỆT ĐỐI không nêu tên riêng của người thật nổi tiếng, chỉ mô tả hình dáng. Kiểm bằng `python kiem_prompt_veo.py ke-hoach/vi-sao-ghet-tao-thao-veo.md`.
+
+**Quy tắc chuyển động:** người bước đều, áo và khăn bay theo gió; ngựa đi bước thường; không cảnh chém, không máu. Clip nào mọc thêm người, thêm tay, mặt méo, ngựa méo hoặc thừa chân, ảnh đổi nét vẽ thì bỏ, dùng ảnh tĩnh. Veo xuất 720p thì dựng lại 1080p/30 fps.
+
+| Ảnh | Câu | Cảnh (chỉ để tra, KHÔNG dán vào Veo) | Prompt chuyển động (dán sau tiền tố) |
+|---|---|---|---|
+| 001 | 1 | Con phố thành thị thời Tống buổi sáng, người đi lại, quán có mái vải, một xe kéo | Slow gentle push-in down the lively market street: townspeople stroll in both directions, a man pulls a small wooden cart, the cloth shop awnings ripple in a light breeze, a seated customer lifts his head to watch the passers-by, warm dust glows in the morning light. |
+| 002 | 2 | Người kể chuyện áo nâu đứng trên bục gỗ, sáu đứa trẻ ngồi quanh | Slow push-in towards the storyteller on the low wooden platform: he sweeps one raised arm in a wide storytelling gesture, his long sleeve swinging, then lowers it; the seated children lean forward together, their heads tilting and turning to follow his hand, a few shuffle on their knees with open-mouthed excitement. |
+| 003 | 3 | Lũ trẻ ngồi thành hàng, đứa khóc, đứa giơ nắm tay reo hò | Gentle camera sway as the children seated in a row react: the ones with tears sniff and rub their eyes, then the others thrust their raised fists up and down in joyful bursts with mouths wide open, topknots bouncing, small dust puffs rising from the ground. |
+| 012 | 12 | Người trẻ áo xanh đậm đối mặt ông già tóc râu bạc trong sân | Very slow lateral drift between the two men standing face to face in the courtyard: the young man's stern frown slowly softens into a pleased, proud smile while the white-bearded elder studies him and gives a slow nod, their sleeves and sashes sway in a light breeze, a few leaves skitter across the paving. |
+| 014 | 14 | Người viết sử ngồi trước bàn thấp trong sân, cầm bút | Very slow drift to the right as the scholar kneeling at the low table draws his brush smoothly across a scroll, pauses, dips it and writes again, his shoulders rise with a quiet breath, the grass at the courtyard edge sways and a breeze ruffles his sleeve. |
+| 021 | 21 | Dân chạy loạn đi dọc kênh, xe bò chở đồ, khói ở làng xa | Slow lateral tracking as the villagers move along the canal road: the ox carts roll forward with their wheels turning, a lone traveller trudges on carrying a bundle, grey smoke columns drift up from the village and the hills, the canal water ripples. |
+| 023 | 23 | Người đàn ông cao áo đen đứng cạnh cậu bé ngồi bên bàn | Very slow push-in as the tall man at the table presses his hand on it and turns his head to look down at the seated child; the child lifts his eyes to the man with a worried glance and his fingers shift on the table edge, soft light drifts across the wall. |
+| 027 | 27 | Người áo đen đưa chiếc mũ đen cao cho người áo xám đang đưa tay đón | Slow push-in as the man in black slowly holds out the tall black hat towards the man in grey, who reaches out and takes hold of its cord; the man in black gives a measured nod, their sleeves sway, wind stirs the sashes. |
+| 028 | 28 | Người chèo thuyền trên sông, buồm trắng, thuyền khác ở xa | Slow tracking alongside the boat as the boatman steers it forward along the river, the white sails billow, ripples spread behind the hull, distant boats glide, mist drifts over the water, a bird crosses the sky. |
+| 029 | 29 | Người áo xám đi giữa con hẻm lát đá | Slow dolly back as the man walks steadily down the stone lane toward the camera, arms swinging gently, his sash and trouser hems swaying, long shadows slide along the paving, a leaf drifts across the path. |
+| 034 | 34 | Người râu ngắn viết ban đêm bên đĩa dầu có ngọn lửa nhỏ, cạnh một bọc vải | Locked camera with slow drift: the writer at the night table moves his brush in short deliberate strokes, the small oil dish flame flickers and throws shifting warm light across his face and the cloth bundle, stars twinkle, a night breeze stirs his topknot. |
+| 036 | 36 | Người áo dài đi khuất dần trên con đường đất ướt, nhà đổ ở xa | Slow follow behind as the man in a long robe walks away down the damp lane, puddles ripple at each step, his robe hem sways, mist drifts between the roofs, a distant ruined building sits in the haze. |
+| 038 | 38 | Người lữ khách đeo bó thẻ tre sau lưng đi giữa phố núi lúc chạng vạng | Slow push-in as the traveller strides forward with the bundle on his back, sandals stepping on the dusty lane, his sleeves swaying, dusk light shifting, mountain mist drifting behind him. |
+| 045 | 45 | Người áo đen đi trên lối giữa dãy nhà, hai đứa trẻ đi hai bên | Slow lateral tracking as the man walks along the path between the long houses with a child on each side, the three step in an easy rhythm, bamboo and pine boughs sway, their sleeves flutter, a bird crosses the sky. |
+| 048 | 48 | Người béo cười, áo nâu, đứng bên lan can cầu, kênh và hoàng hôn | Slow drift as the smiling man at the bridge railing leans slightly and breathes in the sunset air, his broad sleeve and sash stir in the breeze, he gives a small slow nod while golden light ripples on the canal water. |
+| 050 | 50 | Ông già áo nâu đi ngược lưng về phía xa dọc bờ kênh | Slow follow behind as the old man in a brown robe walks steadily along the stone embankment, his robe sways, the canal water ripples beside him, tree leaves flutter, the light shifts slowly. |
+| 051 | 51 | Đám trẻ chơi trò đánh nhau giả, một đứa đeo râu giả cầm gậy | Slow lateral drift as the children play a mock duel in the lane with no contact: the boy with the long stick swings it in a slow exaggerated arc while the boy opposite staggers back laughing, the smaller children bounce and clap, their sleeves flap, dust puffs at their feet. |
+| 052 | 52 | Người kể chuyện dang hai tay trước quán gỗ sáng đèn | Slow push-in as the storyteller throws both arms wide, then brings them in with a slow dramatic flourish, his long sleeves swinging, warm light from the lattice windows flickering behind him, he leans forward and back with a breath. |
+| 055 | 55 | Người viết ngồi bên bàn thấp, cuộn thẻ, hộp gỗ, cửa sổ chấn song | Slow drift as the writer kneeling at the low table draws the brush down the scroll in smooth strokes, pauses to think, then writes again, window light shifts across the floor mat, a gentle breeze moves his sleeve. |
+| 062 | 62 | Người cưỡi ngựa nâu sẫm đi trên con đường làng | Slow lateral tracking as the rider guides the dark horse forward at a calm walking pace, the horse's legs move in a natural regular gait, its mane and tail sway, his sleeves flutter, dust rises at the hooves, mist drifts along the lane. |
+| 064 | 64 | Ông già râu bạc cười, giơ cây gậy nhỏ, nắng sớm phía sau | Slow push-in as the smiling old man raises the small stick in his hand and lets it fall with a flourish, his sleeve swinging, warm sunrise light glowing behind him, dust motes floating in the air. |
+| 065 | 65 | Người áo choàng đen đứng trên bãi biển, sóng vỗ | Slow push-in as the sea wind whips the man's dark cloak and sleeves, waves roll in and break near his feet, his head turns slowly out toward the horizon, clouds drift. |
+| 073 | 73 | Người áo đen đứng chính diện giữa ngõ, nhìn thẳng | Barely perceptible push-in on the standing man: he draws a slow breath, blinks once, his eyes sweeping slowly from left to right, a breeze moves his sleeves and sash, cloud shadows drift across the walls. |
+| 074 | 74 | Sáu đứa trẻ ngồi hàng dưới gốc cây lớn | Slow drift as the six children under the tree glance at one another, then turn their heads toward the camera one after another with curious questioning looks, tree leaves rustle, dappled light moves across them, one child swings her feet. |
+
+## Nhóm B — hoạt hình nhẹ bằng `anim_nhe.py` (16 cảnh, không dùng AI)
+
+Cảnh vắng người; cần `ke-hoach/nhan-vat/TQ10_nhe.json` (khung chọn tay khi đã có ảnh).
+
+| Ảnh | Chuyển động nhẹ |
+|---|---|
+| 006 | sương trôi dọc phố, đèn cửa sổ nhấp nháy rất nhẹ |
+| 009 | trăng sáng, mây trôi chậm, lá cây rung |
+| 011 | lúa và cỏ bên đường đung đưa, mây chiều trôi |
+| 019 | mặt nước hai bên con đường gợn sóng |
+| 020 | khói bốc lên từ xa, cỏ rung, mây trôi |
+| 024 | bụi và sương bay dọc con đường vắng |
+| 031 | cỏ đồng rung, mây trôi, cờ nhỏ trên thành xa |
+| 032 | hai ngọn lửa trong chậu đồng nhảy nhẹ |
+| 042 | khói bếp từ các mái nhà bay lên, nước kênh gợn |
+| 047 | khói bay trên bờ sông, mặt nước gợn |
+| 058 | sương và bụi trôi trên đường, cỏ rung |
+| 061 | lửa bếp nhảy, hơi nước bốc lên từ nồi, con lợn dậm chân nhẹ |
+| 063 | sương trôi, lá khô bay qua dấu chân |
+| 066 | sóng biển vỗ, mặt trời sáng lên dần |
+| 071 | ngọn lửa trên sân khấu nhảy, tấm màn đỏ lay |
+| 072 | khói đen cuộn chậm bên bờ mương, sương trôi |
+
+## Còn lại — ảnh tĩnh (34 ảnh)
+
+004, 005, 007, 008, 010, 013, 015, 016, 017, 018, 022, 025, 026, 030, 033, 035, 037, 039, 040, 041, 043, 044, 046, 049, 053, 054, 056, 057, 059, 060, 067, 068, 069, 070

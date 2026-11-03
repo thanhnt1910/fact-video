@@ -5,14 +5,93 @@
   🖼️  Ảnh cho video dài
   🔍 Kiểm tra 74 ảnh: 12 ảnh lỗi, 0 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (10 chương)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (7s)
+     🎙️  Gemini đọc xong 1 chương (10s)
+     🎙️  Gemini đọc xong 1 chương (7s)
+     🎙️  Gemini đọc xong 1 chương (15s)
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (26s)
      🎙️  Gemini đọc xong 1 chương (6s)
-     🎙️  Gemini đọc xong 1 chương (9s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (14s)
+     🎙️  Gemini đọc xong 1 chương (12s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+     🎙️  Gemini đọc xong 1 chương (18s)
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (3s)
+     🎙️  Gemini đọc xong 1 chương (36s)
+     🎙️  Gemini đọc xong 1 chương (7s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (10s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
    [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (83s)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+     🎙️  Gemini đọc xong 1 chương (26s)
      🎙️  Gemini đọc xong 1 chương (5s)
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+  ⏱️  Thời lượng 12:04 · 74 cảnh ảnh
+  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
+[0;93m2026-11-03 08:51:35.176462186 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     74/74 ảnh có độ sâu
+  🎞️  22 cảnh có clip chuyển động
+     17383 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (162 giây)
+     … 6/12 đoạn (315 giây)
+     … 9/12 đoạn (424 giây)
+     … 12/12 đoạn (443 giây)
+     dựng khung hình xong trong 444 giây
+     🔇 E4_001.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_002.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_014.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_021.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_023.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_045.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_051.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_052.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_055.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_064.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_073.mp4: không có tiếng, dùng giọng đọc như thường
+  🎬 Tiếng gốc clip Veo: 11 clip, nhường giọng đọc khi có lời
+  🏷️  Đã gắn logo kênh vào góc trên bên phải
+  🔈 Âm lượng cuối: -15.2 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-flash-lite-latest)
+✅ Video dài: TQ10_dai.mp4 (12:04)
+
+Xong video ngắn: - · video dài: TQ10

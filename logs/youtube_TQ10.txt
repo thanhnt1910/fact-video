@@ -1,0 +1,34 @@
+TIÊU ĐỀ YOUTUBE: Vì sao cả ngàn năm người ta ghét Tào Tháo? | Tam Quốc theo chính sử
+
+MÔ TẢ:
+Trẻ con thời Tống chưa từng gặp Tào Tháo mà đã biết ghét ông. Video đi qua ba tầng tư liệu: chính văn các bộ sử, chú giải và dị bản, rồi tiểu thuyết, và cuộc tranh cãi về chính thống, để xem nỗi ghét ấy bắt đầu từ đâu. Nguồn: Hậu Hán thư, Tam quốc chí và chú giải, Hán Tấn xuân thu, Tư trị thông giám, Cương mục, Tam quốc diễn nghĩa. Một số chi tiết chưa đối chiếu nguyên văn.
+
+📌 Mục lục:
+00:00 Mở đầu
+
+#nguoigacsu #tamquoc #taotao #lichsu #chinhsu #chinhthong #tamquocdiennghia
+
+TAG YOUTUBE: nguoigacsu, tamquoc, taotao, lichsu, chinhsu, chinhthong, tamquocdiennghia
+
+📌 Video sử dụng giọng đọc AI và một số tranh minh họa tạo bằng AI.
+
+════ BÌNH LUẬN GHIM CỦA CHỦ KÊNH (đăng ngay, rồi ghim) ════
+Video chia nỗi ghét Tào Tháo thành ba tầng: việc có trong chính văn các bộ sử, chú giải và dị bản, và tiểu thuyết. Câu thà ta phụ người và chuyện nghe tiếng mài dao chỉ có ở tầng chú giải và tiểu thuyết, độ chắc thấp hơn chính văn.
+
+════ BÌNH LUẬN PHỤ 1 (đăng sau 15–30 phút) ════
+Lưu ý: một số chi tiết chưa đối chiếu nguyên văn chữ Hán; hình ảnh là tranh minh họa.
+
+════ CÁCH ĐĂNG BÌNH LUẬN (không đăng) ════
+Đăng bình luận ghim trong 5–15 phút đầu rồi ghim lại; bình luận phụ đăng sau 15–30 phút (hoặc gộp làm một). Trả lời bình luận người xem trong 1–2 giờ đầu. Không dùng tài khoản phụ / clone để bình luận.
+Link chỉ để trong bình luận, không để trong caption. TikTok không bấm được link trong bình luận: chỉ ghi tên nguồn.
+⚠️ Đã bỏ link nguồn "Tam quốc chí, Wikisource" (https://zh.wikisource.org/wiki/三國志): không mở được (UnicodeEncodeError)
+⚠️ Đã bỏ link nguồn "Hậu Hán thư, Wikisource" (https://zh.wikisource.org/wiki/後漢書): không mở được (UnicodeEncodeError)
+
+──── GHI CHÚ (không đăng) ────
+Nguồn kiểm chứng:
+- Hậu Hán thư, Tam quốc chí (Vũ đế kỷ) và chú giải Bùi Tùng Chi; Hán Tấn xuân thu của Tập Tạc Xỉ; Tư trị thông giám của Tư Mã Quang; Tư trị thông giám cương mục của Chu Hy; Tam quốc diễn nghĩa.
+- Một số chi tiết trong video chưa đối chiếu nguyên văn chữ Hán; những chỗ đó được nêu trong bình luận ghim.
+
+──── PHỤ ĐỀ ────
+YouTube Studio → video → Phụ đề → Thêm ngôn ngữ → Tiếng Việt → Tải tệp lên → TQ10_dai_vi.srt
+Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file TQ10_dai_youtube_en.txt, rồi tải phụ đề TQ10.en_US.srt (Facebook tự nhận tiếng Anh theo tên file).

@@ -33,10 +33,10 @@
   {
    "key": "002",
    "nv": [
-    "zy",
-    "zgl"
+    "kc",
+    "dan"
    ],
-   "mo_ta": "two men facing each other across a low table in a tent, Zhou Yu in a teal robe glaring with a tight jaw and Zhuge Liang in a white-and-blue robe smiling calmly, clearly different faces and colours, opposite attitudes"
+   "mo_ta": "a big shadow-play screen lit from behind in a Song market square: on the screen a large teal silhouette lies fallen on the ground while a tall white silhouette with a feather fan stands over it, a crowd of townspeople seen from behind watching with open mouths"
   },
   {
    "key": "003",
@@ -68,14 +68,14 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "an old storyteller standing on a low plain wooden platform in an open Song market square telling a tale with an open hand, a crowd of townspeople nodding and smiling in satisfaction, plain tiled-roof houses and trees behind, a gentle bright afternoon"
+   "mo_ta": "a storyteller's low table in a Song market square with four small wooden figurines in a row: a tall white-robed clever one, a green-robed one with a sour jealous face, a fallen one lying on its back, and a victorious one with raised arms; a child sits in front of the table listening with wide eyes while the storyteller's open hand points along the row"
   },
   {
    "key": "007",
    "nv": [
-    "ps"
+    "dan"
    ],
-   "mo_ta": "a young scholar pushing open a heavy wooden door into a high archive room whose walls are filled with shelves of tied bamboo-slip bundles, bright light streaming across the floor, an old keeper beside him holding an oil dish"
+   "mo_ta": "a thoughtful townsman with one hand on his chin and a doubtful raised eyebrow, a large glowing golden question-mark floating in the air above his head, a curious child beside him tugging his sleeve and looking up at the question-mark, a quiet Han street behind them in soft daylight"
   },
   {
    "key": "008",
@@ -127,7 +127,7 @@
    "nv": [
     "zy"
    ],
-   "mo_ta": "exactly ONE man: Zhou Yu bending over a sand-table model of a river and hills in his tent, placing small plain blank flags on the model with careful focus, no second figure"
+   "mo_ta": "a long low zither lying on a table beside a sand-table of a river valley: wavy golden ribbons of sound rise from the zither strings and flow across the table turning into tiny flags and little clay soldiers arranged in a battle formation, Zhou Yu in teal leaning over the table with a keen listening look and two officers watching"
   },
   {
    "key": "015",
@@ -227,10 +227,9 @@
   {
    "key": "028",
    "nv": [
-    "zgl",
-    "sb"
+    "kc"
    ],
-   "mo_ta": "Zhuge Liang standing alone on a tall earthen altar with both arms raised and his robe whipped by wind, a few officers looking up at him from below in awe, a river and a storm sky behind"
+   "mo_ta": "a street storyteller's puppet stage in a Song market square: the storyteller's hand lifts a golden hat from the head of a small teal puppet and places it on the head of a taller white puppet, a crowd of townspeople seen from behind watching"
   },
   {
    "key": "029",
@@ -333,10 +332,10 @@
   {
    "key": "041",
    "nv": [
-    "zy",
-    "zgl"
+    "cs",
+    "dan"
    ],
-   "mo_ta": "Zhou Yu and Zhuge Liang sitting calmly on opposite mats with a teapot-less clay water jar between them, nodding to each other courteously, peaceful warm light, clearly different faces"
+   "mo_ta": "an old historian holding up a large blank unrolled strip of pale silk in a bright courtyard while three townsmen lean in and look for a story that is not there, one of them scratching his head and another raising an open palm in puzzlement"
   },
   {
    "key": "042",
@@ -454,7 +453,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a storyteller on a low plain wooden platform in an open Song market square acting out a man clutching his chest and falling backward, a crowd of townspeople gasping and covering their mouths, plain tiled-roof houses and trees behind"
+   "mo_ta": "a storyteller on a low plain wooden platform in a Song market square acting out a man clutching his chest and falling backward, a crowd of townspeople gasping and covering their mouths, a large glowing golden question-mark floating above the crowd"
   },
   {
    "key": "057",
@@ -475,11 +474,10 @@
   {
    "key": "059",
    "nv": [
-    "zy",
-    "zgl",
-    "sb"
+    "kc",
+    "dan"
    ],
-   "mo_ta": "Zhou Yu in the foreground with folded arms and a sour jealous face looking aside, while far behind him a crowd of soldiers cheers around a tiny white-robed Zhuge Liang"
+   "mo_ta": "a showman in a Song market square lifting a large golden jade ornament off the belt of a teal-robed figure and hanging it round the neck of a white-robed figure beside him, townspeople watching with interest, the teal figure looking down with a small dark cloud over his head"
   },
   {
    "key": "060",
@@ -511,7 +509,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a storyteller at a table with three small wooden blocks laid in a row in front of him, leaning toward a captivated crowd with a wide grin, townspeople leaning in, warm glow"
+   "mo_ta": "a storyteller standing before three bronze gongs hanging in a row on a wooden frame at a Song market stage, striking the third gong with a mallet while children in the front row clap in rhythm and hold up three fingers"
   },
   {
    "key": "064",
@@ -521,9 +519,10 @@
   {
    "key": "065",
    "nv": [
-    "ps"
+    "ps",
+    "dan"
    ],
-   "mo_ta": "exactly ONE scholar placing a tied bundle of bamboo slips on the lowest of three plain shelves, the upper two shelves holding differently wrapped bundles, calm face, no second figure"
+   "mo_ta": "a three-storey Han tower under construction in bright daylight: workers and an old scholar pressing heavy square stone blocks into place to form the solid stone foundation and first floor, the upper floors still bare wooden frames, ropes and a wooden crane"
   },
   {
    "key": "066",
@@ -582,7 +581,7 @@
    "nv": [
     "zy"
    ],
-   "mo_ta": "exactly ONE man: Zhou Yu standing calmly in the centre, on the left behind him a grand courtyard house, on the right behind him a river with a burning fleet far away, golden light, no second figure"
+   "mo_ta": "Zhou Yu standing calmly at the centre in teal, around him four glowing round medallion paintings floating in the air: a big courtyard house, a burning enemy fleet on a river, a wounded man standing up among watching soldiers, a man writing in a sickbed"
   },
   {
    "key": "074",

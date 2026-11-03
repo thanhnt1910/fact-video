@@ -63,3 +63,9 @@ Quy tắc ở mục A đến D thiên về cảnh người làm việc, nên cá
 6. **Vẽ 2 bản** cho ảnh ẩn dụ và soi xem người ngoài nhìn có hiểu không. Nếu phải giải thích mới hiểu thì đổi ẩn dụ.
 7. **Vẫn giữ mọi quy tắc cấm:** không chữ, không viền, đồ đúng thời, màu sáng; ẩn dụ không dùng cờ có hình, bia, biển, thẻ có chữ.
 8. **Ẩn dụ không thay thế cảnh người ở đoạn kể sự việc:** đoạn nào kể ai làm gì thì vẫn vẽ người đó, đúng quy tắc tóc búi, tay, số người.
+
+### E2. Minh họa sáng tạo, không tả thực từng câu (chủ kênh yêu cầu 03/11/2026, 23:36)
+- Câu giải thích, đặt câu hỏi, so sánh nguồn hay nêu ý trừu tượng **không vẽ tả thực lời kể**. Dùng hình minh họa sáng tạo nhưng vẫn đúng cốt truyện. Ví dụ cho sẵn: câu hỏi thì vẽ một người đang suy tư với một **dấu hỏi chấm vàng lớn phát sáng** lơ lửng trên đầu (dấu hỏi là biểu tượng, được phép, không tính là chữ).
+- **Kho thủ pháp:** dấu hỏi chấm; cờ vây hai người (đi trước một bước); sa bàn có quân đất sét (số quân, kế hoạch); tòa nhà ba tầng (ba tầng tư liệu); móng đá của tòa nhà (chính văn); sân khấu rối và bóng rối (người kể chuyện); lấy mũ vàng từ rối này đặt sang rối kia (chuyển công trạng); dải sóng vàng từ đàn biến thành cờ trận (người nhạy nhạc biết đọc thế trận); cán cân; ba chiếc cồng đánh ba hồi (con số ba); bốn khung tranh tròn bay quanh nhân vật (tóm lại bốn việc); lụa trắng trống trơn (chưa từng có chuyện ấy); ngã ba đường (hai cách nhớ); tường treo tranh chân dung (người bạn nghĩ là ai).
+- Không vẽ cảnh một người đứng một mình trừ khi người ấy đang làm điều có nghĩa (suy tư dưới dấu hỏi). Ưu tiên 2 đến 5 người có việc rõ ràng, hoặc vật minh họa có nghĩa.
+- Cảnh kể sự việc (hành quân, đánh trận, gặp gỡ, khóc tang) vẫn vẽ đúng sự việc. Mỗi ảnh vẫn tuân thủ quy tắc tóc búi, hai tay, không chữ, màu sáng.

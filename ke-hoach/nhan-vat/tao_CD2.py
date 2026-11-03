@@ -226,6 +226,25 @@ for _n,(_nv,_ton,_era,_desc,_fx) in NEW.items():
     S=[(_n,_nv,_ton,_era,_desc) if x[0]==_n else x for x in S]
     FIX[_n]=TOP+_fx
 
+
+NEW.update({
+2:(["kc","dan"],W,"S","a big shadow-play screen lit from behind in a Song market square: on the screen a large teal silhouette lies fallen on the ground while a tall white silhouette with a feather fan stands over it, a crowd of townspeople seen from behind watching with open mouths","The audience seen from behind wears simple tunics and caps or topknots. "+SQUARE),
+6:(["kc","dan"],W,"S","a storyteller's low table in a Song market square with four small wooden figurines in a row: a tall white-robed clever one, a green-robed one with a sour jealous face, a fallen one lying on its back, and a victorious one with raised arms; a child sits in front of the table listening with wide eyes while the storyteller's open hand points along the row","The figurines are plain small wooden dolls with simple painted faces. "+SQUARE),
+7:(["dan"],C,"H","a thoughtful townsman with one hand on his chin and a doubtful raised eyebrow, a large glowing golden question-mark floating in the air above his head, a curious child beside him tugging his sleeve and looking up at the question-mark, a quiet Han street behind them in soft daylight","The question-mark is a big golden curved symbol with a dot, drawn as a shining object in the air."),
+14:(["zy"],C,"H","a long low zither lying on a table beside a sand-table of a river valley: wavy golden ribbons of sound rise from the zither strings and flow across the table turning into tiny flags and little clay soldiers arranged in a battle formation, Zhou Yu in teal leaning over the table with a keen listening look and two officers watching","The ribbons are smooth glowing golden waves; everyone has exactly two arms."),
+28:(["kc"],W,"S","a street storyteller's puppet stage in a Song market square: the storyteller's hand lifts a golden hat from the head of a small teal puppet and places it on the head of a taller white puppet, a crowd of townspeople seen from behind watching","The puppets are small wooden dolls. "+SQUARE),
+41:(["cs","dan"],C,"H","an old historian holding up a large blank unrolled strip of pale silk in a bright courtyard while three townsmen lean in and look for a story that is not there, one of them scratching his head and another raising an open palm in puzzlement","The silk is completely blank with no marks; each man has exactly two arms."),
+56:(["kc","dan"],W,"S","a storyteller on a low plain wooden platform in a Song market square acting out a man clutching his chest and falling backward, a crowd of townspeople gasping and covering their mouths, a large glowing golden question-mark floating above the crowd","The question-mark is a big golden curved symbol with a dot. "+SQUARE),
+59:(["kc","dan"],W,"S","a showman in a Song market square lifting a large golden jade ornament off the belt of a teal-robed figure and hanging it round the neck of a white-robed figure beside him, townspeople watching with interest, the teal figure looking down with a small dark cloud over his head","The two figures are small wooden puppets on a low stage. "+SQUARE),
+63:(["kc","dan"],W,"S","a storyteller standing before three bronze gongs hanging in a row on a wooden frame at a Song market stage, striking the third gong with a mallet while children in the front row clap in rhythm and hold up three fingers","Each child shows a clear hand with five fingers. "+SQUARE),
+65:(["ps","dan"],C,"H","a three-storey Han tower under construction in bright daylight: workers and an old scholar pressing heavy square stone blocks into place to form the solid stone foundation and first floor, the upper floors still bare wooden frames, ropes and a wooden crane","Each person has a topknot and exactly two arms; no writing anywhere."),
+73:(["zy"],C,"H","Zhou Yu standing calmly at the centre in teal, around him four glowing round medallion paintings floating in the air: a big courtyard house, a burning enemy fleet on a river, a wounded man standing up among watching soldiers, a man writing in a sickbed","The four medallions are small circular painted pictures with golden rims, no writing; Zhou Yu has exactly two arms."),
+})
+for _n in (2,6,7,14,28,41,56,59,63,65,73):
+    _nv,_ton,_era,_desc,_fx=NEW[_n]
+    S=[(_n,_nv,_ton,_era,_desc) if x[0]==_n else x for x in S]
+    FIX[_n]=TOP+_fx
+
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

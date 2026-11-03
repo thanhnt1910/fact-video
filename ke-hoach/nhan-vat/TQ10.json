@@ -1,0 +1,464 @@
+{
+ "ma": "TQ10",
+ "ghi_chu": "Video dài Vì sao cả ngàn năm người ta ghét Tào Tháo",
+ "nhan_vat": {
+  "tt20": "Cao Cao at about twenty, a short wiry young man with sharp clever eyes, clean-shaven with only a faint moustache, hair in a topknot under a black cap, dark-blue cross-collared robe with a dark sash, empty hands, no weapon",
+  "tt53": "Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon",
+  "kechuyen": "a Song street storyteller of about fifty, thin face, short grey beard, plain brown long robe, one hand raised mid-story, simple black cloth cap",
+  "tre": "six village children of different heights and faces, plain cloth tunics, topknots, wide excited eyes",
+  "hathieu": "Xu Shao, a thin elderly Han scholar with a long white beard, plain grey robe, calm penetrating gaze",
+  "chentho": "Chen Shou, a calm scholar-historian of about fifty in a plain dark Jin-dynasty robe and black cap, thoughtful face",
+  "xizuoxi": "Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard",
+  "simaquang": "Sima Guang, an elderly scholar of about sixty-five with a white beard, dark Song robe and a plain black cap, a patient serious face",
+  "chuhy": "Zhu Xi, a stern scholar of about fifty-five with a long beard, dark Song robe and a plain black cap",
+  "sushi": "Su Shi, a cheerful stout poet of about fifty with a thin moustache, brown Song robe and a plain black cap",
+  "hiende": "Liu Xie, a small serious boy of about nine in a plain dark robe, hair in two small tufts"
+ },
+ "canh": [
+  {
+   "key": "001",
+   "nv": [],
+   "mo_ta": "a busy Song-dynasty market street at midday, wooden shopfronts with tiled roofs, carts, hanging plain cloth awnings, a small crowd far away, wide view"
+  },
+  {
+   "key": "002",
+   "nv": [
+    "kechuyen",
+    "tre"
+   ],
+   "mo_ta": "the storyteller standing on a low wooden platform in the middle of a street telling a story with raised hand, a circle of excited children sitting on the ground around him, shopfronts behind"
+  },
+  {
+   "key": "003",
+   "nv": [
+    "tre"
+   ],
+   "mo_ta": "a close view of the children sitting in the circle: some frown and a few wipe tears, then others burst out cheering with raised arms, each child a different face"
+  },
+  {
+   "key": "004",
+   "nv": [
+    "sushi"
+   ],
+   "mo_ta": "exactly ONE man only, a poet in a brown robe sitting beside a window of a study under soft light, brush resting in his hand, no second figure"
+  },
+  {
+   "key": "005",
+   "nv": [
+    "tre"
+   ],
+   "mo_ta": "five children in a quiet street looking up at a tall dark empty gateway, puzzled thoughtful faces, seen slightly from behind, late afternoon"
+  },
+  {
+   "key": "006",
+   "nv": [],
+   "mo_ta": "a long empty Song street at dusk fading into mist, shopfronts closed, one lit paper-free window glow, completely empty, absolutely no people"
+  },
+  {
+   "key": "007",
+   "nv": [],
+   "mo_ta": "a great stone-and-brick hall of records with three tall plain wooden doors side by side in a row, each lit by a different colour of light, completely empty, absolutely no people"
+  },
+  {
+   "key": "008",
+   "nv": [],
+   "mo_ta": "a stone archive room with neat stacks of tied bamboo slips on plain wooden shelves, shafts of light, completely empty, absolutely no people"
+  },
+  {
+   "key": "009",
+   "nv": [],
+   "mo_ta": "a night street scene with a storyteller's empty stool on a small platform and a ring of small stools around it, moonlight, completely empty, absolutely no people"
+  },
+  {
+   "key": "010",
+   "nv": [],
+   "mo_ta": "three stone steps leading up in three levels toward a bright doorway, symbolic, soft light, completely empty, absolutely no people"
+  },
+  {
+   "key": "011",
+   "nv": [],
+   "mo_ta": "Han-era countryside at dawn, a road through fields and a distant walled town, soft light, completely empty, absolutely no people"
+  },
+  {
+   "key": "012",
+   "nv": [
+    "tt20",
+    "hathieu"
+   ],
+   "mo_ta": "young Cao Cao standing before the old scholar in a courtyard, the old scholar studying him closely with narrowed eyes, young man standing proud, two clearly different faces"
+  },
+  {
+   "key": "013",
+   "nv": [
+    "hathieu"
+   ],
+   "mo_ta": "exactly ONE old scholar alone in a quiet room turning to look over his shoulder thoughtfully, no second figure"
+  },
+  {
+   "key": "014",
+   "nv": [
+    "chentho"
+   ],
+   "mo_ta": "exactly ONE scholar-historian seated on a mat at a low plain table in a study, brush ready, a plain wooden box beside him, no second figure"
+  },
+  {
+   "key": "015",
+   "nv": [],
+   "mo_ta": "a great imperial hall with a raised plain throne dais on one side and a smaller plain mat on the other, two different levels, empty, absolutely no people"
+  },
+  {
+   "key": "016",
+   "nv": [],
+   "mo_ta": "a walled palace gate with a processional road before it and a dynasty banner of plain blank cloth, calm sky, completely empty, absolutely no people"
+  },
+  {
+   "key": "017",
+   "nv": [
+    "chentho"
+   ],
+   "mo_ta": "exactly ONE scholar-historian at a window, hands folded in his sleeves, looking out at a vast plain with admiration, no second figure"
+  },
+  {
+   "key": "018",
+   "nv": [
+    "chentho"
+   ],
+   "mo_ta": "exactly ONE scholar standing in front of a plain wall of neatly tied bamboo slips, calm face, no second figure"
+  },
+  {
+   "key": "019",
+   "nv": [],
+   "mo_ta": "a long road leading away from a still dark river toward the horizon, quiet, completely empty, absolutely no people"
+  },
+  {
+   "key": "020",
+   "nv": [],
+   "mo_ta": "a broad plain after a campaign, smoke on the horizon, abandoned carts, completely empty, absolutely no people"
+  },
+  {
+   "key": "021",
+   "nv": [],
+   "mo_ta": "a wide river valley with refugee carts scattered along a long road, smoke over the far hills, tiny distant figures only, wide view"
+  },
+  {
+   "key": "022",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, Cao Cao seen from behind standing before a closed palace door at night, dark hall, no second figure, no crowd"
+  },
+  {
+   "key": "023",
+   "nv": [
+    "tt53",
+    "hiende"
+   ],
+   "mo_ta": "Cao Cao standing close behind the small young emperor on a hall dais, both seen from the side, the emperor looking straight ahead, plain walls, two clearly different faces"
+  },
+  {
+   "key": "024",
+   "nv": [],
+   "mo_ta": "a long road through a burned countryside with a few collapsed carts, quiet grey sky, completely empty, absolutely no people"
+  },
+  {
+   "key": "025",
+   "nv": [],
+   "mo_ta": "a tall wooden gate of a great dynasty hall standing slightly open to a bright empty courtyard, symbolic, completely empty, absolutely no people"
+  },
+  {
+   "key": "026",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, Cao Cao standing at the foot of a raised empty throne dais, not climbing it, hands folded in his sleeves, no second figure"
+  },
+  {
+   "key": "027",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "Cao Cao in a plain dark robe receiving a grand black ceremonial cap from an attendant, proud but calm, a second man in grey bowing, two clearly different faces"
+  },
+  {
+   "key": "028",
+   "nv": [],
+   "mo_ta": "two ships crossing a wide river under a pale sky, a small boat carrying a sealed bundle from the south shore toward the north, plain blank flags, wide view"
+  },
+  {
+   "key": "029",
+   "nv": [],
+   "mo_ta": "a young prince walking along a long palace corridor toward a closed door while his father's shadow falls behind him, no faces, wide view"
+  },
+  {
+   "key": "030",
+   "nv": [],
+   "mo_ta": "a split view of a throne dais seen from below, light and shadow dividing it in two, completely empty, absolutely no people"
+  },
+  {
+   "key": "031",
+   "nv": [],
+   "mo_ta": "a vast Han plain with a single road forking toward three distant walled cities on the horizon, symbolic, completely empty, absolutely no people"
+  },
+  {
+   "key": "032",
+   "nv": [],
+   "mo_ta": "two torch flames burning side by side in a dark hall, one larger one smaller, nothing else, completely empty, absolutely no people"
+  },
+  {
+   "key": "033",
+   "nv": [
+    "xizuoxi"
+   ],
+   "mo_ta": "exactly ONE scholar in a plain robe sitting at a low table in a remote study, thinking, mountains outside the window, no second figure"
+  },
+  {
+   "key": "034",
+   "nv": [
+    "xizuoxi"
+   ],
+   "mo_ta": "exactly ONE scholar writing steadily by oil-dish light at night, a closed plain cloth bundle beside him, no second figure"
+  },
+  {
+   "key": "035",
+   "nv": [
+    "xizuoxi"
+   ],
+   "mo_ta": "exactly ONE scholar standing before a plain empty hall, gesturing as if arguing, no second figure"
+  },
+  {
+   "key": "036",
+   "nv": [
+    "xizuoxi"
+   ],
+   "mo_ta": "exactly ONE scholar looking at a long empty road that leads to an old ruined palace in the distance, no second figure"
+  },
+  {
+   "key": "037",
+   "nv": [],
+   "mo_ta": "a powerful general's tent on a hill above a camp, plain dark flag, a long line of tiny soldiers below, wide view"
+  },
+  {
+   "key": "038",
+   "nv": [
+    "xizuoxi"
+   ],
+   "mo_ta": "exactly ONE scholar travelling alone on a lonely mountain road with a bundle on his back, dusk, no second figure"
+  },
+  {
+   "key": "039",
+   "nv": [],
+   "mo_ta": "a crossroads at dusk with a lone tiny figure far away looking down one of the roads, wide view"
+  },
+  {
+   "key": "040",
+   "nv": [],
+   "mo_ta": "a very long sequence of grey stone steps rising to an old palace through mist, stretching across the years, completely empty, absolutely no people"
+  },
+  {
+   "key": "041",
+   "nv": [
+    "xizuoxi"
+   ],
+   "mo_ta": "exactly ONE scholar standing quietly in a plain room as a pale dawn light fills it, calm acceptance, no second figure"
+  },
+  {
+   "key": "042",
+   "nv": [],
+   "mo_ta": "a Song-dynasty capital city with long wooden bridges over canals and tiled roofs, then a divided land: the north bank in smoke and the south bank in calm, wide view"
+  },
+  {
+   "key": "043",
+   "nv": [
+    "simaquang"
+   ],
+   "mo_ta": "exactly ONE elderly scholar seated at a plain wooden desk with a single oil dish in a study, brush in hand, tired but diligent, no second figure"
+  },
+  {
+   "key": "044",
+   "nv": [
+    "simaquang"
+   ],
+   "mo_ta": "exactly ONE elderly scholar standing at a window thinking, one hand on his beard, looking at a calm river, no second figure"
+  },
+  {
+   "key": "045",
+   "nv": [
+    "chuhy"
+   ],
+   "mo_ta": "a southern Song hillside academy of plain wooden halls among bamboo and pine, a stern scholar and two younger students walking along a path, three clearly different faces"
+  },
+  {
+   "key": "046",
+   "nv": [
+    "chuhy"
+   ],
+   "mo_ta": "exactly ONE stern scholar sitting on a mat with two tied bundles of bamboo slips set a little apart before him, no second figure"
+  },
+  {
+   "key": "047",
+   "nv": [],
+   "mo_ta": "a small southern kingdom town on a river bank with grey tiled roofs, and the far northern bank empty and in smoke, wide view, completely empty of people"
+  },
+  {
+   "key": "048",
+   "nv": [
+    "sushi"
+   ],
+   "mo_ta": "exactly ONE cheerful poet pausing on a bridge over a canal at sunset, looking back down the way he came, no second figure"
+  },
+  {
+   "key": "049",
+   "nv": [
+    "sushi"
+   ],
+   "mo_ta": "the same poet now older, seated by a lake at dusk, grey in his beard, expression serious and different, exactly ONE man only, no second figure"
+  },
+  {
+   "key": "050",
+   "nv": [
+    "sushi"
+   ],
+   "mo_ta": "exactly ONE older poet walking slowly away down a riverside path, long shadow, no second figure"
+  },
+  {
+   "key": "051",
+   "nv": [
+    "tre"
+   ],
+   "mo_ta": "two small children acting out a battle with wooden sticks on a village road, one puffing a fake beard, the other laughing, two clearly different faces"
+  },
+  {
+   "key": "052",
+   "nv": [
+    "kechuyen"
+   ],
+   "mo_ta": "exactly ONE storyteller leaning forward dramatically with both hands wide open, an unseen audience, lit by warm lamp glow in a teahouse, no second figure"
+  },
+  {
+   "key": "053",
+   "nv": [],
+   "mo_ta": "a simple Yuan-era wooden printing workshop with blocks of carved wood on a table and stacks of plain paper sheets, completely empty, absolutely no people"
+  },
+  {
+   "key": "054",
+   "nv": [],
+   "mo_ta": "a lively open-air opera stage with painted pillars and drum, an empty stage, completely empty, absolutely no people"
+  },
+  {
+   "key": "055",
+   "nv": [],
+   "mo_ta": "exactly ONE novelist-scholar sitting by a window writing, a pile of earlier rolled slips beside him, no second figure"
+  },
+  {
+   "key": "056",
+   "nv": [],
+   "mo_ta": "a printing workshop with two men re-cutting wooden blocks by lamp-free window light, different faces, working carefully"
+  },
+  {
+   "key": "057",
+   "nv": [],
+   "mo_ta": "a quiet study bench with two different tied bundles side by side, one slightly raised above the other, completely empty, absolutely no people"
+  },
+  {
+   "key": "058",
+   "nv": [],
+   "mo_ta": "three transparent layers of landscape stacked on each other: at the bottom a muddy road, in the middle a forked road with signs-free posts, on top a bright stage, symbolic, completely empty, absolutely no people"
+  },
+  {
+   "key": "059",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, Cao Cao seated alone by an oil dish at night with a hard thoughtful face, no second figure, no crowd"
+  },
+  {
+   "key": "060",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "a mud-brick farmhouse at night, Cao Cao outside the gate in the dark listening, a faint sharpening sound suggested by a single pale light in the window, exactly ONE man only, no second figure"
+  },
+  {
+   "key": "061",
+   "nv": [],
+   "mo_ta": "a farmhouse kitchen yard with a tied pig, a pot on a fire and a cloth hung to dry, warm light, completely empty, absolutely no people"
+  },
+  {
+   "key": "062",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, Cao Cao on a horse on a lonely road at dusk looking straight ahead, grim face, correct four-legged horse, no second figure"
+  },
+  {
+   "key": "063",
+   "nv": [],
+   "mo_ta": "a misty fork in an old road with several different footprints leading away in different directions, completely empty, absolutely no people"
+  },
+  {
+   "key": "064",
+   "nv": [
+    "kechuyen"
+   ],
+   "mo_ta": "exactly ONE storyteller with a wide delighted smile snapping a plain wooden clapper in a teahouse, the glow of warm light behind, no second figure"
+  },
+  {
+   "key": "065",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, Cao Cao standing at a shore at dusk with a cloak blowing, looking over the sea, no second figure"
+  },
+  {
+   "key": "066",
+   "nv": [],
+   "mo_ta": "a bright vast sea with cliffs and low sun, waves breaking, completely empty, absolutely no people"
+  },
+  {
+   "key": "067",
+   "nv": [
+    "chentho"
+   ],
+   "mo_ta": "exactly ONE scholar reading by the window with a conflicted face, one hand on his chin, no second figure"
+  },
+  {
+   "key": "068",
+   "nv": [],
+   "mo_ta": "a silhouette of one tall scholar and a silhouette of one shorter man side by side before a window light, two different heights, wide view"
+  },
+  {
+   "key": "069",
+   "nv": [],
+   "mo_ta": "a plain wooden board holding a heap of weathered tied bamboo slips and a closed sealed bundle beside them, completely empty, absolutely no people"
+  },
+  {
+   "key": "070",
+   "nv": [],
+   "mo_ta": "a table with several slightly different plain bundles set beside each other, different lengths, completely empty, absolutely no people"
+  },
+  {
+   "key": "071",
+   "nv": [],
+   "mo_ta": "an empty opera stage under warm lights with a single painted backdrop of fire, completely empty, absolutely no people"
+  },
+  {
+   "key": "072",
+   "nv": [],
+   "mo_ta": "a bridge between a dark road and a bright stage, symbolic, completely empty, absolutely no people"
+  },
+  {
+   "key": "073",
+   "nv": [
+    "tt53"
+   ],
+   "mo_ta": "exactly ONE man only, Cao Cao in the centre looking toward the viewer, half his face in warm light and half in cool shadow, no second figure"
+  },
+  {
+   "key": "074",
+   "nv": [
+    "tre"
+   ],
+   "mo_ta": "the circle of children now grown into adults sitting quietly beneath a tree at dusk, thoughtful, looking at the viewer, different faces"
+  }
+ ]
+}

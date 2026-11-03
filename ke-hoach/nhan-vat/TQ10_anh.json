@@ -1,0 +1,595 @@
+[
+ {
+  "key": "001",
+  "cau": 1,
+  "nv": [],
+  "text": "Hãy tưởng tượng một con phố trong thành thị nước Tống, vào khoảng thế kỷ mười một. Lúc ấy, Tào Tháo đã mất hơn tám trăm năm.",
+  "prompt": "a busy Song-dynasty market street at midday, wooden shopfronts with tiled roofs, carts, hanging plain cloth awnings, a small crowd far away, wide view. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "002",
+  "cau": 2,
+  "nv": [
+   "kechuyen",
+   "tre"
+  ],
+  "text": "Giữa phố, một người kể chuyện đang ngồi nói về thời Tam Quốc, và quanh ông là một đám trẻ con.",
+  "prompt": "the storyteller standing on a low wooden platform in the middle of a street telling a story with raised hand, a circle of excited children sitting on the ground around him, shopfronts behind. a Song street storyteller of about fifty, thin face, short grey beard, plain brown long robe, one hand raised mid-story, simple black cloth cap; six village children of different heights and faces, plain cloth tunics, topknots, wide excited eyes. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "003",
+  "cau": 3,
+  "nv": [
+   "tre"
+  ],
+  "text": "Kể đến đoạn Lưu Bị thua trận, lũ trẻ nhăn mặt, có đứa còn khóc. Kể đến đoạn Tào Tháo thua trận, cả đám reo lên sung sướng.",
+  "prompt": "a close view of the children sitting in the circle: some frown and a few wipe tears, then others burst out cheering with raised arms, each child a different face. six village children of different heights and faces, plain cloth tunics, topknots, wide excited eyes. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "004",
+  "cau": 4,
+  "nv": [
+   "sushi"
+  ],
+  "text": "Cảnh này được nhà thơ lớn Tô Thức chép lại. Ông thuật lời của một người bạn tên là Vương Bành.",
+  "prompt": "exactly ONE man only, a poet in a brown robe sitting beside a window of a study under soft light, brush resting in his hand, no second figure. Su Shi, a cheerful stout poet of about fifty with a thin moustache, brown Song robe and a plain black cap. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "005",
+  "cau": 5,
+  "nv": [
+   "tre"
+  ],
+  "text": "Hãy nghĩ kỹ về những đứa trẻ ấy. Chúng chưa từng gặp Tào Tháo, chưa từng bị ông ức hiếp, và ông đã mất từ rất lâu. Vậy mà chúng đã biết phải ghét ai.",
+  "prompt": "five children in a quiet street looking up at a tall dark empty gateway, puzzled thoughtful faces, seen slightly from behind, late afternoon. six village children of different heights and faces, plain cloth tunics, topknots, wide excited eyes. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "006",
+  "cau": 6,
+  "nv": [],
+  "text": "Ai đã dạy chúng điều đó? Và nỗi ghét ấy bắt đầu từ lúc nào?",
+  "prompt": "a long empty Song street at dusk fading into mist, shopfronts closed, one lit paper-free window glow, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "007",
+  "cau": 7,
+  "nv": [],
+  "text": "Hôm nay ta đi tìm câu trả lời, qua ba tầng tư liệu. Tầng thứ nhất là chính văn, tức phần nằm trong các bộ sử chính thức.",
+  "prompt": "a great stone-and-brick hall of records with three tall plain wooden doors side by side in a row, each lit by a different colour of light, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "008",
+  "cau": 8,
+  "nv": [],
+  "text": "Tầng thứ hai là chú giải và những sách được dẫn lại, thường ghi dị bản và giai thoại.",
+  "prompt": "a stone archive room with neat stacks of tied bamboo slips on plain wooden shelves, shafts of light, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "009",
+  "cau": 9,
+  "nv": [],
+  "text": "Tầng thứ ba là tiểu thuyết, tức truyện do người đời sau sáng tác.",
+  "prompt": "a night street scene with a storyteller's empty stool on a small platform and a ring of small stools around it, moonlight, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "010",
+  "cau": 10,
+  "nv": [],
+  "text": "Với mỗi chuyện, ta sẽ nói rõ nó nằm ở tầng nào, để bạn tự cân nhắc.",
+  "prompt": "three stone steps leading up in three levels toward a bright doorway, symbolic, soft light, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "011",
+  "cau": 11,
+  "nv": [],
+  "text": "Hãy quay về lúc Tào Tháo còn sống. Khi ấy chưa ai gọi ông là kẻ phản diện của cả một thời đại.",
+  "prompt": "Han-era countryside at dawn, a road through fields and a distant walled town, soft light, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "012",
+  "cau": 12,
+  "nv": [
+   "tt20",
+   "hathieu"
+  ],
+  "text": "Lúc còn trẻ, ông gặp một người chuyên đánh giá nhân vật là Hứa Thiệu. Theo Hậu Hán thư, Hứa Thiệu nói ông là kẻ gian trá thời bình, nhưng là anh hùng thời loạn. Ông nghe xong rất vui.",
+  "prompt": "young Cao Cao standing before the old scholar in a courtyard, the old scholar studying him closely with narrowed eyes, young man standing proud, two clearly different faces. Cao Cao at about twenty, a short wiry young man with sharp clever eyes, clean-shaven with only a faint moustache, hair in a topknot under a black cap, dark-blue cross-collared robe with a dark sash, empty hands, no weapon; Xu Shao, a thin elderly Han scholar with a long white beard, plain grey robe, calm penetrating gaze. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "013",
+  "cau": 13,
+  "nv": [
+   "hathieu"
+  ],
+  "text": "Một sách khác chép câu ấy hơi khác: quan giỏi thời bình, kẻ gian hùng thời loạn. Dù bản nào, người đời cũng đã thấy ở ông cả mặt gian lẫn mặt hùng.",
+  "prompt": "exactly ONE old scholar alone in a quiet room turning to look over his shoulder thoughtfully, no second figure. Xu Shao, a thin elderly Han scholar with a long white beard, plain grey robe, calm penetrating gaze. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "014",
+  "cau": 14,
+  "nv": [
+   "chentho"
+  ],
+  "text": "Rồi ba nước chia nhau thiên hạ, và nhà Tấn lên thay. Người viết bộ sử Tam quốc chí là Trần Thọ, sống ở nhà Tấn.",
+  "prompt": "exactly ONE scholar-historian seated on a mat at a low plain table in a study, brush ready, a plain wooden box beside him, no second figure. Chen Shou, a calm scholar-historian of about fifty in a plain dark Jin-dynasty robe and black cap, thoughtful face. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "015",
+  "cau": 15,
+  "nv": [],
+  "text": "Trong bộ sử ấy, phần viết về Tào Tháo mang tên Vũ đế kỷ, tên gọi dành cho các bậc đế vương. Còn phần viết về Lưu Bị và Tôn Quyền thì gọi là truyện.",
+  "prompt": "a great imperial hall with a raised plain throne dais on one side and a smaller plain mat on the other, two different levels, empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "016",
+  "cau": 16,
+  "nv": [],
+  "text": "Lý do hay được nêu rất dễ hiểu. Nhà Tấn nhận ngôi từ nhà Ngụy của họ Tào, nên coi nhà Ngụy là triều đại hợp pháp.",
+  "prompt": "a walled palace gate with a processional road before it and a dynasty banner of plain blank cloth, calm sky, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "017",
+  "cau": 17,
+  "nv": [
+   "chentho"
+  ],
+  "text": "Trần Thọ còn kết phần viết về Tào Tháo bằng một lời khen. Ông gọi Tào Tháo là người phi thường, bậc kiệt xuất vượt hơn cả đời, và cho rằng ông thành nghiệp lớn nhờ mưu lược giỏi nhất.",
+  "prompt": "exactly ONE scholar-historian at a window, hands folded in his sleeves, looking out at a vast plain with admiration, no second figure. Chen Shou, a calm scholar-historian of about fifty in a plain dark Jin-dynasty robe and black cap, thoughtful face. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "018",
+  "cau": 18,
+  "nv": [
+   "chentho"
+  ],
+  "text": "Nghĩa là bộ sử gần thời ấy nhất không vẽ Tào Tháo thành quỷ dữ. Họ vẽ một người tài giỏi và đáng sợ.",
+  "prompt": "exactly ONE scholar standing in front of a plain wall of neatly tied bamboo slips, calm face, no second figure. Chen Shou, a calm scholar-historian of about fifty in a plain dark Jin-dynasty robe and black cap, thoughtful face. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "019",
+  "cau": 19,
+  "nv": [],
+  "text": "Vậy nỗi ghét ngàn năm không bắt đầu từ đây.",
+  "prompt": "a long road leading away from a still dark river toward the horizon, quiet, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "020",
+  "cau": 20,
+  "nv": [],
+  "text": "Nhưng cũng không thể nói người ta ghét ông vô cớ. Trong chính văn có những việc rất nặng.",
+  "prompt": "a broad plain after a campaign, smoke on the horizon, abandoned carts, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "021",
+  "cau": 21,
+  "nv": [],
+  "text": "Ông mang quân đánh Từ Châu, và các nguồn ghi lại hàng vạn người chết, trong đó có cả dân thường và người chạy loạn.",
+  "prompt": "a wide river valley with refugee carts scattered along a long road, smoke over the far hills, tiny distant figures only, wide view. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "022",
+  "cau": 22,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Ông giết Khổng Dung, một danh sĩ nổi tiếng. Phục hoàng hậu cũng bị giết, cùng hai hoàng tử.",
+  "prompt": "exactly ONE man only, Cao Cao seen from behind standing before a closed palace door at night, dark hall, no second figure, no crowd. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "023",
+  "cau": 23,
+  "nv": [
+   "tt53",
+   "hiende"
+  ],
+  "text": "Ông đưa vua Hán về sống dưới sự kiểm soát của mình. Người đời sau gọi đó là giữ vua trong tay để ra lệnh cho các thế lực khác.",
+  "prompt": "Cao Cao standing close behind the small young emperor on a hall dais, both seen from the side, the emperor looking straight ahead, plain walls, two clearly different faces. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon; Liu Xie, a small serious boy of about nine in a plain dark robe, hair in two small tufts. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "024",
+  "cau": 24,
+  "nv": [],
+  "text": "Những việc ấy là thật, và video trước đã kể kỹ. Nhưng thời loạn nào cũng có người gây ra chết chóc rất lớn.",
+  "prompt": "a long road through a burned countryside with a few collapsed carts, quiet grey sky, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "025",
+  "cau": 25,
+  "nv": [],
+  "text": "Để một cái tên bị ghét suốt ngàn năm, cần thêm một thứ khác: một câu chuyện lớn xem ai đúng, ai sai. Câu chuyện ấy mang tên là chính thống.",
+  "prompt": "a tall wooden gate of a great dynasty hall standing slightly open to a bright empty courtyard, symbolic, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "026",
+  "cau": 26,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Có một điều ít người để ý. Tào Tháo chưa bao giờ làm hoàng đế.",
+  "prompt": "exactly ONE man only, Cao Cao standing at the foot of a raised empty throne dais, not climbing it, hands folded in his sleeves, no second figure. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "027",
+  "cau": 27,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Ông giữ chức thừa tướng, rồi được phong làm Ngụy vương. Người lên ngôi hoàng đế là con trai ông, Tào Phi, vào năm hai trăm hai mươi, ngay sau khi Tào Tháo qua đời.",
+  "prompt": "Cao Cao in a plain dark robe receiving a grand black ceremonial cap from an attendant, proud but calm, a second man in grey bowing, two clearly different faces. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "028",
+  "cau": 28,
+  "nv": [],
+  "text": "Một ghi chép được dẫn lại trong chú giải kể rằng Tôn Quyền từng gửi thư xưng thần với Tào Tháo, rồi khuyên ông lên ngôi. Tào Tháo nói rằng nếu mệnh trời thuộc về mình, ông chỉ xin làm như Chu Văn Vương, người đặt nền cho nhà Chu nhưng để con cháu lên ngôi.",
+  "prompt": "two ships crossing a wide river under a pale sky, a small boat carrying a sealed bundle from the south shore toward the north, plain blank flags, wide view. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "029",
+  "cau": 29,
+  "nv": [],
+  "text": "Nếu ghi chép ấy đúng, thì chữ kẻ cướp ngôi gắn cho Tào Tháo thật ra nhắm vào nhà họ Tào, và vào việc ông dọn đường cho con. Bản thân ông giữ chức bề tôi cho đến lúc chết.",
+  "prompt": "a young prince walking along a long palace corridor toward a closed door while his father's shadow falls behind him, no faces, wide view. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "030",
+  "cau": 30,
+  "nv": [],
+  "text": "Nhưng với người coi nhà Hán mới là chính thống, việc nắm vua trong tay đã là tội đủ nặng. Và từ đó, một cuộc tranh cãi lớn bắt đầu.",
+  "prompt": "a split view of a throne dais seen from below, light and shadow dividing it in two, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "031",
+  "cau": 31,
+  "nv": [],
+  "text": "Hai chữ chính thống nghe khô khan, nhưng ý của nó rất giản dị. Khi đất nước chia ba, nước nào mới là người nối tiếp hợp pháp của nhà Hán?",
+  "prompt": "a vast Han plain with a single road forking toward three distant walled cities on the horizon, symbolic, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "032",
+  "cau": 32,
+  "nv": [],
+  "text": "Nếu trả lời là nước Thục, thì Lưu Bị là người giữ ngọn lửa nhà Hán, còn Tào Tháo và con cháu là kẻ cướp ngôi. Nếu trả lời là nước Ngụy, thì mọi thứ đảo ngược.",
+  "prompt": "two torch flames burning side by side in a dark hall, one larger one smaller, nothing else, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "033",
+  "cau": 33,
+  "nv": [
+   "xizuoxi"
+  ],
+  "text": "Một trong những người sớm nhất bênh nước Thục một cách rõ ràng là Tập Tạc Xỉ, sống ở nhà Đông Tấn, khoảng thế kỷ bốn.",
+  "prompt": "exactly ONE scholar in a plain robe sitting at a low table in a remote study, thinking, mountains outside the window, no second figure. Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "034",
+  "cau": 34,
+  "nv": [
+   "xizuoxi"
+  ],
+  "text": "Ông viết bộ Hán Tấn xuân thu. Tên sách chỉ nhắc đến nhà Hán và nhà Tấn, bỏ qua nhà Ngụy.",
+  "prompt": "exactly ONE scholar writing steadily by oil-dish light at night, a closed plain cloth bundle beside him, no second figure. Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "035",
+  "cau": 35,
+  "nv": [
+   "xizuoxi"
+  ],
+  "text": "Ông lập luận rằng vua nhường ngôi theo nghi lễ chưa đủ để làm nên một triều đại hợp pháp. Nhà Ngụy không nắm cả Trung Hoa, và dòng họ cầm quyền cũng không mang huyết thống nhà Hán.",
+  "prompt": "exactly ONE scholar standing before a plain empty hall, gesturing as if arguing, no second figure. Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "036",
+  "cau": 36,
+  "nv": [
+   "xizuoxi"
+  ],
+  "text": "Ông còn đem nhà Ngụy so với nhà Tân của Vương Mãng, người đã cướp ngôi nhà Hán trước đó. Khi ghi năm tháng, ông dùng năm tháng của nhà Thục Hán.",
+  "prompt": "exactly ONE scholar looking at a long empty road that leads to an old ruined palace in the distance, no second figure. Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "037",
+  "cau": 37,
+  "nv": [],
+  "text": "Hoàn Ôn là một tướng quyền thế. Ban đầu ông rất trọng Tập Tạc Xỉ, nhưng quan hệ rạn nứt sau khi Tập Tạc Xỉ gặp đối thủ của Hoàn Ôn là Tư Mã Dục, người sau này làm vua Giản Văn. Rồi Hoàn Ôn giáng chức ông.",
+  "prompt": "a powerful general's tent on a hill above a camp, plain dark flag, a long line of tiny soldiers below, wide view. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "038",
+  "cau": 38,
+  "nv": [
+   "xizuoxi"
+  ],
+  "text": "Điều thú vị là mục đích của ông có thể không nằm ở Tào Tháo. Theo một số nghiên cứu, ông viết sách trong lúc bị tướng Hoàn Ôn giáng chức đưa đi xa, vì ông cho rằng Hoàn Ôn có tham vọng quá lớn.",
+  "prompt": "exactly ONE scholar travelling alone on a lonely mountain road with a bundle on his back, dusk, no second figure. Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "039",
+  "cau": 39,
+  "nv": [],
+  "text": "Nói cách khác, Tào Tháo được đem ra làm gương cho người đương thời: ai nhận ngôi theo kiểu ấy sẽ bị coi là kẻ cướp.",
+  "prompt": "a crossroads at dusk with a lone tiny figure far away looking down one of the roads, wide view. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "040",
+  "cau": 40,
+  "nv": [],
+  "text": "Hãy để ý điều này. Lúc đó Tào Tháo đã mất hơn một trăm năm, và ông bị đưa ra làm ví dụ cho một cuộc tranh giành quyền lực khác.",
+  "prompt": "a very long sequence of grey stone steps rising to an old palace through mist, stretching across the years, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "041",
+  "cau": 41,
+  "nv": [
+   "xizuoxi"
+  ],
+  "text": "Ý kiến của Tập Tạc Xỉ lúc đầu ít người theo, mãi nhiều thế kỷ sau mới được chấp nhận rộng rãi. Các học giả đời Thanh còn viết rằng sau ông, không ai không bác bỏ Trần Thọ.",
+  "prompt": "exactly ONE scholar standing quietly in a plain room as a pale dawn light fills it, calm acceptance, no second figure. Xi Zuochi, a lean scholar of about forty in a plain dark robe, a determined face and a short beard. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "042",
+  "cau": 42,
+  "nv": [],
+  "text": "Đến thời nhà Tống, câu hỏi ấy thành chuyện lớn. Nhà Tống chia làm hai giai đoạn: Bắc Tống ở phía bắc, rồi Nam Tống ở phía nam sau khi mất phương bắc.",
+  "prompt": "a Song-dynasty capital city with long wooden bridges over canals and tiled roofs, then a divided land: the north bank in smoke and the south bank in calm, wide view. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "043",
+  "cau": 43,
+  "nv": [
+   "simaquang"
+  ],
+  "text": "Năm một nghìn không trăm tám mươi bốn, học giả Tư Mã Quang dâng lên vua bộ Tư trị thông giám. Đó là bộ sử theo năm tháng, mất mười chín năm để hoàn thành.",
+  "prompt": "exactly ONE elderly scholar seated at a plain wooden desk with a single oil dish in a study, brush in hand, tired but diligent, no second figure. Sima Guang, an elderly scholar of about sixty-five with a white beard, dark Song robe and a plain black cap, a patient serious face. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "044",
+  "cau": 44,
+  "nv": [
+   "simaquang"
+  ],
+  "text": "Khi chép thời Tam Quốc, ông ghi năm tháng theo tên các năm của nhà Ngụy. Theo ghi chép, ông nói đó chỉ là cách cho sách có một dòng thời gian chung, không phải lời tuyên bố ai chính thống.",
+  "prompt": "exactly ONE elderly scholar standing at a window thinking, one hand on his beard, looking at a calm river, no second figure. Sima Guang, an elderly scholar of about sixty-five with a white beard, dark Song robe and a plain black cap, a patient serious face. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "045",
+  "cau": 45,
+  "nv": [
+   "chuhy"
+  ],
+  "text": "Năm một nghìn một trăm hai mươi bảy, nhà Tống mất phương bắc vào tay nhà Kim. Khoảng thế kỷ mười hai, học giả Chu Hy cùng học trò làm bản rút gọn là Tư trị thông giám cương mục.",
+  "prompt": "a southern Song hillside academy of plain wooden halls among bamboo and pine, a stern scholar and two younger students walking along a path, three clearly different faces. Zhu Xi, a stern scholar of about fifty-five with a long beard, dark Song robe and a plain black cap. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "046",
+  "cau": 46,
+  "nv": [
+   "chuhy"
+  ],
+  "text": "Bản này tôn nước Thục Hán là chính thống. Một người cùng thời là Chu Mật nói rằng Chu Hy viết nó để sửa lập trường của Tư Mã Quang.",
+  "prompt": "exactly ONE stern scholar sitting on a mat with two tied bundles of bamboo slips set a little apart before him, no second figure. Zhu Xi, a stern scholar of about fifty-five with a long beard, dark Song robe and a plain black cap. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "047",
+  "cau": 47,
+  "nv": [],
+  "text": "Nhiều người giải thích rằng nước Tống phương nam khi ấy giống nước Thục: nhỏ hơn đối thủ, mất đi phần đất lớn, nhưng vẫn nhận mình là người nối nhà cũ. Đây là cách hiểu của người nghiên cứu, không phải điều sử chép.",
+  "prompt": "a small southern kingdom town on a river bank with grey tiled roofs, and the far northern bank empty and in smoke, wide view, completely empty of people. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "048",
+  "cau": 48,
+  "nv": [
+   "sushi"
+  ],
+  "text": "Và đây là chi tiết đáng chú ý. Chính Tô Thức, người chép chuyện lũ trẻ, đã đổi ý về Tào Tháo trong đời mình.",
+  "prompt": "exactly ONE cheerful poet pausing on a bridge over a canal at sunset, looking back down the way he came, no second figure. Su Shi, a cheerful stout poet of about fifty with a thin moustache, brown Song robe and a plain black cap. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "049",
+  "cau": 49,
+  "nv": [
+   "sushi"
+  ],
+  "text": "Lúc trẻ, ông gọi Tào Tháo là bậc trí giả, chỉ giỏi đoán việc hơn đoán người. Về già, khi viết về Khổng Dung, ông gọi Tào Tháo là kẻ ngầm hại và hiểm độc.",
+  "prompt": "the same poet now older, seated by a lake at dusk, grey in his beard, expression serious and different, exactly ONE man only, no second figure. Su Shi, a cheerful stout poet of about fifty with a thin moustache, brown Song robe and a plain black cap. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "050",
+  "cau": 50,
+  "nv": [
+   "sushi"
+  ],
+  "text": "Cùng một con người, cùng một học giả lớn, mà ý kiến trượt từ khen sang chê. Hãy tưởng tượng những người kể chuyện ngoài phố sẽ còn đi xa hơn thế nào.",
+  "prompt": "exactly ONE older poet walking slowly away down a riverside path, long shadow, no second figure. Su Shi, a cheerful stout poet of about fifty with a thin moustache, brown Song robe and a plain black cap. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "051",
+  "cau": 51,
+  "nv": [
+   "tre"
+  ],
+  "text": "Thật ra trẻ con mê Tam Quốc từ rất sớm. Thơ của Lý Thương Ẩn, đời Đường, tả cậu con trai nhỏ của ông bắt chước diễn lại: đứa thì cười Trương Phi râu rậm, đứa thì cười Đặng Ngải nói lắp.",
+  "prompt": "two small children acting out a battle with wooden sticks on a village road, one puffing a fake beard, the other laughing, two clearly different faces. six village children of different heights and faces, plain cloth tunics, topknots, wide excited eyes. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "052",
+  "cau": 52,
+  "nv": [
+   "kechuyen"
+  ],
+  "text": "Người kể chuyện ngoài phố cần khán giả hồi hộp. Muốn thế, họ cần người tốt và người xấu thật rõ ràng.",
+  "prompt": "exactly ONE storyteller leaning forward dramatically with both hands wide open, an unseen audience, lit by warm lamp glow in a teahouse, no second figure. a Song street storyteller of about fifty, thin face, short grey beard, plain brown long robe, one hand raised mid-story, simple black cloth cap. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "053",
+  "cau": 53,
+  "nv": [],
+  "text": "Đến đời Nguyên có một cuốn sách kể chuyện in khoảng những năm một nghìn ba trăm hai mươi mốt đến một nghìn ba trăm hai mươi ba, tên là Tam quốc chí bình thoại. Sách dài khoảng tám vạn chữ.",
+  "prompt": "a simple Yuan-era wooden printing workshop with blocks of carved wood on a table and stacks of plain paper sheets, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "054",
+  "cau": 54,
+  "nv": [],
+  "text": "Cùng thời, sân khấu cũng có nhiều vở tuồng về Quan Vũ và các nhân vật Tam Quốc.",
+  "prompt": "a lively open-air opera stage with painted pillars and drum, an empty stage, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "055",
+  "cau": 55,
+  "nv": [],
+  "text": "Cuối đời Nguyên, đầu đời Minh, La Quán Trung viết Tam quốc diễn nghĩa, dựa trên những nguồn ấy. Một người đời Minh nhận xét sách này vừa dựa theo chính sử, vừa lấy thêm từ tiểu thuyết.",
+  "prompt": "exactly ONE novelist-scholar sitting by a window writing, a pile of earlier rolled slips beside him, no second figure. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "056",
+  "cau": 56,
+  "nv": [],
+  "text": "Sang đời Thanh, trong khoảng từ năm một nghìn sáu trăm sáu mươi hai đến một nghìn bảy trăm hai mươi ba, cha con Mao Luân và Mao Tông Cương sửa lại toàn bộ sách. Bản của họ trở thành bản được đọc nhiều nhất.",
+  "prompt": "a printing workshop with two men re-cutting wooden blocks by lamp-free window light, different faces, working carefully. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "057",
+  "cau": 57,
+  "nv": [],
+  "text": "Một nghiên cứu cho rằng khuynh hướng đề cao Lưu Bị, chê Tào Tháo của bộ truyện có liên quan đến việc bộ Cương mục của Chu Hy được ưa chuộng.",
+  "prompt": "a quiet study bench with two different tied bundles side by side, one slightly raised above the other, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "058",
+  "cau": 58,
+  "nv": [],
+  "text": "Như vậy có ba lớp chồng lên nhau. Lớp dưới là những việc có thật. Lớp giữa là cuộc tranh cãi về chính thống. Lớp trên cùng là người kể chuyện và tiểu thuyết, những thứ đến được tai cả trẻ con.",
+  "prompt": "three transparent layers of landscape stacked on each other: at the bottom a muddy road, in the middle a forked road with signs-free posts, on top a bright stage, symbolic, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "059",
+  "cau": 59,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Câu nói nổi tiếng của Tào Tháo, thà ông phụ người trong thiên hạ, chứ không để người trong thiên hạ phụ ông, chỉ thấy trong một ghi chép đời sau, được dẫn lại trong chú giải.",
+  "prompt": "exactly ONE man only, Cao Cao seated alone by an oil dish at night with a hard thoughtful face, no second figure, no crowd. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "060",
+  "cau": 60,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Trong tiểu thuyết, câu ấy gắn với một cảnh rất kịch tính. Tào Tháo ghé nhà Lã Bá Xa, nghe tiếng mài dao nên nghi bị hại, và giết cả nhà ông ta.",
+  "prompt": "a mud-brick farmhouse at night, Cao Cao outside the gate in the dark listening, a faint sharpening sound suggested by a single pale light in the window, exactly ONE man only, no second figure. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "061",
+  "cau": 61,
+  "nv": [],
+  "text": "Sau đó mới biết họ định làm thịt lợn đãi khách.",
+  "prompt": "a farmhouse kitchen yard with a tied pig, a pot on a fire and a cloth hung to dry, warm light, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "062",
+  "cau": 62,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Rồi Tào Tháo còn giết luôn chính Lã Bá Xa trên đường, và thốt lên câu nói ấy.",
+  "prompt": "exactly ONE man only, Cao Cao on a horse on a lonely road at dusk looking straight ahead, grim face, correct four-legged horse, no second figure. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "063",
+  "cau": 63,
+  "nv": [],
+  "text": "Nhìn kỹ thì thấy: ghi chép về chuyện này có nhiều dị bản. Điểm chung đáng chú ý chỉ là Tào Tháo đã giết người trong gia đình Lã Bá Xa.",
+  "prompt": "a misty fork in an old road with several different footprints leading away in different directions, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "064",
+  "cau": 64,
+  "nv": [
+   "kechuyen"
+  ],
+  "text": "Tiểu thuyết đã làm một việc rất khéo. Nó lấy một sự việc có thật nhưng mờ nhạt, rồi biến thành một cảnh ai nghe cũng nhớ, và gắn cho nó một câu nói làm nên tính cách cả một con người.",
+  "prompt": "exactly ONE storyteller with a wide delighted smile snapping a plain wooden clapper in a teahouse, the glow of warm light behind, no second figure. a Song street storyteller of about fifty, thin face, short grey beard, plain brown long robe, one hand raised mid-story, simple black cloth cap. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "065",
+  "cau": 65,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Dù vậy, chưa bao giờ ai quên được tài của ông. Nhiều người vẫn đọc thơ ông và khâm phục.",
+  "prompt": "exactly ONE man only, Cao Cao standing at a shore at dusk with a cloak blowing, looking over the sea, no second figure. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "066",
+  "cau": 66,
+  "nv": [],
+  "text": "Đời Thanh, có học giả đọc bài thơ Quan thương hải của Tào Tháo và khen có khí thế nuốt cả vũ trụ.",
+  "prompt": "a bright vast sea with cliffs and low sun, waves breaking, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "067",
+  "cau": 67,
+  "nv": [
+   "chentho"
+  ],
+  "text": "Cũng có người đời Thanh vừa phục tài thơ văn của ông, vừa vẫn gọi ông là kẻ gian hùng.",
+  "prompt": "exactly ONE scholar reading by the window with a conflicted face, one hand on his chin, no second figure. Chen Shou, a calm scholar-historian of about fifty in a plain dark Jin-dynasty robe and black cap, thoughtful face. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "068",
+  "cau": 68,
+  "nv": [],
+  "text": "Hãy nhìn điều đó. Ngay trong người ghét ông nhất, vẫn có chỗ cho sự nể phục.",
+  "prompt": "a silhouette of one tall scholar and a silhouette of one shorter man side by side before a window light, two different heights, wide view. cool grey-blue calm muted tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "069",
+  "cau": 69,
+  "nv": [],
+  "text": "Vậy ta xếp lại ba tầng. Tầng chính văn, đã được kiểm, có việc ở Từ Châu, việc giết Khổng Dung và việc Phục hoàng hậu cùng hai hoàng tử bị giết.",
+  "prompt": "a plain wooden board holding a heap of weathered tied bamboo slips and a closed sealed bundle beside them, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "070",
+  "cau": 70,
+  "nv": [],
+  "text": "Tầng chú giải và giai thoại có những lời nói nổi tiếng và nhiều dị bản về chuyện Lã Bá Xa. Độ chắc ở đây thấp hơn.",
+  "prompt": "a table with several slightly different plain bundles set beside each other, different lengths, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "071",
+  "cau": 71,
+  "nv": [],
+  "text": "Tầng tiểu thuyết là cảnh nghe tiếng mài dao, và cách dựng Tào Tháo thành nhân vật phản diện tiêu biểu.",
+  "prompt": "an empty opera stage under warm lights with a single painted backdrop of fire, completely empty, absolutely no people. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "072",
+  "cau": 72,
+  "nv": [],
+  "text": "Và ở giữa là một thứ khó thấy hơn. Đó là cuộc tranh cãi chính thống, nơi người ta chọn nhìn Tào Tháo bằng con mắt của kẻ cướp ngôi, vì nhu cầu của thời mình.",
+  "prompt": "a bridge between a dark road and a bright stage, symbolic, completely empty, absolutely no people. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "073",
+  "cau": 73,
+  "nv": [
+   "tt53"
+  ],
+  "text": "Vậy vì sao cả ngàn năm người ta ghét Tào Tháo? Một phần vì ông đã làm những việc thật. Một phần vì mỗi thời đại cần một kẻ cướp ngôi để răn dạy. Một phần vì những người kể chuyện biết trẻ con thích ghét ai.",
+  "prompt": "exactly ONE man only, Cao Cao in the centre looking toward the viewer, half his face in warm light and half in cool shadow, no second figure. Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, dark charcoal cross-collared robe with a dark sash, hair in a topknot under a plain black cap, empty hands, no weapon. cool grey-blue calm muted tones. 2D ligne claire comic art, Eastern Han China around 190 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, authentic Han cross-collared robes and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border"
+ },
+ {
+  "key": "074",
+  "cau": 74,
+  "nv": [
+   "tre"
+  ],
+  "text": "Còn bạn, khi nghe tên Tào Tháo mà thấy khó chịu, đó là vì những gì sử chép về ông, hay vì những gì bạn đã nghe kể?",
+  "prompt": "the circle of children now grown into adults sitting quietly beneath a tree at dusk, thoughtful, looking at the viewer, different faces. six village children of different heights and faces, plain cloth tunics, topknots, wide excited eyes. warm ochre and soft golden daylight tones. 2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, flat muted colours with soft shading, realistic adult proportions, long robes with wide sleeves, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border"
+ }
+]

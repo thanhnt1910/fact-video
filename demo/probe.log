@@ -1,0 +1,49 @@
+[0;93m2026-11-03 01:25:58.905750251 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+phiên bản gói vieneu: 3.8.3
+chữ ký Vieneu: (mode='v3turbo', **kwargs)
+--- docstring ---
+
+    Factory function for VieNeu-TTS.
+
+    Args:
+        mode: 'v3turbo' (DEFAULT) — VieNeu-TTS v3 Turbo, 48 kHz. CPU runs torch-free
+              via ONNX Runtime; GPU uses PyTorch. Works with the minimal install.
+              'v3nano' — VieNeu-TTS v3 Nano, 24 kHz, ONNX/CPU only, torch-free. A
+              48M-parameter flow model for WEAK CPUs where v3 Turbo is too slow.
+              Preset voices + voice cloning; English / code-switched text is
+              noticeably weaker than v3 Turbo. Pick it only when Turbo can't keep up.
+              Other modes need extras (``pip install vieneu[gpu]``):
+              'standard' (CPU/GPU-GGUF), 'fast' (GPU-LMDeploy), 'turbo'/'turbo_gpu',
+              'remote' (API), 'xpu' (Intel GPU).
+        **kwargs: Arguments for chosen class
+
+    Returns:
+        BaseVieneuTTS: An instance of a VieNeu-TTS implementation.
+    
+--- mã nguồn Vieneu (đoạn có 'mode') ---
+0 def Vieneu(mode="v3turbo", **kwargs):
+5 mode: 'v3turbo' (DEFAULT) — VieNeu-TTS v3 Turbo, 48 kHz. CPU runs torch-free
+6 via ONNX Runtime; GPU uses PyTorch. Works with the minimal install.
+7 'v3nano' — VieNeu-TTS v3 Nano, 24 kHz, ONNX/CPU only, torch-free. A
+8 48M-parameter flow model for WEAK CPUs where v3 Turbo is too slow.
+10 noticeably weaker than v3 Turbo. Pick it only when Turbo can't keep up.
+11 Other modes need extras (``pip install vieneu[gpu]``):
+12 'standard' (CPU/GPU-GGUF), 'fast' (GPU-LMDeploy), 'turbo'/'turbo_gpu',
+19 match mode:
+20 case "v3turbo":
+21 from .v3turbo import V3TurboVieNeuTTS
+22 return V3TurboVieNeuTTS(**kwargs)
+29 case "fast" | "gpu":
+30 from .fast import FastVieNeuTTS
+31 return FastVieNeuTTS(**kwargs)
+32 case "turbo":
+33 from .turbo import TurboVieNeuTTS
+34 return TurboVieNeuTTS(**kwargs)
+35 case "turbo_gpu":
+36 from .turbo import TurboGPUVieNeuTTS
+37 return TurboGPUVieNeuTTS(**kwargs)
+44 case "standard":
+45 from .standard import VieNeuTTS
+ứng viên mode: []
+mode=None: OK 5s, 25 giọng -> demo/probe/mode_mac_dinh.wav

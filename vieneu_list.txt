@@ -1,6 +1,6 @@
-[0;93m2026-11-02 17:25:32.451572063 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-03 01:25:55.625553221 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[vieneu] đã nạp mô hình sau 4s
+[vieneu] đã nạp mô hình sau 3s
 Adam bựa    |    ⭐ Adam bựa — Nam · Bắc · Phong cách tự nhiên
 Trúc Ly    |    ⭐ Trúc Ly — Nữ · Bắc · Phong cách tự nhiên
 Thiện Minh    |    ⭐ Thiện Minh — Nam · Bắc · Phong cách kể chuyện

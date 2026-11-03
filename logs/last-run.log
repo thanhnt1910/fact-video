@@ -3,10 +3,37 @@
 ▶️  Video dài TQ10: Vì sao cả ngàn năm người ta ghét Tào Tháo? | Tam Quốc theo chính sử
   ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_TQ10.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 74 ảnh: 12 ảnh lỗi, 0 ảnh cần xem
+  🔍 Kiểm tra 75 ảnh: 11 ảnh lỗi, 0 ảnh cần xem
   🎙️  Giọng Gemini Sadaltager (10 chương)
-  ⏱️  Thời lượng 12:04 · 74 cảnh ảnh
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (4s)
+     🎙️  Gemini đọc xong 1 chương (5s)
+  ⏱️  Thời lượng 12:03 · 75 cảnh ảnh
   🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-     74/74 ảnh có độ sâu
+[0;93m2026-11-03 10:17:03.376651036 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+     75/75 ảnh có độ sâu
   🎞️  22 cảnh có clip chuyển động
-     17383 khung hình, 12 đoạn, 4 luồng
+     17367 khung hình, 12 đoạn, 4 luồng
+     … 3/12 đoạn (161 giây)
+     … 6/12 đoạn (321 giây)
+     … 9/12 đoạn (419 giây)
+     … 12/12 đoạn (441 giây)
+     dựng khung hình xong trong 442 giây
+     🔇 E4_001.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_002.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_014.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_021.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_023.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_045.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_051.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_052.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_055.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_064.mp4: không có tiếng, dùng giọng đọc như thường
+     🔇 E4_073.mp4: không có tiếng, dùng giọng đọc như thường
+  🎬 Tiếng gốc clip Veo: 11 clip, nhường giọng đọc khi có lời
+  🏷️  Đã gắn logo kênh vào góc trên bên phải
+  🔈 Âm lượng cuối: -15.2 LUFS, đỉnh -4.0 dBTP
+     🌐 dịch tiếng Anh xong (gemini-flash-lite-latest)
+✅ Video dài: TQ10_dai.mp4 (12:03)
+
+Xong video ngắn: - · video dài: TQ10

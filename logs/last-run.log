@@ -1,13 +1,18 @@
 
-===== TQ9 (video dài) =====
-▶️  Video dài TQ9: Tào Tháo thật sự ác đến mức nào, theo chính sử? | Tam Quốc theo chính sử
-  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_TQ9.json
+===== TQ10 (video dài) =====
+▶️  Video dài TQ10: Vì sao cả ngàn năm người ta ghét Tào Tháo? | Tam Quốc theo chính sử
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_TQ10.json
   🖼️  Ảnh cho video dài
-  🔍 Kiểm tra 177 ảnh: 21 ảnh lỗi, 4 ảnh cần xem
-  🎙️  Giọng VieNeu Thiện Minh + chỉnh G2 (9 chương)
-  ⏱️  Thời lượng 16:10 · 190 cảnh ảnh
-  🌀 Bản đồ độ sâu cho hiệu ứng 3D (parallax)
-     177/177 ảnh có độ sâu
-  🎞️  20 cảnh có clip chuyển động
-     23285 khung hình, 12 đoạn, 4 luồng
-     … 3/12 đoạn (186 giây)
+  🔍 Kiểm tra 74 ảnh: 12 ảnh lỗi, 0 ảnh cần xem
+  🎙️  Giọng Gemini Sadaltager (10 chương)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+     🎙️  Gemini đọc xong 1 chương (22s)
+     🎙️  Gemini đọc xong 1 chương (6s)
+     🎙️  Gemini đọc xong 1 chương (9s)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+     🎙️  Gemini đọc xong 1 chương (20s)
+     🎙️  Gemini đọc xong 1 chương (5s)

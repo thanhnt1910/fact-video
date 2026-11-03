@@ -1,0 +1,87 @@
+TỔNG HỢP KIỂM ẢNH · TQ10 · 74 ảnh · 3334 giây · 0 vòng vẽ lại
+Còn lỗi (0): không
+Chưa kiểm bằng AI (73): 002,003,004,005,006,007,008,009,010,011,012,013,014,015,016,017,018,019,020,021,022,023,024,025,026,027,028,029,030,031,032,033,034,035,036,037,038,039,040,041,042,043,044,045,046,047,048,049,050,051,052,053,054,055,056,057,058,059,060,061,062,063,064,065,066,067,068,069,070,071,072,073,074
+
+001 · đạt · điểm 4
+002 · đạt · cảnh báo: Gemini không kiểm được: Remote end closed connection without response
+003 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This
+004 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This
+005 · đạt · cảnh báo: Gemini không kiểm được: gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This
+006 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+007 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+008 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+009 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+010 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+011 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+012 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+013 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+014 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+015 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+016 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+017 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+018 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+019 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+020 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+021 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+022 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+023 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+024 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+025 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+026 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+027 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+028 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+029 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+030 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+031 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+032 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+033 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+034 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+035 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+036 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+037 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+038 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+039 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+040 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+041 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+042 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+043 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+044 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+045 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+046 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+047 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+048 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+049 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+050 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+051 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+052 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+053 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+054 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+055 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+056 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+057 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+058 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+059 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+060 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+061 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+062 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+063 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+064 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+065 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+066 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+067 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+068 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+069 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+070 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+071 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+072 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+073 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)
+074 · đạt · cảnh báo: chưa kiểm AI (Gemini lỗi liên tiếp hoặc quá ngân sách thời gian)

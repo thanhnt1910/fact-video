@@ -1,0 +1,27 @@
+Vẽ 74 ảnh (đợt 0)
+     🖥️  Gửi 74 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .running
+     🖥️  37.2 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (37 phút)
+     🖥️  Nhận về 74/74 tranh từ Kaggle
+Nhận về 74/74 ảnh
+== Kiểm ảnh (vòng 0): 74 ảnh ==
+   001: điểm 4 · ổn
+   002: Gemini không kiểm được (1/4): Remote end closed connection without response
+   003: Gemini không kiểm được (2/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   004: Gemini không kiểm được (3/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   005: Gemini không kiểm được (4/4): gemini-3.8-flash: HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in dema
+   ⚠️ Gemini lỗi liên tiếp: bỏ lớp AI cho các ảnh còn lại của lượt này
+Vòng 0: 0 ảnh lỗi / 74: 
+TỔNG HỢP KIỂM ẢNH · TQ10 · 74 ảnh · 3334 giây · 0 vòng vẽ lại
+Còn lỗi (0): không
+Chưa kiểm bằng AI (73): 002,003,004,005,006,007,008,009,010,011,012,013,014,015,016,017,018,019,020,021,022,023,024,025,026,027,028,029,030,031,032,033,034,035,036,037,038,039,040,041,042,043,044,045,046,047,048,049,050,051,052,053,054,055,056,057,058,059,060,061,062,063,064,065,066,067,068,069,070,071,072,073,074

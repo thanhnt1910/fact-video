@@ -236,3 +236,9 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 
 ## Quy tắc giảm lỗi ảnh và thời gian vẽ (chủ kênh yêu cầu 03/11/2026, áp dụng mọi video từ nay)
 - Đọc `ke-hoach/quy-tac-ve-anh-giam-loi.md` trước khi viết prompt vẽ ảnh. Tóm tắt: tả điều cần có, không dựa vào câu cấm; bỏ vật dễ sinh chữ/đồ hiện đại theo bảng trong file; vẽ thử 10 cảnh trước rồi mới vẽ cả tập; vẽ dư 10% cảnh hay hỏng; lọc viền và chữ tự động trước khi soi mắt; script vẽ không được báo "ĐẠT" khi chưa vẽ ảnh nào (xóa ảnh cũ trước khi vẽ lại, kiểm số ảnh thật sự mới).
+
+## Kịch bản phải tự kiểm trước khi gửi chủ kênh (chủ kênh yêu cầu 03/11/2026, áp dụng mọi kịch bản từ nay)
+- Không gửi kịch bản còn mục "phải kiểm nguyên văn" hoặc câu gắn nhãn [SỬ*] (chưa đọc nguyên văn). Trước khi gửi, Claude tự tra từng chi tiết có tên, năm, con số, lời trích và câu nói của nhân vật bằng nguồn gốc (WebSearch/WebFetch, nguyên văn chữ Hán trên Wikisource/ctext/zh.wikisource, sách dẫn lại), rồi ghi kết quả vào mục "Trạng thái kiểm chứng".
+- Chỉ dùng nhãn [SỬ] khi đã đọc nguyên văn nguồn gốc và nêu được tên sách, quyển, hoặc đường dẫn. Không tìm được nguyên văn thì hạ nhãn xuống [CG]/[GT], hoặc bỏ chi tiết khỏi lời kể và ghi vào "Chi tiết đã bỏ"; không để nhãn [SỬ*] hay danh sách "phải kiểm" tồn tại trong bản gửi.
+- Bản gửi chủ kênh phải nêu rõ: bao nhiêu câu đã kiểm nguyên văn, bao nhiêu đã hạ nhãn hoặc bỏ, và câu nào còn tranh cãi. Không đẩy việc kiểm cho chủ kênh hay để sang bước đọc giọng.
+- Không gán nhãn "đã kiểm" cho điều chỉ nhớ từ trí nhớ hoặc từ một bài tổng hợp. Đối chiếu ít nhất hai nguồn độc lập cho số liệu và lời trích quan trọng.

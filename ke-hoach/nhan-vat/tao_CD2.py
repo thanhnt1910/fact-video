@@ -245,6 +245,19 @@ for _n in (2,6,7,14,28,41,56,59,63,65,73):
     S=[(_n,_nv,_ton,_era,_desc) if x[0]==_n else x for x in S]
     FIX[_n]=TOP+_fx
 
+
+# --- Mọi cảnh phải đúng thời Tam Quốc (chủ kênh yêu cầu 03/11/2026): đổi cảnh phố Tống sang chợ thời Hán ---
+NV["kc"]="a Han street storyteller of about fifty, thin face, short grey beard, a plain brown long robe, a cloth headband tied over a topknot, a small hand drum tucked under one arm, expressive open hands"
+NEW[2]=(["kc","dan"],W,"H","a Han market square where a crowd of townspeople gathers around a laughing storyteller with a hand drum on a low wooden platform, on the platform in front of him two small clay figurines: a teal one lying fallen on its back and a tall white one standing over it, the townspeople gasping and pointing","The clay figurines are plain small dolls. The audience wears simple tunics with topknots. "+SQUARE)
+NEW[63]=(["kc","dan"],W,"H","a Han market stage with three large bronze bells hanging in a row on a wooden frame, the storyteller striking the third bell with a wooden mallet while children in the front row clap in rhythm and hold up three fingers","Each child shows a clear hand with five fingers. "+SQUARE)
+S=[(x[0],x[1],x[2],"H",x[4].replace("Song ","Han ").replace("a storyteller","a Han storyteller").replace("shadow-play screen","puppet stage")) if x[3]=="S" or "Song" in x[4] else x for x in S]
+for _n in (2,63):
+    _nv,_ton,_era,_desc,_fx=NEW[_n]
+    S=[(_n,_nv,_ton,_era,_desc) if x[0]==_n else x for x in S]
+    FIX[_n]=TOP+_fx
+for _n in list(FIX):
+    FIX[_n]=FIX[_n].replace("Song ","Han ")
+
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

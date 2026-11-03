@@ -17,7 +17,7 @@
   "zf": "Zhang Fei, a burly broad-faced man with a short bristling black beard and wide eyes, a dark-blue silk robe with silver borders, empty hands",
   "ps": "Pei Songzhi, an elderly annotator of about sixty with a thin grey beard, a soft blue-grey silk robe with a black cap, gentle focused face",
   "cs": "Chen Shou, a calm scholar-historian of about fifty in a deep-indigo silk robe with embroidered borders and a black cap, thoughtful face",
-  "kc": "a Song street storyteller of about fifty, thin face, short grey beard, a rust-brown silk long robe with embroidered borders, a soft cloth cap",
+  "kc": "a Han street storyteller of about fifty, thin face, short grey beard, a plain brown long robe, a cloth headband tied over a topknot, a small hand drum tucked under one arm, expressive open hands",
   "dan": "townspeople of different ages and faces in colourful tunics in blue, ochre, green and rust, each face different",
   "sb": "a Han soldier in a neat blue-grey or olive tunic with a polished leather chest guard, simple face"
  },
@@ -36,7 +36,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a big shadow-play screen lit from behind in a Song market square: on the screen a large teal silhouette lies fallen on the ground while a tall white silhouette with a feather fan stands over it, a crowd of townspeople seen from behind watching with open mouths"
+   "mo_ta": "a Han market square where a crowd of townspeople gathers around a laughing storyteller with a hand drum on a low wooden platform, on the platform in front of him two small clay figurines: a teal one lying fallen on its back and a tall white one standing over it, the townspeople gasping and pointing"
   },
   {
    "key": "003",
@@ -68,7 +68,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a storyteller's low table in a Song market square with four small wooden figurines in a row: a tall white-robed clever one, a green-robed one with a sour jealous face, a fallen one lying on its back, and a victorious one with raised arms; a child sits in front of the table listening with wide eyes while the storyteller's open hand points along the row"
+   "mo_ta": "a Han storyteller's low table in a Han market square with four small wooden figurines in a row: a tall white-robed clever one, a green-robed one with a sour jealous face, a fallen one lying on its back, and a victorious one with raised arms; a child sits in front of the table listening with wide eyes while the storyteller's open hand points along the row"
   },
   {
    "key": "007",
@@ -229,7 +229,7 @@
    "nv": [
     "kc"
    ],
-   "mo_ta": "a street storyteller's puppet stage in a Song market square: the storyteller's hand lifts a golden hat from the head of a small teal puppet and places it on the head of a taller white puppet, a crowd of townspeople seen from behind watching"
+   "mo_ta": "a street storyteller's puppet stage in a Han market square: the storyteller's hand lifts a golden hat from the head of a small teal puppet and places it on the head of a taller white puppet, a crowd of townspeople seen from behind watching"
   },
   {
    "key": "029",
@@ -453,7 +453,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a storyteller on a low plain wooden platform in a Song market square acting out a man clutching his chest and falling backward, a crowd of townspeople gasping and covering their mouths, a large glowing golden question-mark floating above the crowd"
+   "mo_ta": "a Han storyteller on a low plain wooden platform in a Han market square acting out a man clutching his chest and falling backward, a crowd of townspeople gasping and covering their mouths, a large glowing golden question-mark floating above the crowd"
   },
   {
    "key": "057",
@@ -477,7 +477,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a showman in a Song market square lifting a large golden jade ornament off the belt of a teal-robed figure and hanging it round the neck of a white-robed figure beside him, townspeople watching with interest, the teal figure looking down with a small dark cloud over his head"
+   "mo_ta": "a showman in a Han market square lifting a large golden jade ornament off the belt of a teal-robed figure and hanging it round the neck of a white-robed figure beside him, townspeople watching with interest, the teal figure looking down with a small dark cloud over his head"
   },
   {
    "key": "060",
@@ -485,7 +485,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a storyteller on a low platform holding up two small wooden puppets, a tall white-robed puppet raised high in the light and a smaller teal puppet bowing low beneath it, townspeople watching with interest"
+   "mo_ta": "a Han storyteller on a low platform holding up two small wooden puppets, a tall white-robed puppet raised high in the light and a smaller teal puppet bowing low beneath it, townspeople watching with interest"
   },
   {
    "key": "061",
@@ -501,7 +501,7 @@
     "zy",
     "zgl"
    ],
-   "mo_ta": "an open-air Song market square with a low wooden platform: a performer in a teal robe collapsing dramatically to the platform floor while a performer in a white-and-blue robe stands calmly with arms hidden in sleeves, an audience seen from behind"
+   "mo_ta": "an open-air Han market square with a low wooden platform: a performer in a teal robe collapsing dramatically to the platform floor while a performer in a white-and-blue robe stands calmly with arms hidden in sleeves, an audience seen from behind"
   },
   {
    "key": "063",
@@ -509,7 +509,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a storyteller standing before three bronze gongs hanging in a row on a wooden frame at a Song market stage, striking the third gong with a mallet while children in the front row clap in rhythm and hold up three fingers"
+   "mo_ta": "a Han market stage with three large bronze bells hanging in a row on a wooden frame, the storyteller striking the third bell with a wooden mallet while children in the front row clap in rhythm and hold up three fingers"
   },
   {
    "key": "064",

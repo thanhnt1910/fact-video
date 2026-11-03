@@ -1,6 +1,6 @@
 import json, re
-HAN=("2D ligne claire comic art, Eastern Han China around 208 AD, clean dark ink outlines, bright vivid clean colours with soft shading, luminous natural light, rich saturated palette, ornate fine details, realistic adult proportions, elegant richly decorated silk robes with embroidered borders and patterns, authentic Han cross-collared cut and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border")
-SONG=("2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, bright vivid clean colours with soft shading, luminous natural light, rich saturated palette, ornate fine details, realistic adult proportions, elegant richly decorated silk long robes with wide sleeves and embroidered borders, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border")
+HAN=("2D ligne claire comic art, Eastern Han China around 208 AD, clean dark ink outlines, bright vivid clean colours with soft shading, luminous natural light, light bright airy palette, realistic adult proportions, clothing in plain solid bright colours, authentic Han cross-collared cut and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border")
+SONG=("2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, bright vivid clean colours with soft shading, luminous natural light, light bright airy palette, realistic adult proportions, long robes with wide sleeves in plain solid bright colours, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border")
 W=" bright warm golden daylight, vibrant rich colours, cheerful luminous mood. "
 C=" bright clear soft daylight, fresh clean vivid colours (not grey, not dim, not gloomy). "
 F=" glowing vivid orange flames against a deep luminous blue night, vivid saturated colours. "
@@ -26,24 +26,24 @@ NV={
 }
 
 NV.update({
-"zy":"Zhou Yu at about thirty-three, a handsome slim man with fine features, a thin moustache and a short neat beard, black hair in a topknot under a black silk cap with a jade pin, a deep-teal silk long robe with gold-embroidered cloud-pattern borders, a polished dark-leather and bronze chest guard with gold studs, a jade-buckled belt, empty hands",
-"zyy":"young Zhou Yu at about twenty-four, handsome and clean-shaven, black topknot with a jade pin, a deep-teal silk robe with gold-embroidered borders and a jade belt, empty hands",
-"sc":"Sun Ce at about twenty-four, a stocky energetic young man with a short stubble beard and a broad grin, a crimson silk robe with gold-thread borders and a dark jade belt, empty hands",
+"zy":"Zhou Yu at about thirty-three, a handsome slim man with fine features, a thin moustache and a short neat beard, black hair in a topknot under a plain black cap, a plain solid bright teal long robe, a simple leather chest guard, a plain dark sash, empty hands",
+"zyy":"young Zhou Yu at about twenty-four, handsome and clean-shaven, black topknot, a plain solid bright teal robe with a plain sash, empty hands",
+"sc":"Sun Ce at about twenty-four, a stocky energetic young man with a short stubble beard and a broad grin, a plain solid bright red robe with a plain dark sash, empty hands",
 "sq":"Sun Quan at about twenty-six, a young ruler with a square face and a short beard, a purple silk robe with embroidered gold dragon-pattern borders and a jade belt, a tall black ceremonial cap, empty hands",
-"cc":"Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, a rich black silk robe with crimson borders and gold-thread embroidery, a jade belt, a tall black official cap, empty hands, no weapon",
-"hg":"Huang Gai, a tough old general of about sixty with a grey beard and weathered face, a rich brown silk robe with embroidered borders under bronze-studded leather armour, empty hands",
-"ls":"Lu Su, a stout calm man of about thirty-seven with a round kind face and a plain moustache, a sage-green silk robe with embroidered borders and a jade belt, empty hands",
-"zgl":"Zhuge Liang at about twenty-seven, a tall slim man with a calm intelligent smile and a thin moustache, a white silk robe with sky-blue embroidered borders and a blue silk sash, a cloth scarf cap, empty hands",
-"cr":"Cao Ren, a stern general of about fifty with a square jaw and a short black beard, a dark-red silk robe with a polished leather and bronze chest guard",
-"cp":"Cheng Pu, an old rugged officer with a grey beard and a scarred cheek, a deep-brown silk robe with a bronze-studded leather chest guard",
-"lb":"Liu Bei at about forty-eight, a mild man with long earlobes and a faint moustache, an emerald-green silk robe with gold borders, empty hands",
-"gy":"Guan Yu, a tall man with a very long black beard and a red face, a bright green silk robe with gold borders, empty hands",
-"zf":"Zhang Fei, a burly broad-faced man with a short bristling black beard and wide eyes, a dark-blue silk robe with silver borders, empty hands",
-"ps":"Pei Songzhi, an elderly annotator of about sixty with a thin grey beard, a soft blue-grey silk robe with a black cap, gentle focused face",
-"cs":"Chen Shou, a calm scholar-historian of about fifty in a deep-indigo silk robe with embroidered borders and a black cap, thoughtful face",
-"kc":"a Song street storyteller of about fifty, thin face, short grey beard, a rust-brown silk long robe with embroidered borders, a soft cloth cap",
-"dan":"townspeople of different ages and faces in colourful tunics in blue, ochre, green and rust, each face different",
-"sb":"a Han soldier in a neat blue-grey or olive tunic with a polished leather chest guard, simple face",
+"cc":"Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, a plain solid dark-grey robe with a plain sash, a tall black cap, empty hands, no weapon",
+"hg":"Huang Gai, a tough old general of about sixty with a grey beard and weathered face, a plain solid light-brown robe under simple leather armour, empty hands",
+"ls":"Lu Su, a stout calm man of about thirty-seven with a round kind face and a plain moustache, a plain solid light sage-green robe, empty hands",
+"zgl":"Zhuge Liang at about twenty-seven, a tall slim man with a calm intelligent smile and a thin moustache, a plain solid white robe with a plain sky-blue sash, a cloth scarf cap, empty hands",
+"cr":"Cao Ren, a stern general of about fifty with a square jaw and a short black beard, a plain solid red robe with a simple leather chest guard",
+"cp":"Cheng Pu, an old rugged officer with a grey beard and a scarred cheek, a plain solid warm-brown robe with a simple leather chest guard",
+"lb":"Liu Bei at about forty-eight, a mild man with long earlobes and a faint moustache, a plain solid bright green robe, empty hands",
+"gy":"Guan Yu, a tall man with a very long black beard and a red face, a plain solid bright green robe, empty hands",
+"zf":"Zhang Fei, a burly broad-faced man with a short bristling black beard and wide eyes, a plain solid bright blue robe, empty hands",
+"ps":"Pei Songzhi, an elderly annotator of about sixty with a thin grey beard, a plain solid soft blue-grey robe with a black cap, gentle focused face",
+"cs":"Chen Shou, a calm scholar-historian of about fifty in a plain solid bright indigo robe and black cap, thoughtful face",
+"kc":"a Song street storyteller of about fifty, thin face, short grey beard, a plain solid rust-orange long robe, a soft cloth cap",
+"dan":"townspeople of different ages and faces in plain solid-colour tunics in light blue, ochre, green and rust, each face different",
+"sb":"a Han soldier in a plain solid light blue-grey or olive tunic with a simple leather chest guard, simple face",
 })
 # (so cau, nv, ton, era, mo ta)
 S=[

@@ -46,10 +46,10 @@ Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ả
 - Bản gửi chủ kênh phải nêu rõ: bao nhiêu câu đã kiểm nguyên văn, bao nhiêu đã hạ nhãn hoặc bỏ, và câu nào còn tranh cãi. Không đẩy việc kiểm cho chủ kênh hay để sang bước đọc giọng.
 - Không gán nhãn "đã kiểm" cho điều chỉ nhớ từ trí nhớ hoặc từ một bài tổng hợp. Đối chiếu ít nhất hai nguồn độc lập cho số liệu và lời trích quan trọng.
 
-## Màu sáng và trang phục đẹp (chủ kênh yêu cầu 03/11/2026, áp dụng mọi ảnh từ nay)
+## Màu sáng và trang phục màu trơn (03/11/2026; sửa 04/11/2026: giảm hoa văn)
 - Ảnh phải **sáng, màu tươi, sạch**: ánh sáng ban ngày trong, màu bão hòa vừa phải. KHÔNG xám xịt, tối, đục (không dùng "muted", "grey-blue calm", "dim"). Cảnh đêm vẫn rực: lửa cam sáng trên nền xanh đêm trong.
-- **Trang phục đẹp, giàu chi tiết:** áo lụa có viền thêu hoa văn, chỉ vàng, đai ngọc, mũ có trâm ngọc, giáp da bóng có đinh đồng. Mỗi nhân vật một màu áo riêng, rõ ràng (Chu Du xanh lục thẫm, Tôn Sách đỏ thắm, Tôn Quyền tím, Gia Cát Lượng trắng viền xanh trời, Tào Tháo đen viền đỏ). Dân thường mặc áo nhiều màu (xanh, vàng đất, xanh lá, nâu đỏ), không toàn xám.
-- Không để nhân vật quyền quý trông như nông dân: vua chúa, tướng lĩnh, quan văn mặc lụa; cung điện có cột son, trần vẽ, rèm lụa; ngai thật bằng vàng, đặt trong điện.
+- **Trang phục màu trơn, sáng, KHÔNG hoa văn (chủ kênh yêu cầu 04/11/2026, thay quy tắc "áo thêu" cũ):** mọi nhân vật mặc áo vải một màu sáng sạch, không viền thêu, không họa tiết (Chu Du xanh lục sáng, Tôn Sách đỏ, Gia Cát Lượng trắng đai xanh trời, Lưu Bị và Quan Vũ xanh lá...). Prompt chỉ nêu "plain solid bright colour", không nhắc "embroidery/pattern" kể cả để cấm (mô hình sẽ vẽ ra). **Chỉ vua (Tôn Quyền) trong cảnh cung điện mới mặc lụa thêu rồng, viền vàng, đai ngọc.**
+- Cung điện có cột son, rèm lụa, ngai; ngoài cung thì tướng lĩnh, quan văn vẫn mặc áo trơn màu sáng, gọn gàng.
 - Vẫn giữ mọi quy tắc cấm: không chữ, không viền, không kính, không ghế tựa, không vật hiện đại.
 - Mã nguồn mẫu: `ke-hoach/nhan-vat/tao_CD.py` (biến `HAN`, `SONG`, `W`, `C`, `F`, `NV`); các bộ sau dùng theo.
 

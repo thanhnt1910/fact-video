@@ -1,16 +1,7 @@
 
 ===== TQ9: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 5 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 4 lần (tối đa 2): anh_file
    ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
    ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 4 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 4 lần (tối đa 2): anh_file
    ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
    ⛔ Chưa dựng TQ9: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
 Không dựng gì (kịch bản có lỗi, xem ở trên).

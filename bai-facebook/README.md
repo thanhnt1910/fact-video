@@ -16,6 +16,7 @@ bai-facebook/
 | 03 | Lê Long Đĩnh | 5 | Bản nháp chờ chủ kênh duyệt |
 | 04 | Trần Ích Tắc | 5 | Bản nháp chờ chủ kênh duyệt |
 | 05 | Trần Dụ Tông | 5 | Bản nháp chờ chủ kênh duyệt |
+| 06 | Lê Uy Mục và Lê Tương Dực | 0 | Bản nháp chờ chủ kênh duyệt (chưa tìm ảnh) |
 
 Quy tắc series và dàn ý: `ke-hoach/nhan-vat-phu-series-dan-y.md`. Quy tắc viết bài: `quy-tac/chung.md` và `quy-tac/su-viet.md`.
 

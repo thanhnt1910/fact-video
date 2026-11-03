@@ -582,7 +582,10 @@ def build(script, cfg, out_dir):
     if pending is None:
         check_images(script, beats_all, log)
 
-    log(f"  🎙️  Giọng Gemini {voice} ({len(chapters)} chương)")
+    if (script.get("long") or {}).get("tts_engine") == "vieneu":
+        log(f"  🎙️  Giọng VieNeu {(script.get('long') or {}).get('vieneu_voice', 'Thiện Minh')} + chỉnh G2 ({len(chapters)} chương)")
+    else:
+        log(f"  🎙️  Giọng Gemini {voice} ({len(chapters)} chương)")
     mcfg_auto = motion.settings(cfg).get("fx_auto", True)
     import gemini_tts
     narr = array.array("h")

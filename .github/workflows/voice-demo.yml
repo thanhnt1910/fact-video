@@ -44,6 +44,9 @@ jobs:
       - name: Liệt kê giọng VieNeu
         continue-on-error: true
         run: .venv-tts/bin/python vieneu_tts.py --list 2>&1 | tee vieneu_list.txt
+      - name: Thăm dò VieNeu
+        continue-on-error: true
+        run: mkdir -p demo && .venv-tts/bin/python vieneu_probe.py 2>&1 | tee demo/probe.log
       - name: Tạo file nghe thử
         env:
           DEMO_SCRIPT_FILE: ${{ inputs.kich_ban }}
@@ -66,7 +69,7 @@ jobs:
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add demo/ vieneu_list.txt
+          git add -f demo/ vieneu_list.txt
           git commit -q -m "File nghe thử giọng" || exit 0
           for i in 1 2 3; do
             git pull --rebase -X theirs -q && git push -q && exit 0

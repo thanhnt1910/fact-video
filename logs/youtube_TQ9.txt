@@ -1,0 +1,34 @@
+TIÊU ĐỀ YOUTUBE: Tào Tháo thật sự ác đến mức nào, theo chính sử? | Tam Quốc theo chính sử
+
+MÔ TẢ:
+Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu, Mã Đằng: video chia chuyện về Tào Tháo thành hai loại, việc có trong chính văn các bộ sử và chuyện chỉ nằm trong chú giải, để bạn tự đánh giá. Nguồn: Hậu Hán thư, Tam quốc chí và chú giải Bùi Tùng Chi.
+
+📌 Mục lục:
+00:00 Mở đầu
+
+#nguoigacsu #tamquoc #taotao #lichsu #chinhsu #tamquocchi
+
+TAG YOUTUBE: nguoigacsu, tamquoc, taotao, lichsu, chinhsu, tamquocchi
+
+📌 Video sử dụng giọng đọc AI và một số tranh minh họa tạo bằng AI.
+
+════ BÌNH LUẬN GHIM CỦA CHỦ KÊNH (đăng ngay, rồi ghim) ════
+Video chia chuyện về Tào Tháo thành hai loại: việc có trong chính văn Hậu Hán thư, Tam quốc chí và chuyện chỉ nằm trong chú giải của Bùi Tùng Chi. Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu và Mã Đằng có ghi chép; chuyện Lã Bá Xa và Biên Nhượng có căn cứ yếu hơn.
+
+════ BÌNH LUẬN PHỤ 1 (đăng sau 15–30 phút) ════
+Lưu ý: một số chi tiết lấy từ nguồn thứ cấp, hình ảnh là tranh minh họa.
+
+════ CÁCH ĐĂNG BÌNH LUẬN (không đăng) ════
+Đăng bình luận ghim trong 5–15 phút đầu rồi ghim lại; bình luận phụ đăng sau 15–30 phút (hoặc gộp làm một). Trả lời bình luận người xem trong 1–2 giờ đầu. Không dùng tài khoản phụ / clone để bình luận.
+Link chỉ để trong bình luận, không để trong caption. TikTok không bấm được link trong bình luận: chỉ ghi tên nguồn.
+⚠️ Đã bỏ link nguồn "Hậu Hán thư, Wikisource" (https://zh.wikisource.org/wiki/後漢書): không mở được (UnicodeEncodeError)
+⚠️ Đã bỏ link nguồn "Tam quốc chí, Wikisource" (https://zh.wikisource.org/wiki/三國志): không mở được (UnicodeEncodeError)
+
+──── GHI CHÚ (không đăng) ────
+Nguồn kiểm chứng:
+- Hậu Hán thư, Khổng Dung truyện (quyển 70) và Hiến Đế kỷ (quyển 9), đã đọc nguyên văn chữ Hán trên Wikisource
+- Trần Thọ, Tam quốc chí (Vũ đế kỷ, Đào Khiêm truyện, Hoa Đà truyện) và chú giải Bùi Tùng Chi, qua bài tổng hợp Wikipedia, chưa đối chiếu nguyên văn
+
+──── PHỤ ĐỀ ────
+YouTube Studio → video → Phụ đề → Thêm ngôn ngữ → Tiếng Việt → Tải tệp lên → TQ9_dai_vi.srt
+Thêm tiếp ngôn ngữ Tiếng Anh: dán Tiêu đề + Mô tả trong file TQ9_dai_youtube_en.txt, rồi tải phụ đề TQ9.en_US.srt (Facebook tự nhận tiếng Anh theo tên file).

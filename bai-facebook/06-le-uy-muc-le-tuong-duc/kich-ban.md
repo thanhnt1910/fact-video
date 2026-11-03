@@ -167,20 +167,19 @@ Cần phân biệt:
 • Chuyện "xây dựng" và "dịch lệ một phần mười" nằm trong đoạn tổng kết của năm 1516; bài ghi đúng chỗ ấy, không gán năm cho từng công trình.
 • Bài chưa đối chiếu với sử Trung Quốc hay sách nghiên cứu hiện đại.
 
-Ảnh: ghi công từng ảnh ở đây sau khi chọn xong.
+Ảnh (Wikimedia Commons):
+• Ảnh 1 và 2: Khu trung tâm Hoàng thành Thăng Long, katiebordner, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg và https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_(26246667851).jpg
+• Ảnh 3: Bia tiến sĩ, Văn Miếu – Quốc Tử Giám, Daderot, CC0 — https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04681.JPG
+• Ảnh 4: Sông Tô Lịch, Viethavvh (vi.wikipedia), phạm vi công cộng — https://commons.wikimedia.org/wiki/File:Sông_Tô_Lịch.jpg
+• Ảnh 5: Văn Miếu, Hà Nội, xiquinhosilva, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Temple_of_Literature,_Hanoi_by_Xiquinho_Silva_02.jpg
+Đây là ảnh hiện nay, không phải ảnh thời Lê sơ; không có ảnh chân dung hai vua đáng tin.
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #LeUyMuc #LeTuongDuc #LeSo #TrinhDuySan #LichSu
 
-## Kế hoạch ảnh (chưa chạy workflow, chờ chủ kênh cho chạy)
-Truy vấn đã soạn ở `ke-hoach/nhan-vat-phu/nvp6_anh_truy_van.txt`. Chỉ lấy ảnh public domain, CC0 hoặc CC BY trên Wikimedia Commons:
-1. Lam Kinh (Thanh Hóa), nơi có lăng các vua Lê sơ.
-2. Hoàng thành Thăng Long hoặc Văn Miếu – Quốc Tử Giám (di tích thời Lê).
-3. Hồ Tây hoặc sông Tô Lịch, Hà Nội.
-4. Đồ Sơn (Hải Phòng).
-5. Bia tiến sĩ Văn Miếu (các khoa thi thời Lê sơ).
-Không có ảnh chân dung hai vua đáng tin; thiếu ảnh nào ghi rõ thiếu.
-Muốn chạy: đổi dòng 1 của `ke-hoach/nhan-vat-phu/anh_chay.txt` thành `nvp6` rồi đẩy lên nhánh (workflow `anh-bai-viet.yml`).
+## Kế hoạch ảnh (đã chạy workflow nvp6, 4/11/2026)
+5 ảnh đã chọn nằm ở `anh/01–05.jpg` (xem mục "Ảnh" ở bình luận ghim). Đặt gợi ý: 01 hoặc 02 làm ảnh đầu bài (Hoàng thành Thăng Long), 03 gần mục "Những người can vua", 04 gần mục "Đại điện hơn trăm nóc" (Tô Lịch), 05 gần mục "Ngày mồng 7 tháng 4".
+Không tìm được ảnh phù hợp có giấy phép tự do cho Lam Kinh (kết quả là mộ cổ ở Chợ Lớn, không liên quan) và Đồ Sơn (kết quả là ảnh đời thường); bỏ cả hai.
 
 ## Mục "Ghi chú độ chắc"
 TT = Đại Việt sử ký toàn thư. Số dòng là dòng trong `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`.

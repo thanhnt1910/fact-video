@@ -1,0 +1,475 @@
+{
+ "id": "TQ10",
+ "topic": "lich-su",
+ "title": "Vì sao cả ngàn năm người ta ghét Tào Tháo?",
+ "caption": "Trẻ con thời Tống nghe kể chuyện đã biết ghét Tào Tháo. Nỗi ghét ấy bắt đầu từ đâu: từ việc thật, từ cuộc tranh cãi chính thống, hay từ người kể chuyện? Tam Quốc theo chính sử 🏯",
+ "hashtags": [
+  "nguoigacsu",
+  "tamquoc",
+  "taotao",
+  "lichsu",
+  "chinhsu",
+  "chinhthong",
+  "tamquocdiennghia"
+ ],
+ "sources": [
+  "Hậu Hán thư, Tam quốc chí (Vũ đế kỷ) và chú giải Bùi Tùng Chi; Hán Tấn xuân thu của Tập Tạc Xỉ; Tư trị thông giám của Tư Mã Quang; Tư trị thông giám cương mục của Chu Hy; Tam quốc diễn nghĩa.",
+  "Một số chi tiết trong video chưa đối chiếu nguyên văn chữ Hán; những chỗ đó được nêu trong bình luận ghim."
+ ],
+ "nguon_link": [
+  {
+   "ten": "Tam quốc chí, Wikisource",
+   "url": "https://zh.wikisource.org/wiki/三國志",
+   "ngon_ngu": "chữ Hán"
+  },
+  {
+   "ten": "Hậu Hán thư, Wikisource",
+   "url": "https://zh.wikisource.org/wiki/後漢書",
+   "ngon_ngu": "chữ Hán"
+  }
+ ],
+ "music": "none",
+ "giong_them": "HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, still clear Northern Vietnamese diction.",
+ "pronounce": {},
+ "long": {
+  "chuyen_canh": "fade",
+  "title": "Vì sao cả ngàn năm người ta ghét Tào Tháo? | Tam Quốc theo chính sử",
+  "title_card": "Vì sao cả ngàn năm người ta ghét **Tào Tháo**?",
+  "description": "Trẻ con thời Tống chưa từng gặp Tào Tháo mà đã biết ghét ông. Video đi qua ba tầng tư liệu: chính văn các bộ sử, chú giải và dị bản, rồi tiểu thuyết, và cuộc tranh cãi về chính thống, để xem nỗi ghét ấy bắt đầu từ đâu. Nguồn: Hậu Hán thư, Tam quốc chí và chú giải, Hán Tấn xuân thu, Tư trị thông giám, Cương mục, Tam quốc diễn nghĩa. Một số chi tiết chưa đối chiếu nguyên văn.",
+  "voice": "Sadaltager",
+  "music": "none",
+  "bia": {
+   "anh": "assets/anh_2d/TQ10/003.jpg",
+   "nen": "assets/anh_2d/TQ10/002.jpg",
+   "huy_hieu": "TAM QUỐC CHÍNH SỬ",
+   "dong1": "VÌ SAO",
+   "dong2": "GHÉT TÀO THÁO?",
+   "gach": true,
+   "dong3": "Cả ngàn năm vẫn ghét?"
+  },
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Hãy tưởng tượng một con phố trong thành thị nước Tống, vào khoảng thế kỷ mười một. Lúc ấy, Tào Tháo đã mất hơn tám trăm năm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/001.jpg"
+     },
+     {
+      "text": "Giữa phố, một người kể chuyện đang ngồi nói về thời Tam Quốc, và quanh ông là một đám trẻ con.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/002.jpg"
+     },
+     {
+      "text": "Kể đến đoạn Lưu Bị thua trận, lũ trẻ nhăn mặt, có đứa còn khóc. Kể đến đoạn Tào Tháo thua trận, cả đám reo lên sung sướng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/003.jpg"
+     },
+     {
+      "text": "Cảnh này được nhà thơ lớn Tô Thức chép lại. Ông thuật lời của một người bạn tên là Vương Bành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/004.jpg"
+     },
+     {
+      "text": "Hãy nghĩ kỹ về những đứa trẻ ấy. Chúng chưa từng gặp Tào Tháo, chưa từng bị ông ức hiếp, và ông đã mất từ rất lâu. Vậy mà chúng đã biết phải ghét ai.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/005.jpg"
+     },
+     {
+      "text": "Ai đã dạy chúng điều đó? Và nỗi ghét ấy bắt đầu từ lúc nào?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/006.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Hôm nay ta đi tìm câu trả lời, qua ba tầng tư liệu. Tầng thứ nhất là chính văn, tức phần nằm trong các bộ sử chính thức.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/007.jpg"
+     },
+     {
+      "text": "Tầng thứ hai là chú giải và những sách được dẫn lại, thường ghi dị bản và giai thoại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/008.jpg"
+     },
+     {
+      "text": "Tầng thứ ba là tiểu thuyết, tức truyện do người đời sau sáng tác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/009.jpg"
+     },
+     {
+      "text": "Với mỗi chuyện, ta sẽ nói rõ nó nằm ở tầng nào, để bạn tự cân nhắc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/010.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Hãy quay về lúc Tào Tháo còn sống. Khi ấy chưa ai gọi ông là kẻ phản diện của cả một thời đại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/011.jpg"
+     },
+     {
+      "text": "Lúc còn trẻ, ông gặp một người chuyên đánh giá nhân vật là Hứa Thiệu. Theo Hậu Hán thư, Hứa Thiệu nói ông là kẻ gian trá thời bình, nhưng là anh hùng thời loạn. Ông nghe xong rất vui.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/012.jpg"
+     },
+     {
+      "text": "Một sách khác chép câu ấy hơi khác: quan giỏi thời bình, kẻ gian hùng thời loạn. Dù bản nào, người đời cũng đã thấy ở ông cả mặt gian lẫn mặt hùng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/013.jpg"
+     },
+     {
+      "text": "Rồi ba nước chia nhau thiên hạ, và nhà Tấn lên thay. Người viết bộ sử Tam quốc chí là Trần Thọ, sống ở nhà Tấn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/014.jpg"
+     },
+     {
+      "text": "Trong bộ sử ấy, phần viết về Tào Tháo mang tên Vũ đế kỷ, tên gọi dành cho các bậc đế vương. Còn phần viết về Lưu Bị và Tôn Quyền thì gọi là truyện.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/015.jpg"
+     },
+     {
+      "text": "Lý do hay được nêu rất dễ hiểu. Nhà Tấn nhận ngôi từ nhà Ngụy của họ Tào, nên coi nhà Ngụy là triều đại hợp pháp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/016.jpg"
+     },
+     {
+      "text": "Trần Thọ còn kết phần viết về Tào Tháo bằng một lời khen. Ông gọi Tào Tháo là người phi thường, bậc kiệt xuất vượt hơn cả đời, và cho rằng ông thành nghiệp lớn nhờ mưu lược giỏi nhất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/017.jpg"
+     },
+     {
+      "text": "Nghĩa là bộ sử gần thời ấy nhất không vẽ Tào Tháo thành quỷ dữ. Họ vẽ một người tài giỏi và đáng sợ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/018.jpg"
+     },
+     {
+      "text": "Vậy nỗi ghét ngàn năm không bắt đầu từ đây.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/019.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Nhưng cũng không thể nói người ta ghét ông vô cớ. Trong chính văn có những việc rất nặng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/020.jpg"
+     },
+     {
+      "text": "Ông mang quân đánh Từ Châu, và các nguồn ghi lại hàng vạn người chết, trong đó có cả dân thường và người chạy loạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/021.jpg"
+     },
+     {
+      "text": "Ông giết Khổng Dung, một danh sĩ nổi tiếng. Phục hoàng hậu cũng bị giết, cùng hai hoàng tử.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/022.jpg"
+     },
+     {
+      "text": "Ông đưa vua Hán về sống dưới sự kiểm soát của mình. Người đời sau gọi đó là giữ vua trong tay để ra lệnh cho các thế lực khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/023.jpg"
+     },
+     {
+      "text": "Những việc ấy đều có trong chính sử, nên nỗi ghét của người đời không phải vô cớ. Nhưng thời loạn nào cũng có người gây ra chết chóc rất lớn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/024.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Để một cái tên bị ghét suốt ngàn năm, cần thêm một thứ khác: một câu chuyện lớn xem ai đúng, ai sai. Câu chuyện ấy mang tên là chính thống.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/025.jpg"
+     },
+     {
+      "text": "Có một điều ít người để ý. Tào Tháo chưa bao giờ làm hoàng đế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/026.jpg"
+     },
+     {
+      "text": "Ông giữ chức thừa tướng, rồi được phong làm Ngụy vương. Người lên ngôi hoàng đế là con trai ông, Tào Phi, vào năm hai trăm hai mươi, ngay sau khi Tào Tháo qua đời.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/027.jpg"
+     },
+     {
+      "text": "Một ghi chép được dẫn lại trong chú giải kể rằng Tôn Quyền từng gửi thư xưng thần với Tào Tháo, rồi khuyên ông lên ngôi. Tào Tháo nói rằng nếu mệnh trời thuộc về mình, ông chỉ xin làm như Chu Văn Vương, người đặt nền cho nhà Chu nhưng để con cháu lên ngôi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/028.jpg"
+     },
+     {
+      "text": "Nếu ghi chép ấy đúng, thì chữ kẻ cướp ngôi gắn cho Tào Tháo thật ra nhắm vào nhà họ Tào, và vào việc ông dọn đường cho con. Bản thân ông giữ chức bề tôi cho đến lúc chết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/029.jpg"
+     },
+     {
+      "text": "Nhưng với người coi nhà Hán mới là chính thống, việc nắm vua trong tay đã là tội đủ nặng. Và từ đó, một cuộc tranh cãi lớn bắt đầu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/030.jpg"
+     },
+     {
+      "text": "Hai chữ chính thống nghe khô khan, nhưng ý của nó rất giản dị. Khi đất nước chia ba, nước nào mới là người nối tiếp hợp pháp của nhà Hán?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/031.jpg"
+     },
+     {
+      "text": "Nếu trả lời là nước Thục, thì Lưu Bị là người giữ ngọn lửa nhà Hán, còn Tào Tháo và con cháu là kẻ cướp ngôi. Nếu trả lời là nước Ngụy, thì mọi thứ đảo ngược.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/032.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Một trong những người sớm nhất bênh nước Thục một cách rõ ràng là Tập Tạc Xỉ, sống ở nhà Đông Tấn, khoảng thế kỷ bốn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/033.jpg"
+     },
+     {
+      "text": "Ông viết bộ Hán Tấn xuân thu. Tên sách chỉ nhắc đến nhà Hán và nhà Tấn, bỏ qua nhà Ngụy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/034.jpg"
+     },
+     {
+      "text": "Ông lập luận rằng vua nhường ngôi theo nghi lễ chưa đủ để làm nên một triều đại hợp pháp. Nhà Ngụy không nắm cả Trung Hoa, và dòng họ cầm quyền cũng không mang huyết thống nhà Hán.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/035.jpg"
+     },
+     {
+      "text": "Ông còn đem nhà Ngụy so với nhà Tân của Vương Mãng, người đã cướp ngôi nhà Hán trước đó. Khi ghi năm tháng, ông dùng năm tháng của nhà Thục Hán.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/036.jpg"
+     },
+     {
+      "text": "Hoàn Ôn là một tướng quyền thế. Ban đầu ông rất trọng Tập Tạc Xỉ, nhưng quan hệ rạn nứt sau khi Tập Tạc Xỉ gặp đối thủ của Hoàn Ôn là Tư Mã Dục, người sau này làm vua Giản Văn. Rồi Hoàn Ôn giáng chức ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/037.jpg"
+     },
+     {
+      "text": "Điều thú vị là mục đích của ông có thể không nằm ở Tào Tháo. Theo một số nghiên cứu, ông viết sách trong lúc bị tướng Hoàn Ôn giáng chức đưa đi xa, vì ông cho rằng Hoàn Ôn có tham vọng quá lớn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/038.jpg"
+     },
+     {
+      "text": "Nói cách khác, Tào Tháo được đem ra làm gương cho người đương thời: ai nhận ngôi theo kiểu ấy sẽ bị coi là kẻ cướp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/039.jpg"
+     },
+     {
+      "text": "Hãy để ý điều này. Lúc đó Tào Tháo đã mất hơn một trăm năm, và ông bị đưa ra làm ví dụ cho một cuộc tranh giành quyền lực khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/040.jpg"
+     },
+     {
+      "text": "Ý kiến của Tập Tạc Xỉ lúc đầu ít người theo, mãi nhiều thế kỷ sau mới được chấp nhận rộng rãi. Các học giả đời Thanh còn viết rằng sau ông, không ai không bác bỏ Trần Thọ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/041.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Đến thời nhà Tống, câu hỏi ấy thành chuyện lớn. Nhà Tống chia làm hai giai đoạn: Bắc Tống ở phía bắc, rồi Nam Tống ở phía nam sau khi mất phương bắc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/042.jpg"
+     },
+     {
+      "text": "Năm một nghìn không trăm tám mươi bốn, học giả Tư Mã Quang dâng lên vua bộ Tư trị thông giám. Đó là bộ sử theo năm tháng, mất mười chín năm để hoàn thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/043.jpg"
+     },
+     {
+      "text": "Khi chép thời Tam Quốc, ông ghi năm tháng theo tên các năm của nhà Ngụy. Theo ghi chép, ông nói đó chỉ là cách cho sách có một dòng thời gian chung, không phải lời tuyên bố ai chính thống.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/044.jpg"
+     },
+     {
+      "text": "Năm một nghìn một trăm hai mươi bảy, nhà Tống mất phương bắc vào tay nhà Kim. Khoảng thế kỷ mười hai, học giả Chu Hy cùng học trò làm bản rút gọn là Tư trị thông giám cương mục.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/045.jpg"
+     },
+     {
+      "text": "Bản này tôn nước Thục Hán là chính thống. Một người cùng thời là Chu Mật nói rằng Chu Hy viết nó để sửa lập trường của Tư Mã Quang.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/046.jpg"
+     },
+     {
+      "text": "Nhiều người giải thích rằng nước Tống phương nam khi ấy giống nước Thục: nhỏ hơn đối thủ, mất đi phần đất lớn, nhưng vẫn nhận mình là người nối nhà cũ. Đây là cách hiểu của người nghiên cứu, không phải điều sử chép.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/047.jpg"
+     },
+     {
+      "text": "Và đây là chi tiết đáng chú ý. Chính Tô Thức, người chép chuyện lũ trẻ, đã đổi ý về Tào Tháo trong đời mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/048.jpg"
+     },
+     {
+      "text": "Lúc trẻ, ông gọi Tào Tháo là bậc trí giả, chỉ giỏi đoán việc hơn đoán người. Về già, khi viết về Khổng Dung, ông gọi Tào Tháo là kẻ ngầm hại và hiểm độc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/049.jpg"
+     },
+     {
+      "text": "Cùng một con người, cùng một học giả lớn, mà ý kiến trượt từ khen sang chê. Hãy tưởng tượng những người kể chuyện ngoài phố sẽ còn đi xa hơn thế nào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/050.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Thật ra trẻ con mê Tam Quốc từ rất sớm. Thơ của Lý Thương Ẩn, đời Đường, tả cậu con trai nhỏ của ông bắt chước diễn lại: đứa thì cười Trương Phi râu rậm, đứa thì cười Đặng Ngải nói lắp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/051.jpg"
+     },
+     {
+      "text": "Người kể chuyện ngoài phố cần khán giả hồi hộp. Muốn thế, họ cần người tốt và người xấu thật rõ ràng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/052.jpg"
+     },
+     {
+      "text": "Đến đời Nguyên có một cuốn sách kể chuyện in khoảng những năm một nghìn ba trăm hai mươi mốt đến một nghìn ba trăm hai mươi ba, tên là Tam quốc chí bình thoại. Sách dài khoảng tám vạn chữ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/053.jpg"
+     },
+     {
+      "text": "Cùng thời, sân khấu cũng có nhiều vở tuồng về Quan Vũ và các nhân vật Tam Quốc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/054.jpg"
+     },
+     {
+      "text": "Cuối đời Nguyên, đầu đời Minh, La Quán Trung viết Tam quốc diễn nghĩa, dựa trên những nguồn ấy. Một người đời Minh nhận xét sách này vừa dựa theo chính sử, vừa lấy thêm từ tiểu thuyết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/055.jpg"
+     },
+     {
+      "text": "Sang đời Thanh, trong khoảng từ năm một nghìn sáu trăm sáu mươi hai đến một nghìn bảy trăm hai mươi ba, cha con Mao Luân và Mao Tông Cương sửa lại toàn bộ sách. Bản của họ trở thành bản được đọc nhiều nhất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/056.jpg"
+     },
+     {
+      "text": "Một nghiên cứu cho rằng khuynh hướng đề cao Lưu Bị, chê Tào Tháo của bộ truyện có liên quan đến việc bộ Cương mục của Chu Hy được ưa chuộng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/057.jpg"
+     },
+     {
+      "text": "Như vậy có ba lớp chồng lên nhau. Lớp dưới là những việc có thật. Lớp giữa là cuộc tranh cãi về chính thống. Lớp trên cùng là người kể chuyện và tiểu thuyết, những thứ đến được tai cả trẻ con.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/058.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Câu nói nổi tiếng của Tào Tháo, thà ông phụ người trong thiên hạ, chứ không để người trong thiên hạ phụ ông, chỉ thấy trong một ghi chép đời sau, được dẫn lại trong chú giải.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/059.jpg"
+     },
+     {
+      "text": "Trong tiểu thuyết, câu ấy gắn với một cảnh rất kịch tính. Tào Tháo ghé nhà Lã Bá Xa, nghe tiếng mài dao nên nghi bị hại, và giết cả nhà ông ta.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/060.jpg"
+     },
+     {
+      "text": "Sau đó mới biết họ định làm thịt lợn đãi khách.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/061.jpg"
+     },
+     {
+      "text": "Rồi Tào Tháo còn giết luôn chính Lã Bá Xa trên đường, và thốt lên câu nói ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/062.jpg"
+     },
+     {
+      "text": "Nhìn kỹ thì thấy: ghi chép về chuyện này có nhiều dị bản. Điểm chung đáng chú ý chỉ là Tào Tháo đã giết người trong gia đình Lã Bá Xa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/063.jpg"
+     },
+     {
+      "text": "Tiểu thuyết đã làm một việc rất khéo. Nó lấy một sự việc có thật nhưng mờ nhạt, rồi biến thành một cảnh ai nghe cũng nhớ, và gắn cho nó một câu nói làm nên tính cách cả một con người.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/064.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Dù vậy, chưa bao giờ ai quên được tài của ông. Nhiều người vẫn đọc thơ ông và khâm phục.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/065.jpg"
+     },
+     {
+      "text": "Đời Thanh, có học giả đọc bài thơ Quan thương hải của Tào Tháo và khen có khí thế nuốt cả vũ trụ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/066.jpg"
+     },
+     {
+      "text": "Cũng có người đời Thanh vừa phục tài thơ văn của ông, vừa vẫn gọi ông là kẻ gian hùng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/067.jpg"
+     },
+     {
+      "text": "Hãy nhìn điều đó. Ngay trong người ghét ông nhất, vẫn có chỗ cho sự nể phục.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/068.jpg"
+     },
+     {
+      "text": "Vậy ta xếp lại ba tầng. Tầng chính văn, đã được kiểm, có việc ở Từ Châu, việc giết Khổng Dung và việc Phục hoàng hậu cùng hai hoàng tử bị giết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/069.jpg"
+     },
+     {
+      "text": "Tầng chú giải và giai thoại có những lời nói nổi tiếng và nhiều dị bản về chuyện Lã Bá Xa. Độ chắc ở đây thấp hơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/070.jpg"
+     },
+     {
+      "text": "Tầng tiểu thuyết là cảnh nghe tiếng mài dao, và cách dựng Tào Tháo thành nhân vật phản diện tiêu biểu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/071.jpg"
+     },
+     {
+      "text": "Và ở giữa là một thứ khó thấy hơn. Đó là cuộc tranh cãi chính thống, nơi người ta chọn nhìn Tào Tháo bằng con mắt của kẻ cướp ngôi, vì nhu cầu của thời mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/072.jpg"
+     },
+     {
+      "text": "Vậy vì sao cả ngàn năm người ta ghét Tào Tháo? Một phần vì ông đã làm những việc thật. Một phần vì mỗi thời đại cần một kẻ cướp ngôi để răn dạy. Một phần vì những người kể chuyện biết trẻ con thích ghét ai.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/073.jpg"
+     },
+     {
+      "text": "Còn bạn, khi nghe tên Tào Tháo mà thấy khó chịu, đó là vì những gì sử chép về ông, hay vì những gì bạn đã nghe kể?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ10/074.jpg"
+     }
+    ]
+   }
+  ],
+  "giong_tung_cau": true,
+  "tts_engine": "vieneu",
+  "vieneu_voice": "Thiện Minh",
+  "the_tieu_de": false
+ },
+ "binh_luan": {
+  "dai": {
+   "ghim": "Video chia nỗi ghét Tào Tháo thành ba tầng: việc có trong chính văn các bộ sử, chú giải và dị bản, và tiểu thuyết. Câu thà ta phụ người và chuyện nghe tiếng mài dao chỉ có ở tầng chú giải và tiểu thuyết, độ chắc thấp hơn chính văn.",
+   "phu": [
+    "Lưu ý: một số chi tiết chưa đối chiếu nguyên văn chữ Hán; hình ảnh là tranh minh họa."
+   ]
+  }
+ }
+}

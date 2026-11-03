@@ -38,7 +38,7 @@ Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ả
 ## D. Ghi lại để lần sau khỏi lặp
 - Mỗi đợt vẽ: ghi số ảnh vẽ, số ảnh lỗi theo loại (chữ, viền, hiện đại, thừa người...) vào `logs/kiem_2d/<MÃ>_tong_hop.txt`.
 - Lỗi mới chưa có trong bảng ở mục A thì thêm dòng vào bảng ngay trong cùng phiên.
-- Khi soạn kế hoạch ảnh cho video mới, ưu tiên cảnh có người, ngoài trời, góc rộng; hạn chế cảnh phòng trống chỉ có bàn và vật.
+- Khi soạn kế hoạch ảnh cho video mới, ưu tiên cảnh có người, ngoài trời, góc rộng; hạn chế cảnh phòng trống chỉ có bàn và vật. Ngoại lệ là ảnh minh họa ẩn dụ ở mục E: ảnh vật có chủ ý, không bị hạn chế này.
 
 ## Kịch bản phải tự kiểm trước khi gửi chủ kênh (chủ kênh yêu cầu 03/11/2026, áp dụng mọi kịch bản từ nay)
 - Không gửi kịch bản còn mục "phải kiểm nguyên văn" hoặc câu gắn nhãn [SỬ*] (chưa đọc nguyên văn). Trước khi gửi, Claude tự tra từng chi tiết có tên, năm, con số, lời trích và câu nói của nhân vật bằng nguồn gốc (WebSearch/WebFetch, nguyên văn chữ Hán trên Wikisource/ctext/zh.wikisource, sách dẫn lại), rồi ghi kết quả vào mục "Trạng thái kiểm chứng".
@@ -52,3 +52,14 @@ Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ả
 - Không để nhân vật quyền quý trông như nông dân: vua chúa, tướng lĩnh, quan văn mặc lụa; cung điện có cột son, trần vẽ, rèm lụa; ngai thật bằng vàng, đặt trong điện.
 - Vẫn giữ mọi quy tắc cấm: không chữ, không viền, không kính, không ghế tựa, không vật hiện đại.
 - Mã nguồn mẫu: `ke-hoach/nhan-vat/tao_CD.py` (biến `HAN`, `SONG`, `W`, `C`, `F`, `NV`); các bộ sau dùng theo.
+
+## E. Ảnh minh họa và ẩn dụ (chủ kênh yêu cầu 03/11/2026, áp dụng mọi video từ nay)
+Quy tắc ở mục A đến D thiên về cảnh người làm việc, nên các đoạn kể ý trừu tượng (cân nhắc nguồn, hai mặt của một chuyện, lời đồn lan đi, nỗi đau, sự thật bị che) bị vẽ thành người đứng nói hoặc cảnh vắng chẳng có nghĩa. Từ nay mỗi kế hoạch ảnh phải phân loại từng câu và dành chỗ cho ẩn dụ.
+1. **Ba loại ảnh, ghi vào kế hoạch ảnh từng câu:** (a) cảnh người: sự việc có người làm; (b) cảnh vật có nghĩa: nơi chốn, cảnh vật mang không khí; (c) minh họa ẩn dụ: vật hoặc cảnh tượng trưng cho một ý của lời kể.
+2. **Khi nào dùng ẩn dụ:** câu nói về ý trừu tượng, lời nhận định, độ chắc của nguồn, kết quả không thể vẽ thành người (bệnh nặng, chết, danh tiếng, lời đồn), và các bước chuyển chương. Mục tiêu khoảng 15 đến 25 phần trăm số ảnh của một video kiểu "tiểu thuyết và chính sử", ít hơn ở video chiến trận.
+3. **Mỗi ảnh ẩn dụ chỉ một ý, đọc ra ngay:** một vật chính ở giữa hoặc một cặp đối lập rõ (cán cân hai đĩa, hai con đường rẽ, một cây cầu gãy giữa dòng, bóng người lớn hơn người, bàn cờ với hai quân, ngọn đèn dầu trước gió, dòng sông chia đôi lửa và nước). Vật phải thuộc thời đó (đĩa dầu đồng, thẻ tre trơn, cầu gỗ, thuyền chiến Hán) và theo bảng ở mục A.
+4. **Không ẩn dụ lẫn lộn với sự thật:** ảnh ẩn dụ không được trông như một sự kiện có thật. Không ghép vật không liên quan vào cùng khung (lỗi của ảnh 064 cũ: mũi tên, hạm đội cháy và chiếc giường đặt ngoài bờ không nói lên ý nào). Mỗi vật trong khung phải trả lời được "nó tượng trưng cho điều gì trong câu".
+5. **Ghi nghĩa ẩn dụ trong kế hoạch ảnh:** cột "Ý của ảnh" một dòng (ví dụ "cán cân nghiêng về phía tiểu thuyết vì có nhiều người kể hơn người đọc sử"). Chủ kênh duyệt cột này trước khi vẽ.
+6. **Vẽ 2 bản** cho ảnh ẩn dụ và soi xem người ngoài nhìn có hiểu không. Nếu phải giải thích mới hiểu thì đổi ẩn dụ.
+7. **Vẫn giữ mọi quy tắc cấm:** không chữ, không viền, đồ đúng thời, màu sáng; ẩn dụ không dùng cờ có hình, bia, biển, thẻ có chữ.
+8. **Ẩn dụ không thay thế cảnh người ở đoạn kể sự việc:** đoạn nào kể ai làm gì thì vẫn vẽ người đó, đúng quy tắc tóc búi, tay, số người.

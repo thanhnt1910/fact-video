@@ -234,6 +234,21 @@ class Compositor:
             cap = {"v": cv2.VideoCapture(path), "pos": -1, "last": None, "cache": {}}
             cap["n"] = int(cap["v"].get(cv2.CAP_PROP_FRAME_COUNT))
             caps[path] = cap
+        # clip ngắn hơn lời kể: đầu cảnh giữ khung đầu (chính là ảnh) lia chậm vào, rồi clip chạy tốc độ thật
+        # SAU đó, để clip kết thúc đúng lúc chuyển cảnh (không còn đứng hình ở cuối cảnh)
+        lead = max(0.0, float(s.get("dur", 0)) - cap["n"] / 24.0)
+        if lead > 0.3:
+            if lt < lead:
+                if cap.get("first") is None:
+                    cap["v"].set(cv2.CAP_PROP_POS_FRAMES, 0)
+                    ok0, f0 = cap["v"].read()
+                    cap["pos"] = 0
+                    if ok0:
+                        cap["first"] = np.ascontiguousarray(np.asarray(grade(Image.fromarray(cv2.cvtColor(f0, cv2.COLOR_BGR2RGB)))))
+                if cap.get("first") is not None:
+                    return self._zoom(cap["first"], 1 + 0.05 * (1 - lt / lead))
+            else:
+                lt = lt - lead
         n = min(max(0, int(lt * 24 + 0.5)), cap["n"] - 1)
         if int(lt * 24 + 0.5) >= cap["n"] and cap.get("last") is not None:
             # hết clip mà cảnh còn dài: giữ khung cuối, thêm lia/zoom rất nhẹ để hình không đứng im

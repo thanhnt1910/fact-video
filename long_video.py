@@ -715,23 +715,8 @@ def build(script, cfg, out_dir):
             if not src_clip.exists():
                 raise RuntimeError(f"thiếu clip chuyển động: {s['clip']}")
             outc = work / f"clip_{src_clip.stem}.mp4"
-            crop = "" if "_nhe" in src_clip.parent.name else "crop=iw*0.95:ih*0.95:0:0,"
-            import cv2 as _cv2
-            _c = _cv2.VideoCapture(str(src_clip))
-            cdur = _c.get(_cv2.CAP_PROP_FRAME_COUNT) / (_c.get(_cv2.CAP_PROP_FPS) or 24.0)
-            _c.release()
-            need = s["dur"] + 1.0
-            src_in, loop_args = str(src_clip), []
-            if cdur and cdur < need:
-                # clip ngắn hơn lời kể: không để đứng hình. Làm chậm 1,6 lần, nối với bản chạy ngược (tới – lui) rồi lặp cho đủ cảnh
-                cyc = work / f"cyc_{src_clip.stem}.mp4"
-                subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(src_clip), "-an",
-                                "-filter_complex", f"[0:v]{crop}setpts=PTS*1.6,fps=24,split=2[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0",
-                                "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-pix_fmt", "yuv420p", str(cyc)], check=True)
-                src_in, loop_args, crop = str(cyc), ["-stream_loop", "-1"], ""
-            subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", *loop_args, "-i", src_in, "-an",
-                            "-t", f"{need:.2f}" if loop_args else f"{cdur or 8:.2f}",
-                            "-vf", crop + "scale=1920:1080:flags=lanczos,fps=24",
+            subprocess.run([mv.ffmpeg_exe(), "-hide_banner", "-loglevel", "error", "-y", "-i", str(src_clip), "-an",
+                            "-vf", ("" if "_nhe" in src_clip.parent.name else "crop=iw*0.95:ih*0.95:0:0,") + "scale=1920:1080:flags=lanczos,fps=24",
                             "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-pix_fmt", "yuv420p", str(outc)], check=True)
             s["clip_path"] = str(outc)
     if any(s.get("clip_path") for s in vis):

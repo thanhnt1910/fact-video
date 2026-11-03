@@ -1,0 +1,41 @@
+# Quy tắc vẽ ảnh để giảm lỗi và rút ngắn thời gian (chủ kênh yêu cầu 03/11/2026, áp dụng mọi video từ nay)
+
+Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ảnh chưa kiểm. Bổ sung cho mục "Vẽ ảnh: tự kiểm và tự vẽ lại" và "Lỗi ảnh hay gặp" trong CLAUDE.md.
+
+## A. Viết prompt: tả điều cần có, bỏ vật dễ sinh lỗi
+1. **Câu cấm gần như vô tác dụng** ("no text", "no border", "no chair"): mô hình hay vẽ đúng thứ bị cấm. Muốn không có vật nào thì KHÔNG nhắc vật đó, đổi sang cách tả khác hoặc bỏ cảnh phụ.
+2. **Bảng vật dễ lỗi và cách thay** (thêm dòng mới khi gặp lỗi mới, đây là nguồn duy nhất để bộ tạo prompt dùng):
+   | Dễ lỗi | Lỗi gặp | Thay bằng |
+   |---|---|---|
+   | Cuộn tre, sách, giấy, hộp, rương có hoa văn, biển, bia | Sinh chữ lạ | Không đặt vào cảnh; nếu cần chỉ để xa, nhỏ, hoặc đặt "bàn trống" |
+   | Ghế tựa, giường khung gỗ, bàn cao | Đồ hiện đại / kiểu Hàn | Chiếu trải đất, bục thấp, đệm đỏ trên bục, bàn thấp trơn |
+   | Đèn, đèn lồng, đèn đứng | Đèn thủy tinh, đèn đường | "Han bronze oil dish (shallow open bowl, tiny flame)" hoặc bỏ đèn |
+   | Cửa sổ | Kính, khung hiện đại | "wooden lattice window, no glass" hoặc không tả cửa sổ |
+   | Giáp lính | Giáp tấm bạc kiểu Tây, chữ trên giáp | "dark leather lamellar armour, plain surfaces"; lính nhỏ ở xa |
+   | Cờ, biểu ngữ | Chữ, biểu tượng | "plain blank cloth banner" |
+   | Tay cầm vật | Thừa tay | Tay giấu trong tay áo, vật cắm giá hoặc đeo hông |
+   | Nhiều người cạnh nhau | Hai người giống hệt | Ghi từng người một đặc điểm khác nhau |
+   | Cảnh một người | Mọc thêm người | "exactly ONE man only ... no second figure, no crowd" |
+   | Cảnh vật trống | Mọc người | "completely empty, absolutely no people" |
+3. **Viền khung:** luôn thêm "single full-frame picture, full-bleed, no panels". Cảnh trong phòng hay ra viền đen nhất: ưu tiên cảnh ngoài trời hoặc góc rộng.
+4. Prompt ≤ 2.000 ký tự; thứ tự: cảnh, nhân vật, ảnh tham chiếu, hậu tố Hán ngắn.
+
+## B. Quy trình vẽ: vẽ thử rồi mới vẽ cả tập
+1. **Vẽ thử 10 cảnh đại diện trước** (phòng trong, ngoài trời, đông người, vũ khí, cảnh trống, đêm). Soi xong, sửa prompt chung hoặc bảng ở mục A, mới vẽ phần còn lại.
+2. **Vẽ dư khoảng 10%** vào các cảnh thuộc loại hay hỏng (phòng có bàn, cảnh có giáp, cảnh đông người) để thay ngay khi có ảnh lỗi, không chờ thêm một vòng chạy.
+3. **Cảnh quan trọng vẽ 2 bản** (đổi `dot`), chọn bản tốt.
+4. **Script vẽ không được bỏ qua ảnh có sẵn mà báo "ĐẠT":** muốn vẽ đè phải xóa ảnh cũ (cất sang `_loi/`) hoặc dùng `lam_lai`. Sau mỗi lần chạy phải kiểm số ảnh thật sự mới được vẽ (ngày giờ file, hoặc log "đã vẽ N ảnh"), không tin dòng "ĐẠT".
+5. Xóa ảnh lỗi trước khi đẩy lệnh vẽ lại, đẩy prompt mới lên nhánh TRƯỚC khi chạy workflow, và xác nhận `git ls-remote` khớp `HEAD` (một lần đã chạy với prompt cũ vì đẩy lỗi).
+6. Lỗi cả loạt thì sửa prompt chung, không vẽ lại từng ảnh một.
+
+## C. Lọc tự động trước khi soi mắt (bắt lỗi đo được, rẻ, không dùng Gemini)
+- **Viền khung:** dải 8–12 px ở bốn mép gần một màu tối/đen khác hẳn bên trong → loại.
+- **Chữ:** chạy OCR (tesseract) vùng giữa ảnh; có ký tự chữ cái hoặc CJK với độ tin cậy cao → loại.
+- **Ảnh trùng hoặc gần trùng** với ảnh khác trong cùng video (đã có trong `ve_kiem_anh.py`).
+- Bản nào qua lọc mới đưa vào soi mắt ở cỡ lớn (tối đa 6 ảnh một tấm).
+- Soi mắt vẫn bắt buộc cho lỗi tay thừa, người giống hệt, vật hiện đại, ngựa méo; Gemini chỉ là phụ.
+
+## D. Ghi lại để lần sau khỏi lặp
+- Mỗi đợt vẽ: ghi số ảnh vẽ, số ảnh lỗi theo loại (chữ, viền, hiện đại, thừa người...) vào `logs/kiem_2d/<MÃ>_tong_hop.txt`.
+- Lỗi mới chưa có trong bảng ở mục A thì thêm dòng vào bảng ngay trong cùng phiên.
+- Khi soạn kế hoạch ảnh cho video mới, ưu tiên cảnh có người, ngoài trời, góc rộng; hạn chế cảnh phòng trống chỉ có bàn và vật.

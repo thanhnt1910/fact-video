@@ -142,6 +142,32 @@ FIX={
 76:"All shop signs are plain blank wooden boards.",
 }
 GEN=" Full-bleed single picture filling the whole frame."
+
+# --- Sửa lỗi lần vẽ 03/11 (chữ, tàu kiểu Tây, giá vẽ, màn nhung, màn chiếu): đổi cảnh và ghi chú, tả điều cần có ---
+SHIP="All ships are boxy flat-hulled Han river warships with raised wooden deck-towers, rows of oars and plain flat-coloured square mat sails on a single mast."
+SQUARE="Plain tiled-roof houses with bare wooden walls and bare eaves stand behind; every wall is plain and bare."
+REDO={
+6:("an old storyteller standing on a low plain wooden platform in an open Song market square telling a tale with an open hand, a crowd of townspeople nodding and smiling in satisfaction, plain tiled-roof houses and trees behind, a gentle bright afternoon",SQUARE+" The storyteller's hands are open and empty."),
+7:("exactly ONE scholar sitting at a plain low table with a hand on his chin and a doubtful raised eyebrow, a plain clay teacup in front of him and a plain empty bed behind him, no second figure",""),
+8:("three wooden boxes of different sizes on a plain wooden table: one small and plain, one tall with a simple brass clasp, one wrapped in coloured silk cloth, soft light through a lattice window, completely empty, absolutely no people",""),
+12:(None,"The wall beside the gate is plain bare grey brick."),
+21:("a broad river: on the far right a huge enemy fleet of boxy Han war-barges filling the whole horizon, on the left a small fleet of only a few similar barges, Zhou Yu tiny on the nearest deck looking calm, wide view",SHIP),
+22:("exactly ONE old general: Huang Gai standing on the deck of a boxy wooden Han warship at dusk pointing toward the enemy fleet across the river with a sly sudden idea in his eyes, no second close figure, ships far away",SHIP),
+39:("exactly ONE man: Zhou Yu at a low table on which lies a plain sand-table model of rivers and hills with three small groups of coloured wooden pegs, frowning at them deep in thought, no second figure",""),
+54:("exactly ONE scholar-historian seated at a low wooden table with his brush lifted, gazing thoughtfully out of a lattice window, a plain closed wooden box beside him, no second figure",""),
+55:("a wall painter on a low wooden scaffold brushing a dignified full-length portrait of Zhou Yu standing resolute in teal directly onto a large plain plaster wall, the painter looking back thoughtfully, warm bright light, two clearly different faces","Onlookers in different robes stand below the scaffold."),
+56:("a storyteller on a low plain wooden platform in an open Song market square acting out a man clutching his chest and falling backward, a crowd of townspeople gasping and covering their mouths, plain tiled-roof houses and trees behind",SQUARE),
+60:("a storyteller on a low platform holding up two small wooden puppets, a tall white-robed puppet raised high in the light and a smaller teal puppet bowing low beneath it, townspeople watching with interest","The audience seen from behind wears simple tunics in blue, ochre and green with cloth caps or topknots. "+SQUARE),
+62:("an open-air Song market square with a low wooden platform: a performer in a teal robe collapsing dramatically to the platform floor while a performer in a white-and-blue robe stands calmly with arms hidden in sleeves, an audience seen from behind","The audience seen from behind wears simple tunics in blue, ochre and green with cloth caps or topknots. "+SQUARE),
+64:("a wide river at dusk: in the left foreground a single plain arrow with a bare wooden shaft standing upright in the earth, in the middle the river with a burning fleet of boxy Han warships far away, on the right bank a low plain wooden bed with a plain blanket, one continuous picture, completely empty, absolutely no people",SHIP),
+66:(None,SHIP),
+68:("exactly ONE elderly annotator seated at a low table with a brush in his hand, beside a small sand-table model of a river whose tiny cloth flags all lean in one direction as if blown by wind, no second figure",""),
+70:("exactly ONE scholar sitting at a low table with two opened lacquered boxes beside him and a third box still closed and tied with cord in front of him, looking at the closed box thoughtfully, no second figure","He kneels on a low reed mat; the wall behind is plain bare brick."),
+73:(None,SHIP),
+75:("exactly ONE townsman standing in a Song street at dusk with a hand on his chin looking thoughtful, behind him on the left a faint warm glow of burning boats on the river and on the right a quiet empty street, no second figure",SHIP),
+}
+S=[(n,nv,ton,era,(REDO[n][0] or desc) if n in REDO else desc) for n,nv,ton,era,desc in S]
+for n,(dd,fx) in REDO.items(): FIX[n]=fx
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

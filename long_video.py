@@ -662,7 +662,7 @@ def build(script, cfg, out_dir):
             chap_label = ""      # nhãn chương chỉ hiện ở khung đầu của chương
         t += (b - a) / SR
         add_silence(GAP)
-        if ci == 0 and len(chapters) > 1:
+        if ci == 0 and len(chapters) > 1 and L.get("the_tieu_de", True):
             cards.append({"start": t, "dur": CARD_TITLE, "kicker": cfg.get("channel", ""),
                           "title": L.get("title_card") or L["title"], "sub": cfg.get("catchphrase", "")})
             add_silence(CARD_TITLE)

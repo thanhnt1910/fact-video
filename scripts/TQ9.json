@@ -1,1074 +1,1075 @@
 {
-  "id": "TQ9",
-  "topic": "lich-su",
-  "title": "Tào Tháo thật sự ác đến mức nào, theo chính sử?",
-  "caption": "Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu: việc nào có trong chính sử, việc nào chỉ là lời đồn? Tam Quốc theo chính sử 🏯",
-  "hashtags": [
-    "nguoigacsu",
-    "tamquoc",
-    "taotao",
-    "lichsu",
-    "chinhsu",
-    "tamquocchi"
-  ],
-  "sources": [
-    "Hậu Hán thư, Khổng Dung truyện (quyển 70) và Hiến Đế kỷ (quyển 9), đã đọc nguyên văn chữ Hán trên Wikisource",
-    "Trần Thọ, Tam quốc chí (Vũ đế kỷ, Đào Khiêm truyện, Hoa Đà truyện) và chú giải Bùi Tùng Chi, qua bài tổng hợp Wikipedia, chưa đối chiếu nguyên văn"
-  ],
-  "nguon_link": [
-    {
-      "ten": "Hậu Hán thư, Wikisource",
-      "url": "https://zh.wikisource.org/wiki/後漢書",
-      "ngon_ngu": "chữ Hán"
-    },
-    {
-      "ten": "Tam quốc chí, Wikisource",
-      "url": "https://zh.wikisource.org/wiki/三國志",
-      "ngon_ngu": "chữ Hán"
-    }
-  ],
-  "music": "none",
-  "giong_them": "HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, still clear Northern Vietnamese diction.",
-  "pronounce": {},
-  "long": {
-    "chuyen_canh": "fade",
-    "title": "Tào Tháo thật sự ác đến mức nào, theo chính sử? | Tam Quốc theo chính sử",
-    "title_card": "Tam Quốc chính sử: **Tào Tháo** ác đến mức nào?",
-    "description": "Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu, Mã Đằng: video chia chuyện về Tào Tháo thành hai loại, việc có trong chính văn các bộ sử và chuyện chỉ nằm trong chú giải, để bạn tự đánh giá. Nguồn: Hậu Hán thư, Tam quốc chí và chú giải Bùi Tùng Chi.",
-    "voice": "Sadaltager",
-    "music": "none",
-    "bia": {
-      "anh": "assets/anh_2d/TQ9/005.jpg",
-      "nen": "assets/anh_2d/TQ9/002.jpg",
-      "huy_hieu": "TAM QUỐC CHÍNH SỬ",
-      "dong1": "THẬT SỰ",
-      "dong2": "TÀN ÁC?",
-      "gach": true,
-      "dong3": "Tào Tháo ác đến mức nào?"
-    },
-    "chapters": [
-      {
-        "beats": [
-          {
-            "text": "Hãy tưởng tượng một con sông lớn bỗng ngừng chảy vì một nguyên nhân khủng khiếp.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/001.jpg"
-          },
-          {
-            "text": "Năm một trăm chín mươi ba, tại Từ Châu, một trận chiến đã khiến hàng vạn người thiệt mạng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/002.jpg"
-          },
-          {
-            "text": "Sử sách ghi lại rằng, thi thể người chết dày đặc đến mức dòng sông Tứ Thuỷ cũng không còn chảy được.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/003.jpg"
-          },
-          {
-            "text": "Có thể đó là cách nói phóng đại của người xưa. Nhưng chỉ riêng dòng ghi chép ấy cũng đủ cho thấy mức độ khốc liệt của trận chiến.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/004.jpg"
-          },
-          {
-            "text": "Người ra lệnh cho đạo quân ấy là Tào Tháo. Cũng chính ông từng viết thơ về cảnh xương trắng phơi ngoài đồng vì chiến loạn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/005.jpg"
-          },
-          {
-            "text": "Và cũng chính ông ra lệnh tìm người tài, kể cả người bị chê là bất hiếu hay thiếu nhân đức.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/006.jpg"
-          },
-          {
-            "text": "Vậy Tào Tháo thật sự ác đến mức nào? Câu trả lời có trong sử, nhưng nó không đơn giản như một lời kết án.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/007.jpg"
-          },
-          {
-            "text": "Hôm nay ta chia chuyện về ông thành hai loại. Loại thứ nhất là việc có trong chính văn của các bộ sử, như Tam quốc chí và Hậu Hán thư.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/008.jpg"
-          },
-          {
-            "text": "Loại thứ hai là chuyện chỉ nằm trong phần chú giải, do học giả Bùi Tùng Chi chép lại từ nhiều sách khác. Độ chắc của loại này thấp hơn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/009.jpg"
-          },
-          {
-            "text": "Mỗi chương, ta ghi việc ông làm đáng trách, rồi ghi việc ông làm được, để bạn tự đánh giá.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/010.jpg"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Nhưng trước khi là người cầm quân, ông chỉ là một chàng trai nhà quyền thế ở huyện Tiếu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/011.jpg"
-          },
-          {
-            "text": "Ông sinh năm một trăm năm mươi lăm. Cha ông là con nuôi của một hoạn quan có thế lực, nên nhà ông có tiền và có thế.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/012.jpg"
-          },
-          {
-            "text": "Sử chép ông thông minh, nhiều mưu mẹo, nhưng ham chơi và không chịu theo khuôn phép. Người trong vùng chê ông không lo làm ăn đàng hoàng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/013.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_013.mp4"
-          },
-          {
-            "text": "Dù vậy, ông sớm được giao chức Bắc bộ úy ở Lạc Dương, khi mới khoảng hai mươi tuổi.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/014.jpg"
-          },
-          {
-            "text": "Đó là quan phụ trách giữ trật tự và xử người phạm pháp ở khu phía bắc kinh thành.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/015.jpg"
-          },
-          {
-            "text": "Ông cho đặt roi ngũ sắc trước công đường, dùng để trừng phạt những người vi phạm lệnh cấm, bất kể thân phận.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/016.jpg"
-          },
-          {
-            "text": "Chẳng bao lâu sau, lệnh ấy gặp người đầu tiên dám phớt lờ. Kiển Thạc là hoạn quan đang được vua cưng chiều, quyền thế bậc nhất trong cung.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/017.jpg"
-          },
-          {
-            "text": "Chú của ông ta cậy có người cháu quyền thế như vậy, nên bất chấp lệnh cấm, nghênh ngang đi ngoài đường giữa đêm.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/018.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_018.mp4"
-          },
-          {
-            "text": "Sách chép Tào Tháo vẫn ra lệnh đánh người này đến chết, bất kể thân phận như lời ông đã nói.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/019.jpg"
-          },
-          {
-            "text": "Từ đó không ai dám ra đường ban đêm nữa. Kiển Thạc ghét ông, nhưng không có cớ, nên tìm cách đẩy ông sang làm việc ở nơi khác.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/020.jpg"
-          },
-          {
-            "text": "Cũng thời trẻ, ông nhờ nhà xem tướng nổi tiếng Hứa Thiệu đánh giá mình. Hứa Thiệu coi thường ông nên không nói, đến khi bị ép mới trả lời.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/021.jpg"
-          },
-          {
-            "text": "Theo Hậu Hán thư, Hứa Thiệu nói ông là kẻ gian trá thời bình, nhưng là anh hùng thời loạn. Ông nghe xong rất vui rồi ra về.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/022.jpg"
-          },
-          {
-            "text": "Một sách khác chép câu ấy là quan giỏi thời bình, kẻ gian hùng thời loạn. Dù bản nào, người đời cũng đã thấy ở ông cả mặt gian lẫn mặt hùng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/023.jpg"
-          },
-          {
-            "text": "Năm một trăm tám mươi chín, Hán Linh Đế qua đời.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/024.jpg"
-          },
-          {
-            "text": "Hà Tiến, anh trai của Hà thái hậu, tìm cách tiêu diệt thế lực hoạn quan và gọi Đổng Trác đem quân về kinh thành.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/025.jpg"
-          },
-          {
-            "text": "Nhưng kế hoạch chưa thành thì Hà Tiến bị hoạn quan sát hại. Kinh thành lập tức rơi vào hỗn loạn. Đổng Trác nhân cơ hội đưa quân tiến vào Lạc Dương.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/026.jpg"
-          },
-          {
-            "text": "Sau khi nắm binh quyền, Đổng Trác phế Thiếu Đế, đưa Hiến Đế lên ngôi. Từ đó, triều đình nhà Hán gần như nằm dưới sự khống chế của ông ta.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/027.jpg"
-          },
-          {
-            "text": "Đổng Trác muốn thu phục Tào Tháo, nên triệu ông ra giữ chức kiêu kỵ hiệu úy, chỉ huy kỵ binh, trong triều.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/028.jpg"
-          },
-          {
-            "text": "Nhưng Tào Tháo không muốn ở lại dưới quyền vị quyền thần vừa thao túng triều đình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/029.jpg"
-          },
-          {
-            "text": "Ông từ chối lời mời, cải trang và đổi tên để tránh bị nhận ra, rồi bí mật rời khỏi Lạc Dương, bắt đầu cuộc trốn chạy về phía đông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/030.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_030.mp4"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Trên đường trốn khỏi kinh thành, Tào Tháo ghé nhà Lã Bá Xa, một người quen của gia đình, tại vùng Thành Cao.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/031.jpg"
-          },
-          {
-            "text": "Chuyện xảy ra sau đó được các ghi chép kể lại không giống nhau. Nhưng điểm chung đáng chú ý là Tào Tháo đã giết người trong gia đình Lã Bá Xa.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/032.jpg"
-          },
-          {
-            "text": "Theo một ghi chép, Lã Bá Xa đi vắng, con cái và khách trong nhà lo bữa ăn cho ông. Tào Tháo nghi họ định hại mình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/033.jpg"
-          },
-          {
-            "text": "Trong đêm, ông ra tay giết tám người trong nhà. Một ghi chép khác kể rằng ông nghe tiếng bát đĩa rồi mới nghi ngờ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/034.jpg"
-          },
-          {
-            "text": "Truyện kể đời sau còn thêm chi tiết họ chỉ định mổ heo để đãi khách.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/035.jpg"
-          },
-          {
-            "text": "Câu nói nổi tiếng, thà ông phụ người trong thiên hạ, chứ không để người trong thiên hạ phụ ông, cũng chỉ thấy trong một ghi chép đời sau.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/036.jpg"
-          },
-          {
-            "text": "Sau đêm ấy, ông chạy tiếp tới Trần Lưu, dùng tiền của gia đình chiêu mộ quân để chống Đổng Trác.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/037.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_037.mp4"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Năm một trăm chín mươi, nhiều lãnh chúa hợp quân đánh Đổng Trác.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/038.jpg"
-          },
-          {
-            "text": "Tào Tháo cũng tham gia, nhưng liên quân nhanh chóng rơi vào bế tắc vì các thủ lĩnh bất đồng và thiếu quyết tâm hành động.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/039.jpg"
-          },
-          {
-            "text": "Cuối cùng, liên quân tan rã. Các thế lực quay về tranh giành địa bàn và quyền lực, mở đầu cho những cuộc xung đột mới giữa các lãnh chúa.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/040.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_040.mp4"
-          },
-          {
-            "text": "Trong bài thơ Hao Lý hành, ông tả cảnh ấy. Xương trắng phơi ngoài đồng, ngàn dặm không tiếng gà gáy, trăm người dân chỉ còn một.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/041.jpg"
-          },
-          {
-            "text": "Năm một trăm chín mươi hai, quân Khăn Vàng giết thứ sử Duyện Châu, rồi tràn vào vùng đất này.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/042.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_042.mp4"
-          },
-          {
-            "text": "Các quan địa phương mời Tào Tháo đứng ra giữ vùng đất rộng và giàu này. Ông đánh bại Khăn Vàng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/043.jpg"
-          },
-          {
-            "text": "Hơn ba trăm nghìn quân Khăn Vàng đầu hàng ông, cùng hàng trăm nghìn dân đi theo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/044.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_044.mp4"
-          },
-          {
-            "text": "Ông chọn những người khỏe nhất trong số quân đầu hàng để lập một đội quân riêng. Đội quân ấy là gốc sức mạnh của ông về sau.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/045.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_045.mp4"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Năm một trăm chín mươi ba, Tào Tháo nhận được tin cha mình, Tào Tung, bị sát hại trên đường từ Lang Nha đến Duyện Châu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/046.jpg"
-          },
-          {
-            "text": "Trước đó, để tránh loạn Đổng Trác, Tào Tung đã rời quê nhà và chuyển đến sống tại Từ Châu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/047.jpg"
-          },
-          {
-            "text": "Đoàn người của Tào Tung phải đi qua vùng đất do Đào Khiêm kiểm soát. Sau cái chết của cha, Tào Tháo quy trách nhiệm cho Đào Khiêm.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/048.jpg"
-          },
-          {
-            "text": "Với ông, đây không còn đơn thuần là một vụ án cần làm sáng tỏ. Nó trở thành món nợ phải trả bằng một cuộc chiến.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/049.jpg"
-          },
-          {
-            "text": "Quân Tào tiến vào Từ Châu. Hơn mười thành lần lượt thất thủ, rồi một trận đánh lớn nổ ra tại Bành Thành.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/050.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_050.mp4"
-          },
-          {
-            "text": "Quân Đào Khiêm thất bại, số người chết được ghi lại lên tới hàng vạn. Đào Khiêm phải rút về thành Đàm cố thủ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/051.jpg"
-          },
-          {
-            "text": "Nhưng thất bại của quân Đào Khiêm không khiến cuộc tiến công dừng lại. Quân Tào tiếp tục tràn qua các huyện Thủ Lư, Thùy Lăng và Hạ Khâu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/052.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_052.mp4"
-          },
-          {
-            "text": "Lần này, những người chịu hậu quả không chỉ là binh lính trên chiến trường.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/053.jpg"
-          },
-          {
-            "text": "Hậu Hán thư mô tả cảnh đàn ông và phụ nữ đều bị giết, đến mức gà chó cũng không còn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/054.jpg"
-          },
-          {
-            "text": "Những vùng đất từng có người sinh sống trở nên hoang vắng sau khi quân Tào đi qua.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/055.jpg"
-          },
-          {
-            "text": "Từ Châu khi ấy còn là nơi trú ẩn của nhiều người chạy loạn từ vùng kinh đô.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/056.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_056.mp4"
-          },
-          {
-            "text": "Họ rời bỏ quê nhà để tìm đường sống, nhưng cuộc chiến lại đẩy họ vào một thảm họa khác.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/057.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_057.mp4"
-          },
-          {
-            "text": "Tư trị thông giám cũng nhắc đến những người tị nạn này trong cuộc tàn sát.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/058.jpg"
-          },
-          {
-            "text": "Dòng Tứ Thủy được mô tả như ngừng chảy vì số người chết quá lớn. Đó có thể là cách diễn đạt mang sắc thái cường điệu của văn sử.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/059.jpg"
-          },
-          {
-            "text": "Nhưng hình ảnh ấy cho thấy mức độ khủng khiếp mà cuộc chiến ở Từ Châu để lại.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/060.jpg"
-          },
-          {
-            "text": "Cuối cùng, Tào Tháo phải rút quân vì thiếu lương thực. Nhưng cuộc tàn phá chưa kết thúc ở đó.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/061.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_061.mp4"
-          },
-          {
-            "text": "Năm một trăm chín mươi bốn, ông lại đưa quân trở lại, tiến qua Lang Nha và Đông Hải, tiếp tục gây chiến và tàn phá các vùng này.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/062.jpg"
-          },
-          {
-            "text": "Cuộc báo thù bắt đầu từ cái chết của Tào Tung, nhưng những người phải trả giá không chỉ là những kẻ bị xem là có liên quan.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/063.jpg"
-          },
-          {
-            "text": "Cả những người dân vô tội, thậm chí cả những người chạy loạn tìm nơi trú ẩn, cũng không thoát khỏi vó ngựa quân Tào.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/064.jpg"
-          },
-          {
-            "text": "Lần đánh thứ hai, ông nghe tin hậu phương bị cướp. Trương Mạc và Trần Cung, người từng đi theo ông, đã đón Lữ Bố chiếm Duyện Châu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/065.jpg"
-          },
-          {
-            "text": "Chú giải cho rằng Trương Mạc lo sợ vì Tào Tháo đã giết Biên Nhượng, một danh sĩ từng chê ông, cùng vợ con người này.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/066.jpg"
-          },
-          {
-            "text": "Đó là cách giải thích của người xưa. Chuyện Biên Nhượng chỉ có trong sách thù địch hoặc sách chép muộn, nên không chắc chắn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/067.jpg"
-          },
-          {
-            "text": "Ông phải mất hơn một năm đánh nhau với Lữ Bố mới giữ được Duyện Châu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/068.jpg"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Đổng Trác đã chết, nhưng triều đình nhà Hán vẫn chưa thoát khỏi cảnh hỗn loạn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/069.jpg"
-          },
-          {
-            "text": "Hiến Đế phải lưu lạc giữa các thế lực quân phiệt, không có quân đội đủ mạnh để tự bảo vệ, cũng chẳng có quyền lực thực sự trong tay.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/070.jpg"
-          },
-          {
-            "text": "Tào Tháo nhìn thấy ở vị hoàng đế ấy một cơ hội chính trị lớn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/071.jpg"
-          },
-          {
-            "text": "Tuân Úc khuyên ông đón vua về, vừa thuận theo lòng mong đợi của thiên hạ, vừa có thể dùng danh nghĩa triều đình để thu phục các thế lực khác.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/072.jpg"
-          },
-          {
-            "text": "Năm một trăm chín mươi sáu, Tào Tháo đưa Hiến Đế về Hứa. Từ đây, triều đình nhà Hán nằm dưới sự kiểm soát của ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/073.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_073.mp4"
-          },
-          {
-            "text": "Những mệnh lệnh ban ra mang danh nghĩa hoàng đế, còn người thực sự nắm quyền điều hành lại là Tào Tháo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/074.jpg"
-          },
-          {
-            "text": "Nhưng danh nghĩa chính trị không thể thay thế lương thực.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/075.jpg"
-          },
-          {
-            "text": "Sau nhiều năm chiến tranh, ruộng đất bỏ hoang, dân chúng ly tán, quân đội của Tào Tháo cũng từng phải rút khỏi Từ Châu vì thiếu lương.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/076.jpg"
-          },
-          {
-            "text": "Năm một trăm chín mươi sáu, theo đề xuất của Tảo Chi và Hàn Hạo, Tào Tháo bắt đầu tổ chức đồn điền quân sự.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/077.jpg"
-          },
-          {
-            "text": "Ruộng đất được khai khẩn, người dân và binh lính tham gia sản xuất, lương thực thu được dùng để duy trì quân đội.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/078.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_078.mp4"
-          },
-          {
-            "text": "Chính sách này giúp Tào Tháo giải quyết một trong những điểm yếu lớn nhất của các thế lực quân phiệt thời bấy giờ, nguồn cung lương thực.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/079.jpg"
-          },
-          {
-            "text": "Quân đội có thể tiếp tục chiến đấu mà không phải hoàn toàn phụ thuộc vào việc cướp bóc hay vận chuyển từ những vùng xa.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/080.jpg"
-          },
-          {
-            "text": "Khi hậu phương dần ổn định, Tào Tháo có điều kiện đối đầu với đối thủ lớn nhất ở phương bắc, Viên Thiệu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/081.jpg"
-          },
-          {
-            "text": "Năm hai trăm, hai bên giao chiến tại Quan Độ. Quân Tào ít hơn, nhưng cuối cùng lại đánh bại được lực lượng đông đảo của Viên Thiệu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/082.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_082.mp4"
-          },
-          {
-            "text": "Sau chiến thắng, trong doanh trại Viên Thiệu, quân Tào tìm thấy nhiều bức thư cho thấy một số người dưới quyền Tào Tháo từng bí mật liên hệ với đối thủ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/083.jpg"
-          },
-          {
-            "text": "Đây là bằng chứng có thể khiến nhiều người bị nghi ngờ và trừng phạt.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/084.jpg"
-          },
-          {
-            "text": "Nhưng Tào Tháo ra lệnh đốt tất cả mà không kiểm tra từng bức thư.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/085.jpg"
-          },
-          {
-            "text": "Theo lời giải thích của người đời sau, ông hiểu rằng khi Viên Thiệu còn mạnh, ngay cả những người theo mình cũng có lý do để dao động.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/086.jpg"
-          },
-          {
-            "text": "Nếu truy cứu toàn bộ, chính ông có thể tự làm suy yếu lực lượng của mình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/087.jpg"
-          },
-          {
-            "text": "Tuy nhiên, sau chiến thắng Quan Độ còn có một ghi chép đáng sợ hơn nhiều.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/088.jpg"
-          },
-          {
-            "text": "Chú giải trong Tam Quốc chí dẫn các nguồn nói rằng Tào Tháo đã chôn sống quân của Viên Thiệu sau khi đánh bại họ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/089.jpg"
-          },
-          {
-            "text": "Con số được các nguồn ghi lại không thống nhất, có sách nói tám vạn, có sách nói bảy vạn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/090.jpg"
-          },
-          {
-            "text": "Tư trị thông giám khảo dị còn đối chiếu con số hơn bảy vạn quân bị giết trong tấu báo chiến thắng của Tào Tháo dâng lên triều đình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/091.jpg"
-          },
-          {
-            "text": "Vì vậy, không thể xem một con số duy nhất là kết luận chắc chắn, nhưng quy mô thương vong được các ghi chép nhắc đến vẫn rất lớn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/092.jpg"
-          },
-          {
-            "text": "Cách Tào Tháo sử dụng con người cũng cho thấy ông đặt năng lực lên trên những chuẩn mực đạo đức thông thường.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/093.jpg"
-          },
-          {
-            "text": "Năm hai trăm mười bảy, trong lệnh cầu hiền, ông tuyên bố có thể trọng dụng cả những người bị xem là bất nhân, bất hiếu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/094.jpg"
-          },
-          {
-            "text": "Miễn là họ có tài trị nước và dùng binh.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/095.jpg"
-          },
-          {
-            "text": "Trước đó, năm hai trăm mười bốn, ông đã nhấn mạnh rằng người có phẩm hạnh chưa chắc đã có khả năng lập công.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/096.jpg"
-          },
-          {
-            "text": "Còn người giỏi lập công chưa chắc đã có phẩm hạnh. Với Tào Tháo, tài năng là thứ có thể quyết định vận mệnh của một người trong bộ máy quyền lực.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/096.jpg"
-          },
-          {
-            "text": "Đó là cách ông thu hút nhân tài, nhưng cũng cho thấy ông sẵn sàng gạt nhiều tiêu chuẩn đạo đức sang một bên để đạt mục tiêu chính trị.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/097.jpg"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Khi đã nắm quyền trong triều đình, Tào Tháo không chỉ phải đối phó với những đối thủ trên chiến trường.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/098.jpg"
-          },
-          {
-            "text": "Ngay cả những người bất đồng chính kiến, từng có địa vị trong triều, cũng có thể trở thành mục tiêu của ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/099.jpg"
-          },
-          {
-            "text": "Năm hai trăm lẻ tám, Khổng Dung, một danh sĩ nổi tiếng và là hậu duệ của Khổng Tử, bị Tào Tháo xử tử.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/100.jpg"
-          },
-          {
-            "text": "Trước đó, Khổng Dung nhiều lần có lời lẽ châm biếm, chỉ trích Tào Tháo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/101.jpg"
-          },
-          {
-            "text": "Một trong những cáo buộc được đưa ra là Khổng Dung đã nói những lời bất kính khi tiếp sứ giả của Tôn Quyền.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/102.jpg"
-          },
-          {
-            "text": "Xúc phạm triều đình và có ý chống đối.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/104.jpg"
-          },
-          {
-            "text": "Nhưng đó là những lời buộc tội được dùng trong vụ án, không thể mặc nhiên xem tất cả là sự thật đã được chứng minh.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/105.jpg"
-          },
-          {
-            "text": "Không chỉ Khổng Dung phải chết. Hai người con nhỏ của ông cũng bị giết. Một gia đình danh sĩ bị xóa sổ chỉ sau một vụ án chính trị.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/104.jpg"
-          },
-          {
-            "text": "Trớ trêu hơn, về sau Tào Phi vẫn xếp Khổng Dung vào hàng bảy văn nhân nổi tiếng thời Kiến An.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/107.jpg"
-          },
-          {
-            "text": "Cùng khoảng thời gian ấy, một vụ việc khác cho thấy Tào Tháo có thể đi xa đến mức nào khi cho rằng người khác không tuân phục mình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/106.jpg"
-          },
-          {
-            "text": "Lần này, người bị bắt không phải một đối thủ chính trị, mà là Hoa Đà, vị thầy thuốc nổi tiếng đương thời.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/107.jpg"
-          },
-          {
-            "text": "Tào Tháo thường xuyên bị chứng đau đầu kéo dài, nên đã gọi Hoa Đà đến chữa trị riêng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/108.jpg"
-          },
-          {
-            "text": "Nhưng Hoa Đà vốn xuất thân là người có học, không muốn mãi làm một thầy thuốc phục vụ bên cạnh Tào Tháo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/109.jpg"
-          },
-          {
-            "text": "Ông lấy lý do vợ đang ốm để xin về nhà. Thời gian nghỉ phép kéo dài, nhiều lần Tào Tháo gửi thư gọi trở lại nhưng Hoa Đà vẫn không về.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/112.jpg"
-          },
-          {
-            "text": "Tào Tháo sinh nghi, sai người đến xác minh bệnh tình của vợ Hoa Đà.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/111.jpg"
-          },
-          {
-            "text": "Nếu lời khai là thật, ông sẽ được tiếp tục nghỉ, nếu là giả dối, ông sẽ bị bắt.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/114.jpg"
-          },
-          {
-            "text": "Cuộc điều tra kết thúc bằng việc Hoa Đà bị áp giải về Hứa và đưa vào ngục thẩm vấn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/113.jpg"
-          },
-          {
-            "text": "Tuân Úc đã đứng ra xin tha cho Hoa Đà, nhấn mạnh rằng tài chữa bệnh của ông liên quan trực tiếp đến sinh mạng của nhiều người.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/114.jpg"
-          },
-          {
-            "text": "Nhưng Tào Tháo không chấp nhận lời thỉnh cầu ấy.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/115.jpg"
-          },
-          {
-            "text": "Hoa Đà cuối cùng mất trong ngục sau khi bị thẩm vấn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/116.jpg"
-          },
-          {
-            "text": "Trước khi chết, ông định trao một cuốn sách y thuật cho người giữ ngục, nói rằng cuốn sách có thể cứu người.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/119.jpg"
-          },
-          {
-            "text": "Nhưng người giữ ngục sợ liên lụy nên không dám nhận. Hoa Đà đành xin lửa và tự tay đốt cuốn sách.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/117.jpg"
-          },
-          {
-            "text": "Sau khi Hoa Đà chết, chứng đau đầu của Tào Tháo vẫn tiếp tục hành hạ ông. Rồi con trai yêu quý của ông, Tào Xung, lâm bệnh nặng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/118.jpg"
-          },
-          {
-            "text": "Đến lúc ấy, Tào Tháo mới than rằng mình hối hận vì đã giết Hoa Đà.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/119.jpg"
-          },
-          {
-            "text": "Câu chuyện này cũng cần được phân biệt với những gì tiểu thuyết Tam Quốc diễn nghĩa kể lại.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/123.jpg"
-          },
-          {
-            "text": "Chính sử không chép chuyện Hoa Đà đề nghị mổ đầu Tào Tháo để chữa bệnh.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/124.jpg"
-          },
-          {
-            "text": "Nguyên nhân được ghi lại trong Tam Quốc chí là việc Hoa Đà tìm cách kéo dài thời gian nghỉ phép và không chịu trở về.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/122.jpg"
-          },
-          {
-            "text": "Nhưng những người bị Tào Tháo trừng phạt không chỉ có danh sĩ hay người phục vụ bên cạnh ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/126.jpg"
-          },
-          {
-            "text": "Ở phía tây, một cuộc nổi dậy của Mã Siêu và Hàn Toại năm hai trăm mười một đã khiến Tào Tháo phải đem quân đối phó.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/127.jpg"
-          },
-          {
-            "text": "Mã Siêu thất bại, nhưng cái giá không dừng lại ở bản thân ông. Cha ông là Mã Đằng khi ấy đang giữ chức Vệ úy tại triều đình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/125.jpg"
-          },
-          {
-            "text": "Năm hai trăm mười hai, Mã Đằng bị xử tử cùng ba họ vì cuộc nổi dậy của con trai.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/126.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_126.mp4"
-          },
-          {
-            "text": "Nhiều năm sau, trước khi qua đời, Mã Siêu viết thư dâng Lưu Bị.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/130.jpg"
-          },
-          {
-            "text": "Trong thư, ông nói rằng hơn hai trăm người trong gia tộc mình đã bị Tào Tháo giết, chỉ còn người em họ Mã Đại.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/131.jpg"
-          },
-          {
-            "text": "Đây là lời kể của chính Mã Siêu, không phải con số được một cuộc kiểm kê độc lập xác nhận.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/129.jpg"
-          },
-          {
-            "text": "Khổng Dung bị giết vì những lời bị xem là chống đối. Hoa Đà mất mạng sau khi không chịu tiếp tục phục vụ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/133.jpg"
-          },
-          {
-            "text": "Còn gia tộc Mã Đằng phải trả giá sau cuộc nổi dậy của Mã Siêu.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/134.jpg"
-          },
-          {
-            "text": "Những vụ việc khác nhau, nhưng đều cho thấy quyền lực của Tào Tháo có thể trở nên khắc nghiệt đến mức nào với những người rơi vào thế đối đầu với ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/132.jpg"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Tào Tháo có thể điều động quân đội, quyết định việc triều chính và chi phối mọi mệnh lệnh ban ra dưới danh nghĩa hoàng đế.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/133.jpg"
-          },
-          {
-            "text": "Nhưng trên danh nghĩa, Hiến Đế vẫn là thiên tử nhà Hán. Và Phục hoàng hậu vẫn là người đứng đầu hậu cung.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/134.jpg"
-          },
-          {
-            "text": "Bà hiểu rõ quyền lực thực sự trong triều đình nằm ở đâu. Từ nhiều năm trước, Phục hoàng hậu đã viết thư cho cha mình là Phục Hoàn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/135.jpg"
-          },
-          {
-            "text": "Trong thư, bà kể việc Tào Tháo lấn át hoàng đế và yêu cầu tìm cách bí mật đối phó ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/136.jpg"
-          },
-          {
-            "text": "Nhưng bức thư ấy không tạo ra được cuộc phản kháng nào. Phục Hoàn không dám hành động. Mãi đến năm hai trăm mười bốn, chuyện cũ mới bị phát giác.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/137.jpg"
-          },
-          {
-            "text": "Đối với Tào Tháo, đây là cái cớ để loại bỏ người phụ nữ vẫn còn mang danh hoàng hậu nhà Hán.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/138.jpg"
-          },
-          {
-            "text": "Ông ép Hiến Đế ban chiếu phế truất Phục hoàng hậu, rồi sai người dẫn quân vào cung bắt bà.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/139.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_139.mp4"
-          },
-          {
-            "text": "Phục hoàng hậu tìm cách ẩn mình sau vách tường, nhưng cuối cùng vẫn bị phát hiện và lôi ra ngoài.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/140.jpg"
-          },
-          {
-            "text": "Khi bị đưa đi, bà gặp Hiến Đế ở điện bên ngoài.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/141.jpg"
-          },
-          {
-            "text": "Tóc tai rối bời, chân không mang giày, bà khóc hỏi nhà vua rằng không thể cứu mình thêm một lần nữa hay sao.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/145.jpg"
-          },
-          {
-            "text": "Hiến Đế chỉ có thể đáp rằng chính ông cũng không biết mạng sống của mình sẽ kết thúc lúc nào.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/143.jpg"
-          },
-          {
-            "text": "Phục hoàng hậu sau đó chết trong cảnh bị giam giữ. Hai người con trai của bà cũng bị giết.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/144.jpg"
-          },
-          {
-            "text": "Hơn một trăm người thuộc gia tộc và họ hàng bị giết, mẹ bà cùng mười tám người khác bị đày đến Trác Quận.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/148.jpg"
-          },
-          {
-            "text": "Một vụ án liên quan đến bức thư cũ đã kéo theo cái chết và cảnh lưu đày của cả một gia tộc.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/146.jpg"
-          },
-          {
-            "text": "Đầu năm hai trăm mười lăm, người thay thế Phục hoàng hậu là Tào Tiết, con gái của chính Tào Tháo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/147.jpg"
-          },
-          {
-            "text": "Từ đây, người đứng đầu hậu cung cũng thuộc về gia đình họ Tào.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/151.jpg"
-          },
-          {
-            "text": "Hiến Đế vẫn ngồi trên ngai vàng, nhưng cả triều đình lẫn hậu cung đều nằm trong vòng kiểm soát của Tào Tháo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/152.jpg"
-          },
-          {
-            "text": "Điều đáng chú ý là Tào Tháo chưa bao giờ tự xưng hoàng đế.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/150.jpg"
-          },
-          {
-            "text": "Ông giữ chức Ngụy công, rồi Ngụy vương, nắm quyền lực gần như một vị vua, nhưng vẫn để ngai vàng mang danh nhà Hán.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/154.jpg"
-          },
-          {
-            "text": "Cuối năm hai trăm mười, trước những lời nghi ngờ rằng mình muốn cướp ngôi, Tào Tháo viết một bài tự thuật để giải thích con đường chính trị của mình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/155.jpg"
-          },
-          {
-            "text": "Trong đó, ông nói rằng nếu không có ông, không biết đã có bao nhiêu người tự xưng đế, bao nhiêu người xưng vương.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/156.jpg"
-          },
-          {
-            "text": "Nhưng ông cũng thừa nhận mình không thể đơn giản giao lại binh quyền rồi lui về sống như một chư hầu bình thường.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/154.jpg"
-          },
-          {
-            "text": "Ông sợ rằng một khi rời khỏi sự bảo vệ của quân đội, bản thân sẽ bị sát hại, con cháu cũng khó tránh khỏi tai họa.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/155.jpg"
-          },
-          {
-            "text": "Đó là lời giải thích của chính Tào Tháo. Ông nói mình không thể buông quyền lực, bởi buông quyền lực đồng nghĩa với đặt cả gia tộc vào hiểm nguy.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/159.jpg"
-          }
-        ]
-      },
-      {
-        "beats": [
-          {
-            "text": "Năm hai trăm hai mươi, Tào Tháo qua đời ở tuổi sáu mươi lăm.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/157.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_157.mp4"
-          },
-          {
-            "text": "Con trai ông là Tào Phi kế vị, sau đó buộc Hiến Đế nhường ngôi, chấm dứt nhà Hán và lập ra nhà Ngụy.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/158.jpg"
-          },
-          {
-            "text": "Nhìn lại cuộc đời Tào Tháo, Trần Thọ, người biên soạn Tam Quốc chí, từng đánh giá ông là một người phi thường, một bậc anh kiệt vượt hơn người đời.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/162.jpg"
-          },
-          {
-            "text": "Đó là sự ghi nhận dành cho tài năng và vị thế lịch sử của ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/160.jpg"
-          },
-          {
-            "text": "Nhưng bên cạnh những ghi chép ấy còn có những câu chuyện về sự tàn nhẫn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/164.jpg"
-          },
-          {
-            "text": "Tào Man truyện, một tác phẩm được các tác giả Đông Ngô lưu truyền, kể nhiều việc bất lợi cho Tào Tháo.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/165.jpg"
-          },
-          {
-            "text": "Nguồn này có góc nhìn thiên lệch, nhưng không vì thế mà mọi chi tiết đều có thể bị bác bỏ. Mỗi câu chuyện cần được xem xét riêng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/166.jpg"
-          },
-          {
-            "text": "Vậy Tào Tháo tàn bạo đến mức nào?",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/163.jpg"
-          },
-          {
-            "text": "Muốn trả lời, phải nhìn vào hai điều, những gì ông đã làm nghiêm trọng đến đâu, và những ghi chép về việc ấy đáng tin đến mức nào.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/168.jpg"
-          },
-          {
-            "text": "Xét về quy mô hậu quả, Từ Châu là một trong những chiến dịch đáng lên án nhất.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/169.jpg"
-          },
-          {
-            "text": "Những ghi chép lịch sử mô tả hàng vạn người chết, trong đó có cả dân thường và người chạy loạn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/170.jpg",
-            "clip_file": "assets/clips_2d/TQ9/E4_167.mp4"
-          },
-          {
-            "text": "Những vụ giết cả gia tộc cũng cho thấy quyền lực của Tào Tháo có thể trút xuống những người không trực tiếp cầm quân chống lại ông.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/167.jpg"
-          },
-          {
-            "text": "Phục hoàng hậu bị giết, hai hoàng tử bị giết, hơn một trăm người thân bị sát hại và nhiều phụ nữ bị đày đi xa.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/172.jpg"
-          },
-          {
-            "text": "Những sự kiện này được Hậu Hán thư ghi lại khá rõ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/169.jpg"
-          },
-          {
-            "text": "Sau trận Quan Độ, các nguồn được chú giải trong Tam Quốc chí nhắc đến việc quân Viên Thiệu bị chôn sống với con số bảy hoặc tám vạn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/171.jpg"
-          },
-          {
-            "text": "Đây là một cáo buộc rất nghiêm trọng, nhưng số người bị giết và tình trạng của họ trước khi chết vẫn cần được phân biệt.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/175.jpg"
-          },
-          {
-            "text": "Không thể khẳng định tất cả đều là tù binh đã đầu hàng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/176.jpg"
-          },
-          {
-            "text": "Những vụ Khổng Dung và Hoa Đà cũng không thể bỏ qua. Khổng Dung bị xử tử, hai người con nhỏ cũng không thoát khỏi vụ án.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/174.jpg"
-          },
-          {
-            "text": "Hai vụ việc có hoàn cảnh khác nhau, nhưng đều cho thấy cái giá rất lớn mà người đối đầu hoặc không tuân phục Tào Tháo có thể phải trả.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/175.jpg"
-          },
-          {
-            "text": "Ở chiều ngược lại, một số câu chuyện nổi tiếng về sự gian xảo của Tào Tháo lại có căn cứ yếu hơn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/179.jpg"
-          },
-          {
-            "text": "Chuyện Biên Nhượng liên quan đến lời chú giải và những nguồn kể lại, chuyện Lã Bá Xa cũng có nhiều dị bản.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/180.jpg"
-          },
-          {
-            "text": "Không nên đặt chúng ngang hàng với những vụ việc có ghi chép rõ ràng hơn.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/178.jpg"
-          },
-          {
-            "text": "Câu chuyện thường được nhắc đến để minh họa sự đa nghi và tàn nhẫn của Tào Tháo lại không phải câu chuyện có nền tảng sử liệu vững nhất.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/182.jpg"
-          },
-          {
-            "text": "Điều đó nhắc chúng ta rằng hình ảnh một nhân vật lịch sử không thể chỉ được dựng nên từ những giai thoại nổi tiếng.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/183.jpg"
-          },
-          {
-            "text": "Tào Tháo cũng là người biết thu phục nhân tài, tổ chức đồn điền để nuôi quân, kiểm soát triều đình và đánh bại những đối thủ mạnh.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/181.jpg"
-          },
-          {
-            "text": "Ông từng đốt bỏ những bức thư của người dưới quyền gửi cho Viên Thiệu thay vì truy cứu từng người.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/182.jpg"
-          },
-          {
-            "text": "Nhưng những năng lực ấy không xóa đi trách nhiệm của ông trong những cuộc tàn sát và những vụ xử tử đã xảy ra dưới quyền mình.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/183.jpg"
-          },
-          {
-            "text": "Có lẽ điều đáng sợ nhất ở Tào Tháo không chỉ nằm ở những câu chuyện về sự đa nghi hay những lời đồn được truyền lại qua nhiều thế hệ.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/184.jpg"
-          },
-          {
-            "text": "Nó nằm ở những sự kiện có ghi chép.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/188.jpg"
-          },
-          {
-            "text": "Một người có thể tài giỏi trong việc dựng nên quyền lực, nhưng cũng có thể dùng chính quyền lực ấy gây ra những hậu quả khủng khiếp.",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/189.jpg"
-          },
-          {
-            "text": "Nếu Tào Tháo đem lại trật tự cho miền Bắc, nhưng cũng để lại những cuộc tàn sát và những gia đình bị xóa sổ,",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/190.jpg"
-          },
-          {
-            "text": "bạn sẽ nhớ đến ông như một nhà chính trị kiệt xuất, một kẻ tàn bạo, hay cả hai?",
-            "ai": "ancient Han China scene, 2D ligne claire",
-            "anh_file": "assets/anh_2d/TQ9/191.jpg"
-          }
-        ]
-      }
-    ],
-    "giong_tung_cau": true,
-    "tts_engine": "vieneu",
-    "vieneu_voice": "Thiện Minh"
+ "id": "TQ9",
+ "topic": "lich-su",
+ "title": "Tào Tháo thật sự ác đến mức nào, theo chính sử?",
+ "caption": "Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu: việc nào có trong chính sử, việc nào chỉ là lời đồn? Tam Quốc theo chính sử 🏯",
+ "hashtags": [
+  "nguoigacsu",
+  "tamquoc",
+  "taotao",
+  "lichsu",
+  "chinhsu",
+  "tamquocchi"
+ ],
+ "sources": [
+  "Hậu Hán thư, Khổng Dung truyện (quyển 70) và Hiến Đế kỷ (quyển 9), đã đọc nguyên văn chữ Hán trên Wikisource",
+  "Trần Thọ, Tam quốc chí (Vũ đế kỷ, Đào Khiêm truyện, Hoa Đà truyện) và chú giải Bùi Tùng Chi, qua bài tổng hợp Wikipedia, chưa đối chiếu nguyên văn"
+ ],
+ "nguon_link": [
+  {
+   "ten": "Hậu Hán thư, Wikisource",
+   "url": "https://zh.wikisource.org/wiki/後漢書",
+   "ngon_ngu": "chữ Hán"
   },
-  "binh_luan": {
-    "dai": {
-      "ghim": "Video chia chuyện về Tào Tháo thành hai loại: việc có trong chính văn Hậu Hán thư, Tam quốc chí và chuyện chỉ nằm trong chú giải của Bùi Tùng Chi. Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu và Mã Đằng có ghi chép; chuyện Lã Bá Xa và Biên Nhượng có căn cứ yếu hơn.",
-      "phu": [
-        "Lưu ý: một số chi tiết lấy từ nguồn thứ cấp, hình ảnh là tranh minh họa."
-      ]
-    }
+  {
+   "ten": "Tam quốc chí, Wikisource",
+   "url": "https://zh.wikisource.org/wiki/三國志",
+   "ngon_ngu": "chữ Hán"
   }
+ ],
+ "music": "none",
+ "giong_them": "HEROIC EPIC DELIVERY: a powerful, resonant, commanding male narrator with the gravitas of a historical epic; strong, confident, ringing voice with rising energy at turning points and names of heroes; firm emphasis, slightly driving pace, solemn pride when speaking of the Han dynasty and its heroes; not shouting, no theatrical overacting, still clear Northern Vietnamese diction.",
+ "pronounce": {},
+ "long": {
+  "chuyen_canh": "fade",
+  "title": "Tào Tháo thật sự ác đến mức nào, theo chính sử? | Tam Quốc theo chính sử",
+  "title_card": "Tam Quốc chính sử: **Tào Tháo** ác đến mức nào?",
+  "description": "Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu, Mã Đằng: video chia chuyện về Tào Tháo thành hai loại, việc có trong chính văn các bộ sử và chuyện chỉ nằm trong chú giải, để bạn tự đánh giá. Nguồn: Hậu Hán thư, Tam quốc chí và chú giải Bùi Tùng Chi.",
+  "voice": "Sadaltager",
+  "music": "none",
+  "bia": {
+   "anh": "assets/anh_2d/TQ9/005.jpg",
+   "nen": "assets/anh_2d/TQ9/002.jpg",
+   "huy_hieu": "TAM QUỐC CHÍNH SỬ",
+   "dong1": "THẬT SỰ",
+   "dong2": "TÀN ÁC?",
+   "gach": true,
+   "dong3": "Tào Tháo ác đến mức nào?"
+  },
+  "chapters": [
+   {
+    "beats": [
+     {
+      "text": "Hãy tưởng tượng một con sông lớn bỗng ngừng chảy vì một nguyên nhân khủng khiếp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/001.jpg"
+     },
+     {
+      "text": "Năm một trăm chín mươi ba, tại Từ Châu, một trận chiến đã khiến hàng vạn người thiệt mạng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/002.jpg"
+     },
+     {
+      "text": "Sử sách ghi lại rằng, thi thể người chết dày đặc đến mức dòng sông Tứ Thuỷ cũng không còn chảy được.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/003.jpg"
+     },
+     {
+      "text": "Có thể đó là cách nói phóng đại của người xưa. Nhưng chỉ riêng dòng ghi chép ấy cũng đủ cho thấy mức độ khốc liệt của trận chiến.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/004.jpg"
+     },
+     {
+      "text": "Người ra lệnh cho đạo quân ấy là Tào Tháo. Cũng chính ông từng viết thơ về cảnh xương trắng phơi ngoài đồng vì chiến loạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/005.jpg"
+     },
+     {
+      "text": "Và cũng chính ông ra lệnh tìm người tài, kể cả người bị chê là bất hiếu hay thiếu nhân đức.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/006.jpg"
+     },
+     {
+      "text": "Vậy Tào Tháo thật sự ác đến mức nào? Câu trả lời có trong sử, nhưng nó không đơn giản như một lời kết án.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/007.jpg"
+     },
+     {
+      "text": "Hôm nay ta chia chuyện về ông thành hai loại. Loại thứ nhất là việc có trong chính văn của các bộ sử, như Tam quốc chí và Hậu Hán thư.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/008.jpg"
+     },
+     {
+      "text": "Loại thứ hai là chuyện chỉ nằm trong phần chú giải, do học giả Bùi Tùng Chi chép lại từ nhiều sách khác. Độ chắc của loại này thấp hơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/009.jpg"
+     },
+     {
+      "text": "Mỗi chương, ta ghi việc ông làm đáng trách, rồi ghi việc ông làm được, để bạn tự đánh giá.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/010.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Nhưng trước khi là người cầm quân, ông chỉ là một chàng trai nhà quyền thế ở huyện Tiếu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/011.jpg"
+     },
+     {
+      "text": "Ông sinh năm một trăm năm mươi lăm. Cha ông là con nuôi của một hoạn quan có thế lực, nên nhà ông có tiền và có thế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/012.jpg"
+     },
+     {
+      "text": "Sử chép ông thông minh, nhiều mưu mẹo, nhưng ham chơi và không chịu theo khuôn phép. Người trong vùng chê ông không lo làm ăn đàng hoàng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/013.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_013.mp4"
+     },
+     {
+      "text": "Dù vậy, ông sớm được giao chức Bắc bộ úy ở Lạc Dương, khi mới khoảng hai mươi tuổi.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/014.jpg"
+     },
+     {
+      "text": "Đó là quan phụ trách giữ trật tự và xử người phạm pháp ở khu phía bắc kinh thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/015.jpg"
+     },
+     {
+      "text": "Ông cho đặt roi ngũ sắc trước công đường, dùng để trừng phạt những người vi phạm lệnh cấm, bất kể thân phận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/016.jpg"
+     },
+     {
+      "text": "Chẳng bao lâu sau, lệnh ấy gặp người đầu tiên dám phớt lờ. Kiển Thạc là hoạn quan đang được vua cưng chiều, quyền thế bậc nhất trong cung.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/017.jpg"
+     },
+     {
+      "text": "Chú của ông ta cậy có người cháu quyền thế như vậy, nên bất chấp lệnh cấm, nghênh ngang đi ngoài đường giữa đêm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/018.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_018.mp4"
+     },
+     {
+      "text": "Sách chép Tào Tháo vẫn ra lệnh đánh người này đến chết, bất kể thân phận như lời ông đã nói.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/019.jpg"
+     },
+     {
+      "text": "Từ đó không ai dám ra đường ban đêm nữa. Kiển Thạc ghét ông, nhưng không có cớ, nên tìm cách đẩy ông sang làm việc ở nơi khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/020.jpg"
+     },
+     {
+      "text": "Cũng thời trẻ, ông nhờ nhà xem tướng nổi tiếng Hứa Thiệu đánh giá mình. Hứa Thiệu coi thường ông nên không nói, đến khi bị ép mới trả lời.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/021.jpg"
+     },
+     {
+      "text": "Theo Hậu Hán thư, Hứa Thiệu nói ông là kẻ gian trá thời bình, nhưng là anh hùng thời loạn. Ông nghe xong rất vui rồi ra về.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/022.jpg"
+     },
+     {
+      "text": "Một sách khác chép câu ấy là quan giỏi thời bình, kẻ gian hùng thời loạn. Dù bản nào, người đời cũng đã thấy ở ông cả mặt gian lẫn mặt hùng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/023.jpg"
+     },
+     {
+      "text": "Năm một trăm tám mươi chín, Hán Linh Đế qua đời.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/024.jpg"
+     },
+     {
+      "text": "Hà Tiến, anh trai của Hà thái hậu, tìm cách tiêu diệt thế lực hoạn quan và gọi Đổng Trác đem quân về kinh thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/025.jpg"
+     },
+     {
+      "text": "Nhưng kế hoạch chưa thành thì Hà Tiến bị hoạn quan sát hại. Kinh thành lập tức rơi vào hỗn loạn. Đổng Trác nhân cơ hội đưa quân tiến vào Lạc Dương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/026.jpg"
+     },
+     {
+      "text": "Sau khi nắm binh quyền, Đổng Trác phế Thiếu Đế, đưa Hiến Đế lên ngôi. Từ đó, triều đình nhà Hán gần như nằm dưới sự khống chế của ông ta.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/027.jpg"
+     },
+     {
+      "text": "Đổng Trác muốn thu phục Tào Tháo, nên triệu ông ra giữ chức kiêu kỵ hiệu úy, chỉ huy kỵ binh, trong triều.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/028.jpg"
+     },
+     {
+      "text": "Nhưng Tào Tháo không muốn ở lại dưới quyền vị quyền thần vừa thao túng triều đình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/029.jpg"
+     },
+     {
+      "text": "Ông từ chối lời mời, cải trang và đổi tên để tránh bị nhận ra, rồi bí mật rời khỏi Lạc Dương, bắt đầu cuộc trốn chạy về phía đông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/030.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_030.mp4"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Trên đường trốn khỏi kinh thành, Tào Tháo ghé nhà Lã Bá Xa, một người quen của gia đình, tại vùng Thành Cao.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/031.jpg"
+     },
+     {
+      "text": "Chuyện xảy ra sau đó được các ghi chép kể lại không giống nhau. Nhưng điểm chung đáng chú ý là Tào Tháo đã giết người trong gia đình Lã Bá Xa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/032.jpg"
+     },
+     {
+      "text": "Theo một ghi chép, Lã Bá Xa đi vắng, con cái và khách trong nhà lo bữa ăn cho ông. Tào Tháo nghi họ định hại mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/033.jpg"
+     },
+     {
+      "text": "Trong đêm, ông ra tay giết tám người trong nhà. Một ghi chép khác kể rằng ông nghe tiếng bát đĩa rồi mới nghi ngờ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/034.jpg"
+     },
+     {
+      "text": "Truyện kể đời sau còn thêm chi tiết họ chỉ định mổ heo để đãi khách.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/035.jpg"
+     },
+     {
+      "text": "Câu nói nổi tiếng, thà ông phụ người trong thiên hạ, chứ không để người trong thiên hạ phụ ông, cũng chỉ thấy trong một ghi chép đời sau.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/036.jpg"
+     },
+     {
+      "text": "Sau đêm ấy, ông chạy tiếp tới Trần Lưu, dùng tiền của gia đình chiêu mộ quân để chống Đổng Trác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/037.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_037.mp4"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Năm một trăm chín mươi, nhiều lãnh chúa hợp quân đánh Đổng Trác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/038.jpg"
+     },
+     {
+      "text": "Tào Tháo cũng tham gia, nhưng liên quân nhanh chóng rơi vào bế tắc vì các thủ lĩnh bất đồng và thiếu quyết tâm hành động.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/039.jpg"
+     },
+     {
+      "text": "Cuối cùng, liên quân tan rã. Các thế lực quay về tranh giành địa bàn và quyền lực, mở đầu cho những cuộc xung đột mới giữa các lãnh chúa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/040.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_040.mp4"
+     },
+     {
+      "text": "Trong bài thơ Hao Lý hành, ông tả cảnh ấy. Xương trắng phơi ngoài đồng, ngàn dặm không tiếng gà gáy, trăm người dân chỉ còn một.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/041.jpg"
+     },
+     {
+      "text": "Năm một trăm chín mươi hai, quân Khăn Vàng giết thứ sử Duyện Châu, rồi tràn vào vùng đất này.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/042.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_042.mp4"
+     },
+     {
+      "text": "Các quan địa phương mời Tào Tháo đứng ra giữ vùng đất rộng và giàu này. Ông đánh bại Khăn Vàng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/043.jpg"
+     },
+     {
+      "text": "Hơn ba trăm nghìn quân Khăn Vàng đầu hàng ông, cùng hàng trăm nghìn dân đi theo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/044.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_044.mp4"
+     },
+     {
+      "text": "Ông chọn những người khỏe nhất trong số quân đầu hàng để lập một đội quân riêng. Đội quân ấy là gốc sức mạnh của ông về sau.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/045.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_045.mp4"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Năm một trăm chín mươi ba, Tào Tháo nhận được tin cha mình, Tào Tung, bị sát hại trên đường từ Lang Nha đến Duyện Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/046.jpg"
+     },
+     {
+      "text": "Trước đó, để tránh loạn Đổng Trác, Tào Tung đã rời quê nhà và chuyển đến sống tại Từ Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/047.jpg"
+     },
+     {
+      "text": "Đoàn người của Tào Tung phải đi qua vùng đất do Đào Khiêm kiểm soát. Sau cái chết của cha, Tào Tháo quy trách nhiệm cho Đào Khiêm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/048.jpg"
+     },
+     {
+      "text": "Với ông, đây không còn đơn thuần là một vụ án cần làm sáng tỏ. Nó trở thành món nợ phải trả bằng một cuộc chiến.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/049.jpg"
+     },
+     {
+      "text": "Quân Tào tiến vào Từ Châu. Hơn mười thành lần lượt thất thủ, rồi một trận đánh lớn nổ ra tại Bành Thành.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/050.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_050.mp4"
+     },
+     {
+      "text": "Quân Đào Khiêm thất bại, số người chết được ghi lại lên tới hàng vạn. Đào Khiêm phải rút về thành Đàm cố thủ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/051.jpg"
+     },
+     {
+      "text": "Nhưng thất bại của quân Đào Khiêm không khiến cuộc tiến công dừng lại. Quân Tào tiếp tục tràn qua các huyện Thủ Lư, Thùy Lăng và Hạ Khâu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/052.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_052.mp4"
+     },
+     {
+      "text": "Lần này, những người chịu hậu quả không chỉ là binh lính trên chiến trường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/053.jpg"
+     },
+     {
+      "text": "Hậu Hán thư mô tả cảnh đàn ông và phụ nữ đều bị giết, đến mức gà chó cũng không còn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/054.jpg"
+     },
+     {
+      "text": "Những vùng đất từng có người sinh sống trở nên hoang vắng sau khi quân Tào đi qua.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/055.jpg"
+     },
+     {
+      "text": "Từ Châu khi ấy còn là nơi trú ẩn của nhiều người chạy loạn từ vùng kinh đô.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/056.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_056.mp4"
+     },
+     {
+      "text": "Họ rời bỏ quê nhà để tìm đường sống, nhưng cuộc chiến lại đẩy họ vào một thảm họa khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/057.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_057.mp4"
+     },
+     {
+      "text": "Tư trị thông giám cũng nhắc đến những người tị nạn này trong cuộc tàn sát.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/058.jpg"
+     },
+     {
+      "text": "Dòng Tứ Thủy được mô tả như ngừng chảy vì số người chết quá lớn. Đó có thể là cách diễn đạt mang sắc thái cường điệu của văn sử.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/059.jpg"
+     },
+     {
+      "text": "Nhưng hình ảnh ấy cho thấy mức độ khủng khiếp mà cuộc chiến ở Từ Châu để lại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/060.jpg"
+     },
+     {
+      "text": "Cuối cùng, Tào Tháo phải rút quân vì thiếu lương thực. Nhưng cuộc tàn phá chưa kết thúc ở đó.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/061.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_061.mp4"
+     },
+     {
+      "text": "Năm một trăm chín mươi bốn, ông lại đưa quân trở lại, tiến qua Lang Nha và Đông Hải, tiếp tục gây chiến và tàn phá các vùng này.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/062.jpg"
+     },
+     {
+      "text": "Cuộc báo thù bắt đầu từ cái chết của Tào Tung, nhưng những người phải trả giá không chỉ là những kẻ bị xem là có liên quan.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/063.jpg"
+     },
+     {
+      "text": "Cả những người dân vô tội, thậm chí cả những người chạy loạn tìm nơi trú ẩn, cũng không thoát khỏi vó ngựa quân Tào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/064.jpg"
+     },
+     {
+      "text": "Lần đánh thứ hai, ông nghe tin hậu phương bị cướp. Trương Mạc và Trần Cung, người từng đi theo ông, đã đón Lữ Bố chiếm Duyện Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/065.jpg"
+     },
+     {
+      "text": "Chú giải cho rằng Trương Mạc lo sợ vì Tào Tháo đã giết Biên Nhượng, một danh sĩ từng chê ông, cùng vợ con người này.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/066.jpg"
+     },
+     {
+      "text": "Đó là cách giải thích của người xưa. Chuyện Biên Nhượng chỉ có trong sách thù địch hoặc sách chép muộn, nên không chắc chắn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/067.jpg"
+     },
+     {
+      "text": "Ông phải mất hơn một năm đánh nhau với Lữ Bố mới giữ được Duyện Châu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/068.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Đổng Trác đã chết, nhưng triều đình nhà Hán vẫn chưa thoát khỏi cảnh hỗn loạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/069.jpg"
+     },
+     {
+      "text": "Hiến Đế phải lưu lạc giữa các thế lực quân phiệt, không có quân đội đủ mạnh để tự bảo vệ, cũng chẳng có quyền lực thực sự trong tay.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/070.jpg"
+     },
+     {
+      "text": "Tào Tháo nhìn thấy ở vị hoàng đế ấy một cơ hội chính trị lớn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/071.jpg"
+     },
+     {
+      "text": "Tuân Úc khuyên ông đón vua về, vừa thuận theo lòng mong đợi của thiên hạ, vừa có thể dùng danh nghĩa triều đình để thu phục các thế lực khác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/072.jpg"
+     },
+     {
+      "text": "Năm một trăm chín mươi sáu, Tào Tháo đưa Hiến Đế về Hứa. Từ đây, triều đình nhà Hán nằm dưới sự kiểm soát của ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/073.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_073.mp4"
+     },
+     {
+      "text": "Những mệnh lệnh ban ra mang danh nghĩa hoàng đế, còn người thực sự nắm quyền điều hành lại là Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/074.jpg"
+     },
+     {
+      "text": "Nhưng danh nghĩa chính trị không thể thay thế lương thực.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/075.jpg"
+     },
+     {
+      "text": "Sau nhiều năm chiến tranh, ruộng đất bỏ hoang, dân chúng ly tán, quân đội của Tào Tháo cũng từng phải rút khỏi Từ Châu vì thiếu lương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/076.jpg"
+     },
+     {
+      "text": "Năm một trăm chín mươi sáu, theo đề xuất của Tảo Chi và Hàn Hạo, Tào Tháo bắt đầu tổ chức đồn điền quân sự.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/077.jpg"
+     },
+     {
+      "text": "Ruộng đất được khai khẩn, người dân và binh lính tham gia sản xuất, lương thực thu được dùng để duy trì quân đội.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/078.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_078.mp4"
+     },
+     {
+      "text": "Chính sách này giúp Tào Tháo giải quyết một trong những điểm yếu lớn nhất của các thế lực quân phiệt thời bấy giờ, nguồn cung lương thực.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/079.jpg"
+     },
+     {
+      "text": "Quân đội có thể tiếp tục chiến đấu mà không phải hoàn toàn phụ thuộc vào việc cướp bóc hay vận chuyển từ những vùng xa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/080.jpg"
+     },
+     {
+      "text": "Khi hậu phương dần ổn định, Tào Tháo có điều kiện đối đầu với đối thủ lớn nhất ở phương bắc, Viên Thiệu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/081.jpg"
+     },
+     {
+      "text": "Năm hai trăm, hai bên giao chiến tại Quan Độ. Quân Tào ít hơn, nhưng cuối cùng lại đánh bại được lực lượng đông đảo của Viên Thiệu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/082.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_082.mp4"
+     },
+     {
+      "text": "Sau chiến thắng, trong doanh trại Viên Thiệu, quân Tào tìm thấy nhiều bức thư cho thấy một số người dưới quyền Tào Tháo từng bí mật liên hệ với đối thủ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/083.jpg"
+     },
+     {
+      "text": "Đây là bằng chứng có thể khiến nhiều người bị nghi ngờ và trừng phạt.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/084.jpg"
+     },
+     {
+      "text": "Nhưng Tào Tháo ra lệnh đốt tất cả mà không kiểm tra từng bức thư.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/085.jpg"
+     },
+     {
+      "text": "Theo lời giải thích của người đời sau, ông hiểu rằng khi Viên Thiệu còn mạnh, ngay cả những người theo mình cũng có lý do để dao động.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/086.jpg"
+     },
+     {
+      "text": "Nếu truy cứu toàn bộ, chính ông có thể tự làm suy yếu lực lượng của mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/087.jpg"
+     },
+     {
+      "text": "Tuy nhiên, sau chiến thắng Quan Độ còn có một ghi chép đáng sợ hơn nhiều.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/088.jpg"
+     },
+     {
+      "text": "Chú giải trong Tam Quốc chí dẫn các nguồn nói rằng Tào Tháo đã chôn sống quân của Viên Thiệu sau khi đánh bại họ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/089.jpg"
+     },
+     {
+      "text": "Con số được các nguồn ghi lại không thống nhất, có sách nói tám vạn, có sách nói bảy vạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/090.jpg"
+     },
+     {
+      "text": "Tư trị thông giám khảo dị còn đối chiếu con số hơn bảy vạn quân bị giết trong tấu báo chiến thắng của Tào Tháo dâng lên triều đình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/091.jpg"
+     },
+     {
+      "text": "Vì vậy, không thể xem một con số duy nhất là kết luận chắc chắn, nhưng quy mô thương vong được các ghi chép nhắc đến vẫn rất lớn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/092.jpg"
+     },
+     {
+      "text": "Cách Tào Tháo sử dụng con người cũng cho thấy ông đặt năng lực lên trên những chuẩn mực đạo đức thông thường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/093.jpg"
+     },
+     {
+      "text": "Năm hai trăm mười bảy, trong lệnh cầu hiền, ông tuyên bố có thể trọng dụng cả những người bị xem là bất nhân, bất hiếu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/094.jpg"
+     },
+     {
+      "text": "Miễn là họ có tài trị nước và dùng binh.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/095.jpg"
+     },
+     {
+      "text": "Trước đó, năm hai trăm mười bốn, ông đã nhấn mạnh rằng người có phẩm hạnh chưa chắc đã có khả năng lập công.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/096.jpg"
+     },
+     {
+      "text": "Còn người giỏi lập công chưa chắc đã có phẩm hạnh. Với Tào Tháo, tài năng là thứ có thể quyết định vận mệnh của một người trong bộ máy quyền lực.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/096.jpg"
+     },
+     {
+      "text": "Đó là cách ông thu hút nhân tài, nhưng cũng cho thấy ông sẵn sàng gạt nhiều tiêu chuẩn đạo đức sang một bên để đạt mục tiêu chính trị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/097.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Khi đã nắm quyền trong triều đình, Tào Tháo không chỉ phải đối phó với những đối thủ trên chiến trường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/098.jpg"
+     },
+     {
+      "text": "Ngay cả những người bất đồng chính kiến, từng có địa vị trong triều, cũng có thể trở thành mục tiêu của ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/099.jpg"
+     },
+     {
+      "text": "Năm hai trăm lẻ tám, Khổng Dung, một danh sĩ nổi tiếng và là hậu duệ của Khổng Tử, bị Tào Tháo xử tử.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/100.jpg"
+     },
+     {
+      "text": "Trước đó, Khổng Dung nhiều lần có lời lẽ châm biếm, chỉ trích Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/101.jpg"
+     },
+     {
+      "text": "Một trong những cáo buộc được đưa ra là Khổng Dung đã nói những lời bất kính khi tiếp sứ giả của Tôn Quyền.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/102.jpg"
+     },
+     {
+      "text": "Xúc phạm triều đình và có ý chống đối.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/104.jpg"
+     },
+     {
+      "text": "Nhưng đó là những lời buộc tội được dùng trong vụ án, không thể mặc nhiên xem tất cả là sự thật đã được chứng minh.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/105.jpg"
+     },
+     {
+      "text": "Không chỉ Khổng Dung phải chết. Hai người con nhỏ của ông cũng bị giết. Một gia đình danh sĩ bị xóa sổ chỉ sau một vụ án chính trị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/104.jpg"
+     },
+     {
+      "text": "Trớ trêu hơn, về sau Tào Phi vẫn xếp Khổng Dung vào hàng bảy văn nhân nổi tiếng thời Kiến An.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/107.jpg"
+     },
+     {
+      "text": "Cùng khoảng thời gian ấy, một vụ việc khác cho thấy Tào Tháo có thể đi xa đến mức nào khi cho rằng người khác không tuân phục mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/106.jpg"
+     },
+     {
+      "text": "Lần này, người bị bắt không phải một đối thủ chính trị, mà là Hoa Đà, vị thầy thuốc nổi tiếng đương thời.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/107.jpg"
+     },
+     {
+      "text": "Tào Tháo thường xuyên bị chứng đau đầu kéo dài, nên đã gọi Hoa Đà đến chữa trị riêng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/108.jpg"
+     },
+     {
+      "text": "Nhưng Hoa Đà vốn xuất thân là người có học, không muốn mãi làm một thầy thuốc phục vụ bên cạnh Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/109.jpg"
+     },
+     {
+      "text": "Ông lấy lý do vợ đang ốm để xin về nhà. Thời gian nghỉ phép kéo dài, nhiều lần Tào Tháo gửi thư gọi trở lại nhưng Hoa Đà vẫn không về.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/112.jpg"
+     },
+     {
+      "text": "Tào Tháo sinh nghi, sai người đến xác minh bệnh tình của vợ Hoa Đà.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/111.jpg"
+     },
+     {
+      "text": "Nếu lời khai là thật, ông sẽ được tiếp tục nghỉ, nếu là giả dối, ông sẽ bị bắt.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/114.jpg"
+     },
+     {
+      "text": "Cuộc điều tra kết thúc bằng việc Hoa Đà bị áp giải về Hứa và đưa vào ngục thẩm vấn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/113.jpg"
+     },
+     {
+      "text": "Tuân Úc đã đứng ra xin tha cho Hoa Đà, nhấn mạnh rằng tài chữa bệnh của ông liên quan trực tiếp đến sinh mạng của nhiều người.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/114.jpg"
+     },
+     {
+      "text": "Nhưng Tào Tháo không chấp nhận lời thỉnh cầu ấy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/115.jpg"
+     },
+     {
+      "text": "Hoa Đà cuối cùng mất trong ngục sau khi bị thẩm vấn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/116.jpg"
+     },
+     {
+      "text": "Trước khi chết, ông định trao một cuốn sách y thuật cho người giữ ngục, nói rằng cuốn sách có thể cứu người.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/119.jpg"
+     },
+     {
+      "text": "Nhưng người giữ ngục sợ liên lụy nên không dám nhận. Hoa Đà đành xin lửa và tự tay đốt cuốn sách.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/117.jpg"
+     },
+     {
+      "text": "Sau khi Hoa Đà chết, chứng đau đầu của Tào Tháo vẫn tiếp tục hành hạ ông. Rồi con trai yêu quý của ông, Tào Xung, lâm bệnh nặng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/118.jpg"
+     },
+     {
+      "text": "Đến lúc ấy, Tào Tháo mới than rằng mình hối hận vì đã giết Hoa Đà.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/119.jpg"
+     },
+     {
+      "text": "Câu chuyện này cũng cần được phân biệt với những gì tiểu thuyết Tam Quốc diễn nghĩa kể lại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/123.jpg"
+     },
+     {
+      "text": "Chính sử không chép chuyện Hoa Đà đề nghị mổ đầu Tào Tháo để chữa bệnh.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/124.jpg"
+     },
+     {
+      "text": "Nguyên nhân được ghi lại trong Tam Quốc chí là việc Hoa Đà tìm cách kéo dài thời gian nghỉ phép và không chịu trở về.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/122.jpg"
+     },
+     {
+      "text": "Nhưng những người bị Tào Tháo trừng phạt không chỉ có danh sĩ hay người phục vụ bên cạnh ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/126.jpg"
+     },
+     {
+      "text": "Ở phía tây, một cuộc nổi dậy của Mã Siêu và Hàn Toại năm hai trăm mười một đã khiến Tào Tháo phải đem quân đối phó.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/127.jpg"
+     },
+     {
+      "text": "Mã Siêu thất bại, nhưng cái giá không dừng lại ở bản thân ông. Cha ông là Mã Đằng khi ấy đang giữ chức Vệ úy tại triều đình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/125.jpg"
+     },
+     {
+      "text": "Năm hai trăm mười hai, Mã Đằng bị xử tử cùng ba họ vì cuộc nổi dậy của con trai.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/126.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_126.mp4"
+     },
+     {
+      "text": "Nhiều năm sau, trước khi qua đời, Mã Siêu viết thư dâng Lưu Bị.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/130.jpg"
+     },
+     {
+      "text": "Trong thư, ông nói rằng hơn hai trăm người trong gia tộc mình đã bị Tào Tháo giết, chỉ còn người em họ Mã Đại.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/131.jpg"
+     },
+     {
+      "text": "Đây là lời kể của chính Mã Siêu, không phải con số được một cuộc kiểm kê độc lập xác nhận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/129.jpg"
+     },
+     {
+      "text": "Khổng Dung bị giết vì những lời bị xem là chống đối. Hoa Đà mất mạng sau khi không chịu tiếp tục phục vụ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/133.jpg"
+     },
+     {
+      "text": "Còn gia tộc Mã Đằng phải trả giá sau cuộc nổi dậy của Mã Siêu.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/134.jpg"
+     },
+     {
+      "text": "Những vụ việc khác nhau, nhưng đều cho thấy quyền lực của Tào Tháo có thể trở nên khắc nghiệt đến mức nào với những người rơi vào thế đối đầu với ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/132.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Tào Tháo có thể điều động quân đội, quyết định việc triều chính và chi phối mọi mệnh lệnh ban ra dưới danh nghĩa hoàng đế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/133.jpg"
+     },
+     {
+      "text": "Nhưng trên danh nghĩa, Hiến Đế vẫn là thiên tử nhà Hán. Và Phục hoàng hậu vẫn là người đứng đầu hậu cung.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/134.jpg"
+     },
+     {
+      "text": "Bà hiểu rõ quyền lực thực sự trong triều đình nằm ở đâu. Từ nhiều năm trước, Phục hoàng hậu đã viết thư cho cha mình là Phục Hoàn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/135.jpg"
+     },
+     {
+      "text": "Trong thư, bà kể việc Tào Tháo lấn át hoàng đế và yêu cầu tìm cách bí mật đối phó ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/136.jpg"
+     },
+     {
+      "text": "Nhưng bức thư ấy không tạo ra được cuộc phản kháng nào. Phục Hoàn không dám hành động. Mãi đến năm hai trăm mười bốn, chuyện cũ mới bị phát giác.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/137.jpg"
+     },
+     {
+      "text": "Đối với Tào Tháo, đây là cái cớ để loại bỏ người phụ nữ vẫn còn mang danh hoàng hậu nhà Hán.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/138.jpg"
+     },
+     {
+      "text": "Ông ép Hiến Đế ban chiếu phế truất Phục hoàng hậu, rồi sai người dẫn quân vào cung bắt bà.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/139.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_139.mp4"
+     },
+     {
+      "text": "Phục hoàng hậu tìm cách ẩn mình sau vách tường, nhưng cuối cùng vẫn bị phát hiện và lôi ra ngoài.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/140.jpg"
+     },
+     {
+      "text": "Khi bị đưa đi, bà gặp Hiến Đế ở điện bên ngoài.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/141.jpg"
+     },
+     {
+      "text": "Tóc tai rối bời, chân không mang giày, bà khóc hỏi nhà vua rằng không thể cứu mình thêm một lần nữa hay sao.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/145.jpg"
+     },
+     {
+      "text": "Hiến Đế chỉ có thể đáp rằng chính ông cũng không biết mạng sống của mình sẽ kết thúc lúc nào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/143.jpg"
+     },
+     {
+      "text": "Phục hoàng hậu sau đó chết trong cảnh bị giam giữ. Hai người con trai của bà cũng bị giết.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/144.jpg"
+     },
+     {
+      "text": "Hơn một trăm người thuộc gia tộc và họ hàng bị giết, mẹ bà cùng mười tám người khác bị đày đến Trác Quận.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/148.jpg"
+     },
+     {
+      "text": "Một vụ án liên quan đến bức thư cũ đã kéo theo cái chết và cảnh lưu đày của cả một gia tộc.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/146.jpg"
+     },
+     {
+      "text": "Đầu năm hai trăm mười lăm, người thay thế Phục hoàng hậu là Tào Tiết, con gái của chính Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/147.jpg"
+     },
+     {
+      "text": "Từ đây, người đứng đầu hậu cung cũng thuộc về gia đình họ Tào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/151.jpg"
+     },
+     {
+      "text": "Hiến Đế vẫn ngồi trên ngai vàng, nhưng cả triều đình lẫn hậu cung đều nằm trong vòng kiểm soát của Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/152.jpg"
+     },
+     {
+      "text": "Điều đáng chú ý là Tào Tháo chưa bao giờ tự xưng hoàng đế.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/150.jpg"
+     },
+     {
+      "text": "Ông giữ chức Ngụy công, rồi Ngụy vương, nắm quyền lực gần như một vị vua, nhưng vẫn để ngai vàng mang danh nhà Hán.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/154.jpg"
+     },
+     {
+      "text": "Cuối năm hai trăm mười, trước những lời nghi ngờ rằng mình muốn cướp ngôi, Tào Tháo viết một bài tự thuật để giải thích con đường chính trị của mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/155.jpg"
+     },
+     {
+      "text": "Trong đó, ông nói rằng nếu không có ông, không biết đã có bao nhiêu người tự xưng đế, bao nhiêu người xưng vương.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/156.jpg"
+     },
+     {
+      "text": "Nhưng ông cũng thừa nhận mình không thể đơn giản giao lại binh quyền rồi lui về sống như một chư hầu bình thường.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/154.jpg"
+     },
+     {
+      "text": "Ông sợ rằng một khi rời khỏi sự bảo vệ của quân đội, bản thân sẽ bị sát hại, con cháu cũng khó tránh khỏi tai họa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/155.jpg"
+     },
+     {
+      "text": "Đó là lời giải thích của chính Tào Tháo. Ông nói mình không thể buông quyền lực, bởi buông quyền lực đồng nghĩa với đặt cả gia tộc vào hiểm nguy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/159.jpg"
+     }
+    ]
+   },
+   {
+    "beats": [
+     {
+      "text": "Năm hai trăm hai mươi, Tào Tháo qua đời ở tuổi sáu mươi lăm.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/157.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_157.mp4"
+     },
+     {
+      "text": "Con trai ông là Tào Phi kế vị, sau đó buộc Hiến Đế nhường ngôi, chấm dứt nhà Hán và lập ra nhà Ngụy.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/158.jpg"
+     },
+     {
+      "text": "Nhìn lại cuộc đời Tào Tháo, Trần Thọ, người biên soạn Tam Quốc chí, từng đánh giá ông là một người phi thường, một bậc anh kiệt vượt hơn người đời.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/162.jpg"
+     },
+     {
+      "text": "Đó là sự ghi nhận dành cho tài năng và vị thế lịch sử của ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/160.jpg"
+     },
+     {
+      "text": "Nhưng bên cạnh những ghi chép ấy còn có những câu chuyện về sự tàn nhẫn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/164.jpg"
+     },
+     {
+      "text": "Tào Man truyện, một tác phẩm được các tác giả Đông Ngô lưu truyền, kể nhiều việc bất lợi cho Tào Tháo.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/165.jpg"
+     },
+     {
+      "text": "Nguồn này có góc nhìn thiên lệch, nhưng không vì thế mà mọi chi tiết đều có thể bị bác bỏ. Mỗi câu chuyện cần được xem xét riêng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/166.jpg"
+     },
+     {
+      "text": "Vậy Tào Tháo tàn bạo đến mức nào?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/163.jpg"
+     },
+     {
+      "text": "Muốn trả lời, phải nhìn vào hai điều, những gì ông đã làm nghiêm trọng đến đâu, và những ghi chép về việc ấy đáng tin đến mức nào.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/168.jpg"
+     },
+     {
+      "text": "Xét về quy mô hậu quả, Từ Châu là một trong những chiến dịch đáng lên án nhất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/169.jpg"
+     },
+     {
+      "text": "Những ghi chép lịch sử mô tả hàng vạn người chết, trong đó có cả dân thường và người chạy loạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/170.jpg",
+      "clip_file": "assets/clips_2d/TQ9/E4_167.mp4"
+     },
+     {
+      "text": "Những vụ giết cả gia tộc cũng cho thấy quyền lực của Tào Tháo có thể trút xuống những người không trực tiếp cầm quân chống lại ông.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/167.jpg"
+     },
+     {
+      "text": "Phục hoàng hậu bị giết, hai hoàng tử bị giết, hơn một trăm người thân bị sát hại và nhiều phụ nữ bị đày đi xa.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/172.jpg"
+     },
+     {
+      "text": "Những sự kiện này được Hậu Hán thư ghi lại khá rõ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/169.jpg"
+     },
+     {
+      "text": "Sau trận Quan Độ, các nguồn được chú giải trong Tam Quốc chí nhắc đến việc quân Viên Thiệu bị chôn sống với con số bảy hoặc tám vạn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/171.jpg"
+     },
+     {
+      "text": "Đây là một cáo buộc rất nghiêm trọng, nhưng số người bị giết và tình trạng của họ trước khi chết vẫn cần được phân biệt.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/175.jpg"
+     },
+     {
+      "text": "Không thể khẳng định tất cả đều là tù binh đã đầu hàng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/176.jpg"
+     },
+     {
+      "text": "Những vụ Khổng Dung và Hoa Đà cũng không thể bỏ qua. Khổng Dung bị xử tử, hai người con nhỏ cũng không thoát khỏi vụ án.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/174.jpg"
+     },
+     {
+      "text": "Hai vụ việc có hoàn cảnh khác nhau, nhưng đều cho thấy cái giá rất lớn mà người đối đầu hoặc không tuân phục Tào Tháo có thể phải trả.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/175.jpg"
+     },
+     {
+      "text": "Ở chiều ngược lại, một số câu chuyện nổi tiếng về sự gian xảo của Tào Tháo lại có căn cứ yếu hơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/179.jpg"
+     },
+     {
+      "text": "Chuyện Biên Nhượng liên quan đến lời chú giải và những nguồn kể lại, chuyện Lã Bá Xa cũng có nhiều dị bản.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/180.jpg"
+     },
+     {
+      "text": "Không nên đặt chúng ngang hàng với những vụ việc có ghi chép rõ ràng hơn.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/178.jpg"
+     },
+     {
+      "text": "Câu chuyện thường được nhắc đến để minh họa sự đa nghi và tàn nhẫn của Tào Tháo lại không phải câu chuyện có nền tảng sử liệu vững nhất.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/182.jpg"
+     },
+     {
+      "text": "Điều đó nhắc chúng ta rằng hình ảnh một nhân vật lịch sử không thể chỉ được dựng nên từ những giai thoại nổi tiếng.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/183.jpg"
+     },
+     {
+      "text": "Tào Tháo cũng là người biết thu phục nhân tài, tổ chức đồn điền để nuôi quân, kiểm soát triều đình và đánh bại những đối thủ mạnh.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/181.jpg"
+     },
+     {
+      "text": "Ông từng đốt bỏ những bức thư của người dưới quyền gửi cho Viên Thiệu thay vì truy cứu từng người.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/182.jpg"
+     },
+     {
+      "text": "Nhưng những năng lực ấy không xóa đi trách nhiệm của ông trong những cuộc tàn sát và những vụ xử tử đã xảy ra dưới quyền mình.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/183.jpg"
+     },
+     {
+      "text": "Có lẽ điều đáng sợ nhất ở Tào Tháo không chỉ nằm ở những câu chuyện về sự đa nghi hay những lời đồn được truyền lại qua nhiều thế hệ.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/184.jpg"
+     },
+     {
+      "text": "Nó nằm ở những sự kiện có ghi chép.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/188.jpg"
+     },
+     {
+      "text": "Một người có thể tài giỏi trong việc dựng nên quyền lực, nhưng cũng có thể dùng chính quyền lực ấy gây ra những hậu quả khủng khiếp.",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/189.jpg"
+     },
+     {
+      "text": "Nếu Tào Tháo đem lại trật tự cho miền Bắc, nhưng cũng để lại những cuộc tàn sát và những gia đình bị xóa sổ,",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/190.jpg"
+     },
+     {
+      "text": "bạn sẽ nhớ đến ông như một nhà chính trị kiệt xuất, một kẻ tàn bạo, hay cả hai?",
+      "ai": "ancient Han China scene, 2D ligne claire",
+      "anh_file": "assets/anh_2d/TQ9/191.jpg"
+     }
+    ]
+   }
+  ],
+  "giong_tung_cau": true,
+  "tts_engine": "vieneu",
+  "vieneu_voice": "Thiện Minh",
+  "the_tieu_de": false
+ },
+ "binh_luan": {
+  "dai": {
+   "ghim": "Video chia chuyện về Tào Tháo thành hai loại: việc có trong chính văn Hậu Hán thư, Tam quốc chí và chuyện chỉ nằm trong chú giải của Bùi Tùng Chi. Từ Châu, Khổng Dung, Hoa Đà, Phục hoàng hậu và Mã Đằng có ghi chép; chuyện Lã Bá Xa và Biên Nhượng có căn cứ yếu hơn.",
+   "phu": [
+    "Lưu ý: một số chi tiết lấy từ nguồn thứ cấp, hình ảnh là tranh minh họa."
+   ]
+  }
+ }
 }

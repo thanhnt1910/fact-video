@@ -166,6 +166,23 @@ REDO={
 73:(None,SHIP+" Each ship has exactly one mast."),
 75:("exactly ONE townsman standing in a Song street at dusk with a hand on his chin looking thoughtful, behind him on the left a faint warm glow of burning boats on the river and on the right a quiet empty street, no second figure",SHIP),
 }
+
+# --- Sửa lỗi 03/11 lần 3: tóc búi trên đỉnh đầu, đúng hai tay, không dính thân, bỏ giường ngoài bờ sông ---
+TOP="Every man and boy has black hair gathered up into a neat topknot on the crown of his head, under a small cap or headcloth, and every person has exactly two arms and two hands, each clearly drawn and separate from the others. "
+def _fx(n,extra=""):
+    old=REDO[n][1] if n in REDO else ""
+    return (None if n not in REDO else REDO[n][0], TOP+extra+" "+old)
+REDO[43]=(None,TOP+"Soldiers wear small flat caps over their topknots; the two leaders ride separate horses with a clear gap between them.")
+REDO[46]=(None,TOP+"The officer at the stern stands alone with his arms by his sides; the soldiers walk in a loose line, each a separate person.")
+REDO[48]=(None,TOP+"One hand holds the brush and the other rests flat on the table.")
+REDO[55]=(REDO[55][0],TOP+"The painter's right hand holds the brush against the wall and his left hand grips the scaffold rail; the onlookers are separate people with a little space between them. "+REDO[55][1])
+REDO[56]=(REDO[56][0],TOP+"Exactly one man falls backward onto the platform, drawn as one body with two arms and two legs, and the storyteller stands a clear step apart from him; each bystander holds both hands to the mouth. "+REDO[56][1])
+REDO[60]=(REDO[60][0],TOP+"Every audience member seen from behind has a topknot on the crown of the head; the storyteller holds one puppet in each hand. "+REDO[60][1])
+REDO[61]=("Zhou Yu standing in a street with a tight embarrassed face while exactly five townsfolk stand in a loose arc behind him, three whispering behind raised long sleeves and two shaking their heads, every townsperson with a different face and clothes",TOP+"Townsfolk keep their hands hidden in long sleeves or folded in front of the chest.")
+REDO[64]=("a wide river at dusk: in the left foreground a single plain arrow with a bare wooden shaft standing upright in the earth, in the middle the river with a burning fleet of boxy Han warships far away, on the right bank a small military tent of plain cloth with its flap tied open and a warm oil lamp glowing inside, one continuous picture, completely empty, absolutely no people",SHIP)
+REDO[71]=("a quiet room seen from the foot of a low plank bed: exactly one man, Zhou Yu, lies on his back with his head on a single pillow and a blanket drawn up to his chest, eyes closed, serene pale face, the rest of the room empty with one bronze oil dish on a low table, soft morning light through a lattice window",TOP+"The bed holds exactly one body with one head and two arms resting on the blanket; nobody else is in the room.")
+REDO[75]=(REDO[75][0],TOP+"The townsman has a topknot under a small cap and one hand on his chin, the other hanging by his side. "+REDO[75][1])
+
 S=[(n,nv,ton,era,(REDO[n][0] or desc) if n in REDO else desc) for n,nv,ton,era,desc in S]
 for n,(dd,fx) in REDO.items(): FIX[n]=fx
 beats={}

@@ -196,7 +196,24 @@ for n,nv,ton,era,desc in S:
     k=f"{n:03d}"
     anh.append({"key":k,"cau":n,"nv":nv,"text":beats.get(n,""),"prompt":p})
     canh.append({"key":k,"nv":nv,"mo_ta":desc})
-assert [a["cau"] for a in anh]==list(range(1,77)) and len(beats)==76
+
+# --- Ảnh phần hai của câu dài (quy tắc: clip Veo 8 giây, câu dài hơn thì vẽ thêm ảnh; mã 100 + số câu) ---
+EXTRA={
+101:("H",C,"a single shallow bronze oil dish on a low plain wooden table at dusk, its tiny flame bending low and small, through a lattice window behind it the glow of a burning fleet on the river fading to dark, completely empty, absolutely no people",""),
+116:("H",C,"a wide view from a hill over a vast riverside camp: countless small tents in endless rows and a packed crowd of small boats along the bank reaching the horizon, plain blank banners, tiny soldiers, cold winter light",SHIP),
+121:("H",C,"a sand-table model of a river on a plain wooden table seen from above: on the right a huge field of tiny red clay markers, on the left a small group of tiny blue clay markers, a calm hand placing one blue marker, soft window light, only the hand visible",""),
+124:("H",F,"the first fire boats crashing into the enemy fleet of boxy Han warships at night, bright flames leaping from ship to ship, strong wind bending the flames, black smoke, small figures on the decks, wide view",SHIP),
+127:("H",C,"in the foreground a plain empty reed mat with a neatly folded white scarf on it, behind it a wooden command tower where Zhou Yu in teal gives orders and officers listen with different faces, bright daylight, the mat in the foreground is clearly empty",TOP),
+143:("H",W,"a plain wooden table with a sand-table model of western mountains and rivers: a pointer rests on a path that winds through a narrow gorge, one small clay city marker is left behind at the river and a second marker waits far to the west, bright warm light, completely empty, absolutely no people",""),
+158:("H",W,"two figures on a bright street: a tall man in a white robe with a blue border stands on a high wooden step looking taller than a teal-robed general beside him, townsmen with different faces look up at the white-robed man with admiration",TOP),
+162:("H",C,"a plain wooden table in bright light with three small wooden blocks standing in a row, the first two upright and the third knocked over on its side, completely empty, absolutely no people",""),
+174:("H",C,"a sand-table model of western mountains and rivers on a plain wooden table, a path marked with small flags only up to the middle and the remaining flags still lying in a wooden tray beside it, soft dawn light through a lattice window, completely empty, absolutely no people",""),
+}
+for k,(era,ton,desc,fx) in EXTRA.items():
+    anh.append({"key":str(k),"cau":k-100,"nv":[],"text":beats.get(k-100,""),"prompt":desc+"."+ton+(HAN if era=="H" else SONG)+" "+fx+GEN})
+    canh.append({"key":str(k),"nv":[],"mo_ta":desc})
+
+assert [a["cau"] for a in anh][:76]==list(range(1,77)) and len(beats)==76
 json.dump({"ma":"CD","ghi_chu":"Video dài Chu Du có thật sự bị Gia Cát Lượng chọc tức đến chết","nhan_vat":NV,"canh":canh},open("ke-hoach/nhan-vat/CD.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
 json.dump(anh,open("ke-hoach/nhan-vat/CD_anh.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
 print(len(anh),max(len(a["prompt"]) for a in anh),sum(1 for a in anh if len(a["prompt"])>1900))

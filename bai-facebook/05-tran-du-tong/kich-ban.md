@@ -1,6 +1,6 @@
 # Bài 5: Trần Dụ Tông, vị vua lên ngôi lúc 6 tuổi và người nối ngôi là con của một người làm trò
 
-Trạng thái: bản nháp chờ chủ kênh duyệt (4/11/2026). Chưa tìm ảnh (chờ chủ kênh cho chạy workflow).
+Trạng thái: bản nháp chờ chủ kênh duyệt (4/11/2026). Đã chọn 5 ảnh (thư mục `anh/`).
 
 Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**, Bản kỷ quyển VII (mục Hiến Tông, Dụ Tông và phụ Dương Nhật Lễ, truyện Chu Văn An), kể cả chú thích (bản dịch Viện KHXH; file `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, các dòng 12752–12757, 12794–12810, 12817–12822, 12838–13530, 13586–13590, 13680–13713). Chưa đối chiếu sử Trung Quốc hay sách nghiên cứu hiện đại (không có tư liệu Trung Quốc nào kể trực tiếp về Dụ Tông).
 
@@ -140,12 +140,17 @@ Cần phân biệt:
 • Ngày tháng trong bài là âm lịch theo Toàn thư; năm là năm dương lịch trong ngoặc của bản dịch.
 • Bài chưa đối chiếu với sử Trung Quốc hay sách nghiên cứu hiện đại.
 
-Ảnh: ghi công từng ảnh ở đây sau khi chọn xong.
+Ảnh (tất cả từ Wikimedia Commons):
+1. Hồ Tây, Hà Nội ngày nay. Chris Lewis, CC BY 3.0. https://commons.wikimedia.org/wiki/File:H%E1%BB%93_T%C3%A2y,_H%C3%A0_N%E1%BB%99i.png
+2. Cổng chính đền Kiếp Bạc, Chí Linh, Hải Dương (vùng Chí Linh nơi Ngô Bệ chiếm giữ và Chu Văn An ở ẩn). Handyhuy, CC BY 3.0. https://commons.wikimedia.org/wiki/File:Den_kiep_bac.jpg
+3. Hát bội, diễn viên Tả Giang vai Lã Bố trong "Phụng Nghi Đình" (ảnh minh họa nghệ thuật tuồng). USIA, public domain. https://commons.wikimedia.org/wiki/File:H%C3%A1t_b%E1%BB%99i_L%C3%A3_B%E1%BB%91.JPG
+4. Hoàng thành Thăng Long, khu vực trung tâm (di tích nay, phần lớn thuộc các thời sau nhà Trần). katiebordner, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_(26246667851).jpg
+5. Tượng Chu Văn An trong Văn Miếu – Quốc Tử Giám. Phuongcacanh (Wikipedia tiếng Việt), public domain. https://commons.wikimedia.org/wiki/File:Chu_V%C4%83n_An_2.JPG
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #TranDuTong #NhaTran #DuongNhatLe #ChuVanAn #LichSu
 
-## Kế hoạch ảnh (chưa chạy workflow, chờ chủ kênh cho chạy)
+## Kế hoạch ảnh (đã chạy workflow nvp5 ngày 4/11/2026; chọn 5/23 ứng viên)
 Truy vấn đã soạn ở `ke-hoach/nhan-vat-phu/nvp5_anh_truy_van.txt`. Chỉ lấy ảnh public domain, CC0 hoặc CC BY trên Wikimedia Commons:
 1. Hồ Tây, Hà Nội (cảnh nay).
 2. Văn Miếu hoặc tượng/đền Chu Văn An.
@@ -153,7 +158,7 @@ Truy vấn đã soạn ở `ke-hoach/nhan-vat-phu/nvp5_anh_truy_van.txt`. Chỉ 
 4. Hát tuồng, nghệ thuật tuồng cổ.
 5. Hình tượng cá sấu cổ hoặc đồ gốm men thời Trần (nếu có).
 Không có ảnh chân dung Dụ Tông đáng tin; thiếu ảnh nào ghi rõ thiếu.
-Muốn chạy: đổi dòng 1 của `ke-hoach/nhan-vat-phu/anh_chay.txt` thành `nvp5` rồi đẩy lên nhánh (workflow `anh-bai-viet.yml`).
+Chú thích khi đăng: ảnh 3 là ảnh minh họa hát bội thế kỷ 20, không phải tuồng thời Trần; ảnh 4 là di tích Hoàng thành nay (chủ yếu thời Lê, Nguyễn), không phải vườn ngự thời Dụ Tông; ảnh 5 là tượng thờ. Không có ảnh Ngô Bệ, núi Yên Phụ, hồ cá sấu hay chân dung Dụ Tông.
 
 ## Mục "Ghi chú độ chắc"
 TT = Đại Việt sử ký toàn thư. Số dòng là dòng trong `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`.

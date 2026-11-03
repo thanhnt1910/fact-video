@@ -76,7 +76,7 @@ def chapter_audio(text, voice, work, extra=""):
     return mv.read_wav(wav)
 
 
-def _vieneu_g2(raw_wav, out_wav):
+def _vieneu_g2(raw_wav, out_wav, text=""):
     """Bộ chỉnh G2 cho giọng VieNeu: cắt nghỉ (ngắn ~0,28 s, cuối câu ~0,55 s), hạ nửa cung, nhanh 8%, EQ ấm + rõ."""
     import wave
     tmp = Path(str(out_wav) + ".a.wav"); tmp2 = Path(str(out_wav) + ".b.wav")
@@ -91,21 +91,26 @@ def _vieneu_g2(raw_wav, out_wav):
         while j < k and q[j] == q[i]:
             j += 1
         if q[i]:
-            keep = min(int((0.55 if (j - i) * 0.02 >= 0.55 else 0.28) / 0.02), j - i)
-            out.append(x[i * win:(i + keep) * win])
+            g = (j - i) * 0.02   # nhịp ngắt kiểu Gemini: hết câu/ý lớn nghỉ ~0,7 s, hết vế nghỉ ~0,4 s, nhịp thở rất ngắn giữ nguyên
+            tgt = 0.7 if g >= 0.4 else 0.4 if g >= 0.12 else g
+            out.append(np.concatenate([x[i * win:j * win], np.zeros(max(0, int((tgt - g) * 24000)), np.int16)])[:int(tgt * 24000)])
         else:
             out.append(x[i * win:j * win])
         i = j
     y = np.concatenate(out) if out else x
+    # tốc độ nói: không tăng tốc; nếu phần có tiếng nhanh hơn ~3,8 tiếng/giây thì làm chậm lại (tối đa 15%)
+    sp = float((~q).sum()) * 0.02
+    rate = len(text.split()) / sp if sp > 1 and text else 0.0
+    tempo = max(0.85, min(1.0, 3.8 / rate)) if rate else 1.0
     wo = wave.open(str(tmp2), "wb"); wo.setnchannels(1); wo.setsampwidth(2); wo.setframerate(24000)
     wo.writeframes(y.astype(np.int16).tobytes()); wo.close()
     eq = ("equalizer=f=150:t=q:w=1:g=3,equalizer=f=3000:t=q:w=1:g=1.5,"
           "acompressor=threshold=-20dB:ratio=2.5:attack=20:release=250")
     try:
-        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"rubberband=pitch=0.944:tempo=1.08:formant=preserved,{eq}",
+        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"rubberband=pitch=0.944:tempo={tempo:.3f}:formant=preserved,{eq}",
                        "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(out_wav)])
     except Exception:
-        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"asetrate=24000*0.944,aresample=24000,atempo=1.15,{eq}",
+        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"asetrate=24000*0.944,aresample=24000,atempo={tempo / 0.944:.3f},{eq}",
                        "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(out_wav)])
     tmp.unlink(missing_ok=True); tmp2.unlink(missing_ok=True)
 
@@ -113,7 +118,7 @@ def _vieneu_g2(raw_wav, out_wav):
 def vieneu_beats(texts, voice, work):
     """Đọc từng câu bằng VieNeu v3 Turbo (CPU), chỉnh G2, lưu tạm theo nội dung. Trả về danh sách mẫu âm."""
     TTS_CACHE.mkdir(parents=True, exist_ok=True)
-    keys = [hashlib.sha1(f"vieneu|{voice}|g2v2|{t}".encode()).hexdigest()[:16] for t in texts]
+    keys = [hashlib.sha1(f"vieneu|{voice}|g2v3|{t}".encode()).hexdigest()[:16] for t in texts]
     todo = [(k, t) for k, t in zip(keys, texts) if not (TTS_CACHE / f"{k}.wav").exists()]
     if todo:
         py = ROOT / ".venv-tts" / "bin" / "python"
@@ -124,7 +129,7 @@ def vieneu_beats(texts, voice, work):
         t0 = time.time()
         subprocess.run([str(py if py.exists() else sys.executable), str(ROOT / "vieneu_tts.py"), str(jf)], check=True)
         for k, t in todo:
-            _vieneu_g2(work / f"{k}_vn.wav", TTS_CACHE / f"{k}.wav")
+            _vieneu_g2(work / f"{k}_vn.wav", TTS_CACHE / f"{k}.wav", t)
         log(f"     🎙️  VieNeu đọc {len(todo)} câu ({time.time() - t0:.0f}s)")
     return [mv.read_wav(TTS_CACHE / f"{k}.wav") for k in keys]
 
@@ -633,8 +638,8 @@ def build(script, cfg, out_dir):
                 st0 = len(audio)
                 audio.extend(one)
                 segs.append((st0, len(audio)))
-                audio.extend(mv.silence(0.35))
-            a, b = 0, len(audio) - int(0.35 * SR)
+                audio.extend(mv.silence(0.6))
+            a, b = 0, len(audio) - int(0.6 * SR)
         elif lc.get("giong_sac_thai", True):
             loai = ch.get("loai_canh") or ("hook" if ci == 0 else "ket" if ci == len(chapters) - 1
                                            else "boi_canh" if ci == 1 else "leo_thang")

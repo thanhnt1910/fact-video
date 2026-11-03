@@ -54,7 +54,7 @@ Mỗi dòng: `số câu. [nhãn · sắc thái] lời kể`. Nhãn: [TT] chỉ c
 16. [CG · C] Tư Mã Ý dẫn hai mươi vạn quân kéo đến, nhưng dừng lại cách thành khoảng sáu mươi dặm.
 17. [CG · C] Gia Cát Lượng ra lệnh cho quân nằm yên, hạ cờ, ngừng trống, không ai được tự ý ra ngoài. Rồi ông cho mở bốn cổng thành, quét đất, vẩy nước.
 18. [CG · C] Tư Mã Ý nghi có mai phục, nên rút quân.
-19. [BÌNH · C] So với tiểu thuyết, ý chính vẫn còn: cổng mở, thành vắng, địch nghi ngờ rồi lui. Nhưng trong phần ta đọc được, không có tiếng đàn, và nơi xảy ra là Dương Bình.
+19. [BÌNH · C] So với tiểu thuyết, ý chính vẫn còn: cổng mở, thành vắng, địch nghi ngờ rồi lui. Nhưng ở đây không có tiếng đàn, và nơi xảy ra là Dương Bình.
 
 ## Chương 5. Bùi Tùng Chi không tin
 
@@ -71,7 +71,7 @@ Mỗi dòng: `số câu. [nhãn · sắc thái] lời kể`. Nhãn: [TT] chỉ c
 27. [GT · C] Ông không đóng cổng. Ông ra lệnh mở toang cổng trại, hạ cờ, ngừng trống, và quân Tào nghi có mai phục nên chần chừ.
 28. [GT · C] Đúng lúc ấy, Triệu Vân cho cung nỏ bắn mạnh vào đội hình. Quân Tào hoảng loạn, nhiều người rơi xuống sông Hán Thủy chết đuối.
 29. [GT · C] Chuyện này nằm trong Triệu Vân biệt truyện. Theo bài ta đọc, Lưu Bị khen rằng cả người Triệu Tử Long toàn là mật.
-30. [GT · C] Còn một lần sớm hơn, năm một trăm chín mươi lăm. Tào Tháo bị Lữ Bố đánh úp lúc quân đi gặt lúa, bèn cho phụ nữ canh tường thành và giấu phục binh.
+30. [GT · C] Còn một lần sớm hơn, năm một trăm chín mươi lăm. Tào Tháo bị Lữ Bố đánh úp lúc quân đi gặt lúa, bèn cho phụ nữ canh thành và giấu phục binh.
 31. [GT · C] Lữ Bố nghi ngờ rồi lui quân. Khi quay lại, ông rơi đúng vào ổ phục kích.
 32. [BÌNH · C] Nhìn từ hai ví dụ này, ta thấy một điểm chung: người dùng kế đều có quân thật chờ sẵn. Không ai chỉ dựa vào một cây đàn.
 

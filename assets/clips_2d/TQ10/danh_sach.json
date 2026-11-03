@@ -14,12 +14,12 @@
  "038": "đạt, dùng 8 giây",
  "045": "đạt, dùng 4 giây đầu (sau đó mặt người lớn đổi, zoom sát mặt)",
  "050": "đạt, dùng 8 giây",
- "051": "bỏ: giây 2 hai cậu bé va đầu như đánh nhau, cuối clip mất một cậu; dùng ảnh tĩnh hoặc làm lại",
+ "051": "đạt, dùng 0,8 giây đầu (từ giây 1 cậu bé bị nhân đôi bóng và hai cậu va vào nhau)",
  "052": "đạt, dùng 3 giây đầu (giây 4 đổi tư thế ngồi khoanh tay, cuối zoom sát mặt)",
- "055": "bỏ: giây 4 có vệt khói lạ, cuối clip có đốm hồng trên ngực",
+ "055": "đạt, dùng 2,5 giây đầu (từ giây 3 có vệt khói lạ, cuối clip đốm hồng trên ngực)",
  "062": "đạt, dùng 8 giây (ngựa phi nhanh hơn prompt, cần soi chân ngựa ở cỡ lớn)",
  "064": "đạt, dùng 5 giây đầu (cuối clip zoom sát mặt)",
  "065": "đạt, dùng 8 giây",
  "073": "đạt, dùng 3 giây đầu (sau đó dang tay, sương mọc)",
- "074": "bỏ: giây 2 hai đứa trẻ sát mặt như hôn nhau, về sau mọc thêm một đứa; dùng ảnh tĩnh hoặc làm lại"
+ "074": "bỏ: giây 1 hai đứa trẻ sát mặt như hôn nhau, về sau mọc thêm một đứa; chủ kênh chọn bỏ, dùng ảnh tĩnh"
 }

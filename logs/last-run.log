@@ -1,7 +1,33 @@
 
 ===== TQ9: kiểm tra kịch bản trước khi dựng =====
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ❌ [Kịch bản · ảnh lặp] ảnh dùng 3 lần (tối đa 2): anh_file
-   ⛔ Chưa dựng TQ9: sửa kịch bản rồi đẩy lại (hoặc chạy với ô 'Bỏ qua kiểm tra' = yes)
-Không dựng gì (kịch bản có lỗi, xem ở trên).
+
+===== TQ9 (video dài) =====
+▶️  Video dài TQ9: Tào Tháo thật sự ác đến mức nào, theo chính sử? | Tam Quốc theo chính sử
+  ⚖️  Bằng chứng bản quyền: 0 ảnh tư liệu + 0 tranh AI → logs/nguon_anh_TQ9.json
+  🖼️  Ảnh cho video dài
+  🔍 Kiểm tra 177 ảnh: 21 ảnh lỗi, 4 ảnh cần xem
+❌ Video dài TQ9: ảnh không đạt kiểm tra, chưa dựng (xem logs/anh_TQ9_dai_kiemtra.txt):
+  009.jpg: Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (có thể là học giả hoặc nhân vật được minh họa), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay bằng ảnh minh họa phong cảnh, sách cổ, cuộn thư tịch hoặc vẽ nhân vật quay lưng/trong bóng tối để phù hợp với nội dung đang nói về các bộ sử và chú giải của Bùi Tùng Chi.
+  018.jpg: Ảnh minh họa cho nhân vật 'chú của Kiển Thạc' (hoặc Kiển Thạc) nhưng lại vẽ một người lớn tuổi mặc y phục quan lại đi nghênh ngang cầm đuốc giống như nhân vật chính quyền lực hoặc tuần đêm, không đúng với ngữ cảnh câu chuyện là người nhà hoạn quan đi nghênh ngang ngoài đường bất chấp lệnh cấm. → Vẽ lại cảnh một người trung niên hoặc lớn tuổi mặc y phục giàu sang, tỏ vẻ nghênh ngang đi trên đường phố vắng vẻ ban đêm có cầm theo đuốc hoặc có người hầu đi kèm.
+  019.jpg: Ảnh vẽ cảnh một người đang ngồi trên ghế gỗ có khung phía sau và một người đứng cúi chào ban đêm dưới ánh đuốc, không minh họa đúng nội dung 'đánh người đến chết vì đi lại ban đêm' theo lời kể. → Thay thế bằng ảnh minh họa cảnh quan binh đang thực thi lệnh cấm đi lại ban đêm hoặc hình phạt đánh người trên phố.
+  027.jpg: Ảnh minh họa một vị tướng to lớn (có thể đại diện cho Đổng Trác) đang đứng uy hiếp hai đứa trẻ quỳ gối trước mặt, không phù hợp với phân đoạn lời kể về việc Đổng Trác tiến vào Lạc Dương, phế Thiếu Đế và đưa Hiến Đế lên ngôi. → Thay thế bằng hình ảnh minh họa cảnh Đổng Trác tiến vào kinh thành Lạc Dương hoặc phế lập vua để khớp với nội dung lời kể.
+  034.jpg: Ảnh AI tạo ra lỗi giải phẫu nghiêm trọng ở cái bóng trên tường: bóng người có tới hai cánh tay phải cầm kiếm và một tay buông thõng bất thường. → Dùng ảnh khác hoặc chỉnh sửa lại phần bóng trên tường cho đúng giải phẫu của một người bình thường.
+  065.jpg: Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (Tào Tháo cưỡi ngựa), vi phạm quy tắc không được vẽ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa, trong bóng tối hoặc tập trung vào bối cảnh chiến trận, dân chúng.
+  093.jpg: Ảnh hiển thị khuôn mặt nhìn rõ của nhân vật lịch sử có thật (Tào Tháo), vi phạm quy định về việc không được vẽ rõ mặt nhân vật lịch sử. → Thay đổi góc chụp hoặc bố cục sao cho nhân vật lịch sử quay lưng, ở xa hoặc trong bóng tối, không nhìn rõ khuôn mặt.
+  100.jpg: Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (được ngầm hiểu là Tào Tháo ở giữa), vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Vẽ nhân vật chính quay lưng, ở xa hoặc trong bóng tối thay vì hiển thị rõ khuôn mặt.
+  115.jpg: Ảnh minh họa cảnh một người ngồi chỉ tay và một người quỳ lạy, không thể hiện rõ ràng hành động từ chối thỉnh cầu của Tào Tháo đối với Tuân Úc theo lời kể. → Thay thế bằng hình ảnh Tào Tháo đang từ chối hoặc tỏ thái độ cương quyết trước lời thỉnh cầu của Tuân Úc.
+  123.jpg: Ảnh vẽ một nhân vật (có thể là Tào Tháo hoặc người kể chuyện) đang ngồi nói chuyện với một nhóm người dưới gốc cây vào ban đêm, không liên quan đến nội dung lời kể về việc Tào Tháo hối hận vì đã giết Hoa Đà hay việc phân biệt với tiểu thuyết Tam Quốc diễn nghĩa. → Thay thế bằng ảnh minh họa phù hợp với nội dung Tào Tháo hối hận vì giết Hoa Đà hoặc chủ đề so sánh chính sử và tiểu thuyết.
+  130.jpg: Nhân vật trong ảnh là một người già đang viết thư, không phù hợp với phân cảnh Mã Siêu viết thư dâng Lưu Bị khi còn trẻ hoặc trung niên, đồng thời tạo hình nhân vật lịch sử có tuổi rõ mặt. → Vẽ nhân vật Mã Siêu ở độ tuổi tráng niên đang viết thư dâng chủ.
+  133.jpg: Ảnh AI vẽ cận cảnh khuôn mặt của nhân vật lịch sử Tào Tháo và hiển thị rõ ràng, vi phạm quy định không được vẽ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật Tào Tháo quay lưng, ở xa, trong bóng tối hoặc minh họa quang cảnh triều đình không thấy rõ mặt.
+  135.jpg: Lời kể đang nói về Phục hoàng hậu (nhân vật nữ, người đứng đầu hậu cung) viết thư cho cha, nhưng ảnh lại minh họa một người đàn ông đang ngồi viết. → Thay thế bằng ảnh minh họa Phục hoàng hậu đang viết thư để phù hợp với nhân vật nữ được nhắc đến trong lời kể.
+  136.jpg: Lời kể nhắc đến Phục hoàng hậu viết thư cho cha mình là Phục Hoàn, nhưng ảnh minh họa lại vẽ hai người đàn ông trung niên đang trao đổi cuộn thư. → Thay đổi ảnh minh họa thành cảnh Phục hoàng hậu đang viết thư hoặc một nữ nhân đang viết thư trong cung cấm.
+  138.jpg: Lời kể đề cập đến việc phát giác chuyện cũ và Tào Tháo lấy cớ loại bỏ hoàng hậu, nhưng ảnh minh họa lại vẽ hai nam nhân đang trao nhau cuộn thư trong một căn phòng kín, không liên quan đến nhân vật hoàng hậu được nhắc tới trong lời kể. → Thay thế bằng ảnh minh họa liên quan đến việc phát giác bức thư hoặc hình ảnh Tào Tháo đối phó với hoàng hậu nhà Hán.
+  139.jpg: Ảnh hiển thị khuôn mặt rõ của Tào Tháo, người đứng ở trung tâm và dẫn quân vào cung, vi phạm quy tắc không vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Vẽ nhân vật chính quay lưng, ở xa hoặc trong bóng tối thay vì lộ rõ khuôn mặt.
+  143.jpg: Lời kể đang đề cập đến việc hoàng hậu (hoặc một người phụ nữ) khóc lóc cầu cứu vua Hiến Đế, và câu trả lời bất lực của Hiến Đế, nhưng hình ảnh chỉ vẽ một nam nhân đứng một mình với vẻ mặt u buồn, không thể hiện được sự việc hay cuộc đối thoại theo lời kể. → Cần vẽ cảnh vua Hiến Đế đang đối thoại hoặc đối mặt với người phụ nữ (hoặc hoàng hậu) đang khóc lóc cầu cứu để sát với nội dung lời kể.
+  147.jpg: Lời kể nhắc đến nhân vật Tào Tiết (con gái Tào Tháo, người thay thế Phục hoàng hậu), nhưng ảnh minh họa lại vẽ một nhân vật nam mặc trang phục cổ trang. → Thay thế bằng ảnh minh họa phù hợp thể hiện nhân vật nữ là Tào Tiết.
+  158.jpg: Lỗi giải phẫu nghiêm trọng khi nhân vật đứng trên bục đang trao đồ vật có phần chân đứng lơ lửng, không khớp tỷ lệ, và bố cục người đứng trên bục cao bất thường so với người đối diện. → Tạo lại hình ảnh hai nhân vật đứng hoặc quỳ ở cùng một mặt phẳng, chỉnh lại tỷ lệ giải phẫu chân tay.
+  175.jpg: Ảnh hiển thị hai nhân vật nam mặc trang phục cổ trang đứng trong một căn nhà, không phù hợp với ngữ cảnh đang kể về sự việc quân Viên Thiệu bị chôn sống sau trận Quan Độ và các cáo buộc, thương vong liên quan đến Tào Tháo. → Thay bằng ảnh minh họa phù hợp với bối cảnh chiến trường sau trận chiến hoặc tranh luận về cáo buộc tội ác.
+  182.jpg: Ảnh vẽ rõ khuôn mặt Tào Tháo đang đứng cạnh đống lửa, vi phạm quy tắc không được hiển thị rõ khuôn mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ Tào Tháo quay lưng, ở xa, trong bóng tối, hoặc minh họa phong cảnh/đồ vật.
+
+Xong video ngắn: - · video dài: -
+Video dài chưa xong (sẽ thử lại lần chạy sau): TQ9

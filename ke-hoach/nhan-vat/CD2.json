@@ -79,8 +79,11 @@
   },
   {
    "key": "008",
-   "nv": [],
-   "mo_ta": "a tall wooden shelf with three levels in a bright archive room: the top level holds plain neat tied bundles, the middle level holds bundles with many small extra bundles attached, the bottom level holds bundles wrapped in bright coloured cloth, a scholar reaching for the middle level"
+   "nv": [
+    "kc",
+    "dan"
+   ],
+   "mo_ta": "a three-storey Han tower seen from outside in bright daylight: the ground floor is a sturdy stone archive with a keeper standing beside neatly tied bundles, the middle floor is an open wooden hall where three scholars crowd over a table adding small bundles to larger ones, the top floor is an open painted stage with colourful cloth streamers where a storyteller spreads his arms before a cheering crowd"
   },
   {
    "key": "009",

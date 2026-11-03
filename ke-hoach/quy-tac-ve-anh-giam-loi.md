@@ -45,3 +45,10 @@ Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ả
 - Chỉ dùng nhãn [SỬ] khi đã đọc nguyên văn nguồn gốc và nêu được tên sách, quyển, hoặc đường dẫn. Không tìm được nguyên văn thì hạ nhãn xuống [CG]/[GT], hoặc bỏ chi tiết khỏi lời kể và ghi vào "Chi tiết đã bỏ"; không để nhãn [SỬ*] hay danh sách "phải kiểm" tồn tại trong bản gửi.
 - Bản gửi chủ kênh phải nêu rõ: bao nhiêu câu đã kiểm nguyên văn, bao nhiêu đã hạ nhãn hoặc bỏ, và câu nào còn tranh cãi. Không đẩy việc kiểm cho chủ kênh hay để sang bước đọc giọng.
 - Không gán nhãn "đã kiểm" cho điều chỉ nhớ từ trí nhớ hoặc từ một bài tổng hợp. Đối chiếu ít nhất hai nguồn độc lập cho số liệu và lời trích quan trọng.
+
+## Màu sáng và trang phục đẹp (chủ kênh yêu cầu 03/11/2026, áp dụng mọi ảnh từ nay)
+- Ảnh phải **sáng, màu tươi, sạch**: ánh sáng ban ngày trong, màu bão hòa vừa phải. KHÔNG xám xịt, tối, đục (không dùng "muted", "grey-blue calm", "dim"). Cảnh đêm vẫn rực: lửa cam sáng trên nền xanh đêm trong.
+- **Trang phục đẹp, giàu chi tiết:** áo lụa có viền thêu hoa văn, chỉ vàng, đai ngọc, mũ có trâm ngọc, giáp da bóng có đinh đồng. Mỗi nhân vật một màu áo riêng, rõ ràng (Chu Du xanh lục thẫm, Tôn Sách đỏ thắm, Tôn Quyền tím, Gia Cát Lượng trắng viền xanh trời, Tào Tháo đen viền đỏ). Dân thường mặc áo nhiều màu (xanh, vàng đất, xanh lá, nâu đỏ), không toàn xám.
+- Không để nhân vật quyền quý trông như nông dân: vua chúa, tướng lĩnh, quan văn mặc lụa; cung điện có cột son, trần vẽ, rèm lụa; ngai thật bằng vàng, đặt trong điện.
+- Vẫn giữ mọi quy tắc cấm: không chữ, không viền, không kính, không ghế tựa, không vật hiện đại.
+- Mã nguồn mẫu: `/tmp/lb/tao_CD2.py` (biến `HAN`, `SONG`, `W`, `C`, `F`, `NV`); các bộ sau dùng theo.

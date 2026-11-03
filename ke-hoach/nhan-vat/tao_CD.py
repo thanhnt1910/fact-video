@@ -183,6 +183,18 @@ REDO[64]=("a low riverbank at dusk shown as four clear things in a row from left
 REDO[71]=("a quiet room seen from the foot of a low plank bed: exactly one man, Zhou Yu, lies on his back with his head on a single pillow and a blanket drawn up to his chest, eyes closed, serene pale face, the rest of the room empty with one bronze oil dish on a low table, soft morning light through a lattice window",TOP+"The bed holds exactly one body with one head and two arms resting on the blanket; nobody else is in the room.")
 REDO[75]=("exactly ONE townsman standing at a fork of a dirt road at dusk with one hand on his chin looking thoughtful, the left road leads to a wide river where a fleet of boxy Han warships burns in bright orange glow, the right road leads to an open square with a small wooden puppet stage and a plain lit screen, no second figure",TOP+"The townsman has a topknot under a small cap, one hand on his chin and the other hanging by his side. "+SHIP)
 
+
+# --- Sửa lỗi 03/11 lần 4: soi 24 khung Veo, vẽ lại ảnh có tay thừa, người đứng dưới nước, tóc xõa, vật lơ lửng ---
+REDO[5]=("Zhou Yu staggering backward clutching his chest with a pained face while exactly two officers rush in, one officer holding him under his left arm and the other under his right arm, a calm riverside camp at dusk behind them",TOP+"Zhou Yu's hair is gathered in a neat topknot under a cap with nothing hanging down; each of the three men has exactly two arms.")
+REDO[11]=(None,TOP+"The courtyard gate is made of plain wooden planks without handles or metal fittings, the house behind has a low straight-ridged grey tiled roof without curved corners, Han mud-brick walls.")
+REDO[16]=("Cao Cao standing on a tall earthen platform on dry land with one arm raised proclaiming to an enormous army of tiny soldiers standing in dense ranks on the dry riverbank, the river far in the background, plain blank banners, wind in his sleeves",TOP+"All soldiers stand on dry ground. The platform holds only Cao Cao and one guard.")
+REDO[23]=("a row of small fast boats tied at a quay at dusk, sailors piling dry brushwood and straw onto them and pouring oil from clay jars, calm blue dusk sky, the boats unlit and the quay quiet",TOP+"Each sailor has exactly two arms and two hands.")
+REDO[24]=(None,TOP+"Zhou Yu's cap is tied firmly with no ribbon or hair flying; the boats' sailors are small.")
+REDO[25]=("the whole enemy fleet of boxy Han warships burning on a calm river at night, towering flames and black smoke filling the sky, the water mirroring the orange fire, the river empty apart from the burning boats, two officers stand on the dry bank at the far left watching",TOP+SHIP)
+REDO[33]=("exactly ONE general on a horse: Cao Ren on the far river bank turning his horse away and raising one open hand, a plain blank cloth banner hanging from a tall pole planted firmly in the ground beside him, a few soldiers marching away behind, no second figure in front",TOP)
+REDO[45]=("Zhou Yu at the gate of Jiangling city giving orders with one raised hand while two soldiers load a wooden cart beside the gate and a line of soldiers lines up behind them, bright morning light",TOP)
+REDO[58]=(None,TOP+"Every soldier has hair in a topknot under a cap, nothing hanging down the neck.")
+
 S=[(n,nv,ton,era,(REDO[n][0] or desc) if n in REDO else desc) for n,nv,ton,era,desc in S]
 for n,(dd,fx) in REDO.items(): FIX[n]=fx
 beats={}

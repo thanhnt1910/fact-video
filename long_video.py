@@ -77,7 +77,7 @@ def chapter_audio(text, voice, work, extra=""):
 
 
 def _vieneu_g2(raw_wav, out_wav):
-    """Bộ chỉnh G2 cho giọng VieNeu: cắt nghỉ (ngắn ~0,18 s, cuối câu ~0,45 s), hạ nửa cung, nhanh 18%, EQ ấm + rõ."""
+    """Bộ chỉnh G2 cho giọng VieNeu: cắt nghỉ (ngắn ~0,28 s, cuối câu ~0,55 s), hạ nửa cung, nhanh 8%, EQ ấm + rõ."""
     import wave
     tmp = Path(str(out_wav) + ".a.wav"); tmp2 = Path(str(out_wav) + ".b.wav")
     mv.run_ffmpeg(["-i", str(raw_wav), "-ac", "1", "-ar", "24000", "-sample_fmt", "s16", str(tmp)])
@@ -91,7 +91,7 @@ def _vieneu_g2(raw_wav, out_wav):
         while j < k and q[j] == q[i]:
             j += 1
         if q[i]:
-            keep = min(int((0.45 if (j - i) * 0.02 >= 0.55 else 0.18) / 0.02), j - i)
+            keep = min(int((0.55 if (j - i) * 0.02 >= 0.55 else 0.28) / 0.02), j - i)
             out.append(x[i * win:(i + keep) * win])
         else:
             out.append(x[i * win:j * win])
@@ -102,10 +102,10 @@ def _vieneu_g2(raw_wav, out_wav):
     eq = ("equalizer=f=150:t=q:w=1:g=3,equalizer=f=3000:t=q:w=1:g=1.5,"
           "acompressor=threshold=-20dB:ratio=2.5:attack=20:release=250")
     try:
-        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"rubberband=pitch=0.944:tempo=1.18:formant=preserved,{eq}",
+        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"rubberband=pitch=0.944:tempo=1.08:formant=preserved,{eq}",
                        "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(out_wav)])
     except Exception:
-        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"asetrate=24000*0.944,aresample=24000,atempo=1.25,{eq}",
+        mv.run_ffmpeg(["-i", str(tmp2), "-af", f"asetrate=24000*0.944,aresample=24000,atempo=1.15,{eq}",
                        "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(out_wav)])
     tmp.unlink(missing_ok=True); tmp2.unlink(missing_ok=True)
 
@@ -113,7 +113,7 @@ def _vieneu_g2(raw_wav, out_wav):
 def vieneu_beats(texts, voice, work):
     """Đọc từng câu bằng VieNeu v3 Turbo (CPU), chỉnh G2, lưu tạm theo nội dung. Trả về danh sách mẫu âm."""
     TTS_CACHE.mkdir(parents=True, exist_ok=True)
-    keys = [hashlib.sha1(f"vieneu|{voice}|g2v1|{t}".encode()).hexdigest()[:16] for t in texts]
+    keys = [hashlib.sha1(f"vieneu|{voice}|g2v2|{t}".encode()).hexdigest()[:16] for t in texts]
     todo = [(k, t) for k, t in zip(keys, texts) if not (TTS_CACHE / f"{k}.wav").exists()]
     if todo:
         py = ROOT / ".venv-tts" / "bin" / "python"

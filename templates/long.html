@@ -51,7 +51,7 @@ let D = null, SH = [];
 const XF = 1.0;   // thời gian tan ảnh (giây)
 window.setup = function (d) {
   D = d;
-  document.getElementById('brand').textContent = d.channel || '';
+  document.getElementById('brand').textContent = '';  // logo kênh đã gắn riêng (logo.py), không vẽ thêm chữ tên kênh
   const box = document.getElementById('imgs');
   SH = d.shots.map((s, i) => {
     let blur = null;

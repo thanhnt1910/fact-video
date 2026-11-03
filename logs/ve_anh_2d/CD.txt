@@ -1,24 +1,11 @@
-⚠️ 006 Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 ne
+⚠️ 012 Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 ne
      🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-⚠️ 006 Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 ne
+⚠️ 012 Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 ne
      🔁 Cloudflare tài khoản 2 hết lượt, chuyển sang tài khoản 3
-🎨 006 1214 ký tự
-🎨 007 925 ký tự
-🎨 008 827 ký tự
-🎨 012 1202 ký tự
-🎨 021 1308 ký tự
-🎨 022 1149 ký tự
-🎨 039 1140 ký tự
-🎨 054 914 ký tự
-🎨 055 1343 ký tự
-🎨 056 1152 ký tự
-🎨 060 1227 ký tự
-🎨 062 1569 ký tự
-🎨 064 1074 ký tự
-🎨 066 1272 ký tự
-🎨 068 942 ký tự
-🎨 070 1007 ký tự
-🎨 073 1280 ký tự
-🎨 075 1062 ký tự
-ĐẠT ['006', '007', '008', '012', '021', '022', '039', '054', '055', '056', '060', '062', '064', '066', '068', '070', '073', '075']
+🎨 012 1228 ký tự
+🎨 054 1037 ký tự
+🎨 055 1371 ký tự
+🎨 068 1066 ký tự
+🎨 073 1312 ký tự
+ĐẠT ['012', '054', '055', '068', '073']
 LỖI []

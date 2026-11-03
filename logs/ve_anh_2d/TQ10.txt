@@ -2,4 +2,4 @@ Traceback (most recent call last):
   File "/home/runner/work/fact-video/fact-video/ve_anh_cf.py", line 23, in <module>
     A._klein(d["prompt"][:2000], tmp, True, int(k) + 1000 * int(sys.argv[2] if len(sys.argv) > 2 else 0) + 1000)
                                             ^^^^^^
-ValueError: invalid literal for int() with base 10: '028b'
+ValueError: invalid literal for int() with base 10: '028c'

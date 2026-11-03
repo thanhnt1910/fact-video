@@ -233,3 +233,6 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Mỗi video vẫn trọn gói một chủ đề, không nối sang video khác (chủ kênh 24/10/2026): không có "tập sau", chỉ kết bằng kết cục của chính câu chuyện.
 - Video sử Việt vẫn tuân thủ mục "Series lịch sử Việt Nam": hài chỉ nhắm vào tình huống và quân xâm lược, không đùa anh hùng dân tộc.
 - Mẫu: `ke-hoach/dinh-bo-linh-kich-ban.md` (mở đầu bằng cảnh Đinh Liễn bị treo trên sào, chương lập triều đình rút gọn).
+
+## Quy tắc giảm lỗi ảnh và thời gian vẽ (chủ kênh yêu cầu 03/11/2026, áp dụng mọi video từ nay)
+- Đọc `ke-hoach/quy-tac-ve-anh-giam-loi.md` trước khi viết prompt vẽ ảnh. Tóm tắt: tả điều cần có, không dựa vào câu cấm; bỏ vật dễ sinh chữ/đồ hiện đại theo bảng trong file; vẽ thử 10 cảnh trước rồi mới vẽ cả tập; vẽ dư 10% cảnh hay hỏng; lọc viền và chữ tự động trước khi soi mắt; script vẽ không được báo "ĐẠT" khi chưa vẽ ảnh nào (xóa ảnh cũ trước khi vẽ lại, kiểm số ảnh thật sự mới).

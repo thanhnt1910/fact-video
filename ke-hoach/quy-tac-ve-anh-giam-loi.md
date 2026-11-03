@@ -51,4 +51,4 @@ Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ả
 - **Trang phục đẹp, giàu chi tiết:** áo lụa có viền thêu hoa văn, chỉ vàng, đai ngọc, mũ có trâm ngọc, giáp da bóng có đinh đồng. Mỗi nhân vật một màu áo riêng, rõ ràng (Chu Du xanh lục thẫm, Tôn Sách đỏ thắm, Tôn Quyền tím, Gia Cát Lượng trắng viền xanh trời, Tào Tháo đen viền đỏ). Dân thường mặc áo nhiều màu (xanh, vàng đất, xanh lá, nâu đỏ), không toàn xám.
 - Không để nhân vật quyền quý trông như nông dân: vua chúa, tướng lĩnh, quan văn mặc lụa; cung điện có cột son, trần vẽ, rèm lụa; ngai thật bằng vàng, đặt trong điện.
 - Vẫn giữ mọi quy tắc cấm: không chữ, không viền, không kính, không ghế tựa, không vật hiện đại.
-- Mã nguồn mẫu: `/tmp/lb/tao_CD2.py` (biến `HAN`, `SONG`, `W`, `C`, `F`, `NV`); các bộ sau dùng theo.
+- Mã nguồn mẫu: `ke-hoach/nhan-vat/tao_CD.py` (biến `HAN`, `SONG`, `W`, `C`, `F`, `NV`); các bộ sau dùng theo.

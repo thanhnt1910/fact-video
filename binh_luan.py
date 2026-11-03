@@ -69,7 +69,7 @@ def _link_ok(url):
         ok, why = False, "link rút gọn"
     else:
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (fact-video link check)"})
+            req = urllib.request.Request(urllib.parse.quote(url, safe=":/?=&%#~+@!$,;"), headers={"User-Agent": "Mozilla/5.0 (fact-video link check)"})
             with urllib.request.urlopen(req, timeout=20) as r:
                 ok = r.status < 400
                 why = "" if ok else f"HTTP {r.status}"

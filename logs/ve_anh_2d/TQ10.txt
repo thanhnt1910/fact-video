@@ -1,6 +1,5 @@
-⚠️ 052 Cloudflare AI hết lượt miễn phí hôm nay (429/limit): {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 ne
-     🔁 Cloudflare tài khoản 1 hết lượt, chuyển sang tài khoản 2
-🎨 052 738 ký tự
-🎨 056 580 ký tự
-ĐẠT ['052', '056']
-LỖI []
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/ve_anh_cf.py", line 23, in <module>
+    A._klein(d["prompt"][:2000], tmp, True, int(k) + 1000 * int(sys.argv[2] if len(sys.argv) > 2 else 0) + 1000)
+                                            ^^^^^^
+ValueError: invalid literal for int() with base 10: '028b'

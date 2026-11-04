@@ -52,7 +52,7 @@
     "zy",
     "zgl"
    ],
-   "mo_ta": "two men playing a board game of go at a low table in a tent: Zhuge Liang in white has already placed his stone on the round wooden board with a calm smile, while Zhou Yu in dark teal frowns with a stone in his fingers, rows of black and white stones on the board"
+   "mo_ta": "two men sit across a low table in a tent playing a board game with flat black and white stones: on the left Zhuge Liang, tall and lean with a thin moustache, in a plain off-white hemp robe and a cloth scarf cap, calmly placing a stone; on the right Zhou Yu, older and broader with a short dark beard, in a dark teal robe and a black cap, frowning with a stone in his fingers"
   },
   {
    "key": "005",
@@ -68,7 +68,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a Han storyteller's low wooden table in a market square with four clearly visible small wooden dolls standing in a row, each doll as large as a teacup and painted in a different bright colour: a tall white doll, a green doll with a sour face, a dark teal doll lying on its back, and a red doll with raised arms; a child sits in front of the table looking at them with wide eyes while the storyteller's open hand points along the row"
+   "mo_ta": "a Han storyteller's low wooden table in a market square with four small carved wooden figures standing in a row, each as tall as a teacup, with stiff straight arms and legs, painted adult faces and plain robes in four muted colours: one in off-white, one in olive-green, one in dark teal lying on its back, one in maroon with raised arms; a few townspeople of different ages watch"
   },
   {
    "key": "007",
@@ -229,7 +229,7 @@
    "nv": [
     "kc"
    ],
-   "mo_ta": "a Han street storyteller's low table: on it two small wooden dolls the height of a forearm, a small doll in a dark teal robe and a taller doll in a white robe, the storyteller's single hand lifts a small golden hat from the dark teal doll and sets it on the white doll, a crowd of townspeople seen from behind watching"
+   "mo_ta": "a Han street storyteller's low table: on it two small carved wooden puppets of grown men with stiff straight limbs, a small puppet in a dark teal robe and a taller puppet in an off-white robe; the storyteller, a thin grey-bearded man in a brown robe, lifts a small golden hat from the teal puppet and sets it on the white one; townspeople of different ages watch from behind"
   },
   {
    "key": "029",
@@ -293,7 +293,7 @@
     "lb",
     "dan"
    ],
-   "mo_ta": "Liu Bei seated uneasily in a lavish palace hall, two court dancers with long sleeves dancing before him and open chests brimming with jade and gold beside him, he looks uncomfortable, three different faces"
+   "mo_ta": "Liu Bei seated uneasily on a mat in a grand palace hall, two court dancers in long sleeves dancing before him, and open wooden chests of jade and gold beside him, he looks uncomfortable; a plain flat red cloth screen hangs behind"
   },
   {
    "key": "037",
@@ -382,7 +382,7 @@
    "nv": [
     "zy"
    ],
-   "mo_ta": "Zhou Yu lying pale in a sickbed in a simple room, an old physician in a plain robe kneeling beside him and gently shaking his head, a steaming herbal bowl on a low table, two different faces"
+   "mo_ta": "Zhou Yu lying pale on a low plank platform covered with a plain woven mat in a simple room, an old physician with a grey beard kneeling beside him and gently shaking his head, a steaming herbal bowl on a low plain table"
   },
   {
    "key": "048",
@@ -405,7 +405,7 @@
     "zy",
     "sb"
    ],
-   "mo_ta": "Zhou Yu handing a sealed letter to a kneeling messenger in a dim bedroom, pale face but firm eyes, messenger young and serious, two clearly different faces"
+   "mo_ta": "Zhou Yu seated on a low mat in a dim room handing a rolled bamboo-slip bundle tied with cord to a kneeling young messenger, pale face but firm eyes, two clearly different faces"
   },
   {
    "key": "051",
@@ -485,7 +485,7 @@
     "kc",
     "dan"
    ],
-   "mo_ta": "a Han street storyteller standing on a low wooden platform holding one small white-robed wooden doll high in his raised right hand and a small hand drum in his left, a smaller dark teal-robed doll lying bowed on the table before him, the audience seen from behind watching"
+   "mo_ta": "a Han street storyteller in a brown robe standing on a low wooden platform, raising one small off-white carved wooden puppet in his right hand to chest height and holding a small hand drum in his left, a small dark teal puppet lying on the platform before him, townspeople seen from behind watching"
   },
   {
    "key": "061",
@@ -546,7 +546,7 @@
     "ps",
     "dan"
    ],
-   "mo_ta": "an old annotator kneeling at a low table pointing at a small flag on a river map, an assistant beside him holding a tied bundle, a small windsock of plain cloth on a pole in the courtyard showing a strong wind from the east"
+   "mo_ta": "an old annotator with a thin grey beard kneeling at a low table, pointing at a plain brown cloth map drawn with only a few brush-drawn river lines, an assistant beside him holding a tied bundle of bamboo slips, a plain cloth windsock on a pole in the courtyard blowing from the east"
   },
   {
    "key": "069",
@@ -593,14 +593,14 @@
    "nv": [
     "dan"
    ],
-   "mo_ta": "exactly ONE townsman standing at a fork of a dirt road at dusk with one hand on his chin looking thoughtful, the left road leads to a wide river where a fleet of boxy Han warships burns in bright orange glow, the right road leads to an open square with a small wooden puppet stage and a plain lit screen, no second figure"
+   "mo_ta": "exactly ONE townsman standing at a fork of a dirt road at dusk with one hand on his chin looking thoughtful, the left road leads to a wide river where a fleet of one-masted boxy Han river boats burns with orange flames, the right road leads to an open square with a small wooden puppet stage and a plain lit screen, no second figure"
   },
   {
    "key": "076",
    "nv": [
     "dan"
    ],
-   "mo_ta": "a street wall hung with three large painted cloth portraits of different men in Han robes, a woman and a boy standing before them looking up thoughtfully, bright afternoon light"
+   "mo_ta": "a street wall hung with three large painted cloth portraits of three clearly different men in Han robes: a young clean-shaven man, a middle-aged man with a beard and a white-haired old man with a long white beard; a woman and a boy stand before them looking up thoughtfully, bright afternoon light"
   },
   {
    "key": "101",

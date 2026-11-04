@@ -303,6 +303,26 @@ FIX[44]=FIX.get(44,TOP)+DIFF+" One rides a brown horse and one a black horse."
 FIX[52]=FIX.get(52,TOP)+" The mourners in white are of many different ages, faces and heights, in loose uneven rows."
 FIX[64]=FIX.get(64,TOP)+" One single scene filling the whole frame, no split, no second panel, no dividing line."
 for _n in (20,26,27,33,36): FIX[_n]=FIX.get(_n,TOP)+NOTXT
+
+# --- sửa vòng 3 (04/11): lỗi sau khi soi cỡ lớn ---
+ONE="Every ship is a low flat-bottomed Han river boat with a boxy cabin and exactly ONE single mast carrying ONE square mat sail; there are no second or third masts and no European rigging."
+PLAINFLAG=" Every flag and banner is a plain flat single-colour cloth from edge to edge, with nothing painted, written or embroidered on it."
+ov(4,"two men sit across a low table in a tent playing a board game with flat black and white stones: on the left Zhuge Liang, tall and lean with a thin moustache, in a plain off-white hemp robe and a cloth scarf cap, calmly placing a stone; on the right Zhou Yu, older and broader with a short dark beard, in a dark teal robe and a black cap, frowning with a stone in his fingers","The two players differ clearly in age, build, beard, hat and robe colour; the board is a square wooden grid with round flat stones. ")
+ov(6,"a Han storyteller's low wooden table in a market square with four small carved wooden figures standing in a row, each as tall as a teacup, with stiff straight arms and legs, painted adult faces and plain robes in four muted colours: one in off-white, one in olive-green, one in dark teal lying on its back, one in maroon with raised arms; a few townspeople of different ages watch","The figures are dignified carved wooden puppets of grown men, not cartoon creatures. ")
+ov(28,"a Han street storyteller's low table: on it two small carved wooden puppets of grown men with stiff straight limbs, a small puppet in a dark teal robe and a taller puppet in an off-white robe; the storyteller, a thin grey-bearded man in a brown robe, lifts a small golden hat from the teal puppet and sets it on the white one; townspeople of different ages watch from behind","Exactly one storyteller; the onlookers are different from each other. ")
+ov(36,"Liu Bei seated uneasily on a mat in a grand palace hall, two court dancers in long sleeves dancing before him, and open wooden chests of jade and gold beside him, he looks uncomfortable; a plain flat red cloth screen hangs behind","Everyone in the hall is a grown man or woman with a different face; every cloth and screen is one flat plain colour. ")
+ov(47,"Zhou Yu lying pale on a low plank platform covered with a plain woven mat in a simple room, an old physician with a grey beard kneeling beside him and gently shaking his head, a steaming herbal bowl on a low plain table","The platform is a low rough wooden plank bed with a rolled cloth under the head; no headboard, no pillow, no sheets. ")
+ov(50,"Zhou Yu seated on a low mat in a dim room handing a rolled bamboo-slip bundle tied with cord to a kneeling young messenger, pale face but firm eyes, two clearly different faces","The bundle is tied bamboo slips; no paper, no writing anywhere. ")
+ov(60,"a Han street storyteller in a brown robe standing on a low wooden platform, raising one small off-white carved wooden puppet in his right hand to chest height and holding a small hand drum in his left, a small dark teal puppet lying on the platform before him, townspeople seen from behind watching","Only the puppets are small; the storyteller is the only adult figure on the platform and nothing stands on his head. ")
+ov(68,"an old annotator with a thin grey beard kneeling at a low table, pointing at a plain brown cloth map drawn with only a few brush-drawn river lines, an assistant beside him holding a tied bundle of bamboo slips, a plain cloth windsock on a pole in the courtyard blowing from the east","The map is a plain tan cloth with a few wavy river lines and no marks, no flags, no writing. ")
+ov(75,"exactly ONE townsman standing at a fork of a dirt road at dusk with one hand on his chin looking thoughtful, the left road leads to a wide river where a fleet of one-masted boxy Han river boats burns with orange flames, the right road leads to an open square with a small wooden puppet stage and a plain lit screen, no second figure","One single wide picture, one continuous landscape, with no dividing line and no second panel. ")
+ov(76,"a street wall hung with three large painted cloth portraits of three clearly different men in Han robes: a young clean-shaven man, a middle-aged man with a beard and a white-haired old man with a long white beard; a woman and a boy stand before them looking up thoughtfully, bright afternoon light","Each portrait has a different face, age and robe colour. ")
+FIX[15]=FIX.get(15,TOP)+PLAINFLAG+" Boats are not shown."
+FIX[16]=FIX.get(16,TOP)+PLAINFLAG
+FIX[58]=FIX.get(58,TOP)+" "+ONE
+FIX[64]=FIX.get(64,TOP)+" "+ONE
+FIX[66]=FIX.get(66,TOP)+" "+ONE
+FIX[124]=FIX.get(124,TOP)+" "+ONE
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

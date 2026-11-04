@@ -17,6 +17,14 @@ def all_keys():
         v = v.strip()
         if v and v not in out:
             out.append(v)
+    # khóa ưu tiên (tên secret, mỗi dòng một tên) đưa lên đầu: dùng khi nhiều khóa cũ đã hết hạn mức ngày, khỏi tốn lần 429 vào khóa hết lượt
+    try:
+        pf = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ke-hoach/thu-giong-hai/khoa_uu_tien.txt")
+        first = [os.environ.get(x.strip(), "").strip() for x in open(pf, encoding="utf-8").read().split() if x.strip()]
+        first = [k for k in first if k in out]
+        out = first + [k for k in out if k not in first]
+    except OSError:
+        pass
     return out
 
 

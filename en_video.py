@@ -149,14 +149,17 @@ def clusters(bs):
     return out
 
 
-def cluster_audio(texts, voice, work):
+def cluster_audio(texts, voice, work, extra=""):
+    # extra: hướng dẫn phát âm riêng của từng kịch bản (trường "style" trong json).
+    # Để trống thì khóa bộ nhớ đệm giữ nguyên như cũ, nên giọng RN1 đã đọc không phải đọc lại.
+    style = STYLE + extra
     text = "\n\n".join(texts)
-    key = hashlib.sha1(f"{voice}|{STYLE}|{text}".encode()).hexdigest()[:16]
+    key = hashlib.sha1(f"{voice}|{style}|{text}".encode()).hexdigest()[:16]
     TTS_CACHE.mkdir(parents=True, exist_ok=True)
     wav = TTS_CACHE / f"en_{key}.wav"
     if not wav.exists():
         t = time.time()
-        raw = gemini_tts.synth(text, STYLE, voice, log=log)
+        raw = gemini_tts.synth(text, style, voice, log=log)
         tmp = work / f"{key}_raw.wav"
         tmp.write_bytes(raw)
         mv.run_ffmpeg(["-i", str(tmp), "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(wav)])
@@ -172,7 +175,7 @@ def giong(d):
     log(f"Giọng {voice}: {len(cs)} cụm")
     for i, c in enumerate(cs):
         try:
-            cluster_audio([b["text"] for b in c], voice, work)
+            cluster_audio([b["text"] for b in c], voice, work, d.get("style", ""))
         except Exception as e:
             log(f"⛔ DỪNG ở cụm {i + 1}/{len(cs)}: {str(e)[:300]}")
             log("   Mọi khóa Gemini đều hết lượt (hoặc lỗi giọng). Các cụm đã đọc được giữ trong bộ nhớ đệm; chạy lại sau khi hạn mức hồi.")
@@ -191,7 +194,7 @@ def timeline(d):
     items = []
     for c in clusters(beats_of(d)):
         texts = [b["text"] for b in c]
-        audio = cluster_audio(texts, voice, work)
+        audio = cluster_audio(texts, voice, work, d.get("style", ""))
         segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])
         for (s0, s1), beat in zip(segs, c):
             seg = audio[s0:s1]

@@ -1,0 +1,374 @@
+{
+ "id": "AN1",
+ "slots": [
+  {
+   "slot": "S05",
+   "beats": "5",
+   "mo_ta": "Örnen balloon ready at Danes Island 1897",
+   "queries": [
+    "Andrée balloon Örnen Danskøya 1897",
+    "Andrée balloon house Virgohamna"
+   ]
+  },
+  {
+   "slot": "S08",
+   "beats": "8",
+   "mo_ta": "Andrée, Strindberg, Frænkel group photo",
+   "queries": [
+    "Andrée Strindberg Frænkel 1897 photograph",
+    "Andrée expedition members 1897"
+   ]
+  },
+  {
+   "slot": "S09",
+   "beats": "9",
+   "mo_ta": "S. A. Andrée portrait",
+   "queries": [
+    "Salomon August Andrée portrait",
+    "S. A. Andrée 1897"
+   ]
+  },
+  {
+   "slot": "S10",
+   "beats": "10",
+   "mo_ta": "Swedish Spitsbergen expedition 1882-83 station",
+   "queries": [
+    "Kapp Thordsen 1882 Swedish station",
+    "Swedish polar year expedition 1882 Spitsbergen"
+   ]
+  },
+  {
+   "slot": "S11",
+   "beats": "11",
+   "mo_ta": "Andrée's balloon Svea",
+   "queries": [
+    "Andrée balloon Svea",
+    "Svea balloon 1893"
+   ]
+  },
+  {
+   "slot": "S13",
+   "beats": "13",
+   "mo_ta": "Old map of the Arctic, 1890s",
+   "queries": [
+    "map North Polar regions 1890s",
+    "Arctic map 1897"
+   ]
+  },
+  {
+   "slot": "S14",
+   "beats": "14,15",
+   "mo_ta": "Örnen basket and guide ropes",
+   "queries": [
+    "Andrée balloon basket guide ropes",
+    "Örnen gondola 1897"
+   ]
+  },
+  {
+   "slot": "S15",
+   "beats": "16",
+   "mo_ta": "Alfred Nobel portrait",
+   "queries": [
+    "Alfred Nobel portrait",
+    "Alfred Nobel photograph"
+   ]
+  },
+  {
+   "slot": "S16",
+   "beats": "17",
+   "mo_ta": "Örnen balloon inflated inside the shed",
+   "queries": [
+    "Andrée balloon shed Danes Island",
+    "Örnen balloon house 1896"
+   ]
+  },
+  {
+   "slot": "S17",
+   "beats": "18,19,24",
+   "mo_ta": "Andrée's station at Danskøya (Library of Congress)",
+   "queries": [
+    "Andree's Station at Danskoen Spitzbergen",
+    "Andrée station Danes Island"
+   ]
+  },
+  {
+   "slot": "S18",
+   "beats": "20",
+   "mo_ta": "The ship Fram",
+   "queries": [
+    "Fram ship Nansen 1896",
+    "Fram polar ship photograph"
+   ]
+  },
+  {
+   "slot": "S19",
+   "beats": "21,22",
+   "mo_ta": "Nils Ekholm portrait",
+   "queries": [
+    "Nils Ekholm meteorologist",
+    "Nils Ekholm portrait"
+   ]
+  },
+  {
+   "slot": "S20",
+   "beats": "23",
+   "mo_ta": "Knut Frænkel portrait",
+   "queries": [
+    "Knut Frænkel portrait",
+    "Knut Fraenkel 1897"
+   ]
+  },
+  {
+   "slot": "S21",
+   "beats": "25",
+   "mo_ta": "Nils Strindberg portrait",
+   "queries": [
+    "Nils Strindberg portrait",
+    "Nils Strindberg 1897"
+   ]
+  },
+  {
+   "slot": "S22",
+   "beats": "26",
+   "mo_ta": "Anna Charlier portrait",
+   "queries": [
+    "Anna Charlier portrait",
+    "Anna Charlier Strindberg"
+   ]
+  },
+  {
+   "slot": "S23",
+   "beats": "27",
+   "mo_ta": "Örnen lifting off, 11 July 1897",
+   "queries": [
+    "Andrée balloon launch 1897",
+    "Örnen ascent Danskøya 11 July 1897"
+   ]
+  },
+  {
+   "slot": "S24",
+   "beats": "28,29",
+   "mo_ta": "Örnen low over the water after launch",
+   "queries": [
+    "Örnen after takeoff 1897",
+    "Andrée balloon over water 1897"
+   ]
+  },
+  {
+   "slot": "S25",
+   "beats": "30,31",
+   "mo_ta": "Örnen drifting away",
+   "queries": [
+    "Andrée balloon drifting north 1897",
+    "Örnen in the air 1897"
+   ]
+  },
+  {
+   "slot": "S30",
+   "beats": "39,88",
+   "mo_ta": "Örnen on the ice after landing (Strindberg photo)",
+   "queries": [
+    "Örnen efter landningen",
+    "Andrée balloon after landing 1897 Strindberg"
+   ]
+  },
+  {
+   "slot": "S31",
+   "beats": "40,41",
+   "mo_ta": "Sledges and gear near the wreck",
+   "queries": [
+    "Andrée expedition sledges 1897 photograph",
+    "Andrée expedition camp after landing"
+   ]
+  },
+  {
+   "slot": "S32",
+   "beats": "42",
+   "mo_ta": "Map Franz Josef Land and Svalbard, 1890s",
+   "queries": [
+    "Franz Josef Land map 1897",
+    "Spitsbergen Franz Josef Land map 19th century"
+   ]
+  },
+  {
+   "slot": "S33",
+   "beats": "43",
+   "mo_ta": "Hauling a sledge over the ice (Strindberg photo)",
+   "queries": [
+    "Andrée expedition hauling sledge",
+    "Andrée expedition sledge ice 1897"
+   ]
+  },
+  {
+   "slot": "S34",
+   "beats": "44",
+   "mo_ta": "Boat at open water (Strindberg photo)",
+   "queries": [
+    "Andrée expedition boat open water 1897",
+    "Andrée expedition canvas boat"
+   ]
+  },
+  {
+   "slot": "S37",
+   "beats": "47",
+   "mo_ta": "Map of Sjuøyane (Seven Islands)",
+   "queries": [
+    "Sjuøyane map",
+    "Seven Islands Svalbard map"
+   ]
+  },
+  {
+   "slot": "S38",
+   "beats": "48",
+   "mo_ta": "Polar bear on sea ice",
+   "queries": [
+    "polar bear sea ice Svalbard",
+    "polar bear pack ice"
+   ]
+  },
+  {
+   "slot": "S39",
+   "beats": "49",
+   "mo_ta": "Frænkel and Strindberg with the first polar bear",
+   "queries": [
+    "Andrée expedition polar bear 1897 Frænkel Strindberg",
+    "Andrée expedition first polar bear"
+   ]
+  },
+  {
+   "slot": "S42",
+   "beats": "52",
+   "mo_ta": "Camp on the ice (Strindberg photo)",
+   "queries": [
+    "Andrée expedition tent ice 1897",
+    "Andrée expedition camp ice floe"
+   ]
+  },
+  {
+   "slot": "S45",
+   "beats": "55,56",
+   "mo_ta": "Kvitøya (White Island)",
+   "queries": [
+    "Kvitøya",
+    "Kvitøya glacier Svalbard"
+   ]
+  },
+  {
+   "slot": "S48",
+   "beats": "60,61",
+   "mo_ta": "The Bratvaag, 1930",
+   "queries": [
+    "Bratvaag 1930 Kvitøya",
+    "Bratvaag expedition Gunnar Horn"
+   ]
+  },
+  {
+   "slot": "S50",
+   "beats": "64",
+   "mo_ta": "Andrée's boat as found in 1930",
+   "queries": [
+    "Andrée boat found Kvitøya 1930",
+    "Andrée expedition finds 1930"
+   ]
+  },
+  {
+   "slot": "S51",
+   "beats": "65,66",
+   "mo_ta": "Isbjørn / journalists at Kvitøya 1930",
+   "queries": [
+    "Isbjørn 1930 Kvitøya",
+    "Stubbendorff Kvitøya 1930"
+   ]
+  },
+  {
+   "slot": "S52",
+   "beats": "67",
+   "mo_ta": "Stockholm ceremony, 5 October 1930",
+   "queries": [
+    "Andrée funeral Stockholm 1930",
+    "Andrée procession Stockholm 1930"
+   ]
+  },
+  {
+   "slot": "S53",
+   "beats": "68",
+   "mo_ta": "Andrée grave, Norra begravningsplatsen",
+   "queries": [
+    "Andrée grave Norra begravningsplatsen",
+    "Andréegraven Stockholm"
+   ]
+  },
+  {
+   "slot": "S55",
+   "beats": "71",
+   "mo_ta": "Restored Strindberg photograph",
+   "queries": [
+    "Nils Strindberg photograph 1897 ice",
+    "Andrée expedition photograph 1897"
+   ]
+  },
+  {
+   "slot": "S56",
+   "beats": "72",
+   "mo_ta": "Men pulling sledges over ice ridge",
+   "queries": [
+    "Andrée expedition pulling sledges ice ridge",
+    "Andrée expedition 1897 ice journey photograph"
+   ]
+  },
+  {
+   "slot": "S57",
+   "beats": "73",
+   "mo_ta": "Expedition photograph on the ice",
+   "queries": [
+    "Andrée expedition 1897 photographs Strindberg",
+    "Andrée expedition tent"
+   ]
+  },
+  {
+   "slot": "S59",
+   "beats": "76,77",
+   "mo_ta": "Polar bear",
+   "queries": [
+    "polar bear Svalbard",
+    "polar bear Arctic"
+   ]
+  },
+  {
+   "slot": "S60",
+   "beats": "78,79",
+   "mo_ta": "The expedition's Primus stove",
+   "queries": [
+    "Andrée expedition primus stove",
+    "Andrée expedition stove Grenna"
+   ]
+  },
+  {
+   "slot": "S64",
+   "beats": "84",
+   "mo_ta": "Örnen rising (alternate launch view)",
+   "queries": [
+    "Örnen ascent 1897",
+    "Andrée balloon ascending"
+   ]
+  },
+  {
+   "slot": "S65",
+   "beats": "85",
+   "mo_ta": "Map of the expedition route",
+   "queries": [
+    "Andrée expedition route map",
+    "Andrée expedition map 1897"
+   ]
+  },
+  {
+   "slot": "S66",
+   "beats": "86",
+   "mo_ta": "Andrée monument / memorial",
+   "queries": [
+    "Andrée monument Kvitøya",
+    "Andrée memorial"
+   ]
+  }
+ ]
+}

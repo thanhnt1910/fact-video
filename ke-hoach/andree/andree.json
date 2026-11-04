@@ -1,0 +1,597 @@
+{
+ "id": "AN1",
+ "title": "They Flew Toward the North Pole. Their Photos Were Found 33 Years Later",
+ "voice": "Orus",
+ "style": " Pronounce the names this way: Andrée as 'an-DRAY', Frænkel as 'FRENK-el', Strindberg as 'STRIND-berg', Örnen as 'UR-nen', Kvitøya as 'KVEET-uh-ya', Gränna as 'GREN-na', Bratvaag as 'BRAHT-vawg', Isbjørn as 'EES-byurn', Uusma as 'OOS-ma'.",
+ "chapters": [
+  {
+   "title": "",
+   "beats": [
+    {
+     "text": "August, nineteen thirty. A Norwegian ship called the Bratvaag is working among the islands of Svalbard, far out in the Arctic Ocean between Norway and the North Pole.",
+     "slot": "S01",
+     "tag": "CG",
+     "src": "WB,W"
+    },
+    {
+     "text": "That summer there is unusually little ice. So some of the crew go ashore on a remote island to hunt walrus. The island is called Kvitøya, White Island.",
+     "slot": "S02",
+     "tag": "CG",
+     "src": "WB,W"
+    },
+    {
+     "text": "Near a small stream, two of the men notice something that does not belong there. It is a boat, half buried in ice and snow.",
+     "slot": "S03",
+     "tag": "CG",
+     "src": "W,WB"
+    },
+    {
+     "text": "Among the gear is a boathook. Engraved on it are a few words: Andrée's Polar Expedition, eighteen ninety-six.",
+     "slot": "S04",
+     "tag": "CG",
+     "src": "W,WB"
+    },
+    {
+     "text": "That name was famous. In eighteen ninety-seven, three Swedish men had set off to fly over the North Pole in a hydrogen balloon.",
+     "slot": "S05",
+     "tag": "CG",
+     "src": "W,S,G"
+    },
+    {
+     "text": "Apart from a few short messages sent in the first days, nothing more was heard from them. For thirty-three years, no one knew where they had gone.",
+     "slot": "S06",
+     "tag": "CG",
+     "src": "W,S"
+    },
+    {
+     "text": "Over the following weeks, searchers recover the men's last camp, their diaries, and rolls of film that no one had ever developed.",
+     "slot": "S07",
+     "tag": "CG",
+     "src": "W,S,WS"
+    },
+    {
+     "text": "What happened to the three men out on the ice? And why did they die on this island? This is the story of the Andrée balloon expedition: what we know, what we only guess, and what is still a mystery.",
+     "slot": "S08",
+     "tag": "—",
+     "src": "—"
+    }
+   ]
+  },
+  {
+   "title": "The Engineer and His Dream",
+   "beats": [
+    {
+     "text": "The leader was Salomon August Andrée, an engineer born in eighteen fifty-four in Gränna, a small town in Sweden. He worked at the Swedish patent office.",
+     "slot": "S09",
+     "tag": "CG",
+     "src": "WA,W"
+    },
+    {
+     "text": "Andrée had been to the Arctic before. In eighteen eighty-two and eighty-three, he took part in a Swedish scientific expedition on Spitsbergen, where he measured electricity in the air.",
+     "slot": "S10",
+     "tag": "CG",
+     "src": "WA,W"
+    },
+    {
+     "text": "He was also a keen balloonist. And he became convinced that a balloon could do what ships had failed to do.",
+     "slot": "S11",
+     "tag": "CG",
+     "src": "W,WA"
+    },
+    {
+     "text": "In those years, explorers raced to reach the North Pole. Again and again, their ships were stopped by the pack ice. Andrée's idea was bold: fly over the ice instead.",
+     "slot": "S12",
+     "tag": "CG",
+     "src": "S,W"
+    },
+    {
+     "text": "His plan was to launch a hydrogen balloon from Svalbard, ride the summer winds north across the Pole, and come down in Russia or Canada.",
+     "slot": "S13",
+     "tag": "CG",
+     "src": "W,G"
+    },
+    {
+     "text": "To steer, long ropes would hang from the basket and drag along the ice. Andrée claimed this would let the balloon travel at an angle to the wind.",
+     "slot": "S14",
+     "tag": "CG",
+     "src": "S,W"
+    },
+    {
+     "text": "According to later studies, other balloon experts doubted this method, and modern researchers agree it could not work as well as he claimed.",
+     "slot": "S14",
+     "tag": "TC",
+     "src": "W"
+    },
+    {
+     "text": "Still, the plan caught Sweden's imagination. King Oscar the Second gave money, and so did Alfred Nobel, the inventor of dynamite.",
+     "slot": "S15",
+     "tag": "CG",
+     "src": "W,U"
+    },
+    {
+     "text": "The balloon was made in Paris from layers of varnished silk, about sixty-seven feet across. It was named Örnen, which means the Eagle.",
+     "slot": "S16",
+     "tag": "CG",
+     "src": "W,L"
+    }
+   ]
+  },
+  {
+   "title": "The First Try",
+   "beats": [
+    {
+     "text": "In the summer of eighteen ninety-six, Andrée's team sailed to Danes Island, in the northwest of Svalbard. There they built a tall wooden shed to shelter the balloon from the wind.",
+     "slot": "S17",
+     "tag": "CG",
+     "src": "W,L"
+    },
+    {
+     "text": "Then they waited for a wind from the south. Day after day, it blew from the north.",
+     "slot": "S17",
+     "tag": "CG",
+     "src": "W,S,WA"
+    },
+    {
+     "text": "In mid-August, a ship came into view. It was the Fram, returning from Fridtjof Nansen's famous expedition across the Arctic Ocean.",
+     "slot": "S18",
+     "tag": "SỬ",
+     "src": "L"
+    },
+    {
+     "text": "Soon after, the wind turned against them again, and the season was over. Andrée let the gas out of the balloon and sailed home.",
+     "slot": "S19",
+     "tag": "CG",
+     "src": "L,W"
+    },
+    {
+     "text": "The delay cost him more than time. His meteorologist, Nils Ekholm, had measured how fast the balloon was losing gas.",
+     "slot": "S19",
+     "tag": "CG",
+     "src": "L,W"
+    },
+    {
+     "text": "According to historians, Ekholm refused to fly again unless a better balloon was made. His place went to a twenty-seven-year-old engineer and athlete, Knut Frænkel.",
+     "slot": "S20",
+     "tag": "TC",
+     "src": "W,U"
+    },
+    {
+     "text": "In the summer of eighteen ninety-seven, the team returned to Danes Island to try again.",
+     "slot": "S17",
+     "tag": "CG",
+     "src": "W,S"
+    }
+   ]
+  },
+  {
+   "title": "Launch Day",
+   "beats": [
+    {
+     "text": "This time there were three men: Andrée, now forty-two; Frænkel; and Nils Strindberg, a twenty-four-year-old physicist and a skilled photographer.",
+     "slot": "S21",
+     "tag": "CG",
+     "src": "WA,WS,W"
+    },
+    {
+     "text": "Strindberg was engaged to be married. His fiancée, Anna Charlier, was waiting for him in Sweden.",
+     "slot": "S22",
+     "tag": "CG",
+     "src": "W,WS,WC"
+    },
+    {
+     "text": "On Sunday, July eleventh, eighteen ninety-seven, a steady wind finally blew from the southwest. In the early afternoon, the balloon rose from the shed.",
+     "slot": "S23",
+     "tag": "SỬ",
+     "src": "L,W,P"
+    },
+    {
+     "text": "Almost at once, it dipped low over the water. The long steering ropes twisted and came loose.",
+     "slot": "S24",
+     "tag": "CG",
+     "src": "W,P"
+    },
+    {
+     "text": "Within minutes, the expedition lost the lower parts of all three ropes. The men also threw out sand to stay in the air.",
+     "slot": "S24",
+     "tag": "CG",
+     "src": "P,W,S"
+    },
+    {
+     "text": "Without the ropes, there was no way to steer. And with less weight, the balloon rose higher, where it lost hydrogen faster.",
+     "slot": "S25",
+     "tag": "CG",
+     "src": "W,D,WA"
+    },
+    {
+     "text": "From the shore, the Eagle was seen drifting north until it was out of sight.",
+     "slot": "S25",
+     "tag": "CG",
+     "src": "D,W"
+    },
+    {
+     "text": "According to his own notes, Strindberg threw out a small tin with farewell words to Anna as they passed a little island called Vogelsang. It is not known to have been found.",
+     "slot": "S26",
+     "tag": "TC",
+     "src": "P"
+    }
+   ]
+  },
+  {
+   "title": "Down on the Ice",
+   "beats": [
+    {
+     "text": "In the hours that followed, the men sent out messages. Some were sealed in floating buoys, and others were tied to carrier pigeons.",
+     "slot": "S27",
+     "tag": "CG",
+     "src": "W,M"
+    },
+    {
+     "text": "One pigeon landed on a Norwegian sealing ship and was shot. Its note said the balloon had passed eighty-two degrees north, and it mentioned no trouble at all.",
+     "slot": "S27",
+     "tag": "CG",
+     "src": "M,W"
+    },
+    {
+     "text": "In fact, the flight was going badly. Fog and rain soaked the balloon, and ice formed on it. It grew heavier and sank lower.",
+     "slot": "S28",
+     "tag": "CG",
+     "src": "S,WA,D"
+    },
+    {
+     "text": "For many hours, the basket bumped along the ice again and again, and the men threw out more and more of their load.",
+     "slot": "S28",
+     "tag": "CG",
+     "src": "W,D"
+    },
+    {
+     "text": "On July fourteenth, about sixty-five hours after takeoff, Andrée gave up. The three men climbed out onto the pack ice.",
+     "slot": "S29",
+     "tag": "CG",
+     "src": "W,G,S,WA"
+    },
+    {
+     "text": "They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole.",
+     "slot": "S29",
+     "tag": "CG",
+     "src": "P,M30"
+    },
+    {
+     "text": "Strindberg set up his camera and photographed the balloon lying on the ice. That picture survives. You are looking at it now.",
+     "slot": "S30",
+     "tag": "CG",
+     "src": "D,MM"
+    },
+    {
+     "text": "For a week they stayed near the wreck, sorting their gear and loading three sledges and a small boat.",
+     "slot": "S31",
+     "tag": "CG",
+     "src": "W,WA"
+    },
+    {
+     "text": "They had food for about three months, and guns to hunt with.",
+     "slot": "S31",
+     "tag": "CG",
+     "src": "WA,W"
+    }
+   ]
+  },
+  {
+   "title": "The Long Walk",
+   "beats": [
+    {
+     "text": "Where should they go? There were two emergency stores of food. One lay to the southeast, at Cape Flora on Franz Josef Land. The other lay to the southwest, on Spitsbergen.",
+     "slot": "S32",
+     "tag": "CG",
+     "src": "W,M30"
+    },
+    {
+     "text": "They chose Cape Flora. On July twenty-second, they set off, hauling heavy sledges across the ice.",
+     "slot": "S33",
+     "tag": "CG",
+     "src": "W,D,M30"
+    },
+    {
+     "text": "The ice was no flat road. They dragged the sledges over ridges of broken ice and used the boat to cross open water.",
+     "slot": "S34",
+     "tag": "CG",
+     "src": "W,M30,S"
+    },
+    {
+     "text": "Strindberg kept a diary written as messages to Anna. In it, he told her what it really meant to walk on the polar ice.",
+     "slot": "S35",
+     "tag": "CG",
+     "src": "WS,D"
+    },
+    {
+     "text": "After about two weeks of brutal work, they checked their position and found a cruel surprise. The ice beneath them was drifting west, carrying them backward.",
+     "slot": "S36",
+     "tag": "CG",
+     "src": "D,W"
+    },
+    {
+     "text": "On August fourth, they turned around and headed southwest instead, toward the Seven Islands north of Spitsbergen.",
+     "slot": "S37",
+     "tag": "CG",
+     "src": "W,D,M30"
+    },
+    {
+     "text": "To save their stores, they hunted polar bears and seals for fresh meat.",
+     "slot": "S38",
+     "tag": "CG",
+     "src": "WA,M30,U"
+    },
+    {
+     "text": "One photograph shows Frænkel and Strindberg standing beside the first polar bear they killed.",
+     "slot": "S39",
+     "tag": "CG",
+     "src": "D"
+    },
+    {
+     "text": "But once again the drift worked against them. Wind and moving ice pushed them away from the islands.",
+     "slot": "S40",
+     "tag": "CG",
+     "src": "W,M30"
+    },
+    {
+     "text": "They were exhausted and often ill. The diaries mention stomach pains and other complaints.",
+     "slot": "S41",
+     "tag": "CG",
+     "src": "U,M30"
+    }
+   ]
+  },
+  {
+   "title": "White Island",
+   "beats": [
+    {
+     "text": "On September twelfth, they stopped walking. They made camp on a large ice floe, planning to drift through the winter.",
+     "slot": "S42",
+     "tag": "CG",
+     "src": "W,D,M30"
+    },
+    {
+     "text": "They built a hut of snow and ice on the floe. Slowly, the floe drifted south, toward a lonely island.",
+     "slot": "S43",
+     "tag": "CG",
+     "src": "W,M30"
+    },
+    {
+     "text": "On October second, the floe cracked apart right under their hut.",
+     "slot": "S44",
+     "tag": "CG",
+     "src": "W,D"
+    },
+    {
+     "text": "The nearest land was Kvitøya, White Island. Over several days, they moved their supplies across to it.",
+     "slot": "S45",
+     "tag": "CG",
+     "src": "W,D"
+    },
+    {
+     "text": "In early October, they set foot on land for the first time since the balloon rose from Danes Island.",
+     "slot": "S45",
+     "tag": "CG",
+     "src": "W,D,S"
+    },
+    {
+     "text": "Then the record goes quiet. Andrée's last dated diary entry is from October eighth. No later entry has been found.",
+     "slot": "S46",
+     "tag": "CG",
+     "src": "W,D"
+    },
+    {
+     "text": "According to published transcriptions, Strindberg's last notes are only a word or two long.",
+     "slot": "S46",
+     "tag": "TC",
+     "src": "W"
+    },
+    {
+     "text": "What happened next, no one saw. Everything we know comes from what was found on the island thirty-three years later.",
+     "slot": "S47",
+     "tag": "—",
+     "src": "—"
+    }
+   ]
+  },
+  {
+   "title": "Found After Thirty-Three Years",
+   "beats": [
+    {
+     "text": "In August nineteen thirty, the Bratvaag's crew and scientists, led by Dr. Gunnar Horn, searched the camp.",
+     "slot": "S48",
+     "tag": "CG",
+     "src": "WB,S"
+    },
+    {
+     "text": "They found the remains of Andrée at the camp. A monogram on his jacket told them who he was.",
+     "slot": "S48",
+     "tag": "CG",
+     "src": "W,WB"
+    },
+    {
+     "text": "A short distance away, in a gap between rocks covered with stones, lay a second body. Initials on the clothing showed it was Nils Strindberg.",
+     "slot": "S49",
+     "tag": "CG",
+     "src": "WB,WA,U"
+    },
+    {
+     "text": "That detail matters. Strindberg had been buried. So he died first, and at least one of his companions was still alive to bury him.",
+     "slot": "S49",
+     "tag": "CG",
+     "src": "WA,U"
+    },
+    {
+     "text": "The searchers also took away the boat, clothing, tools, a Swedish flag, and Andrée's diary.",
+     "slot": "S50",
+     "tag": "CG",
+     "src": "WB,W"
+    },
+    {
+     "text": "The news caused a sensation across Europe. A group of journalists chartered a small ship, the Isbjørn, and sailed for the island.",
+     "slot": "S51",
+     "tag": "CG",
+     "src": "W,WA,WB"
+    },
+    {
+     "text": "About a month after the first find, they found the third body, Knut Frænkel's. They also found a tin box holding Strindberg's films, a logbook and maps.",
+     "slot": "S51",
+     "tag": "CG",
+     "src": "W,WA"
+    },
+    {
+     "text": "The three men were brought home. On October fifth, nineteen thirty, Sweden held a solemn national ceremony in Stockholm, and King Gustaf the Fifth gave a speech.",
+     "slot": "S52",
+     "tag": "CG",
+     "src": "W,S,WA,WB"
+    },
+    {
+     "text": "Their bodies were cremated, and their ashes were buried together in a cemetery in Stockholm.",
+     "slot": "S53",
+     "tag": "CG",
+     "src": "WA,WS"
+    }
+   ]
+  },
+  {
+   "title": "Pictures From the Ice",
+   "beats": [
+    {
+     "text": "And the film? It had lain in the ice and water for thirty-three years.",
+     "slot": "S54",
+     "tag": "CG",
+     "src": "W,S"
+    },
+    {
+     "text": "In Stockholm, John Hertzberg, a scientist at the Royal Institute of Technology, worked on the rolls one by one.",
+     "slot": "S54",
+     "tag": "CG",
+     "src": "W,WS"
+    },
+    {
+     "text": "There were about two hundred and forty exposed frames. He saved ninety-three of them.",
+     "slot": "S55",
+     "tag": "CG",
+     "src": "W,WS,AO"
+    },
+    {
+     "text": "They show the Eagle lying on the ice, the men hauling their sledges, the boat at the edge of open water, and the polar bears they hunted.",
+     "slot": "S56",
+     "tag": "CG",
+     "src": "D,S"
+    },
+    {
+     "text": "The pictures were taken in eighteen ninety-seven. No one saw them until nineteen thirty.",
+     "slot": "S57",
+     "tag": "CG",
+     "src": "S,W"
+    }
+   ]
+  },
+  {
+   "title": "What Killed Them?",
+   "beats": [
+    {
+     "text": "So why did three fit men die so soon after reaching land, when they still had food, fuel and shelter?",
+     "slot": "S58",
+     "tag": "CG",
+     "src": "W,U,M30"
+    },
+    {
+     "text": "The bodies were cremated in nineteen thirty, so modern scientists cannot examine them. Instead, researchers have argued over the clues for decades.",
+     "slot": "S58",
+     "tag": "CG",
+     "src": "WA,WS,W"
+    },
+    {
+     "text": "The first theory is trichinosis, a disease caught from undercooked meat that carries parasites. In nineteen fifty-two, Ernst Tryde argued that the polar bear meat had made the men sick.",
+     "slot": "S59",
+     "tag": "CG",
+     "src": "W,U,WA"
+    },
+    {
+     "text": "According to that study, parasite larvae were found in bear remains from the camp. But critics note that the diaries describe no high fever, and that this disease rarely kills quickly.",
+     "slot": "S59",
+     "tag": "TC",
+     "src": "W,U"
+    },
+    {
+     "text": "The second theory is carbon monoxide from their stove inside a closed tent. But the stove still held fuel, and Strindberg had already been buried, so they did not all die at the same moment.",
+     "slot": "S60",
+     "tag": "CG",
+     "src": "W,U"
+    },
+    {
+     "text": "Other researchers have suggested botulism, lead from food cans, or poisoning from eating bear liver. Each idea has its supporters, and each has problems.",
+     "slot": "S60",
+     "tag": "CG",
+     "src": "W,U"
+    },
+    {
+     "text": "The simplest explanation is the cold. Several researchers believe the men died of cold, exhaustion and dehydration as the dark Arctic winter closed in.",
+     "slot": "S61",
+     "tag": "CG",
+     "src": "W,U"
+    },
+    {
+     "text": "And there is a newer, darker idea. Swedish doctor and author Bea Uusma has studied the expedition for years. She argues that a polar bear attacked the camp, killing Strindberg and injuring Frænkel.",
+     "slot": "S62",
+     "tag": "CG",
+     "src": "W,S,G"
+    },
+    {
+     "text": "In her view, Andrée may have been left alone at the end, and may have taken his own life with morphine. Nearly empty morphine bottles were found near his remains.",
+     "slot": "S63",
+     "tag": "TC",
+     "src": "W,D"
+    },
+    {
+     "text": "Other experts disagree with her. More than a century later, there is still no proven cause of death.",
+     "slot": "S63",
+     "tag": "CG",
+     "src": "G,S"
+    }
+   ]
+  },
+  {
+   "title": "What We Really Know",
+   "beats": [
+    {
+     "text": "So let us separate fact from guess. It is certain that the Eagle rose from Danes Island on July eleventh, eighteen ninety-seven, and came down on the ice three days later.",
+     "slot": "S64",
+     "tag": "CG",
+     "src": "W,S,G,L"
+    },
+    {
+     "text": "It is certain that the three men walked and drifted for nearly three months, and that they reached White Island in early October.",
+     "slot": "S65",
+     "tag": "CG",
+     "src": "P,S,W"
+    },
+    {
+     "text": "It is certain that Strindberg was buried by his companions, and that Andrée's diary stops in early October.",
+     "slot": "S66",
+     "tag": "CG",
+     "src": "WA,U,W,D"
+    },
+    {
+     "text": "How the other two died, and why it happened so soon after reaching land, is still a theory.",
+     "slot": "S67",
+     "tag": "GT",
+     "src": "—"
+    },
+    {
+     "text": "Three men set out to fly over the top of the world. Their camera brought back the last pictures of their journey, thirty-three years too late.",
+     "slot": "S30",
+     "tag": "CG",
+     "src": "W,S"
+    },
+    {
+     "text": "What do you think killed them? Tell us in the comments, and come back tomorrow for another true mystery from history.",
+     "slot": "S69",
+     "tag": "—",
+     "src": "—"
+    }
+   ]
+  }
+ ]
+}

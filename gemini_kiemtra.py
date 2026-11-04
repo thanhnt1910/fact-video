@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 API = "https://generativelanguage.googleapis.com/v1beta"
 out = [f"Kiểm tra lúc {datetime.now(timezone.utc):%Y-%m-%d %H:%M:%S} UTC"]
 
-names = ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 13)]
+names = ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 16)]
 keys = []  # (nhãn, khóa)
 for n in names:
     v = os.environ.get(n, "").strip()

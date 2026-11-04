@@ -16,11 +16,27 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
+        with:
+          # chỉ lấy mã nhận dạng, cấu hình và thư mục giọng của video (thêm ở bước sau); bỏ ảnh/clip hàng GB
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            ke-hoach/thu-giong-hai
+            phim_ban_do
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - uses: ./.github/actions/cai-dat
         with:
           pip: "faster-whisper numpy"
+      - name: Lấy thư mục giọng của video
+        run: |
+          read NAME _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)
+          git sparse-checkout add assets/thu_giong_hai/${NAME}_chuan
+          [ -d assets/thu_giong_hai/${NAME}_chuan ] || git sparse-checkout add assets/thu_giong_hai/puck
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-whisper-v1
       - name: Nhận dạng
         run: |
           read NAME MODEL OPT _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)

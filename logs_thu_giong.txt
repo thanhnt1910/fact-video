@@ -10,98 +10,87 @@
    [khóa] GEMINI_API_KEY_10: …xfFA
    [khóa] GEMINI_API_KEY_11: …XVkg
    [khóa] GEMINI_API_KEY_12: …6oKQ
+   [khóa] GEMINI_API_KEY_13: …Qvug
+   [khóa] GEMINI_API_KEY_14: …S_3g
+   [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEYS: trống
    [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-04 14:11:42
-còn thiếu 88 câu
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 9001-9001: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:29:49
-OK cụm 9001 - 9001 5.9 giây
-   [giọng] nhóm 9002-9002: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:29:52
-OK cụm 9002 - 9002 5.6 giây
-   [giọng] nhóm 9003-9003: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:29:56
-OK cụm 9003 - 9003 7.2 giây
+còn thiếu 50 câu
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h30m2s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9004-9004: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:01
-OK cụm 9004 - 9004 8.9 giây
-   [giọng] nhóm 9005-9005: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:05
-OK cụm 9005 - 9005 6.4 giây
-   [giọng] nhóm 9006-9006: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:08
-OK cụm 9006 - 9006 4.8 giây
-   [giọng] nhóm 9007-9007: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:13
-OK cụm 9007 - 9007 6.0 giây
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h21m40s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [giọng] nhóm 9039-9039: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:24
+OK cụm 9039 - 9039 8.8 giây
+   [giọng] nhóm 9040-9040: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:28
+OK cụm 9040 - 9040 6.2 giây
+   [giọng] nhóm 9041-9041: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:32
+OK cụm 9041 - 9041 8.7 giây
+   [giọng] nhóm 9042-9042: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:35
+OK cụm 9042 - 9042 6.0 giây
+   [giọng] nhóm 9043-9043: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:39
+OK cụm 9043 - 9043 5.7 giây
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 46s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9008-9008: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:18
-OK cụm 9008 - 9008 5.3 giây
-   [giọng] nhóm 9009-9009: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:22
-OK cụm 9009 - 9009 5.2 giây
-   [giọng] nhóm 9010-9010: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:26
-OK cụm 9010 - 9010 8.2 giây
-   [giọng] nhóm 9011-9011: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:29
-OK cụm 9011 - 9011 4.6 giây
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 19s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 9044-9044: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:44
+OK cụm 9044 - 9044 7.0 giây
+   [giọng] nhóm 9045-9045: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:49
+OK cụm 9045 - 9045 7.7 giây
+   [giọng] nhóm 9046-9046: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:53
+OK cụm 9046 - 9046 6.3 giây
+   [giọng] nhóm 9047-9047: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:38:57
+OK cụm 9047 - 9047 5.0 giây
+   [giọng] nhóm 9048-9048: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:01
+OK cụm 9048 - 9048 6.2 giây
+   [giọng] nhóm 9049-9049: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:06
+OK cụm 9049 - 9049 8.6 giây
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 30s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9012-9012: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:34
-OK cụm 9012 - 9012 6.7 giây
-   [giọng] nhóm 9013-9013: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:39
-OK cụm 9013 - 9013 5.5 giây
-   [giọng] nhóm 9014-9014: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:42
-OK cụm 9014 - 9014 6.1 giây
-   [giọng] nhóm 9015-9015: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:46
-OK cụm 9015 - 9015 4.6 giây
-   [giọng] nhóm 9016-9016: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:50
-OK cụm 9016 - 9016 6.8 giây
-   [giọng] nhóm 9017-9017: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:55
-OK cụm 9017 - 9017 8.1 giây
+   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 53s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 9050-9050: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:10
+OK cụm 9050 - 9050 5.2 giây
+   [giọng] nhóm 9051-9051: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:14
+OK cụm 9051 - 9051 4.8 giây
+   [giọng] nhóm 9052-9052: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:18
+OK cụm 9052 - 9052 6.9 giây
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9018-9018: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:30:59
-OK cụm 9018 - 9018 8.2 giây
-   [giọng] nhóm 9019-9019: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:03
-OK cụm 9019 - 9019 6.8 giây
-   [giọng] nhóm 9020-9020: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:08
-OK cụm 9020 - 9020 7.6 giây
-   [giọng] nhóm 9021-9021: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:12
-OK cụm 9021 - 9021 7.9 giây
-   [giọng] nhóm 9022-9022: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:17
-OK cụm 9022 - 9022 6.4 giây
-   [giọng] nhóm 9023-9023: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:21
-OK cụm 9023 - 9023 7.7 giây
-   [giọng] nhóm 9024-9024: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:26
-OK cụm 9024 - 9024 6.6 giây
+   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h20m41s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 9053-9053: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:22
+OK cụm 9053 - 9053 4.2 giây
+   [giọng] nhóm 9054-9054: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:28
+OK cụm 9054 - 9054 7.9 giây
+   [giọng] nhóm 9055-9055: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:32
+OK cụm 9055 - 9055 6.8 giây
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 33s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9025-9025: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:29
-OK cụm 9025 - 9025 6.1 giây
-   [giọng] nhóm 9026-9026: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:35
-OK cụm 9026 - 9026 4.0 giây
-   [giọng] nhóm 9027-9027: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:39
-OK cụm 9027 - 9027 8.4 giây
-   [giọng] nhóm 9028-9028: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:43
-OK cụm 9028 - 9028 7.0 giây
+   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h20m27s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 9056-9056: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:36
+OK cụm 9056 - 9056 5.2 giây
+   [giọng] nhóm 9057-9057: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:40
+OK cụm 9057 - 9057 8.4 giây
+   [giọng] nhóm 9058-9058: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:44
+OK cụm 9058 - 9058 7.3 giây
+   [giọng] nhóm 9059-9059: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:48
+OK cụm 9059 - 9059 5.9 giây
+   [giọng] nhóm 9060-9060: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:39:56
+OK cụm 9060 - 9060 7.9 giây
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …pPaA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 16s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9029-9029: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:47
-OK cụm 9029 - 9029 6.0 giây
-   [giọng] nhóm 9030-9030: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:51
-OK cụm 9030 - 9030 7.0 giây
-   [giọng] nhóm 9031-9031: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:55
-OK cụm 9031 - 9031 8.2 giây
-   [giọng] nhóm 9032-9032: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:31:59
-OK cụm 9032 - 9032 6.1 giây
+   [gemini] chi tiết …pPaA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 2s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 9061-9061: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:01
+OK cụm 9061 - 9061 4.9 giây
+   [giọng] nhóm 9062-9062: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:06
+OK cụm 9062 - 9062 6.4 giây
+   [giọng] nhóm 9063-9063: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:10
+OK cụm 9063 - 9063 6.8 giây
+   [giọng] nhóm 9064-9064: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:14
+OK cụm 9064 - 9064 5.6 giây
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry later or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9033-9033: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:32:03
-OK cụm 9033 - 9033 7.0 giây
-   [giọng] nhóm 9034-9034: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:32:07
-OK cụm 9034 - 9034 4.9 giây
-   [giọng] nhóm 9035-9035: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:32:12
-OK cụm 9035 - 9035 8.2 giây
-   [giọng] nhóm 9036-9036: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:32:15
-OK cụm 9036 - 9036 7.7 giây
-   [giọng] nhóm 9037-9037: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:32:20
-OK cụm 9037 - 9037 5.7 giây
-   [giọng] nhóm 9038-9038: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:32:24
-OK cụm 9038 - 9038 7.1 giây
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 45s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 9065-9065: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:20
+OK cụm 9065 - 9065 6.2 giây
+   [giọng] nhóm 9066-9066: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:24
+OK cụm 9066 - 9066 5.8 giây
+   [giọng] nhóm 9067-9067: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:28
+OK cụm 9067 - 9067 7.3 giây
+   [giọng] nhóm 9068-9068: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:32
+OK cụm 9068 - 9068 8.3 giây
+   [giọng] nhóm 9069-9069: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 15:40:36
+OK cụm 9069 - 9069 6.3 giây
    [gemini] đã gặp 8 lần 429 trong lần chạy này, DỪNG HẲN để khỏi bị khóa khóa

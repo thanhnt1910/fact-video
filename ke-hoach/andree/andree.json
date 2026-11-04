@@ -11,13 +11,15 @@
      "text": "August, nineteen thirty. A Norwegian ship called the Bratvaag is working among the islands of Svalbard, far out in the Arctic Ocean between Norway and the North Pole.",
      "slot": "S01",
      "tag": "CG",
-     "src": "WB,W"
+     "src": "WB,W",
+     "map": "M01"
     },
     {
      "text": "That summer there is unusually little ice. So some of the crew go ashore on a remote island to hunt walrus. The island is called Kvitøya, White Island.",
      "slot": "S02",
      "tag": "CG",
-     "src": "WB,W"
+     "src": "WB,W",
+     "map": "M02"
     },
     {
      "text": "On the shore, two of the men notice something that does not belong there. It is a boat, half buried in ice and snow.",
@@ -64,13 +66,15 @@
      "text": "The leader was Salomon August Andrée, an engineer born in eighteen fifty-four in Gränna, a small town in Sweden. He worked at the Swedish patent office.",
      "slot": "S09",
      "tag": "CG",
-     "src": "WA,W"
+     "src": "WA,W",
+     "map": "M03"
     },
     {
      "text": "Andrée had been to the Arctic before. In eighteen eighty-two and eighty-three, he took part in a Swedish scientific expedition on Spitsbergen, where he measured electricity in the air.",
      "slot": "S10",
      "tag": "CG",
-     "src": "WA,W"
+     "src": "WA,W",
+     "map": "M04"
     },
     {
      "text": "He was also a keen balloonist. And he became convinced that a balloon could do what ships had failed to do.",
@@ -88,7 +92,8 @@
      "text": "His plan was to launch a hydrogen balloon from Svalbard, ride the summer winds north across the Pole, and come down in Russia or Canada.",
      "slot": "S13",
      "tag": "CG",
-     "src": "W,G"
+     "src": "W,G",
+     "map": "M05"
     },
     {
      "text": "To steer, long ropes would hang from the basket and drag along the ice. Andrée claimed this would let the balloon travel at an angle to the wind.",
@@ -106,7 +111,8 @@
      "text": "The balloon was made in Paris from layers of varnished silk, about sixty-seven feet across. It was named Örnen, which means the Eagle.",
      "slot": "S16",
      "tag": "CG",
-     "src": "W,L"
+     "src": "W,L",
+     "map": "M17"
     }
    ]
   },
@@ -117,7 +123,8 @@
      "text": "In the summer of eighteen ninety-six, Andrée's team sailed to Danes Island, in the northwest of Svalbard. There they built a tall wooden shed to shelter the balloon from the wind.",
      "slot": "S17",
      "tag": "CG",
-     "src": "W,L"
+     "src": "W,L",
+     "map": "M06"
     },
     {
      "text": "Then they waited for a wind from the south. Day after day, it blew from the north.",
@@ -206,7 +213,8 @@
      "text": "According to his own notes, Strindberg threw out a small tin with farewell words to Anna as they passed a little island called Vogelsang. It has never been recovered.",
      "slot": "S26",
      "tag": "CG",
-     "src": "P,CH"
+     "src": "P,CH",
+     "map": "M07"
     }
    ]
   },
@@ -223,7 +231,8 @@
      "text": "One pigeon landed on a Norwegian sealing ship and was shot. Its note said the balloon had passed eighty-two degrees north, and it mentioned no trouble at all.",
      "slot": "S27",
      "tag": "CG",
-     "src": "M,W"
+     "src": "M,W",
+     "map": "M08"
     },
     {
      "text": "In fact, the flight was going badly. Fog and rain soaked the balloon, and ice formed on it. It grew heavier and sank lower.",
@@ -247,7 +256,8 @@
      "text": "They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole.",
      "slot": "S29",
      "tag": "CG",
-     "src": "P,M30"
+     "src": "P,M30",
+     "map": "M09"
     },
     {
      "text": "Strindberg set up his camera and photographed the balloon lying on the ice. That picture survives. You are looking at it now.",
@@ -276,13 +286,15 @@
      "text": "Where should they go? There were two emergency stores of food. One lay to the southeast, at Cape Flora on Franz Josef Land. The other lay to the southwest, on Spitsbergen.",
      "slot": "S32",
      "tag": "CG",
-     "src": "W,M30"
+     "src": "W,M30",
+     "map": "M10"
     },
     {
      "text": "They chose Cape Flora. On July twenty-second, they set off, hauling heavy sledges across the ice.",
      "slot": "S33",
      "tag": "CG",
-     "src": "W,D,M30"
+     "src": "W,D,M30",
+     "map": "M11"
     },
     {
      "text": "The ice was no flat road. They dragged the sledges over ridges of broken ice and used the boat to cross open water.",
@@ -300,13 +312,15 @@
      "text": "After about two weeks of brutal work, they checked their position and found a cruel surprise. The ice beneath them was drifting west, carrying them backward.",
      "slot": "S36",
      "tag": "CG",
-     "src": "D,W"
+     "src": "D,W",
+     "map": "M12"
     },
     {
      "text": "On August fourth, they turned around and headed southwest instead, toward the Seven Islands north of Spitsbergen.",
      "slot": "S37",
      "tag": "CG",
-     "src": "W,D,M30"
+     "src": "W,D,M30",
+     "map": "M13"
     },
     {
      "text": "To save their stores, they hunted polar bears and seals for fresh meat.",
@@ -347,7 +361,8 @@
      "text": "They built a hut of snow and ice on the floe. Slowly, the floe drifted south, toward a lonely island.",
      "slot": "S43",
      "tag": "CG",
-     "src": "W,M30"
+     "src": "W,M30",
+     "map": "M14"
     },
     {
      "text": "On October second, the floe cracked apart right under their hut.",
@@ -359,7 +374,8 @@
      "text": "The nearest land was Kvitøya, White Island. Over several days, they moved their supplies across to it.",
      "slot": "S45",
      "tag": "CG",
-     "src": "W,D"
+     "src": "W,D",
+     "map": "M15"
     },
     {
      "text": "In early October, they set foot on land for the first time since the balloon rose from Danes Island.",
@@ -436,7 +452,8 @@
      "text": "The three men were brought home. On October fifth, nineteen thirty, the ship carrying them reached Stockholm. Sweden held a solemn national ceremony, and King Gustaf the Fifth gave a speech.",
      "slot": "S52",
      "tag": "CG",
-     "src": "LB,W,S,WA"
+     "src": "LB,W,S,WA",
+     "map": "M16"
     },
     {
      "text": "Their remains were cremated without any medical samples being taken, and their ashes were buried together in a cemetery in Stockholm.",
@@ -553,7 +570,8 @@
      "text": "So let us separate fact from guess. It is certain that the Eagle rose from Danes Island on July eleventh, eighteen ninety-seven, and came down on the ice three days later.",
      "slot": "S64",
      "tag": "CG",
-     "src": "W,S,G,L"
+     "src": "W,S,G,L",
+     "map": "M18"
     },
     {
      "text": "It is certain that the three men walked and drifted for nearly three months, and that they reached White Island in early October.",

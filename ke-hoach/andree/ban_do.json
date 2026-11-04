@@ -1,0 +1,579 @@
+{
+ "_nguon_toa_do": "Danes Island: tâm đảo Danskøya theo dữ liệu Natural Earth 10m; Fuglesongen 79.852N 11.301E, Kvitøya 80.151N 32.594E, Cape Flora 79.950N 50.083E, Gränna 58.017N 14.467E (Wikipedia); Sjuøyane 80.729N 20.503E (GeoNames 607102); nơi bỏ khí cầu 82°56'N 29°52'E (Lantz, Uusma & Tjernström 2024, Polar Record). Mũi tên chuyến đi trên băng chỉ thể hiện HƯỚNG đi và hướng trôi đã ghi trong nhật ký, không phải lộ trình chính xác từng ngày.",
+ "M01": {
+  "khi": "August, nineteen thirty. A Norwegian ship",
+  "from": {
+   "lat": 68,
+   "lon": 20,
+   "km": 5200
+  },
+  "to": {
+   "lat": 77.0,
+   "lon": 22,
+   "km": 2600
+  },
+  "markers": [
+   {
+    "lat": 78.6,
+    "lon": 17.0,
+    "label": "Svalbard"
+   }
+  ]
+ },
+ "M02": {
+  "khi": "That summer there is unusually little ice",
+  "from": {
+   "lat": 78.8,
+   "lon": 20,
+   "km": 1300
+  },
+  "to": {
+   "lat": 79.9,
+   "lon": 29,
+   "km": 700
+  },
+  "markers": [
+   {
+    "lat": 80.151,
+    "lon": 32.594,
+    "label": "Kvitøya (White Island)"
+   }
+  ]
+ },
+ "M03": {
+  "khi": "The leader was Salomon August Andrée",
+  "from": {
+   "lat": 64,
+   "lon": 16,
+   "km": 3000
+  },
+  "to": {
+   "lat": 58.8,
+   "lon": 15,
+   "km": 1300
+  },
+  "markers": [
+   {
+    "lat": 58.017,
+    "lon": 14.467,
+    "label": "Gränna, Sweden"
+   }
+  ]
+ },
+ "M04": {
+  "khi": "Andrée had been to the Arctic before",
+  "from": {
+   "lat": 70,
+   "lon": 18,
+   "km": 3200
+  },
+  "to": {
+   "lat": 78.0,
+   "lon": 17,
+   "km": 1100
+  },
+  "markers": [
+   {
+    "lat": 78.6,
+    "lon": 16.5,
+    "label": "Spitsbergen"
+   }
+  ]
+ },
+ "M05": {
+  "khi": "His plan was to launch a hydrogen balloon",
+  "from": {
+   "lat": 79,
+   "lon": 20,
+   "km": 3500
+  },
+  "to": {
+   "lat": 86,
+   "lon": 10,
+   "km": 7200
+  },
+  "markers": [
+   {
+    "lat": 79.685,
+    "lon": 10.92,
+    "label": "Svalbard",
+    "size": 30
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      79.685,
+      10.92
+     ],
+     [
+      89.99,
+      10.92
+     ]
+    ],
+    "dash": true,
+    "label": "The plan: over the Pole"
+   },
+   {
+    "pts": [
+     [
+      89.99,
+      150
+     ],
+     [
+      72,
+      150
+     ]
+    ],
+    "dash": true,
+    "label": "Russia?",
+    "delay": 2.0
+   },
+   {
+    "pts": [
+     [
+      89.99,
+      -110
+     ],
+     [
+      72,
+      -110
+     ]
+    ],
+    "dash": true,
+    "label": "Canada?",
+    "delay": 2.3
+   }
+  ]
+ },
+ "M06": {
+  "khi": "In the summer of eighteen ninety-six, Andrée's team",
+  "from": {
+   "lat": 74,
+   "lon": 15,
+   "km": 2600
+  },
+  "to": {
+   "lat": 79.6,
+   "lon": 11.6,
+   "km": 300
+  },
+  "markers": [
+   {
+    "lat": 79.685,
+    "lon": 10.92,
+    "label": "Danes Island"
+   }
+  ],
+  "demo_caption": "In the summer of eighteen ninety-six, Andrée's team sailed to Danes Island, in the northwest of Svalbard."
+ },
+ "M07": {
+  "khi": "According to his own notes, Strindberg threw",
+  "from": {
+   "lat": 79.65,
+   "lon": 11.2,
+   "km": 280
+  },
+  "to": {
+   "lat": 79.76,
+   "lon": 11.3,
+   "km": 150
+  },
+  "markers": [
+   {
+    "lat": 79.685,
+    "lon": 10.92,
+    "label": "Danes Island",
+    "size": 28
+   },
+   {
+    "lat": 79.852,
+    "lon": 11.301,
+    "label": "Vogelsang (Fuglesongen)"
+   }
+  ]
+ },
+ "M08": {
+  "khi": "One pigeon landed on a Norwegian sealing ship",
+  "from": {
+   "lat": 79.5,
+   "lon": 15,
+   "km": 1500
+  },
+  "to": {
+   "lat": 80.8,
+   "lon": 18,
+   "km": 2300
+  },
+  "lat_line": 82,
+  "lat_label": "82° North",
+  "lat_label_lon": 18,
+  "markers": [
+   {
+    "lat": 79.685,
+    "lon": 10.92,
+    "label": "Danes Island",
+    "size": 28
+   }
+  ]
+ },
+ "M09": {
+  "khi": "They were a little south of eighty-three degrees north",
+  "from": {
+   "lat": 80.5,
+   "lon": 18,
+   "km": 1500
+  },
+  "to": {
+   "lat": 85.2,
+   "lon": 22,
+   "km": 3300
+  },
+  "markers": [
+   {
+    "lat": 79.685,
+    "lon": 10.92,
+    "label": "Danes Island",
+    "size": 28
+   },
+   {
+    "lat": 82.933,
+    "lon": 29.867,
+    "label": "Balloon abandoned, July 14",
+    "style": "x"
+   },
+   {
+    "lat": 89.99,
+    "lon": 24,
+    "label": "North Pole",
+    "size": 28,
+    "delay": 1.9
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      82.933,
+      29.867
+     ],
+     [
+      89.99,
+      29.867
+     ]
+    ],
+    "dash": true,
+    "label": "nearly 500 miles to the Pole",
+    "delay": 1.2
+   }
+  ],
+  "demo_caption": "They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole."
+ },
+ "M10": {
+  "khi": "Where should they go? There were two emergency stores",
+  "from": {
+   "lat": 82.6,
+   "lon": 30,
+   "km": 1200
+  },
+  "to": {
+   "lat": 81.2,
+   "lon": 30,
+   "km": 2000
+  },
+  "markers": [
+   {
+    "lat": 82.933,
+    "lon": 29.867,
+    "label": "Landing site",
+    "style": "x",
+    "size": 28
+   },
+   {
+    "lat": 79.95,
+    "lon": 50.083,
+    "label": "Cape Flora depot",
+    "delay": 1.0
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      82.75,
+      33
+     ],
+     [
+      80.9,
+      44
+     ]
+    ],
+    "label": "southeast",
+    "delay": 0.6,
+    "ldx": 30,
+    "ldy": -34
+   },
+   {
+    "pts": [
+     [
+      82.75,
+      26
+     ],
+     [
+      81.0,
+      19
+     ]
+    ],
+    "label": "southwest: Spitsbergen",
+    "delay": 1.6,
+    "ldx": -30,
+    "ldy": 30
+   }
+  ],
+  "demo_caption": "Where should they go? There were two emergency stores of food. One lay to the southeast, at Cape Flora on Franz Josef Land. The other lay to the southwest, on Spitsbergen."
+ },
+ "M11": {
+  "khi": "They chose Cape Flora. On July twenty-second",
+  "to": {
+   "lat": 81.8,
+   "lon": 38,
+   "km": 1700
+  },
+  "markers": [
+   {
+    "lat": 82.933,
+    "lon": 29.867,
+    "label": "Landing site",
+    "style": "x",
+    "size": 28
+   },
+   {
+    "lat": 79.95,
+    "lon": 50.083,
+    "label": "Cape Flora",
+    "size": 28
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      82.85,
+      31
+     ],
+     [
+      82.3,
+      36
+     ]
+    ],
+    "label": "July 22: setting off",
+    "delay": 0.4
+   }
+  ]
+ },
+ "M12": {
+  "khi": "After about two weeks of brutal work",
+  "to": {
+   "lat": 82.3,
+   "lon": 30,
+   "km": 1500
+  },
+  "markers": [
+   {
+    "lat": 82.933,
+    "lon": 29.867,
+    "label": "Landing site",
+    "style": "x",
+    "size": 28
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      82.3,
+      36
+     ],
+     [
+      82.5,
+      27
+     ]
+    ],
+    "dash": true,
+    "label": "the ice drifts west",
+    "delay": 0.3
+   }
+  ]
+ },
+ "M13": {
+  "khi": "On August fourth, they turned around",
+  "from": {
+   "lat": 82.3,
+   "lon": 30,
+   "km": 1500
+  },
+  "to": {
+   "lat": 81.6,
+   "lon": 24,
+   "km": 1400
+  },
+  "markers": [
+   {
+    "lat": 80.729,
+    "lon": 20.503,
+    "label": "Seven Islands (Sjuøyane)"
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      82.5,
+      28
+     ],
+     [
+      81.4,
+      22.5
+     ]
+    ],
+    "label": "August 4: new course",
+    "delay": 0.2
+   }
+  ],
+  "demo_caption": "On August fourth, they turned around and headed southwest instead, toward the Seven Islands north of Spitsbergen."
+ },
+ "M14": {
+  "khi": "They built a hut of snow and ice on the floe",
+  "from": {
+   "lat": 81.2,
+   "lon": 27,
+   "km": 1300
+  },
+  "to": {
+   "lat": 80.8,
+   "lon": 30,
+   "km": 1000
+  },
+  "markers": [
+   {
+    "lat": 80.151,
+    "lon": 32.594,
+    "label": "Kvitøya",
+    "delay": 1.4
+   }
+  ],
+  "arrows": [
+   {
+    "pts": [
+     [
+      81.25,
+      29.5
+     ],
+     [
+      80.45,
+      31.5
+     ]
+    ],
+    "dash": true,
+    "label": "the floe drifts south",
+    "delay": 0.2
+   }
+  ]
+ },
+ "M15": {
+  "khi": "The nearest land was Kvitøya, White Island",
+  "from": {
+   "lat": 81.0,
+   "lon": 28,
+   "km": 1100
+  },
+  "to": {
+   "lat": 80.15,
+   "lon": 32.3,
+   "km": 380
+  },
+  "markers": [
+   {
+    "lat": 80.151,
+    "lon": 32.594,
+    "label": "Kvitøya (White Island)"
+   }
+  ],
+  "demo_caption": "The nearest land was Kvitøya, White Island. Over several days, they moved their supplies across to it."
+ },
+ "M16": {
+  "khi": "The three men were brought home",
+  "from": {
+   "lat": 66,
+   "lon": 16,
+   "km": 3000
+  },
+  "to": {
+   "lat": 60.2,
+   "lon": 17.5,
+   "km": 1300
+  },
+  "markers": [
+   {
+    "lat": 59.329,
+    "lon": 18.069,
+    "label": "Stockholm"
+   }
+  ]
+ },
+ "M17": {
+  "khi": "The balloon was made in Paris",
+  "from": {
+   "lat": 56,
+   "lon": 8,
+   "km": 3200
+  },
+  "to": {
+   "lat": 49.5,
+   "lon": 4,
+   "km": 1500
+  },
+  "markers": [
+   {
+    "lat": 48.857,
+    "lon": 2.352,
+    "label": "Paris"
+   }
+  ]
+ },
+ "M18": {
+  "khi": "So let us separate fact from guess",
+  "from": {
+   "lat": 80,
+   "lon": 20,
+   "km": 1600
+  },
+  "to": {
+   "lat": 81.3,
+   "lon": 22,
+   "km": 2100
+  },
+  "markers": [
+   {
+    "lat": 79.685,
+    "lon": 10.92,
+    "label": "Danes Island, July 11",
+    "size": 28
+   },
+   {
+    "lat": 82.933,
+    "lon": 29.867,
+    "label": "On the ice, July 14",
+    "style": "x",
+    "size": 28
+   },
+   {
+    "lat": 80.151,
+    "lon": 32.594,
+    "label": "Kvitøya, early October",
+    "size": 28
+   }
+  ]
+ }
+}

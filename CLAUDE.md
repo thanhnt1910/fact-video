@@ -249,3 +249,4 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Mô tả YouTube, tiêu đề và ảnh bìa cũng kèm nghĩa tiếng Việt khi gửi duyệt.
 - Mẫu: `ke-hoach/roanoke/roanoke_song_ngu.md` (bản dịch lưu ở `vi.json`). Sửa lời đọc thì sửa cả hai bản.
 - **Quy tắc kiểm chứng và viết kịch bản tiếng Anh chi tiết** (chủ kênh yêu cầu 04/11/2026): `ke-hoach/quy-tac-kich-ban-tieng-anh.md`. Bắt buộc đọc trước khi viết hoặc sửa kịch bản tiếng Anh (đối chiếu văn bản gốc, rà sự kiện bị sót, câu phủ định tuyệt đối cần hai nguồn, số dao động không đưa vào tiêu đề/bìa, cấm mốc thời gian tương đối).
+- **Bản đồ đánh dấu vị trí** (chủ kênh yêu cầu 04/11/2026): câu nào nhắc địa điểm thì dùng cảnh bản đồ động có điểm đánh dấu, khai báo ở `ke-hoach/<chủ đề>/ban_do.json`, dựng bằng `ban_do_en.py`. Quy tắc chi tiết: mục E trong `ke-hoach/quy-tac-kich-ban-tieng-anh.md`.

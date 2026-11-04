@@ -30,3 +30,11 @@ Chủ kênh yêu cầu ghi chi tiết ngày 04/11/2026, rút ra từ lần tự 
 - Soi từng ảnh ở cỡ lớn trước khi dựng. Lỗi đã gặp: tháp đá / lâu đài châu Âu mọc vào cảnh lẽ ra là hàng rào gỗ (thay bằng "long wall of tall rough tree trunks"), nhà kiểu Anh có ống khói thay cho nhà thổ dân (thay bằng "dome-shaped houses made of bent saplings covered with bark mats"), núi ở vùng bờ biển phẳng (ghi "flat horizon, no mountains"), bóng ngựa mọc ở cảnh trống (ghi "no animals").
 - Bắt buộc khai báo nhãn AI của YouTube và ghi vào mô tả: tranh AI không phải ảnh chụp sự kiện thật.
 - Cloudflare: FLUX.1 schnell (`cheap=True`, khoảng 80 neurons mỗi ảnh) đủ cho phong cách này; hết mọi tài khoản thì dừng ngay.
+
+## E. Bản đồ đánh dấu vị trí (chủ kênh yêu cầu 04/11/2026, áp dụng mọi video từ AN1)
+- Câu nào nhắc tới một địa điểm (đảo, thành phố, nơi hạ cánh, kho lương, hướng đi) thì cảnh của câu đó là **bản đồ động**: máy quay phóng vào đúng chỗ, điểm đánh dấu đỏ có vòng sáng lan ra, nhãn tên mờ dần vào; hướng đi và hướng trôi vẽ bằng mũi tên chạy dần (nét đứt cho dự định hoặc dòng trôi).
+- Khai báo trong `ke-hoach/<chủ đề>/ban_do.json`: mỗi cảnh `Mxx` có `khi` (đầu câu lời kể gắn bản đồ), `from`/`to` (tâm và bề ngang khung, km), `markers`, `arrows`, `lat_line`. Script dựng kịch bản tự gắn trường `map` vào câu; `en_video.py dung` dựng cảnh bản đồ bằng `ban_do_en.py` thay cho ảnh của câu đó.
+- **Tọa độ phải có nguồn** (Wikipedia, GeoNames, bài nghiên cứu) và ghi ở trường `_nguon_toa_do`. Không vẽ lộ trình chính xác khi nguồn chỉ cho biết hướng: khi đó chỉ vẽ mũi tên chỉ hướng, không nối các điểm đoán.
+- Nhãn trên bản đồ bằng tiếng Anh, ngắn, khớp lời kể (ngày tháng viết số được vì là chữ trên màn hình, không phải lời đọc).
+- Điểm đánh dấu và nhãn không nằm trong 190 px dưới cùng (vùng phụ đề); tâm khung đặt ở 44% chiều cao. Trước khi dựng, xuất khung cuối từng cảnh để soi: `python ban_do_en.py anh ke-hoach/<chủ đề>/ban_do.json Mxx out.jpg`; thử nhanh vài cảnh có chuyển động: `python ban_do_en.py demo ke-hoach/<chủ đề>/ban_do.json Mxx,Myy out.mp4`.
+- Dữ liệu bờ biển: Natural Earth 1:10m (phạm vi công cộng) đã cắt sẵn ở `assets/ban_do/bac_cuc_10m.json` (vùng từ 44 độ bắc trở lên). Video ở vùng khác thì cắt thêm từ bản Natural Earth trên GitHub (`nvkelso/natural-earth-vector`).

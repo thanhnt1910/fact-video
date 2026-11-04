@@ -31,10 +31,10 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## Mở đầu
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
-| 1 | August, nineteen thirty. A Norwegian ship called the Bratvaag is working among the islands of Svalbard, far out in the Arctic Ocean between Norway and the North Pole. | CG | WB,W | S01 |
-| 2 | That summer there is unusually little ice. So some of the crew go ashore on a remote island to hunt walrus. The island is called Kvitøya, White Island. | CG | WB,W | S02 |
+| 1 | August, nineteen thirty. A Norwegian ship called the Bratvaag is working among the islands of Svalbard, far out in the Arctic Ocean between Norway and the North Pole. | CG | WB,W | M01 (bản đồ) |
+| 2 | That summer there is unusually little ice. So some of the crew go ashore on a remote island to hunt walrus. The island is called Kvitøya, White Island. | CG | WB,W | M02 (bản đồ) |
 | 3 | On the shore, two of the men notice something that does not belong there. It is a boat, half buried in ice and snow. | CG | W,WB,PH | S03 |
 | 4 | In the boat is a bronze boathook. Engraved on it are a few words: Andrée's Polar Expedition, eighteen ninety-six. | SỬ | MO,W,WB | S04 |
 | 5 | That name was famous. In eighteen ninety-seven, three Swedish men had set off to fly over the North Pole in a hydrogen balloon. | CG | W,S,G | S05 |
@@ -44,22 +44,22 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## The Engineer and His Dream
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
-| 9 | The leader was Salomon August Andrée, an engineer born in eighteen fifty-four in Gränna, a small town in Sweden. He worked at the Swedish patent office. | CG | WA,W | S09 |
-| 10 | Andrée had been to the Arctic before. In eighteen eighty-two and eighty-three, he took part in a Swedish scientific expedition on Spitsbergen, where he measured electricity in the air. | CG | WA,W | S10 |
+| 9 | The leader was Salomon August Andrée, an engineer born in eighteen fifty-four in Gränna, a small town in Sweden. He worked at the Swedish patent office. | CG | WA,W | M03 (bản đồ) |
+| 10 | Andrée had been to the Arctic before. In eighteen eighty-two and eighty-three, he took part in a Swedish scientific expedition on Spitsbergen, where he measured electricity in the air. | CG | WA,W | M04 (bản đồ) |
 | 11 | He was also a keen balloonist. And he became convinced that a balloon could do what ships had failed to do. | CG | W,WA | S11 |
 | 12 | In those years, explorers raced to reach the North Pole. Again and again, their ships were stopped by the pack ice. Andrée's idea was bold: fly over the ice instead. | CG | S,W | S12 |
-| 13 | His plan was to launch a hydrogen balloon from Svalbard, ride the summer winds north across the Pole, and come down in Russia or Canada. | CG | W,G | S13 |
+| 13 | His plan was to launch a hydrogen balloon from Svalbard, ride the summer winds north across the Pole, and come down in Russia or Canada. | CG | W,G | M05 (bản đồ) |
 | 14 | To steer, long ropes would hang from the basket and drag along the ice. Andrée claimed this would let the balloon travel at an angle to the wind. | CG | S,W | S14 |
 | 15 | Still, the plan caught Sweden's imagination. King Oscar the Second gave money, and so did Alfred Nobel, the inventor of dynamite. | CG | W,U | S15 |
-| 16 | The balloon was made in Paris from layers of varnished silk, about sixty-seven feet across. It was named Örnen, which means the Eagle. | CG | W,L | S16 |
+| 16 | The balloon was made in Paris from layers of varnished silk, about sixty-seven feet across. It was named Örnen, which means the Eagle. | CG | W,L | M17 (bản đồ) |
 
 ## The First Try
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
-| 17 | In the summer of eighteen ninety-six, Andrée's team sailed to Danes Island, in the northwest of Svalbard. There they built a tall wooden shed to shelter the balloon from the wind. | CG | W,L | S17 |
+| 17 | In the summer of eighteen ninety-six, Andrée's team sailed to Danes Island, in the northwest of Svalbard. There they built a tall wooden shed to shelter the balloon from the wind. | CG | W,L | M06 (bản đồ) |
 | 18 | Then they waited for a wind from the south. Day after day, it blew from the north. | CG | W,S,WA | S17 |
 | 19 | On August fourteenth, a ship came into the harbor. It was the Fram, returning from Fridtjof Nansen's famous expedition across the Arctic Ocean. | SỬ | MO,L | S18 |
 | 20 | Soon after, the wind turned against them again, and the season was over. Andrée let the gas out of the balloon and sailed home. | CG | L,W | S19 |
@@ -69,7 +69,7 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## Launch Day
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
 | 24 | This time there were three men: Andrée, now forty-two; Frænkel; and Nils Strindberg, a twenty-four-year-old physicist and a skilled photographer. | CG | WA,WS,W | S21 |
 | 25 | Strindberg was engaged to be married. His fiancée, Anna Charlier, was waiting for him in Sweden. | CG | W,WS,WC | S22 |
@@ -78,32 +78,32 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 | 28 | The long steering ropes twisted, and their screw joints came undone. Within minutes, the expedition had lost the lower parts of all three ropes. | SỬ | MO,P,PH | S24 |
 | 29 | Without the ropes, there was no way to steer. And with less weight, the balloon rose higher, where it lost hydrogen faster. | CG | W,D,WA | S25 |
 | 30 | From the shore, the Eagle was seen drifting north until it was out of sight. | CG | D,W | S25 |
-| 31 | According to his own notes, Strindberg threw out a small tin with farewell words to Anna as they passed a little island called Vogelsang. It has never been recovered. | CG | P,CH | S26 |
+| 31 | According to his own notes, Strindberg threw out a small tin with farewell words to Anna as they passed a little island called Vogelsang. It has never been recovered. | CG | P,CH | M07 (bản đồ) |
 
 ## Down on the Ice
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
 | 32 | To send news home, they carried thirty-six carrier pigeons and twelve floating buoys. In the hours that followed, they released some of them. | SỬ | MO,W,M | S27 |
-| 33 | One pigeon landed on a Norwegian sealing ship and was shot. Its note said the balloon had passed eighty-two degrees north, and it mentioned no trouble at all. | CG | M,W | S27 |
+| 33 | One pigeon landed on a Norwegian sealing ship and was shot. Its note said the balloon had passed eighty-two degrees north, and it mentioned no trouble at all. | CG | M,W | M08 (bản đồ) |
 | 34 | In fact, the flight was going badly. Fog and rain soaked the balloon, and ice formed on it. It grew heavier and sank lower. | CG | S,WA,D | S28 |
 | 35 | For many hours, the basket bumped along the ice again and again, and the men threw out more and more of their load. | CG | W,D | S28 |
 | 36 | On the morning of July fourteenth, just over sixty-five hours after takeoff, Andrée gave up. The three men climbed out onto the pack ice. | SỬ | MO,PH,S,WA | S29 |
-| 37 | They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole. | CG | P,M30 | S29 |
+| 37 | They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole. | CG | P,M30 | M09 (bản đồ) |
 | 38 | Strindberg set up his camera and photographed the balloon lying on the ice. That picture survives. You are looking at it now. | CG | D,MM,PH | S30 |
 | 39 | For a week they stayed near the wreck, sorting their gear and loading three sledges and a small boat. | CG | W,WA | S31 |
 | 40 | They had food for about three months, and guns to hunt with. | CG | WA,W | S31 |
 
 ## The Long Walk
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
-| 41 | Where should they go? There were two emergency stores of food. One lay to the southeast, at Cape Flora on Franz Josef Land. The other lay to the southwest, on Spitsbergen. | CG | W,M30 | S32 |
-| 42 | They chose Cape Flora. On July twenty-second, they set off, hauling heavy sledges across the ice. | CG | W,D,M30 | S33 |
+| 41 | Where should they go? There were two emergency stores of food. One lay to the southeast, at Cape Flora on Franz Josef Land. The other lay to the southwest, on Spitsbergen. | CG | W,M30 | M10 (bản đồ) |
+| 42 | They chose Cape Flora. On July twenty-second, they set off, hauling heavy sledges across the ice. | CG | W,D,M30 | M11 (bản đồ) |
 | 43 | The ice was no flat road. They dragged the sledges over ridges of broken ice and used the boat to cross open water. | CG | W,M30,S | S34 |
 | 44 | Strindberg kept a diary written as messages to Anna. In it, he told her what it really meant to walk on the polar ice. | CG | WS,D | S35 |
-| 45 | After about two weeks of brutal work, they checked their position and found a cruel surprise. The ice beneath them was drifting west, carrying them backward. | CG | D,W | S36 |
-| 46 | On August fourth, they turned around and headed southwest instead, toward the Seven Islands north of Spitsbergen. | CG | W,D,M30 | S37 |
+| 45 | After about two weeks of brutal work, they checked their position and found a cruel surprise. The ice beneath them was drifting west, carrying them backward. | CG | D,W | M12 (bản đồ) |
+| 46 | On August fourth, they turned around and headed southwest instead, toward the Seven Islands north of Spitsbergen. | CG | W,D,M30 | M13 (bản đồ) |
 | 47 | To save their stores, they hunted polar bears and seals for fresh meat. | CG | WA,M30,U | S38 |
 | 48 | One photograph shows Frænkel and Strindberg standing beside the first polar bear they killed. | CG | D | S39 |
 | 49 | But once again the drift worked against them. Wind and moving ice pushed them away from the islands. | CG | W,M30 | S40 |
@@ -111,12 +111,12 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## White Island
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
 | 51 | On September twelfth, they stopped walking. They made camp on a large ice floe, planning to drift through the winter. | CG | W,D,M30 | S42 |
-| 52 | They built a hut of snow and ice on the floe. Slowly, the floe drifted south, toward a lonely island. | CG | W,M30 | S43 |
+| 52 | They built a hut of snow and ice on the floe. Slowly, the floe drifted south, toward a lonely island. | CG | W,M30 | M14 (bản đồ) |
 | 53 | On October second, the floe cracked apart right under their hut. | CG | W,D | S44 |
-| 54 | The nearest land was Kvitøya, White Island. Over several days, they moved their supplies across to it. | CG | W,D | S45 |
+| 54 | The nearest land was Kvitøya, White Island. Over several days, they moved their supplies across to it. | CG | W,D | M15 (bản đồ) |
 | 55 | In early October, they set foot on land for the first time since the balloon rose from Danes Island. | CG | W,D,S | S45 |
 | 56 | Then the record goes quiet. Andrée's last dated diary entry is from October eighth. No later entry has been found. | CG | W,D | S46 |
 | 57 | That last diary was later badly damaged by water and mold. Only about a third of its text can be read with the naked eye. | CG | KI,RAA | S46 |
@@ -124,7 +124,7 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## Found After Thirty-Three Years
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
 | 59 | On August sixth, nineteen thirty, the Bratvaag's crew and scientists, led by the geologist Gunnar Horn, searched the camp. | CG | LB,PH,WB | S48 |
 | 60 | Near the boat, they found the remains of Andrée. A monogram on his jacket told them who he was, and a diary was still in his pocket. | CG | LB,PH,W | S48 |
@@ -133,12 +133,12 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 | 63 | The searchers also took away the boat, clothing, tools, a Swedish flag, and Andrée's diary. | CG | WB,W | S50 |
 | 64 | The news caused a sensation across Europe. A group of journalists chartered a small ship, the Isbjørn, and sailed for the island. | CG | LB,PH,W,WA | S51 |
 | 65 | About a month after the first find, they reached the camp. There they found the remains of the third man, Knut Frænkel, along with more diaries and rolls of exposed film. | CG | PH,LB,W,WA | S51 |
-| 66 | The three men were brought home. On October fifth, nineteen thirty, the ship carrying them reached Stockholm. Sweden held a solemn national ceremony, and King Gustaf the Fifth gave a speech. | CG | LB,W,S,WA | S52 |
+| 66 | The three men were brought home. On October fifth, nineteen thirty, the ship carrying them reached Stockholm. Sweden held a solemn national ceremony, and King Gustaf the Fifth gave a speech. | CG | LB,W,S,WA | M16 (bản đồ) |
 | 67 | Their remains were cremated without any medical samples being taken, and their ashes were buried together in a cemetery in Stockholm. | CG | KI,LB,WA,WS | S53 |
 
 ## Pictures From the Ice
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
 | 68 | And the film? It had lain in the ice and water for thirty-three years. | CG | W,S | S54 |
 | 69 | In Stockholm, John Hertzberg, a scientist at the Royal Institute of Technology, worked on the rolls one by one. | CG | W,WS | S54 |
@@ -148,7 +148,7 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## What Killed Them?
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
 | 73 | So why did three fit men die so soon after reaching land, when they still had food, fuel and shelter? | CG | MO,W,U | S58 |
 | 74 | The official account published in nineteen thirty concluded that Strindberg died first, and that Andrée and Frænkel died later, side by side in the tent, probably at about the same time. | SỬ | MO | S58 |
@@ -163,9 +163,9 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## What We Really Know
 
-| # | Lời kể | Nhãn | Nguồn | Ảnh |
+| # | Lời kể | Nhãn | Nguồn | Ảnh / bản đồ |
 |---|---|---|---|---|
-| 83 | So let us separate fact from guess. It is certain that the Eagle rose from Danes Island on July eleventh, eighteen ninety-seven, and came down on the ice three days later. | CG | W,S,G,L | S64 |
+| 83 | So let us separate fact from guess. It is certain that the Eagle rose from Danes Island on July eleventh, eighteen ninety-seven, and came down on the ice three days later. | CG | W,S,G,L | M18 (bản đồ) |
 | 84 | It is certain that the three men walked and drifted for nearly three months, and that they reached White Island in early October. | CG | P,S,W | S65 |
 | 85 | It is certain that Strindberg died first and was buried by his companions, and that Andrée's diary stops in early October. | SỬ | MO,W,D | S66 |
 | 86 | How the other two died, and why it happened so soon after reaching land, is still a theory. | GT | — | S67 |
@@ -205,4 +205,9 @@ Cảnh mở đầu (Bratvaag tìm thấy chiếc thuyền năm 1930) là sự ki
 
 ## Ảnh và nhãn AI
 - Ảnh do Strindberg chụp năm 1897 thuộc phạm vi công cộng (tác giả mất năm 1897). Các ô vẽ AI (khai báo trong `anh_ai.json`) phải bật nhãn nội dung AI khi đăng YouTube; mô tả YouTube đã ghi sẵn.
+
+## Bản đồ đánh dấu vị trí (thêm ngày 04/11/2026)
+- 18 cảnh bản đồ (`ban_do.json`, M01–M18), gắn vào 18 câu nhắc địa điểm: Svalbard, Kvitøya, Gränna, Spitsbergen, Paris, kế hoạch bay qua cực tới Nga hoặc Canada, Danes Island, Vogelsang, vĩ tuyến 82 độ, nơi bỏ khí cầu và khoảng cách tới cực, hai kho lương, hướng đi ngày 22/7, hướng trôi về tây, đổi hướng ngày 4/8 tới Bảy Đảo, tảng băng trôi về nam, Kvitøya, Stockholm, bản đồ tóm tắt ở chương cuối.
+- Tọa độ: Fuglesongen, Kvitøya, Cape Flora, Gränna theo Wikipedia; Sjuøyane theo GeoNames; nơi bỏ khí cầu theo P (82°56'B, 29°52'Đ); Danes Island theo tâm đảo Danskøya trong dữ liệu Natural Earth.
+- Các mũi tên trên băng chỉ thể hiện hướng đi và hướng trôi mà nhật ký ghi (đông nam tới mũi Flora, trôi về tây, tây nam tới Bảy Đảo, trôi về nam tới Kvitøya), không phải lộ trình từng ngày, vì nguồn không cho tọa độ từng ngày.
 

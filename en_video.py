@@ -273,6 +273,14 @@ def render_shot(args):
     return out
 
 
+def render_job(job):
+    if job[0] == "map":
+        import ban_do_en
+        _, spec, out, dur = job
+        return ban_do_en.render_map_shot(spec, out, dur)
+    return render_shot(job)
+
+
 def _num(k):
     import re
     m = re.search(r"\d+", k)
@@ -398,17 +406,21 @@ def dung(d):
     log(f"Giọng xong: {total / 60:.1f} phút, {len(items)} đoạn")
 
     # ghép đoạn cùng ô ảnh liên tiếp thành một cảnh
+    # câu có trường "map" (khai báo trong ban_do.json cạnh kịch bản) dùng cảnh bản đồ động thay cho ảnh
+    mapp = d["_dir"] / "ban_do.json"
+    maps = json.loads(mapp.read_text(encoding="utf-8")) if mapp.exists() else {}
     shots = []
     for it in items:
-        if shots and shots[-1]["slot"] == it["slot"]:
+        key = it.get("map") if it.get("map") in maps else it["slot"]
+        if shots and shots[-1]["slot"] == key:
             shots[-1]["end"] = it["end"]
         else:
-            shots.append({"slot": it["slot"], "start": it["start"], "end": it["end"], "chapter": it["chapter"]})
+            shots.append({"slot": key, "start": it["start"], "end": it["end"], "chapter": it["chapter"]})
     shots[0]["start"] = 0.0
     for a, b in zip(shots, shots[1:]):
         a["end"] = b["start"]
     shots[-1]["end"] = total
-    paths, miss = slot_images(d, {s["slot"] for s in shots})
+    paths, miss = slot_images(d, {s["slot"] for s in shots if s["slot"] not in maps})
     if miss:
         log(f"⚠️  Ô chưa có ảnh (dùng ảnh gần nhất): {', '.join(miss)}")
     sel = {}
@@ -420,6 +432,11 @@ def dung(d):
     jobs, listing = [], []
     for k, s in enumerate(shots):
         dur = s["end"] - s["start"]
+        if s["slot"] in maps:
+            out = work / f"shot_{k:03d}_map.mp4"
+            jobs.append(("map", maps[s["slot"]], out, dur))
+            listing.append(out)
+            continue
         nsub = max(1, int(math.ceil(dur / 13.0)))
         for j in range(nsub):
             png = work / f"{s['slot']}.png"
@@ -431,7 +448,7 @@ def dung(d):
     log(f"{len(shots)} cảnh, {len(jobs)} đoạn hình")
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=3) as ex:
-        for i, _ in enumerate(ex.map(render_shot, jobs)):
+        for i, _ in enumerate(ex.map(render_job, jobs)):
             if i % 10 == 0:
                 log(f"   … {i + 1}/{len(jobs)} ({time.time() - t0:.0f}s)")
     lst = work / "list.txt"

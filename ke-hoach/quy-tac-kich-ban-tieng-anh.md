@@ -23,3 +23,10 @@ Chủ kênh yêu cầu ghi chi tiết ngày 04/11/2026, rút ra từ lần tự 
 - Sửa lời đọc thì sửa đồng thời: `<tên>.json`, `vi.json`, `<tên>_song_ngu.md`, `<tên>_kich_ban.md` (bảng + mục "Sửa"), mô tả YouTube, ảnh bìa (nếu có số hoặc tên bị đổi).
 - Thêm hoặc bớt một beat làm lệch cách chia cụm 8 beat theo chương, nên các cụm phía sau đổi chữ và phải đọc lại giọng. Báo chủ kênh số cụm phải đọc lại và hỏi trước khi chạy (tốn hạn mức Gemini). Hết mọi khóa thì dừng, không đợi.
 - Chỉ chạy workflow khi chủ kênh yêu cầu; push chỉ chứa file kịch bản/tài liệu thì để `[skip ci]` trong tiêu đề commit.
+
+## D. Ảnh: trộn ảnh tư liệu với tranh AI (chủ kênh chọn 04/11/2026, Cloudflare thay vì Kaggle)
+- Cảnh làm bằng chứng (bản đồ, tranh khắc, ảnh khảo cổ, chân dung có thật) giữ ảnh tư liệu. Cảnh không có ảnh thời đó hoặc chỉ có ảnh hiện đại (bãi biển, khói, dấu chân, cây) vẽ bằng AI: khai báo trong `anh_ai.json` (ô → prompt), chạy `ve_anh_cf_en.py` (workflow `ve-anh-en.yml`, kích hoạt bằng `ke-hoach/<chủ đề>/ve_chay.txt`; `lam_lai=S01,S18` để vẽ lại).
+- Tranh AI phải giữ phong cách sơn dầu, tối, bí ẩn; KHÔNG vẽ mặt người nhận ra được (người quay lưng, ở xa); không chữ. Cảnh vắng người ghi "completely empty, absolutely no people"; cảnh một người ghi "exactly ONE man only".
+- Soi từng ảnh ở cỡ lớn trước khi dựng. Lỗi đã gặp: tháp đá / lâu đài châu Âu mọc vào cảnh lẽ ra là hàng rào gỗ (thay bằng "long wall of tall rough tree trunks"), nhà kiểu Anh có ống khói thay cho nhà thổ dân (thay bằng "dome-shaped houses made of bent saplings covered with bark mats"), núi ở vùng bờ biển phẳng (ghi "flat horizon, no mountains"), bóng ngựa mọc ở cảnh trống (ghi "no animals").
+- Bắt buộc khai báo nhãn AI của YouTube và ghi vào mô tả: tranh AI không phải ảnh chụp sự kiện thật.
+- Cloudflare: FLUX.1 schnell (`cheap=True`, khoảng 80 neurons mỗi ảnh) đủ cho phong cách này; hết mọi tài khoản thì dừng ngay.

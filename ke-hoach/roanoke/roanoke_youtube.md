@@ -42,7 +42,7 @@ New true mystery from history every day — subscribe to History Mysteries Daily
 
 #Roanoke #LostColony #HistoryMysteries #Croatoan #UnsolvedMysteries #TrueHistory
 
-Images: historical maps and engravings in the public domain; photographs under their authors' licenses (list below). The carved-tree photo is a modern reconstruction at Fort Raleigh, not the original tree.
+Images: historical maps and engravings in the public domain; 15 atmospheric painted illustrations were generated with AI to recreate scenes for which no period image exists (they are not photographs of the real events); photographs under their authors' licenses (list below). The carved-tree photo is a modern reconstruction at Fort Raleigh, not the original tree.
 
 Image credits:
 • "Salvo Sunset" – thelucenguyen, CC BY 2.0
@@ -105,6 +105,7 @@ Gaultherot, Vivant, Public domain
 Roanoke, Lost Colony of Roanoke, Croatoan, John White, Virginia Dare, unsolved mysteries, history mysteries, historical mysteries, Outer Banks, colonial America, true history, History Mysteries Daily
 
 ## Ghi chú
+- 15 ô ảnh dùng tranh AI (Cloudflare FLUX, phong cách sơn dầu, không mặt người): S01, S18, S21, S28, S29B, S32, S32B, S33, S37, S38, S39, S49, S51, S52, S53. Khi đăng YouTube phải bật nhãn "nội dung do AI tạo hoặc chỉnh sửa" (Altered content) vì có cảnh mô phỏng.
 - Hashtag: YouTube chỉ hiện 3 hashtag đầu của mô tả phía trên tiêu đề (#Roanoke #LostColony #HistoryMysteries); tối đa 15, quá thì YouTube bỏ hết.
 - Trong video này có ảnh minh họa phong cảnh hiện đại, không phải ảnh thời đó; mô tả đã nói rõ ảnh là tư liệu/minh họa.
 - Chưa có avatar kênh trong repo nên bìa dùng chữ tên kênh; thêm logo khi bạn đưa file.

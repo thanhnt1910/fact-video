@@ -342,6 +342,21 @@ ov(71,"a quiet room seen from the foot of a low plank platform: Zhou Yu lies on 
 ov(73,None,"The sky is clear and empty, with no poles, no crosses and no wires anywhere. ")
 ov(101,None,NOGLASS)
 FIX[37]=FIX.get(37,TOP)+" The gate leaves are plain planks with no handle, ring or knob."
+# round 5
+ONE3=" Only ONE or TWO ships are visible, each a small plain boat with exactly one mast and one square sail, no second mast, no ropes drawn."
+HAT=" Sun Quan wears only a small flat black cloth cap sitting on his topknot, no wide brim, no round hat. "
+NOHAIR=" Both men have their hair fully pinned up in a topknot, no ponytail, nothing hangs behind the neck or down the back. "
+NOMARK=" No light switch, no sign, no halo, no glow around any head, no writing anywhere. "
+FIX[24]=FIX.get(24,TOP)+ONE3
+FIX[124]=FIX.get(124,TOP)+ONE3
+FIX[51]=FIX.get(51,TOP)+HAT+" Soldiers wear plain long tunics with no pockets or vests."
+FIX[52]=FIX.get(52,TOP)+HAT
+FIX[57]=FIX.get(57,TOP)+NOMARK+" Shop walls and soldiers' chests are completely bare."
+FIX[36]=FIX.get(36,TOP)+NOMARK+" The wall and the beams are bare."
+FIX[19]=FIX.get(19,TOP)+" No toys, no animals, no teddy bear in the background. "+NOMARK
+FIX[70]=FIX.get(70,TOP)+NOMARK+NOHAIR+" The two old men have clearly different faces, one fat with a round face and a short grey beard, the other thin with a long white beard."
+FIX[3]=FIX.get(3,TOP)+NOHAIR
+
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

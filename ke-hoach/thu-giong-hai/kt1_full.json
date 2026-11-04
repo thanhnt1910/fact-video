@@ -1,0 +1,812 @@
+[
+ {
+  "n": 9201,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Hãy tưởng tượng một tòa thành nhỏ trên vùng núi phía tây, hai cánh cổng mở toang giữa ban ngày.",
+  "nhan": "TT",
+  "so_v1": 1,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9202,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Trên lầu cổng, một người đội khăn vải, khoác áo lông hạc, ngồi giữa làn khói hương và gảy đàn. Hai cậu bé đứng hầu hai bên.",
+  "nhan": "TT",
+  "so_v1": 2,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9203,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Dưới chân thành, mười lăm vạn quân địch đang kéo tới, do Tư Mã Ý chỉ huy. Trong thành chỉ có vài nghìn lính, còn các tướng giỏi đều ở xa.",
+  "nhan": "TT",
+  "so_v1": 3,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9204,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Tư Mã Ý nhìn cổng thành mở toang, nghe tiếng đàn thong thả, rồi ra lệnh lui quân. Người gảy đàn ấy là Gia Cát Lượng.",
+  "nhan": "TT",
+  "so_v1": 4,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9205,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Đây là một trong những cảnh nổi tiếng nhất thời Tam Quốc. Rất nhiều người thuộc nó như thuộc một truyện cổ tích.",
+  "nhan": "BÌNH",
+  "so_v1": 5,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9206,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Nhưng nếu bạn mở các bộ sử xưa ra tìm, bạn sẽ thấy một điều lạ. Cảnh ấy không hề có trong phần chính văn của sử.",
+  "nhan": "BÌNH",
+  "so_v1": 6,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9207,
+  "chuong": "Tiếng đàn trên lầu cổng",
+  "tone": "calm",
+  "text": "Vậy cảnh gảy đàn dọa lui quân địch từ đâu mà ra? Và trong sử, Gia Cát Lượng thật sự đã làm gì?",
+  "nhan": "BÌNH",
+  "so_v1": 7,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9208,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Trước hết hãy nghe tiểu thuyết kể, trong bộ Tam quốc diễn nghĩa, ở hồi chín mươi lăm. Gia Cát Lượng đang đem quân đánh nước Ngụy.",
+  "nhan": "TT",
+  "so_v1": 8,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9209,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Ông giao cho Mã Tắc giữ một con đường then chốt tên là Nhai Đình.",
+  "nhan": "TT",
+  "so_v1": 9,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9210,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Mã Tắc không nghe lời khuyên, đóng quân trên núi, và bị quân Ngụy vây rồi đánh tan.",
+  "nhan": "TT",
+  "so_v1": 10,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9211,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Tin thua trận về tới, Gia Cát Lượng đang ở một thành nhỏ tên là Tây Thành.",
+  "nhan": "TT",
+  "so_v1": 11,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9212,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Trong thành chỉ còn khoảng hai nghìn năm trăm lính, vì phần lớn quân đã đi chở lương.",
+  "nhan": "TT",
+  "so_v1": 12,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9213,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Thám báo chạy về báo rằng Tư Mã Ý đang dẫn mười lăm vạn quân kéo tới. Các quan trong thành mặt cắt không còn giọt máu.",
+  "nhan": "TT",
+  "so_v1": 13,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9214,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Gia Cát Lượng ra lệnh dẹp hết cờ xí, cho lính nấp im, và mở bốn cửa thành. Vài lính cải trang làm dân thường, quét đường như không có chuyện gì.",
+  "nhan": "TT",
+  "so_v1": 14,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9215,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Rồi ông lên lầu cổng, ngồi gảy đàn, vẻ mặt thản nhiên. Tư Mã Ý đến nơi, nhìn cảnh ấy và sinh nghi.",
+  "nhan": "TT",
+  "so_v1": 15,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9216,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Tư Mã Ý biết Gia Cát Lượng cả đời cẩn thận, chưa từng làm liều.",
+  "nhan": "TT",
+  "so_v1": 16,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9217,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Ông nghĩ trong thành chắc có phục binh, tức quân giấu sẵn để đánh bất ngờ, nên cho quân rút.",
+  "nhan": "TT",
+  "so_v1": 17,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9218,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Sau đó, theo tiểu thuyết, Gia Cát Lượng nói rằng đó là một nước đi liều, vì ông không còn cách nào khác.",
+  "nhan": "TT",
+  "so_v1": 18,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9219,
+  "chuong": "Cảnh ấy trong tiểu thuyết",
+  "tone": "calm",
+  "text": "Ông đã đặt cược vào chính tính cẩn thận của Tư Mã Ý.",
+  "nhan": "TT",
+  "so_v1": 19,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9220,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Bây giờ hãy quay về sử. Năm hai trăm hai mươi tám, Gia Cát Lượng đem quân từ nước Thục đánh nước Ngụy, trong lần ra quân đầu tiên của ông.",
+  "nhan": "SỬ*",
+  "so_v1": 20,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9221,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Ban đầu quân Thục thuận lợi, và nhiều vùng đất phía tây của nước Ngụy đã theo ông.",
+  "nhan": "SỬ*",
+  "so_v1": 21,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9222,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Vua Ngụy vội sai các tướng đi chặn, trong đó có Tào Chân và Trương Cáp.",
+  "nhan": "SỬ*",
+  "so_v1": 22,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9223,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Gia Cát Lượng giao đạo quân tiên phong cho Mã Tắc, một người ông rất quý. Mã Tắc ra giữ Nhai Đình và thua trận trước Trương Cáp.",
+  "nhan": "SỬ*",
+  "so_v1": 23,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9224,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Mất Nhai Đình thì cả đạo quân Thục không còn đường tiến. Gia Cát Lượng buộc phải rút về Hán Trung, tức căn cứ phía sau của nước Thục.",
+  "nhan": "SỬ*",
+  "so_v1": 24,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9225,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Nhưng ông không rút tay không. Sử chép rằng ông dời hơn một nghìn gia đình ở huyện Tây về theo quân.",
+  "nhan": "SỬ*",
+  "so_v1": 25,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9226,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Về tới nơi, ông xử tội Mã Tắc để làm gương cho quân sĩ.",
+  "nhan": "SỬ*",
+  "so_v1": 26,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9227,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Các sách chép hơi khác nhau, có sách nói Mã Tắc bị giết, có sách nói ông chết trong tù.",
+  "nhan": "SỬ*",
+  "so_v1": 27,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9228,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Hãy để ý điều này. Trong phần chính văn, đó là một chuyến rút quân sau thất bại.",
+  "nhan": "BÌNH",
+  "so_v1": 28,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9229,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Không có tòa thành trống. Không có tiếng đàn.",
+  "nhan": "BÌNH",
+  "so_v1": 29,
+  "hieu_ung": "X"
+ },
+ {
+  "n": 9230,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Và cũng không có Tư Mã Ý đứng dưới chân thành.",
+  "nhan": "BÌNH",
+  "so_v1": 30,
+  "hieu_ung": "X"
+ },
+ {
+  "n": 9231,
+  "chuong": "Sử chép gì về năm hai trăm hai mươi tám",
+  "tone": "calm",
+  "text": "Thật ra lúc ấy Tư Mã Ý đóng ở Uyển, một thành ở rất xa chiến trường. Trước đó không lâu, ông vừa dẹp xong cuộc nổi loạn của Mạnh Đạt.",
+  "nhan": "SỬ*",
+  "so_v1": 31,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9232,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Vậy ai là người kể câu chuyện này đầu tiên? Dấu vết xa nhất nằm trong phần chú giải, tức những lời chú thêm vào bộ sử Tam quốc chí.",
+  "nhan": "CG",
+  "so_v1": 32,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9233,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Người chú giải là Bùi Tùng Chi, sống khoảng thế kỷ năm. Ông có thói quen chép lại các ghi chép khác mà ông tìm được, kể cả chuyện ông không tin.",
+  "nhan": "CG",
+  "so_v1": 33,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9234,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Một ghi chép như thế nằm trong sách Thục ký, thuật lại lời một người tên là Quách Xung, sống ở đầu thời nhà Tấn.",
+  "nhan": "CG",
+  "so_v1": 34,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9235,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Đó là khoảng vài chục năm sau khi Gia Cát Lượng mất.",
+  "nhan": "CG",
+  "so_v1": 35,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9236,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Trong bản ấy, Gia Cát Lượng đóng ở một nơi tên là Dương Bình, chứ không phải Tây Thành. Ông chỉ giữ lại khoảng một vạn quân trong thành.",
+  "nhan": "CG",
+  "so_v1": 36,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9237,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Tư Mã Ý đem hai mươi vạn quân tới, dừng lại cách thành khoảng sáu mươi dặm, tức chừng hai mươi lăm ki lô mét.",
+  "nhan": "CG",
+  "so_v1": 37,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9238,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Thám báo về báo rằng trong thành rất ít người.",
+  "nhan": "CG",
+  "so_v1": 38,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9239,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Gia Cát Lượng cho giấu cờ, im trống, mở toang cổng thành và quét sạch đường. Tư Mã Ý nghi có phục binh nên cho quân rút lên núi phía bắc.",
+  "nhan": "CG",
+  "so_v1": 39,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9240,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Hôm sau, Gia Cát Lượng cười và nói rằng việc xảy ra đúng như ông đoán. Về sau Tư Mã Ý biết chuyện thì rất tiếc.",
+  "nhan": "CG",
+  "so_v1": 40,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9241,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "So hai bản kể, bạn sẽ thấy ngay chỗ khác nhau. Bản Quách Xung không có Nhai Đình, không có Mã Tắc, và cũng không có tiếng đàn.",
+  "nhan": "BÌNH",
+  "so_v1": 41,
+  "hieu_ung": "X"
+ },
+ {
+  "n": 9242,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Con số quân cũng khác. Tiểu thuyết là hai nghìn năm trăm lính chống mười lăm vạn, còn bản Quách Xung là một vạn chống hai mươi vạn.",
+  "nhan": "GT",
+  "so_v1": 42,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9243,
+  "chuong": "Người kể câu chuyện đầu tiên",
+  "tone": "calm",
+  "text": "Cùng một khung truyện mà chi tiết không khớp nhau. Đó thường là dấu hiệu của một chuyện đã qua nhiều lần kể.",
+  "nhan": "BÌNH",
+  "so_v1": 43,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9244,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Điều thú vị là chính Bùi Tùng Chi không tin ghi chép ấy. Ngay sau đoạn chép, ông viết lời phản bác.",
+  "nhan": "CG",
+  "so_v1": 44,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9245,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Lý do thứ nhất là nơi chốn. Theo lập luận của ông, lúc ấy Tư Mã Ý đang ở Uyển, chứ không ở gần Gia Cát Lượng.",
+  "nhan": "CG",
+  "so_v1": 45,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9246,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Các sử sau cho thấy Tư Mã Ý chỉ thật sự đối đầu với Gia Cát Lượng ở vùng Quan Trung sau khi tướng Tào Chân qua đời.",
+  "nhan": "SỬ*",
+  "so_v1": 46,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9247,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Việc đó xảy ra vào năm hai trăm ba mươi mốt.",
+  "nhan": "SỬ*",
+  "so_v1": 47,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9248,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Lý do thứ hai là cách hành xử.",
+  "nhan": "CG",
+  "so_v1": 48,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9249,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Nếu Tư Mã Ý có hai mươi vạn quân mà nghi thành có mai phục, ông có thể vây thành xem xét, chứ không cần rút chạy.",
+  "nhan": "CG",
+  "so_v1": 49,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9250,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Lý do thứ ba là chuyện của Ngụy Diên.",
+  "nhan": "CG",
+  "so_v1": 50,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9251,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Bản Quách Xung có cảnh Ngụy Diên dẫn quân đi hướng đông, nhưng truyện Ngụy Diên chép rằng Gia Cát Lượng từng không cho ông đem riêng một vạn quân.",
+  "nhan": "CG",
+  "so_v1": 51,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9252,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Bùi Tùng Chi vẫn chép lại câu chuyện cho người sau xem. Nhưng ông ghi rõ lý do mình nghi ngờ.",
+  "nhan": "BÌNH",
+  "so_v1": 52,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9253,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Nhiều nhà nghiên cứu về sau cũng cho rằng cảnh này khó có thật.",
+  "nhan": "GT",
+  "so_v1": 53,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9254,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Họ xem bản kể của Quách Xung là một giai thoại sinh ra sau khi Gia Cát Lượng qua đời.",
+  "nhan": "GT",
+  "so_v1": 54,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9255,
+  "chuong": "Bùi Tùng Chi bẻ lại",
+  "tone": "calm",
+  "text": "Nói vậy không có nghĩa mọi chuyện mở cửa thành đều là bịa. Trong ghi chép xưa, có người đã thật sự làm điều gần giống thế.",
+  "nhan": "BÌNH",
+  "so_v1": 55,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9256,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Người nổi tiếng nhất là Triệu Vân, trong trận Hán Thủy năm hai trăm mười chín, giữa quân Lưu Bị và quân Tào Tháo.",
+  "nhan": "CG",
+  "so_v1": 56,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9257,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Tướng Hoàng Trung đi cướp lương của quân Tào nhưng quá hạn chưa về. Triệu Vân dẫn vài chục kỵ binh đi tìm, và bất ngờ đụng đại quân của Tào Tháo.",
+  "nhan": "CG",
+  "so_v1": 57,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9258,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Ông phá vòng vây trở về trại. Rồi ông ra lệnh mở toang cửa trại, giấu cờ và im tiếng trống.",
+  "nhan": "CG",
+  "so_v1": 58,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9259,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Quân Tào nghi có phục binh nên rút lui.",
+  "nhan": "CG",
+  "so_v1": 59,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9260,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Triệu Vân liền cho đánh trống vang trời và bắn tên đuổi theo, khiến nhiều lính Tào xô nhau ngã xuống sông Hán Thủy.",
+  "nhan": "CG",
+  "so_v1": 60,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9261,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Chuyện này nằm trong Triệu Vân biệt truyện, được Bùi Tùng Chi dẫn lại.",
+  "nhan": "CG",
+  "so_v1": 61,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9262,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Sau đó Lưu Bị khen Triệu Vân và mở tiệc mừng.",
+  "nhan": "CG",
+  "so_v1": 62,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9263,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Một ví dụ khác là Văn Sính, tướng nước Ngụy.",
+  "nhan": "CG",
+  "so_v1": 63,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9264,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Sách Ngụy lược chép rằng khi quân Tôn Quyền kéo tới, tường thành bị mưa làm hư, nên Văn Sính cho dân trốn đi và nằm yên trong nhà.",
+  "nhan": "CG",
+  "so_v1": 64,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9265,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Tôn Quyền nghi có mưu nên không dám đánh. Nhưng Bùi Tùng Chi lưu ý rằng Tam quốc chí chép khác, rằng Văn Sính giữ thành vững rồi đuổi đánh quân Ngô.",
+  "nhan": "CG",
+  "so_v1": 65,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9266,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Bạn thấy đấy, các chuyện mở cổng thành thường nằm trong ghi chép phụ. Và ngay cả khi ấy, các nguồn cũng không thống nhất với nhau.",
+  "nhan": "BÌNH",
+  "so_v1": 66,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9267,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Còn xa hơn nữa, từ thời Xuân Thu đã có chuyện nước Trịnh không đóng cổng thành khi quân Sở kéo tới, và quân Sở rút lui.",
+  "nhan": "GT",
+  "so_v1": 67,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9268,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Người đời sau xếp thế cờ ấy là kế thứ ba mươi hai trong ba mươi sáu kế.",
+  "nhan": "GT",
+  "so_v1": 68,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9269,
+  "chuong": "Những người từng mở cổng thành",
+  "tone": "calm",
+  "text": "Như vậy ý tưởng bày một thành trống để dọa địch không phải của riêng ai. Nó đã đi qua nhiều người, trước khi đến tay Gia Cát Lượng.",
+  "nhan": "BÌNH",
+  "so_v1": 69,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9270,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Khoảng cuối đời Nguyên, đầu đời Minh, La Quán Trung viết Tam quốc diễn nghĩa. Ông gom nhiều nguồn, trong đó có bản kể của Quách Xung.",
+  "nhan": "TT",
+  "so_v1": 70,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9271,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Nhưng ông không giữ nguyên. Ông chuyển cảnh ấy sang Tây Thành, đặt ngay sau trận thua ở Nhai Đình.",
+  "nhan": "TT",
+  "so_v1": 71,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9272,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Ông còn cho Gia Cát Lượng gảy đàn trên lầu cổng. Bản Quách Xung không có chi tiết này.",
+  "nhan": "TT",
+  "so_v1": 72,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9273,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Có thể thấy tác giả đã chọn đúng chỗ. Ngay lúc Gia Cát Lượng thua nặng nhất, cảnh ấy biến một cuộc rút lui thành một chiến thắng bằng trí tuệ.",
+  "nhan": "GT",
+  "so_v1": 73,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9274,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Đây là nhận xét về cách dựng truyện, không phải lời sử.",
+  "nhan": "GT",
+  "so_v1": 74,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9275,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Tư Mã Ý cũng được chọn rất khéo. Ông là đối thủ lớn nhất của Gia Cát Lượng, nên việc lừa được ông mới có sức nặng.",
+  "nhan": "GT",
+  "so_v1": 75,
+  "hieu_ung": "?"
+ },
+ {
+  "n": 9276,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Thất bại ở Nhai Đình là phần khó kể nhất, nên được phủ lên bằng cảnh dễ nhớ nhất.",
+  "nhan": "BÌNH",
+  "so_v1": 76,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9277,
+  "chuong": "Từ giai thoại thành cảnh nổi tiếng",
+  "tone": "calm",
+  "text": "Cứ thế, người ta nhớ tiếng đàn mà quên Mã Tắc.",
+  "nhan": "BÌNH",
+  "so_v1": 76,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9278,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Vậy sau Nhai Đình, Gia Cát Lượng thật sự đã làm gì? Sử không ghi ông gảy đàn.",
+  "nhan": "SỬ*",
+  "so_v1": 77,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9279,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Sử ghi ông viết thư nhận lỗi.",
+  "nhan": "SỬ*",
+  "so_v1": 78,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9280,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Ông nhận mình đã dùng người sai và xin tự giáng chức xuống ba bậc. Ông xuống làm Hữu tướng quân, nhưng vẫn giữ việc điều hành triều đình.",
+  "nhan": "SỬ*",
+  "so_v1": 79,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9281,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Ông không bỏ cuộc. Cuối năm ấy, ông lại đem quân vây một thành tên là Trần Thương, nhưng không hạ được và phải rút.",
+  "nhan": "SỬ*",
+  "so_v1": 80,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9282,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Về sau, Tư Mã Ý mới thật sự đối đầu với ông ở Kỳ Sơn và Ngũ Trượng Nguyên.",
+  "nhan": "SỬ*",
+  "so_v1": 81,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9283,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Tư Mã Ý giữ chặt trại và không ra đánh.",
+  "nhan": "SỬ*",
+  "so_v1": 82,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9284,
+  "chuong": "Gia Cát Lượng thật sự đã làm gì",
+  "tone": "calm",
+  "text": "Còn Gia Cát Lượng lâm bệnh và qua đời năm hai trăm ba mươi bốn.",
+  "nhan": "SỬ*",
+  "so_v1": 82,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9285,
+  "chuong": "Vì sao cảnh ấy sống mãi",
+  "tone": "calm",
+  "text": "Vậy ta xếp lại cho rõ. Cảnh gảy đàn trên lầu cổng là hư cấu, được dựng từ một giai thoại có sẵn.",
+  "nhan": "BÌNH",
+  "so_v1": 83,
+  "hieu_ung": "X"
+ },
+ {
+  "n": 9286,
+  "chuong": "Vì sao cảnh ấy sống mãi",
+  "tone": "calm",
+  "text": "Còn thế cờ mở cổng thành thì có trong ghi chép xưa, nhưng gắn với Triệu Vân nhiều hơn là Gia Cát Lượng.",
+  "nhan": "BÌNH",
+  "so_v1": 84,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9287,
+  "chuong": "Vì sao cảnh ấy sống mãi",
+  "tone": "calm",
+  "text": "Điều chắc chắn nhất là Gia Cát Lượng đã thua ở Nhai Đình, rồi nhận lỗi và xin giáng chức.",
+  "nhan": "BÌNH",
+  "so_v1": 85,
+  "hieu_ung": "V"
+ },
+ {
+  "n": 9288,
+  "chuong": "Vì sao cảnh ấy sống mãi",
+  "tone": "calm",
+  "text": "Có lẽ vì một câu chuyện hay thường dễ nhớ hơn một thất bại có thật.",
+  "nhan": "BÌNH",
+  "so_v1": 86,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9289,
+  "chuong": "Vì sao cảnh ấy sống mãi",
+  "tone": "calm",
+  "text": "Còn bạn, nếu biết tiếng đàn ấy do người kể chuyện thêm vào, bạn có thấy cảnh ấy bớt hay không?",
+  "nhan": "BÌNH",
+  "so_v1": 87,
+  "hieu_ung": ""
+ },
+ {
+  "n": 9290,
+  "chuong": "Vì sao cảnh ấy sống mãi",
+  "tone": "calm",
+  "text": "Hay chính vì được người đời kể suốt hơn một nghìn năm, nó mới đáng nhớ như vậy?",
+  "nhan": "BÌNH",
+  "so_v1": 88,
+  "hieu_ung": ""
+ }
+]

@@ -1,0 +1,74 @@
+name: Nghe thử giọng Gemini (tiếng Anh)
+
+on:
+  push:
+    branches: [demo-giong-en]
+    paths: ['ke-hoach/demo-giong-en/chay.txt']
+  workflow_dispatch:
+    inputs:
+      voices:
+        description: "Giọng Gemini, cách nhau dấu phẩy (để trống = Charon,Orus,Enceladus)"
+        required: false
+        default: "Charon,Orus,Enceladus"
+
+permissions:
+  contents: write
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cài đặt
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pip install -q numpy
+      - name: Tạo file nghe thử
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          VOICES_INPUT: ${{ inputs.voices }}
+        run: |
+          mkdir -p demo logs
+          rm -f demo/list.txt
+          set -o pipefail
+          VOICES="$VOICES_INPUT"
+          [ -z "$VOICES" ] && VOICES=$(cat ke-hoach/demo-giong-en/chay.txt 2>/dev/null || echo "Charon,Orus,Enceladus")
+          python demo_giong_en.py "$VOICES" 2>&1 | tee logs/gemini-demo-en.txt
+      - name: Gửi Telegram
+        if: always()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] && [ -s demo/list.txt ] || exit 0
+          CHAT=$(cat telegram_chat_id.txt)
+          curl -s -o /dev/null -F chat_id="$CHAT" -F text="🎧 Nghe thử giọng tiếng Anh (History Mysteries Daily):" "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          while IFS='|' read -r name file || [ -n "$file" ]; do
+            [ -z "$file" ] && continue
+            curl -s -o /dev/null -F chat_id="$CHAT" -F audio=@"demo/$file" -F title="$name" \
+              -F performer="History Mysteries Daily" "https://api.telegram.org/bot${TG_TOKEN}/sendAudio"
+          done < demo/list.txt
+      - name: Lưu vào repo
+        if: always()
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add demo/ logs/gemini-demo-en.txt || true
+          git commit -q -m "Nghe thử giọng Gemini tiếng Anh" || exit 0
+          git pull --rebase -q || true
+          git push -q

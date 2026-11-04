@@ -1,0 +1,165 @@
+{
+ "id": "AN1b",
+ "slots": [
+  {
+   "slot": "S05",
+   "beats": "",
+   "mo_ta": "Örnen in the balloon house before launch",
+   "queries": [
+    "Andrées polarexpedition ballonghuset",
+    "Andrée balloon house Danskön",
+    "Andrée balloon 1897 hangar"
+   ]
+  },
+  {
+   "slot": "S11",
+   "beats": "",
+   "mo_ta": "Andrée with a balloon (Svea) in Sweden",
+   "queries": [
+    "Andrée ballongen Svea",
+    "Andrée Svea balloon 1893",
+    "ballongen Svea"
+   ]
+  },
+  {
+   "slot": "S20",
+   "beats": "",
+   "mo_ta": "Knut Frænkel portrait",
+   "queries": [
+    "Knut Fraenkel",
+    "Knut Frænkel polarforskare",
+    "Frænkel Andrée 1897 porträtt"
+   ]
+  },
+  {
+   "slot": "S23",
+   "beats": "",
+   "mo_ta": "Örnen lifting off, 11 July 1897",
+   "queries": [
+    "Andrées polarexpedition uppstigningen",
+    "Örnen uppstigning 1897",
+    "Andrée balloon ascent 1897"
+   ]
+  },
+  {
+   "slot": "S24",
+   "beats": "",
+   "mo_ta": "Örnen just after launch, low over the water",
+   "queries": [
+    "Andrées polarexpedition Örnen avfärden",
+    "Andrée balloon departure 1897",
+    "Örnen 11 juli 1897"
+   ]
+  },
+  {
+   "slot": "S25",
+   "beats": "",
+   "mo_ta": "Örnen in the air, drifting away",
+   "queries": [
+    "Andrée balloon in the air 1897",
+    "Örnen ballongen luften",
+    "Andrée Örnen flight"
+   ]
+  },
+  {
+   "slot": "S31",
+   "beats": "",
+   "mo_ta": "Camp and sledges at the landing site",
+   "queries": [
+    "Andrées polarexpedition kälkarna",
+    "Andrées polarexpedition lägret",
+    "Andrée expedition sledges ice"
+   ]
+  },
+  {
+   "slot": "S34",
+   "beats": "",
+   "mo_ta": "Boat or sledge crossing open water between ice floes",
+   "queries": [
+    "Andrées polarexpedition båten",
+    "Andrées polarexpedition råk",
+    "Fraenkels kälke båten"
+   ]
+  },
+  {
+   "slot": "S42",
+   "beats": "",
+   "mo_ta": "Tent / camp on the ice floe",
+   "queries": [
+    "Andrées polarexpedition tältet",
+    "Andrée expedition tent 1897",
+    "Andrées polarexpedition isflaket"
+   ]
+  },
+  {
+   "slot": "S48",
+   "beats": "",
+   "mo_ta": "Bratvaag expedition 1930",
+   "queries": [
+    "Bratvaag 1930",
+    "Gunnar Horn Bratvaag",
+    "Bratvaag Vitön"
+   ]
+  },
+  {
+   "slot": "S50",
+   "beats": "",
+   "mo_ta": "Finds from Kvitøya 1930 (boat, objects)",
+   "queries": [
+    "Andrée fynden Vitön 1930",
+    "Andrée expedition finds 1930",
+    "Andrées båt Vitön"
+   ]
+  },
+  {
+   "slot": "S51",
+   "beats": "",
+   "mo_ta": "Isbjørn / journalists 1930, Kvitøya",
+   "queries": [
+    "Isbjørn Vitön 1930",
+    "Knut Stubbendorff",
+    "Andrée 1930 Tromsø"
+   ]
+  },
+  {
+   "slot": "S53",
+   "beats": "",
+   "mo_ta": "Andrée, Strindberg, Frænkel grave/monument Stockholm",
+   "queries": [
+    "Andréegraven Norra begravningsplatsen",
+    "Andrée Strindberg Frænkel grav",
+    "Andrée monument Norra begravningsplatsen"
+   ]
+  },
+  {
+   "slot": "S56",
+   "beats": "",
+   "mo_ta": "Hauling sledges / boat between ice blocks (Strindberg photo)",
+   "queries": [
+    "Andrées polarexpedition kälke drages",
+    "Andrées polarexpedition isvandring",
+    "Andrées polarexpedition isblock"
+   ]
+  },
+  {
+   "slot": "S60",
+   "beats": "",
+   "mo_ta": "Primus stove / cooking apparatus of the expedition",
+   "queries": [
+    "Andrées polarexpedition primuskök",
+    "Andrée expedition stove",
+    "Andrées polarexpedition kokapparat"
+   ]
+  },
+  {
+   "slot": "S65",
+   "beats": "",
+   "mo_ta": "Map of the Andrée expedition route",
+   "queries": [
+    "Andrée expedition map route",
+    "Andrées polarexpedition karta",
+    "Andrée 1897 karta Vitön"
+   ]
+  }
+ ]
+}

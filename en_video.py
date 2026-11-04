@@ -262,13 +262,16 @@ def compose(src, dest, ay=0.5):
 def render_shot(args):
     """Zoom chậm + lia nhẹ, tính vị trí cắt theo điểm ảnh LẺ (PIL affine, nội suy bilinear) rồi đẩy khung thô vào ffmpeg.
     Không dùng zoompan của ffmpeg: nó làm tròn vị trí cắt theo số nguyên nên ảnh bị rung khi chuyển động chậm."""
-    png, out, dur, kind = args
+    png, out, dur, kind = args[:4]
+    fi, fo = (args[4], args[5]) if len(args) > 5 else (True, True)   # cảnh dài chia đôi: không mờ đen ở chỗ nối
     n = max(2, int(round(dur * FPS)))
     z0, z1 = (1.0, 1.1) if kind % 2 == 0 else (1.1, 1.0)
     sw, sh = int(W * 1.1), int(H * 1.1)          # nguồn đủ lớn: zoom 1.1 vẫn không phải phóng to ảnh
     src = Image.open(png).convert("RGB").resize((sw, sh), Image.LANCZOS)
     fade = min(0.4, dur / 4)
-    vf = (f"fade=t=in:st=0:d={fade:.2f},fade=t=out:st={max(0, dur - fade):.2f}:d={fade:.2f},format=yuv420p")
+    fades = ([f"fade=t=in:st=0:d={fade:.2f}"] if fi else []) + \
+            ([f"fade=t=out:st={max(0, dur - fade):.2f}:d={fade:.2f}"] if fo else [])
+    vf = ",".join(fades + ["format=yuv420p"])
     cmd = ["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
            "-i", "-", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(FPS), str(out)]
     pr = subprocess.Popen(cmd, stdin=subprocess.PIPE)
@@ -471,7 +474,7 @@ def dung(d, co_giong=True):
             if not png.exists():
                 compose(paths[s["slot"]], png, sel.get(s["slot"], {}).get("ay", 0.5))
             out = work / f"shot_{k:03d}_{j}.mp4"
-            jobs.append((png, out, dur / nsub, k + j))
+            jobs.append((png, out, dur / nsub, k + j, j == 0, j == nsub - 1))
             listing.append(out)
     log(f"{len(shots)} cảnh, {len(jobs)} đoạn hình")
     t0 = time.time()

@@ -29,7 +29,7 @@ NV.update({
 "zy":"Zhou Yu at about thirty-three, a handsome slim man with fine features, a thin moustache and a short neat beard, black hair in a topknot under a plain black cap, a plain solid dark teal long robe, a simple leather chest guard, a plain dark sash, empty hands",
 "zyy":"young Zhou Yu at about twenty-four, handsome and clean-shaven, black topknot, a plain solid dark teal robe with a plain sash, empty hands",
 "sc":"Sun Ce at about twenty-four, a stocky energetic young man with a short stubble beard and a broad grin, a plain solid dark maroon robe with a plain dark sash, empty hands",
-"sq":"Sun Quan at about twenty-six, a young ruler with a square face and a short beard, a purple silk robe with embroidered gold dragon-pattern borders and a jade belt, a low black cloth crown-cap with a flat top and a jade hairpin, empty hands",
+"sq":"Sun Quan at about twenty-six, a young ruler with a square face and a short beard, a purple silk robe with embroidered gold dragon-pattern borders and a jade belt, a black cloth headscarf tied around his topknot like his officers, a jade hairpin, no hat, empty hands",
 "cc":"Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, a plain solid dark-grey robe with a plain sash, a small flat black cloth cap, empty hands, no weapon",
 "hg":"Huang Gai, a tough old general of about sixty with a grey beard and weathered face, a plain solid dark brown robe under simple leather armour, empty hands",
 "ls":"Lu Su, a stout calm man of about thirty-seven with a round kind face and a plain moustache, a plain solid dark olive-green robe, empty hands",
@@ -356,6 +356,14 @@ FIX[36]=FIX.get(36,TOP)+NOMARK+" The wall and the beams are bare."
 FIX[19]=FIX.get(19,TOP)+" No toys, no animals, no teddy bear in the background. "+NOMARK
 FIX[70]=FIX.get(70,TOP)+NOMARK+NOHAIR+" The two old men have clearly different faces, one fat with a round face and a short grey beard, the other thin with a long white beard."
 FIX[3]=FIX.get(3,TOP)+NOHAIR
+
+# round 6
+FIX[24]=FIX.get(24,TOP)+" Only ONE small open rowing boat with NO sail and no mast; fire on the water; no air conditioner, no modern objects."
+FIX[124]=FIX.get(124,TOP)+" Show only two or three small boats, each with NO mast and NO sail, burning in a harbour. "
+FIX[51]=FIX.get(51,TOP)+" Sun Quan has NO hat at all: bare head with a black cloth headscarf wrapped around his topknot. "
+FIX[52]=FIX.get(52,TOP)+" Sun Quan has NO hat at all: bare head with a black cloth headscarf wrapped around his topknot. "
+FIX[57]=FIX.get(57,TOP)+" The sun is not visible; the sky shows only clouds, nothing glowing behind the man. The ships in the harbour have NO masts, only low hulls. "
+FIX[70]=FIX.get(70,TOP)+" Only the left man wears a black cap; the right man is BALD on top with white hair only at the sides, wears a dark brown robe, and has a clean-shaven chin with a thin moustache; the left man wears a grey robe with a long white beard. "
 
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):

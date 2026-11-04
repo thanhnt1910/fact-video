@@ -20,16 +20,16 @@
      "src": "WB,W"
     },
     {
-     "text": "Near a small stream, two of the men notice something that does not belong there. It is a boat, half buried in ice and snow.",
+     "text": "On the shore, two of the men notice something that does not belong there. It is a boat, half buried in ice and snow.",
      "slot": "S03",
      "tag": "CG",
-     "src": "W,WB"
+     "src": "W,WB,PH"
     },
     {
-     "text": "Among the gear is a boathook. Engraved on it are a few words: Andrée's Polar Expedition, eighteen ninety-six.",
+     "text": "In the boat is a bronze boathook. Engraved on it are a few words: Andrée's Polar Expedition, eighteen ninety-six.",
      "slot": "S04",
-     "tag": "CG",
-     "src": "W,WB"
+     "tag": "SỬ",
+     "src": "MO,W,WB"
     },
     {
      "text": "That name was famous. In eighteen ninety-seven, three Swedish men had set off to fly over the North Pole in a hydrogen balloon.",
@@ -97,12 +97,6 @@
      "src": "S,W"
     },
     {
-     "text": "According to later studies, other balloon experts doubted this method, and modern researchers agree it could not work as well as he claimed.",
-     "slot": "S14",
-     "tag": "TC",
-     "src": "W"
-    },
-    {
      "text": "Still, the plan caught Sweden's imagination. King Oscar the Second gave money, and so did Alfred Nobel, the inventor of dynamite.",
      "slot": "S15",
      "tag": "CG",
@@ -132,10 +126,10 @@
      "src": "W,S,WA"
     },
     {
-     "text": "In mid-August, a ship came into view. It was the Fram, returning from Fridtjof Nansen's famous expedition across the Arctic Ocean.",
+     "text": "On August fourteenth, a ship came into the harbor. It was the Fram, returning from Fridtjof Nansen's famous expedition across the Arctic Ocean.",
      "slot": "S18",
      "tag": "SỬ",
-     "src": "L"
+     "src": "MO,L"
     },
     {
      "text": "Soon after, the wind turned against them again, and the season was over. Andrée let the gas out of the balloon and sailed home.",
@@ -150,10 +144,10 @@
      "src": "L,W"
     },
     {
-     "text": "According to historians, Ekholm refused to fly again unless a better balloon was made. His place went to a twenty-seven-year-old engineer and athlete, Knut Frænkel.",
+     "text": "That autumn, Ekholm withdrew from the expedition. He did not consider the balloon reliable enough. His place went to a twenty-seven-year-old engineer and athlete, Knut Frænkel.",
      "slot": "S20",
-     "tag": "TC",
-     "src": "W,U"
+     "tag": "SỬ",
+     "src": "MO,W,PH"
     },
     {
      "text": "In the summer of eighteen ninety-seven, the team returned to Danes Island to try again.",
@@ -179,22 +173,22 @@
      "src": "W,WS,WC"
     },
     {
-     "text": "On Sunday, July eleventh, eighteen ninety-seven, a steady wind finally blew from the southwest. In the early afternoon, the balloon rose from the shed.",
+     "text": "On Sunday, July eleventh, eighteen ninety-seven, a steady wind finally blew from the southwest. In the early afternoon, the three men climbed aboard, the last ropes were cut, and the balloon rose.",
      "slot": "S23",
      "tag": "SỬ",
-     "src": "L,W,P"
+     "src": "MO,L,W,P"
     },
     {
-     "text": "Almost at once, it dipped low over the water. The long steering ropes twisted and came loose.",
+     "text": "Almost at once, it began to sink. The men threw out ballast, and the basket dipped down toward the sea before the balloon climbed again.",
      "slot": "S24",
-     "tag": "CG",
-     "src": "W,P"
+     "tag": "SỬ",
+     "src": "MO,PH,W"
     },
     {
-     "text": "Within minutes, the expedition lost the lower parts of all three ropes. The men also threw out sand to stay in the air.",
+     "text": "The long steering ropes twisted, and their screw joints came undone. Within minutes, the expedition had lost the lower parts of all three ropes.",
      "slot": "S24",
-     "tag": "CG",
-     "src": "P,W,S"
+     "tag": "SỬ",
+     "src": "MO,P,PH"
     },
     {
      "text": "Without the ropes, there was no way to steer. And with less weight, the balloon rose higher, where it lost hydrogen faster.",
@@ -209,10 +203,10 @@
      "src": "D,W"
     },
     {
-     "text": "According to his own notes, Strindberg threw out a small tin with farewell words to Anna as they passed a little island called Vogelsang. It is not known to have been found.",
+     "text": "According to his own notes, Strindberg threw out a small tin with farewell words to Anna as they passed a little island called Vogelsang. It has never been recovered.",
      "slot": "S26",
-     "tag": "TC",
-     "src": "P"
+     "tag": "CG",
+     "src": "P,CH"
     }
    ]
   },
@@ -220,10 +214,10 @@
    "title": "Down on the Ice",
    "beats": [
     {
-     "text": "In the hours that followed, the men sent out messages. Some were sealed in floating buoys, and others were tied to carrier pigeons.",
+     "text": "To send news home, they carried thirty-six carrier pigeons and twelve floating buoys. In the hours that followed, they released some of them.",
      "slot": "S27",
-     "tag": "CG",
-     "src": "W,M"
+     "tag": "SỬ",
+     "src": "MO,W,M"
     },
     {
      "text": "One pigeon landed on a Norwegian sealing ship and was shot. Its note said the balloon had passed eighty-two degrees north, and it mentioned no trouble at all.",
@@ -244,10 +238,10 @@
      "src": "W,D"
     },
     {
-     "text": "On July fourteenth, about sixty-five hours after takeoff, Andrée gave up. The three men climbed out onto the pack ice.",
+     "text": "On the morning of July fourteenth, just over sixty-five hours after takeoff, Andrée gave up. The three men climbed out onto the pack ice.",
      "slot": "S29",
-     "tag": "CG",
-     "src": "W,G,S,WA"
+     "tag": "SỬ",
+     "src": "MO,PH,S,WA"
     },
     {
      "text": "They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole.",
@@ -259,7 +253,7 @@
      "text": "Strindberg set up his camera and photographed the balloon lying on the ice. That picture survives. You are looking at it now.",
      "slot": "S30",
      "tag": "CG",
-     "src": "D,MM"
+     "src": "D,MM,PH"
     },
     {
      "text": "For a week they stayed near the wreck, sorting their gear and loading three sledges and a small boat.",
@@ -380,10 +374,10 @@
      "src": "W,D"
     },
     {
-     "text": "According to published transcriptions, Strindberg's last notes are only a word or two long.",
+     "text": "That last diary was later badly damaged by water and mold. Only about a third of its text can be read with the naked eye.",
      "slot": "S46",
-     "tag": "TC",
-     "src": "W"
+     "tag": "CG",
+     "src": "KI,RAA"
     },
     {
      "text": "What happened next, no one saw. Everything we know comes from what was found on the island thirty-three years later.",
@@ -397,28 +391,28 @@
    "title": "Found After Thirty-Three Years",
    "beats": [
     {
-     "text": "In August nineteen thirty, the Bratvaag's crew and scientists, led by Dr. Gunnar Horn, searched the camp.",
+     "text": "On August sixth, nineteen thirty, the Bratvaag's crew and scientists, led by the geologist Gunnar Horn, searched the camp.",
      "slot": "S48",
      "tag": "CG",
-     "src": "WB,S"
+     "src": "LB,PH,WB"
     },
     {
-     "text": "They found the remains of Andrée at the camp. A monogram on his jacket told them who he was.",
+     "text": "Near the boat, they found the remains of Andrée. A monogram on his jacket told them who he was, and a diary was still in his pocket.",
      "slot": "S48",
      "tag": "CG",
-     "src": "W,WB"
+     "src": "LB,PH,W"
     },
     {
-     "text": "A short distance away, in a gap between rocks covered with stones, lay a second body. Initials on the clothing showed it was Nils Strindberg.",
+     "text": "A short distance away, a crewman fetching water from a stream found a second body, in a narrow rock cleft under a thick layer of stones. Clothing marked with his initials showed it was Nils Strindberg.",
      "slot": "S49",
-     "tag": "CG",
-     "src": "WB,WA,U"
+     "tag": "SỬ",
+     "src": "MO,LB,WB"
     },
     {
-     "text": "That detail matters. Strindberg had been buried. So he died first, and at least one of his companions was still alive to bury him.",
+     "text": "That detail matters. Strindberg had been buried. So he died first, and his two companions buried him.",
      "slot": "S49",
-     "tag": "CG",
-     "src": "WA,U"
+     "tag": "SỬ",
+     "src": "MO,WA,U"
     },
     {
      "text": "The searchers also took away the boat, clothing, tools, a Swedish flag, and Andrée's diary.",
@@ -430,25 +424,25 @@
      "text": "The news caused a sensation across Europe. A group of journalists chartered a small ship, the Isbjørn, and sailed for the island.",
      "slot": "S51",
      "tag": "CG",
-     "src": "W,WA,WB"
+     "src": "LB,PH,W,WA"
     },
     {
-     "text": "About a month after the first find, they found the third body, Knut Frænkel's. They also found a tin box holding Strindberg's films, a logbook and maps.",
+     "text": "About a month after the first find, they reached the camp. There they found the remains of the third man, Knut Frænkel, along with more diaries and rolls of exposed film.",
      "slot": "S51",
      "tag": "CG",
-     "src": "W,WA"
+     "src": "PH,LB,W,WA"
     },
     {
-     "text": "The three men were brought home. On October fifth, nineteen thirty, Sweden held a solemn national ceremony in Stockholm, and King Gustaf the Fifth gave a speech.",
+     "text": "The three men were brought home. On October fifth, nineteen thirty, the ship carrying them reached Stockholm. Sweden held a solemn national ceremony, and King Gustaf the Fifth gave a speech.",
      "slot": "S52",
      "tag": "CG",
-     "src": "W,S,WA,WB"
+     "src": "LB,W,S,WA"
     },
     {
-     "text": "Their bodies were cremated, and their ashes were buried together in a cemetery in Stockholm.",
+     "text": "Their remains were cremated without any medical samples being taken, and their ashes were buried together in a cemetery in Stockholm.",
      "slot": "S53",
      "tag": "CG",
-     "src": "WA,WS"
+     "src": "KI,LB,WA,WS"
     }
    ]
   },
@@ -468,10 +462,10 @@
      "src": "W,WS"
     },
     {
-     "text": "There were about two hundred and forty exposed frames. He saved ninety-three of them.",
+     "text": "There were five rolls of exposed film. He managed to save ninety-three pictures.",
      "slot": "S55",
      "tag": "CG",
-     "src": "W,WS,AO"
+     "src": "PH,W,WS,AO"
     },
     {
      "text": "They show the Eagle lying on the ice, the men hauling their sledges, the boat at the edge of open water, and the polar bears they hunted.",
@@ -494,31 +488,31 @@
      "text": "So why did three fit men die so soon after reaching land, when they still had food, fuel and shelter?",
      "slot": "S58",
      "tag": "CG",
-     "src": "W,U,M30"
+     "src": "MO,W,U"
     },
     {
-     "text": "The bodies were cremated in nineteen thirty, so modern scientists cannot examine them. Instead, researchers have argued over the clues for decades.",
+     "text": "The official account published in nineteen thirty concluded that Strindberg died first, and that Andrée and Frænkel died later, side by side in the tent, probably at about the same time.",
      "slot": "S58",
-     "tag": "CG",
-     "src": "WA,WS,W"
+     "tag": "SỬ",
+     "src": "MO"
     },
     {
-     "text": "The first theory is trichinosis, a disease caught from undercooked meat that carries parasites. In nineteen fifty-two, Ernst Tryde argued that the polar bear meat had made the men sick.",
+     "text": "From the nineteen fifties, the most popular theory was trichinosis, a disease caught from undercooked meat that carries parasites. The men had eaten a lot of polar bear meat.",
      "slot": "S59",
      "tag": "CG",
-     "src": "W,U,WA"
+     "src": "KI,W,WA,U"
     },
     {
-     "text": "According to that study, parasite larvae were found in bear remains from the camp. But critics note that the diaries describe no high fever, and that this disease rarely kills quickly.",
+     "text": "But the diaries describe no high fever, and the disease very rarely kills, let alone three people at once.",
      "slot": "S59",
-     "tag": "TC",
-     "src": "W,U"
+     "tag": "CG",
+     "src": "W,U,KI"
     },
     {
-     "text": "The second theory is carbon monoxide from their stove inside a closed tent. But the stove still held fuel, and Strindberg had already been buried, so they did not all die at the same moment.",
+     "text": "The second theory is carbon monoxide from their stove inside a closed tent. But the stove was found still mostly full of fuel, and Strindberg had already been buried, so they did not all die at the same moment.",
      "slot": "S60",
-     "tag": "CG",
-     "src": "W,U"
+     "tag": "SỬ",
+     "src": "MO,U,W"
     },
     {
      "text": "Other researchers have suggested botulism, lead from food cans, or poisoning from eating bear liver. Each idea has its supporters, and each has problems.",
@@ -533,16 +527,16 @@
      "src": "W,U"
     },
     {
-     "text": "And there is a newer, darker idea. Swedish doctor and author Bea Uusma has studied the expedition for years. She argues that a polar bear attacked the camp, killing Strindberg and injuring Frænkel.",
+     "text": "And there is a newer, darker idea. Swedish doctor and author Bea Uusma has spent many years studying the expedition. She thinks the most likely explanation for Strindberg's death is a polar bear attack.",
      "slot": "S62",
      "tag": "CG",
-     "src": "W,S,G"
+     "src": "KI,W,S,G"
     },
     {
-     "text": "In her view, Andrée may have been left alone at the end, and may have taken his own life with morphine. Nearly empty morphine bottles were found near his remains.",
-     "slot": "S63",
-     "tag": "TC",
-     "src": "W,D"
+     "text": "One clue is his woolen underwear. One leg is missing, and the torn edge looks clawed rather than cut. Even so, she says openly that she cannot be certain.",
+     "slot": "S62",
+     "tag": "CG",
+     "src": "KI,W"
     },
     {
      "text": "Other experts disagree with her. More than a century later, there is still no proven cause of death.",
@@ -568,10 +562,10 @@
      "src": "P,S,W"
     },
     {
-     "text": "It is certain that Strindberg was buried by his companions, and that Andrée's diary stops in early October.",
+     "text": "It is certain that Strindberg died first and was buried by his companions, and that Andrée's diary stops in early October.",
      "slot": "S66",
-     "tag": "CG",
-     "src": "WA,U,W,D"
+     "tag": "SỬ",
+     "src": "MO,W,D"
     },
     {
      "text": "How the other two died, and why it happened so soon after reaching land, is still a theory.",

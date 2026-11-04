@@ -11,7 +11,7 @@
 Các con số trong tiêu đề (3 người, 33 năm, 1897, 1930) đều thống nhất giữa mọi nguồn, nên dùng được trên tiêu đề và bìa (quy tắc A5).
 
 ## Ảnh bìa
-- Nền: ảnh Strindberg chụp khí cầu Örnen nằm trên băng sau khi hạ xuống (ô S30, ảnh công cộng). Chưa dựng file bìa vì cần tải ảnh gốc trước; làm theo khuôn `assets/bia/RN1/tao_bia.py`.
+- Nền: ảnh Strindberg chụp khí cầu Örnen nằm trên băng sau khi hạ xuống (ô S30, ảnh công cộng). File bìa dựng ở bước làm ảnh, sau khi tải ảnh gốc, theo khuôn `assets/bia/RN1/tao_bia.py`.
 - Chữ lớn: **FOUND 33 YEARS LATER** (*Tìm thấy 33 năm sau*).
 - Chữ nhỏ: **1897 · North Pole balloon** (*1897 · khinh khí cầu tới Bắc Cực*).
 - Logo kênh History Mysteries Daily ở góc như RN1.
@@ -38,7 +38,7 @@ Chapters:
 
 Real history. Real documents. No made-up details. If a part of the story is disputed, we tell you.
 
-Sources: Henri Lachambre & Alexis Machuron, "Andrée and His Balloon" (1898); Lantz, Uusma & Tjernström, "The Lost Message of Nils Strindberg", Polar Record (2024); Svalbard Museum; Grenna Museum – Andrée Expedition Polar Center; Wikipedia, "Andrée's Arctic balloon expedition" and "Bratvaag Expedition".
+Sources: "Med Örnen mot polen" (1930), the official Swedish edition of the expedition diaries and the 1930 discovery reports; Henri Lachambre & Alexis Machuron, "Andrée and His Balloon" (1898); Lantz, Uusma & Tjernström, "The Lost Message of Nils Strindberg", Polar Record (2024); Svalbard Museum; Grenna Museum – Andrée Expedition Polar Center; Populär Historia; Litteraturbanken; Wikipedia, "Andrée's Arctic balloon expedition" and "Bratvaag Expedition".
 
 What do you think killed them? Tell us in the comments.
 

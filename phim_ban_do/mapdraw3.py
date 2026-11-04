@@ -109,19 +109,24 @@ def title_layer(year, name, sub):
 
 
 # ------------------------------------------------------------ thẻ nhân vật (icon cờ màu + tên)
-def card3(name, role, col):
+def card3(name, role, col, face=None):
     f1, f2 = font(46), font(28, False)
     g0 = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
-    w = int(max(g0.textlength(name, font=f1), g0.textlength(role, font=f2)) + 150)
+    w = int(max(g0.textlength(name, font=f1), g0.textlength(role, font=f2)) + (190 if face else 150))
     im = Image.new('RGBA', (w, 118), (0, 0, 0, 0))
     g = ImageDraw.Draw(im)
     g.rounded_rectangle((0, 0, w, 118), 16, fill=(16, 10, 6, 228), outline=col + (255,), width=3)
     # cờ lớn
     fx, fy = 26, 100
-    g.line([(fx, fy), (fx, 16)], fill=(130, 100, 64, 255), width=6)
-    g.polygon([(fx, 16), (fx + 62, 30), (fx + 50, 46), (fx + 62, 62), (fx, 56)], fill=col + (255,), outline=(240, 230, 205, 255))
-    g.text((112, 14), name, font=f1, fill=(250, 240, 215, 255))
-    g.text((112, 70), role, font=f2, fill=(215, 200, 170, 255))
+    if not face:
+        g.line([(fx, fy), (fx, 16)], fill=(130, 100, 64, 255), width=6)
+        g.polygon([(fx, 16), (fx + 62, 30), (fx + 50, 46), (fx + 62, 62), (fx, 56)], fill=col + (255,), outline=(240, 230, 205, 255))
+    if face:
+        g.rectangle((8, 8, 108, 110), fill=(16, 10, 6, 228))
+        MD.face(g, 58, 59, 46, face, col)
+    tx = 124 if face else 112
+    g.text((tx, 14), name, font=f1, fill=(250, 240, 215, 255))
+    g.text((tx, 70), role, font=f2, fill=(215, 200, 170, 255))
     return im
 
 

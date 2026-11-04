@@ -59,7 +59,59 @@ def tag(d,x,y,txt,col,size,fn=None):
     d.rounded_rectangle((x-w/2-p,y,x+w/2+p,y+h+p*1.6),size*0.25,fill=(246,238,214,235),outline=col+(255,),width=max(2,int(size*0.09)))
     d.text((x-w/2,y+p*0.3-b[1]*0+0),txt,font=f,fill=col+(255,))
 
+
+FACES={
+ 'zy':dict(ring=(46,100,180),hat='scarf',hatc=(30,28,34),beard='short',bc=(40,30,26),hair=(30,28,34),brow=0.5),
+ 'hg':dict(ring=(214,110,30),hat='cap',hatc=(120,120,120),beard='long',bc=(236,236,232),hair=(220,220,216),brow=0.2),
+ 'trn':dict(ring=(46,38,58),hat='helmet',hatc=(70,72,84),beard='short',bc=(40,30,26),hair=(30,28,34),brow=0.9),
+ 'sq':dict(ring=(120,60,150),hat='cap',hatc=(24,22,28),beard='thin',bc=(40,30,26),hair=(30,28,34),brow=0.3,jade=True),
+ 'sqt':dict(ring=(236,236,230),hat='scarf',hatc=(246,246,240),beard='thin',bc=(40,30,26),hair=(30,28,34),brow=0.1,sad=True),
+ 'tp':dict(ring=(46,100,180),hat='scarf',hatc=(30,28,34),beard='long',bc=(130,130,130),hair=(60,58,60),brow=0.6),
+}
+def face(d,x,y,r,key,ringcol=None):
+    P=FACES.get(key) or FACES['zy'];ink=(30,22,16,255);skin=(240,206,164,255)
+    rc=P['ring'] if ringcol is None else ringcol
+    d.ellipse((x-r,y-r,x+r,y+r),fill=rc+(255,),outline=ink,width=max(2,int(r*0.08)))
+    q=r*0.84
+    d.ellipse((x-q,y-q,x+q,y+q),fill=(250,238,206,255))
+    # tóc hai bên và cổ áo
+    d.polygon([(x-q*0.62,y+q*0.9),(x+q*0.62,y+q*0.9),(x+q*0.5,y+q*0.55),(x-q*0.5,y+q*0.55)],fill=P['ring']+(255,))
+    # khuôn mặt
+    d.ellipse((x-q*0.56,y-q*0.6,x+q*0.56,y+q*0.62),fill=skin,outline=ink,width=max(1,int(r*0.05)))
+    # râu
+    b=P['beard'];bc=P['bc']+(255,)
+    if b=='long': d.polygon([(x-q*0.5,y+q*0.12),(x+q*0.5,y+q*0.12),(x+q*0.36,y+q*0.55),(x,y+q*1.05),(x-q*0.36,y+q*0.55)],fill=bc,outline=ink)
+    elif b=='short': d.polygon([(x-q*0.52,y+q*0.1),(x-q*0.3,y+q*0.28),(x+q*0.3,y+q*0.28),(x+q*0.52,y+q*0.1),(x+q*0.38,y+q*0.58),(x,y+q*0.74),(x-q*0.38,y+q*0.58)],fill=bc,outline=ink)
+    elif b=='thin': d.polygon([(x-q*0.2,y+q*0.42),(x+q*0.2,y+q*0.42),(x+q*0.1,y+q*0.62),(x,y+q*0.74),(x-q*0.1,y+q*0.62)],fill=bc,outline=ink)
+    # mắt và mày
+    sad=P.get('sad',False)
+    for sx in (-1,1):
+        ex=x+sx*q*0.25;ey=y-q*0.08
+        d.ellipse((ex-q*0.11,ey-q*0.08,ex+q*0.11,ey+q*0.1),fill=(255,255,255,255),outline=ink)
+        d.ellipse((ex-q*0.05,ey-q*0.04,ex+q*0.05,ey+q*0.07),fill=ink)
+        k=P['brow']*q*0.12;kk=-k if not sad else k
+        d.line([(ex-q*0.15,ey-q*0.2+sx*kk*(-1)),(ex+q*0.15,ey-q*0.2+sx*kk)],fill=ink,width=max(2,int(r*0.07)))
+    if sad: d.arc((x-q*0.15,y+q*0.28,x+q*0.15,y+q*0.44),200,340,fill=ink,width=max(2,int(r*0.05)))
+    else: d.line([(x-q*0.12,y+q*0.33),(x+q*0.12,y+q*0.33)],fill=(160,60,50,255),width=max(2,int(r*0.06)))
+    # mũ, khăn
+    h=P['hat'];hc=P['hatc']+(255,)
+    if h=='scarf':
+        d.pieslice((x-q*0.62,y-q*0.78,x+q*0.62,y+q*0.28),180,360,fill=hc,outline=ink)
+        d.ellipse((x-q*0.16,y-q*0.98,x+q*0.16,y-q*0.66),fill=hc,outline=ink)
+        d.polygon([(x+q*0.5,y-q*0.3),(x+q*0.82,y-q*0.05),(x+q*0.6,y-q*0.02)],fill=hc,outline=ink)
+    elif h=='cap':
+        d.pieslice((x-q*0.64,y-q*0.8,x+q*0.64,y+q*0.3),180,360,fill=hc,outline=ink)
+        d.rectangle((x-q*0.64,y-q*0.28,x+q*0.64,y-q*0.18),fill=hc,outline=ink)
+        d.ellipse((x-q*0.15,y-q*0.98,x+q*0.15,y-q*0.7),fill=hc,outline=ink)
+        if P.get('jade'): d.ellipse((x-q*0.09,y-q*0.55,x+q*0.09,y-q*0.37),fill=(70,170,130,255),outline=ink)
+    elif h=='helmet':
+        d.pieslice((x-q*0.68,y-q*0.86,x+q*0.68,y+q*0.3),180,360,fill=hc,outline=ink)
+        d.polygon([(x-q*0.07,y-q*0.86),(x+q*0.07,y-q*0.86),(x,y-q*1.1)],fill=(180,40,34,255),outline=ink)
+        d.rectangle((x-q*0.68,y-q*0.3,x+q*0.68,y-q*0.2),fill=shade(hc[:3],0.8)+(255,),outline=ink)
+
 def emblem(d,x,y,r,kind,col):
+    if kind.startswith('face_'):
+        return face(d,x,y,r,kind[5:])
     ink=(30,22,16,255);d.ellipse((x-r,y-r,x+r,y+r),fill=col+(255,),outline=ink,width=max(2,int(r*0.14)))
     w=(250,244,226,255)
     if kind=='sun':

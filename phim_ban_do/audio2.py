@@ -97,17 +97,27 @@ def horn(t0,dur=1.8,g=0.45):
     n=int(dur*SR);t=np.arange(n)/SR;f=116*(1+0.012*np.sin(t*6))*(1+0.06*np.minimum(t/0.3,1));ph=np.cumsum(2*math.pi*f/SR)
     s=(np.sin(ph)+0.7*np.sin(2*ph)+0.5*np.sin(3*ph)+0.3*np.sin(4*ph))*0.35
     e=np.minimum(t/0.25,1)*np.minimum((dur-t)/0.5,1);add((s*e).astype(np.float32),t0,g)
+def windgust(t0,dur,g=0.7):
+    n=int(dur*SR);x=rng.normal(0,1,n).astype(np.float32);band=lp(x,1400)-lp(x,180)
+    tt=np.arange(n)/SR;swell=0.55+0.45*np.sin(2*math.pi*tt*0.33+1.0)+0.25*np.sin(2*math.pi*tt*0.9)
+    howl=np.sin(np.cumsum(2*math.pi*(520+170*np.sin(2*math.pi*tt*0.25))/SR))*0.05*(0.5+0.5*np.sin(2*math.pi*tt*0.31))
+    e=np.minimum(tt/0.8,1)*np.minimum((dur-tt)/1.2,1);add(((band*swell*2.2+howl)*e).astype(np.float32),t0,g)
 for (t0,t1,kind,a_,b_) in getattr(C,'FX',[]):
-    if kind=='catapult':
+    if kind=='wind': windgust(t0,t1-t0+1.0,0.9)
+    elif kind=='catapult':
         j=0
         while t0+j*2.2<=t1:
             ts=t0+j*2.2;creak(ts-0.2,0.5,0.3);thump(ts+0.25,0.5);stone_whistle(ts+0.3,1.2,0.35);thump(ts+1.5,1.0);crackle(ts+1.5,0.5,0.3,30);j+=1
+    elif kind=='arrow1':
+        bow(t0,0.6);thump(t1,0.9);tick(t1,0.9);crackle(t1,0.4,0.2,30)
     elif kind=='firearrows':
         volley(t0,t1,max(4,int((t1-t0)*3)),0.4);crackle(t0,t1-t0+1,0.3,18)
     elif kind=='horn':
         horn(t0,min(2.2,t1-t0+0.8),0.5)
     elif kind=='volley':
         volley(t0,t1,max(4,int((t1-t0)*2.5)),0.3)
+for (t0,t1,*_r) in getattr(C,'FIRES',[]):
+    crackle(t0,min(t1-t0,6.0),0.28,16)
 for (t0,t1,kind,a_,b_) in getattr(C,'OBJ',[]):
     if kind=='tower': thump(t1+0.05,0.9);crackle(t1,1.2,0.3,25)
     elif kind in ('tunnel','ditch'): steps(t0,2.5)

@@ -167,7 +167,7 @@ def _logo(px,a):
 _h.alpha_composite(_logo(130,0.8),(W-44-130,34))
 STATIC=Image.alpha_composite(STATIC,_h)
 CARDL={}
-for c in getattr(C,'CARDS3',[]): CARDL[(c[2],c[3])]=M3.card3(c[2],c[3],c[4])
+for c in getattr(C,'CARDS3',[]): CARDL[(c[2],c[3])]=M3.card3(c[2],c[3],c[4],getattr(C,'FACE',{}).get(c[2]))
 TITL={i:M3.title_layer(*x[2:]) for i,x in enumerate(getattr(C,'TITLES',[]))}
 QUOL={i:M3.quote_layer(x[2],x[3],x[4]) for i,x in enumerate(getattr(C,'QUOTES',[]))}
 MINI0=M3.minimap_base(PYR[3],300,int(300*RH/RW))
@@ -258,6 +258,13 @@ def frame(t):
         spr=ik*(2.2 if g.kind=='inf' else 3.0)*g.spread
         dd=g.dead_at(t);dead=dd is not None
         nfall=int(g.n*max(fr,0.5)) if dead else None
+        hero=g.emb.startswith('face_')
+        if hero:
+            hr=ik*2.9;by_=y-math.sin(t*3)*0 
+            d.ellipse((x-hr*1.05,y-hr*0.85+hr*0.35,x+hr*1.05,y+hr*1.25),fill=(30,22,16,70))
+            MD.face(d,x,y-hr*0.1,hr,g.emb[5:],col)
+            if g.label: tag2(d,x,y+hr*0.95,g,col,int(24*K*min(1.3,z**0.25)),1.0,False,t)
+            continue
         for i in range(g.n):
             ox,oy=g.off[i];px=x+ox*spr*1.7;py=y+oy*spr*0.85
             alive=(i<nfall) if dead else (i/g.n)<fr
@@ -303,7 +310,8 @@ def frame(t):
     # hiệu ứng phụ: máy bắn đá, tên lửa, kèn
     for (t0,t1,kind,a,b) in getattr(C,'FX',[]):
         if not(t0<=t<=t1+2.5): continue
-        ax,ay=v.sc(*a,K);bx,by=v.sc(*b,K);dist=math.hypot(bx-ax,by-ay)
+        ax,ay=v.sc(*a[:2],K);bx,by=v.sc(*b[:2],K);dist=math.hypot(bx-ax,by-ay)
+        if kind=='arrow1' and len(b)>2: bx+=b[2]*K;by+=b[3]*K;ax+=a[2]*K if len(a)>2 else 0;ay+=a[3]*K if len(a)>2 else 0
         if kind=='catapult':
             fl=1.5;nsh=max(1,int((t1-t0)/2.2))
             if t<=t1: # máy: khung gỗ và cần ném giật
@@ -335,6 +343,42 @@ def frame(t):
                 px=lerp(ax,bx,u)+off;py=lerp(ay,by,u)-math.sin(u*math.pi)*(dist*0.2+ik*1.5)
                 u2=max(0,u-0.05);qx=lerp(ax,bx,u2)+off;qy=lerp(ay,by,u2)-math.sin(u2*math.pi)*(dist*0.2+ik*1.5)
                 d.line([(qx,qy),(px,py)],fill=(40,28,18,235),width=int(4*K*0.6))
+        elif kind=='wind' and t<=t1+1.0:
+            al=max(0,min(1,(t-t0)/0.8,(t1+1.0-t)/0.8));dx,dy=bx-ax,by-ay;nn=math.hypot(dx,dy) or 1;ux,uy=dx/nn,dy/nn;pxp,pyp=-uy,ux
+            for i in range(60):
+                ph=(i*0.6180339)%1;sp=0.55+((i*37)%10)/22
+                u=(t*0.30*sp+ph)%1;off=(((i*53)%100)/100-0.5)*H*K*1.5
+                cx=W*K*0.5+ux*(u-0.5)*W*K*1.6+pxp*off;cy=H*K*0.5+uy*(u-0.5)*W*K*1.6+pyp*off
+                ln=ik*(10+((i*17)%9))
+                pts=[(cx-ux*ln*j/10+pxp*math.sin(j*0.8+t*5+i)*ik*0.55,cy-uy*ln*j/10+pyp*math.sin(j*0.8+t*5+i)*ik*0.55) for j in range(11)]
+                fd=math.sin(u*math.pi)*al
+                d.line(pts,fill=(70,110,150,int(120*fd)),width=max(3,int(9*K*0.7)),joint='curve');d.line(pts,fill=(255,255,255,int(235*fd)),width=max(2,int(5*K*0.7)),joint='curve')
+                hx,hy=pts[0];cr=ik*0.9
+                d.arc((hx-cr,hy-cr,hx+cr,hy+cr),int(math.degrees(math.atan2(uy,ux))+120),int(math.degrees(math.atan2(uy,ux))+330),fill=(255,255,255,int(150*fd)),width=max(2,int(3*K*0.7)))
+        elif kind=='arrow1':
+            u=(t-t0)/max(1e-6,t1-t0)
+            if 0<=u<=1:
+                e_=ease(u) if False else u
+                px=lerp(ax,bx,e_);py=lerp(ay,by,e_)-math.sin(e_*math.pi)*dist*0.18
+                u2=max(0,e_-0.06);qx=lerp(ax,bx,u2);qy=lerp(ay,by,u2)-math.sin(u2*math.pi)*dist*0.18
+                ang=math.atan2(py-qy,px-qx);L_=ik*4.2
+                for tr in range(6):
+                    uu=max(0,e_-tr*0.035);tx=lerp(ax,bx,uu);ty=lerp(ay,by,uu)-math.sin(uu*math.pi)*dist*0.18
+                    d.ellipse((tx-ik*0.14,ty-ik*0.14,tx+ik*0.14,ty+ik*0.14),fill=(255,255,255,int(160-tr*24)))
+                hx,hy=px,py;tx_,ty_=hx-math.cos(ang)*L_,hy-math.sin(ang)*L_
+                d.line([(tx_,ty_),(hx,hy)],fill=(70,48,28,255),width=max(4,int(7*K*0.6)))
+                d.polygon([(hx+math.cos(ang)*ik*0.9,hy+math.sin(ang)*ik*0.9),(hx+math.cos(ang+2.5)*ik*0.5,hy+math.sin(ang+2.5)*ik*0.5),(hx+math.cos(ang-2.5)*ik*0.5,hy+math.sin(ang-2.5)*ik*0.5)],fill=(200,205,210,255),outline=(40,30,24,255))
+                for sg in (1,-1): d.line([(tx_,ty_),(tx_-math.cos(ang+sg*0.5)*ik*0.8,ty_-math.sin(ang+sg*0.5)*ik*0.8)],fill=(200,60,50,255),width=max(3,int(5*K*0.6)))
+            else:
+                w_=t-t1
+                if 0<=w_<=1.8:
+                    k_=w_/1.8;al=int(255*(1-k_));r0=ik*(0.8+3.4*ease(min(1,k_*1.4)))
+                    d.ellipse((bx-r0,by-r0,bx+r0,by+r0),outline=(255,70,50,al),width=max(3,int(8*K*0.6)))
+                    pts=[]
+                    for q in range(16):
+                        rr=r0*(1.15 if q%2==0 else 0.62);aa=q*math.pi/8;pts.append((bx+math.cos(aa)*rr,by+math.sin(aa)*rr))
+                    d.polygon(pts,fill=(255,214,70,int(210*(1-k_))),outline=(200,40,30,al))
+                    ar=math.atan2(by-ay,bx-ax);d.line([(bx-math.cos(ar)*ik*3.4,by-math.sin(ar)*ik*3.4),(bx,by)],fill=(70,48,28,255),width=max(4,int(7*K*0.6)))
         elif kind=='horn' and t<=t1:
             k=(t-t0)/(t1-t0)
             for r_ in range(3):

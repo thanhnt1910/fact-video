@@ -11,21 +11,15 @@
    [khóa] GEMINI_API_KEY_11: …XVkg
    [khóa] GEMINI_API_KEY_12: …6oKQ
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 88 câu
+   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-04 14:11:42
+còn thiếu 48 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 9001-9016: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:11:42
-OK cụm 9001 - 9016 107.0 giây
-   [giọng] nhóm 9017-9032: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:12:11
-OK cụm 9017 - 9032 111.9 giây
-   [giọng] nhóm 9033-9048: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:12:52
-OK cụm 9033 - 9048 106.5 giây
-   [giọng] nhóm 9049-9064: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:13:19
-OK cụm 9049 - 9064 101.8 giây
-   [giọng] nhóm 9065-9080: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:14:13
-OK cụm 9065 - 9080 116.6 giây
-   [giọng] nhóm 9081-9088: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:14:32
-OK cụm 9081 - 9088 65.4 giây
+   [giọng] nhóm 9017-9032: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:40:48
+OK cụm 9017 - 9032 118.2 giây
+   [giọng] nhóm 9033-9048: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:41:16
+OK cụm 9033 - 9048 112.2 giây
+   [giọng] nhóm 9049-9064: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:41:45
+OK cụm 9049 - 9064 108.1 giây
 [báo cáo giọng] 88/88 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions

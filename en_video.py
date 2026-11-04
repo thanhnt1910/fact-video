@@ -258,10 +258,18 @@ def render_shot(args):
     return out
 
 
+def _num(k):
+    import re
+    m = re.search(r"\d+", k)
+    return int(m.group()) if m else 0
+
+
 def slot_images(d, slots):
-    """Ảnh cho từng ô; ô thiếu dùng ảnh của ô gần nhất đã có."""
+    """Ảnh cho từng ô: ảnh AI (assets/anh_en/<mã>/ai/<ô>.jpg) nếu có, không thì ảnh tư liệu; ô thiếu dùng ô gần nhất."""
     folder = img_dir(d)
     have = {p.stem: p for p in folder.glob("S*.jpg")}
+    for p in (folder / "ai").glob("S*.jpg"):
+        have[p.stem] = p          # ảnh AI thay ảnh tư liệu cùng ô (hoặc làm ô mới như S29B)
     names = sorted(slots)
     res, miss = {}, []
     for s in names:
@@ -270,7 +278,7 @@ def slot_images(d, slots):
         else:
             miss.append(s)
     for s in miss:
-        near = sorted(have, key=lambda k: abs(int(k[1:]) - int(s[1:])))
+        near = sorted(have, key=lambda k: abs(_num(k) - _num(s)))
         if not near:
             raise SystemExit("Chưa có ảnh nào: chạy tai-anh trước")
         res[s] = have[near[0]]

@@ -27,7 +27,7 @@ Nguồn: **H** = Hakluyt, *The fift voyage of M. John White* (bản chép tại 
 | 12 | Almost at once, things go wrong. One of their ships hits a shoal and ruins most of the food. Relations with the local people soon turn hostile. | CG | W | S11 |
 | 13 | In the spring of fifteen eighty-six, Lane's men attack and kill the local leader, Pemisapan. Lane's men are exhausted and short of food. | CG | W | S11 |
 | 14 | In June, the fleet of Sir Francis Drake arrives. A violent storm hits, and Lane and his starving men decide to sail home with Drake. | CG | W | S12 |
-| 15 | Soon after, a second fleet arrives with supplies and finds the island deserted. It leaves fifteen men behind to hold the place. Nothing more is ever heard from them. | CG | W | S13 |
+| 15 | Soon after, a second fleet arrives with supplies and finds the island deserted. It leaves fifteen men behind to hold the place. A year later, White finds no one, only some human bones. He believes they belonged to one of the fifteen. | CG | W,P | S13 |
 
 ## A Second Try, With Families
 
@@ -35,8 +35,8 @@ Nguồn: **H** = Hakluyt, *The fift voyage of M. John White* (bản chép tại 
 |---|---|---|---|---|
 | 16 | Raleigh tries again, and this time the plan is different. The new settlers will be families, and they will found a town, called the City of Raleigh. | CG | W | S14 |
 | 17 | Their governor is John White, a gifted artist who painted the plants, animals and people of the New World. His watercolors survive today. | SỬ | N | S15 |
-| 18 | In the spring of fifteen eighty-seven, about one hundred and fifteen men, women and children sail from England. Counts vary slightly, but it is roughly that number. | CG | W,U | S16 |
-| 19 | In July they reach Roanoke Island. The pilot of the fleet orders the sailors to leave the colonists there, and the ships will not carry them any farther. | CG | W | S17 |
+| 18 | In the spring of fifteen eighty-seven, more than one hundred men, women and children sail from England. Most counts land near one hundred and fifteen. | CG | W,U | S16 |
+| 19 | In July they reach Roanoke Island. According to White, the fleet's pilot orders the sailors to leave the colonists there, and refuses to carry them any farther. | TC | W | S17 |
 | 20 | They find Lane's old fort taken apart and the houses overgrown with weeds. The colonists unload their supplies and begin to settle anyway. | CG | W | S18 |
 | 21 | Trouble comes quickly. One colonist, George Howe, is killed while hunting for crabs alone. Then the English strike a village they think is hostile. | CG | W | S11 |
 | 22 | It is a terrible mistake. They attack people from Croatoan, the home of their friend Manteo, instead of the enemies they were looking for. | CG | W,H | S19 |
@@ -50,7 +50,7 @@ Nguồn: **H** = Hakluyt, *The fift voyage of M. John White* (bản chép tại 
 | 25 | Before he leaves, they make a plan. If the settlers must leave Roanoke, they will carve the name of their new home on a tree or a door post. | SỬ | H | S04 |
 | 26 | And if they are in danger, they will carve a cross above the name. That cross is the secret signal for trouble. Remember it. | SỬ | H | S05 |
 | 27 | They are already talking about moving about fifty miles inland, away from the coast. White leaves them to their plan. | SỬ | H | S22 |
-| 28 | He sails on August twenty-seventh. Behind him on the island are about a hundred people, including his daughter and his granddaughter, only nine days old. | CG | W,N | S23 |
+| 28 | He sails on August twenty-seventh. Behind him on the island are more than a hundred people, including his daughter and his granddaughter, only nine days old. | CG | W,N | S23 |
 
 ## Three Years of Delay
 
@@ -67,60 +67,69 @@ Nguồn: **H** = Hakluyt, *The fift voyage of M. John White* (bản chép tại 
 |---|---|---|---|---|
 | 33 | At last, in the summer of fifteen ninety, White gets passage on two ships, the Hopewell and the Moonlight. On August twelfth, they anchor near Croatoan Island. | CG | W | S27 |
 | 34 | Three days later, the crews see a column of smoke rising from Roanoke Island. It is the first sign of anyone on the island. | CG | W | S28 |
-| 35 | On the night of the seventeenth, White's party rows toward a fire on the shore. But the sailors decide not to land in the dark. | CG | W | S29 |
-| 36 | At dawn on the eighteenth, they land. On the sand, the men see the fresh footprints of local people, left during the night. | SỬ | H | S01 |
-| 37 | They walk toward the old settlement. High on a tree along the way, they find three letters, carved with care: C, R, O. | SỬ | H | S30 |
-| 38 | White knows what it means. It is part of the plan they made. The colonists have gone to Croatoan, the place where Manteo was born. | SỬ | H | S31 |
-| 39 | Then they reach the entrance. The wall of tree trunks still stands, strong and tall. But the houses behind it have been taken down. | SỬ | H | S04 |
-| 40 | On one post, in clear capital letters, is the word CROATOAN. And White looks for the cross, the agreed signal of danger. There is none. | SỬ | H | S05 |
-| 41 | Nearby are five chests that the colonists had hidden. Three belonged to White himself. They have been dug up, and his belongings are scattered. | SỬ | H | S32 |
-| 42 | His books are torn from their covers. His maps and pictures are ruined by rain. His armor is almost eaten through by rust. | SỬ | H | S32 |
-| 43 | Still, there is no cross. White concludes that the colonists were not in danger. They had simply moved, calmly, to Croatoan. | SỬ | H,W | S33 |
-| 44 | He wants to sail there at once. But a storm is building. A cable snaps, and the ship loses another anchor. | SỬ | H | S34 |
-| 45 | The ships are short of fresh water. The captains decide to head south, spend the winter in the Caribbean, and return to search in the spring. | SỬ | H | S34 |
-| 46 | They never do. Storms keep them from reaching Croatoan, and White sails home, arriving in England on October twenty-fourth. No Englishman ever sees those colonists again. | SỬ | N,W | S35 |
+| 35 | On the seventeenth, a boat carrying Captain Spicer capsizes in the surf at the harbor entrance. Seven men drown. | SỬ | H | S29 |
+| 36 | That night, from the boats, the crews see the light of a great fire through the woods at the north end of the island. | SỬ | H | S29 |
+| 37 | At daybreak on the eighteenth, they land. The fire has burned only grass and rotten trees. In the sand, the men see the fresh footprints of local people. | SỬ | H | S33 |
+| 38 | They walk toward the old settlement. High on a tree along the way, they find three letters, carved with care: C, R, O. | SỬ | H | S30 |
+| 39 | White knows what it means. It is part of the plan they made. The colonists have gone to Croatoan, the place where Manteo was born. | SỬ | H | S31 |
+| 40 | Then they reach the entrance. The wall of tree trunks still stands, strong and tall. But the houses behind it have been taken down. | SỬ | H | S04 |
+| 41 | On one post, in clear capital letters, is the word CROATOAN. And White looks for the cross, the agreed signal of danger. There is none. | SỬ | H | S05 |
+| 42 | Nearby are five chests that the colonists had hidden. Three belonged to White himself. They have been dug up, and his belongings are scattered. | SỬ | H | S32 |
+| 43 | His books are torn from their covers. His maps and pictures are ruined by rain. His armor is almost eaten through by rust. | SỬ | H | S32B |
+| 44 | Still, there is no cross. White concludes that the colonists were not in danger. They had simply moved to Croatoan. | SỬ | H,W | S33 |
+| 45 | He wants to sail there at once. But a storm is building. A cable snaps, and the ship loses another anchor. | SỬ | H | S34 |
+| 46 | The ships are short of fresh water. The captains decide to head south, spend the winter in the Caribbean, and return to search in the spring. | SỬ | H | S34 |
+| 47 | They never do. Storms keep them from reaching Croatoan, and White sails home, arriving in England on October twenty-fourth. No Englishman is known to have seen those colonists again. | SỬ | N,W | S35 |
 
 ## Where Did They Go?
 
 | # | Lời kể | Nhãn | Nguồn | Ảnh |
 |---|---|---|---|---|
-| 47 | So what happened to them? Historians have three main ideas, and each one comes with evidence, and with problems. | — | — | S36 |
-| 48 | The first idea: they went to Croatoan. The carving says so, and White believed it. Croatoan was an island about sixty miles south, home to friendly people. | CG | P,H | S37 |
-| 49 | In the early seventeen hundreds, a traveler named John Lawson visited the area. He wrote that some Hatteras people had gray eyes, and he suspected a link to the lost settlers. | TC | W | S38 |
-| 50 | In twenty-twenty, archaeologist Mark Horton reported European objects at a Native village on Hatteras Island, including part of a sword and a gun. | TC | W | S39 |
-| 51 | Some experts say this proves nothing about the colonists. Objects can travel through trade. So the Croatoan idea remains possible, but unproven. | TC | W | S39 |
-| 52 | The second idea: they moved inland, just as they had planned. A few years ago, researchers held one of White's own maps up to a light. | CG | W,U | S40 |
-| 53 | Under a paper patch, they found a hidden drawing of a small fort. It points to a place on the Albemarle Sound, inland from Roanoke Island. | CG | W,U | S40 |
-| 54 | Archaeologists call it Site X. There they found English pottery of a type used around the turn of the sixteen hundreds, and fragments of weapons. | CG | U,W | S41 |
-| 55 | The team suggests that a small group, perhaps six to ten colonists, may have lived there for a while. It would be a rare physical trace of them. | TC | U | S41 |
-| 56 | But the evidence is thin. The pottery could also come from the earlier colony, or from a trading post built decades later. Site X is a clue, not a conclusion. | TC | W,U | S42 |
-| 57 | The third idea comes from nature itself. In the nineteen-nineties, scientists studied the tree rings of centuries-old cypress trees along the coast. | SỬ | E | S43 |
-| 58 | The rings show that between fifteen eighty-seven and fifteen eighty-nine, the region suffered the worst three-year drought in eight hundred years. | SỬ | E | S44 |
-| 59 | A drought like that kills crops and dries up water. It would have hurt the settlers and the local people around them. The researchers call it a strong factor, not proof. | TC | E | S44 |
+| 48 | So what happened to them? Historians have three main ideas, and each one comes with evidence, and with problems. | — | — | S36 |
+| 49 | The first idea: they went to Croatoan. The carving says so, and White believed it. Croatoan was an island about sixty miles south, home to friendly people. | CG | P,H | S37 |
+| 50 | In the early seventeen hundreds, a traveler named John Lawson visited the area. He wrote that some Hatteras people had gray eyes, and he suspected a link to the lost settlers. | TC | W | S38 |
+| 51 | In twenty-twenty, archaeologist Mark Horton reported European objects at a Native village on Hatteras Island, including part of a sword and a gun. | TC | W | S39 |
+| 52 | Some experts say this proves nothing about the colonists. Objects can travel through trade. So the Croatoan idea remains possible, but unproven. | TC | W | S39 |
+| 53 | The second idea: they moved inland, just as they had planned. In twenty twelve, researchers at the British Museum held one of White's own maps up to a light. | CG | W,U | S40 |
+| 54 | Under a paper patch, they found a hidden drawing of a small fort. It points to a place on the Albemarle Sound, inland from Roanoke Island. | CG | W,U | S40 |
+| 55 | Archaeologists call it Site X. There they found English pottery of a type used around the turn of the sixteen hundreds, and fragments of weapons. | CG | U,W | S41 |
+| 56 | The team suggests that a small group, perhaps six to ten colonists, may have lived there for a while. It would be a rare physical trace of them. | TC | U | S41 |
+| 57 | But the evidence is thin. The pottery could also come from the earlier colony, or from a trading post built decades later. Site X is a clue, not a conclusion. | TC | W,U | S42 |
+| 58 | The third idea comes from nature itself. In the nineteen-nineties, scientists studied the tree rings of centuries-old cypress trees along the coast. | SỬ | E | S43 |
+| 59 | The rings show that between fifteen eighty-seven and fifteen eighty-nine, the region suffered the worst three-year drought in eight hundred years. | SỬ | E | S44 |
+| 60 | A drought like that kills crops and dries up water. It would have hurt the settlers and the local people around them. The researchers call it a strong factor, not proof. | TC | E | S44 |
 
 ## Legends and Forgeries
 
 | # | Lời kể | Nhãn | Nguồn | Ảnh |
 |---|---|---|---|---|
-| 60 | Over the centuries, other stories have grown around this mystery. Some are almost certainly false. | — | — | S45 |
-| 61 | Early in the sixteen hundreds, a writer named William Strachey described a massacre of the colonists by a Native leader. Historians widely doubt his account. | TC | W | S46 |
-| 62 | Then there are the Dare Stones. Between nineteen thirty-seven and nineteen forty, dozens of stones turned up, carved with messages that claimed to come from the survivors. | SỬ | P | S47 |
-| 63 | In nineteen forty-one, a journalist exposed most of them as forgeries. The very first stone is still debated by experts today. | SỬ | P | S47 |
-| 64 | Some Lumbee people trace their ancestry to the Croatoan and the colonists. Historians say there is no firm proof, and DNA projects have not found a confirmed descendant. | TC | W | S48 |
-| 65 | Time has also erased evidence. Between eighteen fifty-one and nineteen seventy, the northern shore of Roanoke Island lost about nine hundred feet of land to erosion. | CG | W | S49 |
-| 66 | Whatever the colonists left there may now lie under water. | GT | W | S49 |
+| 61 | Over the centuries, other stories have grown around this mystery. Some are almost certainly false. | — | — | S45 |
+| 62 | Early in the sixteen hundreds, a writer named William Strachey described a massacre of the colonists by a Native leader. Historians widely doubt his account. | TC | W | S46 |
+| 63 | Then there are the Dare Stones. Between nineteen thirty-seven and nineteen forty, dozens of stones turned up, carved with messages that claimed to come from the survivors. | SỬ | P | S47 |
+| 64 | In nineteen forty-one, a journalist exposed most of them as forgeries. The very first stone is still debated by experts today. | SỬ | P | S47 |
+| 65 | Some Lumbee people trace their ancestry to the Croatoan and the colonists. Historians say there is no firm proof, and DNA projects have not found a confirmed descendant. | TC | W | S48 |
+| 66 | Time has also erased evidence. Between eighteen fifty-one and nineteen seventy, the northern shore of Roanoke Island lost about nine hundred feet of land to erosion. | CG | W | S49 |
+| 67 | Whatever the colonists left there may now lie under water. | GT | W | S49 |
 
 ## What We Really Know
 
 | # | Lời kể | Nhãn | Nguồn | Ảnh |
 |---|---|---|---|---|
-| 67 | So let us separate fact from guess. It is certain that about one hundred and fifteen English settlers were left on Roanoke Island in fifteen eighty-seven. | CG | N,W,U | S50 |
-| 68 | It is certain that John White found the settlement empty three years later. It is certain that he found the word CROATOAN, and no cross. | SỬ | H | S05 |
-| 69 | And it is certain that no one ever saw those colonists again. Everything else is a theory. | SỬ | N | S51 |
-| 70 | Perhaps they split up. Some may have gone south to Croatoan, others inland, and some may have died of hunger and drought. We simply do not know. | GT | — | S52 |
-| 71 | Mysteries like this are rarely solved by a single discovery. They are solved slowly, by small clues in the soil. Archaeologists are still digging today. | CG | W,U | S41 |
-| 72 | More than four hundred years later, a carved word on a post is still the only message the Lost Colony left behind. | CG | N,H | S05 |
-| 73 | What do you think it meant? Tell us in the comments, and come back tomorrow for another true mystery from history. | — | — | S53 |
+| 68 | So let us separate fact from guess. It is certain that more than one hundred English settlers were left on Roanoke Island in fifteen eighty-seven. | CG | N,W,U | S50 |
+| 69 | It is certain that John White found the settlement empty three years later. It is certain that he found the word CROATOAN, and no cross. | SỬ | H | S05 |
+| 70 | And there is no confirmed sighting of those colonists after that. Everything else is a theory. | CG | N,H | S51 |
+| 71 | Perhaps they split up. Some may have gone south to Croatoan, others inland, and some may have died of hunger and drought. We simply do not know. | GT | — | S52 |
+| 72 | Mysteries like this are rarely solved by a single discovery. They are solved slowly, by small clues in the soil. Archaeologists are still digging today. | CG | W,U | S41 |
+| 73 | More than four hundred years later, a carved word on a post is still the only message the Lost Colony left behind. | CG | N,H | S05 |
+| 74 | What do you think it meant? Tell us in the comments, and come back tomorrow for another true mystery from history. | — | — | S53 |
+
+## Sửa ngày 04/11/2026 sau khi tự đối chiếu lại (74 câu)
+- Câu 15: bỏ "nothing more is ever heard"; thay bằng việc White (1587) chỉ thấy xương người, ông tin là của một trong 15 người (Wikipedia; NCpedia chỉ nói "không thấy dấu vết", nên giữ chữ "ông tin").
+- Câu 18, 28, 67: bỏ "about 115 / a hundred" chắc nịch; dùng "hơn một trăm"; số liệu dao động 112–121 (Wikipedia), 114 (Quinn), 150 (NCpedia).
+- Câu 19: hạ xuống TC, thêm "theo lời White" (chỉ có Wikipedia).
+- Câu 35–37: thêm vụ thuyền Spicer lật, bảy người chết đuối (17/8) và đám cháy thấy ban đêm; bỏ câu "thủy thủ quyết định không lên bờ trong bóng tối" vì không có trong Hakluyt (đã đọc nguyên văn tại constitution.org).
+- Câu 43: bỏ "calmly". Câu 47 (cũ 46) và 70 (cũ 69): đổi "no one ever" thành "không được biết / không có lần thấy nào được xác nhận".
+- Câu 53 (cũ 52): "a few years ago" thành "năm 2012" (miếng vá được để ý 11/2011, Site X đặt tên 2012, đào 2015 — Wikipedia).
 
 ## Trạng thái kiểm chứng
 

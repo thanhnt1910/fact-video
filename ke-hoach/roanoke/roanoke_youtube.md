@@ -3,15 +3,15 @@
 Ảnh bìa: `assets/bia/RN1/RN1_thumbnail.jpg` (1280x720; nguồn tạo: `assets/bia/RN1/tao_bia.py`). Ảnh cây khắc "CRO" là bản dựng lại tại Pháo đài Raleigh (không phải cây gốc năm 1590) — mô tả đã ghi rõ.
 
 ## Tiêu đề (chọn một)
-1. **115 People Vanished and Left One Word: CROATOAN** ← đề xuất (đúng nội dung, có con số + từ bí ẩn, 51 ký tự)
-2. The Lost Colony of Roanoke: What Really Happened to 115 People?
-3. 115 English Settlers Disappeared. This Is the Only Clue.
+1. **100+ People Vanished and Left One Word: CROATOAN** ← đề xuất (có con số + từ bí ẩn; dùng "100+" vì số người trong sử dao động 112–121)
+2. The Lost Colony of Roanoke: What Really Happened to 100+ People?
+3. 100+ English Settlers Disappeared. This Is the Only Clue.
 
 ## Mô tả (dán nguyên)
 ```
 In 1587, more than 100 English settlers built a village on Roanoke Island. Three years later, their leader came back with supplies and found the houses empty, no sign of a fight, and one word carved into a post: CROATOAN.
 
-What did it mean? Where did 115 people go? In this video we follow the documented story step by step, and we say clearly where the evidence stops and the guessing begins.
+What did it mean? Where did more than 100 people go? In this video we follow the documented story step by step, and we say clearly where the evidence stops and the guessing begins.
 
 What this video covers:
 • Why the colony had a deadline

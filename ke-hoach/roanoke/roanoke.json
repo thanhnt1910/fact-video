@@ -96,10 +96,10 @@
      "src": "W"
     },
     {
-     "text": "Soon after, a second fleet arrives with supplies and finds the island deserted. It leaves fifteen men behind to hold the place. Nothing more is ever heard from them.",
+     "text": "Soon after, a second fleet arrives with supplies and finds the island deserted. It leaves fifteen men behind to hold the place. A year later, White finds no one, only some human bones. He believes they belonged to one of the fifteen.",
      "slot": "S13",
      "tag": "CG",
-     "src": "W"
+     "src": "W,P"
     }
    ]
   },
@@ -119,15 +119,15 @@
      "src": "N"
     },
     {
-     "text": "In the spring of fifteen eighty-seven, about one hundred and fifteen men, women and children sail from England. Counts vary slightly, but it is roughly that number.",
+     "text": "In the spring of fifteen eighty-seven, more than one hundred men, women and children sail from England. Most counts land near one hundred and fifteen.",
      "slot": "S16",
      "tag": "CG",
      "src": "W,U"
     },
     {
-     "text": "In July they reach Roanoke Island. The pilot of the fleet orders the sailors to leave the colonists there, and the ships will not carry them any farther.",
+     "text": "In July they reach Roanoke Island. According to White, the fleet's pilot orders the sailors to leave the colonists there, and refuses to carry them any farther.",
      "slot": "S17",
-     "tag": "CG",
+     "tag": "TC",
      "src": "W"
     },
     {
@@ -184,7 +184,7 @@
      "src": "H"
     },
     {
-     "text": "He sails on August twenty-seventh. Behind him on the island are about a hundred people, including his daughter and his granddaughter, only nine days old.",
+     "text": "He sails on August twenty-seventh. Behind him on the island are more than a hundred people, including his daughter and his granddaughter, only nine days old.",
      "slot": "S23",
      "tag": "CG",
      "src": "W,N"
@@ -236,13 +236,19 @@
      "src": "W"
     },
     {
-     "text": "On the night of the seventeenth, White's party rows toward a fire on the shore. But the sailors decide not to land in the dark.",
+     "text": "On the seventeenth, a boat carrying Captain Spicer capsizes in the surf at the harbor entrance. Seven men drown.",
      "slot": "S29",
-     "tag": "CG",
-     "src": "W"
+     "tag": "SỬ",
+     "src": "H"
     },
     {
-     "text": "At dawn on the eighteenth, they land. On the sand, the men see the fresh footprints of local people, left during the night.",
+     "text": "That night, from the boats, the crews see the light of a great fire through the woods at the north end of the island.",
+     "slot": "S29",
+     "tag": "SỬ",
+     "src": "H"
+    },
+    {
+     "text": "At daybreak on the eighteenth, they land. The fire has burned only grass and rotten trees. In the sand, the men see the fresh footprints of local people.",
      "slot": "S33",
      "tag": "SỬ",
      "src": "H"
@@ -284,7 +290,7 @@
      "src": "H"
     },
     {
-     "text": "Still, there is no cross. White concludes that the colonists were not in danger. They had simply moved, calmly, to Croatoan.",
+     "text": "Still, there is no cross. White concludes that the colonists were not in danger. They had simply moved to Croatoan.",
      "slot": "S33",
      "tag": "SỬ",
      "src": "H,W"
@@ -302,7 +308,7 @@
      "src": "H"
     },
     {
-     "text": "They never do. Storms keep them from reaching Croatoan, and White sails home, arriving in England on October twenty-fourth. No Englishman ever sees those colonists again.",
+     "text": "They never do. Storms keep them from reaching Croatoan, and White sails home, arriving in England on October twenty-fourth. No Englishman is known to have seen those colonists again.",
      "slot": "S35",
      "tag": "SỬ",
      "src": "N,W"
@@ -343,7 +349,7 @@
      "src": "W"
     },
     {
-     "text": "The second idea: they moved inland, just as they had planned. A few years ago, researchers held one of White's own maps up to a light.",
+     "text": "The second idea: they moved inland, just as they had planned. In twenty twelve, researchers at the British Museum held one of White's own maps up to a light.",
      "slot": "S40",
      "tag": "CG",
      "src": "W,U"
@@ -443,7 +449,7 @@
    "title": "What We Really Know",
    "beats": [
     {
-     "text": "So let us separate fact from guess. It is certain that about one hundred and fifteen English settlers were left on Roanoke Island in fifteen eighty-seven.",
+     "text": "So let us separate fact from guess. It is certain that more than one hundred English settlers were left on Roanoke Island in fifteen eighty-seven.",
      "slot": "S50",
      "tag": "CG",
      "src": "N,W,U"
@@ -455,10 +461,10 @@
      "src": "H"
     },
     {
-     "text": "And it is certain that no one ever saw those colonists again. Everything else is a theory.",
+     "text": "And there is no confirmed sighting of those colonists after that. Everything else is a theory.",
      "slot": "S51",
-     "tag": "SỬ",
-     "src": "N"
+     "tag": "CG",
+     "src": "N,H"
     },
     {
      "text": "Perhaps they split up. Some may have gone south to Croatoan, others inland, and some may have died of hunger and drought. We simply do not know.",

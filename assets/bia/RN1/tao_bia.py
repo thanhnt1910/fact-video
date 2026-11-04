@@ -38,7 +38,7 @@ def text(xy, s, size, fill, stroke=0):
     dr.text(xy, s, font=f, fill=fill, stroke_width=stroke, stroke_fill=(0, 0, 0))
 
 text((50, 40), "HISTORY MYSTERIES DAILY", 30, (230, 190, 90))
-text((46, 120), "115 PEOPLE", 150, (255, 255, 255), 4)
+text((46, 120), "100+ PEOPLE", 150, (255, 255, 255), 4)
 text((46, 270), "VANISHED", 190, (235, 40, 30), 5)
 text((50, 490), "AND LEFT ONE WORD:", 58, (255, 255, 255), 2)
 text((50, 560), "CROATOAN", 112, (240, 200, 90), 4)

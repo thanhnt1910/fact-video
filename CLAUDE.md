@@ -248,3 +248,4 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Định dạng: bảng song ngữ `ke-hoach/<chủ đề>/<chủ đề>_song_ngu.md` (cột: số câu, English lời đọc, Tiếng Việt, nhãn độ chắc), dịch sát nghĩa, đúng thứ tự và đúng số câu với `<chủ đề>.json`. Đơn vị tiếng Anh (dặm, feet) giữ nguyên trong lời đọc, bản Việt có thể ghi thêm quy đổi.
 - Mô tả YouTube, tiêu đề và ảnh bìa cũng kèm nghĩa tiếng Việt khi gửi duyệt.
 - Mẫu: `ke-hoach/roanoke/roanoke_song_ngu.md` (bản dịch lưu ở `vi.json`). Sửa lời đọc thì sửa cả hai bản.
+- **Quy tắc kiểm chứng và viết kịch bản tiếng Anh chi tiết** (chủ kênh yêu cầu 04/11/2026): `ke-hoach/quy-tac-kich-ban-tieng-anh.md`. Bắt buộc đọc trước khi viết hoặc sửa kịch bản tiếng Anh (đối chiếu văn bản gốc, rà sự kiện bị sót, câu phủ định tuyệt đối cần hai nguồn, số dao động không đưa vào tiêu đề/bìa, cấm mốc thời gian tương đối).

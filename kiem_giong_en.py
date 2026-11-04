@@ -8,7 +8,7 @@ import gemini_keys
 
 CLIPS = [("00:54.0", "00:01:00.6"), ("03:58.0", "04:07.0"), ("06:55.5", "07:01.6"),
          ("07:11.4", "07:16.4"), ("08:39.8", "08:45.4"), ("12:13.6", "12:18.3")]
-MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"]
+MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash"]
 ASK = ("Listen to this clip of an English documentary narrator. 1) Transcribe it exactly as spoken. "
        "2) The text contains the word Croatoan (a place name; correct pronunciation is kro-uh-TAN, "
        "also acceptable: kro-uh-TOH-an). Spell phonetically, syllable by syllable with the stressed syllable in CAPITALS, "
@@ -28,7 +28,7 @@ def ask(b64, key):
             with urllib.request.urlopen(req, timeout=120) as r:
                 return json.loads(r.read())["candidates"][0]["content"]["parts"][0]["text"]
         except urllib.error.HTTPError as e:
-            last = f"HTTP {e.code}: {e.read().decode('utf-8','replace')[:300]}"
+            last = f"{m} HTTP {e.code}: {e.read().decode('utf-8','replace')[:200]}"; print("   ", last[:230], flush=True)
             if e.code in (429, 402, 403):
                 raise RuntimeError(last)
         except Exception as e:

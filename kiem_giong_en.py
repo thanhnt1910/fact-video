@@ -8,7 +8,7 @@ import gemini_keys
 
 CLIPS = [("00:54.0", "00:01:00.6"), ("03:58.0", "04:07.0"), ("06:55.5", "07:01.6"),
          ("07:11.4", "07:16.4"), ("08:39.8", "08:45.4"), ("12:13.6", "12:18.3")]
-MODELS = ["gemini-3.8-flash", "gemini-flash-latest", "gemini-2.5-flash"]
+MODELS = ["gemini-3.8-flash", "gemini-flash-latest"]
 ASK = ("Listen to this clip of an English documentary narrator. 1) Transcribe it exactly as spoken. "
        "2) The text contains the word Croatoan (a place name; correct pronunciation is kro-uh-TAN, "
        "also acceptable: kro-uh-TOH-an). Spell phonetically, syllable by syllable with the stressed syllable in CAPITALS, "
@@ -17,8 +17,10 @@ ASK = ("Listen to this clip of an English documentary narrator. 1) Transcribe it
 
 
 def ask(b64, key):
+    import time
     last = ""
-    for m in MODELS:
+    for m in MODELS * 5:
+        time.sleep(0 if not last else 20)
         body = {"contents": [{"parts": [{"text": ASK}, {"inline_data": {"mime_type": "audio/mp3", "data": b64}}]}]}
         req = urllib.request.Request(
             f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent",

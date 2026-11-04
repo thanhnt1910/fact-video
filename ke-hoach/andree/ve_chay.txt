@@ -1,1 +1,1 @@
-lam_lai=
+lam_lai=S04,S12,S23,S25,S29,S35,S40,S47,S53,S54,S58,S60

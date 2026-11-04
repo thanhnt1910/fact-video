@@ -137,33 +137,6 @@
    ]
   },
   {
-   "slot": "S23",
-   "beats": "26",
-   "mo_ta": "Örnen lifting off, 11 July 1897",
-   "queries": [
-    "Andrée balloon launch 1897",
-    "Örnen ascent Danskøya 11 July 1897"
-   ]
-  },
-  {
-   "slot": "S24",
-   "beats": "27,28",
-   "mo_ta": "Örnen low over the water after launch",
-   "queries": [
-    "Örnen after takeoff 1897",
-    "Andrée balloon over water 1897"
-   ]
-  },
-  {
-   "slot": "S25",
-   "beats": "29,30",
-   "mo_ta": "Örnen drifting away",
-   "queries": [
-    "Andrée balloon drifting north 1897",
-    "Örnen in the air 1897"
-   ]
-  },
-  {
    "slot": "S30",
    "beats": "38,87",
    "mo_ta": "Örnen on the ice after landing (Strindberg photo)",
@@ -290,15 +263,6 @@
    ]
   },
   {
-   "slot": "S53",
-   "beats": "67",
-   "mo_ta": "Andrée grave, Norra begravningsplatsen",
-   "queries": [
-    "Andrée grave Norra begravningsplatsen",
-    "Andréegraven Stockholm"
-   ]
-  },
-  {
    "slot": "S55",
    "beats": "70",
    "mo_ta": "Restored Strindberg photograph",
@@ -332,15 +296,6 @@
    "queries": [
     "polar bear Svalbard",
     "polar bear Arctic"
-   ]
-  },
-  {
-   "slot": "S60",
-   "beats": "77,78",
-   "mo_ta": "The expedition's Primus stove",
-   "queries": [
-    "Andrée expedition primus stove",
-    "Andrée expedition stove Grenna"
    ]
   },
   {

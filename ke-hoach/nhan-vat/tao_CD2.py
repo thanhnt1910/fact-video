@@ -323,6 +323,8 @@ FIX[58]=FIX.get(58,TOP)+" "+ONE
 FIX[64]=FIX.get(64,TOP)+" "+ONE
 FIX[66]=FIX.get(66,TOP)+" "+ONE
 FIX[124]=FIX.get(124,TOP)+" "+ONE
+ov(6,"a Han storyteller, a thin grey-bearded man in a brown robe, stands behind a low wooden table in a market square; on the table stand four tiny carved wooden chess-piece-like figures in a row, each only as tall as his hand, simple blank-faced wooden figurines in off-white, olive-green, dark teal and maroon painted cloth, all standing upright; a few townspeople of different ages watch","The four figurines are small inanimate wooden toys standing on the tabletop; nobody lies on the table. ")
+ov(75,"seen from behind, exactly ONE townsman stands in the foreground of a dirt road that forks ahead into a wide Y, with one hand on his chin; the left fork runs down to a river where a few one-masted Han river boats burn with orange flames, the right fork runs to a small open wooden stage with a softly lit plain screen; one continuous landscape at dusk, no second figure","A single continuous wide landscape drawn as one scene from one viewpoint, with no panels, no frame lines and no split in the middle. ")
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

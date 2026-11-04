@@ -30,6 +30,7 @@ for b in kb:
     if abs(r - 1) > 0.05 and '--khong-atempo' not in sys.argv: tempo = max(0.90, min(1.10, r))   # --khong-atempo: không đổi tốc độ từng đoạn (chỉ chỉnh âm lượng)   # nhanh hơn trung vị thì làm chậm (atempo<1) hay ngược lại: atempo = r làm giọng nhanh lên khi r>1
     tempo = 1 / r if abs(r - 1) > 0.05 else 1.0
     tempo = max(0.90, min(1.10, tempo))
+    if '--khong-atempo' in sys.argv: tempo = 1.0   # sửa 04/11: cờ này trước bị dòng trên ghi đè
     tmp = f'/tmp/_ch_{n}.wav'
     if str(n) in NOI:   # nối đuôi đoạn trước (phần sau mốc cắt) vào đầu đoạn này
         pv, mc = NOI[str(n)]   # đoạn trước và mốc (giây trên bản thô) bắt đầu phần đuôi cần nối

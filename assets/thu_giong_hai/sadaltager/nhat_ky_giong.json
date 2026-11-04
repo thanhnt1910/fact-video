@@ -2422,5 +2422,17 @@
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "calm"
+},
+"9062": {
+"nhom": "9062-9062",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-04 16:10:18",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "calm"
 }
 }

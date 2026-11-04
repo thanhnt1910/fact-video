@@ -13,28 +13,15 @@
    [khóa] GEMINI_API_KEY_13: …Qvug
    [khóa] GEMINI_API_KEY_14: …S_3g
    [khóa] GEMINI_API_KEY_15: …Snsg
+   [khóa] GEMINI_API_KEY_16: …Qvug
    [khóa] GEMINI_API_KEYS: trống
    [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-04 14:11:42
-còn thiếu 4 câu
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m51s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 9009-9009: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:05:11
-OK cụm 9009 - 9009 5.2 giây
-   [giọng] nhóm 9010-9010: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:05:16
-OK cụm 9010 - 9010 8.2 giây
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m43s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m43s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …mplw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m42s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …Qp4A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m42s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 9040-9040: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:05:21
-OK cụm 9040 - 9040 6.2 giây
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …pPaA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m38s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h54m37s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] đã gặp 8 lần 429 trong lần chạy này, DỪNG HẲN để khỏi bị khóa khóa
+   [giọng] nhóm 9062-9062: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:10:18
+OK cụm 9062 - 9062 6.3 giây
+[báo cáo giọng] 88/88 đoạn có nhật ký tạo giọng
+   model: gemini-3.8-flash-tts
+   cach_goi: interactions
+   voice: Sadaltager
+   style_id: c0565b4d

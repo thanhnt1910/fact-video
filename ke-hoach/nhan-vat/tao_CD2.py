@@ -295,6 +295,14 @@ ov(45,"Zhou Yu in teal at the gate of Jiangling city giving orders while grown-m
    "Full-bleed picture; the city gate is a plain open archway in a bare rammed-earth wall with nothing hanging on it and no plaque; everyone is an adult with a grown man's face and proportions; wagons are plain clay-brown carts. ")
 ov(48,None,"The silks show only brush-drawn wavy river lines and round ink dots. The walls are bare plain mud-brick with nothing mounted on them. The three men are grown adults of different ages: an old man with a white beard, a man of about thirty with a topknot, and a man of about forty with a thin moustache. Each has exactly two arms. "+ROBES)
 
+NOTXT=" Flags and cloths are one flat plain colour with no marks; every wall is bare with no writing; the sky is clear with no wires or lines across it."
+DIFF=" The men have clearly different faces, ages, beards and robe colours; no two look alike."
+FIX[4]=FIX.get(4,TOP)+DIFF
+FIX[14]=FIX.get(14,TOP)+DIFF
+FIX[44]=FIX.get(44,TOP)+DIFF+" One rides a brown horse and one a black horse."
+FIX[52]=FIX.get(52,TOP)+" The mourners in white are of many different ages, faces and heights, in loose uneven rows."
+FIX[64]=FIX.get(64,TOP)+" One single scene filling the whole frame, no split, no second panel, no dividing line."
+for _n in (20,26,27,33,36): FIX[_n]=FIX.get(_n,TOP)+NOTXT
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

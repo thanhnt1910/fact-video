@@ -2,6 +2,12 @@
 
 Repo của kênh "Người Gác Sử": video dọc 60–80 giây và video dài YouTube 16:9, kể chuyện có thật trong lịch sử.
 
+## Giọng đọc: LUÔN đọc từng câu, mọi kịch bản (chủ kênh yêu cầu 04/11/2026, áp dụng mọi video từ nay; ưu tiên hơn mọi mục cũ về đọc cụm bên dưới)
+- Khi dựng video từ bất kỳ kịch bản nào, giọng đọc phải đọc TỪNG CÂU (mỗi đoạn một lần gọi Gemini): `ke-hoach/thu-giong-hai/cum.txt` = `1`. Làm theo cách video Tào Tháo (TQ10) đã làm.
+- Không đọc cụm 8 hay cụm 16 rồi cắt: cắt theo chỗ lặng làm lệch ranh giới giữa các đoạn (Chu Du 04/11/2026: 21/88 đoạn lỗi). Mọi chỗ ghi `cum.txt` = 8 hoặc 16 coi như đã đổi thành `1`.
+- Vẫn giữ: giọng Sadaltager, thứ tự đọc, nhận dạng, `kiem_giong.py`, kiểm cao độ rồi mới dựng. Gặp 429 thì dừng, đọc tiếp phần còn thiếu ở lượt sau.
+- Trước khi dựng bất kỳ video nào, kiểm `cum.txt` = `1` rồi mới chạy giọng. Bản đầy đủ nằm ở `quy-tac/chung.md` (nhánh có thư mục `quy-tac/`).
+
 ## Quy định thời lượng (chủ kênh đặt ngày 15/10/2026, áp dụng cho mọi video từ nay)
 
 - Mọi VIDEO DÀI phải dài TỐI THIỂU 10 PHÚT. Đây là mức sàn.

@@ -41,6 +41,7 @@ jobs:
           ID=$(python3 -c "import json;print(json.load(open('$J'))['id'])")
           echo "CD=$CD" >> $GITHUB_ENV; echo "J=$J" >> $GITHUB_ENV; echo "ID=$ID" >> $GITHUB_ENV
           echo "Chủ đề: $CD ($ID)"
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Cài đặt

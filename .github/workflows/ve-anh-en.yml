@@ -25,6 +25,7 @@ jobs:
           [ -n "$CD" ] || CD=roanoke
           echo "CD=$CD" >> $GITHUB_ENV
           echo "ID=$(python3 -c "import json;print(json.load(open('ke-hoach/$CD/$CD.json'))['id'])")" >> $GITHUB_ENV
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: python -m pip install -q pillow numpy requests

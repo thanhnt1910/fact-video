@@ -38,6 +38,7 @@ CLUSTER = 8                 # số đoạn đọc một lượt (giữ hạn m�
 GAP_BEAT = 0.25             # nghỉ thêm giữa hai đoạn
 INTRO, OUTRO = 3.0, 4.0
 TTS_CACHE = ROOT / "assets" / "tts_cache"
+LOGO = ROOT / "assets" / "logo" / "history-mysteries-daily.png"
 
 STYLE = demo_giong_en.STYLE + (
     " Keep exactly the same voice, volume and pace from the first sentence to the last. "
@@ -237,24 +238,35 @@ def compose(src, dest, ay=0.5):
 
 
 def render_shot(args):
+    """Zoom chậm + lia nhẹ, tính vị trí cắt theo điểm ảnh LẺ (PIL affine, nội suy bilinear) rồi đẩy khung thô vào ffmpeg.
+    Không dùng zoompan của ffmpeg: nó làm tròn vị trí cắt theo số nguyên nên ảnh bị rung khi chuyển động chậm."""
     png, out, dur, kind = args
     n = max(2, int(round(dur * FPS)))
-    # zoom chậm 1.00 -> 1.10 hoặc ngược lại, lia nhẹ theo kind
     z0, z1 = (1.0, 1.1) if kind % 2 == 0 else (1.1, 1.0)
-    zexpr = f"{z0}+({z1}-{z0})*on/{n}"
-    if kind % 4 == 0:
-        xe, ye = "(iw-iw/zoom)/2", "(ih-ih/zoom)/2"
-    elif kind % 4 == 1:
-        xe, ye = f"(iw-iw/zoom)*on/{n}", "(ih-ih/zoom)/2"
-    elif kind % 4 == 2:
-        xe, ye = "(iw-iw/zoom)/2", f"(ih-ih/zoom)*on/{n}"
-    else:
-        xe, ye = f"(iw-iw/zoom)*(1-on/{n})", "(ih-ih/zoom)/2"
+    sw, sh = int(W * 1.1), int(H * 1.1)          # nguồn đủ lớn: zoom 1.1 vẫn không phải phóng to ảnh
+    src = Image.open(png).convert("RGB").resize((sw, sh), Image.LANCZOS)
     fade = min(0.4, dur / 4)
-    vf = (f"zoompan=z='{zexpr}':x='{xe}':y='{ye}':d={n}:s={W}x{H}:fps={FPS},"
-          f"fade=t=in:st=0:d={fade:.2f},fade=t=out:st={max(0, dur - fade):.2f}:d={fade:.2f},format=yuv420p")
-    mv.run_ffmpeg(["-loop", "1", "-i", str(png), "-vf", vf, "-frames:v", str(n),
-                   "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(FPS), str(out)])
+    vf = (f"fade=t=in:st=0:d={fade:.2f},fade=t=out:st={max(0, dur - fade):.2f}:d={fade:.2f},format=yuv420p")
+    cmd = ["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+           "-i", "-", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(FPS), str(out)]
+    pr = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    try:
+        for i in range(n):
+            t = i / (n - 1)
+            e = t * t * (3 - 2 * t)              # vào ra mềm, không giật đầu và cuối
+            z = z0 + (z1 - z0) * e
+            cw, ch = sw / z, sh / z
+            fx = {0: 0.5, 1: e, 2: 0.5, 3: 1 - e}[kind % 4]
+            fy = {0: 0.5, 1: 0.5, 2: e, 3: 0.5}[kind % 4]
+            x0, y0 = (sw - cw) * fx, (sh - ch) * fy
+            fr = src.transform((W, H), Image.AFFINE, (cw / W, 0, x0, 0, ch / H, y0), resample=Image.BILINEAR)
+            pr.stdin.write(fr.tobytes())
+        pr.stdin.close()
+        if pr.wait() != 0:
+            raise RuntimeError(f"ffmpeg lỗi khi dựng {out}")
+    finally:
+        if pr.poll() is None:
+            pr.kill()
     return out
 
 
@@ -433,9 +445,12 @@ def dung(d):
     ass, srt = out_dir / f"{d['id']}.en.ass", out_dir / f"{d['id']}.en.srt"
     write_subs(items, total, d, ass, srt)
     final = out_dir / f"{d['id']}_dai.mp4"
-    vf = f"ass='{ass.as_posix()}'"
-    mv.run_ffmpeg(["-i", str(silent), "-i", str(voice), "-vf", vf, "-c:v", "libx264", "-preset", "veryfast",
-                   "-crf", "21", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
+    # logo kênh: vuông 130 px, độ đậm 0,8, góc trên bên phải, cách mép phải 44 px và mép trên 34 px (giống video bản đồ)
+    fc = (f"[0:v]ass='{ass.as_posix()}'[v];[2:v]scale=130:130,format=rgba,colorchannelmixer=aa=0.8[lg];"
+          f"[v][lg]overlay=W-w-44:34[o]")
+    mv.run_ffmpeg(["-i", str(silent), "-i", str(voice), "-i", str(LOGO), "-filter_complex", fc, "-map", "[o]", "-map", "1:a",
+                   "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-b:a", "160k", "-shortest",
+                   "-movflags", "+faststart", str(final)])
     prev = out_dir / f"{d['id']}_xem_nhanh.mp4"
     mv.run_ffmpeg(["-i", str(final), "-vf", "scale=854:-2", "-c:v", "libx264", "-preset", "veryfast", "-crf", "30",
                    "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart", str(prev)])

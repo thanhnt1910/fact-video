@@ -1,0 +1,488 @@
+{
+ "id": "RN1",
+ "slots": [
+  {
+   "slot": "S01",
+   "beats": "",
+   "mo_ta": "Outer Banks beach North Carolina",
+   "queries": [
+    "Outer Banks beach",
+    "Hatteras beach North Carolina",
+    "Cape Hatteras shore"
+   ]
+  },
+  {
+   "slot": "S02",
+   "beats": "",
+   "mo_ta": "John White watercolor",
+   "queries": [
+    "John White Roanoke watercolor",
+    "John White Virginia 1585 painting"
+   ]
+  },
+  {
+   "slot": "S03",
+   "beats": "",
+   "mo_ta": "John White map La Virginea Pars",
+   "queries": [
+    "La Virginea Pars John White map",
+    "Virginia Pars map 1585"
+   ]
+  },
+  {
+   "slot": "S04",
+   "beats": "",
+   "mo_ta": "Palisade stockade fort",
+   "queries": [
+    "Fort Raleigh earthwork reconstruction",
+    "Fort Raleigh National Historic Site"
+   ]
+  },
+  {
+   "slot": "S05",
+   "beats": "",
+   "mo_ta": "CROATOAN carved post illustration",
+   "queries": [
+    "Croatoan Lost Colony Sheppard",
+    "Lost Colony Croatoan carving"
+   ]
+  },
+  {
+   "slot": "S06",
+   "beats": "",
+   "mo_ta": "Roanoke Lost Colony illustration",
+   "queries": [
+    "Lost Colony of Roanoke",
+    "Roanoke Colony painting"
+   ]
+  },
+  {
+   "slot": "S07",
+   "beats": "",
+   "mo_ta": "Queen Elizabeth I portrait",
+   "queries": [
+    "Elizabeth I Armada Portrait",
+    "Elizabeth I portrait 1588"
+   ]
+  },
+  {
+   "slot": "S08",
+   "beats": "",
+   "mo_ta": "Walter Raleigh portrait",
+   "queries": [
+    "Walter Raleigh portrait",
+    "Sir Walter Raleigh 1588"
+   ]
+  },
+  {
+   "slot": "S09",
+   "beats": "",
+   "mo_ta": "Manteo and Wanchese",
+   "queries": [
+    "Manteo Wanchese",
+    "Algonquian man John White",
+    "Roanoke Algonquian portrait"
+   ]
+  },
+  {
+   "slot": "S10",
+   "beats": "",
+   "mo_ta": "English colonists landing 1585",
+   "queries": [
+    "Roanoke colonists landing 1585",
+    "Theodor de Bry Virginia Englishmen arrival"
+   ]
+  },
+  {
+   "slot": "S11",
+   "beats": "",
+   "mo_ta": "Algonquian village",
+   "queries": [
+    "Secoton village John White",
+    "Pomeiooc village John White",
+    "Algonquian village engraving de Bry"
+   ]
+  },
+  {
+   "slot": "S12",
+   "beats": "",
+   "mo_ta": "Francis Drake",
+   "queries": [
+    "Francis Drake portrait",
+    "Drake fleet 1586"
+   ]
+  },
+  {
+   "slot": "S13",
+   "beats": "",
+   "mo_ta": "Relief ships supply",
+   "queries": [
+    "Elizabethan ship 1587",
+    "Tudor sailing ship galleon painting"
+   ]
+  },
+  {
+   "slot": "S14",
+   "beats": "",
+   "mo_ta": "Raleigh charter City of Raleigh",
+   "queries": [
+    "Raleigh charter 1587",
+    "Cittie of Ralegh"
+   ]
+  },
+  {
+   "slot": "S15",
+   "beats": "",
+   "mo_ta": "John White watercolors animals plants",
+   "queries": [
+    "John White watercolor turtle",
+    "John White watercolor Virginia",
+    "John White drawing Algonquian"
+   ]
+  },
+  {
+   "slot": "S16",
+   "beats": "",
+   "mo_ta": "Colonists sailing 1587",
+   "queries": [
+    "Elizabethan fleet leaving England",
+    "Tudor ship Lion 1587"
+   ]
+  },
+  {
+   "slot": "S17",
+   "beats": "",
+   "mo_ta": "Roanoke Island shoreline",
+   "queries": [
+    "Roanoke Island North Carolina shore",
+    "Roanoke Island sound"
+   ]
+  },
+  {
+   "slot": "S18",
+   "beats": "",
+   "mo_ta": "Overgrown ruins houses",
+   "queries": [
+    "Fort Raleigh visitor center",
+    "Roanoke Island forest"
+   ]
+  },
+  {
+   "slot": "S19",
+   "beats": "",
+   "mo_ta": "Croatoan Hatteras island",
+   "queries": [
+    "Hatteras Island",
+    "Croatoan Native village"
+   ]
+  },
+  {
+   "slot": "S20",
+   "beats": "",
+   "mo_ta": "Virginia Dare",
+   "queries": [
+    "Virginia Dare",
+    "Baptism of Virginia Dare"
+   ]
+  },
+  {
+   "slot": "S21",
+   "beats": "",
+   "mo_ta": "Supplies low winter",
+   "queries": [
+    "Elizabethan settlers hunger",
+    "Tudor settlers America"
+   ]
+  },
+  {
+   "slot": "S22",
+   "beats": "",
+   "mo_ta": "Inland forest North Carolina",
+   "queries": [
+    "Albemarle Sound",
+    "Albemarle Sound forest"
+   ]
+  },
+  {
+   "slot": "S23",
+   "beats": "",
+   "mo_ta": "Ship leaving shore",
+   "queries": [
+    "Elizabethan ship sailing",
+    "Tudor ship at sea"
+   ]
+  },
+  {
+   "slot": "S24",
+   "beats": "",
+   "mo_ta": "Spanish Armada",
+   "queries": [
+    "Spanish Armada painting",
+    "Spanish Armada 1588"
+   ]
+  },
+  {
+   "slot": "S25",
+   "beats": "",
+   "mo_ta": "Ships battle raiders",
+   "queries": [
+    "Elizabethan naval battle",
+    "Armada fire ships"
+   ]
+  },
+  {
+   "slot": "S26",
+   "beats": "",
+   "mo_ta": "Ocean horizon waiting",
+   "queries": [
+    "Atlantic Ocean sailing ship sunset",
+    "Sea horizon sailing ship painting"
+   ]
+  },
+  {
+   "slot": "S27",
+   "beats": "",
+   "mo_ta": "Ships anchored Croatoan",
+   "queries": [
+    "Elizabethan ships anchored",
+    "Cape Hatteras coast"
+   ]
+  },
+  {
+   "slot": "S28",
+   "beats": "",
+   "mo_ta": "Smoke on island",
+   "queries": [
+    "smoke over island",
+    "smoke column beach"
+   ]
+  },
+  {
+   "slot": "S29",
+   "beats": "",
+   "mo_ta": "Night rowing boat",
+   "queries": [
+    "rowing boat night painting",
+    "boat at night shore"
+   ]
+  },
+  {
+   "slot": "S30",
+   "beats": "",
+   "mo_ta": "Tree carved letters",
+   "queries": [
+    "tree carving letters",
+    "carved tree initials old"
+   ]
+  },
+  {
+   "slot": "S31",
+   "beats": "",
+   "mo_ta": "Manteo Croatoan",
+   "queries": [
+    "Manteo",
+    "Croatoan people"
+   ]
+  },
+  {
+   "slot": "S32",
+   "beats": "",
+   "mo_ta": "Chests books maps ruined",
+   "queries": [
+    "old chest buried",
+    "rusty armor",
+    "ruined old book"
+   ]
+  },
+  {
+   "slot": "S33",
+   "beats": "",
+   "mo_ta": "Footprints sand",
+   "queries": [
+    "footprints in sand",
+    "footprints beach"
+   ]
+  },
+  {
+   "slot": "S34",
+   "beats": "",
+   "mo_ta": "Storm sea ship",
+   "queries": [
+    "ship in storm painting",
+    "storm at sea sailing ship"
+   ]
+  },
+  {
+   "slot": "S35",
+   "beats": "",
+   "mo_ta": "Plymouth harbour",
+   "queries": [
+    "Plymouth Devon harbour 16th century",
+    "Plymouth Hoe"
+   ]
+  },
+  {
+   "slot": "S36",
+   "beats": "",
+   "mo_ta": "Question map Outer Banks",
+   "queries": [
+    "Outer Banks map",
+    "North Carolina coast map 1590"
+   ]
+  },
+  {
+   "slot": "S37",
+   "beats": "",
+   "mo_ta": "Croatoan island Hatteras map",
+   "queries": [
+    "Hatteras Island map",
+    "Cape Hatteras lighthouse"
+   ]
+  },
+  {
+   "slot": "S38",
+   "beats": "",
+   "mo_ta": "John Lawson",
+   "queries": [
+    "John Lawson New Voyage to Carolina",
+    "John Lawson explorer"
+   ]
+  },
+  {
+   "slot": "S39",
+   "beats": "",
+   "mo_ta": "Archaeology sword gun",
+   "queries": [
+    "archaeological excavation Hatteras",
+    "16th century sword artifact"
+   ]
+  },
+  {
+   "slot": "S40",
+   "beats": "",
+   "mo_ta": "Map light table",
+   "queries": [
+    "John White map patch",
+    "La Virginea Pars"
+   ]
+  },
+  {
+   "slot": "S41",
+   "beats": "",
+   "mo_ta": "Site X archaeological dig",
+   "queries": [
+    "Site X Roanoke archaeology",
+    "archaeological excavation North Carolina",
+    "Bertie County North Carolina"
+   ]
+  },
+  {
+   "slot": "S42",
+   "beats": "",
+   "mo_ta": "English pottery border ware",
+   "queries": [
+    "Border ware pottery",
+    "16th century English pottery"
+   ]
+  },
+  {
+   "slot": "S43",
+   "beats": "",
+   "mo_ta": "Bald cypress trees",
+   "queries": [
+    "bald cypress swamp",
+    "Taxodium distichum tree rings"
+   ]
+  },
+  {
+   "slot": "S44",
+   "beats": "",
+   "mo_ta": "Drought cracked earth",
+   "queries": [
+    "drought cracked earth",
+    "dry riverbed drought"
+   ]
+  },
+  {
+   "slot": "S45",
+   "beats": "",
+   "mo_ta": "Old legend parchment",
+   "queries": [
+    "old parchment map legend",
+    "Roanoke legend"
+   ]
+  },
+  {
+   "slot": "S46",
+   "beats": "",
+   "mo_ta": "William Strachey",
+   "queries": [
+    "William Strachey Jamestown",
+    "Jamestown 1607"
+   ]
+  },
+  {
+   "slot": "S47",
+   "beats": "",
+   "mo_ta": "Dare Stones",
+   "queries": [
+    "Dare Stones",
+    "Dare Stone Brenau"
+   ]
+  },
+  {
+   "slot": "S48",
+   "beats": "",
+   "mo_ta": "Lumbee",
+   "queries": [
+    "Lumbee Tribe",
+    "Lumbee"
+   ]
+  },
+  {
+   "slot": "S49",
+   "beats": "",
+   "mo_ta": "Eroded shoreline",
+   "queries": [
+    "coastal erosion shoreline",
+    "Roanoke Island beach erosion"
+   ]
+  },
+  {
+   "slot": "S50",
+   "beats": "",
+   "mo_ta": "Colonists map Roanoke",
+   "queries": [
+    "Roanoke Colony map",
+    "Roanoke Island map 1590"
+   ]
+  },
+  {
+   "slot": "S51",
+   "beats": "",
+   "mo_ta": "Empty settlement",
+   "queries": [
+    "Fort Raleigh",
+    "The Lost Colony outdoor drama Waterside Theatre"
+   ]
+  },
+  {
+   "slot": "S52",
+   "beats": "",
+   "mo_ta": "Question mark coast",
+   "queries": [
+    "Outer Banks sunset",
+    "Roanoke Sound sunset"
+   ]
+  },
+  {
+   "slot": "S53",
+   "beats": "",
+   "mo_ta": "Fade out Outer Banks",
+   "queries": [
+    "Outer Banks sunrise",
+    "Cape Hatteras sunrise"
+   ]
+  }
+ ]
+}

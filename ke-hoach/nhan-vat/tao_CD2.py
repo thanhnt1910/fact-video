@@ -1,8 +1,8 @@
 import json, re
-HAN=("2D ligne claire comic art, Eastern Han China around 208 AD, clean dark ink outlines, muted earthy colours with soft shading, clear natural daylight, subdued dark clothing palette, realistic adult proportions, clothing in plain solid dark muted colours, authentic Han cross-collared cut and topknots, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border")
-SONG=("2D ligne claire comic art, Song dynasty China around 1080 AD, clean dark ink outlines, muted earthy colours with soft shading, clear natural daylight, subdued dark clothing palette, realistic adult proportions, long robes with wide sleeves in plain solid dark muted colours, wooden shopfronts with grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border")
-W=" clear warm daylight, muted earthy colours, calm historical mood. "
-C=" clear soft daylight, muted earthy colours with deep dark clothing tones. "
+HAN=("2D ligne claire comic art, Eastern Han China around 208 AD, crisp dark ink outlines, richly detailed, vivid saturated colours, bright blue sky with white clouds, warm golden sunlight, strong colour contrast, detailed lively background full of small things, adult proportions, clothing in plain solid earthy colours without patterns, authentic Han cross-collared robes, grey-tiled mud-brick houses with wooden lattice windows (no glass), full-bleed single picture, no border")
+SONG=("2D ligne claire comic art, Song dynasty China around 1080 AD, crisp dark ink outlines, richly detailed, vivid saturated colours, bright blue sky with white clouds, warm golden sunlight, strong colour contrast, detailed lively background full of small things, adult proportions, clothing in plain solid earthy colours without patterns, long robes with wide sleeves, wooden shopfronts with cream cloth awnings, grey tiled roofs and wooden lattice windows (no glass), full-bleed single picture, no border")
+W=" bright warm golden daylight, cheerful lively mood. "
+C=" bright clear daylight, fresh vivid colours. "
 F=" glowing vivid orange flames against a deep luminous blue night, vivid saturated colours. "
 NV={
 "zy":"Zhou Yu at about thirty-three, a handsome slim man with fine features, a thin moustache and a short neat beard, black hair in a topknot under a black cap, deep-teal long robe with a dark leather chest guard and a dark sash, empty hands",
@@ -141,7 +141,7 @@ FIX={
 70:"He kneels on a low reed mat at a low wooden table; the scrolls are rolled bamboo-slip bundles tied with cord; the wall behind is plain bare brick.",
 76:"All shop signs are plain blank wooden boards.",
 }
-GEN=" Full-bleed single picture filling the whole frame."
+GEN=""
 
 # --- Sửa lỗi lần vẽ 03/11 (chữ, tàu kiểu Tây, giá vẽ, màn nhung, màn chiếu): đổi cảnh và ghi chú, tả điều cần có ---
 SHIP="All ships are boxy flat-hulled Han river warships with raised wooden deck-towers, rows of oars and plain flat-coloured square mat sails on a single mast."
@@ -168,7 +168,7 @@ REDO={
 }
 
 # --- Sửa lỗi 03/11 lần 3: tóc búi trên đỉnh đầu, đúng hai tay, không dính thân, bỏ giường ngoài bờ sông ---
-TOP="Every man and boy has black hair gathered up into a neat topknot on the crown of his head, under a small cap or headcloth, and every person has exactly two arms and two hands, each clearly drawn and separate from the others. "
+TOP="Every man and boy has all his black hair tied up into one neat topknot on the crown, covered by a small flat black cloth cap or a plain cloth headscarf, with no loose hair, no ponytail and no hair hanging down; women wear a low coiled bun; no tall black Korean-style hats. Every person has exactly two arms and two hands, clearly drawn. Banners and cloths are plain flat single colour with nothing on them. "
 def _fx(n,extra=""):
     old=REDO[n][1] if n in REDO else ""
     return (None if n not in REDO else REDO[n][0], TOP+extra+" "+old)

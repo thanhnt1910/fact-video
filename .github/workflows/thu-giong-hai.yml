@@ -24,6 +24,13 @@ jobs:
     timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
+        with:
+          # chỉ lấy phần cần cho việc đọc giọng (mã .py ở thư mục gốc, cấu hình, thư mục giọng); bỏ ảnh/clip hàng GB để checkout và đẩy nhanh
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            ke-hoach/thu-giong-hai
+            assets/thu_giong_hai/sadaltager
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

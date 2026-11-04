@@ -29,8 +29,8 @@ NV.update({
 "zy":"Zhou Yu at about thirty-three, a handsome slim man with fine features, a thin moustache and a short neat beard, black hair in a topknot under a plain black cap, a plain solid dark teal long robe, a simple leather chest guard, a plain dark sash, empty hands",
 "zyy":"young Zhou Yu at about twenty-four, handsome and clean-shaven, black topknot, a plain solid dark teal robe with a plain sash, empty hands",
 "sc":"Sun Ce at about twenty-four, a stocky energetic young man with a short stubble beard and a broad grin, a plain solid dark maroon robe with a plain dark sash, empty hands",
-"sq":"Sun Quan at about twenty-six, a young ruler with a square face and a short beard, a purple silk robe with embroidered gold dragon-pattern borders and a jade belt, a tall black ceremonial cap, empty hands",
-"cc":"Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, a plain solid dark-grey robe with a plain sash, a tall black cap, empty hands, no weapon",
+"sq":"Sun Quan at about twenty-six, a young ruler with a square face and a short beard, a purple silk robe with embroidered gold dragon-pattern borders and a jade belt, a low black cloth crown-cap with a flat top and a jade hairpin, empty hands",
+"cc":"Cao Cao at about fifty-three, a short wiry man with sharp clever eyes, a thin moustache and a small beard with a few grey hairs, a plain solid dark-grey robe with a plain sash, a small flat black cloth cap, empty hands, no weapon",
 "hg":"Huang Gai, a tough old general of about sixty with a grey beard and weathered face, a plain solid dark brown robe under simple leather armour, empty hands",
 "ls":"Lu Su, a stout calm man of about thirty-seven with a round kind face and a plain moustache, a plain solid dark olive-green robe, empty hands",
 "zgl":"Zhuge Liang at about twenty-seven, a tall slim man with a calm intelligent smile and a thin moustache, a plain solid off-white undyed hemp robe with a plain dark-blue sash, a cloth scarf cap, empty hands",
@@ -168,7 +168,7 @@ REDO={
 }
 
 # --- Sửa lỗi 03/11 lần 3: tóc búi trên đỉnh đầu, đúng hai tay, không dính thân, bỏ giường ngoài bờ sông ---
-TOP="Every man and boy has all his black hair tied up into one neat topknot on the crown, covered by a small flat black cloth cap or a plain cloth headscarf, with no loose hair, no ponytail and no hair hanging down; women wear a low coiled bun; no tall black Korean-style hats. Every person has exactly two arms and two hands, clearly drawn. Banners and cloths are plain flat single colour with nothing on them. "
+TOP="All men's black hair is tied into one topknot and tucked under a small flat black cloth cap or headscarf, nothing hangs down behind the neck; women wear a low coiled bun; no tall hats. Every person has exactly two arms and two hands. Walls, doors, shopfronts and cloths are bare and plain, with no signs, banners, writing or marks. "
 def _fx(n,extra=""):
     old=REDO[n][1] if n in REDO else ""
     return (None if n not in REDO else REDO[n][0], TOP+extra+" "+old)
@@ -326,6 +326,22 @@ FIX[124]=FIX.get(124,TOP)+" "+ONE
 ov(6,"a Han storyteller, a thin grey-bearded man in a brown robe, stands behind a low wooden table in a market square; on the table stand four tiny carved wooden chess-piece-like figures in a row, each only as tall as his hand, simple blank-faced wooden figurines in off-white, olive-green, dark teal and maroon painted cloth, all standing upright; a few townspeople of different ages watch","The four figurines are small inanimate wooden toys standing on the tabletop; nobody lies on the table. ")
 ov(75,"seen from behind, exactly ONE townsman stands in the foreground of a dirt road that forks ahead into a wide Y, with one hand on his chin; the left fork runs down to a river where a few one-masted Han river boats burn with orange flames, the right fork runs to a small open wooden stage with a softly lit plain screen; one continuous landscape at dusk, no second figure","A single continuous wide landscape drawn as one scene from one viewpoint, with no panels, no frame lines and no split in the middle. ")
 ov(76,"a long street wall hung with exactly three large painted cloth portraits side by side, each clearly visible in full: a young clean-shaven man on the left, a middle-aged bearded man in the middle and a white-haired old man with a long white beard on the right; below them a small group of townspeople of different ages, a woman, a boy and elderly men, stand close together near the wall with their faces tilted up looking at the portraits, seen from a little behind and below","Nobody stands in front of the portraits or hides them; every townsperson is small compared with the portraits, and each has both arms tucked into long sleeves or folded in front. ")
+
+# --- sửa vòng 4 (04/11): hai khung, hai người giống nhau, tàu nhiều cột, cửa kính, giường hiện đại, dây điện ---
+ONE2=" At most three ships are visible; each ship has exactly one mast with one square sail, no extra masts, no cross-spars and no rope lines."
+NOGLASS=" The window is an empty square opening with fixed wooden bars and no glass at all, the sky seen straight through it."
+for _n in (1,24,25,57,58,64,124): FIX[_n]=FIX.get(_n,TOP)+ONE2
+ov(3,None,"One single continuous scene seen from one viewpoint; no pole, curtain or divider splits the picture into two halves. ")
+ov(4,"two men sit across a low table in an open tent playing a board game with flat black and white stones: on the left Zhuge Liang, young, tall and slim, clean-shaven except a thin moustache, in a pale off-white hemp robe and a cloth scarf cap, calmly placing a stone; on the right Zhou Yu, older, broad-faced with a short dark beard, in a dark teal robe and a flat black cap, frowning with a stone in his fingers","The two players have very different faces, ages, builds and robe colours; one continuous scene with no pole in the middle. ")
+ov(28,"a Han street storyteller (exactly ONE old man with a short grey beard in a brown robe) stands behind a low table on which two small carved wooden puppets of grown men stand, a puppet in a dark teal robe and a taller puppet in an off-white robe; he lifts a small golden hat from the teal puppet and sets it on the white one; townspeople of different ages watch from behind","Only one storyteller; the sky is empty with no poles and no wires. ")
+ov(32,"in a tent Zhou Yu pushing himself up from a low plank bed with one hand pressed to his side, an officer and a physician in plain robes supporting him on both sides, morning light through the open tent flap showing soldiers waiting outside","Zhou Yu sits up with both legs drawn simply and clearly, two legs of the same length, two arms, two feet. ")
+ov(49,"exactly ONE man: Zhou Yu sitting on a low plank platform leaning back against a rolled cloth, pale but resolute, writing carefully with a brush on bamboo slips by the light of a Han bronze oil dish, no second figure","There are no pillows and no cushions; the platform has a plain woven mat. ")
+ov(51,None,"The mourners are all grown adults, with no children and no toys in the scene. ")
+ov(70,None,NOGLASS)
+ov(71,"a quiet room seen from the foot of a low plank platform: Zhou Yu lies on his back on a plain woven mat with a rolled cloth under his head, eyes closed, a physician in a plain robe sitting beside him holding his wrist and an attendant standing behind","The platform is rough planks with a woven mat; no bed frame, no mattress, no pillow, no sheets. ")
+ov(73,None,"The sky is clear and empty, with no poles, no crosses and no wires anywhere. ")
+ov(101,None,NOGLASS)
+FIX[37]=FIX.get(37,TOP)+" The gate leaves are plain planks with no handle, ring or knob."
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

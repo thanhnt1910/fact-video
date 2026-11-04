@@ -365,6 +365,13 @@ FIX[52]=FIX.get(52,TOP)+" Sun Quan has NO hat at all: bare head with a black clo
 FIX[57]=FIX.get(57,TOP)+" The sun is not visible; the sky shows only clouds, nothing glowing behind the man. The ships in the harbour have NO masts, only low hulls. "
 FIX[70]=FIX.get(70,TOP)+" Only the left man wears a black cap; the right man is BALD on top with white hair only at the sides, wears a dark brown robe, and has a clean-shaven chin with a thin moustache; the left man wears a grey robe with a long white beard. "
 
+# round 7
+NOSHIP=" No sailing ships at all: only low flat rafts or rowing boats with no mast and no sail. "
+FIX[24]=FIX.get(24,TOP)+NOSHIP
+FIX[124]=FIX.get(124,TOP)+NOSHIP
+FIX[57]=FIX.get(57,TOP)+NOSHIP+" The sky is plain blue with clouds only, no sun disc, no glow. "
+FIX[51]=FIX.get(51,TOP)+" Sun Quan's long black hair is entirely pinned up into the topknot under the headscarf; nothing hangs down his back or chest. "
+
 beats={}
 for l in open("ke-hoach/chu-du-co-bi-choc-tuc-chet-kich-ban.md",encoding="utf-8"):
     m=re.match(r"(\d+)\. \[[^\]]*\] (.*)",l.strip())

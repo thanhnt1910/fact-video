@@ -225,6 +225,16 @@ Mỗi lượt gọi Gemini tạo giọng độc lập, nên nhịp nói và âm 
 - Không để chữ hay hình đè lên logo; khung hình bản đồ lấy làm nền phải cắt bỏ khung HUD (hộp năm, chú giải, la bàn, phụ đề) rồi mới đặt chữ.
 - Mẫu và mã nguồn: `assets/bia/NQ1/tao_bia.py` (chạy `python assets/bia/NQ1/tao_bia.py <khung.jpg>`; sửa chữ và vùng cắt cho video mới). Kiểm bằng cách xem ảnh bìa ở cỡ lớn trước khi giao.
 
+## Ảnh bìa cuốn hút: làm theo mẫu của chủ kênh (chủ kênh yêu cầu 04/11/2026, thay cách làm bìa đơn giản trước đây, áp dụng mọi bìa sau)
+Bìa cũ (khung bản đồ + chữ) quá đơn giản, người xem lướt qua. Mẫu chuẩn là hai bìa "Vì sao cả ngàn năm người ta ghét Tào Tháo?" ở `assets/bia/MAU/mau_ngang_tao_thao.jpg` (16:9) và `mau_doc_tao_thao.png` (9:16). Mọi bìa mới phải xem hai mẫu này trước và đạt cùng mức.
+- **Nhân vật chính là tâm điểm:** cận cảnh nửa người của nhân vật trung tâm câu chuyện, chiếm khoảng 1/3 khung hình (bìa ngang: lệch trái, bìa dọc: nửa trên), nét mặt rõ cảm xúc (nghiêm, ngạo, lo âu), mũ áo chi tiết, viền vàng, ánh sáng viền phát sáng quanh người để tách khỏi nền.
+- **Nền kể chuyện, có chiều sâu:** nơi chốn đúng nội dung (phố chợ, cổng thành, lầu cao), nhiều lớp từ trước ra sau, đám đông nhỏ, đèn lồng, cờ, cây, bầu trời xanh có mây và nắng. Không nền trơn, không khung bản đồ.
+- **Màu rực, sắc nét, tương phản cao:** xanh trời, đỏ, vàng, tím; ánh sáng ban ngày hoặc hoàng hôn rõ. (Bìa được phép rực hơn ảnh trong cốt truyện: ảnh cốt truyện giữ màu trầm theo mục vẽ ảnh, bìa thì thu hút lượt xem.)
+- **Chữ là câu hỏi gây tò mò, rất to:** tối đa khoảng 9 chữ, chia 2–3 dòng, kiểu chữ đậm nghiêng, trắng viền đen, nằm trên dải nét cọ đỏ ở giữa khung. Tên nhân vật hoặc từ khóa chính tô vàng, to nhất, có viền đen và ánh sáng; dấu "?" lớn. Chữ phải đúng chính tả tiếng Việt, đủ dấu, đọc được ở cỡ ảnh thu nhỏ trên điện thoại.
+- **Bìa dọc:** nhân vật nửa trên, dải chữ đỏ ở giữa, phố hoặc thành ở nửa dưới, dòng "— Người Gác Sử —" ở đáy.
+- **Giữ nguyên các quy tắc trên:** logo kênh ở góc trên bên phải, không chữ hay hình đè lên logo; tiêu đề không giật tít sai sự thật; nhân vật và bối cảnh đúng thời (cờ nếu có chữ Hán thì phải đúng nước, không thì để trơn).
+- **Cách làm:** vẽ phần hình (nhân vật + nền) bằng công cụ vẽ ảnh, KHÔNG nhờ mô hình vẽ luôn chữ (chữ tiếng Việt có dấu hay sai); ghép chữ, dải đỏ, logo bằng mã (`assets/bia/NQ1/tao_bia.py` làm khung, sửa theo mẫu mới). Tự xem bìa ở cỡ lớn và cỡ thu nhỏ trước khi giao; so với hai mẫu, nếu thua mẫu thì làm lại.
+
 ## Sáng tạo cho đỡ nhàm, nhưng không đổi cốt truyện chính (chủ kênh yêu cầu 24/10/2026, áp dụng mọi video từ nay)
 Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ, không được sáng tạo ở NỘI DUNG sử.
 - **Được:** mở đầu bằng một cảnh gây tò mò rồi mới kể từ đầu; đảo thứ tự TRÌNH BÀY (nhưng phần thân vẫn đi đúng thứ tự thời gian và nguyên nhân – kết quả); rút gọn chương khô (danh sách chức quan, số quân, chế độ) còn các việc lớn; dồn chất liệu có nguồn vào cảnh xung đột; dùng bản đồ động, hiệu ứng, nhịp đổi cảnh, khung đùa nhẹ về tình huống hoặc quân xâm lược; câu hỏi gợi mở dẫn vào chương.

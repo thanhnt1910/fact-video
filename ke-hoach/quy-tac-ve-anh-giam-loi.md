@@ -46,7 +46,8 @@ Mục tiêu: ít vòng vẽ lại, không vẽ lại cả tập, không giao ả
 - Bản gửi chủ kênh phải nêu rõ: bao nhiêu câu đã kiểm nguyên văn, bao nhiêu đã hạ nhãn hoặc bỏ, và câu nào còn tranh cãi. Không đẩy việc kiểm cho chủ kênh hay để sang bước đọc giọng.
 - Không gán nhãn "đã kiểm" cho điều chỉ nhớ từ trí nhớ hoặc từ một bài tổng hợp. Đối chiếu ít nhất hai nguồn độc lập cho số liệu và lời trích quan trọng.
 
-## Màu sáng và trang phục màu trơn (03/11/2026; sửa 04/11/2026: giảm hoa văn)
+## Trang phục màu trơn TỐI, đúng thời Tam Quốc (03/11/2026; sửa 04/11/2026: giảm hoa văn, rồi đổi sang màu tối)
+- **Chủ kênh yêu cầu 04/11/2026: quần áo màu tối, không nổi.** Màu tươi, bão hòa (xanh ngọc sáng, đỏ tươi, xanh lá tươi, vàng cam) không hợp thời Tam Quốc. Dùng tông đất, trầm: xanh lục thẫm, đỏ sẫm, nâu sẫm, chàm, xám đen, ô liu sẫm; Gia Cát Lượng áo vải gai trắng ngà, đai xanh chàm. Prompt viết "plain solid dark ... robe", "muted earthy colours", không dùng "bright/vivid/vibrant" cho quần áo. Ánh sáng cảnh vẫn rõ, không tối mịt.
 - Ảnh phải **sáng, màu tươi, sạch**: ánh sáng ban ngày trong, màu bão hòa vừa phải. KHÔNG xám xịt, tối, đục (không dùng "muted", "grey-blue calm", "dim"). Cảnh đêm vẫn rực: lửa cam sáng trên nền xanh đêm trong.
 - **Trang phục màu trơn, sáng, KHÔNG hoa văn (chủ kênh yêu cầu 04/11/2026, thay quy tắc "áo thêu" cũ):** mọi nhân vật mặc áo vải một màu sáng sạch, không viền thêu, không họa tiết (Chu Du xanh lục sáng, Tôn Sách đỏ, Gia Cát Lượng trắng đai xanh trời, Lưu Bị và Quan Vũ xanh lá...). Prompt chỉ nêu "plain solid bright colour", không nhắc "embroidery/pattern" kể cả để cấm (mô hình sẽ vẽ ra). **Chỉ vua (Tôn Quyền) trong cảnh cung điện mới mặc lụa thêu rồng, viền vàng, đai ngọc.**
 - Cung điện có cột son, rèm lụa, ngai; ngoài cung thì tướng lĩnh, quan văn vẫn mặc áo trơn màu sáng, gọn gàng.

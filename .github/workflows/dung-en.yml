@@ -1,0 +1,99 @@
+name: Dựng video dài tiếng Anh (History Mysteries Daily)
+
+on:
+  push:
+    branches: [demo-giong-en]
+    paths: ['ke-hoach/roanoke/chay.txt']
+  workflow_dispatch:
+    inputs:
+      buoc:
+        description: "Các bước, cách nhau dấu phẩy: tai-anh, giong, dung (để trống = đọc ke-hoach/roanoke/chay.txt)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dung-en
+  cancel-in-progress: false
+
+jobs:
+  dung:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cài đặt
+        run: |
+          python -m pip install -q numpy pillow requests imageio-ffmpeg
+          which ffmpeg || { sudo apt-get install -y -qq ffmpeg > /dev/null; }
+          fc-list | grep -qi "DejaVu Sans" || sudo apt-get install -y -qq fonts-dejavu-core > /dev/null
+          ffmpeg -hide_banner -filters 2>/dev/null | grep -q " ass " && echo "ffmpeg có bộ lọc ass" || echo "CẢNH BÁO: ffmpeg thiếu ass"
+      - name: Bộ nhớ đệm giọng
+        uses: actions/cache/restore@v4
+        with:
+          path: assets/tts_cache
+          key: fv-en-tts-${{ github.run_id }}
+          restore-keys: fv-en-tts-
+      - name: Chạy các bước
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          BUOC_IN: ${{ inputs.buoc }}
+        run: |
+          mkdir -p logs
+          BUOC="$BUOC_IN"
+          [ -z "$BUOC" ] && BUOC=$(tr -d ' \r\n' < ke-hoach/roanoke/chay.txt)
+          echo "Các bước: $BUOC"
+          set -o pipefail
+          for b in ${BUOC//,/ }; do
+            python en_video.py "$b" ke-hoach/roanoke/roanoke.json 2>&1 | tee -a logs/dung-en.txt
+          done
+      - name: Lưu bộ nhớ đệm giọng
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: assets/tts_cache
+          key: fv-en-tts-${{ github.run_id }}
+      - name: Đưa video lên Releases
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=output/RN1/RN1_dai.mp4
+          [ -f "$f" ] || exit 0
+          gh release delete video-RN1 -y --cleanup-tag 2>/dev/null || true
+          gh release create video-RN1 -t "RN1 The Lost Colony of Roanoke" -n "Bản dựng thử" \
+            "$f" output/RN1/RN1_xem_nhanh.mp4 output/RN1/RN1.en.srt output/RN1/chuong.txt output/RN1/bao_cao.json
+      - name: Gửi Telegram (bản xem nhanh)
+        if: always()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          f=output/RN1/RN1_xem_nhanh.mp4
+          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] && [ -f "$f" ] || exit 0
+          sz=$(stat -c %s "$f"); [ "$sz" -lt 49000000 ] || exit 0
+          curl -s -o /dev/null -F chat_id="$(cat telegram_chat_id.txt)" -F video=@"$f" -F caption="RN1 Lost Colony of Roanoke - bản xem nhanh" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"
+      - name: Lưu vào repo
+        if: always()
+        run: |
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/anh_en logs/dung-en.txt output/RN1/RN1.en.srt output/RN1/chuong.txt output/RN1/bao_cao.json 2>/dev/null || true
+          git commit -q -m "Dựng RN1 [skip ci]" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

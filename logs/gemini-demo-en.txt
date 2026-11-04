@@ -1,0 +1,10 @@
+
+== Charon ==
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Charon
+
+== Orus ==
+OK Orus
+
+== Enceladus ==
+OK Enceladus

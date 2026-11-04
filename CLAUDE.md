@@ -242,3 +242,9 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Chỉ dùng nhãn [SỬ] khi đã đọc nguyên văn nguồn gốc và nêu được tên sách, quyển, hoặc đường dẫn. Không tìm được nguyên văn thì hạ nhãn xuống [CG]/[GT], hoặc bỏ chi tiết khỏi lời kể và ghi vào "Chi tiết đã bỏ"; không để nhãn [SỬ*] hay danh sách "phải kiểm" tồn tại trong bản gửi.
 - Bản gửi chủ kênh phải nêu rõ: bao nhiêu câu đã kiểm nguyên văn, bao nhiêu đã hạ nhãn hoặc bỏ, và câu nào còn tranh cãi. Không đẩy việc kiểm cho chủ kênh hay để sang bước đọc giọng.
 - Không gán nhãn "đã kiểm" cho điều chỉ nhớ từ trí nhớ hoặc từ một bài tổng hợp. Đối chiếu ít nhất hai nguồn độc lập cho số liệu và lời trích quan trọng.
+
+## Kênh tiếng Anh (History Mysteries Daily): mỗi kịch bản có bản tiếng Việt song song (chủ kênh yêu cầu 04/11/2026, áp dụng mọi kịch bản tiếng Anh từ nay)
+- Chủ kênh không đọc được tiếng Anh nên **mọi kịch bản tiếng Anh phải đi kèm bản dịch tiếng Việt từng câu** để duyệt, gửi cùng lúc với kịch bản (không đợi hỏi).
+- Định dạng: bảng song ngữ `ke-hoach/<chủ đề>/<chủ đề>_song_ngu.md` (cột: số câu, English lời đọc, Tiếng Việt, nhãn độ chắc), dịch sát nghĩa, đúng thứ tự và đúng số câu với `<chủ đề>.json`. Đơn vị tiếng Anh (dặm, feet) giữ nguyên trong lời đọc, bản Việt có thể ghi thêm quy đổi.
+- Mô tả YouTube, tiêu đề và ảnh bìa cũng kèm nghĩa tiếng Việt khi gửi duyệt.
+- Mẫu: `ke-hoach/roanoke/roanoke_song_ngu.md` (bản dịch lưu ở `vi.json`). Sửa lời đọc thì sửa cả hai bản.

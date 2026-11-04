@@ -11,16 +11,23 @@
    [khóa] GEMINI_API_KEY_11: …XVkg
    [khóa] GEMINI_API_KEY_12: …6oKQ
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 99 câu
+còn thiếu 88 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK cụm 22001 - 22016 105.6 giây
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h35m32s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK cụm 22017 - 22032 99.2 giây
-OK cụm 22033 - 22048 93.6 giây
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h34m40s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-OK cụm 22049 - 22064 95.2 giây
-OK cụm 22065 - 22080 92.0 giây
-OK cụm 22081 - 22096 96.0 giây
-OK cụm 22097 - 22099 15.9 giây
+   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
+   [giọng] nhóm 9001-9016: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:11:42
+OK cụm 9001 - 9016 107.0 giây
+   [giọng] nhóm 9017-9032: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:12:11
+OK cụm 9017 - 9032 111.9 giây
+   [giọng] nhóm 9033-9048: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:12:52
+OK cụm 9033 - 9048 106.5 giây
+   [giọng] nhóm 9049-9064: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:13:19
+OK cụm 9049 - 9064 101.8 giây
+   [giọng] nhóm 9065-9080: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:14:13
+OK cụm 9065 - 9080 116.6 giây
+   [giọng] nhóm 9081-9088: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 14:14:32
+OK cụm 9081 - 9088 65.4 giây
+[báo cáo giọng] 88/88 đoạn có nhật ký tạo giọng
+   model: gemini-3.8-flash-tts
+   cach_goi: interactions
+   voice: Sadaltager
+   style_id: c0565b4d

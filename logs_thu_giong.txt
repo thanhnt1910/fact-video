@@ -18,8 +18,8 @@
    [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-04 14:11:42
 còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 9062-9062: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:42:59
-OK cụm 9062 - 9062 6.7 giây
+   [giọng] nhóm 9062-9062: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:47:09
+OK cụm 9062 - 9062 6.4 giây
 [báo cáo giọng] 88/88 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions

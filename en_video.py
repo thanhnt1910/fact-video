@@ -8,6 +8,11 @@ VIDEO DÀI TIẾNG ANH (History Mysteries Daily): giọng Gemini Orus + ảnh t�
 anh_chon.json (cạnh file kịch bản): {"S01": {"url": "...", "credit": "...", "ay": 0.5}, ...}
   ay = vị trí cắt dọc khi ảnh cao hơn khung (0 trên, 1 dưới). Ô không có ảnh thì dùng ảnh của ô gần nhất.
 """
+import os
+
+# Quy tắc giọng: khóa hết lượt thì đổi khóa khác; mọi khóa đều hết thì DỪNG, không đợi (chủ kênh 04/11/2026)
+os.environ.setdefault("GEMINI_MAX_WAIT", "0")
+
 import array
 import hashlib
 import json
@@ -165,7 +170,12 @@ def giong(d):
     cs = clusters(beats_of(d))
     log(f"Giọng {voice}: {len(cs)} cụm")
     for i, c in enumerate(cs):
-        cluster_audio([b["text"] for b in c], voice, work)
+        try:
+            cluster_audio([b["text"] for b in c], voice, work)
+        except Exception as e:
+            log(f"⛔ DỪNG ở cụm {i + 1}/{len(cs)}: {str(e)[:300]}")
+            log("   Mọi khóa Gemini đều hết lượt (hoặc lỗi giọng). Các cụm đã đọc được giữ trong bộ nhớ đệm; chạy lại sau khi hạn mức hồi.")
+            sys.exit(3)
         log(f"  cụm {i + 1}/{len(cs)} ✔")
 
 

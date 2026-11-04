@@ -62,7 +62,7 @@ jobs:
           echo "Các bước: $BUOC"
           set -o pipefail
           for b in ${BUOC//,/ }; do
-            python en_video.py "$b" ke-hoach/roanoke/roanoke.json 2>&1 | tee -a logs/dung-en.txt
+            python en_video.py "$b" ke-hoach/roanoke/roanoke.json 2>&1 | tee -a logs/dung-en.txt || { echo "⛔ Dừng ở bước $b"; exit 1; }
           done
       - name: Lưu bộ nhớ đệm giọng
         if: always()

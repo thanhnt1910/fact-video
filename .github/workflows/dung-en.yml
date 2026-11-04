@@ -3,13 +3,17 @@ name: Dựng video dài tiếng Anh (History Mysteries Daily)
 on:
   push:
     branches: [demo-giong-en]
-    paths: ['ke-hoach/roanoke/chay.txt']
+    paths: ['ke-hoach/*/chay.txt']
   workflow_dispatch:
     inputs:
       buoc:
-        description: "Các bước, cách nhau dấu phẩy: tai-anh, giong, dung (để trống = đọc ke-hoach/roanoke/chay.txt)"
+        description: "Các bước, cách nhau dấu phẩy: tai-anh, giong, dung, dung-thu (để trống = đọc chay.txt của chủ đề)"
         required: false
         default: ""
+      chu_de:
+        description: "Thư mục chủ đề trong ke-hoach (roanoke, andree...)"
+        required: false
+        default: "roanoke"
 
 permissions:
   contents: write
@@ -24,7 +28,19 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+        with:
+          fetch-depth: 2
+      - name: Xác định chủ đề
+        run: |
+          CD="${{ inputs.chu_de }}"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            CD=$(git diff --name-only HEAD~1 HEAD | grep -E '^ke-hoach/[^/]+/chay.txt$' | head -1 | cut -d/ -f2)
+          fi
+          [ -n "$CD" ] || CD=roanoke
+          J="ke-hoach/$CD/$CD.json"
+          ID=$(python3 -c "import json;print(json.load(open('$J'))['id'])")
+          echo "CD=$CD" >> $GITHUB_ENV; echo "J=$J" >> $GITHUB_ENV; echo "ID=$ID" >> $GITHUB_ENV
+          echo "Chủ đề: $CD ($ID)"
         with:
           python-version: "3.12"
       - name: Cài đặt
@@ -61,11 +77,11 @@ jobs:
         run: |
           mkdir -p logs
           BUOC="$BUOC_IN"
-          [ -z "$BUOC" ] && BUOC=$(tr -d ' \r\n' < ke-hoach/roanoke/chay.txt)
+          [ -z "$BUOC" ] && BUOC=$(tr -d ' \r\n' < ke-hoach/$CD/chay.txt)
           echo "Các bước: $BUOC"
           set -o pipefail
           for b in ${BUOC//,/ }; do
-            python en_video.py "$b" ke-hoach/roanoke/roanoke.json 2>&1 | tee -a logs/dung-en.txt || { echo "⛔ Dừng ở bước $b"; exit 1; }
+            python en_video.py "$b" "$J" 2>&1 | tee -a logs/dung-en.txt || { echo "⛔ Dừng ở bước $b"; exit 1; }
           done
       - name: Lưu bộ nhớ đệm giọng
         if: always()
@@ -78,25 +94,29 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          f=output/RN1/RN1_dai.mp4
-          [ -f "$f" ] || exit 0
-          gh release delete video-RN1 -y --cleanup-tag 2>/dev/null || true
-          gh release create video-RN1 -t "RN1 The Lost Colony of Roanoke" -n "Bản dựng thử" \
-            "$f" output/RN1/RN1_xem_nhanh.mp4 output/RN1/RN1.en.srt output/RN1/chuong.txt output/RN1/bao_cao.json
+          for kind in dai thu; do
+            f=output/$ID/${ID}_$kind.mp4
+            [ -f "$f" ] || continue
+            tag=video-$ID; [ $kind = thu ] && tag=video-$ID-khong-giong
+            extra=""; for x in output/$ID/${ID}_${kind}_xem_nhanh.mp4 output/$ID/${ID}_xem_nhanh.mp4 output/$ID/$ID.en.srt output/$ID/chuong.txt output/$ID/bao_cao.json; do [ -f "$x" ] && extra="$extra $x"; done
+            gh release delete $tag -y --cleanup-tag 2>/dev/null || true
+            gh release create $tag -t "$ID ($kind)" -n "Bản dựng thử" "$f" $extra
+          done
       - name: Gửi Telegram (bản xem nhanh)
         if: always()
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          f=output/RN1/RN1_xem_nhanh.mp4
-          [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] && [ -f "$f" ] || exit 0
-          sz=$(stat -c %s "$f"); [ "$sz" -lt 49000000 ] || exit 0
-          curl -s -o /dev/null -F chat_id="$(cat telegram_chat_id.txt)" -F video=@"$f" -F caption="RN1 Lost Colony of Roanoke - bản xem nhanh" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"
+          for f in output/$ID/${ID}_xem_nhanh.mp4 output/$ID/${ID}_thu_xem_nhanh.mp4; do
+            [ -n "$TG_TOKEN" ] && [ -f telegram_chat_id.txt ] && [ -f "$f" ] || continue
+            sz=$(stat -c %s "$f"); [ "$sz" -lt 49000000 ] || continue
+            curl -s -o /dev/null -F chat_id="$(cat telegram_chat_id.txt)" -F video=@"$f" -F caption="$ID - $(basename $f)" "https://api.telegram.org/bot${TG_TOKEN}/sendVideo"
+          done
       - name: Lưu vào repo
         if: always()
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add assets/anh_en logs/dung-en.txt output/RN1/RN1.en.srt output/RN1/chuong.txt output/RN1/bao_cao.json 2>/dev/null || true
-          git commit -q -m "Dựng RN1 [skip ci]" || exit 0
+          git add assets/anh_en logs/dung-en.txt output/$ID/$ID.en.srt output/$ID/chuong.txt output/$ID/bao_cao.json output/$ID/khung_mau 2>/dev/null || true
+          git commit -q -m "Dựng $ID [skip ci]" || exit 0
           for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

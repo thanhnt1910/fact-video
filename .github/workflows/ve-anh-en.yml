@@ -3,7 +3,7 @@ name: Vẽ ảnh bí ẩn bằng Cloudflare (kênh tiếng Anh)
 on:
   push:
     branches: [demo-giong-en]
-    paths: ['ke-hoach/roanoke/ve_chay.txt']
+    paths: ['ke-hoach/*/ve_chay.txt']
 
 permissions:
   contents: write
@@ -17,7 +17,14 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+        with:
+          fetch-depth: 2
+      - name: Xác định chủ đề
+        run: |
+          CD=$(git diff --name-only HEAD~1 HEAD | grep -E '^ke-hoach/[^/]+/ve_chay.txt$' | head -1 | cut -d/ -f2)
+          [ -n "$CD" ] || CD=roanoke
+          echo "CD=$CD" >> $GITHUB_ENV
+          echo "ID=$(python3 -c "import json;print(json.load(open('ke-hoach/$CD/$CD.json'))['id'])")" >> $GITHUB_ENV
         with:
           python-version: "3.12"
       - run: python -m pip install -q pillow numpy requests
@@ -31,14 +38,14 @@ jobs:
           CF_API_TOKEN_3: ${{ secrets.CF_API_TOKEN_3 }}
         run: |
           mkdir -p logs
-          ARGS=$(tr -d '\r\n' < ke-hoach/roanoke/ve_chay.txt)
+          ARGS=$(tr -d '\r\n' < ke-hoach/$CD/ve_chay.txt)
           set -o pipefail
-          python ve_anh_cf_en.py ke-hoach/roanoke/roanoke.json $ARGS 2>&1 | tee logs/ve_anh_en_run.txt
+          python ve_anh_cf_en.py ke-hoach/$CD/$CD.json $ARGS 2>&1 | tee logs/ve_anh_en_run.txt
       - name: Lưu vào repo
         if: always()
         run: |
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
           git add assets/anh_en logs/ve_anh_en.txt || true
-          git commit -q -m "Ảnh bí ẩn RN1 vẽ bằng Cloudflare [skip ci]" || exit 0
+          git commit -q -m "Ảnh bí ẩn $ID vẽ bằng Cloudflare [skip ci]" || exit 0
           for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

@@ -1,6 +1,9 @@
 name: Tìm ảnh tư liệu (video dài)
 
 on:
+  push:
+    branches: [demo-giong-en]
+    paths: ['ke-hoach/anh/tim_chay.txt']
   workflow_dispatch:
     inputs:
       ma:
@@ -25,7 +28,11 @@ jobs:
           python -m pip install -q pillow numpy
           sudo apt-get install -y -qq fonts-dejavu-core > /dev/null || true
       - name: Tìm ảnh
-        run: python tim_anh.py "ke-hoach/anh/${{ inputs.ma }}.json"
+        run: |
+          MA="${{ inputs.ma }}"
+          [ -n "$MA" ] || MA=$(tr -d ' \r\n' < ke-hoach/anh/tim_chay.txt)
+          echo "MA=$MA" >> $GITHUB_ENV
+          python tim_anh.py "ke-hoach/anh/$MA.json"
       - name: Lưu vào repo
         if: always()
         run: |
@@ -33,5 +40,5 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "fact-video-bot"
           git config user.email "actions@users.noreply.github.com"
-          git commit -q -m "Ảnh tư liệu ứng viên ${{ inputs.ma }} [skip ci]"
+          git commit -q -m "Ảnh tư liệu ứng viên $MA [skip ci]"
           for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

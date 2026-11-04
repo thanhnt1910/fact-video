@@ -61,7 +61,24 @@ def proj(lat, lon):
 _LAND = None
 
 
-def land():
+_LEVELS = {}
+
+
+def _thin(pts, tol):
+    """Bỏ điểm cách điểm giữ trước đó dưới tol km (làm một lần lúc nạp, không làm mỗi khung)."""
+    keep = [0]
+    last = pts[0]
+    d2 = tol * tol
+    for i in range(1, len(pts)):
+        dx, dy = pts[i, 0] - last[0], pts[i, 1] - last[1]
+        if dx * dx + dy * dy >= d2:
+            keep.append(i)
+            last = pts[i]
+    return pts[keep]
+
+
+def land(km_per_px=0.0):
+    """Đa giác đất liền (km), chọn bản giản lược hợp với mức phóng hiện tại."""
     global _LAND
     if _LAND is None:
         d = json.loads((ROOT / "assets" / "ban_do" / "bac_cuc_10m.json").read_text(encoding="utf-8"))
@@ -69,9 +86,25 @@ def land():
         for r in d["rings"]:
             a = np.asarray(r, dtype=np.float64)
             x, y = proj(a[:, 1], a[:, 0])
-            rings.append((np.stack([x, y], 1), (x.min(), x.max(), y.min(), y.max())))
+            rings.append(np.stack([x, y], 1))
         _LAND = rings
-    return _LAND
+    tol = 0.0
+    for t in (8.0, 3.0, 1.0):
+        if km_per_px >= t:
+            tol = t
+            break
+    if tol not in _LEVELS:
+        out = []
+        for pts in _LAND:
+            q = _thin(pts, tol) if tol else pts
+            if len(q) < 3:
+                continue
+            ext = q.max(0) - q.min(0)
+            if tol and max(ext) < tol * 1.5:          # đảo nhỏ hơn khoảng một điểm ảnh ở mức phóng này
+                continue
+            out.append((q, (q[:, 0].min(), q[:, 0].max(), q[:, 1].min(), q[:, 1].max())))
+        _LEVELS[tol] = out
+    return _LEVELS[tol]
 
 
 def font(size, italic=False):
@@ -118,6 +151,38 @@ def sea():
     return _SEA
 
 
+def clip_poly(q, x0, y0, x1, y1):
+    """Cắt đa giác theo khung chữ nhật (Sutherland-Hodgman), tránh tô phần nằm ngoài khung."""
+    def clip(p, inside, inter):
+        if len(p) == 0:
+            return p
+        prev = np.roll(p, 1, axis=0)
+        ip, iq = inside(p), inside(prev)
+        out = []
+        for a, b, ia, ib in zip(prev, p, iq, ip):
+            if ib:
+                if not ia:
+                    out.append(inter(a, b))
+                out.append(b)
+            elif ia:
+                out.append(inter(a, b))
+        return np.array(out) if out else np.empty((0, 2))
+
+    def ix(a, b, x):
+        t = (x - a[0]) / (b[0] - a[0])
+        return np.array([x, a[1] + t * (b[1] - a[1])])
+
+    def iy(a, b, y):
+        t = (y - a[1]) / (b[1] - a[1])
+        return np.array([a[0] + t * (b[0] - a[0]), y])
+
+    q = clip(q, lambda p: p[:, 0] >= x0, lambda a, b: ix(a, b, x0))
+    q = clip(q, lambda p: p[:, 0] <= x1, lambda a, b: ix(a, b, x1))
+    q = clip(q, lambda p: p[:, 1] >= y0, lambda a, b: iy(a, b, y0))
+    q = clip(q, lambda p: p[:, 1] <= y1, lambda a, b: iy(a, b, y1))
+    return q
+
+
 def draw_base(cam):
     im = sea().copy()
     d = ImageDraw.Draw(im)
@@ -135,7 +200,7 @@ def draw_base(cam):
         X, Y = cam.px(*proj(lat, np.full_like(lat, lon)))
         d.line(list(zip(X, Y)), fill=GRID, width=lw)
     # đất liền
-    for pts, (a, b, c, e) in land():
+    for pts, (a, b, c, e) in land(cam.km / (W * SS) * 1.5):
         if b < x0 or a > x1 or e < y0 or c > y1:
             continue
         X, Y = cam.px(pts[:, 0], pts[:, 1])
@@ -145,6 +210,11 @@ def draw_base(cam):
         q = q[keep]
         if len(q) < 3:
             continue
+        M = 20 * SS
+        if q[:, 0].min() < -M or q[:, 1].min() < -M or q[:, 0].max() > W * SS + M or q[:, 1].max() > H * SS + M:
+            q = clip_poly(q, -M, -M, W * SS + M, H * SS + M)
+            if len(q) < 3:
+                continue
         poly = [tuple(p) for p in q]
         d.polygon(poly, fill=LAND)
         d.line(poly + [poly[0]], fill=LAND_EDGE, width=lw)
@@ -273,11 +343,11 @@ def frame(spec, t, dur):
     if t >= move:                              # máy quay đã dừng: nền giống nhau, vẽ một lần rồi dùng lại
         key = (id(spec), "base")
         if _CACHE.get("key") != key:
-            _CACHE.update(key=key, im=draw_base(cam).convert("RGBA"))
-        im = _CACHE["im"].copy()
+            _CACHE.update(key=key, im=finish_base(draw_base(cam)))
+        base = _CACHE["im"]
     else:
-        im = draw_base(cam).convert("RGBA")
-    ov = Image.new("RGBA", im.size, (0, 0, 0, 0))
+        base = finish_base(draw_base(cam))
+    ov = Image.new("RGBA", (W * SS, H * SS), (0, 0, 0, 0))
     d = ImageDraw.Draw(ov)
     BUSY.clear()
     t_show = move * 0.85                      # điểm và đường hiện khi máy quay sắp dừng
@@ -306,11 +376,17 @@ def frame(spec, t, dur):
     draw_regions(d, cam, BUSY)
     if spec.get("title"):
         a = ease(t / 0.6)
-        f = font(30)
-        d.text((70 * SS, 60 * SS), spec["title"], font=f, fill=GOLD + (int(230 * a),), anchor="lm")
-    im = Image.alpha_composite(im, ov).convert("RGB")
+        d.text((70 * SS, 60 * SS), spec["title"], font=font(30), fill=GOLD + (int(230 * a),), anchor="lm")
+    ov = ov.reduce(SS)
+    out = base.copy()
+    out.alpha_composite(ov)
+    return out.convert("RGB")
+
+
+def finish_base(im):
+    """Thu nhỏ nền vẽ gấp đôi về 1920x1080, làm tối viền; trả RGBA để phủ lớp điểm đánh dấu."""
     im = im.resize((W, H), Image.LANCZOS)
-    return vignette(im)
+    return vignette(im).convert("RGBA")
 
 
 _VIG = None
@@ -321,21 +397,24 @@ def vignette(im):
     if _VIG is None:
         y, x = np.mgrid[0:H, 0:W]
         r = np.sqrt(((x - W / 2) / (W / 2)) ** 2 + ((y - H / 2) / (H / 2)) ** 2)
-        _VIG = np.clip(1.0 - 0.38 * np.clip(r - 0.55, 0, None) ** 1.4, 0.45, 1.0)[..., None]
-    return Image.fromarray((np.asarray(im, np.float32) * _VIG).astype(np.uint8))
+        v = np.clip(1.0 - 0.38 * np.clip(r - 0.55, 0, None) ** 1.4, 0.45, 1.0)
+        _VIG = Image.fromarray((v * 255).astype(np.uint8)).convert("RGB")
+    from PIL import ImageChops
+    return ImageChops.multiply(im.convert("RGB"), _VIG)
 
 
-def render_map_shot(spec, out, dur, caption=None):
+def render_map_shot(spec, out, dur, caption=None, fps=None):
     """Dựng một cảnh bản đồ thành mp4 (cùng định dạng với render_shot của en_video.py)."""
-    n = max(2, int(round(dur * FPS)))
+    fps = fps or FPS
+    n = max(2, int(round(dur * fps)))
     fade = min(0.4, dur / 4)
     vf = f"fade=t=in:st=0:d={fade:.2f},fade=t=out:st={max(0, dur - fade):.2f}:d={fade:.2f},format=yuv420p"
-    cmd = ["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-           "-i", "-", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(FPS), str(out)]
+    cmd = ["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(fps),
+           "-i", "-", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(fps), str(out)]
     pr = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     try:
         for i in range(n):
-            fr = frame(spec, i / FPS, dur)
+            fr = frame(spec, i / fps, dur)
             if caption:
                 fr = add_caption(fr, caption)
             pr.stdin.write(fr.tobytes())

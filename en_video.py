@@ -211,6 +211,25 @@ def timeline(d):
     return narr, items, t + 0.0
 
 
+WPS_UOC = 2.1              # nhịp giọng Orus đo ở RN1 (từ mỗi giây), dùng cho bản dựng không giọng
+
+
+def timeline_uoc(d):
+    """Mốc thời gian ước theo số từ (chưa có giọng): trả về (âm thanh im lặng, đoạn, tổng thời lượng)."""
+    t = INTRO
+    items = []
+    for c in clusters(beats_of(d)):
+        for b in c:
+            dur = max(2.0, len(b["text"].split()) / WPS_UOC)
+            items.append(dict(b, start=t, end=t + dur))
+            t += dur + GAP_BEAT
+        t += 0.5
+    t += OUTRO
+    narr = array.array("h")
+    narr.extend(mv.silence(t))
+    return narr, items, t
+
+
 # ------------------------------------------------------------------ hình
 def compose(src, dest, ay=0.5):
     """Khung 2560x1440: ảnh đặt trọn trong khung, nền là chính ảnh phóng to, làm mờ, tối."""
@@ -277,7 +296,7 @@ def render_job(job):
     if job[0] == "map":
         import ban_do_en
         _, spec, out, dur = job
-        return ban_do_en.render_map_shot(spec, out, dur)
+        return ban_do_en.render_map_shot(spec, out, dur, fps=FPS)
     return render_shot(job)
 
 
@@ -398,12 +417,21 @@ def _srt(t):
 
 
 # ------------------------------------------------------------------ dựng
-def dung(d):
+def dung_thu(d):
+    """Dựng bản không giọng (thời lượng ước theo số từ) để duyệt hình, bản đồ và nhịp cảnh."""
+    dung(d, co_giong=False)
+
+
+def dung(d, co_giong=True):
     out_dir = ROOT / "output" / d["id"]
-    work = out_dir / "_work"
+    work = out_dir / ("_work" if co_giong else "_work_thu")
     work.mkdir(parents=True, exist_ok=True)
-    narr, items, total = timeline(d)
-    log(f"Giọng xong: {total / 60:.1f} phút, {len(items)} đoạn")
+    if co_giong:
+        narr, items, total = timeline(d)
+        log(f"Giọng xong: {total / 60:.1f} phút, {len(items)} đoạn")
+    else:
+        narr, items, total = timeline_uoc(d)
+        log(f"Bản KHÔNG GIỌNG: thời lượng ước {total / 60:.1f} phút, {len(items)} đoạn")
 
     # ghép đoạn cùng ô ảnh liên tiếp thành một cảnh
     # câu có trường "map" (khai báo trong ban_do.json cạnh kịch bản) dùng cảnh bản đồ động thay cho ảnh
@@ -460,23 +488,33 @@ def dung(d):
     raw = work / "voice.wav"
     mv.write_wav(raw, narr)
     voice = work / "voice_norm.wav"
-    mv.run_ffmpeg(["-i", str(raw), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", str(voice)])
+    if co_giong:
+        mv.run_ffmpeg(["-i", str(raw), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", str(voice)])
+    else:
+        mv.run_ffmpeg(["-i", str(raw), "-ar", "44100", str(voice)])
 
     ass, srt = out_dir / f"{d['id']}.en.ass", out_dir / f"{d['id']}.en.srt"
     write_subs(items, total, d, ass, srt)
-    final = out_dir / f"{d['id']}_dai.mp4"
+    final = out_dir / f"{d['id']}_{'dai' if co_giong else 'thu'}.mp4"
     # logo kênh: vuông 130 px, độ đậm 0,8, góc trên bên phải, cách mép phải 44 px và mép trên 34 px (giống video bản đồ)
     fc = (f"[0:v]ass='{ass.as_posix()}'[v];[2:v]scale=130:130,format=rgba,colorchannelmixer=aa=0.8[lg];"
           f"[v][lg]overlay=W-w-44:34[o]")
     mv.run_ffmpeg(["-i", str(silent), "-i", str(voice), "-i", str(LOGO), "-filter_complex", fc, "-map", "[o]", "-map", "1:a",
                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-b:a", "160k", "-shortest",
                    "-movflags", "+faststart", str(final)])
-    prev = out_dir / f"{d['id']}_xem_nhanh.mp4"
+    prev = out_dir / f"{d['id']}_{'' if co_giong else 'thu_'}xem_nhanh.mp4"
     mv.run_ffmpeg(["-i", str(final), "-vf", "scale=854:-2", "-c:v", "libx264", "-preset", "veryfast", "-crf", "30",
                    "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart", str(prev)])
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                                          "-of", "csv=p=0", str(final)], text=True).strip())
     log(f"✅ {final.name}: {dur / 60:.2f} phút, {final.stat().st_size / 1e6:.0f} MB; bản xem nhanh {prev.stat().st_size / 1e6:.0f} MB")
+    km = out_dir / "khung_mau"
+    km.mkdir(exist_ok=True)
+    for k, s in enumerate(shots):
+        if s["slot"] in maps or k % 6 == 0:
+            tmid = s["start"] + (s["end"] - s["start"]) * (0.8 if s["slot"] in maps else 0.5)
+            mv.run_ffmpeg(["-ss", f"{tmid:.2f}", "-i", str(final), "-frames:v", "1", "-vf", "scale=960:-2",
+                           "-q:v", "4", str(km / f"{k:03d}_{s['slot']}.jpg")])
     (out_dir / "bao_cao.json").write_text(json.dumps(
         {"phut": round(dur / 60, 2), "so_doan": len(items), "so_canh": len(shots), "o_thieu_anh": miss,
          "mb": round(final.stat().st_size / 1e6)}, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -493,4 +531,4 @@ def dung(d):
 if __name__ == "__main__":
     cmd, path = sys.argv[1], sys.argv[2]
     d = load(path)
-    {"tai-anh": tai_anh, "giong": giong, "dung": dung}[cmd](d)
+    {"tai-anh": tai_anh, "giong": giong, "dung": dung, "dung-thu": dung_thu}[cmd](d)

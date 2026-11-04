@@ -12,7 +12,7 @@ KIỂM TRA ẢNH TQ2 · video dài · 85 ảnh (số thứ tự khớp lưới �
 ✅ 11 (ảnh mô phỏng AI) ·  011.jpg
 ✅ 12 (ảnh mô phỏng AI) ·  012.jpg
 ❌ 13 (ảnh mô phỏng AI) ·  013.jpg
-     ❌ Ảnh minh họa sai sự việc so với lời kể: lời kể ghi 'trói đốc bưu trên giường' hoặc 'trói viên đốc bưu, đánh hai trăm gậy', nhưng ảnh lại vẽ nhân vật bị trói quanh người bằng dây thừng trong tư thế ngồi dưới đất thay vì bị trói trên giường. → Vẽ lại cảnh nhân vật bị trói nằm trên giường hoặc đang bị đánh gậy đúng như lời kể.
+     ❌ Lời kể nói về việc trói đốc bưu trên giường và đánh gậy, nhưng ảnh lại vẽ một người bị trói ngồi dưới đất ngoài trời thay vì trên giường trong nhà. → Vẽ cảnh nhân vật đang trói hoặc đánh viên đốc bưu trên giường theo đúng lời kể.
 ✅ 14 (ảnh mô phỏng AI) ·  014.jpg
 ✅ 15 (ảnh mô phỏng AI) ·  015.jpg
 ✅ 16 (ảnh mô phỏng AI) ·  016.jpg
@@ -27,18 +27,18 @@ KIỂM TRA ẢNH TQ2 · video dài · 85 ảnh (số thứ tự khớp lưới �
 ✅ 25 (ảnh mô phỏng AI) ·  025.jpg
 ✅ 26 (ảnh mô phỏng AI) ·  026.jpg
 ✅ 27 (ảnh mô phỏng AI) ·  027.jpg
-✅ 28 (ảnh mô phỏng AI) ·  028.jpg
+❌ 28 (ảnh mô phỏng AI) ·  028.jpg
+     ❌ Ảnh AI tạo ra hai nhân vật có khuôn mặt và trang phục gần như y hệt nhau, giống như nhân bản vô tính, không thể hiện được sự khác biệt giữa hai nhân vật lịch sử khác nhau là Quan Vũ và Trương Phi theo lời kể. → Cần tạo ảnh minh họa hai nhân vật Quan Vũ và Trương Phi có ngoại hình, trang phục và khí chất khác biệt rõ rệt theo đúng mô tả lịch sử (ví dụ: Quan Vũ có râu dài, Trương Phi có nét mặt dữ dằn hơn).
 ✅ 29 (ảnh mô phỏng AI) ·  029.jpg
-✅ 30 (ảnh mô phỏng AI) ·  030.jpg
+❌ 30 (ảnh mô phỏng AI) ·  030.jpg
+     ❌ Lời kể đề cập đến 'hai người' (hộ vệ của Lưu Bị, ám chỉ Quan Vũ và Trương Phi), nhưng ảnh chỉ vẽ một người cầm giáo đứng gác. → Vẽ hai người hộ vệ đứng gác cùng nhau để phù hợp với ý 'hai người có quân riêng' và 'gọi họ là người hộ vệ' trong lời kể.
 ✅ 31 (ảnh mô phỏng AI) ·  031.jpg
 ✅ 32 (ảnh mô phỏng AI) ·  032.jpg
 ✅ 33 (ảnh mô phỏng AI) ·  033.jpg
 ❌ 34 (ảnh mô phỏng AI) ·  034.jpg
-     ❌ Lời kể chỉ nhắc đến 'hai người' ở lại và đi cùng nhau, nhưng ảnh lại minh họa đến ba nhân vật nam đứng cạnh nhau (rất giống hình tượng kết nghĩa vườn đào trong tiểu thuyết Tam Quốc Diễn Nghĩa). → Sửa lại ảnh chỉ hiển thị đúng hai nhân vật theo đúng mạch nội dung chính sử được kể.
-⚠️ 35 (ảnh mô phỏng AI) ·  035.jpg
-     ⚠️ Ảnh vẽ rõ khuôn mặt của nhân vật lịch sử (có thể là Quan Vũ hoặc Trương Phi khi qua đời, hoặc Lưu Bị), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để phù hợp với quy định.
-❌ 36 (ảnh mô phỏng AI) ·  076.jpg
-     ❌ Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (có thể là Quan Vũ hoặc Trương Phi), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử có thật. → Thay bằng ảnh nhân vật quay lưng, ở xa, trong bóng tối hoặc chỉ minh họa chi tiết phi nhân vật.
+     ❌ Lời kể chỉ nhắc đến 'hai người' (Lưu Bị và một người đồng hành trong sử sách), nhưng ảnh lại vẽ tới ba nhân vật đứng cạnh nhau. → Sửa lại ảnh chỉ có hai nhân vật để phù hợp chính xác với lời kể về hai người ở lại cùng nhau.
+✅ 35 (ảnh mô phỏng AI) ·  035.jpg
+✅ 36 (ảnh mô phỏng AI) ·  076.jpg
 ✅ 37 (ảnh mô phỏng AI) ·  077.jpg
 ✅ 38 (ảnh mô phỏng AI) ·  078.jpg
 ✅ 39 (ảnh mô phỏng AI) ·  036.jpg
@@ -49,50 +49,54 @@ KIỂM TRA ẢNH TQ2 · video dài · 85 ảnh (số thứ tự khớp lưới �
 ✅ 44 (ảnh mô phỏng AI) ·  041.jpg
 ✅ 45 (ảnh mô phỏng AI) ·  042.jpg
 ✅ 46 (ảnh mô phỏng AI) ·  043.jpg
-❌ 47 (ảnh mô phỏng AI) ·  044.jpg
-     ❌ Lời kể nhắc đến Lưu Biện lên ngôi khi còn rất trẻ, nhưng ảnh lại minh họa một người đàn ông lớn tuổi, nét mặt già nua hoảng sợ, không phù hợp với miêu tả 'còn rất trẻ'. → Thay thế bằng hình ảnh minh họa một thiếu niên hoặc người trẻ tuổi ngồi trên ngai vàng để phù hợp với nhân vật Lưu Biện khi mới lên ngôi.
+✅ 47 (ảnh mô phỏng AI) ·  044.jpg
 ✅ 48 (ảnh mô phỏng AI) ·  045.jpg
 ✅ 49 (ảnh mô phỏng AI) ·  046.jpg
 ✅ 50 (ảnh mô phỏng AI) ·  047.jpg
 ✅ 51 (ảnh mô phỏng AI) ·  048.jpg
 ❌ 52 (ảnh mô phỏng AI) ·  049.jpg
-     ❌ Ảnh hiển thị khuôn mặt rõ ràng của nhân vật lịch sử (có thể là Viên Thiệu hoặc tướng lĩnh), vi phạm quy tắc không được vẽ rõ mặt nhân vật lịch sử có thật. → Thay bằng ảnh phong cảnh hoàng cung hỗn loạn hoặc vẽ nhân vật quay lưng, ở xa không thấy rõ mặt.
+     ❌ Ảnh vẽ cận cảnh khuôn mặt rõ ràng của một nhân vật lịch sử (có thể là Viên Thiệu hoặc tướng lĩnh), vi phạm quy tắc không được để lộ khuôn mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh phong cảnh hoàng cung hỗn loạn, cảnh binh lính xông vào cung, hoặc vẽ nhân vật ở góc quay từ phía sau, trong bóng tối.
 ✅ 53 (ảnh mô phỏng AI) ·  050.jpg
 ❌ 54 (ảnh mô phỏng AI) ·  051.jpg
-     ❌ Lời kể đang nói về sự kiện Đổng Trác dẫn quân tới gặp hoàng đế, nhưng ảnh lại minh họa một tướng lĩnh đứng đơn độc (có thể đại diện cho Đổng Trác), không thể hiện được sự việc Đổng Trác gặp hoàng đế theo đúng ngữ cảnh. → Thay đổi ảnh minh họa thành cảnh Đổng Trác dẫn quân đội đến gặp và tiếp kiến hoàng đế trẻ.
+     ❌ Lời kể đang nhắc đến việc hoàng đế và em ông bị đưa ra ngoài thành, sau đó Đổng Trác dẫn quân tới nơi gặp hoàng đế, nhưng ảnh lại minh họa một tướng lĩnh mặc giáp đứng một mình, không khớp với sự việc Đổng Trác gặp hoàng đế. → Thay thế bằng ảnh minh họa cảnh Đổng Trác dẫn quân đến gặp hoàng đế trẻ.
 ✅ 55 (ảnh mô phỏng AI) ·  052.jpg
 ✅ 56 (ảnh mô phỏng AI) ·  053.jpg
 ✅ 57 (ảnh mô phỏng AI) ·  054.jpg
-⚠️ 58 (ảnh mô phỏng AI) ·  055.jpg
-     ⚠️ Ảnh minh họa là một bản đồ phong cách cổ nhưng hình dạng các lục địa và quốc gia bên trong bị biến dạng, méo mó không chính xác so với địa lý thực tế hoặc bản đồ lịch sử thời Tam Quốc. → Sử dụng hình ảnh bản đồ Trung Quốc thời cổ đại hoặc bản đồ minh họa trực quan hơn về khoảng cách địa lý giữa Lưu Bị và kinh đô.
+❌ 58 (ảnh mô phỏng AI) ·  055.jpg
+     ❌ Bản đồ do AI tạo ra có hình dáng các lục địa và quốc gia bị biến dạng vô lý, sai lệch hoàn toàn so với địa lý thực tế hoặc bản đồ lịch sử thời Tam Quốc. → Sử dụng bản đồ lịch sử Trung Quốc thời kỳ Đông Hán hoặc Tam Quốc chính xác hơn.
 ✅ 59 (ảnh mô phỏng AI) ·  056.jpg
 ✅ 60 (ảnh mô phỏng AI) ·  057.jpg
 ✅ 61 (ảnh mô phỏng AI) ·  058.jpg
 ✅ 62 (ảnh mô phỏng AI) ·  059.jpg
 ✅ 63 (ảnh mô phỏng AI) ·  060.jpg
 ✅ 64 (ảnh mô phỏng AI) ·  079.jpg
-⚠️ 65 (ảnh mô phỏng AI) ·  080.jpg
-     ⚠️ Ảnh minh họa một tướng lĩnh đang nhìn vào bản đồ, phù hợp với ngữ cảnh bàn về chiến sự và các đạo quân, nhưng chỉ mang tính chất minh họa chung cho bối cảnh thời kỳ chứ không phản ánh cụ thể hành động 'lo giữ quân, không ai muốn tổn thất' của các đạo quân. → Có thể dùng lại làm ảnh bối cảnh chung, hoặc thay bằng hình ảnh thể hiện sự do dự, chần chừ của nhiều cánh quân đóng trại nhìn nhau.
+❌ 65 (ảnh mô phỏng AI) ·  080.jpg
+     ❌ Bàn tay phải của nhân vật đặt trên bản đồ có cấu trúc ngón tay dị dạng, thừa ngón và không tự nhiên do lỗi AI. → Dùng AI tạo lại ảnh với bàn tay được vẽ chính xác hoặc thay thế bằng hình ảnh minh họa khác.
 ✅ 66 (ảnh mô phỏng AI) ·  061.jpg
 ✅ 67 (ảnh mô phỏng AI) ·  062.jpg
-✅ 68 (ảnh mô phỏng AI) ·  063.jpg
+❌ 68 (ảnh mô phỏng AI) ·  063.jpg
+     ❌ Lời kể nhắc đến nhân vật lịch sử Hoa Hùng và việc tên nhân vật này gắn với người khác trong sử, nhưng ảnh lại vẽ rõ mặt một vị tướng đứng trước cổng thành, vi phạm quy tắc không được hiển thị rõ khuôn mặt nhân vật lịch sử có thật. → Thay thế bằng ảnh phong cảnh cổng thành thời Hán mạc, hoặc vẽ nhân vật quay lưng, ở xa, trong bóng tối để minh họa cho truyền thuyết/sử sách.
 ✅ 69 (ảnh mô phỏng AI) ·  064.jpg
 ✅ 70 (ảnh mô phỏng AI) ·  065.jpg
 ✅ 71 (ảnh mô phỏng AI) ·  066.jpg
 ✅ 72 (ảnh mô phỏng AI) ·  067.jpg
 ✅ 73 (ảnh mô phỏng AI) ·  081.jpg
-✅ 74 (ảnh mô phỏng AI) ·  082.jpg
+❌ 74 (ảnh mô phỏng AI) ·  082.jpg
+     ❌ Lời kể nói về Tào Tháo sau trận thua Đổng Trác và vẫn bước tiếp, nhưng ảnh vẽ hiển thị rõ khuôn mặt cận cảnh của nhân vật lịch sử có thật (Tào Tháo), vi phạm quy tắc không vẽ rõ mặt nhân vật lịch sử. → Thay đổi góc chụp hoặc vẽ nhân vật quay lưng, ở xa, hoặc trong bóng tối thay vì hiển thị rõ khuôn mặt.
 ✅ 75 (ảnh mô phỏng AI) ·  068.jpg
 ❌ 76 (ảnh mô phỏng AI) ·  083.jpg
-     ❌ Bản đồ ở giữa có hình dáng vô nghĩa, sai lệch hoàn toàn so với bản đồ địa lý Trung Hoa thời Tam Quốc, đồng thời các chữ viết trên áo và bản đồ đều là chữ AI vô nghĩa. → Thay bằng hình ảnh bản đồ Trung Hoa thời Đông Hán hoặc cảnh hai thế lực quân phiệt đang đối đầu.
-✅ 77 (ảnh mô phỏng AI) ·  084.jpg
-❌ 78 (ảnh mô phỏng AI) ·  069.jpg
-     ❌ Lưu Bị là nhân vật lịch sử có thật nhưng ảnh lại vẽ rõ khuôn mặt của hai nhân vật trong cảnh. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối để không thấy rõ khuôn mặt theo đúng quy định về nhân vật lịch sử có thật.
+     ❌ Bản đồ ở giữa bức ảnh có hình dạng địa lý hiện đại méo mó giống châu Âu và châu Phi chứ không phải bản đồ Trung Quốc thời Tam Quốc. → Thay thế bằng bản đồ Trung Quốc thời kỳ Tam Quốc hoặc bản đồ quân sự cổ phù hợp với ngữ cảnh Viên Thiệu và Công Tôn Toản.
+     ❌ Chữ viết trang trí trên áo giáp của nhân vật bên trái và trên bản đồ là các ký tự vô nghĩa, không phải chữ Hán lịch sử. → Vẽ lại trang phục không có ký tự lạ hoặc sử dụng chữ Hán chính xác thời cổ đại.
+❌ 77 (ảnh mô phỏng AI) ·  084.jpg
+     ❌ Ảnh vẽ rõ khuôn mặt của Lưu Bị, nhân vật lịch sử có thật. → Thay thế bằng ảnh nhân vật quay lưng, ở xa hoặc trong bóng tối để không lộ rõ khuôn mặt.
+✅ 78 (ảnh mô phỏng AI) ·  069.jpg
 ❌ 79 (ảnh mô phỏng AI) ·  070.jpg
-     ❌ Nhân vật đang cầm một chiếc bút chì gỗ hiện đại để viết. → Thay bút chì hiện đại bằng bút lông hoặc ống bút phù hợp với thời kỳ cổ đại.
+     ❌ Nhân vật đang cầm một chiếc bút chì gỗ hiện đại để viết, không phù hợp với thời kỳ Tam Quốc. → Thay thế bút chì hiện đại bằng bút lông hoặc ống bút phù hợp với thời kỳ cổ đại.
 ✅ 80 (ảnh mô phỏng AI) ·  085.jpg
 ✅ 81 (ảnh mô phỏng AI) ·  071.jpg
 ✅ 82 (ảnh mô phỏng AI) ·  072.jpg
-✅ 83 (ảnh mô phỏng AI) ·  073.jpg
-✅ 84 (ảnh mô phỏng AI) ·  074.jpg
+⚠️ 83 (ảnh mô phỏng AI) ·  073.jpg
+     ⚠️ Ảnh hiển thị cận cảnh khuôn mặt một nhân vật lịch sử (có thể được ngầm hiểu là Đổng Trác hoặc một tướng lĩnh trong bối cảnh kinh đô rơi vào tay Đổng Trác), vi phạm quy định không được hiển thị rõ khuôn mặt của nhân vật lịch sử có thật. → Thay thế bằng hình ảnh phong cảnh, quang cảnh kinh đô thời loạn, hoặc vẽ nhân vật ở góc quay phía sau, từ xa, hoặc trong bóng tối để phù hợp với quy định.
+❌ 84 (ảnh mô phỏng AI) ·  074.jpg
+     ❌ Lời kể đang nhắc đến Lưu Bị và câu hỏi về nhân vật ở Hổ Lao, nhưng ảnh vẽ hiển thị rõ khuôn mặt của một nhân vật lịch sử cụ thể trong lều trại, vi phạm quy tắc không được vẽ khuôn mặt nhìn rõ của nhân vật lịch sử có thật. → Thay thế bằng ảnh vẽ nhân vật quay lưng, ở xa hoặc trong bóng tối, không nhìn rõ khuôn mặt.
 ✅ 85 (ảnh mô phỏng AI) ·  075.jpg

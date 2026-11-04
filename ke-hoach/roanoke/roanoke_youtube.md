@@ -40,6 +40,8 @@ What do you think CROATOAN meant? Tell us in the comments.
 
 New true mystery from history every day — subscribe to History Mysteries Daily.
 
+#Roanoke #LostColony #HistoryMysteries #Croatoan #UnsolvedMysteries #TrueHistory
+
 Images: historical maps and engravings in the public domain; photographs under their authors' licenses (list below). The carved-tree photo is a modern reconstruction at Fort Raleigh, not the original tree.
 
 Image credits:
@@ -103,5 +105,6 @@ Gaultherot, Vivant, Public domain
 Roanoke, Lost Colony of Roanoke, Croatoan, John White, Virginia Dare, unsolved mysteries, history mysteries, historical mysteries, Outer Banks, colonial America, true history, History Mysteries Daily
 
 ## Ghi chú
+- Hashtag: YouTube chỉ hiện 3 hashtag đầu của mô tả phía trên tiêu đề (#Roanoke #LostColony #HistoryMysteries); tối đa 15, quá thì YouTube bỏ hết.
 - Trong video này có ảnh minh họa phong cảnh hiện đại, không phải ảnh thời đó; mô tả đã nói rõ ảnh là tư liệu/minh họa.
 - Chưa có avatar kênh trong repo nên bìa dùng chữ tên kênh; thêm logo khi bạn đưa file.

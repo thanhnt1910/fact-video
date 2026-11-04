@@ -216,3 +216,12 @@ Lệch thì ghi lý do trong ghi chú của kịch bản, không coi là lỗi:
 ### 3. Giữ nguyên là chuẩn kỹ thuật
 - `phim_ban_do/kiem_kich_ban.py` giữ nguyên logic: **tối đa 32 chữ và 2 câu mỗi đoạn**, đếm bằng tách theo khoảng trắng (`split()`). Đổi mục tiêu biên tập không tự động đổi bộ kiểm; Claude không được tự coi lỗi ❌ của bộ kiểm là cảnh báo mềm và không sửa bộ kiểm nếu chủ kênh chưa yêu cầu.
 - Tài liệu `quy-tac/ky-thuat-ke-chuyen.md` chỉ là thư viện tham khảo; nó không ghi đè `chung.md`.
+
+
+## Giọng đọc: LUÔN đọc từng câu, mọi kịch bản (chủ kênh yêu cầu 04/11/2026, áp dụng mọi video từ nay; khi trùng hoặc mâu thuẫn với mọi mục cũ về đọc cụm, mục này ưu tiên)
+
+- **Mọi kịch bản, khi dựng video, đều phải đọc giọng TỪNG CÂU (từng đoạn một lần gọi Gemini), `ke-hoach/thu-giong-hai/cum.txt` = `1`.** Làm theo cách video Tào Tháo (TQ10) đã làm: mỗi đoạn một giọng đọc riêng, không đọc cụm 8 hay cụm 16 rồi cắt.
+- Lý do: đọc cụm rồi cắt theo chỗ lặng làm lệch ranh giới giữa các đoạn (đoạn này chứa lời của đoạn kế, đoạn chỉ còn tiếng lặng, nhận dạng ra câu không có trong kịch bản). Chu Du (04/11/2026): cụm 16 lỗi 21/88 đoạn, đọc lại cụm vẫn lỗi, phải cắt lại theo mốc chữ; đọc từng câu thì không còn bước cắt.
+- Các mục cũ về "cụm 8", "cụm 16", `cat_lai_cum.py` ở `video-ban-do.md`, `su-viet.md` và `CLAUDE.md` không còn là cách đọc mặc định; chỉ còn là tài liệu tham khảo lịch sử. Mọi chỗ ghi `cum.txt` = 8 hoặc 16 coi như đã đổi thành `1`.
+- Vẫn giữ nguyên: giọng Sadaltager, hồ sơ giọng C, thứ tự đọc, nhận dạng, `kiem_giong.py`, kiểm cao độ rồi mới dựng; chuẩn hóa âm lượng. Gặp 429 thì dừng, không gửi dồn (đọc tiếp phần còn thiếu ở lượt chạy sau, mã chỉ đọc đoạn chưa có).
+- Trước khi dựng bất kỳ video nào, kiểm `cum.txt` = `1` rồi mới chạy giọng.

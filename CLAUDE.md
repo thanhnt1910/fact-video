@@ -28,6 +28,8 @@ Series mới: tạo file `quy-tac/<series>.md`, ghi nó vào bảng trên, đừ
 
 @quy-tac/chung.md
 
+## Giọng đọc: LUÔN đọc từng câu (`cum.txt` = 1) cho mọi kịch bản, xem mục cuối `quy-tac/chung.md` (chủ kênh 04/11/2026; thay mọi chỗ ghi `cum.txt` = 16 hoặc 8 bên dưới)
+
 ## Giọng đọc: luôn dùng Sadaltager (chủ kênh chốt 29/10/2026, áp dụng mọi video từ nay)
 - Mọi video (dài và ngắn, mọi series) đọc bằng giọng Gemini **Sadaltager**: workflow `thu-giong-hai.yml` với `-f voices=Sadaltager`. Không đổi sang Puck hay giọng khác nếu chủ kênh chưa yêu cầu.
 - **Hồ sơ giọng cố định C là mặc định (chủ kênh chọn `assets/ab_giong/nghe_C1.mp3` ngày 01/11/2026):** `STYLE_C` trong `thu_giong_hai_cum.py` dùng nguyên văn cho mọi cụm và mọi tone (không đổi theo tone chương); `cum.txt` = 16 trên nhánh `thu-giong-hai`. Hồ sơ B cũ (theo tone) không dùng nữa. Mọi video đọc lại hoặc đọc mới đều theo C; video đã đọc bằng hồ sơ cũ (lt1v6 lần đầu) phải đọc lại. Lưu ý chỉ đúng khi cả video cùng một hồ sơ: đừng trộn đoạn đọc B với đoạn đọc C.

@@ -18,7 +18,7 @@ STYLE_C = ("Native Vietnamese male narrator, Northern (Hanoi) accent, mature, br
            "Keep exactly the same voice, pitch, pace and tone in every line.")
 CONFIG_VERSION = "v3-2026-11-01-C"   # đổi khi đổi cách tổng hợp; nằm trong mã hash để nhận ra file âm thanh cũ
 import os as _os
-for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 16)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
+for _n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 17)] + ["GEMINI_API_KEYS"]:   # tên secret -> 4 ký tự cuối (không in khóa)
     _v = _os.environ.get(_n, "").strip()
     print(f"   [khóa] {_n}: " + (f"…{_v[-4:]}" if _v else "trống"), flush=True)
 

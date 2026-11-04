@@ -1,5 +1,5 @@
 """Nhiều khóa Gemini, tự đổi khóa khi một khóa hết lượt (429) / hết tiền (402) / bị từ chối (403).
-Đọc: GEMINI_API_KEY, GEMINI_API_KEY_2 … _15, GEMINI_API_KEYS (cách nhau dấu phẩy/xuống dòng). Khóa trùng chỉ tính một."""
+Đọc: GEMINI_API_KEY, GEMINI_API_KEY_2 … _16, GEMINI_API_KEYS (cách nhau dấu phẩy/xuống dòng). Khóa trùng chỉ tính một."""
 import os
 import re
 import time
@@ -10,7 +10,7 @@ _i = [0]
 
 
 def all_keys():
-    names = ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 16)]
+    names = ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 17)]
     vals = [os.environ.get(n, "") for n in names] + re.split(r"[,\s]+", os.environ.get("GEMINI_API_KEYS", ""))
     out = []
     for v in vals:

@@ -123,6 +123,7 @@ jobs:
           GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
           GEMINI_API_KEY_14: ${{ secrets.GEMINI_API_KEY_14 }}
           GEMINI_API_KEY_15: ${{ secrets.GEMINI_API_KEY_15 }}
+          GEMINI_API_KEY_16: ${{ secrets.GEMINI_API_KEY_16 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
@@ -161,6 +162,7 @@ jobs:
           GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
           GEMINI_API_KEY_14: ${{ secrets.GEMINI_API_KEY_14 }}
           GEMINI_API_KEY_15: ${{ secrets.GEMINI_API_KEY_15 }}
+          GEMINI_API_KEY_16: ${{ secrets.GEMINI_API_KEY_16 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}

@@ -163,6 +163,11 @@ def build():
         elif k == "water":
             n = int(d * SR); x = lp(noise(n), 900) * (0.6 + 0.4 * np.sin(np.arange(n) / SR * 1.7))
             put(fxm, x.astype(np.float32) * env_win(n, 1.0, 1.0), t0, 0.35)
+        elif k == "pluck":
+            f0 = float(e.get("f", 220)); n = int(1.6 * SR); t_ = np.arange(n) / SR
+            x = sum(a_ * np.sin(2 * np.pi * f0 * m * t_) * np.exp(-t_ * (3 + 2 * m)) for m, a_ in ((1, 1), (2, .5), (3, .25)))
+            if e.get("bad"): x = x * (1 + 0.3 * np.sin(2 * np.pi * 7 * t_)) + 0.4 * np.sin(2 * np.pi * f0 * 1.06 * t_) * np.exp(-t_ * 4)
+            put(fxm, x.astype(np.float32), t0, 0.5)
         elif k == "insect":
             n = int(d * SR); put(fxm, cricket_train(d) * env_win(n, 1.5, 1.5), t0, 0.12)
         elif k == "wind":

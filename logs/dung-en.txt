@@ -93,3 +93,40 @@ Giọng xong: 13.0 phút, 73 đoạn
    … 61/79 (204s)
    … 71/79 (243s)
 ✅ RN1_dai.mp4: 13.04 phút, 420 MB; bản xem nhanh 28 MB
+Đã có 54 ảnh
+Giọng Orus: 12 cụm
+  cụm 1/12 ✔
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   🎙️  đọc xong 1 cụm 8 đoạn (23s)
+  cụm 2/12 ✔
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 5 đoạn (14s)
+  cụm 3/12 ✔
+  cụm 4/12 ✔
+   🎙️  đọc xong 1 cụm 4 đoạn (10s)
+  cụm 5/12 ✔
+  cụm 6/12 ✔
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 8 đoạn (20s)
+  cụm 7/12 ✔
+   🎙️  đọc xong 1 cụm 7 đoạn (19s)
+  cụm 8/12 ✔
+   🎙️  đọc xong 1 cụm 7 đoạn (20s)
+  cụm 9/12 ✔
+  cụm 10/12 ✔
+  cụm 11/12 ✔
+   🎙️  đọc xong 1 cụm 7 đoạn (18s)
+  cụm 12/12 ✔
+Giọng xong: 13.6 phút, 74 đoạn
+65 cảnh, 82 đoạn hình
+   … 1/82 (9s)
+   … 11/82 (44s)
+   … 21/82 (78s)
+   … 31/82 (107s)
+   … 41/82 (140s)
+   … 51/82 (178s)
+   … 61/82 (208s)
+   … 71/82 (250s)
+   … 81/82 (281s)
+✅ RN1_dai.mp4: 13.55 phút, 411 MB; bản xem nhanh 27 MB

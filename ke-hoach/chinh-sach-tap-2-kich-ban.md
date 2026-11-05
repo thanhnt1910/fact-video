@@ -10,19 +10,19 @@ Thứ tự theo Toàn thư: ngay sau tập 1 (Chín quận), trong Kỷ thuộc 
 
 | n | Phần | Lời kể |
 |---|---|---|
-| 42001 | Mở đầu | Có một vị quan khiến nhiều nhà đặt tên con là Nhâm. Ông tên là Nhâm Diên. |
-| 42002 | Mở đầu | Ông được nhà Hán cử xuống làm thái thú Cửu Chân, nghĩa là quan đứng đầu cả quận, vào những năm đầu thời Đông Hán. |
-| 42003 | Cách làm | Người Cửu Chân khi ấy sống chủ yếu bằng nghề đánh cá và đi săn, còn cày cấy trên ruộng thì họ chưa quen. |
-| 42004 | Cách làm | Vì vậy Nhâm Diên dạy dân khai khẩn đất hoang, năm nào cũng cày trồng, và nhờ thế trăm họ có cái ăn đầy đủ. |
-| 42005 | Cách làm | Nhưng nhà nghèo thì không có tiền sính lễ để cưới vợ, nên ông bảo các quan lại dưới quyền trích bớt một phần lương để giúp họ. |
-| 42006 | Cách làm | Nhờ khoản góp ấy, hàng nghìn người đã được nên duyên cùng một lúc. |
-| 42007 | Cách làm | Trước ông, một vị quan đứng đầu quận khác là Tích Quang cũng đã lấy lễ nghĩa dạy dân. |
-| 42008 | Kết quả | Nhâm Diên coi việc được bốn năm thì bị triệu về, và người Cửu Chân đã lập đền thờ ông. |
-| 42009 | Kết quả | Nhiều nhà sinh con đều đặt tên con là Nhâm, như một cách nhớ ơn ông. |
-| 42010 | Kết quả | Người xưa cho rằng phong tục vùng Lĩnh Nam bắt đầu đổi từ hai vị quan này, nhưng đó chỉ là cách nhìn của người viết sử, nên ta không nói chắc. |
-| 42011 | Kết quả | Điều chắc chắn là một viên quan lo cho bữa ăn và chuyện cưới hỏi của dân thì được dân nhớ mãi. |
-| 42012 | Kết | Cùng là quan nhà Hán cử xuống, có người vơ vét, có người dạy dân làm ăn, và dân nhớ người nào chính là câu trả lời. |
-| 42013 | Kết | Theo bạn, vì sao dân lại nhớ ơn một viên quan đến mức lập đền thờ và đặt tên con theo ông? |
+| 42001 | Mở đầu | Bạn có biết, từng có một viên quan khiến nhiều gia đình đặt tên con theo họ của ông? |
+| 42002 | Mở đầu | Ông là Nhâm Diên, được nhà Hán cử làm Thái thú Cửu Chân vào những năm đầu thời Đông Hán, tức người đứng đầu cả quận. |
+| 42003 | Cách làm | Theo Đại Việt sử ký toàn thư, người Cửu Chân khi ấy sống chủ yếu bằng nghề đánh cá và đi săn, còn việc cày cấy trên ruộng thì họ chưa quen. |
+| 42004 | Cách làm | Nhâm Diên dạy dân khai khẩn đất hoang, làm ruộng hằng năm, nhờ vậy đời sống của trăm họ dần no đủ. |
+| 42005 | Cách làm | Nhiều nhà nghèo không có tiền sính lễ để cưới vợ, nên ông bảo các quan lại dưới quyền trích bớt một phần lương để giúp họ. |
+| 42006 | Cách làm | Nhờ khoản đóng góp ấy, hàng nghìn người đã được nên duyên trong cùng một dịp. |
+| 42007 | Cách làm | Trước đó, một vị quan đứng đầu quận khác là Tích Quang cũng đã lấy lễ nghĩa để dạy dân. |
+| 42008 | Kết quả | Nhâm Diên làm quan được bốn năm thì bị triệu về, nhưng người Cửu Chân đã lập đền thờ ông. |
+| 42009 | Kết quả | Nhiều gia đình khi sinh con đều đặt tên con là Nhâm, như một cách tỏ lòng nhớ ơn ông. |
+| 42010 | Kết quả | Sử cũ cho rằng phong tục vùng Lĩnh Nam bắt đầu đổi từ hai vị quan này, nhưng đó là cách nhìn của người xưa nên ta không thể nói chắc. |
+| 42011 | Kết quả | Điều chắc chắn là một viên quan biết lo cho bữa ăn và chuyện cưới hỏi của dân thì được dân nhớ ơn rất lâu. |
+| 42012 | Kết | Câu chuyện cho thấy, cùng là quan nhà Hán cử xuống, có người vơ vét, có người dạy dân làm ăn, và dân nhớ ơn hay oán trách đều tùy cách họ cai trị. |
+| 42013 | Kết | Vậy vì sao dân lại nhớ ơn một viên quan đến mức lập đền thờ và đặt tên con theo ông? |
 
 ## Đối chiếu nguồn và kiểm dữ kiện cứng (quy tắc mục 9)
 

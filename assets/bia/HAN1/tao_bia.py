@@ -1,4 +1,4 @@
-"""Ảnh bìa dọc 1080x1920 cho "Cách họ cai trị" tập 1: python assets/bia/HAN1/tao_bia.py [ra.png]
+"""Ảnh bìa dọc 1080x1920 cho "Chuyện cai trị ngàn năm" tập 1: python assets/bia/HAN1/tao_bia.py [ra.png]
 Nền: khung bản đồ của trang dựng (bỏ HUD, phụ đề); logo theo quy tắc kênh: vuông 130 px, độ đậm 0,8, góc trên phải, cách mép phải 44 px và mép trên 34 px."""
 import sys, json
 from pathlib import Path
@@ -19,7 +19,7 @@ with sync_playwright() as p:
       T(g,52,200,'110 TCN',130,'#fff',16,'start');
       T(g,540,1330,'CHÍN QUẬN',170,'#fff',26);
       T(g,540,1470,'AI KHỔ?',150,GOLD,24);
-      T(g,540,1600,'CÁCH HỌ CAI TRỊ · TẬP 1',44,'#f1e9d2',10);
+      T(g,540,1600,'CHUYỆN CAI TRỊ NGÀN NĂM · TẬP 1',44,'#f1e9d2',10);
       el(g,'image',{href:'../../assets/logo/nguoi-gac-su.png',x:1080-44-130,y:34,width:130,height:130,opacity:.8});
     }''')
     pg.wait_for_timeout(300); pg.screenshot(path=out); br.close()

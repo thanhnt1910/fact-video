@@ -312,7 +312,7 @@ Chủ kênh KHÔNG phải nghe từng câu để liệt kê đoạn lệch: máy
 - Không dựng video (45 phút) khi bước này chưa chạy và danh sách "ĐỌC LẠI" chưa xử lý. Báo chủ kênh danh sách đoạn lệch kèm số đo, không hỏi chủ kênh nghe thử.
 - Cái này bổ sung cho mục "Giọng đọc đồng đều trong một video" ở trên (cân âm lượng, tốc độ); hai bước dùng chung và bước này thay phần chỉnh cao độ.
 
-## Video dọc 9:16 kiểu bản đồ phủ kín khung: loạt "Cách họ cai trị" (chủ kênh chốt 05/11/2026, từ tập 1 "Chín quận")
+## Video dọc 9:16 kiểu bản đồ phủ kín khung: loạt "Chuyện cai trị ngàn năm" (trước đó tên "Cách họ cai trị"; chủ kênh đổi nhãn 05/11/2026, nhãn trên video: "CHUYỆN CAI TRỊ NGÀN NĂM · #01"; chốt 05/11/2026, từ tập 1 "Chín quận")
 Chủ kênh đã duyệt hướng này sau khi bỏ các kiểu: bản đồ 16:9, tranh hoạt hình nhân vật 2D, tranh phẳng minh họa, mô hình 3D. Lý do bỏ: nhân vật vẽ bằng mã trông như trẻ con, không có biểu cảm; thẻ banner che bản đồ.
 - **Bản đồ phủ kín cả khung 1080×1920**, giống video mẫu `demo_chia_quan_huyen`: năm lớn góc trái, nguồn nhỏ dưới năm, logo góc phải, la bàn, khung vàng hai lớp, thanh tiến trình, hộp phụ đề ở khoảng y 1290–1500.
 - **Mọi mô phỏng vẽ thẳng lên bản đồ, KHÔNG dùng thẻ/banner.** Dùng: chấm thành, quân cờ (pawn) cho người, bao thóc cho thuế, đường nét đứt cho đường đi, vòng sáng lan cho cảm xúc, nhãn chữ có viền ngay cạnh vật. Màu vùng đổi đỏ → xanh để chỉ dân khổ → yên.
@@ -335,3 +335,14 @@ Chủ kênh thấy các quy tắc dưới đây quá cứng và yêu cầu bỏ 
 - Giới hạn câu đầu tiên tối đa 15 chữ.
 `kiem_kich_ban.py` chỉ còn nhắc (⚠️) về ký tự giọng đọc dễ đọc sai, không chặn (❌) và không kiểm từ cổ.
 Vẫn giữ: đoạn ngắn cho giọng đọc (khoảng 20–30 chữ, tối đa 32, tối đa 2 câu), họ tên đủ, không bịa lời thoại hay nội tâm, độ chính xác dữ kiện theo nguồn (năm, chức, số liệu phải đối chiếu), quy tắc nguồn mục 9, bố cục cuốn hút và các quy tắc khác không nêu ở đây. Chữ số và ngoặc kép có thể khiến giọng Gemini đọc sai: kiểm giọng bằng nhận dạng như thường lệ.
+
+## Mẫu kịch bản cho các video sau (chủ kênh chọn bản của mình làm ví dụ, 05/11/2026)
+Mẫu: `ke-hoach/thu-giong-hai/han1_full.json` (tập 1 "Chín quận", bản chủ kênh viết). Các tập sau viết theo cùng kiểu:
+- **Mở bằng câu hỏi "Bạn có biết, …?"** gắn tên vùng đất hoặc người, nói rõ ngay bối cảnh (ví dụ "vùng đất Nam Việt cũ").
+- **Giọng kể trang trọng, liền mạch**, mỗi đoạn một ý lớn, các đoạn nối nhau bằng quan hệ nguyên nhân – kết quả hoặc đối lập ("Trong khi", "Chính sự…", "Nhưng liệu…").
+- **Nêu nguồn ngay trong lời kể ở đoạn 3** ("Theo Đại Việt sử ký toàn thư, …") và có thể dùng "sử sách ghi lại", "theo lời chép trong sử" khi cần.
+- **Năm viết bằng chữ trong trường `text` (để đọc giọng), kèm trường `hien` viết bằng số để làm phụ đề** (ví dụ `text`: "Năm một trăm mười trước Công nguyên", `hien`: "Năm 110 trước Công nguyên"). Phụ đề lấy `hien`, giọng đọc lấy `text`.
+- **Trích lời dân bằng ngoặc kép**, giữ ý của nguồn, ghi rõ mức chắc chắn.
+- **Câu tổng kết ở đoạn gần cuối** ("Câu chuyện cho thấy, cùng một bộ máy cai trị, …") rồi **câu hỏi mở đầu bằng "Nhưng liệu…" hoặc "Vậy vì sao…"** ở đoạn cuối.
+- **Vẫn kiểm dữ kiện cứng** (năm, chức, số) theo mục 9; năm lấy theo Toàn thư (110 trước Công nguyên, không đổi sang 111).
+- Mỗi đoạn tối đa 32 chữ để giọng không bỏ chữ; đoạn dài hơn thì chấp nhận khi chủ kênh đã duyệt nguyên văn (tập 1: 41007 và 41011 dài 37 chữ) và phải kiểm nhận dạng kỹ.

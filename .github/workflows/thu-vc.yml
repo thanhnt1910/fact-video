@@ -1,0 +1,55 @@
+name: Thử chuyển đổi giọng (Seed-VC)
+
+# Chạy khi đẩy ke-hoach/thu-giong-hai/vc.txt (chủ kênh yêu cầu 05/11/2026, thử nghiệm giọng đồng đều).
+on:
+  push:
+    branches: [thu-giong-hai]
+    paths: ['ke-hoach/thu-giong-hai/vc.txt']
+
+permissions:
+  contents: write
+
+jobs:
+  vc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            ke-hoach/thu-giong-hai
+            assets/thu_giong_hai/vc_test/in
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.10" }
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-seedvc-v1
+      - name: Cài Seed-VC
+        run: |
+          sudo apt-get install -y ffmpeg >/dev/null 2>&1 || true
+          git clone --depth 1 https://github.com/Plachtaa/seed-vc.git /tmp/seed-vc
+          pip install torch==2.4.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cpu > /tmp/pip1.log 2>&1 || tail -20 /tmp/pip1.log
+          cd /tmp/seed-vc
+          grep -v -i -E "^(torch|torchvision|torchaudio)(=|>|<|$)" requirements.txt > /tmp/req.txt || cp requirements.txt /tmp/req.txt
+          pip install -r /tmp/req.txt > /tmp/pip2.log 2>&1 || tail -30 /tmp/pip2.log
+      - name: Chuyển đổi
+        run: |
+          mkdir -p out; cd /tmp/seed-vc
+          D=$GITHUB_WORKSPACE/assets/thu_giong_hai/vc_test
+          for f in $D/in/*.mp3; do
+            b=$(basename $f .mp3)
+            python inference.py --source $f --target $D/ref.wav --output /tmp/vcout/$b --diffusion-steps 30 --length-adjust 1.0 --inference-cfg-rate 0.7 --f0-condition False --fp16 False > /tmp/vc_$b.log 2>&1 || { echo "LỖI $b"; tail -25 /tmp/vc_$b.log; }
+          done
+          ls -R /tmp/vcout | head -40
+      - name: Lưu kết quả
+        run: |
+          D=assets/thu_giong_hai/vc_test/out; mkdir -p $D
+          for d in /tmp/vcout/*; do b=$(basename $d); w=$(ls $d/*.wav 2>/dev/null | head -1); [ -n "$w" ] && ffmpeg -y -v error -i "$w" $D/$b.mp3; done
+          cp /tmp/vc_*.log $D/ 2>/dev/null || true
+          git config user.email noreply@anthropic.com; git config user.name Claude
+          git add $D; git commit -q -m "Kết quả thử chuyển đổi giọng [skip ci]" || exit 0
+          git pull --rebase -q origin thu-giong-hai || true
+          git push origin HEAD:thu-giong-hai

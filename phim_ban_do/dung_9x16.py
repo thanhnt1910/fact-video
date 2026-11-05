@@ -14,7 +14,7 @@ dur = json.load(open(Path(vd) / 'thoi_luong.json'))
 GAP, T0, FPS = 0.4, 0.3, 24
 thieu = [b['n'] for b in kb if str(b['n']) not in dur]
 if thieu: sys.exit(f'Thiếu giọng các đoạn: {thieu}')
-(D / 'data.js').write_text('const SCRIPT=' + json.dumps([{'n': b['n'], 'text': b['text']} for b in kb], ensure_ascii=False) +
+(D / 'data.js').write_text('const SCRIPT=' + json.dumps([{'n': b['n'], 'text': b.get('hien', b['text'])} for b in kb], ensure_ascii=False) +
                            ';\nwindow.DURS=' + json.dumps({str(b['n']): dur[str(b['n'])] for b in kb}) + ';\n', encoding='utf-8')
 # âm thanh: đặt từng đoạn đúng mốc của trang dựng
 t, lst = T0, []

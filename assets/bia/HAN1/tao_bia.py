@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 R = Path(__file__).resolve().parents[3]; D = R / 'phim_ban_do/doc9x16'
 out = sys.argv[1] if len(sys.argv) > 1 else str(Path(__file__).with_name('bia_dung.png'))
 kb = json.load(open(R / 'ke-hoach/thu-giong-hai/han1_full.json', encoding='utf-8'))
-(D / 'data.js').write_text('const SCRIPT=' + json.dumps([{'n': b['n'], 'text': b['text']} for b in kb], ensure_ascii=False) + ';\n', encoding='utf-8')
+(D / 'data.js').write_text('const SCRIPT=' + json.dumps([{'n': b['n'], 'text': b.get('hien', b['text'])} for b in kb], ensure_ascii=False) + ';\n', encoding='utf-8')
 with sync_playwright() as p:
     br = p.chromium.launch(args=['--allow-file-access-from-files']); pg = br.new_page(viewport={'width': 1080, 'height': 1920})
     pg.goto('file://' + str(D / 'trang.html')); pg.wait_for_timeout(800)

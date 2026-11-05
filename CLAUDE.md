@@ -300,3 +300,13 @@ Người nghe và người đánh giá nhận ra "kịch bản AI" qua cấu tr�
 - Chỉ gửi sau khi đã qua bước kiểm (`kiem_video.py`, `review.py` không có ❌). Video chưa đạt thì không gửi, báo chủ kênh lỗi nào.
 - Cách gửi: workflow `gui-file-telegram.yml` (ghi đường dẫn vào `ke-hoach/thu-giong-hai/gui_tg.txt`) hoặc `telegram/tg_text.py` cho phần chữ. Chỉ chạy khi chủ kênh đã yêu cầu dựng video đó (xem mục Git: workflow chỉ chạy khi được yêu cầu). Gửi xong phải xác nhận tin đã tới, không giả định.
 - Với video dựng trong phiên làm việc này (không qua workflow): gửi file trực tiếp cho chủ kênh trong cuộc trò chuyện, kèm tiêu đề và hashtag trong cùng tin nhắn.
+
+## Cân giọng đồng đều theo ÂM SẮC, máy tự phát hiện đoạn lệch (chủ kênh yêu cầu 05/11/2026, từ video Chu Du, áp dụng mọi video từ nay)
+Chủ kênh KHÔNG phải nghe từng câu để liệt kê đoạn lệch: máy tự đo, tự chọn, tự báo đoạn cần đọc lại.
+- **Giọng mốc do chủ kênh chọn** (ví dụ Chu Du: câu 9012–9015, khoảng 147 Hz, 3,9 chữ/giây). Mọi câu so với mốc này.
+- **KHÔNG kéo cao độ bằng `asetrate`:** nó dịch vùng cộng hưởng nên nghe thành người khác (đo ở Chu Du: câu 9008 xa mốc 0,9 lên 1,57 sau khi kéo cao độ; không ép cả cao độ lẫn nhịp qua nhiều lượt). Dùng `rubberband` có `formant=preserved`.
+- **Công cụ:** `python phim_ban_do/can_giong_am_sac.py <tên> --goc <mp3 gốc> --kich-ban <json> --moc <các câu mốc> --ra assets/thu_giong_hai/<tên>_chuan`. Mỗi câu thử 3 bản (không đổi cao độ / kéo hết / kéo nửa), chuẩn nhịp 0,90–1,10 và loudnorm −16, so phổ 40 dải mel với mốc, chọn bản gần mốc nhất. Thay cho `chuan_hoa_giong.py` ở các video mới.
+- **Đoạn vẫn xa mốc** (điểm lệch > trung vị + 4 MAD, công cụ in "ĐỌC LẠI" và ghi `can_doc_lai.json`) thì đọc lại, KHÔNG cố chỉnh thêm; mỗi đoạn đọc lại tối đa 3 lượt, giữ bản gần mốc nhất.
+- **Đoạn mốc nằm trong cùng một prompt với mọi câu.** Nhật ký giọng cho thấy cả video đọc từng câu, cùng mô hình, cùng giọng, cùng hồ sơ phong cách. Khác biệt đến từ lấy mẫu ngẫu nhiên của Gemini (không đặt temperature/seed), nên đọc lại chỉ là bốc thăm lại: dùng chọn bản tốt nhất, không trông chờ đổi prompt.
+- Không dựng video (45 phút) khi bước này chưa chạy và danh sách "ĐỌC LẠI" chưa xử lý. Báo chủ kênh danh sách đoạn lệch kèm số đo, không hỏi chủ kênh nghe thử.
+- Cái này bổ sung cho mục "Giọng đọc đồng đều trong một video" ở trên (cân âm lượng, tốc độ); hai bước dùng chung và bước này thay phần chỉnh cao độ.

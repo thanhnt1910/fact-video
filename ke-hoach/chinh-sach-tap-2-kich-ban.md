@@ -3,7 +3,7 @@
 Ý chính một dòng: quan nhà Hán cử xuống không chỉ thu thuế; Nhâm Diên dạy dân khai ruộng, giúp người nghèo cưới vợ, nên được dân lập đền thờ.
 Người xem nhắc lại được: "Có ông quan dạy dân cày cấy, lo chuyện cưới hỏi cho dân nghèo, nên dân đặt tên con là Nhâm và lập đền thờ."
 Tên mới: Nhâm Diên, Tích Quang (2). Số liệu: bốn năm, hàng nghìn người (2). Địa danh: Cửu Chân.
-Kịch bản: `ke-hoach/thu-giong-hai/han2_full.json` (14 đoạn, 288 chữ, khoảng 95 giây). `kiem_kich_ban han2`: 0 lỗi, 0 cảnh báo.
+Kịch bản: `ke-hoach/thu-giong-hai/han2_full.json` (13 đoạn, khoảng 95 giây). `kiem_kich_ban han2`: 0 lỗi, 0 cảnh báo.
 Thứ tự theo Toàn thư: ngay sau tập 1 (Chín quận), trong Kỷ thuộc Tây Hán, quyển III (dòng 953–964 của bản txt trong repo).
 
 ## Kịch bản (lời đọc)
@@ -11,19 +11,18 @@ Thứ tự theo Toàn thư: ngay sau tập 1 (Chín quận), trong Kỷ thuộc 
 | n | Phần | Lời kể |
 |---|---|---|
 | 42001 | Mở đầu | Có một vị quan khiến nhiều nhà đặt tên con là Nhâm. Ông tên là Nhâm Diên. |
-| 42002 | Mở đầu | Chuyện xảy ra vào những năm đầu thời Đông Hán, khi nhà Hán cử ông xuống làm thái thú Cửu Chân. Thái thú là quan đứng đầu một quận. |
-| 42003 | Cách làm | Ông thấy người Cửu Chân sống chủ yếu bằng nghề đánh cá và đi săn. Họ chưa quen cày cấy trên ruộng. |
-| 42004 | Cách làm | Nhâm Diên dạy dân khai khẩn đất hoang, năm nào cũng cày trồng. Nhờ vậy trăm họ có cái ăn đầy đủ. |
-| 42005 | Cách làm | Nhà nghèo thì không có tiền sính lễ để cưới vợ. Nhâm Diên bảo các quan lại dưới quyền trích bớt một phần lương để giúp họ. |
-| 42006 | Cách làm | Nhờ khoản góp ấy, hàng nghìn người được nên duyên cùng một lúc. |
-| 42007 | Cách làm | Trước ông, một vị quan đứng đầu quận khác là Tích Quang cũng lấy lễ nghĩa dạy dân. |
-| 42008 | Kết quả | Nhâm Diên coi việc được bốn năm thì bị triệu về. Người Cửu Chân đã lập đền thờ ông. |
+| 42002 | Mở đầu | Ông được nhà Hán cử xuống làm thái thú Cửu Chân, nghĩa là quan đứng đầu cả quận, vào những năm đầu thời Đông Hán. |
+| 42003 | Cách làm | Người Cửu Chân khi ấy sống chủ yếu bằng nghề đánh cá và đi săn, còn cày cấy trên ruộng thì họ chưa quen. |
+| 42004 | Cách làm | Vì vậy Nhâm Diên dạy dân khai khẩn đất hoang, năm nào cũng cày trồng, và nhờ thế trăm họ có cái ăn đầy đủ. |
+| 42005 | Cách làm | Nhưng nhà nghèo thì không có tiền sính lễ để cưới vợ, nên ông bảo các quan lại dưới quyền trích bớt một phần lương để giúp họ. |
+| 42006 | Cách làm | Nhờ khoản góp ấy, hàng nghìn người đã được nên duyên cùng một lúc. |
+| 42007 | Cách làm | Trước ông, một vị quan đứng đầu quận khác là Tích Quang cũng đã lấy lễ nghĩa dạy dân. |
+| 42008 | Kết quả | Nhâm Diên coi việc được bốn năm thì bị triệu về, và người Cửu Chân đã lập đền thờ ông. |
 | 42009 | Kết quả | Nhiều nhà sinh con đều đặt tên con là Nhâm, như một cách nhớ ơn ông. |
-| 42010 | Kết quả | Người xưa còn cho rằng phong tục vùng Lĩnh Nam bắt đầu đổi từ hai vị quan này. |
-| 42011 | Kết quả | Nhưng đó là cách nhìn của người viết sử về sau, và ta không thể nói chắc. |
-| 42012 | Kết quả | Điều chắc chắn là một viên quan lo cho bữa ăn và chuyện cưới hỏi của dân thì được dân nhớ mãi. |
-| 42013 | Kết | Cùng là quan nhà Hán cử xuống, có người vơ vét, có người dạy dân làm ăn. Dân nhớ người nào, chính là câu trả lời. |
-| 42014 | Kết | Theo bạn, vì sao dân lại nhớ ơn một viên quan đến mức lập đền thờ và đặt tên con theo ông? |
+| 42010 | Kết quả | Người xưa cho rằng phong tục vùng Lĩnh Nam bắt đầu đổi từ hai vị quan này, nhưng đó chỉ là cách nhìn của người viết sử, nên ta không nói chắc. |
+| 42011 | Kết quả | Điều chắc chắn là một viên quan lo cho bữa ăn và chuyện cưới hỏi của dân thì được dân nhớ mãi. |
+| 42012 | Kết | Cùng là quan nhà Hán cử xuống, có người vơ vét, có người dạy dân làm ăn, và dân nhớ người nào chính là câu trả lời. |
+| 42013 | Kết | Theo bạn, vì sao dân lại nhớ ơn một viên quan đến mức lập đền thờ và đặt tên con theo ông? |
 
 ## Đối chiếu nguồn và kiểm dữ kiện cứng (quy tắc mục 9)
 
@@ -49,7 +48,7 @@ Chưa kiểm xong: đọc nguyên văn Cương mục (TB2) cho đoạn Tích Qua
 ## Ghi chú độ chắc và phần sáng tạo (chủ kênh duyệt)
 
 - Cách kể: mở bằng chi tiết gây tò mò có thật (dân đặt tên con là Nhâm), rồi kể theo thứ tự nguyên nhân – kết quả. Không đảo sự kiện.
-- Đoạn 42010–42011 (nhận định "phong tục bắt đầu đổi từ hai vị quan"): đây là cách nhìn của người viết sử xưa, và việc "dân chưa biết cày" là điều các nhà nghiên cứu hiện nay còn tranh luận. Kịch bản nói thẳng "ta không thể nói chắc", không đưa ý kiến của kênh. **Chủ kênh quyết định giữ hay bỏ cả hai đoạn.**
+- Đoạn 42010 (nhận định "phong tục bắt đầu đổi từ hai vị quan"): đây là cách nhìn của người viết sử xưa, và việc "dân chưa biết cày" là điều các nhà nghiên cứu hiện nay còn tranh luận. Kịch bản nói thẳng "ta không thể nói chắc", không đưa ý kiến của kênh. **Chủ kênh quyết định giữ hay bỏ cả hai đoạn.**
 - Câu kết ở 42013 là nhận xét từ chi tiết có nguồn (đền thờ, đặt tên con), không phải lời bàn của sử gia.
 - Không có hài vào quan hay dân; không nói pháp luật hay so sánh với ngày nay.
 
@@ -63,8 +62,8 @@ Chưa kiểm xong: đọc nguyên văn Cương mục (TB2) cho đoạn Tích Qua
 | 42005–42006 | Bao tiền nhỏ chạy từ các quân cờ quan sang nhà nghèo; vòng sáng nhỏ nổi lên thành hàng nghìn chấm đôi |
 | 42007 | Một chấm thành khác sáng lên với nhãn "Tích Quang" (không gắn quận) |
 | 42008–42009 | Đền thờ nhỏ hiện tại Cửu Chân; chữ "Nhâm" nổi lên cạnh các chấm nhà |
-| 42010–42011 | Vùng Cửu Chân đổi sắc ấm; dấu "?" nhạt hiện ở đoạn "ta không thể nói chắc" |
-| 42012–42014 | Vùng xanh, quân cờ dân quây quanh đền; câu hỏi kết ở cảnh cuối |
+| 42010 | Vùng Cửu Chân đổi sắc ấm; dấu "?" nhạt hiện ở đoạn "ta không thể nói chắc" |
+| 42011–42013 | Vùng xanh, quân cờ dân quây quanh đền; câu hỏi kết ở cảnh cuối |
 
 ## Tiêu đề và hashtag (đề xuất)
 Tiêu đề: Ông quan khiến dân đặt tên con theo họ của ông

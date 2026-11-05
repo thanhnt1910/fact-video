@@ -39,7 +39,7 @@
   "n": 42007,
   "chuong": "Cách làm",
   "tone": "story",
-  "text": "Trước ông, đã có thái thú Tích Quang lấy lễ nghĩa dạy dân. Hai người cùng được nhớ đến như vậy."
+  "text": "Trước ông, một vị quan đứng đầu quận khác là Tích Quang cũng lấy lễ nghĩa dạy dân."
  },
  {
   "n": 42008,
@@ -57,22 +57,28 @@
   "n": 42010,
   "chuong": "Kết quả",
   "tone": "story",
-  "text": "Người xưa còn cho rằng phong tục vùng Lĩnh Nam bắt đầu đổi từ hai vị thái thú này. Nhưng đó là cách nhìn của người viết sử về sau, ta không thể nói chắc."
+  "text": "Người xưa còn cho rằng phong tục vùng Lĩnh Nam bắt đầu đổi từ hai vị quan này."
  },
  {
   "n": 42011,
   "chuong": "Kết quả",
   "tone": "story",
-  "text": "Điều chắc chắn là một viên quan lo cho bữa ăn và chuyện cưới hỏi của dân thì được dân nhớ mãi."
+  "text": "Nhưng đó là cách nhìn của người viết sử về sau, và ta không thể nói chắc."
  },
  {
   "n": 42012,
+  "chuong": "Kết quả",
+  "tone": "story",
+  "text": "Điều chắc chắn là một viên quan lo cho bữa ăn và chuyện cưới hỏi của dân thì được dân nhớ mãi."
+ },
+ {
+  "n": 42013,
   "chuong": "Kết",
   "tone": "story",
   "text": "Cùng là quan nhà Hán cử xuống, có người vơ vét, có người dạy dân làm ăn. Dân nhớ người nào, chính là câu trả lời."
  },
  {
-  "n": 42013,
+  "n": 42014,
   "chuong": "Kết",
   "tone": "story",
   "text": "Theo bạn, vì sao dân lại nhớ ơn một viên quan đến mức lập đền thờ và đặt tên con theo ông?"

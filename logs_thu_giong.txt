@@ -13,15 +13,47 @@
    [khóa] GEMINI_API_KEY_13: …Qvug
    [khóa] GEMINI_API_KEY_14: …S_3g
    [khóa] GEMINI_API_KEY_15: …Snsg
-   [khóa] GEMINI_API_KEY_16: trống
+   [khóa] GEMINI_API_KEY_16: …Qvug
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-01 09:26:22
-còn thiếu 1 câu
+còn thiếu 14 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 34119-34119: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=caeddecd/B dự_phòng=False lúc 2026-11-01 15:12:03
-OK cụm 34119 - 34119 7.7 giây
-[báo cáo giọng] 119/119 đoạn có nhật ký tạo giọng
+   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
+   [giọng] nhóm 11001-11001: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:27:42
+OK cụm 11001 - 11001 6.4 giây
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …8www / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 19h32m17s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 11002-11002: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:27:50
+OK cụm 11002 - 11002 4.9 giây
+   [giọng] nhóm 11003-11003: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:27:54
+OK cụm 11003 - 11003 6.2 giây
+   [giọng] nhóm 11004-11004: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:28:18
+OK cụm 11004 - 11004 6.9 giây
+   [giọng] nhóm 11005-11005: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:28:36
+OK cụm 11005 - 11005 6.2 giây
+   [giọng] nhóm 11006-11006: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:28:40
+OK cụm 11006 - 11006 5.1 giây
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …fACw / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 19s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 11007-11007: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:28:44
+OK cụm 11007 - 11007 4.7 giây
+   [giọng] nhóm 11008-11008: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:28:57
+OK cụm 11008 - 11008 5.8 giây
+   [giọng] nhóm 11009-11009: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:29:00
+OK cụm 11009 - 11009 4.6 giây
+   [giọng] nhóm 11010-11010: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:29:04
+OK cụm 11010 - 11010 6.0 giây
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Ag8A / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 55s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 11011-11011: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:29:08
+OK cụm 11011 - 11011 7.0 giây
+   [giọng] nhóm 11012-11012: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:29:12
+OK cụm 11012 - 11012 6.6 giây
+   [giọng] nhóm 11013-11013: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:29:16
+OK cụm 11013 - 11013 4.9 giây
+   [giọng] nhóm 11014-11014: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-05 12:29:19
+OK cụm 11014 - 11014 4.8 giây
+[báo cáo giọng] 14/14 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
-   voice: Sadaltager
-   style_id: caeddecd
+   voice: Orus
+   style_id: c0565b4d

@@ -5,11 +5,11 @@ Người xem nhắc lại được: "Quan nhà Hán được cử xuống cai qu
 Tên mới: Thạch Đái, Giả Tông (2). Số liệu: chín quận, hai quận (2); mốc thời gian: năm 110 trước Công nguyên, gần ba trăm năm sau. Địa danh: Nam Việt, Giao Chỉ, Cửu Chân (3).
 Kịch bản: `ke-hoach/thu-giong-hai/han1_full.json` (13 đoạn, 312 chữ, khoảng 100 giây). `kiem_kich_ban han1`: 0 lỗi, 0 cảnh báo.
 
-## Nguồn và kết quả đối chiếu (quy tắc: xem `khung-kich-ban-chinh-sach.md`, mục "Đối chiếu nguồn")
+## Nguồn và kiểm dữ kiện cứng (quy tắc: `khung-kich-ban-chinh-sach.md`, mục 9)
 
 Nguồn 1: *Đại Việt sử ký toàn thư* (ĐVSKTT), bản dịch NXB Khoa học xã hội, Hà Nội 1993, bản txt trong repo `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`. Đã đọc nguyên văn.
 Nguồn 2: *Khâm định Việt sử thông giám cương mục* (KĐVSTGCM), Tiền biên quyển 2 và 3, bản có dịch và chú ở trang viettexts của Đại học Hawaii (sites.google.com/hawaii.edu/viettexts, mục kđvstgcm-2 và kđvstgcm-3). Đã đọc qua công cụ tóm tắt trang, **chưa tải về đọc nguyên văn từng dòng**, nên các trích dẫn Cương mục dưới đây cần được kiểm lại bằng mắt khi có bản gốc.
-Lưu ý độ độc lập: Cương mục (triều Nguyễn) biên soạn dựa trên Toàn thư nên **không phải nguồn độc lập hoàn toàn**. Nguồn độc lập thật sự là *Hậu Hán thư* (tiểu sử Giả Tông). Việc này **chưa làm được**; ghi vào "Còn thiếu" bên dưới.
+Lưu ý độ độc lập: Cương mục (triều Nguyễn) biên soạn dựa trên Toàn thư nên **không phải nguồn độc lập hoàn toàn**. Nguồn độc lập thật sự là *Hậu Hán thư* (tiểu sử Giả Tông). Theo quy tắc mục 9, nguồn này chỉ cần khi một dữ kiện quan trọng bị lệch mà không bỏ được; tập này chưa cần.
 
 | Ý trong kịch bản | Toàn thư (dòng) | Cương mục (tờ) | Kết quả |
 |---|---|---|---|

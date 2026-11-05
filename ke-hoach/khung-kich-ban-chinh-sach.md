@@ -79,7 +79,7 @@ Phản hồi 05/11/2026: bản demo "khá đơn giản". Quy tắc dưới đây
 
 1. Chủ kênh chọn tập (chính sách) từ dàn ý `ke-hoach/chinh-sach-cai-tri-series-dan-y.md`.
 2. Đọc nguyên văn nguồn (Toàn thư, hoặc sách khác với tập mùa Hán, Ngô, Đường); ghi số dòng. Mỗi tập chỉ dùng chi tiết đã đọc nguyên văn.
-   **Bước 2b (bắt buộc, chủ kênh yêu cầu 05/11/2026): đối chiếu với ít nhất một nguồn thứ hai** theo mục 9 và điền bảng đối chiếu vào file kịch bản trước khi gửi duyệt.
+   **Bước 2b (bắt buộc, 05/11/2026): kiểm dữ kiện cứng với Cương mục** theo mục 9 và điền bảng ngắn vào file kịch bản trước khi gửi duyệt.
 3. Viết "ý chính một dòng", bảng bố cục bốn phần và bảng cảnh phụ.
 4. Viết kịch bản theo khung. Tự kiểm: người chưa biết chuyện đọc một lần có hiểu không; có đủ bốn phần không; giới hạn mục 2.
 5. Chạy `python phim_ban_do/kiem_kich_ban.py <tên>` đến khi 0 lỗi.
@@ -125,16 +125,16 @@ Chi tiết đã bỏ (để dành tập khác): ...
 
 Mỗi tập vẫn phải đọc lại đúng đoạn nguồn trước khi viết lời.
 
-## 9. Đối chiếu nguồn bắt buộc cho MỌI kịch bản (chủ kênh yêu cầu 05/11/2026, áp dụng mọi tập từ nay)
+## 9. Nguồn và đối chiếu (chủ kênh duyệt 05/11/2026, thay bản dài cùng ngày, áp dụng mọi tập từ nay)
 
-Một nguồn là chưa đủ. Bài học từ tập 1 (Chín quận): khi đối chiếu Toàn thư với Cương mục mới lộ ra ba chỗ lệch (chức của Thạch Đái, nơi đặt trị sở, năm của chuyện Giả Tông: Toàn thư ghi 183, thực tế Giáp Tý và Trung Bình năm thứ nhất là 184). Nếu chỉ đọc một nguồn thì cả ba chỗ đều đã đi vào lời kể.
+Ít nguồn nhưng đúng chỗ. Bài học từ tập 1 (Chín quận): ba chỗ lệch (chức của Thạch Đái, nơi đặt trị sở, năm của chuyện Giả Tông: Toàn thư ghi 183, thực tế Giáp Tý và Trung Bình năm thứ nhất là 184). Hai trong ba chỗ bắt được mà không cần nguồn thứ hai: chú thích của chính bản dịch báo bất đồng về chức, và phép tính can chi cho ra năm 184.
 
-1. **Mỗi đoạn lời kể có bảng đối chiếu** trong file kịch bản `ke-hoach/chinh-sach-tap-N-kich-ban.md`: ý trong kịch bản | nguồn 1 (tên sách, tờ hoặc dòng) | nguồn 2 (tên sách, tờ) | kết quả: Khớp / Lệch / Chưa kiểm.
-2. **Nguồn thứ hai ưu tiên theo thứ tự:** (a) nguồn độc lập (sử Trung Hoa gốc như Hậu Hán thư, Sử ký, Tam quốc chí; hoặc sử Việt cùng thời), (b) Khâm định Việt sử thông giám cương mục, Đại Nam thực lục (lưu ý: Cương mục dựa trên Toàn thư nên **không độc lập hoàn toàn**; phải ghi rõ trong kịch bản). Công trình nghiên cứu hiện đại chỉ dùng làm phụ.
-3. **Lệch giữa hai nguồn thì không chọn bừa:** bỏ chi tiết ấy khỏi lời kể, hoặc nói rộng hơn ("quan đứng đầu vùng này" thay vì ghi một chức), và ghi vào mục "Điểm cần chủ kênh quyết định". Chỉ giữ chi tiết lệch khi đã có nguồn thứ ba phân xử.
-4. **Kiểm đổi năm âm lịch (can chi, niên hiệu) sang dương lịch** bằng phép tính, không tin số trong ngoặc của bản dịch (Giáp Tý chỉ có thể là năm có số dư 4 khi chia cho 60; Trung Bình năm thứ nhất là năm 184).
-5. **Chưa đối chiếu hoặc còn "Chưa kiểm" thì không được đọc giọng.** Chi tiết chỉ có ở một nguồn thì ghi rõ "một nguồn" trong cột độ chắc; nên bỏ khỏi lời kể nếu không quan trọng.
-6. **Ghi rõ cách đã đọc nguồn:** nguyên văn, hay qua tóm tắt công cụ. Trích dẫn đọc qua tóm tắt phải được kiểm lại bằng bản gốc trước khi đăng.
-7. **Số liệu tác động đến dân** (thuế, phu dịch, số hộ…) chỉ nêu khi cả hai nguồn ghi, hoặc ghi rõ "theo Toàn thư". Không có số thì dùng hình minh họa không số.
-8. **Mô tả và bình luận ghim** ghi cả hai nguồn và nói rõ chỗ nào hai nguồn khác nhau.
-
+1. **Toàn thư là nguồn duy nhất của lời kể.** Mọi chi tiết trong lời kể phải có trong Toàn thư, đã đọc nguyên văn, ghi số dòng. Không đưa vào lời kể chi tiết chỉ có ở nguồn khác.
+2. **Đọc cả chú thích của bản dịch** ở dòng đang dùng (chú thích thường ghi chỗ sách khác chép khác).
+3. **Đổi năm can chi, niên hiệu sang dương lịch bằng phép tính**, không tin số trong ngoặc của bản dịch (Giáp Tý chỉ có thể là năm có số dư 4 khi chia cho 60).
+4. **Khâm định Việt sử thông giám cương mục chỉ dùng để kiểm dữ kiện cứng:** tên người, chức, năm, số, địa danh, tên đơn vị hành chính. Không cần bảng đối chiếu cho mọi ý. Ghi vào file kịch bản một bảng ngắn cho các dữ kiện cứng: dữ kiện | Toàn thư (dòng) | Cương mục (tờ) | Khớp, Lệch hoặc Chưa kiểm. Lưu ý Cương mục dựa trên Toàn thư nên không độc lập hoàn toàn.
+5. **Hai nguồn lệch nhau thì không chọn bừa:** bỏ chi tiết ấy khỏi lời kể, hoặc nói rộng hơn ("quan đứng đầu vùng này" thay vì ghi một chức), và ghi vào mục "Điểm cần chủ kênh quyết định". Chỉ khi chi tiết ấy quan trọng đến mức không bỏ được mới tìm nguồn thứ ba (sử Trung Hoa gốc như Hậu Hán thư, Sử ký) để phân xử.
+6. **Wikipedia và tài liệu mạng không phải nguồn.** Chỉ dùng để biết nên tìm ở đâu rồi kiểm lại bằng sách sử.
+7. **Ghi rõ cách đã đọc nguồn:** nguyên văn hay qua tóm tắt công cụ. Trích dẫn qua tóm tắt phải kiểm lại bằng bản gốc trước khi đăng.
+8. **Chưa kiểm xong dữ kiện cứng thì không đọc giọng.** Chưa kiểm được chi tiết phụ thì bỏ chi tiết ấy khỏi lời kể.
+9. **Mô tả và bình luận ghim** ghi Toàn thư là nguồn chính, và nói rõ chỗ nào đã kiểm với Cương mục hoặc hai nguồn khác nhau.

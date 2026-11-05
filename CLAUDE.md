@@ -15,7 +15,7 @@ Repo của kênh "Người Gác Sử": video dọc 60–80 giây và video dài 
 ## Quy tắc nội dung
 
 - Chỉ chuyện có thật, có nguồn; lời kể có thể cuốn nhưng không được làm sai lệch sự kiện, không bịa lời thoại hay nội tâm.
-- **Mọi kịch bản phải đối chiếu ít nhất hai nguồn** (chủ kênh yêu cầu 05/11/2026): mỗi đoạn có bảng đối chiếu (nguồn 1, nguồn 2, khớp/lệch/chưa kiểm); lệch thì bỏ hoặc nói rộng hơn; chưa đối chiếu thì không đọc giọng. Quy tắc đầy đủ: mục 9 của `ke-hoach/khung-kich-ban-chinh-sach.md`; mẫu: `ke-hoach/chinh-sach-tap-1-kich-ban.md`.
+- **Nguồn và đối chiếu (chủ kênh duyệt 05/11/2026):** lời kể chỉ lấy từ Đại Việt sử ký toàn thư (hoặc nguồn chính đã chốt cho series); Khâm định Việt sử thông giám cương mục chỉ dùng kiểm dữ kiện cứng (tên, chức, năm, số, địa danh); hai nguồn lệch thì bỏ hoặc nói rộng hơn; Wikipedia và tài liệu mạng không phải nguồn; chưa kiểm xong dữ kiện cứng thì không đọc giọng. Quy tắc đầy đủ: mục 9 của `ke-hoach/khung-kich-ban-chinh-sach.md`; mẫu: `ke-hoach/chinh-sach-tap-1-kich-ban.md`.
 - Quy tắc viết kịch bản và danh sách điều kiểm: `PROMPT_KICH_BAN.md`, `review_checklist.md`.
 - Bình luận ghim Facebook/YouTube (trường `binh_luan`), áp dụng từ tập 3 trở đi; tập 1, 2 và các video đã đăng trước đó giữ nguyên bản cũ: giải thích ngắn nội dung video, KHÔNG đặt câu hỏi hay câu hỏi chọn đáp án (chủ kênh yêu cầu 17/10/2026).
 

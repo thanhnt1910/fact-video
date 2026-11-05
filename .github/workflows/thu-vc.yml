@@ -34,8 +34,9 @@ jobs:
           pip install torch==2.4.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cpu > /tmp/pip1.log 2>&1 || tail -20 /tmp/pip1.log
           cd /tmp/seed-vc
           grep -n 'torchaudio.save' inference.py
-          sed -i -E 's#torchaudio\.save\(([^,]+),\s*([^,]+),\s*([^)]+)\)#__import__("soundfile").write(\1, (\2).squeeze().numpy(), \3)#' inference.py
-          grep -n 'soundfile' inference.py
+          sed -i 's/torchaudio\.save(/_sf_save(/' inference.py
+          sed -i '1i import soundfile as _sfm\ndef _sf_save(p, w, sr):\n    _sfm.write(p, w.squeeze().numpy(), int(sr))\n' inference.py
+          head -5 inference.py; grep -n '_sf_save' inference.py
           grep -v -i -E "^(torch|torchvision|torchaudio)(=|>|<|$)" requirements.txt > /tmp/req.txt || cp requirements.txt /tmp/req.txt
           pip install -r /tmp/req.txt > /tmp/pip2.log 2>&1 || tail -30 /tmp/pip2.log
       - name: Chuyển đổi

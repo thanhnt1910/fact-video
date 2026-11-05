@@ -3,7 +3,7 @@ name: Nhận dạng giọng để chỉnh phụ đề
 # Chạy khi đẩy ke-hoach/thu-giong-hai/asr.txt; dòng đầu: "<tên>" (v1, v2 hoặc nm1) hoặc "<tên> <mô hình>".
 on:
   push:
-    branches: [thu-giong-hai]
+    branches: [thu-giong-hai, claude/cach-ho-cai-tri-tap-1]
     paths: ['ke-hoach/thu-giong-hai/asr.txt']
   workflow_dispatch:
 

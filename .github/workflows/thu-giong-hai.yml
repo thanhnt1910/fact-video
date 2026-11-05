@@ -2,7 +2,7 @@ name: Thử giọng hài Gemini
 
 on:
   push:
-    branches: [thu-giong-hai]
+    branches: [thu-giong-hai, claude/cach-ho-cai-tri-tap-1]
     paths: ['ke-hoach/thu-giong-hai/chay.txt']
   workflow_dispatch:
     inputs:

@@ -10,12 +10,13 @@ _i = [0]
 
 
 def all_keys():
-    names = ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 17)]
+    names = ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 31)]
     vals = [os.environ.get(n, "") for n in names] + re.split(r"[,\s]+", os.environ.get("GEMINI_API_KEYS", ""))
     out = []
+    skip = [x for x in re.split(r"[,\s]+", os.environ.get("GEMINI_SKIP_SUFFIX", "")) if x]   # đuôi các khóa đã hết lượt trong ngày: không gửi thêm yêu cầu (tránh 429 dồn)
     for v in vals:
         v = v.strip()
-        if v and v not in out:
+        if v and v not in out and not any(v.endswith(x) for x in skip):
             out.append(v)
     return out
 

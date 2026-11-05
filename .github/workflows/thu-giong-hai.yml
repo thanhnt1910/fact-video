@@ -48,9 +48,18 @@ jobs:
           GEMINI_API_KEY_14: ${{ secrets.GEMINI_API_KEY_14 }}
           GEMINI_API_KEY_15: ${{ secrets.GEMINI_API_KEY_15 }}
           GEMINI_API_KEY_16: ${{ secrets.GEMINI_API_KEY_16 }}
+          GEMINI_API_KEY_17: ${{ secrets.GEMINI_API_KEY_17 }}
+          GEMINI_API_KEY_18: ${{ secrets.GEMINI_API_KEY_18 }}
+          GEMINI_API_KEY_19: ${{ secrets.GEMINI_API_KEY_19 }}
+          GEMINI_API_KEY_20: ${{ secrets.GEMINI_API_KEY_20 }}
+          GEMINI_API_KEY_21: ${{ secrets.GEMINI_API_KEY_21 }}
+          GEMINI_API_KEY_22: ${{ secrets.GEMINI_API_KEY_22 }}
+          GEMINI_API_KEY_23: ${{ secrets.GEMINI_API_KEY_23 }}
+          GEMINI_API_KEY_24: ${{ secrets.GEMINI_API_KEY_24 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: |
           set -o pipefail
+          export GEMINI_SKIP_SUFFIX="$(cat ke-hoach/thu-giong-hai/bo_qua_khoa.txt 2>/dev/null)"
           mkdir -p assets/thu_giong_hai
           export GEMINI_MAX_429=$(cat ke-hoach/thu-giong-hai/max429.txt 2>/dev/null || echo 8)
           export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)

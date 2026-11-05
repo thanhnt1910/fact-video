@@ -44,7 +44,7 @@ def main():
         s = min(1.10, max(0.90, a.wps / wps)); full = min(1.15, max(0.87, a.f0 / f0))
         for m, r in (('A', 1.0), ('B', full), ('C', 1 + 0.5 * (full - 1))):
             o = f'{tmp}/{n}{m}.mp3'
-            subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', f'{a.goc}/{n}.mp3', '-af', f'rubberband=pitch={r:.4f}:tempo={s:.4f}:formant=preserved:transients=smooth,loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '24000', o], check=True)
+            subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', f'{a.goc}/{n}.mp3', '-af', f'rubberband=pitch={r:.4f}:tempo={s:.4f}:formant=preserved:transients=crisp:phase=independent:window=short,loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '24000', o], check=True)
             cand[(n, m)] = o
     ref = np.mean([vec(doc(cand[(int(n), 'A')])) for n in a.moc.split(',')], 0)   # mốc cũng qua cùng bước xử lý
     os.makedirs(a.ra, exist_ok=True); dur_out = {}; xa = []; rows = []

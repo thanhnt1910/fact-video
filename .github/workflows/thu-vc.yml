@@ -54,6 +54,6 @@ jobs:
           for d in /tmp/vcout/*; do b=$(basename $d); w=$(ls $d/*.wav 2>/dev/null | head -1); [ -n "$w" ] && ffmpeg -y -v error -i "$w" $D/$b.mp3; done
           cp /tmp/vc_*.log $D/ 2>/dev/null || true
           git config user.email noreply@anthropic.com; git config user.name Claude
-          git add $D; git commit -q -m "Kết quả thử chuyển đổi giọng [skip ci]" || exit 0
+          git add --sparse $D; git commit -q -m "Kết quả thử chuyển đổi giọng [skip ci]" || exit 0
           git pull --rebase -q origin thu-giong-hai || true
           git push origin HEAD:thu-giong-hai

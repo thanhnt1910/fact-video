@@ -1,0 +1,74 @@
+{
+"9001": {
+"nhom": "9001-9006",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Charon",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-05 01:32:16",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "calm"
+},
+"9002": {
+"nhom": "9001-9006",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Charon",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-05 01:32:16",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "calm"
+},
+"9003": {
+"nhom": "9001-9006",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Charon",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-05 01:32:16",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "calm"
+},
+"9004": {
+"nhom": "9001-9006",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Charon",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-05 01:32:16",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "light"
+},
+"9005": {
+"nhom": "9001-9006",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Charon",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-05 01:32:16",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "light"
+},
+"9006": {
+"nhom": "9001-9006",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Charon",
+"style_id": "c0565b4d",
+"style_var": "C",
+"thoi_diem": "2026-11-05 01:32:16",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "light"
+}
+}

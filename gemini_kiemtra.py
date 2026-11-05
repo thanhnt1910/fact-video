@@ -1,4 +1,4 @@
-"""Kiểm tra mọi khóa Gemini trong GitHub Secrets: GEMINI_API_KEY, GEMINI_API_KEY_2 ... _12, và GEMINI_API_KEYS (nhiều khóa, cách nhau dấu phẩy/xuống dòng).
+"""Kiểm tra mọi khóa Gemini trong GitHub Secrets: GEMINI_API_KEY, GEMINI_API_KEY_2 ... _13, và GEMINI_API_KEYS (nhiều khóa, cách nhau dấu phẩy/xuống dòng).
 Báo: tên secret nào có, khóa nào TRÙNG nhau (so bằng dấu vân tay, không in khóa), khóa nào đọc giọng/dùng chữ được. Ghi logs/gemini_kiemtra.txt."""
 import hashlib, json, os, re, time, urllib.request, urllib.error
 from datetime import datetime, timezone

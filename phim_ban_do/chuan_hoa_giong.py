@@ -16,7 +16,14 @@ def lufs(p):
     r = subprocess.run(['ffmpeg','-nostats','-i',p,'-af','ebur128=peak=true','-f','null','-'],capture_output=True,text=True).stderr
     m = re.findall(r'I:\s+(-?[\d.]+) LUFS', r); return float(m[-1]) if m else -23.0
 nw = {b['n']: len(re.sub(r'[^\w\s]', ' ', b['text']).split()) for b in kb}
-d0 = {b['n']: dur(f'{nguon}/{b["n"]}.mp3') for b in kb}
+LEAD, TAIL = 0.15, 0.30   # giữ đúng chừng này im lặng ở đầu và đuôi mỗi đoạn: nghỉ giữa hai câu đều nhau (~0,45 giây), không còn chỗ hụt ở đoạn chuyển
+def bien_noi(p):   # (bắt đầu, kết thúc) của phần có tiếng, theo mức -46 dB so với đỉnh (bỏ hơi thở và tiếng nền nhỏ)
+    raw = subprocess.run(['ffmpeg','-v','error','-i',p,'-f','f32le','-ac','1','-ar','8000','-'],capture_output=True).stdout
+    x = np.abs(np.frombuffer(raw, np.float32)); e = np.convolve(x, np.ones(160) / 160, 'same'); on = np.where(e > 0.005 * e.max())[0]
+    return (on[0] / 8000, on[-1] / 8000, len(x) / 8000) if len(on) else (0.0, len(x) / 8000, len(x) / 8000)
+def dur_noi(p):
+    a, b, _ = bien_noi(p); return b - a
+d0 = {b['n']: dur_noi(f'{nguon}/{b["n"]}.mp3') for b in kb}
 wps = {n: nw[n] / d0[n] for n in nw}
 med = statistics.median(wps.values())
 f0 = {n: _f0(_doc(f'{nguon}/{n}.mp3')) for n in nw}
@@ -27,10 +34,9 @@ out = {}; rep = []
 for b in kb:
     n = b['n']; src = f'{nguon}/{n}.mp3'; dp = f'{dst}/{n}.mp3'
     r = wps[n] / med; tempo = 1.0
-    if abs(r - 1) > 0.05 and '--khong-atempo' not in sys.argv: tempo = max(0.90, min(1.10, r))   # --khong-atempo: không đổi tốc độ từng đoạn (chỉ chỉnh âm lượng)   # nhanh hơn trung vị thì làm chậm (atempo<1) hay ngược lại: atempo = r làm giọng nhanh lên khi r>1
-    tempo = 1 / r if abs(r - 1) > 0.05 else 1.0
-    tempo = max(0.90, min(1.10, tempo))
-    if '--khong-atempo' in sys.argv: tempo = 1.0   # sửa 04/11: cờ này trước bị dòng trên ghi đè
+    if abs(r - 1) > 0.05: tempo = max(0.90, min(1.10, r))   # nhanh hơn trung vị thì làm chậm (atempo<1) hay ngược lại: atempo = r làm giọng nhanh lên khi r>1
+    tempo = 1 / r if abs(r - 1) > 0.03 else 1.0
+    tempo = max(0.88, min(1.12, tempo))
     tmp = f'/tmp/_ch_{n}.wav'
     if str(n) in NOI:   # nối đuôi đoạn trước (phần sau mốc cắt) vào đầu đoạn này
         pv, mc = NOI[str(n)]   # đoạn trước và mốc (giây trên bản thô) bắt đầu phần đuôi cần nối
@@ -38,8 +44,10 @@ for b in kb:
     pr = 1.0
     if f0[n] == f0[n] and abs(f0m / f0[n] - 1) > 0.03: pr = max(0.90, min(1.10, f0m / f0[n]))   # kéo cao độ từng đoạn về trung vị (tối đa 10%), giữ nguyên tốc độ
     cut = ''
-    if str(n) in TRIM: cut = f'atrim=end={TRIM[str(n)] * tempo:.3f},'
-    af = f'{cut}rubberband=tempo={tempo:.4f}:pitch={pr:.4f}:formant=preserved,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=none'
+    _a, _b, _L = bien_noi(src)
+    if str(n) in TRIM: _b = min(_b, TRIM[str(n)])
+    CAT = f'atrim=start={max(0.0, _a - LEAD):.3f}:end={min(_L, _b + TAIL):.3f},asetpts=PTS-STARTPTS,afade=t=out:st={max(0.0, min(_L, _b + TAIL) - max(0.0, _a - LEAD) - 0.10):.3f}:d=0.10'
+    af = f'{cut}' + CAT + f',rubberband=tempo={tempo:.4f}:pitch={pr:.4f}:formant=preserved,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=none'
     subprocess.run(['ffmpeg','-y','-v','error','-i',src,'-af',af,'-ar','24000','-ac','1',tmp],check=True)
     L = lufs(tmp); g = -16.0 - L
     subprocess.run(['ffmpeg','-y','-v','error','-i',tmp,'-af',f'volume={g:.2f}dB,alimiter=limit=0.89','-ar','24000','-ac','1','-b:a','96k',dp],check=True)

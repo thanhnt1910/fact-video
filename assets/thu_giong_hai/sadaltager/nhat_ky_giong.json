@@ -1379,1060 +1379,1432 @@
 "config": "v3-2026-11-01-C",
 "tone": "story"
 },
-"9001": {
-"nhom": "9001-9001",
+"34001": {
+"nhom": "34001-34001",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:29:49",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:22",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9002": {
-"nhom": "9002-9002",
+"34002": {
+"nhom": "34002-34002",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:29:52",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:27",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9003": {
-"nhom": "9003-9003",
+"34003": {
+"nhom": "34003-34003",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:29:56",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:30",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9004": {
-"nhom": "9004-9004",
+"34004": {
+"nhom": "34004-34004",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:01",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:34",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9005": {
-"nhom": "9005-9005",
+"34005": {
+"nhom": "34005-34005",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:05",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:38",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9006": {
-"nhom": "9006-9006",
+"34006": {
+"nhom": "34006-34006",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:08",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:42",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9007": {
-"nhom": "9007-9007",
+"34007": {
+"nhom": "34007-34007",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:13",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:46",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9008": {
-"nhom": "9008-9008",
+"34008": {
+"nhom": "34008-34008",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:18",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:50",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9011": {
-"nhom": "9011-9011",
+"34009": {
+"nhom": "34009-34009",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:29",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:54",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9012": {
-"nhom": "9012-9012",
+"34010": {
+"nhom": "34010-34010",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:34",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:26:57",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9013": {
-"nhom": "9013-9013",
+"34011": {
+"nhom": "34011-34011",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:39",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:00",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9014": {
-"nhom": "9014-9014",
+"34012": {
+"nhom": "34012-34012",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:42",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:05",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9015": {
-"nhom": "9015-9015",
+"34013": {
+"nhom": "34013-34013",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:46",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:08",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9016": {
-"nhom": "9016-9016",
+"34014": {
+"nhom": "34014-34014",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:50",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:11",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9017": {
-"nhom": "9017-9017",
+"34015": {
+"nhom": "34015-34015",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:55",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:15",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9018": {
-"nhom": "9018-9018",
+"34016": {
+"nhom": "34016-34016",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:30:59",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:20",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9019": {
-"nhom": "9019-9019",
+"34017": {
+"nhom": "34017-34017",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:03",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:24",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9020": {
-"nhom": "9020-9020",
+"34018": {
+"nhom": "34018-34018",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:08",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:27",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9021": {
-"nhom": "9021-9021",
+"34019": {
+"nhom": "34019-34019",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:12",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:30",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9022": {
-"nhom": "9022-9022",
+"34020": {
+"nhom": "34020-34020",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:17",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:34",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9023": {
-"nhom": "9023-9023",
+"34021": {
+"nhom": "34021-34021",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:21",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:38",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9024": {
-"nhom": "9024-9024",
+"34022": {
+"nhom": "34022-34022",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:26",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:41",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9025": {
-"nhom": "9025-9025",
+"34023": {
+"nhom": "34023-34023",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:29",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:45",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9026": {
-"nhom": "9026-9026",
+"34024": {
+"nhom": "34024-34024",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:35",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:49",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9027": {
-"nhom": "9027-9027",
+"34025": {
+"nhom": "34025-34025",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:39",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:53",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9028": {
-"nhom": "9028-9028",
+"34026": {
+"nhom": "34026-34026",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:43",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:27:57",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9029": {
-"nhom": "9029-9029",
+"34027": {
+"nhom": "34027-34027",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:47",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:01",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9030": {
-"nhom": "9030-9030",
+"34028": {
+"nhom": "34028-34028",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:51",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:06",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9031": {
-"nhom": "9031-9031",
+"34029": {
+"nhom": "34029-34029",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:55",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:09",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9032": {
-"nhom": "9032-9032",
+"34030": {
+"nhom": "34030-34030",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:31:59",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:13",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9033": {
-"nhom": "9033-9033",
+"34031": {
+"nhom": "34031-34031",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:32:03",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:17",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9034": {
-"nhom": "9034-9034",
+"34032": {
+"nhom": "34032-34032",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:32:07",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:21",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9035": {
-"nhom": "9035-9035",
+"34033": {
+"nhom": "34033-34033",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:32:12",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:24",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9036": {
-"nhom": "9036-9036",
+"34034": {
+"nhom": "34034-34034",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:32:15",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:28",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9037": {
-"nhom": "9037-9037",
+"34035": {
+"nhom": "34035-34035",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:32:20",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:32",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9038": {
-"nhom": "9038-9038",
+"34036": {
+"nhom": "34036-34036",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:32:24",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:36",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9039": {
-"nhom": "9039-9039",
+"34037": {
+"nhom": "34037-34037",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:24",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:40",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9041": {
-"nhom": "9041-9041",
+"34038": {
+"nhom": "34038-34038",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:32",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:44",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9042": {
-"nhom": "9042-9042",
+"34039": {
+"nhom": "34039-34039",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:35",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:48",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9043": {
-"nhom": "9043-9043",
+"34040": {
+"nhom": "34040-34040",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:39",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:52",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9044": {
-"nhom": "9044-9044",
+"34041": {
+"nhom": "34041-34041",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:44",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:28:56",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9045": {
-"nhom": "9045-9045",
+"34042": {
+"nhom": "34042-34042",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:49",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:00",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9046": {
-"nhom": "9046-9046",
+"34043": {
+"nhom": "34043-34043",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:53",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:04",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9047": {
-"nhom": "9047-9047",
+"34044": {
+"nhom": "34044-34044",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:38:57",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:07",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9048": {
-"nhom": "9048-9048",
+"34045": {
+"nhom": "34045-34045",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:01",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:11",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9049": {
-"nhom": "9049-9049",
+"34046": {
+"nhom": "34046-34046",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:06",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:15",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9050": {
-"nhom": "9050-9050",
+"34047": {
+"nhom": "34047-34047",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:10",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:19",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9051": {
-"nhom": "9051-9051",
+"34048": {
+"nhom": "34048-34048",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:14",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:22",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9052": {
-"nhom": "9052-9052",
+"34049": {
+"nhom": "34049-34049",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:18",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:26",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9053": {
-"nhom": "9053-9053",
+"34050": {
+"nhom": "34050-34050",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:22",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:30",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9054": {
-"nhom": "9054-9054",
+"34051": {
+"nhom": "34051-34051",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:28",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:33",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9055": {
-"nhom": "9055-9055",
+"34052": {
+"nhom": "34052-34052",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:32",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 09:29:37",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9056": {
-"nhom": "9056-9056",
+"34053": {
+"nhom": "34053-34053",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:36",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:03",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9057": {
-"nhom": "9057-9057",
+"34054": {
+"nhom": "34054-34054",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:40",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:07",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9058": {
-"nhom": "9058-9058",
+"34055": {
+"nhom": "34055-34055",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:44",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:10",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9059": {
-"nhom": "9059-9059",
+"34056": {
+"nhom": "34056-34056",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:48",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:14",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9060": {
-"nhom": "9060-9060",
+"34057": {
+"nhom": "34057-34057",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:39:56",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:18",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9061": {
-"nhom": "9061-9061",
+"34058": {
+"nhom": "34058-34058",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:01",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:22",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9063": {
-"nhom": "9063-9063",
+"34059": {
+"nhom": "34059-34059",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:10",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:25",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9064": {
-"nhom": "9064-9064",
+"34060": {
+"nhom": "34060-34060",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:14",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:30",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9065": {
-"nhom": "9065-9065",
+"34061": {
+"nhom": "34061-34061",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:20",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:34",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9066": {
-"nhom": "9066-9066",
+"34063": {
+"nhom": "34063-34063",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:24",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:41",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9067": {
-"nhom": "9067-9067",
+"34064": {
+"nhom": "34064-34064",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:28",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:44",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9068": {
-"nhom": "9068-9068",
+"34065": {
+"nhom": "34065-34065",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:32",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:48",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9069": {
-"nhom": "9069-9069",
+"34066": {
+"nhom": "34066-34066",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:40:36",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:52",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9070": {
-"nhom": "9070-9070",
+"34067": {
+"nhom": "34067-34067",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:44:32",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:56",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9071": {
-"nhom": "9071-9071",
+"34068": {
+"nhom": "34068-34068",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:44:37",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:02:59",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9072": {
-"nhom": "9072-9072",
+"34069": {
+"nhom": "34069-34069",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:44:41",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:03",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9073": {
-"nhom": "9073-9073",
+"34070": {
+"nhom": "34070-34070",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:44:46",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:07",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "light"
+"tone": "story"
 },
-"9074": {
-"nhom": "9074-9074",
+"34071": {
+"nhom": "34071-34071",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:44:50",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:11",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9075": {
-"nhom": "9075-9075",
+"34072": {
+"nhom": "34072-34072",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:44:55",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:14",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9076": {
-"nhom": "9076-9076",
+"34073": {
+"nhom": "34073-34073",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:00",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:18",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9077": {
-"nhom": "9077-9077",
+"34074": {
+"nhom": "34074-34074",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:05",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:21",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9078": {
-"nhom": "9078-9078",
+"34075": {
+"nhom": "34075-34075",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:09",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:26",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9079": {
-"nhom": "9079-9079",
+"34076": {
+"nhom": "34076-34076",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:13",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:30",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9080": {
-"nhom": "9080-9080",
+"34077": {
+"nhom": "34077-34077",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:18",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:33",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9081": {
-"nhom": "9081-9081",
+"34078": {
+"nhom": "34078-34078",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:22",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:37",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9082": {
-"nhom": "9082-9082",
+"34079": {
+"nhom": "34079-34079",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:26",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:42",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9083": {
-"nhom": "9083-9083",
+"34080": {
+"nhom": "34080-34080",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:32",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:46",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9084": {
-"nhom": "9084-9084",
+"34081": {
+"nhom": "34081-34081",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:37",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:51",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9085": {
-"nhom": "9085-9085",
+"34082": {
+"nhom": "34082-34082",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:41",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:54",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9086": {
-"nhom": "9086-9086",
+"34083": {
+"nhom": "34083-34083",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:45",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:03:59",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9087": {
-"nhom": "9087-9087",
+"34084": {
+"nhom": "34084-34084",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:50",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:06:32",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9088": {
-"nhom": "9088-9088",
+"34085": {
+"nhom": "34085-34085",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 15:45:55",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:06:37",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9009": {
-"nhom": "9009-9009",
+"34086": {
+"nhom": "34086-34086",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 16:05:11",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:06:41",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9010": {
-"nhom": "9010-9010",
+"34087": {
+"nhom": "34087-34087",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 16:05:16",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:06:44",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9040": {
-"nhom": "9040-9040",
+"34088": {
+"nhom": "34088-34088",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 16:05:21",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:06:48",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
 },
-"9062": {
-"nhom": "9062-9062",
+"34089": {
+"nhom": "34089-34089",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Sadaltager",
-"style_id": "c0565b4d",
-"style_var": "C",
-"thoi_diem": "2026-11-04 16:47:09",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:15:50",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
-"tone": "calm"
+"tone": "story"
+},
+"34090": {
+"nhom": "34090-34090",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:15:54",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34091": {
+"nhom": "34091-34091",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:15:59",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34092": {
+"nhom": "34092-34092",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:03",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34093": {
+"nhom": "34093-34093",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:07",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34094": {
+"nhom": "34094-34094",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:11",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34095": {
+"nhom": "34095-34095",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:15",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34096": {
+"nhom": "34096-34096",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:19",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34097": {
+"nhom": "34097-34097",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:23",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34098": {
+"nhom": "34098-34098",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:27",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34099": {
+"nhom": "34099-34099",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:31",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34100": {
+"nhom": "34100-34100",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:34",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34101": {
+"nhom": "34101-34101",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:39",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34102": {
+"nhom": "34102-34102",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:43",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34103": {
+"nhom": "34103-34103",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:47",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34104": {
+"nhom": "34104-34104",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:16:50",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34105": {
+"nhom": "34105-34105",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:54:42",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34106": {
+"nhom": "34106-34106",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:54:46",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34107": {
+"nhom": "34107-34107",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:54:50",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34108": {
+"nhom": "34108-34108",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:54:54",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34109": {
+"nhom": "34109-34109",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:54:58",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34110": {
+"nhom": "34110-34110",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:17",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34111": {
+"nhom": "34111-34111",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:21",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34112": {
+"nhom": "34112-34112",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:26",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34113": {
+"nhom": "34113-34113",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:29",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34114": {
+"nhom": "34114-34114",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:34",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34115": {
+"nhom": "34115-34115",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:38",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34116": {
+"nhom": "34116-34116",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:44",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34117": {
+"nhom": "34117-34117",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:55:48",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34118": {
+"nhom": "34118-34118",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 10:58:31",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34062": {
+"nhom": "34062-34062",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 14:58:28",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"34119": {
+"nhom": "34119-34119",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Sadaltager",
+"style_id": "caeddecd",
+"style_var": "B",
+"thoi_diem": "2026-11-01 15:12:03",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
 }
 }

@@ -13,15 +13,15 @@
    [khóa] GEMINI_API_KEY_13: …Qvug
    [khóa] GEMINI_API_KEY_14: …S_3g
    [khóa] GEMINI_API_KEY_15: …Snsg
-   [khóa] GEMINI_API_KEY_16: …Qvug
+   [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-04 14:11:42
+   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-01 09:26:22
 còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 9062-9062: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=c0565b4d/C dự_phòng=False lúc 2026-11-04 16:47:09
-OK cụm 9062 - 9062 6.4 giây
-[báo cáo giọng] 88/88 đoạn có nhật ký tạo giọng
+   [giọng] nhóm 34119-34119: model=gemini-3.8-flash-tts (interactions) voice=Sadaltager style=caeddecd/B dự_phòng=False lúc 2026-11-01 15:12:03
+OK cụm 34119 - 34119 7.7 giây
+[báo cáo giọng] 119/119 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
    voice: Sadaltager
-   style_id: c0565b4d
+   style_id: caeddecd

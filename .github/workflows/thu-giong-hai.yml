@@ -24,13 +24,6 @@ jobs:
     timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
-        with:
-          # chỉ lấy phần cần cho việc đọc giọng (mã .py ở thư mục gốc, cấu hình, thư mục giọng); bỏ ảnh/clip hàng GB để checkout và đẩy nhanh
-          filter: blob:none
-          sparse-checkout: |
-            .github
-            ke-hoach/thu-giong-hai
-            assets/thu_giong_hai/sadaltager
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -59,6 +52,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p assets/thu_giong_hai
+          export GEMINI_MAX_429=$(cat ke-hoach/thu-giong-hai/max429.txt 2>/dev/null || echo 8)
           export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
           timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai_cum.py "$([ -n '${{ inputs.file }}' ] && echo '${{ inputs.file }}' || cat ke-hoach/thu-giong-hai/file.txt 2>/dev/null || echo ke-hoach/thu-giong-hai/hs1_full.json)" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai $(cat ke-hoach/thu-giong-hai/cum.txt 2>/dev/null || echo 16) 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo

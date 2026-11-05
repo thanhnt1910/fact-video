@@ -127,12 +127,6 @@ def woodcrack(t0,g=0.7):
         s+=(np.sin(2*math.pi*(180-60*k)*tt)*np.exp(-tt/0.06)).astype(np.float32)*0.8
         add(s.astype(np.float32),t0+o,g*(1-0.2*k))
     creak(t0+0.15,0.9,g*0.5);splash(t0+0.35,g*0.8)
-def thunder(t0,g=0.8):
-    n=int(3.2*SR);tt=np.arange(n)/SR
-    s=lp(rng.normal(0,1,n).astype(np.float32),260)*np.exp(-tt/1.1)*np.minimum(tt/0.03,1)
-    s+=lp(rng.normal(0,1,n).astype(np.float32),900)*np.exp(-tt/0.12)*np.minimum(tt/0.004,1)*0.7
-    s+=(np.sin(2*math.pi*(55-10*tt)*tt)*np.exp(-tt/0.9)).astype(np.float32)*0.6
-    add((s*1.2).astype(np.float32),t0,g)
 def gong(t0,g=0.5):
     n=int(3.0*SR);tt=np.arange(n)/SR
     s=sum(np.sin(2*math.pi*f*tt+p)*a for f,a,p in [(96,1,0),(144,0.6,1),(213,0.45,2),(341,0.25,0.5)])*np.exp(-tt/1.1)
@@ -147,13 +141,12 @@ def war_drums(t0,t1,g=0.6,iv=0.75):
     while t<t1: drum(t,g*(1 if i%4==0 else 0.6));t+=iv;i+=1
 
 def bt(n): return T[n]
-_R_clangs,_R_volley,_R_murmur,_R_creak=clangs,volley,murmur,creak
 if QA:
     _nop=lambda *a,**k:None
     tick=whoosh=crackle=murmur=clang=clangs=volley=bow=wave_bed=rain=creak=_nop
 
 for (t0,t1,bl,bt_,who) in C.BATT:
-    _R_clangs(t0,t1,6,0.55);_R_volley(t0+0.2,t1-0.5,max(3,int((t1-t0)*0.8)),0.45);drum(t0,0.8);_R_murmur(t0,t1-t0+1,0.45)
+    clangs(t0,t1,6);volley(t0+0.2,t1-0.5,max(3,int((t1-t0)*0.8)),0.4);drum(t0,0.8);murmur(t0,t1-t0+1,0.4)
 for (t0,t1,lon,lat) in C.FIRES: pass
 fr_done=set()
 for (t0,t1,lon,lat) in C.FIRES:
@@ -243,7 +236,6 @@ for (ts,kd) in getattr(C,'SFX',[]):
     if kd=='horn': horn(ts,1.8,0.45)
     elif kd=='gong': gong(ts,0.6)
     elif kd=='trumpet': trumpet(ts,1.3,0.5)
-    elif kd=='thunder': thunder(ts,0.8)
 for x in getattr(C,'JOKES',[]): tick(x[0],0.9);tick(x[0]+0.12,0.5)
 for x in getattr(C,'QUOTES',[]): tick(x[0],0.5)
 for x in getattr(C,'CARDS3',[]): tick(x[0],0.35)
@@ -259,8 +251,6 @@ for g in C.GROUPS:
             if kind=='cav':
                 hoof(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.2)
                 if g['name'] in getattr(C,'SFX_GROUPS',()): clop(a_[0]+0.3,min(b_[0]-a_[0],8.0));bells(a_[0]+0.3,min(b_[0]-a_[0],8.0))
-            elif kind=='ship':
-                oars(a_[0]+0.3,min(b_[0]-a_[0],8.0),0.4);_R_creak(a_[0]+0.5,1.6,0.3)
             else: steps(a_[0]+0.3,min(b_[0]-a_[0],8.0))
 if C.__name__=='tq45_content':
     for t0 in (C.R(137)+6.5,C.R(144)): creak(t0)

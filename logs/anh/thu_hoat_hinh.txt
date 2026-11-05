@@ -1,7 +1,0 @@
-ok C0
-ok A1
-ok B1
-ok A2
-ok B2
-ok A3
-ok B3

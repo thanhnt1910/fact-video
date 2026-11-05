@@ -2,7 +2,7 @@ import json,math,os
 from PIL import Image,ImageDraw,ImageFont
 P=bool(os.environ.get('PORTRAIT'))
 W,H,FPS=(1080,1920,24) if P else (1920,1080,24)
-SUBW=W-150 if P else 1250;SUBF=58 if P else 46;SUBY=(700 if os.environ.get('DOCMODE') else 340) if P else 70
+SUBW=W-150 if P else 1250;SUBF=58 if P else 46;SUBY=340 if P else 70
 FONT=os.environ.get('FONT','/tmp/wt/assets/fonts/Lora-Variable.ttf')
 def font(sz,bold=True):
     f=ImageFont.truetype(FONT,int(sz))
@@ -42,7 +42,7 @@ def sub_layer(txt):
 
 _PH=os.environ.get('PHUDE',os.path.join(os.path.dirname(os.path.abspath(__file__)),'phude.json'))
 PH=json.load(open(_PH)) if os.path.exists(_PH) else {}
-_cache={};_CV={}
+_cache={}
 def sub_words(words,k,reveal=False):
     """Phụ đề một cụm: chữ đã đọc sáng, chữ chưa đọc mờ."""
     im=Image.new('RGBA',(W,H),(0,0,0,0));g=ImageDraw.Draw(im);f=font(SUBF,False);fb=font(SUBF,True)
@@ -65,21 +65,12 @@ def sub_at(t):
     cl=PH.get(str(n))
     if not cl:
         key=('b',n)
-        if key not in _cache:
-            _t=texts[n]
-            if os.environ.get('SUBSO','1')=='1':
-                import phude_so as _PS;_t=_PS.chuyen([[_t]])[0][0]
-            _cache.clear();_cache[key]=sub_layer(_t)
+        if key not in _cache: _cache.clear();_cache[key]=sub_layer(texts[n])
         return _cache[key],al
     v=lt-0.05;i=0
     for j,c in enumerate(cl):
         st=c[5][0] if len(c)>=6 and c[5] else c[1]
         if v>=st-0.05: i=j
-    if os.environ.get('SUBSO','1')=='1':
-        if n not in _CV:
-            import phude_so as _PS;_CV[n]=_PS.chuyen(cl)
-        cl=_CV[n]
-        while i>0 and not cl[i][0].strip(): i-=1
     txt,s,e=cl[i][:3];words=txt.split()
     rev=len(cl[i])>=6 and bool(cl[i][5])
     if rev:
@@ -109,7 +100,6 @@ def num_layer(big,small):
     f=font(sz);fs=font(40 if not P else 44,False)
     while g.textlength(big,font=f)>W-300 and sz>50: sz-=4;f=font(sz)
     while g.textlength(small,font=fs)>W-200 and fs.size>24: fs=font(fs.size-2,False)
-    while not P and g.textlength(big,font=f)+90>W-2*560 and sz>56: sz-=4;f=font(sz)   # chừa ô năm góc trái (đến x=560)
     w1=g.textlength(big,font=f);w2=g.textlength(small,font=fs)
     bw=max(w1,w2)+90;y=44 if not P else 260;bh=sz+fs.size+60
     x0=W/2-bw/2

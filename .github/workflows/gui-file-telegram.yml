@@ -29,7 +29,9 @@ jobs:
               *.mp4) m=sendVideo; k=video; extra="-F supports_streaming=true" ;;
               *) m=sendDocument; k=document; extra="" ;;
             esac
-            code=$(curl -s -o r.txt -w "%{http_code}" -F chat_id="$TG_CHAT" -F "$k=@$f" -F caption="${CAP:-$(basename $f)}" $extra "https://api.telegram.org/bot${TG_TOKEN}/$m")
+            C="${CAP:-$(basename $f)}"
+            if [ "$k" = video ] && [ -f ke-hoach/thu-giong-hai/gui_tg_cap.txt ]; then C="$(head -c 1000 ke-hoach/thu-giong-hai/gui_tg_cap.txt)"; fi
+            code=$(curl -s -o r.txt -w "%{http_code}" -F chat_id="$TG_CHAT" -F "$k=@$f" -F caption="$C" $extra "https://api.telegram.org/bot${TG_TOKEN}/$m")
             echo "$f -> $code"; [ "$code" = 200 ] || { fail=1; head -c 300 r.txt; }
           done
           exit $fail

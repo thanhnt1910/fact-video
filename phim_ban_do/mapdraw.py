@@ -1,4 +1,3 @@
-import os
 import math,random,json,numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
 from build2 import font,W,H,FPS
@@ -46,20 +45,6 @@ def elephant(d,x,y,s,col,face,bob,alpha=255):
     d.ellipse((x-k*0.17,y-k*1.75,x+k*0.17,y-k*1.4),fill=(232,196,150,alpha),outline=ink)
     d.line([(x+face*k*0.3,y-k*2.3),(x+face*k*0.3,y-k*1.0)],fill=(110,80,50,alpha),width=max(2,int(k*0.08)))
     d.polygon([(x+face*k*0.3,y-k*2.3),(x+face*k*0.3+face*k*0.6,y-k*2.15),(x+face*k*0.3,y-k*1.95)],fill=col+(alpha,),outline=ink)
-def bearer_flag(d,x,y,s,col,t,face=1):
-    """Cờ của lính cầm cờ trong cụm quân: cán cao, lá cờ lượn sóng có viền, hai dải sáng và tua, mũi giáo vàng ở đỉnh."""
-    ink=(25,18,12,255);px=x+face*s*0.55;top=y-s*4.4
-    d.line([(px,y+s*0.4),(px,top)],fill=(86,58,34,255),width=max(3,int(s*0.16)))
-    d.polygon([(px,top-s*0.55),(px-s*0.16,top+0.02*s),(px+s*0.16,top+0.02*s)],fill=(214,176,60,255),outline=ink)
-    L=s*2.6;Hh=s*1.45;n=9;dirn=1 if face>=0 else -1
-    def wave(u,v): return (px+dirn*u*L, top+s*0.1+v*Hh+math.sin(t*5.0+u*4.2)*s*0.16*u)
-    up=[wave(i/n,0) for i in range(n+1)];dn=[wave(i/n,1.0-0.12*(i/n)) for i in range(n+1)][::-1]
-    d.polygon(up+dn,fill=col+(255,),outline=ink)
-    lt=tuple(min(255,int(c*0.55+255*0.45)) for c in col)
-    for v0,v1 in ((0.30,0.42),(0.62,0.74)):
-        a=[wave(i/n,v0) for i in range(1,n)];b=[wave(i/n,v1) for i in range(1,n)][::-1]
-        d.polygon(a+b,fill=lt+(255,))
-    ex,ey=wave(1.0,0.5);d.polygon([(ex,ey-s*0.18),(ex+dirn*s*0.5,ey),(ex,ey+s*0.18)],fill=(214,176,60,255),outline=ink)
 def flag(d,x,y,s,col,txt=None,fn=None):
     d.line([(x,y),(x,y-s*3.2)],fill=(70,50,30,255),width=max(3,int(s*0.18)))
     d.polygon([(x,y-s*3.2),(x+s*1.9,y-s*2.85),(x+s*1.6,y-s*2.35),(x+s*1.9,y-s*1.9),(x,y-s*2.2)],fill=col+(255,),outline=(25,18,12,255))
@@ -180,34 +165,8 @@ def paper():
 
 # ---- mặt nhân vật (huy hiệu tròn) để hiện trên bản đồ khi nhắc tên ----
 _FACE_CACHE = {}
-_ICON_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets', 'icon_nhan_vat')
-def _slug(name):
-    import unicodedata, re
-    t = unicodedata.normalize('NFD', name.replace('đ', 'd').replace('Đ', 'D'))
-    return re.sub(r'[^a-z0-9]', '', ''.join(c for c in t if unicodedata.category(c) != 'Mn').lower())
-def icon_sprite(name, col, S):
-    """Chân dung AI riêng của nhân vật (assets/icon_nhan_vat/<tên không dấu>.png|jpg), cắt tròn, viền màu phe. Không có ảnh thì trả None."""
-    from PIL import Image as _I, ImageDraw as _D
-    sl = _slug(name)
-    for ext in ('png', 'jpg'):
-        p = os.path.join(_ICON_DIR, sl + '.' + ext)
-        if os.path.exists(p): break
-    else: return None
-    key = ('icon', sl, tuple(col), S)
-    if key in _FACE_CACHE: return _FACE_CACHE[key]
-    im = _I.open(p).convert('RGB'); w, h = im.size; m = min(w, h)
-    cs = int(m * 0.74); x0 = (w - cs) // 2; y0 = int(m * 0.06)
-    im = im.crop((x0, y0, x0 + cs, y0 + cs)).resize((S * 2, S * 2), _I.LANCZOS)
-    out = _I.new('RGBA', (S * 2, S * 2), (0, 0, 0, 0)); mk = _I.new('L', (S * 2, S * 2), 0)
-    _D.Draw(mk).ellipse((0, 0, S * 2 - 1, S * 2 - 1), fill=255); out.paste(im, (0, 0), mk)
-    g = _D.Draw(out); b = max(6, S // 14)
-    g.ellipse((b // 2, b // 2, S * 2 - 1 - b // 2, S * 2 - 1 - b // 2), outline=tuple(col) + (255,), width=b)
-    out = out.resize((S, S), _I.LANCZOS); _FACE_CACHE[key] = out; return out
-def face_sprite(kind, col, S=256, name=None):
+def face_sprite(kind, col, S=256):
     """Huy hiệu tròn vẽ phẳng: nền giấy, vai áo màu phe, mặt, mũ/tóc theo vai trò. Trả về ảnh RGBA S×S."""
-    if name:
-        ic = icon_sprite(name, col, S)
-        if ic is not None: return ic
     key = (kind, tuple(col), S)
     if key in _FACE_CACHE: return _FACE_CACHE[key]
     from PIL import Image as _I, ImageDraw as _D

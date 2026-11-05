@@ -1,6 +1,0 @@
-ok L04 lần 1 seed 13373520 ref ['CR-LTK-B2']
-ok L32 lần 1 seed 11662876 ref []
-ok L33 lần 1 seed 13469380 ref []
-ok L04 lần 2 seed 11576234 ref ['CR-LTK-B2']
-ok L32 lần 2 seed 9931276 ref []
-ok L33 lần 2 seed 2593148 ref []

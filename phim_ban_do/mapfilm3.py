@@ -154,7 +154,7 @@ def _build_track():
         pad=np.concatenate([np.full(4*sg,a[0]),a,np.full(4*sg,a[-1])]);return np.convolve(pad,k,'same')[4*sg:-4*sg]
     return dt,sm(X),sm(Y),np.exp(sm(Z))
 # ---- máy quay theo tiêu điểm (CAMFOCUS): mỗi câu zoom vào đúng vật đang được kể, đặt giữa vùng an toàn của khung
-SAFE=(60,170,1020,870) if os.environ.get('DOCMODE') else (100,170,1550,840)
+SAFE=(100,170,1550,840)
 BASE_N=getattr(C,'BASE',0)
 def _beat_subjects(n):
     t0=T[n];t1=t0+D[n];prim=[];sec=[]
@@ -207,7 +207,7 @@ def _focus_target(n,bz):
     bcx,bcy=(xa+xb)/2,(ya+yb)/2
     bw=RW/z;bh=bw*H/W
     cx=bcx+bw*(0.5-((SAFE[0]+SAFE[2])/2)/W)
-    cy=bcy+bh*((0.5 if os.environ.get('DOCMODE') else 0.40)-((SAFE[1]+SAFE[3])/2)/H)
+    cy=bcy+bh*(0.40-((SAFE[1]+SAFE[3])/2)/H)
     return cx,cy,z
 _MEN=_mention_events() if getattr(C,'CAMFOCUS',False) else []
 _FTRK=None
@@ -257,7 +257,7 @@ PAPER=MD.paper()
 STATIC=Image.alpha_composite(VIGN,PAPER)
 _h=Image.new('RGBA',(W,H),(0,0,0,0));_hd=ImageDraw.Draw(_h);MD.compass(_hd,W-110,245,46);MD.scalebar(_hd,W-290,320,170)
 def _logo(px,a):
-    lg=Image.open(os.environ.get('LOGO','/home/claude/fact-video/assets/logo/nguoi-gac-su-cu.png')).convert('RGBA').resize((px,px),Image.LANCZOS)
+    lg=Image.open(os.environ.get('LOGO','/home/claude/fact-video/assets/logo/nguoi-gac-su.png')).convert('RGBA').resize((px,px),Image.LANCZOS)
     al=lg.split()[3].point(lambda v:int(v*a));lg.putalpha(al);return lg
 _h.alpha_composite(_logo(130,0.8),(W-44-130,34))
 STATIC=Image.alpha_composite(STATIC,_h)
@@ -409,16 +409,14 @@ def frame(t):
             if dead:
                 gc=tuple(int(0.35*c+0.65*110) for c in col);py+=s*0.35
                 UNIT(g.kind)(d,px,py,s*0.95,gc,face,0.0,alpha=190)
-            else:
-                UNIT(g.kind)(d,px,py,s,col,face,bob)
-                if i==0 and getattr(C,'FLAG2',False) and g.kind in ('inf','cav'): MD.bearer_flag(d,px,py,s,col,t,face)
+            else: UNIT(g.kind)(d,px,py,s,col,face,bob)
         if g.kind=='ele' and mv and not dead:
             for k_ in range(7):
                 ph_=(t*1.3+k_/7.0)%1.0;rr=s*(0.5+1.4*ph_);ax=x-face*spr*(0.9+1.6*ph_)+math.sin(k_*2.1)*s*0.8;ay=y+spr*0.6+math.cos(k_*1.7)*s*0.5
                 d.ellipse((ax-rr,ay-rr*0.6,ax+rr,ay+rr*0.6),fill=(196,176,138,int(110*(1-ph_))))
         fcol=(120,120,126) if dead else col
         if dead: flag(d,x-spr*1.9,y-spr*0.1,s*0.7,fcol)
-        elif not (getattr(C,'FLAG2',False) and g.kind in ('inf','cav')): flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)
+        else: flag(d,x-spr*1.9,y-spr*0.6,s*1.05,col)
         if g.label and not getattr(C,'NO_GROUP_LABEL',False): tag2(d,x,y+spr*1.1,g,col,int(24*K*min(1.3,z**0.25)),max(fr,0.0),dead,t)
         if dead:
             u=(t-dd[0])/0.8
@@ -448,7 +446,7 @@ def frame(t):
             ph_=((u_*0.9)+j_*0.5)%1.0
             d.ellipse((x-ik*(0.6+2.2*ph_),y-ik*(0.6+2.2*ph_)*0.62,x+ik*(0.6+2.2*ph_),y+ik*(0.6+2.2*ph_)*0.62),outline=col_+(int(190*(1-ph_)*k_),),width=max(2,int(3*K*0.7)))
         d.polygon([(fx-r_*0.30,fy+r_*0.80),(fx+r_*0.30,fy+r_*0.80),(x,y-ik*1.3)],fill=col_+(int(255*k_),),outline=(34,24,18,int(255*k_)))
-        sp_=MD.face_sprite(kind_,col_,name=nm_)
+        sp_=MD.face_sprite(kind_,col_)
         sz_=max(8,int(r_*2));sp2=sp_.resize((sz_,sz_),Image.LANCZOS)
         if k_<1:
             al_=sp2.getchannel('A').point(lambda a_:int(a_*k_));sp2.putalpha(al_)
@@ -556,7 +554,6 @@ def frame(t):
         x,y=v.sc(lon,lat,K)
         if not(-300<x<W*K+300 and -300<y<H*K+300): continue
         import mapprops as MP
-        MP._DUR=t1-t0;import mapscenes as _MS;_MS._DUR=t1-t0
         fa=min(clamp((t-t0)/0.4),clamp((t1-t)/0.4));u_=(t-t0)/max(1e-6,t1-t0)
         if fa>=0.999: MP.draw(d,kind,x,y,ik*1.7*sc_,u_,t,arg)
         else:
@@ -591,9 +588,6 @@ def frame(t):
             if -200<x<W*K+200 and -200<y<H*K+200: tag(d,x,y-ik*(3.6+0.8*(1-ease(k))),txt,col,int(26*K*min(1.3,z**0.2)))
     ov=ov.resize((W,H),Image.BILINEAR)
     out=Image.alpha_composite(im,ov)
-    if os.environ.get('LYX'):
-        import ly1_extra as _X;out=_X.apply_map(out,t,v,GROUPS,path_pos,C)
-        if hasattr(_X,'dode'): out=_X.dode(out,t,v,C)
     n_=curve(C.NIGHT,t,0.0)
     if n_>0.01:
         arr=np.asarray(out.convert('RGB'),np.float32)
@@ -670,18 +664,6 @@ def frame(t):
         if t0<=t<=t1 and not _quiet(t):
             k=min(clamp((t-t0)/0.45),clamp((t1-t)/0.4));out=comp(out,M3.joke_layer(icon,txt,t,k),(0,int((1-ease(k))*60)),ease(k))
     for ii,(t0,t1,kind,dat) in enumerate(getattr(C,'INTER',[])):
-        if t0<=t<=t1 and kind=='vsvg':
-            import ly1_anim as _A, ly1_s1,ly1_s2,ly1_s3,ly1_s4,ly1_s5,ly1_s6
-            _fr=_A.render(dat['name'],t-t0,t1-t0,W,H,dat['ms']).convert('RGBA')
-            _fr.alpha_composite(_logo(130,0.8),(W-44-130,34))  # logo kênh luôn hiện trong cảnh vector
-            k=min(clamp((t-t0)/max(dat.get('fi',0.35),0.01)) if dat.get('fi',0.35)>0 else 1.0,clamp((t1-t)/max(dat['fo'],0.01)) if dat.get('fo',0.35)>0 else 1.0)
-            if k>=1.0: out=comp(out,_fr,(0,0),1.0)
-            else:
-                # chuyển qua nền đen: nửa đầu bản đồ tối dần, nửa sau cảnh vector hiện từ đen (không chồng hiệu ứng bản đồ lên ảnh vector)
-                _blk=Image.new('RGBA',(W,H),(0,0,0,255))
-                if k<=0.5: out=comp(out,_blk,(0,0),ease(k*2))
-                else: out=comp(_blk,_fr,(0,0),ease((k-0.5)*2))
-            continue
         if t0<=t<=t1 and kind=='pic':
             # cảnh ảnh 2D toàn khung, máy quay trượt/phóng chậm (dat: path, z0, z1, dx, dy)
             if ('_pic',ii) not in CARDL:
@@ -692,29 +674,15 @@ def frame(t):
             cx=_bg.width/2+dat.get('dx',0)*(u-0.5)*_bg.width*0.06;cy=_bg.height/2+dat.get('dy',0)*(u-0.5)*_bg.height*0.06
             box=(int(cx-vw/2),int(cy-vh/2),int(cx+vw/2),int(cy+vh/2))
             _fr=_bg.crop(box).resize((W,H),Image.BILINEAR).convert('RGBA')
-            _fr.alpha_composite(_logo(130,0.8),(W-44-130,34))
             k=min(clamp((t-t0)/0.3),clamp((t1-t)/0.3));out=comp(out,_fr,(0,0),ease(k))
             continue
         if t0<=t<=t1:
             if ('_in',ii) not in CARDL: CARDL[('_in',ii)]=M3.inter_layer(kind,dat)
             k=min(clamp((t-t0)/0.5),clamp((t1-t)/0.5));out=comp(out,CARDL[('_in',ii)],(0,0),ease(k))
-    if os.environ.get('LYX'):
-        import ly1_extra as _X;out=_X.apply_top(out,t,C)
     sl,sa=B.sub_at(t)
-    if os.environ.get('DOC2'):
-        import doc2 as D2
-        return D2.compose(out,t,n,C,B,TOTAL,_quiet(t),chap[n],C.year_of(n))
-    if os.environ.get('DOCMODE'):
-        import doc_mascot as DM;DM.ACTIVE=False
-    if os.environ.get('DOCMODE') and not _quiet(t):
-        import doc_mascot as DM
-        out=DM.stage(out,t,C,n,chip_for(n),_logo(130,0.8),font,clamp,ease)
     if sl is not None: out=comp(out,sl,(0,0),ease(sa))
     if t<0.5: out=Image.blend(Image.new('RGBA',(W,H),(8,5,3,255)),out,ease(t/0.5))
     if t>TOTAL-1.0: out=Image.blend(out,Image.new('RGBA',(W,H),(8,5,3,255)),ease((t-(TOTAL-1.0))/1.0))
-    if os.environ.get('DOCMODE'):
-        import doc_mascot as DM;tg=(470,930) if DM.ACTIVE else None
-        out=DM.overlay(out,t,tg,T,D,TOTAL)
     return out.convert('RGB')
 def work(i): return frame(i/FPS).tobytes()
 if __name__=='__main__':

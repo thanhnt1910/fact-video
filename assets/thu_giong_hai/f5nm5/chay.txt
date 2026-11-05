@@ -1,4 +1,0 @@
-Gửi sang Kaggle
- 0.5 phút: .running
-11.7 phút: .complete
-Nhận 119 đoạn

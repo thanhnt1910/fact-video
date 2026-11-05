@@ -1,0 +1,26 @@
+$ python phim_ban_do/chuan_hoa_giong.py ly1 -> 0
+cao độ trung vị 163 Hz
+tốc độ trung vị 3.73 chữ/giây
+đoạn đã chỉnh tốc độ: 97 / 134
+âm lượng sau chuẩn hóa: -15.6 đến -15.2 LUFS
+tổng thời lượng giọng 12.05 phút
+
+$ python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/ly1_full.json assets/thu_giong_hai/ly1_chuan phim_ban_do/asr_ly1.json medium khong_goi_y -> 0
+0 134
+20 134
+40 134
+60 134
+80 134
+100 134
+120 134
+xong 134
+
+$ python phim_ban_do/kiem_ngoai.py ly1 -> 0
+134/134 câu sạch
+
+# Tự kiểm giọng ly1
+
+## Vòng 1: 0 đoạn nghi lỗi
+
+## Kết quả cuối
+Sạch.

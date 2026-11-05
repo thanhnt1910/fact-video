@@ -1,2 +1,0 @@
-const S=[['march',{side:'v',n:12,badge:{kind:'v',name:'Lý Thường Kiệt',sub:'Đại Việt'}}],['tl',{badge:1}],['xuong',{}],['bien',{}],['ai',{}],['camp',{}],['dam',{}],['voi',{}],['giao',{}],['nha',{}],['den',{}]];
-window.SPEC={dur:S.length*4,fade0:.1,fade1:.1,cam:[[0,106,21.2,0.2],[S.length*4,106,21.2,0.19]],items:S.map((x,i)=>Object.assign({k:'cc',scene:x[0],lon:106,lat:21.2,t0:i*4,ts:i*4,t1:i*4+4,fi:.01,fo:.01,tau0:5},x[1]))};

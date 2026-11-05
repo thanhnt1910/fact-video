@@ -252,3 +252,11 @@ Sử chép khô dễ làm video nhàm. Được phép sáng tạo ở CÁCH KỂ
 - Chỉ dùng nhãn [SỬ] khi đã đọc nguyên văn nguồn gốc và nêu được tên sách, quyển, hoặc đường dẫn. Không tìm được nguyên văn thì hạ nhãn xuống [CG]/[GT], hoặc bỏ chi tiết khỏi lời kể và ghi vào "Chi tiết đã bỏ"; không để nhãn [SỬ*] hay danh sách "phải kiểm" tồn tại trong bản gửi.
 - Bản gửi chủ kênh phải nêu rõ: bao nhiêu câu đã kiểm nguyên văn, bao nhiêu đã hạ nhãn hoặc bỏ, và câu nào còn tranh cãi. Không đẩy việc kiểm cho chủ kênh hay để sang bước đọc giọng.
 - Không gán nhãn "đã kiểm" cho điều chỉ nhớ từ trí nhớ hoặc từ một bài tổng hợp. Đối chiếu ít nhất hai nguồn độc lập cho số liệu và lời trích quan trọng.
+
+## Giọng đọc chốt: Orus, đọc từng câu, dừng khi hết khóa (chủ kênh chốt 05/11/2026, áp dụng mọi video từ nay)
+- **Giọng chốt là Gemini Orus** (giọng nam, thay Puck và Sadaltager). Chủ kênh chọn sau khi nghe thử Fenrir, Orus, Rasalgethi, Charon đọc 6 đoạn đầu video Chu Du; Orus gần giọng mẫu (cao độ khoảng 133 Hz so với mẫu 161 Hz) nhất cùng với Fenrir. Mô hình hiện dùng: `gemini-3.8-flash-tts`.
+- **Đọc từng câu: `cum.txt` = `1`**, cả video cùng một giọng, cùng một mô hình, không trộn cụm với đọc riêng (đo ở video Chu Du: cao độ lệch 105–145 Hz giữa các lượt gọi, nên sau khi đọc phải chuẩn hóa nhịp và âm lượng trên bản sao, xem mục Giọng đọc đồng đều).
+- **Khóa Gemini: GEMINI_API_KEY … GEMINI_API_KEY_19** (cộng GEMINI_API_KEYS). Workflow và `gemini_keys.py`, `thu_giong_hai_cum.py` phải đọc đủ đến `_19`; thêm khóa mới thì thêm tên secret vào workflow và nới `range`.
+- **Hết khóa thì DỪNG, không đợi:** nếu tất cả khóa cùng báo 429/hết lượt thì dừng lượt đọc (`GEMINI_MAX_429` đã nới lên 60 để thử đủ khóa trước khi dừng), báo chủ kênh số đoạn đã đọc và số còn thiếu, không chạy lại ngay; chạy lại khi hạn mức hồi. Không xóa giọng đã đọc tốt.
+- **Chạy thử giọng khi chưa có hạn mức:** mỗi giọng chỉ cần một lượt gọi cho cụm ngắn; truyền MỘT tên giọng cho mỗi lần chạy (không truyền nhiều tên cách nhau dấu phẩy, mã coi đó là một tên thư mục).
+- Dựng bản đồ vecmap (Chu Du) được dựng cục bộ ở phiên khác, không có workflow dựng; dựng lại cần máy có đủ ổ đĩa.

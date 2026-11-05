@@ -55,8 +55,11 @@ jobs:
           GEMINI_API_KEY_14: ${{ secrets.GEMINI_API_KEY_14 }}
           GEMINI_API_KEY_15: ${{ secrets.GEMINI_API_KEY_15 }}
           GEMINI_API_KEY_16: ${{ secrets.GEMINI_API_KEY_16 }}
+          GEMINI_API_KEY_17: ${{ secrets.GEMINI_API_KEY_17 }}
+          GEMINI_API_KEY_18: ${{ secrets.GEMINI_API_KEY_18 }}
+          GEMINI_API_KEY_19: ${{ secrets.GEMINI_API_KEY_19 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
-          GEMINI_MAX_429: "40"
+          GEMINI_MAX_429: "60"
         run: |
           set -o pipefail
           mkdir -p assets/thu_giong_hai

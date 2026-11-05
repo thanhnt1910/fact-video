@@ -18,10 +18,10 @@
 còn thiếu 6 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
    [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 9001-9006: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-05 01:32:16
-OK cụm 9001 - 9006 41.6 giây
+   [giọng] nhóm 9001-9006: model=gemini-3.8-flash-tts (interactions) voice=Rasalgethi style=c0565b4d/C dự_phòng=False lúc 2026-11-05 01:33:11
+OK cụm 9001 - 9006 42.8 giây
 [báo cáo giọng] 6/6 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
-   voice: Charon
+   voice: Rasalgethi
    style_id: c0565b4d

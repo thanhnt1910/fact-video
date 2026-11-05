@@ -16,23 +16,35 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            ke-hoach/thu-giong-hai
+            phim_ban_do
+          sparse-checkout-cone-mode: true
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - uses: ./.github/actions/cai-dat
         with:
           pip: "faster-whisper numpy"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-models-v1
       - name: Nhận dạng
         run: |
           read NAME MODEL OPT _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)
+          git sparse-checkout add assets/thu_giong_hai/${NAME}_chuan assets/thu_giong_hai/puck 2>/dev/null || true
           MODEL=${MODEL:-medium}
           VD=assets/thu_giong_hai/puck; [ -d assets/thu_giong_hai/${NAME}_chuan ] && VD=assets/thu_giong_hai/${NAME}_chuan
           python phim_ban_do/phude_asr.py ke-hoach/thu-giong-hai/${NAME}_full.json $VD phim_ban_do/asr_${NAME}.json $MODEL $OPT > phim_ban_do/asr_log.txt 2>&1 || echo "LỖI $?" >> phim_ban_do/asr_log.txt
       - name: Lưu kết quả
         run: |
           git config user.email noreply@anthropic.com; git config user.name Claude
-          git add phim_ban_do/asr_log.txt; git add phim_ban_do/asr_*.json || true
+          read NAME _ < <(head -1 ke-hoach/thu-giong-hai/asr.txt)
+          git add phim_ban_do/asr_log.txt phim_ban_do/asr_${NAME}.json phim_ban_do/asr_${NAME}.json.h.json 2>/dev/null || true
           git commit -q -m "Mốc từng chữ từ nhận dạng giọng" || exit 0
-          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
+          git push -q || { git pull -q --rebase && git push -q; }
       - uses: actions/upload-artifact@v4
         if: always()
         with:

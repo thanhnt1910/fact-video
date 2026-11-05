@@ -32,7 +32,7 @@ for x in d:
     if len(w) < 12: W(n, f'ngắn {len(w)} chữ (nên gộp với đoạn kề, trừ câu hỏi hoặc câu chốt)')
     if len(sents) > 2: B(n, f'{len(sents)} câu trong một đoạn (tối đa 2)')
     if len(re.findall(r',', t)) > 3: W(n, 'nhiều hơn 3 dấu phẩy, câu dễ bị đọc lệch')
-    if re.search(r'[()"“”—–…:;]|\.\.|\d', t): B(n, 'có ký tự dễ đọc sai (ngoặc, ngoặc kép, gạch, hai chấm, chấm phẩy, chấm lửng, chữ số); năm viết bằng chữ')
+    if re.search(r'[()"“”—–…:;]|\.\.|\d', t): W(n, 'có ký tự giọng đọc dễ đọc sai (ngoặc, ngoặc kép, gạch, hai chấm, chữ số): chỉ nhắc, không chặn (chủ kênh nới quy tắc 05/11/2026)')
     for p in TAT:
         m = re.search(p, t)
         if m: B(n, f'nói tắt "{m.group(0)}": viết đủ ("thuyền chiến của quân Nam Hán", "thủy triều lên", "quân Đại Việt"...)')
@@ -45,7 +45,7 @@ for x in d:
     for s in sents:
         m = re.match(r'^(Vậy là |Và |Nhưng |Rồi )?([^,]{3,40}), ([^,]{12,}), (đã|sẽ|vẫn|còn|không|bị|được|phải) ', s)
         if m: B(n, f'mệnh đề chen giữa chủ ngữ và vị ngữ: "{s[:60]}": tách thành hai câu')
-    for c in CO:
+    for c in []:   # đã tắt kiểm từ cổ (chủ kênh nới quy tắc 05/11/2026)
         if re.search(re.escape(c), t, re.I) and not GIAI.search(t): W(n, f'từ cổ "{c}" chưa giải thích ngay trong đoạn: đổi chữ dễ hiểu hoặc thêm "nghĩa là"')
     if not x.get('tone'): W(n, 'thiếu tone')
 print(f'{ten}: {len(d)} đoạn, {tot} chữ (~{tot / 3 / 60:.1f} phút ở 3 chữ/giây), trung bình {tot / len(d):.0f} chữ/đoạn')

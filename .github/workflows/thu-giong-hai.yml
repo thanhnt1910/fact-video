@@ -60,7 +60,9 @@ jobs:
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git add assets/thu_giong_hai logs_thu_giong.txt
+          # Chỉ thêm thư mục giọng vừa đọc (không quét cả assets/thu_giong_hai hàng trăm MB), đẩy thẳng; chỉ kéo về khi đẩy bị từ chối
+          VD=assets/thu_giong_hai/$(head -1 ke-hoach/thu-giong-hai/giong.txt 2>/dev/null | tr -d ' \r' | tr 'A-Z' 'a-z' | cut -d, -f1)
+          [ -d "$VD" ] || VD=assets/thu_giong_hai
+          git add "$VD" logs_thu_giong.txt
           git commit -q -m "Giọng đọc thử kịch bản hài" || exit 0
-          git pull --rebase -q || true
-          git push -q
+          git push -q || { git pull --rebase -q && git push -q; }

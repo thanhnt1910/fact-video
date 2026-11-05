@@ -24,7 +24,7 @@ total = t + 1.2
 inp, flt = [], []
 for i, (st, p) in enumerate(lst):
     inp += ['-i', str(p)]; flt.append(f'[{i}]adelay={int(st*1000)}:all=1[a{i}]')
-flt.append(''.join(f'[a{i}]' for i in range(len(lst))) + f'amix=inputs={len(lst)}:normalize=0:duration=longest[m]')
+flt.append(''.join(f'[a{i}]' for i in range(len(lst))) + f'amix=inputs={len(lst)}:normalize=0:duration=longest,apad=whole_dur={total:.2f}[m]')
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', *inp, '-filter_complex', ';'.join(flt), '-map', '[m]', '-t', f'{total:.2f}', '-ar', '44100', '-ac', '2', str(D / 'giong.wav')], check=True)
 N = int(total * FPS) if thu is None else int(thu * FPS)
 # khung hình

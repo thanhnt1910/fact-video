@@ -1,4 +1,27 @@
-goc: pitch +0Hz rate +0% -> F0 trung vị 145 Hz (p10 110, p90 203); mẫu nghe_C1: 113 Hz (p10 92, p90 167)
-t10: pitch -10Hz rate -5% -> F0 trung vị 137 Hz (p10 103, p90 190); mẫu nghe_C1: 113 Hz (p10 92, p90 167)
-t20: pitch -20Hz rate -5% -> F0 trung vị 128 Hz (p10 96, p90 178); mẫu nghe_C1: 113 Hz (p10 92, p90 167)
-t30: pitch -30Hz rate -8% -> F0 trung vị 118 Hz (p10 89, p90 163); mẫu nghe_C1: 113 Hz (p10 92, p90 167)
+   [khóa] GEMINI_API_KEY: …8www
+   [khóa] GEMINI_API_KEY_2: …fACw
+   [khóa] GEMINI_API_KEY_3: …Ag8A
+   [khóa] GEMINI_API_KEY_4: …mplw
+   [khóa] GEMINI_API_KEY_5: …Qp4A
+   [khóa] GEMINI_API_KEY_6: …pPaA
+   [khóa] GEMINI_API_KEY_7: …g7rQ
+   [khóa] GEMINI_API_KEY_8: …DmvQ
+   [khóa] GEMINI_API_KEY_9: …2eGQ
+   [khóa] GEMINI_API_KEY_10: …xfFA
+   [khóa] GEMINI_API_KEY_11: …XVkg
+   [khóa] GEMINI_API_KEY_12: …6oKQ
+   [khóa] GEMINI_API_KEY_13: …Qvug
+   [khóa] GEMINI_API_KEY_14: …S_3g
+   [khóa] GEMINI_API_KEY_15: …Snsg
+   [khóa] GEMINI_API_KEY_16: …Qvug
+   [khóa] GEMINI_API_KEYS: trống
+còn thiếu 6 câu
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
+   [giọng] nhóm 9001-9006: model=gemini-3.8-flash-tts (interactions) voice=Fenrir style=c0565b4d/C dự_phòng=False lúc 2026-11-05 01:31:09
+OK cụm 9001 - 9006 39.7 giây
+[báo cáo giọng] 6/6 đoạn có nhật ký tạo giọng
+   model: gemini-3.8-flash-tts
+   cach_goi: interactions
+   voice: Fenrir
+   style_id: c0565b4d

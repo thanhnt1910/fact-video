@@ -39,8 +39,8 @@ jobs:
         run: |
           mkdir -p out; cd /tmp/seed-vc
           D=$GITHUB_WORKSPACE/assets/thu_giong_hai/vc_test
-          for f in $D/in/*.mp3; do
-            b=$(basename $f .mp3)
+          for f in $D/in/*.wav; do
+            b=$(basename $f .wav)
             python inference.py --source $f --target $D/ref.wav --output /tmp/vcout/$b --diffusion-steps 30 --length-adjust 1.0 --inference-cfg-rate 0.7 --f0-condition False --fp16 False > /tmp/vc_$b.log 2>&1 || { echo "LỖI $b"; tail -25 /tmp/vc_$b.log; }
           done
           ls -R /tmp/vcout | head -40

@@ -24,17 +24,24 @@ Lý do có khung: bản demo 29 đoạn (chiếu 1407 đến trận Bô Cô) b�
 | Chính sách / sự kiện | Một chính sách chính. Tối đa 2 ví dụ cụ thể làm chứng |
 | Từ khó | Giải thích ngay trong câu, không dùng từ Hán Việt cổ nếu có từ dễ hiểu hơn |
 
-## 3. Bộ khung năm phần
+## 3. Bộ khung bốn phần (chủ kênh đề xuất 05/11/2026, thay bộ khung năm phần cũ)
 
-Thứ tự cố định. Cột "đoạn" là số đoạn gợi ý cho tập 12 đoạn.
+Thứ tự cố định. Cột "đoạn" là gợi ý cho tập khoảng 10 đoạn.
 
 | Phần | Việc phải làm | Đoạn |
 |---|---|---|
-| A. Mở | Bắt đầu từ đầu câu chuyện, ngắn, rõ: nhà Minh vừa làm xong gì, người dân đang ở đâu. Câu đầu tối đa 15 chữ, không ngày tháng, không tên lạ. Không dựng cảnh gây tò mò tách khỏi mạch. Câu hỏi của tập nêu ở đoạn 2 hoặc 3, sau khi chuyện đã bắt đầu | 2–3 |
-| B. Họ làm gì | Chính sách là gì, ra lệnh thế nào, ai thực hiện. Mỗi đoạn có nguyên nhân hoặc hệ quả, đoạn nào cũng dẫn sang đoạn kế | 3–4 |
-| C. Một việc cụ thể | Một ví dụ có người, có nơi, có chi tiết khiến người xem hình dung được (ví dụ cụ thể đã có nguồn, không bịa lời thoại, nội tâm) | 2–3 |
-| D. Dân ra sao | Hệ quả với dân thường: mất gì, phải làm gì, né bằng cách nào | 2 |
-| E. Kết | Một câu chốt ý chính, nói thẳng điều người xem cần nhớ. Kết bằng kết cục của chính chuyện. Không tóm tắt lại cả tập, không lời bàn của sử gia, không so với thời nay | 1 |
+| 1. Chính sách được ban hành | Người cầm quyền (nhà Minh, thái thú...) đã làm gì: ra lệnh gì, năm nào. Mở bằng "Bạn có biết..." (xem dưới) | 2–3 |
+| 2. Cách thực hiện | Phần quan trọng nhất. Chính sách chạy thế nào: ai làm, làm ra sao, từng bước. Có một ví dụ cụ thể, có người hoặc có đồ vật để hình dung. Mỗi đoạn có nguyên nhân hoặc hệ quả | 4–5 |
+| 3. Kết quả và ý nghĩa | Chính sách tác động đến bộ máy nhà nước và đời sống dân thế nào. Chỉ nói hệ quả có nguồn; phần "ý nghĩa" là một câu giải thích đơn giản của kênh, ghi rõ trong bảng duyệt, không bàn như sử gia | 1–2 |
+| 4. Kết thúc | Một câu kết luận ngắn và một câu hỏi để người xem bình luận. Không "tập sau" | 1 |
+
+### Mở đầu bằng "Bạn có biết..."
+Dùng được, với điều kiện:
+- Câu đó là chi tiết thật sẽ được kể trong chính video (ví dụ "Bạn có biết, có thời mang quá ba bát muối đi đường là trái lệnh?"), không phải cảnh lấy ra khỏi mạch. Câu đầu tối đa 15 chữ, không ngày tháng, không tên lạ.
+- Câu kế tiếp trở về đầu câu chuyện (năm nào, ai làm), rồi kể theo thứ tự.
+- Không lộ cái kết của chính sách trong câu mở.
+- Mỗi tập vẫn là một việc cụ thể và gây bất ngờ. Nếu chi tiết không đủ lạ thì mở bằng tình huống, không ép "Bạn có biết".
+- Lưu ý: nếu mọi video đều mở bằng đúng ba chữ này thì người theo dõi lâu sẽ thấy nhàm. Cho phép đổi cách nói ("Bạn có tin không", "Ít ai biết rằng") khi cần; theo dõi số liệu sau vài tập rồi chỉnh.
 
 Quy ước viết lời:
 - Kể như kể chuyện cho bạn nghe một lần là hiểu. Mỗi sự kiện có nguyên nhân và hệ quả, mỗi câu nối sang câu sau. Tránh liệt kê sự việc.
@@ -62,7 +69,7 @@ Phản hồi 05/11/2026: bản demo "khá đơn giản". Quy tắc dưới đây
   7. đồng hồ hoặc dòng thời gian, tối đa 4 mốc;
   8. chân dung vai trò (kiểu `face_sprite`, không vẽ mặt thật) kèm tên và chức, chỉ khi người ấy xuất hiện lần đầu.
 - **Lớp nền mỗi cảnh luôn có chi tiết** (đồi, nhà, cờ, sương, ánh sáng); bản đồ làm nền chung nhưng cảnh phụ che bản đồ ở nửa trên nên phải đẹp, không để trống.
-- **Màu và không khí theo từng phần của khung:** A trầm, ấm; B lạnh, gọn; C sáng rõ vào chi tiết; D ấm xám, nặng; E sáng dần.
+- **Màu và không khí theo từng phần của khung:** 1 trầm, ấm; 2 lạnh, gọn rồi sáng rõ ở ví dụ cụ thể; 3 ấm xám, nặng; 4 sáng dần.
 - **Chữ trên màn hình rất ít:** tối đa một lớp chữ lớn mỗi lúc; thẻ số tối đa 2 cái cả tập; không đặt thẻ chữ lên cảnh đang chuyển động chính.
 - **Bản đồ phải đúng chủ quyền** (không vẽ đường biên, nguồn tô màu chỉ minh họa). Bản đồ chỉ dùng khi việc gắn với địa điểm.
 - **Logo cây đèn của kênh** ở góc trên phải, đúng cỡ của video bản đồ. Phụ đề nằm cao hơn vùng dưới của Facebook Reels (tránh chồng tên kênh và tiêu đề).
@@ -72,8 +79,8 @@ Phản hồi 05/11/2026: bản demo "khá đơn giản". Quy tắc dưới đây
 
 1. Chủ kênh chọn tập (chính sách) từ dàn ý `ke-hoach/chinh-sach-cai-tri-series-dan-y.md`.
 2. Đọc nguyên văn nguồn (Toàn thư, hoặc sách khác với tập mùa Hán, Ngô, Đường); ghi số dòng. Mỗi tập chỉ dùng chi tiết đã đọc nguyên văn.
-3. Viết "ý chính một dòng", bảng bố cục năm phần và bảng cảnh phụ.
-4. Viết kịch bản theo khung. Tự kiểm: người chưa biết chuyện đọc một lần có hiểu không; có đủ A–E không; giới hạn mục 2.
+3. Viết "ý chính một dòng", bảng bố cục bốn phần và bảng cảnh phụ.
+4. Viết kịch bản theo khung. Tự kiểm: người chưa biết chuyện đọc một lần có hiểu không; có đủ bốn phần không; giới hạn mục 2.
 5. Chạy `python phim_ban_do/kiem_kich_ban.py <tên>` đến khi 0 lỗi.
 6. Gửi chủ kênh duyệt (gửi lại file sau mỗi lần sửa). Chưa duyệt thì chưa đọc giọng, vì sửa sau khi đọc tốn hạn mức Gemini.
 7. Giọng Gemini Orus, đọc từng câu (`cum=1`), cùng một mô hình cho cả tập; khóa hết hạn mức thì dừng và báo.
@@ -93,7 +100,7 @@ Tên mới: (tối đa 3) ...   Số liệu: (tối đa 2) ...   Địa danh: (t
 |---|---|---|---|---|
 | 1 | A | ... | ... | dòng ... |
 ...
-Kiểm: ý chính / A–E đủ / giới hạn / kiem_kich_ban 0 lỗi / số chữ, ước thời lượng
+Kiểm: ý chính / đủ bốn phần / giới hạn / kiem_kich_ban 0 lỗi / số chữ, ước thời lượng
 Chi tiết đã bỏ (để dành tập khác): ...
 ```
 
@@ -109,6 +116,7 @@ Chi tiết đã bỏ (để dành tập khác): ...
 
 | Tập | Ý chính một dòng | Nguồn đã đọc |
 |---|---|---|
+| Muối (đã viết thử, xem `chinh-sach-tap-muoi-kich-ban.md`) | Nhà Minh nắm muối từ bãi biển đến túi người đi đường | Toàn thư dòng 16794–16806 |
 | Lùng người tài | Nhà Minh bắt người giỏi về Kim Lăng rồi cho làm quan cho mình; ai không chịu thì phải ẩn đi | Toàn thư dòng 16222–16230, 16790–16810 |
 | Biến nước thành quận huyện | Chỉ qua một tờ chiếu, nước thành các dòng trong sổ: phủ, châu, huyện, hộ | Toàn thư dòng 16118–16122, 16174–16175 |
 | Muối và ruộng | Dân bị kiểm đến từng bát muối, từng mẫu ruộng | Toàn thư dòng 16795–16806 |

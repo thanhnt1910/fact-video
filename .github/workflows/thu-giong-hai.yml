@@ -10,18 +10,6 @@ on:
         description: "Giọng Gemini, cách nhau dấu phẩy"
         required: false
         default: "Puck,Sadaltager"
-      edge_tq9:
-        description: "1 = đọc thử 10 câu TQ9 bằng Edge TTS (NamMinh) ở vài mức cao độ"
-        required: false
-        default: ""
-      xuat_tq9:
-        description: "1 = xuất giọng Gemini TQ9 đã đọc xong trong bộ nhớ đệm"
-        required: false
-        default: ""
-      mau_tq9:
-        description: "Đọc thử từng câu TQ9, vd 1-10 (để trống = chạy như cũ)"
-        required: false
-        default: ""
       file:
         description: "File kịch bản json"
         required: false
@@ -36,22 +24,19 @@ jobs:
     timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
+        with:
+          # chỉ lấy phần cần cho việc đọc giọng (mã .py ở thư mục gốc, cấu hình, thư mục giọng); bỏ ảnh/clip hàng GB để checkout và đẩy nhanh
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            ke-hoach/thu-giong-hai
+            assets/thu_giong_hai/sadaltager
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Cài đặt
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          python -m pip install -q numpy pillow opencv-python-headless requests edge-tts
-      - name: Khôi phục giọng đã đọc
-        if: ${{ inputs.xuat_tq9 != '' }}
-        uses: actions/cache/restore@v4
+      - uses: ./.github/actions/cai-dat
         with:
-          path: |
-            assets/tts_cache
-            assets/ai_cache
-          key: fv-gen-xuat-${{ github.run_id }}
-          restore-keys: fv-gen-
+          pip: "numpy"
       - name: Đọc thử
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -66,15 +51,16 @@ jobs:
           GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
           GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
           GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
+          GEMINI_API_KEY_14: ${{ secrets.GEMINI_API_KEY_14 }}
+          GEMINI_API_KEY_15: ${{ secrets.GEMINI_API_KEY_15 }}
+          GEMINI_API_KEY_16: ${{ secrets.GEMINI_API_KEY_16 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: |
           set -o pipefail
           mkdir -p assets/thu_giong_hai
           export GEMINI_MAX_WAIT=$(cat ke-hoach/thu-giong-hai/max_wait.txt 2>/dev/null || echo 900)
-          if [ -n "${{ inputs.edge_tq9 }}" ]; then python -u edge_demo_tq9.py 2>&1 | tee logs_thu_giong.txt; exit $?; fi
-          if [ -n "${{ inputs.xuat_tq9 }}" ]; then ls assets/tts_cache 2>/dev/null | wc -l; python -u xuat_giong_tq9.py 2>&1 | tee logs_thu_giong.txt; exit $?; fi
-          if [ -n "${{ inputs.mau_tq9 }}" ]; then python -u doc_mau_tq9.py "${{ inputs.mau_tq9 }}" 2>&1 | tee logs_thu_giong.txt; exit $?; fi
-          timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai_cum.py "${{ inputs.file || 'ke-hoach/thu-giong-hai/tq45_hai.json' }}" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai 16 2>&1 | tee logs_thu_giong.txt
+          timeout $(cat ke-hoach/thu-giong-hai/gioi_han.txt 2>/dev/null || echo 9000) python -u thu_giong_hai_cum.py "$([ -n '${{ inputs.file }}' ] && echo '${{ inputs.file }}' || cat ke-hoach/thu-giong-hai/file.txt 2>/dev/null || echo ke-hoach/thu-giong-hai/hs1_full.json)" "${{ inputs.voices || 'Puck' }}" assets/thu_giong_hai $(cat ke-hoach/thu-giong-hai/cum.txt 2>/dev/null || echo 16) 2>&1 | tee logs_thu_giong.txt
       - name: Lưu vào repo
         if: always()
         run: |

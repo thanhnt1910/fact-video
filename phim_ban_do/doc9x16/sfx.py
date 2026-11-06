@@ -17,6 +17,12 @@ def bp(x, lo, hi): return lp(x, hi) - lp(x, lo)
 def noise(d): return rng.standard_normal(int(d * SR))
 def pop(f=520, d=.22, g=1.0):
     t = t_(d); return g * np.sin(2 * np.pi * (f + 90 * np.exp(-t * 30)) * t) * np.exp(-t * 16)
+def tit(f=1900, g=.7):
+    # hai tiếng bíp ngắn 'tít tít'
+    out = np.zeros(int(.2 * SR)); t = t_(.055)
+    for k, st in enumerate((0, .09)):
+        b = g * np.sin(2 * np.pi * f * t) * env(len(t), .004, .02); i = int(st * SR); out[i:i + len(b)] += b
+    return out
 def ping(f=760, d=.55, g=.8):
     t = t_(d); return g * (np.sin(2 * np.pi * f * t) + .35 * np.sin(2 * np.pi * f * 2.01 * t)) * np.exp(-t * 7)
 def chime(f=660, d=.9, g=.8):
@@ -49,6 +55,7 @@ def render(events, total):
         t, k = ev[0], ev[1]; p = ev[2] if len(ev) > 2 else {}
         g = p.get('g', 1.0)
         if k == 'pop': put(t, pop(p.get('f', 520), g=g))
+        elif k == 'tit': put(t, tit(p.get('f', 1900), g * .7))
         elif k == 'ping': put(t, ping(p.get('f', 760), g=g))
         elif k == 'chime': put(t, chime(p.get('f', 660), g=g))
         elif k == 'thud': put(t, thud(p.get('f', 70), g=g))

@@ -68,3 +68,16 @@ Trang dựng mới `phim_ban_do/doc9x16/trang_tuLieu.html` (cùng bộ chụp Ch
 ## Tiêu đề, hashtag đề xuất
 Tiêu đề: Vì sao tờ 1 đô la có một con mắt trên kim tự tháp?
 Hashtag: #NguoiGacSu #LichSuMy #TiengLongDaiAn #ToMotDola #BiAnBieuTuong
+
+## Ảnh đã tìm bằng `tim_anh.py` (07/11/2026, ứng viên ở `logs/anh_tim/DOLA1_S*.jpg`, `DOLA1.json` có URL và giấy phép)
+Giọng: **Puck** (`giong.txt` = Puck, tone `story`, `cum.txt` do chủ kênh chốt khi cho đọc). Chưa đọc.
+| Đoạn | Ô | Ảnh chọn (số trên lưới) | Ghi chú |
+|---|---|---|---|
+| 1 | S1 | #3 mặt sau tờ 1 đô la, con mắt, hai câu Latin | cũng dùng #6 (zoom con mắt) |
+| 2 | S2 | #1 hoặc #3 (hình khắc mặt sau Đại ấn, hàng 1/2) | tờ tiền #3 S1 làm nền |
+| 3 | S3 | #0 hoặc #2 (bản Tuyên ngôn Độc lập), hàng 2 #0 tranh ký Tuyên ngôn | |
+| 4 | S5 | #0 (con dấu Franklin: Moses, biển Đỏ) và #1 (bản phác du Simitière: con mắt, khiên) | trúng hai ý của đoạn 4 |
+| 6 | S6 | chưa có bản vẽ Barton; #0 (phác đại bàng) chỉ là minh họa chung | cần ảnh khác hoặc bỏ |
+| 7–8 | S2/S1 | S2 hàng 1 #0, #1 (chữ Latin, MDCCLXXVI) | |
+| 11 | S8 | #2, #3 (tờ 1 đô la bạc 1935, mặt trước và sau) | |
+Chưa tìm chân dung (Adams, Franklin, Jefferson, Wallace, Roosevelt): chủ kênh gửi, hoặc bảo tôi tìm ô riêng.

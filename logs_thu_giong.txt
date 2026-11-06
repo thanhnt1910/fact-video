@@ -15,12 +15,30 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 1 câu
+còn thiếu 9 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
    [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 45015-45015: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 13:06:35
-OK cụm 45015 - 45015 6.4 giây
-[báo cáo giọng] 1/1 đoạn có nhật ký tạo giọng
+   [giọng] nhóm 47001-47001: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:25
+OK cụm 47001 - 47001 4.2 giây
+   [giọng] nhóm 47002-47002: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:29
+OK cụm 47002 - 47002 6.4 giây
+   [giọng] nhóm 47003-47003: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:33
+OK cụm 47003 - 47003 6.9 giây
+   [giọng] nhóm 47004-47004: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:37
+OK cụm 47004 - 47004 5.1 giây
+   [giọng] nhóm 47005-47005: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:40
+OK cụm 47005 - 47005 4.6 giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 19s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 47006-47006: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:44
+OK cụm 47006 - 47006 6.6 giây
+   [giọng] nhóm 47007-47007: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:48
+OK cụm 47007 - 47007 6.6 giây
+   [giọng] nhóm 47008-47008: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:53
+OK cụm 47008 - 47008 6.1 giây
+   [giọng] nhóm 47009-47009: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 14:04:55
+OK cụm 47009 - 47009 2.8 giây
+[báo cáo giọng] 9/9 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
    voice: Orus

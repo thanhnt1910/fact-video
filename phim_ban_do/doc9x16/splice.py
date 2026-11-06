@@ -4,6 +4,7 @@ s=open(f'{D}/trang.html',encoding='utf-8').read()
 i=s.index('// S1: chín quận');j=s.index('const bw=(960')
 sc=open(f'{D}/scenes_tap2.js',encoding='utf-8').read()
 s=s[:i]+sc+s[j:]
+s=s.replace(r"txt.match(/[^,.;?]+[,.;?]?/g)",r"txt.match(/(?:[^,.;?]|(?<=\d)\.(?=\d))+[,.;?]?/g)")  # lookbehind: giữ số 2.000
 s=s.replace('43000+n','44000+n').replace('· #01','· #02')
 # sfx
 a=s.index('const SFXQ=[];');b=s.index('window.SFX=SFXQ')

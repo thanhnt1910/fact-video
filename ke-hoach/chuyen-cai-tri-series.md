@@ -6,7 +6,7 @@ Thứ tự theo Đại Việt sử ký toàn thư (Ngoại kỷ, kỷ thuộc nh
 |---|---|---|---|
 | 1 | Chín quận: nhà Hán đặt quan, Đặng Nhượng quy phục, Tích Quang | 110 TCN – 29 | "Ở Cửu Chân còn có Thái thú Nhâm Diên. Vì sao dân đặt tên con theo họ ông?" |
 | 2 | Nhâm Diên dạy dân cày cấy, lo cưới hỏi, được lập đền (kịch bản: `cai-tri-tap-2-kich-ban.md`, `han2v4_full.json`, chờ duyệt) | Toàn thư mục năm 29 (chưa rõ năm nhậm chức) | "Năm 39, Thái thú Giao Chỉ Tô Định tham lam tàn bạo. Dân đáp lại thế nào?" |
-| 3 | Tô Định và cuộc nổi dậy của Trưng Vương | 39 – 40 | (viết sau) Nhà Hán phản ứng ra sao |
+| 3 | Tô Định và cuộc nổi dậy của Trưng Vương (kịch bản: `cai-tri-tap-3-kich-ban.md`, `han3v1_full.json`, chờ duyệt) | 39 – 41 | Nhà Hán sắp xe thuyền, cử Mã Viện đem quân sang. Hai chị em đối mặt thế nào? |
 | 4 | Mã Viện sang đánh | 41 – 43 | (viết sau) |
 | ... | các tập giữa: đọc tiếp Toàn thư (Hạ Phương 160, Chu Ngung 178) | | |
 | N | Giả Tông (năm 183): quan vơ vét, thuế nặng, kinh đô xa, quan tốt đến, câu ca "Cha họ Giả" | 183 | bản nháp: `ke-hoach/thu-giong-hai/han1v2_full.json` (đổi số đoạn khi xếp tập) |

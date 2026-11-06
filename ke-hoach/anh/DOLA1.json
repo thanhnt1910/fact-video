@@ -1,0 +1,85 @@
+{
+ "id": "DOLA1",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1-2",
+   "mo_ta": "Mặt sau tờ 1 đô la, kim tự tháp và con mắt",
+   "queries": [
+    "reverse one dollar bill great seal",
+    "one dollar bill back pyramid eye"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "2",
+   "mo_ta": "Mặt sau Đại ấn nước Mỹ (reverse of the Great Seal)",
+   "queries": [
+    "Great Seal of the United States reverse",
+    "Great Seal reverse pyramid Eye of Providence"
+   ],
+   "subject": "seal"
+  },
+  {
+   "slot": "S3",
+   "beats": "3",
+   "mo_ta": "Tuyên ngôn Độc lập 1776, bản gốc",
+   "queries": [
+    "Declaration of Independence 1776 engrossed copy",
+    "Declaration of Independence manuscript"
+   ],
+   "subject": "declaration"
+  },
+  {
+   "slot": "S4",
+   "beats": "4",
+   "mo_ta": "Moses giơ tay trên biển Đỏ, hình khắc",
+   "queries": [
+    "Moses parting the Red Sea engraving",
+    "Pharaoh army drowned Red Sea engraving"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "4",
+   "mo_ta": "Bản phác con mắt Đấng Quan Phòng, du Simitière 1776",
+   "queries": [
+    "Du Simitière Great Seal design 1776",
+    "first committee Great Seal design Eye of Providence"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "6",
+   "mo_ta": "Bản vẽ Barton, kim tự tháp Đại ấn 1782",
+   "queries": [
+    "William Barton Great Seal design",
+    "Great Seal 1782 design pyramid drawing"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "7",
+   "mo_ta": "Con mắt Đấng Quan Phòng trong tam giác tỏa sáng",
+   "queries": [
+    "Eye of Providence",
+    "Eye of Providence triangle rays"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S8",
+   "beats": "11",
+   "mo_ta": "Tờ 1 đô la bạc series 1935",
+   "queries": [
+    "Silver certificate 1935 one dollar",
+    "1935 one dollar silver certificate reverse"
+   ],
+   "subject": ""
+  }
+ ]
+}

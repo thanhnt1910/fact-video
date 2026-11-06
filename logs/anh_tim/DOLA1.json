@@ -1,0 +1,538 @@
+[
+ {
+  "slot": "S1",
+  "beats": "1-2",
+  "mo_ta": "Mặt sau tờ 1 đô la, kim tự tháp và con mắt",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/United_States_one_dollar_bill%2C_reverse.jpg/1920px-United_States_one_dollar_bill%2C_reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7531,
+    "h": 3347,
+    "credit": "\"United States one dollar bill, reverse.jpg\" – United States Government, Public domain (https://commons.wikimedia.org/wiki/File:United_States_one_dollar_bill,_reverse.jpg)",
+    "text": "File:United States one dollar bill, reverse.jpg Reverse of United States one dollar bill, Series 2003."
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/1928_Dollar_Bill_Reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1854,
+    "h": 785,
+    "credit": "\"1928 Dollar Bill Reverse.jpg\" – U.S. Government., Public domain (https://commons.wikimedia.org/wiki/File:1928_Dollar_Bill_Reverse.jpg)",
+    "text": "File:1928 Dollar Bill Reverse.jpg Back side of a 1928 U.S. one-dollar bill."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2007_US_%241_Bill_Reverse.jpg/1920px-2007_US_%241_Bill_Reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2253,
+    "h": 953,
+    "credit": "\"2007 US $1 Bill Reverse.jpg\" – U.S. Government, Public domain (https://commons.wikimedia.org/wiki/File:2007_US_$1_Bill_Reverse.jpg)",
+    "text": "File:2007 US $1 Bill Reverse.jpg Back side of a 2007 U.S. one-dollar bill."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Dollarnote_siegel_hq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 720,
+    "h": 726,
+    "credit": "\"Dollarnote siegel hq.jpg\" – de:Benutzer:Verwüstung, Public domain (https://commons.wikimedia.org/wiki/File:Dollarnote_siegel_hq.jpg)",
+    "text": "File:Dollarnote siegel hq.jpg Pyramid with the all-seeing eye on the back side of the US 1-Dollar bill"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/1-dollar-us-DSC_0210.jpg/1920px-1-dollar-us-DSC_0210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3008,
+    "h": 2000,
+    "credit": "\"1-dollar-us-DSC 0210.jpg\" – Wouter Engler, Public domain (https://commons.wikimedia.org/wiki/File:1-dollar-us-DSC_0210.jpg)",
+    "text": "File:1-dollar-us-DSC 0210.jpg The reverse of a U.S. dollar bill, balanced on edge and photographed against a gray background"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/USTwoDollarBillBack.jpg/1920px-USTwoDollarBillBack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3715,
+    "h": 1575,
+    "credit": "\"USTwoDollarBillBack.jpg\" – U.S. Government, Public domain (https://commons.wikimedia.org/wiki/File:USTwoDollarBillBack.jpg)",
+    "text": "File:USTwoDollarBillBack.jpg Reverse of a U.S. two-dollar bill.  The design is a version of the painting Declaration of Independence by John Trumbull, depicting a scene where the Committee of Five are"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/All_seeing_eye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1024,
+    "h": 768,
+    "credit": "\"All seeing eye.jpg\" – Bureau of Engraving and Printing (work for hire), Public domain (https://commons.wikimedia.org/wiki/File:All_seeing_eye.jpg)",
+    "text": "File:All seeing eye.jpg Eye of Providence on reverse side of the Great Seal of the United States, as seen on U.S. dollar bill."
+   }
+  ]
+ },
+ {
+  "slot": "S2",
+  "beats": "2",
+  "mo_ta": "Mặt sau Đại ấn nước Mỹ (reverse of the Great Seal)",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Great_Seal_of_the_United_States_%28reverse_monochrome%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1437,
+    "h": 1441,
+    "credit": "\"Great Seal of the United States (reverse monochrome).png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(reverse_monochrome).png)",
+    "text": "File:Great Seal of the United States (reverse monochrome).png simple PNG translation of File:Eye.jpg to add transparency for layouts"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/AmCyc_United_States_of_America_-_great_seal_%28reverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 713,
+    "h": 720,
+    "credit": "\"AmCyc United States of America - great seal (reverse).jpg\" – United States of America, Public domain (https://commons.wikimedia.org/wiki/File:AmCyc_United_States_of_America_-_great_seal_(reverse).jpg)",
+    "text": "File:AmCyc United States of America - great seal (reverse).jpg Drawing of the reverse of the Great Seal of the United States (1841 version)."
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/The_reverse_of_the_great_seal_of_the_United_States_-_JT_sculp._LCCN2004676788.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 867,
+    "h": 1536,
+    "credit": "\"The reverse of the great seal of the United States - JT sculp. LCCN2004676788.jpg\" – Trenchard, James, 1747-, engraver, Public domain (https://commons.wikimedia.org/wiki/File:The_reverse_of_the_great_seal_of_the_United_States_-_JT_sculp._LCCN2004676788.jpg)",
+    "text": "File:The reverse of the great seal of the United States - JT sculp. LCCN2004676788.jpg Title: The reverse of the great seal of the United States / JT sculp.\nAbstract/medium: 1 print : etching."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Great_Seal_of_New_South_Wales%2C_reverse_%281828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1000,
+    "h": 1293,
+    "credit": "\"Great Seal of New South Wales, reverse (1828).jpg\" – NSW Government, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_of_New_South_Wales,_reverse_(1828).jpg)",
+    "text": "File:Great Seal of New South Wales, reverse (1828).jpg The reserve side of the Great Seal of New South Wales"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Great_Seal_of_William_II_of_England_%28reverse%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1236,
+    "h": 1262,
+    "credit": "\"The Great Seal of William II of England (reverse).png\" – Alfred Benjamin Wyon (1837-1884)\n\nAllan Wyon (1843-1907), Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Seal_of_William_II_of_England_(reverse).png)",
+    "text": "File:The Great Seal of William II of England (reverse).png The Great Seal of William II of England (reverse)"
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/The_Great_Seal_of_William_II_of_England_%28reverse_side%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1242,
+    "h": 1290,
+    "credit": "\"The Great Seal of William II of England (reverse side).png\" – Alfred Benjamin Wyon (1837-1884)\n\nAllan Wyon (1843-1907), Public domain (https://commons.wikimedia.org/wiki/File:The_Great_Seal_of_William_II_of_England_(reverse_side).png)",
+    "text": "File:The Great Seal of William II of England (reverse side).png The Great Seal of William II of England (reverse side).png"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Seal_of_West_Virginia_%28reverse%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 789,
+    "h": 793,
+    "credit": "\"Seal of West Virginia (reverse).png\" – Joseph H. Diss Debar, Public domain (https://commons.wikimedia.org/wiki/File:Seal_of_West_Virginia_(reverse).png)",
+    "text": "File:Seal of West Virginia (reverse).png Reverse of the Great Seal of West Virginia. A form of this seal is also the Official Seal of the Governor of West Virginia."
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/1882_US_Great_Seal_Centennial_Medal_Reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 747,
+    "h": 744,
+    "credit": "\"1882 US Great Seal Centennial Medal Reverse.jpg\" – U.S. Government.\n\nMedal made by Charles E. Barber (Chief Engraver of the U.S. Mint), copying a 1786 engraving by James Trenchard., Public domain (https://commons.wikimedia.org/wiki/File:1882_US_Great_Seal_Centennial_Medal_Reverse.jpg)",
+    "text": "File:1882 US Great Seal Centennial Medal Reverse.jpg Back side of the 1882 US Great Seal Centennial Medal."
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Trenchard_1786_Great_Seal_Reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 867,
+    "h": 1536,
+    "credit": "\"Trenchard 1786 Great Seal Reverse.jpg\" – James Trenchard, Public domain (https://commons.wikimedia.org/wiki/File:Trenchard_1786_Great_Seal_Reverse.jpg)",
+    "text": "File:Trenchard 1786 Great Seal Reverse.jpg One of the first versions of the reverse of the Great Seal of the United States, also the U.S. coat of arms, engraved for the September or October 1786 Colum"
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Second_Great_Seal_of_the_US_BAH-p257.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1833,
+    "h": 1828,
+    "credit": "\"Second Great Seal of the US BAH-p257.png\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Second_Great_Seal_of_the_US_BAH-p257.png)",
+    "text": "File:Second Great Seal of the US BAH-p257.png Second Great Seal of the United States.\n\nThe second great seal, adopted at the same time, was never used. It was intended for stamping the wax on a ribbon"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/1982_Washington_and_Great_Seal_Medal_Reverse.jpg/1920px-1982_Washington_and_Great_Seal_Medal_Reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5340,
+    "h": 5323,
+    "credit": "\"1982 Washington and Great Seal Medal Reverse.jpg\" – U.S. Capitol Historical Society.  The medal was sculpted by Elisabeth Gordon Chandler., Public domain (https://commons.wikimedia.org/wiki/File:1982_Washington_and_Great_Seal_Medal_Reverse.jpg)",
+    "text": "File:1982 Washington and Great Seal Medal Reverse.jpg Plaster mold for the reverse (back) of a 1982 commemorative medal from the U.S. Capitol Historical Society, which celebrated the 250th anniversary"
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/US-GreatSeal-Reverse-Lossing1856.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1038,
+    "h": 1035,
+    "credit": "\"US-GreatSeal-Reverse-Lossing1856.jpg\" – Benson John Lossing, Public domain (https://commons.wikimedia.org/wiki/File:US-GreatSeal-Reverse-Lossing1856.jpg)",
+    "text": "File:US-GreatSeal-Reverse-Lossing1856.jpg Apparently original version of the reverse of the Great Seal of the United States, drawn by Benson J. Lossing for an 1856 Harper's Magazine article.  This ver"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Cropped_U.S._Great_Seal%2C_from_the_Theodore_Roosevelt_White_House%2C_1901-1909.png/1920px-Cropped_U.S._Great_Seal%2C_from_the_Theodore_Roosevelt_White_House%2C_1901-1909.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2501,
+    "h": 2501,
+    "credit": "\"Cropped U.S. Great Seal, from the Theodore Roosevelt White House, 1901-1909.png\" – U.S. Government, Public domain (https://commons.wikimedia.org/wiki/File:Cropped_U.S._Great_Seal,_from_the_Theodore_Roosevelt_White_House,_1901-1909.png)",
+    "text": "File:Cropped U.S. Great Seal, from the Theodore Roosevelt White House, 1901-1909.png Theodore Roosevelt White House, Fabric U.S. Great Seal. \"U.S Great Seal fabric/rug fragment from White House West W"
+   }
+  ]
+ },
+ {
+  "slot": "S3",
+  "beats": "3",
+  "mo_ta": "Tuyên ngôn Độc lập 1776, bản gốc",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/US_Declaration_of_Independence_5000w.jpg/1920px-US_Declaration_of_Independence_5000w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5000,
+    "h": 6124,
+    "credit": "\"US Declaration of Independence 5000w.jpg\" – Original by Thomas Jefferson et al.; Engraving & fascimile by William J. Stone (1798-1865), Public domain (https://commons.wikimedia.org/wiki/File:US_Declaration_of_Independence_5000w.jpg)",
+    "text": "File:US Declaration of Independence 5000w.jpg United States Declaration of Independence.  Fascimile on velum, one of 201 produced in 1823 by William J. Stone from a copper plate engraving of the origi"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Declaration_of_independence_chichester.jpg/1920px-Declaration_of_independence_chichester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 9312,
+    "h": 7336,
+    "credit": "\"Declaration of independence chichester.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Declaration_of_independence_chichester.jpg)",
+    "text": "File:Declaration of independence chichester.jpg A parchment manuscript of the Declaration of Independence, believed to date from the 1780s and held in the West Sussex Record Office in England. West Su"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/US_Declaration_of_Independence_us0036_03.jpg/1920px-US_Declaration_of_Independence_us0036_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7593,
+    "h": 9353,
+    "credit": "\"US Declaration of Independence us0036 03.jpg\" – Original by Thomas Jefferson et al.; Engraving & facsimile by William J. Stone (1798-1865)., Public domain (https://commons.wikimedia.org/wiki/File:US_Declaration_of_Independence_us0036_03.jpg)",
+    "text": "File:US Declaration of Independence us0036 03.jpg United States Declaration of Independence.  Facsimile on velum, one of 201 produced in 1823 by William J. Stone from a copper plate engraving of the o"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_-_The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg1.jpg/1920px-He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_-_The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5904,
+    "h": 8362,
+    "credit": "\"He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni - The Declaration of Independence of the United Tribes of New Zealand pg1.jpg\" – Archives New Zealand, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:He_Wakaputanga_(Whakaputanga)_o_te_Rangatiratanga_o_Nu_Tireni_-_The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg1.jpg)",
+    "text": "File:He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni - The Declaration of Independence of the United Tribes of New Zealand pg1.jpg He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu "
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_%28The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg2.jpg/1920px-He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_%28The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5904,
+    "h": 8460,
+    "credit": "\"He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni (The Declaration of Independence of the United Tribes of New Zealand pg2.jpg\" – Archives New Zealand, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:He_Wakaputanga_(Whakaputanga)_o_te_Rangatiratanga_o_Nu_Tireni_(The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg2.jpg)",
+    "text": "File:He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni (The Declaration of Independence of the United Tribes of New Zealand pg2.jpg He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu T"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_%28The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg4.jpg/1920px-He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_%28The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5952,
+    "h": 8544,
+    "credit": "\"He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni (The Declaration of Independence of the United Tribes of New Zealand pg4.jpg\" – Archives New Zealand, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:He_Wakaputanga_(Whakaputanga)_o_te_Rangatiratanga_o_Nu_Tireni_(The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg4.jpg)",
+    "text": "File:He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni (The Declaration of Independence of the United Tribes of New Zealand pg4.jpg He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu T"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_%28The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg3.jpg/1920px-He_Wakaputanga_%28Whakaputanga%29_o_te_Rangatiratanga_o_Nu_Tireni_%28The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5952,
+    "h": 8544,
+    "credit": "\"He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni (The Declaration of Independence of the United Tribes of New Zealand pg3.jpg\" – Archives New Zealand, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:He_Wakaputanga_(Whakaputanga)_o_te_Rangatiratanga_o_Nu_Tireni_(The_Declaration_of_Independence_of_the_United_Tribes_of_New_Zealand_pg3.jpg)",
+    "text": "File:He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu Tireni (The Declaration of Independence of the United Tribes of New Zealand pg3.jpg He Wakaputanga (Whakaputanga) o te Rangatiratanga o Nu T"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Signers_of_the_Declaration_of_Independence_%28NYPL_b13075520-423058%29.jpg/1920px-Signers_of_the_Declaration_of_Independence_%28NYPL_b13075520-423058%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2200,
+    "h": 3187,
+    "credit": "\"Signers of the Declaration of Independence (NYPL b13075520-423058).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Signers_of_the_Declaration_of_Independence_(NYPL_b13075520-423058).jpg)",
+    "text": "File:Signers of the Declaration of Independence (NYPL b13075520-423058).jpg * Title from Calendar of the Emmet Collection.\nEM8870"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/The_Declaration_of_Independence_%28NYPL_Hades-287650-EM4144%29.jpg/1920px-The_Declaration_of_Independence_%28NYPL_Hades-287650-EM4144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4061,
+    "h": 3152,
+    "credit": "\"The Declaration of Independence (NYPL Hades-287650-EM4144).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:The_Declaration_of_Independence_(NYPL_Hades-287650-EM4144).jpg)",
+    "text": "File:The Declaration of Independence (NYPL Hades-287650-EM4144).jpg * EM4144"
+   }
+  ]
+ },
+ {
+  "slot": "S4",
+  "beats": "4",
+  "mo_ta": "Moses giơ tay trên biển Đỏ, hình khắc",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Conservatives_as_the_Egyptians_following_the_Hebrews_Wellcome_V0050368.jpg/1920px-The_Conservatives_as_the_Egyptians_following_the_Hebrews_Wellcome_V0050368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3432,
+    "h": 2304,
+    "credit": "\"The Conservatives as the Egyptians following the Hebrews Wellcome V0050368.jpg\" – không rõ, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:The_Conservatives_as_the_Egyptians_following_the_Hebrews_Wellcome_V0050368.jpg)",
+    "text": "File:The Conservatives as the Egyptians following the Hebrews Wellcome V0050368.jpg Moses parting the Red Sea: British politicians depicted drowning in the sea. Lithograph by Tom Merry, 5 December 188"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Vernietiging_van_het_Egyptische_leger_in_de_Rode_Zee_Vlucht_uit_Egypte_%28serietitel%29%2C_RP-P-1964-645.jpg/1920px-Vernietiging_van_het_Egyptische_leger_in_de_Rode_Zee_Vlucht_uit_Egypte_%28serietitel%29%2C_RP-P-1964-645.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5536,
+    "h": 4228,
+    "credit": "\"Vernietiging van het Egyptische leger in de Rode Zee Vlucht uit Egypte (serietitel), RP-P-1964-645.jpg\" – Rijksmuseum, CC0 (https://commons.wikimedia.org/wiki/File:Vernietiging_van_het_Egyptische_leger_in_de_Rode_Zee_Vlucht_uit_Egypte_(serietitel),_RP-P-1964-645.jpg)",
+    "text": "File:Vernietiging van het Egyptische leger in de Rode Zee Vlucht uit Egypte (serietitel), RP-P-1964-645.jpg IdentificatieTitel(s): Vernietiging van het Egyptische leger in de Rode Zee. Vlucht uit Egyp"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Vernietiging_van_het_Egyptische_leger_in_de_Rode_Zee_Van_Moyses_en_Pharao_%28serietitel%29_Geschiedenis_van_Mozes_voor_de_Exodus_%28serietitel%29_Den_Grooten_Figuer-Bibel_%28..%29_%28serietitel%29%2C_RP-P-1982-306-88.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4482,
+    "h": 3456,
+    "credit": "\"Vernietiging van het Egyptische leger in de Rode Zee Van Moyses en Pharao (serietitel) Geschiedenis van Mozes voor de Exodus (serietitel) Den Grooten Figuer-Bibel (..) (serietitel), RP-P-1982-306-88.jpg\" – Rijksmuseum, CC0 (https://commons.wikimedia.org/wiki/File:Vernietiging_van_het_Egyptische_leger_in_de_Rode_Zee_Van_Moyses_en_Pharao_(serietitel)_Geschiedenis_van_Mozes_voor_de_Exodus_(serietitel)_Den_Grooten_Figuer-Bibel_(..)_(serietitel),_RP-P-1982-306-88.jpg)",
+    "text": "File:Vernietiging van het Egyptische leger in de Rode Zee Van Moyses en Pharao (serietitel) Geschiedenis van Mozes voor de Exodus (serietitel) Den Grooten Figuer-Bibel (..) (serietitel), RP-P-1982-306"
+   }
+  ]
+ },
+ {
+  "slot": "S5",
+  "beats": "4",
+  "mo_ta": "Bản phác con mắt Đấng Quan Phòng, du Simitière 1776",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/FirstCommitteeGreatSealReverseLossingDrawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1480,
+    "h": 1480,
+    "credit": "\"FirstCommitteeGreatSealReverseLossingDrawing.jpg\" – Benson John Lossing, Public domain (https://commons.wikimedia.org/wiki/File:FirstCommitteeGreatSealReverseLossingDrawing.jpg)",
+    "text": "File:FirstCommitteeGreatSealReverseLossingDrawing.jpg Interpretation of the first committee's design for the reverse of the Great Seal of the United States in 1776, which was never used.  This was Ben"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Great_Seal_du_Simitiere_proposal_sketch.jpg/1920px-Great_Seal_du_Simitiere_proposal_sketch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2273,
+    "h": 1849,
+    "credit": "\"Great Seal du Simitiere proposal sketch.jpg\" – Pierre Eugène du Simitière, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_du_Simitiere_proposal_sketch.jpg)",
+    "text": "File:Great Seal du Simitiere proposal sketch.jpg Pierre Eugene du Simitiere's tracing of his sketch proposal for the Great Seal of the United States during the first committee's proceedings in 1776. T"
+   }
+  ]
+ },
+ {
+  "slot": "S6",
+  "beats": "6",
+  "mo_ta": "Bản vẽ Barton, kim tự tháp Đại ấn 1782",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/US_Great_Seal_Charles_Thomson_Preliminary_Design.jpg/1920px-US_Great_Seal_Charles_Thomson_Preliminary_Design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2156,
+    "h": 2170,
+    "credit": "\"US Great Seal Charles Thomson Preliminary Design.jpg\" – en:Charles Thomson (1729 – 1824), Public domain (https://commons.wikimedia.org/wiki/File:US_Great_Seal_Charles_Thomson_Preliminary_Design.jpg)",
+    "text": "File:US Great Seal Charles Thomson Preliminary Design.jpg Preliminary version of the Great Seal of the United States by Charles Thomson, the Secretary of Congress.  Three separate committees had tried"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/BartonGreatSealDesignObverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1674,
+    "h": 1459,
+    "credit": "\"BartonGreatSealDesignObverse.jpg\" – William Barton, Public domain (https://commons.wikimedia.org/wiki/File:BartonGreatSealDesignObverse.jpg)",
+    "text": "File:BartonGreatSealDesignObverse.jpg The obverse side of William Barton's design for the Great Seal of the United States, done as part of the third committee's attempt for a design.  This was not use"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Great_Seal_of_US%2C_Recto_Design%2C_1782.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 757,
+    "h": 714,
+    "credit": "\"Great Seal of US, Recto Design, 1782.png\" – William Barton, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_of_US,_Recto_Design,_1782.png)",
+    "text": "File:Great Seal of US, Recto Design, 1782.png Design for the Recto of the Great Seal of the United States, 1782.  From the National Archives.  PD-USGov"
+   }
+  ]
+ },
+ {
+  "slot": "S7",
+  "beats": "7",
+  "mo_ta": "Con mắt Đấng Quan Phòng trong tam giác tỏa sáng",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Eye_of_Providence.jpg/1920px-The_Eye_of_Providence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2880,
+    "h": 2980,
+    "credit": "\"The Eye of Providence.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:The_Eye_of_Providence.jpg)",
+    "text": "File:The Eye of Providence.jpg The Eye of Providence"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Dollarnote_siegel_hq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 720,
+    "h": 726,
+    "credit": "\"Dollarnote siegel hq.jpg\" – de:Benutzer:Verwüstung, Public domain (https://commons.wikimedia.org/wiki/File:Dollarnote_siegel_hq.jpg)",
+    "text": "File:Dollarnote siegel hq.jpg Pyramid with the all-seeing eye on the back side of the US 1-Dollar bill"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eye_of_Providence_%28icon%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1779,
+    "credit": "\"Eye of Providence (icon).jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Eye_of_Providence_(icon).jpg)",
+    "text": "File:Eye of Providence (icon).jpg Eye of Providence (icon)"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Illuminati_triangle_eye.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1222,
+    "h": 1272,
+    "credit": "\"Illuminati triangle eye.png\" – US Government, Public domain (https://commons.wikimedia.org/wiki/File:Illuminati_triangle_eye.png)",
+    "text": "File:Illuminati triangle eye.png The Illuminati all-seeing eye triangle from the U.S. dollar. Transparent background, hi-resolution (>1000x1000px). There are a lot of low-res/super-compressed copies o"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/SAKURAKO_-_Eye_of_Providence%21_%2814563150498%29.jpg/1920px-SAKURAKO_-_Eye_of_Providence%21_%2814563150498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3872,
+    "h": 2592,
+    "credit": "\"SAKURAKO - Eye of Providence! (14563150498).jpg\" – MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:SAKURAKO_-_Eye_of_Providence!_(14563150498).jpg)",
+    "text": "File:SAKURAKO - Eye of Providence! (14563150498).jpg My daughter.\nプロビデンスの目。\n\n（櫻子、5歳9ヶ月）"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/B%27nai_B%27rith_membership_certificate_1876.jpg/1920px-B%27nai_B%27rith_membership_certificate_1876.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2450,
+    "h": 3081,
+    "credit": "\"B'nai B'rith membership certificate 1876.jpg\" – Louis Kurz (1833-1921), for the American Oleograph Company, Public domain (https://commons.wikimedia.org/wiki/File:B%27nai_B%27rith_membership_certificate_1876.jpg)",
+    "text": "File:B'nai B'rith membership certificate 1876.jpg Blank membership certificate for the \"Independent Order of B'nai B'rith\".\nBeneath a banner labelled \"Benevolence, Brotherly Love, and Harmony\", a blan"
+   },
+   {
+    "so": 6,
+    "url": "https://live.staticflickr.com/65535/52510369567_b8d6134b87_b.jpg",
+    "w": 1024,
+    "h": 771,
+    "credit": "\"The Eye of Providence near 16th & Valencia Streets\" – https://linktr.ee/carnaval.com, CC BY 2.0 (https://www.flickr.com/photos/17281186@N00/52510369567)",
+    "text": "The Eye of Providence near 16th & Valencia Streets"
+   },
+   {
+    "so": 7,
+    "url": "https://live.staticflickr.com/65535/53532714640_4fe7a004d0_b.jpg",
+    "w": 1024,
+    "h": 1024,
+    "credit": "\"Eye of Providence Hand Black and White Tattoo\" – glvagkvs35, CC BY 2.0 (https://www.flickr.com/photos/183694898@N06/53532714640)",
+    "text": "Eye of Providence Hand Black and White Tattoo tat tattoo tattoos"
+   },
+   {
+    "so": 8,
+    "url": "https://live.staticflickr.com/65535/53532605854_867f50a34c_b.jpg",
+    "w": 1024,
+    "h": 1024,
+    "credit": "\"Eye of Providence Black and White Tattoo\" – glvagkvs35, CC BY 2.0 (https://www.flickr.com/photos/183694898@N06/53532605854)",
+    "text": "Eye of Providence Black and White Tattoo tat tattoo tattoos"
+   },
+   {
+    "so": 9,
+    "url": "https://live.staticflickr.com/65535/52217021869_105d994cea_b.jpg",
+    "w": 1024,
+    "h": 1018,
+    "credit": "\"Webb Images of Jupiter and More Now Available In Commissioning Data\" – James Webb Space Telescope, CC BY 2.0 (https://www.flickr.com/photos/50785054@N03/52217021869)",
+    "text": "Webb Images of Jupiter and More Now Available In Commissioning Data jameswebbspacetelescope jupiter jwst nircam webb"
+   },
+   {
+    "so": 10,
+    "url": "https://live.staticflickr.com/65535/51798144802_d4e152827c_b.jpg",
+    "w": 732,
+    "h": 1024,
+    "credit": "\"Super Fly — The Unexpected Lives of the World's Most Successful Insects\" – jurvetson, CC BY 2.0 (https://www.flickr.com/photos/44124348109@N01/51798144802)",
+    "text": "Super Fly — The Unexpected Lives of the World's Most Successful Insects balcombe book eyes fly insect jonathan larva maggot malaria marvel mosquito precis review science summary superfly wings"
+   },
+   {
+    "so": 11,
+    "url": "https://live.staticflickr.com/7/14861444_1103c8945d_b.jpg",
+    "w": 712,
+    "h": 1024,
+    "credit": "\"Bartholdi Fountain\" – dbking, CC BY 2.0 (https://www.flickr.com/photos/65193799@N00/14861444)",
+    "text": "Bartholdi Fountain ancient architecture art bronze city classic fountain lamp lantern monument old outdoors sculpture sightseeing sky square statue travel"
+   },
+   {
+    "so": 12,
+    "url": "https://live.staticflickr.com/65535/53132483298_b438c282c5_b.jpg",
+    "w": 1009,
+    "h": 1024,
+    "credit": "\"Webb Reveals Intricate Details in the Remains of a Dying Star (NIRCam image)\" – James Webb Space Telescope, CC BY 2.0 (https://www.flickr.com/photos/50785054@N03/53132483298)",
+    "text": "Webb Reveals Intricate Details in the Remains of a Dying Star (NIRCam image) jameswebbspacetelescope jwst planetarynebula ringnebula webb"
+   },
+   {
+    "so": 13,
+    "url": "https://live.staticflickr.com/65535/53131996331_e5d07878dd_b.jpg",
+    "w": 1024,
+    "h": 827,
+    "credit": "\"Webb Reveals Intricate Details in the Remains of a Dying Star (MIRI image)\" – James Webb Space Telescope, CC BY 2.0 (https://www.flickr.com/photos/50785054@N03/53131996331)",
+    "text": "Webb Reveals Intricate Details in the Remains of a Dying Star (MIRI image) jameswebbspacetelescope jwst planetarynebula ringnebula webb"
+   },
+   {
+    "so": 14,
+    "url": "https://live.staticflickr.com/65535/52169682820_c45d46d4d4_b.jpg",
+    "w": 1024,
+    "h": 1024,
+    "credit": "\"The Mantis and the Sunflower\" – Don Komarechka, CC0 (https://www.flickr.com/photos/35693660@N03/52169682820)",
+    "text": "The Mantis and the Sunflower 3d anaglyph dewijs insect istandwithukraine lumix lumixs1r macro mantis nature nymph petals s1r stereo stereo3d stereoscopic stereoscopy sunflower ukraine"
+   },
+   {
+    "so": 15,
+    "url": "https://live.staticflickr.com/65535/51904109965_0d3282ea68_b.jpg",
+    "w": 1024,
+    "h": 725,
+    "credit": "\"Great horned owl along lower Columbia River\" – USFWS Pacific, Public Domain (https://www.flickr.com/photos/52133016@N08/51904109965)",
+    "text": "Great horned owl along lower Columbia River"
+   }
+  ]
+ },
+ {
+  "slot": "S8",
+  "beats": "11",
+  "mo_ta": "Tờ 1 đô la bạc series 1935",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/US-%241-SC-1935-A-Fr.2306.jpg/1920px-US-%241-SC-1935-A-Fr.2306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4500,
+    "h": 3941,
+    "credit": "\"US-$1-SC-1935-A-Fr.2306.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-A-Fr.2306.jpg)",
+    "text": "File:US-$1-SC-1935-A-Fr.2306.jpg The North Africa series of U.S. Silver Certificates ($1, $5, and $10) were issued to the United States Armed Forces in Europe and North Africa during World War II. The"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/US-%241-SC-1935-A-Fr.2300.jpg/1920px-US-%241-SC-1935-A-Fr.2300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4500,
+    "h": 3908,
+    "credit": "\"US-$1-SC-1935-A-Fr.2300.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-A-Fr.2300.jpg)",
+    "text": "File:US-$1-SC-1935-A-Fr.2300.jpg Hawaii overprint notes were issued through the Federal Reserve Bank of San Francisco during World War II. In the event of a Japanese invasion of Hawaii, all notes with"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/US-%241-SC-1935-A-Fr.1610.jpg/1920px-US-%241-SC-1935-A-Fr.1610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4500,
+    "h": 3992,
+    "credit": "\"US-$1-SC-1935-A-Fr.1610.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-A-Fr.1610.jpg)",
+    "text": "File:US-$1-SC-1935-A-Fr.1610.jpg United States $1 Banknote, Silver Certificate, Small type, Series of 1935 (Fr. Ref#1610). One of the Experimental issues of currency paper."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/US-%241-SC-1935-Fr-1607.jpg/1920px-US-%241-SC-1935-Fr-1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4500,
+    "h": 3925,
+    "credit": "\"US-$1-SC-1935-Fr-1607.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-Fr-1607.jpg)",
+    "text": "File:US-$1-SC-1935-Fr-1607.jpg $1, Silver Certificate, Series of 1935 (Fr. Ref#1607). Depicting George Washington."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/US-%241-SC-1935-A-Fr.1609.jpg/1920px-US-%241-SC-1935-A-Fr.1609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4500,
+    "h": 3988,
+    "credit": "\"US-$1-SC-1935-A-Fr.1609.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-A-Fr.1609.jpg)",
+    "text": "File:US-$1-SC-1935-A-Fr.1609.jpg United States $1 Banknote, Silver Certificate, Small type, Series of 1935-A (Fr. Ref#1609). One of the Experimental issues of currency paper."
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/FP_MWMF035.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1794,
+    "h": 750,
+    "credit": "\"FP MWMF035.jpg\" – US Government. \n\nScan: Milan Wölfl, Public domain (https://commons.wikimedia.org/wiki/File:FP_MWMF035.jpg)",
+    "text": "File:FP MWMF035.jpg Rub jednodolarové bankovky Silver Certificate 1935"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/US_1_Dollar_Psy_war.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 918,
+    "h": 792,
+    "credit": "\"US 1 Dollar Psy war.jpg\" – German propaganda Psy war ops, Public domain (https://commons.wikimedia.org/wiki/File:US_1_Dollar_Psy_war.jpg)",
+    "text": "File:US 1 Dollar Psy war.jpg German Parody of US $1 Banknote for North Africa\nThe Germans produced a parody of the United States $1 Silver Certificate of 1935, serial number G80536479B with Arabic tex"
+   }
+  ]
+ }
+]

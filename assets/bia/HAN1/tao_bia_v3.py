@@ -1,0 +1,48 @@
+"""Ảnh bìa dọc 1080x1920 tập 1, bản 3: bản đồ địa hình phủ kín, chấm quận phát sáng, chữ Anton có viền và ánh vàng, chân trang thương hiệu.
+Chạy: python assets/bia/HAN1/tao_bia_v3.py [ra.png]. Chữ chính nằm trong y 70-1400 (vùng an toàn Facebook/TikTok); logo vuông 130 px, độ đậm 0,8, góc trên phải (cách phải 44, trên 34).
+Phông Anton, Be Vietnam Pro (OFL) ở assets/bia/fonts."""
+import sys
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+R = Path(__file__).resolve().parents[3]; F = R / 'assets/bia/fonts'
+out = sys.argv[1] if len(sys.argv) > 1 else str(Path(__file__).with_name('bia_v3.png'))
+Q9 = [(113.26,23.13),(111.3,23.45),(109.6,23.1),(109.2,21.7),(106.3,21.3),(105.8,19.8),(105.6,18.7),(110.3,19.9),(109.6,19.3)]
+SX, SY = 0.50, 0.50; LON0 = 105.2
+ox = -(LON0-102)*239.4*SX; oy = -640
+dots = ''.join(f'<g transform="translate({(lo-102)*239.4*SX+ox:.0f},{(30.5-la)*260*SY+oy:.0f})"><circle r="46" fill="url(#g)"/><circle r="24" fill="none" stroke="#ffd45a" stroke-width="3" opacity=".8"/><circle r="13" fill="#fff6d6" stroke="#e8a317" stroke-width="5"/></g>' for lo, la in Q9)
+html = f'''<!doctype html><meta charset=utf-8><style>
+@font-face{{font-family:A;src:url(file://{F}/Anton-Regular.ttf)}}
+@font-face{{font-family:B;src:url(file://{F}/BeVietnamPro-ExtraBold.ttf)}}
+@font-face{{font-family:BB;src:url(file://{F}/BeVietnamPro-Black.ttf)}}
+*{{margin:0}}body{{width:1080px;height:1920px;position:relative;overflow:hidden;background:#0a1c30}}
+.map{{position:absolute;left:{ox}px;top:{oy}px;width:{3542*SX}px;height:{4420*SY}px;-webkit-mask-image:linear-gradient(180deg,#000 0,#000 {1180-oy}px,transparent {1540-oy}px);filter:brightness(1.15) saturate(1.15) contrast(1.08)}}
+.sh{{position:absolute;inset:0;background:
+ radial-gradient(ellipse at 50% 66%,rgba(5,12,22,.62) 0,rgba(5,12,22,0) 62%),
+ linear-gradient(180deg,rgba(5,12,22,.55) 0,rgba(5,12,22,0) 16%,rgba(5,12,22,0) 36%,rgba(5,12,22,.5) 60%,rgba(8,22,40,.78) 82%,rgba(10,26,46,.92) 100%)}}
+.ab{{position:absolute;left:0;width:1080px;text-align:center;white-space:nowrap;text-transform:uppercase;line-height:1}}
+.big{{font-family:BB;font-size:158px;letter-spacing:-1px;font-style:normal;-webkit-text-stroke:9px #3a0907;paint-order:stroke fill;filter:drop-shadow(0 10px 0 rgba(0,0,0,.45)) drop-shadow(0 0 28px rgba(220,40,25,.55))}}
+.w{{background:linear-gradient(180deg,#fff 30%,#f3e6c8 100%);-webkit-background-clip:text;color:transparent}}
+.y{{background:linear-gradient(180deg,#fff2a8 5%,#ffc928 45%,#f08a00 100%);-webkit-background-clip:text;color:transparent}}
+.pill{{position:absolute;display:inline-block;font-family:B;color:#fff;letter-spacing:1px;border:3px solid #f2c14e;background:linear-gradient(180deg,#c3201a,#85100b);box-shadow:0 6px 22px rgba(0,0,0,.55);white-space:nowrap}}
+.rule{{position:absolute;height:5px;background:linear-gradient(90deg,transparent,#f2c14e 20%,#fff2a8 50%,#f2c14e 80%,transparent)}}
+</style><body>
+<img class=map src="file://{R}/phim_ban_do/doc9x16/map_relief.jpg">
+<div class=sh></div>
+<svg style="position:absolute;left:0;top:0" width=1080 height=1920><defs><radialGradient id=g><stop offset="0" stop-color="#ff7a2a" stop-opacity=".95"/><stop offset=".45" stop-color="#ff4a1a" stop-opacity=".45"/><stop offset="1" stop-color="#ff3b1a" stop-opacity="0"/></radialGradient></defs>{dots}</svg>
+<div class=pill style="left:36px;top:70px;font-size:70px;padding:12px 40px 8px;border-radius:14px;font-family:A;letter-spacing:3px">110 TRƯỚC CÔNG NGUYÊN</div>
+<div class=pill style="left:36px;top:190px;font-size:44px;padding:8px 30px;border-radius:12px;background:linear-gradient(180deg,#fff,#e9dcc0);color:#8d0f0a;border-color:#8d0f0a;transform:rotate(-3deg)">NHÀ HÁN</div>
+<div class=rule style="left:90px;width:900px;top:905px"></div>
+<div class="ab big w" style="top:975px">CHÍN QUẬN</div>
+<div class="ab big y" style="top:1185px">RỒI SAO?</div>
+<div class=rule style="left:90px;width:900px;top:1392px"></div>
+<div class=ab style="top:1418px"><span class=pill style="position:static;font-size:38px;padding:14px 40px;border-radius:40px;background:rgba(8,20,36,.82)">CHUYỆN CAI TRỊ NGÀN NĂM <span style="color:#ffd45a">· TẬP 1</span></span></div>
+<div class=ab style="top:1640px;font-family:BB;font-size:64px;letter-spacing:10px;color:#f2e2b0;text-shadow:0 4px 18px rgba(0,0,0,.8)">NGƯỜI GÁC SỬ</div>
+<div class=rule style="left:200px;width:680px;top:1730px"></div>
+<div class=ab style="top:1752px;font-family:B;font-size:32px;letter-spacing:3px;color:#d9c89a;text-shadow:0 3px 12px rgba(0,0,0,.8)">CHUYỆN CÓ THẬT TRONG LỊCH SỬ</div>
+<img src="file://{R}/assets/logo/nguoi-gac-su.png" style="position:absolute;right:44px;top:34px;width:130px;height:130px;opacity:.8">
+</body>'''
+tmp = Path(__file__).with_name('_bia_v3.html'); tmp.write_text(html, encoding='utf-8')
+with sync_playwright() as p:
+    br = p.chromium.launch(args=['--allow-file-access-from-files']); pg = br.new_page(viewport={'width': 1080, 'height': 1920})
+    pg.goto('file://' + str(tmp)); pg.wait_for_timeout(1200); pg.screenshot(path=out); br.close()
+tmp.unlink(); print(out)

@@ -14,8 +14,12 @@ dur = json.load(open(Path(vd) / 'thoi_luong.json'))
 GAP, T0, FPS = 0.4, 0.3, 24
 thieu = [b['n'] for b in kb if str(b['n']) not in dur]
 if thieu: sys.exit(f'Thiếu giọng các đoạn: {thieu}')
+_ap = R / f'phim_ban_do/asr_{ten}.json'
+_asr = json.load(open(_ap, encoding='utf-8')) if _ap.exists() else {}
+# mốc bắt đầu từng chữ do nhận dạng giọng đo (chỉ phần nằm trong thời lượng file giọng đã dùng) để phụ đề bám đúng lời đọc
+ASRW = {str(b['n']): [round(w[1], 2) for w in _asr.get(str(b['n']), []) if w[1] < dur[str(b['n'])]] for b in kb}
 (D / 'data.js').write_text('const SCRIPT=' + json.dumps([{'n': b['n'], 'text': b.get('hien', b['text'])} for b in kb], ensure_ascii=False) +
-                           ';\nwindow.DURS=' + json.dumps({str(b['n']): dur[str(b['n'])] for b in kb}) + ';\n', encoding='utf-8')
+                           ';\nwindow.SPOK=' + json.dumps({str(b['n']): b['text'] for b in kb}, ensure_ascii=False) + ';\nwindow.ASRW=' + json.dumps(ASRW) + ';\nwindow.DURS=' + json.dumps({str(b['n']): dur[str(b['n'])] for b in kb}) + ';\n', encoding='utf-8')
 # âm thanh: đặt từng đoạn đúng mốc của trang dựng
 t, lst = T0, []
 for b in kb:

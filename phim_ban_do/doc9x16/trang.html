@@ -37,7 +37,12 @@ const cp=el(HUD,'g',{transform:'translate(930,1690)',opacity:.85});el(cp,'circle
 T(HUD,52,1862,'NGƯỜI GÁC SỬ',26,'#f1e9d2',7,'start');
 // ----- phụ đề cụm ngắn
 function chunks(txt,maxw=8){const parts=txt.match(/[^,.;?]+[,.;?]?/g).map(s=>s.trim()).filter(Boolean);const out=[];parts.forEach(p=>{const w=p.split(/\s+/);if(w.length<=maxw+1)out.push(p);else{const k=Math.ceil(w.length/Math.ceil(w.length/maxw));for(let i=0;i<w.length;i+=k)out.push(w.slice(i,i+k).join(' '))}});const m=[];out.forEach(c=>{if(m.length&&c.split(/\s+/).length<=2)m[m.length-1]+=' '+c;else m.push(c)});return m}
-const CH=[];SCRIPT.forEach(b=>{const cs=chunks(b.text);const ws=cs.map(c=>c.split(/\s+/).length),tot=ws.reduce((a,b)=>a+b,0);let t=TS[b.n]+.1;const span=DUR[b.n]-GAP;cs.forEach((c,i)=>{const d=span*ws[i]/tot;CH.push({a:t,b:t+d,txt:c});t+=d})});CH.forEach((c,i)=>{if(i+1<CH.length&&CH[i+1].a>c.b)c.b=CH[i+1].a});
+const CH=[];const nw=x=>x.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+SCRIPT.forEach(b=>{const cs=chunks(b.text);const ws=cs.map(c=>c.split(/\s+/).length),tot=ws.reduce((a,b)=>a+b,0);const span=DUR[b.n]-GAP;
+ const A=(window.ASRW&&ASRW[b.n])||[],sp=((window.SPOK&&SPOK[b.n])||'').split(/\s+/).filter(Boolean),dp=b.text.split(/\s+/);let st=null;
+ if(A.length>=2&&sp.length){const map=[];let k=0;dp.forEach((w,i)=>{map.push(k);if(/\d/.test(w)){let n=1;while(k+n<sp.length&&i+1<dp.length&&nw(sp[k+n])!==nw(dp[i+1])&&n<8)n++;k+=n}else k++});
+  st=[];let di=0;cs.forEach((c,i)=>{const kk=map[Math.min(di,map.length-1)];st.push(A[Math.min(A.length-1,Math.round(kk/Math.max(1,sp.length)*A.length))]);di+=ws[i]})}
+ let t=TS[b.n]+.1;cs.forEach((c,i)=>{let a,e;if(st){a=TS[b.n]+Math.max(0,st[i]-.05);e=i+1<cs.length?TS[b.n]+Math.max(0,st[i+1]-.05):TS[b.n]+span-.02}else{const d=span*ws[i]/tot;a=t;e=t+d;t+=d}CH.push({a,b:e,txt:c})})});CH.forEach((c,i)=>{if(i+1<CH.length&&CH[i+1].a>c.b)c.b=CH[i+1].a});
 const cv=document.createElement('canvas').getContext('2d');cv.font='800 56px Inter';
 function wrap(txt,mw){const w=txt.split(/\s+/),L=[];let cur='';w.forEach(x=>{const t=(cur+' '+x).trim();if(cv.measureText(t).width<=mw)cur=t;else{L.push(cur);cur=x}});L.push(cur);return L}
 const SUBP=el(S,'rect',{x:52,y:1290,width:976,height:210,rx:34,fill:'#0c0a08',opacity:.25});const SUBG=el(S,'g',{});

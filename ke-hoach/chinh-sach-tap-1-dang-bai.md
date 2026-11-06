@@ -1,13 +1,10 @@
-# Chuyện cai trị ngàn năm, tập 1 "Chín quận": thông tin đăng
+# Tập 1 (bản 3): đăng bài
 
-**Tiêu đề đề xuất (YouTube Shorts, Facebook Reels, TikTok):** Nhà Hán chia đất thành chín quận: ai khổ, ai yên?
+**Tiêu đề:** Nhà Hán chia đất thành chín quận, rồi cai trị từ rất xa
 
-Phương án ngắn: Chín quận nhà Hán: vì sao dân khổ rồi lại yên?
+**Hashtag:** #NguoiGacSu #ChuyenCaiTriNganNam #NhaHan #GiaoChi #CuuChan #LichSuVietNam #SuThat #LichSu
 
-**Hashtag:** #NguoiGacSu #ChuyenCaiTriNganNam #NhaHan #GiaoChi #LichSuVietNam #SuThat #LichSu
-
-**Bình luận ghim (giải thích ngắn, không đặt câu hỏi, theo quy tắc kênh):**
-Năm 110 trước Công nguyên, nhà Hán thôn tính nước Nam Việt rồi chia vùng đất Nam Việt thành chín quận, trong đó Giao Chỉ và Cửu Chân nằm trên đất của ta. Quan do nhà Hán cử xuống nhiều lần vơ vét của dân, thuế nặng, kinh đô lại ở rất xa nên dân không biết kêu vào đâu. Đến khi quan mới là Giả Tông giảm thuế và chọn người tốt giữ các quận huyện, dân mới yên.
-
-Nguồn: Đại Việt sử ký toàn thư (nguồn của lời kể); Khâm định Việt sử thông giám cương mục chỉ dùng kiểm tên, chức, năm, số, địa danh.
-Lưu ý: vị trí chín chấm trên bản đồ chỉ để minh họa. Câu dân truyền nhau "cha họ Giả đến muộn…" lấy từ bản dịch Toàn thư; Cương mục chỉ xác nhận có câu ca ngợi, chưa khớp từng chữ; chưa đối chiếu Hậu Hán thư (chủ kênh duyệt giữ nguyên ngày 05/11/2026).
+**Bình luận ghim (giải thích, không đặt câu hỏi, theo quy định tập 1, 2):**
+Năm 110 trước Công nguyên, nhà Hán chia đất của nước Nam Việt thành chín quận. Ba quận (Giao Chỉ, Cửu Chân, Nhật Nam) nằm trên đất Việt Nam ngày nay.
+Video kể đến năm 29 sau Công nguyên: khi quan địa phương đóng chặn biên giới rồi quy phục nhà Hán, và được phong hầu.
+Nguồn chính: Đại Việt sử ký toàn thư (Ngoại kỷ, kỷ thuộc nhà Hán). Chi tiết hai bộ sử ghi khác nhau (chức của Thạch Đái, nơi Tích Quang dạy lễ nghĩa, tên Chu Chương) được nói rộng hoặc bỏ khỏi lời kể.

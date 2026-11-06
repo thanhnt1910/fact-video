@@ -9,13 +9,13 @@
   "n": 42002,
   "chuong": "Mở đầu",
   "tone": "story",
-  "text": "Ông là Nhâm Diên, được nhà Hán cử làm Thái thú Cửu Chân vào những năm đầu thời Đông Hán, tức người đứng đầu cả quận."
+  "text": "Ông là Nhâm Diên. Cùng thời nhà Hán phong hầu cho Tích Quang, ông được cử làm Thái thú Cửu Chân, tức người đứng đầu cả quận."
  },
  {
   "n": 42003,
   "chuong": "Cách làm",
   "tone": "story",
-  "text": "Theo Đại Việt sử ký toàn thư, người Cửu Chân sống chủ yếu bằng nghề đánh cá và đi săn, còn việc cày cấy trên ruộng thì họ chưa quen."
+  "text": "Theo Đại Việt sử ký toàn thư, người Cửu Chân sống chủ yếu bằng nghề đánh cá và đi săn. Việc cày cấy trên ruộng thì họ chưa quen."
  },
  {
   "n": 42004,
@@ -76,5 +76,12 @@
   "chuong": "Kết",
   "tone": "story",
   "text": "Vậy vì sao dân lại nhớ ơn một viên quan đến mức lập đền thờ và đặt tên con theo ông?"
+ },
+ {
+  "n": 42014,
+  "chuong": "Mở đầu",
+  "tone": "story",
+  "text": "Nhưng đến năm ba mươi chín sau Công nguyên, Thái thú Giao Chỉ là Tô Định bị chép là tham lam, tàn bạo. Dân Giao Chỉ đã đáp lại thế nào?",
+  "hien": "Nhưng đến năm 39 sau Công nguyên, Thái thú Giao Chỉ là Tô Định bị chép là tham lam, tàn bạo. Dân Giao Chỉ đã đáp lại thế nào?"
  }
 ]

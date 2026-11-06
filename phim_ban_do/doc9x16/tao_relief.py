@@ -38,9 +38,9 @@ d_land = distance_transform_edt(land); d_sea = distance_transform_edt(sea)
 # đất: màu và bóng núi từ ảnh thật, ngả da giấy, tối hơn bản trước
 fine = fbm(5) * 0.05 + fbm(14) * 0.05
 g = gaussian_filter(G, 0.8)
-rel = np.clip((g - g.mean()) * 2.4 + 0.5 + fine * 0.7, 0, 1)
+rel = np.clip((g - g.mean()) * 1.6 + 0.5 + fine * 0.5, 0, 1)
 col = np.clip(C * np.array([1.0, 0.95, 0.80]), 0, 1) * 0.80 + np.array([0.74, 0.64, 0.42]) * 0.20
-col = col * (0.40 + 0.80 * rel)[..., None]
+col = col * (0.50 + 0.55 * rel)[..., None]
 col = col + (gaussian_filter(rng.standard_normal((H, W)).astype('float32'), 0.8) * 0.014)[..., None]
 col = col + np.exp(-d_land / 18)[..., None] * np.array([0.08, 0.055, 0.01])
 rv = gaussian_filter(river.astype('float32'), 0.8)[..., None]
@@ -49,13 +49,20 @@ out = np.where(land[..., None], col, 0)
 
 # biển: nông ven bờ, sâu dần ra xa
 depth = 1 - np.exp(-d_sea / 220)
-shallow = np.array([0.13, 0.46, 0.55]); mid = np.array([0.06, 0.24, 0.40]); deep = np.array([0.02, 0.09, 0.20])
+shallow = np.array([0.12, 0.50, 0.58]); mid = np.array([0.04, 0.20, 0.38]); deep = np.array([0.01, 0.06, 0.18])
 near = np.exp(-d_sea / 26)[..., None]
 sc = shallow * near + (mid * (1 - depth[..., None]) + deep * depth[..., None]) * (1 - near)
 w = gaussian_filter(rng.standard_normal((H, W)).astype('float32'), 14); w = w / (w.std() + 1e-6) * 0.012
 sc = sc + w[..., None]
+# ánh sáng nhẹ trên biển: vệt sáng loang rộng, sáng dần về góc trên phải
+lg = gaussian_filter(rng.standard_normal((H, W)).astype('float32'), 90); lg = lg / (lg.std() + 1e-6)
+beam = np.clip(0.5 + 0.5 * np.sin((xx_ := np.arange(W)[None, :] * 0.0016) + (yy_ := np.arange(H)[:, None] * 0.0011)), 0, 1)
+sc = sc + (np.clip(lg, 0, 3) * 0.018 + beam * 0.025)[..., None] * np.array([0.5, 0.9, 1.0]) * (0.4 + 0.6 * depth[..., None])
 out = np.where(sea[..., None], sc, out)
 
+# chiều sâu: xa (phía bắc) mờ ngả xanh, gần (phía nam) rõ
+haze = np.clip(1 - np.arange(H)[:, None] / (H * 0.85), 0, 1) ** 1.3 * 0.20
+out = np.where(land[..., None], out * (1 - haze[..., None]) + np.array([0.30, 0.38, 0.46]) * haze[..., None], out)
 # viền bờ sáng vàng
 glow = np.exp(-np.abs(np.where(sea, d_sea, d_land)) / 5.0)
 out = out + glow[..., None] * np.array([0.30, 0.24, 0.05]) * 0.5
@@ -63,7 +70,7 @@ out = out + glow[..., None] * np.array([0.30, 0.24, 0.05]) * 0.5
 # tối dần ở rìa ảnh
 yy, xx = np.mgrid[0:H, 0:W]
 r = np.sqrt(((xx - W / 2) / (W * 0.65)) ** 2 + ((yy - H / 2) / (H * 0.60)) ** 2)
-out = out * (1 - 0.40 * np.clip(r - 0.60, 0, 1)[..., None])
+out = out * (1 - 0.50 * np.clip(r - 0.55, 0, 1)[..., None])
 out = np.clip(out, 0, 1)
 Image.fromarray((out * 255).astype('uint8')).save(f'{D}/map_relief.jpg', quality=88)
 print('xong', W, H, 'y gốc', -YB)

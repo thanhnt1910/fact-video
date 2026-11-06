@@ -1,6 +1,6 @@
 # Bài 5: Trần Dụ Tông, vị vua lên ngôi lúc 6 tuổi và người nối ngôi là con của một người làm trò
 
-Trạng thái: bản nháp chờ chủ kênh duyệt (4/11/2026). Đã chọn 5 ảnh (thư mục `anh/`).
+Trạng thái: bản nháp chờ chủ kênh duyệt (4/11/2026). Bài đăng viết lại ngày 6/11/2026 cho dễ hiểu hơn: từ cổ được giải thích ngay trong bài, nội dung sự việc giữ nguyên. Đã chọn 5 ảnh (thư mục `anh/`).
 
 Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**, Bản kỷ quyển VII (mục Hiến Tông, Dụ Tông và phụ Dương Nhật Lễ, truyện Chu Văn An), kể cả chú thích (bản dịch Viện KHXH; file `ke-hoach/nguon/dai-viet-su-ky-toan-thu.txt`, các dòng 12752–12757, 12794–12810, 12817–12822, 12838–13530, 13586–13590, 13680–13713). Chưa đối chiếu sử Trung Quốc hay sách nghiên cứu hiện đại (không có tư liệu Trung Quốc nào kể trực tiếp về Dụ Tông).
 
@@ -17,96 +17,116 @@ Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**,
 
 ## Bài đăng Facebook
 
-Ông lên ngôi lúc 6 tuổi và ở ngôi 28 năm.
+Ông lên ngôi vua lúc mới 6 tuổi và ở ngôi 28 năm.
 
-Đến khi mất, ông không có con. Ngôi vua nhà Trần suýt sang tay một người mang họ Dương, con của một người làm trò.
+Đến khi mất, ông không có con. Ngôi vua nhà Trần suýt rơi vào tay một người mang họ Dương, con của một người làm nghề diễn trò.
 
-Ông là Trần Dụ Tông. Vì sao việc ấy xảy ra?
+Ông là Trần Dụ Tông. Vì sao chuyện ấy xảy ra?
+
+(Ngày tháng trong bài là âm lịch theo sách Đại Việt sử ký toàn thư, gọi tắt là Toàn thư. Năm là năm dương lịch.)
 
 👤 **Trần Dụ Tông là ai?**
-Ông tên húy là Hạo, con thứ mười của vua Trần Minh Tông, mẹ là Hiến Từ hoàng hậu. Toàn thư ghi ông sinh ngày 19 tháng 10 (âm lịch) năm 1336.
+Tên thật của ông là Trần Hạo. Ông là con thứ mười của vua Trần Minh Tông. Mẹ ông là hoàng hậu Hiến Từ.
 
-Tháng 8 năm 1341, Thượng hoàng Minh Tông đón ông lên ngôi. Ông khi ấy mới 6 tuổi. Người anh cả, Cung Túc Vương Dục, không được chọn vì Toàn thư ghi là "người ngông cuồng".
+Ông sinh ngày 19 tháng 10 năm 1336.
 
-Thượng hoàng vẫn giữ việc nước cho đến khi mất năm 1357.
+Tháng 8 năm 1341, Thượng hoàng Minh Tông cho ông lên ngôi. Khi ấy ông mới 6 tuổi. (Thượng hoàng là vua cha đã nhường ngôi cho con, nhưng vẫn giữ quyền điều hành việc nước.)
+
+Người anh cả của ông là Cung Túc Vương Dục không được chọn. Toàn thư ghi lý do: Dục là "người ngông cuồng".
+
+Thượng hoàng Minh Tông giữ việc nước cho đến khi mất năm 1357.
 
 🌊 **Đêm chết đuối ở Hồ Tây**
-Trước đó hai năm, đêm 15 tháng 8 năm 1339, hoàng tử Hạo đi thuyền chơi Hồ Tây và bị chết đuối. Người ta vớt được ông ở lỗ cống đơm cá.
+Hai năm trước khi lên ngôi, đêm 15 tháng 8 năm 1339, hoàng tử Hạo đi thuyền chơi Hồ Tây và bị chết đuối. Người ta vớt được ông ở một cái cống đặt dụng cụ bắt cá.
 
-Thượng hoàng sai thầy thuốc Trâu Canh cứu chữa. Canh nói: dùng kim châm sẽ sống lại, nhưng sợ bị liệt dương. Ông sống lại, và quả đúng như lời Canh nói. Từ đó người ta gọi Canh là thần y.
+Thượng hoàng cho gọi thầy thuốc Trâu Canh đến cứu. Canh nói: châm kim thì ông sẽ sống lại, nhưng có thể bị liệt dương.
+
+Ông sống lại, và đúng như lời Canh nói. Từ đó người ta gọi Canh là thần y, nghĩa là thầy thuốc giỏi như thần.
 
 🌾 **Những năm đói kém**
-Toàn thư ghi nhiều năm mất mùa trong thời ông. Năm 1343, đói kém, nhiều người làm trộm cướp, nhất là gia nô của các vương hầu. Năm 1344, mất mùa, nhiều người phải đi tu hoặc làm nô cho các nhà thế gia.
+Toàn thư ghi nhiều năm mất mùa trong thời ông.
+• Năm 1343: đói kém, nhiều người đi trộm cướp, nhất là gia nô của các vương hầu. (Gia nô là người hầu làm nô lệ trong nhà. Vương hầu là các vương, hầu thuộc họ nhà vua.)
+• Năm 1344: mất mùa, nhiều người phải đi tu hoặc đến làm nô cho các nhà thế gia, tức những nhà quyền quý giàu có lâu đời.
+• Từ năm 1355 đến 1357: Toàn thư ghi giá gạo là một tiền một thăng. (Thăng là đơn vị đong gạo thời xưa.)
+• Năm 1362: đói to. Vua ra lệnh cho nhà giàu nộp thóc để phát cho dân đói. Đổi lại, nhà giàu được ban chức tước theo số thóc đã nộp.
 
-Từ năm 1355 đến 1357, một thăng gạo trị giá một tiền. Năm 1362, đói to. Nhà vua xuống chiếu cho nhà giàu dâng thóc để phát chẩn, đổi lại được ban tước theo thứ bậc.
+🏔️ **Ngô Bệ nổi dậy ở núi Yên Phụ**
+Tháng 2 năm 1344, ông Ngô Bệ người Trà Hương kéo một nhóm người lên núi Yên Phụ làm giặc cướp. Năm 1345, quân triều đình đánh tan nhóm này.
 
-🏔️ **Ngô Bệ ở núi Yên Phụ**
-Tháng 2 năm 1344, người Trà Hương là Ngô Bệ họp bọn ở núi Yên Phụ làm giặc cướp. Năm 1345, quân triều đình đánh tan.
+Năm 1358, Bệ lại tụ quân ở núi ấy. Ông dựng cờ lớn, tự xưng danh hiệu, dán bảng nói là để cứu giúp dân nghèo. Toàn thư ghi Bệ chiếm một vùng từ Thiên Liêu đến Chí Linh.
 
-Năm 1358, Bệ lại đem quân tụ họp ở núi ấy, dựng cờ lớn trên núi, tự xưng vị hiệu, yết bảng nói cứu giúp dân nghèo. Toàn thư ghi Bệ chiếm giữ một vùng từ Thiên Liêu đến Chí Linh.
+Tháng 3 năm 1360, quân của địa phương bắt được Bệ ở Yên Phụ. Bệ chạy trốn, định về kinh thành thú tội. Nhưng người ta bắt được Bệ cùng 30 người trong nhóm, nhốt cũi giải về kinh. Tất cả bị chém.
 
-Tháng 3 năm 1360, quân của lộ bắt được Bệ ở Yên Phụ. Bệ chạy trốn, định về kinh thú tội. Người ta bắt được Bệ cùng 30 người trong bè đảng, đóng cũi giải về kinh. Tất cả bị chém.
+✍️ **Lệnh xăm chữ lên trán gia nô**
+Tháng 12 năm 1360, nhà vua ra lệnh: gia nô của các vương hầu và công chúa đều phải xăm chữ lên trán.
 
-✍️ **Chiếu xăm chữ lên trán gia nô**
-Tháng 12 năm 1360, nhà vua xuống chiếu: gia nô của vương hầu và công chúa đều phải thích chữ vào trán và phải gọi theo loại hàm.
-
-Người nào không thích chữ, không khai sổ sẽ bị coi là giặc cướp. Nặng thì trị tội, nhẹ thì sung công.
+Ai không xăm, không khai tên vào sổ thì bị coi là giặc cướp. Nặng thì bị trị tội, nhẹ thì bị nộp về cho nhà nước.
 
 🎭 **Tuồng bắt đầu từ đâu?**
-Đầu năm 1362, nhà vua cho các nhà vương hầu, công chúa dâng các trò tạp hý để xem. Trò nào hay thì được thưởng.
+Đầu năm 1362, nhà vua cho các nhà vương hầu và công chúa đem các trò biểu diễn vào dâng để xem. Trò nào hay thì được thưởng.
 
-Toàn thư kể: khi trước đánh Toa Đô, quân ta bắt được một người phường hát tên Lý Phương Cát, rất giỏi hát. Con ở trẻ của các nhà thế gia theo ông học hát điệu phương Bắc. Ông sáng tác các vở tuồng truyện cổ, như "Tây Vương Mẫu hiến bàn đào". Mỗi vở có 12 vai, mặc áo gấm, áo thêu, đánh trống, thổi sáo, gảy đàn.
+Toàn thư kể lại một chuyện cũ. Trong cuộc đánh quân Nguyên, quân ta bắt được một người hát tên Lý Phương Cát, rất giỏi hát. Các gia nhân trẻ của những nhà quyền quý theo ông học hát điệu phương Bắc, tức điệu của Trung Hoa.
+
+Ông còn soạn các vở tuồng kể chuyện cổ, như "Tây Vương Mẫu hiến bàn đào" (Bà Tây Vương Mẫu dâng đào tiên). Mỗi vở có 12 vai, diễn viên mặc áo gấm, áo thêu, đánh trống, thổi sáo, gảy đàn. (Tuồng là loại sân khấu cổ có hát, múa và đóng vai.)
 
 Toàn thư viết: "Nước ta có tuồng truyện bắt đầu từ đấy".
 
 🎲 **Tiếng bạc trong cung**
-Cũng năm ấy, nhà vua cho gọi các nhà giàu trong nước, như ở làng Đình Bảng, huyện Bắc Giang và làng Nga Đình, huyện Quốc Oai, vào cung đánh bạc cho vui.
+Cũng năm 1362, nhà vua cho gọi các nhà giàu trong nước vào cung đánh bạc cho vui. Họ đến từ các làng như Đình Bảng (huyện Bắc Giang) và Nga Đình (huyện Quốc Oai).
 
-Có tiếng bạc đặt tới 300 quan tiền. Ba tiếng thì đã gần nghìn quan.
+Có ván cược tới 300 quan tiền. Ba ván cược thì gần nghìn quan. (Quan là đơn vị tiền thời xưa.)
 
-Cùng năm, nhà vua sai tư nô cày một miếng đất ở bờ bắc sông Tô Lịch để trồng hành, tỏi, rau dưa đem bán. Phường ấy được gọi là Vườn Tỏi.
+Cùng năm, nhà vua sai người nô của mình cày một mảnh đất ở bờ bắc sông Tô Lịch để trồng hành, tỏi, rau dưa đem bán. Nơi ấy được gọi là phường Vườn Tỏi.
 
-🏞️ **Hồ nuôi cá sấu trong vườn ngự**
-Tháng 10 năm 1363, nhà vua cho đào hồ ở vườn ngự trong hậu cung. Trong hồ xếp đá làm núi, bốn mạch đều khai ngòi cho nước chảy thông nhau. Trên bờ trồng thông, tre và các thứ hoa thơm cỏ lạ. Phía tây hồ trồng hai cây quế và dựng điện Song Quế, còn gọi là điện Lạc Thanh.
+🐊 **Hồ nuôi cá sấu trong vườn của vua**
+Tháng 10 năm 1363, nhà vua cho đào hồ trong vườn riêng ở hậu cung, tức khu phía sau nơi vua và gia đình ở. Trong hồ xếp đá thành núi, đào mương cho nước chảy thông nhau. Trên bờ trồng thông, tre và các loại hoa cỏ lạ. Phía tây hồ trồng hai cây quế và dựng điện Song Quế, còn gọi là điện Lạc Thanh.
 
-Một hồ nhỏ khác được đào. Nhà vua sai người Hải Đông chở nước mặn vào đó, để nuôi đồi mồi, cua, cá. Người Hóa Châu chở cá sấu đến thả. Lại có hồ Thanh Ngư thả cá diếc. Triều đình đặt chức khách đô để trông coi.
+Một hồ nhỏ khác được đào riêng. Nhà vua sai người ở Hải Đông, vùng ven biển, chở nước mặn vào hồ đó để nuôi đồi mồi, cua, cá. Người ở Hóa Châu, vùng miền Trung, chở cá sấu đến thả. Lại có hồ Thanh Ngư thả cá diếc.
+
+Triều đình đặt riêng một chức quan, gọi là khách đô, để trông coi các hồ này.
 
 🍶 **Cuộc thi uống rượu**
-Tháng 4 năm 1364, nhà vua gọi Bùi Khoan, quan coi cung Vĩnh An, cùng uống rượu. Khoan dùng mẹo, giả vờ uống hết 100 thăng rượu. Vua thưởng cho ông tước hai tư.
+Tháng 4 năm 1364, nhà vua gọi ông Bùi Khoan, quan coi cung Vĩnh An, đến uống rượu cùng. Khoan dùng mẹo, giả vờ uống hết 100 thăng rượu. Vua thưởng cho ông tước hai tư, một tước vị thời ấy.
 
-Tháng 5, vua đi hóng gió chơi trăng, uống rượu quá chén rồi lội xuống sông tắm, nên bị ốm. Các thầy thuốc, trong đó có Trâu Canh, thay nhau hầu thuốc đến tháng 7 mới khỏi.
+Tháng 5, vua đi hóng gió ngắm trăng, uống quá chén rồi lội xuống sông tắm nên bị ốm. Các thầy thuốc, trong đó có Trâu Canh, thay nhau chăm sóc đến tháng 7 mới khỏi.
 
-🌏 **Biên giới phía nam**
-Tháng giêng năm 1365, theo tục ở Hóa Châu, trai gái họp nhau ở Bà Dương chơi đánh đu. Người Chiêm Thành đã nấp ở đầu nguồn từ tháng 12 năm trước, rồi ập tới bắt người chơi xuân đem đi.
+🌏 **Mặt trận phía nam**
+Tháng giêng năm 1365, theo tục ở Hóa Châu, trai gái họp nhau ở Bà Dương chơi đánh đu. Người Chiêm Thành (nước láng giềng phía nam) đã nấp ở đầu nguồn từ tháng 12 năm trước. Họ ập ra bắt những người đang chơi xuân đem đi.
 
-Tháng 12 năm 1367, nhà vua cử Trần Thế Hưng làm thống quân và Đỗ Tử Bình làm phó đi đánh Chiêm Thành. Tháng 4 năm 1368, quân đến Chiêm Động, người Chiêm phục quân đánh trộm. Quân ta tan vỡ, Thế Hưng bị bắt, Tử Bình đem quân về.
+Tháng 12 năm 1367, nhà vua cử Trần Thế Hưng làm tướng chỉ huy, Đỗ Tử Bình làm phó tướng, đi đánh Chiêm Thành.
+
+Tháng 4 năm 1368, quân ta đến Chiêm Động thì bị quân Chiêm phục kích. Quân ta tan vỡ, Thế Hưng bị bắt. Tử Bình đem quân rút về.
 
 🗡️ **Bị cướp ấn báu trên sông**
-Tháng 6 năm 1366, nhà vua ngự thuyền nhỏ đến chơi nhà Thiếu úy Trần Ngô Lang ở hương Mễ Sở, đến canh ba mới về. Khi tới sông Chử Gia, ông bị cướp mất ấn báu và gươm báu.
+Tháng 6 năm 1366, nhà vua đi thuyền nhỏ đến chơi nhà Thiếu úy Trần Ngô Lang ở làng Mễ Sở. Đến nửa đêm mới về. (Thiếu úy là một chức quan lớn.)
 
-Toàn thư viết: nhà vua tự biết mình không sống lâu, càng thả sức chơi bời.
+Khi thuyền tới sông Chử Gia, ông bị cướp mất ấn báu và gươm báu. Ấn là con dấu tượng trưng cho quyền của nhà vua.
 
-Trần Ngô Lang còn xuất hiện lại sau khi nhà vua mất. Khi Dương Nhật Lễ làm vua, Ngô Lang được Nhật Lễ tin dùng, nhưng ngầm theo Nghệ Tông, anh ruột của Dụ Tông. Mỗi khi quân tướng được sai đi đánh, ông bí mật bảo họ theo Nghệ Tông, đừng về nữa.
+Toàn thư viết: nhà vua tự biết mình không sống lâu, càng thả sức ăn chơi.
 
-📜 **Bảy lá sớ và người thầy**
-Chu Văn An được Minh Tông mời làm Quốc tử giám tư nghiệp và dạy thái tử học. Theo Toàn thư, quyền thần nhiều kẻ làm trái phép nước. Chu Văn An khuyên can nhưng không được nghe, bèn dâng sớ xin chém bảy tên nịnh thần. Người đời gọi đó là "Thất trảm sớ".
+Trần Ngô Lang còn xuất hiện lại sau khi nhà vua mất. Khi Dương Nhật Lễ làm vua, Ngô Lang được Nhật Lễ tin dùng. Nhưng ông ngầm theo Nghệ Tông, anh ruột của Dụ Tông. Mỗi khi quân tướng được sai đi đánh, ông bí mật bảo họ theo Nghệ Tông, đừng quay về nữa.
 
-Sớ dâng lên không được trả lời. Ông treo mũ về quê, ở núi Chí Linh. Dụ Tông đem chính sự trao cho ông, ông từ chối. Vua sai nội thần đem quần áo ban cho ông. Ông lạy tạ xong, đem cho người khác hết.
+📜 **Bản tấu xin chém bảy kẻ nịnh**
+Chu Văn An được vua Minh Tông mời làm thầy dạy ở Quốc tử giám, trường học cao nhất của triều đình. Ông cũng dạy thái tử học, tức người sẽ nối ngôi.
+
+Theo Toàn thư, nhiều quan lớn nắm quyền khi ấy làm trái phép nước. Chu Văn An khuyên can nhưng không được nghe. Ông bèn dâng lên vua một bản tấu xin chém bảy tên nịnh thần. Người đời gọi đó là "Thất trảm sớ". Toàn thư không ghi năm ông dâng bản tấu.
+
+Bản tấu không được trả lời. Ông treo mũ từ quan, về ở núi Chí Linh. Dụ Tông đem việc nước trao cho ông, ông từ chối. Vua sai quan hầu mang quần áo đến ban cho ông. Ông lạy tạ rồi đem cho người khác hết.
 
 ⚰️ **Tháng 5 năm 1369**
-Ngày 25 tháng 5 năm 1369, Dụ Tông mất ở chính tẩm, sau 28 năm ở ngôi, thọ 34 tuổi. Toàn thư ghi ông không có con. Trước khi mất, ông xuống chiếu đón Nhật Lễ vào nối đại thống.
+Ngày 25 tháng 5 năm 1369, Dụ Tông mất ở cung chính sau 28 năm ở ngôi, thọ 34 tuổi. Toàn thư ghi ông không có con. Trước khi mất, ông ra chiếu đón Nhật Lễ vào nối ngôi.
 
-Toàn thư kể về Nhật Lễ: ông là con của người làm trò tên Dương Khương. Mẹ ông, khi đóng trò, mang tên Vương Mẫu. Cung Túc Vương Dục thấy bà xinh đẹp, lấy làm vợ khi bà đang có thai. Đến khi sinh con, Dục nhận làm con mình.
+Toàn thư kể về Nhật Lễ như sau. Cha ông là Dương Khương, người làm nghề diễn trò. Khi diễn trò, mẹ ông mang tên Vương Mẫu. Cung Túc Vương Dục thấy bà xinh đẹp nên lấy làm vợ lúc bà đang có thai. Đến khi bà sinh con, Dục nhận đứa trẻ làm con mình.
 
-Hiến Từ thái hậu nói với các quan: "Dục là con đích trưởng mà không được ngôi vua, lại sớm lìa đời. Nhật Lễ chẳng phải là con của Dục ư?"
+Thái hậu Hiến Từ nói với các quan: "Dục là con trai cả của hoàng hậu mà không được làm vua, lại mất sớm. Nhật Lễ chẳng phải là con của Dục sao?"
 
-Ngày 15 tháng 6, bà sai người đón Nhật Lễ lên ngôi, đổi niên hiệu là Đại Định.
+Ngày 15 tháng 6, bà sai người đón Nhật Lễ lên ngôi, đặt niên hiệu là Đại Định. (Niên hiệu là tên gọi dành cho những năm một vị vua trị vì.)
 
 ⏳ **Mốc thời gian**
 • 8/1341 – Trần Hạo lên ngôi lúc 6 tuổi (Dụ Tông)
 • 2/1357 – Thượng hoàng Minh Tông mất
-• 12/1360 – Chiếu xăm chữ lên trán gia nô
-• 10/1363 – Đào hồ nuôi cá sấu trong vườn ngự
+• 12/1360 – Lệnh xăm chữ lên trán gia nô
+• 10/1363 – Đào hồ nuôi cá sấu trong vườn của vua
 • 5/1369 – Dụ Tông mất; Nhật Lễ lên ngôi ngày 15/6
 • 11/1370 – Nghệ Tông lên ngôi, Nhật Lễ bị đánh chết
 
@@ -115,11 +135,11 @@ Dụ Tông ở ngôi 28 năm. Trong thời ông, Toàn thư ghi nhiều năm m�
 
 Ông mất khi không có con. Dương Nhật Lễ ở ngôi một năm.
 
-Tháng 11 năm 1370, Nghệ Tông, anh ruột của Dụ Tông, đem quân về kinh. Ngày 15, ông lên ngôi và nói: khoảng năm Đại Trị, "bọn học trò mặt trắng" được dùng, đem phép cũ của tổ tông đổi theo tục phương Bắc, như về y phục, âm nhạc.
+Tháng 11 năm 1370, Nghệ Tông, anh ruột của Dụ Tông, đem quân về kinh thành. Ngày 15, ông lên ngôi. Ông nói rằng khoảng những năm Đại Trị (1358–1369), những "học trò mặt trắng" được trọng dụng. Họ đem phép cũ của tổ tông đổi theo tục phương Bắc, như về quần áo và âm nhạc.
 
-Nhật Lễ và con là Liễu bị đánh chết, chôn ở núi Đại Mông. Trần Ngô Lang, người ngầm theo Nghệ Tông, bị Nhật Lễ bóp cổ chết trước đó, và sau được truy tặng.
+Nhật Lễ và con là Liễu bị đánh chết, chôn ở núi Đại Mông. Trần Ngô Lang, người ngầm theo Nghệ Tông, đã bị Nhật Lễ bóp cổ chết trước đó. Sau này, ông được triều đình phong tặng danh vị sau khi mất.
 
-❓ Theo bạn, vì sao Hiến Từ thái hậu chọn Nhật Lễ, chứ không chọn một người con khác của Minh Tông?
+❓ Theo bạn, vì sao thái hậu Hiến Từ chọn Nhật Lễ, mà không chọn một người con khác của vua Minh Tông?
 
 *(Theo Đại Việt sử ký toàn thư. Nguồn chi tiết ở bình luận.)*
 
@@ -129,15 +149,15 @@ Bài viết kể lại những gì Toàn thư ghi về thời Trần Dụ Tông 
 
 Nguồn của bài:
 • Đại Việt sử ký toàn thư, Bản kỷ quyển VII: mục Hiến Tông, Dụ Tông (các năm Thiệu Phong 1341–1357 và Đại Trị 1358–1369), phụ Dương Nhật Lễ, truyện Chu Văn An. Bản dịch Viện Khoa học xã hội.
-• Chú thích của dịch giả về địa danh (Trà Hương, Yên Phụ, Mễ Sở, Chử Gia, Chiêm Động, Hóa Châu).
+• Chú thích của người dịch về các địa danh (Trà Hương, Yên Phụ, Mễ Sở, Chử Gia, Chiêm Động, Hóa Châu).
 
 Cần phân biệt:
-• Việc ai quyết định đón Nhật Lễ: Toàn thư chép ở hai chỗ. Một chỗ nói trước khi mất nhà vua xuống chiếu đón Nhật Lễ, chỗ khác nói ngày 15 tháng 6 Hiến Từ thái hậu sai người đón. Bài ghi cả hai, không nhập thành một.
+• Việc ai quyết định đón Nhật Lễ: Toàn thư chép ở hai chỗ. Một chỗ nói trước khi mất, nhà vua ra chiếu đón Nhật Lễ. Chỗ khác nói ngày 15 tháng 6, thái hậu Hiến Từ sai người đón. Bài ghi cả hai, không gộp thành một.
 • Nguồn gốc Nhật Lễ (con của người làm trò Dương Khương) là lời Toàn thư kể, chưa đối chiếu được sách nào khác.
 • Câu "nhà vua tự biết mình không sống lâu, càng thả sức chơi bời" là cách Toàn thư giải thích; bài chỉ thuật lại.
-• Toàn thư có chỗ ghi nhầm niên hiệu: "Thiệu Phong năm thứ 7" cho năm Minh Tông mất (nên là năm thứ 17, 1357). Bài theo năm dương lịch trong ngoặc của bản dịch.
+• Toàn thư có chỗ ghi nhầm năm: chép "Thiệu Phong năm thứ 7" cho năm Minh Tông mất, đúng ra là năm thứ 17 (tức 1357). Bài theo năm dương lịch mà bản dịch ghi trong ngoặc.
 • "Thất trảm sớ": Toàn thư không ghi năm dâng sớ.
-• Ngày tháng trong bài là âm lịch theo Toàn thư; năm là năm dương lịch trong ngoặc của bản dịch.
+• Ngày tháng trong bài là âm lịch theo Toàn thư; năm là năm dương lịch mà bản dịch ghi trong ngoặc.
 • Bài chưa đối chiếu với sử Trung Quốc hay sách nghiên cứu hiện đại.
 
 Ảnh (tất cả từ Wikimedia Commons):
@@ -192,9 +212,10 @@ TT = Đại Việt sử ký toàn thư. Số dòng là dòng trong `ke-hoach/ngu
 | Nhật Lễ ở ngôi một năm; tháng 11/1370 Nghệ Tông về kinh, ngày 15 lên ngôi; lời Nghệ Tông về "học trò mặt trắng"; Nhật Lễ và con Liễu bị đánh chết, chôn núi Đại Mông | 🟢 | TT dòng 12841 và 13572 ("1 năm"), 13655–13662, 13669–13676 |
 | Bài không có lời bàn của sử gia | 🟢 | Theo quy tắc series 30/10/2026 |
 
-**Kiểm tra theo quy tắc kênh (tự rà):** không lời bàn hay chê khen của riêng ta; không viết tắt cụm danh từ; thủy triều không dùng; mốc thời gian 5 dòng; câu hỏi cuối bài, không có câu hỏi trong bình luận ghim.
+**Kiểm tra theo quy tắc kênh (tự rà):** không lời bàn hay chê khen của riêng ta; không viết tắt cụm danh từ; thủy triều không dùng; mốc thời gian 5 dòng; câu hỏi cuối bài, không có câu hỏi trong bình luận ghim. Bản viết lại 6/11 theo quy tắc văn phong ở `quy-tac/chung.md`: từ cổ đều giải thích ngay trong câu, câu ngắn, đơn vị cổ (thăng, quan) có giải thích.
 
 ## Chi tiết đã bỏ khỏi bài
+- **"Gọi theo loại hàm"** trong lệnh xăm chữ lên trán (12/1360): Toàn thư có câu này nhưng bài chưa tra được "hàm" là cách phân loại nào, nên bỏ khỏi bài viết lại ngày 6/11 để không giải thích sai. Có thể đưa lại nếu tra được.
 - **Lời bàn của sử gia:** Ngô Sĩ Liên, Phan Phu Tiên (đánh bạc, Chu Văn An, Dụ Tông "không có con", Nguyễn Nhiên không biết chữ làm hành khiển). Bỏ theo quy tắc series 30/10/2026.
 - **Chuyện Trâu Canh dâng phương thuốc:** TT dòng 12995–12998 (năm 1351) kể một phương thuốc gồm cả việc giết trẻ nhỏ và loạn luân; quá nặng cho bài đăng đại chúng và cần kiểm tra thêm nên bỏ. Trâu Canh được tha tội năm 1351 và được trả lại chức tước năm 1363 (TT dòng 13365).
 - **Bảo Uy Vương Hiến bị giết** (1347, dòng 12929–12938) vì lấy trộm áo quý: là chuyện của Thượng hoàng Minh Tông, không phải của Dụ Tông.

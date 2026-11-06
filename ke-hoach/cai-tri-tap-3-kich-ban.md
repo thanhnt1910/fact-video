@@ -51,3 +51,13 @@ File giọng: `ke-hoach/thu-giong-hai/han3v1_full.json` (14 đoạn, 45001–450
 - Móc mỗi 60–90 giây: nguyên nhân (đoạn 5), nổi binh (đoạn 6), nhận xét của sử gia (đoạn 9), nhà Hán chuẩn bị (đoạn 10–13).
 - Cuối: nhà Hán chuẩn bị và cử tướng, câu hỏi hai chị em sẽ đối mặt thế nào. Đúng mục móc nối trong `chuyen-cai-tri-series.md` (không dùng chữ "tập sau").
 - Phần sáng tạo cách kể: mở bằng kết quả (65 thành) rồi kể nguyên nhân; đều là sự kiện được kể đầy đủ trong tập. Không đổi sự kiện, không bịa lời thoại hay nội tâm, không truyền thuyết.
+
+## BẢN CHỦ KÊNH CHỐT (06/11/2026): dùng `han3v2_full.json` để đọc giọng
+Chủ kênh gửi bản viết lại (thay `han3v1`) và yêu cầu dựng đúng bản ấy. Giữ nguyên từng chữ; chỉ đổi số sang chữ trong trường `text` (trường `hien` giữ số cho phụ đề), tách đoạn dài ở dấu phẩy và gộp hai đoạn ngắn để qua `kiem_kich_ban` (0 ❌, 2 ⚠️), 18 đoạn 45001–45018, 395 chữ, khoảng 2 phút 10 giây. Chủ kênh chọn: giữ nguyên bản của mình dù có 4 chỗ lệch; chỉ giữ câu hỏi cuối thứ hai.
+
+**Chỗ lệch với Toàn thư, chủ kênh giữ nguyên (ghi vào mô tả và bình luận ghim):**
+1. Đoạn 45017: "đến năm 42 nhà Hán cử Mã Viện làm Phục Ba tướng quân". Toàn thư chép việc cử Mã Viện ở mục năm 41 (Tân Sửu); năm 42 là lúc Mã Viện tiến quân đánh Lãng Bạc.
+2. Đoạn 45015: lệnh sắp xe thuyền cho "Trường Sa, Hợp Phố và Giao Chỉ". Toàn thư ghi "Giao Châu".
+3. Đoạn 45007: "Tô Định phải bỏ chạy về Nam Hải". Toàn thư chép "chạy về nước"; chỉ Cương mục chép Nam Hải.
+4. Đoạn 45007: "trị sở của chính quyền nhà Hán ở Giao Chỉ". Toàn thư chỉ ghi "trị sở ở châu".
+Ghi chú nhỏ: đoạn 45010 "Sử thần Lê Văn Hưu"; Toàn thư dùng "Sử thần" cho Ngô Sĩ Liên, còn Lê Văn Hưu chỉ ghi "Lê Văn Hưu nói". Đoạn 45005 "chính sách cai trị hà khắc" là diễn đạt lại của "dùng pháp luật trói buộc".

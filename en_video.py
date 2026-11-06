@@ -491,8 +491,12 @@ def dung(d, co_giong=True):
     raw = work / "voice.wav"
     mv.write_wav(raw, narr)
     voice = work / "voice_norm.wav"
-    if co_giong:
+    if co_giong and not d.get("giong_goc"):
         mv.run_ffmpeg(["-i", str(raw), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", str(voice)])
+    elif co_giong:
+        # "giong_goc": true trong json: giữ nguyên giọng Gemini, không cân âm lượng hay chỉnh tốc độ
+        log("Giọng gốc: không cân âm lượng, không chỉnh tốc độ")
+        mv.run_ffmpeg(["-i", str(raw), "-ar", "44100", str(voice)])
     else:
         mv.run_ffmpeg(["-i", str(raw), "-ar", "44100", str(voice)])
 

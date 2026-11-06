@@ -38,3 +38,6 @@ Chủ kênh yêu cầu ghi chi tiết ngày 04/11/2026, rút ra từ lần tự 
 - Nhãn trên bản đồ bằng tiếng Anh, ngắn, khớp lời kể (ngày tháng viết số được vì là chữ trên màn hình, không phải lời đọc).
 - Điểm đánh dấu và nhãn không nằm trong 190 px dưới cùng (vùng phụ đề); tâm khung đặt ở 44% chiều cao. Trước khi dựng, xuất khung cuối từng cảnh để soi: `python ban_do_en.py anh ke-hoach/<chủ đề>/ban_do.json Mxx out.jpg`; thử nhanh vài cảnh có chuyển động: `python ban_do_en.py demo ke-hoach/<chủ đề>/ban_do.json Mxx,Myy out.mp4`.
 - Dữ liệu bờ biển: Natural Earth 1:10m (phạm vi công cộng) đã cắt sẵn ở `assets/ban_do/bac_cuc_10m.json` (vùng từ 44 độ bắc trở lên). Video ở vùng khác thì cắt thêm từ bản Natural Earth trên GitHub (`nvkelso/natural-earth-vector`).
+
+## F. Giọng đọc gốc (chủ kênh yêu cầu 07/11/2026, áp dụng kênh tiếng Anh từ AN1)
+- Giọng Orus lấy nguyên bản Gemini trả về: không cân âm lượng (`loudnorm`), không chỉnh tốc độ (`atempo`). Bật bằng `"giong_goc": true` trong `<chủ đề>.json`. Quy tắc "chuẩn hóa ở bước âm thanh" trong CLAUDE.md không áp cho kênh này.

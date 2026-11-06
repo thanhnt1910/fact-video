@@ -31,6 +31,22 @@ def vec(x):
         fr.append(np.log(FB @ (np.abs(np.fft.rfft(f * w)) ** 2) + 1e-3))
     return np.array(fr).mean(0)
 
+def thoi_gian_noi(x, sr=None):
+    """Thời gian có tiếng (bỏ quãng nghỉ >= 0,12 giây), để cân nhịp theo tốc độ nói chứ không theo cả quãng nghỉ."""
+    import numpy as np
+    sr = sr or SR; h = int(sr * 0.02); n = len(x) // h
+    if n == 0: return len(x) / sr
+    e = np.sqrt((np.asarray(x[:n * h], dtype='float64').reshape(n, h) ** 2).mean(1))
+    im = e < 10 ** (-35 / 20) * max(e.max(), 1e-9)
+    tot = 0; run = 0
+    for v in list(im) + [False]:
+        if v: run += 1
+        else:
+            if run >= 6: tot += run
+            run = 0
+    return max(0.5, (n - tot) * 0.02)
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('ten'); ap.add_argument('--goc', required=True); ap.add_argument('--kich-ban', required=True)
     ap.add_argument('--moc', required=True); ap.add_argument('--f0', type=float, default=147); ap.add_argument('--wps', type=float, default=3.9)
@@ -40,7 +56,7 @@ def main():
     ns = sorted(int(os.path.splitext(f)[0]) for f in os.listdir(a.goc) if f.endswith('.mp3'))
     tmp = tempfile.mkdtemp(); cand = {}
     for n in ns:
-        x = doc(f'{a.goc}/{n}.mp3'); dur = len(x) / SR; f0 = f0_trung_vi(x); wps = len(txt[str(n)].split()) / dur
+        x = doc(f'{a.goc}/{n}.mp3'); dur = len(x) / SR; f0 = f0_trung_vi(x); wps = len(txt[str(n)].split()) / thoi_gian_noi(x)
         s = min(a.tempo_max, max(a.tempo_min, a.wps / wps)); full = min(1.15, max(0.87, a.f0 / f0))
         for m, r in (('A', 1.0), ('B', full), ('C', 1 + 0.5 * (full - 1))):
             o = f'{tmp}/{n}{m}.mp3'
@@ -51,7 +67,7 @@ def main():
     for n in ns:
         best = None
         for m in 'ABC':
-            g = doc(cand[(n, m)]); f0 = f0_trung_vi(g); wps = len(txt[str(n)].split()) / (len(g) / SR)
+            g = doc(cand[(n, m)]); f0 = f0_trung_vi(g); wps = len(txt[str(n)].split()) / thoi_gian_noi(g)
             td = float(np.sqrt(((vec(g) - ref) ** 2).mean()))
             sc = td + 3 * max(0, abs(f0 - a.f0) / a.f0 - 0.04) + 2 * max(0, abs(wps - a.wps) / a.wps - 0.08)
             if best is None or sc < best[0]: best = (sc, m, td, f0, wps, len(g) / SR)

@@ -9,8 +9,8 @@ Tập 1: **Con mắt trên tờ một đô la** (Đại ấn nước Mỹ). Mẫ
 5. Kết quả: Henry Wallace đưa ý tưởng, Tổng thống Roosevelt chọn in lên tờ 1 đô la, in từ mùa hè 1935.
 6. Ý nghĩa: theo Bộ Ngoại giao Mỹ: kim tự tháp là sức mạnh, bền vững; con mắt và Annuit Coeptis nói đến sự phù hộ của Thiên Ý. Lời đánh giá khác (hội kín…) KHÔNG đưa vào lời kể.
 
-## Lời kể (12 đoạn, 324 chữ, dự tính khoảng 93 giây; dài hơn mức 60–80 giây, xin chủ kênh duyệt hoặc bỏ đoạn 52005)
-File giọng: `ke-hoach/thu-giong-hai/dola1_full.json` (dải số 52001–52012; `text` đọc, `hien` phụ đề).
+## Lời kể (14 đoạn, 324 chữ, dự tính khoảng 93 giây; dài hơn mức 60–80 giây, xin chủ kênh duyệt hoặc bỏ đoạn 52005)
+File giọng: `ke-hoach/thu-giong-hai/dola1_full.json` (dải số 52001–52014; `text` đọc, `hien` phụ đề). Đoạn dài đã tách ở dấu chấm.
 
 52001. Bạn có biết, trên tờ một đô la có một kim tự tháp thiếu chóp, và phía trên nó là một con mắt đang nhìn bạn?
 52002. Đó là mặt sau của Đại ấn nước Mỹ, được Quốc hội thông qua ngày hai mươi tháng Sáu năm một nghìn bảy trăm tám mươi hai.
@@ -19,27 +19,29 @@ File giọng: `ke-hoach/thu-giong-hai/dola1_full.json` (dải số 52001–52012
 52005. Nhưng Quốc hội để đề nghị đó nằm yên suốt sáu năm, qua ba ủy ban.
 52006. Cuối cùng, luật sư William Barton đề nghị kim tự tháp có con mắt trên đỉnh, và thư ký Quốc hội Charles Thomson ghép mọi ý tưởng lại.
 52007. Annuit Coeptis nghĩa là, Ngài chấp thuận việc chúng ta làm. Novus Ordo Seclorum nghĩa là, một trật tự mới của các thời đại.
-52008. Theo Bộ Ngoại giao Mỹ, kim tự tháp mười ba bậc tượng trưng cho sức mạnh và sự bền vững. Dưới đáy ghi năm một nghìn bảy trăm bảy mươi sáu bằng số La Mã.
-52009. Rồi mặt sau ấy bị bỏ quên. Năm một nghìn chín trăm ba mươi bốn, Bộ trưởng Nông nghiệp Henry Wallace đọc về nó và thấy nó chưa từng được dùng.
-52010. Ông mang đến cho Tổng thống Roosevelt. Roosevelt thích con mắt, và đề nghị in con dấu lên tờ một đô la.
-52011. Năm một nghìn chín trăm ba mươi lăm, những tờ một đô la bạc mang hình này bắt đầu được in. Chuyện của Wallace dựa trên hồi ức ông viết nhiều năm sau.
-52012. Vậy một con mắt vẽ cách đây hơn hai trăm năm còn kể được gì về cách người Mỹ nhìn chính họ? Hẹn bạn ở video tiếp theo.
+52008. Theo Bộ Ngoại giao Mỹ, kim tự tháp mười ba bậc tượng trưng cho sức mạnh và sự bền vững.
+52009. Dưới đáy ghi năm một nghìn bảy trăm bảy mươi sáu bằng số La Mã.
+52010. Rồi mặt sau ấy bị bỏ quên. Năm một nghìn chín trăm ba mươi bốn, Bộ trưởng Nông nghiệp Henry Wallace đọc về nó và thấy nó chưa từng được dùng.
+52011. Ông mang đến cho Tổng thống Roosevelt. Roosevelt thích con mắt, và đề nghị in con dấu lên tờ một đô la.
+52012. Năm một nghìn chín trăm ba mươi lăm, những tờ một đô la bạc mang hình này bắt đầu được in.
+52013. Chuyện của Wallace dựa trên hồi ức ông viết nhiều năm sau.
+52014. Vậy một con mắt vẽ cách đây hơn hai trăm năm còn kể được gì về cách người Mỹ nhìn chính họ? Hẹn bạn ở video tiếp theo.
 
-## Bảng đoạn → câu hỏi → cảnh → hiệu ứng
+## Bảng đoạn → câu hỏi → cảnh → hiệu ứng (số đoạn trong bảng là số gốc 1–12 theo thứ tự; đoạn 8 và 11 được tách làm hai, cảnh và hiệu ứng dùng chung)
 | Đoạn | Câu hỏi | Cảnh và ảnh | Hiệu ứng chính |
 |---|---|---|---|
-| 52001 | 1 | Zoom thẳng vào mặt sau tờ 1 đô la; vòng đỏ khoanh con mắt; chữ 'CON MẮT?' dán lên như mảnh giấy | zoom chậm + khoanh vòng + nhãn đỏ xé giấy |
-| 52002 | 1, 2 | Tờ tiền lùi ra, ảnh mặt sau Đại ấn trượt vào; nhãn đỏ 'ĐẠI ẤN NƯỚC MỸ'; tem ngày '20/6/1782' đóng dấu | trượt giấy + tem đóng dấu |
-| 52003 | 2, 4 | Tuyên ngôn Độc lập (tư liệu) trượt vào, tem '4/7/1776'; ba chân dung (CHỦ KÊNH CUNG CẤP) dán lần lượt, mỗi ảnh một nhãn tên | ảnh dán lần lượt + tem |
-| 52004 | 4 | Hai mảnh giấy cạnh nhau: hình Moses (khắc cũ) và bản phác du Simitière; zoom vào tam giác, tia sáng quét qua | chia đôi khung + zoom chi tiết |
-| 52005 | 3, 5 | Tờ phác bị đóng dấu 'TẠM HOÃN'; đồng hồ năm chạy 1776 → 1780 → 1782, ba tấm giấy xếp chồng | dấu đóng + số đếm chạy |
-| 52006 | 3, 4 | Bản vẽ Barton: kim tự tháp dựng từng bậc, con mắt hạ xuống đỉnh; các mảnh (mắt, khiên, đại bàng) bay vào ghép | dựng từng bậc + mảnh bay vào |
-| 52007 | 6 | Zoom từng dải chữ Latin; bản dịch đóng dấu bên dưới từng dải | zoom + chữ gõ từng ký tự |
-| 52008 | 6 | Đếm 13 bậc bằng chấm vàng; zoom đáy, 'MDCCLXXVI' đổi thành '1776' | đếm chấm + chữ biến đổi |
-| 52009 | 5 | Giấy ngả vàng, bụi; chân dung Wallace (CHỦ KÊNH CUNG CẤP) nhãn 'BỘ TRƯỞNG NÔNG NGHIỆP · 1934' | lọc màu cũ + hạt giấy |
-| 52010 | 5 | Ảnh Wallace → Roosevelt (CHỦ KÊNH CUNG CẤP), mũi tên giấy nối; con mắt sáng lên; tờ 1 đô la hiện | mũi tên vẽ + vòng sáng |
-| 52011 | 5 | Tờ 1 đô la series 1935 (nhà nước Mỹ, miền công cộng) trượt vào, chồng tiền rơi; chú thích nhỏ 'HỒI ỨC WALLACE · 1951, 1955' | tiền rơi + chú thích |
-| 52012 | — | Lùi camera ra tờ 1 đô la, con mắt chớp một lần, vòng sóng lan; nhạc mờ dần | lùi camera + chớp mắt |
+| 1 | 1 | Zoom thẳng vào mặt sau tờ 1 đô la; vòng đỏ khoanh con mắt; chữ 'CON MẮT?' dán lên như mảnh giấy | zoom chậm + khoanh vòng + nhãn đỏ xé giấy |
+| 2 | 1, 2 | Tờ tiền lùi ra, ảnh mặt sau Đại ấn trượt vào; nhãn đỏ 'ĐẠI ẤN NƯỚC MỸ'; tem ngày '20/6/1782' đóng dấu | trượt giấy + tem đóng dấu |
+| 3 | 2, 4 | Tuyên ngôn Độc lập (tư liệu) trượt vào, tem '4/7/1776'; ba chân dung (CHỦ KÊNH CUNG CẤP) dán lần lượt, mỗi ảnh một nhãn tên | ảnh dán lần lượt + tem |
+| 4 | 4 | Hai mảnh giấy cạnh nhau: hình Moses (khắc cũ) và bản phác du Simitière; zoom vào tam giác, tia sáng quét qua | chia đôi khung + zoom chi tiết |
+| 5 | 3, 5 | Tờ phác bị đóng dấu 'TẠM HOÃN'; đồng hồ năm chạy 1776 → 1780 → 1782, ba tấm giấy xếp chồng | dấu đóng + số đếm chạy |
+| 6 | 3, 4 | Bản vẽ Barton: kim tự tháp dựng từng bậc, con mắt hạ xuống đỉnh; các mảnh (mắt, khiên, đại bàng) bay vào ghép | dựng từng bậc + mảnh bay vào |
+| 7 | 6 | Zoom từng dải chữ Latin; bản dịch đóng dấu bên dưới từng dải | zoom + chữ gõ từng ký tự |
+| 8 | 6 | Đếm 13 bậc bằng chấm vàng; zoom đáy, 'MDCCLXXVI' đổi thành '1776' | đếm chấm + chữ biến đổi |
+| 9 | 5 | Giấy ngả vàng, bụi; chân dung Wallace (CHỦ KÊNH CUNG CẤP) nhãn 'BỘ TRƯỞNG NÔNG NGHIỆP · 1934' | lọc màu cũ + hạt giấy |
+| 10 | 5 | Ảnh Wallace → Roosevelt (CHỦ KÊNH CUNG CẤP), mũi tên giấy nối; con mắt sáng lên; tờ 1 đô la hiện | mũi tên vẽ + vòng sáng |
+| 11 | 5 | Tờ 1 đô la series 1935 (nhà nước Mỹ, miền công cộng) trượt vào, chồng tiền rơi; chú thích nhỏ 'HỒI ỨC WALLACE · 1951, 1955' | tiền rơi + chú thích |
+| 12 | — | Lùi camera ra tờ 1 đô la, con mắt chớp một lần, vòng sóng lan; nhạc mờ dần | lùi camera + chớp mắt |
 
 ## Ghi chú độ chắc
 - Chắc (Bộ Ngoại giao Mỹ "The Great Seal of the United States", Monticello): ủy ban 04/07/1776 (Adams, Franklin, Jefferson); Franklin đề nghị Moses; du Simitière đề xuất con mắt trong tam giác tỏa sáng; ba ủy ban; Barton đề xuất kim tự tháp; Thomson ghép và chọn hai câu Latin; thông qua 20/06/1782; kim tự tháp 13 bậc tượng trưng sức mạnh, bền vững; MDCCLXXVI = 1776.

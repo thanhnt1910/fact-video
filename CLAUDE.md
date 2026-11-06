@@ -371,3 +371,14 @@ Mẫu ảnh: `assets/bia/HAN1/bia_v3.png`. Mã tạo: `python assets/bia/tao_bia
 - **Tiêu đề chữ Việt phải đọc được ở cỡ điện thoại:** phông Oswald 700 cỡ khoảng 206 px; viền ngoài là LỚP RIÊNG phía sau chữ (không dùng `-webkit-text-stroke` trên chữ chính vì ăn mất dấu); khung chữ có padding trên 50 px dưới 60 px để không cắt dấu dưới (Ạ, Ị); hai dòng cách nhau đủ để dấu mũ dòng dưới không chạm dòng trên. Phông Be Vietnam Pro Black quá nhỏ dấu, Anton dính dấu: không dùng cho tiêu đề.
 - **Tự kiểm trước khi giao:** xem ảnh cắt vùng tiêu đề ở cỡ lớn và bản thu 270×480; mọi dấu phải thấy rõ (dấu chấm dưới Ạ, mũ trên Â/Ô, huyền, sắc). Không giao khi chưa kiểm.
 - Phông (OFL) ở `assets/bia/fonts/`. Mẫu cũ `assets/bia/HAN1/tao_bia.py` (nền khung video) giữ để tham khảo, không dùng cho bố cục mới.
+
+## Câu kết mời xem tập sau (chủ kênh yêu cầu 06/11/2026, áp dụng loạt "Chuyện cai trị ngàn năm" và mọi video có số tập)
+- Sau câu hỏi mở cuối cùng, thêm đúng một đoạn ngắn: "Hẹn bạn ở tập tiếp theo." (khoảng 2 giây, đoạn riêng, không gộp vào câu hỏi). Câu hỏi vẫn là câu gây tò mò mạnh nhất, câu mời chỉ đặt sau nó.
+- Cố định một câu cho cả loạt, không đổi chữ giữa các tập. Tập 2 (44016) và tập 3 (45019) đã có.
+- Đọc riêng đoạn này (`cum.txt` = 1, giọng Orus, file nhỏ chỉ chứa đoạn mới), ghép vào bản giọng gốc không chỉnh âm thanh, nhận dạng lại, rồi dựng. Cảnh cuối của trang dựng kéo dài đến hết video nên không cần thêm cảnh.
+- Tập 1 đã giao trước quy tắc này; thêm vào khi chủ kênh yêu cầu.
+
+## Vị trí trên bản đồ phải nằm trên đất liền (chủ kênh nhắc 06/11/2026, từ tập 3: chấm thành và Nhật Nam rơi ra biển)
+- Mọi điểm thành, quận, quân cờ phải nằm trên đất liền. Kiểm bằng màu ảnh nền `map_relief.jpg` (công thức px/py trong `trang.html`: x = (lon-102)*520*cos23°*0,5, y = (24,8-lat)*520*0,5 + 1482); điểm biển có xanh dương lớn hơn đỏ. Điểm rải ngẫu nhiên (chấm thành) phải tạo bằng mã, loại điểm nằm biển hoặc cách biển dưới 0,2 độ, rồi nhúng danh sách cố định vào file cảnh.
+- Tọa độ quận trong `trang.html` (ví dụ `NN` Nhật Nam) có thể nằm biển ở khung hình khác: kiểm từng điểm trước khi dựng, ghi đè tọa độ riêng trong file cảnh của tập.
+- Trước khi giao xem khung hình mọi cảnh có điểm thành, không chỉ vài khung mẫu.

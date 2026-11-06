@@ -26,10 +26,10 @@ for i, (st, p) in enumerate(lst):
     inp += ['-i', str(p)]; flt.append(f'[{i}]adelay={int(st*1000)}:all=1[a{i}]')
 flt.append(''.join(f'[a{i}]' for i in range(len(lst))) + f'amix=inputs={len(lst)}:normalize=0:duration=longest,apad=whole_dur={total:.2f}[m]')
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', *inp, '-filter_complex', ';'.join(flt), '-map', '[m]', '-t', f'{total:.2f}', '-ar', '44100', '-ac', '2', str(D / 'giong.wav')], check=True)
-# làm giọng to và rõ hơn: nén nhẹ, tăng dải 2-4 kHz cho rõ chữ, chuẩn giọng -15,2 LUFS (cả video với hiệu ứng khoảng -14) (mức hay dùng cho video ngắn trên điện thoại)
+# làm giọng to và rõ hơn: nén nhẹ, tăng dải 2-4 kHz cho rõ chữ, chuẩn giọng -14 LUFS (mức hay dùng cho video ngắn trên điện thoại)
 if '--khong-to' not in sys.argv:
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / 'giong.wav'), '-af',
-        'acompressor=threshold=-24dB:ratio=3:attack=5:release=120:makeup=3,equalizer=f=3000:t=q:w=1:g=3,loudnorm=I=-15.2:TP=-1.5:LRA=7,alimiter=limit=0.89',
+        'acompressor=threshold=-24dB:ratio=3:attack=5:release=120:makeup=3,equalizer=f=3000:t=q:w=1:g=3,loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.8:level=disabled',
         '-ar', '44100', '-ac', '2', str(D / 'giong_to.wav')], check=True)
     VOICE = 'giong_to.wav'
 else: VOICE = 'giong.wav'
@@ -43,7 +43,7 @@ if sfx_ok:
         pg.goto('file://' + str(D / 'trang.html')); pg.wait_for_timeout(500); ev = pg.evaluate('window.SFX||[]'); br.close()
     sfx.write(str(D / 'sfx.wav'), sfx.render(ev, total), total)
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / VOICE), '-i', str(D / 'sfx.wav'), '-filter_complex',
-        '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.89[m]',
+        '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.8:level=disabled[m]',
         '-map', '[m]', '-ar', '44100', '-ac', '2', str(D / 'tron.wav')], check=True)
     print('tiếng hiệu ứng:', len(ev), 'sự kiện')
 AUD = 'tron.wav' if sfx_ok else VOICE

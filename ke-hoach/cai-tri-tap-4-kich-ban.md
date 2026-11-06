@@ -10,7 +10,7 @@ Theo mẫu tập 1–3: mở "Bạn có biết, …?", mốc năm có trường 
 | 46002 | Năm 42 sau Công nguyên, Mã Viện, hiệu Phục Ba tướng quân, đem quân nhà Hán tiến xuống phương Nam. |
 | 46003 | Theo Đại Việt sử ký toàn thư, Mã Viện cho quân đi men theo bờ biển, phá núi mở đường hơn một nghìn dặm. |
 | 46004 | Tháng giêng năm ấy, quân Hán gặp quân của Trưng Vương ở Lãng Bạc. |
-| 46005 | Thấy quân Hán mạnh, Trưng Vương lui về giữ Cấm Khê, còn quân sĩ cho rằng một nữ tướng khó thắng nổi nên bỏ chạy tan rã. |
+| 46005 | Thấy quân Hán mạnh, Trưng Vương lui về giữ Cấm Khê. Quân sĩ cho rằng một nữ tướng khó thắng nổi, nên bỏ chạy tan rã. |
 | 46006 | Sang năm 43, hai chị em tiếp tục chống cự, nhưng bị cô lập và thất bại. |
 | 46007 | Mã Viện đuổi theo tàn quân của Đô Dương đến Cư Phong và đánh bại họ. |
 | 46008 | Về việc hai bà mất ra sao, các sách chép khác nhau, nên video không kể như điều chắc chắn. |

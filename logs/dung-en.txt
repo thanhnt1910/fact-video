@@ -199,3 +199,52 @@ Bản KHÔNG GIỌNG: thời lượng ước 16.5 phút, 88 đoạn
    … 81/97 (813s)
    … 91/97 (929s)
 ✅ AN1_thu.mp4: 16.54 phút, 185 MB; bản xem nhanh 11 MB
+Đã có 29 ảnh
+Giọng Orus: 15 cụm
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   🎙️  đọc xong 1 cụm 8 đoạn (21s)
+  cụm 1/15 ✔
+   🎙️  đọc xong 1 cụm 8 đoạn (22s)
+  cụm 2/15 ✔
+   🎙️  đọc xong 1 cụm 7 đoạn (18s)
+  cụm 3/15 ✔
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 8 đoạn (21s)
+  cụm 4/15 ✔
+   🎙️  đọc xong 1 cụm 5 đoạn (28s)
+  cụm 5/15 ✔
+   🎙️  đọc xong 1 cụm 4 đoạn (9s)
+  cụm 6/15 ✔
+   🎙️  đọc xong 1 cụm 5 đoạn (14s)
+  cụm 7/15 ✔
+   🎙️  đọc xong 1 cụm 5 đoạn (10s)
+  cụm 8/15 ✔
+   🎙️  đọc xong 1 cụm 8 đoạn (17s)
+  cụm 9/15 ✔
+   🎙️  đọc xong 1 cụm 5 đoạn (13s)
+  cụm 10/15 ✔
+   🎙️  đọc xong 1 cụm 4 đoạn (13s)
+  cụm 11/15 ✔
+   🎙️  đọc xong 1 cụm 5 đoạn (11s)
+  cụm 12/15 ✔
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 5 đoạn (15s)
+  cụm 13/15 ✔
+   🎙️  đọc xong 1 cụm 5 đoạn (16s)
+  cụm 14/15 ✔
+   🎙️  đọc xong 1 cụm 6 đoạn (14s)
+  cụm 15/15 ✔
+Giọng xong: 14.6 phút, 88 đoạn
+74 cảnh, 93 đoạn hình
+   … 1/93 (100s)
+   … 11/93 (221s)
+   … 21/93 (334s)
+   … 31/93 (415s)
+   … 41/93 (543s)
+   … 51/93 (668s)
+   … 61/93 (766s)
+   … 71/93 (896s)
+   … 81/93 (975s)
+   … 91/93 (1074s)
+Giọng gốc: không cân âm lượng, không chỉnh tốc độ
+✅ AN1_dai.mp4: 14.60 phút, 186 MB; bản xem nhanh 17 MB

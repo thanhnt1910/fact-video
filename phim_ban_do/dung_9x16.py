@@ -26,6 +26,20 @@ for i, (st, p) in enumerate(lst):
     inp += ['-i', str(p)]; flt.append(f'[{i}]adelay={int(st*1000)}:all=1[a{i}]')
 flt.append(''.join(f'[a{i}]' for i in range(len(lst))) + f'amix=inputs={len(lst)}:normalize=0:duration=longest,apad=whole_dur={total:.2f}[m]')
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', *inp, '-filter_complex', ';'.join(flt), '-map', '[m]', '-t', f'{total:.2f}', '-ar', '44100', '-ac', '2', str(D / 'giong.wav')], check=True)
+# tiếng hiệu ứng: lấy sự kiện từ trang dựng, tổng hợp, trộn bằng sidechain (tự hạ khi có giọng đọc)
+sfx_ok = '--khong-sfx' not in sys.argv
+if sfx_ok:
+    sys.path.insert(0, str(D)); import sfx
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as pw:
+        br = pw.chromium.launch(args=['--allow-file-access-from-files']); pg = br.new_page(viewport={'width': 1080, 'height': 1920})
+        pg.goto('file://' + str(D / 'trang.html')); pg.wait_for_timeout(500); ev = pg.evaluate('window.SFX||[]'); br.close()
+    sfx.write(str(D / 'sfx.wav'), sfx.render(ev, total), total)
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / 'giong.wav'), '-i', str(D / 'sfx.wav'), '-filter_complex',
+        '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first[m]',
+        '-map', '[m]', '-ar', '44100', '-ac', '2', str(D / 'tron.wav')], check=True)
+    print('tiếng hiệu ứng:', len(ev), 'sự kiện')
+AUD = 'tron.wav' if sfx_ok else 'giong.wav'
 N = int(total * FPS) if thu is None else int(thu * FPS)
 # khung hình
 RECS = r'''
@@ -49,5 +63,5 @@ for i in range(nproc):
 for p in procs:
     if p.wait(): sys.exit('Chụp khung lỗi')
 (D / 'list.txt').write_text(''.join(f"file '{D / f'p{i}.mp4'}'\n" for i in range(len(procs))))
-subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(D / 'list.txt'), '-i', str(D / 'giong.wav'), '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', out], check=True)
+subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(D / 'list.txt'), '-i', str(D / AUD), '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', out], check=True)
 print('xong', out, f'{total:.1f} giây')

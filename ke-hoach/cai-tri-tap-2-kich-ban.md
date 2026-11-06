@@ -1,6 +1,6 @@
 # Chuyện cai trị ngàn năm · #02 "Nhâm Diên" — kịch bản bản chờ chủ kênh duyệt (06/11/2026)
 
-File giọng: `ke-hoach/thu-giong-hai/han2v4_full.json` (16 đoạn, 44001–44016, 413 chữ, ước tính khoảng 130 giây ở 3,3 chữ/giây; tập 1 dựng 134 giây). Bản nháp cũ (AI viết, đoạn 42001–42014, `han2_full.json`) giữ lại, không dùng.
+File giọng: `ke-hoach/thu-giong-hai/han2v4_full.json` (15 đoạn, 44001–44015, khoảng 390 chữ, ước tính khoảng 120 giây ở 3,3 chữ/giây; tập 1 dựng 134 giây). Bản nháp cũ (AI viết, đoạn 42001–42014, `han2_full.json`) giữ lại, không dùng.
 `python phim_ban_do/kiem_kich_ban.py han2v4`: 0 ❌, 5 ⚠️ (đoạn 31–32 chữ, dưới mức tối đa 32; 44012 có dấu hai chấm, chỉ nhắc).
 Theo mẫu tập 1 (`han1v4_full.json`): mở bằng "Bạn có biết, …?", nguồn ngay đoạn 3, mốc năm có trường `hien`, tổng kết rồi "Nhưng câu chuyện chưa dừng ở đó…", đúng một câu hỏi cuối.
 
@@ -19,10 +19,9 @@ Theo mẫu tập 1 (`han1v4_full.json`): mở bằng "Bạn có biết, …?", n
 | 44010 | Sử cũng ghi, nhiều nhà sinh con trai đã đặt tên con là Nhâm, theo tên vị Thái thú ấy. |
 | 44011 | Cùng thời ấy, Tích Quang, người Hán Trung, cũng dạy dân lễ nghĩa ở vùng đất này. Sử chép rằng văn giáo Lĩnh Nam bắt đầu từ hai vị Thái thú. |
 | 44012 | Nhưng không phải ai cũng tin. Khâm định Việt sử thông giám cương mục hỏi: Triệu Đà từng cai trị vùng này, lẽ nào chưa dạy dân cày cấy và cưới hỏi? |
-| 44013 | Vì thế, bộ sử ấy kết luận lời chép này chưa chính xác, chưa đủ tin cậy. Nên ta chỉ biết được những gì sử còn ghi lại. |
-| 44014 | Dù vậy, sử sách vẫn nhớ đến Nhâm Diên như một viên Thái thú gắn bó với dân. Ông dạy dân làm ruộng, lo chuyện cưới hỏi, và được dân nhớ ơn. |
-| 44015 | Nhưng câu chuyện chưa dừng ở đó. Về sau, Thái thú Giao Chỉ là Tô Định bị sử chép là tham lam và tàn bạo. |
-| 44016 | Người dân đã đáp lại sự cai trị ấy như thế nào? |
+| 44013 | Bộ sử ấy cho rằng lời chép này chưa đủ tin cậy. Dù vậy, sử sách vẫn nhớ Nhâm Diên là viên Thái thú được dân nhớ ơn. |
+| 44014 | Nhưng câu chuyện chưa dừng ở đó. Về sau, Thái thú Giao Chỉ là Tô Định bị sử chép là tham lam và tàn bạo. |
+| 44015 | Người dân đã đáp lại sự cai trị ấy như thế nào? |
 
 ## Nguồn và cách đã đọc (mục 9 khung kịch bản)
 - **Lời kể chỉ lấy từ Đại Việt sử ký toàn thư**, Ngoại kỷ quyển 3, mục Kỷ Sửu (năm 29, Kiến Vũ năm thứ 5, Hán Quang Vũ). Bản dịch Anh ở sites.google.com/hawaii.edu/viettexts (ĐVSKTT NK 3). **Đọc qua công cụ tóm tắt trang, hỏi hai lượt; chưa tải nguyên văn đọc từng dòng, chưa có bản chữ Hán.** Theo mục 7, các trích dẫn dưới đây phải kiểm lại bằng bản gốc trước khi đăng.
@@ -48,7 +47,7 @@ Theo mẫu tập 1 (`han1v4_full.json`): mở bằng "Bạn có biết, …?", n
 ## Điểm cần chủ kênh quyết định
 1. **Chi tiết chỉ có ở Cương mục (nguồn Hậu Hán thư), đã bỏ khỏi lời kể** theo quy tắc nguồn: đúc nông cụ dạy dân (dân chưa biết cày bằng trâu, hay mua lúa từ Giao Chỉ); lễ cưới (Lạc Việt chưa có lễ hôn nhân); Nhâm Diên gửi thư cho các huyện, ghép nam 20–50 tuổi với nữ 15–40 tuổi; năm ấy thời tiết thuận, mùa màng bội thu; lời cha mẹ "người cho tôi có đứa con này là Nhâm quân"; đền thờ là sinh từ. Duyệt thì thêm thành 2–3 đoạn (khoảng 20 giây), nhưng phải ghi rõ "theo Hậu Hán thư" vì không có ở Toàn thư.
 2. **Chức "trưởng lại"** (bản dịch "senior subaltern"): lời kể chỉ nói "quan lại cấp dưới" vì chưa đối chiếu bản chữ Hán.
-3. **Đoạn 44012–44013 (nghi ngờ của Cương mục):** "Ngự phê" hỏi Triệu Đà là người có học, lẽ nào chưa biết dạy cày cấy, cưới hỏi mà đợi đến hai Thái thú; kết luận sách vở chưa chính xác, chưa đủ tin cậy. Bản dịch không nêu tên vua nên lời kể chỉ ghi "bộ Khâm định Việt sử thông giám cương mục". Cũng cần xem Cương mục dùng chữ "hai Thái thú" cho Tích Quang và Nhâm Diên có nghĩa gì. Muốn bỏ hai đoạn này (rút còn 14 đoạn, 115 giây) thì được; giữ thì tập có thêm nhịp tranh luận.
+3. **Đoạn 44012–44013 (nghi ngờ của Cương mục):** "Ngự phê" hỏi Triệu Đà là người có học, lẽ nào chưa biết dạy cày cấy, cưới hỏi mà đợi đến hai Thái thú; kết luận sách vở chưa chính xác, chưa đủ tin cậy. Bản dịch không nêu tên vua nên lời kể chỉ ghi "bộ Khâm định Việt sử thông giám cương mục". Cũng cần xem Cương mục dùng chữ "hai Thái thú" cho Tích Quang và Nhâm Diên có nghĩa gì. Muốn bỏ hai đoạn này (rút còn 13 đoạn, khoảng 105 giây) thì được; giữ thì tập có thêm nhịp tranh luận.
 4. **Năm Nhâm Diên nhậm chức:** Toàn thư chép ở năm 29, Hậu Hán thư (qua Cương mục) chỉ nói đầu thời Kiến Vũ. Lời kể giữ "sử chép tiếp" để khỏi nói sai.
 
 ## Bố cục cuốn hút (kiểm theo mục 24/10)
@@ -58,7 +57,7 @@ Theo mẫu tập 1 (`han1v4_full.json`): mở bằng "Bạn có biết, …?", n
 - Phần sáng tạo cách kể: mở bằng kết cục (đền thờ, đặt tên con) rồi mới kể nguyên nhân; tất cả đều là sự kiện được kể đầy đủ ở thân tập. Không đổi sự kiện, không bịa lời thoại hay nội tâm, không có truyền thuyết.
 
 ## Móc sang tập 3
-Đoạn 44015–44016: Tô Định, Thái thú Giao Chỉ, bị sử chép là tham lam và tàn bạo; dân đáp lại thế nào. Đúng với Toàn thư mục Kỷ Hợi (39): "Thái thú Giao Chỉ Tô Định tham lam, tàn bạo… Trưng Vương dấy binh đánh". Tập 3 nên mở lại bằng chính câu này.
+Đoạn 44014–44015: Tô Định, Thái thú Giao Chỉ, bị sử chép là tham lam và tàn bạo; dân đáp lại thế nào. Đúng với Toàn thư mục Kỷ Hợi (39): "Thái thú Giao Chỉ Tô Định tham lam, tàn bạo… Trưng Vương dấy binh đánh". Tập 3 nên mở lại bằng chính câu này.
 
 ## Việc kế tiếp (chờ chủ kênh duyệt, chưa làm)
 Giọng Orus (`file.txt` = han2v4_full.json, `cum.txt` = 15, đẩy `chay.txt`), nhận dạng, `kiem_giong.py`, nội dung bản đồ (Cửu Chân, Giao Chỉ, huyện Uyển ở phía bắc), dựng, `kiem_video.py`, bìa theo mẫu `assets/bia/tao_bia_mau.py`.

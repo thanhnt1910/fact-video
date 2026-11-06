@@ -18,8 +18,8 @@
 còn thiếu 15 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
    [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 43001-43015: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 06:49:06
-OK cụm 43001 - 43015 129.5 giây
+   [giọng] nhóm 44001-44015: model=gemini-3.8-flash-tts (interactions) voice=Orus style=c0565b4d/C dự_phòng=False lúc 2026-11-06 09:16:59
+OK cụm 44001 - 44015 107.1 giây
 [báo cáo giọng] 15/15 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions

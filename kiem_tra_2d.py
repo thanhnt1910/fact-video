@@ -25,6 +25,12 @@ SERIES = {
                   '"co_chu_bieu_tuong": <true nếu có chữ hoặc ký tự nhìn rõ trên cờ, biển, vật>, '),
         "cac_loi": {"bao_luc": "có máu hoặc cảnh giết (không được)", "co_chu_bieu_tuong": "có chữ hoặc ký tự"},
     },
+    "DOLA": {
+        "era": "vật không đúng nước Mỹ thế kỷ 18: đèn điện, kính hiện đại, bút bi, giấy máy in, đồ nhựa, máy tính",
+        "extra": ('"co_chu_bieu_tuong": <true nếu có chữ, số hoặc ký tự nhìn rõ trên ảnh>, '
+                  '"co_nguoi": <true nếu thấy người hoặc khuôn mặt (ảnh này phải không có người)>, '),
+        "cac_loi": {"co_chu_bieu_tuong": "có chữ hoặc số", "co_nguoi": "có người hoặc mặt người (không được)"},
+    },
     "TQ": {
         "era": "vật, trang phục không đúng Đông Hán năm 184-192 SCN: áo kiểu Minh/Thanh, bím tóc Mãn Thanh, trang điểm hí kịch, bàn đạp ngựa, súng, đường nhựa có vạch kẻ, cột điện, đèn điện / bóng đèn / chao đèn / đèn bàn / đèn lồng thủy tinh, cửa sổ kính ô vuông, ổ cắm hoặc công tắc trên tường, khung tranh, sách đóng gáy hiện đại, cốc có quai kiểu phương Tây, ghế kiểu phương Tây, vật hiện đại",
         "extra": ('"ngua_loi": <true nếu có con ngựa bị méo thân, thừa/thiếu chân, đầu sai, yên cương sai thời; ngựa vẽ đúng thì false>, '

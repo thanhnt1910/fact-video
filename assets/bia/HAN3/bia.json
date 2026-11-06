@@ -1,0 +1,23 @@
+{
+ "the_nam": "40 SAU CÔNG NGUYÊN",
+ "the_trieu": "NHÀ HÁN",
+ "d1": "HAI BÀ",
+ "d2": "ĐỦ SỨC?",
+ "phu": "CHUYỆN CAI TRỊ NGÀN NĂM",
+ "phu_vang": "· TẬP 3",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [
+  [
+   105.45,
+   21.3
+  ],
+  [
+   106.3,
+   21.05
+  ]
+ ],
+ "lon0": 103.2,
+ "scale": 0.5,
+ "oy": -780
+}

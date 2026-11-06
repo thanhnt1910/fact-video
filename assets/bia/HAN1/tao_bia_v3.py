@@ -21,7 +21,8 @@ html = f'''<!doctype html><meta charset=utf-8><style>
  radial-gradient(ellipse at 50% 66%,rgba(5,12,22,.62) 0,rgba(5,12,22,0) 62%),
  linear-gradient(180deg,rgba(5,12,22,.55) 0,rgba(5,12,22,0) 16%,rgba(5,12,22,0) 36%,rgba(5,12,22,.5) 60%,rgba(8,22,40,.78) 82%,rgba(10,26,46,.92) 100%)}}
 .ab{{position:absolute;left:0;width:1080px;text-align:center;white-space:nowrap;text-transform:uppercase;line-height:1}}
-.big{{font-family:O;font-weight:700;font-size:196px;letter-spacing:2px;-webkit-text-stroke:6px #3a0907;paint-order:stroke fill;filter:drop-shadow(0 10px 0 rgba(0,0,0,.45)) drop-shadow(0 0 28px rgba(220,40,25,.55))}}
+.big{{font-family:O;font-weight:700;font-size:206px;letter-spacing:2px;padding:50px 0 60px;margin-top:-50px}}
+.bk{{color:#2a0504;-webkit-text-stroke:16px #2a0504;filter:drop-shadow(0 10px 0 rgba(0,0,0,.5)) drop-shadow(0 0 30px rgba(220,40,25,.6))}}
 .w{{background:linear-gradient(180deg,#fff 30%,#f3e6c8 100%);-webkit-background-clip:text;color:transparent}}
 .y{{background:linear-gradient(180deg,#fff2a8 5%,#ffc928 45%,#f08a00 100%);-webkit-background-clip:text;color:transparent}}
 .pill{{position:absolute;display:inline-block;font-family:B;color:#fff;letter-spacing:1px;border:3px solid #f2c14e;background:linear-gradient(180deg,#c3201a,#85100b);box-shadow:0 6px 22px rgba(0,0,0,.55);white-space:nowrap}}
@@ -32,11 +33,13 @@ html = f'''<!doctype html><meta charset=utf-8><style>
 <svg style="position:absolute;left:0;top:0" width=1080 height=1920><defs><radialGradient id=g><stop offset="0" stop-color="#ff7a2a" stop-opacity=".95"/><stop offset=".45" stop-color="#ff4a1a" stop-opacity=".45"/><stop offset="1" stop-color="#ff3b1a" stop-opacity="0"/></radialGradient></defs>{dots}</svg>
 <div class=pill style="left:36px;top:70px;font-size:70px;padding:12px 40px 8px;border-radius:14px;font-family:A;letter-spacing:3px">110 TRƯỚC CÔNG NGUYÊN</div>
 <div class=pill style="left:36px;top:190px;font-size:44px;padding:8px 30px;border-radius:12px;background:linear-gradient(180deg,#fff,#e9dcc0);color:#8d0f0a;border-color:#8d0f0a;transform:rotate(-3deg)">NHÀ HÁN</div>
-<div class=rule style="left:90px;width:900px;top:905px"></div>
-<div class="ab big w acc" style="top:985px">CHÍN QUẬN</div>
-<div class="ab big y acc" style="top:1190px">RỒI SAO?</div>
-<div class=rule style="left:90px;width:900px;top:1392px"></div>
-<div class=ab style="top:1418px"><span class=pill style="position:static;font-size:38px;padding:14px 40px;border-radius:40px;background:rgba(8,20,36,.82)">CHUYỆN CAI TRỊ NGÀN NĂM <span style="color:#ffd45a">· TẬP 1</span></span></div>
+<div class=rule style="left:90px;width:900px;top:900px"></div>
+<div class="ab big bk" style="top:965px">CHÍN QUẬN</div>
+<div class="ab big bk" style="top:1235px">RỒI SAO?</div>
+<div class="ab big w" style="top:965px">CHÍN QUẬN</div>
+<div class="ab big y" style="top:1235px">RỒI SAO?</div>
+<div class=rule style="left:90px;width:900px;top:1478px"></div>
+<div class=ab style="top:1505px"><span class=pill style="position:static;font-size:38px;padding:14px 40px;border-radius:40px;background:rgba(8,20,36,.82)">CHUYỆN CAI TRỊ NGÀN NĂM <span style="color:#ffd45a">· TẬP 1</span></span></div>
 <div class=ab style="top:1640px;font-family:BB;font-size:64px;letter-spacing:10px;color:#f2e2b0;text-shadow:0 4px 18px rgba(0,0,0,.8)">NGƯỜI GÁC SỬ</div>
 <div class=rule style="left:200px;width:680px;top:1730px"></div>
 <div class=ab style="top:1752px;font-family:B;font-size:32px;letter-spacing:3px;color:#d9c89a;text-shadow:0 3px 12px rgba(0,0,0,.8)">LỊCH SỬ THEO CHÍNH SỬ</div>

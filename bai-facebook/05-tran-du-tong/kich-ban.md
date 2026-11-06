@@ -1,4 +1,4 @@
-# Bài 5: Trần Dụ Tông, vị vua lên ngôi lúc 6 tuổi và người nối ngôi là con của một diễn viên sân khấu
+# Bài 5: Trần Dụ Tông, vị vua lên ngôi lúc 6 tuổi và người nối ngôi là con của một kép hát
 
 Trạng thái: bản nháp chờ chủ kênh duyệt (4/11/2026; viết lại lời đời thường 6/11/2026 theo yêu cầu chủ kênh). Đã chọn 5 ảnh (thư mục `anh/`).
 
@@ -19,7 +19,7 @@ Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**,
 
 Ông lên ngôi lúc 6 tuổi và ở ngôi 28 năm.
 
-Đến khi mất, ông không có con. Ngôi vua nhà Trần rơi vào tay một người mang họ Dương, con của một diễn viên sân khấu.
+Đến khi mất, ông không có con. Ngôi vua nhà Trần rơi vào tay một người mang họ Dương, con của một kép hát.
 
 Ông là Trần Dụ Tông. Vì sao việc ấy xảy ra?
 
@@ -96,7 +96,7 @@ Sớ dâng lên không được trả lời. Ông treo mũ quan, từ chức v�
 ⚰️ **Tháng 5 năm 1369**
 Ngày 25 tháng 5 năm 1369, Dụ Tông mất ngay trong phòng ngủ chính của vua, sau 28 năm ở ngôi, thọ 34 tuổi. Toàn thư ghi ông không có con. Trước khi mất, ông ra lệnh đón Nhật Lễ vào nối ngôi.
 
-Toàn thư kể về Nhật Lễ: ông là con của diễn viên sân khấu tên Dương Khương. Mẹ ông cũng là người diễn trên sân khấu, từng đóng vai Vương Mẫu. Cung Túc Vương Dục thấy bà xinh đẹp, lấy làm vợ khi bà đang có thai. Đến khi sinh con, Dục nhận làm con mình.
+Toàn thư kể về Nhật Lễ: ông là con của kép hát tên Dương Khương. Mẹ ông là đào hát, từng đóng vai Vương Mẫu. Cung Túc Vương Dục thấy bà xinh đẹp, lấy làm vợ khi bà đang có thai. Đến khi sinh con, Dục nhận làm con mình.
 
 Hiến Từ thái hậu, mẹ của Dụ Tông, nói với các quan: "Dục là con trưởng của vợ chính mà không được làm vua, lại mất sớm. Nhật Lễ chẳng phải là con của Dục sao?"
 
@@ -133,7 +133,7 @@ Nguồn của bài:
 
 Cần phân biệt:
 • Việc ai quyết định đón Nhật Lễ: Toàn thư chép ở hai chỗ. Một chỗ nói trước khi mất nhà vua xuống chiếu đón Nhật Lễ, chỗ khác nói ngày 15 tháng 6 Hiến Từ thái hậu sai người đón. Bài ghi cả hai, không nhập thành một.
-• Nguồn gốc Nhật Lễ (con của diễn viên sân khấu Dương Khương) là lời Toàn thư kể, chưa đối chiếu được sách nào khác.
+• Nguồn gốc Nhật Lễ (con của kép hát Dương Khương) là lời Toàn thư kể, chưa đối chiếu được sách nào khác.
 • Câu "nhà vua tự biết mình không sống lâu, càng thả sức chơi bời" là cách Toàn thư giải thích; bài chỉ thuật lại.
 • Toàn thư có chỗ ghi nhầm niên hiệu: "Thiệu Phong năm thứ 7" cho năm Minh Tông mất (nên là năm thứ 17, 1357). Bài theo năm dương lịch trong ngoặc của bản dịch.
 • "Thất trảm sớ": Toàn thư không ghi năm dâng sớ.

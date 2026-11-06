@@ -5,7 +5,7 @@ Thứ tự theo Đại Việt sử ký toàn thư (Ngoại kỷ, kỷ thuộc nh
 | Tập | Chủ đề | Mốc (Toàn thư) | Móc cuối tập |
 |---|---|---|---|
 | 1 | Chín quận: nhà Hán đặt quan, Đặng Nhượng quy phục, Tích Quang | 110 TCN – 29 | "Ở Cửu Chân còn có Thái thú Nhâm Diên. Vì sao dân đặt tên con theo họ ông?" |
-| 2 | Nhâm Diên dạy dân cày cấy, lo cưới hỏi, được lập đền | đầu Đông Hán (khoảng 29–33) | "Năm 39, Thái thú Giao Chỉ Tô Định tham lam tàn bạo. Dân đáp lại thế nào?" |
+| 2 | Nhâm Diên dạy dân cày cấy, lo cưới hỏi, được lập đền (kịch bản: `cai-tri-tap-2-kich-ban.md`, `han2v4_full.json`, chờ duyệt) | Toàn thư mục năm 29 (chưa rõ năm nhậm chức) | "Năm 39, Thái thú Giao Chỉ Tô Định tham lam tàn bạo. Dân đáp lại thế nào?" |
 | 3 | Tô Định và cuộc nổi dậy của Trưng Vương | 39 – 40 | (viết sau) Nhà Hán phản ứng ra sao |
 | 4 | Mã Viện sang đánh | 41 – 43 | (viết sau) |
 | ... | các tập giữa: đọc tiếp Toàn thư (Hạ Phương 160, Chu Ngung 178) | | |

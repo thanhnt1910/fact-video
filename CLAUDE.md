@@ -403,3 +403,23 @@ Cách áp dụng:
 - **Tự kiểm trước khi đọc giọng:** lập bảng đoạn → câu hỏi (1–6) nó trả lời. Đoạn nào không thuộc câu hỏi nào thì bỏ hoặc gộp; câu hỏi nào không có đoạn nào thì bổ sung hoặc ghi lý do bỏ. Ghi bảng này vào mục "Ghi chú độ chắc" để chủ kênh duyệt.
 - **Video dọc ngắn:** vẫn dùng khung, nhưng chỉ chọn câu 1, 2 và một trong 3 hoặc 5 làm trục; các câu còn lại nằm ở phần mô tả hoặc ở video khác trong loạt.
 - Khung này bổ sung, không thay thế các quy tắc về nguồn, giọng kể, bố cục cuốn hút, họ tên đủ và đoạn ngắn cho giọng đọc ở các mục trên.
+
+## Bài học tập 2 dựng lại (chủ kênh phê bình 07/11/2026): giọng lệch, câu lặp, hiệu ứng đơn giản, icon dưới biển, chữ chồng chữ. Áp dụng mọi video từ nay
+Lỗi: tôi giao video khi mới xem 8 khung thu nhỏ, kiểm giọng chỉ bằng ngưỡng khớp 90%, và chưa chạy kiểm tự động nào cho video đã dựng. Không lặp lại.
+
+**Giọng đọc**
+- Đọc lại đoạn lỗi bằng `cum=1` làm giọng khác hẳn các đoạn đọc trong cụm 15 (nhịp, âm sắc). Khi phải đọc lại vài đoạn: đọc lại CẢ cụm kề (đoạn lỗi cùng các đoạn trước và sau, cùng `cum`), hoặc đọc lại cả video nếu còn hạn mức; không chèn đoạn đọc riêng vào video đọc theo cụm.
+- Trước khi dựng bắt buộc in bảng chữ/giây từng đoạn: đoạn lệch quá 15% so với trung vị (tập 2: 49011 và 49022 khoảng 4,7, 49023 chỉ 2,6, trung vị khoảng 3,6) phải đọc lại, không chỉ chờ nhận dạng.
+- Khớp 90% không đủ: ngưỡng cho qua cả "ập tục" (tập), "tuyền bá" (truyền bá), chữ thừa "ừ". Đoạn nào ASR có chữ lạ hoặc thiếu chữ so với kịch bản đều phải đọc lại, đặt ngưỡng 95% và so từng chữ.
+- Lặp câu: ngoài kiểm đầu lặp đuôi câu trước, kiểm cụm 3–6 chữ lặp liền nhau trong cùng đoạn (đã gặp "Lẽ nào chưa ạ? Lẽ nào chưa ạ?" ở 49025 lượt đầu). Sau khi dựng nghe lại chỗ nối các đoạn đã đọc lại; nghi ngờ thì hỏi số đoạn, không tự cho là sạch.
+- `kiem_video.py` phải chạy được cho video 9x16 (có `phude_<tên>.json`) và báo 0 ❌ trước khi giao; không chạy được thì nói thẳng "chưa kiểm tự động", không viết như đã kiểm.
+
+**Bản đồ: icon, nhãn, quân**
+- Mỗi điểm đặt trên bản đồ (thành, quân cờ, đồ vật, ruộng, tiền, cờ) phải nằm trên đất liền, kể cả điểm quân trong cặp, hàng, vòng tròn. Trước khi dựng chạy kiểm `sea(lon,lat)` cho TẤT CẢ điểm của từng cảnh, bao gồm bù (offset) và điểm giữa đường đi; cảnh nào có điểm biển thì sửa. Chủ kênh vẫn thấy icon dưới biển ở tập 2 (Nhật Nam, cặp người kết hôn, nhóm quân quanh Giao Chỉ).
+- Không vật nào đè lên chữ khác: kiểm hộp bao của mọi nhãn và icon trong cùng một cảnh, không giao nhau, cách vùng phụ đề (y 1290–1500) và các dòng năm, nguồn, logo. Chữ trên cảnh không đè lên nhãn tên thành (đã thấy "Đền thờ khi còn sống" đè "Cửu Chân", nhãn "Nhâm Diên" đè "Cửu Chân", "Đặng Nhượng" sát "Giao Chỉ").
+- Xem khung hình thật ở cỡ lớn (tối đa 3 khung một tấm) cho MỌI cảnh, mỗi cảnh ở đầu, giữa, lúc nhiều vật nhất; không chỉ 8 khung thu nhỏ.
+
+**Hiệu ứng**
+- Cảnh chỉ có một hai chấm và một icon đứng yên là quá đơn giản. Mỗi cảnh cần ít nhất ba lớp chuyển động có nghĩa: camera zoom hoặc trượt tới vị trí; vật xuất hiện, di chuyển, biến đổi theo lời (đường nét đứt, quân đi, vùng đổi màu, số đếm, vòng sóng); chi tiết nền (đường, sông, ruộng, thành). Đồ vật minh họa (đền, nông cụ, văn thư, đồng tiền) phải vẽ đủ chi tiết như cột đồng, kèm nhãn, không chỉ khối màu.
+- Cảnh quan trọng (đền thờ, nông cụ, lễ cưới, thu thuế) zoom vào đúng nơi, vẽ vật to chiếm vùng giữa khung rồi mới thu về bản đồ. Không dùng chung một mẫu "thành + chấm + chữ" cho mọi cảnh.
+- Trước khi giao nêu cho chủ kênh danh sách cảnh còn đơn giản thay vì tuyên bố đã xong; chủ kênh đã nói rõ cần "áp dụng cách dựng mới", phải so với video cột đồng đã duyệt.

@@ -1032,13 +1032,13 @@
 "tone": "story"
 },
 "45015": {
-"nhom": "45001-45018",
+"nhom": "45015-45015",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Orus",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-06 10:28:11",
+"thoi_diem": "2026-11-06 13:06:35",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"

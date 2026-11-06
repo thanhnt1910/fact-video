@@ -1,6 +1,6 @@
 # Chuyện cai trị ngàn năm · #02 "Nhâm Diên" — kịch bản bản chờ chủ kênh duyệt (06/11/2026)
 
-File giọng: `ke-hoach/thu-giong-hai/han2v4_full.json` (15 đoạn, 44001–44015, khoảng 390 chữ, ước tính khoảng 120 giây ở 3,3 chữ/giây; tập 1 dựng 134 giây). Bản nháp cũ (AI viết, đoạn 42001–42014, `han2_full.json`) giữ lại, không dùng.
+File giọng: `ke-hoach/thu-giong-hai/han2v5_full.json` (bản chốt 06/11 sau khi ghép ý của chủ kênh; han2v4 là bản trước). Khi đọc giọng dùng han2v5.
 `python phim_ban_do/kiem_kich_ban.py han2v4`: 0 ❌, 5 ⚠️ (đoạn 31–32 chữ, dưới mức tối đa 32; 44012 có dấu hai chấm, chỉ nhắc).
 Theo mẫu tập 1 (`han1v4_full.json`): mở bằng "Bạn có biết, …?", nguồn ngay đoạn 3, mốc năm có trường `hien`, tổng kết rồi "Nhưng câu chuyện chưa dừng ở đó…", đúng một câu hỏi cuối.
 

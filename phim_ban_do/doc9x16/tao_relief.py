@@ -22,6 +22,7 @@ sea = gaussian_filter(sea.astype('float32'), 1.2) > 0.5
 from scipy.ndimage import label
 lab, nl = label(sea); sz = np.bincount(lab.ravel()); big = sz > 60000; big[0] = False
 sea = big[lab]          # chỉ giữ biển lớn; sông và hồ nhỏ coi như đất, giữ nguyên nét vẽ
+river = (lab > 0) & ~sea
 land = ~sea
 d_land = distance_transform_edt(land)      # px vào trong đất
 d_sea = distance_transform_edt(sea)        # px ra biển
@@ -58,22 +59,24 @@ shade = np.clip(0.5 + (-gx * 0.7 - gy * 0.7) * 0.9, 0, 1)
 shade = (shade - 0.5) * 1.5 + 1.0
 
 out = a.copy()
-# màu đất theo độ cao: đồng bằng vàng nhạt -> đồi xanh ô-liu -> núi nâu
-base = a.copy()
-lowc = np.array([0.80, 0.74, 0.50]); olive = np.array([0.55, 0.58, 0.30]); brown = np.array([0.50, 0.38, 0.24]); peak = np.array([0.80, 0.74, 0.62])
-e = np.clip(elev, 0, 1)[..., None]
-col = lowc * (1 - np.clip(e * 2.2, 0, 1)) + olive * np.clip(e * 2.2, 0, 1)
-col = col * (1 - np.clip((e - 0.45) * 2.5, 0, 1)) + brown * np.clip((e - 0.45) * 2.5, 0, 1)
-col = col * (1 - np.clip((e - 0.85) * 4, 0, 1)) + peak * np.clip((e - 0.85) * 4, 0, 1)
-# giữ lại chi tiết gốc (sông, ký hiệu núi) bằng cách trộn
-col = col * 0.62 + base * 0.38
-col = col * shade[..., None]
-# hạt giấy
-grain = gaussian_filter(rng.standard_normal((H, W)).astype('float32'), 0.8) * 0.018
-col = col + grain[..., None]
-# đất gần bờ sáng ấm
+# địa hình thật: Natural Earth (domain công cộng), cắt đúng vùng, phóng 4 lần rồi thêm chi tiết mịn
+G = np.asarray(Image.open(f'{D}/gray_crop.png').convert('L').resize((W, H), Image.BICUBIC)).astype('float32') / 255
+C = np.asarray(Image.open(f'{D}/ne1_crop.png').convert('RGB').resize((W, H), Image.BICUBIC)).astype('float32') / 255
+fine = fbm(5, 3) * 0.05 + fbm(14, 3) * 0.05
+g = gaussian_filter(G, 0.8)
+rel = np.clip((g - g.mean()) * 2.4 + 0.5 + fine * (0.5 + elev), 0, 1)
+tone = np.array([1.02, 0.97, 0.82])                      # ngả màu da giấy cũ
+base_col = np.clip(C * tone, 0, 1)
+parch = np.array([0.80, 0.70, 0.46])
+col = base_col * 0.80 + parch * 0.20
+lum = 0.55 + 0.95 * rel                                   # sáng tối theo bóng núi
+col = col * lum[..., None]
+col = col + (grain := gaussian_filter(rng.standard_normal((H, W)).astype('float32'), 0.8) * 0.014)[..., None]
 rim_in = np.exp(-d_land / 18)[..., None]
 col = col + rim_in * np.array([0.10, 0.07, 0.01]) * land[..., None]
+# sông giữ từ bản vẽ gốc
+rv = gaussian_filter(river.astype('float32'), 0.8)[..., None]
+col = col * (1 - rv * 0.9) + np.array([0.20, 0.50, 0.66]) * rv * 0.9
 out = np.where(land[..., None], col, out)
 
 # biển: sâu dần khi xa bờ, sóng mờ, bờ nước nông xanh ngọc

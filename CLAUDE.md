@@ -363,3 +363,11 @@ Các bước chuẩn hóa trước đây (cân tốc độ `atempo`, cân cao đ
 - Dựng bằng `python phim_ban_do/dung_9x16.py <tên> assets/thu_giong_hai/<tên>_goc <ra.mp4> --khong-to` (tắt chuỗi nén, EQ, loudnorm của giọng). Phần tiếng hiệu ứng vẫn tự hạ khi có giọng; không đụng giọng.
 - Đoạn nào Gemini đọc sai chữ (nhận dạng lệch dưới 90%) thì đọc lại đoạn đó (tối đa 3 lần) và chọn bản đọc đúng nhất; không tìm cách "chữa" bằng xử lý âm thanh. Báo chủ kênh đoạn nào còn lệch thay vì tự chỉnh.
 - Nhận dạng giọng (`phude_asr.py`, `kiem_giong.py`) chỉ để đo và tính phụ đề, không làm thay đổi file âm thanh.
+
+## Ảnh bìa dọc 1080×1920: mẫu đã duyệt, dùng cho mọi video cùng bố cục (chủ kênh duyệt 06/11/2026, từ tập 1 "Chín quận")
+Mẫu ảnh: `assets/bia/HAN1/bia_v3.png`. Mã tạo: `python assets/bia/tao_bia_mau.py <cau_hinh.json> [ra.png]`; cấu hình mẫu `assets/bia/HAN1/bia.json` (chạy lại cho ra đúng ảnh đã duyệt, sai khác 0). Tập mới: sao chép `bia.json` sang `assets/bia/<MÃ>/`, đổi chữ, danh sách điểm (kinh, vĩ), `lon0`, `scale`, `oy`.
+- **Bố cục:** bản đồ địa hình phủ kín khung (`map_relief.jpg`), chấm điểm phát sáng ở nửa trên; thẻ đỏ viền vàng góc trái trên (mốc năm); thẻ trắng nghiêng (triều đại hoặc bên chính); tiêu đề hai dòng giữa ảnh (dòng 1 trắng ngà, dòng 2 vàng, dòng 2 là câu hỏi gây tò mò); thẻ tên loạt và số tập; chân trang thương hiệu "NGƯỜI GÁC SỬ" + khẩu hiệu "LỊCH SỬ THEO CHÍNH SỬ". Logo cây đèn góc trên phải đúng quy tắc logo ở mục "Ảnh bìa video".
+- **Chữ chính nằm trong y 70–1560.** Vùng đáy Facebook/TikTok che; chân trang chỉ là thương hiệu. Không để đáy ảnh đen trơn: bản đồ mờ dần sang xanh biển đậm cùng chân trang.
+- **Tiêu đề chữ Việt phải đọc được ở cỡ điện thoại:** phông Oswald 700 cỡ khoảng 206 px; viền ngoài là LỚP RIÊNG phía sau chữ (không dùng `-webkit-text-stroke` trên chữ chính vì ăn mất dấu); khung chữ có padding trên 50 px dưới 60 px để không cắt dấu dưới (Ạ, Ị); hai dòng cách nhau đủ để dấu mũ dòng dưới không chạm dòng trên. Phông Be Vietnam Pro Black quá nhỏ dấu, Anton dính dấu: không dùng cho tiêu đề.
+- **Tự kiểm trước khi giao:** xem ảnh cắt vùng tiêu đề ở cỡ lớn và bản thu 270×480; mọi dấu phải thấy rõ (dấu chấm dưới Ạ, mũ trên Â/Ô, huyền, sắc). Không giao khi chưa kiểm.
+- Phông (OFL) ở `assets/bia/fonts/`. Mẫu cũ `assets/bia/HAN1/tao_bia.py` (nền khung video) giữ để tham khảo, không dùng cho bố cục mới.

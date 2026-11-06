@@ -12,14 +12,14 @@ function T(p,x,y,txt,size,fill,sw=10,anchor='middle',stroke=DK){const t=el(p,'te
 // ----- bản đồ toàn khung
 const df=el(S,'defs',{});df.innerHTML=`<linearGradient id="tf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb98f" stop-opacity="1"/><stop offset="1" stop-color="#bdb98f" stop-opacity="0"/></linearGradient><linearGradient id="tf" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#bdb98f" stop-opacity="1"/><stop offset="1" stop-color="#bdb98f" stop-opacity="0"/></linearGradient><linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16293d" stop-opacity="0"/><stop offset="1" stop-color="#16293d" stop-opacity="1"/></linearGradient><radialGradient id="vig" cx=".5" cy=".42" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".62"/></radialGradient><linearGradient id="ts" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0b08" stop-opacity=".55"/><stop offset="1" stop-color="#0d0b08" stop-opacity="0"/></linearGradient><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#ffcf6a" stop-opacity=".25"/><stop offset="1" stop-color="#ffcf6a" stop-opacity="0"/></radialGradient><linearGradient id="brush" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7d0f0f"/><stop offset=".5" stop-color="#d11d1d"/><stop offset="1" stop-color="#8a1010"/></linearGradient><filter id="bl"><feGaussianBlur stdDeviation="38"/></filter>`;
 el(S,'rect',{width:1080,height:1920,fill:'#16293d'});
-const LON0=102.0,LAT1=24.8,KX=520*Math.cos(23*Math.PI/180),MS=.5,IW=3542,IH=1716;
+const LON0=102.0,LAT1=24.8,KX=520*Math.cos(23*Math.PI/180),MS=.5,IW=3542,IH=4420,IY=-1482;
 const px=lon=>(lon-LON0)*KX*MS,py=lat=>(LAT1-lat)*520*MS;
 const WCX=540,WCY=855;let CAM={lon:109.2,lat:21.6,z:112};
 function P(lon,lat){const s=CAM.z/(KX*MS),cx=px(CAM.lon),cy=py(CAM.lat);return[WCX+(px(lon)-cx)*s,WCY+(py(lat)-cy)*s]}
 const mapG=el(S,'g',{});
-el(mapG,'rect',{x:-4000,y:-6000,width:12000,height:6000,fill:'#bdb98f'});el(mapG,'rect',{x:-4000,y:IH,width:12000,height:6000,fill:'#16293d'});
-el(mapG,'rect',{x:-4000,y:-6000,width:4000,height:12000,fill:'#bdb98f'});el(mapG,'rect',{x:IW,y:-6000,width:4000,height:12000,fill:'#bdb98f'});
-el(mapG,'image',{href:'map_relief.jpg',x:0,y:0,width:IW,height:IH});el(mapG,'rect',{x:0,y:0,width:IW,height:260,fill:'url(#tf2)'});el(mapG,'rect',{x:0,y:IH-300,width:IW,height:300,fill:'url(#bf)'});
+el(mapG,'rect',{x:-4000,y:IY-6000,width:12000,height:6000,fill:'#bdb98f'});el(mapG,'rect',{x:-4000,y:IY+IH,width:12000,height:6000,fill:'#16293d'});
+el(mapG,'rect',{x:-4000,y:IY-6000,width:4000,height:IH+12000,fill:'#bdb98f'});el(mapG,'rect',{x:IW,y:IY-6000,width:4000,height:IH+12000,fill:'#bdb98f'});
+el(mapG,'image',{href:'map_relief.jpg',x:0,y:IY,width:IW,height:IH});el(mapG,'rect',{x:0,y:IY,width:IW,height:260,fill:'url(#tf2)'});el(mapG,'rect',{x:0,y:IY+IH-300,width:IW,height:300,fill:'url(#bf)'});
 function setCam(c){CAM=c;const s=c.z/(KX*MS);mapG.setAttribute('transform',`translate(${WCX},${WCY}) scale(${s}) translate(${-px(c.lon)},${-py(c.lat)})`)}
 const tintG=el(S,'g',{});// vùng nhuộm màu theo cảnh
 const OV=el(S,'g',{});

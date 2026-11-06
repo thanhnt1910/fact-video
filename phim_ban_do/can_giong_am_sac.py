@@ -34,14 +34,14 @@ def vec(x):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('ten'); ap.add_argument('--goc', required=True); ap.add_argument('--kich-ban', required=True)
     ap.add_argument('--moc', required=True); ap.add_argument('--f0', type=float, default=147); ap.add_argument('--wps', type=float, default=3.9)
-    ap.add_argument('--ra', required=True)
+    ap.add_argument('--ra', required=True); ap.add_argument('--tempo-min', type=float, default=0.90); ap.add_argument('--tempo-max', type=float, default=1.10)
     a = ap.parse_args()
     txt = {str(x['n']): x['text'] for x in json.load(open(a.kich_ban, encoding='utf-8'))}
     ns = sorted(int(os.path.splitext(f)[0]) for f in os.listdir(a.goc) if f.endswith('.mp3'))
     tmp = tempfile.mkdtemp(); cand = {}
     for n in ns:
         x = doc(f'{a.goc}/{n}.mp3'); dur = len(x) / SR; f0 = f0_trung_vi(x); wps = len(txt[str(n)].split()) / dur
-        s = min(1.10, max(0.90, a.wps / wps)); full = min(1.15, max(0.87, a.f0 / f0))
+        s = min(a.tempo_max, max(a.tempo_min, a.wps / wps)); full = min(1.15, max(0.87, a.f0 / f0))
         for m, r in (('A', 1.0), ('B', full), ('C', 1 + 0.5 * (full - 1))):
             o = f'{tmp}/{n}{m}.mp3'
             subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', f'{a.goc}/{n}.mp3', '-af', f'rubberband=pitch={r:.4f}:tempo={s:.4f}:formant=preserved:transients=crisp:phase=independent:window=short,loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '24000', o], check=True)

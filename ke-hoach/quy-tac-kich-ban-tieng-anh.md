@@ -41,3 +41,9 @@ Chủ kênh yêu cầu ghi chi tiết ngày 04/11/2026, rút ra từ lần tự 
 
 ## F. Giọng đọc gốc (chủ kênh yêu cầu 07/11/2026, áp dụng kênh tiếng Anh từ AN1)
 - Giọng Orus lấy nguyên bản Gemini trả về: không cân âm lượng (`loudnorm`), không chỉnh tốc độ (`atempo`). Bật bằng `"giong_goc": true` trong `<chủ đề>.json`. Quy tắc "chuẩn hóa ở bước âm thanh" trong CLAUDE.md không áp cho kênh này.
+
+## G. Xem lại toàn bộ video sau khi dựng (chủ kênh yêu cầu 07/11/2026, áp dụng mọi video tiếng Anh)
+- Dựng xong phải xem lại TOÀN BỘ video trước khi giao, không chỉ vài khung mẫu:
+  1. Lặp chữ: nhận dạng lại giọng trong video (ASR) và đối chiếu từng câu với lời đọc; đầu câu đọc lại đuôi câu trước, cuối câu lẫn đầu câu sau, từ lặp liền nhau, thừa/mất chữ đều phải đọc lại câu đó. Nghe lại các chỗ nối câu nghi ngờ.
+  2. Hình ảnh: trích khung hình dày (mỗi 2–3 giây và mọi chỗ đổi cảnh), xem ở cỡ lớn từng khung: chữ lạ, vật hiện đại, thừa tay/người, khung đen/đứng hình, nhãn bản đồ đè phụ đề hoặc đè nhau, ảnh không khớp lời kể.
+  3. Ghi kết quả (số câu kiểm, lỗi tìm thấy, đã sửa gì) vào bản gửi chủ kênh. Có lỗi thì sửa và dựng lại, không giao.

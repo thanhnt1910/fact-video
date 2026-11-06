@@ -34,7 +34,7 @@ What this video covers:
 • The main theories about how the men died
 
 Chapters:
-(điền mốc thời gian sau khi dựng)
+
 
 Real history. Real documents. No made-up details. If a part of the story is disputed, we tell you.
 

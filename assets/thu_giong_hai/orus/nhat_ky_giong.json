@@ -1224,13 +1224,13 @@
 "tone": "story"
 },
 "49002": {
-"nhom": "49001-49015",
+"nhom": "49002-49002",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Orus",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-06 15:52:48",
+"thoi_diem": "2026-11-06 15:59:53",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1332,13 +1332,13 @@
 "tone": "story"
 },
 "49011": {
-"nhom": "49001-49015",
+"nhom": "49011-49011",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Orus",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-06 15:52:48",
+"thoi_diem": "2026-11-06 15:59:57",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1488,25 +1488,25 @@
 "tone": "story"
 },
 "49024": {
-"nhom": "49016-49030",
+"nhom": "49024-49024",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Orus",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-06 15:53:13",
+"thoi_diem": "2026-11-06 16:00:01",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
 },
 "49025": {
-"nhom": "49016-49030",
+"nhom": "49025-49025",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Orus",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-06 15:53:13",
+"thoi_diem": "2026-11-06 16:00:05",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"

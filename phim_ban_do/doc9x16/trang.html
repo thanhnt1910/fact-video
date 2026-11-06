@@ -10,7 +10,7 @@ const GAP=(window.DURS?.4:.5);const DUR={};let acc=.3;const TS={};SCRIPT.forEach
 const R=n=>TS[43000+n],E=n=>TS[43000+n]+DUR[43000+n];
 function T(p,x,y,txt,size,fill,sw=10,anchor='middle',stroke=DK){const t=el(p,'text',{x,y,'font-size':size,fill,stroke,'stroke-width':sw,'text-anchor':anchor});t.textContent=txt;return t}
 // ----- bản đồ toàn khung
-const df=el(S,'defs',{});df.innerHTML=`<linearGradient id="tf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb98f" stop-opacity="1"/><stop offset="1" stop-color="#bdb98f" stop-opacity="0"/></linearGradient><linearGradient id="tf" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#bdb98f" stop-opacity="1"/><stop offset="1" stop-color="#bdb98f" stop-opacity="0"/></linearGradient><linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16293d" stop-opacity="0"/><stop offset="1" stop-color="#16293d" stop-opacity="1"/></linearGradient><radialGradient id="vig" cx=".5" cy=".42" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".62"/></radialGradient><linearGradient id="ts" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0b08" stop-opacity=".55"/><stop offset="1" stop-color="#0d0b08" stop-opacity="0"/></linearGradient><filter id="bl"><feGaussianBlur stdDeviation="38"/></filter>`;
+const df=el(S,'defs',{});df.innerHTML=`<linearGradient id="tf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb98f" stop-opacity="1"/><stop offset="1" stop-color="#bdb98f" stop-opacity="0"/></linearGradient><linearGradient id="tf" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#bdb98f" stop-opacity="1"/><stop offset="1" stop-color="#bdb98f" stop-opacity="0"/></linearGradient><linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16293d" stop-opacity="0"/><stop offset="1" stop-color="#16293d" stop-opacity="1"/></linearGradient><radialGradient id="vig" cx=".5" cy=".42" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".62"/></radialGradient><linearGradient id="ts" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0b08" stop-opacity=".55"/><stop offset="1" stop-color="#0d0b08" stop-opacity="0"/></linearGradient><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#ffcf6a" stop-opacity=".25"/><stop offset="1" stop-color="#ffcf6a" stop-opacity="0"/></radialGradient><linearGradient id="brush" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7d0f0f"/><stop offset=".5" stop-color="#d11d1d"/><stop offset="1" stop-color="#8a1010"/></linearGradient><filter id="bl"><feGaussianBlur stdDeviation="38"/></filter>`;
 el(S,'rect',{width:1080,height:1920,fill:'#16293d'});
 const LON0=102.0,LAT1=24.8,KX=520*Math.cos(23*Math.PI/180),MS=.5,IW=3542,IH=1716;
 const px=lon=>(lon-LON0)*KX*MS,py=lat=>(LAT1-lat)*520*MS;
@@ -19,7 +19,7 @@ function P(lon,lat){const s=CAM.z/(KX*MS),cx=px(CAM.lon),cy=py(CAM.lat);return[W
 const mapG=el(S,'g',{});
 el(mapG,'rect',{x:-4000,y:-6000,width:12000,height:6000,fill:'#bdb98f'});el(mapG,'rect',{x:-4000,y:IH,width:12000,height:6000,fill:'#16293d'});
 el(mapG,'rect',{x:-4000,y:-6000,width:4000,height:12000,fill:'#bdb98f'});el(mapG,'rect',{x:IW,y:-6000,width:4000,height:12000,fill:'#bdb98f'});
-el(mapG,'image',{href:'map_pretty.jpg',x:0,y:0,width:IW,height:IH});el(mapG,'rect',{x:0,y:0,width:IW,height:260,fill:'url(#tf2)'});el(mapG,'rect',{x:0,y:IH-300,width:IW,height:300,fill:'url(#bf)'});
+el(mapG,'image',{href:'map_relief.jpg',x:0,y:0,width:IW,height:IH});el(mapG,'rect',{x:0,y:0,width:IW,height:260,fill:'url(#tf2)'});el(mapG,'rect',{x:0,y:IH-300,width:IW,height:300,fill:'url(#bf)'});
 function setCam(c){CAM=c;const s=c.z/(KX*MS);mapG.setAttribute('transform',`translate(${WCX},${WCY}) scale(${s}) translate(${-px(c.lon)},${-py(c.lat)})`)}
 const tintG=el(S,'g',{});// vùng nhuộm màu theo cảnh
 const OV=el(S,'g',{});
@@ -29,7 +29,7 @@ const topShade=el(S,'rect',{width:1080,height:300,fill:'url(#ts)'});
 const fr=el(S,'g',{});el(fr,'rect',{x:14,y:14,width:1052,height:1892,rx:8,fill:'none',stroke:GOLD,'stroke-width':3,opacity:.75});el(fr,'rect',{x:26,y:26,width:1028,height:1868,rx:4,fill:'none',stroke:GOLD,'stroke-width':1.5,opacity:.45});
 const HUD=el(S,'g',{});
 T(HUD,52,82,'CHUYỆN CAI TRỊ NGÀN NĂM · #01',30,WH,8,'start');
-const YEAR=el(HUD,'g',{opacity:0});const yt=T(YEAR,52,200,'110 TCN',130,WH,16,'start');
+const YEAR=el(HUD,'g',{opacity:0});el(YEAR,'path',{d:'M28 100 L60 92 L430 98 L520 110 L455 150 L500 186 L420 216 L60 222 L34 214 L58 160Z',fill:'url(#brush)',opacity:.92});el(YEAR,'path',{d:'M44 226 L470 224 L505 236 L60 244Z',fill:'#f2b52a',opacity:.9});const yt=T(YEAR,52,200,'110 TCN',130,WH,16,'start');
 T(HUD,52,262,'Nguồn: Đại Việt sử ký toàn thư',24,'#f1e9d2',7,'start');
 el(HUD,'image',{href:'../../assets/logo/nguoi-gac-su.png',x:900,y:52,width:130,height:130,opacity:.85});
 // la bàn
@@ -47,8 +47,10 @@ const barsG=el(S,'g',{});
 function mk(){return el(OV,'g',{})}
 function plc(g,lon,lat,sc=1,rot=0){g.__ll=[lon,lat];const p=P(lon,lat);g.setAttribute('transform',`translate(${p[0]},${p[1]}) scale(${sc}) rotate(${rot})`);return p}
 function lab(g,txt,y,size=34,fill=WH){return T(g,0,y,txt,size,fill,10)}
-function city(col,label,r=17){const g=mk();el(g,'circle',{r:r+12,fill:col,opacity:.3});const c=el(g,'circle',{r,fill:col,stroke:WH,'stroke-width':5});if(label)lab(g,label,-r-18);g.c=c;g.col=col;return g}
-function paint(g,col){g.querySelectorAll('circle').forEach(c=>{if(c.getAttribute('fill')!='none')c.setAttribute('fill',col)})}
+window.TT=0;const PULSES=[];
+function city(col,label,r=17){const g=mk();const h=el(g,'circle',{r:r+30,fill:'url(#halo)',opacity:.9});const w=el(g,'circle',{r:r+4,fill:'none',stroke:col,'stroke-width':4,opacity:0});PULSES.push({g,w,r,ph:Math.random()*2});el(g,'circle',{r:r+10,fill:col,opacity:.28});const c=el(g,'circle',{r,fill:col,stroke:WH,'stroke-width':5});el(g,'circle',{r:r*.38,fill:'#fff',opacity:.9});if(label)lab(g,label,-r-18);g.c=c;g.col=col;return g}
+function tickPulse(t){PULSES.forEach(p=>{const u=((t+p.ph)%2.2)/2.2;p.w.setAttribute('r',p.r+4+u*34);p.w.setAttribute('opacity',(1-u)*.8)})}
+function paint(g,col){g.querySelectorAll('circle').forEach(c=>{const f=c.getAttribute('fill');if(f=='none'){c.setAttribute('stroke',col)}else if(f!='#fff'&&f.indexOf('url')<0)c.setAttribute('fill',col)})}
 function pawn(col,sc=1,label,ly){const g=mk();el(g,'ellipse',{cx:0,cy:4,rx:20,ry:6,fill:'#000',opacity:.3});el(g,'path',{d:'M-17 0 Q-14 -34 0 -40 Q14 -34 17 0Z',fill:col,stroke:DK,'stroke-width':3.5});el(g,'circle',{cx:0,cy:-52,r:13,fill:col,stroke:DK,'stroke-width':3.5});if(label)lab(g,label,ly||-82,32);return g}
 function sack(g,x,y,col='#d9b36b'){const s=el(g,'g',{transform:`translate(${x},${y})`});el(s,'path',{d:'M-20 0 Q-26 -26 -12 -38 L-14 -46 L14 -46 L12 -38 Q26 -26 20 0Z',fill:col,stroke:DK,'stroke-width':3.5,'stroke-linejoin':'round'});el(s,'path',{d:'M-12 -38 L12 -38',stroke:DK,'stroke-width':3});return s}
 function stack(n){const g=mk();const arr=[];for(let i=0;i<8;i++){const row=Math.floor(i/3),col=i%3;arr.push(sack(g,(col-1)*44+(row%2?22:0),-row*38))}g.sacks=arr;g.setN=k=>arr.forEach((s,i)=>s.setAttribute('opacity',cl(k-i)));return g}
@@ -58,6 +60,7 @@ const NN=[106.6,18.6];const Q9=[['Nam Hải',113.26,23.13],['Thương Ngô',111.
 // vùng nhuộm
 const tint=el(tintG,'ellipse',{fill:GRN,opacity:0,filter:'url(#bl)'});
 function setTint(lon,lat,rx,ry,col,op){const p=P(lon,lat),s=CAM.z;tint.setAttribute('cx',p[0]);tint.setAttribute('cy',p[1]);tint.setAttribute('rx',rx*s);tint.setAttribute('ry',ry*s);tint.setAttribute('fill',col);tint.setAttribute('opacity',op*.7)}
+const CLOUDS=[];for(let i=0;i<7;i++){const e=el(tintG,'ellipse',{cy:260+i*210+(i%2)*60,rx:230+i*18,ry:46+i*4,fill:'#fff',opacity:.1,filter:'url(#bl)'});CLOUDS.push({e,x0:i*260,v:9+i*2.5})}
 // ----- cảnh
 const SCN=[];
 function scene(a,b,cam,build){const n0=OV.children.length;const o=build()||{};const own=Array.from(OV.children).slice(n0);SCN.push({own,a,b,cam,upd:o.upd||(()=>{}),yr:o.yr});}
@@ -135,7 +138,7 @@ window.render=function(t){
  let idx=-1;SCN.forEach((s,i)=>{const nx=SCN[i+1];if(t>=s.a&&t<(nx?(nx.a+s.b)/2:s.b))idx=i});if(idx<0)idx=t<SCN[0].a?0:SCN.length-1;const sc=SCN[idx];
  const prev=SCN[Math.max(0,idx-1)].cam,k=ease(cl((t-sc.a)/1.4));setCam({lon:lerp(prev.lon,sc.cam.lon,k),lat:lerp(prev.lat,sc.cam.lat,k),z:lerp(prev.z,sc.cam.z,k)});
  SCN.forEach((s,i)=>s.own.forEach(e=>e.setAttribute('display',i==idx?'inline':'none')));
- sc.upd(0,t);
+ sc.upd(0,t);tickPulse(t);CLOUDS.forEach((c,i)=>{const x=((c.x0+t*c.v)%1500)-200;c.e.setAttribute('cx',x);});
  YEAR.setAttribute('opacity',sc.yr?1:0);if(sc.yr)yt.textContent=sc.yr;
  CH.forEach(c=>{const on=t>=c.a&&t<c.b;c.g.setAttribute('opacity',on?1:0);if(on){const k2=Math.floor(c.ws.length*cl((t-c.a)/(c.b-c.a-.1))+.999);c.ws.forEach((w,i)=>w.setAttribute('fill',i<k2?'#fff':'#a9a493'))}});
  bars.forEach((f,i)=>{const s=SCN[i];f.setAttribute('width',bw*cl((t-s.a)/(s.b-s.a)))});

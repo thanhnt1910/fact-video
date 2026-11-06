@@ -5,6 +5,7 @@ Mỗi khung chụp bằng Chromium (playwright), ghép bằng ffmpeg; âm thanh:
 import json, os, subprocess, sys
 from pathlib import Path
 ten, vd, out = sys.argv[1], sys.argv[2], sys.argv[3]
+trang = sys.argv[sys.argv.index('--trang') + 1] if '--trang' in sys.argv else 'trang.html'
 thu = float(sys.argv[sys.argv.index('--thu') + 1]) if '--thu' in sys.argv else None
 nproc = int(sys.argv[sys.argv.index('--nproc') + 1]) if '--nproc' in sys.argv else 4
 R = Path(__file__).resolve().parent.parent
@@ -44,7 +45,7 @@ if sfx_ok:
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
         br = pw.chromium.launch(args=['--allow-file-access-from-files']); pg = br.new_page(viewport={'width': 1080, 'height': 1920})
-        pg.goto('file://' + str(D / 'trang.html')); pg.wait_for_timeout(500); ev = pg.evaluate('window.SFX||[]'); br.close()
+        pg.goto('file://' + str(D / trang)); pg.wait_for_timeout(500); ev = pg.evaluate('window.SFX||[]'); br.close()
     sfx.write(str(D / 'sfx.wav'), sfx.render(ev, total), total)
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / VOICE), '-i', str(D / 'sfx.wav'), '-filter_complex',
         '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.8:level=disabled[m]',
@@ -70,7 +71,7 @@ q = (N + nproc - 1) // nproc
 procs = []
 for i in range(nproc):
     a, b = i * q, min(N, (i + 1) * q)
-    if a < b: procs.append(subprocess.Popen([sys.executable, str(D / '_rec.py'), str(a), str(b), str(D / f'p{i}.mp4'), str(D / 'trang.html')]))
+    if a < b: procs.append(subprocess.Popen([sys.executable, str(D / '_rec.py'), str(a), str(b), str(D / f'p{i}.mp4'), str(D / trang)]))
 for p in procs:
     if p.wait(): sys.exit('Chụp khung lỗi')
 (D / 'list.txt').write_text(''.join(f"file '{D / f'p{i}.mp4'}'\n" for i in range(len(procs))))

@@ -355,3 +355,11 @@ Mẫu: `ke-hoach/thu-giong-hai/han1v4_full.json` (thay `han1_full.json` làm m�
 - **Kết:** câu "Nhưng câu chuyện chưa dừng ở đó. Cũng trong thời kỳ này, …" giới thiệu nhân vật kế, rồi đúng một câu hỏi mở về điều người xem sẽ thấy ở tập sau ("Ông đã làm điều gì khiến …?").
 - **Kiểm dữ kiện bằng nguồn gốc, không bỏ chi tiết khi chưa tra:** tra Toàn thư (bản chữ Hán tại zh.wikisource.org nếu truy cập được), Cương mục (bản dịch ở sites.google.com/hawaii.edu/viettexts, KĐVSTGCM quyển 2 có Thạch Đái, Đặng Nhượng, Tích Quang, Nhâm Diên), Hán thư và Hậu Hán thư. Chi tiết tra được thì giữ; chỉ sửa chữ khi nguồn nói khác (ví dụ bộ Giao Chỉ lập từ năm 110 trước Công nguyên chứ không phải 106).
 - Đoạn dài 35–41 chữ của mẫu được chủ kênh duyệt nguyên văn, nhưng vẫn nên tách ở dấu câu cho giọng đọc (đoạn dài là nguyên nhân Gemini bỏ chữ).
+
+## Giọng đọc: dùng nguyên giọng gốc của Gemini, KHÔNG chỉnh sửa gì (chủ kênh yêu cầu 06/11/2026, thay mọi bước cân/chuẩn hóa giọng ở các mục trên, áp dụng mọi video từ nay)
+Các bước chuẩn hóa trước đây (cân tốc độ `atempo`, cân cao độ và âm sắc `can_giong_am_sac.py`, `chuan_hoa_giong.py`, `loudnorm`, nén, EQ, làm to giọng) làm giọng khác đi, nghe lệch. Chủ kênh yêu cầu bỏ hết.
+- **Không** áp dụng lên file giọng: `atempo`, `rubberband`, `asetrate`, `loudnorm`, `acompressor`, `equalizer`, `alimiter`, tăng giảm âm lượng, cắt lại theo mốc chữ rồi kéo giãn. Giọng trong video là đúng những byte Gemini trả về (chỉ ghép các đoạn kề nhau).
+- Lượt đọc cả kịch bản một lần (`cum.txt` = 15, giọng Orus), lấy đúng từng đoạn workflow `thu-giong-hai.yml` cắt ra (`assets/thu_giong_hai/orus/<số>.mp3`) làm giọng của video. Dùng bản chép tay của giọng trong thư mục riêng `<tên>_goc/` (chỉ sao chép, kèm `thoi_luong.json` đo thời lượng thật), không đổi gì.
+- Dựng bằng `python phim_ban_do/dung_9x16.py <tên> assets/thu_giong_hai/<tên>_goc <ra.mp4> --khong-to` (tắt chuỗi nén, EQ, loudnorm của giọng). Phần tiếng hiệu ứng vẫn tự hạ khi có giọng; không đụng giọng.
+- Đoạn nào Gemini đọc sai chữ (nhận dạng lệch dưới 90%) thì đọc lại đoạn đó (tối đa 3 lần) và chọn bản đọc đúng nhất; không tìm cách "chữa" bằng xử lý âm thanh. Báo chủ kênh đoạn nào còn lệch thay vì tự chỉnh.
+- Nhận dạng giọng (`phude_asr.py`, `kiem_giong.py`) chỉ để đo và tính phụ đề, không làm thay đổi file âm thanh.

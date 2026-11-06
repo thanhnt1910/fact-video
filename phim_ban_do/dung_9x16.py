@@ -43,7 +43,7 @@ if sfx_ok:
         pg.goto('file://' + str(D / 'trang.html')); pg.wait_for_timeout(500); ev = pg.evaluate('window.SFX||[]'); br.close()
     sfx.write(str(D / 'sfx.wav'), sfx.render(ev, total), total)
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / VOICE), '-i', str(D / 'sfx.wav'), '-filter_complex',
-        '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first[m]',
+        '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.89[m]',
         '-map', '[m]', '-ar', '44100', '-ac', '2', str(D / 'tron.wav')], check=True)
     print('tiếng hiệu ứng:', len(ev), 'sự kiện')
 AUD = 'tron.wav' if sfx_ok else VOICE

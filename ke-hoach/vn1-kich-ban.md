@@ -2,6 +2,21 @@
 
 Mã đoạn 53001–53013. Lời kể: `ke-hoach/thu-giong-hai/vn1_full.json` (13 đoạn, 259 chữ, khoảng 80 giây).
 
+## Lời kể (để duyệt trước khi đọc giọng)
+53001. Bạn có biết, Hà Nội từng mang tên Thăng Long, nghĩa là rồng bay lên, bắt đầu từ một con rồng vàng hiện trên thuyền nhà vua?
+53002. Theo Đại Việt sử ký toàn thư, chuyện xảy ra vào năm một nghìn không trăm mười, dưới thời vua Lý Thái Tổ, tên thật là Lý Công Uẩn.
+53003. Lúc ấy kinh đô là Hoa Lư, nay thuộc Ninh Bình, nơi hai triều Đinh và Tiền Lê từng đóng đô.
+53004. Trong chiếu dời đô, nhà vua viết rằng Hoa Lư ẩm thấp, chật hẹp, không đủ làm chỗ ở của bậc đế vương.
+53005. Ông cho rằng hai triều Đinh và Lê cứ ở mãi một nơi, nên vận nước ngắn ngủi và dân chúng chịu thiệt.
+53006. Nơi ông chọn là thành Đại La, đô cũ của Cao Vương. Đất rộng và phẳng, cao ráo, có thế rồng cuộn hổ ngồi.
+53007. Tháng bảy năm ấy, nhà vua rời Hoa Lư, đi thuyền ra Đại La.
+53008. Khi thuyền đỗ dưới chân thành, sử chép rằng có một con rồng vàng hiện lên ở thuyền của nhà vua.
+53009. Đó là điều sách sử ghi lại, ngày nay không ai kiểm chứng được.
+53010. Cũng theo sử chép, nhà vua đổi tên thành Đại La thành Thăng Long, nghĩa là rồng bay lên.
+53011. Thăng Long trở thành kinh đô của nhà Lý, và vùng đất ấy ngày nay là Hà Nội.
+53012. Theo bạn, điều gì khiến một vị vua dám rời kinh đô cũ để chọn một nơi hoàn toàn mới?
+53013. Hẹn bạn ở video tiếp theo.
+
 ## Khung 6 câu hỏi
 1. **Chuyện gì xảy ra?** Lý Thái Tổ dời kinh đô từ Hoa Lư ra thành Đại La và đổi tên thành Thăng Long.
 2. **Khi nào, ở đâu?** Năm 1010 (Canh Tuất); từ Hoa Lư (nay thuộc Ninh Bình) ra Đại La (nay là Hà Nội). Tháng bảy.
@@ -31,3 +46,9 @@ Mã đoạn 53001–53013. Lời kể: `ke-hoach/thu-giong-hai/vn1_full.json` (1
 
 ## Ghi nguồn cho mô tả và bình luận ghim
 Đại Việt sử ký toàn thư (Bản kỷ, nhà Lý, Thái Tổ); Chiếu dời đô theo Toàn thư.
+
+## Đối chiếu Cương mục (07/11/2026): CHƯA XONG, có một chỗ lệch cần chủ kênh quyết
+- Không tìm được văn bản Cương mục về sự kiện 1010. Hai trang trích mộc bản triều Nguyễn (vnanet, mocban.vn) chỉ dẫn Toàn thư và chỉ dẫn Cương mục cho việc khác.
+- **Lệch về "rồng vàng":** bản trích Toàn thư trên nguoikesu.com ghi "rồng vàng hiện lên ở thuyền ngự"; trang vnanet trích mộc bản Toàn thư (quyển 2) ghi "có con rồng hiện ra" (không có chữ "vàng"). Theo quy tắc nguồn (hai nguồn lệch thì nói rộng hơn), phương án an toàn là đổi 53001 và 53008 thành "một con rồng", bỏ chữ "vàng".
+- Tháng bảy, mùa thu, Hoa Lư ra Đại La: khớp ở cả hai nguồn Toàn thư.
+- Muốn xong hẳn: đối chiếu bản dịch Cương mục của Viện Sử học (Nxb Giáo dục, 2001) hoặc bản Toàn thư gốc.

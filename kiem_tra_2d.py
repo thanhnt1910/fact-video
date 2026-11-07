@@ -25,6 +25,12 @@ SERIES = {
                   '"co_chu_bieu_tuong": <true nếu có chữ hoặc ký tự nhìn rõ trên cờ, biển, vật>, '),
         "cac_loi": {"bao_luc": "có máu hoặc cảnh giết (không được)", "co_chu_bieu_tuong": "có chữ hoặc ký tự"},
     },
+    "VN": {
+        "era": "vật không đúng Việt Nam thế kỷ 11: đèn điện, kính hiện đại, nhựa, súng, tàu máy, cầu bê tông, chữ viết nhìn rõ",
+        "extra": ('"co_chu_bieu_tuong": <true nếu có chữ, số hoặc ký tự nhìn rõ trên ảnh>, '
+                  '"co_nguoi": <true nếu thấy người hoặc khuôn mặt (ảnh này phải không có người)>, '),
+        "cac_loi": {"co_chu_bieu_tuong": "có chữ hoặc số", "co_nguoi": "có người hoặc mặt người (không được)"},
+    },
     "DOLA": {
         "era": "vật không đúng nước Mỹ thế kỷ 18: đèn điện, kính hiện đại, bút bi, giấy máy in, đồ nhựa, máy tính",
         "extra": ('"co_chu_bieu_tuong": <true nếu có chữ, số hoặc ký tự nhìn rõ trên ảnh>, '

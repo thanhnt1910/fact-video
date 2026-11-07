@@ -46,10 +46,16 @@ if sfx_ok:
     with sync_playwright() as pw:
         br = pw.chromium.launch(args=['--allow-file-access-from-files']); pg = br.new_page(viewport={'width': 1080, 'height': 1920})
         pg.goto('file://' + str(D / trang)); pg.wait_for_timeout(500); ev = pg.evaluate('window.SFX||[]'); br.close()
-    sfx.write(str(D / 'sfx.wav'), sfx.render(ev, total), total)
+    bev = [e for e in ev if e[1] == 'boom']; oev = [e for e in ev if e[1] != 'boom']
+    sfx.write(str(D / 'sfx.wav'), sfx.render(oev, total) if oev else sfx.render([(0, 'pop', {'g': 0})], total), total)
+    if bev: sfx.write(str(D / 'boom.wav'), sfx.render(bev, total), total)   # cú boom đi đường riêng, KHÔNG bị giọng đọc hạ (mức do BOOM_VOL)
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / VOICE), '-i', str(D / 'sfx.wav'), '-filter_complex',
         '[0]asplit[v1][v2];[1][v1]sidechaincompress=threshold=0.02:ratio=4:attack=12:release=300:makeup=1[d];[v2][d]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.8:level=disabled[m]',
         '-map', '[m]', '-ar', '44100', '-ac', '2', str(D / 'tron.wav')], check=True)
+    if bev:
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(D / 'tron.wav'), '-i', str(D / 'boom.wav'), '-filter_complex',
+            '[1]volume=0.55[b];[0][b]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.9:level=disabled[m]', '-map', '[m]', '-ar', '44100', '-ac', '2', str(D / 'tron2.wav')], check=True)
+        os.replace(str(D / 'tron2.wav'), str(D / 'tron.wav'))
     print('tiếng hiệu ứng:', len(ev), 'sự kiện')
 AUD = 'tron.wav' if sfx_ok else VOICE
 N = int(total * FPS) if thu is None else int(thu * FPS)

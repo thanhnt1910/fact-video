@@ -1,4 +1,4 @@
-# VN1. Vì sao kinh đô mang tên Thăng Long (loạt "Bí mật biểu tượng")
+# VN1. Vì sao kinh đô mang tên Thăng Long (loạt "Bí mật biểu tượng" (nhãn trên video: #01))
 
 Mã đoạn 53001–53013. Lời kể: `ke-hoach/thu-giong-hai/vn1_full.json` (13 đoạn, 259 chữ, khoảng 80 giây).
 

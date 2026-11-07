@@ -112,8 +112,8 @@ cscene(3,3,{k:'bia3',w:520,h:780,y:620,stamp:['1484',810,360,120,3,'năm',2.4],l
  strips:[['TẤM BIA ĐẦU TIÊN',true,52,540,1190,-2,3,'đầu',0.4],['THEO LỆNH VUA LÊ THÁNH TÔNG',false,38,540,1272,2,3,'theo',5.0]]});
 cscene(4,4,{k:'bia2',w:520,h:780,y:620,stamp:['TỪ 1442',800,360,80,4,'khoa',5.0],lab:'BIA TIẾN SĨ, VĂN MIẾU HÀ NỘI (ẢNH NGÀY NAY)',labs:20,ly:1055,
  strips:[['GHI TÊN NGƯỜI ĐỖ',true,52,540,1190,-2,4,'tên',0.3],['TỪ KHOA THI NĂM 1442',false,46,540,1272,2,4,'khoa',3.5]]});
-scene(R(5)-.2,E(5),g=>{const A=strip('TIẾN SĨ THÂN NHÂN TRUNG',false,44,51),B=strip('NGƯỜI VIẾT NỘI DUNG TẤM BIA',true,40,52),Q=strip('"HIỀN TÀI LÀ NGUYÊN KHÍ QUỐC GIA"',true,36,53),r1=ring(g,540,800,300,'#f2c14e'),nt=strip('CÂU TRÊN BIA',false,30,54);
- return{upd:(t)=>{sh(A,t,540,430,-2,PV(t,5,'Tiến',0.1));sh(B,t,540,540,2,PV(t,5,'người',0.2));sh(nt,t,540,700,0,PV(t,5,'Trên',0.2));r1.set(inn(t,AT(5,'Hiền',2.0),1.2));sh(Q,t,540,820,-1,PV(t,5,'Hiền',0.0))}}});
+scene(R(5)-.2,E(5),g=>{const A=strip('TIẾN SĨ THÂN NHÂN TRUNG',false,44,51),B=strip('NGƯỜI VIẾT NỘI DUNG TẤM BIA',true,40,52),Q=strip('"HIỀN TÀI LÀ NGUYÊN KHÍ QUỐC GIA"',true,40,53),nt=strip('CÂU TRÊN BIA',false,30,54);
+ return{upd:(t)=>{sh(A,t,540,430,-2,PV(t,5,'Tiến',0.1));sh(B,t,540,540,2,PV(t,5,'người',0.2));sh(nt,t,540,700,0,PV(t,5,'Trên',0.2));sh(Q,t,540,800,-1,PV(t,5,'Hiền',0.0))}}});
 // S6: trục thời gian
 scene(R(6)-.2,E(6),g=>{const ln=el(g,'line',{x1:150,y1:640,x2:930,y2:640,stroke:'#f2c14e','stroke-width':14,'stroke-linecap':'round'});const LL=780;ln.setAttribute('stroke-dasharray',LL);
  const a=stamp('1442',110),b=stamp('1779',110),m=strip('CÁC BIA CÒN LẠI GHI CÁC KHOA THI',true,34,61);const dots=[0,1,2,3,4,5,6].map(i=>{const d=el(g,'circle',{cx:150+i*130,cy:640,r:16,fill:'#e5483f',stroke:'#fff','stroke-width':5});return d});

@@ -1,22 +1,27 @@
 Vẽ 1 ảnh (đợt 0)
      🖥️  Gửi 1 tranh sang Kaggle (GPU miễn phí)
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/ve_kiem_anh.py", line 203, in <module>
-    main()
-  File "/home/runner/work/fact-video/fact-video/ve_kiem_anh.py", line 163, in main
-    ve(ma, thieu, 0)
-  File "/home/runner/work/fact-video/fact-video/ve_kiem_anh.py", line 128, in ve
-    res = kaggle_draw.draw_batch(jobs, out, model="klein", timeout_min=150)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 213, in draw_batch
-    _kaggle(["kernels", "push", "-p", str(work / "k")], env)
-  File "/home/runner/work/fact-video/fact-video/kaggle_draw.py", line 181, in _kaggle
-    raise RuntimeError(f"kaggle {' '.join(args[:2])}: {(r.stderr or r.stdout)[-500:]}")
-RuntimeError: kaggle kernels push: 64/lib/python3.12/site-packages/kaggle/__init__.py", line 3, in <module>
-    from kaggle.api.kaggle_api_extended import KaggleApi
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py", line 266, in <module>
-    from ..models.upload_file import UploadFile
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/kaggle/models/upload_file.py", line 22, in <module>
-    import six
-ModuleNotFoundError: No module named 'six'
-
+     🖥️   0.5 phút: .running
+     🖥️   4.1 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (4 phút)
+     🖥️  Nhận về 1/1 tranh từ Kaggle
+Nhận về 1/1 ảnh
+== Kiểm ảnh (vòng 0): 1 ảnh ==
+   006: điểm 5 · chữ lạ; có chữ hoặc số
+Vòng 0: 1 ảnh lỗi / 1: 006
+TỔNG HỢP KIỂM ẢNH · DOLA1 · 1 ảnh · 270 giây · 0 vòng vẽ lại
+Còn lỗi (1): 006
+Chưa kiểm bằng AI (0): không
+Vẽ 1 ảnh (đợt 1)
+     🖥️  Gửi 1 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .queued
+     🖥️   4.6 phút: .running
+     🖥️   8.1 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (8 phút)
+     🖥️  Nhận về 1/1 tranh từ Kaggle
+Nhận về 1/1 ảnh
+== Kiểm ảnh (vòng 1): 1 ảnh ==
+   006: điểm 5 · ổn
+Vòng 1: 0 ảnh lỗi / 1: 
+TỔNG HỢP KIỂM ẢNH · DOLA1 · 1 ảnh · 1001 giây · 1 vòng vẽ lại
+Còn lỗi (0): không
+Chưa kiểm bằng AI (0): không

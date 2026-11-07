@@ -433,3 +433,4 @@ Lỗi: tôi giao video khi mới xem 8 khung thu nhỏ, kiểm giọng chỉ b�
 ## Kịch bản phải kiểm đầy đủ TRƯỚC khi gửi chủ kênh duyệt (chủ kênh yêu cầu 07/11/2026, áp dụng mọi kịch bản)
 - Không bao giờ đưa kịch bản còn chi tiết "cần kiểm" cho chủ kênh. Mọi năm, tên, số, địa danh phải tra xong (mỗi dữ kiện ít nhất hai nguồn, hoặc nói đúng mức một nguồn) rồi mới gửi duyệt. Chi tiết không kiểm được thì BỎ khỏi lời kể, không để treo và không hỏi chủ kênh kiểm hộ.
 - Gửi kèm bảng nguồn đã đọc, điểm lệch giữa nguồn, và chi tiết đã bỏ. Chủ kênh duyệt nội dung, không duyệt thay việc kiểm dữ kiện.
+- **Mỗi lần sửa kịch bản (dù một chữ) phải gửi lại toàn văn bản mới cho chủ kênh duyệt, kèm bảng "đoạn nào đổi, trước và sau, vì sao" (chủ kênh yêu cầu 07/11/2026).** Chưa được duyệt lại thì không đọc giọng, không dựng.

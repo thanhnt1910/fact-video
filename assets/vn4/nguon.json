@@ -1,0 +1,56 @@
+{
+ "ngoclu": {
+  "slot": "S1",
+  "so": 0,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ngoc_Lu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Ngoc Lu.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:Ngoc_Lu.jpg)"
+ },
+ "d09": {
+  "slot": "S2",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Dong_Son_Bronze_Drum_09.jpg/1920px-Dong_Son_Bronze_Drum_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Dong Son Bronze Drum 09.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_09.jpg)"
+ },
+ "d19": {
+  "slot": "S2",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Dong_Son_Bronze_Drum_19.jpg/1920px-Dong_Son_Bronze_Drum_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Dong Son Bronze Drum 19.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_19.jpg)"
+ },
+ "d17": {
+  "slot": "S2",
+  "so": 14,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Dong_Son_Bronze_Drum_17.jpg/1920px-Dong_Son_Bronze_Drum_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Dong Son Bronze Drum 17.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_17.jpg)"
+ },
+ "d08": {
+  "slot": "S2",
+  "so": 15,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Dong_Son_Bronze_Drum_08.jpg/1920px-Dong_Son_Bronze_Drum_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Dong Son Bronze Drum 08.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_08.jpg)"
+ },
+ "tools": {
+  "slot": "S3",
+  "so": 10,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Dong_Son_Bronze_Funerary_Artifacts_07.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Dong Son Bronze Funerary Artifacts 07.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_07.jpg)"
+ },
+ "museum": {
+  "slot": "S8",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Vietnam_National_Museum_of_History%2C_Hanoi%2C_Vietnam.jpg/1920px-Vietnam_National_Museum_of_History%2C_Hanoi%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Vietnam National Museum of History, Hanoi, Vietnam.jpg\" – Alistair Morrenger, Public domain (https://commons.wikimedia.org/wiki/File:Vietnam_National_Museum_of_History,_Hanoi,_Vietnam.jpg)"
+ },
+ "hh0": {
+  "slot": "S7",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/HoangHaBronzeDrum.jpg/1920px-HoangHaBronzeDrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"HoangHaBronzeDrum.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:HoangHaBronzeDrum.jpg)"
+ },
+ "hh1": {
+  "slot": "S7",
+  "so": 1,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/HoangHa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"HoangHa.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:HoangHa.jpg)"
+ }
+}

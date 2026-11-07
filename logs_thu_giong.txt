@@ -15,11 +15,43 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
+   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-07 01:15:04
 còn thiếu 14 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 52001-52014: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:15:04
-OK cụm 52001 - 52014 92.3 giây
+   [giọng] nhóm 52001-52001: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:25:38
+OK cụm 52001 - 52001 6.9 giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 6h34m21s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 52002-52002: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:25:42
+OK cụm 52002 - 52002 6.9 giây
+   [giọng] nhóm 52003-52003: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:25:46
+OK cụm 52003 - 52003 10.2 giây
+   [giọng] nhóm 52004-52004: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:25:50
+OK cụm 52004 - 52004 7.5 giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 6h34m8s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 52005-52005: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:25:54
+OK cụm 52005 - 52005 5.0 giây
+   [giọng] nhóm 52006-52006: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:25:58
+OK cụm 52006 - 52006 8.8 giây
+   [giọng] nhóm 52007-52007: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:02
+OK cụm 52007 - 52007 8.4 giây
+   [giọng] nhóm 52008-52008: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:05
+OK cụm 52008 - 52008 5.6 giây
+   [giọng] nhóm 52009-52009: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:08
+OK cụm 52009 - 52009 4.3 giây
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …2eGQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 51s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 52010-52010: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:12
+OK cụm 52010 - 52010 9.4 giây
+   [giọng] nhóm 52011-52011: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:16
+OK cụm 52011 - 52011 6.8 giây
+   [giọng] nhóm 52012-52012: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:19
+OK cụm 52012 - 52012 5.7 giây
+   [giọng] nhóm 52013-52013: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:22
+OK cụm 52013 - 52013 4.3 giây
+   [giọng] nhóm 52014-52014: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 01:26:26
+OK cụm 52014 - 52014 8.1 giây
 [báo cáo giọng] 14/14 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions

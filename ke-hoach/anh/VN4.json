@@ -1,0 +1,93 @@
+{
+ "id": "VN4",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1,6",
+   "mo_ta": "Mặt trống đồng Ngọc Lũ, mặt trời 14 tia",
+   "queries": [
+    "Ngọc Lũ bronze drum",
+    "Trống đồng Ngọc Lũ",
+    "Dong Son drum Ngoc Lu tympanum"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "2,10",
+   "mo_ta": "Trống đồng Đông Sơn trong bảo tàng",
+   "queries": [
+    "Dong Son bronze drum museum Hanoi",
+    "Trống đồng Đông Sơn",
+    "Vietnam National Museum of History bronze drum"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "3",
+   "mo_ta": "Di chỉ Đông Sơn, sông Mã, Thanh Hóa",
+   "queries": [
+    "Đông Sơn culture archaeological site Thanh Hóa",
+    "Sông Mã Thanh Hóa",
+    "Dong Son culture artifacts bronze"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "4",
+   "mo_ta": "Đê sông ở Hà Nam, vùng Lý Nhân",
+   "queries": [
+    "Hà Nam Lý Nhân sông Hồng đê",
+    "Red River dike Vietnam",
+    "Ngọc Lũ Bình Lục Hà Nam"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "5",
+   "mo_ta": "Trường Viễn Đông Bác Cổ, bảo tàng Louis Finot",
+   "queries": [
+    "École française d'Extrême-Orient Hanoi",
+    "Musée Louis Finot Hanoi",
+    "Bảo tàng Louis Finot"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "7",
+   "mo_ta": "Hoa văn trống đồng: người giã gạo, cảnh lễ hội",
+   "queries": [
+    "Dong Son drum decoration rubbing",
+    "Bản dập hoa văn trống đồng",
+    "Bronze drum Ngoc Lu pattern drawing"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "8",
+   "mo_ta": "Hoa văn thuyền, người hóa trang trên thân trống",
+   "queries": [
+    "Dong Son drum boats feathered warriors",
+    "Hoàng Hạ drum",
+    "Trống đồng thuyền người hóa trang"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S8",
+   "beats": "9",
+   "mo_ta": "Bảo tàng Lịch sử Quốc gia Hà Nội",
+   "queries": [
+    "Vietnam National Museum of History Hanoi",
+    "Bảo tàng Lịch sử Quốc gia",
+    "National Museum of Vietnamese History building"
+   ],
+   "subject": ""
+  }
+ ]
+}

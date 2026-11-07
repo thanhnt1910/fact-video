@@ -114,7 +114,7 @@ cscene(3,3,{k:'tools',w:960,h:640,y:600,stamp:['1924',300,330,130,3,'nghìn',2.8
  strips:[['BÊN BỜ SÔNG MÃ',true,52,540,1180,-2,3,'sông',3.8],['ĐÔNG SƠN · THANH HÓA',false,40,540,1264,2,3,'xã',6.0]]});
 // S4 (4): 1893 tìm thấy tình cờ khi đắp đê (cảnh chữ)
 scene(R(4)-.2,E(4),g=>{const A=strip('ĐẮP ĐÊ · HÀ NAM',true,70,91),B=strip('TÌNH CỜ TÌM THẤY',false,64,92),st=stamp('1893',150),r1=ring(g,540,640,260,'#e5483f'),r2=ring(g,540,920,260,'#f2c14e');
- return{upd:(t)=>{const e=inn(t,R(4)-.2,.5);sh(st,t,540,330,-4,PV(t,4,'nghìn',2.4,0,.4));sh(B,t,540,640,2,PV(t,4,'tình',4.2));sh(A,t,540,920,-2,PV(t,4,'đắp',5.4));r1.set(inn(t,AT(4,'tình',4.2)+.3,.9));r2.set(inn(t,AT(4,'đắp',5.4)+.3,.9))}}});
+ return{upd:(t)=>{const e=inn(t,R(4)-.2,.5);sh(st,t,540,330,-4,PV(t,4,'nghìn',2.4,0,.4));sh(B,t,540,640,2,PV(t,4,'tình',4.2));sh(A,t,540,920,-2,popv(t,R(4)+.3,.5));r1.set(inn(t,AT(4,'tình',4.2)+.3,.9));r2.set(inn(t,R(4)+.6,.9))}}});
 // S5 (5): dân làng thờ ở đình, 1903 thu về bảo tàng
 cscene(5,5,{k:'d09',w:960,h:640,y:600,stamp:['1903',300,330,130,5,'linh',6.0],lab:'TRỐNG ĐỒNG ĐÔNG SƠN TRONG BẢO TÀNG (ẢNH NGÀY NAY)',labs:20,ly:1000,
  strips:[['DÂN LÀNG THỜ Ở ĐÌNH',true,48,540,1180,-2,5,'dân',0.6],['TRƯỜNG VIỄN ĐÔNG BÁC CỔ',false,40,540,1264,2,5,'Trường',4.8]]});

@@ -1,0 +1,44 @@
+{
+ "coc1": {
+  "slot": "S1",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Wood_Stakes_Used_to_Destroy_Mongol_Fleet_at_Bach_Dang%2C_1288_%289732100161%29.jpg/1920px-Wood_Stakes_Used_to_Destroy_Mongol_Fleet_at_Bach_Dang%2C_1288_%289732100161%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Wood Stakes Used to Destroy Mongol Fleet at Bach Dang, 1288 (9732100161).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Wood_Stakes_Used_to_Destroy_Mongol_Fleet_at_Bach_Dang,_1288_(9732100161).jpg)"
+ },
+ "coc2": {
+  "slot": "S1",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bach_Dang_River_Victory_over_Mongols%2C_1288_%289980692603%29.jpg/1920px-Bach_Dang_River_Victory_over_Mongols%2C_1288_%289980692603%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Bach Dang River Victory over Mongols, 1288 (9980692603).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Bach_Dang_River_Victory_over_Mongols,_1288_(9980692603).jpg)"
+ },
+ "coc3": {
+  "slot": "S1",
+  "so": 5,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stakes_Used_to_Repel_Mongol_Invasion_at_Bach_Dang_River%2C_1288_%289735656156%29.jpg/1920px-Stakes_Used_to_Repel_Mongol_Invasion_at_Bach_Dang_River%2C_1288_%289735656156%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Stakes Used to Repel Mongol Invasion at Bach Dang River, 1288 (9735656156).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Stakes_Used_to_Repel_Mongol_Invasion_at_Bach_Dang_River,_1288_(9735656156).jpg)"
+ },
+ "tran1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Bach_Dang_River_Victory_over_Mongols%2C_1288_%289980691453%29.jpg/1920px-Bach_Dang_River_Victory_over_Mongols%2C_1288_%289980691453%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Bach Dang River Victory over Mongols, 1288 (9980691453).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Bach_Dang_River_Victory_over_Mongols,_1288_(9980691453).jpg)"
+ },
+ "tran2": {
+  "slot": "S1",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bach_Dang_River_Victory_over_Mongols%2C_1288_%289980692113%29.jpg/1920px-Bach_Dang_River_Victory_over_Mongols%2C_1288_%289980692113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Bach Dang River Victory over Mongols, 1288 (9980692113).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Bach_Dang_River_Victory_over_Mongols,_1288_(9980692113).jpg)"
+ },
+ "cuasong": {
+  "slot": "S1",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Cua_song_Bach_Dang.JPG/1920px-Cua_song_Bach_Dang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Cua song Bach Dang.JPG\" – Viethavvh at vi.wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:Cua_song_Bach_Dang.JPG)"
+ },
+ "caoquy": {
+  "slot": "S1",
+  "so": 9,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/B%C3%A3i_c%E1%BB%8Dc_Cao_Qu%E1%BB%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Bãi cọc Cao Quỳ.jpg\" – vi:User:Tran Trong Nhan, Public domain (https://commons.wikimedia.org/wiki/File:B%C3%A3i_c%E1%BB%8Dc_Cao_Qu%E1%BB%B3.jpg)"
+ }
+}

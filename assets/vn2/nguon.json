@@ -1,0 +1,32 @@
+{
+ "seal": {
+  "slot": "S1",
+  "so": 0,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dictionarium_Annamiticum_Lusitanum_et_Latinum%2C_Propaganda_Fide_seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png\" – Dictionarium Annamiticum Lusitanum et Latinum (low-resolution).pdf: Alexandre de Rhodes\nderivative work: Minh Nguyễn (talk, contribs), Public domain (https://commons.wikimedia.org/wiki/File:Dictionarium_Annamiticum_Lusitanum_et_Latinum,_Propaganda_Fide_seal.png)"
+ },
+ "pg": {
+  "slot": "S4",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Alexandre_de_Rhodes_Latin_Vietnamese_Catechism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Alexandre de Rhodes Latin Vietnamese Catechism.jpg\" – Alexandre_de_Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Alexandre_de_Rhodes_Latin_Vietnamese_Catechism.jpg)"
+ },
+ "fl0": {
+  "slot": "S4",
+  "so": 0,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y%2C_page_132_fleuron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Phép giảng tám ngày, page 132 fleuron.jpg\" – Alexandre de Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,_page_132_fleuron.jpg)"
+ },
+ "fl1": {
+  "slot": "S4",
+  "so": 1,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y%2C_page_261_fleuron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Phép giảng tám ngày, page 261 fleuron.jpg\" – Alexandre de Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,_page_261_fleuron.jpg)"
+ },
+ "baron": {
+  "slot": "S7",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MS_828_10.jpg/1920px-MS_828_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"MS 828 10.jpg\" – Samuel Baron (fl. 1670s-1690s, English), Public domain (https://commons.wikimedia.org/wiki/File:MS_828_10.jpg)"
+ }
+}

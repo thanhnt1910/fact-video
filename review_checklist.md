@@ -35,3 +35,6 @@ Chỉ sửa nội dung các dòng gạch đầu dòng, giữ nguyên tên các m
 - Mỗi ảnh có chữ đọc rõ, không tràn, không sai chính tả.
 - Ảnh nền hợp với câu chữ trên ảnh.
 - Lướt hết album phải hiểu được câu chuyện theo đúng thứ tự.
+
+## Bản đồ: Hoàng Sa và Trường Sa (chủ kênh yêu cầu 07/11/2026)
+- [ ] Mọi khung bản đồ có biển phía đông Việt Nam đều có quần đảo Hoàng Sa (Việt Nam) và thẻ Trường Sa (Việt Nam); đã xem khung đầu, giữa, cuối của từng cảnh. Không ghi "Biển Đông", không vẽ biên giới. Xem mục tương ứng trong `CLAUDE.md`.

@@ -434,3 +434,7 @@ Lỗi: tôi giao video khi mới xem 8 khung thu nhỏ, kiểm giọng chỉ b�
 - Không bao giờ đưa kịch bản còn chi tiết "cần kiểm" cho chủ kênh. Mọi năm, tên, số, địa danh phải tra xong (mỗi dữ kiện ít nhất hai nguồn, hoặc nói đúng mức một nguồn) rồi mới gửi duyệt. Chi tiết không kiểm được thì BỎ khỏi lời kể, không để treo và không hỏi chủ kênh kiểm hộ.
 - Gửi kèm bảng nguồn đã đọc, điểm lệch giữa nguồn, và chi tiết đã bỏ. Chủ kênh duyệt nội dung, không duyệt thay việc kiểm dữ kiện.
 - **Mỗi lần sửa kịch bản (dù một chữ) phải gửi lại toàn văn bản mới cho chủ kênh duyệt, kèm bảng "đoạn nào đổi, trước và sau, vì sao" (chủ kênh yêu cầu 07/11/2026).** Chưa được duyệt lại thì không đọc giọng, không dựng.
+
+## Kiểm cắt giọng: chữ dính cuối và chữ đầu lệch (rút từ #07, 07/11/2026)
+- Cụm đọc cắt lệch có thể làm câu cuối đoạn này tràn sang đầu đoạn sau mà `kiem_giong.py` vẫn báo đạt (nhận dạng có gợi ý bịa chữ cuối). Trước khi dựng, với mỗi đoạn kiểm: (1) có từ 2 chữ trở lên cuối đoạn trùng một mốc thời gian sát hết file (chữ dính cuối = nhận dạng bịa, giọng bị cụt); (2) chữ đầu tiên bắt đầu sau 1 giây (đoạn có lời thừa ở đầu). Có thì cắt lại ranh giới (nối phần tràn về đoạn trước, cắt ở chỗ lặng), cập nhật `thoi_luong.json`, xóa nhận dạng hai đoạn đó rồi chạy lại.
+- Tiếng boom/hiệu ứng nhấn đi đường riêng, không qua sidechain hạ theo giọng (`dung_9x16.py` tự làm khi có sự kiện `boom`), nếu không sẽ gần như không nghe thấy.

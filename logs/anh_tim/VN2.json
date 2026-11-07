@@ -237,5 +237,55 @@
     "text": "File:MS 828 10.jpg The Vietnamese court in audience, ca. 1684–1685."
    }
   ]
+ },
+ {
+  "slot": "S8",
+  "beats": "-",
+  "mo_ta": "Bản đồ Đông Dương/Đàng Trong thế kỷ 17",
+  "candidates": []
+ },
+ {
+  "slot": "S9",
+  "beats": "-",
+  "mo_ta": "Trang từ điển Rhodes 1651 có chữ quốc ngữ",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dictionarium_Annamiticum_Lusitanum_et_Latinum%2C_Propaganda_Fide_seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1404,
+    "h": 1414,
+    "credit": "\"Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png\" – Dictionarium Annamiticum Lusitanum et Latinum (low-resolution).pdf: Alexandre de Rhodes\nderivative work: Minh Nguyễn (talk, contribs), Public domain (https://commons.wikimedia.org/wiki/File:Dictionarium_Annamiticum_Lusitanum_et_Latinum,_Propaganda_Fide_seal.png)",
+    "text": "File:Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png Seal of the Sacred Congregation for the Propagation of the Faith on the title page of Alexandre de Rhodes' Dictionarium Ann"
+   }
+  ]
+ },
+ {
+  "slot": "S10",
+  "beats": "-",
+  "mo_ta": "Hội An thế kỷ 17 tranh Nhật (Chaya, tàu Châu Ấn)",
+  "candidates": []
+ },
+ {
+  "slot": "S11",
+  "beats": "-",
+  "mo_ta": "Rhodes chân dung hoặc tranh khắc (chỉ tham khảo)",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/P._Alex._de_Rhodes%2C_8B6293007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1555,
+    "h": 2055,
+    "credit": "\"P. Alex. de Rhodes, 8B6293007.jpg\" – Unknown, Public domain (https://commons.wikimedia.org/wiki/File:P._Alex._de_Rhodes,_8B6293007.jpg)",
+    "text": "File:P. Alex. de Rhodes, 8B6293007.jpg TitleP. Alex. de RhodesDates.dPublisher(1650-1900)GenrePortraitsExtentvoorstelling: 105 x 80 mm voorstelling met opschrift: 110 x 80 mm.GraphicBlack-and-white ;L"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Valletta_civita_nova_di_Malta_-_Bosio_Giacomo_%26_Boissat_Pierre_De_-_1659.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1091,
+    "credit": "\"Valletta civita nova di Malta - Bosio Giacomo & Boissat Pierre De - 1659.jpg\" – Henry Raigniauld, Public domain (https://commons.wikimedia.org/wiki/File:Valletta_civita_nova_di_Malta_-_Bosio_Giacomo_%26_Boissat_Pierre_De_-_1659.jpg)",
+    "text": "File:Valletta civita nova di Malta - Bosio Giacomo & Boissat Pierre De - 1659.jpg Early copper engraved map of the towns of Valletta, Borgo, Sanglea di Sto. Michele, and the church of St. Salvator -kn"
+   }
+  ]
  }
 ]

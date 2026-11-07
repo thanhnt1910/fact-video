@@ -89,6 +89,7 @@ function drawShip(g){el(g,'path',{d:'M-30 0 L30 0 L20 15 L-20 15Z',fill:'#5a3a1e
 function drawPawn(g,col,lab,ly=-92){const k=el(g,'g',{transform:'scale(1.7)'});el(k,'circle',{cx:0,cy:-30,r:12,fill:col,stroke:'#fff','stroke-width':4});el(k,'path',{d:'M-15 0 Q-15 -19 0 -21 Q15 -19 15 0Z',fill:col,stroke:'#fff','stroke-width':4});if(lab)T(g,0,ly,lab,26,'#fff',8,'middle','#1b140c')}
 function along(pts,u){const L=[0];for(let i=1;i<pts.length;i++)L.push(L[i-1]+Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]));const D=L[L.length-1]*cl(u);let i=1;while(i<pts.length-1&&L[i]<D)i++;const k=(D-L[i-1])/Math.max(1e-6,L[i]-L[i-1]);return[lerp(pts[i-1][0],pts[i][0],cl(k)),lerp(pts[i-1][1],pts[i][1],cl(k)),i,D]}
 function trailPath(pts,u){const L=[0];for(let i=1;i<pts.length;i++)L.push(L[i-1]+Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]));const D=L[L.length-1]*cl(u);let d='M'+pts[0][0]+' '+pts[0][1];for(let i=1;i<pts.length;i++){if(L[i]<=D)d+=` L${pts[i][0]} ${pts[i][1]}`;else{const k=(D-L[i-1])/(L[i]-L[i-1]);d+=` L${lerp(pts[i-1][0],pts[i][0],k)} ${lerp(pts[i-1][1],pts[i][1],k)}`;break}}return d}
+function hsMake(L){const hs=el(L,'g',{});const O=[[0,0],[16,-8],[30,6],[-14,10],[8,16],[-26,-4],[40,-12]];const hd=O.map(o=>el(hs,'circle',{cx:o[0],cy:o[1],r:5,fill:'#fff6d0',stroke:'#1b140c','stroke-width':2}));T(hs,0,44,'QUẦN ĐẢO HOÀNG SA',24,'#fff',7,'middle','#1b140c');T(hs,0,72,'(VIỆT NAM)',24,'#f2c14e',7,'middle','#1b140c');return(m,op)=>{const[x,y]=m.P(111.3,16.5);hs.setAttribute('transform',`translate(${x},${y})`);hs.setAttribute('opacity',op)}}
 const PLACES=[['Huế',107.58,16.46,-1],['Đà Nẵng',108.2,16.05,-1],['Quảng Ngãi',108.8,15.12,-1],['Quy Nhơn',109.22,13.8,-1]];
 function placeNames(L){return PLACES.map(p=>{const t=T(L,0,0,p[0],24,'#fff',7,'end','#1b140c');return t})}
 function placeUpd(m,ts,op,skipDN){PLACES.forEach((p,i)=>{const[x,y]=m.P(p[1],p[2]);ts[i].setAttribute('x',x-(i==1?60:14));ts[i].setAttribute('y',y+(i==1?40:8));ts[i].setAttribute('opacity',i==1&&skipDN?0:op)})}
@@ -108,25 +109,25 @@ scene(R(3)-.2,E(3),g=>{const c=card('pg',IMG+'pg.jpg',640,900,3);const a=strip('
  return{upd:(t)=>{const e=inn(t,R(3)-.2,.6);c.at(540,640,2,1,e);c.zoom(1+.5*inn(t,R(3),6),.5,.12);sh(a,t,540,1130,-2,PV(t,3,'Hán',1.5));ar.set(inn(t,AT(3,'nên',3.4),.5));sh(b,t,540,1235,2,PV(t,3,'bằng',5.6))}}});
 // S4 (4): 1617, Pina đến và học tiếng Việt
 scene(R(4)-.2,E(4),g=>{const m=mapcard(1000,900,4);const st=stamp('1617',120);const a=strip('FRANCISCO DE PINA',true,44,11);const b=strip('GIÁO SĨ BỒ ĐÀO NHA',false,36,12);const hc=strip('HỌC TIẾNG VIỆT',false,34,43);
- const L=el(m.inner,'g',{});const trail=el(L,'path',{fill:'none',stroke:'#f2c14e','stroke-width':6,'stroke-dasharray':'3 16','stroke-linecap':'round'});const nms=placeNames(L);const shp=el(L,'g',{});drawShip(shp);const pw=el(L,'g',{});drawPawn(pw,'#e5483f','PINA');const gl=glyphs(L,7);const pg=el(L,'g',{});
+ const L=el(m.inner,'g',{});const hsU=hsMake(L);const tsn=strip('TRƯỜNG SA (VIỆT NAM) Ở PHÍA NAM ↓',false,24,45);const trail=el(L,'path',{fill:'none',stroke:'#f2c14e','stroke-width':6,'stroke-dasharray':'3 16','stroke-linecap':'round'});const nms=placeNames(L);const shp=el(L,'g',{});drawShip(shp);const pw=el(L,'g',{});drawPawn(pw,'#e5483f','PINA');const gl=glyphs(L,7);const pg=el(L,'g',{});
  const WALK=[[108.5,16.17],[108.25,16.1],[108.12,16.04]];
- return{upd:(t)=>{const e=inn(t,R(4)-.2,.6);const u=inn(t,R(4),6);m.view(lerp(108.5,108.2,u),lerp(16.55,16.3,u),lerp(190,300,u));m.at(540,700,1,1,e);
+ return{upd:(t)=>{const e=inn(t,R(4)-.2,.6);const u=inn(t,R(4),6);m.view(lerp(109.7,109.5,u),16.4,lerp(150,170,u));m.at(540,700,1,1,e);hsU(m,e);sh(tsn,t,540,1105,0,e);
   const arr=AT(4,'Francisco',3.6)+.5,t0=R(4)+.1,p=cl((t-t0)/Math.max(2,arr-t0));const pts=[[109.6,16.65],[108.5,16.17]].map(q=>m.P(q[0],q[1]));pts.unshift(m.P(110.0,16.95));const[sx,sy]=along(pts,p);
   trail.setAttribute('d',trailPath(pts,p));shp.setAttribute('transform',`translate(${sx},${sy+Math.sin(t*3)*4}) scale(.95)`);shp.setAttribute('opacity',p<1?e:Math.max(0,1-(t-arr)*2));
   placeUpd(m,nms,.95,false);const w=cl((t-arr)/1.0);const wp=WALK.map(q=>m.P(q[0],q[1]));const[px,py]=along(wp,w);pw.setAttribute('transform',`translate(${px},${py}) scale(${1+.1*Math.sin(t*4)*(w<1?1:0)})`);pw.setAttribute('opacity',t>=arr-.1?1:0);
   const[x,y]=m.P(108.12,16.04);pulse(pg,x,y,t,arr+1.0);glyphUpd(gl,m,108.12,16.04,t,AT(4,'học',6.2));
-  sh(st,t,290,330,-6,PV(t,4,'nghìn',1.8,0,.35));sh(a,t,540,1160,-2,PV(t,4,'Francisco',3.6));sh(b,t,540,1235,2,PV(t,4,'Bồ',3.0,.8));sh(hc,t,760,260,3,PV(t,4,'học',6.2))}}});
+  sh(st,t,290,330,-6,PV(t,4,'nghìn',1.8,0,.35));sh(a,t,540,1175,-2,PV(t,4,'Francisco',3.6));sh(b,t,540,1245,2,PV(t,4,'Bồ',3.0,.8));sh(hc,t,760,260,3,PV(t,4,'học',6.2))}}});
 // S5 (5): Rhodes đến, học tiếng Việt với Pina
 scene(R(5)-.2,E(5),g=>{const m=mapcard(1000,900,5);const a=strip('RHODES',true,56,13);const b=strip('PINA',false,56,14);const w=strip('THẦY DẠY TIẾNG',false,34,15);
- const L=el(m.inner,'g',{});const trail=el(L,'path',{fill:'none',stroke:'#f2c14e','stroke-width':6,'stroke-dasharray':'3 16','stroke-linecap':'round'});const nms=placeNames(L);const shp=el(L,'g',{});drawShip(shp);const pP=el(L,'g',{});drawPawn(pP,'#e5483f','PINA');const pR=el(L,'g',{});drawPawn(pR,'#3a7bd5','RHODES',40);const link=el(L,'path',{fill:'none',stroke:'#f2c14e','stroke-width':5,'stroke-dasharray':'2 12','stroke-linecap':'round'});const gl=glyphs(L,7);
- return{upd:(t)=>{const e=inn(t,R(5)-.2,.6);m.view(108.3,16.35,lerp(240,290,inn(t,R(5),5)));m.at(540,680,-1,1,e);
+ const L=el(m.inner,'g',{});const hsU=hsMake(L);const tsn=strip('TRƯỜNG SA (VIỆT NAM) Ở PHÍA NAM ↓',false,24,46);const trail=el(L,'path',{fill:'none',stroke:'#f2c14e','stroke-width':6,'stroke-dasharray':'3 16','stroke-linecap':'round'});const nms=placeNames(L);const shp=el(L,'g',{});drawShip(shp);const pP=el(L,'g',{});drawPawn(pP,'#e5483f','PINA');const pR=el(L,'g',{});drawPawn(pR,'#3a7bd5','RHODES',40);const link=el(L,'path',{fill:'none',stroke:'#f2c14e','stroke-width':5,'stroke-dasharray':'2 12','stroke-linecap':'round'});const gl=glyphs(L,7);
+ return{upd:(t)=>{const e=inn(t,R(5)-.2,.6);m.view(109.6,16.4,lerp(150,170,inn(t,R(5),5)));m.at(540,680,-1,1,e);hsU(m,e);sh(tsn,t,540,1105,0,e);
   const arr=AT(5,'Rhodes',1.4)+.4,t0=R(5)+.1,p=cl((t-t0)/Math.max(1.6,arr-t0));const pts=[[110.0,16.95],[109.2,16.5],[108.5,16.17]].map(q=>m.P(q[0],q[1]));const[sx,sy]=along(pts,p);
   trail.setAttribute('d',trailPath(pts,p));shp.setAttribute('transform',`translate(${sx},${sy+Math.sin(t*3)*4}) scale(.95)`);shp.setAttribute('opacity',p<1?e:Math.max(0,1-(t-arr)*2));
   placeUpd(m,nms,.95,false);const P0=m.P(108.03,16.1),P1=m.P(108.22,16.1);const wk=cl((t-arr)/1.0);pP.setAttribute('transform',`translate(${P0[0]},${P0[1]})`);pP.setAttribute('opacity',e);
   const rx=lerp(m.P(108.5,16.17)[0],P1[0],ease(wk)),ry=lerp(m.P(108.5,16.17)[1],P1[1],ease(wk));pR.setAttribute('transform',`translate(${rx},${ry})`);pR.setAttribute('opacity',t>=arr-.1?1:0);
   const lk=inn(t,AT(5,'học',3.2),.8);link.setAttribute('d',lk>0?`M${P0[0]} ${P0[1]-30} L${lerp(P0[0],rx,lk)} ${lerp(P0[1]-30,ry-30,lk)}`:'');
   glyphUpd(gl,m,108.03,16.1,t,AT(5,'học',3.2),0);
-  sh(a,t,300,1110,-3,PV(t,5,'Alexandre',1.2));sh(b,t,790,1110,3,PV(t,5,'Pina',4.4));sh(w,t,540,1210,0,PV(t,5,'học',3.2,.3))}}});
+  sh(a,t,300,1175,-3,PV(t,5,'Alexandre',1.2));sh(b,t,790,1175,3,PV(t,5,'Pina',4.4));sh(w,t,540,1245,0,PV(t,5,'học',3.2,.3))}}});
 // S6 (6): 1625, Pina qua đời
 scene(R(6)-.2,E(6),g=>{const c=card('fl1',IMG+'fl1.jpg',760,770,6);const st=stamp('1625',140);const a=strip('PINA QUA ĐỜI',true,56,16);c.g.setAttribute('filter','url(#sep)');
  return{upd:(t)=>{const e=inn(t,R(6)-.2,.6);c.at(540,640,-2,1,e);c.zoom(1+.3*inn(t,R(6),3),.5,.5);sh(a,t,540,1130,-2,PV(t,6,'qua',1.0));sh(st,t,540,640,-7,PV(t,6,'nghìn',2.0,0,.35))}}});

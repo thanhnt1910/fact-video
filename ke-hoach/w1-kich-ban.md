@@ -1,6 +1,6 @@
-# VN2. Nguồn gốc của dấu đô la ($) (loạt "Bí mật biểu tượng", nhãn trên video: #02)
+# W1. Nguồn gốc của dấu đô la ($) (loạt "Bí mật biểu tượng", nhãn trên video sẽ đặt khi chốt thứ tự)
 
-Mã đoạn 54001–54012. Lời kể: `ke-hoach/thu-giong-hai/vn2_full.json`. Video thứ hai trong lộ trình (W1 trong file lộ trình 30 video).
+Mã đoạn 54001–54012. Lời kể: `ke-hoach/thu-giong-hai/w1_full.json`. Video thế giới số 1 trong lộ trình 30 video (tạm hoãn, làm sau VN2).
 
 ## Khung 6 câu hỏi
 1. **Chuyện gì xảy ra?** Dấu $ không có người sáng tạo rõ ràng; giả thuyết mạnh nhất là chữ viết tắt "ps" của peso Tây Ban Nha, viết liền nét.

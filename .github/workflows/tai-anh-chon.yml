@@ -1,5 +1,8 @@
 name: Tải ảnh tư liệu đã chọn
 on:
+  push:
+    branches: [claude/cach-ho-cai-tri-tap-1]
+    paths: ['assets/dola1/nguon.json']
   workflow_dispatch:
     inputs:
       nguon:
@@ -14,7 +17,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - run: python tai_anh_chon.py "${{ inputs.nguon }}"
+      - run: python tai_anh_chon.py "${{ inputs.nguon || 'assets/dola1/nguon.json' }}"
       - name: Lưu vào repo
         run: |
           git add assets || true

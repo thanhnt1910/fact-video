@@ -1,143 +1,47 @@
 [
  {
   "slot": "S1",
-  "beats": "1,2",
-  "mo_ta": "Khu khảo cổ 18 Hoàng Diệu",
+  "beats": "1,2,3",
+  "mo_ta": "Hoàng thành Thăng Long toàn cảnh, khu khảo cổ",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_%C4%90%E1%BB%93_B%C3%A0n_%C4%91%C6%B0%E1%BB%A3c_l%E1%BA%ADp_b%E1%BB%9Fi_s%E1%BB%9F_kh%E1%BA%A3o_s%C3%A1t_c%C3%A1c_th%C3%A0nh_tr%C3%AC_v%C3%A0o_n%C4%83m_Gia_Long_th%E1%BB%A9_14_%28n%C4%83m_1815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1040,
-    "h": 767,
-    "credit": "\"Bản vẽ thành Đồ Bàn được lập bởi sở khảo sát các thành trì vào năm Gia Long thứ 14 (năm 1815).jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_%C4%90%E1%BB%93_B%C3%A0n_%C4%91%C6%B0%E1%BB%A3c_l%E1%BA%ADp_b%E1%BB%9Fi_s%E1%BB%9F_kh%E1%BA%A3o_s%C3%A1t_c%C3%A1c_th%C3%A0nh_tr%C3%AC_v%C3%A0o_n%C4%83m_Gia_Long_th%E1%BB%A9_14_(n%C4%83m_1815).jpg)",
-    "text": "File:Bản vẽ thành Đồ Bàn được lập bởi sở khảo sát các thành trì vào năm Gia Long thứ 14 (năm 1815).jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vie"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Imperial_Citadel_of_Thang_Long_%2826910835332%29.jpg/1920px-Imperial_Citadel_of_Thang_Long_%2826910835332%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Imperial Citadel of Thang Long (26910835332).jpg\" – Bex Walton from London, England, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Imperial_Citadel_of_Thang_Long_(26910835332).jpg)",
+    "text": "File:Imperial Citadel of Thang Long (26910835332).jpg Imperial Citadel of Thang Long"
    },
    {
     "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/B%E1%BA%A3n_v%E1%BA%BD_Th%C3%A0nh_%C4%90%E1%BB%93_B%C3%A0n_hay_Vijaya_c%C3%B2n_g%E1%BB%8Di_l%C3%A0_th%C3%A0nh_c%E1%BB%95_Ch%C3%A0_B%C3%A0n_ho%E1%BA%B7c_th%C3%A0nh_Ho%C3%A0ng_%C4%90%E1%BA%BF%2C_nay_thu%E1%BB%99c_%C4%91%E1%BB%8Ba_ph%E1%BA%ADn_x%C3%A3_Nh%C6%A1n_H%E1%BA%ADu%2C_Th%E1%BB%8B_x%C3%A3_An_Nh%C6%A1n_v%C3%A0_c%C3%A1ch_th%C3%A0nh_ph%E1%BB%91_Quy_Nh%C6%A1n%2C_B%C3%ACnh_%C4%90%E1%BB%8Bnh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1042,
-    "h": 771,
-    "credit": "\"Bản vẽ Thành Đồ Bàn hay Vijaya còn gọi là thành cổ Chà Bàn hoặc thành Hoàng Đế, nay thuộc địa phận xã Nhơn Hậu, Thị xã An Nhơn và cách thành phố Quy Nhơn, Bình Định.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_Th%C3%A0nh_%C4%90%E1%BB%93_B%C3%A0n_hay_Vijaya_c%C3%B2n_g%E1%BB%8Di_l%C3%A0_th%C3%A0nh_c%E1%BB%95_Ch%C3%A0_B%C3%A0n_ho%E1%BA%B7c_th%C3%A0nh_Ho%C3%A0ng_%C4%90%E1%BA%BF,_nay_thu%E1%BB%99c_%C4%91%E1%BB%8Ba_ph%E1%BA%ADn_x%C3%A3_Nh%C6%A1n_H%E1%BA%ADu,_Th%E1%BB%8B_x%C3%A3_An_Nh%C6%A1n_v%C3%A0_c%C3%A1ch_th%C3%A0nh_ph%E1%BB%91_Quy_Nh%C6%A1n,_B%C3%ACnh_%C4%90%E1%BB%8Bnh.jpg)",
-    "text": "File:Bản vẽ Thành Đồ Bàn hay Vijaya còn gọi là thành cổ Chà Bàn hoặc thành Hoàng Đế, nay thuộc địa phận xã Nhơn Hậu, Thị xã An Nhơn và cách thành phố Quy Nhơn, Bình Định.jpg A map of a Vietnamese cita"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg/1920px-Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6000,
+    "h": 3244,
+    "credit": "\"Central Sector of the Imperial Citadel of Thang Long - Hanoi.jpg\" – katiebordner, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg)",
+    "text": "File:Central Sector of the Imperial Citadel of Thang Long - Hanoi.jpg Central Sector of the Imperial Citadel of Thang Long - Hanoi"
    },
    {
     "so": 2,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_%C4%90%E1%BB%93_B%C3%A0n_%28th%C3%A0nh_Ho%C3%A0ng_%C4%91%E1%BA%BF%29%2C_B%C3%ACnh_%C4%90%E1%BB%8Bnh_n%C4%83m_1913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1040,
-    "h": 827,
-    "credit": "\"Bản vẽ thành Đồ Bàn (thành Hoàng đế), Bình Định năm 1913.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_%C4%90%E1%BB%93_B%C3%A0n_(th%C3%A0nh_Ho%C3%A0ng_%C4%91%E1%BA%BF),_B%C3%ACnh_%C4%90%E1%BB%8Bnh_n%C4%83m_1913.jpg)",
-    "text": "File:Bản vẽ thành Đồ Bàn (thành Hoàng đế), Bình Định năm 1913.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_%2826246667851%29.jpg/1920px-Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_%2826246667851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6000,
+    "h": 4000,
+    "credit": "\"Central Sector of the Imperial Citadel of Thang Long - Hanoi (26246667851).jpg\" – katiebordner, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_(26246667851).jpg)",
+    "text": "File:Central Sector of the Imperial Citadel of Thang Long - Hanoi (26246667851).jpg Hanoi, Vietnam"
    },
    {
     "so": 3,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_V%C4%A9nh_Long_n%C4%83m_1872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1250,
-    "h": 942,
-    "credit": "\"Bản vẽ thành Vĩnh Long năm 1872.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_V%C4%A9nh_Long_n%C4%83m_1872.jpg)",
-    "text": "File:Bản vẽ thành Vĩnh Long năm 1872.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 4,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_V%C4%A9nh_Long.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1111,
-    "h": 822,
-    "credit": "\"Bản vẽ thành Vĩnh Long.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_V%C4%A9nh_Long.jpg)",
-    "text": "File:Bản vẽ thành Vĩnh Long.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 5,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Thanh_H%C3%B3a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1042,
-    "h": 750,
-    "credit": "\"Bản vẽ thành Thanh Hóa.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Thanh_H%C3%B3a.jpg)",
-    "text": "File:Bản vẽ thành Thanh Hóa.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 6,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Thanh_H%C3%B3a_n%C4%83m_1913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1042,
-    "h": 708,
-    "credit": "\"Bản vẽ thành Thanh Hóa năm 1913.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Thanh_H%C3%B3a_n%C4%83m_1913.jpg)",
-    "text": "File:Bản vẽ thành Thanh Hóa năm 1913.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 7,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/B%E1%BA%A3n_v%E1%BA%BD_quy_ho%E1%BA%A1ch_th%C3%A0nh_Thanh_H%C3%B3a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1042,
-    "h": 715,
-    "credit": "\"Bản vẽ quy hoạch thành Thanh Hóa.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_quy_ho%E1%BA%A1ch_th%C3%A0nh_Thanh_H%C3%B3a.jpg)",
-    "text": "File:Bản vẽ quy hoạch thành Thanh Hóa.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 8,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%C3%A3ng_Tr%E1%BB%8B_n%C4%83m_1913._Th%C3%A0nh_Qu%E1%BA%A3ng_Tr%E1%BB%8B_%C4%91%C6%B0%E1%BB%A3c_x%C3%A2y_v%C3%A0o_n%C4%83m_Gia_Long_th%E1%BB%A9_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1040,
-    "h": 754,
-    "credit": "\"Bản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%C3%A3ng_Tr%E1%BB%8B_n%C4%83m_1913._Th%C3%A0nh_Qu%E1%BA%A3ng_Tr%E1%BB%8B_%C4%91%C6%B0%E1%BB%A3c_x%C3%A2y_v%C3%A0o_n%C4%83m_Gia_Long_th%E1%BB%A9_1.jpg)",
-    "text": "File:Bản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 9,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Ng%C3%A3i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1040,
-    "h": 754,
-    "credit": "\"Bản vẽ thành Quảng Ngãi.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Ng%C3%A3i.jpg)",
-    "text": "File:Bản vẽ thành Quảng Ngãi.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 10,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Ph%E1%BB%A5ng_%28th%C3%A0nh_Gia_%C4%90%E1%BB%8Bnh%29%2C_S%C3%A0i_G%C3%B2n%2C_sau_tr%E1%BA%ADn_Gia_%C4%90%E1%BB%8Bnh%2C_ng%C3%A0y_8_th%C3%A1ng_3_n%C4%83m_1859.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1386,
-    "h": 967,
-    "credit": "\"Bản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Ph%E1%BB%A5ng_(th%C3%A0nh_Gia_%C4%90%E1%BB%8Bnh),_S%C3%A0i_G%C3%B2n,_sau_tr%E1%BA%ADn_Gia_%C4%90%E1%BB%8Bnh,_ng%C3%A0y_8_th%C3%A1ng_3_n%C4%83m_1859.jpg)",
-    "text": "File:Bản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietname"
-   },
-   {
-    "so": 11,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Ph%C3%BA_Y%C3%AAn_%28th%C3%A0nh_An_Th%E1%BB%95%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1040,
-    "h": 735,
-    "credit": "\"Bản vẽ thành Phú Yên (thành An Thổ).jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Ph%C3%BA_Y%C3%AAn_(th%C3%A0nh_An_Th%E1%BB%95).jpg)",
-    "text": "File:Bản vẽ thành Phú Yên (thành An Thổ).jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 12,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Di%C3%AAn_Kh%C3%A1nh%2C_ng%C3%A0y_8_th%C3%A1ng_8_n%C4%83m_1913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1386,
-    "h": 939,
-    "credit": "\"Bản vẽ thành Diên Khánh, ngày 8 tháng 8 năm 1913.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Di%C3%AAn_Kh%C3%A1nh,_ng%C3%A0y_8_th%C3%A1ng_8_n%C4%83m_1913.jpg)",
-    "text": "File:Bản vẽ thành Diên Khánh, ngày 8 tháng 8 năm 1913.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 13,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_%28th%C3%A0nh_La_Qua%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 777,
-    "h": 1040,
-    "credit": "\"Bản vẽ thành Quảng Nam (thành La Qua) 01.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_(th%C3%A0nh_La_Qua)_01.jpg)",
-    "text": "File:Bản vẽ thành Quảng Nam (thành La Qua) 01.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 14,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_%28th%C3%A0nh_La_Qua%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1040,
-    "h": 756,
-    "credit": "\"Bản vẽ thành Quảng Nam (thành La Qua) 02.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_(th%C3%A0nh_La_Qua)_02.jpg)",
-    "text": "File:Bản vẽ thành Quảng Nam (thành La Qua) 02.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
-   },
-   {
-    "so": 15,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Ph%E1%BB%A5ng_%28th%C3%A0nh_Gia_%C4%90%E1%BB%8Bnh%29%2C_S%C3%A0i_G%C3%B2n_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1042,
-    "h": 775,
-    "credit": "\"Bản vẽ thành Phụng (thành Gia Định), Sài Gòn 01.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Ph%E1%BB%A5ng_(th%C3%A0nh_Gia_%C4%90%E1%BB%8Bnh),_S%C3%A0i_G%C3%B2n_01.jpg)",
-    "text": "File:Bản vẽ thành Phụng (thành Gia Định), Sài Gòn 01.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+    "url": "https://live.staticflickr.com/65535/54345448427_abfc7a5552_b.jpg",
+    "w": 1024,
+    "h": 766,
+    "credit": "\"Unesco postcards\" – JuliaC2006, CC BY 2.0 (https://www.flickr.com/photos/81269484@N00/54345448427)",
+    "text": "Unesco postcards 23feb25 3652025 365the2025edition day54365 postcards unesco"
    }
   ]
  },
  {
   "slot": "S2",
-  "beats": "3",
-  "mo_ta": "Khai quật Hoàng thành Thăng Long",
+  "beats": "4,5",
+  "mo_ta": "Hố khai quật, các lớp địa tầng Hoàng thành",
   "candidates": [
    {
     "so": 0,
@@ -159,17 +63,43 @@
  },
  {
   "slot": "S3",
-  "beats": "4,5",
-  "mo_ta": "Các lớp đất khảo cổ, địa tầng",
-  "candidates": []
- },
- {
-  "slot": "S4",
   "beats": "6",
-  "mo_ta": "Đoan Môn Hoàng thành Thăng Long",
+  "mo_ta": "Đoan Môn",
   "candidates": [
    {
     "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/%C4%90oan_M%C3%B4n_Gate%2C_Citadel_of_Hanoi%2C_20240123_1036_3176.jpg/1920px-%C4%90oan_M%C3%B4n_Gate%2C_Citadel_of_Hanoi%2C_20240123_1036_3176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3561,
+    "h": 5351,
+    "credit": "\"Đoan Môn Gate, Citadel of Hanoi, 20240123 1036 3176.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:%C4%90oan_M%C3%B4n_Gate,_Citadel_of_Hanoi,_20240123_1036_3176.jpg)",
+    "text": "File:Đoan Môn Gate, Citadel of Hanoi, 20240123 1036 3176.jpg Đoan Môn Gate, Citadel of Hanoi"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%C4%90oan_M%C3%B4n_Gate%2C_Citadel_of_Hanoi%2C_20240123_1036_3178.jpg/1920px-%C4%90oan_M%C3%B4n_Gate%2C_Citadel_of_Hanoi%2C_20240123_1036_3178.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3248,
+    "h": 4866,
+    "credit": "\"Đoan Môn Gate, Citadel of Hanoi, 20240123 1036 3178.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:%C4%90oan_M%C3%B4n_Gate,_Citadel_of_Hanoi,_20240123_1036_3178.jpg)",
+    "text": "File:Đoan Môn Gate, Citadel of Hanoi, 20240123 1036 3178.jpg Side of Đoan Môn Gate, Citadel of Hanoi"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Doan_Gate_of_Thang_Long_Citadel%2C_Hanoi%2C_southwest_aspect_%2827141701170%29.jpg/1920px-Doan_Gate_of_Thang_Long_Citadel%2C_Hanoi%2C_southwest_aspect_%2827141701170%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4928,
+    "h": 3264,
+    "credit": "\"Doan Gate of Thang Long Citadel, Hanoi, southwest aspect (27141701170).jpg\" – Ahia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Doan_Gate_of_Thang_Long_Citadel,_Hanoi,_southwest_aspect_(27141701170).jpg)",
+    "text": "File:Doan Gate of Thang Long Citadel, Hanoi, southwest aspect (27141701170).jpg Doan Gate of Thang Long Citadel, Hanoi, southwest aspect"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Hanoi%27s_ancient_citadel_%2826399430574%29.jpg/1920px-Hanoi%27s_ancient_citadel_%2826399430574%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Hanoi's ancient citadel (26399430574).jpg\" – Bex Walton from London, England, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hanoi%27s_ancient_citadel_(26399430574).jpg)",
+    "text": "File:Hanoi's ancient citadel (26399430574).jpg Hanoi's ancient citadel"
+   },
+   {
+    "so": 4,
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/%C4%90oan_M%C3%B4n.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "w": 1544,
     "h": 1024,
@@ -177,19 +107,27 @@
     "text": "File:Đoan Môn.JPG Cửa Đoan Môn, Hoàng Thành Thăng Long"
    },
    {
-    "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Doan_Gate_of_Thang_Long_Citadel%2C_Hanoi%2C_southwest_aspect_%2827141701170%29.jpg/1920px-Doan_Gate_of_Thang_Long_Citadel%2C_Hanoi%2C_southwest_aspect_%2827141701170%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4928,
-    "h": 3264,
-    "credit": "\"Doan Gate of Thang Long Citadel, Hanoi, southwest aspect (27141701170).jpg\" – Ahia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Doan_Gate_of_Thang_Long_Citadel,_Hanoi,_southwest_aspect_(27141701170).jpg)",
-    "text": "File:Doan Gate of Thang Long Citadel, Hanoi, southwest aspect (27141701170).jpg Doan Gate of Thang Long Citadel, Hanoi, southwest aspect"
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Quanh_vi%E1%BB%87c_di%E1%BB%85n_k%E1%BB%8Bch_gi%C3%BAp_n%E1%BA%A1n-d%C3%A2n_Trung-k%E1%BB%B3._B%C3%A0-con_Had%C3%B4ng_mu%E1%BB%91n_bi%E1%BA%BFt_r%C3%B5_k%E1%BA%BFt-qu%E1%BA%A3_hai_t%E1%BB%91i_h%C3%A1t_%E1%BA%A5y._HTNB_16-03-1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 735,
+    "h": 1059,
+    "credit": "\"Quanh việc diễn kịch giúp nạn-dân Trung-kỳ. Bà-con Hadông muốn biết rõ kết-quả hai tối hát ấy. HTNB 16-03-1935.jpg\" – M. Ph. (Hà Thành Ngọ Báo, 16-03-1935), Public domain (https://commons.wikimedia.org/wiki/File:Quanh_vi%E1%BB%87c_di%E1%BB%85n_k%E1%BB%8Bch_gi%C3%BAp_n%E1%BA%A1n-d%C3%A2n_Trung-k%E1%BB%B3._B%C3%A0-con_Had%C3%B4ng_mu%E1%BB%91n_bi%E1%BA%BFt_r%C3%B5_k%E1%BA%BFt-qu%E1%BA%A3_hai_t%E1%BB%91i_h%C3%A1t_%E1%BA%A5y._HTNB_16-03-1935.jpg)",
+    "text": "File:Quanh việc diễn kịch giúp nạn-dân Trung-kỳ. Bà-con Hadông muốn biết rõ kết-quả hai tối hát ấy. HTNB 16-03-1935.jpg Quanh việc diễn kịch giúp nạn-dân Trung-kỳ : Bà-con Hadông muốn biết rõ kết-quả "
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BB%99t_c%E1%BB%9D_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1600,
+    "h": 1200,
+    "credit": "\"Sân vận động Cột cờ .jpg\" – Jspeed1310 (thảo luận), Public domain (https://commons.wikimedia.org/wiki/File:S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_C%E1%BB%99t_c%E1%BB%9D_.jpg)",
+    "text": "File:Sân vận động Cột cờ .jpg Sân vận động Cột cờ hiện nay nhìn từ cổng đoan môn"
    }
   ]
  },
  {
-  "slot": "S5",
+  "slot": "S4",
   "beats": "7",
-  "mo_ta": "Giếng cổ, nền móng khảo cổ Hoàng thành",
+  "mo_ta": "Giếng cổ, nền móng, cống nước thời Lý Trần",
   "candidates": [
    {
     "so": 0,
@@ -214,79 +152,143 @@
     "h": 1156,
     "credit": "\"Đại Nam Thực Lục chính biên concerning the Hoàng Sa archipelago 06.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:%C4%90%E1%BA%A1i_Nam_Th%E1%BB%B1c_L%E1%BB%A5c_ch%C3%ADnh_bi%C3%AAn_concerning_the_Ho%C3%A0ng_Sa_archipelago_06.jpg)",
     "text": "File:Đại Nam Thực Lục chính biên concerning the Hoàng Sa archipelago 06.jpg Texts from the Đại Nam thực lục chính biên concerning the Hoàng Sa archipelago."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/B%E1%BA%A3n_chi%E1%BA%BFu_ban_ng%C3%A0y_m%E1%BB%93ng_7_th%C3%A1ng_Hai_n%C4%83m_Gia_Long_th%E1%BB%A9_5_%281806%29_c%E1%BB%A7a_Ho%C3%A0ng_%C4%91%E1%BA%BF_Gia_Long_v%E1%BB%81_vi%E1%BB%87c_truy%E1%BB%81n_cho_T%E1%BB%95ng_tr%E1%BA%A5n_B%E1%BA%AFc_th%C3%A0nh_n%E1%BA%A1p_%C4%91%E1%BA%A5t_%C4%91%E1%BB%83_x%C3%A2y_%C4%91%E1%BA%AFp_%C4%91%C3%A0n_X%C3%A3_T%E1%BA%AFc.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6338,
+    "h": 4586,
+    "credit": "\"Bản chiếu ban ngày mồng 7 tháng Hai năm Gia Long thứ 5 (1806) của Hoàng đế Gia Long về việc truyền cho Tổng trấn Bắc thành nạp đất để xây đắp đàn Xã Tắc.jpg\" – The government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_chi%E1%BA%BFu_ban_ng%C3%A0y_m%E1%BB%93ng_7_th%C3%A1ng_Hai_n%C4%83m_Gia_Long_th%E1%BB%A9_5_(1806)_c%E1%BB%A7a_Ho%C3%A0ng_%C4%91%E1%BA%BF_Gia_Long_v%E1%BB%81_vi%E1%BB%87c_truy%E1%BB%81n_cho_T%E1%BB%95ng_tr%E1%BA%A5n_B%E1%BA%AFc_th%C3%A0nh_n%E1%BA%A1p_%C4%91%E1%BA%A5t_%C4%91%E1%BB%83_x%C3%A2y_%C4%91%E1%BA%AFp_%C4%91%C3%A0n_X%C3%A3_T%E1%BA%AFc.jpg)",
+    "text": "File:Bản chiếu ban ngày mồng 7 tháng Hai năm Gia Long thứ 5 (1806) của Hoàng đế Gia Long về việc truyền cho Tổng trấn Bắc thành nạp đất để xây đắp đàn Xã Tắc.jpg A Nguyễn Dynasty period document relat"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/B%E1%BA%A3n_t%C6%B0_tr%C3%ACnh_ng%C3%A0y_m%E1%BB%93ng_10_th%C3%A1ng_S%C3%A1u_n%C4%83m_Th%C3%A0nh_Th%C3%A1i_th%E1%BB%A9_6_%281894%29_g%E1%BB%ADi_Vi%E1%BB%87n_C%C6%A1_m%E1%BA%ADt_v%E1%BB%81_vi%E1%BB%87c_l%C3%A0m_l%E1%BB%85_Thu_h%C6%B0%E1%BB%9Fng_t%E1%BA%A1i_Th%C3%A1i_mi%E1%BA%BFu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1115,
+    "h": 1049,
+    "credit": "\"Bản tư trình ngày mồng 10 tháng Sáu năm Thành Thái thứ 6 (1894) gửi Viện Cơ mật về việc làm lễ Thu hưởng tại Thái miếu.jpg\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%C6%B0_tr%C3%ACnh_ng%C3%A0y_m%E1%BB%93ng_10_th%C3%A1ng_S%C3%A1u_n%C4%83m_Th%C3%A0nh_Th%C3%A1i_th%E1%BB%A9_6_(1894)_g%E1%BB%ADi_Vi%E1%BB%87n_C%C6%A1_m%E1%BA%ADt_v%E1%BB%81_vi%E1%BB%87c_l%C3%A0m_l%E1%BB%85_Thu_h%C6%B0%E1%BB%9Fng_t%E1%BA%A1i_Th%C3%A1i_mi%E1%BA%BFu.jpg)",
+    "text": "File:Bản tư trình ngày mồng 10 tháng Sáu năm Thành Thái thứ 6 (1894) gửi Viện Cơ mật về việc làm lễ Thu hưởng tại Thái miếu.jpg A Thành Thái period document (Bản tư trình) issued by the Ministry of Ri"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Th%C6%B0_c%E1%BB%A7a_quy%E1%BB%81n_Kinh_l%C6%B0%E1%BB%A3c_B%E1%BA%AFc_K%E1%BB%B3_g%E1%BB%ADi_Th%E1%BB%91ng_s%E1%BB%A9_B%E1%BA%AFc_K%E1%BB%B3_ng%C3%A0y_m%E1%BB%93ng_09_th%C3%A1ng_9_n%C4%83m_Th%C3%A0nh_Th%C3%A1i_1_%28t%E1%BB%A9c_ng%C3%A0y_06-10-1886%29_v%E1%BB%81_vi%E1%BB%87c_t%E1%BB%95_ch%E1%BB%A9c_k%C3%AC_thi_H%C6%B0%C6%A1ng_%E1%BB%9F_Nam_%C4%90%E1%BB%8Bnh.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6481,
+    "h": 4840,
+    "credit": "\"Thư của quyền Kinh lược Bắc Kỳ gửi Thống sứ Bắc Kỳ ngày mồng 09 tháng 9 năm Thành Thái 1 (tức ngày 06-10-1886) về việc tổ chức kì thi Hương ở Nam Định.jpg\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Th%C6%B0_c%E1%BB%A7a_quy%E1%BB%81n_Kinh_l%C6%B0%E1%BB%A3c_B%E1%BA%AFc_K%E1%BB%B3_g%E1%BB%ADi_Th%E1%BB%91ng_s%E1%BB%A9_B%E1%BA%AFc_K%E1%BB%B3_ng%C3%A0y_m%E1%BB%93ng_09_th%C3%A1ng_9_n%C4%83m_Th%C3%A0nh_Th%C3%A1i_1_(t%E1%BB%A9c_ng%C3%A0y_06-10-1886)_v%E1%BB%81_vi%E1%BB%87c_t%E1%BB%95_ch%E1%BB%A9c_k%C3%AC_thi_H%C6%B0%C6%A1ng_%E1%BB%9F_Nam_%C4%90%E1%BB%8Bnh.jpg)",
+    "text": "File:Thư của quyền Kinh lược Bắc Kỳ gửi Thống sứ Bắc Kỳ ngày mồng 09 tháng 9 năm Thành Thái 1 (tức ngày 06-10-1886) về việc tổ chức kì thi Hương ở Nam Định.jpg Thư của quyền Kinh lược Bắc Kỳ gửi Thống"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Th%E1%BB%A7_t%C3%ADn_thi%C3%AAn_h%E1%BA%A1_v%C4%83n_v%C5%A9_quy%E1%BB%81n_h%C3%A0nh_%28%E5%8F%96%E4%BF%A1%E5%A4%A9%E4%B8%8B%E6%96%87%E6%AD%A6%E6%AC%8A%E8%A1%8C%29_on_a_document_related_to_farming_%28Gia_Long_5_-_1806%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1311,
+    "h": 1576,
+    "credit": "\"Thủ tín thiên hạ văn vũ quyền hành (取信天下文武權行) on a document related to farming (Gia Long 5 - 1806).png\" – The government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Th%E1%BB%A7_t%C3%ADn_thi%C3%AAn_h%E1%BA%A1_v%C4%83n_v%C5%A9_quy%E1%BB%81n_h%C3%A0nh_(%E5%8F%96%E4%BF%A1%E5%A4%A9%E4%B8%8B%E6%96%87%E6%AD%A6%E6%AC%8A%E8%A1%8C)_on_a_document_related_to_farming_(Gia_Long_5_-_1806).png)",
+    "text": "File:Thủ tín thiên hạ văn vũ quyền hành (取信天下文武權行) on a document related to farming (Gia Long 5 - 1806).png A seal on a Nguyễn Dynasty period document relating to agriculture."
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/B%E1%BA%A3n_t%E1%BA%A5u_ng%C3%A0y_24_th%C3%A1ng_Hai_n%C4%83m_B%E1%BA%A3o_%C4%90%E1%BA%A1i_th%E1%BB%A9_20_%281945%29_c%E1%BB%A7a_B%E1%BB%99_L%E1%BB%85_C%C3%B4ng_v%E1%BB%81_vi%E1%BB%87c_ch%E1%BB%8Dn_ng%C3%A0y_c%E1%BB%AD_h%C3%A0nh_t%E1%BA%BF_l%E1%BB%85_%C4%90%C3%A0n_X%C3%A3_T%E1%BA%AFc_v%C3%A0_ph%C3%A1i_quan_vi%C3%AAn_kh%C3%A2m_m%E1%BB%87nh_%C4%91%E1%BA%BFn_t%E1%BA%BF.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5234,
+    "h": 2959,
+    "credit": "\"Bản tấu ngày 24 tháng Hai năm Bảo Đại thứ 20 (1945) của Bộ Lễ Công về việc chọn ngày cử hành tế lễ Đàn Xã Tắc và phái quan viên khâm mệnh đến tế.jpg\" – The government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%E1%BA%A5u_ng%C3%A0y_24_th%C3%A1ng_Hai_n%C4%83m_B%E1%BA%A3o_%C4%90%E1%BA%A1i_th%E1%BB%A9_20_(1945)_c%E1%BB%A7a_B%E1%BB%99_L%E1%BB%85_C%C3%B4ng_v%E1%BB%81_vi%E1%BB%87c_ch%E1%BB%8Dn_ng%C3%A0y_c%E1%BB%AD_h%C3%A0nh_t%E1%BA%BF_l%E1%BB%85_%C4%90%C3%A0n_X%C3%A3_T%E1%BA%AFc_v%C3%A0_ph%C3%A1i_quan_vi%C3%AAn_kh%C3%A2m_m%E1%BB%87nh_%C4%91%E1%BA%BFn_t%E1%BA%BF.jpg)",
+    "text": "File:Bản tấu ngày 24 tháng Hai năm Bảo Đại thứ 20 (1945) của Bộ Lễ Công về việc chọn ngày cử hành tế lễ Đàn Xã Tắc và phái quan viên khâm mệnh đến tế.jpg A Nguyễn Dynasty period document relating to a"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/B%E1%BA%A3n_t%E1%BA%A5u_s%C3%A1ch_c%E1%BB%A7a_Nam_%C4%90%E1%BB%8Bnh_chi_ti%E1%BB%81n_g%E1%BA%A1o%2C_x%C3%A2y_d%E1%BB%B1ng_tr%C6%B0%E1%BB%9Dng_thi_Nam_%C4%90%E1%BB%8Bnh.jpg/1920px-B%E1%BA%A3n_t%E1%BA%A5u_s%C3%A1ch_c%E1%BB%A7a_Nam_%C4%90%E1%BB%8Bnh_chi_ti%E1%BB%81n_g%E1%BA%A1o%2C_x%C3%A2y_d%E1%BB%B1ng_tr%C6%B0%E1%BB%9Dng_thi_Nam_%C4%90%E1%BB%8Bnh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2348,
+    "h": 3894,
+    "credit": "\"Bản tấu sách của Nam Định chi tiền gạo, xây dựng trường thi Nam Định.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%E1%BA%A5u_s%C3%A1ch_c%E1%BB%A7a_Nam_%C4%90%E1%BB%8Bnh_chi_ti%E1%BB%81n_g%E1%BA%A1o,_x%C3%A2y_d%E1%BB%B1ng_tr%C6%B0%E1%BB%9Dng_thi_Nam_%C4%90%E1%BB%8Bnh.jpg)",
+    "text": "File:Bản tấu sách của Nam Định chi tiền gạo, xây dựng trường thi Nam Định.jpg Bản tấu sách của Nam Định chi tiền gạo, xây dựng trường thi Nam Định."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Quang_c%E1%BA%A3nh_k%E1%BB%B3_thi_H%C6%B0%C6%A1ng_cu%E1%BB%91i_c%C3%B9ng_t%E1%BA%A1i_Tr%C6%B0%E1%BB%9Dng_thi_H%C6%B0%C6%A1ng_Nam_%C4%90%E1%BB%8Bnh_n%C4%83m_1915_%28BTN%C4%90%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1079,
+    "h": 787,
+    "credit": "\"Quang cảnh kỳ thi Hương cuối cùng tại Trường thi Hương Nam Định năm 1915 (BTNĐ).jpg\" – Uncredited authorship., Public domain (https://commons.wikimedia.org/wiki/File:Quang_c%E1%BA%A3nh_k%E1%BB%B3_thi_H%C6%B0%C6%A1ng_cu%E1%BB%91i_c%C3%B9ng_t%E1%BA%A1i_Tr%C6%B0%E1%BB%9Dng_thi_H%C6%B0%C6%A1ng_Nam_%C4%90%E1%BB%8Bnh_n%C4%83m_1915_(BTN%C4%90).jpg)",
+    "text": "File:Quang cảnh kỳ thi Hương cuối cùng tại Trường thi Hương Nam Định năm 1915 (BTNĐ).jpg Quang cảnh kỳ thi Hương cuối cùng tại Trường thi Hương Nam Định năm 1915. / BTNĐ."
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Th%C6%B0_s%E1%BB%91_260_ng%C3%A0y_29-01-1916_c%E1%BB%A7a_Ch%C3%A1nh_S%E1%BB%9F_H%E1%BB%8Dc_ch%C3%ADnh_B%E1%BA%AFc_K%E1%BB%B3_g%E1%BB%ADi_hi%E1%BB%87u_tr%C6%B0%E1%BB%9Fng_c%C3%A1c_tr%C6%B0%E1%BB%9Dng_h%E1%BB%8Dc_%E1%BB%9F_Nam_%C4%90%E1%BB%8Bnh_v%E1%BB%81_vi%E1%BB%87c_b%E1%BB%8F_thi_h%C6%B0%C6%A1ng_%E1%BB%9F_Nam_%C4%90%E1%BB%8Bnh.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6689,
+    "h": 4263,
+    "credit": "\"Thư số 260 ngày 29-01-1916 của Chánh Sở Học chính Bắc Kỳ gửi hiệu trưởng các trường học ở Nam Định về việc bỏ thi hương ở Nam Định.jpg\" – The government of the French protectorate of Tonkin, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Th%C6%B0_s%E1%BB%91_260_ng%C3%A0y_29-01-1916_c%E1%BB%A7a_Ch%C3%A1nh_S%E1%BB%9F_H%E1%BB%8Dc_ch%C3%ADnh_B%E1%BA%AFc_K%E1%BB%B3_g%E1%BB%ADi_hi%E1%BB%87u_tr%C6%B0%E1%BB%9Fng_c%C3%A1c_tr%C6%B0%E1%BB%9Dng_h%E1%BB%8Dc_%E1%BB%9F_Nam_%C4%90%E1%BB%8Bnh_v%E1%BB%81_vi%E1%BB%87c_b%E1%BB%8F_thi_h%C6%B0%C6%A1ng_%E1%BB%9F_Nam_%C4%90%E1%BB%8Bnh.jpg)",
+    "text": "File:Thư số 260 ngày 29-01-1916 của Chánh Sở Học chính Bắc Kỳ gửi hiệu trưởng các trường học ở Nam Định về việc bỏ thi hương ở Nam Định.jpg Thư số 260 ngày 29/01/1916 của Chánh Sở Học chính Bắc Kỳ gửi"
+   }
+  ]
+ },
+ {
+  "slot": "S5",
+  "beats": "9,10",
+  "mo_ta": "Hoàng thành Thăng Long di sản thế giới",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Vue_int%C3%A9rieure_de_la_citadelle_de_Hano%C3%AF_%28Tongking%29.jpeg/1920px-Vue_int%C3%A9rieure_de_la_citadelle_de_Hano%C3%AF_%28Tongking%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 7535,
+    "h": 3066,
+    "credit": "\"Vue intérieure de la citadelle de Hanoï (Tongking).jpeg\" – Emile Gsell, Public domain (https://commons.wikimedia.org/wiki/File:Vue_int%C3%A9rieure_de_la_citadelle_de_Hano%C3%AF_(Tongking).jpeg)",
+    "text": "File:Vue intérieure de la citadelle de Hanoï (Tongking).jpeg Ce cliché panoramique est en fait constitué de deux photographies collées les unes aux autres. Prouesse technique, ce panorama témoigne à l"
    }
   ]
  },
  {
   "slot": "S6",
-  "beats": "9,10",
-  "mo_ta": "Di sản thế giới Hoàng thành Thăng Long",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04681.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04681.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3648,
-    "h": 5472,
-    "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04681.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04681.JPG)",
-    "text": "File:Stelae of Doctors - Temple of Literature, Hanoi - DSC04681.JPG Stelae of Doctors - Temple of Literature, Hanoi, Vietnam."
-   },
-   {
-    "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04572.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04572.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3648,
-    "h": 5472,
-    "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04572.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04572.JPG)",
-    "text": "File:Stelae of Doctors - Temple of Literature, Hanoi - DSC04572.JPG Stelae of Doctors - Temple of Literature, Hanoi, Vietnam."
-   },
-   {
-    "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04680.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04680.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3648,
-    "h": 5472,
-    "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04680.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04680.JPG)",
-    "text": "File:Stelae of Doctors - Temple of Literature, Hanoi - DSC04680.JPG Stelae of Doctors - Temple of Literature, Hanoi, Vietnam."
-   },
-   {
-    "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Temple_of_Literature%2C_Hanoi_by_Xiquinho_Silva_02.jpg/1920px-Temple_of_Literature%2C_Hanoi_by_Xiquinho_Silva_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3000,
-    "h": 2003,
-    "credit": "\"Temple of Literature, Hanoi by Xiquinho Silva 02.jpg\" – xiquinhosilva, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Temple_of_Literature,_Hanoi_by_Xiquinho_Silva_02.jpg)",
-    "text": "File:Temple of Literature, Hanoi by Xiquinho Silva 02.jpg The Văn Miếu is a temple dedicated to Confucius in Hanoi, northern Vietnam. The temple also hosts the Imperial Academy (Quốc Tử Giám, 國子監), Vi"
-   },
-   {
-    "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04569.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04569.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3648,
-    "h": 5472,
-    "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04569.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04569.JPG)",
-    "text": "File:Stelae of Doctors - Temple of Literature, Hanoi - DSC04569.JPG Stelae of Doctors - Temple of Literature, Hanoi, Vietnam."
-   },
-   {
-    "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04676.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04676.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5472,
-    "h": 3648,
-    "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04676.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04676.JPG)",
-    "text": "File:Stelae of Doctors - Temple of Literature, Hanoi - DSC04676.JPG Stelae of Doctors - Temple of Literature, Hanoi, Vietnam."
-   },
-   {
-    "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hanoi_%281345325706%29.jpg/1920px-Hanoi_%281345325706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 1944,
-    "h": 2592,
-    "credit": "\"Hanoi (1345325706).jpg\" – thalling55, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hanoi_(1345325706).jpg)",
-    "text": "File:Hanoi (1345325706).jpg Hanoi"
-   }
-  ]
- },
- {
-  "slot": "S7",
   "beats": "11",
   "mo_ta": "Điện Kính Thiên, thềm rồng đá",
   "candidates": [
    {
     "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1044_3191.jpg/1920px-Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1044_3191.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5492,
+    "h": 3408,
+    "credit": "\"Backyard of the Kính Thiên Palace, Citadel of Hanoi, 20240123 1044 3191.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace,_Citadel_of_Hanoi,_20240123_1044_3191.jpg)",
+    "text": "File:Backyard of the Kính Thiên Palace, Citadel of Hanoi, 20240123 1044 3191.jpg Backyard of the Kính Thiên Palace, Citadel of Hanoi"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1044_3192.jpg/1920px-Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1044_3192.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5236,
+    "h": 2836,
+    "credit": "\"Backyard of the Kính Thiên Palace, Citadel of Hanoi, 20240123 1044 3192.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace,_Citadel_of_Hanoi,_20240123_1044_3192.jpg)",
+    "text": "File:Backyard of the Kính Thiên Palace, Citadel of Hanoi, 20240123 1044 3192.jpg Backyard of the Kính Thiên Palace, Citadel of Hanoi"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1048_3200.jpg/1920px-K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1048_3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3060,
+    "h": 4584,
+    "credit": "\"Kính Thiên Palace, Citadel of Hanoi, 20240123 1048 3200.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:K%C3%ADnh_Thi%C3%AAn_Palace,_Citadel_of_Hanoi,_20240123_1048_3200.jpg)",
+    "text": "File:Kính Thiên Palace, Citadel of Hanoi, 20240123 1048 3200.jpg Kính Thiên Palace, Citadel of Hanoi"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1049_3202.jpg/1920px-K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1049_3202.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2073,
+    "h": 3128,
+    "credit": "\"Kính Thiên Palace, Citadel of Hanoi, 20240123 1049 3202.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:K%C3%ADnh_Thi%C3%AAn_Palace,_Citadel_of_Hanoi,_20240123_1049_3202.jpg)",
+    "text": "File:Kính Thiên Palace, Citadel of Hanoi, 20240123 1049 3202.jpg Kính Thiên Palace, Citadel of Hanoi"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1054_3210.jpg/1920px-K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1054_3210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3056,
+    "h": 4579,
+    "credit": "\"Kính Thiên Palace, Citadel of Hanoi, 20240123 1054 3210.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:K%C3%ADnh_Thi%C3%AAn_Palace,_Citadel_of_Hanoi,_20240123_1054_3210.jpg)",
+    "text": "File:Kính Thiên Palace, Citadel of Hanoi, 20240123 1054 3210.jpg Kính Thiên Palace, Citadel of Hanoi"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Xe_t%C4%83ng_c%E1%BB%A7a_qu%C3%A2n_%C4%91%E1%BB%99i_Ph%C3%A1p_trong_s%C3%A2n_%C4%91i%E1%BB%87n_K%C3%ADnh_thi%C3%AAn._%E1%BA%A2nh_Ph%E1%BB%A7_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng.jpg/1920px-Xe_t%C4%83ng_c%E1%BB%A7a_qu%C3%A2n_%C4%91%E1%BB%99i_Ph%C3%A1p_trong_s%C3%A2n_%C4%91i%E1%BB%87n_K%C3%ADnh_thi%C3%AAn._%E1%BA%A2nh_Ph%E1%BB%A7_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3000,
+    "h": 2123,
+    "credit": "\"Xe tăng của quân đội Pháp trong sân điện Kính thiên. Ảnh Phủ Toàn quyền Đông Dương.jpg\" – Haut commissariat de France pour l'Indochine, Public domain (https://commons.wikimedia.org/wiki/File:Xe_t%C4%83ng_c%E1%BB%A7a_qu%C3%A2n_%C4%91%E1%BB%99i_Ph%C3%A1p_trong_s%C3%A2n_%C4%91i%E1%BB%87n_K%C3%ADnh_thi%C3%AAn._%E1%BA%A2nh_Ph%E1%BB%A7_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng.jpg)",
+    "text": "File:Xe tăng của quân đội Pháp trong sân điện Kính thiên. Ảnh Phủ Toàn quyền Đông Dương.jpg Sous direction d'Artillerie. Exercises de franchissements d'obstacle.[Légende provenant du fichier papier in"
+   },
+   {
+    "so": 6,
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/B%E1%BA%A3n_t%E1%BA%A5u_ng%C3%A0y_09_th%C3%A1ng_8_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_3_%281822%29_c%E1%BB%A7a_Kh%C3%A2m_Thi%C3%AAn_Gi%C3%A1m_b%C3%A1o_c%C3%A1o_v%E1%BB%81_vi%E1%BB%87c_ch%E1%BB%8Dn_ng%C3%A0y_gi%E1%BB%9D_%C4%91%E1%BB%83_%C4%91%E1%BA%B7t_c%E1%BB%99t_%C4%91%C3%A1_v%C3%A0_l%C3%A0m_l%E1%BB%85_c%E1%BA%A5t_n%C3%B3c_cung_Tr%C6%B0%E1%BB%9Dng_Sanh_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "w": 1039,
     "h": 1257,
@@ -294,28 +296,131 @@
     "text": "File:Bản tấu ngày 09 tháng 8 năm Minh Mệnh thứ 3 (1822) của Khâm Thiên Giám báo cáo về việc chọn ngày giờ để đặt cột đá và làm lễ cất nóc cung Trường Sanh 02.png Bản tấu ngày 09 tháng 8 năm Minh Mệnh "
    },
    {
-    "so": 1,
+    "so": 7,
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/B%E1%BA%A3n_t%E1%BA%A5u_ng%C3%A0y_09_th%C3%A1ng_8_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_3_%281822%29_c%E1%BB%A7a_Kh%C3%A2m_Thi%C3%AAn_Gi%C3%A1m_b%C3%A1o_c%C3%A1o_v%E1%BB%81_vi%E1%BB%87c_ch%E1%BB%8Dn_ng%C3%A0y_gi%E1%BB%9D_%C4%91%E1%BB%83_%C4%91%E1%BA%B7t_c%E1%BB%99t_%C4%91%C3%A1_v%C3%A0_l%C3%A0m_l%E1%BB%85_c%E1%BA%A5t_n%C3%B3c_cung_Tr%C6%B0%E1%BB%9Dng_Sanh_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "w": 1064,
     "h": 1612,
     "credit": "\"Bản tấu ngày 09 tháng 8 năm Minh Mệnh thứ 3 (1822) của Khâm Thiên Giám báo cáo về việc chọn ngày giờ để đặt cột đá và làm lễ cất nóc cung Trường Sanh 01.png\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%E1%BA%A5u_ng%C3%A0y_09_th%C3%A1ng_8_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_3_(1822)_c%E1%BB%A7a_Kh%C3%A2m_Thi%C3%AAn_Gi%C3%A1m_b%C3%A1o_c%C3%A1o_v%E1%BB%81_vi%E1%BB%87c_ch%E1%BB%8Dn_ng%C3%A0y_gi%E1%BB%9D_%C4%91%E1%BB%83_%C4%91%E1%BA%B7t_c%E1%BB%99t_%C4%91%C3%A1_v%C3%A0_l%C3%A0m_l%E1%BB%85_c%E1%BA%A5t_n%C3%B3c_cung_Tr%C6%B0%E1%BB%9Dng_Sanh_01.png)",
     "text": "File:Bản tấu ngày 09 tháng 8 năm Minh Mệnh thứ 3 (1822) của Khâm Thiên Giám báo cáo về việc chọn ngày giờ để đặt cột đá và làm lễ cất nóc cung Trường Sanh 01.png Bản tấu ngày 09 tháng 8 năm Minh Mệnh "
+   }
+  ]
+ },
+ {
+  "slot": "S7",
+  "beats": "12,13",
+  "mo_ta": "Cột Cờ Hà Nội, Hậu Lâu",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Cot_co_Ha_Noi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1130,
+    "h": 1129,
+    "credit": "\"Cot co Ha Noi.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Cot_co_Ha_Noi.jpg)",
+    "text": "File:Cot co Ha Noi.jpg Hình cột cờ trên thành Hà Nội trong Những trận đổ máu hồi người Pháp mới sang ta đến ngày nay, cuốn 3 của Ngô Tất Tố, Nhật Nam thư quán xuất bản ở Hà Nội năm 1935"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_Tower_of_Hanoi%2C_1812_%281%29_%2837608539335%29.jpg/1920px-Flag_Tower_of_Hanoi%2C_1812_%281%29_%2837608539335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5631,
+    "h": 4000,
+    "credit": "\"Flag Tower of Hanoi, 1812 (1) (37608539335).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(1)_(37608539335).jpg)",
+    "text": "File:Flag Tower of Hanoi, 1812 (1) (37608539335).jpg Flag Tower of Hanoi, 1812 (1)"
    },
    {
     "so": 2,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/B%E1%BA%A3n_t%C6%B0_ng%C3%A0y_28_th%C3%A1ng_12_n%C4%83m_%C4%90%E1%BB%93ng_Kh%C3%A1nh_2_%281866%29_c%E1%BB%A7a_B%E1%BB%99_L%E1%BA%A1i_v%E1%BB%81_vi%E1%BB%87c_%E2%80%9Cl%E1%BB%85_t%E1%BA%BFt_Nguy%C3%AAn_%C4%91%C3%A1n_sang_n%C4%83m%2C_c%C3%B3_l%C3%A0m_l%E1%BB%85_ch%C3%BAc_t%E1%BA%BFt_t%E1%BA%A1i_2_cung_Tr%C6%B0%E1%BB%9Dng_Ninh_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1063,
-    "h": 1273,
-    "credit": "\"Bản tư ngày 28 tháng 12 năm Đồng Khánh 2 (1866) của Bộ Lại về việc “lễ tết Nguyên đán sang năm, có làm lễ chúc tết tại 2 cung Trường Ninh 02.png\" – The imperial government of the Nguyễn Dynasty, French protectorates of Annam and Tonkin., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%C6%B0_ng%C3%A0y_28_th%C3%A1ng_12_n%C4%83m_%C4%90%E1%BB%93ng_Kh%C3%A1nh_2_(1866)_c%E1%BB%A7a_B%E1%BB%99_L%E1%BA%A1i_v%E1%BB%81_vi%E1%BB%87c_%E2%80%9Cl%E1%BB%85_t%E1%BA%BFt_Nguy%C3%AAn_%C4%91%C3%A1n_sang_n%C4%83m,_c%C3%B3_l%C3%A0m_l%E1%BB%85_ch%C3%BAc_t%E1%BA%BFt_t%E1%BA%A1i_2_cung_Tr%C6%B0%E1%BB%9Dng_Ninh_02.png)",
-    "text": "File:Bản tư ngày 28 tháng 12 năm Đồng Khánh 2 (1866) của Bộ Lại về việc “lễ tết Nguyên đán sang năm, có làm lễ chúc tết tại 2 cung Trường Ninh 02.png Bản tư ngày 28 tháng 12 năm Đồng Khánh 2 (1866) củ"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_Tower_of_Hanoi%2C_1812_%283%29_%2837608503235%29.jpg/1920px-Flag_Tower_of_Hanoi%2C_1812_%283%29_%2837608503235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5984,
+    "h": 3974,
+    "credit": "\"Flag Tower of Hanoi, 1812 (3) (37608503235).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(3)_(37608503235).jpg)",
+    "text": "File:Flag Tower of Hanoi, 1812 (3) (37608503235).jpg Flag Tower of Hanoi, 1812 (3)"
    },
    {
     "so": 3,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/B%E1%BA%A3n_t%C6%B0_ng%C3%A0y_28_th%C3%A1ng_12_n%C4%83m_%C4%90%E1%BB%93ng_Kh%C3%A1nh_2_%281866%29_c%E1%BB%A7a_B%E1%BB%99_L%E1%BA%A1i_v%E1%BB%81_vi%E1%BB%87c_%E2%80%9Cl%E1%BB%85_t%E1%BA%BFt_Nguy%C3%AAn_%C4%91%C3%A1n_sang_n%C4%83m%2C_c%C3%B3_l%C3%A0m_l%E1%BB%85_ch%C3%BAc_t%E1%BA%BFt_t%E1%BA%A1i_2_cung_Tr%C6%B0%E1%BB%9Dng_Ninh_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1080,
-    "h": 1585,
-    "credit": "\"Bản tư ngày 28 tháng 12 năm Đồng Khánh 2 (1866) của Bộ Lại về việc “lễ tết Nguyên đán sang năm, có làm lễ chúc tết tại 2 cung Trường Ninh 01.png\" – The imperial government of the Nguyễn Dynasty, French protectorates of Annam and Tonkin., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%C6%B0_ng%C3%A0y_28_th%C3%A1ng_12_n%C4%83m_%C4%90%E1%BB%93ng_Kh%C3%A1nh_2_(1866)_c%E1%BB%A7a_B%E1%BB%99_L%E1%BA%A1i_v%E1%BB%81_vi%E1%BB%87c_%E2%80%9Cl%E1%BB%85_t%E1%BA%BFt_Nguy%C3%AAn_%C4%91%C3%A1n_sang_n%C4%83m,_c%C3%B3_l%C3%A0m_l%E1%BB%85_ch%C3%BAc_t%E1%BA%BFt_t%E1%BA%A1i_2_cung_Tr%C6%B0%E1%BB%9Dng_Ninh_01.png)",
-    "text": "File:Bản tư ngày 28 tháng 12 năm Đồng Khánh 2 (1866) của Bộ Lại về việc “lễ tết Nguyên đán sang năm, có làm lễ chúc tết tại 2 cung Trường Ninh 01.png Bản tư ngày 28 tháng 12 năm Đồng Khánh 2 (1866) củ"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_Tower_of_Hanoi%2C_1812_%282%29_%2837608528975%29.jpg/1920px-Flag_Tower_of_Hanoi%2C_1812_%282%29_%2837608528975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5970,
+    "h": 3954,
+    "credit": "\"Flag Tower of Hanoi, 1812 (2) (37608528975).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(2)_(37608528975).jpg)",
+    "text": "File:Flag Tower of Hanoi, 1812 (2) (37608528975).jpg Flag Tower of Hanoi, 1812 (2)"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_Tower_of_Hanoi%2C_1812_%284%29_%2824623083838%29.jpg/1920px-Flag_Tower_of_Hanoi%2C_1812_%284%29_%2824623083838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6000,
+    "h": 4000,
+    "credit": "\"Flag Tower of Hanoi, 1812 (4) (24623083838).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg)",
+    "text": "File:Flag Tower of Hanoi, 1812 (4) (24623083838).jpg Flag Tower of Hanoi, 1812 (4)"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Lascar_Flag_Tower_of_Hanoi_%284550324293%29.jpg/1920px-Lascar_Flag_Tower_of_Hanoi_%284550324293%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2592,
+    "h": 1944,
+    "credit": "\"Lascar Flag Tower of Hanoi (4550324293).jpg\" – Jorge Láscar from Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Lascar_Flag_Tower_of_Hanoi_(4550324293).jpg)",
+    "text": "File:Lascar Flag Tower of Hanoi (4550324293).jpg The Flag Tower of Hanoi is a tower in Hanoi, Vietnam, which is one of the symbols of the city. Its height is 33.4 m (41 m with the flag). Built in 1812"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Hanoi_Flag_Tower_%289735454512%29.jpg/1920px-Hanoi_Flag_Tower_%289735454512%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Hanoi Flag Tower (9735454512).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735454512).jpg)",
+    "text": "File:Hanoi Flag Tower (9735454512).jpg Army Museum, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hanoi_Flag_Tower_%289735319814%29.jpg/1920px-Hanoi_Flag_Tower_%289735319814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Hanoi Flag Tower (9735319814).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319814).jpg)",
+    "text": "File:Hanoi Flag Tower (9735319814).jpg Army Museum, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Hanoi_Flag_Tower_%289735410622%29.jpg/1920px-Hanoi_Flag_Tower_%289735410622%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3456,
+    "h": 5184,
+    "credit": "\"Hanoi Flag Tower (9735410622).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735410622).jpg)",
+    "text": "File:Hanoi Flag Tower (9735410622).jpg Army Museum, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Hanoi_Flag_Tower_%289735319302%29.jpg/1920px-Hanoi_Flag_Tower_%289735319302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3456,
+    "h": 5184,
+    "credit": "\"Hanoi Flag Tower (9735319302).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_(9735319302).jpg)",
+    "text": "File:Hanoi Flag Tower (9735319302).jpg Army Museum, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Hanoi_Flag_Tower_by_night_%2826400791083%29.jpg/1920px-Hanoi_Flag_Tower_by_night_%2826400791083%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Hanoi Flag Tower by night (26400791083).jpg\" – Bex Walton from London, England, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_by_night_(26400791083).jpg)",
+    "text": "File:Hanoi Flag Tower by night (26400791083).jpg Hanoi Flag Tower by night"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hanoi_Flag_Tower.jpg/1920px-Hanoi_Flag_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4503,
+    "h": 3141,
+    "credit": "\"Hanoi Flag Tower.jpg\" – Chelsea Hicks, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower.jpg)",
+    "text": "File:Hanoi Flag Tower.jpg Flag Tower of Hanoi"
+   },
+   {
+    "so": 12,
+    "url": "https://live.staticflickr.com/65535/54594365306_91a7a91a11_b.jpg",
+    "w": 768,
+    "h": 1024,
+    "credit": "\"Flag Tower\" – D-Stanley, CC BY 2.0 (https://www.flickr.com/photos/79721788@N00/54594365306)",
+    "text": "Flag Tower flagtower hanoicitadel vietnam"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ch%C3%A2u_b%E1%BA%A3n%2C_t%E1%BA%ADp_2%2C_t%E1%BB%9D_102%2C_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh._-_Kh%C3%A2m_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%A1i_Nam_h%E1%BB%99i_%C4%91i%E1%BB%83n_s%E1%BB%B1_l%E1%BB%87%2C_B%E1%BB%99_C%C3%B4ng%2C_quy%E1%BB%83n_205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 906,
+    "h": 900,
+    "credit": "\"Châu bản, tập 2, tờ 102, Khải Định. - Khâm Định Đại Nam hội điển sự lệ, Bộ Công, quyển 205.jpg\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Ch%C3%A2u_b%E1%BA%A3n,_t%E1%BA%ADp_2,_t%E1%BB%9D_102,_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh._-_Kh%C3%A2m_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%A1i_Nam_h%E1%BB%99i_%C4%91i%E1%BB%83n_s%E1%BB%B1_l%E1%BB%87,_B%E1%BB%99_C%C3%B4ng,_quy%E1%BB%83n_205.jpg)",
+    "text": "File:Châu bản, tập 2, tờ 102, Khải Định. - Khâm Định Đại Nam hội điển sự lệ, Bộ Công, quyển 205.jpg A Khải Định period document (Bản tấu) issued by the Ministry of Public Works about repairs and a ren"
    }
   ]
  }

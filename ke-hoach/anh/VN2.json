@@ -1,0 +1,71 @@
+{
+ "id": "VN2",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "3",
+   "mo_ta": "Đồng peso bạc Tây Ban Nha (8 reales)",
+   "queries": [
+    "Spanish dollar 8 reales silver coin",
+    "pillar dollar piece of eight",
+    "Spanish colonial 8 reales coin"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "4-5",
+   "mo_ta": "Sổ sách thương nhân thế kỷ 18, chữ viết tay",
+   "queries": [
+    "18th century merchant ledger handwriting",
+    "colonial account book 1770s",
+    "eighteenth century account ledger"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "6-7",
+   "mo_ta": "Thư tay Oliver Pollock hoặc dấu $ viết tay",
+   "queries": [
+    "Oliver Pollock letter",
+    "Oliver Pollock dollar sign manuscript",
+    "early handwritten dollar sign"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "8",
+   "mo_ta": "Bản đồ Louisiana và Tây Florida thập niên 1760-1770",
+   "queries": [
+    "West Florida 1770 map",
+    "Louisiana map 1760s Spanish",
+    "British West Florida map"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "6",
+   "mo_ta": "New Orleans thế kỷ 18, tranh khắc hoặc bản đồ",
+   "queries": [
+    "New Orleans 18th century map",
+    "New Orleans 1770s engraving",
+    "La Nouvelle-Orléans old plan"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "10",
+   "mo_ta": "Dấu $ in sớm, tiền giấy hoặc sách thập niên 1790",
+   "queries": [
+    "early printed dollar sign 1790s",
+    "Continental currency note dollars",
+    "1790s American banknote"
+   ],
+   "subject": ""
+  }
+ ]
+}

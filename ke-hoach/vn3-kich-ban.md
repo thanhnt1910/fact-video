@@ -1,6 +1,6 @@
 # VN3. Tên nước Việt Nam ra đời như thế nào (loạt "Bí mật biểu tượng", nhãn trên video: #03)
 
-Mã đoạn 56001–56016. Lời kể: `ke-hoach/thu-giong-hai/vn3_full.json` (16 đoạn, khoảng 100 giây; dài hơn mức 60–80 giây, cắt bớt đoạn 56008 hoặc 56011 nếu chủ kênh muốn ngắn hơn). **Đã kiểm đủ dữ kiện (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.**
+Mã đoạn 56001–56017. Lời kể: `ke-hoach/thu-giong-hai/vn3_full.json` (17 đoạn, khoảng 100 giây; dài hơn mức 60–80 giây, cắt bớt đoạn 56008 hoặc 56011 nếu chủ kênh muốn ngắn hơn). **Đã kiểm đủ dữ kiện (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.**
 
 ## Lời kể (để duyệt)
 56001. Bạn có biết, tên nước Việt Nam suýt nữa là Nam Việt, nhưng vua nhà Thanh đã không đồng ý?
@@ -14,11 +14,12 @@ Mã đoạn 56001–56016. Lời kể: `ke-hoach/thu-giong-hai/vn3_full.json` (1
 56009. Cuối cùng, hai bên chọn cách đổi thứ tự hai chữ. Tháng 5 năm 1803, nhà Thanh chấp thuận tên Việt Nam.
 56010. Năm 1804, sứ nhà Thanh mang sắc phong và ấn sang làm lễ, và quốc hiệu Việt Nam chính thức được công bố.
 56011. Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu.
-56012. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam, áp dụng từ năm sau. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
-56013. Nhưng tên Việt Nam không mất đi. Từ năm 1838, hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
-56014. Từ cuối thế kỷ mười chín, nhiều sử gia và chí sĩ lại dùng tên Việt Nam. Vì sao tên cũ được giữ, đến nay chưa có nghiên cứu nào nói rõ.
-56015. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao cái tên Việt Nam vẫn được giữ, dù đã có quốc hiệu mới?
-56016. Hẹn bạn ở video tiếp theo.
+56012. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.
+56013. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
+56014. Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
+56015. Từ cuối thế kỷ mười chín, nhiều sử gia và chí sĩ lại dùng tên Việt Nam. Vì sao tên cũ được giữ, đến nay chưa có nghiên cứu nào nói rõ.
+56016. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao cái tên Việt Nam vẫn được giữ, dù đã có quốc hiệu mới?
+56017. Hẹn bạn ở video tiếp theo.
 
 ## Khung 6 câu hỏi
 1. **Chuyện gì xảy ra?** Tên "Việt Nam" được đặt năm 1804 sau khi nhà Thanh bác tên "Nam Việt" mà Gia Long xin.
@@ -51,7 +52,7 @@ Mã đoạn 56001–56016. Lời kể: `ke-hoach/thu-giong-hai/vn3_full.json` (1
 - **Không đưa vào:** Văn Lang, Âu Lạc, Vạn Xuân (để video khác hoặc bản dài); giả thuyết tên Việt Nam từ thời Tây Sơn hay chúa Nguyễn (chỉ giả thuyết).
 - **Ảnh:** không dùng chân dung; bản đồ, tiền, ấn, trang chiếu chỉ, văn bia.
 
-- **Bản sửa 07/11 (chủ kênh yêu cầu thêm lý do tên Việt Nam vẫn được giữ):** thêm 56013–56015. Nguồn: Phan Long, Tạp chí Làng nghề Việt Nam, 25/08/2022, dẫn Đại Nam thực lục chính biên (Đệ nhị kỷ, quyển 190) cho lời Minh Mạng "Trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn"; bài nói hai tên dùng song song từ 1838 và "chưa có một nghiên cứu nào" giải thích cụ thể. **Chỉ một nguồn.** Đoạn 56015 vượt mốc 1858 của quy tắc kênh (chỉ một câu, không nêu chính trị, không nêu năm sau 1858); chờ chủ kênh quyết.
+- **Bản sửa 07/11 (chủ kênh yêu cầu thêm lý do tên Việt Nam vẫn được giữ):** thêm 56013–56016. Nguồn: Phan Long, Tạp chí Làng nghề Việt Nam, 25/08/2022, dẫn Đại Nam thực lục chính biên (Đệ nhị kỷ, quyển 190) cho lời Minh Mạng "Trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn"; bài nói hai tên dùng song song từ 1838 và "chưa có một nghiên cứu nào" giải thích cụ thể. **Chỉ một nguồn.** Đoạn 56015 (câu về cuối về cuối thế kỷ 19) vượt mốc 1858 của quy tắc kênh (chỉ một câu, không nêu chính trị, không nêu năm sau 1858); chờ chủ kênh quyết.
 
 ## Ghi nguồn cho mô tả và bình luận ghim
 Đại Việt sử ký toàn thư; Đại Nam thực lục; Nguyễn Minh Tường (nghiencuuquocte.org, 2024); Tôn Thất Thọ (nghiencuulichsu.com, 2026); Nguyễn Đình Đầu, Tạp ghi Việt Sử Địa; Đinh Văn Tuấn (Tạp chí Nghiên cứu và Phát triển, 2017).

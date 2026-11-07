@@ -104,7 +104,17 @@ function cscene(n0,n1,c){scene(R(n0)-.2,E(n1),g=>{const cd=card(c.k,IMG+c.k+'.jp
   if(ins){const I=c.inset,ie=PV(t,I.n,I.w,I.fb,0,.5);ins.at(I.x,I.y,I.rot||3,Math.max(.001,ie),ie>0?1:0)}}}})}
 
 
+
+
 // S1: móc
+// ----- ảnh nền mờ cho cảnh chữ (chạy chậm, phóng dần)
+const BGP=[];
+function bgp(g,k,fx,fy,a,b,op=.42){const d=DIMS[k]||[4,3];const id='bg'+(CID++);const cp=el(g,'clipPath',{id});el(cp,'rect',{x:40,y:150,width:1000,height:1090,rx:34});
+ const o=el(g,'g',{'clip-path':`url(#${id})`});const gi=el(o,'g',{});const sc=Math.max(1000/d[0],1090/d[1])*1.1;const w=d[0]*sc,h=d[1]*sc;const X=Math.min(5,Math.max(1075-w,540-w*fx)),Y=Math.min(115,Math.max(1275-h,695-h*fy));
+ el(gi,'image',{href:IMG+k+'.jpg',x:X,y:Y,width:w,height:h,opacity:op,preserveAspectRatio:'none'});
+ el(o,'rect',{x:40,y:150,width:1000,height:1090,fill:'#0c0a08',opacity:.28});
+ el(g,'rect',{x:40,y:150,width:1000,height:1090,rx:34,fill:'none',stroke:'rgba(242,193,78,.55)','stroke-width':4});
+ BGP.push({gi,a,b,fx,fy,cx:540,cy:695})}
 cscene(1,1,{k:'den',w:940,h:705,y:600,stamp:['9 VÒNG?',300,330,110,1,'chín',3.0],lab:'ĐỀN THỜ AN DƯƠNG VƯƠNG TẠI CỔ LOA (ẢNH TƯ LIỆU)',labs:20,ly:985,
  strips:[['THÀNH CỔ LOA: MẤY VÒNG?',true,50,540,1180,-2,1,'nhưng',0.6],['NHÀ KHẢO CỔ CHỈ THẤY 3',false,44,540,1264,2,1,'ba',0.5]]});
 // S2: vị trí, bản đồ
@@ -114,7 +124,7 @@ scene(R(2)-.2,E(2),g=>{const m=mapcard(920,780,5);const pg=mk(m.inner);const cn=
 cscene(3,3,{k:'tuong',w:560,h:840,y:610,stamp:['ÂU LẠC',830,330,90,3,'Âu',4.8],lab:'TƯỢNG AN DƯƠNG VƯƠNG TẠI ĐỀN CỔ LOA (ẢNH TƯ LIỆU)',labs:20,ly:1075,
  strips:[['THỤC PHÁN → AN DƯƠNG VƯƠNG',true,40,540,1180,-2,3,'Thục',0.6],['ĐÓNG ĐÔ Ở CỔ LOA',false,44,540,1264,2,3,'đóng',6.0]]});
 // S4-7: sơ đồ ba vòng thành (minh họa)
-scene(R(4)-.2,E(7),g=>{const cx=540,cy=600;
+scene(R(4)-.2,E(7),g=>{bgp(g,'den',0.5,0.35,R(4)-.2,E(7));const cx=540,cy=600;
  const hdg=el(g,'g',{});const rs=[{n:'THÀNH NGOẠI',rx:400,ry:330,col:'#9ad0ff',o:0},{n:'THÀNH TRUNG',rx:270,ry:220,col:'#f2c14e',o:0},{n:'THÀNH NỘI',rx:135,ry:110,col:'#e5483f',o:0}];
  const ov=rs.map(r=>{const e=el(g,'ellipse',{cx,cy,rx:r.rx,ry:r.ry,fill:'rgba(20,16,10,.35)',stroke:r.col,'stroke-width':14,'stroke-linecap':'round',transform:`rotate(-8 ${cx} ${cy})`});const Lp=Math.PI*(3*(r.rx+r.ry)-Math.sqrt((3*r.rx+r.ry)*(r.rx+3*r.ry)));e.setAttribute('stroke-dasharray',Lp);e.setAttribute('stroke-dashoffset',Lp);e._L=Lp;return e});
  const moat=el(g,'ellipse',{cx,cy,rx:420,ry:350,fill:'none',stroke:'#4fa3ff','stroke-width':8,'stroke-dasharray':'3 14','stroke-linecap':'round',transform:`rotate(-8 ${cx} ${cy})`});
@@ -127,13 +137,13 @@ scene(R(4)-.2,E(7),g=>{const cx=540,cy=600;
   moat.setAttribute('opacity',inn(t,R(7)+.3,.8));riv.setAttribute('stroke-dashoffset',RL*(1-inn(t,R(7)+1.2,1.2)));sh(mo,t,240,1020,-2,PV(t,7,'hào',0.2));sh(rv,t,900,1000,3,PV(t,7,'sông',0.2));
   sh(note,t,540,1180,0,inn(t,R(4)+.5,.5));g.setAttribute('transform','');}}});
 // S8: chín vòng xoáy là lời truyền
-scene(R(8)-.2,E(8),g=>{const r1=ring(g,540,560,250,'#f2c14e'),r2=ring(g,540,860,250,'#e5483f');const A=strip('CHÍN VÒNG XOÁY',true,64,81),B=strip('LÀ LỜI TRUYỀN LẠI',false,52,82),C=strip('DẤU TÍCH: CHỈ 3 VÒNG',true,52,83),st=stamp('3 VÒNG',120);
+scene(R(8)-.2,E(8),g=>{bgp(g,'gieng',0.5,0.5,R(8)-.2,E(8));const r1=ring(g,540,560,250,'#f2c14e'),r2=ring(g,540,860,250,'#e5483f');const A=strip('CHÍN VÒNG XOÁY',true,64,81),B=strip('LÀ LỜI TRUYỀN LẠI',false,52,82),C=strip('DẤU TÍCH: CHỈ 3 VÒNG',true,52,83),st=stamp('3 VÒNG',120);
  return{upd:(t)=>{sh(A,t,540,560,-2,PV(t,8,'chín',0.2));sh(B,t,540,860,2,PV(t,8,'lời',0.2));sh(C,t,540,1090,-1,PV(t,8,'dấu',0.2));r1.set(inn(t,R(8)+.5,.9));r2.set(inn(t,R(8)+1.5,.9));sh(st,t,860,330,6,PV(t,8,'ba',0.3))}}});
 // S9-10: Nguyễn Hải Kế, Ngô Quyền
-scene(R(9)-.2,E(10),g=>{const r1=ring(g,540,640,270,'#e5483f');const A=strip('PGS NGUYỄN HẢI KẾ',false,48,91),B=strip('XÂY LẦN ĐẦU: AN DƯƠNG VƯƠNG',true,34,92),C=strip('CÁC THỜI SAU DÙNG LẠI, ĐẮP THÊM',false,32,93),D=strip('NGÔ QUYỀN ĐÓNG ĐÔ Ở CỔ LOA',true,36,94),st=stamp('939',160);
+scene(R(9)-.2,E(10),g=>{bgp(g,'tuong',0.5,0.3,R(9)-.2,E(10));const r1=ring(g,540,640,270,'#e5483f');const A=strip('PGS NGUYỄN HẢI KẾ',false,48,91),B=strip('XÂY LẦN ĐẦU: AN DƯƠNG VƯƠNG',true,34,92),C=strip('CÁC THỜI SAU DÙNG LẠI, ĐẮP THÊM',false,32,93),D=strip('NGÔ QUYỀN ĐÓNG ĐÔ Ở CỔ LOA',true,36,94),st=stamp('939',160);
  return{upd:(t)=>{sh(A,t,540,420,-2,PV(t,9,'Phó',0.2));sh(B,t,540,640,2,PV(t,9,'xây',0.3));sh(C,t,540,860,-2,PV(t,9,'rồi',0.2));r1.set(inn(t,R(9)+1.0,1));sh(st,t,540,1060,-3,PV(t,10,'Ngô',0.0));sh(D,t,540,1190,2,PV(t,10,'Ngô',0.3))}}});
 // S11: khai quật Thành Ngoại 2012
-scene(R(11)-.2,E(11),g=>{const st=stamp('2012',160),A=strip('HỐ KHAI QUẬT · THÀNH NGOẠI',true,44,95),B=strip('ĐẮP QUA NHIỀU GIAI ĐOẠN',false,44,96),C=strip('CÓ LẦN VÀO THỜI LÊ',true,44,97),nt=strip('SƠ ĐỒ MINH HỌA CÁC LỚP ĐẮP',false,22,98);
+scene(R(11)-.2,E(11),g=>{bgp(g,'trong',0.5,0.45,R(11)-.2,E(11));const st=stamp('2012',160),A=strip('HỐ KHAI QUẬT · THÀNH NGOẠI',true,44,95),B=strip('ĐẮP QUA NHIỀU GIAI ĐOẠN',false,44,96),C=strip('CÓ LẦN VÀO THỜI LÊ',true,44,97),nt=strip('SƠ ĐỒ MINH HỌA CÁC LỚP ĐẮP',false,22,98);
  const ly=[['#c9a56a',0],['#a8814a',1],['#8d6a38',2],['#6e5128',3]].map(([c,i])=>el(g,'rect',{x:210,y:470+i*110,width:660,height:100,rx:10,fill:c,stroke:'#1b140c','stroke-width':5}));
  return{upd:(t)=>{ly.forEach((r,i)=>{const u=inn(t,R(11)+.4+i*.5,.5);r.setAttribute('opacity',u);r.setAttribute('transform',`translate(0,${(1-u)*-60})`)});sh(st,t,540,330,-4,PV(t,11,'hai',0.0));sh(A,t,540,950,-2,PV(t,11,'một',0.3));sh(B,t,540,1060,2,PV(t,11,'đắp',0.2));sh(C,t,540,1170,-2,PV(t,11,'lần',0.2));sh(nt,t,540,1235,0,inn(t,R(11)+.5,.5))}}});
 // S12-14: mũi tên đồng
@@ -150,7 +160,7 @@ scene(R(15)-.2,TOTAL,g=>{const c=card('trong',IMG+'trong.jpg',860,645,15);const 
 S.appendChild(SUBP);S.appendChild(SUBG);
 sx(R(1)+.1,'whoosh',{d:.5,g:.5});sx(AT(1,'chín',3.0),'stamp',{g:.9});sx(AT(12,'năm',4.5),'stamp',{g:.9});sx(AT(13,'năm',0.2),'stamp',{g:.9});sx(AT(11,'hai',0.0),'stamp',{g:.9});sx(AT(15,'vì',0.1),'question',{g:.7});
 window.SFX=SFXQ;window.TOTAL=TOTAL;
-window.render=function(t){SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);s.upd(t)}});
+window.render=function(t){BGP.forEach(o=>{if(t>=o.a&&t<=o.b+.05){const u=cl((t-o.a)/Math.max(.1,o.b-o.a));const z=1.1+.2*u;o.gi.setAttribute('transform',`translate(${o.cx},${o.cy}) scale(${z}) translate(${-o.cx-(u-.5)*60},${-o.cy})`)}});SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);s.upd(t)}});
  news.setAttribute('transform',`translate(${-t*3},${-t*2})`);
  CH.forEach(c=>{const on=t>=c.a&&t<c.b;c.g.setAttribute('opacity',on?1:0);if(on){const k2=Math.floor(c.ws.length*cl((t-c.a)/(c.b-c.a-.1))+.999);c.ws.forEach((w,i)=>w.setAttribute('fill',i<k2?'#fff':'#a9a493'))}})}
 </script>

@@ -104,26 +104,35 @@ function cscene(n0,n1,c){scene(R(n0)-.2,E(n1),g=>{const cd=card(c.k,IMG+c.k+'.jp
   if(ins){const I=c.inset,ie=PV(t,I.n,I.w,I.fb,0,.5);ins.at(I.x,I.y,I.rot||3,Math.max(.001,ie),ie>0?1:0)}}}})}
 
 
+
+// ----- ảnh nền mờ cho cảnh chữ (chạy chậm, phóng dần)
+const BGP=[];
+function bgp(g,k,fx,fy,a,b,op=.42){const d=DIMS[k]||[4,3];const id='bg'+(CID++);const cp=el(g,'clipPath',{id});el(cp,'rect',{x:40,y:150,width:1000,height:1090,rx:34});
+ const o=el(g,'g',{'clip-path':`url(#${id})`});const gi=el(o,'g',{});const sc=Math.max(1000/d[0],1090/d[1])*1.1;const w=d[0]*sc,h=d[1]*sc;const X=Math.min(5,Math.max(1075-w,540-w*fx)),Y=Math.min(115,Math.max(1275-h,695-h*fy));
+ el(gi,'image',{href:IMG+k+'.jpg',x:X,y:Y,width:w,height:h,opacity:op,preserveAspectRatio:'none'});
+ el(o,'rect',{x:40,y:150,width:1000,height:1090,fill:'#0c0a08',opacity:.28});
+ el(g,'rect',{x:40,y:150,width:1000,height:1090,rx:34,fill:'none',stroke:'rgba(242,193,78,.55)','stroke-width':4});
+ BGP.push({gi,a,b,fx,fy,cx:540,cy:695})}
 cscene(1,1,{k:'doanmon1',w:960,h:519,y:560,stamp:['13 THẾ KỶ',300,300,100,1,'nhiều',4.5],lab:'ĐOAN MÔN, HOÀNG THÀNH THĂNG LONG (ẢNH NGÀY NAY)',labs:20,ly:870,
  strips:[['ĐÀO XUỐNG LÀ GẶP',true,52,540,1100,-2,1,'đào',0.6],['NHIỀU TRIỀU ĐẠI CHỒNG LÊN NHAU',false,36,540,1190,2,1,'nhiều',0.5]]});
-scene(R(2)-.2,E(2),g=>{const r1=ring(g,540,640,260,'#f2c14e');const A=strip('KHU KHẢO CỔ',false,52,21),B=strip('18 HOÀNG DIỆU · HÀ NỘI',true,56,22),C=strip('MỘT PHẦN HOÀNG THÀNH THĂNG LONG',false,34,23);
+scene(R(2)-.2,E(2),g=>{bgp(g,'toancanh',0.5,0.5,R(2)-.2,E(2));const r1=ring(g,540,640,260,'#f2c14e');const A=strip('KHU KHẢO CỔ',false,52,21),B=strip('18 HOÀNG DIỆU · HÀ NỘI',true,56,22),C=strip('MỘT PHẦN HOÀNG THÀNH THĂNG LONG',false,34,23);
  return{upd:(t)=>{r1.set(inn(t,R(2)+.3,1.2));sh(A,t,540,520,-2,PV(t,2,'khu',0.2));sh(B,t,540,680,2,PV(t,2,'18',0.0));sh(C,t,540,840,-1,PV(t,2,'một',0.3))}}});
-scene(R(3)-.2,E(3),g=>{const st=stamp('2002',170),A=strip('KHAI QUẬT BẮT ĐẦU',true,52,31),B=strip('KHI XÂY NHÀ QUỐC HỘI',false,48,32);
+scene(R(3)-.2,E(3),g=>{bgp(g,'gsell',0.5,0.5,R(3)-.2,E(3));const st=stamp('2002',170),A=strip('KHAI QUẬT BẮT ĐẦU',true,52,31),B=strip('KHI XÂY NHÀ QUỐC HỘI',false,48,32);
  return{upd:(t)=>{sh(st,t,540,500,-3,PV(t,3,'năm',0.8));sh(A,t,540,760,-2,PV(t,3,'Cuộc',0.2));sh(B,t,540,880,2,PV(t,3,'khi',0.2))}}});
 // S4-5: sơ đồ các lớp đất
-scene(R(4)-.2,E(5),g=>{const LY=[['ĐẠI LA · THẾ KỶ 7–9','#4a3322',4,'Lớp'],['ĐINH · TIỀN LÊ','#5d4129',5,'Đinh'],['LÝ','#74502f',5,'Lý'],['TRẦN','#8a6038',5,'Trần'],['LÊ SƠ','#a07242',5,'sơ'],['MẠC · LÊ TRUNG HƯNG','#b58850',5,'Mạc'],['NGUYỄN','#cba064',5,'Nguyễn']];
+scene(R(4)-.2,E(5),g=>{bgp(g,'doanmon1',0.5,0.7,R(4)-.2,E(5));const LY=[['ĐẠI LA · THẾ KỶ 7–9','#4a3322',4,'Lớp'],['ĐINH · TIỀN LÊ','#5d4129',5,'Đinh'],['LÝ','#74502f',5,'Lý'],['TRẦN','#8a6038',5,'Trần'],['LÊ SƠ','#a07242',5,'sơ'],['MẠC · LÊ TRUNG HƯNG','#b58850',5,'Mạc'],['NGUYỄN','#cba064',5,'Nguyễn']];
  const rs=LY.map((l,i)=>{const y=980-i*105;const r=el(g,'rect',{x:140,y,width:800,height:100,rx:8,fill:l[1],stroke:'#1b140c','stroke-width':5});const lb=strip(l[0],i%2==0,i==0?34:40,60+i);return{r,lb,y,i,n:l[2],w:l[3]}});
  const nt=strip('SƠ ĐỒ MINH HỌA CÁC LỚP DẤU TÍCH, KHÔNG ĐÚNG TỶ LỆ',false,20,70),dp=strip('SÂU NHẤT',true,34,71);
  return{upd:(t)=>{rs.forEach(o=>{const t0=o.i==0?R(4)+.4:AT(o.n,o.w,0.5*o.i)-.2;const u=inn(t,t0,.6);o.r.setAttribute('opacity',u);o.r.setAttribute('transform',`translate(0,${(1-u)*60})`);sh(o.lb,t,540,o.y+50,o.i%2?1:-1,u)});sh(nt,t,540,1130,0,inn(t,R(4)+.6,.5));sh(dp,t,880,1010,4,PV(t,4,'sâu',0.2))}}});
 cscene(6,6,{k:'doanmon2',w:760,h:570,y:600,lab:'LẦU ĐOAN MÔN (ẢNH NGÀY NAY)',labs:22,ly:910,
  strips:[['CHÂN ĐOAN MÔN',true,52,540,1100,-2,6,'chân',0.3],['GẠCH NGÓI LÝ · TRẦN · LÊ XẾP CHỒNG',false,34,540,1190,2,6,'gạch',1.0]]});
-scene(R(7)-.2,E(7),g=>{const rs=[ring(g,540,470,150,'#e5483f'),ring(g,540,760,150,'#f2c14e'),ring(g,540,1050,150,'#3fc08a')];const A=strip('NỀN MÓNG CUNG ĐIỆN',true,52,71),B=strip('GIẾNG NƯỚC',false,60,72),C=strip('CỐNG THOÁT NƯỚC',true,52,73);
+scene(R(7)-.2,E(7),g=>{bgp(g,'doanmon1',0.3,0.8,R(7)-.2,E(7));const rs=[ring(g,540,470,150,'#e5483f'),ring(g,540,760,150,'#f2c14e'),ring(g,540,1050,150,'#3fc08a')];const A=strip('NỀN MÓNG CUNG ĐIỆN',true,52,71),B=strip('GIẾNG NƯỚC',false,60,72),C=strip('CỐNG THOÁT NƯỚC',true,52,73);
  return{upd:(t)=>{sh(A,t,540,470,-3,PV(t,7,'nền',0.1));sh(B,t,540,760,2,PV(t,7,'giếng',0.1));sh(C,t,540,1050,-2,PV(t,7,'cống',0.1));rs.forEach((r,i)=>r.set(inn(t,R(7)+.5+i*1.4,.9)))}}});
-scene(R(8)-.2,E(8),g=>{const st=stamp('13 THẾ KỶ',130),A=strip('TỐNG TRUNG TÍN',false,56,81),B=strip('CHỦ TỊCH HỘI KHẢO CỔ HỌC VIỆT NAM',true,28,82),C=strip('CÁC LỚP ĐẤT NỐI TIẾP LIÊN TỤC',false,40,83);
+scene(R(8)-.2,E(8),g=>{bgp(g,'kt0',0.5,0.5,R(8)-.2,E(8));const st=stamp('13 THẾ KỶ',130),A=strip('TỐNG TRUNG TÍN',false,56,81),B=strip('CHỦ TỊCH HỘI KHẢO CỔ HỌC VIỆT NAM',true,28,82),C=strip('CÁC LỚP ĐẤT NỐI TIẾP LIÊN TỤC',false,40,83);
  return{upd:(t)=>{sh(A,t,540,470,-2,PV(t,8,'Tống',0.1));sh(B,t,540,570,1,PV(t,8,'Chủ',0.1));sh(st,t,540,760,-3,PV(t,8,'mười',0.0));sh(C,t,540,920,2,PV(t,8,'nối',0.1))}}});
-scene(R(9)-.2,E(9),g=>{const st=stamp('2010',170),A=strip('UNESCO GHI DANH',true,56,91),B=strip('DI SẢN THẾ GIỚI',false,56,92);
+scene(R(9)-.2,E(9),g=>{bgp(g,'doanmon2',0.5,0.2,R(9)-.2,E(9));const st=stamp('2010',170),A=strip('UNESCO GHI DANH',true,56,91),B=strip('DI SẢN THẾ GIỚI',false,56,92);
  return{upd:(t)=>{sh(st,t,540,500,-3,PV(t,9,'hai',0.0));sh(A,t,540,780,-2,PV(t,9,'UNESCO',0.1));sh(B,t,540,900,2,PV(t,9,'Di',0.1))}}});
-scene(R(10)-.2,E(10),g=>{const A=strip('TRUNG TÂM QUYỀN LỰC',true,52,101),B=strip('LIÊN TỤC',false,70,102),C=strip('TỪ THẾ KỶ 7 ĐẾN NAY',true,52,103);
+scene(R(10)-.2,E(10),g=>{bgp(g,'toancanh',0.8,0.5,R(10)-.2,E(10));const A=strip('TRUNG TÂM QUYỀN LỰC',true,52,101),B=strip('LIÊN TỤC',false,70,102),C=strip('TỪ THẾ KỶ 7 ĐẾN NAY',true,52,103);
  return{upd:(t)=>{sh(A,t,540,520,-2,PV(t,10,'trung',0.1));sh(B,t,540,680,2,PV(t,10,'liên',0.1));sh(C,t,540,840,-2,PV(t,10,'từ',0.1))}}});
 cscene(11,11,{k:'gsell',w:960,h:782,y:470,lab:'NỘI THÀNH HÀ NỘI, ẢNH CỦA EMILE GSELL (THẾ KỶ 19)',labs:20,ly:700,inset:{k:'kt0',mw:560,mh:430,n:11,w:'Điện',fb:3.0,x:700,y:960,rot:3},
  strips:[['ĐIỆN KÍNH THIÊN: CHỈ CÒN NỀN VÀ THỀM ĐÁ CHẠM RỒNG',true,28,540,1260,-1,11,'Điện',3.0],['SÂN SAU ĐIỆN KÍNH THIÊN (ẢNH NGÀY NAY)',false,22,700,1190,1,11,'Điện',3.0]]});
@@ -132,7 +141,7 @@ scene(R(12)-.2,TOTAL,g=>{const c=card('toancanh',IMG+'toancanh.jpg',900,675,15);
 S.appendChild(SUBP);S.appendChild(SUBG);
 sx(R(1)+.1,'whoosh',{d:.5,g:.5});sx(AT(3,'năm',0.8),'stamp',{g:.9});sx(AT(8,'mười',0.0),'stamp',{g:.9});sx(AT(9,'hai',0.0),'stamp',{g:.9});sx(AT(12,'vì',0.1),'question',{g:.7});
 window.SFX=SFXQ;window.TOTAL=TOTAL;
-window.render=function(t){SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);s.upd(t)}});
+window.render=function(t){BGP.forEach(o=>{if(t>=o.a&&t<=o.b+.05){const u=cl((t-o.a)/Math.max(.1,o.b-o.a));const z=1.1+.2*u;o.gi.setAttribute('transform',`translate(${o.cx},${o.cy}) scale(${z}) translate(${-o.cx-(u-.5)*60},${-o.cy})`)}});SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);s.upd(t)}});
  news.setAttribute('transform',`translate(${-t*3},${-t*2})`);
  CH.forEach(c=>{const on=t>=c.a&&t<c.b;c.g.setAttribute('opacity',on?1:0);if(on){const k2=Math.floor(c.ws.length*cl((t-c.a)/(c.b-c.a-.1))+.999);c.ws.forEach((w,i)=>w.setAttribute('fill',i<k2?'#fff':'#a9a493'))}})}
 </script>

@@ -104,6 +104,15 @@ function cscene(n0,n1,c){scene(R(n0)-.2,E(n1),g=>{const cd=card(c.k,IMG+c.k+'.jp
   if(ins){const I=c.inset,ie=PV(t,I.n,I.w,I.fb,0,.5);ins.at(I.x,I.y,I.rot||3,Math.max(.001,ie),ie>0?1:0)}}}})}
 
 
+
+// ----- ảnh nền mờ cho cảnh chữ (chạy chậm, phóng dần)
+const BGP=[];
+function bgp(g,k,fx,fy,a,b,op=.42){const d=DIMS[k]||[4,3];const id='bg'+(CID++);const cp=el(g,'clipPath',{id});el(cp,'rect',{x:40,y:150,width:1000,height:1090,rx:34});
+ const o=el(g,'g',{'clip-path':`url(#${id})`});const gi=el(o,'g',{});const sc=Math.max(1000/d[0],1090/d[1])*1.1;const w=d[0]*sc,h=d[1]*sc;const X=Math.min(5,Math.max(1075-w,540-w*fx)),Y=Math.min(115,Math.max(1275-h,695-h*fy));
+ el(gi,'image',{href:IMG+k+'.jpg',x:X,y:Y,width:w,height:h,opacity:op,preserveAspectRatio:'none'});
+ el(o,'rect',{x:40,y:150,width:1000,height:1090,fill:'#0c0a08',opacity:.28});
+ el(g,'rect',{x:40,y:150,width:1000,height:1090,rx:34,fill:'none',stroke:'rgba(242,193,78,.55)','stroke-width':4});
+ BGP.push({gi,a,b,fx,fy,cx:540,cy:695})}
 cscene(1,1,{k:'bia1',w:520,h:780,y:620,stamp:['82 BIA',820,360,100,1,'tám',9.0],lab:'BIA TIẾN SĨ, VĂN MIẾU HÀ NỘI (ẢNH NGÀY NAY)',labs:20,ly:1055,
  strips:[['VĂN MIẾU · QUỐC TỬ GIÁM',true,48,540,1190,-2,1,'Văn',1.5],['HƠN 1.000 NGƯỜI ĐỖ TIẾN SĨ',false,40,540,1272,2,1,'tên',9.5]]});
 cscene(2,2,{k:'hanhlang',w:900,h:600,y:590,lab:'DÃY BIA TIẾN SĨ DƯỚI NHÀ BIA (ẢNH NGÀY NAY)',labs:20,ly:930,
@@ -112,14 +121,14 @@ cscene(3,3,{k:'bia3',w:520,h:780,y:620,stamp:['1484',810,360,120,3,'năm',2.4],l
  strips:[['TẤM BIA ĐẦU TIÊN',true,52,540,1190,-2,3,'đầu',0.4],['THEO LỆNH VUA LÊ THÁNH TÔNG',false,38,540,1272,2,3,'theo',5.0]]});
 cscene(4,4,{k:'bia2',w:520,h:780,y:620,stamp:['TỪ 1442',800,360,80,4,'khoa',5.0],lab:'BIA TIẾN SĨ, VĂN MIẾU HÀ NỘI (ẢNH NGÀY NAY)',labs:20,ly:1055,
  strips:[['GHI TÊN NGƯỜI ĐỖ',true,52,540,1190,-2,4,'tên',0.3],['TỪ KHOA THI NĂM 1442',false,46,540,1272,2,4,'khoa',3.5]]});
-scene(R(5)-.2,E(5),g=>{const A=strip('TIẾN SĨ THÂN NHÂN TRUNG',false,44,51),B=strip('NGƯỜI VIẾT NỘI DUNG TẤM BIA',true,40,52),Q=strip('"HIỀN TÀI LÀ NGUYÊN KHÍ QUỐC GIA"',true,40,53),nt=strip('CÂU TRÊN BIA',false,30,54);
+scene(R(5)-.2,E(5),g=>{bgp(g,'khue2',0.5,0.4,R(5)-.2,E(5));const A=strip('TIẾN SĨ THÂN NHÂN TRUNG',false,44,51),B=strip('NGƯỜI VIẾT NỘI DUNG TẤM BIA',true,40,52),Q=strip('"HIỀN TÀI LÀ NGUYÊN KHÍ QUỐC GIA"',true,40,53),nt=strip('CÂU TRÊN BIA',false,30,54);
  return{upd:(t)=>{sh(A,t,540,430,-2,PV(t,5,'Tiến',0.1));sh(B,t,540,540,2,PV(t,5,'người',0.2));sh(nt,t,540,700,0,PV(t,5,'Trên',0.2));sh(Q,t,540,800,-1,PV(t,5,'Hiền',0.0))}}});
 // S6: trục thời gian
-scene(R(6)-.2,E(6),g=>{const ln=el(g,'line',{x1:150,y1:640,x2:930,y2:640,stroke:'#f2c14e','stroke-width':14,'stroke-linecap':'round'});const LL=780;ln.setAttribute('stroke-dasharray',LL);
+scene(R(6)-.2,E(6),g=>{bgp(g,'hanhlang',0.5,0.5,R(6)-.2,E(6));const ln=el(g,'line',{x1:150,y1:640,x2:930,y2:640,stroke:'#f2c14e','stroke-width':14,'stroke-linecap':'round'});const LL=780;ln.setAttribute('stroke-dasharray',LL);
  const a=stamp('1442',110),b=stamp('1779',110),m=strip('CÁC BIA CÒN LẠI GHI CÁC KHOA THI',true,34,61);const dots=[0,1,2,3,4,5,6].map(i=>{const d=el(g,'circle',{cx:150+i*130,cy:640,r:16,fill:'#e5483f',stroke:'#fff','stroke-width':5});return d});
  return{upd:(t)=>{const u=inn(t,R(6)+.3,Math.max(2,E(6)-R(6)-1));ln.setAttribute('stroke-dashoffset',LL*(1-u));dots.forEach((d,i)=>d.setAttribute('opacity',u*7>i?1:0));sh(a,t,270,470,-3,PV(t,6,'năm',0.0));sh(b,t,810,470,3,PV(t,6,'đến',1.2));sh(m,t,540,820,-1,inn(t,R(6)+.5,.5))}}});
 // S7: số người đỗ
-scene(R(7)-.2,E(7),g=>{const A=strip('TẤT CẢ',false,52,71),B=strip('NGƯỜI ĐỖ TIẾN SĨ ĐƯỢC KHẮC TÊN TRÊN ĐÁ',true,32,72);const num=T(g,540,780,'0',220,'#f2c14e',16,'middle','#1b140c');
+scene(R(7)-.2,E(7),g=>{bgp(g,'bia2',0.5,0.4,R(7)-.2,E(7));const A=strip('TẤT CẢ',false,52,71),B=strip('NGƯỜI ĐỖ TIẾN SĨ ĐƯỢC KHẮC TÊN TRÊN ĐÁ',true,32,72);const num=T(g,540,780,'0',220,'#f2c14e',16,'middle','#1b140c');
  return{upd:(t)=>{const u=inn(t,AT(7,'một',1.5),2.2);num.textContent=String(Math.round(1304*u));sh(A,t,540,500,-2,PV(t,7,'Tất',0.1));sh(B,t,540,950,2,PV(t,7,'người',0.2))}}});
 cscene(8,8,{k:'khue1',w:560,h:773,y:630,stamp:['2010',820,360,110,8,'hai',0.0],lab:'KHUÊ VĂN CÁC, VĂN MIẾU (ẢNH NGÀY NAY)',labs:20,ly:1050,
  strips:[['UNESCO · KÝ ỨC THẾ GIỚI',true,44,540,1190,-2,8,'UNESCO',0.1],['DI SẢN TƯ LIỆU CỦA THẾ GIỚI',false,38,540,1272,2,8,'danh',3.0]]});
@@ -128,7 +137,7 @@ scene(R(9)-.2,TOTAL,g=>{const c=card('ho',IMG+'ho.jpg',900,600,15);const tg=stri
 S.appendChild(SUBP);S.appendChild(SUBG);
 sx(R(1)+.1,'whoosh',{d:.5,g:.5});sx(AT(1,'tám',9.0),'stamp',{g:.9});sx(AT(3,'năm',2.4),'stamp',{g:.9});sx(AT(8,'hai',0.0),'stamp',{g:.9});sx(AT(9,'Vì',0.1),'question',{g:.7});
 window.SFX=SFXQ;window.TOTAL=TOTAL;
-window.render=function(t){SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);s.upd(t)}});
+window.render=function(t){BGP.forEach(o=>{if(t>=o.a&&t<=o.b+.05){const u=cl((t-o.a)/Math.max(.1,o.b-o.a));const z=1.1+.2*u;o.gi.setAttribute('transform',`translate(${o.cx},${o.cy}) scale(${z}) translate(${-o.cx-(u-.5)*60},${-o.cy})`)}});SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);s.upd(t)}});
  news.setAttribute('transform',`translate(${-t*3},${-t*2})`);
  CH.forEach(c=>{const on=t>=c.a&&t<c.b;c.g.setAttribute('opacity',on?1:0);if(on){const k2=Math.floor(c.ws.length*cl((t-c.a)/(c.b-c.a-.1))+.999);c.ws.forEach((w,i)=>w.setAttribute('fill',i<k2?'#fff':'#a9a493'))}})}
 </script>

@@ -1,5 +1,5 @@
 <!doctype html><meta charset=utf-8><style>html,body{margin:0;background:#000}svg{display:block}text{font-family:'Inter','Inter Display',sans-serif;font-weight:900;paint-order:stroke;stroke-linejoin:round}</style><body><svg id=s width=1080 height=1920 viewBox="0 0 1080 1920"></svg>
-<script src=data.js></script><script>
+<script src=data.js></script><script src=dims_dola.js></script><script>
 const NS='http://www.w3.org/2000/svg',S=document.getElementById('s'),DK='#1b140c',GOLD='#f2c14e',RED='#e5483f',GRN='#3fc08a',WH='#fff';
 function el(p,n,a){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e}
 const ease=x=>.5-.5*Math.cos(Math.PI*Math.min(1,Math.max(0,x))),cl=x=>Math.min(1,Math.max(0,x)),lerp=(a,b,u)=>a+(b-a)*u;
@@ -9,6 +9,7 @@ const cR=[229,72,63],cG=[63,192,138];
 const GAP=(window.DURS?.4:.5);const DUR={};let acc=.3;const TS={};SCRIPT.forEach(b=>{const w=b.text.split(/\s+/).length;DUR[b.n]=(window.DURS&&DURS[b.n]!=null)?DURS[b.n]+GAP:Math.max(3.2,w/3.4+.5);TS[b.n]=acc;acc+=DUR[b.n]});const TOTAL=acc+1.2;
 const R=n=>TS[52000+n],E=n=>TS[52000+n]+DUR[52000+n];
 
+function T(p,x,y,txt,size,fill,sw=10,anchor='middle',stroke=DK){const t=el(p,'text',{x,y,'font-size':size,fill,stroke,'stroke-width':sw,'text-anchor':anchor});t.textContent=txt;return t}
 const DIMS=window.DIMS||{};
 function W(n,word,fb=0){const sp=(SPOK[52000+n]||'').split(/\s+/).filter(Boolean);const A=(window.ASRW&&ASRW[52000+n])||[];const i=sp.findIndex(x=>nw(x).startsWith(nw(word)));return(i>=0&&A.length>i)?A[i]:fb}
 const AT=(n,w,fb)=>R(n)+W(n,w,fb);
@@ -33,7 +34,7 @@ function fit(k,mw,mh){const d=DIMS[k]||[4,3];const s=Math.min(mw/d[0],mh/d[1]);r
 function card(k,path,mw,mh,seed=1,crop=0){const[w,h]=fit(k,mw,mh);const g=mk();const id='cp'+(CID++);const o={g,w,h};
  const sh=el(g,'g',{filter:'url(#sh)'});el(sh,'polygon',{points:jag(w+22,h+22,seed+3,6),fill:'#eee7d3'});
  const cp=el(g,'clipPath',{id});el(cp,'polygon',{points:jag(w,h,seed,4)});
- const ig=el(g,'g',{'clip-path':`url(#${id})`});const im=el(ig,'image',{href:path,x:-w/2-crop,y:-h/2-crop,width:w+2*crop,height:h+2*crop,preserveAspectRatio:'xMidYMid slice'});
+ const oc=el(g,'g',{'clip-path':`url(#${id})`});const ig=el(oc,'g',{});const im=el(ig,'image',{href:path,x:-w/2-crop,y:-h/2-crop,width:w+2*crop,height:h+2*crop,preserveAspectRatio:'xMidYMid slice'});
  o.ig=ig;o.top=el(g,'g',{});o.zoom=(s,fx,fy)=>{const px=-w/2+fx*w,py=-h/2+fy*h;ig.setAttribute('transform',`translate(${px},${py}) scale(${s}) translate(${-px},${-py})`)};
  o.at=(x,y,rot=0,sc=1,op=1)=>{g.setAttribute('transform',`translate(${x},${y}) rotate(${rot}) scale(${sc})`);g.setAttribute('opacity',op)};
  const tp=el(g,'rect',{x:-40,y:-h/2-18,width:80,height:34,fill:'rgba(236,226,180,.55)',transform:`rotate(${(seed%2?-6:7)})`});
@@ -97,8 +98,8 @@ scene(R(10)-.2,E(10),g=>{const c=card('t1',IMG+'t1.jpg',860,700,1);const y=stamp
 scene(R(11)-.2,E(11),g=>{const w=strip('WALLACE',false,52,70);const r=strip('ROOSEVELT',false,52,71);const ar=arrow(g,310,520,760,520);const c=card('eye',IMG+'eye.jpg',460,480,7);const rg=[0,1,2].map(()=>el(g,'circle',{fill:'none',stroke:'#f2c14e','stroke-width':6}));const tg=strip('IN LÊN TỜ 1 ĐÔ LA',true,46,72);
  return{upd:(t)=>{w.at(250+(1-inn(t,R(11),.4))*-200,420,-3,1,inn(t,R(11),.4));r.at(830,420,3,1,inn(t,AT(11,'Roosevelt',2.4)-.3,.4));ar.set(inn(t,AT(11,'mang',1.0),1.2));const k=popv(t,AT(11,'thích',5.0)-.2);c.at(540,860,-2,k,k>0?1:0);rg.forEach((e2,i)=>{const u=((t-R(11)-i*.7)*.6)%1;e2.setAttribute('cx',540);e2.setAttribute('cy',860);e2.setAttribute('r',230+Math.max(0,u)*160);e2.setAttribute('opacity',k>0?(1-Math.max(0,u))*.7:0)});const a=popv(t,AT(11,'in',10.5)-.2);tg.at(540,1190,-2,a,a>0?1:0)}}});
 // ===== S12-13 (12,13): tờ 1 đô la series 1935 + hồi ức
-scene(R(12)-.2,E(13),g=>{const f=card('s35f',IMG+'s35f.jpg',900,450,8);const b=card('s35b',IMG+'s35b.jpg',900,450,9);const st=stamp('1935',120);const rec=strip('HỒI ỨC CỦA WALLACE · 1951, 1955',true,34,80);const falls=[0,1,2].map(i=>card('s35b',IMG+'s35b.jpg',420,210,20+i));
- return{upd:(t)=>{const e=inn(t,R(12)-.2,.6);f.at(540,560-(1-e)*400,-2,1,e);b.at(540,1010+(1-inn(t,AT(12,'mang',3.2),.6))*500,2,1,inn(t,AT(12,'mang',3.2),.6));st.at(790,330,8,popv(t,AT(12,'Năm',0)+.2,.4),popv(t,AT(12,'Năm',0)+.2,.4)>0?1:0);falls.forEach((c2,i)=>{const d=AT(12,'bắt',5.0)+i*.5;const u=cl((t-d)/1.6);c2.at(200+i*340,300+u*1000,(i-1)*14,.6,u>0&&u<1?1:0)});const a=popv(t,R(13)+.3);rec.at(540,1215,-1,a,a>0?1:0)}}});
+scene(R(12)-.2,E(13),g=>{const f=card('s35f',IMG+'s35f.jpg',900,980,8);const st=stamp('1935',120);const rec=strip('HỒI ỨC CỦA WALLACE · 1951, 1955',true,34,80);const falls=[0,1,2].map(i=>card('s35f',IMG+'s35f.jpg',300,330,20+i));const tg=strip('MẶT SAU: KIM TỰ THÁP',true,40,81);
+ return{upd:(t)=>{const e=inn(t,R(12)-.2,.6);f.at(540,720-(1-e)*400,-2,1,e);const k=inn(t,AT(12,'mang',3.2)-.2,1.6);f.zoom(1+.6*k,.3,lerp(.3,.78,k));st.at(800,360,8,popv(t,AT(12,'Năm',0)+.2,.4),popv(t,AT(12,'Năm',0)+.2,.4)>0?1:0);falls.forEach((c2,i)=>{const d=AT(12,'bắt',5.0)+i*.5;const u=cl((t-d)/1.6);c2.at(200+i*340,250+u*1000,(i-1)*14,.8,u>0&&u<1?1:0)});const tt=popv(t,AT(12,'mang',3.2)+.6);tg.at(540,1180,-2,tt,tt>0?1:0);const a=popv(t,R(13)+.3);rec.at(540,1215,-1,a,a>0?1:0);if(a>0)tg.g.setAttribute('opacity',0)}}});
 // ===== S14 (14): câu hỏi kết, con mắt chớp
 scene(R(14)-.2,TOTAL,g=>{const c=card('t1',IMG+'t1.jpg',960,800,1);const lid=el(c.top,'ellipse',{cx:0,cy:-200,rx:95,ry:0,fill:'#cfd8c6'});const rg=[0,1,2].map(()=>el(g,'circle',{fill:'none',stroke:'#f2c14e','stroke-width':5}));
  return{upd:(t)=>{const e=inn(t,R(14)-.2,.8);c.at(540,780,0,.9+.1*e,e);const z=1+1.5*inn(t,R(14),4);c.zoom(z,.5,.3);const bt=(t-R(14)-AT(14,'Hẹn',9)+R(14));const k=bt>0&&bt<.35?Math.sin(bt/.35*Math.PI):0;lid.setAttribute('ry',70*k);rg.forEach((e2,i)=>{const u=((t-R(14)-i*.9)*.45)%1;e2.setAttribute('cx',540);e2.setAttribute('cy',440);e2.setAttribute('r',60+Math.max(0,u)*320);e2.setAttribute('opacity',(1-Math.max(0,u))*.6*e)})}}});

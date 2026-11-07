@@ -262,3 +262,17 @@ Giọng xong: 14.6 phút, 88 đoạn
    … 91/93 (1004s)
 Giọng gốc: không cân âm lượng, không chỉnh tốc độ
 ✅ AN1_dai.mp4: 14.60 phút, 187 MB; bản xem nhanh 17 MB
+Giọng xong: 14.6 phút, 88 đoạn
+88 cảnh, 96 đoạn hình
+   … 1/96 (50s)
+   … 11/96 (110s)
+   … 21/96 (166s)
+   … 31/96 (213s)
+   … 41/96 (291s)
+   … 51/96 (358s)
+   … 61/96 (414s)
+   … 71/96 (482s)
+   … 81/96 (508s)
+   … 91/96 (575s)
+Giọng gốc: không cân âm lượng, không chỉnh tốc độ
+✅ AN1_dai.mp4: 14.60 phút, 186 MB; bản xem nhanh 18 MB

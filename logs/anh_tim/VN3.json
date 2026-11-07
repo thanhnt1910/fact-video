@@ -1,0 +1,771 @@
+[
+ {
+  "slot": "S1",
+  "beats": "1-2",
+  "mo_ta": "Bản đồ nước ta thời Nguyễn (Đại Nam nhất thống toàn đồ)",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Nguy%E1%BB%85n_Dynasty_period_map_-_%C4%90%E1%BA%A1i_Nam_nh%E1%BA%A5t_th%E1%BB%91ng_to%C3%A0n_%C4%91%E1%BB%93.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 996,
+    "h": 1444,
+    "credit": "\"Nguyễn Dynasty period map - Đại Nam nhất thống toàn đồ.png\" – Composed by Hoang Ngoc Son., Public domain (https://commons.wikimedia.org/wiki/File:Nguy%E1%BB%85n_Dynasty_period_map_-_%C4%90%E1%BA%A1i_Nam_nh%E1%BA%A5t_th%E1%BB%91ng_to%C3%A0n_%C4%91%E1%BB%93.png)",
+    "text": "File:Nguyễn Dynasty period map - Đại Nam nhất thống toàn đồ.png A document from \"the Hoàng Sa and Trường Sa archipelagos collection\" of the Châu bản triều Nguyễn (硃本朝阮) which the State Records and Arc"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/DaiNamNhatThongToanDo_1834-1838.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1146,
+    "h": 1623,
+    "credit": "\"DaiNamNhatThongToanDo 1834-1838.jpg\" – en:Phan Huy Chú (1782–1840), Public domain (https://commons.wikimedia.org/wiki/File:DaiNamNhatThongToanDo_1834-1838.jpg)",
+    "text": "File:DaiNamNhatThongToanDo 1834-1838.jpg Vietnamese map showing the Spratly and Paracel Islands in the 19th century. Background: between 1834 and 1838, at the time of Emperor Minh Mang, Phan Huy Chú p"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/S%C6%A1_%C4%91%E1%BB%93_Th%C3%A0nh_c%E1%BB%95_Nam_%C4%90%E1%BB%8Bnh_do_Henri_Rivi%C3%A8re_v%E1%BA%BD_n%C4%83m_1883_%28B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh%29.jpg/1920px-S%C6%A1_%C4%91%E1%BB%93_Th%C3%A0nh_c%E1%BB%95_Nam_%C4%90%E1%BB%8Bnh_do_Henri_Rivi%C3%A8re_v%E1%BA%BD_n%C4%83m_1883_%28B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6905,
+    "h": 10000,
+    "credit": "\"Sơ đồ Thành cổ Nam Định do Henri Rivière vẽ năm 1883 (Bảo tàng tỉnh Nam Định).jpg\" – Henri Rivière, with minor augmentations and translations by the Provincial Museum of Nam Định., Public domain (https://commons.wikimedia.org/wiki/File:S%C6%A1_%C4%91%E1%BB%93_Th%C3%A0nh_c%E1%BB%95_Nam_%C4%90%E1%BB%8Bnh_do_Henri_Rivi%C3%A8re_v%E1%BA%BD_n%C4%83m_1883_(B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh).jpg)",
+    "text": "File:Sơ đồ Thành cổ Nam Định do Henri Rivière vẽ năm 1883 (Bảo tàng tỉnh Nam Định).jpg Sơ đồ Thành cổ Nam Định do Henri Rivière vẽ năm 1883 / Bảo tàng tỉnh Nam Định."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/S%C6%A1_%C4%91%E1%BB%93_Nh%C3%A0_m%C3%A1y_D%E1%BB%87t_Nam_%C4%90%E1%BB%8Bnh_%28B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh%29.jpg/1920px-S%C6%A1_%C4%91%E1%BB%93_Nh%C3%A0_m%C3%A1y_D%E1%BB%87t_Nam_%C4%90%E1%BB%8Bnh_%28B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 10000,
+    "h": 5055,
+    "credit": "\"Sơ đồ Nhà máy Dệt Nam Định (Bảo tàng tỉnh Nam Định).jpg\" – The government of the French protectorate of Annam and Tonkin, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:S%C6%A1_%C4%91%E1%BB%93_Nh%C3%A0_m%C3%A1y_D%E1%BB%87t_Nam_%C4%90%E1%BB%8Bnh_(B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh).jpg)",
+    "text": "File:Sơ đồ Nhà máy Dệt Nam Định (Bảo tàng tỉnh Nam Định).jpg Sơ đồ Nhà máy Dệt Nam Định / Bảo tàng tỉnh Nam Định."
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/B%E1%BA%B1ng_c%E1%BA%A5p_ti%E1%BB%83u_h%E1%BB%8Dc_b%E1%BB%95_t%C3%BAc_c%E1%BA%A5p_b%E1%BB%9Fi_b%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Gi%C3%A1o_D%E1%BB%A5c_c%E1%BB%A7a_Ch%C3%ADnh_Ph%E1%BB%A7_%C4%90%E1%BA%A1i_Nam_d%C6%B0%E1%BB%9Bi_th%E1%BB%9Di_vua_B%E1%BA%A3o_%C4%90%E1%BA%A1i_n%C4%83m_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 960,
+    "h": 720,
+    "credit": "\"Bằng cấp tiểu học bổ túc cấp bởi bộ trưởng Giáo Dục của Chính Phủ Đại Nam dưới thời vua Bảo Đại năm 1939.jpg\" – The government of the Nguyễn Dynasty and the government of the French protectorate of Annam, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%B1ng_c%E1%BA%A5p_ti%E1%BB%83u_h%E1%BB%8Dc_b%E1%BB%95_t%C3%BAc_c%E1%BA%A5p_b%E1%BB%9Fi_b%E1%BB%99_tr%C6%B0%E1%BB%9Fng_Gi%C3%A1o_D%E1%BB%A5c_c%E1%BB%A7a_Ch%C3%ADnh_Ph%E1%BB%A7_%C4%90%E1%BA%A1i_Nam_d%C6%B0%E1%BB%9Bi_th%E1%BB%9Di_vua_B%E1%BA%A3o_%C4%90%E1%BA%A1i_n%C4%83m_1939.jpg)",
+    "text": "File:Bằng cấp tiểu học bổ túc cấp bởi bộ trưởng Giáo Dục của Chính Phủ Đại Nam dưới thời vua Bảo Đại năm 1939.jpg A diploma issued in the French protectorate of Annam, French Indo-China."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ch%E1%BB%AF_k%C3%BD_c%E1%BB%A7a_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_ng%C3%A0y_25-8-1942_t%E1%BA%A1i_%C4%90%C3%A0_L%E1%BA%A1t_chu%E1%BA%A9n_y_b%E1%BA%A3n_%C4%91%E1%BB%93_k%C3%A8m_theo_D%E1%BB%A5_s%E1%BB%91_59_ng%C3%A0y_28_th%C3%A1ng_5_n%C4%83m_B%E1%BA%A3o_%C4%90%E1%BA%A1i_th%E1%BB%A9_17_%2811-7-1942%29_v%E1%BB%81_m%E1%BB%9F_r%E1%BB%99ng_nh%C6%B0%E1%BB%A3ng_%C4%91%E1%BB%8Ba_Ph%C3%A1p_t%E1%BA%A1i_H%C3%A0_N%E1%BB%99i.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4608,
+    "h": 3456,
+    "credit": "\"Chữ ký của Toàn quyền Đông Dương ngày 25-8-1942 tại Đà Lạt chuẩn y bản đồ kèm theo Dụ số 59 ngày 28 tháng 5 năm Bảo Đại thứ 17 (11-7-1942) về mở rộng nhượng địa Pháp tại Hà Nội.jpg\" – The imperial government of the Nguyễn Dynasty and the Government-General of French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Ch%E1%BB%AF_k%C3%BD_c%E1%BB%A7a_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_ng%C3%A0y_25-8-1942_t%E1%BA%A1i_%C4%90%C3%A0_L%E1%BA%A1t_chu%E1%BA%A9n_y_b%E1%BA%A3n_%C4%91%E1%BB%93_k%C3%A8m_theo_D%E1%BB%A5_s%E1%BB%91_59_ng%C3%A0y_28_th%C3%A1ng_5_n%C4%83m_B%E1%BA%A3o_%C4%90%E1%BA%A1i_th%E1%BB%A9_17_(11-7-1942)_v%E1%BB%81_m%E1%BB%9F_r%E1%BB%99ng_nh%C6%B0%E1%BB%A3ng_%C4%91%E1%BB%8Ba_Ph%C3%A1p_t%E1%BA%A1i_H%C3%A0_N%E1%BB%99i.jpg)",
+    "text": "File:Chữ ký của Toàn quyền Đông Dương ngày 25-8-1942 tại Đà Lạt chuẩn y bản đồ kèm theo Dụ số 59 ngày 28 tháng 5 năm Bảo Đại thứ 17 (11-7-1942) về mở rộng nhượng địa Pháp tại Hà Nội.jpg Chữ ký của Toà"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/DaiThanhVanNienNhatThongThienHaToanDo.jpg/1920px-DaiThanhVanNienNhatThongThienHaToanDo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 22410,
+    "h": 5000,
+    "credit": "\"DaiThanhVanNienNhatThongThienHaToanDo.jpg\" – Huang, Qianren, active 18th century.\n\nHummel, Arthur W. (Arthur William), Sr., 1884-1975., Public domain (https://commons.wikimedia.org/wiki/File:DaiThanhVanNienNhatThongThienHaToanDo.jpg)",
+    "text": "File:DaiThanhVanNienNhatThongThienHaToanDo.jpg Phần bản đồ Biển Đông và các quốc gia ven bờ tây của nó, trích từ Đại Thanh vạn niên nhất thống thiên hạ toàn đồ (大清萬年一統天下全圖). Bản đồ gốc là bản đồ mô tả"
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Imperial_decrees_by_the_%C4%90%E1%BB%93ng_Kh%C3%A1nh_Emperor_ceding_H%C3%A0_N%E1%BB%99i%2C_H%E1%BA%A3i_Ph%C3%B2ng%2C_and_%C4%90%C3%A0_N%E1%BA%B5ng_from_the_Nguy%E1%BB%85n_Dynasty_%28%E5%A4%A7%E5%8D%97%E5%9C%8B%2C_%C4%90%E1%BA%A1i_Nam_qu%E1%BB%91c%29_to_France_%28%E5%A4%A7%E6%B3%95%E5%9C%8B%2C_%C4%90%E1%BA%A1i_Ph%C3%A1p_qu%E1%BB%91c%29_-_October_1888.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 922,
+    "h": 1038,
+    "credit": "\"Imperial decrees by the Đồng Khánh Emperor ceding Hà Nội, Hải Phòng, and Đà Nẵng from the Nguyễn Dynasty (大南國, Đại Nam quốc) to France (大法國, Đại Pháp quốc) - October 1888.png\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Imperial_decrees_by_the_%C4%90%E1%BB%93ng_Kh%C3%A1nh_Emperor_ceding_H%C3%A0_N%E1%BB%99i,_H%E1%BA%A3i_Ph%C3%B2ng,_and_%C4%90%C3%A0_N%E1%BA%B5ng_from_the_Nguy%E1%BB%85n_Dynasty_(%E5%A4%A7%E5%8D%97%E5%9C%8B,_%C4%90%E1%BA%A1i_Nam_qu%E1%BB%91c)_to_France_(%E5%A4%A7%E6%B3%95%E5%9C%8B,_%C4%90%E1%BA%A1i_Ph%C3%A1p_qu%E1%BB%91c)_-_October_1888.png)",
+    "text": "File:Imperial decrees by the Đồng Khánh Emperor ceding Hà Nội, Hải Phòng, and Đà Nẵng from the Nguyễn Dynasty (大南國, Đại Nam quốc) to France (大法國, Đại Pháp quốc) - October 1888.png Imperial decrees by "
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C6%B0_s%E1%BB%91_245_ng%C3%A0y_05-07-1905_c%E1%BB%A7a_C%C3%B4ng_s%E1%BB%A9_Nam_%C4%90%E1%BB%8Bnh_g%E1%BB%ADi_Th%E1%BB%91ng_s%E1%BB%A9_B%E1%BA%AFc_K%E1%BB%B3_xin_l%E1%BA%A5p_s%C3%B4ng%2C_b%E1%BA%A1t_th%C3%A0nh%2C_l%E1%BA%A5y_%C4%91%E1%BA%A5t_%C4%91%E1%BB%83_quy_ho%E1%BA%A1ch_v%C3%A0_ch%E1%BB%89nh_trang_th%C3%A0nh_ph%E1%BB%91.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 9545,
+    "h": 4221,
+    "credit": "\"Thư số 245 ngày 05-07-1905 của Công sứ Nam Định gửi Thống sứ Bắc Kỳ xin lấp sông, bạt thành, lấy đất để quy hoạch và chỉnh trang thành phố.jpg\" – The government of the French protectorate of Annam and Tonkin, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Th%C6%B0_s%E1%BB%91_245_ng%C3%A0y_05-07-1905_c%E1%BB%A7a_C%C3%B4ng_s%E1%BB%A9_Nam_%C4%90%E1%BB%8Bnh_g%E1%BB%ADi_Th%E1%BB%91ng_s%E1%BB%A9_B%E1%BA%AFc_K%E1%BB%B3_xin_l%E1%BA%A5p_s%C3%B4ng,_b%E1%BA%A1t_th%C3%A0nh,_l%E1%BA%A5y_%C4%91%E1%BA%A5t_%C4%91%E1%BB%83_quy_ho%E1%BA%A1ch_v%C3%A0_ch%E1%BB%89nh_trang_th%C3%A0nh_ph%E1%BB%91.jpg)",
+    "text": "File:Thư số 245 ngày 05-07-1905 của Công sứ Nam Định gửi Thống sứ Bắc Kỳ xin lấp sông, bạt thành, lấy đất để quy hoạch và chỉnh trang thành phố.jpg Thư số 245 ngày 05/07/1905 của Công sứ Nam Định gửi "
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/B%E1%BA%A3n_t%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_C%C3%B4ng_ng%C3%A0y_19_th%C3%A1ng_8_n%C4%83m_Duy_T%C3%A2n_th%E1%BB%A9_nh%E1%BA%A5t_%281907%29_v%E1%BB%81_vi%E1%BB%87c_xin_chi_ti%E1%BB%81n_l%C3%A0m_bia_Ti%E1%BA%BFn_s%C4%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1390,
+    "h": 851,
+    "credit": "\"Bản tấu của Bộ Công ngày 19 tháng 8 năm Duy Tân thứ nhất (1907) về việc xin chi tiền làm bia Tiến sĩ.jpg\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_C%C3%B4ng_ng%C3%A0y_19_th%C3%A1ng_8_n%C4%83m_Duy_T%C3%A2n_th%E1%BB%A9_nh%E1%BA%A5t_(1907)_v%E1%BB%81_vi%E1%BB%87c_xin_chi_ti%E1%BB%81n_l%C3%A0m_bia_Ti%E1%BA%BFn_s%C4%A9.jpg)",
+    "text": "File:Bản tấu của Bộ Công ngày 19 tháng 8 năm Duy Tân thứ nhất (1907) về việc xin chi tiền làm bia Tiến sĩ.jpg A Duy Tân period document (Bản tấu) issued by the Ministry of Public Works about asking fo"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/B%C3%ACa_h%E1%BB%93_s%C6%A1_s%E1%BB%91_53.797_thu%E1%BB%99c_ph%C3%B4ng_Ph%E1%BB%A7_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_l%C6%B0u_t%E1%BA%A1i_L%C6%B0u_tr%E1%BB%AF_Qu%E1%BB%91c_gia_H%E1%BA%A3i_ngo%E1%BA%A1i_Ph%C3%A1p_%28Archives_Nationales_d%E2%80%99Outre_mer_%E2%80%93_ANOM%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1702,
+    "h": 1429,
+    "credit": "\"Bìa hồ sơ số 53.797 thuộc phông Phủ Toàn quyền Đông Dương lưu tại Lưu trữ Quốc gia Hải ngoại Pháp (Archives Nationales d’Outre mer – ANOM).jpg\" – The imperial government of the Nguyễn Dynasty and the Government-General of French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:B%C3%ACa_h%E1%BB%93_s%C6%A1_s%E1%BB%91_53.797_thu%E1%BB%99c_ph%C3%B4ng_Ph%E1%BB%A7_To%C3%A0n_quy%E1%BB%81n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_l%C6%B0u_t%E1%BA%A1i_L%C6%B0u_tr%E1%BB%AF_Qu%E1%BB%91c_gia_H%E1%BA%A3i_ngo%E1%BA%A1i_Ph%C3%A1p_(Archives_Nationales_d%E2%80%99Outre_mer_%E2%80%93_ANOM).jpg)",
+    "text": "File:Bìa hồ sơ số 53.797 thuộc phông Phủ Toàn quyền Đông Dương lưu tại Lưu trữ Quốc gia Hải ngoại Pháp (Archives Nationales d’Outre mer – ANOM).jpg Bìa hồ sơ số 53.797 thuộc phông Phủ Toàn quyền Đông "
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tr%C3%ADch_b%E1%BA%A3n_T%E1%BA%A5u_c%E1%BB%A7a_b%E1%BB%99_C%C3%B4ng_ng%C3%A0y_19_th%C3%A1ng_9_n%C4%83m_T%E1%BB%B1_%C4%90%E1%BB%A9c_26_v%E1%BB%81_vi%E1%BB%87c_chi_ti%E1%BB%81n_may_c%E1%BB%9D_m%E1%BB%9Bi_%C4%91%E1%BB%83_treo_%E1%BB%9F_K%E1%BB%B3_%C4%91%C3%A0i_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh.jpg/1920px-Tr%C3%ADch_b%E1%BA%A3n_T%E1%BA%A5u_c%E1%BB%A7a_b%E1%BB%99_C%C3%B4ng_ng%C3%A0y_19_th%C3%A1ng_9_n%C4%83m_T%E1%BB%B1_%C4%90%E1%BB%A9c_26_v%E1%BB%81_vi%E1%BB%87c_chi_ti%E1%BB%81n_may_c%E1%BB%9D_m%E1%BB%9Bi_%C4%91%E1%BB%83_treo_%E1%BB%9F_K%E1%BB%B3_%C4%91%C3%A0i_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4186,
+    "h": 3577,
+    "credit": "\"Trích bản Tấu của bộ Công ngày 19 tháng 9 năm Tự Đức 26 về việc chi tiền may cờ mới để treo ở Kỳ đài tỉnh Nam Định.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Tr%C3%ADch_b%E1%BA%A3n_T%E1%BA%A5u_c%E1%BB%A7a_b%E1%BB%99_C%C3%B4ng_ng%C3%A0y_19_th%C3%A1ng_9_n%C4%83m_T%E1%BB%B1_%C4%90%E1%BB%A9c_26_v%E1%BB%81_vi%E1%BB%87c_chi_ti%E1%BB%81n_may_c%E1%BB%9D_m%E1%BB%9Bi_%C4%91%E1%BB%83_treo_%E1%BB%9F_K%E1%BB%B3_%C4%91%C3%A0i_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh.jpg)",
+    "text": "File:Trích bản Tấu của bộ Công ngày 19 tháng 9 năm Tự Đức 26 về việc chi tiền may cờ mới để treo ở Kỳ đài tỉnh Nam Định.jpg Trích bản Tấu của bộ Công ngày 19 tháng 9 năm Tự Đức 26 về việc chi tiền may"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/An_Nam_Dai_Quoc_Hoa_Do_by_Jean_Louis_Taberd_1838.jpg/1920px-An_Nam_Dai_Quoc_Hoa_Do_by_Jean_Louis_Taberd_1838.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3500,
+    "h": 6111,
+    "credit": "\"An Nam Dai Quoc Hoa Do by Jean Louis Taberd 1838.jpg\" – Taberd, Jean-Louis (1794-1840), Public domain (https://commons.wikimedia.org/wiki/File:An_Nam_Dai_Quoc_Hoa_Do_by_Jean_Louis_Taberd_1838.jpg)",
+    "text": "File:An Nam Dai Quoc Hoa Do by Jean Louis Taberd 1838.jpg An Nam Dai Quoc Hoa Do or map of Viet Nam during Nguyen dynasty - by Jean-Louis Taberd published in 1838\nTitre :Annam Dai Quôc'Hoa Dô'seu tabu"
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/B%E1%BA%A3n_t%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_C%C3%B4ng_v%E1%BB%81_k%E1%BA%BFt_qu%E1%BA%A3_%C4%91i_kh%E1%BA%A3o_s%C3%A1t_v%C3%A0_v%E1%BA%BD_b%E1%BA%A3n_%C4%91%E1%BB%93_%E1%BB%9F_Ho%C3%A0ng_Sa_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_19_%281838%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1087,
+    "h": 864,
+    "credit": "\"Bản tấu của Bộ Công về kết quả đi khảo sát và vẽ bản đồ ở Hoàng Sa năm Minh Mệnh thứ 19 (1838) 01.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_C%C3%B4ng_v%E1%BB%81_k%E1%BA%BFt_qu%E1%BA%A3_%C4%91i_kh%E1%BA%A3o_s%C3%A1t_v%C3%A0_v%E1%BA%BD_b%E1%BA%A3n_%C4%91%E1%BB%93_%E1%BB%9F_Ho%C3%A0ng_Sa_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_19_(1838)_01.jpg)",
+    "text": "File:Bản tấu của Bộ Công về kết quả đi khảo sát và vẽ bản đồ ở Hoàng Sa năm Minh Mệnh thứ 19 (1838) 01.jpg A document from \"the Hoàng Sa and Trường Sa archipelagos collection\" of the Châu bản triều Ng"
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/B%E1%BA%A3n_t%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_C%C3%B4ng_v%E1%BB%81_vi%E1%BB%87c_ph%C3%A1i_vi%C3%AAn_hai_t%E1%BB%89nh_Qu%E1%BA%A3ng_Ng%C3%A3i%2C_B%C3%ACnh_%C4%90%E1%BB%8Bnh_%C4%91%C3%A3_%C4%91%E1%BA%BFn_%C4%91%E1%BB%83_chu%E1%BA%A9n_b%E1%BB%8B_ra_Ho%C3%A0ng_Sa_kh%E1%BA%A3o_s%C3%A1t_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_19_%281838%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1087,
+    "h": 860,
+    "credit": "\"Bản tấu của Bộ Công về việc phái viên hai tỉnh Quảng Ngãi, Bình Định đã đến để chuẩn bị ra Hoàng Sa khảo sát năm Minh Mệnh thứ 19 (1838) 01.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_t%E1%BA%A5u_c%E1%BB%A7a_B%E1%BB%99_C%C3%B4ng_v%E1%BB%81_vi%E1%BB%87c_ph%C3%A1i_vi%C3%AAn_hai_t%E1%BB%89nh_Qu%E1%BA%A3ng_Ng%C3%A3i,_B%C3%ACnh_%C4%90%E1%BB%8Bnh_%C4%91%C3%A3_%C4%91%E1%BA%BFn_%C4%91%E1%BB%83_chu%E1%BA%A9n_b%E1%BB%8B_ra_Ho%C3%A0ng_Sa_kh%E1%BA%A3o_s%C3%A1t_n%C4%83m_Minh_M%E1%BB%87nh_th%E1%BB%A9_19_(1838)_01.jpg)",
+    "text": "File:Bản tấu của Bộ Công về việc phái viên hai tỉnh Quảng Ngãi, Bình Định đã đến để chuẩn bị ra Hoàng Sa khảo sát năm Minh Mệnh thứ 19 (1838) 01.jpg A document from \"the Hoàng Sa and Trường Sa archipe"
+   }
+  ]
+ },
+ {
+  "slot": "S2",
+  "beats": "2",
+  "mo_ta": "Tiền Thái Bình hưng bảo thời Đinh",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_05.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2560,
+    "h": 1227,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 05.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_05.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 05.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_18.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_18.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2537,
+    "h": 1275,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 18.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_18.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 18.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_14.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1287,
+    "h": 1142,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 14.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_14.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 14.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1098,
+    "h": 890,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 03.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_03.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 03.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_23.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1268,
+    "h": 1139,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 23.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_23.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 23.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_02.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2115,
+    "h": 890,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 02.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_02.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 02.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_08.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_08.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2483,
+    "h": 1202,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 08.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_08.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 08.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_07.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1284,
+    "h": 1227,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 07.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_07.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 07.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_06.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1421,
+    "h": 1227,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 06.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_06.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 06.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_22.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_22.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2495,
+    "h": 1236,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 22.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_22.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 22.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_21.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 969,
+    "h": 915,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 21.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_21.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 21.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/An36_Dinh_Bo_Linh_Thai_Binh_%2812537160424%29.jpg/1920px-An36_Dinh_Bo_Linh_Thai_Binh_%2812537160424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2871,
+    "h": 1440,
+    "credit": "\"An36 Dinh Bo Linh Thai Binh (12537160424).jpg\" – Jean-Michel Moullec from Vern sur Seiche (35, Bretagne), France, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:An36_Dinh_Bo_Linh_Thai_Binh_(12537160424).jpg)",
+    "text": "File:An36 Dinh Bo Linh Thai Binh (12537160424).jpg Une monnaie d'une sapèque en bronze de Dinh Bo Linh (968-979) de la dynastie Dinh (968-980), ère Thai Binh (970-979). C'est la deuxième dynastie du V"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_19.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_19.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1979,
+    "h": 915,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 19.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_19.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 19.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_12.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1275,
+    "h": 1233,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 12.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_12.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 12.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_11.png/1920px-Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2487,
+    "h": 1233,
+    "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 11.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_11.png)",
+    "text": "File:Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 11.png A rubbing of a Thái Bình Hưng Bảo (太平興寶) cash coin from the Đinh Dynasty (丁朝) made by the Singaporean author and numismatist Dr. "
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sap%C3%A8que_d%27Honneur_en_Argent_%28Cash_coin_of_Honour_in_Silver%29_certificate_-_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_5_%28%E5%95%9F%E5%AE%9A%E4%BA%94%E5%B9%B4%29_-_1920_-_B%C3%B9i_Quang_Tu%E1%BA%A5n_%2830_May_2020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1080,
+    "h": 925,
+    "credit": "\"Sapèque d'Honneur en Argent (Cash coin of Honour in Silver) certificate - Khải Định 5 (啟定五年) - 1920 - Bùi Quang Tuấn (30 May 2020).jpg\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Sap%C3%A8que_d%27Honneur_en_Argent_(Cash_coin_of_Honour_in_Silver)_certificate_-_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_5_(%E5%95%9F%E5%AE%9A%E4%BA%94%E5%B9%B4)_-_1920_-_B%C3%B9i_Quang_Tu%E1%BA%A5n_(30_May_2020).jpg)",
+    "text": "File:Sapèque d'Honneur en Argent (Cash coin of Honour in Silver) certificate - Khải Định 5 (啟定五年) - 1920 - Bùi Quang Tuấn (30 May 2020).jpg A certificate issued for the issuance of a silver Cash coin "
+   }
+  ]
+ },
+ {
+  "slot": "S3",
+  "beats": "4",
+  "mo_ta": "Thành nhà Hồ",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ho_dynasty%27s_citadel%2C_Vietnam.jpg/1920px-Ho_dynasty%27s_citadel%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4608,
+    "h": 3072,
+    "credit": "\"Ho dynasty's citadel, Vietnam.jpg\" – Loi Nguyen Duc, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ho_dynasty%27s_citadel,_Vietnam.jpg)",
+    "text": "File:Ho dynasty's citadel, Vietnam.jpg Ho dynasty's citadel"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Dan_da_thanh_Tay_Do.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 800,
+    "h": 701,
+    "credit": "\"Dan da thanh Tay Do.png\" – Binh Giang, Public domain (https://commons.wikimedia.org/wiki/File:Dan_da_thanh_Tay_Do.png)",
+    "text": "File:Dan da thanh Tay Do.png A 14th century stone cannon-ball found in Tây Đô castle, Thanh Hoa Province, Vietnam"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Tay_Do_castle_South_gate.JPG/1920px-Tay_Do_castle_South_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2816,
+    "h": 2112,
+    "credit": "\"Tay Do castle South gate.JPG\" – vi:Thành viên:Silviculture, Public domain (https://commons.wikimedia.org/wiki/File:Tay_Do_castle_South_gate.JPG)",
+    "text": "File:Tay Do castle South gate.JPG Cổng Nam thành Tây Đô (thành nhà Hồ), Thanh Hóa, Việt Nam"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tay_Do_castle_North_gate.JPG/1920px-Tay_Do_castle_North_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2816,
+    "h": 2112,
+    "credit": "\"Tay Do castle North gate.JPG\" – vi:Thành viên:Silviculture, Public domain (https://commons.wikimedia.org/wiki/File:Tay_Do_castle_North_gate.JPG)",
+    "text": "File:Tay Do castle North gate.JPG Cổng Bắc thành Tây Đô (thành nhà Hồ), Thanh Hóa, Việt Nam"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tay_Do_castle_East_gate.JPG/1920px-Tay_Do_castle_East_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2816,
+    "h": 2112,
+    "credit": "\"Tay Do castle East gate.JPG\" – vi:Thành viên:Silviculture, Public domain (https://commons.wikimedia.org/wiki/File:Tay_Do_castle_East_gate.JPG)",
+    "text": "File:Tay Do castle East gate.JPG Cổng Đông thành Tây Đô (thành nhà Hồ), Thanh Hóa, Việt Nam"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/T%C6%B0%E1%BB%A3ng_Nguy%E1%BB%85n_%C3%81i_Qu%E1%BB%91c_-_Nguy%E1%BB%85n_T%E1%BA%A5t_Th%C3%A0nh_-_Nh%C3%A0_t%C6%B0%E1%BB%9Fng_ni%E1%BB%87m_B%E1%BA%BFn_Nh%C3%A0_R%E1%BB%93ng.JPG/1920px-T%C6%B0%E1%BB%A3ng_Nguy%E1%BB%85n_%C3%81i_Qu%E1%BB%91c_-_Nguy%E1%BB%85n_T%E1%BA%A5t_Th%C3%A0nh_-_Nh%C3%A0_t%C6%B0%E1%BB%9Fng_ni%E1%BB%87m_B%E1%BA%BFn_Nh%C3%A0_R%E1%BB%93ng.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 1536,
+    "credit": "\"Tượng Nguyễn Ái Quốc - Nguyễn Tất Thành - Nhà tưởng niệm Bến Nhà Rồng.JPG\" – vi:User:TDA, Public domain (https://commons.wikimedia.org/wiki/File:T%C6%B0%E1%BB%A3ng_Nguy%E1%BB%85n_%C3%81i_Qu%E1%BB%91c_-_Nguy%E1%BB%85n_T%E1%BA%A5t_Th%C3%A0nh_-_Nh%C3%A0_t%C6%B0%E1%BB%9Fng_ni%E1%BB%87m_B%E1%BA%BFn_Nh%C3%A0_R%E1%BB%93ng.JPG)",
+    "text": "File:Tượng Nguyễn Ái Quốc - Nguyễn Tất Thành - Nhà tưởng niệm Bến Nhà Rồng.JPG Tượng Nguyễn Tất Thành trong nhà tưởng niệm ở bến Nhà Rồng"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Nh%C3%A0_h%C3%A1t_l%E1%BB%9Bn_th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1800,
+    "h": 1200,
+    "credit": "\"Nhà hát lớn thành phố Hồ Chí Minh.jpg\" – Lưu Ly (thảo luận), Public domain (https://commons.wikimedia.org/wiki/File:Nh%C3%A0_h%C3%A1t_l%E1%BB%9Bn_th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg)",
+    "text": "File:Nhà hát lớn thành phố Hồ Chí Minh.jpg Nhà hát lớn thành phố Hồ Chí Minh"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Nh%C3%A0_R%E1%BA%A1ng_%C4%90%C3%B4ng%2C_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_N%C3%B4ng_L%C3%A2m_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg/1920px-Nh%C3%A0_R%E1%BA%A1ng_%C4%90%C3%B4ng%2C_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_N%C3%B4ng_L%C3%A2m_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2296,
+    "h": 4080,
+    "credit": "\"Nhà Rạng Đông, Trường Đại học Nông Lâm Thành phố Hồ Chí Minh.jpg\" – Lý Kiến Quốc, CC0 (https://commons.wikimedia.org/wiki/File:Nh%C3%A0_R%E1%BA%A1ng_%C4%90%C3%B4ng,_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_N%C3%B4ng_L%C3%A2m_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg)",
+    "text": "File:Nhà Rạng Đông, Trường Đại học Nông Lâm Thành phố Hồ Chí Minh.jpg Trường Đại học Nông Lâm Thành phố Hồ Chí Minh (trường đại học công lập tại Việt Nam)"
+   },
+   {
+    "so": 8,
+    "url": "https://live.staticflickr.com/65535/52227783637_2b85756077_b.jpg",
+    "w": 843,
+    "h": 1024,
+    "credit": "\"Saigon.\" – Phú Phập Phồng, CC0 (https://www.flickr.com/photos/146115679@N03/52227783637)",
+    "text": "Saigon. bitexco chí con cảnh già gòn hồ kênh lake minh nam người nhà nước phố sài thành toà việt ông đất đẹp"
+   },
+   {
+    "so": 9,
+    "url": "https://live.staticflickr.com/65535/52228787316_398e6ce473_b.jpg",
+    "w": 843,
+    "h": 1024,
+    "credit": "\"Saigon.\" – Phú Phập Phồng, CC0 (https://www.flickr.com/photos/146115679@N03/52228787316)",
+    "text": "Saigon. bitexco chí con cảnh già gòn hồ kênh lake minh nam người nhà nước phố sài thành toà việt ông đất đẹp"
+   }
+  ]
+ },
+ {
+  "slot": "S4",
+  "beats": "5-6",
+  "mo_ta": "Ấn triều Nguyễn",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Print_of_the_Ho%C3%A0ng_%C4%90%E1%BA%BF_t%C3%B4n_th%C3%A2n_chi_b%E1%BA%A3o_%28%E7%9A%87%E5%B8%9D%E5%B0%8A%E8%A6%AA%E4%B9%8B%E5%AF%B6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 805,
+    "h": 701,
+    "credit": "\"Print of the Hoàng Đế tôn thân chi bảo (皇帝尊親之寶).jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Print_of_the_Ho%C3%A0ng_%C4%90%E1%BA%BF_t%C3%B4n_th%C3%A2n_chi_b%E1%BA%A3o_(%E7%9A%87%E5%B8%9D%E5%B0%8A%E8%A6%AA%E4%B9%8B%E5%AF%B6).jpg)",
+    "text": "File:Print of the Hoàng Đế tôn thân chi bảo (皇帝尊親之寶).jpg The print of the Hoàng Đế tôn thân chi bảo (皇帝尊親之寶) imperial seal."
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Danh_s%C3%A1ch_c%C3%A1c_kim_b%E1%BA%A3o%2C_ng%E1%BB%8Dc_b%C3%A0i%2C_b%E1%BA%A3o_ki%E1%BA%BFm_quan_tr%E1%BB%8Dng_mang_theo_nh%C3%A0_vua_trong_l%E1%BB%85_t%E1%BA%BF_Nam_giao_trong_%C4%91%C3%B3_%C4%91%E1%BB%A9ng_%C4%91%E1%BA%A7u_l%C3%A0_%E2%80%9CHo%C3%A0ng_%C4%91%E1%BA%BF_chi_b%E1%BA%A3o%E2%80%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 1091,
+    "credit": "\"Danh sách các kim bảo, ngọc bài, bảo kiếm quan trọng mang theo nhà vua trong lễ tế Nam giao trong đó đứng đầu là “Hoàng đế chi bảo”.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Danh_s%C3%A1ch_c%C3%A1c_kim_b%E1%BA%A3o,_ng%E1%BB%8Dc_b%C3%A0i,_b%E1%BA%A3o_ki%E1%BA%BFm_quan_tr%E1%BB%8Dng_mang_theo_nh%C3%A0_vua_trong_l%E1%BB%85_t%E1%BA%BF_Nam_giao_trong_%C4%91%C3%B3_%C4%91%E1%BB%A9ng_%C4%91%E1%BA%A7u_l%C3%A0_%E2%80%9CHo%C3%A0ng_%C4%91%E1%BA%BF_chi_b%E1%BA%A3o%E2%80%9D.jpg)",
+    "text": "File:Danh sách các kim bảo, ngọc bài, bảo kiếm quan trọng mang theo nhà vua trong lễ tế Nam giao trong đó đứng đầu là “Hoàng đế chi bảo”.jpg The list of gold seals (kim bảo), jade bài (ngọc bài), and "
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/%E5%90%8C%E6%85%B6%E7%9A%87%E5%B8%9D%E5%BE%A1%E7%AD%86%E7%9C%9E%E5%AE%B9_%28%C4%90%E1%BB%93ng_Kh%C3%A1nh_ho%C3%A0ng_%C4%91%E1%BA%BF_ng%E1%BB%B1_b%C3%BAt_ch%C3%A2n_dung%29.png/1920px-%E5%90%8C%E6%85%B6%E7%9A%87%E5%B8%9D%E5%BE%A1%E7%AD%86%E7%9C%9E%E5%AE%B9_%28%C4%90%E1%BB%93ng_Kh%C3%A1nh_ho%C3%A0ng_%C4%91%E1%BA%BF_ng%E1%BB%B1_b%C3%BAt_ch%C3%A2n_dung%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2575,
+    "h": 3093,
+    "credit": "\"同慶皇帝御筆眞容 (Đồng Khánh hoàng đế ngự bút chân dung).png\" – ​Emperor Đồng Khánh, Public domain (https://commons.wikimedia.org/wiki/File:%E5%90%8C%E6%85%B6%E7%9A%87%E5%B8%9D%E5%BE%A1%E7%AD%86%E7%9C%9E%E5%AE%B9_(%C4%90%E1%BB%93ng_Kh%C3%A1nh_ho%C3%A0ng_%C4%91%E1%BA%BF_ng%E1%BB%B1_b%C3%BAt_ch%C3%A2n_dung).png)",
+    "text": "File:同慶皇帝御筆眞容 (Đồng Khánh hoàng đế ngự bút chân dung).png Portraitn of Emperor Đồng Khánh (1864-1889), original date unknown, published in Tân Văn Tuần Báo in 1936."
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Proc%C3%A8s-verbal_for_the_recovery_of_the_items_the_B%E1%BA%A3o_%C4%90%E1%BA%A1i_Emperor_gave_to_the_Democratic_Republic_of_Vietnam_during_his_abdication_ceremony_%281952%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1739,
+    "h": 2549,
+    "credit": "\"Procès-verbal for the recovery of the items the Bảo Đại Emperor gave to the Democratic Republic of Vietnam during his abdication ceremony (1952) 01.jpg\" – A Hanoian local government in French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Proc%C3%A8s-verbal_for_the_recovery_of_the_items_the_B%E1%BA%A3o_%C4%90%E1%BA%A1i_Emperor_gave_to_the_Democratic_Republic_of_Vietnam_during_his_abdication_ceremony_(1952)_01.jpg)",
+    "text": "File:Procès-verbal for the recovery of the items the Bảo Đại Emperor gave to the Democratic Republic of Vietnam during his abdication ceremony (1952) 01.jpg A report about the recovery of the ceremoni"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Proc%C3%A8s-verbal_for_the_recovery_of_the_items_the_B%E1%BA%A3o_%C4%90%E1%BA%A1i_Emperor_gave_to_the_Democratic_Republic_of_Vietnam_during_his_abdication_ceremony_%281952%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1858,
+    "h": 2566,
+    "credit": "\"Procès-verbal for the recovery of the items the Bảo Đại Emperor gave to the Democratic Republic of Vietnam during his abdication ceremony (1952) 02.jpg\" – A Hanoian local government in French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Proc%C3%A8s-verbal_for_the_recovery_of_the_items_the_B%E1%BA%A3o_%C4%90%E1%BA%A1i_Emperor_gave_to_the_Democratic_Republic_of_Vietnam_during_his_abdication_ceremony_(1952)_02.jpg)",
+    "text": "File:Procès-verbal for the recovery of the items the Bảo Đại Emperor gave to the Democratic Republic of Vietnam during his abdication ceremony (1952) 02.jpg A report about the recovery of the ceremoni"
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/V%C4%83n_th%C6%B0_ph%C3%B2ng_quan_ph%C3%B2ng_v%C3%A0_N%E1%BB%99i_c%C3%A1c_-_H%C3%ACnh_d%E1%BA%A5u_c%E1%BB%A7a_V%C4%83n_th%C6%B0_ph%E1%BB%8Fng_%E2%80%93_N%E1%BB%99i_C%C3%A1c_%E2%80%93_v%C4%83n_ph%C3%B2ng_Ho%C3%A3ng_%C4%91%E1%BB%83.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1144,
+    "h": 933,
+    "credit": "\"Văn thư phòng quan phòng và Nội các - Hình dấu của Văn thư phỏng – Nội Các – văn phòng Hoãng để.jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:V%C4%83n_th%C6%B0_ph%C3%B2ng_quan_ph%C3%B2ng_v%C3%A0_N%E1%BB%99i_c%C3%A1c_-_H%C3%ACnh_d%E1%BA%A5u_c%E1%BB%A7a_V%C4%83n_th%C6%B0_ph%E1%BB%8Fng_%E2%80%93_N%E1%BB%99i_C%C3%A1c_%E2%80%93_v%C4%83n_ph%C3%B2ng_Ho%C3%A3ng_%C4%91%E1%BB%83.jpg)",
+    "text": "File:Văn thư phòng quan phòng và Nội các - Hình dấu của Văn thư phỏng – Nội Các – văn phòng Hoãng để.jpg An image of archival materials in the possession of the Trung tâm Lưu Trữ Quốc Gia I (National "
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Seal_of_the_Security_Commissariat_of_Hanoi_%2820_December_1923%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1212,
+    "h": 1080,
+    "credit": "\"Seal of the Security Commissariat of Hanoi (20 December 1923).png\" – The government of the French protectorate of Tonkin, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Seal_of_the_Security_Commissariat_of_Hanoi_(20_December_1923).png)",
+    "text": "File:Seal of the Security Commissariat of Hanoi (20 December 1923).png The seal of the Security Commissariat of the City of Hanoi in the French protectorate of Tonkin, French Indo-China."
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Imperial_seal_of_Emperor_B%E1%BA%A3o_%C4%90%E1%BA%A1i_of_the_Nguy%E1%BB%85n_Dynasty_on_a_document_%28%E4%BF%9D%E5%A4%A7%E6%8B%BE%E8%82%86%E5%B9%B4_-_1939%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1440,
+    "h": 1445,
+    "credit": "\"Imperial seal of Emperor Bảo Đại of the Nguyễn Dynasty on a document (保大拾肆年 - 1939).png\" – The government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Imperial_seal_of_Emperor_B%E1%BA%A3o_%C4%90%E1%BA%A1i_of_the_Nguy%E1%BB%85n_Dynasty_on_a_document_(%E4%BF%9D%E5%A4%A7%E6%8B%BE%E8%82%86%E5%B9%B4_-_1939).png)",
+    "text": "File:Imperial seal of Emperor Bảo Đại of the Nguyễn Dynasty on a document (保大拾肆年 - 1939).png The Imperial seal of the Bảo Đại Emperor of the Nguyễn Dynasty on a document issued in the (Gregorian) year"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Traditional_Chinese_characters_seal_of_the_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_Emperor_%28Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_7%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1440,
+    "h": 2171,
+    "credit": "\"Traditional Chinese characters seal of the Khải Định Emperor (Khải Định 7).png\" – The government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Traditional_Chinese_characters_seal_of_the_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_Emperor_(Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_7).png)",
+    "text": "File:Traditional Chinese characters seal of the Khải Định Emperor (Khải Định 7).png A personal seal used by the Khải Định Emperor of the Nguyễn Dynasty."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Seals_of_the_Six_Ministries_of_the_Nguy%E1%BB%85n_Dynasty_-_Ng%C3%A0y_7_th%C3%A1ng_8_n%C4%83m_Minh_M%E1%BB%87nh_10_%281829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 827,
+    "h": 1281,
+    "credit": "\"Seals of the Six Ministries of the Nguyễn Dynasty - Ngày 7 tháng 8 năm Minh Mệnh 10 (1829).jpg\" – The imperial government of the Nguyễn Dynasty (Empire of Đại-Nam)., Public domain (https://commons.wikimedia.org/wiki/File:Seals_of_the_Six_Ministries_of_the_Nguy%E1%BB%85n_Dynasty_-_Ng%C3%A0y_7_th%C3%A1ng_8_n%C4%83m_Minh_M%E1%BB%87nh_10_(1829).jpg)",
+    "text": "File:Seals of the Six Ministries of the Nguyễn Dynasty - Ngày 7 tháng 8 năm Minh Mệnh 10 (1829).jpg A Nguyễn Dynasty period document written in Classical Chinese used at an exhibition for the World Do"
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ph%E1%BB%A5_ch%C3%ADnh_%28%E8%BC%94%E6%94%BF%29_seal_%28Duy_T%C3%A2n_5%29_-_Trung_t%C3%A2m_L%C6%B0u_tr%E1%BB%AF_qu%E1%BB%91c_gia_I.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 802,
+    "h": 837,
+    "credit": "\"Phụ chính (輔政) seal (Duy Tân 5) - Trung tâm Lưu trữ quốc gia I.png\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:Ph%E1%BB%A5_ch%C3%ADnh_(%E8%BC%94%E6%94%BF)_seal_(Duy_T%C3%A2n_5)_-_Trung_t%C3%A2m_L%C6%B0u_tr%E1%BB%AF_qu%E1%BB%91c_gia_I.png)",
+    "text": "File:Phụ chính (輔政) seal (Duy Tân 5) - Trung tâm Lưu trữ quốc gia I.png The small seal of the Regent Office of the Nguyễn Dynasty."
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/S%E1%BB%AD_qu%C3%A1n_%28%E5%8F%B2%E9%A4%A8%29_seal_%28Duy_T%C3%A2n_3_-_1909%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 747,
+    "h": 807,
+    "credit": "\"Sử quán (史館) seal (Duy Tân 3 - 1909).png\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:S%E1%BB%AD_qu%C3%A1n_(%E5%8F%B2%E9%A4%A8)_seal_(Duy_T%C3%A2n_3_-_1909).png)",
+    "text": "File:Sử quán (史館) seal (Duy Tân 3 - 1909).png The (small) seal of the Quốc sử quán (chữ Hán: 國史館) during the reign of the Duy Tân Emperor of the Nguyễn Dynasty."
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Nam-Ph%C6%B0%C6%A1ng_Ho%C3%A0ng-h%E1%BA%ADu_%28%E5%8D%97%E8%8A%B3%E7%9A%87%E5%90%8E%29_seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1274,
+    "h": 1292,
+    "credit": "\"Nam-Phương Hoàng-hậu (南芳皇后) seal.png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Nam-Ph%C6%B0%C6%A1ng_Ho%C3%A0ng-h%E1%BA%ADu_(%E5%8D%97%E8%8A%B3%E7%9A%87%E5%90%8E)_seal.png)",
+    "text": "File:Nam-Phương Hoàng-hậu (南芳皇后) seal.png The seal of Empress Nam Phương of the Nguyễn Dynasty."
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/C%C3%B4ng_B%E1%BB%99_%28%E5%B7%A5%E9%83%A8%29_seal_-_C%E1%BB%A5c_V%C4%83n_th%C6%B0_v%C3%A0_L%C6%B0u_tr%E1%BB%AF_nh%C3%A0_n%C6%B0%E1%BB%9Bc_%28B%E1%BA%A3o_%C4%90%E1%BA%A1i_5%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 838,
+    "h": 870,
+    "credit": "\"Công Bộ (工部) seal - Cục Văn thư và Lưu trữ nhà nước (Bảo Đại 5).png\" – The imperial government of the Nguyễn Dynasty, French Indo-China., Public domain (https://commons.wikimedia.org/wiki/File:C%C3%B4ng_B%E1%BB%99_(%E5%B7%A5%E9%83%A8)_seal_-_C%E1%BB%A5c_V%C4%83n_th%C6%B0_v%C3%A0_L%C6%B0u_tr%E1%BB%AF_nh%C3%A0_n%C6%B0%E1%BB%9Bc_(B%E1%BA%A3o_%C4%90%E1%BA%A1i_5).png)",
+    "text": "File:Công Bộ (工部) seal - Cục Văn thư và Lưu trữ nhà nước (Bảo Đại 5).png The small seal of the Ministry of Public Works of the Nguyễn Dynasty during the early Bảo Đại period."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Tr%E1%BA%A7n_Qu%E1%BB%91c_V%C6%B0%E1%BB%A3ng_th%C4%83m_T%C3%B2a_%C3%A1n_%C4%90%E1%BA%B7c_bi%E1%BB%87t_T%C6%B0_ph%C3%A1p_Campuchia_n%C4%83m_2010.jpg/1920px-Tr%E1%BA%A7n_Qu%E1%BB%91c_V%C6%B0%E1%BB%A3ng_th%C4%83m_T%C3%B2a_%C3%A1n_%C4%90%E1%BA%B7c_bi%E1%BB%87t_T%C6%B0_ph%C3%A1p_Campuchia_n%C4%83m_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2592,
+    "h": 3888,
+    "credit": "\"Trần Quốc Vượng thăm Tòa án Đặc biệt Tư pháp Campuchia năm 2010.jpg\" – Khmer Rouge Tribunal (ECCC), CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Tr%E1%BA%A7n_Qu%E1%BB%91c_V%C6%B0%E1%BB%A3ng_th%C4%83m_T%C3%B2a_%C3%A1n_%C4%90%E1%BA%B7c_bi%E1%BB%87t_T%C6%B0_ph%C3%A1p_Campuchia_n%C4%83m_2010.jpg)",
+    "text": "File:Trần Quốc Vượng thăm Tòa án Đặc biệt Tư pháp Campuchia năm 2010.jpg Prosecutor General H.E. Tran Quoc Vuong led a Vietnamese delegation that visited the Extraordinary Chamber in the Courts of Cam"
+   },
+   {
+    "so": 15,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/B%E1%BA%A3n_k%C3%AA_c%C3%A1c_l%E1%BB%85_ph%E1%BA%A9m_c%E1%BB%A7a_Qu%E1%BB%91c_v%C6%B0%C6%A1ng_Xi%C3%AAm_La_t%E1%BA%B7ng_cho_Qu%E1%BB%91c_v%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam_do_T%E1%BB%95ng_tr%E1%BA%A5n_Gia_%C4%90%E1%BB%8Bnh_ph%E1%BA%A3i_Cai_%C4%91%E1%BB%99i_T%C3%A0i_L%E1%BB%99c_h%E1%BA%A7u_%C4%91%C6%B0a_v%E1%BB%81_kinh_n%C4%83m_Gia_Long_th%E1%BB%A9_15_%281816%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 891,
+    "h": 1095,
+    "credit": "\"Bản kê các lễ phẩm của Quốc vương Xiêm La tặng cho Quốc vương Việt Nam do Tổng trấn Gia Định phải Cai đội Tài Lộc hầu đưa về kinh năm Gia Long thứ 15 (1816) 02.jpg\" – The imperial government of Việt Nam (Nguyễn Dynasty)., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_k%C3%AA_c%C3%A1c_l%E1%BB%85_ph%E1%BA%A9m_c%E1%BB%A7a_Qu%E1%BB%91c_v%C6%B0%C6%A1ng_Xi%C3%AAm_La_t%E1%BA%B7ng_cho_Qu%E1%BB%91c_v%C6%B0%C6%A1ng_Vi%E1%BB%87t_Nam_do_T%E1%BB%95ng_tr%E1%BA%A5n_Gia_%C4%90%E1%BB%8Bnh_ph%E1%BA%A3i_Cai_%C4%91%E1%BB%99i_T%C3%A0i_L%E1%BB%99c_h%E1%BA%A7u_%C4%91%C6%B0a_v%E1%BB%81_kinh_n%C4%83m_Gia_Long_th%E1%BB%A9_15_(1816)_02.jpg)",
+    "text": "File:Bản kê các lễ phẩm của Quốc vương Xiêm La tặng cho Quốc vương Việt Nam do Tổng trấn Gia Định phải Cai đội Tài Lộc hầu đưa về kinh năm Gia Long thứ 15 (1816) 02.jpg A Vietnamese diplomatic documen"
+   }
+  ]
+ },
+ {
+  "slot": "S5",
+  "beats": "7-8",
+  "mo_ta": "Nước Nam Việt thời Triệu, bản đồ",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Nanyue_Kingdom_Palace_Ruins_%289967432673%29.jpg/1920px-Nanyue_Kingdom_Palace_Ruins_%289967432673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Nanyue Kingdom Palace Ruins (9967432673).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Palace_Ruins_(9967432673).jpg)",
+    "text": "File:Nanyue Kingdom Palace Ruins (9967432673).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nanyue_Kingdom_Palace_Ruins_%289967294295%29.jpg/1920px-Nanyue_Kingdom_Palace_Ruins_%289967294295%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Nanyue Kingdom Palace Ruins (9967294295).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Palace_Ruins_(9967294295).jpg)",
+    "text": "File:Nanyue Kingdom Palace Ruins (9967294295).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Nanyue_Kingdom_Palace_Ruins_%289967292735%29.jpg/1920px-Nanyue_Kingdom_Palace_Ruins_%289967292735%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Nanyue Kingdom Palace Ruins (9967292735).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Palace_Ruins_(9967292735).jpg)",
+    "text": "File:Nanyue Kingdom Palace Ruins (9967292735).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nanyue_Kingdom_Palace_Ruins_%289967295245%29.jpg/1920px-Nanyue_Kingdom_Palace_Ruins_%289967295245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Nanyue Kingdom Palace Ruins (9967295245).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Palace_Ruins_(9967295245).jpg)",
+    "text": "File:Nanyue Kingdom Palace Ruins (9967295245).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Nanyue_Kingdom_Palace_Ruins_%289967368906%29.jpg/1920px-Nanyue_Kingdom_Palace_Ruins_%289967368906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Nanyue Kingdom Palace Ruins (9967368906).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Palace_Ruins_(9967368906).jpg)",
+    "text": "File:Nanyue Kingdom Palace Ruins (9967368906).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Nanyue_Kingdom_Palace_Ruins_%289967369176%29.jpg/1920px-Nanyue_Kingdom_Palace_Ruins_%289967369176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Nanyue Kingdom Palace Ruins (9967369176).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Palace_Ruins_(9967369176).jpg)",
+    "text": "File:Nanyue Kingdom Palace Ruins (9967369176).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Nanyue_Kingdom_Pottery_Fang_Vessel_%289967425283%29.jpg/1920px-Nanyue_Kingdom_Pottery_Fang_Vessel_%289967425283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2592,
+    "h": 3888,
+    "credit": "\"Nanyue Kingdom Pottery Fang Vessel (9967425283).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Pottery_Fang_Vessel_(9967425283).jpg)",
+    "text": "File:Nanyue Kingdom Pottery Fang Vessel (9967425283).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Nanyue_Kingdom_Pottery_Fang_Vessel_%289967319974%29.jpg/1920px-Nanyue_Kingdom_Pottery_Fang_Vessel_%289967319974%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2592,
+    "h": 3888,
+    "credit": "\"Nanyue Kingdom Pottery Fang Vessel (9967319974).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Nanyue_Kingdom_Pottery_Fang_Vessel_(9967319974).jpg)",
+    "text": "File:Nanyue Kingdom Pottery Fang Vessel (9967319974).jpg Guangzhou City Museum. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_Nanyue_Kingdom_%26_Bronze_Bells_Label_%2827957020647%29.jpg/1920px-The_Nanyue_Kingdom_%26_Bronze_Bells_Label_%2827957020647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4000,
+    "h": 6000,
+    "credit": "\"The Nanyue Kingdom & Bronze Bells Label (27957020647).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:The_Nanyue_Kingdom_%26_Bronze_Bells_Label_(27957020647).jpg)",
+    "text": "File:The Nanyue Kingdom & Bronze Bells Label (27957020647).jpg Hong Kong Museum of History. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1040,
+    "h": 856,
+    "credit": "\"Bản vẽ thành Nam Định.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh.jpg)",
+    "text": "File:Bản vẽ thành Nam Định.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+   },
+   {
+    "so": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 708,
+    "h": 1040,
+    "credit": "\"Bản vẽ thành Nam Định 1888.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh_1888.jpg)",
+    "text": "File:Bản vẽ thành Nam Định 1888.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+   },
+   {
+    "so": 11,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh_1834.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1040,
+    "h": 725,
+    "credit": "\"Bản vẽ thành Nam Định 1834.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh_1834.jpg)",
+    "text": "File:Bản vẽ thành Nam Định 1834.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+   },
+   {
+    "so": 12,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1040,
+    "h": 713,
+    "credit": "\"Bản vẽ thành Nam Định 1912.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Nam_%C4%90%E1%BB%8Bnh_1912.jpg)",
+    "text": "File:Bản vẽ thành Nam Định 1912.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+   },
+   {
+    "so": 13,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_%28th%C3%A0nh_La_Qua%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 777,
+    "h": 1040,
+    "credit": "\"Bản vẽ thành Quảng Nam (thành La Qua) 01.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_(th%C3%A0nh_La_Qua)_01.jpg)",
+    "text": "File:Bản vẽ thành Quảng Nam (thành La Qua) 01.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+   },
+   {
+    "so": 14,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_%28th%C3%A0nh_La_Qua%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1040,
+    "h": 756,
+    "credit": "\"Bản vẽ thành Quảng Nam (thành La Qua) 02.jpg\" – Bản vẽ thành Nam Định 1912., www.hinhanhlichsu.org.\nBản vẽ thành Ninh Bình., www.hinhanhlichsu.org.\nBản vẽ thành Phú Yên, Hòa Đinh Đông, Tuy Hòa, Phú Yên., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Ngãi năm 1901., www.hinhanhlichsu.org.\nBản vẽ thành Quãng Trị năm 1913. Thành Quảng Trị được xây vào năm Gia Long thứ 1., www.hinhanhlichsu.org.\nBản vẽ thành Sơn Tây., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm), Quảng Nam., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Chiêm (Dinh trấn Thanh Chiêm) do Trần Đình Đạt thực hiện năm 1913., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Thanh Hóa năm 1913., www.hinhanhlichsu.org.\nBản vẽ quy hoạch thành Thanh Hóa., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Phụng (thành Gia Định), Sài Gòn, sau trận Gia Định, ngày 8 tháng 3 năm 1859., www.hinhanhlichsu.org.\nBản vẽ thành Tuyên Quang., www.hinhanhlichsu.org.\nBản vẽ thành Vinh, Nghệ An., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long., www.hinhanhlichsu.org.\nBản vẽ thành Vĩnh Long năm 1872., www.hinhanhlichsu.org., Public domain (https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_v%E1%BA%BD_th%C3%A0nh_Qu%E1%BA%A3ng_Nam_(th%C3%A0nh_La_Qua)_02.jpg)",
+    "text": "File:Bản vẽ thành Quảng Nam (thành La Qua) 02.jpg A map of a Vietnamese citadel showcasing how these fortifications looks from above in a major Vietnamese city."
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/S%C6%A1_%C4%91%E1%BB%93_Th%C3%A0nh_c%E1%BB%95_Nam_%C4%90%E1%BB%8Bnh_do_Henri_Rivi%C3%A8re_v%E1%BA%BD_n%C4%83m_1883_%28B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh%29.jpg/1920px-S%C6%A1_%C4%91%E1%BB%93_Th%C3%A0nh_c%E1%BB%95_Nam_%C4%90%E1%BB%8Bnh_do_Henri_Rivi%C3%A8re_v%E1%BA%BD_n%C4%83m_1883_%28B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6905,
+    "h": 10000,
+    "credit": "\"Sơ đồ Thành cổ Nam Định do Henri Rivière vẽ năm 1883 (Bảo tàng tỉnh Nam Định).jpg\" – Henri Rivière, with minor augmentations and translations by the Provincial Museum of Nam Định., Public domain (https://commons.wikimedia.org/wiki/File:S%C6%A1_%C4%91%E1%BB%93_Th%C3%A0nh_c%E1%BB%95_Nam_%C4%90%E1%BB%8Bnh_do_Henri_Rivi%C3%A8re_v%E1%BA%BD_n%C4%83m_1883_(B%E1%BA%A3o_t%C3%A0ng_t%E1%BB%89nh_Nam_%C4%90%E1%BB%8Bnh).jpg)",
+    "text": "File:Sơ đồ Thành cổ Nam Định do Henri Rivière vẽ năm 1883 (Bảo tàng tỉnh Nam Định).jpg Sơ đồ Thành cổ Nam Định do Henri Rivière vẽ năm 1883 / Bảo tàng tỉnh Nam Định."
+   }
+  ]
+ },
+ {
+  "slot": "S6",
+  "beats": "12-13",
+  "mo_ta": "Châu bản triều Nguyễn",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chieu_Can_Vuong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1550,
+    "h": 1038,
+    "credit": "\"Chieu Can Vuong.jpg\" – Nguyen Dynasty in 19th century, Public domain (https://commons.wikimedia.org/wiki/File:Chieu_Can_Vuong.jpg)",
+    "text": "File:Chieu Can Vuong.jpg Chiếu Cần vương (詔勤王), the Imperial edict by Emperor Hàm Nghi (咸宜帝) exposing the crimes of the French invaders and calling on the people of Vietnam to help the Emperor in the "
+   }
+  ]
+ },
+ {
+  "slot": "S7",
+  "beats": "10",
+  "mo_ta": "Kinh thành Huế",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Hu%C3%A9%2C_1932_%E2%80%93_La_Ville_Imp%C3%A9riale_%E2%80%93_Vue_a%C3%A9rienne.jpg/1920px-Hu%C3%A9%2C_1932_%E2%80%93_La_Ville_Imp%C3%A9riale_%E2%80%93_Vue_a%C3%A9rienne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3235,
+    "h": 2371,
+    "credit": "\"Hué, 1932 – La Ville Impériale – Vue aérienne.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hu%C3%A9,_1932_%E2%80%93_La_Ville_Imp%C3%A9riale_%E2%80%93_Vue_a%C3%A9rienne.jpg)",
+    "text": "File:Hué, 1932 – La Ville Impériale – Vue aérienne.jpg The aerial view of the Imperial City in Hue 11-9-1932 during the feast in honor of the takeover of Emperor Bảo Đại"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Gate_in_Imperial_City%2C_Hu%E1%BA%BF_%28III%29.jpg/1920px-Gate_in_Imperial_City%2C_Hu%E1%BA%BF_%28III%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4189,
+    "h": 2766,
+    "credit": "\"Gate in Imperial City, Huế (III).jpg\" – This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract., CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Gate_in_Imperial_City,_Hu%E1%BA%BF_(III).jpg)",
+    "text": "File:Gate in Imperial City, Huế (III).jpg Hue, Vietnam: Gate within the Imperial palace complex in Hue."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Enclosure.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Enclosure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Enclosure.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Enclosure.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Enclosure.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site since 19"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Gate.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Gate.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Gate.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Gate.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site since 1993."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Inner_grounds.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Inner_grounds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Inner grounds.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Inner_grounds.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Inner grounds.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site sinc"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Moat.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Moat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Moat.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Moat.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Moat.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site since 1993."
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hue_-_Imperial_City.jpg/1920px-Hue_-_Imperial_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2848,
+    "h": 4288,
+    "credit": "\"Hue - Imperial City.jpg\" – P. Hughes, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hue_-_Imperial_City.jpg)",
+    "text": "File:Hue - Imperial City.jpg Covered corridor inside the Hue Imperial City, Vietnam"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_The_Meridian_Gate.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_The_Meridian_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, The Meridian Gate.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_The_Meridian_Gate.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, The Meridian Gate.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site "
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Meridian_Gate.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Meridian_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Meridian Gate.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Meridian_Gate.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Meridian Gate.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site sinc"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hue_-_Porcelain_mosaic_roof_art%2C_Hue_Imperial_City.jpg/1920px-Hue_-_Porcelain_mosaic_roof_art%2C_Hue_Imperial_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3616,
+    "h": 2560,
+    "credit": "\"Hue - Porcelain mosaic roof art, Hue Imperial City.jpg\" – P. Hughes, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hue_-_Porcelain_mosaic_roof_art,_Hue_Imperial_City.jpg)",
+    "text": "File:Hue - Porcelain mosaic roof art, Hue Imperial City.jpg Porcelain mosaic roof art, Hue Imperial City, Vietnam"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Meridian_Gate_2.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Meridian_Gate_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Meridian Gate 2.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Meridian_Gate_2.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Meridian Gate 2.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site si"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_People_at_the_Meridian_Gate.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_People_at_the_Meridian_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, People at the Meridian Gate.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_People_at_the_Meridian_Gate.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, People at the Meridian Gate.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heri"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Th%E1%BA%BF_Mi%E1%BA%BFu.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Th%E1%BA%BF_Mi%E1%BA%BFu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Thế Miếu.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Th%E1%BA%BF_Mi%E1%BA%BFu.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Thế Miếu.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site since 199"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_The_Meridian_Gate_2.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_The_Meridian_Gate_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, The Meridian Gate 2.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_The_Meridian_Gate_2.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, The Meridian Gate 2.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Sit"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Th%E1%BA%BF_Mi%E1%BA%BFu_temple.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Th%E1%BA%BF_Mi%E1%BA%BFu_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Thế Miếu temple.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Th%E1%BA%BF_Mi%E1%BA%BFu_temple.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Thế Miếu temple.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site si"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Walls.jpg/1920px-Vietnam%2C_Hue%2C_Imperial_City_of_Hue%2C_Walls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3984,
+    "h": 2656,
+    "credit": "\"Vietnam, Hue, Imperial City of Hue, Walls.jpg\" – Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Vietnam,_Hue,_Imperial_City_of_Hue,_Walls.jpg)",
+    "text": "File:Vietnam, Hue, Imperial City of Hue, Walls.jpg Huế, Vietnam. Imperial City of Huế and the citadel of the city of Huế, the former imperial capital of Vietnam. UNESCO Word Heritage Site since 1993."
+   }
+  ]
+ }
+]

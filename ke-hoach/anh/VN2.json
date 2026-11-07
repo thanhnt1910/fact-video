@@ -77,6 +77,50 @@
     "Christoforo Borri Cochinchina"
    ],
    "subject": ""
+  },
+  {
+   "slot": "S8",
+   "beats": "-",
+   "mo_ta": "Bản đồ Đông Dương/Đàng Trong thế kỷ 17",
+   "queries": [
+    "Alexandre de Rhodes map Tonkin Cochinchina 1650",
+    "Jesuit map Annam Rhodes Divers voyages",
+    "Dutch map Cochinchina Blaeu Tonkin",
+    "Cochinchine carte ancienne 1650"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S9",
+   "beats": "-",
+   "mo_ta": "Trang từ điển Rhodes 1651 có chữ quốc ngữ",
+   "queries": [
+    "Dictionarium Annamiticum Lusitanum et Latinum page",
+    "Rhodes dictionary 1651 page Vietnamese",
+    "Dictionarium Annamiticum 1651"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S10",
+   "beats": "-",
+   "mo_ta": "Hội An thế kỷ 17 tranh Nhật (Chaya, tàu Châu Ấn)",
+   "queries": [
+    "Chaya Shuinsen Hoi An Faifo painting",
+    "Shuin-sen ship Cochinchina scroll",
+    "Cochinchina Japanese trading ship painting 17th century"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S11",
+   "beats": "-",
+   "mo_ta": "Rhodes chân dung hoặc tranh khắc (chỉ tham khảo)",
+   "queries": [
+    "Alexandre de Rhodes portrait",
+    "Alexandre de Rhodes statue Avignon"
+   ],
+   "subject": ""
   }
  ]
 }

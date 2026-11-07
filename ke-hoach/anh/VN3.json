@@ -1,0 +1,12 @@
+{
+ "id": "VN3",
+ "slots": [
+  {"slot":"S1","beats":"1-2","mo_ta":"Bản đồ nước ta thời Nguyễn (Đại Nam nhất thống toàn đồ)","queries":["Đại Nam nhất thống toàn đồ","Dai Nam nhat thong toan do","Nguyen dynasty map Vietnam 1838"],"subject":""},
+  {"slot":"S2","beats":"2","mo_ta":"Tiền Thái Bình hưng bảo thời Đinh","queries":["Thái Bình hưng bảo","Thai Binh hung bao coin Dinh","Dinh dynasty coin Vietnam"],"subject":""},
+  {"slot":"S3","beats":"4","mo_ta":"Thành nhà Hồ","queries":["Citadel of the Hồ Dynasty","Thành nhà Hồ","Ho Dynasty Citadel Thanh Hoa"],"subject":""},
+  {"slot":"S4","beats":"5-6","mo_ta":"Ấn triều Nguyễn","queries":["Hoàng đế chi bảo Nguyễn seal","Nguyen dynasty imperial seal","Việt Nam quốc vương ấn"],"subject":""},
+  {"slot":"S5","beats":"7-8","mo_ta":"Nước Nam Việt thời Triệu, bản đồ","queries":["Nanyue kingdom map","Nam Viet Trieu Da map","Nanyue Zhao Tuo territory"],"subject":""},
+  {"slot":"S6","beats":"12-13","mo_ta":"Châu bản triều Nguyễn","queries":["Châu bản triều Nguyễn","Chau ban Nguyen dynasty edict","Minh Mang edict document"],"subject":""},
+  {"slot":"S7","beats":"10","mo_ta":"Kinh thành Huế","queries":["Imperial City Huế","Kinh thành Huế","Huế citadel Nguyen dynasty"],"subject":""}
+ ]
+}

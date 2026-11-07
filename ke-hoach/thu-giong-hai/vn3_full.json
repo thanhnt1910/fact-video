@@ -77,21 +77,35 @@
   "hien": "Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu."
  },
  {
-  "n": 56012,
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
-  "text": "Năm một nghìn tám trăm ba mươi tám, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam, áp dụng từ năm sau.",
-  "hien": "Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam, áp dụng từ năm sau."
+  "text": "Năm một nghìn tám trăm ba mươi tám, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam, áp dụng từ năm sau. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.",
+  "hien": "Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam, áp dụng từ năm sau. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.",
+  "n": 56012
  },
  {
-  "n": 56013,
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
-  "text": "Một cái tên tưởng đơn giản mà phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao mỗi triều đại đều muốn đổi tên nước?",
-  "hien": "Một cái tên tưởng đơn giản mà phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao mỗi triều đại đều muốn đổi tên nước?"
+  "text": "Nhưng tên Việt Nam không mất đi. Từ năm một nghìn tám trăm ba mươi tám, hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.",
+  "hien": "Nhưng tên Việt Nam không mất đi. Từ năm 1838, hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.",
+  "n": 56013
  },
  {
-  "n": 56014,
+  "chuong": "Tên nước Việt Nam",
+  "tone": "story",
+  "text": "Từ cuối thế kỷ mười chín, nhiều sử gia và chí sĩ lại dùng tên Việt Nam. Vì sao tên cũ được giữ, đến nay chưa có nghiên cứu nào nói rõ.",
+  "hien": "Từ cuối thế kỷ mười chín, nhiều sử gia và chí sĩ lại dùng tên Việt Nam. Vì sao tên cũ được giữ, đến nay chưa có nghiên cứu nào nói rõ.",
+  "n": 56014
+ },
+ {
+  "chuong": "Tên nước Việt Nam",
+  "tone": "story",
+  "text": "Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao cái tên Việt Nam vẫn được giữ, dù đã có quốc hiệu mới?",
+  "hien": "Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao cái tên Việt Nam vẫn được giữ, dù đã có quốc hiệu mới?",
+  "n": 56015
+ },
+ {
+  "n": 56016,
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
   "text": "Hẹn bạn ở video tiếp theo.",

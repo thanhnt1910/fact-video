@@ -82,13 +82,13 @@ scene(R(4)-.2,E(4),g=>{const c=card('chieu',IMG+'chieu.jpg',980,690,4);const tg=
  return{upd:(t)=>{const e=inn(t,R(4)-.2,.6);c.at(540-(1-e)*500,700,1.5,1,e);c.zoom(1+.6*inn(t,R(4)+.5,6),.5,.55);sh(tg,t,540,330,-2,PV(t,4,'chiếu',1.2));rg.set(inn(t,AT(4,'ẩm',4.4),.8));sh(a,t,540,1120,2,PV(t,4,'ẩm',4.4))}}});
 // S5 (5): vận nước ngắn ngủi
 scene(R(5)-.2,E(5),g=>{const c=card('hl_cong',IMG+'hl_cong.jpg',960,640,5);const a=strip('ĐINH',false,52,16);const b=strip('LÊ',false,52,17);const tg=strip('VẬN NGẮN NGỦI',true,60,18);const st=stamp('DÂN CHỊU THIỆT',54);
- return{upd:(t)=>{const e=inn(t,R(5)-.2,.6);c.at(540,660,-1.5,1,e);c.zoom(1.05+.25*inn(t,R(5),6),.4,.6);sh(a,t,270,1010,-3,PV(t,5,'Đinh',2.4));sh(b,t,430,1010,3,PV(t,5,'Lê',3.0));sh(tg,t,700,1010,2,PV(t,5,'vận',6.6));sh(st,t,540,1140,-4,PV(t,5,'dân',9.2,0,.35))}}});
+ return{upd:(t)=>{const e=inn(t,R(5)-.2,.6);c.at(540,660,-1.5,1,e);c.zoom(1.05+.25*inn(t,R(5),6),.4,.6);sh(a,t,270,1010,-3,PV(t,5,'Đinh',2.4));sh(b,t,430,1010,3,PV(t,5,'Lê',3.0));sh(tg,t,690,1085,2,PV(t,5,'vận',6.6));sh(st,t,540,1200,-4,PV(t,5,'dân',9.2,0,.35))}}});
 // S6 (6): Đại La, bản đồ Hồng Đức
 scene(R(6)-.2,E(6),g=>{const c=card('ban_do',IMG+'ban_do.jpg',700,930,6);const a=strip('ĐẠI LA',true,64,19);const b=strip('RỒNG CUỘN · HỔ NGỒI',true,38,20);const n=strip('BẢN ĐỒ HỒNG ĐỨC, 1490',false,28,21);const rg=ring(c.top,-60,-140,110);
  return{upd:(t)=>{const e=inn(t,R(6)-.2,.6);c.at(400-(1-e)*400,690,-2,1,e);c.zoom(1+.7*inn(t,R(6)+1,7),.45,.3);sh(a,t,790,480,3,PV(t,6,'Đại',1.4));rg.set(inn(t,AT(6,'Đại',1.4)+.4,.9));sh(b,t,790,760,-3,PV(t,6,'rồng',11.0));sh(n,t,400,1200,0,inn(t,R(6)+1,.5))}}});
 // S7 (7): tháng bảy, thuyền ra Đại La
 scene(R(7)-.2,E(7),g=>{const c=card('hl_co',IMG+'hl_co.jpg',980,650,7);const a=strip('HOA LƯ',false,56,22);const bb=strip('ĐẠI LA',true,56,23);const ar=arrow(g,380,1050,700,1050);const st=stamp('THÁNG 7 · MÙA THU',50);
- return{upd:(t)=>{const e=inn(t,R(7)-.2,.6);c.at(540,640+(1-e)*300,1.5,1,e);c.zoom(1+.3*inn(t,R(7),4),.5,.5);sh(st,t,540,330,-4,PV(t,7,'bảy',1.6,0,.35));sh(a,t,250,1050,-2,PV(t,7,'Hoa',3.0));ar.set(inn(t,AT(7,'đi',4.6),.8));sh(bb,t,830,1050,2,PV(t,7,'Đại',6.0))}}});
+ return{upd:(t)=>{const e=inn(t,R(7)-.2,.6);c.at(540,640+(1-e)*300,1.5,1,e);c.zoom(1+.3*inn(t,R(7),4),.5,.5);sh(st,t,540,235,-4,PV(t,7,'bảy',1.6,0,.35));sh(a,t,250,1050,-2,PV(t,7,'Hoa',3.0));ar.set(inn(t,AT(7,'đi',4.6),.8));sh(bb,t,830,1050,2,PV(t,7,'Đại',6.0))}}});
 // S8 (8): rồng vàng hiện lên trên thuyền
 scene(R(8)-.2,E(8),g=>{const c=card('008',A2+'008.jpg',1000,570,8);const tg=strip('RỒNG VÀNG HIỆN LÊN',true,56,24);const mn=strip('TRANH MINH HỌA',false,30,25);const rg=[0,1,2].map(()=>el(g,'circle',{fill:'none',stroke:'#f2c14e','stroke-width':6}));
  return{upd:(t)=>{const e=inn(t,R(8)-.2,.6);c.at(540,690,1,.94+.06*e,e);c.zoom(1+.7*inn(t,R(8)+.5,6),.5,.35);sh(tg,t,540,1040,-2,PV(t,8,'rồng',5.6));sh(mn,t,540,1110,1,inn(t,R(8)+1,.5));rg.forEach((e2,i)=>{const on=t>AT(8,'rồng',5.6);const u=((t-AT(8,'rồng',5.6)-i*.8)*.5)%1;e2.setAttribute('cx',560);e2.setAttribute('cy',520);e2.setAttribute('r',60+Math.max(0,u)*260);e2.setAttribute('opacity',on?(1-Math.max(0,u))*.6:0)})}}});
@@ -97,7 +97,7 @@ scene(R(9)-.2,E(9),g=>{const c=card('dd',IMG+'dd.jpg',980,720,9);const st=stamp(
  return{upd:(t)=>{const e=inn(t,R(9)-.2,.6);c.at(540,700,-1,1,e);c.zoom(1+.35*inn(t,R(9),4),.5,.5);sh(st,t,540,420,-6,PV(t,9,'sách',1.2,0,.35));sh(tg,t,540,1100,2,PV(t,9,'kiểm',3.2))}}});
 // S10 (10): đổi tên Thăng Long
 scene(R(10)-.2,E(10),g=>{const c=card('doan_mon',IMG+'doan_mon.jpg',600,900,10);const a=strip('THĂNG LONG',true,76,27);const b=strip('THĂNG = BAY LÊN',false,40,28);const d=strip('LONG = RỒNG',false,40,29);
- return{upd:(t)=>{const e=inn(t,R(10)-.2,.6);c.at(320-(1-e)*400,720,-2,1,e);c.zoom(1+.25*inn(t,R(10),6),.5,.5);sh(a,t,720,420,3,PV(t,10,'Thăng',4.4));sh(b,t,760,700,-2,PV(t,10,'nghĩa',7.2));sh(d,t,760,800,2,PV(t,10,'rồng',9.0))}}});
+ return{upd:(t)=>{const e=inn(t,R(10)-.2,.6);c.at(345-(1-e)*400,720,-2,1,e);c.zoom(1+.25*inn(t,R(10),6),.5,.5);sh(a,t,720,420,3,PV(t,10,'Thăng',4.4));sh(b,t,760,700,-2,PV(t,10,'nghĩa',7.2));sh(d,t,760,800,2,PV(t,10,'rồng',9.0))}}});
 // S11 (11): kinh đô nhà Lý, ngày nay là Hà Nội
 scene(R(11)-.2,E(11),g=>{const c=card('hoang_thanh',IMG+'hoang_thanh.jpg',980,560,11);const a=strip('KINH ĐÔ NHÀ LÝ',true,54,30);const b=strip('NGÀY NAY: HÀ NỘI',false,50,31);
  return{upd:(t)=>{const e=inn(t,R(11)-.2,.6);c.at(540,680,-1.5,1,e);c.zoom(1+.3*inn(t,R(11),6),.5,.6);sh(a,t,540,1020,-2,PV(t,11,'kinh',2.2));sh(b,t,540,1120,2,PV(t,11,'ngày',6.2))}}});

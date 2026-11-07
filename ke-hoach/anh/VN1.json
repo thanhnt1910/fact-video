@@ -1,0 +1,93 @@
+{
+ "id": "VN1",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1,10",
+   "mo_ta": "Rồng thời Lý chạm đá (Hoàng thành Thăng Long)",
+   "queries": [
+    "Ly dynasty dragon stone carving",
+    "Thang Long Imperial Citadel dragon stone steps",
+    "Ly dynasty dragon sculpture Hanoi museum"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "2",
+   "mo_ta": "Bản khắc Đại Việt sử ký toàn thư",
+   "queries": [
+    "Dai Viet su ky toan thu",
+    "Đại Việt sử ký toàn thư Chính Hòa",
+    "Vietnamese historical annals woodblock"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "3",
+   "mo_ta": "Hoa Lư, cố đô (Ninh Bình)",
+   "queries": [
+    "Hoa Lu ancient capital",
+    "Hoa Lu Ninh Binh temple",
+    "Trang An Ninh Binh landscape"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "4-5",
+   "mo_ta": "Chiếu dời đô, mộc bản hoặc bản chép",
+   "queries": [
+    "Chiếu dời đô",
+    "Edict on the Transfer of the Capital woodblock",
+    "Ly Thai To edict transfer capital"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "6",
+   "mo_ta": "Bản đồ cổ Thăng Long",
+   "queries": [
+    "Thang Long old map Hong Duc",
+    "Hanoi old map Thang Long citadel",
+    "Thăng Long bản đồ cổ"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "7-8",
+   "mo_ta": "Sông Hồng, thuyền xưa",
+   "queries": [
+    "Red River Hanoi old print boats",
+    "Red River Tonkin 19th century engraving boats",
+    "Vietnam traditional wooden boat engraving"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "11",
+   "mo_ta": "Hoàng thành Thăng Long, khu khai quật",
+   "queries": [
+    "Imperial Citadel of Thang Long excavation",
+    "Thang Long Imperial Citadel Hanoi",
+    "Hanoi Citadel Doan Mon"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S8",
+   "beats": "9",
+   "mo_ta": "Tượng đài Lý Thái Tổ (hiện vật tưởng niệm)",
+   "queries": [
+    "Ly Thai To statue Hanoi",
+    "Ly Thai To monument",
+    "Lý Thái Tổ tượng đài"
+   ],
+   "subject": ""
+  }
+ ]
+}

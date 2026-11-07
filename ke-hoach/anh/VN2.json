@@ -1,0 +1,82 @@
+{
+ "id": "VN2",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1-2",
+   "mo_ta": "Từ điển Annam–Lusitan–Latinh của Rhodes (1651), trang bìa hoặc trang trong",
+   "queries": [
+    "Dictionarium Annamiticum Lusitanum et Latinum",
+    "Alexandre de Rhodes dictionary 1651",
+    "Rhodes Dictionarium Annamiticum title page"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "3-4",
+   "mo_ta": "Hội An (Faifo) thế kỷ 17, bản đồ hoặc tranh",
+   "queries": [
+    "Faifo Hoi An 17th century map",
+    "Hoi An Japanese bridge old",
+    "Cochinchina map 17th century"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "5-6",
+   "mo_ta": "Đàng Trong, bản đồ thế kỷ 17",
+   "queries": [
+    "Cochinchina map 1650",
+    "Tunquin Cochinchina map Rhodes",
+    "Annam Cochinchina old map 17th century"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "7",
+   "mo_ta": "Phép giảng tám ngày, trang văn bản (Rhodes)",
+   "queries": [
+    "Phép giảng tám ngày",
+    "Cathechismus Rhodes 1651 Vietnamese",
+    "Alexandre de Rhodes catechism Vietnamese"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "8",
+   "mo_ta": "Vịnh Đà Nẵng, tranh khắc hoặc bản đồ cổ",
+   "queries": [
+    "Tourane Da Nang bay old engraving",
+    "Da Nang bay 17th century map",
+    "Touron Cochinchine map"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "9",
+   "mo_ta": "Trang từ điển có chữ quốc ngữ",
+   "queries": [
+    "Vietnamese Portuguese Latin dictionary page",
+    "Rhodes Dictionarium Annamiticum Lusitanum et Latinum 1651 page",
+    "early quoc ngu manuscript"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "10",
+   "mo_ta": "Chữ quốc ngữ thế kỷ 17, bản thảo hoặc thư",
+   "queries": [
+    "Francisco de Pina letter",
+    "Gaspar do Amaral Annamite Portuguese dictionary",
+    "Christoforo Borri Cochinchina"
+   ],
+   "subject": ""
+  }
+ ]
+}

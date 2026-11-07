@@ -1,0 +1,32 @@
+{
+ "taberd": {
+  "slot": "S1",
+  "so": 12,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/An_Nam_Dai_Quoc_Hoa_Do_by_Jean_Louis_Taberd_1838.jpg/1920px-An_Nam_Dai_Quoc_Hoa_Do_by_Jean_Louis_Taberd_1838.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"An Nam Dai Quoc Hoa Do by Jean Louis Taberd 1838.jpg\" – Taberd, Jean-Louis (1794-1840), Public domain (https://commons.wikimedia.org/wiki/File:An_Nam_Dai_Quoc_Hoa_Do_by_Jean_Louis_Taberd_1838.jpg)"
+ },
+ "coin": {
+  "slot": "S2",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_%28%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6%29_-_Rubbings_-_Dr._R._Allan_Barker_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Thái Bình Hưng Bảo (太平興寶) - Rubbings - Dr. R. Allan Barker 03.png\" – Rubbing by Dr. R. Allan Barker., Public domain (https://commons.wikimedia.org/wiki/File:Th%C3%A1i_B%C3%ACnh_H%C6%B0ng_B%E1%BA%A3o_(%E5%A4%AA%E5%B9%B3%E8%88%88%E5%AF%B6)_-_Rubbings_-_Dr._R._Allan_Barker_03.png)"
+ },
+ "tay": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tay_Do_castle_North_gate.JPG/1920px-Tay_Do_castle_North_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Tay Do castle North gate.JPG\" – vi:Thành viên:Silviculture, Public domain (https://commons.wikimedia.org/wiki/File:Tay_Do_castle_North_gate.JPG)"
+ },
+ "seal": {
+  "slot": "S4",
+  "so": 0,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Print_of_the_Ho%C3%A0ng_%C4%90%E1%BA%BF_t%C3%B4n_th%C3%A2n_chi_b%E1%BA%A3o_%28%E7%9A%87%E5%B8%9D%E5%B0%8A%E8%A6%AA%E4%B9%8B%E5%AF%B6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Print of the Hoàng Đế tôn thân chi bảo (皇帝尊親之寶).jpg\" – The imperial government of the Nguyễn Dynasty., Public domain (https://commons.wikimedia.org/wiki/File:Print_of_the_Ho%C3%A0ng_%C4%90%E1%BA%BF_t%C3%B4n_th%C3%A2n_chi_b%E1%BA%A3o_(%E7%9A%87%E5%B8%9D%E5%B0%8A%E8%A6%AA%E4%B9%8B%E5%AF%B6).jpg)"
+ },
+ "hue": {
+  "slot": "S7",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Hu%C3%A9%2C_1932_%E2%80%93_La_Ville_Imp%C3%A9riale_%E2%80%93_Vue_a%C3%A9rienne.jpg/1920px-Hu%C3%A9%2C_1932_%E2%80%93_La_Ville_Imp%C3%A9riale_%E2%80%93_Vue_a%C3%A9rienne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Hué, 1932 – La Ville Impériale – Vue aérienne.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hu%C3%A9,_1932_%E2%80%93_La_Ville_Imp%C3%A9riale_%E2%80%93_Vue_a%C3%A9rienne.jpg)"
+ }
+}

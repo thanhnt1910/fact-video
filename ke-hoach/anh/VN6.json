@@ -1,0 +1,77 @@
+{
+ "id": "VN6",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1,2,12",
+   "mo_ta": "Cọc gỗ Bạch Đằng dưới bùn",
+   "queries": [
+    "Bãi cọc Bạch Đằng",
+    "Bach Dang stakes",
+    "Bãi cọc Yên Giang"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "3,4",
+   "mo_ta": "Bãi cọc Yên Giang, Quảng Yên",
+   "queries": [
+    "Bãi cọc Yên Giang Quảng Yên",
+    "Yen Giang stakes Quang Ninh"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "5,6",
+   "mo_ta": "Cọc gỗ khai quật hoặc trưng bày",
+   "queries": [
+    "Cọc gỗ Bạch Đằng trưng bày bảo tàng",
+    "Bach Dang stakes museum"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "7,8,9",
+   "mo_ta": "Sông Bạch Đằng, cửa sông",
+   "queries": [
+    "Sông Bạch Đằng",
+    "Bach Dang River",
+    "Bạch Đằng giang di tích"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "10,11",
+   "mo_ta": "Bãi cọc Liên Khê Thủy Nguyên",
+   "queries": [
+    "Bãi cọc Liên Khê Thủy Nguyên",
+    "Thuy Nguyen stakes Bach Dang"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "13,14",
+   "mo_ta": "Khu di tích Bạch Đằng Giang",
+   "queries": [
+    "Khu di tích Bạch Đằng Giang",
+    "Bach Dang Giang historical site"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "15",
+   "mo_ta": "Tượng đài Trần Hưng Đạo, Bạch Đằng",
+   "queries": [
+    "Tượng Trần Hưng Đạo Bạch Đằng",
+    "Bach Dang victory monument"
+   ],
+   "subject": ""
+  }
+ ]
+}

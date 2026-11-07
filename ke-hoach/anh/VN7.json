@@ -1,0 +1,76 @@
+{
+ "id": "VN7",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1,2",
+   "mo_ta": "Khu khảo cổ 18 Hoàng Diệu",
+   "queries": [
+    "Khu khảo cổ 18 Hoàng Diệu",
+    "18 Hoang Dieu archaeological site",
+    "Hoàng thành Thăng Long khảo cổ"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "3",
+   "mo_ta": "Khai quật Hoàng thành Thăng Long",
+   "queries": [
+    "Hoàng thành Thăng Long khai quật",
+    "Thang Long citadel excavation"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "4,5",
+   "mo_ta": "Các lớp đất khảo cổ, địa tầng",
+   "queries": [
+    "Hoàng thành Thăng Long địa tầng",
+    "Thang Long citadel archaeological layers"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "6",
+   "mo_ta": "Đoan Môn Hoàng thành Thăng Long",
+   "queries": [
+    "Đoan Môn Hoàng thành Thăng Long",
+    "Doan Mon Thang Long citadel"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "7",
+   "mo_ta": "Giếng cổ, nền móng khảo cổ Hoàng thành",
+   "queries": [
+    "Giếng cổ Hoàng thành Thăng Long",
+    "Thang Long citadel ancient well"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "9,10",
+   "mo_ta": "Di sản thế giới Hoàng thành Thăng Long",
+   "queries": [
+    "Imperial Citadel of Thang Long World Heritage",
+    "Thang Long Hanoi UNESCO"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "11",
+   "mo_ta": "Điện Kính Thiên, thềm rồng đá",
+   "queries": [
+    "Điện Kính Thiên thềm rồng",
+    "Kinh Thien palace dragon steps Hanoi"
+   ],
+   "subject": ""
+  }
+ ]
+}

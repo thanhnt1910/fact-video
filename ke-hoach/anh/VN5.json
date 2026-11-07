@@ -1,0 +1,80 @@
+{
+ "id": "VN5",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1,4,8",
+   "mo_ta": "Sơ đồ hoặc ảnh trên cao thành Cổ Loa",
+   "queries": [
+    "Cổ Loa citadel aerial",
+    "Thành Cổ Loa",
+    "Co Loa citadel map three ramparts"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "2,3",
+   "mo_ta": "Cổ Loa, Đông Anh, đền thờ An Dương Vương",
+   "queries": [
+    "Đền Cổ Loa An Dương Vương",
+    "Co Loa temple An Duong Vuong",
+    "Cổ Loa Đông Anh"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "5,6,7",
+   "mo_ta": "Lũy đất và hào nước thành Cổ Loa",
+   "queries": [
+    "Cổ Loa rampart earth wall",
+    "Lũy thành Cổ Loa",
+    "Co Loa moat"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "9,10",
+   "mo_ta": "Cổng thành Cổ Loa, đình đền",
+   "queries": [
+    "Cổng thành Cổ Loa",
+    "Co Loa gate",
+    "Ngô Quyền Cổ Loa"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "11",
+   "mo_ta": "Khai quật khảo cổ thành Cổ Loa",
+   "queries": [
+    "Cổ Loa khai quật khảo cổ",
+    "Co Loa archaeological excavation"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S6",
+   "beats": "12,13,14",
+   "mo_ta": "Mũi tên đồng Cổ Loa",
+   "queries": [
+    "Mũi tên đồng Cổ Loa",
+    "Co Loa bronze arrowheads",
+    "Dong Son bronze arrowheads"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S7",
+   "beats": "15",
+   "mo_ta": "Lũy thành Cổ Loa, cảnh quan",
+   "queries": [
+    "Co Loa landscape",
+    "Cổ Loa di tích"
+   ],
+   "subject": ""
+  }
+ ]
+}

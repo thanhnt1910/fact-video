@@ -1,0 +1,14 @@
+Vẽ 2 ảnh (đợt 0)
+     🖥️  Gửi 2 tranh sang Kaggle (GPU miễn phí)
+     🖥️   0.5 phút: .running
+     🖥️   4.6 phút: .complete
+     🖥️  Kaggle: thanhnguyen9x/ngs-flux-draw has status "kernelworkerstatus.complete" (5 phút)
+     🖥️  Nhận về 2/2 tranh từ Kaggle
+Nhận về 2/2 ảnh
+== Kiểm ảnh (vòng 0): 2 ảnh ==
+   001: điểm 3 · ổn
+   008: điểm 4 · ổn
+Vòng 0: 0 ảnh lỗi / 2: 
+TỔNG HỢP KIỂM ẢNH · VN1 · 2 ảnh · 578 giây · 0 vòng vẽ lại
+Còn lỗi (0): không
+Chưa kiểm bằng AI (0): không

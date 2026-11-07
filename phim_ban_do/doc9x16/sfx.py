@@ -45,6 +45,19 @@ def murmur(d=3.0, g=.6):
     n = bp(noise(d), 180, 900) * 5; m = 1 + .5 * np.sin(2 * np.pi * np.arange(len(n)) / SR * 5.3); return g * n * m * env(len(n), d * .4, d * .4)
 def swell(d=1.6, g=.5):
     t = t_(d); y = (np.sin(2 * np.pi * 110 * t) + .6 * np.sin(2 * np.pi * 165 * t)) * np.sin(np.pi * t / d) ** 2; return g * y
+def boom(g=1.0, light=False, rustle=.25):
+    """Cú boom trầm kiểu video mẫu: sóng 45->35 Hz lên 50 ms tắt ~300 ms (+ thân 90-130 Hz để loa điện thoại vẫn nghe), tiếng giấy quét báo trước, tiếng tách đúng lúc đập."""
+    if light: rustle = min(rustle, .12)
+    pre = int(rustle * SR); d = .5; t = t_(d)
+    ph = 2 * np.pi * np.cumsum(35 + 10 * np.exp(-t * 8)) / SR
+    a = np.minimum(1, t / .05) * np.exp(-t * 7.7)
+    low = np.sin(ph) * a * (0 if light else 1)
+    body = (np.sin(2 * np.pi * (95 + 45 * np.exp(-t * 20)) * t) * np.exp(-t * (13 if light else 9)) * np.minimum(1, t / .012))
+    clk = np.pad(bp(noise(.02), 2500, 7000) * np.exp(-t_(.02) * 160) * 10, (0, int((d - .02) * SR)))
+    hit = (low * 1.0 + body * (.75 if not light else .9)) * 1.0 + clk * .35
+    ru = bp(noise(rustle), 3500, 9000) * 6 * (np.linspace(0, 1, int(rustle * SR)) ** 2) * (.5 if not light else .35)
+    y = np.concatenate([ru[:pre], np.zeros(len(hit))]); y[pre:pre + len(hit)] += hit
+    return g * (.55 if light else 1.0) * y, pre / SR
 def render(events, total):
     out = np.zeros(int(total * SR) + SR * 3)
     def put(t, y):
@@ -58,6 +71,8 @@ def render(events, total):
         elif k == 'tit': put(t, tit(p.get('f', 1900), g * .7))
         elif k == 'ping': put(t, ping(p.get('f', 760), g=g))
         elif k == 'chime': put(t, chime(p.get('f', 660), g=g))
+        elif k == 'boom':
+            y, off = boom(g, p.get('light', False), p.get('rustle', .25)); put(max(0, t - off), y)
         elif k == 'thud': put(t, thud(p.get('f', 70), g=g))
         elif k == 'stamp': put(t, stamp(g))
         elif k == 'whoosh': put(t, whoosh(p.get('d', .8), g=.7 * g))

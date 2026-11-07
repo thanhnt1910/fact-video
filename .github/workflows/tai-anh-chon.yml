@@ -1,0 +1,25 @@
+name: Tải ảnh tư liệu đã chọn
+on:
+  workflow_dispatch:
+    inputs:
+      nguon:
+        description: "File nguon.json (vd assets/dola1/nguon.json)"
+        required: true
+        default: "assets/dola1/nguon.json"
+permissions:
+  contents: write
+jobs:
+  tai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tai_anh_chon.py "${{ inputs.nguon }}"
+      - name: Lưu vào repo
+        run: |
+          git add assets || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Ảnh tư liệu đã chọn [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

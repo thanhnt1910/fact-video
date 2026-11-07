@@ -1,0 +1,68 @@
+{
+ "t1": {
+  "slot": "S1",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Dollarnote_siegel_hq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Dollarnote siegel hq.jpg\" – de:Benutzer:Verwüstung, Public domain (https://commons.wikimedia.org/wiki/File:Dollarnote_siegel_hq.jpg)"
+ },
+ "t1z": {
+  "slot": "S1",
+  "so": 6,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/All_seeing_eye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"All seeing eye.jpg\" – Bureau of Engraving and Printing (work for hire), Public domain (https://commons.wikimedia.org/wiki/File:All_seeing_eye.jpg)"
+ },
+ "seal": {
+  "slot": "S2",
+  "so": 1,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/AmCyc_United_States_of_America_-_great_seal_%28reverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"AmCyc United States of America - great seal (reverse).jpg\" – United States of America, Public domain (https://commons.wikimedia.org/wiki/File:AmCyc_United_States_of_America_-_great_seal_(reverse).jpg)"
+ },
+ "seal2": {
+  "slot": "S2",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Great_Seal_of_New_South_Wales%2C_reverse_%281828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Great Seal of New South Wales, reverse (1828).jpg\" – NSW Government, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_of_New_South_Wales,_reverse_(1828).jpg)"
+ },
+ "seal0": {
+  "slot": "S2",
+  "so": 0,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Great_Seal_of_the_United_States_%28reverse_monochrome%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Great Seal of the United States (reverse monochrome).png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(reverse_monochrome).png)"
+ },
+ "decl": {
+  "slot": "S3",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/US_Declaration_of_Independence_5000w.jpg/1920px-US_Declaration_of_Independence_5000w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"US Declaration of Independence 5000w.jpg\" – Original by Thomas Jefferson et al.; Engraving & fascimile by William J. Stone (1798-1865), Public domain (https://commons.wikimedia.org/wiki/File:US_Declaration_of_Independence_5000w.jpg)"
+ },
+ "moses": {
+  "slot": "S5",
+  "so": 0,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/FirstCommitteeGreatSealReverseLossingDrawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"FirstCommitteeGreatSealReverseLossingDrawing.jpg\" – Benson John Lossing, Public domain (https://commons.wikimedia.org/wiki/File:FirstCommitteeGreatSealReverseLossingDrawing.jpg)"
+ },
+ "dsm": {
+  "slot": "S5",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Great_Seal_du_Simitiere_proposal_sketch.jpg/1920px-Great_Seal_du_Simitiere_proposal_sketch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Great Seal du Simitiere proposal sketch.jpg\" – Pierre Eugène du Simitière, Public domain (https://commons.wikimedia.org/wiki/File:Great_Seal_du_Simitiere_proposal_sketch.jpg)"
+ },
+ "eye": {
+  "slot": "S7",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Eye_of_Providence.jpg/1920px-The_Eye_of_Providence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"The Eye of Providence.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:The_Eye_of_Providence.jpg)"
+ },
+ "s35f": {
+  "slot": "S8",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/US-%241-SC-1935-A-Fr.1610.jpg/1920px-US-%241-SC-1935-A-Fr.1610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"US-$1-SC-1935-A-Fr.1610.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-A-Fr.1610.jpg)"
+ },
+ "s35b": {
+  "slot": "S8",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/US-%241-SC-1935-Fr-1607.jpg/1920px-US-%241-SC-1935-Fr-1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"US-$1-SC-1935-Fr-1607.jpg\" – National Museum of American History, Public domain (https://commons.wikimedia.org/wiki/File:US-$1-SC-1935-Fr-1607.jpg)"
+ }
+}

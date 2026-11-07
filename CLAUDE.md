@@ -423,3 +423,6 @@ Lỗi: tôi giao video khi mới xem 8 khung thu nhỏ, kiểm giọng chỉ b�
 - Cảnh chỉ có một hai chấm và một icon đứng yên là quá đơn giản. Mỗi cảnh cần ít nhất ba lớp chuyển động có nghĩa: camera zoom hoặc trượt tới vị trí; vật xuất hiện, di chuyển, biến đổi theo lời (đường nét đứt, quân đi, vùng đổi màu, số đếm, vòng sóng); chi tiết nền (đường, sông, ruộng, thành). Đồ vật minh họa (đền, nông cụ, văn thư, đồng tiền) phải vẽ đủ chi tiết như cột đồng, kèm nhãn, không chỉ khối màu.
 - Cảnh quan trọng (đền thờ, nông cụ, lễ cưới, thu thuế) zoom vào đúng nơi, vẽ vật to chiếm vùng giữa khung rồi mới thu về bản đồ. Không dùng chung một mẫu "thành + chấm + chữ" cho mọi cảnh.
 - Trước khi giao nêu cho chủ kênh danh sách cảnh còn đơn giản thay vì tuyên bố đã xong; chủ kênh đã nói rõ cần "áp dụng cách dựng mới", phải so với video cột đồng đã duyệt.
+
+## Bản đồ có vùng biển phía đông Việt Nam: phải có Hoàng Sa và Trường Sa (chủ kênh yêu cầu 07/11/2026)
+- Khung bản đồ nào hiện vùng biển phía đông Việt Nam thì phải vẽ quần đảo Hoàng Sa (khoảng 111,7°Đ, 16,5°B) kèm nhãn "Quần đảo Hoàng Sa (Việt Nam)". Trường Sa nằm ngoài ảnh nền `map_relief.jpg` (dừng ở vĩ 13,5°B): khi khung rộng thì thêm thẻ "Trường Sa (Việt Nam) ở phía nam ↓". Vẫn không ghi tên "Biển Đông" và không vẽ biên giới. Mẫu: cảnh 55002 trong `phim_ban_do/doc9x16/trang_vn2.html`.

@@ -97,7 +97,7 @@ def tai_anh(d):
 
 
 # ------------------------------------------------------------------ giọng
-def split_by_pauses(samples, weights):
+def split_by_pauses(samples, weights, minrun=12):
     x = np.frombuffer(samples.tobytes(), np.int16).astype(np.float32)
     win = int(0.02 * SR)
     k = len(x) // win
@@ -113,7 +113,7 @@ def split_by_pauses(samples, weights):
             j = i
             while j < b and quiet[j]:
                 j += 1
-            if j - i >= 12:
+            if j - i >= minrun:
                 runs.append(((i + j) / 2, j - i))
             i = j
         else:
@@ -199,11 +199,17 @@ def timeline(d):
         for (s0, s1), beat in zip(segs, c):
             seg = audio[s0:s1]
             st = t + 0.0
+            parts = split_caption(beat["text"])
+            cue_cuts = []
+            if len(parts) > 1 and len(seg) > SR:
+                # mốc đổi dòng phụ đề bám theo chỗ ngắt thật của giọng, không chia theo số ký tự
+                sub, _ = split_by_pauses(seg, [max(8, len(q)) for q in parts], minrun=6)
+                cue_cuts = [sb[1] / SR for sb in sub[:-1]]
             narr.extend(seg)
             t += len(seg) / SR
             narr.extend(mv.silence(GAP_BEAT))
             t += GAP_BEAT
-            items.append(dict(beat, start=st, end=st + len(seg) / SR))
+            items.append(dict(beat, start=st, end=st + len(seg) / SR, cue_cuts=cue_cuts))
         # nghỉ dài hơn khi sang chương
         narr.extend(mv.silence(0.5))
         t += 0.5
@@ -381,8 +387,12 @@ def write_subs(items, total, d, out_ass, out_srt):
         wt = [max(8, len(p)) for p in parts]
         dur = it["end"] - it["start"]
         t0 = it["start"]
-        for p, w in zip(parts, wt):
-            t1 = t0 + dur * w / sum(wt)
+        cc = it.get("cue_cuts") or []
+        for q, (p, w) in enumerate(zip(parts, wt)):
+            if len(cc) == len(parts) - 1:
+                t1 = it["start"] + cc[q] if q < len(cc) else it["end"]
+            else:
+                t1 = t0 + dur * w / sum(wt)
             n += 1
             ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1 - 0.03)},Main,,0,0,0,,{wrap2(p)}")
             h1, m1 = divmod(t0, 3600)

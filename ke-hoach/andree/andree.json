@@ -129,7 +129,7 @@
     },
     {
      "text": "Then they waited for a wind from the south. Day after day, it blew from the north.",
-     "slot": "S17",
+     "slot": "S70",
      "tag": "CG",
      "src": "W,S,WA"
     },
@@ -147,7 +147,7 @@
     },
     {
      "text": "The delay cost him more than time. His meteorologist, Nils Ekholm, had measured how fast the balloon was losing gas.",
-     "slot": "S19",
+     "slot": "S72",
      "tag": "CG",
      "src": "L,W"
     },
@@ -159,7 +159,7 @@
     },
     {
      "text": "In the summer of eighteen ninety-seven, the team returned to Danes Island to try again.",
-     "slot": "S17",
+     "slot": "S71",
      "tag": "CG",
      "src": "W,S"
     }
@@ -194,7 +194,7 @@
     },
     {
      "text": "The long steering ropes twisted, and their screw joints came undone. Within minutes, the expedition had lost the lower parts of all three ropes.",
-     "slot": "S24",
+     "slot": "S73",
      "tag": "SỬ",
      "src": "MO,P,PH"
     },
@@ -206,7 +206,7 @@
     },
     {
      "text": "From the shore, the Eagle was seen drifting north until it was out of sight.",
-     "slot": "S25",
+     "slot": "S74",
      "tag": "CG",
      "src": "D,W"
     },
@@ -230,7 +230,7 @@
     },
     {
      "text": "One pigeon landed on a Norwegian sealing ship and was shot. Its note said the balloon had passed eighty-two degrees north, and it mentioned no trouble at all.",
-     "slot": "S27",
+     "slot": "S75",
      "tag": "CG",
      "src": "M,W",
      "map": "M08"
@@ -243,7 +243,7 @@
     },
     {
      "text": "For many hours, the basket bumped along the ice again and again, and the men threw out more and more of their load.",
-     "slot": "S28",
+     "slot": "S76",
      "tag": "CG",
      "src": "W,D"
     },
@@ -255,7 +255,7 @@
     },
     {
      "text": "They were a little south of eighty-three degrees north, still nearly five hundred miles from the North Pole.",
-     "slot": "S29",
+     "slot": "S77",
      "tag": "CG",
      "src": "P,M30",
      "map": "M09"
@@ -274,7 +274,7 @@
     },
     {
      "text": "They had food for about three months, and guns to hunt with.",
-     "slot": "S31",
+     "slot": "S78",
      "tag": "CG",
      "src": "WA,W"
     }
@@ -380,7 +380,7 @@
     },
     {
      "text": "In early October, they set foot on land for the first time since the balloon rose from Danes Island.",
-     "slot": "S45",
+     "slot": "S79",
      "tag": "CG",
      "src": "W,D,S"
     },
@@ -392,7 +392,7 @@
     },
     {
      "text": "That last diary was later badly damaged by water and mold. Only about a third of its text can be read with the naked eye.",
-     "slot": "S46",
+     "slot": "S80",
      "tag": "CG",
      "src": "KI,RAA"
     },
@@ -415,7 +415,7 @@
     },
     {
      "text": "Near the boat, they found the remains of Andrée. A monogram on his jacket told them who he was, and a diary was still in his pocket.",
-     "slot": "S48",
+     "slot": "S81",
      "tag": "CG",
      "src": "LB,PH,W"
     },
@@ -427,7 +427,7 @@
     },
     {
      "text": "That detail matters. Strindberg had been buried. So he died first, and his two companions buried him.",
-     "slot": "S49",
+     "slot": "S82",
      "tag": "SỬ",
      "src": "MO,WA,U"
     },
@@ -445,7 +445,7 @@
     },
     {
      "text": "About a month after the first find, they reached the camp. There they found the remains of the third man, Knut Frænkel, along with more diaries and rolls of exposed film.",
-     "slot": "S51",
+     "slot": "S83",
      "tag": "CG",
      "src": "PH,LB,W,WA"
     },
@@ -475,7 +475,7 @@
     },
     {
      "text": "In Stockholm, John Hertzberg, a scientist at the Royal Institute of Technology, worked on the rolls one by one.",
-     "slot": "S54",
+     "slot": "S84",
      "tag": "CG",
      "src": "W,WS"
     },
@@ -510,7 +510,7 @@
     },
     {
      "text": "The official account published in nineteen thirty concluded that Strindberg died first, and that Andrée and Frænkel died later, side by side in the tent, probably at about the same time.",
-     "slot": "S58",
+     "slot": "S85",
      "tag": "SỬ",
      "src": "MO"
     },
@@ -522,7 +522,7 @@
     },
     {
      "text": "But the diaries describe no high fever, and the disease very rarely kills, let alone three people at once.",
-     "slot": "S59",
+     "slot": "S86",
      "tag": "CG",
      "src": "W,U,KI"
     },
@@ -534,7 +534,7 @@
     },
     {
      "text": "Other researchers have suggested botulism, lead from food cans, or poisoning from eating bear liver. Each idea has its supporters, and each has problems.",
-     "slot": "S60",
+     "slot": "S87",
      "tag": "CG",
      "src": "W,U"
     },
@@ -552,7 +552,7 @@
     },
     {
      "text": "One clue is his woolen underwear. One leg is missing, and the torn edge looks clawed rather than cut. Even so, she says openly that she cannot be certain.",
-     "slot": "S62",
+     "slot": "S88",
      "tag": "CG",
      "src": "KI,W"
     },
@@ -594,7 +594,7 @@
     },
     {
      "text": "Three men set out to fly over the top of the world. Their camera brought back the last pictures of their journey, thirty-three years too late.",
-     "slot": "S30",
+     "slot": "S89",
      "tag": "CG",
      "src": "W,S"
     },

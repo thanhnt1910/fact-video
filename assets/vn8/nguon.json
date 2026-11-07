@@ -1,0 +1,50 @@
+{
+ "bia1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04681.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04681.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04681.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04681.JPG)"
+ },
+ "bia2": {
+  "slot": "S1",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04680.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04680.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04680.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04680.JPG)"
+ },
+ "rua": {
+  "slot": "S1",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Temple_of_Literature%2C_Hanoi_%2826246696021%29.jpg/1920px-Temple_of_Literature%2C_Hanoi_%2826246696021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Temple of Literature, Hanoi (26246696021).jpg\" – katiebordner, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Temple_of_Literature,_Hanoi_(26246696021).jpg)"
+ },
+ "bia3": {
+  "slot": "S1",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04569.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04569.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04569.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04569.JPG)"
+ },
+ "hanhlang": {
+  "slot": "S1",
+  "so": 5,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04676.JPG/1920px-Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04676.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Stelae of Doctors - Temple of Literature, Hanoi - DSC04676.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04676.JPG)"
+ },
+ "khue1": {
+  "slot": "S2",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Constellation_of_Literature_pavilion_-_Temple_of_Literature%2C_Hanoi_-_DSC04553.JPG/1920px-Constellation_of_Literature_pavilion_-_Temple_of_Literature%2C_Hanoi_-_DSC04553.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Constellation of Literature pavilion - Temple of Literature, Hanoi - DSC04553.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Constellation_of_Literature_pavilion_-_Temple_of_Literature,_Hanoi_-_DSC04553.JPG)"
+ },
+ "khue2": {
+  "slot": "S2",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Constellation_of_Literature_pavilion_-_Temple_of_Literature%2C_Hanoi_-_DSC04576.JPG/1920px-Constellation_of_Literature_pavilion_-_Temple_of_Literature%2C_Hanoi_-_DSC04576.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Constellation of Literature pavilion - Temple of Literature, Hanoi - DSC04576.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Constellation_of_Literature_pavilion_-_Temple_of_Literature,_Hanoi_-_DSC04576.JPG)"
+ },
+ "ho": {
+  "slot": "S5",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/V%C4%83n_Mi%E1%BA%BFu_%E2%80%93_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m_%2821%29.jpg/1920px-V%C4%83n_Mi%E1%BA%BFu_%E2%80%93_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Văn Miếu – Quốc Tử Giám (21).jpg\" – Chuhai07, CC0 (https://commons.wikimedia.org/wiki/File:V%C4%83n_Mi%E1%BA%BFu_%E2%80%93_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m_(21).jpg)"
+ }
+}

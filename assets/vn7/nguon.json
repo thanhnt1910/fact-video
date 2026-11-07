@@ -1,0 +1,32 @@
+{
+ "toancanh": {
+  "slot": "S1",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Imperial_Citadel_of_Thang_Long_%2826910835332%29.jpg/1920px-Imperial_Citadel_of_Thang_Long_%2826910835332%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Imperial Citadel of Thang Long (26910835332).jpg\" – Bex Walton from London, England, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Imperial_Citadel_of_Thang_Long_(26910835332).jpg)"
+ },
+ "doanmon1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg/1920px-Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Central Sector of the Imperial Citadel of Thang Long - Hanoi.jpg\" – katiebordner, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg)"
+ },
+ "doanmon2": {
+  "slot": "S1",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_%2826246667851%29.jpg/1920px-Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_%2826246667851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Central Sector of the Imperial Citadel of Thang Long - Hanoi (26246667851).jpg\" – katiebordner, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_(26246667851).jpg)"
+ },
+ "gsell": {
+  "slot": "S5",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Vue_int%C3%A9rieure_de_la_citadelle_de_Hano%C3%AF_%28Tongking%29.jpeg/1920px-Vue_int%C3%A9rieure_de_la_citadelle_de_Hano%C3%AF_%28Tongking%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Vue intérieure de la citadelle de Hanoï (Tongking).jpeg\" – Emile Gsell, Public domain (https://commons.wikimedia.org/wiki/File:Vue_int%C3%A9rieure_de_la_citadelle_de_Hano%C3%AF_(Tongking).jpeg)"
+ },
+ "kt0": {
+  "slot": "S6",
+  "so": 0,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1044_3191.jpg/1920px-Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace%2C_Citadel_of_Hanoi%2C_20240123_1044_3191.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Backyard of the Kính Thiên Palace, Citadel of Hanoi, 20240123 1044 3191.jpg\" – Jakub Hałun, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Backyard_of_the_K%C3%ADnh_Thi%C3%AAn_Palace,_Citadel_of_Hanoi,_20240123_1044_3191.jpg)"
+ }
+}

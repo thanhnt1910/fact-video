@@ -85,7 +85,7 @@ function drawShip(g){el(g,'path',{d:'M-30 0 L30 0 L20 15 L-20 15Z',fill:'#5a3a1e
 function drawPawn(g,col,lab,ly=-92){const k=el(g,'g',{transform:'scale(1.7)'});el(k,'circle',{cx:0,cy:-30,r:12,fill:col,stroke:'#fff','stroke-width':4});el(k,'path',{d:'M-15 0 Q-15 -19 0 -21 Q15 -19 15 0Z',fill:col,stroke:'#fff','stroke-width':4});if(lab)T(g,0,ly,lab,26,'#fff',8,'middle','#1b140c')}
 function along(pts,u){const L=[0];for(let i=1;i<pts.length;i++)L.push(L[i-1]+Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]));const D=L[L.length-1]*cl(u);let i=1;while(i<pts.length-1&&L[i]<D)i++;const k=(D-L[i-1])/Math.max(1e-6,L[i]-L[i-1]);return[lerp(pts[i-1][0],pts[i][0],cl(k)),lerp(pts[i-1][1],pts[i][1],cl(k)),i,D]}
 function trailPath(pts,u){const L=[0];for(let i=1;i<pts.length;i++)L.push(L[i-1]+Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]));const D=L[L.length-1]*cl(u);let d='M'+pts[0][0]+' '+pts[0][1];for(let i=1;i<pts.length;i++){if(L[i]<=D)d+=` L${pts[i][0]} ${pts[i][1]}`;else{const k=(D-L[i-1])/(L[i]-L[i-1]);d+=` L${lerp(pts[i-1][0],pts[i][0],k)} ${lerp(pts[i-1][1],pts[i][1],k)}`;break}}return d}
-function hsMake(L){const hs=el(L,'g',{});const O=[[0,0],[16,-8],[30,6],[-14,10],[8,16],[-26,-4],[40,-12]];const hd=O.map(o=>el(hs,'circle',{cx:o[0],cy:o[1],r:5,fill:'#fff6d0',stroke:'#1b140c','stroke-width':2}));T(hs,0,44,'QUẦN ĐẢO HOÀNG SA',24,'#fff',7,'middle','#1b140c');T(hs,0,72,'(VIỆT NAM)',24,'#f2c14e',7,'middle','#1b140c');return(m,op)=>{const[x,y]=m.P(111.3,16.5);hs.setAttribute('transform',`translate(${x},${y})`);hs.setAttribute('opacity',op)}}
+function hsMake(L){const hs=el(L,'g',{});const O=[[0,0],[16,-8],[30,6],[-14,10],[8,16],[-26,-4],[40,-12]];const hd=O.map(o=>el(hs,'circle',{cx:o[0],cy:o[1],r:5,fill:'#fff6d0',stroke:'#1b140c','stroke-width':2}));T(hs,-50,-56,'QUẦN ĐẢO HOÀNG SA',24,'#fff',7,'middle','#1b140c');T(hs,-50,-28,'(VIỆT NAM)',24,'#f2c14e',7,'middle','#1b140c');return(m,op)=>{const[x,y]=m.P(111.3,16.5);hs.setAttribute('transform',`translate(${x},${y})`);hs.setAttribute('opacity',op)}}
 const PLACES=[['Huế',107.58,16.46,-1],['Đà Nẵng',108.2,16.05,-1],['Quảng Ngãi',108.8,15.12,-1],['Quy Nhơn',109.22,13.8,-1]];
 function placeNames(L){return PLACES.map(p=>{const t=T(L,0,0,p[0],24,'#fff',7,'end','#1b140c');return t})}
 function placeUpd(m,ts,op,skipDN){PLACES.forEach((p,i)=>{const[x,y]=m.P(p[1],p[2]);ts[i].setAttribute('x',x-(i==1?60:14));ts[i].setAttribute('y',y+(i==1?40:8));ts[i].setAttribute('opacity',i==1&&skipDN?0:op)})}
@@ -111,35 +111,35 @@ const WV=[109.2,18.9,125],WV0=[109.2,19.0,108];
 const HUE=['Huế',107.58,16.46],HL=['Hoa Lư',105.9,20.25],TL=['Thăng Long',105.8,21.1],HO=['Thành nhà Hồ',105.6,20.08];
 const pinD=(a,n,w,fb,ox,oy,col,an)=>[a[0],a[1],a[2],n,w,26,an||'start',fb,col||'#e5483f',ox,oy];
 // S1 (1): móc câu hỏi
-mscene(1,1,{v0:WV0,v1:WV,seed:1,stamp:['KHÔNG ĐỒNG Ý',540,330,64,1,'không',4.2],
- strips:[['VIỆT NAM',false,56,540,1245,2,1,'Việt',3.0],['NAM VIỆT',true,56,540,1175,-2,1,'suýt',2.0],['VUA NHÀ THANH ↑',false,32,540,300,0,1,'vua',6.0]]});
+mscene(1,1,{v0:WV0,v1:WV,seed:1,stamp:['KHÔNG ĐỒNG Ý',540,420,64,1,'không',4.2],
+ strips:[['VIỆT NAM',false,56,540,1264,2,1,'Việt',3.0],['NAM VIỆT',true,56,540,1180,-2,1,'suýt',2.0],['VUA NHÀ THANH ↑',false,32,540,275,0,1,'vua',6.0]]});
 // S2 (2): 968 Đại Cồ Việt, Hoa Lư
 mscene(2,2,{v0:WV0,v1:[108.9,19.4,125],seed:2,stamp:['968',300,330,130,2,'chín',3.0],
  pins:[pinD(HL,2,'Đinh',4.4,24,8,'#e5483f','start')],inset:{k:'coin',mw:300,mh:300,x:830,y:450,rot:5,n:2,w:'Đại',fb:8.0,seed:2,zoom:.15},
- strips:[['ĐẠI CỒ VIỆT',true,56,540,1175,-2,2,'Đại',8.0],['ĐINH BỘ LĨNH',false,44,540,1245,2,2,'Đinh',4.4]]});
+ strips:[['ĐẠI CỒ VIỆT',true,56,540,1180,-2,2,'Đại',8.0],['ĐINH BỘ LĨNH',false,44,540,1264,2,2,'Đinh',4.4]]});
 // S3 (3): 1054 Đại Việt, còn bàn luận
 mscene(3,3,{v0:WV0,v1:WV,seed:3,stamp:['1054',300,330,120,3,'nghìn',3.2],
  pins:[pinD(TL,3,'Lý',5.6,24,-18,'#e5483f','start')],
- strips:[['LÝ THÁNH TÔNG · ĐẠI VIỆT',true,40,540,1175,-2,3,'Lý',5.6],['MỐC NÀY CÒN BÀN LUẬN',false,40,540,1245,2,3,'Mốc',9.6]]});
+ strips:[['LÝ THÁNH TÔNG · ĐẠI VIỆT',true,40,540,1180,-2,3,'Lý',5.6],['MỐC NÀY CÒN BÀN LUẬN',false,40,540,1264,2,3,'Mốc',9.6]]});
 // S4 (4): 1400 Đại Ngu, thành nhà Hồ
 mscene(4,4,{v0:WV0,v1:[108.9,19.4,125],seed:4,stamp:['1400',300,330,130,4,'nghìn',1.8],
  pins:[pinD(HO,4,'Hồ',3.0,24,34,'#e5483f','start')],inset:{k:'tay',mw:330,mh:260,x:820,y:450,rot:-4,n:4,w:'Hồ',fb:3.0,seed:4,zoom:.2},
- strips:[['HỒ QUÝ LY LÊN NGÔI',false,40,540,1245,2,4,'Hồ',3.0],['ĐẠI NGU',true,60,540,1175,-2,4,'Ngu',8.0]]});
+ strips:[['HỒ QUÝ LY LÊN NGÔI',false,40,540,1264,2,4,'Hồ',3.0],['ĐẠI NGU',true,60,540,1180,-2,4,'Ngu',8.0]]});
 // S5-6 (5,6): 1802 Gia Long, sứ giả Lê Quang Định đi xin Nam Việt
-mscene(5,6,{v0:[108.6,18.8,120],v1:WV,seed:5,stamp:['1802',300,330,130,5,'nghìn',3.2],
+mscene(5,6,{v0:[108.6,18.8,120],v1:WV,seed:5,stamp:['1802',300,400,130,5,'nghìn',3.2],
  pins:[pinD(HUE,5,'Gia',5.6,-24,8,'#e5483f','end')],
  path:{pts:[[107.58,16.46],[107.0,16.9],[106.5,17.6],[105.8,18.3],[105.3,19.2],[105.3,20.3],[105.2,21.2],[105.0,22.2],[104.8,23.2]],n:6,w:'Lê',fb:1.5,dur:7.0,col:'#3a7bd5',label:'LÊ QUANG ĐỊNH',ly:-96},
- strips:[['GIA LONG',false,52,540,1175,-2,5,'Gia',5.6],['XIN QUỐC HIỆU: NAM VIỆT',true,40,540,1245,2,6,'Nam',11.0],['NHÀ THANH ↑ (RẤT XA, PHÍA BẮC)',false,28,540,300,0,6,'Thanh',5.0]]});
+ strips:[['GIA LONG',false,52,540,1180,-2,5,'Gia',5.6],['XIN QUỐC HIỆU: NAM VIỆT',true,40,540,1264,2,6,'Nam',11.0],['NHÀ THANH ↑ (RẤT XA, PHÍA BẮC)',false,28,540,275,0,6,'Thanh',5.0]]});
 // S7 (7): Gia Khánh không chấp nhận
-mscene(7,7,{v0:WV,v1:[109.0,19.4,115],seed:7,stamp:['KHÔNG CHẤP NHẬN',540,330,58,7,'không',2.8],
- strips:[['GIA KHÁNH · NHÀ THANH',false,38,540,1175,-2,7,'Gia',1.0],['"BAO TRÙM QUÁ RỘNG"',true,40,540,1245,2,7,'bao',6.2],['NGHI ĐÒI ĐẤT',true,44,540,300,-2,7,'đòi',11.4]]});
+mscene(7,7,{v0:WV,v1:[109.0,19.4,115],seed:7,stamp:['KHÔNG CHẤP NHẬN',540,420,58,7,'không',2.8],
+ strips:[['GIA KHÁNH · NHÀ THANH',false,38,540,1180,-2,7,'Gia',1.0],['"BAO TRÙM QUÁ RỘNG"',true,40,540,1264,2,7,'bao',6.2],['NGHI ĐÒI ĐẤT',true,44,540,275,-2,7,'đòi',11.4]]});
 // S8 (8): Nam Việt cổ thời Triệu
-mscene(8,8,{v0:[109.5,20.5,100],v1:[109.5,20.5,90],seed:8,
+mscene(8,8,{v0:[109.5,19.8,100],v1:[109.5,19.8,90],seed:8,
  pins:[['Quảng Đông',113.26,23.13,8,'Quảng',26,'end',3.0,'#e5483f',-24,8],['Quảng Tây',108.37,22.82,8,'Tây',26,'start',7.0,'#e5483f',22,-20]],
- strips:[['NAM VIỆT CỔ · NHÀ TRIỆU',true,38,540,1175,-2,8,'Nam',0.6],['QUẢNG ĐÔNG, QUẢNG TÂY (MINH HỌA)',false,28,540,1245,2,8,'đất',6.0]]});
+ strips:[['NAM VIỆT CỔ · NHÀ TRIỆU',true,38,540,1180,-2,8,'Nam',0.6],['QUẢNG ĐÔNG, QUẢNG TÂY (MINH HỌA)',false,28,540,1264,2,8,'đất',6.0]]});
 // S9 (9): đổi thứ tự hai chữ, 1803
 mscene(9,9,{v0:WV,v1:[109.0,18.9,115],seed:9,stamp:['1803',300,330,120,9,'năm',9.0],
- strips:[['NAM VIỆT  →  VIỆT NAM',true,48,540,1175,-2,9,'đổi',4.0],['NHÀ THANH CHẤP THUẬN',false,38,540,1245,2,9,'chấp',8.2]]});
+ strips:[['NAM VIỆT  →  VIỆT NAM',true,48,540,1180,-2,9,'đổi',4.0],['NHÀ THANH CHẤP THUẬN',false,38,540,1264,2,9,'chấp',8.2]]});
 
 // S10 (10): 1804, sắc phong và ấn, công bố Việt Nam
 scene(R(10)-.2,E(10),g=>{const c=card('seal',IMG+'seal.jpg',700,610,10);const st=stamp('1804',130);const a=strip('VIỆT NAM',true,64,31);const b=strip('SẮC PHONG VÀ ẤN',false,40,32);const n=strip('ẤN TRIỀU NGUYỄN (TƯ LIỆU)',false,24,33);const rg=ring(c.top,0,0,200,'#e5483f');
@@ -148,8 +148,8 @@ scene(R(10)-.2,E(10),g=>{const c=card('seal',IMG+'seal.jpg',700,610,10);const st
 mscene(11,11,{v0:WV,v1:[109.0,18.9,112],seed:11,
  strips:[['THƠ VĂN · VĂN BIA',false,48,540,1175,-2,11,'thơ',3.4],['ĐÃ DÙNG TỪ TRƯỚC',false,44,540,1245,2,11,'đã',2.4],['NHƯNG CHỈ LÀ CÁCH GỌI',true,40,540,300,-2,11,'chỉ',9.0],['CHƯA PHẢI QUỐC HIỆU',true,40,540,370,2,11,'chưa',12.0]]});
 // S12-13 (12,13): 1838 Minh Mạng đổi Đại Nam
-scene(R(12)-.2,E(13),g=>{const c=card('taberd',IMG+'taberd.jpg',640,950,12);const st=stamp('1838',130);const a=strip('ĐẠI NAM',true,64,34);const b=strip('MINH MẠNG BAN CHIẾU',false,40,35);const q=strip('"TRƯỚC: VIỆT NAM · NAY: ĐẠI NAM"',true,30,36);const n=strip('BẢN ĐỒ NĂM 1838 (TABERD)',false,24,37);const hsn=strip('QUẦN ĐẢO HOÀNG SA (VIỆT NAM) Ở PHÍA ĐÔNG →',false,24,47);const tsn2=strip(TSS,false,24,48);
- return{upd:(t)=>{const e=inn(t,R(12)-.2,.6);c.at(540,610,1.5,1,e);c.zoom(1+.9*inn(t,R(12),9),.52,.55);sh(st,t,300,300,-6,PV(t,12,'nghìn',1.8,0,.35));sh(b,t,540,1245,2,PV(t,12,'Minh',5.0));sh(a,t,540,1175,-2,PV(t,12,'Đại',8.0));sh(q,t,540,1315,0,PV(t,13,'trước',1.2));sh(n,t,540,950,0,inn(t,R(12)+1.0,.5));sh(hsn,t,540,1000,0,e);sh(tsn2,t,540,1050,0,e)}}});
+scene(R(12)-.2,E(13),g=>{const c=card('taberd',IMG+'taberd.jpg',600,890,12);const st=stamp('1838',130);const a=strip('ĐẠI NAM',true,64,34);const b=strip('MINH MẠNG BAN CHIẾU',false,40,35);const q=strip('"TRƯỚC: VIỆT NAM · NAY: ĐẠI NAM"',true,30,36);const n=strip('BẢN ĐỒ NĂM 1838 (TABERD)',false,24,37);const hsn=strip('QUẦN ĐẢO HOÀNG SA (VIỆT NAM) Ở PHÍA ĐÔNG →',false,24,47);const tsn2=strip(TSS,false,24,48);
+ return{upd:(t)=>{const e=inn(t,R(12)-.2,.6);c.at(540,640,1.5,1,e);c.zoom(1+.9*inn(t,R(12),9),.52,.55);sh(st,t,300,330,-6,PV(t,12,'nghìn',1.8,0,.35));sh(b,t,540,1255,2,PV(t,12,'Minh',5.0));sh(a,t,540,1180,-2,PV(t,12,'Đại',8.0));sh(q,t,540,1335,0,PV(t,13,'trước',1.2));sh(n,t,540,950,0,inn(t,R(12)+1.0,.5));sh(hsn,t,540,1000,0,e);sh(tsn2,t,540,1050,0,e)}}});
 // S14 (14): hai tên dùng song song
 mscene(14,14,{v0:WV,v1:[109.0,18.9,115],seed:14,pins:[['Huế',107.58,16.46,14,'Hai',26,'end',5.0,'#e5483f',-24,8]],
  strips:[['ĐẠI NAM',true,56,540,1175,-2,14,'Đại',5.2],['VIỆT NAM',false,56,540,1245,2,14,'Việt',7.2],['DÙNG SONG SONG',false,36,540,300,0,14,'song',9.0]]});

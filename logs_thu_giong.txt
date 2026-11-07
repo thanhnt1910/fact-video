@@ -15,47 +15,11 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 16 câu
+   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-07 09:58:42
+còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 56001-56001: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:58:42
-OK cụm 56001 - 56001 6.6 giây
-   [giọng] nhóm 56002-56002: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:58:46
-OK cụm 56002 - 56002 7.0 giây
-   [giọng] nhóm 56003-56003: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:58:49
-OK cụm 56003 - 56003 8.0 giây
-   [giọng] nhóm 56004-56004: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:58:53
-OK cụm 56004 - 56004 5.1 giây
-   [giọng] nhóm 56005-56005: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:58:56
-OK cụm 56005 - 56005 6.5 giây
-   [giọng] nhóm 56006-56006: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:00
-OK cụm 56006 - 56006 7.0 giây
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 58s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 56007-56007: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:05
-OK cụm 56007 - 56007 9.0 giây
-   [giọng] nhóm 56008-56008: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:09
-OK cụm 56008 - 56008 9.3 giây
-   [giọng] nhóm 56009-56009: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:12
-OK cụm 56009 - 56009 7.0 giây
-   [giọng] nhóm 56010-56010: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:16
-OK cụm 56010 - 56010 8.0 giây
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 42s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 56011-56011: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:21
-OK cụm 56011 - 56011 8.1 giây
-   [giọng] nhóm 56012-56012: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:25
-OK cụm 56012 - 56012 5.4 giây
-   [giọng] nhóm 56013-56013: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:29
-OK cụm 56013 - 56013 5.8 giây
-   [giọng] nhóm 56014-56014: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:34
-OK cụm 56014 - 56014 8.4 giây
-   [giọng] nhóm 56015-56015: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:38
-OK cụm 56015 - 56015 8.5 giây
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …2eGQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 21s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 56016-56016: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 09:59:41
-OK cụm 56016 - 56016 2.0 giây
+   [giọng] nhóm 56002-56002: model=gemini-3.8-flash-tts (interactions) voice=Puck style=c0565b4d/C dự_phòng=False lúc 2026-11-07 10:10:14
+OK cụm 56002 - 56002 7.3 giây
 [báo cáo giọng] 16/16 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions

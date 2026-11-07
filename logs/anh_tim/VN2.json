@@ -1,515 +1,240 @@
 [
  {
   "slot": "S1",
-  "beats": "3",
-  "mo_ta": "Đồng peso bạc Tây Ban Nha (8 reales)",
+  "beats": "1-2",
+  "mo_ta": "Từ điển Annam–Lusitan–Latinh của Rhodes (1651), trang bìa hoặc trang trong",
   "candidates": [
    {
     "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Spanish_Silver_8_Reales_Coin_Pieces.jpg/1920px-Spanish_Silver_8_Reales_Coin_Pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2750,
-    "h": 2688,
-    "credit": "\"Spanish Silver 8 Reales Coin Pieces.jpg\" – Mexico City Mint, Public domain (https://commons.wikimedia.org/wiki/File:Spanish_Silver_8_Reales_Coin_Pieces.jpg)",
-    "text": "File:Spanish Silver 8 Reales Coin Pieces.jpg Spanish silver 8 reales coin cut into six pieces. Pieces are from at least two separate coins, possibly more.Title: Spanish Silver 8 Reales Coin Pieces"
-   },
-   {
-    "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/8_reales%2C_Spanish_coins%2C_King_Charles_IV%2C_left_1807_from_the_Mexico_City_mint%2C_right_1793_from_the_Potosi_Mint_in_Bolivia%2C_silver_-_Winterthur_Museum_-_DSC01592.JPG/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2979,
-    "h": 2203,
-    "credit": "\"8 reales, Spanish coins, King Charles IV, left 1807 from the Mexico City mint, right 1793 from the Potosi Mint in Bolivia, silver - Winterthur Museum - DSC01592.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:8_reales,_Spanish_coins,_King_Charles_IV,_left_1807_from_the_Mexico_City_mint,_right_1793_from_the_Potosi_Mint_in_Bolivia,_silver_-_Winterthur_Museum_-_DSC01592.JPG)",
-    "text": "File:8 reales, Spanish coins, King Charles IV, left 1807 from the Mexico City mint, right 1793 from the Potosi Mint in Bolivia, silver - Winterthur Museum - DSC01592.JPG Exhibit in the Winterthur Muse"
-   },
-   {
-    "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Post-medieval_coin_hoard%2C_Coin_1%2C_Cromford_dollar_%28FindID_808673%29.jpg/1920px-Post-medieval_coin_hoard%2C_Coin_1%2C_Cromford_dollar_%28FindID_808673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5213,
-    "h": 2827,
-    "credit": "\"Post-medieval coin hoard, Coin 1, Cromford dollar (FindID 808673).jpg\" – Derby Museums Trust, Alastair Willis, 2016-10-14 10:57:43, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Post-medieval_coin_hoard,_Coin_1,_Cromford_dollar_(FindID_808673).jpg)",
-    "text": "File:Post-medieval coin hoard, Coin 1, Cromford dollar (FindID 808673).jpg A post-medieval coin hoard of three countermarked silver Spanish 8 Reales (\"dollars\") and four silver shillings.\n1: Silver Sp"
-   },
-   {
-    "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Post-medieval_coin_hoard%2C_Coin_2%2C_Cromford_dollar_%28FindID_808673%29.jpg/1920px-Post-medieval_coin_hoard%2C_Coin_2%2C_Cromford_dollar_%28FindID_808673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5099,
-    "h": 2878,
-    "credit": "\"Post-medieval coin hoard, Coin 2, Cromford dollar (FindID 808673).jpg\" – Derby Museums Trust, Alastair Willis, 2016-10-14 10:57:49, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Post-medieval_coin_hoard,_Coin_2,_Cromford_dollar_(FindID_808673).jpg)",
-    "text": "File:Post-medieval coin hoard, Coin 2, Cromford dollar (FindID 808673).jpg A post-medieval coin hoard of three countermarked silver Spanish 8 Reales (\"dollars\") and four silver shillings.\n2: Silver Sp"
-   },
-   {
-    "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Post-medieval_coin_hoard%2C_Coin_3%2C_Cromford_dollar_%28FindID_808673%29.jpg/1920px-Post-medieval_coin_hoard%2C_Coin_3%2C_Cromford_dollar_%28FindID_808673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4999,
-    "h": 2847,
-    "credit": "\"Post-medieval coin hoard, Coin 3, Cromford dollar (FindID 808673).jpg\" – Derby Museums Trust, Alastair Willis, 2016-10-14 10:57:56, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Post-medieval_coin_hoard,_Coin_3,_Cromford_dollar_(FindID_808673).jpg)",
-    "text": "File:Post-medieval coin hoard, Coin 3, Cromford dollar (FindID 808673).jpg A post-medieval coin hoard of three countermarked silver Spanish 8 Reales (\"dollars\") and four silver shillings.\n3: Silver Sp"
-   },
-   {
-    "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Post-medieval_coin_hoard%2C_Coin_3%2C_Cromford_dollar_%28FindID_808673%29_%28cropped%29.jpg/1920px-Post-medieval_coin_hoard%2C_Coin_3%2C_Cromford_dollar_%28FindID_808673%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2078,
-    "h": 2076,
-    "credit": "\"Post-medieval coin hoard, Coin 3, Cromford dollar (FindID 808673) (cropped).jpg\" – Derby Museums Trust, Alastair Willis, 2016-10-14 10:57:56, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Post-medieval_coin_hoard,_Coin_3,_Cromford_dollar_(FindID_808673)_(cropped).jpg)",
-    "text": "File:Post-medieval coin hoard, Coin 3, Cromford dollar (FindID 808673) (cropped).jpg A post-medieval coin hoard of three countermarked silver Spanish 8 Reales (\"dollars\") and four silver shillings.\n3:"
-   },
-   {
-    "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Post_medieval_coin%2C_Cut_piece_%28approximately_half%29_of_a_silver_plated_forgery_of_a_dollar_%288_reals%29_of_Charles_IV_of_Spain_%28FindID_897619%29.jpg/1920px-Post_medieval_coin%2C_Cut_piece_%28approximately_half%29_of_a_silver_plated_forgery_of_a_dollar_%288_reals%29_of_Charles_IV_of_Spain_%28FindID_897619%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3648,
-    "h": 2736,
-    "credit": "\"Post medieval coin, Cut piece (approximately half) of a silver plated forgery of a dollar (8 reals) of Charles IV of Spain (FindID 897619).jpg\" – The Portable Antiquities Scheme, Adrian Marsden, 2018-04-16 15:47:54, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Post_medieval_coin,_Cut_piece_(approximately_half)_of_a_silver_plated_forgery_of_a_dollar_(8_reals)_of_Charles_IV_of_Spain_(FindID_897619).jpg)",
-    "text": "File:Post medieval coin, Cut piece (approximately half) of a silver plated forgery of a dollar (8 reals) of Charles IV of Spain (FindID 897619).jpg Cut piece (approximately half) of a silver plated fo"
-   },
-   {
-    "so": 7,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/1789_Charles_IV_Spanish_dollar_countermarked_with_Chinese_words_meaning_%22Singapore%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1268,
-    "h": 1201,
-    "credit": "\"1789 Charles IV Spanish dollar countermarked with Chinese words meaning \"Singapore\".jpg\" – Alejo Maria., Public domain (https://commons.wikimedia.org/wiki/File:1789_Charles_IV_Spanish_dollar_countermarked_with_Chinese_words_meaning_%22Singapore%22.jpg)",
-    "text": "File:1789 Charles IV Spanish dollar countermarked with Chinese words meaning \"Singapore\".jpg A 1789 silver Spanish dollar, or eight-real, coin of Charles IV of Spain countermarked with the Chinese wor"
-   },
-   {
-    "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Holey_Dollar%2C_1783_C_455_01.jpg/1920px-Holey_Dollar%2C_1783_C_455_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3500,
-    "h": 3447,
-    "credit": "\"Holey Dollar, 1783 C 455 01.jpg\" – Administration of New South Wales, Australia, Public domain (https://commons.wikimedia.org/wiki/File:Holey_Dollar,_1783_C_455_01.jpg)",
-    "text": "File:Holey Dollar, 1783 C 455 01.jpg Holey Dollar, 1783 Spanish Dollar converted to a five shilling coin, Administration of New South Wales, stamped 1813, circulated 1814, State Library of New South W"
-   },
-   {
-    "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Spanish_dollar_1776.JPG/1920px-Spanish_dollar_1776.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2127,
-    "h": 1428,
-    "credit": "\"Spanish dollar 1776.JPG\" – Hispalois, Public domain (https://commons.wikimedia.org/wiki/File:Spanish_dollar_1776.JPG)",
-    "text": "File:Spanish dollar 1776.JPG A \"Continental\" bill of four Spanish dollars issued by the U.S. Continental Congress in 1776. Archivo General de Indias, Seville, Spain."
-   },
-   {
-    "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Holey_Dollar%2C_New_South_Wales%2C_1813_02.jpg/1920px-Holey_Dollar%2C_New_South_Wales%2C_1813_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3500,
-    "h": 3484,
-    "credit": "\"Holey Dollar, New South Wales, 1813 02.jpg\" – Administration of New South Wales, Australia, Public domain (https://commons.wikimedia.org/wiki/File:Holey_Dollar,_New_South_Wales,_1813_02.jpg)",
-    "text": "File:Holey Dollar, New South Wales, 1813 02.jpg Holey Dollar, 1783 Spanish Dollar converted to a five shilling coin, Administration of New South Wales, stamped 1813, circulated 1814, State Library of "
-   },
-   {
-    "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771.jpg/1920px-Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2948,
-    "h": 1479,
-    "credit": "\"Mexico Carlos III Pillar Dollar of 8 Reales 1771.jpg\" – Kingdom of Spain (for Mexico) (coin), Heritage Auctions (image), Public domain (https://commons.wikimedia.org/wiki/File:Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771.jpg)",
-    "text": "File:Mexico Carlos III Pillar Dollar of 8 Reales 1771.jpg Mexico Carlos III Pillar Dollar of 8 Reales 1771(231422-64179)"
-   },
-   {
-    "so": 12,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771_%28rev%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1485,
-    "h": 1479,
-    "credit": "\"Mexico Carlos III Pillar Dollar of 8 Reales 1771 (rev).jpg\" – Kingdom of Spain (for Mexico) (coin), Heritage Auctions (image), Public domain (https://commons.wikimedia.org/wiki/File:Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771_(rev).jpg)",
-    "text": "File:Mexico Carlos III Pillar Dollar of 8 Reales 1771 (rev).jpg Mexico Carlos III Pillar Dollar of 8 Reales 1771 (rev)(231422-64179)"
-   },
-   {
-    "so": 13,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771_%28obv%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1485,
-    "h": 1479,
-    "credit": "\"Mexico Carlos III Pillar Dollar of 8 Reales 1771 (obv).jpg\" – Kingdom of Spain (for Mexico) (coin), Heritage Auctions (image), Public domain (https://commons.wikimedia.org/wiki/File:Mexico_Carlos_III_Pillar_Dollar_of_8_Reales_1771_(obv).jpg)",
-    "text": "File:Mexico Carlos III Pillar Dollar of 8 Reales 1771 (obv).jpg Mexico Carlos III Pillar Dollar of 8 Reales 1771 (obv)(231422-64179)"
-   },
-   {
-    "so": 14,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/1796_Spanish_Colonial_8_Reales_%2825575356177%29.jpg/1920px-1796_Spanish_Colonial_8_Reales_%2825575356177%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5317,
-    "h": 2654,
-    "credit": "\"1796 Spanish Colonial 8 Reales (25575356177).jpg\" – Joe deSousa, CC0 (https://commons.wikimedia.org/wiki/File:1796_Spanish_Colonial_8_Reales_(25575356177).jpg)",
-    "text": "File:1796 Spanish Colonial 8 Reales (25575356177).jpg This is one of the famous \"pieces of eight\" of pirate lore, that were widely circulated in the Americas and Asia. The M with the small o above it "
-   },
-   {
-    "so": 15,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Post_Medieval_coin%2C_counterfeit_counterstamped_8_reales_of_Charles_IV_of_Spain_%28FindID_1030263%29.jpg/1920px-Post_Medieval_coin%2C_counterfeit_counterstamped_8_reales_of_Charles_IV_of_Spain_%28FindID_1030263%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4836,
-    "h": 3455,
-    "credit": "\"Post Medieval coin, counterfeit counterstamped 8 reales of Charles IV of Spain (FindID 1030263).jpg\" – The Portable Antiquities Scheme, George Whatley, 2021-06-29 11:26:31, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Post_Medieval_coin,_counterfeit_counterstamped_8_reales_of_Charles_IV_of_Spain_(FindID_1030263).jpg)",
-    "text": "File:Post Medieval coin, counterfeit counterstamped 8 reales of Charles IV of Spain (FindID 1030263).jpg A silver-plated copper alloy contemporary copy of a counterstamped Spanish Colonial (Mexico) 8 "
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dictionarium_Annamiticum_Lusitanum_et_Latinum%2C_Propaganda_Fide_seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1404,
+    "h": 1414,
+    "credit": "\"Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png\" – Dictionarium Annamiticum Lusitanum et Latinum (low-resolution).pdf: Alexandre de Rhodes\nderivative work: Minh Nguyễn (talk, contribs), Public domain (https://commons.wikimedia.org/wiki/File:Dictionarium_Annamiticum_Lusitanum_et_Latinum,_Propaganda_Fide_seal.png)",
+    "text": "File:Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png Seal of the Sacred Congregation for the Propagation of the Faith on the title page of Alexandre de Rhodes' Dictionarium Ann"
    }
   ]
  },
  {
   "slot": "S2",
-  "beats": "4-5",
-  "mo_ta": "Sổ sách thương nhân thế kỷ 18, chữ viết tay",
+  "beats": "3-4",
+  "mo_ta": "Hội An (Faifo) thế kỷ 17, bản đồ hoặc tranh",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Kearsly%27s_gentleman_and_tradesman%27s_pocket_ledger_Fleuron_N039453-10.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 768,
-    "h": 1796,
-    "credit": "\"Kearsly's gentleman and tradesman's pocket ledger Fleuron N039453-10.png\" – Kearsley, George, Public domain (https://commons.wikimedia.org/wiki/File:Kearsly%27s_gentleman_and_tradesman%27s_pocket_ledger_Fleuron_N039453-10.png)",
-    "text": "File:Kearsly's gentleman and tradesman's pocket ledger Fleuron N039453-10.png Fleuron from book:\nKearsly's gentleman and tradesman's pocket ledger, for the year 1781: Containing A much greater number "
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2024-12-20_Japanese_Bridge_in_Hoi_An.jpg/1920px-2024-12-20_Japanese_Bridge_in_Hoi_An.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5038,
+    "h": 3359,
+    "credit": "\"2024-12-20 Japanese Bridge in Hoi An.jpg\" – Alexkom000, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:2024-12-20_Japanese_Bridge_in_Hoi_An.jpg)",
+    "text": "File:2024-12-20 Japanese Bridge in Hoi An.jpg Japanese Bridge in Hoi An"
    },
    {
     "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kearsley%27s_gentleman_and_tradesman%27s_pocket_ledger%2C_for_the_year_1785_Fleuron_N039461-20.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1143,
-    "h": 745,
-    "credit": "\"Kearsley's gentleman and tradesman's pocket ledger, for the year 1785 Fleuron N039461-20.png\" – Kearsley, George, Public domain (https://commons.wikimedia.org/wiki/File:Kearsley%27s_gentleman_and_tradesman%27s_pocket_ledger,_for_the_year_1785_Fleuron_N039461-20.png)",
-    "text": "File:Kearsley's gentleman and tradesman's pocket ledger, for the year 1785 Fleuron N039461-20.png Fleuron from book:\nKearsley's gentleman and tradesman's pocket ledger, for the year 1785. Containing F"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Japanese_Covered_Bridge%2C_Hoi_An_Old_Town%2C_Vietnam_%282594745171%29.jpg/1920px-Japanese_Covered_Bridge%2C_Hoi_An_Old_Town%2C_Vietnam_%282594745171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2304,
+    "h": 3072,
+    "credit": "\"Japanese Covered Bridge, Hoi An Old Town, Vietnam (2594745171).jpg\" – yeowatzup, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An_Old_Town,_Vietnam_(2594745171).jpg)",
+    "text": "File:Japanese Covered Bridge, Hoi An Old Town, Vietnam (2594745171).jpg Japanese Covered Bridge, Hoi An Old Town, Vietnam"
    },
    {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/An_essay_towards_a_topographical_history_of_the_county_of_Norfolk_Fleuron_T125740-6.png/1920px-An_essay_towards_a_topographical_history_of_the_county_of_Norfolk_Fleuron_T125740-6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2029,
-    "h": 1406,
-    "credit": "\"An essay towards a topographical history of the county of Norfolk Fleuron T125740-6.png\" – Blomefield, Francis; Parkin, Charles, Public domain (https://commons.wikimedia.org/wiki/File:An_essay_towards_a_topographical_history_of_the_county_of_Norfolk_Fleuron_T125740-6.png)",
-    "text": "File:An essay towards a topographical history of the county of Norfolk Fleuron T125740-6.png Fleuron from book:\nAn essay towards a topographical history of the county of Norfolk, containing a descript"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%286944572074%29.jpg/1920px-Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%286944572074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1806,
+    "credit": "\"Japanese Covered Bridge, Hoi An, Vietnam (6944572074).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(6944572074).jpg)",
+    "text": "File:Japanese Covered Bridge, Hoi An, Vietnam (6944572074).jpg The <a href=\"http://hoian-tourism.com/the-heritage/architecture/japanese-covered-bridge-the-symbol-of-hoi-an\" rel=\"nofollow\">Japanese Cov"
    },
    {
     "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/An_essay_towards_a_topographical_history_of_the_county_of_Norfolk_Fleuron_T125740-14.png/1920px-An_essay_towards_a_topographical_history_of_the_county_of_Norfolk_Fleuron_T125740-14.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2810,
-    "h": 968,
-    "credit": "\"An essay towards a topographical history of the county of Norfolk Fleuron T125740-14.png\" – Blomefield, Francis; Parkin, Charles, Public domain (https://commons.wikimedia.org/wiki/File:An_essay_towards_a_topographical_history_of_the_county_of_Norfolk_Fleuron_T125740-14.png)",
-    "text": "File:An essay towards a topographical history of the county of Norfolk Fleuron T125740-14.png Fleuron from book:\nAn essay towards a topographical history of the county of Norfolk, containing a descrip"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%287090633807%29.jpg/1920px-Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%287090633807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1806,
+    "credit": "\"Japanese Covered Bridge, Hoi An, Vietnam (7090633807).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(7090633807).jpg)",
+    "text": "File:Japanese Covered Bridge, Hoi An, Vietnam (7090633807).jpg The <a href=\"http://hoian-tourism.com/the-heritage/architecture/japanese-covered-bridge-the-symbol-of-hoi-an\" rel=\"nofollow\">Japanese Cov"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%286944563878%29.jpg/1920px-Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%286944563878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1809,
+    "credit": "\"Japanese Covered Bridge, Hoi An, Vietnam (6944563878).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(6944563878).jpg)",
+    "text": "File:Japanese Covered Bridge, Hoi An, Vietnam (6944563878).jpg The <a href=\"http://hoian-tourism.com/the-heritage/architecture/japanese-covered-bridge-the-symbol-of-hoi-an\" rel=\"noreferrer nofollow\">J"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%286944565326%29.jpg/1920px-Japanese_Covered_Bridge%2C_Hoi_An%2C_Vietnam_%286944565326%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3219,
+    "h": 1809,
+    "credit": "\"Japanese Covered Bridge, Hoi An, Vietnam (6944565326).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge,_Hoi_An,_Vietnam_(6944565326).jpg)",
+    "text": "File:Japanese Covered Bridge, Hoi An, Vietnam (6944565326).jpg 来遠橋。ホイアン。"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Origami_at_Japanese_Cultural_Centre%2C_Hoi_An.jpg/1920px-Origami_at_Japanese_Cultural_Centre%2C_Hoi_An.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2268,
+    "h": 4032,
+    "credit": "\"Origami at Japanese Cultural Centre, Hoi An.jpg\" – SerChevalerie, CC0 (https://commons.wikimedia.org/wiki/File:Origami_at_Japanese_Cultural_Centre,_Hoi_An.jpg)",
+    "text": "File:Origami at Japanese Cultural Centre, Hoi An.jpg Origami at Japanese Cultural Centre, Hoi An, located near the Japanese Bridge"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Japanese_Covered_Bridge_%28Cau_Chua_Pagoda%29%2C_Hoi_An%2C_Vietnam_%287090643937%29.jpg/1920px-Japanese_Covered_Bridge_%28Cau_Chua_Pagoda%29%2C_Hoi_An%2C_Vietnam_%287090643937%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1809,
+    "credit": "\"Japanese Covered Bridge (Cau Chua Pagoda), Hoi An, Vietnam (7090643937).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Japanese_Covered_Bridge_(Cau_Chua_Pagoda),_Hoi_An,_Vietnam_(7090643937).jpg)",
+    "text": "File:Japanese Covered Bridge (Cau Chua Pagoda), Hoi An, Vietnam (7090643937).jpg 来遠橋。ホイアン。"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hoi_An_town%2C_Vietnam_%287090640721%29.jpg/1920px-Hoi_An_town%2C_Vietnam_%287090640721%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1809,
+    "credit": "\"Hoi An town, Vietnam (7090640721).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_town,_Vietnam_(7090640721).jpg)",
+    "text": "File:Hoi An town, Vietnam (7090640721).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian trading p"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hoi_An_Ancient_Town%2C_Vietnam_%286944580888%29.jpg/1920px-Hoi_An_Ancient_Town%2C_Vietnam_%286944580888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3219,
+    "h": 1809,
+    "credit": "\"Hoi An Ancient Town, Vietnam (6944580888).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_Town,_Vietnam_(6944580888).jpg)",
+    "text": "File:Hoi An Ancient Town, Vietnam (6944580888).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian t"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hoi_An_Ancient_Town%2C_Vietnam_%287090645195%29.jpg/1920px-Hoi_An_Ancient_Town%2C_Vietnam_%287090645195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1806,
+    "credit": "\"Hoi An Ancient Town, Vietnam (7090645195).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_Town,_Vietnam_(7090645195).jpg)",
+    "text": "File:Hoi An Ancient Town, Vietnam (7090645195).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian t"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Hoi_An_Ancient_Town%2C_Vietnam_%287090650319%29.jpg/1920px-Hoi_An_Ancient_Town%2C_Vietnam_%287090650319%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1806,
+    "credit": "\"Hoi An Ancient Town, Vietnam (7090650319).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_Town,_Vietnam_(7090650319).jpg)",
+    "text": "File:Hoi An Ancient Town, Vietnam (7090650319).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian t"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Hoi_An_Ancient_Town%2C_Vietnam_%287090638613%29.jpg/1920px-Hoi_An_Ancient_Town%2C_Vietnam_%287090638613%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1806,
+    "credit": "\"Hoi An Ancient Town, Vietnam (7090638613).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_Town,_Vietnam_(7090638613).jpg)",
+    "text": "File:Hoi An Ancient Town, Vietnam (7090638613).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian t"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hoi_An_Ancient_Town%2C_Vietnam_%287090653523%29.jpg/1920px-Hoi_An_Ancient_Town%2C_Vietnam_%287090653523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3219,
+    "h": 1809,
+    "credit": "\"Hoi An Ancient Town, Vietnam (7090653523).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_Town,_Vietnam_(7090653523).jpg)",
+    "text": "File:Hoi An Ancient Town, Vietnam (7090653523).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian t"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Hoi_An_Ancient_Town%2C_Vietnam_%287090647733%29.jpg/1920px-Hoi_An_Ancient_Town%2C_Vietnam_%287090647733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3216,
+    "h": 1806,
+    "credit": "\"Hoi An Ancient Town, Vietnam (7090647733).jpg\" – David McKelvey from Brisbane, Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_Town,_Vietnam_(7090647733).jpg)",
+    "text": "File:Hoi An Ancient Town, Vietnam (7090647733).jpg <a href=\"http://whc.unesco.org/en/list/948\" rel=\"nofollow\">Hoi An Ancient Town</a> is an exceptionally well-preserved example of a South-East Asian t"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/A_final_look_at_the_fascinating_Japanese_Bridge_%2831654247472%29.jpg/1920px-A_final_look_at_the_fascinating_Japanese_Bridge_%2831654247472%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 6000,
+    "h": 4000,
+    "credit": "\"A final look at the fascinating Japanese Bridge (31654247472).jpg\" – shankar s. from Dubai, united arab emirates, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:A_final_look_at_the_fascinating_Japanese_Bridge_(31654247472).jpg)",
+    "text": "File:A final look at the fascinating Japanese Bridge (31654247472).jpg Back outside, here is a final look at the Japanese Covered Bridge in the Hoi An old quarter before we move on. It is hard to beli"
    }
   ]
  },
  {
   "slot": "S3",
-  "beats": "6-7",
-  "mo_ta": "Thư tay Oliver Pollock hoặc dấu $ viết tay",
-  "candidates": [
-   {
-    "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Dollar_sign_in_letter_from_1778_by_Oliver_Pollock_to_George_Roger_Clark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1260,
-    "h": 758,
-    "credit": "\"Dollar sign in letter from 1778 by Oliver Pollock to George Roger Clark.jpg\" – Oliver Pollock, reproduced by Florian Cajori, Public domain (https://commons.wikimedia.org/wiki/File:Dollar_sign_in_letter_from_1778_by_Oliver_Pollock_to_George_Roger_Clark.jpg)",
-    "text": "File:Dollar sign in letter from 1778 by Oliver Pollock to George Roger Clark.jpg Dollar sign (or precursor of dollar sign) in Letter from New Orleans on Sept. 12, 1778, by Oliver Pollock to George Rog"
-   },
-   {
-    "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/%D0%9A%D0%9F347-1-1-%D0%9E%D0%B1%D0%BB%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F_III_%D1%81%D0%B5%D1%80%D0%B8%D0%B8_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B9%D0%BC%D0%B0_%D0%BD%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%BE%D0%BC_5_%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%BE%D0%B2_front.png/1920px-%D0%9A%D0%9F347-1-1-%D0%9E%D0%B1%D0%BB%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F_III_%D1%81%D0%B5%D1%80%D0%B8%D0%B8_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B9%D0%BC%D0%B0_%D0%BD%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%BE%D0%BC_5_%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%BE%D0%B2_front.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3000,
-    "h": 2036,
-    "credit": "\"КП347-1-1-Облигация III серии премиального займа номиналом 5 долларов front.png\" – Republic of Poland, Ministry of the Treasury; printed by Polska Wytwórnia Papierów Wartościowych, Warsaw. Digital reproduction: Museum of the National Bank of the Republic of Belarus., Public domain (https://commons.wikimedia.org/wiki/File:%D0%9A%D0%9F347-1-1-%D0%9E%D0%B1%D0%BB%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F_III_%D1%81%D0%B5%D1%80%D0%B8%D0%B8_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B9%D0%BC%D0%B0_%D0%BD%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%BE%D0%BC_5_%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%BE%D0%B2_front.png)",
-    "text": "File:КП347-1-1-Облигация III серии премиального займа номиналом 5 долларов front.png Republic of Poland, third-series 5-dollar premium-loan bond, no. 0698662. The face value is also stated as 44.57 zł"
-   },
-   {
-    "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D1%83_%D0%B2_4_%D1%80%D1%83%D0%B1%D0%BB%D1%8F_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB_100_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8A%D1%8F%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_back.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2990,
-    "h": 4230,
-    "credit": "\"Свидетельство на Государственную ренту в 4 рубля годового дохода на капитал 100 рублей на предъявителя back.jpg\" – Imperial Russian government (issuer). Digital reproduction: Museum of the National Bank of the Republic of Belarus., Public domain (https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D1%83_%D0%B2_4_%D1%80%D1%83%D0%B1%D0%BB%D1%8F_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB_100_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8A%D1%8F%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_back.jpg)",
-    "text": "File:Свидетельство на Государственную ренту в 4 рубля годового дохода на капитал 100 рублей на предъявителя back.jpg Russian 4% state rente certificate: 100-ruble capital, 4-ruble annual income. Payab"
-   },
-   {
-    "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E_4%25_%D1%80%D0%B5%D0%BD%D1%82%D1%83_%D0%B2_40_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB_1000_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8A%D1%8F%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_back.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2990,
-    "h": 4230,
-    "credit": "\"Свидетельство на Государственную 4% ренту в 40 рублей годового дохода на капитал 1000 рублей на предъявителя back.jpg\" – Imperial Russian government (issuer). Digital reproduction: Museum of the National Bank of the Republic of Belarus., Public domain (https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E_4%25_%D1%80%D0%B5%D0%BD%D1%82%D1%83_%D0%B2_40_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB_1000_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8A%D1%8F%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_back.jpg)",
-    "text": "File:Свидетельство на Государственную 4% ренту в 40 рублей годового дохода на капитал 1000 рублей на предъявителя back.jpg Russian 4% state rente certificate: 1000-ruble capital, 40-ruble annual incom"
-   },
-   {
-    "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D1%83_%D0%B2_8_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB_200_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8A%D1%8F%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_back.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2990,
-    "h": 4230,
-    "credit": "\"Свидетельство на Государственную ренту в 8 рублей годового дохода на капитал 200 рублей на предъявителя back.jpg\" – Imperial Russian government (issuer). Digital reproduction: Museum of the National Bank of the Republic of Belarus., Public domain (https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E_%D1%80%D0%B5%D0%BD%D1%82%D1%83_%D0%B2_8_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB_200_%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D0%B9_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8A%D1%8F%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_back.jpg)",
-    "text": "File:Свидетельство на Государственную ренту в 8 рублей годового дохода на капитал 200 рублей на предъявителя back.jpg Russian 4% state rente certificate: 200-ruble capital, 8-ruble annual income. Paya"
-   }
-  ]
+  "beats": "5-6",
+  "mo_ta": "Đàng Trong, bản đồ thế kỷ 17",
+  "candidates": []
  },
  {
   "slot": "S4",
-  "beats": "8",
-  "mo_ta": "Bản đồ Louisiana và Tây Florida thập niên 1760-1770",
+  "beats": "7",
+  "mo_ta": "Phép giảng tám ngày, trang văn bản (Rhodes)",
   "candidates": [
    {
     "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Map_showing_Caribbean_area_including_West_Indies_and_Gulf_of_Mexico._LOC_75695814.jpg/1920px-Map_showing_Caribbean_area_including_West_Indies_and_Gulf_of_Mexico._LOC_75695814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 12731,
-    "h": 7272,
-    "credit": "\"Map showing Caribbean area including West Indies and Gulf of Mexico. LOC 75695814.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Map_showing_Caribbean_area_including_West_Indies_and_Gulf_of_Mexico._LOC_75695814.jpg)",
-    "text": "File:Map showing Caribbean area including West Indies and Gulf of Mexico. LOC 75695814.jpg Scale ca. 1:6,000,000. LC Maps of North America, 1750-1789, 1696 LC Nautical charts on vellum ; 33 Manuscript"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y%2C_page_132_fleuron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 981,
+    "h": 978,
+    "credit": "\"Phép giảng tám ngày, page 132 fleuron.jpg\" – Alexandre de Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,_page_132_fleuron.jpg)",
+    "text": "File:Phép giảng tám ngày, page 132 fleuron.jpg Hình trang trí ở cuối trang 132 Phép giảng tám ngày của Alexandre de Rhodes."
    },
    {
     "so": 1,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Plan_of_Fort_George_and_adjacent_works_at_Pensacola_in_West_Florida._LOC_74692221.jpg/1920px-Plan_of_Fort_George_and_adjacent_works_at_Pensacola_in_West_Florida._LOC_74692221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5591,
-    "h": 8514,
-    "credit": "\"Plan of Fort George and adjacent works at Pensacola in West Florida. LOC 74692221.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_Fort_George_and_adjacent_works_at_Pensacola_in_West_Florida._LOC_74692221.jpg)",
-    "text": "File:Plan of Fort George and adjacent works at Pensacola in West Florida. LOC 74692221.jpg Scale 1:1,800; 150 ft. to an in. Manuscript; pen-and-ink and watercolor. Relief shown by shading and hachures"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y%2C_page_261_fleuron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 767,
+    "h": 779,
+    "credit": "\"Phép giảng tám ngày, page 261 fleuron.jpg\" – Alexandre de Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,_page_261_fleuron.jpg)",
+    "text": "File:Phép giảng tám ngày, page 261 fleuron.jpg Hình trang trí ở cuối trang 261 Phép giảng tám ngày của Alexandre de Rhodes."
    },
    {
     "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/The_coasts_of_West_Florida%2C_Alabama%2C_Mississippi_%26_Louisiana%3B_drawn_from_the_surveys_of_Gauld%2C_and_improved_from_other_%28IA_dr_the-coasts-of-west-florida-alabama-mississippi-louisiana-drawn-from-th-01054016%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 12401,
-    "h": 8006,
-    "credit": "\"The coasts of West Florida, Alabama, Mississippi & Louisiana; drawn from the surveys of Gauld, and improved from other (IA dr the-coasts-of-west-florida-alabama-mississippi-louisiana-drawn-from-th-01054016).jpg\" – Blunt, Edmund M. (Edmund March), 1770-1862\nGauld, George.\nHooker, William\nE. & G.W. Blunt (Firm), Public domain (https://commons.wikimedia.org/wiki/File:The_coasts_of_West_Florida,_Alabama,_Mississippi_%26_Louisiana;_drawn_from_the_surveys_of_Gauld,_and_improved_from_other_(IA_dr_the-coasts-of-west-florida-alabama-mississippi-louisiana-drawn-from-th-01054016).jpg)",
-    "text": "File:The coasts of West Florida, Alabama, Mississippi & Louisiana; drawn from the surveys of Gauld, and improved from other (IA dr the-coasts-of-west-florida-alabama-mississippi-louisiana-drawn-from-t"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y%2C_page_169_fleuron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1018,
+    "h": 843,
+    "credit": "\"Phép giảng tám ngày, page 169 fleuron.jpg\" – Alexandre de Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,_page_169_fleuron.jpg)",
+    "text": "File:Phép giảng tám ngày, page 169 fleuron.jpg Hình trang trí ở cuối trang 169 Phép giảng tám ngày của Alexandre de Rhodes."
    },
    {
     "so": 3,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/The_Bahama_Banks_and_Gulf_of_Florida_by_Edmund_Blunt%2C_hydrographer._%28West_sheet%29._%28with%29_Chart_of_Key_West_by_George_Gauld._%28IA_dr_the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrographer-west-s-01054014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 990,
-    "h": 1536,
-    "credit": "\"The Bahama Banks and Gulf of Florida by Edmund Blunt, hydrographer. (West sheet). (with) Chart of Key West by George Gauld. (IA dr the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrographer-west-s-01054014).jpg\" – Blunt, Edmund M. (Edmund March), 1770-1862\nGauld, George.\nGaw, R. M.\nE. & G.W. Blunt (Firm), Public domain (https://commons.wikimedia.org/wiki/File:The_Bahama_Banks_and_Gulf_of_Florida_by_Edmund_Blunt,_hydrographer._(West_sheet)._(with)_Chart_of_Key_West_by_George_Gauld._(IA_dr_the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrographer-west-s-01054014).jpg)",
-    "text": "File:The Bahama Banks and Gulf of Florida by Edmund Blunt, hydrographer. (West sheet). (with) Chart of Key West by George Gauld. (IA dr the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrographe"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Alexandre_de_Rhodes_Latin_Vietnamese_Catechism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1049,
+    "h": 1452,
+    "credit": "\"Alexandre de Rhodes Latin Vietnamese Catechism.jpg\" – Alexandre_de_Rhodes, Public domain (https://commons.wikimedia.org/wiki/File:Alexandre_de_Rhodes_Latin_Vietnamese_Catechism.jpg)",
+    "text": "File:Alexandre de Rhodes Latin Vietnamese Catechism.jpg Alexandre de Rhodes Latin Vietnamese Catechism"
    },
    {
     "so": 4,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Bahama_Banks_and_Gulf_of_Florida_-_by_Edmund_Blunt_-_btv1b530987402.jpg/1920px-The_Bahama_Banks_and_Gulf_of_Florida_-_by_Edmund_Blunt_-_btv1b530987402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 15538,
-    "h": 12454,
-    "credit": "\"The Bahama Banks and Gulf of Florida - by Edmund Blunt - btv1b530987402.jpg\" – Blunt, Edmund (1770-1862). Auteur du texte\nBlunt, George William (17..-18.. ; éditeur). Auteur du texte\n\nGauld, George (1732-1782). Auteur du texte, Public domain (https://commons.wikimedia.org/wiki/File:The_Bahama_Banks_and_Gulf_of_Florida_-_by_Edmund_Blunt_-_btv1b530987402.jpg)",
-    "text": "File:The Bahama Banks and Gulf of Florida - by Edmund Blunt - btv1b530987402.jpg Sujet : Bahamas, Grand banc des\nMexique, Golfe du\nKey West\nÉchelle(s) : [1:793 550 ca]\nCouverture : Bahamas\nMexique\nÉta"
-   },
-   {
-    "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/%28Composite_of%29_The_Bahama_Banks_and_Gulf_of_Florida_by_Edmund_Blunt%2C_hydrographer._%28with%29_Chart_of_Key_West_by_George_Gauld._%28IA_dr_composite-of-the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrog-01054015%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 14228,
-    "h": 11454,
-    "credit": "\"(Composite of) The Bahama Banks and Gulf of Florida by Edmund Blunt, hydrographer. (with) Chart of Key West by George Gauld. (IA dr composite-of-the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrog-01054015).jpg\" – Blunt, Edmund M. (Edmund March), 1770-1862\nGauld, George.\nGaw, R. M.\nE. & G.W. Blunt (Firm), Public domain (https://commons.wikimedia.org/wiki/File:(Composite_of)_The_Bahama_Banks_and_Gulf_of_Florida_by_Edmund_Blunt,_hydrographer._(with)_Chart_of_Key_West_by_George_Gauld._(IA_dr_composite-of-the-bahama-banks-and-gulf-of-florida-by-edmund-blunt-hydrog-01054015).jpg)",
-    "text": "File:(Composite of) The Bahama Banks and Gulf of Florida by Edmund Blunt, hydrographer. (with) Chart of Key West by George Gauld. (IA dr composite-of-the-bahama-banks-and-gulf-of-florida-by-edmund-blu"
-   },
-   {
-    "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Plan_of_Amelia_Island_in_East_Florida%2C_north_point_of_Amelia_Island_lyes_in_30-55_north_latitude_80-23_w._longitude_from_London%2C_taken_from_De_Brahm%27s_Map_of_South_Caroline_%26_Georgia._A_chart_of_the_LOC_73694443.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 7940,
-    "h": 6713,
-    "credit": "\"Plan of Amelia Island in East Florida, north point of Amelia Island lyes in 30-55 north latitude 80-23 w. longitude from London, taken from De Brahm's Map of South Caroline & Georgia. A chart of the LOC 73694443.jpg\" – Jefferys, Thomas; De Brahm, John Gerar William; Fuller, William; Faden, William, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_Amelia_Island_in_East_Florida,_north_point_of_Amelia_Island_lyes_in_30-55_north_latitude_80-23_w._longitude_from_London,_taken_from_De_Brahm%27s_Map_of_South_Caroline_%26_Georgia._A_chart_of_the_LOC_73694443.jpg)",
-    "text": "File:Plan of Amelia Island in East Florida, north point of Amelia Island lyes in 30-55 north latitude 80-23 w. longitude from London, taken from De Brahm's Map of South Caroline & Georgia. A chart of "
-   },
-   {
-    "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/A_Map_of_the_Province_of_South_Carolina_with_all_the_Rivers%2C_Creeks%2C_Bays%2C_Inletts%2C_Islands%2C_Inland_Navigation%2C_Soundings_%28IA_dr_a-map-of-the-province-of-south-carolina-with-all-the-rivers-creeks-bays-00094171%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 9968,
-    "h": 9824,
-    "credit": "\"A Map of the Province of South Carolina with all the Rivers, Creeks, Bays, Inletts, Islands, Inland Navigation, Soundings (IA dr a-map-of-the-province-of-south-carolina-with-all-the-rivers-creeks-bays-00094171).jpg\" – Cook, James, Public domain (https://commons.wikimedia.org/wiki/File:A_Map_of_the_Province_of_South_Carolina_with_all_the_Rivers,_Creeks,_Bays,_Inletts,_Islands,_Inland_Navigation,_Soundings_(IA_dr_a-map-of-the-province-of-south-carolina-with-all-the-rivers-creeks-bays-00094171).jpg)",
-    "text": "File:A Map of the Province of South Carolina with all the Rivers, Creeks, Bays, Inletts, Islands, Inland Navigation, Soundings (IA dr a-map-of-the-province-of-south-carolina-with-all-the-rivers-creeks"
-   },
-   {
-    "so": 8,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Isle_Amelia_en_Floride._LOC_73694445.jpg/1920px-Isle_Amelia_en_Floride._LOC_73694445.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8631,
-    "h": 6314,
-    "credit": "\"Isle Amelia en Floride. LOC 73694445.jpg\" – Le Rouge, Georges-Louis; Fuller, William; Jefferys, Thomas, Public domain (https://commons.wikimedia.org/wiki/File:Isle_Amelia_en_Floride._LOC_73694445.jpg)",
-    "text": "File:Isle Amelia en Floride. LOC 73694445.jpg Scales vary. Relief shown pictorially and by hachures. Depths shown by soundings. From the author's Pilote américain septentrional. 1778-79. Includes note"
-   },
-   {
-    "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Plan_of_New_Orleans._No_plan_yet_published_like_this_being_its_present_state._Thos._Kitchin_sculp._%28IA_dr_plan-of-new-orleans-no-plan-yet-published-like-this-being-its-present-stat-14327013%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 7751,
-    "h": 5266,
-    "credit": "\"Plan of New Orleans. No plan yet published like this being its present state. Thos. Kitchin sculp. (IA dr plan-of-new-orleans-no-plan-yet-published-like-this-being-its-present-stat-14327013).jpg\" – Pittman, Philip, active 1760-1770\nKitchin, Thomas, 1718-1784, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_New_Orleans._No_plan_yet_published_like_this_being_its_present_state._Thos._Kitchin_sculp._(IA_dr_plan-of-new-orleans-no-plan-yet-published-like-this-being-its-present-stat-14327013).jpg)",
-    "text": "File:Plan of New Orleans. No plan yet published like this being its present state. Thos. Kitchin sculp. (IA dr plan-of-new-orleans-no-plan-yet-published-like-this-being-its-present-stat-14327013).jpg "
-   },
-   {
-    "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Text_Page_to%29_L%27Arret_de_la_Cour_Superieure_de_la_Province%2C_mention%C3%A9_%C3%A0_la_page_16._%3D_Arret_of_the_Superior_Council_of_the_%28IA_dr_text-page-to-larret-de-la-cour-superieure-de-la-province-mention-la-14327064%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8285,
-    "h": 5273,
-    "credit": "\"Text Page to) L'Arret de la Cour Superieure de la Province, mentioné à la page 16. = Arret of the Superior Council of the (IA dr text-page-to-larret-de-la-cour-superieure-de-la-province-mention-la-14327064).jpg\" – Pittman, Philip, active 1760-1770\nKitchin, Thomas , 1718-1784, Public domain (https://commons.wikimedia.org/wiki/File:Text_Page_to)_L%27Arret_de_la_Cour_Superieure_de_la_Province,_mention%C3%A9_%C3%A0_la_page_16._%3D_Arret_of_the_Superior_Council_of_the_(IA_dr_text-page-to-larret-de-la-cour-superieure-de-la-province-mention-la-14327064).jpg)",
-    "text": "File:Text Page to) L'Arret de la Cour Superieure de la Province, mentioné à la page 16. = Arret of the Superior Council of the (IA dr text-page-to-larret-de-la-cour-superieure-de-la-province-mention-l"
-   },
-   {
-    "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Text_Page_to%29_Description_of_Massiac%2C_part_of_the_River_Amit%2C_and_the_River_Ibbeville._%282_%28IA_dr_text-page-to-description-of-massiac-part-of-the-river-amit-and-the-rive-14327022%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8314,
-    "h": 5322,
-    "credit": "\"Text Page to) Description of Massiac, part of the River Amit, and the River Ibbeville. (2 (IA dr text-page-to-description-of-massiac-part-of-the-river-amit-and-the-rive-14327022).jpg\" – Pittman, Philip, active 1760-1770, Public domain (https://commons.wikimedia.org/wiki/File:Text_Page_to)_Description_of_Massiac,_part_of_the_River_Amit,_and_the_River_Ibbeville._(2_(IA_dr_text-page-to-description-of-massiac-part-of-the-river-amit-and-the-rive-14327022).jpg)",
-    "text": "File:Text Page to) Description of Massiac, part of the River Amit, and the River Ibbeville. (2 (IA dr text-page-to-description-of-massiac-part-of-the-river-amit-and-the-rive-14327022).jpg Zoomable ful"
-   },
-   {
-    "so": 12,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Text_Page_to%29_New_Orleans._%286_%28IA_dr_text-page-to-new-orleans-6-14327017%29.jpg/1920px-Text_Page_to%29_New_Orleans._%286_%28IA_dr_text-page-to-new-orleans-6-14327017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8304,
-    "h": 5329,
-    "credit": "\"Text Page to) New Orleans. (6 (IA dr text-page-to-new-orleans-6-14327017).jpg\" – Pittman, Philip, active 1760-1770, Public domain (https://commons.wikimedia.org/wiki/File:Text_Page_to)_New_Orleans._(6_(IA_dr_text-page-to-new-orleans-6-14327017).jpg)",
-    "text": "File:Text Page to) New Orleans. (6 (IA dr text-page-to-new-orleans-6-14327017).jpg Zoomable full resolution image available at davidrumsey.com.This image 14327.017 is a part of image group 14327.000.H"
-   },
-   {
-    "so": 13,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Text_Page_to%29_Natches._%282_%28IA_dr_text-page-to-natches-2-14327029%29.jpg/1920px-Text_Page_to%29_Natches._%282_%28IA_dr_text-page-to-natches-2-14327029%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 8392,
-    "h": 5346,
-    "credit": "\"Text Page to) Natches. (2 (IA dr text-page-to-natches-2-14327029).jpg\" – Pittman, Philip, active 1760-1770, Public domain (https://commons.wikimedia.org/wiki/File:Text_Page_to)_Natches._(2_(IA_dr_text-page-to-natches-2-14327029).jpg)",
-    "text": "File:Text Page to) Natches. (2 (IA dr text-page-to-natches-2-14327029).jpg Zoomable full resolution image available at davidrumsey.com.This image 14327.029 is a part of image group 14327.000.On left -"
-   },
-   {
-    "so": 14,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Map_of_Spanish_Louisiana_and_the_American_colonies_%28NYPL_b15063056-483702%29.jpg/1920px-Map_of_Spanish_Louisiana_and_the_American_colonies_%28NYPL_b15063056-483702%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3638,
-    "h": 3424,
-    "credit": "\"Map of Spanish Louisiana and the American colonies (NYPL b15063056-483702).jpg\" – Scan by NYPL, Public domain (https://commons.wikimedia.org/wiki/File:Map_of_Spanish_Louisiana_and_the_American_colonies_(NYPL_b15063056-483702).jpg)",
-    "text": "File:Map of Spanish Louisiana and the American colonies (NYPL b15063056-483702).jpg * Citation/Reference: Jolly, D.C. Maps of America in periodicals before 1800, 220\nCitation/Reference: NYPL. Dictiona"
-   },
-   {
-    "so": 15,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Louisiana%2C_as_formerly_claimed_by_France%2C_now_containing_part_of_British_America_to_the_east_%26_Spanish_America_to_the_west_of_the_Mississippi._LOC_77690498.jpg/1920px-Louisiana%2C_as_formerly_claimed_by_France%2C_now_containing_part_of_British_America_to_the_east_%26_Spanish_America_to_the_west_of_the_Mississippi._LOC_77690498.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6242,
-    "h": 4801,
-    "credit": "\"Louisiana, as formerly claimed by France, now containing part of British America to the east & Spanish America to the west of the Mississippi. LOC 77690498.jpg\" – Kitchin, Thomas, Public domain (https://commons.wikimedia.org/wiki/File:Louisiana,_as_formerly_claimed_by_France,_now_containing_part_of_British_America_to_the_east_%26_Spanish_America_to_the_west_of_the_Mississippi._LOC_77690498.jpg)",
-    "text": "File:Louisiana, as formerly claimed by France, now containing part of British America to the east & Spanish America to the west of the Mississippi. LOC 77690498.jpg Scale ca. 1:10,000,000. Relief show"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/%C6%AFu%2C_nh%C6%B0%E1%BB%A3c_%C4%91i%E1%BB%83m_c%E1%BB%A7a_ch%E1%BA%BF_%C4%91%E1%BB%99_%C4%91a_th%C3%AA.jpg/1920px-%C6%AFu%2C_nh%C6%B0%E1%BB%A3c_%C4%91i%E1%BB%83m_c%E1%BB%A7a_ch%E1%BA%BF_%C4%91%E1%BB%99_%C4%91a_th%C3%AA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2201,
+    "h": 2609,
+    "credit": "\"Ưu, nhược điểm của chế độ đa thê.jpg\" – Indochina Weekly., Public domain (https://commons.wikimedia.org/wiki/File:%C6%AFu,_nh%C6%B0%E1%BB%A3c_%C4%91i%E1%BB%83m_c%E1%BB%A7a_ch%E1%BA%BF_%C4%91%E1%BB%99_%C4%91a_th%C3%AA.jpg)",
+    "text": "File:Ưu, nhược điểm của chế độ đa thê.jpg An illustration showing the advantages and disadvantages of polygamy (specifically polygyny)."
    }
   ]
  },
  {
   "slot": "S5",
-  "beats": "6",
-  "mo_ta": "New Orleans thế kỷ 18, tranh khắc hoặc bản đồ",
+  "beats": "8",
+  "mo_ta": "Vịnh Đà Nẵng, tranh khắc hoặc bản đồ cổ",
+  "candidates": []
+ },
+ {
+  "slot": "S6",
+  "beats": "9",
+  "mo_ta": "Trang từ điển có chữ quốc ngữ",
   "candidates": [
    {
     "so": 0,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/New_Orleans_and_surroundings_1749_map.jpg/1920px-New_Orleans_and_surroundings_1749_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2230,
-    "h": 2318,
-    "credit": "\"New Orleans and surroundings 1749 map.jpg\" – F. Sacier, Public domain (https://commons.wikimedia.org/wiki/File:New_Orleans_and_surroundings_1749_map.jpg)",
-    "text": "File:New Orleans and surroundings 1749 map.jpg New Orleans and surrounding area, 1749 map. \n\nThe grid rectangle now now as the \"French Quarter\" is labeled N Orleans. Beyond it, Esplanade Ridge portage"
-   },
-   {
-    "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/New_orleans_plan_1728.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1723,
-    "h": 1426,
-    "credit": "\"New orleans plan 1728.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:New_orleans_plan_1728.jpg)",
-    "text": "File:New orleans plan 1728.jpg "
-   },
-   {
-    "so": 2,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/New_Orleans_de_la_Tour_map_1720_1759.jpg/1920px-New_Orleans_de_la_Tour_map_1720_1759.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6262,
-    "h": 4561,
-    "credit": "\"New Orleans de la Tour map 1720 1759.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:New_Orleans_de_la_Tour_map_1720_1759.jpg)",
-    "text": "File:New Orleans de la Tour map 1720 1759.jpg "
-   },
-   {
-    "so": 3,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/1864_Mitchell_Map_of_New_Orleans%2C_Louisiana_-_Geographicus_-_NewOrleans-m-1864.jpg/1920px-1864_Mitchell_Map_of_New_Orleans%2C_Louisiana_-_Geographicus_-_NewOrleans-m-1864.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3529,
-    "h": 2986,
-    "credit": "\"1864 Mitchell Map of New Orleans, Louisiana - Geographicus - NewOrleans-m-1864.jpg\" – Samuel Augustus Mitchell, Public domain (https://commons.wikimedia.org/wiki/File:1864_Mitchell_Map_of_New_Orleans,_Louisiana_-_Geographicus_-_NewOrleans-m-1864.jpg)",
-    "text": "File:1864 Mitchell Map of New Orleans, Louisiana - Geographicus - NewOrleans-m-1864.jpg A beautiful example of S. A. Mitchell Jr.’s 1864 map of New Orleans, Louisiana.  Depicts the city of New Orleans"
-   },
-   {
-    "so": 4,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_orleans_1770_Pittman_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1878,
-    "h": 1420,
-    "credit": "\"New orleans 1770 Pittman map.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:New_orleans_1770_Pittman_map.jpg)",
-    "text": "File:New orleans 1770 Pittman map.jpg "
-   },
-   {
-    "so": 5,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Plan_of_New_Orleans_the_capital_of_Louisiana_%282673859899%29.jpg/1920px-Plan_of_New_Orleans_the_capital_of_Louisiana_%282673859899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2000,
-    "h": 1486,
-    "credit": "\"Plan of New Orleans the capital of Louisiana (2673859899).jpg\" – http://maps.bpl.org, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Plan_of_New_Orleans_the_capital_of_Louisiana_(2673859899).jpg)",
-    "text": "File:Plan of New Orleans the capital of Louisiana (2673859899).jpg Zoom into this map at maps.bpl.org.\nAuthor: Jefferys, Thomas\nPublisher: T. Jefferys\nDate: 1759.\nLocation: New Orleans (La.)\nScale: Sc"
-   },
-   {
-    "so": 6,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/1855_Colton_Plan_or_Map_of_New_Orleans%2C_Louisiana_and_Louisville%2C_Kentucky_-_Geographicus_-_LouisvilleNewOrleans-colton-1855.jpg/1920px-1855_Colton_Plan_or_Map_of_New_Orleans%2C_Louisiana_and_Louisville%2C_Kentucky_-_Geographicus_-_LouisvilleNewOrleans-colton-1855.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 3304,
-    "h": 4000,
-    "credit": "\"1855 Colton Plan or Map of New Orleans, Louisiana and Louisville, Kentucky - Geographicus - LouisvilleNewOrleans-colton-1855.jpg\" – J. H. Colton, Public domain (https://commons.wikimedia.org/wiki/File:1855_Colton_Plan_or_Map_of_New_Orleans,_Louisiana_and_Louisville,_Kentucky_-_Geographicus_-_LouisvilleNewOrleans-colton-1855.jpg)",
-    "text": "File:1855 Colton Plan or Map of New Orleans, Louisiana and Louisville, Kentucky - Geographicus - LouisvilleNewOrleans-colton-1855.jpg A beautiful 1855 first edition example of Colton's rare two part m"
-   },
-   {
-    "so": 7,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Plan_of_the_City_of_New_Orleans_and_adjacent_plantations_LOC_2003627055.jpg/1920px-Plan_of_the_City_of_New_Orleans_and_adjacent_plantations_LOC_2003627055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 4670,
-    "h": 6496,
-    "credit": "\"Plan of the City of New Orleans and adjacent plantations LOC 2003627055.jpg\" – Trudeau, Charles Laveau; Debrunner, Alexander, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_the_City_of_New_Orleans_and_adjacent_plantations_LOC_2003627055.jpg)",
-    "text": "File:Plan of the City of New Orleans and adjacent plantations LOC 2003627055.jpg Copy and translation from the original Spanish plan dated 1798, showing the City of New Orleans, its fortifications and"
-   },
-   {
-    "so": 8,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jackson_Square_The_historic_Jackson_Square%2C_originally_known_in_the_18th_Century_as_%27Place_d%27Armes%27_and_later_renamed_in_honor_of_the_Battle_of_New_Orleans_hero%2C_Andrew_Jackson%2C_is_a_featured_attraction_in_the_heart_of_th_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 1811,
-    "h": 2051,
-    "credit": "\"Jackson Square The historic Jackson Square, originally known in the 18th Century as 'Place d'Armes' and later renamed in honor of the Battle of New Orleans hero, Andrew Jackson, is a featured attraction in the heart of th - panoramio.jpg\" – Loco Steve, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Jackson_Square_The_historic_Jackson_Square,_originally_known_in_the_18th_Century_as_%27Place_d%27Armes%27_and_later_renamed_in_honor_of_the_Battle_of_New_Orleans_hero,_Andrew_Jackson,_is_a_featured_attraction_in_the_heart_of_th_-_panoramio.jpg)",
-    "text": "File:Jackson Square The historic Jackson Square, originally known in the 18th Century as 'Place d'Armes' and later renamed in honor of the Battle of New Orleans hero, Andrew Jackson, is a featured att"
-   },
-   {
-    "so": 9,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Plan_of_New_Orleans_the_capital_of_Louisiana%3B_with_the_disposition_of_its_quarters_and_canals_as_they_have_been_traced_by_Mr._de_la_Tour_in_the_year_1720._LOC_74692198.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6262,
-    "h": 4561,
-    "credit": "\"Plan of New Orleans the capital of Louisiana; with the disposition of its quarters and canals as they have been traced by Mr. de la Tour in the year 1720. LOC 74692198.jpg\" – Jefferys, Thomas; Brion De La Tour, Louis, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_New_Orleans_the_capital_of_Louisiana;_with_the_disposition_of_its_quarters_and_canals_as_they_have_been_traced_by_Mr._de_la_Tour_in_the_year_1720._LOC_74692198.jpg)",
-    "text": "File:Plan of New Orleans the capital of Louisiana; with the disposition of its quarters and canals as they have been traced by Mr. de la Tour in the year 1720. LOC 74692198.jpg Scale ca. 1:5,000. \"Pa."
-   },
-   {
-    "so": 10,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Plan_of_New_Orleans_the_capital_of_Louisiana%3B_with_the_disposition_of_its_quarters_and_canals_as_they_have_been_traced_by_Mr._de_la_Tour_in_the_year_1720._LOC_74692200.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 6503,
-    "h": 4399,
-    "credit": "\"Plan of New Orleans the capital of Louisiana; with the disposition of its quarters and canals as they have been traced by Mr. de la Tour in the year 1720. LOC 74692200.jpg\" – Jefferys, Thomas; Brion De La Tour, Louis, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_New_Orleans_the_capital_of_Louisiana;_with_the_disposition_of_its_quarters_and_canals_as_they_have_been_traced_by_Mr._de_la_Tour_in_the_year_1720._LOC_74692200.jpg)",
-    "text": "File:Plan of New Orleans the capital of Louisiana; with the disposition of its quarters and canals as they have been traced by Mr. de la Tour in the year 1720. LOC 74692200.jpg Scale ca. 1:5,000. Inse"
-   },
-   {
-    "so": 11,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Plan_of_New_Orleans_the_capital_of_Louisiana%3B_with_the_disposition_of_its_quarters_and_canals_as_they_have_been_traced_by_Mr._de_la_Tour_in_the_year_1720._LOC_74692199.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 5819,
-    "h": 4037,
-    "credit": "\"Plan of New Orleans the capital of Louisiana; with the disposition of its quarters and canals as they have been traced by Mr. de la Tour in the year 1720. LOC 74692199.jpg\" – Jefferys, Thomas; Brion De La Tour, Louis, Public domain (https://commons.wikimedia.org/wiki/File:Plan_of_New_Orleans_the_capital_of_Louisiana;_with_the_disposition_of_its_quarters_and_canals_as_they_have_been_traced_by_Mr._de_la_Tour_in_the_year_1720._LOC_74692199.jpg)",
-    "text": "File:Plan of New Orleans the capital of Louisiana; with the disposition of its quarters and canals as they have been traced by Mr. de la Tour in the year 1720. LOC 74692199.jpg Scale ca. 1:5,000. \"Pa."
-   },
-   {
-    "so": 12,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/1794_mapa_incendio_Nueva_Orleans_AGI.jpg/1920px-1794_mapa_incendio_Nueva_Orleans_AGI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2096,
-    "h": 1530,
-    "credit": "\"1794 mapa incendio Nueva Orleans AGI.jpg\" – Anónimo, 1794, Public domain (https://commons.wikimedia.org/wiki/File:1794_mapa_incendio_Nueva_Orleans_AGI.jpg)",
-    "text": "File:1794 mapa incendio Nueva Orleans AGI.jpg Manuscript map entitled \"Plano de la Ciudad de la Nueva Orleans, las Linias Rojas manifiestan la parte destruida por el incendio del dia 8 de Diziembre de"
-   },
-   {
-    "so": 13,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Le_cocq_hardi_et_la_cocotte_Angloise_ou_la_Reine_du_Bal._F.M._%28III%29_%28BM_2007%2C7065.1%29.jpg/1920px-Le_cocq_hardi_et_la_cocotte_Angloise_ou_la_Reine_du_Bal._F.M._%28III%29_%28BM_2007%2C7065.1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2500,
-    "h": 1906,
-    "credit": "\"Le cocq hardi et la cocotte Angloise ou la Reine du Bal. F.M. (III) (BM 2007,7065.1).jpg\" – Print made by: François Michelin\n\nPublished by: Pierre-Fiacre Perdoux, Public domain (https://commons.wikimedia.org/wiki/File:Le_cocq_hardi_et_la_cocotte_Angloise_ou_la_Reine_du_Bal._F.M._(III)_(BM_2007,7065.1).jpg)",
-    "text": "File:Le cocq hardi et la cocotte Angloise ou la Reine du Bal. F.M. (III) (BM 2007,7065.1).jpg Satirical print on fashion, with a man and woman in bird's plumage set into an ornamental border.  1779\nWo"
-   },
-   {
-    "so": 14,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Plan_de_la_Nouvelle_Orl%C3%A9ans_-_btv1b85960776.jpg/1920px-Plan_de_la_Nouvelle_Orl%C3%A9ans_-_btv1b85960776.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 7824,
-    "h": 8597,
-    "credit": "\"Plan de la Nouvelle Orléans - btv1b85960776.jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Plan_de_la_Nouvelle_Orl%C3%A9ans_-_btv1b85960776.jpg)",
-    "text": "File:Plan de la Nouvelle Orléans - btv1b85960776.jpg Sujet : La Nouvelle-Orléans -- Plans de ville -- Projets\nÉchelle(s) : [ca 1:20 000], mil toises [= 10,2 cm]\nAppartient à l’ensemble documentaire : "
-   },
-   {
-    "so": 15,
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Plan_de_la_Nouvelle_Orleans._LOC_2003627002.jpg/1920px-Plan_de_la_Nouvelle_Orleans._LOC_2003627002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 2500,
-    "h": 1800,
-    "credit": "\"Plan de la Nouvelle Orleans. LOC 2003627002.jpg\" – Bellin, Jacques Nicolas, Public domain (https://commons.wikimedia.org/wiki/File:Plan_de_la_Nouvelle_Orleans._LOC_2003627002.jpg)",
-    "text": "File:Plan de la Nouvelle Orleans. LOC 2003627002.jpg Available also through the Library of Congress web site as a raster image."
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dictionarium_Annamiticum_Lusitanum_et_Latinum%2C_Propaganda_Fide_seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1404,
+    "h": 1414,
+    "credit": "\"Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png\" – Dictionarium Annamiticum Lusitanum et Latinum (low-resolution).pdf: Alexandre de Rhodes\nderivative work: Minh Nguyễn (talk, contribs), Public domain (https://commons.wikimedia.org/wiki/File:Dictionarium_Annamiticum_Lusitanum_et_Latinum,_Propaganda_Fide_seal.png)",
+    "text": "File:Dictionarium Annamiticum Lusitanum et Latinum, Propaganda Fide seal.png Seal of the Sacred Congregation for the Propagation of the Faith on the title page of Alexandre de Rhodes' Dictionarium Ann"
    }
   ]
  },
  {
-  "slot": "S6",
+  "slot": "S7",
   "beats": "10",
-  "mo_ta": "Dấu $ in sớm, tiền giấy hoặc sách thập niên 1790",
+  "mo_ta": "Chữ quốc ngữ thế kỷ 17, bản thảo hoặc thư",
   "candidates": [
    {
     "so": 0,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/40_Spanish_Milled_Dollars_-_Continental_Dollar_%281778%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 720,
-    "h": 1124,
-    "credit": "\"40 Spanish Milled Dollars - Continental Dollar (1778).jpg\" – The United States of America, Public domain (https://commons.wikimedia.org/wiki/File:40_Spanish_Milled_Dollars_-_Continental_Dollar_(1778).jpg)",
-    "text": "File:40 Spanish Milled Dollars - Continental Dollar (1778).jpg A Continental Dollar from the United States of America."
-   },
-   {
-    "so": 1,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Trenchard_1786_Great_Seal_Reverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 867,
-    "h": 1536,
-    "credit": "\"Trenchard 1786 Great Seal Reverse.jpg\" – James Trenchard, Public domain (https://commons.wikimedia.org/wiki/File:Trenchard_1786_Great_Seal_Reverse.jpg)",
-    "text": "File:Trenchard 1786 Great Seal Reverse.jpg One of the first versions of the reverse of the Great Seal of the United States, also the U.S. coat of arms, engraved for the September or October 1786 Colum"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/MS_828_10.jpg/1920px-MS_828_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4000,
+    "h": 3146,
+    "credit": "\"MS 828 10.jpg\" – Samuel Baron (fl. 1670s-1690s, English), Public domain (https://commons.wikimedia.org/wiki/File:MS_828_10.jpg)",
+    "text": "File:MS 828 10.jpg The Vietnamese court in audience, ca. 1684–1685."
    }
   ]
  }

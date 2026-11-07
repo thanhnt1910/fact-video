@@ -1,43 +1,34 @@
-# VN6. Bài thơ Nam quốc sơn hà từ đâu mà có? (loạt "Bí mật biểu tượng", nhãn: #06)
+# VN6. Cọc gỗ Bạch Đằng (loạt "Bí mật biểu tượng", nhãn: #06)
 
-Mã đoạn 59001–59013. Lời kể: `ke-hoach/thu-giong-hai/vn6_full.json` (13 đoạn, khoảng 1 phút 30 giây). **Đã tra nguồn (07/11/2026), chủ kênh chọn "kể cả hai thuyết"; chờ duyệt kịch bản, chưa đọc giọng.**
+Mã đoạn 59001–59016. Lời kể: `ke-hoach/thu-giong-hai/vn6_full.json` (16 đoạn, 370 chữ). **Đã tra nguồn (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.** Chưa đọc được văn bản gốc Toàn thư (wikisource bị chặn).
 
 ## Lời kể (để duyệt)
-59001. Bạn có biết, bài thơ này được cho là đã vang lên giữa đêm, bên bờ sông Như Nguyệt?
-59002. Đó là bài Nam quốc sơn hà, mở đầu bằng câu: "Nam quốc sơn hà Nam đế cư".
-59003. Năm 1077, quân Tống kéo đến bờ sông Như Nguyệt, nay là sông Cầu, thuộc vùng Bắc Ninh.
-59004. Lý Thường Kiệt giữ phòng tuyến bên bờ sông này. Quân Tống nhiều lần tìm cách vượt sông nhưng không thành.
-59005. Theo lời kể ở đền Xà, trong đêm ấy bài thơ vang lên từ ngôi đền, nên người ta gọi đó là thơ thần.
-59006. Nhưng đó là truyền thuyết. Theo nhà nghiên cứu Lê Mạnh Thát, Đại Việt sử ký toàn thư gắn bài thơ với cuộc kháng chiến thời Lý Thường Kiệt.
-59007. Sách ấy dựa trên lời truyền miệng, không nêu tên người làm ra bài thơ.
-59008. Còn sách Lĩnh Nam chích quái, ra đời sớm hơn, lại gắn bài thơ với cuộc kháng chiến chống quân Tống năm 981.
-59009. Vì vậy ông Lê Mạnh Thát cho rằng bài thơ ra đời năm 981. Ông đoán tác giả là nhà sư Pháp Thuận, nhưng sách cổ không nêu tên ông.
-59010. Còn cuộc kháng chiến năm 1077 kết thúc ra sao? Quân Tống suy yếu vì bệnh tật và thiếu tiếp tế, nên phải rút lui.
-59011. Vậy ai là tác giả của bài thơ? Đến nay vẫn chưa ai biết chắc.
-59012. Theo bạn, vì sao bài thơ chỉ có bốn câu mà bao thế hệ vẫn nhớ đến ngày nay?
-59013. Hẹn bạn ở video tiếp theo.
-
-## Khung 6 câu hỏi
-1. Chuyện gì: bài thơ Nam quốc sơn hà và nguồn gốc còn tranh cãi. 2. Khi nào, ở đâu: bờ sông Như Nguyệt (sông Cầu, vùng Bắc Ninh), 1077; một số sách cũ gắn với 981. 3. Vì sao: bối cảnh quân Tống kéo đến. 4. Ai: Lý Thường Kiệt; tác giả bài thơ chưa rõ. 5. Kết quả: quân Tống rút lui. 6. Ý nghĩa: chỉ nhận định có tên (Lê Mạnh Thát), ghi rõ là giả thuyết.
-
-| Đoạn | Câu hỏi |
-|---|---|
-| 59001–59002 | mở (1, 2) |
-| 59003–59004 | 2, 3, 4 |
-| 59005 | truyền thuyết đền Xà (ghi rõ truyền thuyết) |
-| 59006–59009 | 1, 4, 6 (hai thuyết, giả thuyết có tên) |
-| 59010 | 5 |
-| 59011–59013 | tác giả chưa rõ, câu hỏi mở, lời mời |
+59001. Bạn có biết, dưới bùn cửa sông Bạch Đằng còn những cọc gỗ đã nằm hơn 700 năm?
+59002. Người dân phát hiện những cọc đầu tiên từ những năm 1950, khi đào đất đắp đê ở vùng Quảng Yên, Quảng Ninh.
+59003. Về sau, các bãi cọc Yên Giang, Đồng Vạn Muối và Đồng Má Ngựa lần lượt phát lộ.
+59004. Năm 2019, người dân ở Thủy Nguyên, Hải Phòng, lại phát hiện thêm một bãi cọc.
+59005. Các mẫu cọc ở Quảng Ninh được định tuổi bằng phương pháp các-bon 14, cho kết quả tập trung vào thế kỷ 13.
+59006. Thế kỷ 13 là thời quân Nguyên Mông ba lần đánh Đại Việt, và theo ông Vũ Minh Giang, cả ba lần đều thất bại.
+59007. Trận cuối cùng trên sông Bạch Đằng diễn ra năm 1288, do Trần Hưng Đạo, tên thật là Trần Quốc Tuấn, chỉ huy.
+59008. Theo các ghi chép được dẫn lại, quân của Trần Hưng Đạo cắm cọc xuống lòng sông vào ban đêm, lúc thủy triều lên.
+59009. Sáng ra, thủy triều rút xuống, thuyền chiến của quân Nguyên không kịp chạy ra biển nên mắc vào cọc.
+59010. Ông Bùi Văn Hiếu, Viện Khảo cổ học, cho rằng bãi cọc ở Thủy Nguyên có thể thuộc trận Bạch Đằng năm 1288.
+59011. Giáo sư Lê Văn Lan nhận xét, nhìn các bãi cọc thì thấy đó là cả một chiến dịch quân sự lớn, chứ không chỉ một trận đánh.
+59012. Cọc giữ được hơn 700 năm vì nằm trong bùn ngập nước, ít không khí. Tiến sĩ Nguyễn Văn Việt giải thích như vậy.
+59013. Năm 2012, khu di tích Bạch Đằng được xếp hạng Di tích quốc gia đặc biệt.
+59014. Tuy vậy, khi gắn cọc với trận năm 1288, các nhà nghiên cứu vẫn dùng chữ có thể, vì mốc năm chưa thật chính xác.
+59015. Theo bạn, vì sao quân Đại Việt chọn đúng cửa sông này để đón đánh thuyền chiến của quân Nguyên?
+59016. Hẹn bạn ở video tiếp theo.
 
 ## Độ chắc (tra 07/11/2026)
-- **Nguồn đã đọc:** (a) Báo Pháp luật, "Về Đền Xà, nơi vang lên Bản Tuyên ngôn Độc lập đầu tiên"; (b) Lê Mạnh Thát, "Pháp Thuận và bài thơ thần Nam quốc sơn hà" (bản PDF trên thuvienhoasen.org), tóm tắt các nguồn cổ; (c) Tạp chí Quản lý nhà nước (quanlynhanuoc.vn, bài về di tích phòng tuyến Như Nguyệt).
-- **Khớp hai nguồn:** trận Như Nguyệt năm 1077, quân Tống nhiều lần không vượt được sông (a, c); có nguồn gắn bài thơ với năm 981 (a, b); sông Như Nguyệt là sông Cầu (c; vùng Bắc Ninh: a).
-- **Một nguồn, nói đúng mức:** lời kể ở đền Xà, "thơ thần", 1077 (a, ghi là truyền thuyết do người trông đền kể); Toàn thư gắn bài thơ với cuộc chống Tống thời Lý Thường Kiệt, dựa trên lời truyền miệng; Lĩnh Nam chích quái cũ hơn, gắn với 981; giả thuyết tác giả Pháp Thuận (b, Lê Mạnh Thát nêu rõ đây là giả thuyết, sách cổ không nêu Pháp Thuận); lý do quân Tống rút (bệnh tật, thiếu tiếp tế, đóng quân lâu bên sông, c).
-- **Chưa đọc được văn bản gốc Toàn thư và Lĩnh Nam chích quái;** các câu về hai sách lấy từ bảng tóm tắt của Lê Mạnh Thát (b). Hai nguồn cổ ghi khác nhau và chưa ai đo lại, nên lời kể nêu đúng sự bất đồng chứ không chọn bên.
-- **Đã bỏ:** năm bắt đầu kháng chiến 1075–1076 và chuyện tấn công Ung Châu (c, một nguồn, và không cần cho câu chuyện); tên Quách Quỳ (không nguồn đã đọc nêu); chi tiết "Lý Thường Kiệt sai người đọc thơ" (chưa nguồn nào đọc được ghi rõ).
-- **Anh hùng dân tộc:** giọng trang trọng, không có khung đùa.
-- **Ảnh cần tìm:** sông Cầu/phòng tuyến Như Nguyệt, đền Xà, bản chép bài thơ; phạm vi công cộng hoặc CC0.
+- **Nguồn đã đọc:** (a) Báo Nhân Dân (11/07/2025), bài về bãi cọc Bạch Đằng; (b) Báo Pháp luật/Doanh nhân (03/07/2024), bài khảo sát UNESCO; (c) Vietnam News (2019), bãi cọc Thủy Nguyên (dẫn các chuyên gia có tên).
+- **Khớp hai nguồn:** cọc phát hiện từ những năm 1950 khi đào đất đắp đê ở Quảng Yên (a ghi 1953, b ghi 1953 và 1958, nên lời kể chỉ nói "những năm 1950"); ba bãi Yên Giang, Đồng Vạn Muối, Đồng Má Ngựa (a, b); cọc nằm dưới bùn hơn 700 năm (a, b); trận 1288 gắn với Trần Hưng Đạo (a, c).
+- **Một nguồn, nói đúng mức:** carbon 14 tập trung thế kỷ 13 (a; c ghi mẫu Thủy Nguyên khoảng 1270–1430, khoảng rộng nên lời kể nói "cho kết quả tập trung vào thế kỷ 13" chỉ cho Quảng Ninh); bãi cọc Thủy Nguyên phát hiện 2019 (c); các cách nêu trận đánh theo thủy triều: quân Trần cắm cọc ban đêm lúc thủy triều lên, sáng thủy triều rút, thuyền mắc cọc (c, "theo ghi chép được dẫn lại", chưa đọc bản Toàn thư gốc); ba lần Nguyên Mông đánh Đại Việt và đều thất bại (ông Vũ Minh Giang, c); Bùi Văn Hiếu, Lê Văn Lan (c); TS Nguyễn Văn Việt về bùn yếm khí (a); xếp hạng Di tích quốc gia đặc biệt 2012 (a).
+- **Lệch giữa nguồn, đã xử lý:** năm phát hiện Yên Giang (1953 hay 1958); kích thước cọc (dài 2,5 m ở Yên Giang, 3–4 m ở Thủy Nguyên) nên bỏ; số cọc (khoảng 300, tổng khoảng 800, 27 ở Thủy Nguyên) nên bỏ; việc gắn cọc với trận 1288 mới là suy luận ("chúng tôi cho rằng", "có thể"), lời kể nói rõ điều này.
+- **Đã bỏ:** loại gỗ, đầu cọc bịt sắt (nguồn không nêu); hồ sơ UNESCO (a nói hồ sơ đã lập, chưa công nhận; không đưa vào để khỏi hiểu nhầm); chuyện xung quanh Yên Tử – Kiếp Bạc.
+- **Anh hùng dân tộc:** giọng trang trọng, không đùa; hài chỉ có thể nhắm vào tình huống của quân xâm lược, video này không có khung đùa.
+- **Ảnh cần tìm:** ao cọc Yên Giang, cọc trưng bày ở bảo tàng, bản đồ cửa sông Bạch Đằng; phạm vi công cộng hoặc CC0.
 - **Hoàng Sa, Trường Sa:** không cần bản đồ biển.
 
 ## Ghi nguồn cho mô tả và bình luận ghim
-Báo Pháp luật (đền Xà); Lê Mạnh Thát (thuvienhoasen.org); Tạp chí Quản lý nhà nước (phòng tuyến Như Nguyệt).
+Báo Nhân Dân (11/07/2025); Báo Pháp luật (03/07/2024); Vietnam News (2019).

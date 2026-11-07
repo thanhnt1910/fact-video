@@ -1,0 +1,642 @@
+[
+ {
+  "slot": "S1",
+  "beats": "1,6",
+  "mo_ta": "Mặt trống đồng Ngọc Lũ, mặt trời 14 tia",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ngoc_Lu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1470,
+    "h": 1371,
+    "credit": "\"Ngoc Lu.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:Ngoc_Lu.jpg)",
+    "text": "File:Ngoc Lu.jpg NGỌC LŨ BRONZE DRUM\nBình Lục District, Hà Nam Province\n\nh: 63cm, d: 79.3cm"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cover_of_Ngoc_Lu_jar%2C_from_about_2500_years_ago_-_Vietnam_National_Museum_of_Fine_Arts_-_Hanoi%2C_Vietnam_-_DSC04742.JPG/1920px-Cover_of_Ngoc_Lu_jar%2C_from_about_2500_years_ago_-_Vietnam_National_Museum_of_Fine_Arts_-_Hanoi%2C_Vietnam_-_DSC04742.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3779,
+    "h": 3612,
+    "credit": "\"Cover of Ngoc Lu jar, from about 2500 years ago - Vietnam National Museum of Fine Arts - Hanoi, Vietnam - DSC04742.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Cover_of_Ngoc_Lu_jar,_from_about_2500_years_ago_-_Vietnam_National_Museum_of_Fine_Arts_-_Hanoi,_Vietnam_-_DSC04742.JPG)",
+    "text": "File:Cover of Ngoc Lu jar, from about 2500 years ago - Vietnam National Museum of Fine Arts - Hanoi, Vietnam - DSC04742.JPG Exhibit in the Vietnam National Museum of Fine Arts - Hanoi, Vietnam. This a"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Vietcommunity_rose_festival_01.jpg/1920px-Vietcommunity_rose_festival_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2816,
+    "h": 2112,
+    "credit": "\"Vietcommunity rose festival 01.jpg\" – Motthoangwehuong at vi.wikipedia, Public domain (https://commons.wikimedia.org/wiki/File:Vietcommunity_rose_festival_01.jpg)",
+    "text": "File:Vietcommunity rose festival 01.jpg Lễ hoa hồng Portland June 6, 2009 - Xe hoa cộng đồng Việt Nam tại Oregon có tên là Freedom Bird có hình chim Việt được thấy khắt trên trống đồng Ngọc Lũ"
+   }
+  ]
+ },
+ {
+  "slot": "S2",
+  "beats": "2,10",
+  "mo_ta": "Trống đồng Đông Sơn trong bảo tàng",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Dong_Son_Bronze_Drum_19.jpg/1920px-Dong_Son_Bronze_Drum_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 19.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_19.jpg)",
+    "text": "File:Dong Son Bronze Drum 19.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Dong_Son_Bronze_Drum_14.jpg/1920px-Dong_Son_Bronze_Drum_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 14.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_14.jpg)",
+    "text": "File:Dong Son Bronze Drum 14.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Dong_Son_Bronze_Drum_10.jpg/1920px-Dong_Son_Bronze_Drum_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 10.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_10.jpg)",
+    "text": "File:Dong Son Bronze Drum 10.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Dong_Son_Bronze_Drum_09.jpg/1920px-Dong_Son_Bronze_Drum_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 09.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_09.jpg)",
+    "text": "File:Dong Son Bronze Drum 09.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Dong_Son_Bronze_Drum_03.jpg/1920px-Dong_Son_Bronze_Drum_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 03.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_03.jpg)",
+    "text": "File:Dong Son Bronze Drum 03.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dong_Son_Bronze_Drum_07.jpg/1920px-Dong_Son_Bronze_Drum_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 07.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_07.jpg)",
+    "text": "File:Dong Son Bronze Drum 07.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Dong_Son_Bronze_Drum_18.jpg/1920px-Dong_Son_Bronze_Drum_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 18.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_18.jpg)",
+    "text": "File:Dong Son Bronze Drum 18.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Dong_Son_Bronze_Drum_13.jpg/1920px-Dong_Son_Bronze_Drum_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 13.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_13.jpg)",
+    "text": "File:Dong Son Bronze Drum 13.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Dong_Son_Bronze_Drum_05.jpg/1920px-Dong_Son_Bronze_Drum_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 05.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_05.jpg)",
+    "text": "File:Dong Son Bronze Drum 05.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Dong_Son_Bronze_Drum_12.jpg/1920px-Dong_Son_Bronze_Drum_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 12.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_12.jpg)",
+    "text": "File:Dong Son Bronze Drum 12.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dong_Son_Bronze_Drum_11.jpg/1920px-Dong_Son_Bronze_Drum_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 11.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_11.jpg)",
+    "text": "File:Dong Son Bronze Drum 11.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Dong_Son_Bronze_Drum_04.jpg/1920px-Dong_Son_Bronze_Drum_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 04.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_04.jpg)",
+    "text": "File:Dong Son Bronze Drum 04.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Dong_Son_Bronze_Drum_16.jpg/1920px-Dong_Son_Bronze_Drum_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 16.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_16.jpg)",
+    "text": "File:Dong Son Bronze Drum 16.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Dong_Son_Bronze_Drum_01.jpg/1920px-Dong_Son_Bronze_Drum_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 01.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_01.jpg)",
+    "text": "File:Dong Son Bronze Drum 01.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Dong_Son_Bronze_Drum_17.jpg/1920px-Dong_Son_Bronze_Drum_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 17.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_17.jpg)",
+    "text": "File:Dong Son Bronze Drum 17.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Dong_Son_Bronze_Drum_08.jpg/1920px-Dong_Son_Bronze_Drum_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Drum 08.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Drum_08.jpg)",
+    "text": "File:Dong Son Bronze Drum 08.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   }
+  ]
+ },
+ {
+  "slot": "S3",
+  "beats": "3",
+  "mo_ta": "Di chỉ Đông Sơn, sông Mã, Thanh Hóa",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/S%C3%B4ng_M%C3%A3_05.jpg/1920px-S%C3%B4ng_M%C3%A3_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2688,
+    "h": 1520,
+    "credit": "\"Sông Mã 05.jpg\" – Gió Đông (thảo luận), CC BY 3.0 (https://commons.wikimedia.org/wiki/File:S%C3%B4ng_M%C3%A3_05.jpg)",
+    "text": "File:Sông Mã 05.jpg Cầu phao bắc qua sông Mã nối các xã Ái Thượng và Hạ Trung của huyện Bá Thước, Thanh Hóa"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/C%E1%BB%ADa_bi%E1%BB%83n_L%E1%BA%A1ch_Sung_-_Thanh_H%C3%B3a_-_Vi%E1%BB%87t_Nam.JPG/1920px-C%E1%BB%ADa_bi%E1%BB%83n_L%E1%BA%A1ch_Sung_-_Thanh_H%C3%B3a_-_Vi%E1%BB%87t_Nam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3888,
+    "h": 2592,
+    "credit": "\"Cửa biển Lạch Sung - Thanh Hóa - Việt Nam.JPG\" – Gió Đông (thảo luận), Public domain (https://commons.wikimedia.org/wiki/File:C%E1%BB%ADa_bi%E1%BB%83n_L%E1%BA%A1ch_Sung_-_Thanh_H%C3%B3a_-_Vi%E1%BB%87t_Nam.JPG)",
+    "text": "File:Cửa biển Lạch Sung - Thanh Hóa - Việt Nam.JPG Cửa biển Lạch Sung, nơi con sông Lèn (một nhánh của hệ thống sông Mã) đổ ra biển Đông. Một bên bờ là Hậu Lộc, một bên bờ là Nga Sơn, Thanh Hóa"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Pont_de_chemin_de_fer_sur_le_Song-Ma_%28Tonkin%29.jpg/1920px-Pont_de_chemin_de_fer_sur_le_Song-Ma_%28Tonkin%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2672,
+    "h": 1918,
+    "credit": "\"Pont de chemin de fer sur le Song-Ma (Tonkin).jpg\" – không rõ, Public domain (https://commons.wikimedia.org/wiki/File:Pont_de_chemin_de_fer_sur_le_Song-Ma_(Tonkin).jpg)",
+    "text": "File:Pont de chemin de fer sur le Song-Ma (Tonkin).jpg Fig.1 – Song-Ma River Bridge [Nam-Dinh–Vinh Railway (Tonkin)]"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/L%E1%BB%B1a_hoa_t%E1%BA%BFt_%286736029953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1004,
+    "credit": "\"Lựa hoa tết (6736029953).jpg\" – Tri Nguyen from San Jose, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:L%E1%BB%B1a_hoa_t%E1%BA%BFt_(6736029953).jpg)",
+    "text": "File:Lựa hoa tết (6736029953).jpg Tết đến nhà nhà người người lại đi mua hoa về chưng mấy ngày tết cho vui nhà và hưởng sắc xuân rực rỡ cũng là đón nhận năm mới tràng đầy sức sống mới nhiều may mắn và"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Quanh_vi%E1%BB%87c_di%E1%BB%85n_k%E1%BB%8Bch_gi%C3%BAp_n%E1%BA%A1n-d%C3%A2n_Trung-k%E1%BB%B3._B%C3%A0-con_Had%C3%B4ng_mu%E1%BB%91n_bi%E1%BA%BFt_r%C3%B5_k%E1%BA%BFt-qu%E1%BA%A3_hai_t%E1%BB%91i_h%C3%A1t_%E1%BA%A5y._HTNB_16-03-1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 735,
+    "h": 1059,
+    "credit": "\"Quanh việc diễn kịch giúp nạn-dân Trung-kỳ. Bà-con Hadông muốn biết rõ kết-quả hai tối hát ấy. HTNB 16-03-1935.jpg\" – M. Ph. (Hà Thành Ngọ Báo, 16-03-1935), Public domain (https://commons.wikimedia.org/wiki/File:Quanh_vi%E1%BB%87c_di%E1%BB%85n_k%E1%BB%8Bch_gi%C3%BAp_n%E1%BA%A1n-d%C3%A2n_Trung-k%E1%BB%B3._B%C3%A0-con_Had%C3%B4ng_mu%E1%BB%91n_bi%E1%BA%BFt_r%C3%B5_k%E1%BA%BFt-qu%E1%BA%A3_hai_t%E1%BB%91i_h%C3%A1t_%E1%BA%A5y._HTNB_16-03-1935.jpg)",
+    "text": "File:Quanh việc diễn kịch giúp nạn-dân Trung-kỳ. Bà-con Hadông muốn biết rõ kết-quả hai tối hát ấy. HTNB 16-03-1935.jpg Quanh việc diễn kịch giúp nạn-dân Trung-kỳ : Bà-con Hadông muốn biết rõ kết-quả "
+   },
+   {
+    "so": 5,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/C%C3%B4_ch%E1%BB%A7_h%C3%A0ng_hoa_%286736026907%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1500,
+    "credit": "\"Cô chủ hàng hoa (6736026907).jpg\" – Tri Nguyen from San Jose, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:C%C3%B4_ch%E1%BB%A7_h%C3%A0ng_hoa_(6736026907).jpg)",
+    "text": "File:Cô chủ hàng hoa (6736026907).jpg Tết đến nhà nhà người người lại đi mua hoa về chưng mấy ngày tết cho vui nhà và hưởng sắc xuân rực rỡ cũng là đón nhận năm mới tràng đầy sức sống mới nhiều may mắ"
+   },
+   {
+    "so": 6,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ng%C6%B0%E1%BB%9Di_b%C3%A1n_hoa_c%C3%BAc_%286736179515%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1004,
+    "h": 1500,
+    "credit": "\"Người bán hoa cúc (6736179515).jpg\" – Tri Nguyen from San Jose, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ng%C6%B0%E1%BB%9Di_b%C3%A1n_hoa_c%C3%BAc_(6736179515).jpg)",
+    "text": "File:Người bán hoa cúc (6736179515).jpg Tết đến nhà nhà người người lại đi mua hoa về chưng mấy ngày tết cho vui nhà và hưởng sắc xuân rực rỡ cũng là đón nhận năm mới tràng đầy sức sống mới nhiều may "
+   },
+   {
+    "so": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/%C4%90i_mua_hoa_%C4%91%C3%A2y_%286734973287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1200,
+    "credit": "\"Đi mua hoa đây (6734973287).jpg\" – Tri Nguyen from San Jose, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:%C4%90i_mua_hoa_%C4%91%C3%A2y_(6734973287).jpg)",
+    "text": "File:Đi mua hoa đây (6734973287).jpg Tết đến nhà nhà người người lại đi mua hoa về chưng mấy ngày tết cho vui nhà và hưởng sắc xuân rực rỡ cũng là đón nhận năm mới tràng đầy sức sống mới nhiều may mắn"
+   },
+   {
+    "so": 8,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ng%C6%B0%E1%BB%A3c_xu%C3%B4i_mua_hoa_%286736296171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1500,
+    "credit": "\"Ngược xuôi mua hoa (6736296171).jpg\" – Tri Nguyen from San Jose, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ng%C6%B0%E1%BB%A3c_xu%C3%B4i_mua_hoa_(6736296171).jpg)",
+    "text": "File:Ngược xuôi mua hoa (6736296171).jpg Tết đến nhà nhà người người lại đi mua hoa về chưng mấy ngày tết cho vui nhà và hưởng sắc xuân rực rỡ cũng là đón nhận năm mới tràng đầy sức sống mới nhiều may"
+   },
+   {
+    "so": 9,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/V%E1%BB%A3_ch%E1%BB%93ng_tr%E1%BA%BB_ch%E1%BB%8Dn_%C4%91%C6%B0%E1%BB%A3c_m%E1%BB%99t_ch%E1%BA%ADu_hoa_%286736176903%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1500,
+    "h": 1004,
+    "credit": "\"Vợ chồng trẻ chọn được một chậu hoa (6736176903).jpg\" – Tri Nguyen from San Jose, United States, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:V%E1%BB%A3_ch%E1%BB%93ng_tr%E1%BA%BB_ch%E1%BB%8Dn_%C4%91%C6%B0%E1%BB%A3c_m%E1%BB%99t_ch%E1%BA%ADu_hoa_(6736176903).jpg)",
+    "text": "File:Vợ chồng trẻ chọn được một chậu hoa (6736176903).jpg Tết đến nhà nhà người người lại đi mua hoa về chưng mấy ngày tết cho vui nhà và hưởng sắc xuân rực rỡ cũng là đón nhận năm mới tràng đầy sức s"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Dong_Son_Bronze_Funerary_Artifacts_07.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Funerary Artifacts 07.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_07.jpg)",
+    "text": "File:Dong Son Bronze Funerary Artifacts 07.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Dong_Son_Bronze_Funerary_Artifacts_03.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Funerary Artifacts 03.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_03.jpg)",
+    "text": "File:Dong Son Bronze Funerary Artifacts 03.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Dong_Son_Bronze_Funerary_Artifacts_09.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Funerary Artifacts 09.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_09.jpg)",
+    "text": "File:Dong Son Bronze Funerary Artifacts 09.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Dong_Son_Bronze_Funerary_Artifacts_04.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Funerary Artifacts 04.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_04.jpg)",
+    "text": "File:Dong Son Bronze Funerary Artifacts 04.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dong_Son_Bronze_Funerary_Artifacts_08.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Funerary Artifacts 08.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_08.jpg)",
+    "text": "File:Dong Son Bronze Funerary Artifacts 08.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dong_Son_Bronze_Funerary_Artifacts_05.jpg/1920px-Dong_Son_Bronze_Funerary_Artifacts_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5184,
+    "h": 3456,
+    "credit": "\"Dong Son Bronze Funerary Artifacts 05.jpg\" – Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Dong_Son_Bronze_Funerary_Artifacts_05.jpg)",
+    "text": "File:Dong Son Bronze Funerary Artifacts 05.jpg Dong Son Culture to Tran Dynasty Gallery, National History Museum of Vietnam, Hanoi. Complete indexed photo collection at WorldHistoryPics.com."
+   }
+  ]
+ },
+ {
+  "slot": "S4",
+  "beats": "4",
+  "mo_ta": "Đê sông ở Hà Nam, vùng Lý Nhân",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/DeSongHong-06112008335.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 2048,
+    "credit": "\"DeSongHong-06112008335.JPG\" – vi:User:Newone, Public domain (https://commons.wikimedia.org/wiki/File:DeSongHong-06112008335.JPG)",
+    "text": "File:DeSongHong-06112008335.JPG Đê sông Hồng, đoạn gần chợ Bồ Đề"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/DeSongHong-06112008336.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 2048,
+    "credit": "\"DeSongHong-06112008336.JPG\" – vi:User:Newone, Public domain (https://commons.wikimedia.org/wiki/File:DeSongHong-06112008336.JPG)",
+    "text": "File:DeSongHong-06112008336.JPG Đê sông Hồng, đoạn gần chợ Bồ Đề"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/DeSongHong-06112008337.JPG/1920px-DeSongHong-06112008337.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 1536,
+    "credit": "\"DeSongHong-06112008337.JPG\" – vi:User:Newone, Public domain (https://commons.wikimedia.org/wiki/File:DeSongHong-06112008337.JPG)",
+    "text": "File:DeSongHong-06112008337.JPG Đê sông Hồng, đoạn gần chợ Bồ Đề"
+   },
+   {
+    "so": 3,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ngoc_Lu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1470,
+    "h": 1371,
+    "credit": "\"Ngoc Lu.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:Ngoc_Lu.jpg)",
+    "text": "File:Ngoc Lu.jpg NGỌC LŨ BRONZE DRUM\nBình Lục District, Hà Nam Province\n\nh: 63cm, d: 79.3cm"
+   }
+  ]
+ },
+ {
+  "slot": "S5",
+  "beats": "5",
+  "mo_ta": "Trường Viễn Đông Bác Cổ, bảo tàng Louis Finot",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Year-end_party_for_Asian_officials_working_at_EFEO%2C_December_23%2C_1939.jpg/1920px-Year-end_party_for_Asian_officials_working_at_EFEO%2C_December_23%2C_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2048,
+    "h": 1433,
+    "credit": "\"Year-end party for Asian officials working at EFEO, December 23, 1939.jpg\" – Unknown photographer, Public domain (https://commons.wikimedia.org/wiki/File:Year-end_party_for_Asian_officials_working_at_EFEO,_December_23,_1939.jpg)",
+    "text": "File:Year-end party for Asian officials working at EFEO, December 23, 1939.jpg Bữa tiệc cuối năm của các viên chức người Châu Á làm việc tại EFEO, ngày 23/12/1939 tại Khách sạn Lạc Xuân, 57 Phố Hàng B"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Vietnam_National_Museum_of_History%2C_Hanoi%2C_Vietnam.jpg/1920px-Vietnam_National_Museum_of_History%2C_Hanoi%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4272,
+    "h": 2848,
+    "credit": "\"Vietnam National Museum of History, Hanoi, Vietnam.jpg\" – Alistair Morrenger, Public domain (https://commons.wikimedia.org/wiki/File:Vietnam_National_Museum_of_History,_Hanoi,_Vietnam.jpg)",
+    "text": "File:Vietnam National Museum of History, Hanoi, Vietnam.jpg Vietnam National Museum of History, Hanoi, Vietnam"
+   },
+   {
+    "so": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/EFEO_members._L%C3%A9vi%2C_Aurousseau%2C_Finot%2C_Demi%C3%A9ville%2C_Bagchi%2C_L%C3%A9vi%2C_Leuba%2C_Van_Goor%2C_Parmentier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 902,
+    "h": 752,
+    "credit": "\"EFEO members. Lévi, Aurousseau, Finot, Demiéville, Bagchi, Lévi, Leuba, Van Goor, Parmentier.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:EFEO_members._L%C3%A9vi,_Aurousseau,_Finot,_Demi%C3%A9ville,_Bagchi,_L%C3%A9vi,_Leuba,_Van_Goor,_Parmentier.jpg)",
+    "text": "File:EFEO members. Lévi, Aurousseau, Finot, Demiéville, Bagchi, Lévi, Leuba, Van Goor, Parmentier.jpg Sylvain Lévi, Léonard Aurousseau, Louis Finot, Paul Demiéville, Prabodh Chandra Bagchi, in the fir"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Templo_de_la_Literatura%2C_Hanoi%2C_Vietnam_%2836734844266%29.jpg/1920px-Templo_de_la_Literatura%2C_Hanoi%2C_Vietnam_%2836734844266%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4420,
+    "h": 3315,
+    "credit": "\"Templo de la Literatura, Hanoi, Vietnam (36734844266).jpg\" – Edgardo W. Olivera from Montevideo, Uruguay, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Templo_de_la_Literatura,_Hanoi,_Vietnam_(36734844266).jpg)",
+    "text": "File:Templo de la Literatura, Hanoi, Vietnam (36734844266).jpg El templo de la Literatura (Van Mieu) es un templo de Confucio en Hanoi que alberga la Academia Imperial (Quoc Tu Giam), la primera unive"
+   },
+   {
+    "so": 4,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/National_Museum%2C_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1655,
+    "h": 1787,
+    "credit": "\"National Museum, Hanoi.jpg\" – Eustaquio Santimano, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:National_Museum,_Hanoi.jpg)",
+    "text": "File:National Museum, Hanoi.jpg Best viewed with Black background (Slide show).\nLocation: National Museum of Vietnamese history, Hanoi\nThe National Museum of Vietnamese History (Vietnamese: Viện Bảo t"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/National_Museum_of_Vietnamese_History%2C_September_2017._47.jpg/1920px-National_Museum_of_Vietnamese_History%2C_September_2017._47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"National Museum of Vietnamese History, September 2017. 47.jpg\" – Amenoc, CC0 (https://commons.wikimedia.org/wiki/File:National_Museum_of_Vietnamese_History,_September_2017._47.jpg)",
+    "text": "File:National Museum of Vietnamese History, September 2017. 47.jpg National Museum of Vietnamese History"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/National_Museum_of_Vietnamese_History%2C_September_2017._10.jpg/1920px-National_Museum_of_Vietnamese_History%2C_September_2017._10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"National Museum of Vietnamese History, September 2017. 10.jpg\" – Amenoc, CC0 (https://commons.wikimedia.org/wiki/File:National_Museum_of_Vietnamese_History,_September_2017._10.jpg)",
+    "text": "File:National Museum of Vietnamese History, September 2017. 10.jpg National Museum of Vietnamese History"
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/National_Museum_of_Vietnamese_History%2C_September_2017._11.jpg/1920px-National_Museum_of_Vietnamese_History%2C_September_2017._11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"National Museum of Vietnamese History, September 2017. 11.jpg\" – Amenoc, CC0 (https://commons.wikimedia.org/wiki/File:National_Museum_of_Vietnamese_History,_September_2017._11.jpg)",
+    "text": "File:National Museum of Vietnamese History, September 2017. 11.jpg National Museum of Vietnamese History"
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/National_Museum_of_Vietnamese_History%2C_September_2017._36.jpg/1920px-National_Museum_of_Vietnamese_History%2C_September_2017._36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2448,
+    "h": 3264,
+    "credit": "\"National Museum of Vietnamese History, September 2017. 36.jpg\" – Amenoc, CC0 (https://commons.wikimedia.org/wiki/File:National_Museum_of_Vietnamese_History,_September_2017._36.jpg)",
+    "text": "File:National Museum of Vietnamese History, September 2017. 36.jpg National Museum of Vietnamese History"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/National_Museum_of_Vietnamese_History%2C_September_2017._09.jpg/1920px-National_Museum_of_Vietnamese_History%2C_September_2017._09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3264,
+    "h": 2448,
+    "credit": "\"National Museum of Vietnamese History, September 2017. 09.jpg\" – Amenoc, CC0 (https://commons.wikimedia.org/wiki/File:National_Museum_of_Vietnamese_History,_September_2017._09.jpg)",
+    "text": "File:National Museum of Vietnamese History, September 2017. 09.jpg National Museum of Vietnamese History"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Interior_view_-_National_Museum_of_Vietnamese_History_-_DSC05468.JPG/1920px-Interior_view_-_National_Museum_of_Vietnamese_History_-_DSC05468.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5472,
+    "h": 2990,
+    "credit": "\"Interior view - National Museum of Vietnamese History - DSC05468.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Interior_view_-_National_Museum_of_Vietnamese_History_-_DSC05468.JPG)",
+    "text": "File:Interior view - National Museum of Vietnamese History - DSC05468.JPG National Museum of Vietnamese History - Hanoi, Vietnam."
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Interior_view_-_National_Museum_of_Vietnamese_History_-_DSC05408.JPG/1920px-Interior_view_-_National_Museum_of_Vietnamese_History_-_DSC05408.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5472,
+    "h": 3648,
+    "credit": "\"Interior view - National Museum of Vietnamese History - DSC05408.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Interior_view_-_National_Museum_of_Vietnamese_History_-_DSC05408.JPG)",
+    "text": "File:Interior view - National Museum of Vietnamese History - DSC05408.JPG National Museum of Vietnamese History - Hanoi, Vietnam."
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Exterior_view_-_National_Museum_of_Vietnamese_History_-_DSC05754.JPG/1920px-Exterior_view_-_National_Museum_of_Vietnamese_History_-_DSC05754.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5472,
+    "h": 3648,
+    "credit": "\"Exterior view - National Museum of Vietnamese History - DSC05754.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Exterior_view_-_National_Museum_of_Vietnamese_History_-_DSC05754.JPG)",
+    "text": "File:Exterior view - National Museum of Vietnamese History - DSC05754.JPG National Museum of Vietnamese History - Hanoi, Vietnam."
+   }
+  ]
+ },
+ {
+  "slot": "S6",
+  "beats": "7",
+  "mo_ta": "Hoa văn trống đồng: người giã gạo, cảnh lễ hội",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/%C4%90%E1%BB%81n_%C3%94ng_Ho%C3%A0ng_B%E1%BA%A9y.jpg/1920px-%C4%90%E1%BB%81n_%C3%94ng_Ho%C3%A0ng_B%E1%BA%A9y.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4288,
+    "h": 2848,
+    "credit": "\"Đền Ông Hoàng Bẩy.jpg\" – Bem photography:, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_%C3%94ng_Ho%C3%A0ng_B%E1%BA%A9y.jpg)",
+    "text": "File:Đền Ông Hoàng Bẩy.jpg Ông Hoàng Bảy thực sự là ai cho đến nay vẫn là một bí ẩn, dù trong dân gian có nhiều câu chuyện truyền kỳ khác nhau giải đáp điều này. Người Bảo Hà chỉ biết ông Hoàng Bảy là"
+   }
+  ]
+ },
+ {
+  "slot": "S7",
+  "beats": "8",
+  "mo_ta": "Hoa văn thuyền, người hóa trang trên thân trống",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/HoangHaBronzeDrum.jpg/1920px-HoangHaBronzeDrum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 1998,
+    "h": 1164,
+    "credit": "\"HoangHaBronzeDrum.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:HoangHaBronzeDrum.jpg)",
+    "text": "File:HoangHaBronzeDrum.jpg HOÀNG HẠ BRONZE DRUM \nHòa Bình Province\n\nh: 61.5cm, d: 79cm"
+   },
+   {
+    "so": 1,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/HoangHa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 1536,
+    "h": 1470,
+    "credit": "\"HoangHa.jpg\" – VuThiAnh, Public domain (https://commons.wikimedia.org/wiki/File:HoangHa.jpg)",
+    "text": "File:HoangHa.jpg HOÀNG HẠ BRONZE DRUM\nHòa Bình Province\n\nh: 61.5cm, d: 79cm"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/V%E1%BB%81_s%E1%BA%AFc_phong_%C4%91%E1%BB%81n_th%E1%BB%9D_v%E1%BB%8B_th%E1%BA%A7n_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%E1%BB%9F_n%C6%B0%E1%BB%9Bc_ta_-_Quang_Trung_Tam_ni%C3%AAn_th%E1%BA%ADp_nguy%E1%BB%87t_th%E1%BA%ADp_nh%E1%BB%8B_nh%E1%BA%ADt.jpg/1920px-V%E1%BB%81_s%E1%BA%AFc_phong_%C4%91%E1%BB%81n_th%E1%BB%9D_v%E1%BB%8B_th%E1%BA%A7n_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%E1%BB%9F_n%C6%B0%E1%BB%9Bc_ta_-_Quang_Trung_Tam_ni%C3%AAn_th%E1%BA%ADp_nguy%E1%BB%87t_th%E1%BA%ADp_nh%E1%BB%8B_nh%E1%BA%ADt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2244,
+    "h": 848,
+    "credit": "\"Về sắc phong đền thờ vị thần trống đồng ở nước ta - Quang Trung Tam niên thập nguyệt thập nhị nhật.jpg\" – The Việt Emperor., Public domain (https://commons.wikimedia.org/wiki/File:V%E1%BB%81_s%E1%BA%AFc_phong_%C4%91%E1%BB%81n_th%E1%BB%9D_v%E1%BB%8B_th%E1%BA%A7n_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%E1%BB%9F_n%C6%B0%E1%BB%9Bc_ta_-_Quang_Trung_Tam_ni%C3%AAn_th%E1%BA%ADp_nguy%E1%BB%87t_th%E1%BA%ADp_nh%E1%BB%8B_nh%E1%BA%ADt.jpg)",
+    "text": "File:Về sắc phong đền thờ vị thần trống đồng ở nước ta - Quang Trung Tam niên thập nguyệt thập nhị nhật.jpg A Sắc phong issued for a temple worshipping the God of Bronze Drums; its inscription, writte"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/V%E1%BB%81_s%E1%BA%AFc_phong_%C4%91%E1%BB%81n_th%E1%BB%9D_v%E1%BB%8B_th%E1%BA%A7n_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%E1%BB%9F_n%C6%B0%E1%BB%9Bc_ta_-_C%E1%BA%A3nh_H%C6%B0ng_t%E1%BB%A9_th%E1%BA%ADp_t%E1%BB%A9_ni%C3%AAn_ng%C5%A9_nguy%E1%BB%87t_th%E1%BA%ADp_l%E1%BB%A5c_nh%E1%BA%ADt.jpg/1920px-V%E1%BB%81_s%E1%BA%AFc_phong_%C4%91%E1%BB%81n_th%E1%BB%9D_v%E1%BB%8B_th%E1%BA%A7n_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%E1%BB%9F_n%C6%B0%E1%BB%9Bc_ta_-_C%E1%BA%A3nh_H%C6%B0ng_t%E1%BB%A9_th%E1%BA%ADp_t%E1%BB%A9_ni%C3%AAn_ng%C5%A9_nguy%E1%BB%87t_th%E1%BA%ADp_l%E1%BB%A5c_nh%E1%BA%ADt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 2247,
+    "h": 811,
+    "credit": "\"Về sắc phong đền thờ vị thần trống đồng ở nước ta - Cảnh Hưng tứ thập tứ niên ngũ nguyệt thập lục nhật.jpg\" – The Việt Emperor., Public domain (https://commons.wikimedia.org/wiki/File:V%E1%BB%81_s%E1%BA%AFc_phong_%C4%91%E1%BB%81n_th%E1%BB%9D_v%E1%BB%8B_th%E1%BA%A7n_tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%E1%BB%9F_n%C6%B0%E1%BB%9Bc_ta_-_C%E1%BA%A3nh_H%C6%B0ng_t%E1%BB%A9_th%E1%BA%ADp_t%E1%BB%A9_ni%C3%AAn_ng%C5%A9_nguy%E1%BB%87t_th%E1%BA%ADp_l%E1%BB%A5c_nh%E1%BA%ADt.jpg)",
+    "text": "File:Về sắc phong đền thờ vị thần trống đồng ở nước ta - Cảnh Hưng tứ thập tứ niên ngũ nguyệt thập lục nhật.jpg A Sắc phong issued for a temple worshipping the God of Bronze Drums; its inscription, wr"
+   }
+  ]
+ },
+ {
+  "slot": "S8",
+  "beats": "9",
+  "mo_ta": "Bảo tàng Lịch sử Quốc gia Hà Nội",
+  "candidates": [
+   {
+    "so": 0,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Vietnam_National_Museum_of_History%2C_Hanoi%2C_Vietnam.jpg/1920px-Vietnam_National_Museum_of_History%2C_Hanoi%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4272,
+    "h": 2848,
+    "credit": "\"Vietnam National Museum of History, Hanoi, Vietnam.jpg\" – Alistair Morrenger, Public domain (https://commons.wikimedia.org/wiki/File:Vietnam_National_Museum_of_History,_Hanoi,_Vietnam.jpg)",
+    "text": "File:Vietnam National Museum of History, Hanoi, Vietnam.jpg Vietnam National Museum of History, Hanoi, Vietnam"
+   },
+   {
+    "so": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/National_Flag_of_Vietnam_%281945%29_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05587.JPG/1920px-National_Flag_of_Vietnam_%281945%29_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05587.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4586,
+    "h": 3312,
+    "credit": "\"National Flag of Vietnam (1945) - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05587.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:National_Flag_of_Vietnam_(1945)_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05587.JPG)",
+    "text": "File:National Flag of Vietnam (1945) - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05587.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photography was permi"
+   },
+   {
+    "so": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Hanoi_-_Vietnam_National_Museum_of_History.jpg/1920px-Hanoi_-_Vietnam_National_Museum_of_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 4288,
+    "h": 2848,
+    "credit": "\"Hanoi - Vietnam National Museum of History.jpg\" – P. Hughes, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Hanoi_-_Vietnam_National_Museum_of_History.jpg)",
+    "text": "File:Hanoi - Vietnam National Museum of History.jpg Vietnam National Museum of History in Hanoi, Vietnam"
+   },
+   {
+    "so": 3,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Bells_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05644.JPG/1920px-Bells_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05644.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5472,
+    "h": 3648,
+    "credit": "\"Bells - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05644.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Bells_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05644.JPG)",
+    "text": "File:Bells - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05644.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photography was permitted in the museum without"
+   },
+   {
+    "so": 4,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Outdoor_exhibits_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05758.JPG/1920px-Outdoor_exhibits_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05758.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 5472,
+    "credit": "\"Outdoor exhibits - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05758.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Outdoor_exhibits_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05758.JPG)",
+    "text": "File:Outdoor exhibits - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05758.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photography was permitted in the mus"
+   },
+   {
+    "so": 5,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Buddha_statue%2C_4th-6th_century%2C_view_2%2C_wood_-_National_Museum_of_Vietnamese_History_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05745.JPG/1920px-Buddha_statue%2C_4th-6th_century%2C_view_2%2C_wood_-_National_Museum_of_Vietnamese_History_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05745.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3616,
+    "h": 5386,
+    "credit": "\"Buddha statue, 4th-6th century, view 2, wood - National Museum of Vietnamese History - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05745.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Buddha_statue,_4th-6th_century,_view_2,_wood_-_National_Museum_of_Vietnamese_History_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05745.JPG)",
+    "text": "File:Buddha statue, 4th-6th century, view 2, wood - National Museum of Vietnamese History - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05745.JPG Exhibit in the National Museum of Viet"
+   },
+   {
+    "so": 6,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Bronze_drums_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05557.JPG/1920px-Bronze_drums_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05557.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5472,
+    "h": 3648,
+    "credit": "\"Bronze drums - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05557.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Bronze_drums_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05557.JPG)",
+    "text": "File:Bronze drums - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05557.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photography was permitted in the museum "
+   },
+   {
+    "so": 7,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Bell_for_ritual_use_%28replica%29%2C_Thanh_Mai_pagoda%2C_Ha_Tay_province%2C_cast_in_798_AD%2C_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05548.JPG/1920px-Bell_for_ritual_use_%28replica%29%2C_Thanh_Mai_pagoda%2C_Ha_Tay_province%2C_cast_in_798_AD%2C_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05548.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 5472,
+    "credit": "\"Bell for ritual use (replica), Thanh Mai pagoda, Ha Tay province, cast in 798 AD, bronze - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05548.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Bell_for_ritual_use_(replica),_Thanh_Mai_pagoda,_Ha_Tay_province,_cast_in_798_AD,_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05548.JPG)",
+    "text": "File:Bell for ritual use (replica), Thanh Mai pagoda, Ha Tay province, cast in 798 AD, bronze - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05548.JPG Exhibit in the National Museum of "
+   },
+   {
+    "so": 8,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tiger_embroidery%2C_Nguyen_dynasty%2C_20th_century_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05589.JPG/1920px-Tiger_embroidery%2C_Nguyen_dynasty%2C_20th_century_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05589.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5472,
+    "h": 3648,
+    "credit": "\"Tiger embroidery, Nguyen dynasty, 20th century - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05589.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Tiger_embroidery,_Nguyen_dynasty,_20th_century_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05589.JPG)",
+    "text": "File:Tiger embroidery, Nguyen dynasty, 20th century - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05589.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photog"
+   },
+   {
+    "so": 9,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Coins%2C_Ly_dynasty%2C_1010-1225_AD%2C_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05536.JPG/1920px-Coins%2C_Ly_dynasty%2C_1010-1225_AD%2C_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05536.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5451,
+    "h": 2561,
+    "credit": "\"Coins, Ly dynasty, 1010-1225 AD, bronze - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05536.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Coins,_Ly_dynasty,_1010-1225_AD,_bronze_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05536.JPG)",
+    "text": "File:Coins, Ly dynasty, 1010-1225 AD, bronze - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05536.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photography w"
+   },
+   {
+    "so": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Head_of_Buddha_figurine%2C_Ly-Tran_dynasty%2C_11th-14th_century_AD%2C_terracotta_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05432.JPG/1920px-Head_of_Buddha_figurine%2C_Ly-Tran_dynasty%2C_11th-14th_century_AD%2C_terracotta_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05432.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3305,
+    "h": 4345,
+    "credit": "\"Head of Buddha figurine, Ly-Tran dynasty, 11th-14th century AD, terracotta - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05432.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Head_of_Buddha_figurine,_Ly-Tran_dynasty,_11th-14th_century_AD,_terracotta_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05432.JPG)",
+    "text": "File:Head of Buddha figurine, Ly-Tran dynasty, 11th-14th century AD, terracotta - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05432.JPG Exhibit in the National Museum of Vietnamese His"
+   },
+   {
+    "so": 11,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Spears_and_short_swords%2C_Dong_Son_culture%2C_bronze_and_iron_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05486.JPG/1920px-Spears_and_short_swords%2C_Dong_Son_culture%2C_bronze_and_iron_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05486.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 5337,
+    "h": 2396,
+    "credit": "\"Spears and short swords, Dong Son culture, bronze and iron - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05486.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Spears_and_short_swords,_Dong_Son_culture,_bronze_and_iron_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05486.JPG)",
+    "text": "File:Spears and short swords, Dong Son culture, bronze and iron - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05486.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vie"
+   },
+   {
+    "so": 12,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Buddha_statue%2C_6th-7th_century%2C_view_1%2C_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05734.JPG/1920px-Buddha_statue%2C_6th-7th_century%2C_view_1%2C_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05734.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 5472,
+    "credit": "\"Buddha statue, 6th-7th century, view 1, wood - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05734.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Buddha_statue,_6th-7th_century,_view_1,_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05734.JPG)",
+    "text": "File:Buddha statue, 6th-7th century, view 1, wood - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05734.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photogra"
+   },
+   {
+    "so": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Buddha_statue%2C_4th-6th_century%2C_view_1%2C_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05743.JPG/1920px-Buddha_statue%2C_4th-6th_century%2C_view_1%2C_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05743.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 5472,
+    "credit": "\"Buddha statue, 4th-6th century, view 1, wood - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05743.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Buddha_statue,_4th-6th_century,_view_1,_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05743.JPG)",
+    "text": "File:Buddha statue, 4th-6th century, view 1, wood - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05743.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photogra"
+   },
+   {
+    "so": 14,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Buddha_statue%2C_6th-7th_century%2C_view_2%2C_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05737.JPG/1920px-Buddha_statue%2C_6th-7th_century%2C_view_2%2C_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05737.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 5472,
+    "credit": "\"Buddha statue, 6th-7th century, view 2, wood - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05737.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Buddha_statue,_6th-7th_century,_view_2,_wood_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05737.JPG)",
+    "text": "File:Buddha statue, 6th-7th century, view 2, wood - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05737.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photogra"
+   },
+   {
+    "so": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Vishnu%2C_7th-9th_century_AD%2C_stone_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05748.JPG/1920px-Vishnu%2C_7th-9th_century_AD%2C_stone_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05748.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 3648,
+    "h": 5472,
+    "credit": "\"Vishnu, 7th-9th century AD, stone - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05748.JPG\" – Daderot, CC0 (https://commons.wikimedia.org/wiki/File:Vishnu,_7th-9th_century_AD,_stone_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05748.JPG)",
+    "text": "File:Vishnu, 7th-9th century AD, stone - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05748.JPG Exhibit in the National Museum of Vietnamese History, Hanoi, Vietnam. Photography was per"
+   }
+  ]
+ }
+]

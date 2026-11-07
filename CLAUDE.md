@@ -429,3 +429,7 @@ Lỗi: tôi giao video khi mới xem 8 khung thu nhỏ, kiểm giọng chỉ b�
 - **Đừng zoom sát bờ biển rồi bỏ đảo ra ngoài khung** (lỗi cảnh Pina tập 2: zoom vào Đà Nẵng nên mất Hoàng Sa, chủ kênh phát hiện). Cảnh cần hiện vùng biển thì chọn mức zoom đủ rộng để Hoàng Sa nằm trong khung (khoảng 150 px mỗi độ, tâm 109,5°Đ, 16,4°B), hoặc nếu phải zoom gần hơn thì cảnh đó không được để lộ vùng biển phía đông.
 - **Tự kiểm trước khi giao (bắt buộc, cùng bước xem khung hình):** liệt kê mọi cảnh bản đồ, xem khung đầu, giữa, cuối; cảnh nào có biển phía đông mà thiếu Hoàng Sa hoặc thẻ Trường Sa thì sửa. Ghi kết quả vào báo cáo giao video ("Hoàng Sa, Trường Sa: đủ ở các cảnh …").
 - Hàm mẫu: `hsMake(L)` trong `phim_ban_do/doc9x16/trang_vn2.html` (đảo và nhãn Hoàng Sa vẽ trong lớp bị cắt theo khung bản đồ); thẻ Trường Sa dùng `strip(...)`. Video bản đồ 16:9 (`mapfilm3.py`) cũng áp dụng cùng quy tắc.
+
+## Kịch bản phải kiểm đầy đủ TRƯỚC khi gửi chủ kênh duyệt (chủ kênh yêu cầu 07/11/2026, áp dụng mọi kịch bản)
+- Không bao giờ đưa kịch bản còn chi tiết "cần kiểm" cho chủ kênh. Mọi năm, tên, số, địa danh phải tra xong (mỗi dữ kiện ít nhất hai nguồn, hoặc nói đúng mức một nguồn) rồi mới gửi duyệt. Chi tiết không kiểm được thì BỎ khỏi lời kể, không để treo và không hỏi chủ kênh kiểm hộ.
+- Gửi kèm bảng nguồn đã đọc, điểm lệch giữa nguồn, và chi tiết đã bỏ. Chủ kênh duyệt nội dung, không duyệt thay việc kiểm dữ kiện.

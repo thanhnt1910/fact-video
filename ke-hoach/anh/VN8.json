@@ -1,0 +1,56 @@
+{
+ "id": "VN8",
+ "slots": [
+  {
+   "slot": "S1",
+   "beats": "1,2,3,4,5,6,7",
+   "mo_ta": "Bia tiến sĩ Văn Miếu – Quốc Tử Giám",
+   "queries": [
+    "Bia tiến sĩ Văn Miếu",
+    "Văn Miếu stelae turtles",
+    "Stone steles Temple of Literature Hanoi"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S2",
+   "beats": "8",
+   "mo_ta": "Khuê Văn Các Văn Miếu",
+   "queries": [
+    "Khuê Văn Các",
+    "Khue Van Cac Temple of Literature"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S3",
+   "beats": "3,4,5",
+   "mo_ta": "Bia tiến sĩ khắc chữ Hán, nội dung văn bia",
+   "queries": [
+    "Bia tiến sĩ khoa thi văn bia",
+    "Doctoral stele inscription Temple of Literature"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S4",
+   "beats": "6,7",
+   "mo_ta": "Hàng bia tiến sĩ trong nhà bia",
+   "queries": [
+    "Nhà bia Văn Miếu",
+    "Văn Miếu Quốc Tử Giám bia tiến sĩ"
+   ],
+   "subject": ""
+  },
+  {
+   "slot": "S5",
+   "beats": "9",
+   "mo_ta": "Văn Miếu Quốc Tử Giám toàn cảnh",
+   "queries": [
+    "Văn Miếu Quốc Tử Giám",
+    "Temple of Literature Hanoi"
+   ],
+   "subject": ""
+  }
+ ]
+}

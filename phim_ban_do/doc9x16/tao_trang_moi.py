@@ -3,7 +3,8 @@
 Ghép: phần đầu trang_vn7b.html (đến hàm S2) + _moi_map.js + canh_vnN.js + phần cuối (render)."""
 import sys,re
 N=int(sys.argv[1])
-CFG={3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
+CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
+     3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      4:(57000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      5:(58000,'Wikimedia Commons (CC0 / phạm vi công cộng)','VuThiAnh, Gary Todd (CC0) · Daaé'),
      6:(59000,'Wikimedia Commons (phạm vi công cộng / CC)',''),

@@ -449,3 +449,9 @@ Mẫu: `phim_ban_do/doc9x16/trang_vn7b.html` (#07, bản `out/vn7l_doc.mp4`). Ch
 - **Phụ đề:** cụm 2–3 chữ, chữ trắng viền tối cỡ 68, tên riêng và số nằm trên nền vàng đồng bo góc (chữ đen), bật lên nhẹ.
 - **Âm thanh nhấn (`sfx.py` loại `boom`):** sóng 45→35 Hz lên 50 ms tắt khoảng 300 ms, thêm thân 90–140 Hz cho loa điện thoại, tiếng giấy quét 0,25 s báo trước và tiếng tách đúng lúc đập. Khoảng 10 cú mạnh mỗi video (thẻ tên, mốc năm, tem, ảnh chính, câu hỏi cuối) và cú nhẹ cho thẻ nhỏ. `dung_9x16.py` cho boom đi đường riêng, KHÔNG bị giọng đọc hạ (nếu qua sidechain gần như không nghe thấy); mức `volume=0.55`, độ to bản trộn khoảng -14 LUFS. Cú mạnh làm khung cảnh rung khoảng 0,4 giây (`HB` trong trang).
 - **Trước khi giao:** xem khung hình lớn quanh chỗ chuyển cảnh, đo boom nổi lên so với nền (script đo trong lịch sử phiên), gửi kèm tiêu đề, hashtag, nguồn và ghi công ảnh CC BY.
+
+## Bộ cảnh minh họa mới cho video dọc "Bí mật biểu tượng" (chủ kênh yêu cầu 08/11/2026: mỗi ảnh một lần, cảnh không có ảnh thì vẽ minh họa phẳng)
+- Mã: `phim_ban_do/doc9x16/tao_trang_moi.py <N>` ghép `canh_vnN.js` (cảnh viết tay) với `_moi_cc.js`, `_moi_map.js` thành `trang_vnNn.html`. Đã làm #03, #04, #05, #06, #08; #01, #02, #07 không làm lại.
+- Mỗi ảnh chỉ một cảnh; cảnh thiếu ảnh dùng hình phẳng (bóng người, trục thời gian, bộ đếm, hoạt hình). Ảnh không đúng vật được nhắc phải ghi "ảnh minh họa".
+- Nội dung chính nằm trên y 1290; HUD trên cùng đến y 190; khối nền (nước, đất) không kéo xuống quá y 1290 để khỏi che phụ đề.
+- Xem khung lớn mọi cảnh trước khi dựng (`bash sheet.sh <trang> <tag> <giây>…`).

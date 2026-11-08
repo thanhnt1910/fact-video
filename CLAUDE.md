@@ -455,3 +455,7 @@ Mẫu: `phim_ban_do/doc9x16/trang_vn7b.html` (#07, bản `out/vn7l_doc.mp4`). Ch
 - Mỗi ảnh chỉ một cảnh; cảnh thiếu ảnh dùng hình phẳng (bóng người, trục thời gian, bộ đếm, hoạt hình). Ảnh không đúng vật được nhắc phải ghi "ảnh minh họa".
 - Nội dung chính nằm trên y 1290; HUD trên cùng đến y 190; khối nền (nước, đất) không kéo xuống quá y 1290 để khỏi che phụ đề.
 - Xem khung lớn mọi cảnh trước khi dựng (`bash sheet.sh <trang> <tag> <giây>…`).
+
+## Độ dài video dọc "Bí mật biểu tượng": không cố định 60–80 giây (chủ kênh yêu cầu 08/11/2026)
+- Loạt này không giới hạn 60–80 giây. Độ dài theo lượng thông tin cần thiết: đủ ý, đủ tên, năm, ý nghĩa thì dài bao nhiêu cũng được; không cắt bớt đoạn để cho vừa mức cũ.
+- Vẫn giữ đoạn ngắn cho giọng đọc, bố cục cuốn hút (mở nhanh, mỗi 60–90 giây có một "móc" mới) và không độn câu, không lặp ý.

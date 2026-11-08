@@ -18,8 +18,8 @@
    [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-07 16:04:38
 còn thiếu 1 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 59019-59019: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:34:25
-OK cụm 59019 - 59019 7.0 giây
+   [giọng] nhóm 59019-59019: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:38:06
+OK cụm 59019 - 59019 7.3 giây
 [báo cáo giọng] 23/23 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions

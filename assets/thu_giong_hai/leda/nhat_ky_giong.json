@@ -1206,7 +1206,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:07",
+"thoi_diem": "2026-11-08 08:59:41",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1218,7 +1218,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:10",
+"thoi_diem": "2026-11-08 08:59:45",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1230,7 +1230,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:15",
+"thoi_diem": "2026-11-08 09:00:00",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1242,7 +1242,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:19",
+"thoi_diem": "2026-11-08 09:00:03",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1254,7 +1254,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:23",
+"thoi_diem": "2026-11-08 09:00:07",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1266,7 +1266,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:27",
+"thoi_diem": "2026-11-08 09:00:11",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1278,7 +1278,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:31",
+"thoi_diem": "2026-11-08 09:00:18",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1290,7 +1290,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:34",
+"thoi_diem": "2026-11-08 09:00:22",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1302,7 +1302,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:39",
+"thoi_diem": "2026-11-08 09:00:27",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1314,7 +1314,7 @@
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-07 17:27:42",
+"thoi_diem": "2026-11-08 09:00:29",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -1639,6 +1639,54 @@
 "style_id": "948ae17d",
 "style_var": "thu",
 "thoi_diem": "2026-11-08 08:57:56",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"61011": {
+"nhom": "61011-61011",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Leda",
+"style_id": "948ae17d",
+"style_var": "thu",
+"thoi_diem": "2026-11-08 08:59:49",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"61012": {
+"nhom": "61012-61012",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Leda",
+"style_id": "948ae17d",
+"style_var": "thu",
+"thoi_diem": "2026-11-08 08:59:53",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"61013": {
+"nhom": "61013-61013",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Leda",
+"style_id": "948ae17d",
+"style_var": "thu",
+"thoi_diem": "2026-11-08 08:59:56",
+"du_phong": false,
+"config": "v3-2026-11-01-C",
+"tone": "story"
+},
+"61014": {
+"nhom": "61014-61014",
+"model": "gemini-3.8-flash-tts",
+"cach_goi": "interactions",
+"voice": "Leda",
+"style_id": "948ae17d",
+"style_var": "thu",
+"thoi_diem": "2026-11-08 09:00:15",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"

@@ -21,6 +21,13 @@
   "hien": "Theo Đại Việt sử ký toàn thư, Thục Phán xưng là An Dương Vương, đặt tên nước là Âu Lạc và đóng đô ở Cổ Loa."
  },
  {
+  "n": 58017,
+  "chuong": "Thành Cổ Loa",
+  "tone": "story",
+  "text": "Cũng theo sách ấy, thành đắp xong lại bị lở. Sách sử chép năm xây thành và năm Âu Lạc mất không giống nhau, nên mốc năm còn được bàn luận.",
+  "hien": "Cũng theo sách ấy, thành đắp xong lại bị lở. Sách sử chép năm xây thành và năm Âu Lạc mất không giống nhau, nên mốc năm còn được bàn luận."
+ },
+ {
   "n": 58004,
   "chuong": "Thành Cổ Loa",
   "tone": "story",
@@ -66,8 +73,15 @@
   "n": 58010,
   "chuong": "Thành Cổ Loa",
   "tone": "story",
-  "text": "Ông cũng nhắc rằng năm chín trăm ba mươi chín, Ngô Quyền đóng đô ở Cổ Loa.",
-  "hien": "Ông cũng nhắc rằng năm 939, Ngô Quyền đóng đô ở Cổ Loa."
+  "text": "Một ví dụ là Ngô Quyền. Năm chín trăm ba mươi tám, ông thắng quân Nam Hán trên sông Bạch Đằng.",
+  "hien": "Một ví dụ là Ngô Quyền. Năm 938, ông thắng quân Nam Hán trên sông Bạch Đằng."
+ },
+ {
+  "n": 58018,
+  "chuong": "Thành Cổ Loa",
+  "tone": "story",
+  "text": "Năm chín trăm ba mươi chín, ông lên ngôi, lập nhà Ngô, triều đại đầu tiên của thời độc lập, và đóng đô ở Cổ Loa.",
+  "hien": "Năm 939, ông lên ngôi, lập nhà Ngô, triều đại đầu tiên của thời độc lập, và đóng đô ở Cổ Loa."
  },
  {
   "n": 58011,

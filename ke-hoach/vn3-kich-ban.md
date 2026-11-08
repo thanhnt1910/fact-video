@@ -1,8 +1,8 @@
 # VN3. Tên nước Việt Nam ra đời như thế nào (loạt "Bí mật biểu tượng", nhãn trên video: #03)
 
-Mã đoạn 56001–56021. Lời kể: `ke-hoach/thu-giong-hai/vn3l_full.json` (21 đoạn, khoảng 135 giây; dài hơn mức 60–80 giây, cắt bớt đoạn 56008 hoặc 56011 nếu chủ kênh muốn ngắn hơn). **Đã kiểm đủ dữ kiện (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.**
+Mã đoạn 56001–56024. Lời kể: `ke-hoach/thu-giong-hai/vn3l_full.json` (24 đoạn, khoảng 155 giây; dài hơn mức 60–80 giây, cắt bớt đoạn 56008 hoặc 56011 nếu chủ kênh muốn ngắn hơn). **Đã kiểm đủ dữ kiện (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.**
 
-## Lời kể (để duyệt, bản 08/11, 21 đoạn)
+## Lời kể (để duyệt, bản 08/11 lần 2, 24 đoạn)
 56001. Bạn có biết, tên nước Việt Nam suýt nữa là Nam Việt, nhưng vua nhà Thanh đã không đồng ý?
 56002. Trước đó, tên nước đã đổi nhiều lần, và năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt.
 56003. Theo Đại Việt sử ký toàn thư, năm 1054, vua Lý Thánh Tông đổi thành Đại Việt. Mốc này vẫn còn được bàn luận.
@@ -15,15 +15,18 @@ Mã đoạn 56001–56021. Lời kể: `ke-hoach/thu-giong-hai/vn3l_full.json` (
 56010. Năm 1804, sứ nhà Thanh mang sắc phong và ấn sang làm lễ, và quốc hiệu Việt Nam chính thức được công bố.
 56011. Vậy Việt Nam có nghĩa là gì? Theo thư của vua Gia Khánh, chữ Việt cho thấy nước này nối tiếp đất cũ và tiếng tốt các đời trước.
 56012. Còn chữ Nam, đứng sau, cho biết đất nước nằm ở biên giới phía nam.
-56013. Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu.
-56014. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.
-56015. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
-56016. Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
-56017. Ngày 2 tháng 9 năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.
-56018. Ngày 2 tháng 7 năm 1976, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu mới.
-56019. Đó là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay.
-56020. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?
-56021. Hẹn bạn ở video tiếp theo.
+56013. Chữ Việt còn có nguồn gốc xa hơn. Người Trung Hoa xưa dùng chữ Việt để gọi các tộc người ở phía nam sông Dương Tử, gọi chung là Bách Việt.
+56014. Bách Việt gồm nhiều nhóm, như Âu Việt, Dương Việt, Nam Việt và Lạc Việt, tức vùng đất nước ta.
+56015. Về mặt chữ, từ điển giải chữ Việt là vượt qua. Chữ này chứa một chữ nghĩa là cái rìu, còn nguồn gốc ban đầu vẫn được các học giả bàn luận.
+56016. Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu.
+56017. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.
+56018. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
+56019. Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
+56020. Ngày 2 tháng 9 năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.
+56021. Ngày 2 tháng 7 năm 1976, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu mới.
+56022. Đó là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay.
+56023. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?
+56024. Hẹn bạn ở video tiếp theo.
 
 ### Bản sửa 08/11 (chủ kênh: video thiếu tên cuối cùng "Việt Nam" và ý nghĩa của tên) — chờ duyệt lại
 | Đoạn mới | Trước | Sau | Vì sao |
@@ -74,3 +77,11 @@ Nguồn thêm (08/11): ý nghĩa hai chữ theo thư Gia Khánh: giaoduc.net.vn 
 
 ## Ghi nguồn cho mô tả và bình luận ghim
 Đại Việt sử ký toàn thư; Đại Nam thực lục; Nguyễn Minh Tường (nghiencuuquocte.org, 2024); Tôn Thất Thọ (nghiencuulichsu.com, 2026); Nguyễn Đình Đầu, Tạp ghi Việt Sử Địa; Đinh Văn Tuấn (Tạp chí Nghiên cứu và Phát triển, 2017).
+
+## Bản sửa 08/11 lần 2: thêm ý nghĩa chữ Việt (chủ kênh yêu cầu, cần nguồn tin cậy)
+Đoạn mới 56013–56015, các đoạn sau dời số (+3). Không đổi chữ ở đoạn nào khác.
+- **56013** (Bách Việt, tên chung các tộc phía nam Dương Tử): Trần Gia Ninh, "Nhìn lại lịch sử Bách Việt và quá trình Hán hóa Bách Việt", nghiencuuquocte.org 11/09/2016 (nguồn Tia Sáng); Lê Minh Khải, "The Problem of the Term Việt in a National History" (leminhkhai.blog: người vùng sông Hoàng Hà gọi các dân phía nam là Việt, gộp thành Bách Việt); Từ điển Hán Nôm hvdic (Thiều Chửu, Từ điển trích dẫn).
+- **56014** (Âu Việt, Dương Việt, Nam Việt, Lạc Việt): hvdic (Từ điển trích dẫn); Trần Gia Ninh liệt kê tộc Việt, nhưng nói Âu/Lạc là một hay hai tộc vẫn còn tranh cãi, nên lời kể chỉ liệt kê tên nhóm.
+- **56015** (vượt qua; chứa chữ rìu; nguồn gốc còn bàn): hvdic (Thiều Chửu "qua, vượt qua"; Trần Văn Chánh "vượt"); Viên Như, nghiencuulichsu.com 28/11/2018 (Thuyết văn giải "độ dã" là vượt qua; chữ Việt gồm 走 và 戉 là chữ rìu, 戉 chỉ âm); Trần Gia Ninh (thời Thương chỉ có chữ 戉 nghĩa là rìu, sau mới có 越 và 粤).
+- **Đã bỏ vì chỉ giả thuyết hoặc một nguồn yếu:** "người Việt dùng rìu nên gọi là Việt" (một nguồn, nói là cách giải thích); chiết tự mặt trời, rồng, người chim, "con Rồng cháu Tiên" (nguoihanoi.vn, tự suy đoán); âm dương theo Kinh Dịch (Viên Như, "theo tôi"); đất nước Việt thời Xuân Thu ở Chiết Giang hay Sơn Đông (hvdic các từ điển lệch nhau).
+- **Chưa kiểm bản gốc:** Thuyết văn giải tự và Lã thị Xuân thu chỉ qua bài trích dẫn.

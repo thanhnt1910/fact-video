@@ -25,114 +25,114 @@ Một người bị bắn tan thi hài. Người kia bị đâm chết ngay gi�
 Họ là Lê Uy Mục và Lê Tương Dực. Vì sao ngai vàng đổi chủ hai lần trong bảy năm?
 
 👤 **Lê Uy Mục là ai?**
-Ông tên Tuấn, con thứ hai của vua Lê Hiến Tông, sinh ngày 5 tháng 5 (âm lịch) năm 1488.
+Tên thật của ông là Tuấn, con thứ hai của vua Lê Hiến Tông. Ông sinh ngày 5 tháng 5 (âm lịch) năm 1488.
 
-Mẹ ông là Nguyễn Thị Cận, người làng Phù Chẩn, nhà nghèo, từ nhỏ mồ côi cha. Bà tự bán mình làm người ở, sau bị tịch thu sung làm quan tỳ, rồi vào hầu hoàng hậu. Khi Hiến Tông còn làm thái tử, thấy bà có sắc đẹp nên lấy làm phi.
+Mẹ ông là Nguyễn Thị Cận, người làng Phù Chẩn. Nhà bà nghèo, bà mồ côi cha từ nhỏ. Bà tự bán mình đi ở, sau bị tịch thu làm nô tì của nhà nước, rồi được đưa vào hầu hoàng hậu. Khi Hiến Tông còn là thái tử, thấy bà có sắc đẹp nên lấy làm vợ lẽ.
 
 🚪 **Đêm đóng cửa thành**
-Năm 1504, vua Lê Túc Tông mất, không có con nối. Kính phi Nguyễn Thị, mẹ nuôi của Tuấn, mưu lập ông ngay trong cung cấm.
+Năm 1504, vua Lê Túc Tông mất mà không có con nối ngôi. Kính phi Nguyễn Thị, mẹ nuôi của Tuấn, bàn mưu lập Tuấn ngay trong cung.
 
-Nội thần Nguyễn Nhữ Vi định lập vua. Thái hoàng thái hậu, vợ vua Thánh Tông, nói Tuấn là con người tỳ thiếp, không thể nối đạo thống, và đòi lập Lữ Khôi Vương. Nhữ Vi bèn đóng các cửa thành lại, lập Tuấn lên ngôi.
+Nội thần Nguyễn Nhữ Vi cũng muốn lập vua mới. Nhưng Thái hoàng thái hậu, vợ của vua Thánh Tông, nói Tuấn là con của vợ lẽ nên không thể nối ngôi. Bà đòi lập Lữ Khôi Vương. Nhữ Vi bèn đóng các cửa thành lại và đưa Tuấn lên làm vua.
 
-Ngày 22 tháng 3 năm 1505, Thái hoàng thái hậu thình lình mất ở điện Trường Lạc, thọ 65 tuổi. Toàn thư ghi: sau đó vua sai quan hầu cận ngầm giết bà, rồi nghỉ chầu 7 ngày.
+Ngày 22 tháng 3 năm 1505, Thái hoàng thái hậu bỗng qua đời ở điện Trường Lạc, thọ 65 tuổi. Toàn thư chép rằng vua sai người hầu cận ngầm giết bà, rồi nghỉ ra triều 7 ngày.
 
-📜 **Hai đại thần nhận di chiếu**
-Lúc Hiến Tông ốm nặng, Lễ bộ thượng thư Đàm Văn Lễ và Ngự sử Nguyễn Quang Bật nhận di chiếu phụ tá thái tử. Các thân vương tranh nhau đòi lập, Văn Lễ sợ tai biến, vào tẩm điện lấy ấn báu về nhà, rồi cùng các đại thần lập Túc Tông.
+📜 **Hai đại thần nhận lời dặn cuối của vua cha**
+Lúc Hiến Tông ốm nặng, Đàm Văn Lễ (quan đứng đầu bộ Lễ) và Nguyễn Quang Bật (quan giám sát) nhận lời dặn cuối của vua, là giúp thái tử lên ngôi. Các thân vương tranh nhau đòi ngôi. Văn Lễ sợ loạn, vào cung lấy ấn báu (con dấu của vua) đem về nhà, rồi cùng các đại thần lập Túc Tông.
 
-Kính phi từng đem vàng đút lót để lập Tuấn, nhưng Văn Lễ không nhận. Sau khi lên ngôi, Uy Mục căm giận. Tháng 6 năm 1505, ông đày hai người vào Quảng Nam. Đến sông lớn ở huyện Chân Phúc, vua sai người đuổi theo, bắt phải tự tử. Hai ông ngâm thơ quốc ngữ rồi mới gieo mình xuống nước.
+Kính phi từng đem vàng đút lót để lập Tuấn, nhưng Văn Lễ không nhận. Lên ngôi rồi, Uy Mục còn căm giận chuyện ấy. Tháng 6 năm 1505, ông đày hai người vào Quảng Nam. Đến con sông lớn ở huyện Chân Phúc, vua sai người đuổi theo, bắt phải tự tử. Hai ông ngâm thơ bằng tiếng Việt rồi gieo mình xuống nước.
 
-🏘️ **Ba làng ngoại thích**
-Toàn thư ghi: quyền thế thuộc về họ ngoại. Phía đông là làng Hoa Lăng, quê mẹ nuôi. Phía tây là làng Nhân Mục, quê hoàng hậu. Phía bắc là làng Phù Chẩn, quê mẹ đẻ.
+🏘️ **Quyền thế của họ ngoại ở ba làng**
+Toàn thư ghi: quyền thế nằm trong tay họ hàng bên mẹ và bên vợ vua. Phía đông là làng Hoa Lăng, quê mẹ nuôi. Phía tây là làng Nhân Mục, quê hoàng hậu. Phía bắc là làng Phù Chẩn, quê mẹ đẻ.
 
-Họ cướp súc vật, hoa màu của dân. Nhà nào có đồ lạ, vật quý thì bị đánh dấu chữ rồi đòi lấy. Quan viên và dân chúng trông thấy họ từ xa một dặm đã phải chạy trốn vào các nhà hàng phố, đợi họ đi qua mới dám ra.
+Họ cướp trâu bò, hoa màu của dân. Nhà nào có đồ lạ, vật quý thì bị đánh dấu rồi đòi lấy. Quan lại và dân chúng thấy họ từ rất xa đã phải chạy trốn vào các nhà ven phố, đợi họ đi qua mới dám ra.
 
-🔎 **Dò xét hai mươi sáu vương**
-Nhà vua sai nội nhân Nguyễn Đình Khoa dò xét cả 26 vương, là các chú và anh em của ông. Kinh Vương, người chú, trốn đi không biết đâu. Giản Tu công Dinh bị giam vào ngục, nhưng thoát được.
+🕵️ **Dò xét hai mươi sáu vương**
+Nhà vua sai người hầu trong cung là Nguyễn Đình Khoa đi dò xét cả 26 vương, tức các chú và anh em của ông. Kinh Vương, người chú, trốn đi, không ai biết đi đâu. Giản Tu công Dinh bị giam vào ngục, nhưng sau thoát được.
 
-Từ đó, ai cũng thấy nguy cho thân mình.
+Từ đó, ai trong họ vua cũng thấy nguy cho thân mình.
 
-⚔️ **Hai giám đấu gậy**
-Đầu năm 1509, nhà vua đặt thêm các chức nội thần mới. Hai giám Ngự mã và Ngự tượng được cho cầm gậy đấu sức với nhau, từ cửa Thanh Dương đến ngoài cửa Thái Miếu. Vua xem rất thích, thưởng tiền và lụa.
+⚔️ **Hai quan đấu gậy trước vua**
+Đầu năm 1509, nhà vua đặt thêm các chức nội thần mới. Hai viên quan coi ngựa và coi voi của vua được cho cầm gậy đấu sức với nhau, từ cửa Thanh Dương đến ngoài cửa Thái Miếu. Vua xem rất thích, thưởng tiền và lụa.
 
-Toàn thư cũng ghi: từ khi lên ngôi, đêm nào vua cũng uống rượu vô độ với cung nhân, và khi say thì giết cả cung nhân.
+Toàn thư cũng ghi: từ khi lên ngôi, đêm nào vua cũng uống rượu rất nhiều với cung nhân, và khi say thì giết cả cung nhân.
 
 🧭 **Lệnh giết người Chiêm**
-Năm 1509, Vũ Cảnh được sai đi kinh lý Quảng Nam, rồi cho chạy trạm tâu về: người Chiêm làm loạn. Vua ra lệnh giết người Chiêm đến gần hết. Tháng 8, lại xuống chiếu giết hết những người Chiêm đang bị giam.
+Năm 1509, Vũ Cảnh được sai vào Quảng Nam xem xét tình hình. Ông cho người chạy ngựa về báo gấp rằng người Chiêm làm loạn. Vua ra lệnh giết người Chiêm đến gần hết. Tháng 8, vua lại xuống chiếu giết hết những người Chiêm đang bị giam.
 
-Toàn thư ghi: người gây loạn thật ra là bọn người Chiêm Chế Mạn. Chú thích dịch giả cho biết: Chế Mạn về sau theo Nguyễn Văn Lang dấy nghĩa binh ở Tây Đô.
+Toàn thư ghi: người gây loạn thật ra chỉ là những người Chiêm theo Chế Mạn. Chú thích của dịch giả cho biết, về sau Chế Mạn theo Nguyễn Văn Lang nổi binh ở Tây Đô.
 
-🏴 **Tây Đô dấy binh**
-Nguyễn Văn Lang, em của Trường Lạc hoàng thái hậu, bị đuổi về quê. Đại thần tông thất Lê Năng Can làm thơ gửi cho Lang, bảo cử binh giết bọn ác đảng. Lang là người giỏi binh pháp, sức khỏe bắt được hổ. Ông cùng bọn Chế Mạn và người ba phủ nổi nghĩa quân ở Tây Đô, đóng ở cửa biển Thần Phù.
+🏴 **Nổi binh ở Tây Đô**
+Nguyễn Văn Lang, em của Trường Lạc hoàng thái hậu, bị đuổi về quê. Lê Năng Can, một đại thần trong họ vua, làm thơ gửi cho Lang, khuyên Lang cử binh giết bọn ác. Lang giỏi binh pháp, sức khỏe đến mức bắt được hổ. Ông cùng Chế Mạn và người ba phủ nổi binh ở Tây Đô (vùng Thanh Hóa), đóng ở cửa biển Thần Phù.
 
-Giản Tu công Dinh khi ấy còn bị giam. Ông đem của cải đút lót người canh, thoát ra, chưa kịp báo cho mẹ, anh em và vợ, một mình trốn vào Tây Đô. Lang đón ông ở cửa biển Thần Phù, lập làm minh chủ.
+Lúc ấy Giản Tu công Dinh còn bị giam. Ông đem của cải đút lót người canh để thoát ra. Ông chưa kịp báo cho mẹ, anh em và vợ, một mình trốn vào Tây Đô. Lang đón ông ở cửa biển Thần Phù và đưa ông lên làm người đứng đầu.
 
-Ông dựng cờ chiêu an của anh ruột là Cẩm Giang Vương Sùng, nhưng thật ra ông không phải Cẩm Giang Vương. Hịch của phe ông kể tội Uy Mục: "dân Hải Dương, Kinh Bắc mệt mỏi, lao đao" vì công trình xây đi xây lại.
+Ông dựng cờ mang danh người anh ruột là Cẩm Giang Vương Sùng để kêu gọi người theo. Hịch (bài văn kêu gọi nổi dậy) của phe ông kể tội Uy Mục, trong đó có câu: dân Hải Dương, Kinh Bắc mệt mỏi, khổ sở vì công trình xây đi xây lại.
 
 🌊 **Tháng 11 năm 1509**
-Ngày mồng 8, Dinh đem quân thủy bộ từ Tây Đô tiến ra. Quân thủy đến núi Thiên Kiện. Vua dùng hai chiếc thuyền nhẹ ra đánh, bắt một viên tướng, giết 20 sĩ tốt. Nhưng cấm quân ra chống giữ không được.
+Ngày mồng 8, Dinh đem quân đi cả đường thủy lẫn đường bộ từ Tây Đô tiến ra. Quân đi đường thủy đến núi Thiên Kiện. Vua cho hai chiếc thuyền nhẹ ra đánh, bắt được một viên tướng và giết 20 binh lính. Nhưng cấm quân (quân bảo vệ vua) ra chống giữ không nổi.
 
-Ngày 23, anh của Dinh là Cẩm Giang Vương Sùng, em là Tĩnh Lượng công Doanh, em út Quyên bị hại. Tướng Lê Vũ lấy đầu Cẩm Giang Vương giơ ra cho quân đối phương xem và nói: "Đây là cái đầu của Cẩm Giang Vương, chúng bay còn nói láo làm gì?" Ông cưỡi voi tiến đánh, bị hãm trận mà chết.
+Ngày 23, ba người trong họ Dinh bị hại: anh ruột là Cẩm Giang Vương Sùng, em là Tĩnh Lượng công Doanh và em út là Quyên. Tướng Lê Vũ giơ đầu Cẩm Giang Vương cho quân đối phương xem và nói: "Đây là cái đầu của Cẩm Giang Vương, chúng bay còn nói láo làm gì?" Ông cưỡi voi tiến đánh, bị vây và chết trận.
 
-Ngày 26, vua ra cửa Thanh Dương, ban tiền cho tù nhân ở ty Ngũ hình, mỗi người 3 quan, rồi sai đi đánh giặc. Nhận tiền xong, các tù nhân ai về nhà người ấy. Hoàng hậu Trần Thị Tùng trốn ra xã Hồng Mai, tự thắt cổ ở miếu chùa.
+Ngày 26, vua ra cửa Thanh Dương, phát cho mỗi tù nhân đang bị giam 3 quan tiền rồi sai đi đánh giặc. Nhận tiền xong, ai về nhà nấy. Hoàng hậu Trần Thị Tùng trốn ra xã Hồng Mai và thắt cổ tự tử trong một ngôi miếu.
 
 ⚰️ **Ngày cuối của Uy Mục**
-Ngày 28, vua chạy tới phường Nhật Chiêu thì bị một vệ sĩ cũ đuổi theo bắt, nộp cho Dinh. Dinh giam vua ở cửa Lệ Cảnh và cho là người vệ sĩ đã làm điều bất nghĩa nên sai giết người ấy.
+Ngày 28, vua chạy tới phường Nhật Chiêu thì bị một vệ sĩ cũ đuổi theo bắt, đem nộp cho Dinh. Dinh giam vua ở cửa Lệ Cảnh. Dinh cho rằng người vệ sĩ đã làm việc bất nghĩa nên sai giết người ấy.
 
-Ngày mồng 1 tháng 12, vua uống thuốc độc tự tử. Dinh vì căm giận chuyện vua giết hại cha mẹ, anh chị em mình, sai người dùng súng lớn, để xác vào miệng súng, cho nổ tan. Chỉ lấy ít tro đem chôn ở An Lăng, quê mẹ là làng Phù Chẩn. Vua bị giáng làm Mẫn Lệ công.
+Ngày mồng 1 tháng 12, vua uống thuốc độc tự tử. Toàn thư ghi Dinh căm giận vì vua đã giết hại người thân trong nhà mình, nên cho đem xác vua bắn bằng súng lớn cho tan. Chỉ còn ít tro, đem chôn ở An Lăng, thuộc làng Phù Chẩn là quê mẹ vua. Vua bị hạ tước, chỉ còn gọi là Mẫn Lệ công.
 
-Toàn thư ghi thêm một thuyết khác: khi nghĩa quân tiến sát kinh thành, vua chạy ra thôn Cập Hối, bị người hành chợ bắt nộp cho Nguyễn Văn Lang, rồi bị giết ở quán Bắc Sứ.
+Toàn thư chép thêm một thuyết khác: khi quân của Dinh tiến sát kinh thành, vua chạy ra thôn Cập Hối, bị một người ở chợ bắt, đem nộp cho Nguyễn Văn Lang rồi bị giết ở quán Bắc Sứ.
 
 👑 **Lê Tương Dực là ai?**
-Ngày mồng 4 tháng 12 năm 1509, Giản Tu công Dinh lên ngôi, đổi niên hiệu là Hồng Thuận. Ông là con thứ hai của Kiến Vương Tân, cháu của vua Thánh Tông, sinh ngày 25 tháng 6 (âm lịch) năm 1495.
+Ngày mồng 4 tháng 12 năm 1509, Giản Tu công Dinh lên ngôi, đặt niên hiệu là Hồng Thuận. Ông là con thứ hai của Kiến Vương Tân, cháu của vua Thánh Tông. Ông sinh ngày 25 tháng 6 (âm lịch) năm 1495.
 
-Toàn thư ghi ông thọ 24 tuổi, ở ngôi 8 năm. Nhưng nếu tính từ năm sinh 1495 đến năm mất 1516, ông chỉ 21 hoặc 22 tuổi (tuổi ta), và ở ngôi khoảng 7 năm. Bài giữ năm sinh và năm mất, bỏ số tuổi.
+Toàn thư ghi ông thọ 24 tuổi và ở ngôi 8 năm. Nhưng tính từ năm sinh 1495 đến năm mất 1516 thì ông chỉ khoảng 21 hoặc 22 tuổi, và ở ngôi khoảng 7 năm. Vì số liệu không khớp, bài chỉ nêu năm sinh và năm mất.
 
 🛕 **Chuyến đi Đồ Sơn**
-Năm 1511, vua phong Mạc Đăng Dung làm Vũ Xuyên bá. Đăng Dung là người đỗ võ cử, vào quân túc vệ, từ năm 1508 giữ chức Thiên vũ vệ đô chỉ huy sứ. Toàn thư chép tổ tiên của ông là Mạc Đĩnh Chi, Trạng nguyên triều Trần.
+Năm 1511, vua phong Mạc Đăng Dung làm Vũ Xuyên bá (một tước vị). Đăng Dung đỗ kỳ thi võ, vào đội quân bảo vệ vua, và từ năm 1508 giữ chức chỉ huy một đội quân. Toàn thư chép tổ tiên của ông là Mạc Đĩnh Chi, Trạng nguyên đời nhà Trần.
 
-Lúc ấy, các hào kiệt và thuật sĩ đều nói phương đông có khí sắc thiên tử. Vua sai Nguyễn Văn Lang đem thuật sĩ ra Đồ Sơn để trấn yểm. Toàn thư viết: Đăng Dung cũng đi trong chuyến đó mà không ai biết.
+Lúc ấy, nhiều người giỏi và các thuật sĩ đều nói rằng phương đông có điềm báo sẽ có người làm vua. Vua sai Nguyễn Văn Lang đem thuật sĩ ra Đồ Sơn làm phép để dập điềm ấy. Toàn thư viết thêm: Mạc Đăng Dung cũng đi trong chuyến ấy mà không ai biết.
 
 🔴 **Người mặc áo đỏ**
-Cũng năm 1511, quân của Trần Tuân bức sát đến Từ Liêm, quan quân bại trận. Trịnh Duy Sản chỉ huy đánh Tuân, nhưng thua, thủ hạ chỉ còn hơn 30 người. Ông xé áo làm hiệu, thề cùng nhau đánh giặc.
+Cũng năm 1511, quân nổi dậy của Trần Tuân tiến sát đến Từ Liêm, quân triều đình thua trận. Trịnh Duy Sản chỉ huy đánh Tuân nhưng cũng thua, thủ hạ chỉ còn hơn 30 người. Ông xé áo làm dấu hiệu, thề cùng nhau đánh giặc.
 
-Giờ Dậu, Duy Sản thình lình xuất hiện, đột nhập vào dinh của Tuân. Ông thấy Tuân mặc áo đỏ ngồi trên giường, liền dùng giáo đâm chết. Bè đảng tan chạy. Sau này định công, ban phong Duy Sản làm Nguyên quận công.
+Đến giờ Dậu (khoảng 5 đến 7 giờ chiều), Duy Sản bất ngờ xông vào dinh của Tuân. Ông thấy Tuân mặc áo đỏ ngồi trên giường, liền dùng giáo đâm chết. Bè đảng của Tuân tan chạy. Sau này khi xét công, vua phong Duy Sản làm Nguyên quận công.
 
-Toàn thư ghi: từ đó có lệ giết được nhiều giặc thì được trao quan chức.
+Toàn thư ghi: từ đó có lệ giết được nhiều giặc thì được ban quan chức.
 
-🏗️ **Đại điện hơn trăm nóc**
-Năm 1512, hạn hán, trong nước đói to. Cũng năm ấy, người thợ Vũ Như Tô ở xã Minh Quyết, huyện Cẩm Giàng dâng kiểu điện lớn trăm nóc, dựng bằng nứa, và khuyên vua xây.
+🏗️ **Điện lớn trăm mái**
+Năm 1512, hạn hán, trong nước đói to. Cũng năm ấy, người thợ Vũ Như Tô ở xã Minh Quyết, huyện Cẩm Giàng dâng kiểu mẫu bằng nứa của một tòa điện lớn trăm mái, và khuyên vua xây.
 
-Đến năm 1516, Toàn thư tổng kết những công trình đã làm. Vua đắp thành rộng mấy ngàn trượng, chắn ngang sông Tô Lịch. Lại làm thuyền chiến, điện hơn trăm nóc và Cửu Trùng đài. Trước điện đào hồ thông với sông Tô Lịch, thả thuyền Thiên Quang.
+Đến năm 1516, Toàn thư tổng kết những việc vua đã làm. Vua đắp một bức thành lớn chắn ngang sông Tô Lịch. Vua làm thuyền chiến, điện hơn trăm mái và Cửu Trùng đài (đài chín tầng). Trước điện, vua cho đào hồ thông với sông Tô Lịch rồi thả thuyền Thiên Quang.
 
-Có chỗ làm xong lại phải làm lại, hết năm này qua năm khác. Quân lính đắp thành mắc chứng dịch lệ đến một phần mười.
+Có chỗ làm xong lại phải làm lại, hết năm này qua năm khác. Quân lính đắp thành mắc bệnh dịch, khoảng một phần mười số người bị bệnh.
 
 📚 **Những người can vua**
-Năm 1513, vua thường sai người đi lấy hoa gạo. Hiến sát sứ Thanh Hóa Nguyễn Mậu dâng sớ can, trái ý vua. Vua sai trung sứ bắt đánh đòn.
+Năm 1513, vua thường sai người đi lấy hoa gạo. Nguyễn Mậu, quan giám sát ở Thanh Hóa, dâng sớ can ngăn, trái ý vua. Vua sai người trong cung bắt ông đánh đòn.
 
-Năm 1514, nước lũ rất lớn, có rắn lớn xuất hiện trong các hồ ao ở kinh thành suốt 20 ngày. Vua sai đốt pháo, mở cờ, đánh trống để dọa. Sau 4 tháng rắn mới đi. Cũng năm ấy, nhà vua nghe lời vu cáo của hiệu úy Hữu Vĩnh, giết hết 15 vương công họ tông thất.
+Năm 1514, nước lũ rất lớn, rắn lớn xuất hiện trong các hồ ao ở kinh thành suốt 20 ngày. Vua sai đốt pháo, giương cờ, đánh trống để dọa. Sau 4 tháng rắn mới biến mất. Cũng năm ấy, vua nghe lời vu cáo của viên quan Hữu Vĩnh (chức hiệu úy), giết hết 15 vương công trong họ vua.
 
-Trịnh Duy Sản cũng nhiều lần can ngăn trái ý vua, bị đánh bằng trượng.
+Trịnh Duy Sản cũng nhiều lần can vua, trái ý vua nên bị đánh bằng trượng.
 
 🔥 **Trần Cảo ở phương đông**
-Ngày mồng 6 tháng giêng năm 1516, Trần Cảo, điện giám ở trang Dưỡng Chân, huyện Thủy Đường, dấy loạn. Toàn thư ghi ông ta nghe lời sấm: phương đông có vượng khí thiên tử. Cảo trá xưng là cháu chắt của Trần Thái Tông.
+Ngày mồng 6 tháng giêng năm 1516, Trần Cảo, người coi một điện thờ ở trang Dưỡng Chân, huyện Thủy Đường, nổi binh. Toàn thư ghi Cảo nghe lời sấm rằng phương đông có khí thiên tử. Cảo xưng mình là cháu chắt của vua Trần Thái Tông (vua đầu nhà Trần).
 
-Cảo mặc áo đen, quân sĩ đều cạo trọc đầu. Ông tự xưng là Đế Thích giáng sinh, đặt niên hiệu Thiên Ứng. Quân ông chiếm cứ nhiều nơi ở huyện Thủy Đường và Đông Triều.
+Cảo mặc áo đen, quân sĩ đều cạo trọc đầu. Ông tự xưng là thần Đế Thích xuống trần và đặt niên hiệu là Thiên Ứng. Quân của ông chiếm nhiều nơi ở huyện Thủy Đường và Đông Triều.
 
-Ngày mồng 1 tháng 4, Cảo đem quân tiến sát bến Bồ Đề. Vua đích thân đánh, bắn ba tiếng súng, các quân xông lên. Cảo thua chạy. Hai ngày sau, quân vua đánh lại mấy lần không được. Định quận công Phùng Tiến và Diên Hưng bá Trịnh Khổng Chiêu tử trận. Phú Lộc bá Trịnh Ngạc bị bắt, Cảo muốn cho làm quan nhưng ông không chịu khuất mà chết.
+Ngày mồng 1 tháng 4, Cảo đem quân tiến sát bến Bồ Đề. Vua đích thân ra đánh, bắn ba tiếng súng, quân sĩ xông lên. Cảo thua chạy. Hai ngày sau, quân vua đánh lại mấy lần mà không thắng. Hai tướng của vua là Phùng Tiến và Trịnh Khổng Chiêu tử trận. Tướng Trịnh Ngạc bị bắt. Cảo muốn cho ông làm quan nhưng ông không chịu khuất phục và chết.
 
 🗡️ **Ngày mồng 7 tháng 4 năm 1516**
-Đêm mồng 6, Trịnh Duy Sản cùng Lê Quảng Độ, Trình Chí Sâm sửa soạn thuyền bè khí giới, nói phao là đi đánh giặc. Hồi canh hai, ông đem hơn 3000 người vào cửa Bắc Thần. Vua nghe tin, ngờ giặc đến, ngự ra ngoài cửa Bảo Khánh.
+Đêm mồng 6, Trịnh Duy Sản cùng Lê Quảng Độ và Trình Chí Sâm sửa soạn thuyền bè, khí giới, nói là đi đánh giặc. Hồi canh hai (khoảng 9 đến 11 giờ đêm), Duy Sản đem hơn 3.000 người vào cửa Bắc Thần. Vua nghe tin, tưởng giặc đến, bèn ra khỏi cung qua cửa Bảo Khánh.
 
-Mờ sáng mồng 7, vua đi tắt qua cửa nhà Thái Học. Đến hồ Chu Tước, phường Bích Câu, vua gặp Duy Sản và hỏi: "Giặc ở phương nào?". Duy Sản không trả lời, quay nhìn chỗ khác cười ầm lên. Vua quất ngựa chạy về phía tây. Vũ sĩ tên Hạnh cầm giáo đâm vua ngã ngựa chết.
+Mờ sáng mồng 7, vua đi tắt qua nhà Thái Học (trường học của triều đình). Đến hồ Chu Tước, phường Bích Câu, vua gặp Duy Sản và hỏi: "Giặc ở phương nào?" Duy Sản không trả lời, quay đi chỗ khác cười ầm lên. Vua quất ngựa chạy về phía tây. Một vũ sĩ tên Hạnh cầm giáo đâm, vua ngã ngựa chết.
 
-Thừa chỉ Nguyễn Vũ, đỗ tiến sĩ năm 1514 khi 58 tuổi, đi theo vua. Ông nói với con: "Ăn lộc của vua, phải chết vì nạn của vua". Ông cũng bị Duy Sản giết. Khâm Đức hoàng hậu nhảy vào lửa chết. Vua bị giáng làm Linh Ẩn Vương.
+Nguyễn Vũ, quan hầu cận, đỗ tiến sĩ năm 1514 khi 58 tuổi, đi theo vua. Ông nói với con: "Ăn lộc của vua, phải chết vì nạn của vua" (đã hưởng bổng lộc của vua thì phải cùng chịu nạn với vua). Ông cũng bị Duy Sản giết. Khâm Đức hoàng hậu nhảy vào lửa chết. Vua bị hạ tước, chỉ còn gọi là Linh Ẩn Vương.
 
 🔀 **Sau cái chết của vua**
-Duy Sản định lập Quang Trị, 8 tuổi, con của Mục Ý Vương. Phùng Mại phản đối, bị giết ngay trong cung. Ba ngày sau, Trịnh Duy Đại đem Quang Trị về Tây Đô. Duy Sản và Lê Nghĩa Chiêu lại đón một người cháu khác, tên Y, lên làm vua.
+Duy Sản định lập Quang Trị, 8 tuổi, con của Mục Ý Vương. Phùng Mại phản đối và bị giết ngay trong cung. Ba ngày sau, Trịnh Duy Đại đem Quang Trị về Tây Đô. Duy Sản và Lê Nghĩa Chiêu lại đón một người cháu khác, tên Y, lên làm vua.
 
-An Hòa hầu Nguyễn Hoằng Dụ nghe tin Duy Sản giết vua liền nổi giận, đem quân đốt phá kinh thành, chém Vũ Như Tô ngoài cửa kinh thành, quăng xác ra chợ. Dân vào thành tranh nhau lấy vàng bạc, của báu.
+Nguyễn Hoằng Dụ (tước An Hòa hầu) nghe tin Duy Sản giết vua thì nổi giận, đem quân đốt kinh thành, chém Vũ Như Tô ngoài cửa thành rồi quăng xác ra chợ. Dân kéo vào thành tranh nhau lấy vàng bạc, của quý.
 
-Ngày 11 tháng 4, Trần Cảo vào kinh thành, đặt niên hiệu Thiên Ứng và dùng Lê Quảng Độ coi việc nước.
+Ngày 11 tháng 4, Trần Cảo vào kinh thành, đặt niên hiệu Thiên Ứng và giao cho Lê Quảng Độ điều hành việc nước.
 
 🔎 **Nhìn lại: vì sao ngôi vua đổi chủ nhanh như vậy?**
 Phần này là cách hiểu của người viết, không phải lời sử chép. Toàn thư chỉ kể việc, không giải thích như dưới đây. Mỗi việc cũng có thể còn nguyên nhân khác mà sử không ghi.
@@ -189,7 +189,7 @@ Nhiều lời kể tội Uy Mục nằm trong văn bản của những người 
 💭 **Chốt lại**
 Uy Mục ở ngôi khoảng 5 năm và mất khi 21 hoặc 22 tuổi. Tương Dực ở ngôi khoảng 7 năm.
 
-Người đón vua Y về Tây Đô sau đó đánh đuổi Trần Cảo, lên ngôi hiệu Chiêu Tông. Toàn thư ghi: được 7 năm thì ngự ra ngoài, Mạc Đăng Dung lập em vua lên ngôi, rồi năm 1526, ông giết Chiêu Tông.
+Vua Y, người được Duy Sản và Lê Nghĩa Chiêu đón lập, sau đó về Tây Đô, dấy binh, tiến về kinh thành và đuổi Trần Cảo. Ông lên ngôi, miếu hiệu là Chiêu Tông. Toàn thư ghi: ông ở ngôi 7 năm thì bỏ kinh thành đi ra ngoài. Mạc Đăng Dung lập em ruột ông lên ngôi, rồi năm 1526 giết Chiêu Tông.
 
 ❓ Theo bạn, trong các nhóm người kể trên (họ ngoại, nội thần, các vương, tướng cầm quân), nhóm nào đóng vai trò lớn nhất khiến ngôi vua đổi chủ liên tục?
 
@@ -264,6 +264,9 @@ TT = Đại Việt sử ký toàn thư. Số dòng là dòng trong `ke-hoach/ngu
 | Lập Quang Trị 8 tuổi, Phùng Mại bị giết, 3 ngày sau Duy Đại đưa về Tây Đô; lập Y; Hoằng Dụ đốt kinh thành, chém Vũ Như Tô; dân tranh vàng bạc; 11/4 Cảo vào kinh, dùng Lê Quảng Độ | 🟢 | TT dòng 29527–29547, 29552–29553. Tuổi vua Y: TT ghi "14" ở dòng 29541 nhưng năm sinh 1506 (dòng 29703) mâu thuẫn; bài bỏ tuổi |
 | Chiêu Tông: về Tây Đô, đuổi Cảo; ở ngôi 7 năm; Mạc Đăng Dung lập em Xuân; 1526 giết | 🟢 | TT dòng 29704–29709 |
 | Bài không có lời bàn của sử gia | 🟢 | Theo quy tắc series 30/10/2026 |
+
+**Viết lại lời đời thường (8/11/2026, theo yêu cầu chủ kênh):** đổi lời dịch thô sang lời thường và giải thích ngay trong câu. Ví dụ: di chiếu → lời dặn cuối của vua; sung quan tỳ → bị tịch thu làm nô tì của nhà nước; ngoại thích → họ hàng bên mẹ và bên vợ vua; nội nhân → người hầu trong cung; kinh lý/chạy trạm → xem xét tình hình/chạy ngựa về báo gấp; minh chủ → người đứng đầu; chiêu an → kêu gọi người theo; hịch → bài văn kêu gọi nổi dậy; ty Ngũ hình → tù nhân đang bị giam; trấn yểm → làm phép dập điềm ấy; khí thiên tử → điềm báo sẽ có người làm vua; điện giám → người coi một điện thờ; trá xưng → xưng; giáng làm → bị hạ tước, chỉ còn gọi là; thừa chỉ → quan hầu cận; canh hai/giờ Dậu có kèm giờ hiện nay. Bỏ "một dặm" và "mấy ngàn trượng" (đơn vị cũ, không đổi chắc được sang mét). Bỏ các chức tước dài không cần cho người đọc (Định quận công, Diên Hưng bá, Phú Lộc bá). Dữ kiện không đổi.
+**Sửa một lỗi ở mục "Chốt lại":** bản cũ viết mơ hồ "người đón vua Y về Tây Đô". Toàn thư (dòng 29704–29708) ghi chính vua Y về Tây Đô, dấy nghĩa quân, đuổi Trần Cảo rồi lên ngôi, nên bài đã sửa theo đúng câu ấy.
 
 **Kiểm tra theo quy tắc kênh (tự rà):** không lời bàn hay chê khen của riêng ta; không dùng biệt danh (đã bỏ "vua quỷ", "vua lợn"); không viết tắt cụm danh từ; mốc thời gian 5 dòng; câu hỏi cuối bài, không có câu hỏi trong bình luận ghim. Hai lần tả cái chết (bắn tan thi hài, đâm trên ngựa) đều nêu ngắn, không miêu tả chi tiết.
 

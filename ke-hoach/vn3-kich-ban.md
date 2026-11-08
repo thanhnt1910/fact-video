@@ -22,7 +22,7 @@ Mã đoạn 56001–56024. Lời kể: `ke-hoach/thu-giong-hai/vn3l_full.json` (
 56017. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.
 56018. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
 56019. Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
-56020. Ngày 2 tháng 9 năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.
+56020. Ngày 2 tháng 9 năm 1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.
 56021. Ngày 2 tháng 7 năm 1976, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu mới.
 56022. Đó là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay.
 56023. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?
@@ -85,3 +85,11 @@ Nguồn thêm (08/11): ý nghĩa hai chữ theo thư Gia Khánh: giaoduc.net.vn 
 - **56015** (vượt qua; chứa chữ rìu; nguồn gốc còn bàn): hvdic (Thiều Chửu "qua, vượt qua"; Trần Văn Chánh "vượt"); Viên Như, nghiencuulichsu.com 28/11/2018 (Thuyết văn giải "độ dã" là vượt qua; chữ Việt gồm 走 và 戉 là chữ rìu, 戉 chỉ âm); Trần Gia Ninh (thời Thương chỉ có chữ 戉 nghĩa là rìu, sau mới có 越 và 粤).
 - **Đã bỏ vì chỉ giả thuyết hoặc một nguồn yếu:** "người Việt dùng rìu nên gọi là Việt" (một nguồn, nói là cách giải thích); chiết tự mặt trời, rồng, người chim, "con Rồng cháu Tiên" (nguoihanoi.vn, tự suy đoán); âm dương theo Kinh Dịch (Viên Như, "theo tôi"); đất nước Việt thời Xuân Thu ở Chiết Giang hay Sơn Đông (hvdic các từ điển lệch nhau).
 - **Chưa kiểm bản gốc:** Thuyết văn giải tự và Lã thị Xuân thu chỉ qua bài trích dẫn.
+
+## Bản sửa 08/11 (lần 3, chủ kênh yêu cầu)
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 56020 | "…năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập…" | "…năm 1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn độc lập…" | Gọi đúng danh xưng. Ngày 2/9/1945 ông là Chủ tịch Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa; "Chủ tịch Hồ Chí Minh" là cách gọi thông dụng. |
+
+## Bản đồ (cảnh 56017–56018, bản đồ Taberd 1838)
+Bản đồ gốc có ghi "Paracel seu Cát Vàng" (tên Hoàng Sa đương thời) ở vùng biển phía đông, khoảng vĩ 16°B. Trong video thêm nhãn "Quần đảo Hoàng Sa (Việt Nam)" và thẻ "Trường Sa (Việt Nam) ở phía nam ↓".

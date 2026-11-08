@@ -149,38 +149,113 @@ def clusters(bs):
     return out
 
 
-def cluster_audio(texts, voice, work, extra=""):
+def cluster_audio(texts, voice, work, extra="", style_base="", take=0):
     # extra: hướng dẫn phát âm riêng của từng kịch bản (trường "style" trong json).
     # Để trống thì khóa bộ nhớ đệm giữ nguyên như cũ, nên giọng RN1 đã đọc không phải đọc lại.
-    style = STYLE + extra
+    style = (style_base or STYLE) + extra
     text = "\n\n".join(texts)
     key = hashlib.sha1(f"{voice}|{style}|{text}".encode()).hexdigest()[:16]
     TTS_CACHE.mkdir(parents=True, exist_ok=True)
     wav = TTS_CACHE / f"en_{key}.wav"
+    if take:      # đọc lại: ghi ra file riêng của lượt này, chưa thay bản đang giữ
+        wav = TTS_CACHE / f"en_{key}_t{take}.wav"
+        wav.unlink(missing_ok=True)
     if not wav.exists():
         t = time.time()
         raw = gemini_tts.synth(text, style, voice, log=log)
-        tmp = work / f"{key}_raw.wav"
+        tmp = work / f"{key}_{take}_raw.wav"
         tmp.write_bytes(raw)
         mv.run_ffmpeg(["-i", str(tmp), "-ac", "1", "-ar", str(SR), "-sample_fmt", "s16", str(wav)])
         log(f"   🎙️  đọc xong 1 cụm {len(texts)} đoạn ({time.time() - t:.0f}s)")
     return mv.read_wav(wav)
 
 
+def style_base(d):
+    f = d.get("style_file")
+    return (ROOT / f).read_text(encoding="utf-8").strip() if f else ""
+
+
+def beat_groups(d):
+    """cum=1: mỗi đoạn lời kể đọc riêng một lượt gọi; mặc định gom cụm."""
+    bs = beats_of(d)
+    return [[b] for b in bs] if d.get("cum") == 1 else clusters(bs)
+
+
+def speech_len(audio):
+    x = np.frombuffer(audio.tobytes(), np.int16).astype(np.float32)
+    win = int(0.02 * SR)
+    k = len(x) // win
+    if k < 2:
+        return 0.0
+    r = np.sqrt((x[:k * win].reshape(k, win) ** 2).mean(1) + 1e-6)
+    nz = np.where(r > 0.1 * np.median(r[r > np.percentile(r, 40)]))[0]
+    return (nz[-1] - nz[0] + 1) * win / SR if len(nz) else 0.0
+
+
 def giong(d):
     work = ROOT / "output" / d["id"] / "_work"
     work.mkdir(parents=True, exist_ok=True)
     voice = d.get("voice", "Orus")
-    cs = clusters(beats_of(d))
-    log(f"Giọng {voice}: {len(cs)} cụm")
+    sb = style_base(d)
+    extra = d.get("style", "")
+    cs = beat_groups(d)
+    log(f"Giọng {voice}: {len(cs)} lượt gọi" + (" (mỗi đoạn một lượt)" if d.get("cum") == 1 else ""))
+
+    def fail(i, e):
+        log(f"⛔ DỪNG ở lượt {i + 1}/{len(cs)}: {str(e)[:300]}")
+        log("   Mọi khóa Gemini đều hết lượt (hoặc lỗi giọng). Các đoạn đã đọc được giữ trong bộ nhớ đệm; chạy lại sau khi hạn mức hồi.")
+        sys.exit(3)
+
     for i, c in enumerate(cs):
         try:
-            cluster_audio([b["text"] for b in c], voice, work, d.get("style", ""))
+            cluster_audio([b["text"] for b in c], voice, work, extra, sb)
         except Exception as e:
-            log(f"⛔ DỪNG ở cụm {i + 1}/{len(cs)}: {str(e)[:300]}")
-            log("   Mọi khóa Gemini đều hết lượt (hoặc lỗi giọng). Các cụm đã đọc được giữ trong bộ nhớ đệm; chạy lại sau khi hạn mức hồi.")
-            sys.exit(3)
-        log(f"  cụm {i + 1}/{len(cs)} ✔")
+            fail(i, e)
+        log(f"  lượt {i + 1}/{len(cs)} ✔")
+    if d.get("cum") != 1:
+        return
+    # Đọc lại đoạn nào Gemini đọc sai (nhịp lệch xa so với cả video, thường là bỏ câu hoặc đọc thừa):
+    # tối đa 3 lượt mỗi đoạn, giữ bản có nhịp gần chuẩn nhất. Không chỉnh âm thanh.
+    def info(i):
+        c = cs[i]
+        text = "\n\n".join(b["text"] for b in c)
+        style = (sb or STYLE) + extra
+        key = hashlib.sha1(f"{voice}|{style}|{text}".encode()).hexdigest()[:16]
+        return key, len(text.split())
+    rates = []
+    for i in range(len(cs)):
+        key, w = info(i)
+        L = speech_len(mv.read_wav(TTS_CACHE / f"en_{key}.wav"))
+        rates.append(w / L if L else 0)
+    med = float(np.median([r for r in rates if r]))
+    log(f"Nhịp chuẩn: {med:.2f} chữ/giây")
+    for i, c in enumerate(cs):
+        key, w = info(i)
+        ok = TTS_CACHE / f"en_{key}.ok"
+        dev = lambda r: abs(r / med - 1) if r else 9
+        if ok.exists() or dev(rates[i]) <= 0.25:
+            ok.write_text("ok")
+            continue
+        best, best_dev, best_take = rates[i], dev(rates[i]), 0
+        log(f"  ⚠ đoạn {i + 1}: nhịp {rates[i]:.2f} lệch {best_dev * 100:.0f}%, đọc lại")
+        for take in (1, 2):
+            try:
+                a = cluster_audio([b["text"] for b in c], voice, work, extra, sb, take)
+            except Exception as e:
+                fail(i, e)
+            L = speech_len(a)
+            r = w / L if L else 0
+            log(f"     lượt {take}: nhịp {r:.2f} (lệch {dev(r) * 100:.0f}%)")
+            if dev(r) < best_dev:
+                best, best_dev, best_take = r, dev(r), take
+            if best_dev <= 0.25:
+                break
+        if best_take:
+            (TTS_CACHE / f"en_{key}.wav").write_bytes((TTS_CACHE / f"en_{key}_t{best_take}.wav").read_bytes())
+        for t in (1, 2):
+            (TTS_CACHE / f"en_{key}_t{t}.wav").unlink(missing_ok=True)
+        ok.write_text("ok")
+        log(f"     giữ lượt {best_take}, lệch {best_dev * 100:.0f}%")
 
 
 def timeline(d):
@@ -192,9 +267,10 @@ def timeline(d):
     narr.extend(mv.silence(INTRO))
     t = INTRO
     items = []
-    for c in clusters(beats_of(d)):
+    groups = beat_groups(d)
+    for gi, c in enumerate(groups):
         texts = [b["text"] for b in c]
-        audio = cluster_audio(texts, voice, work, d.get("style", ""))
+        audio = cluster_audio(texts, voice, work, d.get("style", ""), style_base(d))
         segs, (a, b) = split_by_pauses(audio, [max(10, len(x)) for x in texts])
         for (s0, s1), beat in zip(segs, c):
             seg = audio[s0:s1]
@@ -211,6 +287,8 @@ def timeline(d):
             t += GAP_BEAT
             items.append(dict(beat, start=st, end=st + len(seg) / SR, cue_cuts=cue_cuts))
         # nghỉ dài hơn khi sang chương
+        if gi + 1 < len(groups) and groups[gi + 1][0]["chapter"] == c[0]["chapter"]:
+            continue
         narr.extend(mv.silence(0.5))
         t += 0.5
     narr.extend(mv.silence(OUTRO))

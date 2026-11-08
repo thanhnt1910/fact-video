@@ -115,8 +115,11 @@ jobs:
             [ -f "$f" ] || continue
             tag=video-$ID; [ $kind = thu ] && tag=video-$ID-khong-giong
             extra=""; for x in output/$ID/${ID}_${kind}_xem_nhanh.mp4 output/$ID/${ID}_xem_nhanh.mp4 output/$ID/$ID.en.srt output/$ID/chuong.txt output/$ID/bao_cao.json; do [ -f "$x" ] && extra="$extra $x"; done
+            yt=$(ls ke-hoach/$CD/*_youtube.md 2>/dev/null | head -1)
+            for x in "$yt" assets/bia/$ID/${ID}_thumbnail.jpg; do [ -n "$x" ] && [ -f "$x" ] && extra="$extra $x"; done
+            notes="Bản dựng thử"; [ -n "$yt" ] && [ -f "$yt" ] && notes="$(cat "$yt")"
             gh release delete $tag -y --cleanup-tag 2>/dev/null || true
-            gh release create $tag -t "$ID ($kind)" -n "Bản dựng thử" "$f" $extra
+            gh release create $tag -t "$ID ($kind)" -n "$notes" "$f" $extra
           done
       - name: Gửi Telegram (bản xem nhanh)
         if: always()

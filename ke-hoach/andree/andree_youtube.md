@@ -34,7 +34,17 @@ What this video covers:
 • The main theories about how the men died
 
 Chapters:
-
+00:00 Intro
+01:30 The Engineer and His Dream
+02:58 The First Try
+04:07 Launch Day
+05:30 Down on the Ice
+06:49 The Long Walk
+08:18 White Island
+09:27 Found After Thirty-Three Years
+11:03 Pictures From the Ice
+11:45 What Killed Them?
+13:40 What We Really Know
 
 Real history. Real documents. No made-up details. If a part of the story is disputed, we tell you.
 

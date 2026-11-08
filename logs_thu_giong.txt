@@ -16,11 +16,63 @@
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
    [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-07 16:04:38
-còn thiếu 1 câu
+còn thiếu 23 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 59015-59015: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 07:57:49
-OK cụm 59015 - 59015 5.3 giây
-[báo cáo giọng] 16/16 đoạn có nhật ký tạo giọng
+   [giọng] nhóm 59001-59001: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:08
+OK cụm 59001 - 59001 4.7 giây
+   [giọng] nhóm 59002-59002: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:12
+OK cụm 59002 - 59002 6.8 giây
+   [giọng] nhóm 59003-59003: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:15
+OK cụm 59003 - 59003 5.1 giây
+   [giọng] nhóm 59004-59004: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:19
+OK cụm 59004 - 59004 5.6 giây
+   [giọng] nhóm 59005-59005: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:24
+OK cụm 59005 - 59005 5.5 giây
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 35s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 59017-59017: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:28
+OK cụm 59017 - 59017 7.5 giây
+   [giọng] nhóm 59018-59018: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:32
+OK cụm 59018 - 59018 6.9 giây
+   [giọng] nhóm 59019-59019: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:37
+OK cụm 59019 - 59019 7.8 giây
+   [giọng] nhóm 59020-59020: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:41
+OK cụm 59020 - 59020 8.6 giây
+   [giọng] nhóm 59021-59021: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:45
+OK cụm 59021 - 59021 7.2 giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 14s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 59006-59006: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:50
+OK cụm 59006 - 59006 7.3 giây
+   [giọng] nhóm 59022-59022: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:54
+OK cụm 59022 - 59022 6.2 giây
+   [giọng] nhóm 59023-59023: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:20:58
+OK cụm 59023 - 59023 5.1 giây
+   [giọng] nhóm 59007-59007: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:02
+OK cụm 59007 - 59007 8.2 giây
+   [giọng] nhóm 59008-59008: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:06
+OK cụm 59008 - 59008 6.2 giây
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …2eGQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 53s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 59009-59009: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:10
+OK cụm 59009 - 59009 5.7 giây
+   [giọng] nhóm 59010-59010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:14
+OK cụm 59010 - 59010 7.2 giây
+   [giọng] nhóm 59011-59011: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:19
+OK cụm 59011 - 59011 6.5 giây
+   [giọng] nhóm 59012-59012: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:22
+OK cụm 59012 - 59012 6.8 giây
+   [giọng] nhóm 59013-59013: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:27
+OK cụm 59013 - 59013 5.0 giây
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …xfFA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 32s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 59014-59014: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:31
+OK cụm 59014 - 59014 7.5 giây
+   [giọng] nhóm 59015-59015: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:34
+OK cụm 59015 - 59015 4.7 giây
+   [giọng] nhóm 59016-59016: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-08 08:21:37
+OK cụm 59016 - 59016 1.8 giây
+[báo cáo giọng] 23/23 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
    voice: Leda

@@ -1,10 +1,10 @@
 # VN3. Tên nước Việt Nam ra đời như thế nào (loạt "Bí mật biểu tượng", nhãn trên video: #03)
 
-Mã đoạn 56001–56016. Lời kể: `ke-hoach/thu-giong-hai/vn3_full.json` (16 đoạn, khoảng 100 giây; dài hơn mức 60–80 giây, cắt bớt đoạn 56008 hoặc 56011 nếu chủ kênh muốn ngắn hơn). **Đã kiểm đủ dữ kiện (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.**
+Mã đoạn 56001–56020. Lời kể: `ke-hoach/thu-giong-hai/vn3l_full.json` (20 đoạn, khoảng 130 giây; dài hơn mức 60–80 giây, cắt bớt đoạn 56008 hoặc 56011 nếu chủ kênh muốn ngắn hơn). **Đã kiểm đủ dữ kiện (07/11/2026), chờ chủ kênh duyệt, chưa đọc giọng.**
 
-## Lời kể (để duyệt)
+## Lời kể (để duyệt, bản 08/11, 20 đoạn)
 56001. Bạn có biết, tên nước Việt Nam suýt nữa là Nam Việt, nhưng vua nhà Thanh đã không đồng ý?
-56002. Trước đó, tên nước đã đổi nhiều lần. Năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt.
+56002. Trước đó, tên nước đã đổi nhiều lần, và năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt.
 56003. Theo Đại Việt sử ký toàn thư, năm 1054, vua Lý Thánh Tông đổi thành Đại Việt. Mốc này vẫn còn được bàn luận.
 56004. Năm 1400, Hồ Quý Ly lên ngôi và đổi quốc hiệu thành Đại Ngu.
 56005. Đến năm 1802, Nguyễn Ánh lên ngôi, lấy niên hiệu Gia Long và lập ra nhà Nguyễn.
@@ -13,12 +13,30 @@ Mã đoạn 56001–56016. Lời kể: `ke-hoach/thu-giong-hai/vn3_full.json` (1
 56008. Nam Việt vốn là tên một nước cổ thời nhà Triệu, đất gồm vùng Quảng Đông và Quảng Tây ở nam Trung Quốc ngày nay, nên dễ gây hiểu lầm.
 56009. Cuối cùng, hai bên chọn cách đổi thứ tự hai chữ. Tháng 5 năm 1803, nhà Thanh chấp thuận tên Việt Nam.
 56010. Năm 1804, sứ nhà Thanh mang sắc phong và ấn sang làm lễ, và quốc hiệu Việt Nam chính thức được công bố.
-56011. Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu.
-56012. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.
-56013. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
-56014. Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
-56015. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?
-56016. Hẹn bạn ở video tiếp theo.
+56011. Vậy Việt Nam có nghĩa là gì? Theo thư của vua Gia Khánh, chữ Việt cho thấy nước này nối tiếp đất cũ và tiếng tốt các đời trước.
+56012. Còn chữ Nam, đứng sau, cho biết đất nước nằm ở biên giới phía nam.
+56013. Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu.
+56014. Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.
+56015. Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.
+56016. Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.
+56017. Ngày 2 tháng 9 năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.
+56018. Ngày 2 tháng 7 năm 1976, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay.
+56019. Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?
+56020. Hẹn bạn ở video tiếp theo.
+
+### Bản sửa 08/11 (chủ kênh: video thiếu tên cuối cùng "Việt Nam" và ý nghĩa của tên) — chờ duyệt lại
+| Đoạn mới | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 56002 | 3 câu ("...nhiều lần. Năm 968. Đinh Bộ Lĩnh...") | gộp thành 2 câu, nội dung giữ nguyên | đúng quy tắc tối đa 2 câu mỗi đoạn |
+| 56011 (mới) | không có | "Vậy Việt Nam có nghĩa là gì? Theo thư của vua Gia Khánh, chữ Việt cho thấy nước này nối tiếp đất cũ và tiếng tốt các đời trước." | giải thích ý nghĩa chữ Việt, dẫn lời thư nhà Thanh |
+| 56012 (mới) | không có | "Còn chữ Nam, đứng sau, cho biết đất nước nằm ở biên giới phía nam." | giải thích ý nghĩa chữ Nam |
+| 56013 | 56011 | giữ nguyên | chỉ dời số |
+| 56014–56016 | 56012–56014 | giữ nguyên | dời số |
+| 56017 (mới) | không có | "Ngày 2 tháng 9 năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa." | tên Việt Nam trở lại quốc hiệu thời hiện đại |
+| 56018 (mới) | không có | "Ngày 2 tháng 7 năm 1976, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay." | nêu tên cuối cùng hiện nay |
+| 56019–56020 | 56015–56016 | giữ nguyên | dời số |
+
+Nguồn thêm (08/11): ý nghĩa hai chữ theo thư Gia Khánh: giaoduc.net.vn ("Tên gọi Việt Nam có từ khi nào?", Việt đứng trước = nối đất cũ và tiếng tốt các đời trước; Nam = ở biên giới phía nam) và lsvn.vn (cùng ý, đọc trước đó); 2/9/1945: giaoduc.net.vn và vietcetera; 1976: daibieunhandan.vn ("Định danh tên nước..." nêu Nghị quyết ngày 2/7/1976, kỳ họp 24/6–3/7/1976, nguyên văn điều khoản quốc hiệu) và vietcetera (tháng 7/1976). Lý do "Việt Thường" của Gia Long chỉ đọc ở bài báo, không đưa vào lời kể. Lời kể chỉ thuật lại thư nhà Thanh, kênh không tự giải nghĩa.
 
 ## Khung 6 câu hỏi
 1. **Chuyện gì xảy ra?** Tên "Việt Nam" được đặt năm 1804 sau khi nhà Thanh bác tên "Nam Việt" mà Gia Long xin.

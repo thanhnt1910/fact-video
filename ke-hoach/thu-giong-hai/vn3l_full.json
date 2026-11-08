@@ -10,8 +10,8 @@
   "n": 56002,
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
-  "text": "Trước đó, tên nước đã đổi nhiều lần. Năm chín trăm sáu mươi tám. Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt.",
-  "hien": "Trước đó, tên nước đã đổi nhiều lần. Năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt."
+  "text": "Trước đó, tên nước đã đổi nhiều lần, và năm chín trăm sáu mươi tám, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt.",
+  "hien": "Trước đó, tên nước đã đổi nhiều lần, và năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt."
  },
  {
   "n": 56003,
@@ -70,7 +70,21 @@
   "hien": "Năm 1804, sứ nhà Thanh mang sắc phong và ấn sang làm lễ, và quốc hiệu Việt Nam chính thức được công bố."
  },
  {
-  "n": 56011,
+  "chuong": "Tên nước Việt Nam",
+  "tone": "story",
+  "text": "Vậy Việt Nam có nghĩa là gì? Theo thư của vua Gia Khánh, chữ Việt cho thấy nước này nối tiếp đất cũ và tiếng tốt các đời trước.",
+  "hien": "Vậy Việt Nam có nghĩa là gì? Theo thư của vua Gia Khánh, chữ Việt cho thấy nước này nối tiếp đất cũ và tiếng tốt các đời trước.",
+  "n": 56011
+ },
+ {
+  "chuong": "Tên nước Việt Nam",
+  "tone": "story",
+  "text": "Còn chữ Nam, đứng sau, cho biết đất nước nằm ở biên giới phía nam.",
+  "hien": "Còn chữ Nam, đứng sau, cho biết đất nước nằm ở biên giới phía nam.",
+  "n": 56012
+ },
+ {
+  "n": 56013,
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
   "text": "Hai chữ Việt Nam không hoàn toàn mới. Một số thơ văn và văn bia trước đó đã dùng, nhưng chỉ như một cách gọi, chưa phải quốc hiệu.",
@@ -81,31 +95,45 @@
   "tone": "story",
   "text": "Năm một nghìn tám trăm ba mươi tám, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.",
   "hien": "Năm 1838, vua Minh Mạng ban chiếu đổi tên nước thành Đại Nam.",
-  "n": 56012
+  "n": 56014
  },
  {
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
   "text": "Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.",
   "hien": "Ông giải thích: trước gọi là Việt Nam, nay gọi là Đại Nam thì càng tỏ nghĩa lớn.",
-  "n": 56013
+  "n": 56015
  },
  {
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
   "text": "Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.",
   "hien": "Nhưng tên Việt Nam không mất đi. Hai tên Đại Nam và Việt Nam được dùng song song, và nhiều người vẫn gọi nước mình là Việt Nam.",
-  "n": 56014
+  "n": 56016
+ },
+ {
+  "chuong": "Tên nước Việt Nam",
+  "tone": "story",
+  "text": "Ngày hai tháng chín năm một nghìn chín trăm bốn mươi lăm, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.",
+  "hien": "Ngày 2 tháng 9 năm 1945, Hồ Chí Minh đọc Tuyên ngôn độc lập, lập nước Việt Nam Dân chủ Cộng hòa.",
+  "n": 56017
+ },
+ {
+  "chuong": "Tên nước Việt Nam",
+  "tone": "story",
+  "text": "Ngày hai tháng bảy năm một nghìn chín trăm bảy mươi sáu, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay.",
+  "hien": "Ngày 2 tháng 7 năm 1976, Quốc hội nước Việt Nam thống nhất đặt quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam, tên gọi dùng đến ngày nay.",
+  "n": 56018
  },
  {
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
   "text": "Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?",
   "hien": "Một cái tên phải qua nhiều lần xin phép và tranh luận. Theo bạn, vì sao Minh Mạng đổi tên nước thành Đại Nam, mà người dân vẫn gọi là Việt Nam?",
-  "n": 56015
+  "n": 56019
  },
  {
-  "n": 56016,
+  "n": 56020,
   "chuong": "Tên nước Việt Nam",
   "tone": "story",
   "text": "Hẹn bạn ở video tiếp theo.",

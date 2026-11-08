@@ -14,6 +14,7 @@ Nguồn chính đã đọc trực tiếp: **Đại Việt sử ký toàn thư**,
 7. Năm 1511, thuật sĩ nói phương đông có khí thiên tử; vua cho đoàn đi trấn yểm ở Đồ Sơn, và Mạc Đăng Dung đi cùng mà không ai biết.
 8. Năm 1516, Trịnh Duy Sản gặp vua giữa phố; vua hỏi "Giặc ở phương nào?", ông không đáp, quay đi cười ầm lên.
 9. Tuổi thọ Tương Dực trong Toàn thư (24) không khớp với năm sinh (1495) và năm mất (1516).
+10. Bài có thêm phần phân tích "Nhìn lại" (chủ kênh yêu cầu 8/11/2026 vì bài bị đánh giá sơ sài, chỉ liệt kê). Phần này là diễn giải của người kể theo mục "Diễn giải của người kể" trong `quy-tac/chung.md`; không dùng lời khen chê của sử gia.
 
 ## Bài đăng Facebook
 
@@ -133,6 +134,39 @@ An Hòa hầu Nguyễn Hoằng Dụ nghe tin Duy Sản giết vua liền nổi g
 
 Ngày 11 tháng 4, Trần Cảo vào kinh thành, đặt niên hiệu Thiên Ứng và dùng Lê Quảng Độ coi việc nước.
 
+🔎 **Nhìn lại: vì sao ngôi vua đổi chủ nhanh như vậy?**
+Phần này là cách hiểu của người viết, đặt cạnh nhau những việc Toàn thư đã chép ở trên. Toàn thư không nói thẳng các điều dưới đây. Mỗi việc cũng có thể còn những nguyên nhân khác mà sử không ghi.
+
+1️⃣ **Ba lần đổi ngôi, lần nào người nắm lực lượng cũng là người quyết định.**
+Năm 1504, Thái hoàng thái hậu đòi lập Lữ Khôi Vương, nhưng Nguyễn Nhữ Vi đóng cửa thành rồi lập Tuấn (Uy Mục). Năm 1509, Dinh đem quân thủy bộ từ Tây Đô đánh ra kinh. Năm 1516, Trịnh Duy Sản đem hơn 3.000 người vào thành.
+
+Có thể hiểu là: ở cả ba lần, người đứng ra lập hay hạ một vị vua là người có quân hoặc có cửa thành trong tay. Điều này cho thấy ngôi vua lúc ấy phụ thuộc nhiều vào lực lượng đứng sau, chứ không chỉ vào việc ai được chọn theo lệ.
+
+2️⃣ **Quyền thế gần vua chưa chắc biến thành người giữ vua.**
+Dưới thời Uy Mục, Toàn thư ghi quyền thế thuộc về họ ngoại ở ba làng, và nội thần đi dò xét 26 vương. Khi Dinh tiến quân, những việc được chép là: cấm quân giữ không nổi, tướng Lê Vũ chết trận, tù nhân nhận 3 quan tiền rồi ai về nhà nấy, và một vệ sĩ cũ bắt vua nộp cho Dinh.
+
+Có thể hiểu là: có quyền thế trong triều và có người sẵn sàng bảo vệ vua lúc nguy là hai việc khác nhau. Toàn thư không cho biết ai trong họ ngoại hay nội thần ra trận bảo vệ vua.
+
+3️⃣ **Nhiều nhóm khác nhau, mỗi nhóm một lý do, cùng đứng về phía Dinh.**
+Dinh là một vương trong họ vua, bị giam rồi tìm đường thoát. Nguyễn Văn Lang là em của Trường Lạc hoàng thái hậu, bị đuổi về quê. Có người Chiêm tên Chế Mạn và người ba phủ cùng nổi quân ở Tây Đô. Hịch của phe Dinh kể rằng dân Hải Dương, Kinh Bắc mệt mỏi vì công trình xây đi xây lại.
+
+Có thể hiểu là: cuộc nổi dậy mạnh lên vì gom được những nhóm có lý do riêng. Nhưng hịch là văn bản của một phe đang khởi binh, nên Toàn thư không cho ta biết nhóm nào đóng vai trò lớn nhất.
+
+4️⃣ **Cùng một lời sấm, cả triều đình lẫn người nổi dậy cùng tin.**
+Năm 1511, các thuật sĩ nói phương đông có khí sắc thiên tử, và vua sai người ra Đồ Sơn trấn yểm. Năm 1516, Trần Cảo dấy loạn ở Thủy Đường, cũng theo lời sấm rằng phương đông có vượng khí thiên tử. Trong khoảng ấy, Toàn thư ghi hạn hán và đói to (1512), nước lũ lớn và nạn rắn (1514). Đoạn tổng kết năm 1516 còn ghi quân lính đắp thành mắc bệnh dịch.
+
+Có thể hiểu là: lời sấm này được nhiều người biết, nên có sức hiệu triệu cả với dân lẫn với triều đình. Toàn thư không cho biết có bao nhiêu người theo Cảo vì đói, vì lời sấm hay vì lý do khác, nên không thể nói nguyên nhân nào là chính.
+
+5️⃣ **Sau khi vua chết giữa phố, mỗi người cầm quân chọn một cách.**
+Trong chưa đầy một tuần, Trịnh Duy Sản định lập Quang Trị rồi lại cùng Lê Nghĩa Chiêu đón người cháu tên Y. Trịnh Duy Đại đưa Quang Trị về Tây Đô. Nguyễn Hoằng Dụ đem quân đốt kinh thành. Ngày 11 tháng 4, Trần Cảo vào kinh.
+
+Có thể hiểu là: lúc ấy không còn một cách chọn vua mà mọi người cùng chấp nhận. Mỗi người có quân trong tay làm theo cách của mình. Đây chỉ là việc đặt các sự kiện cạnh nhau. Toàn thư không ghi động cơ của từng người.
+
+📌 **Điều sử chưa cho biết**
+Toàn thư không nêu lý do Trịnh Duy Sản đem quân vào thành đêm mồng 6 tháng 4 năm 1516. Bài chỉ ghi ông từng can vua và bị đánh trượng, rồi để người đọc tự cân nhắc.
+
+Nhiều lời kể tội Uy Mục nằm trong văn bản của những người đã đánh ông. Bài chưa đối chiếu được với nguồn khác.
+
 ⏳ **Mốc thời gian**
 • 1504 – Lê Túc Tông mất, Nguyễn Thị lập Uy Mục
 • 11/1509 – Giản Tu công Dinh từ Tây Đô đánh ra kinh
@@ -145,7 +179,7 @@ Uy Mục ở ngôi khoảng 5 năm và mất khi 21 hoặc 22 tuổi. Tương D�
 
 Người đón vua Y về Tây Đô sau đó đánh đuổi Trần Cảo, lên ngôi hiệu Chiêu Tông. Toàn thư ghi: được 7 năm thì ngự ra ngoài, Mạc Đăng Dung lập em vua lên ngôi, rồi năm 1526, ông giết Chiêu Tông.
 
-❓ Theo bạn, nếu hai vua này nghe lời can của các quan, nhà Lê sơ có kéo dài hơn không?
+❓ Theo bạn, trong các nhóm người kể trên (họ ngoại, nội thần, các vương, tướng cầm quân), nhóm nào đóng vai trò lớn nhất khiến ngôi vua đổi chủ liên tục?
 
 *(Theo Đại Việt sử ký toàn thư. Nguồn chi tiết ở bình luận.)*
 
@@ -165,6 +199,7 @@ Cần phân biệt:
 • Tuổi thọ Tương Dực: Toàn thư ghi 24 tuổi, không khớp với năm sinh (1495) và năm mất (1516). Bài không nêu số tuổi.
 • Toàn thư chép tuổi vua Y và vua Quang Trị khác nhau ở những chỗ khác nhau; bài không nêu tuổi vua Y.
 • Chuyện "xây dựng" và "dịch lệ một phần mười" nằm trong đoạn tổng kết của năm 1516; bài ghi đúng chỗ ấy, không gán năm cho từng công trình.
+• Phần "Nhìn lại" là cách hiểu của người viết khi đặt các sự việc cạnh nhau, không phải điều Toàn thư chép. Phần này không kết luận một nguyên nhân duy nhất và không nêu ý nghĩ của nhân vật.
 • Bài chưa đối chiếu với sử Trung Quốc hay sách nghiên cứu hiện đại.
 
 Ảnh (Wikimedia Commons):
@@ -219,6 +254,18 @@ TT = Đại Việt sử ký toàn thư. Số dòng là dòng trong `ke-hoach/ngu
 | Bài không có lời bàn của sử gia | 🟢 | Theo quy tắc series 30/10/2026 |
 
 **Kiểm tra theo quy tắc kênh (tự rà):** không lời bàn hay chê khen của riêng ta; không dùng biệt danh (đã bỏ "vua quỷ", "vua lợn"); không viết tắt cụm danh từ; mốc thời gian 5 dòng; câu hỏi cuối bài, không có câu hỏi trong bình luận ghim. Hai lần tả cái chết (bắn tan thi hài, đâm trên ngựa) đều nêu ngắn, không miêu tả chi tiết.
+
+## Ghi chú kỹ thuật kể chuyện (phần phân tích "Nhìn lại", 8/11/2026)
+Chủ kênh yêu cầu thêm phân tích cho bài này (8/11/2026), nên phần "Nhìn lại" là ngoại lệ có chủ ý của quy tắc series "chỉ kể cốt truyện" (30/10/2026). Cách làm để vẫn đúng `quy-tac/chung.md`, mục "Diễn giải của người kể":
+1. Mỗi ý chỉ dựa vào việc đã kể ở trên trong chính bài, có số dòng Toàn thư ở bảng độ chắc.
+2. Không đổi kết cục, nguyên nhân chính, người thắng thua.
+3. Câu diễn giải luôn có nhãn "Có thể hiểu là" và có câu nói rõ Toàn thư không nói thẳng.
+4. Không bịa lời thoại hay ý nghĩ: không nêu động cơ của Trịnh Duy Sản, Nguyễn Văn Lang hay ai khác; mục "Điều sử chưa cho biết" nói thẳng chỗ thiếu.
+5. Không nâng mức khẳng định: không gán một nguyên nhân duy nhất, không biến tương quan thành nhân quả (ví dụ ý 4: đói kém và lời sấm chỉ đặt cạnh nhau, ghi rõ không biết nguyên nhân nào chính), không dùng hậu quả về sau (Mạc Đăng Dung) để suy ngược về ý định của ai.
+6. Không khen chê, không đánh giá đạo đức hai vua, không trích lời bàn của Lê Tung, Phan Phu Tiên, "Trung hưng ký" hay "Hồng Thuận Trị bình bảo phạm" (đã bỏ ở dòng 28497–28531, 29496–29526), không dùng biệt danh.
+7. Không có chi tiết tình dục, không mô tả bạo lực thêm; không nhắc tên người đang sống.
+Kỹ thuật chọn: đặt các sự việc cạnh nhau theo năm rồi nêu một cách hiểu có giới hạn; kết bằng câu hỏi mở về vai trò các nhóm, không hỏi giả định "nếu vua nghe can".
+Việc chủ kênh cần quyết: nếu muốn phần phân tích thành chuẩn cho các bài sau (7, 8), cần cập nhật `quy-tac/su-viet.md` và `ke-hoach/nhan-vat-phu-series-dan-y.md` (hiện còn ghi "không lời bàn"). Tôi chưa sửa hai file này.
 
 ## Chi tiết đã bỏ khỏi bài
 - **Lời bàn của sử gia:** đoạn tổng kết "sách Hồng Thuận Trị bình bảo phạm", "Trung hưng ký", lời bàn cuối mục Uy Mục (28497–28531) và Tương Dực (29496–29526); các câu đầu mục đánh giá hai vua. Bỏ theo quy tắc series 30/10/2026.

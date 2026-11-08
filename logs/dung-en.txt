@@ -276,3 +276,130 @@ Giọng xong: 14.6 phút, 88 đoạn
    … 91/96 (575s)
 Giọng gốc: không cân âm lượng, không chỉnh tốc độ
 ✅ AN1_dai.mp4: 14.60 phút, 186 MB; bản xem nhanh 18 MB
+Giọng Leda: 88 lượt gọi (mỗi đoạn một lượt)
+  lượt 1/88 ✔
+  lượt 2/88 ✔
+  lượt 3/88 ✔
+  lượt 4/88 ✔
+  lượt 5/88 ✔
+  lượt 6/88 ✔
+  lượt 7/88 ✔
+  lượt 8/88 ✔
+  lượt 9/88 ✔
+  lượt 10/88 ✔
+  lượt 11/88 ✔
+  lượt 12/88 ✔
+  lượt 13/88 ✔
+  lượt 14/88 ✔
+  lượt 15/88 ✔
+  lượt 16/88 ✔
+  lượt 17/88 ✔
+  lượt 18/88 ✔
+  lượt 19/88 ✔
+  lượt 20/88 ✔
+  lượt 21/88 ✔
+  lượt 22/88 ✔
+  lượt 23/88 ✔
+  lượt 24/88 ✔
+  lượt 25/88 ✔
+  lượt 26/88 ✔
+  lượt 27/88 ✔
+  lượt 28/88 ✔
+  lượt 29/88 ✔
+  lượt 30/88 ✔
+  lượt 31/88 ✔
+  lượt 32/88 ✔
+  lượt 33/88 ✔
+  lượt 34/88 ✔
+  lượt 35/88 ✔
+  lượt 36/88 ✔
+  lượt 37/88 ✔
+  lượt 38/88 ✔
+  lượt 39/88 ✔
+  lượt 40/88 ✔
+  lượt 41/88 ✔
+  lượt 42/88 ✔
+  lượt 43/88 ✔
+  lượt 44/88 ✔
+  lượt 45/88 ✔
+  lượt 46/88 ✔
+  lượt 47/88 ✔
+  lượt 48/88 ✔
+  lượt 49/88 ✔
+  lượt 50/88 ✔
+  lượt 51/88 ✔
+  lượt 52/88 ✔
+  lượt 53/88 ✔
+  lượt 54/88 ✔
+  lượt 55/88 ✔
+  lượt 56/88 ✔
+  lượt 57/88 ✔
+  lượt 58/88 ✔
+  lượt 59/88 ✔
+  lượt 60/88 ✔
+  lượt 61/88 ✔
+  lượt 62/88 ✔
+  lượt 63/88 ✔
+  lượt 64/88 ✔
+  lượt 65/88 ✔
+  lượt 66/88 ✔
+  lượt 67/88 ✔
+  lượt 68/88 ✔
+  lượt 69/88 ✔
+  lượt 70/88 ✔
+  lượt 71/88 ✔
+  lượt 72/88 ✔
+  lượt 73/88 ✔
+  lượt 74/88 ✔
+  lượt 75/88 ✔
+  lượt 76/88 ✔
+  lượt 77/88 ✔
+  lượt 78/88 ✔
+  lượt 79/88 ✔
+  lượt 80/88 ✔
+  lượt 81/88 ✔
+  lượt 82/88 ✔
+  lượt 83/88 ✔
+  lượt 84/88 ✔
+  lượt 85/88 ✔
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+   🎙️  đọc xong 1 cụm 1 đoạn (4s)
+  lượt 86/88 ✔
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 1 đoạn (5s)
+  lượt 87/88 ✔
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 1 đoạn (4s)
+  lượt 88/88 ✔
+Nhịp chuẩn: 2.63 chữ/giây
+  ⚠ đoạn 40: nhịp 3.43 lệch 30%, đọc lại
+   🎙️  đọc xong 1 cụm 1 đoạn (4s)
+     lượt 1: nhịp 3.43 (lệch 30%)
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 1 đoạn (3s)
+     lượt 2: nhịp 3.49 (lệch 32%)
+     giữ lượt 0, lệch 30%
+  ⚠ đoạn 57: nhịp 3.40 lệch 29%, đọc lại
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 1 đoạn (5s)
+     lượt 1: nhịp 3.02 (lệch 15%)
+     giữ lượt 1, lệch 15%
+  ⚠ đoạn 86: nhịp 3.33 lệch 27%, đọc lại
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   🎙️  đọc xong 1 cụm 1 đoạn (4s)
+     lượt 1: nhịp 2.94 (lệch 12%)
+     giữ lượt 1, lệch 12%
+Giọng xong: 13.2 phút, 88 đoạn
+88 cảnh, 93 đoạn hình
+   … 1/93 (96s)
+   … 11/93 (200s)
+   … 21/93 (300s)
+   … 31/93 (370s)
+   … 41/93 (491s)
+   … 51/93 (600s)
+   … 61/93 (686s)
+   … 71/93 (795s)
+   … 81/93 (851s)
+   … 91/93 (948s)
+Giọng gốc: không cân âm lượng, không chỉnh tốc độ
+✅ AN1_dai.mp4: 13.20 phút, 171 MB; bản xem nhanh 16 MB

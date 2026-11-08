@@ -135,37 +135,49 @@ An Hòa hầu Nguyễn Hoằng Dụ nghe tin Duy Sản giết vua liền nổi g
 Ngày 11 tháng 4, Trần Cảo vào kinh thành, đặt niên hiệu Thiên Ứng và dùng Lê Quảng Độ coi việc nước.
 
 🔎 **Nhìn lại: vì sao ngôi vua đổi chủ nhanh như vậy?**
-Phần này là cách hiểu của người viết, đặt cạnh nhau những việc Toàn thư đã chép ở trên. Toàn thư không nói thẳng các điều dưới đây. Mỗi việc cũng có thể còn những nguyên nhân khác mà sử không ghi.
+Phần này là cách hiểu của người viết, không phải lời sử chép. Toàn thư chỉ kể việc, không giải thích như dưới đây. Mỗi việc cũng có thể còn nguyên nhân khác mà sử không ghi.
 
-1️⃣ **Ba lần đổi ngôi, lần nào người nắm lực lượng cũng là người quyết định.**
-Năm 1504, Thái hoàng thái hậu đòi lập Lữ Khôi Vương, nhưng Nguyễn Nhữ Vi đóng cửa thành rồi lập Tuấn (Uy Mục). Năm 1509, Dinh đem quân thủy bộ từ Tây Đô đánh ra kinh. Năm 1516, Trịnh Duy Sản đem hơn 3.000 người vào thành.
+Câu trả lời ngắn: trong 12 năm, người nào có quân trong tay thì quyết định ai làm vua. Còn người ngồi trên ngai mà không có ai đứng ra bảo vệ thì mất ngôi.
 
-Có thể hiểu là: ở cả ba lần, người đứng ra lập hay hạ một vị vua là người có quân hoặc có cửa thành trong tay. Điều này cho thấy ngôi vua lúc ấy phụ thuộc nhiều vào lực lượng đứng sau, chứ không chỉ vào việc ai được chọn theo lệ.
+1️⃣ **Ai có quân hoặc giữ được cửa thành thì quyết định ai làm vua**
+Năm 1504, nội thần Nguyễn Nhữ Vi đóng các cửa thành rồi lập Tuấn (Uy Mục) lên ngôi. Thái hoàng thái hậu muốn lập người khác nhưng không làm được.
 
-2️⃣ **Quyền thế gần vua chưa chắc biến thành người giữ vua.**
-Dưới thời Uy Mục, Toàn thư ghi quyền thế thuộc về họ ngoại ở ba làng, và nội thần đi dò xét 26 vương. Khi Dinh tiến quân, những việc được chép là: cấm quân giữ không nổi, tướng Lê Vũ chết trận, tù nhân nhận 3 quan tiền rồi ai về nhà nấy, và một vệ sĩ cũ bắt vua nộp cho Dinh.
+Năm 1509, Dinh đem quân từ Tây Đô ra kinh và lên ngôi. Năm 1516, Trịnh Duy Sản đem hơn 3.000 người vào thành, và sáng hôm sau vua bị giết.
 
-Có thể hiểu là: có quyền thế trong triều và có người sẵn sàng bảo vệ vua lúc nguy là hai việc khác nhau. Toàn thư không cho biết ai trong họ ngoại hay nội thần ra trận bảo vệ vua.
+Có thể hiểu là: cả ba lần, người nắm quân hoặc cửa thành là người quyết định. Việc ai được chọn theo lệ thường không còn giữ được vai trò chính.
 
-3️⃣ **Nhiều nhóm khác nhau, mỗi nhóm một lý do, cùng đứng về phía Dinh.**
-Dinh là một vương trong họ vua, bị giam rồi tìm đường thoát. Nguyễn Văn Lang là em của Trường Lạc hoàng thái hậu, bị đuổi về quê. Có người Chiêm tên Chế Mạn và người ba phủ cùng nổi quân ở Tây Đô. Hịch của phe Dinh kể rằng dân Hải Dương, Kinh Bắc mệt mỏi vì công trình xây đi xây lại.
+2️⃣ **Người có quyền thế gần vua chưa chắc đã bảo vệ vua**
+Thời Uy Mục, Toàn thư ghi quyền thế nằm trong tay họ ngoại ở ba làng. Nội thần thì đi dò xét 26 vương trong họ vua.
 
-Có thể hiểu là: cuộc nổi dậy mạnh lên vì gom được những nhóm có lý do riêng. Nhưng hịch là văn bản của một phe đang khởi binh, nên Toàn thư không cho ta biết nhóm nào đóng vai trò lớn nhất.
+Nhưng khi Dinh kéo quân ra kinh, các việc được chép là: cấm quân giữ không nổi, tướng Lê Vũ chết trận, tù nhân nhận 3 quan tiền xong thì ai về nhà nấy. Cuối cùng, một vệ sĩ cũ bắt vua đem nộp cho Dinh.
 
-4️⃣ **Cùng một lời sấm, cả triều đình lẫn người nổi dậy cùng tin.**
-Năm 1511, các thuật sĩ nói phương đông có khí sắc thiên tử, và vua sai người ra Đồ Sơn trấn yểm. Năm 1516, Trần Cảo dấy loạn ở Thủy Đường, cũng theo lời sấm rằng phương đông có vượng khí thiên tử. Trong khoảng ấy, Toàn thư ghi hạn hán và đói to (1512), nước lũ lớn và nạn rắn (1514). Đoạn tổng kết năm 1516 còn ghi quân lính đắp thành mắc bệnh dịch.
+Có thể hiểu là: có quyền thế trong triều và có người chịu chiến đấu vì vua lúc nguy là hai việc khác nhau. Toàn thư không cho biết ai trong họ ngoại hay nội thần đã ra trận.
 
-Có thể hiểu là: lời sấm này được nhiều người biết, nên có sức hiệu triệu cả với dân lẫn với triều đình. Toàn thư không cho biết có bao nhiêu người theo Cảo vì đói, vì lời sấm hay vì lý do khác, nên không thể nói nguyên nhân nào là chính.
+3️⃣ **Nhiều người có lý do riêng nhưng cùng đứng về phía Dinh**
+Dinh là một vương trong họ vua. Ông bị giam, rồi đút lót người canh để thoát. Nguyễn Văn Lang, em của Trường Lạc hoàng thái hậu, bị đuổi về quê. Người Chiêm tên Chế Mạn và người ba phủ cũng nổi quân ở Tây Đô.
 
-5️⃣ **Sau khi vua chết giữa phố, mỗi người cầm quân chọn một cách.**
-Trong chưa đầy một tuần, Trịnh Duy Sản định lập Quang Trị rồi lại cùng Lê Nghĩa Chiêu đón người cháu tên Y. Trịnh Duy Đại đưa Quang Trị về Tây Đô. Nguyễn Hoằng Dụ đem quân đốt kinh thành. Ngày 11 tháng 4, Trần Cảo vào kinh.
+Hịch của phe Dinh nói dân Hải Dương, Kinh Bắc mệt mỏi vì các công trình xây đi xây lại.
 
-Có thể hiểu là: lúc ấy không còn một cách chọn vua mà mọi người cùng chấp nhận. Mỗi người có quân trong tay làm theo cách của mình. Đây chỉ là việc đặt các sự kiện cạnh nhau. Toàn thư không ghi động cơ của từng người.
+Có thể hiểu là: những người này không cùng một lý do, nhưng cùng đứng về một phía, nên lực lượng của Dinh mạnh lên. Hịch là văn của một phe đang khởi binh. Vì vậy ta không biết nhóm nào đông nhất hay quan trọng nhất.
+
+4️⃣ **Cùng một lời sấm, cả vua lẫn người nổi dậy đều dùng**
+Lời sấm "khí thiên tử" là lời đồn rằng phương đông sẽ có người làm vua. Năm 1511, các thuật sĩ nói như vậy, và vua sai người ra Đồ Sơn làm phép để dập khí ấy.
+
+Năm 1516, Trần Cảo nổi lên ở Thủy Đường, cũng theo lời sấm rằng phương đông có khí thiên tử. Trước đó, Toàn thư ghi hạn hán và đói to (1512), nước lũ lớn và nạn rắn (1514). Đoạn tổng kết năm 1516 còn ghi quân lính đắp thành mắc bệnh dịch.
+
+Có thể hiểu là: lời sấm này nhiều người biết, nên cả triều đình lẫn người nổi dậy đều dựa vào. Toàn thư không cho biết có bao nhiêu người theo Cảo vì đói, vì lời sấm hay vì lý do khác.
+
+5️⃣ **Khi vua chết, ai có quân thì tự chọn người nối ngôi**
+Vài ngày sau khi vua chết, Toàn thư chép liên tiếp: Duy Sản định lập Quang Trị, 8 tuổi. Phùng Mại phản đối và bị giết ngay trong cung. Ba ngày sau, Trịnh Duy Đại đưa Quang Trị về Tây Đô. Duy Sản và Lê Nghĩa Chiêu lại đón người cháu tên Y lên làm vua.
+
+Nguyễn Hoằng Dụ đem quân đốt kinh thành. Ngày 11 tháng 4, Trần Cảo vào kinh.
+
+Có thể hiểu là: lúc ấy không còn cách chọn vua nào mà mọi người cùng chấp nhận. Mỗi người cầm quân làm theo cách của mình. Toàn thư không ghi động cơ của từng người, bài chỉ đặt các việc cạnh nhau.
 
 📌 **Điều sử chưa cho biết**
-Toàn thư không nêu lý do Trịnh Duy Sản đem quân vào thành đêm mồng 6 tháng 4 năm 1516. Bài chỉ ghi ông từng can vua và bị đánh trượng, rồi để người đọc tự cân nhắc.
+Toàn thư không nêu lý do Trịnh Duy Sản đem quân vào thành. Bài chỉ ghi ông từng can vua và bị đánh bằng trượng.
 
-Nhiều lời kể tội Uy Mục nằm trong văn bản của những người đã đánh ông. Bài chưa đối chiếu được với nguồn khác.
+Nhiều lời kể tội Uy Mục nằm trong văn bản của những người đã đánh ông. Bài chưa đối chiếu được với sách khác.
 
 ⏳ **Mốc thời gian**
 • 1504 – Lê Túc Tông mất, Nguyễn Thị lập Uy Mục

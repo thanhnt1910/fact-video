@@ -309,13 +309,13 @@ def main(src, dst):
     w = lp(rng.standard_normal(n), 380, 2) * 0.9 + 0.25 * bp(rng.standard_normal(n), 1200, 2400)
     tt = np.arange(n) / SR
     wmod = 0.55 + 0.45 * np.sin(2 * np.pi * 0.07 * tt + 1.0) * np.sin(2 * np.pi * 0.031 * tt)
-    wind = w * wmod * 0.055
+    wind = w * wmod * 0.03
     fadew = np.minimum(1, tt / 2.5) * np.minimum(1, (total + 1.5 - tt) / 2.5)
     L += wind * fadew
     R += np.roll(wind, 900) * fadew
     # chim hót thưa
     t = 3.0
-    while t < total - 20:
+    while False:
         put(chirp(), t, rng.uniform(-0.8, 0.8))
         t += rng.uniform(7, 13)
 

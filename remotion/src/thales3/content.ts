@@ -16,20 +16,20 @@ export const TEXT3: Record<SceneId, string[]> = {
   tools: [
     'Người Ai Cập thời đó rất giỏi đo đất. Mỗi lần sông Nin dâng nước làm mất ranh giới ruộng, họ lại căng dây để đo lại.',
     'Những người đo đất ấy được gọi là người căng dây. Chỉ cần một sợi dây dài, họ đo được cạnh đáy kim tự tháp: khoảng hai trăm ba mươi mét.',
-    'Đo ngang trên mặt đất thì dễ. Còn đo thẳng lên trời thì sao?',
+    'Đo ngang trên mặt đất thì dễ. Còn đo thẳng lên trời thì sao? Hãy thử hình dung vài cách đo trực tiếp.',
   ],
   ladder: [
-    'Cách thứ nhất: bắc thang. Nhưng không có cái thang nào cao tới một trăm bốn mươi bảy mét.',
+    'Cách thứ nhất: bắc thang. Đây là suy luận của chúng ta, không phải ghi chép lịch sử. Nhưng không có cái thang nào cao tới một trăm bốn mươi bảy mét.',
     'Vậy thì chồng người lên vai nhau? Một người cao chừng một mét bảy. Muốn bằng kim tự tháp, phải chồng khoảng tám mươi sáu người.',
-    'Tháp người chưa lên được mấy tầng thì đã đổ.',
+    'Một tháp người cao đến thế chắc chắn không đứng vững.',
   ],
   slope: [
-    'Cách thứ hai: leo lên đỉnh. Nhưng ngày xưa kim tự tháp được ốp một lớp đá vôi trắng nhẵn, vừa dốc vừa trơn.',
+    'Cách thứ hai: leo lên đỉnh. Nhưng ngày xưa, theo mô tả hiện đại, kim tự tháp được ốp một lớp đá vôi trắng nhẵn, vừa dốc vừa trơn.',
     'Cứ cho là có người thả được sợi dây từ đỉnh xuống. Sợi dây nằm sát mặt dốc, nên chỉ cho ta độ dài đường dốc, khoảng một trăm tám mươi sáu mét. Chiều cao thật phải đo theo đường thẳng đứng.',
     'Mà đường thẳng đứng ấy nằm sâu trong khối đá, không sợi dây nào chạm tới được.',
   ],
   idea: [
-    'Vấn đề là gì? Mọi dụng cụ thời đó chỉ đo tốt những gì nằm trên mặt đất, còn chiều cao thì nằm thẳng đứng.',
+    'Vấn đề là gì? Dây và thước chỉ đo tốt những gì nằm trên mặt đất, còn chiều cao thì nằm thẳng đứng.',
     'Vậy nếu biến chiều cao thành thứ nằm trên mặt đất thì sao? Có một thứ làm được điều đó: cái bóng.',
     'Các ghi chép cổ kể rằng Thales đã dùng đúng cái bóng để đo kim tự tháp. Chiều cao như nằm xuống đất.',
   ],

@@ -21,51 +21,53 @@ const BROWN = '#6b4a32';
 /** Thales: áo choàng Hy Lạp, râu bạc, mũ rộng vành, sandal. Thiết kế trên khung cao 80, phóng theo WALKER_H. */
 export const Walker: React.FC<{x: number; dir?: 1 | -1; walking?: boolean; p?: number; staff?: boolean; shadowLen?: number; robe?: string; size?: number; noShadow?: boolean; hat?: boolean; speed?: number}> = ({x, dir = -1, walking = false, p = 1, staff = false, shadowLen = 0, robe = ROBE, size = WALKER_H, noShadow = false, hat = true, speed = 1}) => {
   const f = useCurrentFrame();
-  const ph = walking ? f * 0.34 * speed : 0;
+  // Người que có mũ: đầu tròn, thân một nét, tay chân gập ở khuỷu và đầu gối, nhịp bước mượt.
+  const ph = walking ? f * 0.3 * speed : 0;
   const top = GY - 80;
-  const bob = walking ? -Math.abs(Math.sin(ph)) * 1.8 : 0;
-  const sway = walking ? Math.sin(ph) * 3 : 0;
-  const stride = walking ? Math.sin(ph) * 9 : 5;
-  const lift = (s: number) => (walking ? Math.max(0, s) * 4 : 0);
-  const sh1 = walking ? Math.sin(ph) : 1;
-  const sh2 = walking ? -Math.sin(ph) : -1;
-  const handY = top + 52;
-  const frontHand = staff ? {x: x + dir * 24, y: handY} : {x: x + dir * (walking ? Math.sin(ph + Math.PI) * 10 + 6 : 10), y: top + 54};
-  const backHand = {x: x - dir * (walking ? Math.sin(ph) * 10 + 4 : 8), y: top + 54};
+  const bob = walking ? -Math.abs(Math.sin(ph)) * 2 : 0;
+  const lean = walking ? dir * 2 : 0;
+  const hipY = GY - 38;
+  const shY = top + 27;
+  const headY = top + 15;
+  const leg = (o: number) => {
+    const sw = walking ? Math.sin(ph + o) : o === 0 ? 1 : -1;
+    const fx = x + dir * sw * (walking ? 13 : 6);
+    const fy = GY - (walking ? Math.max(0, Math.cos(ph + o)) * 7 : 0);
+    const kx = (x + fx) / 2 + dir * 5;
+    const ky = (hipY + fy) / 2 - 1;
+    return `M${x} ${hipY} L${kx} ${ky} L${fx} ${fy}`;
+  };
+  const arm = (o: number, front: boolean) => {
+    if (front && staff) return `M${x} ${shY} L${x + dir * 14} ${shY + 12} L${x + dir * 24} ${top + 52}`;
+    const sw = walking ? Math.sin(ph + o) : front ? 0.6 : -0.3;
+    const hx = x + dir * sw * 12;
+    const hy = shY + 24 - Math.abs(sw) * 2;
+    return `M${x} ${shY} L${(x + hx) / 2 + dir * 3} ${shY + 12} L${hx} ${hy}`;
+  };
   return (
     <g opacity={clamp01(p * 2)}>
       {shadowLen > 0 && <line x1={x} y1={GY} x2={x + shadowLen} y2={GY} stroke={C.amber} strokeWidth={14} opacity={0.9} />}
       <g transform={`translate(${x} ${GY}) scale(${size / 80}) translate(${-x} ${-GY})`}>
-        {!noShadow && <ellipse cx={x} cy={GY} rx={22} ry={3.2} fill="#000" opacity={0.28} />}
-        <g transform={`translate(0 ${bob})`} strokeLinecap="round" strokeLinejoin="round">
+        {!noShadow && <ellipse cx={x} cy={GY} rx={20} ry={3} fill="#000" opacity={0.28} />}
+        <g transform={`translate(0 ${bob})`} fill="none" stroke={robe} strokeWidth={5} strokeLinecap="round" strokeLinejoin="round">
           {staff && (
             <g>
               <line x1={x + dir * 24} y1={GY - 1} x2={x + dir * 24} y2={top - 20} stroke={BROWN} strokeWidth={5} />
-              <circle cx={x + dir * 24} cy={top - 21} r={4.2} fill="#8a5a33" />
+              <circle cx={x + dir * 24} cy={top - 21} r={4.2} fill="#8a5a33" stroke="none" />
             </g>
           )}
-          <line x1={x} y1={top + 32} x2={backHand.x} y2={backHand.y} stroke={ROBE_D} strokeWidth={7} />
-          <circle cx={backHand.x} cy={backHand.y} r={3.4} fill="#a8683f" />
-          {[sh2, sh1].map((s, i) => (
-            <g key={i}>
-              <line x1={x} y1={GY - 14} x2={x + dir * s * stride} y2={GY - lift(s)} stroke="#a8683f" strokeWidth={5} />
-              <ellipse cx={x + dir * s * stride + dir * 2} cy={GY - lift(s) + 0.5} rx={5.5} ry={2.4} fill={BROWN} />
-            </g>
-          ))}
-          <path d={`M${x - 11} ${top + 24} Q${x - 15} ${top + 50} ${x - 17 + sway * 0.5} ${GY - 11} L${x + 17 + sway * 0.5} ${GY - 11} Q${x + 15} ${top + 50} ${x + 11} ${top + 24} Z`} fill={robe} stroke="#fff3d6" strokeWidth={1.5} strokeLinejoin="round" />
-          <path d={`M${x + dir * 3} ${top + 26} Q${x + dir * 11} ${top + 50} ${x + dir * 15 + sway * 0.4} ${GY - 11} L${x + 17 + sway * 0.5} ${GY - 11} Q${x + 15} ${top + 50} ${x + 11} ${top + 24} Z`} fill={ROBE_D} opacity={0.3} />
-          <path d={`M${x - 12} ${top + 50} L${x + 12} ${top + 50}`} stroke={C.amberDeep} strokeWidth={4.5} />
-          <line x1={x} y1={top + 31} x2={frontHand.x} y2={frontHand.y} stroke={robe} strokeWidth={7.5} />
-          <circle cx={frontHand.x} cy={frontHand.y} r={3.6} fill="#a8683f" />
-          <circle cx={x} cy={top + 15} r={8.4} fill="#a8683f" />
-          <circle cx={x + dir * 3.6} cy={top + 14} r={1.3} fill="#2b1a10" />
+          <path d={arm(Math.PI, false)} opacity={0.75} />
+          <path d={leg(Math.PI)} opacity={0.75} />
+          <line x1={x + lean} y1={shY - 2} x2={x} y2={hipY} />
+          <path d={leg(0)} />
+          <path d={arm(0, true)} />
+          <circle cx={x + lean} cy={headY} r={8.5} fill={robe} stroke="none" />
           {hat && (
-            <g>
-              <ellipse cx={x} cy={top + 6} rx={10.5} ry={6.4} fill="#f6ead0" stroke="#d8c49a" strokeWidth={1.1} />
-              <path d={`M${x - dir * 8} ${top + 7} Q${x - dir * 14} ${top + 15} ${x - dir * 10} ${top + 25}`} fill="none" stroke="#f6ead0" strokeWidth={4.2} strokeLinecap="round" />
+            <g stroke="none">
+              <ellipse cx={x + lean} cy={headY - 6} rx={14} ry={3.6} fill={C.amber} />
+              <path d={`M${x + lean - 8} ${headY - 7} Q${x + lean} ${headY - 21} ${x + lean + 8} ${headY - 7} Z`} fill={C.amberDeep} />
             </g>
           )}
-          {!hat && <path d={`M${x - 9} ${top + 11} Q${x} ${top - 3} ${x + 9} ${top + 11} Z`} fill="#4a3a2a" />}
         </g>
       </g>
     </g>

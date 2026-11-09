@@ -1,5 +1,5 @@
 import React from 'react';
-import {useCurrentFrame} from 'remotion';
+import {Img, staticFile, useCurrentFrame} from 'remotion';
 import {C, clamp01, seg} from '../lib/theme';
 import {Defs} from '../thales/parts';
 
@@ -34,8 +34,8 @@ export const VBackground: React.FC = () => (
 
 /** Logo góc trên bên phải */
 export const VHud: React.FC = () => (
-  <div style={{position: 'absolute', right: 56, top: 52, display: 'flex', alignItems: 'center', gap: 12, opacity: 0.92}}>
-    <svg width={44} height={44} viewBox="0 0 44 44"><MagMark size={44} raw /></svg>
+  <div style={{position: 'absolute', right: 48, top: 40, display: 'flex', alignItems: 'center', gap: 16, opacity: 0.96}}>
+    <Img src={staticFile('nguoi-giai-ma.png')} style={{width: 96, height: 96, borderRadius: 48, border: '3px solid #e9a84c'}} />
     <div style={{fontFamily: 'BeVN', fontWeight: 800, fontSize: 34, lineHeight: 1, color: C.cream}}>
       Người <span style={{color: C.amber}}>Giải Mã</span>
     </div>
@@ -43,27 +43,60 @@ export const VHud: React.FC = () => (
 );
 
 /** Phụ đề: nằm trong khoảng y 1180–1510, cách đáy hơn 400 điểm ảnh để không bị lớp chữ của Reels che */
+export const splitWords = (text: string, max = 4): string[] => {
+  const w = text.trim().split(/\s+/);
+  const n = Math.ceil(w.length / max);
+  const out: string[] = [];
+  let i = 0;
+  for (let k = 0; k < n; k++) {
+    const take = Math.round((w.length - i) / (n - k));
+    out.push(w.slice(i, i + take).join(' '));
+    i += take;
+  }
+  return out;
+};
+
+/** Phụ đề ngắn: mỗi lần hiện tối đa 4 từ, chia thời gian theo số chữ trong giọng đọc (giọng bắt đầu sau 0,15 giây, kết thúc trước cuối nhịp khoảng 0,35 giây) */
 export const VCaptions: React.FC<{beats: {text: string; start: number; dur: number}[]}> = ({beats}) => {
   const f = useCurrentFrame();
   const b = beats.find((x) => f >= x.start && f < x.start + x.dur);
   if (!b || !b.text) return null;
+  const chunks = splitWords(b.text);
+  const t0 = 5;
+  const t1 = Math.max(t0 + 10, b.dur - 10);
+  const tot = chunks.reduce((a, c) => a + c.length, 0);
+  let acc = 0;
+  let cur = '';
+  let cs = t0;
+  let ce = t1;
   const local = f - b.start;
-  const o = Math.min(seg(local, 0, 8), 1 - seg(local, b.dur - 8, b.dur));
+  for (const c of chunks) {
+    const s0 = t0 + ((t1 - t0) * acc) / tot;
+    acc += c.length;
+    const s1 = t0 + ((t1 - t0) * acc) / tot;
+    if (local >= s0 - 0.01 || cur === '') {
+      cur = c;
+      cs = s0;
+      ce = s1;
+    }
+  }
+  if (local < t0 - 1 || local > t1 + 6) return null;
+  const o = Math.min(seg(local, cs - 1, cs + 3), 1 - seg(local, ce + 2, ce + 6));
   return (
-    <div style={{position: 'absolute', left: 70, width: 940, top: 1180, height: 330, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: o}}>
+    <div style={{position: 'absolute', left: 70, width: 940, top: 1330, height: 180, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: clamp01(o)}}>
       <div
         style={{
           fontFamily: 'BeVN',
           fontWeight: 800,
-          fontSize: 50,
-          lineHeight: 1.28,
+          fontSize: 68,
+          lineHeight: 1.2,
           textAlign: 'center',
           color: '#fff',
-          WebkitTextStroke: '9px #130c08',
+          WebkitTextStroke: '10px #130c08',
           paintOrder: 'stroke fill',
         }}
       >
-        {b.text}
+        {cur}
       </div>
     </div>
   );

@@ -1,0 +1,57 @@
+{
+ "rs1": {
+  "title": "File:Fort Julien with an Egyptian Boat (cropped).jpg",
+  "slot": "S1",
+  "so": 1
+ },
+ "rs2": {
+  "title": "File:Citadel of Qaitbay, Rosetta, Egypt 06.jpg",
+  "slot": "S2",
+  "so": 2
+ },
+ "rs3": {
+  "title": "File:Rosetta Stone - front face - corrected image.jpg",
+  "slot": "S3",
+  "so": 3
+ },
+ "rs4": {
+  "title": "File:Detail of Rosetta Stone.JPG",
+  "slot": "S4",
+  "so": 4
+ },
+ "rs5": {
+  "title": "File:Rosetta Stone (15864563804).jpg",
+  "slot": "S5",
+  "so": 5
+ },
+ "rs6": {
+  "title": "File:Champollion - Panthéon égyptien, 1823 (page 277 crop).jpg",
+  "slot": "S6",
+  "so": 6
+ },
+ "rs7": {
+  "title": "File:Estampage de la Pierre de Rosette (Musée Champollion).jpg",
+  "slot": "S7",
+  "so": 7
+ },
+ "rs10": {
+  "title": "File:London - British Museum - Rosetta Stone.jpg",
+  "slot": "S10",
+  "so": 10
+ },
+ "rs11": {
+  "title": "File:LetterByThomasYoungToWilliamBankes-1818.jpg",
+  "slot": "S11",
+  "so": 11
+ },
+ "rs12": {
+  "title": "File:Bureau de J.F. Champollion - Musée Champollion.jpg",
+  "slot": "S12",
+  "so": 12
+ },
+ "rs13": {
+  "title": "File:Jean-François Champollion - Lettre à M. Dacier relative à l'alphabet des hiéroglyphes phonétiques, p.54.jpg",
+  "slot": "S13",
+  "so": 13
+ }
+}

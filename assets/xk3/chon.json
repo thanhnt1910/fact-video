@@ -1,0 +1,52 @@
+{
+ "ts1": {
+  "title": "File:Tête de la statue colossale de la Liberté, dans le parc du Champ-de-Mars.jpg",
+  "slot": "S1",
+  "so": 1
+ },
+ "ts2": {
+  "title": "File:Frédéric-Auguste Bartholdi by Benjamin Joseph Falk, 1876, albumen silver print, from the National Portrait Gallery - NPG-NPG 80 205Bartholdi-000001.jpg",
+  "slot": "S2",
+  "so": 2
+ },
+ "ts3": {
+  "title": "File:A Bartholdi photo autoportrait et Jean-Léon Gérome, vers 1855.jpg",
+  "slot": "S3",
+  "so": 3
+ },
+ "ts4": {
+  "title": "File:Statue of Liberty. Framework. Elevations LCCN2010649598.jpg",
+  "slot": "S4",
+  "so": 4
+ },
+ "ts5": {
+  "title": "File:Gustave Eiffel, 1832-1923 (cropped).jpg",
+  "slot": "S5",
+  "so": 5
+ },
+ "ts7": {
+  "title": "File:HARPER'S WEEKLY-NewYork 6 June 1885.jpg",
+  "slot": "S7",
+  "so": 7
+ },
+ "ts8": {
+  "title": "File:Statue of Liberty, Pedestal Project, Bartholdi, c. 1880.jpg",
+  "slot": "S8",
+  "so": 8
+ },
+ "ts9": {
+  "title": "File:Charles R. Miller - Joseph Pulitzer - Albert Pulitzer - The Hon. Proctor Knott - The Rev. E.F. Hatfield, D.D. - Alexander Sullivan LCCN2018645906.jpg",
+  "slot": "S9",
+  "so": 9
+ },
+ "ts10": {
+  "title": "File:Detail of metal lattice framework supporting sides of copper base. February 1984. - Statue of Liberty, Liberty Island, Manhattan, New York, New York County, NY HAER NY,31-NEYO,89-89.tif",
+  "slot": "S10",
+  "so": 10
+ },
+ "ts11": {
+  "title": "File:18861028 Liberty's Statue (Bartholdi) - New York Evening Post (full page).jpg",
+  "slot": "S11",
+  "so": 11
+ }
+}

@@ -34,6 +34,9 @@ def main():
     work = ROOT / "output" / "_gemini"
     work.mkdir(parents=True, exist_ok=True)
     pron = script.get("pronounce", {})
+    # Nếu có file lời thử riêng (nhánh khoa-hoc) thì đọc lời và phong cách trong đó
+    own = ROOT / "ke-hoach" / "giong-thu-khoa-hoc.json"
+    own_cfg = json.loads(own.read_text(encoding="utf-8")) if own.exists() else None
 
     # Gửi cả đoạn trong 1 lần gọi (ít tốn lượt), lời dặn tổng hợp theo từng cảnh
     parts, hints_all = [], []
@@ -42,11 +45,15 @@ def main():
         parts.append(t)
         hints_all += hints
     text = "\n\n".join(parts)
+    if own_cfg:
+        text = own_cfg["text"]
     style = (gemini_tts.BASE_STYLE + " Structure: 1) hook — " + gemini_tts.SCENE_STYLE["hook"] +
              " 2) " + gemini_tts.SCENE_STYLE["compare"] + " 3-4) " + gemini_tts.SCENE_STYLE["explain"] +
              " Leave a short beat between paragraphs.")
     if hints_all:
         style += " Specific emphasis: " + "; ".join(hints_all[:6]) + "."
+    if own_cfg:
+        style = own_cfg["style"]
     print("STYLE:", style, "\nTEXT:", text, flush=True)
 
     done = []

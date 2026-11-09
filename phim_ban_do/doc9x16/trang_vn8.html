@@ -24,8 +24,8 @@ const news=el(S,'g',{opacity:.9});{const r=rng(7);for(let c=0;c<3;c++){for(let l
 const STG=el(S,'g',{});
 el(S,'rect',{width:1080,height:1920,fill:'url(#vg)'});
 // ----- khung chung
-const HUD=el(S,'g',{});T(HUD,52,82,'BÍ MẬT BIỂU TƯỢNG · #08',30,WH,8,'start');T(HUD,52,128,'Ảnh tư liệu: Wikimedia Commons (phạm vi công cộng)',20,'#d8d2c0',6,'start');
-el(HUD,'image',{href:'../../assets/logo/nguoi-gac-su.png',x:900,y:52,width:130,height:130,opacity:.8});T(HUD,52,1862,'NGƯỜI GÁC SỬ',26,'#f1e9d2',7,'start');
+const HUD=el(S,'g',{});T(HUD,52,210,'BÍ MẬT BIỂU TƯỢNG · #08',30,WH,8,'start');T(HUD,52,256,'Ảnh tư liệu: Wikimedia Commons (phạm vi công cộng)',20,'#d8d2c0',6,'start');
+el(HUD,'image',{href:'../../assets/logo/nguoi-gac-su.png',x:900,y:52,width:130,height:130,opacity:.8});
 let CUR=null;function mk(p){return el(p||CUR||STG,'g',{})}
 // ----- mảnh giấy xé
 function jag(w,h,seed,amp=5){const r=rng(seed),P=[];const hw=w/2,hh=h/2;const side=(x0,y0,x1,y1)=>{const L=Math.hypot(x1-x0,y1-y0),n=Math.max(2,Math.round(L/34));for(let i=0;i<n;i++){const u=i/n;P.push([x0+(x1-x0)*u+(r()-.5)*amp*2,y0+(y1-y0)*u+(r()-.5)*amp*2])}};side(-hw,-hh,hw,-hh);side(hw,-hh,hw,hh);side(hw,hh,-hw,hh);side(-hw,hh,-hw,-hh);return P.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ')}

@@ -1,5 +1,6 @@
 import {FPS} from '../lib/theme';
 import {beatSeconds} from '../thales/content';
+import ledaDur from './leda_dur.json';
 
 // Video khoa học số 1 (dọc 1080x1920, tiếng Việt, bản duyệt trước): Eratosthenes đo Trái Đất bằng một cây gậy.
 // Nguồn đã kiểm: xem remotion/scripts/eratosthenes.md
@@ -85,11 +86,16 @@ const ORDER: SceneId[] = ['hook', 'problem', 'clue', 'idea', 'calc', 'compare', 
 
 export function timeline(): {scenes: SceneTl[]; total: number; beats: Beat[]} {
   let f = 0;
+  let voiceIdx = 0;
   const all: Beat[] = [];
   const scenes: SceneTl[] = ORDER.map((id) => {
     const texts = id === 'outro' ? [...TEXT_E[id], ''] : TEXT_E[id];
     const beats: Beat[] = texts.map((text) => {
-      const dur = Math.round((text ? beatSeconds('vi', text) : END_E) * FPS);
+      // Có giọng đọc thật (Leda): nhịp = thời lượng giọng + 0,5 s, không ngắn hơn 93% ước tính để hoạt cảnh kịp chạy
+      let sec = text ? beatSeconds('vi', text) : END_E;
+      if (text && ledaDur[voiceIdx] !== undefined) sec = Math.max(ledaDur[voiceIdx] + 0.5, sec * 0.93);
+      if (text) voiceIdx++;
+      const dur = Math.round(sec * FPS);
       const b = {text, start: f, dur};
       f += dur;
       all.push(b);

@@ -13,4 +13,4 @@ Dựng: `remotion/src/eratosthenes/`. Âm thanh: `sfx.ts` + `scripts/dump_sfx_er
 Người que, quả địa cầu, góc vẽ to hơn thật (có chú thích trên hình), cảnh người đi vòng Trái Đất.
 
 ## Cần chủ kênh duyệt
-Thời lượng khoảng 85 s: chủ kênh yêu cầu giữ đầy đủ, không cắt. Chưa đọc giọng, chưa làm bản tiếng Anh.
+Bản có giọng Leda (đọc từng câu, loudnorm -16 LUFS mỗi câu): nhịp mỗi câu = thời lượng giọng + 0,5 s, tổng 79,7 s. Không làm bản tiếng Anh cho video ngắn.

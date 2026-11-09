@@ -98,26 +98,46 @@
   },
   {
    "n": 20,
-   "text": "*So hai lực ấy*, biết quả chì nặng bao nhiêu, nằm cách bao xa, và Trái Đất to cỡ nào, là tính ra được *Trái Đất nặng bao nhiêu.*",
-   "say": "So hai lực ấy, biết quả chì nặng bao nhiêu, nằm cách bao xa, và Trái Đất to cỡ nào, là tính ra được Trái Đất nặng bao nhiêu."
+   "text": "Muốn biết Trái Đất nặng bao nhiêu, chỉ cần nhân *3 con số* với nhau.",
+   "say": "Muốn biết Trái Đất nặng bao nhiêu, chỉ cần nhân ba con số với nhau."
   },
   {
    "n": 21,
-   "text": "Kết quả: Trái Đất nặng *gần 5,5 lần* so với một khối nước cùng kích thước.",
-   "say": "Kết quả: Trái Đất nặng gần năm rưỡi lần so với một khối nước cùng kích thước."
+   "text": "*1:* quả chì nặng *158 ki-lô-gam.* *2:* Trái Đất kéo mạnh hơn quả chì khoảng *48 triệu lần.*",
+   "say": "Một: quả chì nặng một trăm năm mươi tám ki-lô-gam. Hai: Trái Đất kéo mạnh hơn quả chì khoảng bốn mươi tám triệu lần."
   },
   {
    "n": 22,
+   "text": "*3:* tâm Trái Đất cách quả cầu nhỏ hơn *6 000 km*, xa hơn quả chì khoảng *28 triệu lần.*",
+   "say": "Ba: tâm Trái Đất cách quả cầu nhỏ hơn sáu nghìn ki-lô-mét, xa hơn quả chì khoảng hai mươi tám triệu lần."
+  },
+  {
+   "n": 23,
+   "text": "Lực hút yếu đi rất nhanh khi ở xa: *xa gấp đôi thì yếu đi 4 lần.* Vì vậy phải nhân con số ấy với chính nó, ra khoảng *800 nghìn tỷ.*",
+   "say": "Lực hút yếu đi rất nhanh khi ở xa: xa gấp đôi thì yếu đi bốn lần. Vì vậy phải nhân con số ấy với chính nó, ra khoảng tám trăm nghìn tỷ."
+  },
+  {
+   "n": 24,
+   "text": "*158* × *48 triệu* × *800 nghìn tỷ* ≈ *6 nghìn tỷ tỷ tấn.*",
+   "say": "Một trăm năm mươi tám nhân bốn mươi tám triệu nhân tám trăm nghìn tỷ, ra khoảng sáu nghìn tỷ tỷ tấn."
+  },
+  {
+   "n": 25,
+   "text": "Đem chia cho thể tích Trái Đất, ra độ nặng *gần 5,5 lần* so với một khối nước cùng kích thước.",
+   "say": "Đem chia cho thể tích Trái Đất, ra độ nặng gần năm phẩy năm lần so với một khối nước cùng kích thước."
+  },
+  {
+   "n": 26,
    "text": "Đá trên mặt đất *nhẹ hơn* thế nhiều, nên bên trong Trái Đất phải có *thứ gì đó rất nặng.*",
    "say": "Đá trên mặt đất nhẹ hơn thế nhiều, nên bên trong Trái Đất phải có thứ gì đó rất nặng."
   },
   {
-   "n": 23,
-   "text": "Nhân lên cho cả quả cầu, Trái Đất nặng khoảng *6 nghìn tỷ tỷ tấn*, mà số đo ngày nay chỉ lệch *chưa đến 1%.*",
-   "say": "Nhân lên cho cả quả cầu, Trái Đất nặng khoảng sáu nghìn tỷ tỷ tấn, mà số đo ngày nay chỉ lệch chưa đến một phần trăm."
+   "n": 27,
+   "text": "Số đo ngày nay chỉ lệch *chưa đến 1%* so với kết quả của *Cavendish.*",
+   "say": "Số đo ngày nay chỉ lệch chưa đến một phần trăm so với kết quả của Ca-ven-đít."
   },
   {
-   "n": 24,
+   "n": 28,
    "text": "Chỉ với *2 quả chì*, một sợi dây và rất nhiều kiên nhẫn, Cavendish đã *cân được cả Trái Đất.*",
    "say": "Chỉ với hai quả chì, một sợi dây và rất nhiều kiên nhẫn, Ca-ven-đít đã cân được cả Trái Đất."
   }

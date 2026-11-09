@@ -3,73 +3,113 @@
  "sentences": [
   {
    "n": 1,
-   "text": "Một cây gậy mà đo được cả Trái Đất?",
-   "say": "Một cây gậy mà đo được cả Trái Đất?"
+   "text": "Hơn hai nghìn năm trước, có một người đã tính ra Trái Đất to cỡ nào.",
+   "say": "Hơn hai nghìn năm trước, có một người đã tính ra Trái Đất to cỡ nào."
   },
   {
    "n": 2,
-   "text": "Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được.",
-   "say": "Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được."
+   "text": "Ông không có vệ tinh, không có máy bay. Ông chỉ có một cây gậy.",
+   "say": "Ông không có vệ tinh, không có máy bay. Ông chỉ có một cây gậy."
   },
   {
    "n": 3,
-   "text": "Không ai đi vòng quanh Trái Đất được, nên không thể đo thẳng.",
-   "say": "Không ai đi vòng quanh Trái Đất được, nên không thể đo thẳng."
+   "text": "Khó ở chỗ Trái Đất quá lớn. Không ai đi bộ hết một vòng để đo được.",
+   "say": "Khó ở chỗ Trái Đất quá lớn. Không ai đi bộ hết một vòng để đo được."
   },
   {
    "n": 4,
-   "text": "Người ta kể: ở Syene, trưa ngày dài nhất năm, nắng rọi thẳng xuống đáy giếng.",
-   "say": "Người ta kể: ở Xy-ê-nê, trưa ngày dài nhất năm, nắng rọi thẳng xuống đáy giếng."
+   "text": "Ông tên là Eratosthenes. Người ta kể ông nghe một chuyện lạ ở thành phố Syene.",
+   "say": "Ông tên là Eratosthenes. Người ta kể ông nghe một chuyện lạ ở thành phố Xy-ê-nê."
   },
   {
    "n": 5,
-   "text": "Cùng lúc ở Alexandria, cột dựng thẳng vẫn có bóng, nghiêng một phần năm mươi vòng tròn.",
-   "say": "Cùng lúc ở Alexandria, cột dựng thẳng vẫn có bóng, nghiêng một phần năm mươi vòng tròn."
+   "text": "Mỗi năm có một trưa, nắng rọi thẳng xuống tận đáy giếng. Lúc đó Mặt Trời nằm ngay trên đầu, nên cột dựng đứng không có bóng.",
+   "say": "Mỗi năm có một trưa, nắng rọi thẳng xuống tận đáy giếng. Lúc đó Mặt Trời nằm ngay trên đầu, nên cột dựng đứng không có bóng."
   },
   {
    "n": 6,
-   "text": "Nắng chiếu song song, nên hai nơi khác nhau chỉ vì mặt đất cong.",
-   "say": "Nắng chiếu song song, nên hai nơi khác nhau chỉ vì mặt đất cong."
+   "text": "Cùng trưa hôm đó, ở thành phố Alexandria, cách Syene khoảng tám trăm cây số, cây gậy dựng đứng lại có bóng.",
+   "say": "Cùng trưa hôm đó, ở thành phố Alexandria, cách Xy-ê-nê khoảng tám trăm cây số, cây gậy dựng đứng lại có bóng."
   },
   {
    "n": 7,
-   "text": "Góc cái bóng chính là góc giữa hai thành phố, nhìn từ tâm Trái Đất.",
-   "say": "Góc cái bóng chính là góc giữa hai thành phố, nhìn từ tâm Trái Đất."
+   "text": "Cùng một Mặt Trời, cùng một giờ. Chỗ này không có bóng, chỗ kia có bóng. Vì sao?",
+   "say": "Cùng một Mặt Trời, cùng một giờ. Chỗ này không có bóng, chỗ kia có bóng. Vì sao?"
   },
   {
    "n": 8,
-   "text": "Người đếm bước cho biết hai thành phố cách nhau khoảng năm nghìn stadia.",
-   "say": "Người đếm bước cho biết hai thành phố cách nhau khoảng năm nghìn stadia."
+   "text": "Hãy nhìn một quả cam. Cắm hai cây tăm lên vỏ cam, rồi rọi đèn pin từ xa.",
+   "say": "Hãy nhìn một quả cam. Cắm hai cây tăm lên vỏ cam, rồi rọi đèn pin từ xa."
   },
   {
    "n": 9,
-   "text": "Một phần năm mươi vòng, nên cả Trái Đất dài gấp năm mươi lần: hai trăm năm mươi nghìn stadia.",
-   "say": "Một phần năm mươi vòng, nên cả Trái Đất dài gấp năm mươi lần: hai trăm năm mươi nghìn stadia."
+   "text": "Vỏ cam cong, nên hai cây tăm hướng về hai phía khác nhau, và bóng của chúng khác nhau.",
+   "say": "Vỏ cam cong, nên hai cây tăm hướng về hai phía khác nhau, và bóng của chúng khác nhau."
   },
   {
    "n": 10,
-   "text": "Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi, vậy là gần bốn mươi nghìn cây số.",
-   "say": "Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi, vậy là gần bốn mươi nghìn cây số."
+   "text": "Nếu mặt đất phẳng như tờ giấy, hai cái bóng sẽ giống hệt nhau.",
+   "say": "Nếu mặt đất phẳng như tờ giấy, hai cái bóng sẽ giống hệt nhau."
   },
   {
    "n": 11,
-   "text": "Số đo ngày nay chỉ nhỉnh hơn một chút: lệch chưa tới hai phần trăm.",
-   "say": "Số đo ngày nay chỉ nhỉnh hơn một chút: lệch chưa tới hai phần trăm."
+   "text": "Vậy cái bóng chính là bằng chứng: mặt đất cong. Hai nơi càng lệch hướng, bóng càng dài.",
+   "say": "Vậy cái bóng chính là bằng chứng: mặt đất cong. Hai nơi càng lệch hướng, bóng càng dài."
   },
   {
    "n": 12,
-   "text": "Hơn hai nghìn năm sau, người Pháp làm tương tự: đo từ Dunkerque tới Barcelona, suy ra cả đường từ Bắc Cực tới xích đạo.",
-   "say": "Hơn hai nghìn năm sau, người Pháp làm tương tự: đo từ Đơn-kéc tới Barcelona, suy ra cả đường từ Bắc Cực tới xích đạo."
+   "text": "Ông đo cái bóng, và tính ra hai thành phố lệch nhau đúng một phần năm mươi vòng.",
+   "say": "Ông đo cái bóng, và tính ra hai thành phố lệch nhau đúng một phần năm mươi vòng."
   },
   {
    "n": 13,
-   "text": "Một phần mười triệu đường ấy là mét đầu tiên.",
-   "say": "Một phần mười triệu đường ấy là mét đầu tiên."
+   "text": "Giống như cắt cái bánh thành năm mươi miếng, hai thành phố cách nhau đúng một miếng.",
+   "say": "Giống như cắt cái bánh thành năm mươi miếng, hai thành phố cách nhau đúng một miếng."
   },
   {
    "n": 14,
-   "text": "Một cây gậy, một cái bóng và phép tính. Đó là cách chúng ta biết.",
-   "say": "Một cây gậy, một cái bóng và phép tính. Đó là cách chúng ta biết."
+   "text": "Người ta đã đếm bước chân và biết khoảng cách giữa hai thành phố khoảng tám trăm cây số.",
+   "say": "Người ta đã đếm bước chân và biết khoảng cách giữa hai thành phố khoảng tám trăm cây số."
+  },
+  {
+   "n": 15,
+   "text": "Một miếng là tám trăm cây số, thì cả cái bánh là năm mươi miếng như thế.",
+   "say": "Một miếng là tám trăm cây số, thì cả cái bánh là năm mươi miếng như thế."
+  },
+  {
+   "n": 16,
+   "text": "Tám trăm nhân năm mươi, được khoảng bốn mươi nghìn cây số. Đó là chiều dài một vòng quanh Trái Đất.",
+   "say": "Tám trăm nhân năm mươi, được khoảng bốn mươi nghìn cây số. Đó là chiều dài một vòng quanh Trái Đất."
+  },
+  {
+   "n": 17,
+   "text": "Ngày nay vệ tinh đo được hơn bốn mươi nghìn cây số. Ông chỉ lệch chưa tới hai phần trăm.",
+   "say": "Ngày nay vệ tinh đo được hơn bốn mươi nghìn cây số. Ông chỉ lệch chưa tới hai phần trăm."
+  },
+  {
+   "n": 18,
+   "text": "Thời đó người ta đo bằng đơn vị khác nên đổi ra cây số còn tranh cãi, nhưng kết quả vẫn rất gần.",
+   "say": "Thời đó người ta đo bằng đơn vị khác nên đổi ra cây số còn tranh cãi, nhưng kết quả vẫn rất gần."
+  },
+  {
+   "n": 19,
+   "text": "Cách nghĩ ấy còn dùng đến nay.",
+   "say": "Cách nghĩ ấy còn dùng đến nay."
+  },
+  {
+   "n": 20,
+   "text": "Người Pháp đo một đoạn từ Dunkerque tới Barcelona, rồi tính ra cả đường từ Bắc Cực tới xích đạo.",
+   "say": "Người Pháp đo một đoạn từ Đơn-kéc tới Barcelona, rồi tính ra cả đường từ Bắc Cực tới xích đạo."
+  },
+  {
+   "n": 21,
+   "text": "Một phần mười triệu của đường ấy được lấy làm một mét.",
+   "say": "Một phần mười triệu của đường ấy được lấy làm một mét."
+  },
+  {
+   "n": 22,
+   "text": "Một cây gậy, một cái bóng và một phép chia. Đó là cách chúng ta biết.",
+   "say": "Một cây gậy, một cái bóng và một phép chia. Đó là cách chúng ta biết."
   }
  ]
 }

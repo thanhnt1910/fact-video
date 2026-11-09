@@ -5,36 +5,45 @@ import ledaDur from './leda_dur.json';
 // Video khoa học số 1 (dọc 1080x1920, tiếng Việt, bản duyệt trước): Eratosthenes đo Trái Đất bằng một cây gậy.
 // Nguồn đã kiểm: xem remotion/scripts/eratosthenes.md
 
-export type SceneId = 'hook' | 'problem' | 'clue' | 'idea' | 'calc' | 'compare' | 'modern' | 'outro';
+export type SceneId = 'hook' | 'problem' | 'clue' | 'orange' | 'calc' | 'compare' | 'modern' | 'outro';
 export const END_E = 3.5;
 
+// Kịch bản đã duyệt 09/11/2026 (viết lại thành một mạch, có ví dụ quả cam và cái bánh). Mỗi phần tử là một lượt đọc giọng.
 export const TEXT_E: Record<SceneId, string[]> = {
   hook: [
-    'Một cây gậy mà đo được cả Trái Đất?',
-    'Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được.',
+    'Hơn hai nghìn năm trước, có một người đã tính ra Trái Đất to cỡ nào.',
+    'Ông không có vệ tinh, không có máy bay. Ông chỉ có một cây gậy.',
   ],
-  problem: ['Không ai đi vòng quanh Trái Đất được, nên không thể đo thẳng.'],
+  problem: ['Khó ở chỗ Trái Đất quá lớn. Không ai đi bộ hết một vòng để đo được.'],
   clue: [
-    'Người ta kể: ở Syene, trưa ngày dài nhất năm, nắng rọi thẳng xuống đáy giếng.',
-    'Cùng lúc ở Alexandria, cột dựng thẳng vẫn có bóng, nghiêng một phần năm mươi vòng tròn.',
+    'Ông tên là Eratosthenes. Người ta kể ông nghe một chuyện lạ ở thành phố Syene.',
+    'Mỗi năm có một trưa, nắng rọi thẳng xuống tận đáy giếng. Lúc đó Mặt Trời nằm ngay trên đầu, nên cột dựng đứng không có bóng.',
+    'Cùng trưa hôm đó, ở thành phố Alexandria, cách Syene khoảng tám trăm cây số, cây gậy dựng đứng lại có bóng.',
+    'Cùng một Mặt Trời, cùng một giờ. Chỗ này không có bóng, chỗ kia có bóng. Vì sao?',
   ],
-  idea: [
-    'Nắng chiếu song song, nên hai nơi khác nhau chỉ vì mặt đất cong.',
-    'Góc cái bóng chính là góc giữa hai thành phố, nhìn từ tâm Trái Đất.',
+  orange: [
+    'Hãy nhìn một quả cam. Cắm hai cây tăm lên vỏ cam, rồi rọi đèn pin từ xa.',
+    'Vỏ cam cong, nên hai cây tăm hướng về hai phía khác nhau, và bóng của chúng khác nhau.',
+    'Nếu mặt đất phẳng như tờ giấy, hai cái bóng sẽ giống hệt nhau.',
+    'Vậy cái bóng chính là bằng chứng: mặt đất cong. Hai nơi càng lệch hướng, bóng càng dài.',
   ],
   calc: [
-    'Người đếm bước cho biết hai thành phố cách nhau khoảng năm nghìn stadia.',
-    'Một phần năm mươi vòng, nên cả Trái Đất dài gấp năm mươi lần: hai trăm năm mươi nghìn stadia.',
+    'Ông đo cái bóng, và tính ra hai thành phố lệch nhau đúng một phần năm mươi vòng.',
+    'Giống như cắt cái bánh thành năm mươi miếng, hai thành phố cách nhau đúng một miếng.',
+    'Người ta đã đếm bước chân và biết khoảng cách giữa hai thành phố khoảng tám trăm cây số.',
+    'Một miếng là tám trăm cây số, thì cả cái bánh là năm mươi miếng như thế.',
+    'Tám trăm nhân năm mươi, được khoảng bốn mươi nghìn cây số. Đó là chiều dài một vòng quanh Trái Đất.',
   ],
   compare: [
-    'Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi, vậy là gần bốn mươi nghìn cây số.',
-    'Số đo ngày nay chỉ nhỉnh hơn một chút: lệch chưa tới hai phần trăm.',
+    'Ngày nay vệ tinh đo được hơn bốn mươi nghìn cây số. Ông chỉ lệch chưa tới hai phần trăm.',
+    'Thời đó người ta đo bằng đơn vị khác nên đổi ra cây số còn tranh cãi, nhưng kết quả vẫn rất gần.',
   ],
   modern: [
-    'Hơn hai nghìn năm sau, người Pháp làm tương tự: đo từ Dunkerque tới Barcelona, suy ra cả đường từ Bắc Cực tới xích đạo.',
-    'Một phần mười triệu đường ấy là mét đầu tiên.',
+    'Cách nghĩ ấy còn dùng đến nay.',
+    'Người Pháp đo một đoạn từ Dunkerque tới Barcelona, rồi tính ra cả đường từ Bắc Cực tới xích đạo.',
+    'Một phần mười triệu của đường ấy được lấy làm một mét.',
   ],
-  outro: ['Một cây gậy, một cái bóng và phép tính. Đó là cách chúng ta biết.'],
+  outro: ['Một cây gậy, một cái bóng và một phép chia. Đó là cách chúng ta biết.'],
 };
 
 export const LAB: Record<string, string> = {
@@ -62,9 +71,9 @@ export const LAB: Record<string, string> = {
   total: '= 250 000 stadia',
   eq50: '5 000 × 50',
   source: 'theo Cleomedes, nguồn còn lại duy nhất',
-  conv: '250 000 stadia × 157,5 m',
+  conv: '800 km × 50 (làm tròn)',
   conv2: '≈ 39 375 km',
-  barE: 'Eratosthenes (1 stadion ≈ 157,5 m)',
+  barE: 'Eratosthenes (đổi theo cách phổ biến)',
   barNow: 'Số đo ngày nay, vòng qua hai cực',
   diff: 'lệch khoảng 1,6%',
   unsure1: '1 stadion dài bao nhiêu chưa chắc chắn',
@@ -78,11 +87,27 @@ export const LAB: Record<string, string> = {
   meter1: '1 mét =',
   meter2: '1/10 000 000 đường này',
   tag: 'Chúng ta biết điều đó bằng cách nào.',
+  page: 'Người Giải Mã',
+  km800: '≈ 800 km',
+  cam: '(ví dụ: quả cam, không phải Trái Đất thật)',
+  tam: 'tăm',
+  torch: 'đèn pin',
+  paper: 'mặt phẳng như tờ giấy',
+  same: 'hai bóng giống hệt nhau',
+  differ: 'hai bóng khác nhau',
+  proof: 'bóng khác nhau = mặt đất cong',
+  slice1: '1 miếng = 1/50 vòng',
+  cake: 'cả vòng = 50 miếng',
+  mul: '800 km × 50',
+  total2: '≈ 40 000 km',
+  round: '(làm tròn)',
+  planes: 'không vệ tinh, không máy bay',
+  idea: 'Cách nghĩ ấy',
 };
 
 export type Beat = {text: string; start: number; dur: number};
 export type SceneTl = {id: SceneId; start: number; dur: number; beats: Beat[]; bs: number[]};
-const ORDER: SceneId[] = ['hook', 'problem', 'clue', 'idea', 'calc', 'compare', 'modern', 'outro'];
+const ORDER: SceneId[] = ['hook', 'problem', 'clue', 'orange', 'calc', 'compare', 'modern', 'outro'];
 
 export function timeline(): {scenes: SceneTl[]; total: number; beats: Beat[]} {
   let f = 0;

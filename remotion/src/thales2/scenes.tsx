@@ -1,14 +1,15 @@
 import React from 'react';
 import {useCurrentFrame} from 'remotion';
 import {APEX_Y, C, GY, PB, PH, PX, clamp01, eio, sec, seg, sp} from '../lib/theme';
-import {Defs, DimH, DimV, FlameMark, Ground, Pyramid, Ray, Shadow, Sun, Txt} from '../thales/parts';
-import {AngleArc, Camel, Clock, Cloud, Dunes, Ladder, PlanView, Stick2, WALKER_H, Walker} from './parts2';
+import {Defs, DimH, DimV, FlameMark, Ground, Ray, Shadow, Sun, Txt} from '../thales/parts';
+import {AngleArc, Birds, Camel, Clock, Cloud, Defs2, Dunes, Ladder, Palm, PlanView, Pyramid2, Stick2, WALKER_H, Walker} from './parts2';
 
 export type Sc = {dur: number; bs: number[]; t: Record<string, string>};
 
 const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
   <svg width={1920} height={1080} viewBox="0 0 1920 1080" style={{position: 'absolute', left: 0, top: 0}}>
     <Defs />
+    <Defs2 />
     {children}
   </svg>
 );
@@ -19,12 +20,12 @@ const pyrTip = (e: number) => PX + PH / tanE(e);
 const lin = (f: number, a: number, b: number) => clamp01((f - a) / Math.max(1, b - a));
 const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
 
-const FX = 1560; // chỗ Thales đứng ban đầu
+const FX = 1520; // chỗ Thales đứng ban đầu
 const EDGE = PX + PB; // mép đáy (938)
 const E45 = 45;
 const E32 = (Math.atan(2 / 3) * 180) / Math.PI; // 33,69 độ: gậy 80 -> bóng 120
 const TIP = PX + 1.5 * PH; // 1210
-const SH = 120; // chiều cao cây gậy vẽ
+const SH = 160; // chiều cao cây gậy vẽ
 const STICK_TIP = TIP + 1.5 * SH; // bóng gậy 3:2
 const WH = WALKER_H;
 const EQ_X = 1380;
@@ -61,11 +62,13 @@ export const Hook: React.FC<Sc> = ({dur, bs, t}) => {
     <Svg>
       <g transform={`translate(960 600) scale(${zoom}) translate(-960 -600)`}>
         <Dunes o={ground} />
+        <Palm x={100} />
+        <Birds />
         <Ground p={ground} />
-        <Pyramid p={pyr} axis={false} />
+        <Pyramid2 p={pyr} />
         <Sky e={32} p={sp(f, sec(5.2), sec(6.4))} />
         {[0, 330, 700].map((off, i) => (
-          <Camel key={i} x={caravan + off} dir={-1} s={1.15} phase0={i * 1.3} />
+          <Camel key={i} x={caravan + off} dir={-1} s={1.05} phase0={i * 1.3} />
         ))}
         <Walker x={tx} dir={-1} walking={walking} p={sp(f, bs[1], bs[1] + sec(0.6))} />
         <Cloud cx={1500} cy={360} rx={200} ry={110} p={cl} tail={[FX, GY - 100]}>
@@ -102,8 +105,10 @@ export const SunShadow: React.FC<Sc> = ({bs, t}) => {
   return (
     <Svg>
       <Dunes />
+      <Palm x={100} />
+      <Birds />
       <Ground p={1} />
-      <Pyramid p={1} axis={false} />
+      <Pyramid2 p={1} />
       <Shadow x1={PX} x2={pyrTip(e)} p={shP} />
       <Walker x={FX} dir={-1} shadowLen={hLen} />
       <Sky e={e} p={sunP} />
@@ -137,8 +142,10 @@ export const Equal: React.FC<Sc> = ({bs}) => {
   return (
     <Svg>
       <Dunes />
+      <Palm x={100} />
+      <Birds />
       <Ground p={1} />
-      <Pyramid p={1} axis />
+      <Pyramid2 p={1} axis />
       <Shadow x1={PX} x2={tipP} p={1} hot={f > bs[1]} />
       <Sky e={E45} />
       <Par tx={tipP} e={E45} p={1} />
@@ -175,8 +182,10 @@ export const Half: React.FC<Sc> = ({bs, t}) => {
   return (
     <Svg>
       <Dunes />
+      <Palm x={100} />
+      <Birds />
       <Ground p={1} />
-      <Pyramid p={1} axis={false} />
+      <Pyramid2 p={1} />
       <Shadow x1={PX} x2={tipP} p={1} />
       <Shadow x1={EDGE} x2={tipP} p={hot} hot />
       <Sky e={E45} />
@@ -231,8 +240,10 @@ export const StickTrick: React.FC<Sc> = ({bs, t}) => {
   return (
     <Svg>
       <Dunes />
+      <Palm x={100} />
+      <Birds />
       <Ground p={1} />
-      <Pyramid p={1} axis={false} />
+      <Pyramid2 p={1} />
       <Shadow x1={PX} x2={tipNow} p={1} />
       <path d={`M${PX} ${APEX_Y} L${PX} ${GY} L${TIP} ${GY} Z`} fill={C.amber} opacity={0.12 * fills} />
       <path d={`M${TIP} ${GY - SH} L${TIP} ${GY} L${STICK_TIP} ${GY} Z`} fill={C.amber} opacity={0.38 * fills} />
@@ -281,8 +292,10 @@ export const Numbers: React.FC<Sc> = ({bs, t}) => {
   return (
     <Svg>
       <Dunes />
+      <Palm x={100} />
+      <Birds />
       <Ground p={1} />
-      <Pyramid p={1} axis={false} />
+      <Pyramid2 p={1} />
       <Shadow x1={PX} x2={TIP} p={1} />
       <Sky e={E32} />
       <Stick2 x={TIP} h={SH} />
@@ -331,14 +344,16 @@ export const Finale: React.FC<Sc> = ({dur, bs, t}) => {
         <g opacity={0.95 - 0.85 * card}>
           <g transform={`translate(960 600) scale(${zoom}) translate(-960 -600)`}>
             <Dunes />
+      <Palm x={100} />
+      <Birds />
             <Ground p={1} />
-            <Pyramid p={1} axis={false} />
+            <Pyramid2 p={1} />
             <Shadow x1={PX} x2={TIP} p={1} />
             <Sky e={E32} />
             <Stick2 x={TIP} h={SH} />
             <Shadow x1={TIP} x2={STICK_TIP} p={1} hot />
             {[0, 330, 700].map((off, i) => (
-              <Camel key={i} x={caravan - off} dir={1} s={1.15} phase0={i * 1.3} />
+              <Camel key={i} x={caravan - off} dir={1} s={1.05} phase0={i * 1.3} />
             ))}
             <Walker x={wx} dir={-1} walking={wk > 0 && wk < 1} shadowLen={WH / tanE(E32)} />
           </g>

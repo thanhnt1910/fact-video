@@ -1,0 +1,175 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Nếu *Mặt Trời tắt* ngay bây giờ, bạn vẫn thấy nó *sáng thêm* hơn *8 phút* nữa.",
+   "say": "Nếu Mặt Trời tắt ngay bây giờ, bạn vẫn thấy nó sáng thêm hơn tám phút nữa."
+  },
+  {
+   "n": 2,
+   "text": "Vì ánh sáng *không đến tức thì*, nó phải đi và *mất thời gian.* Nhưng nó nhanh đến mức bật đèn là *sáng ngay.*",
+   "say": "Vì ánh sáng không đến tức thì, nó phải đi và mất thời gian. Nhưng nó nhanh đến mức bật đèn là sáng ngay, nên nhiều người từng tin nó đến tức thì."
+  },
+  {
+   "n": 3,
+   "text": "Người đầu tiên *chứng minh* điều ngược lại không dùng thước hay đồng hồ, mà dùng *một mặt trăng* của *sao Mộc.*",
+   "say": "Người đầu tiên chứng minh điều ngược lại không dùng thước hay đồng hồ, mà dùng một mặt trăng của sao Mộc."
+  },
+  {
+   "n": 4,
+   "text": "Năm *1638*, nhà bác học *Galileo* mô tả trong sách một *cách thử.*",
+   "say": "Năm một nghìn sáu trăm ba mươi tám, nhà bác học Ga-li-lê mô tả trong sách một cách thử."
+  },
+  {
+   "n": 5,
+   "text": "Hai người, mỗi người cầm *một đèn lồng*, đứng cách nhau chưa đầy *2 ki-lô-mét.*",
+   "say": "Hai người, mỗi người cầm một chiếc đèn lồng, đứng cách nhau chưa đầy hai ki-lô-mét."
+  },
+  {
+   "n": 6,
+   "text": "Người thứ nhất *mở đèn.* Người thứ hai vừa thấy thì *mở đèn của mình.* Người thứ nhất xem *chờ bao lâu.*",
+   "say": "Người thứ nhất mở đèn. Người thứ hai vừa thấy ánh sáng thì mở đèn của mình. Người thứ nhất chờ xem mất bao lâu mới thấy đèn trả lời."
+  },
+  {
+   "n": 7,
+   "text": "Kết quả: Galileo *không phân biệt được* có độ trễ hay không. Ông viết: nếu không tức thì thì cũng *nhanh vô cùng.*",
+   "say": "Kết quả: Ga-li-lê không phân biệt được có độ trễ hay không. Ông chỉ viết rằng nếu không tức thì thì cũng nhanh vô cùng."
+  },
+  {
+   "n": 8,
+   "text": "Dễ hiểu thôi: ánh sáng chạy hết quãng đó chỉ trong *5 phần triệu giây*, còn tay người *chậm hơn hàng nghìn lần.*",
+   "say": "Cũng dễ hiểu thôi: quãng đường ngắn như vậy, ánh sáng chạy hết chỉ trong khoảng năm phần triệu giây, còn tay người chậm hơn hàng nghìn lần."
+  },
+  {
+   "n": 9,
+   "text": "Muốn thấy độ trễ, phải cho ánh sáng đi *xa hơn rất nhiều.* Năm *1672*, nhà thiên văn trẻ người Đan Mạch *Ole Rømer* đến làm việc ở *Đài thiên văn Paris.*",
+   "say": "Muốn thấy độ trễ, phải cho ánh sáng đi một quãng đường lớn hơn rất nhiều. Năm một nghìn sáu trăm bảy mươi hai, nhà thiên văn trẻ người Đan Mạch Ô-lê Rơ-mơ đến làm việc ở Đài thiên văn Pa-ri."
+  },
+  {
+   "n": 10,
+   "text": "Ở đó người ta theo dõi *Io*, một mặt trăng của *sao Mộc.* Cứ *42 tiếng rưỡi*, Io quay trọn *một vòng.*",
+   "say": "Ở đó người ta theo dõi I-ô, một mặt trăng của sao Mộc. Cứ bốn mươi hai tiếng rưỡi, I-ô quay trọn một vòng quanh sao Mộc."
+  },
+  {
+   "n": 11,
+   "text": "Mỗi vòng, Io *chui vào bóng* sao Mộc rồi *ló ra.* Như một *chiếc đồng hồ* ngoài vũ trụ, mỗi lần ló ra là một nhịp.",
+   "say": "Mỗi vòng, I-ô chui vào bóng của sao Mộc và biến mất, rồi lại ló ra. Như một chiếc đồng hồ ngoài vũ trụ, mỗi lần ló ra là một nhịp."
+  },
+  {
+   "n": 12,
+   "text": "Rømer thấy điều lạ. Trái Đất *đi xa* sao Mộc, Io ló ra *càng muộn.* Trái Đất *lại gần*, Io ló ra *sớm hơn.*",
+   "say": "Rơ-mơ nhận thấy một điều lạ. Khi Trái Đất đi xa dần sao Mộc, I-ô ló ra càng lúc càng muộn. Khi Trái Đất lại gần, I-ô ló ra sớm hơn."
+  },
+  {
+   "n": 13,
+   "text": "Mỗi vòng chỉ lệch *chút xíu*, không thấy được. Nhưng gộp *40 vòng* lại thì độ lệch *hiện rõ.*",
+   "say": "Mỗi vòng chỉ lệch một chút xíu, không thấy được. Nhưng gộp bốn mươi vòng lại thì độ lệch hiện rõ."
+  },
+  {
+   "n": 14,
+   "text": "Ông hiểu ra: Io *vẫn quay đều.* Chỉ là ánh sáng phải đi *quãng đường dài hơn*, nên *tới muộn hơn.*",
+   "say": "Ông hiểu ra: I-ô vẫn quay đều. Chỉ là Trái Đất ở xa hơn, nên ánh sáng từ I-ô phải đi quãng đường dài hơn, và tới muộn hơn."
+  },
+  {
+   "n": 15,
+   "text": "Giống thư gửi *đều mỗi ngày*: đường dài ra thì thư *đến muộn dần*, dù người gửi *vẫn đúng giờ.*",
+   "say": "Giống như thư gửi đều đặn mỗi ngày: đường dài ra thì thư đến muộn dần, dù người gửi vẫn đúng giờ."
+  },
+  {
+   "n": 16,
+   "text": "Ngày *9/11/1676*, Io ló ra *muộn 10 phút* so với bảng giờ tính từ tháng 8, như Rømer *đã báo trước.*",
+   "say": "Ngày chín tháng mười một năm một nghìn sáu trăm bảy mươi sáu, I-ô ló ra muộn đúng mười phút so với bảng giờ tính từ tháng tám, như Rơ-mơ đã báo trước."
+  },
+  {
+   "n": 17,
+   "text": "Từ đó ông ước tính ánh sáng cần khoảng *22 phút* để đi hết *đường kính quỹ đạo* Trái Đất.",
+   "say": "Từ các số đo ấy, ông ước tính ánh sáng cần khoảng hai mươi hai phút để đi hết đường kính quỹ đạo của Trái Đất quanh Mặt Trời."
+  },
+  {
+   "n": 18,
+   "text": "Không phải ai cũng tin. Giám đốc đài *Cassini* phản đối, vì hiện tượng *không thấy* ở các mặt trăng khác.",
+   "say": "Không phải ai cũng tin ngay. Giám đốc đài thiên văn Ca-xi-ni phản đối, vì hiện tượng này không thấy ở các mặt trăng khác của sao Mộc."
+  },
+  {
+   "n": 19,
+   "text": "Năm *1729*, *James Bradley* dùng cách đo *hoàn toàn khác* và cũng thấy ánh sáng *có tốc độ hữu hạn.*",
+   "say": "Năm một nghìn bảy trăm hai mươi chín, nhà thiên văn Giêm Brát-li dùng một cách đo hoàn toàn khác và cũng thấy ánh sáng có tốc độ hữu hạn."
+  },
+  {
+   "n": 20,
+   "text": "Giờ chỉ còn *một phép chia*: tốc độ = *quãng đường ÷ thời gian.*",
+   "say": "Giờ chỉ còn một phép chia: tốc độ bằng quãng đường chia cho thời gian."
+  },
+  {
+   "n": 21,
+   "text": "Quãng đường: khoảng *300 triệu km.* Thời gian: *22 phút*, tức *1 320 giây.*",
+   "say": "Quãng đường là đường kính quỹ đạo Trái Đất, ngày nay đo được khoảng ba trăm triệu ki-lô-mét. Thời gian là hai mươi hai phút, tức một nghìn ba trăm hai mươi giây."
+  },
+  {
+   "n": 22,
+   "text": "*300 triệu* ÷ *1 320* ≈ *227 nghìn* ki-lô-mét mỗi giây.",
+   "say": "Ba trăm triệu chia một nghìn ba trăm hai mươi ra khoảng hai trăm hai mươi bảy nghìn ki-lô-mét mỗi giây."
+  },
+  {
+   "n": 23,
+   "text": "Hơi thấp, vì ánh sáng thực ra chỉ mất *gần 17 phút.* Với thời gian đúng, ra *khoảng 300 nghìn* km mỗi giây.",
+   "say": "Hơi thấp hơn thật, vì ánh sáng thực ra chỉ mất gần mười bảy phút. Với thời gian đúng, phép chia ra khoảng ba trăm nghìn ki-lô-mét mỗi giây."
+  },
+  {
+   "n": 24,
+   "text": "Mỗi giây, ánh sáng chạy *quanh Trái Đất* *7 vòng rưỡi.*",
+   "say": "Nghĩa là mỗi giây, ánh sáng chạy quanh Trái Đất bảy vòng rưỡi."
+  },
+  {
+   "n": 25,
+   "text": "Năm *1849*, nhà vật lý Pháp *Hippolyte Fizeau* đo ánh sáng *ngay trên mặt đất*, không cần nhờ bầu trời.",
+   "say": "Năm một nghìn tám trăm bốn mươi chín, nhà vật lý người Pháp I-pô-lít Phi-dô tìm cách đo ánh sáng ngay trên mặt đất, không cần nhờ bầu trời."
+  },
+  {
+   "n": 26,
+   "text": "Hai kính thiên văn cách nhau *hơn 8,6 km*, ở *Suresnes* và trên đồi *Montmartre.*",
+   "say": "Ông đặt hai kính thiên văn cách nhau hơn tám phẩy sáu ki-lô-mét, ở Xuy-ren và trên đồi Mông-mác-tơ."
+  },
+  {
+   "n": 27,
+   "text": "Giữa đường ánh sáng là *bánh xe 720 răng cưa.* Ánh sáng chui qua *khe*, tới gương xa rồi *dội về.*",
+   "say": "Giữa đường ánh sáng, ông đặt một bánh xe bảy trăm hai mươi răng cưa. Ánh sáng chui qua khe giữa hai răng, bay tới gương ở xa rồi dội về."
+  },
+  {
+   "n": 28,
+   "text": "Bánh xe *quay nhanh dần.* Đến một tốc độ, ánh sáng dội về gặp *răng kế bên chắn lại*, mắt *không thấy gì.*",
+   "say": "Bánh xe quay nhanh dần. Đến một tốc độ, ánh sáng dội về gặp ngay răng kế bên chắn lại, và người quan sát không thấy gì."
+  },
+  {
+   "n": 29,
+   "text": "Quay *nhanh gấp đôi*, ánh sáng lại lọt qua *khe kế bên.* Lúc ấy *25 vòng* mỗi giây, mỗi khe chuyển khe mất *55 phần triệu giây.*",
+   "say": "Quay nhanh gấp đôi, ánh sáng lại lọt qua khe kế bên. Lúc ấy bánh xe quay hai mươi lăm vòng mỗi giây, mỗi khe chuyển sang khe kế tiếp trong khoảng năm mươi lăm phần triệu giây."
+  },
+  {
+   "n": 30,
+   "text": "Đó cũng là thời gian ánh sáng đi *hơn 17 km*, *cả đi lẫn về.*",
+   "say": "Đó cũng chính là thời gian ánh sáng đi hơn mười bảy ki-lô-mét, cả đi lẫn về."
+  },
+  {
+   "n": 31,
+   "text": "*17 km* ÷ *55 phần triệu giây* ≈ *313 nghìn* km mỗi giây, chỉ lệch *4,5%* so với số đúng.",
+   "say": "Chia mười bảy ki-lô-mét cho năm mươi lăm phần triệu giây, Phi-dô ra khoảng ba trăm mười ba nghìn ki-lô-mét mỗi giây, chỉ lệch bốn phẩy năm phần trăm so với số đúng."
+  },
+  {
+   "n": 32,
+   "text": "Ngày nay, tốc độ ánh sáng là *299 792 458* mét mỗi giây, *chính xác.*",
+   "say": "Ngày nay, tốc độ ánh sáng được xác định chính xác là hai trăm chín mươi chín triệu bảy trăm chín mươi hai nghìn bốn trăm năm mươi tám mét mỗi giây."
+  },
+  {
+   "n": 33,
+   "text": "Từ *1983*, người ta lấy luôn tốc độ ấy làm chuẩn: *1 mét* là quãng ánh sáng đi trong *1/299 792 458 giây.*",
+   "say": "Từ năm một nghìn chín trăm tám mươi ba, người ta lấy luôn tốc độ ấy làm chuẩn: một mét là quãng đường ánh sáng đi trong một phần hai trăm chín mươi chín triệu bảy trăm chín mươi hai nghìn bốn trăm năm mươi tám giây."
+  },
+  {
+   "n": 34,
+   "text": "Từ *2 chiếc đèn lồng*, *một mặt trăng* và *một bánh xe*, con người đã đo được ánh sáng *chạy nhanh đến mức nào.*",
+   "say": "Từ hai chiếc đèn lồng, một mặt trăng của sao Mộc và một bánh xe răng cưa, con người đã đo được ánh sáng chạy nhanh đến mức nào."
+  }
+ ]
+}

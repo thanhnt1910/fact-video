@@ -6,7 +6,7 @@ import {LABELS, Lang, SceneTl, timeline} from './content';
 import {Equal, Intro, Numbers, Outro, Rays, Sc, Similar} from './scenes';
 import {FlameMark} from './parts';
 
-const Background: React.FC = () => (
+export const Background: React.FC = () => (
   <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{position: 'absolute', left: 0, top: 0}}>
     <defs>
       <radialGradient id="bgT" cx="50%" cy="45%" r="75%">
@@ -23,7 +23,7 @@ const Background: React.FC = () => (
   </svg>
 );
 
-const Hud: React.FC = () => (
+export const Hud: React.FC = () => (
   <div style={{position: 'absolute', right: 80, top: 54, display: 'flex', alignItems: 'center', gap: 14, opacity: 0.9}}>
     <FlameMark width={34} />
     <div style={{fontFamily: 'Cormorant', fontWeight: 600, fontSize: 50, lineHeight: 1, color: C.cream}}>
@@ -32,7 +32,7 @@ const Hud: React.FC = () => (
   </div>
 );
 
-const Captions: React.FC<{beats: {text: string; start: number; dur: number}[]}> = ({beats}) => {
+export const Captions: React.FC<{beats: {text: string; start: number; dur: number}[]}> = ({beats}) => {
   const f = useCurrentFrame();
   const b = beats.find((x) => f >= x.start && f < x.start + x.dur);
   if (!b || !b.text) return null;
@@ -58,7 +58,7 @@ const Captions: React.FC<{beats: {text: string; start: number; dur: number}[]}> 
   );
 };
 
-const SceneFade: React.FC<{dur: number; children: React.ReactNode}> = ({dur, children}) => {
+export const SceneFade: React.FC<{dur: number; children: React.ReactNode}> = ({dur, children}) => {
   const f = useCurrentFrame();
   const o = Math.min(seg(f, 0, 8), 1 - seg(f, dur - 8, dur));
   return <AbsoluteFill style={{opacity: o}}>{children}</AbsoluteFill>;

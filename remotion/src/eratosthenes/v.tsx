@@ -110,9 +110,12 @@ export const Big: React.FC<{x: number; y: number; size?: number; color?: string;
 );
 
 /** Người que đội mũ, chân đặt tại (x, y), cao 92 điểm ảnh khi s = 1. walk: pha bước đi (radian) */
-export const Hero: React.FC<{x: number; y: number; s?: number; walk?: number; rot?: number; p?: number; stick?: boolean}> = ({x, y, s = 1, walk = 0, rot = 0, p = 1, stick = true}) => {
+export const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
+
+export const Hero: React.FC<{x: number; y: number; s?: number; walk?: number; rot?: number; p?: number; stick?: boolean; cheer?: number}> = ({x, y, s = 1, walk = 0, rot = 0, p = 1, stick = true, cheer = 0}) => {
   const sw = Math.sin(walk);
-  const bob = Math.abs(sw) * 2.5;
+  const ch = clamp01(cheer);
+  const bob = Math.abs(sw) * 2.5 + ch * Math.abs(Math.sin(walk * 1.6)) * 7;
   const sk = 5 / s;
   return (
     <g transform={`translate(${x} ${y - bob * s}) rotate(${rot}) scale(${s})`} opacity={clamp01(p * 2)} stroke={C.cream} strokeWidth={sk} strokeLinecap="round" strokeLinejoin="round" fill="none">
@@ -122,7 +125,7 @@ export const Hero: React.FC<{x: number; y: number; s?: number; walk?: number; ro
       <line x1={0} y1={-58} x2={0} y2={-26} />
       <line x1={0} y1={-26} x2={-10 + 12 * sw} y2={0} />
       <line x1={0} y1={-26} x2={10 - 12 * sw} y2={0} />
-      <line x1={0} y1={-48} x2={-16 - 4 * sw} y2={-32} />
+      <line x1={0} y1={-48} x2={lerp(-16 - 4 * sw, -24 + 5 * Math.sin(walk * 3), ch)} y2={lerp(-32, -82, ch)} />
       <line x1={0} y1={-48} x2={22} y2={-40} />
       {stick && <line x1={24} y1={0} x2={24} y2={-92} stroke={C.amber} strokeWidth={sk * 1.2} />}
     </g>
@@ -150,5 +153,4 @@ export const Globe: React.FC<{cx: number; cy: number; r: number; p?: number}> = 
   );
 };
 
-export const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
 export const RAD = Math.PI / 180;

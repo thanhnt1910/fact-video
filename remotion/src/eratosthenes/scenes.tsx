@@ -12,34 +12,58 @@ const D = C.dim;
 export const Hook: React.FC<Sc> = ({bs, t}) => {
   const f = useCurrentFrame();
   const b1 = bs[1];
-  const gp = sp(f, 0, 26);
-  const sat = 1 - sp(f, b1 - 6, b1 + 10);
-  const xo = sp(f, 36, 50) * sat;
+  // Nhịp 1: cây gậy, cái bóng dài ra, hiện quả địa cầu và dấu hỏi
+  const o1 = 1 - sp(f, b1 - 8, b1 + 6);
+  const gy = 1060;
+  const hx = 250;
+  const hs = 2.2;
+  const tip = {x: hx + 24 * hs, y: gy - 92 * hs};
+  const grow = sp(f, 6, 58);
+  const g1 = sp(f, 36, 66);
+  const q1 = sp(f, 54, 72);
+  const pulse = 1 + 0.06 * Math.sin(f * 0.3);
+  // Nhịp 2: vệ tinh bị gạch chéo, Eratosthenes mừng
+  const gp = sp(f, b1 - 4, b1 + 22);
+  const sat = 1 - sp(f, b1 + 70, b1 + 86);
+  const xo = sp(f, b1 + 40, b1 + 54) * sat;
   const a = f * 0.035;
   const sx = 540 + 380 * Math.cos(a);
   const sy = 430 + 70 * Math.sin(a);
-  const hp = sp(f, b1 + 4, b1 + 28);
+  const hp = sp(f, b1 + 56, b1 + 76);
   return (
     <Svg>
-      <Lab x={540} y={250} size={56} color={C.amber} o={sp(f, 4, 20)}>{t.year}</Lab>
-      <Lab x={540} y={330} size={50} o={sp(f, 12, 28)}>{t.earthQ}</Lab>
-      <Globe cx={540} cy={800} r={270} p={gp} />
-      <g opacity={sat * sp(f, 24, 38)}>
-        <g transform={`translate(${sx} ${sy})`}>
-          <g transform="scale(1.7)">
-            <rect x={-14} y={-9} width={28} height={18} fill={C.cream} />
-            <rect x={-46} y={-7} width={26} height={14} fill={C.amber} opacity={0.85} />
-            <rect x={20} y={-7} width={26} height={14} fill={C.amber} opacity={0.85} />
-          </g>
-        </g>
-        <g transform={`translate(${sx} ${sy})`} stroke={C.amberDeep} strokeWidth={9} strokeLinecap="round" opacity={xo}>
-          <line x1={-34} y1={-34} x2={34} y2={34} />
-          <line x1={34} y1={-34} x2={-34} y2={34} />
+      <g opacity={o1}>
+        <Sun x={170} y={330} p={sp(f, 0, 16)} />
+        <Ray x1={170} y1={330} x2={tip.x + 300} y2={gy} p={sp(f, 10, 40)} opacity={0.5} />
+        <line x1={70} y1={gy} x2={1010} y2={gy} stroke={C.cream} strokeWidth={3} opacity={0.45} />
+        <line x1={tip.x} y1={gy} x2={tip.x + 560 * grow} y2={gy} stroke={C.amberDeep} strokeWidth={16} strokeLinecap="round" opacity={0.9} />
+        <Hero x={hx} y={gy} s={hs} p={sp(f, 0, 10)} />
+        <g transform={`translate(700 560) scale(${pulse}) translate(-700 -560)`} opacity={g1}>
+          <Globe cx={700} cy={560} r={190} p={g1} />
+          <Big x={700} y={625} size={220} color={C.amber} o={q1}>?</Big>
         </g>
       </g>
-      <Lab x={540} y={1110} size={46} color={D} o={xo * sat}>{t.noSat}</Lab>
-      <Hero x={540} y={530} s={1.8} p={hp} />
-      <Lab x={540} y={1110} size={50} color={C.amber} o={hp}>{t.hero} {t.stickTag}</Lab>
+      <g opacity={sp(f, b1 - 2, b1 + 14)}>
+        <Lab x={540} y={250} size={56} color={C.amber}>{t.year}</Lab>
+        <Lab x={540} y={330} size={50}>{t.earthQ}</Lab>
+        <Globe cx={540} cy={800} r={270} p={gp} />
+        <g opacity={sat * sp(f, b1 + 20, b1 + 34)}>
+          <g transform={`translate(${sx} ${sy})`}>
+            <g transform="scale(1.7)">
+              <rect x={-14} y={-9} width={28} height={18} fill={C.cream} />
+              <rect x={-46} y={-7} width={26} height={14} fill={C.amber} opacity={0.85} />
+              <rect x={20} y={-7} width={26} height={14} fill={C.amber} opacity={0.85} />
+            </g>
+          </g>
+          <g transform={`translate(${sx} ${sy})`} stroke={C.amberDeep} strokeWidth={9} strokeLinecap="round" opacity={xo}>
+            <line x1={-34} y1={-34} x2={34} y2={34} />
+            <line x1={34} y1={-34} x2={-34} y2={34} />
+          </g>
+        </g>
+        <Lab x={540} y={1110} size={46} color={D} o={xo * sat}>{t.noSat}</Lab>
+        <Hero x={900} y={1110} s={1.9} p={hp} cheer={sp(f, b1 + 84, b1 + 100)} walk={f * 0.3} />
+        <Lab x={450} y={1150} size={44} color={C.amber} o={hp}>{t.hero} {t.stickTag}</Lab>
+      </g>
     </Svg>
   );
 };
@@ -280,6 +304,7 @@ export const Compare: React.FC<Sc> = ({bs, t}) => {
       <rect x={x0} y={770} width={W * bar2} height={56} rx={10} fill={C.cream} opacity={0.9} />
       <Lab x={x0 + 20} y={810} size={36} anchor="start" color={C.ink} o={clamp01((bar2 - 0.8) * 5)} w={700} plain>40 008 km</Lab>
       <Big x={540} y={930} size={78} o={dd}>{t.diff}</Big>
+      <Hero x={170} y={1130} s={1.3} p={dd} cheer={dd} walk={f * 0.3} stick={false} />
       <Lab x={540} y={1010} size={30} color={D} o={nt}>{t.unsure1}</Lab>
       <Lab x={540} y={1056} size={30} color={D} o={nt}>{t.unsure2}</Lab>
     </Svg>
@@ -354,7 +379,7 @@ export const Outro: React.FC<Sc> = ({bs, t}) => {
         <Sun x={sunPos.x} y={sunPos.y} p={sunP} />
         <line x1={90} y1={gy} x2={990} y2={gy} stroke={C.cream} strokeWidth={3} opacity={0.45} />
         <line x1={tip.x} y1={gy} x2={tip.x + (shX - tip.x) * sp2} y2={gy} stroke={C.amberDeep} strokeWidth={14} opacity={0.9} />
-        <Hero x={hx} y={gy} s={s} p={sp(f, 4, 22)} />
+        <Hero x={hx} y={gy} s={s} p={sp(f, 4, 22)} cheer={sp(f, 60, 80)} walk={f * 0.3} />
       </g>
       <g opacity={lg}>
         <g transform={`translate(${VW / 2 - 70} 360)`}>

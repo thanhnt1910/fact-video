@@ -9,8 +9,8 @@ export const END_E = 3.5;
 
 export const TEXT_E: Record<SceneId, string[]> = {
   hook: [
-    'Hơn hai nghìn năm trước, chưa có vệ tinh.',
-    'Vậy mà Eratosthenes đã đo cả Trái Đất, chỉ bằng một cây gậy.',
+    'Một cây gậy mà đo được cả Trái Đất?',
+    'Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được.',
   ],
   problem: ['Không ai đi vòng quanh Trái Đất được, nên không thể đo thẳng.'],
   clue: [

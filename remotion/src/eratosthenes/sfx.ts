@@ -13,8 +13,11 @@ export function sfxEvents(): {events: Ev[]; total: number} {
 
   const h = S('hook');
   add(T(h, null, 0.1), 'whoosh', 0, 0.5);
-  add(T(h, 0, 1.8), 'bad', -0.6, 0.5);
-  add(T(h, 1, 0.3), 'pop', 0, 0.8);
+  add(T(h, 0, 0.3), 'swing', 0.2, 0.4);
+  add(T(h, 0, 1.3), 'pop', 0.4, 0.8);
+  add(T(h, 0, 1.9), 'question', 0.4, 0.7);
+  add(T(h, 1, 1.45), 'bad', -0.4, 0.5);
+  add(T(h, 1, 3.3), 'chime', 0.5, 0.6);
 
   const p = S('problem');
   add(T(p, null, 0.2), 'question', 0, 0.7);
@@ -41,6 +44,7 @@ export function sfxEvents(): {events: Ev[]; total: number} {
   add(T(m, 0, 2.6), 'thud', 0, 0.5);
   add(T(m, 1, 0.5), 'whoosh', 0, 0.4);
   add(T(m, 1, 1.6), 'lock', 0, 0.5);
+  add(T(m, 1, 2.3), 'chime', -0.5, 0.5);
 
   const d = S('modern');
   add(T(d, 0, 0.6), 'whoosh', 0, 0.4);

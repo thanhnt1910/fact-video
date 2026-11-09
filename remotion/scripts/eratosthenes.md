@@ -13,4 +13,4 @@ Dựng: `remotion/src/eratosthenes/`. Âm thanh: `sfx.ts` + `scripts/dump_sfx_er
 Người que, quả địa cầu, góc vẽ to hơn thật (có chú thích trên hình), cảnh người đi vòng Trái Đất.
 
 ## Cần chủ kênh duyệt
-Thời lượng 84,6 s (mục tiêu 60–80 s): có thể cắt câu về mét ở cảnh `modern`. Chưa đọc giọng, chưa làm bản tiếng Anh.
+Thời lượng khoảng 85 s: chủ kênh yêu cầu giữ đầy đủ, không cắt. Chưa đọc giọng, chưa làm bản tiếng Anh.

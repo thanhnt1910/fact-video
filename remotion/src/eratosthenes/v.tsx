@@ -58,13 +58,13 @@ export const splitWords = (text: string, max = 4): string[] => {
 };
 
 /** Phụ đề ngắn: mỗi lần hiện tối đa 4 từ, mốc từng cụm tính từ giọng đọc thật (scripts/tao_phu_de.py -> caps.json) */
-export const VCaptions: React.FC<{beats: {text: string; start: number; dur: number}[]}> = ({beats}) => {
+export const VCaptions: React.FC<{beats: {text: string; start: number; dur: number}[]; caps?: {text: string; start: number; end: number}[][]}> = ({beats, caps}) => {
   const f = useCurrentFrame();
   const bi = beats.findIndex((x) => f >= x.start && f < x.start + x.dur);
   const b = beats[bi];
   if (!b || !b.text) return null;
   const vi = beats.slice(0, bi).filter((x) => x.text).length;
-  const items = (CAPS as {text: string; start: number; end: number}[][])[vi];
+  const items = (caps ?? (CAPS as {text: string; start: number; end: number}[][]))[vi];
   if (!items) return null;
   const t = (f - b.start) / 30;
   const c = items.find((x) => t >= x.start && t < x.end);

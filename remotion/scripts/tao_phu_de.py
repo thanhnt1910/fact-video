@@ -42,15 +42,19 @@ def speech_intervals(f):
     return iv, n * 0.01
 
 def mark_words(text):
-    """Từ khóa nằm trong *...* (có thể nhiều từ): gắn dấu * riêng cho từng từ để cụm nào cũng tự đủ cặp."""
+    """Từ khóa nằm trong *...* (có thể nhiều từ, dấu câu đi ngay sau dấu * đóng): gắn dấu * riêng cho từng từ."""
     out, on = [], False
     for tok in text.split(' '):
         if not tok: continue
-        a = tok.startswith('*'); b = tok.endswith('*') and len(tok.strip('*')) > 0
-        if a: on = True
-        core = tok.strip('*')
-        out.append('*%s*' % core if on else core)
-        if b: on = False
+        opens = tok.startswith('*')
+        core = tok[1:] if opens else tok
+        if opens: on = True
+        closes = '*' in core
+        core = core.replace('*', '')
+        m = re.match(r'^(.*?)([,.;:?!]*)$', core)
+        word, suf = m.group(1), m.group(2)
+        out.append(('*%s*%s' % (word, suf)) if on and word else core)
+        if closes: on = False
     return ' '.join(out)
 
 def chunks(text, mx=4):
@@ -72,7 +76,25 @@ for bi, b in enumerate(beats):
         for k, (s, e) in enumerate(iv):
             if u <= cum[k + 1] + 1e-9: return s + (u - cum[k])
         return iv[-1][1]
-    ch = chunks(b['text']); wts = [sum(syll(w) for w in c) for c in ch]; tw = sum(wts)
+    ch = chunks(b['text'])
+    # Phụ đề có chữ số (1774, 5,5...) nhưng giọng đọc thành chữ: trọng số của số = phần âm tiết còn lại của bản đọc
+    if b.get('say'):
+        S = sum(syll(w) for w in b['say'].split())
+        words = [w for c in ch for w in c]
+        isnum = [bool(re.search(r'\d', w)) for w in words]
+        norm = sum(syll(w) for w, n in zip(words, isnum) if not n)
+        k = max(1, S - norm); nn = max(1, sum(isnum))
+        wt = {}
+        wts = []
+        i = 0
+        for c in ch:
+            tot = 0
+            for w in c:
+                tot += (k / nn) if isnum[i] else syll(w); i += 1
+            wts.append(tot)
+    else:
+        wts = [sum(syll(w) for w in c) for c in ch]
+    tw = sum(wts)
     acc, items = 0, []
     for c, w in zip(ch, wts):
         items.append({'text': ' '.join(c), 'start': round(OFF + real(sp * acc / tw), 3)})

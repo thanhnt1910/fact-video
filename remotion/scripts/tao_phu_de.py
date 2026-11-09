@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""Tính mốc phụ đề cụm ngắn (tối đa 4 từ) theo giọng đọc thật.
+Dùng: python3 scripts/tao_phu_de.py beats.json ../demo/era/leda src/eratosthenes/caps.json
+Mỗi câu: tìm đoạn có tiếng / đoạn lặng trong file wav, trọng số từng từ = số âm tiết ước lượng,
+chia thời gian chỉ trên phần có tiếng nên chỗ ngắt nghỉ không làm lệch các cụm sau."""
+import json, re, subprocess, sys
+import numpy as np
+from scipy.io import wavfile
+
+beats = json.load(open(sys.argv[1]))['beats']
+folder = sys.argv[2]
+OFF = 0.15  # giọng bắt đầu sau đầu nhịp 0,15 giây (trùng với bước ghép âm thanh)
+
+def syll(w):
+    w = re.sub(r'[^\wÀ-ỹ]', '', w.lower())
+    if re.fullmatch(r'[a-z]+', w) and len(w) > 3:  # từ nước ngoài: đếm cụm nguyên âm
+        return max(1, len(re.findall(r'[aeiouy]+', w)))
+    return 1
+
+def speech_intervals(f):
+    sr, x = wavfile.read(f); x = x.astype(float) / 32768
+    if x.ndim > 1: x = x[:, 0]
+    h = int(sr * 0.01); n = len(x) // h
+    e = np.sqrt((x[:n * h].reshape(n, h) ** 2).mean(1)) + 1e-9
+    db = 20 * np.log10(e); on = db > (db.max() - 38)
+    # lấp chỗ lặng ngắn hơn 90 ms
+    i = 0
+    while i < n:
+        if not on[i]:
+            j = i
+            while j < n and not on[j]: j += 1
+            if 0 < i and j < n and (j - i) < 9: on[i:j] = True
+            i = j
+        else: i += 1
+    iv, i = [], 0
+    while i < n:
+        if on[i]:
+            j = i
+            while j < n and on[j]: j += 1
+            iv.append((i * 0.01, j * 0.01)); i = j
+        else: i += 1
+    return iv, n * 0.01
+
+def chunks(text, mx=4):
+    out = []
+    for part in re.split(r'(?<=[,.;:?!])\s+', text.strip()):
+        w = part.split()
+        if not w: continue
+        k = -(-len(w) // mx); i = 0
+        for a in range(k):
+            t = round((len(w) - i) / (k - a)); out.append(w[i:i + t]); i += t
+    return out
+
+res = []
+for bi, b in enumerate(beats):
+    iv, total = speech_intervals('%s/%02d.wav' % (folder, bi + 1))
+    cum = np.cumsum([0] + [e - s for s, e in iv]); sp = cum[-1]
+    def real(u):  # thời gian có tiếng -> thời gian thật
+        for k, (s, e) in enumerate(iv):
+            if u <= cum[k + 1] + 1e-9: return s + (u - cum[k])
+        return iv[-1][1]
+    ch = chunks(b['text']); wts = [sum(syll(w) for w in c) for c in ch]; tw = sum(wts)
+    acc, items = 0, []
+    for c, w in zip(ch, wts):
+        items.append({'text': ' '.join(c), 'start': round(OFF + real(sp * acc / tw), 3)})
+        acc += w
+    for k, it in enumerate(items):
+        it['end'] = items[k + 1]['start'] if k + 1 < len(items) else round(OFF + iv[-1][1] + 0.12, 3)
+    res.append(items)
+json.dump(res, open(sys.argv[3], 'w'), ensure_ascii=False, indent=1)
+print(sum(len(r) for r in res), 'cụm')

@@ -1,0 +1,626 @@
+[
+ [
+  {
+   "text": "Hơn hai",
+   "start": 0.33,
+   "end": 0.74
+  },
+  {
+   "text": "nghìn năm trước,",
+   "start": 0.74,
+   "end": 1.445
+  },
+  {
+   "text": "có một người đã",
+   "start": 1.445,
+   "end": 2.265
+  },
+  {
+   "text": "tính ra Trái Đất",
+   "start": 2.265,
+   "end": 3.215
+  },
+  {
+   "text": "to cỡ nào.",
+   "start": 3.215,
+   "end": 3.95
+  }
+ ],
+ [
+  {
+   "text": "Ông không",
+   "start": 0.27,
+   "end": 0.669
+  },
+  {
+   "text": "có vệ tinh,",
+   "start": 0.669,
+   "end": 1.267
+  },
+  {
+   "text": "không có máy bay.",
+   "start": 1.267,
+   "end": 2.364
+  },
+  {
+   "text": "Ông chỉ có",
+   "start": 2.364,
+   "end": 3.452
+  },
+  {
+   "text": "một cây gậy.",
+   "start": 3.452,
+   "end": 4.26
+  }
+ ],
+ [
+  {
+   "text": "Khó ở chỗ Trái",
+   "start": 0.33,
+   "end": 1.344
+  },
+  {
+   "text": "Đất quá lớn.",
+   "start": 1.344,
+   "end": 2.085
+  },
+  {
+   "text": "Không ai đi",
+   "start": 2.085,
+   "end": 3.115
+  },
+  {
+   "text": "bộ hết một vòng",
+   "start": 3.115,
+   "end": 3.969
+  },
+  {
+   "text": "để đo được.",
+   "start": 3.969,
+   "end": 4.83
+  }
+ ],
+ [
+  {
+   "text": "Ông tên là Eratosthenes.",
+   "start": 0.43,
+   "end": 2.0
+  },
+  {
+   "text": "Người ta kể ông",
+   "start": 2.0,
+   "end": 3.194
+  },
+  {
+   "text": "nghe một chuyện lạ",
+   "start": 3.194,
+   "end": 3.979
+  },
+  {
+   "text": "ở thành phố Syene.",
+   "start": 3.979,
+   "end": 5.08
+  }
+ ],
+ [
+  {
+   "text": "Mỗi năm",
+   "start": 0.33,
+   "end": 0.759
+  },
+  {
+   "text": "có một trưa,",
+   "start": 0.759,
+   "end": 1.402
+  },
+  {
+   "text": "nắng rọi thẳng xuống",
+   "start": 1.402,
+   "end": 2.6
+  },
+  {
+   "text": "tận đáy giếng.",
+   "start": 2.6,
+   "end": 3.243
+  },
+  {
+   "text": "Lúc đó Mặt Trời",
+   "start": 3.243,
+   "end": 4.601
+  },
+  {
+   "text": "nằm ngay trên đầu,",
+   "start": 4.601,
+   "end": 5.459
+  },
+  {
+   "text": "nên cột dựng đứng",
+   "start": 5.459,
+   "end": 6.597
+  },
+  {
+   "text": "không có bóng.",
+   "start": 6.597,
+   "end": 7.36
+  }
+ ],
+ [
+  {
+   "text": "Cùng trưa hôm đó,",
+   "start": 0.59,
+   "end": 1.482
+  },
+  {
+   "text": "ở thành phố Alexandria,",
+   "start": 1.482,
+   "end": 3.044
+  },
+  {
+   "text": "cách Syene khoảng tám",
+   "start": 3.044,
+   "end": 4.479
+  },
+  {
+   "text": "trăm cây số,",
+   "start": 4.479,
+   "end": 5.148
+  },
+  {
+   "text": "cây gậy dựng đứng",
+   "start": 5.148,
+   "end": 6.451
+  },
+  {
+   "text": "lại có bóng.",
+   "start": 6.451,
+   "end": 7.47
+  }
+ ],
+ [
+  {
+   "text": "Cùng một Mặt Trời,",
+   "start": 0.33,
+   "end": 1.527
+  },
+  {
+   "text": "cùng một giờ.",
+   "start": 1.527,
+   "end": 2.177
+  },
+  {
+   "text": "Chỗ này",
+   "start": 2.177,
+   "end": 2.98
+  },
+  {
+   "text": "không có bóng,",
+   "start": 2.98,
+   "end": 3.63
+  },
+  {
+   "text": "chỗ kia có bóng.",
+   "start": 3.63,
+   "end": 4.827
+  },
+  {
+   "text": "Vì sao?",
+   "start": 4.827,
+   "end": 5.38
+  }
+ ],
+ [
+  {
+   "text": "Hãy nhìn",
+   "start": 0.26,
+   "end": 0.662
+  },
+  {
+   "text": "một quả cam.",
+   "start": 0.662,
+   "end": 1.926
+  },
+  {
+   "text": "Cắm hai cây tăm",
+   "start": 1.926,
+   "end": 2.73
+  },
+  {
+   "text": "lên vỏ cam,",
+   "start": 2.73,
+   "end": 3.623
+  },
+  {
+   "text": "rồi rọi đèn",
+   "start": 3.623,
+   "end": 4.227
+  },
+  {
+   "text": "pin từ xa.",
+   "start": 4.227,
+   "end": 4.95
+  }
+ ],
+ [
+  {
+   "text": "Vỏ cam cong,",
+   "start": 0.45,
+   "end": 1.145
+  },
+  {
+   "text": "nên hai cây",
+   "start": 1.145,
+   "end": 1.999
+  },
+  {
+   "text": "tăm hướng về hai",
+   "start": 1.999,
+   "end": 2.926
+  },
+  {
+   "text": "phía khác nhau,",
+   "start": 2.926,
+   "end": 3.621
+  },
+  {
+   "text": "và bóng của",
+   "start": 3.621,
+   "end": 4.655
+  },
+  {
+   "text": "chúng khác nhau.",
+   "start": 4.655,
+   "end": 5.47
+  }
+ ],
+ [
+  {
+   "text": "Nếu mặt đất phẳng",
+   "start": 0.4,
+   "end": 1.314
+  },
+  {
+   "text": "như tờ giấy,",
+   "start": 1.314,
+   "end": 2.0
+  },
+  {
+   "text": "hai cái bóng sẽ",
+   "start": 2.0,
+   "end": 3.064
+  },
+  {
+   "text": "giống hệt nhau.",
+   "start": 3.064,
+   "end": 3.87
+  }
+ ],
+ [
+  {
+   "text": "Vậy cái bóng chính",
+   "start": 0.46,
+   "end": 1.511
+  },
+  {
+   "text": "là bằng chứng:",
+   "start": 1.511,
+   "end": 2.299
+  },
+  {
+   "text": "mặt đất cong.",
+   "start": 2.299,
+   "end": 3.408
+  },
+  {
+   "text": "Hai nơi",
+   "start": 3.408,
+   "end": 4.463
+  },
+  {
+   "text": "càng lệch hướng,",
+   "start": 4.463,
+   "end": 5.612
+  },
+  {
+   "text": "bóng càng dài.",
+   "start": 5.612,
+   "end": 6.52
+  }
+ ],
+ [
+  {
+   "text": "Ông đo cái bóng,",
+   "start": 0.44,
+   "end": 1.34
+  },
+  {
+   "text": "và tính ra hai",
+   "start": 1.34,
+   "end": 2.47
+  },
+  {
+   "text": "thành phố lệch",
+   "start": 2.47,
+   "end": 3.145
+  },
+  {
+   "text": "nhau đúng một phần",
+   "start": 3.145,
+   "end": 4.175
+  },
+  {
+   "text": "năm mươi vòng.",
+   "start": 4.175,
+   "end": 5.24
+  }
+ ],
+ [
+  {
+   "text": "Giống như cắt",
+   "start": 0.38,
+   "end": 1.229
+  },
+  {
+   "text": "cái bánh thành",
+   "start": 1.229,
+   "end": 1.939
+  },
+  {
+   "text": "năm mươi miếng,",
+   "start": 1.939,
+   "end": 2.648
+  },
+  {
+   "text": "hai thành phố cách",
+   "start": 2.648,
+   "end": 3.904
+  },
+  {
+   "text": "nhau đúng một miếng.",
+   "start": 3.904,
+   "end": 5.07
+  }
+ ],
+ [
+  {
+   "text": "Người ta đã đếm",
+   "start": 0.43,
+   "end": 1.243
+  },
+  {
+   "text": "bước chân và biết",
+   "start": 1.243,
+   "end": 2.055
+  },
+  {
+   "text": "khoảng cách giữa hai",
+   "start": 2.055,
+   "end": 2.868
+  },
+  {
+   "text": "thành phố khoảng tám",
+   "start": 2.868,
+   "end": 3.891
+  },
+  {
+   "text": "trăm cây số.",
+   "start": 3.891,
+   "end": 4.62
+  }
+ ],
+ [
+  {
+   "text": "Một miếng là tám",
+   "start": 0.3,
+   "end": 1.337
+  },
+  {
+   "text": "trăm cây số,",
+   "start": 1.337,
+   "end": 2.032
+  },
+  {
+   "text": "thì cả cái",
+   "start": 2.032,
+   "end": 2.938
+  },
+  {
+   "text": "bánh là năm mươi",
+   "start": 2.938,
+   "end": 3.955
+  },
+  {
+   "text": "miếng như thế.",
+   "start": 3.955,
+   "end": 4.77
+  }
+ ],
+ [
+  {
+   "text": "Tám trăm",
+   "start": 0.42,
+   "end": 0.882
+  },
+  {
+   "text": "nhân năm mươi,",
+   "start": 0.882,
+   "end": 1.735
+  },
+  {
+   "text": "được khoảng bốn mươi",
+   "start": 1.735,
+   "end": 3.239
+  },
+  {
+   "text": "nghìn cây số.",
+   "start": 3.239,
+   "end": 3.931
+  },
+  {
+   "text": "Đó là chiều",
+   "start": 3.931,
+   "end": 4.954
+  },
+  {
+   "text": "dài một vòng",
+   "start": 4.954,
+   "end": 5.647
+  },
+  {
+   "text": "quanh Trái Đất.",
+   "start": 5.647,
+   "end": 6.46
+  }
+ ],
+ [
+  {
+   "text": "Ngày nay vệ tinh",
+   "start": 0.36,
+   "end": 1.304
+  },
+  {
+   "text": "đo được hơn bốn",
+   "start": 1.304,
+   "end": 2.128
+  },
+  {
+   "text": "mươi nghìn cây số.",
+   "start": 2.128,
+   "end": 2.952
+  },
+  {
+   "text": "Ông chỉ lệch chưa",
+   "start": 2.952,
+   "end": 4.126
+  },
+  {
+   "text": "tới hai phần trăm.",
+   "start": 4.126,
+   "end": 5.07
+  }
+ ],
+ [
+  {
+   "text": "Thời đó người",
+   "start": 0.44,
+   "end": 1.082
+  },
+  {
+   "text": "ta đo bằng đơn",
+   "start": 1.082,
+   "end": 1.937
+  },
+  {
+   "text": "vị khác nên",
+   "start": 1.937,
+   "end": 2.939
+  },
+  {
+   "text": "đổi ra cây số",
+   "start": 2.939,
+   "end": 3.795
+  },
+  {
+   "text": "còn tranh cãi,",
+   "start": 3.795,
+   "end": 4.687
+  },
+  {
+   "text": "nhưng kết quả",
+   "start": 4.687,
+   "end": 5.328
+  },
+  {
+   "text": "vẫn rất gần.",
+   "start": 5.328,
+   "end": 6.09
+  }
+ ],
+ [
+  {
+   "text": "Cách nghĩ ấy còn",
+   "start": 0.47,
+   "end": 1.259
+  },
+  {
+   "text": "dùng đến nay.",
+   "start": 1.259,
+   "end": 1.97
+  }
+ ],
+ [
+  {
+   "text": "Người Pháp đo",
+   "start": 0.42,
+   "end": 0.992
+  },
+  {
+   "text": "một đoạn từ",
+   "start": 0.992,
+   "end": 1.565
+  },
+  {
+   "text": "Dunkerque tới Barcelona,",
+   "start": 1.565,
+   "end": 3.251
+  },
+  {
+   "text": "rồi tính ra cả",
+   "start": 3.251,
+   "end": 4.464
+  },
+  {
+   "text": "đường từ Bắc Cực",
+   "start": 4.464,
+   "end": 5.348
+  },
+  {
+   "text": "tới xích đạo.",
+   "start": 5.348,
+   "end": 6.21
+  }
+ ],
+ [
+  {
+   "text": "Một phần mười triệu",
+   "start": 0.41,
+   "end": 1.34
+  },
+  {
+   "text": "của đường ấy được",
+   "start": 1.34,
+   "end": 2.39
+  },
+  {
+   "text": "lấy làm một mét.",
+   "start": 2.39,
+   "end": 3.44
+  }
+ ],
+ [
+  {
+   "text": "Một cây gậy,",
+   "start": 0.26,
+   "end": 0.886
+  },
+  {
+   "text": "một cái bóng và",
+   "start": 0.886,
+   "end": 2.161
+  },
+  {
+   "text": "một phép chia.",
+   "start": 2.161,
+   "end": 2.788
+  },
+  {
+   "text": "Đó là cách",
+   "start": 2.788,
+   "end": 3.874
+  },
+  {
+   "text": "chúng ta biết.",
+   "start": 3.874,
+   "end": 4.62
+  }
+ ]
+]

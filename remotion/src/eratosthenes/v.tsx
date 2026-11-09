@@ -2,6 +2,7 @@ import React from 'react';
 import {Img, staticFile, useCurrentFrame} from 'remotion';
 import {C, clamp01, seg} from '../lib/theme';
 import {Defs} from '../thales/parts';
+import CAPS from './caps.json';
 
 // Bộ phận hình cho khổ dọc 1080x1920.
 export const VW = 1080;
@@ -56,34 +57,23 @@ export const splitWords = (text: string, max = 4): string[] => {
   return out;
 };
 
-/** Phụ đề ngắn: mỗi lần hiện tối đa 4 từ, chia thời gian theo số chữ trong giọng đọc (giọng bắt đầu sau 0,15 giây, kết thúc trước cuối nhịp khoảng 0,35 giây) */
+/** Phụ đề ngắn: mỗi lần hiện tối đa 4 từ, mốc từng cụm tính từ giọng đọc thật (scripts/tao_phu_de.py -> caps.json) */
 export const VCaptions: React.FC<{beats: {text: string; start: number; dur: number}[]}> = ({beats}) => {
   const f = useCurrentFrame();
-  const b = beats.find((x) => f >= x.start && f < x.start + x.dur);
+  const bi = beats.findIndex((x) => f >= x.start && f < x.start + x.dur);
+  const b = beats[bi];
   if (!b || !b.text) return null;
-  const chunks = splitWords(b.text);
-  const t0 = 5;
-  const t1 = Math.max(t0 + 10, b.dur - 10);
-  const tot = chunks.reduce((a, c) => a + c.length, 0);
-  let acc = 0;
-  let cur = '';
-  let cs = t0;
-  let ce = t1;
-  const local = f - b.start;
-  for (const c of chunks) {
-    const s0 = t0 + ((t1 - t0) * acc) / tot;
-    acc += c.length;
-    const s1 = t0 + ((t1 - t0) * acc) / tot;
-    if (local >= s0 - 0.01 || cur === '') {
-      cur = c;
-      cs = s0;
-      ce = s1;
-    }
-  }
-  if (local < t0 - 1 || local > t1 + 6) return null;
-  const o = Math.min(seg(local, cs - 1, cs + 3), 1 - seg(local, ce + 2, ce + 6));
+  const vi = beats.slice(0, bi).filter((x) => x.text).length;
+  const items = (CAPS as {text: string; start: number; end: number}[][])[vi];
+  if (!items) return null;
+  const t = (f - b.start) / 30;
+  const c = items.find((x) => t >= x.start && t < x.end);
+  if (!c) return null;
+  const last = c === items[items.length - 1];
+  const lf = f - b.start;
+  const o = Math.min(seg(lf, c.start * 30, c.start * 30 + 2), last ? 1 - seg(lf, c.end * 30 - 3, c.end * 30) : 1);
   return (
-    <div style={{position: 'absolute', left: 70, width: 940, top: 1330, height: 180, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: clamp01(o)}}>
+    <div style={{position: 'absolute', left: 70, width: 940, top: 1330, height: 180, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: clamp01(Math.max(o, 0.0))}}>
       <div
         style={{
           fontFamily: 'BeVN',
@@ -96,7 +86,7 @@ export const VCaptions: React.FC<{beats: {text: string; start: number; dur: numb
           paintOrder: 'stroke fill',
         }}
       >
-        {cur}
+        {c.text}
       </div>
     </div>
   );

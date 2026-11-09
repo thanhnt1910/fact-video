@@ -116,9 +116,9 @@ export function timeline(): {scenes: SceneTl[]; total: number; beats: Beat[]} {
   const scenes: SceneTl[] = ORDER.map((id) => {
     const texts = id === 'outro' ? [...TEXT_E[id], ''] : TEXT_E[id];
     const beats: Beat[] = texts.map((text) => {
-      // Có giọng đọc thật (Leda): nhịp = thời lượng giọng + 0,5 s, không ngắn hơn 93% ước tính để hoạt cảnh kịp chạy
+      // Có giọng đọc thật (Leda): nhịp = thời lượng giọng + 0,5 s
       let sec = text ? beatSeconds('vi', text) : END_E;
-      if (text && ledaDur[voiceIdx] !== undefined) sec = Math.max(ledaDur[voiceIdx] + 0.5, sec * 0.93);
+      if (text && ledaDur[voiceIdx] !== undefined) sec = Math.max(ledaDur[voiceIdx] + 0.5, 2.4);
       if (text) voiceIdx++;
       const dur = Math.round(sec * FPS);
       const b = {text, start: f, dur};

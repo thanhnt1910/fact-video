@@ -4,14 +4,14 @@ import {C} from '../lib/theme';
 import {Fonts} from '../lib/Fonts';
 import {SceneFade} from '../thales/Thales';
 import {LAB, SceneId, timeline} from './content';
-import {Calc, Clue, Compare, Hook, Idea, Modern, Outro, Problem, Sc} from './scenes';
+import {Calc, Clue, Compare, Hook, Modern, Orange, Outro, Problem, Sc} from './scenes';
 import {VBackground, VCaptions, VHud} from './v';
 
 const SCENES: Record<SceneId, React.FC<Sc>> = {
   hook: Hook,
   problem: Problem,
   clue: Clue,
-  idea: Idea,
+  orange: Orange,
   calc: Calc,
   compare: Compare,
   modern: Modern,

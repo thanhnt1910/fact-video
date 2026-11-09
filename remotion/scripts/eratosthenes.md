@@ -14,3 +14,10 @@ Người que, quả địa cầu, góc vẽ to hơn thật (có chú thích trê
 
 ## Cần chủ kênh duyệt
 Bản có giọng Leda (đọc từng câu, loudnorm -16 LUFS mỗi câu): nhịp mỗi câu = thời lượng giọng + 0,5 s, tổng 79,7 s. Không làm bản tiếng Anh cho video ngắn.
+
+
+## Cập nhật bản dựng lại (22 câu, giọng Leda)
+- Lời kể: `TEXT_E` trong `src/eratosthenes/content.ts` (22 câu đã duyệt: quả cam + hai que tăm, đèn pin, bánh 50 miếng).
+- Độ dài thật khoảng 127 giây (không phải 85 giây): nhịp mỗi câu = thời lượng giọng Leda + 0,5 giây (`leda_dur.json`).
+- Điều còn tranh cãi giữ trong lời kể: "người ta kể" (nguồn duy nhất là Cleomedes), độ dài stadion không chắc, 800 km x 50 làm tròn 40 000 km so với 39 375 km đổi theo cách phổ biến (lệch 1,6%).
+- Dựng: SFX `scripts/dump_sfx_era.ts` -> `scripts/sfx_thales.py`; render `Eratosthenes`; ghép 22 file `demo/era/leda/NN.wav` (loudnorm -16, trễ 0,15 giây sau đầu câu), SFX nhỏ 0,5.

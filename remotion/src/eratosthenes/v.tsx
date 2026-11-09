@@ -1,7 +1,7 @@
 import React from 'react';
 import {useCurrentFrame} from 'remotion';
 import {C, clamp01, seg} from '../lib/theme';
-import {Defs, FlameMark} from '../thales/parts';
+import {Defs} from '../thales/parts';
 
 // Bộ phận hình cho khổ dọc 1080x1920.
 export const VW = 1080;
@@ -35,9 +35,9 @@ export const VBackground: React.FC = () => (
 /** Logo góc trên bên phải */
 export const VHud: React.FC = () => (
   <div style={{position: 'absolute', right: 56, top: 52, display: 'flex', alignItems: 'center', gap: 12, opacity: 0.92}}>
-    <FlameMark width={30} />
-    <div style={{fontFamily: 'Cormorant', fontWeight: 600, fontSize: 46, lineHeight: 1, color: C.cream}}>
-      Proof<span style={{color: C.amber}}>wick</span>
+    <svg width={44} height={44} viewBox="0 0 44 44"><MagMark size={44} raw /></svg>
+    <div style={{fontFamily: 'BeVN', fontWeight: 800, fontSize: 34, lineHeight: 1, color: C.cream}}>
+      Người <span style={{color: C.amber}}>Giải Mã</span>
     </div>
   </div>
 );
@@ -154,3 +154,22 @@ export const Globe: React.FC<{cx: number; cy: number; r: number; p?: number}> = 
 };
 
 export const RAD = Math.PI / 180;
+
+/** Biểu tượng kính lúp của page Người Giải Mã. raw = chỉ vẽ phần hình, dùng trong svg có sẵn */
+export const MagMark: React.FC<{size?: number; raw?: boolean}> = ({size = 44, raw = false}) => {
+  const g = (
+    <g>
+      <circle cx={19} cy={19} r={13} fill="none" stroke={C.amber} strokeWidth={4.5} />
+      <circle cx={19} cy={19} r={9} fill={C.bg2} opacity={0.5} />
+      <line x1={29} y1={29} x2={40} y2={40} stroke={C.amberDeep} strokeWidth={6} strokeLinecap="round" />
+      <line x1={19} y1={26} x2={19} y2={13} stroke={C.cream} strokeWidth={2.5} strokeLinecap="round" />
+      <line x1={19} y1={26} x2={25} y2={26} stroke={C.amberDeep} strokeWidth={2.5} strokeLinecap="round" />
+    </g>
+  );
+  if (raw) return g;
+  return (
+    <svg width={size} height={size} viewBox="0 0 44 44">
+      {g}
+    </svg>
+  );
+};

@@ -539,177 +539,280 @@
  ],
  [
   {
-   "text": "*So* *hai* *lực* *ấy*,",
-   "start": 0.44,
-   "end": 1.219
-  },
-  {
-   "text": "biết quả chì",
-   "start": 1.219,
-   "end": 2.014
+   "text": "Muốn biết Trái Đất",
+   "start": 0.29,
+   "end": 1.17
   },
   {
    "text": "nặng bao nhiêu,",
-   "start": 2.014,
-   "end": 2.598
+   "start": 1.17,
+   "end": 1.83
   },
   {
-   "text": "nằm cách bao xa,",
-   "start": 2.598,
-   "end": 3.608
+   "text": "chỉ cần nhân *3*",
+   "start": 1.83,
+   "end": 2.96
   },
   {
-   "text": "và Trái Đất",
-   "start": 3.608,
-   "end": 4.392
-  },
-  {
-   "text": "to cỡ nào,",
-   "start": 4.392,
-   "end": 5.077
-  },
-  {
-   "text": "là tính ra",
-   "start": 5.077,
-   "end": 6.061
-  },
-  {
-   "text": "được *Trái* *Đất*",
-   "start": 6.061,
-   "end": 6.746
-  },
-  {
-   "text": "*nặng* *bao* *nhiêu*.",
-   "start": 6.746,
-   "end": 7.45
+   "text": "*con* *số* với nhau.",
+   "start": 2.96,
+   "end": 3.96
   }
  ],
  [
   {
-   "text": "Kết quả:",
-   "start": 0.47,
-   "end": 0.848
+   "text": "*1*:",
+   "start": 0.51,
+   "end": 1.461
   },
   {
-   "text": "Trái Đất nặng *gần*",
-   "start": 0.848,
-   "end": 1.873
+   "text": "quả chì",
+   "start": 1.461,
+   "end": 1.926
+  },
+  {
+   "text": "nặng *158* *ki-lô-gam*.",
+   "start": 1.926,
+   "end": 2.972
+  },
+  {
+   "text": "*2*:",
+   "start": 2.972,
+   "end": 4.154
+  },
+  {
+   "text": "Trái Đất kéo mạnh",
+   "start": 4.154,
+   "end": 5.494
+  },
+  {
+   "text": "hơn quả chì khoảng",
+   "start": 5.494,
+   "end": 6.424
+  },
+  {
+   "text": "*48* *triệu* *lần*.",
+   "start": 6.424,
+   "end": 7.68
+  }
+ ],
+ [
+  {
+   "text": "*3*:",
+   "start": 0.45,
+   "end": 0.796
+  },
+  {
+   "text": "tâm Trái Đất cách",
+   "start": 0.796,
+   "end": 1.81
+  },
+  {
+   "text": "quả cầu nhỏ hơn",
+   "start": 1.81,
+   "end": 2.734
+  },
+  {
+   "text": "*6* *000* *km*,",
+   "start": 2.734,
+   "end": 4.097
+  },
+  {
+   "text": "xa hơn quả chì",
+   "start": 4.097,
+   "end": 5.021
+  },
+  {
+   "text": "khoảng *28* *triệu* *lần*.",
+   "start": 5.021,
+   "end": 6.18
+  }
+ ],
+ [
+  {
+   "text": "Lực hút yếu",
+   "start": 0.35,
+   "end": 0.947
+  },
+  {
+   "text": "đi rất nhanh",
+   "start": 0.947,
+   "end": 1.545
+  },
+  {
+   "text": "khi ở xa:",
+   "start": 1.545,
+   "end": 2.482
+  },
+  {
+   "text": "*xa* *gấp* *đôi* *thì*",
+   "start": 2.482,
+   "end": 3.278
+  },
+  {
+   "text": "*yếu* *đi* *4* *lần*.",
+   "start": 3.278,
+   "end": 4.584
+  },
+  {
+   "text": "Vì vậy phải",
+   "start": 4.584,
+   "end": 5.181
+  },
+  {
+   "text": "nhân con số ấy",
+   "start": 5.181,
+   "end": 5.978
+  },
+  {
+   "text": "với chính nó,",
+   "start": 5.978,
+   "end": 6.835
+  },
+  {
+   "text": "ra khoảng",
+   "start": 6.835,
+   "end": 7.393
+  },
+  {
+   "text": "*800* *nghìn* *tỷ*.",
+   "start": 7.393,
+   "end": 8.21
+  }
+ ],
+ [
+  {
+   "text": "*158* × *48* *triệu*",
+   "start": 0.37,
+   "end": 2.351
+  },
+  {
+   "text": "× *800* *nghìn*",
+   "start": 2.351,
+   "end": 3.653
+  },
+  {
+   "text": "*tỷ* ≈ *6* *nghìn*",
+   "start": 3.653,
+   "end": 5.401
+  },
+  {
+   "text": "*tỷ* *tỷ* *tấn*.",
+   "start": 5.401,
+   "end": 6.23
+  }
+ ],
+ [
+  {
+   "text": "Đem chia cho thể",
+   "start": 0.5,
+   "end": 1.354
+  },
+  {
+   "text": "tích Trái Đất,",
+   "start": 1.354,
+   "end": 2.364
+  },
+  {
+   "text": "ra độ nặng *gần*",
+   "start": 2.364,
+   "end": 3.218
   },
   {
    "text": "*5,5* *lần* so",
-   "start": 1.873,
-   "end": 2.628
+   "start": 3.218,
+   "end": 4.396
   },
   {
    "text": "với một khối nước",
-   "start": 2.628,
-   "end": 3.524
+   "start": 4.396,
+   "end": 5.25
   },
   {
    "text": "cùng kích thước.",
-   "start": 3.524,
-   "end": 4.31
+   "start": 5.25,
+   "end": 6.15
   }
  ],
  [
   {
    "text": "Đá trên mặt đất",
-   "start": 0.42,
-   "end": 1.258
+   "start": 0.27,
+   "end": 1.268
   },
   {
    "text": "*nhẹ* *hơn* thế nhiều,",
-   "start": 1.258,
-   "end": 2.096
+   "start": 1.268,
+   "end": 2.116
   },
   {
    "text": "nên bên trong Trái",
-   "start": 2.096,
-   "end": 3.294
+   "start": 2.116,
+   "end": 3.314
   },
   {
    "text": "Đất phải có *thứ*",
-   "start": 3.294,
-   "end": 4.132
+   "start": 3.314,
+   "end": 4.262
   },
   {
    "text": "*gì* *đó* *rất* *nặng*.",
-   "start": 4.132,
-   "end": 5.09
+   "start": 4.262,
+   "end": 5.37
   }
  ],
  [
   {
-   "text": "Nhân lên cho",
-   "start": 0.47,
-   "end": 1.124
+   "text": "Số đo ngày nay",
+   "start": 0.34,
+   "end": 1.204
   },
   {
-   "text": "cả quả cầu,",
-   "start": 1.124,
-   "end": 1.779
+   "text": "chỉ lệch *chưa* *đến*",
+   "start": 1.204,
+   "end": 2.167
   },
   {
-   "text": "Trái Đất nặng",
-   "start": 1.779,
-   "end": 2.713
+   "text": "*1%* so với kết",
+   "start": 2.167,
+   "end": 3.151
   },
   {
-   "text": "khoảng *6* *nghìn*",
-   "start": 2.713,
-   "end": 3.586
-  },
-  {
-   "text": "*tỷ* *tỷ* *tấn*,",
-   "start": 3.586,
-   "end": 4.24
-  },
-  {
-   "text": "mà số đo",
-   "start": 4.24,
-   "end": 4.895
-  },
-  {
-   "text": "ngày nay chỉ lệch",
-   "start": 4.895,
-   "end": 5.877
-  },
-  {
-   "text": "*chưa* *đến* *1%*.",
-   "start": 5.877,
-   "end": 6.87
+   "text": "quả của *Cavendish*.",
+   "start": 3.151,
+   "end": 4.35
   }
  ],
  [
   {
    "text": "Chỉ với",
-   "start": 0.44,
-   "end": 0.885
+   "start": 0.32,
+   "end": 0.735
   },
   {
    "text": "*2* *quả* *chì*,",
-   "start": 0.885,
-   "end": 1.551
+   "start": 0.735,
+   "end": 1.359
   },
   {
    "text": "một sợi dây và",
-   "start": 1.551,
-   "end": 2.7
+   "start": 1.359,
+   "end": 2.68
   },
   {
    "text": "rất nhiều kiên nhẫn,",
-   "start": 2.7,
-   "end": 3.74
+   "start": 2.68,
+   "end": 3.51
   },
   {
    "text": "Cavendish đã *cân* *được*",
-   "start": 3.74,
-   "end": 5.403
+   "start": 3.51,
+   "end": 5.257
   },
   {
    "text": "*cả* *Trái* *Đất*.",
-   "start": 5.403,
-   "end": 6.31
+   "start": 5.257,
+   "end": 6.0
   }
  ]
 ]

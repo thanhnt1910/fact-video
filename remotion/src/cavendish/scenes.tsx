@@ -395,7 +395,7 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
       <rect x={BX[i]} y={330} width={BW} height={210} rx={22} fill={C.bg1} stroke={hl ? C.amber : C.cream} strokeWidth={hl ? 6 : 3} strokeOpacity={hl ? 1 : 0.5} />
       <Lab x={BX[i] + BW / 2} y={382} size={36} color={C.amber}>{'①②③'[i]}</Lab>
       <Big x={BX[i] + BW / 2} y={452} size={num.length > 9 ? 40 : 52} color={C.cream}>{num}</Big>
-      <Lab x={BX[i] + BW / 2} y={510} size={26} color={D}>{name}</Lab>
+      <Lab x={BX[i] + BW / 2} y={510} size={24} color={D}>{name}</Lab>
     </g>
   );
   const dist = (p: number) => (
@@ -404,11 +404,11 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
       <Ball x={420} y={900} r={34} />
       <line x1={262} y1={1010} x2={386} y2={1010} stroke={C.amber} strokeWidth={6} />
       <Lab x={324} y={1060} size={30} color={C.amber}>{t.dNear}</Lab>
-      <circle cx={760} cy={2300} r={1300} fill="url(#globeG)" stroke={C.cream} strokeWidth={5} />
+      <circle cx={760} cy={2520} r={1300} fill="url(#globeG)" stroke={C.cream} strokeWidth={5} />
       <Ball x={760} y={900} r={34} />
-      <line x1={760} y1={950} x2={760} y2={1000} stroke={C.cream} strokeWidth={5} strokeDasharray="10 12" />
+      <line x1={760} y1={950} x2={760} y2={1020} stroke={C.cream} strokeWidth={5} strokeDasharray="10 12" />
       <Lab x={760} y={1060} size={30} color={C.cream}>{t.dFar}</Lab>
-      <Lab x={540} y={1180} size={40} color={C.amber}>{t.d28}</Lab>
+      <Lab x={540} y={1150} size={40} color={C.amber}>{t.d28}</Lab>
     </g>
   );
   return (
@@ -431,8 +431,8 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
         {box(0, t.n1, t.nm1, sp(f, k1 + 10, k1 + 26), f >= k2 && f < k3)}
         {box(1, t.n2, t.nm2, sp(f, k1 + 22, k1 + 38), f >= k2 && f < k3)}
         {box(2, f >= k4 ? t.n3b : f >= k3 ? t.n3a : '?', t.nm3, sp(f, k1 + 34, k1 + 50), f >= k3 && f < k5)}
-        <Big x={365} y={455} size={48} color={C.amber} o={sp(f, k1 + 22, k1 + 38)}>×</Big>
-        <Big x={715} y={455} size={48} color={C.amber} o={sp(f, k1 + 34, k1 + 50)}>×</Big>
+        <Big x={365} y={462} size={72} color={C.amber} o={sp(f, k1 + 22, k1 + 38)}>×</Big>
+        <Big x={715} y={462} size={72} color={C.amber} o={sp(f, k1 + 34, k1 + 50)}>×</Big>
       </g>
       {/* 21: quả chì và lực mạnh hơn 48 triệu lần */}
       <g opacity={i2}>
@@ -442,7 +442,7 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
         <Lab x={660} y={780} size={28} color={C.amber}>{t.fLead}</Lab>
         <Arrow x1={620} y1={960} x2={1000} y2={960} color={C.cream} w={22} p={sp(f, k2 + 40, k2 + 80)} />
         <Lab x={810} y={920} size={28} color={C.cream}>{t.fEarth2}</Lab>
-        <Big x={810} y={1070} size={60} color={C.amber} o={sp(f, k2 + 70, k2 + 100)}>{t.m48}</Big>
+        <Big x={760} y={1070} size={40} color={C.amber} o={sp(f, k2 + 70, k2 + 100)}>{t.m48}</Big>
       </g>
       {/* 22: khoảng cách */}
       {dist(i3 * 1)}

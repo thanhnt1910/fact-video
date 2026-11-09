@@ -1,0 +1,62 @@
+{
+ "ts1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/T%C3%AAte_de_la_statue_colossale_de_la_Libert%C3%A9%2C_dans_le_parc_du_Champ-de-Mars.jpg/1920px-T%C3%AAte_de_la_statue_colossale_de_la_Libert%C3%A9%2C_dans_le_parc_du_Champ-de-Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Tête de la statue colossale de la Liberté, dans le parc du Champ-de-Mars.jpg\" – Despres, Jules (creator)\nHauger, A. (creator), Public domain (https://commons.wikimedia.org/wiki/File:T%C3%AAte_de_la_statue_colossale_de_la_Libert%C3%A9,_dans_le_parc_du_Champ-de-Mars.jpg)"
+ },
+ "ts2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Fr%C3%A9d%C3%A9ric-Auguste_Bartholdi_by_Benjamin_Joseph_Falk%2C_1876%2C_albumen_silver_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_80_205Bartholdi-000001.jpg/1920px-Fr%C3%A9d%C3%A9ric-Auguste_Bartholdi_by_Benjamin_Joseph_Falk%2C_1876%2C_albumen_silver_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_80_205Bartholdi-000001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Frédéric-Auguste Bartholdi by Benjamin Joseph Falk, 1876, albumen silver print, from the National Portrait Gallery - NPG-NPG 80 205Bartholdi-000001.jpg\" – Benjamin Joseph Falk, Public domain (https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric-Auguste_Bartholdi_by_Benjamin_Joseph_Falk,_1876,_albumen_silver_print,_from_the_National_Portrait_Gallery_-_NPG-NPG_80_205Bartholdi-000001.jpg)"
+ },
+ "ts3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/A_Bartholdi_photo_autoportrait_et_Jean-L%C3%A9on_G%C3%A9rome%2C_vers_1855.jpg/1920px-A_Bartholdi_photo_autoportrait_et_Jean-L%C3%A9on_G%C3%A9rome%2C_vers_1855.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"A Bartholdi photo autoportrait et Jean-Léon Gérome, vers 1855.jpg\" – Frédéric Auguste Bartholdi, Public domain (https://commons.wikimedia.org/wiki/File:A_Bartholdi_photo_autoportrait_et_Jean-L%C3%A9on_G%C3%A9rome,_vers_1855.jpg)"
+ },
+ "ts4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Statue_of_Liberty._Framework._Elevations_LCCN2010649598.jpg/1920px-Statue_of_Liberty._Framework._Elevations_LCCN2010649598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Statue of Liberty. Framework. Elevations LCCN2010649598.jpg\" – Eiffel, Gustave, 1832-1923, engineer; Hunt, Richard Morris, 1828-1895., Public domain (https://commons.wikimedia.org/wiki/File:Statue_of_Liberty._Framework._Elevations_LCCN2010649598.jpg)"
+ },
+ "ts5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gustave_Eiffel%2C_1832-1923_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Gustave Eiffel, 1832-1923 (cropped).jpg\" – Herbert Photos, Inc./ Archival by La Presse, Public domain (https://commons.wikimedia.org/wiki/File:Gustave_Eiffel,_1832-1923_(cropped).jpg)"
+ },
+ "ts7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/HARPER%27S_WEEKLY-NewYork_6_June_1885.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"HARPER'S WEEKLY-NewYork 6 June 1885.jpg\" – không rõ tác giả, Public domain (https://commons.wikimedia.org/wiki/File:HARPER%27S_WEEKLY-NewYork_6_June_1885.jpg)"
+ },
+ "ts8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Statue_of_Liberty%2C_Pedestal_Project%2C_Bartholdi%2C_c._1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Statue of Liberty, Pedestal Project, Bartholdi, c. 1880.jpg\" – Frédéric Auguste Bartholdi (2 August 1834 - 4 October 1904), Public domain (https://commons.wikimedia.org/wiki/File:Statue_of_Liberty,_Pedestal_Project,_Bartholdi,_c._1880.jpg)"
+ },
+ "ts9": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Charles_R._Miller_-_Joseph_Pulitzer_-_Albert_Pulitzer_-_The_Hon._Proctor_Knott_-_The_Rev._E.F._Hatfield%2C_D.D._-_Alexander_Sullivan_LCCN2018645906.jpg/1920px-Charles_R._Miller_-_Joseph_Pulitzer_-_Albert_Pulitzer_-_The_Hon._Proctor_Knott_-_The_Rev._E.F._Hatfield%2C_D.D._-_Alexander_Sullivan_LCCN2018645906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Charles R. Miller - Joseph Pulitzer - Albert Pulitzer - The Hon. Proctor Knott - The Rev. E.F. Hatfield, D.D. - Alexander Sullivan LCCN2018645906.jpg\" – Miscellaneous Items in High Demand, PPOC, Library of Congress, Public domain (https://commons.wikimedia.org/wiki/File:Charles_R._Miller_-_Joseph_Pulitzer_-_Albert_Pulitzer_-_The_Hon._Proctor_Knott_-_The_Rev._E.F._Hatfield,_D.D._-_Alexander_Sullivan_LCCN2018645906.jpg)"
+ },
+ "ts10": {
+  "slot": "S10",
+  "so": 10,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Detail_of_metal_lattice_framework_supporting_sides_of_copper_base._February_1984._-_Statue_of_Liberty%2C_Liberty_Island%2C_Manhattan%2C_New_York%2C_New_York_County%2C_NY_HAER_NY%2C31-NEYO%2C89-89.tif/lossy-page1-1920px-thumbnail.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Detail of metal lattice framework supporting sides of copper base. February 1984. - Statue of Liberty, Liberty Island, Manhattan, New York, New York County, NY HAER NY,31-NEYO,89-89.tif\" – Lowe, Jet\nRelated names:\n\nEiffel, Gustav\nBartholdi, Frederic Auguste\nHunt, Richard Morris\nBoucher, Jack E, photographer\nDePalo, Frank, photographer\nBuerglener, Robert, historian\nJandoli, Liz, transmitter\nLockett, Dana, project manager\nChristianson, Justine, transmitter\nLockett, Dana, project manager, Public domain (https://commons.wikimedia.org/wiki/File:Detail_of_metal_lattice_framework_supporting_sides_of_copper_base._February_1984._-_Statue_of_Liberty,_Liberty_Island,_Manhattan,_New_York,_New_York_County,_NY_HAER_NY,31-NEYO,89-89.tif)"
+ },
+ "ts11": {
+  "slot": "S11",
+  "so": 11,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/18861028_Liberty%27s_Statue_%28Bartholdi%29_-_New_York_Evening_Post_%28full_page%29.jpg/1920px-18861028_Liberty%27s_Statue_%28Bartholdi%29_-_New_York_Evening_Post_%28full_page%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"18861028 Liberty's Statue (Bartholdi) - New York Evening Post (full page).jpg\" – The Evening Post (New York) newspaper, Public domain (https://commons.wikimedia.org/wiki/File:18861028_Liberty%27s_Statue_(Bartholdi)_-_New_York_Evening_Post_(full_page).jpg)"
+ }
+}

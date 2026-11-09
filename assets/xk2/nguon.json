@@ -1,0 +1,50 @@
+{
+ "ds1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Currency_symbols%2C_Euro%2C_Riyal%2C_Dollar%2C_Yuan%2C_Yen%2C_Pound%2C_Ruble%2C_Won.jpg/1920px-Currency_symbols%2C_Euro%2C_Riyal%2C_Dollar%2C_Yuan%2C_Yen%2C_Pound%2C_Ruble%2C_Won.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Currency symbols, Euro, Riyal, Dollar, Yuan, Yen, Pound, Ruble, Won.jpg\" – ARABCREATOR7, CC0 (https://commons.wikimedia.org/wiki/File:Currency_symbols,_Euro,_Riyal,_Dollar,_Yuan,_Yen,_Pound,_Ruble,_Won.jpg)"
+ },
+ "ds3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/3_Spanish_Milled_Dollars_-_Georgia_%281777%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"3 Spanish Milled Dollars - Georgia (1777).jpg\" – The Kingdom of Great-Britain, Public domain (https://commons.wikimedia.org/wiki/File:3_Spanish_Milled_Dollars_-_Georgia_(1777).jpg)"
+ },
+ "ds4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/PSM_V81_D533_Symbols_of_the_spanish_dollar.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"PSM V81 D533 Symbols of the spanish dollar.png\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:PSM_V81_D533_Symbols_of_the_spanish_dollar.png)"
+ },
+ "ds5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/1765_8_reales_obv_-_GDJMSP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"1765 8 reales obv - GDJMSP.jpg\" – GDJMSP - Numismatist (person who scanned it). \n\nPer post: \"GDJMSP - Numismatist - Moderator. - As was said we've discussed this before. Yes, most people have better luck with a camera than a scanner. But if you know a few easy tricks a scanner can surprise you. These pics were done with a scanner - color, detail, depth of field - it's all there. That said, yes, if I use my Nikon I can take pics even better than this. But my point is, these are pretty good.\" (Cited from: https://www.cointalk.com/threads/scanner-vs-digital-camera.33789/)., Public domain (https://commons.wikimedia.org/wiki/File:1765_8_reales_obv_-_GDJMSP.jpg)"
+ },
+ "ds6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Columnas_de_H%C3%A9rcules_%28siglo_XVI%29.jpg/1920px-Columnas_de_H%C3%A9rcules_%28siglo_XVI%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Columnas de Hércules (siglo XVI).jpg\" – CarlosVdeHabsburgo, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Columnas_de_H%C3%A9rcules_(siglo_XVI).jpg)"
+ },
+ "ds7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/1776_one-sixth_of_dollar_Continental_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"1776 one-sixth of dollar Continental Congress.jpg\" – Hispalois, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:1776_one-sixth_of_dollar_Continental_Congress.jpg)"
+ },
+ "ds8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Joachimsthaler_%2819774165530%29.jpg/1920px-Joachimsthaler_%2819774165530%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Joachimsthaler (19774165530).jpg\" – NTNU Vitenskapsmuseet, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Joachimsthaler_(19774165530).jpg)"
+ },
+ "ds10": {
+  "slot": "S10",
+  "so": 10,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/A._F._Hauck%2C_H._Hauck_%281861%29%2C_M%C3%BCnzen_und_Papiergeld.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"A. F. Hauck, H. Hauck (1861), Münzen und Papiergeld.png\" – A. F. Hauck, H. Hauck, Public domain (https://commons.wikimedia.org/wiki/File:A._F._Hauck,_H._Hauck_(1861),_M%C3%BCnzen_und_Papiergeld.png)"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "rs1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Fort_Julien_with_an_Egyptian_Boat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Fort Julien with an Egyptian Boat (cropped).jpg\" – After Francis Brockell Spilsbury, Public domain (https://commons.wikimedia.org/wiki/File:Fort_Julien_with_an_Egyptian_Boat_(cropped).jpg)"
+ },
+ "rs2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Citadel_of_Qaitbay%2C_Rosetta%2C_Egypt_06.jpg/1920px-Citadel_of_Qaitbay%2C_Rosetta%2C_Egypt_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Citadel of Qaitbay, Rosetta, Egypt 06.jpg\" – لا روسا, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Citadel_of_Qaitbay,_Rosetta,_Egypt_06.jpg)"
+ },
+ "rs3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Rosetta_Stone_-_front_face_-_corrected_image.jpg/1920px-Rosetta_Stone_-_front_face_-_corrected_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Rosetta Stone - front face - corrected image.jpg\" – Awikimate, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Rosetta_Stone_-_front_face_-_corrected_image.jpg)"
+ },
+ "rs4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Detail_of_Rosetta_Stone.JPG/1920px-Detail_of_Rosetta_Stone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Detail of Rosetta Stone.JPG\" – ProtoplasmaKid, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Detail_of_Rosetta_Stone.JPG)"
+ },
+ "rs5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Rosetta_Stone_%2815864563804%29.jpg/1920px-Rosetta_Stone_%2815864563804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Rosetta Stone (15864563804).jpg\" – Gary Todd from Xinzheng, China, CC0 (https://commons.wikimedia.org/wiki/File:Rosetta_Stone_(15864563804).jpg)"
+ },
+ "rs6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Champollion_-_Panth%C3%A9on_%C3%A9gyptien%2C_1823_%28page_277_crop%29.jpg/1920px-Champollion_-_Panth%C3%A9on_%C3%A9gyptien%2C_1823_%28page_277_crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Champollion - Panthéon égyptien, 1823 (page 277 crop).jpg\" – Léon-Jean-Joseph Dubois, Public domain (https://commons.wikimedia.org/wiki/File:Champollion_-_Panth%C3%A9on_%C3%A9gyptien,_1823_(page_277_crop).jpg)"
+ },
+ "rs7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Estampage_de_la_Pierre_de_Rosette_%28Mus%C3%A9e_Champollion%29.jpg/1920px-Estampage_de_la_Pierre_de_Rosette_%28Mus%C3%A9e_Champollion%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Estampage de la Pierre de Rosette (Musée Champollion).jpg\" – Julien Peytard, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Estampage_de_la_Pierre_de_Rosette_(Mus%C3%A9e_Champollion).jpg)"
+ },
+ "rs10": {
+  "slot": "S10",
+  "so": 10,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/London_-_British_Museum_-_Rosetta_Stone.jpg/1920px-London_-_British_Museum_-_Rosetta_Stone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"London - British Museum - Rosetta Stone.jpg\" – Txllxt TxllxT, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:London_-_British_Museum_-_Rosetta_Stone.jpg)"
+ },
+ "rs11": {
+  "slot": "S11",
+  "so": 11,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/LetterByThomasYoungToWilliamBankes-1818.jpg/1920px-LetterByThomasYoungToWilliamBankes-1818.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"LetterByThomasYoungToWilliamBankes-1818.jpg\" – Captmondo, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:LetterByThomasYoungToWilliamBankes-1818.jpg)"
+ },
+ "rs12": {
+  "slot": "S12",
+  "so": 12,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bureau_de_J.F._Champollion_-_Mus%C3%A9e_Champollion.jpg/1920px-Bureau_de_J.F._Champollion_-_Mus%C3%A9e_Champollion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Bureau de J.F. Champollion - Musée Champollion.jpg\" – Milky, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Bureau_de_J.F._Champollion_-_Mus%C3%A9e_Champollion.jpg)"
+ },
+ "rs13": {
+  "slot": "S13",
+  "so": 13,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Jean-Fran%C3%A7ois_Champollion_-_Lettre_%C3%A0_M._Dacier_relative_%C3%A0_l%27alphabet_des_hi%C3%A9roglyphes_phon%C3%A9tiques%2C_p.54.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Jean-François Champollion - Lettre à M. Dacier relative à l'alphabet des hiéroglyphes phonétiques, p.54.jpg\" – Jean-François Champollion, Public domain (https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Champollion_-_Lettre_%C3%A0_M._Dacier_relative_%C3%A0_l%27alphabet_des_hi%C3%A9roglyphes_phon%C3%A9tiques,_p.54.jpg)"
+ }
+}

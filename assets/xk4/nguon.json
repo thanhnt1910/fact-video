@@ -1,0 +1,38 @@
+{
+ "hd1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ho_dynasty%27s_citadel%2C_Vietnam.jpg/1920px-Ho_dynasty%27s_citadel%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Ho dynasty's citadel, Vietnam.jpg\" – Loi Nguyen Duc, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Ho_dynasty%27s_citadel,_Vietnam.jpg)"
+ },
+ "hd2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/C%E1%BB%95ng_Nam.jpg/1920px-C%E1%BB%95ng_Nam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Cổng Nam.jpg\" – Cổng Nam Thành Nhà Hồ, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_Nam.jpg)"
+ },
+ "hd3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/C%E1%BB%95ng_B%E1%BA%AFc_th%C3%A0nh_nh%C3%A0_H%E1%BB%93_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Cổng Bắc thành nhà Hồ .jpg\" – Gieng Cung, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_B%E1%BA%AFc_th%C3%A0nh_nh%C3%A0_H%E1%BB%93_.jpg)"
+ },
+ "hd4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%E7%A5%9E%E5%99%A8%E8%AD%9C_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"神器譜 25.jpg\" – 趙士楨 (1553－1611), Public domain (https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E5%99%A8%E8%AD%9C_25.jpg)"
+ },
+ "hd7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Ming_tiller_gun_1505.jpg/1920px-Ming_tiller_gun_1505.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Ming tiller gun 1505.jpg\" – Flickr user Gary Todd, CC0 (https://commons.wikimedia.org/wiki/File:Ming_tiller_gun_1505.jpg)"
+ },
+ "hd9": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/San_yan_chong%2C_%22Three_Eyed_Gun%22_of_the_Ming_dynasty%2C_Nanshan_Museum.jpg/1920px-San_yan_chong%2C_%22Three_Eyed_Gun%22_of_the_Ming_dynasty%2C_Nanshan_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"San yan chong, \"Three Eyed Gun\" of the Ming dynasty, Nanshan Museum.jpg\" – Underbar dk, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:San_yan_chong,_%22Three_Eyed_Gun%22_of_the_Ming_dynasty,_Nanshan_Museum.jpg)"
+ }
+}

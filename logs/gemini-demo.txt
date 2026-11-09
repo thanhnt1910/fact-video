@@ -1,30 +1,15 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Cân một quả táo thì dễ. Nhưng làm sao *cân được cả
-OK Leda 02: Không có chiếc cân nào *đủ lớn*, và cũng không ai 
-OK Leda 03: Năm *1774*, nhà thiên văn *Nevil Maskelyne* mang m
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 04: Dây dọi là sợi dây treo *một quả nặng* ở đầu, nên 
-OK Leda 05: Ngọn núi đứng bên cạnh *cũng hút* quả nặng, nên sợ
-OK Leda 06: So *lực hút của núi* với *lực hút của cả Trái Đất*
-OK Leda 07: Nhưng *không ai biết* bên trong núi là loại đá nào
-OK Leda 08: Kết quả ra *thấp hơn thật* khoảng *1/5.*
-OK Leda 09: Cách tốt hơn là *mang ngọn núi vào trong phòng*, b
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Ý tưởng này của mục sư *John Michell*, nhưng ông *
-OK Leda 11: Người làm tiếp là *Henry Cavendish*, một nhà khoa 
-OK Leda 12: Ông treo một *thanh gỗ dài* bằng sợi dây mảnh, *2 
-OK Leda 13: Rồi ông đặt gần chúng *2 quả cầu chì lớn*, mỗi quả
-OK Leda 14: Quả lớn *kéo* quả nhỏ về phía mình, làm *thanh gỗ 
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Leda 20: Muốn biết Trái Đất nặng bao nhiêu, chỉ cần nhân *3
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 15: Lực kéo ấy nhỏ hơn sức nặng của chính quả cầu nhỏ 
-OK Leda 16: Chỉ cần *một luồng gió*, hay *một bên hộp ấm hơn* 
-OK Leda 17: Vì vậy Cavendish *nhốt* cả thiết bị trong *một căn
-OK Leda 18: Ông kéo dây để *đổi chỗ* quả cầu lớn sang bên kia,
+OK Leda 21: *1:* quả chì nặng *158 ki-lô-gam.* *2:* Trái Đất k
+OK Leda 22: *3:* tâm Trái Đất cách quả cầu nhỏ hơn *6 000 km*,
+OK Leda 23: Lực hút yếu đi rất nhanh khi ở xa: *xa gấp đôi thì
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Cùng một quả cầu nhỏ, một bên bị *Trái Đất kéo xuố
-OK Leda 20: *So hai lực ấy*, biết quả chì nặng bao nhiêu, nằm 
-OK Leda 21: Kết quả: Trái Đất nặng *gần 5,5 lần* so với một kh
-OK Leda 22: Đá trên mặt đất *nhẹ hơn* thế nhiều, nên bên trong
-OK Leda 23: Nhân lên cho cả quả cầu, Trái Đất nặng khoảng *6 n
+OK Leda 24: *158* × *48 triệu* × *800 nghìn tỷ* ≈ *6 nghìn tỷ 
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 24: Chỉ với *2 quả chì*, một sợi dây và rất nhiều kiên
+OK Leda 25: Đem chia cho thể tích Trái Đất, ra độ nặng *gần 5,
+OK Leda 26: Đá trên mặt đất *nhẹ hơn* thế nhiều, nên bên trong
+OK Leda 27: Số đo ngày nay chỉ lệch *chưa đến 1%* so với kết q
+OK Leda 28: Chỉ với *2 quả chì*, một sợi dây và rất nhiều kiên

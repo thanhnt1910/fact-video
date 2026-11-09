@@ -72,16 +72,17 @@ AVATAR = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" 
 COVER = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="624" viewBox="0 0 1640 624">{DEFS}
 <rect width="1640" height="624" fill="url(#bg)"/><rect width="1640" height="624" fill="url(#grid)"/>
 <rect x="18" y="18" width="1604" height="588" rx="10" fill="none" stroke="{CREAM}" stroke-width="2" opacity=".14"/>
-<g opacity=".9">
- <line x1="1330" y1="470" x2="1610" y2="470" stroke="{CREAM}" stroke-width="3" opacity=".45"/>
- {sun(1380, 130, 22)}
- <line x1="1380" y1="130" x2="1520" y2="470" stroke="{AMBER}" stroke-width="3" stroke-dasharray="12 10" opacity=".5"/>
- <line x1="1544" y1="470" x2="1600" y2="470" stroke="{DEEP}" stroke-width="12" stroke-linecap="round"/>
- {hero(1520, 470, 2.3)}
+<!-- Vùng an toàn: điện thoại chỉ hiện giữa ảnh (x 265..1375); avatar che nửa dưới bên trái (x<750, y>205) -->
+<text x="820" y="112" text-anchor="middle" font-family="BeVN" font-weight="800" font-size="92" fill="{CREAM}" stroke="{BG2}" stroke-width="7" paint-order="stroke">Người <tspan fill="{AMBER}">Giải Mã</tspan></text>
+<line x1="600" y1="138" x2="1040" y2="138" stroke="{AMBER}" stroke-width="4" opacity=".7"/>
+<text x="820" y="184" text-anchor="middle" font-family="Lora" font-style="italic" font-weight="500" font-size="34" fill="{CREAM}">Mỗi điều ta biết đều từng có người đi tìm ra.</text>
+<g opacity=".95">
+ <line x1="800" y1="580" x2="1380" y2="580" stroke="{CREAM}" stroke-width="3" opacity=".45"/>
+ {sun(940, 300, 20)}
+ <line x1="940" y1="300" x2="1328" y2="580" stroke="{AMBER}" stroke-width="3" stroke-dasharray="12 10" opacity=".5"/>
+ <line x1="1070" y1="580" x2="1328" y2="580" stroke="{DEEP}" stroke-width="12" stroke-linecap="round"/>
+ {hero(1020, 580, 2.1)}
 </g>
-<text x="520" y="290" font-family="BeVN" font-weight="800" font-size="96" fill="{CREAM}" stroke="{BG2}" stroke-width="7" paint-order="stroke">Người <tspan fill="{AMBER}">Giải Mã</tspan></text>
-<line x1="524" y1="326" x2="1000" y2="326" stroke="{AMBER}" stroke-width="4" opacity=".7"/>
-<text x="522" y="390" font-family="Lora" font-style="italic" font-weight="500" font-size="36" fill="{CREAM}">Mỗi điều ta biết đều từng có người đi tìm ra.</text>
 </svg>'''
 
 with sync_playwright() as p:

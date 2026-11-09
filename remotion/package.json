@@ -1,0 +1,19 @@
+{
+  "name": "fact-video-remotion",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:demo": "remotion render src/index.ts DemoBanDo out/demo.mp4"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "@types/react": "^18.3.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.541",
+    "typescript": "^7.0.2"
+  }
+}

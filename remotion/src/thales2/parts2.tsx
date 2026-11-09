@@ -19,9 +19,9 @@ const ROBE_D = '#b9955f';
 const BROWN = '#6b4a32';
 
 /** Thales: áo choàng Hy Lạp, râu bạc, mũ rộng vành, sandal. Thiết kế trên khung cao 80, phóng theo WALKER_H. */
-export const Walker: React.FC<{x: number; dir?: 1 | -1; walking?: boolean; p?: number; staff?: boolean; shadowLen?: number}> = ({x, dir = -1, walking = false, p = 1, staff = false, shadowLen = 0}) => {
+export const Walker: React.FC<{x: number; dir?: 1 | -1; walking?: boolean; p?: number; staff?: boolean; shadowLen?: number; robe?: string; size?: number; noShadow?: boolean; hat?: boolean; speed?: number}> = ({x, dir = -1, walking = false, p = 1, staff = false, shadowLen = 0, robe = ROBE, size = WALKER_H, noShadow = false, hat = true, speed = 1}) => {
   const f = useCurrentFrame();
-  const ph = walking ? f * 0.34 : 0;
+  const ph = walking ? f * 0.34 * speed : 0;
   const top = GY - 80;
   const bob = walking ? -Math.abs(Math.sin(ph)) * 1.8 : 0;
   const sway = walking ? Math.sin(ph) * 3 : 0;
@@ -35,8 +35,8 @@ export const Walker: React.FC<{x: number; dir?: 1 | -1; walking?: boolean; p?: n
   return (
     <g opacity={clamp01(p * 2)}>
       {shadowLen > 0 && <line x1={x} y1={GY} x2={x + shadowLen} y2={GY} stroke={C.amber} strokeWidth={14} opacity={0.9} />}
-      <g transform={`translate(${x} ${GY}) scale(${WALKER_H / 80}) translate(${-x} ${-GY})`}>
-        <ellipse cx={x} cy={GY} rx={22} ry={3.2} fill="#000" opacity={0.28} />
+      <g transform={`translate(${x} ${GY}) scale(${size / 80}) translate(${-x} ${-GY})`}>
+        {!noShadow && <ellipse cx={x} cy={GY} rx={22} ry={3.2} fill="#000" opacity={0.28} />}
         <g transform={`translate(0 ${bob})`} strokeLinecap="round" strokeLinejoin="round">
           {staff && (
             <g>
@@ -45,25 +45,27 @@ export const Walker: React.FC<{x: number; dir?: 1 | -1; walking?: boolean; p?: n
             </g>
           )}
           <line x1={x} y1={top + 32} x2={backHand.x} y2={backHand.y} stroke={ROBE_D} strokeWidth={7} />
-          <circle cx={backHand.x} cy={backHand.y} r={3.4} fill={SKIN} />
+          <circle cx={backHand.x} cy={backHand.y} r={3.4} fill="#a8683f" />
           {[sh2, sh1].map((s, i) => (
             <g key={i}>
-              <line x1={x} y1={GY - 14} x2={x + dir * s * stride} y2={GY - lift(s)} stroke={SKIN} strokeWidth={5} />
+              <line x1={x} y1={GY - 14} x2={x + dir * s * stride} y2={GY - lift(s)} stroke="#a8683f" strokeWidth={5} />
               <ellipse cx={x + dir * s * stride + dir * 2} cy={GY - lift(s) + 0.5} rx={5.5} ry={2.4} fill={BROWN} />
             </g>
           ))}
-          <path d={`M${x - 11} ${top + 25} Q${x - 15} ${top + 50} ${x - 18 + sway * 0.5} ${GY - 11} L${x + 18 + sway * 0.5} ${GY - 11} Q${x + 15} ${top + 50} ${x + 11} ${top + 25} Z`} fill={ROBE} stroke="#fff3d6" strokeWidth={1.6} />
-          <path d={`M${x + dir * 2} ${top + 26} Q${x + dir * 12} ${top + 50} ${x + dir * 16 + sway * 0.4} ${GY - 11} L${x + 18 + sway * 0.5} ${GY - 11} Q${x + 15} ${top + 50} ${x + 11} ${top + 25} Z`} fill={ROBE_D} opacity={0.38} />
-          <path d={`M${x - 11} ${top + 27} L${x + 12} ${top + 58}`} stroke={C.amberDeep} strokeWidth={5} opacity={0.9} />
-          <line x1={x - 12} y1={top + 56} x2={x + 12} y2={top + 56} stroke={C.amberDeep} strokeWidth={2.5} opacity={0.8} />
-          <line x1={x} y1={top + 31} x2={frontHand.x} y2={frontHand.y} stroke={ROBE} strokeWidth={7.5} />
-          <circle cx={frontHand.x} cy={frontHand.y} r={3.6} fill={SKIN} />
-          <rect x={x - 3} y={top + 19} width={6} height={8} fill={SKIN} />
-          <path d={`M${x - 8.5} ${top + 14} Q${x} ${top + 40} ${x + 8.5} ${top + 14} Z`} fill="#efe7d6" />
-          <circle cx={x} cy={top + 12} r={9.5} fill={SKIN} />
-          <circle cx={x + dir * 4} cy={top + 10.5} r={1.5} fill="#2b1a10" />
-          <ellipse cx={x} cy={top + 5} rx={17} ry={3.6} fill="#c68a3c" stroke="#ffd98a" strokeWidth={1} />
-          <path d={`M${x - 9} ${top + 5} Q${x} ${top - 12} ${x + 9} ${top + 5} Z`} fill="#dba24c" stroke="#ffd98a" strokeWidth={1} />
+          <path d={`M${x - 11} ${top + 24} Q${x - 15} ${top + 50} ${x - 17 + sway * 0.5} ${GY - 11} L${x + 17 + sway * 0.5} ${GY - 11} Q${x + 15} ${top + 50} ${x + 11} ${top + 24} Z`} fill={robe} stroke="#fff3d6" strokeWidth={1.5} strokeLinejoin="round" />
+          <path d={`M${x + dir * 3} ${top + 26} Q${x + dir * 11} ${top + 50} ${x + dir * 15 + sway * 0.4} ${GY - 11} L${x + 17 + sway * 0.5} ${GY - 11} Q${x + 15} ${top + 50} ${x + 11} ${top + 24} Z`} fill={ROBE_D} opacity={0.3} />
+          <path d={`M${x - 12} ${top + 50} L${x + 12} ${top + 50}`} stroke={C.amberDeep} strokeWidth={4.5} />
+          <line x1={x} y1={top + 31} x2={frontHand.x} y2={frontHand.y} stroke={robe} strokeWidth={7.5} />
+          <circle cx={frontHand.x} cy={frontHand.y} r={3.6} fill="#a8683f" />
+          <circle cx={x} cy={top + 15} r={8.4} fill="#a8683f" />
+          <circle cx={x + dir * 3.6} cy={top + 14} r={1.3} fill="#2b1a10" />
+          {hat && (
+            <g>
+              <ellipse cx={x} cy={top + 6} rx={10.5} ry={6.4} fill="#f6ead0" stroke="#d8c49a" strokeWidth={1.1} />
+              <path d={`M${x - dir * 8} ${top + 7} Q${x - dir * 14} ${top + 15} ${x - dir * 10} ${top + 25}`} fill="none" stroke="#f6ead0" strokeWidth={4.2} strokeLinecap="round" />
+            </g>
+          )}
+          {!hat && <path d={`M${x - 9} ${top + 11} Q${x} ${top - 3} ${x + 9} ${top + 11} Z`} fill="#4a3a2a" />}
         </g>
       </g>
     </g>
@@ -318,3 +320,38 @@ export const Ladder: React.FC<{cx: number; cy: number}> = ({cx, cy}) => (
 );
 
 export {LORA};
+
+/** Đặt vật có chân ở GY (vẽ với x=0) tại điểm (x, y), xoay rot độ quanh chân */
+export const At: React.FC<{x: number; y: number; rot?: number; children: React.ReactNode}> = ({x, y, rot = 0, children}) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot}) translate(0 ${-GY})`}>{children}</g>
+);
+
+export const Cross: React.FC<{x: number; y: number; r?: number; p?: number; color?: string}> = ({x, y, r = 34, p = 1, color = '#ff8a5c'}) => (
+  <g stroke={color} strokeWidth={9} strokeLinecap="round" opacity={clamp01(p * 3)}>
+    <line x1={x - r} y1={y - r} x2={x - r + 2 * r * clamp01(p)} y2={y - r + 2 * r * clamp01(p)} />
+    <line x1={x + r} y1={y - r} x2={x + r - 2 * r * clamp01(p)} y2={y - r + 2 * r * clamp01(p)} />
+  </g>
+);
+
+export const Check: React.FC<{x: number; y: number; r?: number; p?: number}> = ({x, y, r = 34, p = 1}) => (
+  <polyline
+    points={`${x - r} ${y} ${x - r * 0.3} ${y + r * 0.7} ${x + r} ${y - r * 0.8}`}
+    fill="none"
+    stroke="#9bd68a"
+    strokeWidth={10}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    pathLength={1}
+    strokeDasharray="1 1"
+    strokeDashoffset={1 - clamp01(p)}
+  />
+);
+
+export const RopeCoil: React.FC<{cx: number; cy: number}> = ({cx, cy}) => (
+  <g fill="none" stroke="#d9b27a" strokeWidth={6} strokeLinecap="round">
+    <circle cx={cx} cy={cy} r={36} />
+    <circle cx={cx} cy={cy} r={24} />
+    <circle cx={cx} cy={cy} r={12} />
+    <path d={`M${cx + 36} ${cy} q30 -10 46 -40`} />
+  </g>
+);

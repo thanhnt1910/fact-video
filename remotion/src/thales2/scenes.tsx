@@ -6,7 +6,7 @@ import {AngleArc, Birds, Camel, Clock, Cloud, Defs2, Dunes, Ladder, Palm, PlanVi
 
 export type Sc = {dur: number; bs: number[]; t: Record<string, string>};
 
-const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
+export const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
   <svg width={1920} height={1080} viewBox="0 0 1920 1080" style={{position: 'absolute', left: 0, top: 0}}>
     <Defs />
     <Defs2 />
@@ -14,32 +14,32 @@ const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
   </svg>
 );
 
-const RAD = Math.PI / 180;
-const tanE = (e: number) => Math.tan(e * RAD);
-const pyrTip = (e: number) => PX + PH / tanE(e);
-const lin = (f: number, a: number, b: number) => clamp01((f - a) / Math.max(1, b - a));
-const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
+export const RAD = Math.PI / 180;
+export const tanE = (e: number) => Math.tan(e * RAD);
+export const pyrTip = (e: number) => PX + PH / tanE(e);
+export const lin = (f: number, a: number, b: number) => clamp01((f - a) / Math.max(1, b - a));
+export const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
 
-const FX = 1520; // chỗ Thales đứng ban đầu
-const EDGE = PX + PB; // mép đáy (938)
-const E45 = 45;
-const E32 = (Math.atan(2 / 3) * 180) / Math.PI; // 33,69 độ: gậy 80 -> bóng 120
-const TIP = PX + 1.5 * PH; // 1210
-const SH = 160; // chiều cao cây gậy vẽ
-const STICK_TIP = TIP + 1.5 * SH; // bóng gậy 3:2
+export const FX = 1520; // chỗ Thales đứng ban đầu
+export const EDGE = PX + PB; // mép đáy (938)
+export const E45 = 45;
+export const E32 = (Math.atan(2 / 3) * 180) / Math.PI; // 33,69 độ: gậy 80 -> bóng 120
+export const TIP = PX + 1.5 * PH; // 1210
+export const SH = 160; // chiều cao cây gậy vẽ
+export const STICK_TIP = TIP + 1.5 * SH; // bóng gậy 3:2
 const WH = WALKER_H;
 const EQ_X = 1380;
 
 /** Vị trí mặt trời nằm trên tia đi qua đỉnh kim tự tháp */
-const sunPos = (e: number) => ({x: PX - 420 * Math.cos(e * RAD), y: APEX_Y - 420 * Math.sin(e * RAD)});
+export const sunPos = (e: number) => ({x: PX - 420 * Math.cos(e * RAD), y: APEX_Y - 420 * Math.sin(e * RAD)});
 
 /** Tia nắng song song kết thúc tại (tx, GY) */
-const Par: React.FC<{tx: number; e: number; p: number; o?: number}> = ({tx, e, p, o = 0.6}) => {
+export const Par: React.FC<{tx: number; e: number; p: number; o?: number}> = ({tx, e, p, o = 0.6}) => {
   const L = 1100;
   return <Ray x1={tx - L * Math.cos(e * RAD)} y1={GY - L * Math.sin(e * RAD)} x2={tx} y2={GY} p={p} opacity={o} />;
 };
 
-const Sky: React.FC<{e: number; p?: number}> = ({e, p = 1}) => {
+export const Sky: React.FC<{e: number; p?: number}> = ({e, p = 1}) => {
   const s = sunPos(e);
   return <Sun x={s.x} y={s.y} p={p} />;
 };

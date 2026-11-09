@@ -3,51 +3,67 @@
 Kênh "Người Giải Mã", dọc 9:16, chỉ bản tiếng Việt, giọng Leda, người que đội mũ. Nối với video 1 (Eratosthenes đo kích thước Trái Đất): đã biết Trái Đất to cỡ nào thì mới tính được nó nặng bao nhiêu. Video vẫn trọn gói, không cần xem video 1.
 Nhãn độ chắc nằm ở ghi chú, không nằm trong lời kể. [SỬ] = đã đọc nguyên văn bài của Cavendish; [CG] = từ nguồn thứ cấp đã đối chiếu; [TÍNH] = tự tính; [MH] = hình minh họa.
 
-## Quy tắc chữ số: phụ đề hiện số, giọng đọc thành chữ (chủ kênh nhắc 09/11/2026)
-Mỗi câu có hai bản: **Phụ đề** (năm, số đo, số lượng cụ thể viết bằng chữ số, ví dụ 1774, 150 kg, 5,5 lần, 1%) và **Đọc** (cùng câu, số viết thành chữ để Leda đọc đúng). "Một" kiểu mạo từ ("một quả nặng", "một sợi dây") giữ chữ. Câu không có số thì hai bản giống nhau và chỉ ghi một dòng. Trong file giọng `giong-video-khoa-hoc.json`, `text` = phụ đề, `say` = bản đọc; bộ dựng phải lấy phụ đề từ `text`, không lấy từ `say` (video số 1 đang lấy từ bản đọc nên phụ đề hiện số bằng chữ: lỗi này không lặp lại ở video số 2).
+## Quy tắc phụ đề (chủ kênh, 09/11/2026)
+1. **Số hiện bằng chữ số, giọng đọc thành chữ.** Mỗi câu có hai bản: **Đọc** (số viết thành chữ để Leda đọc đúng) và **Phụ đề** (năm, số đo, số lượng cụ thể viết bằng chữ số: 1774, 150 ki-lô-gam, 5,5 lần, 1%). "Một" kiểu mạo từ ("một quả nặng", "một sợi dây") giữ chữ. Trong `giong-video-khoa-hoc.json`, `text` = phụ đề, `say` = bản đọc; bộ dựng lấy phụ đề từ `text`, không lấy từ `say` (video số 1 đang lấy từ bản đọc nên số hiện bằng chữ: lỗi không lặp lại ở video số 2).
+2. **Từ khóa chính tô màu cam và to hơn** so với chữ thường (màu trắng). Từ khóa nằm giữa dấu `*...*` ở dòng Phụ đề; mỗi cụm 3–4 từ có khoảng 1–2 từ khóa, chọn điều người xem cần nhớ (con số, tên, hành động chính). Bộ vẽ phụ đề `VCaptions` và `scripts/tao_phu_de.py` đã hỗ trợ dấu `*`.
 
 ## Lời kể (24 câu, mỗi câu một nhịp, khoảng 2 phút 10 giây)
-(Dòng thường là bản ĐỌC; dòng "Phụ đề" chỉ ghi khi khác bản đọc.)
 
 **Mở đầu**
-1. Cân một quả táo thì dễ. Nhưng làm sao cân được cả Trái Đất?
-2. Không có chiếc cân nào đủ lớn, và cũng không ai nhấc nổi một hành tinh lên.
+1. Đọc: Cân một quả táo thì dễ. Nhưng làm sao cân được cả Trái Đất?
+   Phụ đề: Cân một quả táo thì dễ. Nhưng làm sao *cân được cả Trái Đất?*
+2. Đọc: Không có chiếc cân nào đủ lớn, và cũng không ai nhấc nổi một hành tinh lên.
+   Phụ đề: Không có chiếc cân nào *đủ lớn*, và cũng không ai *nhấc nổi* một hành tinh lên.
 
 **Người đi trước thử bằng ngọn núi**
-3. Năm một nghìn bảy trăm bảy mươi bốn, nhà thiên văn Nevil Maskelyne mang một sợi dây dọi lên chân núi Schiehallion ở Scotland.
-   Phụ đề: Năm 1774, nhà thiên văn Nevil Maskelyne mang một sợi dây dọi lên chân núi Schiehallion ở Scotland.
-4. Dây dọi là sợi dây treo một quả nặng ở đầu, nên lúc nào cũng chỉ thẳng xuống đất.
-5. Ngọn núi đứng bên cạnh cũng hút quả nặng, nên sợi dây bị lệch đi một chút xíu.
-6. So lực hút của núi với lực hút của cả Trái Đất, người ta tính được Trái Đất nặng gấp ngọn núi bao nhiêu lần.
-7. Nhưng không ai biết bên trong núi là loại đá nào, nặng hay nhẹ, nên con số chỉ là ước chừng.
-8. Kết quả ra thấp hơn thật khoảng một phần năm.
-   Phụ đề: Kết quả ra thấp hơn thật khoảng 1/5.
+3. Đọc: Năm một nghìn bảy trăm bảy mươi bốn, nhà thiên văn Nevil Maskelyne mang một sợi dây dọi lên chân núi Schiehallion ở Scotland.
+   Phụ đề: Năm *1774*, nhà thiên văn *Nevil Maskelyne* mang một *sợi dây dọi* lên chân núi Schiehallion ở Scotland.
+4. Đọc: Dây dọi là sợi dây treo một quả nặng ở đầu, nên lúc nào cũng chỉ thẳng xuống đất.
+   Phụ đề: Dây dọi là sợi dây treo *một quả nặng* ở đầu, nên lúc nào cũng *chỉ thẳng xuống đất.*
+5. Đọc: Ngọn núi đứng bên cạnh cũng hút quả nặng, nên sợi dây bị lệch đi một chút xíu.
+   Phụ đề: Ngọn núi đứng bên cạnh *cũng hút* quả nặng, nên sợi dây bị *lệch* đi một chút xíu.
+6. Đọc: So lực hút của núi với lực hút của cả Trái Đất, người ta tính được Trái Đất nặng gấp ngọn núi bao nhiêu lần.
+   Phụ đề: So *lực hút của núi* với *lực hút của cả Trái Đất*, người ta tính được Trái Đất nặng gấp ngọn núi *bao nhiêu lần.*
+7. Đọc: Nhưng không ai biết bên trong núi là loại đá nào, nặng hay nhẹ, nên con số chỉ là ước chừng.
+   Phụ đề: Nhưng *không ai biết* bên trong núi là loại đá nào, nặng hay nhẹ, nên con số chỉ là *ước chừng.*
+8. Đọc: Kết quả ra thấp hơn thật khoảng một phần năm.
+   Phụ đề: Kết quả ra *thấp hơn thật* khoảng *1/5.*
 
-**Ý tưởng mới: tự làm một "ngọn núi" nhỏ**
-9. Cách tốt hơn là mang ngọn núi vào trong phòng, bằng những quả chì mà mình cân được.
-10. Ý tưởng này của mục sư John Michell, nhưng ông mất trước khi kịp làm.
-11. Người làm tiếp là Henry Cavendish, một nhà khoa học nổi tiếng là sống ẩn dật, vào năm một nghìn bảy trăm chín mươi bảy.
-   Phụ đề: ... một nhà khoa học nổi tiếng là sống ẩn dật, vào năm 1797.
-12. Ông treo một thanh gỗ dài bằng sợi dây mảnh, hai đầu thanh gắn hai quả cầu chì nhỏ.
-   Phụ đề: Ông treo một thanh gỗ dài bằng sợi dây mảnh, 2 đầu thanh gắn 2 quả cầu chì nhỏ.
-13. Rồi ông đặt gần chúng hai quả cầu chì lớn, mỗi quả nặng hơn một trăm năm mươi ki-lô-gam.
-   Phụ đề: Rồi ông đặt gần chúng 2 quả cầu chì lớn, mỗi quả nặng hơn 150 ki-lô-gam.
-14. Quả lớn kéo quả nhỏ về phía mình, làm thanh gỗ xoay đi một chút.
-15. Lực kéo ấy nhỏ hơn sức nặng của chính quả cầu nhỏ hàng chục triệu lần.
-16. Chỉ cần một luồng gió, hay một bên hộp ấm hơn bên kia, là thanh gỗ lắc theo gió chứ không theo quả chì.
-17. Vì vậy Cavendish nhốt cả thiết bị trong một căn nhà kín, và đứng bên ngoài nhìn qua kính thiên văn.
-18. Ông kéo dây để đổi chỗ quả cầu lớn sang bên kia, thanh gỗ lại xoay ngược lại, và ông ghi lại từng chút một.
+**Ý tưởng mới**
+9. Đọc: Cách tốt hơn là mang ngọn núi vào trong phòng, bằng những quả chì mà mình cân được.
+   Phụ đề: Cách tốt hơn là *mang ngọn núi vào trong phòng*, bằng những *quả chì* mà mình cân được.
+10. Đọc: Ý tưởng này của mục sư John Michell, nhưng ông mất trước khi kịp làm.
+   Phụ đề: Ý tưởng này của mục sư *John Michell*, nhưng ông *mất* trước khi kịp làm.
+11. Đọc: Người làm tiếp là Henry Cavendish, một nhà khoa học nổi tiếng là sống ẩn dật, vào năm một nghìn bảy trăm chín mươi bảy.
+   Phụ đề: Người làm tiếp là *Henry Cavendish*, một nhà khoa học nổi tiếng là *sống ẩn dật*, vào năm *1797.*
+12. Đọc: Ông treo một thanh gỗ dài bằng sợi dây mảnh, hai đầu thanh gắn hai quả cầu chì nhỏ.
+   Phụ đề: Ông treo một *thanh gỗ dài* bằng sợi dây mảnh, *2 đầu* thanh gắn *2 quả cầu chì nhỏ.*
+13. Đọc: Rồi ông đặt gần chúng hai quả cầu chì lớn, mỗi quả nặng hơn một trăm năm mươi ki-lô-gam.
+   Phụ đề: Rồi ông đặt gần chúng *2 quả cầu chì lớn*, mỗi quả nặng hơn *150 ki-lô-gam.*
+14. Đọc: Quả lớn kéo quả nhỏ về phía mình, làm thanh gỗ xoay đi một chút.
+   Phụ đề: Quả lớn *kéo* quả nhỏ về phía mình, làm *thanh gỗ xoay* đi một chút.
+15. Đọc: Lực kéo ấy nhỏ hơn sức nặng của chính quả cầu nhỏ hàng chục triệu lần.
+   Phụ đề: Lực kéo ấy nhỏ hơn sức nặng của chính quả cầu nhỏ *hàng chục triệu lần.*
+16. Đọc: Chỉ cần một luồng gió, hay một bên hộp ấm hơn bên kia, là thanh gỗ lắc theo gió chứ không theo quả chì.
+   Phụ đề: Chỉ cần *một luồng gió*, hay *một bên hộp ấm hơn* bên kia, là thanh gỗ lắc theo gió chứ không theo quả chì.
+17. Đọc: Vì vậy Cavendish nhốt cả thiết bị trong một căn nhà kín, và đứng bên ngoài nhìn qua kính thiên văn.
+   Phụ đề: Vì vậy Cavendish *nhốt* cả thiết bị trong *một căn nhà kín*, và đứng bên ngoài *nhìn qua kính thiên văn.*
+18. Đọc: Ông kéo dây để đổi chỗ quả cầu lớn sang bên kia, thanh gỗ lại xoay ngược lại, và ông ghi lại từng chút một.
+   Phụ đề: Ông kéo dây để *đổi chỗ* quả cầu lớn sang bên kia, thanh gỗ lại *xoay ngược lại*, và ông *ghi lại* từng chút một.
 
 **Tính ra con số**
-19. Cùng một quả cầu nhỏ, một bên bị Trái Đất kéo xuống đất, một bên bị quả chì kéo sang ngang.
-20. So hai lực ấy, biết quả chì nặng bao nhiêu, nằm cách bao xa, và Trái Đất to cỡ nào, là tính ra được Trái Đất nặng bao nhiêu.
-21. Kết quả: Trái Đất nặng gần năm rưỡi lần so với một khối nước cùng kích thước.
-   Phụ đề: Kết quả: Trái Đất nặng gần 5,5 lần so với một khối nước cùng kích thước.
-22. Đá trên mặt đất nhẹ hơn thế nhiều, nên bên trong Trái Đất phải có thứ gì đó rất nặng.
-23. Nhân lên cho cả quả cầu, Trái Đất nặng khoảng sáu nghìn tỷ tỷ tấn, mà số đo ngày nay chỉ lệch chưa đến một phần trăm.
-   Phụ đề: Nhân lên cho cả quả cầu, Trái Đất nặng khoảng 6 nghìn tỷ tỷ tấn, mà số đo ngày nay chỉ lệch chưa đến 1%.
-24. Chỉ với hai quả chì, một sợi dây và rất nhiều kiên nhẫn, Cavendish đã cân được cả Trái Đất.
-   Phụ đề: Chỉ với 2 quả chì, một sợi dây và rất nhiều kiên nhẫn, Cavendish đã cân được cả Trái Đất.
+19. Đọc: Cùng một quả cầu nhỏ, một bên bị Trái Đất kéo xuống đất, một bên bị quả chì kéo sang ngang.
+   Phụ đề: Cùng một quả cầu nhỏ, một bên bị *Trái Đất kéo xuống đất*, một bên bị *quả chì kéo sang ngang.*
+20. Đọc: So hai lực ấy, biết quả chì nặng bao nhiêu, nằm cách bao xa, và Trái Đất to cỡ nào, là tính ra được Trái Đất nặng bao nhiêu.
+   Phụ đề: *So hai lực ấy*, biết quả chì nặng bao nhiêu, nằm cách bao xa, và Trái Đất to cỡ nào, là tính ra được *Trái Đất nặng bao nhiêu.*
+21. Đọc: Kết quả: Trái Đất nặng gần năm rưỡi lần so với một khối nước cùng kích thước.
+   Phụ đề: Kết quả: Trái Đất nặng *gần 5,5 lần* so với một khối nước cùng kích thước.
+22. Đọc: Đá trên mặt đất nhẹ hơn thế nhiều, nên bên trong Trái Đất phải có thứ gì đó rất nặng.
+   Phụ đề: Đá trên mặt đất *nhẹ hơn* thế nhiều, nên bên trong Trái Đất phải có *thứ gì đó rất nặng.*
+23. Đọc: Nhân lên cho cả quả cầu, Trái Đất nặng khoảng sáu nghìn tỷ tỷ tấn, mà số đo ngày nay chỉ lệch chưa đến một phần trăm.
+   Phụ đề: Nhân lên cho cả quả cầu, Trái Đất nặng khoảng *6 nghìn tỷ tỷ tấn*, mà số đo ngày nay chỉ lệch *chưa đến 1%.*
+24. Đọc: Chỉ với hai quả chì, một sợi dây và rất nhiều kiên nhẫn, Cavendish đã cân được cả Trái Đất.
+   Phụ đề: Chỉ với *2 quả chì*, một sợi dây và rất nhiều kiên nhẫn, Cavendish đã *cân được cả Trái Đất.*
 
 ## Bố cục hình (người que đội mũ, giống video 1)
 | Cảnh | Câu | Hình |

@@ -86,7 +86,15 @@ export const VCaptions: React.FC<{beats: {text: string; start: number; dur: numb
           paintOrder: 'stroke fill',
         }}
       >
-        {c.text}
+        {c.text.split('*').map((seg2, k) =>
+          k % 2 ? (
+            <span key={k} style={{color: C.amber, fontSize: '1.14em', WebkitTextStroke: '12px #130c08'}}>
+              {seg2}
+            </span>
+          ) : (
+            <span key={k}>{seg2}</span>
+          ),
+        )}
       </div>
     </div>
   );

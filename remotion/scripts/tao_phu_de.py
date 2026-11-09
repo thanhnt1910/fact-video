@@ -12,7 +12,7 @@ folder = sys.argv[2]
 OFF = 0.15  # giọng bắt đầu sau đầu nhịp 0,15 giây (trùng với bước ghép âm thanh)
 
 def syll(w):
-    w = re.sub(r'[^\wÀ-ỹ]', '', w.lower())
+    w = re.sub(r'[^\wÀ-ỹ]', '', w.replace('*', '').lower())
     if re.fullmatch(r'[a-z]+', w) and len(w) > 3:  # từ nước ngoài: đếm cụm nguyên âm
         return max(1, len(re.findall(r'[aeiouy]+', w)))
     return 1
@@ -41,8 +41,21 @@ def speech_intervals(f):
         else: i += 1
     return iv, n * 0.01
 
+def mark_words(text):
+    """Từ khóa nằm trong *...* (có thể nhiều từ): gắn dấu * riêng cho từng từ để cụm nào cũng tự đủ cặp."""
+    out, on = [], False
+    for tok in text.split(' '):
+        if not tok: continue
+        a = tok.startswith('*'); b = tok.endswith('*') and len(tok.strip('*')) > 0
+        if a: on = True
+        core = tok.strip('*')
+        out.append('*%s*' % core if on else core)
+        if b: on = False
+    return ' '.join(out)
+
 def chunks(text, mx=4):
     out = []
+    text = mark_words(text) if '*' in text else text
     for part in re.split(r'(?<=[,.;:?!])\s+', text.strip()):
         w = part.split()
         if not w: continue

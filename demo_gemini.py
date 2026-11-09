@@ -39,12 +39,14 @@ def main():
     own_cfg = json.loads(own.read_text(encoding="utf-8")) if own.exists() else None
 
     # Chế độ đọc TỪNG CÂU cho video khoa học (nhánh khoa-hoc): demo/era/<giọng>/NN.wav
-    vid = ROOT / "ke-hoach" / "giong-video-khoa-hoc.json"
+    # Đối số thứ hai: mã video (ví dụ cavendish) -> file giong-video-khoa-hoc-<mã>.json, ra demo/<mã>/<giọng>/NN.wav
+    vkey = sys.argv[2].strip() if len(sys.argv) > 2 else ""
+    vid = ROOT / "ke-hoach" / (f"giong-video-khoa-hoc-{vkey}.json" if vkey else "giong-video-khoa-hoc.json")
     if vid.exists():
         cfg = json.loads(vid.read_text(encoding="utf-8"))
         ok = 0
         for v in voices:
-            d = out / "era" / v.lower()
+            d = out / (vkey or "era") / v.lower()
             d.mkdir(parents=True, exist_ok=True)
             for it in cfg["sentences"]:
                 f = d / f"{it['n']:02d}.wav"

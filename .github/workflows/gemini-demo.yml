@@ -7,6 +7,10 @@ on:
         description: "Danh sách giọng Gemini (vd: Sulafat,Aoede,Kore). Để trống = mặc định"
         required: false
         default: ""
+      video:
+        description: "Mã video khoa học (vd: cavendish). Để trống = video 1"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -43,7 +47,7 @@ jobs:
           mkdir -p demo logs
           rm -f demo/list.txt
           set -o pipefail
-          python demo_gemini.py "${{ inputs.voices }}" 2>&1 | tee logs/gemini-demo.txt
+          python demo_gemini.py "${{ inputs.voices }}" "${{ inputs.video }}" 2>&1 | tee logs/gemini-demo.txt
       - name: Gửi Telegram
         if: always()
         env:

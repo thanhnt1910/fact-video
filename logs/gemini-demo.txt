@@ -1,19 +1,18 @@
-STYLE: Native Vietnamese narrator (Northern accent, Hanoi) for a short true-history storytelling video. Warm, captivating storyteller with a hint of mystery, like telling a strange true tale by lantern light: clear diction, natural Vietnamese tones, varied pace — slow down and lower the voice before a surprising fact, then reveal it with energy and a smile; pause briefly at '…'. Never robotic, never news-anchor flat. Structure: 1) hook — Open with suspense: a slightly hushed, intriguing question, then a punchy, amazed reveal. 2) Playful contrast, ask the question with genuine curiosity. 3-4) Friendly explainer, confident and clear, medium pace. Leave a short beat between paragraphs. Specific emphasis: "Bạn có biết không" → a bit faster, light; "Bạch tuộc có tới" → emphasized, slower and stronger; "Con người chúng ta, chỉ cần một trái tim" → a bit faster, light; "Vậy tại sao" → lower, mysterious; "Nhiệm vụ của chúng" → excited, higher pitch; "Bơm máu qua mang, để lấy oxy từ nước biển" → a bit faster, light. 
-TEXT: Bạn có biết không? Bạch tuộc có tới… ba trái tim!
+STYLE: Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. 
+TEXT: Một cây gậy mà đo được cả Trái Đất?
 
-Con người chúng ta, chỉ cần một trái tim. Vậy tại sao… bạch tuộc lại cần tới ba?
+Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được.
 
-Hai trái tim nhỏ, nằm ngay cạnh mang. Nhiệm vụ của chúng? Bơm máu qua mang, để lấy oxy từ nước biển.
+Một phần năm mươi vòng, nên cả Trái Đất dài gấp năm mươi lần: hai trăm năm mươi nghìn stadia.
 
-Còn trái tim thứ ba, to hơn hẳn! Nó bơm máu giàu oxy đi khắp cơ thể, và nuôi cả tám xúc tu.
+Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi, vậy là gần bốn mươi nghìn cây số.
 
-== Sadaltager ==
+== Aoede ==
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Sadaltager
+OK Aoede
 
-== Charon ==
-OK Charon
+== Zephyr ==
+OK Zephyr
 
-== Puck ==
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Puck
+== Leda ==
+OK Leda

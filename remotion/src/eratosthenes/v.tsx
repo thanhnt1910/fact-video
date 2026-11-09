@@ -1,0 +1,154 @@
+import React from 'react';
+import {useCurrentFrame} from 'remotion';
+import {C, clamp01, seg} from '../lib/theme';
+import {Defs, FlameMark} from '../thales/parts';
+
+// Bộ phận hình cho khổ dọc 1080x1920.
+export const VW = 1080;
+export const VH = 1920;
+
+export const VDefs: React.FC = () => (
+  <defs>
+    <radialGradient id="globeG" cx="38%" cy="32%" r="80%">
+      <stop offset="0%" stopColor="#3f7a80" />
+      <stop offset="100%" stopColor="#10272b" />
+    </radialGradient>
+    <radialGradient id="bgV" cx="50%" cy="38%" r="80%">
+      <stop offset="0%" stopColor={C.bg1} />
+      <stop offset="100%" stopColor={C.bg2} />
+    </radialGradient>
+    <pattern id="gridV" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0 L0 0 L0 80" fill="none" stroke={C.cream} strokeWidth="1.5" opacity="0.07" />
+    </pattern>
+  </defs>
+);
+
+export const VBackground: React.FC = () => (
+  <svg width={VW} height={VH} viewBox={`0 0 ${VW} ${VH}`} style={{position: 'absolute', left: 0, top: 0}}>
+    <VDefs />
+    <rect width={VW} height={VH} fill="url(#bgV)" />
+    <rect width={VW} height={VH} fill="url(#gridV)" />
+    <rect x={24} y={24} width={VW - 48} height={VH - 48} rx={8} fill="none" stroke={C.cream} strokeWidth={2} opacity={0.14} />
+  </svg>
+);
+
+/** Logo góc trên bên phải */
+export const VHud: React.FC = () => (
+  <div style={{position: 'absolute', right: 56, top: 52, display: 'flex', alignItems: 'center', gap: 12, opacity: 0.92}}>
+    <FlameMark width={30} />
+    <div style={{fontFamily: 'Cormorant', fontWeight: 600, fontSize: 46, lineHeight: 1, color: C.cream}}>
+      Proof<span style={{color: C.amber}}>wick</span>
+    </div>
+  </div>
+);
+
+/** Phụ đề: nằm trong khoảng y 1180–1510, cách đáy hơn 400 điểm ảnh để không bị lớp chữ của Reels che */
+export const VCaptions: React.FC<{beats: {text: string; start: number; dur: number}[]}> = ({beats}) => {
+  const f = useCurrentFrame();
+  const b = beats.find((x) => f >= x.start && f < x.start + x.dur);
+  if (!b || !b.text) return null;
+  const local = f - b.start;
+  const o = Math.min(seg(local, 0, 8), 1 - seg(local, b.dur - 8, b.dur));
+  return (
+    <div style={{position: 'absolute', left: 70, width: 940, top: 1180, height: 330, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: o}}>
+      <div
+        style={{
+          fontFamily: 'BeVN',
+          fontWeight: 800,
+          fontSize: 50,
+          lineHeight: 1.28,
+          textAlign: 'center',
+          color: '#fff',
+          WebkitTextStroke: '9px #130c08',
+          paintOrder: 'stroke fill',
+        }}
+      >
+        {b.text}
+      </div>
+    </div>
+  );
+};
+
+export const Svg: React.FC<{children: React.ReactNode}> = ({children}) => (
+  <svg width={VW} height={VH} viewBox={`0 0 ${VW} ${VH}`} style={{position: 'absolute', left: 0, top: 0}}>
+    <Defs />
+    <VDefs />
+    {children}
+  </svg>
+);
+
+/** Chữ nhãn (Lora nghiêng, có tiếng Việt) */
+export const Lab: React.FC<{x: number; y: number; size?: number; color?: string; anchor?: 'start' | 'middle' | 'end'; o?: number; children: React.ReactNode; w?: number; plain?: boolean}> = ({
+  x,
+  y,
+  size = 40,
+  color = C.cream,
+  anchor = 'middle',
+  o = 1,
+  children,
+  w = 400,
+  plain = false,
+}) => (
+  <text x={x} y={y} textAnchor={anchor} fontFamily="Lora, Georgia, serif" fontStyle="italic" fontWeight={w} fontSize={size} fill={color} opacity={clamp01(o)} stroke={plain ? 'none' : C.bg2} strokeWidth={size * 0.12} paintOrder="stroke">
+    {children}
+  </text>
+);
+
+/** Chữ lớn (Cormorant) cho con số và tiêu đề */
+export const Big: React.FC<{x: number; y: number; size?: number; color?: string; anchor?: 'start' | 'middle' | 'end'; o?: number; children: React.ReactNode}> = ({
+  x,
+  y,
+  size = 80,
+  color = C.amber,
+  anchor = 'middle',
+  o = 1,
+  children,
+}) => (
+  <text x={x} y={y} textAnchor={anchor} fontFamily="Cormorant" fontWeight={600} fontSize={size} fill={color} opacity={clamp01(o)} stroke={C.bg2} strokeWidth={size * 0.06} paintOrder="stroke" style={{fontVariantNumeric: 'lining-nums', fontFeatureSettings: '"lnum" 1'}}>
+    {children}
+  </text>
+);
+
+/** Người que đội mũ, chân đặt tại (x, y), cao 92 điểm ảnh khi s = 1. walk: pha bước đi (radian) */
+export const Hero: React.FC<{x: number; y: number; s?: number; walk?: number; rot?: number; p?: number; stick?: boolean}> = ({x, y, s = 1, walk = 0, rot = 0, p = 1, stick = true}) => {
+  const sw = Math.sin(walk);
+  const bob = Math.abs(sw) * 2.5;
+  const sk = 5 / s;
+  return (
+    <g transform={`translate(${x} ${y - bob * s}) rotate(${rot}) scale(${s})`} opacity={clamp01(p * 2)} stroke={C.cream} strokeWidth={sk} strokeLinecap="round" strokeLinejoin="round" fill="none">
+      <circle cx={0} cy={-69} r={11} fill={C.bg2} />
+      <path d="M -11 -80 Q -11 -98 0 -98 Q 11 -98 11 -80 Z" fill={C.amberDeep} stroke={C.amberDeep} />
+      <line x1={-18} y1={-80} x2={18} y2={-80} stroke={C.amberDeep} strokeWidth={sk * 1.2} />
+      <line x1={0} y1={-58} x2={0} y2={-26} />
+      <line x1={0} y1={-26} x2={-10 + 12 * sw} y2={0} />
+      <line x1={0} y1={-26} x2={10 - 12 * sw} y2={0} />
+      <line x1={0} y1={-48} x2={-16 - 4 * sw} y2={-32} />
+      <line x1={0} y1={-48} x2={22} y2={-40} />
+      {stick && <line x1={24} y1={0} x2={24} y2={-92} stroke={C.amber} strokeWidth={sk * 1.2} />}
+    </g>
+  );
+};
+
+/** Quả địa cầu: mặt cầu có kinh tuyến và vĩ tuyến */
+export const Globe: React.FC<{cx: number; cy: number; r: number; p?: number}> = ({cx, cy, r, p = 1}) => {
+  const lat = [-0.55, 0, 0.55];
+  return (
+    <g opacity={clamp01(p * 2)} transform={`translate(${cx} ${cy}) scale(${0.6 + 0.4 * clamp01(p)}) translate(${-cx} ${-cy})`}>
+      <circle cx={cx} cy={cy} r={r + 36} fill="url(#sunGlow)" opacity={0.5} />
+      <circle cx={cx} cy={cy} r={r} fill="url(#globeG)" stroke={C.cream} strokeWidth={4} />
+      <g fill="none" stroke={C.cream} strokeWidth={2} opacity={0.2}>
+        <ellipse cx={cx} cy={cy} rx={r * 0.35} ry={r} />
+        <ellipse cx={cx} cy={cy} rx={r * 0.7} ry={r} />
+        <line x1={cx} y1={cy - r} x2={cx} y2={cy + r} />
+        {lat.map((k, i) => {
+          const dy = r * k;
+          const rx = Math.sqrt(r * r - dy * dy);
+          return <ellipse key={i} cx={cx} cy={cy + dy} rx={rx} ry={rx * 0.16} />;
+        })}
+      </g>
+    </g>
+  );
+};
+
+export const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
+export const RAD = Math.PI / 180;

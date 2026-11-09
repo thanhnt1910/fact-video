@@ -95,23 +95,25 @@ export const Tools: React.FC<Sc> = ({bs, t}) => {
   );
 };
 
-// ---------------------------------------------------------------- 3. Thất bại 1: thang và tháp người
-export const LadderFail: React.FC<Sc> = ({bs, t}) => {
+// ---------------------------------------------------------------- 3. Cách có nguồn: seked (độ dốc) chỉ dùng khi thiết kế
+export const Seked: React.FC<Sc> = ({bs, t}) => {
   const f = useCurrentFrame();
-  const u = lin(f, bs[0] + sec(0.8), bs[0] + sec(4.4));
-  const climbing = u > 0 && u < 1;
-  const ladderFade = 1 - seg(f, bs[1] - sec(0.4), bs[1] + sec(0.4));
-  const tag = sp(f, bs[0] + sec(4.6), bs[0] + sec(5.8)) * ladderFade;
-  const far = sp(f, bs[0] + sec(5.0), bs[0] + sec(6.2)) * ladderFade;
-  const N = 6;
-  const cols = ['#e3ab78', '#a8c9a0', '#c9a0c9', '#e8d070', '#8fb4c9', '#e07a6a'];
-  const col = lin(f, bs[2] + sec(0.5), bs[2] + sec(2.4));
-  const c2 = col * col;
-  const sway = seg(f, bs[2] - sec(0.2), bs[2] + sec(0.5)) * (1 - seg(f, bs[2] + sec(0.5), bs[2] + sec(0.6)));
-  const swayRot = Math.sin(f * 0.55) * 6 * sway;
-  const ghost = sp(f, bs[1] + sec(3.6), bs[1] + sec(4.8)) * (1 - seg(f, bs[2] + sec(1.6), bs[2] + sec(2.4)));
-  const puff = seg(f, bs[2] + sec(1.9), bs[2] + sec(3.0));
-  const towerX = 1250;
+  const tri = sp(f, bs[0] + sec(1.0), bs[0] + sec(3.0));
+  const lab = sp(f, bs[0] + sec(3.0), bs[0] + sec(4.0));
+  const calc = sp(f, bs[1] + sec(2.0), bs[1] + sec(3.2));
+  const des = sp(f, bs[1] + sec(5.0), bs[1] + sec(6.0));
+  const tool = sp(f, bs[2] + sec(1.0), bs[2] + sec(2.0));
+  const cr = sp(f, bs[2] + sec(5.0), bs[2] + sec(6.0));
+  const wk = sp(f, bs[3] + sec(0.2), bs[3] + sec(1.2));
+  const q = sp(f, bs[3] + sec(5.0), bs[3] + sec(6.0));
+  const pulse = 1 + 0.1 * Math.sin(f * 0.2);
+  const ox = 1240;
+  const oy = 200;
+  const run = 5.5 * 44;
+  const rise = 7 * 44;
+  const fy = (x: number) => APEX_Y + ((x - PX) * PH) / PB;
+  const ax = 830;
+  const ay = fy(ax);
   return (
     <Svg>
       <Dunes />
@@ -119,134 +121,41 @@ export const LadderFail: React.FC<Sc> = ({bs, t}) => {
       <Birds />
       <Ground p={1} />
       <Pyramid2 p={1} />
-      <Sky e={32} />
-      <DimV x={PX - PB - 40} y1={GY} y2={APEX_Y} label="147 m" p={sp(f, bs[0] + sec(0.2), bs[0] + sec(1.4))} color={C.amber} size={36} />
-      <g opacity={ladderFade}>
-        <line x1={905} y1={GY} x2={860} y2={GY - 100} stroke="#d9b27a" strokeWidth={6} strokeLinecap="round" />
-        <line x1={927} y1={GY} x2={882} y2={GY - 100} stroke="#d9b27a" strokeWidth={6} strokeLinecap="round" />
-        {[0.15, 0.32, 0.5, 0.68, 0.85].map((k) => (
-          <line key={k} x1={lerp(905, 860, k)} y1={GY - 100 * k} x2={lerp(927, 882, k)} y2={GY - 100 * k} stroke="#d9b27a" strokeWidth={4} />
-        ))}
-        <At x={lerp(920, 874, u)} y={GY - 100 * u}>
-          <Walker x={0} dir={-1} walking={climbing} size={54} noShadow robe="#a8c9a0" speed={1.3} />
-        </At>
-        <Txt x={1010} y={GY - 52} size={36} color={C.dim} anchor="start" opacity={tag}>
-          {t.ladderTag}
-        </Txt>
-        <Txt x={1010} y={GY - 250} size={38} color={C.amber} anchor="start" opacity={far}>
-          {t.farLeft}
-        </Txt>
-        <line x1={1000} y1={GY - 104} x2={1000} y2={APEX_Y} stroke={C.amber} strokeWidth={3} strokeDasharray="10 10" opacity={far} />
+      <g opacity={tri}>
+        <polyline points={`${ox + run},${oy + rise} ${ox + run},${oy} ${ox},${oy + rise} ${ox + run},${oy + rise}`} fill="none" stroke={C.cream} strokeWidth={4} strokeLinejoin="round" />
+        <line x1={ox} y1={oy + rise} x2={ox + run} y2={oy} stroke={C.amber} strokeWidth={6} strokeLinecap="round" />
       </g>
-      <g opacity={ghost}>
-        <line x1={towerX - 70} y1={APEX_Y} x2={towerX + 70} y2={APEX_Y} stroke={C.amber} strokeWidth={4} strokeDasharray="12 10" />
-        <Txt x={towerX} y={APEX_Y - 18} size={42} color={C.amber}>
-          {t.men}
-        </Txt>
+      <g opacity={lab}>
+        <Txt x={ox + run / 2} y={oy + rise + 46} size={34} anchor="middle">{t.sekRun}</Txt>
+        <Txt x={ox + run + 24} y={oy + rise / 2 + 12} size={34} anchor="start">{t.sekRise}</Txt>
+        <Txt x={ox + run / 2 - 20} y={oy - 30} size={36} anchor="middle" color={C.amber}>{t.sekName}</Txt>
       </g>
-      <g transform={`rotate(${swayRot} ${towerX} ${GY})`}>
-        {Array.from({length: N}).map((_, k) => {
-          const appear = sp(f, bs[1] + sec(0.6 + 0.7 * k), bs[1] + sec(1.0 + 0.7 * k));
-          if (appear <= 0) return null;
-          const y0 = GY - k * 36;
-          const drop = (1 - appear) * 160;
-          const y = lerp(y0, GY, c2) - drop;
-          const x = towerX + c2 * (60 + 52 * k);
-          const rot = c2 * (75 + 22 * k);
-          return (
-            <At key={k} x={x} y={y} rot={rot}>
-              <Walker x={0} dir={-1} size={42} noShadow robe={cols[k]} p={appear} />
-            </At>
-          );
-        })}
+      <g opacity={calc * (1 - wk)}>
+        <Txt x={1440} y={620} size={42} anchor="middle" color={C.amber}>{t.sekCalc}</Txt>
       </g>
-      {(() => {
-        const shown = [0, 1, 2, 3, 4, 5].filter((k) => f >= bs[1] + sec(0.8 + 0.7 * k)).length;
-        return shown > 0 ? (
-          <Txt x={towerX} y={GY - shown * 36 - 70 + c2 * (shown * 36 + 40)} size={46} color={C.amber} opacity={1 - seg(f, bs[2] + sec(2.4), bs[2] + sec(3.2))}>
-            {`${shown} / 86`}
-          </Txt>
-        ) : null;
-      })()}
-      <g opacity={0.5 * (1 - puff)}>
-        {[0, 1, 2, 3, 4].map((i) => (
-          <circle key={i} cx={towerX + 20 + i * 38} cy={GY - 8 - puff * 20} r={10 + puff * 26 + i * 3} fill={C.cream} opacity={0.35} />
-        ))}
+      <g opacity={des * (1 - wk)}>
+        <Txt x={1440} y={676} size={32} anchor="middle">{t.sekDesign}</Txt>
+      </g>
+      <g opacity={tool}>
+        <g stroke={C.cream} strokeWidth={5} strokeLinecap="round" fill="none">
+          <line x1={ax} y1={ay - 70} x2={ax - 28} y2={ay} />
+          <line x1={ax} y1={ay - 70} x2={ax + 28} y2={ay} />
+          <line x1={ax - 16} y1={ay - 32} x2={ax + 16} y2={ay - 32} />
+          <line x1={ax} y1={ay - 70} x2={ax} y2={ay - 20} strokeWidth={2.5} />
+        </g>
+        <circle cx={ax} cy={ay - 17} r={5} fill={C.amber} />
+        <Cross x={ax} y={ay - 110} r={26} p={cr} />
+        <Txt x={ax + 60} y={ay - 150} size={30} anchor="start">{t.sekHint}</Txt>
+        <Txt x={ax + 60} y={ay - 112} size={26} anchor="start" color={C.amber}>{t.infer}</Txt>
+      </g>
+      <Walker x={FX} dir={-1} p={wk} />
+      <g opacity={q} transform={`translate(${FX} 520) scale(${pulse}) translate(${-FX} -520)`}>
+        <Txt x={FX} y={520} size={90} anchor="middle" color={C.amber}>?</Txt>
       </g>
     </Svg>
   );
 };
 
-// ---------------------------------------------------------------- 4. Thất bại 2: leo trơn, dây chỉ đo đường dốc
-export const SlopeFail: React.FC<Sc> = ({bs, t}) => {
-  const f = useCurrentFrame();
-  const sheen = lin(f, bs[0] + sec(0.4), bs[0] + sec(2.4));
-  const attempt = (a: number, b: number, hi: number) => {
-    const up = lin(f, a, b);
-    const slip = lin(f, b, b + sec(0.5));
-    return {u: up < 1 ? up * hi : hi * (1 - eio(slip)), slip: slip > 0 && slip < 1, done: slip >= 1, up};
-  };
-  const a1 = attempt(bs[0] + sec(2.2), bs[0] + sec(5.0), 0.3);
-  const a2 = attempt(bs[0] + sec(6.2), bs[0] + sec(8.0), 0.18);
-  const cur = f < bs[0] + sec(6.0) ? a1 : a2;
-  const visible = f > bs[0] + sec(2.0) && !(a2.done && f > bs[0] + sec(9.0));
-  const sx = 342 + 298 * cur.u;
-  const sy = GY - 380 * cur.u;
-  const climbing = cur.up > 0 && cur.up < 1 && !cur.slip;
-  const rot = cur.slip ? -38 - 65 : -38;
-  const rope = sp(f, bs[1] + sec(0.4), bs[1] + sec(2.8));
-  const lab = sp(f, bs[1] + sec(2.4), bs[1] + sec(3.6));
-  const tri = sp(f, bs[1] + sec(3.4), bs[1] + sec(4.6));
-  const hq = sp(f, bs[1] + sec(4.6), bs[1] + sec(5.8));
-  const stone = sp(f, bs[2] + sec(0.4), bs[2] + sec(2.0));
-  const ang = (Math.atan2(PH, PB) * 180) / Math.PI;
-    const hatch = Array.from({length: 14}).map((_, i) => APEX_Y + 40 + i * 24);
-  return (
-    <Svg>
-      <defs>
-        <clipPath id="leftFace">
-          <path d={`M${PX - PB} ${GY} L${PX} ${APEX_Y} L${PX} ${GY} Z`} />
-        </clipPath>
-        <clipPath id="axisBand">
-          <path d={`M${PX - PB} ${GY} L${PX} ${APEX_Y} L${PX + PB} ${GY} Z`} />
-        </clipPath>
-      </defs>
-      <Dunes />
-      <Palm x={100} />
-      <Birds />
-      <Ground p={1} />
-      <Pyramid2 p={1} />
-      <g clipPath="url(#leftFace)">
-        <rect x={lerp(240, 700, sheen) - 40} y={APEX_Y - 40} width={60} height={PH + 80} fill="#fff7e0" opacity={0.35 * Math.sin(Math.PI * sheen)} transform={`skewX(-18)`} />
-      </g>
-      <path d={`M${PX} ${APEX_Y} L${PX} ${GY} L${PX + PB} ${GY} Z`} fill={C.amber} opacity={0.14 * tri} />
-      <Sky e={32} />
-      {visible && (
-        <At x={sx - 10} y={sy + 4} rot={rot}>
-          <Walker x={0} dir={1} walking={climbing} size={84} noShadow robe="#a8c9a0" speed={1.3} />
-        </At>
-      )}
-      <path d={`M${PX} ${APEX_Y} Q${PX + PB * 0.55 + 38} ${APEX_Y + PH * 0.45 - 30} ${PX + PB + 6} ${GY}`} fill="none" stroke="#f3d9a4" strokeWidth={7} strokeLinecap="round" pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - rope} />
-      {rope > 0.02 && <circle cx={PX} cy={APEX_Y} r={10} fill="#f3d9a4" />}
-      <g transform={`translate(${PX + PB / 2 + 62} ${APEX_Y + PH / 2 - 38}) rotate(${ang})`} opacity={lab}>
-        <text textAnchor="middle" fontFamily="Lora, Georgia, serif" fontStyle="italic" fontSize={42} fill={C.amber} y={0}>
-          {t.slope}
-        </text>
-      </g>
-      <line x1={PX} y1={APEX_Y} x2={PX} y2={GY} stroke={C.cream} strokeWidth={4} strokeDasharray="10 12" opacity={0.7 * hq} />
-      <Txt x={PX + 52} y={APEX_Y + PH * 0.55} size={110} color={C.amber} opacity={hq * (1 - 0.0 * stone)}>
-        ?
-      </Txt>
-      <g clipPath="url(#axisBand)" opacity={stone}>
-        {hatch.map((y, i) => (
-          <line key={i} x1={PX - 60} y1={y + 30} x2={PX + 60} y2={y - 30} stroke={C.cream} strokeWidth={2} opacity={0.35} />
-        ))}
-      </g>
-    </Svg>
-  );
-};
-
-// ---------------------------------------------------------------- 5. Ý tưởng: chiều cao nằm xuống thành cái bóng
 export const Idea: React.FC<Sc> = ({bs, t}) => {
   const f = useCurrentFrame();
   const i1 = sp(f, bs[0] + sec(1.4), bs[0] + sec(2.2));
@@ -271,7 +180,12 @@ export const Idea: React.FC<Sc> = ({bs, t}) => {
       <Pyramid2 p={1} />
       <g opacity={icons}>
         <g opacity={i1}>
-          <Ladder cx={1120} cy={250} />
+          <g stroke={C.cream} strokeWidth={5} strokeLinecap="round" fill="none">
+            <line x1={1120} y1={190} x2={1090} y2={290} />
+            <line x1={1120} y1={190} x2={1150} y2={290} />
+            <line x1={1104} y1={245} x2={1136} y2={245} />
+            <line x1={1120} y1={190} x2={1120} y2={265} strokeWidth={2.5} />
+          </g>
           <Cross x={1120} y={250} p={i1} />
         </g>
         <g opacity={i2}>

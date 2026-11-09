@@ -62,34 +62,15 @@ export function sfxEvents(): {events: Ev[]; total: number} {
   add(T(tools, 1, 8.0), 'success', 0.1, 0.55);
   add(T(tools, 2, 0.4), 'question', -0.6, 0.9);
 
-  // ---- 3. Thang và tháp người
-  const ld = S('ladder');
-  add(T(ld, 0, 0.2), 'pop', -0.7, 0.8);
-  for (let t = T(ld, 0, 0.8) + 0.2; t < T(ld, 0, 4.4); t += 0.4) add(t, 'wood', 0.2, 0.7);
-  add(T(ld, 0, 4.6), 'pop', 0.3, 0.8);
-  add(T(ld, 0, 5.0), 'bad', 0.2, 0.7);
-  for (let k = 0; k < 6; k++) {
-    add(T(ld, 1, 0.8 + 0.7 * k), 'thud', 0.3, 0.55 + 0.05 * k);
-    add(T(ld, 1, 0.9 + 0.7 * k), 'tick', 0.3, 0.5);
-  }
-  add(T(ld, 1, 3.6), 'pop', 0.3, 0.8);
-  add(T(ld, 2, -0.2), 'creak', 0.3, 0.9, 0.9);
-  add(T(ld, 2, 1.9), 'crash', 0.3, 1.0);
-  add(T(ld, 2, 2.0), 'whoosh', 0.3, 0.4);
-  add(T(ld, 2, 2.2), 'bad', 0.3, 0.8);
-
-  // ---- 4. Trơn và đường dốc
-  const sl = S('slope');
-  add(T(sl, 0, 0.4), 'whooshUp', -0.4, 0.6);
-  for (let t = T(sl, 0, 2.2); t < T(sl, 0, 5.0); t += 0.42) add(t, 'step', -0.7, 0.55);
-  add(T(sl, 0, 5.0), 'slip', -0.7, 0.9);
-  for (let t = T(sl, 0, 6.2); t < T(sl, 0, 8.0); t += 0.42) add(t, 'step', -0.7, 0.55);
-  add(T(sl, 0, 8.0), 'slip', -0.7, 0.9);
-  add(T(sl, 1, 0.4), 'rope', 0.2, 0.9);
-  add(T(sl, 1, 2.4), 'pop', 0.2, 0.8);
-  add(T(sl, 1, 3.4), 'tick', 0, 0.6);
-  add(T(sl, 1, 4.6), 'question', -0.2, 0.9);
-  add(T(sl, 2, 0.4), 'rumble', 0, 0.9, 1.8);
+  // ---- 3. Seked
+  const sk = S('seked');
+  add(T(sk, 0, 1.0), 'pop', 0.4, 0.8);
+  add(T(sk, 0, 3.0), 'pop', 0.4, 0.8);
+  add(T(sk, 1, 2.0), 'pop', 0.6, 0.8);
+  add(T(sk, 1, 3.2), 'success', 0.6, 0.55);
+  add(T(sk, 2, 1.0), 'pop', 0.1, 0.8);
+  add(T(sk, 2, 5.0), 'bad', 0.1, 0.7);
+  add(T(sk, 3, 5.0), 'question', 0.5, 0.8);
 
   // ---- 5. Ý tưởng
   const id = S('idea');

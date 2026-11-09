@@ -4,7 +4,7 @@ import {beatSeconds} from '../thales/content';
 // Video 1 bản 3 (tiếng Việt, duyệt trước): vì sao người xưa không đo được, rồi cách của Thales, rồi ngày nay.
 // Nguồn: xem remotion/scripts/thales.md
 
-export type SceneId = 'hook' | 'tools' | 'ladder' | 'slope' | 'idea' | 'sun' | 'equal' | 'half' | 'stick' | 'numbers' | 'modern' | 'everest' | 'everyday' | 'outro';
+export type SceneId = 'hook' | 'tools' | 'seked' | 'idea' | 'sun' | 'equal' | 'half' | 'stick' | 'numbers' | 'modern' | 'everest' | 'everyday' | 'outro';
 export const END3 = 3.5;
 
 export const TEXT3: Record<SceneId, string[]> = {
@@ -16,20 +16,16 @@ export const TEXT3: Record<SceneId, string[]> = {
   tools: [
     'Người Ai Cập thời đó rất giỏi đo đất. Mỗi lần sông Nin dâng nước làm mất ranh giới ruộng, họ lại căng dây để đo lại.',
     'Những người đo đất ấy được gọi là người căng dây. Chỉ cần một sợi dây dài, họ đo được cạnh đáy kim tự tháp: khoảng hai trăm ba mươi mét.',
-    'Đo ngang trên mặt đất thì dễ. Còn đo thẳng lên trời thì sao? Hãy thử hình dung vài cách đo trực tiếp.',
+    'Đo ngang trên mặt đất thì dễ. Còn đo thẳng lên trời thì sao?',
   ],
-  ladder: [
-    'Cách thứ nhất: bắc thang. Đây là suy luận của chúng ta, không phải ghi chép lịch sử. Nhưng không có cái thang nào cao tới một trăm bốn mươi bảy mét.',
-    'Vậy thì chồng người lên vai nhau? Một người cao chừng một mét bảy. Muốn bằng kim tự tháp, phải chồng khoảng tám mươi sáu người.',
-    'Một tháp người cao đến thế chắc chắn không đứng vững.',
-  ],
-  slope: [
-    'Cách thứ hai: leo lên đỉnh. Nhưng ngày xưa, theo mô tả hiện đại, kim tự tháp được ốp một lớp đá vôi trắng nhẵn, vừa dốc vừa trơn.',
-    'Cứ cho là có người thả được sợi dây từ đỉnh xuống. Sợi dây nằm sát mặt dốc, nên chỉ cho ta độ dài đường dốc, khoảng một trăm tám mươi sáu mét. Chiều cao thật phải đo theo đường thẳng đứng.',
-    'Mà đường thẳng đứng ấy nằm sâu trong khối đá, không sợi dây nào chạm tới được.',
+  seked: [
+    'Người Ai Cập còn có một cách khác, ghi trong giấy cói Rhind. Họ mô tả độ dốc của kim tự tháp bằng một tỉ lệ gọi là seked: lên cao một khuỷu tay thì mặt dốc lùi vào bao nhiêu bàn tay.',
+    'Biết cạnh đáy và tỉ lệ ấy, họ tính được chiều cao. Với Đại Kim Tự Tháp, một nửa cạnh đáy chia năm rưỡi rồi nhân bảy cho ra khoảng một trăm bốn mươi bảy mét.',
+    'Nhưng cách này dành cho lúc thiết kế, khi đã biết trước kích thước định xây. Các ghi chép còn lại không cho biết họ đo độ dốc của một tháp đã xây xong bằng cách nào.',
+    'Theo suy luận của chúng ta, muốn đo độ dốc phải đặt dụng cụ lên mặt tháp, mà mặt tháp khi đó ốp đá vôi trắng nhẵn. Thales hỏi: có cách đo chiều cao mà không cần bản thiết kế và không cần leo lên không?',
   ],
   idea: [
-    'Vấn đề là gì? Dây và thước chỉ đo tốt những gì nằm trên mặt đất, còn chiều cao thì nằm thẳng đứng.',
+    'Vấn đề là gì? Tỉ lệ độ dốc cần có sẵn bản thiết kế. Dây chỉ đo được mặt đất. Còn chiều cao thì nằm thẳng đứng.',
     'Vậy nếu biến chiều cao thành thứ nằm trên mặt đất thì sao? Có một thứ làm được điều đó: cái bóng.',
     'Các ghi chép cổ kể rằng Thales đã dùng đúng cái bóng để đo kim tự tháp. Chiều cao như nằm xuống đất.',
   ],
@@ -85,6 +81,13 @@ export const TEXT3: Record<SceneId, string[]> = {
 };
 
 export const LABELS3: Record<string, string> = {
+  sekRise: '1 khuỷu tay = 7 bàn tay',
+  sekRun: '5½ bàn tay',
+  sekName: 'seked: độ dốc',
+  sekCalc: '115 m ÷ 5½ × 7 ≈ 147 m',
+  sekDesign: 'cần biết sẵn kích thước',
+  infer: 'suy luận của chúng ta',
+  sekHint: 'đặt dụng cụ lên mặt dốc?',
   title: 'Thales đo kim tự tháp như thế nào',
   halfBase: '½ cạnh đáy',
   measured: 'đo được',
@@ -118,7 +121,7 @@ export const LABELS3: Record<string, string> = {
 
 export type Beat3 = {text: string; start: number; dur: number};
 export type SceneTl3 = {id: SceneId; start: number; dur: number; beats: Beat3[]; bs: number[]};
-const ORDER: SceneId[] = ['hook', 'tools', 'ladder', 'slope', 'idea', 'sun', 'equal', 'half', 'stick', 'numbers', 'modern', 'everest', 'everyday', 'outro'];
+const ORDER: SceneId[] = ['hook', 'tools', 'seked', 'idea', 'sun', 'equal', 'half', 'stick', 'numbers', 'modern', 'everest', 'everyday', 'outro'];
 
 export function timeline3(): {scenes: SceneTl3[]; total: number; beats: Beat3[]} {
   let f = 0;

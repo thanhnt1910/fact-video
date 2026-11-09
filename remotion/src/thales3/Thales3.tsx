@@ -5,13 +5,12 @@ import {Fonts} from '../lib/Fonts';
 import {Background, Captions, Hud, SceneFade} from '../thales/Thales';
 import {Equal, Finale, Half, Numbers, Sc, StickTrick, SunShadow} from '../thales2/scenes';
 import {LABELS3, SceneId, timeline3} from './content';
-import {Everest, Everyday, Hook3, Idea, LadderFail, Modern, SlopeFail, Tools} from './scenes';
+import {Everest, Everyday, Hook3, Idea, Modern, Seked, Tools} from './scenes';
 
 const SCENES: Record<SceneId, React.FC<Sc>> = {
   hook: Hook3,
   tools: Tools,
-  ladder: LadderFail,
-  slope: SlopeFail,
+  seked: Seked,
   idea: Idea,
   sun: SunShadow,
   equal: Equal,

@@ -1,18 +1,17 @@
-STYLE: Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. 
-TEXT: Một cây gậy mà đo được cả Trái Đất?
-
-Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà Eratosthenes đã làm được.
-
-Một phần năm mươi vòng, nên cả Trái Đất dài gấp năm mươi lần: hai trăm năm mươi nghìn stadia.
-
-Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi, vậy là gần bốn mươi nghìn cây số.
-
-== Aoede ==
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Aoede
-
-== Zephyr ==
-OK Zephyr
-
-== Leda ==
-OK Leda
+OK Leda 01: Một cây gậy mà đo được cả Trái Đất?
+OK Leda 02: Hơn hai nghìn năm trước, chưa có vệ tinh. Vậy mà E
+OK Leda 03: Không ai đi vòng quanh Trái Đất được, nên không th
+OK Leda 04: Người ta kể: ở Syene, trưa ngày dài nhất năm, nắng
+OK Leda 05: Cùng lúc ở Alexandria, cột dựng thẳng vẫn có bóng,
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 06: Nắng chiếu song song, nên hai nơi khác nhau chỉ vì
+OK Leda 07: Góc cái bóng chính là góc giữa hai thành phố, nhìn
+OK Leda 08: Người đếm bước cho biết hai thành phố cách nhau kh
+OK Leda 09: Một phần năm mươi vòng, nên cả Trái Đất dài gấp nă
+OK Leda 10: Mỗi stadion khoảng một trăm năm mươi bảy mét rưỡi,
+OK Leda 11: Số đo ngày nay chỉ nhỉnh hơn một chút: lệch chưa t
+OK Leda 12: Hơn hai nghìn năm sau, người Pháp làm tương tự: đo
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 13: Một phần mười triệu đường ấy là mét đầu tiên.
+OK Leda 14: Một cây gậy, một cái bóng và phép tính. Đó là cách

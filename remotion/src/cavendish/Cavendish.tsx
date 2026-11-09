@@ -4,7 +4,7 @@ import {C} from '../lib/theme';
 import {Fonts} from '../lib/Fonts';
 import {SceneFade} from '../thales/Thales';
 import {LAB, SceneId, timeline} from './content';
-import {Calc, Device, Hook, Idea, Mount, Outro, Sc} from './scenes';
+import {Calc, Check, Device, Hook, Idea, Mount, Outro, Sc} from './scenes';
 import {VBackground, VCaptions, VHud} from '../eratosthenes/v';
 import CAPS from './caps.json';
 
@@ -14,6 +14,7 @@ const SCENES: Record<SceneId, React.FC<Sc>> = {
   idea: Idea,
   device: Device,
   calc: Calc,
+  check: Check,
   outro: Outro,
 };
 

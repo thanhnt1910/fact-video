@@ -377,17 +377,40 @@ export const Device: React.FC<Sc> = ({bs, t}) => {
   );
 };
 
-// ============ 5. Tính ra con số ============
+// ============ 5. Công thức: nhân 3 con số ============
+const BX = [45, 395, 745];
+const BW = 290;
 export const Calc: React.FC<Sc> = ({bs, t}) => {
   const f = useCurrentFrame();
-  const [k0, k1, k2, k3, k4] = bs;
+  const [k0, k1, k2, k3, k4, k5] = bs;
   const c0 = sp(f, 0, 24) * (1 - sp(f, k1 - 6, k1 + 8));
-  const c1 = sp(f, k1 + 4, k1 + 20) * (1 - sp(f, k2 - 6, k2 + 8));
-  const c2 = sp(f, k2 + 4, k2 + 22) * (1 - sp(f, k3 - 6, k3 + 8));
-  const c3 = sp(f, k3 + 4, k3 + 22) * (1 - sp(f, k4 - 6, k4 + 8));
-  const c4 = sp(f, k4 + 4, k4 + 22);
-  const tilt = 14 * sp(f, k2 + 20, k2 + 70);
-  const bar = (v: number, p: number) => 760 * (v / 5.6) * p;
+  const board = sp(f, k1 + 4, k1 + 22);
+  const pn = (k: number, kn: number) => sp(f, k + 4, k + 20) * (1 - sp(f, kn - 6, kn + 8));
+  const i2 = pn(k2, k3);
+  const i3 = pn(k3, k4);
+  const i4 = pn(k4, k5);
+  const i5 = sp(f, k5 + 4, k5 + 22);
+  const box = (i: number, num: string, name: string, p: number, hl: boolean) => (
+    <g opacity={p}>
+      <rect x={BX[i]} y={330} width={BW} height={210} rx={22} fill={C.bg1} stroke={hl ? C.amber : C.cream} strokeWidth={hl ? 6 : 3} strokeOpacity={hl ? 1 : 0.5} />
+      <Lab x={BX[i] + BW / 2} y={382} size={36} color={C.amber}>{'①②③'[i]}</Lab>
+      <Big x={BX[i] + BW / 2} y={452} size={num.length > 9 ? 40 : 52} color={C.cream}>{num}</Big>
+      <Lab x={BX[i] + BW / 2} y={510} size={26} color={D}>{name}</Lab>
+    </g>
+  );
+  const dist = (p: number) => (
+    <g opacity={p}>
+      <circle cx={170} cy={900} r={92} fill={LEAD} stroke={C.cream} strokeWidth={5} />
+      <Ball x={420} y={900} r={34} />
+      <line x1={262} y1={1010} x2={386} y2={1010} stroke={C.amber} strokeWidth={6} />
+      <Lab x={324} y={1060} size={30} color={C.amber}>{t.dNear}</Lab>
+      <circle cx={760} cy={2300} r={1300} fill="url(#globeG)" stroke={C.cream} strokeWidth={5} />
+      <Ball x={760} y={900} r={34} />
+      <line x1={760} y1={950} x2={760} y2={1000} stroke={C.cream} strokeWidth={5} strokeDasharray="10 12" />
+      <Lab x={760} y={1060} size={30} color={C.cream}>{t.dFar}</Lab>
+      <Lab x={540} y={1180} size={40} color={C.amber}>{t.d28}</Lab>
+    </g>
+  );
   return (
     <Svg>
       {/* 19: hai lực lên cùng quả cầu nhỏ */}
@@ -402,22 +425,61 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
         <Lab x={640} y={660} size={34} color={C.amber} o={sp(f, k0 + 100, k0 + 124)}>{t.eSide}</Lab>
         <Lab x={540} y={1210} size={28} color={D} o={0.9}>{t.notRatio}</Lab>
       </g>
-      {/* 20: cần biết ba điều */}
-      <g opacity={c1}>
-        {[t.c1, t.c2, t.c3].map((s, i) => {
-          const p = sp(f, k1 + 10 + i * 36, k1 + 30 + i * 36);
-          return (
-            <g key={i} opacity={p}>
-              <rect x={160} y={360 + i * 130} width={760} height={92} rx={18} fill={C.bg1} stroke={C.cream} strokeWidth={3} strokeOpacity={0.5} />
-              <path d={`M 200 ${406 + i * 130} l 18 20 l 36 -42`} fill="none" stroke={C.amber} strokeWidth={9} strokeLinecap="round" strokeLinejoin="round" />
-              <Lab x={290} y={418 + i * 130} size={42} color={C.cream} anchor="start">{s}</Lab>
-            </g>
-          );
-        })}
-        <Arrow x1={540} y1={780} x2={540} y2={900} color={C.amber} w={10} p={sp(f, k1 + 120, k1 + 150)} />
-        <Big x={540} y={1010} size={76} color={C.amber} o={sp(f, k1 + 130, k1 + 160)}>{t.res}</Big>
+      {/* 20–24: bảng công thức */}
+      <g opacity={board}>
+        <Big x={540} y={250} size={50} color={C.cream}>{t.fTitle}</Big>
+        {box(0, t.n1, t.nm1, sp(f, k1 + 10, k1 + 26), f >= k2 && f < k3)}
+        {box(1, t.n2, t.nm2, sp(f, k1 + 22, k1 + 38), f >= k2 && f < k3)}
+        {box(2, f >= k4 ? t.n3b : f >= k3 ? t.n3a : '?', t.nm3, sp(f, k1 + 34, k1 + 50), f >= k3 && f < k5)}
+        <Big x={365} y={455} size={48} color={C.amber} o={sp(f, k1 + 22, k1 + 38)}>×</Big>
+        <Big x={715} y={455} size={48} color={C.amber} o={sp(f, k1 + 34, k1 + 50)}>×</Big>
       </g>
-      {/* 21: cân Trái Đất với khối nước cùng kích thước */}
+      {/* 21: quả chì và lực mạnh hơn 48 triệu lần */}
+      <g opacity={i2}>
+        <circle cx={250} cy={900} r={92} fill={LEAD} stroke={C.cream} strokeWidth={5} />
+        <Lab x={250} y={1040} size={32} color={C.cream}>{t.lead158}</Lab>
+        <Arrow x1={620} y1={820} x2={700} y2={820} color={C.amber} w={9} />
+        <Lab x={660} y={780} size={28} color={C.amber}>{t.fLead}</Lab>
+        <Arrow x1={620} y1={960} x2={1000} y2={960} color={C.cream} w={22} p={sp(f, k2 + 40, k2 + 80)} />
+        <Lab x={810} y={920} size={28} color={C.cream}>{t.fEarth2}</Lab>
+        <Big x={810} y={1070} size={60} color={C.amber} o={sp(f, k2 + 70, k2 + 100)}>{t.m48}</Big>
+      </g>
+      {/* 22: khoảng cách */}
+      {dist(i3 * 1)}
+      {/* 23: xa gấp đôi, lực yếu 4 lần */}
+      <g opacity={i4}>
+        <Ball x={200} y={820} r={30} />
+        <Arrow x1={200} y1={870} x2={200} y2={1070} color={C.amber} w={18} p={sp(f, k4 + 14, k4 + 40)} />
+        <Lab x={200} y={1130} size={28} color={C.cream}>{t.d1}</Lab>
+        <Ball x={640} y={820} r={30} />
+        <Arrow x1={640} y1={870} x2={640} y2={920} color={C.amber} w={6} p={sp(f, k4 + 60, k4 + 80)} />
+        <Lab x={640} y={1130} size={28} color={C.cream}>{t.d2}</Lab>
+        <Lab x={420} y={720} size={34} color={C.amber} o={sp(f, k4 + 50, k4 + 70)}>{t.x4}</Lab>
+        <Big x={540} y={1260} size={44} color={C.cream} o={sp(f, k4 + 100, k4 + 130)}>{t.sq}</Big>
+      </g>
+      {/* 24: phép nhân ra kết quả */}
+      <g opacity={i5}>
+        <Big x={540} y={700} size={50} color={C.cream} o={sp(f, k5 + 8, k5 + 30)}>{t.mulRow}</Big>
+        <Arrow x1={540} y1={760} x2={540} y2={870} color={C.amber} w={10} p={sp(f, k5 + 40, k5 + 70)} />
+        <Big x={540} y={990} size={78} color={C.amber} o={sp(f, k5 + 60, k5 + 96)}>{t.mass}</Big>
+        <Lab x={540} y={1050} size={28} color={D} o={sp(f, k5 + 76, k5 + 100)}>{t.zeros}</Lab>
+      </g>
+    </Svg>
+  );
+};
+
+// ============ 5b. Kiểm lại ============
+export const Check: React.FC<Sc> = ({bs, t}) => {
+  const f = useCurrentFrame();
+  const [, k3, k4] = bs;
+  const c2 = sp(f, 0, 22) * (1 - sp(f, k3 - 6, k3 + 8));
+  const c3 = sp(f, k3 + 4, k3 + 22) * (1 - sp(f, k4 - 6, k4 + 8));
+  const c4 = sp(f, k4 + 4, k4 + 22);
+  const tilt = 14 * sp(f, 20, 70);
+  const bar = (v: number, p: number) => 760 * (v / 5.6) * p;
+  return (
+    <Svg>
+      {/* 25: cân Trái Đất với khối nước cùng kích thước */}
       <g opacity={c2}>
         <Scale
           x={540}
@@ -429,9 +491,9 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
         />
         <Lab x={290} y={1010} size={32} color={WATER}>{t.water}</Lab>
         <Lab x={790} y={1010} size={32} color={C.cream}>{t.earthSame}</Lab>
-        <Big x={540} y={1160} size={84} color={C.amber} o={sp(f, k2 + 60, k2 + 90)}>{t.times}</Big>
+        <Big x={540} y={1160} size={84} color={C.amber} o={sp(f, 60, 90)}>{t.times}</Big>
       </g>
-      {/* 22: bên trong phải có thứ nặng */}
+      {/* 26: bên trong phải có thứ nặng */}
       <g opacity={c3}>
         <circle cx={540} cy={680} r={270} fill="#1f5a60" stroke={C.cream} strokeWidth={6} />
         <circle cx={540} cy={680} r={252} fill="none" stroke="#a88a64" strokeWidth={22} opacity={0.85} />
@@ -442,7 +504,7 @@ export const Calc: React.FC<Sc> = ({bs, t}) => {
         <Lab x={540} y={1060} size={38} color={C.amber} o={sp(f, k3 + 50, k3 + 76)}>{t.core}</Lab>
         <Lab x={540} y={1130} size={34} color={C.cream} o={sp(f, k3 + 20, k3 + 40)}>{t.whole}</Lab>
       </g>
-      {/* 23: khối lượng và so sánh với số đo ngày nay */}
+      {/* 27: khối lượng và so sánh với số đo ngày nay */}
       <g opacity={c4}>
         <Big x={540} y={360} size={78} color={C.amber} o={sp(f, k4 + 6, k4 + 36)}>{t.mass}</Big>
         <Lab x={540} y={420} size={28} color={D} o={sp(f, k4 + 24, k4 + 44)}>{t.zeros}</Lab>

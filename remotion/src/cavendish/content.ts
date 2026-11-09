@@ -5,7 +5,7 @@ import ledaDur from './leda_dur.json';
 // Video khoa học số 2 (dọc 1080x1920, tiếng Việt): Cân Trái Đất (Cavendish). Kịch bản và nguồn: ke-hoach/khoa-hoc-video-2-can-trai-dat-kich-ban.md
 // Văn bản ở đây là PHỤ ĐỀ (chữ số); bản đọc nằm trong ke-hoach/giong-video-khoa-hoc-cavendish.json.
 
-export type SceneId = 'hook' | 'mount' | 'idea' | 'device' | 'calc' | 'outro';
+export type SceneId = 'hook' | 'mount' | 'idea' | 'device' | 'calc' | 'check' | 'outro';
 export const END_C = 3.5;
 
 export const TEXT_C: Record<SceneId, string[]> = {
@@ -37,10 +37,16 @@ export const TEXT_C: Record<SceneId, string[]> = {
   ],
   calc: [
     'Cùng một quả cầu nhỏ, một bên bị Trái Đất kéo xuống đất, một bên bị quả chì kéo sang ngang.',
-    'So hai lực ấy, biết quả chì nặng bao nhiêu, nằm cách bao xa, và Trái Đất to cỡ nào, là tính ra được Trái Đất nặng bao nhiêu.',
-    'Kết quả: Trái Đất nặng gần 5,5 lần so với một khối nước cùng kích thước.',
+    'Muốn biết Trái Đất nặng bao nhiêu, chỉ cần nhân 3 con số với nhau.',
+    '1: quả chì nặng 158 ki-lô-gam. 2: Trái Đất kéo mạnh hơn quả chì khoảng 48 triệu lần.',
+    '3: tâm Trái Đất cách quả cầu nhỏ hơn 6 000 km, xa hơn quả chì khoảng 28 triệu lần.',
+    'Lực hút yếu đi rất nhanh khi ở xa: xa gấp đôi thì yếu đi 4 lần. Vì vậy phải nhân con số ấy với chính nó, ra khoảng 800 nghìn tỷ.',
+    '158 × 48 triệu × 800 nghìn tỷ ≈ 6 nghìn tỷ tỷ tấn.',
+  ],
+  check: [
+    'Đem chia cho thể tích Trái Đất, ra độ nặng gần 5,5 lần so với một khối nước cùng kích thước.',
     'Đá trên mặt đất nhẹ hơn thế nhiều, nên bên trong Trái Đất phải có thứ gì đó rất nặng.',
-    'Nhân lên cho cả quả cầu, Trái Đất nặng khoảng 6 nghìn tỷ tỷ tấn, mà số đo ngày nay chỉ lệch chưa đến 1%.',
+    'Số đo ngày nay chỉ lệch chưa đến 1% so với kết quả của Cavendish.',
   ],
   outro: [
     'Chỉ với 2 quả chì, một sợi dây và rất nhiều kiên nhẫn, Cavendish đã cân được cả Trái Đất.',
@@ -89,6 +95,26 @@ export const LAB: Record<string, string> = {
   swap: 'đổi chỗ quả lớn',
   back: 'thanh xoay ngược lại',
   noteB: 'ghi lại',
+  fTitle: 'Trái Đất nặng = ① × ② × ③',
+  n1: '158 kg',
+  nm1: 'quả chì nặng',
+  n2: '48 triệu',
+  nm2: 'Trái Đất kéo mạnh hơn',
+  n3a: '28 triệu × 28 triệu',
+  n3b: '800 nghìn tỷ',
+  nm3: 'xa hơn bao nhiêu, bình phương',
+  lead158: 'quả chì: 158 kg',
+  fLead: 'lực quả chì',
+  fEarth2: 'lực Trái Đất',
+  m48: 'mạnh hơn khoảng 48 triệu lần',
+  dNear: 'vài chục cm',
+  dFar: 'hơn 6 000 km',
+  d28: 'xa hơn khoảng 28 triệu lần',
+  d1: 'cách 1',
+  d2: 'cách 2',
+  x4: 'xa gấp đôi, yếu 4 lần',
+  sq: '28 triệu × 28 triệu ≈ 800 nghìn tỷ',
+  mulRow: '158 × 48 triệu × 800 nghìn tỷ',
   eFall: 'Trái Đất kéo xuống đất',
   eSide: 'quả chì kéo sang ngang',
   notRatio: '(không vẽ đúng tỉ lệ)',
@@ -113,7 +139,7 @@ export const LAB: Record<string, string> = {
 
 export type Beat = {text: string; start: number; dur: number};
 export type SceneTl = {id: SceneId; start: number; dur: number; beats: Beat[]; bs: number[]};
-const ORDER: SceneId[] = ['hook', 'mount', 'idea', 'device', 'calc', 'outro'];
+const ORDER: SceneId[] = ['hook', 'mount', 'idea', 'device', 'calc', 'check', 'outro'];
 
 export function timeline(): {scenes: SceneTl[]; total: number; beats: Beat[]} {
   let f = 0;

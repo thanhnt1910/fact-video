@@ -46,13 +46,23 @@ export function sfxEvents(): {events: Ev[]; total: number} {
   const k = S('calc');
   add(T(k, 0, 1.0), 'pop', 0, 0.5);
   add(T(k, 0, 3.4), 'tick', 0.3, 0.5);
-  for (let n = 0; n < 3; n++) add(T(k, 1, 0.6 + n * 1.2), 'tick', 0, 0.5);
-  add(T(k, 1, 4.6), 'chime', 0, 0.5);
-  add(T(k, 2, 1.0), 'swing', 0, 0.5);
-  add(T(k, 2, 3.2), 'thud', 0, 0.5);
-  add(T(k, 3, 2.0), 'question', 0, 0.6);
+  add(T(k, 1, 0.8), 'pop', 0, 0.5);
+  for (let n = 0; n < 3; n++) add(T(k, 1, 1.8 + n * 0.5), 'tick', 0, 0.4);
+  add(T(k, 2, 0.8), 'tick', -0.2, 0.5);
+  add(T(k, 2, 2.6), 'tick', 0.2, 0.5);
+  add(T(k, 3, 0.8), 'tick', 0, 0.5);
+  add(T(k, 3, 3.0), 'chime', 0, 0.5);
   add(T(k, 4, 1.0), 'whoosh', 0, 0.4);
-  add(T(k, 4, 4.2), 'success', 0, 0.6);
+  add(T(k, 4, 3.4), 'thud', 0, 0.5);
+  add(T(k, 5, 1.0), 'tick', 0, 0.5);
+  add(T(k, 5, 3.0), 'success', 0, 0.6);
+
+  const c = S('check');
+  add(T(c, 0, 1.0), 'swing', 0, 0.5);
+  add(T(c, 0, 3.2), 'thud', 0, 0.5);
+  add(T(c, 1, 2.0), 'question', 0, 0.6);
+  add(T(c, 2, 1.0), 'whoosh', 0, 0.4);
+  add(T(c, 2, 3.4), 'chime', 0, 0.5);
 
   const e = S('outro');
   add(T(e, 0, 0.3), 'whooshDown', 0, 0.4);

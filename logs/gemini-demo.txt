@@ -1,29 +1,30 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Hơn hai nghìn năm trước, có một người đã tính ra T
-OK Leda 02: Ông không có vệ tinh, không có máy bay. Ông chỉ có
+OK Leda 01: Cân một quả táo thì dễ. Nhưng làm sao *cân được cả
+OK Leda 02: Không có chiếc cân nào *đủ lớn*, và cũng không ai 
+OK Leda 03: Năm *1774*, nhà thiên văn *Nevil Maskelyne* mang m
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Khó ở chỗ Trái Đất quá lớn. Không ai đi bộ hết một
-OK Leda 04: Ông tên là Eratosthenes. Người ta kể ông nghe một 
+OK Leda 04: Dây dọi là sợi dây treo *một quả nặng* ở đầu, nên 
+OK Leda 05: Ngọn núi đứng bên cạnh *cũng hút* quả nặng, nên sợ
+OK Leda 06: So *lực hút của núi* với *lực hút của cả Trái Đất*
+OK Leda 07: Nhưng *không ai biết* bên trong núi là loại đá nào
+OK Leda 08: Kết quả ra *thấp hơn thật* khoảng *1/5.*
+OK Leda 09: Cách tốt hơn là *mang ngọn núi vào trong phòng*, b
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Mỗi năm có một trưa, nắng rọi thẳng xuống tận đáy 
-OK Leda 06: Cùng trưa hôm đó, ở thành phố Alexandria, cách Sye
-OK Leda 07: Cùng một Mặt Trời, cùng một giờ. Chỗ này không có 
-OK Leda 08: Hãy nhìn một quả cam. Cắm hai cây tăm lên vỏ cam, 
-OK Leda 09: Vỏ cam cong, nên hai cây tăm hướng về hai phía khá
+OK Leda 10: Ý tưởng này của mục sư *John Michell*, nhưng ông *
+OK Leda 11: Người làm tiếp là *Henry Cavendish*, một nhà khoa 
+OK Leda 12: Ông treo một *thanh gỗ dài* bằng sợi dây mảnh, *2 
+OK Leda 13: Rồi ông đặt gần chúng *2 quả cầu chì lớn*, mỗi quả
+OK Leda 14: Quả lớn *kéo* quả nhỏ về phía mình, làm *thanh gỗ 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Nếu mặt đất phẳng như tờ giấy, hai cái bóng sẽ giố
-OK Leda 11: Vậy cái bóng chính là bằng chứng: mặt đất cong. Ha
-OK Leda 12: Ông đo cái bóng, và tính ra hai thành phố lệch nha
-OK Leda 13: Giống như cắt cái bánh thành năm mươi miếng, hai t
+OK Leda 15: Lực kéo ấy nhỏ hơn sức nặng của chính quả cầu nhỏ 
+OK Leda 16: Chỉ cần *một luồng gió*, hay *một bên hộp ấm hơn* 
+OK Leda 17: Vì vậy Cavendish *nhốt* cả thiết bị trong *một căn
+OK Leda 18: Ông kéo dây để *đổi chỗ* quả cầu lớn sang bên kia,
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Người ta đã đếm bước chân và biết khoảng cách giữa
-OK Leda 15: Một miếng là tám trăm cây số, thì cả cái bánh là n
-OK Leda 16: Tám trăm nhân năm mươi, được khoảng bốn mươi nghìn
-OK Leda 17: Ngày nay vệ tinh đo được hơn bốn mươi nghìn cây số
+OK Leda 19: Cùng một quả cầu nhỏ, một bên bị *Trái Đất kéo xuố
+OK Leda 20: *So hai lực ấy*, biết quả chì nặng bao nhiêu, nằm 
+OK Leda 21: Kết quả: Trái Đất nặng *gần 5,5 lần* so với một kh
+OK Leda 22: Đá trên mặt đất *nhẹ hơn* thế nhiều, nên bên trong
+OK Leda 23: Nhân lên cho cả quả cầu, Trái Đất nặng khoảng *6 n
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 18: Thời đó người ta đo bằng đơn vị khác nên đổi ra câ
-OK Leda 19: Cách nghĩ ấy còn dùng đến nay.
-OK Leda 20: Người Pháp đo một đoạn từ Dunkerque tới Barcelona,
-OK Leda 21: Một phần mười triệu của đường ấy được lấy làm một 
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 22: Một cây gậy, một cái bóng và một phép chia. Đó là 
+OK Leda 24: Chỉ với *2 quả chì*, một sợi dây và rất nhiều kiên

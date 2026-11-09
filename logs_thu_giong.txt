@@ -15,15 +15,136 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-09 10:42:50
-còn thiếu 1 câu
+còn thiếu 62 câu
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 19h51m27s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 17h43m3s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 91005-91005: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 12:08:36
-OK cụm 91005 - 91005 7.8 giây
-[báo cáo giọng] 15/15 đoạn có nhật ký tạo giọng
-   model: gemini-3.8-flash-tts
-   cach_goi: interactions
-   voice: Leda
-   style_id: 948ae17d
+   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
+   [giọng] nhóm 92001-92001: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:00
+OK cụm 92001 - 92001 6.9 giây
+   [giọng] nhóm 92002-92002: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:04
+OK cụm 92002 - 92002 6.9 giây
+   [giọng] nhóm 92003-92003: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:07
+OK cụm 92003 - 92003 4.5 giây
+   [giọng] nhóm 92004-92004: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:11
+OK cụm 92004 - 92004 7.8 giây
+   [giọng] nhóm 92005-92005: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:15
+OK cụm 92005 - 92005 8.8 giây
+   [giọng] nhóm 92006-92006: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:20
+OK cụm 92006 - 92006 8.2 giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 39s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 92007-92007: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:24
+OK cụm 92007 - 92007 6.8 giây
+   [giọng] nhóm 92008-92008: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:28
+OK cụm 92008 - 92008 6.6 giây
+   [giọng] nhóm 92009-92009: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:32
+OK cụm 92009 - 92009 6.9 giây
+   [giọng] nhóm 92010-92010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:35
+OK cụm 92010 - 92010 4.2 giây
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …2eGQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 24s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 92011-92011: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:39
+OK cụm 92011 - 92011 6.4 giây
+   [giọng] nhóm 93001-93001: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:44
+OK cụm 93001 - 93001 6.9 giây
+   [giọng] nhóm 93002-93002: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:48
+OK cụm 93002 - 93002 6.3 giây
+   [giọng] nhóm 93003-93003: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:52
+OK cụm 93003 - 93003 8.9 giây
+   [giọng] nhóm 93004-93004: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:17:56
+OK cụm 93004 - 93004 7.0 giây
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …xfFA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 3s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 93005-93005: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:00
+OK cụm 93005 - 93005 5.6 giây
+   [giọng] nhóm 93006-93006: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:04
+OK cụm 93006 - 93006 5.7 giây
+   [giọng] nhóm 93007-93007: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:09
+OK cụm 93007 - 93007 6.1 giây
+   [giọng] nhóm 93008-93008: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:13
+OK cụm 93008 - 93008 6.6 giây
+   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …XVkg / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 46s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 93009-93009: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:17
+OK cụm 93009 - 93009 5.8 giây
+   [giọng] nhóm 93010-93010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:22
+OK cụm 93010 - 93010 9.5 giây
+   [giọng] nhóm 93011-93011: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:26
+OK cụm 93011 - 93011 4.0 giây
+   [giọng] nhóm 93012-93012: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:30
+OK cụm 93012 - 93012 4.0 giây
+   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …6oKQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 29s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 94001-94001: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:34
+OK cụm 94001 - 94001 6.8 giây
+   [giọng] nhóm 94002-94002: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:38
+OK cụm 94002 - 94002 5.2 giây
+   [giọng] nhóm 94003-94003: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:41
+OK cụm 94003 - 94003 6.8 giây
+   [giọng] nhóm 94004-94004: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:45
+OK cụm 94004 - 94004 7.2 giây
+   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Qvug / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 14s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 94005-94005: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:49
+OK cụm 94005 - 94005 6.3 giây
+   [giọng] nhóm 94006-94006: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:18:57
+OK cụm 94006 - 94006 5.8 giây
+   [giọng] nhóm 94007-94007: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:00
+OK cụm 94007 - 94007 3.6 giây
+   [giọng] nhóm 94008-94008: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:04
+OK cụm 94008 - 94008 6.7 giây
+   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …S_3g / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 55s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 94009-94009: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:08
+OK cụm 94009 - 94009 3.8 giây
+   [giọng] nhóm 94010-94010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:11
+OK cụm 94010 - 94010 6.5 giây
+   [giọng] nhóm 94011-94011: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:16
+OK cụm 94011 - 94011 7.3 giây
+   [giọng] nhóm 95001-95001: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:20
+OK cụm 95001 - 95001 5.3 giây
+   [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Snsg / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 39s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 95002-95002: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:23
+OK cụm 95002 - 95002 3.2 giây
+   [giọng] nhóm 95003-95003: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:27
+OK cụm 95003 - 95003 4.9 giây
+   [giọng] nhóm 95004-95004: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:31
+OK cụm 95004 - 95004 5.2 giây
+   [giọng] nhóm 95005-95005: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:36
+OK cụm 95005 - 95005 4.7 giây
+   [gemini] khóa …GAcg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …GAcg / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 23s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 95006-95006: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:40
+OK cụm 95006 - 95006 7.6 giây
+   [giọng] nhóm 95007-95007: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:43
+OK cụm 95007 - 95007 2.7 giây
+   [giọng] nhóm 95008-95008: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:48
+OK cụm 95008 - 95008 7.3 giây
+   [giọng] nhóm 95009-95009: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:52
+OK cụm 95009 - 95009 5.8 giây
+   [gemini] khóa …WLfg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …WLfg / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 7s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 95010-95010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:19:56
+OK cụm 95010 - 95010 6.6 giây
+   [giọng] nhóm 95011-95011: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:00
+OK cụm 95011 - 95011 7.4 giây
+   [giọng] nhóm 95012-95012: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:04
+OK cụm 95012 - 95012 5.4 giây
+   [giọng] nhóm 95013-95013: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:08
+OK cụm 95013 - 95013 5.7 giây
+   [gemini] khóa …xwcQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …xwcQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 51s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 95014-95014: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:12
+OK cụm 95014 - 95014 4.6 giây
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [giọng] nhóm 96001-96001: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:17
+OK cụm 96001 - 96001 7.7 giây
+   [giọng] nhóm 96002-96002: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:21
+OK cụm 96002 - 96002 8.5 giây
+   [giọng] nhóm 96003-96003: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:25
+OK cụm 96003 - 96003 7.2 giây
+   [giọng] nhóm 96004-96004: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-09 14:20:29
+OK cụm 96004 - 96004 8.2 giây
+   [gemini] đã gặp 14 lần 429 trong lần chạy này, DỪNG HẲN để khỏi bị khóa khóa

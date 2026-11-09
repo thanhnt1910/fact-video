@@ -30,3 +30,9 @@ Mạch: người xưa thử đo (dây đo đất, thang, tháp người, leo tr�
 - Everest: Great Trigonometrical Survey, góc đo từ trạm cách đỉnh khoảng 160–190 km, nối từ đường chuẩn 1802; Waugh công bố 3/1856 ≈ 29.002 feet (≈ 8.840 m) (explorersweb.com/the-five-men-who-measured-mount-everest). Số chính thức 8.848,86 m do Trung Quốc và Nepal công bố 12/2020 (Britannica).
 - Đo cây bằng bóng, bản đồ/mô hình theo tỉ lệ: kiến thức chung về tam giác đồng dạng, không gắn nguồn riêng.
 - Cảnh người leo trượt, tháp người, lạc đà là hình minh họa, không phải chi tiết từ nguồn cổ.
+
+## Đối chiếu "cách đo trước Thales" (09/11/2026)
+- Dây đo đất: cảnh khảo sát bằng dây thắt nút trong mộ Menna (Wikipedia, Egyptian geometry); Herodotus 2.109, Democritus qua Clement. Chỉ đo mặt đất.
+- Seked (độ dốc = palm ngang trên mỗi cubit cao): Rhind papyrus bài 56–59; bài 57 tính chiều cao từ cạnh đáy + seked, bài 58 tính seked từ đáy + cao. Đại Kim Tự Tháp seked 5½ (~51,84°). Dùng khi THIẾT KẾ; "khung chữ A + dây dọi" khi xây chỉ là suy đoán, không có bằng chứng khảo cổ Cổ Vương quốc (Wikipedia, Seked).
+- KHÔNG có nguồn nào ghi thang, tháp người, leo dốc, dây dọc mặt dốc là cách đã thử và thất bại → chỉ là thí nghiệm tư duy, phải ghi rõ trong video.
+- Thales: Diogenes Laertius (dẫn Hieronymus, mất bản gốc): đo lúc bóng bằng người; Pliny NH: Thales tìm ra cách đo cao kim tự tháp và công trình tương tự; Plutarch (Neiloxenus nói): cắm gậy ở mút bóng, hai tam giác, tỉ lệ bóng — không cần bóng bằng vật. Chuyến đi Ai Cập còn nghi vấn (MAA).

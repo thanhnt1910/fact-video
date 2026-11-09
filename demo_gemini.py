@@ -38,6 +38,28 @@ def main():
     own = ROOT / "ke-hoach" / "giong-thu-khoa-hoc.json"
     own_cfg = json.loads(own.read_text(encoding="utf-8")) if own.exists() else None
 
+    # Chế độ đọc TỪNG CÂU cho video khoa học (nhánh khoa-hoc): demo/era/<giọng>/NN.wav
+    vid = ROOT / "ke-hoach" / "giong-video-khoa-hoc.json"
+    if vid.exists():
+        cfg = json.loads(vid.read_text(encoding="utf-8"))
+        ok = 0
+        for v in voices:
+            d = out / "era" / v.lower()
+            d.mkdir(parents=True, exist_ok=True)
+            for it in cfg["sentences"]:
+                f = d / f"{it['n']:02d}.wav"
+                if f.exists():
+                    ok += 1
+                    continue
+                try:
+                    f.write_bytes(gemini_tts.synth(it["say"], cfg["style"], v))
+                    ok += 1
+                    print(f"OK {v} {it['n']:02d}: {it['text'][:50]}", flush=True)
+                except Exception as e:
+                    print(f"LỖI {v} {it['n']:02d}: {e}", flush=True)
+        (out / "list.txt").write_text("", encoding="utf-8")
+        sys.exit(0 if ok else 1)
+
     # Gửi cả đoạn trong 1 lần gọi (ít tốn lượt), lời dặn tổng hợp theo từng cảnh
     parts, hints_all = [], []
     for s in scenes:

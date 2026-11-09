@@ -1,0 +1,26 @@
+name: Tìm và tải ảnh Commons
+on:
+  push:
+    branches: [claude/cach-ho-cai-tri-tap-1]
+    paths: ['assets/xk*/tim.json', 'assets/xk*/chon.json']
+permissions:
+  contents: write
+jobs:
+  tai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Chạy cho mọi thư mục xk có tim.json hoặc chon.json
+        run: |
+          for d in assets/xk*/; do
+            if [ -f "$d/tim.json" ] || [ -f "$d/chon.json" ]; then python tai_anh_commons.py "${d%/}"; fi
+          done
+      - name: Lưu vào repo
+        run: |
+          git add assets || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git commit -q -m "Ảnh tư liệu Commons [skip ci]"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 5; done

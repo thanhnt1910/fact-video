@@ -1,0 +1,42 @@
+{
+ "ef1": {
+  "title": "File:Eiffel tower by Loki.jpg",
+  "slot": "S1",
+  "so": 1
+ },
+ "ef2": {
+  "title": "File:Auguste-Louis Lepère, La Tour Eiffel, 1889.jpg",
+  "slot": "S2",
+  "so": 2
+ },
+ "ef3": {
+  "title": "File:Gustave Eiffel, 1832-1923 (cropped).jpg",
+  "slot": "S3",
+  "so": 3
+ },
+ "ef4": {
+  "title": "File:Bird's-eye view of Paris Exposition, 1889 (14380120281).jpg",
+  "slot": "S4",
+  "so": 4
+ },
+ "ef5": {
+  "title": "File:Convention signée sur les modalités de construction Et d’exploitation de la Tour de 300 mètres. 1 sur 8 - Archives Nationales - F-12-3770.jpg",
+  "slot": "S5",
+  "so": 5
+ },
+ "ef6": {
+  "title": "File:Le bureau de Gustave Eiffel.jpg",
+  "slot": "S6",
+  "so": 6
+ },
+ "ef7": {
+  "title": "File:Corps Sphéro-coniques d'Eiffel, labo Champ de Mars p WikiCommons.png",
+  "slot": "S7",
+  "so": 7
+ },
+ "ef8": {
+  "title": "File:Base of Eiffel Tower, with statues in foreground and Trocadero Palace in background, Paris Exposition, 1889 LCCN92519639.jpg",
+  "slot": "S8",
+  "so": 8
+ }
+}

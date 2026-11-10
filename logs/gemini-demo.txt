@@ -1,28 +1,27 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Trong thời đại có vệ tinh, ta vẫn chưa vẽ xong bản
-OK Leda 02: Đo độ cao của một ngọn núi thì dễ, chỉ cần nhìn từ
-OK Leda 03: Vì ta không nhìn thấy đáy, và sợi dây thả xuống cũ
-OK Leda 04: Cách cũ rất đơn giản: buộc quả nặng vào dây, thả x
+OK Leda 01: Trong một giọt nước có thể có hàng triệu sinh vật 
+OK Leda 02: Người làm điều đó không phải nhà khoa học nổi tiến
+OK Leda 03: Vì sao ông đo được thứ nhỏ hơn mọi cây thước? Hóa 
+OK Leda 04: Ông tự làm kính hiển vi chỉ có một thấu kính, nhữn
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Ở chỗ nông thì cách này chạy tốt. Nhưng ở chỗ sâu,
-OK Leda 06: Ở độ sâu khoảng hai nghìn bảy trăm mét, một quả nặ
-OK Leda 07: Tàu Chê-len-giơ của nước Anh cũng đo bằng dây. Từ 
-OK Leda 08: Chưa đến năm trăm điểm giữa các đại dương mênh môn
+OK Leda 05: Nhưng nhìn thấy chưa đủ, phải biết chúng to bao nh
+OK Leda 06: Ông đặt cạnh chúng những vật ai cũng biết cỡ: hạt 
+OK Leda 07: Ông ước chừng hạt cát dài gấp khoảng mười hai lần 
+OK Leda 08: Nhưng chiều dài gấp mười hai lần thì thể tích khôn
+OK Leda 09: Thể tích tỉ lệ với lập phương của chiều dài, nên m
+OK Leda 10: Vậy một hạt cát lớn gấp một nghìn bảy trăm hai mươ
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Ngày hai mươi ba tháng ba năm một nghìn tám trăm b
-OK Leda 10: Ý tưởng mới: đừng thả dây nữa. Hãy gửi một tiếng đ
-OK Leda 11: Giống như bạn hét vào thung lũng: núi càng xa, tiế
-OK Leda 12: Trong nước biển, âm thanh đi khoảng một nghìn năm 
+OK Leda 11: Có loại nhỏ hơn nữa, chiều dài chỉ bằng một phần t
+OK Leda 12: Vậy một hạt cát chứa một nghìn bảy trăm hai mươi t
+OK Leda 13: Loại nhỏ hơn nữa, chiều dài chỉ bằng một phần mười
+OK Leda 14: Với máu, ông thấy một trăm hồng cầu xếp thành hàng
+OK Leda 15: Năm một nghìn sáu trăm bảy mươi bảy, với một giọt 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Vì vậy độ sâu bằng tốc độ nhân thời gian, rồi chia
-OK Leda 14: Ví dụ tiếng vang quay lại sau bốn giây: một nghìn 
-OK Leda 15: Cách này chỉ mất vài giây, và tàu có thể vừa chạy 
-OK Leda 16: Máy đo tiếng vang ra đời đầu thế kỷ hai mươi. Từ n
-OK Leda 17: Tàu này đo được khoảng sáu mươi bảy nghìn lần, nhi
-OK Leda 18: Từ những số đo ấy, họ vẽ được mười bốn mặt cắt của
-OK Leda 19: Ngày nay, dự án quốc tế Xi-bét hai nghìn không tră
+OK Leda 16: Hội Hoàng gia Anh phải lập nhóm kiểm tra lại, rồi 
+OK Leda 17: Ông giữ kín cách mài kính tốt nhất của mình, và ch
+OK Leda 18: Dù chỉ ước chừng bằng mắt, nhiều số đo của ông vẫn
+OK Leda 19: Thử bằng số hiện đại: một hồng cầu rộng khoảng bảy
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Tháng tư năm hai nghìn không trăm hai mươi sáu, dự
-OK Leda 21: Vậy cả đáy biển rộng khoảng một trăm linh bốn triệ
-OK Leda 22: Một cuộc khảo sát ngoài khơi A-lát-xca, chạy từng 
-OK Leda 23: Chỉ nhờ thay sợi dây bằng một tiếng vang, ta mới b
+OK Leda 20: Một trăm hồng cầu xếp hàng dài khoảng bảy phần mườ
+OK Leda 21: Ngày nay ta biết một mi-li-lít máu người có khoảng
+OK Leda 22: Cái nhỏ hơn mắt hóa ra đo được: chỉ cần một vật qu

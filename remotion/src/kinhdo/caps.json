@@ -2,91 +2,91 @@
  [
   {
    "text": "Năm *1714*,",
-   "start": 0.52,
-   "end": 2.304
+   "start": 0.5,
+   "end": 2.14
   },
   {
    "text": "nước Anh treo",
-   "start": 2.304,
-   "end": 2.94
+   "start": 2.14,
+   "end": 2.719
   },
   {
    "text": "thưởng *20* *000* *bảng*",
-   "start": 2.94,
-   "end": 6.158
+   "start": 2.719,
+   "end": 5.679
   },
   {
    "text": "cho câu hỏi:",
-   "start": 6.158,
-   "end": 6.794
+   "start": 5.679,
+   "end": 6.257
   },
   {
    "text": "*tàu* *của* *tôi* *đang*",
-   "start": 6.794,
-   "end": 8.252
+   "start": 6.257,
+   "end": 7.609
   },
   {
    "text": "*ở* *đâu* giữa biển?",
-   "start": 8.252,
-   "end": 9.22
+   "start": 7.609,
+   "end": 8.5
   }
  ],
  [
   {
    "text": "Người tìm ra",
    "start": 0.31,
-   "end": 1.291
+   "end": 1.191
   },
   {
    "text": "lời giải không phải",
-   "start": 1.291,
-   "end": 2.598
+   "start": 1.191,
+   "end": 2.366
   },
   {
    "text": "nhà thiên văn,",
-   "start": 2.598,
-   "end": 3.679
+   "start": 2.366,
+   "end": 3.338
   },
   {
    "text": "mà là *một*",
-   "start": 3.679,
-   "end": 4.659
+   "start": 3.338,
+   "end": 4.219
   },
   {
    "text": "*người* *thợ* *mộc*.",
-   "start": 4.659,
-   "end": 5.89
+   "start": 4.219,
+   "end": 5.34
   }
  ],
  [
   {
    "text": "Lời giải của",
    "start": 0.6,
-   "end": 1.192
+   "end": 1.194
   },
   {
    "text": "ông là *một*",
-   "start": 1.192,
-   "end": 1.945
+   "start": 1.194,
+   "end": 1.948
   },
   {
    "text": "*chiếc* *đồng* *hồ*.",
-   "start": 1.945,
-   "end": 3.098
+   "start": 1.948,
+   "end": 3.092
   },
   {
    "text": "Vì sao *đồng* *hồ*",
-   "start": 3.098,
-   "end": 3.887
+   "start": 3.092,
+   "end": 3.884
   },
   {
    "text": "lại cho biết *tàu*",
-   "start": 3.887,
-   "end": 4.868
+   "start": 3.884,
+   "end": 4.866
   },
   {
    "text": "*đang* *ở* *đâu*?",
-   "start": 4.868,
+   "start": 4.866,
    "end": 5.58
   }
  ],
@@ -94,563 +94,563 @@
   {
    "text": "Cần *hai* *con* *số*.",
    "start": 0.42,
-   "end": 2.151
+   "end": 2.017
   },
   {
    "text": "*Vĩ* *độ*,",
-   "start": 2.151,
-   "end": 2.937
+   "start": 2.017,
+   "end": 2.74
   },
   {
    "text": "bắc hay nam,",
-   "start": 2.937,
-   "end": 4.795
+   "start": 2.74,
+   "end": 4.465
   },
   {
    "text": "*đo* *dễ*:",
-   "start": 4.795,
-   "end": 5.581
+   "start": 4.465,
+   "end": 5.188
   },
   {
    "text": "đo *góc* *Mặt* *Trời*",
-   "start": 5.581,
-   "end": 7.852
+   "start": 5.188,
+   "end": 7.305
   },
   {
    "text": "lúc giữa trưa.",
-   "start": 7.852,
-   "end": 9.15
+   "start": 7.305,
+   "end": 8.51
   }
  ],
  [
   {
    "text": "*Kinh* *độ*,",
    "start": 0.46,
-   "end": 0.851
+   "end": 0.849
   },
   {
    "text": "đông hay tây,",
-   "start": 0.851,
-   "end": 1.536
+   "start": 0.849,
+   "end": 1.534
   },
   {
    "text": "cần *giờ*",
-   "start": 1.536,
-   "end": 1.927
+   "start": 1.534,
+   "end": 1.923
   },
   {
    "text": "*ở* *cảng* *nhà*.",
-   "start": 1.927,
-   "end": 2.793
+   "start": 1.923,
+   "end": 2.787
   },
   {
    "text": "Trái Đất quay:",
-   "start": 2.793,
-   "end": 3.379
+   "start": 2.787,
+   "end": 3.371
   },
   {
    "text": "*360°* ÷ *24* *giờ*",
-   "start": 3.379,
-   "end": 6.642
+   "start": 3.371,
+   "end": 6.638
   },
   {
    "text": "= *15°* mỗi giờ.",
-   "start": 6.642,
+   "start": 6.638,
    "end": 8.93
   }
  ],
  [
   {
    "text": "Giữa trưa trên tàu,",
-   "start": 0.36,
-   "end": 1.21
+   "start": 0.35,
+   "end": 1.112
   },
   {
    "text": "đồng hồ nhà chỉ",
-   "start": 1.21,
-   "end": 2.359
+   "start": 1.112,
+   "end": 2.154
   },
   {
    "text": "*3* *giờ* *chiều*.",
-   "start": 2.359,
-   "end": 3.74
+   "start": 2.154,
+   "end": 3.393
   },
   {
    "text": "*3* *giờ* ×",
-   "start": 3.74,
-   "end": 5.551
+   "start": 3.393,
+   "end": 5.021
   },
   {
    "text": "*15°* = *45°*:",
-   "start": 5.551,
-   "end": 8.105
+   "start": 5.021,
+   "end": 7.317
   },
   {
    "text": "tàu ở *phía*",
-   "start": 8.105,
-   "end": 8.743
+   "start": 7.317,
+   "end": 7.888
   },
   {
    "text": "*tây* cảng nhà.",
-   "start": 8.743,
-   "end": 9.5
+   "start": 7.888,
+   "end": 8.58
   }
  ],
  [
   {
    "text": "Ở xích đạo,",
-   "start": 0.46,
-   "end": 1.075
+   "start": 0.48,
+   "end": 1.156
   },
   {
    "text": "*1* *phút* sai",
-   "start": 1.075,
-   "end": 3.206
+   "start": 1.156,
+   "end": 3.521
   },
   {
    "text": "= *1/4* *độ*",
-   "start": 3.206,
-   "end": 5.888
+   "start": 3.521,
+   "end": 6.465
   },
   {
    "text": "≈ *28* *km*.",
-   "start": 5.888,
-   "end": 8.35
+   "start": 6.465,
+   "end": 9.16
   }
  ],
  [
   {
    "text": "Thiếu cách biết vị",
    "start": 0.39,
-   "end": 1.478
+   "end": 1.477
   },
   {
    "text": "trí chắc chắn,",
-   "start": 1.478,
-   "end": 2.485
+   "start": 1.477,
+   "end": 2.472
   },
   {
    "text": "tàu *rất* *dễ* *lạc*.",
-   "start": 2.485,
-   "end": 4.013
+   "start": 2.472,
+   "end": 3.998
   },
   {
    "text": "Bảy năm trước đó,",
-   "start": 4.013,
-   "end": 5.101
+   "start": 3.998,
+   "end": 5.085
   },
   {
    "text": "*hạm* *đội* *Anh*",
-   "start": 5.101,
-   "end": 5.918
+   "start": 5.085,
+   "end": 5.9
   },
   {
    "text": "chạy về nước",
-   "start": 5.918,
-   "end": 7.044
+   "start": 5.9,
+   "end": 7.045
   },
   {
    "text": "và *lạc* *đường*.",
-   "start": 7.044,
+   "start": 7.045,
    "end": 7.98
   }
  ],
  [
   {
    "text": "Đêm *22* *tháng*",
-   "start": 0.37,
-   "end": 1.644
+   "start": 0.39,
+   "end": 1.778
   },
   {
    "text": "*10* *năm* *1707*,",
-   "start": 1.644,
-   "end": 4.046
+   "start": 1.778,
+   "end": 4.4
   },
   {
    "text": "đô đốc *Cloudesley*",
-   "start": 4.046,
-   "end": 5.107
+   "start": 4.4,
+   "end": 5.556
   },
   {
    "text": "*Shovell* tin tàu",
-   "start": 5.107,
-   "end": 5.957
+   "start": 5.556,
+   "end": 6.482
   },
   {
    "text": "còn *ở* *phía* *nam*",
-   "start": 5.957,
-   "end": 7.266
+   "start": 6.482,
+   "end": 7.407
   },
   {
    "text": "quần đảo *Scilly*.",
-   "start": 7.266,
-   "end": 8.116
+   "start": 7.407,
+   "end": 8.832
   },
   {
    "text": "Họ chỉ *ước*",
-   "start": 8.116,
-   "end": 8.973
+   "start": 8.832,
+   "end": 9.766
   },
   {
    "text": "*chừng* vị trí.",
-   "start": 8.973,
-   "end": 9.73
+   "start": 9.766,
+   "end": 10.67
   }
  ],
  [
   {
    "text": "Đội tàu *lệch* *xa*",
-   "start": 0.39,
-   "end": 1.145
+   "start": 0.41,
+   "end": 1.316
   },
   {
    "text": "*về* *phía* *bắc*,",
-   "start": 1.145,
-   "end": 1.71
+   "start": 1.316,
+   "end": 1.929
   },
   {
    "text": "đâm vào đá.",
-   "start": 1.71,
-   "end": 2.676
+   "start": 1.929,
+   "end": 2.981
   },
   {
    "text": "Bốn chiến",
-   "start": 2.676,
-   "end": 3.474
+   "start": 2.981,
+   "end": 3.849
   },
   {
    "text": "hạm *vỡ* *tan*,",
-   "start": 3.474,
-   "end": 4.04
+   "start": 3.849,
+   "end": 4.461
   },
   {
    "text": "hơn *1*",
-   "start": 4.04,
-   "end": 4.945
+   "start": 4.461,
+   "end": 5.434
   },
   {
    "text": "*400* *người* chết.",
-   "start": 4.945,
-   "end": 5.93
+   "start": 5.434,
+   "end": 6.5
   }
  ],
  [
   {
    "text": "Cần đồng hồ",
-   "start": 0.33,
-   "end": 1.733
+   "start": 0.34,
+   "end": 1.728
   },
   {
    "text": "chạy đúng *nhiều*",
-   "start": 1.733,
-   "end": 2.896
+   "start": 1.728,
+   "end": 2.885
   },
   {
    "text": "*tuần* giữa biển.",
-   "start": 2.896,
-   "end": 4.569
+   "start": 2.885,
+   "end": 4.563
   },
   {
    "text": "Nhưng *sóng* *lắc* làm",
-   "start": 4.569,
-   "end": 6.119
+   "start": 4.563,
+   "end": 6.106
   },
   {
    "text": "*quả* *lắc* chạy loạn.",
-   "start": 6.119,
+   "start": 6.106,
    "end": 7.92
   }
  ],
  [
   {
    "text": "Mức cao nhất:",
-   "start": 0.56,
-   "end": 1.143
+   "start": 0.58,
+   "end": 1.203
   },
   {
    "text": "tàu lạc *không*",
-   "start": 1.143,
-   "end": 2.025
+   "start": 1.203,
+   "end": 2.166
   },
   {
    "text": "*quá* *nửa* *độ*,",
-   "start": 2.025,
-   "end": 2.918
+   "start": 2.166,
+   "end": 3.129
   },
   {
    "text": "tức đồng hồ sai",
-   "start": 2.918,
-   "end": 3.695
+   "start": 3.129,
+   "end": 3.96
   },
   {
    "text": "*không* *quá* *2* *phút*.",
-   "start": 3.695,
-   "end": 6.76
+   "start": 3.96,
+   "end": 7.31
   }
  ],
  [
   {
    "text": "*John* *Harrison*,",
-   "start": 0.46,
-   "end": 1.297
+   "start": 0.47,
+   "end": 1.307
   },
   {
    "text": "sinh năm *1693*,",
-   "start": 1.297,
-   "end": 4.546
+   "start": 1.307,
+   "end": 4.926
   },
   {
    "text": "là *thợ* *mộc*,",
-   "start": 4.546,
-   "end": 5.654
+   "start": 4.926,
+   "end": 5.664
   },
   {
    "text": "làm đồng",
-   "start": 5.654,
-   "end": 6.352
+   "start": 5.664,
+   "end": 6.362
   },
   {
    "text": "hồ lúc rảnh.",
-   "start": 6.352,
-   "end": 7.1
+   "start": 6.362,
+   "end": 7.11
   }
  ],
  [
   {
    "text": "Ba chiếc đầu là",
-   "start": 0.44,
-   "end": 1.805
+   "start": 0.47,
+   "end": 2.035
   },
   {
    "text": "*cỗ* *máy* *lớn*.",
-   "start": 1.805,
-   "end": 3.429
+   "start": 2.035,
+   "end": 3.801
   },
   {
    "text": "Chiếc thứ tư",
-   "start": 3.429,
-   "end": 4.682
+   "start": 3.801,
+   "end": 5.148
   },
   {
    "text": "chỉ như *đồng*",
-   "start": 4.682,
-   "end": 6.506
+   "start": 5.148,
+   "end": 7.154
   },
   {
    "text": "*hồ* *bỏ* *túi*.",
-   "start": 6.506,
-   "end": 7.65
+   "start": 7.154,
+   "end": 8.38
   }
  ],
  [
   {
    "text": "Tháng *11* *năm* *1761*,",
-   "start": 0.46,
-   "end": 3.835
+   "start": 0.47,
+   "end": 3.83
   },
   {
    "text": "nó lên tàu từ",
-   "start": 3.835,
-   "end": 4.639
+   "start": 3.83,
+   "end": 4.63
   },
   {
    "text": "*Portsmouth* đi *Jamaica*,",
-   "start": 4.639,
-   "end": 6.245
+   "start": 4.63,
+   "end": 6.25
   },
   {
    "text": "*con* *trai*",
-   "start": 6.245,
-   "end": 6.647
+   "start": 6.25,
+   "end": 6.65
   },
   {
    "text": "*ông* trông giữ.",
-   "start": 6.647,
+   "start": 6.65,
    "end": 7.37
   }
  ],
  [
   {
    "text": "Sau *81* *ngày*,",
-   "start": 0.4,
-   "end": 2.291
+   "start": 0.43,
+   "end": 2.515
   },
   {
    "text": "tàu cập bến.",
-   "start": 2.291,
-   "end": 3.375
+   "start": 2.515,
+   "end": 3.695
   },
   {
    "text": "Đồng hồ chỉ",
-   "start": 3.375,
-   "end": 4.189
+   "start": 3.695,
+   "end": 4.585
   },
   {
    "text": "chậm *5* *giây*.",
-   "start": 4.189,
-   "end": 5.92
+   "start": 4.585,
+   "end": 6.49
   }
  ],
  [
   {
    "text": "*5* *giây*",
-   "start": 0.3,
-   "end": 1.748
+   "start": 0.32,
+   "end": 1.892
   },
   {
    "text": "= *1/12* *phút*.",
-   "start": 1.748,
-   "end": 3.725
+   "start": 1.892,
+   "end": 4.104
   },
   {
    "text": "*28* ÷ *12*",
-   "start": 3.725,
-   "end": 6.293
+   "start": 4.104,
+   "end": 6.918
   },
   {
    "text": "≈ *2,3* *km*.",
-   "start": 6.293,
-   "end": 7.9
+   "start": 6.918,
+   "end": 8.67
   }
  ],
  [
   {
    "text": "Mức cho phép:",
    "start": 0.37,
-   "end": 0.991
+   "end": 1.07
   },
   {
    "text": "*55* *km*.",
-   "start": 0.991,
-   "end": 2.65
+   "start": 1.07,
+   "end": 2.717
   },
   {
    "text": "Sai số thật:",
-   "start": 2.65,
-   "end": 3.271
+   "start": 2.717,
+   "end": 3.327
   },
   {
    "text": "*2,3* *km*,",
-   "start": 3.271,
-   "end": 5.38
+   "start": 3.327,
+   "end": 5.413
   },
   {
    "text": "nhỏ hơn",
-   "start": 5.38,
-   "end": 5.794
+   "start": 5.413,
+   "end": 5.82
   },
   {
    "text": "*hơn* *20* *lần*.",
-   "start": 5.794,
+   "start": 5.82,
    "end": 7.5
   }
  ],
  [
   {
    "text": "Vậy mà hội đồng",
-   "start": 0.28,
-   "end": 1.128
+   "start": 0.29,
+   "end": 1.139
   },
   {
    "text": "đòi *thử* *thêm*.",
-   "start": 1.128,
-   "end": 1.764
+   "start": 1.139,
+   "end": 1.776
   },
   {
    "text": "Mãi đến *1773*,",
-   "start": 1.764,
-   "end": 5.441
+   "start": 1.776,
+   "end": 5.447
   },
   {
    "text": "sau khi ông",
-   "start": 5.441,
-   "end": 6.076
+   "start": 5.447,
+   "end": 6.084
   },
   {
    "text": "*xin* *nhà* *vua*,",
-   "start": 6.076,
-   "end": 7.022
+   "start": 6.084,
+   "end": 7.031
   },
   {
    "text": "mới trả *khoản* *cuối*.",
-   "start": 7.022,
-   "end": 7.99
+   "start": 7.031,
+   "end": 8.0
   }
  ],
  [
   {
    "text": "Ý tưởng ấy sống",
-   "start": 0.46,
-   "end": 1.628
+   "start": 0.47,
+   "end": 1.64
   },
   {
    "text": "trong *điện* *thoại*.",
-   "start": 1.628,
-   "end": 2.925
+   "start": 1.64,
+   "end": 2.947
   },
   {
    "text": "Vệ tinh *GPS* mang",
-   "start": 2.925,
-   "end": 4.093
+   "start": 2.947,
+   "end": 4.118
   },
   {
    "text": "*đồng* *hồ* *nguyên* *tử*,",
-   "start": 4.093,
-   "end": 5.551
+   "start": 4.118,
+   "end": 5.548
   },
   {
    "text": "điện thoại tính",
-   "start": 5.551,
-   "end": 6.428
+   "start": 5.548,
+   "end": 6.425
   },
   {
    "text": "tín hiệu *bay*",
-   "start": 6.428,
-   "end": 7.304
+   "start": 6.425,
+   "end": 7.302
   },
   {
    "text": "*mất* *bao* *lâu*.",
-   "start": 7.304,
+   "start": 7.302,
    "end": 8.52
   }
  ],
  [
   {
    "text": "Sai *1* *phần* *tỉ*",
-   "start": 0.5,
-   "end": 3.944
+   "start": 0.51,
+   "end": 3.951
   },
   {
    "text": "*giây* thì vị trí",
-   "start": 3.944,
-   "end": 5.377
+   "start": 3.951,
+   "end": 5.388
   },
   {
    "text": "lệch *30* *cm*.",
-   "start": 5.377,
-   "end": 8.76
+   "start": 5.388,
+   "end": 8.65
   }
  ],
  [
   {
    "text": "Mang theo",
-   "start": 0.41,
-   "end": 1.055
+   "start": 0.39,
+   "end": 0.968
   },
   {
    "text": "*giờ* *của* *nhà*,",
-   "start": 1.055,
-   "end": 2.024
+   "start": 0.968,
+   "end": 1.835
   },
   {
    "text": "bạn biết *mình*",
-   "start": 2.024,
-   "end": 3.102
+   "start": 1.835,
+   "end": 2.853
   },
   {
    "text": "*đang* *ở* *đâu*.",
-   "start": 3.102,
-   "end": 4.19
+   "start": 2.853,
+   "end": 3.84
   }
  ]
 ]

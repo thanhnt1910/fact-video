@@ -1,0 +1,120 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Trong thời đại có vệ tinh, ta vẫn chưa vẽ xong bản đồ đáy biển: mới được chưa đến ba mươi phần trăm.",
+   "say": "Trong thời đại có vệ tinh, ta vẫn chưa vẽ xong bản đồ đáy biển: mới được chưa đến ba mươi phần trăm."
+  },
+  {
+   "n": 2,
+   "text": "Đo độ cao của một ngọn núi thì dễ, chỉ cần nhìn từ xa. Vậy vì sao đo độ sâu của biển lại khó đến thế?",
+   "say": "Đo độ cao của một ngọn núi thì dễ, chỉ cần nhìn từ xa. Vậy vì sao đo độ sâu của biển lại khó đến thế?"
+  },
+  {
+   "n": 3,
+   "text": "Vì ta không nhìn thấy đáy, và sợi dây thả xuống cũng không cho biết lúc nào nó chạm đáy.",
+   "say": "Vì ta không nhìn thấy đáy, và sợi dây thả xuống cũng không cho biết lúc nào nó chạm đáy."
+  },
+  {
+   "n": 4,
+   "text": "Cách cũ rất đơn giản: buộc quả nặng vào dây, thả xuống, rồi đọc xem dây đã chạy ra bao nhiêu mét khi quả nặng chạm đáy.",
+   "say": "Cách cũ rất đơn giản: buộc quả nặng vào dây, thả xuống, rồi đọc xem dây đã chạy ra bao nhiêu mét khi quả nặng chạm đáy."
+  },
+  {
+   "n": 5,
+   "text": "Ở chỗ nông thì cách này chạy tốt. Nhưng ở chỗ sâu, sợi dây tự nó đã rất nặng, nên lúc quả nặng chạm đáy, người cầm dây khó nhận ra.",
+   "say": "Ở chỗ nông thì cách này chạy tốt. Nhưng ở chỗ sâu, sợi dây tự nó đã rất nặng, nên lúc quả nặng chạm đáy, người cầm dây khó nhận ra."
+  },
+  {
+   "n": 6,
+   "text": "Ở độ sâu khoảng hai nghìn bảy trăm mét, một quả nặng phải chìm khoảng hai mươi phút mới tới đáy.",
+   "say": "Ở độ sâu khoảng hai nghìn bảy trăm mét, một quả nặng phải chìm khoảng hai mươi phút mới tới đáy."
+  },
+  {
+   "n": 7,
+   "text": "Tàu Chê-len-giơ của nước Anh cũng đo bằng dây. Từ năm một nghìn tám trăm bảy mươi hai đến năm một nghìn tám trăm bảy mươi sáu, tàu chỉ đo sâu chưa đến năm trăm lần.",
+   "say": "Tàu Chê-len-giơ của nước Anh cũng đo bằng dây. Từ năm một nghìn tám trăm bảy mươi hai đến năm một nghìn tám trăm bảy mươi sáu, tàu chỉ đo sâu chưa đến năm trăm lần."
+  },
+  {
+   "n": 8,
+   "text": "Chưa đến năm trăm điểm giữa các đại dương mênh mông: gần như chỉ là vài chấm nhỏ trên một tấm bản đồ trắng.",
+   "say": "Chưa đến năm trăm điểm giữa các đại dương mênh mông: gần như chỉ là vài chấm nhỏ trên một tấm bản đồ trắng."
+  },
+  {
+   "n": 9,
+   "text": "Ngày hai mươi ba tháng ba năm một nghìn tám trăm bảy mươi lăm, tàu đo được chỗ sâu tám nghìn một trăm tám mươi bốn mét, và đo lại lần hai.",
+   "say": "Ngày hai mươi ba tháng ba năm một nghìn tám trăm bảy mươi lăm, tàu đo được chỗ sâu tám nghìn một trăm tám mươi bốn mét, và đo lại lần hai."
+  },
+  {
+   "n": 10,
+   "text": "Ý tưởng mới: đừng thả dây nữa. Hãy gửi một tiếng động xuống đáy biển, rồi đo xem bao lâu sau tiếng vang quay trở lại.",
+   "say": "Ý tưởng mới: đừng thả dây nữa. Hãy gửi một tiếng động xuống đáy biển, rồi đo xem bao lâu sau tiếng vang quay trở lại."
+  },
+  {
+   "n": 11,
+   "text": "Giống như bạn hét vào thung lũng: núi càng xa, tiếng vang về càng muộn. Với biển, đáy càng sâu thì tiếng vang càng chậm.",
+   "say": "Giống như bạn hét vào thung lũng: núi càng xa, tiếng vang về càng muộn. Với biển, đáy càng sâu thì tiếng vang càng chậm."
+  },
+  {
+   "n": 12,
+   "text": "Trong nước biển, âm thanh đi khoảng một nghìn năm trăm mét mỗi giây. Nhưng tiếng động phải đi xuống rồi dội lên, nên quãng đường là hai lần độ sâu.",
+   "say": "Trong nước biển, âm thanh đi khoảng một nghìn năm trăm mét mỗi giây. Nhưng tiếng động phải đi xuống rồi dội lên, nên quãng đường là hai lần độ sâu."
+  },
+  {
+   "n": 13,
+   "text": "Vì vậy độ sâu bằng tốc độ nhân thời gian, rồi chia hai.",
+   "say": "Vì vậy độ sâu bằng tốc độ nhân thời gian, rồi chia hai."
+  },
+  {
+   "n": 14,
+   "text": "Ví dụ tiếng vang quay lại sau bốn giây: một nghìn năm trăm nhân bốn là sáu nghìn, chia hai ra ba nghìn. Đáy biển ở sâu ba nghìn mét.",
+   "say": "Ví dụ tiếng vang quay lại sau bốn giây: một nghìn năm trăm nhân bốn là sáu nghìn, chia hai ra ba nghìn. Đáy biển ở sâu ba nghìn mét."
+  },
+  {
+   "n": 15,
+   "text": "Cách này chỉ mất vài giây, và tàu có thể vừa chạy vừa đo, không phải dừng lại thả dây nhiều phút.",
+   "say": "Cách này chỉ mất vài giây, và tàu có thể vừa chạy vừa đo, không phải dừng lại thả dây nhiều phút."
+  },
+  {
+   "n": 16,
+   "text": "Máy đo tiếng vang ra đời đầu thế kỷ hai mươi. Từ năm một nghìn chín trăm hai mươi lăm, tàu Mê-ti-o của Đức dùng nó khảo sát Nam Đại Tây Dương.",
+   "say": "Máy đo tiếng vang ra đời đầu thế kỷ hai mươi. Từ năm một nghìn chín trăm hai mươi lăm, tàu Mê-ti-o của Đức dùng nó khảo sát Nam Đại Tây Dương."
+  },
+  {
+   "n": 17,
+   "text": "Tàu này đo được khoảng sáu mươi bảy nghìn lần, nhiều gấp hơn một trăm lần cả chuyến của tàu Chê-len-giơ.",
+   "say": "Tàu này đo được khoảng sáu mươi bảy nghìn lần, nhiều gấp hơn một trăm lần cả chuyến của tàu Chê-len-giơ."
+  },
+  {
+   "n": 18,
+   "text": "Từ những số đo ấy, họ vẽ được mười bốn mặt cắt của đáy Đại Tây Dương.",
+   "say": "Từ những số đo ấy, họ vẽ được mười bốn mặt cắt của đáy Đại Tây Dương."
+  },
+  {
+   "n": 19,
+   "text": "Ngày nay, dự án quốc tế Xi-bét hai nghìn không trăm ba mươi muốn có bản đồ trọn vẹn của đáy biển, bằng cách gom số đo của hai trăm hai mươi tổ chức.",
+   "say": "Ngày nay, dự án quốc tế Xi-bét hai nghìn không trăm ba mươi muốn có bản đồ trọn vẹn của đáy biển, bằng cách gom số đo của hai trăm hai mươi tổ chức."
+  },
+  {
+   "n": 20,
+   "text": "Tháng tư năm hai nghìn không trăm hai mươi sáu, dự án báo đã có số đo của một trăm linh bốn triệu ki-lô-mét vuông đáy biển, tức hai mươi tám phẩy bảy phần trăm.",
+   "say": "Tháng tư năm hai nghìn không trăm hai mươi sáu, dự án báo đã có số đo của một trăm linh bốn triệu ki-lô-mét vuông đáy biển, tức hai mươi tám phẩy bảy phần trăm."
+  },
+  {
+   "n": 21,
+   "text": "Vậy cả đáy biển rộng khoảng một trăm linh bốn triệu chia cho hai mươi tám phẩy bảy phần trăm, tức khoảng ba trăm sáu mươi hai triệu ki-lô-mét vuông.",
+   "say": "Vậy cả đáy biển rộng khoảng một trăm linh bốn triệu chia cho hai mươi tám phẩy bảy phần trăm, tức khoảng ba trăm sáu mươi hai triệu ki-lô-mét vuông."
+  },
+  {
+   "n": 22,
+   "text": "Một cuộc khảo sát ngoài khơi A-lát-xca, chạy từng tuyến một, đã kéo dài bốn mươi năm. Đáy biển rộng đến mức hơn bảy mươi phần trăm vẫn là khoảng trắng.",
+   "say": "Một cuộc khảo sát ngoài khơi A-lát-xca, chạy từng tuyến một, đã kéo dài bốn mươi năm. Đáy biển rộng đến mức hơn bảy mươi phần trăm vẫn là khoảng trắng."
+  },
+  {
+   "n": 23,
+   "text": "Chỉ nhờ thay sợi dây bằng một tiếng vang, ta mới bắt đầu vẽ được đáy biển, và con đường ấy vẫn còn dài.",
+   "say": "Chỉ nhờ thay sợi dây bằng một tiếng vang, ta mới bắt đầu vẽ được đáy biển, và con đường ấy vẫn còn dài."
+  }
+ ]
+}

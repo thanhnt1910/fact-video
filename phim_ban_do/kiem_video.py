@@ -20,6 +20,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('ten'); ap.add_argument('--video'); ap.add_argument('--tts', default='')
 ap.add_argument('--asr', help='file nhận dạng khác (mặc định asr_<tên>_final.json hoặc asr_<tên>.json)')
 ap.add_argument('--base', type=int, default=None, help='tiền tố số câu (v1=1000, v2=2000, nm1=3000)')
+ap.add_argument('--t0', type=float, default=0.5); ap.add_argument('--gap', type=float, default=0.45)  # video dọc 9:16: --t0 0.3 --gap 0.4
 ap.add_argument('--voice', default=os.path.join(ROOT, 'assets/thu_giong_hai/puck'))
 a = ap.parse_args()
 TEN = a.ten; KB = os.path.join(ROOT, 'ke-hoach/thu-giong-hai')
@@ -182,8 +183,8 @@ if os.path.exists(cs):
 # ---- Lớp 4: file video đã dựng ---------------------------------------------
 if a.video:
     ns = [b['n'] for b in BEATS if str(b['n']) in TL]
-    T = {}; x = 0.5
-    for n in ns: T[n] = x; x += TL[str(n)] + 0.45
+    T = {}; x = a.t0
+    for n in ns: T[n] = x; x += TL[str(n)] + a.gap
     total = x + 1.5
     dd = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', a.video], capture_output=True, text=True).stdout.strip() or 0)
     if abs(dd - total) > 1.5: bad(f'Video dài {dd:.1f}s nhưng kịch bản tính {total:.1f}s')

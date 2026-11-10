@@ -5,7 +5,8 @@ import {Fonts} from '../lib/Fonts';
 import {SceneFade} from '../thales/Thales';
 import {SceneId, timeline} from './content';
 import {Clockk, Err, Globe, Harr, Hook, Now, Sc, Wreck} from './scenes';
-import {VBackground, VCaptions, VHud} from '../eratosthenes/v';
+import {VCaptions, VHud} from '../eratosthenes/v';
+import {KdBackground} from './Bg';
 import CAPS from './caps.json';
 import {useCurrentFrame} from 'remotion';
 
@@ -47,10 +48,9 @@ const SCENES: Record<SceneId, React.FC<Sc>> = {
 export const Kinhdo: React.FC = () => {
   const tl = timeline();
   return (
-    <AbsoluteFill style={{background: C.bg2}}>
+    <AbsoluteFill style={{background: '#0d1722'}}>
       <Fonts />
-      <VBackground />
-      <Stars />
+      <KdBackground />
       {tl.scenes.map((s) => {
         const Scene = SCENES[s.id];
         return (

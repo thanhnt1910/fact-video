@@ -258,3 +258,8 @@ Chủ kênh KHÔNG phải nghe từng câu để liệt kê đoạn lệch: máy
 - **Đoạn mốc nằm trong cùng một prompt với mọi câu.** Nhật ký giọng cho thấy cả video đọc từng câu, cùng mô hình, cùng giọng, cùng hồ sơ phong cách. Khác biệt đến từ lấy mẫu ngẫu nhiên của Gemini (không đặt temperature/seed), nên đọc lại chỉ là bốc thăm lại: dùng chọn bản tốt nhất, không trông chờ đổi prompt.
 - Không dựng video (45 phút) khi bước này chưa chạy và danh sách "ĐỌC LẠI" chưa xử lý. Báo chủ kênh danh sách đoạn lệch kèm số đo, không hỏi chủ kênh nghe thử.
 - Cái này bổ sung cho mục "Giọng đọc đồng đều trong một video" ở trên (cân âm lượng, tốc độ); hai bước dùng chung và bước này thay phần chỉnh cao độ.
+
+## Video khoa học "Người Giải Mã": mỗi video có nền và dấu ấn riêng (chủ kênh yêu cầu 10/11/2026, áp dụng mọi video từ nay)
+- Không dùng chung một nền trơn cho mọi video. Mỗi video có **nền riêng theo chủ đề** (gradient, họa tiết mờ, chuyển động rất nhẹ; độ tương phản thấp để không át chữ và hình chính) và **một dấu ấn riêng** (một hiệu ứng lặp lại xuyên video gắn với chủ đề, ví dụ kim giây đồng hồ nhích từng nhịp quanh la bàn ở video kinh độ).
+- Nền viết thành thành phần riêng trong thư mục của video (mẫu: `remotion/src/kinhdo/Bg.tsx`), thay cho `VBackground`; logo và phụ đề dùng chung giữ nguyên vị trí.
+- Trước khi dựng bản đầy đủ: chụp khung hình cỡ lớn (đầu, giữa, cuối) xem nền không đè chữ, không làm rối hình chính. Ghi nền và dấu ấn dự định vào mục "Bố cục hình" của kịch bản để chủ kênh duyệt.

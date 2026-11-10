@@ -459,3 +459,11 @@ Mẫu: `phim_ban_do/doc9x16/trang_vn7b.html` (#07, bản `out/vn7l_doc.mp4`). Ch
 ## Độ dài video dọc "Bí mật biểu tượng": không cố định 60–80 giây (chủ kênh yêu cầu 08/11/2026)
 - Loạt này không giới hạn 60–80 giây. Độ dài theo lượng thông tin cần thiết: đủ ý, đủ tên, năm, ý nghĩa thì dài bao nhiêu cũng được; không cắt bớt đoạn để cho vừa mức cũ.
 - Vẫn giữ đoạn ngắn cho giọng đọc, bố cục cuốn hút (mở nhanh, mỗi 60–90 giây có một "móc" mới) và không độn câu, không lặp ý.
+
+## Mỗi video một dấu ấn riêng: nền, hiệu ứng, phong cách hình (chủ kênh yêu cầu 10/11/2026, áp dụng mọi video loạt Bí mật biểu tượng từ #15)
+Nền mặc định chỉ có hai màu (nâu đen và giấy vàng) với họa tiết trống đồng dùng chung nên mọi video trông giống nhau. Từ nay mỗi video phải có bộ nhận diện riêng theo chủ đề của nó.
+- **Nền riêng:** chọn chất liệu và bảng màu theo chủ đề (cầu thép: xanh thép + lưới bản vẽ kỹ thuật + đinh tán; trống đồng: đồng; chữ quốc ngữ: giấy cổ, v.v.). Cả hai nền (tối và sáng) đều đổi, không dùng lại họa tiết trống đồng ở video không liên quan đến trống đồng.
+- **Một hiệu ứng nền chuyển động đặc trưng** chạy suốt video, nhẹ, không che chữ và nằm dưới vùng phụ đề (y > 1500) hoặc ở mép khung (cầu Long Biên: giàn thép trôi chậm dưới đáy). Cài qua `window.THEME_UPD = t => {...}` trong file `canh_xkN.js` (`tao_trang_moi.py` gọi hàm này mỗi khung); đổi nền bằng cách sửa `DARKG`, `PAPG`, `DR1`, `DR2` ngay đầu file cảnh (mẫu: `canh_xk7.js`, khối "Dấu ấn riêng").
+- **Một kiểu cảnh đặc trưng** dùng cho chủ đề (đếm số, trục thời gian, vật dụng vẽ phẳng của chính chủ đề), không dùng lại nguyên bộ cảnh của video trước.
+- Khung hình soi ở cỡ lớn phải cho thấy nền mới ở cả cảnh tối lẫn cảnh sáng; chữ vẫn đọc rõ trên nền mới. Giữ nguyên các quy tắc cũ (logo, nội dung chính trên y 1290, phụ đề).
+- Ghi dấu ấn đã chọn vào mô tả giao video (một dòng) để các video sau không lặp lại.

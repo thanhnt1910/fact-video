@@ -117,6 +117,21 @@ function crossMark(g,x,y,sz=60,col='#e5483f'){const p=el(g,'path',{d:`M${x-sz*.5
 function bigNum(g,txt,size,col='#f2c14e'){return T(g,0,0,txt,size,col,16,'middle',DK)}
 function popT(o,t,t0,x,y,rot=0,sc=1){const u=popv(t,t0,.5);o.setAttribute('transform',`translate(${x},${y}) rotate(${rot}) scale(${Math.max(.001,u)*sc})`);o.setAttribute('opacity',u>0?1:0)}
 // ===== Cầu Long Biên (xk7). Ảnh: lb1(1) lb2(2) lb3(3) lb5(5) lb6(6) lb8(8) lb9(9) lb12(12) lb15(15) lb16(16) lb18(18) lb19(19) lb20(20). Cảnh 4,7,10,11,13,14,17,21 vẽ phẳng.
+
+// ===== Dấu ấn riêng của video này: nền THÉP – bản vẽ kỹ thuật (thay nền trống đồng mặc định), giàn thép trôi chậm dưới đáy
+{DR1.setAttribute('opacity',0);DR2.setAttribute('opacity',0);
+ DARKG.firstChild.setAttribute('fill','#0b1823');
+ [...PAPG.children].forEach((c,i)=>{if(c.tagName=='g')c.setAttribute('opacity',0);if(c.tagName=='line')c.setAttribute('stroke',i%3?'rgba(70,100,120,.16)':'rgba(240,248,252,.30)')});
+ PAPG.firstChild.setAttribute('fill','#c3ccc8');
+ const grid=(p,col,op)=>{const g=el(p,'g',{opacity:op});for(let x=0;x<=1080;x+=60)el(g,'line',{x1:x,y1:0,x2:x,y2:1920,stroke:col,'stroke-width':x%300?1.2:2.4});for(let y=0;y<=1920;y+=60)el(g,'line',{x1:0,y1:y,x2:1080,y2:y,stroke:col,'stroke-width':y%300?1.2:2.4});return g};
+ grid(DARKG,'#1a3a55',.55);grid(PAPG,'#6f8da0',.28);
+ // vòng tròn đinh tán rải rác
+ const rv=(p,col,seed)=>{const r=rng(seed);for(let i=0;i<46;i++){const x=60+Math.round(r()*17)*60,y=60+Math.round(r()*30)*60;el(p,'circle',{cx:x,cy:y,r:5,fill:col})}};rv(DARKG,'#24506f',3);rv(PAPG,'#7e98a6',4);
+ // giàn thép Warren trôi chậm (chu kỳ 240 px nên lặp liền mạch)
+ const mkTruss=(p,col,sw,op)=>{const g=el(p,'g',{opacity:op});const k=el(g,'g',{});for(let i=-1;i<12;i++){const x=i*240;el(k,'path',{d:`M${x} 1860 L${x+120} 1640 L${x+240} 1860`,fill:'none',stroke:col,'stroke-width':sw,'stroke-linejoin':'round'})}el(k,'path',{d:'M-240 1860 L2640 1860 M-240 1640 L2640 1640',stroke:col,'stroke-width':sw+4});for(let i=-1;i<12;i++)el(k,'circle',{cx:i*240+120,cy:1640,r:9,fill:col});return k};
+ const TD=mkTruss(DARKG,'#1e4568',7,.9),TP=mkTruss(PAPG,'#8aa3b1',7,.8);
+ window.THEME_UPD=t=>{const o=-((t*36)%240);TD.setAttribute('transform',`translate(${o.toFixed(1)},0)`);TP.setAttribute('transform',`translate(${o.toFixed(1)},0)`)};
+}
 const HB=[];const bm=(t,l)=>{sx(t,'boom',l?{light:true,g:.8}:{g:1});if(!l)HB.push(t)};
 const PUT=(o,x,y,u,sc=1,rot=0)=>{o.setAttribute('transform',`translate(${x},${y}) rotate(${rot}) scale(${Math.max(.001,u)*sc})`);o.setAttribute('opacity',u>0?1:0)};
 const SIG=(g,col,seed)=>{const k=el(g,'g',{});const r=rng(seed);let d='M-90 10';for(let i=0;i<7;i++)d+=` q${12+r()*10} ${-50-r()*40} ${22+r()*8} ${10+r()*20} t${22+r()*10} ${-6}`;el(k,'path',{d,fill:'none',stroke:col,'stroke-width':8,'stroke-linecap':'round','stroke-linejoin':'round'});return k};
@@ -154,7 +169,7 @@ PH(9,'d','lb9',900,600,'TẤM BIỂN TRÊN CẦU NGÀY NAY',[['BIỂN KIM LOẠI
 // 10: 1898 – 1902 (vẽ phẳng)
 S2(10,10,'p',t=>'1898',g=>{const ln=el(g,'path',{d:'M180 650 L900 650',stroke:'#f5efe0','stroke-width':14,'stroke-linecap':'round',pathLength:1,'stroke-dasharray':1,'stroke-dashoffset':1});const d1=el(g,'circle',{r:34,fill:'#d8372d',stroke:'#fff','stroke-width':8}),d2=el(g,'circle',{r:34,fill:'#2f9a5a',stroke:'#fff','stroke-width':8});const b1=bigNum(g,'1898',110,'#f2c14e'),b2=bigNum(g,'1902',110,'#7fd0ff');const bg2=BEAM(g,300);
  const A=strip('KHỞI CÔNG',true,44,101),B=strip('XÂY XONG',false,44,102);
- return{upd:t=>{const w1=AT(10,'khởi',.6),w2=AT(10,'xong',2.2),u=inn(t,w1,.5),v=inn(t,w1+.3,w2-w1+.6);ln.setAttribute('stroke-dashoffset',1-v);PUT(d1,180,650,popv(t,w1,.5));PUT(d2,900,650,popv(t,w2,.5));PUT(b1,200,520,popv(t,w1,.5),1,-4);PUT(b2,880,520,popv(t,w2,.5),1,4);PUT(bg2,180+720*v,820,popv(t,w1+.2,.5),1,0);sh(A,t,230,1085,-2,PV(t,10,'khởi',.6));sh(B,t,850,1195,2,PV(t,10,'xong',2.2))}}});
+ return{upd:t=>{const w1=AT(10,'khởi',.6),w2=AT(10,'hoàn',2.2),u=inn(t,w1,.5),v=inn(t,w1+.3,w2-w1+.6);ln.setAttribute('stroke-dashoffset',1-v);PUT(d1,180,650,popv(t,w1,.5));PUT(d2,900,650,popv(t,w2,.5));PUT(b1,200,520,popv(t,w1,.5),1,-4);PUT(b2,880,520,popv(t,w2,.5),1,4);PUT(bg2,180+720*v,820,popv(t,w1+.2,.5),1,0);sh(A,t,230,1085,-2,PV(t,10,'khởi',.6));sh(B,t,850,1195,2,PV(t,10,'hoàn',2.2))}}});
 // 11: công nhân Việt Nam lắp nhịp thép (vẽ phẳng)
 S2(11,11,'d',null,g=>{const bm1=BEAM(g,760),f=[0,1,2].map(i=>fig(g,{hat:['#d8c9a0','#c9b27c','#e0d2a8'][i],tool:i!=1}));const n=bigNum(g,'0',120,'#f2c14e');const A=strip('HÀNG NGHÌN CÔNG NHÂN VIỆT NAM',true,34,111),B=strip('LẮP RÁP NHỮNG NHỊP THÉP',false,38,112);
  return{upd:t=>{const e=popv(t,R(11)+.1,.6);PUT(bm1,540,900,e,1.1,-1);f.forEach((o,i)=>o.at(260+i*270,900-18,.55,Math.sin(t*5+i)*4,inn(t,R(11)+.3+i*.3,.4)));const w=AT(11,'Hàng',.2),u=inn(t,w,1.4);n.textContent=String(Math.round(1000*u)).replace(/\B(?=(\d{3})+(?!\d))/g,'.')+'+';PUT(n,540,500,popv(t,w,.5),1,-2);sh(A,t,540,1085,-1,PV(t,11,'Hàng',.2));sh(B,t,540,1195,1,PV(t,11,'lắp',1.4))}}});
@@ -192,7 +207,7 @@ sx(R(21)+.3,'question',{g:.7});
 SCN.forEach((s,i)=>{if(i>0&&s.bg!=SCN[i-1].bg)sx(s.a+.02,'whoosh',{d:.35,g:.35})});
 window.SFX=SFXQ;window.TOTAL=TOTAL;
 let CLAST=null,CT0=0;
-window.render=function(t){let shx=0,shy=0;HB.forEach(b=>{const u=(t-b)/.4;if(u>=0&&u<1){const k=Math.pow(1-u,2)*11;shx+=Math.sin(u*70)*k;shy+=Math.cos(u*53)*k*.7}});STG.setAttribute('transform',`translate(${shx.toFixed(1)},${shy.toFixed(1)})`);let cur=SCN[0],pv=null;SCN.forEach((s,i)=>{if(t>=s.a){cur=s;pv=i>0?SCN[i-1]:null}});
+window.render=function(t){if(window.THEME_UPD)THEME_UPD(t);let shx=0,shy=0;HB.forEach(b=>{const u=(t-b)/.4;if(u>=0&&u<1){const k=Math.pow(1-u,2)*11;shx+=Math.sin(u*70)*k;shy+=Math.cos(u*53)*k*.7}});STG.setAttribute('transform',`translate(${shx.toFixed(1)},${shy.toFixed(1)})`);let cur=SCN[0],pv=null;SCN.forEach((s,i)=>{if(t>=s.a){cur=s;pv=i>0?SCN[i-1]:null}});
  const k=(pv&&pv.bg==cur.bg)?1:inn(t,cur.a,.3);PAPG.setAttribute('opacity',cur.bg=='p'?k:1-k);
  SCN.forEach((s,i)=>{const on=t>=s.a&&t<s.b+.01;s.g.setAttribute('display',on?'inline':'none');if(on){const out=i+1<SCN.length?cl((s.b-t)/.3):1;s.g.setAttribute('opacity',out);const e=inn(t,s.a,.35);s.g.setAttribute('transform',`translate(${(1-e)*90},0)`);s.upd(t)}});
  const lab=cur.cal?(typeof cur.cal=='function'?cur.cal(t):cur.cal):null;if(lab!==CLAST){CLAST=lab;CT0=t;if(lab){CAL.t.textContent=lab;CAL.t.setAttribute('font-size',lab.length>5?19:28)}}

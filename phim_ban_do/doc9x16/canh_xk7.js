@@ -1,4 +1,19 @@
 // ===== Cầu Long Biên (xk7). Ảnh: lb1(1) lb2(2) lb3(3) lb5(5) lb6(6) lb8(8) lb9(9) lb12(12) lb15(15) lb16(16) lb18(18) lb19(19) lb20(20). Cảnh 4,7,10,11,13,14,17,21 vẽ phẳng.
+
+// ===== Dấu ấn riêng của video này: nền THÉP – bản vẽ kỹ thuật (thay nền trống đồng mặc định), giàn thép trôi chậm dưới đáy
+{DR1.setAttribute('opacity',0);DR2.setAttribute('opacity',0);
+ DARKG.firstChild.setAttribute('fill','#0b1823');
+ [...PAPG.children].forEach((c,i)=>{if(c.tagName=='g')c.setAttribute('opacity',0);if(c.tagName=='line')c.setAttribute('stroke',i%3?'rgba(70,100,120,.16)':'rgba(240,248,252,.30)')});
+ PAPG.firstChild.setAttribute('fill','#c3ccc8');
+ const grid=(p,col,op)=>{const g=el(p,'g',{opacity:op});for(let x=0;x<=1080;x+=60)el(g,'line',{x1:x,y1:0,x2:x,y2:1920,stroke:col,'stroke-width':x%300?1.2:2.4});for(let y=0;y<=1920;y+=60)el(g,'line',{x1:0,y1:y,x2:1080,y2:y,stroke:col,'stroke-width':y%300?1.2:2.4});return g};
+ grid(DARKG,'#1a3a55',.55);grid(PAPG,'#6f8da0',.28);
+ // vòng tròn đinh tán rải rác
+ const rv=(p,col,seed)=>{const r=rng(seed);for(let i=0;i<46;i++){const x=60+Math.round(r()*17)*60,y=60+Math.round(r()*30)*60;el(p,'circle',{cx:x,cy:y,r:5,fill:col})}};rv(DARKG,'#24506f',3);rv(PAPG,'#7e98a6',4);
+ // giàn thép Warren trôi chậm (chu kỳ 240 px nên lặp liền mạch)
+ const mkTruss=(p,col,sw,op)=>{const g=el(p,'g',{opacity:op});const k=el(g,'g',{});for(let i=-1;i<12;i++){const x=i*240;el(k,'path',{d:`M${x} 1860 L${x+120} 1640 L${x+240} 1860`,fill:'none',stroke:col,'stroke-width':sw,'stroke-linejoin':'round'})}el(k,'path',{d:'M-240 1860 L2640 1860 M-240 1640 L2640 1640',stroke:col,'stroke-width':sw+4});for(let i=-1;i<12;i++)el(k,'circle',{cx:i*240+120,cy:1640,r:9,fill:col});return k};
+ const TD=mkTruss(DARKG,'#1e4568',7,.9),TP=mkTruss(PAPG,'#8aa3b1',7,.8);
+ window.THEME_UPD=t=>{const o=-((t*36)%240);TD.setAttribute('transform',`translate(${o.toFixed(1)},0)`);TP.setAttribute('transform',`translate(${o.toFixed(1)},0)`)};
+}
 const HB=[];const bm=(t,l)=>{sx(t,'boom',l?{light:true,g:.8}:{g:1});if(!l)HB.push(t)};
 const PUT=(o,x,y,u,sc=1,rot=0)=>{o.setAttribute('transform',`translate(${x},${y}) rotate(${rot}) scale(${Math.max(.001,u)*sc})`);o.setAttribute('opacity',u>0?1:0)};
 const SIG=(g,col,seed)=>{const k=el(g,'g',{});const r=rng(seed);let d='M-90 10';for(let i=0;i<7;i++)d+=` q${12+r()*10} ${-50-r()*40} ${22+r()*8} ${10+r()*20} t${22+r()*10} ${-6}`;el(k,'path',{d,fill:'none',stroke:col,'stroke-width':8,'stroke-linecap':'round','stroke-linejoin':'round'});return k};

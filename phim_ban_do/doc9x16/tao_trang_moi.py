@@ -24,6 +24,7 @@ s=open('trang_vn7b.html',encoding='utf-8').read()
 i_end=s.index('function S2(');i_end=s.index('\n',i_end)+1
 head=s[:i_end]
 foot=s[s.index("SCN.forEach((s,i)=>{if(i>0&&s.bg!=SCN"):]
+foot=foot.replace('window.render=function(t){let shx=0,shy=0;','window.render=function(t){if(window.THEME_UPD)THEME_UPD(t);let shx=0,shy=0;')
 head=head.replace('60000',str(base)).replace('dims_vn7.js',f'dims_{TAG}.js').replace('#07',LABEL).replace('assets/vn7/',f'assets/{TAG}/')
 # Facebook che góc: chữ HUD xuống dưới nút quay lại (y>=190), bỏ chữ NGƯỜI GÁC SỬ ở góc dưới trái
 head=head.replace("T(HUD,52,82,","T(HUD,52,210,").replace("T(HUD,52,128,","T(HUD,52,256,").replace("T(HUD,52,156,","T(HUD,52,284,").replace("T(HUD,52,1862,'NGƯỜI GÁC SỬ',26,'#f1e9d2',7,'start');",'')

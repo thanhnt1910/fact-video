@@ -1,47 +1,53 @@
-# Nhánh `khoa-hoc`: ý tưởng video ngắn khoa học 9:16 (kênh Proofwick)
+# Ý tưởng video khoa học dọc 9:16 (kênh Người Giải Mã, nhánh `khoa-hoc`)
 
-Nhánh này tách từ nhánh `remotion` (09/11/2026) để dùng lại bộ dựng Remotion và series Thales đã có.
-Mỗi video làm một ngôn ngữ trước (tiếng Anh cho YouTube), duyệt xong mới làm bản tiếng Việt cho Facebook.
+Series: **"Người xưa đo bằng cách nào?"** Tiếng Việt, giọng Leda, người que đội mũ, dựng bằng Remotion.
+Cập nhật 10/11/2026 (thay bản cũ viết cho kênh tiếng Anh, 60–75 giây).
 
-## Mạch chung của mọi video (theo yêu cầu chủ kênh)
+## Mạch chung của mỗi video
 
-Tên series gợi ý: **"Người xưa đo bằng cách nào?"** (How Did They Measure It?)
+Độ dài tùy chủ đề: đủ để người xem hiểu, không độn, không cắt mất bước giải thích. Mỗi video đi qua năm chặng, chặng sau trả lời câu hỏi mà chặng trước gợi ra:
 
-| Mốc (giây) | Nội dung | Hình |
+| Chặng | Nội dung | Hình |
 |---|---|---|
-| 0–5 | Câu hỏi gây tò mò, một con số lớn hoặc điều tưởng không thể đo | Con số đếm chạy, nhân vật que đội mũ ngước nhìn |
-| 5–25 | Người xưa thử bằng cách họ đã có và vì sao không đủ (nêu NGUYÊN NHÂN) | Nhân vật đi lại, thử, thất bại |
-| 25–45 | Ý tưởng mới, giải thích bằng một hình vẽ chuyển động | Sơ đồ động, tia sáng, góc, đồng hồ |
-| 45–58 | Tính ra con số, so với số hiện đại | Phép tính hiện từng bước |
-| 58–72 | Ngày nay dùng ý đó vào đâu | Cảnh đời thường (GPS, bản đồ, ...) |
+| 1. Câu hỏi | Một điều tưởng không thể đo, hỏi thẳng "làm sao biết?" | Vật cần đo, dấu hỏi, nhân vật ngước nhìn |
+| 2. Cách cũ không đủ | Người xưa thử cách sẵn có và VÌ SAO nó không đủ | Nhân vật thử, thất bại |
+| 3. Ý tưởng mới | Giải thích bằng một ví dụ nhìn thấy được, so với vật quen | Sơ đồ chuyển động |
+| 4. Tính ra con số | Công thức thật, tính từng bước, mỗi câu một phép tính | Phép tính hiện từng bước |
+| 5. Ngày nay | Ý đó đang dùng vào đâu, rồi quay lại câu hỏi mở đầu | Cảnh đời thường |
 
-- Dài 60–75 giây, chữ nằm trên vùng đáy bị che của Facebook Reels (xem `CLAUDE.md`), logo cây đèn góc trên phải.
-- Nhân vật: người que đội mũ (chủ kênh duyệt 09/11/2026).
-- Âm thanh thưa: chỉ ở chuyển động chính (bước chân, "ting" khi ra con số). Nhiều quá bị rối.
-- Điều gì là suy đoán hoặc hình minh họa thì ghi "(minh họa)" trên màn hình, như bản Thales 3.
+Cách giải thích cho dễ hiểu:
+- Mỗi ý khó đi kèm một ví dụ hoặc phép so sánh với vật quen: "13 mi-li-lít, gần bằng một muỗng canh", "100 hồng cầu xếp hàng dài bằng một hạt cát".
+- Nói bằng hình ảnh, không nói bằng thuật ngữ: "bóng của cây gậy lệch đi một chút" thay cho "góc lệch 1/50 vòng tròn". Thuật ngữ bắt buộc thì giải thích ngay trong câu.
+- Số dài để hiện trên màn hình; lời đọc làm tròn ("hơn một trăm nghìn").
+- Điều là giai thoại hoặc hình minh họa thì nói rõ.
 
-## Mười ý tưởng
+## Đã làm
 
-Mọi mốc dưới đây là điều đã biết, CHƯA đối chiếu nguồn gốc. Trước khi viết kịch bản phải kiểm nguyên văn (quy tắc 03/11/2026).
+| Video | Chủ đề | Thư mục dựng |
+|---|---|---|
+| 1 | Eratosthenes đo Trái Đất bằng một cây gậy | `remotion/src/eratosthenes/` |
+| 2 | Cân Trái Đất (Cavendish) | `remotion/src/cavendish/` |
+| 3 | Đo tốc độ ánh sáng | `remotion/src/anhsang/` |
+| 4 | Kinh độ và đồng hồ của Harrison | `remotion/src/kinhdo/` |
+| 5 | Đáy biển sâu bao nhiêu (tiếng vang) | `remotion/src/daybien/` |
+| 6 | Vương miện vàng hay bạc (Ác-si-mét) | `remotion/src/vuongmien/` |
+| 7 | Đếm thứ nhỏ hơn mắt (kính hiển vi, hạt cát) | `remotion/src/kinhhienvi/` |
 
-1. **Eratosthenes đo cả Trái Đất bằng một cây gậy** (khoảng 240 TCN). Người xưa: chỉ đo được mặt đất bằng dây và bước chân, không thể đi vòng hành tinh. Ý mới: cùng một lúc, Syene (Aswan) bóng gần như không có, Alexandria bóng lệch khoảng 1/50 vòng tròn, cộng khoảng cách hai thành phố. Số: khoảng 250.000 stadia, so với chu vi thật khoảng 40.000 km (đơn vị stadion còn tranh cãi nên không nói chắc sai bao nhiêu). Nguồn: Cleomedes, Pliny. Ngày nay: đo từ vệ tinh. **Gợi ý làm đầu tiên**: dùng lại cảnh bóng, Mặt Trời, góc của Thales.
-2. **Đo tốc độ ánh sáng**. Người xưa: Galileo ra hiệu bằng đèn lồng giữa hai đồi, không nhận ra độ trễ (ánh sáng quá nhanh). Ý mới: Rømer (1676) thấy vệ tinh Io của Sao Mộc xuất hiện trễ dần khi Trái Đất đi xa Sao Mộc. Rồi Fizeau (1849) dùng bánh xe có răng. Ngày nay: tốc độ ánh sáng dùng để định nghĩa mét (1983).
-3. **Vì sao thủy thủ không biết mình ở kinh độ nào** (kinh độ, Harrison). Vĩ độ đo được bằng Mặt Trời, kinh độ cần biết giờ ở cảng nhà: Trái Đất quay 15 độ mỗi giờ. Đồng hồ quả lắc hỏng khi tàu chòng chành. Thảm họa hạm đội Anh ở quần đảo Scilly (1707) dẫn tới Đạo luật Kinh độ (1714). Đồng hồ hàng hải của Harrison. Ngày nay: vệ tinh GPS mang đồng hồ nguyên tử.
-4. **Cân Trái Đất** (Cavendish, 1797–98). Người xưa: không có cân nào đủ lớn. Ý mới: cân xoắn, hai quả cầu chì kéo nhau yếu đến mức chỉ quan sát được bằng độ xoắn của sợi dây. Từ đó ra mật độ trung bình Trái Đất khoảng 5,4 lần nước, rồi khối lượng. Ngày nay: vệ tinh đo trọng trường.
-5. **Mặt Trời xa Mặt Trăng bao nhiêu lần?** (Aristarchus). Ý đúng, số sai: đo góc ở bán nguyệt, ra khoảng 18–20 lần, thật khoảng 390 lần vì góc khó đo. Cho thấy "phương pháp đúng vẫn có thể ra số sai". Ngày nay: đo bằng radar và tàu vũ trụ, đơn vị thiên văn đã được chốt bằng số cụ thể (IAU 2012).
-6. **Đáy biển sâu bao nhiêu?** Dây chì có đánh dấu (có từ thời cổ), vì sao không đo nổi biển sâu (dây trôi, chìm không biết đã chạm đáy). Ý mới: gửi tiếng vang xuống đáy, thời gian đi về nhân tốc độ âm trong nước chia hai (sonar, đầu thế kỷ 20). Ngày nay: bản đồ đáy đại dương.
-7. **Đo thời gian khi không có đồng hồ**. Đồng hồ nước và mặt trời hỏng khi đêm, mây, đông giá. Ý mới: quả lắc (Huygens, 1656), thạch anh, nguyên tử (giây được định nghĩa năm 1967). Ngày nay: điện thoại biết giờ chính xác.
-8. **Vương miện của vua Hiero** (Archimedes). Chỉ kể như GIAI THOẠI (nguồn Vitruvius, nhiều nhà sử học nghi ngờ chi tiết "Eureka" trong bồn tắm). Ý khoa học thì chắc: cùng khối lượng, vàng nguyên chất và vàng pha bạc chiếm thể tích khác nhau. Ngày nay: tỉ trọng dùng kiểm tra đồ trang sức, giải thích vì sao tàu nặng vẫn nổi.
-9. **Nhìn thấy cái nhỏ hơn mắt** (Leeuwenhoek, khoảng 1676). Người xưa: không biết có sinh vật nhỏ. Ý mới: kính một mắt tự mài, so kích thước với hạt cát, sợi tóc. Nên đối chiếu số đo gốc trước khi viết.
-10. **Núi cao bao nhiêu mà chưa ai lên đỉnh?** Có sẵn trong series Thales (Everest đo từ xa 1856). Nên gộp thành tập "đo bằng góc" nối với Thales, không làm riêng.
+## Chưa làm
 
-## Nên làm thử trước (thứ tự đề xuất)
+Các mốc dưới đây mới là điều đã biết, chưa đối chiếu nguồn gốc. Khi viết kịch bản, Claude tự tra nguồn từng chi tiết trước khi gửi.
 
-1. **Ý 1 (Eratosthenes)**: hình đơn giản (gậy, bóng, giếng, hai thành phố), dùng lại thành phần bóng và Mặt Trời của Thales.
-2. **Ý 2 (tốc độ ánh sáng)**: hình động Io và Sao Mộc rất đẹp, ít người kể kỹ.
-3. **Ý 3 (kinh độ)**: có kịch tính (thảm họa → giải thưởng → đồng hồ), hợp với video ngắn.
+1. **Mặt Trời xa hơn Mặt Trăng bao nhiêu lần?** (Aristarchus). Cách làm đúng nhưng ra số sai: đo góc lúc Mặt Trăng sáng đúng một nửa, ra khoảng 18–20 lần, thật ra khoảng 390 lần vì góc quá khó đo. Ví dụ đời thường: chỉ lệch một chút khi ngắm là kết quả sai rất xa.
+2. **Đo thời gian khi chưa có đồng hồ.** Đồng hồ nước, đồng hồ mặt trời hỏng khi đêm, mây, đông giá. Ý mới: quả lắc (Huygens, 1656), rồi thạch anh, rồi nguyên tử. Ngày nay: điện thoại biết giờ chính xác.
+3. **Núi cao bao nhiêu khi chưa ai lên tới đỉnh?** Đo từ xa bằng góc ngắm và khoảng cách (Everest, 1856). Ví dụ: đo chiều cao cái cây bằng bóng của nó.
+4. **Ngôi sao gần nhất xa bao nhiêu?** Đưa ngón tay ra trước mặt, nhắm từng mắt thì ngón tay "nhảy": người ta dùng đúng cách ấy với hai vị trí của Trái Đất cách nhau nửa năm (Bessel, 1838).
+5. **Nóng bao nhiêu là "nóng"?** Trước khi có nhiệt kế, không ai so được hôm nay nóng hơn hôm qua bao nhiêu. Chất lỏng nở ra khi nóng, và chuyện chọn hai mốc nước đá, nước sôi.
+6. **Âm thanh chạy nhanh bao nhiêu?** Thấy chớp trước, nghe sấm sau. Người xưa bắn đại bác ở xa, đếm thời gian từ lúc thấy lửa đến lúc nghe tiếng.
+7. **Trái Đất bao nhiêu tuổi?** Từ đoán theo sách, theo độ mặn của biển, đến "đồng hồ" trong đá: chất phóng xạ tan dần đều đặn.
 
-## Việc tiếp theo (khi chủ kênh chọn ý)
-- Viết kịch bản tiếng Anh từng câu, kiểm nguồn gốc, ghi nhãn độ chắc.
-- Thêm thư mục `remotion/src/<tên>/` (content.ts, scenes.tsx, sfx.ts) theo khuôn `thales3/`.
-- Chỉ dựng bản một ngôn ngữ để duyệt; chưa đọc giọng và chưa chạy workflow nào khi chưa được yêu cầu.
+Thứ tự đề xuất: 4 (ví dụ ngón tay ai cũng thử được ngay), 6 (sấm chớp rất đời thường), rồi 1.
+
+## Khi làm một video mới
+- Kịch bản: theo skill `viet-kich-ban-khoa-hoc`, ghi vào `ke-hoach/khoa-hoc-video-N-<tên>-kich-ban.md`.
+- Dựng: thêm `remotion/src/<tên>/` theo mẫu `remotion/src/vuongmien/` (content.ts, Bg.tsx, scenes.tsx, sfx.ts).
+- Không đọc giọng, không dựng khi chủ kênh chưa yêu cầu.

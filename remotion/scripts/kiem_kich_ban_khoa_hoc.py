@@ -17,6 +17,56 @@ BAD_PHRASES = [
     (r"đăng ký kênh|nhớ bấm|like và|chia sẻ video", "không kêu gọi bấm nút trong lời kể"),
 ]
 ABSTRACT = ["độ cong", "bản chất", "khái niệm", "trừu tượng", "về mặt lý thuyết", "mô hình toán", "phương trình vi phân"]
+# ---- Dễ hiểu, liền mạch (chủ kênh, 10/11/2026) ----
+MAX_SENT = 22       # chữ tối đa của MỘT câu (tính từng câu trong dòng Đọc)
+NUM_WORDS = set("không một hai ba bốn năm sáu bảy tám chín mười mươi mốt tư lăm trăm nghìn triệu tỉ linh lẻ phẩy".split())
+LINK_RE = re.compile(r"\b(nhưng|vì|nên|vậy|do đó|thế là|từ đó|nhờ|khi|nếu|thì|rồi|sau đó|cho nên|bởi|hóa ra|mà|tức|nghĩa là|còn|cũng|ấy|đó|này)\b", re.I)
+EXAMPLE_RE = re.compile(r"\b(ví dụ|giả sử|thử|giống như|như một|như khi|cỡ|bằng khoảng|gần bằng|tưởng tượng|hãy hình dung|chẳng hạn)\b", re.I)
+
+
+def long_number_runs(doc):
+    """Các số đọc bằng chữ dài từ 6 chữ trở lên (ví dụ 'một trăm mười nghìn năm trăm chín mươi hai')."""
+    runs, cur = [], []
+    doc = re.sub(r"năm (một|hai) nghìn( (không|một|hai|ba|bốn|năm|sáu|bảy|tám|chín) trăm)?( (linh|lẻ))?( \w+){0,3}", " NAM ", doc.lower())  # mốc năm không tính
+    for w in re.findall(r"[\wÀ-ỹ]+", doc.lower()):
+        if w in NUM_WORDS:
+            cur.append(w)
+        else:
+            if len(cur) >= 6:
+                runs.append(" ".join(cur))
+            cur = []
+    if len(cur) >= 6:
+        runs.append(" ".join(cur))
+    return runs
+
+
+def check_clarity(sents, warns):
+    linked = 0
+    short_caps = []
+    for n, doc, cap in sents:
+        for s in re.split(r"(?<=[.?!])\s+", doc):
+            k = len(s.split())
+            if k > MAX_SENT:
+                warns.append(f"Câu {n}: một câu dài {k} chữ (nên tối đa {MAX_SENT}); tách thành hai câu, một ý một câu")
+        runs = long_number_runs(doc)
+        if runs:
+            warns.append(f"Câu {n}: số đọc quá dài ({runs[0]}); lời đọc nên làm tròn, số đầy đủ để hiện trên màn hình")
+        nums = re.findall(r"\d[\d  .,]*", cap.replace("*", ""))
+        if len(nums) > 3:
+            warns.append(f"Câu {n}: dồn {len(nums)} con số trong một câu; mỗi câu chỉ nên một phép tính")
+        cw, dw = len(cap.replace("*", "").split()), len(doc.split())
+        if cap and dw >= 12 and cw < 0.6 * dw:
+            short_caps.append(n)
+        if n > 1 and LINK_RE.search(doc):
+            linked += 1
+    if short_caps:
+        warns.append(f"{len(short_caps)} câu có Phụ đề ngắn hơn nhiều so với lời đọc (câu {short_caps}): chữ dễ lệch tiếng; viết Phụ đề gần nguyên văn lời đọc, chỉ đổi số sang chữ số")
+    if len(sents) > 3 and linked < 0.6 * (len(sents) - 1):
+        warns.append(f"Chỉ {linked}/{len(sents)-1} câu có từ nối với câu trước (nhưng, vì, nên, vậy, từ đó...): mạch kể dễ rời rạc")
+    if not any(EXAMPLE_RE.search(doc) for _, doc, _ in sents):
+        warns.append("Chưa thấy ví dụ hoặc phép so sánh đời thường nào (ví dụ, giả sử, giống như, gần bằng...): video khoa học cần ít nhất một ví dụ cụ thể")
+
+
 FORBID_FILE = [r"\[SỬ\*\]", r"phải kiểm", r"TBD", r"chưa kiểm", r"CHƯA ĐỐI CHIẾU"]
 
 
@@ -132,8 +182,6 @@ def main(path):
             warns.append(f"Câu {n}: dòng Đọc có chữ viết tắt in hoa, cần phiên âm (ví dụ GPS = gi-pi-ét)")
         if re.search(r"[fjwzFJWZøØ]", doc):
             warns.append(f"Câu {n}: dòng Đọc có chữ nước ngoài chưa phiên âm (f, j, w, z, ø)")
-        if words > 38:
-            warns.append(f"Câu {n}: dòng Đọc dài {words} chữ, nên tách (giọng dễ đọc lệch, người nghe khó theo)")
         for pat, why in BAD_PHRASES:
             if re.search(pat, doc + " " + cap, re.I):
                 errs.append(f"Câu {n}: {why}")
@@ -165,7 +213,7 @@ def main(path):
             warns.append("Ba câu đầu không có câu hỏi gợi tò mò; hook nên có câu hỏi hoặc điều đáng ngạc nhiên")
 
     # cấu trúc file
-    for need in ["Trạng thái kiểm chứng", "Chi tiết đã bỏ", "Cần chủ kênh duyệt"]:
+    for need in ["Trạng thái kiểm chứng", "Chi tiết đã bỏ"]:
         if need not in txt:
             errs.append(f"Thiếu mục '{need}'")
     for pat in FORBID_FILE:
@@ -180,12 +228,11 @@ def main(path):
 
     if sents:
         check_opening(sents, errs, warns)
+        check_clarity(sents, warns)
 
     dur = total
     mm, ss = int(dur // 60), int(dur % 60)
     print(f"{len(sents)} câu, ước tính {mm} phút {ss} giây (giọng Leda {WPS} chữ/giây)")
-    if dur > 210:
-        warns.append(f"Ước tính {mm}:{ss:02d} dài; video 2 là 2:50, video 3 là 4:30 bị chê dài. Nên cắt bớt")
     for w in warns:
         print("⚠️ ", w)
     for e in errs:

@@ -78,22 +78,13 @@ for bi, b in enumerate(beats):
         return iv[-1][1]
     ch = chunks(b['text'])
     # Phụ đề có chữ số (1774, 5,5...) nhưng giọng đọc thành chữ: trọng số của số = phần âm tiết còn lại của bản đọc
-    if b.get('say'):
-        S = sum(syll(w) for w in b['say'].split())
-        words = [w for c in ch for w in c]
-        isnum = [bool(re.search(r'\d', w)) for w in words]
-        norm = sum(syll(w) for w, n in zip(words, isnum) if not n)
-        k = max(1, S - norm); nn = max(1, sum(isnum))
-        wt = {}
-        wts = []
-        i = 0
-        for c in ch:
-            tot = 0
-            for w in c:
-                tot += (k / nn) if isnum[i] else syll(w); i += 1
-            wts.append(tot)
-    else:
-        wts = [sum(syll(w) for w in c) for c in ch]
+    # Phụ đề có chữ số (1774, 5,5...) nhưng giọng đọc thành chữ: ước lượng số âm tiết khi đọc số.
+    # (Trước đây dồn toàn bộ âm tiết thừa của bản đọc vào chữ số, nên khi phụ đề rút gọn thì cụm có số đứng 4–5 giây.)
+    def numw(w):
+        d = len(re.sub(r'\D', '', w))
+        if d == 0: return 1  # ký hiệu ÷ × = + ≈ đọc thành một tiếng
+        return {1: 1, 2: 3, 3: 5, 4: 6}.get(d, d + 2) + (1 if ',' in w else 0) + (2 if '%' in w else 0)
+    wts = [sum(numw(w) if re.search(r'[\d÷×=+≈]', w) else syll(w) for w in c) for c in ch]
     tw = sum(wts)
     acc, items = 0, []
     for c, w in zip(ch, wts):

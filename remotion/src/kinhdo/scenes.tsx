@@ -10,10 +10,10 @@ const RAD = Math.PI / 180;
 const SEA = '#2f6f86';
 const WOOD = '#8a5a34';
 
-const mkV = (f: number, bs: number[]) => (i: number) =>
+export const mkV = (f: number, bs: number[]) => (i: number) =>
   sp(f, bs[i] + 2, bs[i] + 14) * (i < bs.length - 1 ? 1 - sp(f, bs[i + 1] - 10, bs[i + 1]) : 1);
 
-const Head: React.FC<{a: string; b?: string}> = ({a, b}) => (
+export const Head: React.FC<{a: string; b?: string}> = ({a, b}) => (
   <g>
     <Lab x={540} y={b ? 252 : 290} size={52} color={C.cream}>{a}</Lab>
     {b && (
@@ -24,13 +24,13 @@ const Head: React.FC<{a: string; b?: string}> = ({a, b}) => (
   </g>
 );
 
-const Tag: React.FC<{x: number; y: number; children: React.ReactNode; color?: string; o?: number; size?: number; anchor?: 'start' | 'middle' | 'end'}> = ({x, y, children, color = D, o = 1, size = 36, anchor = 'middle'}) => (
+export const Tag: React.FC<{x: number; y: number; children: React.ReactNode; color?: string; o?: number; size?: number; anchor?: 'start' | 'middle' | 'end'}> = ({x, y, children, color = D, o = 1, size = 36, anchor = 'middle'}) => (
   <Lab x={x} y={y} size={size} color={color} o={o} anchor={anchor}>
     {children}
   </Lab>
 );
 
-const Ship: React.FC<{x: number; y: number; s?: number; rot?: number; o?: number; dashed?: boolean}> = ({x, y, s = 1, rot = 0, o = 1, dashed = false}) => (
+export const Ship: React.FC<{x: number; y: number; s?: number; rot?: number; o?: number; dashed?: boolean}> = ({x, y, s = 1, rot = 0, o = 1, dashed = false}) => (
   <g transform={`translate(${x} ${y}) rotate(${rot}) scale(${s})`} opacity={clamp01(o)} stroke={C.cream} strokeWidth={5 / s} strokeLinejoin="round" strokeLinecap="round" strokeDasharray={dashed ? `${10 / s} ${12 / s}` : undefined}>
     <path d="M -90 0 L 90 0 L 60 42 L -60 42 Z" fill={dashed ? 'none' : WOOD} />
     <line x1={0} y1={0} x2={0} y2={-125} />
@@ -38,7 +38,7 @@ const Ship: React.FC<{x: number; y: number; s?: number; rot?: number; o?: number
   </g>
 );
 
-const Waves: React.FC<{y: number; f: number; o?: number}> = ({y, f, o = 1}) => (
+export const Waves: React.FC<{y: number; f: number; o?: number}> = ({y, f, o = 1}) => (
   <g opacity={o} stroke={SEA} strokeWidth={6} fill="none" strokeLinecap="round">
     {[0, 1, 2].map((r) => (
       <path key={r} d={Array.from({length: 11}, (_, i) => `${i ? 'L' : 'M'} ${40 + i * 100} ${y + r * 46 + Math.sin((i * 1.1 + f * 0.07 + r))* 10}`).join(' ')} />
@@ -46,7 +46,7 @@ const Waves: React.FC<{y: number; f: number; o?: number}> = ({y, f, o = 1}) => (
   </g>
 );
 
-const Dial: React.FC<{x: number; y: number; r?: number; hand: number; color?: string; o?: number; min?: number}> = ({x, y, r = 60, hand, color = C.cream, o = 1, min}) => (
+export const Dial: React.FC<{x: number; y: number; r?: number; hand: number; color?: string; o?: number; min?: number}> = ({x, y, r = 60, hand, color = C.cream, o = 1, min}) => (
   <g opacity={clamp01(o)}>
     <circle cx={x} cy={y} r={r} fill={C.bg1} stroke={color} strokeWidth={5} />
     {Array.from({length: 12}, (_, i) => (

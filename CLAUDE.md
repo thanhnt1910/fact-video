@@ -495,3 +495,11 @@ Mẫu: `phim_ban_do/doc9x16/canh_xk7.js` (hàm `PH`, `strip2`, `CK`, `shw`); vid
 - **Cảnh vẽ phẳng** vẫn phải có vật chuyển động theo lời (đếm số, đường nối, vật rơi, tháp xoay); không để chỉ một icon đứng yên.
 - Cách làm: `python phim_ban_do/doc9x16/tao_trang_moi.py <mã>` rồi dựng với `--trang trang_<mã>n.html`; soi khung lớn từng cảnh trước khi giao (vòng khoanh có nằm đúng chi tiết, dấu ✗/✓ không đè chữ).
 - **Chưa biết hiệu quả giữ chân:** đây là thay đổi hình thức, chưa có số liệu. Theo dõi thời gian xem trung bình Facebook của #16 trở đi so với mốc #15 bản cũ trước khi coi là luật cứng.
+
+## Kịch bản "Bí mật biểu tượng": xương sống là MẠCH KỂ (chủ kênh duyệt 10/11/2026; thay "6 câu hỏi" làm xương sống cho loạt này; skill `viet-kich-ban-bi-mat-bieu-tuong` là nơi gom quy tắc hiện hành)
+- **Mạch kể:** hook đặt MỘT câu hỏi; mỗi đoạn trả lời hoặc đẩy tiếp câu hỏi của đoạn trước (nối bằng "nên", "nhưng", "thế là", "vậy thì…"); rồi bước ngoặt, câu trả lời, câu hỏi mở cuối gắn với chính căng thẳng của video (không "Bạn nghĩ…?" mãi). 6 câu hỏi cũ chỉ là danh sách kiểm đủ ý.
+- **Hook** tối đa khoảng 20 chữ, không năm, không tên lạ; bối cảnh dồn sang đoạn 2.
+- **Mỗi đoạn một ý lớn, tối đa một con số/năm.** Mỗi video 5–7 ý chính. Trích nguồn tối đa 2 lần, mỗi lần một tầng ("Theo UNESCO, …"); nguồn còn lại ở mô tả và bình luận ghim.
+- **Đọc to:** câu nào phải đọc hai lần thì viết lại; hai đoạn liền không mở cùng một chữ; câu kết thay đổi theo video.
+- **Công cụ trước khi gửi duyệt:** `kiem_kich_ban.py`, `kiem_mo_dau.py`, `kiem_mach_ke.py <mã>` (đo hook, tỷ lệ đoạn mở bằng từ nối, chuỗi cùng chữ mở, số lần "Theo", đoạn ≥2 con số, đoạn ≥4 tên riêng). ❌ phải sửa.
+- Lộ trình `ke-hoach/bi-mat-bieu-tuong-lo-trinh-30-video.md` đã dọn: giọng Leda, bỏ giới hạn 1858, độ dài tự do, bỏ nhãn "[kiểm]" (tra nguồn từng video khi viết).

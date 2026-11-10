@@ -1,0 +1,115 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Năm *1714*, nước Anh treo thưởng *20 000 bảng* cho câu hỏi: *tàu của tôi đang ở đâu* giữa biển?",
+   "say": "Năm một nghìn bảy trăm mười bốn, nước Anh treo thưởng hai chục nghìn bảng cho ai trả lời được một câu hỏi nghe rất đơn giản: tàu của tôi đang ở đâu giữa biển?"
+  },
+  {
+   "n": 2,
+   "text": "Người tìm ra lời giải không phải nhà thiên văn, mà là *một người thợ mộc.*",
+   "say": "Người tìm ra lời giải không phải nhà thiên văn nổi tiếng nào, mà là một người thợ mộc ở vùng quê nước Anh."
+  },
+  {
+   "n": 3,
+   "text": "Lời giải của ông là *một chiếc đồng hồ.* Vì sao *đồng hồ* lại cho biết *tàu đang ở đâu?*",
+   "say": "Lời giải của ông là một chiếc đồng hồ. Vì sao một chiếc đồng hồ lại cho biết tàu đang ở đâu?"
+  },
+  {
+   "n": 4,
+   "text": "Cần *hai con số.* *Vĩ độ*, bắc hay nam, *đo dễ*: đo *góc Mặt Trời* lúc giữa trưa.",
+   "say": "Muốn biết tàu ở đâu, thủy thủ cần hai con số. Vĩ độ cho biết tàu ở phía bắc hay phía nam, và đo dễ: đo góc của Mặt Trời lúc giữa trưa là biết."
+  },
+  {
+   "n": 5,
+   "text": "*Kinh độ*, đông hay tây, cần *giờ ở cảng nhà.* Trái Đất quay: *360°* ÷ *24 giờ* = *15°* mỗi giờ.",
+   "say": "Kinh độ cho biết đông hay tây, và cần giờ chính xác ở cảng nhà. Vì Trái Đất tự quay ba trăm sáu mươi độ trong hai mươi bốn giờ, tức mười lăm độ mỗi giờ."
+  },
+  {
+   "n": 6,
+   "text": "Giữa trưa trên tàu, đồng hồ nhà chỉ *3 giờ chiều.* *3 giờ* × *15°* = *45°*: tàu ở *phía tây* cảng nhà.",
+   "say": "Giả sử giữa trưa trên tàu, đồng hồ giữ giờ cảng nhà chỉ ba giờ chiều. Ba giờ nhân mười lăm độ là bốn mươi lăm độ: tàu ở phía tây cảng nhà bốn mươi lăm độ."
+  },
+  {
+   "n": 7,
+   "text": "Ở xích đạo, *1 phút* sai = *1/4 độ* ≈ *28 km.*",
+   "say": "Ở xích đạo, một độ kinh độ dài khoảng một trăm mười một ki-lô-mét. Vì vậy chỉ cần đồng hồ sai một phút, tàu đã lạc khoảng hai mươi tám ki-lô-mét."
+  },
+  {
+   "n": 8,
+   "text": "Thiếu cách biết vị trí chắc chắn, tàu *rất dễ lạc.* Bảy năm trước đó, *hạm đội Anh* chạy về nước và *lạc đường.*",
+   "say": "Thiếu cách xác định vị trí chắc chắn, tàu rất dễ lạc. Bảy năm trước đó, một hạm đội Anh từ Gi-bran-ta đang chạy về nước, và chính họ đã lạc."
+  },
+  {
+   "n": 9,
+   "text": "Đêm *22 tháng 10 năm 1707*, đô đốc *Cloudesley Shovell* tin tàu còn *ở phía nam* quần đảo *Scilly.* Họ chỉ *ước chừng* vị trí.",
+   "say": "Đêm hai mươi hai tháng mười năm một nghìn bảy trăm lẻ bảy, đô đốc Cờ-lau-đơ-li Sô-vồ tin tàu còn ở phía nam quần đảo Xi-li. Họ chỉ ước chừng vị trí, nên sai lệch tích lại."
+  },
+  {
+   "n": 10,
+   "text": "Đội tàu *lệch xa về phía bắc*, đâm vào đá. Bốn chiến hạm *vỡ tan*, hơn *1 400 người* chết.",
+   "say": "Đội tàu lệch xa về phía bắc, đâm vào đá. Bốn chiến hạm vỡ tan, hơn một nghìn bốn trăm người chết."
+  },
+  {
+   "n": 11,
+   "text": "Cần đồng hồ chạy đúng *nhiều tuần* giữa biển. Nhưng *sóng lắc* làm *quả lắc* chạy loạn.",
+   "say": "Để không lạc như thế, tàu cần đồng hồ chạy đúng nhiều tuần giữa biển. Nhưng đồng hồ quả lắc vô dụng trên tàu, vì sóng lắc làm quả lắc chạy loạn."
+  },
+  {
+   "n": 12,
+   "text": "Mức cao nhất: tàu lạc *không quá nửa độ*, tức đồng hồ sai *không quá 2 phút.*",
+   "say": "Mức thưởng cao nhất, hai chục nghìn bảng, đòi tàu không được lạc quá nửa độ, tức là đồng hồ không được sai quá hai phút."
+  },
+  {
+   "n": 13,
+   "text": "*John Harrison*, sinh năm *1693*, là *thợ mộc*, làm đồng hồ lúc rảnh.",
+   "say": "Người nhận thử thách ấy là Giôn Ha-ri-xơn, sinh năm một nghìn sáu trăm chín mươi ba. Ông là thợ mộc, làm đồng hồ lúc rảnh."
+  },
+  {
+   "n": 14,
+   "text": "Ba chiếc đầu là *cỗ máy lớn.* Chiếc thứ tư chỉ như *đồng hồ bỏ túi.*",
+   "say": "Ông chế ra liên tiếp bốn chiếc đồng hồ đi biển. Ba chiếc đầu là những cỗ máy lớn. Chiếc thứ tư chỉ như một chiếc đồng hồ bỏ túi."
+  },
+  {
+   "n": 15,
+   "text": "Tháng *11 năm 1761*, nó lên tàu từ *Portsmouth* đi *Jamaica*, *con trai ông* trông giữ.",
+   "say": "Tháng mười một năm một nghìn bảy trăm sáu mươi mốt, chiếc đồng hồ nhỏ ấy lên tàu từ Pót-xờ-mớt đi Gia-mai-ca, do con trai ông trông giữ."
+  },
+  {
+   "n": 16,
+   "text": "Sau *81 ngày*, tàu cập bến. Đồng hồ chỉ chậm *5 giây.*",
+   "say": "Tám mươi mốt ngày sau, tàu cập bến Kinh-xtơn. So với giờ địa phương, chiếc đồng hồ chỉ chậm khoảng năm giây."
+  },
+  {
+   "n": 17,
+   "text": "*5 giây* = *1/12 phút.* *28* ÷ *12* ≈ *2,3 km.*",
+   "say": "Một phút sai ứng với hai mươi tám ki-lô-mét. Năm giây là một phần mười hai phút, nên hai mươi tám chia mười hai ra khoảng hai phẩy ba ki-lô-mét."
+  },
+  {
+   "n": 18,
+   "text": "Mức cho phép: *55 km.* Sai số thật: *2,3 km*, nhỏ hơn *hơn 20 lần.*",
+   "say": "Mức cho phép của giải thưởng là nửa độ, khoảng năm mươi lăm ki-lô-mét ở xích đạo. Sai số của Ha-ri-xơn nhỏ hơn mức ấy hơn hai mươi lần."
+  },
+  {
+   "n": 19,
+   "text": "Vậy mà hội đồng đòi *thử thêm.* Mãi đến *1773*, sau khi ông *xin nhà vua*, mới trả *khoản cuối.*",
+   "say": "Vậy mà hội đồng chấm giải đòi thử thêm. Mãi đến năm một nghìn bảy trăm bảy mươi ba, sau khi ông xin nhà vua, quốc hội mới trả khoản cuối."
+  },
+  {
+   "n": 20,
+   "text": "Ý tưởng ấy sống trong *điện thoại.* Vệ tinh *GPS* mang *đồng hồ nguyên tử*, điện thoại tính tín hiệu *bay mất bao lâu.*",
+   "say": "Ý tưởng ấy vẫn sống trong điện thoại của bạn. Mỗi vệ tinh gi-pi-ét mang đồng hồ nguyên tử, và điện thoại tính xem tín hiệu bay mất bao lâu để tới nó."
+  },
+  {
+   "n": 21,
+   "text": "Sai *1 phần tỉ giây* thì vị trí lệch *30 cm.*",
+   "say": "Tín hiệu đi với tốc độ ánh sáng, khoảng ba mươi phân trong một phần tỉ giây. Đồng hồ sai một phần tỉ giây thì vị trí lệch khoảng ba mươi phân."
+  },
+  {
+   "n": 22,
+   "text": "Mang theo *giờ của nhà*, bạn biết *mình đang ở đâu.*",
+   "say": "Chỉ cần mang theo giờ của nhà, bạn biết mình đang ở đâu trên đại dương."
+  }
+ ]
+}

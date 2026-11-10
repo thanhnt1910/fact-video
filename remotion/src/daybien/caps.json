@@ -1,1 +1,698 @@
-[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+[
+ [
+  {
+   "text": "Thời *vệ* *tinh*,",
+   "start": 0.38,
+   "end": 0.981
+  },
+  {
+   "text": "ta vẫn chưa",
+   "start": 0.981,
+   "end": 1.813
+  },
+  {
+   "text": "vẽ xong *bản*",
+   "start": 1.813,
+   "end": 2.414
+  },
+  {
+   "text": "*đồ* *đáy* *biển*:",
+   "start": 2.414,
+   "end": 3.015
+  },
+  {
+   "text": "mới *chưa* *đến* *30%*.",
+   "start": 3.015,
+   "end": 5.7
+  }
+ ],
+ [
+  {
+   "text": "Đo *độ* *cao*",
+   "start": 0.43,
+   "end": 1.123
+  },
+  {
+   "text": "núi thì dễ,",
+   "start": 1.123,
+   "end": 1.815
+  },
+  {
+   "text": "nhìn từ",
+   "start": 1.815,
+   "end": 2.277
+  },
+  {
+   "text": "xa là được.",
+   "start": 2.277,
+   "end": 3.21
+  },
+  {
+   "text": "Vậy vì sao đo",
+   "start": 3.21,
+   "end": 4.673
+  },
+  {
+   "text": "*độ* *sâu* của biển",
+   "start": 4.673,
+   "end": 5.597
+  },
+  {
+   "text": "lại *khó* *đến* *thế*?",
+   "start": 5.597,
+   "end": 6.64
+  }
+ ],
+ [
+  {
+   "text": "Vì ta *không*",
+   "start": 0.4,
+   "end": 1.286
+  },
+  {
+   "text": "*nhìn* *thấy* *đáy*,",
+   "start": 1.286,
+   "end": 2.522
+  },
+  {
+   "text": "và *sợi* *dây*",
+   "start": 2.522,
+   "end": 3.408
+  },
+  {
+   "text": "không báo lúc",
+   "start": 3.408,
+   "end": 4.384
+  },
+  {
+   "text": "nào *chạm* *đáy*.",
+   "start": 4.384,
+   "end": 5.39
+  }
+ ],
+ [
+  {
+   "text": "Cách cũ:",
+   "start": 0.38,
+   "end": 1.071
+  },
+  {
+   "text": "buộc *quả*",
+   "start": 1.071,
+   "end": 2.072
+  },
+  {
+   "text": "*nặng* vào dây,",
+   "start": 2.072,
+   "end": 3.319
+  },
+  {
+   "text": "thả xuống,",
+   "start": 3.319,
+   "end": 4.01
+  },
+  {
+   "text": "đọc *dây* *đã* *chạy*",
+   "start": 4.01,
+   "end": 5.192
+  },
+  {
+   "text": "*ra* *bao* *nhiêu* *mét*",
+   "start": 5.192,
+   "end": 6.374
+  },
+  {
+   "text": "khi chạm đáy.",
+   "start": 6.374,
+   "end": 7.38
+  }
+ ],
+ [
+  {
+   "text": "Chỗ nông thì được.",
+   "start": 0.51,
+   "end": 1.761
+  },
+  {
+   "text": "Chỗ sâu,",
+   "start": 1.761,
+   "end": 2.877
+  },
+  {
+   "text": "*dây* *tự*",
+   "start": 2.877,
+   "end": 3.813
+  },
+  {
+   "text": "*nó* *rất* *nặng*,",
+   "start": 3.813,
+   "end": 4.851
+  },
+  {
+   "text": "nên quả nặng",
+   "start": 4.851,
+   "end": 6.18
+  },
+  {
+   "text": "*chạm* *đáy* mà *tay*",
+   "start": 6.18,
+   "end": 7.681
+  },
+  {
+   "text": "*khó* *nhận* *ra*.",
+   "start": 7.681,
+   "end": 8.74
+  }
+ ],
+ [
+  {
+   "text": "Sâu khoảng",
+   "start": 0.5,
+   "end": 0.932
+  },
+  {
+   "text": "*2* *700* *m*,",
+   "start": 0.932,
+   "end": 2.446
+  },
+  {
+   "text": "quả nặng phải",
+   "start": 2.446,
+   "end": 3.564
+  },
+  {
+   "text": "chìm khoảng *20* *phút*",
+   "start": 3.564,
+   "end": 4.861
+  },
+  {
+   "text": "mới tới đáy.",
+   "start": 4.861,
+   "end": 5.63
+  }
+ ],
+ [
+  {
+   "text": "Tàu *Challenger* của Anh",
+   "start": 0.36,
+   "end": 1.57
+  },
+  {
+   "text": "cũng đo bằng dây.",
+   "start": 1.57,
+   "end": 2.597
+  },
+  {
+   "text": "Từ *1872* đến *1876*,",
+   "start": 2.597,
+   "end": 6.03
+  },
+  {
+   "text": "tàu chỉ đo *chưa*",
+   "start": 6.03,
+   "end": 7.177
+  },
+  {
+   "text": "*đến* *500* *lần*.",
+   "start": 7.177,
+   "end": 8.91
+  }
+ ],
+ [
+  {
+   "text": "*Chưa* *đến* *500*",
+   "start": 0.44,
+   "end": 2.581
+  },
+  {
+   "text": "*điểm* giữa đại",
+   "start": 2.581,
+   "end": 3.415
+  },
+  {
+   "text": "dương mênh mông:",
+   "start": 3.415,
+   "end": 4.129
+  },
+  {
+   "text": "chỉ là *vài*",
+   "start": 4.129,
+   "end": 4.843
+  },
+  {
+   "text": "*chấm* *nhỏ* trên",
+   "start": 4.843,
+   "end": 5.556
+  },
+  {
+   "text": "*bản* *đồ* *trắng*.",
+   "start": 5.556,
+   "end": 6.39
+  }
+ ],
+ [
+  {
+   "text": "Ngày *23* *tháng*",
+   "start": 0.38,
+   "end": 1.589
+  },
+  {
+   "text": "*3* *năm* *1875*,",
+   "start": 1.589,
+   "end": 3.36
+  },
+  {
+   "text": "tàu đo được chỗ",
+   "start": 3.36,
+   "end": 4.494
+  },
+  {
+   "text": "sâu *8* *184* *m*,",
+   "start": 4.494,
+   "end": 6.63
+  },
+  {
+   "text": "và *đo*",
+   "start": 6.63,
+   "end": 7.712
+  },
+  {
+   "text": "*lại* *lần* *hai*.",
+   "start": 7.712,
+   "end": 8.48
+  }
+ ],
+ [
+  {
+   "text": "Ý mới:",
+   "start": 0.33,
+   "end": 0.833
+  },
+  {
+   "text": "đừng thả dây.",
+   "start": 0.833,
+   "end": 2.108
+  },
+  {
+   "text": "*Gửi* *một* *tiếng*",
+   "start": 2.108,
+   "end": 3.213
+  },
+  {
+   "text": "*động* xuống đáy,",
+   "start": 3.213,
+   "end": 4.307
+  },
+  {
+   "text": "đo *bao* *lâu* sau",
+   "start": 4.307,
+   "end": 5.464
+  },
+  {
+   "text": "*tiếng* *vang* quay lại.",
+   "start": 5.464,
+   "end": 6.59
+  }
+ ],
+ [
+  {
+   "text": "Như hét",
+   "start": 0.41,
+   "end": 1.029
+  },
+  {
+   "text": "vào thung lũng:",
+   "start": 1.029,
+   "end": 1.957
+  },
+  {
+   "text": "núi *càng* *xa*,",
+   "start": 1.957,
+   "end": 3.276
+  },
+  {
+   "text": "tiếng vang",
+   "start": 3.276,
+   "end": 4.165
+  },
+  {
+   "text": "về *càng* *muộn*.",
+   "start": 4.165,
+   "end": 5.713
+  },
+  {
+   "text": "Đáy *càng* *sâu*,",
+   "start": 5.713,
+   "end": 7.112
+  },
+  {
+   "text": "vang *càng* *chậm*.",
+   "start": 7.112,
+   "end": 8.16
+  }
+ ],
+ [
+  {
+   "text": "Trong nước,",
+   "start": 0.34,
+   "end": 0.739
+  },
+  {
+   "text": "âm thanh đi",
+   "start": 0.739,
+   "end": 1.607
+  },
+  {
+   "text": "khoảng *1* *500*",
+   "start": 1.607,
+   "end": 3.911
+  },
+  {
+   "text": "*m* mỗi giây.",
+   "start": 3.911,
+   "end": 4.509
+  },
+  {
+   "text": "Tiếng động *đi* *xuống*",
+   "start": 4.509,
+   "end": 5.306
+  },
+  {
+   "text": "*rồi* *dội* *lên*:",
+   "start": 5.306,
+   "end": 6.145
+  },
+  {
+   "text": "quãng đường là *hai*",
+   "start": 6.145,
+   "end": 6.942
+  },
+  {
+   "text": "*lần* độ sâu.",
+   "start": 6.942,
+   "end": 7.66
+  }
+ ],
+ [
+  {
+   "text": "Nên *độ* *sâu* =",
+   "start": 0.35,
+   "end": 1.433
+  },
+  {
+   "text": "*tốc* *độ* × *thời*",
+   "start": 1.433,
+   "end": 2.416
+  },
+  {
+   "text": "*gian* ÷ *2*.",
+   "start": 2.416,
+   "end": 3.79
+  }
+ ],
+ [
+  {
+   "text": "Vang về",
+   "start": 0.45,
+   "end": 0.881
+  },
+  {
+   "text": "sau *4* *giây*:",
+   "start": 0.881,
+   "end": 1.683
+  },
+  {
+   "text": "*1* *500* × *4*",
+   "start": 1.683,
+   "end": 3.454
+  },
+  {
+   "text": "= *6* *000*,",
+   "start": 3.454,
+   "end": 4.414
+  },
+  {
+   "text": "÷ *2*",
+   "start": 4.414,
+   "end": 5.371
+  },
+  {
+   "text": "= *3* *000*.",
+   "start": 5.371,
+   "end": 6.96
+  },
+  {
+   "text": "Đáy sâu",
+   "start": 6.96,
+   "end": 7.391
+  },
+  {
+   "text": "*3* *000* *m*.",
+   "start": 7.391,
+   "end": 8.6
+  }
+ ],
+ [
+  {
+   "text": "Chỉ mất *vài* *giây*,",
+   "start": 0.35,
+   "end": 1.402
+  },
+  {
+   "text": "và tàu *vừa*",
+   "start": 1.402,
+   "end": 2.471
+  },
+  {
+   "text": "*chạy* *vừa* *đo*,",
+   "start": 2.471,
+   "end": 3.259
+  },
+  {
+   "text": "không phải dừng thả",
+   "start": 3.259,
+   "end": 4.621
+  },
+  {
+   "text": "dây *nhiều* *phút*.",
+   "start": 4.621,
+   "end": 5.71
+  }
+ ],
+ [
+  {
+   "text": "Máy đo *tiếng*",
+   "start": 0.38,
+   "end": 0.954
+  },
+  {
+   "text": "*vang* ra đời *đầu*",
+   "start": 0.954,
+   "end": 1.719
+  },
+  {
+   "text": "*thế* *kỷ* *20*.",
+   "start": 1.719,
+   "end": 3.332
+  },
+  {
+   "text": "Từ *1925*,",
+   "start": 3.332,
+   "end": 4.384
+  },
+  {
+   "text": "tàu *Meteor* của Đức",
+   "start": 4.384,
+   "end": 5.72
+  },
+  {
+   "text": "dùng nó khảo sát",
+   "start": 5.72,
+   "end": 6.485
+  },
+  {
+   "text": "*Nam* *Đại* *Tây* *Dương*.",
+   "start": 6.485,
+   "end": 7.37
+  }
+ ],
+ [
+  {
+   "text": "Tàu này đo khoảng",
+   "start": 0.42,
+   "end": 1.37
+  },
+  {
+   "text": "*67* *000* *lần*,",
+   "start": 1.37,
+   "end": 2.957
+  },
+  {
+   "text": "nhiều gấp *hơn* *100*",
+   "start": 2.957,
+   "end": 4.224
+  },
+  {
+   "text": "*lần* cả chuyến *Challenger*.",
+   "start": 4.224,
+   "end": 5.77
+  }
+ ],
+ [
+  {
+   "text": "Từ số đo ấy,",
+   "start": 0.42,
+   "end": 1.208
+  },
+  {
+   "text": "họ vẽ được *14*",
+   "start": 1.208,
+   "end": 2.561
+  },
+  {
+   "text": "*mặt* *cắt* của *đáy*",
+   "start": 2.561,
+   "end": 3.579
+  },
+  {
+   "text": "*Đại* *Tây* *Dương*.",
+   "start": 3.579,
+   "end": 4.29
+  }
+ ],
+ [
+  {
+   "text": "Nay,",
+   "start": 0.34,
+   "end": 0.562
+  },
+  {
+   "text": "dự án *Seabed*",
+   "start": 0.562,
+   "end": 1.729
+  },
+  {
+   "text": "*2030* muốn có *bản*",
+   "start": 1.729,
+   "end": 4.157
+  },
+  {
+   "text": "*đồ* *trọn* *vẹn*,",
+   "start": 4.157,
+   "end": 4.823
+  },
+  {
+   "text": "bằng cách gom",
+   "start": 4.823,
+   "end": 5.488
+  },
+  {
+   "text": "số đo của",
+   "start": 5.488,
+   "end": 6.273
+  },
+  {
+   "text": "*220* *tổ* *chức*.",
+   "start": 6.273,
+   "end": 8.5
+  }
+ ],
+ [
+  {
+   "text": "*Tháng* *4* *năm* *2026*,",
+   "start": 0.49,
+   "end": 3.315
+  },
+  {
+   "text": "dự án báo",
+   "start": 3.315,
+   "end": 3.919
+  },
+  {
+   "text": "đã có *104* *triệu*",
+   "start": 3.919,
+   "end": 5.769
+  },
+  {
+   "text": "*km²* đáy biển,",
+   "start": 5.769,
+   "end": 6.652
+  },
+  {
+   "text": "tức *28,7%*.",
+   "start": 6.652,
+   "end": 8.13
+  }
+ ],
+ [
+  {
+   "text": "Cả đáy biển:",
+   "start": 0.54,
+   "end": 1.187
+  },
+  {
+   "text": "*104* *triệu* ÷ *28,7%*",
+   "start": 1.187,
+   "end": 5.471
+  },
+  {
+   "text": "≈ *362* *triệu* *km²*.",
+   "start": 5.471,
+   "end": 7.82
+  }
+ ],
+ [
+  {
+   "text": "Một khảo sát",
+   "start": 0.35,
+   "end": 1.024
+  },
+  {
+   "text": "ngoài khơi *Alaska*,",
+   "start": 1.024,
+   "end": 2.386
+  },
+  {
+   "text": "chạy *từng* *tuyến* *một*,",
+   "start": 2.386,
+   "end": 3.674
+  },
+  {
+   "text": "kéo dài *40* *năm*.",
+   "start": 3.674,
+   "end": 6.138
+  },
+  {
+   "text": "Hơn *70%* đáy biển",
+   "start": 6.138,
+   "end": 7.912
+  },
+  {
+   "text": "vẫn *là* *khoảng* *trắng*.",
+   "start": 7.912,
+   "end": 8.93
+  }
+ ],
+ [
+  {
+   "text": "Nhờ thay *sợi* *dây*",
+   "start": 0.33,
+   "end": 1.669
+  },
+  {
+   "text": "bằng *tiếng* *vang*,",
+   "start": 1.669,
+   "end": 3.233
+  },
+  {
+   "text": "ta mới bắt đầu",
+   "start": 3.233,
+   "end": 5.061
+  },
+  {
+   "text": "*vẽ* *được* *đáy* *biển*.",
+   "start": 5.061,
+   "end": 6.52
+  }
+ ]
+]

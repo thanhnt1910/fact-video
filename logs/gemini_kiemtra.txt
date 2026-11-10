@@ -1,5 +1,5 @@
-Kiểm tra lúc 2026-11-10 08:19:43 UTC
-Số khóa tìm thấy: 12
+Kiểm tra lúc 2026-11-10 08:24:48 UTC
+Số khóa tìm thấy: 18
 
 [GEMINI_API_KEY] dấu vân tay 6a898e57, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
@@ -7,11 +7,11 @@ Số khóa tìm thấy: 12
 
 [GEMINI_API_KEY_2] dấu vân tay a5829c1b, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 503 UNAVAILABLE: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_3] dấu vân tay 8a28a818, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_4] dấu vân tay 7673ded0, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
@@ -19,7 +19,7 @@ Số khóa tìm thấy: 12
 
 [GEMINI_API_KEY_5] dấu vân tay 50693f29, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
-   Chữ flash-lite: ⛔ HTTP 0 The read operation timed out
+   Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_6] dấu vân tay 7eecaab1, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
@@ -46,5 +46,29 @@ Số khóa tìm thấy: 12
    Chữ flash-lite: ✅ dùng được
 
 [GEMINI_API_KEY_12] dấu vân tay 2b6eb0f0, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_13] dấu vân tay 7bfca4b1, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_14] dấu vân tay 65dcde3a, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_15] dấu vân tay 26aa8366, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_17] dấu vân tay 02af6eda, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_18] dấu vân tay 1df6ef1a, độ dài 53
+   TTS gemini-3.1-flash-tts-preview: ✅ đọc được
+   Chữ flash-lite: ✅ dùng được
+
+[GEMINI_API_KEY_19] dấu vân tay a325f077, độ dài 53
    TTS gemini-3.1-flash-tts-preview: ✅ đọc được
    Chữ flash-lite: ✅ dùng được

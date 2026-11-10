@@ -13,6 +13,10 @@ import {Anhsang} from './anhsang/Anhsang';
 import {timeline as timelineAs} from './anhsang/content';
 import {Kinhdo} from './kinhdo/Kinhdo';
 import {Daybien} from './daybien/Daybien';
+import {Vuongmien} from './vuongmien/Vuongmien';
+import {timeline as timelineVm} from './vuongmien/content';
+import {Kinhhienvi} from './kinhhienvi/Kinhhienvi';
+import {timeline as timelineKh} from './kinhhienvi/content';
 import {timeline as timelineDb} from './daybien/content';
 import {timeline as timelineKd} from './kinhdo/content';
 import {timeline as timelineCav} from './cavendish/content';
@@ -29,6 +33,8 @@ export const Root: React.FC = () => {
       <Composition id="Thales2VI" component={Thales2} durationInFrames={timeline2('vi').total} fps={FPS} width={W} height={H} defaultProps={{lang: 'vi' as const}} />
       <Composition id="Thales3" component={Thales3} durationInFrames={timeline3().total} fps={FPS} width={W} height={H} />
       <Composition id="Anhsang" component={Anhsang} durationInFrames={timelineAs().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Vuongmien" component={Vuongmien} durationInFrames={timelineVm().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Kinhhienvi" component={Kinhhienvi} durationInFrames={timelineKh().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Daybien" component={Daybien} durationInFrames={timelineDb().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Kinhdo" component={Kinhdo} durationInFrames={timelineKd().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Cavendish" component={Cavendish} durationInFrames={timelineCav().total} fps={FPS} width={1080} height={1920} />

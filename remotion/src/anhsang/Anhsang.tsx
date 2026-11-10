@@ -27,10 +27,10 @@ const Stars: React.FC = () => {
   );
 };
 
-const BASE: Record<string, number> = {hook: 1.12, romer: 1.12, divide: 1.1, outro: 1.1};
+const BASE: Record<string, number> = {};
 const Push: React.FC<{dur: number; base?: number; children: React.ReactNode}> = ({dur, base = 1, children}) => {
   const f = useCurrentFrame();
-  const k = base + 0.07 * Math.min(1, f / Math.max(1, dur));
+  const k = base + 0.02 * Math.min(1, f / Math.max(1, dur));
   return <div style={{position: 'absolute', inset: 0, transform: `scale(${k})`, transformOrigin: '50% 48%'}}>{children}</div>;
 };
 

@@ -484,3 +484,14 @@ Số liệu 8–9/11: video "Tên nước Việt Nam suýt là Nam Việt?" đ�
 - **Tiêu đề đăng giữ cùng công thức**, dạng câu hỏi ngắn gây sốc ("Cầu Long Biên có phải của Eiffel?"), vẫn đúng sự thật, không giật tít sai.
 - **Chủ đề không có điểm đảo ngược thật thì không bịa cho có**: dùng hook hỏi một điều lạ nhất có nguồn; nhưng khi chọn chủ đề mới, ưu tiên chủ đề có sẵn điểm lật lại.
 - **Theo dõi:** sau 24 giờ của mỗi video, lấy số liệu Metricool (lượt xem, like, thời gian xem trung bình Facebook; lượt xem, like TikTok) và ghi vào cột so sánh "hook lật lại" với "hook thường". Bốn video mẫu để so: Nam Việt 5.051 xem/14 like/18 s; Trống đồng 620/5/12 s; Cổ Loa 1.417/10/20 s; Bạch Đằng 673/5/18 s. Đủ ít nhất 4–5 video mới mới kết luận; nếu hook lật lại không hơn thì bỏ quy tắc này.
+
+## Dựng cảnh có chuyển động và màu có nghĩa (chủ kênh duyệt 10/11/2026 từ bản v2 của #15 Cầu Long Biên; áp dụng mọi video dọc loạt "Bí mật biểu tượng" từ #16, video đã làm giữ nguyên)
+Mẫu: `phim_ban_do/doc9x16/canh_xk7.js` (hàm `PH`, `strip2`, `CK`, `shw`); video `out/xk7l_v2_doc.mp4`.
+- **Cảnh ảnh phải zoom tới ĐÚNG chi tiết đang nói**, không chỉ phóng nhẹ cả khung. Khai báo cho mỗi cảnh ảnh `F={fx,fy,z,w:[từ,giây dự phòng],r,mark:'x'|'ok',m:[từ,giây dự phòng]}` (tọa độ chi tiết theo phần trăm ảnh, zoom, từ khóa kích hoạt zoom, bán kính vòng khoanh, dấu ✗/✓ và từ khóa của nó). Vòng khoanh vẽ chạy tới chi tiết ngay khi từ khóa vang lên; sau khi zoom xong vẫn trôi chậm tiếp.
+- **Chọn tọa độ chi tiết bằng mắt:** xem ảnh có lưới 10×10 (chia ảnh thành lưới đánh số) rồi chọn; không đặt vòng sát mép ảnh (vòng tràn ra ngoài khung ảnh).
+- **Dấu ✗ đóng lên điều sai hoặc bị bác, ✓ lên điều đúng**, đúng lúc lời kể nói tới ("nhưng không trúng", "do Eiffel thiết kế?" → ✗; "hãng thắng thầu", "biển kim loại" → ✓).
+- **Màu có nghĩa, mỗi video tối đa 3–4 màu:** đỏ `#d8372d` = điều sai, thiếu, bị bác, nguy hiểm; vàng đồng `#e0a63c` = điều đúng, có thật; xanh thép `#7fa6c4` = nền và mốc đầu; kem = trung tính. Dải chữ dùng `strip2(chữ,'bad'|'ok'|'base',cỡ,seed)`. Không dùng cam, xanh lá hay xanh dương lẻ.
+- **Không có khoảng hình đứng yên từ 2 giây trở lên:** dải chữ rung nhẹ (`shw`), thẻ ảnh lắc nhẹ, nền có hiệu ứng chuyển động riêng. Tự đo sau khi dựng: lấy khung 4 hình/giây, độ lệch trung bình giữa hai khung liền nhau dưới 0,35 kéo dài từ 2 giây là đoạn đứng yên; phải bằng 0 đoạn (v2: 0; bản cũ: 2).
+- **Cảnh vẽ phẳng** vẫn phải có vật chuyển động theo lời (đếm số, đường nối, vật rơi, tháp xoay); không để chỉ một icon đứng yên.
+- Cách làm: `python phim_ban_do/doc9x16/tao_trang_moi.py <mã>` rồi dựng với `--trang trang_<mã>n.html`; soi khung lớn từng cảnh trước khi giao (vòng khoanh có nằm đúng chi tiết, dấu ✗/✓ không đè chữ).
+- **Chưa biết hiệu quả giữ chân:** đây là thay đổi hình thức, chưa có số liệu. Theo dõi thời gian xem trung bình Facebook của #16 trở đi so với mốc #15 bản cũ trước khi coi là luật cứng.

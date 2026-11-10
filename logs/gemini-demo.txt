@@ -1,6 +1,12 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 13: *John Harrison*, sinh năm *1693*, là *thợ mộc*, là
+OK Leda 15: Tháng *11 năm 1761*, nó lên tàu từ *Portsmouth* đi
+OK Leda 16: Sau *81 ngày*, tàu cập bến. Đồng hồ chỉ chậm *5 gi
+OK Leda 17: *5 giây* = *1/12 phút.* *28* ÷ *12* ≈ *2,3 km.*
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 18: Mức cho phép: *55 km.* Sai số thật: *2,3 km*, nhỏ 
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Vậy mà hội đồng đòi *thử thêm.* Mãi đến *1773*, sa
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Ba chiếc đầu là *cỗ máy lớn.* Chiếc thứ tư chỉ như
+OK Leda 20: Ý tưởng ấy sống trong *điện thoại.* Vệ tinh *GPS* 
+OK Leda 21: Sai *1 phần tỉ giây* thì vị trí lệch *30 cm.*
+OK Leda 22: Mang theo *giờ của nhà*, bạn biết *mình đang ở đâu

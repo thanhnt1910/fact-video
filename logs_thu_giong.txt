@@ -17,12 +17,8 @@
    [khóa] GEMINI_API_KEYS: trống
    [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-10 02:31:31
 còn thiếu 1 câu
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 5h5m41s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 5h5m41s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 97010-97010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-10 02:54:22
+   [giọng] nhóm 97010-97010: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-10 02:57:23
 OK cụm 97010 - 97010 5.2 giây
 [báo cáo giọng] 21/21 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts

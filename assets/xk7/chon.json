@@ -1,0 +1,67 @@
+{
+ "lb1": {
+  "title": "File:HanoiLongBienBridge.jpg",
+  "slot": "S1",
+  "so": 1
+ },
+ "lb2": {
+  "title": "File:Gustave Eiffel 1888 Nadar.jpg",
+  "slot": "S2",
+  "so": 2
+ },
+ "lb3": {
+  "title": "File:Hanoï - Pont sur le Fleuve Rouge.jpg",
+  "slot": "S3",
+  "so": 3
+ },
+ "lb5": {
+  "title": "File:Pont Bir Hakeim, 1905 Dayde & Pille constructeurs.JPG",
+  "slot": "S5",
+  "so": 5
+ },
+ "lb6": {
+  "title": "File:Ateliers de Levallois-Perret 1887.png",
+  "slot": "S6",
+  "so": 6
+ },
+ "lb8": {
+  "title": "File:Paul Doumer.jpg",
+  "slot": "S8",
+  "so": 8
+ },
+ "lb9": {
+  "title": "File:Long Biên bridge, contructor panel.jpg",
+  "slot": "S9",
+  "so": 9
+ },
+ "lb12": {
+  "title": "File:Hanoi cau long bien.jpg",
+  "slot": "S12",
+  "so": 12
+ },
+ "lb15": {
+  "title": "File:Pont-route sur la Saône à Auxonne - Ateliers de construction de Creil. Anciens établissements Le Brun. Daydé et Pillé. Ingénieurs Constructeurs. - Durandelle, Louis-Emile - btv1b10481938t.jpg",
+  "slot": "S15",
+  "so": 15
+ },
+ "lb16": {
+  "title": "File:Capdenac gare pont eiffel.jpg",
+  "slot": "S16",
+  "so": 16
+ },
+ "lb18": {
+  "title": "File:Cầu Long Biên 28-2-2016.JPG",
+  "slot": "S18",
+  "so": 18
+ },
+ "lb19": {
+  "title": "File:Long-bien-bridge-3371617.jpg",
+  "slot": "S19",
+  "so": 19
+ },
+ "lb20": {
+  "title": "File:Long Bien Bridge Sunset.jpg",
+  "slot": "S20",
+  "so": 20
+ }
+}

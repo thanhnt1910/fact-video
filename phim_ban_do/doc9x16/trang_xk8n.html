@@ -152,7 +152,7 @@ const PH=(n,bg,key,mw,mh,lab,items,yr,F)=>S2(n,n,bg,yr?(t=>yr):null,g=>{const c=
 // 1: hook
 PH(1,'d','ha7',900,620,'CHÙA CẦU · HỘI AN',[['CẦU TRÊN TỜ 20.000 ĐỒNG','base',38,'cây',.8],['CÓ CẢ MỘT NGÔI CHÙA TRÊN CẦU?','ok',32,'chùa',4.6]],null,{fx:.5,fy:.3,z:1.8,w:['chùa',4.0],r:150});
 // 2: phố cổ
-PH(2,'p','ha2',900,640,'PHỐ CỔ HỘI AN',[['ĐÂY LÀ CHÙA CẦU','base',44,'chùa',1.2],['GỌI LÀ CHÙA, NHƯNG LÀ CÂY CẦU','bad',30,'nhưng',4.4]],null,{fx:.82,fy:.4,z:1.5,w:['phố',2.4],r:140});
+PH(2,'p','ha2',900,640,'PHỐ CỔ HỘI AN',[['ĐÂY LÀ CHÙA CẦU','base',44,'chùa',1.2],['GỌI LÀ CHÙA, NHƯNG LÀ CÂY CẦU','bad',30,'nhưng',4.4]],null,null);
 // 3: mái ngói bắc qua lạch, vì sao tên chùa
 PH(3,'d','ha4',900,600,'CHÙA CẦU HỘI AN',[['MÁI NGÓI BẮC QUA LẠCH NHỎ','base',34,'mái',.2],['VÌ SAO LẠI MANG TÊN CHÙA?','bad',34,'vì',4.0]],null,{fx:.5,fy:.4,z:1.9,w:['vì',4.0],r:150});
 // 4: thương cảng, thế kỷ 15 (vẽ phẳng)
@@ -168,7 +168,7 @@ PH(6,'p','ha6',900,600,'CẦU NHẬT BẢN',[['TƯƠNG TRUYỀN: NGƯỜI NHẬT
 S2(7,7,'d',null,g=>{const pl=el(g,'g',{});el(pl,'rect',{x:-300,y:-70,width:600,height:140,rx:26,fill:'#f5efe0',stroke:'#17120c','stroke-width':9});const t1=T(pl,0,22,'CẦU NHẬT BẢN',66,'#17120c',0,'middle','none');t1.setAttribute('stroke','none');const bd=el(g,'g',{});el(bd,'circle',{r:60,fill:CSTEEL,stroke:'#fff','stroke-width':9});const nn=T(bd,0,28,'1',84,'#0b1823',0,'middle','none');nn.setAttribute('stroke','none');
  const mo=el(g,'path',{d:'M180 760 C260 560 340 900 440 700 S620 560 700 760 S880 880 920 700',fill:'none',stroke:CRED,'stroke-width':34,'stroke-linecap':'round',pathLength:1,'stroke-dasharray':1,'stroke-dashoffset':1});const eye=el(g,'circle',{r:13,fill:'#fff',cx:920,cy:700});
  const A=strip2('TÊN THỨ NHẤT','base',44,71),B=strip2('CON THỦY QUÁI (TRUYỀN THUYẾT)','bad',30,72);
- return{upd:t=>{const e=popv(t,R(7)+.1,.6);PUT(pl,540,430+Math.sin(t*1.6)*6,e,1,-2);PUT(bd,190,300,popv(t,R(7)+.4,.5),1,-6);const w=AT(7,'truyền',4.4),u=inn(t,w,1.6);mo.setAttribute('stroke-dashoffset',1-u);mo.setAttribute('opacity',u>0?1:0);PUT(eye,920,700+Math.sin(t*3)*6,u>.95?1:0);shw(A,t,540,1085,-1,PV(t,7,'tên',.8));shw(B,t,540,1195,1,PV(t,7,'con',5.2))}}});
+ return{upd:t=>{const e=popv(t,R(7)+.1,.6);PUT(pl,540,430+Math.sin(t*1.6)*6,e,1,-2);PUT(bd,930,440,popv(t,R(7)+.4,.5),1,6);const w=AT(7,'truyền',4.4),u=inn(t,w,1.6);mo.setAttribute('stroke-dashoffset',1-u);mo.setAttribute('opacity',u>0?1:0);PUT(eye,920,700+Math.sin(t*3)*6,u>.95?1:0);shw(A,t,540,1085,-1,PV(t,7,'tên',.8));shw(B,t,540,1195,1,PV(t,7,'con',5.2))}}});
 // 8: thủy quái trở mình, cầu đè chặn (vẽ phẳng)
 S2(8,8,'p',null,g=>{const mo=el(g,'path',{d:'M160 800 C240 600 330 940 430 740 S620 600 700 800 S880 920 930 740',fill:'none',stroke:CRED,'stroke-width':36,'stroke-linecap':'round'});const bm1=BEAM(g,700);const x8=XX(g);
  const A=strip2('TRUYỀN THUYẾT','bad',48,81),B=strip('MỖI LẦN TRỞ MÌNH: ĐẤT RUNG, NƯỚC LỤT',false,28,82),C=strip2('CẦU DỰNG ĐỂ ĐÈ CHẶN','base',40,83);
@@ -178,7 +178,7 @@ PH(9,'d','ha8',900,600,'CHÙA CẦU HỘI AN',[['TRUYỀN THUYẾT THÌ VẬY','
 // 10: 1653 miếu nhỏ trên cầu (vẽ phẳng)
 S2(10,10,'p',t=>'1653',g=>{const bd=BEAM(g,760);const sh1=el(g,'g',{});el(sh1,'rect',{x:-110,y:-70,width:220,height:100,fill:'#a8301f',stroke:'#17120c','stroke-width':8});el(sh1,'path',{d:'M-170 -70 L0 -170 L170 -70Z',fill:'#7a3a18',stroke:'#17120c','stroke-width':8,'stroke-linejoin':'round'});el(sh1,'rect',{x:-26,y:-34,width:52,height:64,fill:'#1b0f08'});
  const A=strip2('DÂN LÀNG DỰNG THÊM MIẾU NHỎ','ok',32,101),B=strip('THỜ BẮC ĐẾ TRẤN VŨ',false,40,102);
- return{upd:t=>{const e=popv(t,R(10)+.1,.6);PUT(bd,540,800,e,1,-1);const w=AT(10,'dựng',2.0),d=inn(t,w,.8);const sc=popv(t,w,.5);sh1.setAttribute('transform',`translate(540,${520+(1-d)*-160+Math.sin(t*1.5)*3}) scale(${Math.max(.001,sc)*1.5})`);sh1.setAttribute('opacity',sc>0?1:0);shw(A,t,540,1085,-1,PV(t,10,'dân',.9));shw(B,t,540,1195,1,PV(t,10,'thờ',4.0))}}});
+ return{upd:t=>{const e=popv(t,R(10)+.1,.6);PUT(bd,540,800,e,1,-1);const w=AT(10,'dựng',2.0),d=inn(t,w,.8);const sc=popv(t,w,.5);sh1.setAttribute('transform',`translate(540,${722+(1-d)*-300+Math.sin(t*1.5)*2}) scale(${Math.max(.001,sc)*1.5})`);sh1.setAttribute('opacity',sc>0?1:0);shw(A,t,540,1085,-1,PV(t,10,'dân',.9));shw(B,t,540,1195,1,PV(t,10,'thờ',4.0))}}});
 // 11: dân gọi là chùa
 PH(11,'p','ha1',900,560,'CHÙA CẦU VỀ ĐÊM',[['CÓ MIẾU TRÊN CẦU','base',44,'miếu',.6],['DÂN GỌI LÀ CHÙA: CHÙA CẦU','ok',34,'chùa',3.6]],null,{fx:.48,fy:.43,z:2.2,w:['dân',2.6],r:120,mark:'ok',m:['chùa',4.8]});
 // 12: ba cái tên, tên thứ ba (vẽ phẳng)
@@ -200,7 +200,7 @@ PH(15,'p','ha13',900,520,'PHỐ CỔ HỘI AN VỀ ĐÊM',[['VÌ SAO PHỐ CỔ 
 S2(16,16,'d',null,g=>{const ax=el(g,'path',{d:'M140 380 L140 820 L940 820',fill:'none',stroke:'#f5efe0','stroke-width':8,'stroke-linecap':'round'});const ln=el(g,'path',{d:'M170 420 L330 450 L480 520 L650 650 L800 760 L920 800',fill:'none',stroke:CRED,'stroke-width':16,'stroke-linecap':'round','stroke-linejoin':'round',pathLength:1,'stroke-dasharray':1,'stroke-dashoffset':1});const dt=el(g,'circle',{r:20,fill:CRED,stroke:'#fff','stroke-width':6});
  const hs=el(g,'g',{});el(hs,'rect',{x:-90,y:-50,width:180,height:100,fill:CGOLD,stroke:'#17120c','stroke-width':7});el(hs,'path',{d:'M-120 -50 L0 -130 L120 -50Z',fill:'#8a4a22',stroke:'#17120c','stroke-width':7,'stroke-linejoin':'round'});const ck=CK(g);const n=bigNum(g,'0',120,CRED);
  const A=strip('THEO UNESCO',false,36,161),B=strip2('THƯƠNG CẢNG SUY GIẢM','bad',40,162),C=strip2('PHỐ CỔ GIỮ NGUYÊN VẸN','ok',40,163);
- return{upd:t=>{const e=popv(t,R(16)+.1,.5);ax.setAttribute('opacity',e>0?1:0);const w=AT(16,'suy',2.4),u=inn(t,w,1.6);ln.setAttribute('stroke-dashoffset',1-u);const pts=[[170,420],[330,450],[480,520],[650,650],[800,760],[920,800]];const k=u*5,i=Math.min(4,Math.floor(k)),f=k-i;PUT(dt,pts[i][0]+(pts[i+1][0]-pts[i][0])*f,pts[i][1]+(pts[i+1][1]-pts[i][1])*f,u>0?1:0);const wn=AT(16,'thế',3.2);n.textContent=String(Math.round(19*inn(t,wn,.8)));PUT(n,540,300,popv(t,wn,.5),1,-2);const wh=AT(16,'Nhờ',6.2);PUT(hs,300,560,popv(t,wh,.5),1,-2);PUT(ck,420,470,popv(t,wh+.7,.5),.6,0);shw(A,t,300,1000,-1,PV(t,16,'Theo',.2));shw(B,t,540,1105,1,PV(t,16,'thương',1.4));shw(C,t,540,1215,-1,PV(t,16,'phố',7.0))}}});
+ return{upd:t=>{const e=popv(t,R(16)+.1,.5);ax.setAttribute('opacity',e>0?1:0);const w=AT(16,'suy',2.4),u=inn(t,w,1.6);ln.setAttribute('stroke-dashoffset',1-u);const pts=[[170,420],[330,450],[480,520],[650,650],[800,760],[920,800]];const k=u*5,i=Math.min(4,Math.floor(k)),f=k-i;PUT(dt,pts[i][0]+(pts[i+1][0]-pts[i][0])*f,pts[i][1]+(pts[i+1][1]-pts[i][1])*f,u>0?1:0);const wn=AT(16,'thế',3.2);n.textContent=String(Math.round(19*inn(t,wn,.8)));PUT(n,830,570,popv(t,wn,.5),1,-2);const wh=AT(16,'Nhờ',6.2);PUT(hs,330,700,popv(t,wh,.5),1,-2);PUT(ck,560,700,popv(t,wh+.7,.5),.6,0);shw(A,t,300,1000,-1,PV(t,16,'Theo',.2));shw(B,t,540,1105,1,PV(t,16,'thương',1.4));shw(C,t,540,1215,-1,PV(t,16,'phố',7.0))}}});
 // 17: 1999 Di sản thế giới
 PH(17,'d','ha11',900,600,'PHỐ CỔ HỘI AN VỀ ĐÊM',[['DI SẢN THẾ GIỚI','ok',48,'Di',2.4],['PHỐ CỔ HỘI AN','base',44,'phố',.9]],'1999',{fx:.5,fy:.42,z:1.7,w:['công',1.6],r:200,mark:'ok',m:['Di',3.0]});
 // 18: tờ tiền 20.000 đồng (vẽ phẳng, biểu tượng minh họa)
@@ -211,7 +211,7 @@ S2(18,18,'p',null,g=>{const nt=el(g,'g',{});el(nt,'rect',{x:-380,y:-190,width:76
 // 19: câu hỏi cuối (vẽ phẳng)
 S2(19,19,'d',null,g=>{const q=T(g,0,0,'?',420,'#e5483f',18,'middle',DK);const mkP=(txt,col,sz)=>{const k=el(g,'g',{});el(k,'rect',{x:-190,y:-46,width:380,height:92,rx:20,fill:col,stroke:'#fff','stroke-width':8});const tt=T(k,0,sz*.36,txt,sz,'#17120c',0,'middle','none');tt.setAttribute('stroke','none');return k};
  const p=[mkP('CẦU NHẬT BẢN',CSTEEL,34),mkP('CHÙA CẦU',CGOLD,44),mkP('LAI VIỄN KIỀU',CGOLD,34)];const A=strip2('BẠN ĐANG ĐI TRÊN','base',40,191),B=strip2('CÂY CẦU CỦA AI?','bad',52,192);
- return{upd:t=>{const qp=popv(t,R(19)+.3,.7);q.setAttribute('transform',`translate(540,520) rotate(${Math.sin(t*2)*5-4}) scale(${Math.max(.001,qp)*1.05})`);q.setAttribute('opacity',qp>0?1:0);p.forEach((o,i)=>PUT(o,540,860+i*0+(i-1)*118+Math.sin(t*1.8+i)*5,popv(t,R(19)+.2+i*.35,.5),1,(i-1)*2));shw(A,t,540,1085,-1,PV(t,19,'khi',3.4));shw(B,t,540,1200,1,PV(t,19,'cây',5.0))}}},TOTAL);
+ return{upd:t=>{const qp=popv(t,R(19)+.3,.7);q.setAttribute('transform',`translate(540,640) rotate(${Math.sin(t*2)*5-4}) scale(${Math.max(.001,qp)*.95})`);q.setAttribute('opacity',qp>0?1:0);p.forEach((o,i)=>PUT(o,540,880+(i-1)*100+Math.sin(t*1.8+i)*5,popv(t,R(19)+.2+i*.35,.5),1,(i-1)*2));shw(A,t,540,1085,-1,PV(t,19,'khi',3.4));shw(B,t,540,1200,1,PV(t,19,'cây',5.0))}}},TOTAL);
 sx(R(1)+.1,'whoosh',{d:.5,g:.5});
 for(let i=1;i<=19;i++)bm(R(i)+.3,i%3!=1);
 sx(R(19)+.3,'question',{g:.7});

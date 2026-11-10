@@ -13,6 +13,7 @@ CFG = {
  '5': dict(img='xk5/ha6.jpg', pos='50% 50%', num='#13', stamp='1719', tag='CHÙA CẦU HỘI AN', l1='CẦU CÓ MÁI CHE', l2='CÓ CẢ CHÙA TRÊN CẦU'),
  '6': dict(img='xk6/rs5.jpg', pos='50% 50%', num='#14', stamp='1799', tag='PHIẾN ĐÁ ROSETTA', l1='TẢNG ĐÁ LÍNH PHÁP', l2='ĐỌC ĐƯỢC CHỮ AI CẬP'),
  '7': dict(img='xk7/lb12.jpg', pos='62% 60%', num='#15', stamp='1902', tag='HÀ NỘI · SÔNG HỒNG', l1='CẦU LONG BIÊN', l2='EIFFEL CÓ KÝ TÊN?', chu_the='cầu Long Biên', hook=dict(cx=610, cy=590, r=190, q='?')),
+ '8': dict(img='xk8/ha7.jpg', pos='50% 50%', num='#13', stamp='1719', tag='CHÙA CẦU · HỘI AN', l1='CẦU MÀ GỌI LÀ', l2='CHÙA CẦU?', chu_the='chùa Cầu Hội An', hook=dict(cx=540, cy=560, r=170, q='?')),
 }[K]
 def fs(t): return round(118*min(1, 16/len(t)))
 out = sys.argv[2] if len(sys.argv) > 2 else str(Path(__file__).with_name(f'bia_xk{K}.png'))

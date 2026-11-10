@@ -1,0 +1,80 @@
+{
+ "lb1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/HanoiLongBienBridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"HanoiLongBienBridge.jpg\" – Albert Kahn, Public domain (https://commons.wikimedia.org/wiki/File:HanoiLongBienBridge.jpg)"
+ },
+ "lb2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Gustave_Eiffel_1888_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Gustave Eiffel 1888 Nadar.jpg\" – không rõ tác giả, Public domain (https://commons.wikimedia.org/wiki/File:Gustave_Eiffel_1888_Nadar.jpg)"
+ },
+ "lb3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Hano%C3%AF_-_Pont_sur_le_Fleuve_Rouge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Hanoï - Pont sur le Fleuve Rouge.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hano%C3%AF_-_Pont_sur_le_Fleuve_Rouge.jpg)"
+ },
+ "lb5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Pont_Bir_Hakeim%2C_1905_Dayde_%26_Pille_constructeurs.JPG/1920px-Pont_Bir_Hakeim%2C_1905_Dayde_%26_Pille_constructeurs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Pont Bir Hakeim, 1905 Dayde & Pille constructeurs.JPG\" – AlfvanBeem, CC0 (https://commons.wikimedia.org/wiki/File:Pont_Bir_Hakeim,_1905_Dayde_%26_Pille_constructeurs.JPG)"
+ },
+ "lb6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ateliers_de_Levallois-Perret_1887.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Ateliers de Levallois-Perret 1887.png\" – Pouazity3, CC0 (https://commons.wikimedia.org/wiki/File:Ateliers_de_Levallois-Perret_1887.png)"
+ },
+ "lb8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Paul_Doumer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Paul Doumer.jpg\" – Unknown (Bain News Service, publisher), Public domain (https://commons.wikimedia.org/wiki/File:Paul_Doumer.jpg)"
+ },
+ "lb9": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Long_Bi%C3%AAn_bridge%2C_contructor_panel.jpg/1920px-Long_Bi%C3%AAn_bridge%2C_contructor_panel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Long Biên bridge, contructor panel.jpg\" – joxeankoret, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Long_Bi%C3%AAn_bridge,_contructor_panel.jpg)"
+ },
+ "lb12": {
+  "slot": "S12",
+  "so": 12,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hanoi_cau_long_bien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Hanoi cau long bien.jpg\" – ntt, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Hanoi_cau_long_bien.jpg)"
+ },
+ "lb15": {
+  "slot": "S15",
+  "so": 15,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Pont-route_sur_la_Sa%C3%B4ne_%C3%A0_Auxonne_-_Ateliers_de_construction_de_Creil._Anciens_%C3%A9tablissements_Le_Brun._Dayd%C3%A9_et_Pill%C3%A9._Ing%C3%A9nieurs_Constructeurs._-_Durandelle%2C_Louis-Emile_-_btv1b10481938t.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Pont-route sur la Saône à Auxonne - Ateliers de construction de Creil. Anciens établissements Le Brun. Daydé et Pillé. Ingénieurs Constructeurs. - Durandelle, Louis-Emile - btv1b10481938t.jpg\" – Durandelle, Louis-Émile (1839-1917). Auteur du texte, Public domain (https://commons.wikimedia.org/wiki/File:Pont-route_sur_la_Sa%C3%B4ne_%C3%A0_Auxonne_-_Ateliers_de_construction_de_Creil._Anciens_%C3%A9tablissements_Le_Brun._Dayd%C3%A9_et_Pill%C3%A9._Ing%C3%A9nieurs_Constructeurs._-_Durandelle,_Louis-Emile_-_btv1b10481938t.jpg)"
+ },
+ "lb16": {
+  "slot": "S16",
+  "so": 16,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Capdenac_gare_pont_eiffel.jpg/1920px-Capdenac_gare_pont_eiffel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Capdenac gare pont eiffel.jpg\" – Thierry46, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Capdenac_gare_pont_eiffel.jpg)"
+ },
+ "lb18": {
+  "slot": "S18",
+  "so": 18,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/C%E1%BA%A7u_Long_Bi%C3%AAn_28-2-2016.JPG/1920px-C%E1%BA%A7u_Long_Bi%C3%AAn_28-2-2016.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Cầu Long Biên 28-2-2016.JPG\" – Minhquangdo, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_Long_Bi%C3%AAn_28-2-2016.JPG)"
+ },
+ "lb19": {
+  "slot": "S19",
+  "so": 19,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Long-bien-bridge-3371617.jpg/1920px-Long-bien-bridge-3371617.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Long-bien-bridge-3371617.jpg\" – Quangpraha, CC0 (https://commons.wikimedia.org/wiki/File:Long-bien-bridge-3371617.jpg)"
+ },
+ "lb20": {
+  "slot": "S20",
+  "so": 20,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Long_Bien_Bridge_Sunset.jpg/1920px-Long_Bien_Bridge_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Long Bien Bridge Sunset.jpg\" – Rungbachduong, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Long_Bien_Bridge_Sunset.jpg)"
+ }
+}

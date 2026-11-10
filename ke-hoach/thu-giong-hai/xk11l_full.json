@@ -1,100 +1,86 @@
 [
  {
   "n": 101001,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Bạn có biết, đào xuống đất giữa Hà Nội, người ta gặp cả một kinh đô xếp chồng nhiều tầng?",
-  "hien": "Bạn có biết, đào xuống đất giữa Hà Nội, người ta gặp cả một kinh đô xếp chồng nhiều tầng?"
+  "text": "Bạn có biết, một ngọn tháp cổ ở Hà Nội đã sống sót qua lần phá thành và cả chiến tranh?",
+  "hien": "Bạn có biết, một ngọn tháp cổ ở Hà Nội đã sống sót qua lần phá thành và cả chiến tranh?"
  },
  {
   "n": 101002,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Nơi ấy là khu mười tám Hoàng Diệu ở quận Ba Đình. Vậy dưới chân Hà Nội đang giấu những gì?",
-  "hien": "Nơi ấy là khu mười tám Hoàng Diệu ở quận Ba Đình. Vậy dưới chân Hà Nội đang giấu những gì?"
+  "text": "Đó là Cột cờ Hà Nội. Muốn biết vì sao nó còn đứng, hãy xem nó từng được dùng làm gì.",
+  "hien": "Đó là Cột cờ Hà Nội. Muốn biết vì sao nó còn đứng, hãy xem nó từng được dùng làm gì."
  },
  {
   "n": 101003,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Cuộc khai quật bắt đầu từ năm hai nghìn không trăm linh hai, do Viện Khảo cổ học thực hiện.",
-  "hien": "Cuộc khai quật bắt đầu từ năm 2002, do Viện Khảo cổ học thực hiện."
+  "text": "Cột cờ được dựng từ đầu thời nhà Nguyễn, trong khu thành cổ Hà Nội. Tài liệu ghi năm không giống nhau, nhưng đều nằm trong đời vua Gia Long.",
+  "hien": "Cột cờ được dựng từ đầu thời nhà Nguyễn, trong khu thành cổ Hà Nội. Tài liệu ghi năm không giống nhau, nhưng đều nằm trong đời vua Gia Long."
  },
  {
   "n": 101004,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Thế là các nhà khảo cổ gỡ dần từng lớp đất, và mỗi lớp lại thuộc về một thời đại khác.",
-  "hien": "Thế là các nhà khảo cổ gỡ dần từng lớp đất, và mỗi lớp lại thuộc về một thời đại khác."
+  "text": "Thân tháp cao hơn ba mươi ba mét, tính cả ba tầng đế thì hơn bốn mươi mét. Bên trong có năm mươi bốn bậc thang xoáy ốc dẫn lên đỉnh.",
+  "hien": "Thân tháp cao hơn ba mươi ba mét, tính cả ba tầng đế thì hơn bốn mươi mét. Bên trong có năm mươi bốn bậc thang xoáy ốc dẫn lên đỉnh."
  },
  {
   "n": 101005,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Lớp sâu nhất là thời Đại La, từ khoảng thế kỷ bảy, khi nước ta còn dưới ách đô hộ của các triều đại Trung Quốc.",
-  "hien": "Lớp sâu nhất là thời Đại La, từ khoảng thế kỷ bảy, khi nước ta còn dưới ách đô hộ của các triều đại Trung Quốc."
+  "text": "Trên đỉnh là một căn phòng tám cửa sổ, nhìn ra cả bên trong lẫn bên ngoài thành.",
+  "hien": "Trên đỉnh là một căn phòng tám cửa sổ, nhìn ra cả bên trong lẫn bên ngoài thành."
  },
  {
   "n": 101006,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Nhưng phía trên là dấu tích của các triều đại độc lập, từ Đinh, Lê, Lý, Trần cho đến nhà Nguyễn.",
-  "hien": "Nhưng phía trên là dấu tích của các triều đại độc lập, từ Đinh, Lê, Lý, Trần cho đến nhà Nguyễn."
+  "text": "Vì thế dưới thời nhà Nguyễn, cột cờ còn là đài canh, nơi người lính quan sát phần lớn khu thành.",
+  "hien": "Vì thế dưới thời nhà Nguyễn, cột cờ còn là đài canh, nơi người lính quan sát phần lớn khu thành."
  },
  {
   "n": 101007,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Theo UNESCO, nơi đây là trung tâm quyền lực chính trị của khu vực gần mười ba thế kỷ liên tục.",
-  "hien": "Theo UNESCO, nơi đây là trung tâm quyền lực chính trị của khu vực gần mười ba thế kỷ liên tục."
+  "text": "Rồi người Pháp đến và phá thành cổ. Cột cờ nằm trong số ít công trình thoát khỏi việc bị phá.",
+  "hien": "Rồi người Pháp đến và phá thành cổ. Cột cờ nằm trong số ít công trình thoát khỏi việc bị phá."
  },
  {
   "n": 101008,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Vì thế báo VOV nhận xét rằng trên thế giới rất hiếm thủ đô còn giữ được các tầng văn hóa nối tiếp nhau như vậy.",
-  "hien": "Vì thế báo VOV nhận xét rằng trên thế giới rất hiếm thủ đô còn giữ được các tầng văn hóa nối tiếp nhau như vậy."
+  "text": "Theo báo Tuổi Trẻ, người Pháp dùng chính ngọn tháp làm đài quan sát và trạm liên lạc, ra hiệu bằng cờ và đèn.",
+  "hien": "Theo báo Tuổi Trẻ, người Pháp dùng chính ngọn tháp làm đài quan sát và trạm liên lạc, ra hiệu bằng cờ và đèn."
  },
  {
   "n": 101009,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Còn tầng thời Lý nói lên điều gì? Năm một nghìn không trăm mười, vua Lý Thái Tổ bắt đầu dời kinh đô về vùng Đại La.",
-  "hien": "Còn tầng thời Lý nói lên điều gì? Năm 1010, vua Lý Thái Tổ bắt đầu dời kinh đô về vùng Đại La."
+  "text": "Đến mùa thu năm một nghìn chín trăm bốn mươi lăm, sau Cách mạng Tháng Tám, theo VietNamNet, lá cờ quốc gia đầu tiên được treo lên cột cờ.",
+  "hien": "Đến mùa thu năm 1945, sau Cách mạng Tháng Tám, theo VietNamNet, lá cờ quốc gia đầu tiên được treo lên cột cờ."
  },
  {
   "n": 101010,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Vậy ở khu khai quật, các nhà khảo cổ tìm thấy gì? Hàng chục dấu tích nền móng công trình, cùng nhiều giếng nước.",
-  "hien": "Vậy ở khu khai quật, các nhà khảo cổ tìm thấy gì? Hàng chục dấu tích nền móng công trình, cùng nhiều giếng nước."
+  "text": "Tháng mười năm một nghìn chín trăm năm mươi bốn, khi Hà Nội được giải phóng, cờ đỏ sao vàng vẫn tung bay trên đỉnh.",
+  "hien": "Tháng 10 năm 1954, khi Hà Nội được giải phóng, cờ đỏ sao vàng vẫn tung bay trên đỉnh."
  },
  {
   "n": 101011,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Theo các nhà khảo cổ, đó là những công trình gỗ quy mô lớn, mái lợp ngói công phu, có cả cấu kiện gỗ sơn son đỏ.",
-  "hien": "Theo các nhà khảo cổ, đó là những công trình gỗ quy mô lớn, mái lợp ngói công phu, có cả cấu kiện gỗ sơn son đỏ."
+  "text": "Ngày nay cột cờ nằm trong khuôn viên Bảo tàng Lịch sử Quân sự Việt Nam, và là một trong số ít công trình của thành cổ còn gần như nguyên vẹn.",
+  "hien": "Ngày nay cột cờ nằm trong khuôn viên Bảo tàng Lịch sử Quân sự Việt Nam, và là một trong số ít công trình của thành cổ còn gần như nguyên vẹn."
  },
  {
   "n": 101012,
-  "chuong": "Hoàng thành Thăng Long",
+  "chuong": "Cột cờ Hà Nội",
   "tone": "story",
-  "text": "Năm hai nghìn không trăm linh năm, Tổng Giám đốc UNESCO Koichiro Matsura đến thăm, và nhận xét đây là khu di tích độc đáo, quan trọng với cả thế giới.",
-  "hien": "Năm 2005, Tổng Giám đốc UNESCO Koichiro Matsura đến thăm, và nhận xét đây là khu di tích độc đáo, quan trọng với cả thế giới."
- },
- {
-  "n": 101013,
-  "chuong": "Hoàng thành Thăng Long",
-  "tone": "story",
-  "text": "Rồi đến năm hai nghìn không trăm mười, khu di tích được ghi danh là Di sản Văn hóa Thế giới.",
-  "hien": "Rồi đến năm 2010, khu di tích được ghi danh là Di sản Văn hóa Thế giới."
- },
- {
-  "n": 101014,
-  "chuong": "Hoàng thành Thăng Long",
-  "tone": "story",
-  "text": "Mỗi lớp đất là một triều đại từng đứng ngay chỗ này. Nếu còn nhiều lớp chưa đào lên, dưới Hà Nội còn giấu những gì nữa?",
-  "hien": "Mỗi lớp đất là một triều đại từng đứng ngay chỗ này. Nếu còn nhiều lớp chưa đào lên, dưới Hà Nội còn giấu những gì nữa?"
+  "text": "Một công trình dựng để canh gác đã đi qua nhiều lần đổi chủ. Vậy điều gì khiến nó còn đứng, khi những bức tường thành đã mất?",
+  "hien": "Một công trình dựng để canh gác đã đi qua nhiều lần đổi chủ. Vậy điều gì khiến nó còn đứng, khi những bức tường thành đã mất?"
  }
 ]

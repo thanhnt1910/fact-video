@@ -1,107 +1,86 @@
 [
  {
   "n": 102001,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới sau khi bị trộm?",
-  "hien": "Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới sau khi bị trộm?"
+  "text": "Bạn có biết, chùa Một Cột từng bị đặt thuốc nổ, và ngôi chùa bạn thấy hôm nay là bản dựng lại?",
+  "hien": "Bạn có biết, chùa Một Cột từng bị đặt thuốc nổ, và ngôi chùa bạn thấy hôm nay là bản dựng lại?"
  },
  {
   "n": 102002,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Trước đó, nó không phải tác phẩm được xem nhiều nhất ở bảo tàng Louvre. Vậy chuyện gì đã xảy ra?",
-  "hien": "Trước đó, nó không phải tác phẩm được xem nhiều nhất ở bảo tàng Louvre. Vậy chuyện gì đã xảy ra?"
+  "text": "Vậy trước đó nó là gì, và phần nào còn nguyên từ xưa?",
+  "hien": "Vậy trước đó nó là gì, và phần nào còn nguyên từ xưa?"
  },
  {
   "n": 102003,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Giới phê bình đã khen bức tranh từ lâu, nhưng chủ yếu trong một nhóm nhỏ người yêu nghệ thuật.",
-  "hien": "Giới phê bình đã khen bức tranh từ lâu, nhưng chủ yếu trong một nhóm nhỏ người yêu nghệ thuật."
+  "text": "Toàn thư chép rằng năm một nghìn không trăm bốn mươi chín, vua Lý Thái Tông cho xây chùa Diên Hựu, tên gốc của chùa Một Cột.",
+  "hien": "Toàn thư chép rằng năm 1049, vua Lý Thái Tông cho xây chùa Diên Hựu, tên gốc của chùa Một Cột."
  },
  {
   "n": 102004,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Rồi đến năm một nghìn chín trăm mười một, bức tranh biến mất khỏi Louvre.",
-  "hien": "Rồi đến năm 1911, bức tranh biến mất khỏi Louvre."
+  "text": "Sử kể rằng nhà vua nằm mơ thấy Phật Quan Âm, và nhà sư Thiền Tuệ khuyên dựng một cột đá giữa ao để làm tòa sen.",
+  "hien": "Sử kể rằng nhà vua nằm mơ thấy Phật Quan Âm, và nhà sư Thiền Tuệ khuyên dựng một cột đá giữa ao để làm tòa sen."
  },
  {
   "n": 102005,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Một người Ý từng làm việc ở Louvre là Vincenzo Peruggia đã lấy nó, giấu dưới áo rồi mang ra ngoài.",
-  "hien": "Một người Ý từng làm việc ở Louvre là Vincenzo Peruggia đã lấy nó, giấu dưới áo rồi mang ra ngoài."
+  "text": "Vì vậy ngôi chùa đứng trên một cột đá giữa ao vuông, trông như đóa sen nổi trên mặt nước.",
+  "hien": "Vì vậy ngôi chùa đứng trên một cột đá giữa ao vuông, trông như đóa sen nổi trên mặt nước."
  },
  {
   "n": 102006,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Theo tạp chí Smithsonian, báo chí khắp thế giới đưa tin trên trang nhất, và áp phích truy nã dán khắp Paris.",
-  "hien": "Theo tạp chí Smithsonian, báo chí khắp thế giới đưa tin trên trang nhất, và áp phích truy nã dán khắp Paris."
+  "text": "Rồi tháng chín năm một nghìn chín trăm năm mươi bốn, ngay trước lúc quân Pháp rút khỏi Hà Nội, có người đặt thuốc nổ phá chùa.",
+  "hien": "Rồi tháng 9 năm 1954, ngay trước lúc quân Pháp rút khỏi Hà Nội, có người đặt thuốc nổ phá chùa."
  },
  {
   "n": 102007,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Vì vậy khi bảo tàng mở cửa lại, hàng nghìn người kéo đến chỉ để nhìn bức tường trống, trong đó có nhà văn Franz Kafka.",
-  "hien": "Vì vậy khi bảo tàng mở cửa lại, hàng nghìn người kéo đến chỉ để nhìn bức tường trống, trong đó có nhà văn Franz Kafka."
+  "text": "Thuốc nổ phá hỏng phần chùa phía trên, từ mặt sàn trở lên. Còn cột đá, ảnh chụp thời ấy cho thấy chỉ hơi nghiêng.",
+  "hien": "Thuốc nổ phá hỏng phần chùa phía trên, từ mặt sàn trở lên. Còn cột đá, ảnh chụp thời ấy cho thấy chỉ hơi nghiêng."
  },
  {
   "n": 102008,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Người ta còn làm bưu thiếp châm biếm, một phim ngắn và cả bài hát quán rượu về vụ trộm.",
-  "hien": "Người ta còn làm bưu thiếp châm biếm, một phim ngắn và cả bài hát quán rượu về vụ trộm."
+  "text": "Sau khi tiếp quản Hà Nội, chính quyền quyết định phục hồi chùa. Năm một nghìn chín trăm năm mươi lăm, chùa được dựng lại.",
+  "hien": "Sau khi tiếp quản Hà Nội, chính quyền quyết định phục hồi chùa. Năm 1955, chùa được dựng lại."
  },
  {
   "n": 102009,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Còn bức tranh thì ở đâu? Suốt hơn hai năm, không ai biết nó nằm ở chỗ nào.",
-  "hien": "Còn bức tranh thì ở đâu? Suốt hơn hai năm, không ai biết nó nằm ở chỗ nào."
+  "text": "Người nghiên cứu họa đồ và điều khiển công trường là ông Nguyễn Bá Lăng.",
+  "hien": "Người nghiên cứu họa đồ và điều khiển công trường là ông Nguyễn Bá Lăng."
  },
  {
   "n": 102010,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Cuối năm một nghìn chín trăm mười ba, Peruggia mang bức tranh đến Florence, nước Ý, định bán cho một người buôn tranh.",
-  "hien": "Cuối năm 1913, Peruggia mang bức tranh đến Florence, nước Ý, định bán cho một người buôn tranh."
+  "text": "Theo ông, phần duy nhất đáng tin là còn nguyên từ thời Lý chính là cột đá.",
+  "hien": "Theo ông, phần duy nhất đáng tin là còn nguyên từ thời Lý chính là cột đá."
  },
  {
   "n": 102011,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Nhưng người buôn tranh báo cảnh sát, và bức tranh được tìm thấy.",
-  "hien": "Nhưng người buôn tranh báo cảnh sát, và bức tranh được tìm thấy."
+  "text": "Một ngôi chùa bị phá giữa lúc đất nước đổi chủ, rồi được dựng lại theo hình hoa sen cũ.",
+  "hien": "Một ngôi chùa bị phá giữa lúc đất nước đổi chủ, rồi được dựng lại theo hình hoa sen cũ."
  },
  {
   "n": 102012,
-  "chuong": "Mona Lisa",
+  "chuong": "Chùa Một Cột",
   "tone": "story",
-  "text": "Bức tranh được trả về Louvre. Ở Ý, nơi nào nó đi qua cũng có đám đông kéo đến xem.",
-  "hien": "Bức tranh được trả về Louvre. Ở Ý, nơi nào nó đi qua cũng có đám đông kéo đến xem."
- },
- {
-  "n": 102013,
-  "chuong": "Mona Lisa",
-  "tone": "story",
-  "text": "Ngày nay, theo Smithsonian, hàng triệu người đến xem nó mỗi năm.",
-  "hien": "Ngày nay, theo Smithsonian, hàng triệu người đến xem nó mỗi năm."
- },
- {
-  "n": 102014,
-  "chuong": "Mona Lisa",
-  "tone": "story",
-  "text": "Một vụ trộm đã biến bức tranh được giới sành nghệ thuật yêu quý thành biểu tượng của cả thế giới.",
-  "hien": "Một vụ trộm đã biến bức tranh được giới sành nghệ thuật yêu quý thành biểu tượng của cả thế giới."
- },
- {
-  "n": 102015,
-  "chuong": "Mona Lisa",
-  "tone": "story",
-  "text": "Nếu hôm ấy Peruggia không ra tay, liệu Mona Lisa vẫn là cái tên ai cũng nhớ?",
-  "hien": "Nếu hôm ấy Peruggia không ra tay, liệu Mona Lisa vẫn là cái tên ai cũng nhớ?"
+  "text": "Nếu chỉ cột đá là còn cổ, thứ gì khiến ta vẫn gọi đây là chùa Một Cột xưa?",
+  "hien": "Nếu chỉ cột đá là còn cổ, thứ gì khiến ta vẫn gọi đây là chùa Một Cột xưa?"
  }
 ]

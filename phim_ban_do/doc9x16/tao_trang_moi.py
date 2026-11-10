@@ -5,7 +5,7 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14'}.get(KEY,'#00')
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15'}.get(KEY,'#00')
 CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
      3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      4:(57000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
@@ -17,7 +17,8 @@ CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner
      'xk3':(93000,'Wikimedia Commons (công cộng, CC)',''),
      'xk4':(94000,'Wikimedia Commons (CC BY, CC BY-SA, CC0, công cộng)','Loi Nguyen Duc, Gieng Cung, Gary Todd, Underbar dk'),
      'xk5':(95000,'Wikimedia Commons (CC BY-SA, CC0, công cộng)','Nguyen Phu Duc, Lê Tấn Lộc, F. Guerraz, S. Schmitz, Kuroczynski, Christophe95, lumoplank, Hcxtd'),
-     'xk6':(96000,'Wikimedia Commons (CC BY-SA, CC0, công cộng)','Awikimate, لا روسا, ProtoplasmaKid, Gary Todd, Julien Peytard, Txllxt TxllxT, Captmondo, Milky')}
+     'xk6':(96000,'Wikimedia Commons (CC BY-SA, CC0, công cộng)','Awikimate, لا روسا, ProtoplasmaKid, Gary Todd, Julien Peytard, Txllxt TxllxT, Captmondo, Milky'),
+     'xk7':(97000,'Wikimedia Commons (CC BY, CC BY-SA, CC0, công cộng)','ntt, joxeankoret, Thierry46, Minhquangdo, Quangpraha, Rungbachduong, Alf van Beem, Pouazity3, A. Kahn')}
 base,cr1,cr2=CFG[N]
 s=open('trang_vn7b.html',encoding='utf-8').read()
 i_end=s.index('function S2(');i_end=s.index('\n',i_end)+1

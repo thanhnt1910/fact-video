@@ -33,6 +33,16 @@ Cách giải thích cho dễ hiểu:
 | 6 | Vương miện vàng hay bạc (Ác-si-mét) | `remotion/src/vuongmien/` |
 | 7 | Đếm thứ nhỏ hơn mắt (kính hiển vi, hạt cát) | `remotion/src/kinhhienvi/` |
 
+## Đã có kịch bản, chưa dựng
+
+| Video | Chủ đề | Kịch bản |
+|---|---|---|
+| 8 | Ngôi sao xa bao nhiêu (thị sai, Bessel) | `ke-hoach/khoa-hoc-video-8-khoang-cach-sao-kich-ban.md` |
+| 9 | Sấm chớp và tốc độ âm thanh | `ke-hoach/khoa-hoc-video-9-toc-do-am-thanh-kich-ban.md` |
+| 10 | Mặt Trời xa hơn Mặt Trăng bao nhiêu lần (Aristarchus) | `ke-hoach/khoa-hoc-video-10-mat-troi-mat-trang-kich-ban.md` |
+| 11 | Nhiệt kế, độ C và độ F | `ke-hoach/khoa-hoc-video-11-nhiet-ke-kich-ban.md` |
+| 12 | Đồng hồ quả lắc (Galileo, Huygens) | `ke-hoach/khoa-hoc-video-12-dong-ho-qua-lac-kich-ban.md` |
+
 ## Chưa làm
 
 Các mốc dưới đây mới là điều đã biết, chưa đối chiếu nguồn gốc. Khi viết kịch bản, Claude tự tra nguồn từng chi tiết trước khi gửi.

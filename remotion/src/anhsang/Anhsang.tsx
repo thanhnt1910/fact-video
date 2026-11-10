@@ -27,9 +27,10 @@ const Stars: React.FC = () => {
   );
 };
 
-const Push: React.FC<{dur: number; children: React.ReactNode}> = ({dur, children}) => {
+const BASE: Record<string, number> = {hook: 1.12, romer: 1.12, divide: 1.1, outro: 1.1};
+const Push: React.FC<{dur: number; base?: number; children: React.ReactNode}> = ({dur, base = 1, children}) => {
   const f = useCurrentFrame();
-  const k = 1 + 0.07 * Math.min(1, f / Math.max(1, dur));
+  const k = base + 0.07 * Math.min(1, f / Math.max(1, dur));
   return <div style={{position: 'absolute', inset: 0, transform: `scale(${k})`, transformOrigin: '50% 48%'}}>{children}</div>;
 };
 
@@ -55,7 +56,7 @@ export const Anhsang: React.FC = () => {
         return (
           <Sequence key={s.id} from={s.start} durationInFrames={s.dur}>
             <SceneFade dur={s.dur}>
-              <Push dur={s.dur}>
+              <Push dur={s.dur} base={BASE[s.id] ?? 1}>
                 <Scene dur={s.dur} bs={s.bs} />
               </Push>
             </SceneFade>

@@ -9,7 +9,7 @@ Nhãn độ chắc nằm ở ghi chú, không nằm trong lời kể. [SỬ] = �
 3. Phải có công thức thật sự ra kết quả (video 2 từng bị chê thiếu): video này có hai phép chia đầy đủ (quãng đường ÷ thời gian), một của Rømer, một của Fizeau.
 4. Kể một mạch theo nguyên nhân – kết quả: thử bằng đèn lồng thất bại vì quãng đường quá ngắn → cần quãng đường rất lớn → mặt trăng sao Mộc → phép chia → cách đo ngay trên mặt đất.
 
-## Lời kể (34 câu, khoảng 3 phút 25 giây)
+## Lời kể (34 câu; giọng Leda đọc thực tế dài 4 phút 30 giây)
 
 **MỞ ĐẦU (hook)**
 1. Đọc: Nếu Mặt Trời tắt ngay bây giờ, bạn vẫn thấy nó sáng thêm hơn tám phút nữa.
@@ -97,9 +97,9 @@ Nhãn độ chắc nằm ở ghi chú, không nằm trong lời kể. [SỬ] = �
 | Mở đầu | 1–3 | Cảnh mở: Mặt Trời vụt tắt giữa bầu trời, nhưng Trái Đất vẫn sáng và đồng hồ đếm 8:19 chạy ngược; người que ngước nhìn; rồi bật công tắc đèn là sáng ngay; Io hiện nhỏ ở cuối |
 | Đèn lồng | 4–8 | Hai người que cách nhau, mỗi người một đèn lồng; đèn mở bên này, bên kia mở theo; thước thời gian "5 phần triệu giây" đặt cạnh bàn tay người |
 | Mặt trăng Io | 9–16 | Sao Mộc, Io quay một vòng, chui vào bóng rồi ló ra (mỗi lần một "tích"); Trái Đất trên quỹ đạo, lúc lại gần, lúc đi xa, Io ló ra sớm hoặc muộn; hình lá thư đi đường dài |
-| Ngày 9/11/1676 | 17–20 | Lịch, đồng hồ lệch 10 phút; đường kính quỹ đạo Trái Đất, nhãn "22 phút"; Cassini lắc đầu; Bradley |
-| Phép chia | 21–25 | Bảng dựng từng dòng: quãng đường ÷ thời gian = tốc độ; hai kết quả 227 nghìn và 300 nghìn; Trái Đất có ánh sáng chạy quanh 7 vòng rưỡi |
-| Bánh xe | 26–31 | Hai đồi Suresnes và Montmartre, bánh xe 720 răng nhìn nghiêng: ánh sáng qua khe, dội về, bị răng chắn; quay nhanh gấp đôi thì lọt qua khe kế; bảng chia 17 km ÷ 55 phần triệu giây |
+| 22 phút, Cassini, Bradley | 17–19 | Lịch, đồng hồ lệch 10 phút; đường kính quỹ đạo Trái Đất, nhãn "22 phút"; Cassini lắc đầu; Bradley |
+| Phép chia | 20–24 | Bảng dựng từng dòng: quãng đường ÷ thời gian = tốc độ; hai kết quả 227 nghìn và 300 nghìn; Trái Đất có ánh sáng chạy quanh 7 vòng rưỡi |
+| Bánh xe | 25–31 | Hai đồi Suresnes và Montmartre, bánh xe 720 răng nhìn nghiêng: ánh sáng qua khe, dội về, bị răng chắn; quay nhanh gấp đôi thì lọt qua khe kế; bảng chia 17 km ÷ 55 phần triệu giây |
 | Kết | 32–34 | Số 299 792 458, thước mét ứng với 1/299 792 458 giây, ba vật (đèn lồng, Io, bánh xe), logo |
 
 Chữ lớn tối đa một lớp mỗi lúc, âm thanh thưa (tích khi Io ló ra, ting khi ra con số), phụ đề cụm tối đa 4 từ, nằm trên vùng đáy bị che của Facebook Reels.
@@ -118,7 +118,7 @@ Chữ lớn tối đa một lớp mỗi lúc, âm thanh thưa (tích khi Io ló 
 - Câu 18 [CG]: Cassini phản đối vì các mặt trăng khác không có hiệu ứng tương tự (Wikipedia, JSTOR Daily).
 - Câu 19 [CG]: Bradley 1729 xác nhận độc lập bằng quang sai ánh sáng (JSTOR Daily).
 - Câu 21–25 [TÍNH]: đường kính quỹ đạo Trái Đất = 2 × 149 597 870,7 km ≈ 299 195 741 km; ÷ 1 320 s = 226 663 km/s (trùng Wikipedia). Rømer không có số khoảng cách này nên lời kể nói "ngày nay đo được". Thời gian thật ≈ 299,2 triệu km ÷ 299 792 km/s ≈ 998 s ≈ 16 phút 38 giây ("gần 17 phút"). Vòng Trái Đất 40 075 km: 299 792 ÷ 40 075 ≈ 7,48 ("bảy vòng rưỡi").
-- Câu 26–31 [CG]: Fizeau 1848–49; hai kính thiên văn cách 8 633 m, Suresnes và Montmartre; bánh xe 720 khe; ánh sáng bị chắn ở 12,6 vòng/giây, lọt lại ở 25,2 vòng/giây; kết quả 313 274 304 m/s, cao hơn số đúng 4,5% (Wikipedia, Fizeau's measurement). Chỉ một nguồn: nên đối chiếu thêm một nguồn thứ hai trước khi dựng.
+- Câu 26–31 [CG]: Fizeau 1848–49; hai kính thiên văn cách 8 633 m, Suresnes và Montmartre; bánh xe 720 khe; ánh sáng bị chắn ở 12,6 vòng/giây, lọt lại ở 25,2 vòng/giây; kết quả 313 274 304 m/s, cao hơn số đúng 4,5% (Wikipedia, Fizeau's measurement). Nguồn thứ hai (tài liệu Christopher Newport University, WhiteC.pdf): 8 633 m, bánh 720 răng, 12,6 vòng/giây, công thức 4 × 8 633 × 720 × 12,6 = 313 274 304 m/s, cao hơn số đúng khoảng 4%. Hai nguồn cùng ra kết quả; lời kể dùng cách mô tả tốc độ gấp đôi (25,2 vòng/giây) của Wikipedia, tương đương công thức 2 × quãng đường × số răng × vòng/giây.
 - Câu 29–31 [TÍNH]: 1/(720 × 25,2) = 55,1 phần triệu giây; 2 × 8 633 m = 17 266 m; 17 266 ÷ 0,0000551 ≈ 313 300 km/s ✓. Lời kể nói "nhanh gấp đôi" (12,6 → 25,2).
 - Câu 32–33 [SỬ]: định nghĩa mét 1983 (CGPM lần 17): "độ dài quãng đường ánh sáng đi trong chân không trong 1/299 792 458 giây" (LNE); trước đó, 1960, mét theo bước sóng krypton-86.
 

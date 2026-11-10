@@ -380,8 +380,8 @@ export const Divide: React.FC<Sc> = ({bs}) => {
   return (
     <Svg>
       <g opacity={board}>
-        <Big x={330} y={520} size={80} color={C.amber} anchor="end">tốc độ =</Big>
-        <Frac x={720} y={540} top={f < b1 + 10 ? 'quãng đường' : '300 triệu km'} bottom={f < b1 + 10 ? 'thời gian' : f < b3 ? '1 320 giây' : '1 000 giây'} size={62} />
+        <Big x={290} y={520} size={80} color={C.amber} anchor="end">tốc độ =</Big>
+        <Frac x={620} y={540} top={f < b1 + 10 ? 'quãng đường' : '300 triệu km'} bottom={f < b1 + 10 ? 'thời gian' : f < b3 ? '1 320 giây' : '1 000 giây'} size={62} />
         <g opacity={sp(f, b1 + 6, b1 + 30)}>
           <circle cx={250} cy={1000} r={110} fill="none" stroke={C.cream} strokeWidth={4} opacity={0.6} />
           <Planet x={140} y={1000} r={14} />
@@ -447,9 +447,9 @@ export const WheelScene: React.FC<Sc> = ({bs}) => {
       <g opacity={cA}>
         <Hill x={200} y={1040} w={420} h={90} />
         <Hill x={880} y={1040} w={420} h={90} />
-        <Hero x={540} y={640} s={2.0} p={sp(f, 6, 24)} stick={false} />
+        <Hero x={540} y={790} s={2.0} p={sp(f, 6, 24)} stick={false} />
         <Big x={540} y={440} size={120} color={C.amber} o={sp(f, 10, 36)}>1849</Big>
-        <Lab x={540} y={700} size={38} color={C.cream} o={sp(f, 14, 38)}>Hippolyte Fizeau</Lab>
+        <Lab x={540} y={850} size={38} color={C.cream} o={sp(f, 14, 38)}>Hippolyte Fizeau</Lab>
         <Lab x={540} y={1190} size={42} color={C.cream} o={sp(f, 30, 52)}>đo ngay trên mặt đất</Lab>
         <g opacity={sp(f, b1 + 6, b1 + 26)}>
           <rect x={150} y={880} width={110} height={40} rx={8} fill="#40505a" stroke={C.cream} strokeWidth={4} />
@@ -481,8 +481,8 @@ export const WheelScene: React.FC<Sc> = ({bs}) => {
         </g>
         <Lab x={540} y={620} size={44} color={C.cream} o={win(b4, b5)}>quay nhanh gấp đôi: lọt qua khe kế bên</Lab>
         <g opacity={win(b4 + 40, b5)}>
-          <Big x={300} y={470} size={80} color={C.amber}>25 vòng/giây</Big>
-          <Lab x={300} y={1140} size={38} color={C.cream}>mỗi khe chuyển khe mất 55 phần triệu giây</Lab>
+          <Big x={540} y={470} size={80} color={C.amber}>25 vòng/giây</Big>
+          <Lab x={540} y={1140} size={38} color={C.cream}>mỗi khe chuyển khe mất 55 phần triệu giây</Lab>
         </g>
         <g opacity={win(b5, b6)}>
           <Arrow x1={300} y1={1060} x2={880} y2={1060} color={C.amber} w={6} />

@@ -1,0 +1,56 @@
+{
+ "mc1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hanoi_-_Hanoi1638.jpg/1920px-Hanoi_-_Hanoi1638.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Hanoi - Hanoi1638.jpg\" – lumoplank, CC0 (https://commons.wikimedia.org/wiki/File:Hanoi_-_Hanoi1638.jpg)"
+ },
+ "mc2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/La_pagode_au_pilier_unique_%28Hanoi%29_%284357356314%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"La pagode au pilier unique (Hanoi) (4357356314).jpg\" – Jean-Pierre Dalbéra from Paris, France, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:La_pagode_au_pilier_unique_(Hanoi)_(4357356314).jpg)"
+ },
+ "mc3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Hano%C3%AF_-_La_Pagode_d%27une_Colonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Hanoï - La Pagode d'une Colonne.jpg\" – Scan by Cartacaro.fr., Public domain (https://commons.wikimedia.org/wiki/File:Hano%C3%AF_-_La_Pagode_d%27une_Colonne.jpg)"
+ },
+ "mc4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Chua-Mot-Cot._Pagode_mont%C3%A9e_sur_un_pilier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Chua-Mot-Cot. Pagode montée sur un pilier.jpg\" – Scan by Cartacaro.fr., Public domain (https://commons.wikimedia.org/wiki/File:Chua-Mot-Cot._Pagode_mont%C3%A9e_sur_un_pilier.jpg)"
+ },
+ "mc5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/DGJ_1685_-_All_Alone._%283501575706%29.jpg/1920px-DGJ_1685_-_All_Alone._%283501575706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"DGJ 1685 - All Alone. (3501575706).jpg\" – Dennis G. Jarvis, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:DGJ_1685_-_All_Alone._(3501575706).jpg)"
+ },
+ "mc6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Quan_Am_dans_la_pagode_au_pilier_unique_%28Hanoi%29_%284357357104%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Quan Am dans la pagode au pilier unique (Hanoi) (4357357104).jpg\" – dalbera from Paris, France, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Quan_Am_dans_la_pagode_au_pilier_unique_(Hanoi)_(4357357104).jpg)"
+ },
+ "mc7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/L%C3%BDTh%C3%A1iT%C3%B4ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"LýTháiTông.jpg\" – Newone, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:L%C3%BDTh%C3%A1iT%C3%B4ng.jpg)"
+ },
+ "mc8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Lascar_One_Pillar_Pagoda_%284550966464%29.jpg/1920px-Lascar_One_Pillar_Pagoda_%284550966464%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Lascar One Pillar Pagoda (4550966464).jpg\" – Jorge Láscar from Australia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Lascar_One_Pillar_Pagoda_(4550966464).jpg)"
+ },
+ "mc9": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tonkin_Hanoi_-_Pagode_%C3%A0_pilier_unique_-_Chua_Mot_Cot_-_Debeaux_-Dintilhac_s%C3%A9rie_6_n%C2%B011-_Dos_apr%C3%A8s_1904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Tonkin Hanoi - Pagode à pilier unique - Chua Mot Cot - Debeaux -Dintilhac série 6 n°11- Dos après 1904.jpg\" – Scan by Cartacaro.fr., Public domain (https://commons.wikimedia.org/wiki/File:Tonkin_Hanoi_-_Pagode_%C3%A0_pilier_unique_-_Chua_Mot_Cot_-_Debeaux_-Dintilhac_s%C3%A9rie_6_n%C2%B011-_Dos_apr%C3%A8s_1904.jpg)"
+ }
+}

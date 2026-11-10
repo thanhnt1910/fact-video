@@ -1,0 +1,50 @@
+{
+ "cc1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_Tower_of_Hanoi%2C_1812_%281%29_%2837608539335%29.jpg/1920px-Flag_Tower_of_Hanoi%2C_1812_%281%29_%2837608539335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Flag Tower of Hanoi, 1812 (1) (37608539335).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(1)_(37608539335).jpg)"
+ },
+ "cc2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Cot_co_Ha_Noi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Cot co Ha Noi.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Cot_co_Ha_Noi.jpg)"
+ },
+ "cc3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hano%C3%AF_-_Tour_de_l%27ancienne_citadelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Hanoï - Tour de l'ancienne citadelle.jpg\" – Pierre Dieulefils, Public domain (https://commons.wikimedia.org/wiki/File:Hano%C3%AF_-_Tour_de_l%27ancienne_citadelle.jpg)"
+ },
+ "cc4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_Tower_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Flag Tower 2025.jpg\" – David Stanley, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_2025.jpg)"
+ },
+ "cc5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_tower_at_Vietnam_Military_History_Museum_Hanoi_%2824675795837%29.jpg/1920px-Flag_tower_at_Vietnam_Military_History_Museum_Hanoi_%2824675795837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Flag tower at Vietnam Military History Museum Hanoi (24675795837).jpg\" – dronepicr, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_tower_at_Vietnam_Military_History_Museum_Hanoi_(24675795837).jpg)"
+ },
+ "cc6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Hanoi_Flag_Tower_by_night_%2826400791083%29.jpg/1920px-Hanoi_Flag_Tower_by_night_%2826400791083%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Hanoi Flag Tower by night (26400791083).jpg\" – Bex Walton from London, England, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower_by_night_(26400791083).jpg)"
+ },
+ "cc7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_Tower_of_Hanoi%2C_1812_%284%29_%2824623083838%29.jpg/1920px-Flag_Tower_of_Hanoi%2C_1812_%284%29_%2824623083838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Flag Tower of Hanoi, 1812 (4) (24623083838).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flag_Tower_of_Hanoi,_1812_(4)_(24623083838).jpg)"
+ },
+ "cc8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hanoi_Flag_Tower.jpg/1920px-Hanoi_Flag_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Hanoi Flag Tower.jpg\" – Chelsea Hicks, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Hanoi_Flag_Tower.jpg)"
+ }
+}

@@ -476,3 +476,11 @@ Bổ sung cho mục "Ảnh bìa video", "Ảnh bìa dọc 1080×1920". Mỗi vid
 - **Khai báo `chu_the`** (vật trong ảnh) trong mục cấu hình bìa; chỉ giao khi `chu_the` khớp tên video. Thẻ tên nhỏ trên ảnh (như "CẦU LONG BIÊN") phải đúng vật trong ảnh.
 - **Bố cục và logo giữ nguyên mẫu đã duyệt** (logo cây đèn, số tập, chữ trong y 70–1560, đáy chỉ thương hiệu). Vòng khoanh và dấu "?" không che chủ thể và không đè logo, thẻ năm, thẻ tên.
 - **Kiểm trước khi giao (bắt buộc):** mở bìa ở cỡ lớn, tự hỏi "chưa biết video, nhìn ảnh này đoán chuyện gì?"; đoán sai hoặc không đoán được thì đổi ảnh. So hình, chữ với tên video và câu 1 kịch bản; kiểm dấu tiếng Việt ở cỡ 270×480. Khi giao ghi một dòng: ảnh dùng (tác giả, giấy phép) và vì sao chọn.
+
+## Hook "lật lại điều ai cũng tưởng": thử nghiệm cho video từ #16 (chủ kênh chốt 10/11/2026; KHÔNG làm lại video đã làm)
+Số liệu 8–9/11: video "Tên nước Việt Nam suýt là Nam Việt?" đạt 5.051 lượt xem Facebook, gấp 4–8 lần các video cùng ngày (620–1.417). Chưa biết chắc hook là nguyên nhân, nên đây là THỬ NGHIỆM, không phải luật.
+- **Áp dụng cho kịch bản mới từ #16 trở đi.** Video đã làm (#01–#15) giữ nguyên, kể cả #09, #10, #13, #14 có hook yếu hơn (chủ kênh không cho sửa).
+- **Câu mở "Bạn có biết, …?" ưu tiên kiểu lật lại:** (1) đánh vào điều quen thuộc với người xem (tên nước, tiền, công trình, vật nổi tiếng); (2) có điểm đảo ngược hoặc "suýt nữa thì khác" ("suýt là", "không phải như nhiều người nghĩ", "nhưng hóa ra"); (3) có tác nhân rõ (một người, một quyết định) thay vì chỉ nêu sự thật. Câu mở không quá khoảng 25 chữ, không năm tháng, không chi tiết phụ (tránh kiểu #14 Rosetta mở dài).
+- **Tiêu đề đăng giữ cùng công thức**, dạng câu hỏi ngắn gây sốc ("Cầu Long Biên có phải của Eiffel?"), vẫn đúng sự thật, không giật tít sai.
+- **Chủ đề không có điểm đảo ngược thật thì không bịa cho có**: dùng hook hỏi một điều lạ nhất có nguồn; nhưng khi chọn chủ đề mới, ưu tiên chủ đề có sẵn điểm lật lại.
+- **Theo dõi:** sau 24 giờ của mỗi video, lấy số liệu Metricool (lượt xem, like, thời gian xem trung bình Facebook; lượt xem, like TikTok) và ghi vào cột so sánh "hook lật lại" với "hook thường". Bốn video mẫu để so: Nam Việt 5.051 xem/14 like/18 s; Trống đồng 620/5/12 s; Cổ Loa 1.417/10/20 s; Bạch Đằng 673/5/18 s. Đủ ít nhất 4–5 video mới mới kết luận; nếu hook lật lại không hơn thì bỏ quy tắc này.

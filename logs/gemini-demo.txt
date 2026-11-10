@@ -1,12 +1,28 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 15: Tháng *11 năm 1761*, nó lên tàu từ *Portsmouth* đi
-OK Leda 16: Sau *81 ngày*, tàu cập bến. Đồng hồ chỉ chậm *5 gi
-OK Leda 17: *5 giây* = *1/12 phút.* *28* ÷ *12* ≈ *2,3 km.*
+OK Leda 01: Trong thời đại có vệ tinh, ta vẫn chưa vẽ xong bản
+OK Leda 02: Đo độ cao của một ngọn núi thì dễ, chỉ cần nhìn từ
+OK Leda 03: Vì ta không nhìn thấy đáy, và sợi dây thả xuống cũ
+OK Leda 04: Cách cũ rất đơn giản: buộc quả nặng vào dây, thả x
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 18: Mức cho phép: *55 km.* Sai số thật: *2,3 km*, nhỏ 
+OK Leda 05: Ở chỗ nông thì cách này chạy tốt. Nhưng ở chỗ sâu,
+OK Leda 06: Ở độ sâu khoảng hai nghìn bảy trăm mét, một quả nặ
+OK Leda 07: Tàu Chê-len-giơ của nước Anh cũng đo bằng dây. Từ 
+OK Leda 08: Chưa đến năm trăm điểm giữa các đại dương mênh môn
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Vậy mà hội đồng đòi *thử thêm.* Mãi đến *1773*, sa
+OK Leda 09: Ngày hai mươi ba tháng ba năm một nghìn tám trăm b
+OK Leda 10: Ý tưởng mới: đừng thả dây nữa. Hãy gửi một tiếng đ
+OK Leda 11: Giống như bạn hét vào thung lũng: núi càng xa, tiế
+OK Leda 12: Trong nước biển, âm thanh đi khoảng một nghìn năm 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Ý tưởng ấy sống trong *điện thoại.* Vệ tinh *GPS* 
-OK Leda 21: Sai *1 phần tỉ giây* thì vị trí lệch *30 cm.*
-OK Leda 22: Mang theo *giờ của nhà*, bạn biết *mình đang ở đâu
+OK Leda 13: Vì vậy độ sâu bằng tốc độ nhân thời gian, rồi chia
+OK Leda 14: Ví dụ tiếng vang quay lại sau bốn giây: một nghìn 
+OK Leda 15: Cách này chỉ mất vài giây, và tàu có thể vừa chạy 
+OK Leda 16: Máy đo tiếng vang ra đời đầu thế kỷ hai mươi. Từ n
+OK Leda 17: Tàu này đo được khoảng sáu mươi bảy nghìn lần, nhi
+OK Leda 18: Từ những số đo ấy, họ vẽ được mười bốn mặt cắt của
+OK Leda 19: Ngày nay, dự án quốc tế Xi-bét hai nghìn không tră
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 20: Tháng tư năm hai nghìn không trăm hai mươi sáu, dự
+OK Leda 21: Vậy cả đáy biển rộng khoảng một trăm linh bốn triệ
+OK Leda 22: Một cuộc khảo sát ngoài khơi A-lát-xca, chạy từng 
+OK Leda 23: Chỉ nhờ thay sợi dây bằng một tiếng vang, ta mới b

@@ -1,15 +1,20 @@
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 28: Bánh xe *quay nhanh dần.* Đến một tốc độ, ánh sáng
+OK Leda 01: Năm *1714*, nước Anh treo thưởng *20 000 bảng* cho
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 02: Người tìm ra lời giải không phải nhà thiên văn, mà
+OK Leda 03: Lời giải của ông là *một chiếc đồng hồ.* Vì sao *đ
+OK Leda 04: Cần *hai con số.* *Vĩ độ*, bắc hay nam, *đo dễ*: đ
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 29: Quay *nhanh gấp đôi*, ánh sáng lại lọt qua *khe kế
-OK Leda 30: Đó cũng là thời gian ánh sáng đi *hơn 17 km*, *cả 
+OK Leda 05: *Kinh độ*, đông hay tây, cần *giờ ở cảng nhà.* Trá
+OK Leda 06: Giữa trưa trên tàu, đồng hồ nhà chỉ *3 giờ chiều.*
+OK Leda 07: Ở xích đạo, *1 phút* sai = *1/4 độ* ≈ *28 km.*
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 31: *17 km* ÷ *55 phần triệu giây* ≈ *313 nghìn* km mỗ
+OK Leda 08: Thiếu cách biết vị trí chắc chắn, tàu *rất dễ lạc.
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 09: Đêm *22 tháng 10 năm 1707*, đô đốc *Cloudesley Sho
+OK Leda 10: Đội tàu *lệch xa về phía bắc*, đâm vào đá. Bốn chi
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 32: Ngày nay, tốc độ ánh sáng là *299 792 458* mét mỗi
-OK Leda 33: Từ *1983*, người ta lấy luôn tốc độ ấy làm chuẩn: 
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 34: Từ *2 chiếc đèn lồng*, *một mặt trăng* và *một bán
+OK Leda 11: Cần đồng hồ chạy đúng *nhiều tuần* giữa biển. Nhưn
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"The service is currently unavailable.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+OK Leda 12: Mức cao nhất: tàu lạc *không quá nửa độ*, tức đồng

@@ -79,7 +79,7 @@ export const Hook: React.FC<Sc> = ({bs}) => {
       <g opacity={V(1)}>
         <Head a="Đo độ cao núi thì dễ" b="đo độ sâu biển sao khó?" />
         <path d="M 120 1100 L 330 640 L 540 1100 Z" fill="#4b4036" stroke={C.cream} strokeWidth={5} strokeLinejoin="round" />
-        <SailorHero x={120} y={1100} s={1.6} />
+        <SailorHero x={lerp(100, 330, seg(f, b1 + 4, b1 + 120))} y={1100} s={1.6} walk={f * 0.25} />
         <line x1={600} y1={1100} x2={1000} y2={1100} stroke={C.cream} strokeWidth={4} opacity={0.5} />
         <Waves y={1040} f={f} />
         <Lab x={800} y={950} size={120} color={C.amber} o={0.9 * sp(f, b1 + 24, b1 + 40)}>?</Lab>
@@ -122,6 +122,7 @@ export const Cu: React.FC<Sc> = ({bs}) => {
           </g>
         ))}
         <Floor y={1180} />
+        <SailorHero x={lerp(560, 930, seg(f, 10, 200))} y={1180} s={1.1} walk={f * 0.25} />
       </g>
       <g opacity={V(1)}>
         <Head a="Chỗ sâu: dây tự nó rất nặng" b="tay khó nhận ra chạm đáy" />
@@ -180,6 +181,7 @@ export const Chal: React.FC<Sc> = ({bs}) => {
         <line x1={300} y1={580} x2={300} y2={580 + 560 * dep} stroke={C.cream} strokeWidth={4} />
         <Weight x={300} y={580 + 560 * dep} />
         <Floor y={1190} o={dep} />
+        <SailorHero x={lerp(620, 960, seg(f, b2 + 60, b2 + 200))} y={1190} s={1.0} walk={f * 0.25} />
         <Big x={700} y={860} size={110} color={C.amber} o={sp(f, b2 + 50, b2 + 64)}>8 184 m</Big>
         <Tag x={700} y={940} color={C.cream} size={40} o={sp(f, b2 + 70, b2 + 84)}>đo lại lần hai</Tag>
         <circle cx={700} cy={1030} r={26} fill="none" stroke={C.amber} strokeWidth={6} opacity={dep2} />
@@ -212,16 +214,17 @@ export const Vang: React.FC<Sc> = ({bs}) => {
         <Ship x={540} y={610 + bob} s={0.9} />
         <Rings x={540} y={780} f={f} t0={10} n={4} maxR={380} />
         <Floor y={1180} />
+        <SailorHero x={lerp(120, 940, seg(f, 6, 200))} y={1180} s={1.0} walk={f * 0.25} />
         <Arrow x1={540} y1={820} x2={540} y2={1110} o={sp(f, 20, 34)} />
         <Tag x={540} y={1290} color={C.cream} size={38}>tiếng động đi xuống</Tag>
       </g>
       <g opacity={V(1)}>
         <Head a="Như hét vào thung lũng" b="càng xa, vang càng muộn" />
-        <SailorHero x={140} y={760} s={1.2} />
+        <SailorHero x={lerp(140, 400, seg(f, b1 + 4, b1 + 90))} y={760} s={1.2} walk={f * 0.25} cheer={0.5 + 0.5 * Math.sin(f * 0.3)} />
         <path d="M 560 760 L 640 620 L 720 760 Z" fill="#4b4036" stroke={C.cream} strokeWidth={5} strokeLinejoin="round" />
         <Arrow x1={200} y1={700} x2={560} y2={700} o={sp(f, b1 + 6, b1 + 20)} />
         <Tag x={640} y={820} color={C.cream} size={34}>gần: vang sớm</Tag>
-        <SailorHero x={140} y={1080} s={1.2} />
+        <SailorHero x={lerp(140, 620, seg(f, b1 + 20, b1 + 130))} y={1080} s={1.2} walk={f * 0.25} cheer={0.5 + 0.5 * Math.sin(f * 0.3 + 1)} />
         <path d="M 860 1080 L 940 940 L 1020 1080 Z" fill="#4b4036" stroke={C.cream} strokeWidth={5} strokeLinejoin="round" />
         <Arrow x1={200} y1={1020} x2={850} y2={1020} o={sp(f, b1 + 24, b1 + 40)} />
         <Tag x={640} y={1150} color={C.amber} size={34}>xa: vang muộn</Tag>
@@ -232,6 +235,7 @@ export const Vang: React.FC<Sc> = ({bs}) => {
         <rect x={0} y={640} width={1080} height={540} fill="#0a2a3c" opacity={0.7} />
         <Ship x={300} y={610} s={0.7} />
         <Floor y={1180} />
+        <SailorHero x={lerp(700, 980, seg(f, b2 + 10, b2 + 200))} y={1180} s={1.0} walk={f * 0.25} />
         <Arrow x1={380} y1={700} x2={380} y2={1110} o={sp(f, b2 + 10, b2 + 26)} />
         <Arrow x1={560} y1={1110} x2={560} y2={700} color={'#7fd3e6'} o={sp(f, b2 + 40, b2 + 56)} />
         <Tag x={300} y={900} color={C.amber} size={36} anchor="end" o={sp(f, b2 + 14, b2 + 28)}>đi xuống</Tag>
@@ -268,6 +272,7 @@ export const Vang: React.FC<Sc> = ({bs}) => {
           return p > 0 && p < 1 ? <line key={i} x1={160 + i * 190} y1={780} x2={160 + i * 190} y2={780 + 380 * p} stroke="#7fd3e6" strokeWidth={4} opacity={1 - p * 0.6} /> : null;
         })}
         <Floor y={1180} />
+        <SailorHero x={lerp(160, 920, seg(f, b5, b5 + 160))} y={1180} s={1.0} walk={f * 0.3} />
         <Tag x={300} y={1290} color={C.amber} size={44}>vài giây</Tag>
         <Tag x={780} y={1290} color={D} size={44}>thay vì nhiều phút</Tag>
       </g>
@@ -291,6 +296,7 @@ export const Meteor: React.FC<Sc> = ({bs}) => {
         <Ship x={540} y={730 + bob} s={1.2} rot={Math.sin(f * 0.06) * 3} />
         <Rings x={540} y={900} f={f} t0={8} n={3} maxR={200} />
         <Floor y={1180} />
+        <SailorHero x={lerp(150, 900, seg(f, 6, 170))} y={1180} s={1.0} walk={f * 0.25} />
         <Tag x={540} y={1290} color={C.cream} size={40}>khảo sát Nam Đại Tây Dương</Tag>
       </g>
       <g opacity={V(1)}>

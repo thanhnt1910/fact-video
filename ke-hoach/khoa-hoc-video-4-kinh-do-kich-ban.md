@@ -21,11 +21,11 @@ Nhãn độ chắc nằm ở ghi chú, không nằm trong lời kể. [SỬ] = �
    Phụ đề: Lời giải của ông là *một chiếc đồng hồ.* Vì sao *đồng hồ* lại cho biết *tàu đang ở đâu?*
 
 **VÌ SAO CÂU HỎI ẤY QUAN TRỌNG**
-4. Đọc: Bảy năm trước, năm một nghìn bảy trăm lẻ bảy, hạm đội Anh từ Gi-bran-ta chạy về nước, do đô đốc Cờ-lau-đơ-li Sô-vồ chỉ huy.
-   Phụ đề: Bảy năm trước, năm *1707*, *hạm đội Anh* chạy về nước, do đô đốc *Cloudesley Shovell* chỉ huy.
-5. Đọc: Đêm hai mươi hai tháng mười, các hoa tiêu tin rằng tàu mình còn ở phía nam quần đảo Xi-li, và đường vào eo biển đã rộng mở.
-   Phụ đề: Đêm *22 tháng 10*, hoa tiêu tin rằng tàu còn *ở phía nam* quần đảo *Scilly.*
-6. Đọc: Họ nhầm. Họ chỉ ước chừng vị trí theo tốc độ và hướng đi, nên sai lệch tích lại. Đội tàu lệch xa về phía bắc, đâm vào đá ngầm. Bốn chiến hạm vỡ tan, hơn một nghìn bốn trăm người chết.
+4. Đọc: Bảy năm trước đó, một hạm đội Anh từ Gi-bran-ta chạy về nước. Cả đội tàu đang đi trong đêm, không ai biết chắc mình ở đâu.
+   Phụ đề: Bảy năm trước đó, một *hạm đội Anh* chạy về nước. Cả đội tàu đi trong đêm, *không ai biết chắc* mình ở đâu.
+5. Đọc: Đêm hai mươi hai tháng mười năm một nghìn bảy trăm lẻ bảy, đô đốc Cờ-lau-đơ-li Sô-vồ tin rằng tàu còn ở phía nam quần đảo Xi-li. Ông nghĩ đường vào eo biển đã rộng mở.
+   Phụ đề: Đêm *22 tháng 10 năm 1707*, đô đốc *Cloudesley Shovell* tin tàu còn *ở phía nam* quần đảo *Scilly.*
+6. Đọc: Họ chỉ ước chừng vị trí theo tốc độ và hướng đi, nên sai lệch tích lại. Đội tàu lệch xa về phía bắc, đâm vào đá. Bốn chiến hạm vỡ tan, hơn một nghìn bốn trăm người chết.
    Phụ đề: Họ chỉ *ước chừng* vị trí, nên *nhầm.* Bốn chiến hạm *vỡ tan*, hơn *1 400 người* chết.
 
 **VĨ ĐỘ DỄ, KINH ĐỘ KHÓ**

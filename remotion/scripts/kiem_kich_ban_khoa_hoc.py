@@ -20,6 +20,76 @@ ABSTRACT = ["độ cong", "bản chất", "khái niệm", "trừu tượng", "v�
 FORBID_FILE = [r"\[SỬ\*\]", r"phải kiểm", r"TBD", r"chưa kiểm", r"CHƯA ĐỐI CHIẾU"]
 
 
+# ---- Quy tắc mở đầu (chủ kênh, 10/11/2026, từ phân tích dữ liệu một kênh) ----
+OPEN_WIN = 25.0     # giây đầu: tối đa MỘT mốc năm hoặc tên sách
+SRC_WIN = 30.0      # nguồn sử chỉ được xuất hiện sau giây này
+MAX_NAMES = 2       # ngưỡng tên riêng trong cửa sổ đầu (giả định của Claude, chủ kênh chưa nêu số)
+YEAR_RE = re.compile(r"(?<![\d.,])(1\d{3}|20\d{2})(?![\d,.]?\d)(?!\s\d{3})|\b\d{1,4}\s*(?:TCN|SCN)\b")
+CITE_RE = re.compile(r"\b(theo\s+(?:sách|chép|ghi|lời|nguồn|tài liệu|sử)|sách\s+\w+|sử\s+(?:chép|ghi|sách)|ghi\s+(?:lại|chép)|chép\s+rằng|nguồn\s+(?:tin|sử|tài)|tài\s+liệu|biên\s+niên|nhà\s+sử|sử\s+gia|bài\s+báo|công\s+bố|bản\s+dịch|nguyên\s+văn)\b", re.I)
+COMMON = ["Mặt Trời", "Trái Đất", "Mặt Trăng", "Việt Nam", "Đan Mạch", "Anh", "Pháp", "Mộc", "Kim", "Hỏa", "Thủy", "Thổ"]
+TURN_RE = re.compile(r"\b(nhưng|vậy mà|thế mà|hóa ra|bất ngờ|không ngờ|điều lạ|vì sao|làm sao|bằng cách nào|câu hỏi|lời giải|bí mật|bí quyết|chỉ cần|sẽ thấy|sắp|cho đến|cho tới|mà là|không phải)\b", re.I)
+
+
+def proper_names(cap):
+    plain = cap.replace("*", "")
+    for w in COMMON:
+        plain = plain.replace(w, " ")
+    names, cur = [], []
+    # tách theo câu nhỏ để bỏ chữ hoa đầu câu
+    for part in re.split(r"(?<=[.?!:])\s+|^", plain):
+        toks = part.split()
+        for k, t in enumerate(toks):
+            t2 = t.strip(",.;:?!()\"'")
+            if k > 0 and t2[:1].isupper() and not t2.isupper():
+                cur.append(t2)
+            else:
+                if cur:
+                    names.append(" ".join(cur))
+                    cur = []
+        if cur:
+            names.append(" ".join(cur))
+            cur = []
+    return names
+
+
+def check_opening(sents, errs, warns):
+    """Báo cáo 25 giây đầu: số mốc năm, tên riêng, cụm trích nguồn; câu nào dồn quá nhiều."""
+    t = 0.0
+    rows = []
+    for n, doc, cap in sents:
+        words = len(doc.split())
+        dur = max(words / WPS + PAD, 2.4)
+        rows.append((n, t, dur, cap))
+        t += dur
+    print("\n25 giây đầu (ước tính theo tốc độ giọng):")
+    total_years, total_names = [], []
+    for n, st, dur, cap in rows:
+        if st >= SRC_WIN:
+            break
+        plain = cap.replace("*", "")
+        years = [m.group(0) for m in YEAR_RE.finditer(plain)]
+        names = proper_names(cap)
+        cites = [m.group(0) for m in CITE_RE.finditer(plain)]
+        in_open = st < OPEN_WIN
+        tag = "" if in_open else " (giây 25–30)"
+        print(f"  câu {n:>2} @{st:4.1f}s{tag}: năm={years or '-'} tên={names or '-'} trích nguồn={cites or '-'}")
+        if in_open:
+            total_years += years
+            total_names += names
+            if len(years) + len(names) >= 3:
+                warns.append(f"Câu {n} (giây {st:.0f}): dồn {len(years)} mốc năm và {len(names)} tên riêng trong một câu; tách hoặc bỏ bớt")
+        if cites:
+            errs.append(f"Câu {n} (giây {st:.0f}): có cụm trích nguồn {cites} trước giây {SRC_WIN:.0f}; để nguồn sử sau giây {SRC_WIN:.0f} (và nhãn nguồn nằm ở ghi chú, không nằm trong lời kể)")
+    if len(total_years) > 1:
+        errs.append(f"{OPEN_WIN:.0f} giây đầu có {len(total_years)} mốc năm {total_years}: chỉ được tối đa MỘT mốc năm hoặc tên sách")
+    if len(set(total_names)) > MAX_NAMES:
+        warns.append(f"{OPEN_WIN:.0f} giây đầu có {len(set(total_names))} tên riêng {sorted(set(total_names))} (ngưỡng đề xuất {MAX_NAMES}); người nghe chưa nhớ nổi")
+    # bước ngoặt / lời hứa ngay sau hook (câu 2–4)
+    early = [(n, doc + " " + cap) for n, doc, cap in sents[1:4]]
+    if early and not any(TURN_RE.search(txt) for _, txt in early):
+        warns.append("Ngay sau hook (câu 2–4) chưa thấy bước ngoặt hoặc lời hứa (nhưng / vậy mà / hóa ra / vì sao / không phải ... mà là ...): dễ rơi vào bối cảnh khô")
+
+
 def main(path):
     txt = open(path, encoding="utf-8").read()
     lines = txt.splitlines()
@@ -107,6 +177,9 @@ def main(path):
     for n, doc, cap in sents:
         if re.search(r"\[(SỬ|CG|TÍNH|MH)", doc + cap):
             errs.append(f"Câu {n}: nhãn độ chắc nằm trong lời kể, phải để ở ghi chú")
+
+    if sents:
+        check_opening(sents, errs, warns)
 
     dur = total
     mm, ss = int(dur // 60), int(dur % 60)

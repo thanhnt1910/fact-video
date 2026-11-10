@@ -1,27 +1,30 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Trong một giọt nước có thể có hàng triệu sinh vật 
-OK Leda 02: Người làm điều đó không phải nhà khoa học nổi tiến
-OK Leda 03: Vì sao ông đo được thứ nhỏ hơn mọi cây thước? Hóa 
-OK Leda 04: Ông tự làm kính hiển vi chỉ có một thấu kính, nhữn
+OK Leda 01: Một chiếc vương miện trông như vàng ròng, nhưng ng
+OK Leda 02: Theo giai thoại, nhà vua giao việc này cho Ác-si-m
+OK Leda 03: Vậy vì sao nước tràn ra khỏi bồn lại cho biết vàng
+OK Leda 04: Chiếc vương miện nặng đúng bằng số vàng nhà vua đư
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Nhưng nhìn thấy chưa đủ, phải biết chúng to bao nh
-OK Leda 06: Ông đặt cạnh chúng những vật ai cũng biết cỡ: hạt 
-OK Leda 07: Ông ước chừng hạt cát dài gấp khoảng mười hai lần 
-OK Leda 08: Nhưng chiều dài gấp mười hai lần thì thể tích khôn
-OK Leda 09: Thể tích tỉ lệ với lập phương của chiều dài, nên m
-OK Leda 10: Vậy một hạt cát lớn gấp một nghìn bảy trăm hai mươ
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: Có loại nhỏ hơn nữa, chiều dài chỉ bằng một phần t
-OK Leda 12: Vậy một hạt cát chứa một nghìn bảy trăm hai mươi t
-OK Leda 13: Loại nhỏ hơn nữa, chiều dài chỉ bằng một phần mười
-OK Leda 14: Với máu, ông thấy một trăm hồng cầu xếp thành hàng
-OK Leda 15: Năm một nghìn sáu trăm bảy mươi bảy, với một giọt 
+OK Leda 05: Vì nếu người thợ lấy bớt vàng, rồi thêm bạc cho đủ
+OK Leda 06: Nhưng bạc nhẹ hơn vàng, nên cùng một cân nặng, bạc
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 16: Hội Hoàng gia Anh phải lập nhóm kiểm tra lại, rồi 
-OK Leda 17: Ông giữ kín cách mài kính tốt nhất của mình, và ch
-OK Leda 18: Dù chỉ ước chừng bằng mắt, nhiều số đo của ông vẫn
-OK Leda 19: Thử bằng số hiện đại: một hồng cầu rộng khoảng bảy
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Một trăm hồng cầu xếp hàng dài khoảng bảy phần mườ
-OK Leda 21: Ngày nay ta biết một mi-li-lít máu người có khoảng
-OK Leda 22: Cái nhỏ hơn mắt hóa ra đo được: chỉ cần một vật qu
+OK Leda 07: Vậy chỉ cần đo xem vương miện chiếm bao nhiêu chỗ,
+OK Leda 08: Chỗ mà một vật chiếm gọi là thể tích. Nhúng vật và
+OK Leda 09: Theo giai thoại, ông làm hai khối cùng cân với vươ
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 10: Vương miện làm tràn nhiều nước hơn khối vàng cùng 
+OK Leda 11: Mỗi chất có một khối lượng riêng, là số gam của mộ
+OK Leda 12: Từ đó có công thức: thể tích bằng khối lượng chia 
+OK Leda 13: Lấy một vương miện nặng một nghìn gam làm ví dụ. N
+OK Leda 14: Giả sử người thợ thay ba phần mười số vàng bằng bạ
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 15: Phép tính ra khoảng sáu mươi lăm xăng-ti-mét khối,
+OK Leda 16: Mười ba xăng-ti-mét khối là mười ba mi-li-lít nước
+OK Leda 17: Chênh lệch nhỏ như vậy rất khó đo bằng mắt. Năm mộ
+OK Leda 18: Ông nghĩ ra cách cân vật ngay trong nước: vật nhún
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Vương miện lớn hơn vàng ròng cùng cân mười ba xăng
+OK Leda 20: Ngày nay thợ kim hoàn cũng cân món đồ trong không 
+OK Leda 21: Cùng ý ấy giải thích vì sao tàu bằng sắt vẫn nổi: 
+OK Leda 22: Chuyện bồn tắm được một kiến trúc sư La Mã chép lạ

@@ -8,22 +8,29 @@ export type Sc = {dur: number; bs: number[]};
 const D = C.dim;
 const SEAF = '#2f6f86';
 
-// Người que đội mũ thủy thủ trắng, thổi bong bóng từ miệng (dùng riêng video 5).
+// Người que thợ lặn: mũ đồng trùm kín đầu có cửa kính, ống thở lên mặt nước, bong bóng nổi lên từ ống (dùng riêng video 5).
 const SailorHero: React.FC<{x: number; y: number; s?: number; walk?: number; cheer?: number}> = ({x, y, s = 1, walk = 0, cheer = 0}) => {
   const f = useCurrentFrame();
   const ch = clamp01(cheer);
   const bob = Math.abs(Math.sin(walk)) * 2.5 + ch * Math.abs(Math.sin(walk * 1.6)) * 7;
+  const sw = 3 / s;
   return (
     <g>
       <Hero x={x} y={y} s={s} walk={walk} cheer={cheer} />
-      <g transform={`translate(${x} ${y - bob * s}) scale(${s})`}>
-        <path d="M -14 -80 Q -15 -103 0 -103 Q 15 -103 14 -80 Z" fill="#f4efe2" stroke={C.cream} strokeWidth={3 / s} strokeLinejoin="round" />
-        <rect x={-15} y={-86} width={30} height={6} fill="#1d3f6b" stroke={C.cream} strokeWidth={2 / s} />
-        <path d="M -18 -80 Q 0 -74 18 -80" fill="none" stroke={C.cream} strokeWidth={3 / s} strokeLinecap="round" />
-        <circle cx={0} cy={-105} r={3} fill="#c0392b" />
-        {[0, 1, 2, 3].map((k) => {
-          const p = (f * 0.018 + k * 0.25) % 1;
-          return <circle key={k} cx={14 + p * 46 + Math.sin(f * 0.15 + k * 2) * 4} cy={-66 - p * 95} r={2.5 + p * 8} fill="none" stroke="#cfeef5" strokeWidth={2.5 / s} opacity={0.9 * (1 - p)} />;
+      <g transform={`translate(${x} ${y - bob * s}) scale(${s})`} stroke={C.cream} strokeWidth={sw} strokeLinejoin="round" strokeLinecap="round">
+        <path d={`M -18 -88 Q -46 -96 -42 -130 Q -40 -160 -${46 + Math.sin(f * 0.05) * 3} -190`} fill="none" stroke="#6b5636" strokeWidth={6 / s * 1.4} />
+        <circle cx={-46 - Math.sin(f * 0.05) * 3} cy={-190} r={4} fill="#b08a3e" />
+        <rect x={-19} y={-58} width={38} height={9} rx={3} fill="#8a6a2c" />
+        <circle cx={0} cy={-77} r={23} fill="#b08a3e" />
+        <circle cx={5} cy={-77} r={10} fill="#9fd8e6" />
+        <path d="M 1 -82 Q 4 -85 8 -83" fill="none" stroke="#fff" strokeWidth={sw * 0.8} />
+        <circle cx={-14} cy={-92} r={1.8} fill={C.cream} stroke="none" />
+        <circle cx={16} cy={-92} r={1.8} fill={C.cream} stroke="none" />
+        <circle cx={-18} cy={-70} r={1.8} fill={C.cream} stroke="none" />
+        <circle cx={0} cy={-100} r={3.5} fill="#8a6a2c" />
+        {[0, 1, 2, 3, 4].map((k) => {
+          const p = (f * 0.016 + k * 0.2) % 1;
+          return <circle key={k} cx={-46 - Math.sin(f * 0.05) * 3 + Math.sin(f * 0.14 + k * 2) * 6} cy={-196 - p * 110} r={2.5 + p * 8} fill="none" stroke="#cfeef5" strokeWidth={sw * 0.8} opacity={0.95 * (1 - p)} />;
         })}
       </g>
     </g>

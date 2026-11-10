@@ -1,0 +1,115 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Trong một giọt nước có thể có hàng triệu sinh vật sống mà mắt thường không thấy. Làm sao có người đếm được thứ mình không nhìn thấy?",
+   "say": "Trong một giọt nước có thể có hàng triệu sinh vật sống mà mắt thường không thấy. Làm sao có người đếm được thứ mình không nhìn thấy?"
+  },
+  {
+   "n": 2,
+   "text": "Người làm điều đó không phải nhà khoa học nổi tiếng, mà là một người bán vải ở Hà Lan.",
+   "say": "Người làm điều đó không phải nhà khoa học nổi tiếng, mà là một người bán vải ở Hà Lan."
+  },
+  {
+   "n": 3,
+   "text": "Vì sao ông đo được thứ nhỏ hơn mọi cây thước? Hóa ra, ông dùng một vật rất quen: hạt cát.",
+   "say": "Vì sao ông đo được thứ nhỏ hơn mọi cây thước? Hóa ra, ông dùng một vật rất quen: hạt cát."
+  },
+  {
+   "n": 4,
+   "text": "Ông tự làm kính hiển vi chỉ có một thấu kính, những chiếc còn lại đến nay phóng to tới khoảng hai trăm bảy mươi lăm lần.",
+   "say": "Ông tự làm kính hiển vi chỉ có một thấu kính, những chiếc còn lại đến nay phóng to tới khoảng hai trăm bảy mươi lăm lần."
+  },
+  {
+   "n": 5,
+   "text": "Nhưng nhìn thấy chưa đủ, phải biết chúng to bao nhiêu, mà thước nào cũng quá to để đặt cạnh chúng.",
+   "say": "Nhưng nhìn thấy chưa đủ, phải biết chúng to bao nhiêu, mà thước nào cũng quá to để đặt cạnh chúng."
+  },
+  {
+   "n": 6,
+   "text": "Ông đặt cạnh chúng những vật ai cũng biết cỡ: hạt cát, hạt kê, sợi tóc.",
+   "say": "Ông đặt cạnh chúng những vật ai cũng biết cỡ: hạt cát, hạt kê, sợi tóc."
+  },
+  {
+   "n": 7,
+   "text": "Ông ước chừng hạt cát dài gấp khoảng mười hai lần một loại sinh vật nhỏ.",
+   "say": "Ông ước chừng hạt cát dài gấp khoảng mười hai lần một loại sinh vật nhỏ."
+  },
+  {
+   "n": 8,
+   "text": "Nhưng chiều dài gấp mười hai lần thì thể tích không gấp mười hai lần, mà gấp mười hai nhân mười hai nhân mười hai.",
+   "say": "Nhưng chiều dài gấp mười hai lần thì thể tích không gấp mười hai lần, mà gấp mười hai nhân mười hai nhân mười hai."
+  },
+  {
+   "n": 9,
+   "text": "Thể tích tỉ lệ với lập phương của chiều dài, nên mười hai nhân mười hai nhân mười hai bằng một nghìn bảy trăm hai mươi tám.",
+   "say": "Thể tích tỉ lệ với lập phương của chiều dài, nên mười hai nhân mười hai nhân mười hai bằng một nghìn bảy trăm hai mươi tám."
+  },
+  {
+   "n": 10,
+   "text": "Vậy một hạt cát lớn gấp một nghìn bảy trăm hai mươi tám lần con vật ấy.",
+   "say": "Vậy một hạt cát lớn gấp một nghìn bảy trăm hai mươi tám lần con vật ấy."
+  },
+  {
+   "n": 11,
+   "text": "Có loại nhỏ hơn nữa, chiều dài chỉ bằng một phần tư con vật ấy: bốn nhân bốn nhân bốn bằng sáu mươi bốn.",
+   "say": "Có loại nhỏ hơn nữa, chiều dài chỉ bằng một phần tư con vật ấy: bốn nhân bốn nhân bốn bằng sáu mươi bốn."
+  },
+  {
+   "n": 12,
+   "text": "Vậy một hạt cát chứa một nghìn bảy trăm hai mươi tám nhân sáu mươi bốn, tức một trăm mười nghìn năm trăm chín mươi hai con loại nhỏ này.",
+   "say": "Vậy một hạt cát chứa một nghìn bảy trăm hai mươi tám nhân sáu mươi bốn, tức một trăm mười nghìn năm trăm chín mươi hai con loại nhỏ này."
+  },
+  {
+   "n": 13,
+   "text": "Loại nhỏ hơn nữa, chiều dài chỉ bằng một phần mười, thì nhân thêm một nghìn, ra hơn một trăm mười triệu con.",
+   "say": "Loại nhỏ hơn nữa, chiều dài chỉ bằng một phần mười, thì nhân thêm một nghìn, ra hơn một trăm mười triệu con."
+  },
+  {
+   "n": 14,
+   "text": "Với máu, ông thấy một trăm hồng cầu xếp thành hàng chỉ dài bằng một hạt cát, nên một hạt cát chứa một trăm nhân một trăm nhân một trăm, tức một triệu hồng cầu.",
+   "say": "Với máu, ông thấy một trăm hồng cầu xếp thành hàng chỉ dài bằng một hạt cát, nên một hạt cát chứa một trăm nhân một trăm nhân một trăm, tức một triệu hồng cầu."
+  },
+  {
+   "n": 15,
+   "text": "Năm một nghìn sáu trăm bảy mươi bảy, với một giọt nước ông tính ra hai triệu bảy trăm ba mươi nghìn sinh vật, nhưng chỉ báo một triệu cho chắc không nói quá.",
+   "say": "Năm một nghìn sáu trăm bảy mươi bảy, với một giọt nước ông tính ra hai triệu bảy trăm ba mươi nghìn sinh vật, nhưng chỉ báo một triệu cho chắc không nói quá."
+  },
+  {
+   "n": 16,
+   "text": "Hội Hoàng gia Anh phải lập nhóm kiểm tra lại, rồi mới công nhận phát hiện của ông.",
+   "say": "Hội Hoàng gia Anh phải lập nhóm kiểm tra lại, rồi mới công nhận phát hiện của ông."
+  },
+  {
+   "n": 17,
+   "text": "Ông giữ kín cách mài kính tốt nhất của mình, và chỉ cho khách xem những chiếc kính thường.",
+   "say": "Ông giữ kín cách mài kính tốt nhất của mình, và chỉ cho khách xem những chiếc kính thường."
+  },
+  {
+   "n": 18,
+   "text": "Dù chỉ ước chừng bằng mắt, nhiều số đo của ông vẫn gần với số đo bằng dụng cụ hiện đại.",
+   "say": "Dù chỉ ước chừng bằng mắt, nhiều số đo của ông vẫn gần với số đo bằng dụng cụ hiện đại."
+  },
+  {
+   "n": 19,
+   "text": "Thử bằng số hiện đại: một hồng cầu rộng khoảng bảy micrô-mét, tức bảy phần nghìn mi-li-mét.",
+   "say": "Thử bằng số hiện đại: một hồng cầu rộng khoảng bảy micrô-mét, tức bảy phần nghìn mi-li-mét."
+  },
+  {
+   "n": 20,
+   "text": "Một trăm hồng cầu xếp hàng dài khoảng bảy phần mười mi-li-mét, đúng cỡ một hạt cát thô.",
+   "say": "Một trăm hồng cầu xếp hàng dài khoảng bảy phần mười mi-li-mét, đúng cỡ một hạt cát thô."
+  },
+  {
+   "n": 21,
+   "text": "Ngày nay ta biết một mi-li-lít máu người có khoảng bốn đến sáu tỉ hồng cầu, mà mắt thường không thấy một con nào.",
+   "say": "Ngày nay ta biết một mi-li-lít máu người có khoảng bốn đến sáu tỉ hồng cầu, mà mắt thường không thấy một con nào."
+  },
+  {
+   "n": 22,
+   "text": "Cái nhỏ hơn mắt hóa ra đo được: chỉ cần một vật quen để so sánh, và nhớ rằng thể tích tăng theo lập phương của chiều dài.",
+   "say": "Cái nhỏ hơn mắt hóa ra đo được: chỉ cần một vật quen để so sánh, và nhớ rằng thể tích tăng theo lập phương của chiều dài."
+  }
+ ]
+}

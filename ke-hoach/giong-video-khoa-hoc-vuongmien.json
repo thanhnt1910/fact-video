@@ -1,0 +1,115 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Một chiếc vương miện trông như vàng ròng, nhưng người ta nghi bên trong có trộn bạc. Làm sao biết được mà không được làm hỏng nó?",
+   "say": "Một chiếc vương miện trông như vàng ròng, nhưng người ta nghi bên trong có trộn bạc. Làm sao biết được mà không được làm hỏng nó?"
+  },
+  {
+   "n": 2,
+   "text": "Theo giai thoại, nhà vua giao việc này cho Ác-si-mét, và lời giải đến với ông ngay trong bồn tắm.",
+   "say": "Theo giai thoại, nhà vua giao việc này cho Ác-si-mét, và lời giải đến với ông ngay trong bồn tắm."
+  },
+  {
+   "n": 3,
+   "text": "Vậy vì sao nước tràn ra khỏi bồn lại cho biết vàng có bị pha bạc hay không?",
+   "say": "Vậy vì sao nước tràn ra khỏi bồn lại cho biết vàng có bị pha bạc hay không?"
+  },
+  {
+   "n": 4,
+   "text": "Chiếc vương miện nặng đúng bằng số vàng nhà vua đưa cho người thợ, nên cái cân không phát hiện được gì.",
+   "say": "Chiếc vương miện nặng đúng bằng số vàng nhà vua đưa cho người thợ, nên cái cân không phát hiện được gì."
+  },
+  {
+   "n": 5,
+   "text": "Vì nếu người thợ lấy bớt vàng, rồi thêm bạc cho đủ cân, thì vương miện vẫn nặng như cũ.",
+   "say": "Vì nếu người thợ lấy bớt vàng, rồi thêm bạc cho đủ cân, thì vương miện vẫn nặng như cũ."
+  },
+  {
+   "n": 6,
+   "text": "Nhưng bạc nhẹ hơn vàng, nên cùng một cân nặng, bạc chiếm nhiều chỗ hơn.",
+   "say": "Nhưng bạc nhẹ hơn vàng, nên cùng một cân nặng, bạc chiếm nhiều chỗ hơn."
+  },
+  {
+   "n": 7,
+   "text": "Vậy chỉ cần đo xem vương miện chiếm bao nhiêu chỗ, rồi so với vàng ròng cùng cân.",
+   "say": "Vậy chỉ cần đo xem vương miện chiếm bao nhiêu chỗ, rồi so với vàng ròng cùng cân."
+  },
+  {
+   "n": 8,
+   "text": "Chỗ mà một vật chiếm gọi là thể tích. Nhúng vật vào nước, nó chiếm bao nhiêu chỗ thì đẩy ra bấy nhiêu nước.",
+   "say": "Chỗ mà một vật chiếm gọi là thể tích. Nhúng vật vào nước, nó chiếm bao nhiêu chỗ thì đẩy ra bấy nhiêu nước."
+  },
+  {
+   "n": 9,
+   "text": "Theo giai thoại, ông làm hai khối cùng cân với vương miện, một vàng, một bạc, rồi nhúng từng thứ vào bình đầy nước và xem nước tràn.",
+   "say": "Theo giai thoại, ông làm hai khối cùng cân với vương miện, một vàng, một bạc, rồi nhúng từng thứ vào bình đầy nước và xem nước tràn."
+  },
+  {
+   "n": 10,
+   "text": "Vương miện làm tràn nhiều nước hơn khối vàng cùng cân, nghĩa là trong nó có bạc, và người thợ đã gian lận.",
+   "say": "Vương miện làm tràn nhiều nước hơn khối vàng cùng cân, nghĩa là trong nó có bạc, và người thợ đã gian lận."
+  },
+  {
+   "n": 11,
+   "text": "Mỗi chất có một khối lượng riêng, là số gam của một xăng-ti-mét khối chất ấy. Vàng khoảng mười chín phẩy ba gam, bạc khoảng mười phẩy năm gam.",
+   "say": "Mỗi chất có một khối lượng riêng, là số gam của một xăng-ti-mét khối chất ấy. Vàng khoảng mười chín phẩy ba gam, bạc khoảng mười phẩy năm gam."
+  },
+  {
+   "n": 12,
+   "text": "Từ đó có công thức: thể tích bằng khối lượng chia cho khối lượng riêng.",
+   "say": "Từ đó có công thức: thể tích bằng khối lượng chia cho khối lượng riêng."
+  },
+  {
+   "n": 13,
+   "text": "Lấy một vương miện nặng một nghìn gam làm ví dụ. Nếu là vàng ròng, một nghìn chia mười chín phẩy ba ra khoảng năm mươi hai xăng-ti-mét khối.",
+   "say": "Lấy một vương miện nặng một nghìn gam làm ví dụ. Nếu là vàng ròng, một nghìn chia mười chín phẩy ba ra khoảng năm mươi hai xăng-ti-mét khối."
+  },
+  {
+   "n": 14,
+   "text": "Giả sử người thợ thay ba phần mười số vàng bằng bạc. Thể tích là bảy trăm chia mười chín phẩy ba, cộng ba trăm chia mười phẩy năm.",
+   "say": "Giả sử người thợ thay ba phần mười số vàng bằng bạc. Thể tích là bảy trăm chia mười chín phẩy ba, cộng ba trăm chia mười phẩy năm."
+  },
+  {
+   "n": 15,
+   "text": "Phép tính ra khoảng sáu mươi lăm xăng-ti-mét khối, lớn hơn vàng ròng cùng cân khoảng mười ba xăng-ti-mét khối.",
+   "say": "Phép tính ra khoảng sáu mươi lăm xăng-ti-mét khối, lớn hơn vàng ròng cùng cân khoảng mười ba xăng-ti-mét khối."
+  },
+  {
+   "n": 16,
+   "text": "Mười ba xăng-ti-mét khối là mười ba mi-li-lít nước, gần bằng một muỗng canh. Trong một chậu rộng hai chục xăng-ti-mét, mực nước chỉ chênh bốn phần mười mi-li-mét.",
+   "say": "Mười ba xăng-ti-mét khối là mười ba mi-li-lít nước, gần bằng một muỗng canh. Trong một chậu rộng hai chục xăng-ti-mét, mực nước chỉ chênh bốn phần mười mi-li-mét."
+  },
+  {
+   "n": 17,
+   "text": "Chênh lệch nhỏ như vậy rất khó đo bằng mắt. Năm một nghìn năm trăm tám mươi sáu, Ga-li-lê gọi cách tràn nước là thô và thiếu chính xác.",
+   "say": "Chênh lệch nhỏ như vậy rất khó đo bằng mắt. Năm một nghìn năm trăm tám mươi sáu, Ga-li-lê gọi cách tràn nước là thô và thiếu chính xác."
+  },
+  {
+   "n": 18,
+   "text": "Ông nghĩ ra cách cân vật ngay trong nước: vật nhúng vào nước nhẹ đi đúng bằng cân nặng của lượng nước nó đẩy ra.",
+   "say": "Ông nghĩ ra cách cân vật ngay trong nước: vật nhúng vào nước nhẹ đi đúng bằng cân nặng của lượng nước nó đẩy ra."
+  },
+  {
+   "n": 19,
+   "text": "Vương miện lớn hơn vàng ròng cùng cân mười ba xăng-ti-mét khối, nên trong nước nó nhẹ hơn khối vàng khoảng mười ba gam, và cái cân thấy được chênh lệch ấy.",
+   "say": "Vương miện lớn hơn vàng ròng cùng cân mười ba xăng-ti-mét khối, nên trong nước nó nhẹ hơn khối vàng khoảng mười ba gam, và cái cân thấy được chênh lệch ấy."
+  },
+  {
+   "n": 20,
+   "text": "Ngày nay thợ kim hoàn cũng cân món đồ trong không khí rồi trong nước, và chia cân nặng cho phần nhẹ đi để biết nó làm từ chất gì.",
+   "say": "Ngày nay thợ kim hoàn cũng cân món đồ trong không khí rồi trong nước, và chia cân nặng cho phần nhẹ đi để biết nó làm từ chất gì."
+  },
+  {
+   "n": 21,
+   "text": "Cùng ý ấy giải thích vì sao tàu bằng sắt vẫn nổi: thân tàu rỗng nên đẩy ra lượng nước nặng bằng cả con tàu.",
+   "say": "Cùng ý ấy giải thích vì sao tàu bằng sắt vẫn nổi: thân tàu rỗng nên đẩy ra lượng nước nặng bằng cả con tàu."
+  },
+  {
+   "n": 22,
+   "text": "Chuyện bồn tắm được một kiến trúc sư La Mã chép lại khoảng hai trăm năm sau, nên ta không chắc từng chi tiết. Nhưng ý cùng cân mà chiếm chỗ khác nhau thì vẫn đúng.",
+   "say": "Chuyện bồn tắm được một kiến trúc sư La Mã chép lại khoảng hai trăm năm sau, nên ta không chắc từng chi tiết. Nhưng ý cùng cân mà chiếm chỗ khác nhau thì vẫn đúng."
+  }
+ ]
+}

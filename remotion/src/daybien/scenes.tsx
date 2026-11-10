@@ -8,6 +8,28 @@ export type Sc = {dur: number; bs: number[]};
 const D = C.dim;
 const SEAF = '#2f6f86';
 
+// Người que đội mũ thủy thủ trắng, thổi bong bóng từ miệng (dùng riêng video 5).
+const SailorHero: React.FC<{x: number; y: number; s?: number; walk?: number; cheer?: number}> = ({x, y, s = 1, walk = 0, cheer = 0}) => {
+  const f = useCurrentFrame();
+  const ch = clamp01(cheer);
+  const bob = Math.abs(Math.sin(walk)) * 2.5 + ch * Math.abs(Math.sin(walk * 1.6)) * 7;
+  return (
+    <g>
+      <Hero x={x} y={y} s={s} walk={walk} cheer={cheer} />
+      <g transform={`translate(${x} ${y - bob * s}) scale(${s})`}>
+        <path d="M -14 -80 Q -15 -103 0 -103 Q 15 -103 14 -80 Z" fill="#f4efe2" stroke={C.cream} strokeWidth={3 / s} strokeLinejoin="round" />
+        <rect x={-15} y={-86} width={30} height={6} fill="#1d3f6b" stroke={C.cream} strokeWidth={2 / s} />
+        <path d="M -18 -80 Q 0 -74 18 -80" fill="none" stroke={C.cream} strokeWidth={3 / s} strokeLinecap="round" />
+        <circle cx={0} cy={-105} r={3} fill="#c0392b" />
+        {[0, 1, 2, 3].map((k) => {
+          const p = (f * 0.018 + k * 0.25) % 1;
+          return <circle key={k} cx={14 + p * 46 + Math.sin(f * 0.15 + k * 2) * 4} cy={-66 - p * 95} r={2.5 + p * 8} fill="none" stroke="#cfeef5" strokeWidth={2.5 / s} opacity={0.9 * (1 - p)} />;
+        })}
+      </g>
+    </g>
+  );
+};
+
 const pie = (cx: number, cy: number, r: number, frac: number) => {
   const a = Math.min(0.9999, Math.max(0.0001, frac)) * 2 * Math.PI;
   const x = cx + r * Math.sin(a);
@@ -50,7 +72,7 @@ export const Hook: React.FC<Sc> = ({bs}) => {
       <g opacity={V(1)}>
         <Head a="Đo độ cao núi thì dễ" b="đo độ sâu biển sao khó?" />
         <path d="M 120 1100 L 330 640 L 540 1100 Z" fill="#4b4036" stroke={C.cream} strokeWidth={5} strokeLinejoin="round" />
-        <Hero x={120} y={1100} s={1.6} />
+        <SailorHero x={120} y={1100} s={1.6} />
         <line x1={600} y1={1100} x2={1000} y2={1100} stroke={C.cream} strokeWidth={4} opacity={0.5} />
         <Waves y={1040} f={f} />
         <Lab x={800} y={950} size={120} color={C.amber} o={0.9 * sp(f, b1 + 24, b1 + 40)}>?</Lab>
@@ -188,11 +210,11 @@ export const Vang: React.FC<Sc> = ({bs}) => {
       </g>
       <g opacity={V(1)}>
         <Head a="Như hét vào thung lũng" b="càng xa, vang càng muộn" />
-        <Hero x={140} y={760} s={1.2} />
+        <SailorHero x={140} y={760} s={1.2} />
         <path d="M 560 760 L 640 620 L 720 760 Z" fill="#4b4036" stroke={C.cream} strokeWidth={5} strokeLinejoin="round" />
         <Arrow x1={200} y1={700} x2={560} y2={700} o={sp(f, b1 + 6, b1 + 20)} />
         <Tag x={640} y={820} color={C.cream} size={34}>gần: vang sớm</Tag>
-        <Hero x={140} y={1080} s={1.2} />
+        <SailorHero x={140} y={1080} s={1.2} />
         <path d="M 860 1080 L 940 940 L 1020 1080 Z" fill="#4b4036" stroke={C.cream} strokeWidth={5} strokeLinejoin="round" />
         <Arrow x1={200} y1={1020} x2={850} y2={1020} o={sp(f, b1 + 24, b1 + 40)} />
         <Tag x={640} y={1150} color={C.amber} size={34}>xa: vang muộn</Tag>
@@ -329,7 +351,7 @@ export const Nay: React.FC<Sc> = ({bs}) => {
         <circle cx={540} cy={850} r={260} fill="#e8e0cf" opacity={0.9} stroke={C.cream} strokeWidth={6} />
         <path d={pie(540, 850, 250, 0.287)} fill={C.amber} />
         <Big x={540} y={1210} size={100} color={C.cream} o={sp(f, b4 + 10, b4 + 24)}>còn hơn 70%</Big>
-        <Hero x={860} y={1300} s={1.6} cheer={1} walk={f * 0.2} />
+        <SailorHero x={860} y={1300} s={1.6} cheer={1} walk={f * 0.2} />
       </g>
     </Svg>
   );

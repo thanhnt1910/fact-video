@@ -9,6 +9,8 @@ import {Thales3} from './thales3/Thales3';
 import {timeline3} from './thales3/content';
 import {Eratosthenes} from './eratosthenes/Eratosthenes';
 import {Cavendish} from './cavendish/Cavendish';
+import {Anhsang} from './anhsang/Anhsang';
+import {timeline as timelineAs} from './anhsang/content';
 import {timeline as timelineCav} from './cavendish/content';
 import {timeline as timelineEra} from './eratosthenes/content';
 import {FPS, H, W} from './lib/theme';
@@ -22,6 +24,7 @@ export const Root: React.FC = () => {
       <Composition id="Thales2EN" component={Thales2} durationInFrames={timeline2('en').total} fps={FPS} width={W} height={H} defaultProps={{lang: 'en' as const}} />
       <Composition id="Thales2VI" component={Thales2} durationInFrames={timeline2('vi').total} fps={FPS} width={W} height={H} defaultProps={{lang: 'vi' as const}} />
       <Composition id="Thales3" component={Thales3} durationInFrames={timeline3().total} fps={FPS} width={W} height={H} />
+      <Composition id="Anhsang" component={Anhsang} durationInFrames={timelineAs().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Cavendish" component={Cavendish} durationInFrames={timelineCav().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Eratosthenes" component={Eratosthenes} durationInFrames={timelineEra().total} fps={FPS} width={1080} height={1920} />
     </>

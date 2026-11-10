@@ -12,7 +12,7 @@ CFG = {
  '4': dict(img='xk4/hd9.jpg', pos='50% 50%', num='#12', stamp='1407', tag='HỒ NGUYÊN TRỪNG', l1='SÚNG THẦN CƠ', l2='CỦA CON HỒ QUÝ LY'),
  '5': dict(img='xk5/ha6.jpg', pos='50% 50%', num='#13', stamp='1719', tag='CHÙA CẦU HỘI AN', l1='CẦU CÓ MÁI CHE', l2='CÓ CẢ CHÙA TRÊN CẦU'),
  '6': dict(img='xk6/rs5.jpg', pos='50% 50%', num='#14', stamp='1799', tag='PHIẾN ĐÁ ROSETTA', l1='TẢNG ĐÁ LÍNH PHÁP', l2='ĐỌC ĐƯỢC CHỮ AI CẬP'),
- '7': dict(img='xk7/lb12.jpg', pos='62% 60%', num='#15', stamp='1902', tag='CẦU LONG BIÊN', l1='CẦU EIFFEL?', l2='KHÔNG CÓ CHỮ KÝ'),
+ '7': dict(img='xk7/lb12.jpg', pos='62% 60%', num='#15', stamp='1902', tag='CẦU LONG BIÊN', l1='CẦU EIFFEL?', l2='KHÔNG CÓ CHỮ KÝ', chu_the='cầu Long Biên', hook=dict(cx=610, cy=590, r=190, q='?')),
 }[K]
 def fs(t): return round(118*min(1, 16/len(t)))
 out = sys.argv[2] if len(sys.argv) > 2 else str(Path(__file__).with_name(f'bia_xk{K}.png'))
@@ -25,6 +25,8 @@ def jag(w, h, seed, amp=7, step=34):
     side(0,0,w,0); side(w,0,w,h); side(w,h,0,h); side(0,h,0,0)
     return 'polygon('+','.join(f'{x:.1f}px {y:.1f}px' for x,y in P)+')'
 CW, CH = 1000, 740
+H = CFG.get('hook')
+HOOK = (f"<div class=hook style='left:{H['cx']-H['r']}px;top:{H['cy']-H['r']}px;width:{2*H['r']}px;height:{2*H['r']}px'></div><div class=q style='left:{H['cx']+H['r']-90}px;top:{H['cy']-H['r']-40}px'>{H['q']}</div>" if H else '')
 html = f'''<!doctype html><meta charset=utf-8><style>
 @font-face{{font-family:A;src:url(file://{F}/Anton-Regular.ttf)}}
 @font-face{{font-family:O;font-weight:200 700;src:url(file://{F}/Oswald.ttf)}}
@@ -34,7 +36,7 @@ html = f'''<!doctype html><meta charset=utf-8><style>
 .vg{{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 55%,rgba(0,0,0,.8) 100%)}}
 .card{{position:absolute;left:40px;top:190px;width:{CW}px;height:{CH}px;transform:rotate(-2deg);filter:drop-shadow(0 18px 20px rgba(0,0,0,.7))}}
 .card .bd{{position:absolute;inset:-12px;background:#eee7d3;clip-path:{jag(CW+24,CH+24,3)}}}
-.card .im{{position:absolute;inset:0;clip-path:{jag(CW,CH,9,5)};background:url(file://{R}/assets/{CFG['img']}) {CFG['pos']}/cover no-repeat}}
+.card .im{{position:absolute;inset:0;clip-path:{jag(CW,CH,9,5)};background:url(file://{R}/assets/{CFG['img']}) {CFG['pos']}/cover no-repeat;filter:contrast(1.14) saturate(1.22) brightness(1.03)}}
 .tape{{position:absolute;left:420px;top:-30px;width:170px;height:48px;background:rgba(236,226,180,.6);transform:rotate(-5deg)}}
 .pill{{position:absolute;left:36px;top:60px;font-family:B;font-size:34px;color:#fff;letter-spacing:1px;padding:12px 30px 10px;background:#d8372d;clip-path:{jag(560,64,5,3,30)};width:560px;box-sizing:border-box;transform:rotate(-2deg)}}
 .stamp{{position:absolute;right:46px;top:790px;font-family:A;font-size:120px;color:#e5483f;letter-spacing:4px;padding:6px 34px 0;border:10px solid #e5483f;border-radius:12px;background:rgba(20,10,8,.55);transform:rotate(7deg)}}
@@ -44,10 +46,13 @@ html = f'''<!doctype html><meta charset=utf-8><style>
 .w{{background:linear-gradient(180deg,#fff 30%,#f3e6c8 100%);-webkit-background-clip:text;color:transparent}}
 .y{{background:linear-gradient(180deg,#fff2a8 5%,#ffc928 45%,#f08a00 100%);-webkit-background-clip:text;color:transparent}}
 .tag{{position:absolute;left:60px;top:950px;font-family:B;font-size:34px;color:#17120c;background:#efe9d8;padding:12px 24px 8px;clip-path:{jag(600,64,7,3,30)};width:600px;box-sizing:border-box;transform:rotate(-3deg);text-align:center}}
+.hook{{position:absolute;border:12px solid #e5483f;border-radius:50%;box-shadow:0 0 0 6px rgba(20,10,8,.55),0 0 40px rgba(229,72,63,.8);transform:rotate(-2deg)}}
+.q{{position:absolute;font-family:A;font-size:104px;line-height:132px;color:#fff;background:#e5483f;width:150px;height:150px;border-radius:50%;text-align:center;padding-top:0;box-sizing:border-box;border:8px solid #fff;filter:drop-shadow(0 8px 10px rgba(0,0,0,.6))}}
 .rule{{position:absolute;left:140px;width:800px;height:5px;background:linear-gradient(90deg,transparent,#f2c14e 20%,#fff2a8 50%,#f2c14e 80%,transparent)}}
 </style><body>
 <div class=news></div><div class=vg></div>
 <div class=card><div class=bd></div><div class=im></div><div class=tape></div></div>
+{HOOK}
 <div class=pill>BÍ MẬT BIỂU TƯỢNG · {CFG['num']}</div>
 <div class=stamp>{CFG['stamp']}</div>
 <div class=tag>{CFG['tag']}</div>

@@ -1,46 +1,15 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Nếu *Mặt Trời tắt* ngay bây giờ, bạn vẫn thấy nó *
-OK Leda 02: Vì ánh sáng *không đến tức thì*, nó phải đi và *mấ
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Người đầu tiên *chứng minh* điều ngược lại không d
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Leda 28: Bánh xe *quay nhanh dần.* Đến một tốc độ, ánh sáng
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 04: Năm *1638*, nhà bác học *Galileo* mô tả trong sách
+OK Leda 29: Quay *nhanh gấp đôi*, ánh sáng lại lọt qua *khe kế
+OK Leda 30: Đó cũng là thời gian ánh sáng đi *hơn 17 km*, *cả 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Hai người, mỗi người cầm *một đèn lồng*, đứng cách
+OK Leda 31: *17 km* ÷ *55 phần triệu giây* ≈ *313 nghìn* km mỗ
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Người thứ nhất *mở đèn.* Người thứ hai vừa thấy th
-OK Leda 07: Kết quả: Galileo *không phân biệt được* có độ trễ 
-OK Leda 08: Dễ hiểu thôi: ánh sáng chạy hết quãng đó chỉ trong
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Muốn thấy độ trễ, phải cho ánh sáng đi *xa hơn rất
-OK Leda 10: Ở đó người ta theo dõi *Io*, một mặt trăng của *sa
-OK Leda 11: Mỗi vòng, Io *chui vào bóng* sao Mộc rồi *ló ra.* 
-OK Leda 12: Rømer thấy điều lạ. Trái Đất *đi xa* sao Mộc, Io l
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Mỗi vòng chỉ lệch *chút xíu*, không thấy được. Như
+OK Leda 32: Ngày nay, tốc độ ánh sáng là *299 792 458* mét mỗi
+OK Leda 33: Từ *1983*, người ta lấy luôn tốc độ ấy làm chuẩn: 
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Ông hiểu ra: Io *vẫn quay đều.* Chỉ là ánh sáng ph
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 15: Giống thư gửi *đều mỗi ngày*: đường dài ra thì thư
-OK Leda 16: Ngày *9/11/1676*, Io ló ra *muộn 10 phút* so với b
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 17: Từ đó ông ước tính ánh sáng cần khoảng *22 phút* đ
-   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 18: Không phải ai cũng tin. Giám đốc đài *Cassini* phả
-OK Leda 19: Năm *1729*, *James Bradley* dùng cách đo *hoàn toà
-   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Giờ chỉ còn *một phép chia*: tốc độ = *quãng đường
-OK Leda 21: Quãng đường: khoảng *300 triệu km.* Thời gian: *22
-OK Leda 22: *300 triệu* ÷ *1 320* ≈ *227 nghìn* ki-lô-mét mỗi 
-OK Leda 23: Hơi thấp, vì ánh sáng thực ra chỉ mất *gần 17 phút
-   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 36s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 38s…
-   [gemini] mọi khóa đang hết lượt, đợi 9s…
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 30s…
-   [gemini] mọi khóa đang hết lượt, đợi 13s…
-OK Leda 24: Mỗi giây, ánh sáng chạy *quanh Trái Đất* *7 vòng r
-OK Leda 25: Năm *1849*, nhà vật lý Pháp *Hippolyte Fizeau* đo 
-OK Leda 26: Hai kính thiên văn cách nhau *hơn 8,6 km*, ở *Sure
-OK Leda 27: Giữa đường ánh sáng là *bánh xe 720 răng cưa.* Ánh
+OK Leda 34: Từ *2 chiếc đèn lồng*, *một mặt trăng* và *một bán

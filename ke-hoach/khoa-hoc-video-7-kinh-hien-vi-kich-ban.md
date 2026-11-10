@@ -1,4 +1,4 @@
-# Video khoa học số 6: Làm sao đếm được thứ mắt không thấy? (Leeuwenhoek, hạt cát và lập phương của chiều dài)
+# Video khoa học số 7: Làm sao đếm được thứ mắt không thấy? (Leeuwenhoek, hạt cát và lập phương của chiều dài)
 
 Kênh "Người Giải Mã", dọc 9:16, chỉ bản tiếng Việt, giọng Leda, người que đội mũ. Mạch "người xưa đo bằng cách nào?", chọn ý số 9 trong danh sách (đo cái nhỏ hơn mắt), chủ đề đời thường, không thiên văn. Trọn gói, không có "tập sau".
 Nhãn độ chắc nằm ở ghi chú, không nằm trong lời kể. [SỬ] = đã đọc nguyên văn nguồn gốc; [CG] = nguồn thứ cấp đã đối chiếu; [TÍNH] = tự tính; [MH] = hình minh họa.

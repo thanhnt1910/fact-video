@@ -5,6 +5,12 @@
   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg/1920px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "credit": "\"Leonardo da Vinci - Mona Lisa (Louvre).jpg\" – Leonardo da Vinci, Public domain (https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa_(Louvre).jpg)"
  },
+ "ml2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Salon_Carr%C3%A9_Ceiling.jpg/1920px-Salon_Carr%C3%A9_Ceiling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Salon Carré Ceiling.jpg\" – Sumit Surai, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Salon_Carr%C3%A9_Ceiling.jpg)"
+ },
  "ml3": {
   "slot": "S3",
   "so": 3,

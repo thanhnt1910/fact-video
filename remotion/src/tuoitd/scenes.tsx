@@ -116,7 +116,7 @@ const P2: Panel = ({f}) => (
     <Head a="Mỗi viên đá giữ" b="một chiếc đồng hồ" />
     <Rock x={650} y={960} s={1.35} />
     <Clock x={650} y={950} r={120} spin={f * 0.03} o={sp(f, 6, 22)} />
-    <Tag x={650} y={1170} color={C.amber} size={46} o={sp(f, 26, 42)}>chạy bằng nguyên tử</Tag>
+    <Tag x={650} y={1215} color={C.amber} size={46} o={sp(f, 26, 42)}>chạy bằng nguyên tử</Tag>
     <HatHero x={170} y={1250} s={2} walk={f * 0.12} hat="helmet" />
   </g>
 );
@@ -124,7 +124,7 @@ const P3: Panel = ({f}) => (
   <g>
     <Head a="Chiếc đồng hồ ấy" b="chạy thế nào?" />
     <Clock x={540} y={850} r={230} spin={f * 0.02} o={sp(f, 4, 20)} />
-    <Big x={540} y={1170} size={150} color={C.amber} o={0.9 * sp(f, 20, 36)}>?</Big>
+    <Big x={540} y={1240} size={140} color={C.amber} o={0.9 * sp(f, 20, 36)}>?</Big>
   </g>
 );
 
@@ -213,7 +213,7 @@ const P12: Panel = ({f}) => (
     <Head a="Chính nguyên tố ấy" b="là chiếc đồng hồ trong đá" />
     <Rock x={650} y={960} s={1.35} />
     <Clock x={650} y={950} r={120} spin={f * 0.03} />
-    {[[560, 1050], [650, 1070], [740, 1040]].map(([x, y], i) => (
+    {[[440, 990], [880, 1000], [870, 900]].map(([x, y], i) => (
       <Atom key={i} x={x} y={y} r={22} o={sp(f, 8 + i * 6, 20 + i * 6)} />
     ))}
     <HatHero x={170} y={1250} s={2} walk={f * 0.12} hat="gear" />
@@ -379,9 +379,9 @@ const P29: Panel = ({f}) => (
 const P30: Panel = ({f}) => (
   <g>
     <Head a="Tuổi Trái Đất đọc từ" b="đồng hồ nguyên tử trong đá" />
-    <Rock x={380} y={950} s={0.85} />
-    <Clock x={380} y={940} r={80} spin={f * 0.03} />
-    <Meteor x={800} y={940} s={1.3} o={sp(f, 8, 22)} />
+    <Rock x={380} y={800} s={0.85} />
+    <Clock x={380} y={790} r={80} spin={f * 0.03} />
+    <Meteor x={800} y={800} s={1.3} o={sp(f, 8, 22)} />
     <HatHero x={560} y={1250} s={2} walk={f * 0.25} cheer={sp(f, 20, 44)} hat="helmet" />
   </g>
 );

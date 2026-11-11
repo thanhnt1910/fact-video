@@ -5,7 +5,7 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#20','xk13t':'#21','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26'}.get(KEY,'#00')
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#20','xk13t':'#21','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#22','xk20t':'#23'}.get(KEY,'#00')
 CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
      3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      4:(57000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
@@ -30,6 +30,7 @@ CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner
      'xk10t':(111000,'Wikimedia Commons (CC BY-SA, công cộng)','Sumit Surai, An undesired fidelity (CC BY-SA) · La Domenica del Corriere, Roger-Violett'),
      'xk14t':(114000,'Wikimedia Commons (công cộng)','NASA Earth Observatory, U.S. Army'),
      'xk13t':(113000,'Wikimedia Commons (CC BY 2.0, CC BY-SA, công cộng)','J.-M. Moullec, Ngô Sĩ Liên'),
+     'xk19t':(120000,'=Nguồn: Oxford, Đại học Hamburg, World History Encyclopedia',''),
      'xk12':(102000,'Wikimedia Commons (CC0, CC BY, CC BY-SA, công cộng)','lumoplank, J.-P. Dalbéra, Cartacaro.fr, D. G. Jarvis, Newone, J. Láscar')}
 base,cr1,cr2=CFG[N]
 s=open('trang_vn7b.html',encoding='utf-8').read()
@@ -40,7 +41,7 @@ foot=foot.replace('window.render=function(t){let shx=0,shy=0;','window.render=fu
 head=head.replace('60000',str(base)).replace('dims_vn7.js',f'dims_{TAG}.js').replace('#07',LABEL).replace('assets/vn7/',f'assets/{TAG}/')
 # Facebook che góc: chữ HUD xuống dưới nút quay lại (y>=190), bỏ chữ NGƯỜI GÁC SỬ ở góc dưới trái
 head=head.replace("T(HUD,52,82,","T(HUD,52,210,").replace("T(HUD,52,128,","T(HUD,52,256,").replace("T(HUD,52,156,","T(HUD,52,284,").replace("T(HUD,52,1862,'NGƯỜI GÁC SỬ',26,'#f1e9d2',7,'start');",'')
-head=head.replace('Ảnh: Wikimedia Commons (CC BY / phạm vi công cộng)','Ảnh: '+cr1)
+head=head.replace('Ảnh: Wikimedia Commons (CC BY / phạm vi công cộng)',cr1[1:] if cr1.startswith('=') else 'Ảnh: '+cr1)
 head=head.replace('katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell',cr2)
 brick="const brick=(g,w,col)=>{const k=el(g,'g',{});el(k,'rect',{x:-w/2,y:-28,width:w,height:56,rx:6,fill:col,stroke:'#1b140c','stroke-width':5});for(let i=1;i<7;i++)el(k,'line',{x1:-w/2+i*w/7,y1:i%2?-28:0,x2:-w/2+i*w/7,y2:i%2?0:28,stroke:'#1b140c','stroke-width':3});el(k,'line',{x1:-w/2,y1:0,x2:w/2,y2:0,stroke:'#1b140c','stroke-width':3});return k};\n"
 helpers=open('_moi_cc.js',encoding='utf-8').read()

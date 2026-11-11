@@ -19,6 +19,8 @@ import {Kinhhienvi} from './kinhhienvi/Kinhhienvi';
 import {Sao} from './sao/Sao';
 import {Quaclac} from './quaclac/Quaclac';
 import {Nuicao} from './nuicao/Nuicao';
+import {Tuoitd} from './tuoitd/Tuoitd';
+import {timeline as timelineTd} from './tuoitd/content';
 import {timeline as timelineNc} from './nuicao/content';
 import {timeline as timelineQl} from './quaclac/content';
 import {Nhietke} from './nhietke/Nhietke';
@@ -50,6 +52,7 @@ export const Root: React.FC = () => {
       <Composition id="Sao" component={Sao} durationInFrames={timelineSao().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Quaclac" component={Quaclac} durationInFrames={timelineQl().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Nuicao" component={Nuicao} durationInFrames={timelineNc().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Tuoitd" component={Tuoitd} durationInFrames={timelineTd().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Nhietke" component={Nhietke} durationInFrames={timelineNk().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Mattroi" component={Mattroi} durationInFrames={timelineMt().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Amthanh" component={Amthanh} durationInFrames={timelineAm().total} fps={FPS} width={1080} height={1920} />

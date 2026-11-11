@@ -1,30 +1,36 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Một chiếc vương miện trông như vàng ròng, nhưng ng
-OK Leda 02: Theo giai thoại, nhà vua giao việc này cho Ác-si-m
-OK Leda 03: Vậy vì sao nước tràn ra khỏi bồn lại cho biết vàng
-OK Leda 04: Chiếc vương miện nặng đúng bằng số vàng nhà vua đư
+OK Leda 01: Đưa một ngón tay ra trước mặt, nhắm mắt này rồi đổ
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 02: Làm sao một cái nhảy nhỏ như vậy lại cho biết ngôi
+OK Leda 03: Nhưng sao ở xa hơn ngón tay rất nhiều, nên nó chỉ 
+OK Leda 04: Vì sao ngón tay nhảy? Vì hai mắt đứng ở hai chỗ kh
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Vì nếu người thợ lấy bớt vàng, rồi thêm bạc cho đủ
-OK Leda 06: Nhưng bạc nhẹ hơn vàng, nên cùng một cân nặng, bạc
+OK Leda 05: Nên vật càng gần thì nhảy càng nhiều, vật càng xa 
+OK Leda 06: Vậy muốn thấy một ngôi sao nhảy, ta phải nhìn từ h
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 07: Trái Đất đi quanh Mặt Trời, nên sáu tháng sau ta đ
+OK Leda 08: Khi ấy hai chỗ đứng cách nhau khoảng ba trăm triệu
+OK Leda 09: Năm một nghìn tám trăm ba mươi tám, nhà thiên văn 
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 07: Vậy chỉ cần đo xem vương miện chiếm bao nhiêu chỗ,
-OK Leda 08: Chỗ mà một vật chiếm gọi là thể tích. Nhúng vật và
-OK Leda 09: Theo giai thoại, ông làm hai khối cùng cân với vươ
+OK Leda 10: Ông chọn một ngôi sao mờ trong chòm Thiên Nga, vì 
+OK Leda 11: Ông nghĩ sao trôi nhanh thì có thể ở gần, và gần t
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Vương miện làm tràn nhiều nước hơn khối vàng cùng 
-OK Leda 11: Mỗi chất có một khối lượng riêng, là số gam của mộ
-OK Leda 12: Từ đó có công thức: thể tích bằng khối lượng chia 
-OK Leda 13: Lấy một vương miện nặng một nghìn gam làm ví dụ. N
-OK Leda 14: Giả sử người thợ thay ba phần mười số vàng bằng bạ
+OK Leda 12: Từ đó ông đo được cái nhảy chỉ khoảng không phẩy b
+OK Leda 13: Còn một giây góc là một phần ba nghìn sáu trăm của
+OK Leda 14: Ví dụ, một đồng xu rộng hai phẩy năm xăng-ti-mét, 
+OK Leda 15: Rồi có một công thức rất gọn: khoảng cách tính bằn
+OK Leda 16: Cứ một pác-xếch dài khoảng ba phẩy hai sáu năm ánh
+OK Leda 17: Còn một năm ánh sáng là quãng đường ánh sáng đi tr
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 15: Phép tính ra khoảng sáu mươi lăm xăng-ti-mét khối,
-OK Leda 16: Mười ba xăng-ti-mét khối là mười ba mi-li-lít nước
-OK Leda 17: Chênh lệch nhỏ như vậy rất khó đo bằng mắt. Năm mộ
-OK Leda 18: Ông nghĩ ra cách cân vật ngay trong nước: vật nhún
+OK Leda 18: Với ngôi sao của Bét-xen: một chia cho không phẩy 
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Vương miện lớn hơn vàng ròng cùng cân mười ba xăng
-OK Leda 20: Ngày nay thợ kim hoàn cũng cân món đồ trong không 
-OK Leda 21: Cùng ý ấy giải thích vì sao tàu bằng sắt vẫn nổi: 
-OK Leda 22: Chuyện bồn tắm được một kiến trúc sư La Mã chép lạ
+OK Leda 19: Rồi nhân với ba phẩy hai sáu, ra khoảng mười phẩy 
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 20: Nghĩa là ánh sáng của ngôi sao ấy phải đi hơn mười
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 21: Số đo ngày nay là khoảng mười một phẩy bốn năm ánh
+OK Leda 22: Vậy Bét-xen chỉ lệch chừng một năm ánh sáng, với d
+OK Leda 23: Ngôi sao gần Mặt Trời nhất cũng nhảy rất ít, khoản
+OK Leda 24: Nó xa bốn phẩy hai bốn năm ánh sáng.
+OK Leda 25: Vậy là từ một cái nhảy nhỏ như ngón tay trước mắt,

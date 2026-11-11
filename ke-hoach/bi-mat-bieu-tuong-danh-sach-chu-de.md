@@ -42,6 +42,15 @@ Năm hướng và đánh giá của Claude (xếp theo độ an toàn về ngu�
 Thứ tự làm: xen kẽ nhóm 1, 2, 3; nhóm 4 chỉ Lệ Chi Viên; nhóm 5 làm sau cùng.
 Chủ đề đã gợi ý nhưng chủ kênh chưa duyệt: Cleopatra, Lệ Chi Viên và Nguyễn Trãi, Hội nghị Diên Hồng, Phan Bội Châu Đông Du, 10 ngày biến mất năm 1582. Đã bỏ khỏi gợi ý: bàn phím QWERTY, xe đi bên phải (không phải lịch sử có nhân vật), múi giờ Việt Nam, Gia Định báo.
 
+## Ghi nhận ngày 11/11/2026 19:26: thêm hướng mới, cho phép thử "What if"
+Chủ kênh nêu thêm 5 hướng: top-list, What if, nguồn gốc vạn vật và thành ngữ, vũ khí và công nghệ cổ, nhân vật vô danh. Đánh giá khả thi của Claude (cao đến thấp): vũ khí và công nghệ cổ, nhân vật vô danh, top-list (chỉ tiêu chí khách quan có nguồn), nguồn gốc (tránh giải thích gốc từ dân gian), What if.
+Chủ kênh nói What if trái quy tắc "chỉ chuyện có thật, có nguồn" nhưng nếu có thể giúp nhiều view thì đáng thử. Đây là thử nghiệm có chủ ý, KHÔNG phải sửa quy tắc cho cả kênh. Điều kiện Claude đề xuất (chủ kênh chưa duyệt từng điều):
+- Nhãn "GIẢ ĐỊNH" hiện trên hình và nói ngay ở câu đầu; không kể kịch bản giả định như sự thật.
+- Phần nền (điều đã xảy ra) vẫn phải có nguồn; chỉ phần "nếu" mới là giả định, ưu tiên giả định mà sử gia có tên đã nêu.
+- Không bịa lời thoại hay nội tâm; không đùa anh hùng dân tộc; không chọn đề tài có sử liệu yếu (ví dụ cái chết của Quang Trung).
+- Làm 2–3 video thử, ghi số liệu 24 giờ, so với mốc hiện tại (620–1.417 và 5.051 lượt xem Facebook); không hơn thì bỏ.
+- Dán nhãn riêng, không trộn vào số thứ tự "Bí mật biểu tượng".
+
 ## Cần làm lại (chủ kênh yêu cầu 11/11/2026)
 - Con mắt trên tờ một đô la (dola1): kịch bản mới dola2s đã viết (11/11/2026), chờ duyệt; sau khi duyệt phải đọc giọng và dựng lại video.
 

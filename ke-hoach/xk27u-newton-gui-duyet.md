@@ -6,7 +6,7 @@ Chưa đọc giọng, chưa dựng. Chờ chủ kênh duyệt. Bản 5 thay bả
 
 1. Bạn có biết, Isaac Newton, người tìm ra lực hấp dẫn, từng đưa thợ làm tiền giả lên giá treo cổ?
 2. Chuyện có thật, và nó bắt đầu từ một chức quan được hứa là chỗ ngồi chơi. Nhưng trước hết, hãy xem Newton là ai.
-3. Ông sinh ra ở một làng nhỏ nước Anh, khi cha đã mất. Vậy mà năm 27 tuổi, ông đã là giáo sư toán học của Cambridge.
+3. Newton sinh ra ở một làng nhỏ nước Anh. Năm 27 tuổi, ông đã là giáo sư toán học của Cambridge.
 4. Bằng lăng kính, ông chứng minh ánh sáng trắng là hỗn hợp nhiều màu. Ông còn chế kính thiên văn dùng gương, và phát triển phép tính vi phân, tích phân.
 5. Đỉnh cao là cuốn Principia, nêu ba định luật chuyển động và lực hấp dẫn.
 6. Lần đầu tiên, người ta thấy Mặt Trăng và hòn đá rơi xuống đất cùng nghe theo một quy luật.
@@ -53,7 +53,7 @@ Mọi chỗ nối thêm chỉ dùng điều đã có hai nguồn ở mục "Ngu�
 | Đoạn mới | Bản 4 (trước) | Bản 5 (sau) | Vì sao |
 |---|---|---|---|
 | 2 | "…kẻ bị ông săn còn dám tố cáo ngược lại ông. Nhưng trước hết, phải biết Newton là ai." | "…nó bắt đầu từ một chức quan được hứa là chỗ ngồi chơi. Nhưng trước hết, hãy xem Newton là ai." | Không nhắc trước điều chưa kể |
-| 3 | "Newton sinh ra… Năm 27 tuổi, ông đã là…" | "Ông sinh ra… Vậy mà năm 27 tuổi, ông đã là…" | Thêm đối lập nối hai ý |
+| 3 | "Newton sinh ra ở một làng nhỏ nước Anh, khi cha ông đã qua đời. Năm 27 tuổi, ông đã là…" | "Newton sinh ra ở một làng nhỏ nước Anh. Năm 27 tuổi, ông đã là…" | Bỏ chi tiết cha mất (không liên quan mạch kể) và bỏ "Vậy mà" (ngụ ý xuất thân khó khăn mà nguồn không nói) |
 | 4 | "Ông dùng lăng kính… chế kính thiên văn… và tự phát triển…" | "Bằng lăng kính, ông chứng minh… Ông còn chế kính thiên văn…" | Đổi chữ mở (tránh hai đoạn liền cùng "Ông"), tách hai ý |
 | 5 | "Rồi cuốn Principia (kèm năm 1687) nêu…" | "Đỉnh cao là cuốn Principia, nêu ba định luật chuyển động và lực hấp dẫn." | Giọng đọc đọc sai năm 1687 thành 1696 ở ba lượt; bỏ năm khỏi lời đọc (cảnh vẫn hiện số 1687 trên màn hình) |
 | 7 | "Từ đó ông là nhà khoa học hàng đầu…" | "Cũng từ đó, ông được xem là nhà khoa học hàng đầu…" | Nối kết quả |

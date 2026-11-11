@@ -15,7 +15,7 @@ CFG = {
  '7': dict(img='xk7/lb12.jpg', pos='62% 60%', num='#15', stamp='1902', tag='HÀ NỘI · SÔNG HỒNG', l1='CẦU LONG BIÊN', l2='EIFFEL CÓ KÝ TÊN?', chu_the='cầu Long Biên', hook=dict(cx=610, cy=590, r=190, q='?')),
  '8': dict(img='xk8/ha7.jpg', pos='50% 50%', num='#13', stamp='1719', tag='CHÙA CẦU · HỘI AN', l1='CẦU MÀ GỌI LÀ', l2='CHÙA CẦU?', chu_the='chùa Cầu Hội An', hook=dict(cx=540, cy=560, r=170, q='?')),
  '9': dict(img='xk9/ef1.jpg', pos='50% 35%', num='#16', stamp='1889', tag='PARIS · THÁP EIFFEL', l1='THÁP EIFFEL', l2='CHỈ ĐỨNG 20 NĂM?', chu_the='tháp Eiffel', hook=dict(cx=540, cy=470, r=180, q='?')),
- '10': dict(img='xk10/tc2.jpg', pos='50% 40%', num='#17', stamp='210 TCN', tag='TÂY AN · TRUNG QUỐC', l1='QUÂN ĐẤT NUNG', l2='BỊ VỨT RA ĐỒNG?', chu_the='tượng lính đất nung', hook=dict(cx=540, cy=560, r=200, q='?')),
+ '10': dict(img='xk10/tc2.jpg', pos='50% 40%', num='#17', stamp='210 TCN', tag='TÂY AN · TRUNG QUỐC', l1='ĐẦU TƯỢNG ĐẤT NUNG', l2='BỊ VỨT NGOÀI ĐỒNG?', chu_the='tượng lính đất nung', hook=dict(cx=540, cy=560, r=200, q='?')),
  '11': dict(img='xk11/cc1.jpg', pos='35% 50%', num='#18', stamp='1812', tag='HÀ NỘI · THÀNH CỔ', l1='CỘT CỜ HÀ NỘI', l2='CỜ BỊ GIÓ XÉ?', chu_the='cột cờ Hà Nội', hook=dict(cx=300, cy=440, r=170, q='?')),
  '12': dict(img='xk12/mc1.jpg', pos='45% 50%', num='#19', stamp='1954', tag='HÀ NỘI · CHÙA MỘT CỘT', l1='CHÙA MỘT CỘT', l2='TỪNG BỊ NỔ TUNG?', chu_the='chùa Một Cột', hook=dict(cx=540, cy=560, r=190, q='?')),
 }[K]

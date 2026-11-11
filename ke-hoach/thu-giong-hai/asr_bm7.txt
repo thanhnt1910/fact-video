@@ -1,3 +1,2 @@
 medium
-xk25t
-# lan4
+xk25tc

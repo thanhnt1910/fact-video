@@ -5,7 +5,7 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19'}.get(KEY,'#00')
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19'}.get(KEY,'#00')
 CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
      3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      4:(57000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
@@ -23,6 +23,10 @@ CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner
      'xk9':(99000,'Wikimedia Commons (CC BY, CC BY-SA, công cộng)','L. Kaliyappan, A.-L. Lepère, La Presse, USMC Archives, Library of Congress'),
      'xk10':(100000,'Wikimedia Commons (CC BY, CC BY-SA, công cộng)','xiquinhosilva, I. Giel, shankar s., Zossolino, YikyuenG'),
      'xk11':(101000,'Wikimedia Commons (CC BY, công cộng)','R. Mortel, P. Dieulefils, D. Stanley, dronepicr, B. Walton, C. Hicks'),
+     'xk9r':(103000,'Wikimedia Commons (CC BY, CC BY-SA, công cộng)','L. Kaliyappan, A.-L. Lepère, La Presse, USMC Archives, Library of Congress'),
+     'xk10r':(104000,'Wikimedia Commons (CC BY, CC BY-SA, công cộng)','xiquinhosilva, I. Giel, shankar s., Zossolino, YikyuenG'),
+     'xk11r':(105000,'Wikimedia Commons (CC BY, công cộng)','R. Mortel, P. Dieulefils, D. Stanley, dronepicr, B. Walton, C. Hicks'),
+     'xk12r':(106000,'Wikimedia Commons (CC0, CC BY, CC BY-SA, công cộng)','lumoplank, J.-P. Dalbéra, Cartacaro.fr, D. G. Jarvis, Newone, J. Láscar'),
      'xk12':(102000,'Wikimedia Commons (CC0, CC BY, CC BY-SA, công cộng)','lumoplank, J.-P. Dalbéra, Cartacaro.fr, D. G. Jarvis, Newone, J. Láscar')}
 base,cr1,cr2=CFG[N]
 s=open('trang_vn7b.html',encoding='utf-8').read()

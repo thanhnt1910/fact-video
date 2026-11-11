@@ -31,14 +31,6 @@ Số = nhãn "#NN" in trên video. Chủ kênh không đăng 4 video cũ (Tháp 
 
 Ngoài danh sách (không đánh số, đã bỏ): con mắt trên tờ một đô la (dola1, dola2s), D-Day, Anh – Zanzibar, 36 phố phường, Napoleon không lùn, kim tự tháp (xem mục "Chủ kênh đã bỏ ngày 11/11/2026").
 
-## Đang chờ chủ kênh duyệt kịch bản (chủ kênh chọn 11/11/2026 sau khi chốt hướng chủ đề gần gũi; chưa đọc giọng, chưa dựng)
-Hướng mới: ưu tiên chủ đề gắn với thứ người xem thấy hoặc mang theo hằng ngày, có điểm lật lại thật; thử 4–5 video rồi so số xem 24 giờ với mốc 620–1.417 (hook thường) và 5.051 (Nam Việt).
-- Họ Nguyễn (xk21t, 14 đoạn)
-- Tên đệm Văn và Thị (xk22t, 14 đoạn)
-- Sài Gòn đổi tên, đề nghị từ 1946 (xk23t, 14 đoạn)
-- Quốc kỳ và Quốc ca (xk24t, 16 đoạn)
-Gutenberg (#19, xk20t) đẩy xuống cuối hàng. Bản gửi duyệt: `ke-hoach/bi-mat-bieu-tuong-4-kich-ban-gui-duyet.md`.
-
 ## Cần làm lại (chủ kênh yêu cầu 11/11/2026)
 - Con mắt trên tờ một đô la (dola1): kịch bản mới dola2s đã viết (11/11/2026), chờ duyệt; sau khi duyệt phải đọc giọng và dựng lại video.
 
@@ -48,6 +40,7 @@ Bình Ngô đại cáo; Nỏ thần Cổ Loa; Nam quốc sơn hà; Cột cờ H�
 ## Chủ kênh đã bỏ ngày 11/11/2026 (KHÔNG làm lại, không đề xuất lại)
 Không đăng (bỏ cả video và bản viết lại): tháp Eiffel (xk9, xk9s), Đội quân đất nung (xk10l), Cột cờ Hà Nội (xk11l), chùa Một Cột (xk12, xk12s).
 Chiến tranh Anh – Zanzibar 1896 (xk15t); 36 phố phường Hà Nội (xk16t); Napoleon thực ra không lùn (xk17t); con mắt trên tờ một đô la, bản viết lại (dola2s); D-Day hoãn một ngày vì dự báo thời tiết (xk14t, khó hiểu với người chưa biết bối cảnh); kim tự tháp, ai xây (xk18t, hook hỏi mà kịch bản không trả lời được).
+Họ Nguyễn (xk21t), tên đệm Văn và Thị (xk22t), Sài Gòn đổi tên (xk23t), quốc kỳ và quốc ca (xk24t): chủ kênh bỏ 11/11/2026 19:05 vì nguồn chủ yếu là báo chí, một số chỗ chỉ một nguồn, và rủi ro (quốc kỳ, quốc ca, tên thành phố). Kịch bản còn trong repo, không đọc giọng, không dựng, không làm lại. Bài học: ưu tiên chủ đề có nguồn gốc độc lập (văn bản pháp lý, bảo tàng, UNESCO, sử liệu có số quyển) và ít nhạy cảm chính trị; chủ đề gần gũi vẫn ưu tiên.
 Khi chủ kênh bảo "đề xuất kịch bản" thì CHỈ đưa tên chủ đề, chờ chọn rồi mới tra nguồn và viết.
 
 ## Ghi chú

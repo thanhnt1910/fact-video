@@ -28,5 +28,41 @@
   "so": 10,
   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hano%C3%AF_-_Rue_des_Cantonnais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
   "credit": "\"Hanoï - Rue des Cantonnais.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hano%C3%AF_-_Rue_des_Cantonnais.jpg)"
+ },
+ "pha": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2024-11-03_Hanoi%27s_Old_Quarter_2.jpg/1920px-2024-11-03_Hanoi%27s_Old_Quarter_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"2024-11-03 Hanoi's Old Quarter 2.jpg\" – Alexkom000, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:2024-11-03_Hanoi%27s_Old_Quarter_2.jpg)"
+ },
+ "phb": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Old_Quarter%2C_Hanoi%2C_Vietnam_%285246300582%29.jpg/1920px-Old_Quarter%2C_Hanoi%2C_Vietnam_%285246300582%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Old Quarter, Hanoi, Vietnam (5246300582).jpg\" – yeowatzup, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Old_Quarter,_Hanoi,_Vietnam_(5246300582).jpg)"
+ },
+ "phc": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_-_NKS.jpg/1920px-Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Phố cổ Hà Nội - NKS.jpg\" – NKSTTSSHNVN, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_-_NKS.jpg)"
+ },
+ "phd": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/M%E1%BB%99t_ng%C3%B4i_%C4%91%E1%BB%81n_tr%C3%AAn_ph%E1%BB%91_H%C3%A0_N%E1%BB%99i_c%C3%B3_b%E1%BB%A9c_ho%C3%A0nh_-_Th%C6%B0%E1%BB%A3ng_d%E1%BA%B3ng_t%E1%BB%AB_%28%C4%90%E1%BB%81n_th%E1%BB%9D_b%E1%BA%ADc_Th%C6%B0%E1%BB%A3ng_%C4%90%E1%BA%B3ng%29_-_B%C3%B9i_Quang_Tu%E1%BA%A5n_%2819_August_2020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Một ngôi đền trên phố Hà Nội có bức hoành - Thượng dẳng từ (Đền thờ bậc Thượng Đẳng) - Bùi Quang Tuấn (19 August 2020).jpg\" – Uncredited authorship, published before 1945., Public domain (https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ng%C3%B4i_%C4%91%E1%BB%81n_tr%C3%AAn_ph%E1%BB%91_H%C3%A0_N%E1%BB%99i_c%C3%B3_b%E1%BB%A9c_ho%C3%A0nh_-_Th%C6%B0%E1%BB%A3ng_d%E1%BA%B3ng_t%E1%BB%AB_(%C4%90%E1%BB%81n_th%E1%BB%9D_b%E1%BA%ADc_Th%C6%B0%E1%BB%A3ng_%C4%90%E1%BA%B3ng)_-_B%C3%B9i_Quang_Tu%E1%BA%A5n_(19_August_2020).jpg)"
+ },
+ "phe": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%C4%90i%C3%AAu_kh%E1%BA%AFc_h%E1%BB%95_tr%C3%AAn_ng%C3%B4i_%C4%91%C3%ACnh_%E1%BB%9F_Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_n%C4%83m_2017_%287%29.jpg/1920px-%C4%90i%C3%AAu_kh%E1%BA%AFc_h%E1%BB%95_tr%C3%AAn_ng%C3%B4i_%C4%91%C3%ACnh_%E1%BB%9F_Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_n%C4%83m_2017_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Điêu khắc hổ trên ngôi đình ở Phố cổ Hà Nội năm 2017 (7).jpg\" – Phương Huy, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:%C4%90i%C3%AAu_kh%E1%BA%AFc_h%E1%BB%95_tr%C3%AAn_ng%C3%B4i_%C4%91%C3%ACnh_%E1%BB%9F_Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_n%C4%83m_2017_(7).jpg)"
+ },
+ "phf": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%C4%90i%C3%AAu_kh%E1%BA%AFc_h%E1%BB%95_tr%C3%AAn_ng%C3%B4i_%C4%91%C3%ACnh_%E1%BB%9F_Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_n%C4%83m_2017_%288%29.jpg/1920px-%C4%90i%C3%AAu_kh%E1%BA%AFc_h%E1%BB%95_tr%C3%AAn_ng%C3%B4i_%C4%91%C3%ACnh_%E1%BB%9F_Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_n%C4%83m_2017_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Điêu khắc hổ trên ngôi đình ở Phố cổ Hà Nội năm 2017 (8).jpg\" – Phương Huy, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:%C4%90i%C3%AAu_kh%E1%BA%AFc_h%E1%BB%95_tr%C3%AAn_ng%C3%B4i_%C4%91%C3%ACnh_%E1%BB%9F_Ph%E1%BB%91_c%E1%BB%95_H%C3%A0_N%E1%BB%99i_n%C4%83m_2017_(8).jpg)"
  }
 }

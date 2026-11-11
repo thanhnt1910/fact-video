@@ -138,7 +138,7 @@ Nền giấy sổ hộ tịch ngả vàng, kẻ ô theo cột Họ, Đệm, Tên
 - Tiêu đề: "Nam Văn nữ Thị": chữ Thị từng dùng để gọi cả một ông vua?
 - Hashtag: #NguoiGacSu #BiMatBieuTuong #TenDemVan #TenDemThi #TenNguoiViet #LichSuViet #NhaMac
 
-## Sài Gòn đổi tên: lời đề nghị chờ gần ba mươi năm (`xk23t`, 14 đoạn, 344 chữ, khoảng 1.7 phút)
+## Sài Gòn đổi tên: lời đề nghị chờ gần ba mươi năm (`xk23t`, 14 đoạn, 345 chữ, khoảng 1.7 phút)
 
 ### Toàn văn lời kể
 
@@ -155,7 +155,7 @@ Nền giấy sổ hộ tịch ngả vàng, kẻ ô theo cột Họ, Đệm, Tên
 11. Ngày 2 tháng 7 năm 1976, Quốc hội thông qua nghị quyết đổi tên thành phố.
 12. Nghị quyết nêu lý do là tình cảm sâu nặng của nhân dân cả nước với Chủ tịch Hồ Chí Minh, và thành tích cách mạng của thành phố.
 13. Như vậy, từ một lời đề nghị trong phòng họp ở Hà Nội đến nghị quyết của Quốc hội, cái tên ấy đã đi qua gần ba mươi năm.
-14. Nếu bạn là một trong 57 người đã tán thành hôm ấy, bạn có tin mình sẽ chờ được đến ngày đó không?
+14. Nếu bạn là một trong 57 người đã ký kiến nghị hôm ấy, bạn có tin mình sẽ chờ được đến ngày đó không?
 
 ### 3 phương án hook
 

@@ -1,0 +1,553 @@
+[
+ [
+  {
+   "text": "Làm sao đo *thời*",
+   "start": 0.54,
+   "end": 1.281
+  },
+  {
+   "text": "*gian* cho chuẩn,",
+   "start": 1.281,
+   "end": 1.837
+  },
+  {
+   "text": "khi đồng hồ lò",
+   "start": 1.837,
+   "end": 2.917
+  },
+  {
+   "text": "xo thời xưa",
+   "start": 2.917,
+   "end": 3.473
+  },
+  {
+   "text": "chạy lệch tới *15*",
+   "start": 3.473,
+   "end": 4.684
+  },
+  {
+   "text": "*phút* mỗi ngày?",
+   "start": 4.684,
+   "end": 5.36
+  }
+ ],
+ [
+  {
+   "text": "Nhưng chỉ cần",
+   "start": 0.4,
+   "end": 0.994
+  },
+  {
+   "text": "*một* *sợi* *dây* và",
+   "start": 0.994,
+   "end": 1.786
+  },
+  {
+   "text": "*một* *quả* *nặng*,",
+   "start": 1.786,
+   "end": 2.38
+  },
+  {
+   "text": "độ lệch ấy đã",
+   "start": 2.38,
+   "end": 3.522
+  },
+  {
+   "text": "giảm đi *60* *lần*.",
+   "start": 3.522,
+   "end": 4.83
+  }
+ ],
+ [
+  {
+   "text": "Hóa ra bí mật",
+   "start": 0.43,
+   "end": 1.312
+  },
+  {
+   "text": "nằm ở một điều",
+   "start": 1.312,
+   "end": 2.194
+  },
+  {
+   "text": "rất đơn giản:",
+   "start": 2.194,
+   "end": 3.266
+  },
+  {
+   "text": "*quả* *lắc* đung đưa",
+   "start": 3.266,
+   "end": 4.148
+  },
+  {
+   "text": "*đều* *như* *nhịp* *tim*.",
+   "start": 4.148,
+   "end": 5.15
+  }
+ ],
+ [
+  {
+   "text": "Vậy vì sao",
+   "start": 0.41,
+   "end": 1.047
+  },
+  {
+   "text": "quả lắc lại",
+   "start": 1.047,
+   "end": 1.683
+  },
+  {
+   "text": "*đều* đến thế?",
+   "start": 1.683,
+   "end": 2.44
+  }
+ ],
+ [
+  {
+   "text": "Nhà khoa học Ga-li-lê",
+   "start": 0.44,
+   "end": 1.258
+  },
+  {
+   "text": "thấy rằng hai con",
+   "start": 1.258,
+   "end": 2.376
+  },
+  {
+   "text": "lắc *dài* *bằng* *nhau*",
+   "start": 2.376,
+   "end": 3.195
+  },
+  {
+   "text": "thì mỗi lần",
+   "start": 3.195,
+   "end": 4.068
+  },
+  {
+   "text": "đung đưa mất *thời*",
+   "start": 4.068,
+   "end": 4.996
+  },
+  {
+   "text": "*gian* *như* *nhau*.",
+   "start": 4.996,
+   "end": 5.73
+  }
+ ],
+ [
+  {
+   "text": "Nghĩa là thời gian",
+   "start": 0.47,
+   "end": 1.289
+  },
+  {
+   "text": "ấy chỉ phụ thuộc",
+   "start": 1.289,
+   "end": 2.108
+  },
+  {
+   "text": "vào *độ* *dài* *dây*,",
+   "start": 2.108,
+   "end": 2.926
+  },
+  {
+   "text": "không phụ",
+   "start": 2.926,
+   "end": 3.646
+  },
+  {
+   "text": "thuộc *quả* *nặng*.",
+   "start": 3.646,
+   "end": 4.38
+  }
+ ],
+ [
+  {
+   "text": "*Ví* *dụ*,",
+   "start": 0.49,
+   "end": 0.899
+  },
+  {
+   "text": "trên xích đu,",
+   "start": 0.899,
+   "end": 1.651
+  },
+  {
+   "text": "em bé hay người",
+   "start": 1.651,
+   "end": 2.879
+  },
+  {
+   "text": "lớn đều mất *gần*",
+   "start": 2.879,
+   "end": 3.786
+  },
+  {
+   "text": "*như* *cùng* *thời* *gian*",
+   "start": 3.786,
+   "end": 4.603
+  },
+  {
+   "text": "cho mỗi lượt đưa.",
+   "start": 4.603,
+   "end": 5.64
+  }
+ ],
+ [
+  {
+   "text": "Vậy muốn",
+   "start": 0.38,
+   "end": 0.8
+  },
+  {
+   "text": "đo thời gian,",
+   "start": 0.8,
+   "end": 1.43
+  },
+  {
+   "text": "ta chỉ cần *đếm*",
+   "start": 1.43,
+   "end": 2.5
+  },
+  {
+   "text": "*số* *lần* đung đưa.",
+   "start": 2.5,
+   "end": 3.46
+  }
+ ],
+ [
+  {
+   "text": "Năm *1657*,",
+   "start": 0.46,
+   "end": 2.393
+  },
+  {
+   "text": "Hây-ghen được cấp",
+   "start": 2.393,
+   "end": 3.013
+  },
+  {
+   "text": "bằng sáng chế",
+   "start": 3.013,
+   "end": 3.633
+  },
+  {
+   "text": "cho *đồng* *hồ* *quả*",
+   "start": 3.633,
+   "end": 4.46
+  },
+  {
+   "text": "*lắc* đầu tiên.",
+   "start": 4.46,
+   "end": 5.42
+  }
+ ],
+ [
+  {
+   "text": "Ông đã làm",
+   "start": 0.43,
+   "end": 1.046
+  },
+  {
+   "text": "xong mẫu từ *cuối*",
+   "start": 1.046,
+   "end": 1.867
+  },
+  {
+   "text": "*năm* *trước* *đó*,",
+   "start": 1.867,
+   "end": 2.763
+  },
+  {
+   "text": "để quả lắc",
+   "start": 2.763,
+   "end": 3.378
+  },
+  {
+   "text": "*điều* *khiển* *nhịp*",
+   "start": 3.378,
+   "end": 3.994
+  },
+  {
+   "text": "*chạy* của kim.",
+   "start": 3.994,
+   "end": 4.73
+  }
+ ],
+ [
+  {
+   "text": "Nhờ vậy độ lệch",
+   "start": 0.46,
+   "end": 1.46
+  },
+  {
+   "text": "giảm từ khoảng *15*",
+   "start": 1.46,
+   "end": 2.78
+  },
+  {
+   "text": "*phút* xuống còn khoảng",
+   "start": 2.78,
+   "end": 3.76
+  },
+  {
+   "text": "*15* *giây* mỗi ngày.",
+   "start": 3.76,
+   "end": 5.2
+  }
+ ],
+ [
+  {
+   "text": "Ta tính thử:",
+   "start": 0.25,
+   "end": 0.749
+  },
+  {
+   "text": "*15* *×* *60*",
+   "start": 0.749,
+   "end": 2.635
+  },
+  {
+   "text": "= *900* giây.",
+   "start": 2.635,
+   "end": 4.2
+  }
+ ],
+ [
+  {
+   "text": "Rồi *900* *÷* *15*",
+   "start": 0.33,
+   "end": 2.567
+  },
+  {
+   "text": "= *60* lần.",
+   "start": 2.567,
+   "end": 3.92
+  }
+ ],
+ [
+  {
+   "text": "Vậy đồng hồ quả",
+   "start": 0.34,
+   "end": 1.155
+  },
+  {
+   "text": "lắc chính xác hơn",
+   "start": 1.155,
+   "end": 1.971
+  },
+  {
+   "text": "khoảng *60* *lần*.",
+   "start": 1.971,
+   "end": 3.11
+  }
+ ],
+ [
+  {
+   "text": "Công thức thật của",
+   "start": 0.36,
+   "end": 1.368
+  },
+  {
+   "text": "quả lắc là:",
+   "start": 1.368,
+   "end": 2.454
+  },
+  {
+   "text": "*thời* *gian* *một*",
+   "start": 2.454,
+   "end": 3.42
+  },
+  {
+   "text": "*lượt* = *2*",
+   "start": 3.42,
+   "end": 4.276
+  },
+  {
+   "text": "*×* *π* *×* *√(độ*",
+   "start": 4.276,
+   "end": 5.284
+  },
+  {
+   "text": "*dài* *÷* *g)*.",
+   "start": 5.284,
+   "end": 6.16
+  }
+ ],
+ [
+  {
+   "text": "Ở đây",
+   "start": 0.4,
+   "end": 0.77
+  },
+  {
+   "text": "*π* khoảng *3,14*,",
+   "start": 0.77,
+   "end": 2.538
+  },
+  {
+   "text": "còn *g* là",
+   "start": 2.538,
+   "end": 3.492
+  },
+  {
+   "text": "số đo *lực* *hút*",
+   "start": 3.492,
+   "end": 4.232
+  },
+  {
+   "text": "của Trái Đất,",
+   "start": 4.232,
+   "end": 5.106
+  },
+  {
+   "text": "khoảng *9,8*.",
+   "start": 5.106,
+   "end": 6.15
+  }
+ ],
+ [
+  {
+   "text": "Thử với sợi dây",
+   "start": 0.35,
+   "end": 1.321
+  },
+  {
+   "text": "dài *1* *mét*.",
+   "start": 1.321,
+   "end": 2.17
+  }
+ ],
+ [
+  {
+   "text": "*1* *÷*",
+   "start": 0.38,
+   "end": 0.906
+  },
+  {
+   "text": "*9,8* ≈ *0,1*.",
+   "start": 0.906,
+   "end": 3.11
+  }
+ ],
+ [
+  {
+   "text": "Lấy căn bậc",
+   "start": 0.51,
+   "end": 1.032
+  },
+  {
+   "text": "hai của *0,1*,",
+   "start": 1.032,
+   "end": 2.167
+  },
+  {
+   "text": "được khoảng *0,32*.",
+   "start": 2.167,
+   "end": 3.97
+  }
+ ],
+ [
+  {
+   "text": "Rồi nhân với *2π*,",
+   "start": 0.3,
+   "end": 1.447
+  },
+  {
+   "text": "tức khoảng *6,28*,",
+   "start": 1.447,
+   "end": 3.962
+  },
+  {
+   "text": "ra khoảng *2* *giây*.",
+   "start": 3.962,
+   "end": 5.0
+  }
+ ],
+ [
+  {
+   "text": "Vì thế quả lắc",
+   "start": 0.38,
+   "end": 1.119
+  },
+  {
+   "text": "dài *gần* *1* *mét*",
+   "start": 1.119,
+   "end": 1.857
+  },
+  {
+   "text": "cho nhịp tích tắc",
+   "start": 1.857,
+   "end": 2.946
+  },
+  {
+   "text": "đúng *1* *giây*.",
+   "start": 2.946,
+   "end": 3.62
+  }
+ ],
+ [
+  {
+   "text": "Vậy muốn đo thời",
+   "start": 0.25,
+   "end": 1.145
+  },
+  {
+   "text": "gian thật đều,",
+   "start": 1.145,
+   "end": 1.817
+  },
+  {
+   "text": "hãy dựa vào",
+   "start": 1.817,
+   "end": 2.818
+  },
+  {
+   "text": "*một* *thứ* *lặp*",
+   "start": 2.818,
+   "end": 3.49
+  },
+  {
+   "text": "*lại* *đều* *đặn*,",
+   "start": 3.49,
+   "end": 4.161
+  },
+  {
+   "text": "như quả",
+   "start": 4.161,
+   "end": 4.989
+  },
+  {
+   "text": "lắc đung đưa.",
+   "start": 4.989,
+   "end": 5.78
+  }
+ ],
+ [
+  {
+   "text": "Nhờ nó,",
+   "start": 0.38,
+   "end": 0.773
+  },
+  {
+   "text": "mỗi ngày đồng hồ",
+   "start": 0.773,
+   "end": 1.809
+  },
+  {
+   "text": "chỉ còn lệch",
+   "start": 1.809,
+   "end": 2.398
+  },
+  {
+   "text": "khoảng *15* *giây* thay",
+   "start": 2.398,
+   "end": 3.847
+  },
+  {
+   "text": "vì *15* *phút*.",
+   "start": 3.847,
+   "end": 4.95
+  }
+ ]
+]

@@ -16,6 +16,16 @@ import {Daybien} from './daybien/Daybien';
 import {Vuongmien} from './vuongmien/Vuongmien';
 import {timeline as timelineVm} from './vuongmien/content';
 import {Kinhhienvi} from './kinhhienvi/Kinhhienvi';
+import {Sao} from './sao/Sao';
+import {Quaclac} from './quaclac/Quaclac';
+import {timeline as timelineQl} from './quaclac/content';
+import {Nhietke} from './nhietke/Nhietke';
+import {timeline as timelineNk} from './nhietke/content';
+import {Mattroi} from './mattroi/Mattroi';
+import {timeline as timelineMt} from './mattroi/content';
+import {Amthanh} from './amthanh/Amthanh';
+import {timeline as timelineAm} from './amthanh/content';
+import {timeline as timelineSao} from './sao/content';
 import {timeline as timelineKh} from './kinhhienvi/content';
 import {timeline as timelineDb} from './daybien/content';
 import {timeline as timelineKd} from './kinhdo/content';
@@ -35,6 +45,11 @@ export const Root: React.FC = () => {
       <Composition id="Anhsang" component={Anhsang} durationInFrames={timelineAs().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Vuongmien" component={Vuongmien} durationInFrames={timelineVm().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Kinhhienvi" component={Kinhhienvi} durationInFrames={timelineKh().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Sao" component={Sao} durationInFrames={timelineSao().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Quaclac" component={Quaclac} durationInFrames={timelineQl().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Nhietke" component={Nhietke} durationInFrames={timelineNk().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Mattroi" component={Mattroi} durationInFrames={timelineMt().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Amthanh" component={Amthanh} durationInFrames={timelineAm().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Daybien" component={Daybien} durationInFrames={timelineDb().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Kinhdo" component={Kinhdo} durationInFrames={timelineKd().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Cavendish" component={Cavendish} durationInFrames={timelineCav().total} fps={FPS} width={1080} height={1920} />

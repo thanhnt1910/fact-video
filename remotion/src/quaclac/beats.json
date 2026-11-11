@@ -1,0 +1,96 @@
+{
+ "beats": [
+  {
+   "say": "Làm sao đo thời gian cho chuẩn, khi đồng hồ lò xo thời xưa chạy lệch tới mười lăm phút mỗi ngày?",
+   "text": "Làm sao đo *thời gian* cho chuẩn, khi đồng hồ lò xo thời xưa chạy lệch tới *15 phút* mỗi ngày?"
+  },
+  {
+   "say": "Nhưng chỉ cần một sợi dây và một quả nặng, độ lệch ấy đã giảm đi sáu mươi lần.",
+   "text": "Nhưng chỉ cần *một sợi dây* và *một quả nặng*, độ lệch ấy đã giảm đi *60 lần*."
+  },
+  {
+   "say": "Hóa ra bí mật nằm ở một điều rất đơn giản: quả lắc đung đưa đều như nhịp tim.",
+   "text": "Hóa ra bí mật nằm ở một điều rất đơn giản: *quả lắc* đung đưa *đều như nhịp tim*."
+  },
+  {
+   "say": "Vậy vì sao quả lắc lại đều đến thế?",
+   "text": "Vậy vì sao quả lắc lại *đều* đến thế?"
+  },
+  {
+   "say": "Nhà khoa học Ga-li-lê thấy rằng hai con lắc dài bằng nhau thì mỗi lần đung đưa mất thời gian như nhau.",
+   "text": "Nhà khoa học Ga-li-lê thấy rằng hai con lắc *dài bằng nhau* thì mỗi lần đung đưa mất *thời gian như nhau*."
+  },
+  {
+   "say": "Nghĩa là thời gian ấy chỉ phụ thuộc vào độ dài dây, không phụ thuộc quả nặng.",
+   "text": "Nghĩa là thời gian ấy chỉ phụ thuộc vào *độ dài dây*, không phụ thuộc *quả nặng*."
+  },
+  {
+   "say": "Ví dụ, trên xích đu, em bé hay người lớn đều mất gần như cùng thời gian cho mỗi lượt đưa.",
+   "text": "*Ví dụ*, trên xích đu, em bé hay người lớn đều mất *gần như cùng thời gian* cho mỗi lượt đưa."
+  },
+  {
+   "say": "Vậy muốn đo thời gian, ta chỉ cần đếm số lần đung đưa.",
+   "text": "Vậy muốn đo thời gian, ta chỉ cần *đếm số lần* đung đưa."
+  },
+  {
+   "say": "Năm một nghìn sáu trăm năm mươi bảy, Hây-ghen được cấp bằng sáng chế cho đồng hồ quả lắc đầu tiên.",
+   "text": "Năm *1657*, Hây-ghen được cấp bằng sáng chế cho *đồng hồ quả lắc* đầu tiên."
+  },
+  {
+   "say": "Ông đã làm xong mẫu từ cuối năm trước đó, và để quả lắc điều khiển nhịp chạy của kim.",
+   "text": "Ông đã làm xong mẫu từ *cuối năm trước đó*, để quả lắc *điều khiển nhịp chạy* của kim."
+  },
+  {
+   "say": "Nhờ vậy độ lệch giảm từ khoảng mười lăm phút xuống còn khoảng mười lăm giây mỗi ngày.",
+   "text": "Nhờ vậy độ lệch giảm từ khoảng *15 phút* xuống còn khoảng *15 giây* mỗi ngày."
+  },
+  {
+   "say": "Ta tính thử: mười lăm phút nhân sáu mươi, bằng chín trăm giây.",
+   "text": "Ta tính thử: *15 × 60* = *900* giây."
+  },
+  {
+   "say": "Rồi chín trăm giây chia mười lăm giây, được sáu mươi lần.",
+   "text": "Rồi *900 ÷ 15* = *60* lần."
+  },
+  {
+   "say": "Vậy đồng hồ quả lắc chính xác hơn khoảng sáu mươi lần.",
+   "text": "Vậy đồng hồ quả lắc chính xác hơn khoảng *60 lần*."
+  },
+  {
+   "say": "Công thức thật của quả lắc là: thời gian một lượt bằng hai nhân pi nhân căn của độ dài chia gờ.",
+   "text": "Công thức thật của quả lắc là: *thời gian một lượt* = *2 × π × √(độ dài ÷ g)*."
+  },
+  {
+   "say": "Ở đây pi khoảng ba phẩy mười bốn, còn gờ là số đo lực hút của Trái Đất, khoảng chín phẩy tám.",
+   "text": "Ở đây *π* khoảng *3,14*, còn *g* là số đo *lực hút* của Trái Đất, khoảng *9,8*."
+  },
+  {
+   "say": "Thử với một sợi dây dài một mét.",
+   "text": "Thử với sợi dây dài *1 mét*."
+  },
+  {
+   "say": "Một chia chín phẩy tám, được khoảng không phẩy một.",
+   "text": "*1 ÷ 9,8* ≈ *0,1*."
+  },
+  {
+   "say": "Lấy căn bậc hai của không phẩy một, được khoảng không phẩy ba hai.",
+   "text": "Lấy căn bậc hai của *0,1*, được khoảng *0,32*."
+  },
+  {
+   "say": "Rồi nhân với hai pi, tức khoảng sáu phẩy hai tám, ra khoảng hai giây.",
+   "text": "Rồi nhân với *2π*, tức khoảng *6,28*, ra khoảng *2 giây*."
+  },
+  {
+   "say": "Vì thế quả lắc dài gần một mét cho nhịp tích tắc đúng một giây.",
+   "text": "Vì thế quả lắc dài *gần 1 mét* cho nhịp tích tắc đúng *1 giây*."
+  },
+  {
+   "say": "Vậy muốn đo thời gian thật đều, hãy dựa vào một thứ lặp lại đều đặn, như quả lắc đung đưa.",
+   "text": "Vậy muốn đo thời gian thật đều, hãy dựa vào *một thứ lặp lại đều đặn*, như quả lắc đung đưa."
+  },
+  {
+   "say": "Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng mười lăm giây thay vì mười lăm phút.",
+   "text": "Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng *15 giây* thay vì *15 phút*."
+  }
+ ]
+}

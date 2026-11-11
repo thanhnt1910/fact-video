@@ -1,0 +1,120 @@
+{
+ "beats": [
+  {
+   "say": "Hôm nay nóng bao nhiêu độ? Nghe thì dễ, nhưng ngày xưa hai người đo cùng một chỗ lại ra hai số khác nhau.",
+   "text": "Hôm nay *nóng bao nhiêu độ*? Nghe thì dễ, nhưng ngày xưa hai người đo cùng một chỗ lại ra *2 số khác nhau*."
+  },
+  {
+   "say": "Vì sao một cái nhiệt kế lại có thể nói sai như vậy?",
+   "text": "Vì sao một cái *nhiệt kế* lại có thể nói sai như vậy?"
+  },
+  {
+   "say": "Hóa ra nhiệt kế đã có từ lâu, nhưng mỗi người làm vạch chia theo ý riêng.",
+   "text": "Hóa ra nhiệt kế *đã có từ lâu*, nhưng mỗi người làm *vạch chia* theo ý riêng."
+  },
+  {
+   "say": "Có người chọn lúc bơ tan làm mốc, có người chọn lúc than cháy, có người chọn ngày lạnh nhất.",
+   "text": "Có người chọn lúc *bơ tan* làm mốc, có người chọn lúc *than cháy*, có người chọn *ngày lạnh nhất*."
+  },
+  {
+   "say": "Nhiệt kế chạy nhờ chất lỏng nở ra khi nóng, nên cột chất lỏng dâng cao hơn.",
+   "text": "Nhiệt kế chạy nhờ *chất lỏng nở ra* khi nóng, nên cột chất lỏng *dâng cao* hơn."
+  },
+  {
+   "say": "Giống như cột nước trong ống nhỏ: ấm lên thì dâng, lạnh đi thì tụt.",
+   "text": "*Giống như* cột nước trong ống nhỏ: ấm lên thì *dâng*, lạnh đi thì *tụt*."
+  },
+  {
+   "say": "Nhưng dâng tới đâu thì gọi là bao nhiêu độ? Không có mốc chung thì con số vô nghĩa.",
+   "text": "Nhưng dâng tới đâu thì gọi là *bao nhiêu độ*? Không có *mốc chung* thì con số vô nghĩa."
+  },
+  {
+   "say": "Vậy cần hai mốc mà ai cũng làm lại được.",
+   "text": "Vậy cần *2 mốc* mà ai cũng làm lại được."
+  },
+  {
+   "say": "Năm một nghìn bảy trăm mười bốn, Pha-ren-hai, hai mươi tám tuổi, làm được hai nhiệt kế cho cùng một số đo.",
+   "text": "Năm *1714*, Pha-ren-hai, *28 tuổi*, làm được *2 nhiệt kế* cho cùng một số đo."
+  },
+  {
+   "say": "Bí quyết là ông dùng những mốc cố định thay vì tùy ý.",
+   "text": "Bí quyết là ông dùng những *mốc cố định* thay vì tùy ý."
+  },
+  {
+   "say": "Trên thang của ông, nước đóng băng ở ba mươi hai độ và nước sôi ở hai trăm mười hai độ.",
+   "text": "Trên thang của ông, nước *đóng băng* ở *32°* và nước *sôi* ở *212°*."
+  },
+  {
+   "say": "Hai mốc ấy cách nhau hai trăm mười hai trừ ba mươi hai, bằng một trăm tám mươi độ.",
+   "text": "Hai mốc ấy cách nhau *212 − 32* = *180* độ."
+  },
+  {
+   "say": "Năm một nghìn bảy trăm bốn mươi hai, Xen-xi-út cũng chọn nước đá và nước sôi làm hai mốc.",
+   "text": "Năm *1742*, Xen-xi-út cũng chọn *nước đá* và *nước sôi* làm hai mốc."
+  },
+  {
+   "say": "Nhưng ông chia khoảng giữa hai mốc thành một trăm phần, thay vì một trăm tám mươi phần.",
+   "text": "Nhưng ông chia khoảng giữa thành *100 phần*, thay vì *180 phần*."
+  },
+  {
+   "say": "Điều lạ là thang đầu tiên của ông bị ngược: nước sôi là không độ, nước đóng băng là một trăm độ.",
+   "text": "Điều lạ là thang đầu tiên của ông bị *ngược*: nước sôi là *0°*, nước đóng băng là *100°*."
+  },
+  {
+   "say": "Về sau người ta lật lại thang ấy: nay nước đóng băng là không độ, nước sôi là một trăm độ.",
+   "text": "Về sau người ta *lật lại* thang ấy: nay nước đóng băng là *0°*, nước sôi là *100°*."
+  },
+  {
+   "say": "Nước sôi còn khác nhau tùy áp suất không khí, nên ông phải đo ở áp suất nhất định.",
+   "text": "*Nước sôi* còn khác nhau tùy *áp suất không khí*, nên ông phải đo ở áp suất *nhất định*."
+  },
+  {
+   "say": "Giờ có hai thang, làm sao đổi qua lại? Cứ so hai khoảng cách giữa hai mốc.",
+   "text": "Giờ có *2 thang*, làm sao *đổi qua lại*? Cứ so *2 khoảng cách* giữa hai mốc."
+  },
+  {
+   "say": "Một trăm tám mươi chia một trăm bằng một phẩy tám.",
+   "text": "*180 ÷ 100* = *1,8*."
+  },
+  {
+   "say": "Nên một độ xê dài bằng một phẩy tám độ ép.",
+   "text": "Nên *1 độ C* dài bằng *1,8 độ F*."
+  },
+  {
+   "say": "Một phẩy tám ấy chính là chín phần năm.",
+   "text": "*1,8* chính là *9/5*."
+  },
+  {
+   "say": "Vậy công thức đổi là: độ ép bằng độ xê nhân chín chia năm, rồi cộng ba mươi hai.",
+   "text": "Vậy công thức đổi là: *độ F* = *độ C × 9 ÷ 5 + 32*."
+  },
+  {
+   "say": "Ta cộng ba mươi hai vì thang của Pha-ren-hai bắt đầu thấp hơn: nước đá đã là ba mươi hai độ ép.",
+   "text": "Ta cộng *32* vì thang của Pha-ren-hai bắt đầu thấp hơn: nước đá đã là *32 độ F*."
+  },
+  {
+   "say": "Ví dụ, một ngày hai mươi lăm độ xê.",
+   "text": "*Ví dụ*, một ngày *25 độ C*."
+  },
+  {
+   "say": "Hai mươi lăm nhân chín bằng hai trăm hai mươi lăm.",
+   "text": "*25 × 9* = *225*."
+  },
+  {
+   "say": "Hai trăm hai mươi lăm chia năm bằng bốn mươi lăm.",
+   "text": "*225 ÷ 5* = *45*."
+  },
+  {
+   "say": "Rồi cộng ba mươi hai, được bảy mươi bảy độ ép.",
+   "text": "Rồi *45 + 32* = *77 độ F*."
+  },
+  {
+   "say": "Vậy hai người đo ra hai số khác nhau vì thiếu mốc chung.",
+   "text": "Vậy hai người đo ra *2 số khác nhau* vì thiếu *mốc chung*."
+  },
+  {
+   "say": "Có hai mốc chung thì mọi nhiệt kế nói cùng một điều.",
+   "text": "Có *2 mốc chung* thì mọi nhiệt kế nói *cùng một điều*."
+  }
+ ]
+}

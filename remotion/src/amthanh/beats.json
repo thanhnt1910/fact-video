@@ -1,0 +1,96 @@
+{
+ "beats": [
+  {
+   "say": "Chớp và sấm xảy ra cùng một lúc, vậy vì sao ta lại thấy chớp trước rồi mới nghe sấm?",
+   "text": "*Chớp* và *sấm* xảy ra cùng một lúc, vậy vì sao ta lại thấy chớp trước rồi mới nghe sấm?"
+  },
+  {
+   "say": "Nhưng điều lạ hơn là khoảng chờ ấy cho ta biết cơn giông đang cách mình bao xa.",
+   "text": "Nhưng điều lạ hơn là *khoảng chờ* ấy cho ta biết cơn giông đang *cách mình bao xa*."
+  },
+  {
+   "say": "Hóa ra ánh sáng đến mắt ta gần như tức thì, còn âm thanh đi chậm hơn nhiều.",
+   "text": "Hóa ra *ánh sáng* đến mắt ta gần như tức thì, còn *âm thanh* đi chậm hơn nhiều."
+  },
+  {
+   "say": "Vậy muốn tính được khoảng cách, trước hết ta phải biết âm thanh đi nhanh bao nhiêu.",
+   "text": "Vậy muốn tính được khoảng cách, trước hết ta phải biết âm thanh *đi nhanh bao nhiêu*."
+  },
+  {
+   "say": "Ở thế kỷ mười bảy, nhà khoa học người Pháp Ga-xen-đi đã tìm ra điều đó bằng một khẩu đại bác.",
+   "text": "Ở thế kỷ *17*, nhà khoa học người Pháp Ga-xen-đi đã tìm ra điều đó bằng một *khẩu đại bác*."
+  },
+  {
+   "say": "Vì thế ông đứng thật xa khẩu súng, rồi bấm giờ từ lúc thấy lửa lóe lên đến lúc nghe tiếng nổ.",
+   "text": "Vì thế ông đứng thật xa khẩu súng, rồi *bấm giờ* từ lúc thấy *lửa lóe lên* đến lúc nghe *tiếng nổ*."
+  },
+  {
+   "say": "Ánh sáng tới mắt gần như ngay lập tức, nên khoảng chờ ấy chính là thời gian âm thanh đi.",
+   "text": "*Ánh sáng* tới mắt gần như ngay lập tức, nên khoảng chờ ấy chính là *thời gian* âm thanh đi."
+  },
+  {
+   "say": "Giống như thấy người thợ bổ củi bên kia sông: rìu đã bổ xuống, một lúc sau mới nghe tiếng cốp.",
+   "text": "Giống như thấy người thợ *bổ củi* bên kia sông: rìu đã bổ xuống, một lúc sau mới nghe *tiếng cốp*."
+  },
+  {
+   "say": "Từ đó có công thức rất gọn: tốc độ bằng quãng đường chia cho thời gian.",
+   "text": "Từ đó có công thức rất gọn: *tốc độ* = *quãng đường ÷ thời gian*."
+  },
+  {
+   "say": "Giả sử khẩu súng cách ba ki-lô-mét, và ông đếm được chín giây.",
+   "text": "*Giả sử* khẩu súng cách *3 km*, và ông đếm được *9 giây*."
+  },
+  {
+   "say": "Ba nghìn mét chia chín giây, được khoảng ba trăm ba mươi ba mét mỗi giây.",
+   "text": "*3 000 ÷ 9* = khoảng *333* mét mỗi giây."
+  },
+  {
+   "say": "Nhưng số đo của Ga-xen-đi còn cao hơn thực tế, vì cách bấm giờ thời ấy còn thô.",
+   "text": "Nhưng số đo của Ga-xen-đi *còn cao hơn* thực tế, vì cách *bấm giờ* thời ấy còn thô."
+  },
+  {
+   "say": "Đến năm một nghìn bảy trăm ba mươi tám, Viện Hàn lâm Khoa học Pháp đo lại thật cẩn thận.",
+   "text": "Đến năm *1738*, Viện Hàn lâm Khoa học Pháp *đo lại* thật cẩn thận."
+  },
+  {
+   "say": "Kết quả là họ ra ba trăm ba mươi hai mét mỗi giây, rất gần với số đo ngày nay.",
+   "text": "Kết quả là họ ra *332* mét mỗi giây, rất gần với *số đo ngày nay*."
+  },
+  {
+   "say": "Vậy ngày nay, ở hai mươi độ C, âm thanh đi khoảng ba trăm bốn mươi ba mét mỗi giây.",
+   "text": "Vậy ngày nay, ở *20 °C*, âm thanh đi khoảng *343* mét mỗi giây."
+  },
+  {
+   "say": "Còn ở không độ C, âm thanh chậm lại, chỉ còn ba trăm ba mươi mốt mét mỗi giây.",
+   "text": "Còn ở *0 °C*, âm thanh *chậm lại*, chỉ còn *331* mét mỗi giây."
+  },
+  {
+   "say": "Giờ quay lại cơn giông: trong ba giây, âm thanh đi được bao xa?",
+   "text": "Giờ quay lại cơn giông: trong *3 giây*, âm thanh đi được *bao xa*?"
+  },
+  {
+   "say": "Ba trăm bốn mươi ba nhân ba, được gần một nghìn mét.",
+   "text": "*343 × 3* = gần *1 000* mét."
+  },
+  {
+   "say": "Số ấy gần bằng một ki-lô-mét, nên cứ ba giây chờ là cơn giông xa thêm chừng một ki-lô-mét.",
+   "text": "Số ấy *gần bằng 1 km*, nên cứ *3 giây* chờ là cơn giông xa thêm chừng *1 km*."
+  },
+  {
+   "say": "Ví dụ, bạn thấy chớp rồi đếm đến chín mới nghe sấm.",
+   "text": "*Ví dụ*, bạn thấy chớp rồi đếm đến *9* mới nghe sấm."
+  },
+  {
+   "say": "Chia chín giây cho ba, được ba ki-lô-mét: cơn giông cách bạn chừng đó.",
+   "text": "*9 ÷ 3* = *3 km*: cơn giông cách bạn chừng đó."
+  },
+  {
+   "say": "Vậy chớp và sấm cùng xảy ra, nhưng âm thanh đi chậm hơn ánh sáng nên ta nghe sấm sau.",
+   "text": "Vậy chớp và sấm cùng xảy ra, nhưng *âm thanh đi chậm hơn ánh sáng* nên ta nghe sấm sau."
+  },
+  {
+   "say": "Và chính khoảng chờ ấy cho ta biết cơn giông còn xa hay đã gần.",
+   "text": "Và chính *khoảng chờ* ấy cho ta biết cơn giông còn *xa* hay đã *gần*."
+  }
+ ]
+}

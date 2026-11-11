@@ -1,0 +1,104 @@
+{
+ "beats": [
+  {
+   "say": "Đưa một ngón tay ra trước mặt, nhắm mắt này rồi đổi sang mắt kia: ngón tay như nhảy sang bên.",
+   "text": "Đưa *1 ngón tay* ra trước mặt, nhắm mắt này rồi đổi sang mắt kia: ngón tay như *nhảy sang bên*."
+  },
+  {
+   "say": "Làm sao một cái nhảy nhỏ như vậy lại cho biết ngôi sao ở xa bao nhiêu?",
+   "text": "Làm sao một cái nhảy nhỏ như vậy lại cho biết ngôi sao ở *xa bao nhiêu*?"
+  },
+  {
+   "say": "Nhưng sao ở xa hơn ngón tay rất nhiều, nên nó chỉ nhảy một chút xíu, mắt thường không thấy.",
+   "text": "Nhưng sao ở xa hơn ngón tay rất nhiều, nên nó chỉ nhảy *một chút xíu*, mắt thường không thấy."
+  },
+  {
+   "say": "Vì sao ngón tay nhảy? Vì hai mắt đứng ở hai chỗ khác nhau, cách nhau chừng sáu xăng-ti-mét.",
+   "text": "Vì sao ngón tay nhảy? Vì hai mắt đứng ở *2 chỗ* khác nhau, cách nhau chừng *6 cm*."
+  },
+  {
+   "say": "Nên vật càng gần thì nhảy càng nhiều, vật càng xa thì nhảy càng ít.",
+   "text": "Nên vật càng *gần* thì nhảy càng nhiều, vật càng *xa* thì nhảy càng ít."
+  },
+  {
+   "say": "Vậy muốn thấy một ngôi sao nhảy, ta phải nhìn từ hai chỗ cách nhau thật xa.",
+   "text": "Vậy muốn thấy một ngôi sao nhảy, ta phải nhìn từ *2 chỗ* cách nhau thật xa."
+  },
+  {
+   "say": "Trái Đất đi quanh Mặt Trời, nên sáu tháng sau ta đã ở phía bên kia quỹ đạo.",
+   "text": "Trái Đất đi quanh Mặt Trời, nên *6 tháng* sau ta đã ở phía bên kia quỹ đạo."
+  },
+  {
+   "say": "Khi ấy hai chỗ đứng cách nhau khoảng ba trăm triệu ki-lô-mét.",
+   "text": "Khi ấy hai chỗ đứng cách nhau khoảng *300 triệu* ki-lô-mét."
+  },
+  {
+   "say": "Năm một nghìn tám trăm ba mươi tám, nhà thiên văn người Đức Bét-xen đã làm đúng như vậy.",
+   "text": "Năm *1838*, nhà thiên văn người Đức Bét-xen đã làm đúng như vậy."
+  },
+  {
+   "say": "Ông chọn một ngôi sao mờ trong chòm Thiên Nga, vì nó trôi nhanh hơn các sao khác ông từng xem.",
+   "text": "Ông chọn một ngôi sao mờ trong chòm *Thiên Nga*, vì nó trôi *nhanh hơn* các sao khác ông từng xem."
+  },
+  {
+   "say": "Ông nghĩ sao trôi nhanh thì có thể ở gần, và gần thì cái nhảy mới đủ lớn để đo.",
+   "text": "Ông nghĩ sao trôi nhanh thì có thể ở *gần*, và gần thì cái nhảy mới đủ lớn để đo."
+  },
+  {
+   "say": "Từ đó ông đo được cái nhảy chỉ khoảng không phẩy ba một bốn giây góc.",
+   "text": "Từ đó ông đo được cái nhảy chỉ khoảng *0,314* giây góc."
+  },
+  {
+   "say": "Còn một giây góc là một phần ba nghìn sáu trăm của một độ.",
+   "text": "Còn một giây góc là *1/3 600* của một độ."
+  },
+  {
+   "say": "Ví dụ, một đồng xu rộng hai phẩy năm xăng-ti-mét, muốn nhìn nhỏ như thế, phải đặt xa mười sáu ki-lô-mét.",
+   "text": "Ví dụ, một đồng xu rộng *2,5 cm*, muốn nhìn nhỏ như thế, phải đặt xa *16 km*."
+  },
+  {
+   "say": "Rồi có một công thức rất gọn: khoảng cách tính bằng pác-xếch bằng một chia cho góc nhảy tính bằng giây góc.",
+   "text": "Rồi có công thức rất gọn: *khoảng cách* (pác-xếch) = *1 ÷ góc nhảy* (giây góc)."
+  },
+  {
+   "say": "Cứ một pác-xếch dài khoảng ba phẩy hai sáu năm ánh sáng.",
+   "text": "Cứ *1 pác-xếch* dài khoảng *3,26* năm ánh sáng."
+  },
+  {
+   "say": "Còn một năm ánh sáng là quãng đường ánh sáng đi trong một năm, gần mười nghìn tỉ ki-lô-mét.",
+   "text": "Còn một năm ánh sáng là quãng đường ánh sáng đi trong *1 năm*, gần *10 nghìn tỉ* ki-lô-mét."
+  },
+  {
+   "say": "Với ngôi sao của Bét-xen: một chia cho không phẩy ba một bốn, được khoảng ba phẩy hai pác-xếch.",
+   "text": "Với ngôi sao của Bét-xen: *1 ÷ 0,314* được khoảng *3,2* pác-xếch."
+  },
+  {
+   "say": "Rồi nhân với ba phẩy hai sáu, ra khoảng mười phẩy bốn năm ánh sáng.",
+   "text": "Rồi nhân với *3,26*, ra khoảng *10,4* năm ánh sáng."
+  },
+  {
+   "say": "Nghĩa là ánh sáng của ngôi sao ấy phải đi hơn mười năm mới tới mắt ta.",
+   "text": "Nghĩa là ánh sáng của ngôi sao ấy phải đi hơn *10 năm* mới tới mắt ta."
+  },
+  {
+   "say": "Số đo ngày nay là khoảng mười một phẩy bốn năm ánh sáng.",
+   "text": "Số đo ngày nay là khoảng *11,4* năm ánh sáng."
+  },
+  {
+   "say": "Vậy Bét-xen chỉ lệch chừng một năm ánh sáng, với dụng cụ thời ấy là rất giỏi.",
+   "text": "Vậy Bét-xen chỉ lệch chừng *1 năm* ánh sáng, với dụng cụ thời ấy là rất giỏi."
+  },
+  {
+   "say": "Ngôi sao gần Mặt Trời nhất cũng nhảy rất ít, khoảng không phẩy bảy bảy giây góc.",
+   "text": "Ngôi sao gần Mặt Trời nhất cũng nhảy rất ít, khoảng *0,77* giây góc."
+  },
+  {
+   "say": "Nó xa bốn phẩy hai bốn năm ánh sáng.",
+   "text": "Nó xa *4,24* năm ánh sáng."
+  },
+  {
+   "say": "Vậy là từ một cái nhảy nhỏ như ngón tay trước mắt, ta đo được cả khoảng cách tới các vì sao.",
+   "text": "Vậy là từ một cái nhảy nhỏ như *ngón tay* trước mắt, ta đo được cả *khoảng cách* tới các vì sao."
+  }
+ ]
+}

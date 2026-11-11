@@ -1,3 +1,3 @@
 medium
-xk27tc
-# lan3
+xk27t
+# lan4

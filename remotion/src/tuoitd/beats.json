@@ -1,0 +1,128 @@
+{
+ "beats": [
+  {
+   "say": "Làm sao biết Trái Đất bao nhiêu tuổi, khi chẳng ai có mặt để đếm?",
+   "text": "Làm sao biết Trái Đất *bao nhiêu tuổi*, khi *chẳng ai có mặt* để đếm?"
+  },
+  {
+   "say": "Nhưng đáp án nằm ngay trong những viên đá dưới chân ta.",
+   "text": "Nhưng đáp án nằm ngay trong *những viên đá* dưới chân ta."
+  },
+  {
+   "say": "Hóa ra mỗi viên đá giữ một chiếc đồng hồ chạy bằng nguyên tử.",
+   "text": "Hóa ra mỗi viên đá giữ *một chiếc đồng hồ* chạy bằng *nguyên tử*."
+  },
+  {
+   "say": "Vậy chiếc đồng hồ ấy chạy thế nào?",
+   "text": "Vậy chiếc *đồng hồ* ấy chạy thế nào?"
+  },
+  {
+   "say": "Trước đó, người xưa chỉ có thể đoán tuổi Trái Đất bằng những cách rất khác.",
+   "text": "Trước đó, người xưa chỉ có thể *đoán* tuổi Trái Đất bằng những *cách rất khác*."
+  },
+  {
+   "say": "Năm một nghìn sáu trăm năm mươi, một giáo sĩ cộng số đời người từ thuở khai thiên lập địa.",
+   "text": "Năm *1650*, một giáo sĩ *cộng số đời người* từ thuở *khai thiên lập địa*."
+  },
+  {
+   "say": "Ông Át-sơ ra năm bốn nghìn lẻ bốn trước Công nguyên, nên Trái Đất mới hơn sáu nghìn năm tuổi.",
+   "text": "Ông Át-sơ ra năm *4004 trước Công nguyên*, nên Trái Đất mới *hơn 6 000 năm* tuổi."
+  },
+  {
+   "say": "Sang thế kỷ mười chín, nhà vật lý Ken-vin nghĩ Trái Đất lúc đầu là quả cầu nóng rực, rồi nguội dần.",
+   "text": "Thế kỷ *19*, nhà vật lý Ken-vin nghĩ Trái Đất lúc đầu là *quả cầu nóng rực*, rồi *nguội dần*."
+  },
+  {
+   "say": "Giống một cốc nước nóng: đo nó nguội nhanh cỡ nào, ta tính được nó đã nguội từ bao lâu.",
+   "text": "Giống *một cốc nước nóng*: đo nó *nguội nhanh cỡ nào*, tính được đã nguội *từ bao lâu*."
+  },
+  {
+   "say": "Năm một nghìn tám trăm chín mươi bảy, ông tính ra Trái Đất chỉ hai mươi đến bốn mươi triệu năm tuổi.",
+   "text": "Năm *1897*, ông tính ra Trái Đất chỉ *20 đến 40 triệu năm* tuổi."
+  },
+  {
+   "say": "Nhưng cách tính ấy bỏ sót một điều: lòng đất có thể tự sinh thêm nhiệt.",
+   "text": "Nhưng cách tính ấy bỏ sót một điều: *lòng đất* tự *sinh thêm nhiệt*."
+  },
+  {
+   "say": "Nguyên tố phóng xạ tự phân rã và tỏa nhiệt, nên Trái Đất nguội chậm hơn ông nghĩ.",
+   "text": "*Nguyên tố phóng xạ* tự *phân rã* và *tỏa nhiệt*, nên Trái Đất *nguội chậm hơn* ông nghĩ."
+  },
+  {
+   "say": "Chính những nguyên tố ấy lại là chiếc đồng hồ nằm trong đá.",
+   "text": "Chính những nguyên tố ấy lại là *chiếc đồng hồ* nằm trong đá."
+  },
+  {
+   "say": "Nguyên tử u-ra-ni-um tự biến thành chì, đều đặn đến mức ta đo được.",
+   "text": "Nguyên tử *u-ra-ni-um* tự biến thành *chì*, *đều đặn* đến mức đo được."
+  },
+  {
+   "say": "Hãy nghĩ tới túi bánh: mỗi buổi bạn ăn đúng một nửa số bánh còn lại.",
+   "text": "Hãy nghĩ tới *túi bánh*: mỗi buổi bạn ăn đúng *một nửa* số bánh còn lại."
+  },
+  {
+   "say": "U-ra-ni-um cũng vậy: sau một khoảng cố định, còn lại đúng một nửa, gọi là chu kỳ bán rã.",
+   "text": "U-ra-ni-um cũng vậy: sau *một khoảng cố định*, còn lại *đúng một nửa*, gọi là *chu kỳ bán rã*."
+  },
+  {
+   "say": "Với u-ra-ni-um hai trăm ba mươi tám, chu kỳ bán rã dài khoảng bốn phẩy năm tỉ năm.",
+   "text": "Với u-ra-ni-um *238*, chu kỳ bán rã dài khoảng *4,5 tỉ năm*."
+  },
+  {
+   "say": "Giả sử lúc đầu viên đá có một trăm nguyên tử u-ra-ni-um.",
+   "text": "Giả sử lúc đầu viên đá có *100 nguyên tử* u-ra-ni-um."
+  },
+  {
+   "say": "Sau một chu kỳ, còn lại một trăm chia hai, bằng năm mươi nguyên tử.",
+   "text": "Sau *một chu kỳ*, còn lại *100 ÷ 2* = *50 nguyên tử*."
+  },
+  {
+   "say": "Sau hai chu kỳ, còn lại năm mươi chia hai, bằng hai mươi lăm nguyên tử.",
+   "text": "Sau *hai chu kỳ*, còn lại *50 ÷ 2* = *25 nguyên tử*."
+  },
+  {
+   "say": "Vậy tuổi của đá bằng số chu kỳ đã qua, nhân với thời gian của một chu kỳ.",
+   "text": "Vậy *tuổi của đá* = *số chu kỳ đã qua* × *thời gian một chu kỳ*."
+  },
+  {
+   "say": "Nếu trong đá, u-ra-ni-um và chì nhiều bằng nhau, thì đã qua đúng một chu kỳ.",
+   "text": "Nếu trong đá *u-ra-ni-um* và *chì* nhiều bằng nhau, thì đã qua *đúng một chu kỳ*."
+  },
+  {
+   "say": "Khi đó đá có tuổi một nhân bốn phẩy năm, bằng bốn phẩy năm tỉ năm.",
+   "text": "Khi đó đá có tuổi *1 × 4,5* = *4,5 tỉ năm*."
+  },
+  {
+   "say": "Nhưng đá trên mặt đất liên tục tan chảy rồi trộn lại, nên đồng hồ của chúng hay bị làm lại.",
+   "text": "Nhưng đá trên mặt đất liên tục *tan chảy* rồi *trộn lại*, nên đồng hồ *hay bị làm lại*."
+  },
+  {
+   "say": "Còn thiên thạch, những mảnh đá rơi từ vũ trụ xuống, thì hình thành cùng thời với Trái Đất.",
+   "text": "Còn *thiên thạch*, những mảnh đá rơi từ vũ trụ, *hình thành cùng thời* với Trái Đất."
+  },
+  {
+   "say": "Năm một nghìn chín trăm năm mươi sáu, ông Pát-tơ-sơn đo chì trong thiên thạch Ca-nhần Đi-a-blô.",
+   "text": "Năm *1956*, ông Pát-tơ-sơn đo *chì* trong thiên thạch *Ca-nhần Đi-a-blô*."
+  },
+  {
+   "say": "Ông ra bốn tỉ rưỡi năm, chênh lệch chưa tới một trăm triệu năm.",
+   "text": "Ông ra *4,55 tỉ năm*, sai số *70 triệu năm*."
+  },
+  {
+   "say": "Mẫu bùn dưới đáy biển cũng nằm đúng trên đường ấy, nên Trái Đất cùng tuổi với thiên thạch.",
+   "text": "Mẫu *bùn dưới đáy biển* cũng nằm đúng trên đường ấy, nên Trái Đất *cùng tuổi* với thiên thạch."
+  },
+  {
+   "say": "Ngày nay, phép đo mới cho kết quả gần như vậy, khoảng bốn tỉ rưỡi năm.",
+   "text": "Ngày nay, phép đo mới cho kết quả gần như vậy: *4,54 tỉ năm*."
+  },
+  {
+   "say": "Bốn tỉ rưỡi chia sáu nghìn, ra hơn bảy trăm nghìn lần so với Át-sơ.",
+   "text": "*4,54 tỉ ÷ 6 000* ≈ *757 000* lần so với Át-sơ."
+  },
+  {
+   "say": "Vậy tuổi Trái Đất được đọc ra từ chiếc đồng hồ nguyên tử nằm trong đá và thiên thạch.",
+   "text": "Vậy tuổi Trái Đất đọc từ *chiếc đồng hồ nguyên tử* trong *đá* và *thiên thạch*."
+  }
+ ]
+}

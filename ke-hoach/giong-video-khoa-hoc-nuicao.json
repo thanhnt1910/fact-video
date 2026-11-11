@@ -1,0 +1,170 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Làm sao biết núi Ê-vơ-rét cao hơn tám nghìn mét, khi chưa ai lên tới đỉnh?",
+   "say": "Làm sao biết núi Ê-vơ-rét cao hơn tám nghìn mét, khi chưa ai lên tới đỉnh?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng người ta đã tính ra con số ấy từ một nơi cách đỉnh hơn một trăm bảy mươi ki-lô-mét.",
+   "say": "Nhưng người ta đã tính ra con số ấy từ một nơi cách đỉnh hơn một trăm bảy mươi ki-lô-mét."
+  },
+  {
+   "n": 3,
+   "text": "Hóa ra bí mật chỉ là một góc ngắm và một phép nhân.",
+   "say": "Hóa ra bí mật chỉ là một góc ngắm và một phép nhân."
+  },
+  {
+   "n": 4,
+   "text": "Vậy góc ngắm cho ta biết điều gì?",
+   "say": "Vậy góc ngắm cho ta biết điều gì?"
+  },
+  {
+   "n": 5,
+   "text": "Thử với một cái cây: bạn đứng cách gốc ba mươi mét, rồi ngẩng đầu nhìn lên ngọn.",
+   "say": "Thử với một cái cây: bạn đứng cách gốc ba mươi mét, rồi ngẩng đầu nhìn lên ngọn."
+  },
+  {
+   "n": 6,
+   "text": "Đường nhìn lên ngọn cây tạo với mặt đất một góc, ta gọi là góc ngắm.",
+   "say": "Đường nhìn lên ngọn cây tạo với mặt đất một góc, ta gọi là góc ngắm."
+  },
+  {
+   "n": 7,
+   "text": "Giả sử góc ngắm là bốn mươi lăm độ, tức là đường nhìn chếch lên đúng một nửa góc vuông.",
+   "say": "Giả sử góc ngắm là bốn mươi lăm độ, tức là đường nhìn chếch lên đúng một nửa góc vuông."
+  },
+  {
+   "n": 8,
+   "text": "Với góc đó, bảng toán cho một con số gọi là tang, và tang của bốn mươi lăm độ bằng một.",
+   "say": "Với góc đó, bảng toán cho một con số gọi là tang, và tang của bốn mươi lăm độ bằng một."
+  },
+  {
+   "n": 9,
+   "text": "Công thức là: chiều cao bằng khoảng cách nhân tang của góc ngắm.",
+   "say": "Công thức là: chiều cao bằng khoảng cách nhân tang của góc ngắm."
+  },
+  {
+   "n": 10,
+   "text": "Vậy cây cao ba mươi nhân một, bằng ba mươi mét.",
+   "say": "Vậy cây cao ba mươi nhân một, bằng ba mươi mét."
+  },
+  {
+   "n": 11,
+   "text": "Nhưng với ngọn núi, ta đâu thể mang thước tới đo khoảng cách từ chân núi lên đỉnh.",
+   "say": "Nhưng với ngọn núi, ta đâu thể mang thước tới đo khoảng cách từ chân núi lên đỉnh."
+  },
+  {
+   "n": 12,
+   "text": "Vì vậy người ta đo khoảng cách bằng cách ngắm cùng một vật từ hai đầu của một đoạn đã biết.",
+   "say": "Vì vậy người ta đo khoảng cách bằng cách ngắm cùng một vật từ hai đầu của một đoạn đã biết."
+  },
+  {
+   "n": 13,
+   "text": "Ví dụ, bên kia sông có một cột cờ, còn bên này bạn cắm hai cọc cách nhau một trăm mét.",
+   "say": "Ví dụ, bên kia sông có một cột cờ, còn bên này bạn cắm hai cọc cách nhau một trăm mét."
+  },
+  {
+   "n": 14,
+   "text": "Từ mỗi cọc nhìn sang cột cờ, góc đo được đều là bốn mươi lăm độ.",
+   "say": "Từ mỗi cọc nhìn sang cột cờ, góc đo được đều là bốn mươi lăm độ."
+  },
+  {
+   "n": 15,
+   "text": "Khi đó cột cờ cách đoạn nối hai cọc một trăm chia hai, bằng năm mươi mét.",
+   "say": "Khi đó cột cờ cách đoạn nối hai cọc một trăm chia hai, bằng năm mươi mét."
+  },
+  {
+   "n": 16,
+   "text": "Cứ nối từng tam giác từ bờ biển Ấn Độ lên bắc, người ta biết khoảng cách tới chân dãy núi.",
+   "say": "Cứ nối từng tam giác từ bờ biển Ấn Độ lên bắc, người ta biết khoảng cách tới chân dãy núi."
+  },
+  {
+   "n": 17,
+   "text": "Năm một nghìn tám trăm bốn mươi chín, nhóm khảo sát ngắm đỉnh núi từ sáu trạm ở đồng bằng.",
+   "say": "Năm một nghìn tám trăm bốn mươi chín, nhóm khảo sát ngắm đỉnh núi từ sáu trạm ở đồng bằng."
+  },
+  {
+   "n": 18,
+   "text": "Từ mỗi trạm, họ nhận được một kết quả riêng.",
+   "say": "Từ mỗi trạm, họ nhận được một kết quả riêng."
+  },
+  {
+   "n": 19,
+   "text": "Rồi trung bình của sáu kết quả là hơn hai mươi chín nghìn phít.",
+   "say": "Rồi trung bình của sáu kết quả là hơn hai mươi chín nghìn phít."
+  },
+  {
+   "n": 20,
+   "text": "Đến năm một nghìn tám trăm năm mươi sáu, ông Oóc, người đứng đầu cuộc khảo sát, công bố con số ấy.",
+   "say": "Đến năm một nghìn tám trăm năm mươi sáu, ông Oóc, người đứng đầu cuộc khảo sát, công bố con số ấy."
+  },
+  {
+   "n": 21,
+   "text": "Một phít dài khoảng ba mươi xăng-ti-mét, nên ta đổi sang mét để dễ hình dung.",
+   "say": "Một phít dài khoảng ba mươi xăng-ti-mét, nên ta đổi sang mét để dễ hình dung."
+  },
+  {
+   "n": 22,
+   "text": "Hai mươi chín nghìn nhân không phẩy ba không bốn tám, được khoảng tám nghìn tám trăm mét.",
+   "say": "Hai mươi chín nghìn nhân không phẩy ba không bốn tám, được khoảng tám nghìn tám trăm mét."
+  },
+  {
+   "n": 23,
+   "text": "Nhưng còn một rắc rối: Trái Đất tròn, nên đỉnh núi ở xa trông thấp hơn thật.",
+   "say": "Nhưng còn một rắc rối: Trái Đất tròn, nên đỉnh núi ở xa trông thấp hơn thật."
+  },
+  {
+   "n": 24,
+   "text": "Cụ thể, phần thấp đi bằng khoảng cách nhân khoảng cách, chia cho hai lần bán kính Trái Đất.",
+   "say": "Cụ thể, phần thấp đi bằng khoảng cách nhân khoảng cách, chia cho hai lần bán kính Trái Đất."
+  },
+  {
+   "n": 25,
+   "text": "Trong đó, hai lần bán kính Trái Đất là khoảng mười hai nghìn bảy trăm ki-lô-mét.",
+   "say": "Trong đó, hai lần bán kính Trái Đất là khoảng mười hai nghìn bảy trăm ki-lô-mét."
+  },
+  {
+   "n": 26,
+   "text": "Rồi một trăm bảy mươi bốn nhân một trăm bảy mươi bốn, bằng khoảng ba mươi nghìn.",
+   "say": "Rồi một trăm bảy mươi bốn nhân một trăm bảy mươi bốn, bằng khoảng ba mươi nghìn."
+  },
+  {
+   "n": 27,
+   "text": "Sau đó chia ba mươi nghìn cho mười hai nghìn bảy trăm, được khoảng hai phẩy bốn ki-lô-mét.",
+   "say": "Sau đó chia ba mươi nghìn cho mười hai nghìn bảy trăm, được khoảng hai phẩy bốn ki-lô-mét."
+  },
+  {
+   "n": 28,
+   "text": "Vì vậy khi tính, người ta phải cộng thêm phần ấy, và sửa cả chỗ không khí làm cong tia nhìn.",
+   "say": "Vì vậy khi tính, người ta phải cộng thêm phần ấy, và sửa cả chỗ không khí làm cong tia nhìn."
+  },
+  {
+   "n": 29,
+   "text": "Đến năm hai nghìn không trăm hai mươi, Nê-pan và Trung Quốc đo lại bằng góc ngắm cùng vệ tinh.",
+   "say": "Đến năm hai nghìn không trăm hai mươi, Nê-pan và Trung Quốc đo lại bằng góc ngắm cùng vệ tinh."
+  },
+  {
+   "n": 30,
+   "text": "Nhờ vậy họ có kết quả mới, hơn tám nghìn tám trăm mét.",
+   "say": "Nhờ vậy họ có kết quả mới, hơn tám nghìn tám trăm mét."
+  },
+  {
+   "n": 31,
+   "text": "Vậy con số của năm một nghìn tám trăm năm mươi sáu chỉ thấp hơn khoảng chín mét.",
+   "say": "Vậy con số của năm một nghìn tám trăm năm mươi sáu chỉ thấp hơn khoảng chín mét."
+  },
+  {
+   "n": 32,
+   "text": "Rồi chín chia tám nghìn tám trăm, được khoảng một phần nghìn.",
+   "say": "Rồi chín chia tám nghìn tám trăm, được khoảng một phần nghìn."
+  },
+  {
+   "n": 33,
+   "text": "Vậy một góc ngắm, một đoạn đã biết và một phép nhân đủ để đo ngọn núi chưa ai lên tới.",
+   "say": "Vậy một góc ngắm, một đoạn đã biết và một phép nhân đủ để đo ngọn núi chưa ai lên tới."
+  }
+ ]
+}

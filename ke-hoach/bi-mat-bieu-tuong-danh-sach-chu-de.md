@@ -31,6 +31,17 @@ Số = nhãn "#NN" in trên video. Chủ kênh không đăng 4 video cũ (Tháp 
 
 Ngoài danh sách (không đánh số, đã bỏ): con mắt trên tờ một đô la (dola1, dola2s), D-Day, Anh – Zanzibar, 36 phố phường, Napoleon không lùn, kim tự tháp (xem mục "Chủ kênh đã bỏ ngày 11/11/2026").
 
+## Hướng chủ đề mới do chủ kênh nêu (11/11/2026 19:11), đã đánh giá, chưa chọn đề tài cụ thể
+Chủ kênh nhắc: kênh là kênh LỊCH SỬ, chủ đề phải gắn nhân vật hoặc biến cố có tên (không làm chuyện công nghệ, mẹo đời sống kiểu QWERTY, xe đi bên phải).
+Năm hướng và đánh giá của Claude (xếp theo độ an toàn về nguồn):
+1. **Mưu kế quân sự (mind games):** nguồn chính sử rõ, giữ chân tốt. Rủi ro: tình báo và tâm lý chiến thời cổ thiếu tư liệu, dễ bịa nội tâm. Ví dụ chủ kênh nhắc: "4 lần lừa vua Tống" (chưa tìm thấy tài liệu trong dự án, đọc lại trước khi làm).
+2. **Khoảnh khắc ngạo nghễ (badass moments):** Trần Thủ Độ "Đầu thần chưa rơi xuống đất", Giang Văn Minh. Chỉ dùng lời có trong chính sử; nhạc nền Epic/Phonk phải có giấy phép; không viết kiểu hơn thua với nước khác.
+3. **Giải ngộ nhận lịch sử (debunking):** hợp số liệu hook lật lại (Nam Việt 5.051 lượt xem). Chọn đề tài có nguồn học thuật rõ; "Mông Cổ yếu thủy chiến" và "áo giáp binh lính Đại Việt" phải tra kỹ (tranh luận học thuật, thiếu hiện vật); "thái giám không giống phim" khả thi hơn.
+4. **Thâm cung bí sử và kỳ án:** rủi ro bịa cao nhất. Chỉ Lệ Chi Viên (có hồ sơ, nói rõ chỗ chưa rõ). Bỏ "cái chết của vua Quang Trung" (sử liệu Tây Sơn yếu). Thái hậu, nữ hoàng thì dùng sử gốc, tránh cảnh máu me.
+5. **Đời sống kỳ lạ của người xưa:** thấp nhất (dễ lẫn truyền thuyết đô thị, hình phạt tàn khốc đụng quy tắc không máu). Chỉ làm khi có nguồn khảo cổ hoặc sử liệu rõ.
+Thứ tự làm: xen kẽ nhóm 1, 2, 3; nhóm 4 chỉ Lệ Chi Viên; nhóm 5 làm sau cùng.
+Chủ đề đã gợi ý nhưng chủ kênh chưa duyệt: Cleopatra, Lệ Chi Viên và Nguyễn Trãi, Hội nghị Diên Hồng, Phan Bội Châu Đông Du, 10 ngày biến mất năm 1582. Đã bỏ khỏi gợi ý: bàn phím QWERTY, xe đi bên phải (không phải lịch sử có nhân vật), múi giờ Việt Nam, Gia Định báo.
+
 ## Cần làm lại (chủ kênh yêu cầu 11/11/2026)
 - Con mắt trên tờ một đô la (dola1): kịch bản mới dola2s đã viết (11/11/2026), chờ duyệt; sau khi duyệt phải đọc giọng và dựng lại video.
 

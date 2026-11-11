@@ -515,7 +515,8 @@ Mẫu: `phim_ban_do/doc9x16/canh_xk7.js` (hàm `PH`, `strip2`, `CK`, `shw`); vid
 
 ## Kịch bản "Vĩ nhân": kể đời một con người có thật (chủ kênh yêu cầu 11/11/2026, rút từ video mẫu Benjamin Franklin của kênh khác; áp dụng video kể đời người từ nay)
 Video mẫu hay vì là một hành trình từ dưới lên, giọng như bạn kể chuyện, kết quay về hook. Học KỸ THUẬT, không sao chép lời hay nhận diện. Quy tắc này dùng cho video về người; video về vật, công trình vẫn theo mục "Kịch bản Bí mật biểu tượng: xương sống là MẠCH KỂ".
-- **Chọn người:** người có đường đi đối lập (nghèo thành giàu, bị coi thường thành được nhớ, thất bại thành thành tựu) và có một vật quen thuộc để mở hook (tờ tiền, tên phố, công trình mang tên ông). Phải đủ nguồn độc lập. Vĩ nhân Việt Nam vẫn theo mục "Series lịch sử Việt Nam": nghiêm túc, trân trọng, không đùa về anh hùng dân tộc.
+- **Chỉ nhân vật thế giới (chủ kênh chốt 11/11/2026 23:06).** Nhân vật Việt Nam không thuộc hướng "Vĩ nhân"; chuyện người Việt vẫn kể theo các loạt sử Việt và mục "Series lịch sử Việt Nam".
+- **Chọn người:** người có đường đi đối lập (nghèo thành giàu, bị coi thường thành được nhớ, thất bại thành thành tựu) và có một vật quen thuộc để mở hook (tờ tiền, tên phố, công trình mang tên ông). Phải đủ nguồn độc lập.
 - **Hook (đoạn 1):** từ vật quen thuộc, nêu điều lạ về người trên đó, tối đa khoảng 20 chữ, không năm. Tên người xuất hiện trong 10 giây đầu. Ví dụ kiểu: "Người trên tờ 100 đô chưa từng làm tổng thống ngày nào."
 - **Cung kể (mỗi đoạn một ý, nối bằng nguyên nhân – kết quả):** hook → xuất thân → 3–4 mốc đi lên, mỗi mốc là một bước ngoặt (khó khăn, quyết định, hậu quả) → thành tựu lớn → kết. Trục là đường đi của con người, không phải danh sách thành tích.
 - **Chuyện nhỏ đời thường có nguồn:** chèn 1–2 chi tiết đáng yêu hoặc tinh nghịch có tài liệu (thư, hồi ký, báo thời đó) để người xem quý nhân vật. Tên tài liệu ghi trong mục nguồn, không bịa lời thoại hay nội tâm.

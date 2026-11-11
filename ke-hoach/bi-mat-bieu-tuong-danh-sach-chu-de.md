@@ -77,3 +77,7 @@ Chủ kênh muốn phần cơ chế hoạt động (không chỉ câu chuyện t
 - Lỗi của Claude cần nhớ: đã đề xuất "Nỏ thần Cổ Loa" dù chủ đề này nằm trong danh sách chủ kênh đã bỏ; đã dừng ngay và chuyển chủ đề. Trước khi đề xuất BẮT BUỘC đối chiếu mục "Chủ kênh đã bỏ".
 - Đề xuất mới cho #19: Địa chấn kế của Trương Hành (xk26t); bản gửi duyệt `ke-hoach/xk26t-dia-chan-ke-gui-duyet.md`; chờ duyệt.
 
+
+## Ghi nhận ngày 11/11/2026 23:02: hướng "Vĩ nhân" (kể đời một con người)
+- Chủ kênh muốn làm video về vĩ nhân, dựa video mẫu Benjamin Franklin của kênh khác. Quy tắc viết kịch bản nằm trong CLAUDE.md, mục "Kịch bản Vĩ nhân".
+- Gợi ý đã đưa chủ kênh: Einstein (viết theo đời người, "không trượt toán" chỉ là một cú lật giữa video), Newton, Marie Curie, Trần Thủ Độ, Trần Hưng Đạo. Chưa duyệt, chưa tra nguồn, chưa viết. Franklin chưa tra nguồn.

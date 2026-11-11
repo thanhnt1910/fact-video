@@ -138,7 +138,7 @@ Nền giấy sổ hộ tịch ngả vàng, kẻ ô theo cột Họ, Đệm, Tên
 - Tiêu đề: "Nam Văn nữ Thị": chữ Thị từng dùng để gọi cả một ông vua?
 - Hashtag: #NguoiGacSu #BiMatBieuTuong #TenDemVan #TenDemThi #TenNguoiViet #LichSuViet #NhaMac
 
-## Sài Gòn đổi tên: lời đề nghị chờ gần ba mươi năm (`xk23t`, 14 đoạn, 345 chữ, khoảng 1.7 phút)
+## Sài Gòn đổi tên: lời đề nghị chờ gần ba mươi năm (`xk23t`, 14 đoạn, 340 chữ, khoảng 1.7 phút)
 
 ### Toàn văn lời kể
 
@@ -151,7 +151,7 @@ Nền giấy sổ hộ tịch ngả vàng, kẻ ô theo cột Họ, Đệm, Tên
 7. Thành phố mới mang tên Sài Gòn – Gia Định, và nó chưa phải là cái tên Thành phố Hồ Chí Minh.
 8. Tháng 6 năm 1976, Quốc hội khóa VI khai mạc kỳ họp đầu tiên.
 9. Đoàn đại biểu Sài Gòn – Gia Định cùng kiến nghị đổi tên thành phố theo tên Chủ tịch Hồ Chí Minh.
-10. Theo lời ông Huỳnh Tấn Mẫm kể lại, kiến nghị gần như ngay lập tức nhận được sự đồng thuận của cả 492 đại biểu.
+10. Theo lời ông Huỳnh Tấn Mẫm kể lại, kiến nghị gần như ngay lập tức nhận được sự đồng thuận của các đại biểu.
 11. Ngày 2 tháng 7 năm 1976, Quốc hội thông qua nghị quyết đổi tên thành phố.
 12. Nghị quyết nêu lý do là tình cảm sâu nặng của nhân dân cả nước với Chủ tịch Hồ Chí Minh, và thành tích cách mạng của thành phố.
 13. Như vậy, từ một lời đề nghị trong phòng họp ở Hà Nội đến nghị quyết của Quốc hội, cái tên ấy đã đi qua gần ba mươi năm.
@@ -167,13 +167,13 @@ Nền giấy sổ hộ tịch ngả vàng, kẻ ô theo cột Họ, Đệm, Tên
 
 ### Nguồn đã đọc
 
-- Báo VnExpress, "Ngày Sài Gòn - Gia Định mang tên TP HCM": ngày 25/8/1946, bác sĩ Trần Hữu Nghiệp đề nghị, 57 đại biểu tán thành nhưng chưa thông qua; báo Cứu Quốc đăng tít; Quốc hội khóa VI khai mạc 24/6/1976, đoàn đại biểu 35 người kiến nghị; lời ông Huỳnh Tấn Mẫm về sự đồng thuận của 492 đại biểu; nghị quyết ngày 2/7/1976.
+- Báo VnExpress, "Ngày Sài Gòn - Gia Định mang tên TP HCM": ngày 25/8/1946, bác sĩ Trần Hữu Nghiệp đề nghị, 57 đại biểu tán thành nhưng chưa thông qua; báo Cứu Quốc đăng tít; Quốc hội khóa VI khai mạc 24/6/1976, đoàn đại biểu 35 người kiến nghị; lời ông Huỳnh Tấn Mẫm về sự đồng thuận của các đại biểu (bài nêu 492 người); nghị quyết ngày 2/7/1976.
 - Hội đồng nhân dân TP.HCM, "Vì sao Sài Gòn - Gia Định được đổi tên thành TP Hồ Chí Minh": đề nghị của bác sĩ Trần Hữu Nghiệp tháng 8/1946, báo Cứu quốc số 329 ngày 27/8/1946; sau 30/4/1975 hợp nhất Gia Định và đô thành Sài Gòn thành Sài Gòn - Gia Định; nghị quyết ngày 2/7/1976 nêu lý do tình cảm của nhân dân và thành tích cách mạng của thành phố.
 - Hội đồng nhân dân TP.HCM, "Sài Gòn được đề xuất đặt tên là TPHCM từ năm 1946": cuộc họp ở Hà Nội cuối tháng 8/1946, 57 đại biểu ký nghị quyết gửi Quốc hội và Chính phủ, báo Cứu Quốc đăng ngày 27/8/1946 với tít "Thành phố Sài Gòn từ nay sẽ đổi tên là Thành phố Hồ Chí Minh".
 
 ### Điểm lệch giữa các nguồn
 
-- Số phiếu: bài VnExpress nói rõ không nêu số phiếu chính thức; con số 492 chỉ là lời ông Huỳnh Tấn Mẫm. Lời kể ghi "Theo ông Huỳnh Tấn Mẫm" và dùng chữ "đồng thuận", không nói "biểu quyết".
+- Số phiếu: bài VnExpress nói rõ không nêu số phiếu chính thức; con số 492 chỉ là lời ông Huỳnh Tấn Mẫm và bài của Hội đồng nhân dân không nêu. Lời kể bỏ con số, ghi "Theo lời ông Huỳnh Tấn Mẫm kể lại" và dùng chữ "đồng thuận".
 - Ngày đề nghị 1946: VnExpress ghi 25/8/1946, bài Hội đồng nhân dân ghi 25/8 nhưng bản nghị quyết in kèm đề 26/8. Lời kể chỉ nói "cuối tháng 8 năm 1946" và chỉ nêu ngày 27/8 của báo Cứu Quốc, ngày cả hai nguồn nhất trí.
 - Số 57: VnExpress viết 57 đại biểu tán thành, Hội đồng nhân dân viết 57 đại biểu ký nghị quyết gửi Quốc hội và Chính phủ. Lời kể dùng cách viết của Hội đồng nhân dân.
 - Ngày khai mạc kỳ họp (24/6/1976) và số 35 đại biểu trong đoàn chỉ có ở VnExpress nên lời kể chỉ nói "tháng sáu năm 1976" và không nêu số đại biểu trong đoàn.
@@ -206,7 +206,7 @@ Nền bản đồ phác bằng mực xanh trên giấy kẻ ô, đường nét s
 - Tiêu đề: Tên Thành phố Hồ Chí Minh đã được đề nghị từ gần 30 năm trước khi chính thức
 - Hashtag: #NguoiGacSu #BiMatBieuTuong #SaiGon #ThanhPhoHoChiMinh #LichSuViet #TenThanhPho #1976
 
-## Quốc kỳ và Quốc ca: từ lời nhờ viết bài hát đến Hiến pháp (`xk24t`, 16 đoạn, 359 chữ, khoảng 1.8 phút)
+## Quốc kỳ và Quốc ca: từ lời nhờ viết bài hát đến Hiến pháp (`xk24t`, 16 đoạn, 358 chữ, khoảng 1.8 phút)
 
 ### Toàn văn lời kể
 
@@ -219,7 +219,7 @@ Nền bản đồ phác bằng mực xanh trên giấy kẻ ô, đường nét s
 7. Hai ngày sau, dàn đồng ca Thiếu niên Tiền phong hát bài này trước quảng trường Nhà hát Lớn để chào lá cờ đỏ sao vàng.
 8. Nhưng lá cờ ấy không mới. Nó xuất hiện lần đầu trong khởi nghĩa Nam Kỳ năm 1940.
 9. Ai vẽ lá cờ? Một số nhà nghiên cứu nêu tên Nguyễn Hữu Tiến, nhưng đến nay chưa có kết luận chung.
-10. Ngày 5 tháng 9 năm 1945, Chủ tịch Hồ Chí Minh ký Sắc lệnh số 5 về quốc kỳ.
+10. Ngày 5 tháng 9 năm 1945, chính phủ ban hành Sắc lệnh số 5 ấn định quốc kỳ.
 11. Theo sắc lệnh ấy, cờ hình chữ nhật, chiều ngang bằng hai phần ba chiều dài.
 12. Sang năm 1946, Hiến pháp đầu tiên của nước ta ghi rõ: cờ nền đỏ, giữa có sao vàng năm cánh.
 13. Cũng trong năm ấy, Quốc hội chính thức chọn bài hát của Văn Cao làm Quốc ca. Hiến pháp ghi điều này ở Điều 3.
@@ -239,7 +239,7 @@ Nền bản đồ phác bằng mực xanh trên giấy kẻ ô, đường nét s
 
 - Báo Nhân Dân (30/8/2022), "Nhạc sĩ Văn Cao và sự ra đời bài Tiến quân ca" (bản đăng lại ở Báo Lào Cai): lời kể năm 1976 của Văn Cao về việc Vũ Quý giao việc mùa đông 1944; căn gác số 45 Nguyễn Thượng Hiền; hát lần đầu 17/8/1945; ngày 19/8/1945 Thiếu niên Tiền phong chào cờ ở Nhà hát Lớn; Quốc hội 1946 chọn Quốc ca, Điều 3 Hiến pháp.
 - VietNamNet (6/9/2025), "Lá cờ đỏ sao vàng của Việt Nam xuất hiện lần đầu khi nào?": 1940 ở Nam Kỳ; Nguyễn Hữu Tiến theo một số nhà nghiên cứu; Sắc lệnh số 5-SL ngày 5/9/1945; Hiến pháp ngày 9/11/1946 ghi cờ nền đỏ, giữa có sao vàng năm cánh.
-- Wikipedia tiếng Anh, mục "Flag of Vietnam" (chỉ để tìm nguồn gốc và ghi nhận tranh cãi, không dùng làm nguồn dữ kiện cứng): Sắc lệnh số 5 ngày 5/9/1945; Bộ Văn hóa báo năm 2001 không có tài liệu về tác giả Nguyễn Hữu Tiến; Tuổi Trẻ ngày 23/11/2006 "Tác giả quốc kỳ: vẫn là dấu chấm hỏi".
+- Wikipedia tiếng Anh, mục "Flag of Vietnam" (chỉ để tìm nguồn gốc và ghi nhận tranh cãi, không dùng làm nguồn dữ kiện cứng): Sắc lệnh số 5 ngày 5/9/1945 ấn định quốc kỳ; Bộ Văn hóa báo năm 2001 không có tài liệu về tác giả Nguyễn Hữu Tiến; Tuổi Trẻ ngày 23/11/2006 "Tác giả quốc kỳ: vẫn là dấu chấm hỏi".
 - Wikipedia tiếng Anh, mục "Tiến quân ca" (đối chiếu): sáng tác 1944, hát ngày 17/8/1945, Quốc hội 1946 công nhận.
 
 ### Điểm lệch giữa các nguồn
@@ -254,6 +254,7 @@ Nền bản đồ phác bằng mực xanh trên giấy kẻ ô, đường nét s
 - Chuyện sửa lời ca: câu mở đầu từng nhắc quân Việt Minh, chữ "núi sông" đổi thành "nước non", sửa lời năm 1955. Chỉ một nguồn nên bỏ.
 - Cuộc thi sáng tác quốc ca mới năm 1981: chỉ một nguồn.
 - Quốc hội chọn quốc ca ngày 2/3/1946: bài Nhân Dân chỉ nêu "năm 1946", không có ngày.
+- Người ký Sắc lệnh số 5: cổng chinhphu.vn ghi người ký là Võ Nguyên Giáp, VietNamNet viết Chủ tịch Hồ Chí Minh ký. Lời kể chỉ nói "chính phủ ban hành".
 - Ngày 23/11/1940 của khởi nghĩa Nam Kỳ: chỉ Wikipedia nêu ngày; VietNamNet chỉ nêu "năm 1940", nên lời kể chỉ nói năm 1940.
 - Ý nghĩa màu đỏ và sao vàng: các nguồn trình bày khác nhau.
 - Chuyện Nguyễn Hữu Tiến bị bắt và hy sinh: chỉ một bài nêu tiểu sử.

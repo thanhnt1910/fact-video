@@ -4,18 +4,42 @@
 
 Nhóm chủ đề đã duyệt (giữ cả 7): người và một quyết định; đêm trước một sự kiện; cứu một hiện vật; con số phi lý; phát minh và nghề; văn hóa đời sống (phải gắn lịch sử, không làm món ăn, thức uống kiểu cà phê trứng); sự kiện bị hiểu nhầm.
 
-## Đã làm (không làm lại, trừ mục "Cần làm lại")
-VN: Thăng Long (tên kinh đô, vn1); chữ quốc ngữ (vn2); tên nước Việt Nam (vn3); trống đồng Ngọc Lũ (vn4); thành Cổ Loa (vn5); cọc gỗ Bạch Đằng (vn6); Hoàng thành Thăng Long, khu 18 Hoàng Diệu (vn7); bia tiến sĩ Văn Miếu (vn8); Cửu đỉnh ở Huế (xk1); súng thần cơ, Hồ Nguyên Trừng (xk4); Hội An, cầu trên tờ 20 nghìn (xk5, xk8); cầu Long Biên (xk7); chùa Một Cột (xk12, bản viết lại xk12s chờ duyệt).
-Thế giới: dấu đô la (xk2, w1); tượng Nữ thần Tự do (xk3); phiến đá Rosetta (xk6); tháp Eiffel (xk9, bản viết lại xk9s chờ duyệt).
+## Danh sách toàn bộ video theo số thứ tự (cập nhật 11/11/2026 17:20)
+Số = nhãn "#NN" in trên video. Trạng thái lấy từ ghi chú trong repo; mục nào ghi "chưa rõ" là repo không ghi video đã đăng hay chưa.
+
+| Số | Chủ đề | Mã | Trạng thái |
+|---|---|---|---|
+| #01 | Thăng Long, tên kinh đô | vn1 | đã làm |
+| #02 | Chữ quốc ngữ | vn2 | đã làm |
+| #03 | Tên nước Việt Nam | vn3 | đã làm |
+| #04 | Trống đồng Ngọc Lũ | vn4 | đã làm |
+| #05 | Thành Cổ Loa | vn5 | đã làm |
+| #06 | Cọc gỗ Bạch Đằng | vn6 | đã làm |
+| #07 | Hoàng thành Thăng Long (18 Hoàng Diệu) | vn7 | đã làm |
+| #08 | Bia tiến sĩ Văn Miếu | vn8 | đã làm |
+| #09 | Cửu đỉnh ở Huế | xk1 | đã làm |
+| #10 | Dấu đô la | xk2 | đã làm |
+| #11 | Tượng Nữ thần Tự do | xk3 | đã làm |
+| #12 | Súng thần cơ, Hồ Nguyên Trừng | xk4 | đã làm |
+| #13 | Chùa Cầu Hội An | xk5, xk8 | đã làm (hai bản) |
+| #14 | Phiến đá Rosetta | xk6 | đã làm |
+| #15 | Cầu Long Biên | xk7 | đã làm |
+| #16 | Tháp Eiffel | xk9 | đã làm; bản viết lại xk9s chờ duyệt (chưa rõ) |
+| #17 | Đội quân đất nung | xk10 | chủ kênh bỏ, video dựng sẵn, không đăng |
+| #18 | Cột cờ Hà Nội | xk11 | chủ kênh bỏ, video dựng sẵn, không đăng |
+| #19 | Chùa Một Cột | xk12 | đã làm; bản viết lại xk12s chờ duyệt (chưa rõ) |
+| #20 | Mona Lisa bị trộm 1911 | xk10t | đã giao 11/11 |
+| #21 | Hồ Quý Ly phát hành tiền giấy 1396 | xk13t | đã giao 11/11 |
+| #22 | Giấy, phát minh của Trung Quốc | xk19t | đã dựng và giao 11/11, chờ chủ kênh duyệt video |
+| #23 | Máy in của Gutenberg | xk20t | kịch bản 16 đoạn đã duyệt ("ổn rồi"), chưa đọc giọng, chưa dựng |
+
+Ngoài danh sách (không đánh số, đã bỏ): con mắt trên tờ một đô la (dola1, dola2s), D-Day, Anh – Zanzibar, 36 phố phường, Napoleon không lùn, kim tự tháp (xem mục "Chủ kênh đã bỏ ngày 11/11/2026").
 
 ## Cần làm lại (chủ kênh yêu cầu 11/11/2026)
 - Con mắt trên tờ một đô la (dola1): kịch bản mới dola2s đã viết (11/11/2026), chờ duyệt; sau khi duyệt phải đọc giọng và dựng lại video.
 
 ## Chủ kênh đã bỏ (KHÔNG đề xuất lại)
 Bình Ngô đại cáo; Nỏ thần Cổ Loa; Nam quốc sơn hà; Cột cờ Hà Nội; Đội quân đất nung; Mộc bản triều Nguyễn; Bộ luật Hồng Đức; Rối nước; Áo dài; Thành nhà Hồ; Mỹ Sơn; thanh gươm và Hồ Gươm (truyền thuyết); cà phê trứng (không phải lịch sử).
-
-## Chủ đề mới: kịch bản đã viết, CHỜ CHỦ KÊNH DUYỆT (11/11/2026)
-File gửi duyệt: `ke-hoach/viet-7-kich-ban-gui-duyet.md`. Mã: Hồ Quý Ly phát hành tiền giấy 1396 (VN, xk13t); D-Day 1944 hoãn một ngày vì dự báo thời tiết (xk14t); Mona Lisa bị trộm 1911 (xk10t); chiến tranh Anh – Zanzibar 1896 (xk15t); 36 phố phường Hà Nội (VN, xk16t); Napoleon thực ra không lùn (xk17t); con mắt trên tờ một đô la (dola2s). Chưa đọc giọng, chưa dựng.
 
 ## Chủ kênh đã bỏ ngày 11/11/2026 (KHÔNG làm lại, không đề xuất lại)
 Chiến tranh Anh – Zanzibar 1896 (xk15t); 36 phố phường Hà Nội (xk16t); Napoleon thực ra không lùn (xk17t); con mắt trên tờ một đô la, bản viết lại (dola2s); D-Day hoãn một ngày vì dự báo thời tiết (xk14t, khó hiểu với người chưa biết bối cảnh); kim tự tháp, ai xây (xk18t, hook hỏi mà kịch bản không trả lời được).

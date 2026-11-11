@@ -8,7 +8,7 @@ PH(2,'p','ml2',940,600,'PHÒNG SALON CARRÉ (ẢNH MINH HỌA)',[['TRƯỚC VỤ
 PH(3,'d','ml3',640,700,'BÁO Ý NĂM 1911: TRANH RỜI TƯỜNG',[['THỨ HAI 21/8/1911','base',40,'sáng',2.2],['LOUVRE ĐÓNG CỬA, CÓ NGƯỜI LẤY TRANH','bad',26,'khi',9.0]],'1911',{fx:.5,fy:.42,z:1.8,w:['lấy',11.0],r:190,mark:'x',m:['tường',13.0]});
 // 4: khung trống, người que soi đèn tìm
 S2(4,4,'d',null,g=>{const f=FR(g,480,600,true);const q=T(g,0,0,'?',300,'#e5483f',16,'middle',DK);const m=MAS(g);const A=strip2('MÃI ĐẾN TRƯA HÔM SAU','bad',38,41),B=strip2('KHUNG KÍNH BỊ BỎ Ở CẦU THANG','base',26,42);
- return{upd:t=>{const e=popv(t,R(4)+.1,.6);PUT(f,540,700+Math.sin(t*1.4)*5,e,1,-2+Math.sin(t*1.1));const qp=popv(t,AT(4,'không',9.0),.5);q.setAttribute('transform',`translate(540,700) rotate(-8) scale(${Math.max(.001,qp)})`);q.setAttribute('opacity',qp>0?1:0);const u=inn(t,AT(4,'một',3.2),1.6);m.at(120+u*180,1010,.8,0,popv(t,AT(4,'một',3.2),.5),t);shw(A,t,540,1130,-1,PV(t,4,'mãi',.1));shw(B,t,540,1240,1,PV(t,4,'Chiếc',9.6))}}});
+ return{upd:t=>{const e=popv(t,R(4)+.1,.6);PUT(f,540,700+Math.sin(t*1.4)*5,e,1,-2+Math.sin(t*1.1));const qp=popv(t,AT(4,'không',9.0),.5);q.setAttribute('transform',`translate(540,700) rotate(-8) scale(${Math.max(.001,qp)})`);q.setAttribute('opacity',qp>0?1:0);const u=inn(t,AT(4,'một',3.2),1.6);m.at(120+u*180,1010,.8,0,popv(t,AT(4,'một',3.2),.5),t,1,1);shw(A,t,540,1130,-1,PV(t,4,'mãi',.1));shw(B,t,540,1240,1,PV(t,4,'Chiếc',9.6))}}});
 // 5: báo Excelsior
 PH(5,'p','ml5',640,700,'BÁO EXCELSIOR, PARIS',[['BÁO CHÍ ĐĂNG TIN LỚN','ok',38,'báo',4.6],['THÔNG BÁO TRUY TÌM KHẮP NƠI','base',30,'thông',7.0]],null,{fx:.5,fy:.08,z:1.9,w:['báo',4.6],r:210,mark:'ok',m:['lớn',6.8]});
 // 6: tường trống, hàng nghìn người đến xem

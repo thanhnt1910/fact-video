@@ -42,6 +42,7 @@ Cách giải thích cho dễ hiểu:
 | 10 | Mặt Trời xa hơn Mặt Trăng bao nhiêu lần (Aristarchus) | `ke-hoach/khoa-hoc-video-10-mat-troi-mat-trang-kich-ban.md` |
 | 11 | Nhiệt kế, độ C và độ F | `ke-hoach/khoa-hoc-video-11-nhiet-ke-kich-ban.md` |
 | 12 | Đồng hồ quả lắc (Galileo, Huygens) | `ke-hoach/khoa-hoc-video-12-dong-ho-qua-lac-kich-ban.md` |
+| 13 | Núi cao bao nhiêu khi chưa ai lên tới đỉnh (Ê-vơ-rét, góc ngắm) | `ke-hoach/khoa-hoc-video-13-nui-cao-kich-ban.md` |
 
 ## Chưa làm
 

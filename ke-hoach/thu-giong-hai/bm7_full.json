@@ -1,0 +1,604 @@
+[
+ {
+  "n": 111001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, bức Mona Lisa bị trộm, và hàng nghìn người đến Louvre chỉ để ngắm chỗ trống?",
+  "hien": "Bạn có biết, bức Mona Lisa bị trộm, và hàng nghìn người đến Louvre chỉ để ngắm chỗ trống?"
+ },
+ {
+  "n": 111002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Vì trước vụ trộm ấy, Mona Lisa chưa phải bức tranh được tìm xem nhiều nhất trong bảo tàng.",
+  "hien": "Vì trước vụ trộm ấy, Mona Lisa chưa phải bức tranh được tìm xem nhiều nhất trong bảo tàng."
+ },
+ {
+  "n": 111003,
+  "chuong": "Vụ trộm",
+  "tone": "story",
+  "text": "Chuyện bắt đầu sáng thứ hai, ngày hai mươi mốt tháng tám năm một nghìn chín trăm mười một, khi Louvre đóng cửa và có người lấy bức tranh khỏi tường.",
+  "hien": "Chuyện bắt đầu sáng thứ hai, ngày 21 tháng 8 năm 1911, khi Louvre đóng cửa và có người lấy bức tranh khỏi tường."
+ },
+ {
+  "n": 111004,
+  "chuong": "Vụ trộm",
+  "tone": "story",
+  "text": "Nhưng mãi đến trưa hôm sau, một họa sĩ đến xin xem tranh, người gác mới tìm mà không thấy. Chiếc khung kính bị bỏ lại ở cầu thang phục vụ.",
+  "hien": "Nhưng mãi đến trưa hôm sau, một họa sĩ đến xin xem tranh, người gác mới tìm mà không thấy. Chiếc khung kính bị bỏ lại ở cầu thang phục vụ."
+ },
+ {
+  "n": 111005,
+  "chuong": "Vụ trộm",
+  "tone": "story",
+  "text": "Thế là chiều tối, bảo tàng mới báo tin mất tranh. Sau đó báo chí đăng tin lớn, và thông báo truy tìm xuất hiện khắp nơi.",
+  "hien": "Thế là chiều tối, bảo tàng mới báo tin mất tranh. Sau đó báo chí đăng tin lớn, và thông báo truy tìm xuất hiện khắp nơi."
+ },
+ {
+  "n": 111006,
+  "chuong": "Bức tường trống",
+  "tone": "story",
+  "text": "Một tuần sau, Louvre mở lại. Hàng nghìn người kéo đến, đứng trước khoảng tường trống nơi bức tranh từng treo.",
+  "hien": "Một tuần sau, Louvre mở lại. Hàng nghìn người kéo đến, đứng trước khoảng tường trống nơi bức tranh từng treo."
+ },
+ {
+  "n": 111007,
+  "chuong": "Kẻ trộm",
+  "tone": "story",
+  "text": "Vậy bức tranh ở đâu? Người lấy nó là Vincenzo Peruggia, một người thợ người Ý từng làm ở Louvre, và ông giấu nó hơn hai năm.",
+  "hien": "Vậy bức tranh ở đâu? Người lấy nó là Vincenzo Peruggia, một người thợ người Ý từng làm ở Louvre, và ông giấu nó hơn hai năm."
+ },
+ {
+  "n": 111008,
+  "chuong": "Kẻ trộm",
+  "tone": "story",
+  "text": "Cảnh sát có hỏi cung ông, nhưng không coi ông là nghi phạm đáng ngờ. Ông cứ thế giữ bức tranh đến cuối năm một nghìn chín trăm mười ba.",
+  "hien": "Cảnh sát có hỏi cung ông, nhưng không coi ông là nghi phạm đáng ngờ. Ông cứ thế giữ bức tranh đến cuối năm 1913."
+ },
+ {
+  "n": 111009,
+  "chuong": "Sa lưới",
+  "tone": "story",
+  "text": "Rồi lúc ấy, ông viết thư cho một người buôn tranh ở thành phố Florence, nước Ý, đề nghị đưa bức tranh về lại nước Ý, và ký tên giả là Leonard.",
+  "hien": "Rồi lúc ấy, ông viết thư cho một người buôn tranh ở thành phố Florence, nước Ý, đề nghị đưa bức tranh về lại nước Ý, và ký tên giả là Leonard."
+ },
+ {
+  "n": 111010,
+  "chuong": "Sa lưới",
+  "tone": "story",
+  "text": "Thế là người buôn tranh gặp ông trong khách sạn, nhìn tận mắt bức tranh, rồi báo cảnh sát. Peruggia bị bắt ngay tại đó.",
+  "hien": "Thế là người buôn tranh gặp ông trong khách sạn, nhìn tận mắt bức tranh, rồi báo cảnh sát. Peruggia bị bắt ngay tại đó."
+ },
+ {
+  "n": 111011,
+  "chuong": "Trở về",
+  "tone": "story",
+  "text": "Tháng một năm một nghìn chín trăm mười bốn, Mona Lisa trở lại Louvre, sau khi được trưng bày ở vài thành phố của nước Ý.",
+  "hien": "Tháng 1 năm 1914, Mona Lisa trở lại Louvre, sau khi được trưng bày ở vài thành phố của nước Ý."
+ },
+ {
+  "n": 111012,
+  "chuong": "Trở về",
+  "tone": "story",
+  "text": "Và chỉ trong hai ngày đầu, hơn một trăm nghìn người đã đến xem nó.",
+  "hien": "Và chỉ trong hai ngày đầu, hơn 100.000 người đã đến xem nó."
+ },
+ {
+  "n": 111013,
+  "chuong": "Dè dặt",
+  "tone": "story",
+  "text": "Dù vậy, các nhà sử học vẫn dè dặt khi cho rằng chỉ riêng vụ trộm đã làm nên danh tiếng của bức tranh.",
+  "hien": "Dù vậy, các nhà sử học vẫn dè dặt khi cho rằng chỉ riêng vụ trộm đã làm nên danh tiếng của bức tranh."
+ },
+ {
+  "n": 111014,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy một bức tranh nổi tiếng nhờ vẻ đẹp của nó, hay nhờ câu chuyện về lần nó biến mất?",
+  "hien": "Vậy một bức tranh nổi tiếng nhờ vẻ đẹp của nó, hay nhờ câu chuyện về lần nó biến mất?"
+ },
+ {
+  "n": 113001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, nước ta có tiền giấy từ hơn sáu trăm năm trước, và dân bị cấm dùng tiền đồng?",
+  "hien": "Bạn có biết, nước ta có tiền giấy từ hơn sáu trăm năm trước, và dân bị cấm dùng tiền đồng?"
+ },
+ {
+  "n": 113002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Nghe thì hiện đại, nhưng chính sách ấy đã thất bại. Vì sao một loại tiền tiện hơn lại không được dân đón nhận?",
+  "hien": "Nghe thì hiện đại, nhưng chính sách ấy đã thất bại. Vì sao một loại tiền tiện hơn lại không được dân đón nhận?"
+ },
+ {
+  "n": 113003,
+  "chuong": "Ra đời",
+  "tone": "story",
+  "text": "Năm một nghìn ba trăm chín mươi sáu, dưới thời vua Trần Thuận Tông, triều đình nhà Trần cho in tờ tiền giấy đầu tiên của nước ta.",
+  "hien": "Năm 1396, dưới thời vua Trần Thuận Tông, triều đình nhà Trần cho in tờ tiền giấy đầu tiên của nước ta."
+ },
+ {
+  "n": 113004,
+  "chuong": "Tờ tiền",
+  "tone": "story",
+  "text": "Tờ tiền ấy gọi là Thông bảo hội sao. Tùy mệnh giá, nó in những hình khác nhau: sóng nước, mây, rồng, rùa, lân, phượng.",
+  "hien": "Tờ tiền ấy gọi là Thông bảo hội sao. Tùy mệnh giá, nó in những hình khác nhau: sóng nước, mây, rồng, rùa, lân, phượng."
+ },
+ {
+  "n": 113005,
+  "chuong": "Lệnh cấm",
+  "tone": "story",
+  "text": "Sau đó, triều đình thu tiền đồng về, rồi đổi lấy tiền giấy. Dân không được cất giữ hay dùng tiền đồng nữa.",
+  "hien": "Sau đó, triều đình thu tiền đồng về, rồi đổi lấy tiền giấy. Dân không được cất giữ hay dùng tiền đồng nữa."
+ },
+ {
+  "n": 113006,
+  "chuong": "Lệnh cấm",
+  "tone": "story",
+  "text": "Theo nhiều tài liệu, ai vi phạm có thể bị xử tử, và tài sản bị tịch thu.",
+  "hien": "Theo nhiều tài liệu, ai vi phạm có thể bị xử tử, và tài sản bị tịch thu."
+ },
+ {
+  "n": 113007,
+  "chuong": "Thất bại",
+  "tone": "story",
+  "text": "Nhưng dân quen dùng tiền đồng, lại bị ép đổi sang tiền giấy, nên nhiều nơi quay về đổi hàng lấy hàng.",
+  "hien": "Nhưng dân quen dùng tiền đồng, lại bị ép đổi sang tiền giấy, nên nhiều nơi quay về đổi hàng lấy hàng."
+ },
+ {
+  "n": 113008,
+  "chuong": "Thất bại",
+  "tone": "story",
+  "text": "Vì vậy tiền giấy dần mất giá trị, rồi không còn được dùng nữa.",
+  "hien": "Vì vậy tiền giấy dần mất giá trị, rồi không còn được dùng nữa."
+ },
+ {
+  "n": 113009,
+  "chuong": "Lý do",
+  "tone": "story",
+  "text": "Theo một bài của báo VietnamNet, chính sách này thiếu những cải cách kinh tế và xã hội đi kèm.",
+  "hien": "Theo một bài của báo VietnamNet, chính sách này thiếu những cải cách kinh tế và xã hội đi kèm."
+ },
+ {
+  "n": 113010,
+  "chuong": "Lý do",
+  "tone": "story",
+  "text": "Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang.",
+  "hien": "Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang."
+ },
+ {
+  "n": 113011,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy một đồng tiền tốt, nhưng được áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không?",
+  "hien": "Vậy một đồng tiền tốt, nhưng được áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không?"
+ },
+ {
+  "n": 114001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, cuộc đổ bộ Normandy từng bị hoãn một ngày chỉ vì một dự báo thời tiết?",
+  "hien": "Bạn có biết, cuộc đổ bộ Normandy từng bị hoãn một ngày chỉ vì một dự báo thời tiết?"
+ },
+ {
+  "n": 114002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Vì kế hoạch đã chốt sẵn một ngày, mà thời tiết hôm đó chẳng chịu theo.",
+  "hien": "Vì kế hoạch đã chốt sẵn một ngày, mà thời tiết hôm đó chẳng chịu theo."
+ },
+ {
+  "n": 114003,
+  "chuong": "Kế hoạch",
+  "tone": "story",
+  "text": "Quân Đồng minh định đổ bộ lên bờ biển Normandy, nước Pháp, vào ngày năm tháng sáu năm một nghìn chín trăm bốn mươi bốn.",
+  "hien": "Quân Đồng minh định đổ bộ lên bờ biển Normandy, nước Pháp, vào ngày 5 tháng 6 năm 1944."
+ },
+ {
+  "n": 114004,
+  "chuong": "Kế hoạch",
+  "tone": "story",
+  "text": "Ngày giờ phải có trăng cho lính nhảy dù, và thủy triều rút thấp lúc bình minh. Nhưng những ngày đó, biển động và mưa gió kéo đến.",
+  "hien": "Ngày giờ phải có trăng cho lính nhảy dù, và thủy triều rút thấp lúc bình minh. Nhưng những ngày đó, biển động và mưa gió kéo đến."
+ },
+ {
+  "n": 114005,
+  "chuong": "Dự báo",
+  "tone": "story",
+  "text": "Người đứng đầu nhóm dự báo là đại tá không quân của nước Anh James Stagg, cùng các chuyên gia của nước Anh và nước Mỹ.",
+  "hien": "Người đứng đầu nhóm dự báo là đại tá không quân của nước Anh James Stagg, cùng các chuyên gia của nước Anh và nước Mỹ."
+ },
+ {
+  "n": 114006,
+  "chuong": "Dự báo",
+  "tone": "story",
+  "text": "Ông dự đoán rằng sẽ có một khoảng lặng ngắn giữa các cơn bão, ngay ngày hôm sau, và khuyên hoãn đúng một ngày.",
+  "hien": "Ông dự đoán rằng sẽ có một khoảng lặng ngắn giữa các cơn bão, ngay ngày hôm sau, và khuyên hoãn đúng một ngày."
+ },
+ {
+  "n": 114007,
+  "chuong": "Nghi ngờ",
+  "tone": "story",
+  "text": "Nhưng không phải ai cũng tin. Nhiều nhà khí tượng khác không đồng ý với dự báo ấy.",
+  "hien": "Nhưng không phải ai cũng tin. Nhiều nhà khí tượng khác không đồng ý với dự báo ấy."
+ },
+ {
+  "n": 114008,
+  "chuong": "Quyết định",
+  "tone": "story",
+  "text": "Thế mà tướng Dwight Eisenhower, người chỉ huy quân Đồng minh, nghe theo, vì nhiều tháng trước ông Stagg đã dự báo đáng tin.",
+  "hien": "Thế mà tướng Dwight Eisenhower, người chỉ huy quân Đồng minh, nghe theo, vì nhiều tháng trước ông Stagg đã dự báo đáng tin."
+ },
+ {
+  "n": 114009,
+  "chuong": "Quyết định",
+  "tone": "story",
+  "text": "Hơn nữa, chờ lâu hơn nghĩa là phải lùi cả hai tuần, và kế hoạch dễ bị lộ.",
+  "hien": "Hơn nữa, chờ lâu hơn nghĩa là phải lùi cả hai tuần, và kế hoạch dễ bị lộ."
+ },
+ {
+  "n": 114010,
+  "chuong": "Phía Đức",
+  "tone": "story",
+  "text": "Còn phía quân Đức cũng theo dõi thời tiết. Họ tin rằng bão sẽ kéo dài, nên nhiều nơi phòng thủ lỏng lẻo.",
+  "hien": "Còn phía quân Đức cũng theo dõi thời tiết. Họ tin rằng bão sẽ kéo dài, nên nhiều nơi phòng thủ lỏng lẻo."
+ },
+ {
+  "n": 114011,
+  "chuong": "Ngày D",
+  "tone": "story",
+  "text": "Thế là ngày sáu tháng sáu, cuộc đổ bộ bắt đầu, đúng vào khoảng thời tiết vừa đủ mà ông Stagg đã chỉ ra.",
+  "hien": "Thế là ngày 6 tháng 6, cuộc đổ bộ bắt đầu, đúng vào khoảng thời tiết vừa đủ mà ông Stagg đã chỉ ra."
+ },
+ {
+  "n": 114012,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy nếu cuộc đổ bộ cứ diễn ra đúng ngày cũ, giữa biển động, kết cục sẽ ra sao?",
+  "hien": "Vậy nếu cuộc đổ bộ cứ diễn ra đúng ngày cũ, giữa biển động, kết cục sẽ ra sao?"
+ },
+ {
+  "n": 115001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, cuộc chiến được coi là ngắn nhất lịch sử còn không dài hơn một tiết học?",
+  "hien": "Bạn có biết, cuộc chiến được coi là ngắn nhất lịch sử còn không dài hơn một tiết học?"
+ },
+ {
+  "n": 115002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Nó nổ ra ở Zanzibar, một quần đảo ngoài khơi bờ biển phía đông châu Phi, chỉ vì một chiếc ngai vàng.",
+  "hien": "Nó nổ ra ở Zanzibar, một quần đảo ngoài khơi bờ biển phía đông châu Phi, chỉ vì một chiếc ngai vàng."
+ },
+ {
+  "n": 115003,
+  "chuong": "Ngai vàng",
+  "tone": "story",
+  "text": "Tháng tám năm một nghìn tám trăm chín mươi sáu, vị quốc vương nơi đây qua đời đột ngột.",
+  "hien": "Tháng 8 năm 1896, vị quốc vương nơi đây qua đời đột ngột."
+ },
+ {
+  "n": 115004,
+  "chuong": "Ngai vàng",
+  "tone": "story",
+  "text": "Rồi một người trong hoàng tộc tự xưng quốc vương, mà không hỏi ý nước Anh.",
+  "hien": "Rồi một người trong hoàng tộc tự xưng quốc vương, mà không hỏi ý nước Anh."
+ },
+ {
+  "n": 115005,
+  "chuong": "Căng thẳng",
+  "tone": "story",
+  "text": "Ông là Khalid bin Barghash. Theo hiệp ước bảo hộ, quốc vương mới phải được nước Anh đồng ý, mà họ lại nghi ông thân với nước Đức.",
+  "hien": "Ông là Khalid bin Barghash. Theo hiệp ước bảo hộ, quốc vương mới phải được nước Anh đồng ý, mà họ lại nghi ông thân với nước Đức."
+ },
+ {
+  "n": 115006,
+  "chuong": "Căng thẳng",
+  "tone": "story",
+  "text": "Nhưng ông không chịu lui. Ông cho khoảng hai nghìn tám trăm người cố thủ trong cung điện.",
+  "hien": "Nhưng ông không chịu lui. Ông cho khoảng 2.800 người cố thủ trong cung điện."
+ },
+ {
+  "n": 115007,
+  "chuong": "Tối hậu thư",
+  "tone": "story",
+  "text": "Vì vậy nước Anh gửi tối hậu thư: phải rời ngôi trước chín giờ sáng ngày hai mươi bảy tháng tám, nếu không sẽ bị tấn công.",
+  "hien": "Vì vậy nước Anh gửi tối hậu thư: phải rời ngôi trước 9 giờ sáng ngày 27 tháng 8, nếu không sẽ bị tấn công."
+ },
+ {
+  "n": 115008,
+  "chuong": "Tối hậu thư",
+  "tone": "story",
+  "text": "Lúc tám giờ, phía ông Khalid xin thương lượng, nhưng ông vẫn không rời ngôi.",
+  "hien": "Lúc tám giờ, phía ông Khalid xin thương lượng, nhưng ông vẫn không rời ngôi."
+ },
+ {
+  "n": 115009,
+  "chuong": "Nổ súng",
+  "tone": "story",
+  "text": "Thế là chín giờ hai phút, các tàu chiến của nước Anh nổ súng vào cung điện.",
+  "hien": "Thế là 9 giờ 2 phút, các tàu chiến của nước Anh nổ súng vào cung điện."
+ },
+ {
+  "n": 115010,
+  "chuong": "Nổ súng",
+  "tone": "story",
+  "text": "Khoảng ba mươi tám phút sau thì tiếng súng ngừng, dù một số nguồn tính là bốn mươi lăm phút.",
+  "hien": "Khoảng 38 phút sau thì tiếng súng ngừng, dù một số nguồn tính là 45 phút."
+ },
+ {
+  "n": 115011,
+  "chuong": "Kết cục",
+  "tone": "story",
+  "text": "Ước tính khoảng năm trăm người phía Zanzibar chết hoặc bị thương, còn phía quân Anh chỉ có một người bị thương.",
+  "hien": "Ước tính khoảng 500 người phía Zanzibar chết hoặc bị thương, còn phía quân Anh chỉ có một người bị thương."
+ },
+ {
+  "n": 115012,
+  "chuong": "Kết cục",
+  "tone": "story",
+  "text": "Còn ông Khalid chạy sang lãnh sự quán Đức xin ẩn náu.",
+  "hien": "Còn ông Khalid chạy sang lãnh sự quán Đức xin ẩn náu."
+ },
+ {
+  "n": 115013,
+  "chuong": "Kết cục",
+  "tone": "story",
+  "text": "Ngay chiều hôm đó, nước Anh đưa ông Hamoud bin Mohammed, người họ ưa, lên làm quốc vương.",
+  "hien": "Ngay chiều hôm đó, nước Anh đưa ông Hamoud bin Mohammed, người họ ưa, lên làm quốc vương."
+ },
+ {
+  "n": 115014,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy ai mới thực sự nắm quyền chọn quốc vương ở Zanzibar: người Zanzibar, hay nước Anh?",
+  "hien": "Vậy ai mới thực sự nắm quyền chọn quốc vương ở Zanzibar: người Zanzibar, hay nước Anh?"
+ },
+ {
+  "n": 116001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa kể về những nhóm thợ? Không chỉ về những con phố.",
+  "hien": "Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa kể về những nhóm thợ? Không chỉ về những con phố."
+ },
+ {
+  "n": 116002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Vì thời xưa, phường không phải là phố, mà là một nhóm người cùng làm một nghề.",
+  "hien": "Vì thời xưa, phường không phải là phố, mà là một nhóm người cùng làm một nghề."
+ },
+ {
+  "n": 116003,
+  "chuong": "Phường",
+  "tone": "story",
+  "text": "Thế là thợ cùng nghề từ các làng quanh Thăng Long kéo về, ở cùng một khu, rồi cùng bán hàng cho thương nhân.",
+  "hien": "Thế là thợ cùng nghề từ các làng quanh Thăng Long kéo về, ở cùng một khu, rồi cùng bán hàng cho thương nhân."
+ },
+ {
+  "n": 116004,
+  "chuong": "Phường",
+  "tone": "story",
+  "text": "Rồi một phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành.",
+  "hien": "Rồi một phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành."
+ },
+ {
+  "n": 116005,
+  "chuong": "Phố Hàng",
+  "tone": "story",
+  "text": "Nghề gì thì phố ấy lấy tên nghề đó, nên chữ Hàng, nghĩa là hàng hóa, đứng đầu tên rất nhiều phố.",
+  "hien": "Nghề gì thì phố ấy lấy tên nghề đó, nên chữ Hàng, nghĩa là hàng hóa, đứng đầu tên rất nhiều phố."
+ },
+ {
+  "n": 116006,
+  "chuong": "Phố Hàng",
+  "tone": "story",
+  "text": "Hàng Bạc làm đồ kim hoàn, Hàng Đường bán ô mai và bánh kẹo, Hàng Gai buôn tơ lụa.",
+  "hien": "Hàng Bạc làm đồ kim hoàn, Hàng Đường bán ô mai và bánh kẹo, Hàng Gai buôn tơ lụa."
+ },
+ {
+  "n": 116007,
+  "chuong": "Con số",
+  "tone": "story",
+  "text": "Sách xưa ghi kinh thành Thăng Long có ba mươi sáu phường. Nhưng nhiều nhà nghiên cứu cho rằng đó là cách nói ước lệ, phố nghề thực tế còn nhiều hơn.",
+  "hien": "Sách xưa ghi kinh thành Thăng Long có 36 phường. Nhưng nhiều nhà nghiên cứu cho rằng đó là cách nói ước lệ, phố nghề thực tế còn nhiều hơn."
+ },
+ {
+  "n": 116008,
+  "chuong": "Còn lại",
+  "tone": "story",
+  "text": "Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn.",
+  "hien": "Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn."
+ },
+ {
+  "n": 116009,
+  "chuong": "Còn lại",
+  "tone": "story",
+  "text": "Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ.",
+  "hien": "Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ."
+ },
+ {
+  "n": 116010,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy khi nghề cũ đã rời đi, tên phố còn giữ lại điều gì của những người thợ ngày xưa?",
+  "hien": "Vậy khi nghề cũ đã rời đi, tên phố còn giữ lại điều gì của những người thợ ngày xưa?"
+ },
+ {
+  "n": 117001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, Napoleon không hề lùn? Ông cao khoảng một mét sáu mươi chín, mức trung bình thời ấy.",
+  "hien": "Bạn có biết, Napoleon không hề lùn? Ông cao khoảng một mét sáu mươi chín, mức trung bình thời ấy."
+ },
+ {
+  "n": 117002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Vậy vì sao cả thế giới tin ông là người lùn? Câu trả lời nằm ở một đơn vị đo, đội vệ binh, và một họa sĩ biếm họa.",
+  "hien": "Vậy vì sao cả thế giới tin ông là người lùn? Câu trả lời nằm ở một đơn vị đo, đội vệ binh, và một họa sĩ biếm họa."
+ },
+ {
+  "n": 117003,
+  "chuong": "Đơn vị đo",
+  "tone": "story",
+  "text": "Số đo ghi sau khi ông mất là năm foot hai inch, nhưng đó là foot và inch của nước Pháp.",
+  "hien": "Số đo ghi sau khi ông mất là năm foot hai inch, nhưng đó là foot và inch của nước Pháp."
+ },
+ {
+  "n": 117004,
+  "chuong": "Đơn vị đo",
+  "tone": "story",
+  "text": "Người Pháp và người Anh dùng cùng tên đơn vị, nhưng độ dài lại khác nhau. Đổi ra mét, ông cao khoảng một mét sáu mươi chín.",
+  "hien": "Người Pháp và người Anh dùng cùng tên đơn vị, nhưng độ dài lại khác nhau. Đổi ra mét, ông cao khoảng một mét sáu mươi chín."
+ },
+ {
+  "n": 117005,
+  "chuong": "Đơn vị đo",
+  "tone": "story",
+  "text": "Còn nếu đọc nhầm số ấy theo đơn vị của Anh, ông chỉ còn khoảng một mét năm mươi tám.",
+  "hien": "Còn nếu đọc nhầm số ấy theo đơn vị của Anh, ông chỉ còn khoảng một mét năm mươi tám."
+ },
+ {
+  "n": 117006,
+  "chuong": "Vệ binh",
+  "tone": "story",
+  "text": "Thêm nữa, đội vệ binh của ông phải đủ cao theo quy định, nên đứng cạnh họ, ông trông nhỏ người.",
+  "hien": "Thêm nữa, đội vệ binh của ông phải đủ cao theo quy định, nên đứng cạnh họ, ông trông nhỏ người."
+ },
+ {
+  "n": 117007,
+  "chuong": "Biệt danh",
+  "tone": "story",
+  "text": "Lính gọi ông là hạ sĩ bé nhỏ, nhưng theo nhiều tài liệu, đó là cách gọi thân mật, không phải chê chiều cao.",
+  "hien": "Lính gọi ông là hạ sĩ bé nhỏ, nhưng theo nhiều tài liệu, đó là cách gọi thân mật, không phải chê chiều cao."
+ },
+ {
+  "n": 117008,
+  "chuong": "Biếm họa",
+  "tone": "story",
+  "text": "Nhưng bên kia eo biển Manche, họa sĩ biếm họa người Anh James Gillray, chưa từng gặp ông, vẽ ông thành một đứa bé tí hon.",
+  "hien": "Nhưng bên kia eo biển Manche, họa sĩ biếm họa người Anh James Gillray, chưa từng gặp ông, vẽ ông thành một đứa bé tí hon."
+ },
+ {
+  "n": 117009,
+  "chuong": "Biếm họa",
+  "tone": "story",
+  "text": "Rồi một bức tranh năm một nghìn tám trăm linh ba còn vẽ vua George Đệ Tam nâng ông trên lòng bàn tay.",
+  "hien": "Rồi một bức tranh năm 1803 còn vẽ vua George Đệ Tam nâng ông trên lòng bàn tay."
+ },
+ {
+  "n": 117010,
+  "chuong": "Biếm họa",
+  "tone": "story",
+  "text": "Vậy mà báo chí Anh cứ tiếp tục đăng những bức tranh như thế, dù Napoleon phản đối.",
+  "hien": "Vậy mà báo chí Anh cứ tiếp tục đăng những bức tranh như thế, dù Napoleon phản đối."
+ },
+ {
+  "n": 117011,
+  "chuong": "Còn tranh luận",
+  "tone": "story",
+  "text": "Các nhà nghiên cứu vẫn tranh luận ông cao chính xác bao nhiêu, nhưng số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy.",
+  "hien": "Các nhà nghiên cứu vẫn tranh luận ông cao chính xác bao nhiêu, nhưng số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy."
+ },
+ {
+  "n": 117012,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy một lời châm biếm của vài họa sĩ có thể thắng cả số đo thật, suốt hơn hai trăm năm?",
+  "hien": "Vậy một lời châm biếm của vài họa sĩ có thể thắng cả số đo thật, suốt hơn hai trăm năm?"
+ },
+ {
+  "n": 118001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, con mắt trên tờ một đô la từng nằm yên suốt hơn một trăm năm mươi năm?",
+  "hien": "Bạn có biết, con mắt trên tờ một đô la từng nằm yên suốt hơn một trăm năm mươi năm?"
+ },
+ {
+  "n": 118002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Vì đó là mặt sau của chiếc ấn quốc gia của nước Mỹ. Nó được thiết kế từ rất lâu rồi, nhưng chưa bao giờ được dùng để đóng dấu.",
+  "hien": "Vì đó là mặt sau của chiếc ấn quốc gia của nước Mỹ. Nó được thiết kế từ rất lâu rồi, nhưng chưa bao giờ được dùng để đóng dấu."
+ },
+ {
+  "n": 118003,
+  "chuong": "Thiết kế",
+  "tone": "story",
+  "text": "Rồi người trình thiết kế cuối cùng là Charles Thomson, thư ký Quốc hội nước Mỹ, vào năm một nghìn bảy trăm tám mươi hai.",
+  "hien": "Rồi người trình thiết kế cuối cùng là Charles Thomson, thư ký Quốc hội nước Mỹ, vào năm 1782."
+ },
+ {
+  "n": 118004,
+  "chuong": "Ý nghĩa",
+  "tone": "story",
+  "text": "Ông giải thích rõ: kim tự tháp là sức mạnh và sự bền vững. Con mắt cùng dòng chữ Latin nói về sự che chở từ đấng tối cao với nước Mỹ.",
+  "hien": "Ông giải thích rõ: kim tự tháp là sức mạnh và sự bền vững. Con mắt cùng dòng chữ Latin nói về sự che chở từ đấng tối cao với nước Mỹ."
+ },
+ {
+  "n": 118005,
+  "chuong": "Ý nghĩa",
+  "tone": "story",
+  "text": "Kim tự tháp còn có mười ba bậc, ứng với mười ba bang đầu tiên, và chưa xây xong chóp.",
+  "hien": "Kim tự tháp còn có mười ba bậc, ứng với mười ba bang đầu tiên, và chưa xây xong chóp."
+ },
+ {
+  "n": 118006,
+  "chuong": "Ý nghĩa",
+  "tone": "story",
+  "text": "Dưới chân là số La Mã chỉ năm một nghìn bảy trăm bảy mươi sáu, năm có bản Tuyên ngôn Độc lập.",
+  "hien": "Dưới chân là số La Mã chỉ năm 1776, năm có bản Tuyên ngôn Độc lập."
+ },
+ {
+  "n": 118007,
+  "chuong": "Bị bỏ quên",
+  "tone": "story",
+  "text": "Nhưng chiếc ấn chỉ cần mặt trước để đóng dấu. Đến nay, mặt sau vẫn chưa ai khắc khuôn.",
+  "hien": "Nhưng chiếc ấn chỉ cần mặt trước để đóng dấu. Đến nay, mặt sau vẫn chưa ai khắc khuôn."
+ },
+ {
+  "n": 118008,
+  "chuong": "Trở lại",
+  "tone": "story",
+  "text": "Rồi hơn một thế kỷ rưỡi sau, Bộ trưởng Nông nghiệp Henry Wallace đọc một ấn phẩm về chiếc ấn. Ông thấy mặt sau chưa từng được dùng.",
+  "hien": "Rồi hơn một thế kỷ rưỡi sau, Bộ trưởng Nông nghiệp Henry Wallace đọc một ấn phẩm về chiếc ấn. Ông thấy mặt sau chưa từng được dùng."
+ },
+ {
+  "n": 118009,
+  "chuong": "Trở lại",
+  "tone": "story",
+  "text": "Đó là theo lời ông kể lại nhiều năm sau. Ông mang chuyện ấy đến cho Tổng thống Franklin Roosevelt, người rất thích con mắt này.",
+  "hien": "Đó là theo lời ông kể lại nhiều năm sau. Ông mang chuyện ấy đến cho Tổng thống Franklin Roosevelt, người rất thích con mắt này."
+ },
+ {
+  "n": 118010,
+  "chuong": "Trở lại",
+  "tone": "story",
+  "text": "Wallace đề nghị in lên đồng xu, nhưng Roosevelt chọn tờ một đô la, rồi đổi chỗ hai mặt của con dấu.",
+  "hien": "Wallace đề nghị in lên đồng xu, nhưng Roosevelt chọn tờ một đô la, rồi đổi chỗ hai mặt của con dấu."
+ },
+ {
+  "n": 118011,
+  "chuong": "Lên tiền",
+  "tone": "story",
+  "text": "Thế là năm một nghìn chín trăm ba mươi lăm, những tờ một đô la mang hình con mắt bắt đầu được in.",
+  "hien": "Thế là năm 1935, những tờ một đô la mang hình con mắt bắt đầu được in."
+ },
+ {
+  "n": 118012,
+  "chuong": "Lên tiền",
+  "tone": "story",
+  "text": "Từ đó, một hình vẽ ra đời từ thế kỷ mười tám trở thành hình mà rất nhiều người trên thế giới cầm trên tay.",
+  "hien": "Từ đó, một hình vẽ ra đời từ thế kỷ mười tám trở thành hình mà rất nhiều người trên thế giới cầm trên tay."
+ },
+ {
+  "n": 118013,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy nếu ông Wallace không tình cờ đọc ấn phẩm ấy, con mắt này giờ còn nằm yên trong tài liệu cũ?",
+  "hien": "Vậy nếu ông Wallace không tình cờ đọc ấn phẩm ấy, con mắt này giờ còn nằm yên trong tài liệu cũ?"
+ }
+]

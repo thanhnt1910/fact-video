@@ -63,22 +63,25 @@ Galileo = Ga-li-lê; Huygens = Hây-ghen; π = pi; g = gờ; √ = căn bậc ha
 16. Đọc: Ở đây pi khoảng ba phẩy mười bốn, còn gờ là số đo lực hút của Trái Đất, khoảng chín phẩy tám.
     Phụ đề: Ở đây *π* khoảng *3,14*, còn *g* là số đo *lực hút* của Trái Đất, khoảng *9,8*.
 
-17. Đọc: Thử với dây dài một mét: một chia chín phẩy tám, được khoảng không phẩy một.
-    Phụ đề: Thử với dây dài *1 mét*: *1 ÷ 9,8* ≈ *0,1*.
+17. Đọc: Thử với một sợi dây dài một mét.
+    Phụ đề: Thử với sợi dây dài *1 mét*.
 
-18. Đọc: Lấy căn bậc hai của không phẩy một, được khoảng không phẩy ba hai.
+18. Đọc: Một chia chín phẩy tám, được khoảng không phẩy một.
+    Phụ đề: *1 ÷ 9,8* ≈ *0,1*.
+
+19. Đọc: Lấy căn bậc hai của không phẩy một, được khoảng không phẩy ba hai.
     Phụ đề: Lấy căn bậc hai của *0,1*, được khoảng *0,32*.
 
-19. Đọc: Rồi nhân với hai pi, tức khoảng sáu phẩy hai tám, ra khoảng hai giây.
+20. Đọc: Rồi nhân với hai pi, tức khoảng sáu phẩy hai tám, ra khoảng hai giây.
     Phụ đề: Rồi nhân với *2π*, tức khoảng *6,28*, ra khoảng *2 giây*.
 
-20. Đọc: Vì thế quả lắc dài gần một mét cho nhịp tích tắc đúng một giây.
+21. Đọc: Vì thế quả lắc dài gần một mét cho nhịp tích tắc đúng một giây.
     Phụ đề: Vì thế quả lắc dài *gần 1 mét* cho nhịp tích tắc đúng *1 giây*.
 
-21. Đọc: Vậy muốn đo thời gian thật đều, hãy dựa vào một thứ lặp lại đều đặn, như quả lắc đung đưa.
+22. Đọc: Vậy muốn đo thời gian thật đều, hãy dựa vào một thứ lặp lại đều đặn, như quả lắc đung đưa.
     Phụ đề: Vậy muốn đo thời gian thật đều, hãy dựa vào *một thứ lặp lại đều đặn*, như quả lắc đung đưa.
 
-22. Đọc: Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng mười lăm giây thay vì mười lăm phút.
+23. Đọc: Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng mười lăm giây thay vì mười lăm phút.
     Phụ đề: Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng *15 giây* thay vì *15 phút*.
 
 ## Trạng thái kiểm chứng
@@ -91,9 +94,9 @@ Galileo = Ga-li-lê; Huygens = Hây-ghen; π = pi; g = gờ; √ = căn bậc ha
 - Câu 9–10 [CG]: Huygens được cấp bằng sáng chế ngày 16/6/1657, mẫu hoàn thành cuối năm 1656 (APS News 6/2017; History of Information ghi chế tạo năm 1656, bằng sáng chế 1657; Cosmos ghi bằng sáng chế 1657). Lời kể không nêu "ngày 25 tháng 12 năm 1656" vì các nguồn khác nhau về ngày.
 - Câu 11–14 [CG]+[TÍNH]: từ khoảng 15 phút xuống khoảng 15 giây mỗi ngày (cả ba nguồn trên); 15 × 60 = 900; 900 ÷ 15 = 60.
 - Câu 15–16 [CG]: T = 2π√(L/g), g khoảng 9,8 m/s² (ajdesigner.com).
-- Câu 17–19 [TÍNH]: 1 ÷ 9,8 = 0,102; √0,102 = 0,319; 0,32 × 6,28 = 2,01 (ajdesigner.com cũng ra 2,007 giây cho dây 1 m).
-- Câu 20 [CG]: con lắc 2 giây dài khoảng 0,993–0,994 m (ajdesigner.com), nên nói "gần một mét".
-- Số câu: 22. Cảnh báo giữ lại: câu 13 có Phụ đề ngắn hơn vì số đã đổi sang chữ số; câu 17 báo "4 con số" nhưng chỉ là một phép chia 1 ÷ 9,8 (dây dài 1 mét). Đã đối chiếu từ hai nguồn trở lên: câu 1, 2, 9–14 (APS, History of Information, Cosmos). Không có điểm tranh cãi nội dung; chỉ lệch ngày chế tạo (1656 hay 1657) nên lời kể chỉ nói "được cấp bằng sáng chế năm 1657" và "làm xong mẫu từ cuối năm trước đó".
+- Câu 18–20 [TÍNH]: 1 ÷ 9,8 = 0,102; √0,102 = 0,319; 0,32 × 6,28 = 2,01 (ajdesigner.com cũng ra 2,007 giây cho dây 1 m).
+- Câu 21 [CG]: con lắc 2 giây dài khoảng 0,993–0,994 m (ajdesigner.com), nên nói "gần một mét".
+- Số câu: 23. Cảnh báo giữ lại: câu 13 có Phụ đề ngắn hơn vì số đã đổi sang chữ số. Đã đối chiếu từ hai nguồn trở lên: câu 1, 2, 9–14 (APS, History of Information, Cosmos). Không có điểm tranh cãi nội dung; chỉ lệch ngày chế tạo (1656 hay 1657) nên lời kể chỉ nói "được cấp bằng sáng chế năm 1657" và "làm xong mẫu từ cuối năm trước đó".
 
 ## Chi tiết đã bỏ khỏi lời kể
 - Chuyện Galileo ngắm chiếc đèn lắc trong nhà thờ ở Pisa: giai thoại, nguồn không vững.
@@ -108,7 +111,7 @@ Galileo = Ga-li-lê; Huygens = Hây-ghen; π = pi; g = gờ; √ = căn bậc ha
 | 1–4 | Đồng hồ lò xo lệch 15 phút, đồng hồ quả lắc chạy đều | Kim đồng hồ lò xo chạy lung tung, quả lắc đưa nhịp đều |
 | 5–8 | Hai con lắc cùng dài, chiếc xích đu với em bé và người lớn | Hai con lắc đưa cùng nhịp, xích đu đưa qua lại |
 | 9–14 | Hây-ghen, đồng hồ đầu tiên, 15 phút so 15 giây, hai phép tính | Hai thanh lệch 15 phút và 15 giây, phép tính hiện từng bước |
-| 15–20 | Công thức quả lắc, dây dài 1 m ra 2 giây | Phép tính hiện từng bước, con lắc 1 m đưa tích tắc |
-| 21–22 | Quả lắc đung đưa, kết | Quả lắc đưa đều theo nhịp lời kể |
+| 15–21 | Công thức quả lắc, dây dài 1 m ra 2 giây | Phép tính hiện từng bước, con lắc 1 m đưa tích tắc |
+| 22–23 | Quả lắc đung đưa, kết | Quả lắc đưa đều theo nhịp lời kể |
 
 Nền riêng: tường gỗ ấm với bánh răng mờ. Dấu ấn riêng: một quả lắc nhỏ đung đưa đều ở góc, nhịp tích tắc theo giây. Mũ: mũ thợ đồng hồ (người que tự quyết).

@@ -72,28 +72,34 @@ Fahrenheit = Pha-ren-hai; Celsius = Xen-xi-út; °C đọc là độ xê, °F đ
 19. Đọc: Một trăm tám mươi chia một trăm bằng một phẩy tám.
     Phụ đề: *180 ÷ 100* = *1,8*.
 
-20. Đọc: Nên một độ xê dài bằng một phẩy tám độ ép, tức là chín phần năm.
-    Phụ đề: Nên *1 độ C* dài bằng *1,8 độ F*, tức *9/5*.
+20. Đọc: Nên một độ xê dài bằng một phẩy tám độ ép.
+    Phụ đề: Nên *1 độ C* dài bằng *1,8 độ F*.
 
-21. Đọc: Vậy công thức đổi là: độ ép bằng độ xê nhân chín chia năm, rồi cộng ba mươi hai.
+21. Đọc: Một phẩy tám ấy chính là chín phần năm.
+    Phụ đề: *1,8* chính là *9/5*.
+
+22. Đọc: Vậy công thức đổi là: độ ép bằng độ xê nhân chín chia năm, rồi cộng ba mươi hai.
     Phụ đề: Vậy công thức đổi là: *độ F* = *độ C × 9 ÷ 5 + 32*.
 
-22. Đọc: Ta cộng ba mươi hai vì thang của Pha-ren-hai bắt đầu thấp hơn: nước đá đã là ba mươi hai độ ép.
+23. Đọc: Ta cộng ba mươi hai vì thang của Pha-ren-hai bắt đầu thấp hơn: nước đá đã là ba mươi hai độ ép.
     Phụ đề: Ta cộng *32* vì thang của Pha-ren-hai bắt đầu thấp hơn: nước đá đã là *32 độ F*.
 
-23. Đọc: Ví dụ, một ngày hai mươi lăm độ xê.
+24. Đọc: Ví dụ, một ngày hai mươi lăm độ xê.
     Phụ đề: *Ví dụ*, một ngày *25 độ C*.
 
-24. Đọc: Hai mươi lăm nhân chín chia năm bằng bốn mươi lăm.
-    Phụ đề: *25 × 9 ÷ 5* = *45*.
+25. Đọc: Hai mươi lăm nhân chín bằng hai trăm hai mươi lăm.
+    Phụ đề: *25 × 9* = *225*.
 
-25. Đọc: Rồi cộng ba mươi hai, được bảy mươi bảy độ ép.
+26. Đọc: Hai trăm hai mươi lăm chia năm bằng bốn mươi lăm.
+    Phụ đề: *225 ÷ 5* = *45*.
+
+27. Đọc: Rồi cộng ba mươi hai, được bảy mươi bảy độ ép.
     Phụ đề: Rồi *45 + 32* = *77 độ F*.
 
-26. Đọc: Vậy hai người đo ra hai số khác nhau vì thiếu mốc chung.
+28. Đọc: Vậy hai người đo ra hai số khác nhau vì thiếu mốc chung.
     Phụ đề: Vậy hai người đo ra *2 số khác nhau* vì thiếu *mốc chung*.
 
-27. Đọc: Có hai mốc chung thì mọi nhiệt kế nói cùng một điều.
+29. Đọc: Có hai mốc chung thì mọi nhiệt kế nói cùng một điều.
     Phụ đề: Có *2 mốc chung* thì mọi nhiệt kế nói *cùng một điều*.
 
 ## Trạng thái kiểm chứng
@@ -102,9 +108,9 @@ Fahrenheit = Pha-ren-hai; Celsius = Xen-xi-út; °C đọc là độ xê, °F đ
 - Câu 9 [CG]: năm 1714, Fahrenheit, 28 tuổi, làm hai nhiệt kế cho cùng số đo (APS). Câu 10 ("mốc cố định") là cách giải thích của em dựa trên chính bài APS.
 - Câu 11–12 [CG]+[TÍNH]: nước đóng băng 32 độ F, sôi 212 độ F, cách nhau 180 độ (APS và Today I Found Out cùng ghi); 212 − 32 = 180.
 - Câu 13–17 [CG]: Celsius công bố năm 1742; hai mốc là băng tan và nước sôi; thang đầu tiên bị ngược (đóng băng 100, sôi 0); về sau bị lật lại, chưa rõ ai làm (EBSCO Research Starters, "Celsius Proposes a Temperature Scale"; Today I Found Out cùng ghi thang ngược). Nước sôi phụ thuộc áp suất không khí (EBSCO). Lời kể nói "về sau người ta lật lại", không nêu tên người.
-- Câu 18–21 [TÍNH]: 180 ÷ 100 = 1,8 = 9/5, nên độ F = độ C × 9 ÷ 5 + 32. Câu 22: nước đá 0 độ C = 0 × 9 ÷ 5 + 32 = 32 độ F.
-- Câu 23–25 [TÍNH]: 25 × 9 ÷ 5 = 45; 45 + 32 = 77.
-- Số câu: 27. Cảnh báo giữ lại: câu 12 có Phụ đề ngắn hơn vì số đã đổi sang chữ số; câu 20 và 24 báo "4 con số" nhưng mỗi câu chỉ một phép tính (9/5 là một phân số; 25 × 9 ÷ 5 = 45 là một dãy nhân chia liền). Đã đối chiếu hai nguồn: câu 11–12, 13–17. Điểm nguồn lệch nhau: công thức hỗn hợp muối để ra 0 độ F (APS: nước, muối, đá bằng nhau; Today I Found Out: có amoni clorua) nên đã bỏ khỏi lời kể.
+- Câu 18–22 [TÍNH]: 180 ÷ 100 = 1,8 = 9/5, nên độ F = độ C × 9 ÷ 5 + 32. Câu 23: nước đá 0 độ C = 0 × 9 ÷ 5 + 32 = 32 độ F.
+- Câu 24–27 [TÍNH]: 25 × 9 = 225; 225 ÷ 5 = 45; 45 + 32 = 77.
+- Số câu: 29. Cảnh báo giữ lại: câu 12 có Phụ đề ngắn hơn vì số đã đổi sang chữ số; các phép nhân chia chuỗi đã tách thành từng câu một phép tính. Đã đối chiếu hai nguồn: câu 11–12, 13–17. Điểm nguồn lệch nhau: công thức hỗn hợp muối để ra 0 độ F (APS: nước, muối, đá bằng nhau; Today I Found Out: có amoni clorua) nên đã bỏ khỏi lời kể.
 
 ## Chi tiết đã bỏ khỏi lời kể
 - Mốc 0 độ F và mốc 96 độ F (thân nhiệt): hai nguồn mô tả hỗn hợp tạo mốc 0 khác nhau (APS: nước, muối, đá bằng nhau; Today I Found Out: nước, đá, amoni clorua) và thân nhiệt 96 sau đó được sửa, nên bỏ.
@@ -119,7 +125,7 @@ Fahrenheit = Pha-ren-hai; Celsius = Xen-xi-út; °C đọc là độ xê, °F đ
 | 5–8 | Cột nước dâng khi ấm, tụt khi lạnh; hai mốc | Cột dâng lên theo nhiệt, hai vạch mốc sáng lên |
 | 9–12 | Pha-ren-hai, thang 32 và 212, phép trừ 212 − 32 | Phép tính hiện từng bước |
 | 13–17 | Xen-xi-út, thang ngược rồi lật lại, nước sôi theo áp suất | Thang nhiệt kế lật ngược rồi xoay lại |
-| 18–25 | Công thức đổi độ C sang độ F, ví dụ 25 độ C | Hai thang đặt cạnh nhau, vạch nối từ C sang F |
-| 26–27 | Hai nhiệt kế cùng một số, kết | Hai cột chất lỏng khớp nhau |
+| 18–27 | Công thức đổi độ C sang độ F, ví dụ 25 độ C | Hai thang đặt cạnh nhau, vạch nối từ C sang F |
+| 28–29 | Hai nhiệt kế cùng một số, kết | Hai cột chất lỏng khớp nhau |
 
 Nền riêng: tường phòng thí nghiệm xanh nhạt với vạch nhiệt kế mờ. Dấu ấn riêng: một cột chất lỏng đỏ nhỏ dâng lên hạ xuống theo nhịp của lời kể. Mũ: mũ thợ thủy tinh hoặc mũ thầy thuốc (người que tự quyết).

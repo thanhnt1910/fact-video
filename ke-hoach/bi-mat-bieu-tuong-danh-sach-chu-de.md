@@ -31,6 +31,14 @@ Số = nhãn "#NN" in trên video. Chủ kênh không đăng 4 video cũ (Tháp 
 
 Ngoài danh sách (không đánh số, đã bỏ): con mắt trên tờ một đô la (dola1, dola2s), D-Day, Anh – Zanzibar, 36 phố phường, Napoleon không lùn, kim tự tháp (xem mục "Chủ kênh đã bỏ ngày 11/11/2026").
 
+## Đang chờ chủ kênh duyệt kịch bản (chủ kênh chọn 11/11/2026 sau khi chốt hướng chủ đề gần gũi; chưa đọc giọng, chưa dựng)
+Hướng mới: ưu tiên chủ đề gắn với thứ người xem thấy hoặc mang theo hằng ngày, có điểm lật lại thật; thử 4–5 video rồi so số xem 24 giờ với mốc 620–1.417 (hook thường) và 5.051 (Nam Việt).
+- Họ Nguyễn (xk21t, 14 đoạn)
+- Tên đệm Văn và Thị (xk22t, 14 đoạn)
+- Sài Gòn đổi tên, đề nghị từ 1946 (xk23t, 14 đoạn)
+- Quốc kỳ và Quốc ca (xk24t, 16 đoạn)
+Gutenberg (#19, xk20t) đẩy xuống cuối hàng. Bản gửi duyệt: `ke-hoach/bi-mat-bieu-tuong-4-kich-ban-gui-duyet.md`.
+
 ## Cần làm lại (chủ kênh yêu cầu 11/11/2026)
 - Con mắt trên tờ một đô la (dola1): kịch bản mới dola2s đã viết (11/11/2026), chờ duyệt; sau khi duyệt phải đọc giọng và dựng lại video.
 

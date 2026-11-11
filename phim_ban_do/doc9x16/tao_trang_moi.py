@@ -28,6 +28,7 @@ CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner
      'xk11r':(105000,'Wikimedia Commons (CC BY, công cộng)','R. Mortel, P. Dieulefils, D. Stanley, dronepicr, B. Walton, C. Hicks'),
      'xk12r':(106000,'Wikimedia Commons (CC0, CC BY, CC BY-SA, công cộng)','lumoplank, J.-P. Dalbéra, Cartacaro.fr, D. G. Jarvis, Newone, J. Láscar'),
      'xk10t':(111000,'Wikimedia Commons (CC BY-SA, công cộng)','Sumit Surai, An undesired fidelity (CC BY-SA) · La Domenica del Corriere, Roger-Violett'),
+     'xk13t':(113000,'Wikimedia Commons (CC BY 2.0, CC BY-SA, công cộng)','J.-M. Moullec, Ngô Sĩ Liên'),
      'xk12':(102000,'Wikimedia Commons (CC0, CC BY, CC BY-SA, công cộng)','lumoplank, J.-P. Dalbéra, Cartacaro.fr, D. G. Jarvis, Newone, J. Láscar')}
 base,cr1,cr2=CFG[N]
 s=open('trang_vn7b.html',encoding='utf-8').read()

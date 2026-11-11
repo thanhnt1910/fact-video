@@ -1,0 +1,57 @@
+{
+ "ml1": {
+  "title": "File:Leonardo da Vinci - Mona Lisa (Louvre).jpg",
+  "slot": "S1",
+  "so": 1
+ },
+ "ml2": {
+  "title": "File:Salon Carré D201805 1.jpg",
+  "slot": "S2",
+  "so": 2
+ },
+ "ml3": {
+  "title": "File:Stealing Mona Lisa.jpg",
+  "slot": "S3",
+  "so": 3
+ },
+ "ml5": {
+  "title": "File:Excelsior - Vincenzo Peruggia - Vol de La Joconde - Mona Lisa.jpg",
+  "slot": "S5",
+  "so": 5
+ },
+ "ml6": {
+  "title": "File:Heren met snorren en bolhoeden hebben zich geschaard om de 'Mona Lisa', een van de beroemdste, SFA022800005.jpg",
+  "slot": "S6",
+  "so": 6
+ },
+ "ml7": {
+  "title": "File:Vincenzo Perugia.jpg",
+  "slot": "S7",
+  "so": 7
+ },
+ "ml10": {
+  "title": "File:Vincenzo peruggia.jpg",
+  "slot": "S10",
+  "so": 10
+ },
+ "ml11": {
+  "title": "File:Two men carry the Mona Lisa back to the Louvre in January 1914.jpg",
+  "slot": "S11",
+  "so": 11
+ },
+ "ml12": {
+  "title": "File:After photo for the return of Gioconda at the Louvre Museum 1914.jpg",
+  "slot": "S12",
+  "so": 12
+ },
+ "ml13": {
+  "title": "File:Examples of Mona Lisa postcards in circulation following 1911 theft.jpg",
+  "slot": "S13",
+  "so": 13
+ },
+ "ml14": {
+  "title": "File:Crowd in front of the Mona Lisa 1.jpg",
+  "slot": "S14",
+  "so": 14
+ }
+}

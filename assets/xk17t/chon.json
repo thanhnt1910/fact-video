@@ -1,0 +1,32 @@
+{
+ "nb1": {
+  "title": "File:Napoleon crop.jpg",
+  "slot": "S1",
+  "so": 1
+ },
+ "nb6": {
+  "title": "File:Fusilier-Grenadier et Tirailleur-Grenadier (premier régiment).jpg",
+  "slot": "S6",
+  "so": 6
+ },
+ "nb8": {
+  "title": "File:Maniac-Ravings-Gillray.jpeg",
+  "slot": "S8",
+  "so": 8
+ },
+ "nb9": {
+  "title": "File:James Gillray The King of Brobdingnag and Gulliver.–Vide. Swift's Gulliver- Voyage to Brobdingnag The Metropolitan Museum of Art edit.jpg",
+  "slot": "S9",
+  "so": 9
+ },
+ "nb10": {
+  "title": "File:John Bull offering Little Boney fair play, G.27221.jpg",
+  "slot": "S10",
+  "so": 10
+ },
+ "nb12": {
+  "title": "File:Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+  "slot": "S12",
+  "so": 12
+ }
+}

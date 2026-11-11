@@ -79,12 +79,47 @@ S2(9,9,'p',null,g=>{const sc=SCROLL(g,520,380);const q=T(g,0,0,'?',340,CRED,16,'
 // 10: 2002 dựng lại, phun xa hơn 10 mét
 S2(10,10,'d',null,g=>{const m=MECH(g);const big=bigNum(g,'2002',150,CGOLD);const rl=el(g,'g',{});el(rl,'path',{d:'M0 0 L560 0',stroke:'#fff','stroke-width':8,'stroke-linecap':'round'});for(let i=0;i<=5;i++){el(rl,'path',{d:`M${i*112} -18 L${i*112} 18`,stroke:'#fff','stroke-width':6});}const l1=MLB(g,'XA HƠN 10 MÉT',42,CGOLD);const A=strip2('NHÓM HALDON DỰNG LẠI THIẾT BỊ','base',32,331),B=strip2('PHUN LỬA XA HƠN 10 MÉT','ok',38,332);
  return{upd:t=>{const w=AT(10,'phun',3.4);m.k.setAttribute('transform','translate(380,650) scale(.72)');m.k.setAttribute('opacity',popv(t,R(10)+.1,.5)>0?1:0);m.upd(t,{flow:t>R(10)+.8?1:0,pil:1,jet:t>w?inn(t,w,1.0):0});PUT(big,540,450,popv(t,R(10)+.2,.55),1,-2);PUT(rl,300,860,popv(t,w+.4,.5),1,0);PUT(l1,580,930,popv(t,w+.9,.5),1,0);shw(A,t,540,1085,-1,PV(t,10,'nhóm',.3));shw(B,t,540,1195,1,PV(t,10,'phun',3.4))}}});
-// 11: nổi trên mặt biển, nước không dập được
-S2(11,11,'p',null,g=>{const s=SEA(g,640,520,'#7fa6c4');const fl=[400,700].map(x=>({x,f:FLM(g)}));const dr=[...Array(7)].map(()=>el(g,'path',{d:'M0 -26 Q14 0 0 12 Q-14 0 0 -26Z',fill:'#bfe0f0',stroke:'#fff','stroke-width':3,opacity:0}));const xx=XX(g,CRED);const A=strip2('NỔI TRÊN MẶT BIỂN','bad',40,341),B=strip2('NƯỚC KHÔNG DẬP ĐƯỢC','bad',40,342);
- return{upd:t=>{s.upd(t);fl.forEach((o,i)=>PUT(o.f,o.x,720+Math.sin(t*1.5+i)*5,popv(t,R(11)+.2+i*.3,.5),1.1+.05*Math.sin(t*11+i),Math.sin(t*8+i)*2.5));const w=AT(11,'nước',3.2);dr.forEach((d,i)=>{const u=((t-w)*.9+i/7)%1;d.setAttribute('transform',`translate(${330+i*60},${300+u*360})`);d.setAttribute('opacity',t>w?(u<.95?1:0):0)});PUT(xx,540,480,popv(t,AT(11,'không',3.9),.5),1.5,0);shw(A,t,540,1085,-1,PV(t,11,'nổi',1.4));shw(B,t,540,1195,1,PV(t,11,'không',3.9))}}});
-// 12: thành đứng vững, hạm đội thiệt hại
-S2(12,12,'d',null,g=>{const c=CITY(g);const s=SEA(g,780,320,'#143454');const sh=[0,1,2].map(i=>SHIP(g,'#3a2020'));const fl=[0,1,2].map(()=>FLM(g));const ck=CK(g,CGOLD);const A=strip2('HẠM ĐỘI Ả RẬP THIỆT HẠI NẶNG','bad',34,351),B=strip2('THÀNH PHỐ ĐỨNG VỮNG','ok',40,352);
- return{upd:t=>{s.upd(t);PUT(c,340,520,popv(t,R(12)+.1,.6),.78,0);sh.forEach((o,i)=>{const w=AT(12,'gây',1.8)+i*.4;PUT(o.k,600+i*170,850+(i%2)*40+Math.sin(t*1.6+i)*5,1,.5,2+inn(t,w,2)*14);PUT(fl[i],600+i*170,780+(i%2)*40,popv(t,w,.5),.6+.04*Math.sin(t*11+i),Math.sin(t*8+i)*3)});PUT(ck,300,330,popv(t,AT(12,'Thành',4.6),.5),.8,0);shw(A,t,540,1085,-1,PV(t,12,'gây',1.8));shw(B,t,540,1195,1,PV(t,12,'Thành',4.6))}}});
+// 11-12: hải chiến, thuyền phun lửa vào hạm đội địch (mô phỏng chi tiết)
+S2(11,12,'d',null,g=>{
+ const c=CITY(g);const s=SEA(g,720,340,'#0f2a44');
+ const bz=SHIP(g,'#22374d');bz.tb.setAttribute('opacity',1);
+ const mkE=(col)=>{const w=el(g,'g',{});const sh=SHIP(w,col);return{w,sh}};
+ const E=[mkE('#3a2020'),mkE('#3a2020'),mkE('#3a2020')];
+ const jet=el(g,'g',{opacity:0});const j1=el(jet,'path',{d:'M0 0',fill:CRED,stroke:'#fff','stroke-width':6,'stroke-linejoin':'round'}),j2=el(jet,'path',{d:'M0 0',fill:CGOLD});
+ const dk=[0,1,2].map(()=>FLM(g)),wf=[0,1,2,3,4].map(()=>FLM(g));
+ const sm=[...Array(7)].map(()=>el(g,'circle',{r:26,fill:'#59636d',opacity:0}));
+ const dr=[...Array(7)].map(()=>el(g,'path',{d:'M0 -26 Q14 0 0 12 Q-14 0 0 -26Z',fill:'#bfe0f0',stroke:'#fff','stroke-width':3,opacity:0}));
+ const xx=XX(g,CRED),ck=CK(g,CGOLD);
+ const A1=strip2('NỔI TRÊN MẶT BIỂN','bad',40,341),B1=strip2('NƯỚC KHÔNG DẬP ĐƯỢC','bad',40,342),A2=strip2('HẠM ĐỘI Ả RẬP THIỆT HẠI NẶNG','bad',34,351),B2=strip2('THÀNH PHỐ ĐỨNG VỮNG','ok',40,352);
+ return{upd:t=>{
+  s.upd(t);
+  const t0=R(11),tAim=t0+1.4,tHit=AT(11,'nổi',2.0),tWat=AT(11,'nước',3.4),tPan=AT(11,'Kẻ',5.0),t12=R(12),tSink=t12+.8,tCity=AT(12,'Thành',4.6);
+  PUT(c,250,470,popv(t,t0+.1,.6),.5,0);
+  // thuyền Byzantine bên trái, ống xoay nhắm vào thuyền dẫn đầu
+  PUT(bz.k,230,830+Math.sin(t*1.7)*5,popv(t,t0+.1,.6),.95,-1);
+  const aim=inn(t,tAim,1.0);bz.tb.setAttribute('transform',`translate(214,-26) rotate(${-8*aim})`);
+  // thuyền địch tiến vào
+  const fin=[[770,830,.8],[960,915,.52],[1000,780,.5]];
+  E.forEach((e,i)=>{const [fx,fy,fs]=fin[i];const u=inn(t,t0+.2+i*.35,1.8);let x=fx+(1-u)*(500+i*60),y=fy+Math.sin(t*1.6+i)*5,r=0;
+   if(i>0){const p=inn(t,tPan+i*.2,1.6);x+=p*380;r=-p*5} 
+   if(i==0){const sk=inn(t,tSink,3.6);y+=sk*80;r=-sk*18}
+   e.w.setAttribute('transform',`translate(${x.toFixed(1)},${y.toFixed(1)}) rotate(${r.toFixed(1)}) scale(${-fs},${fs})`);e.w.setAttribute('opacity',popv(t,t0+.2+i*.35,.3)>0?1:0)});
+  // tia lửa từ ống đồng vào thuyền dẫn đầu
+  const jx=230+(310*Math.cos(-8*aim*Math.PI/180))*.95,jy=830-26*.95-(310*Math.sin(8*aim*Math.PI/180))*.95;
+  const J=t>tHit?Math.min(1,inn(t,tHit,.7)):0,off=t>tHit+2.2?Math.max(0,1-inn(t,tHit+2.2,.6)):1;const K=J*off;jet.setAttribute('opacity',K>0?1:0);
+  if(K>0){const Lm=Math.max(60,(760-jx))*K,w=1+.06*Math.sin(t*17);const ty=jy-(jy-815)*K*.4;j1.setAttribute('d',`M${jx} ${jy} Q${jx+Lm*.5} ${jy-60*w} ${jx+Lm} ${ty-10+Math.sin(t*9)*8} Q${jx+Lm*.55} ${jy+50*w} ${jx} ${jy}Z`);j2.setAttribute('d',`M${jx} ${jy} Q${jx+Lm*.4} ${jy-28*w} ${jx+Lm*.8} ${ty-6} Q${jx+Lm*.4} ${jy+24*w} ${jx} ${jy}Z`)}
+  // lửa cháy trên boong thuyền dẫn đầu và nổi trên mặt biển
+  const sk=inn(t,tSink,3.6),bx=770,by=830+sk*80;
+  [[-70,-22],[0,-70],[70,-20]].forEach((p,i)=>PUT(dk[i],bx+p[0]*.8,by+p[1]*.8,popv(t,tHit+.3+i*.25,.5)*(1-sk*.35),.55+.05*Math.sin(t*11+i),Math.sin(t*8+i)*3));
+  [[-170,0],[-70,14],[50,8],[170,0],[260,16]].forEach((p,i)=>PUT(wf[i],bx+p[0],905+p[1]+Math.sin(t*1.8+i)*3,popv(t,tHit+.8+i*.25,.5),.5+.04*Math.sin(t*12+i),Math.sin(t*8+i)*3));
+  sm.forEach((m,i)=>{const u=((t-tHit-.5)*.35+i/7)%1;const on=t>tHit+.5?1:0;m.setAttribute('cx',bx-20+Math.sin(i*2.3+t)*30);m.setAttribute('cy',by-120-u*320);m.setAttribute('r',22+u*40);m.setAttribute('opacity',on*(1-u)*.5)});
+  // giọt nước dội xuống mà lửa không tắt
+  dr.forEach((d,i)=>{const u=((t-tWat)*.9+i/7)%1;d.setAttribute('transform',`translate(${600+i*50},${420+u*430})`);d.setAttribute('opacity',(t>tWat&&t<t12-.1)?(u<.95?1:0):0)});
+  PUT(xx,800,560,popv(t,AT(11,'không',4.3),.5)*(t<t12?1:0),1.3,0);
+  PUT(ck,250,300,popv(t,tCity,.5),.8,0);
+  shw(A1,t,540,1085,-1,t<t12?PV(t,11,'nổi',2.0):0);shw(B1,t,540,1195,1,t<t12?PV(t,11,'không',4.3):0);
+  shw(A2,t,540,1085,-1,t>=t12?PV(t,12,'gây',1.8):0);shw(B2,t,540,1195,1,t>=t12?PV(t,12,'Thành',4.6):0);
+ }}});
 // 13: năm 717, Leo Đệ Tam, eo biển Bosporus
 S2(13,13,'p',null,g=>{const big=bigNum(g,'717',190,CRED);const sh1=el(g,'rect',{x:0,y:620,width:1080,height:70,fill:'#8a7a5a'});const sh2=el(g,'rect',{x:0,y:960,width:1080,height:70,fill:'#8a7a5a'});const s=SEA(g,690,270,'#7fa6c4');const ship=SHIP(g,'#22374d');ship.tb.setAttribute('opacity',1);const ch=[...Array(3)].map(i=>SHIP(g,'#4a2a2a'));const fl=FLM(g);const l1=MLB(g,'EO BIỂN BOSPORUS',34,'#17120c');l1.setAttribute('stroke','none');const A=strip2('HOÀNG ĐẾ LEO ĐỆ TAM','base',38,361),B=strip2('PHÁ VÒNG VÂY TRÊN EO BIỂN','ok',34,362);
  return{upd:t=>{s.upd(t);PUT(big,540,470,popv(t,R(13)+.2,.55),1,-2);PUT(l1,540,560,popv(t,AT(13,'eo',4.6),.5),1,0);PUT(ship.k,260,840+Math.sin(t*1.6)*5,popv(t,R(13)+.4,.5),.62,0);const w=AT(13,'phá',3.0);ch.forEach((o,i)=>PUT(o.k,780+i*120-inn(t,w,1.5)*60,820+(i%2)*60,1,.4,0));PUT(fl,520,830,popv(t,w,.5),.7+.04*Math.sin(t*11),Math.sin(t*8)*3);shw(A,t,540,1085,-1,PV(t,13,'Hoàng',1.0));shw(B,t,540,1195,1,PV(t,13,'phá',3.0))}}});
@@ -102,4 +137,4 @@ S2(17,17,'p',null,g=>{const s=SEA(g,700,360,'#7fa6c4');const f=FLM(g);const q=T(
  return{upd:t=>{s.upd(t);const d=inn(t,AT(17,'biến',2.6),3.0);PUT(f,540,780+Math.sin(t*1.5)*4,popv(t,R(17)+.2,.6)*(1-d*.7),1.5*(1-d*.5)+.04*Math.sin(t*11),Math.sin(t*8)*2.5);PUT(q,540,560,popv(t,AT(17,'Vậy',.2),.5),1,Math.sin(t*2)*5);shw(A,t,540,1085,-1,PV(t,17,'Vậy',.2));shw(B,t,540,1195,1,PV(t,17,'Câu',4.6))}}});
 sx(R(1)+.1,'whoosh',{d:.5,g:.5});
 for(let i=1;i<=17;i++)bm(R(i)+.3,i%3!=1);
-sx(R(8)+.2,'blast',{g:.8});sx(R(6)+.4,'creak',{g:.5});sx(R(12)+.6,'blast',{g:.6});sx(R(17)+.3,'question',{g:.7});
+sx(R(8)+.2,'blast',{g:.8});sx(AT(11,'nổi',2.0),'blast',{g:.8});sx(R(6)+.4,'creak',{g:.5});sx(R(17)+.3,'question',{g:.7});

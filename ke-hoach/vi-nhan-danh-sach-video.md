@@ -41,3 +41,24 @@ Làm ba video thử, ghi số liệu 24 giờ rồi quyết định giữ hướ
 | V6 | Trần Hưng Đạo | Người dặn vua "xin chém đầu thần trước rồi hãy hàng" | Chuẩn bị kháng chiến → hội nghị → hịch → Bạch Đằng | Toàn thư | Trung bình. Nhân vật rất thiêng, giọng trang trọng, ít đùa |
 | V7 | Nguyễn Huệ | Hành quân ra Bắc dịp Tết mà lấy lại Thăng Long | Tây Sơn khởi nghĩa → lên ngôi → hành quân 1789 | Cương mục, Đại Nam thực lục | Trung bình. Nguồn Tây Sơn thưa, không viết cái chết |
 | V8 | Phan Bội Châu | Người tổ chức đưa thanh niên sang Nhật học rồi bị bắt ở Thượng Hải | Cần Vương thất bại → Đông Du → bị trục xuất → bị bắt → quản thúc ở Huế | Tiểu sử học thuật, tự thuật | Trung bình. Chủ kênh chưa duyệt |
+
+## Danh sách 15 chủ đề đề xuất (11/11/2026 23:15, nhân vật thế giới, chờ chủ kênh chọn)
+Bỏ Franklin (trùng cung kể video mẫu), Darwin (lý do chờ còn tranh luận, khó kể gọn), Mozart (chuyện mộ chung dễ sai). Thêm Ada Lovelace và Trịnh Hòa cho đa dạng (nữ, châu Á). Hook chưa tra nguồn.
+| # | Người | Hook lật | Nhóm |
+|---|---|---|---|
+| 1 | Isaac Newton | Nhà vật lý lừng danh từng làm giám đốc sở đúc tiền, truy bắt thợ làm tiền giả | Khoa học |
+| 2 | Florence Nightingale | "Cô y tá cầm đèn" thực ra là nhà thống kê tiên phong | Khoa học, y tế |
+| 3 | Marie Curie | Người duy nhất đoạt Nobel ở hai ngành khoa học khác nhau | Khoa học |
+| 4 | Albert Einstein | Nhà vật lý nổi tiếng nhất từng làm nhân viên thẩm định bằng sáng chế | Khoa học |
+| 5 | Ada Lovelace | Chương trình máy tính đầu tiên được viết trước khi có máy tính, bởi một nữ bá tước | Khoa học, công nghệ |
+| 6 | Hedy Lamarr | Wi-Fi có tổ tiên từ bằng sáng chế của một nữ diễn viên Hollywood | Công nghệ |
+| 7 | Anh em nhà Wright | Hai thợ sửa xe đạp bay được trước cả giới giáo sư | Công nghệ |
+| 8 | Thomas Edison | Bóng đèn không phải Edison phát minh đầu tiên, ông làm cho nó dùng được | Công nghệ |
+| 9 | Galileo Galilei | Người bị giáo hội xử không bị thiêu mà bị quản thúc tại nhà | Khoa học |
+| 10 | Beethoven | Soạn bản giao hưởng nổi tiếng nhất khi tai đã điếc | Nghệ thuật |
+| 11 | Julius Caesar | Từng bị cướp biển bắt, chê tiền chuộc quá thấp | Chính trị, sử cổ |
+| 12 | Cleopatra | Nữ hoàng Ai Cập nhưng gốc Hy Lạp | Chính trị, sử cổ |
+| 13 | Trịnh Hòa | Chỉ huy hạm đội lớn nhất thế giới thời đó lại là một hoạn quan | Hàng hải, châu Á |
+| 14 | Abraham Lincoln | Người trên đồng 1 xu tự học đọc dưới ánh lửa bếp | Chính trị |
+| 15 | Nelson Mandela | Người tù 27 năm mặc áo đội rugby của phía từng giam mình | Chính trị |
+Thứ tự làm đầu đề xuất: 1, 2, 3 (hook lật mạnh, nguồn học thuật rõ). Rủi ro cần tra kỹ: Trịnh Hòa (số đo tàu còn tranh luận, chỉ nói đúng mức), Lincoln (danh sách "thất bại" lan truyền có chỗ sai), Cleopatra (chuyện tấm thảm là lời kể), Caesar (hai nguồn cổ, ghi là lời kể của sử gia La Mã).

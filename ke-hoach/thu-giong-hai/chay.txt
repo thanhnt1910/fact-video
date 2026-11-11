@@ -1,1 +1,1 @@
-doc-xk25t k25
+doc-xk25t lan2

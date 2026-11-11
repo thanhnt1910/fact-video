@@ -20,6 +20,7 @@ CFG = {
  '12': dict(img='xk12/mc1.jpg', pos='45% 50%', num='#19', stamp='1954', tag='HÀ NỘI · CHÙA MỘT CỘT', l1='CHÙA MỘT CỘT', l2='TỪNG BỊ NỔ TUNG?', chu_the='chùa Một Cột', hook=dict(cx=540, cy=560, r=190, q='?')),
  '19': dict(img='xk19t/bia_giay.jpg', pos='50% 50%', num='#18', stamp='105', tag='THÁI LUÂN · NHÀ HÁN', l1='PHÁT MINH RA GIẤY', l2='AI LÀM ĐẦU TIÊN?', chu_the='tờ giấy', hook=dict(cx=520, cy=470, r=230, q='?')),
  '25': dict(img='xk25t/bia_lua.jpg', pos='50% 50%', num='#20', stamp='TK 7', tag='CONSTANTINOPLE', l1='LỬA CHÁY TRÊN BIỂN', l2='AI DẬP ĐƯỢC?', chu_the='ngọn lửa phun từ thuyền chiến', hook=dict(cx=700, cy=560, r=170, q='?')),
+ '26': dict(img='xk26t/bia_binh.jpg', pos='50% 50%', num='#19', stamp='132', tag='TRƯƠNG HÀNH · THỜI HÁN', l1='BÌNH ĐỒNG ĐOÁN', l2='ĐỘNG ĐẤT?', chu_the='địa chấn kế bình đồng', hook=dict(cx=760, cy=470, r=130, q='?')),
  '20': dict(img='xk10t/ml1.jpg', pos='50% 30%', num='#16', stamp='1911', tag='PARIS · LOUVRE', l1='MONA LISA BỊ TRỘM', l2='NGẮM CHỖ TRỐNG?', chu_the='bức Mona Lisa', hook=dict(cx=520, cy=470, r=190, q='?')),
 }[K]
 def fs(t): return round(118*min(1, 16/len(t)))

@@ -17,6 +17,10 @@ Bình Ngô đại cáo; Nỏ thần Cổ Loa; Nam quốc sơn hà; Cột cờ H�
 ## Chủ đề mới: kịch bản đã viết, CHỜ CHỦ KÊNH DUYỆT (11/11/2026)
 File gửi duyệt: `ke-hoach/viet-7-kich-ban-gui-duyet.md`. Mã: Hồ Quý Ly phát hành tiền giấy 1396 (VN, xk13t); D-Day 1944 hoãn một ngày vì dự báo thời tiết (xk14t); Mona Lisa bị trộm 1911 (xk10t); chiến tranh Anh – Zanzibar 1896 (xk15t); 36 phố phường Hà Nội (VN, xk16t); Napoleon thực ra không lùn (xk17t); con mắt trên tờ một đô la (dola2s). Chưa đọc giọng, chưa dựng.
 
+## Chủ kênh đã bỏ ngày 11/11/2026 (KHÔNG làm lại, không đề xuất lại)
+Chiến tranh Anh – Zanzibar 1896 (xk15t); 36 phố phường Hà Nội (xk16t); Napoleon thực ra không lùn (xk17t); con mắt trên tờ một đô la, bản viết lại (dola2s); D-Day hoãn một ngày vì dự báo thời tiết (xk14t, khó hiểu với người chưa biết bối cảnh); kim tự tháp, ai xây (xk18t, hook hỏi mà kịch bản không trả lời được).
+Khi chủ kênh bảo "đề xuất kịch bản" thì CHỈ đưa tên chủ đề, chờ chọn rồi mới tra nguồn và viết.
+
 ## Ghi chú
 - Loạt video dài và loạt khác (Hán, Tam Quốc, Nguyên Mông, Ngô Quyền, Lý, Trần…) không nằm trong danh sách này.
 - Chủ đề đã bỏ nhưng đã có video dựng sẵn (xk10l Đội quân đất nung, xk11l Cột cờ) thì không đăng thêm, không làm bản mới.

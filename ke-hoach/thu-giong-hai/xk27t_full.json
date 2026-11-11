@@ -7,147 +7,140 @@
   "hien": "Bạn có biết, Isaac Newton, người tìm ra lực hấp dẫn, từng đưa thợ làm tiền giả lên giá treo cổ?"
  },
  {
+  "n": 127002,
   "chuong": "Câu hỏi",
   "tone": "story",
-  "text": "Chuyện nghe như phim, nhưng có thật. Để thấy nó kỳ lạ đến đâu, trước hết phải biết Newton là ai.",
-  "hien": "Chuyện nghe như phim, nhưng có thật. Để thấy nó kỳ lạ đến đâu, trước hết phải biết Newton là ai.",
-  "n": 127002
+  "text": "Chuyện có thật, và kẻ bị ông săn còn dám tố cáo ngược lại ông. Nhưng trước hết, phải biết Newton là ai.",
+  "hien": "Chuyện có thật, và kẻ bị ông săn còn dám tố cáo ngược lại ông. Nhưng trước hết, phải biết Newton là ai."
  },
  {
   "n": 127003,
-  "chuong": "Xuất thân",
-  "tone": "story",
-  "text": "Newton sinh ra ở một làng nhỏ nước Anh, khi cha ông đã qua đời. Rồi ông vào đại học Cambridge.",
-  "hien": "Newton sinh ra ở một làng nhỏ nước Anh, khi cha ông đã qua đời. Rồi ông vào đại học Cambridge."
- },
- {
   "chuong": "Thời trẻ",
   "tone": "story",
-  "text": "Dịch hạch từng làm trường đóng cửa, và chàng sinh viên phải về quê. Ở đó ông bắt đầu tự phát triển phép tính vi phân và tích phân.",
-  "hien": "Dịch hạch từng làm trường đóng cửa, và chàng sinh viên phải về quê. Ở đó ông bắt đầu tự phát triển phép tính vi phân và tích phân.",
-  "n": 127004
+  "text": "Newton sinh ra ở một làng nhỏ nước Anh, khi cha ông đã qua đời. Năm hai mươi bảy tuổi, ông đã là giáo sư toán học của Cambridge.",
+  "hien": "Newton sinh ra ở một làng nhỏ nước Anh, khi cha ông đã qua đời. Năm 27 tuổi, ông đã là giáo sư toán học của Cambridge."
  },
  {
+  "n": 127004,
   "chuong": "Phát minh",
   "tone": "story",
-  "text": "Ông còn dùng lăng kính để chứng minh ánh sáng trắng là hỗn hợp nhiều màu. Rồi ông chế kính thiên văn dùng gương thay cho thấu kính.",
-  "hien": "Ông còn dùng lăng kính để chứng minh ánh sáng trắng là hỗn hợp nhiều màu. Rồi ông chế kính thiên văn dùng gương thay cho thấu kính.",
+  "text": "Ông dùng lăng kính chứng minh ánh sáng trắng là hỗn hợp nhiều màu, và tự phát triển phép tính vi phân và tích phân.",
+  "hien": "Ông dùng lăng kính chứng minh ánh sáng trắng là hỗn hợp nhiều màu, và tự phát triển phép tính vi phân và tích phân."
+ },
+ {
+  "chuong": "Principia",
+  "tone": "story",
+  "text": "Rồi năm một nghìn sáu trăm tám mươi bảy, cuốn Principia nêu ba định luật chuyển động và lực hấp dẫn.",
+  "hien": "Rồi năm 1687, cuốn Principia nêu ba định luật chuyển động và lực hấp dẫn.",
   "n": 127005
  },
  {
-  "chuong": "Thời trẻ",
+  "chuong": "Principia",
   "tone": "story",
-  "text": "Năm hai mươi bảy tuổi, ông đã là giáo sư toán học của Cambridge. Nhưng đỉnh cao còn ở phía sau.",
-  "hien": "Năm 27 tuổi, ông đã là giáo sư toán học của Cambridge. Nhưng đỉnh cao còn ở phía sau.",
+  "text": "Lần đầu tiên, Mặt Trăng và hòn đá rơi xuống đất cùng nghe theo một quy luật.",
+  "hien": "Lần đầu tiên, Mặt Trăng và hòn đá rơi xuống đất cùng nghe theo một quy luật.",
   "n": 127006
  },
  {
   "chuong": "Principia",
   "tone": "story",
-  "text": "Rồi đến cuốn Principia, xuất bản năm một nghìn sáu trăm tám mươi bảy. Trong đó có ba định luật chuyển động và định luật vạn vật hấp dẫn.",
-  "hien": "Rồi đến cuốn Principia, xuất bản năm 1687. Trong đó có ba định luật chuyển động và định luật vạn vật hấp dẫn.",
+  "text": "Từ đó ông là nhà khoa học hàng đầu của phương Tây, và công trình của ông là nền móng của vật lý hiện đại.",
+  "hien": "Từ đó ông là nhà khoa học hàng đầu của phương Tây, và công trình của ông là nền móng của vật lý hiện đại.",
   "n": 127007
  },
  {
-  "chuong": "Principia",
+  "chuong": "Sở đúc tiền",
   "tone": "story",
-  "text": "Lần đầu tiên, Mặt Trăng, các hành tinh và hòn đá rơi xuống đất cùng nghe theo một bộ quy luật.",
-  "hien": "Lần đầu tiên, Mặt Trăng, các hành tinh và hòn đá rơi xuống đất cùng nghe theo một bộ quy luật.",
+  "text": "Vậy mà gần mười năm sau, ông rời Cambridge. Mùa xuân năm một nghìn sáu trăm chín mươi sáu, bạn cũ Charles Montagu mời ông làm quan giám sát sở đúc tiền.",
+  "hien": "Vậy mà gần mười năm sau, ông rời Cambridge. Mùa xuân năm 1696, bạn cũ Charles Montagu mời ông làm quan giám sát sở đúc tiền.",
   "n": 127008
  },
  {
-  "chuong": "Principia",
+  "chuong": "Sở đúc tiền",
   "tone": "story",
-  "text": "Từ đó ông được xem là nhà khoa học hàng đầu của phương Tây. Công trình của ông trở thành nền móng của vật lý hiện đại.",
-  "hien": "Từ đó ông được xem là nhà khoa học hàng đầu của phương Tây. Công trình của ông trở thành nền móng của vật lý hiện đại.",
+  "text": "Ngồi chơi á? Montagu hứa vậy, nhưng Newton thì chẳng biết ngồi chơi là gì.",
+  "hien": "Ngồi chơi á? Montagu hứa vậy, nhưng Newton thì chẳng biết ngồi chơi là gì.",
   "n": 127009
  },
  {
-  "chuong": "Principia",
+  "chuong": "Tiền giả",
   "tone": "story",
-  "text": "Một người như thế, đáng lẽ cứ ngồi yên giữa sách vở. Vậy mà gần mười năm sau, ông bỏ Cambridge để lên London làm một việc chẳng ai ngờ.",
-  "hien": "Một người như thế, đáng lẽ cứ ngồi yên giữa sách vở. Vậy mà gần mười năm sau, ông bỏ Cambridge để lên London làm một việc chẳng ai ngờ.",
+  "text": "Lúc ấy đồng bạc cũ bị cắt mép, bị nấu chảy, nên nhà nước thu hết về đúc lại.",
+  "hien": "Lúc ấy đồng bạc cũ bị cắt mép, bị nấu chảy, nên nhà nước thu hết về đúc lại.",
   "n": 127010
  },
  {
-  "n": 127011,
-  "chuong": "Sở đúc tiền",
+  "chuong": "Tiền giả",
   "tone": "story",
-  "text": "Mùa xuân năm một nghìn sáu trăm chín mươi sáu, người bạn cũ Charles Montagu mời ông làm quan giám sát sở đúc tiền của nước Anh.",
-  "hien": "Mùa xuân năm 1696, người bạn cũ Charles Montagu mời ông làm quan giám sát sở đúc tiền của nước Anh."
+  "text": "Tiền giả nở rộ, mà làm tiền giả là tội có thể bị xử tử.",
+  "hien": "Tiền giả nở rộ, mà làm tiền giả là tội có thể bị xử tử.",
+  "n": 127011
  },
  {
   "n": 127012,
-  "chuong": "Sở đúc tiền",
+  "chuong": "Săn tiền giả",
   "tone": "story",
-  "text": "Ngồi chơi á? Đó là lời hứa của Montagu, còn Newton thì chẳng biết ngồi chơi là gì.",
-  "hien": "Ngồi chơi á? Đó là lời hứa của Montagu, còn Newton thì chẳng biết ngồi chơi là gì."
+  "text": "Newton coi việc truy bắt thợ làm tiền giả là nhiệm vụ chính. Ông cho người nghe ngóng ở quán rượu và nhà tù, rồi tự mình thẩm vấn tội phạm.",
+  "hien": "Newton coi việc truy bắt thợ làm tiền giả là nhiệm vụ chính. Ông cho người nghe ngóng ở quán rượu và nhà tù, rồi tự mình thẩm vấn tội phạm."
  },
  {
   "n": 127013,
-  "chuong": "Tiền giả",
-  "tone": "story",
-  "text": "Vì lúc ấy tiền bạc nước Anh rối loạn. Đồng bạc cũ bị cắt mép, bị nấu chảy, nên nhà nước phải thu hết về đúc lại.",
-  "hien": "Vì lúc ấy tiền bạc nước Anh rối loạn. Đồng bạc cũ bị cắt mép, bị nấu chảy, nên nhà nước phải thu hết về đúc lại."
- },
- {
-  "n": 127014,
-  "chuong": "Tiền giả",
-  "tone": "story",
-  "text": "Nên giữa đống tiền lộn xộn ấy, tiền giả nở rộ. Làm tiền giả là tội có thể bị xử tử, nhưng ít ai bị kết án.",
-  "hien": "Nên giữa đống tiền lộn xộn ấy, tiền giả nở rộ. Làm tiền giả là tội có thể bị xử tử, nhưng ít ai bị kết án."
- },
- {
-  "n": 127015,
-  "chuong": "Săn tiền giả",
-  "tone": "story",
-  "text": "Newton coi việc truy bắt thợ làm tiền giả là nhiệm vụ chính của mình. Ông cho người đi nghe ngóng ở quán rượu và cả trong nhà tù.",
-  "hien": "Newton coi việc truy bắt thợ làm tiền giả là nhiệm vụ chính của mình. Ông cho người đi nghe ngóng ở quán rượu và cả trong nhà tù."
- },
- {
-  "n": 127016,
-  "chuong": "Săn tiền giả",
-  "tone": "story",
-  "text": "Ông còn nhận chức thẩm phán, rồi tự mình thẩm vấn tội phạm và người chỉ điểm. Một nhà vật lý lừng danh, giờ làm thám tử.",
-  "hien": "Ông còn nhận chức thẩm phán, rồi tự mình thẩm vấn tội phạm và người chỉ điểm. Một nhà vật lý lừng danh, giờ làm thám tử."
- },
- {
-  "n": 127017,
   "chuong": "Chaloner",
   "tone": "story",
   "text": "Kẻ khét tiếng nhất là William Chaloner, chuyên làm giả tiền vàng. Hắn nhiều lần bị bắt, nhưng vẫn thoát nhờ có người quen ở cấp cao.",
   "hien": "Kẻ khét tiếng nhất là William Chaloner, chuyên làm giả tiền vàng. Hắn nhiều lần bị bắt, nhưng vẫn thoát nhờ có người quen ở cấp cao."
  },
  {
-  "n": 127018,
+  "n": 127014,
   "chuong": "Chaloner",
   "tone": "story",
-  "text": "Nhưng lần này hắn gặp Newton. Ông mất nhiều tháng gom lời khai của các nhân chứng, từ những người từng biết hắn làm tiền giả.",
-  "hien": "Nhưng lần này hắn gặp Newton. Ông mất nhiều tháng gom lời khai của các nhân chứng, từ những người từng biết hắn làm tiền giả."
+  "text": "Táo bạo hơn, hắn công khai tố Newton quản lý sở đúc tiền kém cỏi, và xin được đứng ra điều hành. Một kẻ làm tiền giả xin quản sở đúc tiền.",
+  "hien": "Táo bạo hơn, hắn công khai tố Newton quản lý sở đúc tiền kém cỏi, và xin được đứng ra điều hành. Một kẻ làm tiền giả xin quản sở đúc tiền."
+ },
+ {
+  "n": 127015,
+  "chuong": "Chaloner",
+  "tone": "story",
+  "text": "Newton đáp lại theo cách của mình: điều tra. Ông mất gần hai năm, dùng cả người chỉ điểm trong nhà giam để gom bằng chứng.",
+  "hien": "Newton đáp lại theo cách của mình: điều tra. Ông mất gần hai năm, dùng cả người chỉ điểm trong nhà giam để gom bằng chứng."
+ },
+ {
+  "n": 127016,
+  "chuong": "Bản án",
+  "tone": "story",
+  "text": "Đến phiên tòa, Newton đưa ra tám nhân chứng. Bồi thẩm đoàn kết luận Chaloner phạm tội phản quốc.",
+  "hien": "Đến phiên tòa, Newton đưa ra tám nhân chứng. Bồi thẩm đoàn kết luận Chaloner phạm tội phản quốc."
+ },
+ {
+  "n": 127017,
+  "chuong": "Bản án",
+  "tone": "story",
+  "text": "Chaloner viết thư cầu xin Newton cứu mình. Ông không trả lời.",
+  "hien": "Chaloner viết thư cầu xin Newton cứu mình. Ông không trả lời."
+ },
+ {
+  "n": 127018,
+  "chuong": "Bản án",
+  "tone": "story",
+  "text": "Tháng Ba năm một nghìn sáu trăm chín mươi chín, Chaloner bị treo cổ.",
+  "hien": "Tháng Ba năm 1699, Chaloner bị treo cổ."
  },
  {
   "n": 127019,
-  "chuong": "Chaloner",
+  "chuong": "Kết",
   "tone": "story",
-  "text": "Rồi phiên tòa kết luận Chaloner phạm tội phản quốc. Tháng Ba năm một nghìn sáu trăm chín mươi chín, hắn bị xử tử.",
-  "hien": "Rồi phiên tòa kết luận Chaloner phạm tội phản quốc. Tháng Ba năm 1699, hắn bị xử tử."
+  "text": "Tổng cộng, Newton đưa hai mươi tám kẻ làm tiền giả ra truy tố. Cuối năm ấy, ông được lên làm giám đốc sở đúc tiền.",
+  "hien": "Tổng cộng, Newton đưa 28 kẻ làm tiền giả ra truy tố. Cuối năm ấy, ông được lên làm giám đốc sở đúc tiền."
  },
  {
   "n": 127020,
-  "chuong": "Kết quả",
-  "tone": "story",
-  "text": "Tổng cộng, Newton đưa hàng chục kẻ làm tiền giả ra truy tố. Cuối năm ấy, ông được lên làm giám đốc sở đúc tiền.",
-  "hien": "Tổng cộng, Newton đưa hàng chục kẻ làm tiền giả ra truy tố. Cuối năm ấy, ông được lên làm giám đốc sở đúc tiền."
- },
- {
-  "n": 127021,
   "chuong": "Kết",
   "tone": "story",
   "text": "Ông giữ ghế đó cho đến khi qua đời năm một nghìn bảy trăm hai mươi bảy.",
   "hien": "Ông giữ ghế đó cho đến khi qua đời năm 1727."
  },
  {
-  "n": 127022,
+  "n": 127021,
   "chuong": "Kết",
   "tone": "story",
   "text": "Người giải thích vì sao vạn vật rơi xuống đất, hóa ra cũng là người canh giữ đồng bạc của cả nước Anh suốt hơn ba mươi năm.",

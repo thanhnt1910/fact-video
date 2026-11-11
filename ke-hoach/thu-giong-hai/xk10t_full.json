@@ -1,0 +1,93 @@
+[
+ {
+  "n": 111001,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới, phần lớn nhờ một vụ trộm?",
+  "hien": "Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới, phần lớn nhờ một vụ trộm?"
+ },
+ {
+  "n": 111002,
+  "chuong": "Câu hỏi",
+  "tone": "story",
+  "text": "Vậy chuyện gì đã xảy ra khi bức tranh biến mất khỏi bảo tàng Louvre ở Paris, và vì sao sau đó nó lại nổi tiếng hơn?",
+  "hien": "Vậy chuyện gì đã xảy ra khi bức tranh biến mất khỏi bảo tàng Louvre ở Paris, và vì sao sau đó nó lại nổi tiếng hơn?"
+ },
+ {
+  "n": 111003,
+  "chuong": "Vụ trộm",
+  "tone": "story",
+  "text": "Trưa thứ ba, ngày hai mươi hai tháng tám năm một nghìn chín trăm mười một, một họa sĩ đến Louvre xin xem bức tranh, nhưng người gác không tìm thấy nó.",
+  "hien": "Trưa thứ ba, ngày 22 tháng 8 năm 1911, một họa sĩ đến Louvre xin xem bức tranh, nhưng người gác không tìm thấy nó."
+ },
+ {
+  "n": 111004,
+  "chuong": "Vụ trộm",
+  "tone": "story",
+  "text": "Cảnh sát tìm thấy khung kính của bức tranh bị bỏ lại ở cầu thang phục vụ. Bảo tàng đóng cửa một tuần để điều tra.",
+  "hien": "Cảnh sát tìm thấy khung kính của bức tranh bị bỏ lại ở cầu thang phục vụ. Bảo tàng đóng cửa một tuần để điều tra."
+ },
+ {
+  "n": 111005,
+  "chuong": "Nổi tiếng",
+  "tone": "story",
+  "text": "Bảo tàng mở lại, và hàng nghìn người kéo đến. Họ không đến để xem tranh, mà để nhìn bức tường trống.",
+  "hien": "Bảo tàng mở lại, và hàng nghìn người kéo đến. Họ không đến để xem tranh, mà để nhìn bức tường trống."
+ },
+ {
+  "n": 111006,
+  "chuong": "Nổi tiếng",
+  "tone": "story",
+  "text": "Báo chí khắp nơi đưa tin, và tờ New York Times gọi công chúng là những thám tử Sherlock Holmes nghiệp dư.",
+  "hien": "Báo chí khắp nơi đưa tin, và tờ New York Times gọi công chúng là những thám tử Sherlock Holmes nghiệp dư."
+ },
+ {
+  "n": 111007,
+  "chuong": "Kẻ trộm",
+  "tone": "story",
+  "text": "Người lấy trộm là Vincenzo Peruggia, một thợ người Ý từng làm việc ở Louvre. Ông giấu bức tranh trong một chiếc rương có đáy giả.",
+  "hien": "Người lấy trộm là Vincenzo Peruggia, một thợ người Ý từng làm việc ở Louvre. Ông giấu bức tranh trong một chiếc rương có đáy giả."
+ },
+ {
+  "n": 111008,
+  "chuong": "Kẻ trộm",
+  "tone": "story",
+  "text": "Cảnh sát từng hai lần thẩm vấn ông, nhưng không coi ông là nghi phạm chính. Bức tranh vẫn mất tích hơn hai năm.",
+  "hien": "Cảnh sát từng hai lần thẩm vấn ông, nhưng không coi ông là nghi phạm chính. Bức tranh vẫn mất tích hơn hai năm."
+ },
+ {
+  "n": 111009,
+  "chuong": "Tìm lại",
+  "tone": "story",
+  "text": "Cuối năm một nghìn chín trăm mười ba, ông viết thư cho một người buôn tranh ở Florence, Ý, đề nghị trả bức tranh về Ý. Ông ký tên giả là Leonard.",
+  "hien": "Cuối năm 1913, ông viết thư cho một người buôn tranh ở Florence, Ý, đề nghị trả bức tranh về Ý. Ông ký tên giả là Leonard."
+ },
+ {
+  "n": 111010,
+  "chuong": "Tìm lại",
+  "tone": "story",
+  "text": "Người buôn tranh và giám đốc bảo tàng Uffizi đến xem bức tranh trong phòng khách sạn của ông, rồi báo cảnh sát. Ngày mười một tháng mười hai, Peruggia bị bắt.",
+  "hien": "Người buôn tranh và giám đốc bảo tàng Uffizi đến xem bức tranh trong phòng khách sạn của ông, rồi báo cảnh sát. Ngày 11 tháng 12, Peruggia bị bắt."
+ },
+ {
+  "n": 111011,
+  "chuong": "Nổi tiếng",
+  "tone": "story",
+  "text": "Đầu năm một nghìn chín trăm mười bốn, Mona Lisa trở về Louvre. Chỉ trong hai ngày đầu, ít nhất một trăm hai mươi nghìn người đã đến xem.",
+  "hien": "Đầu năm 1914, Mona Lisa trở về Louvre. Chỉ trong hai ngày đầu, ít nhất 120.000 người đã đến xem."
+ },
+ {
+  "n": 111012,
+  "chuong": "Nổi tiếng",
+  "tone": "story",
+  "text": "Nhà văn Dianne Hales gọi đó là biểu tượng nghệ thuật đại chúng đầu tiên.",
+  "hien": "Nhà văn Dianne Hales gọi đó là biểu tượng nghệ thuật đại chúng đầu tiên."
+ },
+ {
+  "n": 111013,
+  "chuong": "Kết",
+  "tone": "story",
+  "text": "Vậy nếu bức tranh chưa từng bị lấy trộm, hôm nay nó còn nổi tiếng đến thế không?",
+  "hien": "Vậy nếu bức tranh chưa từng bị lấy trộm, hôm nay nó còn nổi tiếng đến thế không?"
+ }
+]

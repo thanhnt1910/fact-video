@@ -1,5 +1,5 @@
-# Kịch bản mới #16–#19 (bản gửi duyệt 11/11/2026)
-Bỏ hẳn bốn kịch bản cũ. Chưa đọc giọng, chưa dựng. Mỗi video có MỘT thông điệp, nêu trong hook, trả lời ở thân bài, nhắc lại ở câu hỏi cuối.
+# Kịch bản #16–#19 (bản gửi duyệt 11/11/2026, đã thay Đội quân đất nung và Cột cờ)
+Chưa đọc giọng, chưa dựng. Mỗi video có MỘT thông điệp.
 
 ## Tháp Eiffel (#16) — mã xk9s, 14 đoạn, 333 chữ
 **Video này nói về:** Tháp Eiffel suýt bị dỡ, nhờ làm trạm vô tuyến mà được giữ lại.
@@ -20,47 +20,40 @@ Bỏ hẳn bốn kịch bản cũ. Chưa đọc giọng, chưa dựng. Mỗi vid
 13. Theo trang chính thức của tháp, chính sóng vô tuyến đã giữ tòa tháp ở lại.
 14. Vậy nếu không có làn sóng vô tuyến, đường chân trời Paris hôm nay còn tháp Eiffel không?
 
-## Đội quân đất nung (#17) — mã xk10s, 14 đoạn, 334 chữ
-**Video này nói về:** Người tìm thấy đầu tiên (nông dân) và người được ghi công (ông Triệu Khang Dân, người nhặt và ghép mảnh vỡ) là hai người khác nhau.
-**Tiêu đề đề xuất:** Ai mới thật sự tìm ra đội quân đất nung?
+## Mona Lisa (#17) — mã xk10t, 13 đoạn, 326 chữ
+**Video này nói về:** Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới phần lớn nhờ vụ trộm năm 1911.
+**Tiêu đề đề xuất:** Mona Lisa nổi tiếng nhất thế giới nhờ một vụ trộm?
 
-1. Bạn có biết, người tìm thấy đội quân đất nung và người được ghi công là hai người khác nhau?
-2. Chuyện bắt đầu khi một nhóm nông dân ở làng Tây Dương, gần Tây An, đào giếng trên cánh đồng.
-3. Cuốc của họ chạm vào vật cứng. Người đầu tiên thấy một cái đầu tượng đất nung là Dương Chí Phát, và lúc đầu ông tưởng đó là một cái bình.
-4. Không ai biết đó là gì. Phần lớn mảnh vỡ bị vứt ngoài đồng, vài mảnh được giữ làm kỷ niệm, trẻ con nhặt về chơi.
-5. Gần một tháng sau, ngày 25 tháng 4 năm 1974, ông Triệu Khang Dân của bảo tàng huyện nhận được điện thoại báo tin.
-6. Ông đến nơi, nhặt từng mảnh một, kể cả những mảnh nhỏ bằng móng tay, rồi mang về bảo tàng.
-7. Rồi ông ghép lại. Những chiến binh mặc giáp, cao bằng người thật, dần hiện ra, và ông đặt cho chúng cái tên Tượng chiến binh đời Tần.
-8. Nhưng khi ấy đang là Cách mạng Văn hóa, và đồ cổ có thể bị coi là thứ phải phá bỏ. Vì lo vậy, ông không vội báo lên cấp cao.
-9. Rồi một nhà báo của Tân Hoa Xã nghe tin khi về thăm họ hàng ở đó.
-10. Ông Triệu xin đừng đăng, nhưng nhà báo vẫn viết bài khi trở về Bắc Kinh.
-11. Tin lên tới lãnh đạo cấp cao, và không có lệnh phá nào.
-12. Một cuộc khai quật chính thức bắt đầu, và chỉ vài tháng sau, hơn năm trăm tượng chiến binh đã được đào lên.
-13. Mãi đến năm 1990, chính phủ Trung Quốc mới chính thức công nhận ông Triệu Khang Dân là người phát hiện ra đội quân đất nung.
-14. Vậy ai mới là người tìm ra đội quân này: người cuốc trúng cái đầu tượng đầu tiên, hay người nhặt từng mảnh vỡ ghép lại?
+1. Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới, phần lớn nhờ một vụ trộm?
+2. Vậy chuyện gì đã xảy ra khi bức tranh biến mất khỏi bảo tàng Louvre ở Paris, và vì sao sau đó nó lại nổi tiếng hơn?
+3. Trưa thứ ba, ngày 22 tháng 8 năm 1911, một họa sĩ đến Louvre xin xem bức tranh, nhưng người gác không tìm thấy nó.
+4. Cảnh sát tìm thấy khung kính của bức tranh bị bỏ lại ở cầu thang phục vụ. Bảo tàng đóng cửa một tuần để điều tra.
+5. Bảo tàng mở lại, và hàng nghìn người kéo đến. Họ không đến để xem tranh, mà để nhìn bức tường trống.
+6. Báo chí khắp nơi đưa tin, và tờ New York Times gọi công chúng là những thám tử Sherlock Holmes nghiệp dư.
+7. Người lấy trộm là Vincenzo Peruggia, một thợ người Ý từng làm việc ở Louvre. Ông giấu bức tranh trong một chiếc rương có đáy giả.
+8. Cảnh sát từng hai lần thẩm vấn ông, nhưng không coi ông là nghi phạm chính. Bức tranh vẫn mất tích hơn hai năm.
+9. Cuối năm 1913, ông viết thư cho một người buôn tranh ở Florence, Ý, đề nghị trả bức tranh về Ý. Ông ký tên giả là Leonard.
+10. Người buôn tranh và giám đốc bảo tàng Uffizi đến xem bức tranh trong phòng khách sạn của ông, rồi báo cảnh sát. Ngày 11 tháng 12, Peruggia bị bắt.
+11. Đầu năm 1914, Mona Lisa trở về Louvre. Chỉ trong hai ngày đầu, ít nhất 120.000 người đã đến xem.
+12. Nhà văn Dianne Hales gọi đó là biểu tượng nghệ thuật đại chúng đầu tiên.
+13. Vậy nếu bức tranh chưa từng bị lấy trộm, hôm nay nó còn nổi tiếng đến thế không?
 
-## Cột cờ Hà Nội (#18) — mã xk11s, 18 đoạn, 379 chữ
-**Video này nói về:** Đêm trước ngày giải phóng Thủ đô, gió xé rách cờ và làm kẹt dây; một chiến sĩ leo cột cứu lá cờ để chiều hôm sau cờ vẫn tung bay.
-**Tiêu đề đề xuất:** Đêm trước ngày giải phóng Thủ đô, lá cờ trên Cột cờ Hà Nội bị gió xé rách
+## Hoàng thành Thăng Long (#18) — mã xk11t, 12 đoạn, 304 chữ
+**Video này nói về:** Khi chuẩn bị xây Nhà Quốc hội, người ta đào trúng nhiều lớp hoàng thành chồng lên nhau, khiến dự án thu hẹp và khu di tích được UNESCO ghi danh.
+**Tiêu đề đề xuất:** Đào móng xây Nhà Quốc hội, người ta tìm thấy cả một hoàng thành nghìn năm
 
-1. Bạn có biết, lá cờ chuẩn bị cho ngày giải phóng Thủ đô từng bị gió xé rách ngay đêm trước?
-2. Vậy bộ đội công binh đã làm thế nào để chiều hôm sau, quốc kỳ vẫn tung bay trên đỉnh cột?
-3. Lễ chào cờ được định vào 3 giờ chiều ngày 10 tháng 10 năm 1954, ngay dưới chân Cột cờ Hà Nội.
-4. Vì thế, trên đỉnh cột phải có một lá cờ lớn tung bay. Đại đội 2 công binh nhận nhiệm vụ làm cán cờ cao 12 mét.
-5. Cấp trên phát cho đơn vị hai lá cờ rộng 30 mét vuông.
-6. Họ thử dùng tre luồng, nhưng gió làm cán cờ lung lay ngay khi chưa treo cờ.
-7. Đành đổi sang ống thép, do công nhân ga Hàng Cỏ làm và gắn thêm ròng rọc.
-8. Theo sách lịch sử của Đại đoàn 308, khoảng 10 giờ đêm, cán cờ được chở tới Cột cờ.
-9. Khi kéo thử, một cơn gió lớn làm rách lá cờ, và cán cờ bị xô nghiêng.
-10. Bộ đội lấy gỗ chèn chặt chân trụ, rồi thay lá cờ thứ hai.
-11. Mười lăm phút sau, cờ lại lên đỉnh cán, nhưng gió giật làm dây cáp nhỏ buộc cờ trượt khỏi ròng rọc và kẹt cứng.
-12. Cờ không kéo lên được, cũng không hạ xuống được. Lúc ấy đã hai giờ sáng, mọi người vừa đói, vừa lạnh, vừa mệt.
-13. Người đứng ra leo lên là tiểu đội trưởng Trần Văn Giai, từng làm nghề trèo cau thuê. Anh bám leo từng phân một, trong khi mọi người bên dưới nín thở.
-14. Anh đưa được lá cờ trở lại đỉnh cán, nhưng chân tay bị thương, bong cả móng tay.
-15. Nhưng lá cờ giờ phải cố định ở đó, không thể kéo lên kéo xuống nữa.
-16. Lúc bốn giờ sáng, phương án để Anh hùng Nguyễn Quốc Trị kéo cờ trong buổi lễ bị hủy.
-17. Vì thế chiều hôm ấy, trong lễ chào cờ, lá cờ đã nằm sẵn trên đỉnh cột và tung bay phấp phới.
-18. Vậy trong đám đông chiều hôm ấy, mấy ai biết lá cờ trên cao được giữ lại bằng một đêm không ngủ và đôi tay bong móng?
+1. Bạn có biết, người ta định xây Nhà Quốc hội mới ở Hà Nội, nhưng lại đào trúng cả một hoàng thành nghìn năm?
+2. Vậy dưới mảnh đất ở số 18 phố Hoàng Diệu có những gì, và vì sao nó làm thay đổi kế hoạch xây dựng?
+3. Tháng 12 năm 2002, các nhà khảo cổ bắt đầu khai quật khu đất này, để chuẩn bị xây tòa nhà Quốc hội mới.
+4. Đó là cuộc khai quật lớn nhất Việt Nam tính đến lúc ấy. Và càng đào sâu, các lớp di tích càng hiện ra dày đặc.
+5. Lớp sâu nhất thuộc thời Đại La, từ thế kỷ bảy đến thế kỷ chín, lúc nước ta còn bị phương Bắc đô hộ.
+6. Phía trên là lớp thời Đinh và Tiền Lê, rồi đến thời Lý, thời Trần, và nhiều triều sau nữa, cho tới tận thời Nguyễn.
+7. Đây là lần đầu các nhà khoa học ghi nhận dấu tích của nhiều thời kỳ chồng lên nhau qua hàng chục thế kỷ.
+8. Ở khu D, người ta tìm thấy ngói khắc tên điện Kim Quang và những lá vàng thời Lý.
+9. Đến tháng 12 năm 2009, khu này đã có 168 di tích, trong đó có 95 nền móng kiến trúc.
+10. Dự án Nhà Quốc hội vẫn được xây, nhưng chỉ trên một phần nhỏ hơn của khu đất ban đầu, theo tài liệu thẩm định của ICOMOS.
+11. Năm 2010, UNESCO ghi danh Khu trung tâm Hoàng thành Thăng Long, cùng khu khảo cổ này, là Di sản Văn hóa Thế giới.
+12. Vậy dưới những tòa nhà ở trung tâm Hà Nội hôm nay, còn bao nhiêu lớp hoàng thành chưa lộ ra?
 
 ## Chùa Một Cột (#19) — mã xk12s, 17 đoạn, 368 chữ
 **Video này nói về:** Chùa hôm nay là bản dựng lại sau vụ nổ 1954: cột đá còn lại, phần nhà gỗ dựng mới năm 1955.
@@ -84,10 +77,8 @@ Bỏ hẳn bốn kịch bản cũ. Chưa đọc giọng, chưa dựng. Mỗi vid
 16. Chỉ biết ảnh chụp từ cuối thế kỷ mười chín đã cho thấy ngôi chùa đứng trên một cột đá.
 17. Vậy khi bạn nhìn chùa Một Cột hôm nay, đó là chùa của vua Lý, hay chùa của năm 1955?
 
-## Nguồn đã đọc
-- Eiffel: toureiffel.paris (How did radio save the tower), history.com (eiffel-tower-survival). Thư phản đối 14/2/1887 báo Le Temps; hạn giấy phép hết 1/1/1910; Ducretet 5/11/1898; Ferrié 31 tuổi; 1908 liên lạc 6.000 km; 1909 trạm cố định; 1910 gia hạn 70 năm. Bỏ: lời đáp của Eiffel, chuyện Eiffel tự bỏ tiền lắp ăng-ten (chưa tra được).
-- Quân đất nung: Wikipedia Zhao Kangmin, travelchinaguide (who-found). Điểm lệch: một nguồn nói bảo tàng huyện, một nguồn nói nhận điện thoại ngày 25/4/1974; tôi dùng ngày 25/4/1974 và chỉ nói "gần một tháng sau". Bỏ: lớp sơn bong, chuyện Dương Chí Phát báo bảo tàng (hai nguồn nói khác nhau).
-- Cột cờ: báo Nhân Dân (Duy Đức, trích sách Đại đoàn 308 Quân tiên phong với thủ đô Hà Nội, 2009), đã trích nguyên văn từng chi tiết. Chỉ một nguồn cho chuyện đêm 9/10, nên lời kể nêu "Theo sách lịch sử của Đại đoàn 308". Báo Pháp Luật xác nhận lễ chào cờ 15 giờ ngày 10/10/1954.
-- Chùa Một Cột: Báo Pháp Luật (cột đá, Toàn thư, Hocquard 1884, vụ nổ tháng 9/1954, dựng lại 1955), Tiền Phong (khôi phục, Nguyễn Bá Lăng), Wikipedia (kích thước cột 1,25 m x 4 m). Điểm lệch: ai gây nổ (kẻ lạ mặt / người Việt trong quân đội Pháp), đường kính cột 1,2 hay 1,25 m; lời kể nói "các nguồn khác nhau" và "khoảng 1,2 mét". Bỏ: chuyện ảnh cũ làm cơ sở dựng lại, tượng Quan Âm còn nguyên (chưa tra được).
+## Nguồn mới (hai chủ đề thay thế)
+- Mona Lisa: history.com (The heist that made the Mona Lisa famous): trộm phát hiện trưa 22/8/1911, khung kính ở cầu thang phục vụ, Peruggia 29 tuổi, rương đáy giả, thẩm vấn hai lần, thư ký tên Leonard, bị bắt 11/12/1913, về Louvre đầu 1914, 120.000 người trong hai ngày đầu, Dianne Hales. CrimeReads: Louvre đóng cửa một tuần, New York Times "amateur Sherlock Holmeses", bức tranh chỉ được coi là kiệt tác rộng rãi từ giữa thế kỷ 19 (James Zug). Điểm lệch: ngày trộm (21 hay 22/8) nên lời kể chỉ nêu ngày phát hiện 22/8; động cơ kẻ trộm (yêu nước hay bán lấy tiền) nên bỏ. Lời kể nói "phần lớn nhờ", không nói "chỉ nhờ".
+- Thăng Long: Hoangthanhthanglong.vn (khai quật từ 12/2002 để chuẩn bị xây Nhà Quốc hội mới, khu D ngói Kim Quang, lá vàng Lý), tài liệu ICOMOS trên whc.unesco.org (dự án Quốc hội vẫn xây nhưng trên phần nhỏ hơn), Nhân Dân (các lớp Đại La đến Nguyễn, 168 di tích đến 12/2009 gồm 95 nền móng, UNESCO 2010). Hạn chế: chuyện thu hẹp dự án chỉ có từ tài liệu ICOMOS, lời kể nêu "theo tài liệu thẩm định của ICOMOS". Bỏ: diện tích khai quật (các nguồn lệch 19.000 / 33.000 m² vì khác phạm vi).
 
-## Kết quả kiểm: kiem_kich_ban, kiem_mo_dau, kiem_mach_ke đều 0 ❌ (còn vài ⚠️ về số năm, tên riêng trong 25 giây đầu).
+## Kiểm: kiem_kich_ban, kiem_mo_dau, kiem_mach_ke đều 0 ❌ (còn ⚠️ về nhiều con số/tên riêng trong một đoạn).

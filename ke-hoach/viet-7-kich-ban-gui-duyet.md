@@ -11,7 +11,7 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 
 ---
 
-## Mona Lisa bị trộm (`xk10t`, 14 đoạn, 340 chữ, khoảng 1.7 phút)
+## Mona Lisa bị trộm (`xk10t`, 14 đoạn, 347 chữ, khoảng 1.8 phút)
 
 **Tiêu đề đăng đề xuất:** Bức tường trống ở Louvre: vì sao hàng nghìn người đến xem?
 
@@ -25,11 +25,11 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 111004. Nhưng mãi đến trưa hôm sau, một họa sĩ đến xin xem tranh, người gác mới tìm mà không thấy. Chiếc khung kính bị bỏ lại ở cầu thang phục vụ.
 111005. Thế là chiều tối, bảo tàng mới báo tin mất tranh. Sau đó báo chí đăng tin lớn, và thông báo truy tìm xuất hiện khắp nơi.
 111006. Một tuần sau, Louvre mở lại. Hàng nghìn người kéo đến, đứng trước khoảng tường trống nơi bức tranh từng treo.
-111007. Vậy bức tranh ở đâu? Người lấy nó là Vincenzo Peruggia, một thợ Ý từng làm ở Louvre, và ông giấu nó hơn hai năm.
+111007. Vậy bức tranh ở đâu? Người lấy nó là Vincenzo Peruggia, một người thợ người Ý từng làm ở Louvre, và ông giấu nó hơn hai năm.
 111008. Cảnh sát có hỏi cung ông, nhưng không coi ông là nghi phạm đáng ngờ. Ông cứ thế giữ bức tranh đến cuối năm 1913.
-111009. Rồi lúc ấy, ông viết thư cho một người buôn tranh ở Florence, bên Ý, đề nghị đưa bức tranh về đất Ý, và ký tên giả là Leonard.
+111009. Rồi lúc ấy, ông viết thư cho một người buôn tranh ở thành phố Florence, nước Ý, đề nghị đưa bức tranh về lại nước Ý, và ký tên giả là Leonard.
 111010. Thế là người buôn tranh gặp ông trong khách sạn, nhìn tận mắt bức tranh, rồi báo cảnh sát. Peruggia bị bắt ngay tại đó.
-111011. Tháng 1 năm 1914, Mona Lisa trở lại Louvre, sau khi được trưng bày ở vài thành phố Ý.
+111011. Tháng 1 năm 1914, Mona Lisa trở lại Louvre, sau khi được trưng bày ở vài thành phố của nước Ý.
 111012. Và chỉ trong hai ngày đầu, hơn 100.000 người đã đến xem nó.
 111013. Dù vậy, các nhà sử học vẫn dè dặt khi cho rằng chỉ riêng vụ trộm đã làm nên danh tiếng của bức tranh.
 111014. Vậy một bức tranh nổi tiếng nhờ vẻ đẹp của nó, hay nhờ câu chuyện về lần nó biến mất?
@@ -116,7 +116,7 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 
 ---
 
-## D-Day hoãn vì dự báo thời tiết (`xk14t`, 12 đoạn, 261 chữ, khoảng 1.3 phút)
+## D-Day hoãn vì dự báo thời tiết (`xk14t`, 12 đoạn, 264 chữ, khoảng 1.3 phút)
 
 **Tiêu đề đăng đề xuất:** Cuộc đổ bộ Normandy suýt đi sai ngày: một dự báo thay đổi tất cả
 
@@ -128,7 +128,7 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 114002. Vì kế hoạch đã chốt sẵn một ngày, mà thời tiết hôm đó chẳng chịu theo.
 114003. Quân Đồng minh định đổ bộ lên bờ biển Normandy, nước Pháp, vào ngày 5 tháng 6 năm 1944.
 114004. Ngày giờ phải có trăng cho lính nhảy dù, và thủy triều rút thấp lúc bình minh. Nhưng những ngày đó, biển động và mưa gió kéo đến.
-114005. Người đứng đầu nhóm dự báo là đại tá không quân Anh James Stagg, cùng các chuyên gia người Anh và người Mỹ.
+114005. Người đứng đầu nhóm dự báo là đại tá không quân của nước Anh James Stagg, cùng các chuyên gia của nước Anh và nước Mỹ.
 114006. Ông dự đoán rằng sẽ có một khoảng lặng ngắn giữa các cơn bão, ngay ngày hôm sau, và khuyên hoãn đúng một ngày.
 114007. Nhưng không phải ai cũng tin. Nhiều nhà khí tượng khác không đồng ý với dự báo ấy.
 114008. Thế mà tướng Dwight Eisenhower, người chỉ huy quân Đồng minh, nghe theo, vì nhiều tháng trước ông Stagg đã dự báo đáng tin.
@@ -165,7 +165,7 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 
 ---
 
-## Chiến tranh Anh–Zanzibar (`xk15t`, 14 đoạn, 267 chữ, khoảng 1.3 phút)
+## Chiến tranh Anh–Zanzibar (`xk15t`, 14 đoạn, 270 chữ, khoảng 1.4 phút)
 
 **Tiêu đề đăng đề xuất:** Cuộc chiến ngắn nhất lịch sử: không dài hơn một tiết học
 
@@ -176,17 +176,17 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 115001. Bạn có biết, cuộc chiến được coi là ngắn nhất lịch sử còn không dài hơn một tiết học?
 115002. Nó nổ ra ở Zanzibar, một quần đảo ngoài khơi bờ biển phía đông châu Phi, chỉ vì một chiếc ngai vàng.
 115003. Tháng 8 năm 1896, vị quốc vương nơi đây qua đời đột ngột.
-115004. Rồi một người trong hoàng tộc tự xưng quốc vương, mà không hỏi ý người Anh.
-115005. Ông là Khalid bin Barghash. Theo hiệp ước bảo hộ, quốc vương mới phải được người Anh đồng ý, mà họ lại nghi ông thân với nước Đức.
+115004. Rồi một người trong hoàng tộc tự xưng quốc vương, mà không hỏi ý nước Anh.
+115005. Ông là Khalid bin Barghash. Theo hiệp ước bảo hộ, quốc vương mới phải được nước Anh đồng ý, mà họ lại nghi ông thân với nước Đức.
 115006. Nhưng ông không chịu lui. Ông cho khoảng 2.800 người cố thủ trong cung điện.
-115007. Vì vậy người Anh gửi tối hậu thư: phải rời ngôi trước 9 giờ sáng ngày 27 tháng 8, nếu không sẽ bị tấn công.
+115007. Vì vậy nước Anh gửi tối hậu thư: phải rời ngôi trước 9 giờ sáng ngày 27 tháng 8, nếu không sẽ bị tấn công.
 115008. Lúc tám giờ, phía ông Khalid xin thương lượng, nhưng ông vẫn không rời ngôi.
-115009. Thế là 9 giờ 2 phút, các tàu chiến Anh nổ súng vào cung điện.
+115009. Thế là 9 giờ 2 phút, các tàu chiến của nước Anh nổ súng vào cung điện.
 115010. Khoảng 38 phút sau thì tiếng súng ngừng, dù một số nguồn tính là 45 phút.
-115011. Ước tính khoảng 500 người phía Zanzibar chết hoặc bị thương, còn phía Anh chỉ có một người bị thương.
+115011. Ước tính khoảng 500 người phía Zanzibar chết hoặc bị thương, còn phía quân Anh chỉ có một người bị thương.
 115012. Còn ông Khalid chạy sang lãnh sự quán Đức xin ẩn náu.
-115013. Ngay chiều hôm đó, người Anh đưa ông Hamoud bin Mohammed, người họ ưa, lên làm quốc vương.
-115014. Vậy ai mới thực sự nắm quyền chọn quốc vương ở Zanzibar: người Zanzibar, hay người Anh?
+115013. Ngay chiều hôm đó, nước Anh đưa ông Hamoud bin Mohammed, người họ ưa, lên làm quốc vương.
+115014. Vậy ai mới thực sự nắm quyền chọn quốc vương ở Zanzibar: người Zanzibar, hay nước Anh?
 
 ### 3 phương án hook
 
@@ -316,7 +316,7 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 
 ---
 
-## Con mắt trên tờ một đô la (làm lại) (`dola2s`, 13 đoạn, 311 chữ, khoảng 1.6 phút)
+## Con mắt trên tờ một đô la (làm lại) (`dola2s`, 13 đoạn, 314 chữ, khoảng 1.6 phút)
 
 **Tiêu đề đăng đề xuất:** Con mắt trên tờ một đô la: vì sao nằm yên hơn một thế kỷ rưỡi?
 
@@ -325,8 +325,8 @@ Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt ri
 ### Toàn văn lời kể
 
 118001. Bạn có biết, con mắt trên tờ một đô la từng nằm yên suốt hơn một trăm năm mươi năm?
-118002. Vì đó là mặt sau của chiếc ấn quốc gia Mỹ. Nó được thiết kế từ rất lâu rồi, nhưng chưa bao giờ được dùng để đóng dấu.
-118003. Rồi người trình thiết kế cuối cùng là Charles Thomson, thư ký Quốc hội Mỹ, vào năm 1782.
+118002. Vì đó là mặt sau của chiếc ấn quốc gia của nước Mỹ. Nó được thiết kế từ rất lâu rồi, nhưng chưa bao giờ được dùng để đóng dấu.
+118003. Rồi người trình thiết kế cuối cùng là Charles Thomson, thư ký Quốc hội nước Mỹ, vào năm 1782.
 118004. Ông giải thích rõ: kim tự tháp là sức mạnh và sự bền vững. Con mắt cùng dòng chữ Latin nói về sự che chở từ đấng tối cao với nước Mỹ.
 118005. Kim tự tháp còn có mười ba bậc, ứng với mười ba bang đầu tiên, và chưa xây xong chóp.
 118006. Dưới chân là số La Mã chỉ năm 1776, năm có bản Tuyên ngôn Độc lập.

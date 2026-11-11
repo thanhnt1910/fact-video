@@ -5,7 +5,7 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20'}.get(KEY,'#00')
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19'}.get(KEY,'#00')
 CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
      3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      4:(57000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
@@ -30,6 +30,7 @@ CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner
      'xk10t':(111000,'Wikimedia Commons (CC BY-SA, công cộng)','Sumit Surai, An undesired fidelity (CC BY-SA) · La Domenica del Corriere, Roger-Violett'),
      'xk14t':(114000,'Wikimedia Commons (công cộng)','NASA Earth Observatory, U.S. Army'),
      'xk13t':(113000,'Wikimedia Commons (CC BY 2.0, CC BY-SA, công cộng)','J.-M. Moullec, Ngô Sĩ Liên'),
+     'xk26t':(126000,'=Nguồn: Britannica, Encyclopedia.com, Amusing Planet',''),
      'xk25t':(125000,'=Nguồn: Britannica, World History Encyclopedia, nghiên cứu của J. Haldon',''),
      'xk19t':(120000,'=Nguồn: Oxford, Đại học Hamburg, World History Encyclopedia',''),
      'xk12':(102000,'Wikimedia Commons (CC0, CC BY, CC BY-SA, công cộng)','lumoplank, J.-P. Dalbéra, Cartacaro.fr, D. G. Jarvis, Newone, J. Láscar')}

@@ -5,7 +5,7 @@
 Nhóm chủ đề đã duyệt (giữ cả 7): người và một quyết định; đêm trước một sự kiện; cứu một hiện vật; con số phi lý; phát minh và nghề; văn hóa đời sống (phải gắn lịch sử, không làm món ăn, thức uống kiểu cà phê trứng); sự kiện bị hiểu nhầm.
 
 ## Danh sách toàn bộ video theo số thứ tự (cập nhật 11/11/2026 17:20)
-Số = nhãn "#NN" in trên video. Trạng thái lấy từ ghi chú trong repo; mục nào ghi "chưa rõ" là repo không ghi video đã đăng hay chưa.
+Số = nhãn "#NN" in trên video. Chủ kênh không đăng 4 video cũ (Tháp Eiffel, Đội quân đất nung, Cột cờ Hà Nội, Chùa Một Cột; ra lệnh 11/11/2026 17:23), nên các số đó đã bỏ và các video sau đẩy lên: số cũ #20–#23 thành #16–#19. Trạng thái lấy từ ghi chú trong repo; mục nào ghi "chưa rõ" là repo không ghi video đã đăng hay chưa.
 
 | Số | Chủ đề | Mã | Trạng thái |
 |---|---|---|---|
@@ -24,14 +24,10 @@ Số = nhãn "#NN" in trên video. Trạng thái lấy từ ghi chú trong repo;
 | #13 | Chùa Cầu Hội An | xk5, xk8 | đã làm (hai bản) |
 | #14 | Phiến đá Rosetta | xk6 | đã làm |
 | #15 | Cầu Long Biên | xk7 | đã làm |
-| #16 | Tháp Eiffel | xk9 | đã làm; bản viết lại xk9s chờ duyệt (chưa rõ) |
-| #17 | Đội quân đất nung | xk10 | chủ kênh bỏ, video dựng sẵn, không đăng |
-| #18 | Cột cờ Hà Nội | xk11 | chủ kênh bỏ, video dựng sẵn, không đăng |
-| #19 | Chùa Một Cột | xk12 | đã làm; bản viết lại xk12s chờ duyệt (chưa rõ) |
-| #20 | Mona Lisa bị trộm 1911 | xk10t | đã giao 11/11 |
-| #21 | Hồ Quý Ly phát hành tiền giấy 1396 | xk13t | đã giao 11/11 |
-| #22 | Giấy, phát minh của Trung Quốc | xk19t | đã dựng và giao 11/11, chờ chủ kênh duyệt video |
-| #23 | Máy in của Gutenberg | xk20t | kịch bản 16 đoạn đã duyệt ("ổn rồi"), chưa đọc giọng, chưa dựng |
+| #16 | Mona Lisa bị trộm 1911 | xk10t | đã giao 11/11 (đánh lại số) |
+| #17 | Hồ Quý Ly phát hành tiền giấy 1396 | xk13t | đã giao 11/11 (đánh lại số) |
+| #18 | Giấy, phát minh của Trung Quốc | xk19t | đã dựng và giao 11/11, chờ chủ kênh duyệt video |
+| #19 | Máy in của Gutenberg | xk20t | kịch bản 16 đoạn đã duyệt ("ổn rồi"), chưa đọc giọng, chưa dựng |
 
 Ngoài danh sách (không đánh số, đã bỏ): con mắt trên tờ một đô la (dola1, dola2s), D-Day, Anh – Zanzibar, 36 phố phường, Napoleon không lùn, kim tự tháp (xem mục "Chủ kênh đã bỏ ngày 11/11/2026").
 
@@ -42,6 +38,7 @@ Ngoài danh sách (không đánh số, đã bỏ): con mắt trên tờ một đ
 Bình Ngô đại cáo; Nỏ thần Cổ Loa; Nam quốc sơn hà; Cột cờ Hà Nội; Đội quân đất nung; Mộc bản triều Nguyễn; Bộ luật Hồng Đức; Rối nước; Áo dài; Thành nhà Hồ; Mỹ Sơn; thanh gươm và Hồ Gươm (truyền thuyết); cà phê trứng (không phải lịch sử).
 
 ## Chủ kênh đã bỏ ngày 11/11/2026 (KHÔNG làm lại, không đề xuất lại)
+Không đăng (bỏ cả video và bản viết lại): tháp Eiffel (xk9, xk9s), Đội quân đất nung (xk10l), Cột cờ Hà Nội (xk11l), chùa Một Cột (xk12, xk12s).
 Chiến tranh Anh – Zanzibar 1896 (xk15t); 36 phố phường Hà Nội (xk16t); Napoleon thực ra không lùn (xk17t); con mắt trên tờ một đô la, bản viết lại (dola2s); D-Day hoãn một ngày vì dự báo thời tiết (xk14t, khó hiểu với người chưa biết bối cảnh); kim tự tháp, ai xây (xk18t, hook hỏi mà kịch bản không trả lời được).
 Khi chủ kênh bảo "đề xuất kịch bản" thì CHỈ đưa tên chủ đề, chờ chọn rồi mới tra nguồn và viết.
 

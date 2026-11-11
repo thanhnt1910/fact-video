@@ -66,3 +66,8 @@ Khi chủ kênh bảo "đề xuất kịch bản" thì CHỈ đưa tên chủ đ
 ## Ghi chú
 - Loạt video dài và loạt khác (Hán, Tam Quốc, Nguyên Mông, Ngô Quyền, Lý, Trần…) không nằm trong danh sách này.
 - Chủ đề đã bỏ nhưng đã có video dựng sẵn (xk10l Đội quân đất nung, xk11l Cột cờ) thì không đăng thêm, không làm bản mới.
+
+## Ghi nhận ngày 11/11/2026 19:51: hướng "Vũ khí và công nghệ cổ" (chủ kênh duyệt hướng, nêu rõ muốn kể nguồn gốc và cách hoạt động)
+Chủ kênh muốn phần cơ chế hoạt động (không chỉ câu chuyện trận đánh). Lưu ý của Claude: giải thích cơ chế vũ khí cổ là kiến thức lịch sử bình thường; chỉ không đưa số đo, tỷ lệ pha chế.
+Đề xuất đã nêu: Lửa Hy Lạp, Nỏ ở Cổ Loa (truyền thuyết và khảo cổ), Địa chấn kế Trương Hành, Nhà chứa băng Ba Tư, Cơ cấu Antikythera. Thứ tự gợi ý: Gutenberg (#19) → Lửa Hy Lạp → Nỏ Cổ Loa.
+- **#20 Lửa Hy Lạp (xk25t):** kịch bản 17 đoạn đã qua kiem_kich_ban, kiem_mo_dau, kiem_mach_ke, kiem_gui_duyet; bản gửi duyệt `ke-hoach/xk25t-lua-hy-lap-gui-duyet.md`; bản dựng thử KHÔNG giọng `out/xk25t_thu_doc.mp4` (thời lượng ước tính). Chưa đọc giọng, chờ chủ kênh duyệt.

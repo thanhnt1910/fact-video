@@ -1,0 +1,136 @@
+{
+ "beats": [
+  {
+   "say": "Làm sao biết núi Ê-vơ-rét cao hơn tám nghìn mét, khi chưa ai lên tới đỉnh?",
+   "text": "Làm sao biết núi Ê-vơ-rét cao hơn *8 000 mét*, khi *chưa ai lên tới đỉnh*?"
+  },
+  {
+   "say": "Nhưng người ta đã tính ra con số ấy từ một nơi cách đỉnh hơn một trăm bảy mươi ki-lô-mét.",
+   "text": "Nhưng người ta đã tính ra từ nơi cách đỉnh hơn *170 km*."
+  },
+  {
+   "say": "Hóa ra bí mật chỉ là một góc ngắm và một phép nhân.",
+   "text": "Hóa ra bí mật chỉ là *một góc ngắm* và *một phép nhân*."
+  },
+  {
+   "say": "Vậy góc ngắm cho ta biết điều gì?",
+   "text": "Vậy *góc ngắm* cho ta biết điều gì?"
+  },
+  {
+   "say": "Thử với một cái cây: bạn đứng cách gốc ba mươi mét, rồi ngẩng đầu nhìn lên ngọn.",
+   "text": "Thử với *một cái cây*: bạn đứng cách gốc *30 mét*, ngẩng đầu nhìn lên ngọn."
+  },
+  {
+   "say": "Đường nhìn lên ngọn cây tạo với mặt đất một góc, ta gọi là góc ngắm.",
+   "text": "Đường nhìn lên ngọn cây tạo với mặt đất một góc, gọi là *góc ngắm*."
+  },
+  {
+   "say": "Giả sử góc ngắm là bốn mươi lăm độ, tức là đường nhìn chếch lên đúng một nửa góc vuông.",
+   "text": "Giả sử góc ngắm là *45 độ*, tức chếch lên đúng *nửa góc vuông*."
+  },
+  {
+   "say": "Với góc đó, bảng toán cho một con số gọi là tang, và tang của bốn mươi lăm độ bằng một.",
+   "text": "Với góc đó, bảng toán cho một số gọi là *tang*, và tang của *45 độ* bằng *1*."
+  },
+  {
+   "say": "Công thức là: chiều cao bằng khoảng cách nhân tang của góc ngắm.",
+   "text": "Công thức: *chiều cao* = *khoảng cách* × *tang góc ngắm*."
+  },
+  {
+   "say": "Vậy cây cao ba mươi nhân một, bằng ba mươi mét.",
+   "text": "Vậy cây cao *30 × 1* = *30 mét*."
+  },
+  {
+   "say": "Nhưng với ngọn núi, ta đâu thể mang thước tới đo khoảng cách từ chân núi lên đỉnh.",
+   "text": "Nhưng với núi, ta đâu thể *mang thước* tới đo khoảng cách."
+  },
+  {
+   "say": "Vì vậy người ta đo khoảng cách bằng cách ngắm cùng một vật từ hai đầu của một đoạn đã biết.",
+   "text": "Người ta ngắm *cùng một vật* từ *hai đầu* của một đoạn đã biết."
+  },
+  {
+   "say": "Ví dụ, bên kia sông có một cột cờ, còn bên này bạn cắm hai cọc cách nhau một trăm mét.",
+   "text": "*Ví dụ*, bên kia sông có cột cờ, bên này bạn cắm *hai cọc* cách nhau *100 mét*."
+  },
+  {
+   "say": "Từ mỗi cọc nhìn sang cột cờ, góc đo được đều là bốn mươi lăm độ.",
+   "text": "Từ mỗi cọc nhìn sang cột cờ, góc đo được đều là *45 độ*."
+  },
+  {
+   "say": "Khi đó cột cờ cách đoạn nối hai cọc một trăm chia hai, bằng năm mươi mét.",
+   "text": "Khi đó cột cờ cách đoạn nối hai cọc *100 ÷ 2* = *50 mét*."
+  },
+  {
+   "say": "Cứ nối từng tam giác từ bờ biển Ấn Độ lên bắc, người ta biết khoảng cách tới chân dãy núi.",
+   "text": "Cứ *nối từng tam giác* từ bờ biển Ấn Độ lên bắc, người ta biết *khoảng cách* tới chân dãy núi."
+  },
+  {
+   "say": "Năm một nghìn tám trăm bốn mươi chín, nhóm khảo sát ngắm đỉnh núi từ sáu trạm ở đồng bằng.",
+   "text": "Năm *1849*, nhóm khảo sát ngắm đỉnh từ *6 trạm* ở đồng bằng."
+  },
+  {
+   "say": "Từ mỗi trạm, họ nhận được một kết quả riêng.",
+   "text": "Từ mỗi trạm, họ nhận *một kết quả* riêng."
+  },
+  {
+   "say": "Rồi trung bình của sáu kết quả là hơn hai mươi chín nghìn phít.",
+   "text": "Rồi *trung bình* của 6 kết quả là *29 002 phít*."
+  },
+  {
+   "say": "Đến năm một nghìn tám trăm năm mươi sáu, ông Oóc, người đứng đầu cuộc khảo sát, công bố con số ấy.",
+   "text": "Đến năm *1856*, ông Oóc, người đứng đầu cuộc khảo sát, *công bố* con số ấy."
+  },
+  {
+   "say": "Một phít dài khoảng ba mươi xăng-ti-mét, nên ta đổi sang mét để dễ hình dung.",
+   "text": "Một phít dài khoảng *30 cm*, nên ta *đổi sang mét* cho dễ hình dung."
+  },
+  {
+   "say": "Hai mươi chín nghìn nhân không phẩy ba không bốn tám, được khoảng tám nghìn tám trăm mét.",
+   "text": "*29 002 × 0,3048* ≈ *8 840 mét*."
+  },
+  {
+   "say": "Nhưng còn một rắc rối: Trái Đất tròn, nên đỉnh núi ở xa trông thấp hơn thật.",
+   "text": "Nhưng còn một rắc rối: *Trái Đất tròn*, nên đỉnh ở xa *trông thấp hơn thật*."
+  },
+  {
+   "say": "Cụ thể, phần thấp đi bằng khoảng cách nhân khoảng cách, chia cho hai lần bán kính Trái Đất.",
+   "text": "Cụ thể, phần thấp đi = *khoảng cách × khoảng cách*, chia *2 lần bán kính* Trái Đất."
+  },
+  {
+   "say": "Trong đó, hai lần bán kính Trái Đất là khoảng mười hai nghìn bảy trăm ki-lô-mét.",
+   "text": "*2 × 6 371* ≈ *12 742 km*."
+  },
+  {
+   "say": "Rồi một trăm bảy mươi bốn nhân một trăm bảy mươi bốn, bằng khoảng ba mươi nghìn.",
+   "text": "*174 × 174* = *30 276*."
+  },
+  {
+   "say": "Sau đó chia ba mươi nghìn cho mười hai nghìn bảy trăm, được khoảng hai phẩy bốn ki-lô-mét.",
+   "text": "*30 276 ÷ 12 742* ≈ *2,4 km*."
+  },
+  {
+   "say": "Vì vậy khi tính, người ta phải cộng thêm phần ấy, và sửa cả chỗ không khí làm cong tia nhìn.",
+   "text": "Nên khi tính phải *cộng thêm* phần ấy, và sửa cả chỗ *không khí làm cong tia nhìn*."
+  },
+  {
+   "say": "Đến năm hai nghìn không trăm hai mươi, Nê-pan và Trung Quốc đo lại bằng góc ngắm cùng vệ tinh.",
+   "text": "Đến năm *2020*, Nê-pan và Trung Quốc đo lại bằng *góc ngắm* cùng *vệ tinh*."
+  },
+  {
+   "say": "Nhờ vậy họ có kết quả mới, hơn tám nghìn tám trăm mét.",
+   "text": "Nhờ vậy họ có kết quả mới: *8 848,86 mét*."
+  },
+  {
+   "say": "Vậy con số của năm một nghìn tám trăm năm mươi sáu chỉ thấp hơn khoảng chín mét.",
+   "text": "Vậy con số năm *1856* chỉ thấp hơn khoảng *9 mét*."
+  },
+  {
+   "say": "Rồi chín chia tám nghìn tám trăm, được khoảng một phần nghìn.",
+   "text": "*9 ÷ 8 849* ≈ *0,001*, tức một phần nghìn."
+  },
+  {
+   "say": "Vậy một góc ngắm, một đoạn đã biết và một phép nhân đủ để đo ngọn núi chưa ai lên tới.",
+   "text": "Vậy *một góc ngắm*, *một đoạn đã biết* và *một phép nhân* đủ đo ngọn núi chưa ai lên tới."
+  }
+ ]
+}

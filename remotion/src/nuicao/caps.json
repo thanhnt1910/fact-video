@@ -1,0 +1,728 @@
+[
+ [
+  {
+   "text": "Làm sao biết",
+   "start": 0.38,
+   "end": 0.928
+  },
+  {
+   "text": "núi Ê-vơ-rét cao hơn",
+   "start": 0.928,
+   "end": 1.658
+  },
+  {
+   "text": "*8* *000* *mét*,",
+   "start": 1.658,
+   "end": 3.365
+  },
+  {
+   "text": "khi *chưa* *ai*",
+   "start": 3.365,
+   "end": 3.912
+  },
+  {
+   "text": "*lên* *tới* *đỉnh*?",
+   "start": 3.912,
+   "end": 4.58
+  }
+ ],
+ [
+  {
+   "text": "Nhưng người ta",
+   "start": 0.46,
+   "end": 1.275
+  },
+  {
+   "text": "đã tính ra",
+   "start": 1.275,
+   "end": 2.001
+  },
+  {
+   "text": "từ nơi cách đỉnh",
+   "start": 2.001,
+   "end": 3.178
+  },
+  {
+   "text": "hơn *170* *km*.",
+   "start": 3.178,
+   "end": 4.99
+  }
+ ],
+ [
+  {
+   "text": "Hóa ra bí",
+   "start": 0.42,
+   "end": 0.985
+  },
+  {
+   "text": "mật chỉ là",
+   "start": 0.985,
+   "end": 1.551
+  },
+  {
+   "text": "*một* *góc* *ngắm* và",
+   "start": 1.551,
+   "end": 2.305
+  },
+  {
+   "text": "*một* *phép* *nhân*.",
+   "start": 2.305,
+   "end": 2.99
+  }
+ ],
+ [
+  {
+   "text": "Vậy *góc* *ngắm* cho",
+   "start": 0.43,
+   "end": 1.295
+  },
+  {
+   "text": "ta biết điều gì?",
+   "start": 1.295,
+   "end": 2.28
+  }
+ ],
+ [
+  {
+   "text": "Thử với",
+   "start": 0.47,
+   "end": 0.838
+  },
+  {
+   "text": "*một* *cái* *cây*:",
+   "start": 0.838,
+   "end": 1.759
+  },
+  {
+   "text": "bạn đứng cách",
+   "start": 1.759,
+   "end": 2.311
+  },
+  {
+   "text": "gốc *30* *mét*,",
+   "start": 2.311,
+   "end": 3.631
+  },
+  {
+   "text": "ngẩng đầu",
+   "start": 3.631,
+   "end": 3.998
+  },
+  {
+   "text": "nhìn lên ngọn.",
+   "start": 3.998,
+   "end": 4.67
+  }
+ ],
+ [
+  {
+   "text": "Đường nhìn lên ngọn",
+   "start": 0.35,
+   "end": 1.179
+  },
+  {
+   "text": "cây tạo với mặt",
+   "start": 1.179,
+   "end": 2.219
+  },
+  {
+   "text": "đất một góc,",
+   "start": 2.219,
+   "end": 3.011
+  },
+  {
+   "text": "gọi là *góc* *ngắm*.",
+   "start": 3.011,
+   "end": 3.96
+  }
+ ],
+ [
+  {
+   "text": "Giả sử góc ngắm",
+   "start": 0.35,
+   "end": 1.39
+  },
+  {
+   "text": "là *45* *độ*,",
+   "start": 1.39,
+   "end": 3.29
+  },
+  {
+   "text": "tức chếch lên đúng",
+   "start": 3.29,
+   "end": 4.33
+  },
+  {
+   "text": "*nửa* *góc* *vuông*.",
+   "start": 4.33,
+   "end": 5.23
+  }
+ ],
+ [
+  {
+   "text": "Với góc đó,",
+   "start": 0.29,
+   "end": 0.996
+  },
+  {
+   "text": "bảng toán cho một",
+   "start": 0.996,
+   "end": 2.158
+  },
+  {
+   "text": "số gọi là *tang*,",
+   "start": 2.158,
+   "end": 3.25
+  },
+  {
+   "text": "và tang của *45*",
+   "start": 3.25,
+   "end": 5.214
+  },
+  {
+   "text": "*độ* bằng *1*.",
+   "start": 5.214,
+   "end": 6.2
+  }
+ ],
+ [
+  {
+   "text": "Công thức:",
+   "start": 0.48,
+   "end": 1.421
+  },
+  {
+   "text": "*chiều* *cao* =",
+   "start": 1.421,
+   "end": 2.487
+  },
+  {
+   "text": "*khoảng* *cách* ×",
+   "start": 2.487,
+   "end": 3.604
+  },
+  {
+   "text": "*tang* *góc* *ngắm*.",
+   "start": 3.604,
+   "end": 4.55
+  }
+ ],
+ [
+  {
+   "text": "Vậy cây cao",
+   "start": 0.4,
+   "end": 0.995
+  },
+  {
+   "text": "*30* *×* *1*",
+   "start": 0.995,
+   "end": 1.988
+  },
+  {
+   "text": "= *30* *mét*.",
+   "start": 1.988,
+   "end": 3.25
+  }
+ ],
+ [
+  {
+   "text": "Nhưng với núi,",
+   "start": 0.33,
+   "end": 1.25
+  },
+  {
+   "text": "ta đâu thể",
+   "start": 1.25,
+   "end": 2.34
+  },
+  {
+   "text": "*mang* *thước* tới",
+   "start": 2.34,
+   "end": 3.26
+  },
+  {
+   "text": "đo khoảng cách.",
+   "start": 3.26,
+   "end": 4.3
+  }
+ ],
+ [
+  {
+   "text": "Người ta ngắm *cùng*",
+   "start": 0.44,
+   "end": 1.82
+  },
+  {
+   "text": "*một* *vật* từ",
+   "start": 1.82,
+   "end": 2.875
+  },
+  {
+   "text": "*hai* *đầu* của một",
+   "start": 2.875,
+   "end": 4.105
+  },
+  {
+   "text": "đoạn đã biết.",
+   "start": 4.105,
+   "end": 5.35
+  }
+ ],
+ [
+  {
+   "text": "*Ví* *dụ*,",
+   "start": 0.46,
+   "end": 0.873
+  },
+  {
+   "text": "bên kia sông",
+   "start": 0.873,
+   "end": 1.492
+  },
+  {
+   "text": "có cột cờ,",
+   "start": 1.492,
+   "end": 2.111
+  },
+  {
+   "text": "bên này bạn",
+   "start": 2.111,
+   "end": 3.18
+  },
+  {
+   "text": "cắm *hai* *cọc* cách",
+   "start": 3.18,
+   "end": 4.155
+  },
+  {
+   "text": "nhau *100* *mét*.",
+   "start": 4.155,
+   "end": 5.82
+  }
+ ],
+ [
+  {
+   "text": "Từ mỗi cọc nhìn",
+   "start": 0.42,
+   "end": 1.355
+  },
+  {
+   "text": "sang cột cờ,",
+   "start": 1.355,
+   "end": 1.989
+  },
+  {
+   "text": "góc đo được đều",
+   "start": 1.989,
+   "end": 3.274
+  },
+  {
+   "text": "là *45* *độ*.",
+   "start": 3.274,
+   "end": 4.55
+  }
+ ],
+ [
+  {
+   "text": "Khi đó cột cờ",
+   "start": 0.43,
+   "end": 1.196
+  },
+  {
+   "text": "cách đoạn nối hai",
+   "start": 1.196,
+   "end": 1.961
+  },
+  {
+   "text": "cọc *100* *÷* *2*",
+   "start": 1.961,
+   "end": 3.493
+  },
+  {
+   "text": "= *50* *mét*.",
+   "start": 3.493,
+   "end": 4.67
+  }
+ ],
+ [
+  {
+   "text": "Cứ *nối* *từng* *tam*",
+   "start": 0.43,
+   "end": 1.257
+  },
+  {
+   "text": "*giác* từ bờ biển",
+   "start": 1.257,
+   "end": 2.193
+  },
+  {
+   "text": "Ấn Độ lên bắc,",
+   "start": 2.193,
+   "end": 3.44
+  },
+  {
+   "text": "người ta biết",
+   "start": 3.44,
+   "end": 4.06
+  },
+  {
+   "text": "*khoảng* *cách* tới",
+   "start": 4.06,
+   "end": 4.83
+  },
+  {
+   "text": "chân dãy núi.",
+   "start": 4.83,
+   "end": 5.57
+  }
+ ],
+ [
+  {
+   "text": "Năm *1849*,",
+   "start": 0.3,
+   "end": 2.488
+  },
+  {
+   "text": "nhóm khảo sát ngắm",
+   "start": 2.488,
+   "end": 3.387
+  },
+  {
+   "text": "đỉnh từ *6* *trạm*",
+   "start": 3.387,
+   "end": 4.286
+  },
+  {
+   "text": "ở đồng bằng.",
+   "start": 4.286,
+   "end": 5.08
+  }
+ ],
+ [
+  {
+   "text": "Từ mỗi trạm,",
+   "start": 0.47,
+   "end": 1.473
+  },
+  {
+   "text": "họ nhận *một*",
+   "start": 1.473,
+   "end": 2.187
+  },
+  {
+   "text": "*kết* *quả* riêng.",
+   "start": 2.187,
+   "end": 3.02
+  }
+ ],
+ [
+  {
+   "text": "Rồi *trung* *bình* của",
+   "start": 0.39,
+   "end": 1.134
+  },
+  {
+   "text": "6 kết quả là",
+   "start": 1.134,
+   "end": 1.877
+  },
+  {
+   "text": "*29* *002* *phít*.",
+   "start": 1.877,
+   "end": 3.77
+  }
+ ],
+ [
+  {
+   "text": "Đến năm *1856*,",
+   "start": 0.38,
+   "end": 2.356
+  },
+  {
+   "text": "ông Oóc,",
+   "start": 2.356,
+   "end": 2.995
+  },
+  {
+   "text": "người đứng đầu",
+   "start": 2.995,
+   "end": 3.854
+  },
+  {
+   "text": "cuộc khảo sát,",
+   "start": 3.854,
+   "end": 4.512
+  },
+  {
+   "text": "*công* *bố*",
+   "start": 4.512,
+   "end": 5.251
+  },
+  {
+   "text": "con số ấy.",
+   "start": 5.251,
+   "end": 6.03
+  }
+ ],
+ [
+  {
+   "text": "Một phít dài",
+   "start": 0.38,
+   "end": 1.087
+  },
+  {
+   "text": "khoảng *30* *cm*,",
+   "start": 1.087,
+   "end": 2.099
+  },
+  {
+   "text": "nên ta *đổi*",
+   "start": 2.099,
+   "end": 3.166
+  },
+  {
+   "text": "*sang* *mét* cho",
+   "start": 3.166,
+   "end": 3.873
+  },
+  {
+   "text": "dễ hình dung.",
+   "start": 3.873,
+   "end": 4.6
+  }
+ ],
+ [
+  {
+   "text": "*29* *002* *×* *0,3048*",
+   "start": 0.37,
+   "end": 3.693
+  },
+  {
+   "text": "≈ *8* *840* *mét*.",
+   "start": 3.693,
+   "end": 5.33
+  }
+ ],
+ [
+  {
+   "text": "Nhưng còn",
+   "start": 0.37,
+   "end": 0.886
+  },
+  {
+   "text": "một rắc rối:",
+   "start": 0.886,
+   "end": 2.091
+  },
+  {
+   "text": "*Trái* *Đất* *tròn*,",
+   "start": 2.091,
+   "end": 2.865
+  },
+  {
+   "text": "nên đỉnh ở xa",
+   "start": 2.865,
+   "end": 4.038
+  },
+  {
+   "text": "*trông* *thấp* *hơn* *thật*.",
+   "start": 4.038,
+   "end": 5.39
+  }
+ ],
+ [
+  {
+   "text": "Cụ thể,",
+   "start": 0.33,
+   "end": 0.798
+  },
+  {
+   "text": "phần thấp đi",
+   "start": 0.798,
+   "end": 1.499
+  },
+  {
+   "text": "= *khoảng* *cách*",
+   "start": 1.499,
+   "end": 2.351
+  },
+  {
+   "text": "*×* *khoảng* *cách*,",
+   "start": 2.351,
+   "end": 3.143
+  },
+  {
+   "text": "chia *2* *lần* *bán*",
+   "start": 3.143,
+   "end": 4.278
+  },
+  {
+   "text": "*kính* Trái Đất.",
+   "start": 4.278,
+   "end": 5.1
+  }
+ ],
+ [
+  {
+   "text": "*2* *×* *6* *371*",
+   "start": 0.44,
+   "end": 2.492
+  },
+  {
+   "text": "≈ *12* *742* *km*.",
+   "start": 2.492,
+   "end": 4.84
+  }
+ ],
+ [
+  {
+   "text": "*174* *×* *174*",
+   "start": 0.34,
+   "end": 2.902
+  },
+  {
+   "text": "= *30* *276*.",
+   "start": 2.902,
+   "end": 4.96
+  }
+ ],
+ [
+  {
+   "text": "*30* *276* *÷* *12*",
+   "start": 0.33,
+   "end": 2.934
+  },
+  {
+   "text": "*742* ≈ *2,4* *km*.",
+   "start": 2.934,
+   "end": 5.23
+  }
+ ],
+ [
+  {
+   "text": "Nên khi tính phải",
+   "start": 0.48,
+   "end": 1.714
+  },
+  {
+   "text": "*cộng* *thêm* phần ấy,",
+   "start": 1.714,
+   "end": 2.719
+  },
+  {
+   "text": "và sửa cả",
+   "start": 2.719,
+   "end": 3.772
+  },
+  {
+   "text": "chỗ *không* *khí* *làm*",
+   "start": 3.772,
+   "end": 4.777
+  },
+  {
+   "text": "*cong* *tia* *nhìn*.",
+   "start": 4.777,
+   "end": 5.65
+  }
+ ],
+ [
+  {
+   "text": "Đến năm *2020*,",
+   "start": 0.46,
+   "end": 2.689
+  },
+  {
+   "text": "Nê-pan và Trung Quốc",
+   "start": 2.689,
+   "end": 3.519
+  },
+  {
+   "text": "đo lại bằng *góc*",
+   "start": 3.519,
+   "end": 4.35
+  },
+  {
+   "text": "*ngắm* cùng *vệ* *tinh*.",
+   "start": 4.35,
+   "end": 5.45
+  }
+ ],
+ [
+  {
+   "text": "Nhờ vậy họ có",
+   "start": 0.34,
+   "end": 1.067
+  },
+  {
+   "text": "kết quả mới:",
+   "start": 1.067,
+   "end": 1.612
+  },
+  {
+   "text": "*8* *848,86* *mét*.",
+   "start": 1.612,
+   "end": 3.98
+  }
+ ],
+ [
+  {
+   "text": "Vậy con số năm",
+   "start": 0.42,
+   "end": 1.427
+  },
+  {
+   "text": "*1856* chỉ thấp hơn",
+   "start": 1.427,
+   "end": 3.804
+  },
+  {
+   "text": "khoảng *9* *mét*.",
+   "start": 3.804,
+   "end": 4.68
+  }
+ ],
+ [
+  {
+   "text": "*9* *÷* *8*",
+   "start": 0.35,
+   "end": 1.055
+  },
+  {
+   "text": "*849* ≈ *0,001*,",
+   "start": 1.055,
+   "end": 3.466
+  },
+  {
+   "text": "tức một phần nghìn.",
+   "start": 3.466,
+   "end": 4.22
+  }
+ ],
+ [
+  {
+   "text": "Vậy *một* *góc* *ngắm*,",
+   "start": 0.35,
+   "end": 1.256
+  },
+  {
+   "text": "*một* *đoạn* *đã* *biết*",
+   "start": 1.256,
+   "end": 2.542
+  },
+  {
+   "text": "và *một* *phép* *nhân*",
+   "start": 2.542,
+   "end": 3.778
+  },
+  {
+   "text": "đủ đo ngọn núi",
+   "start": 3.778,
+   "end": 4.684
+  },
+  {
+   "text": "chưa ai lên tới.",
+   "start": 4.684,
+   "end": 5.71
+  }
+ ]
+]

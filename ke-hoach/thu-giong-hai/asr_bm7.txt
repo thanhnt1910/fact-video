@@ -1,2 +1,3 @@
 medium
 xk27t
+# lan2

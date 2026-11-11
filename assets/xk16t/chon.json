@@ -1,9 +1,4 @@
 {
- "ph1": {
-  "title": "File:Old Quarter street scene, Hanoi (1) (38464672752).jpg",
-  "slot": "S1",
-  "so": 1
- },
  "ph6": {
   "title": "File:Hanoi - Hàng Bạc Street - 1.jpg",
   "slot": "S6",
@@ -13,11 +8,6 @@
   "title": "File:Crossroad in Hanoi.jpg",
   "slot": "S8",
   "so": 8
- },
- "ph9": {
-  "title": "File:P1460114 - Đền Hàng Bạc - 102 phố Hàng Bạc, Hoàn Kiếm, Hà Nội, Vietnam.jpg",
-  "slot": "S9",
-  "so": 9
  },
  "ph10": {
   "title": "File:Hanoï - Rue des Cantonnais.jpg",
@@ -29,28 +19,8 @@
   "slot": "S1",
   "so": 1
  },
- "phb": {
-  "title": "File:Old Quarter, Hanoi, Vietnam (5246300582).jpg",
-  "slot": "S1",
-  "so": 1
- },
- "phc": {
-  "title": "File:Phố cổ Hà Nội - NKS.jpg",
-  "slot": "S1",
-  "so": 1
- },
- "phd": {
-  "title": "File:Một ngôi đền trên phố Hà Nội có bức hoành - Thượng dẳng từ (Đền thờ bậc Thượng Đẳng) - Bùi Quang Tuấn (19 August 2020).jpg",
-  "slot": "S9",
-  "so": 9
- },
  "phe": {
   "title": "File:Điêu khắc hổ trên ngôi đình ở Phố cổ Hà Nội năm 2017 (7).jpg",
-  "slot": "S9",
-  "so": 9
- },
- "phf": {
-  "title": "File:Điêu khắc hổ trên ngôi đình ở Phố cổ Hà Nội năm 2017 (8).jpg",
   "slot": "S9",
   "so": 9
  }

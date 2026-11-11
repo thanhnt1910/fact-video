@@ -1,0 +1,32 @@
+{
+ "ph1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Old_Quarter_street_scene%2C_Hanoi_%281%29_%2838464672752%29.jpg/1920px-Old_Quarter_street_scene%2C_Hanoi_%281%29_%2838464672752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Old Quarter street scene, Hanoi (1) (38464672752).jpg\" – Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Old_Quarter_street_scene,_Hanoi_(1)_(38464672752).jpg)"
+ },
+ "ph6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hanoi_-_H%C3%A0ng_B%E1%BA%A1c_Street_-_1.jpg/1920px-Hanoi_-_H%C3%A0ng_B%E1%BA%A1c_Street_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Hanoi - Hàng Bạc Street - 1.jpg\" – Benjamin Smith, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Hanoi_-_H%C3%A0ng_B%E1%BA%A1c_Street_-_1.jpg)"
+ },
+ "ph8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Crossroad_in_Hanoi.jpg/1920px-Crossroad_in_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Crossroad in Hanoi.jpg\" – Christophe95, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Crossroad_in_Hanoi.jpg)"
+ },
+ "ph9": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/P1460114_-_%C4%90%E1%BB%81n_H%C3%A0ng_B%E1%BA%A1c_-_102_ph%E1%BB%91_H%C3%A0ng_B%E1%BA%A1c%2C_Ho%C3%A0n_Ki%E1%BA%BFm%2C_H%C3%A0_N%E1%BB%99i%2C_Vietnam.jpg/1920px-P1460114_-_%C4%90%E1%BB%81n_H%C3%A0ng_B%E1%BA%A1c_-_102_ph%E1%BB%91_H%C3%A0ng_B%E1%BA%A1c%2C_Ho%C3%A0n_Ki%E1%BA%BFm%2C_H%C3%A0_N%E1%BB%99i%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"P1460114 - Đền Hàng Bạc - 102 phố Hàng Bạc, Hoàn Kiếm, Hà Nội, Vietnam.jpg\" – ndoduc, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:P1460114_-_%C4%90%E1%BB%81n_H%C3%A0ng_B%E1%BA%A1c_-_102_ph%E1%BB%91_H%C3%A0ng_B%E1%BA%A1c,_Ho%C3%A0n_Ki%E1%BA%BFm,_H%C3%A0_N%E1%BB%99i,_Vietnam.jpg)"
+ },
+ "ph10": {
+  "slot": "S10",
+  "so": 10,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hano%C3%AF_-_Rue_des_Cantonnais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Hanoï - Rue des Cantonnais.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hano%C3%AF_-_Rue_des_Cantonnais.jpg)"
+ }
+}

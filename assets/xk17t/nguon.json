@@ -1,0 +1,38 @@
+{
+ "nb1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Napoleon_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Napoleon crop.jpg\" – Jacques-Louis David, Public domain (https://commons.wikimedia.org/wiki/File:Napoleon_crop.jpg)"
+ },
+ "nb6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fusilier-Grenadier_et_Tirailleur-Grenadier_%28premier_r%C3%A9giment%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Fusilier-Grenadier et Tirailleur-Grenadier (premier régiment).jpg\" – Louis Perre René Demoraine &amp; Louis Conil Lacoste, Public domain (https://commons.wikimedia.org/wiki/File:Fusilier-Grenadier_et_Tirailleur-Grenadier_(premier_r%C3%A9giment).jpg)"
+ },
+ "nb8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Maniac-Ravings-Gillray.jpeg/1920px-Maniac-Ravings-Gillray.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Maniac-Ravings-Gillray.jpeg\" – James Gillray, Public domain (https://commons.wikimedia.org/wiki/File:Maniac-Ravings-Gillray.jpeg)"
+ },
+ "nb9": {
+  "slot": "S9",
+  "so": 9,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/James_Gillray_The_King_of_Brobdingnag_and_Gulliver.%E2%80%93Vide._Swift%27s_Gulliver-_Voyage_to_Brobdingnag_The_Metropolitan_Museum_of_Art_edit.jpg/1920px-James_Gillray_The_King_of_Brobdingnag_and_Gulliver.%E2%80%93Vide._Swift%27s_Gulliver-_Voyage_to_Brobdingnag_The_Metropolitan_Museum_of_Art_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"James Gillray The King of Brobdingnag and Gulliver.–Vide. Swift's Gulliver- Voyage to Brobdingnag The Metropolitan Museum of Art edit.jpg\" – James Gillray, Public domain (https://commons.wikimedia.org/wiki/File:James_Gillray_The_King_of_Brobdingnag_and_Gulliver.%E2%80%93Vide._Swift%27s_Gulliver-_Voyage_to_Brobdingnag_The_Metropolitan_Museum_of_Art_edit.jpg)"
+ },
+ "nb10": {
+  "slot": "S10",
+  "so": 10,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/John_Bull_offering_Little_Boney_fair_play%2C_G.27221.jpg/1920px-John_Bull_offering_Little_Boney_fair_play%2C_G.27221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"John Bull offering Little Boney fair play, G.27221.jpg\" – Attribué à Gillray, James (Chelsea (district londonien), en 13–08–1757 - Londres, en 01–06–1815), graveur, CC0 (https://commons.wikimedia.org/wiki/File:John_Bull_offering_Little_Boney_fair_play,_G.27221.jpg)"
+ },
+ "nb12": {
+  "slot": "S12",
+  "so": 12,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/1920px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg\" – Jacques-Louis David, Public domain (https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg)"
+ }
+}

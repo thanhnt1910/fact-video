@@ -1,0 +1,38 @@
+{
+ "dd1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Forecasting_D-Day.jpeg/1920px-Forecasting_D-Day.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Forecasting D-Day.jpeg\" – NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey. Story by Adam Voiland., Public domain (https://commons.wikimedia.org/wiki/File:Forecasting_D-Day.jpeg)"
+ },
+ "dd3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/D-Day_map%2C_Southwick_House.jpg/1920px-D-Day_map%2C_Southwick_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"D-Day map, Southwick House.jpg\" – D-Day map, Southwick House.png: Hchc2009\nderivative work: Hogweard, Public domain (https://commons.wikimedia.org/wiki/File:D-Day_map,_Southwick_House.jpg)"
+ },
+ "dd4": {
+  "slot": "S4",
+  "so": 4,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ddayweather.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Ddayweather.jpg\" – Fuelbottle, Public domain (https://commons.wikimedia.org/wiki/File:Ddayweather.jpg)"
+ },
+ "dd8": {
+  "slot": "S8",
+  "so": 8,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Eisenhower_d-day.jpg/1920px-Eisenhower_d-day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Eisenhower d-day.jpg\" – Unknown U.S. Army photographer, Public domain (https://commons.wikimedia.org/wiki/File:Eisenhower_d-day.jpg)"
+ },
+ "dd11": {
+  "slot": "S11",
+  "so": 11,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Landings_on_Omaha_beach.jpg/1920px-Landings_on_Omaha_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Landings on Omaha beach.jpg\" – Photographer: Wall. ARC-Identifier: 111-SC-189902. Post-work: User:W.wolny, Public domain (https://commons.wikimedia.org/wiki/File:Landings_on_Omaha_beach.jpg)"
+ },
+ "dd12": {
+  "slot": "S12",
+  "so": 12,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Infantry_landing_craft_approach_Omaha_Beach_in_June_1944.jpg/1920px-Infantry_landing_craft_approach_Omaha_Beach_in_June_1944.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Infantry landing craft approach Omaha Beach in June 1944.jpg\" – Wall, U.S. Army Signal Corps, Public domain (https://commons.wikimedia.org/wiki/File:Infantry_landing_craft_approach_Omaha_Beach_in_June_1944.jpg)"
+ }
+}

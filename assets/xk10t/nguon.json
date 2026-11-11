@@ -1,0 +1,68 @@
+{
+ "ml1": {
+  "slot": "S1",
+  "so": 1,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg/1920px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Leonardo da Vinci - Mona Lisa (Louvre).jpg\" – Leonardo da Vinci, Public domain (https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa_(Louvre).jpg)"
+ },
+ "ml2": {
+  "slot": "S2",
+  "so": 2,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Salon_Carr%C3%A9_D201805_1.jpg/1920px-Salon_Carr%C3%A9_D201805_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Salon Carré D201805 1.jpg\" – Tangopaso, Public domain (https://commons.wikimedia.org/wiki/File:Salon_Carr%C3%A9_D201805_1.jpg)"
+ },
+ "ml3": {
+  "slot": "S3",
+  "so": 3,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Stealing_Mona_Lisa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Stealing Mona Lisa.jpg\" – La Domenica del Corriere, Public domain (https://commons.wikimedia.org/wiki/File:Stealing_Mona_Lisa.jpg)"
+ },
+ "ml5": {
+  "slot": "S5",
+  "so": 5,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Excelsior - Vincenzo Peruggia - Vol de La Joconde - Mona Lisa.jpg\" – Lafitte, Pierre (1872-1938). Directeur de publication, Public domain (https://commons.wikimedia.org/wiki/File:Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg)"
+ },
+ "ml6": {
+  "slot": "S6",
+  "so": 6,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Heren_met_snorren_en_bolhoeden_hebben_zich_geschaard_om_de_%27Mona_Lisa%27%2C_een_van_de_beroemdste%2C_SFA022800005.jpg/1920px-Heren_met_snorren_en_bolhoeden_hebben_zich_geschaard_om_de_%27Mona_Lisa%27%2C_een_van_de_beroemdste%2C_SFA022800005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Heren met snorren en bolhoeden hebben zich geschaard om de 'Mona Lisa', een van de beroemdste, SFA022800005.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Heren_met_snorren_en_bolhoeden_hebben_zich_geschaard_om_de_%27Mona_Lisa%27,_een_van_de_beroemdste,_SFA022800005.jpg)"
+ },
+ "ml7": {
+  "slot": "S7",
+  "so": 7,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vincenzo_Perugia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Vincenzo Perugia.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Vincenzo_Perugia.jpg)"
+ },
+ "ml10": {
+  "slot": "S10",
+  "so": 10,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Vincenzo_peruggia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Vincenzo peruggia.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Vincenzo_peruggia.jpg)"
+ },
+ "ml11": {
+  "slot": "S11",
+  "so": 11,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Two_men_carry_the_Mona_Lisa_back_to_the_Louvre_in_January_1914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Two men carry the Mona Lisa back to the Louvre in January 1914.jpg\" – AnonymousUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Two_men_carry_the_Mona_Lisa_back_to_the_Louvre_in_January_1914.jpg)"
+ },
+ "ml12": {
+  "slot": "S12",
+  "so": 12,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/After_photo_for_the_return_of_Gioconda_at_the_Louvre_Museum_1914.jpg/1920px-After_photo_for_the_return_of_Gioconda_at_the_Louvre_Museum_1914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"After photo for the return of Gioconda at the Louvre Museum 1914.jpg\" – Roger-Violett, Public domain (https://commons.wikimedia.org/wiki/File:After_photo_for_the_return_of_Gioconda_at_the_Louvre_Museum_1914.jpg)"
+ },
+ "ml13": {
+  "slot": "S13",
+  "so": 13,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Examples_of_Mona_Lisa_postcards_in_circulation_following_1911_theft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "credit": "\"Examples of Mona Lisa postcards in circulation following 1911 theft.jpg\" – An undesired fidelity, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Examples_of_Mona_Lisa_postcards_in_circulation_following_1911_theft.jpg)"
+ },
+ "ml14": {
+  "slot": "S14",
+  "so": 14,
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Crowd_in_front_of_the_Mona_Lisa_1.jpg/1920px-Crowd_in_front_of_the_Mona_Lisa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "\"Crowd in front of the Mona Lisa 1.jpg\" – Amaury Laporte, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Crowd_in_front_of_the_Mona_Lisa_1.jpg)"
+ }
+}

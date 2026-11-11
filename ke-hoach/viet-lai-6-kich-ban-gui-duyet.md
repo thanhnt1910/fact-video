@@ -323,7 +323,7 @@ Hook giữ nguyên bản đã duyệt.
 ### Toàn văn lời kể
 
 1. Bạn có biết, con mắt trên tờ một đô la từng nằm yên suốt hơn một trăm năm mươi năm?
-2. Đó là mặt sau của chiếc ấn quốc gia nước Mỹ, được thiết kế từ rất lâu nhưng chưa bao giờ dùng để đóng dấu.
+2. Nó là một nửa của con dấu quốc gia nước Mỹ, được thiết kế từ rất lâu nhưng chưa bao giờ dùng để đóng dấu.
 3. Người trình thiết kế cuối cùng cho Quốc hội là Charles Thomson, vào năm một nghìn bảy trăm tám mươi hai.
 4. Ông giải thích rằng kim tự tháp tượng trưng cho sức mạnh và sự bền vững, còn con mắt cùng dòng chữ Latin nói về sự che chở từ đấng tối cao.
 5. Kim tự tháp còn có mười ba bậc, ứng với mười ba bang đầu tiên, và chóp thì chưa xây xong.
@@ -340,7 +340,7 @@ Hook giữ nguyên bản đã duyệt.
 
 | Đoạn | Trước | Sau |
 |---|---|---|
-| 2 | Vì đó là mặt sau của chiếc ấn quốc gia của nước Mỹ. Nó được thiết kế từ rất lâu rồi, nhưng chưa bao giờ được dùng để đóng dấu. | Đó là mặt sau của chiếc ấn quốc gia nước Mỹ, được thiết kế từ rất lâu nhưng chưa bao giờ dùng để đóng dấu. |
+| 2 | Vì đó là mặt sau của chiếc ấn quốc gia của nước Mỹ. Nó được thiết kế từ rất lâu rồi, nhưng chưa bao giờ được dùng để đóng dấu. | Nó là một nửa của con dấu quốc gia nước Mỹ, được thiết kế từ rất lâu nhưng chưa bao giờ dùng để đóng dấu. |
 | 3 | Rồi người trình thiết kế cuối cùng là Charles Thomson, thư ký Quốc hội nước Mỹ, vào năm một nghìn bảy trăm tám mươi hai. | Người trình thiết kế cuối cùng cho Quốc hội là Charles Thomson, vào năm một nghìn bảy trăm tám mươi hai. |
 | 4 | Ông giải thích rõ: kim tự tháp là sức mạnh và sự bền vững. Con mắt cùng dòng chữ Latin nói về sự che chở từ đấng tối cao với nước Mỹ. | Ông giải thích rằng kim tự tháp tượng trưng cho sức mạnh và sự bền vững, còn con mắt cùng dòng chữ Latin nói về sự che chở từ đấng tối cao. |
 | 5 | Kim tự tháp còn có mười ba bậc, ứng với mười ba bang đầu tiên, và chưa xây xong chóp. | Kim tự tháp còn có mười ba bậc, ứng với mười ba bang đầu tiên, và chóp thì chưa xây xong. |

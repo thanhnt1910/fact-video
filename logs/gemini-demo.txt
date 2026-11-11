@@ -1,39 +1,56 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Làm sao đo thời gian cho chuẩn, khi đồng hồ lò xo 
+OK Leda 01: Làm sao biết núi Ê-vơ-rét cao hơn tám nghìn mét, k
+OK Leda 02: Nhưng người ta đã tính ra con số ấy từ một nơi các
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 03: Hóa ra bí mật chỉ là một góc ngắm và một phép nhân
+OK Leda 04: Vậy góc ngắm cho ta biết điều gì?
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 02: Nhưng chỉ cần một sợi dây và một quả nặng, độ lệch
+OK Leda 05: Thử với một cái cây: bạn đứng cách gốc ba mươi mét
+OK Leda 06: Đường nhìn lên ngọn cây tạo với mặt đất một góc, t
+OK Leda 07: Giả sử góc ngắm là bốn mươi lăm độ, tức là đường n
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 08: Với góc đó, bảng toán cho một con số gọi là tang, 
+OK Leda 09: Công thức là: chiều cao bằng khoảng cách nhân tang
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 10: Vậy cây cao ba mươi nhân một, bằng ba mươi mét.
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Hóa ra bí mật nằm ở một điều rất đơn giản: quả lắc
+OK Leda 11: Nhưng với ngọn núi, ta đâu thể mang thước tới đo k
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 04: Vậy vì sao quả lắc lại đều đến thế?
-OK Leda 05: Nhà khoa học Ga-li-lê thấy rằng hai con lắc dài bằ
    [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Nghĩa là thời gian ấy chỉ phụ thuộc vào độ dài dây
    [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 07: Ví dụ, trên xích đu, em bé hay người lớn đều mất g
-OK Leda 08: Vậy muốn đo thời gian, ta chỉ cần đếm số lần đung 
-OK Leda 09: Năm một nghìn sáu trăm năm mươi bảy, Hây-ghen được
-OK Leda 10: Ông đã làm xong mẫu từ cuối năm trước đó, và để qu
-OK Leda 11: Nhờ vậy độ lệch giảm từ khoảng mười lăm phút xuống
    [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 12: Ta tính thử: mười lăm phút nhân sáu mươi, bằng chí
-OK Leda 13: Rồi chín trăm giây chia mười lăm giây, được sáu mư
-OK Leda 14: Vậy đồng hồ quả lắc chính xác hơn khoảng sáu mươi 
-OK Leda 15: Công thức thật của quả lắc là: thời gian một lượt 
+OK Leda 12: Vì vậy người ta đo khoảng cách bằng cách ngắm cùng
    [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 16: Ở đây pi khoảng ba phẩy mười bốn, còn gờ là số đo 
-OK Leda 17: Thử với một sợi dây dài một mét.
-OK Leda 18: Một chia chín phẩy tám, được khoảng không phẩy một
-OK Leda 19: Lấy căn bậc hai của không phẩy một, được khoảng kh
-OK Leda 20: Rồi nhân với hai pi, tức khoảng sáu phẩy hai tám, 
+OK Leda 13: Ví dụ, bên kia sông có một cột cờ, còn bên này bạn
    [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 21: Vì thế quả lắc dài gần một mét cho nhịp tích tắc đ
-OK Leda 22: Vậy muốn đo thời gian thật đều, hãy dựa vào một th
-OK Leda 23: Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng mười 
+OK Leda 14: Từ mỗi cọc nhìn sang cột cờ, góc đo được đều là bố
+OK Leda 15: Khi đó cột cờ cách đoạn nối hai cọc một trăm chia 
+   [gemini] khóa …GAcg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 16: Cứ nối từng tam giác từ bờ biển Ấn Độ lên bắc, ngư
+OK Leda 17: Năm một nghìn tám trăm bốn mươi chín, nhóm khảo sá
+OK Leda 18: Từ mỗi trạm, họ nhận được một kết quả riêng.
+OK Leda 19: Rồi trung bình của sáu kết quả là hơn hai mươi chí
+   [gemini] khóa …WLfg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 20: Đến năm một nghìn tám trăm năm mươi sáu, ông Oóc, 
+OK Leda 21: Một phít dài khoảng ba mươi xăng-ti-mét, nên ta đổ
+OK Leda 22: Hai mươi chín nghìn nhân không phẩy ba không bốn t
+OK Leda 23: Nhưng còn một rắc rối: Trái Đất tròn, nên đỉnh núi
+   [gemini] khóa …xwcQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
+   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 35s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 37s…
+   [gemini] mọi khóa đang hết lượt, đợi 40s…
+OK Leda 24: Cụ thể, phần thấp đi bằng khoảng cách nhân khoảng 
+OK Leda 25: Trong đó, hai lần bán kính Trái Đất là khoảng mười
+OK Leda 26: Rồi một trăm bảy mươi bốn nhân một trăm bảy mươi b
+OK Leda 27: Sau đó chia ba mươi nghìn cho mười hai nghìn bảy t
+   [gemini] khóa …WLfg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 28: Vì vậy khi tính, người ta phải cộng thêm phần ấy, 
+OK Leda 29: Đến năm hai nghìn không trăm hai mươi, Nê-pan và T
+OK Leda 30: Nhờ vậy họ có kết quả mới, hơn tám nghìn tám trăm 
+OK Leda 31: Vậy con số của năm một nghìn tám trăm năm mươi sáu
+OK Leda 32: Rồi chín chia tám nghìn tám trăm, được khoảng một 
+OK Leda 33: Vậy một góc ngắm, một đoạn đã biết và một phép nhâ

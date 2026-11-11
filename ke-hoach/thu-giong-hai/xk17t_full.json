@@ -4,35 +4,35 @@
   "chuong": "Câu hỏi",
   "tone": "story",
   "text": "Bạn có biết, Napoleon không hề lùn? Ông cao khoảng một mét sáu mươi chín, mức trung bình thời ấy.",
-  "hien": "Bạn có biết, Napoleon không hề lùn? Ông cao khoảng một mét sáu mươi chín, mức trung bình thời ấy."
+  "hien": "Bạn có biết, Napoleon không hề lùn? Ông cao khoảng 1,69 mét, mức trung bình thời ấy."
  },
  {
   "n": 117002,
   "chuong": "Câu hỏi",
   "tone": "story",
-  "text": "Vậy vì sao cả thế giới tin ông là người lùn? Câu trả lời nằm ở một đơn vị đo, đội vệ binh, và một họa sĩ biếm họa.",
-  "hien": "Vậy vì sao cả thế giới tin ông là người lùn? Câu trả lời nằm ở một đơn vị đo, đội vệ binh, và một họa sĩ biếm họa."
+  "text": "Vậy vì sao cả thế giới tin ông lùn? Có một con số bị đọc nhầm, và một họa sĩ biếm họa.",
+  "hien": "Vậy vì sao cả thế giới tin ông lùn? Có một con số bị đọc nhầm, và một họa sĩ biếm họa."
  },
  {
   "n": 117003,
   "chuong": "Đơn vị đo",
   "tone": "story",
-  "text": "Số đo ghi sau khi ông mất là năm foot hai inch, nhưng đó là foot và inch của nước Pháp.",
-  "hien": "Số đo ghi sau khi ông mất là năm foot hai inch, nhưng đó là foot và inch của nước Pháp."
+  "text": "Số đo ghi sau khi ông mất là năm foot hai inch, nhưng đó là đơn vị đo của nước Pháp.",
+  "hien": "Số đo ghi sau khi ông mất là 5 foot 2 inch, nhưng đó là đơn vị đo của nước Pháp."
  },
  {
   "n": 117004,
   "chuong": "Đơn vị đo",
   "tone": "story",
   "text": "Người Pháp và người Anh dùng cùng tên đơn vị, nhưng độ dài lại khác nhau. Đổi ra mét, ông cao khoảng một mét sáu mươi chín.",
-  "hien": "Người Pháp và người Anh dùng cùng tên đơn vị, nhưng độ dài lại khác nhau. Đổi ra mét, ông cao khoảng một mét sáu mươi chín."
+  "hien": "Người Pháp và người Anh dùng cùng tên đơn vị, nhưng độ dài lại khác nhau. Đổi ra mét, ông cao khoảng 1,69 mét."
  },
  {
   "n": 117005,
   "chuong": "Đơn vị đo",
   "tone": "story",
-  "text": "Còn nếu đọc nhầm số ấy theo đơn vị của Anh, ông chỉ còn khoảng một mét năm mươi tám.",
-  "hien": "Còn nếu đọc nhầm số ấy theo đơn vị của Anh, ông chỉ còn khoảng một mét năm mươi tám."
+  "text": "Đọc nhầm số ấy theo đơn vị của Anh thì ông chỉ còn khoảng một mét năm mươi tám.",
+  "hien": "Đọc nhầm số ấy theo đơn vị của Anh thì ông chỉ còn khoảng 1,58 mét."
  },
  {
   "n": 117006,
@@ -45,40 +45,33 @@
   "n": 117007,
   "chuong": "Biệt danh",
   "tone": "story",
-  "text": "Lính gọi ông là hạ sĩ bé nhỏ, nhưng theo nhiều tài liệu, đó là cách gọi thân mật, không phải chê chiều cao.",
-  "hien": "Lính gọi ông là hạ sĩ bé nhỏ, nhưng theo nhiều tài liệu, đó là cách gọi thân mật, không phải chê chiều cao."
+  "text": "Lính gọi ông là hạ sĩ bé nhỏ. Nhưng đó là cách gọi thân mật, không phải chê chiều cao.",
+  "hien": "Lính gọi ông là hạ sĩ bé nhỏ. Nhưng đó là cách gọi thân mật, không phải chê chiều cao."
  },
  {
   "n": 117008,
   "chuong": "Biếm họa",
   "tone": "story",
-  "text": "Nhưng bên kia eo biển Manche, họa sĩ biếm họa người Anh James Gillray, chưa từng gặp ông, vẽ ông thành một đứa bé tí hon.",
-  "hien": "Nhưng bên kia eo biển Manche, họa sĩ biếm họa người Anh James Gillray, chưa từng gặp ông, vẽ ông thành một đứa bé tí hon."
+  "text": "Còn bên kia eo biển Manche, họa sĩ biếm họa người Anh James Gillray, dù chưa từng gặp ông, đã vẽ ông thành một đứa bé tí hon.",
+  "hien": "Còn bên kia eo biển Manche, họa sĩ biếm họa người Anh James Gillray, dù chưa từng gặp ông, đã vẽ ông thành một đứa bé tí hon."
  },
  {
   "n": 117009,
   "chuong": "Biếm họa",
   "tone": "story",
-  "text": "Rồi một bức tranh năm một nghìn tám trăm linh ba còn vẽ vua George Đệ Tam nâng ông trên lòng bàn tay.",
-  "hien": "Rồi một bức tranh năm 1803 còn vẽ vua George Đệ Tam nâng ông trên lòng bàn tay."
+  "text": "Rồi một bức tranh năm một nghìn tám trăm linh ba vẽ vua George Đệ Tam nâng ông trên lòng bàn tay.",
+  "hien": "Rồi một bức tranh năm 1803 vẽ vua George Đệ Tam nâng ông trên lòng bàn tay."
  },
  {
   "n": 117010,
   "chuong": "Biếm họa",
   "tone": "story",
-  "text": "Vậy mà báo chí Anh cứ tiếp tục đăng những bức tranh như thế, dù Napoleon phản đối.",
-  "hien": "Vậy mà báo chí Anh cứ tiếp tục đăng những bức tranh như thế, dù Napoleon phản đối."
+  "text": "Số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy.",
+  "hien": "Số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy."
  },
  {
   "n": 117011,
   "chuong": "Còn tranh luận",
-  "tone": "story",
-  "text": "Các nhà nghiên cứu vẫn tranh luận ông cao chính xác bao nhiêu, nhưng số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy.",
-  "hien": "Các nhà nghiên cứu vẫn tranh luận ông cao chính xác bao nhiêu, nhưng số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy."
- },
- {
-  "n": 117012,
-  "chuong": "Kết",
   "tone": "story",
   "text": "Vậy một lời châm biếm của vài họa sĩ có thể thắng cả số đo thật, suốt hơn hai trăm năm?",
   "hien": "Vậy một lời châm biếm của vài họa sĩ có thể thắng cả số đo thật, suốt hơn hai trăm năm?"

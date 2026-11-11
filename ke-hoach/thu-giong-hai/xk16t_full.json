@@ -3,29 +3,29 @@
   "n": 116001,
   "chuong": "Câu hỏi",
   "tone": "story",
-  "text": "Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa kể về những nhóm thợ? Không chỉ về những con phố.",
-  "hien": "Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa kể về những nhóm thợ? Không chỉ về những con phố."
+  "text": "Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa thực ra kể về những nhóm thợ?",
+  "hien": "Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa thực ra kể về những nhóm thợ?"
  },
  {
   "n": 116002,
   "chuong": "Câu hỏi",
   "tone": "story",
-  "text": "Vì thời xưa, phường không phải là phố, mà là một nhóm người cùng làm một nghề.",
-  "hien": "Vì thời xưa, phường không phải là phố, mà là một nhóm người cùng làm một nghề."
+  "text": "Vì thời xưa, phường không phải là phố, mà là nhóm người cùng làm một nghề.",
+  "hien": "Vì thời xưa, phường không phải là phố, mà là nhóm người cùng làm một nghề."
  },
  {
   "n": 116003,
   "chuong": "Phường",
   "tone": "story",
-  "text": "Thế là thợ cùng nghề từ các làng quanh Thăng Long kéo về, ở cùng một khu, rồi cùng bán hàng cho thương nhân.",
-  "hien": "Thế là thợ cùng nghề từ các làng quanh Thăng Long kéo về, ở cùng một khu, rồi cùng bán hàng cho thương nhân."
+  "text": "Thợ cùng nghề từ các làng quanh Thăng Long kéo về ở chung một khu, rồi cùng bán hàng cho thương nhân.",
+  "hien": "Thợ cùng nghề từ các làng quanh Thăng Long kéo về ở chung một khu, rồi cùng bán hàng cho thương nhân."
  },
  {
   "n": 116004,
   "chuong": "Phường",
   "tone": "story",
-  "text": "Rồi một phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành.",
-  "hien": "Rồi một phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành."
+  "text": "Mỗi phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành.",
+  "hien": "Mỗi phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành."
  },
  {
   "n": 116005,
@@ -38,29 +38,29 @@
   "n": 116006,
   "chuong": "Phố Hàng",
   "tone": "story",
-  "text": "Hàng Bạc làm đồ kim hoàn, Hàng Đường bán ô mai và bánh kẹo, Hàng Gai buôn tơ lụa.",
-  "hien": "Hàng Bạc làm đồ kim hoàn, Hàng Đường bán ô mai và bánh kẹo, Hàng Gai buôn tơ lụa."
+  "text": "Hàng Bạc làm đồ kim hoàn, còn Hàng Đường bán ô mai và bánh kẹo.",
+  "hien": "Hàng Bạc làm đồ kim hoàn, còn Hàng Đường bán ô mai và bánh kẹo."
  },
  {
   "n": 116007,
   "chuong": "Con số",
   "tone": "story",
-  "text": "Sách xưa ghi kinh thành Thăng Long có ba mươi sáu phường. Nhưng nhiều nhà nghiên cứu cho rằng đó là cách nói ước lệ, phố nghề thực tế còn nhiều hơn.",
-  "hien": "Sách xưa ghi kinh thành Thăng Long có 36 phường. Nhưng nhiều nhà nghiên cứu cho rằng đó là cách nói ước lệ, phố nghề thực tế còn nhiều hơn."
+  "text": "Ba mươi sáu chỉ là cách nói ước lệ, còn phố nghề thực tế nhiều hơn thế.",
+  "hien": "Ba mươi sáu chỉ là cách nói ước lệ, còn phố nghề thực tế nhiều hơn thế."
  },
  {
   "n": 116008,
   "chuong": "Còn lại",
   "tone": "story",
-  "text": "Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn.",
-  "hien": "Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn."
+  "text": "Nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn.",
+  "hien": "Nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn."
  },
  {
   "n": 116009,
   "chuong": "Còn lại",
   "tone": "story",
-  "text": "Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ.",
-  "hien": "Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ."
+  "text": "Phố Mã Mây là một ví dụ, vì ngày xưa một nửa phố bán mây, nửa kia bán đồ mã đốt cúng.",
+  "hien": "Phố Mã Mây là một ví dụ, vì ngày xưa một nửa phố bán mây, nửa kia bán đồ mã đốt cúng."
  },
  {
   "n": 116010,

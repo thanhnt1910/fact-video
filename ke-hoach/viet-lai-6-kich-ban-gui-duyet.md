@@ -1,11 +1,11 @@
 # 6 kịch bản viết lại (11/11/2026), gửi duyệt
 
-Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân – kết quả, bỏ lời bình và liệt kê nguồn, mỗi đoạn một ý, 25 giây đầu không dồn năm/tên. Mọi dữ kiện giữ nguyên bảng nguồn đã duyệt ở `viet-7-kich-ban-gui-duyet.md`; chỉ bỏ hoặc nói nhỏ lại, không thêm dữ kiện mới.
+Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân – kết quả, bỏ lời bình và liệt kê nguồn, mỗi đoạn một ý, 25 giây đầu không dồn năm/tên. Không thêm dữ kiện mới; chỉ bỏ hoặc nói nhỏ lại. Kết quả `kiem_kich_ban`, `kiem_mo_dau`, `kiem_mach_ke`: 0 ❌ cho cả 6.
 
 
 ## Tiền giấy Hồ Quý Ly (`xk13t`, 11 đoạn)
 
-### Toàn văn mới
+### Toàn văn lời kể
 
 1. Bạn có biết, từ thời nhà Trần nước ta đã có tiền giấy, và dân bị cấm dùng tiền đồng?
 2. Một loại tiền tiện hơn, vậy mà dân không chịu dùng. Vì sao?
@@ -33,9 +33,45 @@ Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân �
 | 10 | Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang. | Khoảng mười năm sau khi tiền giấy ra đời, nhà Hồ sụp đổ khi quân nhà Minh tràn sang. |
 | 11 | Vậy một đồng tiền tốt, nhưng được áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không? | Vậy một đồng tiền tốt, nhưng bị áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không? |
 
+### 3 phương án hook
+
+| # | Kiểu | Câu | Chấm 8 tiêu chí |
+|---|---|---|---|
+| 1 | Chọn: lật lại bằng tác nhân | Bạn có biết, nước ta có tiền giấy từ hơn sáu trăm năm trước, và dân bị cấm dùng tiền đồng? | 7/8: tiền là vật quen, hai điều bất ngờ gắn với nhau, 20 chữ, không năm; hứa đáp án (vì sao thất bại); đáp án đến ở đoạn 8–9; 2 nguồn cho lệnh cấm, nhưng cả hai là báo, không phải Toàn thư (xem lệch nguồn). |
+| 2 | Nghịch lý | Bạn có biết, đồng tiền giấy đầu tiên của người Việt do một người nắm quyền ép dân dùng? | 5/8: gần như đúng nhưng hơi kết luận; dùng chữ "ép" chưa kiểm. |
+| 3 | Chi tiết bất ngờ | Bạn có biết, tờ tiền giấy cổ của nước ta in hình rồng, rùa, lân, phượng? | 5/8: đẹp nhưng không có khoảng cách tò mò. |
+
+**Hook đã chọn (sửa lần này):** Hook mới bỏ 'hơn sáu trăm năm' (số) để đạt kiểm tra mở đầu: 'Bạn có biết, từ thời nhà Trần nước ta đã có tiền giấy, và dân bị cấm dùng tiền đồng?'
+
+### Nguồn đã đọc
+
+- Báo Văn hóa (Hoàng Hải, 25/11/2020), "Một kho tàng giấy bạc": năm Quang Thái 9 (1396), tên Thông bảo hội sao
+- Zing/Znews, "Đồng tiền đầu tiên của người Việt có từ bao giờ": theo Phan Huy Chú, 1396 dưới vua Trần Thuận Tông, hình thiên nhiên và con vật
+- Ngôi sao (đăng lại bài tư liệu): mệnh giá, hình rồng/sóng/mây/rùa/lân/phượng, thu hồi tiền đồng, cấm dùng, xử tử, thất bại
+- VietnamNet (bản tiếng Anh) "Over 600-year history of Vietnam banknotes": cấm tiền đồng, xử tử, tịch thu tài sản, thất bại do thiếu cải cách kinh tế – xã hội
+
+### Điểm lệch giữa các nguồn
+
+- Tỷ lệ đổi: Ngôi sao ghi 1 quan tiền đồng đổi 1 quan 2 tiền giấy (dẫn Toàn thư); VietnamNet ghi 1 quan đổi 2 tờ → bỏ tỷ lệ.
+- Ngôi sao viết tiền giấy ra đời "sau khi Hồ Quý Ly lật đổ nhà Trần" — sai, vì ông lên ngôi năm 1400; hai nguồn khác đều nói 1396 dưới nhà Trần → lời kể theo hai nguồn kia.
+- Ngôi sao nói bãi bỏ năm 1403 nhưng cũng nói lưu hành 10 năm (đến 1406) → tự mâu thuẫn, bỏ mốc 1403.
+- Lệnh xử tử chỉ có từ hai bài báo, không bài nào trích Toàn thư → lời kể nói "theo nhiều tài liệu".
+
+### Chi tiết đã bỏ
+
+- Tỷ lệ đổi tiền, mốc 1403, tháng 4 năm 1396, mệnh giá từng loại, kích thước tờ tiền: không có hai nguồn khớp.
+- Vai trò của Hồ Quý Ly trong việc phát hành (chỉ Ngôi sao gắn với ông) và việc ông nắm quyền triều chính năm 1396: không tra được văn bản Toàn thư nên BỎ khỏi lời kể; lời kể chỉ nói triều đình nhà Trần, vua Trần Thuận Tông.
+- Năm 1396 và cụm 'hơn sáu trăm năm' bỏ khỏi 25 giây đầu (quy tắc: tối đa một mốc năm); lời kể chỉ nói 'cuối thời nhà Trần'.
+- Câu 'Theo một bài của báo VietnamNet… thiếu cải cách' bỏ: đó là lời bình của báo, không phải sự kiện; thay bằng một câu hình ảnh không thêm dữ kiện.
+- Lệnh xử tử vẫn chỉ có hai bài báo, không có Toàn thư → giữ ở dạng 'người ta chép lại rằng', không khẳng định chắc.
+
+### Dấu ấn riêng
+
+- Nền giấy dó nâu vàng, vân gỗ khắc; hiệu ứng: dấu đỏ triều đình in xuống từng tờ; cảnh đặc trưng: tờ tiền vẽ phẳng với hình rồng, rùa, lân, phượng, chồng thành xấp rồi đổi lấy xâu tiền đồng.
+
 ## D-Day hoãn vì dự báo thời tiết (`xk14t`, 12 đoạn)
 
-### Toàn văn mới
+### Toàn văn lời kể
 
 1. Bạn có biết, cuộc đổ bộ Normandy từng bị hoãn một ngày chỉ vì một dự báo thời tiết?
 2. Kế hoạch đã chốt sẵn một ngày, nhưng thời tiết hôm đó chẳng chịu theo.
@@ -63,9 +99,39 @@ Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân �
 | 9 | Hơn nữa, chờ lâu hơn nghĩa là phải lùi cả hai tuần, và kế hoạch dễ bị lộ. | Ông cũng không thể chờ lâu, vì hoãn thêm nữa là phải lùi cả hai tuần, và kế hoạch dễ bị lộ. |
 | 10 | Còn phía quân Đức cũng theo dõi thời tiết. Họ tin rằng bão sẽ kéo dài, nên nhiều nơi phòng thủ lỏng lẻo. | Còn phía quân Đức cũng theo dõi thời tiết, nhưng họ tin bão sẽ kéo dài, nên nhiều nơi phòng thủ lỏng lẻo. |
 
+### 3 phương án hook
+
+| # | Kiểu | Câu | Chấm 8 tiêu chí |
+|---|---|---|---|
+| 1 | Chọn: nghịch lý | Bạn có biết, cuộc đổ bộ Normandy từng bị hoãn một ngày chỉ vì một dự báo thời tiết? | 7/8: Normandy quen với khán giả xem lịch sử; 19 chữ; hứa đáp án (dự báo ấy thế nào); đúng theo 3 nguồn; thiếu khoảng cách tò mò mạnh hơn "lật lại". |
+| 2 | Nghịch lý có người | Bạn có biết, một bản dự báo thời tiết bị nhiều người chê đã cứu cả cuộc đổ bộ? | 5/8: "cứu cả cuộc đổ bộ" nói quá, chưa kiểm. |
+| 3 | Câu đố | Bạn có biết, bên nào đoán đúng thời tiết sẽ thắng ở Normandy? | 4/8: lộ hướng, không rõ. |
+
+Hook giữ nguyên bản đã duyệt.
+
+### Nguồn đã đọc
+
+- Hội Khí tượng Hoàng gia Anh (RMetS), "Forecasting under pressure: the D-Day forecast"
+- AccuWeather, "How Ike was persuaded to delay the D-Day invasion by 24 hours"
+
+### Điểm lệch giữa các nguồn
+
+- RMetS viết hoãn "48 giờ đến 6/6", AccuWeather viết 24 giờ: từ 5/6 sang 6/6 là một ngày → lời kể nói "một ngày".
+- RMetS: 6/6 là cơ hội duy nhất của tháng; nhưng cũng nói còn khoảng 17–21/6 → bỏ câu "duy nhất".
+
+### Chi tiết đã bỏ
+
+- Rommel về nghỉ phép, dự báo của Đức, giờ Eisenhower quyết định cuối cùng (4 giờ 15 sáng 5/6): chưa kiểm đủ hai nguồn → bỏ.
+- Số tàu, số lính: bỏ vì không có trong hai nguồn.
+- Không bỏ dữ kiện nào; chỉ đổi cách nối câu và bỏ cụm 'cùng các chuyên gia của nước Anh và nước Mỹ'.
+
+### Dấu ấn riêng
+
+- Nền bản đồ thời tiết: xanh biển, đường đẳng áp; hiệu ứng: đường áp suất trôi chậm ở mép; cảnh đặc trưng: lịch tháng 6 gạch ngày 5, đánh dấu ngày 6, cơn bão đổi hướng.
+
 ## Chiến tranh Anh–Zanzibar (`xk15t`, 14 đoạn)
 
-### Toàn văn mới
+### Toàn văn lời kể
 
 1. Bạn có biết, cuộc chiến được coi là ngắn nhất lịch sử còn không dài hơn một tiết học?
 2. Nó nổ ra ở Zanzibar, quần đảo ngoài khơi bờ biển phía đông châu Phi, chỉ vì một chiếc ngai vàng.
@@ -96,9 +162,40 @@ Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân �
 | 11 | Ước tính khoảng năm trăm người phía Zanzibar chết hoặc bị thương, còn phía quân Anh chỉ có một người bị thương. | Khoảng năm trăm người phía Zanzibar chết hoặc bị thương, còn phía quân Anh chỉ có một người bị thương. |
 | 12 | Còn ông Khalid chạy sang lãnh sự quán Đức xin ẩn náu. | Ông Khalid chạy sang lãnh sự quán Đức xin ẩn náu. |
 
+### 3 phương án hook
+
+| # | Kiểu | Câu | Chấm 8 tiêu chí |
+|---|---|---|---|
+| 1 | Chọn: chi tiết bất ngờ | Bạn có biết, cuộc chiến được coi là ngắn nhất lịch sử còn không dài hơn một tiết học? | 7/8: so sánh quen thuộc (tiết học), 19 chữ, hứa đáp án; "được coi là" để không nói quá; thiếu đối tượng quen thuộc của khán giả Việt (Zanzibar lạ). |
+| 2 | Nghịch lý | Bạn có biết, một chiến hạm chỉ cần chưa đầy một giờ để đổi vua của cả một nước? | 5/8: "đổi vua của cả một nước" hơi quá. |
+| 3 | Câu đố | Bạn có biết, hai nước từng đánh nhau xong trước khi bạn nấu xong một nồi cơm? | 4/8: so sánh nồi cơm không kiểm được. |
+
+Hook giữ nguyên bản đã duyệt.
+
+### Nguồn đã đọc
+
+- History Today, "The Anglo-Zanzibar War"
+- History Revealed, "The war Britain won in 38 minutes"
+
+### Điểm lệch giữa các nguồn
+
+- Thời gian: 38 phút (hai nguồn), "một số nguồn nói 45 phút" (History Revealed) → lời kể nói cả hai.
+- Quan hệ giữa Khalid và vị quốc vương đã mất: cháu (History Today) hay anh em họ (History Revealed) → bỏ.
+- History Revealed viết quốc vương "gần như chắc chắn bị đầu độc" → bỏ.
+
+### Chi tiết đã bỏ
+
+- Nguyên nhân cái chết, giờ tối hậu thư tương ứng lúc 8 giờ (chỉ xin thương lượng), tên đô đốc Harry Lawson, chiếc du thuyền bị đánh chìm, việc Khalid bị bắt về sau: một nguồn hoặc chưa kiểm → bỏ.
+- Câu 'một số nguồn tính là 45 phút' bỏ: nguồn mạnh hơn (hai nguồn) là 38 phút.
+- Tên Khalid bin Barghash dời sang đoạn 6 để 25 giây đầu không dồn tên.
+
+### Dấu ấn riêng
+
+- Nền cung điện trắng xanh biển, biển Ấn Độ Dương; hiệu ứng: đồng hồ lớn đếm 9:00 → 9:40 chạy suốt video; cảnh đặc trưng: đồng hồ đếm ngược trên tối hậu thư và thanh thời gian 38 phút.
+
 ## 36 phố phường Hà Nội (`xk16t`, 10 đoạn)
 
-### Toàn văn mới
+### Toàn văn lời kể
 
 1. Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa thực ra kể về những nhóm thợ?
 2. Vì thời xưa, phường không phải là phố, mà là nhóm người cùng làm một nghề.
@@ -124,9 +221,45 @@ Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân �
 | 8 | Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn. | Nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn. |
 | 9 | Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ. | Phố Mã Mây là một ví dụ, vì ngày xưa một nửa phố bán mây, nửa kia bán đồ mã đốt cúng. |
 
+### 3 phương án hook
+
+| # | Kiểu | Câu | Chấm 8 tiêu chí |
+|---|---|---|---|
+| 1 | Chọn: đối nghịch niềm tin | Bạn có biết, ba mươi sáu phố phường của Hà Nội xưa kể về những nhóm thợ? Không chỉ về những con phố. | 7/8: Hà Nội 36 phố phường quen với mọi người Việt, có điểm lật lại, 19 chữ; hứa đáp án; được kể ở đoạn 2–4; nếu cần chặt hơn: thật nhưng chỉ dựa 2 nguồn (xem nguồn). |
+| 2 | Nghịch lý | Bạn có biết, Hà Nội có nhiều hơn ba mươi sáu phố, mà người ta vẫn gọi là ba mươi sáu? | 6/8: thật (Nhân Dân + Cổng TTCP) nhưng không giải thích "phường", lật lại yếu hơn. |
+| 3 | Chi tiết cụ thể | Bạn có biết, tên Hàng Bạc, Hàng Gai, Hàng Đường là tên của các nhóm thợ từ nghìn năm trước? | 5/8: "nghìn năm trước" không kiểm được. |
+
+**Hook đã chọn (sửa lần này):** Hook rút còn 17 chữ: 'ba mươi sáu phố phường của Hà Nội xưa thực ra kể về những nhóm thợ'.
+
+### Nguồn đã đọc
+
+- Cổng thông tin Chính phủ (Hanoi Capital), "Layers of meaning": phường là nhóm thợ/người buôn cùng nghề và đơn vị quản lý cơ sở thời Lê; Dư địa chí và Vũ trung tùy bút nói 36 phường; con số không phải lúc nào cũng phản ánh đúng thực tế
+- Báo Nhân Dân, "Phố nghề cổ trong dòng chảy thời gian": 36 phố phường là cách nói ước lệ, chỉ số nhiều; số phố nghề nhiều hơn 36; Hàng Gai, Hàng Bạc, Hàng Đường
+- Wikipedia (Old Quarter, Hanoi): thợ các làng quanh Thăng Long gom theo nghề, phố lấy tên nghề, "Hàng", đền tổ nghề phần lớn đã mất, còn Mã Mây và Kim Cổ (dùng làm nguồn phụ)
+
+### Điểm lệch giữa các nguồn
+
+- Nguyễn Trãi (Dư địa chí 1438) ghi 2 huyện x 18 phường theo Cổng TTCP: nhiều nhà nghiên cứu tranh luận niên đại văn bản này → lời kể chỉ trích Phạm Đình Hổ.
+- Số phường thời Trần: 61 (một nguồn) → bỏ.
+- Khu phố cổ hiện nay: 76 phố/10 phường hành chính (Wikipedia, một nguồn) → bỏ.
+
+### Chi tiết đã bỏ
+
+- Tên Phạm Đình Hổ, Vũ trung tùy bút, Dư địa chí: không tra được văn bản gốc → bỏ khỏi lời kể.
+- Thái Tổ chọn Thăng Long 1010 là khởi đầu (đây là giả thuyết) → bỏ.
+- Việc Hàng Quạt nay nổi nghề khắc dấu: bỏ vì dễ gây hiểu nhầm.
+- Câu hỏi hook bằng "ban đầu" bỏ vì chưa kiểm sách gốc.
+- Hàng Gai bỏ khỏi ví dụ; đền thờ tổ nghề, Mã Mây và Kim Cổ như nơi còn đền: bỏ, vì chỉ có Wikipedia, hai nguồn khác (Cổng thông tin Chính phủ, VnExpress) không xác nhận.
+- 'Sách xưa ghi' và 'nhiều nhà nghiên cứu cho rằng' bỏ; giữ nội dung 'ba mươi sáu là cách nói ước lệ' (Báo Nhân Dân, Cổng TTCP).
+- Thêm: phố Mã Mây một nửa bán mây, nửa bán đồ mã (Cổng thông tin Chính phủ, hanoicapital.chinhphu.vn).
+
+### Dấu ấn riêng
+
+- Nền gạch Bát Tràng nâu đỏ, mái ngói phố cổ; hiệu ứng: biển hiệu "Hàng ..." đung đưa ở mép; cảnh đặc trưng: lưới bản đồ nhỏ, mỗi ô sáng lên một nghề, rồi hiện chữ ba mươi sáu ước lệ.
+
 ## Napoleon không lùn (`xk17t`, 11 đoạn)
 
-### Toàn văn mới
+### Toàn văn lời kể
 
 1. Bạn có biết, Napoleon không hề lùn? Ông cao khoảng một mét sáu mươi chín, mức trung bình thời ấy.
 2. Vậy vì sao cả thế giới tin ông lùn? Có một con số bị đọc nhầm, và một họa sĩ biếm họa.
@@ -154,9 +287,40 @@ Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân �
 | 11 | Các nhà nghiên cứu vẫn tranh luận ông cao chính xác bao nhiêu, nhưng số đo ghi lại cho thấy ông ở mức trung bình của người Pháp thời ấy. | Vậy một lời châm biếm của vài họa sĩ có thể thắng cả số đo thật, suốt hơn hai trăm năm? |
 | bỏ 12 | Vậy một lời châm biếm của vài họa sĩ có thể thắng cả số đo thật, suốt hơn hai trăm năm? | (bỏ) |
 
+### 3 phương án hook
+
+| # | Kiểu | Câu | Chấm 8 tiêu chí |
+|---|---|---|---|
+| 1 | Chọn: lật lại niềm tin | Bạn có biết, Napoleon không hề lùn? Ông cao khoảng một mét sáu mươi chín, mức trung bình thời ấy. | 8/8: Napoleon ai cũng biết; 20 chữ; hứa đáp án (vì sao hiểu nhầm); đáp án đến ở đoạn 3–8; đúng theo NatGeo và ScienceABC. |
+| 2 | Nghịch lý | Bạn có biết, một họa sĩ chưa từng gặp Napoleon đã làm cả thế giới tin ông lùn? | 6/8: thật nhưng chỉ nói một nguyên nhân. |
+| 3 | Chi tiết | Bạn có biết, Napoleon cao hơn người Anh tưởng tượng gần mười hai xăng-ti-mét? | 5/8: cần chú thích so sánh. |
+
+Hook giữ nguyên bản đã duyệt.
+
+### Nguồn đã đọc
+
+- National Geographic, "Was Napoleon even short?"
+- Science ABC, "Was Napoleon really short?"
+
+### Điểm lệch giữa các nguồn
+
+- NatGeo: khoảng "5 foot 6" đo bằng đơn vị Anh; Science ABC: 5 foot 2 đơn vị Pháp ≈ 1,69 m → cùng một chiều cao, hai cách đo; lời kể dùng 1,69 m.
+- Mức trung bình thời ấy: Science ABC nói "mức trung bình ở Pháp", NatGeo không đưa số → không nêu số cụ thể.
+
+### Chi tiết đã bỏ
+
+- Số liệu chiều cao trung bình người Pháp, chiều cao cụ thể của vệ binh, câu của Napoleon về Gillray ("reportedly"): bỏ.
+- Việc khám nghiệm tử thi xác nhận: giữ nguyên ở chỗ "số đo ghi sau khi ông mất".
+- Câu 'báo chí Anh vẫn tiếp tục đăng… dù Napoleon phản đối' bỏ: chưa có hai nguồn.
+- 'Theo nhiều tài liệu' và 'các nhà nghiên cứu vẫn tranh luận' bỏ khỏi lời kể.
+
+### Dấu ấn riêng
+
+- Nền giấy tranh biếm họa cũ, ô khung đôi; hiệu ứng: thước đo kéo dài trôi ngang; cảnh đặc trưng: hai thước (Pháp và Anh) đặt cạnh nhau, người đo thành ba hình khác nhau.
+
 ## Con mắt trên tờ một đô la (`dola2s`, 13 đoạn)
 
-### Toàn văn mới
+### Toàn văn lời kể
 
 1. Bạn có biết, con mắt trên tờ một đô la từng nằm yên suốt hơn một trăm năm mươi năm?
 2. Đó là mặt sau của chiếc ấn quốc gia nước Mỹ, được thiết kế từ rất lâu nhưng chưa bao giờ dùng để đóng dấu.
@@ -185,3 +349,37 @@ Viết lại theo quy tắc anh đặt: một mạch kể nối nguyên nhân �
 | 8 | Rồi hơn một thế kỷ rưỡi sau, Bộ trưởng Nông nghiệp Henry Wallace đọc một ấn phẩm về chiếc ấn. Ông thấy mặt sau chưa từng được dùng. | Hơn một thế kỷ rưỡi sau, Bộ trưởng Nông nghiệp Henry Wallace đọc một ấn phẩm về chiếc ấn, và để ý thấy mặt sau chưa từng được dùng. |
 | 9 | Đó là theo lời ông kể lại nhiều năm sau. Ông mang chuyện ấy đến cho Tổng thống Franklin Roosevelt, người rất thích con mắt này. | Theo lời ông kể nhiều năm sau, ông mang chuyện ấy đến cho Tổng thống Franklin Roosevelt, người rất thích con mắt này. |
 | 12 | Từ đó, một hình vẽ ra đời từ thế kỷ mười tám trở thành hình mà rất nhiều người trên thế giới cầm trên tay. | Từ đó, hình vẽ ra đời từ thế kỷ mười tám nằm trên mọi tờ một đô la. |
+
+### 3 phương án hook
+
+| # | Kiểu | Câu | Chấm 8 tiêu chí |
+|---|---|---|---|
+| 1 | Chọn: chi tiết cụ thể | Bạn có biết, con mắt trên tờ một đô la từng nằm yên suốt hơn một trăm năm mươi năm? | 7/8: tờ một đô la quen, 20 chữ, không năm; hứa đáp án; được kể ở đoạn 7–11; 2 nguồn (Bộ Ngoại giao Mỹ, Atlanta Fed); "nằm yên" nghĩa mặt sau chưa từng làm khuôn. |
+| 2 | Nghịch lý | Bạn có biết, con mắt trên tờ một đô la được vẽ ra để nói về niềm tin chứ không phải bí mật? | 5/8: lật lại nhưng nói "bí mật" chưa có nguồn bác thuyết âm mưu. |
+| 3 | Câu đố | Bạn có biết, ai đã đưa con mắt lên tờ một đô la? | 5/8: nhưng nguồn chỉ có hồi ức của Wallace, chưa chắc. |
+
+Hook giữ nguyên bản đã duyệt.
+
+### Nguồn đã đọc
+
+- Bộ Ngoại giao Mỹ (diplomacy.state.gov), tài liệu "The Great Seal of the United States": lời giải thích của Thomson, mặt sau chưa khắc khuôn, Roosevelt đổi chỗ hai mặt
+- Atlanta Fed, "Battle of the Bills: One dollar bill": Thomson trình bản thiết kế 1782, 13 hàng ứng 13 bang, bản 1935
+- uscurrency.gov, "Symbols in the Seal": 13 bậc, số La Mã chỉ 1776, Roosevelt
+- greatseal.com (Henry Wallace and FDR): hồi ức của Wallace viết 17–21 năm sau
+
+### Điểm lệch giữa các nguồn
+
+- Ngày Thomson trình Quốc hội: 13/6/1782 (Atlanta Fed) so với ngày Quốc hội thông qua mà bản cũ ghi 20/6/1782: chỉ giữ năm 1782.
+- Cách Wallace đưa ý tưởng đến Roosevelt chỉ có hồi ức của chính ông (greatseal.com), còn Bộ Ngoại giao Mỹ chỉ nói Bộ Tài chính gửi thiết kế cho Roosevelt duyệt → lời kể nói rõ "theo lời ông kể nhiều năm sau".
+
+### Chi tiết đã bỏ
+
+- Bản cũ nhắc Franklin đề nghị hình Moses, họa sĩ du Simitière, ba ủy ban, William Barton: không cần cho mạch mới → bỏ.
+- Cách dịch Annuit Coeptis, Novus Ordo Seclorum sang tiếng Việt: Atlanta Fed dịch khác nhau, bỏ khỏi lời kể.
+- Diễn giải Masonic và thuyết âm mưu: không đưa vào.
+- Câu tổng kết 'trở thành hình mà rất nhiều người trên thế giới cầm trên tay' rút thành một câu sự kiện.
+- 'Theo lời ông kể nhiều năm sau' giữ nhưng lồng vào câu, vì nguồn duy nhất là hồi ức của Wallace.
+
+### Dấu ấn riêng
+
+- Nền giấy bạc xanh lục, họa tiết guilloche; hiệu ứng: vân chìm quay chậm ở mép; cảnh đặc trưng: kim tự tháp mười ba bậc xây dần từng bậc và chừa chóp.

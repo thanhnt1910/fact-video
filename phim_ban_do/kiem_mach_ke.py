@@ -9,7 +9,7 @@
   - số lần trích nguồn "Theo ...": ⚠️ > 2
   - đoạn có từ 2 con số/năm trở lên: ⚠️
   - đoạn có từ 4 tên riêng trở lên: ⚠️
-  - số ý chính: ⚠️ ngoài khoảng 5-7 chương/ý (đếm theo trường `chuong`, nếu chỉ một chương thì bỏ qua)
+  - số ý chính: không giới hạn (chủ kênh bỏ quy tắc 5-7 ý ngày 11/11/2026; độ dài và số ý theo nhu cầu giải thích)
 Thoát mã 1 nếu có ❌.
 """
 import json, re, sys
@@ -53,9 +53,6 @@ def kiem(ma):
         tr = ten_rieng(h)
         if len(tr) >= 4:
             print(f"⚠️ đoạn {n}: {len(tr)} tên riêng {tr}"); warn += 1
-    ch = len({x.get('chuong') for x in d})
-    if ch > 1 and not 5 <= ch <= 7:
-        print(f"⚠️ {ch} chương (nên 5-7 ý chính)"); warn += 1
     print(f"   -> {loi} ❌, {warn} ⚠️")
     return loi
 

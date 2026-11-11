@@ -6,7 +6,7 @@ Chưa đọc giọng, chưa dựng, chưa chạy workflow. Kiểm bằng `kiem_k
 
 Hai bản Eiffel (xk9s) và Chùa Một Cột (xk12s) vẫn chờ anh duyệt riêng, tôi không sửa.
 
-Tiêu đề đăng ở mỗi bản là đề xuất, dạng câu hỏi ngắn, đúng sự thật.
+**Mẫu tiêu đề bám công thức câu hỏi ngắn, đúng sự thật; chưa dùng chữ chung chung.**
 
 
 ---
@@ -64,26 +64,25 @@ Tiêu đề đăng ở mỗi bản là đề xuất, dạng câu hỏi ngắn, �
 
 ---
 
-## Tiền giấy Hồ Quý Ly (`xk13t`, 12 đoạn, 248 chữ, khoảng 1.3 phút)
+## Tiền giấy Hồ Quý Ly (`xk13t`, 11 đoạn, 231 chữ, khoảng 1.2 phút)
 
 **Tiêu đề đăng đề xuất:** Tiền giấy đầu tiên của nước ta: vì sao dân không chịu dùng?
 
-**Thay đổi:** BẢN MỚI (chưa gửi trước đó).
+**Thay đổi:** BẢN MỚI. Đã bỏ câu về vai trò Hồ Quý Ly vì không tra được Toàn thư.
 
 ### Toàn văn lời kể
 
 113001. Bạn có biết, nước ta có tiền giấy từ hơn sáu trăm năm trước, và dân bị cấm dùng tiền đồng?
 113002. Nghe thì hiện đại, nhưng chính sách ấy đã thất bại. Vì sao một loại tiền tiện hơn lại không được dân đón nhận?
-113003. Năm 1396, triều đình nhà Trần cho in loại tiền giấy đầu tiên của nước ta, gọi là Thông bảo hội sao.
-113004. Lúc đó vua là Trần Thuận Tông, còn Hồ Quý Ly là người nắm mọi việc triều chính.
-113005. Rồi tùy mệnh giá, tờ tiền được in những hình khác nhau: sóng nước, mây, và các linh vật như rồng, rùa, lân, phượng.
-113006. Sau đó, triều đình thu tiền đồng về, rồi đổi lấy tiền giấy. Dân không được cất giữ hay dùng tiền đồng nữa.
-113007. Theo nhiều tài liệu, ai vi phạm có thể bị xử tử, và tài sản bị tịch thu.
-113008. Nhưng dân quen dùng tiền đồng, lại bị ép đổi sang tiền giấy, nên nhiều nơi quay về đổi hàng lấy hàng.
-113009. Vì vậy tiền giấy dần mất giá trị, rồi không còn được dùng nữa.
-113010. Theo một bài của báo VietnamNet, chính sách này thiếu những cải cách kinh tế và xã hội đi kèm.
-113011. Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang.
-113012. Vậy một đồng tiền tốt, nhưng được áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không?
+113003. Năm 1396, dưới thời vua Trần Thuận Tông, triều đình nhà Trần cho in tờ tiền giấy đầu tiên của nước ta.
+113004. Tờ tiền ấy gọi là Thông bảo hội sao. Tùy mệnh giá, nó in những hình khác nhau: sóng nước, mây, rồng, rùa, lân, phượng.
+113005. Sau đó, triều đình thu tiền đồng về, rồi đổi lấy tiền giấy. Dân không được cất giữ hay dùng tiền đồng nữa.
+113006. Theo nhiều tài liệu, ai vi phạm có thể bị xử tử, và tài sản bị tịch thu.
+113007. Nhưng dân quen dùng tiền đồng, lại bị ép đổi sang tiền giấy, nên nhiều nơi quay về đổi hàng lấy hàng.
+113008. Vì vậy tiền giấy dần mất giá trị, rồi không còn được dùng nữa.
+113009. Theo một bài của báo VietnamNet, chính sách này thiếu những cải cách kinh tế và xã hội đi kèm.
+113010. Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang.
+113011. Vậy một đồng tiền tốt, nhưng được áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không?
 
 ### 3 phương án hook
 
@@ -110,7 +109,7 @@ Tiêu đề đăng ở mỗi bản là đề xuất, dạng câu hỏi ngắn, �
 ### Chi tiết đã bỏ
 
 - Tỷ lệ đổi tiền, mốc 1403, tháng 4 năm 1396, mệnh giá từng loại, kích thước tờ tiền: không có hai nguồn khớp.
-- Hồ Quý Ly nắm việc triều chính (đoạn 4) dựa vào kiến thức chung về Toàn thư; chưa đối chiếu được văn bản Toàn thư trực tiếp trong lần này → nếu anh muốn chắc, tôi sẽ tra bản Toàn thư trước khi đọc giọng.
+- Vai trò của Hồ Quý Ly trong việc phát hành (chỉ Ngôi sao gắn với ông) và việc ông nắm quyền triều chính năm 1396: không tra được văn bản Toàn thư nên BỎ khỏi lời kể; lời kể chỉ nói triều đình nhà Trần, vua Trần Thuận Tông.
 
 ### Dấu ấn riêng
 - Nền giấy dó nâu vàng, vân gỗ khắc; hiệu ứng: dấu đỏ triều đình in xuống từng tờ; cảnh đặc trưng: tờ tiền vẽ phẳng với hình rồng, rùa, lân, phượng, chồng thành xấp rồi đổi lấy xâu tiền đồng.
@@ -217,11 +216,11 @@ Tiêu đề đăng ở mỗi bản là đề xuất, dạng câu hỏi ngắn, �
 
 ---
 
-## 36 phố phường Hà Nội (`xk16t`, 11 đoạn, 242 chữ, khoảng 1.2 phút)
+## 36 phố phường Hà Nội (`xk16t`, 10 đoạn, 217 chữ, khoảng 1.1 phút)
 
 **Tiêu đề đăng đề xuất:** "Ba mươi sáu phố phường": ba mươi sáu con phố hay ba mươi sáu nhóm thợ?
 
-**Thay đổi:** BẢN MỚI. Lưu ý: tôi chưa đối chiếu được văn bản Vũ trung tùy bút gốc; hiện dựa vào Cổng thông tin Chính phủ. Nếu anh muốn, tôi sẽ tra bản gốc trước khi đọc giọng.
+**Thay đổi:** BẢN MỚI. Đã bỏ tên Phạm Đình Hổ và Vũ trung tùy bút khỏi lời kể vì không tra được văn bản gốc; chỉ còn "sách xưa ghi", dựa trên Cổng thông tin Chính phủ, báo Nhân Dân và Wikipedia.
 
 ### Toàn văn lời kể
 
@@ -231,11 +230,10 @@ Tiêu đề đăng ở mỗi bản là đề xuất, dạng câu hỏi ngắn, �
 116004. Rồi một phường như thế cũng là một đơn vị quản lý ở cơ sở của kinh thành.
 116005. Nghề gì thì phố ấy lấy tên nghề đó, nên chữ Hàng, nghĩa là hàng hóa, đứng đầu tên rất nhiều phố.
 116006. Hàng Bạc làm đồ kim hoàn, Hàng Đường bán ô mai và bánh kẹo, Hàng Gai buôn tơ lụa.
-116007. Sách xưa ghi kinh thành có 36 phường. Phạm Đình Hổ, trong sách Vũ trung tùy bút viết cuối thế kỷ 18, cũng nói như vậy.
-116008. Nhưng nhiều người nghiên cứu cho rằng 36 là cách nói ước lệ, chỉ ý là nhiều. Thực tế, số phố nghề còn nhiều hơn thế.
-116009. Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn.
-116010. Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ.
-116011. Vậy khi nghề cũ đã rời đi, tên phố còn giữ lại điều gì của những người thợ ngày xưa?
+116007. Sách xưa ghi kinh thành Thăng Long có 36 phường. Nhưng nhiều nhà nghiên cứu cho rằng đó là cách nói ước lệ, phố nghề thực tế còn nhiều hơn.
+116008. Còn nhiều phố vẫn giữ tên cũ, dù nghề ban đầu đã chuyển đi hoặc mất hẳn.
+116009. Hầu hết phố nghề có đền thờ tổ nghề, nhưng phần lớn đã bị phá, chỉ còn vài nơi như Mã Mây và Kim Cổ.
+116010. Vậy khi nghề cũ đã rời đi, tên phố còn giữ lại điều gì của những người thợ ngày xưa?
 
 ### 3 phương án hook
 
@@ -259,6 +257,7 @@ Tiêu đề đăng ở mỗi bản là đề xuất, dạng câu hỏi ngắn, �
 
 ### Chi tiết đã bỏ
 
+- Tên Phạm Đình Hổ, Vũ trung tùy bút, Dư địa chí: không tra được văn bản gốc → bỏ khỏi lời kể.
 - Thái Tổ chọn Thăng Long 1010 là khởi đầu (đây là giả thuyết) → bỏ.
 - Việc Hàng Quạt nay nổi nghề khắc dấu: bỏ vì dễ gây hiểu nhầm.
 - Câu hỏi hook bằng "ban đầu" bỏ vì chưa kiểm sách gốc.

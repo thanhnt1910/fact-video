@@ -17,67 +17,60 @@
   "n": 113003,
   "chuong": "Ra đời",
   "tone": "story",
-  "text": "Năm một nghìn ba trăm chín mươi sáu, triều đình nhà Trần cho in loại tiền giấy đầu tiên của nước ta, gọi là Thông bảo hội sao.",
-  "hien": "Năm 1396, triều đình nhà Trần cho in loại tiền giấy đầu tiên của nước ta, gọi là Thông bảo hội sao."
+  "text": "Năm một nghìn ba trăm chín mươi sáu, dưới thời vua Trần Thuận Tông, triều đình nhà Trần cho in tờ tiền giấy đầu tiên của nước ta.",
+  "hien": "Năm 1396, dưới thời vua Trần Thuận Tông, triều đình nhà Trần cho in tờ tiền giấy đầu tiên của nước ta."
  },
  {
   "n": 113004,
-  "chuong": "Ra đời",
+  "chuong": "Tờ tiền",
   "tone": "story",
-  "text": "Lúc đó vua là Trần Thuận Tông, còn Hồ Quý Ly là người nắm mọi việc triều chính.",
-  "hien": "Lúc đó vua là Trần Thuận Tông, còn Hồ Quý Ly là người nắm mọi việc triều chính."
+  "text": "Tờ tiền ấy gọi là Thông bảo hội sao. Tùy mệnh giá, nó in những hình khác nhau: sóng nước, mây, rồng, rùa, lân, phượng.",
+  "hien": "Tờ tiền ấy gọi là Thông bảo hội sao. Tùy mệnh giá, nó in những hình khác nhau: sóng nước, mây, rồng, rùa, lân, phượng."
  },
  {
   "n": 113005,
-  "chuong": "Tờ tiền",
-  "tone": "story",
-  "text": "Rồi tùy mệnh giá, tờ tiền được in những hình khác nhau: sóng nước, mây, và các linh vật như rồng, rùa, lân, phượng.",
-  "hien": "Rồi tùy mệnh giá, tờ tiền được in những hình khác nhau: sóng nước, mây, và các linh vật như rồng, rùa, lân, phượng."
- },
- {
-  "n": 113006,
   "chuong": "Lệnh cấm",
   "tone": "story",
   "text": "Sau đó, triều đình thu tiền đồng về, rồi đổi lấy tiền giấy. Dân không được cất giữ hay dùng tiền đồng nữa.",
   "hien": "Sau đó, triều đình thu tiền đồng về, rồi đổi lấy tiền giấy. Dân không được cất giữ hay dùng tiền đồng nữa."
  },
  {
-  "n": 113007,
+  "n": 113006,
   "chuong": "Lệnh cấm",
   "tone": "story",
   "text": "Theo nhiều tài liệu, ai vi phạm có thể bị xử tử, và tài sản bị tịch thu.",
   "hien": "Theo nhiều tài liệu, ai vi phạm có thể bị xử tử, và tài sản bị tịch thu."
  },
  {
-  "n": 113008,
+  "n": 113007,
   "chuong": "Thất bại",
   "tone": "story",
   "text": "Nhưng dân quen dùng tiền đồng, lại bị ép đổi sang tiền giấy, nên nhiều nơi quay về đổi hàng lấy hàng.",
   "hien": "Nhưng dân quen dùng tiền đồng, lại bị ép đổi sang tiền giấy, nên nhiều nơi quay về đổi hàng lấy hàng."
  },
  {
-  "n": 113009,
+  "n": 113008,
   "chuong": "Thất bại",
   "tone": "story",
   "text": "Vì vậy tiền giấy dần mất giá trị, rồi không còn được dùng nữa.",
   "hien": "Vì vậy tiền giấy dần mất giá trị, rồi không còn được dùng nữa."
  },
  {
-  "n": 113010,
+  "n": 113009,
   "chuong": "Lý do",
   "tone": "story",
   "text": "Theo một bài của báo VietnamNet, chính sách này thiếu những cải cách kinh tế và xã hội đi kèm.",
   "hien": "Theo một bài của báo VietnamNet, chính sách này thiếu những cải cách kinh tế và xã hội đi kèm."
  },
  {
-  "n": 113011,
+  "n": 113010,
   "chuong": "Lý do",
   "tone": "story",
   "text": "Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang.",
   "hien": "Rồi khoảng mười năm sau, nhà Hồ sụp đổ khi quân nhà Minh tràn sang."
  },
  {
-  "n": 113012,
+  "n": 113011,
   "chuong": "Kết",
   "tone": "story",
   "text": "Vậy một đồng tiền tốt, nhưng được áp đặt bằng nỗi sợ, có thể thắng được lòng tin của dân không?",

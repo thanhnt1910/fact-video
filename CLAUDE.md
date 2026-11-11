@@ -506,3 +506,9 @@ Mẫu: `phim_ban_do/doc9x16/canh_xk7.js` (hàm `PH`, `strip2`, `CK`, `shw`); vid
 
 ## Danh sách chủ đề video ngắn: kiểm trước khi viết kịch bản (chủ kênh yêu cầu 11/11/2026)
 - File `ke-hoach/bi-mat-bieu-tuong-danh-sach-chu-de.md` ghi chủ đề đã làm, đã bỏ, cần làm lại, đang viết. MỖI LẦN chọn chủ đề hoặc viết kịch bản mới phải mở file này kiểm (không trùng, không chủ đề đã bỏ, phải là chủ đề LỊCH SỬ có điểm lật lại thật; món ăn, thức uống, mẹo đời sống không làm). Cập nhật file ngay khi chủ kênh duyệt, bỏ hoặc yêu cầu làm lại.
+
+## Kịch bản gửi duyệt: cấm đẩy việc kiểm nguồn cho chủ kênh, có công cụ chặn (chủ kênh nhắc 11/11/2026, sau khi bản 7 kịch bản còn hai chi tiết chưa tra mà hỏi lại chủ kênh)
+- Gặp chi tiết cứng không tra được hai nguồn hoặc bản gốc không mở được: BỎ khỏi lời kể ngay, ghi vào "Chi tiết đã bỏ". Không giữ lại rồi hỏi "anh muốn tôi tra không". Hỏi như vậy là vi phạm mục "Kịch bản phải kiểm đầy đủ TRƯỚC khi gửi chủ kênh duyệt".
+- Một nguồn thứ cấp (báo, trang tổng hợp) chỉ đủ cho điều nó tự khẳng định; không dùng nó để gắn tên sách gốc hay tên người (Toàn thư, Vũ trung tùy bút, Dư địa chí...) vào lời kể nếu chưa mở được bản gốc hoặc bản dịch có số quyển.
+- Trước khi gửi duyệt luôn chạy: `python phim_ban_do/kiem_gui_duyet.py <file gửi duyệt>`; phải ĐẠT (mã 0). Công cụ báo ❌ khi bản gửi còn cụm đẩy việc kiểm cho chủ kênh, thiếu mục nguồn, lệch nguồn, chi tiết đã bỏ, hook hoặc toàn văn, hoặc dưới 2 nguồn mỗi kịch bản.
+- Mỗi dữ kiện cứng đếm theo nguồn ĐỘC LẬP: hai bài báo chép lại nhau là một nguồn.

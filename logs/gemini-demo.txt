@@ -1,0 +1,38 @@
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Leda 01: Làm sao biết Mặt Trời xa hơn Mặt Trăng bao nhiêu l
+OK Leda 02: Nhưng cách đây hơn hai nghìn năm, người Hy Lạp A-r
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 03: Hóa ra khoảnh khắc ấy giấu một hình tam giác, và t
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 04: Vì sao một Mặt Trăng sáng một nửa lại là manh mối?
+OK Leda 05: Vì Mặt Trăng tự nó không sáng, chỉ nửa mặt hướng v
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 06: Giống như quả bóng trong phòng tối: đèn pin chỉ rọ
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 07: Khi ta thấy đúng nửa quả sáng, mắt ta đang nhìn vu
+OK Leda 08: Với Mặt Trăng cũng vậy, lúc ấy ba điểm Trái Đất, M
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 09: Và góc vuông của tam giác nằm đúng ở Mặt Trăng.
+OK Leda 10: Vậy chỉ còn phải biết góc ở Trái Đất, giữa hướng n
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 11: A-ri-xta-khơ cho rằng góc ấy là tám mươi bảy độ, c
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 12: Từ góc ấy có công thức: số lần xa bằng một chia ch
+OK Leda 13: Cô-sin là một con số máy tính bấm ra; góc càng gần
+OK Leda 14: Với tám mươi bảy độ, máy tính cho cô-sin khoảng kh
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 15: Rồi một chia cho không phẩy không năm hai, được kh
+OK Leda 16: Vậy theo A-ri-xta-khơ, Mặt Trời xa hơn Mặt Trăng k
+OK Leda 17: Nhưng con số thật lớn hơn thế rất nhiều.
+OK Leda 18: Vì góc thật gần như vuông, chỉ hơn góc ông tính ch
+   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Ví dụ, ngắm một cột đèn xa một trăm mét: lệch ba đ
+OK Leda 20: Gần góc vuông, cô-sin nhỏ xíu, nên chia cho nó thì
+OK Leda 21: Thật vậy, với góc thật, cùng phép chia ấy cho ra k
+OK Leda 22: Góc thật chỉ kém chín mươi độ chưa tới một phần sá
+OK Leda 23: Vậy cách làm của ông hoàn toàn đúng, chỉ có con số
+   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 24: Nhờ đó, chỉ bằng đôi mắt và hình học, ông đã thấy 
+OK Leda 25: Vậy muốn biết Mặt Trời xa gấp mấy lần Mặt Trăng, t

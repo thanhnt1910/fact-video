@@ -3,91 +3,98 @@
   "n": 111001,
   "chuong": "Câu hỏi",
   "tone": "story",
-  "text": "Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới, phần lớn nhờ một vụ trộm?",
-  "hien": "Bạn có biết, bức Mona Lisa trở thành bức tranh nổi tiếng nhất thế giới, phần lớn nhờ một vụ trộm?"
+  "text": "Bạn có biết, bức Mona Lisa bị trộm, và hàng nghìn người đến Louvre chỉ để ngắm chỗ trống?",
+  "hien": "Bạn có biết, bức Mona Lisa bị trộm, và hàng nghìn người đến Louvre chỉ để ngắm chỗ trống?"
  },
  {
   "n": 111002,
   "chuong": "Câu hỏi",
   "tone": "story",
-  "text": "Vậy chuyện gì đã xảy ra khi bức tranh biến mất khỏi bảo tàng Louvre ở Paris, và vì sao sau đó nó lại nổi tiếng hơn?",
-  "hien": "Vậy chuyện gì đã xảy ra khi bức tranh biến mất khỏi bảo tàng Louvre ở Paris, và vì sao sau đó nó lại nổi tiếng hơn?"
+  "text": "Vì trước vụ trộm ấy, Mona Lisa chưa phải bức tranh được tìm xem nhiều nhất trong bảo tàng.",
+  "hien": "Vì trước vụ trộm ấy, Mona Lisa chưa phải bức tranh được tìm xem nhiều nhất trong bảo tàng."
  },
  {
   "n": 111003,
   "chuong": "Vụ trộm",
   "tone": "story",
-  "text": "Trưa thứ ba, ngày hai mươi hai tháng tám năm một nghìn chín trăm mười một, một họa sĩ đến Louvre xin xem bức tranh, nhưng người gác không tìm thấy nó.",
-  "hien": "Trưa thứ ba, ngày 22 tháng 8 năm 1911, một họa sĩ đến Louvre xin xem bức tranh, nhưng người gác không tìm thấy nó."
+  "text": "Chuyện bắt đầu sáng thứ hai, ngày hai mươi mốt tháng tám năm một nghìn chín trăm mười một, khi Louvre đóng cửa và có người lấy bức tranh khỏi tường.",
+  "hien": "Chuyện bắt đầu sáng thứ hai, ngày 21 tháng 8 năm 1911, khi Louvre đóng cửa và có người lấy bức tranh khỏi tường."
  },
  {
   "n": 111004,
   "chuong": "Vụ trộm",
   "tone": "story",
-  "text": "Cảnh sát tìm thấy khung kính của bức tranh bị bỏ lại ở cầu thang phục vụ. Bảo tàng đóng cửa một tuần để điều tra.",
-  "hien": "Cảnh sát tìm thấy khung kính của bức tranh bị bỏ lại ở cầu thang phục vụ. Bảo tàng đóng cửa một tuần để điều tra."
+  "text": "Nhưng mãi đến trưa hôm sau, một họa sĩ đến xin xem tranh, người gác mới tìm mà không thấy. Chiếc khung kính bị bỏ lại ở cầu thang phục vụ.",
+  "hien": "Nhưng mãi đến trưa hôm sau, một họa sĩ đến xin xem tranh, người gác mới tìm mà không thấy. Chiếc khung kính bị bỏ lại ở cầu thang phục vụ."
  },
  {
   "n": 111005,
-  "chuong": "Nổi tiếng",
+  "chuong": "Vụ trộm",
   "tone": "story",
-  "text": "Bảo tàng mở lại, và hàng nghìn người kéo đến. Họ không đến để xem tranh, mà để nhìn bức tường trống.",
-  "hien": "Bảo tàng mở lại, và hàng nghìn người kéo đến. Họ không đến để xem tranh, mà để nhìn bức tường trống."
+  "text": "Thế là chiều tối, bảo tàng mới báo tin mất tranh. Sau đó báo chí đăng tin lớn, và thông báo truy tìm xuất hiện khắp nơi.",
+  "hien": "Thế là chiều tối, bảo tàng mới báo tin mất tranh. Sau đó báo chí đăng tin lớn, và thông báo truy tìm xuất hiện khắp nơi."
  },
  {
   "n": 111006,
-  "chuong": "Nổi tiếng",
+  "chuong": "Bức tường trống",
   "tone": "story",
-  "text": "Báo chí khắp nơi đưa tin, và tờ New York Times gọi công chúng là những thám tử Sherlock Holmes nghiệp dư.",
-  "hien": "Báo chí khắp nơi đưa tin, và tờ New York Times gọi công chúng là những thám tử Sherlock Holmes nghiệp dư."
+  "text": "Một tuần sau, Louvre mở lại. Hàng nghìn người kéo đến, đứng trước khoảng tường trống nơi bức tranh từng treo.",
+  "hien": "Một tuần sau, Louvre mở lại. Hàng nghìn người kéo đến, đứng trước khoảng tường trống nơi bức tranh từng treo."
  },
  {
   "n": 111007,
   "chuong": "Kẻ trộm",
   "tone": "story",
-  "text": "Người lấy trộm là Vincenzo Peruggia, một thợ người Ý từng làm việc ở Louvre. Ông giấu bức tranh trong một chiếc rương có đáy giả.",
-  "hien": "Người lấy trộm là Vincenzo Peruggia, một thợ người Ý từng làm việc ở Louvre. Ông giấu bức tranh trong một chiếc rương có đáy giả."
+  "text": "Vậy bức tranh ở đâu? Người lấy nó là Vincenzo Peruggia, một thợ Ý từng làm ở Louvre, và ông giấu nó hơn hai năm.",
+  "hien": "Vậy bức tranh ở đâu? Người lấy nó là Vincenzo Peruggia, một thợ Ý từng làm ở Louvre, và ông giấu nó hơn hai năm."
  },
  {
   "n": 111008,
   "chuong": "Kẻ trộm",
   "tone": "story",
-  "text": "Cảnh sát từng hai lần thẩm vấn ông, nhưng không coi ông là nghi phạm chính. Bức tranh vẫn mất tích hơn hai năm.",
-  "hien": "Cảnh sát từng hai lần thẩm vấn ông, nhưng không coi ông là nghi phạm chính. Bức tranh vẫn mất tích hơn hai năm."
+  "text": "Cảnh sát có hỏi cung ông, nhưng không coi ông là nghi phạm đáng ngờ. Ông cứ thế giữ bức tranh đến cuối năm một nghìn chín trăm mười ba.",
+  "hien": "Cảnh sát có hỏi cung ông, nhưng không coi ông là nghi phạm đáng ngờ. Ông cứ thế giữ bức tranh đến cuối năm 1913."
  },
  {
   "n": 111009,
-  "chuong": "Tìm lại",
+  "chuong": "Sa lưới",
   "tone": "story",
-  "text": "Cuối năm một nghìn chín trăm mười ba, ông viết thư cho một người buôn tranh ở Florence, Ý, đề nghị trả bức tranh về Ý. Ông ký tên giả là Leonard.",
-  "hien": "Cuối năm 1913, ông viết thư cho một người buôn tranh ở Florence, Ý, đề nghị trả bức tranh về Ý. Ông ký tên giả là Leonard."
+  "text": "Rồi lúc ấy, ông viết thư cho một người buôn tranh ở Florence, bên Ý, đề nghị đưa bức tranh về đất Ý, và ký tên giả là Leonard.",
+  "hien": "Rồi lúc ấy, ông viết thư cho một người buôn tranh ở Florence, bên Ý, đề nghị đưa bức tranh về đất Ý, và ký tên giả là Leonard."
  },
  {
   "n": 111010,
-  "chuong": "Tìm lại",
+  "chuong": "Sa lưới",
   "tone": "story",
-  "text": "Người buôn tranh và giám đốc bảo tàng Uffizi đến xem bức tranh trong phòng khách sạn của ông, rồi báo cảnh sát. Ngày mười một tháng mười hai, Peruggia bị bắt.",
-  "hien": "Người buôn tranh và giám đốc bảo tàng Uffizi đến xem bức tranh trong phòng khách sạn của ông, rồi báo cảnh sát. Ngày 11 tháng 12, Peruggia bị bắt."
+  "text": "Thế là người buôn tranh gặp ông trong khách sạn, nhìn tận mắt bức tranh, rồi báo cảnh sát. Peruggia bị bắt ngay tại đó.",
+  "hien": "Thế là người buôn tranh gặp ông trong khách sạn, nhìn tận mắt bức tranh, rồi báo cảnh sát. Peruggia bị bắt ngay tại đó."
  },
  {
   "n": 111011,
-  "chuong": "Nổi tiếng",
+  "chuong": "Trở về",
   "tone": "story",
-  "text": "Đầu năm một nghìn chín trăm mười bốn, Mona Lisa trở về Louvre. Chỉ trong hai ngày đầu, ít nhất một trăm hai mươi nghìn người đã đến xem.",
-  "hien": "Đầu năm 1914, Mona Lisa trở về Louvre. Chỉ trong hai ngày đầu, ít nhất 120.000 người đã đến xem."
+  "text": "Tháng một năm một nghìn chín trăm mười bốn, Mona Lisa trở lại Louvre, sau khi được trưng bày ở vài thành phố Ý.",
+  "hien": "Tháng 1 năm 1914, Mona Lisa trở lại Louvre, sau khi được trưng bày ở vài thành phố Ý."
  },
  {
   "n": 111012,
-  "chuong": "Nổi tiếng",
+  "chuong": "Trở về",
   "tone": "story",
-  "text": "Nhà văn Dianne Hales gọi đó là biểu tượng nghệ thuật đại chúng đầu tiên.",
-  "hien": "Nhà văn Dianne Hales gọi đó là biểu tượng nghệ thuật đại chúng đầu tiên."
+  "text": "Và chỉ trong hai ngày đầu, hơn một trăm nghìn người đã đến xem nó.",
+  "hien": "Và chỉ trong hai ngày đầu, hơn 100.000 người đã đến xem nó."
  },
  {
   "n": 111013,
+  "chuong": "Dè dặt",
+  "tone": "story",
+  "text": "Dù vậy, các nhà sử học vẫn dè dặt khi cho rằng chỉ riêng vụ trộm đã làm nên danh tiếng của bức tranh.",
+  "hien": "Dù vậy, các nhà sử học vẫn dè dặt khi cho rằng chỉ riêng vụ trộm đã làm nên danh tiếng của bức tranh."
+ },
+ {
+  "n": 111014,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Vậy nếu bức tranh chưa từng bị lấy trộm, hôm nay nó còn nổi tiếng đến thế không?",
-  "hien": "Vậy nếu bức tranh chưa từng bị lấy trộm, hôm nay nó còn nổi tiếng đến thế không?"
+  "text": "Vậy một bức tranh nổi tiếng nhờ vẻ đẹp của nó, hay nhờ câu chuyện về lần nó biến mất?",
+  "hien": "Vậy một bức tranh nổi tiếng nhờ vẻ đẹp của nó, hay nhờ câu chuyện về lần nó biến mất?"
  }
 ]

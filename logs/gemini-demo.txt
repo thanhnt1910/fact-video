@@ -1,56 +1,38 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Làm sao biết núi Ê-vơ-rét cao hơn tám nghìn mét, k
-OK Leda 02: Nhưng người ta đã tính ra con số ấy từ một nơi các
+OK Leda 01: Làm sao biết Trái Đất bao nhiêu tuổi, khi chẳng ai
+OK Leda 02: Nhưng đáp án nằm ngay trong những viên đá dưới châ
+OK Leda 03: Hóa ra mỗi viên đá giữ một chiếc đồng hồ chạy bằng
+OK Leda 04: Vậy chiếc đồng hồ ấy chạy thế nào?
+OK Leda 05: Trước đó, người xưa chỉ có thể đoán tuổi Trái Đất 
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Hóa ra bí mật chỉ là một góc ngắm và một phép nhân
-OK Leda 04: Vậy góc ngắm cho ta biết điều gì?
+OK Leda 06: Năm một nghìn sáu trăm năm mươi, một giáo sĩ cộng 
+OK Leda 07: Ông Át-sơ ra năm bốn nghìn lẻ bốn trước Công nguyê
+OK Leda 08: Sang thế kỷ mười chín, nhà vật lý Ken-vin nghĩ Trá
+OK Leda 09: Giống một cốc nước nóng: đo nó nguội nhanh cỡ nào,
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Thử với một cái cây: bạn đứng cách gốc ba mươi mét
-OK Leda 06: Đường nhìn lên ngọn cây tạo với mặt đất một góc, t
-OK Leda 07: Giả sử góc ngắm là bốn mươi lăm độ, tức là đường n
+OK Leda 10: Năm một nghìn tám trăm chín mươi bảy, ông tính ra 
+OK Leda 11: Nhưng cách tính ấy bỏ sót một điều: lòng đất có th
+OK Leda 12: Nguyên tố phóng xạ tự phân rã và tỏa nhiệt, nên Tr
+OK Leda 13: Chính những nguyên tố ấy lại là chiếc đồng hồ nằm 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 08: Với góc đó, bảng toán cho một con số gọi là tang, 
-OK Leda 09: Công thức là: chiều cao bằng khoảng cách nhân tang
+OK Leda 14: Nguyên tử u-ra-ni-um tự biến thành chì, đều đặn đế
+OK Leda 15: Hãy nghĩ tới túi bánh: mỗi buổi bạn ăn đúng một nử
+OK Leda 16: U-ra-ni-um cũng vậy: sau một khoảng cố định, còn l
+OK Leda 17: Với u-ra-ni-um hai trăm ba mươi tám, chu kỳ bán rã
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Vậy cây cao ba mươi nhân một, bằng ba mươi mét.
+OK Leda 18: Giả sử lúc đầu viên đá có một trăm nguyên tử u-ra-
+OK Leda 19: Sau một chu kỳ, còn lại một trăm chia hai, bằng nă
+OK Leda 20: Sau hai chu kỳ, còn lại năm mươi chia hai, bằng ha
+OK Leda 21: Vậy tuổi của đá bằng số chu kỳ đã qua, nhân với th
+OK Leda 22: Nếu trong đá, u-ra-ni-um và chì nhiều bằng nhau, t
+OK Leda 23: Khi đó đá có tuổi một nhân bốn phẩy năm, bằng bốn 
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: Nhưng với ngọn núi, ta đâu thể mang thước tới đo k
+OK Leda 24: Nhưng đá trên mặt đất liên tục tan chảy rồi trộn l
+OK Leda 25: Còn thiên thạch, những mảnh đá rơi từ vũ trụ xuống
+OK Leda 26: Năm một nghìn chín trăm năm mươi sáu, ông Pát-tơ-s
+OK Leda 27: Ông ra bốn tỉ rưỡi năm, chênh lệch chưa tới một tr
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 12: Vì vậy người ta đo khoảng cách bằng cách ngắm cùng
-   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Ví dụ, bên kia sông có một cột cờ, còn bên này bạn
-   [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Từ mỗi cọc nhìn sang cột cờ, góc đo được đều là bố
-OK Leda 15: Khi đó cột cờ cách đoạn nối hai cọc một trăm chia 
-   [gemini] khóa …GAcg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 16: Cứ nối từng tam giác từ bờ biển Ấn Độ lên bắc, ngư
-OK Leda 17: Năm một nghìn tám trăm bốn mươi chín, nhóm khảo sá
-OK Leda 18: Từ mỗi trạm, họ nhận được một kết quả riêng.
-OK Leda 19: Rồi trung bình của sáu kết quả là hơn hai mươi chí
-   [gemini] khóa …WLfg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Đến năm một nghìn tám trăm năm mươi sáu, ông Oóc, 
-OK Leda 21: Một phít dài khoảng ba mươi xăng-ti-mét, nên ta đổ
-OK Leda 22: Hai mươi chín nghìn nhân không phẩy ba không bốn t
-OK Leda 23: Nhưng còn một rắc rối: Trái Đất tròn, nên đỉnh núi
-   [gemini] khóa …xwcQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa (hết khóa dự phòng)
-   [gemini] gemini-3.8-flash-tts báo: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 35s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 37s…
-   [gemini] mọi khóa đang hết lượt, đợi 40s…
-OK Leda 24: Cụ thể, phần thấp đi bằng khoảng cách nhân khoảng 
-OK Leda 25: Trong đó, hai lần bán kính Trái Đất là khoảng mười
-OK Leda 26: Rồi một trăm bảy mươi bốn nhân một trăm bảy mươi b
-OK Leda 27: Sau đó chia ba mươi nghìn cho mười hai nghìn bảy t
-   [gemini] khóa …WLfg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 28: Vì vậy khi tính, người ta phải cộng thêm phần ấy, 
-OK Leda 29: Đến năm hai nghìn không trăm hai mươi, Nê-pan và T
-OK Leda 30: Nhờ vậy họ có kết quả mới, hơn tám nghìn tám trăm 
-OK Leda 31: Vậy con số của năm một nghìn tám trăm năm mươi sáu
-OK Leda 32: Rồi chín chia tám nghìn tám trăm, được khoảng một 
-OK Leda 33: Vậy một góc ngắm, một đoạn đã biết và một phép nhâ
+OK Leda 28: Mẫu bùn dưới đáy biển cũng nằm đúng trên đường ấy,
+OK Leda 29: Ngày nay, phép đo mới cho kết quả gần như vậy, kho
+OK Leda 30: Bốn tỉ rưỡi chia sáu nghìn, ra hơn bảy trăm nghìn 
+OK Leda 31: Vậy tuổi Trái Đất được đọc ra từ chiếc đồng hồ ngu

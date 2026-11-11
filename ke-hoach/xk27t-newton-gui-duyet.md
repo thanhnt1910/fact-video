@@ -1,29 +1,33 @@
-# Newton ở sở đúc tiền (xk27t): kịch bản đề xuất, video vĩ nhân thứ nhất
+# Newton ở sở đúc tiền (xk27t): kịch bản đề xuất (bản 2, đã thêm phần vì sao Newton là vĩ nhân)
 
 Chưa đọc giọng, chưa dựng. Chờ chủ kênh duyệt.
 
 ### Toàn văn lời kể
 
 1. Bạn có biết, Isaac Newton, người tìm ra lực hấp dẫn, từng đưa thợ làm tiền giả lên giá treo cổ?
-2. Chuyện nghe như phim, nhưng có thật. Và nó bắt đầu từ một chức quan được hứa là chỗ ngồi chơi.
+2. Chuyện nghe như phim, nhưng có thật. Để thấy nó kỳ lạ đến đâu, trước hết phải biết Newton là ai.
 3. Newton sinh ra ở một làng nhỏ nước Anh, khi cha ông đã qua đời. Rồi ông vào đại học Cambridge.
-4. Dịch hạch từng làm trường đóng cửa, và chàng sinh viên phải về quê. Vậy mà năm 27 tuổi, ông đã là giáo sư toán học của Cambridge.
-5. Rồi năm 1687, ông xuất bản cuốn Principia, trình bày các định luật chuyển động và lực hấp dẫn.
-6. Ông nổi tiếng từ đó. Vậy mà gần mười năm sau, ông bỏ Cambridge để lên London làm một việc chẳng ai ngờ.
-7. Mùa xuân năm 1696, người bạn cũ Charles Montagu mời ông làm quan giám sát sở đúc tiền của nước Anh.
-8. Ngồi chơi á? Đó là lời hứa của Montagu, còn Newton thì chẳng biết ngồi chơi là gì.
-9. Vì lúc ấy tiền bạc nước Anh rối loạn. Đồng bạc cũ bị cắt mép, bị nấu chảy, nên nhà nước phải thu hết về đúc lại.
-10. Nên giữa đống tiền lộn xộn ấy, tiền giả nở rộ. Làm tiền giả là tội có thể bị xử tử, nhưng ít ai bị kết án.
-11. Newton coi việc truy bắt thợ làm tiền giả là nhiệm vụ chính của mình. Ông cho người đi nghe ngóng ở quán rượu và cả trong nhà tù.
-12. Ông còn nhận chức thẩm phán, rồi tự mình thẩm vấn tội phạm và người chỉ điểm. Một nhà vật lý lừng danh, giờ làm thám tử.
-13. Kẻ khét tiếng nhất là William Chaloner, chuyên làm giả tiền vàng. Hắn nhiều lần bị bắt, nhưng vẫn thoát nhờ có người quen ở cấp cao.
-14. Nhưng lần này hắn gặp Newton. Ông mất nhiều tháng gom lời khai của các nhân chứng, từ những người từng biết hắn làm tiền giả.
-15. Rồi phiên tòa kết luận Chaloner phạm tội phản quốc. Tháng Ba năm 1699, hắn bị xử tử.
-16. Tổng cộng, Newton đưa hàng chục kẻ làm tiền giả ra truy tố. Cuối năm ấy, ông được lên làm giám đốc sở đúc tiền.
-17. Ông giữ ghế đó cho đến khi qua đời năm 1727.
-18. Người giải thích vì sao vạn vật rơi xuống đất, hóa ra cũng là người canh giữ đồng bạc của cả nước Anh suốt hơn ba mươi năm.
+4. Dịch hạch từng làm trường đóng cửa, và chàng sinh viên phải về quê. Ở đó ông bắt đầu tự phát triển phép tính vi phân và tích phân.
+5. Ông còn dùng lăng kính để chứng minh ánh sáng trắng là hỗn hợp nhiều màu. Rồi ông chế kính thiên văn dùng gương thay cho thấu kính.
+6. Năm 27 tuổi, ông đã là giáo sư toán học của Cambridge. Nhưng đỉnh cao còn ở phía sau.
+7. Rồi đến cuốn Principia, xuất bản năm 1687. Trong đó có ba định luật chuyển động và định luật vạn vật hấp dẫn.
+8. Lần đầu tiên, Mặt Trăng, các hành tinh và hòn đá rơi xuống đất cùng nghe theo một bộ quy luật.
+9. Từ đó ông được xem là nhà khoa học hàng đầu của phương Tây. Công trình của ông trở thành nền móng của vật lý hiện đại.
+10. Một người như thế, đáng lẽ cứ ngồi yên giữa sách vở. Vậy mà gần mười năm sau, ông bỏ Cambridge để lên London làm một việc chẳng ai ngờ.
+11. Mùa xuân năm 1696, người bạn cũ Charles Montagu mời ông làm quan giám sát sở đúc tiền của nước Anh.
+12. Ngồi chơi á? Đó là lời hứa của Montagu, còn Newton thì chẳng biết ngồi chơi là gì.
+13. Vì lúc ấy tiền bạc nước Anh rối loạn. Đồng bạc cũ bị cắt mép, bị nấu chảy, nên nhà nước phải thu hết về đúc lại.
+14. Nên giữa đống tiền lộn xộn ấy, tiền giả nở rộ. Làm tiền giả là tội có thể bị xử tử, nhưng ít ai bị kết án.
+15. Newton coi việc truy bắt thợ làm tiền giả là nhiệm vụ chính của mình. Ông cho người đi nghe ngóng ở quán rượu và cả trong nhà tù.
+16. Ông còn nhận chức thẩm phán, rồi tự mình thẩm vấn tội phạm và người chỉ điểm. Một nhà vật lý lừng danh, giờ làm thám tử.
+17. Kẻ khét tiếng nhất là William Chaloner, chuyên làm giả tiền vàng. Hắn nhiều lần bị bắt, nhưng vẫn thoát nhờ có người quen ở cấp cao.
+18. Nhưng lần này hắn gặp Newton. Ông mất nhiều tháng gom lời khai của các nhân chứng, từ những người từng biết hắn làm tiền giả.
+19. Rồi phiên tòa kết luận Chaloner phạm tội phản quốc. Tháng Ba năm 1699, hắn bị xử tử.
+20. Tổng cộng, Newton đưa hàng chục kẻ làm tiền giả ra truy tố. Cuối năm ấy, ông được lên làm giám đốc sở đúc tiền.
+21. Ông giữ ghế đó cho đến khi qua đời năm 1727.
+22. Người giải thích vì sao vạn vật rơi xuống đất, hóa ra cũng là người canh giữ đồng bạc của cả nước Anh suốt hơn ba mươi năm.
 
-18 đoạn, khoảng 445 chữ, ước tính khoảng 2 phút 15 giây (3,3 chữ mỗi giây). Dài hơn mức 70–110 giây trong quy tắc vĩ nhân vì cần đủ mốc: xuất thân, Principia, chức giám sát, săn tiền giả, vụ Chaloner, kết. Nếu anh muốn ngắn hơn, bỏ đoạn 3–4 hoặc 9–10 trước.
+22 đoạn, khoảng 548 chữ, ước tính khoảng 2 phút 45 giây (3,3 chữ mỗi giây). Dài hơn mức 70–110 giây trong quy tắc vĩ nhân vì thêm phần "vì sao ông là vĩ nhân" (đoạn 4–9). Nếu muốn ngắn hơn, bỏ đoạn 13–14 trước.
 
 ### 3 phương án hook
 
@@ -41,6 +45,7 @@ Chưa đọc giọng, chưa dựng. Chờ chủ kênh duyệt.
 - Numismatic News / World Coin News (17/10/2017): sinh 25/12/1642; làm tiền giả là tội tử hình nhưng ít người bị kết án; Newton truy tố thành công 28 kẻ; Chaloner bị xử tử năm 1699 sau hai năm truy đuổi.
 - Physics World (5/1/2010, bài của Jason Socrates Bardi điểm sách "Newton and the Counterfeiter" của Thomas Levenson): Newton thuê người đi nghe ngóng ở quán rượu và nhà tù, làm thẩm phán hòa giải ở nhiều hạt, Chaloner nhiều lần thoát tội.
 - Encyclopedia.com (mục Newton) và History.com: sinh sau khi cha mất; dịch hạch làm Cambridge đóng cửa, Newton về quê; giáo sư Lucasian năm 1669 (27 tuổi); Principia xuất bản 1687; rời Cambridge 1696 làm Warden rồi Master.
+- Thêm cho phần "vì sao là vĩ nhân": History.com (ba định luật chuyển động và vạn vật hấp dẫn năm 1687; ánh sáng trắng là hỗn hợp màu; kính thiên văn phản xạ; "nền móng của vật lý hiện đại") và Encyclopedia.com (phát triển phép tính vi tích phân cho riêng mình khi về quê tránh dịch; lăng kính và ánh sáng; kính thiên văn phản xạ gửi Hội Hoàng gia; Principia lần đầu chứng minh các thiên thể theo luật động lực học; "nhà khoa học hàng đầu cả phương Tây").
 - Britannica (phần đã mở): sinh ngày 25/12/1642 (lịch cũ), mất ngày 20/3/1727 (lịch cũ).
 
 ### Điểm lệch giữa các nguồn
@@ -55,6 +60,11 @@ Chưa đọc giọng, chưa dựng. Chờ chủ kênh duyệt.
 
 ### Chi tiết đã bỏ
 
+- Năm chế kính thiên văn: History.com ghi 1668, Encyclopedia.com ghi gửi Hội Hoàng gia năm 1672. Lời kể không nêu năm.
+- Tranh chấp với Leibniz về phép tính vi tích phân (hai nguồn nói khác về ai trước; lời kể chỉ nói Newton tự phát triển).
+- Giả thuyết ánh sáng là hạt (chỉ History.com), cuốn Opticks 1704 (không cần cho mạch kể).
+- Việc thuyết Einstein sau này thay thế một phần ý của Newton (đúng, nhưng lời kể chỉ nói "nền móng").
+
 - Chuyện quả táo (giai thoại, nghi vấn).
 - Tỷ lệ tiền giả trong lưu hành (hai nguồn lệch).
 - Ngày chính xác và cách thức hành quyết Chaloner (nguồn lệch).
@@ -67,29 +77,37 @@ Chưa đọc giọng, chưa dựng. Chờ chủ kênh duyệt.
 - Chi tiết gia đình mẹ tái giá (một nguồn).
 - Đánh giá "ông không phải nhà đổi mới ở sở đúc tiền" (chỉ một nguồn).
 
-### Bảng mốc → bước ngoặt → số neo → hình
+### Bảng đoạn → ý → số neo → hình
 
-| Đoạn | Mốc | Bước ngoặt | Số neo (con dấu) | Hình |
-|---|---|---|---|---|
-| 1–2 | Hook | Nhà bác học lên giá treo cổ... | không | đồng bạc cũ cắt mép, giá treo cổ phẳng |
-| 3–4 | Xuất thân, dịch hạch | Mồ côi cha, giáo sư năm 27 tuổi | 27 | làng quê, cánh cổng trường đóng |
-| 5–6 | Principia | Nổi tiếng, rồi bỏ Cambridge | 1687 | sách Principia, mũi tên lên London |
-| 7–8 | Mùa xuân 1696 | Được mời chức "ngồi chơi" | 1696 | thư mời, ghế êm bị gạt |
-| 9–10 | Đại tái đúc | Tiền cắt mép, tiền giả nở rộ | không | đồng bạc cắt mép, nồi nấu |
-| 11–12 | Săn tiền giả | Quán rượu, nhà tù, thẩm vấn | không | quán rượu, bút lông, hồ sơ lời khai |
-| 13–15 | Chaloner | Bị bắt, kết tội phản quốc | 1699 | thợ làm tiền giả, tòa án phẳng |
-| 16–17 | Kết quả | Lên giám đốc, giữ ghế đến hết đời | 1727 | ghế giám đốc, mốc thời gian |
-| 18 | Kết | Quay về hook: cân vạn vật, canh đồng bạc | không | đồng bạc và quả cầu rơi |
+| Đoạn | Ý | Số neo | Hình |
+|---|---|---|---|
+| 1–2 | Hook, hứa kể vì sao đáng kinh ngạc | không | đồng bạc cắt mép, giá treo cổ phẳng |
+| 3 | Xuất thân | không | làng quê, cổng trường |
+| 4 | Dịch hạch, về quê, phép tính vi tích phân | không | công thức vẽ tay, cánh cổng đóng |
+| 5 | Lăng kính, kính thiên văn gương | không | tia sáng qua lăng kính, kính thiên văn |
+| 6 | Giáo sư Cambridge | 27 | bục giảng |
+| 7–9 | Principia, vạn vật cùng một quy luật, nền móng vật lý | 1687 | sách Principia, quả cầu rơi, quỹ đạo hành tinh |
+| 10–12 | Bỏ Cambridge, chức "ngồi chơi" | 1696 | mũi tên lên London, thư mời |
+| 13–14 | Đại tái đúc, tiền giả nở rộ | không | đồng bạc cắt mép, nồi nấu |
+| 15–16 | Săn tiền giả | không | quán rượu, hồ sơ lời khai |
+| 17–19 | Chaloner | 1699 | thợ làm tiền giả, tòa án phẳng |
+| 20–22 | Lên giám đốc, đến hết đời, đóng vòng hook | 1727 | ghế giám đốc, đồng bạc và quả cầu rơi |
+
+### Đổi so với bản 1
+
+- Thêm đoạn 2 (đổi câu), 4 (viết lại, thêm phép tính vi tích phân), 5 (mới: lăng kính, kính thiên văn), 6 (tách từ đoạn cũ), 8 (mới: Mặt Trăng và hòn đá cùng một quy luật), 9 (mới: nhà khoa học hàng đầu, nền móng vật lý), 10 (viết lại, đặt đối lập "người như thế mà..."). Lý do: anh yêu cầu thêm chi tiết vì sao Newton là vĩ nhân.
+- Các đoạn sau (11–22) giữ lời, chỉ đổi số thứ tự (cũ 7–18).
 
 ### Câu chữ sáng tạo
 
 | Đoạn | Câu | Kiểu | Xác nhận |
 |---|---|---|---|
+| 8 | "Lần đầu tiên, Mặt Trăng, các hành tinh và hòn đá rơi xuống đất cùng nghe theo một bộ quy luật." | hình ảnh gần gũi | Encyclopedia.com: lần đầu chứng minh thiên thể theo luật động lực học; lời diễn đạt đời thường, không thêm dữ kiện |
 | 2 | "Chuyện nghe như phim, nhưng có thật." | nhịp ngắn, đối lập | không thêm dữ kiện |
-| 6 | "Vậy mà gần mười năm sau, ông bỏ Cambridge để lên London làm một việc chẳng ai ngờ." | đối lập, tạo móc | lời người kể; mốc 1687 đến 1696 đúng nguồn |
-| 8 | "Ngồi chơi á? Đó là lời hứa của Montagu, còn Newton thì chẳng biết ngồi chơi là gì." | tự hỏi tự đáp, bình luận | lời người kể; Oxford ghi Newton làm việc với sự mãnh liệt quen thuộc |
-| 12 | "Một nhà vật lý lừng danh, giờ làm thám tử." | bình luận hóm hỉnh, ẩn dụ | "thám tử" là cách nói, nguồn: ông điều tra, thẩm vấn |
-| 18 | "Người giải thích vì sao vạn vật rơi xuống đất, hóa ra cũng là người canh giữ đồng bạc của cả nước Anh suốt hơn ba mươi năm." | đối lập, đóng vòng | 1696 đến 1727 đúng nguồn |
+| 10 | "Một người như thế, đáng lẽ cứ ngồi yên giữa sách vở. Vậy mà gần mười năm sau, ông bỏ Cambridge để lên London làm một việc chẳng ai ngờ." | đối lập, tạo móc | lời người kể; mốc 1687 đến 1696 đúng nguồn |
+| 12 | "Ngồi chơi á? Đó là lời hứa của Montagu, còn Newton thì chẳng biết ngồi chơi là gì." | tự hỏi tự đáp, bình luận | lời người kể; Oxford ghi Newton làm việc với sự mãnh liệt quen thuộc |
+| 16 | "Một nhà vật lý lừng danh, giờ làm thám tử." | bình luận hóm hỉnh, ẩn dụ | "thám tử" là cách nói, nguồn: ông điều tra, thẩm vấn |
+| 22 | "Người giải thích vì sao vạn vật rơi xuống đất, hóa ra cũng là người canh giữ đồng bạc của cả nước Anh suốt hơn ba mươi năm." | đối lập, đóng vòng | 1696 đến 1727 đúng nguồn |
 
 Không câu nào gán lời, suy nghĩ hay cảm xúc cho nhân vật. Không có chuyện hài chạm vào nỗi đau (đoạn 15 chỉ nêu bản án, không tả cảnh xử).
 
@@ -103,7 +121,7 @@ Không câu nào gán lời, suy nghĩ hay cảm xúc cho nhân vật. Không c�
 
 ### Kết quả công cụ kiểm
 
-`kiem_kich_ban` 0 ❌, 0 ⚠️; `kiem_mo_dau` ✅ mở đầu gọn (25 giây đầu 0 năm, 0 nguồn, tối đa 2 tên riêng mới); `kiem_mach_ke` 0 ❌ và một ⚠️ (hook 21 chữ, hơn 20 chữ một chút).
+`kiem_kich_ban` 0 ❌, 0–1 ⚠️ (chỉ nhắc chữ số trong trường hiển thị); `kiem_mo_dau` ✅ mở đầu gọn; `kiem_mach_ke` 0 ❌, ⚠️ hook 21 chữ và tỷ lệ đoạn mở bằng từ nối 24%.
 
 ### Dấu ấn riêng đề xuất
 

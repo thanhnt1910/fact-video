@@ -58,6 +58,48 @@ def boom(g=1.0, light=False, rustle=.25):
     ru = bp(noise(rustle), 3500, 9000) * 6 * (np.linspace(0, 1, int(rustle * SR)) ** 2) * (.5 if not light else .35)
     y = np.concatenate([ru[:pre], np.zeros(len(hit))]); y[pre:pre + len(hit)] += hit
     return g * (.55 if light else 1.0) * y, pre / SR
+
+def rip(g=1.0):
+    """Tiếng vải/giấy xé: nhiễu dải cao, vài nhịp sột soạt."""
+    d=.55; n=bp(noise(d),1500,7500)*6; t=np.linspace(0,1,len(n)); e=(np.abs(np.sin(t*40))*.6+.4)*np.exp(-t*2.2)*np.minimum(1,t/.02); return g*n*e
+def morse(g=1.0, pat='... --- ...', f=700):
+    """Tín hiệu Morse: chấm 70 ms, gạch 210 ms."""
+    out=[]
+    for ch in pat:
+        if ch==' ': out.append(np.zeros(int(.14*SR))); continue
+        d=.07 if ch=='.' else .21; t=t_(d); out.append(np.sin(2*np.pi*f*t)*env(len(t),.004,.01)*.8); out.append(np.zeros(int(.07*SR)))
+    return g*np.concatenate(out)
+def blast(g=1.0):
+    """Vụ nổ: thump sâu + nhiễu rền tắt dần."""
+    d=1.6; t=t_(d); lo=np.sin(2*np.pi*(48+60*np.exp(-t*9))*t)*np.exp(-t*3.2)*np.minimum(1,t/.006)
+    nz=bp(noise(d),80,2500)*7*np.exp(-t*4.5)*np.minimum(1,t/.004); cr=bp(noise(.08),2000,8000)*np.exp(-t_(.08)*60)*8
+    y=lo*1.0+nz*.55; y[:len(cr)]+=cr*.5; return g*y
+def dig(g=1.0):
+    """Cuốc xẻng chạm đất: tiếng thịch ngắn + hạt đất lạo xạo."""
+    t=t_(.3); th=np.sin(2*np.pi*(95+50*np.exp(-t*30))*t)*np.exp(-t*20); gr=bp(noise(.3),600,3500)*5*np.exp(-t*14)*np.minimum(1,t/.01); return g*(th*.9+gr*.5)
+def clink(g=1.0):
+    """Gõ vào đất nung: tiếng cạch khô."""
+    t=t_(.22); return g*((np.sin(2*np.pi*1450*t)*.6+np.sin(2*np.pi*2380*t)*.4)*np.exp(-t*26)+bp(noise(.22),1500,6000)*3*np.exp(-t*60))
+def creak(g=1.0, d=1.1):
+    """Dây thừng/ròng rọc kẹt kẹt: dao động thấp cộng nhiễu dải giữa."""
+    t=t_(d); f=210+35*np.sin(2*np.pi*3.5*t); ph=2*np.pi*np.cumsum(f)/SR; y=(np.sign(np.sin(ph))*.25+np.sin(ph)*.4)*(.55+.45*np.sin(2*np.pi*7*t)**2)
+    y=lp(y,1800)+bp(noise(d),900,2600)*1.2*np.abs(np.sin(2*np.pi*3.5*t)); return g*y*env(len(t),.05,.25)*.8
+def wind(g=1.0, d=2.4):
+    """Gió thổi: nhiễu dải thấp lên rồi xuống."""
+    n=bp(noise(d),150,1400)*6; t=np.linspace(0,1,len(n)); return g*n*(np.sin(np.pi*t)**1.5)*(.8+.2*np.sin(2*np.pi*1.7*t*d))
+def paper(g=1.0):
+    """Giấy sột soạt / đặt thư xuống."""
+    d=.35; n=bp(noise(d),2000,9000)*5; t=np.linspace(0,1,len(n)); return g*n*np.exp(-t*3)*(.6+.4*np.abs(np.sin(t*28)))*np.minimum(1,t/.02)
+def hammer(g=1.0):
+    """Búa gõ kim loại."""
+    t=t_(.4); return g*((np.sin(2*np.pi*880*t)*.5+np.sin(2*np.pi*1320*t)*.35+np.sin(2*np.pi*2050*t)*.2)*np.exp(-t*12)+bp(noise(.4),1500,7000)*2.5*np.exp(-t*70))
+def siren(g=1.0, d=2.0):
+    """Còi hụ lên xuống chậm (còi thành phố)."""
+    t=t_(d); f=420+260*np.sin(np.pi*np.clip(t/(d*.55),0,1))**2*(t<d*.55)+ (t>=d*.55)*(420+260*np.exp(-(t-d*.55)*3)); ph=2*np.pi*np.cumsum(f)/SR
+    return g*(np.sin(ph)*.7+np.sin(2*ph)*.2)*env(len(t),.15,.5)*.8
+def anthem(g=1.0, d=3.0):
+    """Hợp âm kèn đồng dài (tiếng nhạc nền lễ), không phải giai điệu có bản quyền."""
+    t=t_(d); y=(np.sin(2*np.pi*196*t)+.6*np.sin(2*np.pi*247*t)+.5*np.sin(2*np.pi*294*t)+.25*np.sin(2*np.pi*392*t)); return g*y*env(len(t),.4,.9)*.35
 def render(events, total):
     out = np.zeros(int(total * SR) + SR * 3)
     def put(t, y):
@@ -84,6 +126,17 @@ def render(events, total):
             for i in range(n): put(t + i * dt + (.05 if i % 2 else 0), step(g * (.85 if i % 2 else 1)))
         elif k == 'murmur': put(t, murmur(p.get('d', 3.0), .6 * g))
         elif k == 'swell': put(t, swell(p.get('d', 1.6), .5 * g))
+        elif k == 'rip': put(t, rip(g))
+        elif k == 'morse': put(t, morse(g, p.get('pat','... --- ...'), p.get('f',700)))
+        elif k == 'blast': put(t, blast(g))
+        elif k == 'dig': put(t, dig(g))
+        elif k == 'clink': put(t, clink(g))
+        elif k == 'creak': put(t, creak(g, p.get('d',1.1)))
+        elif k == 'wind': put(t, wind(.7*g, p.get('d',2.4)))
+        elif k == 'paper': put(t, paper(g))
+        elif k == 'hammer': put(t, hammer(g))
+        elif k == 'siren': put(t, siren(.8*g, p.get('d',2.0)))
+        elif k == 'anthem': put(t, anthem(g, p.get('d',3.0)))
     pk = np.abs(out).max() or 1; out = out / pk * (10 ** (-3 / 20))   # đỉnh -3 dBFS (còn bị sidechain hạ thêm khi có giọng)
     return out
 def write(path, mono, total):

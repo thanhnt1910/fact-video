@@ -1,36 +1,34 @@
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Đưa một ngón tay ra trước mặt, nhắm mắt này rồi đổ
+OK Leda 01: Chớp và sấm xảy ra cùng một lúc, vậy vì sao ta lại
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 02: Làm sao một cái nhảy nhỏ như vậy lại cho biết ngôi
-OK Leda 03: Nhưng sao ở xa hơn ngón tay rất nhiều, nên nó chỉ 
-OK Leda 04: Vì sao ngón tay nhảy? Vì hai mắt đứng ở hai chỗ kh
+OK Leda 02: Nhưng điều lạ hơn là khoảng chờ ấy cho ta biết cơn
+OK Leda 03: Hóa ra ánh sáng đến mắt ta gần như tức thì, còn âm
+OK Leda 04: Vậy muốn tính được khoảng cách, trước hết ta phải 
+OK Leda 05: Ở thế kỷ mười bảy, nhà khoa học người Pháp Ga-xen-
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Nên vật càng gần thì nhảy càng nhiều, vật càng xa 
-OK Leda 06: Vậy muốn thấy một ngôi sao nhảy, ta phải nhìn từ h
+OK Leda 06: Vì thế ông đứng thật xa khẩu súng, rồi bấm giờ từ 
+OK Leda 07: Ánh sáng tới mắt gần như ngay lập tức, nên khoảng 
+OK Leda 08: Giống như thấy người thợ bổ củi bên kia sông: rìu 
+OK Leda 09: Từ đó có công thức rất gọn: tốc độ bằng quãng đườn
+OK Leda 10: Giả sử khẩu súng cách ba ki-lô-mét, và ông đếm đượ
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 07: Trái Đất đi quanh Mặt Trời, nên sáu tháng sau ta đ
-OK Leda 08: Khi ấy hai chỗ đứng cách nhau khoảng ba trăm triệu
-OK Leda 09: Năm một nghìn tám trăm ba mươi tám, nhà thiên văn 
+OK Leda 11: Ba nghìn mét chia chín giây, được khoảng ba trăm b
+OK Leda 12: Nhưng số đo của Ga-xen-đi còn cao hơn thực tế, vì 
+OK Leda 13: Đến năm một nghìn bảy trăm ba mươi tám, Viện Hàn l
+OK Leda 14: Kết quả là họ ra ba trăm ba mươi hai mét mỗi giây,
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Ông chọn một ngôi sao mờ trong chòm Thiên Nga, vì 
-OK Leda 11: Ông nghĩ sao trôi nhanh thì có thể ở gần, và gần t
+OK Leda 15: Vậy ngày nay, ở hai mươi độ C, âm thanh đi khoảng 
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 12: Từ đó ông đo được cái nhảy chỉ khoảng không phẩy b
-OK Leda 13: Còn một giây góc là một phần ba nghìn sáu trăm của
-OK Leda 14: Ví dụ, một đồng xu rộng hai phẩy năm xăng-ti-mét, 
-OK Leda 15: Rồi có một công thức rất gọn: khoảng cách tính bằn
-OK Leda 16: Cứ một pác-xếch dài khoảng ba phẩy hai sáu năm ánh
-OK Leda 17: Còn một năm ánh sáng là quãng đường ánh sáng đi tr
+OK Leda 16: Còn ở không độ C, âm thanh chậm lại, chỉ còn ba tr
+OK Leda 17: Giờ quay lại cơn giông: trong ba giây, âm thanh đi
+OK Leda 18: Ba trăm bốn mươi ba nhân ba, được gần một nghìn mé
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 18: Với ngôi sao của Bét-xen: một chia cho không phẩy 
+OK Leda 19: Số ấy gần bằng một ki-lô-mét, nên cứ ba giây chờ l
+OK Leda 20: Ví dụ, bạn thấy chớp rồi đếm đến chín mới nghe sấm
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Rồi nhân với ba phẩy hai sáu, ra khoảng mười phẩy 
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Nghĩa là ánh sáng của ngôi sao ấy phải đi hơn mười
-   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 21: Số đo ngày nay là khoảng mười một phẩy bốn năm ánh
-OK Leda 22: Vậy Bét-xen chỉ lệch chừng một năm ánh sáng, với d
-OK Leda 23: Ngôi sao gần Mặt Trời nhất cũng nhảy rất ít, khoản
-OK Leda 24: Nó xa bốn phẩy hai bốn năm ánh sáng.
-OK Leda 25: Vậy là từ một cái nhảy nhỏ như ngón tay trước mắt,
+OK Leda 21: Chia chín giây cho ba, được ba ki-lô-mét: cơn giôn
+OK Leda 22: Vậy chớp và sấm cùng xảy ra, nhưng âm thanh đi chậ
+OK Leda 23: Và chính khoảng chờ ấy cho ta biết cơn giông còn x

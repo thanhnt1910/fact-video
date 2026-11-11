@@ -503,3 +503,6 @@ Mẫu: `phim_ban_do/doc9x16/canh_xk7.js` (hàm `PH`, `strip2`, `CK`, `shw`); vid
 - **Đọc to:** câu nào phải đọc hai lần thì viết lại; hai đoạn liền không mở cùng một chữ; câu kết thay đổi theo video.
 - **Công cụ trước khi gửi duyệt:** `kiem_kich_ban.py`, `kiem_mo_dau.py`, `kiem_mach_ke.py <mã>` (đo hook, tỷ lệ đoạn mở bằng từ nối, chuỗi cùng chữ mở, số lần "Theo", đoạn ≥2 con số, đoạn ≥4 tên riêng). ❌ phải sửa.
 - Lộ trình `ke-hoach/bi-mat-bieu-tuong-lo-trinh-30-video.md` đã dọn: giọng Leda, bỏ giới hạn 1858, độ dài tự do, bỏ nhãn "[kiểm]" (tra nguồn từng video khi viết).
+
+## Danh sách chủ đề video ngắn: kiểm trước khi viết kịch bản (chủ kênh yêu cầu 11/11/2026)
+- File `ke-hoach/bi-mat-bieu-tuong-danh-sach-chu-de.md` ghi chủ đề đã làm, đã bỏ, cần làm lại, đang viết. MỖI LẦN chọn chủ đề hoặc viết kịch bản mới phải mở file này kiểm (không trùng, không chủ đề đã bỏ, phải là chủ đề LỊCH SỬ có điểm lật lại thật; món ăn, thức uống, mẹo đời sống không làm). Cập nhật file ngay khi chủ kênh duyệt, bỏ hoặc yêu cầu làm lại.

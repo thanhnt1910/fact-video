@@ -15,100 +15,93 @@
  },
  {
   "n": 120003,
-  "chuong": "Nhu cầu",
-  "tone": "story",
-  "text": "Thời ấy người ta viết trên thẻ tre thì rất nặng, hoặc trên lụa thì rất đắt, nên cả hai đều bất tiện.",
-  "hien": "Thời ấy người ta viết trên thẻ tre thì rất nặng, hoặc trên lụa thì rất đắt, nên cả hai đều bất tiện."
- },
- {
-  "n": 120004,
-  "chuong": "Thái Luân",
-  "tone": "story",
-  "text": "Khoảng năm một trăm linh năm, Thái Luân nghĩ ra cách làm giấy từ vỏ cây, sợi gai thừa, giẻ rách và lưới đánh cá cũ.",
-  "hien": "Khoảng năm 105, Thái Luân nghĩ ra cách làm giấy từ vỏ cây, sợi gai thừa, giẻ rách và lưới đánh cá cũ."
- },
- {
-  "n": 120005,
-  "chuong": "Thái Luân",
-  "tone": "story",
-  "text": "Ông dâng cách làm ấy lên hoàng đế. Đó là ngâm sợi cây cho mềm, ép lại, rồi phơi thành từng tờ trên khung gỗ hoặc tấm lưới.",
-  "hien": "Ông dâng cách làm ấy lên hoàng đế. Đó là ngâm sợi cây cho mềm, ép lại, rồi phơi thành từng tờ trên khung gỗ hoặc tấm lưới."
- },
- {
-  "n": 120006,
-  "chuong": "Thái Luân",
-  "tone": "story",
-  "text": "Vì nguyên liệu toàn đồ bỏ đi nên giấy rẻ. Đến thế kỷ ba, loại giấy ấy đã được dùng khắp Trung Quốc.",
-  "hien": "Vì nguyên liệu toàn đồ bỏ đi nên giấy rẻ. Đến thế kỷ ba, loại giấy ấy đã được dùng khắp Trung Quốc."
- },
- {
-  "n": 120007,
   "chuong": "Lật lại",
   "tone": "story",
   "text": "Nhưng các nhà khảo cổ đã tìm thấy giấy làm từ sợi gai trong những ngôi mộ cổ thời Hán, xưa hơn Thái Luân hơn hai thế kỷ.",
   "hien": "Nhưng các nhà khảo cổ đã tìm thấy giấy làm từ sợi gai trong những ngôi mộ cổ thời Hán, xưa hơn Thái Luân hơn hai thế kỷ."
  },
  {
-  "n": 120008,
+  "n": 120004,
   "chuong": "Lật lại",
   "tone": "story",
   "text": "Năm một nghìn chín trăm năm mươi bảy, ở Baqiao, người ta thấy trong một ngôi mộ chiếc gương đồng có vụn giấy gai dính trên mặt.",
   "hien": "Năm 1957, ở Baqiao, người ta thấy trong một ngôi mộ chiếc gương đồng có vụn giấy gai dính trên mặt."
  },
  {
-  "n": 120009,
+  "n": 120005,
   "chuong": "Lật lại",
   "tone": "story",
-  "text": "Còn năm một nghìn chín trăm tám mươi sáu, trong một ngôi mộ ở tỉnh Cam Túc, người ta thấy thêm mảnh giấy có từ đầu thế kỷ hai trước Công nguyên.",
-  "hien": "Còn năm 1986, trong một ngôi mộ ở tỉnh Cam Túc, người ta thấy thêm mảnh giấy có từ đầu thế kỷ 2 trước Công nguyên."
+  "text": "Ở tỉnh Cam Túc, người ta cũng thấy giấy có từ khoảng thế kỷ hai trước Công nguyên.",
+  "hien": "Ở tỉnh Cam Túc, người ta cũng thấy giấy có từ khoảng thế kỷ 2 trước Công nguyên."
+ },
+ {
+  "n": 120006,
+  "chuong": "Cách làm",
+  "tone": "story",
+  "text": "Vậy giấy ấy được làm thế nào? Đầu tiên, người ta lấy sợi cây như gai, vỏ cây hay giẻ rách, rồi ngâm nước cho mềm ra.",
+  "hien": "Vậy giấy ấy được làm thế nào? Đầu tiên, người ta lấy sợi cây như gai, vỏ cây hay giẻ rách, rồi ngâm nước cho mềm ra."
+ },
+ {
+  "n": 120007,
+  "chuong": "Cách làm",
+  "tone": "story",
+  "text": "Sau đó họ dùng chày gỗ đập sợi cho nát thành bột nhão, rồi pha thêm nước cho loãng.",
+  "hien": "Sau đó họ dùng chày gỗ đập sợi cho nát thành bột nhão, rồi pha thêm nước cho loãng."
+ },
+ {
+  "n": 120008,
+  "chuong": "Cách làm",
+  "tone": "story",
+  "text": "Tiếp theo, họ nhúng một khung tre căng lưới mịn vào chậu bột rồi nhấc lên. Nước chảy qua mắt lưới, chỉ còn một lớp bột mỏng nằm lại.",
+  "hien": "Tiếp theo, họ nhúng một khung tre căng lưới mịn vào chậu bột rồi nhấc lên. Nước chảy qua mắt lưới, chỉ còn một lớp bột mỏng nằm lại."
+ },
+ {
+  "n": 120009,
+  "chuong": "Cách làm",
+  "tone": "story",
+  "text": "Cuối cùng, tờ bột ướt được ép cho ráo nước rồi phơi khô. Thế là thành một tờ giấy.",
+  "hien": "Cuối cùng, tờ bột ướt được ép cho ráo nước rồi phơi khô. Thế là thành một tờ giấy."
  },
  {
   "n": 120010,
-  "chuong": "Lật lại",
+  "chuong": "Thái Luân",
   "tone": "story",
-  "text": "Loại giấy thô ấy có thể lúc đầu chỉ dùng để gói đồ, chứ chưa dùng để viết.",
-  "hien": "Loại giấy thô ấy có thể lúc đầu chỉ dùng để gói đồ, chứ chưa dùng để viết."
+  "text": "Vậy Thái Luân đã làm gì? Theo các nhà nghiên cứu ở Đại học Hamburg, công của ông nằm ở việc cải tiến kỹ thuật hơn là phát minh từ đầu.",
+  "hien": "Vậy Thái Luân đã làm gì? Theo các nhà nghiên cứu ở Đại học Hamburg, công của ông nằm ở việc cải tiến kỹ thuật hơn là phát minh từ đầu."
  },
  {
   "n": 120011,
-  "chuong": "Lật lại",
+  "chuong": "Thái Luân",
   "tone": "story",
-  "text": "Vì vậy, theo các nhà nghiên cứu ở Đại học Hamburg, công của Thái Luân nằm ở việc cải tiến kỹ thuật hơn là phát minh từ đầu.",
-  "hien": "Vì vậy, theo các nhà nghiên cứu ở Đại học Hamburg, công của Thái Luân nằm ở việc cải tiến kỹ thuật hơn là phát minh từ đầu."
+  "text": "Khoảng năm một trăm linh năm, ông dâng lên hoàng đế cách làm giấy từ vỏ cây, sợi gai thừa, giẻ rách và lưới đánh cá cũ.",
+  "hien": "Khoảng năm 105, ông dâng lên hoàng đế cách làm giấy từ vỏ cây, sợi gai thừa, giẻ rách và lưới đánh cá cũ."
  },
  {
   "n": 120012,
-  "chuong": "Lật lại",
+  "chuong": "Thái Luân",
   "tone": "story",
-  "text": "Họ vẫn tranh luận xem những mảnh giấy thô kia đã đủ gọi là giấy chưa, hay mới chỉ là bước đầu.",
-  "hien": "Họ vẫn tranh luận xem những mảnh giấy thô kia đã đủ gọi là giấy chưa, hay mới chỉ là bước đầu."
+  "text": "Vì nguyên liệu toàn đồ bỏ đi nên giấy rẻ hơn lụa và nhẹ hơn thẻ tre. Đến thế kỷ ba, loại giấy ấy đã được dùng khắp Trung Quốc.",
+  "hien": "Vì nguyên liệu toàn đồ bỏ đi nên giấy rẻ hơn lụa và nhẹ hơn thẻ tre. Đến thế kỷ 3, loại giấy ấy đã được dùng khắp Trung Quốc."
  },
  {
   "n": 120013,
-  "chuong": "Lan rộng",
+  "chuong": "Tranh luận",
   "tone": "story",
-  "text": "Rồi giấy đi xa hơn. Chuyện kể rằng năm bảy trăm năm mươi mốt, ở trận Talas, quân Ả Rập bắt được thợ làm giấy Trung Quốc.",
-  "hien": "Rồi giấy đi xa hơn. Chuyện kể rằng năm 751, ở trận Talas, quân Ả Rập bắt được thợ làm giấy Trung Quốc."
+  "text": "Theo Đại học Oxford, giấy thô ấy có thể chỉ dùng để gói đồ. Các nhà nghiên cứu vẫn tranh luận xem nó đã đủ gọi là giấy chưa.",
+  "hien": "Theo Đại học Oxford, giấy thô ấy có thể chỉ dùng để gói đồ. Các nhà nghiên cứu vẫn tranh luận xem nó đã đủ gọi là giấy chưa."
  },
  {
   "n": 120014,
-  "chuong": "Lan rộng",
+  "chuong": "Sau đó",
   "tone": "story",
-  "text": "Theo chuyện ấy, người Ả Rập học nghề từ họ. Nhưng nhiều nhà nghiên cứu cho rằng giấy đã có ở Samarkand, thành phố Trung Á, từ trước trận đánh.",
-  "hien": "Theo chuyện ấy, người Ả Rập học nghề từ họ. Nhưng nhiều nhà nghiên cứu cho rằng giấy đã có ở Samarkand, thành phố Trung Á, từ trước trận đánh."
+  "text": "Sau ông, người ta còn thử trộn thêm nhiều loại sợi khác nhau để làm ra giấy tốt hơn và rẻ hơn.",
+  "hien": "Sau ông, người ta còn thử trộn thêm nhiều loại sợi khác nhau để làm ra giấy tốt hơn và rẻ hơn."
  },
  {
   "n": 120015,
-  "chuong": "Lan rộng",
-  "tone": "story",
-  "text": "Sử Trung Quốc cũng không nhắc gì đến thợ làm giấy bị bắt, nên nhiều học giả nghi ngờ câu chuyện này.",
-  "hien": "Sử Trung Quốc cũng không nhắc gì đến thợ làm giấy bị bắt, nên nhiều học giả nghi ngờ câu chuyện này."
- },
- {
-  "n": 120016,
   "chuong": "Kết",
   "tone": "story",
-  "text": "Vậy theo bạn, vì sao người ta thích nhớ một cái tên hay một trận đánh, hơn là cả một quá trình dài?",
-  "hien": "Vậy theo bạn, vì sao người ta thích nhớ một cái tên hay một trận đánh, hơn là cả một quá trình dài?"
+  "text": "Vậy theo bạn, vì sao người ta thích nhớ một cái tên hơn là cả một quá trình dài?",
+  "hien": "Vậy theo bạn, vì sao người ta thích nhớ một cái tên hơn là cả một quá trình dài?"
  }
 ]

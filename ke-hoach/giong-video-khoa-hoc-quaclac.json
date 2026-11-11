@@ -1,0 +1,120 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Làm sao đo thời gian cho chuẩn, khi đồng hồ lò xo thời xưa chạy lệch tới mười lăm phút mỗi ngày?",
+   "say": "Làm sao đo thời gian cho chuẩn, khi đồng hồ lò xo thời xưa chạy lệch tới mười lăm phút mỗi ngày?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng chỉ cần một sợi dây và một quả nặng, độ lệch ấy đã giảm đi sáu mươi lần.",
+   "say": "Nhưng chỉ cần một sợi dây và một quả nặng, độ lệch ấy đã giảm đi sáu mươi lần."
+  },
+  {
+   "n": 3,
+   "text": "Hóa ra bí mật nằm ở một điều rất đơn giản: quả lắc đung đưa đều như nhịp tim.",
+   "say": "Hóa ra bí mật nằm ở một điều rất đơn giản: quả lắc đung đưa đều như nhịp tim."
+  },
+  {
+   "n": 4,
+   "text": "Vậy vì sao quả lắc lại đều đến thế?",
+   "say": "Vậy vì sao quả lắc lại đều đến thế?"
+  },
+  {
+   "n": 5,
+   "text": "Nhà khoa học Ga-li-lê thấy rằng hai con lắc dài bằng nhau thì mỗi lần đung đưa mất thời gian như nhau.",
+   "say": "Nhà khoa học Ga-li-lê thấy rằng hai con lắc dài bằng nhau thì mỗi lần đung đưa mất thời gian như nhau."
+  },
+  {
+   "n": 6,
+   "text": "Nghĩa là thời gian ấy chỉ phụ thuộc vào độ dài dây, không phụ thuộc quả nặng.",
+   "say": "Nghĩa là thời gian ấy chỉ phụ thuộc vào độ dài dây, không phụ thuộc quả nặng."
+  },
+  {
+   "n": 7,
+   "text": "Ví dụ, trên xích đu, em bé hay người lớn đều mất gần như cùng thời gian cho mỗi lượt đưa.",
+   "say": "Ví dụ, trên xích đu, em bé hay người lớn đều mất gần như cùng thời gian cho mỗi lượt đưa."
+  },
+  {
+   "n": 8,
+   "text": "Vậy muốn đo thời gian, ta chỉ cần đếm số lần đung đưa.",
+   "say": "Vậy muốn đo thời gian, ta chỉ cần đếm số lần đung đưa."
+  },
+  {
+   "n": 9,
+   "text": "Năm một nghìn sáu trăm năm mươi bảy, Hây-ghen được cấp bằng sáng chế cho đồng hồ quả lắc đầu tiên.",
+   "say": "Năm một nghìn sáu trăm năm mươi bảy, Hây-ghen được cấp bằng sáng chế cho đồng hồ quả lắc đầu tiên."
+  },
+  {
+   "n": 10,
+   "text": "Ông đã làm xong mẫu từ cuối năm trước đó, và để quả lắc điều khiển nhịp chạy của kim.",
+   "say": "Ông đã làm xong mẫu từ cuối năm trước đó, và để quả lắc điều khiển nhịp chạy của kim."
+  },
+  {
+   "n": 11,
+   "text": "Nhờ vậy độ lệch giảm từ khoảng mười lăm phút xuống còn khoảng mười lăm giây mỗi ngày.",
+   "say": "Nhờ vậy độ lệch giảm từ khoảng mười lăm phút xuống còn khoảng mười lăm giây mỗi ngày."
+  },
+  {
+   "n": 12,
+   "text": "Ta tính thử: mười lăm phút nhân sáu mươi, bằng chín trăm giây.",
+   "say": "Ta tính thử: mười lăm phút nhân sáu mươi, bằng chín trăm giây."
+  },
+  {
+   "n": 13,
+   "text": "Rồi chín trăm giây chia mười lăm giây, được sáu mươi lần.",
+   "say": "Rồi chín trăm giây chia mười lăm giây, được sáu mươi lần."
+  },
+  {
+   "n": 14,
+   "text": "Vậy đồng hồ quả lắc chính xác hơn khoảng sáu mươi lần.",
+   "say": "Vậy đồng hồ quả lắc chính xác hơn khoảng sáu mươi lần."
+  },
+  {
+   "n": 15,
+   "text": "Công thức thật của quả lắc là: thời gian một lượt bằng hai nhân pi nhân căn của độ dài chia gờ.",
+   "say": "Công thức thật của quả lắc là: thời gian một lượt bằng hai nhân pi nhân căn của độ dài chia gờ."
+  },
+  {
+   "n": 16,
+   "text": "Ở đây pi khoảng ba phẩy mười bốn, còn gờ là số đo lực hút của Trái Đất, khoảng chín phẩy tám.",
+   "say": "Ở đây pi khoảng ba phẩy mười bốn, còn gờ là số đo lực hút của Trái Đất, khoảng chín phẩy tám."
+  },
+  {
+   "n": 17,
+   "text": "Thử với một sợi dây dài một mét.",
+   "say": "Thử với một sợi dây dài một mét."
+  },
+  {
+   "n": 18,
+   "text": "Một chia chín phẩy tám, được khoảng không phẩy một.",
+   "say": "Một chia chín phẩy tám, được khoảng không phẩy một."
+  },
+  {
+   "n": 19,
+   "text": "Lấy căn bậc hai của không phẩy một, được khoảng không phẩy ba hai.",
+   "say": "Lấy căn bậc hai của không phẩy một, được khoảng không phẩy ba hai."
+  },
+  {
+   "n": 20,
+   "text": "Rồi nhân với hai pi, tức khoảng sáu phẩy hai tám, ra khoảng hai giây.",
+   "say": "Rồi nhân với hai pi, tức khoảng sáu phẩy hai tám, ra khoảng hai giây."
+  },
+  {
+   "n": 21,
+   "text": "Vì thế quả lắc dài gần một mét cho nhịp tích tắc đúng một giây.",
+   "say": "Vì thế quả lắc dài gần một mét cho nhịp tích tắc đúng một giây."
+  },
+  {
+   "n": 22,
+   "text": "Vậy muốn đo thời gian thật đều, hãy dựa vào một thứ lặp lại đều đặn, như quả lắc đung đưa.",
+   "say": "Vậy muốn đo thời gian thật đều, hãy dựa vào một thứ lặp lại đều đặn, như quả lắc đung đưa."
+  },
+  {
+   "n": 23,
+   "text": "Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng mười lăm giây thay vì mười lăm phút.",
+   "say": "Nhờ nó, mỗi ngày đồng hồ chỉ còn lệch khoảng mười lăm giây thay vì mười lăm phút."
+  }
+ ]
+}

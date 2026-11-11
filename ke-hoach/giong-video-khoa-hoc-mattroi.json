@@ -1,0 +1,130 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Làm sao biết Mặt Trời xa hơn Mặt Trăng bao nhiêu lần, khi chưa có cây thước nào dài tới thế?",
+   "say": "Làm sao biết Mặt Trời xa hơn Mặt Trăng bao nhiêu lần, khi chưa có cây thước nào dài tới thế?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng cách đây hơn hai nghìn năm, người Hy Lạp A-ri-xta-khơ chỉ cần ngắm Mặt Trăng lúc nó sáng đúng một nửa.",
+   "say": "Nhưng cách đây hơn hai nghìn năm, người Hy Lạp A-ri-xta-khơ chỉ cần ngắm Mặt Trăng lúc nó sáng đúng một nửa."
+  },
+  {
+   "n": 3,
+   "text": "Hóa ra khoảnh khắc ấy giấu một hình tam giác, và từ hình ấy ông tính được cả khoảng cách.",
+   "say": "Hóa ra khoảnh khắc ấy giấu một hình tam giác, và từ hình ấy ông tính được cả khoảng cách."
+  },
+  {
+   "n": 4,
+   "text": "Vì sao một Mặt Trăng sáng một nửa lại là manh mối?",
+   "say": "Vì sao một Mặt Trăng sáng một nửa lại là manh mối?"
+  },
+  {
+   "n": 5,
+   "text": "Vì Mặt Trăng tự nó không sáng, chỉ nửa mặt hướng về Mặt Trời là được chiếu sáng.",
+   "say": "Vì Mặt Trăng tự nó không sáng, chỉ nửa mặt hướng về Mặt Trời là được chiếu sáng."
+  },
+  {
+   "n": 6,
+   "text": "Giống như quả bóng trong phòng tối: đèn pin chỉ rọi sáng một nửa quả.",
+   "say": "Giống như quả bóng trong phòng tối: đèn pin chỉ rọi sáng một nửa quả."
+  },
+  {
+   "n": 7,
+   "text": "Khi ta thấy đúng nửa quả sáng, mắt ta đang nhìn vuông góc với tia đèn.",
+   "say": "Khi ta thấy đúng nửa quả sáng, mắt ta đang nhìn vuông góc với tia đèn."
+  },
+  {
+   "n": 8,
+   "text": "Với Mặt Trăng cũng vậy, lúc ấy ba điểm Trái Đất, Mặt Trăng và Mặt Trời tạo thành một hình tam giác.",
+   "say": "Với Mặt Trăng cũng vậy, lúc ấy ba điểm Trái Đất, Mặt Trăng và Mặt Trời tạo thành một hình tam giác."
+  },
+  {
+   "n": 9,
+   "text": "Và góc vuông của tam giác nằm đúng ở Mặt Trăng.",
+   "say": "Và góc vuông của tam giác nằm đúng ở Mặt Trăng."
+  },
+  {
+   "n": 10,
+   "text": "Vậy chỉ còn phải biết góc ở Trái Đất, giữa hướng nhìn Mặt Trăng và hướng nhìn Mặt Trời.",
+   "say": "Vậy chỉ còn phải biết góc ở Trái Đất, giữa hướng nhìn Mặt Trăng và hướng nhìn Mặt Trời."
+  },
+  {
+   "n": 11,
+   "text": "A-ri-xta-khơ cho rằng góc ấy là tám mươi bảy độ, chỉ kém góc vuông một chút.",
+   "say": "A-ri-xta-khơ cho rằng góc ấy là tám mươi bảy độ, chỉ kém góc vuông một chút."
+  },
+  {
+   "n": 12,
+   "text": "Từ góc ấy có công thức: số lần xa bằng một chia cho cô-sin của góc.",
+   "say": "Từ góc ấy có công thức: số lần xa bằng một chia cho cô-sin của góc."
+  },
+  {
+   "n": 13,
+   "text": "Cô-sin là một con số máy tính bấm ra; góc càng gần chín mươi độ thì số này càng nhỏ.",
+   "say": "Cô-sin là một con số máy tính bấm ra; góc càng gần chín mươi độ thì số này càng nhỏ."
+  },
+  {
+   "n": 14,
+   "text": "Với tám mươi bảy độ, máy tính cho cô-sin khoảng không phẩy không năm hai.",
+   "say": "Với tám mươi bảy độ, máy tính cho cô-sin khoảng không phẩy không năm hai."
+  },
+  {
+   "n": 15,
+   "text": "Rồi một chia cho không phẩy không năm hai, được khoảng mười chín.",
+   "say": "Rồi một chia cho không phẩy không năm hai, được khoảng mười chín."
+  },
+  {
+   "n": 16,
+   "text": "Vậy theo A-ri-xta-khơ, Mặt Trời xa hơn Mặt Trăng khoảng mười chín lần.",
+   "say": "Vậy theo A-ri-xta-khơ, Mặt Trời xa hơn Mặt Trăng khoảng mười chín lần."
+  },
+  {
+   "n": 17,
+   "text": "Nhưng con số thật lớn hơn thế rất nhiều.",
+   "say": "Nhưng con số thật lớn hơn thế rất nhiều."
+  },
+  {
+   "n": 18,
+   "text": "Vì góc thật gần như vuông, chỉ hơn góc ông tính chừng ba độ.",
+   "say": "Vì góc thật gần như vuông, chỉ hơn góc ông tính chừng ba độ."
+  },
+  {
+   "n": 19,
+   "text": "Ví dụ, ngắm một cột đèn xa một trăm mét: lệch ba độ thì điểm ngắm đã trượt hơn năm mét.",
+   "say": "Ví dụ, ngắm một cột đèn xa một trăm mét: lệch ba độ thì điểm ngắm đã trượt hơn năm mét."
+  },
+  {
+   "n": 20,
+   "text": "Gần góc vuông, cô-sin nhỏ xíu, nên chia cho nó thì một chút lệch cũng làm kết quả vọt lên rất xa.",
+   "say": "Gần góc vuông, cô-sin nhỏ xíu, nên chia cho nó thì một chút lệch cũng làm kết quả vọt lên rất xa."
+  },
+  {
+   "n": 21,
+   "text": "Thật vậy, với góc thật, cùng phép chia ấy cho ra khoảng ba trăm chín mươi lần.",
+   "say": "Thật vậy, với góc thật, cùng phép chia ấy cho ra khoảng ba trăm chín mươi lần."
+  },
+  {
+   "n": 22,
+   "text": "Góc thật chỉ kém chín mươi độ chưa tới một phần sáu độ, điều thời ấy không ai đo nổi.",
+   "say": "Góc thật chỉ kém chín mươi độ chưa tới một phần sáu độ, điều thời ấy không ai đo nổi."
+  },
+  {
+   "n": 23,
+   "text": "Vậy cách làm của ông hoàn toàn đúng, chỉ có con số góc là lệch.",
+   "say": "Vậy cách làm của ông hoàn toàn đúng, chỉ có con số góc là lệch."
+  },
+  {
+   "n": 24,
+   "text": "Nhờ đó, chỉ bằng đôi mắt và hình học, ông đã thấy Mặt Trời xa hơn Mặt Trăng rất nhiều lần.",
+   "say": "Nhờ đó, chỉ bằng đôi mắt và hình học, ông đã thấy Mặt Trời xa hơn Mặt Trăng rất nhiều lần."
+  },
+  {
+   "n": 25,
+   "text": "Vậy muốn biết Mặt Trời xa gấp mấy lần Mặt Trăng, ta nhìn Mặt Trăng lúc sáng một nửa, rồi đo góc.",
+   "say": "Vậy muốn biết Mặt Trời xa gấp mấy lần Mặt Trăng, ta nhìn Mặt Trăng lúc sáng một nửa, rồi đo góc."
+  }
+ ]
+}

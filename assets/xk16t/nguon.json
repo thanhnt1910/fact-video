@@ -1,27 +1,9 @@
 {
- "ph6": {
-  "slot": "S6",
-  "so": 6,
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hanoi_-_H%C3%A0ng_B%E1%BA%A1c_Street_-_1.jpg/1920px-Hanoi_-_H%C3%A0ng_B%E1%BA%A1c_Street_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "credit": "\"Hanoi - Hàng Bạc Street - 1.jpg\" – Benjamin Smith, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Hanoi_-_H%C3%A0ng_B%E1%BA%A1c_Street_-_1.jpg)"
- },
- "ph8": {
-  "slot": "S8",
-  "so": 8,
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Crossroad_in_Hanoi.jpg/1920px-Crossroad_in_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "credit": "\"Crossroad in Hanoi.jpg\" – Christophe95, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Crossroad_in_Hanoi.jpg)"
- },
  "ph10": {
   "slot": "S10",
   "so": 10,
   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hano%C3%AF_-_Rue_des_Cantonnais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
   "credit": "\"Hanoï - Rue des Cantonnais.jpg\" – Unknown authorUnknown author, Public domain (https://commons.wikimedia.org/wiki/File:Hano%C3%AF_-_Rue_des_Cantonnais.jpg)"
- },
- "pha": {
-  "slot": "S1",
-  "so": 1,
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2024-11-03_Hanoi%27s_Old_Quarter_2.jpg/1920px-2024-11-03_Hanoi%27s_Old_Quarter_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "credit": "\"2024-11-03 Hanoi's Old Quarter 2.jpg\" – Alexkom000, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:2024-11-03_Hanoi%27s_Old_Quarter_2.jpg)"
  },
  "phe": {
   "slot": "S9",

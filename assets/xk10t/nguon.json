@@ -5,12 +5,6 @@
   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg/1920px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "credit": "\"Leonardo da Vinci - Mona Lisa (Louvre).jpg\" – Leonardo da Vinci, Public domain (https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Mona_Lisa_(Louvre).jpg)"
  },
- "ml2": {
-  "slot": "S2",
-  "so": 2,
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Salon_Carr%C3%A9_D201805_1.jpg/1920px-Salon_Carr%C3%A9_D201805_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "credit": "\"Salon Carré D201805 1.jpg\" – Tangopaso, Public domain (https://commons.wikimedia.org/wiki/File:Salon_Carr%C3%A9_D201805_1.jpg)"
- },
  "ml3": {
   "slot": "S3",
   "so": 3,
@@ -52,11 +46,5 @@
   "so": 13,
   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Examples_of_Mona_Lisa_postcards_in_circulation_following_1911_theft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
   "credit": "\"Examples of Mona Lisa postcards in circulation following 1911 theft.jpg\" – An undesired fidelity, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Examples_of_Mona_Lisa_postcards_in_circulation_following_1911_theft.jpg)"
- },
- "ml14": {
-  "slot": "S14",
-  "so": 14,
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Crowd_in_front_of_the_Mona_Lisa_1.jpg/1920px-Crowd_in_front_of_the_Mona_Lisa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "credit": "\"Crowd in front of the Mona Lisa 1.jpg\" – Amaury Laporte, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Crowd_in_front_of_the_Mona_Lisa_1.jpg)"
  }
 }

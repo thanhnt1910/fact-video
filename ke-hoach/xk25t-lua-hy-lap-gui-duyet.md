@@ -61,3 +61,11 @@ Bản dựng thử không giọng: `out/xk25t_thu_doc.mp4` (thời lượng ư�
 
 - Nền: xanh hải quân đêm (tối) và sương biển nhạt (sáng); hiệu ứng nền: sóng ánh sáng trôi ở đáy khung (y>1600); cảnh đặc trưng: mặt cắt cơ chế chuyển động, có nhãn "GIẢ THUYẾT".
 - Màu: đỏ = điều chưa chắc hoặc nguy hiểm, vàng đồng = điều có nguồn, xanh thép = nền.
+
+### Sửa sau khi đọc giọng (chủ kênh duyệt 11/11/2026 21:12)
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 125003 | Constantinople là kinh đô của Đế quốc Đông La Mã, nằm sát biển. Vì thế kẻ thù có thể kéo đến bằng đường thủy. | Thành Constantinople là kinh đô của Đế quốc Đông La Mã. Thành nằm sát biển, nên kẻ thù có thể kéo đến bằng đường thủy. | Giọng bỏ câu đầu ở cả 3 lượt; tên riêng đứng đầu đoạn |
+| 125010 | …nhóm nghiên cứu của Haldon dựng lại… | …nhóm nghiên cứu của nhà sử học ấy dựng lại một thiết bị theo giả thuyết đó… | Tên "Haldon" bị đọc sai; tên đã nêu đủ ở đoạn 125007 |
+| 125015 | Rồi theo thời gian, công thức mất hẳn. Đến nay không ai biết chắc thứ lửa ấy làm từ gì. | Sau này công thức mất hẳn, đến nay không ai biết chắc thứ lửa ấy làm từ gì. | Cách mở giống đuôi đoạn trước nên chỗ cắt bị lẫn |
+Sự kiện, năm, số không đổi.

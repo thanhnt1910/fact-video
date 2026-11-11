@@ -82,3 +82,6 @@ Chủ kênh muốn phần cơ chế hoạt động (không chỉ câu chuyện t
 - Chủ kênh muốn làm video về vĩ nhân, dựa video mẫu Benjamin Franklin của kênh khác. Quy tắc viết kịch bản nằm trong CLAUDE.md, mục "Kịch bản Vĩ nhân".
 - Gợi ý đã đưa chủ kênh: Einstein (viết theo đời người, "không trượt toán" chỉ là một cú lật giữa video), Newton, Marie Curie, Trần Thủ Độ, Trần Hưng Đạo. Chưa duyệt, chưa tra nguồn, chưa viết. Franklin chưa tra nguồn.
 - Chủ kênh chốt 23:06: vĩ nhân chỉ làm nhân vật THẾ GIỚI. Danh sách 16 video thế giới ở `ke-hoach/vi-nhan-danh-sach-video.md` (bảng Việt Nam chuyển xuống phụ lục, không làm), chờ chủ kênh chọn.
+
+## Ghi nhận 11/11/2026 23:30: video vĩ nhân đầu tiên, Newton ở sở đúc tiền (xk27t)
+- Kịch bản đề xuất ở `ke-hoach/xk27t-newton-gui-duyet.md`, 18 đoạn, kiểm công cụ đạt, chờ chủ kênh duyệt. Chưa đọc giọng, chưa dựng.

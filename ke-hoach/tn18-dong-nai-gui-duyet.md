@@ -93,3 +93,6 @@ Bản đồ 34 đơn vị, tô Đồng Nai (ranh giới hiện nay, gồm Bình 
 - 2025 Đồng Nai và Bình Phước gộp, tên Đồng Nai: Nghị quyết 202/2025/QH15; đề án HĐND Bình Phước.
 - 30/4/2026 thành phố trực thuộc Trung ương thứ bảy: Luật Việt Nam; Báo Đấu thầu; Tuổi Trẻ https://tuoitre.vn/dong-nai-chinh-thuc-len-thanh-pho-tu-ngay-30-4-20260424095327324.htm
 - Wikipedia, vnreview chỉ còn để đối chiếu, không dùng làm nguồn.
+
+### Giọng đọc 13/11/2026 (chủ kênh duyệt)
+- Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.

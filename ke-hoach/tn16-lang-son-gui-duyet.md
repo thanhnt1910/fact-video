@@ -94,3 +94,6 @@ Bản đồ 34 tỉnh, tô Lạng Sơn; chấm thành phố Lạng Sơn, ải Ch
 
 ### Sửa 13/11/2026 (chủ kênh yêu cầu)
 - Gọi "vua Minh Mạng" thay cho "vua Minh Mệnh" trong lời kể, thống nhất với các tập #12 đến #14.
+
+### Giọng đọc 13/11/2026 (chủ kênh duyệt)
+- Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.

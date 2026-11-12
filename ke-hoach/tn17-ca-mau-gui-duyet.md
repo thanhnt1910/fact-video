@@ -85,3 +85,6 @@ Không đổi chữ nào. Nguồn bổ sung cho từng dữ kiện:
 - Quốc hội phê chuẩn chia Minh Hải ngày 6/11/1996, hiệu lực 1/1/1997: VietNamNet; VietnamPlus.
 - 2025 Cà Mau và Bạc Liêu chung một tỉnh tên Cà Mau: Nghị quyết 202/2025/QH15; Tuổi Trẻ.
 - Wikipedia, mytour.vn, kupi.com chỉ còn để đối chiếu, không dùng làm nguồn.
+
+### Giọng đọc 13/11/2026 (chủ kênh duyệt)
+- Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.

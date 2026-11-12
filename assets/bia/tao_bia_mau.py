@@ -28,7 +28,7 @@ html = f'''<!doctype html><meta charset=utf-8><style>
  radial-gradient(ellipse at 50% 66%,rgba(5,12,22,.62) 0,rgba(5,12,22,0) 62%),
  linear-gradient(180deg,rgba(5,12,22,.55) 0,rgba(5,12,22,0) 16%,rgba(5,12,22,0) 36%,rgba(5,12,22,.5) 60%,rgba(8,22,40,.78) 82%,rgba(10,26,46,.92) 100%)}}
 .ab{{position:absolute;left:0;width:1080px;text-align:center;white-space:nowrap;text-transform:uppercase;line-height:1}}
-.big{{font-family:O;font-weight:700;font-size:206px;letter-spacing:2px;padding:50px 0 60px;margin-top:-50px}}
+.big{{font-family:O;font-weight:700;font-size:{C.get('co',206)}px;letter-spacing:2px;padding:50px 0 60px;margin-top:-50px}}
 .bk{{color:#2a0504;-webkit-text-stroke:16px #2a0504;filter:drop-shadow(0 10px 0 rgba(0,0,0,.5)) drop-shadow(0 0 30px rgba(220,40,25,.6))}}
 .w{{background:linear-gradient(180deg,#fff 30%,#f3e6c8 100%);-webkit-background-clip:text;color:transparent}}
 .y{{background:linear-gradient(180deg,#fff2a8 5%,#ffc928 45%,#f08a00 100%);-webkit-background-clip:text;color:transparent}}

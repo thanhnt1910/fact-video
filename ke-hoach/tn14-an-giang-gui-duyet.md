@@ -20,7 +20,7 @@
 1. Tỉnh An Giang hôm nay lại đặt trụ sở ở Rạch Giá, không phải Long Xuyên.
 2. Đây không phải lần đầu cái tên này đổi chỗ đứng. Thậm chí có lúc, trên bản đồ không còn tỉnh nào tên là An Giang.
 3. Vùng đất này xưa gọi là Tầm Phong Long. Giữa thế kỷ mười tám, vua Chân Lạp dâng đất cho chúa Nguyễn, và nơi đây thành đạo Châu Đốc.
-4. Năm 1832, vua Minh Mạng chia Nam Bộ thành sáu tỉnh, gọi là Nam Kỳ lục tỉnh.
+4. Năm 1832, vua Minh Mạng chia vùng đất phía Nam thành sáu tỉnh, về sau quen gọi là Nam Kỳ lục tỉnh.
 5. An Giang là một trong sáu tỉnh ấy, trụ sở ở Châu Đốc. Chữ An là yên ổn, chữ Giang là sông.
 6. Một cái tên hợp với vùng đất đầu nguồn sông Cửu Long, nơi sông rạch chằng chịt.
 7. Rồi người Pháp đến, chia lại Nam Kỳ thành nhiều hạt nhỏ. Đất An Giang cũ thành hai hạt Châu Đốc và Long Xuyên, về sau gọi là tỉnh.
@@ -50,6 +50,8 @@ Từ 1/7/2025 tỉnh An Giang gồm An Giang và Kiên Giang, trung tâm hành c
 ### Điểm lệch giữa các nguồn
 - Giai đoạn 1964–1975: chính quyền Việt Nam Cộng hòa tách lại tỉnh Châu Đốc khỏi An Giang (Người Long Hồ). Lời kể không nói 1956–1975 An Giang luôn gồm Châu Đốc; chỉ nói năm 1956 lấy lại tên và sau 1975 trung tâm ở Long Xuyên, nên không mâu thuẫn. Không kể chi tiết này cho gọn.
 - Mốc tên An Giang biến mất: Pháp chiếm ba tỉnh miền Tây năm 1867, chia hạt từ 1876, đổi hạt thành tỉnh năm 1899. Lời kể không nêu năm, chỉ nói "người Pháp đến, chia lại Nam Kỳ thành nhiều hạt nhỏ".
+
+- Thời điểm có chữ "Nam Kỳ": Người Long Hồ ("Nam Kỳ lục tỉnh theo dòng thời gian"), Lâm Văn Bé và Wikipedia ghi danh xưng Nam Kỳ do vua Minh Mạng đặt năm 1834; một bài trên Tạp chí Khoa học ĐH Thái Nguyên ghi 1832. Lời kể không nói năm 1832 đã gọi là Nam Kỳ: "chia vùng đất phía Nam thành sáu tỉnh, về sau quen gọi là Nam Kỳ lục tỉnh". Cũng không dùng chữ "Nam Bộ" cho năm 1832 (tên Nam Bộ có từ năm 1945). Đoạn 7 dùng "Nam Kỳ" cho thời Pháp, đúng tên gọi thời đó.
 
 ### Chi tiết đã bỏ
 - Tỉnh Long Châu Hà của phía cách mạng và các lần chia tách thời chiến: rối mạch, không cần cho câu hỏi.

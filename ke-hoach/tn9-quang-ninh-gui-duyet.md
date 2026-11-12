@@ -16,7 +16,7 @@
 
 1. Bạn có biết, tên Quảng Ninh là tên ghép, mỗi chữ lấy từ một nơi khác nhau, và người gợi ý là Bác Hồ?
 2. Cái tên ấy còn khá trẻ. Nó mới xuất hiện trên bản đồ hơn sáu mươi năm nay.
-3. Ngày xưa, phần lớn vùng đất này thuộc tỉnh Quảng Yên.
+3. Ngày xưa, ở vùng đất này có một tỉnh tên là Quảng Yên.
 4. Năm 1955, tỉnh Quảng Yên nhập với đặc khu Hồng Gai, thành khu Hồng Quảng.
 5. Ngay cạnh khu Hồng Quảng là tỉnh Hải Ninh.
 6. Năm 1963, Quốc hội quyết định nhập khu Hồng Quảng và tỉnh Hải Ninh làm một.

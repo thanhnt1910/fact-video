@@ -49,10 +49,24 @@ const SDAY=[[105.40,21.13],[105.58,21.06],[105.66,20.98],[105.71,20.90],[105.74,
  [...PAPG.children].forEach(c=>{if(c.tagName=='g')c.setAttribute('opacity',0);if(c.tagName=='line')c.setAttribute('stroke','rgba(0,0,0,0)')});
  PAPG.firstChild.setAttribute('fill','#e9dcc0');
  const cont=(p,col)=>{const g=el(p,'g',{});const r=rng(129);for(let i=0;i<7;i++){const cx=r()*1080,cy=200+r()*1100;for(let j=1;j<5;j++)el(g,'ellipse',{cx,cy,rx:j*70+r()*20,ry:j*44+r()*16,fill:'none',stroke:col,'stroke-width':2})}return g};
- cont(DARKG,'rgba(127,166,196,.07)');cont(PAPG,'rgba(120,90,40,.12)');
+ cont(DARKG,'rgba(127,166,196,.05)');cont(PAPG,'rgba(120,90,40,.07)');
+ // nền biểu tượng Hà Nội: Khuê Văn Các, Tháp Rùa, nhịp cầu Long Biên (vẽ nét phẳng, mờ)
+ const sky=(p,col)=>{const g=el(p,'g',{});const L=(d,w=5)=>el(g,'path',{d,fill:'none',stroke:col,'stroke-width':w,'stroke-linejoin':'round','stroke-linecap':'round'});
+  // Khuê Văn Các (tâm x=540, chân y=1560)
+  {const x=540,y=1560;for(const dx of[-150,-60,60,150]){L(`M${x+dx-26} ${y} L${x+dx-26} ${y-200} L${x+dx+26} ${y-200} L${x+dx+26} ${y}`,6)}
+   L(`M${x-34} ${y} L${x-34} ${y-120} Q${x} ${y-170} ${x+34} ${y-120} L${x+34} ${y}`,5);L(`M${x-124} ${y-60} L${x-124} ${y-130} Q${x-105} ${y-158} ${x-86} ${y-130} L${x-86} ${y-60}`,4);L(`M${x+86} ${y-60} L${x+86} ${y-130} Q${x+105} ${y-158} ${x+124} ${y-130} L${x+124} ${y-60}`,4);
+   L(`M${x-230} ${y-200} L${x+230} ${y-200}`,7);L(`M${x-190} ${y-200} Q${x-260} ${y-226} ${x-280} ${y-262} Q${x-200} ${y-240} ${x-150} ${y-250} L${x+150} ${y-250} Q${x+200} ${y-240} ${x+280} ${y-262} Q${x+260} ${y-226} ${x+190} ${y-200}`,6);
+   L(`M${x-120} ${y-250} L${x-120} ${y-420} L${x+120} ${y-420} L${x+120} ${y-250}`,6);el(g,'circle',{cx:x,cy:y-335,r:58,fill:'none',stroke:col,'stroke-width':6});for(let i=0;i<12;i++){const a=i/12*Math.PI*2;L(`M${x+Math.cos(a)*14} ${y-335+Math.sin(a)*14} L${x+Math.cos(a)*56} ${y-335+Math.sin(a)*56}`,4)}
+   L(`M${x-150} ${y-420} Q${x-210} ${y-440} ${x-232} ${y-480} Q${x-150} ${y-458} ${x-100} ${y-470} L${x+100} ${y-470} Q${x+150} ${y-458} ${x+232} ${y-480} Q${x+210} ${y-440} ${x+150} ${y-420}Z`,6);L(`M${x-90} ${y-470} Q${x-130} ${y-500} ${x-140} ${y-530} Q${x-60} ${y-516} ${x} ${y-540} Q${x+60} ${y-516} ${x+140} ${y-530} Q${x+130} ${y-500} ${x+90} ${y-470}`,6);L(`M${x} ${y-540} L${x} ${y-580}`,5)}
+  // Tháp Rùa (x=150)
+  {const x=150,y=1600;L(`M${x-120} ${y} Q${x} ${y-50} ${x+120} ${y}`,5);[[90,120],[70,100],[52,80]].reduce((yy,[w,h])=>{L(`M${x-w/2} ${yy} L${x-w/2} ${yy-h} L${x+w/2} ${yy-h} L${x+w/2} ${yy}`,5);L(`M${x-w*.22} ${yy-8} L${x-w*.22} ${yy-h*.55} Q${x} ${yy-h*.85} ${x+w*.22} ${yy-h*.55} L${x+w*.22} ${yy-8}`,4);return yy-h},y-30);L(`M${x-34} ${y-330} L${x} ${y-372} L${x+34} ${y-330}`,5);for(let i=0;i<3;i++)L(`M${x-150+i*20} ${y+18+i*14} q40 -10 80 0 t80 0 t80 0`,3)}
+  // cầu Long Biên (từ x=760 sang phải), giàn thép cong
+  {const y=1560;for(let k=0;k<3;k++){const x0=740+k*170,x1=x0+170;L(`M${x0} ${y} L${x1} ${y}`,6);L(`M${x0} ${y} Q${(x0+x1)/2} ${y-150} ${x1} ${y}`,6);for(let i=1;i<6;i++){const xx=x0+i*170/6,hh=150*(1-Math.pow((i-3)/3,2))*.5;L(`M${xx} ${y} L${xx} ${y-hh}`,3);if(i<5)L(`M${xx} ${y-hh} L${x0+(i+1)*170/6} ${y}`,3)}L(`M${x0} ${y} L${x0} ${y+70}`,8)}}
+  return g};
+ const skA=sky(DARKG,'rgba(224,166,60,.16)'),skB=sky(PAPG,'rgba(110,80,40,.16)');
  const wv=(p,col)=>[0,1,2,3].map(i=>el(p,'path',{fill:'none',stroke:col,'stroke-width':4+i,opacity:.55-i*.1}));
  const wA=wv(DARKG,'rgba(95,179,230,.45)'),wB=wv(PAPG,'rgba(60,110,150,.35)');
- window.THEME_UPD=t=>{[wA,wB].forEach(L=>L.forEach((e,i)=>{const y0=1660+i*58;let d='';for(let x=-20;x<=1100;x+=30){const y=y0+Math.sin(x*.012+t*(1.2+i*.3)+i)*12;d+=(x<0?'M':'L')+x+' '+y.toFixed(1)}e.setAttribute('d',d)}))};
+ window.THEME_UPD=t=>{const dx=Math.sin(t*.12)*18;skA.setAttribute('transform',`translate(${dx.toFixed(1)},0)`);skB.setAttribute('transform',`translate(${dx.toFixed(1)},0)`);[wA,wB].forEach(L=>L.forEach((e,i)=>{const y0=1660+i*58;let d='';for(let x=-20;x<=1100;x+=30){const y=y0+Math.sin(x*.012+t*(1.2+i*.3)+i)*12;d+=(x<0?'M':'L')+x+' '+y.toFixed(1)}e.setAttribute('d',d)}))};
 }
 // ===== CẢNH
 // 1 hook: cả nước, Hà Nội sáng lên, "chưa đầy 200 tuổi", ông vua nhà Nguyễn

@@ -24,7 +24,7 @@ Thời Lý là lộ Lạng Châu, thời Trần đổi thành trấn Lạng Gian
 5. Phải đến năm 1397, cuối thời Trần, trấn Lạng Giang mới được đổi thành trấn Lạng Sơn.
 6. Sử cũ chép việc đổi tên nhưng không nói lý do. Chỉ biết rằng tên mới nghe rất hợp với một vùng toàn núi đá vôi và đèo dốc.
 7. Khi quân Minh sang cai trị, họ gọi nơi này là phủ Lạng Sơn. Sang thời Lê, Lạng Sơn thành một thừa tuyên, đơn vị lớn gần như tỉnh.
-8. Rồi năm 1831, vua Minh Mệnh đổi thừa tuyên Lạng Sơn thành tỉnh Lạng Sơn, trong đợt lập tỉnh đầu tiên ở miền Bắc.
+8. Rồi năm 1831, vua Minh Mạng đổi thừa tuyên Lạng Sơn thành tỉnh Lạng Sơn, trong đợt lập tỉnh đầu tiên ở miền Bắc.
 9. Việc lập tỉnh năm ấy còn được khắc trên mộc bản sách Đại Nam thực lục, bản dập được Bảo tàng tỉnh sưu tầm để trưng bày.
 10. Thế kỷ hai mươi, ranh giới tỉnh còn đổi thêm. Năm 1956, huyện Hữu Lũng được chuyển từ tỉnh Bắc Giang về Lạng Sơn.
 11. Đến năm 2025, khi cả nước gộp còn ba mươi tư tỉnh thành, Lạng Sơn là một trong mười một nơi được giữ nguyên.
@@ -38,7 +38,7 @@ Tên cũ là Lạng Giang (chữ Giang là sông); năm 1397, cuối thời Tr�
 - **Lộ Lạng Giang, Lạng Châu, trấn Lạng Giang, năm 1397 (đoạn 3–5):** Báo Pháp luật ("Tự hào về lịch sử hình thành và phát triển của Lạng Sơn"): thời Lý lộ Lạng Giang; đầu thời Trần lộ Lạng Châu, sau đổi trấn Lạng Giang; năm 1397 đổi thành trấn Lạng Sơn. Đinh Quang Hải (Tạp chí Khoa học ĐH Huế): đời Lý gọi là lộ, đầu đời Trần là trấn Lạng Giang, thời thuộc Minh gọi phủ Lạng Sơn.
 - **Đoạn 6 là lời người kể:** sử chỉ chép việc đổi tên; câu "tên mới nghe rất hợp với một vùng toàn núi đá vôi và đèo dốc" là nhận xét, không nói đó là lý do đổi tên.
 - **Thời Minh, thời Lê (đoạn 7):** Đinh Quang Hải: thời thuộc Minh gọi phủ Lạng Sơn. Thừa tuyên Lạng Sơn đặt năm 1466 (Cương mục, dẫn lại ở mytour.vn); mộc bản Đại Nam thực lục (vietnam.vn) ghi năm 1831 đổi "đạo thừa tuyên Lạng Sơn" thành tỉnh.
-- **1831 lập tỉnh, mộc bản (đoạn 8–9):** vietnam.vn ("Chứng thư lịch sử"): mộc bản Đại Nam thực lục chính biên đệ nhị kỷ, quyển 76 ghi năm Tân Mão 1831 vua Minh Mệnh đổi thừa tuyên Lạng Sơn thành tỉnh; năm 2021 Bảo tàng tỉnh phối hợp Trung tâm Lưu trữ Quốc gia IV sưu tầm bản dập phục vụ trưng bày. Đợt 1831 là đợt lập tỉnh từ Quảng Trị trở ra Bắc (hatinh.gov.vn); mia.vn ghi Lạng Sơn là một trong 13 tỉnh đầu tiên ở Bắc Kỳ.
+- **1831 lập tỉnh, mộc bản (đoạn 8–9):** vietnam.vn ("Chứng thư lịch sử"): mộc bản Đại Nam thực lục chính biên đệ nhị kỷ, quyển 76 ghi năm Tân Mão 1831 vua Minh Mạng đổi thừa tuyên Lạng Sơn thành tỉnh; năm 2021 Bảo tàng tỉnh phối hợp Trung tâm Lưu trữ Quốc gia IV sưu tầm bản dập phục vụ trưng bày. Đợt 1831 là đợt lập tỉnh từ Quảng Trị trở ra Bắc (hatinh.gov.vn); mia.vn ghi Lạng Sơn là một trong 13 tỉnh đầu tiên ở Bắc Kỳ.
 - **1956 Hữu Lũng (đoạn 10):** Báo Pháp luật: ngày 29/7/1956 Bắc Giang bàn giao huyện Hữu Lũng về Lạng Sơn khi lập Khu tự trị Việt Bắc; Wikipedia tiếng Anh ghi 1/7/1956. Lời kể chỉ nói năm 1956.
 - **2025 giữ nguyên (đoạn 11):** Nghị quyết 202/2025/QH15, 11 tỉnh thành không sắp xếp có Lạng Sơn.
 
@@ -90,3 +90,7 @@ Bản đồ 34 tỉnh, tô Lạng Sơn; chấm thành phố Lạng Sơn, ải Ch
 - 1956 Hữu Lũng chuyển từ Bắc Giang về Lạng Sơn: VietnamPlus; Báo Pháp luật; đề cương 191 năm.
 - 2025 giữ nguyên: Nghị quyết 202/2025/QH15.
 - Wikipedia, mia.vn, mytour.vn chỉ còn để đối chiếu, không dùng làm nguồn.
+
+
+### Sửa 13/11/2026 (chủ kênh yêu cầu)
+- Gọi "vua Minh Mạng" thay cho "vua Minh Mệnh" trong lời kể, thống nhất với các tập #12 đến #14.

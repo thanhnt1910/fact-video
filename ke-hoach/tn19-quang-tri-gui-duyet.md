@@ -20,7 +20,7 @@ Năm 1831 Quảng Bình và Quảng Trị chung một Tổng đốc Bình Trị 
 1. Đây không phải lần đầu Quảng Bình và Quảng Trị về chung một nhà.
 2. Hai vùng đất nằm sát nhau trên dải đất hẹp miền Trung đã nhiều lần gộp vào rồi lại tách ra, suốt gần hai trăm năm.
 3. Đầu thời Nguyễn, thành Quảng Trị được dựng bên dòng sông Thạch Hãn, và cái tên Quảng Trị đã gắn với vùng đất này.
-4. Năm 1831, vua Minh Mệnh đặt Quảng Bình và Quảng Trị dưới quyền một Tổng đốc Bình Trị, dinh đặt ở Đồng Hới.
+4. Năm 1831, vua Minh Mạng đặt Quảng Bình và Quảng Trị dưới quyền một Tổng đốc Bình Trị, dinh đặt ở Đồng Hới.
 5. Hai tỉnh vẫn riêng, nhưng chung một người đứng đầu. Đó mới là lần gần nhau, chưa phải lần chung nhà.
 6. Năm 1890, người Pháp gộp hai tỉnh thành tỉnh Bình Trị, đặt dưới quyền công sứ Đồng Hới. Đây là lần chung nhà thứ nhất.
 7. Chỉ sáu năm sau, năm 1896, Quảng Trị rời quyền công sứ Đồng Hới, và năm 1900 thành tỉnh riêng.
@@ -36,7 +36,7 @@ Lần thứ nhất năm 1890 (tỉnh Bình Trị), lần thứ hai năm 1976 (B�
 
 ### Ghi chú độ chắc
 - **Thành Quảng Trị đầu thời Nguyễn (đoạn 3):** Vietnam News (di tích thành cổ Quảng Trị): đầu thời Gia Long thành dựng ở Tiền Kiên, năm 1809 dời về Thạch Hãn. Lời kể không nêu năm.
-- **1831 Tổng đốc Bình Trị ở Đồng Hới (đoạn 4–5):** vnreview dẫn mộc bản triều Nguyễn: năm 1831 Quảng Bình, Quảng Trị đặt dưới một Tổng đốc Bình Trị, dinh tổng đốc ở Đồng Hới; hatinh.gov.vn: năm 1831 vua Minh Mệnh chia định các tỉnh từ Quảng Trị trở ra Bắc. Câu "lần gần nhau, chưa phải lần chung nhà" là cách người kể phân biệt.
+- **1831 Tổng đốc Bình Trị ở Đồng Hới (đoạn 4–5):** vnreview dẫn mộc bản triều Nguyễn: năm 1831 Quảng Bình, Quảng Trị đặt dưới một Tổng đốc Bình Trị, dinh tổng đốc ở Đồng Hới; hatinh.gov.vn: năm 1831 vua Minh Mạng chia định các tỉnh từ Quảng Trị trở ra Bắc. Câu "lần gần nhau, chưa phải lần chung nhà" là cách người kể phân biệt.
 - **1890 tỉnh Bình Trị (đoạn 6):** vnreview: năm 1890 Toàn quyền Đông Dương ra nghị định hợp nhất Quảng Bình với Quảng Trị thành tỉnh Bình Trị, đặt dưới quyền công sứ Đồng Hới.
 - **1900 tách (đoạn 7):** vnreview: năm 1900 Toàn quyền Đông Dương lập Quảng Trị thành tỉnh riêng gồm bốn phủ và một huyện.
 - **1976 Bình Trị Thiên, 1989 tách (đoạn 8–10):** vnreview; Wikipedia: tỉnh Bình Trị Thiên tỉnh lỵ Huế, năm 1989 chia lại thành Quảng Bình, Quảng Trị, Thừa Thiên Huế.
@@ -88,3 +88,7 @@ Bản đồ 34 tỉnh, tô Quảng Trị (ranh giới hiện nay); khung Quảng
 - 1976 Bình Trị Thiên; tháng 7/1989 tái lập Quảng Trị: VietnamPlus.
 - 2025 gộp, tên Quảng Trị, trung tâm Đồng Hới: Nghị quyết 202/2025/QH15; Người Lao Động; Tiền Phong.
 - Wikipedia, vnreview, vietbao chỉ còn để đối chiếu, không dùng làm nguồn.
+
+
+### Sửa 13/11/2026 (chủ kênh yêu cầu)
+- Gọi "vua Minh Mạng" thay cho "vua Minh Mệnh" trong lời kể, thống nhất với các tập #12 đến #14.

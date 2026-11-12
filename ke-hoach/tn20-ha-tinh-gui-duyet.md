@@ -19,7 +19,7 @@ Năm 1831 Minh Mệnh tách hai phủ của trấn Nghệ An lập tỉnh Hà T�
 
 1. Hà Tĩnh đã hai lần nhập vào Nghệ An, và cả hai lần đều tách ra thành tỉnh riêng.
 2. Trước khi có tên tỉnh, vùng đất phía nam sông Lam là một phần của trấn Nghệ An.
-3. Năm 1831, vua Minh Mệnh tách hai phủ Hà Hoa và Đức Thọ, gồm sáu huyện, để lập tỉnh Hà Tĩnh.
+3. Năm 1831, vua Minh Mạng tách hai phủ Hà Hoa và Đức Thọ, gồm sáu huyện, để lập tỉnh Hà Tĩnh.
 4. Đây là lần đầu cái tên Hà Tĩnh làm tên một tỉnh. Theo cách giải thích thường gặp, chữ Hà là sông, chữ Tĩnh là yên tĩnh.
 5. Chỉ hai mươi hai năm sau, năm 1853, vua Tự Đức bỏ tỉnh Hà Tĩnh, đổi làm đạo và đặt dưới tỉnh Nghệ An.
 6. Vì sao lại bỏ một tỉnh vừa lập? Theo tờ tâu được triều đình chấp thuận, tỉnh nhỏ, việc ít, nên đổi thành đạo để bớt quan lại.
@@ -83,3 +83,7 @@ Không đổi chữ nào. Nguồn bổ sung cho từng dữ kiện:
 - Nghĩa tên: "Hà" là sông, "Tĩnh" là yên lặng, bình yên; "Thạch Hà nghĩa là sông đá": Báo Hà Tĩnh https://baohatinh.vn/dia-danh-hanh-chinh-va-cau-chuyen-van-hoa-post291069.html ; tên châu Thạch Hà có trong Đại Việt sử ký toàn thư từ năm 1005: Báo Đầu tư https://baodautu.vn/1010-nam-danh-xung-thach-ha-d36324.html
 - 1976 Nghệ Tĩnh, trụ sở Vinh; thị xã Hà Tĩnh mất vai trò tỉnh lỵ: Tạp chí Khoa học Đại học Vinh; Báo Hà Tĩnh.
 - 2025 Nghệ An, Hà Tĩnh giữ nguyên: Nghị quyết 202/2025/QH15.
+
+
+### Sửa 13/11/2026 (chủ kênh yêu cầu)
+- Gọi "vua Minh Mạng" thay cho "vua Minh Mệnh" trong lời kể, thống nhất với các tập #12 đến #14.

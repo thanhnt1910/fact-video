@@ -5,8 +5,9 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21'}.get(KEY,'#00')
-CFG={7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01'}.get(KEY,'#00')
+CFG={'tn1':(129000,'=Nguồn: Đại Nam thực lục, Lịch sử Thủ đô Hà Nội (1960), Hiến pháp 1946',''),
+     7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),
      3:(56000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      4:(57000,'Wikimedia Commons (phạm vi công cộng / CC)',''),
      5:(58000,'Wikimedia Commons (CC0 / phạm vi công cộng)','VuThiAnh, Gary Todd (CC0) · Daaé'),
@@ -42,6 +43,7 @@ head=s[:i_end]
 foot=s[s.index("SCN.forEach((s,i)=>{if(i>0&&s.bg!=SCN"):]
 foot=foot.replace('window.render=function(t){let shx=0,shy=0;','window.render=function(t){if(window.THEME_UPD)THEME_UPD(t);let shx=0,shy=0;')
 head=head.replace('60000',str(base)).replace('dims_vn7.js',f'dims_{TAG}.js').replace('#07',LABEL).replace('assets/vn7/',f'assets/{TAG}/')
+if KEY.startswith('tn'):head=head.replace('BÍ MẬT BIỂU TƯỢNG','TÊN TỈNH THÀNH')
 # Facebook che góc: chữ HUD xuống dưới nút quay lại (y>=190), bỏ chữ NGƯỜI GÁC SỬ ở góc dưới trái
 head=head.replace("T(HUD,52,82,","T(HUD,52,210,").replace("T(HUD,52,128,","T(HUD,52,256,").replace("T(HUD,52,156,","T(HUD,52,284,").replace("T(HUD,52,1862,'NGƯỜI GÁC SỬ',26,'#f1e9d2',7,'start');",'')
 head=head.replace('Ảnh: Wikimedia Commons (CC BY / phạm vi công cộng)',cr1[1:] if cr1.startswith('=') else 'Ảnh: '+cr1)

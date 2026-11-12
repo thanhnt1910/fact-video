@@ -1,0 +1,16 @@
+{
+ "the_nam": "1306",
+ "the_trieu": "SÍNH LỄ CƯỚI",
+ "d1": "HUẾ LÀ",
+ "d2": "QUÀ CƯỚI?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #03",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#1d1730\"/>\n<g fill=\"none\" stroke=\"rgba(224,166,60,.09)\" stroke-width=\"2\"><ellipse cx=\"540\" cy=\"620\" rx=\"120\" ry=\"80\"/><ellipse cx=\"540\" cy=\"620\" rx=\"240\" ry=\"160\"/><ellipse cx=\"540\" cy=\"620\" rx=\"360\" ry=\"240\"/><ellipse cx=\"540\" cy=\"620\" rx=\"480\" ry=\"320\"/><ellipse cx=\"540\" cy=\"620\" rx=\"600\" ry=\"400\"/><ellipse cx=\"540\" cy=\"620\" rx=\"720\" ry=\"480\"/><ellipse cx=\"540\" cy=\"620\" rx=\"840\" ry=\"560\"/></g>\n<g fill=\"none\" stroke=\"rgba(224,166,60,.22)\" stroke-width=\"6\" stroke-linejoin=\"round\" transform=\"translate(760,980) scale(.9)\"><path d=\"M-320 0 L-320 -150 L320 -150 L320 0\"/><path d=\"M-190 0 L-190 -80 Q-150 -120 -110 -80 L-110 0 M-40 0 L-40 -80 Q0 -120 40 -80 L40 0 M110 0 L110 -80 Q150 -120 190 -80 L190 0\"/><path d=\"M-220 -150 L-220 -220 L220 -220 L220 -150\"/><path d=\"M-260 -220 Q-200 -238 -150 -262 L150 -262 Q200 -238 260 -220\"/><path d=\"M-130 -262 L-130 -310 L130 -310 L130 -262\"/><path d=\"M-170 -310 Q-120 -326 -80 -350 L80 -350 Q120 -326 170 -310\"/></g>\n<g transform=\"translate(330,640) scale(1.6)\"><rect x=\"-120\" y=\"-60\" width=\"240\" height=\"170\" rx=\"10\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"7\"/><rect x=\"-20\" y=\"-60\" width=\"40\" height=\"170\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"4\"/><g transform=\"translate(0,-26) rotate(-12)\"><rect x=\"-140\" y=\"-110\" width=\"280\" height=\"56\" rx=\"10\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"7\"/><rect x=\"-22\" y=\"-110\" width=\"44\" height=\"56\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"4\"/><path d=\"M0 -110 C-70 -190 -110 -120 0 -112 C110 -120 70 -190 0 -110Z\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"5\"/></g></g>\n<ellipse cx=\"330\" cy=\"640\" rx=\"300\" ry=\"250\" fill=\"none\" stroke=\"#e0a63c\" stroke-width=\"10\" stroke-dasharray=\"18 12\" transform=\"rotate(-6 330 640)\"/>\n<text x=\"860\" y=\"520\" font-family=\"O\" font-weight=\"700\" font-size=\"170\" fill=\"#ffd45a\" stroke=\"#2a0504\" stroke-width=\"10\" paint-order=\"stroke\">?</text>\n</svg>",
+ "chu_the": "hộp quà sính lễ và nét Ngọ Môn (vẽ phẳng)"
+}

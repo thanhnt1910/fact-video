@@ -75,3 +75,13 @@ Bản đồ 34 tỉnh, tô Cà Mau (ranh giới hiện nay); khung ranh giới C
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Cà Mau từng hai lần bị đổi tên?
 - Hashtag: #NguoiGacSu #TenTinhThanh #CaMau #BacLieu #MinhHai #LichSuVietNam #TenGoi
+
+### Rà soát nguồn 13/11/2026 (chủ kênh yêu cầu: không bỏ chữ, bổ sung tài liệu)
+Không đổi chữ nào. Nguồn bổ sung cho từng dữ kiện:
+- Cà Mau từ tiếng Khmer Tưk Khmau, nghĩa là nước đen; tên có trong Gia Định thành thông chí, trước khi có bộ máy hành chính người Việt: Vietcetera https://vietcetera.com/en/the-stories-behind-vietnams-province-names-part-4-the-mekong-delta ; VietNamNet https://vietnamnet.vn/en/ca-mau-the-final-point-on-the-s-shaped-land-E91372.html
+- Thời Pháp, Cà Mau thuộc tỉnh Bạc Liêu (1882, quận của Bạc Liêu từ 1911): VietnamPlus https://www.vietnamplus.vn/lich-su-tinh-ca-mau-diem-cuc-nam-linh-thieng-cua-to-quoc-post1023212.vnp
+- Ngày 9/3/1956 lập tỉnh Cà Mau (Sắc lệnh 32/VN); ngày 22/10/1956 đổi tên An Xuyên, tỉnh lỵ đổi tên Quản Long (Sắc lệnh 143/VN): Nguyễn Đình Tư, "Hai mươi lăm tỉnh Nam phần không còn tên trên bản đồ hành chính Việt Nam" https://thuvienhoasen.org/images/file/yakwIqEn2wgQAH8m/hai-muoi-lam-tinh-nam-phan-khong-con-ten-tren-ban-do-hcvn.pdf ; VietnamPlus.
+- Tháng 2/1976 hợp nhất Cà Mau và Bạc Liêu; ngày 10/3/1976 chính thức có tên Minh Hải: Tuổi Trẻ, "Ký ức những lần tách nhập tỉnh, kỳ 1" (lời ông Hữu Thành, nguyên phó Ban Tuyên giáo Tỉnh ủy Cà Mau) https://tuoitre.vn/ky-uc-nhung-lan-tach-nhap-tinh-ky-1-mot-thoi-rang-que-minh-hai-minh-day-202505080931255.htm ; VietNamNet (tháng 2/1976 hợp nhất tên Bạc Liêu Cà Mau, sau đổi tên Minh Hải) https://vietnamnet.vn/hai-tinh-nao-tung-sap-nhap-thanh-minh-hai-2353748.html
+- Quốc hội phê chuẩn chia Minh Hải ngày 6/11/1996, hiệu lực 1/1/1997: VietNamNet; VietnamPlus.
+- 2025 Cà Mau và Bạc Liêu chung một tỉnh tên Cà Mau: Nghị quyết 202/2025/QH15; Tuổi Trẻ.
+- Wikipedia, mytour.vn, kupi.com chỉ còn để đối chiếu, không dùng làm nguồn.

@@ -23,7 +23,7 @@ Năm 1831 Quảng Bình và Quảng Trị chung một Tổng đốc Bình Trị 
 4. Năm 1831, vua Minh Mệnh đặt Quảng Bình và Quảng Trị dưới quyền một Tổng đốc Bình Trị, dinh đặt ở Đồng Hới.
 5. Hai tỉnh vẫn riêng, nhưng chung một người đứng đầu. Đó mới là lần gần nhau, chưa phải lần chung nhà.
 6. Năm 1890, người Pháp gộp hai tỉnh thành tỉnh Bình Trị, đặt dưới quyền công sứ Đồng Hới. Đây là lần chung nhà thứ nhất.
-7. Chỉ mười năm sau, năm 1900, Quảng Trị lại được lập thành một tỉnh riêng.
+7. Chỉ sáu năm sau, năm 1896, Quảng Trị rời quyền công sứ Đồng Hới, và năm 1900 thành tỉnh riêng.
 8. Lần chung nhà thứ hai đến sau ngày đất nước thống nhất, và lần này còn có cả Thừa Thiên.
 9. Năm 1976, ba tỉnh gộp thành tỉnh Bình Trị Thiên, trụ sở đặt ở Huế.
 10. Tỉnh lớn ấy tồn tại mười ba năm. Đến năm 1989, Bình Trị Thiên lại chia về ba tỉnh như cũ.
@@ -73,3 +73,18 @@ Bản đồ 34 tỉnh, tô Quảng Trị (ranh giới hiện nay); khung Quảng
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Quảng Bình và Quảng Trị đã mấy lần về chung một nhà?
 - Hashtag: #NguoiGacSu #TenTinhThanh #QuangTri #QuangBinh #DongHoi #LichSuVietNam #TenGoi
+
+### Rà soát nguồn 13/11/2026 (chủ kênh yêu cầu: không bỏ chữ, bổ sung tài liệu)
+**Sửa dữ kiện (đoạn 7):** ba nguồn đều ghi năm 1896 Quảng Trị đã rút khỏi quyền công sứ Đồng Hới (đặt cùng Thừa Thiên dưới Khâm sứ Trung Kỳ), năm 1900 mới thành tỉnh riêng. Lần chung nhà thứ nhất vì vậy kéo dài sáu năm, không phải mười năm.
+
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 7 | Chỉ mười năm sau, năm 1900, Quảng Trị lại được lập thành một tỉnh riêng. | Chỉ sáu năm sau, năm 1896, Quảng Trị rời quyền công sứ Đồng Hới, và năm 1900 thành tỉnh riêng. | Cổng thông tin phường Quảng Trị, VietnamPlus, Báo Cáo viên đều ghi mốc 1896 |
+
+**Nguồn bổ sung cho từng dữ kiện**
+- Thành Quảng Trị dựng năm 1809 ở xã Thạch Hãn: Cổng thông tin phường Quảng Trị https://phuongquangtri.quangtri.gov.vn/l%E1%BB%8Bch-s%E1%BB%AD-h%C3%ACnh-th%C3%A0nh
+- 1831 Minh Mạng đặt Tổng đốc Bình Trị, thủ phủ ở Đồng Hới: VietNamNet https://vietnamnet.vn/ve-dep-dong-hoi-noi-se-thanh-trung-tam-hanh-chinh-cua-quang-binh-va-quang-tri-2399230.html ; Người Lao Động https://nld.com.vn/ly-do-chon-ten-quang-tri-de-dat-cho-tinh-moi-sau-sap-nhap-voi-quang-binh-196250429160909967.htm
+- 1890 Toàn quyền Đông Dương gộp thành tỉnh Bình Trị; 1896 rút khỏi quyền công sứ Đồng Hới; 1900 tỉnh riêng: VietnamPlus https://www.vietnamplus.vn/lich-su-tinh-quang-tri-vung-dat-anh-hung-va-nhung-lan-thay-doi-dia-gioi-hanh-chinh-post1023735.vnp ; Cổng thông tin phường Quảng Trị; Người Lao Động (1890).
+- 1976 Bình Trị Thiên; tháng 7/1989 tái lập Quảng Trị: VietnamPlus.
+- 2025 gộp, tên Quảng Trị, trung tâm Đồng Hới: Nghị quyết 202/2025/QH15; Người Lao Động; Tiền Phong.
+- Wikipedia, vnreview, vietbao chỉ còn để đối chiếu, không dùng làm nguồn.

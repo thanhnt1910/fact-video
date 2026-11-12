@@ -75,3 +75,11 @@ Bản đồ 34 tỉnh, tô Hà Tĩnh, Nghệ An màu nhạt bên cạnh; chấm 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Hà Tĩnh từng hai lần nhập vào Nghệ An?
 - Hashtag: #NguoiGacSu #TenTinhThanh #HaTinh #NgheAn #NgheTinh #LichSuVietNam #TenGoi
+
+### Rà soát nguồn 13/11/2026 (chủ kênh yêu cầu: không bỏ chữ, bổ sung tài liệu)
+Không đổi chữ nào. Nguồn bổ sung cho từng dữ kiện:
+- 1831 lập tỉnh Hà Tĩnh từ hai phủ Hà Hoa và Đức Thọ, sáu huyện (Thạch Hà, Kỳ Hoa, Hương Sơn, Thiên Lộc, Nghi Xuân, La Sơn); 1853 Tự Đức bỏ tỉnh, lập đạo; 1875 khôi phục; 12/8/1991 Quốc hội tách Nghệ Tĩnh: Cổng thông tin Hà Tĩnh https://hatinh.gov.vn/vi/bai-viet/lich-su-hinh-thanh-tinh-ha-tinh . Điểm lệch: đề cương 190 năm (Trường ĐH Hà Tĩnh) có chỗ ghi phủ thứ hai là Đức Quang; lời kể theo Cổng thông tin tỉnh.
+- Lý do đổi tỉnh thành đạo: năm 1850 Tổng đốc Nghệ An Nguyễn Đăng Giai xin "đổi tỉnh Hà Tĩnh thành đạo để rút bớt quan lại, thu gọn bộ máy, phù hợp với điều kiện tỉnh nhỏ, việc ít"; năm 1853 thực hiện: Tạp chí Khoa học Đại học Vinh https://vjol.info.vn/vinhuni/article/download/92295/78108 ; VnExpress (1853 sáp nhập vào Nghệ An) https://vnexpress.net/dau-tich-thanh-co-ha-tinh-4348084.html
+- Nghĩa tên: "Hà" là sông, "Tĩnh" là yên lặng, bình yên; "Thạch Hà nghĩa là sông đá": Báo Hà Tĩnh https://baohatinh.vn/dia-danh-hanh-chinh-va-cau-chuyen-van-hoa-post291069.html ; tên châu Thạch Hà có trong Đại Việt sử ký toàn thư từ năm 1005: Báo Đầu tư https://baodautu.vn/1010-nam-danh-xung-thach-ha-d36324.html
+- 1976 Nghệ Tĩnh, trụ sở Vinh; thị xã Hà Tĩnh mất vai trò tỉnh lỵ: Tạp chí Khoa học Đại học Vinh; Báo Hà Tĩnh.
+- 2025 Nghệ An, Hà Tĩnh giữ nguyên: Nghị quyết 202/2025/QH15.

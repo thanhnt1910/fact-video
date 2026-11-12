@@ -5,7 +5,7 @@
 ## Lạng Sơn: từ tên sông sang tên núi
 
 ### Khung câu chuyện (một câu)
-Thời Lý là lộ Lạng Giang (chữ Giang là sông), đầu Trần có lúc gọi Lạng Châu rồi lại là trấn Lạng Giang, năm 1397 đổi thành trấn Lạng Sơn (chữ Sơn là núi); tên ấy giữ qua thời thuộc Minh, thời Lê, thành tỉnh năm 1831 và đến năm 2025 vẫn giữ nguyên.
+Thời Lý là lộ Lạng Châu, thời Trần đổi thành trấn Lạng Giang (chữ Giang là sông), năm 1397 đổi thành trấn Lạng Sơn (chữ Sơn là núi); tên ấy giữ qua thời thuộc Minh, thời Lê, thành tỉnh năm 1831 và đến năm 2025 vẫn giữ nguyên.
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |
@@ -19,8 +19,8 @@ Thời Lý là lộ Lạng Giang (chữ Giang là sông), đầu Trần có lúc
 
 1. Lạng Sơn từng mang tên một dòng sông, trước khi đổi sang tên một ngọn núi.
 2. Chữ Giang là sông, chữ Sơn là núi, và vùng đất biên giới phía bắc này đã đi một vòng khá dài mới chọn xong.
-3. Từ thời Lý, nơi đây là lộ Lạng Giang. Sang đầu thời Trần, theo một số tài liệu, vùng này có lúc được gọi là lộ Lạng Châu.
-4. Chẳng bao lâu sau, cái tên có chữ sông lại quay về, và vùng đất này thành trấn Lạng Giang.
+3. Thời Lý, nơi đây gọi là lộ Lạng Châu. Sang thời Trần, vùng này đổi thành trấn Lạng Giang, cái tên có chữ sông.
+4. Cái tên có chữ sông ấy gắn với vùng đất này suốt phần lớn thời Trần, hơn một trăm năm.
 5. Phải đến năm 1397, cuối thời Trần, trấn Lạng Giang mới được đổi thành trấn Lạng Sơn.
 6. Sử cũ chép việc đổi tên nhưng không nói lý do. Chỉ biết rằng tên mới nghe rất hợp với một vùng toàn núi đá vôi và đèo dốc.
 7. Khi quân Minh sang cai trị, họ gọi nơi này là phủ Lạng Sơn. Sang thời Lê, Lạng Sơn thành một thừa tuyên, đơn vị lớn gần như tỉnh.
@@ -73,3 +73,20 @@ Bản đồ 34 tỉnh, tô Lạng Sơn; chấm thành phố Lạng Sơn, ải Ch
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Lạng Sơn từng mang tên một dòng sông?
 - Hashtag: #NguoiGacSu #TenTinhThanh #LangSon #LangGiang #XuLang #LichSuVietNam #TenGoi
+
+### Rà soát nguồn 13/11/2026 (chủ kênh yêu cầu: không bỏ chữ, bổ sung tài liệu)
+**Sửa dữ kiện (đoạn 3, 4):** bản trước ghi thời Lý là lộ Lạng Giang, đầu Trần là Lạng Châu (chỉ theo Báo Pháp luật, có câu rào "theo một số tài liệu"). Ba nguồn khác đều ghi ngược lại: thời Lý là lộ Lạng Châu, thời Trần (năm 1292) đổi thành trấn Lạng Giang, năm 1397 đổi thành trấn Lạng Sơn. Lời kể sửa theo đa số nguồn, giữ nguyên số đoạn và mạch "sông sang núi".
+
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 3 | Từ thời Lý, nơi đây là lộ Lạng Giang. Sang đầu thời Trần, theo một số tài liệu, vùng này có lúc được gọi là lộ Lạng Châu. | Thời Lý, nơi đây gọi là lộ Lạng Châu. Sang thời Trần, vùng này đổi thành trấn Lạng Giang, cái tên có chữ sông. | 3/4 nguồn ghi thời Lý là Lạng Châu, thời Trần là Lạng Giang |
+| 4 | Chẳng bao lâu sau, cái tên có chữ sông lại quay về, và vùng đất này thành trấn Lạng Giang. | Cái tên có chữ sông ấy gắn với vùng đất này suốt phần lớn thời Trần, hơn một trăm năm. | 1292 đến 1397 là 105 năm (đề cương 191 năm, Trường CĐSP Lạng Sơn) |
+
+**Nguồn bổ sung cho từng dữ kiện**
+- Lý: lộ Lạng Châu; Trần 1292: trấn Lạng Giang; 1397: trấn Lạng Sơn (Hồ Quý Ly, Quang Thái 10): Đề cương tuyên truyền 191 năm thành lập tỉnh Lạng Sơn https://langsongeopark.com.vn/su-kien/de-cuong-tuyen-truyen-ky-niem-191-nam-ngay-thanh-lap-tinh-lang-son-n69.html ; Trường CĐSP Lạng Sơn, "185 năm thành lập tỉnh Lạng Sơn" https://bak16.lce.edu.vn/vi/news/Tin-tuc-Su-kien-43/185-nam-thanh-lap-tinh-Lang-Son-4-11-1831-4-11-2016-lich-su-va-doi-dieu-cam-nhan-634.html ; VietnamPlus (Lý: Lạng Châu; 1397: trấn Lạng Sơn) https://www.vietnamplus.vn/lich-su-tinh-lang-son-vung-dat-giau-truyen-thong-cach-mang-post1022304.vnp
+- Thời Minh: phủ Lạng Sơn: VietnamPlus; Trường CĐSP Lạng Sơn.
+- Thời Lê: thừa tuyên Lạng Sơn: Báo Pháp luật (1466); đề cương 191 năm (1469). Lời kể không nêu năm nên không bị lệch.
+- 1831 lập tỉnh, mộc bản Đại Nam thực lục (chính biên đệ nhị kỷ, quyển 76), bản rập giấy dó do Bảo tàng tỉnh sưu tầm để trưng bày: Bộ VHTTDL https://bvhttdl.gov.vn/nhung-dau-moc-lich-su-lang-son-qua-moc-ban-trieu-nguyen-20211105091428352.htm ; Báo Lạng Sơn https://baolangson.vn/chinh-tri/459071-nhung-dau-moc-lich-su-lang-son-qua-moc-ban-trieu-nguyen.html
+- 1956 Hữu Lũng chuyển từ Bắc Giang về Lạng Sơn: VietnamPlus; Báo Pháp luật; đề cương 191 năm.
+- 2025 giữ nguyên: Nghị quyết 202/2025/QH15.
+- Wikipedia, mia.vn, mytour.vn chỉ còn để đối chiếu, không dùng làm nguồn.

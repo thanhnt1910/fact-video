@@ -24,7 +24,7 @@ Xứ Đồng Nai (chữ Hán Lộc Dã) là tên dân gian vùng đất mới ph
 5. Năm 1698, chúa Nguyễn lấy xứ Đồng Nai lập huyện Phước Long, thuộc phủ Gia Định.
 6. Nhưng khi đặt tỉnh, nhà Nguyễn không dùng cái tên dân gian ấy. Năm 1832, vùng đất này thành tỉnh Biên Hòa.
 7. Tên tỉnh vẫn là Biên Hòa suốt gần một trăm rưỡi năm. Đồng Nai khi ấy là tên dòng sông chảy qua vùng đất này.
-8. Phải đến đầu năm 1976, tỉnh Biên Hòa mới được gộp với Bà Rịa và Long Khánh, lấy tên là Đồng Nai.
+8. Phải đến đầu năm 1976, Biên Hòa mới gộp với tỉnh Bà Rịa Long Khánh và phần lớn tỉnh Tân Phú, lấy tên Đồng Nai.
 9. Năm 1991, ba huyện phía biển tách ra để lập tỉnh Bà Rịa Vũng Tàu, và Đồng Nai thu về gần với ranh giới quen thuộc.
 10. Đến năm 2025, Đồng Nai và Bình Phước gộp lại thành một tỉnh, vẫn giữ tên Đồng Nai.
 11. Chưa đầy một năm sau, ngày 30 tháng 4 năm 2026, Đồng Nai trở thành thành phố trực thuộc Trung ương thứ bảy.
@@ -78,3 +78,18 @@ Bản đồ 34 đơn vị, tô Đồng Nai (ranh giới hiện nay, gồm Bình 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Đồng Nai: từ tên một xứ thành tên một thành phố
 - Hashtag: #NguoiGacSu #TenTinhThanh #DongNai #BienHoa #XuDongNai #LichSuVietNam #TenGoi
+
+### Rà soát nguồn 13/11/2026 (chủ kênh yêu cầu: không bỏ chữ, bổ sung tài liệu)
+**Bổ sung cho chính xác (đoạn 8):** tỉnh Đồng Nai năm 1976 hợp nhất từ Biên Hòa, tỉnh Bà Rịa Long Khánh (một tỉnh) và tỉnh Tân Phú (hai huyện Tân Uyên, Phú Giáo của Tân Phú chuyển sang Sông Bé).
+
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 8 | Phải đến đầu năm 1976, tỉnh Biên Hòa mới được gộp với Bà Rịa và Long Khánh, lấy tên là Đồng Nai. | Phải đến đầu năm 1976, Biên Hòa mới gộp với tỉnh Bà Rịa Long Khánh và phần lớn tỉnh Tân Phú, lấy tên Đồng Nai. | Bà Rịa Long Khánh là một tỉnh, còn thiếu Tân Phú (Sở KH&CN Đồng Nai, bài Bùi Quốc Cường) |
+
+**Nguồn bổ sung cho từng dữ kiện**
+- Đồng Nai là vùng nhiều nai, còn gọi Lộc Dã, Lộc Động: Đại Nam nhất thống chí, dẫn trong bài dự thi Nguyễn Thị Lê, Sở KH&CN Đồng Nai https://skhcn.dongnai.gov.vn/SiteAssets/Lists/Dost_HoiThiGiaiThuong_BanTin/NewForm/Bai%20Giai%20nhat_Nguyen%20Thi%20Le.pdf ; Đại Nam thực lục tiền biên quyển 7, năm 1698: "lấy xứ Đồng Nai (鹿野) làm huyện Phúc Long" (dẫn trong blog Le Minh Khai).
+- 1698 lập huyện Phước Long thuộc phủ Gia Định; 1832 tỉnh Biên Hòa: bài Nguyễn Thị Lê, Sở KH&CN Đồng Nai.
+- 1976 hợp nhất thành tỉnh Đồng Nai; 1991 tách ba huyện Châu Thành, Long Đất, Xuyên Mộc lập Bà Rịa Vũng Tàu: bài Bùi Quốc Cường, Sở KH&CN Đồng Nai; Đại biểu Nhân dân (Bà Rịa Vũng Tàu thành lập 12/8/1991, gồm Vũng Tàu, Châu Thành, Long Đất, Xuyên Mộc, Côn Đảo) https://daibieunhandan.vn/ba-ria-vung-tau-long-trong-ky-niem-34-nam-ngay-thanh-lap-tinh-10377847.html
+- 2025 Đồng Nai và Bình Phước gộp, tên Đồng Nai: Nghị quyết 202/2025/QH15; đề án HĐND Bình Phước.
+- 30/4/2026 thành phố trực thuộc Trung ương thứ bảy: Luật Việt Nam; Báo Đấu thầu; Tuổi Trẻ https://tuoitre.vn/dong-nai-chinh-thuc-len-thanh-pho-tu-ngay-30-4-20260424095327324.htm
+- Wikipedia, vnreview chỉ còn để đối chiếu, không dùng làm nguồn.

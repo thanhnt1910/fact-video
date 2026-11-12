@@ -12,5 +12,5 @@ const cv=document.createElement('canvas').getContext('2d');cv.font='900 68px Int
 function wrap(txt,mw){const w=txt.split(/\s+/),L=[];let cur='';w.forEach(x=>{const t=(cur+' '+x).trim();if(cv.measureText(t).width<=mw)cur=t;else{L.push(cur);cur=x}});L.push(cur);return L}
 const SUBG=el(S,'g',{});
 CH.forEach(c=>{const L=wrap(c.txt,900);const g=el(SUBG,'g',{opacity:0});let y=1400-(L.length-1)*44;let wi=0;L.forEach(l=>{const ws=l.split(' ');const tw=cv.measureText(l).width;let x=540-tw/2;
- ws.forEach((w,i)=>{const ww=cv.measureText(w).width,hl=c.hl[wi++];if(hl){el(g,'rect',{x:x-12,y:y-62,width:ww+24,height:86,rx:16,fill:'#e0b84a',stroke:'#17110b','stroke-width':5,transform:`rotate(-1.5 ${x+ww/2} ${y})`})}
+ ws.forEach((w,i)=>{const ww=cv.measureText(w).width,hl=c.hl[wi++];if(hl){el(g,'rect',{x:x-12,y:y-80,width:ww+24,height:104,rx:16,fill:'#e0b84a',stroke:'#17110b','stroke-width':5,transform:`rotate(-1.5 ${x+ww/2} ${y})`})}
   const t=el(g,'text',{x,y,'font-size':68,'text-anchor':'start',fill:hl?'#17110b':'#fff',stroke:hl?'none':'#0c0a08','stroke-width':16});t.textContent=w;x+=ww+cv.measureText(' ').width});y+=92});c.g=g;c.cy=1400});

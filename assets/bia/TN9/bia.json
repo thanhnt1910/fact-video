@@ -1,0 +1,16 @@
+{
+ "the_nam": "VÌ SAO",
+ "the_trieu": "LẠI TÊN NÀY?",
+ "d1": "QUẢNG NINH",
+ "d2": "TÊN GHÉP",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #09",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 107.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#0e1d24\"/><g fill=\"none\" stroke=\"rgba(110,190,200,.18)\" stroke-width=\"5\"><path d=\"M0 1010 Q135 980 270 1010 T540 1010 T810 1010 T1080 1010\"/><path d=\"M0 1070 Q135 1040 270 1070 T540 1070 T810 1070 T1080 1070\"/></g><path d=\"M50.0 1000 C89.99999999999999 990 80.0 865.0 110.0 820.0 L140.0 814.0 C144.0 745.0 176.0 700 204.0 700 C236.0 706.0 240.0 760.0 260.0 775.0 C284.0 790.0 300.0 880.0 296.0 940.0 C310.0 990 340.0 1000 370.0 1000Z\" fill=\"#2f5f5a\" stroke=\"#fff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><path d=\"M340.0 1000 C388.0 990 376.0 811.0 412.0 748.0 L448.0 739.6 C452.8 643.0 491.2 580 524.8 580 C563.2 588.4000000000001 568.0 664.0 592.0 685.0 C620.8 706.0 640.0 832.0 635.2 916.0 C652.0 990 688.0 1000 724.0 1000Z\" fill=\"#3d6f6a\" stroke=\"#fff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><path d=\"M802.5 1000 C836.5 990 828.0 883.0 853.5 844.0 L879.0 838.8 C882.4 779.0 909.6 740 933.4 740 C960.6 745.2 964.0 792.0 981.0 805.0 C1001.4 818.0 1015.0 896.0 1011.6 948.0 C1023.5 990 1049.0 1000 1074.5 1000Z\" fill=\"#2f5f5a\" stroke=\"#fff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><g transform=\"translate(760,985)\"><path d=\"M-80 0 Q0 30 80 0Z\" fill=\"#8a5a32\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M0 0 L0 -140\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M4 -136 Q70 -90 60 -10 L4 -10Z\" fill=\"#c0392b\" stroke=\"#fff\" stroke-width=\"5\"/></g><g transform=\"translate(330,430) rotate(-6)\"><rect x=\"-165.0\" y=\"-70\" width=\"330\" height=\"140\" rx=\"20\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"9\"/><text x=\"0\" y=\"34\" text-anchor=\"middle\" font-family=\"O\" font-weight=\"900\" font-size=\"88\" fill=\"#0a1018\">QUẢNG</text></g><text x=\"560\" y=\"470\" text-anchor=\"middle\" font-family=\"O\" font-weight=\"900\" font-size=\"110\" fill=\"#fff\" stroke=\"#0a1018\" stroke-width=\"10\" paint-order=\"stroke\">+</text><g transform=\"translate(780,430) rotate(6)\"><rect x=\"-140.0\" y=\"-70\" width=\"280\" height=\"140\" rx=\"20\" fill=\"#7fd0d8\" stroke=\"#fff\" stroke-width=\"9\"/><text x=\"0\" y=\"34\" text-anchor=\"middle\" font-family=\"O\" font-weight=\"900\" font-size=\"88\" fill=\"#0a1018\">NINH</text></g></svg>",
+ "chu_the": "hai thẻ chữ QUẢNG + NINH trên nền núi đá vôi (vẽ phẳng)"
+}

@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #02 TP Hồ Chí Minh (mã tn2)
 
-16 đoạn, 442 chữ, ước tính khoảng 2 phút 10 giây. Chưa đọc giọng, chưa dựng.
+15 đoạn, 413 chữ, ước tính khoảng 2 phút. Chưa đọc giọng, chưa dựng.
 
 ## TP Hồ Chí Minh: cái tên Sài Gòn dọn nhà
 
@@ -17,37 +17,44 @@
 1. Bạn có biết, nơi người xưa gọi là Sài Gòn không phải trung tâm thành phố bây giờ, mà là vùng Chợ Lớn?
 2. Nghe lạ, vì ngày nay nhắc đến Sài Gòn, nhiều người nghĩ ngay tới khu chợ Bến Thành. Nhưng ngày xưa, khu trung tâm ấy mang một cái tên khác.
 3. Khu trung tâm ấy xưa gọi là Bến Nghé. Còn cái tên Sài Gòn thuộc về khu phố chợ của người Hoa, tức Chợ Lớn ngày nay.
-4. Theo Đại Nam quốc âm tự vị của Huỳnh Tịnh Của, Sài Gòn là tên riêng đất Chợ Lớn, sau này người ta lại hiểu là đất Bến Nghé.
-5. Học giả Trương Vĩnh Ký cũng ghi lại như vậy. Ông viết rằng Sài Gòn vốn là tên của khu phố người Hoa.
-6. Vậy vì sao cái tên lại dọn nhà? Đầu những năm 1860, người Pháp chiếm vùng này và quy hoạch khu Bến Nghé thành một thành phố.
-7. Họ đặt tên thành phố mới là Sài Gòn. Còn khu phố chợ Sài Gòn cũ thì được gọi là Chợ Lớn.
-8. Nhà văn Vương Hồng Sển cho rằng người Pháp chọn chữ Sài Gòn vì dễ đọc hơn chữ Bến Nghé. Tính ra, Chợ Lớn mới là Sài Gòn gốc.
-9. Còn cái tên Gia Định thì có từ trước đó rất lâu. Năm 1698, Nguyễn Hữu Cảnh vào lập phủ Gia Định cho chúa Nguyễn.
-10. Sau năm 1975, thành phố mang tên Sài Gòn – Gia Định, ghép cả hai cái tên cũ.
-11. Năm 1976, tại kỳ họp đầu tiên của Quốc hội nước Việt Nam thống nhất, thành phố được đổi tên thành Thành phố Hồ Chí Minh.
-12. Ý tưởng ấy còn có từ trước nữa. Năm 1946, đồng bào miền Nam ở Hà Nội đã kiến nghị đặt tên này cho Sài Gòn.
-13. Năm 2025, thành phố nhập thêm Bình Dương và Bà Rịa – Vũng Tàu, nhưng vẫn giữ tên Thành phố Hồ Chí Minh.
-14. Còn cái tên Sài Gòn vẫn ở lại trong đời sống, từ sông Sài Gòn đến cảng Sài Gòn. Cũng năm ấy, thành phố có thêm một phường mang tên Sài Gòn.
-15. Điều thú vị là phường Sài Gòn mới được lập từ toàn bộ phường Bến Nghé. Hơn một trăm sáu mươi năm sau, cái tên đã chính thức dọn về nhà mới.
-16. Ở quê bạn, có cái tên nào cũng từng dọn nhà như Sài Gòn không?
+4. Từ điển xưa còn ghi rõ, Sài Gòn là tên riêng đất Chợ Lớn. Chỉ về sau, người ta mới hiểu đó là đất Bến Nghé.
+5. Vậy vì sao cái tên lại dọn nhà? Đầu những năm 1860, người Pháp chiếm vùng này và quy hoạch khu Bến Nghé thành một thành phố.
+6. Họ đặt tên thành phố mới là Sài Gòn. Còn khu phố chợ Sài Gòn cũ thì được gọi là Chợ Lớn.
+7. Thế là cái tên Sài Gòn chuyển sang khu trung tâm và ở luôn đến bây giờ. Tính ra, Chợ Lớn mới là Sài Gòn gốc.
+8. Còn cái tên Gia Định thì có từ trước đó rất lâu. Năm 1698, Nguyễn Hữu Cảnh vào lập phủ Gia Định cho chúa Nguyễn.
+9. Sau năm 1975, thành phố mang tên Sài Gòn – Gia Định, ghép cả hai cái tên cũ.
+10. Năm 1976, tại kỳ họp đầu tiên của Quốc hội nước Việt Nam thống nhất, thành phố được đổi tên thành Thành phố Hồ Chí Minh.
+11. Ý tưởng ấy còn có từ trước nữa. Năm 1946, đồng bào miền Nam ở Hà Nội đã kiến nghị đặt tên này cho Sài Gòn.
+12. Năm 2025, thành phố nhập thêm Bình Dương và Bà Rịa – Vũng Tàu, nhưng vẫn giữ tên Thành phố Hồ Chí Minh.
+13. Còn cái tên Sài Gòn vẫn ở lại trong đời sống, từ sông Sài Gòn đến cảng Sài Gòn. Cũng năm ấy, thành phố có thêm một phường mang tên Sài Gòn.
+14. Điều thú vị là phường Sài Gòn mới được lập từ toàn bộ phường Bến Nghé. Hơn một trăm sáu mươi năm sau, cái tên đã chính thức dọn về nhà mới.
+15. Ở quê bạn, có cái tên nào cũng từng dọn nhà như Sài Gòn không?
 
 ### Bảng đoạn → ý
 | Đoạn | Ý |
 |---|---|
 | 1–3 | Hook: Sài Gòn xưa là Chợ Lớn, trung tâm xưa là Bến Nghé |
-| 4–5 | Hai nguồn xưa xác nhận (Huỳnh Tịnh Của, Trương Vĩnh Ký) |
-| 6–8 | Vì sao cái tên dọn nhà: người Pháp lập thành phố Sài Gòn ở Bến Nghé (trả lời hook, khoảng 40%) |
-| 9 | Tên Gia Định có từ 1698 |
-| 10–12 | Sài Gòn – Gia Định, đổi tên Thành phố Hồ Chí Minh năm 1976; kiến nghị từ 1946 |
-| 13 | Sáp nhập 2025, vẫn giữ tên |
-| 14–15 | Tên Sài Gòn còn ở sông, cảng, phường; phường Sài Gòn lập từ phường Bến Nghé (đóng vòng) |
-| 16 | Câu hỏi cho người xem (hỏi trải nghiệm, không treo câu hỏi của video) |
+| 4 | Từ điển xưa xác nhận (không nêu tên sách trong lời kể) |
+| 5–7 | Vì sao cái tên dọn nhà: người Pháp lập thành phố Sài Gòn ở Bến Nghé (trả lời hook, khoảng 35%) |
+| 8 | Tên Gia Định có từ 1698 |
+| 9–11 | Sài Gòn – Gia Định, đổi tên Thành phố Hồ Chí Minh năm 1976; kiến nghị từ 1946 |
+| 12 | Sáp nhập 2025, vẫn giữ tên |
+| 13–14 | Tên Sài Gòn còn ở sông, cảng, phường; phường Sài Gòn lập từ phường Bến Nghé (đóng vòng) |
+| 15 | Câu hỏi cho người xem |
+
+### Sửa lần 1 (chủ kênh nhắc 12/11/2026: nhiều thông tin trích dẫn quá)
+| Đoạn cũ | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 4 | "Theo Đại Nam quốc âm tự vị của Huỳnh Tịnh Của, Sài Gòn là tên riêng đất Chợ Lớn, sau này người ta lại hiểu là đất Bến Nghé." | Đoạn 4: "Từ điển xưa còn ghi rõ, Sài Gòn là tên riêng đất Chợ Lớn. Chỉ về sau, người ta mới hiểu đó là đất Bến Nghé." | Bỏ tên sách và tác giả khỏi lời kể; tên để ở mô tả |
+| 5 | "Học giả Trương Vĩnh Ký cũng ghi lại như vậy. Ông viết rằng Sài Gòn vốn là tên của khu phố người Hoa." | Bỏ | Trích dẫn thứ hai cùng ý |
+| 8 | "Nhà văn Vương Hồng Sển cho rằng người Pháp chọn chữ Sài Gòn vì dễ đọc hơn chữ Bến Nghé. Tính ra, Chợ Lớn mới là Sài Gòn gốc." | Đoạn 7: "Thế là cái tên Sài Gòn chuyển sang khu trung tâm và ở luôn đến bây giờ. Tính ra, Chợ Lớn mới là Sài Gòn gốc." | Bỏ trích dẫn ý kiến; giữ câu hài |
+Các đoạn còn lại giữ nguyên chữ, chỉ đánh lại số.
 
 ### Câu chữ sáng tạo (lời người kể, không thêm dữ kiện, không gán lời cho nhân vật)
 | Đoạn | Câu | Kiểu |
 |---|---|---|
-| 6, 15, 16 | "cái tên lại dọn nhà", "dọn về nhà mới", "từng dọn nhà như Sài Gòn" | Ẩn dụ xuyên suốt cho việc tên đổi chỗ |
-| 8 | "Tính ra, Chợ Lớn mới là Sài Gòn gốc." | Bình luận hóm hỉnh, đúng theo các nguồn đoạn 3–5 |
+| 5, 14, 15 | "cái tên lại dọn nhà", "dọn về nhà mới", "từng dọn nhà như Sài Gòn" | Ẩn dụ xuyên suốt cho việc tên đổi chỗ |
+| 7 | "Tính ra, Chợ Lớn mới là Sài Gòn gốc." | Bình luận hóm hỉnh, đúng theo các nguồn đoạn 3–4 |
 Không đùa về tên Thành phố Hồ Chí Minh hay việc đổi tên năm 1976; phần đó kể trung tính.
 
 ### Nguồn đã đọc
@@ -62,10 +69,11 @@ Không đùa về tên Thành phố Hồ Chí Minh hay việc đổi tên năm 1
 
 ### Điểm lệch giữa các nguồn
 - Năm người Pháp lập thành phố Sài Gòn: Nguyễn Đình Tư nói 1861, tài liệu UBND Quận 1 nói 1862. Lời kể nói "đầu những năm 1860".
-- Lý do người Pháp chọn tên Sài Gòn: Vương Hồng Sển cho là vì dễ đọc; Trương Vĩnh Ký nói người Pháp lấy tên từ bản đồ châu Âu cũ. Lời kể chỉ nêu ý của Vương Hồng Sển và ghi rõ là "cho rằng".
+- Lý do người Pháp chọn tên Sài Gòn: Vương Hồng Sển cho là vì dễ đọc; Trương Vĩnh Ký nói người Pháp lấy tên từ bản đồ châu Âu cũ. Hai ý khác nhau nên lời kể không nêu lý do.
 - Lần đầu chữ Sài Gòn xuất hiện trong sách: Phạm Hoàng Quân dẫn năm 1674 (Nam triều công nghiệp diễn chí, là tiểu thuyết lịch sử). Không đưa vào lời kể.
 
 ### Chi tiết đã bỏ
+- Tên Huỳnh Tịnh Của, Đại Nam quốc âm tự vị, Trương Vĩnh Ký, Vương Hồng Sển: bỏ khỏi lời kể theo yêu cầu bớt trích dẫn; đưa vào mô tả và bình luận ghim.
 - Nghĩa và gốc chữ "Sài Gòn" (củi gòn, Prey Nokor, Sài Côn...): các nguồn đều nói chưa xác định, chính Trương Vĩnh Ký nói chưa tìm ra gốc thật. Bỏ để không treo câu hỏi.
 - Hai đồn thu thuế năm 1623 ở Bến Nghé và Sài Gòn: chỉ một nguồn (Thanh Niên). Bỏ.
 - Năm 1931 lập khu Sài Gòn – Chợ Lớn, năm 1956 hợp nhất: thêm nhiều năm, bỏ cho gọn.

@@ -1,0 +1,17 @@
+{
+ "the_nam": "THANH HÓA",
+ "the_trieu": "VÌ TÊN MẸ MỘT ÔNG VUA",
+ "d1": "TÊN GỐC LÀ",
+ "d2": "HÓA HAY HOA?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #07",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#141d18\"/>\n<g fill=\"none\" stroke=\"rgba(224,166,60,.18)\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M200 1100 L200 960 L880 960 L880 1100\"/><path d=\"M290 1100 L290 1040 Q350 980 410 1040 L410 1100 M480 1100 L480 1020 Q540 950 600 1020 L600 1100 M670 1100 L670 1040 Q730 980 790 1040 L790 1100\"/></g>\n<g transform=\"translate(270,560)\"><rect x=\"-205\" y=\"-80\" width=\"410\" height=\"160\" rx=\"18\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"8\"/><text y=\"26\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"62\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"10\" paint-order=\"stroke\">THANH HOA</text><text y=\"150\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"44\" fill=\"#e0a63c\" stroke=\"#141d18\" stroke-width=\"8\" paint-order=\"stroke\">1469</text></g>\n<g transform=\"translate(810,560)\"><rect x=\"-205\" y=\"-80\" width=\"410\" height=\"160\" rx=\"18\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"8\"/><text y=\"26\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"62\" fill=\"#fff\" stroke=\"#b07a20\" stroke-width=\"10\" paint-order=\"stroke\">THANH HÓA</text><text y=\"150\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"44\" fill=\"#e0a63c\" stroke=\"#141d18\" stroke-width=\"8\" paint-order=\"stroke\">1029 · 1843</text></g>\n<text x=\"540\" y=\"595\" text-anchor=\"middle\" font-family=\"O\" font-weight=\"700\" font-size=\"120\" fill=\"#ffd45a\" stroke=\"#2a0504\" stroke-width=\"10\" paint-order=\"stroke\">?</text>\n</svg>",
+ "chu_the": "hai biển tên THANH HOA và THANH HÓA với năm (vẽ phẳng), nét cổng Thành nhà Hồ",
+ "co": 160
+}

@@ -1,0 +1,17 @@
+{
+ "the_nam": "CÀ MAU",
+ "the_trieu": "1956 · 1976",
+ "d1": "CÀ MAU TỪNG",
+ "d2": "HAI LẦN MẤT TÊN?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #17",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#0f1a14\"/><g transform=\"translate(110,1000)\"><path d=\"M-40 0 Q-30 -40 0 -50 M40 0 Q30 -40 0 -50 L0 -130\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"8\"/><ellipse cx=\"0\" cy=\"-150\" rx=\"80\" ry=\"44\" fill=\"#3f6a3a\" stroke=\"#fff\" stroke-width=\"5\"/></g><g transform=\"translate(970,1000)\"><path d=\"M-40 0 Q-30 -40 0 -50 M40 0 Q30 -40 0 -50 L0 -130\" fill=\"none\" stroke=\"#6a4a2a\" stroke-width=\"8\"/><ellipse cx=\"0\" cy=\"-150\" rx=\"80\" ry=\"44\" fill=\"#3f6a3a\" stroke=\"#fff\" stroke-width=\"5\"/></g><path d=\"M400 640 C200 520 160 760 330 820\" fill=\"none\" stroke=\"#d8372d\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M680 640 C880 520 920 760 750 820\" fill=\"none\" stroke=\"#d8372d\" stroke-width=\"12\" stroke-linecap=\"round\"/><g transform=\"translate(540,720)\"><rect x=\"-12\" y=\"0\" width=\"24\" height=\"280\" fill=\"#7a5a32\" stroke=\"#fff\" stroke-width=\"5\"/><rect x=\"-230\" y=\"-120\" width=\"460\" height=\"130\" rx=\"16\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"8\"/><text y=\"-30\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"80\" fill=\"#fff\" stroke=\"#e0a63c\" stroke-width=\"8\" paint-order=\"stroke\">CÀ MAU</text></g><g transform=\"translate(230,520) rotate(-6)\"><rect x=\"-150.0\" y=\"-46\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"18\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"48\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"7\" paint-order=\"stroke\">AN XUYÊN</text></g><g transform=\"translate(850,520) rotate(6)\"><rect x=\"-145.0\" y=\"-46\" width=\"290\" height=\"92\" rx=\"14\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"18\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"48\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"7\" paint-order=\"stroke\">MINH HẢI</text></g></svg>",
+ "chu_the": "biển CÀ MAU, hai vòng mũi tên đỏ ghi AN XUYÊN và MINH HẢI (vẽ phẳng)",
+ "co": 136
+}

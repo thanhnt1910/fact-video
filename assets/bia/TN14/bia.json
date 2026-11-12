@@ -1,0 +1,17 @@
+{
+ "the_nam": "AN GIANG",
+ "the_trieu": "SÁP NHẬP 2025",
+ "d1": "TRỤ SỞ AN GIANG",
+ "d2": "Ở RẠCH GIÁ?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #14",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#141c14\"/><g transform=\"translate(360,900) scale(1.15)\"><rect x=\"-150\" y=\"-150\" width=\"300\" height=\"160\" fill=\"#c9b48a\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M-170 -150 L0 -220 L170 -150Z\" fill=\"#8a3a2a\" stroke=\"#fff\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"-130\" y=\"-130\" width=\"24\" height=\"140\" fill=\"#efe3c2\" stroke=\"#0a1018\" stroke-width=\"3\"/><rect x=\"-72\" y=\"-130\" width=\"24\" height=\"140\" fill=\"#efe3c2\" stroke=\"#0a1018\" stroke-width=\"3\"/><rect x=\"-14\" y=\"-130\" width=\"24\" height=\"140\" fill=\"#efe3c2\" stroke=\"#0a1018\" stroke-width=\"3\"/><rect x=\"44\" y=\"-130\" width=\"24\" height=\"140\" fill=\"#efe3c2\" stroke=\"#0a1018\" stroke-width=\"3\"/><rect x=\"102\" y=\"-130\" width=\"24\" height=\"140\" fill=\"#efe3c2\" stroke=\"#0a1018\" stroke-width=\"3\"/></g><g transform=\"translate(360,600) rotate(-2)\"><rect x=\"-220.0\" y=\"-58\" width=\"440\" height=\"116\" rx=\"16\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"7\"/><text y=\"22\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"58\" fill=\"#fff\" stroke=\"#e0a63c\" stroke-width=\"8\" paint-order=\"stroke\">TỈNH AN GIANG</text></g><g transform=\"translate(830,700) rotate(-3)\"><rect x=\"-8\" y=\"0\" width=\"16\" height=\"230\" fill=\"#9aa3ab\" stroke=\"#fff\" stroke-width=\"4\"/><path d=\"M-190 -80 L170 -80 L210 -32 L170 16 L-190 16Z\" fill=\"#5a4a3a\" stroke=\"#fff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text y=\"-14\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"54\" fill=\"#fff\" stroke=\"#5a4a3a\" stroke-width=\"8\" paint-order=\"stroke\">LONG XUYÊN</text></g><path d=\"M650 678 L1000 660\" stroke=\"#fff\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M650 678 L1000 660\" stroke=\"#d8372d\" stroke-width=\"6\" stroke-linecap=\"round\"/><g transform=\"translate(830,880) rotate(3)\"><rect x=\"-8\" y=\"0\" width=\"16\" height=\"230\" fill=\"#9aa3ab\" stroke=\"#fff\" stroke-width=\"4\"/><path d=\"M-190 -80 L170 -80 L210 -32 L170 16 L-190 16Z\" fill=\"#1d5a46\" stroke=\"#fff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text y=\"-14\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"54\" fill=\"#fff\" stroke=\"#1d5a46\" stroke-width=\"8\" paint-order=\"stroke\">RẠCH GIÁ</text></g></svg>",
+ "chu_the": "tòa trụ sở TỈNH AN GIANG, biển LONG XUYÊN bị gạch, biển RẠCH GIÁ (vẽ phẳng)",
+ "co": 136
+}

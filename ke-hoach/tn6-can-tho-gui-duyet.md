@@ -20,7 +20,7 @@ Chủ kênh yêu cầu viết Cần Thơ (12/11/2026).
 3. Thế là con sông được gọi là Cầm Thi Giang, tức sông của đàn và thơ. Đọc trại đi, Cầm Thi thành Cần Thơ.
 4. Nghe rất thơ mộng. Nhưng một nhà nghiên cứu ở Đại học Cần Thơ chỉ ra rằng không sách sử cũ nào ghi cái tên Cầm Thi.
 5. Ông còn lý luận thêm. Một người đang chạy trốn khó có lòng đặt tên sông theo tiếng hát, và tên chữ Hán đẹp thì thường được giữ nguyên.
-6. Vậy cái tên thật sự từ đâu ra? Trong các sách địa chí đầu thế kỷ mười chín, Cần Thơ đã được ghi là tên một con rạch, một con sông.
+6. Vậy cái tên thật sự từ đâu ra? Trong sách địa chí đầu thế kỷ mười chín, Cần Thơ đã là tên một con sông.
 7. Và nhiều nhà nghiên cứu cho rằng tên con sông ấy có gốc từ tiếng Khmer, là chữ Kìn Tho, tên một loài cá.
 8. Mà loài cá ấy, người miền Tây ngày nay gọi là cá sặc rằn, ngày xưa có rất nhiều ở vùng này.
 9. Tính ra, Cần Thơ chưa chắc là dòng sông của đàn và thơ, mà rất có thể là dòng sông của cá sặc.

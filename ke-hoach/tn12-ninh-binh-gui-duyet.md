@@ -31,7 +31,7 @@ Từng là kinh đô, rồi thành phần ngoài của Thanh Hóa, có tên riê
 12. Đến cuối năm 1991, Quốc hội chia lại tỉnh. Từ năm 1992, Ninh Bình có lại tên riêng của mình.
 13. Rồi năm 2025, ba tỉnh Ninh Bình, Hà Nam và Nam Định lại về chung một nhà. Lần này, tên chung là Ninh Bình.
 14. Từ phần ngoài của Thanh Hóa, cái tên Ninh Bình nay là tên chung của hơn bốn triệu người.
-15. Bạn là người Ninh Bình cũ, người Nam Định hay người Hà Nam?
+15. Bạn đã từng ghé Tràng An, hay về phủ Thiên Trường ở Nam Định chưa?
 
 ### Câu trả lời cho câu hỏi của hook và tiêu đề
 Thời Lê trung hưng, vùng đất Ninh Bình sau này bị gộp vào trấn Thanh Hoa với tên ngoại trấn Thanh Hoa; năm 1806 thành đạo Thanh Bình, vẫn thuộc Thanh Hoa; năm 1822 vua Minh Mạng đổi thành Ninh Bình; năm 1831 thành tỉnh riêng. Tên biến mất năm 1975 (Hà Nam Ninh), có lại năm 1992, và từ năm 2025 là tên chung của Ninh Bình, Hà Nam, Nam Định.
@@ -89,3 +89,7 @@ Bản đồ 34 tỉnh, tô Ninh Bình (ranh giới hiện nay); chấm Hoa Lư, 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Ninh Bình từng chỉ là "phần ngoài" của Thanh Hóa?
 - Hashtag: #NguoiGacSu #TenTinhThanh #NinhBinh #HoaLu #NamDinh #HaNam #LichSuVietNam
+
+
+### Sửa 12/11 (chủ kênh chọn)
+- Đoạn cuối: "Bạn là người Ninh Bình cũ, người Nam Định hay người Hà Nam?" → "Bạn đã từng ghé Tràng An, hay về phủ Thiên Trường ở Nam Định chưa?". Lý do: câu cũ hỏi người xem là người tỉnh nào, dễ thành phân biệt vùng miền (chủ kênh từng chê câu Hải Phòng/Hải Dương).

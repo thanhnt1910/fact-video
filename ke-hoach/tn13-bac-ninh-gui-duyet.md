@@ -28,7 +28,7 @@ Cả vùng từng tên Bắc Giang (Lý, Trần), rồi Kinh Bắc (Lê), rồi 
 9. Rồi năm 2025, hai tỉnh về chung một nhà lần nữa. Lần này tên chung là Bắc Ninh, còn trụ sở vẫn đặt ở Bắc Giang.
 10. Vì sao lại là Bắc Giang? Theo giải thích khi sáp nhập, nơi này nằm ở giữa tỉnh mới và đã có sẵn những tòa nhà hành chính lớn.
 11. Thế là tên lấy của một bên, trụ sở đặt ở một bên. Mà cả hai cái tên, mỗi tên đều đã từng có lúc là tên của cả vùng.
-12. Bạn ở bên này sông Cầu, hay bên kia sông Cầu?
+12. Bạn đã từng nghe quan họ bên dòng sông Cầu chưa?
 
 ### Câu trả lời cho câu hỏi của hook và tiêu đề
 Tỉnh Bắc Ninh mới (từ 1/7/2025) gồm Bắc Ninh và Bắc Giang, trung tâm chính trị, hành chính đặt tại thành phố Bắc Giang cũ, vì nơi này nằm ở giữa tỉnh mới và có sẵn khu hành chính; và cả hai cái tên đều từng là tên của cả vùng: Bắc Giang thời Lý, Trần; Bắc Ninh từ 1831 đến 1895.
@@ -72,3 +72,7 @@ Bản đồ 34 tỉnh, tô Bắc Ninh (ranh giới hiện nay); khung tỉnh cũ
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Vì sao tỉnh Bắc Ninh lại đặt trụ sở ở Bắc Giang?
 - Hashtag: #NguoiGacSu #TenTinhThanh #BacNinh #BacGiang #KinhBac #LichSuVietNam #TenGoi
+
+
+### Sửa 12/11 (chủ kênh chọn)
+- Đoạn cuối: "Bạn ở bên này sông Cầu, hay bên kia sông Cầu?" → "Bạn đã từng nghe quan họ bên dòng sông Cầu chưa?". Lý do: câu cũ hỏi người xem là người tỉnh nào, dễ thành phân biệt vùng miền (chủ kênh từng chê câu Hải Phòng/Hải Dương).

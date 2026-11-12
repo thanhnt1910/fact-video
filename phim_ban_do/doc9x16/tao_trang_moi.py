@@ -5,8 +5,9 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04','tn5':'#05','tn6':'#06','tn7':'#07','tn8':'#08','tn9':'#09','tn10':'#10'}.get(KEY,'#00')
-CFG={'tn10':(138000,'=Nguồn: Trường ĐH Nha Trang (2023), Báo Khánh Hòa, Sở VHTTDL Khánh Hòa, NQ 202/2025/QH15',''),
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04','tn5':'#05','tn6':'#06','tn7':'#07','tn8':'#08','tn9':'#09','tn10':'#10','tn11':'#11','tn12':'#12','tn13':'#13','tn14':'#14','tn15':'#15'}.get(KEY,'#00')
+CFG={'tn11':(139000,'=Nguồn: Lê Trung Hoa (SGGP), Báo Lâm Đồng (tài liệu lưu trữ), Địa chí Đà Lạt, NQ 202/2025/QH15',''),
+     'tn10':(138000,'=Nguồn: Trường ĐH Nha Trang (2023), Báo Khánh Hòa, Sở VHTTDL Khánh Hòa, NQ 202/2025/QH15',''),
      'tn9':(137000,'=Nguồn: Ban Tuyên giáo (Đề cương 60 năm tỉnh Quảng Ninh), Báo Nhân Dân, NQ 202/2025/QH15',''),
      'tn8':(136000,'=Nguồn: Báo Nghệ An (mộc bản ĐNNTC), Cổng TTĐT Hà Tĩnh, Báo Hà Tĩnh, NQ 202/2025/QH15',''),
      'tn7':(135000,'=Nguồn: Ban Tuyên giáo Tỉnh ủy Thanh Hóa (2018), Đại Nam thực lục, NQ 202/2025/QH15',''),

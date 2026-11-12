@@ -20,7 +20,7 @@ Chủ kênh yêu cầu viết Cần Thơ (12/11/2026).
 3. Thế là con sông được gọi là Cầm Thi Giang, tức sông của đàn và thơ. Đọc trại đi, Cầm Thi thành Cần Thơ.
 4. Nghe rất thơ mộng. Nhưng một nhà nghiên cứu ở Đại học Cần Thơ chỉ ra rằng không sách sử cũ nào ghi cái tên Cầm Thi.
 5. Ông còn lý luận thêm. Một người đang chạy trốn khó có lòng đặt tên sông theo tiếng hát, và tên chữ Hán đẹp thì thường được giữ nguyên.
-6. Vậy cái tên thật sự từ đâu ra? Trong một bộ sách địa chí đầu thế kỷ mười chín, Cần Thơ trước hết là tên một con sông.
+6. Vậy cái tên thật sự từ đâu ra? Trong các sách địa chí đầu thế kỷ mười chín, Cần Thơ đã được ghi là tên một con rạch, một con sông.
 7. Và nhiều nhà nghiên cứu cho rằng tên con sông ấy có gốc từ tiếng Khmer, là chữ Kìn Tho, tên một loài cá.
 8. Mà loài cá ấy, người miền Tây ngày nay gọi là cá sặc rằn, ngày xưa có rất nhiều ở vùng này.
 9. Tính ra, Cần Thơ chưa chắc là dòng sông của đàn và thơ, mà rất có thể là dòng sông của cá sặc.
@@ -36,7 +36,7 @@ Chủ kênh yêu cầu viết Cần Thơ (12/11/2026).
 |---|---|
 | 1–3 | Hook và giai thoại "Cầm Thi Giang" (nói rõ là lời kể) |
 | 4–5 | Lật lại: không sách sử cũ nào ghi tên Cầm Thi; lý luận của nhà nghiên cứu (trả lời hook) |
-| 6–8 | Tên thật: trước hết là tên sông trong sách địa chí đầu thế kỷ 19; nhiều nhà nghiên cứu cho là gốc Khmer Kìn Tho, cá sặc rằn (trả lời "nghĩa là gì") |
+| 6–8 | Tên thật: sách địa chí đầu thế kỷ 19 ghi là tên rạch, tên sông; nhiều nhà nghiên cứu cho là gốc Khmer Kìn Tho, cá sặc rằn (trả lời "nghĩa là gì") |
 | 9 | Câu hài đóng ý |
 | 10–11 | Năm 1739 đạo Trấn Giang; năm 1876 hạt Cần Thơ |
 | 12–13 | Năm 2004 thành phố trực thuộc trung ương; năm 2025 nhập Sóc Trăng, Hậu Giang, giữ tên |
@@ -59,11 +59,21 @@ Giai thoại về Nguyễn Ánh được kể kèm "theo lời kể ấy", khôn
 - Nghị quyết 22/2003/QH11 ngày 26/11/2003: chia tỉnh Cần Thơ thành thành phố Cần Thơ trực thuộc trung ương và tỉnh Hậu Giang (LuatVietnam; Báo Đại biểu Nhân dân). https://luatvietnam.vn/hanh-chinh/nghi-quyet-22-2003-qh11-quoc-hoi-15802-d1.html
 - Nghị quyết 202/2025/QH15, khoản 19 Điều 1: nhập thành phố Cần Thơ, tỉnh Sóc Trăng, tỉnh Hậu Giang thành thành phố Cần Thơ, diện tích 6.360,83 km², dân số 4.199.824 người (Thư viện Pháp luật; LuatVietnam). https://thuvienphapluat.vn/hoi-dap-phap-luat/dan-so-can-tho-sau-sap-nhap-bao-nhieu-nguoi-138074236.html
 
+- Gia Định thành thông chí (Trịnh Hoài Đức), bản dịch: mục "Cần Thơ giang (sông Cần Thơ)": ở bờ phía tây Hậu Giang, bờ phía tây là thủ sở đạo Trấn Giang, chợ phố đông đúc. Đọc qua bản dịch đăng lại (PDF của Ban điều hành khóa sách cũ và bản chép trên blog Những bí ẩn của lịch sử Việt Nam). http://ndclnh-mytho-usa.org/KhoSachCu/Gia%20-Dinh_Thanh_Thong-Chi__.pdf ; https://lichsuhuyenbivietnam.blogspot.com/2013/03/gia-inh-thanh-thong-chi-trinh-hoai-uc.html
+- Wiki Người An Phú (bài về địa danh Giang, Đà, Hà): Hoàng Việt nhất thống dư địa chí (1806, quyển 7) chép 芹苴瀝 "Cần Thơ rạch"; Gia Định thành thông chí (1820, quyển 2) chép 芹苴江 "Cần Thơ giang". https://wiki.nguoianphu.com/diadanh/2024/06/30/giang-%E6%B1%9F-da-%E6%B2%B1-ha-%E6%B2%B3/
+- Báo Cần Thơ (cơ quan báo chí của thành phố), "Ký ức Ninh Kiều": chuyện Nguyễn Ánh đặt tên Cầm Thi giang là "tương truyền", dẫn lời nhà biên khảo Huỳnh Minh. https://baocantho.com.vn/ky-uc-ninh-kieu-a100541.html
+- Cổng thông tin điện tử thành phố Cần Thơ, "Tên gọi và lịch sử hình thành phát triển": nêu ba quan điểm về tên gọi (Cầm Thi giang, rau cần – rau thơm, Kìn Tho), không chọn quan điểm nào; năm 1739 vùng đất có tên Trấn Giang. https://media.cantho.gov.vn/wps/portal/home/gioi-thieu/danh-muc/bai-viet/di+tich+-+thang+canh/kham+pha+-+ten+goi+va+lich+su+hinh+thanh+phat+trien
+- Báo VnExpress, "Thành phố nào mà tên gọi bắt nguồn từ một loài cá?": Kìn Tho trong tiếng Khmer là cá sặc rằn, xưa kia xuất hiện rất nhiều ở địa phương. https://vnexpress.net/thanh-pho-nao-ten-goi-bat-nguon-tu-mot-loai-ca-4393857-p2.html
+- Lời dẫn từ sách Địa danh Nam Bộ của Lê Trung Hoa (rạch có nhiều cá "kìn tho" được gọi là rạch Kìn Tho, người Việt đọc trại thành Cần Thơ), chép lại ở nhiều trang, trong đó có cổng thông tin thành phố Cần Thơ. Chưa đọc trực tiếp sách. https://sachcutaydo.com/blogs/news/tai-sao-goi-can-tho-la-tay-do
+
 ### Điểm lệch giữa các nguồn
 - Gốc chữ Cần Thơ: các nguồn học thuật nghiêng về gốc Khmer "Kìn Tho" nhưng vẫn là giả thuyết; Đào Ngọc Cảnh viết "có thể", Báo Nông nghiệp nói "không có gì chắc chắn". Lời kể dùng "nhiều nhà nghiên cứu cho rằng", "rất có thể", "có lẽ".
 - Năm hiệu lực thành phố trực thuộc trung ương: nghị quyết ký ngày 26/11/2003, bộ máy thành phố mới hoạt động từ đầu năm 2004. Lời kể nói "năm 2004".
 - Năm lập tỉnh Cần Thơ thời Pháp: Đào Ngọc Cảnh ghi năm 1900, Báo Nông nghiệp ghi năm 1899. Không đưa vào lời kể.
 - Tên Mạc Thiên Tích/Mạc Thiên Tứ: cùng một người, các nguồn dùng cả hai tên; lời kể dùng Mạc Thiên Tích như nguồn chính.
+
+- Một trang địa chí Cần Thơ ghi tên Khmer nguyên thủy của vùng là Prek Rusey (sông tre), không liên quan ngữ âm với Cần Thơ; đây là lý do giả thuyết Kìn Tho vẫn chỉ là giả thuyết. Lời kể đã giữ mức "nhiều nhà nghiên cứu cho rằng", "rất có thể".
+- Cổng thông tin thành phố Cần Thơ vẫn nêu giai thoại Cầm Thi giang như một trong ba quan điểm, không bác bỏ. Lời kể dựa vào Báo Cần Thơ ("tương truyền") và Đào Ngọc Cảnh (không văn bản nào ghi tên Cầm Thi), và nói rõ đó là ý của "một nhà nghiên cứu".
 
 ### Chi tiết đã bỏ
 - Tên sách Gia Định thành thông chí và tác giả Trịnh Hoài Đức: bỏ khỏi lời kể cho gọn (nói "một bộ sách địa chí đầu thế kỷ mười chín"); đưa vào mô tả.

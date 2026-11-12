@@ -1,0 +1,17 @@
+{
+ "the_nam": "NGHỆ AN",
+ "the_trieu": "TỪNG CHUNG MỘT TỈNH",
+ "d1": "HÀ TĨNH CŨNG",
+ "d2": "LÀ XỨ NGHỆ?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #08",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#12201e\"/><g transform=\"translate(540,390)\"><rect x=\"-230\" y=\"-60\" width=\"460\" height=\"120\" rx=\"16\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"8\"/><text y=\"24\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"66\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"10\" paint-order=\"stroke\">XỨ NGHỆ</text></g><g transform=\"translate(400,830) scale(1.3,1.3)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><path d=\"M0 -100 L0 -190 M0 -100 L-8 -50 L-10 0 M0 -100 L8 -50 L10 0 M0 -190 L-40 -160 L-70 -120 M0 -190 L30 -215 L60 -240\" stroke=\"#fff\" stroke-width=\"22\"/><path d=\"M0 -100 L0 -190 M0 -100 L-8 -50 L-10 0 M0 -100 L8 -50 L10 0 M0 -190 L-40 -160 L-70 -120 M0 -190 L30 -215 L60 -240\" stroke=\"#141312\" stroke-width=\"12\"/><circle cx=\"0\" cy=\"-226\" r=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"0\" cy=\"-226\" r=\"24\" fill=\"#141312\" stroke=\"none\"/><path d=\"M-40 -236 L0 -272 L40 -236Z\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"5\"/></g><g transform=\"translate(680,830) scale(-1.3,1.3)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><path d=\"M0 -100 L0 -190 M0 -100 L-8 -50 L-10 0 M0 -100 L8 -50 L10 0 M0 -190 L-40 -160 L-70 -120 M0 -190 L30 -215 L60 -240\" stroke=\"#fff\" stroke-width=\"22\"/><path d=\"M0 -100 L0 -190 M0 -100 L-8 -50 L-10 0 M0 -100 L8 -50 L10 0 M0 -190 L-40 -160 L-70 -120 M0 -190 L30 -215 L60 -240\" stroke=\"#141312\" stroke-width=\"12\"/><circle cx=\"0\" cy=\"-226\" r=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"0\" cy=\"-226\" r=\"24\" fill=\"#141312\" stroke=\"none\"/><path d=\"M-40 -236 L0 -272 L40 -236Z\" fill=\"#7fa6c4\" stroke=\"#fff\" stroke-width=\"5\"/></g><text x=\"400\" y=\"875\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"44\" fill=\"#e0a63c\" stroke=\"#12201e\" stroke-width=\"8\" paint-order=\"stroke\">NGHỆ AN</text><text x=\"680\" y=\"875\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"44\" fill=\"#7fa6c4\" stroke=\"#12201e\" stroke-width=\"8\" paint-order=\"stroke\">HÀ TĨNH</text></svg>",
+ "chu_the": "hai người que Nghệ An và Hà Tĩnh khoác vai dưới biển XỨ NGHỆ (vẽ phẳng)",
+ "co": 150
+}

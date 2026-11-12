@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #05 Hải Phòng (mã tn5)
 
-11 đoạn, 258 chữ, ước tính khoảng 1 phút 20 giây. Chưa đọc giọng, chưa dựng.
+Bản 2 (12/11): 15 đoạn, 352 chữ, ước tính khoảng 1 phút 45 giây. Chưa đọc giọng, chưa dựng.
 
 ## Hải Phòng: góc nhỏ của Hải Dương giờ ôm trọn Hải Dương
 
@@ -15,26 +15,45 @@
 (Phụ đề ghi năm bằng số; giọng đọc ghi năm bằng chữ.)
 
 1. Bạn có biết, Hải Phòng từng chỉ là một góc nhỏ của Hải Dương, mà giờ thì Hải Dương lại nhập vào Hải Phòng?
-2. Nghe như chuyện con lớn hơn mẹ. Nhưng đó là chuyện có thật, kéo dài gần một trăm bốn mươi năm.
+2. Nghe như chuyện con lớn hơn mẹ. Nhưng đó là chuyện có thật, kéo dài gần 140 năm.
 3. Ngày xưa, vùng cửa sông Cấm chỉ có vài làng chài nhỏ thuộc tỉnh Hải Dương. Bến cảng ở đây có tên là Ninh Hải.
 4. Khoảng năm 1870, vua Tự Đức giao cho Bùi Viện lập một đồn canh giữ bờ biển ở đây, gọi là nha Hải Phòng sứ.
 5. Tên Hải Phòng được giải thích theo vài cách, nhiều người gắn nó với nha Hải Phòng sứ này. Cách nào thì chữ Hải cũng là biển, chữ Phòng là canh giữ.
-6. Rồi người Pháp đến và mở rộng cảng. Năm 1887, họ tách mấy huyện ven biển khỏi tỉnh Hải Dương để lập tỉnh Hải Phòng.
-7. Chỉ một năm sau, tỉnh mới lại được tách đôi, thành thành phố Hải Phòng và tỉnh Kiến An.
-8. Từ đó, Hải Phòng và Hải Dương là hai nơi riêng, mỗi nơi một tên, đứng cạnh nhau hơn một trăm năm.
-9. Đến năm 2025, cả nước sắp xếp lại các tỉnh. Hải Dương nhập vào Hải Phòng, và tên chung là thành phố Hải Phòng.
-10. Thế là góc nhỏ ngày nào, giờ đã ôm trọn cả tỉnh từng chứa mình.
-11. Bạn là người Hải Phòng hay người Hải Dương?
+6. Nhưng người Pháp đã nhắm tới bến cảng này. Năm 1874, họ được đặt sở thuế ngay tại cảng.
+7. Người Pháp mở rộng cảng. Năm 1887, họ tách mấy huyện ven biển khỏi tỉnh Hải Dương để lập tỉnh Hải Phòng.
+8. Chỉ một năm sau, tỉnh mới lại được tách đôi, thành thành phố Hải Phòng và tỉnh Kiến An.
+9. Tàu thuyền kéo về ngày càng đông. Suốt thời Pháp thuộc, đây là thương cảng lớn nhất miền Bắc.
+10. Ngày 13/5/1955, người lính Pháp cuối cùng rời bến cảng, Hải Phòng được giải phóng.
+11. Năm 1962, tỉnh Kiến An nhập trở lại vào thành phố, hai nửa tách nhau từ thời Pháp lại thành một Hải Phòng.
+12. Riêng Hải Dương thì vẫn là tỉnh láng giềng, mỗi nơi một tên, đứng cạnh nhau hơn 100 năm.
+13. Đến năm 2025, cả nước sắp xếp lại các tỉnh. Hải Dương nhập vào Hải Phòng, và tên chung là thành phố Hải Phòng.
+14. Thế là góc nhỏ ngày nào, giờ đã ôm trọn cả tỉnh từng chứa mình.
+15. Bạn là người Hải Phòng hay người Hải Dương?
 
 ### Bảng đoạn → ý
 | Đoạn | Ý |
 |---|---|
-| 1–2 | Hook: Hải Phòng từng thuộc Hải Dương, giờ Hải Dương nhập vào Hải Phòng |
+| 1–2 | Hook |
 | 3 | Làng chài cửa sông Cấm, bến Ninh Hải, thuộc Hải Dương |
-| 4–5 | Nha Hải Phòng sứ khoảng 1870; tên Hải Phòng: dù theo cách giải thích nào, Hải là biển, Phòng là canh giữ |
-| 6–7 | 1887 tách khỏi Hải Dương lập tỉnh Hải Phòng; 1888 tách thành thành phố Hải Phòng và tỉnh Kiến An |
-| 8–10 | Hai nơi đứng cạnh nhau hơn trăm năm; 2025 Hải Dương nhập vào Hải Phòng; đóng vòng |
-| 11 | Câu hỏi cho người xem |
+| 4–5 | Nha Hải Phòng sứ khoảng 1870; nghĩa chữ Hải, chữ Phòng |
+| 6 | 1874 Pháp đặt sở thuế tại cảng |
+| 7–8 | 1887 lập tỉnh Hải Phòng; 1888 tách thành phố Hải Phòng và tỉnh Kiến An |
+| 9 | Thương cảng lớn nhất miền Bắc thời Pháp thuộc |
+| 10 | 13/5/1955 giải phóng |
+| 11 | 1962 Kiến An nhập lại (kết quả của việc tách năm 1888) |
+| 12–14 | Hải Dương láng giềng; 2025 nhập vào Hải Phòng; đóng vòng |
+| 15 | Câu hỏi cho người xem |
+
+### Thay đổi so với bản 1
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 6 (mới) | (không có) | Pháp nhắm tới cảng, năm 1874 được đặt sở thuế tại cảng | Nối từ đồn canh nhà Nguyễn sang thời Pháp, có nguyên nhân |
+| 7 | "Rồi người Pháp đến và mở rộng cảng. Năm 1887…" | "Người Pháp mở rộng cảng. Năm 1887…" | Tránh lặp ý với đoạn 6 |
+| 9 (mới) | (không có) | Thương cảng lớn nhất miền Bắc thời Pháp thuộc | Cho biết vì sao Hải Phòng lớn lên |
+| 10 (mới) | (không có) | 13/5/1955 người lính Pháp cuối cùng rời cảng, Hải Phòng giải phóng | Mốc quen thuộc với người Hải Phòng |
+| 11 (mới) | (không có) | 1962 Kiến An nhập lại | Bản 1 nêu Kiến An tách ra mà không nói kết cục |
+| 12 | "Từ đó, Hải Phòng và Hải Dương là hai nơi riêng…" | "Riêng Hải Dương thì vẫn là tỉnh láng giềng…" | Nối sau đoạn Kiến An |
+
 
 ### Câu chữ sáng tạo (lời người kể, không thêm dữ kiện)
 | Đoạn | Câu | Kiểu |
@@ -50,17 +69,24 @@ Không đùa người Hải Dương hay việc sáp nhập; câu hỏi cuối tr
 - Báo VnExpress, "150 năm đổi thay của cảng Hải Phòng": thời phong kiến khu vực là bãi lầy với vài làng chài thuộc tỉnh Hải Dương. https://vnexpress.net/150-nam-doi-thay-cua-cang-hai-phong-4766705.html
 - Báo Nhân Dân (2025) và Nghị quyết 202/2025/QH15: Hải Phòng nhập Hải Dương, giữ tên thành phố Hải Phòng. https://nhandan.vn/quoc-hoi-thong-qua-nghi-quyet-ve-sap-xep-don-vi-hanh-chinh-cap-tinh-ca-nuoc-con-34-tinh-thanh-post886206.html
 
+- Cổng thông tin điện tử TP Hải Phòng (bản tiếng Anh), mục sự kiện: 19/7/1888 lập thành phố Hải Phòng thuộc tỉnh Hải Phòng; 13/5/1955 người lính Pháp cuối cùng rời bến Sấu Kho, Hải Phòng giải phóng; 1962 thành phố Hải Phòng và tỉnh Kiến An hợp nhất. https://en.haiphong.gov.vn/cultural-traditional-events/important-festivals-and-political-events-of-haiphong-335579
+- Bổ sung từ VnExpress "150 năm đổi thay của cảng Hải Phòng": 1874 nhà Nguyễn nhượng đất cho Pháp đặt sở thuế quan và tòa lãnh sự; thời Pháp thuộc là thương cảng lớn nhất miền Bắc; 13/5/1955 Hải Phòng giải phóng. Dân trí: 1873–1874 lập cơ quan thuế vụ tại cảng Ninh Hải; 27/10/1962 hợp nhất thành phố Hải Phòng cũ và tỉnh Kiến An.
+
 ### Điểm lệch giữa các nguồn
+- Ngày hợp nhất Kiến An: Dân trí ghi 27/10/1962, cổng thông tin thành phố ghi 20/10/1962. Lời kể chỉ nói "năm 1962".
+- Năm 1874: VnExpress nói nhượng đất đặt sở thuế và lãnh sự; Dân trí nói lập cơ quan thuế vụ chung 1873–1874. Lời kể chỉ nói phần chung: Pháp được đặt sở thuế tại cảng.
+- "Thương cảng lớn nhất miền Bắc" chỉ có VnExpress nói; lời kể giữ đúng mức đó.
 - Nguồn gốc tên Hải Phòng: Dân Việt nêu ba giả thuyết, VnExpress gọi nha Hải phòng sứ là "giả thuyết". Lời kể nói "được giải thích theo vài cách, nhiều người gắn với nha Hải Phòng sứ" và chỉ khẳng định điều chung cho mọi cách giải thích: Hải là biển, Phòng là canh giữ.
 - Năm lập nha Hải Phòng sứ: Dân Việt ghi 1870, Dân trí ghi 1870–1873. Lời kể nói "khoảng năm 1870".
 
 ### Chi tiết đã bỏ
 - Giả thuyết "Hải tần phòng thủ" gắn với nữ tướng Lê Chân: dựa trên truyền thuyết, bỏ.
 - Sở thuế "Hải Dương thương chính quan phòng" (1873–1874): là một giả thuyết về tên, không kể riêng.
-- Năm 1962 hợp nhất thành phố Hải Phòng với tỉnh Kiến An: có nguồn (Dân trí) nhưng thêm năm, bỏ cho gọn.
+- Tòa lãnh sự Pháp năm 1874, 5 mẫu đất: chỉ một nguồn, bỏ.
+- Hải Phòng có điện năm 1893, nhà Mạc lập Dương Kinh: một nguồn hoặc lạc mạch, bỏ.
 - Tên Hải Dương có từ thời Lê: chưa tra đủ hai nguồn, bỏ.
 
 ### Kết quả công cụ kiểm
-- kiem_kich_ban: 0 ❌, 3 ⚠️.
-- kiem_mo_dau: 0 ❌; ⚠️ 6 tên riêng trong 25 giây đầu (Hải Phòng, Hải Dương, sông Cấm, Ninh Hải, Tự Đức, Bùi Viện).
-- kiem_mach_ke: 0 ❌, 1 ⚠️ (hook 24 chữ).
+- kiem_kich_ban: 0 ❌, 2 ⚠️ (đoạn 5 dài 32 chữ; đoạn 15 ngắn là câu hỏi cuối).
+- kiem_mo_dau: 0 ❌; ⚠️ 6 tên riêng trong 25 giây đầu.
+- kiem_mach_ke: 0 ❌, 3 ⚠️ (hook 24 chữ; ít từ nối; đoạn 10 có ngày tháng năm đầy đủ).

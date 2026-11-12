@@ -19,7 +19,7 @@ Chủ kênh yêu cầu viết Cần Thơ (12/11/2026).
 2. Theo lời kể ấy, Nguyễn Ánh chạy trốn quân Tây Sơn qua đây, nghe bên bờ có tiếng đàn và tiếng ngâm thơ.
 3. Thế là con sông được gọi là Cầm Thi Giang, tức sông của đàn và thơ. Đọc trại đi, Cầm Thi thành Cần Thơ.
 4. Nghe rất thơ mộng. Nhưng một nhà nghiên cứu ở Đại học Cần Thơ chỉ ra rằng không sách sử cũ nào ghi cái tên Cầm Thi.
-5. Ông còn lý luận thêm. Một người đang chạy trốn khó có lòng đặt tên sông theo tiếng hát, và tên chữ Hán đẹp thì thường được giữ nguyên.
+5. Ông còn lý luận thêm. Nếu chúa đã đặt một cái tên chữ Hán đẹp như Cầm Thi, người ta sẽ giữ nguyên, chứ không đọc trại thành Cần Thơ.
 6. Vậy cái tên thật sự từ đâu ra? Trong sách địa chí đầu thế kỷ mười chín, Cần Thơ đã là tên một con sông.
 7. Và nhiều nhà nghiên cứu cho rằng tên con sông ấy có gốc từ tiếng Khmer, là chữ Kìn Tho, tên một loài cá.
 8. Mà loài cá ấy, người miền Tây ngày nay gọi là cá sặc rằn, ngày xưa có rất nhiều ở vùng này.
@@ -78,6 +78,7 @@ Giai thoại về Nguyễn Ánh được kể kèm "theo lời kể ấy", khôn
 ### Chi tiết đã bỏ
 - Tên sách Gia Định thành thông chí và tác giả Trịnh Hoài Đức: bỏ khỏi lời kể cho gọn (nói "một bộ sách địa chí đầu thế kỷ mười chín"); đưa vào mô tả.
 - Tên nhà nghiên cứu Đào Ngọc Cảnh, Bùi Đức Tịnh, Lê Trung Hoa, Huỳnh Minh: bỏ khỏi lời kể theo yêu cầu bớt trích dẫn; đưa vào mô tả và bình luận ghim.
+- Lý lẽ thứ hai của Đào Ngọc Cảnh (người đang chạy trốn khó đặt tên sông theo tiếng hát): suy đoán tâm lý, làm đoạn 5 rời rạc; bỏ theo góp ý của chủ kênh 12/11.
 - Giai thoại rau cần, rau thơm: thêm một giai thoại nữa sẽ dài; đưa vào bình luận ghim.
 - Năm 1777 Nguyễn Ánh gặp Mạc Thiên Tứ ở Cần Thơ (Đại Nam thực lục): chỉ đọc qua nguồn thứ cấp, bỏ.
 - Các tên hành chính trung gian (trấn Vĩnh Thanh, huyện Vĩnh Định, huyện Phong Phú, tỉnh Hậu Giang năm 1976): bỏ cho gọn.

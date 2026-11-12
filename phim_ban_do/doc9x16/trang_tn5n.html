@@ -258,9 +258,9 @@ S2(14,14,'p',null,g=>{const big=el(g,'circle',{cx:540,cy:760,r:260,fill:'rgba(12
  return{upd:t=>{const e=popv(t,R(14)+.05,.5);const u=inn(t,to-.2,1.4);big.setAttribute('opacity',e*(1-.6*u));big.setAttribute('r',260*e);const r=lerp(50,320,u),cx=lerp(700,540,u),cy=lerp(900,760,u);sm.setAttribute('cx',cx);sm.setAttribute('cy',cy);sm.setAttribute('r',r*e);sm.setAttribute('fill-opacity',lerp(1,.6,u));
   lb.setAttribute('x',540);lb.setAttribute('y',lerp(640,700,u));lb.setAttribute('opacity',e);ls.setAttribute('x',cx);ls.setAttribute('y',lerp(cy+12,cy+90,u));ls.setAttribute('opacity',e);ls.setAttribute('font-size',lerp(34,54,u));sh(A,t,540,330,-2,PV(t,14,'góc',.6));sh(B,t,540,1150,1,popv(t,to,.5))}}});
 // 15 câu hỏi: quê bạn từng mang những cái tên nào?
-S2(15,15,'d',null,g=>{const m=vnmap(560,820,151);const hs=hsts(m);const qs=[[105.85,21.0],[106.68,20.86],[107.6,16.4],[108.2,16.05],[106.7,10.8],[105.75,10.05],[105.7,18.7],[108.95,13.8]].map(()=>T(m.top,0,0,'?',44,CGOLD,6,'middle',OLN));const A=strip('QUÊ BẠN',false,48,151),B=strip('TỪNG MANG TÊN GÌ?',true,46,152);const tq=AT(15,'quê',.6);bm(tq);
+S2(15,15,'d',null,g=>{const m=vnmap(560,820,151);const hs=hsts(m);const qs=[[105.85,21.0],[106.68,20.86],[107.6,16.4],[108.2,16.05],[106.7,10.8],[105.75,10.05],[105.7,18.7],[108.95,13.8]].map(()=>T(m.top,0,0,'?',44,CGOLD,6,'middle',OLN));const A=strip('QUÊ BẠN',false,48,151),B=strip('TỪNG MANG TÊN GÌ?',true,38,152);const tq=AT(15,'quê',.6);bm(tq);
  return{upd:t=>{const e=inn(t,R(15)-.2,.5);m.at(330,740,-1,1,e);m.view(108.6,15.9,44);hs(e);const P0=[[105.85,21.0],[106.68,20.86],[107.6,16.4],[108.2,16.05],[106.7,10.8],[105.75,10.05],[105.7,18.7],[108.95,13.8]];qs.forEach((q,i)=>{const[x,y]=m.P(...P0[i]);q.setAttribute('x',x);q.setAttribute('y',y+14+Math.sin(t*3+i)*5);q.setAttribute('opacity',popv(t,tq+.2+i*.15,.4))});
-  sh(A,t,810,560,-2,popv(t,tq,.5));sh(B,t,800,660,2,PV(t,15,'tên',2.4))}}},9999);
+  sh(A,t,800,560,-2,popv(t,tq,.5));sh(B,t,770,660,2,PV(t,15,'tên',2.4))}}},9999);
 
 SCN.forEach((s,i)=>{if(i>0&&s.bg!=SCN[i-1].bg)sx(s.a+.02,'whoosh',{d:.35,g:.35})});
 window.SFX=SFXQ;window.TOTAL=TOTAL;

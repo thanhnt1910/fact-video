@@ -1,0 +1,16 @@
+{
+ "the_nam": "MIỀN TÂY",
+ "the_trieu": "TÊN TỪ ĐÂU RA?",
+ "d1": "CẦN THƠ",
+ "d2": "CÁ HAY ĐÀN",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #06",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#16220f\"/>\n<g fill=\"none\" stroke=\"rgba(239,230,196,.10)\" stroke-width=\"5\"><path d=\"M0 980 Q135 950 270 980 T540 980 T810 980 T1080 980\"/><path d=\"M0 1040 Q135 1010 270 1040 T540 1040 T810 1040 T1080 1040\"/></g>\n<g transform=\"translate(330,640) rotate(-12)\"><ellipse cx=\"0\" cy=\"0\" rx=\"190\" ry=\"95\" fill=\"#c9a24a\" stroke=\"#fff\" stroke-width=\"8\"/><path d=\"M175 0 L290 -80 L290 80 Z\" fill=\"#c9a24a\" stroke=\"#fff\" stroke-width=\"8\" stroke-linejoin=\"round\"/><circle cx=\"-115\" cy=\"-20\" r=\"18\" fill=\"#16220f\"/><circle cx=\"-110\" cy=\"-25\" r=\"6\" fill=\"#fff\"/><g stroke=\"rgba(22,34,15,.45)\" stroke-width=\"6\" fill=\"none\"><path d=\"M-40 -70 Q-10 0 -40 70\"/><path d=\"M20 -78 Q50 0 20 78\"/><path d=\"M80 -70 Q110 0 80 70\"/></g></g>\n<g transform=\"translate(790,560) rotate(18)\"><rect x=\"-14\" y=\"-330\" width=\"28\" height=\"300\" rx=\"10\" fill=\"#8a5a32\" stroke=\"#fff\" stroke-width=\"6\"/><ellipse cx=\"0\" cy=\"40\" rx=\"115\" ry=\"130\" fill=\"#a0683a\" stroke=\"#fff\" stroke-width=\"8\"/><circle cx=\"0\" cy=\"20\" r=\"34\" fill=\"#16220f\"/><g stroke=\"#efe6c4\" stroke-width=\"3\"><line x1=\"-8\" y1=\"-320\" x2=\"-8\" y2=\"120\"/><line x1=\"8\" y1=\"-320\" x2=\"8\" y2=\"120\"/></g><rect x=\"-34\" y=\"-350\" width=\"68\" height=\"34\" rx=\"8\" fill=\"#8a5a32\" stroke=\"#fff\" stroke-width=\"5\"/></g>\n<text x=\"560\" y=\"430\" text-anchor=\"middle\" font-family=\"O\" font-weight=\"700\" font-size=\"150\" fill=\"#ffd45a\" stroke=\"#2a0504\" stroke-width=\"10\" paint-order=\"stroke\">?</text>\n</svg>",
+ "chu_the": "cá sặc và cây đàn (vẽ phẳng)"
+}

@@ -104,4 +104,5 @@ Phụ (29 tên thôi làm tên tỉnh từ 1/7/2025, thử 1–2 trước): Hà 
 | 01 | Hà Nội: tên do ai đặt, nghĩa là gì | tn1 | kịch bản duyệt, đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn1_ha_noi.mp4` | `assets/bia/TN1/bia_tn1.png` |
 | 02 | TP Hồ Chí Minh: cái tên Sài Gòn dọn nhà | tn2 | kịch bản duyệt (sửa 2 lần), đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn2_tp_ho_chi_minh.mp4` | `assets/bia/TN2/bia_tn2.png` |
 | 03 | Huế: vùng đất từ một món sính lễ, cái tên do người dân gọi | tn3 | kịch bản gửi duyệt (`ke-hoach/tn3-hue-gui-duyet.md`), chủ kênh cho dựng 12/11; giọng Leda, đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn3_hue.mp4` | `assets/bia/TN3/bia_tn3.png` |
+| 04 | Đà Nẵng: cái tên Tây, cái tên Chăm và cái tên phủ cả Quảng Nam | tn4 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn4-da-nang-gui-duyet.md`, 15 đoạn 132001–132015), chưa đọc giọng, chưa dựng | | |
 Các tập sau theo thứ tự đề xuất ở mục trên (mã tn4, tn5…, dải đoạn 131001, 132001…).

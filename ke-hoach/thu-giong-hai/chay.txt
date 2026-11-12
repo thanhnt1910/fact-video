@@ -1,1 +1,1 @@
-doc-tn1 lan1
+doc-tn2 lan1

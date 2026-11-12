@@ -50,5 +50,6 @@ head=head.replace('Ảnh: Wikimedia Commons (CC BY / phạm vi công cộng)',cr
 head=head.replace('katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell',cr2)
 brick="const brick=(g,w,col)=>{const k=el(g,'g',{});el(k,'rect',{x:-w/2,y:-28,width:w,height:56,rx:6,fill:col,stroke:'#1b140c','stroke-width':5});for(let i=1;i<7;i++)el(k,'line',{x1:-w/2+i*w/7,y1:i%2?-28:0,x2:-w/2+i*w/7,y2:i%2?0:28,stroke:'#1b140c','stroke-width':3});el(k,'line',{x1:-w/2,y1:0,x2:w/2,y2:0,stroke:'#1b140c','stroke-width':3});return k};\n"
 helpers=open('_moi_cc.js',encoding='utf-8').read()
-out=head+brick+open('_moi_map.js',encoding='utf-8').read()+helpers+open(f'canh_{TAG}.js',encoding='utf-8').read()+'\n'+foot
+tinh=open('_tinh.js',encoding='utf-8').read() if KEY.startswith('tn') else ''
+out=head+brick+tinh+open('_moi_map.js',encoding='utf-8').read()+helpers+open(f'canh_{TAG}.js',encoding='utf-8').read()+'\n'+foot
 open(f'trang_{TAG}n.html','w',encoding='utf-8').write(out);print(f'trang_{TAG}n.html',len(out))

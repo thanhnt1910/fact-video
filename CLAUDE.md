@@ -536,3 +536,8 @@ Sáng tạo ở CÂU CHỮ, không ở SỰ KIỆN. Giữ nghiêm quy tắc "ch�
 - **Giữ quy tắc đùa:** chỉ đùa về tình huống và chi tiết đời thường; không đùa nỗi đau, cái chết, không chê nhân vật; không đùa anh hùng dân tộc Việt Nam; không đùa phía bị hại.
 - **Gửi duyệt:** thêm mục "Câu chữ sáng tạo" liệt kê từng câu, đoạn nào, kiểu gì (so sánh, tự hỏi tự đáp, cường điệu, bình luận), và xác nhận từng câu không thêm dữ kiện, không gán lời hay nội tâm. Chủ kênh duyệt lời chứ không duyệt thay việc kiểm dữ kiện.
 - Vẫn chạy `kiem_kich_ban`, `kiem_mo_dau`, `kiem_mach_ke`, `kiem_gui_duyet`. Đoạn ngắn cho giọng đọc, họ tên đủ, mỗi đoạn một ý lớn vẫn giữ.
+
+## Loạt "Tên tỉnh thành" (chủ kênh chốt 12/11/2026)
+- Video dọc về lịch sử và ý nghĩa tên các tỉnh thành (#01 Hà Nội, mã `tn1`, đoạn 129001–129015). Nhãn trên video "TÊN TỈNH THÀNH · #NN". Được làm cả TP Hồ Chí Minh, Sài Gòn (kịch bản mới, nguồn văn bản gốc).
+- **Bản đồ hành chính phẳng có ranh giới tỉnh: chủ kênh đồng ý bỏ quy tắc "không vẽ biên giới" RIÊNG cho loạt này.** Ranh giới lấy từ dữ liệu geoBoundaries VNM ADM1 (phạm vi công cộng, 63 tỉnh, có Hoàng Sa trong Đà Nẵng và Trường Sa trong Khánh Hòa), ghép thành 34 tỉnh theo Nghị quyết 202/2025/QH15; không tự vẽ tay đường biên. Không vẽ nước láng giềng. Khung có biển phía đông phải có Hoàng Sa, Trường Sa như quy tắc chung. Chỉ vẽ ranh giới hiện nay (ghi "ranh giới hiện nay"); vùng đất xưa thể hiện bằng chấm địa danh có nguồn.
+- Kịch bản: chủ đề Việt Nam gần gũi, hook lật lại kiểu Nam Việt, hài nhẹ ở tình huống, mọi câu hỏi của tiêu đề phải được trả lời dứt khoát (không kết bằng "chưa thống nhất").

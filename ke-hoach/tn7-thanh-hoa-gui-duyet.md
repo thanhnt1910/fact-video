@@ -30,7 +30,7 @@ Câu hỏi của video được trả lời dứt khoát: Thanh Hóa là tên g�
 12. Vậy là cái tên đầu tiên từ thời Lý đã quay trở lại, sau hơn 370 năm vắng bóng.
 13. Từ đó đến nay, tên Thanh Hóa không đổi nữa. Năm 2025, khi cả nước sắp xếp lại, Thanh Hóa cũng là tỉnh giữ nguyên.
 14. Hóa ra, Thanh Hóa không phải là viết sai từ Thanh Hoa. Thanh Hoa mới là cái tên đến sau.
-15. Còn quê bạn, có địa danh nào từng đổi tên không?
+15. Bạn có biết tỉnh nào khác từng đổi tên vì kiêng tên vua không?
 
 ### Bảng đoạn → ý
 | Đoạn | Ý |
@@ -49,6 +49,7 @@ Câu hỏi của video được trả lời dứt khoát: Thanh Hóa là tên g�
 | Đoạn | Trước | Sau | Vì sao |
 |---|---|---|---|
 | 15 | "Bạn đã từng nghe ai gọi Thanh Hóa là Thanh Hoa chưa?" | "Còn quê bạn, có địa danh nào từng đổi tên không?" | Tránh kéo bình luận đùa định kiến về xứ Thanh |
+| 15 (bản 3) | "Còn quê bạn, có địa danh nào từng đổi tên không?" | "Bạn có biết tỉnh nào khác từng đổi tên vì kiêng tên vua không?" | Chủ kênh chọn giữ câu này (12/11). Lưu ý: câu hỏi ngầm khẳng định có tỉnh khác đổi tên vì kiêng tên vua; chưa tra nguồn cho điều này, chủ kênh đã được báo và quyết định giữ |
 
 ### Câu chữ sáng tạo (lời người kể, không thêm dữ kiện)
 | Đoạn | Câu | Kiểu |

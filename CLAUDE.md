@@ -551,3 +551,8 @@ Bài học: kịch bản Claude viết thẳng vào khuôn bộ kiểm (mỗi đ
 - **Ưu tiên hiểu trước, bất ngờ sau:** câu tạo bất ngờ ("Lạ ở chỗ…") chỉ dùng khi người nghe đã nắm được chuyện đang xảy ra.
 - **Kiểm dữ kiện vẫn nghiêm như cũ, kể cả với bản chủ kênh viết:** câu dễ nghe không được thay dữ kiện đúng (bản `tn11` chủ kênh viết có hai chỗ sai về tỉnh Tuyên Đức và Đà Lạt, đã sửa theo tài liệu lưu trữ). Khi sửa bản chủ kênh, giữ nguyên câu chữ và mạch, chỉ đổi chỗ sai dữ kiện hoặc vượt giới hạn bộ kiểm, liệt kê từng chỗ sửa kèm nguồn.
 - **Tự rà trước khi gửi:** đọc liền một mạch từ đầu đến cuối; chỗ nào người nghe phải tự nối hai mốc lại với nhau, chỗ nào một tên mới xuất hiện mà chưa được giới thiệu, thì thêm câu dẫn hoặc câu giới thiệu.
+
+## Kiểm năm trong giọng đọc bằng nhận dạng KHÔNG gợi ý (rút từ tn11, chủ kênh phát hiện 12/11/2026)
+- Bản nhận dạng có gợi ý (`asr_<mã>.json`) chép theo kịch bản nên có thể ghi đúng năm dù giọng đọc sai (tn11 đọc "1958" mà bản có gợi ý vẫn ghi 1951). Năm, số, tên phải so bằng `asr_<mã>_ngoai.json` (không gợi ý) và bản nhận dạng cả cụm; lệch thì coi là đọc sai.
+- Gemini hay đọc sai năm viết bằng chữ (tn11 1951 → 1956/1958, tn12 1010 → 2010, tn15 1909 → 1905). Khi đã sai một lượt: ghi năm đó bằng chữ số trong trường `text` (phụ đề `hien` giữ nguyên), đọc lại cả video, kiểm lại bằng bản không gợi ý.
+- Không chạy đồng thời hai workflow cùng đẩy lên nhánh (giọng và nhận dạng): lượt giọng tn13 từng mất vì bị từ chối đẩy. Không chạy `dung_9x16.py` cho video khác khi đang dựng một video (dùng chung `data.js`).

@@ -108,7 +108,7 @@ Phụ (29 tên thôi làm tên tỉnh từ 1/7/2025, thử 1–2 trước): Hà 
 | 05 | Hải Phòng: góc nhỏ của Hải Dương giờ ôm trọn Hải Dương | tn5 | đã dựng 12/11 (`video/ten-tinh-thanh/tn5_hai_phong.mp4`, bìa `assets/bia/TN5/bia_tn5.png`), đoạn 133001–133015 | | |
 | 06 | Cần Thơ: sông của đàn và thơ, hay sông của cá sặc? | tn6 | kịch bản gửi duyệt (`ke-hoach/tn6-can-tho-gui-duyet.md`, 15 đoạn 134001–134015), chủ kênh cho dựng 12/11; giọng Leda, đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn6_can_tho.mp4` | `assets/bia/TN6/bia_tn6.png` |
 | 07 | Thanh Hóa hay Thanh Hoa, đâu là tên gốc? | tn7 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn7-thanh-hoa-gui-duyet.md`, 15 đoạn 135001–135015), chủ kênh cho dựng 12/11 | | |
-| 08 | Nghệ An: vì sao Hà Tĩnh cũng là xứ Nghệ? | tn8 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn8-nghe-an-gui-duyet.md`, đoạn 136001–136015) | | |
+| 08 | Nghệ An: vì sao Hà Tĩnh cũng là xứ Nghệ? | tn8 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn8-nghe-an-gui-duyet.md`, đoạn 136001–136016) | | |
 | 09 | Quảng Ninh: cái tên ghép do Bác Hồ gợi ý | tn9 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn9-quang-ninh-gui-duyet.md`, đoạn 137001–137013) | | |
 | 10 | Khánh Hòa: ba cái tên trước, và lời chúc trong tên | tn10 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn10-khanh-hoa-gui-duyet.md`, đoạn 138001–138015) | | |
 Các tập sau theo thứ tự đề xuất ở mục trên (mã tn4, tn5…, dải đoạn 131001, 132001…).

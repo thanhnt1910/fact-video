@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #08 Nghệ An (mã tn8)
 
-15 đoạn, 299 chữ, ước tính khoảng 88 giây. Chưa đọc giọng, chưa dựng.
+16 đoạn, 328 chữ, ước tính khoảng 96 giây. Chưa đọc giọng, chưa dựng.
 
 ## Nghệ An: vì sao Hà Tĩnh cũng là xứ Nghệ?
 
@@ -27,11 +27,19 @@
 11. Năm 1976, Nghệ An và Hà Tĩnh nhập lại thành tỉnh Nghệ Tĩnh.
 12. Nhưng đến năm 1991, Quốc hội lại tách Nghệ Tĩnh thành hai tỉnh Nghệ An và Hà Tĩnh.
 13. Năm 2025, khi cả nước sắp xếp lại, cả Nghệ An lẫn Hà Tĩnh đều được giữ nguyên.
-14. Vậy là cái tên Nghệ An đã đi qua gần một nghìn năm. Còn Hà Tĩnh là người em, sinh ra từ chính vùng đất ấy.
-15. Quê bạn mang cái tên ấy đã được bao nhiêu năm rồi?
+14. Mảnh đất ấy còn là quê hương của Chủ tịch Hồ Chí Minh, với làng Sen là quê nội, làng Hoàng Trù là quê ngoại, nơi Bác ra đời.
+15. Vậy là cái tên Nghệ An đã đi qua gần một nghìn năm. Còn Hà Tĩnh là người em, sinh ra từ chính vùng đất ấy.
+16. Quê bạn mang cái tên ấy đã được bao nhiêu năm rồi?
 
 ### Câu trả lời cho câu hỏi của tiêu đề
 Hà Tĩnh nằm trong Nghệ An cho đến năm 1831, khi vua Minh Mạng tách phần phía nam lập tỉnh Hà Tĩnh; 1976–1991 hai tỉnh lại chung tên Nghệ Tĩnh. Vì vậy cả hai vẫn được gọi chung là xứ Nghệ.
+
+### Thay đổi bản 2
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 14 (mới) | (không có) | "Mảnh đất ấy còn là quê hương của Chủ tịch Hồ Chí Minh, với làng Sen là quê nội, làng Hoàng Trù là quê ngoại, nơi Bác ra đời." | Chủ kênh: nói về Nghệ An phải nhắc quê Bác Hồ |
+
+Đoạn cũ 14, 15 thành 15, 16.
 
 ### Câu chữ sáng tạo (lời người kể, không thêm dữ kiện)
 | Đoạn | Câu | Kiểu |
@@ -50,6 +58,9 @@ Không so sánh hai tỉnh, không đùa về người dân.
 - Báo Hà Tĩnh, "Hà Tĩnh thời kỳ nhập tỉnh 1976–1991": Nghị quyết kỳ họp thứ 2 Quốc hội khóa V (27/12/1975), năm 1976 hợp nhất Hà Tĩnh với Nghệ An thành Nghệ Tĩnh. https://baohatinh.vn/ha-tinh-thoi-ky-nhap-tinh-1976-1991-post214285.html
 - Nghị quyết 202/2025/QH15 (Báo Nhân Dân): danh sách 34 tỉnh, thành sau sắp xếp. https://nhandan.vn/quoc-hoi-thong-qua-nghi-quyet-ve-sap-xep-don-vi-hanh-chinh-cap-tinh-ca-nuoc-con-34-tinh-thanh-post886206.html (Nghệ An và Hà Tĩnh giữ nguyên).
 
+- Báo VTC News, "Kinh nghiệm tham quan khu di tích lịch sử Kim Liên": làng Kim Liên (làng Sen) là quê nội của Chủ tịch Hồ Chí Minh; làng Hoàng Trù là quê ngoại và là nơi Bác ra đời. https://vtcnews.vn/kinh-nghiem-tham-quan-khu-di-tich-lich-su-kim-lien-nghe-an-ar880168.html
+- Báo Nhân Dân, "Chuyện về những hướng dẫn viên nơi quê Bác": Khu di tích quốc gia đặc biệt Kim Liên ở Nam Đàn, Nghệ An, quê hương Chủ tịch Hồ Chí Minh. https://special.nhandan.vn/chuyen-ve-nhung-huong-dan-vien-noi-que-Bac/index.html
+
 ### Điểm lệch giữa các nguồn
 - Năm nhập Nghệ Tĩnh: Nghị quyết Quốc hội ký 27/12/1975, hợp nhất thực hiện năm 1976; cổng Hà Tĩnh viết "sau đại thắng mùa Xuân 1975". Lời kể dùng 1976 theo Báo Hà Tĩnh.
 - Nghĩa chữ Nghệ (乂): Vietcetera giải là cai quản; chưa có nguồn thứ hai giải riêng, nên lời kể nói "mang nghĩa cai quản" (đúng nghĩa từ điển của chữ 乂: trị, cai trị).
@@ -57,4 +68,5 @@ Không so sánh hai tỉnh, không đùa về người dân.
 ### Chi tiết đã bỏ
 - Tên Hà Tĩnh ghép từ Hà Hoa với chữ khác: không nguồn nào nói, không kể.
 - Các tên cổ Việt Thường, Cửu Đức, Hoài Hoan: nhiều mốc, bỏ cho gọn.
+- Năm sinh của Bác (1890) và tên xã, huyện sau sắp xếp năm 2025: không cần cho câu chuyện, không đưa vào lời kể để tránh nhầm địa danh hành chính mới.
 - Ngày 12/8/1991: chỉ một nguồn ghi ngày; lời kể chỉ nói năm 1991.

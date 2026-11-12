@@ -44,6 +44,7 @@ Cách giải thích cho dễ hiểu:
 | 12 | Đồng hồ quả lắc (Galileo, Huygens) | `ke-hoach/khoa-hoc-video-12-dong-ho-qua-lac-kich-ban.md` |
 | 13 | Núi cao bao nhiêu khi chưa ai lên tới đỉnh (Ê-vơ-rét, góc ngắm) | `ke-hoach/khoa-hoc-video-13-nui-cao-kich-ban.md` |
 | 14 | Trái Đất bao nhiêu tuổi (đồng hồ nguyên tử trong đá, chu kỳ bán rã) | `ke-hoach/khoa-hoc-video-14-tuoi-trai-dat-kich-ban.md` |
+| 15 | Mặt Trăng xa bao nhiêu (laser, gương Apollo, tốc độ × thời gian ÷ 2) | `ke-hoach/khoa-hoc-video-15-mat-trang-xa-kich-ban.md` |
 
 ## Chưa làm
 

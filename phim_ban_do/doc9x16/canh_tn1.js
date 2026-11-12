@@ -18,7 +18,7 @@ const CROWN=(g)=>{const k=el(g,'g',{});el(k,'path',{d:'M-60 30 L-70 -30 L-30 0 L
 const FORT=(g)=>{const k=el(g,'g',{});const W='#8a7a5a';el(k,'rect',{x:-170,y:-30,width:340,height:120,fill:W,stroke:'#fff','stroke-width':7});for(let i=0;i<9;i++)el(k,'rect',{x:-170+i*40,y:-56,width:26,height:28,fill:W,stroke:'#fff','stroke-width':5});el(k,'path',{d:'M-34 90 L-34 30 Q0 0 34 30 L34 90Z',fill:'#2a1d10',stroke:'#fff','stroke-width':6});el(k,'path',{d:'M-60 -56 L-60 -150 L0 -186 L60 -150 L60 -56',fill:'#a8302a',stroke:'#fff','stroke-width':7,'stroke-linejoin':'round'});return k};
 const SCRL=(g,w=380,h=300)=>{const k=el(g,'g',{});el(k,'rect',{x:-w/2,y:-h/2,width:w,height:h,rx:12,fill:'#e8dcba',stroke:OLN,'stroke-width':7});for(const x of[-w/2,w/2])el(k,'rect',{x:x-16,y:-h/2-10,width:32,height:h+20,rx:14,fill:'#9a6a3a',stroke:OLN,'stroke-width':6});for(let i=0;i<5;i++)el(k,'rect',{x:-w/2+44,y:-h/2+40+i*46,width:w-88-(i%2)*60,height:12,rx:6,fill:'rgba(60,40,20,.35)'});return k};
 // ----- bản đồ hành chính phẳng
-const KYP=1.0861;const PAL=['#c9a96a','#b9945a','#d4b57a','#a9875a','#c2a06a','#bfa16f'];
+const KYP=1.0861;const PAL=['#8d7a5c','#7f6d52','#968263','#857257','#9a8667','#7a684e'];
 const rpath=(ring)=>'M'+ring.map(p=>p[0]+' '+(-p[1]*KYP).toFixed(3)).join('L')+'Z';
 function vnmap(w,h,seed=3){const g=mk();const id='vm'+(CID++);const o={g,w,h};
  const shg=el(g,'g',{filter:'url(#sh)'});el(shg,'rect',{x:-w/2-10,y:-h/2-10,width:w+20,height:h+20,rx:26,fill:'#e9dfc4'});
@@ -32,14 +32,14 @@ function vnmap(w,h,seed=3){const g=mk();const id='vm'+(CID++);const o={g,w,h};
  o.view=(clon,clat,ppd)=>{o.st={clon,clat,ppd};inner.setAttribute('transform',`translate(${(-clon*ppd).toFixed(2)},${(clat*KYP*ppd).toFixed(2)}) scale(${ppd})`)};
  o.P=(lon,lat)=>[(lon-o.st.clon)*o.st.ppd,(o.st.clat-lat)*o.st.ppd*KYP];
  o.at=(x,y,rot=0,sc=1,op=1)=>{g.setAttribute('transform',`translate(${x},${y}) rotate(${rot}) scale(${sc})`);g.setAttribute('opacity',op)};
- o.hi=(n,u,col=CGOLD)=>{const e=prov[n];if(!e)return;e.setAttribute('fill',u>0?col:PAL[TINH34.findIndex(p=>p.n==n)%PAL.length]);e.setAttribute('fill-opacity',u>0?.55+.45*u:1)};
+ o.hi=(n,u,col='#f2c14e')=>{const e=prov[n];if(!e)return;e.setAttribute('fill',u>0?col:PAL[TINH34.findIndex(p=>p.n==n)%PAL.length]);e.setAttribute('fill-opacity',u>0?.55+.45*u:1)};
  o.line=(pts,col=RIV,wd=6,dash)=>{const d='M'+pts.map(p=>p[0]+' '+(-p[1]*KYP).toFixed(3)).join('L');const e=el(o.riv,'path',{d,fill:'none',stroke:col,'stroke-width':wd,'vector-effect':'non-scaling-stroke','stroke-linecap':'round','stroke-linejoin':'round',pathLength:1,'stroke-dasharray':dash||'1 1','stroke-dashoffset':1});return u=>{e.setAttribute('stroke-dashoffset',1-cl(u));e.setAttribute('opacity',u>0?1:0)}};
  o.view(106,16,60);return o}
 // Hoàng Sa, Trường Sa: nhãn theo tọa độ thật (đảo đã có trong dữ liệu Đà Nẵng, Khánh Hòa)
-function hsts(m){const L=el(m.top,'g',{});const a=MLB(L,'QUẦN ĐẢO HOÀNG SA',22,'#fff'),a2=MLB(L,'(VIỆT NAM)',22,'#f2c14e');const b=MLB(L,'QUẦN ĐẢO TRƯỜNG SA',22,'#fff'),b2=MLB(L,'(VIỆT NAM)',22,'#f2c14e');
+function hsts(m){const L=el(m.top,'g',{});const a=MLB(L,'QĐ. HOÀNG SA',20,'#fff'),a2=MLB(L,'(VIỆT NAM)',20,'#f2c14e');const b=MLB(L,'QĐ. TRƯỜNG SA',20,'#fff'),b2=MLB(L,'(VIỆT NAM)',20,'#f2c14e');[a,a2,b,b2].forEach(e=>e.setAttribute('text-anchor','end'));
  const dots=[[111.6,16.5],[112.3,16.6],[111.2,16.0],[112.0,16.1]].map(()=>el(L,'circle',{r:5,fill:'#fff6d0',stroke:OLN,'stroke-width':2}));const dt=[[114.3,10.4],[114.5,11.4],[113.9,9.9],[115.0,10.8]].map(()=>el(L,'circle',{r:5,fill:'#fff6d0',stroke:OLN,'stroke-width':2}));
  return op=>{const H=[[111.6,16.5],[112.3,16.6],[111.2,16.0],[112.0,16.1]],S=[[114.3,10.4],[114.5,11.4],[113.9,9.9],[115.0,10.8]];H.forEach((p,i)=>{const[x,y]=m.P(...p);dots[i].setAttribute('cx',x);dots[i].setAttribute('cy',y)});S.forEach((p,i)=>{const[x,y]=m.P(...p);dt[i].setAttribute('cx',x);dt[i].setAttribute('cy',y)});
-  const[hx,hy]=m.P(111.8,16.4),[sx2,sy]=m.P(114.4,10.6);a.setAttribute('x',hx);a.setAttribute('y',hy-44);a2.setAttribute('x',hx);a2.setAttribute('y',hy-18);b.setAttribute('x',sx2-10);b.setAttribute('y',sy-44);b2.setAttribute('x',sx2-10);b2.setAttribute('y',sy-18);L.setAttribute('opacity',op)}}
+  const[hx,hy]=m.P(111.1,16.3),[sx2,sy]=m.P(113.8,10.5);a.setAttribute('x',hx);a.setAttribute('y',hy-4);a2.setAttribute('x',hx);a2.setAttribute('y',hy+20);b.setAttribute('x',sx2);b.setAttribute('y',sy-4);b2.setAttribute('x',sx2);b2.setAttribute('y',sy+20);L.setAttribute('opacity',op)}}
 const HN=[105.82,21.03],HUE=[107.58,16.46],KB=[105.87,20.56],DT=[105.97,20.63];
 const SHONG=[[105.42,21.3],[105.55,21.2],[105.684,21.15],[105.782,21.1],[105.847,21.05],[105.893,21.0],[105.887,20.95],[105.904,20.9],[105.91,20.85],[105.929,20.8],[105.964,20.75],[106.025,20.7],[106.031,20.65],[106.125,20.6],[106.162,20.55],[106.177,20.5],[106.213,20.45],[106.271,20.4],[106.288,20.35],[106.432,20.3]];
 const SDAY=[[105.40,21.13],[105.58,21.06],[105.66,20.98],[105.71,20.90],[105.74,20.78],[105.77,20.68],[105.84,20.60],[105.91,20.54],[105.96,20.42],[105.99,20.33]];
@@ -56,11 +56,11 @@ const SDAY=[[105.40,21.13],[105.58,21.06],[105.66,20.98],[105.71,20.90],[105.74,
 }
 // ===== CẢNH
 // 1 hook: cả nước, Hà Nội sáng lên, "chưa đầy 200 tuổi", ông vua nhà Nguyễn
-S2(1,1,'d',null,g=>{const m=vnmap(560,820,11);const hs=hsts(m);const rg=RINGS(m.top,CGOLD);const A=strip('HÀ NỘI',true,120,12);const st=stamp('CHƯA ĐẦY 200 TUỔI',58);const k=fig(g,{hat:CGOLD});const q=T(g,0,0,'?',150,CRED,12,'middle',OLN);const B=strip('DO MỘT ÔNG VUA NHÀ NGUYỄN ĐẶT',false,36,13);
+S2(1,1,'d',null,g=>{const m=vnmap(620,920,11);const hs=hsts(m);const rg=RINGS(m.top,CGOLD);const A=strip('HÀ NỘI',true,120,12);const st=stamp('CHƯA ĐẦY 200 TUỔI',40);const k=fig(g,{hat:CGOLD});const q=T(g,0,0,'?',150,CRED,12,'middle',OLN);const B=strip('DO MỘT ÔNG VUA NHÀ NGUYỄN ĐẶT',false,36,13);
  bm(AT(1,'chưa',2.0));
- return{upd:t=>{const e=inn(t,R(1)-.2,.5);m.at(330,690,-1,1,e);m.view(108.6,15.9,40+6*inn(t,R(1),E(1)-R(1)));hs(e);m.hi('Hà Nội',inn(t,R(1)+.3,.5));const[x,y]=m.P(...HN);RU(rg,t,90,x,y,inn(t,R(1)+.3,.5));
-  sh(A,t,800,470,-3,popv(t,R(1)+.3,.55));const su=popv(t,AT(1,'chưa',2.0),.45);st.at(800,640,-7,su,su>0?1:0);
-  k.at(820,1180,.6,Math.sin(t*2)*2,inn(t,AT(1,'vua',3.6),.4));PUT(q,820,920,popv(t,AT(1,'vua',3.6)+.2,.5),1,Math.sin(t*3)*6);sh(B,t,540,1230,1,PV(t,1,'vua',3.6,.1))}}});
+ return{upd:t=>{const e=inn(t,R(1)-.2,.5);m.at(350,740,-1,1,e);m.view(108.7,15.9,44+5*inn(t,R(1),E(1)-R(1)));hs(e);m.hi('Hà Nội',inn(t,R(1)+.3,.5));const[x,y]=m.P(...HN);RU(rg,t,90,x,y,inn(t,R(1)+.3,.5));
+  sh(A,t,820,420,-3,popv(t,R(1)+.3,.55));const su=popv(t,AT(1,'chưa',2.0),.45);st.at(820,600,-7,su,su>0?1:0);
+  k.at(860,1080,.6,Math.sin(t*2)*2,inn(t,AT(1,'vua',3.6),.4));PUT(q,860,800,popv(t,AT(1,'vua',3.6)+.2,.5),1,Math.sin(t*3)*6);sh(B,t,540,1230,1,PV(t,1,'vua',3.6,.1))}}});
 // 2 trục thời gian: phần lớn nghìn năm là Thăng Long
 S2(2,2,'p',null,g=>{const A=strip('NGHÌN NĂM THĂNG LONG – HÀ NỘI',false,40,21);const X0=110,X1=970,Y=760,f=(1831-1010)/(2026-1010);const XM=X0+(X1-X0)*f;
  const bg=el(g,'rect',{x:X0,y:Y-40,width:X1-X0,height:80,rx:16,fill:'rgba(0,0,0,.12)',stroke:OLN,'stroke-width':5});const b1=el(g,'rect',{x:X0,y:Y-40,width:0,height:80,rx:14,fill:CGOLD,stroke:OLN,'stroke-width':5});const b2=el(g,'rect',{x:XM,y:Y-40,width:0,height:80,rx:14,fill:CRED,stroke:OLN,'stroke-width':5});
@@ -74,13 +74,13 @@ S2(3,3,'d',null,g=>{const c1=HAN(g,'昇',230),c2=HAN(g,'龍',230);const dr=DRAGO
  return{upd:t=>{PUT(c1,350,470,popv(t,R(3)+.1,.55),1,-3);PUT(c2,730,470,popv(t,R(3)+.35,.55),1,3);sh(A,t,350,700,-2,PV(t,3,'bay',1.4));sh(B,t,730,700,2,PV(t,3,'rồng',1.8));
   const du=inn(t,AT(3,'rồng',1.8),2.4);PUT(dr,lerp(-200,560,du),lerp(1180,960,du)+Math.sin(t*3)*14,du>0?1:0,1,-8+Math.sin(t*2)*4);PUT(cr,860,860,popv(t,AT(3,'biểu',3.4),.5),1,Math.sin(t*2)*4);sh(C,t,540,1180,-1,PV(t,3,'biểu',3.4))}}});
 // 4 nhà Nguyễn đóng đô ở Huế; Thăng Long thành tòa thành cai quản miền Bắc (bản đồ rộng, có Hoàng Sa, Trường Sa)
-S2(4,4,'p',null,g=>{const m=vnmap(1000,1090,41);const hs=hsts(m);const pa=el(m.top,'path',{fill:'none',stroke:CRED,'stroke-width':7,'stroke-dasharray':'14 12','stroke-linecap':'round'});const cr=CROWN(m.top);const rh=RINGS(m.top,CRED),rt=RINGS(m.top,CGOLD);
+S2(4,4,'p',null,g=>{const m=vnmap(1000,980,41);const hs=hsts(m);const pa=el(m.top,'path',{fill:'none',stroke:CRED,'stroke-width':7,'stroke-dasharray':'14 12','stroke-linecap':'round'});const cr=CROWN(m.top);const rh=RINGS(m.top,CRED),rt=RINGS(m.top,CGOLD);
  const A=strip('KINH ĐÔ: HUẾ',true,38,41),B=strip('THĂNG LONG',false,34,42),C=strip('TÒA THÀNH CAI QUẢN MIỀN BẮC',false,28,43);
- return{upd:t=>{const e=inn(t,R(4)-.2,.5);m.at(540,745,0,1,e);m.view(108.4,15.95,62+6*inn(t,R(4),E(4)-R(4)));hs(e);
+ return{upd:t=>{const e=inn(t,R(4)-.2,.5);m.at(540,800,0,1,e);m.view(108.4,16.1,58+5*inn(t,R(4),E(4)-R(4)));hs(e);
   const[x0,y0]=m.P(...HN),[x1,y1]=m.P(...HUE);const u=inn(t,AT(4,'chọn',1.4),1.4);const mx=(x0+x1)/2+90,my=(y0+y1)/2;pa.setAttribute('d',`M${x0} ${y0} Q${mx} ${my} ${lerp(x0,x1,u)} ${lerp(y0,y1,u)}`);pa.setAttribute('opacity',u>0?1:0);
   const cx=lerp(lerp(x0,mx,u),lerp(mx,x1,u),u),cy=lerp(lerp(y0,my,u),lerp(my,y1,u),u);PUT(cr,cx,cy-46,inn(t,AT(4,'chọn',1.4)-.2,.3),.6,Math.sin(t*3)*5);
   RU(rt,t,60,x0,y0,e);RU(rh,t,70,x1,y1,inn(t,AT(4,'Huế',2.2),.4));m.hi('Hà Nội',e*(.5+.5*inn(t,AT(4,'Thăng',3.4),.4)));m.hi('Huế',inn(t,AT(4,'Huế',2.2),.5),CRED);
-  sh(A,t,540+x1+120,745+y1+70,-2,PV(t,4,'Huế',2.2,.2));sh(B,t,540+x0,745+y0-80,2,inn(t,R(4)+.2,.4)*(1-inn(t,AT(4,'Thăng',3.4),.3)));sh(C,t,540+x0+190,745+y0-80,-1,PV(t,4,'Thăng',3.4))}}});
+  sh(A,t,540+x1-150,800+y1+70,-2,PV(t,4,'Huế',2.2,.2));sh(B,t,540+x0,800+y0-70,2,inn(t,R(4)+.2,.4)*(1-inn(t,AT(4,'Thăng',3.4),.3)));sh(C,t,540+x0+200,800+y0-70,-1,PV(t,4,'Thăng',3.4))}}});
 // 5 năm 1805: đổi chữ Long rồng thành Long thịnh vượng
 S2(5,5,'p',t=>'1805',g=>{const bk=el(g,'g',{});el(bk,'rect',{x:-150,y:-110,width:300,height:220,rx:12,fill:'#2f4a6a',stroke:'#fff','stroke-width':7});el(bk,'rect',{x:-150,y:-110,width:30,height:220,fill:'rgba(0,0,0,.3)'});const bt=MLB(bk,'LỊCH SỬ',30,'#f2c14e');bt.setAttribute('y',-20);const bt2=MLB(bk,'THỦ ĐÔ HÀ NỘI',26,'#fff');bt2.setAttribute('y',24);
  const c1=HAN(g,'龍',250,'#f3ead4'),c2=HAN(g,'隆',250);const x1=XX(g),k1=CK(g);const ar=el(g,'path',{d:'M470 760 L600 760 M570 728 L604 760 L570 792',fill:'none',stroke:OLN,'stroke-width':14,'stroke-linecap':'round','stroke-linejoin':'round'});
@@ -109,24 +109,24 @@ S2(9,9,'d',null,g=>{const c1=HAN(g,'河',260),c2=HAN(g,'內',260);const q=T(g,0,
   const wu=inn(t,AT(9,'sông',1.8),.5);wv.forEach((e,i)=>{let d='';for(let x=170;x<=430;x+=12)d+=(x==170?'M':'L')+x+' '+(780+i*26+Math.sin(x*.05+t*4+i)*9).toFixed(1);e.setAttribute('d',d);e.setAttribute('opacity',wu*(1-ms))});
   PUT(bx,780,800,inn(t,AT(9,'bên',2.6),.4)*(1-ms),1,0);PUT(dt,780,800,popv(t,AT(9,'bên',2.6)+.2,.4)*(1-ms),1,0);sh(A,t,300,940,-2,PV(t,9,'sông',1.8)*(1-ms));sh(B,t,780,940,2,PV(t,9,'bên',2.6)*(1-ms));sh(C,t,540,880,-1,popv(t,tc,.5))}}});
 // 10-12 bản đồ gần: sông Hồng, sông Đáy, tên cả một tỉnh, Kim Bảng và Duy Tiên nằm ngoài Hà Nội ngày nay
-S2(10,12,'p',null,g=>{const m=vnmap(980,1010,101);const fH=m.line(SHONG,RIV,7),fD=m.line(SDAY,RIV,6);const rt=RINGS(m.top,CGOLD),rk=RINGS(m.top,CRED,2),rd=RINGS(m.top,CRED,2);
+S2(10,12,'p',null,g=>{const m=vnmap(980,960,101);const fH=m.line(SHONG,RIV,7),fD=m.line(SDAY,RIV,6);const rt=RINGS(m.top,CGOLD),rk=RINGS(m.top,CRED,2),rd=RINGS(m.top,CRED,2);
  const LH=strip('SÔNG HỒNG · PHÍA ĐÔNG',false,28,101),LD=strip('SÔNG ĐÁY · PHÍA TÂY',false,28,102),TL=MLB(m.top,'THĂNG LONG',30,'#fff'),BIG=strip('TỈNH HÀ NỘI NĂM 1831',true,40,103),PH=strip('THĂNG LONG CHỈ LÀ MỘT PHẦN',false,30,104);
  const pk=el(m.top,'circle',{r:13,fill:CRED,stroke:'#fff','stroke-width':4}),pd=el(m.top,'circle',{r:13,fill:CRED,stroke:'#fff','stroke-width':4}),pt=el(m.top,'circle',{r:14,fill:CGOLD,stroke:'#fff','stroke-width':4});const LK=MLB(m.top,'KIM BẢNG',28,'#fff'),LDT=MLB(m.top,'DUY TIÊN',28,'#fff');
  const NOW=strip('RANH GIỚI HÀ NỘI NGÀY NAY',false,24,105),NT=strip('VỊ TRÍ SÔNG VÀ ĐỊA DANH GẦN ĐÚNG',false,20,106),J1=strip('NGƯỜI KIM BẢNG',true,40,107),J2=strip('CŨNG LÀ NGƯỜI HÀ NỘI (1831)',false,34,108);const ck=CK(g);
  const tj=AT(12,'Tính',5.0);bm(tj,true);
- return{upd:t=>{const e=inn(t,R(10)-.2,.5);m.at(540,710,0,1,e);const zz=inn(t,R(12)-.3,1.2);m.view(lerp(105.72,105.8,zz),lerp(20.95,20.85,zz),lerp(720,780,inn(t,R(10),E(12)-R(10))));
+ return{upd:t=>{const e=inn(t,R(10)-.2,.5);m.at(540,790,0,1,e);const zz=inn(t,R(12)-.3,1.2);m.view(lerp(105.72,105.8,zz),lerp(20.95,20.85,zz),lerp(720,780,inn(t,R(10),E(12)-R(10))));
   m.hi('Hà Nội',e*.7,CGOLD);fH(inn(t,AT(10,'Hồng',2.4),1.4));fD(inn(t,AT(10,'Đáy',4.2),1.2));
   const[hx,hy]=m.P(...HN);pt.setAttribute('cx',hx);pt.setAttribute('cy',hy);RU(rt,t,50,hx,hy,e);TL.setAttribute('x',hx);TL.setAttribute('y',hy-30);
-  sh(LH,t,770,500,-2,PV(t,10,'Hồng',2.4));sh(LD,t,300,560,2,PV(t,10,'Đáy',4.2));sh(NOW,t,300,1170,0,inn(t,R(10)+.4,.4));
-  sh(BIG,t,560,330,-1,PV(t,11,'tỉnh',1.2)*(1-inn(t,R(12)+.2,.3)));sh(PH,t,560,420,1,PV(t,11,'phần',4.6)*(1-inn(t,R(12)+.2,.3)));const sk=1-.35*inn(t,AT(11,'phần',4.6),.5);pt.setAttribute('r',14*sk);
+  const f12=1-inn(t,R(12)+.1,.4);sh(LH,t,770,560,-2,PV(t,10,'Hồng',2.4)*f12);sh(LD,t,300,620,2,PV(t,10,'Đáy',4.2)*f12);TL.setAttribute('opacity',f12);sh(NOW,t,300,1235,0,inn(t,R(10)+.4,.4));
+  sh(BIG,t,560,380,-1,PV(t,11,'tỉnh',1.2)*(1-inn(t,R(12)+.2,.3)));sh(PH,t,560,465,1,PV(t,11,'phần',4.6)*(1-inn(t,R(12)+.2,.3)));const sk=1-.35*inn(t,AT(11,'phần',4.6),.5);pt.setAttribute('r',14*sk);
   const[kx,ky]=m.P(...KB),[dx,dy]=m.P(...DT);const uk=popv(t,AT(12,'Kim',2.6),.4),ud=popv(t,AT(12,'Duy',1.9),.4);pk.setAttribute('cx',kx);pk.setAttribute('cy',ky);pk.setAttribute('opacity',uk>0?1:0);pd.setAttribute('cx',dx);pd.setAttribute('cy',dy);pd.setAttribute('opacity',ud>0?1:0);
   RU(rk,t,40,kx,ky,uk>0?1:0);RU(rd,t,40,dx,dy,ud>0?1:0);LK.setAttribute('x',kx-70);LK.setAttribute('y',ky+48);LK.setAttribute('opacity',uk>0?1:0);LDT.setAttribute('x',dx+70);LDT.setAttribute('y',dy+48);LDT.setAttribute('opacity',ud>0?1:0);
-  sh(J1,t,540,300,-2,popv(t,tj,.5));sh(J2,t,540,385,1,popv(t,tj+.25,.5));PUT(ck,880,330,popv(t,tj+.5,.4),.8,0);sh(NT,t,700,1170,0,inn(t,R(12),.4))}}});
+  sh(J1,t,540,370,-2,popv(t,tj,.5));sh(J2,t,540,450,1,popv(t,tj+.25,.5));PUT(ck,900,390,popv(t,tj+.5,.4),.8,0);sh(NT,t,720,1235,0,inn(t,R(12),.4))}}});
 // 13 năm 1946: Hiến pháp đầu tiên, "Thủ đô đặt ở Hà Nội" (văn bản vẽ minh họa)
 S2(13,13,'p',t=>'1946',g=>{const dc=el(g,'g',{});el(dc,'rect',{x:-300,y:-380,width:600,height:760,rx:10,fill:'#fbf6e8',stroke:OLN,'stroke-width':7});const h1=MLB(dc,'HIẾN PHÁP',58,CRED,'#fbf6e8');h1.setAttribute('y',-280);const h2=MLB(dc,'NĂM 1946',38,OLN,'#fbf6e8');h2.setAttribute('y',-220);
  for(let i=0;i<9;i++)if(i!=5)el(dc,'rect',{x:-240,y:-160+i*52,width:480-(i%3)*70,height:14,rx:7,fill:'rgba(40,30,20,.25)'});const hlr=el(dc,'rect',{x:-260,y:-160+5*52-34,width:0,height:62,rx:10,fill:CGOLD});const ht=MLB(dc,'THỦ ĐÔ ĐẶT Ở HÀ NỘI',36,OLN,CGOLD);ht.setAttribute('y',-160+5*52+12);
  const mh=strip('HÌNH MINH HỌA',false,20,131),A=strip('BẢN HIẾN PHÁP ĐẦU TIÊN',true,40,132);const ck=CK(g);const tq=AT(13,'Thủ',5.0);bm(tq);
- return{upd:t=>{PUT(dc,540,720,popv(t,R(13)+.1,.55),1,-2+Math.sin(t*1.4)*1);sh(A,t,540,240+70,2,PV(t,13,'Hiến',1.6));const u=inn(t,tq,.6);hlr.setAttribute('width',520*u);ht.setAttribute('opacity',u);PUT(ck,800,960,popv(t,tq+.5,.4),1,0);sh(mh,t,540,1140,0,inn(t,R(13)+.4,.4))}}});
+ return{upd:t=>{PUT(dc,540,700,popv(t,R(13)+.1,.55),1,-2+Math.sin(t*1.4)*1);sh(A,t,540,1160,2,PV(t,13,'Hiến',1.6));const u=inn(t,tq,.6);hlr.setAttribute('width',520*u);ht.setAttribute('opacity',u);PUT(ck,800,960,popv(t,tq+.5,.4),1,0);sh(mh,t,820,1240,0,inn(t,R(13)+.4,.4))}}});
 // 14 tên một tỉnh thành tên thủ đô, gọi đến hôm nay (bản đồ cả nước, có Hoàng Sa, Trường Sa)
 S2(14,14,'d',null,g=>{const m=vnmap(600,880,141);const hs=hsts(m);const rg=RINGS(m.top,CGOLD);const st=el(m.top,'path',{d:'M0 -26 L7 -8 L26 -8 L11 4 L17 23 L0 12 L-17 23 L-11 4 L-26 -8 L-7 -8Z',fill:'#ffd34d',stroke:OLN,'stroke-width':3});
  const A=strip('TÊN MỘT TỈNH',false,40,141),Y=strip('1831',false,34,142),B=strip('TÊN THỦ ĐÔ',true,52,143),C=strip('ĐẾN TẬN HÔM NAY',false,34,144);const ar=el(g,'path',{d:'M840 560 L840 660 M806 630 L840 664 L874 630',fill:'none',stroke:'#fff','stroke-width':12,'stroke-linecap':'round','stroke-linejoin':'round'});

@@ -16,6 +16,7 @@ Q9 = C['diem']
 SX = SY = C.get('scale', 0.50); LON0 = C.get('lon0', 105.2)
 ox = -(LON0-102)*239.4*SX; oy = C.get('oy', -640)
 dots = ''.join(f'<g transform="translate({(lo-102)*239.4*SX+ox:.0f},{(30.5-la)*260*SY+oy:.0f})"><circle r="46" fill="url(#g)"/><circle r="24" fill="none" stroke="#ffd45a" stroke-width="3" opacity=".8"/><circle r="13" fill="#fff6d6" stroke="#e8a317" stroke-width="5"/></g>' for lo, la in Q9)
+NEN = C['nen_svg'] if C.get('nen_svg') else f'<img class=map src="file://{R}/phim_ban_do/doc9x16/map_relief.jpg">'
 html = f'''<!doctype html><meta charset=utf-8><style>
 @font-face{{font-family:A;src:url(file://{F}/Anton-Regular.ttf)}}
 @font-face{{font-family:O;font-weight:200 700;src:url(file://{F}/Oswald.ttf)}}
@@ -34,7 +35,7 @@ html = f'''<!doctype html><meta charset=utf-8><style>
 .pill{{position:absolute;display:inline-block;font-family:B;color:#fff;letter-spacing:1px;border:3px solid #f2c14e;background:linear-gradient(180deg,#c3201a,#85100b);box-shadow:0 6px 22px rgba(0,0,0,.55);white-space:nowrap}}
 .rule{{position:absolute;height:5px;background:linear-gradient(90deg,transparent,#f2c14e 20%,#fff2a8 50%,#f2c14e 80%,transparent)}}
 </style><body>
-<img class=map src="file://{R}/phim_ban_do/doc9x16/map_relief.jpg">
+{NEN}
 <div class=sh></div>
 <svg style="position:absolute;left:0;top:0" width=1080 height=1920><defs><radialGradient id=g><stop offset="0" stop-color="#ff7a2a" stop-opacity=".95"/><stop offset=".45" stop-color="#ff4a1a" stop-opacity=".45"/><stop offset="1" stop-color="#ff3b1a" stop-opacity="0"/></radialGradient></defs>{dots}</svg>
 <div class=pill style="left:36px;top:70px;font-size:70px;padding:12px 40px 8px;border-radius:14px;font-family:A;letter-spacing:3px">{C["the_nam"]}</div>

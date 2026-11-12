@@ -95,5 +95,13 @@ Chủ kênh muốn phần cơ chế hoạt động (không chỉ câu chuyện t
 - 12/11/2026 11:15, chủ kênh nói rõ: bỏ "Sài Gòn đổi tên" (xk23t) ngày 11/11 là vì kịch bản đó không hợp, KHÔNG phải cấm chủ đề. Loạt tên tỉnh thành (tên loạt "Tên tỉnh thành", chủ kênh chọn 12/11) ĐƯỢC làm TP Hồ Chí Minh và Sài Gòn. Khi làm: dùng văn bản gốc (nghị quyết, sử liệu có số quyển), ít nhất hai nguồn độc lập cho mỗi mốc, giọng trung lập, không bình luận chính trị; không dùng lại kịch bản xk23t.
 
 ## Loạt "Tên tỉnh thành": thứ tự đề xuất (12/11/2026, CHƯA duyệt)
-Chính (34 tên hiện nay): 1 Hà Nội (đã dựng tn1) · 2 TP Hồ Chí Minh / Sài Gòn · 3 Huế · 4 Đà Nẵng · 5 Hải Phòng · 6 Cần Thơ · 7 Thanh Hóa · 8 Nghệ An · 9 Quảng Ninh · 10 Khánh Hòa · 11 Lâm Đồng · 12 Ninh Bình · 13 Bắc Ninh · 14 An Giang · 15 Điện Biên · 16 Lạng Sơn · 17 Cà Mau · 18 Đồng Nai · 19 Quảng Trị · 20 Hà Tĩnh · 21 Thái Nguyên · 22 Phú Thọ · 23 Hưng Yên · 24 Quảng Ngãi · 25 Gia Lai · 26 Đắk Lắk · 27 Tây Ninh · 28 Vĩnh Long · 29 Đồng Tháp · 30 Cao Bằng · 31 Lào Cai · 32 Tuyên Quang · 33 Sơn La · 34 Lai Châu.
+Chính (34 tên hiện nay): 1 Hà Nội (đã dựng tn1) · 2 TP Hồ Chí Minh (đã dựng tn2) · 3 Huế · 4 Đà Nẵng · 5 Hải Phòng · 6 Cần Thơ · 7 Thanh Hóa · 8 Nghệ An · 9 Quảng Ninh · 10 Khánh Hòa · 11 Lâm Đồng · 12 Ninh Bình · 13 Bắc Ninh · 14 An Giang · 15 Điện Biên · 16 Lạng Sơn · 17 Cà Mau · 18 Đồng Nai · 19 Quảng Trị · 20 Hà Tĩnh · 21 Thái Nguyên · 22 Phú Thọ · 23 Hưng Yên · 24 Quảng Ngãi · 25 Gia Lai · 26 Đắk Lắk · 27 Tây Ninh · 28 Vĩnh Long · 29 Đồng Tháp · 30 Cao Bằng · 31 Lào Cai · 32 Tuyên Quang · 33 Sơn La · 34 Lai Châu.
 Phụ (29 tên thôi làm tên tỉnh từ 1/7/2025, thử 1–2 trước): Hà Giang, Yên Bái, Bắc Kạn, Vĩnh Phúc, Hòa Bình, Bắc Giang, Thái Bình, Hải Dương, Hà Nam, Nam Định, Quảng Bình, Quảng Nam, Kon Tum, Bình Định, Ninh Thuận, Đắk Nông, Bình Thuận, Phú Yên, Bà Rịa – Vũng Tàu, Bình Dương, Bình Phước, Long An, Sóc Trăng, Hậu Giang, Bến Tre, Trà Vinh, Tiền Giang, Bạc Liêu, Kiên Giang.
+
+## Loạt "Tên tỉnh thành": trạng thái từng tập (cập nhật 12/11/2026)
+| # | Chủ đề | Mã | Trạng thái | Video | Ảnh bìa |
+|---|---|---|---|---|---|
+| 01 | Hà Nội: tên do ai đặt, nghĩa là gì | tn1 | kịch bản duyệt, đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn1_ha_noi.mp4` | `assets/bia/TN1/bia_tn1.png` |
+| 02 | TP Hồ Chí Minh: cái tên Sài Gòn dọn nhà | tn2 | kịch bản duyệt (sửa 2 lần), đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn2_tp_ho_chi_minh.mp4` | `assets/bia/TN2/bia_tn2.png` |
+| 03 | Huế | tn3 | chưa viết | | |
+Các tập sau theo thứ tự đề xuất ở mục trên (mã tn4, tn5…, dải đoạn 131001, 132001…).

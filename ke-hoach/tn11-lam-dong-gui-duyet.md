@@ -88,3 +88,7 @@ Bản đồ 34 tỉnh, tô Lâm Đồng; chấm Đà Lạt, Di Linh, Bảo Lộc
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Có gần 20 năm, Đà Lạt không thuộc Lâm Đồng?
 - Hashtag: #NguoiGacSu #TenTinhThanh #LamDong #DaLat #LangBiang #LichSuVietNam #TenGoi
+
+
+### Sửa kỹ thuật giọng đọc 12/11
+- Đoạn 5: trường đọc giọng (`text`) ghi năm bằng chữ số "1951" thay cho "một nghìn chín trăm năm mươi mốt"; lời kể và phụ đề không đổi. Lý do: Gemini đọc sai năm này ba lượt liền (1956, bỏ câu, 1958); chủ kênh phát hiện bản đã giao đọc 1958.

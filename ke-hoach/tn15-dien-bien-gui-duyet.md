@@ -81,3 +81,6 @@ Bản đồ 34 tỉnh, tô Điện Biên (ranh giới hiện nay); khung tỉnh 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Thị xã Lai Châu từng nằm trong tỉnh Điện Biên?
 - Hashtag: #NguoiGacSu #TenTinhThanh #DienBien #LaiChau #MuongLay #LichSuVietNam #TenGoi
+
+### Sửa kỹ thuật giọng đọc 12/11
+- Đoạn 6: trường đọc giọng (`text`) ghi năm bằng chữ số "1909"; lời kể và phụ đề không đổi. Lý do: nhận dạng không gợi ý nghe lượt đọc đầu là "1905".

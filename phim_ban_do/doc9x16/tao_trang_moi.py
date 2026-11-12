@@ -5,8 +5,9 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03'}.get(KEY,'#00')
-CFG={'tn3':(131000,'=Nguồn: Đại Việt sử ký toàn thư, từ điển A. de Rhodes (1651), NQ 175/2024/QH15',''),
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04'}.get(KEY,'#00')
+CFG={'tn4':(132000,'=Nguồn: Tạp chí ĐH Đà Nẵng, Báo Pháp luật VN, NQ 202/2025/QH15',''),
+     'tn3':(131000,'=Nguồn: Đại Việt sử ký toàn thư, từ điển A. de Rhodes (1651), NQ 175/2024/QH15',''),
      'tn2':(130000,'=Nguồn: Trương Vĩnh Ký (1885), Đại Nam quốc âm tự vị, NQ 1685/NQ-UBTVQH15',''),
      'tn1':(129000,'=Nguồn: Đại Nam thực lục, Lịch sử Thủ đô Hà Nội (1960), Hiến pháp 1946',''),
      7:(60000,'Wikimedia Commons (CC BY / phạm vi công cộng)','katiebordner, Bex Walton, J. Hałun (CC BY) · E. Gsell'),

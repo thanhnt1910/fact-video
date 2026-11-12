@@ -1,0 +1,16 @@
+{
+ "the_nam": "THỜI PHÁP THUỘC",
+ "the_trieu": "TỪNG MANG TÊN KHÁC",
+ "d1": "ĐÀ NẴNG",
+ "d2": "TÊN TÂY?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #04",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#0f2626\"/>\n<g fill=\"none\" stroke=\"rgba(224,166,60,.08)\" stroke-width=\"2\"><ellipse cx=\"540\" cy=\"620\" rx=\"120\" ry=\"80\"/><ellipse cx=\"540\" cy=\"620\" rx=\"240\" ry=\"160\"/><ellipse cx=\"540\" cy=\"620\" rx=\"360\" ry=\"240\"/><ellipse cx=\"540\" cy=\"620\" rx=\"480\" ry=\"320\"/><ellipse cx=\"540\" cy=\"620\" rx=\"600\" ry=\"400\"/><ellipse cx=\"540\" cy=\"620\" rx=\"720\" ry=\"480\"/><ellipse cx=\"540\" cy=\"620\" rx=\"840\" ry=\"560\"/></g>\n<g fill=\"none\" stroke=\"rgba(224,166,60,.20)\" stroke-width=\"6\" stroke-linejoin=\"round\"><path d=\"M560 960 L620 820 L670 900 L730 760 L790 880 L830 820 L900 960\"/></g>\n<g transform=\"translate(300,520)\"><rect x=\"-8\" y=\"0\" width=\"16\" height=\"300\" fill=\"#9aa3ab\" stroke=\"#fff\" stroke-width=\"5\"/><rect x=\"-250\" y=\"-90\" width=\"500\" height=\"120\" rx=\"14\" fill=\"#6a5a48\" stroke=\"#fff\" stroke-width=\"8\"/><text x=\"0\" y=\"-8\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"66\" fill=\"#fff\" stroke=\"#6a5a48\" stroke-width=\"10\" paint-order=\"stroke\">TOURANE</text></g>\n<g transform=\"translate(540,420)\" stroke-linecap=\"round\"><path d=\"M-45 -45 L45 45 M45 -45 L-45 45\" stroke=\"#fff\" stroke-width=\"34\"/><path d=\"M-45 -45 L45 45 M45 -45 L-45 45\" stroke=\"#d8372d\" stroke-width=\"20\"/></g>\n<g transform=\"translate(790,700)\"><rect x=\"-8\" y=\"0\" width=\"16\" height=\"240\" fill=\"#9aa3ab\" stroke=\"#fff\" stroke-width=\"5\"/><rect x=\"-230\" y=\"-90\" width=\"460\" height=\"120\" rx=\"14\" fill=\"#1d5a46\" stroke=\"#fff\" stroke-width=\"8\"/><text x=\"0\" y=\"-8\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"64\" fill=\"#fff\" stroke=\"#1d5a46\" stroke-width=\"10\" paint-order=\"stroke\">ĐÀ NẴNG</text></g>\n<text x=\"940\" y=\"520\" font-family=\"O\" font-weight=\"700\" font-size=\"160\" fill=\"#ffd45a\" stroke=\"#2a0504\" stroke-width=\"10\" paint-order=\"stroke\">?</text>\n</svg>",
+ "chu_the": "biển tên TOURANE bị gạch và biển ĐÀ NẴNG (vẽ phẳng)"
+}

@@ -28,7 +28,7 @@ Bản 2 (12/11): 15 đoạn, 352 chữ, ước tính khoảng 1 phút 45 giây. 
 12. Riêng Hải Dương thì vẫn là tỉnh láng giềng, mỗi nơi một tên, đứng cạnh nhau hơn 100 năm.
 13. Đến năm 2025, cả nước sắp xếp lại các tỉnh. Hải Dương nhập vào Hải Phòng, và tên chung là thành phố Hải Phòng.
 14. Thế là góc nhỏ ngày nào, giờ đã ôm trọn cả tỉnh từng chứa mình.
-15. Bạn là người Hải Phòng hay người Hải Dương?
+15. Còn quê bạn, ngày xưa từng mang những cái tên nào?
 
 ### Bảng đoạn → ý
 | Đoạn | Ý |
@@ -52,6 +52,7 @@ Bản 2 (12/11): 15 đoạn, 352 chữ, ước tính khoảng 1 phút 45 giây. 
 | 9 (mới) | (không có) | Thương cảng lớn nhất miền Bắc thời Pháp thuộc | Cho biết vì sao Hải Phòng lớn lên |
 | 10 (mới) | (không có) | 13/5/1955 người lính Pháp cuối cùng rời cảng, Hải Phòng giải phóng | Mốc quen thuộc với người Hải Phòng |
 | 11 (mới) | (không có) | 1962 Kiến An nhập lại | Bản 1 nêu Kiến An tách ra mà không nói kết cục |
+| 15 (bản 3) | "Bạn là người Hải Phòng hay người Hải Dương?" → "Còn quê bạn, ngày xưa từng mang những cái tên nào?" | Chủ kênh thấy câu cũ nghe phân biệt vùng miền |
 | 12 | "Từ đó, Hải Phòng và Hải Dương là hai nơi riêng…" | "Riêng Hải Dương thì vẫn là tỉnh láng giềng…" | Nối sau đoạn Kiến An |
 
 
@@ -60,7 +61,7 @@ Bản 2 (12/11): 15 đoạn, 352 chữ, ước tính khoảng 1 phút 45 giây. 
 |---|---|---|
 | 2 | "Nghe như chuyện con lớn hơn mẹ." | So sánh đời thường về tình huống |
 | 10 | "góc nhỏ ngày nào, giờ đã ôm trọn cả tỉnh từng chứa mình" | Đối lập đóng vòng |
-Không đùa người Hải Dương hay việc sáp nhập; câu hỏi cuối trung tính.
+Không đùa người Hải Dương hay việc sáp nhập. Câu hỏi cuối hỏi về tên quê người xem (bản 3 thay câu "Bạn là người Hải Phòng hay người Hải Dương?" vì nghe như phân biệt vùng miền).
 
 ### Nguồn đã đọc
 - Báo Dân trí (03/04/2025), "Thành phố Hải Phòng từng được hợp nhất từ 2 đơn vị nào?", dẫn Cổng thông tin điện tử TP Hải Phòng: năm 1870–1873 Bùi Viện được vua Tự Đức giao xây bến cảng Ninh Hải bên cửa sông Cấm và căn cứ phòng ngự ven biển gọi là nha Hải Phòng sứ; tỉnh Kiến An tồn tại từ 1888. https://dantri.com.vn/thoi-su/thanh-pho-hai-phong-tung-duoc-hop-nhat-tu-2-don-vi-nao-20250402092050515.htm

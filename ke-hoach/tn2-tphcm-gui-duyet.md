@@ -24,7 +24,7 @@
 8. Còn cái tên Gia Định thì có từ trước đó rất lâu. Năm 1698, Nguyễn Hữu Cảnh vào lập phủ Gia Định cho chúa Nguyễn.
 9. Sau năm 1975, thành phố mang tên Sài Gòn – Gia Định, ghép cả hai cái tên cũ.
 10. Năm 1976, tại kỳ họp đầu tiên của Quốc hội nước Việt Nam thống nhất, thành phố được đổi tên thành Thành phố Hồ Chí Minh.
-11. Ý tưởng ấy còn có từ trước nữa. Năm 1946, đồng bào miền Nam ở Hà Nội đã kiến nghị đặt tên này cho Sài Gòn.
+11. Thật ra ý tưởng ấy có từ năm 1946. Nhưng phải đến khi đất nước thống nhất, nó mới thành tên chính thức.
 12. Năm 2025, thành phố nhập thêm Bình Dương và Bà Rịa – Vũng Tàu, nhưng vẫn giữ tên Thành phố Hồ Chí Minh.
 13. Còn cái tên Sài Gòn vẫn ở lại trong đời sống, từ sông Sài Gòn đến cảng Sài Gòn. Cũng năm ấy, thành phố có thêm một phường mang tên Sài Gòn.
 14. Điều thú vị là phường Sài Gòn mới được lập từ toàn bộ phường Bến Nghé. Hơn một trăm sáu mươi năm sau, cái tên đã chính thức dọn về nhà mới.
@@ -37,7 +37,7 @@
 | 4 | Từ điển xưa xác nhận (không nêu tên sách trong lời kể) |
 | 5–7 | Vì sao cái tên dọn nhà: người Pháp lập thành phố Sài Gòn ở Bến Nghé (trả lời hook, khoảng 35%) |
 | 8 | Tên Gia Định có từ 1698 |
-| 9–11 | Sài Gòn – Gia Định, đổi tên Thành phố Hồ Chí Minh năm 1976; kiến nghị từ 1946 |
+| 9–11 | Sài Gòn – Gia Định, đổi tên Thành phố Hồ Chí Minh năm 1976; ý tưởng từ 1946, đến khi thống nhất mới thành |
 | 12 | Sáp nhập 2025, vẫn giữ tên |
 | 13–14 | Tên Sài Gòn còn ở sông, cảng, phường; phường Sài Gòn lập từ phường Bến Nghé (đóng vòng) |
 | 15 | Câu hỏi cho người xem |
@@ -49,6 +49,11 @@
 | 5 | "Học giả Trương Vĩnh Ký cũng ghi lại như vậy. Ông viết rằng Sài Gòn vốn là tên của khu phố người Hoa." | Bỏ | Trích dẫn thứ hai cùng ý |
 | 8 | "Nhà văn Vương Hồng Sển cho rằng người Pháp chọn chữ Sài Gòn vì dễ đọc hơn chữ Bến Nghé. Tính ra, Chợ Lớn mới là Sài Gòn gốc." | Đoạn 7: "Thế là cái tên Sài Gòn chuyển sang khu trung tâm và ở luôn đến bây giờ. Tính ra, Chợ Lớn mới là Sài Gòn gốc." | Bỏ trích dẫn ý kiến; giữ câu hài |
 Các đoạn còn lại giữ nguyên chữ, chỉ đánh lại số.
+
+### Sửa lần 2 (chủ kênh nhắc 12/11/2026: câu kiến nghị 1946 nêu ra mà không có kết quả)
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 11 | "Ý tưởng ấy còn có từ trước nữa. Năm 1946, đồng bào miền Nam ở Hà Nội đã kiến nghị đặt tên này cho Sài Gòn." | "Thật ra ý tưởng ấy có từ năm 1946. Nhưng phải đến khi đất nước thống nhất, nó mới thành tên chính thức." | Nêu luôn kết quả: kiến nghị năm 1946 chưa thành, đến năm 1976 mới chính thức (VOV, Tiền Phong) |
 
 ### Câu chữ sáng tạo (lời người kể, không thêm dữ kiện, không gán lời cho nhân vật)
 | Đoạn | Câu | Kiểu |
@@ -77,7 +82,7 @@ Không đùa về tên Thành phố Hồ Chí Minh hay việc đổi tên năm 1
 - Nghĩa và gốc chữ "Sài Gòn" (củi gòn, Prey Nokor, Sài Côn...): các nguồn đều nói chưa xác định, chính Trương Vĩnh Ký nói chưa tìm ra gốc thật. Bỏ để không treo câu hỏi.
 - Hai đồn thu thuế năm 1623 ở Bến Nghé và Sài Gòn: chỉ một nguồn (Thanh Niên). Bỏ.
 - Năm 1931 lập khu Sài Gòn – Chợ Lớn, năm 1956 hợp nhất: thêm nhiều năm, bỏ cho gọn.
-- Tên người kiến nghị năm 1946 (bác sĩ Trần Hữu Nghiệp): có hai nguồn, nhưng bỏ cho đỡ dồn tên; lời kể nói "đồng bào miền Nam ở Hà Nội".
+- Người và nơi kiến nghị năm 1946 (bác sĩ Trần Hữu Nghiệp, đồng bào miền Nam ở Hà Nội): có hai nguồn, bỏ cho gọn; lời kể chỉ giữ năm và kết quả.
 
 ### Kết quả công cụ kiểm
 - kiem_kich_ban: 0 ❌ (cảnh báo: đoạn 31–32 chữ, có gạch nối).

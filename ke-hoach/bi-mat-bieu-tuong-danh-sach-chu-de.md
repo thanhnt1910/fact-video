@@ -106,4 +106,5 @@ Phụ (29 tên thôi làm tên tỉnh từ 1/7/2025, thử 1–2 trước): Hà 
 | 03 | Huế: vùng đất từ một món sính lễ, cái tên do người dân gọi | tn3 | kịch bản gửi duyệt (`ke-hoach/tn3-hue-gui-duyet.md`), chủ kênh cho dựng 12/11; giọng Leda, đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn3_hue.mp4` | `assets/bia/TN3/bia_tn3.png` |
 | 04 | Đà Nẵng: cái tên Tây, cái tên Chăm và cái tên phủ cả Quảng Nam | tn4 | kịch bản gửi duyệt (`ke-hoach/tn4-da-nang-gui-duyet.md`), chủ kênh cho dựng 12/11; giọng Leda, đã dựng và giao 12/11 | `video/ten-tinh-thanh/tn4_da_nang.mp4` | `assets/bia/TN4/bia_tn4.png` |
 | 05 | Hải Phòng: góc nhỏ của Hải Dương giờ ôm trọn Hải Dương | tn5 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn5-hai-phong-gui-duyet.md`), đoạn 133001–133011 | | |
+| 06 | Cần Thơ: sông của đàn và thơ, hay sông của cá sặc? | tn6 | kịch bản gửi duyệt 12/11 (`ke-hoach/tn6-can-tho-gui-duyet.md`, 15 đoạn 134001–134015), chưa đọc giọng, chưa dựng | | |
 Các tập sau theo thứ tự đề xuất ở mục trên (mã tn4, tn5…, dải đoạn 131001, 132001…).

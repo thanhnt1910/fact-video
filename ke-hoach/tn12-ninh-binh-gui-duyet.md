@@ -93,3 +93,6 @@ Bản đồ 34 tỉnh, tô Ninh Bình (ranh giới hiện nay); chấm Hoa Lư, 
 
 ### Sửa 12/11 (chủ kênh chọn)
 - Đoạn cuối: "Bạn là người Ninh Bình cũ, người Nam Định hay người Hà Nam?" → "Bạn đã từng ghé Tràng An, hay về phủ Thiên Trường ở Nam Định chưa?". Lý do: câu cũ hỏi người xem là người tỉnh nào, dễ thành phân biệt vùng miền (chủ kênh từng chê câu Hải Phòng/Hải Dương).
+
+### Sửa kỹ thuật giọng đọc 12/11
+- Đoạn 4: trường đọc giọng (`text`) ghi năm bằng chữ số "1010"; lời kể và phụ đề không đổi. Lý do: nhận dạng không gợi ý (hai mô hình) nghe lượt đọc đầu là "2010".

@@ -1,0 +1,17 @@
+{
+ "the_nam": "LẠNG SƠN",
+ "the_trieu": "TỪ 1397",
+ "d1": "LẠNG SƠN TỪNG",
+ "d2": "MANG TÊN SÔNG?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #16",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#141a22\"/><path d=\"M180 760 q40 -20 80 0 t80 0 t80 0 t80 0\" fill=\"none\" stroke=\"#3b7fb0\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M180 794 q40 -20 80 0 t80 0 t80 0 t80 0\" fill=\"none\" stroke=\"#3b7fb0\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M180 828 q40 -20 80 0 t80 0 t80 0 t80 0\" fill=\"none\" stroke=\"#3b7fb0\" stroke-width=\"12\" stroke-linecap=\"round\"/><g transform=\"translate(360,630) rotate(-3)\"><rect x=\"-200.0\" y=\"-62\" width=\"400\" height=\"124\" rx=\"18\" fill=\"#7fa6c4\" stroke=\"#fff\" stroke-width=\"8\"/><text y=\"26\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"62\" fill=\"#fff\" stroke=\"#7fa6c4\" stroke-width=\"8\" paint-order=\"stroke\">LẠNG GIANG</text></g><path d=\"M200 560 L520 700\" stroke=\"#fff\" stroke-width=\"16\" stroke-linecap=\"round\"/><path d=\"M200 560 L520 700\" stroke=\"#d8372d\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M500 1000 Q510 800 584 830 Q608 740 664 810 Q720 840 740 1000Z\" fill=\"#56707a\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M700 1000 Q710 760.0 784 796.0 Q808 688.0 864 772.0 Q920 808.0 940 1000Z\" fill=\"#56707a\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M860 1000 Q870 820.0 944 847.0 Q968 766.0 1024 829.0 Q1080 856.0 1100 1000Z\" fill=\"#56707a\" stroke=\"#fff\" stroke-width=\"6\"/><g transform=\"translate(800,690) rotate(3)\"><rect x=\"-190.0\" y=\"-62\" width=\"380\" height=\"124\" rx=\"18\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"8\"/><text y=\"26\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"64\" fill=\"#fff\" stroke=\"#e0a63c\" stroke-width=\"8\" paint-order=\"stroke\">LẠNG SƠN</text></g><path d=\"M560 700 Q660 640 720 720\" fill=\"none\" stroke=\"#e0a63c\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M700 700 L740 735 L690 745Z\" fill=\"#e0a63c\"/></svg>",
+ "chu_the": "biển LẠNG GIANG có sóng nước bị gạch, mũi tên sang biển LẠNG SƠN có núi đá vôi (vẽ phẳng)",
+ "co": 134
+}

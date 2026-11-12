@@ -49,7 +49,7 @@ Chữ Lâm lấy từ Lâm Viên, tức tên núi Lang Biang đọc theo âm Há
 - Tên Djiring (Di Linh thời Pháp), tỉnh Quảng Đức: không cần cho câu hỏi.
 
 ### Ghi chú kỹ thuật kể chuyện
-- Kiểu mở đầu: câu đố (núi nào, sông nào), trả lời ở đoạn 10; khác các tập trước.
+- Kiểu mở đầu: câu đố (núi nào, sông nào), trả lời ở đoạn 11; khác các tập trước.
 - Đoạn 10 đặt câu hỏi ngầm (tên Lâm Viên đã mất, sao còn chữ Lâm?), đoạn 11 trả lời ngay.
 - Diễn giải của người kể ở đoạn 12 ("Cách hiểu ấy có lý, vì…"): dựa trên sự việc có nguồn (phía cách mạng gộp đúng hai tỉnh và gọi là Lâm Đồng), nói rõ là cách hiểu, không khẳng định như sử ghi; đủ năm điều kiện của mục diễn giải trong `chung.md`.
 - Đoạn 13 "hai nửa của cái tên lại về chung một tỉnh": lời người kể, dựa trên sự việc 1976 (Lâm Đồng hợp với Tuyên Đức, nơi có đất Lâm Viên).

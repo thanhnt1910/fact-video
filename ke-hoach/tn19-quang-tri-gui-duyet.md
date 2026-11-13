@@ -117,3 +117,10 @@ Bản đồ 34 tỉnh, tô Quảng Trị (ranh giới hiện nay); khung Quảng
 - Nguồn thêm:
   - Vietcetera: https://vietcetera.com/en/the-stories-behind-vietnams-province-names-part-2-north-central-coast-highland
   - Wikipedia, Quảng Trị (phường): https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Tr%E1%BB%8B
+
+### Sửa lần 3, 13/11/2026 (chờ chủ kênh duyệt): bỏ câu giải nghĩa tên, thay bằng mốc tên có nguồn
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 4 | Chữ Quảng là rộng, chữ Trị là cai quản, nên cái tên thường được hiểu là vùng đất rộng lớn được cai quản tốt. | Cái tên ấy có từ năm 1801, khi Nguyễn Ánh, người sau này lên ngôi vua Gia Long, lập dinh Quảng Trị. | Cách giải nghĩa chỉ có Vietcetera và Wikipedia; tra Trung tâm Lưu trữ quốc gia IV (mocban.vn) và TTXVN (nvsk.vnanet.vn) đều không giải thích nghĩa tên, nên bỏ theo quy tắc hai nguồn. Mốc 1801 lập dinh Quảng Trị có ở cả hai nguồn này. |
+- Nguồn: Mộc bản triều Nguyễn, "Những dấu mốc lịch sử tỉnh Quảng Trị qua tài liệu lưu trữ": https://mocban.vn/nhung-dau-moc-lich-su-tinh-quang-tri-qua-tai-lieu-luu-tru/ ; TTXVN, "Lịch sử tỉnh Quảng Trị: vùng đất anh hùng và những lần thay đổi địa giới hành chính": https://nvsk.vnanet.vn/lich-su-tinh-quang-tri-vung-dat-anh-hung-va-nhung-lan-thay-doi-dia-gioi-hanh-chinh-1-164488.vna
+- Chi tiết đã bỏ: nghĩa "vùng đất rộng lớn được cai quản tốt" (chỉ có nguồn mạng, không có nguồn chính thống).

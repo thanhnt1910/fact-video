@@ -1,8 +1,8 @@
 {
  "the_nam": "NINH BÌNH",
  "the_trieu": "TỪNG LÀ KINH ĐÔ",
- "d1": "TỪNG CHỈ LÀ",
- "d2": "PHẦN NGOÀI?",
+ "d1": "NINH BÌNH TỪNG",
+ "d2": "LÀ PHẦN NGOÀI?",
  "phu": "TÊN TỈNH THÀNH",
  "phu_vang": "· #12",
  "chan_chinh": "NGƯỜI GÁC SỬ",
@@ -13,5 +13,5 @@
  "oy": -640,
  "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#0e1c1f\"/><path d=\"M-10 975 Q0 805 60 835 Q80 755 126 815 Q174 845 190 975Z\" fill=\"#4f7a70\" stroke=\"#fff\" stroke-width=\"5\" transform=\"scale(1)\"/><path d=\"M900 975 Q910 788.0 970 821.0 Q990 733.0 1036 799.0 Q1084 832.0 1100 975Z\" fill=\"#4f7a70\" stroke=\"#fff\" stroke-width=\"5\" transform=\"scale(1)\"/><g transform=\"translate(380,900) scale(1.5)\"><rect x=\"-90\" y=\"-70\" width=\"180\" height=\"80\" fill=\"#8a6a44\" stroke=\"#fff\" stroke-width=\"5\"/><path d=\"M-120 -60 L0 -150 L120 -60Z\" fill=\"#4f7a70\" stroke=\"#fff\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"-22\" y=\"-46\" width=\"44\" height=\"56\" fill=\"#3a2414\" stroke=\"#fff\" stroke-width=\"4\"/></g><g transform=\"translate(380,610) rotate(-2)\"><rect x=\"-200\" y=\"-58\" width=\"400\" height=\"116\" rx=\"16\" fill=\"#7fa6c4\" stroke=\"#fff\" stroke-width=\"7\"/><text y=\"22\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"60\" fill=\"#fff\" stroke=\"#7fa6c4\" stroke-width=\"8\" paint-order=\"stroke\">THANH HÓA</text></g><g transform=\"translate(800,915) scale(1.4)\"><rect x=\"-60\" y=\"-60\" width=\"120\" height=\"70\" fill=\"#8a6a44\" stroke=\"#fff\" stroke-width=\"5\"/><path d=\"M-75 -55 L75 -80 L75 -55Z\" fill=\"#b88a4a\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\"/></g><g transform=\"translate(800,930) scale(.75)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><path d=\"M0 -100 L0 -190 M0 -100 L50 -100 L50 -50 M0 -100 L40 -95 L45 -45 M0 -190 L-30 -150 L-40 -110 M0 -190 L30 -150 L40 -110\" stroke=\"#fff\" stroke-width=\"22\"/><path d=\"M0 -100 L0 -190 M0 -100 L50 -100 L50 -50 M0 -100 L40 -95 L45 -45 M0 -190 L-30 -150 L-40 -110 M0 -190 L30 -150 L40 -110\" stroke=\"#141312\" stroke-width=\"12\"/><circle cx=\"0\" cy=\"-226\" r=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"0\" cy=\"-226\" r=\"24\" fill=\"#141312\" stroke=\"none\"/><path d=\"M-40 -236 L0 -272 L40 -236Z\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"5\"/></g><g transform=\"translate(800,620) rotate(3)\"><rect x=\"-170\" y=\"-50\" width=\"340\" height=\"100\" rx=\"14\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"7\"/><text y=\"20\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"54\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"8\" paint-order=\"stroke\">NINH BÌNH</text></g><path d=\"M800 682 L800 700\" stroke=\"#e0a63c\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M782 698 L818 698 L800 726Z\" fill=\"#e0a63c\"/></svg>",
  "chu_the": "người que Ninh Bình ngồi ở gian chái bên ngoài ngôi nhà THANH HÓA (vẽ phẳng)",
- "co": 160
+ "co": 141
 }

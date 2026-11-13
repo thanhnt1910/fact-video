@@ -1,8 +1,8 @@
 {
  "the_nam": "QUẢNG TRỊ",
  "the_trieu": "1890 · 2025",
- "d1": "MẤY LẦN",
- "d2": "CHUNG MỘT NHÀ?",
+ "d1": "QUẢNG TRỊ",
+ "d2": "MẤY LẦN GỘP?",
  "phu": "TÊN TỈNH THÀNH",
  "phu_vang": "· #19",
  "chan_chinh": "NGƯỜI GÁC SỬ",
@@ -13,5 +13,5 @@
  "oy": -640,
  "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#1c1612\"/><g transform=\"translate(0,-150)\"><path d=\"M140 560 L540 300 L940 560Z\" fill=\"#8a3a2a\" stroke=\"#fff\" stroke-width=\"9\" stroke-linejoin=\"round\"/><rect x=\"200\" y=\"560\" width=\"680\" height=\"420\" fill=\"#d9cbb0\" stroke=\"#fff\" stroke-width=\"8\"/><g transform=\"translate(370,700) rotate(-4)\"><rect x=\"-160.0\" y=\"-46\" width=\"320\" height=\"92\" rx=\"14\" fill=\"#7fa6c4\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"46\" fill=\"#fff\" stroke=\"#7fa6c4\" stroke-width=\"7\" paint-order=\"stroke\">QUẢNG BÌNH</text></g><g transform=\"translate(710,700) rotate(4)\"><rect x=\"-150.0\" y=\"-46\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"46\" fill=\"#fff\" stroke=\"#e0a63c\" stroke-width=\"7\" paint-order=\"stroke\">QUẢNG TRỊ</text></g><g transform=\"translate(300,880)\"><circle r=\"56\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"24\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"66\" fill=\"#fff\">1</text></g><g transform=\"translate(540,880)\"><circle r=\"56\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"24\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"66\" fill=\"#fff\">2</text></g><g transform=\"translate(780,880)\"><circle r=\"56\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"24\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"66\" fill=\"#fff\">3</text></g><circle cx=\"540\" cy=\"430\" r=\"70\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"7\"/><text x=\"540\" y=\"458\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"90\" fill=\"#fff\">?</text></g></svg>",
  "chu_the": "mái nhà chung che hai thẻ QUẢNG BÌNH và QUẢNG TRỊ, ba dấu lần (vẽ phẳng)",
- "co": 136
+ "co": 152
 }

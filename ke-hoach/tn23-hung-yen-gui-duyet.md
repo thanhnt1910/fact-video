@@ -80,7 +80,14 @@ Ba huyện xưa của phủ Tiên Hưng (Hưng Nhân, Thần Khê, Duyên Hà) b
 ### Vì sao viết lại
 Bản cũ đi theo thứ tự mốc của nguồn (1831, 1890, 1894, 1968, 1997, 2025), mốc Hải Hưng chiếm hai đoạn riêng dù không thuộc câu hỏi chính. Bản mới lấy "ba lần đổi tỉnh" làm trục (lần thứ nhất, thứ hai, thứ ba), mốc Hải Hưng gộp vào một câu "trong khi đó", và câu kết quay về hook.
 
-### Toàn văn
+### 3 phương án hook
+| Phương án | Kiểu | Đạt | Ghi chú |
+|---|---|---|---|
+| **A (chọn).** "Có ba huyện xưa đã ba lần đổi tỉnh, dù đất đai của chúng chưa từng dời đi đâu." | Nghịch lý | 8/8 | 19 chữ, không năm, không tên lạ; trả lời đủ ở đoạn 3–11 |
+| B. "Có những huyện của Thái Bình từng thuộc về Hưng Yên…" (hook cũ) | Sự thật bị quên | 7/8 | 24 chữ, nói trước đáp án |
+| C. "Hưng Yên từng mất tên gần ba mươi năm." | Số phận | 5/8 | Lệch trục, giống khuôn Cà Mau |
+
+### Toàn văn lời kể
 1. Có ba huyện xưa đã ba lần đổi tỉnh, dù đất đai của chúng chưa từng dời đi đâu.
 2. Ba huyện ấy là Hưng Nhân, Thần Khê và Duyên Hà, cùng thuộc một phủ tên là Tiên Hưng.
 3. Lần đổi thứ nhất đến năm 1831, khi vua Minh Mạng bỏ các trấn để lập tỉnh. Phủ Tiên Hưng khi ấy thuộc trấn Nam Định.
@@ -112,6 +119,10 @@ Bản cũ đi theo thứ tự mốc của nguồn (1831, 1890, 1894, 1968, 1997,
 - 2025 hợp nhất, giữ tên Hưng Yên: Nghị quyết 202/2025/QH15; VietNamNet.
 - "Hơn một trăm ba mươi năm": 1890 hoặc 1894 đến 2025 là 131–135 năm.
 
+### Điểm lệch giữa các nguồn
+- Phủ Tiên Hưng: Dân Việt viết như cả phủ thuộc Thái Bình từ 1894; Quản lý nhà nước ghi năm 1890 huyện Tiên Lữ chuyển từ phủ Tiên Hưng về phủ Khoái Châu. Lời kể chỉ nói "cả ba huyện".
+- Tái lập Hưng Yên: Quản lý nhà nước ghi ngày Quốc hội phê chuẩn 6/11/1996; Tỉnh ủy Hưng Yên ghi tái lập từ 1/1/1997. Lời kể nói "gần ba mươi năm sau mới tách lại".
+
 ### Chi tiết đã bỏ
 - "Cả phủ Tiên Hưng nằm trọn trong tỉnh Thái Bình": chỉ Dân Việt ghi; Quản lý nhà nước ghi năm 1890 huyện Tiên Lữ chuyển từ phủ Tiên Hưng về phủ Khoái Châu, nên không nói "cả phủ".
 - Lý do người Pháp cắt huyện: các nguồn không ghi, không đưa vào.
@@ -126,9 +137,13 @@ Bản cũ đi theo thứ tự mốc của nguồn (1831, 1890, 1894, 1968, 1997,
 ### Kết quả bộ kiểm
 `kiem_kich_ban` 0 ❌ (⚠️ chỉ nhắc chữ số); `kiem_mach_ke` 0 ❌ 0 ⚠️ (đoạn mở bằng từ nối 4/12); `kiem_mo_dau` 0 ❌ (⚠️ 7 tên riêng trong 25 giây đầu, do đoạn 2 nêu tên ba huyện).
 
-### Nguồn
+### Nguồn đã đọc
 - Tạp chí Quản lý nhà nước: https://www.quanlynhanuoc.vn/?p=18053
 - Dân Việt, tỉnh Thái Bình 135 năm: https://danviet.vn/tinh-duy-nhat-tai-viet-nam-135-nam-chua-tung-bi-doi-ten-sap-nhap-nay-tung-noi-danh-voi-dac-san-gi-d1326956.html
 - VietNamNet, lý do lấy tên Hưng Yên: https://vietnamnet.vn/ly-do-hop-nhat-2-tinh-thai-binh-va-hung-yen-lay-ten-tinh-moi-la-hung-yen-2393578.html
 - Tỉnh ủy Hưng Yên, kế hoạch cuộc thi: https://dukcq.hungyen.dcs.vn/vanban/vchred_kh-cuoc-thi-tim-hieu-ve-hy.pdf
 - Nghị quyết 202/2025/QH15 (Thư viện pháp luật): https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/sau-sap-nhap-tinh-thi-tinh-nao-co-dien-tich-lon-nhat-ca-nuoc-874017-202853.html
+
+### Tiêu đề và hashtag đề xuất
+- Tiêu đề: Những huyện nào của Thái Bình từng thuộc Hưng Yên?
+- Hashtag: #NguoiGacSu #TenTinhThanh #HungYen #ThaiBinh #HaiHung #LichSuVietNam #TenGoi

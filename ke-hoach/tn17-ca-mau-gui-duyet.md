@@ -88,3 +88,4 @@ Không đổi chữ nào. Nguồn bổ sung cho từng dữ kiện:
 
 ### Giọng đọc 13/11/2026 (chủ kênh duyệt)
 - Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.
+- Lượt 1 đọc 1956 thành 1975 (cả hai bản nhận dạng đều nghe vậy); đọc lại cả video, lượt 2 đúng mọi năm. Đã dựng và giao 13/11/2026.

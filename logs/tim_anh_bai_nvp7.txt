@@ -1,27 +1,39 @@
-truy vấn Thăng Long (Lê Chiêu Thống là ai?) | Hoàng thành Thăng Long
-truy vấn Thăng Long (Lê Chiêu Thống là ai?) | Thang Long Imperial Citadel
-truy vấn Bắc Kinh (Những năm ở Bắc Kinh) | Tử Cấm Thành Bắc Kinh
-truy vấn Bắc Kinh (Những năm ở Bắc Kinh) | Forbidden City Beijing
-truy vấn Bàn Thạch (Chốt lại) | Thanh Hóa Lam Kinh
-truy vấn Bàn Thạch (Chốt lại) | Lam Kinh Thanh Hoa
+truy vấn Chân dung/tượng (Lê Chiêu Thống là ai?) | Lê Chiêu Thống
+truy vấn Chân dung/tượng (Lê Chiêu Thống là ai?) | Lê Duy Kỳ
+truy vấn Chân dung/tượng (Lê Chiêu Thống là ai?) | Le Chieu Thong
+truy vấn Vua Lê (Lê Chiêu Thống là ai?) | Lê Hiển Tông
+truy vấn Vua Lê (Lê Chiêu Thống là ai?) | Vua Lê chúa Trịnh
+truy vấn Càn Long (Xin quân nhà Thanh) | Qianlong Emperor portrait
+truy vấn Càn Long (Xin quân nhà Thanh) | Càn Long hoàng đế
+truy vấn Tôn Sĩ Nghị (Ngày 19 tháng 12 năm 1788) | Sun Shiyi
+truy vấn Tôn Sĩ Nghị (Ngày 19 tháng 12 năm 1788) | Tôn Sĩ Nghị
+truy vấn Quang Trung (Dịp Tết năm 1789) | Quang Trung Nguyễn Huệ tượng
+truy vấn Quang Trung (Dịp Tết năm 1789) | Tranh Quang Trung
+truy vấn Quang Trung (Dịp Tết năm 1789) | Đền thờ Quang Trung
 truy vấn Đống Đa (Dịp Tết năm 1789) | Gò Đống Đa
-truy vấn Đống Đa (Dịp Tết năm 1789) | Dong Da mound Hanoi
-giữ 15 ảnh đạt giấy phép; loại 74 ảnh vì giấy phép (SA/NC/ND/không rõ). Theo mục: {'Thăng Long (Lê Chiêu Thống là ai?)': 3, 'Bắc Kinh (Những năm ở Bắc Kinh)': 4, 'Bàn Thạch (Chốt lại)': 4, 'Đống Đa (Dịp Tết năm 1789)': 4}
-  loại File:Cổng Bắc hoàng thành Thăng Long.JPG | CC BY-SA 3.0
-  loại File:Bảng tên, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Cây cảnh, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Đèn chiều sáng, Hoàng thành Thăng Long, Hà Nội 002.JPG | CC BY-SA 4.0
-  loại File:Vietnamese student girls in Imperial Citadel of Thăng Long.JPG | CC BY-SA 4.0
-  loại File:Cổng trái Đoan Môn, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Cổng phải Đoan Môn, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Bánh xe cửa Đoan Môn, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Chữ Hán trên Đoan Môn, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Đèn chiếu sáng chân Đoan Môn, Hoàng thành Thăng Long, Hà Nội 001.JPG | CC BY-SA 4.0
-  loại File:Thăng Long Imperial Citadel (32451244358).jpg | CC BY-SA 2.0
-  loại File:Thăng Long Imperial Citadel, Hanoi (45410691305).jpg | CC BY-SA 2.0
-  loại File:Thăng Long Imperial Citadel, Hanoi (45410689965).jpg | CC BY-SA 2.0
-  loại File:Đoan Môn, Hoàng thành Thăng Long, Hà Nội 003.JPG | CC BY-SA 4.0
-  loại File:Đoan Môn, Hoàng thành Thăng Long, Hà Nội 002.JPG | CC BY-SA 4.0
+truy vấn Đống Đa (Dịp Tết năm 1789) | Trận Ngọc Hồi Đống Đa tranh
+truy vấn Bản đồ (Mấy lần đổi chủ) | Bản đồ Đại Việt thế kỷ 18
+truy vấn Bản đồ (Mấy lần đổi chủ) | Map Tay Son dynasty Vietnam
+truy vấn Tây Sơn (Mấy lần đổi chủ) | Nhà Tây Sơn
+truy vấn Thăng Long (Mấy lần đổi chủ) | Thăng Long thế kỷ 18
+truy vấn Bắc Kinh (Những năm ở Bắc Kinh) | Beijing Qing dynasty Eight Banners
+truy vấn Lam Kinh (Chốt lại) | Lam Kinh Thanh Hóa
+giữ 42 ảnh đạt giấy phép; loại 78 ảnh vì giấy phép (SA/NC/ND/không rõ). Theo mục: {'Chân dung/tượng (Lê Chiêu Thống là ai?)': 4, 'Vua Lê (Lê Chiêu Thống là ai?)': 4, 'Càn Long (Xin quân nhà Thanh)': 4, 'Tôn Sĩ Nghị (Ngày 19 tháng 12 năm 1788)': 4, 'Quang Trung (Dịp Tết năm 1789)': 4, 'Đống Đa (Dịp Tết năm 1789)': 4, 'Bản đồ (Mấy lần đổi chủ)': 4, 'Tây Sơn (Mấy lần đổi chủ)': 4, 'Thăng Long (Mấy lần đổi chủ)': 4, 'Bắc Kinh (Những năm ở Bắc Kinh)': 2, 'Lam Kinh (Chốt lại)': 4}
+  loại File:Chiều Hội An.JPG | CC BY-SA 3.0
+  loại File:Pond Stawiki, pier and beach, Sosnowiec.jpg | CC BY-SA 4.0
+  loại File:Chiều về nhộn nhịp bến sông.JPG | CC BY-SA 3.0
+  loại File:Bia tiểu sử và góc đền thờ Đào Duy Từ tại thôn Cự Tài, xã Hoài Phú, thị xã Hoài Nhơn, tỉnh Bình Định.jpg | CC BY-SA 4.0
+  loại File:Cảnh Hưng Thông Bảo (景興通寶) Revival Lê Dynasty (黎中興) 1740-1786 01.jpg | CC BY-SA 4.0
+  loại File:Cảnh Hưng Thông Bảo (景興通寶) Revival Lê Dynasty (黎中興) 1740-1786 02.jpg | CC BY-SA 4.0
+  loại File:Cảnh Hưng Cự Bảo (景興巨寶) - Obverse.jpg | CC BY-SA 4.0
+  loại File:Cảnh Hưng Cự Bảo (景興巨寶) - Reverse.jpg | CC BY-SA 4.0
+  loại File:National Museum Vietnamese History 79.jpg | CC BY-SA 3.0
+  loại File:Qianlong Emperor-画中的日记-罗一丁.jpg | CC BY-SA 4.0
+  loại File:Qianlong when young and when old.jpg | CC BY-SA 4.0
+  loại File:乾隆半身冬装像-郎世宁.jpg | CC BY-SA 4.0
+  loại File:Quinlong Tongbao cash coin.jpg | CC BY-SA 4.0
+  loại File:The Platform of Wenjing Road Station in Shanghai 2026.jpg | CC BY-SA 4.0
+  loại File:Exit 2 of Wenjing Road Station in Shanghai 2026.jpg | CC BY-SA 4.0
 tin tổng hợp 200
 1 000.jpg 200
 2 001.jpg 200
@@ -38,4 +50,31 @@ tin tổng hợp 200
 13 012.jpg 200
 14 013.jpg 200
 15 014.jpg 200
+16 015.jpg 200
+17 016.jpg 200
+18 017.jpg 200
+19 018.jpg 200
+20 019.jpg 200
+21 020.jpg 200
+22 021.jpg 200
+23 022.jpg 200
+24 023.jpg 200
+25 024.jpg 200
+26 025.jpg 200
+27 026.jpg 200
+28 027.jpg 200
+29 028.jpg 200
+30 029.jpg 200
+31 030.jpg 200
+32 031.jpg 200
+33 032.jpg 200
+34 033.jpg 200
+35 034.jpg 200
+36 035.jpg 200
+37 036.jpg 200
+38 037.jpg 200
+39 038.jpg 200
+40 039.jpg 200
+41 040.jpg 200
+42 041.jpg 200
 gửi xong, lỗi 0

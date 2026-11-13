@@ -17,6 +17,9 @@ bai-facebook/
 | 04 | Trần Ích Tắc | 5 | Bản nháp chờ chủ kênh duyệt |
 | 05 | Trần Dụ Tông | 5 | Bản nháp chờ chủ kênh duyệt |
 | 06 | Lê Uy Mục và Lê Tương Dực | 5 | Bản nháp chờ chủ kênh duyệt |
+| 07 | Lê Chiêu Thống | 0 | Bản nháp thiếu nguồn gốc (chỉ nguồn phụ), chờ đối chiếu và duyệt; chưa tìm ảnh |
+| 08 | Ngô Xương Văn | 0 | Bản nháp chờ chủ kênh duyệt (chưa tìm ảnh) |
+| 09 | Mạc Đăng Dung | 0 | Bản nháp chờ chủ kênh duyệt (chưa tìm ảnh) |
 
 Quy tắc series và dàn ý: `ke-hoach/nhan-vat-phu-series-dan-y.md`. Quy tắc viết bài: `quy-tac/chung.md` và `quy-tac/su-viet.md`.
 

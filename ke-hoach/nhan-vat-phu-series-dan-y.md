@@ -30,7 +30,11 @@ Cột "Cần kiểm" là điều tôi chưa đối chiếu nguồn gốc, phải
 | 7 | **Lê Chiêu Thống** | Tây Sơn (1788–1789) | Cầu viện nhà Thanh, quân Thanh vào Thăng Long rồi bị Quang Trung đánh tan. Nhân vật phụ của chiến thắng Ngọc Hồi – Đống Đa. | Ngày tháng; giữ nghiêm túc về Quang Trung |
 | 8 | **Ngô Xương Văn** | Hậu Ngô (950–965) | Lật đổ Dương Tam Kha nhưng tha chết; chết năm 965, sau đó loạn mười hai sứ quân. | Năm chết, hoàn cảnh |
 
-Dự phòng (cần cân nhắc độ nhạy): Hồ Quý Ly, Mạc Đăng Dung, Nguyễn Hoàng (đều gây tranh cãi lớn, chỉ làm khi chủ kênh yêu cầu).
+| 9 | **Mạc Đăng Dung** (chủ kênh chọn 13/11/2026) | Cuối Lê sơ, nhà Mạc (1518–1541) | Từ người cầm quân đến lấy ngôi nhà Lê; xin nhà Minh công nhận và đầu hàng ở Trấn Nam Quan năm 1540. | Kể việc, không dùng chữ "soán/tiếm"; không nêu đúng sai |
+
+Trạng thái 13/11/2026: bài 7 (nguồn phụ, cần đối chiếu Cương mục), 8, 9 đã có bản nháp trong `bai-facebook/`.
+
+Dự phòng (cần cân nhắc độ nhạy): Hồ Quý Ly, Nguyễn Hoàng (đều gây tranh cãi lớn, chỉ làm khi chủ kênh yêu cầu).
 
 ## Quy trình mỗi bài
 1. Lập danh sách nguồn: Đại Việt sử ký toàn thư, Khâm định Việt sử thông giám cương mục, Đại Nam thực lục (thời Tây Sơn), đối chiếu thêm sách nghiên cứu. Chi tiết chỉ có ở tiểu thuyết hoặc truyền thuyết thì ghi "theo lời kể" hoặc bỏ.

@@ -113,3 +113,4 @@ Bản đồ 34 đơn vị, tô Đồng Nai (ranh giới hiện nay, gồm Bình 
   - Sở KH&CN Đồng Nai, bài Nguyễn Thị Lệ: https://skhcn.dongnai.gov.vn/SiteAssets/Lists/Dost_HoiThiGiaiThuong_BanTin/NewForm/Bai%20Giai%20nhat_Nguyen%20Thi%20Le.pdf
   - Nguyễn Đình Cơ, Nguyễn Phương Đại, "Vùng đất Trấn Biên – Biên Hòa": https://vjol.info.vn/isscr/article/view/118304
   - Lao Động (1808, trấn Biên Hòa): https://news.laodong.vn/xa-hoi/dong-nai-mo-rong-khong-gian-do-thi-gan-voi-bao-ton-cac-gia-tri-van-hoa-lich-su-1677879.ldo
+- Dựng lại 13/11/2026 theo bản sửa lần 2 (16 đoạn), năm ghi chữ số cho giọng đọc; mọi năm đúng theo nhận dạng không gợi ý.

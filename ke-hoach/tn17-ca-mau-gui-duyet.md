@@ -2,7 +2,7 @@
 
 16 đoạn, 333 chữ đọc (năm viết bằng chữ), ước tính khoảng 102 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Cà Mau: hai lần bị thay tên, hai lần quay về
+## Cà Mau: tên gốc Khmer nghĩa là nước đen, hai lần bị đổi thành An Xuyên và Minh Hải rồi quay về
 
 ### Khung câu chuyện (một câu)
 Tên Cà Mau gốc tiếng Khmer (nước đen); năm 1956 tỉnh Cà Mau bị đổi thành An Xuyên; sau 1975 tên trở lại nhưng năm 1976 gộp với Bạc Liêu thành Minh Hải; năm 1996 chia lại, từ 1/1/1997 có tỉnh Cà Mau; năm 2025 gộp với Bạc Liêu lần nữa nhưng giữ tên Cà Mau.

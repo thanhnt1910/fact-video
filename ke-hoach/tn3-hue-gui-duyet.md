@@ -2,7 +2,7 @@
 
 16 đoạn, 358 chữ hiện (391 chữ đọc), ước tính khoảng 2 phút 10 giây. Chưa đọc giọng, chưa dựng.
 
-## Huế: vùng đất từ một món sính lễ, cái tên do người dân gọi
+## Huế: vùng đất từng là sính lễ cưới công chúa Huyền Trân, và tên Huế do người dân đọc từ chữ Hóa
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

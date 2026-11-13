@@ -2,7 +2,7 @@
 
 13 đoạn, 299 chữ đọc (năm viết bằng chữ), ước tính khoảng 91 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Gia Lai: núi rừng chạm biển
+## Gia Lai: tên từ dân tộc Jarai, từng chung tỉnh với Bình Định năm 1905, sáp nhập 2025 nên nay có biển
 
 ### Khung câu chuyện (một câu)
 Tên Gia Lai từ Jarai; năm 1905 Pháp lập tỉnh Plei Kou Der ở vùng núi phía tây Bình Định, năm 1907 bãi bỏ, một nửa đất về Bình Định; 24/5/1932 lập tỉnh Pleiku tách từ Kon Tum (ngày thành lập Gia Lai); sau 1945 chính quyền cách mạng gọi Gia Lai; 1975 Gia Lai Kon Tum; 1991 tách; 2025 hợp nhất Bình Định, trụ sở Quy Nhơn.

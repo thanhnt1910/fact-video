@@ -2,7 +2,7 @@
 
 13 đoạn, 320 chữ đọc (năm viết bằng chữ), ước tính khoảng 98 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Hà Tĩnh: hai lần nhập, hai lần tách
+## Hà Tĩnh: hai lần nhập vào Nghệ An (năm 1853 và 1976), hai lần tách ra thành tỉnh riêng
 
 ### Khung câu chuyện (một câu)
 Năm 1831 Minh Mệnh tách hai phủ của trấn Nghệ An lập tỉnh Hà Tĩnh; năm 1853 Tự Đức bỏ tỉnh, đổi làm đạo thuộc Nghệ An vì tỉnh nhỏ việc ít; năm 1875 lập lại; năm 1976 gộp thành Nghệ Tĩnh; ngày 12/8/1991 tách; năm 2025 giữ nguyên.

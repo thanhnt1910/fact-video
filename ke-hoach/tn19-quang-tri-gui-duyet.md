@@ -2,7 +2,7 @@
 
 14 đoạn, 334 chữ đọc (năm viết bằng chữ), ước tính khoảng 102 giây. Bản sửa lần 2 (13/11); video đã dựng theo bản cũ. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Quảng Trị: ba lần chung nhà với Quảng Bình
+## Quảng Trị: nghĩa của tên, và ba lần Quảng Trị gộp chung một tỉnh với Quảng Bình
 
 ### Khung câu chuyện (một câu)
 Năm 1831 Quảng Bình và Quảng Trị chung một Tổng đốc Bình Trị ở Đồng Hới; năm 1890 gộp thành tỉnh Bình Trị (lần thứ nhất), năm 1900 tách; năm 1976 cùng Thừa Thiên thành Bình Trị Thiên trụ sở Huế (lần thứ hai), năm 1989 tách; năm 2025 gộp lấy tên Quảng Trị, trụ sở Đồng Hới (lần thứ ba).

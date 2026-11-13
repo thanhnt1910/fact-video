@@ -2,7 +2,7 @@
 
 Bản 2 (12/11): 15 đoạn, 352 chữ, ước tính khoảng 1 phút 45 giây. Chưa đọc giọng, chưa dựng.
 
-## Hải Phòng: góc nhỏ của Hải Dương giờ ôm trọn Hải Dương
+## Hải Phòng: từ một góc nhỏ của tỉnh Hải Dương thành thành phố nay gồm cả Hải Dương
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

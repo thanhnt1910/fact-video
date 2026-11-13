@@ -2,7 +2,7 @@
 
 11 đoạn, 266 chữ đọc (năm viết bằng chữ), ước tính khoảng 81 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Hưng Yên: những huyện đi rồi về
+## Hưng Yên: ba huyện của Hưng Yên từng bị cắt sang Thái Bình, nay cả Thái Bình nhập vào Hưng Yên
 
 ### Khung câu chuyện (một câu)
 Năm 1831 tỉnh Hưng Yên ghép năm huyện phủ Khoái Châu và ba huyện phủ Tiên Hưng (Hưng Nhân, Thần Khê, Duyên Hà); năm 1890 tỉnh Thái Bình lấy Thần Khê, năm 1894 lấy Hưng Nhân, Duyên Hà; 1968 Hải Hưng, 1997 tái lập; năm 2025 Thái Bình hợp nhất vào tỉnh mang tên Hưng Yên.

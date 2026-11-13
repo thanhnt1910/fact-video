@@ -2,7 +2,7 @@
 
 13 đoạn, 306 chữ đọc (năm viết bằng chữ), ước tính khoảng 93 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Phú Thọ: cả một tỉnh mang tên một ngôi làng
+## Phú Thọ: cả tỉnh mang tên một ngôi làng, nơi người Pháp dời tỉnh lỵ về năm 1903
 
 ### Khung câu chuyện (một câu)
 Tỉnh Hưng Hóa (tiền thân) gồm năm huyện; ngày 5/5/1903 Toàn quyền Đông Dương chuyển tỉnh lỵ lên làng Phú Thọ, tỉnh đổi tên thành Phú Thọ; năm 1968 gộp thành Vĩnh Phú; từ 1997 tái lập; năm 2025 gộp Vĩnh Phúc, Hòa Bình, giữ tên Phú Thọ, trụ sở Việt Trì.

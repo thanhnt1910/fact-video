@@ -3,7 +3,7 @@
 15 đoạn, 353 chữ hiện (376 chữ đọc), ước tính khoảng 2 phút 5 giây. Chưa đọc giọng, chưa dựng.
 Chủ kênh yêu cầu viết Cần Thơ (12/11/2026).
 
-## Cần Thơ: sông của đàn và thơ, hay sông của cá sặc?
+## Cần Thơ: tên thành phố nghĩa là sông của đàn và thơ, hay bắt nguồn từ tên cá sặc?
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

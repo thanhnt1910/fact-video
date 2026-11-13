@@ -2,7 +2,7 @@
 
 16 đoạn, 406 chữ đọc (năm viết bằng chữ), ước tính khoảng 124 giây. Bản sửa lần 2 (13/11); video đã dựng theo bản cũ. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Lạng Sơn: từ tên sông sang tên núi
+## Lạng Sơn: hai cái tên Lạng Giang (chữ sông) và Lạng Sơn (chữ núi), và vì sao tên Lạng Sơn ở lại
 
 ### Khung câu chuyện (một câu)
 Lạng Giang (chữ sông) và Lạng Sơn (chữ núi) cùng gọi vùng đất này từ thời Lý, Trần; tên Lạng Sơn có trong Toàn thư từ năm 981; năm 1397 Hồ Quý Ly đổi phủ Lạng Sơn thành trấn Lạng Sơn khi đổi các lộ, phủ thành trấn; sử không chép lý do chọn chữ Sơn; Lạng Giang ở lại vùng sông Thương; tỉnh lập năm 1831, giữ nguyên năm 2025.

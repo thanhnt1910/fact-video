@@ -2,7 +2,7 @@
 
 15 đoạn, 320 chữ hiện (338 chữ đọc), ước tính khoảng 1 phút 55 giây. Chưa đọc giọng, chưa dựng.
 
-## Đà Nẵng: cái tên Tây, cái tên Chăm và cái tên phủ cả Quảng Nam
+## Đà Nẵng: thành phố từng mang tên Tây Tourane hơn 60 năm, còn tên Đà Nẵng có gốc tiếng Chăm
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

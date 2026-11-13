@@ -2,7 +2,7 @@
 
 16 đoạn, 328 chữ, ước tính khoảng 96 giây. Chưa đọc giọng, chưa dựng.
 
-## Nghệ An: vì sao Hà Tĩnh cũng là xứ Nghệ?
+## Nghệ An: vì sao Hà Tĩnh cũng được gọi là xứ Nghệ, khi hai tỉnh từng là một trấn Nghệ An
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

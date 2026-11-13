@@ -2,7 +2,7 @@
 
 15 đoạn, 353 chữ đọc (năm viết bằng chữ), ước tính khoảng 108 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Thái Nguyên: vùng đất phía bắc đi một vòng rồi trở về
+## Thái Nguyên: Bắc Kạn tách ra từ Thái Nguyên năm 1900, rồi hai lần gộp lại (Bắc Thái 1965, sáp nhập 2025)
 
 ### Khung câu chuyện (một câu)
 Năm 1831 tỉnh Thái Nguyên gồm phủ Phú Bình và phủ Thông Hóa (vùng Bắc Kạn sau này); năm 1900 Pháp tách phần phía bắc lập tỉnh Bắc Kạn; năm 1965 gộp thành Bắc Thái; năm 1996 chia lại, từ 1/1/1997 hai tỉnh riêng; năm 2025 hợp nhất lần nữa, giữ tên Thái Nguyên.

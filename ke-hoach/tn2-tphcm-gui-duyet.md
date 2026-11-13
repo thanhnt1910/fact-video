@@ -2,7 +2,7 @@
 
 15 đoạn, 413 chữ, ước tính khoảng 2 phút. Chưa đọc giọng, chưa dựng.
 
-## TP Hồ Chí Minh: cái tên Sài Gòn dọn nhà
+## TP Hồ Chí Minh: tên Sài Gòn xưa vốn gọi vùng Chợ Lớn, người Pháp chuyển nó sang khu Bến Nghé
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

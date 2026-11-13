@@ -2,7 +2,7 @@
 
 16 đoạn, 392 chữ đọc (năm viết bằng chữ), ước tính khoảng 120 giây. Bản sửa lần 2 (13/11); video đã dựng theo bản cũ. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Đồng Nai: từ tên một xứ thành tên một thành phố
+## Đồng Nai: từ tên dân gian của vùng đất phía Nam, qua tên tỉnh Biên Hòa, đến thành phố trực thuộc Trung ương
 
 ### Khung câu chuyện (một câu)
 Xứ Đồng Nai (chữ Hán Lộc Dã) là tên dân gian vùng đất mới phía Nam; năm 1698 lập huyện Phước Long; năm 1832 thành tỉnh Biên Hòa và tên Biên Hòa giữ gần 150 năm; đầu năm 1976 Biên Hòa gộp với Bà Rịa, Long Khánh lấy tên Đồng Nai; 1991 tách Bà Rịa Vũng Tàu; 2025 nhập Bình Phước; 30/4/2026 thành thành phố trực thuộc Trung ương thứ bảy.

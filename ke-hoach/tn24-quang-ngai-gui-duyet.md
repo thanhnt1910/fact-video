@@ -2,7 +2,7 @@
 
 14 đoạn, 335 chữ đọc (năm viết bằng chữ), ước tính khoảng 102 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
-## Quảng Ngãi: chữ Nghĩa thành chữ Ngãi
+## Quảng Ngãi: tên chữ vốn là Quảng Nghĩa, từ khi nào gọi thành Quảng Ngãi, và lần tỉnh mang tên một người
 
 ### Khung câu chuyện (một câu)
 Phủ Tư Nghĩa thời Lê, Hòa Nghĩa thời Tây Sơn, dinh rồi trấn Quảng Nghĩa đầu Nguyễn, tỉnh Quảng Nghĩa năm 1832; thời Pháp gọi Quảng Ngãi; sau Cách mạng tháng Tám có lúc tên Lê Trung Đình; 1976 Nghĩa Bình; năm 1981 thị xã Quảng Nghĩa mới đổi thành thị xã Quảng Ngãi; 1989 tái lập; 2025 hợp nhất Kon Tum.

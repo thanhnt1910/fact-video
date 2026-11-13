@@ -1,0 +1,128 @@
+{
+ "beats": [
+  {
+   "say": "Làm sao biết Mặt Trăng ở xa bao nhiêu, chính xác đến từng mi-li-mét?",
+   "text": "Làm sao biết *Mặt Trăng* ở xa bao nhiêu, chính xác đến từng *mi-li-mét*?"
+  },
+  {
+   "say": "Nhưng ta không thể căng một cuộn thước dây từ Trái Đất lên tới đó.",
+   "text": "Nhưng ta *không thể căng* một cuộn *thước dây* từ Trái Đất lên tới đó."
+  },
+  {
+   "say": "Hóa ra ta chỉ cần một tia sáng và một chiếc đồng hồ.",
+   "text": "Hóa ra ta chỉ cần *một tia sáng* và *một chiếc đồng hồ*."
+  },
+  {
+   "say": "Vậy tia sáng ấy đo khoảng cách bằng cách nào?",
+   "text": "Vậy *tia sáng* ấy đo *khoảng cách* bằng cách nào?"
+  },
+  {
+   "say": "Người xưa chưa có tia sáng ấy, họ chỉ có đôi mắt và hình học.",
+   "text": "Người xưa chưa có, họ chỉ có *đôi mắt* và *hình học*."
+  },
+  {
+   "say": "Họ cùng nhìn một lần nhật thực, lúc Mặt Trăng che Mặt Trời, từ hai thành phố khác nhau.",
+   "text": "Họ cùng nhìn *một lần nhật thực*, lúc Mặt Trăng che Mặt Trời, từ *hai thành phố* khác nhau."
+  },
+  {
+   "say": "Ở thành phố này, Mặt Trời bị che hoàn toàn, còn ở thành phố kia, chỉ bị che một phần.",
+   "text": "Ở thành phố này bị *che hoàn toàn*, ở thành phố kia chỉ bị *che một phần*."
+  },
+  {
+   "say": "Giống như bạn đưa ngón tay che một ngọn đèn: đổi chỗ đứng thì ngón tay che lệch đi.",
+   "text": "Như *ngón tay che đèn*: đổi chỗ đứng thì ngón tay *che lệch đi*."
+  },
+  {
+   "say": "Nhà thiên văn Hy Lạp Hi-pác-cơ dùng độ lệch ấy để vẽ một tam giác nối hai thành phố với Mặt Trăng.",
+   "text": "Nhà thiên văn *Hi-pác-cơ* dùng *độ lệch* ấy để vẽ *một tam giác* nối hai thành phố với Mặt Trăng."
+  },
+  {
+   "say": "Ông tính ra Mặt Trăng xa khoảng sáu mươi đến bảy mươi lần quãng từ tâm Trái Đất ra mặt đất.",
+   "text": "Ông tính ra Mặt Trăng xa *60 đến 70 lần* quãng từ *tâm Trái Đất* ra mặt đất."
+  },
+  {
+   "say": "Như vậy là đúng cỡ độ lớn, nhưng độ lệch ấy rất nhỏ nên kết quả của ông còn dao động nhiều.",
+   "text": "Đúng cỡ độ lớn, nhưng *độ lệch rất nhỏ* nên kết quả *còn dao động* nhiều."
+  },
+  {
+   "say": "Muốn chính xác hơn, ta cần một cách đo không dựa vào mắt nhìn.",
+   "text": "Muốn *chính xác hơn*, cần cách đo *không dựa vào mắt nhìn*."
+  },
+  {
+   "say": "Ánh sáng chạy rất đều, mỗi giây đi được khoảng ba trăm nghìn ki-lô-mét.",
+   "text": "Ánh sáng chạy rất đều, mỗi giây đi *khoảng 300 000 km*."
+  },
+  {
+   "say": "Vậy muốn biết quãng đường, ta chỉ cần biết ánh sáng đã chạy trong bao lâu.",
+   "text": "Muốn biết *quãng đường*, chỉ cần biết ánh sáng đã chạy *trong bao lâu*."
+  },
+  {
+   "say": "Như ném bóng vào tường rồi bắt lại: thời gian đi và về chia đôi là thời gian một chiều.",
+   "text": "Như *ném bóng vào tường* rồi bắt lại: thời gian *đi và về* *chia đôi* là thời gian *một chiều*."
+  },
+  {
+   "say": "Vì vậy, khoảng cách bằng tốc độ nhân thời gian, rồi chia hai, vì ánh sáng đi cả đi lẫn về.",
+   "text": "*Khoảng cách* = *tốc độ* × *thời gian* ÷ 2, vì ánh sáng *đi cả đi lẫn về*."
+  },
+  {
+   "say": "Năm một nghìn chín trăm sáu mươi chín, đoàn A-pô-lô mười một đặt lên Mặt Trăng một tấm gương.",
+   "text": "Năm *1969*, đoàn *Apollo 11* đặt lên Mặt Trăng *một tấm gương*."
+  },
+  {
+   "say": "Nó giống miếng phản quang trên xe đạp: ánh sáng chiếu vào là bật thẳng trở lại nơi phát ra.",
+   "text": "Giống *miếng phản quang* xe đạp: ánh sáng chiếu vào *bật thẳng trở lại* nơi phát ra."
+  },
+  {
+   "say": "Tháng tám cùng năm, đài thiên văn Lích ở bang Ca-li-phoóc-ni-a bắn một xung la-de về phía tấm gương.",
+   "text": "Tháng 8, đài thiên văn *Lick* ở California bắn *một xung laser* về phía tấm gương."
+  },
+  {
+   "say": "Xung ấy có hơn một nghìn tỉ hạt ánh sáng, nhưng chỉ vài hạt quay về tới kính thiên văn.",
+   "text": "Xung có *hơn 1 000 tỉ hạt* ánh sáng, nhưng chỉ *vài hạt* quay về."
+  },
+  {
+   "say": "Họ bấm giờ từ lúc bắn đến lúc nhận lại, và thấy mất khoảng hai phẩy năm giây.",
+   "text": "Bấm giờ từ lúc bắn đến lúc nhận lại: khoảng *2,5 giây*."
+  },
+  {
+   "say": "Trước hết, ánh sáng đi cả đi lẫn về, nên quãng đường là ba trăm nghìn nhân hai phẩy năm.",
+   "text": "Quãng đường đi và về: *300 000 × 2,5*."
+  },
+  {
+   "say": "Ra bảy trăm năm mươi nghìn ki-lô-mét.",
+   "text": "= *750 000 km*."
+  },
+  {
+   "say": "Quãng ấy gồm đường đi và đường về, nên ta chia đôi.",
+   "text": "Gồm *đường đi* và *đường về*, nên ta *chia đôi*."
+  },
+  {
+   "say": "Bảy trăm năm mươi nghìn chia hai bằng ba trăm bảy mươi lăm nghìn ki-lô-mét.",
+   "text": "*750 000 ÷ 2* = *375 000 km*."
+  },
+  {
+   "say": "Số thật trung bình là khoảng ba trăm tám mươi tư nghìn bốn trăm ki-lô-mét.",
+   "text": "Số thật trung bình: *384 400 km*."
+  },
+  {
+   "say": "Ta chỉ lệch chưa tới ba phần trăm, vì đã làm tròn thời gian và tốc độ.",
+   "text": "Ta *lệch chưa tới 3%*, vì đã *làm tròn* thời gian và tốc độ."
+  },
+  {
+   "say": "Các nhà khoa học đo thời gian kỹ hơn nhiều, nên khoảng cách được đo chính xác đến mi-li-mét.",
+   "text": "Đo thời gian *kỹ hơn nhiều*, nên chính xác đến *mi-li-mét*."
+  },
+  {
+   "say": "Một mi-li-mét chỉ bằng độ dày của khoảng mười tờ giấy.",
+   "text": "*1 mi-li-mét* chỉ bằng độ dày khoảng *10 tờ giấy*."
+  },
+  {
+   "say": "Nhờ vậy, ta còn biết Mặt Trăng đang xa Trái Đất thêm khoảng ba phẩy tám xen-ti-mét mỗi năm.",
+   "text": "Nhờ vậy biết Mặt Trăng *xa thêm* khoảng *3,8 xen-ti-mét* mỗi năm."
+  },
+  {
+   "say": "Vậy ta biết Mặt Trăng xa bao nhiêu nhờ đo thời gian một tia sáng đi rồi quay về.",
+   "text": "Vậy ta biết nhờ đo *thời gian* một *tia sáng* đi rồi quay về."
+  }
+ ]
+}

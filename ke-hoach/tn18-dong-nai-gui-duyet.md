@@ -96,3 +96,4 @@ Bản đồ 34 đơn vị, tô Đồng Nai (ranh giới hiện nay, gồm Bình 
 
 ### Giọng đọc 13/11/2026 (chủ kênh duyệt)
 - Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.
+- Đã dựng và giao 13/11/2026 (giọng lượt 1, mọi năm đúng theo nhận dạng không gợi ý).

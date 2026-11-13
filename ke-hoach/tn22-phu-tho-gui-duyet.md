@@ -43,7 +43,7 @@ Năm 1903 tỉnh lỵ tỉnh Hưng Hóa chuyển lên làng Phú Thọ (tổng Y
 - **2025 (đoạn 10–11):** Nghị quyết 202/2025/QH15 (thuviennhadat dẫn: tỉnh Phú Thọ mới 9.361,38 km², 4.022.638 người); Wikipedia: trụ sở Việt Trì.
 
 ### Điểm lệch giữa các nguồn
-- Tỉnh Hưng Hóa: Wikipedia ghi tỉnh Hưng Hóa có từ 1830/1831 (thời Minh Mệnh); Báo Pháp luật ghi Pháp "thành lập" tỉnh Hưng Hóa ngày 8/9/1891 với năm huyện. Đây là tỉnh Hưng Hóa thu nhỏ sau khi Pháp chia lại; lời kể nói "người Pháp đặt tỉnh Hưng Hóa ở vùng trung du này".
+- Tỉnh Hưng Hóa: Wikipedia ghi tỉnh Hưng Hóa có từ 1830/1831 (thời Minh Mạng); Báo Pháp luật ghi Pháp "thành lập" tỉnh Hưng Hóa ngày 8/9/1891 với năm huyện. Đây là tỉnh Hưng Hóa thu nhỏ sau khi Pháp chia lại; lời kể nói "người Pháp đặt tỉnh Hưng Hóa ở vùng trung du này".
 
 ### Chi tiết đã bỏ
 - Ngày 8/9/1891 và 5/5/1903 cụ thể: chỉ giữ năm 1903.

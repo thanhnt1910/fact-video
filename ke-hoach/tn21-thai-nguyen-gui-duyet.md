@@ -20,7 +20,7 @@ Năm 1831 tỉnh Thái Nguyên gồm phủ Phú Bình và phủ Thông Hóa (vù
 1. Thái Nguyên vừa tròn một trăm chín mươi lăm tuổi, nhưng đường ranh giới của nó chưa bao giờ đứng yên.
 2. Câu chuyện xoay quanh một người hàng xóm phía bắc, vốn từng là một phần của chính Thái Nguyên.
 3. Cái tên Thái Nguyên đã có từ nhiều thế kỷ trước, khi vùng này lần lượt là đạo, rồi xứ, rồi trấn.
-4. Năm 1831, vua Minh Mệnh lập tỉnh Thái Nguyên, gồm hai phủ là Phú Bình và Thông Hóa.
+4. Năm 1831, vua Minh Mạng lập tỉnh Thái Nguyên, gồm hai phủ là Phú Bình và Thông Hóa.
 5. Phủ Thông Hóa khi ấy gồm cả những vùng như Bạch Thông, Chợ Đồn và Na Rì, nơi về sau thành tỉnh Bắc Kạn.
 6. Ngày lập tỉnh được xác định là ngày 4 tháng 11 năm 1831, nên năm nay tỉnh tròn một trăm chín mươi lăm tuổi.
 7. Gần bảy mươi năm sau, năm 1900, người Pháp tách phần đất phía bắc ấy ra, lập thành tỉnh Bắc Kạn.

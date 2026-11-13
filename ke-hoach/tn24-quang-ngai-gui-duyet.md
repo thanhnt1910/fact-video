@@ -20,7 +20,7 @@ Phủ Tư Nghĩa thời Lê, Hòa Nghĩa thời Tây Sơn, dinh rồi trấn Qu�
 1. Tên chữ của Quảng Ngãi vốn là Quảng Nghĩa, và có lúc tỉnh này còn mang tên một con người.
 2. Chữ Nghĩa đã đi theo vùng đất này từ thời Lê, khi nơi đây là phủ Tư Nghĩa của thừa tuyên Quảng Nam.
 3. Thời Tây Sơn, phủ đổi tên thành Hòa Nghĩa. Đến đầu thời Nguyễn, vua Gia Long đặt dinh Quảng Nghĩa, rồi đổi thành trấn Quảng Nghĩa.
-4. Năm 1832, vua Minh Mệnh đổi trấn thành tỉnh. Trên giấy tờ của triều đình, tên tỉnh vẫn là Quảng Nghĩa.
+4. Năm 1832, vua Minh Mạng đổi trấn thành tỉnh. Trên giấy tờ của triều đình, tên tỉnh vẫn là Quảng Nghĩa.
 5. Nhưng sang thời Pháp thuộc, tên tỉnh được gọi là Quảng Ngãi. Vì sao chữ Nghĩa thành chữ Ngãi, các tài liệu chính thức không chép rõ.
 6. Sau Cách mạng tháng Tám, tỉnh có một thời gian ngắn mang tên Lê Trung Đình, rồi đầu năm 1946 mới trở lại tên cũ.
 7. Năm 1976, Quảng Ngãi gộp với Bình Định thành tỉnh Nghĩa Bình, và chữ Nghĩa lại đứng đầu tên tỉnh.
@@ -37,7 +37,7 @@ Tên chữ là Quảng Nghĩa (trấn 1808, tỉnh 1832); từ thời Pháp thu�
 
 ### Ghi chú độ chắc
 - **Phủ Tư Nghĩa thời Lê (đoạn 2):** sơ thảo lịch sử Đảng bộ huyện Tư Nghĩa (dẫn Dư địa chí, Phủ biên tạp lục): đời Hồng Đức, thừa tuyên Quảng Nam có ba phủ Thăng Hoa, Tư Nghĩa, Hoài Nhơn.
-- **Hòa Nghĩa, dinh và trấn Quảng Nghĩa, tỉnh 1832, thời Pháp, Lê Trung Đình (đoạn 3–6):** đề cương 30 năm tái lập tỉnh (Tỉnh ủy Quảng Ngãi): 1776 Tây Sơn đổi phủ Hòa Nghĩa; 1805 Gia Long đặt dinh Quảng Nghĩa; 1808 trấn Quảng Nghĩa; 1832 Minh Mệnh đổi trấn thành tỉnh Quảng Nghĩa; thời thuộc Pháp gọi Quảng Ngãi; sau Cách mạng tháng Tám đến trước 6/1/1946 tỉnh mang tên Lê Trung Đình rồi trở lại tên cũ.
+- **Hòa Nghĩa, dinh và trấn Quảng Nghĩa, tỉnh 1832, thời Pháp, Lê Trung Đình (đoạn 3–6):** đề cương 30 năm tái lập tỉnh (Tỉnh ủy Quảng Ngãi): 1776 Tây Sơn đổi phủ Hòa Nghĩa; 1805 Gia Long đặt dinh Quảng Nghĩa; 1808 trấn Quảng Nghĩa; 1832 Minh Mạng đổi trấn thành tỉnh Quảng Nghĩa; thời thuộc Pháp gọi Quảng Ngãi; sau Cách mạng tháng Tám đến trước 6/1/1946 tỉnh mang tên Lê Trung Đình rồi trở lại tên cũ.
 - **Câu "các tài liệu chính thức không chép rõ" (đoạn 5):** các nguồn đã đọc chỉ ghi sự thay đổi, không ghi lý do. Cách giải thích quen thuộc (giọng địa phương đọc Nghĩa thành Ngãi) chưa tìm được nguồn đáng tin nên không đưa vào lời kể.
 - **1976 Nghĩa Bình, 1989 (đoạn 7, 10):** Wikipedia (Bình Định): tháng 2/1976 hợp nhất thành Nghĩa Bình; đề cương Tỉnh ủy: tái lập từ 1/7/1989; Báo Văn hóa (nhớ thời tách tỉnh Nghĩa Bình).
 - **Thị xã Quảng Nghĩa đến 1981 (đoạn 8–9):** Quyết định 41/HĐBT ngày 24/8/1981 của Hội đồng Bộ trưởng: "chia thị xã Quảng Nghĩa thành thị xã Quảng Ngãi và huyện Tư Nghĩa" (Cơ sở dữ liệu văn bản pháp luật, Bộ Tư pháp).

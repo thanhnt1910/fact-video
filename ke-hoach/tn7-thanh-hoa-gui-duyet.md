@@ -2,7 +2,7 @@
 
 15 đoạn, 343 chữ, ước tính khoảng 1 phút 40 giây. Chưa đọc giọng, chưa dựng. (#06 Cần Thơ, mã tn6, do phiên khác viết.)
 
-## Thanh Hóa: tên gốc là Thanh Hoa, đổi thành Thanh Hóa vì kiêng tên mẹ một vị vua nhà Nguyễn
+## Thanh Hóa: tên từng bị đổi thành Thanh Hoa gần 400 năm, rồi lấy lại vì kiêng tên mẹ một vị vua
 
 Câu hỏi của video được trả lời dứt khoát: Thanh Hóa là tên gốc (năm 1029), Thanh Hoa là tên đến sau (năm 1469), năm 1843 tên Thanh Hóa quay lại.
 

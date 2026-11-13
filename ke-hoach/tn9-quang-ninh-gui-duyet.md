@@ -2,7 +2,7 @@
 
 13 đoạn, 246 chữ, ước tính khoảng 72 giây. Chưa đọc giọng, chưa dựng.
 
-## Quảng Ninh: tên ghép từ hai tỉnh Quảng Yên và Hải Ninh, do Bác Hồ gợi ý năm 1963
+## Quảng Ninh: tên ghép từ khu Hồng Quảng và tỉnh Hải Ninh, do Bác Hồ gợi ý năm 1963
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |

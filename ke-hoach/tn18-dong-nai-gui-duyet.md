@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #18 Đồng Nai (mã tn18)
 
-13 đoạn, 309 chữ đọc (năm viết bằng chữ), ước tính khoảng 94 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+16 đoạn, 392 chữ đọc (năm viết bằng chữ), ước tính khoảng 120 giây. Bản sửa lần 2 (13/11); video đã dựng theo bản cũ. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Đồng Nai: từ tên một xứ thành tên một thành phố
 
@@ -80,20 +80,36 @@ Bản đồ 34 đơn vị, tô Đồng Nai (ranh giới hiện nay, gồm Bình 
 - Hashtag: #NguoiGacSu #TenTinhThanh #DongNai #BienHoa #XuDongNai #LichSuVietNam #TenGoi
 
 ### Rà soát nguồn 13/11/2026 (chủ kênh yêu cầu: không bỏ chữ, bổ sung tài liệu)
-**Bổ sung cho chính xác (đoạn 8):** tỉnh Đồng Nai năm 1976 hợp nhất từ Biên Hòa, tỉnh Bà Rịa Long Khánh (một tỉnh) và tỉnh Tân Phú (hai huyện Tân Uyên, Phú Giáo của Tân Phú chuyển sang Sông Bé).
-
-| Đoạn | Trước | Sau | Vì sao |
-|---|---|---|---|
-| 8 | Phải đến đầu năm 1976, tỉnh Biên Hòa mới được gộp với Bà Rịa và Long Khánh, lấy tên là Đồng Nai. | Phải đến đầu năm 1976, Biên Hòa mới gộp với tỉnh Bà Rịa Long Khánh và phần lớn tỉnh Tân Phú, lấy tên Đồng Nai. | Bà Rịa Long Khánh là một tỉnh, còn thiếu Tân Phú (Sở KH&CN Đồng Nai, bài Bùi Quốc Cường) |
-
-**Nguồn bổ sung cho từng dữ kiện**
-- Đồng Nai là vùng nhiều nai, còn gọi Lộc Dã, Lộc Động: Đại Nam nhất thống chí, dẫn trong bài dự thi Nguyễn Thị Lê, Sở KH&CN Đồng Nai https://skhcn.dongnai.gov.vn/SiteAssets/Lists/Dost_HoiThiGiaiThuong_BanTin/NewForm/Bai%20Giai%20nhat_Nguyen%20Thi%20Le.pdf ; Đại Nam thực lục tiền biên quyển 7, năm 1698: "lấy xứ Đồng Nai (鹿野) làm huyện Phúc Long" (dẫn trong blog Le Minh Khai).
-- 1698 lập huyện Phước Long thuộc phủ Gia Định; 1832 tỉnh Biên Hòa: bài Nguyễn Thị Lê, Sở KH&CN Đồng Nai.
-- 1976 hợp nhất thành tỉnh Đồng Nai; 1991 tách ba huyện Châu Thành, Long Đất, Xuyên Mộc lập Bà Rịa Vũng Tàu: bài Bùi Quốc Cường, Sở KH&CN Đồng Nai; Đại biểu Nhân dân (Bà Rịa Vũng Tàu thành lập 12/8/1991, gồm Vũng Tàu, Châu Thành, Long Đất, Xuyên Mộc, Côn Đảo) https://daibieunhandan.vn/ba-ria-vung-tau-long-trong-ky-niem-34-nam-ngay-thanh-lap-tinh-10377847.html
-- 2025 Đồng Nai và Bình Phước gộp, tên Đồng Nai: Nghị quyết 202/2025/QH15; đề án HĐND Bình Phước.
-- 30/4/2026 thành phố trực thuộc Trung ương thứ bảy: Luật Việt Nam; Báo Đấu thầu; Tuổi Trẻ https://tuoitre.vn/dong-nai-chinh-thuc-len-thanh-pho-tu-ngay-30-4-20260424095327324.htm
-- Wikipedia, vnreview chỉ còn để đối chiếu, không dùng làm nguồn.
+1. Có một cái tên từng dùng để gọi cả vùng đất mới phía Nam, nay là tên một thành phố.
+2. Cái tên ấy là Đồng Nai, và câu chuyện của nó bắt đầu từ hơn ba trăm năm trước.
+3. Người xưa gọi vùng đất mới khai phá ở phương Nam là xứ Đồng Nai. Cách giải thích quen thuộc nhất là cánh đồng có nhiều nai.
+4. Sử nhà Nguyễn viết tên ấy bằng chữ Hán là Lộc Dã, cũng là cánh đồng của hươu nai.
+5. Năm 1698, chúa Nguyễn lấy xứ Đồng Nai lập huyện Phước Long, thuộc phủ Gia Định.
+6. Nhưng khi đặt đơn vị hành chính, nhà Nguyễn không dùng cái tên dân gian ấy. Vùng này được gọi là dinh Trấn Biên, nơi trấn giữ biên cương.
+7. Năm 1808, vua Gia Long đổi dinh Trấn Biên thành trấn Biên Hòa. Chữ Biên giữ từ tên cũ, chữ Hòa nghĩa là yên ổn.
+8. Theo cách giải thích của người nghiên cứu ở Đồng Nai, tên mới mang ý vùng biên cương sau những năm loạn lạc nay đã yên hòa.
+9. Năm 1832, vua Minh Mạng đổi trấn thành tỉnh Biên Hòa. Suốt gần một trăm rưỡi năm sau, tên tỉnh vẫn là Biên Hòa.
+10. Còn cái tên Đồng Nai thì ở lại với dòng sông lớn chảy qua tỉnh Biên Hòa.
+11. Phải đến đầu năm 1976, Biên Hòa mới gộp với tỉnh Bà Rịa Long Khánh và phần lớn tỉnh Tân Phú, lấy tên Đồng Nai.
+12. Năm 1991, ba huyện phía biển tách ra để lập tỉnh Bà Rịa Vũng Tàu, và Đồng Nai thu về gần với ranh giới quen thuộc.
+13. Đến năm 2025, Đồng Nai và Bình Phước gộp lại thành một tỉnh, vẫn giữ tên Đồng Nai.
+14. Chưa đầy một năm sau, ngày 30 tháng 4 năm 2026, Đồng Nai trở thành thành phố trực thuộc Trung ương thứ bảy.
+15. Từ tên một xứ, thành tên một dòng sông, rồi tên tỉnh, Đồng Nai giờ là tên một thành phố.
+16. Bạn đã từng đi qua cầu Đồng Nai, hay về Biên Hòa bao giờ chưa?
 
 ### Giọng đọc 13/11/2026 (chủ kênh duyệt)
 - Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.
 - Đã dựng và giao 13/11/2026 (giọng lượt 1, mọi năm đúng theo nhận dạng không gợi ý).
+
+### Sửa lần 2, 13/11/2026 (chủ kênh yêu cầu giải thích vì sao chọn tên Biên Hòa)
+- **Thêm đoạn 6–10:** dinh Trấn Biên (từ 1698), năm 1808 Gia Long đổi thành trấn Biên Hòa, ý nghĩa tên, năm 1832 thành tỉnh, Đồng Nai ở lại với dòng sông.
+- **Trấn Biên từ 1698:** Nguyễn Đình Cơ, Nguyễn Phương Đại (Tạp chí Khoa học xã hội TP.HCM, 2025): năm 1698 vùng đất Đồng Nai thành một phần Đàng Trong với tên gọi Trấn Biên; Wikipedia (Biên Hòa province): huyện Phúc Long do dinh Trấn Biên coi giữ.
+- **1808 đổi thành trấn Biên Hòa:** SGGP (Dòng sông Đồng Nai và hành trình 325 năm); Lao Động.
+- **Ý nghĩa tên (đoạn 8):** bài giải nhất Hội thi Tìm hiểu giá trị văn hóa – lịch sử Đồng Nai 2017 (Nguyễn Thị Lệ, trang Sở KH&CN Đồng Nai): Gia Long đặt tên Biên Hòa với ý vùng biên cương Trấn Biên sau binh biến loạn lạc nay an hòa; "Biên" lấy từ Trấn Biên, "Hòa" là an lạc, thái hòa. Đây là cách giải thích, sử không chép lời vua; lời kể nói "theo cách giải thích của người nghiên cứu ở Đồng Nai".
+- **Điểm lệch:** bài của Nguyễn Thị Lệ ghi tên Biên Hòa dùng từ năm 1806; SGGP, Lao Động ghi 1808. Lời kể theo 1808.
+- **Video đã dựng theo bản cũ**, chủ kênh chưa yêu cầu đọc lại giọng và dựng lại.
+- Nguồn thêm:
+  - SGGP: https://www.sggp.org.vn/dong-song-dong-nai-va-hanh-trinh-325-nam-tren-vung-dat-tran-bien-bai-1-tu-cai-noi-nong-nai-dai-pho-post720130.html
+  - Sở KH&CN Đồng Nai, bài Nguyễn Thị Lệ: https://skhcn.dongnai.gov.vn/SiteAssets/Lists/Dost_HoiThiGiaiThuong_BanTin/NewForm/Bai%20Giai%20nhat_Nguyen%20Thi%20Le.pdf
+  - Nguyễn Đình Cơ, Nguyễn Phương Đại, "Vùng đất Trấn Biên – Biên Hòa": https://vjol.info.vn/isscr/article/view/118304
+  - Lao Động (1808, trấn Biên Hòa): https://news.laodong.vn/xa-hoi/dong-nai-mo-rong-khong-gian-do-thi-gan-voi-bao-ton-cac-gia-tri-van-hoa-lich-su-1677879.ldo

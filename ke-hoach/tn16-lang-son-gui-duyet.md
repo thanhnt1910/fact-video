@@ -1,11 +1,11 @@
 # Gửi duyệt: Tên tỉnh thành #16 Lạng Sơn (mã tn16)
 
-13 đoạn, 328 chữ đọc (năm viết bằng chữ), ước tính khoảng 100 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+16 đoạn, 406 chữ đọc (năm viết bằng chữ), ước tính khoảng 124 giây. Bản sửa lần 2 (13/11); video đã dựng theo bản cũ. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Lạng Sơn: từ tên sông sang tên núi
 
 ### Khung câu chuyện (một câu)
-Thời Lý là lộ Lạng Châu, thời Trần đổi thành trấn Lạng Giang (chữ Giang là sông), năm 1397 đổi thành trấn Lạng Sơn (chữ Sơn là núi); tên ấy giữ qua thời thuộc Minh, thời Lê, thành tỉnh năm 1831 và đến năm 2025 vẫn giữ nguyên.
+Lạng Giang (chữ sông) và Lạng Sơn (chữ núi) cùng gọi vùng đất này từ thời Lý, Trần; tên Lạng Sơn có trong Toàn thư từ năm 981; năm 1397 Hồ Quý Ly đổi phủ Lạng Sơn thành trấn Lạng Sơn khi đổi các lộ, phủ thành trấn; sử không chép lý do chọn chữ Sơn; Lạng Giang ở lại vùng sông Thương; tỉnh lập năm 1831, giữ nguyên năm 2025.
 
 ### 3 phương án hook
 | Phương án | Kiểu | Đạt | Ghi chú |
@@ -32,7 +32,7 @@ Thời Lý là lộ Lạng Châu, thời Trần đổi thành trấn Lạng Gian
 13. Bạn đã từng qua ải Chi Lăng, hay lên đỉnh Mẫu Sơn chưa?
 
 ### Câu trả lời cho câu hỏi của hook và tiêu đề
-Tên cũ là Lạng Giang (chữ Giang là sông); năm 1397, cuối thời Trần, trấn Lạng Giang được đổi thành trấn Lạng Sơn (chữ Sơn là núi). Sử không ghi lý do đổi; lời kể chỉ nói tên mới hợp với địa hình núi đá, có ghi rõ là cách nhìn của người kể.
+Hai cái tên: Lạng Giang (chữ Giang là sông) và Lạng Sơn (chữ Sơn là núi). Từ năm 1397, khi phủ Lạng Sơn thành trấn Lạng Sơn, chữ Sơn đứng hẳn trong tên vùng đất. Sử không chép vì sao chọn chữ Sơn; lời kể nêu cách hiểu của nhà nghiên cứu và nói rõ là cách hiểu.
 
 ### Ghi chú độ chắc
 - **Lộ Lạng Giang, Lạng Châu, trấn Lạng Giang, năm 1397 (đoạn 3–5):** Báo Pháp luật ("Tự hào về lịch sử hình thành và phát triển của Lạng Sơn"): thời Lý lộ Lạng Giang; đầu thời Trần lộ Lạng Châu, sau đổi trấn Lạng Giang; năm 1397 đổi thành trấn Lạng Sơn. Đinh Quang Hải (Tạp chí Khoa học ĐH Huế): đời Lý gọi là lộ, đầu đời Trần là trấn Lạng Giang, thời thuộc Minh gọi phủ Lạng Sơn.
@@ -93,7 +93,38 @@ Bản đồ 34 tỉnh, tô Lạng Sơn; chấm thành phố Lạng Sơn, ải Ch
 
 
 ### Sửa 13/11/2026 (chủ kênh yêu cầu)
-- Gọi "vua Minh Mạng" thay cho "vua Minh Mệnh" trong lời kể, thống nhất với các tập #12 đến #14.
+1. Vùng đất này từng có hai cái tên, một mang chữ sông, một mang chữ núi.
+2. Chữ Giang là sông, chữ Sơn là núi. Lạng Giang và Lạng Sơn đã cùng gọi xứ biên giới phía bắc này suốt nhiều thế kỷ.
+3. Thời Lý, nơi đây là lộ Lạng Châu. Sang thời Trần, sử có lúc ghi Lạng Giang và có lúc ghi Lạng Sơn.
+4. Thật ra tên Lạng Sơn đã có trong Đại Việt sử ký toàn thư từ năm 981, khi sử kể chuyện Lê Hoàn đánh quân Tống.
+5. Năm 1397, Hồ Quý Ly chuẩn bị dời kinh đô vào Thanh Hóa, nên cho đổi nhiều lộ và phủ thành trấn.
+6. Phủ Lạng Sơn từ đó thành trấn Lạng Sơn, và chữ Sơn đứng hẳn trong tên gọi của vùng đất này.
+7. Sử không chép vì sao chọn chữ Sơn. Có nhà nghiên cứu hiểu Lạng Sơn là miền đất Lạng nhiều núi, còn Lạng Giang là miền đất Lạng nhiều sông.
+8. Còn chữ Lạng, nhà nghiên cứu Nguyễn Duy Hinh cho rằng nó bắt nguồn từ chữ Lũng trong tiếng Tày Nùng cổ, nghĩa là thung lũng.
+9. Cái tên Lạng Giang thì ở lại vùng sông Thương phía nam, nay là tên một xã của tỉnh Bắc Ninh.
+10. Khi quân Minh sang cai trị, họ gọi nơi này là phủ Lạng Sơn. Sang thời Lê, Lạng Sơn thành một thừa tuyên, đơn vị lớn gần như tỉnh.
+11. Rồi năm 1831, vua Minh Mạng đổi thừa tuyên Lạng Sơn thành tỉnh Lạng Sơn, trong đợt lập tỉnh đầu tiên ở miền Bắc.
+12. Việc lập tỉnh năm ấy còn được khắc trên mộc bản sách Đại Nam thực lục, bản dập được Bảo tàng tỉnh sưu tầm để trưng bày.
+13. Thế kỷ hai mươi, ranh giới tỉnh còn đổi thêm. Năm 1956, huyện Hữu Lũng được chuyển từ tỉnh Bắc Giang về Lạng Sơn.
+14. Đến năm 2025, khi cả nước gộp còn ba mươi tư tỉnh thành, Lạng Sơn là một trong mười một nơi được giữ nguyên.
+15. Từ khi thành tên trấn năm 1397, cái tên Lạng Sơn đã đứng trên bản đồ hơn sáu trăm năm.
+16. Bạn đã từng qua ải Chi Lăng, hay lên đỉnh Mẫu Sơn chưa?
 
 ### Giọng đọc 13/11/2026 (chủ kênh duyệt)
 - Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.
+
+### Sửa lần 2, 13/11/2026 (chủ kênh yêu cầu giải thích vì sao đổi tên sông sang tên núi)
+- **Bỏ ý "đổi từ tên sông sang tên núi năm 1397"** vì không đứng vững: Toàn thư chép tháng 4 năm Đinh Sửu (1397) Hồ Quý Ly muốn dời kinh đô vào Thanh Hóa nên đổi các lộ, phủ làm trấn, trong đó "Lạng Sơn phủ làm Lạng Sơn trấn" (dẫn lại trong Lịch sử – Văn hóa Nghi Lộc). Vậy trước 1397 đã có phủ Lạng Sơn; việc năm 1397 là đổi cấp. Sở VHTTDL Lạng Sơn ghi "đổi trấn Lạng Giang làm trấn Lạng Sơn", và ghi thời Trần "lộ Lạng Châu (có khi gọi là Lạng Giang)".
+- **Tên Lạng Sơn từ năm 981 (đoạn 4):** Văn hóa và Phát triển, Báo Lạng Sơn: địa danh Lạng Sơn xuất hiện trong Toàn thư thời Tiền Lê (981) khi Lê Hoàn chống Tống; sau đó có khi ghi Lạng Sơn, có khi Châu Lạng hoặc Lạng Giang.
+- **Lý do chọn chữ Sơn (đoạn 7):** sử không chép. Cách hiểu "miền đất Lạng có nhiều núi non" và "miền đất Lạng có nhiều sông nước" là của tác giả bài "Xuân theo sông Thương" (Báo Bắc Giang); lời kể nói "có nhà nghiên cứu hiểu".
+- **Chữ Lạng (đoạn 8):** giả thuyết của Nguyễn Duy Hinh tại hội thảo "Xứ Lạng – Lạng Sơn" tháng 10/1986 (Báo Lạng Sơn): Lạng là từ Hán Việt cổ bắt nguồn từ Lũng trong tiếng Tày Nùng; Văn hóa và Phát triển: xứ Lạng là xứ của những thung lũng.
+- **Lạng Giang ở lại vùng sông Thương (đoạn 9):** Báo Bắc Giang (chữ Lạng trong tên sông Thương và miền đất đôi bờ); Wikipedia: xã Lạng Giang, tỉnh Bắc Ninh.
+- **Hook đổi** thành "Vùng đất này từng có hai cái tên, một mang chữ sông, một mang chữ núi." Tiêu đề cũ "Lạng Sơn từng mang tên một dòng sông?" vẫn đúng (Lạng Giang từng gọi vùng này); tiêu đề chương "từ tên sông sang tên núi" nên đổi thành "một chữ sông, một chữ núi".
+- **Video đã dựng theo bản cũ**, chủ kênh chưa yêu cầu đọc lại giọng và dựng lại.
+- Nguồn thêm:
+  - Sở VHTTDL Lạng Sơn, "Địa danh Lạng Sơn qua các thời kỳ": https://sovhtt.langson.gov.vn/dia-danh-lang-son-qua-cac-thoi-ky
+  - Báo Lạng Sơn, "Tìm hiểu chữ Lạng trong địa danh Lạng Sơn": https://baolangson.vn/tim-hieu-chu-lang-trong-dia-danh-lang-son-1051644.html
+  - Văn hóa và Phát triển, "Xứ Lạng, dáng núi hồn sông": https://vanhoavaphattrien.vn/xu-lang-dang-nui-hon-song-a23660.html
+  - Lịch sử – Văn hóa Nghi Lộc (dẫn Toàn thư năm 1397): https://nghiloc.nghean.gov.vn/van-hoa-lich-su/lich-su-van-hoa-487977
+  - Báo Bắc Giang, "Xuân theo sông Thương": https://baobacninhtv.vn/bg2/dulichbg/xuan-theo-song-thuong.bbg
+  - Wikipedia, xã Lạng Giang (Bắc Ninh): https://en.wikipedia.org/wiki/L%E1%BA%A1ng_Giang,_B%E1%BA%AFc_Ninh

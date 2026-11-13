@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #19 Quảng Trị (mã tn19)
 
-13 đoạn, 299 chữ đọc (năm viết bằng chữ), ước tính khoảng 91 giây. Chưa đọc giọng, chưa dựng. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+14 đoạn, 334 chữ đọc (năm viết bằng chữ), ước tính khoảng 102 giây. Bản sửa lần 2 (13/11); video đã dựng theo bản cũ. Giọng Leda như cả loạt. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Quảng Trị: ba lần chung nhà với Quảng Bình
 
@@ -91,8 +91,29 @@ Bản đồ 34 tỉnh, tô Quảng Trị (ranh giới hiện nay); khung Quảng
 
 
 ### Sửa 13/11/2026 (chủ kênh yêu cầu)
-- Gọi "vua Minh Mạng" thay cho "vua Minh Mệnh" trong lời kể, thống nhất với các tập #12 đến #14.
+1. Đây không phải lần đầu Quảng Bình và Quảng Trị về chung một nhà.
+2. Hai vùng đất nằm sát nhau trên dải đất hẹp miền Trung đã nhiều lần gộp vào rồi lại tách ra, suốt gần hai trăm năm.
+3. Đầu thời Nguyễn, thành Quảng Trị được dựng bên dòng sông Thạch Hãn, và cái tên Quảng Trị đã gắn với vùng đất này.
+4. Chữ Quảng là rộng, chữ Trị là cai quản, nên cái tên thường được hiểu là vùng đất rộng lớn được cai quản tốt.
+5. Năm 1831, vua Minh Mạng đặt Quảng Bình và Quảng Trị dưới quyền một Tổng đốc Bình Trị, dinh đặt ở Đồng Hới.
+6. Hai tỉnh vẫn riêng, nhưng chung một người đứng đầu. Đó mới là lần gần nhau, chưa phải lần chung nhà.
+7. Năm 1890, người Pháp gộp hai tỉnh thành tỉnh Bình Trị, đặt dưới quyền công sứ Đồng Hới. Đây là lần chung nhà thứ nhất.
+8. Chỉ sáu năm sau, năm 1896, Quảng Trị rời quyền công sứ Đồng Hới, và năm 1900 thành tỉnh riêng.
+9. Lần chung nhà thứ hai đến sau ngày đất nước thống nhất, và lần này còn có cả Thừa Thiên.
+10. Năm 1976, ba tỉnh gộp thành tỉnh Bình Trị Thiên, trụ sở đặt ở Huế.
+11. Tỉnh lớn ấy tồn tại mười ba năm. Đến năm 1989, Bình Trị Thiên lại chia về ba tỉnh như cũ.
+12. Năm 2025 là lần thứ ba. Quảng Bình và Quảng Trị gộp lại, lấy tên Quảng Trị, trụ sở đặt ở Đồng Hới.
+13. Gần hai trăm năm sau thời Tổng đốc Bình Trị, Đồng Hới lại là nơi điều hành cả vùng đất của hai tỉnh.
+14. Bạn đã từng ghé thành cổ Quảng Trị, hay tắm biển Nhật Lệ ở Đồng Hới chưa?
 
 ### Giọng đọc 13/11/2026 (chủ kênh duyệt)
 - Trường đọc giọng (`text`) ghi năm bằng chữ số, phụ đề (`hien`) giữ chữ số; kiểm năm bằng nhận dạng không gợi ý.
 - Đã dựng và giao 13/11/2026 (giọng lượt 1, mọi năm đúng theo nhận dạng không gợi ý).
+
+### Sửa lần 2, 13/11/2026 (chủ kênh yêu cầu nói nghĩa tên Quảng Trị)
+- **Thêm đoạn 4:** "Chữ Quảng là rộng, chữ Trị là cai quản, nên cái tên thường được hiểu là vùng đất rộng lớn được cai quản tốt."
+- **Nguồn:** Vietcetera (câu chuyện tên tỉnh, phần 2): Quảng (廣) là rộng, Trị (治) là cai trị, điều hành; ghép lại là "một vùng đất rộng lớn được cai quản tốt". Wikipedia: tên Hán Việt Quảng Trị (廣治) do các nhà nho đặt. Lời kể dùng "thường được hiểu" vì sử không chép lời giải thích khi đặt tên.
+- **Video đã dựng theo bản cũ**, chủ kênh chưa yêu cầu đọc lại giọng và dựng lại.
+- Nguồn thêm:
+  - Vietcetera: https://vietcetera.com/en/the-stories-behind-vietnams-province-names-part-2-north-central-coast-highland
+  - Wikipedia, Quảng Trị (phường): https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Tr%E1%BB%8B

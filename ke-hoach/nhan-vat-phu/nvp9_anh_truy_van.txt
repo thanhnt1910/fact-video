@@ -1,9 +1,19 @@
 # mục của bài | truy vấn Wikimedia Commons (tiếng Việt và tiếng Anh)
-Thăng Long (Mạc Đăng Dung là ai?) | Hoàng thành Thăng Long
-Thăng Long (Mạc Đăng Dung là ai?) | Thang Long Imperial Citadel
-Hải Phòng (Mạc Đăng Dung là ai?) | Kiến Thụy Hải Phòng
-Hải Phòng (Mạc Đăng Dung là ai?) | Do Son Hai Phong
+Chân dung/tượng (Mạc Đăng Dung là ai?) | Mạc Đăng Dung
+Chân dung/tượng (Mạc Đăng Dung là ai?) | Tượng Mạc Đăng Dung
+Chân dung/tượng (Mạc Đăng Dung là ai?) | Đền thờ Mạc Đăng Dung
+Chân dung/tượng (Mạc Đăng Dung là ai?) | Mac Dang Dung
+Nhà Mạc (Mạc Đăng Dung là ai?) | Nhà Mạc
+Nhà Mạc (Mạc Đăng Dung là ai?) | Mac dynasty Vietnam
+Cổ Trai (Mạc Đăng Dung là ai?) | Cổ Trai Kiến Thụy Hải Phòng
+Cổ Trai (Mạc Đăng Dung là ai?) | Đền Cổ Trai
+Lê Chiêu Tông (Năm 1518) | Lê Chiêu Tông
+Lê Chiêu Tông (Năm 1518) | Nhà Lê sơ
+Thăng Long (Đêm 27 tháng 7) | Hoàng thành Thăng Long
+Gia Tĩnh (Xin nhà Minh công nhận) | Jiajing Emperor portrait
+Gia Tĩnh (Xin nhà Minh công nhận) | Minh Thế Tông
 Trấn Nam Quan (Tháng 11 năm 1540) | Cửa khẩu Hữu Nghị Lạng Sơn
 Trấn Nam Quan (Tháng 11 năm 1540) | Friendship Pass Vietnam China
-Văn Miếu (Năm 1527) | Văn Miếu Quốc Tử Giám
-Văn Miếu (Năm 1527) | Temple of Literature Hanoi
+Lạng Sơn (Tháng 11 năm 1540) | Thành nhà Mạc Lạng Sơn
+Bản đồ (Xin nhà Minh công nhận) | Map Vietnam 16th century Mac dynasty
+Văn Miếu (Năm 1527) | Bia tiến sĩ khoa thi nhà Mạc

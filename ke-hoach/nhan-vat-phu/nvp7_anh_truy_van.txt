@@ -1,9 +1,21 @@
 # mục của bài | truy vấn Wikimedia Commons (tiếng Việt và tiếng Anh)
-Thăng Long (Lê Chiêu Thống là ai?) | Hoàng thành Thăng Long
-Thăng Long (Lê Chiêu Thống là ai?) | Thang Long Imperial Citadel
-Bắc Kinh (Những năm ở Bắc Kinh) | Tử Cấm Thành Bắc Kinh
-Bắc Kinh (Những năm ở Bắc Kinh) | Forbidden City Beijing
-Bàn Thạch (Chốt lại) | Thanh Hóa Lam Kinh
-Bàn Thạch (Chốt lại) | Lam Kinh Thanh Hoa
+Chân dung/tượng (Lê Chiêu Thống là ai?) | Lê Chiêu Thống
+Chân dung/tượng (Lê Chiêu Thống là ai?) | Lê Duy Kỳ
+Chân dung/tượng (Lê Chiêu Thống là ai?) | Le Chieu Thong
+Vua Lê (Lê Chiêu Thống là ai?) | Lê Hiển Tông
+Vua Lê (Lê Chiêu Thống là ai?) | Vua Lê chúa Trịnh
+Càn Long (Xin quân nhà Thanh) | Qianlong Emperor portrait
+Càn Long (Xin quân nhà Thanh) | Càn Long hoàng đế
+Tôn Sĩ Nghị (Ngày 19 tháng 12 năm 1788) | Sun Shiyi
+Tôn Sĩ Nghị (Ngày 19 tháng 12 năm 1788) | Tôn Sĩ Nghị
+Quang Trung (Dịp Tết năm 1789) | Quang Trung Nguyễn Huệ tượng
+Quang Trung (Dịp Tết năm 1789) | Tranh Quang Trung
+Quang Trung (Dịp Tết năm 1789) | Đền thờ Quang Trung
 Đống Đa (Dịp Tết năm 1789) | Gò Đống Đa
-Đống Đa (Dịp Tết năm 1789) | Dong Da mound Hanoi
+Đống Đa (Dịp Tết năm 1789) | Trận Ngọc Hồi Đống Đa tranh
+Bản đồ (Mấy lần đổi chủ) | Bản đồ Đại Việt thế kỷ 18
+Bản đồ (Mấy lần đổi chủ) | Map Tay Son dynasty Vietnam
+Tây Sơn (Mấy lần đổi chủ) | Nhà Tây Sơn
+Thăng Long (Mấy lần đổi chủ) | Thăng Long thế kỷ 18
+Bắc Kinh (Những năm ở Bắc Kinh) | Beijing Qing dynasty Eight Banners
+Lam Kinh (Chốt lại) | Lam Kinh Thanh Hóa

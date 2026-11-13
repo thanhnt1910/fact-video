@@ -120,16 +120,18 @@ Cần phân biệt:
 • Phần "Nhìn lại" là cách hiểu của người viết khi đặt các sự việc cạnh nhau, không phải điều các nguồn chép. Phần này không kết luận một nguyên nhân duy nhất và không nêu ý nghĩ của nhân vật.
 
 Ảnh (Wikimedia Commons):
-• Ảnh 1 và 2: Khu trung tâm Hoàng thành Thăng Long, katiebordner, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg và https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_(26246667851).jpg
-• Ảnh 3 và 4: Sông Kim Thủy ở Tử Cấm Thành, Bắc Kinh, xiquinhosilva, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Golden_Water_River_at_the_Forbidden_City_01.jpg và https://commons.wikimedia.org/wiki/File:Golden_Water_River_at_the_Forbidden_City_02.jpg
+• Ảnh 1: Sắc chỉ ngày 22 tháng 3 năm Chiêu Thống nguyên niên (1787), do triều Lê Trung hưng ban, phạm vi công cộng (bản chụp của Bùi Quang Tuấn, 2021) — https://commons.wikimedia.org/wiki/File:Chiêu_Thống_nguyên_niên_tam_nguyệt_nhị_thập_nhị_nhật_(1787)_Sắc_-_Bùi_Quang_Tuấn_(4_July_2021).jpg
+• Ảnh 2: Tiền "Chiêu Thống chính bảo", Jean-Michel Moullec, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:An32_Le_Man_De_Chieu_Thong_Chinh_1ar_(12268944275).jpg
+• Ảnh 3: Vua Càn Long mặc giáp lễ phục cưỡi ngựa, Giuseppe Castiglione, phạm vi công cộng — https://commons.wikimedia.org/wiki/File:The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg
+• Ảnh 4: Bản đồ vị trí tám cờ (Bát kỳ) ở Bắc Kinh, trích từ Bát kỳ thông chí sơ tập, phạm vi công cộng — trang Commons tìm theo tên "北京八旗方位全圖"
 • Ảnh 5: Tượng Quang Trung ở gò Đống Đa, Bình Giang (vi.wikipedia), phạm vi công cộng — https://commons.wikimedia.org/wiki/File:Go_Dong_Da_3.JPG
-Đây là ảnh hiện nay, không phải ảnh thời Lê Chiêu Thống; không có chân dung đáng tin.
+Không có chân dung Lê Chiêu Thống đáng tin trong nguồn tự do. Ảnh 1 và 2 là hiện vật cùng thời; ảnh 3 là tranh vua Càn Long (không phải tranh về sự kiện 1788); ảnh 4 là bản đồ chỉ để minh họa chế độ Bát kỳ; ảnh 5 là ảnh hiện nay.
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #LeChieuThong #NhaLe #TaySon #QuangTrung #LichSu
 
-## Kế hoạch ảnh (đã chạy workflow nvp7, 13/11/2026)
-5 ảnh ở `anh/01–05.jpg`: 01, 02 Thăng Long (đầu bài và mục "Thăng Long mấy lần đổi chủ"); 03, 04 Tử Cấm Thành (mục "Những năm ở Bắc Kinh"); 05 gò Đống Đa (mục "Dịp Tết năm 1789"). Không tìm được ảnh phù hợp cho Bàn Thạch (kết quả là hiện vật Lam Kinh và ảnh không liên quan); bỏ. Mã: `nvp7`. Truy vấn nằm ở `ke-hoach/nhan-vat-phu/nvp7_anh_truy_van.txt`. Gợi ý đặt: ảnh đầu bài là Hoàng thành Thăng Long; ảnh gần mục "Những năm ở Bắc Kinh" là Tử Cấm Thành hoặc phố cổ Bắc Kinh (ảnh hiện nay); ảnh gần mục chốt là khu Lam Kinh hoặc Bàn Thạch, Thanh Hóa. Ảnh sẽ là ảnh hiện nay, không phải ảnh thời Lê Chiêu Thống; không có chân dung đáng tin.
+## Kế hoạch ảnh (đã chạy workflow nvp7 hai lần, 13/11/2026)
+5 ảnh ở `anh/01–05.jpg`: 01 sắc chỉ năm Chiêu Thống nguyên niên (đầu bài); 02 tiền Chiêu Thống chính bảo (mục "Lê Chiêu Thống là ai?"); 03 tranh Càn Long (mục "Xin quân nhà Thanh"); 04 bản đồ Bát kỳ Bắc Kinh (mục "Những năm ở Bắc Kinh"); 05 tượng Quang Trung ở Đống Đa (mục "Dịp Tết năm 1789"). Lần chạy đầu chỉ ra ảnh địa danh trùng cảnh nên đã thay bằng lần chạy thứ hai có truy vấn hiện vật, chân dung, tranh, bản đồ. Không tìm được chân dung Lê Chiêu Thống và Tôn Sĩ Nghị có giấy phép tự do.
 
 ## Mục "Ghi chú độ chắc"
 Tất cả mục ở mức 🟡 vì chưa đọc sách gốc. "WP" = Wikipedia tiếng Anh. "NDC" = Nguyễn Duy Chính (tóm tắt trên vjol/hutech). "TNL" = Tạ Ngọc Liễn (vjol).

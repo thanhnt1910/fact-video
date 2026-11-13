@@ -1,6 +1,6 @@
 # Bài 7: Lê Chiêu Thống, vị vua cuối nhà Lê cầu quân nhà Thanh và mất ngôi sau chưa đầy hai tháng
 
-Trạng thái: **bản nháp CHƯA ĐỦ NGUỒN GỐC**, chờ chủ kênh duyệt (13/11/2026). Chưa tìm ảnh (chờ chủ kênh cho chạy workflow).
+Trạng thái: **bản nháp CHƯA ĐỦ NGUỒN GỐC**, chờ chủ kênh duyệt (13/11/2026). Đã chạy workflow nvp7 (13/11/2026), chọn 5 ảnh.
 
 **Về nguồn (quan trọng):** Đại Việt sử ký toàn thư dừng ở năm 1675 nên không chép thời Lê Chiêu Thống. Các sách gốc của thời này (Khâm định Việt sử thông giám cương mục, Đại Nam thực lục, Lê quý kỷ sự) không mở được trong môi trường làm việc này. Bài dựa vào nguồn phụ trên mạng đã đọc, và chỉ đọc phần tóm tắt của các bài tạp chí:
 • Nguyễn Duy Chính, "Tạ biểu của vua Chiêu Thống sau khi được phong An Nam Quốc Vương", tạp chí Nghiên cứu và Phát triển (vjol.info.vn/ncpt-hue/article/view/94694), tóm tắt.
@@ -119,13 +119,17 @@ Cần phân biệt:
 • Các chi tiết về việc Lê Quýnh và bề tôi ở Trung Quốc, chuyện cạo tóc theo lệ nhà Thanh: bài chưa đưa vào vì chưa kiểm nguồn.
 • Phần "Nhìn lại" là cách hiểu của người viết khi đặt các sự việc cạnh nhau, không phải điều các nguồn chép. Phần này không kết luận một nguyên nhân duy nhất và không nêu ý nghĩ của nhân vật.
 
-Ảnh: chưa có (chưa chạy workflow tìm ảnh).
+Ảnh (Wikimedia Commons):
+• Ảnh 1 và 2: Khu trung tâm Hoàng thành Thăng Long, katiebordner, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg và https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi_(26246667851).jpg
+• Ảnh 3 và 4: Sông Kim Thủy ở Tử Cấm Thành, Bắc Kinh, xiquinhosilva, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Golden_Water_River_at_the_Forbidden_City_01.jpg và https://commons.wikimedia.org/wiki/File:Golden_Water_River_at_the_Forbidden_City_02.jpg
+• Ảnh 5: Tượng Quang Trung ở gò Đống Đa, Bình Giang (vi.wikipedia), phạm vi công cộng — https://commons.wikimedia.org/wiki/File:Go_Dong_Da_3.JPG
+Đây là ảnh hiện nay, không phải ảnh thời Lê Chiêu Thống; không có chân dung đáng tin.
 
 ## Hashtag
 #NguoiGacSu #LichSuVietNam #LeChieuThong #NhaLe #TaySon #QuangTrung #LichSu
 
-## Kế hoạch ảnh (chưa chạy workflow)
-Mã dự kiến: `nvp7`. Truy vấn nằm ở `ke-hoach/nhan-vat-phu/nvp7_anh_truy_van.txt`. Gợi ý đặt: ảnh đầu bài là Hoàng thành Thăng Long; ảnh gần mục "Những năm ở Bắc Kinh" là Tử Cấm Thành hoặc phố cổ Bắc Kinh (ảnh hiện nay); ảnh gần mục chốt là khu Lam Kinh hoặc Bàn Thạch, Thanh Hóa. Ảnh sẽ là ảnh hiện nay, không phải ảnh thời Lê Chiêu Thống; không có chân dung đáng tin.
+## Kế hoạch ảnh (đã chạy workflow nvp7, 13/11/2026)
+5 ảnh ở `anh/01–05.jpg`: 01, 02 Thăng Long (đầu bài và mục "Thăng Long mấy lần đổi chủ"); 03, 04 Tử Cấm Thành (mục "Những năm ở Bắc Kinh"); 05 gò Đống Đa (mục "Dịp Tết năm 1789"). Không tìm được ảnh phù hợp cho Bàn Thạch (kết quả là hiện vật Lam Kinh và ảnh không liên quan); bỏ. Mã: `nvp7`. Truy vấn nằm ở `ke-hoach/nhan-vat-phu/nvp7_anh_truy_van.txt`. Gợi ý đặt: ảnh đầu bài là Hoàng thành Thăng Long; ảnh gần mục "Những năm ở Bắc Kinh" là Tử Cấm Thành hoặc phố cổ Bắc Kinh (ảnh hiện nay); ảnh gần mục chốt là khu Lam Kinh hoặc Bàn Thạch, Thanh Hóa. Ảnh sẽ là ảnh hiện nay, không phải ảnh thời Lê Chiêu Thống; không có chân dung đáng tin.
 
 ## Mục "Ghi chú độ chắc"
 Tất cả mục ở mức 🟡 vì chưa đọc sách gốc. "WP" = Wikipedia tiếng Anh. "NDC" = Nguyễn Duy Chính (tóm tắt trên vjol/hutech). "TNL" = Tạ Ngọc Liễn (vjol).

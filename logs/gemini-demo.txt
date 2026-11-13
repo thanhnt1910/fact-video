@@ -1,38 +1,39 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Làm sao biết Trái Đất bao nhiêu tuổi, khi chẳng ai
-OK Leda 02: Nhưng đáp án nằm ngay trong những viên đá dưới châ
-OK Leda 03: Hóa ra mỗi viên đá giữ một chiếc đồng hồ chạy bằng
-OK Leda 04: Vậy chiếc đồng hồ ấy chạy thế nào?
-OK Leda 05: Trước đó, người xưa chỉ có thể đoán tuổi Trái Đất 
+OK Leda 01: Làm sao biết Mặt Trăng ở xa bao nhiêu, chính xác đ
+OK Leda 02: Nhưng ta không thể căng một cuộn thước dây từ Trái
+OK Leda 03: Hóa ra ta chỉ cần một tia sáng và một chiếc đồng h
+OK Leda 04: Vậy tia sáng ấy đo khoảng cách bằng cách nào?
+OK Leda 05: Người xưa chưa có tia sáng ấy, họ chỉ có đôi mắt v
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Năm một nghìn sáu trăm năm mươi, một giáo sĩ cộng 
-OK Leda 07: Ông Át-sơ ra năm bốn nghìn lẻ bốn trước Công nguyê
-OK Leda 08: Sang thế kỷ mười chín, nhà vật lý Ken-vin nghĩ Trá
-OK Leda 09: Giống một cốc nước nóng: đo nó nguội nhanh cỡ nào,
+OK Leda 06: Họ cùng nhìn một lần nhật thực, lúc Mặt Trăng che 
+OK Leda 07: Ở thành phố này, Mặt Trời bị che hoàn toàn, còn ở 
+OK Leda 08: Giống như bạn đưa ngón tay che một ngọn đèn: đổi c
+OK Leda 09: Nhà thiên văn Hy Lạp Hi-pác-cơ dùng độ lệch ấy để 
+OK Leda 10: Ông tính ra Mặt Trăng xa khoảng sáu mươi đến bảy m
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Năm một nghìn tám trăm chín mươi bảy, ông tính ra 
-OK Leda 11: Nhưng cách tính ấy bỏ sót một điều: lòng đất có th
-OK Leda 12: Nguyên tố phóng xạ tự phân rã và tỏa nhiệt, nên Tr
-OK Leda 13: Chính những nguyên tố ấy lại là chiếc đồng hồ nằm 
+OK Leda 11: Như vậy là đúng cỡ độ lớn, nhưng độ lệch ấy rất nh
+OK Leda 12: Muốn chính xác hơn, ta cần một cách đo không dựa v
+OK Leda 13: Ánh sáng chạy rất đều, mỗi giây đi được khoảng ba 
+OK Leda 14: Vậy muốn biết quãng đường, ta chỉ cần biết ánh sán
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Nguyên tử u-ra-ni-um tự biến thành chì, đều đặn đế
-OK Leda 15: Hãy nghĩ tới túi bánh: mỗi buổi bạn ăn đúng một nử
-OK Leda 16: U-ra-ni-um cũng vậy: sau một khoảng cố định, còn l
-OK Leda 17: Với u-ra-ni-um hai trăm ba mươi tám, chu kỳ bán rã
+OK Leda 15: Như ném bóng vào tường rồi bắt lại: thời gian đi v
+OK Leda 16: Vì vậy, khoảng cách bằng tốc độ nhân thời gian, rồ
+OK Leda 17: Năm một nghìn chín trăm sáu mươi chín, đoàn A-pô-l
+OK Leda 18: Nó giống miếng phản quang trên xe đạp: ánh sáng ch
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 18: Giả sử lúc đầu viên đá có một trăm nguyên tử u-ra-
-OK Leda 19: Sau một chu kỳ, còn lại một trăm chia hai, bằng nă
-OK Leda 20: Sau hai chu kỳ, còn lại năm mươi chia hai, bằng ha
-OK Leda 21: Vậy tuổi của đá bằng số chu kỳ đã qua, nhân với th
-OK Leda 22: Nếu trong đá, u-ra-ni-um và chì nhiều bằng nhau, t
-OK Leda 23: Khi đó đá có tuổi một nhân bốn phẩy năm, bằng bốn 
+OK Leda 19: Tháng tám cùng năm, đài thiên văn Lích ở bang Ca-l
+OK Leda 20: Xung ấy có hơn một nghìn tỉ hạt ánh sáng, nhưng ch
+OK Leda 21: Họ bấm giờ từ lúc bắn đến lúc nhận lại, và thấy mấ
+OK Leda 22: Trước hết, ánh sáng đi cả đi lẫn về, nên quãng đườ
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 24: Nhưng đá trên mặt đất liên tục tan chảy rồi trộn l
-OK Leda 25: Còn thiên thạch, những mảnh đá rơi từ vũ trụ xuống
-OK Leda 26: Năm một nghìn chín trăm năm mươi sáu, ông Pát-tơ-s
-OK Leda 27: Ông ra bốn tỉ rưỡi năm, chênh lệch chưa tới một tr
+OK Leda 23: Ra bảy trăm năm mươi nghìn ki-lô-mét.
+OK Leda 24: Quãng ấy gồm đường đi và đường về, nên ta chia đôi
+OK Leda 25: Bảy trăm năm mươi nghìn chia hai bằng ba trăm bảy 
+OK Leda 26: Số thật trung bình là khoảng ba trăm tám mươi tư n
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 28: Mẫu bùn dưới đáy biển cũng nằm đúng trên đường ấy,
-OK Leda 29: Ngày nay, phép đo mới cho kết quả gần như vậy, kho
-OK Leda 30: Bốn tỉ rưỡi chia sáu nghìn, ra hơn bảy trăm nghìn 
-OK Leda 31: Vậy tuổi Trái Đất được đọc ra từ chiếc đồng hồ ngu
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 27: Ta chỉ lệch chưa tới ba phần trăm, vì đã làm tròn 
+OK Leda 28: Các nhà khoa học đo thời gian kỹ hơn nhiều, nên kh
+OK Leda 29: Một mi-li-mét chỉ bằng độ dày của khoảng mười tờ g
+OK Leda 30: Nhờ vậy, ta còn biết Mặt Trăng đang xa Trái Đất th
+OK Leda 31: Vậy ta biết Mặt Trăng xa bao nhiêu nhờ đo thời gia

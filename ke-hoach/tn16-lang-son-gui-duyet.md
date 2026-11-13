@@ -128,3 +128,4 @@ Bản đồ 34 tỉnh, tô Lạng Sơn; chấm thành phố Lạng Sơn, ải Ch
   - Lịch sử – Văn hóa Nghi Lộc (dẫn Toàn thư năm 1397): https://nghiloc.nghean.gov.vn/van-hoa-lich-su/lich-su-van-hoa-487977
   - Báo Bắc Giang, "Xuân theo sông Thương": https://baobacninhtv.vn/bg2/dulichbg/xuan-theo-song-thuong.bbg
   - Wikipedia, xã Lạng Giang (Bắc Ninh): https://en.wikipedia.org/wiki/L%E1%BA%A1ng_Giang,_B%E1%BA%AFc_Ninh
+- Dựng lại 13/11/2026 theo bản sửa lần 2 (16 đoạn), năm ghi chữ số cho giọng đọc; mọi năm đúng theo nhận dạng không gợi ý.

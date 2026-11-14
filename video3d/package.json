@@ -1,0 +1,8 @@
+{
+  "name": "video3d",
+  "private": true,
+  "description": "Engine dựng video 3D bằng Three.js (sa bàn, thủy chiến)",
+  "dependencies": {
+    "three": "0.187.0"
+  }
+}

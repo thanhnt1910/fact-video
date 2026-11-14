@@ -1,0 +1,83 @@
+import json
+B=[]
+def wall(a,b,h=2.6): B.append({"type":"wall","from":a,"to":b,"h":h})
+# perimeter
+X=38; ZN=330
+wall([-X,0],[-X,ZN]); wall([X,0],[X,ZN]); wall([-X,ZN],[X,ZN])
+for z,gap in [(0,10),(75,10),(135,6),(200,10),(268,9)]:
+    wall([-X,z],[-gap,z]); wall([gap,z],[X,z])
+B.append({"type":"gate","pos":[0,0],"cw":9,"ch":5.6,"d":6,"sw":5,"sh":3.8,"tiers":2,"plaque":"文廟門"})
+B.append({"type":"gate","pos":[0,75],"cw":8,"ch":5,"d":5.5,"sw":4.5,"sh":3.4,"tiers":1,"plaque":"大中門"})
+B.append({"type":"khueVanCac","pos":[0,135],"s":7.2})
+for x in (-20,20): B.append({"type":"gate","pos":[x,135],"cw":4,"ch":3.4,"d":3,"sides":False,"tiers":1})
+B.append({"type":"gate","pos":[0,200],"cw":9,"ch":5.4,"d":6,"sw":5,"sh":3.8,"tiers":1,"plaque":"大成門"})
+B.append({"type":"gate","pos":[0,268],"cw":7,"ch":4.8,"d":5,"sw":4,"sh":3.2,"tiers":1,"plaque":"太學門"})
+# khu 3: well + stele houses + stelae
+B.append({"type":"pond","pos":[0,167],"size":[24,24],"rail":True,"tint":[0.5,0.6,0.55]})
+for s in (-1,1):
+    B.append({"type":"hall","pos":[s*22,167],"rot":90,"w":50,"d":7,"colH":3.4,"base":0.5,"walls":"none","steps":False,"roofH":2.6,"spacing":4.2,"ov":1.4})
+    B.append({"type":"stelae","from":[s*21,144],"to":[s*21,190],"count":41,"rows":2,"rowGap":2.4,"face":-s})
+# khu 4
+B.append({"type":"hall","pos":[0,246],"w":38,"d":12,"colH":4.6,"walls":"all","roofH":5.2,"pearl":True})
+B.append({"type":"hall","pos":[0,261],"w":28,"d":7,"colH":3.8,"walls":"all","roofH":3.6,"steps":False})
+for s in (-1,1): B.append({"type":"hall","pos":[s*30,222],"rot":90,"w":28,"d":7,"colH":3.4,"walls":"back","roofH":3.2,"rot":90 if s<0 else -90})
+# khu 5 Thai Hoc
+B.append({"type":"hall","pos":[0,312],"w":40,"d":14,"colH":5,"tiers":2,"roofH":3.4,"upperH":3.2,"walls":"all","pearl":True})
+for s in (-1,1):
+    B.append({"type":"hall","pos":[s*31,298],"rot":90 if s<0 else -90,"w":24,"d":6.5,"colH":3.4,"walls":"back","roofH":3})
+    B.append({"type":"hall","pos":[s*19,283],"w":6,"d":6,"colH":3.6,"tiers":2,"roofH":2,"upperH":2.4,"walls":"back","spacing":3})
+# outside: lake + island pavilion + four pillars
+B.append({"type":"pond","pos":[0,-48],"size":[100,46],"rim":1.2,"tint":[0.45,0.55,0.5]})
+B.append({"type":"hall","pos":[0,-48],"w":7,"d":7,"colH":3.2,"walls":"none","roofH":2.6,"base":0.9,"steps":False,"spacing":3.5})
+for x in (-5,-2,2,5)[::1]:
+    pass
+for x in (-6.5,-2.2,2.2,6.5): B.append({"type":"wall","from":[x-0.45,-3],"to":[x+0.45,-3],"h":6.5 if abs(x)<3 else 5.5,"t":0.9,"mat":"plaster"})
+
+G=[]
+G.append({"rect":[-X,0,X,ZN],"mat":"grass","y":0.06})
+for z0,z1 in [(0,75),(75,135)]: G.append({"rect":[-3,z0,3,z1],"mat":"pave","y":0.14,"tile":2})
+G.append({"rect":[-16,135,16,200],"mat":"pave","y":0.14,"tile":2})
+G.append({"rect":[-X,200,X,ZN],"mat":"pave","y":0.14,"tile":2})
+G.append({"rect":[-60,-20,60,-3.5],"mat":"road","y":0.09})
+G.append({"rect":[-58,-3.5,58,-1],"mat":"pave","y":0.14,"tile":2})
+G.append({"rect":[-60,-100,-44,360],"mat":"road","y":0.09}); G.append({"rect":[44,-100,60,360],"mat":"road","y":0.09})
+G.append({"rect":[-60,336,60,352],"mat":"road","y":0.09})
+G.append({"rect":[-54,-76,54,-20],"mat":"grass","y":0.07})
+G.append({"rect":[-7,-53,7,-43],"mat":"grass","y":0.3})
+
+T=[{"rect":[-36,3,-4,72],"count":26,"h":[8,15]},{"rect":[4,3,36,72],"count":26,"h":[8,15]},
+   {"rect":[-36,78,-4,132],"count":20,"h":[8,14]},{"rect":[4,78,36,132],"count":20,"h":[8,14]},
+   {"rect":[-36,138,-28,198],"count":8,"h":[9,15]},{"rect":[28,138,36,198],"count":8,"h":[9,15]},
+   {"rect":[-14,204,14,232],"count":3,"h":[13,17],"avoid":[[-6,204,6,240]]},
+   {"rect":[-53,-75,53,-21],"count":26,"h":[8,13],"avoid":[[-51,-72,51,-24],[-10,-40,10,-14]]},{"rect":[-280,-200,280,560],"count":420,"h":[7,13],"avoid":[[-62,-80,62,355]]},
+   {"rect":[-43,-18,-39,340],"count":30,"h":[9,14]},{"rect":[39,-18,43,340],"count":30,"h":[9,14]}]
+Hs=[{"rect":[-280,-200,280,560],"count":320,"avoid":[[-62,-80,62,355]]}]
+C=[{"rect":[-2.5,6,2.5,72],"count":10,"alongZ":1},{"rect":[-2.5,80,2.5,130],"count":8,"alongZ":1},
+   {"rect":[-15,138,15,198],"count":14,"alongZ":0.5},{"rect":[-25,206,25,236],"count":16,"alongZ":0.5},
+   {"rect":[-20,272,20,298],"count":16,"alongZ":0.5},{"rect":[-45,-16,45,-6],"count":14,"alongZ":0},
+   {"rect":[-14,-1.5,14,-0.5],"count":5,"still":True}]
+BD=[{"count":11,"from":[160,70,-60],"to":[-160,85,160],"t0":0,"t1":9,"spread":10,"size":1.3},
+    {"count":7,"from":[-120,40,120],"to":[120,48,260],"t0":30,"t1":38,"spread":8,"size":1.3}]
+shots=[
+ {"name":"Toàn cảnh","dur":6.5,"fadeIn":1.2,"cam":{"from":{"pos":[78,150,-95],"look":[0,0,150]},"to":{"pos":[48,118,-55],"look":[0,0,165]},"fov":44,"tilt":1.0,"focus":0.55},
+  "captions":[{"style":"title","at":1.0,"dur":5.0,"cn":"文廟 - 國子監","text":"VĂN MIẾU – QUỐC TỬ GIÁM","sub":"Trường đại học đầu tiên của Việt Nam"}]},
+ {"name":"Cổng Văn Miếu","dur":6,"cam":{"from":{"pos":[0,2.6,-30],"look":[0,4.5,10]},"to":{"pos":[0.8,2.3,-10],"look":[0,6,20]},"fov":48,"tilt":0.45,"focus":0.45},
+  "captions":[{"style":"year","at":0.7,"dur":4.9,"year":"1070","text":"Vua Lý Thánh Tông cho dựng Văn Miếu","sub":"thờ Khổng Tử và các bậc hiền triết Nho giáo"}]},
+ {"name":"Khuê Văn Các","dur":6,"cam":{"orbit":{"center":[0,6,135],"look":[[0,6.5,135]],"a":[-28,22],"r":[52,47],"y":[5.5,4.2]},"fov":38,"tilt":0.5,"focus":0.52},
+  "captions":[{"at":0.8,"dur":4.7,"text":"Khuê Văn Các (dựng năm 1805)","sub":"soi bóng xuống giếng Thiên Quang, nay là biểu tượng của Hà Nội"}]},
+ {"name":"Vườn bia","dur":6,"cam":{"from":{"pos":[-15.5,2.0,145],"look":[-21.5,1.4,160]},"to":{"pos":[-15.5,2.3,176],"look":[-21.5,1.3,194]},"ease":"linear","fov":44,"tilt":0.7,"focus":0.5},
+  "captions":[{"style":"year","at":0.7,"dur":4.9,"year":"1484","text":"Vua Lê Thánh Tông cho dựng bia tiến sĩ","sub":"82 bia còn lại (1484–1780) ghi danh người đỗ qua 82 khoa thi"}]},
+ {"name":"Quốc Tử Giám","dur":6,"cam":{"from":{"pos":[-16,2.6,271],"look":[0,7,312]},"to":{"pos":[9,5.5,277],"look":[0,8,312]},"fov":48,"tilt":0.5,"focus":0.5},
+  "captions":[{"style":"year","at":0.7,"dur":4.9,"year":"1076","text":"Vua Lý Nhân Tông lập Quốc Tử Giám","sub":"ban đầu cho hoàng tử, sau mở rộng cho học trò giỏi cả nước"}]},
+ {"name":"Kết","dur":6,"fadeOut":1.4,"cam":{"from":{"pos":[45,28,240],"look":[0,0,175]},"to":{"pos":[95,175,30],"look":[0,0,170]},"fov":42,"tilt":[0.6,1.3],"focus":0.5},
+  "captions":[{"style":"title","at":0.9,"dur":4.4,"text":"KHỞI ĐẦU CỦA ĐẠI HỌC VIỆT NAM","sub":"Từ năm 1076 đến nay, gần một thiên niên kỷ"}]}]
+audio={"ambience":{"wind":0.22,"water":0.12,"birds":0.55},
+ "music":{"style":"pentatonic","gain":[[0,0],[1.5,0.5],[6,0.6],[30,0.65],[34,0.5],[36.5,0]]},
+ "cues":[{"at":0.4,"type":"bell","gain":0.55},{"at":6.6,"type":"bell","gain":0.4},{"at":24.6,"type":"bell","gain":0.45},{"at":30.6,"type":"bell","gain":0.6},{"at":30.62,"type":"taiko","gain":0.25}]}
+spec={"engine":"arch3d.js","size":[1920,1080],"fps":30,"seed":1076,
+ "world":{"groundMat":"grass","center":[0,0,150],"shadowRange":230,"sun":[-0.55,0.42,-0.3],"haze":[0.8,0.74,0.64],"fog":0.0012,"sunPower":3.4,"skyTop":[0.24,0.4,0.66]},
+ "ground":G,"buildings":B,"trees":T,"houses":Hs,"crowds":C,"birds":BD,"shots":shots,"audio":audio}
+import os
+OUT=os.path.join(os.path.dirname(os.path.abspath(__file__)),'specs','van_mieu.json')
+json.dump(spec,open(OUT,'w'),ensure_ascii=False,indent=1)
+print(sum(s['dur'] for s in shots), len(B))

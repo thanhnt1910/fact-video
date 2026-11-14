@@ -1,0 +1,489 @@
+{
+ "size": [
+  1920,
+  1080
+ ],
+ "fps": 30,
+ "seed": 2081,
+ "world": {
+  "wind": [
+   5.5,
+   0,
+   1.2
+  ],
+  "lights": [
+   {
+    "from": [
+     -60,
+     330
+    ],
+    "to": [
+     220,
+     360
+    ],
+    "count": 70,
+    "y": 1
+   },
+   {
+    "from": [
+     -330,
+     260
+    ],
+    "to": [
+     -280,
+     520
+    ],
+    "count": 40,
+    "y": 3
+   }
+  ]
+ },
+ "fleets": [
+  {
+   "id": "tao",
+   "kind": "war",
+   "rows": 4,
+   "cols": 7,
+   "origin": [
+    -20,
+    140
+   ],
+   "spacing": [
+    17,
+    20
+   ],
+   "stagger": 4,
+   "chained": true,
+   "flag": "曹",
+   "flagColor": [
+    30,
+    40,
+    72
+   ],
+   "crew": 4,
+   "ignite": {
+    "at": 10.0,
+    "spreadCol": 0.6,
+    "spreadRow": 0.35,
+    "jitter": 0.6
+   }
+  },
+  {
+   "id": "hoangcai",
+   "kind": "fire",
+   "rows": 6,
+   "cols": 1,
+   "origin": [
+    -230,
+    140
+   ],
+   "spacing": [
+    0,
+    13
+   ],
+   "stagger": -6,
+   "flag": "吳",
+   "flagColor": [
+    170,
+    30,
+    25
+   ],
+   "crew": 0,
+   "move": {
+    "by": [
+     205,
+     0
+    ],
+    "t0": 3.5,
+    "t1": 10.2,
+    "ease": "accel"
+   },
+   "ignite": {
+    "at": 5.6,
+    "spreadRow": 0.2,
+    "jitter": 0.4
+   }
+  }
+ ],
+ "volleys": [
+  {
+   "at": 14.6,
+   "dur": 3.0,
+   "count": 70,
+   "from": [
+    -120,
+    2,
+    170
+   ],
+   "spread": [
+    25,
+    35
+   ],
+   "target": "tao",
+   "flight": 2.0,
+   "height": 32
+  }
+ ],
+ "rocks": [
+  {
+   "pos": [
+    -152,
+    0,
+    112
+   ],
+   "size": [
+    34,
+    20,
+    26
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "name": "Chu Du",
+   "pos": [
+    -143,
+    20,
+    117
+   ],
+   "height": 2.0,
+   "sword": true,
+   "look": [
+    -35,
+    11,
+    178
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "name": "Toàn cảnh thủy trại",
+   "dur": 5,
+   "fadeIn": 1.0,
+   "cam": {
+    "from": {
+     "pos": [
+      -120,
+      42,
+      -30
+     ],
+     "look": [
+      25,
+      4,
+      185
+     ]
+    },
+    "to": {
+     "pos": [
+      -95,
+      32,
+      10
+     ],
+     "look": [
+      30,
+      4,
+      185
+     ]
+    }
+   },
+   "captions": [
+    {
+     "at": 0.8,
+     "dur": 3.9,
+     "text": "NĂM 208 · SÔNG TRƯỜNG GIANG",
+     "sub": "Thủy trại Tào Tháo — chiến thuyền xích liền một dải"
+    }
+   ]
+  },
+  {
+   "name": "Bám thuyền lửa",
+   "dur": 5,
+   "cam": {
+    "follow": "hoangcai:2",
+    "from": {
+     "pos": [
+      -24,
+      9,
+      -24
+     ],
+     "look": [
+      25,
+      4,
+      4
+     ]
+    },
+    "to": {
+     "pos": [
+      -16,
+      7,
+      -19
+     ],
+     "look": [
+      30,
+      4,
+      0
+     ]
+    },
+    "ease": "linear",
+    "shake": 0.5
+   },
+   "captions": [
+    {
+     "at": 0.4,
+     "dur": 4.2,
+     "text": "GIÓ ĐÔNG NỔI",
+     "sub": "Hoàng Cái châm lửa thuyền rơm, lao thẳng vào thủy trại"
+    }
+   ]
+  },
+  {
+   "name": "Va chạm",
+   "dur": 4.5,
+   "cam": {
+    "from": {
+     "pos": [
+      -58,
+      9,
+      118
+     ],
+     "look": [
+      0,
+      5,
+      160
+     ]
+    },
+    "to": {
+     "pos": [
+      -48,
+      8,
+      128
+     ],
+     "look": [
+      5,
+      5,
+      162
+     ]
+    },
+    "shake": 0.8
+   }
+  },
+  {
+   "name": "Mưa tên lửa",
+   "dur": 5,
+   "cam": {
+    "from": {
+     "pos": [
+      -96,
+      12,
+      150
+     ],
+     "look": [
+      10,
+      14,
+      175
+     ]
+    },
+    "to": {
+     "pos": [
+      -80,
+      10,
+      160
+     ],
+     "look": [
+      20,
+      8,
+      180
+     ]
+    }
+   }
+  },
+  {
+   "name": "Chu Du trên vách đá",
+   "dur": 5,
+   "cam": {
+    "from": {
+     "pos": [
+      -148.2,
+      22.5,
+      116.2
+     ],
+     "look": [
+      -40,
+      11,
+      178
+     ]
+    },
+    "to": {
+     "pos": [
+      -147.6,
+      22.3,
+      116.9
+     ],
+     "look": [
+      -30,
+      10,
+      180
+     ]
+    },
+    "fov": [
+     42,
+     38
+    ]
+   },
+   "captions": [
+    {
+     "at": 0.8,
+     "dur": 3.8,
+     "text": "CHU DU ĐỨNG TRÊN XÍCH BÍCH",
+     "sub": "nhìn đại quân Tào chìm trong biển lửa"
+    }
+   ]
+  },
+  {
+   "name": "Kết",
+   "dur": 5.5,
+   "fadeOut": 1.2,
+   "cam": {
+    "from": {
+     "pos": [
+      -60,
+      12,
+      90
+     ],
+     "look": [
+      30,
+      8,
+      175
+     ]
+    },
+    "to": {
+     "pos": [
+      -105,
+      62,
+      30
+     ],
+     "look": [
+      30,
+      4,
+      180
+     ]
+    }
+   },
+   "captions": [
+    {
+     "style": "title",
+     "at": 0.6,
+     "dur": 4.5,
+     "cn": "赤 壁",
+     "text": "HỎA CÔNG XÍCH BÍCH",
+     "sub": "Trận thủy chiến định thế chân vạc"
+    }
+   ]
+  }
+ ],
+ "audio": {
+  "ambience": {
+   "water": 0.6,
+   "wind": 0.45
+  },
+  "fire": 1.0,
+  "splash": 0.7,
+  "arrows": 0.9,
+  "ignite": 0.6,
+  "music": {
+   "gain": [
+    [
+     0,
+     0
+    ],
+    [
+     2,
+     0.22
+    ],
+    [
+     5,
+     0.28
+    ],
+    [
+     10,
+     0.4
+    ],
+    [
+     19.5,
+     0.5
+    ],
+    [
+     25.1,
+     0.75
+    ],
+    [
+     28.5,
+     0.55
+    ],
+    [
+     30,
+     0
+    ]
+   ]
+  },
+  "drums": [
+   {
+    "from": 5,
+    "to": 10,
+    "bpm": 100,
+    "pattern": "X...x...",
+    "crescendo": true,
+    "gain": 0.7
+   },
+   {
+    "from": 10,
+    "to": 19.5,
+    "bpm": 120,
+    "pattern": "X.x.X.xx",
+    "gain": 0.8
+   },
+   {
+    "from": 25.1,
+    "to": 25.5,
+    "bpm": 60,
+    "pattern": "X",
+    "gain": 1.0
+   }
+  ],
+  "cues": [
+   {
+    "at": 0.3,
+    "type": "gong",
+    "gain": 0.6
+   },
+   {
+    "at": 5.0,
+    "type": "whoosh",
+    "dur": 2.0,
+    "gain": 0.8
+   },
+   {
+    "at": 10.05,
+    "type": "boom",
+    "gain": 1.0
+   },
+   {
+    "at": 11.4,
+    "type": "horn",
+    "dur": 2.8,
+    "gain": 0.7,
+    "pan": 0.4
+   },
+   {
+    "at": 25.1,
+    "type": "boom",
+    "gain": 0.9
+   },
+   {
+    "at": 25.15,
+    "type": "gong",
+    "gain": 0.9
+   }
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+name: Dựng video 3D (Three.js, song song)
+
+# Chạy khi đẩy video3d/dung.txt trên nhánh dung-3d-sa-ban, hoặc bấm tay.
+# Dòng đầu của dung.txt: "<file spec trong video3d/specs> <số đoạn>", ví dụ: "van_mieu.json 8".
+# Mỗi đoạn dựng trên một máy riêng (tối đa 20 máy cùng lúc ở gói Free), rồi job "ghep" nối hình và trộn âm thanh.
+on:
+  push:
+    branches: [dung-3d-sa-ban]
+    paths: ['video3d/dung.txt']
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "File spec trong video3d/specs (vd: van_mieu.json). Để trống = theo dung.txt"
+        required: false
+        default: ""
+      doan:
+        description: "Số đoạn dựng song song (1–20). Để trống = theo dung.txt"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dung-3d-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  chia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      spec: ${{ steps.c.outputs.spec }}
+      n: ${{ steps.c.outputs.n }}
+      matrix: ${{ steps.c.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: c
+        run: |
+          read SPEC N < video3d/dung.txt
+          [ -n "${{ inputs.spec }}" ] && SPEC="${{ inputs.spec }}"
+          [ -n "${{ inputs.doan }}" ] && N="${{ inputs.doan }}"
+          test -f "video3d/specs/$SPEC" || { echo "Không thấy video3d/specs/$SPEC"; exit 1; }
+          [ "$N" -ge 1 ] && [ "$N" -le 20 ] || { echo "Số đoạn phải từ 1 đến 20"; exit 1; }
+          echo "spec=$SPEC" >> "$GITHUB_OUTPUT"
+          echo "n=$N" >> "$GITHUB_OUTPUT"
+          echo "matrix=$(python3 -c "import json;print(json.dumps(list(range($N))))")" >> "$GITHUB_OUTPUT"
+          echo "Dựng $SPEC chia $N đoạn"
+
+  doan:
+    needs: chia
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        idx: ${{ fromJson(needs.chia.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip, cache-dependency-path: requirements.txt }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Cài đặt (thử lại tối đa 3 lần, không apt-get update)
+        run: |
+          thu() { for i in 1 2 3; do timeout 200 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          thu python -m pip install -q playwright numpy scipy pillow imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+          ffmpeg -version | head -1
+          cd video3d && thu npm install --no-audit --no-fund --silent
+          ls /usr/bin/google-chrome
+      - name: Phông chữ (Lora, Noto Serif CJK SC)
+        run: |
+          mkdir -p ~/.fonts && cp assets/fonts/Lora-*.ttf ~/.fonts/
+          curl -fsSL --retry 3 -o ~/.fonts/NotoSerifCJKsc-Bold.otf \
+            https://github.com/notofonts/noto-cjk/raw/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf \
+            || sudo apt-get install -y -qq fonts-noto-cjk || echo "CẢNH BÁO: thiếu phông Noto Serif CJK"
+          fc-cache -f > /dev/null; fc-list | grep -iE "lora|noto serif cjk sc" | head -3
+      - name: Dựng đoạn ${{ matrix.idx }} / ${{ needs.chia.outputs.n }}
+        working-directory: video3d
+        run: |
+          nproc
+          python -u tqvideo.py doan "specs/${{ needs.chia.outputs.spec }}" ${{ matrix.idx }} ${{ needs.chia.outputs.n }} "doan_$(printf %02d ${{ matrix.idx }}).mp4"
+          if [ "${{ matrix.idx }}" = "0" ]; then python -u tqvideo.py log "specs/${{ needs.chia.outputs.spec }}" log.json; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doan-${{ matrix.idx }}
+          path: |
+            video3d/doan_*.mp4
+            video3d/log.json
+          if-no-files-found: error
+          retention-days: 3
+
+  ghep:
+    needs: [chia, doan]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt
+        run: |
+          thu() { for i in 1 2 3; do timeout 200 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          thu python -m pip install -q playwright numpy scipy imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+      - uses: actions/download-artifact@v4
+        with: { pattern: doan-*, path: video3d/out, merge-multiple: true }
+      - name: Ghép hình và âm thanh
+        working-directory: video3d
+        run: |
+          ls -la out
+          SPEC="${{ needs.chia.outputs.spec }}"; TEN="${SPEC%.json}"
+          python -u tqvideo.py ghep "specs/$SPEC" "out/$TEN.mp4" out/log.json $(ls out/doan_*.mp4 | sort)
+          ffmpeg -hide_banner -i "out/$TEN.mp4" 2>&1 | grep -E "Duration|Stream" || true
+          echo "TEN=$TEN" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ env.TEN }}
+          path: video3d/out/${{ env.TEN }}.mp4
+          retention-days: 14

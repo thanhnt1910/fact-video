@@ -22,7 +22,7 @@ ROLES = {
 }
 HDRI = {'troi_ngay': ['kloofendal_48d_partly_cloudy_puresky', 'qwantani_puresky', 'kloppenheim_06_puresky'],
         'troi_chieu': ['kloofendal_misty_morning_puresky', 'qwantani_dusk_2_puresky', 'qwantani_sunset_puresky']}
-MODELS = []   # điền sau khi xem danh_sach_mo_hinh.txt
+MODELS = ['island_tree_01', 'island_tree_02', 'island_tree_03', 'grass_medium_01', 'fern_02', 'pachira_aquatica_01', 'boulder_01', 'ceramic_pot', 'chinese_tea_table', 'chinese_stool']
 MAPS = {'diff': ['Diffuse'], 'nor': ['nor_gl'], 'rough': ['Rough', 'rough']}
 
 

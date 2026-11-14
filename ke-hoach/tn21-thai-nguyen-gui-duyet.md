@@ -73,3 +73,4 @@ Bản đồ 34 tỉnh, tô Thái Nguyên (ranh giới hiện nay, gồm Bắc K�
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Thái Nguyên 195 tuổi: vùng đất nào đã đi rồi trở về?
 - Hashtag: #NguoiGacSu #TenTinhThanh #ThaiNguyen #BacKan #BacThai #LichSuVietNam #TenGoi
+- Đã dựng và giao 14/11/2026 (giọng lượt 1, năm ghi chữ số, mọi năm đúng theo nhận dạng không gợi ý).

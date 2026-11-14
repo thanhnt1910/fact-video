@@ -82,3 +82,4 @@ Bản đồ 34 tỉnh, tô Phú Thọ (ranh giới hiện nay); khung Phú Thọ
 - Báo Pháp luật, "Tỉnh Phú Thọ tròn 130 năm": ngày 8/9/1891 lập tỉnh Hưng Hóa gồm năm huyện Tam Nông, Thanh Thủy, Sơn Vi, Thanh Ba, Phù Ninh.
 - Đoạn 6 ("từng đặt cho cả một vùng tây bắc rộng lớn") nay có Dân Trí làm nguồn, thay cho Wikipedia.
 - Bộ kiểm: `kiem_kich_ban` 0 ❌ (đoạn 3 dài 32 chữ, đúng mức tối đa); `kiem_mach_ke` 0 ❌.
+- Đã dựng và giao 14/11/2026 (giọng lượt 1, mọi năm đúng theo nhận dạng không gợi ý).

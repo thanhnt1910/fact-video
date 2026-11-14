@@ -1,0 +1,17 @@
+{
+ "the_nam": "THÁI NGUYÊN",
+ "the_trieu": "1831 · 2025",
+ "d1": "VÙNG ĐẤT NÀO",
+ "d2": "ĐI RỒI TRỞ VỀ?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #21",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#121a14\"/><g transform=\"translate(0,40)\"><circle cx=\"540\" cy=\"620\" r=\"250\" fill=\"none\" stroke=\"#fff\" stroke-width=\"10\" stroke-dasharray=\"26 16\"/><path d=\"M790 600 l-26 40 l46 6z\" fill=\"#fff\"/><g transform=\"translate(540,370) rotate(0)\"><rect x=\"-150.0\" y=\"-46\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#7fa6c4\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"52\" fill=\"#fff\" stroke=\"#7fa6c4\" stroke-width=\"7\" paint-order=\"stroke\">BẮC KẠN</text></g><g transform=\"translate(540,620) rotate(-3)\"><rect x=\"-210.0\" y=\"-46\" width=\"420\" height=\"92\" rx=\"14\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"60\" fill=\"#fff\" stroke=\"#e0a63c\" stroke-width=\"7\" paint-order=\"stroke\">THÁI NGUYÊN</text></g><g transform=\"translate(300,730) rotate(-8)\"><rect x=\"-85.0\" y=\"-46\" width=\"170\" height=\"92\" rx=\"14\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"44\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"7\" paint-order=\"stroke\">1900</text></g><g transform=\"translate(780,730) rotate(8)\"><rect x=\"-85.0\" y=\"-46\" width=\"170\" height=\"92\" rx=\"14\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"44\" fill=\"#fff\" stroke=\"#e0a63c\" stroke-width=\"7\" paint-order=\"stroke\">2025</text></g></g></svg>",
+ "chu_the": "vòng tròn nét đứt, thẻ BẮC KẠN tách khỏi rồi quay về thẻ THÁI NGUYÊN (vẽ phẳng)",
+ "co": 136
+}

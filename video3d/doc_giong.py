@@ -19,8 +19,62 @@ STYLE = ("Native Vietnamese narrator, Northern accent (Hanoi), for a calm histor
          "never rushed, never news-anchor flat. Read the text exactly, word for word, nothing added.")
 
 
+DV = ['không', 'một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín']
+
+
+def _ba(n, day):   # đọc 0..999; day = có nhóm đứng trước (đọc đủ "không trăm", "linh")
+    tr, ch, dv = n // 100, n // 10 % 10, n % 10; o = []
+    if tr or day: o += [DV[tr], 'trăm']
+    if ch > 1: o += [DV[ch], 'mươi']
+    elif ch == 1: o += ['mười']
+    elif dv and (tr or day): o += ['linh']
+    if dv: o += ['mốt' if dv == 1 and ch > 1 else 'lăm' if dv == 5 and ch >= 1 else 'tư' if dv == 4 and ch > 1 else DV[dv]]
+    return o
+
+
+def so_thanh_chu(n):
+    """Đọc số nguyên kiểu Bắc bộ, để so lời nhận dạng (hay ra chữ số) với kịch bản (viết bằng chữ)."""
+    if n == 0: return ['không']
+    nhom = []
+    while n: nhom.append(n % 1000); n //= 1000
+    ten = ['', 'nghìn', 'triệu', 'tỷ']; o = []
+    for i in range(len(nhom) - 1, -1, -1):
+        g = nhom[i]
+        if g == 0: continue
+        o += _ba(g, bool(o)) + ([ten[i]] if ten[i] else [])
+    return o
+
+
+DONG_NGHIA = {'lẻ': 'linh', 'nghìn': 'nghìn', 'ngàn': 'nghìn', 'bẩy': 'bảy', 'tư': 'bốn', 'mốt': 'một', 'lăm': 'năm', 'nhăm': 'năm', 'm2': 'mét vuông'}
+
+
+def am(w):
+    """Bỏ dấu thanh và gộp các phụ âm Whisper hay nhầm với giọng Bắc (d/gi/r, tr/ch, s/x, l/n)."""
+    import unicodedata
+    w = ''.join(c for c in unicodedata.normalize('NFD', w) if unicodedata.category(c) != 'Mn').replace('đ', 'd')
+    for a_, b_ in (('ngh', 'ng'), ('gh', 'g'), ('gi', 'z'), ('tr', 'c'), ('ch', 'c'), ('k', 'c'), ('q', 'c')):
+        if w.startswith(a_): w = b_ + w[len(a_):]; break
+    if w[:1] in ('d', 'r'): w = 'z' + w[1:]
+    if w[:1] == 's': w = 'x' + w[1:]
+    if w[:1] == 'n' and not w.startswith('ng') and not w.startswith('nh'): w = 'l' + w[1:]
+    return w
+
+
+def khop(text, asr):
+    """Tỉ lệ khớp theo âm (bỏ thanh), và tỉ lệ số tiếng nhận dạng / kịch bản (bắt bỏ câu, đọc lặp)."""
+    a, b = [am(w) for w in tieng(text)], [am(w) for w in tieng(asr)]
+    return difflib.SequenceMatcher(None, a, b).ratio(), len(b) / max(1, len(a))
+
+
 def tieng(t):
-    return re.findall(r"[0-9a-zà-ỹđ]+", t.lower())
+    t = t.lower().replace('m²', ' mét vuông')
+    t = re.sub(r"(\d)[.,](\d{3})\b", r"\1\2", t); t = re.sub(r"(\d)[.,](\d{3})\b", r"\1\2", t)
+    t = re.sub(r"(\d+)\s*m2\b", r"\1 mét vuông", t)
+    t = re.sub(r"\d+", lambda m: ' '.join(so_thanh_chu(int(m.group()))), t)
+    out = []
+    for w in re.findall(r"[a-zà-ỹđ]+", t):
+        out += DONG_NGHIA.get(w, w).split()
+    return out
 
 
 def load(p, default):
@@ -63,11 +117,20 @@ def probe(p):
     return len(r.stdout) / 32000.0
 
 
-def kiem(src, out, nguong=0.85):
-    from faster_whisper import WhisperModel
+def kiem(src, out, nguong=0.85, phan=None):
+    """phan=(i, n): chỉ nhận dạng các đoạn thứ i, i+n, ... (chạy song song), ghi kiem_phan_<i>.json, không xóa gì.
+    Không có phan: gộp mọi kiem_phan_*.json vào kiem.json, nhận dạng đoạn chưa có, rồi xóa đoạn khớp dưới ngưỡng."""
     segs = json.loads(Path(src).read_text()); d = Path(out)
     dur = load(d / 'thoi_luong.json', {}); res = load(d / 'kiem.json', {})
-    m = WhisperModel(os.environ.get('WHISPER_MODEL', 'medium'), device='cpu', compute_type='int8')
+    for f in sorted(d.glob('kiem_phan_*.json')):
+        res.update(json.loads(f.read_text()))
+    if phan:
+        segs = segs[phan[0]::phan[1]]
+    todo = [s for s in segs if (d / f"{s['n']}.mp3").exists() and not (str(s['n']) in res and res[str(s['n'])].get('dur') == dur.get(str(s['n'])))]
+    m = None
+    if todo:
+        from faster_whisper import WhisperModel
+        m = WhisperModel(os.environ.get('WHISPER_MODEL', 'medium'), device='cpu', compute_type='int8')
     bad = []
     for s in segs:
         k = str(s['n']); f = d / f'{k}.mp3'
@@ -80,12 +143,20 @@ def kiem(src, out, nguong=0.85):
             pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', str(f), '-f', 's16le', '-ac', '1', '-ar', '16000', '-'], capture_output=True, check=True).stdout
             parts, _ = m.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0, language='vi', beam_size=5, vad_filter=False)
             asr = ' '.join(p.text for p in parts)
-            r = difflib.SequenceMatcher(None, tieng(s['text']), tieng(asr)).ratio()
-            res[k] = {'khop': round(r, 3), 'asr': asr.strip(), 'dur': dur.get(k)}
+            r, dl = khop(s['text'], asr)
+            if not 0.85 <= dl <= 1.15: r = min(r, 0.5)   # thừa hoặc thiếu nhiều tiếng: chắc chắn lỗi
+            res[k] = {'khop': round(r, 3), 'do_dai': round(dl, 2), 'asr': asr.strip(), 'dur': dur.get(k)}
         if r < nguong:
             bad.append(k)
         print(f"{k:>4} {r:.2f} {'❌' if r < nguong else '✓'}  {res[k]['asr'][:70]}", flush=True)
+    if phan:
+        mine = {str(s['n']): res[str(s['n'])] for s in segs if str(s['n']) in res}
+        (d / f'kiem_phan_{phan[0]}.json').write_text(json.dumps(mine, ensure_ascii=False, indent=0))
+        print(f'Phần {phan[0]}/{phan[1]}: {len(mine)} đoạn, {len(bad)} đoạn khớp dưới {nguong}', flush=True)
+        return 0
     (d / 'kiem.json').write_text(json.dumps(res, ensure_ascii=False, indent=0))
+    for f in d.glob('kiem_phan_*.json'):
+        f.unlink()
     lan = load(d / 'doc_lai.json', {})
     xoa = []
     for k in bad:   # đọc lại tối đa 3 lần mỗi đoạn; quá 3 lần thì giữ bản hiện có và báo
@@ -124,7 +195,9 @@ if __name__ == '__main__':
     if cmd == 'doc':
         doc(sys.argv[2], sys.argv[3], sys.argv[4])
     elif cmd == 'kiem':
-        n = kiem(sys.argv[2], sys.argv[3], float(sys.argv[4]) if len(sys.argv) > 4 else 0.85)
+        ph = os.environ.get('PHAN')   # "i/n"
+        n = kiem(sys.argv[2], sys.argv[3], float(sys.argv[4]) if len(sys.argv) > 4 else 0.85,
+                 tuple(map(int, ph.split('/'))) if ph else None)
         Path(os.environ.get('GITHUB_OUTPUT', '/dev/null')).open('a').write(f'doc_lai={n}\n')
     elif cmd == 'chuan':
         chuan(sys.argv[2], sys.argv[3])

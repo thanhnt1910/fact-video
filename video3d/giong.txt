@@ -1,2 +1,2 @@
 qtg/loi_doc.json Leda qtg1
-# lần 2: chạy lại bước kiểm
+# 14/11: kiểm song song 10 máy, so theo âm (đổi chữ số thành chữ)

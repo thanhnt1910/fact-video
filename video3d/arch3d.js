@@ -427,7 +427,7 @@ function tents(o) { // lều thi: rows x cols of A-frame tents in rect, cloth co
   const m = new THREE.Matrix4(), q = new THREE.Quaternion(), col = new THREE.Color(); let i = 0;
   for (let r = 0; r < o.rows; r++) for (let c = 0; c < o.cols; c++) { const x = o.rect[0] + (c + 0.5) * (o.rect[2] - o.rect[0]) / o.cols + R(-0.6, 0.6), z = o.rect[1] + (r + 0.5) * (o.rect[3] - o.rect[1]) / o.rows + R(-0.6, 0.6);
     q.setFromAxisAngle(new THREE.Vector3(0, 1, 0), R(-0.15, 0.15) + (o.rot || 0)); m.compose(new THREE.Vector3(x, groundH(x, z), z), q, new THREE.Vector3(1, R(0.9, 1.1), 1)); im.setMatrixAt(i, m);
-    const k = rnd(); im.setColorAt(i++, col.setRGB(...(k < 0.4 ? [0.58, 0.47, 0.32] : k < 0.7 ? [0.46, 0.38, 0.27] : k < 0.85 ? [0.3, 0.34, 0.42] : [0.62, 0.52, 0.36]))); }
+    const k = rnd(); im.setColorAt(i++, col.setRGB(...(k < 0.4 ? [0.58, 0.47, 0.32] : k < 0.7 ? [0.46, 0.38, 0.27] : k < 0.85 ? [0.3, 0.34, 0.42] : [0.62, 0.52, 0.36]), THREE.SRGBColorSpace)); }
   const g = new THREE.Group(); g.add(im); return g;
 }
 function desks(o) { // bàn học thấp + chiếu theo hàng

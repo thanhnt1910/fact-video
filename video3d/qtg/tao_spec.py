@@ -188,14 +188,9 @@ addb({'type': 'route', 'points': [TL, LL(20.4, 105.75), THH, LL(19.0, 105.6), LL
 
 # ---------- mô hình làm sẵn CC0 (Poly Haven, đã rút gọn) ----------
 PR = []
-cay = [[sg * x, z] for sg in (-1, 1) for x, z in [(9, 12), (11, 30), (8.5, 48), (10.5, 64), (9, 88), (11, 108), (9.5, 124)]]
-for k, m in enumerate(['island_tree_01', 'island_tree_02', 'island_tree_03']): PR.append({'model': m, 'points': cay[k::3], 'scale': [0.75, 0.95]})
 for r in ([-36, 4, -5, 72], [5, 4, 36, 72], [-36, 79, -5, 132], [5, 79, 36, 132]): PR.append({'model': 'grass_medium_01', 'rect': r, 'count': 14, 'scale': [0.9, 1.4], 'shadow': False})
-PR += [{'model': 'fern_02', 'rect': [-14, 150, -12.6, 184], 'count': 8, 'scale': [0.7, 1.0], 'shadow': False}, {'model': 'fern_02', 'rect': [12.6, 150, 14, 184], 'count': 8, 'scale': [0.7, 1.0], 'shadow': False},
-       {'model': 'ceramic_pot', 'points': [[-6, 237], [6, 237], [-6, 304], [6, 304], [VX + 35, 46], [VX + 45, 46]], 'scale': [1.5, 1.7], 'rot': 0},
-       {'model': 'pachira_aquatica_01', 'points': [[-6, 237, 0.95], [6, 237, 0.95], [-6, 304, 0.95], [6, 304, 0.95]], 'scale': [0.6, 0.7], 'rot': 0},
+PR += [{'model': 'ceramic_pot', 'points': [[-6, 237], [6, 237], [-6, 304], [6, 304], [VX + 35, 46], [VX + 45, 46]], 'scale': [1.5, 1.7], 'rot': 0},
        {'model': 'boulder_01', 'points': [[-50, -66], [48, -30], [-46, -28], [MX + 6, MZ - 220], [MX - 9, MZ - 150]], 'scale': [0.4, 0.8]},
-       {'model': 'fern_02', 'rect': [VX - 60, -30, VX + 60, 60], 'count': 30, 'scale': [0.8, 1.2], 'avoid': [[VX - 6, -150, VX + 6, 150]], 'shadow': False},
        {'model': 'chinese_tea_table', 'points': [[VX + 40, 42.2, 0.7]], 'scale': 1.0, 'rot': 0}]
 
 # ---------- trạng thái các nhóm Văn Miếu theo cảnh ----------

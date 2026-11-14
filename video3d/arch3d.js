@@ -417,6 +417,21 @@ const treeCrown = (() => { // tán cây: nhiều chùm lá nhỏ, mặt gồ gh�
   const g = mergeGeometries(blobs); g.computeVertexNormals(); const p = g.attributes.position, c = [];
   for (let k = 0; k < p.count; k++) { const y = p.getY(k), r = Math.hypot(p.getX(k), p.getY(k), p.getZ(k)); const v = clamp(0.45 + 0.4 * (y + 0.6) / 1.4) * clamp(0.55 + 0.5 * r); c.push(v, v, v); }
   g.setAttribute('color', new THREE.Float32BufferAttribute(c, 3)); return g; })();
+// thẻ lá: các mặt phẳng có ảnh chùm lá trong suốt cắm quanh tán, pháp tuyến hướng ra ngoài cho sáng mềm
+const TEX_LEAFCARD = (() => { const c = document.createElement('canvas'); c.width = c.height = 256; const g = c.getContext('2d');
+  for (let i = 0; i < 420; i++) { const a = Math.random() * Math.PI * 2, r = Math.sqrt(Math.random()) * 108, x = 128 + Math.cos(a) * r, y = 128 + Math.sin(a) * r * 0.9;
+    const v = 120 + Math.random() * 135 | 0, l = 9 + Math.random() * 9; g.save(); g.translate(x, y); g.rotate(a + Math.random() - 0.5);
+    g.fillStyle = `rgb(${v * 0.92 | 0},${v},${v * 0.8 | 0})`; g.beginPath(); g.ellipse(0, 0, l, l * 0.38, 0, 0, Math.PI * 2); g.fill();
+    g.strokeStyle = 'rgba(0,0,0,0.25)'; g.lineWidth = 0.8; g.beginPath(); g.moveTo(-l, 0); g.lineTo(l, 0); g.stroke(); g.restore(); }
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4; return t; })();
+const treeCards = (() => { const parts = []; let sd = 11; const rr = () => { sd = (sd * 16807) % 2147483647; return sd / 2147483647; };
+  for (let i = 0; i < 46; i++) { const a = rr() * Math.PI * 2, e = Math.asin(rr() * 1.6 - 0.6), d = 0.75 + rr() * 0.45, sz = 0.9 + rr() * 0.6;
+    const dir = new THREE.Vector3(Math.cos(a) * Math.cos(e), Math.sin(e) * 0.85, Math.sin(a) * Math.cos(e)).normalize();
+    const p = new THREE.PlaneGeometry(sz, sz); p.lookAt(dir.clone().add(new THREE.Vector3(rr() - 0.5, rr() - 0.5, rr() - 0.5).multiplyScalar(0.9)));
+    p.translate(dir.x * d, dir.y * d, dir.z * d); const n = p.attributes.normal, pos = p.attributes.position, col = [];
+    for (let k = 0; k < n.count; k++) { const v = new THREE.Vector3(pos.getX(k), pos.getY(k) * 0.8, pos.getZ(k)).normalize(); n.setXYZ(k, v.x, v.y, v.z); const sh = clamp(0.55 + 0.45 * (pos.getY(k) + 0.8) / 1.6); col.push(sh, sh, sh); }
+    p.setAttribute('color', new THREE.Float32BufferAttribute(col, 3)); parts.push(p); }
+  return mergeGeometries(parts); })();
 const TEX_LEAF = canvasTex(256, 256, (g, w, h) => { g.fillStyle = '#9a9a9a'; g.fillRect(0, 0, w, h);
   for (let i = 0; i < 2600; i++) { const v = 90 + Math.random() * 165 | 0; g.fillStyle = `rgb(${v},${v},${v})`; g.beginPath(); g.ellipse(Math.random() * w, Math.random() * h, 2 + Math.random() * 3, 1 + Math.random() * 1.5, Math.random() * 3, 0, Math.PI * 2); g.fill(); } }, true);
 const treeList = [];
@@ -424,11 +439,13 @@ function trees(o) { for (let i = 0; i < o.count; i++) { let x, z, ok = false; fo
   if (ok) treeList.push({ x, z, y: groundH(x, z), h: R(...(o.h || [7, 14])), c: R(0, 1), lean: R(-0.08, 0.08), w: o.wide || 1, hue: o.hue }); } }
 function buildTrees() { if (!treeList.length) return; const n = treeList.length;
   const tr = new THREE.InstancedMesh(treeTrunk, new THREE.MeshStandardMaterial({ color: 0x4a3a2c, roughness: 1 }), n), cr = new THREE.InstancedMesh(treeCrown, new THREE.MeshStandardMaterial({ roughness: 0.95, vertexColors: true, map: TEX_LEAF }), n);
-  tr.castShadow = cr.castShadow = true; tr.receiveShadow = cr.receiveShadow = true; const m = new THREE.Matrix4(), q = new THREE.Quaternion(), col = new THREE.Color();
+  const lf = new THREE.InstancedMesh(treeCards, new THREE.MeshStandardMaterial({ map: TEX_LEAFCARD, alphaTest: 0.45, side: THREE.DoubleSide, vertexColors: true, roughness: 0.85, envMapIntensity: 0.5 }), n);
+  tr.castShadow = cr.castShadow = lf.castShadow = true; tr.receiveShadow = cr.receiveShadow = lf.receiveShadow = true; const m = new THREE.Matrix4(), q = new THREE.Quaternion(), col = new THREE.Color();
   treeList.forEach((t, i) => { q.setFromEuler(new THREE.Euler(t.lean, t.c * 6, -t.lean)); m.compose(new THREE.Vector3(t.x, t.y - 0.3, t.z), q, new THREE.Vector3(t.w, t.h * 0.55, t.w)); tr.setMatrixAt(i, m);
     const s = t.h * 0.33; m.compose(new THREE.Vector3(t.x + t.lean * t.h * 0.5, t.y + t.h * 0.62, t.z), q, new THREE.Vector3(s * 1.15 * t.w, s * 0.85, s * 1.15 * t.w)); cr.setMatrixAt(i, m);
-    col.setHSL(t.hue ?? (0.2 + t.c * 0.09), 0.42 + t.c * 0.18, 0.2 + t.c * 0.08); cr.setColorAt(i, col); });
-  scene.add(tr); scene.add(cr); }
+    m.compose(new THREE.Vector3(t.x + t.lean * t.h * 0.5, t.y + t.h * 0.62, t.z), q, new THREE.Vector3(s * 1.2 * t.w, s * 0.92, s * 1.2 * t.w)); lf.setMatrixAt(i, m);
+    col.setHSL(t.hue ?? (0.2 + t.c * 0.09), 0.42 + t.c * 0.18, 0.2 + t.c * 0.08); cr.setColorAt(i, col.clone().multiplyScalar(0.75)); lf.setColorAt(i, col.offsetHSL(0, -0.08, 0).multiplyScalar(0.92)); });
+  scene.add(tr); scene.add(cr); scene.add(lf); }
 const houseList = [];
 function houses(o) { for (let i = 0; i < o.count; i++) { let x, z, ok = false; for (let k = 0; k < 40 && !ok; k++) { x = R(o.rect[0], o.rect[2]); z = R(o.rect[1], o.rect[3]); ok = !(o.avoid || []).some(r => inRect(x, z, r, 4)); }
   if (ok) houseList.push({ x, z, y: groundH(x, z), w: R(...(o.w || [5, 10])), d: R(...(o.d || [8, 14])), h: R(...(o.hgt || [3.5, 10])), rot: (rnd() < 0.5 ? 0 : Math.PI / 2) + R(-0.05, 0.05), c: rnd(), style: o.style || 'town' }); } }

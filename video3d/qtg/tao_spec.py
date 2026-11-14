@@ -416,7 +416,7 @@ for i, s in enumerate(TL_ORDER):
 
 # máy quay đường núi: tính độ cao theo địa hình trong JS bằng 'yOff' (engine cộng groundH)
 spec = {'engine': 'arch3d.js', 'size': [1920, 1080], 'fps': 30, 'seed': 1076,
-        'world': {'groundMat': 'grass', 'sun': [-0.55, 0.42, -0.3], 'haze': [0.8, 0.74, 0.64], 'fog': 0.0012, 'sunPower': 3.2, 'skyTop': [0.24, 0.4, 0.66], 'clouds': 16},
+        'world': {'chatLieu': 'chat_lieu/', 'groundMat': 'grass', 'sun': [-0.55, 0.42, -0.3], 'haze': [0.8, 0.74, 0.64], 'fog': 0.0012, 'sunPower': 3.2, 'skyTop': [0.24, 0.4, 0.66], 'clouds': 16},
         'quality': {'shadow': 2048, 'reflScale': 0.4},
         'terrains': TER, 'ground': G, 'buildings': B, 'trees': T, 'houses': HS, 'crowds': C, 'people': P, 'birds': BD, 'lanterns': LT,
         'shots': out_shots, 'subs': subs,

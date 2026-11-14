@@ -1,0 +1,111 @@
+{
+ "ngoi": {
+  "ma": "clay_roof_tiles_02",
+  "ten": "Clay Roof Tiles 02",
+  "tac_gia": [
+   "Amal Kumar"
+  ],
+  "url": "https://polyhaven.com/a/clay_roof_tiles_02",
+  "giay_phep": "CC0"
+ },
+ "go": {
+  "ma": "wood_planks",
+  "ten": "Wood Planks",
+  "tac_gia": [
+   "Amal Kumar"
+  ],
+  "url": "https://polyhaven.com/a/wood_planks",
+  "giay_phep": "CC0"
+ },
+ "go_tron": {
+  "ma": "bark_brown_02",
+  "ten": "Bark Brown 02",
+  "tac_gia": [
+   "Rob Tuytel"
+  ],
+  "url": "https://polyhaven.com/a/bark_brown_02",
+  "giay_phep": "CC0"
+ },
+ "vua": {
+  "ma": "painted_plaster_wall",
+  "ten": "Painted Plaster Wall",
+  "tac_gia": [
+   "Amal Kumar"
+  ],
+  "url": "https://polyhaven.com/a/painted_plaster_wall",
+  "giay_phep": "CC0"
+ },
+ "gach": {
+  "ma": "red_brick_03",
+  "ten": "Red Brick 03",
+  "tac_gia": [
+   "Rob Tuytel"
+  ],
+  "url": "https://polyhaven.com/a/red_brick_03",
+  "giay_phep": "CC0"
+ },
+ "san": {
+  "ma": "floor_tiles_06",
+  "ten": "Floor Tiles 06",
+  "tac_gia": [
+   "Rob Tuytel"
+  ],
+  "url": "https://polyhaven.com/a/floor_tiles_06",
+  "giay_phep": "CC0"
+ },
+ "da": {
+  "ma": "granite_tile",
+  "ten": "Granite Tile",
+  "tac_gia": [
+   "Charlotte Baglioni"
+  ],
+  "url": "https://polyhaven.com/a/granite_tile",
+  "giay_phep": "CC0"
+ },
+ "bia": {
+  "ma": "rock_surface",
+  "ten": "Rock Surface",
+  "tac_gia": [
+   "Amal Kumar"
+  ],
+  "url": "https://polyhaven.com/a/rock_surface",
+  "giay_phep": "CC0"
+ },
+ "co": {
+  "ma": "grass_path_2",
+  "ten": "Grass Path 2",
+  "tac_gia": [
+   "Rob Tuytel"
+  ],
+  "url": "https://polyhaven.com/a/grass_path_2",
+  "giay_phep": "CC0"
+ },
+ "dat": {
+  "ma": "brown_mud_leaves_01",
+  "ten": "Brown Mud Leaves 01",
+  "tac_gia": [
+   "Rob Tuytel"
+  ],
+  "url": "https://polyhaven.com/a/brown_mud_leaves_01",
+  "giay_phep": "CC0"
+ },
+ "duong": {
+  "ma": "cobblestone_floor_04",
+  "ten": "Cobblestone Floor 04",
+  "tac_gia": [
+   "Rob Tuytel"
+  ],
+  "url": "https://polyhaven.com/a/cobblestone_floor_04",
+  "giay_phep": "CC0"
+ },
+ "rom": {
+  "ma": "thatch_roof_angled",
+  "ten": "Thatch Roof Angled",
+  "tac_gia": [
+   "Rob Tuytel",
+   "Dimitrios Savva"
+  ],
+  "url": "https://polyhaven.com/a/thatch_roof_angled",
+  "giay_phep": "CC0"
+ }
+}

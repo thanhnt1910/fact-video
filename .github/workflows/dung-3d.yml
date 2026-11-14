@@ -76,6 +76,16 @@ jobs:
             https://github.com/notofonts/noto-cjk/raw/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf \
             || sudo apt-get install -y -qq fonts-noto-cjk || echo "CẢNH BÁO: thiếu phông Noto Serif CJK"
           fc-cache -f > /dev/null; fc-list | grep -iE "lora|noto serif cjk sc" | head -3
+      - name: Chất liệu CC0 (nếu spec dùng world.chatLieu)
+        working-directory: video3d
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D=$(python -c "import json;print(json.load(open('specs/${{ needs.chia.outputs.spec }}')).get('world',{}).get('chatLieu',''))")
+          [ -z "$D" ] && exit 0
+          AID=$(gh api "repos/${{ github.repository }}/releases/tags/video3d-chat-lieu" --jq '.assets[] | select(.name=="chat_lieu.zip") | .id')
+          gh api -H "Accept: application/octet-stream" "repos/${{ github.repository }}/releases/assets/$AID" > /tmp/cl.zip
+          mkdir -p "$D" && unzip -o -q /tmp/cl.zip -d "$D" && ls "$D" | wc -l
       - name: Dựng đoạn ${{ matrix.idx }} / ${{ needs.chia.outputs.n }}
         working-directory: video3d
         run: |

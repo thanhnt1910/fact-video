@@ -11,6 +11,7 @@ import { HorizontalTiltShiftShader } from 'three/addons/shaders/HorizontalTiltSh
 import { VerticalTiltShiftShader } from 'three/addons/shaders/VerticalTiltShiftShader.js';
 import { Reflector } from 'three/addons/objects/Reflector.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 try {
 await document.fonts.load('700 100px "Noto Serif CJK SC"');
@@ -84,21 +85,34 @@ const TEX = {
   thatch: canvasTex(128, 64, (g, w, h) => { g.fillStyle = '#8f7a48'; g.fillRect(0, 0, w, h); for (let i = 0; i < 900; i++) { g.strokeStyle = `rgba(${Math.random() < 0.5 ? '60,45,20' : '190,165,105'},${Math.random() * 0.5})`; g.lineWidth = 1; const x = Math.random() * w, y = Math.random() * h; g.beginPath(); g.moveTo(x, y); g.lineTo(x + Math.random() * 3 - 1.5, y + 6 + Math.random() * 8); g.stroke(); } }, true),
   dirt: canvasTex(128, 128, (g, w, h) => { g.fillStyle = '#8a7656'; g.fillRect(0, 0, w, h); noise(g, w, h, 3000, ['rgba(60,50,30,A)', 'rgba(200,180,140,A)'], 0.3); }, true),
 };
+// chất liệu thật (Poly Haven, CC0) nếu spec bật world.chatLieu = "<thư mục>"
+const PBR = {};
+if (WD.chatLieu) { const L = new THREE.TextureLoader(), base = WD.chatLieu;
+  const MAPF = { tile: 'ngoi', wood: 'go', plaster: 'vua', brick: 'gach', stone: 'bia', pave: 'gach', grass: 'co', dirt: 'dat', road: 'duong', thatch: 'rom' };
+  const ld = (f, srgb) => L.loadAsync(base + f).then(t => { t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8; if (srgb) t.colorSpace = THREE.SRGBColorSpace; return t; }).catch(() => null);
+  await Promise.all(Object.entries(MAPF).map(async ([k, f]) => { const [d, n, r] = await Promise.all([ld(f + '_diff.jpg', 1), ld(f + '_nor.jpg'), ld(f + '_rough.jpg')]);
+    if (d) { if (k === 'wood') for (const t of [d, n, r]) if (t) { t.center.set(0.5, 0.5); t.rotation = Math.PI / 2; }
+      PBR[k] = { map: d, normalMap: n, roughnessMap: r }; TEX[k] = d; } })); }
+const TINT = { tile: [0x8a4a3c, 1], wood: [0xc04a32, 0.75], plaster: [0xf2e8d0, 1], brick: [0xd0a090, 1], stone: [0xc8c4b8, 1], pave: [0xe89880, 1], grass: [0x9cc070, 1], dirt: [0xd0c0a0, 1], road: [0xc0b8a8, 1], thatch: [0xd8c090, 1] };
+function pm(k, o = {}) { const P = PBR[k]; if (!P) return new THREE.MeshStandardMaterial({ map: TEX[k], ...o });
+  return new THREE.MeshStandardMaterial({ ...o, map: P.map, normalMap: P.normalMap, roughnessMap: P.roughnessMap, roughness: TINT[k]?.[1] ?? 1, color: TINT[k]?.[0] ?? 0xffffff, normalScale: new THREE.Vector2(1, 1) }); }
 const M = {
-  tile: new THREE.MeshStandardMaterial({ map: TEX.tile, roughness: 0.75 }),
+  tile: pm('tile', { roughness: 0.75 }),
   under: new THREE.MeshStandardMaterial({ color: 0x3a1a10, roughness: 0.9, side: THREE.BackSide }),
   ridge: new THREE.MeshStandardMaterial({ color: 0x8a7a68, roughness: 0.8 }),
-  brick: new THREE.MeshStandardMaterial({ map: TEX.brick, roughness: 0.9 }),
-  plaster: new THREE.MeshStandardMaterial({ map: TEX.plaster, roughness: 0.9 }),
-  wood: new THREE.MeshStandardMaterial({ map: TEX.wood, roughness: 0.55 }),
+  brick: pm('brick', { roughness: 0.9 }),
+  plaster: pm('plaster', { roughness: 0.9 }),
+  wood: pm('wood', { roughness: 0.55 }),
   darkwood: new THREE.MeshStandardMaterial({ color: 0x2a120a, roughness: 0.7 }),
-  stone: new THREE.MeshStandardMaterial({ map: TEX.stone, roughness: 0.85 }),
+  stone: pm('stone', { roughness: 0.85 }),
   gold: new THREE.MeshStandardMaterial({ color: 0xc8a050, roughness: 0.35, metalness: 0.7 }),
   hole: new THREE.MeshBasicMaterial({ color: 0x0a0604 }),
   lattice: new THREE.MeshStandardMaterial({ map: TEX.lattice, roughness: 0.6 }),
-  thatch: new THREE.MeshStandardMaterial({ map: TEX.thatch, roughness: 1 }),
+  thatch: pm('thatch', { roughness: 1 }),
 };
-const groundMat = (k, sx, sz, tile = 4) => { const t = TEX[k].clone(); t.needsUpdate = true; t.repeat.set(sx / tile, sz / tile); return new THREE.MeshStandardMaterial({ map: t, roughness: 0.95 }); };
+const groundMat = (k, sx, sz, tile = 4) => { const P = PBR[k], cl = x => { if (!x) return null; const t = x.clone(); t.needsUpdate = true; t.repeat.set(sx / tile, sz / tile); return t; };
+  if (P) return new THREE.MeshStandardMaterial({ map: cl(P.map), normalMap: cl(P.normalMap), roughnessMap: cl(P.roughnessMap), color: TINT[k]?.[0] ?? 0xffffff, roughness: 1 });
+  return new THREE.MeshStandardMaterial({ map: cl(TEX[k]), roughness: 0.95 }); };
 function add(parent, geo, mat, x = 0, y = 0, z = 0, cast = true) { const m = new THREE.Mesh(geo, mat); m.position.set(x, y, z); m.castShadow = cast; m.receiveShadow = true; parent.add(m); return m; }
 function boxUV(w, h, d, s = 3) { const g = new THREE.BoxGeometry(w, h, d); const uv = g.attributes.uv, n = g.attributes.normal;
   for (let i = 0; i < uv.count; i++) { const ax = Math.abs(n.getX(i)), ay = Math.abs(n.getY(i)); const a = ax > 0.5 ? [d, h] : ay > 0.5 ? [w, d] : [w, h]; uv.setXY(i, uv.getX(i) * a[0] / s, uv.getY(i) * a[1] / s); } return g; }
@@ -118,6 +132,7 @@ const sky = new THREE.Mesh(new THREE.SphereGeometry(5000, 32, 16), new THREE.Sha
     gl_FragColor = vec4(c,1.); }` }));
 scene.add(sky);
 const hemi = new THREE.HemisphereLight(new THREE.Color(...(WD.skyLight || [0.65, 0.75, 0.95])), new THREE.Color(0.35, 0.3, 0.2), WD.ambient || 1.1); scene.add(hemi);
+if (WD.envLight !== false) { const pg = new THREE.PMREMGenerator(renderer); scene.environment = pg.fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = 0.35; }
 const sunL = new THREE.DirectionalLight(new THREE.Color(...(WD.sunColor || [1.0, 0.86, 0.66])), WD.sunPower || 3.0);
 const SC = WD.center || [0, 0, 0];
 sunL.target.position.set(...SC); sunL.position.set(SC[0] + SUN.x * 500, SUN.y * 500, SC[2] + SUN.z * 500);
@@ -314,26 +329,38 @@ function terrain(o) { // {pos:[cx,cz], size:[w,d], height, scale, mount:'west'|'
 
 // ---------- trees, houses (instanced) ----------
 const treeTrunk = new THREE.CylinderGeometry(0.22, 0.38, 1, 7).translate(0, 0.5, 0);
-const treeCrown = mergeGeometries([[0, 0, 0, 1], [0.55, -0.15, 0.2, 0.75], [-0.5, -0.1, -0.25, 0.8], [0.1, 0.35, -0.4, 0.7], [-0.15, -0.2, 0.55, 0.7], [0.4, 0.3, 0.35, 0.55], [-0.45, 0.25, 0.3, 0.5]].map(([x, y, z, r]) => new THREE.IcosahedronGeometry(r, 1).translate(x, y, z)));
+const treeCrown = (() => { // tán cây: nhiều chùm lá nhỏ, mặt gồ ghề, dưới và trong tối hơn (giả bóng che)
+  const blobs = []; let sd = 7;
+  const rr = () => { sd = (sd * 16807) % 2147483647; return sd / 2147483647; };
+  for (let i = 0; i < 18; i++) { const a = rr() * Math.PI * 2, e = rr() * 1.2 - 0.35, d = i < 3 ? rr() * 0.3 : 0.55 + rr() * 0.4;
+    const x = Math.cos(a) * Math.cos(e) * d, y = Math.sin(e) * d * 0.8, z = Math.sin(a) * Math.cos(e) * d, r = 0.32 + rr() * 0.3;
+    const g = new THREE.IcosahedronGeometry(r, 2), p = g.attributes.position;
+    for (let k = 0; k < p.count; k++) { const vx = p.getX(k), vy = p.getY(k), vz = p.getZ(k), f = 1 + 0.18 * Math.sin(vx * 13 + i) * Math.sin(vy * 11) * Math.sin(vz * 17 + i * 2); p.setXYZ(k, vx * f + x, vy * f + y, vz * f + z); }
+    blobs.push(g.toNonIndexed()); }
+  const g = mergeGeometries(blobs); g.computeVertexNormals(); const p = g.attributes.position, c = [];
+  for (let k = 0; k < p.count; k++) { const y = p.getY(k), r = Math.hypot(p.getX(k), p.getY(k), p.getZ(k)); const v = clamp(0.45 + 0.4 * (y + 0.6) / 1.4) * clamp(0.55 + 0.5 * r); c.push(v, v, v); }
+  g.setAttribute('color', new THREE.Float32BufferAttribute(c, 3)); return g; })();
+const TEX_LEAF = canvasTex(256, 256, (g, w, h) => { g.fillStyle = '#9a9a9a'; g.fillRect(0, 0, w, h);
+  for (let i = 0; i < 2600; i++) { const v = 90 + Math.random() * 165 | 0; g.fillStyle = `rgb(${v},${v},${v})`; g.beginPath(); g.ellipse(Math.random() * w, Math.random() * h, 2 + Math.random() * 3, 1 + Math.random() * 1.5, Math.random() * 3, 0, Math.PI * 2); g.fill(); } }, true);
 const treeList = [];
 function trees(o) { for (let i = 0; i < o.count; i++) { let x, z, ok = false; for (let k = 0; k < 30 && !ok; k++) { x = R(o.rect[0], o.rect[2]); z = R(o.rect[1], o.rect[3]); ok = !(o.avoid || []).some(r => inRect(x, z, r, 1.5)); }
   if (ok) treeList.push({ x, z, y: groundH(x, z), h: R(...(o.h || [7, 14])), c: R(0, 1), lean: R(-0.08, 0.08), w: o.wide || 1, hue: o.hue }); } }
 function buildTrees() { if (!treeList.length) return; const n = treeList.length;
-  const tr = new THREE.InstancedMesh(treeTrunk, new THREE.MeshStandardMaterial({ color: 0x4a3a2c, roughness: 1 }), n), cr = new THREE.InstancedMesh(treeCrown, new THREE.MeshStandardMaterial({ roughness: 0.9, flatShading: true }), n);
+  const tr = new THREE.InstancedMesh(treeTrunk, new THREE.MeshStandardMaterial({ color: 0x4a3a2c, roughness: 1 }), n), cr = new THREE.InstancedMesh(treeCrown, new THREE.MeshStandardMaterial({ roughness: 0.95, vertexColors: true, map: TEX_LEAF }), n);
   tr.castShadow = cr.castShadow = true; tr.receiveShadow = cr.receiveShadow = true; const m = new THREE.Matrix4(), q = new THREE.Quaternion(), col = new THREE.Color();
   treeList.forEach((t, i) => { q.setFromEuler(new THREE.Euler(t.lean, t.c * 6, -t.lean)); m.compose(new THREE.Vector3(t.x, t.y - 0.3, t.z), q, new THREE.Vector3(t.w, t.h * 0.55, t.w)); tr.setMatrixAt(i, m);
     const s = t.h * 0.33; m.compose(new THREE.Vector3(t.x + t.lean * t.h * 0.5, t.y + t.h * 0.62, t.z), q, new THREE.Vector3(s * 1.15 * t.w, s * 0.85, s * 1.15 * t.w)); cr.setMatrixAt(i, m);
-    col.setHSL(t.hue ?? (0.22 + t.c * 0.08), 0.38 + t.c * 0.15, 0.2 + t.c * 0.1); cr.setColorAt(i, col); });
+    col.setHSL(t.hue ?? (0.2 + t.c * 0.09), 0.42 + t.c * 0.18, 0.2 + t.c * 0.08); cr.setColorAt(i, col); });
   scene.add(tr); scene.add(cr); }
 const houseList = [];
 function houses(o) { for (let i = 0; i < o.count; i++) { let x, z, ok = false; for (let k = 0; k < 40 && !ok; k++) { x = R(o.rect[0], o.rect[2]); z = R(o.rect[1], o.rect[3]); ok = !(o.avoid || []).some(r => inRect(x, z, r, 4)); }
   if (ok) houseList.push({ x, z, y: groundH(x, z), w: R(...(o.w || [5, 10])), d: R(...(o.d || [8, 14])), h: R(...(o.hgt || [3.5, 10])), rot: (rnd() < 0.5 ? 0 : Math.PI / 2) + R(-0.05, 0.05), c: rnd(), style: o.style || 'town' }); } }
 function buildHouses() { if (!houseList.length) return; const n = houseList.length;
-  const body = new THREE.InstancedMesh(new THREE.BoxGeometry(1, 1, 1).translate(0, 0.5, 0), new THREE.MeshStandardMaterial({ roughness: 0.95 }), n);
-  const rf = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.01, 0.75, 1, 4, 1).rotateY(Math.PI / 4).translate(0, 0.5, 0), new THREE.MeshStandardMaterial({ roughness: 0.9 }), n);
+  const body = new THREE.InstancedMesh(new THREE.BoxGeometry(1, 1, 1).translate(0, 0.5, 0), new THREE.MeshStandardMaterial({ roughness: 0.95, map: TEX.plaster }), n);
+  const rf = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.01, 0.75, 1, 4, 1).rotateY(Math.PI / 4).translate(0, 0.5, 0), new THREE.MeshStandardMaterial({ roughness: 0.9, map: TEX.tile }), n);
   body.castShadow = rf.castShadow = body.receiveShadow = rf.receiveShadow = true; const m = new THREE.Matrix4(), q = new THREE.Quaternion(), col = new THREE.Color();
   const walls = { town: [[0.88, 0.8, 0.6], [0.9, 0.86, 0.78], [0.82, 0.72, 0.52], [0.75, 0.75, 0.72]], village: [[0.62, 0.5, 0.36], [0.55, 0.45, 0.33], [0.68, 0.58, 0.42], [0.6, 0.52, 0.4]] };
-  const roofs = { town: [[0.45, 0.2, 0.14], [0.35, 0.3, 0.28], [0.5, 0.28, 0.18]], village: [[0.62, 0.52, 0.3], [0.56, 0.47, 0.27], [0.66, 0.57, 0.34]] };
+  const roofs = { town: [[0.62, 0.36, 0.3], [0.5, 0.42, 0.4], [0.66, 0.42, 0.32]], village: [[0.62, 0.52, 0.3], [0.56, 0.47, 0.27], [0.66, 0.57, 0.34]] };
   houseList.forEach((h, i) => { q.setFromAxisAngle(new THREE.Vector3(0, 1, 0), h.rot); m.compose(new THREE.Vector3(h.x, h.y, h.z), q, new THREE.Vector3(h.w, h.h, h.d)); body.setMatrixAt(i, m);
     m.compose(new THREE.Vector3(h.x, h.y + h.h, h.z), q, new THREE.Vector3(h.w * 1.3, h.style === 'village' ? 3.2 : 2.4, h.d * 1.2)); rf.setMatrixAt(i, m);
     body.setColorAt(i, col.setRGB(...walls[h.style][Math.floor(h.c * 4)])); rf.setColorAt(i, col.setRGB(...roofs[h.style][Math.floor(h.c * 3)])); });
@@ -426,101 +453,172 @@ function updateLanterns(night, t) { if (!LANT) return; LANT.material.emissiveInt
   LPL.forEach((l, k) => { const it = near[k]; if (!it || night < 0.02) { l.intensity = 0; return; } l.position.set(...lanternList[it[0]]); l.intensity = night * 14 * (0.9 + 0.1 * Math.sin(t * 5 + k)); }); }
 
 // ---------- people: articulated figures (đi, đứng, quỳ, viết, vái, giảng, đục đá, khiêng) ----------
+// ---------- people v2: người có khớp (vai, khuỷu, hông, gối), mặt vẽ, áo giao lĩnh tay rộng, khăn xếp / mũ cánh chuồn / nón lá ----------
+// Toạ độ người: chân ở y = 0, mặt nhìn +z. Hông (gốc khung thân) ở y = 0.86. Cao khoảng 1,66 m.
+const SKIN = [[0.86, 0.66, 0.5], [0.8, 0.6, 0.44], [0.9, 0.72, 0.56], [0.74, 0.54, 0.4]];
 const COSTUME = {
-  scholar: { robe: [[0.13, 0.17, 0.33], [0.36, 0.24, 0.15], [0.2, 0.3, 0.24], [0.3, 0.32, 0.4], [0.42, 0.36, 0.28]], legs: [[0.12, 0.1, 0.09]], hat: 'khan', long: true },
-  teacher: { robe: [[0.12, 0.12, 0.14], [0.3, 0.2, 0.14]], legs: [[0.1, 0.08, 0.08]], hat: 'khan', long: true, beard: true },
-  prince: { robe: [[0.75, 0.55, 0.12], [0.62, 0.14, 0.1], [0.7, 0.45, 0.15]], legs: [[0.3, 0.1, 0.08]], hat: 'crown', long: true },
-  king: { robe: [[0.85, 0.65, 0.1]], legs: [[0.4, 0.2, 0.05]], hat: 'crown', long: true },
-  official: { robe: [[0.55, 0.1, 0.1], [0.12, 0.2, 0.45], [0.15, 0.35, 0.2], [0.45, 0.12, 0.3]], legs: [[0.1, 0.08, 0.08]], hat: 'quan', long: true },
-  monk: { robe: [[0.55, 0.36, 0.14], [0.45, 0.3, 0.15], [0.62, 0.42, 0.18]], legs: [[0.4, 0.28, 0.14]], hat: 'bald', long: true },
-  commoner: { robe: [[0.36, 0.26, 0.16], [0.2, 0.22, 0.3], [0.3, 0.28, 0.2], [0.5, 0.42, 0.28]], legs: [[0.1, 0.09, 0.08], [0.22, 0.18, 0.12]], hat: ['non', 'khan', 'hair'], long: false },
-  child: { robe: [[0.42, 0.3, 0.18], [0.3, 0.3, 0.36]], legs: [[0.15, 0.12, 0.1]], hat: 'hair', long: false, scale: 0.68 },
-  laureate: { robe: [[0.62, 0.1, 0.1]], legs: [[0.1, 0.08, 0.08]], hat: 'quan', long: true },
-  student_girl: { robe: [[0.95, 0.95, 0.94]], legs: [[0.9, 0.9, 0.9]], hat: 'hair', long: true, slim: true },
-  student_boy: { robe: [[0.94, 0.94, 0.95]], legs: [[0.12, 0.14, 0.24]], hat: 'hair', long: false },
-  graduate: { robe: [[0.08, 0.08, 0.1]], legs: [[0.1, 0.1, 0.12]], hat: 'mortar', long: true },
-  tourist: { robe: [[0.75, 0.3, 0.25], [0.25, 0.45, 0.6], [0.9, 0.85, 0.7], [0.3, 0.5, 0.35]], legs: [[0.2, 0.22, 0.3], [0.5, 0.45, 0.38]], hat: ['hair', 'hair', 'non'], long: false },
+  scholar: { robe: [[0.13, 0.17, 0.33], [0.36, 0.24, 0.15], [0.2, 0.3, 0.24], [0.3, 0.32, 0.4], [0.42, 0.36, 0.28]], legs: [[0.86, 0.84, 0.78]], hat: 'khan', long: true, sash: [0.1, 0.08, 0.07] },
+  teacher: { robe: [[0.12, 0.12, 0.14], [0.3, 0.2, 0.14]], legs: [[0.86, 0.84, 0.78]], hat: 'khan', long: true, beard: true, sash: [0.5, 0.45, 0.35] },
+  prince: { robe: [[0.75, 0.55, 0.12], [0.62, 0.14, 0.1], [0.7, 0.45, 0.15]], legs: [[0.9, 0.86, 0.76]], hat: 'crown', long: true, sash: [0.75, 0.6, 0.25] },
+  king: { robe: [[0.85, 0.65, 0.1]], legs: [[0.9, 0.86, 0.76]], hat: 'crown', long: true, sash: [0.6, 0.12, 0.08] },
+  official: { robe: [[0.55, 0.1, 0.1], [0.12, 0.2, 0.45], [0.15, 0.35, 0.2], [0.45, 0.12, 0.3]], legs: [[0.86, 0.84, 0.78]], hat: 'quan', long: true, sash: [0.75, 0.6, 0.25] },
+  monk: { robe: [[0.55, 0.36, 0.14], [0.45, 0.3, 0.15], [0.62, 0.42, 0.18]], legs: [[0.5, 0.34, 0.16]], hat: 'bald', long: true, sash: [0.4, 0.26, 0.1] },
+  commoner: { robe: [[0.36, 0.26, 0.16], [0.2, 0.22, 0.3], [0.3, 0.28, 0.2], [0.5, 0.42, 0.28]], legs: [[0.12, 0.1, 0.09], [0.24, 0.2, 0.14]], hat: ['non', 'khan', 'hair'], long: false, sash: [0.2, 0.16, 0.12] },
+  child: { robe: [[0.42, 0.3, 0.18], [0.3, 0.3, 0.36]], legs: [[0.15, 0.12, 0.1]], hat: 'hair', long: false, scale: 0.68, sash: [0.2, 0.15, 0.1] },
+  laureate: { robe: [[0.62, 0.1, 0.1]], legs: [[0.9, 0.86, 0.76]], hat: 'quan', long: true, sash: [0.8, 0.62, 0.22] },
+  student_girl: { robe: [[0.95, 0.95, 0.94]], legs: [[0.92, 0.92, 0.92]], hat: 'hair', long: true, slim: true, modern: true, sash: [0.9, 0.9, 0.9] },
+  student_boy: { robe: [[0.94, 0.94, 0.95]], legs: [[0.12, 0.14, 0.24]], hat: 'hair', long: false, modern: true, sash: [0.1, 0.1, 0.12] },
+  graduate: { robe: [[0.08, 0.08, 0.1]], legs: [[0.1, 0.1, 0.12]], hat: 'mortar', long: true, sash: [0.5, 0.1, 0.1] },
+  tourist: { robe: [[0.75, 0.3, 0.25], [0.25, 0.45, 0.6], [0.9, 0.85, 0.7], [0.3, 0.5, 0.35]], legs: [[0.2, 0.22, 0.3], [0.5, 0.45, 0.38]], hat: ['hair', 'hair', 'non'], long: false, modern: true, sash: [0.15, 0.12, 0.1] },
 };
-const PG = { // part geometries (person ~1.75 tall, hip at y = 0.85)
-  robeL: new THREE.CylinderGeometry(0.19, 0.33, 1.23, 12, 1, false).translate(0, -0.115, 0),
-  robeS: mergeGeometries([new THREE.CylinderGeometry(0.19, 0.25, 0.75, 12).translate(0, 0.125, 0)]),
-  head: mergeGeometries([new THREE.SphereGeometry(0.115, 12, 10).scale(1, 1.12, 1.05).translate(0, 0.72, 0), new THREE.CylinderGeometry(0.05, 0.06, 0.1, 8).translate(0, 0.6, 0)]),
-  arm: mergeGeometries([new THREE.CylinderGeometry(0.06, 0.085, 0.6, 8).translate(0, -0.3, 0), new THREE.SphereGeometry(0.045, 8, 6).translate(0, -0.62, 0)]),
-  leg: mergeGeometries([new THREE.CylinderGeometry(0.06, 0.05, 0.82, 8).translate(0, -0.41, 0), new THREE.BoxGeometry(0.09, 0.05, 0.2).translate(0, -0.83, 0.05)]),
-  khan: new THREE.CylinderGeometry(0.125, 0.125, 0.09, 14).translate(0, 0.81, 0),
-  quan: mergeGeometries([new THREE.CylinderGeometry(0.12, 0.13, 0.16, 12).translate(0, 0.84, 0), new THREE.SphereGeometry(0.09, 10, 6, 0, Math.PI * 2, 0, Math.PI / 2).translate(0, 0.9, -0.03), new THREE.BoxGeometry(0.5, 0.06, 0.02).translate(0, 0.86, -0.1)]),
-  crown: mergeGeometries([new THREE.CylinderGeometry(0.11, 0.12, 0.12, 12).translate(0, 0.84, 0), new THREE.BoxGeometry(0.3, 0.025, 0.36).translate(0, 0.91, 0)]),
-  non: new THREE.ConeGeometry(0.3, 0.17, 16).translate(0, 0.86, 0),
-  hair: new THREE.SphereGeometry(0.075, 10, 8).translate(0, 0.79, -0.07),
-  mortar: mergeGeometries([new THREE.CylinderGeometry(0.11, 0.12, 0.08, 12).translate(0, 0.8, 0), new THREE.BoxGeometry(0.34, 0.025, 0.34).translate(0, 0.85, 0)]),
-  beard: new THREE.ConeGeometry(0.06, 0.2, 8).rotateX(Math.PI).translate(0, 0.58, 0.08),
-  parasol: mergeGeometries([new THREE.CylinderGeometry(0.025, 0.025, 2.6, 6).translate(0, 1.3, 0), new THREE.ConeGeometry(0.85, 0.35, 16, 1, true).translate(0, 2.55, 0), new THREE.CylinderGeometry(0.86, 0.86, 0.22, 16, 1, true).translate(0, 2.3, 0)]),
-  flag: mergeGeometries([new THREE.CylinderGeometry(0.025, 0.025, 2.8, 6).translate(0, 1.4, 0), new THREE.BoxGeometry(0.02, 1.2, 0.55).translate(0, 2.1, 0.3)]),
-  chisel: new THREE.BoxGeometry(0.05, 0.05, 0.3).translate(0, -0.65, 0.12),
-  staff: new THREE.CylinderGeometry(0.025, 0.03, 1.6, 6).translate(0, -0.2, 0.1),
-};
+function lathe(pts, seg = 14) { return new THREE.LatheGeometry(pts.map(([r, y]) => new THREE.Vector2(r, y)), seg); }
+// vải: nếp dọc nhẹ, viền gấu; nhân với màu từng người
+const TEX_CLOTH = canvasTex(128, 128, (g, w, h) => { g.fillStyle = '#fff'; g.fillRect(0, 0, w, h);
+  for (let x = 0; x < w; x++) { const v = 0.86 + 0.14 * (0.5 + 0.5 * Math.sin(x / w * Math.PI * 2 * 7 + Math.sin(x * 0.3))); g.fillStyle = `rgba(${v * 255 | 0},${v * 255 | 0},${v * 255 | 0},1)`; g.fillRect(x, 0, 1, h); }
+  g.fillStyle = 'rgba(0,0,0,0.28)'; g.fillRect(0, h - 6, w, 6); noise(g, w, h, 1500, ['rgba(0,0,0,A)', 'rgba(255,255,255,A)'], 0.05); });
+// mặt: vẽ trên khối cầu (u = 0,25 là phía trước), nền trắng nhân màu da
+const TEX_FACE = canvasTex(512, 256, (g, w, h) => { g.fillStyle = '#fff'; g.fillRect(0, 0, w, h);
+  const cx = w * 0.25; const sh = g.createRadialGradient(cx, h * 0.55, 10, cx, h * 0.55, w * 0.22); sh.addColorStop(0, 'rgba(255,240,230,0)'); sh.addColorStop(1, 'rgba(120,80,60,0.25)'); g.fillStyle = sh; g.fillRect(0, 0, w, h);
+  for (const s of [-1, 1]) { const ex = cx + s * 15, ey = h * 0.5;
+    g.fillStyle = 'rgba(60,35,25,0.85)'; g.beginPath(); g.ellipse(ex, ey - 9, 9, 2.2, s * 0.12, 0, Math.PI * 2); g.fill();            // lông mày
+    g.fillStyle = '#f4efe8'; g.beginPath(); g.ellipse(ex, ey, 6.5, 3, 0, 0, Math.PI * 2); g.fill();                                     // tròng trắng
+    g.fillStyle = '#1a120e'; g.beginPath(); g.ellipse(ex + s * 0.5, ey + 0.2, 3.2, 3, 0, 0, Math.PI * 2); g.fill();                     // con ngươi
+    g.strokeStyle = 'rgba(40,25,20,0.9)'; g.lineWidth = 1.6; g.beginPath(); g.ellipse(ex, ey, 7, 3.2, 0, Math.PI * 1.05, Math.PI * 1.95); g.stroke(); }
+  g.fillStyle = 'rgba(150,95,70,0.35)'; g.beginPath(); g.ellipse(cx, h * 0.6, 4, 7, 0, 0, Math.PI * 2); g.fill();                         // sống mũi
+  g.fillStyle = 'rgba(110,60,45,0.55)'; g.beginPath(); g.ellipse(cx, h * 0.63, 6, 2.2, 0, 0, Math.PI * 2); g.fill();                       // cánh mũi
+  g.fillStyle = 'rgba(150,60,55,0.75)'; g.beginPath(); g.ellipse(cx, h * 0.705, 8, 2.4, 0, 0, Math.PI * 2); g.fill();                      // môi
+  g.fillStyle = 'rgba(200,110,100,0.18)'; for (const s of [-1, 1]) { g.beginPath(); g.ellipse(cx + s * 22, h * 0.62, 9, 6, 0, 0, Math.PI * 2); g.fill(); } });
+const TEX_NON = canvasTex(256, 64, (g, w, h) => { g.fillStyle = '#e2cf98'; g.fillRect(0, 0, w, h); for (let y = 2; y < h; y += 5) { g.fillStyle = 'rgba(120,95,50,0.45)'; g.fillRect(0, y, w, 1); }
+  for (let x = 0; x < w; x += 9) { g.fillStyle = 'rgba(255,250,220,0.25)'; g.fillRect(x, 0, 2, h); } });
+const PG = (() => { const G = {};
+  G.torso = lathe([[0.001, -0.02], [0.155, -0.02], [0.165, 0.12], [0.178, 0.3], [0.19, 0.42], [0.18, 0.49], [0.14, 0.545], [0.08, 0.585], [0.05, 0.6]], 20).scale(1.1, 1, 0.72);
+  G.skirtL = lathe([[0.17, 0.02], [0.2, -0.25], [0.255, -0.6], [0.3, -0.8], [0.29, -0.82]], 18).scale(1.05, 1, 0.82);
+  G.skirtS = lathe([[0.17, 0.02], [0.19, -0.12], [0.215, -0.26], [0.21, -0.27]], 16).scale(1.08, 1, 0.8);
+  G.skirtK = lathe([[0.17, 0.02], [0.24, -0.06], [0.36, -0.14], [0.37, -0.16]], 18).scale(1.05, 1, 1.25).translate(0, 0, 0.12);
+  G.belt = new THREE.TorusGeometry(0.178, 0.02, 6, 20).rotateX(Math.PI / 2).scale(1.1, 1.6, 0.74).translate(0, 0.03, 0);
+  const band = (pts) => new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map(p => new THREE.Vector3(...p))), 16, 0.012, 4).scale(1, 1, 0.5);
+  G.collar = mergeGeometries([band([[-0.075, 0.58, 0.05], [-0.02, 0.48, 0.135], [0.06, 0.34, 0.145], [0.13, 0.2, 0.12]]), band([[0.075, 0.58, 0.05], [0.04, 0.5, 0.12], [-0.01, 0.42, 0.14]]),
+    band([[-0.075, 0.585, 0.04], [0, 0.6, -0.06], [0.075, 0.585, 0.04]])]);
+  G.head = mergeGeometries([new THREE.SphereGeometry(0.1, 20, 14).scale(0.92, 1.12, 1.0).translate(0, 0.17, 0), new THREE.CylinderGeometry(0.045, 0.05, 0.12, 10).translate(0, 0.05, -0.005)]);
+  G.ear = mergeGeometries([-1, 1].map(s => new THREE.SphereGeometry(0.025, 8, 6).scale(0.5, 1, 0.8).translate(s * 0.092, 0.165, -0.005)));
+  G.nose = new THREE.ConeGeometry(0.014, 0.04, 6).rotateX(-Math.PI / 2 - 0.4).translate(0, 0.155, 0.1);
+  G.toc = new THREE.SphereGeometry(0.104, 16, 10, 0, Math.PI * 2, 0, Math.PI * 0.55).scale(0.95, 1.1, 1.04).rotateX(-0.35).translate(0, 0.185, -0.012);
+  G.bui = new THREE.SphereGeometry(0.045, 10, 8).translate(0, 0.29, -0.05);
+  G.uarm = lathe([[0.001, 0.02], [0.06, 0.01], [0.072, -0.12], [0.08, -0.28], [0.078, -0.3]], 10);
+  G.farm = lathe([[0.072, 0.02], [0.08, -0.08], [0.095, -0.18], [0.105, -0.25], [0.09, -0.262], [0.04, -0.266], [0.001, -0.267]], 14);
+  G.farmN = lathe([[0.072, 0.02], [0.07, -0.12], [0.06, -0.25], [0.05, -0.26]], 10);
+  G.hand = mergeGeometries([new THREE.SphereGeometry(0.032, 8, 6).scale(0.9, 1.4, 0.55).translate(0, -0.04, 0), new THREE.CylinderGeometry(0.01, 0.011, 0.045, 5).rotateZ(0.5).translate(0.028, -0.025, 0.008)]).translate(0, -0.25, 0);
+  G.thigh = lathe([[0.001, 0.02], [0.075, 0.0], [0.07, -0.2], [0.058, -0.42]], 10);
+  G.shin = mergeGeometries([lathe([[0.058, 0.0], [0.055, -0.2], [0.045, -0.38]], 10), new THREE.BoxGeometry(0.085, 0.05, 0.22).translate(0, -0.41, 0.05)]);
+  G.khan = mergeGeometries([0, 1, 2].map(i => new THREE.TorusGeometry(0.098 - i * 0.004, 0.026, 8, 22).rotateX(Math.PI / 2 + (i - 1) * 0.12).scale(0.96, 1, 1.06).translate(0, 0.22 + i * 0.032, -0.012 - i * 0.004)).concat([new THREE.SphereGeometry(0.09, 12, 6, 0, Math.PI * 2, 0, Math.PI / 2).translate(0, 0.27, -0.02)]));
+  G.quan = mergeGeometries([new THREE.CylinderGeometry(0.105, 0.11, 0.12, 16).translate(0, 0.26, -0.01), new THREE.SphereGeometry(0.085, 12, 6, 0, Math.PI * 2, 0, Math.PI / 2).scale(1, 1.3, 1).translate(0, 0.32, -0.04),
+    ...[-1, 1].map(s => new THREE.CylinderGeometry(0.075, 0.075, 0.008, 16).scale(1, 1, 0.5).rotateZ(Math.PI / 2).rotateY(s * 0.1).translate(s * 0.2, 0.31, -0.08)),
+    ...[-1, 1].map(s => new THREE.BoxGeometry(0.12, 0.01, 0.01).translate(s * 0.12, 0.31, -0.08))]);
+  G.crown = mergeGeometries([new THREE.CylinderGeometry(0.1, 0.108, 0.13, 16).translate(0, 0.26, -0.01), new THREE.BoxGeometry(0.26, 0.02, 0.36).translate(0, 0.34, 0),
+    ...[-1, 1].flatMap(s => [0, 1, 2].map(i => new THREE.CylinderGeometry(0.006, 0.006, 0.12, 4).translate(s * (0.04 + i * 0.03), 0.28, 0.17 * s)))]);
+  G.non = mergeGeometries([new THREE.ConeGeometry(0.3, 0.2, 24, 1, true).translate(0, 0.33, 0)]);
+  G.mortar = mergeGeometries([new THREE.CylinderGeometry(0.1, 0.11, 0.08, 14).translate(0, 0.27, 0), new THREE.BoxGeometry(0.3, 0.02, 0.3).translate(0, 0.32, 0)]);
+  G.beard = mergeGeometries([new THREE.ConeGeometry(0.045, 0.16, 8).rotateX(Math.PI).translate(0, 0.04, 0.075), ...[-1, 1].map(s => new THREE.CylinderGeometry(0.006, 0.003, 0.07, 4).rotateZ(s * 1.0).translate(s * 0.03, 0.105, 0.098))]);
+  G.parasol = mergeGeometries([new THREE.CylinderGeometry(0.02, 0.02, 2.6, 6).translate(0, 1.3, 0), new THREE.ConeGeometry(0.85, 0.35, 16, 1, true).translate(0, 2.55, 0), new THREE.CylinderGeometry(0.86, 0.86, 0.22, 16, 1, true).translate(0, 2.3, 0)]);
+  G.flag = mergeGeometries([new THREE.CylinderGeometry(0.02, 0.02, 2.8, 6).translate(0, 1.4, 0), new THREE.BoxGeometry(0.02, 1.2, 0.55).translate(0, 2.1, 0.3)]);
+  G.chisel = new THREE.BoxGeometry(0.03, 0.03, 0.22).translate(0, -0.27, 0.08);
+  G.staff = new THREE.CylinderGeometry(0.02, 0.025, 1.6, 6).translate(0, -0.25, 0.04);
+  return G; })();
 const people = [];
 function pickC(c, i) { return Array.isArray(c[0]) ? c[i % c.length] : c; }
 function addPerson(o) { const C = COSTUME[o.costume || 'scholar']; const k = people.length;
   const hat = o.hat || (Array.isArray(C.hat) ? C.hat[Math.floor(rnd() * C.hat.length)] : C.hat);
-  people.push({ ...o, C, hat, robe: o.robe || pickC(C.robe, Math.floor(rnd() * 97)), legs: o.legsC || pickC(C.legs, Math.floor(rnd() * 13)), ph: o.ph ?? R(0, 100), sc: (o.h || R(0.95, 1.05)) * (C.scale || 1), sp: o.speed ?? R(0.8, 1.2), vis: o.vis, k }); }
+  people.push({ ...o, C, hat, robe: o.robe || pickC(C.robe, Math.floor(rnd() * 97)), legs: o.legsC || pickC(C.legs, Math.floor(rnd() * 13)), skin: SKIN[Math.floor(rnd() * SKIN.length)],
+    ph: o.ph ?? R(0, 100), sc: (o.h || R(0.95, 1.05)) * (C.scale || 1), sp: o.speed ?? R(0.8, 1.2), vis: o.vis, k }); }
 function crowd(o) { // vùng chữ nhật (đi lại / đứng) hoặc lưới (hàng lối)
   const cs = Array.isArray(o.costume) ? o.costume : [o.costume || 'scholar'];
   if (o.grid) { const G = o.grid; for (let r = 0; r < G.rows; r++) for (let c = 0; c < G.cols; c++) addPerson({ ...o, costume: cs[(r * G.cols + c) % cs.length], pos: [G.origin[0] + c * G.dx + R(-0.05, 0.05), G.origin[1] + r * G.dz], face: o.face ?? 0, still: true, grid: undefined }); return; }
-  if (o.line) { const L = o.line, n = o.count; for (let i = 0; i < n; i++) { const u = n > 1 ? i / (n - 1) : 0.5; addPerson({ ...o, costume: cs[i % cs.length], pos: [lerp(L[0][0], L[1][0], u) + R(-0.3, 0.3), lerp(L[0][1], L[1][1], u) + R(-0.3, 0.3)], face: o.face ?? 0, still: true, line: undefined }); } return; }
+  if (o.line) { const L = o.line, n = o.count; for (let i = 0; i < n; i++) { const u = n > 1 ? i / (n - 1) : 0.5; addPerson({ ...o, costume: cs[i % cs.length], pos: [lerp(L[0][0], L[1][0], u) + R(-0.3, 0.3), lerp(L[0][1], L[1][1], u) + R(-0.3, 0.3)], face: o.face ?? 0, line: undefined }); } return; }
   for (let i = 0; i < o.count; i++) { const along = rnd() < (o.alongZ ?? 0.6), x0 = R(o.rect[0], o.rect[2]), z0 = R(o.rect[1], o.rect[3]), L = R(6, 22);
     const x1 = along ? x0 + R(-1, 1) : clamp(x0 + (rnd() < 0.5 ? -L : L), o.rect[0], o.rect[2]), z1 = along ? clamp(z0 + (rnd() < 0.5 ? -L : L), o.rect[1], o.rect[3]) : z0 + R(-1, 1);
     addPerson({ ...o, costume: cs[i % cs.length], path: o.still ? null : [[x0, z0], [x1, z1]], pos: [x0, z0], face: o.face ?? R(0, 6.28), rect: undefined }); }
 }
 let PM = null;
-function buildPeople() { if (!people.length) return; const n = people.length, mk = (geo, mat, cnt) => { const im = new THREE.InstancedMesh(geo, mat, Math.max(1, cnt)); for (let i = 0; i < Math.max(1, cnt); i++) im.setMatrixAt(i, ZERO); im.castShadow = true; im.receiveShadow = true; im.instanceMatrix.setUsage(THREE.DynamicDrawUsage); im.frustumCulled = false; scene.add(im); return im; };
-  const cloth = () => new THREE.MeshStandardMaterial({ roughness: 0.8, color: 0xffffff });
-  PM = { robeL: mk(PG.robeL, cloth(), n), robeS: mk(PG.robeS, cloth(), n), head: mk(PG.head, new THREE.MeshStandardMaterial({ color: 0xc8996f, roughness: 0.7 }), n), arm: mk(PG.arm, cloth(), n * 2), leg: mk(PG.leg, cloth(), n * 2) };
-  const hatMat = { khan: 0x141010, quan: 0x0c0c0c, crown: 0xc8a050, non: 0xd8c48a, hair: 0x101010, mortar: 0x0b0b0d, bald: 0, beard: 0xe8e4dc };
-  for (const h of ['khan', 'quan', 'crown', 'non', 'hair', 'mortar', 'beard']) PM[h] = mk(PG[h], new THREE.MeshStandardMaterial({ color: hatMat[h], roughness: h === 'crown' ? 0.35 : 0.8, metalness: h === 'crown' ? 0.6 : 0 }), people.filter(p => p.hat === h || (h === 'beard' && p.C.beard) || (h === 'hair' && p.C.slim)).length);
-  for (const h of ['parasol', 'flag', 'chisel', 'staff']) PM[h] = mk(PG[h], new THREE.MeshStandardMaterial({ color: h === 'parasol' ? 0xd6a02c : h === 'flag' ? 0xb82418 : 0x6b5a40, roughness: 0.7, side: THREE.DoubleSide }), people.filter(p => p.carry === h).length);
-  const col = new THREE.Color();
-  people.forEach((p, i) => { PM.robeL.setColorAt(i, col.setRGB(...p.robe)); PM.robeS.setColorAt(i, col.setRGB(...p.robe)); PM.arm.setColorAt(2 * i, col); PM.arm.setColorAt(2 * i + 1, col);
-    PM.leg.setColorAt(2 * i, col.setRGB(...p.legs)); PM.leg.setColorAt(2 * i + 1, col); });
+const HATS = ['khan', 'quan', 'crown', 'non', 'mortar'];
+function buildPeople() { if (!people.length) return; const n = people.length;
+  const mk = (geo, mat, cnt) => { const c = Math.max(1, cnt), im = new THREE.InstancedMesh(geo, mat, c); for (let i = 0; i < c; i++) im.setMatrixAt(i, ZERO); im.castShadow = true; im.receiveShadow = true; im.instanceMatrix.setUsage(THREE.DynamicDrawUsage); im.frustumCulled = false; scene.add(im); return im; };
+  const cloth = () => new THREE.MeshStandardMaterial({ map: TEX_CLOTH, roughness: 0.88, color: 0xffffff, side: THREE.DoubleSide });
+  const skinM = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.62 });
+  const cnt = k => people.filter(k).length;
+  PM = { torso: mk(PG.torso, cloth(), n), skirtL: mk(PG.skirtL, cloth(), n), skirtS: mk(PG.skirtS, cloth(), n), skirtK: mk(PG.skirtK, cloth(), n),
+    belt: mk(PG.belt, new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.7 }), n), collar: mk(PG.collar, new THREE.MeshStandardMaterial({ color: 0xece4d2, roughness: 0.8 }), cnt(p => !p.C.modern)),
+    head: mk(PG.head, new THREE.MeshStandardMaterial({ map: TEX_FACE, color: 0xffffff, roughness: 0.6 }), n), ear: mk(PG.ear, skinM, n), nose: mk(PG.nose, skinM, n),
+    toc: mk(PG.toc, new THREE.MeshStandardMaterial({ color: 0x0e0b0a, roughness: 0.55 }), cnt(p => p.hat !== 'bald')), bui: mk(PG.bui, new THREE.MeshStandardMaterial({ color: 0x0e0b0a, roughness: 0.55 }), cnt(p => p.hat === 'hair' && !p.C.modern)),
+    uarm: mk(PG.uarm, cloth(), 2 * n), farm: mk(PG.farm, cloth(), 2 * n), farmN: mk(PG.farmN, cloth(), 2 * n), hand: mk(PG.hand, skinM, 2 * n), thigh: mk(PG.thigh, cloth(), 2 * n), shin: mk(PG.shin, cloth(), 2 * n) };
+  const hatMat = { khan: [0x1a1714, 0.8, 0], quan: [0x0b0b0b, 0.5, 0], crown: [0xc8a050, 0.35, 0.6], mortar: [0x0b0b0d, 0.8, 0] };
+  for (const h of ['khan', 'quan', 'crown', 'mortar']) PM[h] = mk(PG[h], new THREE.MeshStandardMaterial({ color: hatMat[h][0], roughness: hatMat[h][1], metalness: hatMat[h][2] }), cnt(p => p.hat === h));
+  PM.non = mk(PG.non, new THREE.MeshStandardMaterial({ map: TEX_NON, roughness: 0.9, side: THREE.DoubleSide }), cnt(p => p.hat === 'non'));
+  PM.beard = mk(PG.beard, new THREE.MeshStandardMaterial({ color: 0xd8d4cc, roughness: 0.9 }), cnt(p => p.C.beard));
+  for (const h of ['parasol', 'flag', 'chisel', 'staff']) PM[h] = mk(PG[h], new THREE.MeshStandardMaterial({ color: h === 'parasol' ? 0xd6a02c : h === 'flag' ? 0xb82418 : 0x6b5a40, roughness: 0.7, side: THREE.DoubleSide }), cnt(p => p.carry === h));
+  const col = new THREE.Color(); const set = (k, i, c) => PM[k].setColorAt(i, col.setRGB(...c));
+  people.forEach((p, i) => { for (const k of ['torso', 'skirtL', 'skirtS', 'skirtK']) set(k, i, p.robe); set('belt', i, p.C.sash || [0.1, 0.1, 0.1]);
+    for (const k of ['head', 'ear', 'nose']) set(k, i, p.skin);
+    const short = !p.C.long;
+    for (const j of [2 * i, 2 * i + 1]) { set('uarm', j, p.robe); set('farm', j, p.robe); set('farmN', j, p.robe); set('hand', j, p.skin); set('thigh', j, short ? p.legs : p.robe); set('shin', j, short ? p.legs : p.legs); } });
+  for (const k in PM) if (PM[k].instanceColor) PM[k].instanceColor.needsUpdate = true;
 }
 const _M = new THREE.Matrix4(), _Q = new THREE.Quaternion(), _E = new THREE.Euler(), _V = new THREE.Vector3(), _S = new THREE.Vector3(), _P = new THREE.Matrix4(), _H = new THREE.Matrix4(), _L = new THREE.Matrix4(), ZERO = new THREE.Matrix4().makeScale(0, 0, 0);
+const _A = new THREE.Matrix4(), _B = new THREE.Matrix4(), _R = new THREE.Matrix4(), _N = new THREE.Matrix4();
 function inWin(win, t) { if (!win) return true; const W = typeof win[0] === 'number' ? [win] : win; return W.some(w => t >= w[0] && t < w[1]); }
+// tư thế: góc vai (x: giơ ra trước <0, y: xoay vào trong, z: dang ra), khuỷu (<0 gập ra trước), hông, gối (>0 gập ra sau), cúi người
+function poseOf(pose, t, p, ph) {
+  const s = Math.sin(ph), q = { sh: [[0.06, 0, 0.06], [0.06, 0, 0.06]], el: [-0.15, -0.15], hip: [0, 0], knee: [0, 0], bow: 0, nod: 0, y: 0, kneel: false };
+  if (pose === 'walk' || pose === 'carry') { q.sh = [[s * 0.38, 0, 0.07], [-s * 0.38, 0, 0.07]]; q.el = [-0.25 - Math.max(0, -s) * 0.3, -0.25 - Math.max(0, s) * 0.3];
+    q.hip = [-s * 0.42, s * 0.42]; q.knee = [0.1 + Math.max(0, Math.sin(ph + 1.6)) * 0.7, 0.1 + Math.max(0, -Math.sin(ph + 1.6)) * 0.7]; q.y = Math.abs(Math.cos(ph)) * 0.025 - 0.02;
+    if (pose === 'carry') { q.sh = [[-0.55, 0.15, 0.05], [-0.55, 0.15, 0.05]]; q.el = [-0.9, -0.9]; } }
+  else if (pose === 'stand') { q.sh = [[-0.38, 0.5, 0.05], [-0.38, 0.5, 0.05]]; q.el = [-1.25, -1.25]; q.nod = 0.05 * Math.sin(t * 0.7 + p.ph); }
+  else if (pose === 'teach') { q.sh = [[-0.38, 0.5, 0.05], [-1.0 + Math.sin(t * 1.9 + p.ph) * 0.3, 0.2, -0.15]]; q.el = [-1.25, -0.7 - Math.sin(t * 1.9 + p.ph) * 0.2]; q.nod = 0.06 * Math.sin(t * 1.3 + p.ph); }
+  else if (pose === 'bow') { const b = 0.5 + 0.5 * Math.sin(t * 1.4 + p.ph); q.bow = 0.25 + b * 0.45; q.sh = [[-1.1, 0.55, 0.05], [-1.1, 0.55, 0.05]]; q.el = [-0.85, -0.85]; q.nod = 0.15; }
+  else if (pose === 'kneel' || pose === 'write' || pose === 'hammer') { q.kneel = true; q.hip = [-1.48, -1.48]; q.knee = [2.85, 2.85]; q.y = -0.6;
+    q.sh = [[-0.3, 0.25, 0.08], [-0.3, 0.25, 0.08]]; q.el = [-1.05, -1.05];
+    if (pose === 'write') { q.bow = 0.22; q.nod = 0.25; q.sh = [[-0.55, 0.35, 0.1], [-0.75 + Math.sin(t * 5 + p.ph) * 0.05, 0.1, -0.05]]; q.el = [-1.2, -0.75]; }
+    if (pose === 'hammer') { q.bow = 0.3; q.nod = 0.3; const h = Math.abs(Math.sin(t * 6 + p.ph)); q.sh = [[-0.9, 0.3, 0.1], [-1.2 - h * 0.9, 0.1, -0.05]]; q.el = [-0.6, -0.5 + h * 0.3]; } }
+  return q;
+}
+const ROT = (x, y, z) => _R.makeRotationFromEuler(_E.set(x, y, z, 'YXZ'));
 function updatePeople(t) { if (!PM) return; const cnt = {};
   const put = (key, m) => { const i = cnt[key] = (cnt[key] ?? -1) + 1; PM[key].setMatrixAt(i, m); };
-  people.forEach((p, i) => {
+  people.forEach((p) => {
     const vis = inWin(p.vis, t); let x = p.pos[0], z = p.pos[1], ang = p.face ?? 0, moving = false;
-    if (vis && p.path && p.sp > 0) { const pts = p.path; let L = 0; const seg = []; for (let k = 0; k < pts.length - 1; k++) { const l = Math.hypot(pts[k + 1][0] - pts[k][0], pts[k + 1][1] - pts[k][1]); seg.push(l); L += l; }
+    const hide = () => { for (const k of ['torso', 'skirtL', 'skirtS', 'skirtK', 'belt', 'head', 'ear', 'nose']) put(k, ZERO); if (!p.C.modern) put('collar', ZERO);
+      for (const k of ['uarm', 'farm', 'farmN', 'hand', 'thigh', 'shin']) { put(k, ZERO); put(k, ZERO); }
+      if (p.hat !== 'bald') put('toc', ZERO); if (p.hat === 'hair' && !p.C.modern) put('bui', ZERO); if (HATS.includes(p.hat)) put(p.hat, ZERO); if (p.C.beard) put('beard', ZERO); if (p.carry) put(p.carry, ZERO); };
+    if (!vis) return hide();
+    if (p.path && p.sp > 0) { const pts = p.path; let L = 0; const seg = []; for (let k = 0; k < pts.length - 1; k++) { const l = Math.hypot(pts[k + 1][0] - pts[k][0], pts[k + 1][1] - pts[k][1]); seg.push(l); L += l; }
       const t0 = p.t0 ?? 0; let d = Math.max(0, t - t0) * p.sp + (p.once ? 0 : p.ph); let dir = 1;
       if (p.once) d = Math.min(d, L); else { d = d % (2 * L); if (d > L) { d = 2 * L - d; dir = -1; } }
       moving = !(p.once && d >= L);
       let k = 0; while (k < seg.length - 1 && d > seg[k]) { d -= seg[k]; k++; } const u = seg[k] ? d / seg[k] : 0, A = pts[k], B = pts[k + 1];
       x = lerp(A[0], B[0], u); z = lerp(A[1], B[1], u); ang = Math.atan2((B[0] - A[0]) * dir, (B[1] - A[1]) * dir); }
-    const pose = moving ? (p.pose === 'carry' ? 'carry' : 'walk') : (p.pose || 'stand'); const s = p.sc, ph = t * (p.sp * 4.2) + p.ph;
-    const kneel = pose === 'kneel' || pose === 'write' || pose === 'hammer'; const y0 = groundH(x, z) + (p.y || 0) + (kneel ? -0.42 : 0) + (pose === 'walk' || pose === 'carry' ? Math.abs(Math.sin(ph)) * 0.035 : 0);
-    if (!vis) { for (const key of ['robeL', 'robeS', 'head']) put(key, ZERO); put('arm', ZERO); put('arm', ZERO); put('leg', ZERO); put('leg', ZERO);
-      if (p.hat !== 'bald') put(p.hat, ZERO); if (p.C.beard) put('beard', ZERO); if (p.C.slim && p.hat !== 'hair') put('hair', ZERO); if (p.carry) put(p.carry, ZERO); return; }
-    _Q.setFromAxisAngle(_V.set(0, 1, 0), ang); _P.compose(_V.set(x, y0, z), _Q, _S.set(s, s, s));
-    const bow = pose === 'bow' ? 0.55 * (0.5 + 0.5 * Math.sin(t * 1.6 + p.ph)) : pose === 'write' ? 0.25 : kneel ? 0.08 : 0;
-    _H.copy(_P).multiply(_L.makeTranslation(0, 0.85, 0)).multiply(new THREE.Matrix4().makeRotationX(bow));
-    const robeKey = p.C.long ? 'robeL' : 'robeS';
-    put(robeKey, kneel ? _M.copy(_H).multiply(new THREE.Matrix4().compose(_V.set(0, 0.2, 0.05), _Q.identity(), _S.set(1.15, 0.62, 1.2))) : _H);
-    put(robeKey === 'robeL' ? 'robeS' : 'robeL', ZERO);
-    put('head', _H); if (p.hat !== 'bald') put(p.hat, _H); if (p.C.beard) put('beard', _H); if (p.C.slim && p.hat !== 'hair') put('hair', _H);
-    // arms
-    let aL = 0.08, aR = 0.08, zL = 0.12, zR = -0.12;
-    if (pose === 'walk') { aL = Math.sin(ph) * 0.45; aR = -aL; }
-    else if (pose === 'carry') { aL = aR = -1.15; }
-    else if (pose === 'write') { aR = -0.95 + Math.sin(t * 6 + p.ph) * 0.05; aL = -0.6; }
-    else if (pose === 'teach') { aR = -1.2 + Math.sin(t * 2.2 + p.ph) * 0.35; zR = -0.35; aL = -0.25; }
-    else if (pose === 'hammer') { aR = -1.4 + Math.abs(Math.sin(t * 7 + p.ph)) * 0.9; aL = -1.1; }
-    else if (pose === 'bow' || pose === 'stand' || pose === 'kneel') { aL = aR = pose === 'stand' ? -0.25 : -0.55; zL = 0.32; zR = -0.32; }
-    for (const [sd, a, zz] of [[1, aL, zL], [-1, aR, zR]]) { _M.copy(_H).multiply(_L.makeTranslation(sd * 0.24, 0.47, 0)).multiply(new THREE.Matrix4().makeRotationFromEuler(_E.set(a, 0, zz))); put('arm', _M);
-      if (sd === -1 && p.carry === 'chisel') put('chisel', _M); }
-    // legs
-    for (const sd of [1, -1]) { let a = 0; if (pose === 'walk' || pose === 'carry') a = Math.sin(ph) * 0.42 * sd; if (kneel) a = -1.45;
-      _M.copy(_P).multiply(_L.makeTranslation(sd * 0.09, 0.85 + (kneel ? 0.25 : 0), 0)).multiply(new THREE.Matrix4().makeRotationX(a)); put('leg', _M); }
-    if (p.carry === 'parasol' || p.carry === 'flag' || p.carry === 'staff') { if (p.carry === 'staff') { _M.copy(_H).multiply(_L.makeTranslation(-0.3, 0.2, 0.12)); put('staff', _M); }
-      else { _M.copy(_P).multiply(_L.makeTranslation(-0.32, 0.3, 0.15)); put(p.carry, _M); } }
+    const pose = moving ? (p.pose === 'carry' ? 'carry' : 'walk') : (p.pose || 'stand'); const s = p.sc, ph = t * (p.sp * 4.0) + p.ph;
+    const q = poseOf(pose, t, p, ph);
+    _Q.setFromAxisAngle(_V.set(0, 1, 0), ang); _P.compose(_V.set(x, groundH(x, z) + (p.y || 0), z), _Q, _S.set(s, s, s));
+    const hipY = 0.86 + q.y;
+    // thân trên (cúi quanh hông)
+    _H.copy(_P).multiply(_L.makeTranslation(0, hipY, 0)).multiply(ROT(q.bow, 0, 0));
+    put('torso', _H); put('belt', _H); if (!p.C.modern) put('collar', _H);
+    const sk = q.kneel ? 'skirtK' : p.C.long ? 'skirtL' : 'skirtS';
+    for (const k of ['skirtL', 'skirtS', 'skirtK']) put(k, k === sk ? (q.kneel ? _M.copy(_P).multiply(_L.makeTranslation(0, hipY, 0)) : _M.copy(_P).multiply(_L.makeTranslation(0, hipY, 0)).multiply(ROT((q.hip[0] + q.hip[1]) * 0.15, 0, 0))) : ZERO);
+    // đầu
+    _A.copy(_H).multiply(_L.makeTranslation(0, 0.56, 0.0)).multiply(ROT(q.nod, 0, 0));
+    for (const k of ['head', 'ear', 'nose']) put(k, _A);
+    if (p.hat !== 'bald') put('toc', _A); if (p.hat === 'hair' && !p.C.modern) put('bui', _A); if (HATS.includes(p.hat)) put(p.hat, _A); if (p.C.beard) put('beard', _A);
+    // tay: vai -> khuỷu -> bàn tay
+    const wide = !p.C.modern;
+    [1, -1].forEach((sd, j) => { const [a, yw, zz] = q.sh[j];
+      _A.copy(_H).multiply(_L.makeTranslation(sd * 0.205, 0.5, -0.005)).multiply(ROT(a, -sd * yw, sd * zz)); put('uarm', _A);
+      _B.copy(_A).multiply(_L.makeTranslation(0, -0.29, 0)).multiply(ROT(q.el[j], 0, 0)); put(wide ? 'farm' : 'farmN', _B); put(wide ? 'farmN' : 'farm', ZERO);
+      put('hand', _B); if (sd === -1 && p.carry === 'chisel') put('chisel', _B); });
+    // chân: hông -> gối
+    [1, -1].forEach((sd, j) => { _A.copy(_P).multiply(_L.makeTranslation(sd * 0.095, hipY, 0)).multiply(ROT(q.hip[j], 0, q.kneel ? sd * 0.12 : 0)); put('thigh', _A);
+      _B.copy(_A).multiply(_L.makeTranslation(0, -0.42, 0)).multiply(ROT(q.knee[j], 0, 0)); put('shin', _B); });
+    if (p.carry === 'parasol' || p.carry === 'flag') { _M.copy(_P).multiply(_L.makeTranslation(-0.3, 0.3, 0.2)); put(p.carry, _M); }
+    else if (p.carry === 'staff') { _M.copy(_H).multiply(_L.makeTranslation(-0.32, 0.25, 0.15)); put('staff', _M); }
   });
   for (const k in PM) PM[k].instanceMatrix.needsUpdate = true;
 }
@@ -538,7 +636,7 @@ function updateBirds(t) { const m = new THREE.Matrix4(), q = new THREE.Quaternio
     f.im.instanceMatrix.needsUpdate = true; } }
 
 // ---------- build world from spec ----------
-const big = new THREE.Mesh(new THREE.PlaneGeometry(6400, 6400, 64, 64), groundMat(WD.groundMat || 'grass', 6400, 6400, 8)); big.rotation.x = -Math.PI / 2; big.position.y = -0.02; big.receiveShadow = true; scene.add(big);
+const big = new THREE.Mesh(new THREE.PlaneGeometry(6400, 6400, 64, 64), groundMat(WD.groundMat || 'grass', 6400, 6400, 14)); big.rotation.x = -Math.PI / 2; big.position.y = -0.02; big.receiveShadow = true; scene.add(big);
 (S.terrains || []).forEach(terrain);
 (S.ground || []).forEach(groundPatch);
 const KIT = { hall, gate, khueVanCac, wall, pond, box: boxProp, tents, desks, fence, scaffold, board, stela1, label, marker, route };
@@ -580,7 +678,7 @@ function mixEnv(a, b, u) { const o = {}; for (const k in a) o[k] = Array.isArray
 let NIGHT = 0;
 function applyEnv(E, look) {
   const sd = new THREE.Vector3(...E.sun).normalize(); SUN.copy(sd);
-  sunL.color.setRGB(...E.sunColor); sunL.intensity = E.sunPower; hemi.intensity = E.ambient;
+  sunL.color.setRGB(...E.sunColor); sunL.intensity = E.sunPower; hemi.intensity = E.ambient * 0.8; scene.environmentIntensity = (WD.envLight === false ? 0 : 0.42) * E.ambient * (1 - 0.8 * E.night);
   hemi.color.setRGB(...(E.night > 0.5 ? [0.35, 0.42, 0.7] : WD.skyLight || [0.65, 0.75, 0.95]));
   sky.material.uniforms.top.value.setRGB(...E.skyTop); HAZE.setRGB(...E.haze); scene.fog.color.copy(HAZE); scene.fog.density = E.fog;
   sky.material.uniforms.night.value = E.night; renderer.toneMappingExposure = E.exposure * (Q.exposure || 1);

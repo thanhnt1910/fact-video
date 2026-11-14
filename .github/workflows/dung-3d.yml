@@ -106,6 +106,18 @@ jobs:
           command -v ffmpeg || sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
       - uses: actions/download-artifact@v4
         with: { pattern: doan-*, path: video3d/out, merge-multiple: true }
+      - name: Tải giọng đọc (nếu spec có lời đọc)
+        working-directory: video3d
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SPEC="${{ needs.chia.outputs.spec }}"
+          D=$(python -c "import json;a=json.load(open('specs/$SPEC')).get('audio',{}).get('voice');print(a['dir'] if a else '')")
+          [ -z "$D" ] && exit 0
+          TEN=$(echo "$D" | cut -d/ -f2); ROOT=$(dirname "$D")
+          AID=$(gh api "repos/${{ github.repository }}/releases/tags/video3d-giong-$TEN" --jq '.assets[] | select(.name=="giong.zip") | .id')
+          gh api -H "Accept: application/octet-stream" "repos/${{ github.repository }}/releases/assets/$AID" > /tmp/g.zip
+          mkdir -p "$ROOT" && unzip -o -q /tmp/g.zip -d "$ROOT" && ls "$D" | head -3 && ls "$D" | wc -l
       - name: Ghép hình và âm thanh
         working-directory: video3d
         run: |

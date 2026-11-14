@@ -192,6 +192,18 @@ def reverb(x, secs=2.4, wet=0.25):
 
 
 # ---------- mixer ----------
+def load_voice(V, n):
+    import os, subprocess
+    d = V['dir']; out = np.zeros(n)
+    for it in V['items']:
+        f = os.path.join(d, f"{it['n']}.mp3")
+        if not os.path.exists(f): raise SystemExit(f'thiếu giọng {f}')
+        pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-f', 's16le', '-ac', '1', '-ar', str(SR), '-'], capture_output=True, check=True).stdout
+        x = np.frombuffer(pcm, np.int16).astype(np.float64) / 32768.0; i = int(it['at'] * SR); m = min(len(x), n - i)
+        if m > 0: out[i:i + m] += x[:m]
+    return np.stack([out, out])
+
+
 def make_audio(spec, log, dur, out_wav):
     A = spec.get('audio', {})
     n = int(dur * SR) + SR
@@ -238,6 +250,18 @@ def make_audio(spec, log, dur, out_wav):
     music = np.stack([reverb(music[0], 2.6, 0.3), reverb(music[1], 2.8, 0.3)])
     fx = np.stack([reverb(fx[0], 1.2, 0.15), reverb(fx[1], 1.3, 0.15)])
     mix = beds * 0.5 + fx * 0.8 + music * 0.7
+    V = A.get('voice')
+    if V:   # lời đọc (đã loudnorm −16 LUFS): nền nhạc đặt ở mức thấp cố định và nhún xuống khi có tiếng
+        voice = load_voice(V, n)
+        a1 = 1 - np.exp(-1 / (SR * 0.12)); e = signal.lfilter([a1], [1, a1 - 1], np.abs(voice[0])); e = signal.lfilter([a1], [1, a1 - 1], e[::-1])[::-1]
+        e = np.clip(e / (np.percentile(e[e > 1e-4], 60) + 1e-9) if (e > 1e-4).any() else e, 0, 1)
+        duck = 1 - V.get('duck', 0.6) * e
+        rms = np.sqrt(np.mean(mix ** 2)) + 1e-9
+        mix = mix / rms * V.get('bed', 0.03) * duck + voice * V.get('gain', 1.0)
+        mix = mix[:, : int(dur * SR)]
+        fo = int(SR * 0.6); mix[:, -fo:] *= np.linspace(1, 0, fo); mix[:, :int(SR * 0.3)] *= np.linspace(0, 1, int(SR * 0.3))
+        mix = np.clip(np.tanh(mix * 1.05) / np.tanh(1.05), -0.97, 0.97)
+        wavfile.write(out_wav, SR, (mix.T * 32767).astype(np.int16)); return
     mix = mix[:, : int(dur * SR)]
     fo = int(SR * 0.6); mix[:, -fo:] *= np.linspace(1, 0, fo); mix[:, :int(SR * 0.3)] *= np.linspace(0, 1, int(SR * 0.3))
     mix = np.tanh(mix / (np.abs(mix).max() + 1e-9) * 1.4) / np.tanh(1.4) * 0.89

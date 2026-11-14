@@ -1,0 +1,30 @@
+name: Tải chất liệu CC0 cho video 3D
+
+# Chạy khi đẩy video3d/chat_lieu/tai.py trên nhánh dung-3d-sa-ban. Tải texture Poly Haven (CC0),
+# đưa chat_lieu.zip lên Releases (tag video3d-chat-lieu).
+on:
+  push:
+    branches: [dung-3d-sa-ban]
+    paths: ['video3d/chat_lieu/tai.py']
+
+permissions:
+  contents: write
+
+jobs:
+  tai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Tải chất liệu
+        run: python -u video3d/chat_lieu/tai.py /tmp/cl 1k && ls -la /tmp/cl
+      - name: Đưa lên Releases
+        run: |
+          (cd /tmp/cl && zip -q -r /tmp/chat_lieu.zip .)
+          gh release view video3d-chat-lieu > /dev/null 2>&1 || gh release create video3d-chat-lieu --target "${{ github.ref_name }}" --prerelease \
+            --title "Chất liệu CC0 cho video 3D" --notes "Texture từ Poly Haven (CC0). Nguồn từng chất liệu trong nguon.json."
+          gh release upload video3d-chat-lieu /tmp/chat_lieu.zip --clobber

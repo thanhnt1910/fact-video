@@ -12,6 +12,10 @@ import { VerticalTiltShiftShader } from 'three/addons/shaders/VerticalTiltShiftS
 import { Reflector } from 'three/addons/objects/Reflector.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { HDRLoader } from 'three/addons/loaders/HDRLoader.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { GTAOPass } from 'three/addons/postprocessing/GTAOPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 
 try {
 await document.fonts.load('700 100px "Noto Serif CJK SC"');
@@ -50,8 +54,23 @@ const camera = new THREE.PerspectiveCamera(45, W / H, 0.5, 9000);
 const composer = new EffectComposer(renderer, new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType }));
 composer.addPass(new RenderPass(scene, camera));
 const tiltH = new ShaderPass(HorizontalTiltShiftShader), tiltV = new ShaderPass(VerticalTiltShiftShader);
+let aoPass = null;
+if (Q.ao) { aoPass = new GTAOPass(scene, camera, W, H); aoPass.updateGtaoMaterial({ radius: 1.2, distanceExponent: 1.5, thickness: 1.5, scale: 1.0, samples: Q.aoSamples || 8 });
+  aoPass.updatePdMaterial({ lumaPhi: 10, depthPhi: 2, normalPhi: 3, radius: 6, rings: 2, samples: 8 }); aoPass.blendIntensity = Q.ao; composer.addPass(aoPass); }
 composer.addPass(tiltH); composer.addPass(tiltV);
-composer.addPass(new OutputPass()); composer.addPass(new FXAAPass());
+let bloomPass = null; if (Q.bloom) { bloomPass = new UnrealBloomPass(new THREE.Vector2(W / 2, H / 2), Q.bloom, 0.55, 0.92); composer.addPass(bloomPass); }
+composer.addPass(new OutputPass());
+// chỉnh màu kiểu phim: tương phản nhẹ, bão hòa, ấm vùng sáng, lạnh vùng tối, tối góc
+const GRADE = new ShaderPass({ uniforms: { tDiffuse: { value: null }, amt: { value: Q.grade ?? 0 } }, vertexShader: 'varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+  fragmentShader: `uniform sampler2D tDiffuse; uniform float amt; varying vec2 vUv;
+    void main(){ vec3 c = texture2D(tDiffuse, vUv).rgb; float l = dot(c, vec3(0.2126, 0.7152, 0.0722));
+      vec3 g = mix(vec3(l), c, 1.0 + 0.12 * amt);
+      g = mix(g, g * g * (3.0 - 2.0 * g), 0.35 * amt);
+      g += amt * (vec3(0.025, 0.01, -0.02) * smoothstep(0.4, 1.0, l) + vec3(-0.01, 0.0, 0.02) * (1.0 - smoothstep(0.0, 0.35, l)));
+      float v = smoothstep(0.95, 0.35, length(vUv - 0.5) * 1.25); g *= mix(1.0, v, 0.35 * amt);
+      gl_FragColor = vec4(clamp(g, 0.0, 1.0), 1.0); }` });
+if (Q.grade) composer.addPass(GRADE);
+composer.addPass(new FXAAPass());
 
 // ---------- textures ----------
 function canvasTex(w, h, draw, rep) {
@@ -132,7 +151,9 @@ const sky = new THREE.Mesh(new THREE.SphereGeometry(5000, 32, 16), new THREE.Sha
     gl_FragColor = vec4(c,1.); }` }));
 scene.add(sky);
 const hemi = new THREE.HemisphereLight(new THREE.Color(...(WD.skyLight || [0.65, 0.75, 0.95])), new THREE.Color(0.35, 0.3, 0.2), WD.ambient || 1.1); scene.add(hemi);
-if (WD.envLight !== false) { const pg = new THREE.PMREMGenerator(renderer); scene.environment = pg.fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = 0.35; }
+const ENVMAP = {};
+if (WD.envLight !== false) { const pg = new THREE.PMREMGenerator(renderer); ENVMAP.room = pg.fromScene(new RoomEnvironment(), 0.04).texture; scene.environment = ENVMAP.room; scene.environmentIntensity = 0.35;
+  if (WD.hdri) { const hl = new HDRLoader(); for (const [k, f] of Object.entries(WD.hdri)) { try { const t = await hl.loadAsync(f); t.mapping = THREE.EquirectangularReflectionMapping; ENVMAP[k] = pg.fromEquirectangular(t).texture; t.dispose(); } catch (e) { console.log('hdri lỗi', f); } } } }
 const sunL = new THREE.DirectionalLight(new THREE.Color(...(WD.sunColor || [1.0, 0.86, 0.66])), WD.sunPower || 3.0);
 const SC = WD.center || [0, 0, 0];
 sunL.target.position.set(...SC); sunL.position.set(SC[0] + SUN.x * 500, SUN.y * 500, SC[2] + SUN.z * 500);
@@ -448,14 +469,14 @@ function buildLanterns() { if (!lanternList.length) return; const n = lanternLis
   LGLOW = lanternList.map(p => { const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: TEX_GLOW, color: new THREE.Color(1, 0.55, 0.25), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true, opacity: 0 }));
     s.position.set(...p); s.scale.set(1.6, 1.6, 1); scene.add(s); return s; });
   for (let i = 0; i < 6; i++) { const l = new THREE.PointLight(0xff8a40, 0, 18, 1.6); scene.add(l); LPL.push(l); } }
-function updateLanterns(night, t) { if (!LANT) return; LANT.material.emissiveIntensity = night * 2.2; LGLOW.forEach((s, i) => { s.material.opacity = night * (0.45 + 0.06 * Math.sin(t * 3 + i)) * clamp((s.position.distanceTo(camera.position) - 3) / 14); s.visible = night > 0.02; });
+function updateLanterns(night, t) { if (!LANT) return; LANT.material.emissiveIntensity = night * 0.9; LGLOW.forEach((s, i) => { s.material.opacity = night * (0.45 + 0.06 * Math.sin(t * 3 + i)) * clamp((s.position.distanceTo(camera.position) - 3) / 14); s.visible = night > 0.02; });
   const near = lanternList.map((p, i) => [i, (p[0] - camera.position.x) ** 2 + (p[2] - camera.position.z) ** 2]).sort((a, b) => a[1] - b[1]).slice(0, LPL.length);
   LPL.forEach((l, k) => { const it = near[k]; if (!it || night < 0.02) { l.intensity = 0; return; } l.position.set(...lanternList[it[0]]); l.intensity = night * 14 * (0.9 + 0.1 * Math.sin(t * 5 + k)); }); }
 
 // ---------- people: articulated figures (đi, đứng, quỳ, viết, vái, giảng, đục đá, khiêng) ----------
 // ---------- people v2: người có khớp (vai, khuỷu, hông, gối), mặt vẽ, áo giao lĩnh tay rộng, khăn xếp / mũ cánh chuồn / nón lá ----------
 // Toạ độ người: chân ở y = 0, mặt nhìn +z. Hông (gốc khung thân) ở y = 0.86. Cao khoảng 1,66 m.
-const SKIN = [[0.86, 0.66, 0.5], [0.8, 0.6, 0.44], [0.9, 0.72, 0.56], [0.74, 0.54, 0.4]];
+const SKIN = [[0.84, 0.64, 0.5], [0.78, 0.57, 0.43], [0.88, 0.7, 0.56], [0.72, 0.52, 0.39]];   // sRGB
 const COSTUME = {
   scholar: { robe: [[0.13, 0.17, 0.33], [0.36, 0.24, 0.15], [0.2, 0.3, 0.24], [0.3, 0.32, 0.4], [0.42, 0.36, 0.28]], legs: [[0.86, 0.84, 0.78]], hat: 'khan', long: true, sash: [0.1, 0.08, 0.07] },
   teacher: { robe: [[0.12, 0.12, 0.14], [0.3, 0.2, 0.14]], legs: [[0.86, 0.84, 0.78]], hat: 'khan', long: true, beard: true, sash: [0.5, 0.45, 0.35] },
@@ -542,12 +563,12 @@ let PM = null;
 const HATS = ['khan', 'quan', 'crown', 'non', 'mortar'];
 function buildPeople() { if (!people.length) return; const n = people.length;
   const mk = (geo, mat, cnt) => { const c = Math.max(1, cnt), im = new THREE.InstancedMesh(geo, mat, c); for (let i = 0; i < c; i++) im.setMatrixAt(i, ZERO); im.castShadow = true; im.receiveShadow = true; im.instanceMatrix.setUsage(THREE.DynamicDrawUsage); im.frustumCulled = false; scene.add(im); return im; };
-  const cloth = () => new THREE.MeshStandardMaterial({ map: TEX_CLOTH, roughness: 0.88, color: 0xffffff, side: THREE.DoubleSide });
-  const skinM = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.62 });
+  const cloth = () => new THREE.MeshStandardMaterial({ map: TEX_CLOTH, roughness: 0.95, color: 0xffffff, side: THREE.DoubleSide, envMapIntensity: 0.45 });
+  const skinM = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.78, envMapIntensity: 0.35 });
   const cnt = k => people.filter(k).length;
   PM = { torso: mk(PG.torso, cloth(), n), skirtL: mk(PG.skirtL, cloth(), n), skirtS: mk(PG.skirtS, cloth(), n), skirtK: mk(PG.skirtK, cloth(), n),
     belt: mk(PG.belt, new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.7 }), n), collar: mk(PG.collar, new THREE.MeshStandardMaterial({ color: 0xece4d2, roughness: 0.8 }), cnt(p => !p.C.modern)),
-    head: mk(PG.head, new THREE.MeshStandardMaterial({ map: TEX_FACE, color: 0xffffff, roughness: 0.6 }), n), ear: mk(PG.ear, skinM, n), nose: mk(PG.nose, skinM, n),
+    head: mk(PG.head, new THREE.MeshStandardMaterial({ map: TEX_FACE, color: 0xffffff, roughness: 0.78, envMapIntensity: 0.35 }), n), ear: mk(PG.ear, skinM, n), nose: mk(PG.nose, skinM, n),
     toc: mk(PG.toc, new THREE.MeshStandardMaterial({ color: 0x0e0b0a, roughness: 0.55 }), cnt(p => p.hat !== 'bald')), bui: mk(PG.bui, new THREE.MeshStandardMaterial({ color: 0x0e0b0a, roughness: 0.55 }), cnt(p => p.hat === 'hair' && !p.C.modern)),
     uarm: mk(PG.uarm, cloth(), 2 * n), farm: mk(PG.farm, cloth(), 2 * n), farmN: mk(PG.farmN, cloth(), 2 * n), hand: mk(PG.hand, skinM, 2 * n), thigh: mk(PG.thigh, cloth(), 2 * n), shin: mk(PG.shin, cloth(), 2 * n) };
   const hatMat = { khan: [0x1a1714, 0.8, 0], quan: [0x0b0b0b, 0.5, 0], crown: [0xc8a050, 0.35, 0.6], mortar: [0x0b0b0d, 0.8, 0] };
@@ -557,9 +578,9 @@ function buildPeople() { if (!people.length) return; const n = people.length;
   for (const h of ['parasol', 'flag', 'chisel', 'staff']) PM[h] = mk(PG[h], new THREE.MeshStandardMaterial({ color: h === 'parasol' ? 0xd6a02c : h === 'flag' ? 0xb82418 : 0x6b5a40, roughness: 0.7, side: THREE.DoubleSide }), cnt(p => p.carry === h));
   const col = new THREE.Color(); const set = (k, i, c) => PM[k].setColorAt(i, col.setRGB(...c));
   people.forEach((p, i) => { for (const k of ['torso', 'skirtL', 'skirtS', 'skirtK']) set(k, i, p.robe); set('belt', i, p.C.sash || [0.1, 0.1, 0.1]);
-    for (const k of ['head', 'ear', 'nose']) set(k, i, p.skin);
+    for (const k of ['head', 'ear', 'nose']) PM[k].setColorAt(i, col.setRGB(...p.skin, THREE.SRGBColorSpace));
     const short = !p.C.long;
-    for (const j of [2 * i, 2 * i + 1]) { set('uarm', j, p.robe); set('farm', j, p.robe); set('farmN', j, p.robe); set('hand', j, p.skin); set('thigh', j, short ? p.legs : p.robe); set('shin', j, short ? p.legs : p.legs); } });
+    for (const j of [2 * i, 2 * i + 1]) { set('uarm', j, p.robe); set('farm', j, p.robe); set('farmN', j, p.robe); PM.hand.setColorAt(j, col.setRGB(...p.skin, THREE.SRGBColorSpace)); set('thigh', j, short ? p.legs : p.robe); set('shin', j, short ? p.legs : p.legs); } });
   for (const k in PM) if (PM[k].instanceColor) PM[k].instanceColor.needsUpdate = true;
 }
 const _M = new THREE.Matrix4(), _Q = new THREE.Quaternion(), _E = new THREE.Euler(), _V = new THREE.Vector3(), _S = new THREE.Vector3(), _P = new THREE.Matrix4(), _H = new THREE.Matrix4(), _L = new THREE.Matrix4(), ZERO = new THREE.Matrix4().makeScale(0, 0, 0);
@@ -641,6 +662,19 @@ const big = new THREE.Mesh(new THREE.PlaneGeometry(6400, 6400, 64, 64), groundMa
 (S.ground || []).forEach(groundPatch);
 const KIT = { hall, gate, khueVanCac, wall, pond, box: boxProp, tents, desks, fence, scaffold, board, stela1, label, marker, route };
 const SHOWN = [];   // {g, win, rise, base}
+// mô hình làm sẵn (Poly Haven CC0, đã rút gọn): cây, cỏ, đá, chum, bàn ghế — mỗi phần lưới thành một InstancedMesh
+if ((S.props || []).length) { const gl = new GLTFLoader(), cache = {};
+  for (const pr of S.props) { const url = (WD.chatLieu || '') + pr.model + '.glb'; if (!(url in cache)) cache[url] = await gl.loadAsync(url).catch(() => null); const G = cache[url]; if (!G) { console.log('thiếu mô hình', url); continue; }
+    const pts = [];
+    if (pr.points) for (const p of pr.points) pts.push(p);
+    else for (let i = 0; i < pr.count; i++) { let x, z, ok = false; for (let k = 0; k < 30 && !ok; k++) { x = R(pr.rect[0], pr.rect[2]); z = R(pr.rect[1], pr.rect[3]); ok = !(pr.avoid || []).some(r => inRect(x, z, r, 0.5)); } if (ok) pts.push([x, z]); }
+    const sc = pr.scale || [1, 1], X = pts.map(p => { const s = Array.isArray(sc) ? R(sc[0], sc[1]) : sc; return new THREE.Matrix4().compose(new THREE.Vector3(p[0], (p[2] ?? groundH(p[0], p[1])) + (pr.y || 0), p[1]),
+      new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), pr.rot ?? R(0, 6.283)), new THREE.Vector3(s, s, s)); });
+    G.scene.updateMatrixWorld(true); const grp = new THREE.Group(); const meshes = []; G.scene.traverse(o => { if (o.isMesh) meshes.push(o); });
+    for (const me of meshes) { const geo = me.geometry.clone().applyMatrix4(me.matrixWorld), mat = me.material.clone();
+      if (mat.transparent || mat.alphaTest > 0) { mat.transparent = false; mat.alphaTest = mat.map ? 0.5 : 0; } mat.side = THREE.DoubleSide; if (pr.tint) mat.color.multiply(new THREE.Color(...pr.tint));
+      const im = new THREE.InstancedMesh(geo, mat, Math.max(1, X.length)); X.forEach((m, i) => im.setMatrixAt(i, m)); im.count = X.length; im.castShadow = pr.shadow !== false; im.receiveShadow = true; grp.add(im); }
+    scene.add(grp); if (pr.show) SHOWN.push({ g: grp, win: typeof pr.show[0] === 'number' ? [pr.show] : pr.show, rise: 0, sink: 0, base: 1, y0: 0 }); } }
 (S.buildings || []).forEach(b => {
   let g;
   if (b.type === 'stelae') { const im = stelae(b); g = new THREE.Group(); scene.remove(im); g.add(im); }
@@ -678,12 +712,13 @@ function mixEnv(a, b, u) { const o = {}; for (const k in a) o[k] = Array.isArray
 let NIGHT = 0;
 function applyEnv(E, look) {
   const sd = new THREE.Vector3(...E.sun).normalize(); SUN.copy(sd);
-  sunL.color.setRGB(...E.sunColor); sunL.intensity = E.sunPower; hemi.intensity = E.ambient * 0.8; scene.environmentIntensity = (WD.envLight === false ? 0 : 0.42) * E.ambient * (1 - 0.8 * E.night);
+  sunL.color.setRGB(...E.sunColor); sunL.intensity = E.sunPower; const hk = E.night > 0.5 ? 'room' : (E.sunColor[2] < 0.6 ? 'chieu' : 'ngay'), em = ENVMAP[hk] || ENVMAP.room; if (em) scene.environment = em;
+  const hdr = em && em !== ENVMAP.room; hemi.intensity = E.ambient * (hdr ? 0.45 : 0.8); scene.environmentIntensity = (WD.envLight === false ? 0 : hdr ? 0.75 : 0.42) * E.ambient * (1 - 0.8 * E.night);
   hemi.color.setRGB(...(E.night > 0.5 ? [0.35, 0.42, 0.7] : WD.skyLight || [0.65, 0.75, 0.95]));
   sky.material.uniforms.top.value.setRGB(...E.skyTop); HAZE.setRGB(...E.haze); scene.fog.color.copy(HAZE); scene.fog.density = E.fog;
   sky.material.uniforms.night.value = E.night; renderer.toneMappingExposure = E.exposure * (Q.exposure || 1);
   sunL.target.position.set(look[0], 0, look[2]); sunL.position.set(look[0] + sd.x * 500, sd.y * 500, look[2] + sd.z * 500); sunL.target.updateMatrixWorld();
-  NIGHT = E.night;
+  NIGHT = E.night; for (const c of clouds.children) c.material.color.setRGB(1, 0.96, 0.9).multiplyScalar(1 - 0.85 * E.night); if (bloomPass) bloomPass.strength = Q.bloom * (0.15 + 0.85 * E.night);   // quầng sáng chủ yếu cho đèn lồng ban đêm
 }
 
 // ---------- camera ----------

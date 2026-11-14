@@ -4,3 +4,5 @@ _page_*.html
 out/
 giong/
 chat_lieu/*.jpg
+chat_lieu/*.glb
+chat_lieu/*.hdr

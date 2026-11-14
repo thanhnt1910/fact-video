@@ -76,8 +76,8 @@ G += [{'rect': [-16, 135, 16, 200], 'mat': 'pave', 'y': 0.14, 'tile': 2}, {'rect
       {'rect': [-60, -20, 60, -3.5], 'mat': 'road', 'y': 0.09}, {'rect': [-58, -3.5, 58, -1], 'mat': 'pave', 'y': 0.14, 'tile': 2},
       {'rect': [-60, -100, -44, 360], 'mat': 'road', 'y': 0.09}, {'rect': [44, -100, 60, 360], 'mat': 'road', 'y': 0.09},
       {'rect': [-60, 336, 60, 352], 'mat': 'road', 'y': 0.09}, {'rect': [-54, -76, 54, -20], 'mat': 'grass', 'y': 0.07}, {'rect': [-7, -53, 7, -43], 'mat': 'grass', 'y': 0.3}]
-T += [{'rect': [-36, 3, -4, 72], 'count': 26, 'h': [8, 15]}, {'rect': [4, 3, 36, 72], 'count': 26, 'h': [8, 15]},
-      {'rect': [-36, 78, -4, 132], 'count': 20, 'h': [8, 14]}, {'rect': [4, 78, 36, 132], 'count': 20, 'h': [8, 14]},
+T += [{'rect': [-36, 3, -14, 72], 'count': 16, 'h': [8, 15]}, {'rect': [14, 3, 36, 72], 'count': 16, 'h': [8, 15]},
+      {'rect': [-36, 78, -14, 132], 'count': 12, 'h': [8, 14]}, {'rect': [14, 78, 36, 132], 'count': 12, 'h': [8, 14]},
       {'rect': [-36, 138, -28, 198], 'count': 8, 'h': [9, 15]}, {'rect': [28, 138, 36, 198], 'count': 8, 'h': [9, 15]},
       {'rect': [-14, 204, 14, 232], 'count': 3, 'h': [13, 17], 'avoid': [[-6, 204, 6, 240]]},
       {'rect': [-53, -75, 53, -21], 'count': 26, 'h': [8, 13], 'avoid': [[-51, -72, 51, -24], [-10, -40, 10, -14]]},
@@ -156,6 +156,18 @@ addb({'type': 'marker', 'pos': TL, 'text': 'Thăng Long', 'h': 260, 'size': 130,
 addb({'type': 'marker', 'pos': PX, 'text': 'Phú Xuân', 'h': 260, 'size': 130, 'onGround': True}, 'mk_px')
 addb({'type': 'marker', 'pos': THH, 'text': 'Thanh Hóa', 'h': 220, 'size': 110, 'onGround': True}, 'mk_th')
 addb({'type': 'route', 'points': [TL, [MPX - 40, 1500], THH, [MPX + 80, 0], [MPX + 40, -1100], [MPX + 80, -1800], PX], 'r': 12, 'lift': 24}, 'duong')
+
+# ---------- mô hình làm sẵn CC0 (Poly Haven, đã rút gọn) ----------
+PR = []
+cay = [[sg * x, z] for sg in (-1, 1) for x, z in [(9, 12), (11, 30), (8.5, 48), (10.5, 64), (9, 88), (11, 108), (9.5, 124)]]
+for k, m in enumerate(['island_tree_01', 'island_tree_02', 'island_tree_03']): PR.append({'model': m, 'points': cay[k::3], 'scale': [0.75, 0.95]})
+for r in ([-36, 4, -5, 72], [5, 4, 36, 72], [-36, 79, -5, 132], [5, 79, 36, 132]): PR.append({'model': 'grass_medium_01', 'rect': r, 'count': 14, 'scale': [0.9, 1.4], 'shadow': False})
+PR += [{'model': 'fern_02', 'rect': [-14, 150, -12.6, 184], 'count': 8, 'scale': [0.7, 1.0], 'shadow': False}, {'model': 'fern_02', 'rect': [12.6, 150, 14, 184], 'count': 8, 'scale': [0.7, 1.0], 'shadow': False},
+       {'model': 'ceramic_pot', 'points': [[-6, 237], [6, 237], [-6, 304], [6, 304], [VX + 35, 46], [VX + 45, 46]], 'scale': [1.5, 1.7], 'rot': 0},
+       {'model': 'pachira_aquatica_01', 'points': [[-6, 237, 0.95], [6, 237, 0.95], [-6, 304, 0.95], [6, 304, 0.95]], 'scale': [0.6, 0.7], 'rot': 0},
+       {'model': 'boulder_01', 'points': [[-50, -66], [48, -30], [-46, -28], [MX + 6, MZ - 220], [MX - 9, MZ - 150]], 'scale': [0.4, 0.8]},
+       {'model': 'fern_02', 'rect': [VX - 60, -30, VX + 60, 60], 'count': 30, 'scale': [0.8, 1.2], 'avoid': [[VX - 6, -150, VX + 6, 150]], 'shadow': False},
+       {'model': 'chinese_tea_table', 'points': [[VX + 40, 42.2, 0.7]], 'scale': 1.0, 'rot': 0}]
 
 # ---------- trạng thái các nhóm Văn Miếu theo cảnh ----------
 NOW = {'walls', 'gates', 'kvc', 'gieng', 'nhabia', 'bia', 'mieu', 'qtg', 'ho'}
@@ -416,8 +428,8 @@ for i, s in enumerate(TL_ORDER):
 
 # máy quay đường núi: tính độ cao theo địa hình trong JS bằng 'yOff' (engine cộng groundH)
 spec = {'engine': 'arch3d.js', 'size': [1920, 1080], 'fps': 30, 'seed': 1076,
-        'world': {'chatLieu': 'chat_lieu/', 'groundMat': 'grass', 'sun': [-0.55, 0.42, -0.3], 'haze': [0.8, 0.74, 0.64], 'fog': 0.0012, 'sunPower': 3.2, 'skyTop': [0.24, 0.4, 0.66], 'clouds': 16},
-        'quality': {'shadow': 2048, 'reflScale': 0.4},
+        'world': {'chatLieu': 'chat_lieu/', 'hdri': {'ngay': 'chat_lieu/troi_ngay.hdr', 'chieu': 'chat_lieu/troi_chieu.hdr'}, 'groundMat': 'grass', 'sun': [-0.55, 0.42, -0.3], 'haze': [0.8, 0.74, 0.64], 'fog': 0.0012, 'sunPower': 3.2, 'skyTop': [0.24, 0.4, 0.66], 'clouds': 16},
+        'quality': {'shadow': 2048, 'reflScale': 0.4, 'bloom': 0.5, 'grade': 1.0}, 'props': PR,
         'terrains': TER, 'ground': G, 'buildings': B, 'trees': T, 'houses': HS, 'crowds': C, 'people': P, 'birds': BD, 'lanterns': LT,
         'shots': out_shots, 'subs': subs,
         'audio': {'ambience': {'wind': 0.2, 'water': 0.08, 'birds': 0.35},

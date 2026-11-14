@@ -5,7 +5,7 @@ name: Tải chất liệu CC0 cho video 3D
 on:
   push:
     branches: [dung-3d-sa-ban]
-    paths: ['video3d/chat_lieu/tai.py']
+    paths: ['video3d/chat_lieu/tai.py', 'video3d/chat_lieu/gon.sh']
 
 permissions:
   contents: write
@@ -22,6 +22,13 @@ jobs:
         with: { python-version: "3.12" }
       - name: Tải chất liệu
         run: python -u video3d/chat_lieu/tai.py /tmp/cl 1k && ls -la /tmp/cl
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Rút gọn mô hình thành .glb (gltf-transform)
+        run: |
+          thu() { for i in 1 2 3; do timeout 200 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          mkdir -p /tmp/gt && cd /tmp/gt && npm init -y > /dev/null && thu npm install --silent @gltf-transform/cli@4
+          cd "$GITHUB_WORKSPACE" && bash video3d/chat_lieu/gon.sh /tmp/cl /tmp/gt/node_modules/.bin/gltf-transform
       - name: Đưa lên Releases
         run: |
           (cd /tmp/cl && zip -q -r /tmp/chat_lieu.zip .)

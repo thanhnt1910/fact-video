@@ -1,0 +1,84 @@
+name: Đọc giọng cho video 3D (từng đoạn, kiểm nhận dạng)
+
+# Chạy khi đẩy video3d/giong.txt trên nhánh dung-3d-sa-ban.
+# Dòng đầu: "<file lời đọc trong video3d> <giọng Gemini> <tên>", ví dụ: "qtg/loi_doc.json Leda qtg1".
+# Đọc TỪNG ĐOẠN (cum = 1), nhận dạng bằng faster-whisper, xóa và đọc lại đoạn khớp dưới 85% (tối đa 3 lần),
+# rồi chuẩn hóa âm lượng và nhịp. Kết quả (giong.zip) lên Releases, tag video3d-giong-<tên>; lần chạy sau đọc tiếp phần thiếu.
+on:
+  push:
+    branches: [dung-3d-sa-ban]
+    paths: ['video3d/giong.txt']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: giong-3d
+  cancel-in-progress: false
+
+jobs:
+  giong:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GEMINI_MAX_WAIT: "900"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt (thử lại tối đa 3 lần, không apt-get update)
+        run: |
+          thu() { for i in 1 2 3; do timeout 200 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          thu python -m pip install -q numpy faster-whisper imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+          ffmpeg -hide_banner -filters 2>/dev/null | grep -cE " (loudnorm|atempo|silenceremove|equalizer) "
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-medium-v1
+      - name: Đọc cấu hình và lấy giọng đã đọc lần trước
+        run: |
+          read SRC VOICE TEN < video3d/giong.txt
+          echo "SRC=video3d/$SRC" >> $GITHUB_ENV; echo "VOICE=$VOICE" >> $GITHUB_ENV; echo "TEN=$TEN" >> $GITHUB_ENV
+          OUT="video3d/giong/$TEN/$(echo $VOICE | tr A-Z a-z)"; echo "OUT=$OUT" >> $GITHUB_ENV; mkdir -p "$OUT"
+          TAG="video3d-giong-$TEN"; echo "TAG=$TAG" >> $GITHUB_ENV
+          AID=$(gh api "repos/${{ github.repository }}/releases/tags/$TAG" --jq '.assets[] | select(.name=="giong.zip") | .id' 2>/dev/null || true)
+          if [ -n "$AID" ]; then gh api -H "Accept: application/octet-stream" "repos/${{ github.repository }}/releases/assets/$AID" > /tmp/g.zip && unzip -o -q /tmp/g.zip -d "$OUT"; fi
+          ls "$OUT" | wc -l
+      - name: Đọc và kiểm (tối đa 3 vòng)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+        run: |
+          set -o pipefail
+          for vong in 1 2 3; do
+            echo "=== Vòng $vong ==="
+            python -u video3d/doc_giong.py doc "$SRC" "$VOICE" "$OUT" 2>&1 | tee -a "$OUT/nhat_ky.txt"
+            python -u video3d/doc_giong.py kiem "$SRC" "$OUT" 0.85 2>&1 | tee -a "$OUT/nhat_ky.txt"
+            N=$(python -c "import json;print(sum(1 for _ in json.load(open('$OUT/thoi_luong.json'))))")
+            TOTAL=$(python -c "import json;print(len(json.load(open('$SRC'))))")
+            echo "Đã có $N / $TOTAL đoạn"
+            [ "$N" = "$TOTAL" ] && break
+          done
+      - name: Chuẩn hóa âm lượng và nhịp
+        if: always()
+        run: python -u video3d/doc_giong.py chuan "$SRC" "$OUT" 2>&1 | tee -a "$OUT/nhat_ky.txt" || true
+      - name: Đưa lên Releases
+        if: always()
+        run: |
+          (cd "$OUT" && zip -q -r /tmp/giong.zip .)
+          gh release view "$TAG" > /dev/null 2>&1 || gh release create "$TAG" --target "${{ github.ref_name }}" --prerelease \
+            --title "Giọng đọc 3D: $TEN ($VOICE)" --notes "Đọc từng đoạn bằng Gemini TTS, kiểm bằng faster-whisper."
+          gh release upload "$TAG" /tmp/giong.zip --clobber

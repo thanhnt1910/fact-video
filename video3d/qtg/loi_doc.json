@@ -1,0 +1,597 @@
+[
+ {
+  "n": 1,
+  "canh": "mo_dem",
+  "text": "Giữa lòng Hà Nội hôm nay có một ngôi trường đã chín trăm năm mươi tuổi."
+ },
+ {
+  "n": 2,
+  "canh": "mo_dem",
+  "text": "Đó là trường đại học đầu tiên của người Việt."
+ },
+ {
+  "n": 3,
+  "canh": "mo_canh",
+  "text": "Nơi đây từng dạy các hoàng tử, rồi mở cửa cho con nhà thường dân học giỏi."
+ },
+ {
+  "n": 4,
+  "canh": "mo_canh",
+  "text": "Nơi đây còn lưu tên hơn một nghìn ba trăm vị tiến sĩ, khắc trên những tấm bia đá."
+ },
+ {
+  "n": 5,
+  "canh": "mo_hoi",
+  "text": "Vậy trường đại học đầu tiên ấy đã ra đời như thế nào, và vì sao nó tồn tại gần một nghìn năm?"
+ },
+ {
+  "n": 6,
+  "canh": "mo_tieu_de",
+  "text": "Lịch sử đại học Việt Nam. Tập một. Quốc Tử Giám Thăng Long."
+ },
+ {
+  "n": 7,
+  "canh": "bc_ban_do",
+  "text": "Năm một nghìn không trăm mười, nhà Lý dời đô về Thăng Long, bên bờ sông Hồng."
+ },
+ {
+  "n": 8,
+  "canh": "bc_ban_do",
+  "text": "Một vương triều mới, một kinh thành mới, và một câu hỏi cũ."
+ },
+ {
+  "n": 9,
+  "canh": "bc_ban_do",
+  "text": "Lấy đâu ra người có học để giúp vua trị nước?"
+ },
+ {
+  "n": 10,
+  "canh": "bc_truoc_ly",
+  "text": "Trong gần một thế kỷ trước đó, các triều Ngô, Đinh, Tiền Lê phải lo chống giặc ngoại xâm."
+ },
+ {
+  "n": 11,
+  "canh": "bc_truoc_ly",
+  "text": "Việc võ được coi trọng hơn việc văn, và nhà nước chưa có trường học riêng."
+ },
+ {
+  "n": 12,
+  "canh": "bc_chua",
+  "text": "Trước đó, người Việt học chữ chủ yếu ở nhà chùa và ở các trường tư trong dân gian."
+ },
+ {
+  "n": 13,
+  "canh": "bc_chua",
+  "text": "Các nhà sư vừa tu hành, vừa dạy chữ, vừa là người giúp việc cho triều đình."
+ },
+ {
+  "n": 14,
+  "canh": "bc_lang",
+  "text": "Ở làng quê, vài ông đồ mở lớp nhỏ ngay trong nhà mình."
+ },
+ {
+  "n": 15,
+  "canh": "bc_lang",
+  "text": "Học trò ngồi trên chiếu, chép chữ Hán, đọc sách thánh hiền."
+ },
+ {
+  "n": 16,
+  "canh": "bc_trieu",
+  "text": "Nhưng một quốc gia muốn vững mạnh cần nhiều quan lại hiểu kinh sử, hiểu luật lệ."
+ },
+ {
+  "n": 17,
+  "canh": "bc_trieu",
+  "text": "Họ còn phải viết được văn thư để giao thiệp với các nước láng giềng."
+ },
+ {
+  "n": 18,
+  "canh": "bc_trieu",
+  "text": "Thuở ấy, triều đình chọn người chủ yếu bằng cách để quan lại tiến cử người tài."
+ },
+ {
+  "n": 19,
+  "canh": "bc_trieu",
+  "text": "Ai tiến cử sai người thì phải chịu tội nặng trước triều đình."
+ },
+ {
+  "n": 20,
+  "canh": "bc_trieu",
+  "text": "Nhà Lý bắt đầu xây một con đường mới."
+ },
+ {
+  "n": 21,
+  "canh": "bc_trieu",
+  "text": "Dựng miếu thờ bậc thầy, mở khoa thi chọn người tài, và lập trường học của nhà nước."
+ },
+ {
+  "n": 22,
+  "canh": "ht_van_mieu",
+  "text": "Năm một nghìn không trăm bảy mươi, vua Lý Thánh Tông cho dựng Văn Miếu ở phía nam kinh thành."
+ },
+ {
+  "n": 23,
+  "canh": "ht_van_mieu",
+  "text": "Trong miếu tạc tượng Chu Công, Khổng Tử cùng các bậc tiên nho, tiên hiền."
+ },
+ {
+  "n": 24,
+  "canh": "ht_van_mieu",
+  "text": "Hai dãy nhà hai bên thờ bảy mươi hai học trò giỏi nhất của Khổng Tử."
+ },
+ {
+  "n": 25,
+  "canh": "ht_van_mieu",
+  "text": "Đây chưa phải là trường học, mà là một lời tuyên bố."
+ },
+ {
+  "n": 26,
+  "canh": "ht_van_mieu",
+  "text": "Triều đình tôn trọng chữ nghĩa và đạo làm thầy."
+ },
+ {
+  "n": 27,
+  "canh": "ht_khoa_thi",
+  "text": "Năm một nghìn không trăm bảy mươi lăm, vua Lý Nhân Tông mở khoa thi Nho học đầu tiên."
+ },
+ {
+  "n": 28,
+  "canh": "ht_khoa_thi",
+  "text": "Khoa thi ấy gọi là Minh kinh bác học, nghĩa là chọn người hiểu sáng kinh sách và học rộng."
+ },
+ {
+  "n": 29,
+  "canh": "ht_khoa_thi",
+  "text": "Người đỗ đầu là Lê Văn Thịnh, một người con của vùng Kinh Bắc."
+ },
+ {
+  "n": 30,
+  "canh": "ht_khoa_thi",
+  "text": "Từ đây bắt đầu nền khoa cử kéo dài gần tám trăm năm mươi năm."
+ },
+ {
+  "n": 31,
+  "canh": "ht_qtg",
+  "text": "Một năm sau, năm một nghìn không trăm bảy mươi sáu, Quốc Tử Giám được lập ngay phía sau Văn Miếu."
+ },
+ {
+  "n": 32,
+  "canh": "ht_qtg",
+  "text": "Lúc đầu, đây là nơi học của các hoàng tử, con cái nhà vua."
+ },
+ {
+  "n": 33,
+  "canh": "ht_qtg",
+  "text": "Về sau, trường mở cửa cho cả những học trò giỏi trong nước."
+ },
+ {
+  "n": 34,
+  "canh": "ht_toan_canh",
+  "text": "Văn Miếu thờ bậc thầy, Quốc Tử Giám dạy người học."
+ },
+ {
+  "n": 35,
+  "canh": "ht_toan_canh",
+  "text": "Hai công trình đứng cạnh nhau, và trường đại học đầu tiên của người Việt đã ra đời."
+ },
+ {
+  "n": 36,
+  "canh": "ht_toan_canh",
+  "text": "Ngày nay, khu di tích rộng hơn năm mươi tư nghìn mét vuông, chia thành năm lớp sân nối tiếp nhau."
+ },
+ {
+  "n": 37,
+  "canh": "ht_toan_canh",
+  "text": "Từ cổng vào là khu Nhập đạo, rồi Thành đạt, vườn bia tiến sĩ, khu Đại Thành, và cuối cùng là khu Thái Học."
+ },
+ {
+  "n": 38,
+  "canh": "ht_1086",
+  "text": "Năm một nghìn không trăm tám mươi sáu, nhà Lý mở thêm khoa thi chọn người giỏi văn học."
+ },
+ {
+  "n": 39,
+  "canh": "ht_1086",
+  "text": "Người đỗ đầu là Mạc Hiển Tích, sau làm đến chức thượng thư, tức là đứng đầu một bộ trong triều."
+ },
+ {
+  "n": 40,
+  "canh": "hs_buoi_hoc",
+  "text": "Một buổi sáng ở Quốc Tử Giám bắt đầu từ rất sớm."
+ },
+ {
+  "n": 41,
+  "canh": "hs_buoi_hoc",
+  "text": "Giám sinh, tức là học trò của trường, xếp hàng vào giảng đường."
+ },
+ {
+  "n": 42,
+  "canh": "hs_buoi_hoc",
+  "text": "Thầy ngồi trên bục cao, học trò ngồi chiếu, sách mở trước mặt."
+ },
+ {
+  "n": 43,
+  "canh": "hs_hoc_gi",
+  "text": "Việc học dựa trên kinh điển Nho giáo, gồm Tứ thư, Ngũ kinh, sử sách và lễ nghĩa."
+ },
+ {
+  "n": 44,
+  "canh": "hs_hoc_gi",
+  "text": "Nhưng mục đích không chỉ là thuộc sách."
+ },
+ {
+  "n": 45,
+  "canh": "hs_hoc_gi",
+  "text": "Người học phải có cả học vấn lẫn phẩm hạnh, để sau này giúp nước, giúp dân."
+ },
+ {
+  "n": 46,
+  "canh": "hs_tran",
+  "text": "Đến đời nhà Trần, năm một nghìn hai trăm năm mươi ba, trường được đổi tên thành Quốc học viện."
+ },
+ {
+  "n": 47,
+  "canh": "hs_tran",
+  "text": "Vua Trần Thái Tông xuống chiếu cho nho sĩ trong cả nước đến đây học Tứ thư, Ngũ kinh."
+ },
+ {
+  "n": 48,
+  "canh": "hs_tran",
+  "text": "Con em thường dân học giỏi cũng được vào học."
+ },
+ {
+  "n": 49,
+  "canh": "hs_tran",
+  "text": "Ngôi trường của hoàng tộc dần trở thành ngôi trường của cả nước."
+ },
+ {
+  "n": 50,
+  "canh": "hs_tam_khoi",
+  "text": "Năm một nghìn hai trăm bốn mươi bảy, triều Trần lần đầu đặt ba bậc đỗ cao nhất."
+ },
+ {
+  "n": 51,
+  "canh": "hs_tam_khoi",
+  "text": "Đó là trạng nguyên, bảng nhãn và thám hoa."
+ },
+ {
+  "n": 52,
+  "canh": "hs_kinh_trai",
+  "text": "Năm một nghìn hai trăm năm mươi sáu, vua Trần Thái Tông còn lấy hai trạng nguyên cùng một khoa."
+ },
+ {
+  "n": 53,
+  "canh": "hs_kinh_trai",
+  "text": "Một người cho kinh đô và miền bắc, gọi là kinh trạng nguyên."
+ },
+ {
+  "n": 54,
+  "canh": "hs_kinh_trai",
+  "text": "Một người cho vùng từ Thanh Hóa trở vào, gọi là trại trạng nguyên, để khuyến khích việc học ở nơi xa."
+ },
+ {
+  "n": 55,
+  "canh": "hs_thi",
+  "text": "Muốn đỗ đại khoa, sĩ tử phải qua ba kỳ thi."
+ },
+ {
+  "n": 56,
+  "canh": "hs_thi",
+  "text": "Thi Hương ở các vùng, thi Hội ở kinh đô, và thi Đình ngay trước sân điện nhà vua."
+ },
+ {
+  "n": 57,
+  "canh": "hs_truong_thi",
+  "text": "Ở trường thi Hương, hàng nghìn sĩ tử mang theo lều, chõng và nghiên bút."
+ },
+ {
+  "n": 58,
+  "canh": "hs_truong_thi",
+  "text": "Mỗi người tự dựng một chiếc lều nhỏ, ngồi làm bài từ sáng đến tối."
+ },
+ {
+  "n": 59,
+  "canh": "hs_so_lieu",
+  "text": "Từ khoa thi đầu tiên năm một nghìn không trăm bảy mươi lăm đến khoa cuối cùng năm một nghìn chín trăm mười chín."
+ },
+ {
+  "n": 60,
+  "canh": "hs_so_lieu",
+  "text": "Các triều đại đã mở một trăm tám mươi ba khoa thi, lấy đỗ hai nghìn tám trăm chín mươi tám tiến sĩ."
+ },
+ {
+  "n": 61,
+  "canh": "hs_so_lieu",
+  "text": "Trung bình mỗi năm chưa đến bốn người."
+ },
+ {
+  "n": 62,
+  "canh": "hs_vinh_quy",
+  "text": "Người đỗ đạt được vua ban áo mũ, rồi về quê trong nghi lễ vinh quy bái tổ."
+ },
+ {
+  "n": 63,
+  "canh": "hs_vinh_quy",
+  "text": "Cả làng ra đón, cờ lọng rợp đường, để mừng người con mang vinh dự về cho quê hương."
+ },
+ {
+  "n": 64,
+  "canh": "hs_khac_bia",
+  "text": "Năm một nghìn bốn trăm tám mươi tư, vua Lê Thánh Tông cho khắc tên người đỗ tiến sĩ lên bia đá."
+ },
+ {
+  "n": 65,
+  "canh": "hs_khac_bia",
+  "text": "Việc khắc bia bắt đầu từ khoa thi năm một nghìn bốn trăm bốn mươi hai."
+ },
+ {
+  "n": 66,
+  "canh": "hs_nguyen_khi",
+  "text": "Trên tấm bia đầu tiên có một câu được nhắc đến nhiều nhất trong lịch sử giáo dục Việt Nam."
+ },
+ {
+  "n": 67,
+  "canh": "hs_nguyen_khi",
+  "text": "Hiền tài là nguyên khí quốc gia."
+ },
+ {
+  "n": 68,
+  "canh": "hs_nguyen_khi",
+  "text": "Nguyên khí vững thì thế nước mạnh, nguyên khí kém thì thế nước yếu."
+ },
+ {
+  "n": 69,
+  "canh": "hs_vuon_bia",
+  "text": "Những tấm bia đều dẹt, trán cong hình vòm, đặt trên lưng những con rùa đá to, chắc khỏe."
+ },
+ {
+  "n": 70,
+  "canh": "hs_vuon_bia",
+  "text": "Ngày nay còn lại tám mươi hai bia, ghi danh một nghìn ba trăm linh bảy vị tiến sĩ qua tám mươi hai khoa thi."
+ },
+ {
+  "n": 71,
+  "canh": "nv_le_van_thinh",
+  "text": "Người đỗ đầu khoa thi đầu tiên, Lê Văn Thịnh, xuất thân từ một gia đình nông dân."
+ },
+ {
+  "n": 72,
+  "canh": "nv_le_van_thinh",
+  "text": "Ông nổi tiếng chăm học, thường đọc sách đến khuya bên ngọn đèn dầu."
+ },
+ {
+  "n": 73,
+  "canh": "nv_le_van_thinh",
+  "text": "Sau khi đỗ, Lê Văn Thịnh trở thành thầy dạy của vua Lý Nhân Tông, rồi làm đến chức thái sư."
+ },
+ {
+  "n": 74,
+  "canh": "nv_le_van_thinh",
+  "text": "Người đời sau gọi ông là trạng nguyên khai khoa, dù khi ấy triều đình chưa đặt ra danh hiệu trạng nguyên."
+ },
+ {
+  "n": 75,
+  "canh": "nv_chu_van_an_truong",
+  "text": "Thời Trần, có một người thầy được hậu thế kính trọng bậc nhất, đó là Chu Văn An."
+ },
+ {
+  "n": 76,
+  "canh": "nv_chu_van_an_truong",
+  "text": "Chu Văn An mở trường dạy học ở quê, học trò kéo đến hàng nghìn người."
+ },
+ {
+  "n": 77,
+  "canh": "nv_chu_van_an_truong",
+  "text": "Nhiều học trò của ông đỗ cao, làm quan to, mà gặp thầy vẫn giữ lễ học trò."
+ },
+ {
+  "n": 78,
+  "canh": "nv_chu_van_an_truong",
+  "text": "Ông viết sách Tứ thư thuyết ước, giảng giải bốn bộ sách gốc của Nho học."
+ },
+ {
+  "n": 79,
+  "canh": "nv_chu_van_an_qtg",
+  "text": "Vua Trần Minh Tông mời Chu Văn An về làm tư nghiệp Quốc Tử Giám, tức là người đứng đầu nhà trường."
+ },
+ {
+  "n": 80,
+  "canh": "nv_chu_van_an_qtg",
+  "text": "Ông dạy cả thái tử, người sau này lên ngôi vua."
+ },
+ {
+  "n": 81,
+  "canh": "nv_that_tram",
+  "text": "Đến đời vua Trần Dụ Tông, gian thần lộng hành, triều chính rối ren."
+ },
+ {
+  "n": 82,
+  "canh": "nv_that_tram",
+  "text": "Chu Văn An dâng Thất trảm sớ, tức là tờ sớ xin chém bảy kẻ nịnh thần."
+ },
+ {
+  "n": 83,
+  "canh": "nv_that_tram",
+  "text": "Nhà vua không nghe."
+ },
+ {
+  "n": 84,
+  "canh": "nv_ve_nui",
+  "text": "Chu Văn An trả lại mũ áo, về núi Phượng Hoàng ở Chí Linh, dạy học và viết sách đến cuối đời."
+ },
+ {
+  "n": 85,
+  "canh": "nv_ve_nui",
+  "text": "Khi ông mất, năm một nghìn ba trăm bảy mươi, triều đình cho thờ ông ở Văn Miếu, bên cạnh Khổng Tử."
+ },
+ {
+  "n": 86,
+  "canh": "nv_ve_nui",
+  "text": "Nhà sử học Phan Huy Chú về sau khen ông có học vấn thuần khiết, khí tiết cao thượng."
+ },
+ {
+  "n": 87,
+  "canh": "nv_ve_nui",
+  "text": "Theo lời Phan Huy Chú, trong giới nhà nho nước Việt, trước sau không ai sánh được Chu Văn An."
+ },
+ {
+  "n": 88,
+  "canh": "nv_ten_bia",
+  "text": "Trên những tấm bia đá, ta còn đọc được tên Ngô Sĩ Liên, người viết bộ sử lớn của nước nhà."
+ },
+ {
+  "n": 89,
+  "canh": "nv_ten_bia",
+  "text": "Có Lương Thế Vinh, người giỏi toán. Có Lê Quý Đôn, nhà bác học. Có Ngô Thì Nhậm, nhà văn và nhà chính trị."
+ },
+ {
+  "n": 90,
+  "canh": "nv_ten_bia",
+  "text": "Mỗi tấm bia là một khoa thi. Mỗi cái tên là một đời người đi qua cánh cửa của ngôi trường này."
+ },
+ {
+  "n": 91,
+  "canh": "bd_le_trung_hung",
+  "text": "Thời Lê trung hưng, năm một nghìn bảy trăm sáu mươi hai, Quốc Tử Giám được sửa sang lại."
+ },
+ {
+  "n": 92,
+  "canh": "bd_le_trung_hung",
+  "text": "Năm một nghìn bảy trăm tám mươi lăm, trường đổi tên thành nhà Thái Học."
+ },
+ {
+  "n": 93,
+  "canh": "bd_le_trung_hung",
+  "text": "Ngôi trường còn giữ một chiếc chuông lớn gọi là chuông Bích Ung, đúc năm một nghìn bảy trăm sáu mươi tám."
+ },
+ {
+  "n": 94,
+  "canh": "bd_doi_do",
+  "text": "Năm một nghìn tám trăm linh hai, nhà Nguyễn đóng đô ở Phú Xuân, tức là Huế ngày nay."
+ },
+ {
+  "n": 95,
+  "canh": "bd_doi_do",
+  "text": "Một Quốc Tử Giám mới được lập ở kinh đô Huế."
+ },
+ {
+  "n": 96,
+  "canh": "bd_hoai_duc",
+  "text": "Còn ở Thăng Long, ngôi trường cũ không còn là trường của cả nước."
+ },
+ {
+  "n": 97,
+  "canh": "bd_hoai_duc",
+  "text": "Năm một nghìn tám trăm linh năm, nơi đây trở thành học đường của phủ Hoài Đức."
+ },
+ {
+  "n": 98,
+  "canh": "bd_khue_van",
+  "text": "Cũng năm ấy, Tổng trấn Bắc thành Nguyễn Văn Thành cho dựng Khuê Văn Các."
+ },
+ {
+  "n": 99,
+  "canh": "bd_khue_van",
+  "text": "Đó là một gác vuông tám mái, bốn mặt có cửa tròn như những vầng sáng."
+ },
+ {
+  "n": 100,
+  "canh": "bd_khue_van",
+  "text": "Ngôi gác ra đời khi trường đã lặng lẽ, nhưng nay lại là biểu tượng của cả Hà Nội."
+ },
+ {
+  "n": 101,
+  "canh": "bd_gieng",
+  "text": "Trước Khuê Văn Các là giếng Thiên Quang hình vuông, tượng trưng cho đất."
+ },
+ {
+  "n": 102,
+  "canh": "bd_gieng",
+  "text": "Bóng gác in xuống mặt giếng, như trời và đất soi vào nhau."
+ },
+ {
+  "n": 103,
+  "canh": "bd_khoa_cuoi",
+  "text": "Năm một nghìn chín trăm mười chín, khoa thi Hội cuối cùng được tổ chức ở Huế."
+ },
+ {
+  "n": 104,
+  "canh": "bd_khoa_cuoi",
+  "text": "Nền khoa cử kéo dài hơn tám trăm bốn mươi năm chính thức khép lại."
+ },
+ {
+  "n": 105,
+  "canh": "bd_chien_tranh",
+  "text": "Qua những năm tháng chiến tranh, nhiều công trình phía sau bị phá hủy, chỉ còn nền cũ."
+ },
+ {
+  "n": 106,
+  "canh": "bd_trung_tu",
+  "text": "Năm một nghìn chín trăm linh sáu, người Pháp xếp hạng nơi đây là di tích."
+ },
+ {
+  "n": 107,
+  "canh": "bd_trung_tu",
+  "text": "Năm một nghìn chín trăm sáu mươi hai, Văn Miếu Quốc Tử Giám được công nhận là di tích quốc gia."
+ },
+ {
+  "n": 108,
+  "canh": "bd_trung_tu",
+  "text": "Năm một nghìn chín trăm chín mươi tư, những nhà che bia được dựng lại để bảo vệ bia khỏi mưa nắng."
+ },
+ {
+  "n": 109,
+  "canh": "bd_trung_tu",
+  "text": "Cuối thế kỷ hai mươi, nhà Thái Học được xây lại trên nền Quốc Tử Giám xưa."
+ },
+ {
+  "n": 110,
+  "canh": "kt_unesco",
+  "text": "Năm hai nghìn không trăm mười, tám mươi hai bia tiến sĩ được UNESCO công nhận là Di sản tư liệu thế giới."
+ },
+ {
+  "n": 111,
+  "canh": "kt_unesco",
+  "text": "Ngày nay, Văn Miếu Quốc Tử Giám là di tích quốc gia đặc biệt."
+ },
+ {
+  "n": 112,
+  "canh": "kt_ho_van",
+  "text": "Phía trước Văn Miếu là hồ Văn, xưa gọi là Thái Hồ, giữa hồ có gò Kim Châu."
+ },
+ {
+  "n": 113,
+  "canh": "kt_ho_van",
+  "text": "Trên gò có một ngôi lầu nhỏ để ngắm cảnh, bóng lầu in xuống mặt nước."
+ },
+ {
+  "n": 114,
+  "canh": "kt_ngay_nay",
+  "text": "Sân nhà Thái Học vẫn đón các bạn nhỏ đến học về khoa cử và truyền thống hiếu học."
+ },
+ {
+  "n": 115,
+  "canh": "kt_ngay_nay",
+  "text": "Giống như ông cha họ đã đến đây, từ gần một nghìn năm trước."
+ },
+ {
+  "n": 116,
+  "canh": "kt_cau_ket",
+  "text": "Ngôi trường đầu tiên không còn tiếng giảng bài."
+ },
+ {
+  "n": 117,
+  "canh": "kt_cau_ket",
+  "text": "Nhưng ý nghĩ đã làm nên nó vẫn còn đó."
+ },
+ {
+  "n": 118,
+  "canh": "kt_cau_ket",
+  "text": "Một đất nước muốn mạnh thì phải biết nuôi dưỡng người tài."
+ },
+ {
+  "n": 119,
+  "canh": "kt_tap_sau",
+  "text": "Tập sau, một sĩ tử phải vượt qua những gì để được khắc tên lên đá?"
+ }
+]

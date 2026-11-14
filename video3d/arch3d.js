@@ -323,8 +323,11 @@ function landTerrain(o) {
   const [cx, cz] = o.pos, [w, d] = o.size, H0 = o.height || 300, sc = o.scale || 0.0016, seed = o.seed || 3;
   const rings = o.coastLines || o.land.map(P => P.concat([P[0]]));
   const dCoast = (x, z) => Math.min(...rings.map(P => segDist(x, z, P)));
+  const ISL = o.islets || [];
   const inside = (x, z) => o.land.some(P => pip(P, x, z));
-  const raw = (x, z) => { if (!inside(x, z)) { const sd = dCoast(x, z); return { y: -0.2 - 1.6 * clamp(sd / 80), sea: sd }; }
+  const islet = (x, z) => { let best = 1e9; for (const [ix, iz, ir] of ISL) best = Math.min(best, Math.hypot(x - ix, z - iz) - ir); return best; };
+  const raw = (x, z) => { const di = ISL.length ? islet(x, z) : 1e9; if (di < 0) return { y: 1.0 + 1.5 * clamp(-di / 20), riv: 0, dc: 0, isl: 1 };
+    if (!inside(x, z)) { const sd = Math.min(dCoast(x, z), di * 2.5); return { y: -0.2 - 1.6 * clamp(sd / 80), sea: sd }; }
     const dc = dCoast(x, z), n = fbm((x + seed * 97) * sc, (z - seed * 53) * sc), n2 = fbm(x * sc * 4 + 11, z * sc * 4 - 7);
     let m = clamp(dc / (o.inland || 900)) ** 1.1 * 0.55;
     for (const [px, pz, pr, k] of (o.peaks || [])) m += k * Math.exp(-((x - px) ** 2 + (z - pz) ** 2) / (pr * pr));
@@ -337,6 +340,7 @@ function landTerrain(o) {
   const seg = o.seg || 300, g = new THREE.PlaneGeometry(w, d, seg, Math.round(seg * d / w)).rotateX(-Math.PI / 2), p = g.attributes.position, col = [];
   for (let i = 0; i < p.count; i++) { const x = p.getX(i) + cx, z = p.getZ(i) + cz, r = raw(x, z); p.setY(i, r.y); let c;
     if (r.y < 0) { const u = clamp(r.sea / 1100), nz = (fbm(x * 0.003, z * 0.003) - 0.5) * 0.08; c = [lerp(0.28, 0.07, u) + nz, lerp(0.64, 0.25, u) + nz, lerp(0.66, 0.44, u) + nz]; }
+    else if (r.isl) c = [0.9, 0.84, 0.62];
     else if (r.riv) c = [0.28, 0.52, 0.66];
     else { const t = clamp(r.y / (H0 * 1.0)); const fl = fbm(x * 0.008, z * 0.008);
       if (r.y < 8) { const f2 = fbm(x * 0.035, z * 0.035); c = [lerp(0.42, 0.66, f2), lerp(0.58, 0.68, f2), lerp(0.2, 0.3, f2)]; }   // đồng lúa (thửa ruộng)
@@ -345,8 +349,8 @@ function landTerrain(o) {
       if (r.dc < 30 && r.y < 3) c = [0.86, 0.79, 0.58]; }
     col.push(...c.map(v => Math.pow(clamp(v), 2.2))); }
   g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3)); g.translate(cx, 0, cz); g.computeVertexNormals();
-  const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.92 })); m.receiveShadow = m.castShadow = true; scene.add(m);
-  const sea = new THREE.Mesh(new THREE.PlaneGeometry(w * 8, d * 6), new THREE.MeshStandardMaterial({ color: new THREE.Color().setRGB(0.07, 0.25, 0.44, THREE.SRGBColorSpace), roughness: 0.4 })); sea.rotation.x = -Math.PI / 2; sea.position.set(cx, -2.0, cz); scene.add(sea);
+  const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.92 })); m.receiveShadow = false; m.castShadow = false; scene.add(m);   // sa bàn rất rộng: bóng đổ gây vằn trên mặt biển
+  const sea = new THREE.Mesh(new THREE.PlaneGeometry(w * 8, d * 6), new THREE.MeshStandardMaterial({ color: new THREE.Color().setRGB(0.07, 0.25, 0.44, THREE.SRGBColorSpace), roughness: 0.4 })); sea.rotation.x = -Math.PI / 2; sea.position.set(cx, -12, cz); scene.add(sea);
   OCEANS.push({ cx, cz, w, d }); TERR.push({ cx, cz, w, d, h }); return m; }
 function terrain(o) { // {pos:[cx,cz], size:[w,d], height, scale, mount:'west'|'all'|'ring', coast:{x0,amp,freq} (sea to the +x side), rivers:[[[x,z]...],w], flat:[[x,z,r]], seg}
   const [cx, cz] = o.pos, [w, d] = o.size, H0 = o.height || 30, sc = o.scale || 0.004, seed = o.seed || 1;
@@ -731,12 +735,12 @@ function updateShown(t) { // công trình mọc lên từ nền (rise giây) và
 // ---------- environment presets per shot ----------
 const ENV = {
   day: { sun: WD.sun || [-0.55, 0.42, -0.3], sunColor: [1.0, 0.88, 0.7], sunPower: WD.sunPower || 3.2, ambient: 1.1, skyTop: [0.24, 0.4, 0.66], haze: [0.8, 0.74, 0.64], fog: WD.fog || 0.0012, exposure: 1.0, night: 0 },
-  dawn: { sun: [0.75, 0.16, -0.25], sunColor: [1.0, 0.68, 0.45], sunPower: 2.4, ambient: 0.75, skyTop: [0.3, 0.38, 0.6], haze: [0.92, 0.72, 0.6], fog: 0.0026, exposure: 1.05, night: 0 },
+  dawn: { sun: [0.75, 0.16, -0.25], sunColor: [1.0, 0.68, 0.45], sunPower: 2.4, ambient: 0.75, skyTop: [0.3, 0.38, 0.6], haze: [0.92, 0.74, 0.62], fog: 0.0013, exposure: 1.05, night: 0 },
   dusk: { sun: [-0.8, 0.12, 0.2], sunColor: [1.0, 0.55, 0.3], sunPower: 2.3, ambient: 0.65, skyTop: [0.22, 0.26, 0.5], haze: [0.9, 0.64, 0.5], fog: 0.0011, exposure: 1.05, night: 0.25 },
   night: { sun: [0.3, 0.6, 0.4], sunColor: [0.55, 0.65, 0.95], sunPower: 0.55, ambient: 0.32, skyTop: [0.02, 0.03, 0.08], haze: [0.07, 0.08, 0.14], fog: 0.0028, exposure: 1.25, night: 1 },
   mist: { sun: [0.5, 0.35, -0.4], sunColor: [0.95, 0.9, 0.82], sunPower: 1.6, ambient: 1.05, skyTop: [0.62, 0.66, 0.72], haze: [0.78, 0.8, 0.82], fog: 0.0024, exposure: 1.0, night: 0 },
   gray: { sun: [-0.3, 0.6, -0.3], sunColor: [0.85, 0.85, 0.85], sunPower: 1.4, ambient: 0.9, skyTop: [0.45, 0.48, 0.52], haze: [0.62, 0.62, 0.62], fog: 0.0025, exposure: 0.95, night: 0 },
-  map: { sun: [-0.45, 0.6, -0.25], sunColor: [1.0, 0.92, 0.8], sunPower: 3.0, ambient: 0.7, skyTop: [0.3, 0.45, 0.7], haze: [0.72, 0.8, 0.9], fog: 0.00005, exposure: 0.92, night: 0 },
+  map: { sun: [-0.45, 0.6, -0.25], sunColor: [1.0, 0.92, 0.8], sunPower: 3.0, ambient: 0.7, skyTop: [0.3, 0.45, 0.7], haze: [0.72, 0.8, 0.9], fog: 0.000018, exposure: 0.92, night: 0 },
   inside: { sun: [-0.4, 0.5, 0.6], sunColor: [1.0, 0.85, 0.65], sunPower: 2.6, ambient: 0.95, skyTop: [0.3, 0.45, 0.7], haze: [0.75, 0.7, 0.62], fog: 0.0015, exposure: 1.15, night: 0 },
 };
 const _c1 = new THREE.Color(), _c2 = new THREE.Color();

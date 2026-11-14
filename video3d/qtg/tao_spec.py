@@ -142,8 +142,9 @@ LT += [{'points': [[x, 4.6, KZ + 7.6] for x in range(KX - 12, KX + 13, 6)]}]
 # === Núi Phượng Hoàng (-2600, 2600) ===
 MX, MZ = -2600, 2600
 TER.append({'pos': [MX, MZ], 'size': [1400, 1400], 'height': 14, 'scale': 0.01, 'peak': [MX, MZ + 260, 260, 150], 'flat': [[MX, MZ - 300, 90]], 'seg': 160})
-T += [{'rect': [MX - 650, MZ - 650, MX + 650, MZ + 650], 'count': 700, 'h': [7, 13], 'avoid': [[MX - 8, MZ - 320, MX + 8, MZ + 40]]}]
-addb({'type': 'hall', 'pos': [MX + 10, MZ + 30], 'w': 7, 'd': 5, 'colH': 2.6, 'walls': 'all', 'roofH': 2.6, 'base': 0.4, 'roofMat': 'thatch', 'curl': 0.1, 'onGround': True})
+T += [{'rect': [MX - 650, MZ - 650, MX + 650, MZ + 650], 'count': 700, 'h': [7, 13], 'avoid': [[MX - 10, MZ - 400, MX + 10, MZ + 40], [MX + 12, MZ - 318, MX + 48, MZ - 272], [MX - 10, MZ - 340, MX + 30, MZ - 290]]}]
+addb({'type': 'hall', 'pos': [MX + 30, MZ - 284], 'rot': 180, 'w': 10, 'd': 6, 'colH': 2.8, 'walls': 'back', 'roofH': 2.8, 'base': 0.4, 'roofMat': 'thatch', 'curl': 0.1, 'onGround': True})   # trường dạy học ở chân núi Phượng Hoàng
+addb({'type': 'desks', 'origin': [MX + 24, MZ - 299], 'rows': 2, 'cols': 5, 'dx': 2.4, 'dz': 2.2, 'y': 0.55, 'rot': 0})
 
 # === Sa bàn Bắc Bộ – Bắc Trung Bộ theo tọa độ thật (20000, 0) ===
 # x = (kinh độ − 106,2) × 946, z = (vĩ độ − 18,8) × 1000 (1 đơn vị ≈ 111 m), cộng MPX
@@ -153,8 +154,15 @@ def LLs(pts): return [LL(a, b) for a, b in pts]
 BO_BIEN = [(21.75, 112.2), (21.45, 111.0), (21.2, 110.45), (20.95, 110.2), (20.4, 110.15), (20.25, 110.32), (20.45, 110.55), (20.9, 110.62), (21.25, 110.0),
            (21.45, 109.65), (21.55, 109.1), (21.7, 108.62), (21.53, 108.05), (21.32, 107.62), (21.05, 107.32), (20.86, 106.8), (20.62, 106.68), (20.3, 106.57),
            (20.05, 106.2), (19.95, 106.02), (19.75, 105.92), (19.45, 105.8), (19.12, 105.72), (18.85, 105.7), (18.62, 105.85), (18.35, 106.12), (18.05, 106.42),
-           (17.72, 106.5), (17.45, 106.66), (17.12, 107.0), (16.8, 107.25), (16.58, 107.6), (16.32, 107.92), (16.08, 108.22), (15.75, 108.42), (15.3, 108.7), (14.6, 109.1)]
-DAT = LLs(BO_BIEN) + [LL(14.6, 102.0), LL(24.2, 102.0), LL(24.2, 112.2)]
+           (17.72, 106.5), (17.45, 106.66), (17.12, 107.0), (16.8, 107.25), (16.58, 107.6), (16.32, 107.92), (16.08, 108.22), (15.75, 108.42), (15.3, 108.7), (14.6, 109.1),
+           (13.8, 109.25), (13.1, 109.3), (12.7, 109.42), (12.25, 109.2), (11.6, 109.15), (11.3, 108.9), (10.95, 108.3), (10.65, 107.6), (10.35, 107.1), (10.25, 106.75),
+           (9.9, 106.6), (9.55, 106.3), (9.25, 105.95), (8.75, 105.5), (8.58, 104.78), (9.2, 104.8), (9.9, 104.95), (10.38, 104.48), (10.55, 103.9), (10.7, 103.5),
+           (11.4, 103.0), (12.3, 102.35), (12.7, 101.6)]
+DAT = LLs(BO_BIEN) + [LL(12.7, 99.5), LL(25.5, 99.5), LL(25.5, 112.2)]
+PHU_QUOC = LLs([(10.45, 103.85), (10.35, 104.08), (10.05, 104.05), (10.1, 103.95), (10.3, 103.85)])
+# quần đảo Hoàng Sa và Trường Sa (các đảo chính; bán kính phóng to để nhìn thấy trên sa bàn)
+HOANG_SA = [LL(a, b) + [r] for a, b, r in [(16.83, 112.33, 45), (16.53, 111.6, 38), (16.45, 111.5, 25), (16.47, 111.7, 25), (16.67, 112.73, 28), (15.78, 111.2, 30), (16.05, 111.78, 25), (16.95, 112.25, 22), (16.25, 111.6, 22)]]
+TRUONG_SA = [LL(a, b) + [r] for a, b, r in [(8.65, 111.92, 40), (11.43, 114.33, 32), (11.45, 114.3, 25), (10.18, 114.36, 30), (9.88, 114.33, 30), (10.38, 114.48, 25), (11.05, 114.28, 30), (7.88, 112.92, 25), (8.97, 113.69, 25), (10.38, 114.36, 30), (9.5, 112.9, 22), (8.85, 112.6, 22)]]
 HAI_NAM = LLs([(20.08, 110.3), (19.95, 109.55), (19.75, 109.05), (19.3, 108.65), (18.65, 108.68), (18.3, 109.15), (18.2, 109.6), (18.45, 110.1), (18.95, 110.5), (19.6, 111.0), (20.1, 110.95), (20.18, 110.6)])
 SONG = [[LLs([(22.55, 103.95), (22.05, 104.6), (21.7, 104.95), (21.3, 105.43), (21.03, 105.85), (20.7, 106.12), (20.45, 106.4), (20.3, 106.57)]), 14],    # sông Hồng
         [LLs([(22.0, 102.8), (21.6, 103.4), (21.2, 104.0), (20.82, 105.3), (21.1, 105.38), (21.3, 105.43)]), 10],                                            # sông Đà
@@ -163,15 +171,19 @@ SONG = [[LLs([(22.55, 103.95), (22.05, 104.6), (21.7, 104.95), (21.3, 105.43), (
         [LLs([(19.45, 104.15), (19.05, 104.9), (18.72, 105.45), (18.66, 105.62), (18.77, 105.77)]), 10],                                                # sông Cả
         [LLs([(16.2, 107.35), (16.42, 107.55), (16.48, 107.6), (16.58, 107.62)]), 7]]                                                                   # sông Hương
 TL, THH, PX = LL(21.03, 105.85), LL(19.8, 105.78), LL(16.47, 107.58)
-TER.append({'pos': [MPX + 1800, 500], 'size': [11000, 10400], 'height': 520, 'scale': 0.0015, 'seed': 7, 'seg': 620, 'inland': 1100,
-            'land': [DAT, HAI_NAM], 'coastLines': [LLs(BO_BIEN), HAI_NAM + [HAI_NAM[0]]], 'rivers': SONG,
-            'peaks': [LL(22.3, 103.8) + [900, 1.0], LL(21.9, 104.6) + [700, 0.6], LL(22.0, 106.6) + [600, 0.45], LL(20.4, 104.6) + [600, 0.55],
+TER.append({'pos': [MPX + 3000, -3300], 'size': [14000, 18400], 'height': 520, 'scale': 0.0015, 'seed': 7, 'seg': 700, 'inland': 1100,
+            'land': [DAT, HAI_NAM, PHU_QUOC], 'coastLines': [LLs(BO_BIEN), HAI_NAM + [HAI_NAM[0]], PHU_QUOC + [PHU_QUOC[0]]], 'islets': HOANG_SA + TRUONG_SA, 'rivers': SONG,
+            'peaks': [LL(14.4, 108.0) + [700, 0.6], LL(12.6, 108.2) + [800, 0.55], LL(11.8, 107.6) + [500, 0.4], LL(22.3, 103.8) + [900, 1.0], LL(21.9, 104.6) + [700, 0.6], LL(22.0, 106.6) + [600, 0.45], LL(20.4, 104.6) + [600, 0.55],
                       LL(19.4, 104.6) + [500, 0.6], LL(18.5, 105.3) + [450, 0.6], LL(17.6, 106.1) + [400, 0.55], LL(16.6, 107.0) + [400, 0.6], LL(19.3, 109.6) + [300, 0.5]],
-            'flat': [LL(20.8, 106.1) + [950], LL(21.2, 105.6) + [450], LL(19.85, 105.7) + [330], LL(18.75, 105.6) + [180], LL(16.5, 107.55) + [170]]})
+            'flat': [LL(10.0, 105.8) + [1300], LL(10.7, 106.6) + [500], LL(20.8, 106.1) + [950], LL(21.2, 105.6) + [450], LL(19.85, 105.7) + [330], LL(18.75, 105.6) + [180], LL(16.5, 107.55) + [170]]})
 addb({'type': 'marker', 'pos': TL, 'text': 'Thăng Long', 'h': 260, 'size': 230, 'onGround': True}, 'mk_tl')
 addb({'type': 'marker', 'pos': PX, 'text': 'Phú Xuân', 'h': 260, 'size': 230, 'onGround': True}, 'mk_px')
 addb({'type': 'marker', 'pos': THH, 'text': 'Thanh Hóa', 'h': 230, 'size': 200, 'onGround': True}, 'mk_th')
-addb({'type': 'label', 'pos': LL(18.6, 107.9)[:1] + [60] + LL(18.6, 107.9)[1:], 'text': 'Biển Đông', 'size': 260})
+def L3(lat, lon, h=60): x, z = LL(lat, lon); return [x, h, z]
+addb({'type': 'label', 'pos': L3(19.9, 107.3), 'text': 'Vịnh Bắc Bộ', 'size': 220})
+addb({'type': 'label', 'pos': L3(13.2, 112.0, 80), 'text': 'Biển Đông', 'size': 420})
+addb({'type': 'label', 'pos': L3(17.25, 112.0, 120), 'text': 'Quần đảo Hoàng Sa', 'size': 210})
+addb({'type': 'label', 'pos': L3(10.0, 113.6, 120), 'text': 'Quần đảo Trường Sa', 'size': 230})
 addb({'type': 'route', 'points': [TL, LL(20.4, 105.75), THH, LL(19.0, 105.6), LL(18.3, 105.95), LL(17.5, 106.5), LL(16.9, 107.05), PX], 'r': 12, 'lift': 24}, 'duong')
 
 # ---------- mô hình làm sẵn CC0 (Poly Haven, đã rút gọn) ----------
@@ -208,9 +220,9 @@ shot('mo_hoi', {'orbit': {'center': V(0, 0, 170), 'a': [210, 250], 'r': [220, 20
 shot('mo_tieu_de', {'from': {'pos': V(60, 140, -60), 'look': V(0, 0, 170)}, 'to': {'pos': V(30, 170, -30), 'look': V(0, 0, 175)}, 'tilt': 1.2, 'shadow': 230}, 'dusk', env2='night',
      cap=[{'style': 'title', 'over': 'LỊCH SỬ ĐẠI HỌC VIỆT NAM · TẬP 1', 'cn': '國子監', 'text': 'QUỐC TỬ GIÁM THĂNG LONG', 'at': 0.4, 'dur': 99}])
 # 2. Bối cảnh
-shot('bc_ban_do', {'from': {'pos': V(MPX + 2600, 6200, -4200), 'look': V(MPX + 600, 0, 600)}, 'to': {'pos': V(TL[0] + 500, 1100, TL[1] - 1500), 'look': V(TL[0], 0, TL[1])}, 'fov': 50, 'tilt': 0.3, 'shadow': 2600, 'far': 12000}, 'map',
+shot('bc_ban_do', {'from': {'pos': V(MPX + 3200, 21000, -15500), 'look': V(MPX + 2600, 0, -3600)}, 'to': {'pos': V(TL[0] + 500, 1100, TL[1] - 1500), 'look': V(TL[0], 0, TL[1])}, 'fov': 50, 'tilt': 0.3, 'shadow': 2600, 'far': 45000}, 'map',
      cap=YEAR('1010', 'Nhà Lý dời đô về Thăng Long'))
-shot('bc_truoc_ly', {'from': {'pos': V(TL[0] + 700, 1300, TL[1] - 1300), 'look': V(TL[0], 0, TL[1] + 200)}, 'to': {'pos': V(TL[0] - 300, 1600, TL[1] - 1900), 'look': V(TL[0] - 300, 0, TL[1] + 300)}, 'fov': 50, 'tilt': 0.3, 'shadow': 2000, 'far': 12000}, 'map')
+shot('bc_truoc_ly', {'from': {'pos': V(TL[0] + 700, 1300, TL[1] - 1300), 'look': V(TL[0], 0, TL[1] + 200)}, 'to': {'pos': V(TL[0] - 300, 1600, TL[1] - 1900), 'look': V(TL[0] - 300, 0, TL[1] + 300)}, 'fov': 50, 'tilt': 0.3, 'shadow': 2000, 'far': 45000}, 'map')
 shot('bc_chua', {'from': {'pos': V(VX + 30, 3.2, 58), 'look': V(VX + 40, 2.0, 44)}, 'to': {'pos': V(VX + 36, 2.6, 54), 'look': V(VX + 40, 1.8, 44)}, 'fov': 42, 'tilt': 0.5}, 'dawn', people=['chua'])
 shot('bc_lang', {'from': {'pos': V(VX - 33, 2.4, 40), 'look': V(VX - 40, 1.2, 29)}, 'to': {'pos': V(VX - 37, 2.0, 38), 'look': V(VX - 41, 1.0, 29)}, 'fov': 44, 'tilt': 0.55}, 'day', people=['lop_lang'])
 shot('bc_trieu', {'from': {'pos': V(-18, 3.0, CZ - 36), 'look': V(0, 6, CZ + 40)}, 'to': {'pos': V(22, 6.0, CZ - 20), 'look': V(0, 8, CZ + 40)}, 'fov': 46, 'tilt': 0.6, 'shadow': 140}, 'day', people=['trieu'])
@@ -232,7 +244,7 @@ shot('hs_tran', {'from': {'pos': V(7, 2.4, 292), 'look': V(0, 2.5, 268)}, 'to': 
      cap=YEAR('1253', 'Đổi tên thành Quốc học viện'), people=['vao_cong'])
 shot('hs_tam_khoi', {'from': {'pos': V(0, 4, CZ - 10), 'look': V(0, 4, CZ + 30)}, 'to': {'pos': V(0, 3, CZ + 4), 'look': V(0, 4, CZ + 30)}, 'fov': 44, 'tilt': 0.6}, 'day',
      cap=YEAR('1247', 'Trạng nguyên, bảng nhãn, thám hoa'), people=['tam_khoi'])
-shot('hs_kinh_trai', {'from': {'pos': V(MPX + 1900, 2600, -900), 'look': V(THH[0], 0, 1600)}, 'to': {'pos': V(MPX + 1500, 2200, -500), 'look': V(THH[0], 0, 1600)}, 'fov': 46, 'tilt': 0.3, 'shadow': 2000, 'far': 12000}, 'map',
+shot('hs_kinh_trai', {'from': {'pos': V(MPX + 1900, 2600, -900), 'look': V(THH[0], 0, 1600)}, 'to': {'pos': V(MPX + 1500, 2200, -500), 'look': V(THH[0], 0, 1600)}, 'fov': 46, 'tilt': 0.3, 'shadow': 2000, 'far': 45000}, 'map',
      cap=YEAR('1256', 'Kinh trạng nguyên và trại trạng nguyên'))
 shot('hs_thi', {'from': {'pos': V(EX + 120, 70, -140), 'look': V(EX, 0, -10)}, 'to': {'pos': V(EX + 80, 50, -120), 'look': V(EX, 0, 0)}, 'fov': 44, 'tilt': 0.9, 'shadow': 160}, 'day', people=['thi_sinh'])
 shot('hs_truong_thi', {'from': {'pos': V(EX - 50, 1.7, -46), 'look': V(EX - 46, 1.0, -20)}, 'to': {'pos': V(EX - 50, 1.7, -28), 'look': V(EX - 45, 1.0, 0)}, 'ease': 'linear', 'fov': 46, 'tilt': 0.6, 'shadow': 60}, 'day', people=['thi_sinh'])
@@ -252,12 +264,14 @@ shot('nv_chu_van_an_truong', {'from': {'pos': V(VX - 30, 2.6, 46), 'look': V(VX 
      cap=[{'text': 'Chu Văn An', 'sub': 'Người thầy thời Trần', 'at': 0.5, 'dur': 7}])
 shot('nv_chu_van_an_qtg', {'from': {'pos': V(10, 2.2, 296), 'look': V(0, 2.5, 306)}, 'to': {'pos': V(6, 2.0, 300), 'look': V(0, 2.5, 307)}, 'fov': 42, 'tilt': 0.55}, 'day', vm='LY2', people=['cva_day'])
 shot('nv_that_tram', {'from': {'pos': V(4, 2.4, CZ + 7), 'look': V(0, 3.6, CZ + 31)}, 'to': {'pos': V(2.5, 2.5, CZ + 11), 'look': V(0, 3.7, CZ + 31)}, 'fov': 44, 'tilt': 0.6}, 'gray', people=['tau_vua'])
-shot('nv_ve_nui', {'path': [{'pos': V(MX - 14, 0, MZ - 330), 'look': V(MX, 0, MZ - 250)}, {'pos': V(MX - 22, 0, MZ - 200), 'look': V(MX, 0, MZ - 120)}, {'pos': V(MX + 40, 0, MZ - 60), 'look': V(MX + 10, 0, MZ + 30)}], 'tilt': 0.6, 'fov': 46, 'shadow': 120, 'ground': True}, 'mist', people=['cva_nui'])
+shot('nv_ve_nui', {'from': {'pos': V(MX - 18, 0, MZ - 392), 'look': V(MX + 4, 1.5, MZ - 340)}, 'to': {'pos': V(MX - 10, 0, MZ - 372), 'look': V(MX + 24, 1.5, MZ - 300)}, 'tilt': 0.6, 'fov': 46, 'shadow': 120, 'ground': True}, 'mist', 0.14, people=['cva_nui'])
+shot('nv_ve_nui', {'from': {'pos': V(MX + 44, 0, MZ - 314), 'look': V(MX + 29, 1.0, MZ - 293)}, 'to': {'pos': V(MX + 40, 0, MZ - 309), 'look': V(MX + 29, 1.1, MZ - 292)}, 'tilt': 0.5, 'fov': 42, 'shadow': 40, 'ground': True}, 'dawn', 0.36, people=['cva_nui_day'])
+shot('nv_ve_nui', {'from': {'pos': V(7, 2.0, 218), 'look': V(0, 3.8, 246)}, 'to': {'pos': V(3, 2.4, 222), 'look': V(0, 4.0, 246)}, 'fov': 44, 'tilt': 0.5, 'shadow': 80}, 'day', 0.5, vm='LY2', people=['le_mieu'])
 shot('nv_ten_bia', {'from': {'pos': V(-15.5, 2.0, 146), 'look': V(-21.5, 2.2, 158)}, 'to': {'pos': V(-15.5, 2.1, 182), 'look': V(-21.5, 2.2, 192)}, 'ease': 'linear', 'fov': 44, 'tilt': 0.6, 'shadow': 60}, 'day', vm='LE', extra={'tenbia': True})
 # 6. Biến cố
 shot('bd_le_trung_hung', {'from': {'pos': V(-4, 3, 271), 'look': V(-19, 4.5, 284)}, 'to': {'pos': V(-7, 3.6, 274), 'look': V(-19, 4.5, 284)}, 'fov': 44, 'tilt': 0.6}, 'day', vm='LE', people=['tho_sua'],
      cap=YEAR('1762', 'Sửa sang lại Quốc Tử Giám'))
-shot('bd_doi_do', {'from': {'pos': V(MPX + 3600, 4200, -800), 'look': V(MPX + 300, 0, 1500)}, 'to': {'pos': V(MPX + 3800, 3600, -4300), 'look': V(PX[0] - 200, 0, PX[1] + 300)}, 'fov': 50, 'tilt': 0.3, 'shadow': 3000, 'far': 14000}, 'map',
+shot('bd_doi_do', {'from': {'pos': V(MPX + 3600, 4200, -800), 'look': V(MPX + 300, 0, 1500)}, 'to': {'pos': V(MPX + 3600, 5600, -6400), 'look': V(MPX + 2600, 0, -2300)}, 'fov': 50, 'tilt': 0.3, 'shadow': 3000, 'far': 45000}, 'map',
      cap=YEAR('1802', 'Nhà Nguyễn đóng đô ở Phú Xuân'), extra={'route': True})
 shot('bd_hoai_duc', {'from': {'pos': V(30, 18, 230), 'look': V(0, 2, 300)}, 'to': {'pos': V(20, 12, 250), 'look': V(0, 3, 305)}, 'fov': 46, 'tilt': 0.6}, 'gray', vm='LE', people=[{'crowd': {'rect': [-20, 272, 20, 298], 'count': 3, 'costume': 'scholar', 'alongZ': 0.5}}])
 shot('bd_khue_van', {'orbit': {'center': V(0, 6, 135), 'look': [V(0, 6.5, 135)], 'a': [-18, 18], 'r': [36, 32], 'y': [7.5, 6.0]}, 'fov': 38, 'tilt': 0.5, 'shadow': 80}, 'dawn', vm=('LE', 'NG'),
@@ -402,7 +416,11 @@ def add_people(s, key):
         P.append({'pos': [0, 302.0], 'face': 0, 'costume': 'prince', 'pose': 'kneel', 'vis': v, 'h': 0.85})
         C.append({'line': [[-5, 300.5], [5, 300.5]], 'count': 6, 'pose': 'kneel', 'costume': 'scholar', 'face': 0, 'vis': v})
     elif key == 'cva_nui':
-        P.append({'path': [[MX - 2, MZ - 300], [MX - 3, MZ - 200], [MX + 4, MZ - 90], [MX + 10, MZ + 20]], 'pos': [MX, MZ - 300], 'once': True, 't0': t0, 'speed': 1.0, 'costume': 'teacher', 'carry': 'staff', 'vis': v})
+        P.append({'path': [[MX - 4, MZ - 374], [MX + 6, MZ - 334], [MX + 26, MZ - 300]], 'pos': [MX - 4, MZ - 374], 'once': True, 't0': t0, 'speed': 1.0, 'costume': 'teacher', 'carry': 'staff', 'vis': v})
+    elif key == 'cva_nui_day':   # Chu Văn An dạy học trò ở chân núi
+        P.append({'pos': [MX + 29, MZ - 291.5], 'y': 0.4, 'face': 3.1416, 'costume': 'teacher', 'pose': 'teach', 'vis': v})
+        C.append({'grid': {'origin': [MX + 24, MZ - 299.6], 'rows': 2, 'cols': 5, 'dx': 2.4, 'dz': 2.2}, 'pose': 'write', 'costume': 'scholar', 'face': 0, 'vis': v})
+        C.append({'line': [[MX + 22, MZ - 304.5], [MX + 36, MZ - 304.5]], 'count': 6, 'pose': 'kneel', 'costume': 'scholar', 'face': 0, 'vis': v})
     elif key == 'tho_sua':
         C.append({'rect': [-26, 278, -12, 290], 'count': 6, 'still': True, 'pose': 'hammer', 'costume': 'commoner', 'vis': v})
     elif key == 'du_khach':

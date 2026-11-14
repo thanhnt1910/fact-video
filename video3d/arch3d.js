@@ -107,12 +107,12 @@ const TEX = {
 // chất liệu thật (Poly Haven, CC0) nếu spec bật world.chatLieu = "<thư mục>"
 const PBR = {};
 if (WD.chatLieu) { const L = new THREE.TextureLoader(), base = WD.chatLieu;
-  const MAPF = { tile: 'ngoi', wood: 'go', plaster: 'vua', brick: 'gach', stone: 'bia', pave: 'gach', grass: 'co', dirt: 'dat', road: 'duong', thatch: 'rom' };
+  const MAPF = { tile: 'ngoi', wood: 'go', plaster: 'vua', brick: 'gach', stone: 'bia', grass: 'co', dirt: 'dat', road: 'duong', thatch: 'rom' };
   const ld = (f, srgb) => L.loadAsync(base + f).then(t => { t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8; if (srgb) t.colorSpace = THREE.SRGBColorSpace; return t; }).catch(() => null);
   await Promise.all(Object.entries(MAPF).map(async ([k, f]) => { const [d, n, r] = await Promise.all([ld(f + '_diff.jpg', 1), ld(f + '_nor.jpg'), ld(f + '_rough.jpg')]);
     if (d) { if (k === 'wood') for (const t of [d, n, r]) if (t) { t.center.set(0.5, 0.5); t.rotation = Math.PI / 2; }
       PBR[k] = { map: d, normalMap: n, roughnessMap: r }; TEX[k] = d; } })); }
-const TINT = { tile: [0x8a4a3c, 1], wood: [0xc04a32, 0.75], plaster: [0xf2e8d0, 1], brick: [0xd0a090, 1], stone: [0xc8c4b8, 1], pave: [0xe89880, 1], grass: [0x9cc070, 1], dirt: [0xd0c0a0, 1], road: [0xc0b8a8, 1], thatch: [0xd8c090, 1] };
+const TINT = { tile: [0x8a4a3c, 1], wood: [0xc04a32, 0.75], plaster: [0xf2e8d0, 1], brick: [0xd0a090, 1], stone: [0xc8c4b8, 1], pave: [0xc86a50, 1], grass: [0x9cc070, 1], dirt: [0xd0c0a0, 1], road: [0xc0b8a8, 1], thatch: [0xd8c090, 1] };
 function pm(k, o = {}) { const P = PBR[k]; if (!P) return new THREE.MeshStandardMaterial({ map: TEX[k], ...o });
   return new THREE.MeshStandardMaterial({ ...o, map: P.map, normalMap: P.normalMap, roughnessMap: P.roughnessMap, roughness: TINT[k]?.[1] ?? 1, color: TINT[k]?.[0] ?? 0xffffff, normalScale: new THREE.Vector2(1, 1) }); }
 const M = {
@@ -130,7 +130,7 @@ const M = {
   thatch: pm('thatch', { roughness: 1 }),
 };
 const groundMat = (k, sx, sz, tile = 4) => { const P = PBR[k], cl = x => { if (!x) return null; const t = x.clone(); t.needsUpdate = true; t.repeat.set(sx / tile, sz / tile); return t; };
-  if (P) return new THREE.MeshStandardMaterial({ map: cl(P.map), normalMap: cl(P.normalMap), roughnessMap: cl(P.roughnessMap), color: TINT[k]?.[0] ?? 0xffffff, roughness: 1 });
+  if (P) return new THREE.MeshStandardMaterial({ map: cl(P.map), normalMap: cl(P.normalMap), roughnessMap: cl(P.roughnessMap), color: TINT[k]?.[0] ?? 0xffffff, roughness: 1, envMapIntensity: 0.3 });
   return new THREE.MeshStandardMaterial({ map: cl(TEX[k]), roughness: 0.95 }); };
 function add(parent, geo, mat, x = 0, y = 0, z = 0, cast = true) { const m = new THREE.Mesh(geo, mat); m.position.set(x, y, z); m.castShadow = cast; m.receiveShadow = true; parent.add(m); return m; }
 function boxUV(w, h, d, s = 3) { const g = new THREE.BoxGeometry(w, h, d); const uv = g.attributes.uv, n = g.attributes.normal;

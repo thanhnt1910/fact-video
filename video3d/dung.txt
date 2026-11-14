@@ -1,1 +1,2 @@
 qtg1.json 20
+# 14/11 tối: engine mới (chất liệu, HDRI, sa bàn thật, cây thẻ lá)

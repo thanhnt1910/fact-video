@@ -123,6 +123,8 @@ const M = {
   plaster: pm('plaster', { roughness: 0.9 }),
   wood: pm('wood', { roughness: 0.55 }),
   darkwood: new THREE.MeshStandardMaterial({ color: 0x2a120a, roughness: 0.7 }),
+  woodPlain: (() => { const m = pm('wood', { roughness: 0.8 }); m.color.set(PBR.wood ? 0x9c7c5c : 0xb08a6a); return m; })(),
+  woodBase: pm('dirt', { roughness: 1 }),
   stone: pm('stone', { roughness: 0.85 }),
   gold: new THREE.MeshStandardMaterial({ color: 0xc8a050, roughness: 0.35, metalness: 0.7 }),
   hole: new THREE.MeshBasicMaterial({ color: 0x0a0604 }),
@@ -237,6 +239,7 @@ function hall(o) {
     roof(g, sk, top); const [uw, ud] = ringExt(w, d, ovh, rcut), skTop = sk.h * Math.pow(rcut, 1.35), uh = o.upperH ?? 2.6;
     add(g, boxUV(uw, uh + skTop, ud), o.upperMat ? M[o.upperMat] : M.wood, 0, top + (uh + skTop) / 2, 0);
     roof(g, { w: uw, d: ud, h: o.roofH2 ?? Math.max(2.4, ud * 0.55), ov: ovh * 0.85, curl: o.curl ?? 0.9, pearl: o.pearl }, top + skTop + uh); }
+  if (o.rustic) g.traverse(c => { if (c.isMesh && c.material === M.wood) c.material = M.woodPlain; if (c.isMesh && c.material === M.stone) c.material = M.woodBase; });   // nhà dân, trường làng: gỗ mộc, nền đất nện
   return g;
 }
 function gate(o) { // tam quan: central tall bay (1–2 tier roof) + two side bays, masonry with dark openings
@@ -317,6 +320,23 @@ function segDist(px, pz, pts) { let best = 1e9; for (let i = 0; i < pts.length -
 function groundH(x, z) { let h = 0; for (const T of TERR) if (Math.abs(x - T.cx) < T.w / 2 && Math.abs(z - T.cz) < T.d / 2) h = Math.max(h, T.h(x, z)); return h; }
 
 const OCEANS = [];
+// đất núi: trộn chất liệu thật theo độ dốc (cỏ ở chỗ thoải, đất ở sườn, đá ở chỗ dốc), UV theo tọa độ thế giới
+function terrainMat(o) { const m = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, flatShading: !!o.flatShading });
+  if (!PBR.grass || !PBR.stone || !PBR.dirt || o.plainColor) return m;
+  m.onBeforeCompile = sh => { Object.assign(sh.uniforms, { tG: { value: PBR.grass.map }, tR: { value: PBR.stone.map }, tD: { value: PBR.dirt.map } });
+    sh.vertexShader = sh.vertexShader.replace('#include <common>', '#include <common>\nvarying vec3 vW; varying vec3 vNW;')
+      .replace('#include <worldpos_vertex>', '#include <worldpos_vertex>\nvW = (modelMatrix * vec4(transformed, 1.0)).xyz; vNW = normalize(mat3(modelMatrix) * objectNormal);');
+    sh.fragmentShader = sh.fragmentShader.replace('#include <common>', '#include <common>\nuniform sampler2D tG; uniform sampler2D tR; uniform sampler2D tD; varying vec3 vW; varying vec3 vNW;')
+      .replace('#include <color_fragment>', `#include <color_fragment>
+        vec2 uv = vW.xz * 0.22;
+        vec3 g = mix(texture2D(tG, uv).rgb, texture2D(tG, uv * 0.11 + 0.37).rgb, 0.45) * vec3(0.72, 1.0, 0.55) * 1.25;
+        vec3 d = texture2D(tD, uv * 0.6).rgb;
+        vec3 r = texture2D(tR, vec2(vW.x + vW.z, vW.y) * 0.08).rgb;
+        float slope = 1.0 - clamp(vNW.y, 0.0, 1.0), kR = smoothstep(0.28, 0.55, slope), kD = smoothstep(0.1, 0.24, slope) * (1.0 - kR);
+        float macro = texture2D(tG, vW.xz * 0.004).g;
+        vec3 tex = mix(mix(g * (0.85 + 0.3 * macro), d, kD), r, kR);
+        diffuseColor.rgb = tex * mix(vec3(1.0), diffuseColor.rgb * 2.4, 0.35);`); };
+  return m; }
 // sa bàn theo đường bờ biển thật: o.land = các đa giác đất liền [[x,z]...], o.peaks = [[x,z,r,k]] vùng núi cao, o.rivers, o.flat
 function pip(P, x, z) { let c = false; for (let i = 0, j = P.length - 1; i < P.length; j = i++) { const [xi, zi] = P[i], [xj, zj] = P[j]; if ((zi > z) !== (zj > z) && x < (xj - xi) * (z - zi) / (zj - zi) + xi) c = !c; } return c; }
 function landTerrain(o) {
@@ -375,7 +395,7 @@ function terrain(o) { // {pos:[cx,cz], size:[w,d], height, scale, mount:'west'|'
     if (t > 0.7) { const k = (t - 0.7) / 0.3; c[0] = lerp(c[0], 0.5, k); c[1] = lerp(c[1], 0.48, k); c[2] = lerp(c[2], 0.44, k); }
     col.push(...c); }
   g.setAttribute('color', new THREE.Float32BufferAttribute(col, 3)); g.computeVertexNormals();
-  const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95, flatShading: !!o.flatShading })); m.position.set(cx, 0, cz); m.receiveShadow = true; m.castShadow = true;
+  const m = new THREE.Mesh(g, terrainMat(o)); m.position.set(cx, 0, cz); m.receiveShadow = true; m.castShadow = true;
   m.geometry.translate(-cx * 0, 0, 0); m.position.set(0, 0, 0); g.translate(cx, 0, cz); scene.add(m);
   const water = new THREE.Mesh(new THREE.PlaneGeometry(w, d), new THREE.MeshStandardMaterial({ color: o.waterColor ? new THREE.Color(...o.waterColor) : 0x3c6f86, roughness: 0.25, metalness: 0.1 }));
   water.rotation.x = -Math.PI / 2; water.position.set(cx, -0.7, cz); water.receiveShadow = true; scene.add(water);

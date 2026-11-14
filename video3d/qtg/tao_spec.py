@@ -110,8 +110,8 @@ HS += [{'rect': [-700, CZ - 700, 220, CZ + 700], 'count': 260, 'avoid': [[-175, 
 VX = -2600
 addb({'type': 'gate', 'pos': [VX, -60], 'cw': 5, 'ch': 4.2, 'd': 3, 'sides': False, 'tiers': 1, 'mat': 'plaster'})
 addb({'type': 'hall', 'pos': [VX + 40, 40], 'w': 14, 'd': 9, 'colH': 3.6, 'walls': 'back', 'roofH': 3.4, 'base': 0.7})
-addb({'type': 'hall', 'pos': [VX - 40, 30], 'w': 11, 'd': 7, 'colH': 3.0, 'walls': 'back', 'roofH': 3.0, 'base': 0.4, 'roofMat': 'thatch', 'curl': 0.15})
-addb({'type': 'hall', 'pos': [VX - 30, -30], 'rot': 90, 'w': 8, 'd': 6, 'colH': 2.8, 'walls': 'all', 'roofH': 2.8, 'base': 0.3, 'roofMat': 'thatch', 'curl': 0.1})
+addb({'type': 'hall', 'pos': [VX - 40, 30], 'w': 11, 'd': 7, 'colH': 3.0, 'walls': 'back', 'roofH': 3.0, 'base': 0.4, 'roofMat': 'thatch', 'curl': 0.15, 'rustic': True})
+addb({'type': 'hall', 'pos': [VX - 30, -30], 'rot': 90, 'w': 8, 'd': 6, 'colH': 2.8, 'walls': 'all', 'roofH': 2.8, 'base': 0.3, 'roofMat': 'thatch', 'curl': 0.1, 'rustic': True})
 addb({'type': 'desks', 'origin': [VX - 44.5, 28.5], 'rows': 2, 'cols': 4, 'dx': 2.4, 'dz': 2.3, 'y': 0.4, 'rot': 3.14159})
 G += [{'rect': [VX - 3, -140, VX + 3, 140], 'mat': 'dirt', 'y': 0.09}, {'rect': [VX + 3, 30, VX + 34, 34], 'mat': 'dirt', 'y': 0.09}, {'rect': [VX - 34, 26, VX - 3, 30], 'mat': 'dirt', 'y': 0.09}]
 T += [{'rect': [VX - 220, -260, VX + 220, 260], 'count': 220, 'h': [6, 12], 'avoid': [[VX - 6, -150, VX + 6, 150], [VX + 30, 30, VX + 50, 50], [VX - 50, 22, VX - 30, 40], [VX - 36, -38, VX - 24, -22]]},
@@ -143,7 +143,7 @@ LT += [{'points': [[x, 4.6, KZ + 7.6] for x in range(KX - 12, KX + 13, 6)]}]
 MX, MZ = -2600, 2600
 TER.append({'pos': [MX, MZ], 'size': [1400, 1400], 'height': 14, 'scale': 0.01, 'peak': [MX, MZ + 260, 260, 150], 'flat': [[MX, MZ - 300, 90]], 'seg': 160})
 T += [{'rect': [MX - 650, MZ - 650, MX + 650, MZ + 650], 'count': 700, 'h': [7, 13], 'avoid': [[MX - 10, MZ - 400, MX + 10, MZ + 40], [MX + 12, MZ - 318, MX + 48, MZ - 272], [MX - 10, MZ - 340, MX + 30, MZ - 290]]}]
-addb({'type': 'hall', 'pos': [MX + 30, MZ - 284], 'rot': 180, 'w': 10, 'd': 6, 'colH': 2.8, 'walls': 'back', 'roofH': 2.8, 'base': 0.4, 'roofMat': 'thatch', 'curl': 0.1, 'onGround': True})   # trường dạy học ở chân núi Phượng Hoàng
+addb({'type': 'hall', 'pos': [MX + 30, MZ - 284], 'rot': 180, 'w': 10, 'd': 6, 'colH': 2.8, 'walls': 'back', 'roofH': 2.8, 'base': 0.4, 'roofMat': 'thatch', 'curl': 0.1, 'onGround': True, 'rustic': True})   # trường dạy học ở chân núi Phượng Hoàng
 addb({'type': 'desks', 'origin': [MX + 24, MZ - 299], 'rows': 2, 'cols': 5, 'dx': 2.4, 'dz': 2.2, 'y': 0.55, 'rot': 0})
 
 # === Sa bàn Bắc Bộ – Bắc Trung Bộ theo tọa độ thật (20000, 0) ===

@@ -1,0 +1,38 @@
+name: Đưa video 3D đã dựng lên Releases
+
+# Chạy khi đẩy video3d/phat_hanh.txt trên nhánh dung-3d-sa-ban.
+# Dòng đầu: "<run id của workflow Dựng video 3D> <tên video>", ví dụ: "43562306017 van_mieu".
+# Dùng khi đã dựng xong nhưng chưa có bước đưa lên Releases, không phải dựng lại.
+on:
+  push:
+    branches: [dung-3d-sa-ban]
+    paths: ['video3d/phat_hanh.txt']
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  phat-hanh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - id: d
+        run: |
+          read RUN TEN < video3d/phat_hanh.txt
+          echo "run=$RUN" >> "$GITHUB_OUTPUT"; echo "ten=$TEN" >> "$GITHUB_OUTPUT"
+      - uses: actions/download-artifact@v4
+        with:
+          name: video-${{ steps.d.outputs.ten }}
+          run-id: ${{ steps.d.outputs.run }}
+          github-token: ${{ github.token }}
+          path: out
+      - name: Tạo hoặc cập nhật bản phát hành
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TEN="${{ steps.d.outputs.ten }}"; TAG="video3d-$TEN"; ls -la out
+          gh release view "$TAG" > /dev/null 2>&1 || gh release create "$TAG" --target "${{ github.ref_name }}" --prerelease \
+            --title "Video 3D thử: $TEN" --notes "Dựng bằng workflow dung-3d.yml, run ${{ steps.d.outputs.run }}."
+          gh release upload "$TAG" "out/$TEN.mp4" --clobber

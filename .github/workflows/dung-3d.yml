@@ -19,7 +19,7 @@ on:
         default: ""
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: dung-3d-${{ github.ref }}
@@ -119,3 +119,11 @@ jobs:
           name: video-${{ env.TEN }}
           path: video3d/out/${{ env.TEN }}.mp4
           retention-days: 14
+      - name: Đưa video lên Releases (bản thử, tag video3d-<tên>)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="video3d-$TEN"
+          gh release view "$TAG" > /dev/null 2>&1 || gh release create "$TAG" --target "${{ github.ref_name }}" --prerelease \
+            --title "Video 3D thử: $TEN" --notes "Dựng bằng workflow dung-3d.yml, run ${{ github.run_id }}."
+          gh release upload "$TAG" "video3d/out/$TEN.mp4" --clobber

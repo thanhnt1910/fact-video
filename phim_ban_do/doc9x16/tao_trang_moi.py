@@ -5,8 +5,11 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04','tn5':'#05','tn6':'#06','tn7':'#07','tn8':'#08','tn9':'#09','tn10':'#10','tn11':'#11','tn12':'#12','tn13':'#13','tn14':'#14','tn15':'#15','tn16':'#16','tn17':'#17','tn18':'#18','tn19':'#19','tn20':'#20'}.get(KEY,'#00')
-CFG={'tn20':(148000,'=Nguồn: Cổng TTĐT Hà Tĩnh, Báo Hà Tĩnh, Tạp chí KH Đại học Vinh, NQ 202/2025/QH15',''),
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04','tn5':'#05','tn6':'#06','tn7':'#07','tn8':'#08','tn9':'#09','tn10':'#10','tn11':'#11','tn12':'#12','tn13':'#13','tn14':'#14','tn15':'#15','tn16':'#16','tn17':'#17','tn18':'#18','tn19':'#19','tn20':'#20','tn21':'#21','tn22':'#22','tn23':'#23'}.get(KEY,'#00')
+CFG={'tn23':(151000,'=Nguồn: Tạp chí Quản lý nhà nước, Dân Việt, Tỉnh ủy Hưng Yên, VietNamNet, NQ 202/2025/QH15',''),
+'tn22':(150000,'=Nguồn: Báo Pháp luật, Vietcetera, NQ 202/2025/QH15',''),
+'tn21':(149000,'=Nguồn: VietnamPlus, Nhân Dân, Đề án hợp nhất Bắc Kạn và Thái Nguyên, NQ 202/2025/QH15',''),
+'tn20':(148000,'=Nguồn: Cổng TTĐT Hà Tĩnh, Báo Hà Tĩnh, Tạp chí KH Đại học Vinh, NQ 202/2025/QH15',''),
      'tn19':(147000,'=Nguồn: VietnamPlus, VietNamNet, Người Lao Động, Cổng TTĐT phường Quảng Trị, NQ 202/2025/QH15',''),
      'tn18':(146000,'=Nguồn: Đại Nam nhất thống chí, Sở KH&CN Đồng Nai, NQ 202/2025/QH15, NQ 30/2026/QH16',''),
      'tn17':(145000,'=Nguồn: Nguyễn Đình Tư, VietnamPlus, Tuổi Trẻ, VietNamNet, NQ 202/2025/QH15',''),

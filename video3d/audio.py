@@ -260,7 +260,7 @@ def make_audio(spec, log, dur, out_wav):
         mix = mix / rms * V.get('bed', 0.03) * duck + voice * V.get('gain', 1.0)
         mix = mix[:, : int(dur * SR)]
         fo = int(SR * 0.6); mix[:, -fo:] *= np.linspace(1, 0, fo); mix[:, :int(SR * 0.3)] *= np.linspace(0, 1, int(SR * 0.3))
-        mix = np.clip(np.tanh(mix * 1.05) / np.tanh(1.05), -0.97, 0.97)
+        lim = 0.8; o = np.abs(mix) > lim; mix[o] = np.sign(mix[o]) * (lim + (1 - lim) * np.tanh((np.abs(mix[o]) - lim) / (1 - lim)))   # chỉ nén đỉnh, không đẩy âm lượng
         wavfile.write(out_wav, SR, (mix.T * 32767).astype(np.int16)); return
     mix = mix[:, : int(dur * SR)]
     fo = int(SR * 0.6); mix[:, -fo:] *= np.linspace(1, 0, fo); mix[:, :int(SR * 0.3)] *= np.linspace(0, 1, int(SR * 0.3))

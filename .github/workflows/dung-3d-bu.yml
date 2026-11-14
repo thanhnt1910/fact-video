@@ -1,0 +1,156 @@
+name: Dựng bù các đoạn 3D bị quá giờ
+
+# Chạy khi đẩy video3d/dung_bu.txt trên nhánh dung-3d-sa-ban. Dòng đầu:
+#   "<spec> <số đoạn gốc n> <run id lần dựng gốc> <các đoạn lỗi, cách nhau dấu phẩy> <số mảnh k mỗi đoạn>"
+# Mỗi đoạn lỗi i được chia k mảnh (đoạn i*k+j trong n*k đoạn, ranh giới khung trùng khít), dựng song song,
+# rồi ghép với các đoạn đã dựng xong của lần gốc (lấy từ artifact của run gốc) thành video hoàn chỉnh.
+on:
+  push:
+    branches: [dung-3d-sa-ban]
+    paths: ['video3d/dung_bu.txt']
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: dung-3d-bu-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  chia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      spec: ${{ steps.c.outputs.spec }}
+      n: ${{ steps.c.outputs.n }}
+      nk: ${{ steps.c.outputs.nk }}
+      run: ${{ steps.c.outputs.run }}
+      loi: ${{ steps.c.outputs.loi }}
+      k: ${{ steps.c.outputs.k }}
+      matrix: ${{ steps.c.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: c
+        run: |
+          read SPEC N RUN LOI K < video3d/dung_bu.txt
+          test -f "video3d/specs/$SPEC" || { echo "Không thấy video3d/specs/$SPEC"; exit 1; }
+          echo "spec=$SPEC" >> "$GITHUB_OUTPUT"; echo "n=$N" >> "$GITHUB_OUTPUT"; echo "nk=$((N*K))" >> "$GITHUB_OUTPUT"
+          echo "run=$RUN" >> "$GITHUB_OUTPUT"; echo "loi=$LOI" >> "$GITHUB_OUTPUT"; echo "k=$K" >> "$GITHUB_OUTPUT"
+          echo "matrix=$(python3 -c "print(__import__('json').dumps([i*$K+j for i in [$LOI] for j in range($K)]))")" >> "$GITHUB_OUTPUT"
+          echo "Dựng bù $SPEC: đoạn $LOI của $N, mỗi đoạn $K mảnh; ghép với run $RUN"
+
+  doan:
+    needs: chia
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        idx: ${{ fromJson(needs.chia.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip, cache-dependency-path: requirements.txt }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Cài đặt (thử lại tối đa 3 lần, không apt-get update)
+        run: |
+          thu() { for i in 1 2 3; do timeout 200 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          thu python -m pip install -q playwright numpy scipy pillow imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+          ffmpeg -version | head -1
+          cd video3d && thu npm install --no-audit --no-fund --silent
+          ls /usr/bin/google-chrome
+      - name: Phông chữ (Lora, Noto Serif CJK SC)
+        run: |
+          mkdir -p ~/.fonts && cp assets/fonts/Lora-*.ttf ~/.fonts/
+          curl -fsSL --retry 3 -o ~/.fonts/NotoSerifCJKsc-Bold.otf \
+            https://github.com/notofonts/noto-cjk/raw/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf \
+            || sudo apt-get install -y -qq fonts-noto-cjk || echo "CẢNH BÁO: thiếu phông Noto Serif CJK"
+          fc-cache -f > /dev/null; fc-list | grep -iE "lora|noto serif cjk sc" | head -3
+      - name: Chất liệu CC0 (nếu spec dùng world.chatLieu)
+        working-directory: video3d
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D=$(python -c "import json;print(json.load(open('specs/${{ needs.chia.outputs.spec }}')).get('world',{}).get('chatLieu',''))")
+          [ -z "$D" ] && exit 0
+          AID=$(gh api "repos/${{ github.repository }}/releases/tags/video3d-chat-lieu" --jq '.assets[] | select(.name=="chat_lieu.zip") | .id')
+          gh api -H "Accept: application/octet-stream" "repos/${{ github.repository }}/releases/assets/$AID" > /tmp/cl.zip
+          mkdir -p "$D" && unzip -o -q /tmp/cl.zip -d "$D" && ls "$D" | wc -l
+      - name: Dựng mảnh ${{ matrix.idx }} / ${{ needs.chia.outputs.nk }}
+        working-directory: video3d
+        run: python -u tqvideo.py doan "specs/${{ needs.chia.outputs.spec }}" ${{ matrix.idx }} ${{ needs.chia.outputs.nk }} "manh_$(printf %03d ${{ matrix.idx }}).mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: manh-${{ matrix.idx }}
+          path: video3d/manh_*.mp4
+          if-no-files-found: error
+          retention-days: 3
+
+  ghep:
+    needs: [chia, doan]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt
+        run: |
+          thu() { for i in 1 2 3; do timeout 200 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          thu python -m pip install -q playwright numpy scipy imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+      - uses: actions/download-artifact@v4
+        with: { pattern: manh-*, path: video3d/manh, merge-multiple: true }
+      - name: Lấy các đoạn đã dựng xong của run gốc, ghép mảnh thành đoạn
+        working-directory: video3d
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p out /tmp/goc
+          gh run download ${{ needs.chia.outputs.run }} -R ${{ github.repository }} -p 'doan-*' -D /tmp/goc
+          find /tmp/goc -name 'doan_*.mp4' -exec cp {} out/ \;
+          find /tmp/goc -name 'log.json' | head -1 | xargs -I{} cp {} out/log.json
+          K=${{ needs.chia.outputs.k }}
+          for i in $(echo "${{ needs.chia.outputs.loi }}" | tr , ' '); do
+            : > /tmp/ds.txt; for j in $(seq 0 $((K-1))); do echo "file '$PWD/manh/manh_$(printf %03d $((i*K+j))).mp4'" >> /tmp/ds.txt; done
+            ffmpeg -y -loglevel error -f concat -safe 0 -i /tmp/ds.txt -c copy "out/doan_$(printf %02d $i).mp4"
+          done
+          ls out | head -30; ls out/doan_*.mp4 | wc -l
+          test "$(ls out/doan_*.mp4 | wc -l)" = "${{ needs.chia.outputs.n }}" && test -f out/log.json
+      - name: Tải giọng đọc (nếu spec có lời đọc)
+        working-directory: video3d
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SPEC="${{ needs.chia.outputs.spec }}"
+          D=$(python -c "import json;a=json.load(open('specs/$SPEC')).get('audio',{}).get('voice');print(a['dir'] if a else '')")
+          [ -z "$D" ] && exit 0
+          TEN=$(echo "$D" | cut -d/ -f2); ROOT=$(dirname "$D")
+          AID=$(gh api "repos/${{ github.repository }}/releases/tags/video3d-giong-$TEN" --jq '.assets[] | select(.name=="giong.zip") | .id')
+          gh api -H "Accept: application/octet-stream" "repos/${{ github.repository }}/releases/assets/$AID" > /tmp/g.zip
+          mkdir -p "$ROOT" && unzip -o -q /tmp/g.zip -d "$ROOT" && ls "$D" | head -3 && ls "$D" | wc -l
+      - name: Ghép hình và âm thanh
+        working-directory: video3d
+        run: |
+          ls -la out
+          SPEC="${{ needs.chia.outputs.spec }}"; TEN="${SPEC%.json}"
+          python -u tqvideo.py ghep "specs/$SPEC" "out/$TEN.mp4" out/log.json $(ls out/doan_*.mp4 | sort)
+          ffmpeg -hide_banner -i "out/$TEN.mp4" 2>&1 | grep -E "Duration|Stream" || true
+          echo "TEN=$TEN" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ env.TEN }}
+          path: video3d/out/${{ env.TEN }}.mp4
+          retention-days: 14
+      - name: Đưa video lên Releases (bản thử, tag video3d-<tên>)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="video3d-$TEN"
+          gh release view "$TAG" > /dev/null 2>&1 || gh release create "$TAG" --target "${{ github.ref_name }}" --prerelease \
+            --title "Video 3D thử: $TEN" --notes "Dựng bằng dung-3d.yml và dung-3d-bu.yml, run ${{ github.run_id }}."
+          gh release upload "$TAG" "video3d/out/$TEN.mp4" --clobber

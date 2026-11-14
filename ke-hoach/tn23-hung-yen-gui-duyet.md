@@ -147,3 +147,4 @@ Bản cũ đi theo thứ tự mốc của nguồn (1831, 1890, 1894, 1968, 1997,
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Những huyện nào của Thái Bình từng thuộc Hưng Yên?
 - Hashtag: #NguoiGacSu #TenTinhThanh #HungYen #ThaiBinh #HaiHung #LichSuVietNam #TenGoi
+- Đã dựng và giao 14/11/2026. Lượt đọc 1 và 2 đọc 1890 thành 1880 và 1881; lượt 3 ghi năm này bằng chữ trong trường text (phụ đề vẫn chữ số) và đọc đúng.

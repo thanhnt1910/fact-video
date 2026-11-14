@@ -20,6 +20,9 @@ ROLES = {
     'duong':  (['cobblestone_floor_04', 'gravel_road', 'cobblestone_floor_01', 'gravel_floor'], ['cobblestone', 'gravel']),
     'rom':    (['thatch_roof', 'straw_roof', 'hay'], ['thatch', 'straw']),
 }
+HDRI = {'troi_ngay': ['kloofendal_48d_partly_cloudy_puresky', 'qwantani_puresky', 'kloppenheim_06_puresky'],
+        'troi_chieu': ['kloofendal_misty_morning_puresky', 'qwantani_dusk_2_puresky', 'qwantani_sunset_puresky']}
+MODELS = []   # điền sau khi xem danh_sach_mo_hinh.txt
 MAPS = {'diff': ['Diffuse'], 'nor': ['nor_gl'], 'rough': ['Rough', 'rough']}
 
 
@@ -47,6 +50,27 @@ def main(out, res='1k'):
         info = allt[pid]
         src[role] = {'ma': pid, 'ten': info.get('name'), 'tac_gia': list((info.get('authors') or {}).keys()), 'url': f'https://polyhaven.com/a/{pid}', 'giay_phep': 'CC0'}
         print(f'{role:8s} <- {pid}', flush=True)
+    # bầu trời HDRI (chiếu sáng môi trường) và danh sách mô hình 3D để chọn
+    hd = json.loads(get('https://api.polyhaven.com/assets?t=hdris'))
+    (out / 'danh_sach_hdri.txt').write_text('\n'.join(f"{k}\t{','.join(v.get('categories', []))}" for k, v in sorted(hd.items())))
+    for role, pref in HDRI.items():
+        pid = next((p for p in pref if p in hd), None)
+        if not pid: print('KHÔNG có HDRI', role); continue
+        files = json.loads(get(f'https://api.polyhaven.com/files/{pid}'))
+        (out / f'{role}.hdr').write_bytes(get(files['hdri']['1k']['hdr']['url']))
+        src[role] = {'ma': pid, 'url': f'https://polyhaven.com/a/{pid}', 'giay_phep': 'CC0', 'tac_gia': list((hd[pid].get('authors') or {}).keys())}
+        print(f'{role:8s} <- {pid}', flush=True)
+    md = json.loads(get('https://api.polyhaven.com/assets?t=models'))
+    (out / 'danh_sach_mo_hinh.txt').write_text('\n'.join(f"{k}\t{','.join(v.get('categories', []))}\t{','.join(v.get('tags', []))}" for k, v in sorted(md.items())))
+    for pid in MODELS:
+        if pid not in md: print('KHÔNG có mô hình', pid); continue
+        files = json.loads(get(f'https://api.polyhaven.com/files/{pid}'))
+        g = files['gltf']['1k']['gltf']; d = out / 'mo_hinh' / pid; d.mkdir(parents=True, exist_ok=True)
+        (d / f'{pid}.gltf').write_bytes(get(g['url']))
+        for rel, inc in (g.get('include') or {}).items():
+            f = d / rel; f.parent.mkdir(parents=True, exist_ok=True); f.write_bytes(get(inc['url']))
+        src['mo_hinh/' + pid] = {'ma': pid, 'url': f'https://polyhaven.com/a/{pid}', 'giay_phep': 'CC0', 'tac_gia': list((md[pid].get('authors') or {}).keys())}
+        print('mô hình', pid, flush=True)
     (out / 'nguon.json').write_text(json.dumps(src, ensure_ascii=False, indent=1))
 
 

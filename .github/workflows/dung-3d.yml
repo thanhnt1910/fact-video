@@ -53,6 +53,8 @@ jobs:
     timeout-minutes: 340
     strategy:
       fail-fast: false
+      # chừa 4 chỗ chạy (tài khoản miễn phí tối đa 20 job cùng lúc) để workflow giọng, nhận dạng của video khác không phải xếp hàng
+      max-parallel: 16
       matrix:
         idx: ${{ fromJson(needs.chia.outputs.matrix) }}
     steps:

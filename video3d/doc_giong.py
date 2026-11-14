@@ -76,7 +76,9 @@ def kiem(src, out, nguong=0.85):
         if k in res and res[k].get('dur') == dur.get(k):
             r = res[k]['khop']
         else:
-            parts, _ = m.transcribe(str(f), language='vi', beam_size=5, vad_filter=False)
+            import numpy as np
+            pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', str(f), '-f', 's16le', '-ac', '1', '-ar', '16000', '-'], capture_output=True, check=True).stdout
+            parts, _ = m.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0, language='vi', beam_size=5, vad_filter=False)
             asr = ' '.join(p.text for p in parts)
             r = difflib.SequenceMatcher(None, tieng(s['text']), tieng(asr)).ratio()
             res[k] = {'khop': round(r, 3), 'asr': asr.strip(), 'dur': dur.get(k)}

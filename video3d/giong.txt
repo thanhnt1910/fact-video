@@ -1,1 +1,2 @@
 qtg/loi_doc.json Leda qtg1
+# lần 2: chạy lại bước kiểm

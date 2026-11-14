@@ -72,3 +72,13 @@ Bản đồ 34 tỉnh, tô Phú Thọ (ranh giới hiện nay); khung Phú Thọ
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Cả tỉnh Phú Thọ mang tên một ngôi làng?
 - Hashtag: #NguoiGacSu #TenTinhThanh #PhuTho #HungHoa #VietTri #LichSuVietNam #TenGoi
+
+## Sửa 14/11/2026 (chủ kênh yêu cầu tìm nguồn và sửa đoạn 3)
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 3 | Cuối thế kỷ mười chín, người Pháp đặt tỉnh Hưng Hóa ở vùng trung du này, gồm năm huyện, trong đó có Tam Nông và Sơn Vi. | Thời Minh Mạng, tỉnh Hưng Hóa rộng cả vùng Tây Bắc. Cuối thế kỷ 19, người Pháp lập lại tỉnh này nhỏ hơn, gồm năm huyện, có Tam Nông và Sơn Vi. | Câu cũ dễ hiểu thành người Pháp lập ra tỉnh Hưng Hóa. Hai nguồn độc lập cùng ghi tỉnh Hưng Hóa có từ thời Minh Mạng, rộng khắp Tây Bắc, và năm 1891 Pháp lập tỉnh Hưng Hóa mới gồm năm huyện. |
+
+- Dân Trí, "Những lần sáp nhập tỉnh của vùng Đất Tổ - Phú Thọ": thời Minh Mạng chuyển huyện Tam Nông sang Hưng Hóa làm tỉnh lỵ, "tỉnh Hưng Hóa khi đó bao gồm toàn bộ diện tích các tỉnh vùng Tây Bắc ngày nay"; năm 1891 tỉnh Hưng Hóa mới gồm Tam Nông, Thanh Thủy (của Hưng Hóa cũ) và Sơn Vi, Thanh Ba, Phù Ninh (phủ Lâm Thao, tỉnh Sơn Tây). https://dantri.com.vn/noi-vu/nhung-lan-sap-nhap-tinh-cua-vung-dat-to-phu-tho-20250324163740907.htm
+- Báo Pháp luật, "Tỉnh Phú Thọ tròn 130 năm": ngày 8/9/1891 lập tỉnh Hưng Hóa gồm năm huyện Tam Nông, Thanh Thủy, Sơn Vi, Thanh Ba, Phù Ninh.
+- Đoạn 6 ("từng đặt cho cả một vùng tây bắc rộng lớn") nay có Dân Trí làm nguồn, thay cho Wikipedia.
+- Bộ kiểm: `kiem_kich_ban` 0 ❌ (đoạn 3 dài 32 chữ, đúng mức tối đa); `kiem_mach_ke` 0 ❌.

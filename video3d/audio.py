@@ -204,6 +204,30 @@ def load_voice(V, n):
     return np.stack([out, out])
 
 
+def brush(d=0.5):   # tiếng bút lông lướt trên giấy
+    n = int(SR * d); x = rng.standard_normal(n); b, a = signal.butter(2, [1800 / (SR / 2), 6000 / (SR / 2)], 'band'); x = signal.lfilter(b, a, x)
+    t = np.linspace(0, 1, n); e = np.sin(np.pi * t) ** 1.5 * (0.6 + 0.4 * np.sin(t * 9)); return x * e * 0.25
+
+
+def chisel(k=3, gap=0.32):   # đục đá: tiếng gõ chát + ngân kim loại, lặp k lần
+    one = int(SR * 0.22); t = np.arange(one) / SR
+    hit = (np.sin(2 * np.pi * 2900 * t) * 0.5 + np.sin(2 * np.pi * 4350 * t) * 0.3) * np.exp(-t * 32) + rng.standard_normal(one) * np.exp(-t * 90) * 0.6
+    out = np.zeros(int(SR * (gap * k + 0.3)))
+    for i in range(k): j = int(SR * gap * i + rng.uniform(-0.02, 0.02) * SR); j = max(0, j); out[j:j + one] += hit * rng.uniform(0.7, 1.0)
+    return out * 0.5
+
+
+def crowd(d=4.0):   # rì rầm đám đông
+    n = int(SR * d); x = rng.standard_normal(n); b, a = signal.butter(2, [250 / (SR / 2), 1300 / (SR / 2)], 'band'); x = signal.lfilter(b, a, x)
+    m = np.abs(signal.lfilter([1], [1, -0.9995], rng.standard_normal(n))); m = m / (m.max() + 1e-9)
+    t = np.linspace(0, 1, n); e = np.minimum(1, np.minimum(t * 6, (1 - t) * 6)); return x * (0.5 + 0.5 * m) * e * 0.35
+
+
+def ink(d=0.6):   # giọt mực rơi
+    n = int(SR * d); t = np.arange(n) / SR; f = 420 * np.exp(-t * 9) + 110
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 7) + rng.standard_normal(n) * np.exp(-t * 60) * 0.2; return s * 0.6
+
+
 def make_audio(spec, log, dur, out_wav):
     A = spec.get('audio', {})
     n = int(dur * SR) + SR
@@ -245,7 +269,8 @@ def make_audio(spec, log, dur, out_wav):
     for c in A.get('cues', []):
         typ, at, g = c['type'], c['at'], c.get('gain', 1.0)
         snd = {'boom': boom, 'gong': gong, 'horn': lambda: horn(c.get('dur', 2.5)), 'whoosh': lambda: whoosh(c.get('dur', 1.5)),
-               'taiko': taiko, 'splash': splash, 'bell': lambda: gong(58, 1.6)}[typ]()
+               'taiko': taiko, 'splash': splash, 'bell': lambda: gong(58, 1.6), 'brush': lambda: brush(c.get('dur', 0.5)),
+               'chisel': lambda: chisel(c.get('k', 3)), 'crowd': lambda: crowd(c.get('dur', 4.0)), 'ink': ink}[typ]()
         add(music if typ in ('gong', 'horn', 'taiko', 'bell') else fx, snd, at, g, c.get('pan', 0))
     music = np.stack([reverb(music[0], 2.6, 0.3), reverb(music[1], 2.8, 0.3)])
     fx = np.stack([reverb(fx[0], 1.2, 0.15), reverb(fx[1], 1.3, 0.15)])

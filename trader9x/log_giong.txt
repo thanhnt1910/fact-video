@@ -4,27 +4,28 @@
 ✅ Charon      p1_2      có sẵn
 ✅ Charon      p1_3      có sẵn
 ✅ Charon      p1_4      có sẵn
-✅ Charon      card2_1   có sẵn
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+✅ Charon      card2n    3.64s
 ✅ Charon      p2_1      có sẵn
 ✅ Charon      p2_2      có sẵn
 ✅ Charon      p2_3      có sẵn
 ✅ Charon      p2_4      có sẵn
-✅ Charon      p2_5      có sẵn
-✅ Charon      p2_6      có sẵn
+✅ Charon      h_app     6.68s
+✅ Charon      t4        6.56s
+✅ Charon      x_dn      9.76s
+✅ Charon      x_up      7.44s
+✅ Charon      p3a_3     có sẵn
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Charon      t5        7.40s
+✅ Charon      zero_up   8.52s
 ✅ Charon      p2_7      có sẵn
 ✅ Charon      p2_8      có sẵn
-✅ Charon      card3_1   có sẵn
-✅ Charon      p3a_1     có sẵn
-✅ Charon      p3a_2     có sẵn
-✅ Charon      p3a_3     có sẵn
-✅ Charon      p3a_4     có sẵn
-✅ Charon      p3a_5     có sẵn
-✅ Charon      p3b_1     có sẵn
-✅ Charon      p3b_2     có sẵn
-✅ Charon      p3b_3     có sẵn
-✅ Charon      p3b_4     có sẵn
-✅ Charon      p3b_5     có sẵn
-✅ Charon      p3c_1     có sẵn
+✅ Charon      div1      8.16s
+✅ Charon      div2      5.48s
+✅ Charon      div3      5.96s
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Charon      div4      5.64s
+✅ Charon      now1      4.96s
 ✅ Charon      p3c_2     có sẵn
 ✅ Charon      p3c_3     có sẵn
 ✅ Charon      p3c_4     có sẵn
@@ -35,7 +36,4 @@
 ✅ Charon      check_5   có sẵn
 ✅ Charon      check_6   có sẵn
 ✅ Charon      outro_1   có sẵn
-✅ Sadaltager  p3b_2     có sẵn
-✅ Iapetus     p3b_2     có sẵn
-✅ Orus        p3b_2     có sẵn
-Xong: 40 đoạn có giọng, 0 lỗi.
+Xong: 35 đoạn có giọng, 0 lỗi.

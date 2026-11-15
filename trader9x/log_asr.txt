@@ -7,6 +7,7 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
 ✅ b_p1_4    0.83 | Giải trên và giải dưới, cách giải giữa hai lần độ lệch chuẩn của cùng hai mươi nến.
 ✅ card2n    0.82 | Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng
 ⚠️ b_t1      0.74 | Thứ nhất là giải giữa, tức trung bình giá đóng cửa của 20 nén. Đây là sương sống của trị báo.
+⚠️ b_app1    0.62 | Ngày 27 tháng 10, giá đi trên giải giữa quanh 4.017. Phe mua đang giữ nhịp hồi.
 ⚠️ b_t2      0.75 | Cứ hai là giải trên và giải dưới. Biến động lớn thì hai giải nở ra, thị trường yên thì hai giải có lại.
 ✅ b_app2    0.82 | Giá đi bên trong 2 giải phần lớn thời gian. Giải hẹp là thị trường yên. Giải rộng là biến động mạnh.
 ✅ b_t3      0.96 | Thứ ba là co thắt. Khi độ rộng dài xuống rất thấp, thị trường đang nén lại, thường trước một cú chạy mạnh.

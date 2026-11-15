@@ -48,6 +48,12 @@
   "nghe": "Thứ nhất là giải giữa, tức trung bình giá đóng cửa của 20 nén. Đây là sương sống của trị báo."
  },
  {
+  "id": "b_app1",
+  "khop": 0.619,
+  "kich_ban": "Ngày hai mươi bảy tháng mười, giá đi trên dải giữa quanh bốn nghìn không trăm mười bảy. Phe mua đang giữ nhịp hồi.",
+  "nghe": "Ngày 27 tháng 10, giá đi trên giải giữa quanh 4.017. Phe mua đang giữ nhịp hồi."
+ },
+ {
   "id": "b_t2",
   "khop": 0.75,
   "kich_ban": "Thứ hai là dải trên và dải dưới. Biến động lớn thì hai dải nở ra, thị trường yên thì hai dải co lại.",

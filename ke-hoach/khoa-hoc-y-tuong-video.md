@@ -47,6 +47,11 @@ Cách giải thích cho dễ hiểu:
 | 15 | Mặt Trăng xa bao nhiêu (laser, gương Apollo, tốc độ × thời gian ÷ 2) | `ke-hoach/khoa-hoc-video-15-mat-trang-xa-kich-ban.md` |
 | 16 | Không khí nặng bao nhiêu (Tô-ri-xe-li, ống thủy ngân 76 cm, 1 kg trên mỗi cm²) | `ke-hoach/khoa-hoc-video-16-khong-khi-nang-kich-ban.md` |
 | 17 | Một mét dài bao nhiêu (1 phần 10 triệu quãng cực – xích đạo, phép tam giác) | `ke-hoach/khoa-hoc-video-17-mot-met-kich-ban.md` |
+| 18 | Số pi (Ác-si-mét kẹp vòng tròn bằng hình 6 → 96 cạnh, 223/71 < pi < 22/7) | `ke-hoach/khoa-hoc-video-18-so-pi-kich-ban.md` |
+| 19 | Một phân tử dày bao nhiêu (muỗng dầu trên ao, độ dày = thể tích ÷ diện tích) | `ke-hoach/khoa-hoc-video-19-phan-tu-day-kich-ban.md` |
+| 20 | Một năm dài bao nhiêu ngày (Hipparchus, lịch Giu-li-an và Gregory) | `ke-hoach/khoa-hoc-video-20-do-dai-nam-kich-ban.md` |
+| 21 | Làm sao biết Trái Đất quay (con lắc Foucault, 15 độ × sin vĩ độ) | `ke-hoach/khoa-hoc-video-21-con-lac-phu-co-kich-ban.md` |
+| 22 | Mặt Trời nặng bao nhiêu (tốc độ quỹ đạo, M = v² × r ÷ G) | `ke-hoach/khoa-hoc-video-22-can-mat-troi-kich-ban.md` |
 
 ## Chưa làm
 

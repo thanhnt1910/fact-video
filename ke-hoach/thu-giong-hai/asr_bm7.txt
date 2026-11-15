@@ -1,3 +1,3 @@
 medium
-tn24 tn25 
+tn26c 
 # lan1

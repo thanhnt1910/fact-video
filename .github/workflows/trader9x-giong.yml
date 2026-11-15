@@ -38,7 +38,7 @@ jobs:
           GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
           GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
-        run: python -u trader9x_giong.py trader9x/macd_cau.json 2>&1 | tee trader9x/log_giong.txt
+        run: python -u trader9x_giong.py trader9x/$(head -1 trader9x/chay.txt) 2>&1 | tee trader9x/log_giong.txt
       - name: Lưu vào nhánh
         if: always()
         run: |

@@ -20,7 +20,7 @@ jobs:
       - name: Cài đặt
         run: timeout 300 python -m pip install -q faster-whisper
       - name: Nhận dạng
-        run: python -u trader9x_asr.py trader9x/macd_cau.json $(head -1 trader9x/asr.txt) 2>&1 | tee trader9x/log_asr.txt
+        run: python -u trader9x_asr.py trader9x/$(head -1 trader9x/chay.txt) $(head -1 trader9x/asr.txt) 2>&1 | tee trader9x/log_asr.txt
       - name: Lưu kết quả
         if: always()
         run: |

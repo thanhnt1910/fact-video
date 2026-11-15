@@ -1,5 +1,6 @@
 """Nhận dạng giọng từng đoạn (faster-whisper) và so với kịch bản: báo đoạn thừa/thiếu chữ."""
-import json, sys, re, difflib
+import json, sys, re, difflib, wave
+import numpy as np
 from pathlib import Path
 from faster_whisper import WhisperModel
 
@@ -13,7 +14,10 @@ out = []
 for s in cfg["doan"]:
     p = Path("assets/trader9x") / cfg["ma"] / voice / f"{s['id']}.wav"
     if not p.exists(): continue
-    segs, _ = m.transcribe(str(p), language="vi", beam_size=5, vad_filter=False)
+    with wave.open(str(p)) as w:
+        sr = w.getframerate(); a = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+    a = np.interp(np.arange(0, len(a) / sr, 1 / 16000), np.arange(len(a)) / sr, a).astype(np.float32)
+    segs, _ = m.transcribe(a, language="vi", beam_size=5, vad_filter=False)
     txt = " ".join(x.text.strip() for x in segs)
     a, b = norm(s["text"]), norm(txt)
     r = difflib.SequenceMatcher(None, a, b).ratio()

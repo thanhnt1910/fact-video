@@ -1,0 +1,200 @@
+[
+ {
+  "id": "r_intro",
+  "khop": 0.882,
+  "kich_ban": "RSI. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.",
+  "nghe": "RSC, định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đô vàng."
+ },
+ {
+  "id": "card1_1",
+  "khop": 1.0,
+  "kich_ban": "Phần một. Định nghĩa.",
+  "nghe": "Phần một, định nghĩa."
+ },
+ {
+  "id": "r_p1_1",
+  "khop": 0.8,
+  "kich_ban": "RSI là viết tắt của Relative Strength Index, tức chỉ số sức mạnh tương đối, do Welles Wilder giới thiệu năm một nghìn chín trăm bảy mươi tám.",
+  "nghe": "RSI là viết tắt của Relative Strength Index, tức chỉ số sức mạnh tương đối, do Wells Wilder giới thiệu năm 1978."
+ },
+ {
+  "id": "r_p1_2",
+  "khop": 0.957,
+  "kich_ban": "RSI đo tốc độ và độ mạnh của các nhịp giá. Nó cho biết phe mua hay phe bán đang chiếm ưu thế.",
+  "nghe": "RSI đo tốc độ và độ mạnh của các nhịp xá, nó cho biết phe mua hay phe bán đang chiếm ưu thế."
+ },
+ {
+  "id": "r_p1_3",
+  "khop": 0.703,
+  "kich_ban": "Công thức so sánh trung bình các nến tăng với trung bình các nến giảm trong mười bốn nến.",
+  "nghe": "Công thước so sánh trung bình các nén tăng với trung bình các nén giảm trong 14 nén."
+ },
+ {
+  "id": "r_p1_4",
+  "khop": 0.762,
+  "kich_ban": "Kết quả được quy về thang từ không đến một trăm.",
+  "nghe": "Kết quả được quy về thang từ 0 đến 100."
+ },
+ {
+  "id": "card2n",
+  "khop": 0.818,
+  "kich_ban": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.",
+  "nghe": "Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng"
+ },
+ {
+  "id": "r_t1",
+  "khop": 0.8,
+  "kich_ban": "Thứ nhất là đường RSI. Đường này dao động từ không đến một trăm, đo sức mạnh nhịp tăng so với nhịp giảm.",
+  "nghe": "Thứ nhất là đường RSI, đường này giao động từ 0 đến 100, đó sức mạnh nhịp tăng so với nhịp giảm."
+ },
+ {
+  "id": "r_app",
+  "khop": 0.636,
+  "kich_ban": "Từ ngày hai mươi sáu đến hai mươi tám tháng mười, vàng hồi lên, và đường RSI cũng leo dần lên quanh năm mươi lăm.",
+  "nghe": "Từ ngày 26 đến 28 tháng 10, vàng hồi lên và đường RSI cũng leo dẫn lên quanh 55."
+ },
+ {
+  "id": "r_t2",
+  "khop": 0.933,
+  "kich_ban": "Thứ hai là vùng quá bán, khi RSI xuống dưới ba mươi. Giá đã giảm quá nhanh, lực bán có thể sắp cạn.",
+  "nghe": "Thứ hai là vùng quá bán, khi RSI xuống dưới 30, giá đã giảm quá nhanh, lực bán có thể sắp cạn."
+ },
+ {
+  "id": "r_os1",
+  "khop": 0.444,
+  "kich_ban": "Ngày ba mươi tháng mười, vàng sập về ba nghìn tám trăm bảy mươi mốt, và RSI rơi xuống hai mươi hai.",
+  "nghe": "Ngày 30 tháng 10, vàng sập về 3.871 và ASI rơi xuống 22."
+ },
+ {
+  "id": "r_os2",
+  "khop": 0.619,
+  "kich_ban": "Ngày hai tháng mười một, RSI vượt lại lên trên ba mươi quanh ba nghìn chín trăm linh ba. Lực mua đã quay lại.",
+  "nghe": "Ngày 2 tháng 11, RSI vượt lại lên trên 30, quanh 3.903. Lực mua đã quay lại."
+ },
+ {
+  "id": "p3a_3",
+  "khop": 0.844,
+  "kich_ban": "Ví dụ, vào lệnh khi nến xác nhận đóng cửa, và đặt cắt lỗ dưới đáy gần nhất, khoảng ba nghìn tám trăm sáu mươi.",
+  "nghe": "Ví dụ, vào lệnh khi nến xác nhận đóng cửa và đặt cắt lỗ dưới đáy gần nhất, khoảng 3860."
+ },
+ {
+  "id": "r_t3",
+  "khop": 0.766,
+  "kich_ban": "Thứ ba là đường năm mươi. RSI trên năm mươi là phe mua chiếm ưu thế, dưới năm mươi là phe bán chiếm ưu thế.",
+  "nghe": "Thứ 3 là đường 50, RSI trên 50 là phe mua chiếm ưu thế, dưới 50 là phe bán chiếm ưu thế."
+ },
+ {
+  "id": "r_mid",
+  "khop": 0.537,
+  "kich_ban": "Ngày bốn tháng mười một, RSI vượt lên trên năm mươi quanh ba nghìn chín trăm bảy mươi mốt, xác nhận xu hướng tăng.",
+  "nghe": "Ngày 4 tháng 11, ASI vượt lên trên 50 quanh 3.971, xác nhận xu hướng tăng."
+ },
+ {
+  "id": "r_t4",
+  "khop": 0.878,
+  "kich_ban": "Thứ tư là vùng quá mua, khi RSI lên trên bảy mươi. Giá đã tăng quá nhanh, thị trường đang nóng.",
+  "nghe": "Thứ tư là vùng quá mùa khi RSI lên trên 70, giá đã tăng quá nhanh, thị trường đang nóng."
+ },
+ {
+  "id": "r_ob1",
+  "khop": 0.471,
+  "kich_ban": "Ngày năm tháng mười một, vàng lên bốn nghìn một trăm bốn mươi bảy, và RSI vọt lên bảy mươi ba.",
+  "nghe": "Ngày 5 tháng 11, vàng lên 4.147 và RSI vọt lên 73."
+ },
+ {
+  "id": "r_ob2",
+  "khop": 0.894,
+  "kich_ban": "Nhưng quá mua không phải lệnh bán ngay. Xu hướng mạnh có thể giữ RSI trên bảy mươi khá lâu, hãy chờ xác nhận.",
+  "nghe": "Nhưng quá mua không phải lệnh bán ngay. Sù hướng mạnh có thể giữ RSI trên 70 khá lâu. Hãy chờ xác nhận."
+ },
+ {
+  "id": "r_t5",
+  "khop": 0.96,
+  "kich_ban": "Thứ năm là phân kỳ, khi giá và RSI đi ngược chiều nhau. Giá lập đỉnh cao hơn, nhưng RSI lại có đỉnh thấp hơn.",
+  "nghe": "Thứ 5 là phân kỳ. Khi giá và RSI đi ngược chiều nhau, giá lập đỉnh cao hơn, nhưng RSI lại có đỉnh thấp hơn."
+ },
+ {
+  "id": "r_div1",
+  "khop": 0.4,
+  "kich_ban": "Ngày mười tháng mười một, giá lập đỉnh mới bốn nghìn một trăm bốn mươi chín, cao hơn đỉnh ngày năm.",
+  "nghe": "Ngày 10-11, giá lập định mới 4.149 cao hơn định ngày 5."
+ },
+ {
+  "id": "r_div2",
+  "khop": 0.75,
+  "kich_ban": "Nhưng RSI chỉ lên sáu mươi lăm, thấp hơn mức bảy mươi ba. Đó là phân kỳ giảm.",
+  "nghe": "Nhưng RSI chỉ lên 65, thấp hơn mức 73, đó là phân kỳ giảm."
+ },
+ {
+  "id": "r_div3",
+  "khop": 0.541,
+  "kich_ban": "Cùng ngày mười, RSI thủng đường năm mươi. Đến ngày mười hai, vàng rơi về ba nghìn tám trăm năm mươi ba.",
+  "nghe": "cùng ngày 10, RSI thủng đường 50. Đến ngày 12, vàng rơi về 3.853."
+ },
+ {
+  "id": "now1",
+  "khop": 0.545,
+  "kich_ban": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.",
+  "nghe": "Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô."
+ },
+ {
+  "id": "r_now1b",
+  "khop": 0.667,
+  "kich_ban": "RSI hiện ở khoảng ba mươi lăm.",
+  "nghe": "RSI hiện ở khoảng 35"
+ },
+ {
+  "id": "r_now2",
+  "khop": 0.919,
+  "kich_ban": "RSI đã rời vùng quá bán, nhưng vẫn nằm dưới năm mươi. Phe bán vẫn đang chiếm ưu thế.",
+  "nghe": "RSI đã rời vùng quá bán nhưng vẫn nằm dưới 50, phe bán vẫn đang chiếm ưu thế."
+ },
+ {
+  "id": "r_now3",
+  "khop": 0.85,
+  "kich_ban": "Hãy chờ RSI vượt lại năm mươi để xác nhận. Đừng bắt đáy chỉ vì RSI từng xuống dưới ba mươi.",
+  "nghe": "Hãy chờ RSI vượt lại 50 để xác nhận, đừng bắt đáy chỉ vì RSI từng xuống dưới 30."
+ },
+ {
+  "id": "r_c1",
+  "khop": 1.0,
+  "kich_ban": "Năm nguyên tắc khi dùng RSI. Một, quá mua và quá bán chỉ là cảnh báo, không phải lệnh.",
+  "nghe": "Năm nguyên tắc khi dùng RSI Một, quá mua và quá bán chỉ là cảnh báo, không phải lệnh"
+ },
+ {
+  "id": "r_c2",
+  "khop": 0.9,
+  "kich_ban": "Hai, ưu tiên tín hiệu thuận theo xu hướng lớn.",
+  "nghe": "2. Ưu tiên tín hiệu thuận theo xu hướng lớn"
+ },
+ {
+  "id": "r_c3",
+  "khop": 0.706,
+  "kich_ban": "Ba, đường năm mươi giúp xác nhận xu hướng.",
+  "nghe": "3. Đường 50 giúp xác nhận xu hướng."
+ },
+ {
+  "id": "r_c4",
+  "khop": 0.889,
+  "kich_ban": "Bốn, phân kỳ cần cấu trúc giá xác nhận.",
+  "nghe": "4. Phân kỳ cần cấu trúc giá xác nhận"
+ },
+ {
+  "id": "check_5",
+  "khop": 0.917,
+  "kich_ban": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.",
+  "nghe": "5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss"
+ },
+ {
+  "id": "r_c6",
+  "khop": 0.884,
+  "kich_ban": "Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng RSI như một bộ lọc, không phải nút bấm mua bán.",
+  "nghe": "Không có chỉ báo nào đúng 100%, hãy dùng RSI như một bộ lọc, không phải nút bấm mua bán."
+ },
+ {
+  "id": "r_outro",
+  "khop": 0.865,
+  "kich_ban": "Tập sau là Bollinger Bands, công cụ đo biến động. Theo dõi Trader chín X để không bỏ lỡ.",
+  "nghe": "Tập sau là Bollinger Bands, công cụ đào biến động. Theo dõi Trader 9x để không bỏ lỡ."
+ }
+]

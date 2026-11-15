@@ -1,36 +1,34 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-✅ intro_1   1.00 | MACD, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đồ vàng.
+✅ r_intro   0.88 | RSC, định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đô vàng.
 ✅ card1_1   1.00 | Phần một, định nghĩa.
-✅ p1_1      0.87 | MACD là viết tắt của Moving Average Convergence Divergence do Jerome Appel phát triển vào cuối thập niên 70.
-✅ p1_2      1.00 | Đây là chỉ báo động lượng theo xu hướng. Nó cho biết xu hướng đang mạnh lên hay đang yếu đi.
-⚠️ p1_3      0.77 | Cách tính rất đơn giản, lấy đường EMA-12, trừ đi đường EMA-26.
-✅ p1_4      1.00 | Hai đường càng tách xa nhau, động lượng càng mạnh.
+✅ r_p1_1    0.80 | RSI là viết tắt của Relative Strength Index, tức chỉ số sức mạnh tương đối, do Wells Wilder giới thiệu năm 1978.
+✅ r_p1_2    0.96 | RSI đo tốc độ và độ mạnh của các nhịp xá, nó cho biết phe mua hay phe bán đang chiếm ưu thế.
+⚠️ r_p1_3    0.70 | Công thước so sánh trung bình các nén tăng với trung bình các nén giảm trong 14 nén.
+⚠️ r_p1_4    0.76 | Kết quả được quy về thang từ 0 đến 100.
 ✅ card2n    0.82 | Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng
-⚠️ p2_1      0.79 | Thứ nhất là đường MACD, hiệu số giữa EMA12 và EMA26, đây là đường chính, phản ánh động lượng.
-⚠️ p2_2      0.77 | Thứ hai là đường Signal, tức đường EMA-9 của chính đường MACD. Bộ thông số chuẩn là 12, 26 và 9.
-✅ p2_3      0.80 | Thứ 3 là Histogram bằng MACD chứ Signal. Cuột xanh khi MACD nằm trên Signal, cuột đỏ khi nằm dưới.
-✅ p2_4      0.90 | Cột co lại nghĩa là động lượng đáng yếu dần.
-⚠️ h_app     0.67 | Nhờ đây, cột histogram xanh đang co lại. Đá tăng của ngày 27 và 28 tháng 10 đang yếu dần.
-✅ t4        1.00 | Thứ tư là giao cắt. MACD cắt lên signal là tín hiệu tăng, cắt xuống signal là tín hiệu giảm.
-⚠️ x_dn      0.61 | Ngày 29 tháng 10, MACD cắt xuống Signal. Hôm sau, vàng rơi mạnh từ hơn 4.000 đô xuống 3.871.
-⚠️ x_up      0.68 | Ngày 2 tháng 11, MACD cắt lên Signal khi giá quanh 3.970, động lượng chuyển sang tăng.
+✅ r_t1      0.80 | Thứ nhất là đường RSI, đường này giao động từ 0 đến 100, đó sức mạnh nhịp tăng so với nhịp giảm.
+⚠️ r_app     0.64 | Từ ngày 26 đến 28 tháng 10, vàng hồi lên và đường RSI cũng leo dẫn lên quanh 55.
+✅ r_t2      0.93 | Thứ hai là vùng quá bán, khi RSI xuống dưới 30, giá đã giảm quá nhanh, lực bán có thể sắp cạn.
+⚠️ r_os1     0.44 | Ngày 30 tháng 10, vàng sập về 3.871 và ASI rơi xuống 22.
+⚠️ r_os2     0.62 | Ngày 2 tháng 11, RSI vượt lại lên trên 30, quanh 3.903. Lực mua đã quay lại.
 ✅ p3a_3     0.84 | Ví dụ, vào lệnh khi nến xác nhận đóng cửa và đặt cắt lỗ dưới đáy gần nhất, khoảng 3860.
-✅ t5        0.95 | Thứ 5 là đường không, MACD nằm trên đường không là thiên hướng tăng, nằm dưới là thiên hướng giảm.
-⚠️ zero_up   0.68 | Ngày 4 tháng 11, MACD vượt lên trên đường không, xác nhận xu hứng tăng. Hôm sau, vàng chạm 4.147 đô.
-✅ p2_7      0.92 | Thứ 6 là phân kỳ, khi giá và MACD đi ngược chiều nhau.
-✅ p2_8      1.00 | Giá lập đỉnh cao hơn nhưng MACD lại có đỉnh thấp hơn cho thấy động lượng đang suy yếu.
-⚠️ div1      0.37 | ngày 5 tháng 11 vàng lên 4.147, ngày 10 giá lập định mới 4.149.
-✅ div2      0.94 | nhưng MACD lại có đỉnh thấp hơn, đó là phân kỳ giảm, lực mùa đã cạn.
-✅ div3      0.83 | Cùng ngày 10, MACD cắt xuống Signal rồi thủng đường không vào ngày 11.
-⚠️ div4      0.56 | Đến ngày 12, vàng rơi xuống 3.853, cảnh báo của phần kỷ đã đúng.
+⚠️ r_t3      0.77 | Thứ 3 là đường 50, RSI trên 50 là phe mua chiếm ưu thế, dưới 50 là phe bán chiếm ưu thế.
+⚠️ r_mid     0.54 | Ngày 4 tháng 11, ASI vượt lên trên 50 quanh 3.971, xác nhận xu hướng tăng.
+✅ r_t4      0.88 | Thứ tư là vùng quá mùa khi RSI lên trên 70, giá đã tăng quá nhanh, thị trường đang nóng.
+⚠️ r_ob1     0.47 | Ngày 5 tháng 11, vàng lên 4.147 và RSI vọt lên 73.
+✅ r_ob2     0.89 | Nhưng quá mua không phải lệnh bán ngay. Sù hướng mạnh có thể giữ RSI trên 70 khá lâu. Hãy chờ xác nhận.
+✅ r_t5      0.96 | Thứ 5 là phân kỳ. Khi giá và RSI đi ngược chiều nhau, giá lập đỉnh cao hơn, nhưng RSI lại có đỉnh thấp hơn.
+⚠️ r_div1    0.40 | Ngày 10-11, giá lập định mới 4.149 cao hơn định ngày 5.
+⚠️ r_div2    0.75 | Nhưng RSI chỉ lên 65, thấp hơn mức 73, đó là phân kỳ giảm.
+⚠️ r_div3    0.54 | cùng ngày 10, RSI thủng đường 50. Đến ngày 12, vàng rơi về 3.853.
 ⚠️ now1      0.55 | Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô.
-✅ p3c_2     1.00 | MACD vẫn nằm dưới đường không, nên xu hướng ngắn hạn vẫn nghiêng về giảm.
-✅ p3c_3     0.88 | Nhưng histogram đang co dần về 0 và MACD bám sát signal đã giảm đang chậm lại.
-✅ p3c_4     1.00 | Hãy chờ tín hiệu xác nhận, đừng đoán đáy.
-✅ check_1   0.82 | 5 nguyên tác khi dùng MACD 1. Giao cắt thuận xu hướng lớn thì đáng tin hơn
-✅ check_2   0.93 | 2. Cắt lên dưới đường không hay cắt xuống trên đường không thường mạnh hơn
-✅ check_3   0.92 | 3. Phân kỳ chỉ là cảnh báo, hãy chờ giá xác nhận.
-⚠️ check_4   0.73 | 4. MACD là chỉ bao trễ nên kết hợp với hỗ trợ và khẳng cựng.
+⚠️ r_now1b   0.67 | RSI hiện ở khoảng 35
+✅ r_now2    0.92 | RSI đã rời vùng quá bán nhưng vẫn nằm dưới 50, phe bán vẫn đang chiếm ưu thế.
+✅ r_now3    0.85 | Hãy chờ RSI vượt lại 50 để xác nhận, đừng bắt đáy chỉ vì RSI từng xuống dưới 30.
+✅ r_c1      1.00 | Năm nguyên tắc khi dùng RSI Một, quá mua và quá bán chỉ là cảnh báo, không phải lệnh
+✅ r_c2      0.90 | 2. Ưu tiên tín hiệu thuận theo xu hướng lớn
+⚠️ r_c3      0.71 | 3. Đường 50 giúp xác nhận xu hướng.
+✅ r_c4      0.89 | 4. Phân kỳ cần cấu trúc giá xác nhận
 ✅ check_5   0.92 | 5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss
-✅ check_6   0.88 | Không có chỉ báo nào đúng 100%, hãy dùng MACD như một bộ lọc, không phải nút bấm mua bán.
-✅ outro_1   0.84 | Tập sau là RSI, quá mua, quá bán và phân kỷ. Theo dõi Tradergynix để không bỏ lỡ.
+✅ r_c6      0.88 | Không có chỉ báo nào đúng 100%, hãy dùng RSI như một bộ lọc, không phải nút bấm mua bán.
+✅ r_outro   0.86 | Tập sau là Bollinger Bands, công cụ đào biến động. Theo dõi Trader 9x để không bỏ lỡ.

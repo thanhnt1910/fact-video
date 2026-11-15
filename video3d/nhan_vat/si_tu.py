@@ -151,7 +151,7 @@ def mat_tex(name, stem, scale=1.0, tint=(1, 1, 1)):
         nm = N.new('ShaderNodeNormalMap'); L.new(n.outputs['Color'], nm.inputs['Color']); L.new(nm.outputs[0], b.inputs['Normal'])
     return m
 
-ROBE = mat_fabric('ao', (0.075, 0.062, 0.05))          # áo vải nâu nhạt (sĩ tử áo the/vải)
+ROBE = mat_fabric('ao', (0.028, 0.036, 0.062))          # áo vải nâu nhạt (sĩ tử áo the/vải)
 INNER = mat_fabric('ao_trong', (0.80, 0.76, 0.66))   # áo lót trắng ngà ở cổ giao lĩnh
 BELT = mat_fabric('dai', (0.12, 0.10, 0.08), scale=600)
 KHAN = mat_fabric('khan', (0.035, 0.03, 0.028), dark=0.6, scale=700)
@@ -301,17 +301,21 @@ def mth(op, a, b=None, c=None):
     return n.outputs[0]
 dx, dz = (cB - cA).x, (cB - cA).z; ln_ = math.hypot(dx, dz); ux, uz = dx / ln_, dz / ln_
 # khoảng cách vuông góc tới đường cổ chéo
-dl = mth('ABSOLUTE', mth('SUBTRACT', mth('MULTIPLY', mth('SUBTRACT', X, cA.x), uz), mth('MULTIPLY', mth('SUBTRACT', Z, cA.z), ux)))
+# khoảng cách có dấu tới đường vạt áo: âm = phía vạt trái (vạt ngoài), dương = phía vạt phải (vạt trong)
+sd = mth('SUBTRACT', mth('MULTIPLY', mth('SUBTRACT', X, cA.x), uz), mth('MULTIPLY', mth('SUBTRACT', Z, cA.z), ux))
 front = mth('LESS_THAN', Y, neck.y - 0.02)
 zr = mth('MULTIPLY', mth('GREATER_THAN', Z, cB.z), mth('LESS_THAN', Z, cA.z + 0.03))
 fm = mth('MULTIPLY', front, zr)
-inner = mth('MULTIPLY', fm, mth('LESS_THAN', dl, 0.026))
-border = mth('MULTIPLY', fm, mth('LESS_THAN', dl, 0.036))
+# nẹp cổ sẫm chạy dọc mép vạt ngoài (giao lĩnh)
+lapel = mth('MULTIPLY', fm, mth('MULTIPLY', mth('LESS_THAN', sd, 0.0), mth('GREATER_THAN', sd, -0.034)))
+# cổ áo lót trắng chỉ lộ một khe nhỏ ở chữ V gần cổ
+inner = mth('MULTIPLY', fm, mth('MULTIPLY', mth('MULTIPLY', mth('GREATER_THAN', sd, 0.0), mth('LESS_THAN', sd, 0.016)),
+                                   mth('GREATER_THAN', Z, neck.z - 0.075)))
 rr = mth('SQRT', mth('ADD', mth('POWER', mth('SUBTRACT', X, neck.x), 2), mth('POWER', mth('SUBTRACT', Y, neck.y), 2)))
-near = mth('LESS_THAN', rr, 0.085)
-topb = mth('MULTIPLY', mth('GREATER_THAN', Z, neck.z - 0.04), near)
-inner = mth('MAXIMUM', inner, topb)
-border = mth('MAXIMUM', border, mth('MULTIPLY', mth('GREATER_THAN', Z, neck.z - 0.05), mth('LESS_THAN', rr, 0.097)))
+near = mth('LESS_THAN', rr, 0.095)
+collar_back = mth('MULTIPLY', mth('GREATER_THAN', Z, neck.z - 0.045), near)
+lapel = mth('MAXIMUM', lapel, collar_back)
+inner = mth('MAXIMUM', inner, mth('MULTIPLY', mth('GREATER_THAN', Z, neck.z - 0.012), near))
 beltm = mth('LESS_THAN', mth('ABSOLUTE', mth('SUBTRACT', Z, sp1.z - 0.015)), 0.026)
 def mixc(fac, c1, c2):
     m = N.new('ShaderNodeMix'); m.data_type = 'RGBA'; Ln.new(fac, m.inputs[0])
@@ -319,9 +323,18 @@ def mixc(fac, c1, c2):
         if isinstance(c, tuple): m.inputs[idx].default_value = (*c, 1)
         else: Ln.new(c, m.inputs[idx])
     return m.outputs[2]
-c = mixc(border, src, (0.02, 0.017, 0.014))
-c = mixc(inner, c, (0.78, 0.74, 0.64))
-c = mixc(beltm, c, (0.035, 0.03, 0.025))
+c = mixc(lapel, src, (0.012, 0.011, 0.012))
+c = mixc(inner, c, (0.70, 0.66, 0.57))
+c = mixc(beltm, c, (0.02, 0.018, 0.016))
+# nếp nhăn vải lớn (bump) để áo không trơn như da
+nz = N.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = 9; nz.inputs['Detail'].default_value = 3
+if 'Distortion' in nz.inputs: nz.inputs['Distortion'].default_value = 1.5
+tco = N.new('ShaderNodeTexCoord'); Ln.new(tco.outputs['Object'], nz.inputs['Vector'])
+bp2 = N.new('ShaderNodeBump'); bp2.inputs['Strength'].default_value = 0.45; bp2.inputs['Distance'].default_value = 0.01
+Ln.new(nz.outputs['Fac'], bp2.inputs['Height'])
+oldn = bsdf.inputs['Normal'].links[0].from_node if bsdf.inputs['Normal'].links else None
+if oldn: Ln.new(oldn.outputs['Normal'], bp2.inputs['Normal'])
+Ln.new(bp2.outputs['Normal'], bsdf.inputs['Normal'])
 Ln.new(c, bsdf.inputs['Base Color'])
 
 # ---------------- khăn: các vòng vải quấn chồng (khăn xếp/khăn vấn) ----------------
@@ -561,7 +574,7 @@ fn.inputs['Emission Color'].default_value = (1, 0.55, 0.18, 1); fn.inputs['Emiss
 bpy.ops.mesh.primitive_uv_sphere_add(radius=0.008, location=(lx, ly, desk_top + 0.142)); fo = bpy.context.active_object
 fo.scale = (1, 1, 2.4); fo.data.materials.append(flame)
 bpy.ops.object.light_add(type='POINT', location=(lx, ly, desk_top + 0.15)); L1 = bpy.context.active_object
-L1.data.energy = 22; L1.data.color = (1, 0.62, 0.32); L1.data.shadow_soft_size = 0.015
+L1.data.energy = 16; L1.data.color = (1, 0.62, 0.32); L1.data.shadow_soft_size = 0.015
 # chiếu cói
 RUSH = mat_tex('chieu', 'rom', 3, (0.95, 0.85, 0.6))
 bpy.ops.mesh.primitive_plane_add(size=1, location=(pel.x, pel.y - 0.1, 0.002)); ch = bpy.context.active_object

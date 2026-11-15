@@ -1,2 +1,2 @@
 240 40 1280x720
-# số khung, số mẫu Cycles, độ phân giải
+# số khung, số mẫu Cycles, độ phân giải (lượt 2: sửa áo chàm, nẹp giao lĩnh)

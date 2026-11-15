@@ -1,0 +1,79 @@
+name: Dựng thử nhân vật 3D (Blender + MakeHuman CC0)
+
+# Chạy khi đẩy video3d/nhan_vat/dung.txt (dòng đầu: số khung, mẫu, độ phân giải; ví dụ "240 48 1280x720").
+# Mỗi job dựng một khoảng khung bằng Cycles CPU; job cuối ghép mp4 và đưa lên Releases (tag video3d-nhanvat).
+on:
+  push:
+    branches: [dung-3d-sa-ban]
+    paths: ['video3d/nhan_vat/dung.txt']
+
+permissions:
+  contents: write
+
+env:
+  MPFB_SHA: 9de0707fdc88438d7c53a1a2ac7937d9221e2431
+  MH_PACK: https://github.com/Makehuman-2/MH2_Asset_Repository_CCO/releases/download/CC0/legacy-mh_system_CC0.zip
+
+jobs:
+  dung:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - name: Cài đặt (thử lại tối đa 3 lần, không apt-get update)
+        run: |
+          thu() { for i in 1 2 3; do timeout 300 "$@" && return 0; echo "thử lại lần $i"; sleep 5; done; return 1; }
+          thu python -m pip install -q bpy pillow
+          thu git clone -q https://github.com/makehumancommunity/mpfb2 /tmp/mpfb2
+          git -C /tmp/mpfb2 checkout -q $MPFB_SHA
+          E=$(python -c "import bpy;print(bpy.utils.user_resource('EXTENSIONS'))" 2>/dev/null | tail -1)
+          mkdir -p "$E/user_default" && cp -r /tmp/mpfb2/src/mpfb "$E/user_default/mpfb"
+          thu curl -fsSL -o /tmp/mh.zip "$MH_PACK"
+          mkdir -p /tmp/mha && cd /tmp/mha && unzip -q /tmp/mh.zip 'skins/young_asian_male/*' 'eyes/*' 'eyebrows/*' 'eyelashes/*'
+          mkdir -p ~/.fonts && thu curl -fsSL -o ~/.fonts/NotoSerifCJKsc-Regular.otf \
+            https://github.com/notofonts/noto-cjk/raw/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf || true
+      - name: Chất liệu CC0
+        run: |
+          AID=$(gh api "repos/${{ github.repository }}/releases/tags/video3d-chat-lieu" --jq '.assets[] | select(.name=="chat_lieu.zip") | .id')
+          gh api -H "Accept: application/octet-stream" "repos/${{ github.repository }}/releases/assets/$AID" > /tmp/cl.zip
+          unzip -o -q /tmp/cl.zip -d video3d/chat_lieu && ls video3d/chat_lieu | wc -l
+      - name: Dựng khung
+        run: |
+          read N S R < <(grep -v '^#' video3d/nhan_vat/dung.txt | head -1)
+          K=$(( (N + 11) / 12 )); A=$(( ${{ matrix.idx }} * K + 1 )); B=$(( A + K - 1 )); [ $B -gt $N ] && B=$N
+          echo "khung $A..$B, $S mẫu, $R, $(nproc) nhân"
+          MH_ASSETS=/tmp/mha RES=$R python -u video3d/nhan_vat/si_tu.py /tmp/khung $A $B $S 2>&1 | grep -vE "^\s*$|DeprecationWarning|use_nodes|INFO" | tail -40
+          ls /tmp/khung | wc -l
+      - uses: actions/upload-artifact@v4
+        with:
+          name: khung-${{ matrix.idx }}
+          path: /tmp/khung/*.png
+          retention-days: 3
+
+  ghep:
+    needs: dung
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { path: /tmp/k, pattern: 'khung-*', merge-multiple: true }
+      - name: Ghép và đưa lên Releases
+        run: |
+          ls /tmp/k | wc -l
+          command -v ffmpeg || { python -m pip install -q imageio-ffmpeg; sudo ln -sf "$(python -c 'import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg; }
+          ffmpeg -y -loglevel error -framerate 24 -pattern_type glob -i '/tmp/k/*.png' -c:v libx264 -crf 17 -preset veryfast -pix_fmt yuv420p si_tu.mp4
+          ffmpeg -y -loglevel error -i /tmp/k/0120.png -q:v 2 si_tu_khung120.jpg || true
+          gh release view video3d-nhanvat -R ${{ github.repository }} > /dev/null 2>&1 || gh release create video3d-nhanvat -R ${{ github.repository }} \
+            --target dung-3d-sa-ban --prerelease --title "Thử nhân vật 3D (Blender + MakeHuman CC0)" --notes "Đoạn thử 10 giây: sĩ tử ngồi viết bài."
+          gh release upload video3d-nhanvat -R ${{ github.repository }} si_tu.mp4 si_tu_khung*.jpg --clobber

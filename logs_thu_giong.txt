@@ -15,12 +15,12 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-14 16:00:20
-còn thiếu 13 câu
+còn thiếu 14 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 151001-151013: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-14 16:15:18
-OK cụm 151001 - 151013 89.8 giây
-[báo cáo giọng] 13/13 đoạn có nhật ký tạo giọng
+   [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
+   [giọng] nhóm 152001-152014: model=gemini-3.8-flash-tts (interactions) voice=Leda style=948ae17d/thu dự_phòng=False lúc 2026-11-15 11:40:03
+OK cụm 152001 - 152014 89.4 giây
+[báo cáo giọng] 14/14 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
    voice: Leda

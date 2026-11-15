@@ -8,5 +8,7 @@ import * as ql from '../src/quaclac/content';
 import * as nc from '../src/nuicao/content';
 import * as td from '../src/tuoitd/content';
 import * as mt from '../src/matrang/content';
-const M: Record<string, {timeline: () => any}> = {sao, amthanh: am, mattroi: mt, nhietke: nk, quaclac: ql, nuicao: nc, tuoitd: td, matrang: mt};
+import * as kk from '../src/khongkhi/content';
+import * as mm from '../src/motmet/content';
+const M: Record<string, {timeline: () => any}> = {sao, amthanh: am, mattroi: mt, nhietke: nk, quaclac: ql, nuicao: nc, tuoitd: td, matrang: mt, khongkhi: kk, motmet: mm};
 console.log(JSON.stringify(sfxFor(M[process.env.VID as string].timeline())));

@@ -21,6 +21,10 @@ import {Quaclac} from './quaclac/Quaclac';
 import {Nuicao} from './nuicao/Nuicao';
 import {Tuoitd} from './tuoitd/Tuoitd';
 import {Matrang} from './matrang/Matrang';
+import {Khongkhi} from './khongkhi/Khongkhi';
+import {timeline as timelineKk} from './khongkhi/content';
+import {Motmet} from './motmet/Motmet';
+import {timeline as timelineMm} from './motmet/content';
 import {timeline as timelineMtr} from './matrang/content';
 import {timeline as timelineTd} from './tuoitd/content';
 import {timeline as timelineNc} from './nuicao/content';
@@ -56,6 +60,8 @@ export const Root: React.FC = () => {
       <Composition id="Nuicao" component={Nuicao} durationInFrames={timelineNc().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Tuoitd" component={Tuoitd} durationInFrames={timelineTd().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Matrang" component={Matrang} durationInFrames={timelineMtr().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Khongkhi" component={Khongkhi} durationInFrames={timelineKk().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Motmet" component={Motmet} durationInFrames={timelineMm().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Nhietke" component={Nhietke} durationInFrames={timelineNk().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Mattroi" component={Mattroi} durationInFrames={timelineMt().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Amthanh" component={Amthanh} durationInFrames={timelineAm().total} fps={FPS} width={1080} height={1920} />

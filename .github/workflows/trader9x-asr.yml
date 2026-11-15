@@ -1,0 +1,30 @@
+name: Trader9x nhận dạng giọng
+
+on:
+  push:
+    branches: [trader9x-giong]
+    paths: ['trader9x/asr.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  asr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cài đặt
+        run: timeout 300 python -m pip install -q faster-whisper
+      - name: Nhận dạng
+        run: python -u trader9x_asr.py trader9x/macd_cau.json $(head -1 trader9x/asr.txt) 2>&1 | tee trader9x/log_asr.txt
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git config user.email noreply@anthropic.com; git config user.name Claude
+          git add trader9x/
+          git commit -q -m "Trader9x: nhận dạng giọng MACD [skip ci]" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done

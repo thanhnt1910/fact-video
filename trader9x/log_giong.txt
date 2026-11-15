@@ -1,49 +1,41 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-✅ Charon      intro_1   6.24s
-✅ Charon      card1_1   2.04s
-✅ Charon      p1_1      7.76s
-✅ Charon      p1_2      5.32s
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      p1_3      6.24s
-✅ Charon      p1_4      3.40s
-✅ Charon      card2_1   2.52s
-✅ Charon      p2_1      8.36s
-✅ Charon      p2_2      8.32s
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      p2_3      9.16s
-✅ Charon      p2_4      3.24s
-✅ Charon      p2_5      7.56s
-✅ Charon      p2_6      7.40s
-✅ Charon      p2_7      4.32s
-✅ Charon      p2_8      6.32s
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      card3_1   3.68s
-✅ Charon      p3a_1     4.92s
-✅ Charon      p3a_2     4.16s
-✅ Charon      p3a_3     6.84s
-✅ Charon      p3a_4     5.04s
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      p3a_5     4.60s
-✅ Charon      p3b_1     4.36s
-✅ Charon      p3b_2     6.40s
-✅ Charon      p3b_3     7.52s
-✅ Charon      p3b_4     3.68s
-✅ Charon      p3b_5     6.04s
-✅ Charon      p3c_1     4.12s
-✅ Charon      p3c_2     4.48s
-✅ Charon      p3c_3     6.80s
-✅ Charon      p3c_4     2.52s
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      check_1   5.84s
-✅ Charon      check_2   5.28s
-✅ Charon      check_3   3.92s
-✅ Charon      check_4   5.16s
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      check_5   3.88s
-✅ Charon      check_6   6.76s
-✅ Charon      outro_1   6.84s
-✅ Sadaltager  p3b_2     6.52s
-✅ Iapetus     p3b_2     6.96s
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Orus        p3b_2     6.24s
+✅ Charon      intro_1   có sẵn
+✅ Charon      card1_1   có sẵn
+✅ Charon      p1_1      có sẵn
+✅ Charon      p1_2      có sẵn
+✅ Charon      p1_3      có sẵn
+✅ Charon      p1_4      có sẵn
+✅ Charon      card2_1   có sẵn
+✅ Charon      p2_1      có sẵn
+✅ Charon      p2_2      có sẵn
+✅ Charon      p2_3      có sẵn
+✅ Charon      p2_4      có sẵn
+✅ Charon      p2_5      có sẵn
+✅ Charon      p2_6      có sẵn
+✅ Charon      p2_7      có sẵn
+✅ Charon      p2_8      có sẵn
+✅ Charon      card3_1   có sẵn
+✅ Charon      p3a_1     có sẵn
+✅ Charon      p3a_2     có sẵn
+✅ Charon      p3a_3     có sẵn
+✅ Charon      p3a_4     có sẵn
+✅ Charon      p3a_5     có sẵn
+✅ Charon      p3b_1     có sẵn
+✅ Charon      p3b_2     có sẵn
+✅ Charon      p3b_3     có sẵn
+✅ Charon      p3b_4     có sẵn
+✅ Charon      p3b_5     có sẵn
+✅ Charon      p3c_1     có sẵn
+✅ Charon      p3c_2     có sẵn
+✅ Charon      p3c_3     có sẵn
+✅ Charon      p3c_4     có sẵn
+✅ Charon      check_1   có sẵn
+✅ Charon      check_2   có sẵn
+✅ Charon      check_3   có sẵn
+✅ Charon      check_4   có sẵn
+✅ Charon      check_5   có sẵn
+✅ Charon      check_6   có sẵn
+✅ Charon      outro_1   có sẵn
+✅ Sadaltager  p3b_2     có sẵn
+✅ Iapetus     p3b_2     có sẵn
+✅ Orus        p3b_2     có sẵn
 Xong: 40 đoạn có giọng, 0 lỗi.

@@ -1,47 +1,36 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-✅ Iapetus     b_intro   5.88s
+✅ Iapetus     b_intro   có sẵn
 ✅ Iapetus     card1_1   có sẵn
-✅ Iapetus     b_p1_1    6.00s
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_p1_2    7.04s
-✅ Iapetus     b_p1_3    3.24s
-   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_p1_4    5.08s
+✅ Iapetus     b_p1_1    có sẵn
+✅ Iapetus     b_p1_2    có sẵn
+✅ Iapetus     b_p1_3    có sẵn
+✅ Iapetus     b_p1_4    có sẵn
 ✅ Iapetus     card2n    có sẵn
-✅ Iapetus     b_t1      6.96s
-✅ Iapetus     b_app1    7.04s
-✅ Iapetus     b_t2      7.76s
-✅ Iapetus     b_app2    7.00s
-✅ Iapetus     b_t3      7.00s
-   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_sq1     6.48s
-✅ Iapetus     b_sq2     5.76s
-   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_sq2b    3.48s
-✅ Iapetus     b_t4      8.20s
-✅ Iapetus     b_w1      7.28s
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_w2      4.80s
-✅ Iapetus     b_t5      7.12s
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_r1      7.84s
-✅ Iapetus     b_r2      6.52s
-✅ Iapetus     b_r2b     3.96s
-✅ Iapetus     b_sq3     4.88s
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_sq3b    7.32s
+✅ Iapetus     b_t1      có sẵn
+✅ Iapetus     b_app1    có sẵn
+✅ Iapetus     b_t2      có sẵn
+✅ Iapetus     b_app2    có sẵn
+✅ Iapetus     b_t3      có sẵn
+✅ Iapetus     b_sq1     có sẵn
+✅ Iapetus     b_sq2     có sẵn
+✅ Iapetus     b_sq2b    có sẵn
+✅ Iapetus     b_t4      có sẵn
+✅ Iapetus     b_w1      có sẵn
+✅ Iapetus     b_w2      có sẵn
+✅ Iapetus     b_t5      có sẵn
+✅ Iapetus     b_r1      có sẵn
+✅ Iapetus     b_r2      có sẵn
+✅ Iapetus     b_r2b     có sẵn
+✅ Iapetus     b_sq3     có sẵn
+✅ Iapetus     b_sq3b    có sẵn
 ✅ Iapetus     now1      có sẵn
-✅ Iapetus     b_now1b   4.52s
-✅ Iapetus     b_now2    5.08s
-   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_now3    3.64s
-✅ Iapetus     b_c1      6.32s
-   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_c2      4.28s
-✅ Iapetus     b_c3      3.84s
-   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Iapetus     b_c4      3.24s
+✅ Iapetus     b_now1b   có sẵn
+✅ Iapetus     b_now2    có sẵn
+✅ Iapetus     b_now3    có sẵn
+✅ Iapetus     b_c1      có sẵn
+✅ Iapetus     b_c2      có sẵn
+✅ Iapetus     b_c3      có sẵn
+✅ Iapetus     b_c4      có sẵn
 ✅ Iapetus     check_5   có sẵn
-✅ Iapetus     b_c6      6.80s
-✅ Iapetus     b_outro   6.28s
+✅ Iapetus     b_c6      có sẵn
+✅ Iapetus     b_outro   có sẵn
 Xong: 35 đoạn có giọng, 0 lỗi.

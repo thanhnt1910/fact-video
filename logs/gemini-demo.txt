@@ -1,35 +1,41 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Không khí có nặng không, và nếu có thì nặng bao nh
-OK Leda 02: Nhưng ta chẳng thể bỏ cả bầu trời lên bàn cân.
-OK Leda 03: Hóa ra chỉ cần một ống thủy tinh và một chậu thủy 
-OK Leda 04: Vậy cái ống ấy cân không khí bằng cách nào?
-OK Leda 05: Trước đó, người ta dựng đứng một ống rất dài, đổ đ
-OK Leda 06: Nước tụt xuống rồi dừng lại ở độ cao khoảng mười m
-OK Leda 07: Vì sao nước dừng ở đó mà không chảy hết ra ngoài?
-OK Leda 08: Nhà khoa học Ý Tô-ri-xe-li cho rằng không khí bên 
-OK Leda 09: Giống một chiếc cân đĩa: một bên là cột không khí,
+OK Leda 01: Vì sao một mét lại dài đúng như vậy, mà không dài 
+OK Leda 02: Nhưng độ dài ấy không do ai tùy tiện chọn.
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 10: Nhưng ống nước cao mười mét thì quá khó dùng, nên 
-OK Leda 11: Thủy ngân nặng gấp khoảng mười ba phẩy sáu lần nướ
-OK Leda 12: Ông đổ đầy thủy ngân vào một ống thủy tinh dài kho
-OK Leda 13: Thủy ngân tụt xuống rồi đứng yên ở độ cao khoảng b
+OK Leda 03: Hóa ra nó được lấy từ chính kích thước của Trái Đấ
+OK Leda 04: Vậy người ta đo cả Trái Đất bằng cách nào?
+OK Leda 05: Ngày xưa ở Pháp, mỗi thị trấn đo dài và cân nặng t
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Bây giờ, ta cân không khí bằng chính cột thủy ngân
-OK Leda 15: Hãy xét một cột thủy ngân có đáy rộng một xen-ti-m
-OK Leda 16: Mỗi xen-ti-mét khối thủy ngân nặng khoảng mười ba 
-OK Leda 17: Cột cao bảy mươi sáu xen-ti-mét, nên nặng bảy mươi
-OK Leda 18: Kết quả là khoảng một ki-lô-gam.
-OK Leda 19: Vậy trên mỗi xen-ti-mét vuông, không khí đè nặng n
+OK Leda 06: Người ta ước tính có tới khoảng một phần tư triệu 
+OK Leda 07: Vì vậy, các nhà khoa học muốn một thước đo chung, 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 20: Ngày nay, các nhà khoa học đo được khoảng một phẩy
-OK Leda 21: Thử lại bằng nước: nước nhẹ hơn thủy ngân nhiều, n
-OK Leda 22: Bảy mươi sáu xen-ti-mét nhân mười ba phẩy sáu, ra 
-OK Leda 23: Đúng bằng cột nước mười mét mà người ta đã thấy tr
+OK Leda 08: Họ quyết định một mét bằng một phần mười triệu quã
+OK Leda 09: Quãng đường ấy đi dọc một đường kinh tuyến, tức đư
+OK Leda 10: Nhưng không ai có thể đi bộ từ Bắc Cực tới xích đạ
+OK Leda 11: Nên họ chỉ đo một đoạn ngắn hơn, từ thành phố Đăng
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 24: Nếu không khí có trọng lượng, thì lên cao sẽ còn í
-OK Leda 25: Năm một nghìn sáu trăm bốn mươi tám, Pát-xcan nhờ 
-OK Leda 26: Càng lên cao, cột thủy ngân càng thấp xuống, đúng 
-OK Leda 27: Gần mặt đất, cứ lên cao một trăm mét thì sức ép kh
-OK Leda 28: Một mét vuông, cỡ mặt bàn ăn, có mười nghìn xen-ti
-OK Leda 29: Ta không bị đè bẹp vì không khí ép đều từ mọi phía
-OK Leda 30: Vậy không khí nặng khoảng một ki-lô-gam trên mỗi x
+OK Leda 12: Hai nhà thiên văn Đơ-lăm-bơ và Mê-sanh đo đoạn này
+OK Leda 13: Họ không kéo thước dọc một nghìn ki-lô-mét, mà dùn
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 14: Đầu tiên, họ đo thật kỹ một đoạn thẳng dài hơn mườ
+OK Leda 15: Rồi từ hai đầu đoạn ấy, họ đo góc nhìn tới một ngọ
+OK Leda 16: Biết một cạnh và hai góc, ta tính được hai cạnh cò
+OK Leda 17: Như bên bờ sông: đo một đoạn dọc bờ và hai góc nhì
+OK Leda 18: Cứ thế, họ nối nhiều tam giác thành một chuỗi, từ 
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Cả chuỗi dài khoảng một nghìn ki-lô-mét, bằng khoả
+OK Leda 20: Vậy cả quãng từ cực tới xích đạo là một nghìn nhân
+OK Leda 21: Ra khoảng mười nghìn ki-lô-mét.
+OK Leda 22: Mười nghìn ki-lô-mét bằng mười triệu mét.
+OK Leda 23: Chia quãng ấy thành mười triệu phần, mỗi phần dài 
+OK Leda 24: Năm một nghìn bảy trăm chín mươi chín, độ dài ấy đ
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 25: Nhân bốn quãng từ cực tới xích đạo, ta được một vò
+OK Leda 26: Mười nghìn nhân bốn, ra bốn mươi nghìn ki-lô-mét.
+OK Leda 27: Ngày nay, vòng ấy được đo là khoảng bốn mươi nghìn
+OK Leda 28: Nghĩa là thanh mét đầu tiên ngắn hơn định nghĩa kh
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 29: Chỉ bằng độ dày của hai tờ giấy, do những sai số n
+OK Leda 30: Người ta vẫn giữ nguyên độ dài ấy, và mọi định ngh
+OK Leda 31: Năm một nghìn chín trăm tám mươi ba, mét được định
+OK Leda 32: Vậy một mét dài như thế vì nó là một phần mười tri

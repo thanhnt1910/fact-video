@@ -1,2 +1,2 @@
-qtg/loi_doc.json Leda qtg1
-# 14/11: kiểm song song 10 máy, so theo âm (đổi chữ số thành chữ)
+demo/loi_doc.json Leda demo1442
+# 15/11: đoạn demo 3D sĩ tử khoa thi năm 1442

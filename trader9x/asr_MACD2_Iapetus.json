@@ -1,0 +1,212 @@
+[
+ {
+  "id": "intro_1",
+  "khop": 1.0,
+  "kich_ban": "MACD. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.",
+  "nghe": "MACD, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đồ vàng."
+ },
+ {
+  "id": "card1_1",
+  "khop": 1.0,
+  "kich_ban": "Phần một. Định nghĩa.",
+  "nghe": "Phần một, định nghĩa."
+ },
+ {
+  "id": "p1_1",
+  "khop": 0.872,
+  "kich_ban": "MACD là viết tắt của Moving Average Convergence Divergence, do Gerald Appel phát triển vào cuối thập niên bảy mươi.",
+  "nghe": "MACD là viết tắt của Moving Average Convergence Divergence do Jerome Appel phát triển vào cuối thập niên 70."
+ },
+ {
+  "id": "p1_2",
+  "khop": 1.0,
+  "kich_ban": "Đây là chỉ báo động lượng theo xu hướng. Nó cho biết xu hướng đang mạnh lên, hay đang yếu đi.",
+  "nghe": "Đây là chỉ báo động lượng theo xu hướng. Nó cho biết xu hướng đang mạnh lên hay đang yếu đi."
+ },
+ {
+  "id": "p1_3",
+  "khop": 0.774,
+  "kich_ban": "Cách tính rất đơn giản, lấy đường EMA mười hai trừ đi đường EMA hai mươi sáu.",
+  "nghe": "Cách tính rất đơn giản, lấy đường EMA-12, trừ đi đường EMA-26."
+ },
+ {
+  "id": "p1_4",
+  "khop": 1.0,
+  "kich_ban": "Hai đường càng tách xa nhau, động lượng càng mạnh.",
+  "nghe": "Hai đường càng tách xa nhau, động lượng càng mạnh."
+ },
+ {
+  "id": "card2n",
+  "khop": 0.818,
+  "kich_ban": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.",
+  "nghe": "Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng"
+ },
+ {
+  "id": "p2_1",
+  "khop": 0.791,
+  "kich_ban": "Thứ nhất là đường MACD, hiệu số giữa EMA mười hai và EMA hai mươi sáu. Đây là đường chính, phản ánh động lượng.",
+  "nghe": "Thứ nhất là đường MACD, hiệu số giữa EMA12 và EMA26, đây là đường chính, phản ánh động lượng."
+ },
+ {
+  "id": "p2_2",
+  "khop": 0.766,
+  "kich_ban": "Thứ hai là đường Signal, tức đường EMA chín của chính đường MACD. Bộ thông số chuẩn là mười hai, hai mươi sáu và chín.",
+  "nghe": "Thứ hai là đường Signal, tức đường EMA-9 của chính đường MACD. Bộ thông số chuẩn là 12, 26 và 9."
+ },
+ {
+  "id": "p2_3",
+  "khop": 0.8,
+  "kich_ban": "Thứ ba là Histogram, bằng MACD trừ Signal. Cột xanh khi MACD nằm trên Signal, cột đỏ khi nằm dưới.",
+  "nghe": "Thứ 3 là Histogram bằng MACD chứ Signal. Cuột xanh khi MACD nằm trên Signal, cuột đỏ khi nằm dưới."
+ },
+ {
+  "id": "p2_4",
+  "khop": 0.9,
+  "kich_ban": "Cột co lại, nghĩa là động lượng đang yếu dần.",
+  "nghe": "Cột co lại nghĩa là động lượng đáng yếu dần."
+ },
+ {
+  "id": "h_app",
+  "khop": 0.667,
+  "kich_ban": "Như ở đây, cột histogram xanh đang co lại. Đà tăng của ngày hai mươi bảy và hai mươi tám tháng mười đang yếu dần.",
+  "nghe": "Nhờ đây, cột histogram xanh đang co lại. Đá tăng của ngày 27 và 28 tháng 10 đang yếu dần."
+ },
+ {
+  "id": "t4",
+  "khop": 1.0,
+  "kich_ban": "Thứ tư là giao cắt. MACD cắt lên Signal là tín hiệu tăng, cắt xuống Signal là tín hiệu giảm.",
+  "nghe": "Thứ tư là giao cắt. MACD cắt lên signal là tín hiệu tăng, cắt xuống signal là tín hiệu giảm."
+ },
+ {
+  "id": "x_dn",
+  "khop": 0.612,
+  "kich_ban": "Ngày hai mươi chín tháng mười, MACD cắt xuống Signal. Hôm sau, vàng rơi mạnh từ hơn bốn nghìn đô xuống ba nghìn tám trăm bảy mươi mốt.",
+  "nghe": "Ngày 29 tháng 10, MACD cắt xuống Signal. Hôm sau, vàng rơi mạnh từ hơn 4.000 đô xuống 3.871."
+ },
+ {
+  "id": "x_up",
+  "khop": 0.683,
+  "kich_ban": "Ngày hai tháng mười một, MACD cắt lên Signal khi giá quanh ba nghìn chín trăm bảy mươi. Động lượng chuyển sang tăng.",
+  "nghe": "Ngày 2 tháng 11, MACD cắt lên Signal khi giá quanh 3.970, động lượng chuyển sang tăng."
+ },
+ {
+  "id": "p3a_3",
+  "khop": 0.844,
+  "kich_ban": "Ví dụ, vào lệnh khi nến xác nhận đóng cửa, và đặt cắt lỗ dưới đáy gần nhất, khoảng ba nghìn tám trăm sáu mươi.",
+  "nghe": "Ví dụ, vào lệnh khi nến xác nhận đóng cửa và đặt cắt lỗ dưới đáy gần nhất, khoảng 3860."
+ },
+ {
+  "id": "t5",
+  "khop": 0.95,
+  "kich_ban": "Thứ năm là đường không. MACD nằm trên đường không là thiên hướng tăng, nằm dưới là thiên hướng giảm.",
+  "nghe": "Thứ 5 là đường không, MACD nằm trên đường không là thiên hướng tăng, nằm dưới là thiên hướng giảm."
+ },
+ {
+  "id": "zero_up",
+  "khop": 0.68,
+  "kich_ban": "Ngày bốn tháng mười một, MACD vượt lên trên đường không, xác nhận xu hướng tăng. Hôm sau vàng chạm bốn nghìn một trăm bốn mươi bảy đô.",
+  "nghe": "Ngày 4 tháng 11, MACD vượt lên trên đường không, xác nhận xu hứng tăng. Hôm sau, vàng chạm 4.147 đô."
+ },
+ {
+  "id": "p2_7",
+  "khop": 0.923,
+  "kich_ban": "Thứ sáu là phân kỳ, khi giá và MACD đi ngược chiều nhau.",
+  "nghe": "Thứ 6 là phân kỳ, khi giá và MACD đi ngược chiều nhau."
+ },
+ {
+  "id": "p2_8",
+  "khop": 1.0,
+  "kich_ban": "Giá lập đỉnh cao hơn nhưng MACD lại có đỉnh thấp hơn, cho thấy động lượng đang suy yếu.",
+  "nghe": "Giá lập đỉnh cao hơn nhưng MACD lại có đỉnh thấp hơn cho thấy động lượng đang suy yếu."
+ },
+ {
+  "id": "div1",
+  "khop": 0.372,
+  "kich_ban": "Ngày năm tháng mười một, vàng lên bốn nghìn một trăm bốn mươi bảy. Ngày mười, giá lập đỉnh mới bốn nghìn một trăm bốn mươi chín.",
+  "nghe": "ngày 5 tháng 11 vàng lên 4.147, ngày 10 giá lập định mới 4.149."
+ },
+ {
+  "id": "div2",
+  "khop": 0.938,
+  "kich_ban": "Nhưng MACD lại có đỉnh thấp hơn. Đó là phân kỳ giảm, lực mua đã cạn.",
+  "nghe": "nhưng MACD lại có đỉnh thấp hơn, đó là phân kỳ giảm, lực mùa đã cạn."
+ },
+ {
+  "id": "div3",
+  "khop": 0.828,
+  "kich_ban": "Cùng ngày mười, MACD cắt xuống Signal, rồi thủng đường không vào ngày mười một.",
+  "nghe": "Cùng ngày 10, MACD cắt xuống Signal rồi thủng đường không vào ngày 11."
+ },
+ {
+  "id": "div4",
+  "khop": 0.556,
+  "kich_ban": "Đến ngày mười hai, vàng rơi xuống ba nghìn tám trăm năm mươi ba. Cảnh báo của phân kỳ đã đúng.",
+  "nghe": "Đến ngày 12, vàng rơi xuống 3.853, cảnh báo của phần kỷ đã đúng."
+ },
+ {
+  "id": "now1",
+  "khop": 0.545,
+  "kich_ban": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.",
+  "nghe": "Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô."
+ },
+ {
+  "id": "p3c_2",
+  "khop": 1.0,
+  "kich_ban": "MACD vẫn nằm dưới đường không, nên xu hướng ngắn hạn vẫn nghiêng về giảm.",
+  "nghe": "MACD vẫn nằm dưới đường không, nên xu hướng ngắn hạn vẫn nghiêng về giảm."
+ },
+ {
+  "id": "p3c_3",
+  "khop": 0.882,
+  "kich_ban": "Nhưng histogram đang co dần về không, và MACD bám sát Signal. Đà giảm đang chậm lại.",
+  "nghe": "Nhưng histogram đang co dần về 0 và MACD bám sát signal đã giảm đang chậm lại."
+ },
+ {
+  "id": "p3c_4",
+  "khop": 1.0,
+  "kich_ban": "Hãy chờ tín hiệu xác nhận, đừng đoán đáy.",
+  "nghe": "Hãy chờ tín hiệu xác nhận, đừng đoán đáy."
+ },
+ {
+  "id": "check_1",
+  "khop": 0.824,
+  "kich_ban": "Năm nguyên tắc khi dùng MACD. Một, giao cắt thuận xu hướng lớn thì đáng tin hơn.",
+  "nghe": "5 nguyên tác khi dùng MACD 1. Giao cắt thuận xu hướng lớn thì đáng tin hơn"
+ },
+ {
+  "id": "check_2",
+  "khop": 0.933,
+  "kich_ban": "Hai, cắt lên dưới đường không, hay cắt xuống trên đường không, thường mạnh hơn.",
+  "nghe": "2. Cắt lên dưới đường không hay cắt xuống trên đường không thường mạnh hơn"
+ },
+ {
+  "id": "check_3",
+  "khop": 0.917,
+  "kich_ban": "Ba, phân kỳ chỉ là cảnh báo, hãy chờ giá xác nhận.",
+  "nghe": "3. Phân kỳ chỉ là cảnh báo, hãy chờ giá xác nhận."
+ },
+ {
+  "id": "check_4",
+  "khop": 0.733,
+  "kich_ban": "Bốn, MACD là chỉ báo trễ, nên kết hợp với hỗ trợ và kháng cự.",
+  "nghe": "4. MACD là chỉ bao trễ nên kết hợp với hỗ trợ và khẳng cựng."
+ },
+ {
+  "id": "check_5",
+  "khop": 0.917,
+  "kich_ban": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.",
+  "nghe": "5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss"
+ },
+ {
+  "id": "check_6",
+  "khop": 0.884,
+  "kich_ban": "Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng MACD như một bộ lọc, không phải nút bấm mua bán.",
+  "nghe": "Không có chỉ báo nào đúng 100%, hãy dùng MACD như một bộ lọc, không phải nút bấm mua bán."
+ },
+ {
+  "id": "outro_1",
+  "khop": 0.842,
+  "kich_ban": "Tập sau là RSI, quá mua, quá bán và phân kỳ. Theo dõi Trader chín X để không bỏ lỡ.",
+  "nghe": "Tập sau là RSI, quá mua, quá bán và phân kỷ. Theo dõi Tradergynix để không bỏ lỡ."
+ }
+]

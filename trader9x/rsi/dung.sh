@@ -2,7 +2,7 @@
 # Dựng video từ giọng đã chốt. Chạy trong thư mục chứa render.py:
 #   bash dung.sh <thư mục wav giọng> <tên file ra.mp4>
 # Ví dụ: bash dung.sh ../../assets/trader9x/MACD2/Iapetus Trader9x_MACD_XAUUSD_giong-nam.mp4
-set -euo pipefail
+set -eo pipefail
 V=$1; OUT=$2
 T=$(python3 voice_tl.py "$V" info | awk '/tổng/{print $2}')
 python3 voice_tl.py "$V" audio                      # voice.wav + voice_times.json

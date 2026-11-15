@@ -1,0 +1,158 @@
+[
+ {
+  "id": "h1",
+  "khop": 0.808,
+  "kich_ban": "Cuối tháng Một, người ta xếp hàng từ sáng sớm để mua vàng. Vàng miếng lên một trăm chín mươi mốt triệu một lượng, cao nhất lịch sử.",
+  "nghe": "Cuối tháng 1, người ta xếp hàng tư sáng sớm để mua vàng, vàng miếng lên 191 triệu một lượng, cao nhất lịch sử."
+ },
+ {
+  "id": "h2",
+  "khop": 0.727,
+  "kich_ban": "Giờ tiệm vàng chỉ mua lại một trăm ba mươi lăm triệu. Ai mua đúng đỉnh đang lỗ hơn năm mươi lăm triệu mỗi lượng.",
+  "nghe": "Giờ tiệm vàng chỉ mua lại 135 triệu, ai mua đúng đỉnh đáng lỗ hơn 55 triệu mỗi lượng."
+ },
+ {
+  "id": "h3",
+  "khop": 0.941,
+  "kich_ban": "Lạ hơn, vàng Việt Nam vẫn đắt hơn thế giới khoảng mười sáu triệu một lượng. Tiền đó từ đâu ra, và có nên bắt đáy?",
+  "nghe": "Lạ hơn, vàng Việt Nam vẫn đắt hơn thế giới khoảng 16 triệu một lượng. Tiền đó từ đâu ra và có nên bắt đáy."
+ },
+ {
+  "id": "d1",
+  "khop": 0.962,
+  "kich_ban": "Trong một năm tính tới cuối tháng Một, vàng thế giới gần như tăng gấp đôi. Ai chưa có vàng đều sợ mình bị bỏ lại.",
+  "nghe": "Trong một năm, tính tới cuối tháng 1, vàng thế giới gần như tăng gấp đôi. Ai chưa có vàng, đều sợ mình bị bỏ lại."
+ },
+ {
+  "id": "d2",
+  "khop": 0.612,
+  "kich_ban": "Ngày hai mươi chín tháng Một, vàng lập đỉnh năm nghìn năm trăm chín mươi tư đô một ounce. Hôm sau rơi gần mười phần trăm trong một phiên.",
+  "nghe": "Ngày 29 tháng 1, vàng lập đỉnh 5.594 đô một ounce, hôm sau rơi gần 10% trong một phiên."
+ },
+ {
+  "id": "d3",
+  "khop": 0.75,
+  "kich_ban": "Đó là cú giảm trong một ngày mạnh nhất kể từ năm một nghìn chín trăm tám mươi ba.",
+  "nghe": "Đó là cú giảm trong một ngày mạnh nhất kể từ năm 1983."
+ },
+ {
+  "id": "d4",
+  "khop": 0.84,
+  "kich_ban": "Vậy mà ở Việt Nam, người ta còn xếp hàng dài hơn. Ngày vía Thần Tài, có người xếp hàng từ hai, ba giờ sáng.",
+  "nghe": "Vậy mà ở Việt Nam, người ta còn xếp hàng dài hơn. Ngày viết thân tài, có người xếp hàng từ 2-3 giờ sáng."
+ },
+ {
+  "id": "d5",
+  "khop": 0.595,
+  "kich_ban": "Giờ vàng thế giới chỉ còn quanh ba nghìn chín trăm đô, mất khoảng ba mươi phần trăm so với đỉnh.",
+  "nghe": "Giao vàng thế giới chỉ còn quanh 3.900 đô, mất khoảng 30% so với đình."
+ },
+ {
+  "id": "l1",
+  "khop": 1.0,
+  "kich_ban": "Vàng an toàn, nhưng an toàn không có nghĩa là không sập.",
+  "nghe": "vàng an toàn, nhưng an toàn không có nghĩa là không sập."
+ },
+ {
+  "id": "l2",
+  "khop": 0.612,
+  "kich_ban": "Năm một nghìn chín trăm tám mươi, vàng lập đỉnh tám trăm năm mươi đô rồi rơi suốt hai thập kỷ. Người mua đỉnh chờ hơn hai mươi năm.",
+  "nghe": "Năm 1980, vang lập đỉnh 850 đô rồi rơi suốt hai thập kỷ, người một đỉnh chờ hơn 20 năm."
+ },
+ {
+  "id": "l3",
+  "khop": 0.571,
+  "kich_ban": "Năm hai nghìn không trăm mười một, vàng miếng lên bốn mươi chín triệu, rồi nằm quanh ba mươi lăm triệu suốt gần chín năm.",
+  "nghe": "Năm 2011, vàng miếng lên 4.9 triệu, rồi nằm quanh 35 triệu suốt gần 9 năm."
+ },
+ {
+  "id": "l4",
+  "khop": 1.0,
+  "kich_ban": "Lần nào trước khi sập, vàng cũng tăng quá nóng, và ai cũng tin nó còn tăng mãi.",
+  "nghe": "Lần nào trước khi sập, vàng cũng tăng quá nóng và ai cũng tin nó còn tăng mãi."
+ },
+ {
+  "id": "l5",
+  "khop": 1.0,
+  "kich_ban": "Khác biệt lần này là các ngân hàng trung ương vẫn mua vàng rất mạnh. Nên không ai dám chắc lịch sử sẽ lặp lại.",
+  "nghe": "Khác biệt lần này là các ngân hàng Trung ương vẫn mua vàng rất mạnh nên không ai dám chắc lịch sử sẽ lặp lại."
+ },
+ {
+  "id": "c1",
+  "khop": 0.839,
+  "kich_ban": "Nhưng với người Việt, còn một rủi ro riêng. Đó là khoảng chênh mười sáu triệu.",
+  "nghe": "Nhưng với người Việt còn một rủi gió riêng, đó là khoảng chênh 16 triệu."
+ },
+ {
+  "id": "c2",
+  "khop": 0.844,
+  "kich_ban": "Từ năm hai nghìn không trăm mười hai, Nhà nước độc quyền sản xuất vàng miếng, nên nguồn cung bị hạn chế suốt nhiều năm.",
+  "nghe": "Từ năm 2012, nhà nước độc quyền sản xuất vàng miếng nên nguồn cung bị hạn chế suốt nhiều năm."
+ },
+ {
+  "id": "c3",
+  "khop": 0.958,
+  "kich_ban": "Độc quyền đã bỏ từ tháng Mười năm ngoái. Nhưng nhập khẩu vẫn cần hạn mức và giấy phép, nên hàng chưa về nhiều.",
+  "nghe": "Độc quyền đã bỏ từ tháng 10 năm ngoái, nhưng nhập khẩu vẫn cần hạn mức và giấy phép nên hàng chưa về nhiều."
+ },
+ {
+  "id": "c4",
+  "khop": 0.746,
+  "kich_ban": "Năm nay khoảng chênh có lúc gần ba mươi triệu, có lúc chỉ hơn một triệu. Người mua đang cược cả vào một khoảng chênh lên xuống như tàu lượn.",
+  "nghe": "Năm này, khoảng tranh có lúc gần 30 triệu, có lúc chỉ hơn 1 triệu. Người mua đáng cực cả vào một khoảng tranh lên xuống như tàu lượn."
+ },
+ {
+  "id": "c5",
+  "khop": 0.83,
+  "kich_ban": "Khoảng chênh đó gồm nguồn cung hạn chế, chênh mua bán ba đến bốn triệu, chi phí thuế và vận chuyển, cộng với tâm lý đám đông.",
+  "nghe": "khoảng tranh đó gồm nguồn cung hạn chế, tranh mua bán 3-4 triệu, chi phí thuế và vận chuyển, cộng với tâm lý đám đông."
+ },
+ {
+  "id": "p1",
+  "khop": 0.944,
+  "kich_ban": "Phe thứ nhất nói, tiền giấy năm nào cũng mất giá, còn vàng sập rồi cũng lên lại.",
+  "nghe": "Phe Thứ Nhân nói, tiền giấy năm nào cũng mất giá, còn vàng, sập rồi cũng lên lại."
+ },
+ {
+  "id": "p2",
+  "khop": 0.898,
+  "kich_ban": "Phe thứ hai nói, mua lúc này là chấp nhận lỗ ngay từ đầu, vì phải trả thêm mười sáu triệu so với thế giới.",
+  "nghe": "Phe thứ hai nói mùa lúc này là chấp nhận lỗ ngay từ đầu vì phải trả thêm 16 triệu so với thế giới."
+ },
+ {
+  "id": "k1",
+  "khop": 1.0,
+  "kich_ban": "Câu hỏi đúng hơn là, nếu đây chưa phải đáy, bạn chờ được bao lâu?",
+  "nghe": "Câu hỏi đúng hơn là nếu đây chưa phải đáy, bạn chờ được bao lâu?"
+ },
+ {
+  "id": "k2",
+  "khop": 1.0,
+  "kich_ban": "Người cẩn thận chỉ dùng một phần nhỏ tài sản, không vay để mua, và chia nhỏ ra mua nhiều lần.",
+  "nghe": "Người cẩn thận chỉ dùng một phần nhỏ tài sản, không vay để mua và chia nhỏ ra mua nhiều lần."
+ },
+ {
+  "id": "k3",
+  "khop": 0.95,
+  "kich_ban": "Hãy coi khoảng chênh như đèn giao thông. Chênh thấp thì dễ thở, chênh cao thì đứng lại, đừng chen.",
+  "nghe": "Hãy coi khoảng chênh như đèn giao thông, chênh thấp thì dễ thở, chênh cao thì đứng lại, đứng chen."
+ },
+ {
+  "id": "k4",
+  "khop": 1.0,
+  "kich_ban": "Đừng dùng tiền học, tiền chữa bệnh hay tiền cưới. Mua ở nơi được cấp phép và lấy hóa đơn.",
+  "nghe": "Đừng dùng tiền học, tiền chữa bệnh hay tiền cưới, mua ở nơi được cấp phép và lấy hóa đơn."
+ },
+ {
+  "id": "k5",
+  "khop": 0.885,
+  "kich_ban": "Vàng vẫn có thể là của để dành tốt. Nhưng không hiểu khoảng chênh và chu kỳ, bạn rất dễ thành người mua đỉnh tiếp theo.",
+  "nghe": "Vàng vẫn có thể là của để danh tốt, nhưng không hiểu khoảng tranh và chu kỳ, bạn rất dễ thành người mua đình tiếp theo."
+ },
+ {
+  "id": "k6",
+  "khop": 0.882,
+  "kich_ban": "Đây không phải khuyến nghị đầu tư. Bạn đang ở phe nào, để lại bình luận nhé.",
+  "nghe": "Đây không phải khuyến nghị đầu tư. Bạn đăng ở phía nào để lại bình luận nhé!"
+ }
+]

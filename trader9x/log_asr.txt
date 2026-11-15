@@ -1,36 +1,27 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-✅ b_intro   0.94 | Bollinger Bands, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đô vàng.
-✅ card1_1   1.00 | Phần một, định nghĩa.
-✅ b_p1_1    0.88 | Bollinger Bands do John Bollinger phát triển vào đầu thập nghiên 80, dùng để đo mức biến động của giá.
-⚠️ b_p1_2    0.79 | Chỉ báo gồm 3 đường báo quanh giá, các giải tự nở ra khi biến đồng lớn và có lại khi thị trường yên.
-✅ b_p1_3    0.83 | Dài giữa là đường trung bỉnh đơn giản của hai mươi nến.
-✅ b_p1_4    0.83 | Giải trên và giải dưới, cách giải giữa hai lần độ lệch chuẩn của cùng hai mươi nến.
-✅ card2n    0.82 | Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng
-⚠️ b_t1      0.74 | Thứ nhất là giải giữa, tức trung bình giá đóng cửa của 20 nén. Đây là sương sống của trị báo.
-⚠️ b_app1    0.62 | Ngày 27 tháng 10, giá đi trên giải giữa quanh 4.017. Phe mua đang giữ nhịp hồi.
-⚠️ b_t2      0.75 | Cứ hai là giải trên và giải dưới. Biến động lớn thì hai giải nở ra, thị trường yên thì hai giải có lại.
-✅ b_app2    0.82 | Giá đi bên trong 2 giải phần lớn thời gian. Giải hẹp là thị trường yên. Giải rộng là biến động mạnh.
-✅ b_t3      0.96 | Thứ ba là co thắt. Khi độ rộng dài xuống rất thấp, thị trường đang nén lại, thường trước một cú chạy mạnh.
-⚠️ b_sq1     0.47 | Từ ngày 27 đến 30 tháng 10, độ rộng dài chỉ còn khoảng 2,3 đến 2,6%.
-⚠️ b_sq2     0.53 | Ngày 30, giá phá mạnh xuống dưới giải giới vàng sập về 3.871.
-✅ b_sq2b    0.82 | Có thắt không báo trước hướng. Hãy chờ nến phá dài.
-⚠️ b_t4      0.78 | Thứ tư là bám giải. Khi nến liên tục đóng sát hoặc ngoai giải trên hay giải dưới, xu hướng đăng rất mạnh.
-⚠️ b_w1      0.64 | Ngày 4 và 5 tháng 11, nhiều nến đóng cửa trên dải trên, giá bám dải lên 4.147.
-✅ b_w2      1.00 | Đóng ngoài dải trên trong xu hướng mạnh thường là tiếp diễn, chưa phải lệnh bán.
-⚠️ b_t5      0.74 | Thứ 5 là hồi V giải giữa. Trong số hướng tăng, nhịp hồi V giải giữa thường là nơi giá tìm lại lực.
-⚠️ b_r1      0.65 | Ngày 6 tháng 11, giá hồi về giải giữa quanh 4.030 rồi bật lên, giải giữa trở thành hỗ trợ động.
-⚠️ b_r2      0.72 | Ví dụ, vào lệnh khi nến bật lên, đóng cửa trên dài giữa, quanh 4063.
-⚠️ b_r2b     0.58 | đặt cắt lỗ dưới đấy gần nhất, khoảng 4.020.
-⚠️ b_sq3     0.50 | Ngày 9 và 10 tháng 11, giải lại co thắt còn khoảng 3,5%.
-⚠️ b_sq3b    0.70 | Lần này, giá phá xuống. Ngày 12, nến đóng dưới dải dưới và vàng về 3.853.
-⚠️ now1      0.55 | Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô.
-⚠️ b_now1b   0.52 | Giá đang nằm dưới giải giữa quanh 3.943.
-✅ b_now2    0.94 | Các dài đang mở rộng, biến động còn lớn và xu hướng ngắn hạn vẫn nghiêng về giảm.
-✅ b_now3    0.86 | Thấy chờ giá lấy lại giải giữa để xác nhận, đừng vội bắt đáy.
-✅ b_c1      0.94 | Năm nguyên tắc khi dùng Bollinger Bands, một chạm dài không phải lệnh mua hay bán.
-⚠️ b_c2      0.62 | 2. Co thất báo sắp có củ trệ mạnh nhưng không bảo hướng
-✅ b_c3      0.83 | Và trong xu hướng mạnh, giá có thể bám dài rất lâu.
-⚠️ b_c4      0.78 | 4. Kết hợp giải giữa với cấu trúc giá
-✅ check_5   0.92 | 5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss
-✅ b_c6      0.89 | Không có chỉ báo nào đúng 100%, hãy dùng Bollinger Bands như một bộ lọc, không phải nút bấm mua bán.
-✅ b_outro   0.86 | Tập sau là EMA Cross, giao cắt đường trung bình, theo dõi Treader 9X để không bỏ lỡ.
+✅ h1        0.81 | Cuối tháng 1, người ta xếp hàng tư sáng sớm để mua vàng, vàng miếng lên 191 triệu một lượng, cao nhất lịch sử.
+⚠️ h2        0.73 | Giờ tiệm vàng chỉ mua lại 135 triệu, ai mua đúng đỉnh đáng lỗ hơn 55 triệu mỗi lượng.
+✅ h3        0.94 | Lạ hơn, vàng Việt Nam vẫn đắt hơn thế giới khoảng 16 triệu một lượng. Tiền đó từ đâu ra và có nên bắt đáy.
+✅ d1        0.96 | Trong một năm, tính tới cuối tháng 1, vàng thế giới gần như tăng gấp đôi. Ai chưa có vàng, đều sợ mình bị bỏ lại.
+⚠️ d2        0.61 | Ngày 29 tháng 1, vàng lập đỉnh 5.594 đô một ounce, hôm sau rơi gần 10% trong một phiên.
+⚠️ d3        0.75 | Đó là cú giảm trong một ngày mạnh nhất kể từ năm 1983.
+✅ d4        0.84 | Vậy mà ở Việt Nam, người ta còn xếp hàng dài hơn. Ngày viết thân tài, có người xếp hàng từ 2-3 giờ sáng.
+⚠️ d5        0.59 | Giao vàng thế giới chỉ còn quanh 3.900 đô, mất khoảng 30% so với đình.
+✅ l1        1.00 | vàng an toàn, nhưng an toàn không có nghĩa là không sập.
+⚠️ l2        0.61 | Năm 1980, vang lập đỉnh 850 đô rồi rơi suốt hai thập kỷ, người một đỉnh chờ hơn 20 năm.
+⚠️ l3        0.57 | Năm 2011, vàng miếng lên 4.9 triệu, rồi nằm quanh 35 triệu suốt gần 9 năm.
+✅ l4        1.00 | Lần nào trước khi sập, vàng cũng tăng quá nóng và ai cũng tin nó còn tăng mãi.
+✅ l5        1.00 | Khác biệt lần này là các ngân hàng Trung ương vẫn mua vàng rất mạnh nên không ai dám chắc lịch sử sẽ lặp lại.
+✅ c1        0.84 | Nhưng với người Việt còn một rủi gió riêng, đó là khoảng chênh 16 triệu.
+✅ c2        0.84 | Từ năm 2012, nhà nước độc quyền sản xuất vàng miếng nên nguồn cung bị hạn chế suốt nhiều năm.
+✅ c3        0.96 | Độc quyền đã bỏ từ tháng 10 năm ngoái, nhưng nhập khẩu vẫn cần hạn mức và giấy phép nên hàng chưa về nhiều.
+⚠️ c4        0.75 | Năm này, khoảng tranh có lúc gần 30 triệu, có lúc chỉ hơn 1 triệu. Người mua đáng cực cả vào một khoảng tranh lên xuống như tàu lượn.
+✅ c5        0.83 | khoảng tranh đó gồm nguồn cung hạn chế, tranh mua bán 3-4 triệu, chi phí thuế và vận chuyển, cộng với tâm lý đám đông.
+✅ p1        0.94 | Phe Thứ Nhân nói, tiền giấy năm nào cũng mất giá, còn vàng, sập rồi cũng lên lại.
+✅ p2        0.90 | Phe thứ hai nói mùa lúc này là chấp nhận lỗ ngay từ đầu vì phải trả thêm 16 triệu so với thế giới.
+✅ k1        1.00 | Câu hỏi đúng hơn là nếu đây chưa phải đáy, bạn chờ được bao lâu?
+✅ k2        1.00 | Người cẩn thận chỉ dùng một phần nhỏ tài sản, không vay để mua và chia nhỏ ra mua nhiều lần.
+✅ k3        0.95 | Hãy coi khoảng chênh như đèn giao thông, chênh thấp thì dễ thở, chênh cao thì đứng lại, đứng chen.
+✅ k4        1.00 | Đừng dùng tiền học, tiền chữa bệnh hay tiền cưới, mua ở nơi được cấp phép và lấy hóa đơn.
+✅ k5        0.88 | Vàng vẫn có thể là của để danh tốt, nhưng không hiểu khoảng tranh và chu kỳ, bạn rất dễ thành người mua đình tiếp theo.
+✅ k6        0.88 | Đây không phải khuyến nghị đầu tư. Bạn đăng ở phía nào để lại bình luận nhé!

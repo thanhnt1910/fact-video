@@ -1,0 +1,38 @@
+TRADER9X MASTERCLASS – RSI trên XAUUSD (cấu trúc 2 phần) | Lời đọc giọng nam Iapetus, khớp video 3:36
+
+00:00  RSI. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.
+00:07  Phần một. Định nghĩa.
+00:09  RSI là viết tắt của Relative Strength Index, tức chỉ số sức mạnh tương đối, do Welles Wilder giới thiệu năm một nghìn chín trăm bảy mươi tám.
+00:19  RSI đo tốc độ và độ mạnh của các nhịp giá. Nó cho biết phe mua hay phe bán đang chiếm ưu thế.
+00:26  Công thức so sánh trung bình các nến tăng với trung bình các nến giảm trong mười bốn nến.
+00:31  Kết quả được quy về thang từ không đến một trăm.
+00:35  Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.
+00:39  Thứ nhất là đường RSI. Đường này dao động từ không đến một trăm, đo sức mạnh nhịp tăng so với nhịp giảm.
+00:46  Từ ngày hai mươi sáu đến hai mươi tám tháng mười, vàng hồi lên, và đường RSI cũng leo dần lên quanh năm mươi lăm.
+00:54  Thứ hai là vùng quá bán, khi RSI xuống dưới ba mươi. Giá đã giảm quá nhanh, lực bán có thể sắp cạn.
+01:02  Ngày ba mươi tháng mười, vàng sập về ba nghìn tám trăm bảy mươi mốt, và RSI rơi xuống hai mươi hai.
+01:09  Ngày hai tháng mười một, RSI vượt lại lên trên ba mươi quanh ba nghìn chín trăm linh ba. Lực mua đã quay lại.
+01:18  Ví dụ, vào lệnh khi nến xác nhận đóng cửa, và đặt cắt lỗ dưới đáy gần nhất, khoảng ba nghìn tám trăm sáu mươi.
+01:25  Thứ ba là đường năm mươi. RSI trên năm mươi là phe mua chiếm ưu thế, dưới năm mươi là phe bán chiếm ưu thế.
+01:34  Ngày bốn tháng mười một, RSI vượt lên trên năm mươi quanh ba nghìn chín trăm bảy mươi mốt, xác nhận xu hướng tăng.
+01:42  Thứ tư là vùng quá mua, khi RSI lên trên bảy mươi. Giá đã tăng quá nhanh, thị trường đang nóng.
+01:50  Ngày năm tháng mười một, vàng lên bốn nghìn một trăm bốn mươi bảy, và RSI vọt lên bảy mươi ba.
+01:57  Nhưng quá mua không phải lệnh bán ngay. Xu hướng mạnh có thể giữ RSI trên bảy mươi khá lâu, hãy chờ xác nhận.
+02:05  Thứ năm là phân kỳ, khi giá và RSI đi ngược chiều nhau. Giá lập đỉnh cao hơn, nhưng RSI lại có đỉnh thấp hơn.
+02:13  Ngày mười tháng mười một, giá lập đỉnh mới bốn nghìn một trăm bốn mươi chín, cao hơn đỉnh ngày năm.
+02:20  Nhưng RSI chỉ lên sáu mươi lăm, thấp hơn mức bảy mươi ba. Đó là phân kỳ giảm.
+02:26  Cùng ngày mười, RSI thủng đường năm mươi. Đến ngày mười hai, vàng rơi về ba nghìn tám trăm năm mươi ba.
+02:33  Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.
+02:39  RSI hiện ở khoảng ba mươi lăm.
+02:42  RSI đã rời vùng quá bán, nhưng vẫn nằm dưới năm mươi. Phe bán vẫn đang chiếm ưu thế.
+02:49  Hãy chờ RSI vượt lại năm mươi để xác nhận. Đừng bắt đáy chỉ vì RSI từng xuống dưới ba mươi.
+02:57  Năm nguyên tắc khi dùng RSI. Một, quá mua và quá bán chỉ là cảnh báo, không phải lệnh.
+03:04  Hai, ưu tiên tín hiệu thuận theo xu hướng lớn.
+03:08  Ba, đường năm mươi giúp xác nhận xu hướng.
+03:12  Bốn, phân kỳ cần cấu trúc giá xác nhận.
+03:16  Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.
+03:21  Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng RSI như một bộ lọc, không phải nút bấm mua bán.
+03:29  Tập sau là Bollinger Bands, công cụ đo biến động. Theo dõi Trader chín X để không bỏ lỡ.
+
+Nguồn giá: MetalCharts XAU/USD daily, 26/10–13/11/2026 (chỉ ngày giao dịch). Phiên 13/11 đóng cửa 3.875,68 USD/oz.
+RSI 14 tính theo cách làm mượt của Wilder trên nến H4 dựng lại từ giá mở/cao/thấp/đóng từng ngày (hình dạng trong ngày là gần đúng).

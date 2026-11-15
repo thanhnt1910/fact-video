@@ -1,0 +1,40 @@
+TRADER9X MASTERCLASS – Bollinger Bands trên XAUUSD (cấu trúc 2 phần) | Lời đọc giọng nam Iapetus, khớp video 3:36
+
+00:00  Bollinger Bands. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.
+00:06  Phần một. Định nghĩa.
+00:09  Bollinger Bands do John Bollinger phát triển vào đầu thập niên tám mươi, dùng để đo mức biến động của giá.
+00:15  Chỉ báo gồm ba đường bao quanh giá. Các dải tự nở ra khi biến động lớn, và co lại khi thị trường yên.
+00:23  Dải giữa là đường trung bình đơn giản của hai mươi nến.
+00:26  Dải trên và dải dưới cách dải giữa hai lần độ lệch chuẩn của cùng hai mươi nến.
+00:32  Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.
+00:36  Thứ nhất là dải giữa, tức trung bình giá đóng cửa của hai mươi nến. Đây là xương sống của chỉ báo.
+00:44  Ngày hai mươi bảy tháng mười, giá đi trên dải giữa quanh bốn nghìn không trăm mười bảy. Phe mua đang giữ nhịp hồi.
+00:51  Thứ hai là dải trên và dải dưới. Biến động lớn thì hai dải nở ra, thị trường yên thì hai dải co lại.
+01:00  Giá đi bên trong hai dải phần lớn thời gian. Dải hẹp là thị trường yên, dải rộng là biến động mạnh.
+01:07  Thứ ba là co thắt. Khi độ rộng dải xuống rất thấp, thị trường đang nén lại, thường trước một cú chạy mạnh.
+01:15  Từ ngày hai mươi bảy đến ba mươi tháng mười, độ rộng dải chỉ còn khoảng hai phẩy ba đến hai phẩy sáu phần trăm.
+01:22  Ngày ba mươi, giá phá mạnh xuống dưới dải dưới, vàng sập về ba nghìn tám trăm bảy mươi mốt.
+01:28  Co thắt không báo trước hướng, hãy chờ nến phá dải.
+01:32  Thứ tư là bám dải. Khi nến liên tục đóng sát hoặc ngoài dải trên hay dải dưới, xu hướng đang rất mạnh.
+01:40  Ngày bốn và năm tháng mười một, nhiều nến đóng cửa trên dải trên, giá bám dải lên bốn nghìn một trăm bốn mươi bảy.
+01:48  Đóng ngoài dải trên trong xu hướng mạnh thường là tiếp diễn, chưa phải lệnh bán.
+01:54  Thứ năm là hồi về dải giữa. Trong xu hướng tăng, nhịp hồi về dải giữa thường là nơi giá tìm lại lực.
+02:01  Ngày sáu tháng mười một, giá hồi về dải giữa quanh bốn nghìn không trăm ba mươi, rồi bật lên. Dải giữa trở thành hỗ trợ động.
+02:09  Ví dụ, vào lệnh khi nến bật lên đóng cửa trên dải giữa, quanh bốn nghìn không trăm sáu mươi ba.
+02:16  Đặt cắt lỗ dưới đáy gần nhất, khoảng bốn nghìn không trăm hai mươi.
+02:21  Ngày chín và mười tháng mười một, dải lại co thắt, còn khoảng ba phẩy năm phần trăm.
+02:26  Lần này giá phá xuống. Ngày mười hai, nến đóng dưới dải dưới và vàng về ba nghìn tám trăm năm mươi ba.
+02:34  Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.
+02:39  Giá đang nằm dưới dải giữa, quanh ba nghìn chín trăm bốn mươi ba.
+02:44  Các dải đang mở rộng, biến động còn lớn, và xu hướng ngắn hạn vẫn nghiêng về giảm.
+02:50  Hãy chờ giá lấy lại dải giữa để xác nhận, đừng vội bắt đáy.
+02:57  Năm nguyên tắc khi dùng Bollinger Bands. Một, chạm dải không phải lệnh mua hay bán.
+03:03  Hai, co thắt báo sắp có cú chạy mạnh, nhưng không báo hướng.
+03:08  Ba, trong xu hướng mạnh, giá có thể bám dải rất lâu.
+03:12  Bốn, kết hợp dải giữa với cấu trúc giá.
+03:16  Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.
+03:21  Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng Bollinger Bands như một bộ lọc, không phải nút bấm mua bán.
+03:29  Tập sau là EMA cross, giao cắt đường trung bình. Theo dõi Trader chín X để không bỏ lỡ.
+
+Nguồn giá: MetalCharts XAU/USD daily, 26/10–13/11/2026 (chỉ ngày giao dịch). Phiên 13/11 đóng cửa 3.875,68 USD/oz.
+Bollinger Bands (20, 2): SMA 20 ± 2 độ lệch chuẩn (dạng tổng thể) trên nến H4 dựng lại từ giá mở/cao/thấp/đóng từng ngày; độ rộng dải = (dải trên − dải dưới) / dải giữa.

@@ -1,0 +1,132 @@
+{
+ "beats": [
+  {
+   "say": "Vì sao một mét lại dài đúng như vậy, mà không dài hơn hay ngắn hơn?",
+   "text": "Vì sao *một mét* lại dài *đúng như vậy*, mà không dài hơn hay ngắn hơn?"
+  },
+  {
+   "say": "Nhưng độ dài ấy không do ai tùy tiện chọn.",
+   "text": "Nhưng độ dài ấy *không do ai tùy tiện chọn*."
+  },
+  {
+   "say": "Hóa ra nó được lấy từ chính kích thước của Trái Đất.",
+   "text": "Hóa ra nó được lấy từ chính *kích thước của Trái Đất*."
+  },
+  {
+   "say": "Vậy người ta đo cả Trái Đất bằng cách nào?",
+   "text": "Vậy người ta *đo cả Trái Đất* bằng cách nào?"
+  },
+  {
+   "say": "Ngày xưa ở Pháp, mỗi thị trấn đo dài và cân nặng theo một kiểu khác nhau.",
+   "text": "Ngày xưa ở Pháp, *mỗi thị trấn* đo dài và cân nặng *một kiểu khác nhau*."
+  },
+  {
+   "say": "Người ta ước tính có tới khoảng một phần tư triệu đơn vị đo khác nhau đang được dùng.",
+   "text": "Ước tính có tới *khoảng 250 000 đơn vị đo* khác nhau đang được dùng."
+  },
+  {
+   "say": "Vì vậy, các nhà khoa học muốn một thước đo chung, lấy từ thứ mà ai cũng có: Trái Đất.",
+   "text": "Các nhà khoa học muốn *một thước đo chung*, lấy từ thứ ai cũng có: *Trái Đất*."
+  },
+  {
+   "say": "Họ quyết định một mét bằng một phần mười triệu quãng đường từ Bắc Cực tới xích đạo.",
+   "text": "*1 mét* = *1 phần 10 triệu* quãng từ *Bắc Cực tới xích đạo*."
+  },
+  {
+   "say": "Quãng đường ấy đi dọc một đường kinh tuyến, tức đường nối hai cực chạy qua thủ đô Pa-ri.",
+   "text": "Đi dọc *một đường kinh tuyến*, tức đường nối hai cực *chạy qua Pa-ri*."
+  },
+  {
+   "say": "Nhưng không ai có thể đi bộ từ Bắc Cực tới xích đạo để đo.",
+   "text": "Nhưng *không ai đi bộ* từ Bắc Cực tới xích đạo để đo."
+  },
+  {
+   "say": "Nên họ chỉ đo một đoạn ngắn hơn, từ thành phố Đăng-kéc ở Pháp tới Bác-xê-lô-na ở Tây Ban Nha.",
+   "text": "Họ chỉ đo *một đoạn ngắn hơn*: từ *Đăng-kéc* ở Pháp tới *Bác-xê-lô-na* ở Tây Ban Nha."
+  },
+  {
+   "say": "Hai nhà thiên văn Đơ-lăm-bơ và Mê-sanh đo đoạn này suốt hơn sáu năm.",
+   "text": "*Đơ-lăm-bơ* và *Mê-sanh* đo đoạn này *suốt hơn 6 năm*."
+  },
+  {
+   "say": "Họ không kéo thước dọc một nghìn ki-lô-mét, mà dùng một mẹo gọi là phép tam giác.",
+   "text": "Không kéo thước dọc *1 000 ki-lô-mét*, mà dùng mẹo *phép tam giác*."
+  },
+  {
+   "say": "Đầu tiên, họ đo thật kỹ một đoạn thẳng dài hơn mười ki-lô-mét, bằng những cây thước bạch kim đặt nối nhau.",
+   "text": "Đo thật kỹ *một đoạn thẳng* dài hơn *10 ki-lô-mét*, bằng *thước bạch kim* nối nhau."
+  },
+  {
+   "say": "Rồi từ hai đầu đoạn ấy, họ đo góc nhìn tới một ngọn tháp ở xa.",
+   "text": "Từ hai đầu đoạn ấy, đo *góc nhìn* tới *một ngọn tháp* ở xa."
+  },
+  {
+   "say": "Biết một cạnh và hai góc, ta tính được hai cạnh còn lại của tam giác mà không cần đi tới.",
+   "text": "Biết *một cạnh* và *hai góc*, tính được *hai cạnh còn lại* mà không cần đi tới."
+  },
+  {
+   "say": "Như bên bờ sông: đo một đoạn dọc bờ và hai góc nhìn sang bờ kia là biết sông rộng.",
+   "text": "Như *bên bờ sông*: đo một đoạn dọc bờ và *hai góc nhìn* sang bờ kia là biết *sông rộng*."
+  },
+  {
+   "say": "Cứ thế, họ nối nhiều tam giác thành một chuỗi, từ Đăng-kéc xuống Bác-xê-lô-na.",
+   "text": "Cứ thế, nối *nhiều tam giác* thành *một chuỗi*, từ Đăng-kéc xuống Bác-xê-lô-na."
+  },
+  {
+   "say": "Cả chuỗi dài khoảng một nghìn ki-lô-mét, bằng khoảng một phần mười quãng từ Bắc Cực tới xích đạo.",
+   "text": "Chuỗi dài *khoảng 1 000 ki-lô-mét*, bằng *khoảng 1 phần 10* quãng cực – xích đạo."
+  },
+  {
+   "say": "Vậy cả quãng từ cực tới xích đạo là một nghìn nhân mười.",
+   "text": "Cả quãng cực – xích đạo: *1 000 × 10*."
+  },
+  {
+   "say": "Ra khoảng mười nghìn ki-lô-mét.",
+   "text": "= *khoảng 10 000 ki-lô-mét*."
+  },
+  {
+   "say": "Mười nghìn ki-lô-mét bằng mười triệu mét.",
+   "text": "*10 000 ki-lô-mét* = *10 000 000 mét*."
+  },
+  {
+   "say": "Chia quãng ấy thành mười triệu phần, mỗi phần dài đúng một mét.",
+   "text": "Chia thành *10 triệu phần*, mỗi phần *đúng 1 mét*."
+  },
+  {
+   "say": "Năm một nghìn bảy trăm chín mươi chín, độ dài ấy được làm thành một thanh bạch kim.",
+   "text": "Năm *1799*, độ dài ấy được làm thành *một thanh bạch kim*."
+  },
+  {
+   "say": "Nhân bốn quãng từ cực tới xích đạo, ta được một vòng quanh Trái Đất qua hai cực.",
+   "text": "*Nhân 4* quãng cực – xích đạo, được *một vòng quanh Trái Đất* qua hai cực."
+  },
+  {
+   "say": "Mười nghìn nhân bốn, ra bốn mươi nghìn ki-lô-mét.",
+   "text": "*10 000 × 4* = *40 000 ki-lô-mét*."
+  },
+  {
+   "say": "Ngày nay, vòng ấy được đo là khoảng bốn mươi nghìn lẻ tám ki-lô-mét.",
+   "text": "Ngày nay, vòng ấy được đo là *khoảng 40 008 ki-lô-mét*."
+  },
+  {
+   "say": "Nghĩa là thanh mét đầu tiên ngắn hơn định nghĩa khoảng không phẩy hai mi-li-mét.",
+   "text": "Thanh mét đầu tiên *ngắn hơn* định nghĩa *khoảng 0,2 mi-li-mét*."
+  },
+  {
+   "say": "Chỉ bằng độ dày của hai tờ giấy, do những sai số nhỏ khi đo và tính hình dạng Trái Đất.",
+   "text": "Chỉ bằng *độ dày hai tờ giấy*, do *sai số nhỏ* khi đo và tính hình dạng Trái Đất."
+  },
+  {
+   "say": "Người ta vẫn giữ nguyên độ dài ấy, và mọi định nghĩa sau này đều làm cho khớp với nó.",
+   "text": "Người ta *giữ nguyên* độ dài ấy, mọi định nghĩa sau này *làm cho khớp* với nó."
+  },
+  {
+   "say": "Năm một nghìn chín trăm tám mươi ba, mét được định nghĩa lại bằng ánh sáng, vẫn giữ độ dài cũ.",
+   "text": "Năm *1983*, mét được *định nghĩa lại bằng ánh sáng*, vẫn *giữ độ dài cũ*."
+  },
+  {
+   "say": "Vậy một mét dài như thế vì nó là một phần mười triệu quãng đường từ Bắc Cực tới xích đạo.",
+   "text": "Một mét dài như thế vì là *1 phần 10 triệu* quãng từ *Bắc Cực tới xích đạo*."
+  }
+ ]
+}

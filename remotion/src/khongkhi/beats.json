@@ -1,0 +1,124 @@
+{
+ "beats": [
+  {
+   "say": "Không khí có nặng không, và nếu có thì nặng bao nhiêu?",
+   "text": "*Không khí* có nặng không, và nếu có thì *nặng bao nhiêu*?"
+  },
+  {
+   "say": "Nhưng ta chẳng thể bỏ cả bầu trời lên bàn cân.",
+   "text": "Nhưng ta chẳng thể bỏ *cả bầu trời* lên *bàn cân*."
+  },
+  {
+   "say": "Hóa ra chỉ cần một ống thủy tinh và một chậu thủy ngân.",
+   "text": "Hóa ra chỉ cần *một ống thủy tinh* và *một chậu thủy ngân*."
+  },
+  {
+   "say": "Vậy cái ống ấy cân không khí bằng cách nào?",
+   "text": "Vậy cái ống ấy *cân không khí* bằng cách nào?"
+  },
+  {
+   "say": "Trước đó, người ta dựng đứng một ống rất dài, đổ đầy nước, rồi mở đáy ống trong chậu nước.",
+   "text": "Người ta dựng *một ống rất dài*, đổ đầy nước, rồi mở đáy ống trong *một chậu nước*."
+  },
+  {
+   "say": "Nước tụt xuống rồi dừng lại ở độ cao khoảng mười mét, phía trên để lại một khoảng trống.",
+   "text": "Nước tụt xuống rồi dừng ở *khoảng 10 mét*, phía trên để lại *khoảng trống*."
+  },
+  {
+   "say": "Vì sao nước dừng ở đó mà không chảy hết ra ngoài?",
+   "text": "Vì sao nước *dừng ở đó* mà không *chảy hết* ra ngoài?"
+  },
+  {
+   "say": "Nhà khoa học Ý Tô-ri-xe-li cho rằng không khí bên ngoài đang đè lên mặt chậu và đỡ cột nước lên.",
+   "text": "*Tô-ri-xe-li* cho rằng không khí đang *đè lên mặt chậu* và *đỡ cột nước* lên."
+  },
+  {
+   "say": "Giống một chiếc cân đĩa: một bên là cột không khí, bên kia là cột nước, hai bên nặng bằng nhau.",
+   "text": "Như *chiếc cân đĩa*: một bên *cột không khí*, bên kia *cột nước*, nặng bằng nhau."
+  },
+  {
+   "say": "Nhưng ống nước cao mười mét thì quá khó dùng, nên ông thay nước bằng thủy ngân.",
+   "text": "Ống nước *cao 10 mét* quá khó dùng, nên ông *thay bằng thủy ngân*."
+  },
+  {
+   "say": "Thủy ngân nặng gấp khoảng mười ba phẩy sáu lần nước, nên cột chỉ cần ngắn hơn nhiều.",
+   "text": "Thủy ngân nặng gấp *khoảng 13,6 lần* nước, nên cột *ngắn hơn nhiều*."
+  },
+  {
+   "say": "Ông đổ đầy thủy ngân vào một ống thủy tinh dài khoảng một mét, bịt đầu, rồi úp ngược vào chậu.",
+   "text": "Đổ đầy thủy ngân vào ống *dài khoảng 1 mét*, bịt đầu, rồi *úp ngược* vào chậu."
+  },
+  {
+   "say": "Thủy ngân tụt xuống rồi đứng yên ở độ cao khoảng bảy mươi sáu xen-ti-mét.",
+   "text": "Thủy ngân tụt xuống rồi *đứng yên* ở *khoảng 76 xen-ti-mét*."
+  },
+  {
+   "say": "Bây giờ, ta cân không khí bằng chính cột thủy ngân ấy.",
+   "text": "Bây giờ, ta *cân không khí* bằng chính *cột thủy ngân* ấy."
+  },
+  {
+   "say": "Hãy xét một cột thủy ngân có đáy rộng một xen-ti-mét vuông, cỡ móng tay út.",
+   "text": "Xét cột có đáy *1 xen-ti-mét vuông*, cỡ *móng tay út*."
+  },
+  {
+   "say": "Mỗi xen-ti-mét khối thủy ngân nặng khoảng mười ba phẩy sáu gam.",
+   "text": "Mỗi xen-ti-mét khối thủy ngân nặng *khoảng 13,6 gam*."
+  },
+  {
+   "say": "Cột cao bảy mươi sáu xen-ti-mét, nên nặng bảy mươi sáu nhân mười ba phẩy sáu gam.",
+   "text": "Cột cao 76 xen-ti-mét, nên nặng *76 nhân 13,6 gam*."
+  },
+  {
+   "say": "Kết quả là khoảng một ki-lô-gam.",
+   "text": "= *1 033,6 gam* ≈ *1 ki-lô-gam*."
+  },
+  {
+   "say": "Vậy trên mỗi xen-ti-mét vuông, không khí đè nặng như một ki-lô-gam.",
+   "text": "Trên mỗi xen-ti-mét vuông, không khí *đè nặng như 1 ki-lô-gam*."
+  },
+  {
+   "say": "Ngày nay, các nhà khoa học đo được khoảng một phẩy không ba ki-lô-gam, khớp với phép tính.",
+   "text": "Ngày nay đo được *khoảng 1,03 ki-lô-gam*, *khớp* với phép tính."
+  },
+  {
+   "say": "Thử lại bằng nước: nước nhẹ hơn thủy ngân nhiều, nên cột nước phải cao gấp mười ba phẩy sáu lần.",
+   "text": "Thử bằng nước: nước *nhẹ hơn nhiều*, nên cột nước phải *cao gấp 13,6 lần*."
+  },
+  {
+   "say": "Bảy mươi sáu xen-ti-mét nhân mười ba phẩy sáu, ra hơn mười mét.",
+   "text": "*76 xen-ti-mét × 13,6* ≈ *10,3 mét*."
+  },
+  {
+   "say": "Đúng bằng cột nước mười mét mà người ta đã thấy trước đó.",
+   "text": "*Đúng bằng* cột nước *10 mét* đã thấy trước đó."
+  },
+  {
+   "say": "Nếu không khí có trọng lượng, thì lên cao sẽ còn ít không khí đè lên hơn.",
+   "text": "Nếu không khí có trọng lượng, *lên cao* sẽ còn *ít không khí đè lên* hơn."
+  },
+  {
+   "say": "Năm một nghìn sáu trăm bốn mươi tám, Pát-xcan nhờ anh rể mang ống thủy ngân lên núi.",
+   "text": "Năm *1648*, *Pát-xcan* nhờ anh rể mang ống thủy ngân *lên núi*."
+  },
+  {
+   "say": "Càng lên cao, cột thủy ngân càng thấp xuống, đúng như dự đoán.",
+   "text": "Càng lên cao, cột thủy ngân *càng thấp xuống*, *đúng như dự đoán*."
+  },
+  {
+   "say": "Gần mặt đất, cứ lên cao một trăm mét thì sức ép không khí giảm khoảng một phần trăm.",
+   "text": "Gần mặt đất, cứ *lên cao 100 mét*, sức ép không khí *giảm khoảng 1%*."
+  },
+  {
+   "say": "Một mét vuông, cỡ mặt bàn ăn, có mười nghìn xen-ti-mét vuông, nên không khí đè lên đó khoảng mười tấn.",
+   "text": "*1 mét vuông* = *10 000* xen-ti-mét vuông, nên không khí đè *khoảng 10 tấn*."
+  },
+  {
+   "say": "Ta không bị đè bẹp vì không khí ép đều từ mọi phía, cả từ dưới lên.",
+   "text": "Ta không bị đè bẹp vì không khí *ép đều từ mọi phía*, cả *từ dưới lên*."
+  },
+  {
+   "say": "Vậy không khí nặng khoảng một ki-lô-gam trên mỗi xen-ti-mét vuông, và một ống thủy ngân đã cân được nó.",
+   "text": "Không khí nặng *khoảng 1 ki-lô-gam* trên mỗi xen-ti-mét vuông, cân bằng *một ống thủy ngân*."
+  }
+ ]
+}

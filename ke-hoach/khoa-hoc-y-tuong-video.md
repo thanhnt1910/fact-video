@@ -45,6 +45,8 @@ Cách giải thích cho dễ hiểu:
 | 13 | Núi cao bao nhiêu khi chưa ai lên tới đỉnh (Ê-vơ-rét, góc ngắm) | `ke-hoach/khoa-hoc-video-13-nui-cao-kich-ban.md` |
 | 14 | Trái Đất bao nhiêu tuổi (đồng hồ nguyên tử trong đá, chu kỳ bán rã) | `ke-hoach/khoa-hoc-video-14-tuoi-trai-dat-kich-ban.md` |
 | 15 | Mặt Trăng xa bao nhiêu (laser, gương Apollo, tốc độ × thời gian ÷ 2) | `ke-hoach/khoa-hoc-video-15-mat-trang-xa-kich-ban.md` |
+| 16 | Không khí nặng bao nhiêu (Tô-ri-xe-li, ống thủy ngân 76 cm, 1 kg trên mỗi cm²) | `ke-hoach/khoa-hoc-video-16-khong-khi-nang-kich-ban.md` |
+| 17 | Một mét dài bao nhiêu (1 phần 10 triệu quãng cực – xích đạo, phép tam giác) | `ke-hoach/khoa-hoc-video-17-mot-met-kich-ban.md` |
 
 ## Chưa làm
 

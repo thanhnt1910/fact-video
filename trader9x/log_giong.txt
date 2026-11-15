@@ -1,36 +1,39 @@
-✅ Iapetus     b_intro   có sẵn
-✅ Iapetus     card1_1   có sẵn
-✅ Iapetus     b_p1_1    có sẵn
-✅ Iapetus     b_p1_2    có sẵn
-✅ Iapetus     b_p1_3    có sẵn
-✅ Iapetus     b_p1_4    có sẵn
-✅ Iapetus     card2n    có sẵn
-✅ Iapetus     b_t1      có sẵn
-✅ Iapetus     b_app1    có sẵn
-✅ Iapetus     b_t2      có sẵn
-✅ Iapetus     b_app2    có sẵn
-✅ Iapetus     b_t3      có sẵn
-✅ Iapetus     b_sq1     có sẵn
-✅ Iapetus     b_sq2     có sẵn
-✅ Iapetus     b_sq2b    có sẵn
-✅ Iapetus     b_t4      có sẵn
-✅ Iapetus     b_w1      có sẵn
-✅ Iapetus     b_w2      có sẵn
-✅ Iapetus     b_t5      có sẵn
-✅ Iapetus     b_r1      có sẵn
-✅ Iapetus     b_r2      có sẵn
-✅ Iapetus     b_r2b     có sẵn
-✅ Iapetus     b_sq3     có sẵn
-✅ Iapetus     b_sq3b    có sẵn
-✅ Iapetus     now1      có sẵn
-✅ Iapetus     b_now1b   có sẵn
-✅ Iapetus     b_now2    có sẵn
-✅ Iapetus     b_now3    có sẵn
-✅ Iapetus     b_c1      có sẵn
-✅ Iapetus     b_c2      có sẵn
-✅ Iapetus     b_c3      có sẵn
-✅ Iapetus     b_c4      có sẵn
-✅ Iapetus     check_5   có sẵn
-✅ Iapetus     b_c6      có sẵn
-✅ Iapetus     b_outro   có sẵn
-Xong: 35 đoạn có giọng, 0 lỗi.
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+✅ Iapetus     h1        6.44s
+✅ Iapetus     h2        6.00s
+   [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     h3        6.72s
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     d1        6.60s
+✅ Iapetus     d2        6.88s
+✅ Iapetus     d3        3.84s
+✅ Iapetus     d4        5.88s
+✅ Iapetus     d5        4.56s
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     l1        3.60s
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     l2        7.12s
+✅ Iapetus     l3        5.64s
+✅ Iapetus     l4        5.04s
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     l5        6.16s
+✅ Iapetus     c1        4.56s
+✅ Iapetus     c2        5.52s
+✅ Iapetus     c3        5.88s
+✅ Iapetus     c4        7.28s
+✅ Iapetus     c5        6.92s
+✅ Iapetus     p1        5.24s
+✅ Iapetus     p2        6.08s
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k1        4.12s
+✅ Iapetus     k2        5.36s
+✅ Iapetus     k3        5.76s
+✅ Iapetus     k4        5.84s
+✅ Iapetus     k5        7.12s
+   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     k6        3.88s
+Xong: 26 đoạn có giọng, 0 lỗi.

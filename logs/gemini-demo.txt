@@ -1,39 +1,35 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Làm sao biết Mặt Trăng ở xa bao nhiêu, chính xác đ
-OK Leda 02: Nhưng ta không thể căng một cuộn thước dây từ Trái
-OK Leda 03: Hóa ra ta chỉ cần một tia sáng và một chiếc đồng h
-OK Leda 04: Vậy tia sáng ấy đo khoảng cách bằng cách nào?
-OK Leda 05: Người xưa chưa có tia sáng ấy, họ chỉ có đôi mắt v
+OK Leda 01: Không khí có nặng không, và nếu có thì nặng bao nh
+OK Leda 02: Nhưng ta chẳng thể bỏ cả bầu trời lên bàn cân.
+OK Leda 03: Hóa ra chỉ cần một ống thủy tinh và một chậu thủy 
+OK Leda 04: Vậy cái ống ấy cân không khí bằng cách nào?
+OK Leda 05: Trước đó, người ta dựng đứng một ống rất dài, đổ đ
+OK Leda 06: Nước tụt xuống rồi dừng lại ở độ cao khoảng mười m
+OK Leda 07: Vì sao nước dừng ở đó mà không chảy hết ra ngoài?
+OK Leda 08: Nhà khoa học Ý Tô-ri-xe-li cho rằng không khí bên 
+OK Leda 09: Giống một chiếc cân đĩa: một bên là cột không khí,
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Họ cùng nhìn một lần nhật thực, lúc Mặt Trăng che 
-OK Leda 07: Ở thành phố này, Mặt Trời bị che hoàn toàn, còn ở 
-OK Leda 08: Giống như bạn đưa ngón tay che một ngọn đèn: đổi c
-OK Leda 09: Nhà thiên văn Hy Lạp Hi-pác-cơ dùng độ lệch ấy để 
-OK Leda 10: Ông tính ra Mặt Trăng xa khoảng sáu mươi đến bảy m
+OK Leda 10: Nhưng ống nước cao mười mét thì quá khó dùng, nên 
+OK Leda 11: Thủy ngân nặng gấp khoảng mười ba phẩy sáu lần nướ
+OK Leda 12: Ông đổ đầy thủy ngân vào một ống thủy tinh dài kho
+OK Leda 13: Thủy ngân tụt xuống rồi đứng yên ở độ cao khoảng b
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: Như vậy là đúng cỡ độ lớn, nhưng độ lệch ấy rất nh
-OK Leda 12: Muốn chính xác hơn, ta cần một cách đo không dựa v
-OK Leda 13: Ánh sáng chạy rất đều, mỗi giây đi được khoảng ba 
-OK Leda 14: Vậy muốn biết quãng đường, ta chỉ cần biết ánh sán
+OK Leda 14: Bây giờ, ta cân không khí bằng chính cột thủy ngân
+OK Leda 15: Hãy xét một cột thủy ngân có đáy rộng một xen-ti-m
+OK Leda 16: Mỗi xen-ti-mét khối thủy ngân nặng khoảng mười ba 
+OK Leda 17: Cột cao bảy mươi sáu xen-ti-mét, nên nặng bảy mươi
+OK Leda 18: Kết quả là khoảng một ki-lô-gam.
+OK Leda 19: Vậy trên mỗi xen-ti-mét vuông, không khí đè nặng n
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 15: Như ném bóng vào tường rồi bắt lại: thời gian đi v
-OK Leda 16: Vì vậy, khoảng cách bằng tốc độ nhân thời gian, rồ
-OK Leda 17: Năm một nghìn chín trăm sáu mươi chín, đoàn A-pô-l
-OK Leda 18: Nó giống miếng phản quang trên xe đạp: ánh sáng ch
+OK Leda 20: Ngày nay, các nhà khoa học đo được khoảng một phẩy
+OK Leda 21: Thử lại bằng nước: nước nhẹ hơn thủy ngân nhiều, n
+OK Leda 22: Bảy mươi sáu xen-ti-mét nhân mười ba phẩy sáu, ra 
+OK Leda 23: Đúng bằng cột nước mười mét mà người ta đã thấy tr
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Tháng tám cùng năm, đài thiên văn Lích ở bang Ca-l
-OK Leda 20: Xung ấy có hơn một nghìn tỉ hạt ánh sáng, nhưng ch
-OK Leda 21: Họ bấm giờ từ lúc bắn đến lúc nhận lại, và thấy mấ
-OK Leda 22: Trước hết, ánh sáng đi cả đi lẫn về, nên quãng đườ
-   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 23: Ra bảy trăm năm mươi nghìn ki-lô-mét.
-OK Leda 24: Quãng ấy gồm đường đi và đường về, nên ta chia đôi
-OK Leda 25: Bảy trăm năm mươi nghìn chia hai bằng ba trăm bảy 
-OK Leda 26: Số thật trung bình là khoảng ba trăm tám mươi tư n
-   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 27: Ta chỉ lệch chưa tới ba phần trăm, vì đã làm tròn 
-OK Leda 28: Các nhà khoa học đo thời gian kỹ hơn nhiều, nên kh
-OK Leda 29: Một mi-li-mét chỉ bằng độ dày của khoảng mười tờ g
-OK Leda 30: Nhờ vậy, ta còn biết Mặt Trăng đang xa Trái Đất th
-OK Leda 31: Vậy ta biết Mặt Trăng xa bao nhiêu nhờ đo thời gia
+OK Leda 24: Nếu không khí có trọng lượng, thì lên cao sẽ còn í
+OK Leda 25: Năm một nghìn sáu trăm bốn mươi tám, Pát-xcan nhờ 
+OK Leda 26: Càng lên cao, cột thủy ngân càng thấp xuống, đúng 
+OK Leda 27: Gần mặt đất, cứ lên cao một trăm mét thì sức ép kh
+OK Leda 28: Một mét vuông, cỡ mặt bàn ăn, có mười nghìn xen-ti
+OK Leda 29: Ta không bị đè bẹp vì không khí ép đều từ mọi phía
+OK Leda 30: Vậy không khí nặng khoảng một ki-lô-gam trên mỗi x

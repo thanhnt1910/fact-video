@@ -1,13 +1,38 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Traceback (most recent call last):
-  File "/home/runner/work/fact-video/fact-video/trader9x_asr.py", line 16, in <module>
-    segs, _ = m.transcribe(str(p), language="vi", beam_size=5, vad_filter=False)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
-    audio = decode_audio(audio, sampling_rate=sampling_rate)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
-    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "av/container/core.py", line 479, in av.container.core.open
-TypeError: open() got an unexpected keyword argument 'metadata_errors'
+✅ intro_1   1.00 | MACD, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đồ vàng.
+⚠️ card1_1   0.75 | Phần 1. Định nghĩa
+✅ p1_1      0.87 | MACD là viết tắt của Moving Average Convergence Divergence do Gero Appel phát triển vào cuối thập niên 70.
+✅ p1_2      1.00 | Đây là chỉ báo động lượng theo xu hướng, nó cho biết xu hướng đang mạnh lên hay đang yếu đi.
+⚠️ p1_3      0.69 | Cách tính rất đơn giản, lấy đường EMA12 trừ đi đường EMA26.
+✅ p1_4      0.90 | Hai đường càng tích xa nhau, động lượng càng mạnh.
+✅ card2_1   0.86 | Phần 2. Sáu thuật ngữ cần biết.
+⚠️ p2_1      0.79 | Thứ nhất là đường MACD, hiệu số giữa EMA12 và EMA26, đây là đường chính, phản ánh động lượng.
+⚠️ p2_2      0.74 | Thứ hai là đường signal tức đường EMA9 của chính đường MACD. Bộ thông số chuẩn là 12, 26 và 9.
+✅ p2_3      0.90 | Thứ 3 là Histogram, bằng MACD chữ Signal. Cột xanh khi MACD nằm trên Signal, cột đỏ khi nằm dưới.
+✅ p2_4      1.00 | Cột co lại, nghĩa là động lượng đang yếu dần.
+✅ p2_5      1.00 | thứ tư là đường không, MACD nằm trên đường không là thiên hướng tăng, nằm dưới là thiên hướng giảm.
+✅ p2_6      0.90 | Thứ 5 là dao cắt. MACD cắt lên signal là tín hiệu tăng. Cắt xuống signal là tín hiệu giảm.
+✅ p2_7      0.92 | Thứ 6 là phân kỳ, khi giá và MACD đi ngược chiều nhau.
+✅ p2_8      0.95 | Giá lấp đỉnh cao hơn nhưng MACD lại có đỉnh thấp hơn cho thấy động lượng đang suy yếu.
+⚠️ card3_1   0.67 | Phần 3 ứng dụng trên biểu đô vàng khung H4.
+⚠️ p3a_1     0.41 | Ngày 31 tháng 10, vàng đi ngang khoảng 3.875 đô.
+✅ p3a_2     1.00 | Đường MACD cắt lên signal, động lượng bắt đầu chuyển sang tăng.
+✅ p3a_3     0.83 | Ví dụ, vào lệnh khi nến xác nhận đóng cửa và đặt cắt lỗ dưới đáy gần nhất, khoảng 3.860.
+✅ p3a_4     0.84 | Ngày 2 tháng 11, MACD vượt lên trên đường không, xác nhận xu hướng tăng.
+⚠️ p3a_5     0.44 | Chỉ 4 này sau, vang đã chạy lên 4.147 đô.
+⚠️ p3b_1     0.36 | ngày 5 tháng 11 vàng lên 4.147.
+⚠️ p3b_2     0.67 | Đến ngày 10, giá lập đỉnh mới 4.149, nhưng hãy nhìn xuống MACD.
+✅ p3b_3     1.00 | Giá có đỉnh cao hơn, nhưng MACD lại có đỉnh thấp hơn, đó là phân kỳ giảm, lực mua đã cạn.
+✅ p3b_4     0.86 | Sau đó, mười ACD cắt xuống signal rồi thủng đường không.
+⚠️ p3b_5     0.47 | Chỉ trong hai ngày, vàng rơi từ 4.149 xuống 3.853.
+⚠️ p3c_1     0.64 | Hiện tại, vàng đang ở quanh 3883 đô.
+✅ p3c_2     0.93 | MACD vẫn nằm dưới đường không nên xu hưởng ngắn hạn vẫn nghiêng về giảm.
+✅ p3c_3     0.94 | Nhưng histogram đang co dần về không và MACD bám sát signal, đa giảm đang chậm lại.
+✅ p3c_4     1.00 | Hãy chờ tín hiệu xác nhận, đừng đoán đáy.
+✅ check_1   0.94 | Năm nguyên tắc khi dùng MACD 1. Giao cắt thuận xu hướng lớn thì đáng tin hơn
+✅ check_2   0.93 | 2. Cắt lên dưới đường không hay cắt xuống trên đường không thường mạnh hơn
+✅ check_3   0.92 | 3. Phân kỳ chỉ là cảnh báo, hãy chờ giá xác nhận.
+✅ check_4   0.80 | 4. MACD là chị báo chế nên kết hợp với hỗ trợ và kháng cự.
+✅ check_5   0.92 | 5. Vàng biến động rất mạnh, vì vậy luôn đặt stop loss.
+✅ check_6   0.88 | Không có chỉ báo nào đúng 100%, hãy dùng MACD như một bộ lọc, không phải nút bấm mua bán.
+✅ outro_1   0.92 | Tập sau là RSI, quá mua, quá bán và phân kỳ. Theo dõi Trader Chinix để không bỏ lỡ.

@@ -75,3 +75,7 @@ Bản đồ 34 tỉnh, tô Quảng Ngãi (ranh giới hiện nay, gồm Kon Tum 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Quảng Ngãi hay Quảng Nghĩa, đâu là tên gốc?
 - Hashtag: #NguoiGacSu #TenTinhThanh #QuangNgai #QuangNghia #NghiaBinh #LichSuVietNam #TenGoi
+
+### Dựng video 15/11/2026
+- Giọng Leda, đọc một cụm; năm trong lời đọc ghi bằng chữ số; nhận dạng không gợi ý khớp mọi năm; `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn24_quang_ngai.mp4`, cảnh `phim_ban_do/doc9x16/canh_tn24.js`, bìa `assets/bia/TN24/bia_tn24.png`; đo khung đứng yên ≥2 giây: 0 đoạn.

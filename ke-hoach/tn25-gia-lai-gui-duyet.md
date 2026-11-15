@@ -79,3 +79,7 @@ Bản đồ 34 tỉnh, tô Gia Lai (ranh giới hiện nay, gồm Bình Định 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Gia Lai: tỉnh núi rừng giờ đã có biển
 - Hashtag: #NguoiGacSu #TenTinhThanh #GiaLai #Pleiku #BinhDinh #QuyNhon #LichSuVietNam
+
+### Dựng video 15/11/2026
+- Giọng Leda, đọc một cụm; năm trong lời đọc ghi bằng chữ số; nhận dạng không gợi ý khớp mọi năm; `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn25_gia_lai.mp4`, cảnh `phim_ban_do/doc9x16/canh_tn25.js`, bìa `assets/bia/TN25/bia_tn25.png`; đo khung đứng yên ≥2 giây: 0 đoạn.

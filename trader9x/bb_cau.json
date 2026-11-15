@@ -1,0 +1,149 @@
+{
+ "ma": "BB",
+ "giong_chinh": "Iapetus",
+ "giong_thu": [],
+ "cau_thu": [],
+ "style": "Native Vietnamese MALE narrator, Northern accent (Hanoi), for a gold trading education video on a financial channel. Confident, calm and clear like a professional trading mentor; medium pace, crisp diction; say every number slowly and clearly. Pronounce RSI and MACD letter by letter in English (R-S-I, M-A-C-D), and say EMA, Signal, Histogram, stop loss, RSI, Moving Average Convergence Divergence in natural English. Say Bollinger Bands, John Bollinger and EMA cross in natural English. Read exactly as written. Not salesy, not robotic, not news-anchor flat.",
+ "doan": [
+  {
+   "id": "b_intro",
+   "text": "Bollinger Bands. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng."
+  },
+  {
+   "id": "card1_1",
+   "text": "Phần một. Định nghĩa."
+  },
+  {
+   "id": "b_p1_1",
+   "text": "Bollinger Bands do John Bollinger phát triển vào đầu thập niên tám mươi, dùng để đo mức biến động của giá."
+  },
+  {
+   "id": "b_p1_2",
+   "text": "Chỉ báo gồm ba đường bao quanh giá. Các dải tự nở ra khi biến động lớn, và co lại khi thị trường yên."
+  },
+  {
+   "id": "b_p1_3",
+   "text": "Dải giữa là đường trung bình đơn giản của hai mươi nến."
+  },
+  {
+   "id": "b_p1_4",
+   "text": "Dải trên và dải dưới cách dải giữa hai lần độ lệch chuẩn của cùng hai mươi nến."
+  },
+  {
+   "id": "card2n",
+   "text": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng."
+  },
+  {
+   "id": "b_t1",
+   "text": "Thứ nhất là dải giữa, tức trung bình giá đóng cửa của hai mươi nến. Đây là xương sống của chỉ báo."
+  },
+  {
+   "id": "b_app1",
+   "text": "Ngày hai mươi bảy tháng mười, giá đi trên dải giữa quanh bốn nghìn không trăm mười bảy. Phe mua đang giữ nhịp hồi."
+  },
+  {
+   "id": "b_t2",
+   "text": "Thứ hai là dải trên và dải dưới. Biến động lớn thì hai dải nở ra, thị trường yên thì hai dải co lại."
+  },
+  {
+   "id": "b_app2",
+   "text": "Giá đi bên trong hai dải phần lớn thời gian. Dải hẹp là thị trường yên, dải rộng là biến động mạnh."
+  },
+  {
+   "id": "b_t3",
+   "text": "Thứ ba là co thắt. Khi độ rộng dải xuống rất thấp, thị trường đang nén lại, thường trước một cú chạy mạnh."
+  },
+  {
+   "id": "b_sq1",
+   "text": "Từ ngày hai mươi bảy đến ba mươi tháng mười, độ rộng dải chỉ còn khoảng hai phẩy ba đến hai phẩy sáu phần trăm."
+  },
+  {
+   "id": "b_sq2",
+   "text": "Ngày ba mươi, giá phá mạnh xuống dưới dải dưới, vàng sập về ba nghìn tám trăm bảy mươi mốt."
+  },
+  {
+   "id": "b_sq2b",
+   "text": "Co thắt không báo trước hướng, hãy chờ nến phá dải."
+  },
+  {
+   "id": "b_t4",
+   "text": "Thứ tư là bám dải. Khi nến liên tục đóng sát hoặc ngoài dải trên hay dải dưới, xu hướng đang rất mạnh."
+  },
+  {
+   "id": "b_w1",
+   "text": "Ngày bốn và năm tháng mười một, nhiều nến đóng cửa trên dải trên, giá bám dải lên bốn nghìn một trăm bốn mươi bảy."
+  },
+  {
+   "id": "b_w2",
+   "text": "Đóng ngoài dải trên trong xu hướng mạnh thường là tiếp diễn, chưa phải lệnh bán."
+  },
+  {
+   "id": "b_t5",
+   "text": "Thứ năm là hồi về dải giữa. Trong xu hướng tăng, nhịp hồi về dải giữa thường là nơi giá tìm lại lực."
+  },
+  {
+   "id": "b_r1",
+   "text": "Ngày sáu tháng mười một, giá hồi về dải giữa quanh bốn nghìn không trăm ba mươi, rồi bật lên. Dải giữa trở thành hỗ trợ động."
+  },
+  {
+   "id": "b_r2",
+   "text": "Ví dụ, vào lệnh khi nến bật lên đóng cửa trên dải giữa, quanh bốn nghìn không trăm sáu mươi ba."
+  },
+  {
+   "id": "b_r2b",
+   "text": "Đặt cắt lỗ dưới đáy gần nhất, khoảng bốn nghìn không trăm hai mươi."
+  },
+  {
+   "id": "b_sq3",
+   "text": "Ngày chín và mười tháng mười một, dải lại co thắt, còn khoảng ba phẩy năm phần trăm."
+  },
+  {
+   "id": "b_sq3b",
+   "text": "Lần này giá phá xuống. Ngày mười hai, nến đóng dưới dải dưới và vàng về ba nghìn tám trăm năm mươi ba."
+  },
+  {
+   "id": "now1",
+   "text": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô."
+  },
+  {
+   "id": "b_now1b",
+   "text": "Giá đang nằm dưới dải giữa, quanh ba nghìn chín trăm bốn mươi ba."
+  },
+  {
+   "id": "b_now2",
+   "text": "Các dải đang mở rộng, biến động còn lớn, và xu hướng ngắn hạn vẫn nghiêng về giảm."
+  },
+  {
+   "id": "b_now3",
+   "text": "Hãy chờ giá lấy lại dải giữa để xác nhận, đừng vội bắt đáy."
+  },
+  {
+   "id": "b_c1",
+   "text": "Năm nguyên tắc khi dùng Bollinger Bands. Một, chạm dải không phải lệnh mua hay bán."
+  },
+  {
+   "id": "b_c2",
+   "text": "Hai, co thắt báo sắp có cú chạy mạnh, nhưng không báo hướng."
+  },
+  {
+   "id": "b_c3",
+   "text": "Ba, trong xu hướng mạnh, giá có thể bám dải rất lâu."
+  },
+  {
+   "id": "b_c4",
+   "text": "Bốn, kết hợp dải giữa với cấu trúc giá."
+  },
+  {
+   "id": "check_5",
+   "text": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss."
+  },
+  {
+   "id": "b_c6",
+   "text": "Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng Bollinger Bands như một bộ lọc, không phải nút bấm mua bán."
+  },
+  {
+   "id": "b_outro",
+   "text": "Tập sau là EMA cross, giao cắt đường trung bình. Theo dõi Trader chín X để không bỏ lỡ."
+  }
+ ]
+}

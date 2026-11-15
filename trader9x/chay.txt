@@ -1,1 +1,1 @@
-macd2_cau.json
+rsi_cau.json

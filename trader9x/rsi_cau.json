@@ -1,0 +1,141 @@
+{
+ "ma": "RSI",
+ "giong_chinh": "Iapetus",
+ "giong_thu": [],
+ "cau_thu": [],
+ "style": "Native Vietnamese MALE narrator, Northern accent (Hanoi), for a gold trading education video on a financial channel. Confident, calm and clear like a professional trading mentor; medium pace, crisp diction; say every number slowly and clearly. Pronounce RSI and MACD letter by letter in English (R-S-I, M-A-C-D), and say EMA, Signal, Histogram, stop loss, RSI, Moving Average Convergence Divergence in natural English. Read exactly as written. Not salesy, not robotic, not news-anchor flat.",
+ "doan": [
+  {
+   "id": "r_intro",
+   "text": "RSI. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng."
+  },
+  {
+   "id": "card1_1",
+   "text": "Phần một. Định nghĩa."
+  },
+  {
+   "id": "r_p1_1",
+   "text": "RSI là viết tắt của Relative Strength Index, tức chỉ số sức mạnh tương đối, do Welles Wilder giới thiệu năm một nghìn chín trăm bảy mươi tám."
+  },
+  {
+   "id": "r_p1_2",
+   "text": "RSI đo tốc độ và độ mạnh của các nhịp giá. Nó cho biết phe mua hay phe bán đang chiếm ưu thế."
+  },
+  {
+   "id": "r_p1_3",
+   "text": "Công thức so sánh trung bình các nến tăng với trung bình các nến giảm trong mười bốn nến."
+  },
+  {
+   "id": "r_p1_4",
+   "text": "Kết quả được quy về thang từ không đến một trăm."
+  },
+  {
+   "id": "card2n",
+   "text": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng."
+  },
+  {
+   "id": "r_t1",
+   "text": "Thứ nhất là đường RSI. Đường này dao động từ không đến một trăm, đo sức mạnh nhịp tăng so với nhịp giảm."
+  },
+  {
+   "id": "r_app",
+   "text": "Từ ngày hai mươi sáu đến hai mươi tám tháng mười, vàng hồi lên, và đường RSI cũng leo dần lên quanh năm mươi lăm."
+  },
+  {
+   "id": "r_t2",
+   "text": "Thứ hai là vùng quá bán, khi RSI xuống dưới ba mươi. Giá đã giảm quá nhanh, lực bán có thể sắp cạn."
+  },
+  {
+   "id": "r_os1",
+   "text": "Ngày ba mươi tháng mười, vàng sập về ba nghìn tám trăm bảy mươi mốt, và RSI rơi xuống hai mươi hai."
+  },
+  {
+   "id": "r_os2",
+   "text": "Ngày hai tháng mười một, RSI vượt lại lên trên ba mươi quanh ba nghìn chín trăm linh ba. Lực mua đã quay lại."
+  },
+  {
+   "id": "p3a_3",
+   "text": "Ví dụ, vào lệnh khi nến xác nhận đóng cửa, và đặt cắt lỗ dưới đáy gần nhất, khoảng ba nghìn tám trăm sáu mươi."
+  },
+  {
+   "id": "r_t3",
+   "text": "Thứ ba là đường năm mươi. RSI trên năm mươi là phe mua chiếm ưu thế, dưới năm mươi là phe bán chiếm ưu thế."
+  },
+  {
+   "id": "r_mid",
+   "text": "Ngày bốn tháng mười một, RSI vượt lên trên năm mươi quanh ba nghìn chín trăm bảy mươi mốt, xác nhận xu hướng tăng."
+  },
+  {
+   "id": "r_t4",
+   "text": "Thứ tư là vùng quá mua, khi RSI lên trên bảy mươi. Giá đã tăng quá nhanh, thị trường đang nóng."
+  },
+  {
+   "id": "r_ob1",
+   "text": "Ngày năm tháng mười một, vàng lên bốn nghìn một trăm bốn mươi bảy, và RSI vọt lên bảy mươi ba."
+  },
+  {
+   "id": "r_ob2",
+   "text": "Nhưng quá mua không phải lệnh bán ngay. Xu hướng mạnh có thể giữ RSI trên bảy mươi khá lâu, hãy chờ xác nhận."
+  },
+  {
+   "id": "r_t5",
+   "text": "Thứ năm là phân kỳ, khi giá và RSI đi ngược chiều nhau. Giá lập đỉnh cao hơn, nhưng RSI lại có đỉnh thấp hơn."
+  },
+  {
+   "id": "r_div1",
+   "text": "Ngày mười tháng mười một, giá lập đỉnh mới bốn nghìn một trăm bốn mươi chín, cao hơn đỉnh ngày năm."
+  },
+  {
+   "id": "r_div2",
+   "text": "Nhưng RSI chỉ lên sáu mươi lăm, thấp hơn mức bảy mươi ba. Đó là phân kỳ giảm."
+  },
+  {
+   "id": "r_div3",
+   "text": "Cùng ngày mười, RSI thủng đường năm mươi. Đến ngày mười hai, vàng rơi về ba nghìn tám trăm năm mươi ba."
+  },
+  {
+   "id": "now1",
+   "text": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô."
+  },
+  {
+   "id": "r_now1b",
+   "text": "RSI hiện ở khoảng ba mươi lăm."
+  },
+  {
+   "id": "r_now2",
+   "text": "RSI đã rời vùng quá bán, nhưng vẫn nằm dưới năm mươi. Phe bán vẫn đang chiếm ưu thế."
+  },
+  {
+   "id": "r_now3",
+   "text": "Hãy chờ RSI vượt lại năm mươi để xác nhận. Đừng bắt đáy chỉ vì RSI từng xuống dưới ba mươi."
+  },
+  {
+   "id": "r_c1",
+   "text": "Năm nguyên tắc khi dùng RSI. Một, quá mua và quá bán chỉ là cảnh báo, không phải lệnh."
+  },
+  {
+   "id": "r_c2",
+   "text": "Hai, ưu tiên tín hiệu thuận theo xu hướng lớn."
+  },
+  {
+   "id": "r_c3",
+   "text": "Ba, đường năm mươi giúp xác nhận xu hướng."
+  },
+  {
+   "id": "r_c4",
+   "text": "Bốn, phân kỳ cần cấu trúc giá xác nhận."
+  },
+  {
+   "id": "check_5",
+   "text": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss."
+  },
+  {
+   "id": "r_c6",
+   "text": "Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng RSI như một bộ lọc, không phải nút bấm mua bán."
+  },
+  {
+   "id": "r_outro",
+   "text": "Tập sau là Bollinger Bands, công cụ đo biến động. Theo dõi Trader chín X để không bỏ lỡ."
+  }
+ ]
+}

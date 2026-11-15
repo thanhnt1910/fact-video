@@ -6,8 +6,7 @@
 ✅ Iapetus     b_p1_4    có sẵn
 ✅ Iapetus     card2n    có sẵn
 ✅ Iapetus     b_t1      có sẵn
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-✅ Iapetus     b_app1    7.08s
+✅ Iapetus     b_app1    có sẵn
 ✅ Iapetus     b_t2      có sẵn
 ✅ Iapetus     b_app2    có sẵn
 ✅ Iapetus     b_t3      có sẵn

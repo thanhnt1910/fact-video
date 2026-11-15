@@ -1,39 +1,47 @@
-✅ Charon      intro_1   có sẵn
-✅ Charon      card1_1   có sẵn
-✅ Charon      p1_1      có sẵn
-✅ Charon      p1_2      có sẵn
-✅ Charon      p1_3      có sẵn
-✅ Charon      p1_4      có sẵn
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-✅ Charon      card2n    3.64s
-✅ Charon      p2_1      có sẵn
-✅ Charon      p2_2      có sẵn
-✅ Charon      p2_3      có sẵn
-✅ Charon      p2_4      có sẵn
-✅ Charon      h_app     6.68s
-✅ Charon      t4        6.56s
-✅ Charon      x_dn      9.76s
-✅ Charon      x_up      7.44s
-✅ Charon      p3a_3     có sẵn
+✅ Iapetus     intro_1   6.12s
+✅ Iapetus     card1_1   1.76s
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      t5        7.40s
-✅ Charon      zero_up   8.52s
-✅ Charon      p2_7      có sẵn
-✅ Charon      p2_8      có sẵn
-✅ Charon      div1      8.16s
-✅ Charon      div2      5.48s
-✅ Charon      div3      5.96s
+✅ Iapetus     p1_1      8.00s
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-✅ Charon      div4      5.64s
-✅ Charon      now1      4.96s
-✅ Charon      p3c_2     có sẵn
-✅ Charon      p3c_3     có sẵn
-✅ Charon      p3c_4     có sẵn
-✅ Charon      check_1   có sẵn
-✅ Charon      check_2   có sẵn
-✅ Charon      check_3   có sẵn
-✅ Charon      check_4   có sẵn
-✅ Charon      check_5   có sẵn
-✅ Charon      check_6   có sẵn
-✅ Charon      outro_1   có sẵn
+✅ Iapetus     p1_2      6.00s
+   [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     p1_3      5.88s
+✅ Iapetus     p1_4      3.12s
+✅ Iapetus     card2n    3.72s
+✅ Iapetus     p2_1      8.40s
+   [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     p2_2      9.48s
+✅ Iapetus     p2_3      9.20s
+   [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     p2_4      3.12s
+✅ Iapetus     h_app     6.68s
+✅ Iapetus     t4        7.60s
+✅ Iapetus     x_dn      8.80s
+✅ Iapetus     x_up      7.00s
+   [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     p3a_3     7.04s
+✅ Iapetus     t5        8.04s
+✅ Iapetus     zero_up   8.80s
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     p2_7      4.44s
+✅ Iapetus     p2_8      6.04s
+✅ Iapetus     div1      7.24s
+✅ Iapetus     div2      5.36s
+✅ Iapetus     div3      5.48s
+   [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     div4      5.96s
+✅ Iapetus     now1      5.24s
+✅ Iapetus     p3c_2     5.20s
+✅ Iapetus     p3c_3     6.52s
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     p3c_4     3.00s
+✅ Iapetus     check_1   5.92s
+✅ Iapetus     check_2   5.04s
+✅ Iapetus     check_3   4.04s
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+✅ Iapetus     check_4   4.72s
+✅ Iapetus     check_5   4.24s
+✅ Iapetus     check_6   6.56s
+✅ Iapetus     outro_1   6.96s
 Xong: 35 đoạn có giọng, 0 lỗi.

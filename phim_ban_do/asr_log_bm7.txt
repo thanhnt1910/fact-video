@@ -461,3 +461,35 @@ xong 1
 xong 1
 0 1
 xong 1
+0 13
+xong 13
+0 13
+xong 13
+0 15
+xong 15
+0 15
+xong 15
+0 17
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/phude_asr.py", line 26, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/phude_asr.py", line 15, in main
+    hh = hashlib.md5(open(f'{vd}/{n}.mp3','rb').read()).hexdigest()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'assets/thu_giong_hai/tn29_chuan/157017.mp3'
+LỖI tn29 1
+0 17
+Traceback (most recent call last):
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/phude_asr.py", line 26, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "/home/runner/work/fact-video/fact-video/phim_ban_do/phude_asr.py", line 15, in main
+    hh = hashlib.md5(open(f'{vd}/{n}.mp3','rb').read()).hexdigest()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'assets/thu_giong_hai/tn29_chuan/157017.mp3'
+LỖI ngoai tn29 1
+0 15
+xong 15
+0 15
+xong 15

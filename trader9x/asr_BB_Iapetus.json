@@ -1,0 +1,212 @@
+[
+ {
+  "id": "b_intro",
+  "khop": 0.944,
+  "kich_ban": "Bollinger Bands. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.",
+  "nghe": "Bollinger Bands, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đô vàng."
+ },
+ {
+  "id": "card1_1",
+  "khop": 1.0,
+  "kich_ban": "Phần một. Định nghĩa.",
+  "nghe": "Phần một, định nghĩa."
+ },
+ {
+  "id": "b_p1_1",
+  "khop": 0.78,
+  "kich_ban": "Bollinger Bands do John Bollinger phát triển vào đầu thập niên tám mươi, dùng để đo mức biến động của giá.",
+  "nghe": "Bolinger Bands do John Bolinger phát triển vào đầu thập nghiên 80, dùng để đo mức biến động của giá."
+ },
+ {
+  "id": "b_p1_2",
+  "khop": 0.792,
+  "kich_ban": "Chỉ báo gồm ba đường bao quanh giá. Các dải tự nở ra khi biến động lớn, và co lại khi thị trường yên.",
+  "nghe": "Chỉ báo gồm 3 đường báo quanh giá, các giải tự nở ra khi biến đồng lớn và có lại khi thị trường yên."
+ },
+ {
+  "id": "b_p1_3",
+  "khop": 0.75,
+  "kich_ban": "Dải giữa là đường trung bình đơn giản của hai mươi nến.",
+  "nghe": "Dài giữa là đường trung bỉnh đơn giản của hai mươi nén."
+ },
+ {
+  "id": "b_p1_4",
+  "khop": 0.833,
+  "kich_ban": "Dải trên và dải dưới cách dải giữa hai lần độ lệch chuẩn của cùng hai mươi nến.",
+  "nghe": "Giải trên và giải dưới. Cách giải giữa hai lần độ lệch chuẩn của cùng hai mươi nến."
+ },
+ {
+  "id": "card2n",
+  "khop": 0.818,
+  "kich_ban": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.",
+  "nghe": "Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng"
+ },
+ {
+  "id": "b_t1",
+  "khop": 0.744,
+  "kich_ban": "Thứ nhất là dải giữa, tức trung bình giá đóng cửa của hai mươi nến. Đây là xương sống của chỉ báo.",
+  "nghe": "Thứ nhất là giải giữa, tức trung bình giá đóng cửa của 20 nén. Đây là sương sống của trị báo."
+ },
+ {
+  "id": "b_app1",
+  "khop": 0.619,
+  "kich_ban": "Ngày hai mươi bảy tháng mười, giá đi trên dải giữa quanh bốn nghìn không trăm mười bảy. Phe mua đang giữ nhịp hồi.",
+  "nghe": "Ngày 27 tháng 10, giá đi trên giải giữa quanh 4.007. Phe mua đang giữ nhịp hồi."
+ },
+ {
+  "id": "b_t2",
+  "khop": 0.75,
+  "kich_ban": "Thứ hai là dải trên và dải dưới. Biến động lớn thì hai dải nở ra, thị trường yên thì hai dải co lại.",
+  "nghe": "Cứ hai là giải trên và giải dưới. Biến động lớn thì hai giải nở ra, thị trường yên thì hai giải có lại."
+ },
+ {
+  "id": "b_app2",
+  "khop": 0.818,
+  "kich_ban": "Giá đi bên trong hai dải phần lớn thời gian. Dải hẹp là thị trường yên, dải rộng là biến động mạnh.",
+  "nghe": "Giá đi bên trong 2 giải phần lớn thời gian. Giải hẹp là thị trường yên. Giải rộng là biến động mạnh."
+ },
+ {
+  "id": "b_t3",
+  "khop": 0.87,
+  "kich_ban": "Thứ ba là co thắt. Khi độ rộng dải xuống rất thấp, thị trường đang nén lại, thường trước một cú chạy mạnh.",
+  "nghe": "Thứ 3 là co thắt. Khi độ rộng dài xuống rất thấp thì trường đang nén lại, thường trước một cú chạy mạnh."
+ },
+ {
+  "id": "b_sq1",
+  "khop": 0.465,
+  "kich_ban": "Từ ngày hai mươi bảy đến ba mươi tháng mười, độ rộng dải chỉ còn khoảng hai phẩy ba đến hai phẩy sáu phần trăm.",
+  "nghe": "Từ ngày 27 đến 30 tháng 10, độ rộng dài chỉ còn khoảng 2,3 đến 2,6%."
+ },
+ {
+  "id": "b_sq2",
+  "khop": 0.529,
+  "kich_ban": "Ngày ba mươi, giá phá mạnh xuống dưới dải dưới, vàng sập về ba nghìn tám trăm bảy mươi mốt.",
+  "nghe": "Ngày 30, giá phá mạnh xuống dưới giải giới vàng sập về 3.871."
+ },
+ {
+  "id": "b_sq2b",
+  "khop": 0.818,
+  "kich_ban": "Co thắt không báo trước hướng, hãy chờ nến phá dải.",
+  "nghe": "Có thắt không báo trước hướng. Hãy chờ nến phá dài."
+ },
+ {
+  "id": "b_t4",
+  "khop": 0.739,
+  "kich_ban": "Thứ tư là bám dải. Khi nến liên tục đóng sát hoặc ngoài dải trên hay dải dưới, xu hướng đang rất mạnh.",
+  "nghe": "Thứ 4 là bám giải. Khi nến liên tục đóng sát hoặc ngoai giải trên hay giải dưới, xu hướng đăng rất mạnh."
+ },
+ {
+  "id": "b_w1",
+  "khop": 0.636,
+  "kich_ban": "Ngày bốn và năm tháng mười một, nhiều nến đóng cửa trên dải trên, giá bám dải lên bốn nghìn một trăm bốn mươi bảy.",
+  "nghe": "Ngày 4 và 5 tháng 11, nhiều nến đóng cửa trên dải trên, giá bám dải lên 4.147."
+ },
+ {
+  "id": "b_w2",
+  "khop": 1.0,
+  "kich_ban": "Đóng ngoài dải trên trong xu hướng mạnh thường là tiếp diễn, chưa phải lệnh bán.",
+  "nghe": "Đóng ngoài dải trên trong xu hướng mạnh thường là tiếp diễn, chưa phải lệnh bán."
+ },
+ {
+  "id": "b_t5",
+  "khop": 0.739,
+  "kich_ban": "Thứ năm là hồi về dải giữa. Trong xu hướng tăng, nhịp hồi về dải giữa thường là nơi giá tìm lại lực.",
+  "nghe": "Thứ 5 là hồi V giải giữa. Trong số hướng tăng, nhịp hồi V giải giữa thường là nơi giá tìm lại lực."
+ },
+ {
+  "id": "b_r1",
+  "khop": 0.653,
+  "kich_ban": "Ngày sáu tháng mười một, giá hồi về dải giữa quanh bốn nghìn không trăm ba mươi, rồi bật lên. Dải giữa trở thành hỗ trợ động.",
+  "nghe": "Ngày 6 tháng 11, giá hồi về giải giữa quanh 4.030 rồi bật lên, giải giữa trở thành hỗ trợ động."
+ },
+ {
+  "id": "b_r2",
+  "khop": 0.703,
+  "kich_ban": "Ví dụ, vào lệnh khi nến bật lên đóng cửa trên dải giữa, quanh bốn nghìn không trăm sáu mươi ba.",
+  "nghe": "Ví dụ, vào lệnh khi nến bật lên, đóng cửa trên dài giữa, quanh 4.063."
+ },
+ {
+  "id": "b_r2b",
+  "khop": 0.583,
+  "kich_ban": "Đặt cắt lỗ dưới đáy gần nhất, khoảng bốn nghìn không trăm hai mươi.",
+  "nghe": "đặt cắt lỗ dưới đấy gần nhất, khoảng 4.020."
+ },
+ {
+  "id": "b_sq3",
+  "khop": 0.5,
+  "kich_ban": "Ngày chín và mười tháng mười một, dải lại co thắt, còn khoảng ba phẩy năm phần trăm.",
+  "nghe": "Ngày 9 và 10 tháng 11, giải lại co thắt còn khoảng 3,5%."
+ },
+ {
+  "id": "b_sq3b",
+  "khop": 0.7,
+  "kich_ban": "Lần này giá phá xuống. Ngày mười hai, nến đóng dưới dải dưới và vàng về ba nghìn tám trăm năm mươi ba.",
+  "nghe": "Lần này, giá phá xuống. Ngày 12, nến đóng dưới dải dưới và vàng về 3.853."
+ },
+ {
+  "id": "now1",
+  "khop": 0.545,
+  "kich_ban": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.",
+  "nghe": "Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô."
+ },
+ {
+  "id": "b_now1b",
+  "khop": 0.522,
+  "kich_ban": "Giá đang nằm dưới dải giữa, quanh ba nghìn chín trăm bốn mươi ba.",
+  "nghe": "Giá đang nằm dưới giải giữa quanh 3.943."
+ },
+ {
+  "id": "b_now2",
+  "khop": 0.944,
+  "kich_ban": "Các dải đang mở rộng, biến động còn lớn, và xu hướng ngắn hạn vẫn nghiêng về giảm.",
+  "nghe": "Các dài đang mở rộng, biến động còn lớn và xu hướng ngắn hạn vẫn nghiêng về giảm."
+ },
+ {
+  "id": "b_now3",
+  "khop": 0.857,
+  "kich_ban": "Hãy chờ giá lấy lại dải giữa để xác nhận, đừng vội bắt đáy.",
+  "nghe": "Thấy chờ giá lấy lại giải giữa để xác nhận, đừng vội bắt đáy."
+ },
+ {
+  "id": "b_c1",
+  "khop": 0.812,
+  "kich_ban": "Năm nguyên tắc khi dùng Bollinger Bands. Một, chạm dải không phải lệnh mua hay bán.",
+  "nghe": "Năm nguyên tắc khi dùng Bollinger Bands 1. Trạm dài không phải lệnh mua hay bán"
+ },
+ {
+  "id": "b_c2",
+  "khop": 0.615,
+  "kich_ban": "Hai, co thắt báo sắp có cú chạy mạnh, nhưng không báo hướng.",
+  "nghe": "2. Co thất báo sắp có củ trệ mạnh nhưng không bảo hướng"
+ },
+ {
+  "id": "b_c3",
+  "khop": 0.833,
+  "kich_ban": "Ba, trong xu hướng mạnh, giá có thể bám dải rất lâu.",
+  "nghe": "Và trong xu hướng mạnh, giá có thể bám dài rất lâu."
+ },
+ {
+  "id": "b_c4",
+  "khop": 0.778,
+  "kich_ban": "Bốn, kết hợp dải giữa với cấu trúc giá.",
+  "nghe": "4. Kết hợp giải giữa với cấu trúc giá"
+ },
+ {
+  "id": "check_5",
+  "khop": 0.917,
+  "kich_ban": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.",
+  "nghe": "5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss"
+ },
+ {
+  "id": "b_c6",
+  "khop": 0.889,
+  "kich_ban": "Không có chỉ báo nào đúng một trăm phần trăm. Hãy dùng Bollinger Bands như một bộ lọc, không phải nút bấm mua bán.",
+  "nghe": "Không có chỉ báo nào đúng 100%, hãy dùng Bollinger Bands như một bộ lọc, không phải nút bấm mua bán."
+ },
+ {
+  "id": "b_outro",
+  "khop": 0.865,
+  "kich_ban": "Tập sau là EMA cross, giao cắt đường trung bình. Theo dõi Trader chín X để không bỏ lỡ.",
+  "nghe": "Tập sau là EMA Cross, giao cắt đường trung bình, theo dõi Treader Chinix để không bỏ lỡ."
+ }
+]

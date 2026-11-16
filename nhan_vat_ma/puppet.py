@@ -58,6 +58,10 @@ class Look:
     scale: float = 1.0            # <1 = nhỏ người
     hair_streak: bool = False
     headband: str = "#a8252d"
+    belly: float = 0.0            # bụng tròn (0..1)
+    shoe: str = "#16120f"
+    kabuto: bool = False          # mũ sắt có sừng trăng
+    sword: bool = True
 
 
 @dataclass
@@ -91,7 +95,7 @@ def _legs(look, pose, y0):
         top = y0
         bot = GROUND - 22 - off[1]
         out.append(_stroke_limb((x, top), (x, bot), 50, "#26232b"))
-        out.append(f'<ellipse cx="{x + side * 4:.1f}" cy="{bot + 14 - 0:.1f}" rx="34" ry="16" fill="{INK}"/>')
+        out.append(f'<ellipse cx="{x + side * 4:.1f}" cy="{bot + 14 - 0:.1f}" rx="34" ry="16" fill="{look.shoe}" stroke="{INK}" stroke-width="6"/>')
     return "".join(out)
 
 
@@ -278,6 +282,9 @@ def _head(look, face, hx, hy, tilt):
     # búi tóc và băng đô
     s.append(f'<circle cx="{hx}" cy="{hy - r - 16}" r="32" fill="{INK}" stroke="{INK}" stroke-width="6"/>')
     s.append(f'<rect x="{hx - 30}" y="{hy - r + 2}" width="60" height="20" rx="7" fill="{look.headband}" stroke="{INK}" stroke-width="5"/>')
+    if look.kabuto:
+        s.append(f'<path d="M{hx - 10},{hy - r - 6} Q{hx - 70},{hy - r - 70} {hx - 124},{hy - r - 40} Q{hx - 80},{hy - r - 34} {hx - 28},{hy - r + 10} Z" fill="{look.trim}" stroke="{INK}" stroke-width="6"/>')
+        s.append(f'<path d="M{hx + 10},{hy - r - 6} Q{hx + 70},{hy - r - 70} {hx + 124},{hy - r - 40} Q{hx + 80},{hy - r - 34} {hx + 28},{hy - r + 10} Z" fill="{look.trim}" stroke="{INK}" stroke-width="6"/>')
     s.append(f'<circle cx="{hx}" cy="{hy}" r="{r}" fill="none" stroke="{INK}" stroke-width="9"/>')
     s.append(_face(face, look, hx, hy))
     s.append('</g>')
@@ -308,7 +315,16 @@ def render_svg(look: Look, pose: Pose, face: Face, w=600, h=800, bg=None):
         parts.append(_banner(hL, look))
     parts.append(_torso(look, y_torso, body_w))
     parts.append(_skirt(look, y_skirt, body_w))
-    parts.append(_katana(look, y_skirt - 6))
+    if look.belly > 0:
+        bw = 92 + 40 * look.belly
+        parts.append(f'<ellipse cx="{CX}" cy="{y_torso + 118}" rx="{bw}" ry="{74 + 20 * look.belly}" fill="{look.armor}" stroke="{INK}" stroke-width="8"/>')
+        for k in range(-3, 4):
+            yy = y_torso + 118 + k * 20
+            half = bw * math.sqrt(max(0.0, 1 - ((k * 20) / (74 + 20 * look.belly)) ** 2)) - 10
+            parts.append(f'<path d="M{CX - half:.1f},{yy} Q{CX},{yy + 10} {CX + half:.1f},{yy}" fill="none" stroke="{look.armor_dark}" stroke-width="4"/>')
+        parts.append(f'<circle cx="{CX}" cy="{y_torso + 118}" r="11" fill="{look.trim}" stroke="{INK}" stroke-width="4"/>')
+    if look.sword:
+        parts.append(_katana(look, y_skirt - 6))
     # tay: tay áo + bracer
     for (S, E, H, sd) in ((shoulderL, eL, hL, -1), (shoulderR, eR, hR, 1)):
         parts.append(_stroke_limb(S, E, 36, look.sleeve))
@@ -317,6 +333,11 @@ def render_svg(look: Look, pose: Pose, face: Face, w=600, h=800, bg=None):
         parts.append(_stroke_limb(E, mid, 30, look.armor_dark))
     parts.append(_shoulder_plate(look, shoulderL, -1))
     parts.append(_shoulder_plate(look, shoulderR, 1))
+    if pose.prop_R == "bowl":
+        bx, by = (hL[0] + hR[0]) / 2, (hL[1] + hR[1]) / 2 - 6
+        parts.append(f'<path d="M{bx - 40},{by - 14} H{bx + 40} Q{bx + 36},{by + 36} {bx},{by + 38} Q{bx - 36},{by + 36} {bx - 40},{by - 14} Z" fill="#3b6e8f" stroke="{INK}" stroke-width="6" stroke-linejoin="round"/>')
+        parts.append(f'<ellipse cx="{bx}" cy="{by - 14}" rx="40" ry="9" fill="#8a5a2b" stroke="{INK}" stroke-width="5"/>')
+        parts.append(f'<path d="M{bx - 12},{by - 34} q-8,-14 0,-24 M{bx + 10},{by - 34} q-8,-14 0,-24" fill="none" stroke="#9aa" stroke-width="4" stroke-linecap="round" opacity="0.8"/>')
     parts.append(_hand(hL))
     parts.append(_hand(hR))
     parts.append(_head(look, face, CX, y_head, pose.head_tilt))
@@ -351,6 +372,10 @@ def pose_banner():
     return Pose(handL=(CX - 125, 455), handR=(CX + 100, 505), prop_L="banner")
 
 
+def pose_bowl():
+    return Pose(handL=(CX - 40, 478), handR=(CX + 40, 478), head_tilt=3, prop_R="bowl")
+
+
 def pose_cheer():
     return Pose(handL=(CX - 118, 280), handR=(CX + 118, 280), bob=-8, head_tilt=-3)
 
@@ -363,9 +388,10 @@ FACES = {
     "bình thản": Face("calm", "flat", "calm"),
 }
 
-NOBUNAGA = Look()
+NOBUNAGA = Look(kabuto=True)
 HIDEYOSHI = Look(name="Hideyoshi", armor="#e0782a", armor_dark="#a04e12", trim="#f3c75c", cape="#4a3322",
                  cape_lining="#e0782a", sleeve="#3b2a1d", moustache=False, big_ears=True, whiskers=True,
-                 scale=0.82, headband="#f3c75c")
+                 scale=0.8, headband="#f3c75c", shoe="#c8a35a", kabuto=False)
 IEYASU = Look(name="Ieyasu", armor="#2f6b46", armor_dark="#1d4430", trim="#d2a24a", cape="#2d2a22",
-              cape_lining="#2f6b46", sleeve="#2a2822", moustache=False, round_body=1.5, headband="#6b4a2c")
+              cape_lining="#2f6b46", sleeve="#2a2822", moustache=False, round_body=2.0, belly=1.0,
+              headband="#6b4a2c", sword=False)

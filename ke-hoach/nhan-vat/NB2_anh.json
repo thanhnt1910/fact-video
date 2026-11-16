@@ -22,5 +22,29 @@
   "h": 768,
   "sua_tu": "ke-hoach/nhan-vat/refs/style_blank.jpg",
   "prompt": "Keep EXACTLY the art style of the reference image: a pure blank white round head with thick black outline and an extremely simple face (small black dot eyes, simple eyebrows, little or no mouth), highly detailed ornate armor with gold trim and fabric texture, plain white mitten hands, small black shoes, soft ground shadow, plain cream background, flat clean illustration. Character turnaround sheet: exactly THREE figures of the SAME single character standing side by side, same size: left front view, middle three-quarter view, right side view. Full body, no text, no letters, no symbols or crests, no blood. Tokugawa Ieyasu in Japanese Sengoku armor: round chubby body, dark green and brown armor with a dark jacket and gold trim, sleepy half-closed calm eyes and a small peaceful smile, short topknot, holding a small tea bowl in both hands, no weapon."
+ },
+ {
+  "key": "004",
+  "nv": [],
+  "w": 1344,
+  "h": 768,
+  "sua_tu": "ke-hoach/nhan-vat/refs/style_blank.jpg",
+  "prompt": "Keep the art style of the reference image: a blank pure white round head with thick black outline, small simple face, highly detailed ornate armor with gold trim and fabric texture, plain white mitten hands, small black shoes, soft ground shadow, plain cream background, flat clean illustration. BUT the armor must be JAPANESE samurai armor of the Sengoku era (lacquered plate chest, layered rectangular shoulder plates, hakama trousers, no Chinese-style armor, no helmet, hair in a topknot). Character turnaround sheet: exactly THREE figures of the SAME single character standing side by side at the same size: left front view, middle three-quarter view, right side view. Each figure has EXACTLY two arms and EXACTLY two hands, no extra hands, no extra arms. The face is identical in all three views and clearly different from other characters. Full body, no text, no letters, no symbols or crests, no blood. Oda Nobunaga: face with sharp slanted angry eyebrows, narrow eyes and a thin small moustache. Black and deep red armor with a long black cloak lined red. Right hand holds a tall plain red cloth banner on a wooden pole (no spear head, no symbol), left hand rests on the hip. One katana fully inside its scabbard hanging straight down at the left hip along the thigh, tip pointing to the ground, never pointing sideways. No shield, no spear."
+ },
+ {
+  "key": "005",
+  "nv": [],
+  "w": 1344,
+  "h": 768,
+  "sua_tu": "ke-hoach/nhan-vat/refs/style_blank.jpg",
+  "prompt": "Keep the art style of the reference image: a blank pure white round head with thick black outline, small simple face, highly detailed ornate armor with gold trim and fabric texture, plain white mitten hands, small black shoes, soft ground shadow, plain cream background, flat clean illustration. BUT the armor must be JAPANESE samurai armor of the Sengoku era (lacquered plate chest, layered rectangular shoulder plates, hakama trousers, no Chinese-style armor, no helmet, hair in a topknot). Character turnaround sheet: exactly THREE figures of the SAME single character standing side by side at the same size: left front view, middle three-quarter view, right side view. Each figure has EXACTLY two arms and EXACTLY two hands, no extra hands, no extra arms. The face is identical in all three views and clearly different from other characters. Full body, no text, no letters, no symbols or crests, no blood. Toyotomi Hideyoshi: face with very big ears, wide cheeky grin, a few thin whiskers and a tiny pointed chin. Bright orange and gold light armor. Noticeably smaller and thinner than a normal soldier, small topknot. One hand holds one pair of straw sandals, the other hand rests on the hip. No weapon, no sword."
+ },
+ {
+  "key": "006",
+  "nv": [],
+  "w": 1344,
+  "h": 768,
+  "sua_tu": "ke-hoach/nhan-vat/refs/style_blank.jpg",
+  "prompt": "Keep the art style of the reference image: a blank pure white round head with thick black outline, small simple face, highly detailed ornate armor with gold trim and fabric texture, plain white mitten hands, small black shoes, soft ground shadow, plain cream background, flat clean illustration. BUT the armor must be JAPANESE samurai armor of the Sengoku era (lacquered plate chest, layered rectangular shoulder plates, hakama trousers, no Chinese-style armor, no helmet, hair in a topknot). Character turnaround sheet: exactly THREE figures of the SAME single character standing side by side at the same size: left front view, middle three-quarter view, right side view. Each figure has EXACTLY two arms and EXACTLY two hands, no extra hands, no extra arms. The face is identical in all three views and clearly different from other characters. Full body, no text, no letters, no symbols or crests, no blood. Tokugawa Ieyasu: face very round and chubby with a double chin, sleepy half-closed eyes drawn as two curved lines and a small calm smile. Dark green and brown armor with a dark jacket. Round chubby body. Both hands hold one small tea bowl together in front of the belly; there are NO other hands visible anywhere. No weapon, no sword."
  }
 ]

@@ -96,13 +96,13 @@
 "tone": "story"
 },
 "173006": {
-"nhom": "173001-173016",
+"nhom": "173006-173006",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:15:52",
+"thoi_diem": "2026-11-16 14:56:28",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -126,7 +126,7 @@
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:39:28",
+"thoi_diem": "2026-11-16 14:56:32",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -138,19 +138,19 @@
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:39:39",
+"thoi_diem": "2026-11-16 14:56:37",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
 },
 "173010": {
-"nhom": "173001-173016",
+"nhom": "173010-173010",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:15:52",
+"thoi_diem": "2026-11-16 14:56:42",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -246,7 +246,7 @@
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:39:48",
+"thoi_diem": "2026-11-16 14:56:46",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -360,13 +360,13 @@
 "tone": "story"
 },
 "173028": {
-"nhom": "173017-173032",
+"nhom": "173028-173028",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:16:19",
+"thoi_diem": "2026-11-16 14:56:50",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -384,13 +384,13 @@
 "tone": "story"
 },
 "173030": {
-"nhom": "173017-173032",
+"nhom": "173030-173030",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:16:19",
+"thoi_diem": "2026-11-16 14:56:54",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
@@ -492,13 +492,13 @@
 "tone": "story"
 },
 "173039": {
-"nhom": "173033-173045",
+"nhom": "173039-173039",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Charon",
 "style_id": "c0565b4d",
 "style_var": "C",
-"thoi_diem": "2026-11-16 14:16:45",
+"thoi_diem": "2026-11-16 14:56:58",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"

@@ -65,7 +65,7 @@ Ba người cùng có mặt ở một buổi sáng chiến trận. Ta xem ba kho
 46. Còn vì sao Mitsuhide làm vậy? Người ta đã đưa ra hơn năm mươi giả thuyết, nên hồ sơ ghi là KHÔNG AI BIẾT. 【KHÔNG AI BIẾT】
 47. Lúc đó Hideyoshi đang vây thành Takamatsu của nhà Mori, một đối thủ ở xa Kyoto. Nghe tin, ông giảng hòa với họ. 【CÓ SỬ】
 48. Rồi ông quay quân về, đi khoảng 230 ki-lô-mét cùng khoảng 20.000 quân, và đến nơi trong khoảng một tuần. 【CÓ SỬ】
-49. Một mô phỏng hiện đại ước tính quãng đường này cần khoảng mười ngày. Hideyoshi còn nhanh hơn cả máy tính. 【CÓ SỬ · LỜI BÌNH】
+49. Một mô phỏng hiện đại ước tính quãng đường này cần khoảng mười ngày, nhưng ông đến nơi trong khoảng một tuần. 【CÓ SỬ】
 50. Chưa đầy hai tuần sau Honnō-ji, Hideyoshi đánh bại Mitsuhide ở Yamazaki. Mitsuhide chết khi đang chạy trốn. 【CÓ SỬ】
 51. Số quân hai bên thì các nguồn cãi nhau: Mitsuhide từ mười nghìn đến mười sáu nghìn, Hideyoshi từ hai mươi nghìn đến bốn mươi nghìn. 【LỜI KHAI MÂU THUẪN】
 52. Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ. 【CÓ SỬ】
@@ -133,14 +133,13 @@ Ba người cùng có mặt ở một buổi sáng chiến trận. Ta xem ba kho
 - Ngày Honnō-ji (20 hay 21 tháng sáu) và ngày Ieyasu mất (17/4 hay 1/6): tôi nghi là chênh lệch giữa lịch âm Nhật và lịch dương chứ không phải mâu thuẫn thật, nhưng chưa kiểm chứng, nên bỏ cả hai dấu.
 - Chuông chùa ở Osaka, Triều Tiên, Komaki và Nagakute, chùa Hongan, bài thơ chim đỗ quyên.
 
-## Bảng lời bình (8 chỗ, đều là lời người kể, không thêm dữ kiện)
+## Bảng lời bình (6 chỗ, đều là lời người kể, không thêm dữ kiện)
 | Đoạn | Câu | Kiểu |
 |---|---|---|
 | 12 | Cái chợ không có ban quản lý... | ví von |
 | 25 | ...như ông trời đọc trước kịch bản | đùa tình huống (thời tiết) |
 | 31 | Ba người, hai phía, một buổi sáng. Hồ sơ vụ này chính thức mở từ đó. | chốt cảnh |
 | 38 | Tự tay dựng lên, rồi tự tay gỡ xuống. | nhịp ngắn |
-| 49 | Một mô phỏng hiện đại ước tính... Hideyoshi còn nhanh hơn cả máy tính. | đùa tình huống, gắn với số liệu ở đoạn 48 |
 | 75 | ...đứng im cho đến khi bị nhắc bằng đạn. | đùa tình huống |
 | 84 | Nhớ buổi sáng đầu tiên chứ? | nối vòng về hook |
 Không có lời bình nào lên cái chết hay nỗi đau (Nobunaga, Nobutada, Yoshimoto, Hideyori).

@@ -62,8 +62,8 @@ Ba người cùng có mặt ở một buổi sáng chiến trận. Ta xem ba kho
 43. Con trưởng của ông, Oda Nobutada, cũng tự sát sau đó. 【CÓ SỬ】
 44. Còn vì sao Mitsuhide làm vậy? Người ta đã đưa ra hơn năm mươi giả thuyết, nên hồ sơ ghi là KHÔNG AI BIẾT. 【KHÔNG AI BIẾT】
 45. Lúc đó Hideyoshi đang vây thành Takamatsu của nhà Mori, một đối thủ ở xa Kyoto. Nghe tin, ông giảng hòa với họ. 【CÓ SỬ】
-46. Rồi ông quay quân về, khoảng hai trăm ba mươi ki-lô-mét trong khoảng một tuần, cùng khoảng hai mươi nghìn quân. 【CÓ SỬ】
-47. Hồi đó chưa có đường cao tốc. 【LỜI BÌNH】
+46. Rồi ông quay quân về, đi khoảng 230 ki-lô-mét cùng khoảng 20.000 quân, và đến nơi trong khoảng một tuần. 【CÓ SỬ】
+47. Một mô phỏng hiện đại ước tính quãng đường này cần khoảng mười ngày. Hideyoshi còn nhanh hơn cả máy tính. 【CÓ SỬ · LỜI BÌNH】
 48. Chưa đầy hai tuần sau Honnō-ji, Hideyoshi đánh bại Mitsuhide ở Yamazaki. Mitsuhide chết khi đang chạy trốn. 【CÓ SỬ】
 49. Số quân hai bên thì các nguồn cãi nhau: Mitsuhide từ mười nghìn đến mười sáu nghìn, Hideyoshi từ hai mươi nghìn đến bốn mươi nghìn. 【LỜI KHAI MÂU THUẪN】
 50. Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ. 【CÓ SỬ】
@@ -133,7 +133,7 @@ Ba người cùng có mặt ở một buổi sáng chiến trận. Ta xem ba kho
 | 24 | ...như ông trời đọc trước kịch bản | đùa tình huống (thời tiết) |
 | 30 | Ba người, hai phía, một buổi sáng. Hồ sơ vụ này chính thức mở từ đó. | chốt cảnh |
 | 36 | Tự tay dựng lên, rồi tự tay gỡ xuống. | nhịp ngắn |
-| 47 | Hồi đó chưa có đường cao tốc. | đùa tình huống |
+| 47 | Một mô phỏng hiện đại ước tính... Hideyoshi còn nhanh hơn cả máy tính. | đùa tình huống, gắn với số liệu ở đoạn 46 |
 | 68 | ...đứng im cho đến khi bị nhắc bằng đạn. | đùa tình huống |
 | 77 | Nhớ buổi sáng đầu tiên chứ? | nối vòng về hook |
 Không có lời bình nào lên cái chết hay nỗi đau (Nobunaga, Nobutada, Yoshimoto, Hideyori).

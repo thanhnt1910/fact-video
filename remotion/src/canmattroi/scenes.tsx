@@ -238,7 +238,8 @@ const P24: Panel = ({f}) => (
   <g>
     <Head a="Tức khoảng" b="2 tỉ tỉ tỉ tấn" />
     <Sun cx={CX} cy={760} r={sp(f, 2, 24) * 120} />
-    <Big x={CX} y={1090} size={96} color={AM} o={sp(f, 14, 30)}>2 000 000 000 000 000 000 000 000 000 tấn</Big>
+    <Big x={CX} y={1040} size={110} color={AM} o={sp(f, 14, 30)}>2 × 10²⁷ tấn</Big>
+    <Tag x={CX} y={1150} color={C.cream} size={44} o={sp(f, 20, 34)}>2 tỉ tỉ tỉ tấn</Tag>
   </g>
 );
 // --- Cảnh 6: kết ---

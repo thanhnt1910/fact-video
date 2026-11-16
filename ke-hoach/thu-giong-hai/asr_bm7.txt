@@ -1,3 +1,3 @@
 medium
-tn31c tn32c tn33c tn34c 
-# lan1
+tn32c tn34c tn31 tn33 
+# lan2

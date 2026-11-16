@@ -138,3 +138,10 @@ def write(m,path,total):
     # nén nhẹ rồi chuẩn hóa
     st=np.stack([L,R],1);q=np.percentile(np.abs(st),99.7);st=st/max(q,1e-6)*.55;st=np.tanh(st*1.3)/1.3*1.05;st=np.clip(st,-.95,.95)
     with wave.open(path,'wb') as w: w.setnchannels(2);w.setsampwidth(2);w.setframerate(SR);w.writeframes((st*32767).astype(np.int16).tobytes())
+
+def steps(m,t0,t1,g=.35,iv=.5):
+    t=t0;i=0
+    while t<t1:
+        n=int(.12*SR);m.add(lp(m.nz(n),600)*env(n,.003,.035)*(1 if i%2==0 else .8),t+m.rng.normal(0,.012),g,m.rng.uniform(-.5,.5));t+=iv;i+=1
+def march(m,t0,t1,g=.35):
+    for k in range(4): steps(m,t0+k*.11,t1,g*.6,.55)

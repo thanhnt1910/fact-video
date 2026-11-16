@@ -86,6 +86,89 @@ def S_map(cv,t):
     seal(cv,'s937',W-270,300,T[5]+.6,t,s=.8,o=1-inn(t,T[7],.4))
     seal(cv,'s931',W-270,300,T[7]+.3,t,s=.8,o=1-inn(t,T[8]+.5,.4))
     seal(cv,'s938',W-270,300,T[9]+.2,t,s=.8,o=1-inn(t,T[10]+.8,.4))
+
+# ---------- tranh minh họa cho chương 2–3
+def stage(cv,c,t,far=.5,mist=.8,ground=880):
+    put(cv,c,'far',960,ground-60,ay=1,k=.4,o=far)
+    put(cv,c,'mist',500,ground-160,s=2.6,o=mist,k=.5);put(cv,c,'mist',1400,ground-220,s=2.2,o=mist*.8,k=.5)
+def gnd(cv,c,y=900,o=.25):
+    put(cv,c,'water',960,y,ay=0,o=o)
+def bob(t,k=0,a=4,f=6): return abs(math.sin(t*f+k))*-a
+def S_hall(cv,t):
+    a,b=T[6],E[6];u=cl((t-a)/(b-a))
+    c=cam(*cpath(t,[(a-.4,(960,560,1.0)),(b+.4,(900,580,1.18))]))
+    put(cv,c,'hall',960,900,ay=1,s=1.0)
+    put(cv,c,'fig_quan',780,762,ay=1,s=1.7,scale_px=1.5)
+    sx=lerp(1260,1050,inn(t,a+2.2,1.6));put(cv,c,'fig_satthu',sx,762,ay=1,s=1.7,o=inn(t,a+2.0,1.0)*.95,scale_px=1.5)
+    tag(cv,c,760,440,'Dương Đình Nghệ',o=fio(t,a+.4,b+.4),dy=0)
+    tag(cv,c,1080,380,'Kiều Công Tiễn',o=fio(t,a+2.8,b+.4),dy=0,col=RED)
+    if t>a+4.0:
+        v=inn(t,a+4.0,1.6);put(cv,c,'redblot',820,700,s=1.2+2.8*v,o=.55*v,r=20*v)
+        ink_wash(cv,.35*v)
+def S_931(cv,t):
+    a,b=T[7],E[7]
+    c=cam(*cpath(t,[(a-.4,(960,540,1.0)),(b+.4,(1060,560,1.06))]))
+    stage(cv,c,t,far=.6);gnd(cv,c,880,.3)
+    x=lerp(350,820,inn(t,a,b-a));put(cv,c,'army',x,920+bob(t,0,3,5),ay=1,s=1.0,o=inn(t,a-.3,.6))
+    x2=lerp(1550,2250,inn(t,a+1.0,b-a-1));put(cv,c,Af('army'),x2,790+bob(t,1,3,7),ay=1,s=.55,o=.75*(1-inn(t,b-2,1.5)),scale_px=1.5)
+    tag(cv,c,x,640,'quân Dương Đình Nghệ',o=fio(t,a+.8,b+.3),dy=0)
+    tag(cv,c,min(x2,1600),600,'quân Nam Hán rút chạy',o=fio(t,a+1.8,b+.3),dy=0,col=RED)
+    seal(cv,'s931',W-270,300,a+.3,t,s=.8,o=1-inn(t,b,.4))
+def S_aichau(cv,t):
+    a,b=T[8],E[8]
+    c=cam(*cpath(t,[(a-.4,(900,520,1.0)),(b+.4,(820,500,1.15))]))
+    put(cv,c,'far',960,760,ay=1,k=.4,o=.7);put(cv,c,'mid',700,980,ay=1,k=.7,o=.9,s=1.0)
+    put(cv,c,'mist',1300,700,s=2.6,o=.8,k=.6)
+    put(cv,c,'cliffL',560,1120,ax=0,ay=1,s=.7)
+    put(cv,c,'fig_tuong',697,530,ay=1,s=1.2,scale_px=1.5,o=inn(t,a,.8))
+    put(cv,c,'army',1250,880,ay=1,s=.65,o=inn(t,a+1.0,1.0)*.9)
+    tag(cv,c,697,250,'Ngô Quyền',sub='con rể Dương Đình Nghệ',o=fio(t,a+.5,b+.4),dy=0,sz=40)
+    tag(cv,c,1250,700,'Ái Châu (Thanh Hóa)',o=fio(t,a+3.5,b+.4),dy=0)
+def S_porters(cv,t):
+    a,b=T[10],E[10]
+    c=cam(*cpath(t,[(a-.4,(900,540,1.0)),(b+.4,(1100,560,1.08))]))
+    stage(cv,c,t,far=.6);gnd(cv,c,880,.3)
+    stroke(cv,c,[(-200,925),(2200,910)],1,wid=5,head=False,o=.5)
+    x=lerp(300,1150,inn(t,a-.3,b-a+.5));put(cv,c,'porters',x,922+bob(t,0,4,5),ay=1,s=1.5)
+    tag(cv,c,x+480,560,'sứ của Kiều Công Tiễn',o=fio(t,a+.5,b+.4),dy=0)
+    tag(cv,c,1550,420,'sang Nam Hán →',o=fio(t,a+2.5,b+.4),dy=0,col=RED)
+def S_court(cv,t):
+    a,b=T[11],E[11]
+    c=cam(*cpath(t,[(a-.4,(960,560,1.0)),(a+3,(960,520,1.12)),(b+.4,(900,520,1.2))]))
+    put(cv,c,'court',960,1010,ay=1,s=1.05)
+    tag(cv,c,1530,300,'Lưu Cung',sub='vua Nam Hán',o=fio(t,a+.6,b+.4),dy=0,sz=40)
+    if t>a+3.5:
+        stroke(cv,c,[(1110,500),(1170,390),(820,320),(320,350),(80,420)],inn(t,a+3.6,1.8),wid=10,col=RED,o=.85*(1-inn(t,b,.4)))
+        tag(cv,c,260,310,'đất Việt',o=fio(t,a+4.6,b+.4),dy=0,col=RED,sz=38)
+def S_harbor(cv,t):
+    a,b=T[13],T[14]-1.6
+    c=cam(*cpath(t,[(a-.4,(1100,560,1.0)),(b+.4,(1000,600,1.1))]))
+    bs=[]
+    for i in range(9):
+        ln=i%3;x=lerp(1700+i*130,700+i*120,inn(t,a-1+i*.2,b-a+1))
+        bs.append(dict(x=x,y=660+ln*45+math.sin(t*1.8+i)*4,s=.5+ln*.13,r=math.sin(t*1.4+i)*1.5,flip=True,ln=ln))
+    bs.sort(key=lambda q:q['ln'])
+    river(cv,c,t,PAP,wl=640,boats=bs,cliffs=False,mist=1.2,dark=.12,stakes=False)
+def S_citadel(cv,t):
+    a,b=T[14],E[14]
+    sh=3*math.sin(t*31) if a+2<t<b else 0
+    c=cam(*cpath(t,[(a-1.2,(960,520,1.0)),(b+.4,(1000,560,1.1))]),sh,sh)
+    put(cv,c,'far',960,560,ay=1,k=.4,o=.5)
+    put(cv,c,'citadel',1100,900,ay=1,s=.95)
+    for k in range(3): put(cv,c,'mist',700+k*400,400+20*math.sin(t+k),s=1.8,o=.35+.3*inn(t,a+2,2),k=.8)
+    x=lerp(-500,500,inn(t,a-.6,3.5));put(cv,c,'army',x,1000+bob(t,0,3,6),ay=1,s=1.0)
+    x2=lerp(-900,150,inn(t,a+.4,3.5));put(cv,c,'army',x2,1060+bob(t,1,3,6),ay=1,s=1.1)
+    tag(cv,c,1100,250,'thành Đại La',o=fio(t,a+.3,a+3.2),dy=0,sz=40)
+    if t>a+3.2:
+        tx=text('Kiều Công Tiễn',46,INK,700,glow=5);X,Y=c.p(1100,180);put_screen(cv,tx,X,Y,fio(t,a+3.2,b+.4))
+        stroke(cv,Cam(W/2,H/2,1,W,H),[(X-190,Y-12),(X+190,Y-16)],inn(t,a+3.8,.5),wid=6,col=RED,head=False,o=1-inn(t,b,.4))
+def S_sea(cv,t):
+    a,b=T[15],E[15]
+    c=cam(*cpath(t,[(a-.4,(1000,560,1.05)),(b+.4,(900,600,1.12))]))
+    bs=[dict(x=lerp(1500+i*140,900+i*130,inn(t,a-.4,b-a+.8)),y=650+(i%3)*45+math.sin(t*2+i)*7,s=.5+(i%3)*.13,r=math.sin(t*1.7+i)*3,flip=True,ln=i%3) for i in range(7)]
+    bs.sort(key=lambda q:q['ln'])
+    river(cv,c,t,PAP,wl=640,boats=bs,cliffs=False,mist=1.0,stakes=False,ridge_o=.35)
+    tag(cv,c,1200,380,'vẫn tiến về cửa sông Bạch Đằng',o=fio(t,a+2.5,b+.4),dy=0)
 def S_council(cv,t):
     c=cam(*cpath(t,[(T[17]-.6,(960,560,1.0)),(T[20],(960,600,1.08))]))
     put(cv,c,'far',960,700,ay=1,k=.4,o=.55);put(cv,c,'mist',600,620,s=2.5,o=.8,k=.5);put(cv,c,'mist',1400,560,s=2.2,o=.7,k=.5)
@@ -256,14 +339,23 @@ def S_line(cv,t):
     c=cam(*cpath(t,[(T[40]-.8,(900,540,1.0)),(T[41],(960,540,1.0)),(T[42],(1350,540,.95)),(E[42],(1420,540,.95))]))
     y=560
     stroke(cv,c,[(-300,y),(1100,y)],inn(t,T[40]-.2,2.2),wid=12,head=False)
-    tag(cv,c,400,y-40,'hơn một nghìn năm phương Bắc đô hộ',o=inn(t,T[40]+1.2,.6),dy=0,sz=40)
+    tag(cv,c,420,y+125,'hơn một nghìn năm phương Bắc đô hộ',o=inn(t,T[40]+1.2,.6),dy=0,sz=40)
     stroke(cv,c,[(1100,y),(1220,y)],inn(t,T[40]+2.6,.6),wid=12,col=RED,head=False)
     dot(cv,c,1100,y,o=inn(t,T[40]+2.4,.3),col=RED,r=12)
     tag(cv,c,1100,y+105,'938',o=inn(t,T[40]+2.5,.4),dy=0,sz=40,col=RED)
-    dot(cv,c,1180,y,o=inn(t,T[41]+.6,.3),r=10);tag(cv,c,1200,y-36,'944 · Ngô Quyền mất',o=inn(t,T[41]+.7,.4),dy=0,sz=34)
+    dot(cv,c,1180,y,o=inn(t,T[41]+.6,.3),r=10);tag(cv,c,1340,y+125,'944 · Ngô Quyền mất',o=inn(t,T[41]+.7,.4),dy=0,sz=34)
     stroke(cv,c,[(1220,y),(2150,y)],inn(t,T[42]+.3,2.2),wid=4,dash=16,head=False)
     dot(cv,c,2150,y,o=inn(t,T[42]+2.4,.3),r=12,col=RED)
     seal(cv,'s1288',c.p(2150,0)[0],c.p(0,y+130)[1],T[42]+2.5,t,s=.8)
+    # tranh nhỏ trên trục thời gian
+    o1=inn(t,T[40]+2.8,.8)
+    for k in range(6): put(cv,c,'stake',1040+k*24,y-150+(k%2)*8,s=.32,ay=0,o=o1)
+    put(cv,c,Af('bigboat2'),1110,y-150,s=.38,r=35,o=o1*.9,scale_px=1.5)
+    put(cv,c,'citadel',400,y-60,ay=1,s=.38,o=.45*inn(t,T[40]+.8,1.2))
+    put(cv,c,'fig_tuong',1260,y-20,ay=1,s=.45,o=inn(t,T[41]+.8,.6)*.85,scale_px=1.5)
+    o3=inn(t,T[42]+2.8,.8)
+    for k in range(6): put(cv,c,'stake',2080+k*24,y-150+(k%2)*8,s=.32,ay=0,o=o3)
+    for k in range(2): put(cv,c,Af('bigboat2'),2120+k*60,y-150,s=.34,r=-30+k*50,o=o3*.6,scale_px=1.5)
 def ghosts(t):
     out=[]
     for i in range(5):
@@ -279,7 +371,9 @@ def S_end(cv,t):
     tx=text('Hiểu dòng sông hơn đối thủ',78,INK,700);put_screen(cv,wipe(tx,inn(t,T[45]+.3,1.2),0,.3,seed=13),W/2,H/2-70)
     seal(cv,'stitle',W/2,H/2+150,T[45]+1.6,t,s=.7,r=3)
     put_screen(cv,text('Người Gác Sử',34,INK,600),W/2,H-120,inn(t,E[45]+.5,1))
-SHOTS=[(0,T[5]-.4,S_hook),(T[5]-.4,T[17]-.3,S_map),(T[17]-.3,T[20]-.3,S_council),(T[20]-.3,T[21]-1.0,S_q),(T[21]-1.0,T[22]-.3,S_mapBD),(T[22]-.3,T[26]-.6,S_cross),
+SHOTS=[(0,T[5]-.4,S_hook),(T[5]-.4,T[6]-.3,S_map),(T[6]-.3,T[7]-.3,S_hall),(T[7]-.3,T[8]-.3,S_931),(T[8]-.3,T[9]-.3,S_aichau),(T[9]-.3,T[10]-.3,S_map),
+       (T[10]-.3,T[11]-.3,S_porters),(T[11]-.3,T[12]-.3,S_court),(T[12]-.3,T[13]-.3,S_map),(T[13]-.3,T[14]-1.6,S_harbor),(T[14]-1.6,T[15]-.3,S_citadel),
+       (T[15]-.3,T[16]-.3,S_sea),(T[16]-.3,T[17]-.3,S_map),(T[17]-.3,T[20]-.3,S_council),(T[20]-.3,T[21]-1.0,S_q),(T[21]-1.0,T[22]-.3,S_mapBD),(T[22]-.3,T[26]-.6,S_cross),
        (T[26]-.6,T[35]-.3,S_battle),(T[35]-.3,T[36]-.3,S_retreat),(T[36]-.3,T[37]-.6,S_after),(T[37]-.6,T[39]-.3,S_king),(T[39]-.3,T[40]-.3,S_coloa),(T[40]-.3,T[43]-.3,S_line),
        (T[43]-.3,T[45]-.3,S_1288),(T[45]-.3,TOTAL+1,S_end)]
 LOGO=None

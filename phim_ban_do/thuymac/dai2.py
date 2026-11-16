@@ -2,7 +2,7 @@
 import sys,os,subprocess,json,math
 import dai
 from dai import *
-GD=os.environ.get('GIONG','/tmp/pc/assets/thu_giong_hai/bd2_chuan')
+GD=os.environ.get('GIONG','/tmp/pc/assets/thu_giong_hai/charon')
 J2=json.load(open('/tmp/pc/ke-hoach/thu-giong-hai/bd2_full.json'))
 TX2={i+1:d['text'] for i,d in enumerate(J2)};NN={i+1:d['n'] for i,d in enumerate(J2)}
 def dur(i):

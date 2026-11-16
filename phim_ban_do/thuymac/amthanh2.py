@@ -13,9 +13,11 @@ def write_mix(M,v,d,path):
     f=int(.6*SR)
     for x in (L,R): x[:f]*=np.linspace(0,1,f);x[-f:]*=np.linspace(1,0,f)
     L=lp(L,11000);R=lp(R,11000)
-    st=np.stack([L,R],1);q=np.percentile(np.abs(st),99.7);st=st/max(q,1e-6)*.32   # hiệu ứng nhỏ hơn giọng
-    vv=v/max(np.max(np.abs(v)),1e-6)*.8
-    out=np.clip(st+vv[:,None],-1,1);out=np.tanh(out*1.1)/np.tanh(1.1)*.95
+    # giọng giữ nguyên bản gốc Gemini (không đổi tốc độ, âm lượng, không nén); chỉ đặt hiệu ứng nằm dưới giọng
+    vr=np.sqrt(np.mean(v[np.abs(v)>1e-3]**2)) if np.any(np.abs(v)>1e-3) else .1
+    st=np.stack([L,R],1);sr=np.sqrt(np.mean(st**2))+1e-9;st=st/sr*vr*.32
+    hr=np.maximum(0,.99-np.abs(v))[:,None];st=np.clip(st,-hr,hr)   # hiệu ứng nhường chỗ, không chạm vào giọng
+    out=np.clip(st+v[:,None],-1,1)
     import wave
     with wave.open(path,'wb') as w: w.setnchannels(2);w.setsampwidth(2);w.setframerate(SR);w.writeframes((out*32767).astype(np.int16).tobytes())
 if which=='dai':

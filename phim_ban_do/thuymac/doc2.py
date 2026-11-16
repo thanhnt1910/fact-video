@@ -2,7 +2,7 @@
 import sys,os,subprocess,json
 import doc
 from doc import *
-GD='/tmp/pc/assets/thu_giong_hai/bd2d_chuan'
+GD='/tmp/pc/assets/thu_giong_hai/charon'
 J=json.load(open('/tmp/pc/ke-hoach/thu-giong-hai/bd2d_full.json'))
 doc.TX.clear();doc.TX.update({i+1:d['text'] for i,d in enumerate(J)})
 def dur(n):

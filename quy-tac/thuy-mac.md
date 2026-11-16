@@ -14,6 +14,13 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 ## 2. Giọng đọc
 - Gemini **Charon**, hồ sơ C (`STYLE_C` trong `thu_giong_hai_cum.py`), `cum.txt` = 16. Chủ kênh chọn ngày 16/11/2026 sau khi nghe thử Iapetus, Puck, Charon; lý do là Sadaltager quá trầm, cần giọng to và rõ.
 - Cả video một giọng, một hồ sơ. Sau khi đọc phải nhận dạng giọng từng đoạn và đạt 100% ở `kiem_giong.py` rồi mới dựng.
+- **Không cân giọng (chủ kênh nhắc lại 16/11/2026):** dùng nguyên file gốc Gemini trong `assets/thu_giong_hai/charon/`.
+  - KHÔNG chạy `chuan_hoa_giong.py`, không `atempo`, không `loudnorm` từng câu, không cắt lặng, không nén hay giới hạn biên độ giọng. Giọng gốc không lỗi âm điệu; qua cân giọng thì bị lỗi.
+  - Khi trộn, chỉ chỉnh mức hiệu ứng và nhạc cho nằm dưới giọng; giọng giữ nguyên.
+  - Nhận dạng giọng chạy trên bản sao y nguyên file gốc (chép sang `<mã>_chuan/` mà không xử lý gì, vì workflow nhận dạng đọc thư mục đó).
+- **Không tự đọc lại vì tốn hạn mức Gemini.** Chỉ đọc lại những câu nhận dạng sai thật (thiếu chữ, đọc sai năm, sai tên), và phải báo chủ kênh trước khi đọc lại.
+  - Lỗi do máy nhận dạng có gợi ý thì kiểm lại bằng bản không gợi ý (`asr_<mã>_ngoai.json`), không đọc lại.
+  - Đọc từng câu riêng ngay từ lần đầu, để không phải cắt cụm (cắt cụm 16 câu từng bị lệch câu ở bd2).
 
 ## 3. Kịch bản
 

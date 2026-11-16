@@ -1,46 +1,45 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Vì sao cứ bốn năm, lịch lại thêm một ngày?
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 02: Nhưng một năm đâu phải ba trăm sáu mươi lăm ngày t
-OK Leda 03: Hóa ra Trái Đất đi hết một vòng quanh Mặt Trời thì
-OK Leda 04: Vậy người xưa đo cái phần lẻ ấy bằng cách nào?
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Trước hết, họ cần một dấu mốc của năm. Dấu mốc dễ 
-OK Leda 06: Hạ chí là ngày Mặt Trời lên cao nhất bầu trời lúc 
-OK Leda 07: Nên họ ghi lại ngày hạ chí năm nay, rồi đếm xem tớ
-OK Leda 08: Nhưng mỗi lần đo sai vài giờ, nên chỉ đếm một năm 
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Leda 01: Ta đứng trên Trái Đất mà chẳng cảm thấy nó quay, v
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Vì vậy mẹo là đo hai ngày hạ chí cách nhau thật xa
-OK Leda 10: Giống như đo tờ giấy: đo cả chồng một trăm tờ rồi 
+OK Leda 02: Nhưng năm một nghìn tám trăm năm mươi mốt, một quả
+OK Leda 03: Hóa ra quả nặng ấy không chỉ đung đưa, mà mặt phẳn
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: Nhà thiên văn Hip-pa-khốt đã làm như vậy ở Hy Lạp,
-OK Leda 12: Ông so ngày hạ chí mình quan sát với ngày hạ chí n
-OK Leda 13: Giữa hai lần hạ chí ấy có gần ba trăm năm, đếm ra 
-OK Leda 14: Rồi ông chia số ngày ấy cho số năm.
-OK Leda 15: Ta được khoảng ba trăm sáu mươi lăm phẩy hai bốn s
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 16: Số đo hiện đại là ba trăm sáu mươi lăm phẩy hai bố
-OK Leda 17: Nên ông chỉ lệch khoảng sáu phút mỗi năm, dù không
-OK Leda 18: Vậy lịch nên chia năm thế nào? Lịch Giu-li-an, bắt
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Như vậy năm trung bình là ba trăm sáu mươi lăm ngà
-OK Leda 20: Con số này dài hơn năm thật khoảng không phẩy khôn
-OK Leda 21: Từ năm ba trăm hai mươi lăm tới năm một nghìn năm 
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 22: Nhân với không phẩy không bảy tám ngày, ra gần mườ
-OK Leda 23: Năm một nghìn năm trăm tám mươi hai, Giáo hoàng Gờ
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 24: Sau ngày bốn tháng mười là ngày mười lăm tháng mườ
+OK Leda 04: Vậy vì sao nó xoay, và điều đó nói gì về Trái Đất?
    [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 25: Ông đổi luật: năm chia hết cho bốn thì nhuận, trừ 
-OK Leda 26: Nên các năm một nghìn bảy trăm, tám trăm, chín tră
+OK Leda 05: Người làm thí nghiệm này là Phu-cô.
    [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 27: Cứ bốn trăm năm chỉ có chín mươi bảy năm nhuận.
-OK Leda 28: Bốn trăm năm đó có hơn một trăm bốn mươi sáu nghìn
-OK Leda 29: Chia cho bốn trăm năm, ta được ba trăm sáu mươi lă
    [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 06: Ông treo quả nặng hai mươi tám ki-lô-gam vào dây d
+   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 07: Sáu mươi bảy mét cao hơn hai mươi tầng nhà.
+OK Leda 08: Dây dài như vậy thì quả nặng đung đưa rất chậm, nê
    [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
    [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
-OK Leda 30: Gần sát năm thật, nên lịch này lệch rất chậm, phải
-   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 31: Vậy cứ bốn năm thêm một ngày, vì mỗi năm dài hơn b
+OK Leda 09: Ta thử một ví dụ: đặt tờ giấy lên bàn xoay, rồi dù
+OK Leda 10: Khi bàn dừng, đường vẽ trên giấy bị cong, dù tay t
+   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 11: Quả nặng giống cây bút: nó cứ đung đưa theo một hư
+OK Leda 12: Còn mặt đất bên dưới giống tờ giấy, đang xoay cùng
+OK Leda 13: Vì vậy người đứng dưới thấy mặt phẳng đung đưa lệc
+OK Leda 14: Ở Bắc Cực, mặt phẳng ấy xoay trọn một vòng trong m
+OK Leda 15: Trái Đất quay ba trăm sáu mươi độ trong hai mươi b
+OK Leda 16: Vậy mỗi giờ nó quay mười lăm độ.
+   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 17: Nhưng đền ấy ở Pa-ri, không phải ở Bắc Cực, nên mặ
+OK Leda 18: Tốc độ xoay bằng mười lăm độ nhân một con số gọi l
+OK Leda 19: Con số ấy là không ở xích đạo và là một ở cực.
+OK Leda 20: Pa-ri ở khoảng bốn mươi tám phẩy tám độ Bắc, nơi c
+OK Leda 21: Mười lăm nhân không phẩy bảy lăm ra khoảng mười mộ
+OK Leda 22: Đúng như Phu-cô đã thấy: hơn mười một độ mỗi giờ.
+   [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 23: Ba trăm sáu mươi chia mười một phẩy ba ra khoảng b
+OK Leda 24: Ở xích đạo, sin bằng không, nên quả lắc không xoay
+OK Leda 25: Đây là thí nghiệm đơn giản đầu tiên cho thấy trực 
+OK Leda 26: Chỉ cần một quả nặng và một sợi dây, đứng yên tron
+OK Leda 27: Vậy quả lắc xoay vì chính chúng ta đang xoay cùng 

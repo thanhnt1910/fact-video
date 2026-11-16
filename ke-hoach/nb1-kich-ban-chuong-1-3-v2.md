@@ -9,7 +9,7 @@ Giọng: người kể như bạn kể chuyện, câu cụt, tự hỏi tự đ�
 3. Kyoto cháy rất nhiều chùa chiền, dinh thự. Quý tộc với thầy tu ôm đồ chạy khỏi kinh đô. Một vụ cãi nhau mà ra nông nỗi này.
 4. Còn ông tướng quân thì sao? Lui về nhà gác bạc Ginkaku-ji ngồi ngắm cảnh. Ngoài kia cháy, ông ở trong view đẹp.
 5. Quyền của tướng quân coi như bốc hơi. Chiến tranh lan từ kinh đô ra khắp vùng quê. Lãnh chúa địa phương, gọi là daimyo, tự cầm quân giữ đất.
-6. Giống công ty mất giám đốc, các trưởng phòng tự mở công ty riêng. Thời này gọi là Sengoku, tức Chiến Quốc của Nhật. Kẻ dưới giành quyền kẻ trên là chuyện thường.
+6. Giống công ty mất giám đốc, các trưởng phòng tự mở công ty riêng. Thời này gọi là Sengoku, tức Chiến Quốc của Nhật. Kẻ dưới giành quyền kẻ trên là thường.
 7. Nghe thì như đại loạn. Nhưng chính giữa cái chợ vỡ này, ba cậu bé lần lượt ra đời.
 
 ## Chương 2. Con chim không chịu hót (giai thoại)

@@ -1,41 +1,46 @@
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Vì sao một mét lại dài đúng như vậy, mà không dài 
-OK Leda 02: Nhưng độ dài ấy không do ai tùy tiện chọn.
+OK Leda 01: Số pi có những chữ số dài vô tận, vậy làm sao ngườ
+OK Leda 02: Nhưng họ không cần viết hết nó.
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Hóa ra nó được lấy từ chính kích thước của Trái Đấ
-OK Leda 04: Vậy người ta đo cả Trái Đất bằng cách nào?
-OK Leda 05: Ngày xưa ở Pháp, mỗi thị trấn đo dài và cân nặng t
+OK Leda 03: Họ chỉ cần kẹp nó giữa hai con số thật gần nhau.
+OK Leda 04: Hóa ra cách kẹp ấy do Ác-si-mét nghĩ ra, chỉ bằng 
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Người ta ước tính có tới khoảng một phần tư triệu 
-OK Leda 07: Vì vậy, các nhà khoa học muốn một thước đo chung, 
+OK Leda 05: Trước hết, pi là gì? Lấy chu vi hình tròn chia cho
+OK Leda 06: Hình tròn lớn hay nhỏ, kết quả vẫn như nhau: hơn b
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 08: Họ quyết định một mét bằng một phần mười triệu quã
-OK Leda 09: Quãng đường ấy đi dọc một đường kinh tuyến, tức đư
-OK Leda 10: Nhưng không ai có thể đi bộ từ Bắc Cực tới xích đạ
-OK Leda 11: Nên họ chỉ đo một đoạn ngắn hơn, từ thành phố Đăng
+OK Leda 07: Ta thử xem: quấn một sợi chỉ quanh cái lon, đo sợi
+OK Leda 08: Ta được khoảng ba phẩy một, nhưng sợi chỉ giãn và 
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 12: Hai nhà thiên văn Đơ-lăm-bơ và Mê-sanh đo đoạn này
-OK Leda 13: Họ không kéo thước dọc một nghìn ki-lô-mét, mà dùn
+OK Leda 09: Đường cong thì khó đo, còn đường thẳng thì đo rất 
+OK Leda 10: Vì vậy Ác-si-mét thay vòng tròn bằng những hình có
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Đầu tiên, họ đo thật kỹ một đoạn thẳng dài hơn mườ
-OK Leda 15: Rồi từ hai đầu đoạn ấy, họ đo góc nhìn tới một ngọ
-OK Leda 16: Biết một cạnh và hai góc, ta tính được hai cạnh cò
-OK Leda 17: Như bên bờ sông: đo một đoạn dọc bờ và hai góc nhì
-OK Leda 18: Cứ thế, họ nối nhiều tam giác thành một chuỗi, từ 
+OK Leda 11: Ông vẽ một hình sáu cạnh nằm gọn trong vòng tròn, 
+OK Leda 12: Chu vi nó ngắn hơn vòng tròn, vì đi đường thẳng lu
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Cả chuỗi dài khoảng một nghìn ki-lô-mét, bằng khoả
-OK Leda 20: Vậy cả quãng từ cực tới xích đạo là một nghìn nhân
-OK Leda 21: Ra khoảng mười nghìn ki-lô-mét.
-OK Leda 22: Mười nghìn ki-lô-mét bằng mười triệu mét.
-OK Leda 23: Chia quãng ấy thành mười triệu phần, mỗi phần dài 
-OK Leda 24: Năm một nghìn bảy trăm chín mươi chín, độ dài ấy đ
+OK Leda 13: Rồi ông vẽ một hình sáu cạnh khác nằm ngoài vòng t
+OK Leda 14: Chu vi hình này dài hơn vòng tròn, vì nó ôm bên ng
+OK Leda 15: Vòng tròn bị kẹp giữa hai chu vi ấy, mà cả hai đều
+OK Leda 16: Mỗi cạnh hình trong dài bằng một nửa đường kính, n
+OK Leda 17: Còn chu vi hình ngoài là khoảng ba phẩy bốn sáu.
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 25: Nhân bốn quãng từ cực tới xích đạo, ta được một vò
-OK Leda 26: Mười nghìn nhân bốn, ra bốn mươi nghìn ki-lô-mét.
-OK Leda 27: Ngày nay, vòng ấy được đo là khoảng bốn mươi nghìn
-OK Leda 28: Nghĩa là thanh mét đầu tiên ngắn hơn định nghĩa kh
+OK Leda 18: Vậy pi nằm giữa ba và ba phẩy bốn sáu. Khoảng kẹp 
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 29: Chỉ bằng độ dày của hai tờ giấy, do những sai số n
-OK Leda 30: Người ta vẫn giữ nguyên độ dài ấy, và mọi định ngh
-OK Leda 31: Năm một nghìn chín trăm tám mươi ba, mét được định
-OK Leda 32: Vậy một mét dài như thế vì nó là một phần mười tri
+OK Leda 19: Mẹo của ông là gấp đôi số cạnh, vì hình càng nhiều
+OK Leda 20: Với mười hai cạnh, pi nằm giữa ba phẩy mười một và
+OK Leda 21: Với hai mươi bốn cạnh, pi nằm giữa ba phẩy mười ba
+   [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 22: Với bốn mươi tám cạnh, pi nằm giữa ba phẩy mười bố
+OK Leda 23: Cuối cùng là chín mươi sáu cạnh, và ông dừng ở đó.
+   [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 24: Ông ghi: pi lớn hơn hai trăm hai mươi ba phần bảy 
+   [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 25: Đổi ra số thập phân, pi nằm từ ba phẩy một bốn tới
+OK Leda 26: Ông làm tròn theo hướng an toàn, nên khoảng kẹp rộ
+OK Leda 27: Pi thật là ba phẩy một bốn một sáu, nằm gọn giữa h
+OK Leda 28: Phân số hai mươi hai phần bảy chỉ lệch pi chưa đến
+OK Leda 29: Nhờ gấp đôi số cạnh, cách kẹp này có thể chính xác
+   [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 30: Ngày nay, máy tính đã tính được hơn một trăm nghìn
+OK Leda 31: Vậy pi dài vô tận, nhưng người xưa chỉ cần kẹp nó 

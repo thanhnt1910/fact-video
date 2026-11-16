@@ -1,0 +1,41 @@
+TRADER9X MASTERCLASS – ICT trên XAUUSD (cấu trúc 2 phần) | Lời đọc giọng nam Iapetus, khớp video 3:44
+
+00:00  ICT, Inner Circle Trader. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.
+00:08  Phần một. Định nghĩa.
+00:10  ICT là viết tắt của Inner Circle Trader, phương pháp đọc giá do Michael Huddleston xây dựng và phổ biến.
+00:18  ICT không dựa vào chỉ báo trễ. Nó đọc thanh khoản và các vùng mất cân bằng giá ngay trên biểu đồ.
+00:25  Cấu trúc thị trường cho biết hướng, còn thanh khoản là mục tiêu của giá.
+00:29  Cú đẩy mạnh xác nhận ý đồ, còn FVG và Order Block là vùng vào lệnh.
+00:36  Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.
+00:40  Thứ nhất là thanh khoản. Đó là nơi lệnh dừng lỗ tụ lại, phía trên đỉnh cũ và phía dưới đáy cũ.
+00:47  Ngày ba mươi tháng mười, vàng lập đáy ba nghìn tám trăm bảy mươi mốt. Bên dưới đáy này là thanh khoản bên bán.
+00:55  Thứ hai là quét thanh khoản. Giá thủng nhanh đỉnh hoặc đáy cũ để kích hoạt lệnh dừng lỗ, rồi quay đầu ngay.
+01:03  Ngày hai tháng mười một, giá thủng đáy cũ xuống ba nghìn tám trăm sáu mươi sáu, quét sạch thanh khoản, rồi bật lên ngay.
+01:10  Thứ ba là Order Block, cây nến ngược chiều cuối cùng trước một cú đẩy mạnh. Đây là vùng giá có lệnh lớn.
+01:17  Ngày ba tháng mười một, cây nến ngày giảm cuối cùng trước cú bứt phá chính là Order Block tăng.
+01:24  Thứ tư là Market Structure Shift. Khi giá đóng cửa vượt đỉnh hoặc đáy quan trọng gần nhất, cấu trúc đổi chiều.
+01:31  Ngày bốn tháng mười một, nến H bốn đóng cửa trên ba nghìn chín trăm bảy mươi, vượt đỉnh cũ. Cấu trúc chuyển sang tăng.
+01:39  Thứ năm là Fair Value Gap, khoảng trống giữa ba cây nến khi giá chạy quá nhanh. Giá hay quay lại vùng này.
+01:47  Cú đẩy ngày bốn và năm tháng mười một để lại khoảng trống từ ba nghìn chín trăm sáu mươi chín đến bốn nghìn không trăm năm mươi bảy.
+01:54  Ngày sáu tháng mười một, giá hồi vào vùng này, chạm bốn nghìn không trăm hai mươi tám, rồi bật lên bốn nghìn một trăm ba mươi tám.
+02:03  Ví dụ, vào lệnh khi giá phản ứng trong vùng FVG, quanh bốn nghìn không trăm sáu mươi ba.
+02:10  Đặt cắt lỗ dưới đáy gần nhất, khoảng bốn nghìn không trăm hai mươi.
+02:14  Chiều ngược lại, ngày mười tháng mười một, giá vượt đỉnh cũ lên bốn nghìn một trăm bốn mươi chín, quét thanh khoản bên mua.
+02:22  Sau đó nến H bốn đóng dưới đáy bốn nghìn không trăm hai mươi tám, cấu trúc chuyển sang giảm.
+02:28  Ngày mười hai, vàng rơi về ba nghìn tám trăm năm mươi ba.
+02:32  Cú rơi để lại một Fair Value Gap giảm. Ngày mười ba, giá hồi lên chạm mép vùng này rồi bị đẩy xuống.
+02:39  Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.
+02:45  Giá đang nằm dưới vùng FVG giảm, nên cấu trúc vẫn nghiêng về giảm.
+02:50  Bên dưới là các đáy cũ quanh ba nghìn tám trăm năm mươi ba đến ba nghìn tám trăm sáu mươi sáu, vùng thanh khoản mà ICT trader theo dõi.
+02:58  Hãy chờ tín hiệu xác nhận, đừng đoán đáy.
+03:03  Năm nguyên tắc khi dùng ICT. Một, xác định hướng từ cấu trúc khung lớn trước.
+03:09  Hai, chờ giá quét thanh khoản rồi mới tìm điểm vào.
+03:13  Ba, cần Market Structure Shift và một cú đẩy mạnh để xác nhận.
+03:18  Bốn, vào lệnh ở vùng FVG hoặc Order Block, không đuổi theo giá.
+03:24  Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.
+03:29  ICT là cách đọc giá, không phải công thức chắc thắng. Hãy kiểm tra lại trên dữ liệu quá khứ trước khi dùng tiền thật.
+03:37  Tập sau là EMA cross, giao cắt đường trung bình. Theo dõi Trader chín X để không bỏ lỡ.
+
+Nguồn giá: MetalCharts XAU/USD daily, 26/10–13/11/2026 (chỉ ngày giao dịch). Phiên 13/11 đóng cửa 3.875,68 USD/oz.
+Các vùng ICT (SSL 3.871,19; quét 3.866,02; Order Block 03/11 3.896–3.943; FVG tăng 3.969,2–4.056,9; BSL 4.147,6; quét 4.149,01; FVG giảm 3.923,9–3.982,2) lấy từ giá NGÀY thật.
+Nến H4 dựng lại từ giá mở/cao/thấp/đóng từng ngày nên hình dạng trong ngày là gần đúng.

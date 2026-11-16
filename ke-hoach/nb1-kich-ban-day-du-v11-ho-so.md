@@ -26,7 +26,7 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 6. Cần biết trước: Nhật có hai ngôi cao nhất. Thiên hoàng là vua trên danh nghĩa, còn tướng quân mới nắm quân sự và điều hành chính quyền. 【CÓ SỬ】
 7. Mọi chuyện bắt đầu từ chuyện nối ngôi tướng quân. Tướng quân Ashikaga Yoshimasa không có con nên định cho em trai nối ngôi. Sau đó ông có con trai, và cả nhà tướng quân cãi nhau xem ai sẽ nối. 【CÓ SỬ】
 8. Năm 1467, hai lãnh chúa mạnh nhất Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. 【CÓ SỬ】
-9. Kyoto bị đốt nhiều chùa chiền, dinh thự. Tướng quân lúc ấy lui về nhà gác bạc Ginkaku-ji ngồi ngắm cảnh, còn quyền hành của ông thì hầu như không còn. 【CÓ SỬ】
+9. Kyoto bị đốt nhiều chùa chiền, dinh thự. Tướng quân rút về biệt thự nghỉ dưỡng ở phía đông bắc Kyoto, nơi về sau thành chùa Gác Bạc, ngồi ngắm cảnh khi quyền hành gần như không còn. 【CÓ SỬ】
 10. Chiến tranh lan ra khắp vùng quê. Nông dân lập hội rồi cầm vũ khí nổi dậy, thường do võ sĩ địa phương dẫn đầu, và một số người trong đó về sau thành daimyo, tức lãnh chúa. 【CÓ SỬ】
 11. Những lãnh chúa này tự cầm quân giữ đất, và kẻ dưới giành quyền kẻ trên là chuyện thường. Thời kỳ này gọi là Sengoku, tức thời Chiến Quốc của Nhật. 【CÓ SỬ】
 12. Quyền thật ở Kyoto lần lượt rơi vào ba dòng họ là Hosokawa, rồi Miyoshi, rồi Matsunaga. Tướng quân vẫn còn đó, nhưng chỉ còn cái danh. 【CÓ SỬ】
@@ -128,6 +128,8 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 
 ## Sửa sau khi chủ kênh phản hồi (16/11, 16:49)
 Đoạn 7–9 viết lại vì bản trước tóm tắt quá chặt ("hai phe quan lớn tranh quyền") khiến người nghe không biết tranh gì. Nguồn: Britannica (mục Ōnin War và mục Japan, The Ōnin War 1467–77): tướng quân Yoshimasa không có con nên đề nghị em trai nối ngôi, sau đó có con trai và nảy sinh tranh chấp quyền kiểm soát nhà Ashikaga; phe Đông là Hosokawa, phe Tây là Yamana; chiến tranh bắt đầu năm 1467 và kéo dài mười một năm. Hai trang Britannica là một nhà xuất bản, nên mức chắc là một nguồn. Đã bỏ chi tiết "quý tộc bỏ kinh đô" ở đoạn 8 cũ để đoạn gọn.
+
+**Đoạn 9 viết lại lần hai (16:51):** "nhà gác bạc Ginkaku-ji" là cách dịch chưa rõ. Ginkaku-ji (Gác Bạc) là khu biệt thự nghỉ dưỡng do tướng quân Ashikaga Yoshimasa xây ở vùng Higashiyama, phía đông bắc Kyoto, sau khi ông mất năm 1490 được chuyển thành chùa Thiền (nguồn: WorldHistory.org, Traditional Kyoto; hai nguồn khớp). Hai nguồn lệch về thời điểm (xây từ 1460 và hoàn thành 1483, hay ông dọn đến sau khi nghỉ hưu năm 1483), nên đoạn 9 không nói năm, chỉ nói ông rút về đó.
 
 ## Điểm cần chủ kênh quyết (quy tắc kênh bị chạm)
 1. Quy tắc cũ ghi "ghi chú tranh cãi, so sánh nguồn không nằm trong lời kể". Hướng này đưa "lời khai mâu thuẫn" vào lời kể. Mục "Nới quy tắc viết kịch bản" (05/11/2026) cho phép nhắc nguồn trong lời kể, nhưng bản 11 vẫn cần chủ kênh đồng ý rõ.

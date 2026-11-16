@@ -25,6 +25,16 @@ import {Khongkhi} from './khongkhi/Khongkhi';
 import {timeline as timelineKk} from './khongkhi/content';
 import {Motmet} from './motmet/Motmet';
 import {timeline as timelineMm} from './motmet/content';
+import {Sopi} from './sopi/Sopi';
+import {timeline as timelineSp} from './sopi/content';
+import {Phantu} from './phantu/Phantu';
+import {timeline as timelinePt} from './phantu/content';
+import {Namdai} from './namdai/Namdai';
+import {timeline as timelineNd} from './namdai/content';
+import {Conlac} from './conlac/Conlac';
+import {timeline as timelineCl} from './conlac/content';
+import {Canmattroi} from './canmattroi/Canmattroi';
+import {timeline as timelineCm} from './canmattroi/content';
 import {timeline as timelineMtr} from './matrang/content';
 import {timeline as timelineTd} from './tuoitd/content';
 import {timeline as timelineNc} from './nuicao/content';
@@ -62,6 +72,11 @@ export const Root: React.FC = () => {
       <Composition id="Matrang" component={Matrang} durationInFrames={timelineMtr().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Khongkhi" component={Khongkhi} durationInFrames={timelineKk().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Motmet" component={Motmet} durationInFrames={timelineMm().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Sopi" component={Sopi} durationInFrames={timelineSp().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Phantu" component={Phantu} durationInFrames={timelinePt().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Namdai" component={Namdai} durationInFrames={timelineNd().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Conlac" component={Conlac} durationInFrames={timelineCl().total} fps={FPS} width={1080} height={1920} />
+      <Composition id="Canmattroi" component={Canmattroi} durationInFrames={timelineCm().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Nhietke" component={Nhietke} durationInFrames={timelineNk().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Mattroi" component={Mattroi} durationInFrames={timelineMt().total} fps={FPS} width={1080} height={1920} />
       <Composition id="Amthanh" component={Amthanh} durationInFrames={timelineAm().total} fps={FPS} width={1080} height={1920} />

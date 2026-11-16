@@ -1,0 +1,594 @@
+[
+ [
+  {
+   "text": "Số *pi*",
+   "start": 0.41,
+   "end": 1.029
+  },
+  {
+   "text": "dài *vô* *tận*,",
+   "start": 1.029,
+   "end": 1.957
+  },
+  {
+   "text": "làm sao người xưa",
+   "start": 1.957,
+   "end": 3.534
+  },
+  {
+   "text": "tính được khi *chưa*",
+   "start": 3.534,
+   "end": 4.772
+  },
+  {
+   "text": "*có* *máy* *tính*?",
+   "start": 4.772,
+   "end": 5.82
+  }
+ ],
+ [
+  {
+   "text": "Nhưng họ *không* *cần*",
+   "start": 0.22,
+   "end": 1.197
+  },
+  {
+   "text": "*viết* *hết* nó.",
+   "start": 1.197,
+   "end": 2.05
+  }
+ ],
+ [
+  {
+   "text": "Chỉ cần *kẹp* *nó*",
+   "start": 0.35,
+   "end": 1.455
+  },
+  {
+   "text": "giữa *hai* *con* *số*",
+   "start": 1.455,
+   "end": 2.561
+  },
+  {
+   "text": "thật gần nhau.",
+   "start": 2.561,
+   "end": 3.51
+  }
+ ],
+ [
+  {
+   "text": "Hóa ra",
+   "start": 0.44,
+   "end": 1.108
+  },
+  {
+   "text": "*Ác-si-mét* nghĩ ra,",
+   "start": 1.108,
+   "end": 2.11
+  },
+  {
+   "text": "chỉ bằng",
+   "start": 2.11,
+   "end": 3.108
+  },
+  {
+   "text": "*hình* *nhiều* *cạnh*.",
+   "start": 3.108,
+   "end": 4.23
+  }
+ ],
+ [
+  {
+   "text": "Pi là gì?",
+   "start": 0.43,
+   "end": 1.666
+  },
+  {
+   "text": "*Chu* *vi* hình tròn",
+   "start": 1.666,
+   "end": 3.568
+  },
+  {
+   "text": "chia cho *đường* *kính*.",
+   "start": 3.568,
+   "end": 4.87
+  }
+ ],
+ [
+  {
+   "text": "Tròn lớn hay nhỏ,",
+   "start": 0.31,
+   "end": 1.316
+  },
+  {
+   "text": "kết quả",
+   "start": 1.316,
+   "end": 2.099
+  },
+  {
+   "text": "vẫn *như* *nhau*:",
+   "start": 2.099,
+   "end": 2.854
+  },
+  {
+   "text": "*hơn* *3* một chút.",
+   "start": 2.854,
+   "end": 4.38
+  }
+ ],
+ [
+  {
+   "text": "Quấn *sợi* *chỉ*",
+   "start": 0.34,
+   "end": 1.681
+  },
+  {
+   "text": "quanh cái lon,",
+   "start": 1.681,
+   "end": 2.543
+  },
+  {
+   "text": "đo chỉ,",
+   "start": 2.543,
+   "end": 3.697
+  },
+  {
+   "text": "rồi *chia* *cho*",
+   "start": 3.697,
+   "end": 4.859
+  },
+  {
+   "text": "*bề* *ngang* lon.",
+   "start": 4.859,
+   "end": 5.84
+  }
+ ],
+ [
+  {
+   "text": "Được *khoảng* *3,1*,",
+   "start": 0.41,
+   "end": 2.273
+  },
+  {
+   "text": "nhưng chỉ giãn và",
+   "start": 2.273,
+   "end": 3.209
+  },
+  {
+   "text": "lệch nên *chữ* *số*",
+   "start": 3.209,
+   "end": 4.424
+  },
+  {
+   "text": "*sau* không đáng tin.",
+   "start": 4.424,
+   "end": 5.48
+  }
+ ],
+ [
+  {
+   "text": "*Đường* *cong* khó đo,",
+   "start": 0.41,
+   "end": 1.592
+  },
+  {
+   "text": "*đường* *thẳng* thì đo",
+   "start": 1.592,
+   "end": 3.274
+  },
+  {
+   "text": "rất chính xác.",
+   "start": 3.274,
+   "end": 4.4
+  }
+ ],
+ [
+  {
+   "text": "Ác-si-mét thay vòng",
+   "start": 0.51,
+   "end": 1.437
+  },
+  {
+   "text": "tròn bằng hình",
+   "start": 1.437,
+   "end": 2.503
+  },
+  {
+   "text": "*có* *cạnh* *thẳng*.",
+   "start": 2.503,
+   "end": 3.55
+  }
+ ],
+ [
+  {
+   "text": "Vẽ *hình* *6* *cạnh*",
+   "start": 0.34,
+   "end": 1.553
+  },
+  {
+   "text": "nằm *trong* vòng tròn,",
+   "start": 1.553,
+   "end": 2.767
+  },
+  {
+   "text": "các đỉnh chạm vòng.",
+   "start": 2.767,
+   "end": 4.47
+  }
+ ],
+ [
+  {
+   "text": "Chu vi nó *ngắn*",
+   "start": 0.44,
+   "end": 1.497
+  },
+  {
+   "text": "*hơn* vòng tròn:",
+   "start": 1.497,
+   "end": 2.48
+  },
+  {
+   "text": "đường thẳng *luôn* *ngắn*",
+   "start": 2.48,
+   "end": 3.647
+  },
+  {
+   "text": "*hơn* đường cong.",
+   "start": 3.647,
+   "end": 4.56
+  }
+ ],
+ [
+  {
+   "text": "Rồi vẽ hình",
+   "start": 0.31,
+   "end": 1.124
+  },
+  {
+   "text": "6 cạnh khác nằm",
+   "start": 1.124,
+   "end": 2.21
+  },
+  {
+   "text": "*ngoài* vòng tròn,",
+   "start": 2.21,
+   "end": 3.024
+  },
+  {
+   "text": "các cạnh chạm vòng.",
+   "start": 3.024,
+   "end": 4.47
+  }
+ ],
+ [
+  {
+   "text": "Chu vi hình này",
+   "start": 0.42,
+   "end": 1.355
+  },
+  {
+   "text": "*dài* *hơn* vòng tròn,",
+   "start": 1.355,
+   "end": 2.291
+  },
+  {
+   "text": "vì nó",
+   "start": 2.291,
+   "end": 2.758
+  },
+  {
+   "text": "*ôm* *bên* *ngoài*.",
+   "start": 2.758,
+   "end": 3.58
+  }
+ ],
+ [
+  {
+   "text": "Vòng tròn *bị* *kẹp*",
+   "start": 0.42,
+   "end": 1.412
+  },
+  {
+   "text": "giữa hai chu vi,",
+   "start": 1.412,
+   "end": 2.664
+  },
+  {
+   "text": "cả hai đều *đo*",
+   "start": 2.664,
+   "end": 3.796
+  },
+  {
+   "text": "*được* *bằng* *thước*.",
+   "start": 3.796,
+   "end": 4.66
+  }
+ ],
+ [
+  {
+   "text": "Mỗi cạnh *bằng*",
+   "start": 0.53,
+   "end": 1.385
+  },
+  {
+   "text": "*nửa* *đường* *kính*:",
+   "start": 1.385,
+   "end": 2.24
+  },
+  {
+   "text": "*6* *×*",
+   "start": 2.24,
+   "end": 3.07
+  },
+  {
+   "text": "*0,5* *=* *3*.",
+   "start": 3.07,
+   "end": 4.9
+  }
+ ],
+ [
+  {
+   "text": "Chu vi hình ngoài",
+   "start": 0.39,
+   "end": 1.247
+  },
+  {
+   "text": "là *khoảng* *3,46*.",
+   "start": 1.247,
+   "end": 3.32
+  }
+ ],
+ [
+  {
+   "text": "Pi nằm giữa",
+   "start": 0.38,
+   "end": 1.328
+  },
+  {
+   "text": "*3* và *3,46*.",
+   "start": 1.328,
+   "end": 3.508
+  },
+  {
+   "text": "Khoảng kẹp",
+   "start": 3.508,
+   "end": 4.453
+  },
+  {
+   "text": "còn *rất* *rộng*.",
+   "start": 4.453,
+   "end": 5.39
+  }
+ ],
+ [
+  {
+   "text": "Mẹo:",
+   "start": 0.38,
+   "end": 0.712
+  },
+  {
+   "text": "*gấp* *đôi* *số* *cạnh*,",
+   "start": 0.712,
+   "end": 2.038
+  },
+  {
+   "text": "càng nhiều cạnh càng",
+   "start": 2.038,
+   "end": 3.564
+  },
+  {
+   "text": "*ôm* *sát* vòng tròn.",
+   "start": 3.564,
+   "end": 5.24
+  }
+ ],
+ [
+  {
+   "text": "*12* *cạnh*:",
+   "start": 0.36,
+   "end": 1.12
+  },
+  {
+   "text": "pi nằm giữa",
+   "start": 1.12,
+   "end": 2.07
+  },
+  {
+   "text": "*3,11* và *3,22*.",
+   "start": 2.07,
+   "end": 4.85
+  }
+ ],
+ [
+  {
+   "text": "*24* *cạnh*:",
+   "start": 0.46,
+   "end": 1.273
+  },
+  {
+   "text": "giữa *3,13* và *3,16*.",
+   "start": 1.273,
+   "end": 4.89
+  }
+ ],
+ [
+  {
+   "text": "*48* *cạnh*:",
+   "start": 0.4,
+   "end": 1.238
+  },
+  {
+   "text": "giữa *3,14* và *3,15*.",
+   "start": 1.238,
+   "end": 4.6
+  }
+ ],
+ [
+  {
+   "text": "Cuối cùng *96* *cạnh*,",
+   "start": 0.47,
+   "end": 1.82
+  },
+  {
+   "text": "và ông",
+   "start": 1.82,
+   "end": 2.7
+  },
+  {
+   "text": "*dừng* *ở* *đó*.",
+   "start": 2.7,
+   "end": 3.45
+  }
+ ],
+ [
+  {
+   "text": "Pi *lớn* *hơn* *223/71*",
+   "start": 0.47,
+   "end": 3.214
+  },
+  {
+   "text": "và *nhỏ* *hơn* *22/7*.",
+   "start": 3.214,
+   "end": 5.62
+  }
+ ],
+ [
+  {
+   "text": "Đổi ra thập phân:",
+   "start": 0.46,
+   "end": 1.167
+  },
+  {
+   "text": "từ *3,14* tới *3,143*.",
+   "start": 1.167,
+   "end": 4.3
+  }
+ ],
+ [
+  {
+   "text": "Làm tròn *theo*",
+   "start": 0.43,
+   "end": 1.087
+  },
+  {
+   "text": "*hướng* *an* *toàn*,",
+   "start": 1.087,
+   "end": 1.744
+  },
+  {
+   "text": "nên khoảng kẹp *rộng*",
+   "start": 1.744,
+   "end": 2.87
+  },
+  {
+   "text": "*hơn* *chút* so với",
+   "start": 2.87,
+   "end": 3.746
+  },
+  {
+   "text": "hình 96 cạnh thật.",
+   "start": 3.746,
+   "end": 5.18
+  }
+ ],
+ [
+  {
+   "text": "Pi thật là *3,1416*,",
+   "start": 0.46,
+   "end": 3.256
+  },
+  {
+   "text": "nằm *gọn* *giữa*",
+   "start": 3.256,
+   "end": 3.858
+  },
+  {
+   "text": "hai số ấy.",
+   "start": 3.858,
+   "end": 4.58
+  }
+ ],
+ [
+  {
+   "text": "*22/7* chỉ lệch",
+   "start": 0.44,
+   "end": 2.061
+  },
+  {
+   "text": "pi *chưa* *đến*",
+   "start": 2.061,
+   "end": 2.875
+  },
+  {
+   "text": "*1* *phần* *nghìn*.",
+   "start": 2.875,
+   "end": 3.69
+  }
+ ],
+ [
+  {
+   "text": "Cứ *gấp*",
+   "start": 0.45,
+   "end": 1.03
+  },
+  {
+   "text": "*đôi* *số* *cạnh*,",
+   "start": 1.03,
+   "end": 2.25
+  },
+  {
+   "text": "kẹp được *chính* *xác*",
+   "start": 2.25,
+   "end": 3.41
+  },
+  {
+   "text": "*đến* *đâu* *cũng* *được*.",
+   "start": 3.41,
+   "end": 5.03
+  }
+ ],
+ [
+  {
+   "text": "Ngày nay máy tính",
+   "start": 0.36,
+   "end": 1.371
+  },
+  {
+   "text": "tính được *hơn*",
+   "start": 1.371,
+   "end": 1.979
+  },
+  {
+   "text": "*100* *nghìn* *tỉ* *chữ*",
+   "start": 1.979,
+   "end": 3.602
+  },
+  {
+   "text": "*số* của pi.",
+   "start": 3.602,
+   "end": 4.46
+  }
+ ],
+ [
+  {
+   "text": "Pi *dài* *vô* *tận*,",
+   "start": 0.39,
+   "end": 1.826
+  },
+  {
+   "text": "nhưng người xưa",
+   "start": 1.826,
+   "end": 3.035
+  },
+  {
+   "text": "*kẹp* *nó* giữa *hai*",
+   "start": 3.035,
+   "end": 4.191
+  },
+  {
+   "text": "*hình* *nhiều* *cạnh*.",
+   "start": 4.191,
+   "end": 5.11
+  }
+ ]
+]

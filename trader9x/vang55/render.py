@@ -406,10 +406,19 @@ def caption(d, sid, lt, dur):
 
 def header(d, sid, t):
     rrect(d, (60, 120, 112, 172), 12, fill=GOLD); text_c(d, (86, 146), "Au", F(30, "Black"), BG)
-    text_c(d, (130, 146), "GIÁ VÀNG · SOI NHANH", F(34, "ExtraBold"), WHITE, "lm")
+    text_c(d, (130, 146), "TRADER9XVN", F(36, "Black"), WHITE, "lm"); text_c(d, (130 + F(36, "Black").getlength("TRADER9XVN") + 14, 148), "· GIÁ VÀNG", F(30, "Bold"), MUTED, "lm")
     text_c(d, (W - 60, 146), CH[sid[0]], F(28, "Bold"), GOLD, "rm")
     d.rectangle((60, 196, W - 60, 202), fill=(32, 38, 52)); d.rectangle((60, 196, 60 + (W - 120) * min(1, t / TOTAL), 202), fill=GOLD)
-    text_c(d, (CX, 1680), "Nguồn: tổng hợp báo chí · Nội dung tham khảo, không phải khuyến nghị đầu tư", F(24, "Medium"), (110, 118, 136))
+    text_c(d, (CX, 1680), "© trader9xvn · Nguồn: tổng hợp báo chí · Không phải khuyến nghị đầu tư", F(24, "Medium"), (120, 128, 146))
+
+_WM = None
+def watermark(im):
+    global _WM
+    if _WM is None:
+        _WM = Image.new("RGBA", (W, H), (0, 0, 0, 0)); wd = ImageDraw.Draw(_WM)
+        f = F(30, "ExtraBold"); s = "© trader9xvn"; tw = f.getlength(s)
+        wd.text((W - 100 - tw, BOT - 58), s, font=f, fill=(255, 255, 255, 80))
+    out = im.convert("RGBA"); out.alpha_composite(_WM); return out.convert("RGB")
 
 def cur_seg(t):
     s = TL[0]
@@ -424,6 +433,7 @@ def frame(t):
     scene(d, im, sid, max(0, lt) / max(0.1, nxt - s["start"]), max(0, lt))
     if lt <= s["dur"] + 0.15: caption(d, sid, max(0, lt), s["dur"])
     header(d, sid, t)
+    im = watermark(im)
     # chuyển cảnh chớp nhẹ ở đầu chương
     if TL.index(s) > 0 and TL[TL.index(s) - 1]["id"][0] != sid[0] and lt < 0.25:
         ov = Image.new("RGB", (W, H), BG); im = Image.blend(im, ov, 0.6 * (1 - lt / 0.25))

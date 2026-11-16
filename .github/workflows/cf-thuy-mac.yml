@@ -1,0 +1,28 @@
+name: Thử thủy mặc Cloudflare
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  thu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gọi Cloudflare (3 ảnh)
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python3 cf_thuy_mac.py
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add logs/cf_thuy_mac.txt assets/anh_2d/NB3_cf || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử thủy mặc Cloudflare [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 6; done

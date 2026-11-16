@@ -1,1 +1,1 @@
-ke-hoach/thu-giong-hai/bd2d_full.json
+ke-hoach/thu-giong-hai/bd2_full.json

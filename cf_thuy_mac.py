@@ -2,11 +2,13 @@
 import base64, json, os, urllib.error, urllib.request
 from pathlib import Path
 
-items = json.loads(Path("ke-hoach/nhan-vat/NB3_anh.json").read_text(encoding="utf-8"))
+ma = (Path("ke-hoach/thu-giong-hai/cf_thuy_mac_chay.txt").read_text().strip().split() or ["NB3"])[-1]
+ma = ma if ma.startswith("NB") else "NB3"
+items = json.loads(Path(f"ke-hoach/nhan-vat/{ma}_anh.json").read_text(encoding="utf-8"))
 a = os.environ.get("CF_ACCOUNT_ID", "").strip()
 t = os.environ.get("CF_API_TOKEN", "").strip()
 Path("logs").mkdir(exist_ok=True)
-out = Path("assets/anh_2d/NB3_cf"); out.mkdir(parents=True, exist_ok=True)
+out = Path(f"assets/anh_2d/{ma}_cf"); out.mkdir(parents=True, exist_ok=True)
 log = []
 if not a or not t:
     log.append("Chưa có CF_ACCOUNT_ID / CF_API_TOKEN")

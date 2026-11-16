@@ -417,7 +417,7 @@ def watermark(im):
     if _WM is None:
         _WM = Image.new("RGBA", (W, H), (0, 0, 0, 0)); wd = ImageDraw.Draw(_WM)
         f = F(30, "ExtraBold"); s = "© trader9xvn"; tw = f.getlength(s)
-        wd.text((W - 100 - tw, BOT - 58), s, font=f, fill=(255, 255, 255, 80))
+        wd.text((W - 80 - tw, BOT + 14), s, font=f, fill=(255, 255, 255, 95))
     out = im.convert("RGBA"); out.alpha_composite(_WM); return out.convert("RGB")
 
 def cur_seg(t):

@@ -2,6 +2,9 @@ name: Thử thủy mặc Cloudflare
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/cach-ho-cai-tri-tap-1]
+    paths: [ke-hoach/thu-giong-hai/cf_thuy_mac_chay.txt]
 
 permissions:
   contents: write

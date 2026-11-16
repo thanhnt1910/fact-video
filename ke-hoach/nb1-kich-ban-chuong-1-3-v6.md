@@ -3,7 +3,7 @@
 Xương sống: nước Nhật loạn gần một trăm năm → ba cậu bé sinh ra giữa loạn → người ra sân đầu tiên là cậu "quái" Nobunaga, làm cả nước choáng bằng một trận đánh dưới giông bão.
 Giọng: người kể như bạn kể chuyện; nối câu bằng "nên", "thế là", "nhưng", "vì vậy" cho liền mạch, chỉ giữ câu cụt ở chỗ chốt hài, so sánh công sở. Hài chỉ nhắm vào tình huống và chính nhân vật Nhật; không gán lời thoại thật; không đùa cái chết.
 
-## Chương 1. Nước Nhật không có sếp
+## Chương 1. Cái chợ không có ban quản lý
 1. Nước Nhật hồi đó như cái chợ không có ban quản lý: ai to tiếng nhất là chủ chợ. Ba ông này sinh ra giữa cái chợ ấy, rồi leo lên làm chủ cả chợ.
 2. Vì sao chợ mất ban quản lý? Năm 1467, hai phe quan lớn ở Kyoto cãi nhau xem ai được quyền trong nhà tướng quân. Cãi hoài không xong nên đánh luôn mười một năm.
 3. Kyoto cháy cả đống chùa chiền, dinh thự, quý tộc với thầy tu ôm đồ chạy té khói. Một vụ cãi nhau mà ra nông nỗi này, drama gì mà căng.
@@ -34,7 +34,7 @@ Giọng: người kể như bạn kể chuyện; nối câu bằng "nên", "th�
 ## Bảng câu đùa (đoạn, kiểu, dữ kiện nó dựa vào, kiểm không thêm dữ kiện/không gán lời)
 | Đoạn | Kiểu | Dựa vào | Ghi chú |
 |---|---|---|---|
-| 1 | so sánh công sở | Britannica: quyền tướng quân hầu như mất, daimyo thay thế | "sếp" là cách nói, không thêm sự kiện |
+| 1 | ví von chợ | Britannica: quyền tướng quân hầu như mất, daimyo thay thế | "chủ chợ" là cách nói, không thêm sự kiện |
 | 2–3 | cụt nhịp, bình luận | Britannica: 1467, 11 năm, Kyoto cháy nhiều chùa/dinh thự, quý tộc rời kinh đô | "ai được quyền trong nhà tướng quân" = tranh chấp kế vị, đúng ý nguồn |
 | 4 | mỉa tình huống | Britannica: tướng quân lui về Ginkaku-ji | không đoán nội tâm ông |
 | 6 | so sánh công ty | Britannica: gekokujō | phép so đúng bản chất |

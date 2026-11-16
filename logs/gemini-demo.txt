@@ -1,46 +1,43 @@
-   [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Số pi có những chữ số dài vô tận, vậy làm sao ngườ
-OK Leda 02: Nhưng họ không cần viết hết nó.
    [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Họ chỉ cần kẹp nó giữa hai con số thật gần nhau.
-OK Leda 04: Hóa ra cách kẹp ấy do Ác-si-mét nghĩ ra, chỉ bằng 
+   [gemini] dùng gemini-3.8-flash-tts (interactions)
+OK Leda 01: Phân tử nhỏ đến mức kính hiển vi thường cũng không
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 05: Trước hết, pi là gì? Lấy chu vi hình tròn chia cho
-OK Leda 06: Hình tròn lớn hay nhỏ, kết quả vẫn như nhau: hơn b
+OK Leda 02: Nhưng hóa ra, chỉ cần một muỗng dầu ăn và một cái 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 07: Ta thử xem: quấn một sợi chỉ quanh cái lon, đo sợi
-OK Leda 08: Ta được khoảng ba phẩy một, nhưng sợi chỉ giãn và 
+OK Leda 03: Đó là cách người ta ước lượng độ dày của một phân 
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Đường cong thì khó đo, còn đường thẳng thì đo rất 
-OK Leda 10: Vì vậy Ác-si-mét thay vòng tròn bằng những hình có
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 11: Ông vẽ một hình sáu cạnh nằm gọn trong vòng tròn, 
-OK Leda 12: Chu vi nó ngắn hơn vòng tròn, vì đi đường thẳng lu
+OK Leda 04: Chuyện bắt đầu ở một cái ao ngoài trời, bên nước A
+OK Leda 05: Trong một lá thư năm một nghìn bảy trăm bảy mươi b
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 13: Rồi ông vẽ một hình sáu cạnh khác nằm ngoài vòng t
-OK Leda 14: Chu vi hình này dài hơn vòng tròn, vì nó ôm bên ng
-OK Leda 15: Vòng tròn bị kẹp giữa hai chu vi ấy, mà cả hai đều
-OK Leda 16: Mỗi cạnh hình trong dài bằng một nửa đường kính, n
-OK Leda 17: Còn chu vi hình ngoài là khoảng ba phẩy bốn sáu.
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 18: Vậy pi nằm giữa ba và ba phẩy bốn sáu. Khoảng kẹp 
-   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
-   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Mẹo của ông là gấp đôi số cạnh, vì hình càng nhiều
-OK Leda 20: Với mười hai cạnh, pi nằm giữa ba phẩy mười một và
-OK Leda 21: Với hai mươi bốn cạnh, pi nằm giữa ba phẩy mười ba
    [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 22: Với bốn mươi tám cạnh, pi nằm giữa ba phẩy mười bố
-OK Leda 23: Cuối cùng là chín mươi sáu cạnh, và ông dừng ở đó.
    [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 24: Ông ghi: pi lớn hơn hai trăm hai mươi ba phần bảy 
+OK Leda 06: Gió thổi làm mặt ao nổi sóng, và ông đổ xuống đó m
+OK Leda 07: Dầu trải ra, và cả một góc ao lặng đi, phẳng như m
+OK Leda 08: Ông ước góc ao ấy rộng chừng nửa mẫu Anh, khoảng h
    [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 25: Đổi ra số thập phân, pi nằm từ ba phẩy một bốn tới
-OK Leda 26: Ông làm tròn theo hướng an toàn, nên khoảng kẹp rộ
-OK Leda 27: Pi thật là ba phẩy một bốn một sáu, nằm gọn giữa h
-OK Leda 28: Phân số hai mươi hai phần bảy chỉ lệch pi chưa đến
-OK Leda 29: Nhờ gấp đôi số cạnh, cách kẹp này có thể chính xác
+OK Leda 09: Hai nghìn mét vuông bằng khoảng năm sân bóng rổ.
+OK Leda 10: Một muỗng dầu mà trải rộng chừng ấy, vậy lớp dầu p
+OK Leda 11: Như phết bơ lên bánh mì: cùng một ít bơ, trải càng
+OK Leda 12: Phrăng-lin không tính độ dày ấy. Hơn một trăm năm 
+OK Leda 13: Ông đoán rằng dầu trải ra đến khi chỉ còn một lớp 
    [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 30: Ngày nay, máy tính đã tính được hơn một trăm nghìn
-OK Leda 31: Vậy pi dài vô tận, nhưng người xưa chỉ cần kẹp nó 
+OK Leda 14: Nếu đúng, độ dày của lớp dầu cũng chính là độ dày 
+OK Leda 15: Cách tính rất đơn giản: thể tích bằng diện tích nh
+OK Leda 16: Một muỗng cà phê chứa khoảng năm xăng-ti-mét khối 
+OK Leda 17: Năm xăng-ti-mét khối bằng năm nghìn mi-li-mét khối
+OK Leda 18: Hai nghìn mét vuông bằng hai tỉ mi-li-mét vuông.
+   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Độ dày bằng năm nghìn chia hai tỉ.
+OK Leda 20: Ra hai phẩy năm phần triệu mi-li-mét.
+OK Leda 21: Một tờ giấy dày khoảng một phần mười mi-li-mét, tứ
+OK Leda 22: Một phần triệu mi-li-mét được gọi là một na-nô-mét
+   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 23: Rây-lây tính ra lớp dầu dày cỡ hai na-nô-mét, cùng
+OK Leda 24: Muỗng và diện tích ao chỉ là ước chừng, nên kết qu
+OK Leda 25: Nhưng chừng đó cũng đủ cho thấy phân tử nhỏ đến mứ
+OK Leda 26: Hơn hai mươi năm sau, Lăng-muya trải màng mỏng the
+   [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 27: Vậy muốn đo thứ nhỏ nhất, hãy trải nó ra thật mỏng

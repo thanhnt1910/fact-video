@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #30 Cao Bằng (mã tn30)
 
-15 đoạn, 352 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 95 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+15 đoạn, 352 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 95 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Cao Bằng: tên chữ Hán Cao Bình nghĩa là đất cao bằng phẳng, nơi nhà Mạc đóng đô hơn 80 năm, và tỉnh không sáp nhập năm 2025
 
@@ -75,3 +75,8 @@ Bản đồ 34 tỉnh, tô Cao Bằng (ranh giới không đổi năm 2025); c�
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Cao Bằng: nơi một triều vua đóng đô hơn 80 năm
 - Hashtag: #NguoiGacSu #TenTinhThanh #CaoBang #NhaMac #CaoBinh #LichSuVietNam #TenGoi
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1473, 1499, 1592, 1611, 1677, 1831, 1975, 1978, 2025); `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn30_cao_bang.mp4` (108.5 giây), kiểu chibi vẽ bằng code như #26, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn30.js`, bìa `assets/bia/TN30/bia_tn30.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (quan, lưu dân, viên chức Pháp, vua, cô giáo) là minh họa chung, không phải chân dung người có thật.

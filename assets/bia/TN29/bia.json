@@ -1,0 +1,17 @@
+{
+ "the_nam": "ĐỒNG THÁP",
+ "the_trieu": "1976 · 2025",
+ "d1": "ĐỒNG THÁP",
+ "d2": "VÌ SAO THÁP MƯỜI?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #29",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#1a1410\"/><g transform=\"translate(0,90)\"><rect x=\"310\" y=\"640\" width=\"220\" height=\"80\" fill=\"#b8653a\" stroke=\"#fff\" stroke-width=\"6\"/><rect x=\"332\" y=\"560\" width=\"176\" height=\"80\" fill=\"#b8653a\" stroke=\"#fff\" stroke-width=\"6\"/><rect x=\"354\" y=\"480\" width=\"132\" height=\"80\" fill=\"#b8653a\" stroke=\"#fff\" stroke-width=\"6\"/><rect x=\"376\" y=\"400\" width=\"88\" height=\"80\" fill=\"#b8653a\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M396 400 L420 340 L444 400Z\" fill=\"#b8653a\" stroke=\"#fff\" stroke-width=\"6\"/><text x=\"700\" y=\"520\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"200\" fill=\"#e0a63c\" stroke=\"#fff\" stroke-width=\"8\" paint-order=\"stroke\">10?</text></g></svg>",
+ "chu_the": "ba thẻ tên huyện Hưng Nhân, Thần Khê, Duyên Hà và ba mốc năm (vẽ phẳng)",
+ "co": 104
+}

@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #27 Tây Ninh (mã tn27)
 
-13 đoạn, 326 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 88 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+13 đoạn, 326 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 88 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Tây Ninh: tên nghĩa là phía tây yên ổn, đặt năm 1836 sau khi quân Xiêm kéo qua; nay trụ sở ở phường Long An
 
@@ -76,3 +76,8 @@ Bản đồ 34 tỉnh, tô Tây Ninh hiện nay; Tây Ninh và Long An trước 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Tây Ninh: phía tây yên ổn, giữa lúc biên giới không yên
 - Hashtag: #NguoiGacSu #TenTinhThanh #TayNinh #NuiBaDen #LongAn #MinhMang #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1834, 1836, 1900, 2025); `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn27_tay_ninh.mp4` (98.2 giây), kiểu chibi vẽ bằng code như #26, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn27.js`, bìa `assets/bia/TN27/bia_tn27.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (quan, lưu dân, viên chức Pháp, vua, cô giáo) là minh họa chung, không phải chân dung người có thật.

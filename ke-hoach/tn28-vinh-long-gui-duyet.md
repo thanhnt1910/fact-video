@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #28 Vĩnh Long (mã tn28)
 
-15 đoạn, 338 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 91 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+15 đoạn, 338 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 91 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Vĩnh Long: chữ long nghĩa là thịnh vượng, còn tỉnh Cửu Long mới là chín con rồng; sáp nhập 2025 gần như trở lại tỉnh Vĩnh Long thời Minh Mạng
 
@@ -78,3 +78,8 @@ Bản đồ 34 tỉnh, tô Vĩnh Long hiện nay; ranh giới Vĩnh Long, Bến 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Vĩnh Long: chữ long không phải con rồng
 - Hashtag: #NguoiGacSu #TenTinhThanh #VinhLong #CuuLong #BenTre #TraVinh #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1732, 1832, 1900, 1976, 1992, 2025); `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn28_vinh_long.mp4` (108.1 giây), kiểu chibi vẽ bằng code như #26, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn28.js`, bìa `assets/bia/TN28/bia_tn28.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (quan, lưu dân, viên chức Pháp, vua, cô giáo) là minh họa chung, không phải chân dung người có thật.

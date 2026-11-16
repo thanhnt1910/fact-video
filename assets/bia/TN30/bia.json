@@ -1,0 +1,17 @@
+{
+ "the_nam": "CAO BẰNG",
+ "the_trieu": "1499 · 2025",
+ "d1": "CAO BẰNG",
+ "d2": "KINH ĐÔ NHÀ MẠC?",
+ "phu": "TÊN TỈNH THÀNH",
+ "phu_vang": "· #30",
+ "chan_chinh": "NGƯỜI GÁC SỬ",
+ "chan_phu": "LỊCH SỬ THEO CHÍNH SỬ",
+ "diem": [],
+ "lon0": 105.2,
+ "scale": 0.5,
+ "oy": -640,
+ "nen_svg": "<svg style=\"position:absolute;left:0;top:0\" width=1080 height=1920><rect width=1080 height=1920 fill=\"#1a1410\"/><g transform=\"translate(0,90)\"><path d=\"M300 720 L420 500 L470 530 L540 420 L620 520 L660 490 L780 720Z\" fill=\"#4f6e5c\" stroke=\"#fff\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M420 380 L405 260 L480 320 L540 230 L600 320 L675 260 L660 380Z\" fill=\"#e8b23c\" stroke=\"#fff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><g transform=\"translate(540,470) rotate(0)\"><rect x=\"-200.0\" y=\"-46\" width=\"400\" height=\"92\" rx=\"14\" fill=\"#d8372d\" stroke=\"#fff\" stroke-width=\"6\"/><text y=\"17\" text-anchor=\"middle\" font-family=\"Inter\" font-weight=\"900\" font-size=\"52\" fill=\"#fff\" stroke=\"#d8372d\" stroke-width=\"7\" paint-order=\"stroke\">84 NĂM</text></g></g></svg>",
+ "chu_the": "ba thẻ tên huyện Hưng Nhân, Thần Khê, Duyên Hà và ba mốc năm (vẽ phẳng)",
+ "co": 110
+}

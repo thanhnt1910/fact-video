@@ -5,8 +5,12 @@ import sys,re
 KEY=sys.argv[1]
 N=int(KEY) if KEY.isdigit() else KEY
 TAG=f'vn{N}' if isinstance(N,int) else KEY
-LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04','tn5':'#05','tn6':'#06','tn7':'#07','tn8':'#08','tn9':'#09','tn10':'#10','tn11':'#11','tn12':'#12','tn13':'#13','tn14':'#14','tn15':'#15','tn16':'#16','tn17':'#17','tn18':'#18','tn19':'#19','tn20':'#20','tn21':'#21','tn22':'#22','tn23':'#23','tn24':'#24','tn25':'#25','tn26':'#26'}.get(KEY,'#00')
-CFG={'tn26':(154000,'=Nguồn: Ngôn ngữ & Đời sống (2011, 2012), Báo Mới, Tạp chí Quản lý nhà nước, NQ 22/2003/QH11, NQ 202/2025/QH15',''),
+LABEL=f'#0{N}' if isinstance(N,int) else {'xk1':'#09','xk2':'#10','xk3':'#11','xk4':'#12','xk5':'#13','xk6':'#14','xk7':'#15','xk8':'#13','xk9':'#16','xk10':'#17','xk11':'#18','xk12':'#19','xk9r':'#16','xk10r':'#17','xk11r':'#18','xk12r':'#19','xk10t':'#16','xk13t':'#17','xk14t':'#22','xk15t':'#23','xk16t':'#24','xk17t':'#25','dola2s':'#26','xk19t':'#18','xk20t':'#19','xk25t':'#20','xk26t':'#19','xk27t':'#21','tn1':'#01','tn2':'#02','tn3':'#03','tn4':'#04','tn5':'#05','tn6':'#06','tn7':'#07','tn8':'#08','tn9':'#09','tn10':'#10','tn11':'#11','tn12':'#12','tn13':'#13','tn14':'#14','tn15':'#15','tn16':'#16','tn17':'#17','tn18':'#18','tn19':'#19','tn20':'#20','tn21':'#21','tn22':'#22','tn23':'#23','tn24':'#24','tn25':'#25','tn26':'#26','tn27':'#27','tn28':'#28','tn29':'#29','tn30':'#30'}.get(KEY,'#00')
+CFG={'tn27':(155000,'=Nguồn: Đại Nam nhất thống chí (qua Tạp chí KHXH), Tạp chí Nghiên cứu Phật học, NQ 202/2025/QH15',''),
+'tn28':(156000,'=Nguồn: Cổng thông tin Vĩnh Long, Tuổi Trẻ, NQ 3/NQ/1976, NQ 202/2025/QH15',''),
+'tn29':(157000,'=Nguồn: Tuổi Trẻ (Tên gọi Tháp Mười), Cổng thông tin Đồng Tháp, NQ 202/2025/QH15',''),
+'tn30':(158000,'=Nguồn: UBND tỉnh Cao Bằng (525 năm thành lập), Tạp chí Nghiên cứu và Phát triển 2016, NQ 202/2025/QH15',''),
+'tn26':(154000,'=Nguồn: Ngôn ngữ & Đời sống (2011, 2012), Báo Mới, Tạp chí Quản lý nhà nước, NQ 22/2003/QH11, NQ 202/2025/QH15',''),
 'tn25':(153000,'=Nguồn: Cổng TTĐT Gia Lai, Đề cương 110 năm tỉnh Kon Tum, Lao Động, Thời báo Tài chính, NQ 202/2025/QH15',''),
 'tn24':(152000,'=Nguồn: Tỉnh ủy Quảng Ngãi, QĐ 41/HĐBT (1981), Lao Động, NQ 202/2025/QH15',''),
 'tn23':(151000,'=Nguồn: Tạp chí Quản lý nhà nước, Dân Việt, Tỉnh ủy Hưng Yên, VietNamNet, NQ 202/2025/QH15',''),

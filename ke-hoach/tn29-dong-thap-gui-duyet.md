@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #29 Đồng Tháp (mã tn29)
 
-17 đoạn, 411 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 111 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+17 đoạn, 411 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 111 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Đồng Tháp: tên từ ngọn tháp ở gò Tháp Mười, căn cứ của Thiên Hộ Dương, và ba cách giải thích con số mười
 
@@ -76,3 +76,8 @@ Bản đồ 34 tỉnh, tô Đồng Tháp hiện nay; Sa Đéc/Kiến Phong khôn
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Đồng Tháp: con số mười trong tên vẫn là câu đố
 - Hashtag: #NguoiGacSu #TenTinhThanh #DongThap #ThapMuoi #GoThap #ThienHoDuong #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1862, 1864, 1866, 1976, 2025); `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn29_dong_thap.mp4` (126.3 giây), kiểu chibi vẽ bằng code như #26, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn29.js`, bìa `assets/bia/TN29/bia_tn29.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (quan, lưu dân, viên chức Pháp, vua, cô giáo) là minh họa chung, không phải chân dung người có thật.

@@ -566,6 +566,7 @@ Bài học: bản 10 và bản 11 đầu có câu tóm tắt quá chặt từ ng
 - **Không lời nhận định không nguồn và không cực cấp không nguồn** ("mạnh nhất", "nhiều lý do nhất"). Chi tiết chỉ nói đúng điều nguồn nói.
 - **Rà từng câu theo 5 điểm** (ghi kết quả vào bản gửi duyệt): (1) chủ ngữ rõ; (2) ai-với-ai rõ; (3) từ lạ đã giải thích; (4) mốc khớp các đoạn khác; (5) cực cấp và nhận định có nguồn. Đọc như người chưa biết chuyện: câu nào phải đọc hai lần thì viết lại.
 - **Câu nào nghi tóm tắt chặt thì tra lại nguồn gốc trước khi sửa**, không đoán chữ. Ghi nguồn đã đọc vào bản gửi.
+- **Mỗi câu nối câu trước bằng quan hệ nguyên nhân – kết quả hoặc đối lập, không xếp liệt kê (chủ kênh nhắc 16/11/2026).** Dùng "nên", "nhưng rồi", "thế là", "vì vậy" để người nghe thấy chuyện đi đâu. Không viết kiểu "A. Sau đó B. Và C." khi giữa A, B, C có quan hệ nhân quả. Dùng "dòng họ", "phe" cho đúng vai, không "cả nhà".
 - **Thứ tự giải thích: nền trước, hình ảnh sau (chủ kênh nhắc 16/11/2026).** Ví von, ví dụ, câu đùa chỉ đặt SAU khi người nghe đã biết đủ để thấy nó đúng. Không đưa ví von rồi mới quay lại giải thích khái niệm: người nghe hụt nhịp. Thứ tự chuẩn: (1) ai/cái gì, (2) chuyện gì xảy ra, (3) ví von làm điểm nhấn, (4) nguyên nhân hoặc bước tiếp. Khi rà, kiểm từng ví von: đoạn liền trước đã đủ để người nghe hiểu ví von này chưa; đoạn liền sau có quay lại giải thích khái niệm mà ví von đáng ra phải đứng sau không.
 - **Mỗi lần sửa gửi lại toàn bản kèm bảng trước/sau và lý do** (đã có ở mục kiểm kịch bản).
 

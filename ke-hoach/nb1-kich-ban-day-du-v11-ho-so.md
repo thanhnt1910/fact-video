@@ -24,8 +24,8 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 ## Hồ sơ 1. Hiện trường: một nước không còn ai cai quản
 5. Trước hết cần biết ai cai quản nước Nhật. Nhật có hai ngôi cao nhất: thiên hoàng là vua trên danh nghĩa, còn tướng quân mới nắm quân sự và điều hành chính quyền. 【CÓ SỬ】
 6. Nhưng rồi có lúc, đến tướng quân cũng không còn cai quản nổi nước Nhật. Hãy tưởng tượng một cái chợ không có ban quản lý: sạp nào cũng tự đặt luật, ai to tiếng nhất thì làm chủ. 【CÓ SỬ】
-7. Mọi chuyện bắt đầu từ chuyện nối ngôi tướng quân. Tướng quân Ashikaga Yoshimasa không có con nên định cho em trai nối ngôi. Sau đó ông có con trai, và cả nhà tướng quân cãi nhau xem ai sẽ nối. 【CÓ SỬ】
-8. Năm 1467, hai lãnh chúa lớn ở Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. 【CÓ SỬ】
+7. Mọi chuyện bắt đầu từ chuyện nối ngôi. Tướng quân Ashikaga Yoshimasa không có con, nên định để em trai nối ngôi. Nhưng rồi ông có con trai. 【CÓ SỬ】
+8. Thế là dòng họ Ashikaga chia làm hai phía: người theo em trai, người theo con trai. Năm 1467, hai lãnh chúa lớn là Hosokawa Katsumoto, phe Đông, và Yamana Sōzen, phe Tây, kéo quân đánh nhau suốt mười một năm. 【CÓ SỬ】
 9. Kyoto bị đốt nhiều chùa chiền, dinh thự. Tướng quân rút về biệt thự nghỉ dưỡng ở phía đông bắc Kyoto, nơi về sau thành chùa Gác Bạc, ngồi ngắm cảnh khi quyền hành gần như không còn. 【CÓ SỬ】
 10. Chiến tranh lan ra khắp vùng quê. Nông dân tụ tập thành từng nhóm rồi cầm vũ khí nổi dậy, thường do các võ sĩ địa phương dẫn đầu. Về sau, một số người nổi lên trong thời loạn này trở thành daimyo, tức lãnh chúa. 【CÓ SỬ】
 11. Những lãnh chúa này tự cầm quân giữ đất, và kẻ dưới giành quyền kẻ trên là chuyện thường. Thời kỳ này gọi là Sengoku, tức thời Chiến Quốc của Nhật. 【CÓ SỬ】
@@ -168,6 +168,13 @@ Ngoài ra rà thêm các chỗ nền chưa đủ: đoạn 31 gọi "cậu thanh 
 |---|---|---|
 | 31 | Cậu thanh niên ấy sau này đổi tên thành Tokugawa Ieyasu. | Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. |
 | 80 | Quay lại con chim đỗ quyên: chuyện đó vẫn chỉ là giai thoại. Nhưng nếu ai muốn đùa, thì người ngồi chờ lâu nhất đúng là người ngồi lại cuối cùng trên ghế. | Quay lại con chim đỗ quyên: đó vẫn chỉ là giai thoại. Ai thích đùa thì nói người ngồi chờ lâu nhất là người ngồi lại cuối cùng, nhưng đó là đùa, không phải sử. |
+
+**Đoạn 7–8 viết lại lần hai (17:00):** bản trước ("Sau đó ông có con trai, và cả nhà tướng quân cãi nhau") là liệt kê, không có chỗ rẽ, và "cả nhà tướng quân" nghe lạc.
+| Đoạn | Trước | Sau |
+|---|---|---|
+| 7 | Mọi chuyện bắt đầu từ chuyện nối ngôi tướng quân. Tướng quân Ashikaga Yoshimasa không có con nên định cho em trai nối ngôi. Sau đó ông có con trai, và cả nhà tướng quân cãi nhau xem ai sẽ nối. | Mọi chuyện bắt đầu từ chuyện nối ngôi. Tướng quân Ashikaga Yoshimasa không có con, nên định để em trai nối ngôi. Nhưng rồi ông có con trai. |
+| 8 | Năm 1467, hai lãnh chúa lớn ở Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. | Thế là dòng họ Ashikaga chia làm hai phía: người theo em trai, người theo con trai. Năm 1467, hai lãnh chúa lớn là Hosokawa Katsumoto, phe Đông, và Yamana Sōzen, phe Tây, kéo quân đánh nhau suốt mười một năm. |
+Nguồn khớp Britannica: tranh chấp trong chính dòng họ tướng quân, một phía ủng hộ em trai, một phía ủng hộ con trai. Đoạn 8 dài khoảng 39 chữ, sẽ tách khi đọc giọng.
 
 ## Điểm cần chủ kênh quyết (quy tắc kênh bị chạm)
 1. Quy tắc cũ ghi "ghi chú tranh cãi, so sánh nguồn không nằm trong lời kể". Hướng này đưa "lời khai mâu thuẫn" vào lời kể. Mục "Nới quy tắc viết kịch bản" (05/11/2026) cho phép nhắc nguồn trong lời kể, nhưng bản 11 vẫn cần chủ kênh đồng ý rõ.

@@ -1,3 +1,3 @@
 medium
-tn32c tn34c 
+tn32 tn34 
 # lan3

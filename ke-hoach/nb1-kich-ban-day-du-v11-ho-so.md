@@ -52,7 +52,7 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 28. Yoshimoto bị giết ngay trong trận. Quân Imagawa mất người chỉ huy nên tan chạy, và kế hoạch kéo quân lên kinh đô Kyoto của ông ta cũng tan theo. 【CÓ SỬ】
 29. Cậu bé bị cả họ chê ngày nào đã đánh bại kẻ đông gấp nhiều lần mình. Từ hôm đó, cái tên Oda Nobunaga không còn là chuyện cười nữa. 【CÓ SỬ】
 30. Trận này còn kéo theo một người nữa. Hồi đó gia tộc Matsudaira phải đi theo Imagawa, và khi Imagawa sụp, người đứng đầu họ bỏ phe thua để bắt tay Nobunaga. 【CÓ SỬ】
-31. Cậu thanh niên ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã gặp nhau. Còn Toyotomi Hideyoshi thì ở đâu lúc ấy? 【CÓ SỬ】
+31. Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã gặp nhau. Còn Toyotomi Hideyoshi thì ở đâu lúc ấy? 【CÓ SỬ】
 
 ## Hồ sơ 3. Bị đơn thứ hai: Toyotomi Hideyoshi, người xách dép
 32. Hideyoshi bắt đầu thấp hơn Nobunaga rất nhiều. Theo truyền thống, ông sinh ra trong một gia đình nông dân ở Owari, không có dòng dõi samurai nào. 【CÓ SỬ】
@@ -113,7 +113,7 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 77. Giờ quay lại câu hỏi đầu hồ sơ. Nobunaga bị chính thuộc hạ phản khi chưa kịp thống nhất nước Nhật, còn Hideyoshi thống nhất được nhưng mất khi con còn nhỏ. 【CÓ SỬ】
 78. Rồi dòng Hideyoshi chấm dứt ở Osaka, còn dòng Tokugawa giữ quyền hơn hai trăm năm. Đó là điều sử ghi lại. 【CÓ SỬ】
 79. Còn vì sao Ieyasu giữ được, nói là ông khôn hơn hay kiên nhẫn hơn, thì tài liệu không cho phép khẳng định. Hồ sơ ghi mục này là KHÔNG AI BIẾT. 【KHÔNG AI BIẾT】
-80. Quay lại con chim đỗ quyên: chuyện đó vẫn chỉ là giai thoại. Nhưng nếu ai muốn đùa, thì người ngồi chờ lâu nhất đúng là người ngồi lại cuối cùng trên ghế. 【GIAI THOẠI】
+80. Quay lại con chim đỗ quyên: đó vẫn chỉ là giai thoại. Ai thích đùa thì nói người ngồi chờ lâu nhất là người ngồi lại cuối cùng, nhưng đó là đùa, không phải sử. 【GIAI THOẠI】
 81. Từ năm 1467 đến năm 1603, nước Nhật mất hơn một trăm ba mươi năm để có lại một người đứng đầu. Ba bị đơn này, mỗi người một kiểu, đã mở đường cho điều đó. 【CÓ SỬ】
 
 ## Những gì khác so với bản 10
@@ -150,6 +150,24 @@ Các đoạn khác đã đọc từng câu và giữ nguyên. Đoạn 7, 8, 9 đ
 | 60 | Hideyoshi điều Ieyasu đến vùng Kantō. | Hideyoshi điều Ieyasu đến vùng Kantō, phía đông nước Nhật. | "Kantō" chưa giải thích |
 
 **Đoạn 5–6 đảo thứ tự (16:55):** trước đây đoạn 5 nêu ví von cái chợ khi người nghe chưa biết ai cai quản nước Nhật, rồi đoạn 6 mới giải thích thiên hoàng và tướng quân nên bị hụt. Nay đoạn 5 giải thích hai ngôi, đoạn 6 nói tướng quân cũng hết cai quản nổi rồi mới đến ví von cái chợ. Chữ giữ nguyên, chỉ thêm câu nối "Nhưng rồi có lúc, đến tướng quân cũng không còn cai quản nổi nước Nhật" (ý này khớp đoạn 9 và Britannica: quyền lực trung ương sụp đổ).
+
+## Rà soát ví von và câu đùa theo quy tắc "nền trước, hình ảnh sau" (16/11, 16:56)
+| Đoạn | Câu đùa hoặc ví von | Đoạn liền trước đã đủ nền chưa | Kết quả |
+|---|---|---|---|
+| 5–6 | cái chợ không có ban quản lý | chưa (đã sửa ở 16:55) | đã đảo thứ tự |
+| 9 | tướng quân ngồi ngắm cảnh khi quyền hành gần như không còn | đủ: đoạn 7–8 đã kể chiến tranh Ōnin | giữ |
+| 15–16 | chim đỗ quyên | đủ: đoạn 14 báo trước đây là giai thoại | giữ |
+| 27 | "ông trời đọc trước kịch bản" | đủ: đoạn 23, 26 đã nói quân Imagawa đông hơn và Nobunaga chọn lao ra | giữ |
+| 39 | "tự tay dựng lên, rồi tự tay gỡ xuống" | đủ: đoạn 38 vừa kể ông dựng Yoshiaki | giữ |
+| 58 | "biết chờ thời, chắc là tập từ hồi làm con tin" | đủ: đoạn 57 kể con tin, đoạn 51 đã nói "biết chờ" | giữ |
+| 80 | "người ngồi chờ lâu nhất ngồi lại cuối cùng" | **có vấn đề:** đứng ngay sau đoạn 79 từ chối giải thích vì sao Ieyasu giữ được, nên câu đùa nghe như là lời giải thích | sửa: nói rõ "đó là đùa, không phải sử" |
+
+Ngoài ra rà thêm các chỗ nền chưa đủ: đoạn 31 gọi "cậu thanh niên ấy" trong khi đoạn 30 nói "người đứng đầu họ Matsudaira"; đã đổi thành "Người đứng đầu họ Matsudaira ấy".
+
+| Đoạn | Trước | Sau |
+|---|---|---|
+| 31 | Cậu thanh niên ấy sau này đổi tên thành Tokugawa Ieyasu. | Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. |
+| 80 | Quay lại con chim đỗ quyên: chuyện đó vẫn chỉ là giai thoại. Nhưng nếu ai muốn đùa, thì người ngồi chờ lâu nhất đúng là người ngồi lại cuối cùng trên ghế. | Quay lại con chim đỗ quyên: đó vẫn chỉ là giai thoại. Ai thích đùa thì nói người ngồi chờ lâu nhất là người ngồi lại cuối cùng, nhưng đó là đùa, không phải sử. |
 
 ## Điểm cần chủ kênh quyết (quy tắc kênh bị chạm)
 1. Quy tắc cũ ghi "ghi chú tranh cãi, so sánh nguồn không nằm trong lời kể". Hướng này đưa "lời khai mâu thuẫn" vào lời kể. Mục "Nới quy tắc viết kịch bản" (05/11/2026) cho phép nhắc nguồn trong lời kể, nhưng bản 11 vẫn cần chủ kênh đồng ý rõ.

@@ -52,7 +52,7 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 28. Yoshimoto bị giết ngay trong trận. Quân Imagawa mất người chỉ huy nên tan chạy. 【CÓ SỬ】
 29. Cậu bé bị cả họ chê ngày nào đã đánh bại kẻ đông hơn mình nhiều lần. 【CÓ SỬ】
 30. Trận này còn kéo theo một người nữa. Hồi đó gia tộc Matsudaira phải đi theo Imagawa, và khi Imagawa sụp, người đứng đầu họ bỏ phe thua để bắt tay Nobunaga. 【CÓ SỬ】
-31. Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã trở thành đồng minh. Còn Toyotomi Hideyoshi thì ở đâu lúc ấy? 【CÓ SỬ】
+31. Người ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã trở thành đồng minh. Còn Toyotomi Hideyoshi thì ở đâu lúc ấy? 【CÓ SỬ】
 
 ## Hồ sơ 3. Bị đơn thứ hai: Toyotomi Hideyoshi, người xách dép
 32. Hideyoshi bắt đầu thấp hơn Nobunaga rất nhiều. Theo truyền thống, ông sinh ra trong một gia đình nông dân ở Owari, không có dòng dõi samurai nào. 【CÓ SỬ】
@@ -185,7 +185,7 @@ Số đoạn là số MỚI. Bản này còn 80 đoạn (bỏ 2 đoạn cũ, th�
 | 27 | Khi quân Imagawa đang nghỉ ngơi thì một cơn giông... | Theo cách kể phổ biến nhất, khi quân Imagawa đang nghỉ ngơi thì... | Khớp với đoạn 25: chi tiết trận đánh còn tranh cãi nên phải nói là cách kể phổ biến. |
 | 28 | ...và kế hoạch kéo quân lên kinh đô Kyoto của ông ta cũng tan theo. | Yoshimoto bị giết ngay trong trận. Quân Imagawa mất người chỉ huy nên tan chạy. | Nghiên cứu mới (tabi-samurai-japan) nghi ngờ mục đích của Yoshimoto là lên Kyoto; không đủ chắc nên bỏ. |
 | 29 | ...Từ hôm đó, cái tên Oda Nobunaga không còn là chuyện cười nữa. | Cậu bé bị cả họ chê ngày nào đã đánh bại kẻ đông hơn mình nhiều lần. | Câu bỏ là nhận định không nguồn. |
-| 31 | Vậy là hai trong ba bị đơn đã gặp nhau. | ...đã trở thành đồng minh. | Cũ mâu thuẫn đoạn 56 (Ieyasu từng làm con tin ở nhà Oda, tức đã gặp từ trước). |
+| 31 | Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã gặp nhau. | Người ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã trở thành đồng minh. | Cũ mâu thuẫn đoạn 56 (Ieyasu từng làm con tin ở nhà Oda, tức đã gặp từ trước). |
 | 33 (cũ 33+34) | Hai đoạn cùng nói xuất thân thấp. | Gộp một đoạn. | Lặp ý. |
 | 35 (cũ 36) | Ông cũng có mặt ở Okehazama năm 1560... | Thêm: "Về sau ông được nâng lên hàng samurai." | Nguồn: New World Encyclopedia, The Collector. |
 | 36 (cũ 37) | Đến năm 1564, ông mang tên Kinoshita Hideyoshi và bắt đầu leo lên. | Nhưng ông lập công dần. Ông thuyết phục nhiều võ sĩ xứ Mino bỏ nhà Saitō sang nhà Oda, rồi năm 1570 lập công lớn trong trận Anegawa. | Cũ vô nghĩa ("leo lên" cái gì?). Nguồn: NWE, The Collector. |

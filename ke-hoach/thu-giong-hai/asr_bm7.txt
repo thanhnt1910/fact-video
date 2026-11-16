@@ -1,3 +1,3 @@
 medium
-bd2 bd2d
-# lan5
+bd2
+# lan6

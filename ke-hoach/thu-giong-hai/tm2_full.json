@@ -66,8 +66,8 @@
   "n": 176010,
   "chuong": 2,
   "tone": "story",
-  "text": "Còn trong triều nhà Tống, ông quan Lư Đa Tốn lại càng nóng ruột. Ông khuyên phải đánh ngay, vì để lâu thì bên này sẽ kịp chuẩn bị.",
-  "hien": "Còn trong triều nhà Tống, ông quan Lư Đa Tốn lại càng nóng ruột. Ông khuyên phải đánh ngay, vì để lâu thì bên này sẽ kịp chuẩn bị."
+  "text": "Còn trong triều nhà Tống, ông quan Lư Đa Tốn lại càng nóng ruột. Ông khuyên phải đánh ngay, vì để lâu thì nước Việt sẽ kịp phòng bị.",
+  "hien": "Còn trong triều nhà Tống, ông quan Lư Đa Tốn lại càng nóng ruột. Ông khuyên phải đánh ngay, vì để lâu thì nước Việt sẽ kịp phòng bị."
  },
  {
   "n": 176011,
@@ -80,228 +80,249 @@
   "n": 176012,
   "chuong": 2,
   "tone": "story",
-  "text": "Nghe vậy, vua Tống quyết đánh. Quân nhà Tống chia làm nhiều cánh, cả đường bộ lẫn đường thủy, hẹn cùng lúc kéo sang cho nước ta trở tay không kịp.",
-  "hien": "Nghe vậy, vua Tống quyết đánh. Quân nhà Tống chia làm nhiều cánh, cả đường bộ lẫn đường thủy, hẹn cùng lúc kéo sang cho nước ta trở tay không kịp."
+  "text": "Hai ông quan cùng nói chắc thắng, và vua Tống quyết chớp lấy thời cơ ấy. Lệnh đánh nước Việt được ban ra ngay.",
+  "hien": "Hai ông quan cùng nói chắc thắng, và vua Tống quyết chớp lấy thời cơ ấy. Lệnh đánh nước Việt được ban ra ngay."
  },
  {
   "n": 176013,
+  "chuong": 2,
+  "tone": "story",
+  "text": "Quân nhà Tống chia làm nhiều cánh, cả đường bộ lẫn đường thủy, hẹn cùng lúc kéo sang cho nước ta trở tay không kịp.",
+  "hien": "Quân nhà Tống chia làm nhiều cánh, cả đường bộ lẫn đường thủy, hẹn cùng lúc kéo sang cho nước ta trở tay không kịp."
+ },
+ {
+  "n": 176014,
   "chuong": 2,
   "tone": "story",
   "text": "Kế ấy nghe thì rất chắc ăn. Nhưng nó chỉ thành khi mọi cánh quân đến nơi cùng một lúc.",
   "hien": "Kế ấy nghe thì rất chắc ăn. Nhưng nó chỉ thành khi mọi cánh quân đến nơi cùng một lúc."
  },
  {
-  "n": 176014,
+  "n": 176015,
   "chuong": 2,
   "tone": "story",
   "text": "Còn bên này biên giới, giặc sắp tới mà vua mới sáu tuổi. Vậy ai sẽ cầm quân ra trận?",
   "hien": "Còn bên này biên giới, giặc sắp tới mà vua mới sáu tuổi. Vậy ai sẽ cầm quân ra trận?"
  },
  {
-  "n": 176015,
+  "n": 176016,
   "chuong": 3,
   "tone": "story",
   "text": "Dương Thái hậu, mẹ của vua nhỏ, giao cho Lê Hoàn chọn người cầm quân. Tướng Phạm Cự Lạng được phong làm Đại tướng quân, dẫn quân ra trận.",
   "hien": "Dương Thái hậu, mẹ của vua nhỏ, giao cho Lê Hoàn chọn người cầm quân. Tướng Phạm Cự Lạng được phong làm Đại tướng quân, dẫn quân ra trận."
  },
  {
-  "n": 176016,
-  "chuong": 3,
-  "tone": "story",
-  "text": "Nhưng đúng lúc định ngày ra quân, Phạm Cự Lạng cùng các tướng mặc áo trận, kéo thẳng vào cung.",
-  "hien": "Nhưng đúng lúc định ngày ra quân, Phạm Cự Lạng cùng các tướng mặc áo trận, kéo thẳng vào cung."
- },
- {
   "n": 176017,
   "chuong": 3,
   "tone": "story",
-  "text": "Họ nói vua còn nhỏ quá, mình có liều chết đánh giặc thì ai biết công cho. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy ra trận.",
-  "hien": "Họ nói vua còn nhỏ quá, mình có liều chết đánh giặc thì ai biết công cho. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy ra trận."
+  "text": "Mọi việc tưởng đã xong. Nhưng đúng lúc định ngày ra quân, Phạm Cự Lạng cùng các tướng mặc nguyên áo trận, kéo thẳng vào cung.",
+  "hien": "Mọi việc tưởng đã xong. Nhưng đúng lúc định ngày ra quân, Phạm Cự Lạng cùng các tướng mặc nguyên áo trận, kéo thẳng vào cung."
  },
  {
   "n": 176018,
   "chuong": 3,
   "tone": "story",
-  "text": "Quân sĩ nghe vậy đều hô vạn tuế. Thái hậu thấy lòng người đã theo, bèn lấy áo vua khoác lên người Lê Hoàn.",
-  "hien": "Quân sĩ nghe vậy đều hô vạn tuế. Thái hậu thấy lòng người đã theo, bèn lấy áo vua khoác lên người Lê Hoàn."
+  "text": "Họ nói vua còn nhỏ quá, có liều chết đánh giặc thì ai biết công cho. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy ra trận.",
+  "hien": "Họ nói vua còn nhỏ quá, có liều chết đánh giặc thì ai biết công cho. Chi bằng tôn Lê Hoàn làm vua trước, rồi hãy ra trận."
  },
  {
   "n": 176019,
   "chuong": 3,
   "tone": "story",
-  "text": "Đó là lần thứ nhất cành khô không chịu gãy. Nhà Tống tưởng sẽ đánh một nước có vua nhỏ, giờ lại gặp một ông vua từng cầm quân.",
-  "hien": "Đó là lần thứ nhất cành khô không chịu gãy. Nhà Tống tưởng sẽ đánh một nước có vua nhỏ, giờ lại gặp một ông vua từng cầm quân."
+  "text": "Quân sĩ đều hô vạn tuế, Thái hậu bèn lấy áo vua khoác lên người Lê Hoàn. Đó là lần thứ nhất cành khô không gãy.",
+  "hien": "Quân sĩ đều hô vạn tuế, Thái hậu bèn lấy áo vua khoác lên người Lê Hoàn. Đó là lần thứ nhất cành khô không gãy."
  },
  {
   "n": 176020,
   "chuong": 3,
   "tone": "story",
-  "text": "Nhưng Lê Hoàn lên ngôi chưa lâu thì thư của vua Tống gửi sang. Thư bảo nước Việt chỉ như ngón tay trên người nhà Tống, chống lại thì sẽ bị dẹp.",
-  "hien": "Nhưng Lê Hoàn lên ngôi chưa lâu thì thư của vua Tống gửi sang. Thư bảo nước Việt chỉ như ngón tay trên người nhà Tống, chống lại thì sẽ bị dẹp."
+  "text": "Chỉ trong một buổi, nước Việt đã có vua mới. Nhà Tống định đánh một ông vua sáu tuổi, giờ lại gặp người từng cầm mười đạo quân.",
+  "hien": "Chỉ trong một buổi, nước Việt đã có vua mới. Nhà Tống định đánh một ông vua sáu tuổi, giờ lại gặp người từng cầm mười đạo quân."
  },
  {
   "n": 176021,
+  "chuong": 3,
+  "tone": "story",
+  "text": "Lê Hoàn lên ngôi chưa lâu thì thư vua Tống gửi sang. Lời lẽ rất nặng: nước Việt chỉ như ngón tay của nhà Tống, dám chống lại sẽ bị dẹp.",
+  "hien": "Lê Hoàn lên ngôi chưa lâu thì thư vua Tống gửi sang. Lời lẽ rất nặng: nước Việt chỉ như ngón tay của nhà Tống, dám chống lại sẽ bị dẹp."
+ },
+ {
+  "n": 176022,
   "chuong": 3,
   "tone": "story",
   "text": "Để kéo dài thời gian, Lê Hoàn sai sứ sang nhà Tống với lá thư ký tên Đinh Toàn. Trong thư, vua nhỏ xin được phong chức như cha mình.",
   "hien": "Để kéo dài thời gian, Lê Hoàn sai sứ sang nhà Tống với lá thư ký tên Đinh Toàn. Trong thư, vua nhỏ xin được phong chức như cha mình."
  },
  {
-  "n": 176022,
+  "n": 176023,
   "chuong": 3,
   "tone": "story",
   "text": "Nhưng nhà Tống không chịu. Họ đòi hoặc Đinh Toàn làm vua và Lê Hoàn làm phó, hoặc cả mẹ con Đinh Toàn phải sang nhà Tống.",
   "hien": "Nhưng nhà Tống không chịu. Họ đòi hoặc Đinh Toàn làm vua và Lê Hoàn làm phó, hoặc cả mẹ con Đinh Toàn phải sang nhà Tống."
  },
  {
-  "n": 176023,
+  "n": 176024,
   "chuong": 3,
   "tone": "story",
-  "text": "Lê Hoàn không nhận điều kiện nào. Đến đây thì thư từ đã hết, hai bên chỉ còn gặp nhau ngoài chiến trường.",
-  "hien": "Lê Hoàn không nhận điều kiện nào. Đến đây thì thư từ đã hết, hai bên chỉ còn gặp nhau ngoài chiến trường."
+  "text": "Lê Hoàn không nhận điều kiện nào. Thư từ đến đây là hết, giờ chỉ còn gươm giáo nói chuyện với nhau.",
+  "hien": "Lê Hoàn không nhận điều kiện nào. Thư từ đến đây là hết, giờ chỉ còn gươm giáo nói chuyện với nhau."
  },
  {
-  "n": 176024,
+  "n": 176025,
   "chuong": 4,
   "tone": "story",
   "text": "Đầu năm chín trăm tám mươi mốt, quân nhà Tống chia hai đường. Hầu Nhân Bảo đi đường bộ qua Lạng Sơn, tướng Lưu Trừng đi đường thủy vào sông Bạch Đằng.",
   "hien": "Đầu năm chín trăm tám mươi mốt, quân nhà Tống chia hai đường. Hầu Nhân Bảo đi đường bộ qua Lạng Sơn, tướng Lưu Trừng đi đường thủy vào sông Bạch Đằng."
  },
  {
-  "n": 176025,
+  "n": 176026,
   "chuong": 4,
   "tone": "story",
-  "text": "Lê Hoàn tự mình cầm quân ra chặn. Ông cho quân sĩ đóng cọc xuống lòng sông Bạch Đằng, chặn đường thuyền giặc.",
-  "hien": "Lê Hoàn tự mình cầm quân ra chặn. Ông cho quân sĩ đóng cọc xuống lòng sông Bạch Đằng, chặn đường thuyền giặc."
+  "text": "Bên này, Lê Hoàn tự mình cầm quân ra chặn. Ông cho quân sĩ đóng cọc xuống lòng sông Bạch Đằng, chặn đường thuyền giặc.",
+  "hien": "Bên này, Lê Hoàn tự mình cầm quân ra chặn. Ông cho quân sĩ đóng cọc xuống lòng sông Bạch Đằng, chặn đường thuyền giặc."
  },
  {
-  "n": 176026,
+  "n": 176027,
   "chuong": 4,
   "tone": "story",
   "text": "Cách đánh ấy không phải mới. Bốn mươi ba năm trước, Ngô Quyền cũng cắm cọc trên dòng sông này và đánh tan đoàn chiến thuyền của quân Nam Hán.",
   "hien": "Cách đánh ấy không phải mới. Bốn mươi ba năm trước, Ngô Quyền cũng cắm cọc trên dòng sông này và đánh tan đoàn chiến thuyền của quân Nam Hán."
  },
  {
-  "n": 176027,
-  "chuong": 4,
-  "tone": "story",
-  "text": "Đó là lần thứ hai cành khô không gãy. Kế của nhà Tống là đánh thật nhanh, còn hàng cọc thì chặn đúng đường tiến của quân thủy.",
-  "hien": "Đó là lần thứ hai cành khô không gãy. Kế của nhà Tống là đánh thật nhanh, còn hàng cọc thì chặn đúng đường tiến của quân thủy."
- },
- {
   "n": 176028,
   "chuong": 4,
   "tone": "story",
-  "text": "Trên sông, có một trận quân nhà Tống thắng và cướp được hai trăm chiến thuyền. Nhưng rồi quân thủy của họ vẫn phải lui.",
-  "hien": "Trên sông, có một trận quân nhà Tống thắng và cướp được hai trăm chiến thuyền. Nhưng rồi quân thủy của họ vẫn phải lui."
+  "text": "Nhưng trận đầu trên sông, quân nhà Tống lại thắng. Họ cướp được hai trăm chiến thuyền, và tưởng như lời Lư Đa Tốn sắp thành sự thật.",
+  "hien": "Nhưng trận đầu trên sông, quân nhà Tống lại thắng. Họ cướp được hai trăm chiến thuyền, và tưởng như lời Lư Đa Tốn sắp thành sự thật."
  },
  {
   "n": 176029,
   "chuong": 4,
   "tone": "story",
-  "text": "Còn trên bộ, tướng Tôn Toàn Hưng dừng quân ở Hoa Bộ, nói phải chờ quân thủy tới rồi mới đi. Hầu Nhân Bảo giục mấy lần, ông vẫn không chịu tiến.",
-  "hien": "Còn trên bộ, tướng Tôn Toàn Hưng dừng quân ở Hoa Bộ, nói phải chờ quân thủy tới rồi mới đi. Hầu Nhân Bảo giục mấy lần, ông vẫn không chịu tiến."
+  "text": "Vậy mà hàng cọc vẫn chặn đường sông, và quân thủy nhà Tống rốt cuộc phải lui. Đó là lần thứ hai cành khô không gãy.",
+  "hien": "Vậy mà hàng cọc vẫn chặn đường sông, và quân thủy nhà Tống rốt cuộc phải lui. Đó là lần thứ hai cành khô không gãy."
  },
  {
   "n": 176030,
   "chuong": 4,
   "tone": "story",
-  "text": "Kế đánh nhanh giờ thành ra ngồi chờ nhau. Còn Hầu Nhân Bảo, người xin đánh từ đầu, liệu có chịu ngồi chờ?",
-  "hien": "Kế đánh nhanh giờ thành ra ngồi chờ nhau. Còn Hầu Nhân Bảo, người xin đánh từ đầu, liệu có chịu ngồi chờ?"
+  "text": "Trên bộ, mọi việc còn tệ hơn với nhà Tống. Tướng Tôn Toàn Hưng dừng quân ở Hoa Bộ, nhất định chờ quân thủy tới rồi mới đi.",
+  "hien": "Trên bộ, mọi việc còn tệ hơn với nhà Tống. Tướng Tôn Toàn Hưng dừng quân ở Hoa Bộ, nhất định chờ quân thủy tới rồi mới đi."
  },
  {
   "n": 176031,
-  "chuong": 5,
+  "chuong": 4,
   "tone": "story",
-  "text": "Hầu Nhân Bảo không chờ. Ông dẫn quân đi trước, bỏ lại cánh quân của Tôn Toàn Hưng ở phía sau.",
-  "hien": "Hầu Nhân Bảo không chờ. Ông dẫn quân đi trước, bỏ lại cánh quân của Tôn Toàn Hưng ở phía sau."
+  "text": "Hầu Nhân Bảo giục hết lần này đến lần khác, nhưng Tôn Toàn Hưng vẫn không nhúc nhích. Kế đánh nhanh như sét giờ thành ra ngồi chờ nhau.",
+  "hien": "Hầu Nhân Bảo giục hết lần này đến lần khác, nhưng Tôn Toàn Hưng vẫn không nhúc nhích. Kế đánh nhanh như sét giờ thành ra ngồi chờ nhau."
  },
  {
   "n": 176032,
-  "chuong": 5,
+  "chuong": 4,
   "tone": "story",
-  "text": "Rồi quân của ông tới vùng sông Chi Lăng ở Lạng Sơn, nơi con đường chạy kẹp giữa núi. Lê Hoàn đã chờ sẵn ở đó.",
-  "hien": "Rồi quân của ông tới vùng sông Chi Lăng ở Lạng Sơn, nơi con đường chạy kẹp giữa núi. Lê Hoàn đã chờ sẵn ở đó."
+  "text": "Còn Hầu Nhân Bảo, người viết thư xin đánh từ đầu, liệu có chịu ngồi chờ?",
+  "hien": "Còn Hầu Nhân Bảo, người viết thư xin đánh từ đầu, liệu có chịu ngồi chờ?"
  },
  {
   "n": 176033,
   "chuong": 5,
   "tone": "story",
-  "text": "Một toán quân của Lê Hoàn ra xin hàng. Nhưng đó là hàng giả, bày ra để dụ Hầu Nhân Bảo vào bẫy.",
-  "hien": "Một toán quân của Lê Hoàn ra xin hàng. Nhưng đó là hàng giả, bày ra để dụ Hầu Nhân Bảo vào bẫy."
+  "text": "Ông không chờ. Hầu Nhân Bảo dẫn quân đi trước, bỏ lại cánh quân của Tôn Toàn Hưng ở phía sau.",
+  "hien": "Ông không chờ. Hầu Nhân Bảo dẫn quân đi trước, bỏ lại cánh quân của Tôn Toàn Hưng ở phía sau."
  },
  {
   "n": 176034,
   "chuong": 5,
   "tone": "story",
-  "text": "Hầu Nhân Bảo tin là thật, nên bị bắt và bị chém. Đó là lần thứ ba cành khô không gãy, và lần này người bẻ phải trả bằng mạng mình.",
-  "hien": "Hầu Nhân Bảo tin là thật, nên bị bắt và bị chém. Đó là lần thứ ba cành khô không gãy, và lần này người bẻ phải trả bằng mạng mình."
+  "text": "Rồi quân của ông tiến tới sông Chi Lăng ở Lạng Sơn, nơi con đường chạy kẹp giữa núi. Ở đó, Lê Hoàn đã chờ sẵn.",
+  "hien": "Rồi quân của ông tiến tới sông Chi Lăng ở Lạng Sơn, nơi con đường chạy kẹp giữa núi. Ở đó, Lê Hoàn đã chờ sẵn."
  },
  {
   "n": 176035,
   "chuong": 5,
   "tone": "story",
-  "text": "Tướng Trần Khâm Tộ đang tiến tới Tây Kết, nghe tin Hầu Nhân Bảo chết thì vội vàng rút về.",
-  "hien": "Tướng Trần Khâm Tộ đang tiến tới Tây Kết, nghe tin Hầu Nhân Bảo chết thì vội vàng rút về."
+  "text": "Một toán quân của Lê Hoàn bước ra, xin đầu hàng. Nếu đó là thật, lời hứa không tốn một mũi tên đã thành sự thật.",
+  "hien": "Một toán quân của Lê Hoàn bước ra, xin đầu hàng. Nếu đó là thật, lời hứa không tốn một mũi tên đã thành sự thật."
  },
  {
   "n": 176036,
   "chuong": 5,
   "tone": "story",
-  "text": "Thế là Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng.",
-  "hien": "Thế là Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết hơn một nửa, xác nằm đầy đồng."
+  "text": "Nhưng đó là hàng giả, một cái bẫy dụ Hầu Nhân Bảo lại gần. Ông tin là thật, nên bị bắt rồi bị chém.",
+  "hien": "Nhưng đó là hàng giả, một cái bẫy dụ Hầu Nhân Bảo lại gần. Ông tin là thật, nên bị bắt rồi bị chém."
  },
  {
   "n": 176037,
+  "chuong": 5,
+  "tone": "story",
+  "text": "Người viết thư xin đánh đã chết trên chính đất mình định chiếm. Đó là lần thứ ba cành khô không gãy, và lần này người bẻ mất mạng.",
+  "hien": "Người viết thư xin đánh đã chết trên chính đất mình định chiếm. Đó là lần thứ ba cành khô không gãy, và lần này người bẻ mất mạng."
+ },
+ {
+  "n": 176038,
+  "chuong": 5,
+  "tone": "story",
+  "text": "Tin chủ tướng chết vừa tới, tướng Trần Khâm Tộ đang tiến về Tây Kết liền vội vàng rút quân.",
+  "hien": "Tin chủ tướng chết vừa tới, tướng Trần Khâm Tộ đang tiến về Tây Kết liền vội vàng rút quân."
+ },
+ {
+  "n": 176039,
+  "chuong": 5,
+  "tone": "story",
+  "text": "Nhưng Lê Hoàn không để họ rút yên. Ông đem các tướng đuổi theo, quân của Trần Khâm Tộ thua to, chết quá nửa, xác nằm đầy đồng.",
+  "hien": "Nhưng Lê Hoàn không để họ rút yên. Ông đem các tướng đuổi theo, quân của Trần Khâm Tộ thua to, chết quá nửa, xác nằm đầy đồng."
+ },
+ {
+  "n": 176040,
   "chuong": 5,
   "tone": "story",
   "text": "Hai tướng nhà Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, rồi bị giải về kinh đô Hoa Lư.",
   "hien": "Hai tướng nhà Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, rồi bị giải về kinh đô Hoa Lư."
  },
  {
-  "n": 176038,
+  "n": 176041,
   "chuong": 5,
   "tone": "story",
-  "text": "Tin thua trận về tới triều Tống. Vua Tống cho rút hết quân về, rồi quay sang phạt nặng các tướng còn sống.",
-  "hien": "Tin thua trận về tới triều Tống. Vua Tống cho rút hết quân về, rồi quay sang phạt nặng các tướng còn sống."
+  "text": "Cuộc chiến tưởng không tốn một mũi tên giờ thành một trận thua nặng. Vua Tống cho rút hết quân về, rồi quay sang phạt nặng các tướng còn sống.",
+  "hien": "Cuộc chiến tưởng không tốn một mũi tên giờ thành một trận thua nặng. Vua Tống cho rút hết quân về, rồi quay sang phạt nặng các tướng còn sống."
  },
  {
-  "n": 176039,
+  "n": 176042,
   "chuong": 5,
   "tone": "story",
   "text": "Tướng Lưu Trừng bị ốm rồi chết, còn tướng Vương Soạn bị giết ở Ung Châu.",
   "hien": "Tướng Lưu Trừng bị ốm rồi chết, còn tướng Vương Soạn bị giết ở Ung Châu."
  },
  {
-  "n": 176040,
+  "n": 176043,
   "chuong": 5,
   "tone": "story",
   "text": "Riêng Tôn Toàn Hưng, người cứ đứng chờ ở Hoa Bộ, thì bị đem ra chém giữa chợ.",
   "hien": "Riêng Tôn Toàn Hưng, người cứ đứng chờ ở Hoa Bộ, thì bị đem ra chém giữa chợ."
  },
  {
-  "n": 176041,
+  "n": 176044,
   "chuong": 6,
   "tone": "story",
   "text": "Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước, rồi sai sứ sang làm hòa. Nhà Tống nhận lời và phong chức cho ông.",
   "hien": "Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước, rồi sai sứ sang làm hòa. Nhà Tống nhận lời và phong chức cho ông."
  },
  {
-  "n": 176042,
+  "n": 176045,
   "chuong": 6,
   "tone": "story",
   "text": "Vậy vì sao một lời nói chắc như vậy lại phải trả giá đắt đến thế? Vì nước Việt khi ấy không phải là cành khô.",
   "hien": "Vậy vì sao một lời nói chắc như vậy lại phải trả giá đắt đến thế? Vì nước Việt khi ấy không phải là cành khô."
  },
  {
-  "n": 176043,
+  "n": 176046,
   "chuong": 6,
   "tone": "story",
   "text": "Nước Việt có một ông vua tự cầm quân, có hàng cọc chặn đường sông, và có một lần hàng giả lấy mạng chủ tướng nhà Tống.",
   "hien": "Nước Việt có một ông vua tự cầm quân, có hàng cọc chặn đường sông, và có một lần hàng giả lấy mạng chủ tướng nhà Tống."
  },
  {
-  "n": 176044,
+  "n": 176047,
   "chuong": 6,
   "tone": "story",
   "text": "Cành khô mà Lư Đa Tốn bảo dễ bẻ rốt cuộc vẫn không gãy, còn người sang bẻ thì không trở về. Cảm ơn bạn đã lắng nghe câu chuyện này.",

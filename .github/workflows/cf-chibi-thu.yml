@@ -1,0 +1,28 @@
+name: Thử chibi Cloudflare
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  thu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gọi Cloudflare một lần
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python3 cf_chibi_thu.py
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git add logs/cf_chibi_thu.txt assets/anh_2d/NB1_cf || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "fact-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Thử chibi Cloudflare [skip ci]"
+          for i in 1 2 3 4; do git pull --rebase -X theirs -q && git push -q && exit 0; sleep 6; done

@@ -12144,13 +12144,13 @@
 "tone": "story"
 },
 "162014": {
-"nhom": "162001-162014",
+"nhom": "162014-162014",
 "model": "gemini-3.8-flash-tts",
 "cach_goi": "interactions",
 "voice": "Leda",
 "style_id": "948ae17d",
 "style_var": "thu",
-"thoi_diem": "2026-11-16 02:26:31",
+"thoi_diem": "2026-11-16 02:47:52",
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"

@@ -1,43 +1,46 @@
-   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK Leda 01: Phân tử nhỏ đến mức kính hiển vi thường cũng không
+OK Leda 01: Vì sao cứ bốn năm, lịch lại thêm một ngày?
+   [gemini] khóa …8www hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 02: Nhưng một năm đâu phải ba trăm sáu mươi lăm ngày t
+OK Leda 03: Hóa ra Trái Đất đi hết một vòng quanh Mặt Trời thì
+OK Leda 04: Vậy người xưa đo cái phần lẻ ấy bằng cách nào?
    [gemini] khóa …fACw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 02: Nhưng hóa ra, chỉ cần một muỗng dầu ăn và một cái 
+OK Leda 05: Trước hết, họ cần một dấu mốc của năm. Dấu mốc dễ 
+OK Leda 06: Hạ chí là ngày Mặt Trời lên cao nhất bầu trời lúc 
+OK Leda 07: Nên họ ghi lại ngày hạ chí năm nay, rồi đếm xem tớ
+OK Leda 08: Nhưng mỗi lần đo sai vài giờ, nên chỉ đếm một năm 
    [gemini] khóa …Ag8A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 03: Đó là cách người ta ước lượng độ dày của một phân 
+OK Leda 09: Vì vậy mẹo là đo hai ngày hạ chí cách nhau thật xa
+OK Leda 10: Giống như đo tờ giấy: đo cả chồng một trăm tờ rồi 
    [gemini] khóa …mplw hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 11: Nhà thiên văn Hip-pa-khốt đã làm như vậy ở Hy Lạp,
+OK Leda 12: Ông so ngày hạ chí mình quan sát với ngày hạ chí n
+OK Leda 13: Giữa hai lần hạ chí ấy có gần ba trăm năm, đếm ra 
+OK Leda 14: Rồi ông chia số ngày ấy cho số năm.
+OK Leda 15: Ta được khoảng ba trăm sáu mươi lăm phẩy hai bốn s
    [gemini] khóa …Qp4A hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 04: Chuyện bắt đầu ở một cái ao ngoài trời, bên nước A
-OK Leda 05: Trong một lá thư năm một nghìn bảy trăm bảy mươi b
+OK Leda 16: Số đo hiện đại là ba trăm sáu mươi lăm phẩy hai bố
+OK Leda 17: Nên ông chỉ lệch khoảng sáu phút mỗi năm, dù không
+OK Leda 18: Vậy lịch nên chia năm thế nào? Lịch Giu-li-an, bắt
    [gemini] khóa …pPaA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 19: Như vậy năm trung bình là ba trăm sáu mươi lăm ngà
+OK Leda 20: Con số này dài hơn năm thật khoảng không phẩy khôn
+OK Leda 21: Từ năm ba trăm hai mươi lăm tới năm một nghìn năm 
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 22: Nhân với không phẩy không bảy tám ngày, ra gần mườ
+OK Leda 23: Năm một nghìn năm trăm tám mươi hai, Giáo hoàng Gờ
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 24: Sau ngày bốn tháng mười là ngày mười lăm tháng mườ
    [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+OK Leda 25: Ông đổi luật: năm chia hết cho bốn thì nhuận, trừ 
+OK Leda 26: Nên các năm một nghìn bảy trăm, tám trăm, chín tră
    [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 06: Gió thổi làm mặt ao nổi sóng, và ông đổ xuống đó m
-OK Leda 07: Dầu trải ra, và cả một góc ao lặng đi, phẳng như m
-OK Leda 08: Ông ước góc ao ấy rộng chừng nửa mẫu Anh, khoảng h
+OK Leda 27: Cứ bốn trăm năm chỉ có chín mươi bảy năm nhuận.
+OK Leda 28: Bốn trăm năm đó có hơn một trăm bốn mươi sáu nghìn
+OK Leda 29: Chia cho bốn trăm năm, ta được ba trăm sáu mươi lă
    [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 09: Hai nghìn mét vuông bằng khoảng năm sân bóng rổ.
-OK Leda 10: Một muỗng dầu mà trải rộng chừng ấy, vậy lớp dầu p
-OK Leda 11: Như phết bơ lên bánh mì: cùng một ít bơ, trải càng
-OK Leda 12: Phrăng-lin không tính độ dày ấy. Hơn một trăm năm 
-OK Leda 13: Ông đoán rằng dầu trải ra đến khi chỉ còn một lớp 
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
+OK Leda 30: Gần sát năm thật, nên lịch này lệch rất chậm, phải
    [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 14: Nếu đúng, độ dày của lớp dầu cũng chính là độ dày 
-OK Leda 15: Cách tính rất đơn giản: thể tích bằng diện tích nh
-OK Leda 16: Một muỗng cà phê chứa khoảng năm xăng-ti-mét khối 
-OK Leda 17: Năm xăng-ti-mét khối bằng năm nghìn mi-li-mét khối
-OK Leda 18: Hai nghìn mét vuông bằng hai tỉ mi-li-mét vuông.
-   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 19: Độ dày bằng năm nghìn chia hai tỉ.
-OK Leda 20: Ra hai phẩy năm phần triệu mi-li-mét.
-OK Leda 21: Một tờ giấy dày khoảng một phần mười mi-li-mét, tứ
-OK Leda 22: Một phần triệu mi-li-mét được gọi là một na-nô-mét
-   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 23: Rây-lây tính ra lớp dầu dày cỡ hai na-nô-mét, cùng
-OK Leda 24: Muỗng và diện tích ao chỉ là ước chừng, nên kết qu
-OK Leda 25: Nhưng chừng đó cũng đủ cho thấy phân tử nhỏ đến mứ
-OK Leda 26: Hơn hai mươi năm sau, Lăng-muya trải màng mỏng the
-   [gemini] khóa …Snsg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-OK Leda 27: Vậy muốn đo thứ nhỏ nhất, hãy trải nó ra thật mỏng
+OK Leda 31: Vậy cứ bốn năm thêm một ngày, vì mỗi năm dài hơn b

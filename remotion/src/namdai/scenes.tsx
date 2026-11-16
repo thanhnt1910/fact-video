@@ -152,7 +152,7 @@ const P9: Panel = ({f}) => (
     {Array.from({length: 20}).map((_, i) => (
       <rect key={i} x={260} y={900 - i * 14 * sp(f, 2, 22)} width={560} height={12} fill="#efe3c8" stroke="#8a7a62" strokeWidth={2} />
     ))}
-    <Big x={600} y={1010} size={80} color={C.amber} o={sp(f, 20, 36)}>chồng 100 tờ ÷ 100</Big>
+    <Big x={640} y={1000} size={70} color={C.amber} o={sp(f, 20, 36)}>chồng 100 tờ ÷ 100</Big>
     <Hero2 f={f} />
   </g>
 );

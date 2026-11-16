@@ -1,1 +1,609 @@
-[]
+[
+ [
+  {
+   "text": "Vì sao",
+   "start": 0.38,
+   "end": 0.832
+  },
+  {
+   "text": "*cứ* *4* *năm*,",
+   "start": 0.832,
+   "end": 1.51
+  },
+  {
+   "text": "lịch lại",
+   "start": 1.51,
+   "end": 2.142
+  },
+  {
+   "text": "*thêm* *một* *ngày*?",
+   "start": 2.142,
+   "end": 2.94
+  }
+ ],
+ [
+  {
+   "text": "Nhưng một năm *không*",
+   "start": 0.38,
+   "end": 1.25
+  },
+  {
+   "text": "*phải* *365* *ngày* *tròn*.",
+   "start": 1.25,
+   "end": 3.11
+  }
+ ],
+ [
+  {
+   "text": "Hóa ra mỗi vòng",
+   "start": 0.41,
+   "end": 1.625
+  },
+  {
+   "text": "quanh Mặt Trời còn",
+   "start": 1.625,
+   "end": 2.739
+  },
+  {
+   "text": "*lẻ* *thêm* *gần* *1*",
+   "start": 2.739,
+   "end": 3.974
+  },
+  {
+   "text": "*phần* *4* *ngày*.",
+   "start": 3.974,
+   "end": 4.93
+  }
+ ],
+ [
+  {
+   "text": "Vậy người xưa",
+   "start": 0.28,
+   "end": 1.075
+  },
+  {
+   "text": "*đo* *phần* *lẻ* *ấy*",
+   "start": 1.075,
+   "end": 2.135
+  },
+  {
+   "text": "bằng cách nào?",
+   "start": 2.135,
+   "end": 3.05
+  }
+ ],
+ [
+  {
+   "text": "Cần *một* *dấu*",
+   "start": 0.46,
+   "end": 1.963
+  },
+  {
+   "text": "*mốc* của năm:",
+   "start": 1.963,
+   "end": 3.647
+  },
+  {
+   "text": "ngày *hạ* *chí*.",
+   "start": 3.647,
+   "end": 5.17
+  }
+ ],
+ [
+  {
+   "text": "Hạ chí:",
+   "start": 0.4,
+   "end": 0.987
+  },
+  {
+   "text": "Mặt Trời *lên* *cao*",
+   "start": 0.987,
+   "end": 2.16
+  },
+  {
+   "text": "*nhất* lúc giữa trưa,",
+   "start": 2.16,
+   "end": 3.493
+  },
+  {
+   "text": "ở nơi",
+   "start": 3.493,
+   "end": 4.31
+  },
+  {
+   "text": "như *Hy* *Lạp*.",
+   "start": 4.31,
+   "end": 5.31
+  }
+ ],
+ [
+  {
+   "text": "Nên ghi",
+   "start": 0.38,
+   "end": 1.049
+  },
+  {
+   "text": "ngày hạ chí,",
+   "start": 1.049,
+   "end": 2.051
+  },
+  {
+   "text": "rồi *đếm* *số*",
+   "start": 2.051,
+   "end": 3.294
+  },
+  {
+   "text": "*ngày* tới hạ",
+   "start": 3.294,
+   "end": 4.297
+  },
+  {
+   "text": "chí năm sau.",
+   "start": 4.297,
+   "end": 5.42
+  }
+ ],
+ [
+  {
+   "text": "Nhưng mỗi lần",
+   "start": 0.35,
+   "end": 1.168
+  },
+  {
+   "text": "*sai* *vài* *giờ*,",
+   "start": 1.168,
+   "end": 1.986
+  },
+  {
+   "text": "nên *chỉ* *đếm*",
+   "start": 1.986,
+   "end": 3.014
+  },
+  {
+   "text": "*một* *năm* chưa",
+   "start": 3.014,
+   "end": 3.832
+  },
+  {
+   "text": "đủ chính xác.",
+   "start": 3.832,
+   "end": 4.77
+  }
+ ],
+ [
+  {
+   "text": "Mẹo:",
+   "start": 0.4,
+   "end": 0.711
+  },
+  {
+   "text": "đo hai hạ chí",
+   "start": 0.711,
+   "end": 2.197
+  },
+  {
+   "text": "*cách* *nhau* *thật* *xa*,",
+   "start": 2.197,
+   "end": 3.443
+  },
+  {
+   "text": "rồi *chia*",
+   "start": 3.443,
+   "end": 4.356
+  },
+  {
+   "text": "*cho* *số* *năm*.",
+   "start": 4.356,
+   "end": 5.41
+  }
+ ],
+ [
+  {
+   "text": "Như đo tờ giấy:",
+   "start": 0.37,
+   "end": 1.018
+  },
+  {
+   "text": "đo *chồng* *100* *tờ*",
+   "start": 1.018,
+   "end": 2.694
+  },
+  {
+   "text": "rồi chia 100,",
+   "start": 2.694,
+   "end": 4.15
+  },
+  {
+   "text": "sai số *nhỏ*",
+   "start": 4.15,
+   "end": 5.076
+  },
+  {
+   "text": "*đi* *100* *lần*.",
+   "start": 5.076,
+   "end": 6.33
+  }
+ ],
+ [
+  {
+   "text": "*Hip-pa-khốt* làm như vậy",
+   "start": 0.4,
+   "end": 1.449
+  },
+  {
+   "text": "ở Hy Lạp,",
+   "start": 1.449,
+   "end": 2.235
+  },
+  {
+   "text": "*thế* *kỷ* *thứ* *2*",
+   "start": 2.235,
+   "end": 3.594
+  },
+  {
+   "text": "*trước* *Công* *nguyên*.",
+   "start": 3.594,
+   "end": 4.5
+  }
+ ],
+ [
+  {
+   "text": "So hạ chí ông",
+   "start": 0.5,
+   "end": 1.441
+  },
+  {
+   "text": "quan sát với hạ",
+   "start": 1.441,
+   "end": 2.652
+  },
+  {
+   "text": "chí ghi từ *gần*",
+   "start": 2.652,
+   "end": 3.593
+  },
+  {
+   "text": "*300* *năm* *trước*.",
+   "start": 3.593,
+   "end": 5.36
+  }
+ ],
+ [
+  {
+   "text": "Giữa hai hạ chí",
+   "start": 0.26,
+   "end": 1.085
+  },
+  {
+   "text": "có *297* *năm*,",
+   "start": 1.085,
+   "end": 2.619
+  },
+  {
+   "text": "đếm ra",
+   "start": 2.619,
+   "end": 3.031
+  },
+  {
+   "text": "*108* *478* *ngày*.",
+   "start": 3.031,
+   "end": 5.51
+  }
+ ],
+ [
+  {
+   "text": "Chia:",
+   "start": 0.37,
+   "end": 0.475
+  },
+  {
+   "text": "*108* *478* *÷* *297*.",
+   "start": 0.475,
+   "end": 2.27
+  }
+ ],
+ [
+  {
+   "text": "= *khoảng* *365,246*",
+   "start": 0.33,
+   "end": 3.08
+  },
+  {
+   "text": "*ngày* mỗi năm.",
+   "start": 3.08,
+   "end": 4.17
+  }
+ ],
+ [
+  {
+   "text": "Số đo hiện đại:",
+   "start": 0.26,
+   "end": 1.569
+  },
+  {
+   "text": "*365,2422* *ngày*.",
+   "start": 1.569,
+   "end": 5.22
+  }
+ ],
+ [
+  {
+   "text": "Nên ông chỉ",
+   "start": 0.44,
+   "end": 1.178
+  },
+  {
+   "text": "lệch *khoảng* *6*",
+   "start": 1.178,
+   "end": 1.917
+  },
+  {
+   "text": "*phút* mỗi năm,",
+   "start": 1.917,
+   "end": 3.035
+  },
+  {
+   "text": "*không* *có* *máy* *móc*.",
+   "start": 3.035,
+   "end": 4.14
+  }
+ ],
+ [
+  {
+   "text": "Lịch *Giu-li-an*,",
+   "start": 0.36,
+   "end": 1.292
+  },
+  {
+   "text": "từ *năm* *45*",
+   "start": 1.292,
+   "end": 3.755
+  },
+  {
+   "text": "*trước* *Công* *nguyên*:",
+   "start": 3.755,
+   "end": 4.686
+  },
+  {
+   "text": "*cứ* *4* *năm*",
+   "start": 4.686,
+   "end": 5.988
+  },
+  {
+   "text": "thêm *1* *ngày*.",
+   "start": 5.988,
+   "end": 7.16
+  }
+ ],
+ [
+  {
+   "text": "Năm trung bình",
+   "start": 0.42,
+   "end": 1.187
+  },
+  {
+   "text": "= *365* *ngày* *và*",
+   "start": 1.187,
+   "end": 3.543
+  },
+  {
+   "text": "*1* *phần* *4*.",
+   "start": 3.543,
+   "end": 4.43
+  }
+ ],
+ [
+  {
+   "text": "Dài hơn năm",
+   "start": 0.37,
+   "end": 1.013
+  },
+  {
+   "text": "thật *khoảng* *0,0078*",
+   "start": 1.013,
+   "end": 3.157
+  },
+  {
+   "text": "*ngày* mỗi năm.",
+   "start": 3.157,
+   "end": 3.92
+  }
+ ],
+ [
+  {
+   "text": "Từ *325* đến *1582*",
+   "start": 0.49,
+   "end": 3.385
+  },
+  {
+   "text": "là *1* *257* *năm*.",
+   "start": 3.385,
+   "end": 5.51
+  }
+ ],
+ [
+  {
+   "text": "*1* *257* *×*",
+   "start": 0.37,
+   "end": 1.404
+  },
+  {
+   "text": "*0,0078* = *gần*",
+   "start": 1.404,
+   "end": 3.211
+  },
+  {
+   "text": "*10* *ngày* lệch.",
+   "start": 3.211,
+   "end": 4.19
+  }
+ ],
+ [
+  {
+   "text": "Năm *1582*,",
+   "start": 0.36,
+   "end": 2.306
+  },
+  {
+   "text": "*Gờ-rê-goa* *13* ra lệnh",
+   "start": 2.306,
+   "end": 4.233
+  },
+  {
+   "text": "*bỏ* *10* *ngày*.",
+   "start": 4.233,
+   "end": 5.7
+  }
+ ],
+ [
+  {
+   "text": "Sau *4* *tháng* *10*",
+   "start": 0.39,
+   "end": 1.517
+  },
+  {
+   "text": "là *15* *tháng* *10*.",
+   "start": 1.517,
+   "end": 3.46
+  }
+ ],
+ [
+  {
+   "text": "Năm *chia* *hết* *cho*",
+   "start": 0.36,
+   "end": 1.442
+  },
+  {
+   "text": "*4* thì nhuận,",
+   "start": 1.442,
+   "end": 2.067
+  },
+  {
+   "text": "trừ *năm* *cuối*",
+   "start": 2.067,
+   "end": 3.061
+  },
+  {
+   "text": "*thế* *kỷ* không chia",
+   "start": 3.061,
+   "end": 3.893
+  },
+  {
+   "text": "hết cho *400*.",
+   "start": 3.893,
+   "end": 5.57
+  }
+ ],
+ [
+  {
+   "text": "Nên *1700*,",
+   "start": 0.36,
+   "end": 1.485
+  },
+  {
+   "text": "*1800*,",
+   "start": 1.485,
+   "end": 2.739
+  },
+  {
+   "text": "*1900* không nhuận,",
+   "start": 2.739,
+   "end": 4.354
+  },
+  {
+   "text": "còn *2000* thì nhuận.",
+   "start": 4.354,
+   "end": 6.03
+  }
+ ],
+ [
+  {
+   "text": "Cứ *400* *năm* chỉ",
+   "start": 0.42,
+   "end": 1.933
+  },
+  {
+   "text": "có *97* *năm* *nhuận*.",
+   "start": 1.933,
+   "end": 3.0
+  }
+ ],
+ [
+  {
+   "text": "*400* *×* *365*",
+   "start": 0.4,
+   "end": 1.643
+  },
+  {
+   "text": "*+* *97* =",
+   "start": 1.643,
+   "end": 2.207
+  },
+  {
+   "text": "*146* *097* *ngày*.",
+   "start": 2.207,
+   "end": 3.57
+  }
+ ],
+ [
+  {
+   "text": "*146* *097* *÷* *400*",
+   "start": 0.46,
+   "end": 3.209
+  },
+  {
+   "text": "= *365,2425* *ngày*.",
+   "start": 3.209,
+   "end": 5.09
+  }
+ ],
+ [
+  {
+   "text": "Gần sát năm thật,",
+   "start": 0.35,
+   "end": 1.763
+  },
+  {
+   "text": "phải *rất* *nhiều*",
+   "start": 1.763,
+   "end": 2.865
+  },
+  {
+   "text": "*thế* *kỷ* mới",
+   "start": 2.865,
+   "end": 4.088
+  },
+  {
+   "text": "lệch *một* *ngày*.",
+   "start": 4.088,
+   "end": 5.23
+  }
+ ],
+ [
+  {
+   "text": "Cứ *4* *năm*",
+   "start": 0.38,
+   "end": 0.999
+  },
+  {
+   "text": "*thêm* *1* *ngày*,",
+   "start": 0.999,
+   "end": 1.757
+  },
+  {
+   "text": "vì mỗi năm dài",
+   "start": 1.757,
+   "end": 2.972
+  },
+  {
+   "text": "hơn *365* *ngày* gần",
+   "start": 2.972,
+   "end": 4.621
+  },
+  {
+   "text": "*1* *phần* *4*.",
+   "start": 4.621,
+   "end": 5.36
+  }
+ ]
+]

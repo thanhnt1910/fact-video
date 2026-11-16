@@ -1,1 +1,555 @@
-[]
+[
+ [
+  {
+   "text": "Không ai *đặt* *Mặt*",
+   "start": 0.32,
+   "end": 1.333
+  },
+  {
+   "text": "*Trời* *lên* *cân* được,",
+   "start": 1.333,
+   "end": 2.677
+  },
+  {
+   "text": "làm sao biết nó",
+   "start": 2.677,
+   "end": 3.69
+  },
+  {
+   "text": "*nặng* *bao* *nhiêu*?",
+   "start": 3.69,
+   "end": 4.57
+  }
+ ],
+ [
+  {
+   "text": "Nhưng mỗi ngày,",
+   "start": 0.23,
+   "end": 0.901
+  },
+  {
+   "text": "*Trái* *Đất* đã *tự*",
+   "start": 0.901,
+   "end": 2.225
+  },
+  {
+   "text": "*cân* *nó* giúp ta.",
+   "start": 2.225,
+   "end": 3.24
+  }
+ ],
+ [
+  {
+   "text": "Hóa ra chỉ cần",
+   "start": 0.42,
+   "end": 1.818
+  },
+  {
+   "text": "biết Trái Đất *chạy*",
+   "start": 1.818,
+   "end": 3.006
+  },
+  {
+   "text": "*nhanh* *cỡ* *nào*.",
+   "start": 3.006,
+   "end": 3.95
+  }
+ ],
+ [
+  {
+   "text": "Mặt Trời",
+   "start": 0.42,
+   "end": 0.957
+  },
+  {
+   "text": "*hút* Trái Đất,",
+   "start": 0.957,
+   "end": 2.022
+  },
+  {
+   "text": "sao Trái Đất *không*",
+   "start": 2.022,
+   "end": 2.856
+  },
+  {
+   "text": "*rơi* *vào* Mặt Trời?",
+   "start": 2.856,
+   "end": 3.81
+  }
+ ],
+ [
+  {
+   "text": "Vì Trái Đất *đang*",
+   "start": 0.42,
+   "end": 1.3
+  },
+  {
+   "text": "*chạy* *vòng* quanh nó.",
+   "start": 1.3,
+   "end": 2.3
+  }
+ ],
+ [
+  {
+   "text": "Như *quay* *quả*",
+   "start": 0.38,
+   "end": 1.22
+  },
+  {
+   "text": "*bóng* *buộc* *dây*:",
+   "start": 1.22,
+   "end": 2.31
+  },
+  {
+   "text": "dây kéo bóng,",
+   "start": 2.31,
+   "end": 3.06
+  },
+  {
+   "text": "nhưng bóng *chạy*",
+   "start": 3.06,
+   "end": 4.16
+  },
+  {
+   "text": "*vòng* nên *không*",
+   "start": 4.16,
+   "end": 5.13
+  },
+  {
+   "text": "*rơi* *vào* *tay*.",
+   "start": 5.13,
+   "end": 6.0
+  }
+ ],
+ [
+  {
+   "text": "Mặt Trời *càng* *nặng*",
+   "start": 0.4,
+   "end": 1.651
+  },
+  {
+   "text": "thì hút *càng* *mạnh*,",
+   "start": 1.651,
+   "end": 3.173
+  },
+  {
+   "text": "Trái Đất phải",
+   "start": 3.173,
+   "end": 4.116
+  },
+  {
+   "text": "chạy *càng* *nhanh*.",
+   "start": 4.116,
+   "end": 5.07
+  }
+ ],
+ [
+  {
+   "text": "Vậy *tốc* *độ* *Trái*",
+   "start": 0.36,
+   "end": 1.24
+  },
+  {
+   "text": "*Đất* cho biết *Mặt*",
+   "start": 1.24,
+   "end": 2.29
+  },
+  {
+   "text": "*Trời* *nặng* *bao* *nhiêu*.",
+   "start": 2.29,
+   "end": 3.29
+  }
+ ],
+ [
+  {
+   "text": "Quy luật hút do",
+   "start": 0.47,
+   "end": 1.626
+  },
+  {
+   "text": "*Niu-tơn* tìm ra,",
+   "start": 1.626,
+   "end": 2.602
+  },
+  {
+   "text": "trong sách xuất",
+   "start": 2.602,
+   "end": 3.469
+  },
+  {
+   "text": "bản năm *1687*.",
+   "start": 3.469,
+   "end": 5.9
+  }
+ ],
+ [
+  {
+   "text": "Cần *3* *con* *số*.",
+   "start": 0.54,
+   "end": 2.118
+  },
+  {
+   "text": "Thứ nhất:",
+   "start": 2.118,
+   "end": 2.911
+  },
+  {
+   "text": "khoảng cách *khoảng*",
+   "start": 2.911,
+   "end": 3.772
+  },
+  {
+   "text": "*150* *triệu* *ki-lô-mét*.",
+   "start": 3.772,
+   "end": 6.32
+  }
+ ],
+ [
+  {
+   "text": "Thứ hai:",
+   "start": 0.3,
+   "end": 0.835
+  },
+  {
+   "text": "một vòng",
+   "start": 0.835,
+   "end": 1.641
+  },
+  {
+   "text": "là *1* *năm*,",
+   "start": 1.641,
+   "end": 2.664
+  },
+  {
+   "text": "*365* *ngày* *và*",
+   "start": 2.664,
+   "end": 5.067
+  },
+  {
+   "text": "*1* *phần* *4*.",
+   "start": 5.067,
+   "end": 5.99
+  }
+ ],
+ [
+  {
+   "text": "Thứ ba là *G*,",
+   "start": 0.43,
+   "end": 1.488
+  },
+  {
+   "text": "cho biết *lực* *hút*",
+   "start": 1.488,
+   "end": 3.196
+  },
+  {
+   "text": "*mạnh* *cỡ* *nào*.",
+   "start": 3.196,
+   "end": 4.51
+  }
+ ],
+ [
+  {
+   "text": "G *rất* *nhỏ*,",
+   "start": 0.28,
+   "end": 0.922
+  },
+  {
+   "text": "khoảng *6,7*",
+   "start": 0.922,
+   "end": 2.192
+  },
+  {
+   "text": "*phần* *100* *tỉ*.",
+   "start": 2.192,
+   "end": 3.81
+  }
+ ],
+ [
+  {
+   "text": "Năm *1798*,",
+   "start": 0.38,
+   "end": 2.415
+  },
+  {
+   "text": "*Ca-ven-đít* đo lực hút",
+   "start": 2.415,
+   "end": 3.318
+  },
+  {
+   "text": "giữa các quả cầu",
+   "start": 3.318,
+   "end": 4.22
+  },
+  {
+   "text": "bằng *cân* *xoắn*,",
+   "start": 4.22,
+   "end": 5.277
+  },
+  {
+   "text": "từ đó ra *G*.",
+   "start": 5.277,
+   "end": 6.3
+  }
+ ],
+ [
+  {
+   "text": "Vòng dài *2* *×*",
+   "start": 0.51,
+   "end": 1.52
+  },
+  {
+   "text": "*3,14* *×* *150* *triệu*",
+   "start": 1.52,
+   "end": 4.009
+  },
+  {
+   "text": "≈ *940* *triệu* *ki-lô-mét*.",
+   "start": 4.009,
+   "end": 5.39
+  }
+ ],
+ [
+  {
+   "text": "*1* *năm* ≈",
+   "start": 0.35,
+   "end": 1.592
+  },
+  {
+   "text": "*31,6* *triệu* *giây*.",
+   "start": 1.592,
+   "end": 4.23
+  }
+ ],
+ [
+  {
+   "text": "*940* *triệu*",
+   "start": 0.36,
+   "end": 2.454
+  },
+  {
+   "text": "*÷* *31,6* *triệu*.",
+   "start": 2.454,
+   "end": 4.9
+  }
+ ],
+ [
+  {
+   "text": "= *khoảng* *29,8*",
+   "start": 0.46,
+   "end": 2.548
+  },
+  {
+   "text": "*ki-lô-mét* mỗi giây.",
+   "start": 2.548,
+   "end": 3.41
+  }
+ ],
+ [
+  {
+   "text": "Mỗi giây đi",
+   "start": 0.42,
+   "end": 1.336
+  },
+  {
+   "text": "*gần* *30* *ki-lô-mét*,",
+   "start": 1.336,
+   "end": 2.679
+  },
+  {
+   "text": "mà ta *không*",
+   "start": 2.679,
+   "end": 3.774
+  },
+  {
+   "text": "*hề* *cảm* *thấy*.",
+   "start": 3.774,
+   "end": 4.7
+  }
+ ],
+ [
+  {
+   "text": "Khối lượng =",
+   "start": 0.32,
+   "end": 1.507
+  },
+  {
+   "text": "*tốc* *độ* *×*",
+   "start": 1.507,
+   "end": 2.874
+  },
+  {
+   "text": "*tốc* *độ* *×* *khoảng*",
+   "start": 2.874,
+   "end": 4.203
+  },
+  {
+   "text": "*cách* *÷* *G*.",
+   "start": 4.203,
+   "end": 5.64
+  }
+ ],
+ [
+  {
+   "text": "Đổi ra mét:",
+   "start": 0.46,
+   "end": 1.439
+  },
+  {
+   "text": "*29* *800*",
+   "start": 1.439,
+   "end": 3.311
+  },
+  {
+   "text": "*mét* mỗi giây.",
+   "start": 3.311,
+   "end": 4.1
+  }
+ ],
+ [
+  {
+   "text": "*29* *800* *×* *29*",
+   "start": 0.24,
+   "end": 2.165
+  },
+  {
+   "text": "*800* ≈ *888* *triệu*.",
+   "start": 2.165,
+   "end": 4.27
+  }
+ ],
+ [
+  {
+   "text": "*888* *triệu* *×*",
+   "start": 0.48,
+   "end": 1.887
+  },
+  {
+   "text": "*150* *tỉ* ≈",
+   "start": 1.887,
+   "end": 3.743
+  },
+  {
+   "text": "*133* *tỉ* *tỉ*.",
+   "start": 3.743,
+   "end": 5.27
+  }
+ ],
+ [
+  {
+   "text": "Chia cho G ≈",
+   "start": 0.32,
+   "end": 1.868
+  },
+  {
+   "text": "*2* *×* *10³⁰* *ki-lô-gam*.",
+   "start": 1.868,
+   "end": 4.48
+  }
+ ],
+ [
+  {
+   "text": "Tức *khoảng* *2* *tỉ*",
+   "start": 0.32,
+   "end": 1.571
+  },
+  {
+   "text": "*tỉ* *tỉ* *tấn*.",
+   "start": 1.571,
+   "end": 2.78
+  }
+ ],
+ [
+  {
+   "text": "So với Trái Đất:",
+   "start": 0.43,
+   "end": 2.136
+  },
+  {
+   "text": "nặng gấp *khoảng*",
+   "start": 2.136,
+   "end": 3.73
+  },
+  {
+   "text": "*333* *nghìn* *lần*.",
+   "start": 3.73,
+   "end": 6.45
+  }
+ ],
+ [
+  {
+   "text": "Chạy *nhanh* *gấp* *đôi*,",
+   "start": 0.43,
+   "end": 1.799
+  },
+  {
+   "text": "ở chỗ cũ:",
+   "start": 1.799,
+   "end": 2.926
+  },
+  {
+   "text": "Mặt Trời phải",
+   "start": 2.926,
+   "end": 4.203
+  },
+  {
+   "text": "*nặng* *gấp* *4*.",
+   "start": 4.203,
+   "end": 5.35
+  }
+ ],
+ [
+  {
+   "text": "Cùng cách ấy,",
+   "start": 0.43,
+   "end": 1.163
+  },
+  {
+   "text": "cân được *bất* *cứ*",
+   "start": 1.163,
+   "end": 2.49
+  },
+  {
+   "text": "*vật* *nào* có *vật*",
+   "start": 2.49,
+   "end": 3.627
+  },
+  {
+   "text": "*khác* *chạy* *quanh*.",
+   "start": 3.627,
+   "end": 4.59
+  }
+ ],
+ [
+  {
+   "text": "Mặt Trời nặng",
+   "start": 0.4,
+   "end": 1.228
+  },
+  {
+   "text": "*khoảng* *2* *tỉ*",
+   "start": 1.228,
+   "end": 2.056
+  },
+  {
+   "text": "*tỉ* *tỉ* *tấn*,",
+   "start": 2.056,
+   "end": 3.124
+  },
+  {
+   "text": "nhờ Trái Đất",
+   "start": 3.124,
+   "end": 4.232
+  },
+  {
+   "text": "chạy *gần* *30*",
+   "start": 4.232,
+   "end": 5.612
+  },
+  {
+   "text": "*ki-lô-mét* mỗi giây.",
+   "start": 5.612,
+   "end": 6.56
+  }
+ ]
+]

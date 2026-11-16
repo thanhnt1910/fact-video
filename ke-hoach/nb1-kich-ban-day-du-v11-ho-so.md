@@ -22,8 +22,8 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 4. Mỗi chi tiết sẽ được đóng một dấu: CÓ SỬ nếu có tài liệu, GIAI THOẠI nếu chỉ là lời kể, LỜI KHAI MÂU THUẪN nếu các nguồn nói khác nhau, và KHÔNG AI BIẾT nếu sử không trả lời được.
 
 ## Hồ sơ 1. Hiện trường: một nước không còn ai cai quản
-5. Hiện trường đầu tiên là nước Nhật giữa thế kỷ mười lăm. Hãy tưởng tượng một cái chợ không có ban quản lý: sạp nào cũng tự đặt luật, ai to tiếng nhất thì làm chủ. 【CÓ SỬ】
-6. Cần biết trước: Nhật có hai ngôi cao nhất. Thiên hoàng là vua trên danh nghĩa, còn tướng quân mới nắm quân sự và điều hành chính quyền. 【CÓ SỬ】
+5. Trước hết cần biết ai cai quản nước Nhật. Nhật có hai ngôi cao nhất: thiên hoàng là vua trên danh nghĩa, còn tướng quân mới nắm quân sự và điều hành chính quyền. 【CÓ SỬ】
+6. Nhưng rồi có lúc, đến tướng quân cũng không còn cai quản nổi nước Nhật. Hãy tưởng tượng một cái chợ không có ban quản lý: sạp nào cũng tự đặt luật, ai to tiếng nhất thì làm chủ. 【CÓ SỬ】
 7. Mọi chuyện bắt đầu từ chuyện nối ngôi tướng quân. Tướng quân Ashikaga Yoshimasa không có con nên định cho em trai nối ngôi. Sau đó ông có con trai, và cả nhà tướng quân cãi nhau xem ai sẽ nối. 【CÓ SỬ】
 8. Năm 1467, hai lãnh chúa lớn ở Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. 【CÓ SỬ】
 9. Kyoto bị đốt nhiều chùa chiền, dinh thự. Tướng quân rút về biệt thự nghỉ dưỡng ở phía đông bắc Kyoto, nơi về sau thành chùa Gác Bạc, ngồi ngắm cảnh khi quyền hành gần như không còn. 【CÓ SỬ】
@@ -148,6 +148,8 @@ Các đoạn khác đã đọc từng câu và giữ nguyên. Đoạn 7, 8, 9 đ
 | 47 | Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ, và là người có nhiều lý do nhất để thay chỗ Nobunaga. | Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ. | bỏ lời nhận định "nhiều lý do nhất" không có nguồn |
 | 58 | Ông lớn lên ở nhà Imagawa, và sau khi Yoshimoto chết ở Okehazama thì quay sang bắt tay Nobunaga. | Ông lớn lên ở nhà Imagawa. Như đã kể, sau khi Yoshimoto chết ở Okehazama, ông quay sang bắt tay Nobunaga. | lặp đoạn 30–31 mà không báo là đã kể |
 | 60 | Hideyoshi điều Ieyasu đến vùng Kantō. | Hideyoshi điều Ieyasu đến vùng Kantō, phía đông nước Nhật. | "Kantō" chưa giải thích |
+
+**Đoạn 5–6 đảo thứ tự (16:55):** trước đây đoạn 5 nêu ví von cái chợ khi người nghe chưa biết ai cai quản nước Nhật, rồi đoạn 6 mới giải thích thiên hoàng và tướng quân nên bị hụt. Nay đoạn 5 giải thích hai ngôi, đoạn 6 nói tướng quân cũng hết cai quản nổi rồi mới đến ví von cái chợ. Chữ giữ nguyên, chỉ thêm câu nối "Nhưng rồi có lúc, đến tướng quân cũng không còn cai quản nổi nước Nhật" (ý này khớp đoạn 9 và Britannica: quyền lực trung ương sụp đổ).
 
 ## Điểm cần chủ kênh quyết (quy tắc kênh bị chạm)
 1. Quy tắc cũ ghi "ghi chú tranh cãi, so sánh nguồn không nằm trong lời kể". Hướng này đưa "lời khai mâu thuẫn" vào lời kể. Mục "Nới quy tắc viết kịch bản" (05/11/2026) cho phép nhắc nguồn trong lời kể, nhưng bản 11 vẫn cần chủ kênh đồng ý rõ.

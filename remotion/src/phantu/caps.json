@@ -1,1 +1,556 @@
-[]
+[
+ [
+  {
+   "text": "*Phân* *tử* nhỏ đến",
+   "start": 0.55,
+   "end": 1.478
+  },
+  {
+   "text": "mức *kính* *hiển* *vi*",
+   "start": 1.478,
+   "end": 2.615
+  },
+  {
+   "text": "*thường* cũng không thấy,",
+   "start": 2.615,
+   "end": 3.952
+  },
+  {
+   "text": "làm sao *đo* *được*?",
+   "start": 3.952,
+   "end": 5.0
+  }
+ ],
+ [
+  {
+   "text": "Nhưng hóa ra",
+   "start": 0.42,
+   "end": 1.082
+  },
+  {
+   "text": "chỉ cần *một*",
+   "start": 1.082,
+   "end": 1.895
+  },
+  {
+   "text": "*muỗng* *dầu* *ăn* và",
+   "start": 1.895,
+   "end": 2.778
+  },
+  {
+   "text": "*một* *cái* *ao*.",
+   "start": 2.778,
+   "end": 3.56
+  }
+ ],
+ [
+  {
+   "text": "Đó là cách ước",
+   "start": 0.37,
+   "end": 1.247
+  },
+  {
+   "text": "lượng *độ* *dày* của",
+   "start": 1.247,
+   "end": 2.123
+  },
+  {
+   "text": "*một* *phân* *tử* *dầu*.",
+   "start": 2.123,
+   "end": 3.12
+  }
+ ],
+ [
+  {
+   "text": "Chuyện bắt đầu",
+   "start": 0.4,
+   "end": 1.022
+  },
+  {
+   "text": "ở *một* *cái*",
+   "start": 1.022,
+   "end": 1.645
+  },
+  {
+   "text": "*ao* ngoài trời,",
+   "start": 1.645,
+   "end": 2.268
+  },
+  {
+   "text": "bên *nước* *Anh*.",
+   "start": 2.268,
+   "end": 3.2
+  }
+ ],
+ [
+  {
+   "text": "Trong thư năm *1773*,",
+   "start": 0.39,
+   "end": 3.311
+  },
+  {
+   "text": "*Phrăng-lin* kể lại",
+   "start": 3.311,
+   "end": 4.086
+  },
+  {
+   "text": "*cái* *ao* *ấy*.",
+   "start": 4.086,
+   "end": 4.98
+  }
+ ],
+ [
+  {
+   "text": "Gió làm",
+   "start": 0.47,
+   "end": 1.038
+  },
+  {
+   "text": "ao *nổi* *sóng*,",
+   "start": 1.038,
+   "end": 1.889
+  },
+  {
+   "text": "ông đổ xuống",
+   "start": 1.889,
+   "end": 3.011
+  },
+  {
+   "text": "*một* *muỗng* *dầu*,",
+   "start": 3.011,
+   "end": 3.862
+  },
+  {
+   "text": "không hơn.",
+   "start": 3.862,
+   "end": 4.86
+  }
+ ],
+ [
+  {
+   "text": "Dầu trải ra,",
+   "start": 0.42,
+   "end": 1.145
+  },
+  {
+   "text": "cả *một* *góc*",
+   "start": 1.145,
+   "end": 2.189
+  },
+  {
+   "text": "*ao* lặng đi,",
+   "start": 2.189,
+   "end": 2.914
+  },
+  {
+   "text": "*phẳng* *như* *mặt* *gương*.",
+   "start": 2.914,
+   "end": 4.19
+  }
+ ],
+ [
+  {
+   "text": "Góc ao rộng chừng",
+   "start": 0.44,
+   "end": 1.42
+  },
+  {
+   "text": "*nửa* *mẫu* *Anh*,",
+   "start": 1.42,
+   "end": 2.05
+  },
+  {
+   "text": "khoảng *2*",
+   "start": 2.05,
+   "end": 2.47
+  },
+  {
+   "text": "*000* *mét* *vuông*.",
+   "start": 2.47,
+   "end": 4.42
+  }
+ ],
+ [
+  {
+   "text": "*2* *000* *mét*",
+   "start": 0.36,
+   "end": 1.565
+  },
+  {
+   "text": "*vuông* bằng khoảng *5*",
+   "start": 1.565,
+   "end": 2.168
+  },
+  {
+   "text": "*sân* *bóng* *rổ*.",
+   "start": 2.168,
+   "end": 2.74
+  }
+ ],
+ [
+  {
+   "text": "*Một* *muỗng* *dầu* trải",
+   "start": 0.47,
+   "end": 1.71
+  },
+  {
+   "text": "rộng chừng ấy,",
+   "start": 1.71,
+   "end": 2.87
+  },
+  {
+   "text": "lớp dầu *mỏng*",
+   "start": 2.87,
+   "end": 3.8
+  },
+  {
+   "text": "*đến* *mức* *nào*?",
+   "start": 3.8,
+   "end": 4.85
+  }
+ ],
+ [
+  {
+   "text": "Như *phết* *bơ*",
+   "start": 0.43,
+   "end": 1.388
+  },
+  {
+   "text": "lên bánh mì:",
+   "start": 1.388,
+   "end": 2.635
+  },
+  {
+   "text": "trải *càng* *rộng*,",
+   "start": 2.635,
+   "end": 3.793
+  },
+  {
+   "text": "lớp bơ *càng* *mỏng*.",
+   "start": 3.793,
+   "end": 5.16
+  }
+ ],
+ [
+  {
+   "text": "Phrăng-lin *không*",
+   "start": 0.44,
+   "end": 0.945
+  },
+  {
+   "text": "*tính* độ dày.",
+   "start": 0.945,
+   "end": 1.702
+  },
+  {
+   "text": "*Hơn* *100* *năm* *sau*,",
+   "start": 1.702,
+   "end": 4.193
+  },
+  {
+   "text": "*Rây-lây* mới tính.",
+   "start": 4.193,
+   "end": 5.07
+  }
+ ],
+ [
+  {
+   "text": "Đoán dầu trải đến",
+   "start": 0.41,
+   "end": 1.739
+  },
+  {
+   "text": "khi chỉ còn",
+   "start": 1.739,
+   "end": 2.555
+  },
+  {
+   "text": "*một* *lớp* *phân* *tử*",
+   "start": 2.555,
+   "end": 3.734
+  },
+  {
+   "text": "nằm cạnh nhau.",
+   "start": 3.734,
+   "end": 4.67
+  }
+ ],
+ [
+  {
+   "text": "Nếu đúng,",
+   "start": 0.42,
+   "end": 1.225
+  },
+  {
+   "text": "*độ* *dày* *lớp*",
+   "start": 1.225,
+   "end": 2.028
+  },
+  {
+   "text": "*dầu* = *độ* *dày*",
+   "start": 2.028,
+   "end": 3.268
+  },
+  {
+   "text": "*một* *phân* *tử*.",
+   "start": 3.268,
+   "end": 4.19
+  }
+ ],
+ [
+  {
+   "text": "Thể tích = diện",
+   "start": 0.49,
+   "end": 2.085
+  },
+  {
+   "text": "tích × độ dày,",
+   "start": 2.085,
+   "end": 3.799
+  },
+  {
+   "text": "nên *độ* *dày*",
+   "start": 3.799,
+   "end": 5.073
+  },
+  {
+   "text": "*=* *thể* *tích*",
+   "start": 5.073,
+   "end": 6.076
+  },
+  {
+   "text": "*÷* *diện* *tích*.",
+   "start": 6.076,
+   "end": 7.08
+  }
+ ],
+ [
+  {
+   "text": "Một muỗng cà",
+   "start": 0.37,
+   "end": 1.114
+  },
+  {
+   "text": "phê chứa *khoảng* *5*",
+   "start": 1.114,
+   "end": 2.266
+  },
+  {
+   "text": "*xăng-ti-mét* *khối* dầu.",
+   "start": 2.266,
+   "end": 3.13
+  }
+ ],
+ [
+  {
+   "text": "*5* *cm³* = *5*",
+   "start": 0.34,
+   "end": 1.336
+  },
+  {
+   "text": "*000* *mi-li-mét* *khối*.",
+   "start": 1.336,
+   "end": 3.58
+  }
+ ],
+ [
+  {
+   "text": "*2* *000* *mét*",
+   "start": 0.37,
+   "end": 1.934
+  },
+  {
+   "text": "*vuông* = *2*",
+   "start": 1.934,
+   "end": 2.597
+  },
+  {
+   "text": "*tỉ* *mi-li-mét* *vuông*.",
+   "start": 2.597,
+   "end": 3.28
+  }
+ ],
+ [
+  {
+   "text": "Độ dày = *5*",
+   "start": 0.37,
+   "end": 1.107
+  },
+  {
+   "text": "*000* *÷* *2* *tỉ*.",
+   "start": 1.107,
+   "end": 2.7
+  }
+ ],
+ [
+  {
+   "text": "= *2,5*",
+   "start": 0.43,
+   "end": 1.711
+  },
+  {
+   "text": "*phần* *triệu* *mi-li-mét*.",
+   "start": 1.711,
+   "end": 2.6
+  }
+ ],
+ [
+  {
+   "text": "Tờ giấy",
+   "start": 0.43,
+   "end": 0.866
+  },
+  {
+   "text": "dày *0,1* *mi-li-mét*,",
+   "start": 0.866,
+   "end": 2.174
+  },
+  {
+   "text": "*gấp* *40* *000*",
+   "start": 2.174,
+   "end": 4.596
+  },
+  {
+   "text": "*lần* lớp dầu.",
+   "start": 4.596,
+   "end": 5.37
+  }
+ ],
+ [
+  {
+   "text": "*1* *phần* *triệu* *mi-li-mét*",
+   "start": 0.35,
+   "end": 1.699
+  },
+  {
+   "text": "= *1* *na-nô-mét*,",
+   "start": 1.699,
+   "end": 2.801
+  },
+  {
+   "text": "nên dày",
+   "start": 2.801,
+   "end": 3.956
+  },
+  {
+   "text": "*khoảng* *2,5* *na-nô-mét*.",
+   "start": 3.956,
+   "end": 6.1
+  }
+ ],
+ [
+  {
+   "text": "Rây-lây tính ra dày",
+   "start": 0.42,
+   "end": 1.688
+  },
+  {
+   "text": "*cỡ* *2* *na-nô-mét*,",
+   "start": 1.688,
+   "end": 2.638
+  },
+  {
+   "text": "*cùng* *cỡ* một",
+   "start": 2.638,
+   "end": 3.989
+  },
+  {
+   "text": "phân tử dầu.",
+   "start": 3.989,
+   "end": 5.06
+  }
+ ],
+ [
+  {
+   "text": "Muỗng và diện tích",
+   "start": 0.36,
+   "end": 1.432
+  },
+  {
+   "text": "ao chỉ *ước* *chừng*,",
+   "start": 1.432,
+   "end": 2.884
+  },
+  {
+   "text": "nên chỉ đúng về",
+   "start": 2.884,
+   "end": 3.956
+  },
+  {
+   "text": "*cỡ* *độ* *lớn*.",
+   "start": 3.956,
+   "end": 4.88
+  }
+ ],
+ [
+  {
+   "text": "Chừng đó đủ cho",
+   "start": 0.47,
+   "end": 1.486
+  },
+  {
+   "text": "thấy phân tử *nhỏ*",
+   "start": 1.486,
+   "end": 2.502
+  },
+  {
+   "text": "*đến* *mức* *nào*,",
+   "start": 2.502,
+   "end": 3.264
+  },
+  {
+   "text": "mà *vẫn* *đo* *được*.",
+   "start": 3.264,
+   "end": 4.71
+  }
+ ],
+ [
+  {
+   "text": "*Hơn* *20* *năm* *sau*,",
+   "start": 0.55,
+   "end": 2.316
+  },
+  {
+   "text": "*Lăng-muya* trải màng mỏng",
+   "start": 2.316,
+   "end": 3.306
+  },
+  {
+   "text": "để ước *diện* *tích*",
+   "start": 3.306,
+   "end": 4.567
+  },
+  {
+   "text": "*mỗi* *phân* *tử*.",
+   "start": 4.567,
+   "end": 5.43
+  }
+ ],
+ [
+  {
+   "text": "Muốn đo",
+   "start": 0.3,
+   "end": 0.917
+  },
+  {
+   "text": "*thứ* *nhỏ* *nhất*,",
+   "start": 0.917,
+   "end": 2.203
+  },
+  {
+   "text": "trải thật mỏng,",
+   "start": 2.203,
+   "end": 3.129
+  },
+  {
+   "text": "rồi *thể* *tích*",
+   "start": 3.129,
+   "end": 4.404
+  },
+  {
+   "text": "*÷* *diện* *tích*.",
+   "start": 4.404,
+   "end": 5.68
+  }
+ ]
+]

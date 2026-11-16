@@ -296,7 +296,7 @@ const P26: Panel = ({f}) => (
     <Spoon x={190} y={740} rot={-12} />
     <Arrow x1={330} y1={740} x2={450} y2={740} p={sp(f, 4, 18)} />
     <ellipse cx={700} cy={740} rx={230} ry={130} fill={OIL} fillOpacity={0.22} stroke={OIL} strokeWidth={5} opacity={sp(f, 12, 26)} />
-    <Big x={540} y={990} size={84} color={C.amber} o={sp(f, 18, 34)}>thể tích ÷ diện tích</Big>
+    <Big x={540} y={950} size={84} color={C.amber} o={sp(f, 18, 34)}>thể tích ÷ diện tích</Big>
     <Hero2 f={f} x={540} cheer={sp(f, 18, 34)} />
   </g>
 );

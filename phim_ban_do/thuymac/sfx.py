@@ -145,3 +145,15 @@ def steps(m,t0,t1,g=.35,iv=.5):
         n=int(.12*SR);m.add(lp(m.nz(n),600)*env(n,.003,.035)*(1 if i%2==0 else .8),t+m.rng.normal(0,.012),g,m.rng.uniform(-.5,.5));t+=iv;i+=1
 def march(m,t0,t1,g=.35):
     for k in range(4): steps(m,t0+k*.11,t1,g*.6,.55)
+# bỏ qua sự kiện nằm ngoài thời lượng (cảnh không dùng trong bản này)
+import functools as _ft
+def _guard(f):
+    @_ft.wraps(f)
+    def w(m,t0,*a,**k):
+        if t0<0 or t0>=m.N/SR-0.05: return
+        if a and isinstance(a[0],(int,float)) and f.__name__ in ('wave_bed','wind','lap','steps','march','oars','war_drums','gulls','clangs','volley','music','pad') and a[0]<=t0: return
+        if f.__name__ in ('tide','shouts','whoosh','brush','creak') and a and a[0]<=0: return
+        return f(m,t0,*a,**k)
+    return w
+for _n in ['wave_bed','wind','lap','drop','thump','stamp','brush','whoosh','gong','drum','war_drums','oars','splash','creak','woodcrack','stake_hit','tide','gull','gulls','bow','volley','clang','clangs','shouts','horn','pluck','pad','music','steps','march']:
+    globals()[_n]=_guard(globals()[_n])

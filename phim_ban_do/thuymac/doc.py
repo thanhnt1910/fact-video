@@ -16,6 +16,7 @@ def cpath(t,keys):
     for (a,ka),(b,kb) in zip(keys,keys[1:]):
         if t<=b: u=ease((t-a)/max(b-a,1e-6));return tuple(lerp(x,y,u) for x,y in zip(ka,kb))
     return keys[-1][1]
+HOOK_V='Ai chặn nổi đoàn thuyền này?';END_V='Vì sao quân Nam Hán kéo sang?'
 LOW=895
 def wl_of(t): return 640+(LOW-640)*inn(t,T[6]+2.6,2.4)
 BX0=[840,930,1010,1130,1250,1350]
@@ -82,7 +83,7 @@ def S_river(cv,t):
     vb=[dict(x=380+i*90,y=740+i*30,s=.6,o=inn(t,T[3]+.8,1.2)) for i in range(3)] if t<T[4] else viet(t)
     river(cv,c,t,PAP,sun=.8*(t<T[4]),birds=1*(t<T[4]),wl=wl_of(t),boats=fleet(t),viet=vb,under=.06*inn(t,T[6],1.5) if t>T[5] else 0,clx=-330,cr=t>T[5],
           fx=[splash(t),arrows(t,T[7],E[7]-1)],dark=.25*inn(t,T[3]+3,1.5)*(t<T[4]))
-    if t<4.4: headline(cv,'Ai chặn nổi đoàn thuyền này?',t,.3,3.8)
+    if t<4.4: headline(cv,HOOK_V,t,.3,3.8)
     if t<T[4]: seal(cv,'sgiao',W/2,470,T[2]+2.0,t,s=1.15,o=1-inn(t,T[3]+1.0,.5))
     if T[5]<t: 
         if T[6]+1.5<t<E[7]:
@@ -122,7 +123,7 @@ def S_end8(cv,t):
 def S_end9(cv,t):
     c=cam(960,560,.8+.01*(t-T[9]))
     put(cv,c,'far',960,760,ay=1,k=.4,o=.5);put(cv,c,'mist',960,700,s=3,o=.9)
-    headline(cv,'Vì sao quân Nam Hán kéo sang?',t,T[9]+.3,TOTAL,y=470,sz=70)
+    headline(cv,END_V,t,T[9]+.3,TOTAL,y=470,sz=70)
     seal(cv,'stitle',W/2,860,T[9]+1.4,t,s=1.0,r=3)
     hd=text('Xem bản đầy đủ',84,RED,700,glow=6);put_screen(cv,wipe(hd,inn(t,T[9]+3.2,.8),0,.3,seed=4),W/2,1180)
     put_screen(cv,text('trên kênh Người Gác Sử',50,INK,600,glow=4),W/2,1285,inn(t,T[9]+3.8,.6))

@@ -33,7 +33,7 @@ def S_hook(cv,t):
     viet=[dict(x=300+i*90,y=740+i*28,s=.55,flip=False,o=inn(t,T[3]+.5,1.2)) for i in range(3)]
     dk=.35*inn(t,T[4]+.5,2.5)
     river(cv,c,t,PAP,wl=640,boats=fleet_hook(t),viet=viet,under=.0,mist=1,dark=dk,cr=False,sun=.9,birds=1)
-    if t<4.6:
+    if t<4.6 and HOOKHEAD:
         hd=text('Ai chặn nổi đoàn thuyền này?',80,INK,700,glow=6);put_screen(cv,wipe(hd,inn(t,.3,.9),0,.3,seed=21),W/2,230,1-inn(t,3.9,.6))
     # giọt mực mở đầu
     if t<1.4:
@@ -377,6 +377,7 @@ SHOTS=[(0,T[5]-.4,S_hook),(T[5]-.4,T[6]-.3,S_map),(T[6]-.3,T[7]-.3,S_hall),(T[7]
        (T[26]-.6,T[35]-.3,S_battle),(T[35]-.3,T[36]-.3,S_retreat),(T[36]-.3,T[37]-.6,S_after),(T[37]-.6,T[39]-.3,S_king),(T[39]-.3,T[40]-.3,S_coloa),(T[40]-.3,T[43]-.3,S_line),
        (T[43]-.3,T[45]-.3,S_1288),(T[45]-.3,TOTAL+1,S_end)]
 LOGO=None
+HOOKHEAD=True
 _r=np.random.default_rng(2);NM=cv2.resize(_r.random((6,10)).astype(np.float32),(W,H),interpolation=cv2.INTER_CUBIC)
 NM=(NM-NM.min())/(NM.max()-NM.min());XM=np.linspace(0,1,W,dtype=np.float32)[None,:]*np.ones((H,1),np.float32)
 def frame(t):

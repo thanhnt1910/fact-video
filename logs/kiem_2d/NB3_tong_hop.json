@@ -1,0 +1,33 @@
+{
+ "001": {
+  "loi": [
+   "lạc đề",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Ảnh vẽ một võ sĩ samurai thay vì phong cảnh hoặc đồ vật theo yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "002": {
+  "loi": [
+   "giải phẫu: tai to dị dạng dạng biếm họa; chuôi và bao kiếm vẽ chưa chuẩn xác",
+   "lạc đề",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Ảnh vẽ chân dung samurai biếm họa thay vì phong cảnh hoặc đồ vật theo yêu cầu.",
+  "da_kiem_ai": true
+ },
+ "003": {
+  "loi": [
+   "lạc đề",
+   "điểm 2/5"
+  ],
+  "canh_bao": [],
+  "diem": 2,
+  "ghi_chu": "Ảnh xuất hiện nhân vật võ sĩ cổ trang thay vì cảnh vật không người theo kịch bản.",
+  "da_kiem_ai": true
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "ma": "ICT",
+ "giong_chinh": "Iapetus",
+ "giong_thu": [],
+ "cau_thu": [],
+ "style": "Native Vietnamese MALE narrator, Northern accent (Hanoi), for a gold trading education video on a financial channel. Confident, calm and clear like a professional trading mentor; medium pace, crisp diction; say every number slowly and clearly. Pronounce RSI and MACD letter by letter in English (R-S-I, M-A-C-D), and say EMA, Signal, Histogram, stop loss, RSI, Moving Average Convergence Divergence in natural English. Pronounce ICT, FVG letter by letter in English (I-C-T, F-V-G). Say Inner Circle Trader, Michael Huddleston, Order Block, Market Structure Shift, Fair Value Gap and EMA cross in natural English. Read exactly as written. Not salesy, not robotic, not news-anchor flat.",
+ "doan": [
+  {
+   "id": "i_intro",
+   "text": "ICT, Inner Circle Trader. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng."
+  },
+  {
+   "id": "card1_1",
+   "text": "Phần một. Định nghĩa."
+  },
+  {
+   "id": "i_p1_1",
+   "text": "ICT là viết tắt của Inner Circle Trader, phương pháp đọc giá do Michael Huddleston xây dựng và phổ biến."
+  },
+  {
+   "id": "i_p1_2",
+   "text": "ICT không dựa vào chỉ báo trễ. Nó đọc thanh khoản và các vùng mất cân bằng giá ngay trên biểu đồ."
+  },
+  {
+   "id": "i_p1_3",
+   "text": "Cấu trúc thị trường cho biết hướng, còn thanh khoản là mục tiêu của giá."
+  },
+  {
+   "id": "i_p1_4",
+   "text": "Cú đẩy mạnh xác nhận ý đồ, còn FVG và Order Block là vùng vào lệnh."
+  },
+  {
+   "id": "card2n",
+   "text": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng."
+  },
+  {
+   "id": "i_t1",
+   "text": "Thứ nhất là thanh khoản. Đó là nơi lệnh dừng lỗ tụ lại, phía trên đỉnh cũ và phía dưới đáy cũ."
+  },
+  {
+   "id": "i_liq",
+   "text": "Ngày ba mươi tháng mười, vàng lập đáy ba nghìn tám trăm bảy mươi mốt. Bên dưới đáy này là thanh khoản bên bán."
+  },
+  {
+   "id": "i_t2",
+   "text": "Thứ hai là quét thanh khoản. Giá thủng nhanh đỉnh hoặc đáy cũ để kích hoạt lệnh dừng lỗ, rồi quay đầu ngay."
+  },
+  {
+   "id": "i_sw",
+   "text": "Ngày hai tháng mười một, giá thủng đáy cũ xuống ba nghìn tám trăm sáu mươi sáu, quét sạch thanh khoản, rồi bật lên ngay."
+  },
+  {
+   "id": "i_t3",
+   "text": "Thứ ba là Order Block, cây nến ngược chiều cuối cùng trước một cú đẩy mạnh. Đây là vùng giá có lệnh lớn."
+  },
+  {
+   "id": "i_ob",
+   "text": "Ngày ba tháng mười một, cây nến ngày giảm cuối cùng trước cú bứt phá chính là Order Block tăng."
+  },
+  {
+   "id": "i_t4",
+   "text": "Thứ tư là Market Structure Shift. Khi giá đóng cửa vượt đỉnh hoặc đáy quan trọng gần nhất, cấu trúc đổi chiều."
+  },
+  {
+   "id": "i_mss",
+   "text": "Ngày bốn tháng mười một, nến H bốn đóng cửa trên ba nghìn chín trăm bảy mươi, vượt đỉnh cũ. Cấu trúc chuyển sang tăng."
+  },
+  {
+   "id": "i_t5",
+   "text": "Thứ năm là Fair Value Gap, khoảng trống giữa ba cây nến khi giá chạy quá nhanh. Giá hay quay lại vùng này."
+  },
+  {
+   "id": "i_fvg1",
+   "text": "Cú đẩy ngày bốn và năm tháng mười một để lại khoảng trống từ ba nghìn chín trăm sáu mươi chín đến bốn nghìn không trăm năm mươi bảy."
+  },
+  {
+   "id": "i_fvg2",
+   "text": "Ngày sáu tháng mười một, giá hồi vào vùng này, chạm bốn nghìn không trăm hai mươi tám, rồi bật lên bốn nghìn một trăm ba mươi tám."
+  },
+  {
+   "id": "i_entry",
+   "text": "Ví dụ, vào lệnh khi giá phản ứng trong vùng FVG, quanh bốn nghìn không trăm sáu mươi ba."
+  },
+  {
+   "id": "b_r2b",
+   "text": "Đặt cắt lỗ dưới đáy gần nhất, khoảng bốn nghìn không trăm hai mươi."
+  },
+  {
+   "id": "i_rev1",
+   "text": "Chiều ngược lại, ngày mười tháng mười một, giá vượt đỉnh cũ lên bốn nghìn một trăm bốn mươi chín, quét thanh khoản bên mua."
+  },
+  {
+   "id": "i_rev2",
+   "text": "Sau đó nến H bốn đóng dưới đáy bốn nghìn không trăm hai mươi tám, cấu trúc chuyển sang giảm."
+  },
+  {
+   "id": "i_rev2b",
+   "text": "Ngày mười hai, vàng rơi về ba nghìn tám trăm năm mươi ba."
+  },
+  {
+   "id": "i_rev3",
+   "text": "Cú rơi để lại một Fair Value Gap giảm. Ngày mười ba, giá hồi lên chạm mép vùng này rồi bị đẩy xuống."
+  },
+  {
+   "id": "now1",
+   "text": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô."
+  },
+  {
+   "id": "i_now1b",
+   "text": "Giá đang nằm dưới vùng FVG giảm, nên cấu trúc vẫn nghiêng về giảm."
+  },
+  {
+   "id": "i_now2",
+   "text": "Bên dưới là các đáy cũ quanh ba nghìn tám trăm năm mươi ba đến ba nghìn tám trăm sáu mươi sáu, vùng thanh khoản mà ICT trader theo dõi."
+  },
+  {
+   "id": "p3c_4",
+   "text": "Hãy chờ tín hiệu xác nhận, đừng đoán đáy."
+  },
+  {
+   "id": "i_c1",
+   "text": "Năm nguyên tắc khi dùng ICT. Một, xác định hướng từ cấu trúc khung lớn trước."
+  },
+  {
+   "id": "i_c2",
+   "text": "Hai, chờ giá quét thanh khoản rồi mới tìm điểm vào."
+  },
+  {
+   "id": "i_c3",
+   "text": "Ba, cần Market Structure Shift và một cú đẩy mạnh để xác nhận."
+  },
+  {
+   "id": "i_c4",
+   "text": "Bốn, vào lệnh ở vùng FVG hoặc Order Block, không đuổi theo giá."
+  },
+  {
+   "id": "check_5",
+   "text": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss."
+  },
+  {
+   "id": "i_c6",
+   "text": "ICT là cách đọc giá, không phải công thức chắc thắng. Hãy kiểm tra lại trên dữ liệu quá khứ trước khi dùng tiền thật."
+  },
+  {
+   "id": "b_outro",
+   "text": "Tập sau là EMA cross, giao cắt đường trung bình. Theo dõi Trader chín X để không bỏ lỡ."
+  }
+ ]
+}

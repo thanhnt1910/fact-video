@@ -556,3 +556,21 @@ Bài học: kịch bản Claude viết thẳng vào khuôn bộ kiểm (mỗi đ
 - Bản nhận dạng có gợi ý (`asr_<mã>.json`) chép theo kịch bản nên có thể ghi đúng năm dù giọng đọc sai (tn11 đọc "1958" mà bản có gợi ý vẫn ghi 1951). Năm, số, tên phải so bằng `asr_<mã>_ngoai.json` (không gợi ý) và bản nhận dạng cả cụm; lệch thì coi là đọc sai.
 - Gemini hay đọc sai năm viết bằng chữ (tn11 1951 → 1956/1958, tn12 1010 → 2010, tn15 1909 → 1905). Khi đã sai một lượt: ghi năm đó bằng chữ số trong trường `text` (phụ đề `hien` giữ nguyên), đọc lại cả video, kiểm lại bằng bản không gợi ý.
 - Không chạy đồng thời hai workflow cùng đẩy lên nhánh (giọng và nhận dạng): lượt giọng tn13 từng mất vì bị từ chối đẩy. Không chạy `dung_9x16.py` cho video khác khi đang dựng một video (dùng chung `data.js`).
+
+## Series Sengoku "Ba người, một thiên hạ" và mọi video sử nước ngoài: viết cho người chưa biết gì (chủ kênh yêu cầu 16/11/2026, áp dụng mọi kịch bản từ nay)
+Bài học: bản 10 và bản 11 đầu có câu tóm tắt quá chặt từ nguồn tiếng Anh ("hai phe quan lớn tranh quyền trong nhà tướng quân", "nhà gác bạc Ginkaku-ji") làm người nghe không hiểu tranh cái gì, nhà gì. Chủ kênh phải tự phát hiện.
+- **Mỗi câu phải trả lời được "ai làm gì, với ai, vì sao".** Không tóm tắt chặt kiểu dịch sát. Gặp câu nguồn ngắn gọn thì mở rộng thành chuyện: ai, chuyện gì, kết quả.
+- **Thuật ngữ, tên tổ chức, địa danh lạ phải giải thích ngay trong câu hoặc câu liền sau** (Gác Bạc là biệt thự nghỉ dưỡng của tướng quân, sau thành chùa; nhà Mori là một đối thủ ở xa; Kantō ở phía đông nước Nhật). Tên mới lần đầu xuất hiện phải có vai trò đi kèm.
+- **Không dùng chữ dịch sát gây hiểu sai** ("quan lớn" thay cho lãnh chúa, "chân xách dép, vị trí thấp nhất"). Dùng đúng vai trò thật và nói rõ vật tranh chấp (tranh chuyện nối ngôi, không "tranh quyền" chung chung).
+- **Kiểm nội bộ trước khi gửi duyệt:** mọi mốc năm, tên, quan hệ phải khớp giữa các đoạn (ví dụ không đoạn nói "chỉ biết chắc từ 1570" mà đoạn khác nói "1557 vào nhà Oda"); chi tiết nhắc lại phải báo "như đã kể".
+- **Không lời nhận định không nguồn và không cực cấp không nguồn** ("mạnh nhất", "nhiều lý do nhất"). Chi tiết chỉ nói đúng điều nguồn nói.
+- **Rà từng câu theo 5 điểm** (ghi kết quả vào bản gửi duyệt): (1) chủ ngữ rõ; (2) ai-với-ai rõ; (3) từ lạ đã giải thích; (4) mốc khớp các đoạn khác; (5) cực cấp và nhận định có nguồn. Đọc như người chưa biết chuyện: câu nào phải đọc hai lần thì viết lại.
+- **Câu nào nghi tóm tắt chặt thì tra lại nguồn gốc trước khi sửa**, không đoán chữ. Ghi nguồn đã đọc vào bản gửi.
+- **Mỗi lần sửa gửi lại toàn bản kèm bảng trước/sau và lý do** (đã có ở mục kiểm kịch bản).
+
+### Khung "hồ sơ vụ án" cho series này (chủ kênh duyệt hướng 16/11/2026)
+- Mở bằng một cảnh có thật và một câu hỏi lớn; chia thân bài thành các "hồ sơ" (hiện trường, từng bị đơn, trận quyết định, phán quyết). Thân bài vẫn đi đúng thứ tự thời gian.
+- Bốn dấu trên hình: CÓ SỬ, GIAI THOẠI, LỜI KHAI MÂU THUẪN (các nguồn nói khác nhau; nêu từng con số), KHÔNG AI BIẾT (sử không trả lời, không đoán). Dấu hiện bằng con dấu đỏ, không đọc lên (trừ một đoạn giải thích ở đầu video).
+- Phần phán quyết chỉ nêu chuỗi sự kiện có nguồn; lời giải thích "vì sao" cần lời của sử gia có tên, nếu không thì đóng dấu KHÔNG AI BIẾT.
+- Hình: tranh thủy mặc, mỗi ảnh một nhân vật, không chữ, không con dấu, mỗi người tối đa một kiếm nằm trong bao; hiệu ứng mực loang và nét cọ chuyển cảnh (`hieu_ung_muc/`); cảnh đánh nhau mô phỏng bằng mã, không máu (`hieu_ung_muc/demo_okehazama.py`). Chibi đã thử và bị chủ kênh chê, không dùng.
+- Mẫu: `ke-hoach/nb1-kich-ban-day-du-v11-ho-so.md`.

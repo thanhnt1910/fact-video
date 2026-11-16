@@ -25,11 +25,11 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 5. Hiện trường đầu tiên là nước Nhật giữa thế kỷ mười lăm. Hãy tưởng tượng một cái chợ không có ban quản lý: sạp nào cũng tự đặt luật, ai to tiếng nhất thì làm chủ. 【CÓ SỬ】
 6. Cần biết trước: Nhật có hai ngôi cao nhất. Thiên hoàng là vua trên danh nghĩa, còn tướng quân mới nắm quân sự và điều hành chính quyền. 【CÓ SỬ】
 7. Mọi chuyện bắt đầu từ chuyện nối ngôi tướng quân. Tướng quân Ashikaga Yoshimasa không có con nên định cho em trai nối ngôi. Sau đó ông có con trai, và cả nhà tướng quân cãi nhau xem ai sẽ nối. 【CÓ SỬ】
-8. Năm 1467, hai lãnh chúa mạnh nhất Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. 【CÓ SỬ】
+8. Năm 1467, hai lãnh chúa lớn ở Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. 【CÓ SỬ】
 9. Kyoto bị đốt nhiều chùa chiền, dinh thự. Tướng quân rút về biệt thự nghỉ dưỡng ở phía đông bắc Kyoto, nơi về sau thành chùa Gác Bạc, ngồi ngắm cảnh khi quyền hành gần như không còn. 【CÓ SỬ】
-10. Chiến tranh lan ra khắp vùng quê. Nông dân lập hội rồi cầm vũ khí nổi dậy, thường do võ sĩ địa phương dẫn đầu, và một số người trong đó về sau thành daimyo, tức lãnh chúa. 【CÓ SỬ】
+10. Chiến tranh lan ra khắp vùng quê. Nông dân tụ tập thành từng nhóm rồi cầm vũ khí nổi dậy, thường do các võ sĩ địa phương dẫn đầu. Về sau, một số người nổi lên trong thời loạn này trở thành daimyo, tức lãnh chúa. 【CÓ SỬ】
 11. Những lãnh chúa này tự cầm quân giữ đất, và kẻ dưới giành quyền kẻ trên là chuyện thường. Thời kỳ này gọi là Sengoku, tức thời Chiến Quốc của Nhật. 【CÓ SỬ】
-12. Quyền thật ở Kyoto lần lượt rơi vào ba dòng họ là Hosokawa, rồi Miyoshi, rồi Matsunaga. Tướng quân vẫn còn đó, nhưng chỉ còn cái danh. 【CÓ SỬ】
+12. Người thật sự nắm quyền ở Kyoto lần lượt là ba dòng họ: Hosokawa, rồi Miyoshi, rồi Matsunaga. Tướng quân vẫn còn đó, nhưng chỉ còn cái danh. 【CÓ SỬ】
 13. Giữa cảnh hỗn loạn ấy, ba cậu bé lần lượt ra đời. Đây chính là ba bị đơn của hồ sơ này, và mỗi người sẽ đi một con đường rất khác nhau.
 
 ## Lời đồn trước khi xem bằng chứng
@@ -39,7 +39,7 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 
 ## Hồ sơ 2. Bị đơn thứ nhất: Oda Nobunaga
 17. Oda Nobunaga sinh năm 1534 ở xứ Owari, trong một nhà lãnh chúa nhỏ. Từ bé ông đã nổi tiếng là cậu bé kỳ quặc, nghịch và ồn ào. 【CÓ SỬ】
-18. Cha ông lo hôn sự từ sớm: cưới con gái Saitō Dōsan ở xứ Mino bên cạnh, để hai nhà thôi đánh nhau. 【CÓ SỬ】
+18. Cha ông cho ông cưới con gái của Saitō Dōsan, lãnh chúa xứ Mino bên cạnh, để hai nhà thôi đánh nhau. 【CÓ SỬ】
 19. Người đời sau kể rằng trong đám tang cha, ông ném nguyên nắm hương vào bàn thờ. Đây chỉ là lời kể, nên hồ sơ ghi là giai thoại. 【GIAI THOẠI】
 20. Chuyện kể tiếp rằng một gia thần già trung thành buồn vì cách ông cư xử nên đã tự sát để can ngăn. Sau đó Nobunaga cho xây chùa tưởng nhớ ông ấy. 【GIAI THOẠI】
 21. Ở đây các nhân chứng nói khác nhau. Tên người gia thần ghi không giống nhau giữa các nguồn, và năm cha Nobunaga mất cũng vậy, nguồn ghi 1549, nguồn ghi 1551. 【LỜI KHAI MÂU THUẪN】
@@ -56,23 +56,23 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 
 ## Hồ sơ 3. Bị đơn thứ hai: Toyotomi Hideyoshi, người xách dép
 32. Hideyoshi bắt đầu thấp hơn Nobunaga rất nhiều. Theo truyền thống, ông sinh ra trong một gia đình nông dân ở Owari, không có dòng dõi samurai nào. 【CÓ SỬ】
-33. Phần lớn chuyện thời bé của ông là truyền thuyết kể lại về sau. Các tài liệu chỉ cho ta biết chắc từ khoảng năm 1570 trở đi. 【GIAI THOẠI】
+33. Phần lớn chuyện thời bé của ông là truyền thuyết kể lại về sau, nên ta không biết chắc. 【GIAI THOẠI】
 34. Điều chắc chắn là ông xuất thân thấp hơn hầu hết những người quanh Nobunaga, nên mọi bước đi lên đều phải tự giành lấy. 【CÓ SỬ】
-35. Khoảng năm 1557, ông vào làm cho nhà Oda, bắt đầu từ chân xách dép cho Nobunaga, vị trí thấp nhất trong nhà. 【CÓ SỬ】
+35. Khoảng năm 1557, ông vào làm cho nhà Oda, bắt đầu từ việc xách dép cho Nobunaga, một việc hầu hạ rất thấp. 【CÓ SỬ】
 36. Ông cũng có mặt ở Okehazama năm 1560, tức là đã tận mắt thấy Nobunaga đánh bại đạo quân đông gấp nhiều lần mình. 【CÓ SỬ】
-37. Đến năm 1564, ông đã mang tên Kinoshita Hideyoshi, và con đường đi lên của ông bắt đầu từ đó. 【CÓ SỬ】
+37. Đến năm 1564, ông mang tên Kinoshita Hideyoshi và bắt đầu leo lên trong nhà Oda. 【CÓ SỬ】
 
 ## Hiện trường quan trọng nhất: một đêm ở Honnō-ji
-38. Sau Okehazama, Nobunaga mở rộng thế lực rất nhanh. Năm 1568, ông đưa Ashikaga Yoshiaki lên làm tướng quân. 【CÓ SỬ】
+38. Sau Okehazama, Nobunaga mở rộng thế lực rất nhanh. Năm 1568, ông đưa Ashikaga Yoshiaki lên làm tướng quân mới. 【CÓ SỬ】
 39. Nhưng đến năm 1573, ông lại phế Yoshiaki, và chế độ tướng quân nhà Ashikaga coi như chấm hết. Tự tay dựng lên, rồi tự tay gỡ xuống. 【CÓ SỬ】
 40. Năm 1576, ông cho xây lâu đài Azuchi làm căn cứ mới, và năm 1580 chiếm được chùa Hongan ở Osaka. Nhớ cái tên Osaka nhé, nó sẽ quay lại ở cuối hồ sơ. 【CÓ SỬ】
 41. Đến năm 1582, Nobunaga đã nắm trong tay gần một nửa số tỉnh của nước Nhật. 【CÓ SỬ】
 42. Nhưng cú đòn lớn nhất lại không đến từ kẻ thù, mà từ người trong nhà. Tháng 6 năm 1582, Nobunaga đang ở chùa Honnō-ji tại Kyoto thì thuộc hạ Akechi Mitsuhide bất ngờ nổi dậy. 【CÓ SỬ】
 43. Nobunaga bị thương, không còn đường thoát, và đã tự sát. Ngày chính xác thì nguồn ghi hai ngày khác nhau, hai mươi hoặc hai mươi mốt tháng sáu. 【CÓ SỬ · NGÀY: LỜI KHAI MÂU THUẪN】
 44. Còn vì sao Mitsuhide làm vậy? Sử không biết chắc, nên hồ sơ này ghi là KHÔNG AI BIẾT và video sẽ không đoán. 【KHÔNG AI BIẾT】
-45. Lúc đó Hideyoshi đang đánh trận ở xa. Ông giảng hòa với nhà Mori rồi quay quân về cực nhanh. 【CÓ SỬ】
+45. Lúc đó Hideyoshi đang đánh nhà Mori, một đối thủ ở xa Kyoto. Nghe tin, ông giảng hòa với họ rồi quay quân về cực nhanh. 【CÓ SỬ】
 46. Ngày 2 tháng 7 năm 1582, chưa đầy hai tuần sau cái chết của Nobunaga, Hideyoshi đánh bại Akechi Mitsuhide ở Yamazaki. 【CÓ SỬ】
-47. Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ, và là người có nhiều lý do nhất để thay chỗ Nobunaga. 【CÓ SỬ】
+47. Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ. 【CÓ SỬ】
 
 ## Hồ sơ 3 (tiếp). Hideyoshi lên đỉnh
 48. Nhưng chỗ trống thì ai cũng muốn ngồi. Đất của Nobunaga được chia cho các thuộc hạ, Hideyoshi nhận Yamashiro và vài vùng quanh đó, còn chuyện ai nối nghiệp vẫn bỏ ngỏ. 【CÓ SỬ】
@@ -87,9 +87,9 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 
 ## Hồ sơ 4. Bị đơn thứ ba: Tokugawa Ieyasu, người biết chờ
 57. Còn Ieyasu thì sao? Ông sinh năm 1543, và tuổi thơ chẳng êm đềm: từ nhỏ bị đem làm con tin, đầu tiên ở nhà Oda, sau đó ở nhà Imagawa. 【CÓ SỬ】
-58. Ông lớn lên ở nhà Imagawa, và sau khi Yoshimoto chết ở Okehazama thì quay sang bắt tay Nobunaga. Biết chờ thời, chắc là tập từ hồi làm con tin. 【CÓ SỬ】
+58. Ông lớn lên ở nhà Imagawa. Như đã kể, sau khi Yoshimoto chết ở Okehazama, ông quay sang bắt tay Nobunaga. Biết chờ thời, chắc là tập từ hồi làm con tin. 【CÓ SỬ】
 59. Từ đó, ông cùng Nobunaga đánh trận suốt nhiều năm, cho đến tận lúc Nobunaga mất. 【CÓ SỬ】
-60. Năm 1590, sau trận Odawara, Hideyoshi điều Ieyasu đến vùng Kantō. Ông chọn Edo làm nơi đặt đại bản doanh. 【CÓ SỬ】
+60. Năm 1590, sau trận Odawara, Hideyoshi điều Ieyasu đến vùng Kantō, phía đông nước Nhật. Ông chọn Edo làm nơi đặt đại bản doanh. 【CÓ SỬ】
 61. Nghe như bị đẩy ra xa trung tâm. Nhưng Ieyasu lấy luôn chỗ đó làm căn cứ, và sẽ còn ở lại đó rất lâu. 【CÓ SỬ】
 62. Tóm lại, đến năm 1590 thì Nobunaga đã mất, Hideyoshi nắm cả nước Nhật, còn Ieyasu đang ở Edo. Hồ sơ đến lúc quan trọng nhất. 【CÓ SỬ】
 
@@ -130,6 +130,24 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 Đoạn 7–9 viết lại vì bản trước tóm tắt quá chặt ("hai phe quan lớn tranh quyền") khiến người nghe không biết tranh gì. Nguồn: Britannica (mục Ōnin War và mục Japan, The Ōnin War 1467–77): tướng quân Yoshimasa không có con nên đề nghị em trai nối ngôi, sau đó có con trai và nảy sinh tranh chấp quyền kiểm soát nhà Ashikaga; phe Đông là Hosokawa, phe Tây là Yamana; chiến tranh bắt đầu năm 1467 và kéo dài mười một năm. Hai trang Britannica là một nhà xuất bản, nên mức chắc là một nguồn. Đã bỏ chi tiết "quý tộc bỏ kinh đô" ở đoạn 8 cũ để đoạn gọn.
 
 **Đoạn 9 viết lại lần hai (16:51):** "nhà gác bạc Ginkaku-ji" là cách dịch chưa rõ. Ginkaku-ji (Gác Bạc) là khu biệt thự nghỉ dưỡng do tướng quân Ashikaga Yoshimasa xây ở vùng Higashiyama, phía đông bắc Kyoto, sau khi ông mất năm 1490 được chuyển thành chùa Thiền (nguồn: WorldHistory.org, Traditional Kyoto; hai nguồn khớp). Hai nguồn lệch về thời điểm (xây từ 1460 và hoàn thành 1483, hay ông dọn đến sau khi nghỉ hưu năm 1483), nên đoạn 9 không nói năm, chỉ nói ông rút về đó.
+
+## Rà lại toàn bộ 81 đoạn (16/11, 16:51): các đoạn đã sửa, trước và sau
+Các đoạn khác đã đọc từng câu và giữ nguyên. Đoạn 7, 8, 9 đã sửa riêng ở mục trên.
+
+| Đoạn | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 8 | hai lãnh chúa mạnh nhất Kyoto | hai lãnh chúa lớn ở Kyoto | bỏ cực cấp "mạnh nhất" vì nguồn không nói |
+| 10 | Nông dân lập hội rồi cầm vũ khí nổi dậy, thường do võ sĩ địa phương dẫn đầu, và một số người trong đó về sau thành daimyo, tức lãnh chúa. | Nông dân tụ tập thành từng nhóm rồi cầm vũ khí nổi dậy, thường do các võ sĩ địa phương dẫn đầu. Về sau, một số người nổi lên trong thời loạn này trở thành daimyo, tức lãnh chúa. | "lập hội" khó hiểu; "một số người trong đó" không rõ là nông dân hay võ sĩ |
+| 12 | Quyền thật ở Kyoto lần lượt rơi vào ba dòng họ là Hosokawa, rồi Miyoshi, rồi Matsunaga. | Người thật sự nắm quyền ở Kyoto lần lượt là ba dòng họ: Hosokawa, rồi Miyoshi, rồi Matsunaga. | "quyền thật" mơ hồ |
+| 18 | Cha ông lo hôn sự từ sớm: cưới con gái Saitō Dōsan ở xứ Mino bên cạnh, để hai nhà thôi đánh nhau. | Cha ông cho ông cưới con gái của Saitō Dōsan, lãnh chúa xứ Mino bên cạnh, để hai nhà thôi đánh nhau. | không rõ ai cưới ai |
+| 33 | Phần lớn chuyện thời bé của ông là truyền thuyết kể lại về sau. Các tài liệu chỉ cho ta biết chắc từ khoảng năm 1570 trở đi. | Phần lớn chuyện thời bé của ông là truyền thuyết kể lại về sau, nên ta không biết chắc. | mâu thuẫn với đoạn 35 (1557 vào nhà Oda) — bỏ mốc 1570 |
+| 35 | bắt đầu từ chân xách dép cho Nobunaga, vị trí thấp nhất trong nhà. | bắt đầu từ việc xách dép cho Nobunaga, một việc hầu hạ rất thấp. | "chân xách dép, vị trí thấp nhất" là cách nói dịch sát |
+| 37 | Đến năm 1564, ông đã mang tên Kinoshita Hideyoshi, và con đường đi lên của ông bắt đầu từ đó. | Đến năm 1564, ông mang tên Kinoshita Hideyoshi và bắt đầu leo lên trong nhà Oda. | không rõ vì sao cái tên quan trọng |
+| 38 | Năm 1568, ông đưa Ashikaga Yoshiaki lên làm tướng quân. | Năm 1568, ông đưa Ashikaga Yoshiaki lên làm tướng quân mới. | làm rõ Yoshiaki là ai |
+| 45 | Lúc đó Hideyoshi đang đánh trận ở xa. Ông giảng hòa với nhà Mori rồi quay quân về cực nhanh. | Lúc đó Hideyoshi đang đánh nhà Mori, một đối thủ ở xa Kyoto. Nghe tin, ông giảng hòa với họ rồi quay quân về cực nhanh. | "nhà Mori" chưa giới thiệu |
+| 47 | Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ, và là người có nhiều lý do nhất để thay chỗ Nobunaga. | Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ. | bỏ lời nhận định "nhiều lý do nhất" không có nguồn |
+| 58 | Ông lớn lên ở nhà Imagawa, và sau khi Yoshimoto chết ở Okehazama thì quay sang bắt tay Nobunaga. | Ông lớn lên ở nhà Imagawa. Như đã kể, sau khi Yoshimoto chết ở Okehazama, ông quay sang bắt tay Nobunaga. | lặp đoạn 30–31 mà không báo là đã kể |
+| 60 | Hideyoshi điều Ieyasu đến vùng Kantō. | Hideyoshi điều Ieyasu đến vùng Kantō, phía đông nước Nhật. | "Kantō" chưa giải thích |
 
 ## Điểm cần chủ kênh quyết (quy tắc kênh bị chạm)
 1. Quy tắc cũ ghi "ghi chú tranh cãi, so sánh nguồn không nằm trong lời kể". Hướng này đưa "lời khai mâu thuẫn" vào lời kể. Mục "Nới quy tắc viết kịch bản" (05/11/2026) cho phép nhắc nguồn trong lời kể, nhưng bản 11 vẫn cần chủ kênh đồng ý rõ.

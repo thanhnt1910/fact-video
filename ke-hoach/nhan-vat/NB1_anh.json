@@ -40,5 +40,29 @@
   "w": 1344,
   "h": 768,
   "prompt": "Exactly ONE character: Tokugawa Ieyasu as a chibi: round chubby body, soft round face with sleepy calm half-closed eyes and a small peaceful smile, short black topknot, wearing a green and brown kimono with a dark jacket, sitting cross-legged and totally calm under a big tree, holding a tea bowl, a pile of autumn leaves heaped on his head and shoulders because so much time has passed, the tree half green and half bare, a distant castle on a hill. cute chibi anime illustration, 2.5 heads tall, big head and small body, thick clean outlines, bright saturated flat colours with soft cel shading, very expressive exaggerated comic faces, sweat drops and little sparkles, playful funny mood, Sengoku period Japan (1560s) setting with wooden architecture, paper sliding doors, tatami and pine trees. Single full-frame picture, no panels, no border. Every character has exactly two arms, two hands and two legs, no extra limbs. No text, no letters, no watermark, no family-crest symbols, no blood, no weapons drawn, no modern objects."
+ },
+ {
+  "key": "007",
+  "nv": [],
+  "w": 1344,
+  "h": 768,
+  "sua_tu": "assets/anh_2d/NB1/002.jpg",
+  "prompt": "Keep EXACTLY the same character as in the reference image: same face, same big pointed ears, same small round topknot, same bright orange kimono with cloth belt, same cheeky look, same chibi proportions and the same clean outline cartoon style. Redraw this one character in a NEW scene: he sprints along a muddy mountain road in heavy rain, one straw sandal flying off, sweating comically, determined open-mouth face, pine trees and misty mountains behind. Single full-frame picture, no panels, no border, exactly ONE character, two arms two hands two legs, no text, no letters, no symbols on clothes, no blood, no weapons."
+ },
+ {
+  "key": "008",
+  "nv": [],
+  "w": 1344,
+  "h": 768,
+  "sua_tu": "assets/anh_2d/NB1/002.jpg",
+  "prompt": "Keep EXACTLY the same character as in the reference image: same face, same big pointed ears, same small round topknot, same bright orange kimono with cloth belt, same cheeky look, same chibi proportions and the same clean outline cartoon style. Redraw this one character in a NEW scene: he laughs out loud holding his belly while sitting on a tatami floor of a sunny room with open paper doors and a garden behind. Single full-frame picture, no panels, no border, exactly ONE character, two arms two hands two legs, no text, no letters, no symbols on clothes, no blood, no weapons."
+ },
+ {
+  "key": "009",
+  "nv": [],
+  "w": 1344,
+  "h": 768,
+  "sua_tu": "assets/anh_2d/NB1/002.jpg",
+  "prompt": "Keep EXACTLY the same character as in the reference image: same face, same big pointed ears, same small round topknot, same bright orange kimono with cloth belt, same cheeky look, same chibi proportions and the same clean outline cartoon style. Redraw this one character in a NEW scene: he bows deeply with both hands pressed together in front of a big wooden castle gate, nervous sweat drops, morning light, stone walls behind. Single full-frame picture, no panels, no border, exactly ONE character, two arms two hands two legs, no text, no letters, no symbols on clothes, no blood, no weapons."
  }
 ]

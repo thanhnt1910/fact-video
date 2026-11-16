@@ -47,29 +47,34 @@ Chỗ nào sử không nói rõ quan hệ nhân quả (sông bị chặn và đ�
 - **Câu móc cuối chương:** chương 2 hỏi "ai sẽ cầm quân?", chương 4 hỏi "Hầu Nhân Bảo sẽ làm gì?".
 - **Nối với tập 1:** "Bốn mươi ba năm trước, cũng trên dòng sông này, Ngô Quyền từng cắm cọc."
 
-## Ba phương án hook (đang dùng A, chủ kênh thấy ổn)
-- **A:** "Thắng trận trên sông, cướp hai trăm chiến thuyền, vì sao quân nhà Tống vẫn phải rút? Vì sao chủ tướng của họ bỏ mạng?"
-- **B:** "Họ hứa chiếm nước Việt mà không tốn một mũi tên. Vì sao chính chủ tướng của họ lại không trở về?"
-- **C:** "Một đạo quân dừng lại chờ rất lâu giữa đường tiến quân. Họ chờ ai, và vì sao sự chờ đợi ấy phải trả giá đắt?"
+## Hook (chủ kênh đổi 17/11/2026: tập trung vào câu "đánh nước Việt dễ như bẻ cành khô")
+- **Đang dùng:** "Đánh nước Việt dễ như bẻ cành khô, không tốn một mũi tên. Vậy vì sao người cầm quân nhà Tống không trở về?" (24 chữ)
+  - Đoạn 2 nói rõ người nói câu ấy là **Lư Đa Tốn**, một vị quan lớn của nhà Tống. Theo sử, câu "bẻ cành khô, không tốn một mũi tên" là lời Lư Đa Tốn tâu vua Tống, không phải lời Hầu Nhân Bảo. Hầu Nhân Bảo là người dâng thư xin đánh và được giao cầm quân, nên hook hỏi về "người cầm quân".
+  - Đoạn 3 vẫn giữ chi tiết sử nhà Tống chép họ thắng một trận trên sông, nhưng chủ tướng không trở về.
+- Câu nói được gọi lại ở chương 2 ("ông nói ra câu đã nhắc ở đầu video"), chương 5 (Hầu Nhân Bảo bị chém: "Lời hứa không tốn một mũi tên đã kết thúc như vậy"), đoạn trả lời và câu kết ("Lời hứa dễ như bẻ cành khô cuối cùng đã phải trả giá bằng cả một chủ tướng").
+- Hai phương án dự phòng:
+  - "Họ hứa chiếm nước Việt mà không tốn một mũi tên. Vì sao chính chủ tướng của họ lại không trở về?"
+  - "Một lời hứa không tốn một mũi tên, và một chủ tướng không bao giờ trở về. Chuyện gì đã xảy ra?"
+- Khuôn mở đầu: câu nói kiêu ngạo của phía xâm lược rồi một câu hỏi. Khác tập 1, vốn mở bằng hai câu hỏi.
 
 ## Kịch bản
 
-### Chương 1: Mở đầu (bắt đầu ở 0%)
+### Chương 1: Mở đầu: lời hứa dễ như bẻ cành khô (bắt đầu ở 0%)
 
-176001. Thắng trận trên sông, cướp hai trăm chiến thuyền, vì sao quân nhà Tống vẫn phải rút? Vì sao chủ tướng của họ bỏ mạng?
-176002. Trận thắng trên sông ấy là điều sử nhà Tống tự ghi lại. Nhưng cuộc chiến của họ lại kết thúc theo một cách khác hẳn.
-176003. Năm chín trăm tám mươi mốt, nhà Tống đem quân thủy bộ sang đánh Đại Cồ Việt. Chủ tướng của họ là Hầu Nhân Bảo đã không bao giờ trở về.
-176004. Người đứng ra chặn đạo quân ấy là Lê Hoàn. Ông thắng nhờ ba nước cờ, và nước cờ cuối cùng không bày trên sông mà trên đất liền.
+176001. Đánh nước Việt dễ như bẻ cành khô, không tốn một mũi tên. Vậy vì sao người cầm quân nhà Tống không trở về?
+176002. Câu nói ấy là của Lư Đa Tốn, một vị quan lớn của nhà Tống. Người được giao biến lời hứa ấy thành sự thật là Hầu Nhân Bảo.
+176003. Năm chín trăm tám mươi mốt, quân nhà Tống chia đường thủy bộ sang đánh. Họ thắng được một trận trên sông, nhưng Hầu Nhân Bảo không bao giờ trở về.
+176004. Lời hứa ấy đổ vỡ trước ba nước cờ của Lê Hoàn. Và nước cờ cuối cùng không bày trên sông, mà trên đất liền.
 
-### Chương 2: Lời hứa không tốn một mũi tên (bắt đầu ở 9%)
+### Chương 2: Lời hứa ra đời (bắt đầu ở 9%)
 
 176005. Mọi chuyện bắt đầu từ năm chín trăm bảy mươi chín, khi vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn cùng bị giết ngay trong cung.
 176006. Người được đưa lên ngôi là Đinh Toàn, con út của vua, mới sáu tuổi. Vì thế, việc lớn trong triều trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân.
 176007. Vì vua còn quá nhỏ, đất nước không yên. Trong nước có người dấy binh chống Lê Hoàn, ngoài biển thì quân Chiêm Thành kéo đến.
 176008. Rồi tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới.
 176009. Đến năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông cho rằng đây là thời cơ và xin đem quân sang chiếm ngay.
-176010. Còn một vị quan lớn là Lư Đa Tốn thì muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị.
-176011. Lư Đa Tốn quả quyết rằng đánh úp như sét đánh thì sẽ thắng dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy.
+176010. Còn trong triều nhà Tống, Lư Đa Tốn lại muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị.
+176011. Và chính lúc ấy, ông nói ra câu đã nhắc ở đầu video. Theo ông, chiếm nước Việt sẽ không tốn một mũi tên, dễ như bẻ cành khô.
 176012. Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia làm nhiều cánh thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay.
 176013. Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các cánh quân đến nơi cùng một lúc.
 176014. Bên này biên giới, Đại Cồ Việt đứng trước một câu hỏi khó. Quân giặc sắp tới, mà người ngồi trên ngai vàng mới sáu tuổi, vậy ai sẽ cầm quân?
@@ -113,9 +118,9 @@ Chỗ nào sử không nói rõ quan hệ nhân quả (sông bị chặn và đ�
 ### Chương 6: Kết (bắt đầu ở 91%)
 
 176042. Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước và sai sứ sang làm hòa. Nhà Tống chấp nhận, rồi phong chức cho ông.
-176043. Vậy vì sao thắng một trận trên sông mà quân nhà Tống vẫn thua? Vì cuộc chiến này không được quyết định trên sông.
+176043. Vậy vì sao lời hứa không tốn một mũi tên lại phải đổi bằng mạng của chủ tướng? Vì cuộc chiến này không được quyết định trên sông.
 176044. Đại Cồ Việt có một vị vua cầm quân, có cọc chặn đường sông, và có một lời đầu hàng giả lấy mạng chủ tướng nhà Tống.
-176045. Nhà Tống từng hứa thắng mà không tốn một mũi tên, nhưng cuối cùng phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này.
+176045. Lời hứa dễ như bẻ cành khô cuối cùng đã phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ghi chú độ chắc
 - **Toàn thư** (kỷ Lê Đại Hành) chép:

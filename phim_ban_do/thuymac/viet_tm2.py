@@ -1,16 +1,16 @@
 import json
 S=[
-(1,"Thắng trận trên sông, cướp hai trăm chiến thuyền, vì sao quân nhà Tống vẫn phải rút? Vì sao chủ tướng của họ bỏ mạng?"),
-(1,"Trận thắng trên sông ấy là điều sử nhà Tống tự ghi lại. Nhưng cuộc chiến của họ lại kết thúc theo một cách khác hẳn."),
-(1,"Năm chín trăm tám mươi mốt, nhà Tống đem quân thủy bộ sang đánh Đại Cồ Việt. Chủ tướng của họ là Hầu Nhân Bảo đã không bao giờ trở về."),
-(1,"Người đứng ra chặn đạo quân ấy là Lê Hoàn. Ông thắng nhờ ba nước cờ, và nước cờ cuối cùng không bày trên sông mà trên đất liền."),
+(1,"Đánh nước Việt dễ như bẻ cành khô, không tốn một mũi tên. Vậy vì sao người cầm quân nhà Tống không trở về?"),
+(1,"Câu nói ấy là của Lư Đa Tốn, một vị quan lớn của nhà Tống. Người được giao biến lời hứa ấy thành sự thật là Hầu Nhân Bảo."),
+(1,"Năm chín trăm tám mươi mốt, quân nhà Tống chia đường thủy bộ sang đánh. Họ thắng được một trận trên sông, nhưng Hầu Nhân Bảo không bao giờ trở về."),
+(1,"Lời hứa ấy đổ vỡ trước ba nước cờ của Lê Hoàn. Và nước cờ cuối cùng không bày trên sông, mà trên đất liền."),
 (2,"Mọi chuyện bắt đầu từ năm chín trăm bảy mươi chín, khi vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn cùng bị giết ngay trong cung."),
 (2,"Người được đưa lên ngôi là Đinh Toàn, con út của vua, mới sáu tuổi. Vì thế, việc lớn trong triều trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân."),
 (2,"Vì vua còn quá nhỏ, đất nước không yên. Trong nước có người dấy binh chống Lê Hoàn, ngoài biển thì quân Chiêm Thành kéo đến."),
 (2,"Rồi tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới."),
 (2,"Đến năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông cho rằng đây là thời cơ và xin đem quân sang chiếm ngay."),
-(2,"Còn một vị quan lớn là Lư Đa Tốn thì muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị."),
-(2,"Lư Đa Tốn quả quyết rằng đánh úp như sét đánh thì sẽ thắng dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy."),
+(2,"Còn trong triều nhà Tống, Lư Đa Tốn lại muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị."),
+(2,"Và chính lúc ấy, ông nói ra câu đã nhắc ở đầu video. Theo ông, chiếm nước Việt sẽ không tốn một mũi tên, dễ như bẻ cành khô."),
 (2,"Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia làm nhiều cánh thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay."),
 (2,"Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các cánh quân đến nơi cùng một lúc."),
 (2,"Bên này biên giới, Đại Cồ Việt đứng trước một câu hỏi khó. Quân giặc sắp tới, mà người ngồi trên ngai vàng mới sáu tuổi, vậy ai sẽ cầm quân?"),
@@ -42,9 +42,9 @@ S=[
 (5,"Tướng Lưu Trừng ốm chết, còn một tướng khác là Vương Soạn bị giết ở Ung Châu."),
 (5,"Riêng người đã đứng chờ ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ."),
 (6,"Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước và sai sứ sang làm hòa. Nhà Tống chấp nhận, rồi phong chức cho ông."),
-(6,"Vậy vì sao thắng một trận trên sông mà quân nhà Tống vẫn thua? Vì cuộc chiến này không được quyết định trên sông."),
+(6,"Vậy vì sao lời hứa không tốn một mũi tên lại phải đổi bằng mạng của chủ tướng? Vì cuộc chiến này không được quyết định trên sông."),
 (6,"Đại Cồ Việt có một vị vua cầm quân, có cọc chặn đường sông, và có một lời đầu hàng giả lấy mạng chủ tướng nhà Tống."),
-(6,"Nhà Tống từng hứa thắng mà không tốn một mũi tên, nhưng cuối cùng phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này."),
+(6,"Lời hứa dễ như bẻ cành khô cuối cùng đã phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]
 json.dump([{'n':176001+i,'chuong':c,'tone':'story','text':t,'hien':t} for i,(c,t) in enumerate(S)],open('/tmp/pc/ke-hoach/thu-giong-hai/tm2_full.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 tot=sum(len(t.split()) for c,t in S);acc=0;seen=set()

@@ -1,8 +1,27 @@
-# Trận đánh thủy mặc tập 2: Lê Hoàn phá Tống năm 981, kịch bản bản 3 gửi duyệt
+# Trận đánh thủy mặc tập 2: Lê Hoàn phá Tống năm 981, kịch bản bản 4 gửi duyệt
 
-Mã `tm2`: 48 đoạn, 1331 chữ, khoảng 7 phút. Giọng Charon, hồ sơ C, đọc từng câu, dùng giọng gốc (không cân giọng). Quy tắc theo `quy-tac/thuy-mac.md`.
+Mã `tm2`: 45 đoạn, 1225 chữ, khoảng 6 phút 30 giây. Giọng Charon, hồ sơ C, đọc từng câu, dùng giọng gốc (không cân giọng). Quy tắc theo `quy-tac/thuy-mac.md`.
 
-## Bản 3 khác bản 2 thế nào (sửa theo góp ý của chủ kênh 17/11/2026)
+## Bản 4 sửa theo góp ý của chủ kênh (17/11/2026, sáng)
+- **Bỏ lối "sử nhà Tống chép / sử nước ta chép" trong thân bài.** Thân bài kể thẳng như sách giáo khoa Lịch sử 7, 11:
+  - quân Tống do Hầu Nhân Bảo chỉ huy chia hai đường, bộ qua Lạng Sơn, thủy theo sông Bạch Đằng;
+  - Lê Hoàn trực tiếp cầm quân, đóng cọc trên sông Bạch Đằng theo cách của Ngô Quyền;
+  - nhử giặc vào nơi đã mai phục, giết chủ tướng Hầu Nhân Bảo.
+
+  Sử nhà Tống chỉ còn nhắc ở hook (đoạn 2) và một lần ở trận trên sông (đoạn 28), vì hook dựa vào chi tiết ấy.
+- **"Ngai vàng rơi vào tay Đinh Toàn"** nghe như cướp ngôi, nay đổi thành "Người được đưa lên ngôi là Đinh Toàn, con út của vua, mới sáu tuổi."
+- **"Phạm Cự Lạng được đặt làm đại tướng quân"** dùng sai chữ, nay đổi thành "được phong làm Đại tướng quân, chỉ huy quân đội ra trận".
+- **Đoạn thư từ được kể kỹ hơn, theo đúng thứ tự:**
+  1. thư dọa của vua Tống, ví Đại Cồ Việt như ngón tay trên thân thể nhà Tống;
+  2. Lê Hoàn gửi thư mượn tên Đinh Toàn xin phong chức để kéo thời gian;
+  3. nhà Tống đòi Đinh Toàn làm chủ soái, Lê Hoàn làm phó, hoặc cả mẹ con Đinh Toàn sang triều Tống;
+  4. Lê Hoàn không nhận, hai bên ra chiến trường.
+- **Câu Trần Khâm Tộ và Lưu Trừng** được viết lại: hai đường tiến quân gói trong một đoạn. Trần Khâm Tộ nay chỉ xuất hiện khi rút quân.
+- **Ngô Quyền và Lê Hoàn được nối liền:** "Lê Hoàn trực tiếp cầm quân, và ông chọn cách đánh giống Ngô Quyền năm xưa. Ông cho quân sĩ đóng cọc trên sông Bạch Đằng..." Sách giáo khoa Lịch sử 11 cũng nêu việc Lê Hoàn vận dụng kinh nghiệm Bạch Đằng năm 938.
+- **Bỏ các câu đọc như văn máy:** "Dù sử không nối chúng với nhau..."; "Mỗi bên chép theo cách của mình..."; "Cái bẫy... sử không chép thêm một dòng"; "Hãy mở hai cuốn sử".
+- **Ghi chú độ chắc:** Toàn thư chỉ chép "đóng cọc ngăn sông", không ghi tên sông. Lời kể theo cách viết của sách giáo khoa là sông Bạch Đằng.
+
+## (Lưu) Bản 3 khác bản 2 thế nào (sửa theo góp ý của chủ kênh 17/11/2026)
 
 ### 1. Mạch nguyên nhân – kết quả
 Mỗi đoạn trả lời "vì thế thì sao" của đoạn trước. Chuỗi chính của câu chuyện:
@@ -35,71 +54,68 @@ Chỗ nào sử không nói rõ quan hệ nhân quả (sông bị chặn và đ�
 
 ## Kịch bản
 
-### Chương 1: Mở đầu: hai cuốn sử (bắt đầu ở 0%)
+### Chương 1: Mở đầu (bắt đầu ở 0%)
 
 176001. Thắng trận trên sông, cướp hai trăm chiến thuyền, vì sao quân nhà Tống vẫn phải rút? Vì sao chủ tướng của họ bỏ mạng?
-176002. Hãy mở hai cuốn sử cùng một lúc. Cuốn sử của nhà Tống chép rằng quân của họ đã thắng lớn trên sông Bạch Đằng.
-176003. Còn Đại Việt sử ký toàn thư của nước ta lại chép rằng chính quân nhà Tống phải lui, và kể một câu chuyện khác hẳn.
-176004. Hai cuốn sử ấy kể về cùng một cuộc chiến năm chín trăm tám mươi mốt. Nhưng cả hai đều chép một dòng giống nhau: chủ tướng nhà Tống đã chết.
-176005. Đọc kỹ sử nước ta, cái chết ấy đến sau ba nước cờ của phía Đại Cồ Việt. Nước cờ cuối cùng không bày trên sông, mà trên đất liền.
+176002. Trận thắng trên sông ấy là điều sử nhà Tống tự ghi lại. Nhưng cuộc chiến của họ lại kết thúc theo một cách khác hẳn.
+176003. Năm chín trăm tám mươi mốt, nhà Tống đem quân thủy bộ sang đánh Đại Cồ Việt. Chủ tướng của họ là Hầu Nhân Bảo đã không bao giờ trở về.
+176004. Người đứng ra chặn đạo quân ấy là Lê Hoàn. Ông thắng nhờ ba nước cờ, và nước cờ cuối cùng không bày trên sông mà trên đất liền.
 
-### Chương 2: Lời hứa không tốn một mũi tên (bắt đầu ở 10%)
+### Chương 2: Lời hứa không tốn một mũi tên (bắt đầu ở 9%)
 
-176006. Mọi chuyện bắt đầu từ năm chín trăm bảy mươi chín, khi vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn cùng bị giết ngay trong cung.
-176007. Ngai vàng vì thế rơi vào tay Đinh Toàn, một đứa trẻ mới sáu tuổi. Mọi việc lớn trong triều phải trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân.
-176008. Vì vua còn quá nhỏ, đất nước không yên. Trong nước có người dấy binh chống Lê Hoàn, ngoài biển thì quân Chiêm Thành kéo đến.
-176009. Thế là tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới.
-176010. Năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông coi đây là thời cơ và xin đem quân sang chiếm ngay.
-176011. Rồi một vị quan lớn là Lư Đa Tốn còn muốn đi nhanh hơn nữa. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị.
-176012. Theo Lư Đa Tốn, chỉ cần đánh úp nhanh như sét là thắng, dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy.
-176013. Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia thành nhiều đạo thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay.
-176014. Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các đạo quân đến nơi cùng một lúc.
-176015. Bên này biên giới, Đại Cồ Việt đứng trước một câu hỏi khó. Quân giặc sắp tới, mà người ngồi trên ngai vàng mới sáu tuổi, vậy ai sẽ cầm quân?
+176005. Mọi chuyện bắt đầu từ năm chín trăm bảy mươi chín, khi vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn cùng bị giết ngay trong cung.
+176006. Người được đưa lên ngôi là Đinh Toàn, con út của vua, mới sáu tuổi. Vì thế, việc lớn trong triều trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân.
+176007. Vì vua còn quá nhỏ, đất nước không yên. Trong nước có người dấy binh chống Lê Hoàn, ngoài biển thì quân Chiêm Thành kéo đến.
+176008. Rồi tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới.
+176009. Đến năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông cho rằng đây là thời cơ và xin đem quân sang chiếm ngay.
+176010. Còn một vị quan lớn là Lư Đa Tốn thì muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị.
+176011. Lư Đa Tốn quả quyết rằng đánh úp như sét đánh thì sẽ thắng dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy.
+176012. Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia làm nhiều cánh thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay.
+176013. Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các cánh quân đến nơi cùng một lúc.
+176014. Bên này biên giới, Đại Cồ Việt đứng trước một câu hỏi khó. Quân giặc sắp tới, mà người ngồi trên ngai vàng mới sáu tuổi, vậy ai sẽ cầm quân?
 
-### Chương 3: Nước cờ thứ nhất: một vị vua cầm quân (bắt đầu ở 31%)
+### Chương 3: Nước cờ thứ nhất: một vị vua cầm quân (bắt đầu ở 32%)
 
-176016. Dương Thái hậu, mẹ của vua nhỏ, giao cho Lê Hoàn chọn người đi đánh giặc. Phạm Cự Lạng được đặt làm đại tướng quân.
-176017. Nhưng đúng lúc triều đình đang bàn việc xuất quân, Phạm Cự Lạng cùng các tướng mặc áo trận, đi thẳng vào cung.
-176018. Họ nói vua còn quá nhỏ, tướng sĩ có liều chết đánh giặc thì cũng chẳng ai biết công. Vì thế, phải tôn Lê Hoàn làm vua trước, rồi mới ra trận.
-176019. Quân sĩ nghe vậy đồng thanh hô vạn tuế. Thấy lòng người đã theo, Thái hậu sai lấy áo long cổn, tức áo của vua, khoác lên người Lê Hoàn.
-176020. Đây là nước cờ thứ nhất, do các tướng bày ra chứ không phải Lê Hoàn. Có thể hiểu là người sắp liều chết cần biết ai sẽ ghi công cho mình.
-176021. Vừa lên ngôi, Lê Hoàn đã tìm cách kéo dài thời gian. Ông sai sứ mang sang nhà Tống một lá thư mượn tên Đinh Toàn, xin được phong chức như cha.
-176022. Nhưng nhà Tống không dừng tay. Họ đưa ra những điều kiện mà Lê Hoàn không nghe theo, và quân nhà Tống vẫn tiếp tục kéo tới.
+176015. Dương Thái hậu, mẹ của vua nhỏ, sai Lê Hoàn chọn người cầm quân. Phạm Cự Lạng được phong làm Đại tướng quân, chỉ huy quân đội ra trận.
+176016. Nhưng đúng lúc triều đình đang bàn việc xuất quân, Phạm Cự Lạng cùng các tướng mặc áo trận, đi thẳng vào cung.
+176017. Họ nói vua còn quá nhỏ, tướng sĩ có liều chết đánh giặc thì cũng chẳng ai biết công. Vì thế, phải tôn Lê Hoàn làm vua trước, rồi mới ra trận.
+176018. Quân sĩ nghe vậy đồng thanh hô vạn tuế. Thấy lòng người đã theo, Thái hậu sai lấy áo long cổn, tức áo của vua, khoác lên người Lê Hoàn.
+176019. Đây là nước cờ thứ nhất, do các tướng bày ra chứ không phải Lê Hoàn. Từ nay, quân đội có một vị vua trực tiếp cầm quân.
+176020. Nhưng Lê Hoàn lên ngôi chưa lâu thì thư vua Tống gửi sang. Thư ví Đại Cồ Việt như ngón tay trên thân thể nhà Tống, chống lại sẽ bị dẹp.
+176021. Vì muốn có thêm thời gian, Lê Hoàn sai sứ mang sang nhà Tống một lá thư mượn tên Đinh Toàn. Trong thư, vua nhỏ xin được phong chức như cha.
+176022. Nhưng nhà Tống không mắc mưu. Họ trả lời rằng hoặc Đinh Toàn làm chủ soái và Lê Hoàn làm phó, hoặc cả mẹ con Đinh Toàn phải sang triều Tống.
+176023. Lê Hoàn không nhận điều kiện nào. Thư từ đến đây là hết, và hai bên chỉ còn cách gặp nhau trên chiến trường.
 
-### Chương 4: Nước cờ thứ hai: con sông bị chặn (bắt đầu ở 47%)
+### Chương 4: Nước cờ thứ hai: cọc trên sông Bạch Đằng (bắt đầu ở 53%)
 
-176023. Rồi mùa xuân năm chín trăm tám mươi mốt, quân nhà Tống tràn sang nhiều hướng. Hầu Nhân Bảo cùng tướng Tôn Toàn Hưng theo đường bộ tiến về Lạng Sơn.
-176024. Còn tướng Trần Khâm Tộ dẫn một đạo tới Tây Kết, và tướng Lưu Trừng đem thủy quân tiến vào sông Bạch Đằng, ngả đường từ biển vào đất liền.
-176025. Bốn mươi ba năm trước, cũng trên dòng sông này, Ngô Quyền từng cắm cọc đánh tan quân Nam Hán. Lần này, Lê Hoàn tự mình cầm quân ra chặn giặc.
-176026. Theo Đại Việt sử ký toàn thư, ông sai quân sĩ đóng cọc ngăn sông. Sử không ghi tên sông, nhưng nhiều nhà nghiên cứu cho đó là Bạch Đằng.
-176027. Đây là nước cờ thứ hai. Kế đánh úp cần các đạo quân gặp nhau thật nhanh, còn những hàng cọc thì chặn đúng đường đi của đạo quân thủy.
-176028. Trận đánh trên sông được hai cuốn sử chép rất khác nhau. Sử nhà Tống ghi họ phá được quân Đại Cồ Việt, cướp hai trăm chiến thuyền.
-176029. Còn sử nước ta chỉ ghi quân nhà Tống phải lui. Mỗi bên chép theo cách của mình, nên đến nay ta chưa biết chắc trận ấy diễn ra thế nào.
-176030. Nhưng có một chuyện sử nhà Tống phải thừa nhận. Đạo quân bộ của Tôn Toàn Hưng dừng ở Hoa Bộ rất lâu để chờ đạo quân thủy.
-176031. Hầu Nhân Bảo nhiều lần thúc giục, nhưng Tôn Toàn Hưng vẫn không tiến. Kế đánh úp nhanh như sét giờ đã thành một cuộc chờ đợi.
-176032. Sông bị chặn, đạo quân bộ phải đứng chờ, hai việc ấy xảy ra cùng lúc. Dù sử không nối chúng với nhau, phía Đại Cồ Việt đã có thêm thời gian.
-176033. Trong lúc quân nhà Tống còn chờ nhau, Hầu Nhân Bảo sẽ làm gì?
+176024. Đầu năm chín trăm tám mươi mốt, quân nhà Tống chia hai đường. Hầu Nhân Bảo dẫn quân bộ qua Lạng Sơn, tướng Lưu Trừng dẫn quân thủy vào sông Bạch Đằng.
+176025. Lê Hoàn trực tiếp cầm quân, và ông chọn cách đánh giống Ngô Quyền năm xưa. Ông cho quân sĩ đóng cọc trên sông Bạch Đằng để chặn thuyền giặc.
+176026. Bốn mươi ba năm trước, cũng chính những hàng cọc trên dòng sông này đã nhấn chìm đoàn chiến thuyền của quân Nam Hán.
+176027. Đây là nước cờ thứ hai. Kế đánh úp cần các cánh quân hội nhau thật nhanh, còn hàng cọc thì chặn đúng đường tiến của quân thủy.
+176028. Đến khi giao tranh nổ ra trên sông, sử nhà Tống ghi họ thắng một trận, cướp được hai trăm chiến thuyền. Nhưng rồi quân thủy của họ vẫn phải lui.
+176029. Còn trên bộ, cánh quân của tướng Tôn Toàn Hưng dừng ở Hoa Bộ chờ quân thủy tới hội. Hầu Nhân Bảo nhiều lần giục, nhưng Tôn Toàn Hưng vẫn đứng yên.
+176030. Kế đánh úp nhanh như sét giờ đã thành một cuộc chờ đợi. Quân thủy bị chặn trên sông, còn quân bộ thì không chịu tiến.
+176031. Trong lúc các cánh quân nhà Tống còn chờ nhau, Hầu Nhân Bảo sẽ làm gì?
 
-### Chương 5: Nước cờ thứ ba: lời đầu hàng giả (bắt đầu ở 70%)
+### Chương 5: Nước cờ thứ ba: lời đầu hàng giả (bắt đầu ở 71%)
 
-176034. Theo sử nhà Tống, Hầu Nhân Bảo không chờ thêm nữa mà dẫn quân đi trước, tách khỏi đạo quân của Tôn Toàn Hưng.
-176035. Còn sử nước ta chép rằng quân nhà Tống lui về vùng sông Chi Lăng, nay thuộc Lạng Sơn, nơi con đường đi kẹp giữa những dãy núi.
-176036. Chính ở đó, một toán quân của Lê Hoàn tìm đến trước mặt quân nhà Tống và xin được đầu hàng.
-176037. Đây là nước cờ thứ ba, và là nước cờ duy nhất sử ghi rõ mục đích. Lê Hoàn sai quân giả vờ đầu hàng để dụ Hầu Nhân Bảo.
-176038. Hầu Nhân Bảo tin lời đầu hàng ấy, rồi bị bắt và bị chém. Cái bẫy được giăng ra cụ thể thế nào, sử không chép thêm một dòng.
-176039. Lời hứa không tốn một mũi tên đã kết thúc như vậy. Người được giao cầm quân sang đánh úp lại bỏ mạng ngay giữa đường.
-176040. Mất chủ tướng, các đạo quân nhà Tống vốn chưa gặp được nhau nay không còn ai chỉ huy chung. Ở Tây Kết, Trần Khâm Tộ nghe tin liền rút về.
-176041. Thế là Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết quá nửa, xác nằm đầy đồng.
-176042. Hai tướng nhà Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, rồi bị giải về kinh đô Hoa Lư.
-176043. Tin dữ về đến triều Tống. Vua Tống ra lệnh rút hết quân về, rồi quay sang phạt nặng những tướng còn sống.
-176044. Lưu Trừng ốm chết, Vương Soạn bị giết ở Ung Châu. Còn người từng đóng quân chờ đợi ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ.
+176032. Không chờ được nữa, Hầu Nhân Bảo dẫn quân đi trước, tách khỏi cánh quân của Tôn Toàn Hưng.
+176033. Rồi quân của ông kéo tới vùng sông Chi Lăng ở Lạng Sơn, nơi con đường chạy giữa những dãy núi. Lê Hoàn đã chờ sẵn ở đó.
+176034. Một toán quân của Lê Hoàn ra xin đầu hàng. Đây là nước cờ thứ ba, vì lời đầu hàng ấy là giả, bày ra để dụ Hầu Nhân Bảo vào bẫy.
+176035. Hầu Nhân Bảo mắc mưu, bị bắt và bị chém. Lời hứa không tốn một mũi tên đã kết thúc như vậy, bằng cái chết của chính người cầm quân.
+176036. Mất chủ tướng, các cánh quân nhà Tống không còn ai chỉ huy chung. Tướng Trần Khâm Tộ đang tiến sâu tới Tây Kết, nghe tin liền vội rút về.
+176037. Thế là Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết quá nửa, xác nằm đầy đồng.
+176038. Hai tướng nhà Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, rồi bị giải về kinh đô Hoa Lư.
+176039. Tin thua trận về đến triều Tống. Vua Tống ra lệnh rút hết quân về, rồi quay sang phạt nặng những tướng còn sống.
+176040. Tướng Lưu Trừng ốm chết, còn một tướng khác là Vương Soạn bị giết ở Ung Châu.
+176041. Riêng người đã đứng chờ ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ.
 
-### Chương 6: Kết (bắt đầu ở 92%)
+### Chương 6: Kết (bắt đầu ở 91%)
 
-176045. Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước và sai sứ sang làm hòa. Nhà Tống chấp nhận, rồi phong chức cho ông.
-176046. Vậy vì sao thắng một trận trên sông mà quân nhà Tống vẫn thua? Vì cuộc chiến này không được quyết định trên sông.
-176047. Nó được quyết định bởi một ông vua được tôn lên đúng lúc, những hàng cọc chặn đường sông, và một lời đầu hàng giả lấy mạng chủ tướng.
-176048. Hai cuốn sử chép trận trên sông khác nhau, nhưng cùng khép lại bằng một dòng: quân nhà Tống rút về. Cảm ơn bạn đã lắng nghe câu chuyện này.
+176042. Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước và sai sứ sang làm hòa. Nhà Tống chấp nhận, rồi phong chức cho ông.
+176043. Vậy vì sao thắng một trận trên sông mà quân nhà Tống vẫn thua? Vì cuộc chiến này không được quyết định trên sông.
+176044. Đại Cồ Việt có một vị vua cầm quân, có cọc chặn đường sông, và có một lời đầu hàng giả lấy mạng chủ tướng nhà Tống.
+176045. Nhà Tống từng hứa thắng mà không tốn một mũi tên, nhưng cuối cùng phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Ghi chú độ chắc
 - **Toàn thư** (kỷ Lê Đại Hành) chép:

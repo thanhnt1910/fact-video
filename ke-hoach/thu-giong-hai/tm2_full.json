@@ -10,329 +10,308 @@
   "n": 176002,
   "chuong": 1,
   "tone": "story",
-  "text": "Hãy mở hai cuốn sử cùng một lúc. Cuốn sử của nhà Tống chép rằng quân của họ đã thắng lớn trên sông Bạch Đằng.",
-  "hien": "Hãy mở hai cuốn sử cùng một lúc. Cuốn sử của nhà Tống chép rằng quân của họ đã thắng lớn trên sông Bạch Đằng."
+  "text": "Trận thắng trên sông ấy là điều sử nhà Tống tự ghi lại. Nhưng cuộc chiến của họ lại kết thúc theo một cách khác hẳn.",
+  "hien": "Trận thắng trên sông ấy là điều sử nhà Tống tự ghi lại. Nhưng cuộc chiến của họ lại kết thúc theo một cách khác hẳn."
  },
  {
   "n": 176003,
   "chuong": 1,
   "tone": "story",
-  "text": "Còn Đại Việt sử ký toàn thư của nước ta lại chép rằng chính quân nhà Tống phải lui, và kể một câu chuyện khác hẳn.",
-  "hien": "Còn Đại Việt sử ký toàn thư của nước ta lại chép rằng chính quân nhà Tống phải lui, và kể một câu chuyện khác hẳn."
+  "text": "Năm chín trăm tám mươi mốt, nhà Tống đem quân thủy bộ sang đánh Đại Cồ Việt. Chủ tướng của họ là Hầu Nhân Bảo đã không bao giờ trở về.",
+  "hien": "Năm chín trăm tám mươi mốt, nhà Tống đem quân thủy bộ sang đánh Đại Cồ Việt. Chủ tướng của họ là Hầu Nhân Bảo đã không bao giờ trở về."
  },
  {
   "n": 176004,
   "chuong": 1,
   "tone": "story",
-  "text": "Hai cuốn sử ấy kể về cùng một cuộc chiến năm chín trăm tám mươi mốt. Nhưng cả hai đều chép một dòng giống nhau: chủ tướng nhà Tống đã chết.",
-  "hien": "Hai cuốn sử ấy kể về cùng một cuộc chiến năm chín trăm tám mươi mốt. Nhưng cả hai đều chép một dòng giống nhau: chủ tướng nhà Tống đã chết."
+  "text": "Người đứng ra chặn đạo quân ấy là Lê Hoàn. Ông thắng nhờ ba nước cờ, và nước cờ cuối cùng không bày trên sông mà trên đất liền.",
+  "hien": "Người đứng ra chặn đạo quân ấy là Lê Hoàn. Ông thắng nhờ ba nước cờ, và nước cờ cuối cùng không bày trên sông mà trên đất liền."
  },
  {
   "n": 176005,
-  "chuong": 1,
-  "tone": "story",
-  "text": "Đọc kỹ sử nước ta, cái chết ấy đến sau ba nước cờ của phía Đại Cồ Việt. Nước cờ cuối cùng không bày trên sông, mà trên đất liền.",
-  "hien": "Đọc kỹ sử nước ta, cái chết ấy đến sau ba nước cờ của phía Đại Cồ Việt. Nước cờ cuối cùng không bày trên sông, mà trên đất liền."
- },
- {
-  "n": 176006,
   "chuong": 2,
   "tone": "story",
   "text": "Mọi chuyện bắt đầu từ năm chín trăm bảy mươi chín, khi vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn cùng bị giết ngay trong cung.",
   "hien": "Mọi chuyện bắt đầu từ năm chín trăm bảy mươi chín, khi vua Đinh Tiên Hoàng và con trưởng là Đinh Liễn cùng bị giết ngay trong cung."
  },
  {
-  "n": 176007,
+  "n": 176006,
   "chuong": 2,
   "tone": "story",
-  "text": "Ngai vàng vì thế rơi vào tay Đinh Toàn, một đứa trẻ mới sáu tuổi. Mọi việc lớn trong triều phải trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân.",
-  "hien": "Ngai vàng vì thế rơi vào tay Đinh Toàn, một đứa trẻ mới sáu tuổi. Mọi việc lớn trong triều phải trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân."
+  "text": "Người được đưa lên ngôi là Đinh Toàn, con út của vua, mới sáu tuổi. Vì thế, việc lớn trong triều trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân.",
+  "hien": "Người được đưa lên ngôi là Đinh Toàn, con út của vua, mới sáu tuổi. Vì thế, việc lớn trong triều trông vào Lê Hoàn, viên tướng chỉ huy mười đạo quân."
  },
  {
-  "n": 176008,
+  "n": 176007,
   "chuong": 2,
   "tone": "story",
   "text": "Vì vua còn quá nhỏ, đất nước không yên. Trong nước có người dấy binh chống Lê Hoàn, ngoài biển thì quân Chiêm Thành kéo đến.",
   "hien": "Vì vua còn quá nhỏ, đất nước không yên. Trong nước có người dấy binh chống Lê Hoàn, ngoài biển thì quân Chiêm Thành kéo đến."
  },
  {
+  "n": 176008,
+  "chuong": 2,
+  "tone": "story",
+  "text": "Rồi tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới.",
+  "hien": "Rồi tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới."
+ },
+ {
   "n": 176009,
   "chuong": 2,
   "tone": "story",
-  "text": "Thế là tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới.",
-  "hien": "Thế là tin Đại Cồ Việt rối ren lan sang phía bắc, tới tai Hầu Nhân Bảo, viên quan nhà Tống coi giữ Ung Châu sát biên giới."
+  "text": "Đến năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông cho rằng đây là thời cơ và xin đem quân sang chiếm ngay.",
+  "hien": "Đến năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông cho rằng đây là thời cơ và xin đem quân sang chiếm ngay."
  },
  {
   "n": 176010,
   "chuong": 2,
   "tone": "story",
-  "text": "Năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông coi đây là thời cơ và xin đem quân sang chiếm ngay.",
-  "hien": "Năm chín trăm tám mươi, Hầu Nhân Bảo dâng thư lên vua Tống. Ông coi đây là thời cơ và xin đem quân sang chiếm ngay."
+  "text": "Còn một vị quan lớn là Lư Đa Tốn thì muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị.",
+  "hien": "Còn một vị quan lớn là Lư Đa Tốn thì muốn đi nhanh hơn. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị."
  },
  {
   "n": 176011,
   "chuong": 2,
   "tone": "story",
-  "text": "Rồi một vị quan lớn là Lư Đa Tốn còn muốn đi nhanh hơn nữa. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị.",
-  "hien": "Rồi một vị quan lớn là Lư Đa Tốn còn muốn đi nhanh hơn nữa. Ông khuyên đánh úp ngay, kẻo lộ kế thì đối phương kịp dựa núi phòng bị."
+  "text": "Lư Đa Tốn quả quyết rằng đánh úp như sét đánh thì sẽ thắng dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy.",
+  "hien": "Lư Đa Tốn quả quyết rằng đánh úp như sét đánh thì sẽ thắng dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy."
  },
  {
   "n": 176012,
   "chuong": 2,
   "tone": "story",
-  "text": "Theo Lư Đa Tốn, chỉ cần đánh úp nhanh như sét là thắng, dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy.",
-  "hien": "Theo Lư Đa Tốn, chỉ cần đánh úp nhanh như sét là thắng, dễ như bẻ cành khô, không tốn một mũi tên. Hãy nhớ lời hứa ấy."
+  "text": "Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia làm nhiều cánh thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay.",
+  "hien": "Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia làm nhiều cánh thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay."
  },
  {
   "n": 176013,
   "chuong": 2,
   "tone": "story",
-  "text": "Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia thành nhiều đạo thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay.",
-  "hien": "Vì thế, vua Tống quyết đánh ngay. Quân nhà Tống chia thành nhiều đạo thủy và bộ, hẹn cùng lúc tràn sang để đối phương không kịp trở tay."
+  "text": "Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các cánh quân đến nơi cùng một lúc.",
+  "hien": "Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các cánh quân đến nơi cùng một lúc."
  },
  {
   "n": 176014,
-  "chuong": 2,
-  "tone": "story",
-  "text": "Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các đạo quân đến nơi cùng một lúc.",
-  "hien": "Trên giấy, kế hoạch ấy không có kẽ hở. Nhưng nó chỉ đúng khi các đạo quân đến nơi cùng một lúc."
- },
- {
-  "n": 176015,
   "chuong": 2,
   "tone": "story",
   "text": "Bên này biên giới, Đại Cồ Việt đứng trước một câu hỏi khó. Quân giặc sắp tới, mà người ngồi trên ngai vàng mới sáu tuổi, vậy ai sẽ cầm quân?",
   "hien": "Bên này biên giới, Đại Cồ Việt đứng trước một câu hỏi khó. Quân giặc sắp tới, mà người ngồi trên ngai vàng mới sáu tuổi, vậy ai sẽ cầm quân?"
  },
  {
-  "n": 176016,
+  "n": 176015,
   "chuong": 3,
   "tone": "story",
-  "text": "Dương Thái hậu, mẹ của vua nhỏ, giao cho Lê Hoàn chọn người đi đánh giặc. Phạm Cự Lạng được đặt làm đại tướng quân.",
-  "hien": "Dương Thái hậu, mẹ của vua nhỏ, giao cho Lê Hoàn chọn người đi đánh giặc. Phạm Cự Lạng được đặt làm đại tướng quân."
+  "text": "Dương Thái hậu, mẹ của vua nhỏ, sai Lê Hoàn chọn người cầm quân. Phạm Cự Lạng được phong làm Đại tướng quân, chỉ huy quân đội ra trận.",
+  "hien": "Dương Thái hậu, mẹ của vua nhỏ, sai Lê Hoàn chọn người cầm quân. Phạm Cự Lạng được phong làm Đại tướng quân, chỉ huy quân đội ra trận."
  },
  {
-  "n": 176017,
+  "n": 176016,
   "chuong": 3,
   "tone": "story",
   "text": "Nhưng đúng lúc triều đình đang bàn việc xuất quân, Phạm Cự Lạng cùng các tướng mặc áo trận, đi thẳng vào cung.",
   "hien": "Nhưng đúng lúc triều đình đang bàn việc xuất quân, Phạm Cự Lạng cùng các tướng mặc áo trận, đi thẳng vào cung."
  },
  {
-  "n": 176018,
+  "n": 176017,
   "chuong": 3,
   "tone": "story",
   "text": "Họ nói vua còn quá nhỏ, tướng sĩ có liều chết đánh giặc thì cũng chẳng ai biết công. Vì thế, phải tôn Lê Hoàn làm vua trước, rồi mới ra trận.",
   "hien": "Họ nói vua còn quá nhỏ, tướng sĩ có liều chết đánh giặc thì cũng chẳng ai biết công. Vì thế, phải tôn Lê Hoàn làm vua trước, rồi mới ra trận."
  },
  {
-  "n": 176019,
+  "n": 176018,
   "chuong": 3,
   "tone": "story",
   "text": "Quân sĩ nghe vậy đồng thanh hô vạn tuế. Thấy lòng người đã theo, Thái hậu sai lấy áo long cổn, tức áo của vua, khoác lên người Lê Hoàn.",
   "hien": "Quân sĩ nghe vậy đồng thanh hô vạn tuế. Thấy lòng người đã theo, Thái hậu sai lấy áo long cổn, tức áo của vua, khoác lên người Lê Hoàn."
  },
  {
+  "n": 176019,
+  "chuong": 3,
+  "tone": "story",
+  "text": "Đây là nước cờ thứ nhất, do các tướng bày ra chứ không phải Lê Hoàn. Từ nay, quân đội có một vị vua trực tiếp cầm quân.",
+  "hien": "Đây là nước cờ thứ nhất, do các tướng bày ra chứ không phải Lê Hoàn. Từ nay, quân đội có một vị vua trực tiếp cầm quân."
+ },
+ {
   "n": 176020,
   "chuong": 3,
   "tone": "story",
-  "text": "Đây là nước cờ thứ nhất, do các tướng bày ra chứ không phải Lê Hoàn. Có thể hiểu là người sắp liều chết cần biết ai sẽ ghi công cho mình.",
-  "hien": "Đây là nước cờ thứ nhất, do các tướng bày ra chứ không phải Lê Hoàn. Có thể hiểu là người sắp liều chết cần biết ai sẽ ghi công cho mình."
+  "text": "Nhưng Lê Hoàn lên ngôi chưa lâu thì thư vua Tống gửi sang. Thư ví Đại Cồ Việt như ngón tay trên thân thể nhà Tống, chống lại sẽ bị dẹp.",
+  "hien": "Nhưng Lê Hoàn lên ngôi chưa lâu thì thư vua Tống gửi sang. Thư ví Đại Cồ Việt như ngón tay trên thân thể nhà Tống, chống lại sẽ bị dẹp."
  },
  {
   "n": 176021,
   "chuong": 3,
   "tone": "story",
-  "text": "Vừa lên ngôi, Lê Hoàn đã tìm cách kéo dài thời gian. Ông sai sứ mang sang nhà Tống một lá thư mượn tên Đinh Toàn, xin được phong chức như cha.",
-  "hien": "Vừa lên ngôi, Lê Hoàn đã tìm cách kéo dài thời gian. Ông sai sứ mang sang nhà Tống một lá thư mượn tên Đinh Toàn, xin được phong chức như cha."
+  "text": "Vì muốn có thêm thời gian, Lê Hoàn sai sứ mang sang nhà Tống một lá thư mượn tên Đinh Toàn. Trong thư, vua nhỏ xin được phong chức như cha.",
+  "hien": "Vì muốn có thêm thời gian, Lê Hoàn sai sứ mang sang nhà Tống một lá thư mượn tên Đinh Toàn. Trong thư, vua nhỏ xin được phong chức như cha."
  },
  {
   "n": 176022,
   "chuong": 3,
   "tone": "story",
-  "text": "Nhưng nhà Tống không dừng tay. Họ đưa ra những điều kiện mà Lê Hoàn không nghe theo, và quân nhà Tống vẫn tiếp tục kéo tới.",
-  "hien": "Nhưng nhà Tống không dừng tay. Họ đưa ra những điều kiện mà Lê Hoàn không nghe theo, và quân nhà Tống vẫn tiếp tục kéo tới."
+  "text": "Nhưng nhà Tống không mắc mưu. Họ trả lời rằng hoặc Đinh Toàn làm chủ soái và Lê Hoàn làm phó, hoặc cả mẹ con Đinh Toàn phải sang triều Tống.",
+  "hien": "Nhưng nhà Tống không mắc mưu. Họ trả lời rằng hoặc Đinh Toàn làm chủ soái và Lê Hoàn làm phó, hoặc cả mẹ con Đinh Toàn phải sang triều Tống."
  },
  {
   "n": 176023,
-  "chuong": 4,
+  "chuong": 3,
   "tone": "story",
-  "text": "Rồi mùa xuân năm chín trăm tám mươi mốt, quân nhà Tống tràn sang nhiều hướng. Hầu Nhân Bảo cùng tướng Tôn Toàn Hưng theo đường bộ tiến về Lạng Sơn.",
-  "hien": "Rồi mùa xuân năm chín trăm tám mươi mốt, quân nhà Tống tràn sang nhiều hướng. Hầu Nhân Bảo cùng tướng Tôn Toàn Hưng theo đường bộ tiến về Lạng Sơn."
+  "text": "Lê Hoàn không nhận điều kiện nào. Thư từ đến đây là hết, và hai bên chỉ còn cách gặp nhau trên chiến trường.",
+  "hien": "Lê Hoàn không nhận điều kiện nào. Thư từ đến đây là hết, và hai bên chỉ còn cách gặp nhau trên chiến trường."
  },
  {
   "n": 176024,
   "chuong": 4,
   "tone": "story",
-  "text": "Còn tướng Trần Khâm Tộ dẫn một đạo tới Tây Kết, và tướng Lưu Trừng đem thủy quân tiến vào sông Bạch Đằng, ngả đường từ biển vào đất liền.",
-  "hien": "Còn tướng Trần Khâm Tộ dẫn một đạo tới Tây Kết, và tướng Lưu Trừng đem thủy quân tiến vào sông Bạch Đằng, ngả đường từ biển vào đất liền."
+  "text": "Đầu năm chín trăm tám mươi mốt, quân nhà Tống chia hai đường. Hầu Nhân Bảo dẫn quân bộ qua Lạng Sơn, tướng Lưu Trừng dẫn quân thủy vào sông Bạch Đằng.",
+  "hien": "Đầu năm chín trăm tám mươi mốt, quân nhà Tống chia hai đường. Hầu Nhân Bảo dẫn quân bộ qua Lạng Sơn, tướng Lưu Trừng dẫn quân thủy vào sông Bạch Đằng."
  },
  {
   "n": 176025,
   "chuong": 4,
   "tone": "story",
-  "text": "Bốn mươi ba năm trước, cũng trên dòng sông này, Ngô Quyền từng cắm cọc đánh tan quân Nam Hán. Lần này, Lê Hoàn tự mình cầm quân ra chặn giặc.",
-  "hien": "Bốn mươi ba năm trước, cũng trên dòng sông này, Ngô Quyền từng cắm cọc đánh tan quân Nam Hán. Lần này, Lê Hoàn tự mình cầm quân ra chặn giặc."
+  "text": "Lê Hoàn trực tiếp cầm quân, và ông chọn cách đánh giống Ngô Quyền năm xưa. Ông cho quân sĩ đóng cọc trên sông Bạch Đằng để chặn thuyền giặc.",
+  "hien": "Lê Hoàn trực tiếp cầm quân, và ông chọn cách đánh giống Ngô Quyền năm xưa. Ông cho quân sĩ đóng cọc trên sông Bạch Đằng để chặn thuyền giặc."
  },
  {
   "n": 176026,
   "chuong": 4,
   "tone": "story",
-  "text": "Theo Đại Việt sử ký toàn thư, ông sai quân sĩ đóng cọc ngăn sông. Sử không ghi tên sông, nhưng nhiều nhà nghiên cứu cho đó là Bạch Đằng.",
-  "hien": "Theo Đại Việt sử ký toàn thư, ông sai quân sĩ đóng cọc ngăn sông. Sử không ghi tên sông, nhưng nhiều nhà nghiên cứu cho đó là Bạch Đằng."
+  "text": "Bốn mươi ba năm trước, cũng chính những hàng cọc trên dòng sông này đã nhấn chìm đoàn chiến thuyền của quân Nam Hán.",
+  "hien": "Bốn mươi ba năm trước, cũng chính những hàng cọc trên dòng sông này đã nhấn chìm đoàn chiến thuyền của quân Nam Hán."
  },
  {
   "n": 176027,
   "chuong": 4,
   "tone": "story",
-  "text": "Đây là nước cờ thứ hai. Kế đánh úp cần các đạo quân gặp nhau thật nhanh, còn những hàng cọc thì chặn đúng đường đi của đạo quân thủy.",
-  "hien": "Đây là nước cờ thứ hai. Kế đánh úp cần các đạo quân gặp nhau thật nhanh, còn những hàng cọc thì chặn đúng đường đi của đạo quân thủy."
+  "text": "Đây là nước cờ thứ hai. Kế đánh úp cần các cánh quân hội nhau thật nhanh, còn hàng cọc thì chặn đúng đường tiến của quân thủy.",
+  "hien": "Đây là nước cờ thứ hai. Kế đánh úp cần các cánh quân hội nhau thật nhanh, còn hàng cọc thì chặn đúng đường tiến của quân thủy."
  },
  {
   "n": 176028,
   "chuong": 4,
   "tone": "story",
-  "text": "Trận đánh trên sông được hai cuốn sử chép rất khác nhau. Sử nhà Tống ghi họ phá được quân Đại Cồ Việt, cướp hai trăm chiến thuyền.",
-  "hien": "Trận đánh trên sông được hai cuốn sử chép rất khác nhau. Sử nhà Tống ghi họ phá được quân Đại Cồ Việt, cướp hai trăm chiến thuyền."
+  "text": "Đến khi giao tranh nổ ra trên sông, sử nhà Tống ghi họ thắng một trận, cướp được hai trăm chiến thuyền. Nhưng rồi quân thủy của họ vẫn phải lui.",
+  "hien": "Đến khi giao tranh nổ ra trên sông, sử nhà Tống ghi họ thắng một trận, cướp được hai trăm chiến thuyền. Nhưng rồi quân thủy của họ vẫn phải lui."
  },
  {
   "n": 176029,
   "chuong": 4,
   "tone": "story",
-  "text": "Còn sử nước ta chỉ ghi quân nhà Tống phải lui. Mỗi bên chép theo cách của mình, nên đến nay ta chưa biết chắc trận ấy diễn ra thế nào.",
-  "hien": "Còn sử nước ta chỉ ghi quân nhà Tống phải lui. Mỗi bên chép theo cách của mình, nên đến nay ta chưa biết chắc trận ấy diễn ra thế nào."
+  "text": "Còn trên bộ, cánh quân của tướng Tôn Toàn Hưng dừng ở Hoa Bộ chờ quân thủy tới hội. Hầu Nhân Bảo nhiều lần giục, nhưng Tôn Toàn Hưng vẫn đứng yên.",
+  "hien": "Còn trên bộ, cánh quân của tướng Tôn Toàn Hưng dừng ở Hoa Bộ chờ quân thủy tới hội. Hầu Nhân Bảo nhiều lần giục, nhưng Tôn Toàn Hưng vẫn đứng yên."
  },
  {
   "n": 176030,
   "chuong": 4,
   "tone": "story",
-  "text": "Nhưng có một chuyện sử nhà Tống phải thừa nhận. Đạo quân bộ của Tôn Toàn Hưng dừng ở Hoa Bộ rất lâu để chờ đạo quân thủy.",
-  "hien": "Nhưng có một chuyện sử nhà Tống phải thừa nhận. Đạo quân bộ của Tôn Toàn Hưng dừng ở Hoa Bộ rất lâu để chờ đạo quân thủy."
+  "text": "Kế đánh úp nhanh như sét giờ đã thành một cuộc chờ đợi. Quân thủy bị chặn trên sông, còn quân bộ thì không chịu tiến.",
+  "hien": "Kế đánh úp nhanh như sét giờ đã thành một cuộc chờ đợi. Quân thủy bị chặn trên sông, còn quân bộ thì không chịu tiến."
  },
  {
   "n": 176031,
   "chuong": 4,
   "tone": "story",
-  "text": "Hầu Nhân Bảo nhiều lần thúc giục, nhưng Tôn Toàn Hưng vẫn không tiến. Kế đánh úp nhanh như sét giờ đã thành một cuộc chờ đợi.",
-  "hien": "Hầu Nhân Bảo nhiều lần thúc giục, nhưng Tôn Toàn Hưng vẫn không tiến. Kế đánh úp nhanh như sét giờ đã thành một cuộc chờ đợi."
+  "text": "Trong lúc các cánh quân nhà Tống còn chờ nhau, Hầu Nhân Bảo sẽ làm gì?",
+  "hien": "Trong lúc các cánh quân nhà Tống còn chờ nhau, Hầu Nhân Bảo sẽ làm gì?"
  },
  {
   "n": 176032,
-  "chuong": 4,
+  "chuong": 5,
   "tone": "story",
-  "text": "Sông bị chặn, đạo quân bộ phải đứng chờ, hai việc ấy xảy ra cùng lúc. Dù sử không nối chúng với nhau, phía Đại Cồ Việt đã có thêm thời gian.",
-  "hien": "Sông bị chặn, đạo quân bộ phải đứng chờ, hai việc ấy xảy ra cùng lúc. Dù sử không nối chúng với nhau, phía Đại Cồ Việt đã có thêm thời gian."
+  "text": "Không chờ được nữa, Hầu Nhân Bảo dẫn quân đi trước, tách khỏi cánh quân của Tôn Toàn Hưng.",
+  "hien": "Không chờ được nữa, Hầu Nhân Bảo dẫn quân đi trước, tách khỏi cánh quân của Tôn Toàn Hưng."
  },
  {
   "n": 176033,
-  "chuong": 4,
+  "chuong": 5,
   "tone": "story",
-  "text": "Trong lúc quân nhà Tống còn chờ nhau, Hầu Nhân Bảo sẽ làm gì?",
-  "hien": "Trong lúc quân nhà Tống còn chờ nhau, Hầu Nhân Bảo sẽ làm gì?"
+  "text": "Rồi quân của ông kéo tới vùng sông Chi Lăng ở Lạng Sơn, nơi con đường chạy giữa những dãy núi. Lê Hoàn đã chờ sẵn ở đó.",
+  "hien": "Rồi quân của ông kéo tới vùng sông Chi Lăng ở Lạng Sơn, nơi con đường chạy giữa những dãy núi. Lê Hoàn đã chờ sẵn ở đó."
  },
  {
   "n": 176034,
   "chuong": 5,
   "tone": "story",
-  "text": "Theo sử nhà Tống, Hầu Nhân Bảo không chờ thêm nữa mà dẫn quân đi trước, tách khỏi đạo quân của Tôn Toàn Hưng.",
-  "hien": "Theo sử nhà Tống, Hầu Nhân Bảo không chờ thêm nữa mà dẫn quân đi trước, tách khỏi đạo quân của Tôn Toàn Hưng."
+  "text": "Một toán quân của Lê Hoàn ra xin đầu hàng. Đây là nước cờ thứ ba, vì lời đầu hàng ấy là giả, bày ra để dụ Hầu Nhân Bảo vào bẫy.",
+  "hien": "Một toán quân của Lê Hoàn ra xin đầu hàng. Đây là nước cờ thứ ba, vì lời đầu hàng ấy là giả, bày ra để dụ Hầu Nhân Bảo vào bẫy."
  },
  {
   "n": 176035,
   "chuong": 5,
   "tone": "story",
-  "text": "Còn sử nước ta chép rằng quân nhà Tống lui về vùng sông Chi Lăng, nay thuộc Lạng Sơn, nơi con đường đi kẹp giữa những dãy núi.",
-  "hien": "Còn sử nước ta chép rằng quân nhà Tống lui về vùng sông Chi Lăng, nay thuộc Lạng Sơn, nơi con đường đi kẹp giữa những dãy núi."
+  "text": "Hầu Nhân Bảo mắc mưu, bị bắt và bị chém. Lời hứa không tốn một mũi tên đã kết thúc như vậy, bằng cái chết của chính người cầm quân.",
+  "hien": "Hầu Nhân Bảo mắc mưu, bị bắt và bị chém. Lời hứa không tốn một mũi tên đã kết thúc như vậy, bằng cái chết của chính người cầm quân."
  },
  {
   "n": 176036,
   "chuong": 5,
   "tone": "story",
-  "text": "Chính ở đó, một toán quân của Lê Hoàn tìm đến trước mặt quân nhà Tống và xin được đầu hàng.",
-  "hien": "Chính ở đó, một toán quân của Lê Hoàn tìm đến trước mặt quân nhà Tống và xin được đầu hàng."
+  "text": "Mất chủ tướng, các cánh quân nhà Tống không còn ai chỉ huy chung. Tướng Trần Khâm Tộ đang tiến sâu tới Tây Kết, nghe tin liền vội rút về.",
+  "hien": "Mất chủ tướng, các cánh quân nhà Tống không còn ai chỉ huy chung. Tướng Trần Khâm Tộ đang tiến sâu tới Tây Kết, nghe tin liền vội rút về."
  },
  {
   "n": 176037,
-  "chuong": 5,
-  "tone": "story",
-  "text": "Đây là nước cờ thứ ba, và là nước cờ duy nhất sử ghi rõ mục đích. Lê Hoàn sai quân giả vờ đầu hàng để dụ Hầu Nhân Bảo.",
-  "hien": "Đây là nước cờ thứ ba, và là nước cờ duy nhất sử ghi rõ mục đích. Lê Hoàn sai quân giả vờ đầu hàng để dụ Hầu Nhân Bảo."
- },
- {
-  "n": 176038,
-  "chuong": 5,
-  "tone": "story",
-  "text": "Hầu Nhân Bảo tin lời đầu hàng ấy, rồi bị bắt và bị chém. Cái bẫy được giăng ra cụ thể thế nào, sử không chép thêm một dòng.",
-  "hien": "Hầu Nhân Bảo tin lời đầu hàng ấy, rồi bị bắt và bị chém. Cái bẫy được giăng ra cụ thể thế nào, sử không chép thêm một dòng."
- },
- {
-  "n": 176039,
-  "chuong": 5,
-  "tone": "story",
-  "text": "Lời hứa không tốn một mũi tên đã kết thúc như vậy. Người được giao cầm quân sang đánh úp lại bỏ mạng ngay giữa đường.",
-  "hien": "Lời hứa không tốn một mũi tên đã kết thúc như vậy. Người được giao cầm quân sang đánh úp lại bỏ mạng ngay giữa đường."
- },
- {
-  "n": 176040,
-  "chuong": 5,
-  "tone": "story",
-  "text": "Mất chủ tướng, các đạo quân nhà Tống vốn chưa gặp được nhau nay không còn ai chỉ huy chung. Ở Tây Kết, Trần Khâm Tộ nghe tin liền rút về.",
-  "hien": "Mất chủ tướng, các đạo quân nhà Tống vốn chưa gặp được nhau nay không còn ai chỉ huy chung. Ở Tây Kết, Trần Khâm Tộ nghe tin liền rút về."
- },
- {
-  "n": 176041,
   "chuong": 5,
   "tone": "story",
   "text": "Thế là Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết quá nửa, xác nằm đầy đồng.",
   "hien": "Thế là Lê Hoàn đem các tướng đuổi theo. Quân của Trần Khâm Tộ thua to, chết quá nửa, xác nằm đầy đồng."
  },
  {
-  "n": 176042,
+  "n": 176038,
   "chuong": 5,
   "tone": "story",
   "text": "Hai tướng nhà Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, rồi bị giải về kinh đô Hoa Lư.",
   "hien": "Hai tướng nhà Tống là Quách Quân Biện và Triệu Phụng Huân bị bắt sống, rồi bị giải về kinh đô Hoa Lư."
  },
  {
-  "n": 176043,
+  "n": 176039,
   "chuong": 5,
   "tone": "story",
-  "text": "Tin dữ về đến triều Tống. Vua Tống ra lệnh rút hết quân về, rồi quay sang phạt nặng những tướng còn sống.",
-  "hien": "Tin dữ về đến triều Tống. Vua Tống ra lệnh rút hết quân về, rồi quay sang phạt nặng những tướng còn sống."
+  "text": "Tin thua trận về đến triều Tống. Vua Tống ra lệnh rút hết quân về, rồi quay sang phạt nặng những tướng còn sống.",
+  "hien": "Tin thua trận về đến triều Tống. Vua Tống ra lệnh rút hết quân về, rồi quay sang phạt nặng những tướng còn sống."
  },
  {
-  "n": 176044,
+  "n": 176040,
   "chuong": 5,
   "tone": "story",
-  "text": "Lưu Trừng ốm chết, Vương Soạn bị giết ở Ung Châu. Còn người từng đóng quân chờ đợi ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ.",
-  "hien": "Lưu Trừng ốm chết, Vương Soạn bị giết ở Ung Châu. Còn người từng đóng quân chờ đợi ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ."
+  "text": "Tướng Lưu Trừng ốm chết, còn một tướng khác là Vương Soạn bị giết ở Ung Châu.",
+  "hien": "Tướng Lưu Trừng ốm chết, còn một tướng khác là Vương Soạn bị giết ở Ung Châu."
  },
  {
-  "n": 176045,
+  "n": 176041,
+  "chuong": 5,
+  "tone": "story",
+  "text": "Riêng người đã đứng chờ ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ.",
+  "hien": "Riêng người đã đứng chờ ở Hoa Bộ là Tôn Toàn Hưng thì bị đem ra chém giữa chợ."
+ },
+ {
+  "n": 176042,
   "chuong": 6,
   "tone": "story",
   "text": "Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước và sai sứ sang làm hòa. Nhà Tống chấp nhận, rồi phong chức cho ông.",
   "hien": "Vài năm sau, Lê Hoàn trả hai tướng bị bắt về nước và sai sứ sang làm hòa. Nhà Tống chấp nhận, rồi phong chức cho ông."
  },
  {
-  "n": 176046,
+  "n": 176043,
   "chuong": 6,
   "tone": "story",
   "text": "Vậy vì sao thắng một trận trên sông mà quân nhà Tống vẫn thua? Vì cuộc chiến này không được quyết định trên sông.",
   "hien": "Vậy vì sao thắng một trận trên sông mà quân nhà Tống vẫn thua? Vì cuộc chiến này không được quyết định trên sông."
  },
  {
-  "n": 176047,
+  "n": 176044,
   "chuong": 6,
   "tone": "story",
-  "text": "Nó được quyết định bởi một ông vua được tôn lên đúng lúc, những hàng cọc chặn đường sông, và một lời đầu hàng giả lấy mạng chủ tướng.",
-  "hien": "Nó được quyết định bởi một ông vua được tôn lên đúng lúc, những hàng cọc chặn đường sông, và một lời đầu hàng giả lấy mạng chủ tướng."
+  "text": "Đại Cồ Việt có một vị vua cầm quân, có cọc chặn đường sông, và có một lời đầu hàng giả lấy mạng chủ tướng nhà Tống.",
+  "hien": "Đại Cồ Việt có một vị vua cầm quân, có cọc chặn đường sông, và có một lời đầu hàng giả lấy mạng chủ tướng nhà Tống."
  },
  {
-  "n": 176048,
+  "n": 176045,
   "chuong": 6,
   "tone": "story",
-  "text": "Hai cuốn sử chép trận trên sông khác nhau, nhưng cùng khép lại bằng một dòng: quân nhà Tống rút về. Cảm ơn bạn đã lắng nghe câu chuyện này.",
-  "hien": "Hai cuốn sử chép trận trên sông khác nhau, nhưng cùng khép lại bằng một dòng: quân nhà Tống rút về. Cảm ơn bạn đã lắng nghe câu chuyện này."
+  "text": "Nhà Tống từng hứa thắng mà không tốn một mũi tên, nhưng cuối cùng phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Nhà Tống từng hứa thắng mà không tốn một mũi tên, nhưng cuối cùng phải trả giá bằng cả một chủ tướng. Cảm ơn bạn đã lắng nghe câu chuyện này."
  }
 ]

@@ -1,0 +1,112 @@
+{
+ "beats": [
+  {
+   "say": "Ta đứng trên Trái Đất mà chẳng cảm thấy nó quay, vậy làm sao chứng minh nó đang quay?",
+   "text": "Đứng trên Trái Đất *chẳng thấy nó quay*, làm sao *chứng minh*?"
+  },
+  {
+   "say": "Nhưng năm một nghìn tám trăm năm mươi mốt, một quả nặng treo dây đã cho mọi người thấy.",
+   "text": "Nhưng năm *1851*, *một quả nặng treo dây* đã cho mọi người thấy."
+  },
+  {
+   "say": "Hóa ra quả nặng ấy không chỉ đung đưa, mà mặt phẳng đung đưa của nó còn chầm chậm xoay.",
+   "text": "Hóa ra *mặt phẳng đung đưa* của nó còn *chầm chậm xoay*."
+  },
+  {
+   "say": "Vậy vì sao nó xoay, và điều đó nói gì về Trái Đất?",
+   "text": "Vậy *vì sao nó xoay*, và nói gì về *Trái Đất*?"
+  },
+  {
+   "say": "Người làm thí nghiệm này là Phu-cô.",
+   "text": "Người làm thí nghiệm là *Phu-cô*."
+  },
+  {
+   "say": "Ông treo quả nặng hai mươi tám ki-lô-gam vào dây dài sáu mươi bảy mét, từ mái vòm đền Păng-tê-ông.",
+   "text": "Treo *quả nặng 28 ki-lô-gam* vào *dây dài 67 mét*, từ mái vòm *đền Păng-tê-ông*."
+  },
+  {
+   "say": "Sáu mươi bảy mét cao hơn hai mươi tầng nhà.",
+   "text": "*67 mét* cao hơn *20 tầng nhà*."
+  },
+  {
+   "say": "Dây dài như vậy thì quả nặng đung đưa rất chậm, nên ai cũng nhìn kịp.",
+   "text": "Dây dài nên quả nặng *đung đưa rất chậm*, ai cũng *nhìn kịp*."
+  },
+  {
+   "say": "Ta thử một ví dụ: đặt tờ giấy lên bàn xoay, rồi dùng thước vẽ một đường thẳng khi bàn đang quay.",
+   "text": "Đặt *tờ giấy* lên *bàn xoay*, dùng thước vẽ *đường thẳng* khi bàn quay."
+  },
+  {
+   "say": "Khi bàn dừng, đường vẽ trên giấy bị cong, dù tay ta vẽ thẳng.",
+   "text": "Khi bàn dừng, đường trên giấy *bị cong*, dù tay *vẽ thẳng*."
+  },
+  {
+   "say": "Quả nặng giống cây bút: nó cứ đung đưa theo một hướng cố định trong không gian.",
+   "text": "Quả nặng như *cây bút*: cứ đung đưa theo *một hướng cố định*."
+  },
+  {
+   "say": "Còn mặt đất bên dưới giống tờ giấy, đang xoay cùng Trái Đất.",
+   "text": "Còn *mặt đất* như *tờ giấy*, đang *xoay cùng Trái Đất*."
+  },
+  {
+   "say": "Vì vậy người đứng dưới thấy mặt phẳng đung đưa lệch dần.",
+   "text": "Nên người đứng dưới thấy mặt phẳng *lệch dần*."
+  },
+  {
+   "say": "Ở Bắc Cực, mặt phẳng ấy xoay trọn một vòng trong một ngày.",
+   "text": "Ở *Bắc Cực*, xoay *trọn một vòng* trong *một ngày*."
+  },
+  {
+   "say": "Trái Đất quay ba trăm sáu mươi độ trong hai mươi bốn giờ.",
+   "text": "Trái Đất quay *360 độ* trong *24 giờ*."
+  },
+  {
+   "say": "Vậy mỗi giờ nó quay mười lăm độ.",
+   "text": "*360 ÷ 24* = *15 độ* mỗi giờ."
+  },
+  {
+   "say": "Nhưng đền ấy ở Pa-ri, không phải ở Bắc Cực, nên mặt phẳng xoay chậm hơn.",
+   "text": "Nhưng đền ở *Pa-ri*, *không ở Bắc Cực*, nên xoay *chậm hơn*."
+  },
+  {
+   "say": "Tốc độ xoay bằng mười lăm độ nhân một con số gọi là sin của vĩ độ.",
+   "text": "Tốc độ = *15 độ* × *sin của vĩ độ*."
+  },
+  {
+   "say": "Con số ấy là không ở xích đạo và là một ở cực.",
+   "text": "Sin vĩ độ: *0 ở xích đạo*, *1 ở cực*."
+  },
+  {
+   "say": "Pa-ri ở khoảng bốn mươi tám phẩy tám độ Bắc, nơi con số ấy khoảng không phẩy bảy lăm.",
+   "text": "Pa-ri ở *khoảng 48,8 độ Bắc*, sin *khoảng 0,75*."
+  },
+  {
+   "say": "Mười lăm nhân không phẩy bảy lăm ra khoảng mười một phẩy ba độ mỗi giờ.",
+   "text": "*15 × 0,75* = *khoảng 11,3 độ* mỗi giờ."
+  },
+  {
+   "say": "Đúng như Phu-cô đã thấy: hơn mười một độ mỗi giờ.",
+   "text": "Đúng như Phu-cô thấy: *hơn 11 độ* mỗi giờ."
+  },
+  {
+   "say": "Ba trăm sáu mươi chia mười một phẩy ba ra khoảng ba mươi hai giờ cho một vòng.",
+   "text": "*360 ÷ 11,3* = *khoảng 32 giờ* một vòng."
+  },
+  {
+   "say": "Ở xích đạo, sin bằng không, nên quả lắc không xoay chút nào.",
+   "text": "Ở *xích đạo*, sin *bằng 0*, quả lắc *không xoay*."
+  },
+  {
+   "say": "Đây là thí nghiệm đơn giản đầu tiên cho thấy trực tiếp rằng Trái Đất quay.",
+   "text": "Thí nghiệm đơn giản *đầu tiên* cho thấy *trực tiếp* Trái Đất quay."
+  },
+  {
+   "say": "Chỉ cần một quả nặng và một sợi dây, đứng yên trong phòng, ta cũng biết Trái Đất đang quay.",
+   "text": "Chỉ cần *quả nặng và sợi dây*, đứng yên trong phòng, ta biết *Trái Đất quay*."
+  },
+  {
+   "say": "Vậy quả lắc xoay vì chính chúng ta đang xoay cùng Trái Đất.",
+   "text": "Quả lắc xoay vì *chính ta đang xoay* cùng Trái Đất."
+  }
+ ]
+}

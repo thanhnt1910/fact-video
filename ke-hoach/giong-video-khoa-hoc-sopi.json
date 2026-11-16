@@ -1,0 +1,160 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Số pi có những chữ số dài vô tận, vậy làm sao người xưa tính được nó khi chưa có máy tính?",
+   "say": "Số pi có những chữ số dài vô tận, vậy làm sao người xưa tính được nó khi chưa có máy tính?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng họ không cần viết hết nó.",
+   "say": "Nhưng họ không cần viết hết nó."
+  },
+  {
+   "n": 3,
+   "text": "Họ chỉ cần kẹp nó giữa hai con số thật gần nhau.",
+   "say": "Họ chỉ cần kẹp nó giữa hai con số thật gần nhau."
+  },
+  {
+   "n": 4,
+   "text": "Hóa ra cách kẹp ấy do Ác-si-mét nghĩ ra, chỉ bằng những hình nhiều cạnh.",
+   "say": "Hóa ra cách kẹp ấy do Ác-si-mét nghĩ ra, chỉ bằng những hình nhiều cạnh."
+  },
+  {
+   "n": 5,
+   "text": "Trước hết, pi là gì? Lấy chu vi hình tròn chia cho đường kính của nó.",
+   "say": "Trước hết, pi là gì? Lấy chu vi hình tròn chia cho đường kính của nó."
+  },
+  {
+   "n": 6,
+   "text": "Hình tròn lớn hay nhỏ, kết quả vẫn như nhau: hơn ba một chút.",
+   "say": "Hình tròn lớn hay nhỏ, kết quả vẫn như nhau: hơn ba một chút."
+  },
+  {
+   "n": 7,
+   "text": "Ta thử xem: quấn một sợi chỉ quanh cái lon, đo sợi chỉ, rồi chia cho bề ngang của lon.",
+   "say": "Ta thử xem: quấn một sợi chỉ quanh cái lon, đo sợi chỉ, rồi chia cho bề ngang của lon."
+  },
+  {
+   "n": 8,
+   "text": "Ta được khoảng ba phẩy một, nhưng sợi chỉ giãn và lệch, nên các chữ số sau đó không đáng tin.",
+   "say": "Ta được khoảng ba phẩy một, nhưng sợi chỉ giãn và lệch, nên các chữ số sau đó không đáng tin."
+  },
+  {
+   "n": 9,
+   "text": "Đường cong thì khó đo, còn đường thẳng thì đo rất chính xác.",
+   "say": "Đường cong thì khó đo, còn đường thẳng thì đo rất chính xác."
+  },
+  {
+   "n": 10,
+   "text": "Vì vậy Ác-si-mét thay vòng tròn bằng những hình có cạnh thẳng.",
+   "say": "Vì vậy Ác-si-mét thay vòng tròn bằng những hình có cạnh thẳng."
+  },
+  {
+   "n": 11,
+   "text": "Ông vẽ một hình sáu cạnh nằm gọn trong vòng tròn, các đỉnh chạm vào vòng.",
+   "say": "Ông vẽ một hình sáu cạnh nằm gọn trong vòng tròn, các đỉnh chạm vào vòng."
+  },
+  {
+   "n": 12,
+   "text": "Chu vi nó ngắn hơn vòng tròn, vì đi đường thẳng luôn ngắn hơn đi đường cong.",
+   "say": "Chu vi nó ngắn hơn vòng tròn, vì đi đường thẳng luôn ngắn hơn đi đường cong."
+  },
+  {
+   "n": 13,
+   "text": "Rồi ông vẽ một hình sáu cạnh khác nằm ngoài vòng tròn, các cạnh chạm vào vòng.",
+   "say": "Rồi ông vẽ một hình sáu cạnh khác nằm ngoài vòng tròn, các cạnh chạm vào vòng."
+  },
+  {
+   "n": 14,
+   "text": "Chu vi hình này dài hơn vòng tròn, vì nó ôm bên ngoài.",
+   "say": "Chu vi hình này dài hơn vòng tròn, vì nó ôm bên ngoài."
+  },
+  {
+   "n": 15,
+   "text": "Vòng tròn bị kẹp giữa hai chu vi ấy, mà cả hai đều đo được bằng thước.",
+   "say": "Vòng tròn bị kẹp giữa hai chu vi ấy, mà cả hai đều đo được bằng thước."
+  },
+  {
+   "n": 16,
+   "text": "Mỗi cạnh hình trong dài bằng một nửa đường kính, nên sáu cạnh cộng lại bằng ba.",
+   "say": "Mỗi cạnh hình trong dài bằng một nửa đường kính, nên sáu cạnh cộng lại bằng ba."
+  },
+  {
+   "n": 17,
+   "text": "Còn chu vi hình ngoài là khoảng ba phẩy bốn sáu.",
+   "say": "Còn chu vi hình ngoài là khoảng ba phẩy bốn sáu."
+  },
+  {
+   "n": 18,
+   "text": "Vậy pi nằm giữa ba và ba phẩy bốn sáu. Khoảng kẹp này còn rất rộng.",
+   "say": "Vậy pi nằm giữa ba và ba phẩy bốn sáu. Khoảng kẹp này còn rất rộng."
+  },
+  {
+   "n": 19,
+   "text": "Mẹo của ông là gấp đôi số cạnh, vì hình càng nhiều cạnh càng ôm sát vòng tròn.",
+   "say": "Mẹo của ông là gấp đôi số cạnh, vì hình càng nhiều cạnh càng ôm sát vòng tròn."
+  },
+  {
+   "n": 20,
+   "text": "Với mười hai cạnh, pi nằm giữa ba phẩy mười một và ba phẩy hai mươi hai.",
+   "say": "Với mười hai cạnh, pi nằm giữa ba phẩy mười một và ba phẩy hai mươi hai."
+  },
+  {
+   "n": 21,
+   "text": "Với hai mươi bốn cạnh, pi nằm giữa ba phẩy mười ba và ba phẩy mười sáu.",
+   "say": "Với hai mươi bốn cạnh, pi nằm giữa ba phẩy mười ba và ba phẩy mười sáu."
+  },
+  {
+   "n": 22,
+   "text": "Với bốn mươi tám cạnh, pi nằm giữa ba phẩy mười bốn và ba phẩy mười lăm.",
+   "say": "Với bốn mươi tám cạnh, pi nằm giữa ba phẩy mười bốn và ba phẩy mười lăm."
+  },
+  {
+   "n": 23,
+   "text": "Cuối cùng là chín mươi sáu cạnh, và ông dừng ở đó.",
+   "say": "Cuối cùng là chín mươi sáu cạnh, và ông dừng ở đó."
+  },
+  {
+   "n": 24,
+   "text": "Ông ghi: pi lớn hơn hai trăm hai mươi ba phần bảy mươi mốt, nhỏ hơn hai mươi hai phần bảy.",
+   "say": "Ông ghi: pi lớn hơn hai trăm hai mươi ba phần bảy mươi mốt, nhỏ hơn hai mươi hai phần bảy."
+  },
+  {
+   "n": 25,
+   "text": "Đổi ra số thập phân, pi nằm từ ba phẩy một bốn tới ba phẩy một bốn ba.",
+   "say": "Đổi ra số thập phân, pi nằm từ ba phẩy một bốn tới ba phẩy một bốn ba."
+  },
+  {
+   "n": 26,
+   "text": "Ông làm tròn theo hướng an toàn, nên khoảng kẹp rộng hơn chút so với hình chín mươi sáu cạnh thật.",
+   "say": "Ông làm tròn theo hướng an toàn, nên khoảng kẹp rộng hơn chút so với hình chín mươi sáu cạnh thật."
+  },
+  {
+   "n": 27,
+   "text": "Pi thật là ba phẩy một bốn một sáu, nằm gọn giữa hai con số ấy.",
+   "say": "Pi thật là ba phẩy một bốn một sáu, nằm gọn giữa hai con số ấy."
+  },
+  {
+   "n": 28,
+   "text": "Phân số hai mươi hai phần bảy chỉ lệch pi chưa đến một phần nghìn.",
+   "say": "Phân số hai mươi hai phần bảy chỉ lệch pi chưa đến một phần nghìn."
+  },
+  {
+   "n": 29,
+   "text": "Nhờ gấp đôi số cạnh, cách kẹp này có thể chính xác đến đâu cũng được, chỉ cần kiên nhẫn.",
+   "say": "Nhờ gấp đôi số cạnh, cách kẹp này có thể chính xác đến đâu cũng được, chỉ cần kiên nhẫn."
+  },
+  {
+   "n": 30,
+   "text": "Ngày nay, máy tính đã tính được hơn một trăm nghìn tỉ chữ số của pi.",
+   "say": "Ngày nay, máy tính đã tính được hơn một trăm nghìn tỉ chữ số của pi."
+  },
+  {
+   "n": 31,
+   "text": "Vậy pi dài vô tận, nhưng người xưa chỉ cần kẹp nó giữa hai hình nhiều cạnh.",
+   "say": "Vậy pi dài vô tận, nhưng người xưa chỉ cần kẹp nó giữa hai hình nhiều cạnh."
+  }
+ ]
+}

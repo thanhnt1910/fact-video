@@ -1,0 +1,128 @@
+{
+ "beats": [
+  {
+   "say": "Số pi có những chữ số dài vô tận, vậy làm sao người xưa tính được nó khi chưa có máy tính?",
+   "text": "Số *pi* dài *vô tận*, làm sao người xưa tính được khi *chưa có máy tính*?"
+  },
+  {
+   "say": "Nhưng họ không cần viết hết nó.",
+   "text": "Nhưng họ *không cần viết hết* nó."
+  },
+  {
+   "say": "Họ chỉ cần kẹp nó giữa hai con số thật gần nhau.",
+   "text": "Chỉ cần *kẹp nó* giữa *hai con số* thật gần nhau."
+  },
+  {
+   "say": "Hóa ra cách kẹp ấy do Ác-si-mét nghĩ ra, chỉ bằng những hình nhiều cạnh.",
+   "text": "Hóa ra *Ác-si-mét* nghĩ ra, chỉ bằng *hình nhiều cạnh*."
+  },
+  {
+   "say": "Trước hết, pi là gì? Lấy chu vi hình tròn chia cho đường kính của nó.",
+   "text": "Pi là gì? *Chu vi* hình tròn chia cho *đường kính*."
+  },
+  {
+   "say": "Hình tròn lớn hay nhỏ, kết quả vẫn như nhau: hơn ba một chút.",
+   "text": "Tròn lớn hay nhỏ, kết quả vẫn *như nhau*: *hơn 3* một chút."
+  },
+  {
+   "say": "Ta thử xem: quấn một sợi chỉ quanh cái lon, đo sợi chỉ, rồi chia cho bề ngang của lon.",
+   "text": "Quấn *sợi chỉ* quanh cái lon, đo chỉ, rồi *chia cho bề ngang* lon."
+  },
+  {
+   "say": "Ta được khoảng ba phẩy một, nhưng sợi chỉ giãn và lệch, nên các chữ số sau đó không đáng tin.",
+   "text": "Được *khoảng 3,1*, nhưng chỉ giãn và lệch nên *chữ số sau* không đáng tin."
+  },
+  {
+   "say": "Đường cong thì khó đo, còn đường thẳng thì đo rất chính xác.",
+   "text": "*Đường cong* khó đo, *đường thẳng* thì đo rất chính xác."
+  },
+  {
+   "say": "Vì vậy Ác-si-mét thay vòng tròn bằng những hình có cạnh thẳng.",
+   "text": "Ác-si-mét thay vòng tròn bằng hình *có cạnh thẳng*."
+  },
+  {
+   "say": "Ông vẽ một hình sáu cạnh nằm gọn trong vòng tròn, các đỉnh chạm vào vòng.",
+   "text": "Vẽ *hình 6 cạnh* nằm *trong* vòng tròn, các đỉnh chạm vòng."
+  },
+  {
+   "say": "Chu vi nó ngắn hơn vòng tròn, vì đi đường thẳng luôn ngắn hơn đi đường cong.",
+   "text": "Chu vi nó *ngắn hơn* vòng tròn: đường thẳng *luôn ngắn hơn* đường cong."
+  },
+  {
+   "say": "Rồi ông vẽ một hình sáu cạnh khác nằm ngoài vòng tròn, các cạnh chạm vào vòng.",
+   "text": "Rồi vẽ hình 6 cạnh khác nằm *ngoài* vòng tròn, các cạnh chạm vòng."
+  },
+  {
+   "say": "Chu vi hình này dài hơn vòng tròn, vì nó ôm bên ngoài.",
+   "text": "Chu vi hình này *dài hơn* vòng tròn, vì nó *ôm bên ngoài*."
+  },
+  {
+   "say": "Vòng tròn bị kẹp giữa hai chu vi ấy, mà cả hai đều đo được bằng thước.",
+   "text": "Vòng tròn *bị kẹp* giữa hai chu vi, cả hai đều *đo được bằng thước*."
+  },
+  {
+   "say": "Mỗi cạnh hình trong dài bằng một nửa đường kính, nên sáu cạnh cộng lại bằng ba.",
+   "text": "Mỗi cạnh *bằng nửa đường kính*: *6 × 0,5 = 3*."
+  },
+  {
+   "say": "Còn chu vi hình ngoài là khoảng ba phẩy bốn sáu.",
+   "text": "Chu vi hình ngoài là *khoảng 3,46*."
+  },
+  {
+   "say": "Vậy pi nằm giữa ba và ba phẩy bốn sáu. Khoảng kẹp này còn rất rộng.",
+   "text": "Pi nằm giữa *3* và *3,46*. Khoảng kẹp còn *rất rộng*."
+  },
+  {
+   "say": "Mẹo của ông là gấp đôi số cạnh, vì hình càng nhiều cạnh càng ôm sát vòng tròn.",
+   "text": "Mẹo: *gấp đôi số cạnh*, càng nhiều cạnh càng *ôm sát* vòng tròn."
+  },
+  {
+   "say": "Với mười hai cạnh, pi nằm giữa ba phẩy mười một và ba phẩy hai mươi hai.",
+   "text": "*12 cạnh*: pi nằm giữa *3,11* và *3,22*."
+  },
+  {
+   "say": "Với hai mươi bốn cạnh, pi nằm giữa ba phẩy mười ba và ba phẩy mười sáu.",
+   "text": "*24 cạnh*: giữa *3,13* và *3,16*."
+  },
+  {
+   "say": "Với bốn mươi tám cạnh, pi nằm giữa ba phẩy mười bốn và ba phẩy mười lăm.",
+   "text": "*48 cạnh*: giữa *3,14* và *3,15*."
+  },
+  {
+   "say": "Cuối cùng là chín mươi sáu cạnh, và ông dừng ở đó.",
+   "text": "Cuối cùng *96 cạnh*, và ông *dừng ở đó*."
+  },
+  {
+   "say": "Ông ghi: pi lớn hơn hai trăm hai mươi ba phần bảy mươi mốt, nhỏ hơn hai mươi hai phần bảy.",
+   "text": "Pi *lớn hơn 223/71* và *nhỏ hơn 22/7*."
+  },
+  {
+   "say": "Đổi ra số thập phân, pi nằm từ ba phẩy một bốn tới ba phẩy một bốn ba.",
+   "text": "Đổi ra thập phân: từ *3,14* tới *3,143*."
+  },
+  {
+   "say": "Ông làm tròn theo hướng an toàn, nên khoảng kẹp rộng hơn chút so với hình chín mươi sáu cạnh thật.",
+   "text": "Làm tròn *theo hướng an toàn*, nên khoảng kẹp *rộng hơn chút* so với hình 96 cạnh thật."
+  },
+  {
+   "say": "Pi thật là ba phẩy một bốn một sáu, nằm gọn giữa hai con số ấy.",
+   "text": "Pi thật là *3,1416*, nằm *gọn giữa* hai số ấy."
+  },
+  {
+   "say": "Phân số hai mươi hai phần bảy chỉ lệch pi chưa đến một phần nghìn.",
+   "text": "*22/7* chỉ lệch pi *chưa đến 1 phần nghìn*."
+  },
+  {
+   "say": "Nhờ gấp đôi số cạnh, cách kẹp này có thể chính xác đến đâu cũng được, chỉ cần kiên nhẫn.",
+   "text": "Cứ *gấp đôi số cạnh*, kẹp được *chính xác đến đâu cũng được*."
+  },
+  {
+   "say": "Ngày nay, máy tính đã tính được hơn một trăm nghìn tỉ chữ số của pi.",
+   "text": "Ngày nay máy tính tính được *hơn 100 nghìn tỉ chữ số* của pi."
+  },
+  {
+   "say": "Vậy pi dài vô tận, nhưng người xưa chỉ cần kẹp nó giữa hai hình nhiều cạnh.",
+   "text": "Pi *dài vô tận*, nhưng người xưa *kẹp nó* giữa *hai hình nhiều cạnh*."
+  }
+ ]
+}

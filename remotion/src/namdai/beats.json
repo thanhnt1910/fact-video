@@ -1,0 +1,128 @@
+{
+ "beats": [
+  {
+   "say": "Vì sao cứ bốn năm, lịch lại thêm một ngày?",
+   "text": "Vì sao *cứ 4 năm*, lịch lại *thêm một ngày*?"
+  },
+  {
+   "say": "Nhưng một năm đâu phải ba trăm sáu mươi lăm ngày tròn.",
+   "text": "Nhưng một năm *không phải 365 ngày tròn*."
+  },
+  {
+   "say": "Hóa ra Trái Đất đi hết một vòng quanh Mặt Trời thì còn lẻ thêm gần một phần tư ngày.",
+   "text": "Hóa ra mỗi vòng quanh Mặt Trời còn *lẻ thêm gần 1 phần 4 ngày*."
+  },
+  {
+   "say": "Vậy người xưa đo cái phần lẻ ấy bằng cách nào?",
+   "text": "Vậy người xưa *đo phần lẻ ấy* bằng cách nào?"
+  },
+  {
+   "say": "Trước hết, họ cần một dấu mốc của năm. Dấu mốc dễ nhận nhất là ngày hạ chí.",
+   "text": "Cần *một dấu mốc* của năm: ngày *hạ chí*."
+  },
+  {
+   "say": "Hạ chí là ngày Mặt Trời lên cao nhất bầu trời lúc giữa trưa, ở những nơi như Hy Lạp.",
+   "text": "Hạ chí: Mặt Trời *lên cao nhất* lúc giữa trưa, ở nơi như *Hy Lạp*."
+  },
+  {
+   "say": "Nên họ ghi lại ngày hạ chí năm nay, rồi đếm xem tới hạ chí năm sau là bao nhiêu ngày.",
+   "text": "Nên ghi ngày hạ chí, rồi *đếm số ngày* tới hạ chí năm sau."
+  },
+  {
+   "say": "Nhưng mỗi lần đo sai vài giờ, nên chỉ đếm một năm thì chưa đủ chính xác.",
+   "text": "Nhưng mỗi lần *sai vài giờ*, nên *chỉ đếm một năm* chưa đủ chính xác."
+  },
+  {
+   "say": "Vì vậy mẹo là đo hai ngày hạ chí cách nhau thật xa, rồi chia cho số năm ở giữa.",
+   "text": "Mẹo: đo hai hạ chí *cách nhau thật xa*, rồi *chia cho số năm*."
+  },
+  {
+   "say": "Giống như đo tờ giấy: đo cả chồng một trăm tờ rồi chia một trăm, sai số nhỏ đi một trăm lần.",
+   "text": "Như đo tờ giấy: đo *chồng 100 tờ* rồi chia 100, sai số *nhỏ đi 100 lần*."
+  },
+  {
+   "say": "Nhà thiên văn Hip-pa-khốt đã làm như vậy ở Hy Lạp, vào thế kỷ thứ hai trước Công nguyên.",
+   "text": "*Hip-pa-khốt* làm như vậy ở Hy Lạp, *thế kỷ thứ 2 trước Công nguyên*."
+  },
+  {
+   "say": "Ông so ngày hạ chí mình quan sát với ngày hạ chí người Hy Lạp ghi từ gần ba trăm năm trước.",
+   "text": "So hạ chí ông quan sát với hạ chí ghi từ *gần 300 năm trước*."
+  },
+  {
+   "say": "Giữa hai lần hạ chí ấy có gần ba trăm năm, đếm ra hơn một trăm linh tám nghìn ngày.",
+   "text": "Giữa hai hạ chí có *297 năm*, đếm ra *108 478 ngày*."
+  },
+  {
+   "say": "Rồi ông chia số ngày ấy cho số năm.",
+   "text": "Chia: *108 478 ÷ 297*."
+  },
+  {
+   "say": "Ta được khoảng ba trăm sáu mươi lăm phẩy hai bốn sáu ngày cho mỗi năm.",
+   "text": "= *khoảng 365,246 ngày* mỗi năm."
+  },
+  {
+   "say": "Số đo hiện đại là ba trăm sáu mươi lăm phẩy hai bốn hai hai ngày.",
+   "text": "Số đo hiện đại: *365,2422 ngày*."
+  },
+  {
+   "say": "Nên ông chỉ lệch khoảng sáu phút mỗi năm, dù không có máy móc nào.",
+   "text": "Nên ông chỉ lệch *khoảng 6 phút* mỗi năm, *không có máy móc*."
+  },
+  {
+   "say": "Vậy lịch nên chia năm thế nào? Lịch Giu-li-an, bắt đầu từ năm bốn mươi lăm trước Công nguyên, cứ bốn năm thêm một ngày.",
+   "text": "Lịch *Giu-li-an*, từ *năm 45 trước Công nguyên*: *cứ 4 năm* thêm *1 ngày*."
+  },
+  {
+   "say": "Như vậy năm trung bình là ba trăm sáu mươi lăm ngày và một phần tư ngày.",
+   "text": "Năm trung bình = *365 ngày và 1 phần 4*."
+  },
+  {
+   "say": "Con số này dài hơn năm thật khoảng không phẩy không bảy tám ngày mỗi năm.",
+   "text": "Dài hơn năm thật *khoảng 0,0078 ngày* mỗi năm."
+  },
+  {
+   "say": "Từ năm ba trăm hai mươi lăm tới năm một nghìn năm trăm tám mươi hai là hơn một nghìn hai trăm năm.",
+   "text": "Từ *325* đến *1582* là *1 257 năm*."
+  },
+  {
+   "say": "Nhân với không phẩy không bảy tám ngày, ra gần mười ngày lệch.",
+   "text": "*1 257 × 0,0078* = *gần 10 ngày* lệch."
+  },
+  {
+   "say": "Năm một nghìn năm trăm tám mươi hai, Giáo hoàng Gờ-rê-goa mười ba ra lệnh bỏ mười ngày.",
+   "text": "Năm *1582*, *Gờ-rê-goa 13* ra lệnh *bỏ 10 ngày*."
+  },
+  {
+   "say": "Sau ngày bốn tháng mười là ngày mười lăm tháng mười.",
+   "text": "Sau *4 tháng 10* là *15 tháng 10*."
+  },
+  {
+   "say": "Ông đổi luật: năm chia hết cho bốn thì nhuận, trừ năm cuối thế kỷ không chia hết cho bốn trăm.",
+   "text": "Năm *chia hết cho 4* thì nhuận, trừ *năm cuối thế kỷ* không chia hết cho *400*."
+  },
+  {
+   "say": "Nên các năm một nghìn bảy trăm, tám trăm, chín trăm không nhuận, còn năm hai nghìn thì nhuận.",
+   "text": "Nên *1700*, *1800*, *1900* không nhuận, còn *2000* thì nhuận."
+  },
+  {
+   "say": "Cứ bốn trăm năm chỉ có chín mươi bảy năm nhuận.",
+   "text": "Cứ *400 năm* chỉ có *97 năm nhuận*."
+  },
+  {
+   "say": "Bốn trăm năm đó có hơn một trăm bốn mươi sáu nghìn ngày.",
+   "text": "*400 × 365 + 97* = *146 097 ngày*."
+  },
+  {
+   "say": "Chia cho bốn trăm năm, ta được ba trăm sáu mươi lăm phẩy hai bốn hai lăm ngày.",
+   "text": "*146 097 ÷ 400* = *365,2425 ngày*."
+  },
+  {
+   "say": "Gần sát năm thật, nên lịch này lệch rất chậm, phải nhiều thế kỷ mới lệch một ngày.",
+   "text": "Gần sát năm thật, phải *rất nhiều thế kỷ* mới lệch *một ngày*."
+  },
+  {
+   "say": "Vậy cứ bốn năm thêm một ngày, vì mỗi năm dài hơn ba trăm sáu mươi lăm ngày gần một phần tư.",
+   "text": "Cứ *4 năm thêm 1 ngày*, vì mỗi năm dài hơn *365 ngày* gần *1 phần 4*."
+  }
+ ]
+}

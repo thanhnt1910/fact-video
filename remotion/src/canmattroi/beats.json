@@ -1,0 +1,120 @@
+{
+ "beats": [
+  {
+   "say": "Không ai đặt nổi Mặt Trời lên cân, vậy làm sao biết nó nặng bao nhiêu?",
+   "text": "Không ai *đặt Mặt Trời lên cân* được, làm sao biết nó *nặng bao nhiêu*?"
+  },
+  {
+   "say": "Nhưng mỗi ngày, Trái Đất đã tự cân nó giúp ta.",
+   "text": "Nhưng mỗi ngày, *Trái Đất* đã *tự cân nó* giúp ta."
+  },
+  {
+   "say": "Hóa ra chỉ cần biết Trái Đất chạy quanh Mặt Trời nhanh cỡ nào.",
+   "text": "Hóa ra chỉ cần biết Trái Đất *chạy nhanh cỡ nào*."
+  },
+  {
+   "say": "Mặt Trời hút Trái Đất, vậy sao Trái Đất không rơi vào Mặt Trời?",
+   "text": "Mặt Trời *hút* Trái Đất, sao Trái Đất *không rơi vào* Mặt Trời?"
+  },
+  {
+   "say": "Vì Trái Đất đang chạy vòng quanh nó.",
+   "text": "Vì Trái Đất *đang chạy vòng* quanh nó."
+  },
+  {
+   "say": "Giống như quay quả bóng buộc dây: dây kéo bóng vào tay, nhưng bóng chạy vòng nên không rơi vào tay.",
+   "text": "Như *quay quả bóng buộc dây*: dây kéo bóng, nhưng bóng *chạy vòng* nên *không rơi vào tay*."
+  },
+  {
+   "say": "Mặt Trời càng nặng thì càng hút mạnh, nên Trái Đất phải chạy càng nhanh mới không bị kéo vào.",
+   "text": "Mặt Trời *càng nặng* thì hút *càng mạnh*, Trái Đất phải chạy *càng nhanh*."
+  },
+  {
+   "say": "Vậy tốc độ của Trái Đất cho ta biết Mặt Trời nặng bao nhiêu.",
+   "text": "Vậy *tốc độ Trái Đất* cho biết *Mặt Trời nặng bao nhiêu*."
+  },
+  {
+   "say": "Quy luật hút ấy do Niu-tơn tìm ra, trong cuốn sách ông xuất bản năm một nghìn sáu trăm tám mươi bảy.",
+   "text": "Quy luật hút do *Niu-tơn* tìm ra, trong sách xuất bản năm *1687*."
+  },
+  {
+   "say": "Ta cần ba con số. Số thứ nhất là khoảng cách tới Mặt Trời, khoảng một trăm năm mươi triệu ki-lô-mét.",
+   "text": "Cần *3 con số*. Thứ nhất: khoảng cách *khoảng 150 triệu ki-lô-mét*."
+  },
+  {
+   "say": "Số thứ hai là thời gian một vòng, tức một năm, ba trăm sáu mươi lăm ngày và một phần tư.",
+   "text": "Thứ hai: một vòng là *1 năm*, *365 ngày và 1 phần 4*."
+  },
+  {
+   "say": "Số thứ ba là G, con số cho biết lực hút mạnh cỡ nào.",
+   "text": "Thứ ba là *G*, cho biết *lực hút mạnh cỡ nào*."
+  },
+  {
+   "say": "G rất nhỏ, khoảng sáu phẩy bảy phần một trăm tỉ.",
+   "text": "G *rất nhỏ*, khoảng *6,7 phần 100 tỉ*."
+  },
+  {
+   "say": "Năm một nghìn bảy trăm chín mươi tám, Ca-ven-đít đo lực hút giữa các quả cầu bằng cân xoắn, từ đó ra G.",
+   "text": "Năm *1798*, *Ca-ven-đít* đo lực hút giữa các quả cầu bằng *cân xoắn*, từ đó ra *G*."
+  },
+  {
+   "say": "Bước một: quỹ đạo gần như vòng tròn, nên dài khoảng chín trăm bốn mươi triệu ki-lô-mét.",
+   "text": "Vòng dài *2 × 3,14 × 150 triệu* ≈ *940 triệu ki-lô-mét*."
+  },
+  {
+   "say": "Bước hai: một năm có khoảng ba mươi mốt phẩy sáu triệu giây.",
+   "text": "*1 năm* ≈ *31,6 triệu giây*."
+  },
+  {
+   "say": "Bước ba: chia chín trăm bốn mươi triệu ki-lô-mét cho ba mươi mốt phẩy sáu triệu giây.",
+   "text": "*940 triệu ÷ 31,6 triệu*."
+  },
+  {
+   "say": "Ra khoảng hai mươi chín phẩy tám ki-lô-mét mỗi giây.",
+   "text": "= *khoảng 29,8 ki-lô-mét* mỗi giây."
+  },
+  {
+   "say": "Mỗi giây Trái Đất đi gần ba mươi ki-lô-mét, mà ta không hề cảm thấy.",
+   "text": "Mỗi giây đi *gần 30 ki-lô-mét*, mà ta *không hề cảm thấy*."
+  },
+  {
+   "say": "Bước bốn: khối lượng Mặt Trời bằng tốc độ nhân tốc độ nhân khoảng cách rồi chia cho G.",
+   "text": "Khối lượng = *tốc độ × tốc độ × khoảng cách ÷ G*."
+  },
+  {
+   "say": "Đổi ra mét, tốc độ là hai mươi chín nghìn tám trăm mét mỗi giây.",
+   "text": "Đổi ra mét: *29 800 mét* mỗi giây."
+  },
+  {
+   "say": "Nhân tốc độ với chính nó, ta được khoảng tám trăm tám mươi tám triệu.",
+   "text": "*29 800 × 29 800* ≈ *888 triệu*."
+  },
+  {
+   "say": "Nhân với khoảng cách một trăm năm mươi tỉ mét, ra khoảng một trăm ba mươi ba tỉ tỉ.",
+   "text": "*888 triệu × 150 tỉ* ≈ *133 tỉ tỉ*."
+  },
+  {
+   "say": "Chia cho G, ta được khoảng hai nghìn tỉ tỉ tỉ ki-lô-gam.",
+   "text": "Chia cho G ≈ *2 × 10³⁰ ki-lô-gam*."
+  },
+  {
+   "say": "Đó là khoảng hai tỉ tỉ tỉ tấn.",
+   "text": "Tức *khoảng 2 tỉ tỉ tỉ tấn*."
+  },
+  {
+   "say": "Số ấy quá lớn, nên ta so với Trái Đất: Mặt Trời nặng gấp khoảng ba trăm ba mươi ba nghìn lần.",
+   "text": "So với Trái Đất: nặng gấp *khoảng 333 nghìn lần*."
+  },
+  {
+   "say": "Nếu Trái Đất chạy nhanh gấp đôi mà vẫn ở chỗ cũ, Mặt Trời phải nặng gấp bốn lần.",
+   "text": "Chạy *nhanh gấp đôi*, ở chỗ cũ: Mặt Trời phải *nặng gấp 4*."
+  },
+  {
+   "say": "Cùng cách ấy, ta cân được bất cứ vật nào có vật khác chạy quanh nó.",
+   "text": "Cùng cách ấy, cân được *bất cứ vật nào* có *vật khác chạy quanh*."
+  },
+  {
+   "say": "Vậy Mặt Trời nặng khoảng hai tỉ tỉ tỉ tấn, ta biết nhờ Trái Đất chạy gần ba mươi ki-lô-mét mỗi giây.",
+   "text": "Mặt Trời nặng *khoảng 2 tỉ tỉ tỉ tấn*, nhờ Trái Đất chạy *gần 30 ki-lô-mét* mỗi giây."
+  }
+ ]
+}

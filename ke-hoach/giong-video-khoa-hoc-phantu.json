@@ -1,0 +1,140 @@
+{
+ "style": "Native Vietnamese narrator (neutral Northern accent) for a short science explainer video on social media. Curious, bright and friendly, like a smart friend explaining a surprising discovery: clear diction, natural Vietnamese tones, medium-fast lively pace. Start with an intrigued, rising question; then calm and confident; say the big numbers slowly and clearly, each word of the number distinct; end the last sentence with a small satisfied smile. Never robotic, never news-anchor flat. Leave a short beat between paragraphs. This is one sentence from a continuous narration: keep exactly the same voice, pace and energy throughout the whole video.",
+ "sentences": [
+  {
+   "n": 1,
+   "text": "Phân tử nhỏ đến mức kính hiển vi thường cũng không thấy, vậy làm sao đo được nó?",
+   "say": "Phân tử nhỏ đến mức kính hiển vi thường cũng không thấy, vậy làm sao đo được nó?"
+  },
+  {
+   "n": 2,
+   "text": "Nhưng hóa ra, chỉ cần một muỗng dầu ăn và một cái ao.",
+   "say": "Nhưng hóa ra, chỉ cần một muỗng dầu ăn và một cái ao."
+  },
+  {
+   "n": 3,
+   "text": "Đó là cách người ta ước lượng độ dày của một phân tử dầu.",
+   "say": "Đó là cách người ta ước lượng độ dày của một phân tử dầu."
+  },
+  {
+   "n": 4,
+   "text": "Chuyện bắt đầu ở một cái ao ngoài trời, bên nước Anh.",
+   "say": "Chuyện bắt đầu ở một cái ao ngoài trời, bên nước Anh."
+  },
+  {
+   "n": 5,
+   "text": "Trong một lá thư năm một nghìn bảy trăm bảy mươi ba, nhà khoa học Phrăng-lin kể lại cái ao ấy.",
+   "say": "Trong một lá thư năm một nghìn bảy trăm bảy mươi ba, nhà khoa học Phrăng-lin kể lại cái ao ấy."
+  },
+  {
+   "n": 6,
+   "text": "Gió thổi làm mặt ao nổi sóng, và ông đổ xuống đó một muỗng dầu, không hơn.",
+   "say": "Gió thổi làm mặt ao nổi sóng, và ông đổ xuống đó một muỗng dầu, không hơn."
+  },
+  {
+   "n": 7,
+   "text": "Dầu trải ra, và cả một góc ao lặng đi, phẳng như mặt gương.",
+   "say": "Dầu trải ra, và cả một góc ao lặng đi, phẳng như mặt gương."
+  },
+  {
+   "n": 8,
+   "text": "Ông ước góc ao ấy rộng chừng nửa mẫu Anh, khoảng hai nghìn mét vuông.",
+   "say": "Ông ước góc ao ấy rộng chừng nửa mẫu Anh, khoảng hai nghìn mét vuông."
+  },
+  {
+   "n": 9,
+   "text": "Hai nghìn mét vuông bằng khoảng năm sân bóng rổ.",
+   "say": "Hai nghìn mét vuông bằng khoảng năm sân bóng rổ."
+  },
+  {
+   "n": 10,
+   "text": "Một muỗng dầu mà trải rộng chừng ấy, vậy lớp dầu phải mỏng đến mức nào?",
+   "say": "Một muỗng dầu mà trải rộng chừng ấy, vậy lớp dầu phải mỏng đến mức nào?"
+  },
+  {
+   "n": 11,
+   "text": "Như phết bơ lên bánh mì: cùng một ít bơ, trải càng rộng thì lớp bơ càng mỏng.",
+   "say": "Như phết bơ lên bánh mì: cùng một ít bơ, trải càng rộng thì lớp bơ càng mỏng."
+  },
+  {
+   "n": 12,
+   "text": "Phrăng-lin không tính độ dày ấy. Hơn một trăm năm sau, nhà vật lý Rây-lây mới tính.",
+   "say": "Phrăng-lin không tính độ dày ấy. Hơn một trăm năm sau, nhà vật lý Rây-lây mới tính."
+  },
+  {
+   "n": 13,
+   "text": "Ông đoán rằng dầu trải ra đến khi chỉ còn một lớp phân tử nằm cạnh nhau.",
+   "say": "Ông đoán rằng dầu trải ra đến khi chỉ còn một lớp phân tử nằm cạnh nhau."
+  },
+  {
+   "n": 14,
+   "text": "Nếu đúng, độ dày của lớp dầu cũng chính là độ dày của một phân tử.",
+   "say": "Nếu đúng, độ dày của lớp dầu cũng chính là độ dày của một phân tử."
+  },
+  {
+   "n": 15,
+   "text": "Cách tính rất đơn giản: thể tích bằng diện tích nhân độ dày, nên độ dày bằng thể tích chia diện tích.",
+   "say": "Cách tính rất đơn giản: thể tích bằng diện tích nhân độ dày, nên độ dày bằng thể tích chia diện tích."
+  },
+  {
+   "n": 16,
+   "text": "Một muỗng cà phê chứa khoảng năm xăng-ti-mét khối dầu.",
+   "say": "Một muỗng cà phê chứa khoảng năm xăng-ti-mét khối dầu."
+  },
+  {
+   "n": 17,
+   "text": "Năm xăng-ti-mét khối bằng năm nghìn mi-li-mét khối.",
+   "say": "Năm xăng-ti-mét khối bằng năm nghìn mi-li-mét khối."
+  },
+  {
+   "n": 18,
+   "text": "Hai nghìn mét vuông bằng hai tỉ mi-li-mét vuông.",
+   "say": "Hai nghìn mét vuông bằng hai tỉ mi-li-mét vuông."
+  },
+  {
+   "n": 19,
+   "text": "Độ dày bằng năm nghìn chia hai tỉ.",
+   "say": "Độ dày bằng năm nghìn chia hai tỉ."
+  },
+  {
+   "n": 20,
+   "text": "Ra hai phẩy năm phần triệu mi-li-mét.",
+   "say": "Ra hai phẩy năm phần triệu mi-li-mét."
+  },
+  {
+   "n": 21,
+   "text": "Một tờ giấy dày khoảng một phần mười mi-li-mét, tức là dày gấp bốn mươi nghìn lần lớp dầu này.",
+   "say": "Một tờ giấy dày khoảng một phần mười mi-li-mét, tức là dày gấp bốn mươi nghìn lần lớp dầu này."
+  },
+  {
+   "n": 22,
+   "text": "Một phần triệu mi-li-mét được gọi là một na-nô-mét, nên lớp dầu dày khoảng hai phẩy năm na-nô-mét.",
+   "say": "Một phần triệu mi-li-mét được gọi là một na-nô-mét, nên lớp dầu dày khoảng hai phẩy năm na-nô-mét."
+  },
+  {
+   "n": 23,
+   "text": "Rây-lây tính ra lớp dầu dày cỡ hai na-nô-mét, cùng cỡ với một phân tử dầu.",
+   "say": "Rây-lây tính ra lớp dầu dày cỡ hai na-nô-mét, cùng cỡ với một phân tử dầu."
+  },
+  {
+   "n": 24,
+   "text": "Muỗng và diện tích ao chỉ là ước chừng, nên kết quả chỉ đúng về cỡ độ lớn.",
+   "say": "Muỗng và diện tích ao chỉ là ước chừng, nên kết quả chỉ đúng về cỡ độ lớn."
+  },
+  {
+   "n": 25,
+   "text": "Nhưng chừng đó cũng đủ cho thấy phân tử nhỏ đến mức nào, mà vẫn đo được.",
+   "say": "Nhưng chừng đó cũng đủ cho thấy phân tử nhỏ đến mức nào, mà vẫn đo được."
+  },
+  {
+   "n": 26,
+   "text": "Hơn hai mươi năm sau, Lăng-muya trải màng mỏng theo cách ấy để ước diện tích mỗi phân tử chiếm.",
+   "say": "Hơn hai mươi năm sau, Lăng-muya trải màng mỏng theo cách ấy để ước diện tích mỗi phân tử chiếm."
+  },
+  {
+   "n": 27,
+   "text": "Vậy muốn đo thứ nhỏ nhất, hãy trải nó ra thật mỏng, rồi lấy thể tích chia cho diện tích.",
+   "say": "Vậy muốn đo thứ nhỏ nhất, hãy trải nó ra thật mỏng, rồi lấy thể tích chia cho diện tích."
+  }
+ ]
+}

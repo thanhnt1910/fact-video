@@ -1,27 +1,36 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-✅ h1        0.81 | Cuối tháng 1, người ta xếp hàng tư sáng sớm để mua vàng, vàng miếng lên 191 triệu một lượng, cao nhất lịch sử.
-⚠️ h2        0.73 | Giờ tiệm vàng chỉ mua lại 135 triệu, ai mua đúng đỉnh đáng lỗ hơn 55 triệu mỗi lượng.
-✅ h3        0.94 | Lạ hơn, vàng Việt Nam vẫn đắt hơn thế giới khoảng 16 triệu một lượng. Tiền đó từ đâu ra và có nên bắt đáy.
-✅ d1        0.96 | Trong một năm, tính tới cuối tháng 1, vàng thế giới gần như tăng gấp đôi. Ai chưa có vàng, đều sợ mình bị bỏ lại.
-⚠️ d2        0.61 | Ngày 29 tháng 1, vàng lập đỉnh 5.594 đô một ounce, hôm sau rơi gần 10% trong một phiên.
-⚠️ d3        0.75 | Đó là cú giảm trong một ngày mạnh nhất kể từ năm 1983.
-✅ d4        0.84 | Vậy mà ở Việt Nam, người ta còn xếp hàng dài hơn. Ngày viết thân tài, có người xếp hàng từ 2-3 giờ sáng.
-⚠️ d5        0.59 | Giao vàng thế giới chỉ còn quanh 3.900 đô, mất khoảng 30% so với đình.
-✅ l1        1.00 | vàng an toàn, nhưng an toàn không có nghĩa là không sập.
-⚠️ l2        0.61 | Năm 1980, vang lập đỉnh 850 đô rồi rơi suốt hai thập kỷ, người một đỉnh chờ hơn 20 năm.
-⚠️ l3        0.57 | Năm 2011, vàng miếng lên 4.9 triệu, rồi nằm quanh 35 triệu suốt gần 9 năm.
-✅ l4        1.00 | Lần nào trước khi sập, vàng cũng tăng quá nóng và ai cũng tin nó còn tăng mãi.
-✅ l5        1.00 | Khác biệt lần này là các ngân hàng Trung ương vẫn mua vàng rất mạnh nên không ai dám chắc lịch sử sẽ lặp lại.
-✅ c1        0.84 | Nhưng với người Việt còn một rủi gió riêng, đó là khoảng chênh 16 triệu.
-✅ c2        0.84 | Từ năm 2012, nhà nước độc quyền sản xuất vàng miếng nên nguồn cung bị hạn chế suốt nhiều năm.
-✅ c3        0.96 | Độc quyền đã bỏ từ tháng 10 năm ngoái, nhưng nhập khẩu vẫn cần hạn mức và giấy phép nên hàng chưa về nhiều.
-⚠️ c4        0.75 | Năm này, khoảng tranh có lúc gần 30 triệu, có lúc chỉ hơn 1 triệu. Người mua đáng cực cả vào một khoảng tranh lên xuống như tàu lượn.
-✅ c5        0.83 | khoảng tranh đó gồm nguồn cung hạn chế, tranh mua bán 3-4 triệu, chi phí thuế và vận chuyển, cộng với tâm lý đám đông.
-✅ p1        0.94 | Phe Thứ Nhân nói, tiền giấy năm nào cũng mất giá, còn vàng, sập rồi cũng lên lại.
-✅ p2        0.90 | Phe thứ hai nói mùa lúc này là chấp nhận lỗ ngay từ đầu vì phải trả thêm 16 triệu so với thế giới.
-✅ k1        1.00 | Câu hỏi đúng hơn là nếu đây chưa phải đáy, bạn chờ được bao lâu?
-✅ k2        1.00 | Người cẩn thận chỉ dùng một phần nhỏ tài sản, không vay để mua và chia nhỏ ra mua nhiều lần.
-✅ k3        0.95 | Hãy coi khoảng chênh như đèn giao thông, chênh thấp thì dễ thở, chênh cao thì đứng lại, đứng chen.
-✅ k4        1.00 | Đừng dùng tiền học, tiền chữa bệnh hay tiền cưới, mua ở nơi được cấp phép và lấy hóa đơn.
-✅ k5        0.88 | Vàng vẫn có thể là của để danh tốt, nhưng không hiểu khoảng tranh và chu kỳ, bạn rất dễ thành người mua đình tiếp theo.
-✅ k6        0.88 | Đây không phải khuyến nghị đầu tư. Bạn đăng ở phía nào để lại bình luận nhé!
+✅ i_intro   0.95 | ICT Inner Circle Trader, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đô vàng.
+✅ card1_1   1.00 | Phần một, định nghĩa.
+✅ i_p1_1    1.00 | ICT là viết tắt của Inner Circle Trader, phương pháp đọc giá do Michael Huddleston xây dựng và phổ biến.
+✅ i_p1_2    0.95 | ICT không dựa vào chỉ báo chễ, nó đọc thanh khoản và các vùng mất cân bằng giá ngay trên biểu đồ.
+✅ i_p1_3    1.00 | Cấu trúc thị trường cho biết hướng, còn thanh khoản là mục tiêu của giá.
+✅ i_p1_4    0.81 | Cú đẩy mạnh xác nhận ý đổ, còn FVJ và Order Block là vung vào lệnh.
+✅ card2n    0.82 | Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng
+✅ i_t1      0.95 | Thứ nhất là Thanh Khoảng, đó là nơi lệnh dừng lỗ tụ lại, phía trên đỉnh cũ và phía dưới đáy cũ.
+⚠️ i_liq     0.62 | Ngày 30 tháng 10, vàng lập đáy 3.871, bên dưới đáy này là thanh khoản biến bán.
+✅ i_t2      1.00 | Thứ hai là quét thanh khoản, giá thủng nhanh đỉnh hoặc đáy cũ để kích hoạt lệnh dừng lỗ, rồi quay đầu ngay.
+⚠️ i_sw      0.68 | Ngày 2 tháng 11, giá thủng đáy cũ xuống 3.866 quét sạch thanh khoản rồi bật lên ngay.
+✅ i_t3      0.96 | Thứ 3 là Order Block, cây nến ngược chiều cuối cùng trước một cú đẩy mạnh. Đây là vùng giá có lệnh lớn.
+✅ i_ob      0.87 | Ngày 3 tháng 11, cây nến ngày giảm cuối cùng trước cú bứt phá chính là order block tăng.
+✅ i_t4      0.95 | Thứ tư là Market Structure Shift, khi ra đóng cửa vượt đỉnh hoặc đáy quan trọng gần nhất, cấu trúc đổi chiều.
+⚠️ i_mss     0.60 | Ngày 4 tháng 11, nền H4 đóng cửa trên 3970 vượt đỉnh cũ, cấu trúc chuyển sang tăng.
+✅ i_t5      0.87 | Thứ 5 là Fair Value Cap, khoảng trống giữa 3 cây nến khi giá chạy quá nhanh, giá hay quay lại vùng này.
+⚠️ i_fvg1    0.43 | Cố đẩy ngày 4 và 5 tháng 11 để lại khoảng trống từ 3.969 đến 4.057.
+⚠️ i_fvg2    0.44 | Ngày 6 tháng 11, giá hôi vào vùng này chạm 4.028 rồi bật lên 4.138.
+⚠️ i_entry   0.73 | Ví dụ, vào lệnh khi giá phản ứng trong vùng FVG quanh 4.063.
+⚠️ b_r2b     0.58 | đặt cắt lỗ dưới đấy gần nhất, khoảng 4.020.
+⚠️ i_rev1    0.59 | Chiều ngược lại, ngày 10 tháng 11, giá vượt định cũ lên 4.149, quét thành khoản bên mua.
+⚠️ i_rev2    0.48 | Sau đó nên H4 đóng dưới đáy 4028, cầu chúc chuyển sang giảm.
+⚠️ i_rev2b   0.40 | Ngày 12, Vàng rơi về 3.853
+⚠️ i_rev3    0.76 | Cú rơi để lại một phe value gấp giảm. Ngày 13, giá hủy lên chặm mép vùng này rồi bị đẩy xuống.
+⚠️ now1      0.55 | Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô.
+✅ i_now1b   1.00 | Giá đang nằm dưới vùng FVG giảm nên cấu trúc vẫn nghiêng về giảm.
+⚠️ i_now2    0.67 | Bên dưới là các đáy cũ quanh 3853 đến 3866 vùng thanh khoản mà ICT Trader theo dõi.
+✅ p3c_4     1.00 | Hãy chờ tín hiệu xác nhận, đừng đoán đáy!
+✅ i_c1      1.00 | Năm nguyên tắc khi dùng ICT. Một, xác định hướng từ cấu trúc khung lớn trước.
+✅ i_c2      0.91 | 2. Chờ giá quét thanh khoản rồi mới tìm điểm vào
+⚠️ i_c3      0.77 | 3. Cân Market Structure Shift và một cú đầy mạnh để xác nhận
+✅ i_c4      0.85 | 4. Vào lệnh ở vùng FVJ hoặc Order Block, không đuổi theo giá.
+✅ check_5   0.92 | 5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss
+✅ i_c6      1.00 | ICT là cách đọc giá, không phải công thức chắc thắng. Hãy kiểm tra lại trên dữ liệu quá khứ trước khi dùng tiền thật.
+✅ b_outro   0.86 | Tập sau là EMA Cross, giao cắt đường trung bình, theo dõi Treader Chinix để không bỏ lỡ.

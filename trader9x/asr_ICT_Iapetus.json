@@ -1,0 +1,212 @@
+[
+ {
+  "id": "i_intro",
+  "khop": 0.95,
+  "kich_ban": "ICT, Inner Circle Trader. Định nghĩa, thuật ngữ và cách ứng dụng, với ví dụ thật trên biểu đồ vàng.",
+  "nghe": "ICT Inner Circle Trader, định nghĩa, thuật ngữ và cách ứng dụng với ví dụ thật trên biểu đô vàng."
+ },
+ {
+  "id": "card1_1",
+  "khop": 1.0,
+  "kich_ban": "Phần một. Định nghĩa.",
+  "nghe": "Phần một, định nghĩa."
+ },
+ {
+  "id": "i_p1_1",
+  "khop": 1.0,
+  "kich_ban": "ICT là viết tắt của Inner Circle Trader, phương pháp đọc giá do Michael Huddleston xây dựng và phổ biến.",
+  "nghe": "ICT là viết tắt của Inner Circle Trader, phương pháp đọc giá do Michael Huddleston xây dựng và phổ biến."
+ },
+ {
+  "id": "i_p1_2",
+  "khop": 0.955,
+  "kich_ban": "ICT không dựa vào chỉ báo trễ. Nó đọc thanh khoản và các vùng mất cân bằng giá ngay trên biểu đồ.",
+  "nghe": "ICT không dựa vào chỉ báo chễ, nó đọc thanh khoản và các vùng mất cân bằng giá ngay trên biểu đồ."
+ },
+ {
+  "id": "i_p1_3",
+  "khop": 1.0,
+  "kich_ban": "Cấu trúc thị trường cho biết hướng, còn thanh khoản là mục tiêu của giá.",
+  "nghe": "Cấu trúc thị trường cho biết hướng, còn thanh khoản là mục tiêu của giá."
+ },
+ {
+  "id": "i_p1_4",
+  "khop": 0.812,
+  "kich_ban": "Cú đẩy mạnh xác nhận ý đồ, còn FVG và Order Block là vùng vào lệnh.",
+  "nghe": "Cú đẩy mạnh xác nhận ý đổ, còn FVJ và Order Block là vung vào lệnh."
+ },
+ {
+  "id": "card2n",
+  "khop": 0.818,
+  "kich_ban": "Phần hai. Thuật ngữ và ứng dụng trên biểu đồ vàng.",
+  "nghe": "Phần 2 Thuật ngữ và ứng dụng trên biểu đô vàng"
+ },
+ {
+  "id": "i_t1",
+  "khop": 0.955,
+  "kich_ban": "Thứ nhất là thanh khoản. Đó là nơi lệnh dừng lỗ tụ lại, phía trên đỉnh cũ và phía dưới đáy cũ.",
+  "nghe": "Thứ nhất là Thanh Khoảng, đó là nơi lệnh dừng lỗ tụ lại, phía trên đỉnh cũ và phía dưới đáy cũ."
+ },
+ {
+  "id": "i_liq",
+  "khop": 0.619,
+  "kich_ban": "Ngày ba mươi tháng mười, vàng lập đáy ba nghìn tám trăm bảy mươi mốt. Bên dưới đáy này là thanh khoản bên bán.",
+  "nghe": "Ngày 30 tháng 10, vàng lập đáy 3.871, bên dưới đáy này là thanh khoản biến bán."
+ },
+ {
+  "id": "i_t2",
+  "khop": 1.0,
+  "kich_ban": "Thứ hai là quét thanh khoản. Giá thủng nhanh đỉnh hoặc đáy cũ để kích hoạt lệnh dừng lỗ, rồi quay đầu ngay.",
+  "nghe": "Thứ hai là quét thanh khoản, giá thủng nhanh đỉnh hoặc đáy cũ để kích hoạt lệnh dừng lỗ, rồi quay đầu ngay."
+ },
+ {
+  "id": "i_sw",
+  "khop": 0.682,
+  "kich_ban": "Ngày hai tháng mười một, giá thủng đáy cũ xuống ba nghìn tám trăm sáu mươi sáu, quét sạch thanh khoản, rồi bật lên ngay.",
+  "nghe": "Ngày 2 tháng 11, giá thủng đáy cũ xuống 3.866 quét sạch thanh khoản rồi bật lên ngay."
+ },
+ {
+  "id": "i_t3",
+  "khop": 0.957,
+  "kich_ban": "Thứ ba là Order Block, cây nến ngược chiều cuối cùng trước một cú đẩy mạnh. Đây là vùng giá có lệnh lớn.",
+  "nghe": "Thứ 3 là Order Block, cây nến ngược chiều cuối cùng trước một cú đẩy mạnh. Đây là vùng giá có lệnh lớn."
+ },
+ {
+  "id": "i_ob",
+  "khop": 0.872,
+  "kich_ban": "Ngày ba tháng mười một, cây nến ngày giảm cuối cùng trước cú bứt phá chính là Order Block tăng.",
+  "nghe": "Ngày 3 tháng 11, cây nến ngày giảm cuối cùng trước cú bứt phá chính là order block tăng."
+ },
+ {
+  "id": "i_t4",
+  "khop": 0.955,
+  "kich_ban": "Thứ tư là Market Structure Shift. Khi giá đóng cửa vượt đỉnh hoặc đáy quan trọng gần nhất, cấu trúc đổi chiều.",
+  "nghe": "Thứ tư là Market Structure Shift, khi ra đóng cửa vượt đỉnh hoặc đáy quan trọng gần nhất, cấu trúc đổi chiều."
+ },
+ {
+  "id": "i_mss",
+  "khop": 0.605,
+  "kich_ban": "Ngày bốn tháng mười một, nến H bốn đóng cửa trên ba nghìn chín trăm bảy mươi, vượt đỉnh cũ. Cấu trúc chuyển sang tăng.",
+  "nghe": "Ngày 4 tháng 11, nền H4 đóng cửa trên 3970 vượt đỉnh cũ, cấu trúc chuyển sang tăng."
+ },
+ {
+  "id": "i_t5",
+  "khop": 0.87,
+  "kich_ban": "Thứ năm là Fair Value Gap, khoảng trống giữa ba cây nến khi giá chạy quá nhanh. Giá hay quay lại vùng này.",
+  "nghe": "Thứ 5 là Fair Value Cap, khoảng trống giữa 3 cây nến khi giá chạy quá nhanh, giá hay quay lại vùng này."
+ },
+ {
+  "id": "i_fvg1",
+  "khop": 0.426,
+  "kich_ban": "Cú đẩy ngày bốn và năm tháng mười một để lại khoảng trống từ ba nghìn chín trăm sáu mươi chín đến bốn nghìn không trăm năm mươi bảy.",
+  "nghe": "Cố đẩy ngày 4 và 5 tháng 11 để lại khoảng trống từ 3.969 đến 4.057."
+ },
+ {
+  "id": "i_fvg2",
+  "khop": 0.444,
+  "kich_ban": "Ngày sáu tháng mười một, giá hồi vào vùng này, chạm bốn nghìn không trăm hai mươi tám, rồi bật lên bốn nghìn một trăm ba mươi tám.",
+  "nghe": "Ngày 6 tháng 11, giá hôi vào vùng này chạm 4.028 rồi bật lên 4.138."
+ },
+ {
+  "id": "i_entry",
+  "khop": 0.727,
+  "kich_ban": "Ví dụ, vào lệnh khi giá phản ứng trong vùng FVG, quanh bốn nghìn không trăm sáu mươi ba.",
+  "nghe": "Ví dụ, vào lệnh khi giá phản ứng trong vùng FVG quanh 4.063."
+ },
+ {
+  "id": "b_r2b",
+  "khop": 0.583,
+  "kich_ban": "Đặt cắt lỗ dưới đáy gần nhất, khoảng bốn nghìn không trăm hai mươi.",
+  "nghe": "đặt cắt lỗ dưới đấy gần nhất, khoảng 4.020."
+ },
+ {
+  "id": "i_rev1",
+  "khop": 0.591,
+  "kich_ban": "Chiều ngược lại, ngày mười tháng mười một, giá vượt đỉnh cũ lên bốn nghìn một trăm bốn mươi chín, quét thanh khoản bên mua.",
+  "nghe": "Chiều ngược lại, ngày 10 tháng 11, giá vượt định cũ lên 4.149, quét thành khoản bên mua."
+ },
+ {
+  "id": "i_rev2",
+  "khop": 0.485,
+  "kich_ban": "Sau đó nến H bốn đóng dưới đáy bốn nghìn không trăm hai mươi tám, cấu trúc chuyển sang giảm.",
+  "nghe": "Sau đó nên H4 đóng dưới đáy 4028, cầu chúc chuyển sang giảm."
+ },
+ {
+  "id": "i_rev2b",
+  "khop": 0.4,
+  "kich_ban": "Ngày mười hai, vàng rơi về ba nghìn tám trăm năm mươi ba.",
+  "nghe": "Ngày 12, Vàng rơi về 3.853"
+ },
+ {
+  "id": "i_rev3",
+  "khop": 0.756,
+  "kich_ban": "Cú rơi để lại một Fair Value Gap giảm. Ngày mười ba, giá hồi lên chạm mép vùng này rồi bị đẩy xuống.",
+  "nghe": "Cú rơi để lại một phe value gấp giảm. Ngày 13, giá hủy lên chặm mép vùng này rồi bị đẩy xuống."
+ },
+ {
+  "id": "now1",
+  "khop": 0.545,
+  "kich_ban": "Hiện tại, phiên ngày mười ba tháng mười một đóng cửa quanh ba nghìn tám trăm bảy mươi sáu đô.",
+  "nghe": "Hiện tại phiên ngày 13 tháng 11 đóng cửa quanh 3.876 đô."
+ },
+ {
+  "id": "i_now1b",
+  "khop": 1.0,
+  "kich_ban": "Giá đang nằm dưới vùng FVG giảm, nên cấu trúc vẫn nghiêng về giảm.",
+  "nghe": "Giá đang nằm dưới vùng FVG giảm nên cấu trúc vẫn nghiêng về giảm."
+ },
+ {
+  "id": "i_now2",
+  "khop": 0.667,
+  "kich_ban": "Bên dưới là các đáy cũ quanh ba nghìn tám trăm năm mươi ba đến ba nghìn tám trăm sáu mươi sáu, vùng thanh khoản mà ICT trader theo dõi.",
+  "nghe": "Bên dưới là các đáy cũ quanh 3853 đến 3866 vùng thanh khoản mà ICT Trader theo dõi."
+ },
+ {
+  "id": "p3c_4",
+  "khop": 1.0,
+  "kich_ban": "Hãy chờ tín hiệu xác nhận, đừng đoán đáy.",
+  "nghe": "Hãy chờ tín hiệu xác nhận, đừng đoán đáy!"
+ },
+ {
+  "id": "i_c1",
+  "khop": 1.0,
+  "kich_ban": "Năm nguyên tắc khi dùng ICT. Một, xác định hướng từ cấu trúc khung lớn trước.",
+  "nghe": "Năm nguyên tắc khi dùng ICT. Một, xác định hướng từ cấu trúc khung lớn trước."
+ },
+ {
+  "id": "i_c2",
+  "khop": 0.909,
+  "kich_ban": "Hai, chờ giá quét thanh khoản rồi mới tìm điểm vào.",
+  "nghe": "2. Chờ giá quét thanh khoản rồi mới tìm điểm vào"
+ },
+ {
+  "id": "i_c3",
+  "khop": 0.769,
+  "kich_ban": "Ba, cần Market Structure Shift và một cú đẩy mạnh để xác nhận.",
+  "nghe": "3. Cân Market Structure Shift và một cú đầy mạnh để xác nhận"
+ },
+ {
+  "id": "i_c4",
+  "khop": 0.846,
+  "kich_ban": "Bốn, vào lệnh ở vùng FVG hoặc Order Block, không đuổi theo giá.",
+  "nghe": "4. Vào lệnh ở vùng FVJ hoặc Order Block, không đuổi theo giá."
+ },
+ {
+  "id": "check_5",
+  "khop": 0.917,
+  "kich_ban": "Năm, vàng biến động rất mạnh, vì vậy luôn đặt stop loss.",
+  "nghe": "5. Vàng biến động rất mạnh, vì vậy luôn đặt Stop Loss"
+ },
+ {
+  "id": "i_c6",
+  "khop": 1.0,
+  "kich_ban": "ICT là cách đọc giá, không phải công thức chắc thắng. Hãy kiểm tra lại trên dữ liệu quá khứ trước khi dùng tiền thật.",
+  "nghe": "ICT là cách đọc giá, không phải công thức chắc thắng. Hãy kiểm tra lại trên dữ liệu quá khứ trước khi dùng tiền thật."
+ },
+ {
+  "id": "b_outro",
+  "khop": 0.865,
+  "kich_ban": "Tập sau là EMA cross, giao cắt đường trung bình. Theo dõi Trader chín X để không bỏ lỡ.",
+  "nghe": "Tập sau là EMA Cross, giao cắt đường trung bình, theo dõi Treader Chinix để không bỏ lỡ."
+ }
+]

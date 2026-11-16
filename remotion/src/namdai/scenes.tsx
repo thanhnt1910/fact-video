@@ -156,10 +156,10 @@ const P9: Panel = ({f}) => (
     <Hero2 f={f} />
   </g>
 );
-// --- Cảnh 4: Hip-pa-khốt ---
+// --- Cảnh 4: Hipparchus ---
 const P10: Panel = ({f}) => (
   <g>
-    <Head a="Hip-pa-khốt, Hy Lạp" b="thế kỷ thứ 2 trước Công nguyên" />
+    <Head a="Hipparchus, Hy Lạp" b="thế kỷ thứ 2 trước Công nguyên" />
     <SunIcon x={700} y={640} r={50} o={sp(f, 4, 18)} />
     <path d="M 120 1000 L 300 880 L 460 960 L 640 850 L 960 1000 Z" fill="#3b3158" stroke={C.cream} strokeWidth={5} opacity={sp(f, 2, 14)} />
     <Tag x={540} y={1130} color={C.cream} size={46} o={sp(f, 14, 28)}>nhà thiên văn Hy Lạp</Tag>
@@ -214,10 +214,10 @@ const P16: Panel = ({f}) => (
     <Big x={540} y={1130} size={110} color={C.amber} o={sp(f, 16, 30)}>≈ 6 phút</Big>
   </g>
 );
-// --- Cảnh 5: lịch Giu-li-an ---
+// --- Cảnh 5: lịch Julian ---
 const P17: Panel = ({f}) => (
   <g>
-    <Head a="Lịch Giu-li-an, từ năm 45 TCN" b="cứ 4 năm thêm 1 ngày" />
+    <Head a="Lịch Julian, từ năm 45 TCN" b="cứ 4 năm thêm 1 ngày" />
     {[365, 365, 365, 366].map((d, i) => (
       <g key={i} opacity={sp(f, 2 + i * 7, 14 + i * 7)}>
         <rect x={100 + i * 220} y={700} width={190} height={190} rx={18} fill={i === 3 ? SUN : '#efe3c8'} fillOpacity={i === 3 ? 0.9 : 1} stroke={C.cream} strokeWidth={5} />
@@ -261,7 +261,7 @@ const P21: Panel = ({f}) => (
 );
 const P22: Panel = ({f}) => (
   <g>
-    <Head a="Năm 1582" b="Gờ-rê-goa 13 bỏ 10 ngày" />
+    <Head a="Năm 1582" b="Gregory 13 bỏ 10 ngày" />
     <Big x={540} y={820} size={190} color={RED} o={sp(f, 4, 20)}>− 10 ngày</Big>
     <Hero2 f={f} />
   </g>

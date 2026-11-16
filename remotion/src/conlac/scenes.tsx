@@ -80,12 +80,12 @@ const P3: Panel = ({f}) => (
     <Hero2 f={f} />
   </g>
 );
-// --- Cảnh 2: Păng-tê-ông ---
+// --- Cảnh 2: Panthéon ---
 const P4: Panel = ({f}) => (
   <g>
-    <Head a="Người làm thí nghiệm" b="là Phu-cô" />
+    <Head a="Người làm thí nghiệm" b="là Foucault" />
     <HatHero x={540} y={1050} s={3.2} walk={f * 0.12} cheer={sp(f, 10, 26)} hat="scholar" />
-    <Tag x={540} y={1180} color={C.cream} size={52} o={sp(f, 12, 26)}>Phu-cô</Tag>
+    <Tag x={540} y={1180} color={C.cream} size={52} o={sp(f, 12, 26)}>Foucault</Tag>
   </g>
 );
 const P5: Panel = ({f}) => (
@@ -202,17 +202,17 @@ const P15: Panel = ({f}) => (
     <Hero2 f={f} cheer={sp(f, 14, 30)} />
   </g>
 );
-// --- Cảnh 5: Pa-ri ---
+// --- Cảnh 5: Paris ---
 const P16: Panel = ({f}) => {
   const lat = (48.8 * Math.PI) / 180;
   return (
     <g>
-      <Head a="Đền ấy ở Pa-ri" b="không phải ở Bắc Cực" />
+      <Head a="Đền ấy ở Paris" b="không phải ở Bắc Cực" />
       <Globe cx={CX} cy={800} r={270} />
       <circle cx={CX} cy={800 - 270} r={14} fill={C.cream} />
       <Tag x={CX + 140} y={540} color={C.cream} size={38} anchor="start">Bắc Cực</Tag>
       <circle cx={CX + 270 * Math.cos(lat)} cy={800 - 270 * Math.sin(lat)} r={16} fill={RED} opacity={sp(f, 8, 22)} />
-      <Tag x={CX + 390} y={640} color={RED} size={42} o={sp(f, 10, 24)}>Pa-ri</Tag>
+      <Tag x={CX + 390} y={640} color={RED} size={42} o={sp(f, 10, 24)}>Paris</Tag>
     </g>
   );
 };
@@ -236,7 +236,7 @@ const P18: Panel = ({f}) => (
 );
 const P19: Panel = ({f}) => (
   <g>
-    <Head a="Pa-ri ở khoảng 48,8 độ Bắc" b="sin khoảng 0,75" />
+    <Head a="Paris ở khoảng 48,8 độ Bắc" b="sin khoảng 0,75" />
     <line x1={140} y1={1000} x2={940} y2={1000} stroke={C.cream} strokeWidth={5} />
     <path d={Array.from({length: 31}, (_, i) => `${i ? 'L' : 'M'} ${140 + (800 * i) / 30} ${1000 - 340 * Math.sin((i / 30) * (Math.PI / 2))}`).join(' ')} fill="none" stroke={AM} strokeWidth={8} opacity={0.6} />
     <line x1={140 + (800 * 48.8) / 90} y1={1000} x2={140 + (800 * 48.8) / 90} y2={1000 - 340 * 0.753} stroke={RED} strokeWidth={6} opacity={sp(f, 6, 20)} />
@@ -246,21 +246,21 @@ const P19: Panel = ({f}) => (
 );
 const P20: Panel = ({f}) => (
   <g>
-    <Head a="Tốc độ xoay ở Pa-ri" />
+    <Head a="Tốc độ xoay ở Paris" />
     <Calc f={f} y={780} step={170} lines={[{t: '15 × 0,75', at: 2, size: 120}, {t: '≈ 11,3 độ mỗi giờ', at: 12, size: 110, color: AM}]} />
     <Hero2 f={f} />
   </g>
 );
 const P21: Panel = ({f}) => (
   <g>
-    <Head a="Đúng như Phu-cô thấy" b="hơn 11 độ mỗi giờ" />
+    <Head a="Đúng như Foucault thấy" b="hơn 11 độ mỗi giờ" />
     <Big x={CX} y={820} size={170} color={AM} o={sp(f, 4, 18)}>11,3° / giờ</Big>
     <Hero2 f={f} cheer={sp(f, 10, 26)} />
   </g>
 );
 const P22: Panel = ({f}) => (
   <g>
-    <Head a="Một vòng ở Pa-ri" />
+    <Head a="Một vòng ở Paris" />
     <Calc f={f} y={780} step={170} lines={[{t: '360 ÷ 11,3', at: 2, size: 120}, {t: '≈ 32 giờ', at: 12, size: 130, color: AM}]} />
     <Hero2 f={f} />
   </g>

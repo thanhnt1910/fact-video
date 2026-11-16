@@ -28,7 +28,7 @@ Franklin = Phrăng-lin; Rayleigh = Rây-lây; Langmuir = Lăng-muya; nanometre =
     Phụ đề: Chuyện bắt đầu ở *một cái ao* ngoài trời, bên *nước Anh*.
 
 5. Đọc: Trong một lá thư năm một nghìn bảy trăm bảy mươi ba, nhà khoa học Phrăng-lin kể lại cái ao ấy.
-    Phụ đề: Trong thư năm *1773*, *Phrăng-lin* kể lại *cái ao ấy*.
+    Phụ đề: Trong thư năm *1773*, *Franklin* kể lại *cái ao ấy*.
 
 6. Đọc: Gió thổi làm mặt ao nổi sóng, và ông đổ xuống đó một muỗng dầu, không hơn.
     Phụ đề: Gió làm ao *nổi sóng*, ông đổ xuống *một muỗng dầu*, không hơn.
@@ -49,7 +49,7 @@ Franklin = Phrăng-lin; Rayleigh = Rây-lây; Langmuir = Lăng-muya; nanometre =
     Phụ đề: Như *phết bơ* lên bánh mì: trải *càng rộng*, lớp bơ *càng mỏng*.
 
 12. Đọc: Phrăng-lin không tính độ dày ấy. Hơn một trăm năm sau, nhà vật lý Rây-lây mới tính.
-    Phụ đề: Phrăng-lin *không tính* độ dày. *Hơn 100 năm sau*, *Rây-lây* mới tính.
+    Phụ đề: Franklin *không tính* độ dày. *Hơn 100 năm sau*, *Rayleigh* mới tính.
 
 13. Đọc: Ông đoán rằng dầu trải ra đến khi chỉ còn một lớp phân tử nằm cạnh nhau.
     Phụ đề: Đoán dầu trải đến khi chỉ còn *một lớp phân tử* nằm cạnh nhau.
@@ -82,7 +82,7 @@ Franklin = Phrăng-lin; Rayleigh = Rây-lây; Langmuir = Lăng-muya; nanometre =
     Phụ đề: *1 phần triệu mi-li-mét* = *1 na-nô-mét*, nên dày *khoảng 2,5 na-nô-mét*.
 
 23. Đọc: Rây-lây tính ra lớp dầu dày cỡ hai na-nô-mét, cùng cỡ với một phân tử dầu.
-    Phụ đề: Rây-lây tính ra dày *cỡ 2 na-nô-mét*, *cùng cỡ* một phân tử dầu.
+    Phụ đề: Rayleigh tính ra dày *cỡ 2 na-nô-mét*, *cùng cỡ* một phân tử dầu.
 
 24. Đọc: Muỗng và diện tích ao chỉ là ước chừng, nên kết quả chỉ đúng về cỡ độ lớn.
     Phụ đề: Muỗng và diện tích ao chỉ *ước chừng*, nên chỉ đúng về *cỡ độ lớn*.
@@ -91,7 +91,7 @@ Franklin = Phrăng-lin; Rayleigh = Rây-lây; Langmuir = Lăng-muya; nanometre =
     Phụ đề: Chừng đó đủ cho thấy phân tử *nhỏ đến mức nào*, mà *vẫn đo được*.
 
 26. Đọc: Hơn hai mươi năm sau, Lăng-muya trải màng mỏng theo cách ấy để ước diện tích mỗi phân tử chiếm.
-    Phụ đề: *Hơn 20 năm sau*, *Lăng-muya* trải màng mỏng để ước *diện tích mỗi phân tử*.
+    Phụ đề: *Hơn 20 năm sau*, *Langmuir* trải màng mỏng để ước *diện tích mỗi phân tử*.
 
 27. Đọc: Vậy muốn đo thứ nhỏ nhất, hãy trải nó ra thật mỏng, rồi lấy thể tích chia cho diện tích.
     Phụ đề: Muốn đo *thứ nhỏ nhất*, trải thật mỏng, rồi *thể tích ÷ diện tích*.

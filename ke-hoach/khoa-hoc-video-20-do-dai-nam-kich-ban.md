@@ -46,7 +46,7 @@ Hipparchus = Hip-pa-khốt; Julian = Giu-li-an; Gregory XIII = Gờ-rê-goa mư�
     Phụ đề: Như đo tờ giấy: đo *chồng 100 tờ* rồi chia 100, sai số *nhỏ đi 100 lần*.
 
 11. Đọc: Nhà thiên văn Hip-pa-khốt đã làm như vậy ở Hy Lạp, vào thế kỷ thứ hai trước Công nguyên.
-    Phụ đề: *Hip-pa-khốt* làm như vậy ở Hy Lạp, *thế kỷ thứ 2 trước Công nguyên*.
+    Phụ đề: *Hipparchus* làm như vậy ở Hy Lạp, *thế kỷ thứ 2 trước Công nguyên*.
 
 12. Đọc: Ông so ngày hạ chí mình quan sát với ngày hạ chí người Hy Lạp ghi từ gần ba trăm năm trước.
     Phụ đề: So hạ chí ông quan sát với hạ chí ghi từ *gần 300 năm trước*.
@@ -67,7 +67,7 @@ Hipparchus = Hip-pa-khốt; Julian = Giu-li-an; Gregory XIII = Gờ-rê-goa mư�
     Phụ đề: Nên ông chỉ lệch *khoảng 6 phút* mỗi năm, *không có máy móc*.
 
 18. Đọc: Vậy lịch nên chia năm thế nào? Lịch Giu-li-an, bắt đầu từ năm bốn mươi lăm trước Công nguyên, cứ bốn năm thêm một ngày.
-    Phụ đề: Lịch *Giu-li-an*, từ *năm 45 trước Công nguyên*: *cứ 4 năm* thêm *1 ngày*.
+    Phụ đề: Lịch *Julian*, từ *năm 45 trước Công nguyên*: *cứ 4 năm* thêm *1 ngày*.
 
 19. Đọc: Như vậy năm trung bình là ba trăm sáu mươi lăm ngày và một phần tư ngày.
     Phụ đề: Năm trung bình = *365 ngày và 1 phần 4*.
@@ -82,7 +82,7 @@ Hipparchus = Hip-pa-khốt; Julian = Giu-li-an; Gregory XIII = Gờ-rê-goa mư�
     Phụ đề: *1 257 × 0,0078* = *gần 10 ngày* lệch.
 
 23. Đọc: Năm một nghìn năm trăm tám mươi hai, Giáo hoàng Gờ-rê-goa mười ba ra lệnh bỏ mười ngày.
-    Phụ đề: Năm *1582*, *Gờ-rê-goa 13* ra lệnh *bỏ 10 ngày*.
+    Phụ đề: Năm *1582*, *Gregory 13* ra lệnh *bỏ 10 ngày*.
 
 24. Đọc: Sau ngày bốn tháng mười là ngày mười lăm tháng mười.
     Phụ đề: Sau *4 tháng 10* là *15 tháng 10*.

@@ -86,16 +86,16 @@
   {
    "text": "Trong thư năm *1773*,",
    "start": 0.39,
-   "end": 3.311
+   "end": 3.159
   },
   {
-   "text": "*Phrăng-lin* kể lại",
-   "start": 3.311,
-   "end": 4.086
+   "text": "*Franklin* kể lại",
+   "start": 3.159,
+   "end": 4.131
   },
   {
    "text": "*cái* *ao* *ấy*.",
-   "start": 4.086,
+   "start": 4.131,
    "end": 4.98
   }
  ],
@@ -233,23 +233,23 @@
  ],
  [
   {
-   "text": "Phrăng-lin *không*",
+   "text": "Franklin *không*",
    "start": 0.44,
-   "end": 0.945
+   "end": 1.113
   },
   {
    "text": "*tính* độ dày.",
-   "start": 0.945,
-   "end": 1.702
+   "start": 1.113,
+   "end": 1.787
   },
   {
    "text": "*Hơn* *100* *năm* *sau*,",
-   "start": 1.702,
-   "end": 4.193
+   "start": 1.787,
+   "end": 4.052
   },
   {
-   "text": "*Rây-lây* mới tính.",
-   "start": 4.193,
+   "text": "*Rayleigh* mới tính.",
+   "start": 4.052,
    "end": 5.07
   }
  ],
@@ -440,23 +440,23 @@
  ],
  [
   {
-   "text": "Rây-lây tính ra dày",
+   "text": "Rayleigh tính ra dày",
    "start": 0.42,
-   "end": 1.688
+   "end": 1.891
   },
   {
    "text": "*cỡ* *2* *na-nô-mét*,",
-   "start": 1.688,
-   "end": 2.638
+   "start": 1.891,
+   "end": 2.774
   },
   {
    "text": "*cùng* *cỡ* một",
-   "start": 2.638,
-   "end": 3.989
+   "start": 2.774,
+   "end": 4.057
   },
   {
    "text": "phân tử dầu.",
-   "start": 3.989,
+   "start": 4.057,
    "end": 5.06
   }
  ],
@@ -508,21 +508,21 @@
   {
    "text": "*Hơn* *20* *năm* *sau*,",
    "start": 0.55,
-   "end": 2.316
+   "end": 2.233
   },
   {
-   "text": "*Lăng-muya* trải màng mỏng",
-   "start": 2.316,
-   "end": 3.306
+   "text": "*Langmuir* trải màng mỏng",
+   "start": 2.233,
+   "end": 3.673
   },
   {
    "text": "để ước *diện* *tích*",
-   "start": 3.306,
-   "end": 4.567
+   "start": 3.673,
+   "end": 4.608
   },
   {
    "text": "*mỗi* *phân* *tử*.",
-   "start": 4.567,
+   "start": 4.608,
    "end": 5.43
   }
  ],

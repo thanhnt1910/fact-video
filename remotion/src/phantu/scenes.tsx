@@ -80,7 +80,7 @@ const P3: Panel = ({f}) => (
 // --- Cảnh 2: ao ---
 const P4: Panel = ({f}) => (
   <g>
-    <Head a="Thư năm 1773" b="Phrăng-lin kể lại cái ao" />
+    <Head a="Thư năm 1773" b="Franklin kể lại cái ao" />
     <rect x={250} y={500} width={580} height={620} rx={14} fill="#e9dcc0" stroke={C.cream} strokeWidth={5} opacity={sp(f, 2, 14)} />
     {Array.from({length: 9}).map((_, i) => (
       <line key={i} x1={300} y1={580 + i * 48} x2={780 - (i % 3) * 60} y2={580 + i * 48} stroke="#8a7a62" strokeWidth={5} strokeLinecap="round" opacity={sp(f, 6 + i * 2, 16 + i * 2)} />
@@ -153,7 +153,7 @@ const P10: Panel = ({f}) => (
 );
 const P11: Panel = ({f}) => (
   <g>
-    <Head a="Phrăng-lin không tính" b="Rây-lây mới tính" />
+    <Head a="Franklin không tính" b="Rayleigh mới tính" />
     <line x1={140} y1={820} x2={940} y2={820} stroke={C.cream} strokeWidth={6} />
     <circle cx={140} cy={820} r={16} fill={C.amber} />
     <circle cx={940} cy={820} r={16} fill={C.amber} opacity={sp(f, 14, 28)} />
@@ -253,7 +253,7 @@ const P21: Panel = ({f}) => (
 );
 const P22: Panel = ({f}) => (
   <g>
-    <Head a="Rây-lây tính ra cỡ 2 nm" b="cùng cỡ một phân tử dầu" />
+    <Head a="Rayleigh tính ra cỡ 2 nm" b="cùng cỡ một phân tử dầu" />
     <Mol x={540} y={700} s={4.5} />
     <Big x={540} y={1130} size={110} color={C.amber} o={sp(f, 8, 24)}>≈ 2 nm</Big>
     <Hero2 f={f} cheer={sp(f, 14, 30)} />
@@ -281,7 +281,7 @@ const P25: Panel = ({f}) => {
   const k = sp(f, 6, 40);
   return (
     <g>
-      <Head a="Lăng-muya trải màng mỏng" b="ước diện tích mỗi phân tử" />
+      <Head a="Langmuir trải màng mỏng" b="ước diện tích mỗi phân tử" />
       <rect x={120} y={780} width={840} height={150} fill={WATER} stroke={C.cream} strokeWidth={5} />
       <rect x={120 + (840 - lerp(840, 520, k))} y={780} width={lerp(840, 520, k)} height={150} fill={OIL} fillOpacity={0.25} />
       <line x1={120 + (840 - lerp(840, 520, k))} y1={750} x2={120 + (840 - lerp(840, 520, k))} y2={960} stroke={RED} strokeWidth={10} />

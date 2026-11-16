@@ -25,7 +25,7 @@ Archimedes = Ác-si-mét; pi = pi; mi-li-mét; hình sáu cạnh, mười hai c�
     Phụ đề: Chỉ cần *kẹp nó* giữa *hai con số* thật gần nhau.
 
 4. Đọc: Hóa ra cách kẹp ấy do Ác-si-mét nghĩ ra, chỉ bằng những hình nhiều cạnh.
-    Phụ đề: Hóa ra *Ác-si-mét* nghĩ ra, chỉ bằng *hình nhiều cạnh*.
+    Phụ đề: Hóa ra *Archimedes* nghĩ ra, chỉ bằng *hình nhiều cạnh*.
 
 5. Đọc: Trước hết, pi là gì? Lấy chu vi hình tròn chia cho đường kính của nó.
     Phụ đề: Pi là gì? *Chu vi* hình tròn chia cho *đường kính*.
@@ -43,7 +43,7 @@ Archimedes = Ác-si-mét; pi = pi; mi-li-mét; hình sáu cạnh, mười hai c�
     Phụ đề: *Đường cong* khó đo, *đường thẳng* thì đo rất chính xác.
 
 10. Đọc: Vì vậy Ác-si-mét thay vòng tròn bằng những hình có cạnh thẳng.
-    Phụ đề: Ác-si-mét thay vòng tròn bằng hình *có cạnh thẳng*.
+    Phụ đề: Archimedes thay vòng tròn bằng hình *có cạnh thẳng*.
 
 11. Đọc: Ông vẽ một hình sáu cạnh nằm gọn trong vòng tròn, các đỉnh chạm vào vòng.
     Phụ đề: Vẽ *hình 6 cạnh* nằm *trong* vòng tròn, các đỉnh chạm vòng.

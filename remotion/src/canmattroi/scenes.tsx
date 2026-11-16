@@ -109,7 +109,7 @@ const P7: Panel = ({f}) => (
 // --- Cảnh 3: ba con số ---
 const P8: Panel = ({f}) => (
   <g>
-    <Head a="Quy luật hút" b="do Niu-tơn tìm ra" />
+    <Head a="Quy luật hút" b="do Newton tìm ra" />
     <Big x={CX} y={820} size={190} color={AM} o={sp(f, 4, 18)}>1687</Big>
     <Tag x={CX} y={980} color={C.cream} size={46} o={sp(f, 12, 26)}>năm xuất bản sách</Tag>
     <Hero2 f={f} />
@@ -149,7 +149,7 @@ const P13: Panel = ({f}) => {
   const bx = (cx: number, s: number) => cx + 90 * s;
   return (
     <g>
-      <Head a="Năm 1798, Ca-ven-đít" b="dùng cân xoắn để ra G" />
+      <Head a="Năm 1798, Cavendish" b="dùng cân xoắn để ra G" />
       <g transform={`rotate(${a * 57} ${CX} 760)`}>
         <line x1={CX - 190} y1={760} x2={CX + 190} y2={760} stroke={C.cream} strokeWidth={8} />
         <circle cx={CX - 190} cy={760} r={34} fill={RED} stroke={C.cream} strokeWidth={4} />

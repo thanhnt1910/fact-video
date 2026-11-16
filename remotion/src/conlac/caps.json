@@ -81,11 +81,11 @@
   {
    "text": "Người làm thí",
    "start": 0.39,
-   "end": 1.24
+   "end": 1.119
   },
   {
-   "text": "nghiệm là *Phu-cô*.",
-   "start": 1.24,
+   "text": "nghiệm là *Foucault*.",
+   "start": 1.119,
    "end": 2.21
   }
  ],
@@ -111,7 +111,7 @@
    "end": 4.725
   },
   {
-   "text": "vòm *đền* *Păng-tê-ông*.",
+   "text": "vòm *đền* *Panthéon*.",
    "start": 4.725,
    "end": 5.59
   }
@@ -298,7 +298,7 @@
  ],
  [
   {
-   "text": "Nhưng đền ở *Pa-ri*,",
+   "text": "Nhưng đền ở *Paris*,",
    "start": 0.38,
    "end": 1.87
   },
@@ -349,7 +349,7 @@
  ],
  [
   {
-   "text": "Pa-ri ở *khoảng*",
+   "text": "Paris ở *khoảng*",
    "start": 0.44,
    "end": 1.336
   },
@@ -383,18 +383,18 @@
  ],
  [
   {
-   "text": "Đúng như Phu-cô thấy:",
+   "text": "Đúng như Foucault thấy:",
    "start": 0.46,
-   "end": 1.395
+   "end": 1.531
   },
   {
    "text": "*hơn* *11*",
-   "start": 1.395,
-   "end": 2.659
+   "start": 1.531,
+   "end": 2.718
   },
   {
    "text": "*độ* mỗi giờ.",
-   "start": 2.659,
+   "start": 2.718,
    "end": 3.48
   }
  ],

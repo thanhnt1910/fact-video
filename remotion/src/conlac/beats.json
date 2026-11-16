@@ -18,11 +18,11 @@
   },
   {
    "say": "Người làm thí nghiệm này là Phu-cô.",
-   "text": "Người làm thí nghiệm là *Phu-cô*."
+   "text": "Người làm thí nghiệm là *Foucault*."
   },
   {
    "say": "Ông treo quả nặng hai mươi tám ki-lô-gam vào dây dài sáu mươi bảy mét, từ mái vòm đền Păng-tê-ông.",
-   "text": "Treo *quả nặng 28 ki-lô-gam* vào *dây dài 67 mét*, từ mái vòm *đền Păng-tê-ông*."
+   "text": "Treo *quả nặng 28 ki-lô-gam* vào *dây dài 67 mét*, từ mái vòm *đền Panthéon*."
   },
   {
    "say": "Sáu mươi bảy mét cao hơn hai mươi tầng nhà.",
@@ -66,7 +66,7 @@
   },
   {
    "say": "Nhưng đền ấy ở Pa-ri, không phải ở Bắc Cực, nên mặt phẳng xoay chậm hơn.",
-   "text": "Nhưng đền ở *Pa-ri*, *không ở Bắc Cực*, nên xoay *chậm hơn*."
+   "text": "Nhưng đền ở *Paris*, *không ở Bắc Cực*, nên xoay *chậm hơn*."
   },
   {
    "say": "Tốc độ xoay bằng mười lăm độ nhân một con số gọi là sin của vĩ độ.",
@@ -78,7 +78,7 @@
   },
   {
    "say": "Pa-ri ở khoảng bốn mươi tám phẩy tám độ Bắc, nơi con số ấy khoảng không phẩy bảy lăm.",
-   "text": "Pa-ri ở *khoảng 48,8 độ Bắc*, sin *khoảng 0,75*."
+   "text": "Paris ở *khoảng 48,8 độ Bắc*, sin *khoảng 0,75*."
   },
   {
    "say": "Mười lăm nhân không phẩy bảy lăm ra khoảng mười một phẩy ba độ mỗi giờ.",
@@ -86,7 +86,7 @@
   },
   {
    "say": "Đúng như Phu-cô đã thấy: hơn mười một độ mỗi giờ.",
-   "text": "Đúng như Phu-cô thấy: *hơn 11 độ* mỗi giờ."
+   "text": "Đúng như Foucault thấy: *hơn 11 độ* mỗi giờ."
   },
   {
    "say": "Ba trăm sáu mươi chia mười một phẩy ba ra khoảng ba mươi hai giờ cho một vòng.",

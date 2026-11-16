@@ -226,23 +226,23 @@
  ],
  [
   {
-   "text": "*Hip-pa-khốt* làm như vậy",
+   "text": "*Hipparchus* làm như vậy",
    "start": 0.4,
-   "end": 1.449
+   "end": 1.776
   },
   {
    "text": "ở Hy Lạp,",
-   "start": 1.449,
-   "end": 2.235
+   "start": 1.776,
+   "end": 2.464
   },
   {
    "text": "*thế* *kỷ* *thứ* *2*",
-   "start": 2.235,
-   "end": 3.594
+   "start": 2.464,
+   "end": 3.692
   },
   {
    "text": "*trước* *Công* *nguyên*.",
-   "start": 3.594,
+   "start": 3.692,
    "end": 4.5
   }
  ],
@@ -350,7 +350,7 @@
  ],
  [
   {
-   "text": "Lịch *Giu-li-an*,",
+   "text": "Lịch *Julian*,",
    "start": 0.36,
    "end": 1.292
   },
@@ -442,16 +442,16 @@
   {
    "text": "Năm *1582*,",
    "start": 0.36,
-   "end": 2.306
+   "end": 2.131
   },
   {
-   "text": "*Gờ-rê-goa* *13* ra lệnh",
-   "start": 2.306,
-   "end": 4.233
+   "text": "*Gregory* *13* ra lệnh",
+   "start": 2.131,
+   "end": 4.342
   },
   {
    "text": "*bỏ* *10* *ngày*.",
-   "start": 4.233,
+   "start": 4.342,
    "end": 5.7
   }
  ],

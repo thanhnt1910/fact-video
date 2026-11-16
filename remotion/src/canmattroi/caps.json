@@ -164,21 +164,21 @@
   {
    "text": "Quy luật hút do",
    "start": 0.47,
-   "end": 1.626
+   "end": 1.565
   },
   {
-   "text": "*Niu-tơn* tìm ra,",
-   "start": 1.626,
-   "end": 2.602
+   "text": "*Newton* tìm ra,",
+   "start": 1.565,
+   "end": 2.769
   },
   {
    "text": "trong sách xuất",
-   "start": 2.602,
-   "end": 3.469
+   "start": 2.769,
+   "end": 3.591
   },
   {
    "text": "bản năm *1687*.",
-   "start": 3.469,
+   "start": 3.591,
    "end": 5.9
   }
  ],
@@ -269,26 +269,26 @@
   {
    "text": "Năm *1798*,",
    "start": 0.38,
-   "end": 2.415
+   "end": 2.271
   },
   {
-   "text": "*Ca-ven-đít* đo lực hút",
-   "start": 2.415,
-   "end": 3.318
+   "text": "*Cavendish* đo lực hút",
+   "start": 2.271,
+   "end": 3.516
   },
   {
    "text": "giữa các quả cầu",
-   "start": 3.318,
-   "end": 4.22
+   "start": 3.516,
+   "end": 4.347
   },
   {
    "text": "bằng *cân* *xoắn*,",
-   "start": 4.22,
-   "end": 5.277
+   "start": 4.347,
+   "end": 5.35
   },
   {
    "text": "từ đó ra *G*.",
-   "start": 5.277,
+   "start": 5.35,
    "end": 6.3
   }
  ],

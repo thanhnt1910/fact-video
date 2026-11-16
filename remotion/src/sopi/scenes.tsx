@@ -106,7 +106,7 @@ const P2: Panel = ({f}) => (
 );
 const P3: Panel = ({f}) => (
   <g>
-    <Head a="Ác-si-mét kẹp pi" b="bằng hình nhiều cạnh" />
+    <Head a="Archimedes kẹp pi" b="bằng hình nhiều cạnh" />
     <Circle cx={CX} cy={CY} R={R} />
     <Poly cx={CX} cy={CY} R={R} n={96} color={C.amber} p={sp(f, 4, 26)} w={6} />
     <Poly cx={CX} cy={CY} R={R} n={96} out color={BLUE} p={sp(f, 14, 36)} w={6} />
@@ -300,7 +300,7 @@ const P22: Panel = ({f}) => (
 // --- Cảnh 6: kết quả ---
 const P23: Panel = ({f}) => (
   <g>
-    <Head a="Ác-si-mét ghi lại" />
+    <Head a="Archimedes ghi lại" />
     <Big x={CX} y={680} size={112} color={C.cream} o={sp(f, 4, 18)}>π &gt; 223/71</Big>
     <Big x={CX} y={860} size={112} color={C.amber} o={sp(f, 16, 30)}>π &lt; 22/7</Big>
     <Hero2 f={f} />
@@ -316,7 +316,7 @@ const P24: Panel = ({f}) => (
 const P25: Panel = ({f}) => (
   <g>
     <Head a="Làm tròn theo hướng an toàn" b="nên khoảng kẹp rộng hơn chút" />
-    <Tag x={CX} y={650} color={C.amber} size={40}>Ác-si-mét</Tag>
+    <Tag x={CX} y={650} color={C.amber} size={40}>Archimedes</Tag>
     <NL y={760} a={3.14} b={3.144} lo={3.1408} hi={3.1429} p={sp(f, 4, 26)} d={3} ticks={4} color={C.amber} pi={false} />
     <Tag x={CX} y={950} color={BLUE} size={40}>hình 96 cạnh chính xác</Tag>
     <NL y={1060} a={3.14} b={3.144} lo={3.141} hi={3.1427} p={sp(f, 14, 36)} d={3} ticks={4} color={BLUE} pi={false} />

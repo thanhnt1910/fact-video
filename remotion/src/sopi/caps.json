@@ -59,21 +59,21 @@
   {
    "text": "Hóa ra",
    "start": 0.44,
-   "end": 1.108
+   "end": 0.954
   },
   {
-   "text": "*Ác-si-mét* nghĩ ra,",
-   "start": 1.108,
-   "end": 2.11
+   "text": "*Archimedes* nghĩ ra,",
+   "start": 0.954,
+   "end": 2.495
   },
   {
    "text": "chỉ bằng",
-   "start": 2.11,
-   "end": 3.108
+   "start": 2.495,
+   "end": 3.339
   },
   {
    "text": "*hình* *nhiều* *cạnh*.",
-   "start": 3.108,
+   "start": 3.339,
    "end": 4.23
   }
  ],
@@ -184,18 +184,18 @@
  ],
  [
   {
-   "text": "Ác-si-mét thay vòng",
+   "text": "Archimedes thay vòng",
    "start": 0.51,
-   "end": 1.437
+   "end": 1.9
   },
   {
    "text": "tròn bằng hình",
-   "start": 1.437,
-   "end": 2.503
+   "start": 1.9,
+   "end": 2.735
   },
   {
    "text": "*có* *cạnh* *thẳng*.",
-   "start": 2.503,
+   "start": 2.735,
    "end": 3.55
   }
  ],

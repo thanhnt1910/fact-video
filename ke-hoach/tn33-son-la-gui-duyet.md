@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #33 Sơn La (mã tn33)
 
-14 đoạn, 315 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 85 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+14 đoạn, 315 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 85 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Sơn La: lúc mới lập tên là tỉnh Vạn Bú, năm 1904 mới đổi tên theo dòng Nậm La
 
@@ -73,3 +73,8 @@ Bản đồ 34 tỉnh, tô Sơn La (không đổi năm 2025); chấm Vạn Bú (
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Sơn La: tỉnh từng mang tên Vạn Bú
 - Hashtag: #NguoiGacSu #TenTinhThanh #SonLa #VanBu #NamLa #TayBac #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1892, 1895, 1904, 1962, 2025); `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn33_son_la.mp4` (98.1 giây), kiểu chibi vẽ bằng code như #26–30, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn33.js`, bìa `assets/bia/TN33/bia_tn33.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (cô giáo, lưu dân, quan, viên chức Pháp) là minh họa chung, không phải chân dung người có thật.

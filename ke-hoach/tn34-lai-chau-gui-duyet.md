@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #34 Lai Châu (mã tn34)
 
-14 đoạn, 327 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 88 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+14 đoạn, 327 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 88 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Lai Châu: tên từ Mường Lay; năm 2004 tỉnh chuyển đi, thị xã Lai Châu cũ thuộc Điện Biên và lấy lại tên Mường Lay
 
@@ -76,3 +76,9 @@ Bản đồ 34 tỉnh, tô Lai Châu (không đổi năm 2025); cảnh 2004 tô 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Lai Châu: thị xã Lai Châu cũ giờ ở tỉnh khác
 - Hashtag: #NguoiGacSu #TenTinhThanh #LaiChau #MuongLay #DienBien #TayBac #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1435, 1909, 2003, 2004, 2005, 2025); `kiem_giong` đạt 100%.
+- Lần đọc đầu bị lặp lại câu 1–7 (dài 129 giây); đã xóa và đọc lại cả 14 câu. Câu cuối lần hai bị đọc sai thành "Bạn đã ổn chứ?", đã đọc lại riêng câu đó; `kiem_giong` 14/14.
+- Video `video/ten-tinh-thanh/tn34_lai_chau.mp4` (98.6 giây), kiểu chibi vẽ bằng code như #26–30, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn34.js`, bìa `assets/bia/TN34/bia_tn34.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (cô giáo, lưu dân, quan, viên chức Pháp) là minh họa chung, không phải chân dung người có thật.

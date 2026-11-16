@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #32 Tuyên Quang (mã tn32)
 
-14 đoạn, 309 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 84 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+14 đoạn, 309 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 84 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Tuyên Quang: trấn biên giới từ thời Trần; Hà Giang tách ra năm 1891, gộp thành Hà Tuyên rồi năm 2025 về chung, nên Lũng Cú nay thuộc Tuyên Quang
 
@@ -72,3 +72,9 @@ Bản đồ 34 tỉnh, tô Tuyên Quang hiện nay; Hà Giang và Tuyên Quang t
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Tuyên Quang: vì sao Lũng Cú giờ thuộc Tuyên Quang?
 - Hashtag: #NguoiGacSu #TenTinhThanh #TuyenQuang #HaGiang #LungCu #HaTuyen #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1831, 1891, 1976, 1991, 2025); `kiem_giong` đạt 100%.
+- Lần đọc đầu, Gemini đọc năm 1831 thành "1876" ở câu 6; đã xóa câu này và đọc lại, nhận dạng không gợi ý lần hai khớp đúng.
+- Video `video/ten-tinh-thanh/tn32_tuyen_quang.mp4` (99.6 giây), kiểu chibi vẽ bằng code như #26–30, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn32.js`, bìa `assets/bia/TN32/bia_tn32.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (cô giáo, lưu dân, quan, viên chức Pháp) là minh họa chung, không phải chân dung người có thật.

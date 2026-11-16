@@ -1,6 +1,6 @@
 # Gửi duyệt: Tên tỉnh thành #31 Lào Cai (mã tn31)
 
-13 đoạn, 296 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 80 giây theo tốc độ giọng Leda của #26. Chưa đọc giọng, chưa dựng. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
+13 đoạn, 296 chữ đọc (năm ghi bằng chữ số cho giọng đọc), ước tính khoảng 80 giây theo tốc độ giọng Leda của #26. Viết theo quy tắc 12/11 "văn xuôi liền mạch trước, chia đoạn sau".
 
 ## Lào Cai: tên từ phố chợ Lão Nhai (phố cũ) đọc chệch, không liên quan nước Lào; hai lần về chung với Yên Bái
 
@@ -74,3 +74,8 @@ Bản đồ 34 tỉnh, tô Lào Cai hiện nay; Lào Cai và Yên Bái trước 
 ### Tiêu đề và hashtag đề xuất
 - Tiêu đề: Lào Cai: chẳng liên quan gì đến nước Lào
 - Hashtag: #NguoiGacSu #TenTinhThanh #LaoCai #LaoNhai #SongHong #YenBai #LichSuVietNam
+
+### Dựng video 16/11/2026
+- Giọng Leda, đọc một cụm; nhận dạng không gợi ý khớp mọi năm (1886, 1907, 1950, 1976, 1991, 2025); `kiem_giong` đạt 100%.
+- Video `video/ten-tinh-thanh/tn31_lao_cai.mp4` (102.0 giây), kiểu chibi vẽ bằng code như #26–30, bản đồ hành chính phẳng; cảnh `phim_ban_do/doc9x16/canh_tn31.js`, bìa `assets/bia/TN31/bia_tn31.png`; đo khung đứng yên ≥2 giây: 0 đoạn.
+- Nhân vật chibi (cô giáo, lưu dân, quan, viên chức Pháp) là minh họa chung, không phải chân dung người có thật.

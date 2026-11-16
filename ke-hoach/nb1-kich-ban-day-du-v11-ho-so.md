@@ -29,7 +29,7 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 9. Kyoto bị đốt nhiều chùa chiền, dinh thự. Tướng quân rút về biệt thự nghỉ dưỡng ở phía đông bắc Kyoto, nơi về sau thành chùa Gác Bạc, ngồi ngắm cảnh khi quyền hành gần như không còn. 【CÓ SỬ】
 10. Chiến tranh lan ra khắp vùng quê. Nông dân tụ tập thành từng nhóm rồi cầm vũ khí nổi dậy, thường do các võ sĩ địa phương dẫn đầu. Về sau, một số người nổi lên trong thời loạn này trở thành daimyo, tức lãnh chúa. 【CÓ SỬ】
 11. Những lãnh chúa này tự cầm quân giữ đất, và kẻ dưới giành quyền kẻ trên là chuyện thường. Thời kỳ này gọi là Sengoku, tức thời Chiến Quốc của Nhật. 【CÓ SỬ】
-12. Người thật sự nắm quyền ở Kyoto lần lượt là ba dòng họ: Hosokawa, rồi Miyoshi, rồi Matsunaga. Tướng quân vẫn còn đó, nhưng chỉ còn cái danh. 【CÓ SỬ】
+12. Người thật sự nắm quyền ở Kyoto lần lượt là ba dòng họ khác nhau. Tướng quân vẫn còn đó, nhưng chỉ còn cái danh. 【CÓ SỬ】
 13. Giữa cảnh hỗn loạn ấy, ba cậu bé lần lượt ra đời. Đây chính là ba bị đơn của hồ sơ này, và mỗi người sẽ đi một con đường rất khác nhau.
 
 ## Lời đồn trước khi xem bằng chứng
@@ -42,43 +42,43 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 18. Cha ông cho ông cưới con gái của Saitō Dōsan, lãnh chúa xứ Mino bên cạnh, để hai nhà thôi đánh nhau. 【CÓ SỬ】
 19. Người đời sau kể rằng trong đám tang cha, ông ném nguyên nắm hương vào bàn thờ. Đây chỉ là lời kể, nên hồ sơ ghi là giai thoại. 【GIAI THOẠI】
 20. Chuyện kể tiếp rằng một gia thần già trung thành buồn vì cách ông cư xử nên đã tự sát để can ngăn. Sau đó Nobunaga cho xây chùa tưởng nhớ ông ấy. 【GIAI THOẠI】
-21. Ở đây các nhân chứng nói khác nhau. Tên người gia thần ghi không giống nhau giữa các nguồn, và năm cha Nobunaga mất cũng vậy, nguồn ghi 1549, nguồn ghi 1551. 【LỜI KHAI MÂU THUẪN】
+21. Ở đây các nhân chứng nói khác nhau. Có nguồn ghi cha Nobunaga mất năm 1549, có nguồn ghi năm 1551, và tên người gia thần ấy cũng không thống nhất. 【LỜI KHAI MÂU THUẪN】
 22. Nhiều người trong họ Oda lắc đầu, nghĩ rằng cậu này không giữ nổi nhà. Vậy mà ông lần lượt thắng hết họ hàng, và đến năm 1560 thì cả xứ Owari nằm trong tay ông. 【CÓ SỬ】
 23. Cùng năm đó, Imagawa Yoshimoto, lãnh chúa nước láng giềng, kéo quân vào Owari, đông gấp nhiều lần quân của Nobunaga. 【CÓ SỬ】
 24. Đông gấp bao nhiêu thì các nhân chứng cãi nhau. Quân Imagawa từ khoảng mười nghìn đến bốn mươi lăm nghìn, quân Oda từ hai nghìn đến sáu nghìn, tùy nguồn. 【LỜI KHAI MÂU THUẪN】
 25. Còn trận đánh diễn ra thế nào, đánh úp hay đánh thẳng vào, thì các nhà nghiên cứu vẫn còn tranh cãi, vì các tài liệu kể không giống nhau. 【LỜI KHAI MÂU THUẪN】
-26. Ở yên trong thành thì chờ chết. Lao ra ngoài thì cũng có thể chết, nhưng ít ra đã dám thử. Nobunaga chọn lao ra. 【CÓ SỬ】
-27. Khi quân Imagawa đang nghỉ ngơi thì một cơn giông bất ngờ kéo đến, và Nobunaga lao thẳng vào doanh trại của Yoshimoto. Trùng hợp đến mức như ông trời đọc trước kịch bản. 【CÓ SỬ】
-28. Yoshimoto bị giết ngay trong trận. Quân Imagawa mất người chỉ huy nên tan chạy, và kế hoạch kéo quân lên kinh đô Kyoto của ông ta cũng tan theo. 【CÓ SỬ】
-29. Cậu bé bị cả họ chê ngày nào đã đánh bại kẻ đông gấp nhiều lần mình. Từ hôm đó, cái tên Oda Nobunaga không còn là chuyện cười nữa. 【CÓ SỬ】
+26. Chỉ biết chắc một điều: Nobunaga không ngồi chờ trong thành, mà đem quân ra đón đánh. 【CÓ SỬ】
+27. Theo cách kể phổ biến nhất, khi quân Imagawa đang nghỉ ngơi thì một cơn giông bất ngờ kéo đến, và Nobunaga lao vào doanh trại của Yoshimoto. Trùng hợp đến mức như ông trời đọc trước kịch bản. 【CÓ SỬ】
+28. Yoshimoto bị giết ngay trong trận. Quân Imagawa mất người chỉ huy nên tan chạy. 【CÓ SỬ】
+29. Cậu bé bị cả họ chê ngày nào đã đánh bại kẻ đông hơn mình nhiều lần. 【CÓ SỬ】
 30. Trận này còn kéo theo một người nữa. Hồi đó gia tộc Matsudaira phải đi theo Imagawa, và khi Imagawa sụp, người đứng đầu họ bỏ phe thua để bắt tay Nobunaga. 【CÓ SỬ】
-31. Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã gặp nhau. Còn Toyotomi Hideyoshi thì ở đâu lúc ấy? 【CÓ SỬ】
+31. Người đứng đầu họ Matsudaira ấy sau này đổi tên thành Tokugawa Ieyasu. Vậy là hai trong ba bị đơn đã trở thành đồng minh. Còn Toyotomi Hideyoshi thì ở đâu lúc ấy? 【CÓ SỬ】
 
 ## Hồ sơ 3. Bị đơn thứ hai: Toyotomi Hideyoshi, người xách dép
 32. Hideyoshi bắt đầu thấp hơn Nobunaga rất nhiều. Theo truyền thống, ông sinh ra trong một gia đình nông dân ở Owari, không có dòng dõi samurai nào. 【CÓ SỬ】
-33. Phần lớn chuyện thời bé của ông là truyền thuyết kể lại về sau, nên ta không biết chắc. 【GIAI THOẠI】
-34. Điều chắc chắn là ông xuất thân thấp hơn hầu hết những người quanh Nobunaga, nên mọi bước đi lên đều phải tự giành lấy. 【CÓ SỬ】
-35. Khoảng năm 1557, ông vào làm cho nhà Oda, bắt đầu từ việc xách dép cho Nobunaga, một việc hầu hạ rất thấp. 【CÓ SỬ】
-36. Ông cũng có mặt ở Okehazama năm 1560, tức là đã tận mắt thấy Nobunaga đánh bại đạo quân đông gấp nhiều lần mình. 【CÓ SỬ】
-37. Đến năm 1564, ông mang tên Kinoshita Hideyoshi và bắt đầu leo lên trong nhà Oda. 【CÓ SỬ】
+33. Phần lớn chuyện thời bé của ông là truyền thuyết kể lại về sau, nên ta không biết chắc. Chỉ biết chắc là ông xuất thân thấp, nên mọi bước đi lên đều phải tự giành lấy. 【GIAI THOẠI】
+34. Khoảng năm 1557, ông vào làm cho nhà Oda, bắt đầu từ việc xách dép cho Nobunaga, một việc hầu hạ rất thấp. 【CÓ SỬ】
+35. Ông cũng có mặt ở Okehazama năm 1560, tức là đã tận mắt thấy Nobunaga đánh bại đạo quân đông hơn mình nhiều lần. Về sau ông được nâng lên hàng samurai. 【CÓ SỬ】
+36. Nhưng ông lập công dần. Ông thuyết phục nhiều võ sĩ xứ Mino bỏ nhà Saitō sang nhà Oda, rồi năm 1570 lập công lớn trong trận Anegawa. 【CÓ SỬ】
+37. Đến năm 1573, Nobunaga giao cho ông cai quản ba huyện ở xứ Omi, và ông trở thành một lãnh chúa. 【CÓ SỬ】
 
 ## Hiện trường quan trọng nhất: một đêm ở Honnō-ji
-38. Sau Okehazama, Nobunaga mở rộng thế lực rất nhanh. Năm 1568, ông đưa Ashikaga Yoshiaki lên làm tướng quân mới. 【CÓ SỬ】
+38. Trong lúc Hideyoshi lên dần, Nobunaga mở rộng thế lực rất nhanh. Năm 1568, ông đưa Ashikaga Yoshiaki lên làm tướng quân mới. 【CÓ SỬ】
 39. Nhưng đến năm 1573, ông lại phế Yoshiaki, và chế độ tướng quân nhà Ashikaga coi như chấm hết. Tự tay dựng lên, rồi tự tay gỡ xuống. 【CÓ SỬ】
-40. Năm 1576, ông cho xây lâu đài Azuchi làm căn cứ mới, và năm 1580 chiếm được chùa Hongan ở Osaka. Nhớ cái tên Osaka nhé, nó sẽ quay lại ở cuối hồ sơ. 【CÓ SỬ】
+40. Năm 1576, ông cho xây lâu đài Azuchi làm căn cứ mới. 【CÓ SỬ】
 41. Đến năm 1582, Nobunaga đã nắm trong tay gần một nửa số tỉnh của nước Nhật. 【CÓ SỬ】
-42. Nhưng cú đòn lớn nhất lại không đến từ kẻ thù, mà từ người trong nhà. Tháng 6 năm 1582, Nobunaga đang ở chùa Honnō-ji tại Kyoto thì thuộc hạ Akechi Mitsuhide bất ngờ nổi dậy. 【CÓ SỬ】
+42. Nhưng cú đòn lại không đến từ kẻ thù, mà từ người trong nhà. Tháng 6 năm 1582, Nobunaga đang ở chùa Honnō-ji tại Kyoto thì thuộc hạ Akechi Mitsuhide bất ngờ nổi dậy. 【CÓ SỬ】
 43. Nobunaga bị thương, không còn đường thoát, và đã tự sát. Ngày chính xác thì nguồn ghi hai ngày khác nhau, hai mươi hoặc hai mươi mốt tháng sáu. 【CÓ SỬ · NGÀY: LỜI KHAI MÂU THUẪN】
 44. Còn vì sao Mitsuhide làm vậy? Sử không biết chắc, nên hồ sơ này ghi là KHÔNG AI BIẾT và video sẽ không đoán. 【KHÔNG AI BIẾT】
-45. Lúc đó Hideyoshi đang đánh nhà Mori, một đối thủ ở xa Kyoto. Nghe tin, ông giảng hòa với họ rồi quay quân về cực nhanh. 【CÓ SỬ】
+45. Lúc đó Hideyoshi đang vây thành Takamatsu của nhà Mori, một đối thủ ở xa Kyoto. Nghe tin, ông giảng hòa với họ rồi quay quân về cực nhanh. 【CÓ SỬ】
 46. Ngày 2 tháng 7 năm 1582, chưa đầy hai tuần sau cái chết của Nobunaga, Hideyoshi đánh bại Akechi Mitsuhide ở Yamazaki. 【CÓ SỬ】
 47. Thế là người xách dép năm nào trở thành người báo thù cho chủ cũ. 【CÓ SỬ】
 
 ## Hồ sơ 3 (tiếp). Hideyoshi lên đỉnh
-48. Nhưng chỗ trống thì ai cũng muốn ngồi. Đất của Nobunaga được chia cho các thuộc hạ, Hideyoshi nhận Yamashiro và vài vùng quanh đó, còn chuyện ai nối nghiệp vẫn bỏ ngỏ. 【CÓ SỬ】
-49. Các thuộc hạ cũ lao vào tranh nhau, và Hideyoshi lần lượt thắng. Một đối thủ lớn là Shibata Katsuie, bị ông đánh bại ở Shizugatake. 【CÓ SỬ】
-50. Năm 1584, ông đụng đúng người ta đã gặp ở trên: Tokugawa Ieyasu. Hai bên đánh nhau ở Komaki và Nagakute, và Ieyasu thắng một trận ở Nagakute. 【CÓ SỬ】
-51. Nhưng không ai hạ được ai, nên ít lâu sau hai bên đình chiến. Ieyasu chọn ngồi lại thay vì đánh tiếp, đúng kiểu người biết chờ. 【CÓ SỬ】
+48. Nhưng chỗ trống thì ai cũng muốn ngồi. Đất của Nobunaga được chia cho các thuộc hạ, còn chuyện ai nối nghiệp vẫn bỏ ngỏ. 【CÓ SỬ】
+49. Các thuộc hạ cũ lao vào tranh nhau, và Hideyoshi lần lượt thắng. Một đối thủ là Shibata Katsuie, bị ông đánh bại ở Shizugatake. 【CÓ SỬ】
+50. Năm 1584, ông đụng đúng người đã xuất hiện ở trên: Tokugawa Ieyasu. Hai bên đánh nhau ở Komaki và Nagakute, và Ieyasu thắng một trận. 【CÓ SỬ】
+51. Nhưng không ai hạ được ai, nên ít lâu sau hai bên đình chiến. 【CÓ SỬ】
 52. Ngày 6 tháng 8 năm 1585, Hideyoshi nhận chức Kampaku, tức quan phụ chính của thiên hoàng. Ít lâu sau, triều đình ban cho ông họ Toyotomi. 【CÓ SỬ】
 53. Năm 1590, nhà Hōjō ở Odawara đầu hàng sau một cuộc vây thành dài. Từ đó cả nước Nhật nằm dưới quyền Hideyoshi, người nông dân xách dép năm nào. 【CÓ SỬ】
 54. Chưa dừng ở đó. Năm 1592, Hideyoshi đưa quân sang Triều Tiên, ban đầu tiến khá nhanh và chiếm được cảng Pusan. 【CÓ SỬ】
@@ -87,10 +87,10 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 
 ## Hồ sơ 4. Bị đơn thứ ba: Tokugawa Ieyasu, người biết chờ
 57. Còn Ieyasu thì sao? Ông sinh năm 1543, và tuổi thơ chẳng êm đềm: từ nhỏ bị đem làm con tin, đầu tiên ở nhà Oda, sau đó ở nhà Imagawa. 【CÓ SỬ】
-58. Ông lớn lên ở nhà Imagawa. Như đã kể, sau khi Yoshimoto chết ở Okehazama, ông quay sang bắt tay Nobunaga. Biết chờ thời, chắc là tập từ hồi làm con tin. 【CÓ SỬ】
+58. Ông lớn lên ở nhà Imagawa. Như đã kể, sau khi Yoshimoto chết ở Okehazama, ông quay sang bắt tay Nobunaga. 【CÓ SỬ】
 59. Từ đó, ông cùng Nobunaga đánh trận suốt nhiều năm, cho đến tận lúc Nobunaga mất. 【CÓ SỬ】
 60. Năm 1590, sau trận Odawara, Hideyoshi điều Ieyasu đến vùng Kantō, phía đông nước Nhật. Ông chọn Edo làm nơi đặt đại bản doanh. 【CÓ SỬ】
-61. Nghe như bị đẩy ra xa trung tâm. Nhưng Ieyasu lấy luôn chỗ đó làm căn cứ, và sẽ còn ở lại đó rất lâu. 【CÓ SỬ】
+61. Kantō nằm xa Kyoto, nơi quyền lực lúc đó đặt trụ sở. Nhưng Ieyasu lấy Edo làm căn cứ, và sẽ còn ở lại đó rất lâu. 【CÓ SỬ】
 62. Tóm lại, đến năm 1590 thì Nobunaga đã mất, Hideyoshi nắm cả nước Nhật, còn Ieyasu đang ở Edo. Hồ sơ đến lúc quan trọng nhất. 【CÓ SỬ】
 
 ## Hồ sơ 5. Phiên tòa quyết định: Sekigahara
@@ -105,16 +105,15 @@ Chưa đọc giọng, chưa vẽ, chưa dựng. Toàn bộ sự kiện, năm, t�
 71. Sau trận ấy, Ieyasu chia lại đất đai và trở thành thế lực mạnh nhất nước Nhật. Năm 1603, thiên hoàng phong ông làm tướng quân. 【CÓ SỬ】
 
 ## Phán quyết
-72. Nhưng Hideyori, con trai Hideyoshi, vẫn còn ở thành Osaka. Năm 1614 và 1615, Ieyasu đánh hai đợt vây thành này. 【CÓ SỬ】
+72. Nhưng Hideyori, con trai Hideyoshi, vẫn còn ở thành Osaka. Nhiều võ sĩ mất đất sau Sekigahara kéo về đó theo ông, nên căng thẳng giữa nhà Tokugawa và nhà Toyotomi ngày một tăng. Năm 1614 và 1615, Ieyasu đánh hai đợt vây thành này. 【CÓ SỬ】
 73. Cuối cùng thành Osaka thất thủ, và Hideyori qua đời. Dòng dõi của Hideyoshi, người từng cầm cả nước Nhật, chấm dứt ở đó. 【CÓ SỬ】
-74. Nhớ cái tên Osaka chứ? Nobunaga chiếm chùa Hongan ở đó năm 1580, còn Ieyasu hạ thành Osaka năm 1615. 【CÓ SỬ】
-75. Một năm sau, năm 1616, Ieyasu mất, thọ bảy mươi ba tuổi. Ngày mất thì nguồn ghi hai ngày khác nhau, mười bảy tháng tư hoặc mùng một tháng sáu. 【CÓ SỬ · NGÀY: LỜI KHAI MÂU THUẪN】
-76. Chế độ tướng quân do Ieyasu lập ra, gọi là chế độ Tokugawa, kéo dài hơn hai trăm năm. 【CÓ SỬ】
-77. Giờ quay lại câu hỏi đầu hồ sơ. Nobunaga bị chính thuộc hạ phản khi chưa kịp thống nhất nước Nhật, còn Hideyoshi thống nhất được nhưng mất khi con còn nhỏ. 【CÓ SỬ】
-78. Rồi dòng Hideyoshi chấm dứt ở Osaka, còn dòng Tokugawa giữ quyền hơn hai trăm năm. Đó là điều sử ghi lại. 【CÓ SỬ】
-79. Còn vì sao Ieyasu giữ được, nói là ông khôn hơn hay kiên nhẫn hơn, thì tài liệu không cho phép khẳng định. Hồ sơ ghi mục này là KHÔNG AI BIẾT. 【KHÔNG AI BIẾT】
-80. Quay lại con chim đỗ quyên: đó vẫn chỉ là giai thoại. Ai thích đùa thì nói người ngồi chờ lâu nhất là người ngồi lại cuối cùng, nhưng đó là đùa, không phải sử. 【GIAI THOẠI】
-81. Từ năm 1467 đến năm 1603, nước Nhật mất hơn một trăm ba mươi năm để có lại một người đứng đầu. Ba bị đơn này, mỗi người một kiểu, đã mở đường cho điều đó. 【CÓ SỬ】
+74. Một năm sau, năm 1616, Ieyasu mất, thọ bảy mươi ba tuổi. Ngày mất thì nguồn ghi hai ngày khác nhau, mười bảy tháng tư hoặc mùng một tháng sáu. 【CÓ SỬ · NGÀY: LỜI KHAI MÂU THUẪN】
+75. Chế độ tướng quân do Ieyasu lập ra, gọi là chế độ Tokugawa, kéo dài hơn hai trăm năm. 【CÓ SỬ】
+76. Giờ quay lại câu hỏi đầu hồ sơ. Nobunaga bị chính thuộc hạ phản khi chưa kịp thống nhất nước Nhật, còn Hideyoshi thống nhất được nhưng mất khi con còn nhỏ. 【CÓ SỬ】
+77. Rồi dòng Hideyoshi chấm dứt ở Osaka, còn dòng Tokugawa giữ quyền hơn hai trăm năm. Đó là điều sử ghi lại. 【CÓ SỬ】
+78. Còn vì sao Ieyasu giữ được, nói là ông khôn hơn hay kiên nhẫn hơn, thì tài liệu không cho phép khẳng định. Hồ sơ ghi mục này là KHÔNG AI BIẾT. 【KHÔNG AI BIẾT】
+79. Quay lại con chim đỗ quyên: đó vẫn chỉ là giai thoại. Ai thích đùa thì nói người ngồi chờ lâu nhất là người ngồi lại cuối cùng, nhưng đó là đùa, không phải sử. 【GIAI THOẠI】
+80. Từ năm 1467 đến năm 1603, nước Nhật mất hơn một trăm ba mươi năm để có lại một người đứng đầu. 【CÓ SỬ】
 
 ## Những gì khác so với bản 10
 | Phần | Bản 10 | Bản 11 |
@@ -175,6 +174,37 @@ Ngoài ra rà thêm các chỗ nền chưa đủ: đoạn 31 gọi "cậu thanh 
 | 7 | Mọi chuyện bắt đầu từ chuyện nối ngôi tướng quân. Tướng quân Ashikaga Yoshimasa không có con nên định cho em trai nối ngôi. Sau đó ông có con trai, và cả nhà tướng quân cãi nhau xem ai sẽ nối. | Mọi chuyện bắt đầu từ chuyện nối ngôi. Tướng quân Ashikaga Yoshimasa không có con, nên định để em trai nối ngôi. Nhưng rồi ông có con trai. |
 | 8 | Năm 1467, hai lãnh chúa lớn ở Kyoto đứng về hai phía của cuộc cãi nhau ấy: Hosokawa Katsumoto, gọi là phe Đông, và Yamana Sōzen, gọi là phe Tây. Họ đánh nhau suốt mười một năm. | Thế là dòng họ Ashikaga chia làm hai phía: người theo em trai, người theo con trai. Năm 1467, hai lãnh chúa lớn là Hosokawa Katsumoto, phe Đông, và Yamana Sōzen, phe Tây, kéo quân đánh nhau suốt mười một năm. |
 Nguồn khớp Britannica: tranh chấp trong chính dòng họ tướng quân, một phía ủng hộ em trai, một phía ủng hộ con trai. Đoạn 8 dài khoảng 39 chữ, sẽ tách khi đọc giọng.
+
+## Rà lần ba theo cách người chưa biết chuyện (16/11, 17:20): trước và sau
+Số đoạn là số MỚI. Bản này còn 80 đoạn (bỏ 2 đoạn cũ, thêm 1). Các bảng ở trên dùng số cũ.
+| Đoạn mới (cũ) | Trước | Sau | Vì sao |
+|---|---|---|---|
+| 12 | ...ba dòng họ: Hosokawa, rồi Miyoshi, rồi Matsunaga. | ...lần lượt là ba dòng họ khác nhau. | Ba tên không tên nào quay lại, người nghe không cần nhớ. |
+| 21 | Tên người gia thần ghi không giống nhau..., năm cha mất... | Có nguồn ghi 1549, có nguồn ghi 1551, và tên người gia thần cũng không thống nhất. | Người nghe chưa nghe tên nào nên câu cũ vô nghĩa; đặt năm lên trước. |
+| 26 | Ở yên trong thành thì chờ chết. Lao ra ngoài thì cũng có thể chết, nhưng ít ra đã dám thử. Nobunaga chọn lao ra. | Chỉ biết chắc một điều: Nobunaga không ngồi chờ trong thành, mà đem quân ra đón đánh. | Câu cũ là lời bình của tôi, gán nội tâm cho ông, và mâu thuẫn với đoạn 25 (còn tranh cãi đánh úp hay đánh thẳng). Câu mới chỉ nêu điều mọi cách kể đều có; nguồn: tabi-samurai-japan (ông xuất quân từ rạng sáng, chỉ năm người theo). |
+| 27 | Khi quân Imagawa đang nghỉ ngơi thì một cơn giông... | Theo cách kể phổ biến nhất, khi quân Imagawa đang nghỉ ngơi thì... | Khớp với đoạn 25: chi tiết trận đánh còn tranh cãi nên phải nói là cách kể phổ biến. |
+| 28 | ...và kế hoạch kéo quân lên kinh đô Kyoto của ông ta cũng tan theo. | Yoshimoto bị giết ngay trong trận. Quân Imagawa mất người chỉ huy nên tan chạy. | Nghiên cứu mới (tabi-samurai-japan) nghi ngờ mục đích của Yoshimoto là lên Kyoto; không đủ chắc nên bỏ. |
+| 29 | ...Từ hôm đó, cái tên Oda Nobunaga không còn là chuyện cười nữa. | Cậu bé bị cả họ chê ngày nào đã đánh bại kẻ đông hơn mình nhiều lần. | Câu bỏ là nhận định không nguồn. |
+| 31 | Vậy là hai trong ba bị đơn đã gặp nhau. | ...đã trở thành đồng minh. | Cũ mâu thuẫn đoạn 56 (Ieyasu từng làm con tin ở nhà Oda, tức đã gặp từ trước). |
+| 33 (cũ 33+34) | Hai đoạn cùng nói xuất thân thấp. | Gộp một đoạn. | Lặp ý. |
+| 35 (cũ 36) | Ông cũng có mặt ở Okehazama năm 1560... | Thêm: "Về sau ông được nâng lên hàng samurai." | Nguồn: New World Encyclopedia, The Collector. |
+| 36 (cũ 37) | Đến năm 1564, ông mang tên Kinoshita Hideyoshi và bắt đầu leo lên. | Nhưng ông lập công dần. Ông thuyết phục nhiều võ sĩ xứ Mino bỏ nhà Saitō sang nhà Oda, rồi năm 1570 lập công lớn trong trận Anegawa. | Cũ vô nghĩa ("leo lên" cái gì?). Nguồn: NWE, The Collector. |
+| 37 (MỚI) | (không có) | Đến năm 1573, Nobunaga giao cho ông cai quản ba huyện ở xứ Omi, và ông trở thành một lãnh chúa. | Lấp khoảng trống 1564 đến 1582: người xách dép sao lại cầm quân? Nguồn: NWE, The Collector (cả hai: ba huyện xứ Omi). |
+| 38 | Sau Okehazama, Nobunaga mở rộng... | Trong lúc Hideyoshi lên dần, Nobunaga mở rộng... | Tránh nhảy ngược thời gian. |
+| 40–41 | Azuchi 1576 và chùa Hongan 1580 ở Osaka; "Nhớ cái tên Osaka nhé". | Chỉ còn Azuchi 1576. | Chùa Hongan người nghe không biết là gì, và lời "nhớ Osaka" chỉ để nhắc lại ở đoạn 74 cũ mà không có ý nghĩa; bỏ cả hai. |
+| 42 | Nhưng cú đòn lớn nhất lại không đến từ kẻ thù... | Nhưng cú đòn lại không đến từ kẻ thù... | "Lớn nhất" là cực cấp không nguồn. |
+| 45 | Lúc đó Hideyoshi đang đánh nhà Mori... | ...đang vây thành Takamatsu của nhà Mori... | Nguồn: The Collector (vây Takamatsu rồi giảng hòa). |
+| 48 | ...Hideyoshi nhận Yamashiro và vài vùng quanh đó... | ...Đất của Nobunaga được chia cho các thuộc hạ, còn chuyện ai nối nghiệp vẫn bỏ ngỏ. | Tên đất không cần thiết. |
+| 49 | Một đối thủ lớn là Shibata Katsuie | Một đối thủ là Shibata Katsuie | Bỏ "lớn" không nguồn. |
+| 50 | ...Ieyasu thắng một trận ở Nagakute. | ...Ieyasu thắng một trận. | Bớt tên địa danh. |
+| 51 | ...Ieyasu chọn ngồi lại thay vì đánh tiếp, đúng kiểu người biết chờ. | Nhưng không ai hạ được ai, nên ít lâu sau hai bên đình chiến. | Gán động cơ, và mâu thuẫn đoạn 78 (không ai khẳng định được vì sao Ieyasu giữ được). |
+| 57 | ...Biết chờ thời, chắc là tập từ hồi làm con tin. | Bỏ câu này. | Là đoán của tôi, cùng lý do trên. |
+| 60 | Nghe như bị đẩy ra xa trung tâm. | Kantō nằm xa Kyoto, nơi quyền lực lúc đó đặt trụ sở. | Bỏ diễn giải, giữ địa lý. |
+| 72 | Hideyori vẫn còn ở thành Osaka. Năm 1614 và 1615, Ieyasu đánh hai đợt vây thành. | Thêm: "Nhiều võ sĩ mất đất sau Sekigahara kéo về đó theo ông, nên căng thẳng giữa nhà Tokugawa và nhà Toyotomi ngày một tăng." | Cũ thiếu lý do. Nguồn: samurai-archives (căng thẳng, võ sĩ mất đất sau Sekigahara) và tabi-samurai-japan (võ sĩ phe Tây mất đất kéo về Osaka). Chuyện chuông chùa vẫn không dùng (suy diễn). |
+| (cũ 74) | Nhớ cái tên Osaka chứ?... | Bỏ. | Xem 40–41. |
+| 80 (cũ 81) | ...Ba bị đơn này, mỗi người một kiểu, đã mở đường cho điều đó. | Bỏ câu thứ hai. | Là kết luận của kênh, không phải của sử gia. |
+
+**Điểm lệch nguồn mới phát hiện:** The Collector nói Hideyoshi được nâng lên samurai ngay sau Okehazama; NWE không nêu năm. Tôi chỉ ghi "về sau". NWE nói Hideyoshi dẫn quân ở Anegawa; The Collector nói ông "đóng góp lớn", nên tôi dùng "lập công lớn".
 
 ## Điểm cần chủ kênh quyết (quy tắc kênh bị chạm)
 1. Quy tắc cũ ghi "ghi chú tranh cãi, so sánh nguồn không nằm trong lời kể". Hướng này đưa "lời khai mâu thuẫn" vào lời kể. Mục "Nới quy tắc viết kịch bản" (05/11/2026) cho phép nhắc nguồn trong lời kể, nhưng bản 11 vẫn cần chủ kênh đồng ý rõ.

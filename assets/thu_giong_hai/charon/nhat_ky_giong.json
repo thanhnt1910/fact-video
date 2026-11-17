@@ -2854,5 +2854,77 @@
 "du_phong": false,
 "config": "v3-2026-11-01-C",
 "tone": "story"
+},
+"c180001": {
+"nhom": "180001-180005",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:23:33",
+"du_phong": false
+},
+"c180006": {
+"nhom": "180006-180010",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:23:46",
+"du_phong": false
+},
+"c180011": {
+"nhom": "180011-180014",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:23:57",
+"du_phong": false
+},
+"c180015": {
+"nhom": "180015-180017",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:24:06",
+"du_phong": false
+},
+"c180018": {
+"nhom": "180018-180020",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:24:15",
+"du_phong": false
+},
+"c180021": {
+"nhom": "180021-180024",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:24:27",
+"du_phong": false
+},
+"c180025": {
+"nhom": "180025-180028",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:24:38",
+"du_phong": false
+},
+"c180029": {
+"nhom": "180029-180030",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:24:49",
+"du_phong": false
+},
+"c180031": {
+"nhom": "180031-180032",
+"model": "gemini-3.8-flash-tts",
+"voice": "Charon",
+"style_var": "C_chuong",
+"thoi_diem": "2026-11-17 16:24:56",
+"du_phong": false
 }
 }

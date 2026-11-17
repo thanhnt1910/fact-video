@@ -2,6 +2,7 @@
  {
   "n": 183001,
   "chuong": 1,
+  "nhip": "hook1",
   "tone": "story",
   "text": "Mười vạn quân giặc đang tràn qua cửa ải, đuổi theo một toán quân nhỏ cứ đánh vài trận rồi lại lùi.",
   "hien": "Mười vạn quân giặc đang tràn qua cửa ải, đuổi theo một toán quân nhỏ cứ đánh vài trận rồi lại lùi."
@@ -9,6 +10,7 @@
  {
   "n": 183002,
   "chuong": 1,
+  "nhip": "hook2",
   "tone": "story",
   "text": "Nhưng toán quân ấy không phải đang thua. Nó đang kéo vị tướng chỉ huy mười vạn quân kia vào một thung lũng hẹp.",
   "hien": "Nhưng toán quân ấy không phải đang thua. Nó đang kéo vị tướng chỉ huy mười vạn quân kia vào một thung lũng hẹp."
@@ -16,6 +18,7 @@
  {
   "n": 183003,
   "chuong": 1,
+  "nhip": "hook3",
   "tone": "story",
   "text": "Thung lũng ấy là ải Chi Lăng. Vị tướng ấy là Liễu Thăng của nhà Minh, và ông đã phải trả giá bằng chính mạng mình ở núi Mã Yên gần đó.",
   "hien": "Thung lũng ấy là ải Chi Lăng. Vị tướng ấy là Liễu Thăng của nhà Minh, và ông đã phải trả giá bằng chính mạng mình ở núi Mã Yên gần đó."
@@ -23,6 +26,7 @@
  {
   "n": 183004,
   "chuong": 1,
+  "nhip": "hook4",
   "tone": "story",
   "text": "Một cái chết kéo theo ba lần sụp đổ: ở Chi Lăng, ở Xương Giang, và ở một doanh trại cách đó rất xa. Chúng đã sụp đổ thế nào?",
   "hien": "Một cái chết kéo theo ba lần sụp đổ: ở Chi Lăng, ở Xương Giang, và ở một doanh trại cách đó rất xa. Chúng đã sụp đổ thế nào?"
@@ -30,13 +34,15 @@
  {
   "n": 183005,
   "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
-  "text": "Cuối năm một nghìn bốn trăm hai mươi sáu, tướng nhà Minh là Vương Thông thua trận ở Tốt Động, rồi bị nghĩa quân Lam Sơn vây chặt ở thành Đông Quan.",
-  "hien": "Cuối năm một nghìn bốn trăm hai mươi sáu, tướng nhà Minh là Vương Thông thua trận ở Tốt Động, rồi bị nghĩa quân Lam Sơn vây chặt ở thành Đông Quan."
+  "text": "Cuối năm một nghìn bốn trăm hai mươi sáu, tướng nhà Minh là Vương Thông thua ở Tốt Động, rồi bị nghĩa quân Lam Sơn vây chặt ở thành Đông Quan.",
+  "hien": "Cuối năm một nghìn bốn trăm hai mươi sáu, tướng nhà Minh là Vương Thông thua ở Tốt Động, rồi bị nghĩa quân Lam Sơn vây chặt ở thành Đông Quan."
  },
  {
   "n": 183006,
   "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
   "text": "Vì thế, nhà Minh sai hai đạo quân sang cứu. Liễu Thăng đem mười vạn quân và hai vạn ngựa, theo đường Lạng Sơn kéo xuống.",
   "hien": "Vì thế, nhà Minh sai hai đạo quân sang cứu. Liễu Thăng đem mười vạn quân và hai vạn ngựa, theo đường Lạng Sơn kéo xuống."
@@ -44,6 +50,7 @@
  {
   "n": 183007,
   "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
   "text": "Cùng lúc ấy, tướng Mộc Thạnh đem năm vạn quân theo đường Vân Nam tiến sang. Hai đạo quân được giao cùng tới Đông Quan để phá vòng vây.",
   "hien": "Cùng lúc ấy, tướng Mộc Thạnh đem năm vạn quân theo đường Vân Nam tiến sang. Hai đạo quân được giao cùng tới Đông Quan để phá vòng vây."
@@ -51,6 +58,7 @@
  {
   "n": 183008,
   "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
   "text": "Các tướng Lam Sơn muốn đánh ngay thành Đông Quan trước khi viện binh tới. Lê Lợi không chịu, vì đánh vào thành vững là cách kém nhất.",
   "hien": "Các tướng Lam Sơn muốn đánh ngay thành Đông Quan trước khi viện binh tới. Lê Lợi không chịu, vì đánh vào thành vững là cách kém nhất."
@@ -58,6 +66,7 @@
  {
   "n": 183009,
   "chuong": 2,
+  "nhip": "goc_re",
   "tone": "story",
   "text": "Vì thế, ông để quân giữ sức, chờ đánh quân cứu viện ngoài đồng trống, và nhắm trước vào đạo quân lớn nhất của Liễu Thăng.",
   "hien": "Vì thế, ông để quân giữ sức, chờ đánh quân cứu viện ngoài đồng trống, và nhắm trước vào đạo quân lớn nhất của Liễu Thăng."
@@ -65,139 +74,135 @@
  {
   "n": 183010,
   "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Khi quân Liễu Thăng tràn qua biên giới, tướng Trần Lựu giữ cửa ải đầu tiên đánh vài trận rồi lui dần, lui mãi về tận ải Chi Lăng.",
-  "hien": "Khi quân Liễu Thăng tràn qua biên giới, tướng Trần Lựu giữ cửa ải đầu tiên đánh vài trận rồi lui dần, lui mãi về tận ải Chi Lăng."
+  "text": "Liễu Thăng tràn qua biên giới, thắng liền mấy trận đầu. Trần Lựu giữ cửa ải đầu tiên cứ đánh vài trận rồi lui, lui mãi về tận ải Chi Lăng.",
+  "hien": "Liễu Thăng tràn qua biên giới, thắng liền mấy trận đầu. Trần Lựu giữ cửa ải đầu tiên cứ đánh vài trận rồi lui, lui mãi về tận ải Chi Lăng."
  },
  {
   "n": 183011,
   "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Ải Chi Lăng là một thung lũng hẹp, hai bên là núi đá, giữa là đường đi và đầm lầy. Nghĩa quân đã phục sẵn ở đó.",
-  "hien": "Ải Chi Lăng là một thung lũng hẹp, hai bên là núi đá, giữa là đường đi và đầm lầy. Nghĩa quân đã phục sẵn ở đó."
+  "text": "Thấy quân Lam Sơn chỉ lui, Liễu Thăng càng đuổi gấp hơn, đạo quân mười vạn người kéo dài trên đường núi.",
+  "hien": "Thấy quân Lam Sơn chỉ lui, Liễu Thăng càng đuổi gấp hơn, đạo quân mười vạn người kéo dài trên đường núi."
  },
  {
   "n": 183012,
   "chuong": 3,
+  "nhip": "diem_thap",
   "tone": "story",
-  "text": "Thắng liền mấy trận đầu, Liễu Thăng cứ thế đuổi theo. Thấy quân Lam Sơn chỉ lui, ông càng đuổi gấp hơn.",
-  "hien": "Thắng liền mấy trận đầu, Liễu Thăng cứ thế đuổi theo. Thấy quân Lam Sơn chỉ lui, ông càng đuổi gấp hơn."
+  "text": "Mười lăm vạn quân cứu viện đang tràn vào từ hai hướng. Trong khi đó, thành Đông Quan vẫn chưa hạ được.",
+  "hien": "Mười lăm vạn quân cứu viện đang tràn vào từ hai hướng. Trong khi đó, thành Đông Quan vẫn chưa hạ được."
  },
  {
   "n": 183013,
-  "chuong": 3,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Đến ngày hai mươi tháng Chín, ông chỉ đem hơn một trăm kỵ binh vượt lên trước, tới chân núi Mã Yên.",
-  "hien": "Đến ngày hai mươi tháng Chín, ông chỉ đem hơn một trăm kỵ binh vượt lên trước, tới chân núi Mã Yên."
+  "text": "Nhưng ải Chi Lăng là một thung lũng hẹp, hai bên là núi đá, giữa là đường đi và đầm lầy. Nghĩa quân đã phục sẵn ở đó.",
+  "hien": "Nhưng ải Chi Lăng là một thung lũng hẹp, hai bên là núi đá, giữa là đường đi và đầm lầy. Nghĩa quân đã phục sẵn ở đó."
  },
  {
   "n": 183014,
-  "chuong": 3,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Đến ngày hai mươi tháng Chín, Liễu Thăng chỉ đem hơn một trăm kỵ binh vượt lên trước, tới chân núi Mã Yên.",
+  "hien": "Đến ngày hai mươi tháng Chín, Liễu Thăng chỉ đem hơn một trăm kỵ binh vượt lên trước, tới chân núi Mã Yên."
+ },
+ {
+  "n": 183015,
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
   "text": "Đúng lúc ấy, phục binh từ bốn phía đổ ra. Liễu Thăng bị giết ngay tại chỗ, trong khi đại quân của ông còn ở phía sau.",
   "hien": "Đúng lúc ấy, phục binh từ bốn phía đổ ra. Liễu Thăng bị giết ngay tại chỗ, trong khi đại quân của ông còn ở phía sau."
  },
  {
-  "n": 183015,
-  "chuong": 3,
-  "tone": "story",
-  "text": "Đó là lần sụp đổ thứ nhất: mười vạn quân mất chủ tướng ngay ở cửa ngõ vào nước ta.",
-  "hien": "Đó là lần sụp đổ thứ nhất: mười vạn quân mất chủ tướng ngay ở cửa ngõ vào nước ta."
- },
- {
   "n": 183016,
-  "chuong": 4,
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Mất chủ tướng, đạo quân ấy vẫn còn rất đông, và vẫn cố tiến về phía Đông Quan. Nhưng đi đến đâu, họ cũng bị chặn đánh.",
-  "hien": "Mất chủ tướng, đạo quân ấy vẫn còn rất đông, và vẫn cố tiến về phía Đông Quan. Nhưng đi đến đâu, họ cũng bị chặn đánh."
+  "text": "Đó là lần sụp đổ thứ nhất. Mất chủ tướng, đạo quân ấy vẫn còn rất đông và vẫn cố tiến, nhưng đi đến đâu cũng bị chặn đánh.",
+  "hien": "Đó là lần sụp đổ thứ nhất. Mất chủ tướng, đạo quân ấy vẫn còn rất đông và vẫn cố tiến, nhưng đi đến đâu cũng bị chặn đánh."
  },
  {
   "n": 183017,
-  "chuong": 4,
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
   "text": "Chỉ năm ngày sau, tướng Lương Minh tử trận. Thêm ba ngày nữa, Lý Khánh, một viên quan lớn theo đạo quân, cũng tự tử.",
   "hien": "Chỉ năm ngày sau, tướng Lương Minh tử trận. Thêm ba ngày nữa, Lý Khánh, một viên quan lớn theo đạo quân, cũng tự tử."
  },
  {
   "n": 183018,
-  "chuong": 4,
+  "chuong": 6,
+  "nhip": "lang",
   "tone": "story",
-  "text": "Còn hai tướng Thôi Tụ và Hoàng Phúc dẫn quân tới thành Xương Giang, mong có chỗ dựa.",
-  "hien": "Còn hai tướng Thôi Tụ và Hoàng Phúc dẫn quân tới thành Xương Giang, mong có chỗ dựa."
+  "text": "Còn hai tướng Thôi Tụ và Hoàng Phúc dẫn quân tới thành Xương Giang, mong có chỗ dựa. Tới nơi, họ mới biết thành đã bị nghĩa quân hạ từ trước.",
+  "hien": "Còn hai tướng Thôi Tụ và Hoàng Phúc dẫn quân tới thành Xương Giang, mong có chỗ dựa. Tới nơi, họ mới biết thành đã bị nghĩa quân hạ từ trước."
  },
  {
   "n": 183019,
-  "chuong": 4,
+  "chuong": 6,
+  "nhip": "lang",
   "tone": "story",
-  "text": "Nhưng tới nơi, họ mới biết thành Xương Giang đã bị nghĩa quân hạ từ trước. Không có thành để dựa, quân nhà Minh đành đóng trại giữa cánh đồng trống.",
-  "hien": "Nhưng tới nơi, họ mới biết thành Xương Giang đã bị nghĩa quân hạ từ trước. Không có thành để dựa, quân nhà Minh đành đóng trại giữa cánh đồng trống."
+  "text": "Không có thành để dựa, quân nhà Minh đành đóng trại giữa cánh đồng trống. Nghĩa quân chưa đánh ngay, mà vây kín bốn mặt, cắt đường lấy lương.",
+  "hien": "Không có thành để dựa, quân nhà Minh đành đóng trại giữa cánh đồng trống. Nghĩa quân chưa đánh ngay, mà vây kín bốn mặt, cắt đường lấy lương."
  },
  {
   "n": 183020,
-  "chuong": 4,
-  "tone": "story",
-  "text": "Nghĩa quân chưa đánh ngay. Họ vây kín bốn mặt, cắt đường lấy lương, để đạo quân ấy đói dần giữa đồng.",
-  "hien": "Nghĩa quân chưa đánh ngay. Họ vây kín bốn mặt, cắt đường lấy lương, để đạo quân ấy đói dần giữa đồng."
- },
- {
-  "n": 183021,
-  "chuong": 4,
+  "chuong": 6,
+  "nhip": "cao_trao",
   "tone": "story",
   "text": "Đến tháng Mười, nghĩa quân mới đánh vào. Doanh trại vỡ tan, Thôi Tụ và Hoàng Phúc đều bị bắt sống.",
   "hien": "Đến tháng Mười, nghĩa quân mới đánh vào. Doanh trại vỡ tan, Thôi Tụ và Hoàng Phúc đều bị bắt sống."
  },
  {
-  "n": 183022,
-  "chuong": 4,
+  "n": 183021,
+  "chuong": 6,
+  "nhip": "cao_trao",
   "tone": "story",
   "text": "Xương Giang là lần sụp đổ thứ hai. Đạo quân mười vạn người của Liễu Thăng coi như không còn.",
   "hien": "Xương Giang là lần sụp đổ thứ hai. Đạo quân mười vạn người của Liễu Thăng coi như không còn."
  },
  {
-  "n": 183023,
-  "chuong": 5,
+  "n": 183022,
+  "chuong": 6,
+  "nhip": "chi_tiet_nguoi",
   "tone": "story",
-  "text": "Lúc ấy Mộc Thạnh đã vào tới vùng Lê Hoa, gần biên giới Vân Nam. Năm vạn quân của ông vẫn chưa đánh trận lớn nào.",
-  "hien": "Lúc ấy Mộc Thạnh đã vào tới vùng Lê Hoa, gần biên giới Vân Nam. Năm vạn quân của ông vẫn chưa đánh trận lớn nào."
+  "text": "Theo sử cũ, Hoàng Phúc từng làm quan ở nước ta nhiều năm, nên được tha và cho về nước.",
+  "hien": "Theo sử cũ, Hoàng Phúc từng làm quan ở nước ta nhiều năm, nên được tha và cho về nước."
+ },
+ {
+  "n": 183023,
+  "chuong": 7,
+  "nhip": "don_cuoi",
+  "tone": "story",
+  "text": "Mộc Thạnh lúc ấy đang ở Lê Hoa, gần biên giới Vân Nam. Theo sử cũ, Lê Lợi sai đem thư từ, con dấu của Liễu Thăng tới cho ông xem.",
+  "hien": "Mộc Thạnh lúc ấy đang ở Lê Hoa, gần biên giới Vân Nam. Theo sử cũ, Lê Lợi sai đem thư từ, con dấu của Liễu Thăng tới cho ông xem."
  },
  {
   "n": 183024,
-  "chuong": 5,
+  "chuong": 7,
+  "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Theo sử cũ, Lê Lợi sai đem những thư từ và con dấu lấy được của Liễu Thăng đến cho Mộc Thạnh xem.",
-  "hien": "Theo sử cũ, Lê Lợi sai đem những thư từ và con dấu lấy được của Liễu Thăng đến cho Mộc Thạnh xem."
+  "text": "Thấy thư và dấu của Liễu Thăng trong tay đối phương, Mộc Thạnh bỏ chạy về nước. Bị đuổi đánh, ông chỉ kịp thoát thân, đó là lần sụp đổ thứ ba.",
+  "hien": "Thấy thư và dấu của Liễu Thăng trong tay đối phương, Mộc Thạnh bỏ chạy về nước. Bị đuổi đánh, ông chỉ kịp thoát thân, đó là lần sụp đổ thứ ba."
  },
  {
   "n": 183025,
-  "chuong": 5,
+  "chuong": 8,
+  "nhip": "ket",
   "tone": "story",
-  "text": "Thấy thư và dấu của Liễu Thăng nằm trong tay đối phương, Mộc Thạnh biết đạo quân kia đã tan, liền bỏ chạy về nước.",
-  "hien": "Thấy thư và dấu của Liễu Thăng nằm trong tay đối phương, Mộc Thạnh biết đạo quân kia đã tan, liền bỏ chạy về nước."
+  "text": "Hết hy vọng cứu viện, Vương Thông xin thôi đánh để được rút về nước. Lê Lợi cho quân nhà Minh về, còn cấp cả thuyền và ngựa.",
+  "hien": "Hết hy vọng cứu viện, Vương Thông xin thôi đánh để được rút về nước. Lê Lợi cho quân nhà Minh về, còn cấp cả thuyền và ngựa."
  },
  {
   "n": 183026,
-  "chuong": 5,
-  "tone": "story",
-  "text": "Nghĩa quân đuổi theo và đánh tan quân của Mộc Thạnh trên đường rút. Chính ông chỉ kịp chạy thoát thân, và đó là lần sụp đổ thứ ba.",
-  "hien": "Nghĩa quân đuổi theo và đánh tan quân của Mộc Thạnh trên đường rút. Chính ông chỉ kịp chạy thoát thân, và đó là lần sụp đổ thứ ba."
- },
- {
-  "n": 183027,
-  "chuong": 6,
-  "tone": "story",
-  "text": "Hết hy vọng cứu viện, Vương Thông trong thành Đông Quan đành xin thôi đánh để được rút về nước.",
-  "hien": "Hết hy vọng cứu viện, Vương Thông trong thành Đông Quan đành xin thôi đánh để được rút về nước."
- },
- {
-  "n": 183028,
-  "chuong": 6,
-  "tone": "story",
-  "text": "Tháng Chạp năm ấy, hai bên làm lễ thề ở phía nam thành Đông Quan. Lê Lợi cho quân nhà Minh về nước, còn cấp cả thuyền và ngựa.",
-  "hien": "Tháng Chạp năm ấy, hai bên làm lễ thề ở phía nam thành Đông Quan. Lê Lợi cho quân nhà Minh về nước, còn cấp cả thuyền và ngựa."
- },
- {
-  "n": 183029,
-  "chuong": 6,
+  "chuong": 8,
+  "nhip": "ket",
   "tone": "story",
   "text": "Một toán quân cứ đánh rồi lùi đã kéo Liễu Thăng vào Chi Lăng, rồi kéo sập cả hai đạo quân cứu viện. Cảm ơn bạn đã lắng nghe câu chuyện này.",
   "hien": "Một toán quân cứ đánh rồi lùi đã kéo Liễu Thăng vào Chi Lăng, rồi kéo sập cả hai đạo quân cứu viện. Cảm ơn bạn đã lắng nghe câu chuyện này."

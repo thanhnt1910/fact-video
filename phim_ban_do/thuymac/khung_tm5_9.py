@@ -26,15 +26,15 @@ K['tm6']=dict(ma='tm6',ten='Bạch Đằng 1288',n_hua=2,loi_hua='hai điều đ
  N('hook3','Sông Bạch Đằng; hạm đội của Ô Mã Nhi, tướng nhà Nguyên, sắp mất cả hạm đội lẫn tự do','Toàn thư'),
  N('hook4','Vì sao Ô Mã Nhi có mặt ở đó? Hai điều: một đoàn thuyền lương, và một con sông được chọn sẵn','lời hứa'),
  N('goc_re','Thua năm 1285, Hốt Tất Liệt không chịu thôi → cuối 1287 Thoát Hoan sang lần nữa → vua hỏi, Trần Quốc Tuấn đáp "năm nay đánh giặc nhàn" → lần này giặc sang cả đường biển: chiến thuyền Ô Mã Nhi đi trước, thuyền lương Trương Văn Hổ nặng nề đi sau','Toàn thư',4),
- N('the_nguy','Ở Vân Đồn, Trần Khánh Dư đánh không lại chiến thuyền Ô Mã Nhi; chiến thuyền giặc đi qua, tưởng như đường biển đã mở','Toàn thư',2),
- N('diem_thap','Quân bộ của Thoát Hoan tiến về Thăng Long, kinh thành bị bỏ trống thêm một lần','Toàn thư'),
- N('buoc_ngoat','Đoàn thuyền lương tới sau bị Trần Khánh Dư chặn đánh tan ở Vân Đồn, lương và khí giới bắt được nhiều không kể xiết (điều đầu tiên)','Toàn thư',3),
- N('lan1','Giặc chiếm thành mà không có lương → tỏa đi cướp, Ô Mã Nhi phá lăng vua Trần Thái Tông → càng cướp càng bị đánh úp, mùa hè sắp tới → Thoát Hoan quyết định rút: quân bộ qua Lạng Sơn, chiến thuyền theo sông Bạch Đằng (điều thứ hai)','Toàn thư',5),
- N('chi_tiet_nguoi','Trần Quốc Tuấn cho đóng cọc phủ cỏ ở lòng sông; chỉ xuống sông thề: trận này không phá xong giặc Nguyên thì không về đến sông này nữa','Toàn thư',2),
- N('lang','Ngày mồng tám tháng Ba, thủy triều đang lên, cọc nằm yên dưới nước; toán thuyền nhỏ ra đánh nhử rồi giả thua, hạm đội giặc vẫn đuổi theo','Toàn thư',2),
+ N('the_nguy','Ở Vân Đồn, Trần Khánh Dư đánh không lại chiến thuyền Ô Mã Nhi; chiến thuyền giặc đi qua để hội quân với Thoát Hoan','Toàn thư',2),
+ N('diem_thap','Vì để giặc lọt qua, Trần Khánh Dư bị Thượng hoàng sai người bắt về kinh xét tội; cửa biển như đã mất','Toàn thư'),
+ N('buoc_ngoat','Ông xin hoãn ít ngày để lập công; đoàn thuyền lương tới sau bị ông chặn đánh tan ở Vân Đồn, lương và khí giới bắt được nhiều không kể xiết (điều đầu tiên)','Toàn thư',3),
+ N('lan1','Thoát Hoan vào Thăng Long bỏ trống mà không có lương → tỏa đi cướp, Ô Mã Nhi phá lăng vua Trần Thái Tông → càng cướp càng bị đánh úp, mùa hè sắp tới → quyết định rút: quân bộ qua Lạng Sơn, chiến thuyền theo sông Bạch Đằng, nơi Ngô Quyền từng thắng (điều thứ hai)','Toàn thư',6),
+ N('lang','Trần Quốc Tuấn cho đóng cọc phủ cỏ; ngày mồng tám tháng Ba thủy triều đang lên, nước phủ kín cọc; toán thuyền nhỏ đánh nhử, hạm đội giặc đuổi theo','Toàn thư',3),
+ N('chi_tiet_nguoi','Trần Quốc Tuấn chỉ xuống sông thề: trận này không phá xong giặc Nguyên thì không về đến sông này nữa','Toàn thư'),
  N('cao_trao','Thủy triều rút xuống, cọc nhô lên, thuyền giặc mắc cọc vỡ; quân Đại Việt từ hai bờ và trên sông đổ ra; bắt Ô Mã Nhi, Phàn Tiếp, Tích Lệ Cơ, hơn bốn trăm thuyền','Toàn thư',3),
  N('don_cuoi','Thoát Hoan rút đường bộ bị chặn đánh suốt đường, chạy qua biên giới, từ đó quân nhà Nguyên không sang nữa','Toàn thư',1),
- N('ket','Giải nghĩa "đánh giặc nhàn": đánh xa nhà, sống nhờ thuyền lương, mất lương phải rút qua con sông đã chờ sẵn; câu kết: mấy chiếc thuyền nhỏ đã dẫn cả hạm đội vào chỗ chết','diễn giải của người kể',2)])
+ N('ket','Giải nghĩa "đánh giặc nhàn"; câu kết: mấy chiếc thuyền nhỏ đã dẫn cả hạm đội vào chỗ chết','diễn giải của người kể',2)])
 K['tm7']=dict(ma='tm7',ten='Tốt Động, Chúc Động 1426',n_hua=2,loi_hua='hai điều giữ cho tiếng súng im',
  hinh_anh=['tiếng súng'],dem=['điều đầu tiên','điều thứ hai'],nhip=[
  N('hook1','Mấy vạn quân giặc chờ một tiếng súng hiệu để cùng ập vào một toán quân nhỏ','Toàn thư (lời khai do thám)'),
@@ -66,7 +66,7 @@ K['tm8']=dict(ma='tm8',ten='Chi Lăng, Xương Giang 1427',n_hua=3,loi_hua='ba l
  N('cao_trao','Tháng Mười nghĩa quân đánh vào, doanh trại vỡ, bắt sống Thôi Tụ, Hoàng Phúc (lần sụp đổ thứ hai)','Toàn thư',2),
  N('chi_tiet_nguoi','Hoàng Phúc, viên quan nhà Minh từng cai trị ở nước ta, được tha cho về','Toàn thư (CẦN đối chiếu)'),
  N('don_cuoi','Lê Lợi sai đem thư từ, con dấu của Liễu Thăng cho Mộc Thạnh xem; Mộc Thạnh bỏ chạy, bị đuổi đánh, chạy thoát thân (lần sụp đổ thứ ba)','Việt Nam sử lược (CẦN đối chiếu Toàn thư)',3),
- N('ket','Vương Thông xin rút, hội thề Đông Quan, cấp thuyền ngựa cho về; câu kết: một toán quân cứ đánh rồi lùi đã kéo sập cả hai đạo quân','Toàn thư',2)])
+ N('ket','Vương Thông xin rút, Lê Lợi cấp thuyền ngựa cho về; câu kết: một toán quân cứ đánh rồi lùi đã kéo sập cả hai đạo quân','Toàn thư',2)])
 K['tm9']=dict(ma='tm9',ten='Rạch Gầm, Xoài Mút 1785',n_hua=2,loi_hua='hai điều',
  hinh_anh=['xuôi','chiến thuyền'],dem=['điều thứ nhất','điều thứ hai'],nhip=[
  N('hook1','Mấy trăm chiến thuyền giặc xuôi một dòng sông lớn, thẳng hướng nơi đóng quân của đối phương','Đại Nam thực lục, nghiên cứu hiện đại'),
@@ -82,6 +82,6 @@ K['tm9']=dict(ma='tm9',ten='Rạch Gầm, Xoài Mút 1785',n_hua=2,loi_hua='hai 
  N('cao_trao','Thuyền Tây Sơn từ hai rạch lao ra chặn đầu, chặn đuôi; đại bác hai bờ bắn vào; thuyền vỡ, thuyền chìm, gần hết đoàn chiến thuyền bị đánh tan','nghiên cứu hiện đại',3),
  N('chi_tiet_nguoi','Chiêu Tăng, Chiêu Sương cùng vài nghìn người lên bờ, chạy bộ qua Chân Lạp về nước','nghiên cứu hiện đại'),
  N('don_cuoi','Nguyễn Ánh lại chạy sang Xiêm; theo sử nhà Nguyễn, người Xiêm từ đó sợ quân Tây Sơn như sợ cọp','Đại Nam thực lục (CẦN đối chiếu câu chữ)',2),
- N('ket','Câu kết: mấy trăm chiến thuyền xuôi sông Tiền hôm ấy đã đi đúng vào khúc sông Nguyễn Huệ chọn sẵn','',1)])
+ N('ket','Câu kết: mấy trăm chiến thuyền xuôi sông Tiền hôm ấy đã đi đúng vào khúc sông Nguyễn Huệ chọn sẵn','diễn giải của người kể',1)])
 for k,v in K.items():
-    json.dump(v,open(f'/tmp/pc/ke-hoach/thu-giong-hai/{k}_khung.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+    json.dump(v,open(f'ke-hoach/thu-giong-hai/{k}_khung.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)

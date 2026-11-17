@@ -1,6 +1,6 @@
 # tm9: Rạch Gầm, Xoài Mút 1785 (lời đọc theo khung, gửi duyệt)
 
-24 đoạn, 615 chữ, khoảng 3.3 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+24 đoạn, 617 chữ, khoảng 3.3 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **hai thứ: việc quân Xiêm làm ở Gia Định và một khúc sông chọn sẵn**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "cầu cứu".
 
 ## Kịch bản (theo nhịp)
@@ -32,7 +32,7 @@ Lời hứa: **hai thứ: việc quân Xiêm làm ở Gia Định và một khú
 
 9. Giữa năm ấy, quân nước Xiêm vào Rạch Giá. Đến cuối năm, họ đã chiếm Trà Ôn, Sa Đéc, Mân Thít, cả một dải miền Tây.
 
-**★ Điểm thấp nhất** (mốc 39%)
+**★ Điểm thấp nhất** (mốc 38%)
 
 10. Nhìn trên bản đồ, Gia Định tưởng như sắp về lại tay Nguyễn Ánh. Lời cầu cứu lúc ấy tưởng như đã chọn đúng.
 
@@ -48,14 +48,14 @@ Lời hứa: **hai thứ: việc quân Xiêm làm ở Gia Định và một khú
 15. Khúc sông ấy chạy từ rạch Gầm tới rạch Xoài Mút, giữa dòng có cù lao Thới Sơn che khuất tầm nhìn.
 16. Quân bộ và đại bác phục sẵn ở hai bờ và trên cù lao, thuyền chiến giấu trong các con rạch. Thứ hai là khúc sông ấy.
 
-**★ Đoạn lặng** (mốc 68%)
+**★ Đoạn lặng** (mốc 67%)
 
 17. Sáng sớm một ngày tháng Giêng năm một nghìn bảy trăm tám mươi lăm, đoàn chiến thuyền nước Xiêm xuôi sông Tiền, định đánh vào Mỹ Tho.
 18. Thuyền đi đầu đã tới Rạch Gầm, thuyền đi cuối cũng lọt vào Xoài Mút. Hai bờ vẫn im, cù lao vẫn im.
 
 **Cao trào** (mốc 76%)
 
-19. Rồi thuyền Tây Sơn từ các con rạch lao ra, chặn cả đầu lẫn đuôi. Đại bác hai bờ và trên cù lao cùng nổ.
+19. Rồi thuyền của nhà Tây Sơn từ các con rạch lao ra, chặn cả đầu lẫn đuôi. Đại bác hai bờ và trên cù lao cùng nổ.
 20. Không còn lối thoát. Thuyền vỡ, thuyền chìm khắp khúc sông, gần như cả đoàn chiến thuyền nước Xiêm bị đánh tan.
 
 **★ Chi tiết con người** (mốc 83%)

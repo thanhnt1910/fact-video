@@ -19,7 +19,7 @@ S=[
 ('lan1',"Quân bộ và đại bác phục sẵn ở hai bờ và trên cù lao, thuyền chiến giấu trong các con rạch. Thứ hai là khúc sông ấy."),
 ('lang',"Sáng sớm một ngày tháng Giêng năm một nghìn bảy trăm tám mươi lăm, đoàn chiến thuyền nước Xiêm xuôi sông Tiền, định đánh vào Mỹ Tho."),
 ('lang',"Thuyền đi đầu đã tới Rạch Gầm, thuyền đi cuối cũng lọt vào Xoài Mút. Hai bờ vẫn im, cù lao vẫn im."),
-('cao_trao',"Rồi thuyền Tây Sơn từ các con rạch lao ra, chặn cả đầu lẫn đuôi. Đại bác hai bờ và trên cù lao cùng nổ."),
+('cao_trao',"Rồi thuyền của nhà Tây Sơn từ các con rạch lao ra, chặn cả đầu lẫn đuôi. Đại bác hai bờ và trên cù lao cùng nổ."),
 ('cao_trao',"Không còn lối thoát. Thuyền vỡ, thuyền chìm khắp khúc sông, gần như cả đoàn chiến thuyền nước Xiêm bị đánh tan."),
 ('chi_tiet_nguoi',"Hai tướng Chiêu Tăng, Chiêu Sương cùng vài nghìn người lên bờ, theo đường bộ qua Chân Lạp mà chạy về nước."),
 ('don_cuoi',"Còn Nguyễn Ánh cũng phải bỏ chạy, và nơi ông chạy tới lại chính là nước Xiêm, nơi ông đã sang xin quân năm trước."),

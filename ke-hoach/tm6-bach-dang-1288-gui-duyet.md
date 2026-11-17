@@ -1,6 +1,6 @@
 # tm6: Bạch Đằng 1288 (lời đọc theo khung, gửi duyệt)
 
-27 đoạn, 751 chữ, khoảng 4.0 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+27 đoạn, 748 chữ, khoảng 4.0 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **hai thứ: một đoàn thuyền lương và một con sông cũ**. Câu đếm: thứ đầu tiên, thứ hai. Hình ảnh xuyên suốt: "nhàn".
 
 ## Kịch bản (theo nhịp)
@@ -19,13 +19,13 @@ Lời hứa: **hai thứ: một đoàn thuyền lương và một con sông cũ*
 
 **Hook 4** (mốc 11%)
 
-4. Câu nói ấy là lời trấn an, hay ông đã nhìn thấy điều gì? Câu trả lời nằm trong hai thứ: một đoàn thuyền lương, và một con sông cũ.
+4. Câu nói ấy là lời trấn an, hay ông đã nhìn thấy điều gì? Hai thứ sẽ trả lời: một đoàn thuyền lương, và một con sông cũ.
 
 **Gốc rễ** (mốc 15%)
 
 5. Ba năm trước, quân nhà Nguyên đã tháo chạy khỏi Đại Việt, nhưng Hốt Tất Liệt không chịu thôi. Cuối năm một nghìn hai trăm tám mươi bảy, Thoát Hoan lại sang.
 6. Lần này giặc sang cả đường biển. Tướng Ô Mã Nhi dẫn chiến thuyền vượt biển đi trước, theo sau là đoàn thuyền chở lương của Trương Văn Hổ.
-7. Đoàn thuyền lương ấy nặng nề, đi chậm, nhưng lại là thứ quý nhất của cả đạo quân. Cả đạo quân trên bộ trông vào nó để có cơm ăn.
+7. Đoàn thuyền lương ấy nặng nề, đi chậm, nhưng lại là thứ quý nhất của cả đạo quân. Quân trên bộ trông cả vào nó để có cơm ăn.
 
 **Thế nguy** (mốc 27%)
 

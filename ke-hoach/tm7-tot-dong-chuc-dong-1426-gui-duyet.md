@@ -1,0 +1,98 @@
+# tm7: Tốt Động, Chúc Động 1426 (bản 2, gửi duyệt)
+
+31 đoạn, 806 chữ, khoảng 4.3 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+
+## Kịch bản
+
+### Chương 1 (bắt đầu ở mốc 0%)
+
+1. Mấy vạn quân giặc đang chờ một tiếng súng hiệu. Hễ súng nổ, tất cả sẽ cùng ập vào một toán quân nhỏ phía trước.
+2. Nhưng tiếng súng ấy không vang lên. Đội quân đông gấp nhiều lần cứ thế bước vào giữa một vùng ruộng lầy im phăng phắc.
+3. Đó là trận Tốt Động, Chúc Động, giữa quân nhà Minh và nghĩa quân Lam Sơn. Hai viên quan lớn của nhà Minh đã phải trả giá bằng chính mạng mình.
+4. Vậy điều gì đã giữ cho tiếng súng ấy im lặng? Có hai điều: mấy tên do thám bị bắt, và một vùng ruộng lầy được chọn sẵn.
+
+### Chương 2 (bắt đầu ở mốc 14%)
+
+5. Năm một nghìn bốn trăm linh bảy, nhà Minh chiếm nước ta, đổi tên thành quận Giao Chỉ và đặt quan cai trị.
+6. Rồi mười một năm sau, Lê Lợi dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hóa. Những năm đầu, nghĩa quân nhiều lần bị vây và phải rút lên núi.
+7. Đến năm một nghìn bốn trăm hai mươi sáu, nghĩa quân đã làm chủ từ Nghệ An trở vào. Lê Lợi bắt đầu đưa quân ra bắc.
+8. Vì thế, một cánh quân nhỏ do Lý Triện, Đỗ Bí chỉ huy tiến sát thành Đông Quan, tức Thăng Long. Ở Ninh Kiều, họ giết được khoảng hai nghìn quân giặc.
+9. Thấy nguy, nhà Minh vội sai tướng Vương Thông đem thêm năm vạn quân sang. Gộp với quân đóng sẵn, Vương Thông có trong tay nhiều vạn người.
+
+### Chương 3 (bắt đầu ở mốc 31%)
+
+10. Có quân đông trong tay, Vương Thông chia làm ba đường, kéo ra khỏi thành Đông Quan, nhắm vào cánh quân nhỏ của Lý Triện.
+11. Lý Triện giả thua, lui qua cầu Tam La vào một vùng ruộng lầy. Quân nhà Minh đuổi theo và sa xuống bùn, rồi bị phục binh đổ ra đánh.
+12. Đó là lần đầu vùng ruộng lầy giúp nghĩa quân. Nhưng quân nhà Minh vẫn còn rất đông, và họ dựng hàng rào chông tre để chặn lại.
+13. Voi chiến của nghĩa quân giẫm phải chông, quay đầu chạy loạn. Thế trận đổi chiều, tưởng như quân nhà Minh sắp thắng.
+14. Vì thế, Lý Triện và Đỗ Bí phải gửi tin xin cứu viện gấp. Đinh Lễ và Nguyễn Xí liền đem ba nghìn quân cùng hai con voi đến tiếp sức.
+15. Dù vậy, quân Lam Sơn vẫn ít hơn giặc nhiều lần. Đánh thẳng mặt thì khó lòng thắng nổi.
+
+### Chương 4 (bắt đầu ở mốc 50%)
+
+16. Đúng lúc ấy, nghĩa quân bắt được mấy tên do thám của giặc. Từ miệng chúng, kế hoạch của Vương Thông lộ ra hết.
+17. Vương Thông đóng quân ở Ninh Kiều. Ông định cho quân chính vượt sông đánh thẳng vào, còn một cánh khác lén vòng ra sau lưng nghĩa quân.
+18. Ám hiệu là tiếng súng. Hễ nghe súng nổ, cả đạo quân cùng xông vào, dồn tên bắn vào trận của nghĩa quân.
+19. Mấy tên do thám là điều đầu tiên giữ cho tiếng súng im. Biết trước ám hiệu, Đinh Lễ và Lý Triện ra lệnh cho quân giữ im lặng tuyệt đối.
+20. Điều thứ hai là ruộng lầy. Nghĩa quân phục sẵn ở Tốt Động và Chúc Động, hai làng nằm ven cánh đồng lầy, rồi nằm im chờ.
+
+### Chương 5 (bắt đầu ở mốc 67%)
+
+21. Quân nhà Minh đi tới, không nghe súng nổ, cũng không thấy bóng người. Họ cho rằng quanh đó không có quân Lam Sơn, liền đi tắt cho nhanh.
+22. Nhưng con đường tắt ấy dẫn thẳng vào giữa ruộng lầy, nơi phục binh đã chờ sẵn ở cả hai bên.
+23. Lập tức, phục binh đổ ra từ hai làng. Quân nhà Minh bị kẹp giữa, chạy dồn về phía sông, rất nhiều người chết đuối.
+24. Hai viên quan lớn của nhà Minh là Trần Hiệp và Lý Lượng đều chết trong trận này. Vương Thông cũng bị thương, cùng tàn quân chạy về thành Đông Quan.
+25. Theo sử ta, quân nhà Minh chết và bị bắt mấy vạn người. Sử nhà Minh chép ít hơn, nhưng cũng nhận hai, ba vạn người chết.
+
+### Chương 6 (bắt đầu ở mốc 83%)
+
+26. Sau trận, khí giới, ngựa và lương thực bỏ lại đầy đồng, nghĩa quân thu được rất nhiều.
+27. Nghe tin thắng lớn, Lê Lợi kéo đại quân từ Nghệ An ra bắc, vây chặt thành Đông Quan.
+28. Thế là đội quân sang để giữ đất lại bị nhốt trong thành. Từ đây, Vương Thông chỉ còn trông vào quân cứu viện từ phương bắc.
+29. Về sau, trong Bình Ngô đại cáo, Nguyễn Trãi nhắc lại cảnh xác giặc phơi đầy cánh đồng Tốt Động.
+30. Mấy tên do thám đã để lộ ám hiệu, còn vùng ruộng lầy thì nuốt trọn đường đi tắt của giặc.
+31. Tiếng súng hiệu không bao giờ nổ, và mấy vạn quân nhà Minh đã tự bước vào ruộng lầy Tốt Động. Cảm ơn bạn đã lắng nghe câu chuyện này.
+
+## Ba phương án hook
+
+Các hook đều theo khung bốn đoạn ở mục 3.1: (1) câu kể thường, không năm, không tên; (2) lật lại câu 1; (3) tên người, tên nơi, hệ quả nói mạnh; (4) câu hỏi kèm lời hứa N lần.
+
+1. (Đang dùng) Mấy vạn quân chờ tiếng súng hiệu; súng không nổ; hai quan lớn nhà Minh trả giá bằng mạng mình; hứa "hai điều".
+2. Nghịch lý: đội quân sang để giữ đất, cuối cùng phải chạy vào thành Đông Quan mà trốn.
+3. Câu hỏi: mấy tên do thám bị bắt đã đổi kết cục của trận đánh nhiều vạn người.
+
+## Thời điểm biến cố chính
+
+Vương Thông kéo quân ra đánh bắt đầu ở chương 3, đoạn 10, mốc 31%. Trận phục kích chính ở chương 5, mốc 67%. Phần do thám và ám hiệu (chương 4) phải đứng trước thì trận phục kích mới có nghĩa.
+
+## Ghi chú kỹ thuật kể chuyện
+
+- Kiểu mở đầu: Trận chiến, mở vào giữa trận: mấy vạn quân chờ một tiếng súng hiệu không nổ. Lời hứa: "hai điều" (do thám, ruộng lầy).
+- Câu đếm: "Đó là lần đầu vùng ruộng lầy giúp nghĩa quân" (đoạn 12), "Mấy tên do thám là điều đầu tiên giữ cho tiếng súng im" (đoạn 19), "Điều thứ hai là ruộng lầy" (đoạn 20), đoạn 30 gọi lại cả hai.
+- Hình ảnh xuyên suốt: Tiếng súng hiệu: gieo ở hook, nói rõ ở đoạn 18 (ám hiệu), khép ở câu kết.
+- Chỗ tưởng như giặc sắp thắng: Chương 3: voi giẫm chông chạy loạn, "tưởng như quân nhà Minh sắp thắng". Chương 4: quân Lam Sơn vẫn ít hơn nhiều lần, rồi bắt được do thám.
+- Số lần nhắc nguồn trong lời đọc: Một lần, ở đoạn 25 (so sánh "sử ta" với "sử nhà Minh").
+- Từ Hán Việt: Không còn từ khó. "Ám hiệu", "phục binh", "do thám" là từ phổ thông.
+- Câu kết: một câu quay lại hình ảnh mở đầu, cộng lời cảm ơn, không quá 32 chữ.
+
+**Các đoạn diễn giải của người kể** (đủ năm điều kiện ở `chung.md`)
+
+- Cách gọi "hai điều" (do thám, ruộng lầy): diễn giải của người kể, dựng từ việc có nguồn.
+- Đoạn 15: "Đánh thẳng mặt thì khó lòng thắng nổi" là nhận định của người kể, dựa vào chênh lệch quân số ở đoạn trước.
+- Đoạn 28: "đội quân sang để giữ đất lại bị nhốt trong thành" là câu đối lập của người kể, đúng theo việc bị vây.
+
+## Ghi chú độ chắc
+
+- Diễn biến: Ninh Kiều (khoảng hai nghìn quân Minh chết); cầu Tam La và ruộng lầy; hàng rào chông làm voi chạy loạn; Đinh Lễ, Nguyễn Xí đem ba nghìn quân, hai voi; do thám khai ám hiệu "nghe súng thì cùng bắn"; giữ im lặng; quân Minh đi tắt vào chỗ phục. Nguồn: Toàn thư (Quyển X), tôi mới tra qua bản tóm tắt thứ cấp. CẦN chủ kênh đối chiếu nguyên văn.
+- Quân số: lời đọc chỉ nói "năm vạn quân" cứu viện (Toàn thư) và "nhiều vạn người" tổng cộng. Con số mười vạn của sử ta và năm vạn tư của sử nhà Minh để ở đây.
+- Thương vong: sử ta ghi năm vạn chết, một vạn bị bắt; sử nhà Minh ghi hai, ba vạn chết. Lời đọc nêu cả hai, ở đoạn 25.
+- Trần Hiệp, Lý Lượng chết: Bình Ngô đại cáo, Toàn thư.
+- Ngày đánh: các nguồn ghi khác nhau, nên lời đọc chỉ nói "cuối năm" (qua mạch kể).
+
+## Kết quả ba bộ kiểm
+
+- `kiem_kich_ban.py`: 0 lỗi ❌, 7 cảnh báo ⚠️
+- `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
+- `kiem_mo_dau.py`: ✅ mở đầu gọn
+
+Cảnh báo được chấp nhận: "Hook trên 20 chữ": đoạn 1 có 22 chữ, dưới giới hạn 25. Đoạn 8, 24 có 4 tên riêng: đều là tên đã giới thiệu từ trước.

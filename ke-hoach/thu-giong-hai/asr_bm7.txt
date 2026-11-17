@@ -1,3 +1,3 @@
 medium
-tm5ca tm6ca tm7ca tm8ca tm9ca tm10ca
-# lan12 ca video
+tm10ca
+# lan13 tm10 doc lai

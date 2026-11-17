@@ -108,11 +108,19 @@
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Còn ở kinh thành, quân của Thoát Hoan bắt đầu đói và ốm. Chiếm được thành mà không bắt được vua, không có lương, rồi mùa hè lại nắng nóng, mưa dầm.",
-  "hien": "Còn ở kinh thành, quân của Thoát Hoan bắt đầu đói và ốm. Chiếm được thành mà không bắt được vua, không có lương, rồi mùa hè lại nắng nóng, mưa dầm."
+  "text": "Còn ở kinh thành, quân của Thoát Hoan chiếm được một tòa thành trống. Không bắt được vua, cũng không tìm được lương ăn ngay tại chỗ.",
+  "hien": "Còn ở kinh thành, quân của Thoát Hoan chiếm được một tòa thành trống. Không bắt được vua, cũng không tìm được lương ăn ngay tại chỗ."
  },
  {
   "n": 180015,
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
+  "tone": "story",
+  "text": "Lương phải chở từ phương bắc sang, đường rất xa. Rồi mùa hè tới, nắng nóng, mưa dầm, quân lính vừa thiếu ăn vừa đổ bệnh.",
+  "hien": "Lương phải chở từ phương bắc sang, đường rất xa. Rồi mùa hè tới, nắng nóng, mưa dầm, quân lính vừa thiếu ăn vừa đổ bệnh."
+ },
+ {
+  "n": 180016,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -120,7 +128,7 @@
   "hien": "Toa Đô thúc quân từ phía nam ngược lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?"
  },
  {
-  "n": 180016,
+  "n": 180017,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
@@ -128,7 +136,7 @@
   "hien": "Bến sông đầu tiên là Hàm Tử, nằm chắn ngang đường Toa Đô đánh lên. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật đã chờ sẵn ở đó."
  },
  {
-  "n": 180017,
+  "n": 180018,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
@@ -136,7 +144,7 @@
   "hien": "Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ."
  },
  {
-  "n": 180018,
+  "n": 180019,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
@@ -144,7 +152,7 @@
   "hien": "Quân giặc nhìn sang thì hoảng, tưởng nhà Tống đã sang đánh giúp Đại Việt, rồi vỡ chạy. Đầu gọng kìm phía nam bị đánh bật lại."
  },
  {
-  "n": 180019,
+  "n": 180020,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
@@ -152,7 +160,7 @@
   "hien": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh thẳng vào."
  },
  {
-  "n": 180020,
+  "n": 180021,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
@@ -160,7 +168,7 @@
   "hien": "Trong đoàn quân ấy có Trần Quốc Toản, một tướng trẻ chưa tới hai mươi tuổi, giương lá cờ tự làm đề sáu chữ: phá cường địch, báo hoàng ân."
  },
  {
-  "n": 180021,
+  "n": 180022,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
@@ -168,7 +176,7 @@
   "hien": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên tháo chạy khỏi Thăng Long, tràn qua sông về phía bắc."
  },
  {
-  "n": 180022,
+  "n": 180023,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
@@ -176,7 +184,7 @@
   "hien": "Thế là hai đầu gọng kìm đã bị chặt rời. Toa Đô bị bỏ lại phía nam một mình, không còn ai để hợp sức."
  },
  {
-  "n": 180023,
+  "n": 180024,
   "chuong": 7,
   "nhip": "lang",
   "tone": "story",
@@ -184,7 +192,7 @@
   "hien": "Trận lớn nhất còn ở phía trước. Đánh hai năm ở Chiêm Thành rồi đánh dọc từ Nghệ An ra, đạo quân Toa Đô vẫn còn đông, còn rất hung hãn."
  },
  {
-  "n": 180024,
+  "n": 180025,
   "chuong": 7,
   "nhip": "cao_trao",
   "tone": "story",
@@ -192,7 +200,7 @@
   "hien": "Tháng Năm, chính hai vua Trần tự cầm quân, vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba."
  },
  {
-  "n": 180025,
+  "n": 180026,
   "chuong": 7,
   "nhip": "cao_trao",
   "tone": "story",
@@ -200,7 +208,7 @@
   "hien": "Doanh trại vỡ. Toa Đô bị chém đầu ngay giữa trận, còn Ô Mã Nhi chỉ kịp chạy thoát ra biển."
  },
  {
-  "n": 180026,
+  "n": 180027,
   "chuong": 7,
   "nhip": "chi_tiet_nguoi",
   "tone": "story",
@@ -208,7 +216,7 @@
   "hien": "Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm."
  },
  {
-  "n": 180027,
+  "n": 180028,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -216,7 +224,7 @@
   "hien": "Gọng kìm phía nam đã gãy hẳn. Thoát Hoan cũng tháo chạy về phương bắc, nhưng đường rút lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn chờ sẵn."
  },
  {
-  "n": 180028,
+  "n": 180029,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -224,7 +232,7 @@
   "hien": "Tướng Lý Hằng che chắn phía sau thì trúng tên độc mà chết. Theo lời kể trong sử cũ, Thoát Hoan phải chui vào ống đồng cho lính khiêng chạy về nước."
  },
  {
-  "n": 180029,
+  "n": 180030,
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",
@@ -232,7 +240,7 @@
   "hien": "Tháng Sáu, hai vua trở về Thăng Long. Trên đường về, Trần Quang Khải làm thơ, có câu: Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù."
  },
  {
-  "n": 180030,
+  "n": 180031,
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",

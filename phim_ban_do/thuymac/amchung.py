@@ -1,6 +1,7 @@
 # Phần chung âm thanh tm5–tm10: giọng gốc giữ nguyên, hiệu ứng và nhạc nằm dưới
 import subprocess,wave
 from sfx import *
+import sys as _s;_s.path.insert(0,'/tmp/pc');from audio_fx import VOICE_CHAIN as CHAIN
 from sfx import _guard
 def hooves(m,t0,dur,g=.35,iv=.16):
     t=t0
@@ -23,7 +24,8 @@ def voice_mix(M,Ts,files,duck=.55,cuts=None):
     v=np.zeros(M.N,np.float32)
     for k,(t0,f) in enumerate(zip(Ts,files)):
         cut=['-ss',f'{cuts[k][0]:.3f}','-to',f'{cuts[k][1]:.3f}'] if cuts else []
-        raw=subprocess.run(['ffmpeg','-v','error',*cut,'-i',f,'-f','f32le','-ac','1','-ar',str(SR),'-'],capture_output=True).stdout
+        af=['-af',CHAIN] if cuts else []   # giọng cả video: qua cùng chuỗi lọc 'radio' như các tập tm2–tm4 (một file liền nên không làm lệch giữa các câu)
+        raw=subprocess.run(['ffmpeg','-v','error',*cut,'-i',f,*af,'-f','f32le','-ac','1','-ar',str(SR),'-'],capture_output=True).stdout
         a=np.frombuffer(raw,np.float32);i=int(t0*SR);j=min(M.N,i+len(a));v[i:j]+=a[:j-i]
     e=np.convolve(np.abs(v),np.ones(4000)/4000,'same');d=1-duck*np.clip(e*12,0,1)
     return v,d.astype(np.float32)

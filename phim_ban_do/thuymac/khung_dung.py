@@ -71,7 +71,7 @@ def setup(ma,gaps,tail=4.5):
     v.T={};v.E={};t=.5;v.CH=None
     gm=f'{GD}/chuong_{ma}_full.json';asr=f'/tmp/pc/phim_ban_do/asr_{ma}ca.json'
     if os.path.exists(gm):   # giọng đọc theo chương / cả video: mốc đoạn lấy từ nhận dạng, chia đoạn âm ở ranh giới chương
-        G=json.load(open(gm));A_=json.load(open(asr)) if os.path.exists(asr) else {};v.CH=[];inv={n:i for i,n in v.NN.items()}
+        G=json.load(open(gm));A_=json.load(open(asr)) if os.path.exists(asr) and not os.environ.get('KHOP_LANG') else {};v.CH=[];inv={n:i for i,n in v.NN.items()}
         for stem,ns in sorted(G.items(),key=lambda kv:kv[1][0]):
             f=f'{GD}/{stem}.mp3';fd=float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout)
             sp=align([v.TX[inv[n]] for n in ns],A_.get(stem,[]),fd,f)

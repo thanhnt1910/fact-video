@@ -1,0 +1,38 @@
+# Âm thanh tm6 (khớp cảnh dai_tm6.py)
+from amchung import *
+from sfx import _guard
+import dai_tm6 as D
+V=D.V;T,E,mid=V.T,V.E,V.mid
+M=Mix(V.TOTAL,26)
+wind(M,.2,V.TOTAL-.5,.12)
+CH=[(0,T[5]-4,'cang',1.0),(T[5],T[8]-2.4,'mo',.9),(T[8],E[9],'cang',1.0),(T[10],E[10],'bi',.8),(T[11],E[13],'loan',1.0),(T[14],T[19]-2.4,'bi',.8),
+    (T[19],E[21],'cang',.9),(T[22],E[24],'loan',1.0),(T[25],E[25],'cang',.8),(T[26],V.TOTAL-.5,'trang',.9)]
+for a,b,md,v in CH: music(M,a,b,md,v)
+drop(M,.15,.8);gong(M,.5,.4)
+brush(M,T[2]+.3,1.5,.3)
+for k in range(3): brush(M,T[3]+.2+k*(E[3]-T[3])/3.2,.8,.3)
+t0=T[5]-3.6;whoosh(M,t0-.4,1.0,.4);gong(M,t0+.1,.55);stamp(M,t0+1.1,.6)
+stamp(M,T[5]+.3,.5);brush(M,mid(5,.4),2,.35)
+wave_bed(M,T[6],E[13]+.5,.3);oars(M,T[6],E[7],.3,.9)
+for n in D.CARDS: whoosh(M,T[n]-2.6,1.0,.4);gong(M,T[n]-2.1,.45);brush(M,T[n]-2.2,.7,.35)
+battle(M,mid(8,.5),E[8],.9,10);steps(M,mid(9,.45),E[9],.25,.5)
+gong(M,mid(10,.4),.5)
+battle(M,T[12],mid(12,.7),1.2,16)
+for k in range(5): splash(M,T[12]+.4+k*.25,.4)
+woodcrack(M,mid(12,.3),.5);stamp(M,T[13]+.4,.6)
+steps(M,T[14],E[14],.2,.7);thump(M,mid(15,.6),.4);woodcrack(M,mid(15,.62),.4)
+march(M,T[16],E[16],.3);brush(M,T[17]+.2,2,.35)
+stamp(M,mid(18,.3)+.4,.5);stamp(M,T[18]+.7,.5);wave_bed(M,T[18],E[21],.3)
+for k in range(8): stake_hit(M,T[19]+.4+k*.55,.4)
+tide(M,mid(19,.6),2.5,.4,True)
+gong(M,mid(20,.5),.45)
+oars(M,T[21],E[21],.35,.7);war_drums(M,mid(21,.3),E[21],.35,.6)
+tide(M,T[22],3,.5,False)
+for k in range(5): creak(M,T[22]+.6+k*.3,1.2,.3);woodcrack(M,T[22]+.8+k*.3,.4)
+battle(M,T[23]+.2,E[23],1.2,20)
+for k in range(5): splash(M,T[24]+k*.4,.45)
+gong(M,T[24]+.3,.5)
+hooves(M,T[25],E[25]-T[25],.35)
+brush(M,T[26]+.3,1.0,.3);brush(M,mid(26,.4),1.0,.3);brush(M,mid(26,.7),1.0,.3)
+wave_bed(M,T[27],V.TOTAL-.5,.2);gong(M,mid(27,.5),.5)
+finish(M,V,'/tmp/gen/bd/out/am_tm6.wav')

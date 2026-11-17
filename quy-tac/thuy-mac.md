@@ -26,6 +26,8 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 ## 3. Kịch bản
 
 ### 3.1 Khung hook bốn đoạn + "N lần" (cập nhật 17/11/2026 theo tập 2, tập 3)
+**Ưu tiên số một:** mở ngay vào khoảnh khắc nguy nhất của chính trận đánh (ví dụ cầu phao vừa bắc xong, giặc tràn qua), kể như đang xảy ra, rồi lùi lại bằng một câu tương phản. Sự việc ấy phải có thật và được kể lại đầy đủ ở chương của nó. Ở tm3, chủ kênh chê hai bản hook mở bằng nghịch lý và mối nguy chung chung là "quá hiền". Các bước 1–4 dưới đây áp dụng khi không có khoảnh khắc như vậy, hoặc để dựng phần còn lại của hook.
+
 1. **Đoạn 1: một câu kể bằng lời thường, như kể chuyện miệng cho bạn bè.**
    - Mẫu chủ kênh đưa: "có một người nói chiếm nước Việt dễ như bẻ một cành khô, nhưng người đó không biết rằng không phải cành khô nào cũng dễ bẻ như tưởng tượng".
    - Nội dung là một câu nói có thật trong sử, hoặc một nghịch lý của trận đánh ("đang thắng mà lại đề nghị thôi đánh").
@@ -33,7 +35,6 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
    - Kiểu hai câu hỏi liền nhau (Bạch Đằng) vẫn được dùng, nhưng không lặp lại khuôn đã dùng.
 2. **Đoạn 2: lật lại câu ở đoạn 1** bằng một hình ảnh ví hoặc một sự thật ngược ("không phải cành khô nào cũng dễ bẻ", "Ông không thua").
 3. **Đoạn 3: tên người, tên nơi, và hệ quả nói mạnh.** Viết "đã phải trả giá bằng chính mạng mình", không viết "không trở về nữa" (chủ kênh chê "nói hiền quá"). Tối đa 4 tên riêng.
-- **Ưu tiên mở ngay vào khoảnh khắc nguy nhất của trận đánh** (cầu phao bắc xong, giặc tràn qua), kể như đang xảy ra, rồi lùi lại bằng một câu tương phản. Sự việc ấy phải có thật và được kể lại đầy đủ ở chương của nó (chủ kênh, tm3: hook mở bằng nghịch lý hay mối nguy chung chung là "quá hiền").
 4. **Đoạn 4: câu hỏi "vì sao" và lời hứa "N lần" hoặc "N thứ"** (2–4). Có thể gọi tên vắn tắt ("ngoài biển, trên sông, trong trại"), nhưng không lộ cách đánh.
    - Không dùng "Vì sao...? Muốn trả lời, ta phải bắt đầu từ..." (cấm trong `chung.md`).
    - Không lặp "Câu trả lời nằm ở..." của tập trước.

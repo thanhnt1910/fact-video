@@ -82,6 +82,8 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
   - lặp nguyên khuôn câu đếm ("Đó là lần thứ N quân nhà Tống bị chặn" ba lần): mỗi lần đếm phải nói một cách khác;
   - mở diễn giải bằng "Có thể hiểu vì sao...": nên nói thẳng bằng lời thường ("Sử không chép ông đã nghĩ gì. Nhưng...");
   - một đoạn truyền thuyết đứng riêng, chen ngang mạch trận đánh: phải gắn vào một khoảng lặng của trận, rồi trở lại bằng câu nối.
+- **Không bỏ mắt xích nguyên nhân** (chủ kênh chê tm5, 17/11/2026: từ "cho mượn đường là mở cửa cho giặc" nhảy ngay sang "hỏi các bô lão nên đánh hay hòa"). Giữa hai việc phải có đủ việc nối: nhà Trần từ chối, rồi nhà Nguyên lấy cớ đem quân, rồi quân giặc kéo tới biên giới, rồi mới đến lúc vua hỏi các bô lão. Trước khi giao, đọc từng cặp đoạn kề nhau và tự hỏi: vì sao việc sau xảy ra? Câu trả lời có nằm ngay trong đoạn trước không? Không có thì thêm việc còn thiếu (phải có nguồn), không chỉ thêm chữ nối.
+- **Người, nơi lần đầu nhắc phải có lý do có mặt** ("Người giữ Gia Định là Nguyễn Ánh, cháu các chúa Nguyễn cũ"; "Quy Nhơn, nơi nhà Tây Sơn đóng đô"). Không dùng "lại" khi trong video chưa có lần trước.
 - **Tập có nhiều trận: mỗi trận phải đẩy cao hơn trận trước, không kể nối đuôi** (chủ kênh chê tm5 bản 2, 17/11/2026: "càng về sau càng giảm cao trào… mang tính liệt kê"):
   - mỗi trận có bốn nhịp: thế nguy trước trận; một chi tiết cụ thể có nguồn (ví dụ quân Triệu Trung mặc áo Tống); bước ngoặt; hệ quả đẩy sang trận sau ("Trận đầu đã thắng. Nhưng kinh thành vẫn trong tay giặc…");
   - mức nguy và mục tiêu tăng dần (chặn một cánh quân, rồi lấy lại kinh thành, rồi diệt đạo quân mạnh nhất);

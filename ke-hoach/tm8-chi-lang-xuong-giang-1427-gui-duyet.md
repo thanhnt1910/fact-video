@@ -1,6 +1,6 @@
 # tm8: Chi Lăng, Xương Giang 1427 (gửi duyệt)
 
-29 đoạn, 734 chữ, khoảng 3.9 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+29 đoạn, 744 chữ, khoảng 4.0 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 
 ## Kịch bản
 
@@ -13,15 +13,15 @@
 
 ### Chương 2 (bắt đầu ở mốc 15%)
 
-5. Cuối năm một nghìn bốn trăm hai mươi sáu, tướng nhà Minh là Vương Thông bị nghĩa quân Lam Sơn vây chặt ở thành Đông Quan, tức Thăng Long.
+5. Cuối năm một nghìn bốn trăm hai mươi sáu, tướng nhà Minh là Vương Thông thua trận ở Tốt Động, rồi bị nghĩa quân Lam Sơn vây chặt ở thành Đông Quan.
 6. Vì thế, nhà Minh sai hai đạo quân sang cứu. Liễu Thăng đem mười vạn quân và hai vạn ngựa, theo đường Lạng Sơn kéo xuống.
 7. Cùng lúc ấy, tướng Mộc Thạnh đem năm vạn quân theo đường Vân Nam tiến sang. Hai đạo quân được giao cùng tới Đông Quan để phá vòng vây.
 8. Các tướng Lam Sơn muốn đánh ngay thành Đông Quan trước khi viện binh tới. Lê Lợi không chịu, vì đánh vào thành vững là cách kém nhất.
 9. Vì thế, ông để quân giữ sức, chờ đánh quân cứu viện ngoài đồng trống, và nhắm trước vào đạo quân lớn nhất của Liễu Thăng.
 
-### Chương 3 (bắt đầu ở mốc 34%)
+### Chương 3 (bắt đầu ở mốc 33%)
 
-10. Rồi ở cửa ải đầu tiên, tướng Trần Lựu đánh vài trận rồi lui dần, lui mãi về tận ải Chi Lăng.
+10. Khi quân Liễu Thăng tràn qua biên giới, tướng Trần Lựu giữ cửa ải đầu tiên đánh vài trận rồi lui dần, lui mãi về tận ải Chi Lăng.
 11. Ải Chi Lăng là một thung lũng hẹp, hai bên là núi đá, giữa là đường đi và đầm lầy. Nghĩa quân đã phục sẵn ở đó.
 12. Thắng liền mấy trận đầu, Liễu Thăng cứ thế đuổi theo. Thấy quân Lam Sơn chỉ lui, ông càng đuổi gấp hơn.
 13. Đến ngày hai mươi tháng Chín, ông chỉ đem hơn một trăm kỵ binh vượt lên trước, tới chân núi Mã Yên.
@@ -96,7 +96,7 @@ Liễu Thăng bắt đầu bị nhử ở mốc 34%. Liễu Thăng chết ở kh
 
 ## Kết quả ba bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 6 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 7 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 

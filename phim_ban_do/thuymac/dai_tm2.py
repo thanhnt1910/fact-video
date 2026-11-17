@@ -373,9 +373,14 @@ def S_tran(cv,t):
         viet.append(dict(x=vx(i) if not cap else lerp(vx(i),1000+i*120,inn(t,mid(28,.55),1.8)),y=wl+40+i*28,s=.6,flip=cap,o=1))
     river(cv,c,t,PAP,wl=wl,boats=boats,viet=viet,under=.04 if t<T[29] else lerp(.04,1,inn(t,T[29],2)),mist=.9)
     if t<E[28]:
-        for k in range(14):
-            ph=((t*1.3+k*.37)%1);x0=1500-k*40;x=lerp(x0,x0-700,ph);y=420+k*12-math.sin(ph*3.14)*120
-            stroke(cv,c,[(x,y),(x-50,y+6)],1,wid=3,head=True,o=.7*fio(t,a+.4,E[28]))
+        # tên bắn từ chiến thuyền nhà Tống (phải) sang thuyền Đại Cồ Việt (trái), bay theo đường cong
+        for k in range(16):
+            ph=((t*.9+k*.29)%1);bo=boats[k%5];vi=viet[(k*3)%4]
+            x0,y0=bo['x']-60*bo['s'],bo['y']-170*bo['s'];x1,y1=vi['x']+(k%3-1)*30,vi['y']-40
+            hgt=60+(k%3)*20
+            def P_(u): return lerp(x0,x1,u),lerp(y0,y1,u)-hgt*4*u*(1-u)
+            xa,ya=P_(ph);xb,yb=P_(max(0,ph-.06))
+            stroke(cv,c,[(xb,yb),(xa,ya)],1,wid=3,head=True,o=.8*fio(t,a+.4,E[28])*cl((ph-.12)*8)*cl((1-ph)*10))
     lb(cv,c,'hai trăm chiến thuyền',1000,420,t,mid(28,.5),mid(28,.9),col=RED,sz=40)
     put(cv,c,'gauge',1810,980,ay=1,s=.7,o=inn(t,T[29],.5))
     if t>T[29]: stroke(cv,c,[(1760,wl),(1790,wl)],1,wid=5,col=RED,head=True)
@@ -431,7 +436,7 @@ def S_chilang(cv,t):
     put(cv,c,'army',ax_+560,820,ay=1,s=.6,o=1-inn(t,mid(36,.5),1))
     hx=lerp(1700,1050,eo(cl((t-a)/5)))
     if t>T[35]: hx=lerp(1050,860,inn(t,mid(35,.4),2))
-    put(cv,c,'ky_si_quan',hx,830,ay=1,s=.85,o=1-inn(t,mid(36,.7),.8))
+    put(cv,c,Af('ky_si_quan'),hx,830,ay=1,s=.85,o=1-inn(t,mid(36,.7),.8))
     tagfall(cv,c,hx,560,'Hầu Nhân Bảo',t,a+.6,fall=mid(36,.75),sz=40)
     lb(cv,c,'sông Chi Lăng',960,230,t,a+.3,T[35],sz=46)
     # toán quân xin hàng

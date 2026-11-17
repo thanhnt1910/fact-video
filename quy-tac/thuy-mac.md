@@ -33,6 +33,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
    - Kiểu hai câu hỏi liền nhau (Bạch Đằng) vẫn được dùng, nhưng không lặp lại khuôn đã dùng.
 2. **Đoạn 2: lật lại câu ở đoạn 1** bằng một hình ảnh ví hoặc một sự thật ngược ("không phải cành khô nào cũng dễ bẻ", "Ông không thua").
 3. **Đoạn 3: tên người, tên nơi, và hệ quả nói mạnh.** Viết "đã phải trả giá bằng chính mạng mình", không viết "không trở về nữa" (chủ kênh chê "nói hiền quá"). Tối đa 4 tên riêng.
+- **Ưu tiên mở ngay vào khoảnh khắc nguy nhất của trận đánh** (cầu phao bắc xong, giặc tràn qua), kể như đang xảy ra, rồi lùi lại bằng một câu tương phản. Sự việc ấy phải có thật và được kể lại đầy đủ ở chương của nó (chủ kênh, tm3: hook mở bằng nghịch lý hay mối nguy chung chung là "quá hiền").
 4. **Đoạn 4: câu hỏi "vì sao" và lời hứa "N lần" hoặc "N thứ"** (2–4). Có thể gọi tên vắn tắt ("ngoài biển, trên sông, trong trại"), nhưng không lộ cách đánh.
    - Không dùng "Vì sao...? Muốn trả lời, ta phải bắt đầu từ..." (cấm trong `chung.md`).
    - Không lặp "Câu trả lời nằm ở..." của tập trước.
@@ -242,4 +243,4 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 ## 8. Khuôn mở đầu đã dùng của series
 - **Bạch Đằng 938** (`bd2`): hai câu hỏi liền nhau ("Làm sao đội quân yếu hơn về chiến thuyền lại đánh tan đoàn chiến thuyền lớn? Vì sao hoàng tử cầm quân không trở về?"), rồi "ba thứ".
 - **Lê Hoàn phá Tống 981** (`tm2`): một câu nói có thật kể bằng lời thường ("có một người nói chiếm nước Việt dễ như bẻ một cành khô"), lật lại bằng hình ảnh ví ("không phải cành khô nào cũng dễ bẻ"), rồi "ba lần cành khô không gãy".
-- **Như Nguyệt 1077** (`tm3`): mối nguy cận kề ("mười vạn quân giặc chỉ còn cách kinh thành đúng một con sông"), rồi điều khó tin (hơn một tháng không qua nổi), rồi nghịch lý (đang thắng mà đề nghị thôi đánh), rồi "ba lần bị chặn". Bản 1 chỉ có nghịch lý, chủ kênh chê "chưa gay cấn, chưa cuốn": hook nên mở bằng mối nguy mà người xem cảm được ngay, sau đó mới tới nghịch lý.
+- **Như Nguyệt 1077** (`tm3`): mở giữa trận đánh ("Cầu phao vừa bắc xong, một toán quân giặc đã tràn sang bờ nam..."), dừng ở câu hỏi "có giữ nổi bờ nam không?", thêm nghịch lý "người đang thắng lại đề nghị thôi đánh", rồi lùi về một năm trước bằng câu tương phản. Bản 1 (chỉ có nghịch lý) và bản 2 (mối nguy cận kề) bị chủ kênh chê "quá hiền, chưa nổi bật trận đánh". Bài học: hook của series trận đánh nên mở ngay vào khoảnh khắc nguy nhất của chính trận đánh.

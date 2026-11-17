@@ -19,6 +19,13 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
    - đuổi đánh: "đuổi một mạch".
    Khi viết xong, rà lại mọi câu có sự kiện lớn và đổi hết các động từ yếu cùng một lượt, không đợi chủ kênh chỉ ra từng chỗ.
 
+8. **Không bịa, nhưng được thêm bớt ý cho cuốn** (chủ kênh nói rõ 17/11/2026: "tôi không yêu cầu bịa mà câu văn cần thêm bớt ý để cuốn hút hơn"). Được thêm:
+   - ý đối lập ("Nhìn lúc ấy, người chọn hàng tưởng như đã chọn đúng");
+   - ý giải thích vì sao việc ấy quan trọng;
+   - ý nối với câu hỏi xuyên suốt;
+   - ý mỉa nhẹ phía giặc ("được phong An Nam quốc vương, nhưng chưa một ngày được trở về ngồi trên đất ấy").
+   Được bớt những sự việc không làm câu chuyện nghiêng đi. Chỉ không được thêm sự việc, lời thoại hay cảm xúc không có trong sử.
+
 ## 2. Câu đếm và câu chuyển chương
 - Câu đếm không lặp khuôn "Đó là điều thứ N". Gắn số đếm vào sự việc: "Bến sông đầu tiên là Hàm Tử", "Chương Dương là bến thứ hai", "…Tây Kết, bến sông thứ ba".
 - Cuối mỗi lần hoặc trận là một câu giữ căng thẳng: "Một bến đã thắng. Nhưng kinh thành vẫn trong tay Thoát Hoan…".

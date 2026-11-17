@@ -1,86 +1,86 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-32 đoạn, 887 chữ, khoảng 4.8 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
-Lời hứa: **ba thứ giúp nhà Trần lật thế cờ, thứ cuối nằm trên ba bến sông**. Câu đếm: thứ đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "hoàng tử".
+32 đoạn, 902 chữ, khoảng 4.8 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+Lời hứa: **ba bến sông và một chiếc áo của nhà vua sẽ cho biết cuộc chiến nghiêng về lựa chọn nào**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
 
 **Hook 1** (mốc 0%)
 
-1. Làm sao một đạo quân đã chiếm được kinh thành, chỉ nửa năm sau lại phải tháo chạy về nước?
+1. Nếu kẻ thù hứa cho bạn làm vương, chỉ cần bạn chịu hàng, bạn sẽ trả lời thế nào?
 
 **Hook 2** (mốc 2%)
 
-2. Và vì sao vị hoàng tử cầm đầu đạo quân ấy, lúc chạy về, lại phải chui vào một cái ống đồng cho lính khiêng đi?
+2. Mùa xuân năm ấy, ở Đại Việt có hai người cùng họ Trần đã trả lời câu hỏi đó theo hai cách ngược nhau.
 
 **Hook 3** (mốc 5%)
 
-3. Vị hoàng tử ấy là Thoát Hoan, con trai hoàng đế nhà Nguyên Hốt Tất Liệt. Ông được cha phong sẵn tước Trấn Nam vương, nghĩa là vua trấn giữ phương nam.
+3. Một người là Trần Bình Trọng, bị giặc bắt và đáp: ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Nói xong, ông bị giết ngay.
+4. Người kia là Trần Ích Tắc, em trai của Thượng hoàng. Ông dẫn cả nhà sang hàng giặc, và về sau được nhà Nguyên phong làm An Nam quốc vương.
 
-**Hook 4** (mốc 9%)
+**Hook 4** (mốc 11%)
 
-4. Người chặn đường ông là Trần Quốc Tuấn, tức Hưng Đạo Đại Vương. Để lật thế cờ, nhà Trần có ba thứ trong tay, thứ cuối cùng nằm trên ba bến sông.
+5. Cuộc chiến năm ấy rốt cuộc sẽ nghiêng về lựa chọn nào? Câu trả lời đến từ ba bến sông, và từ một chiếc áo của nhà vua.
 
-**Gốc rễ** (mốc 12%)
+**Gốc rễ** (mốc 15%)
 
-5. Mọi chuyện bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam.
-6. Mượn đường thì dễ, trả đường mới khó, nên nhà Trần từ chối. Nhà Nguyên liền lấy lời từ chối ấy làm cớ, chia quân làm hai cánh.
-7. Cánh phía bắc do Thoát Hoan cầm đầu, đóng sát biên giới. Cánh phía nam do tướng Toa Đô chỉ huy, đã đóng sẵn ở đất Chiêm Thành.
-8. Trước khi giặc tới, Thượng hoàng Trần Thánh Tông mời các bô lão về điện Diên Hồng, hỏi nên hòa hay nên đánh. Các cụ đồng thanh: đánh.
-9. Trong quân, binh lính thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ. Đó là thứ đầu tiên nhà Trần có: cả nước không chịu hàng.
+6. Mọi chuyện bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam.
+7. Mượn đường thì dễ, trả đường mới khó, nên nhà Trần từ chối. Đó là lựa chọn đầu tiên, và nhà Nguyên lấy ngay nó làm cớ để đem quân sang.
+8. Hoàng đế Hốt Tất Liệt sai con trai Thoát Hoan dẫn đại quân xuống biên giới phía bắc. Phía nam, tướng Toa Đô đã đóng sẵn quân ở Chiêm Thành.
+9. Thượng hoàng Trần Thánh Tông mời các bô lão về điện Diên Hồng, hỏi nên hòa hay nên đánh. Các cụ đồng thanh chọn đánh.
+10. Trong quân, binh lính cũng tự chọn: họ thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ.
 
-**Thế nguy** (mốc 29%)
+**Thế nguy** (mốc 30%)
 
-10. Nhưng không chịu hàng chưa có nghĩa là thắng. Cuối năm ấy, quân của Thoát Hoan tràn qua biên giới, và Trần Quốc Tuấn chặn không nổi.
-11. Đầu năm sau, quân nhà Nguyên tràn vào chiếm Thăng Long. Cùng lúc ấy, Toa Đô từ phía nam đánh thốc ra Nghệ An, Thanh Hóa.
-12. Bị kẹp từ hai đầu, có người đứng vững, có người ngã theo giặc. Trần Bình Trọng bị bắt ở bãi Đà Mạc, giặc dụ ông làm vương đất Bắc.
-13. Ông đáp: ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc, rồi bị giết. Còn Trần Ích Tắc, em trai Thượng hoàng, dẫn cả nhà sang hàng giặc.
+11. Nhưng chọn đánh chưa có nghĩa là thắng. Cuối năm ấy, quân của Thoát Hoan tràn qua biên giới, và Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn không nổi.
+12. Đầu năm sau, quân nhà Nguyên tràn vào chiếm Thăng Long. Cùng lúc ấy, Toa Đô từ phía nam đánh thốc ra Nghệ An, Thanh Hóa, kẹp Đại Việt từ hai đầu.
+13. Trong những ngày ấy, Trần Bình Trọng ngã xuống ở bãi Đà Mạc. Cũng lúc ấy, Trần Ích Tắc mở cửa sang hàng giặc.
 
-**★ Điểm thấp nhất** (mốc 42%)
+**★ Điểm thấp nhất** (mốc 40%)
 
-14. Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Vị Trấn Nam vương thì đang ngồi giữa kinh thành Đại Việt.
+14. Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Nhìn lúc ấy, người chọn hàng tưởng như đã chọn đúng.
 
-**Bước ngoặt** (mốc 45%)
+**Bước ngoặt** (mốc 42%)
 
-15. Nhưng thứ ông chiếm được chỉ là một tòa thành trống. Vua đã đi, lương không có, mà lương của đạo quân ấy phải chở từ phương bắc sang, đường rất xa.
-16. Rồi mùa hè tới. Nắng nóng, mưa dầm, đạo quân từ phương bắc sang vừa thiếu ăn vừa đổ bệnh.
-17. Đó là thứ hai nhà Trần có: bỏ kinh thành để giữ lấy người và giữ lấy vua. Giặc có thành, nhưng thành không nuôi nổi giặc.
+15. Nhưng thứ quân nhà Nguyên chiếm được chỉ là một tòa thành trống. Vua đã đi, lương không có, mà lương của chúng phải chở từ phương bắc sang, đường rất xa.
+16. Rồi mùa hè tới. Nắng nóng, mưa dầm, đạo quân từ phương bắc sang vừa thiếu ăn vừa đổ bệnh, giữ một kinh thành mà không nuôi nổi mình.
+17. Toa Đô thúc quân từ phía nam ngược lên, định hợp sức với Thoát Hoan dọc sông Hồng. Đó là lúc những người đã chọn không hàng quay lại đánh.
 
-**Lần 1** (mốc 54%)
+**Lần 1** (mốc 52%)
 
-18. Lúc ấy, Toa Đô thúc quân từ phía nam ngược lên, định hợp sức với Thoát Hoan. Con đường của ông chạy dọc theo sông Hồng.
-19. Và sông Hồng chính là thứ ba của nhà Trần. Trên dòng sông ấy, đoàn thuyền chiến Đại Việt quen từng khúc quanh, từng bến nước.
-20. Bến đầu tiên là Hàm Tử. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật chặn ngang đường Toa Đô, trong hàng quân có một toán người nhà Tống sang nương nhờ.
-21. Họ vẫn mặc nguyên áo quần nước cũ. Quân giặc nhìn sang, tưởng nhà Tống đã sang đánh giúp Đại Việt, vỡ chạy khỏi bến sông đầu tiên.
+18. Bến sông đầu tiên là Hàm Tử. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật chặn ngang đường Toa Đô đánh lên.
+19. Trong hàng quân ấy có một toán người nhà Tống, do Triệu Trung cầm đầu. Nhà Tống đã mất, và họ chọn chạy sang Đại Việt chứ không chịu hàng nhà Nguyên.
+20. Họ ra trận vẫn mặc nguyên áo quần nước cũ. Quân giặc nhìn sang, tưởng nhà Tống đã sang đánh giúp Đại Việt, hàng ngũ rối loạn rồi vỡ chạy.
 
-**Lần 2** (mốc 66%)
+**Lần 2** (mốc 62%)
 
-22. Bến thứ hai là Chương Dương, ngay cửa ngõ kinh thành, nơi Thượng tướng Trần Quang Khải đánh thẳng vào.
-23. Trong đoàn quân ấy có tướng trẻ Trần Quốc Toản, chưa tới hai mươi tuổi, giương lá cờ đề sáu chữ: phá cường địch, báo hoàng ân.
-24. Thắng ở bến thứ hai, quân Đại Việt đuổi một mạch tới chân thành. Thoát Hoan bỏ Thăng Long, tháo chạy qua sông về phía bắc.
+21. Bến thứ hai là Chương Dương, ngay cửa ngõ kinh thành. Thượng tướng Trần Quang Khải đánh thẳng vào đó, và trong đoàn quân của ông có một người rất trẻ.
+22. Ba năm trước, Trần Quốc Toản bị gạt khỏi một buổi bàn việc nước vì còn nhỏ tuổi. Tức quá, ông bóp nát quả cam đang cầm trong tay.
+23. Rồi ông tự gom hơn một nghìn người, giương lá cờ đề sáu chữ: phá cường địch, báo hoàng ân. Giờ lá cờ ấy có mặt ở bến thứ hai.
+24. Thắng ở Chương Dương, quân Đại Việt đuổi tới tận chân thành. Thoát Hoan bỏ Thăng Long chạy qua sông, và kinh thành về lại tay những người không chịu hàng.
 
 **★ Đoạn lặng** (mốc 75%)
 
-25. Còn lại Toa Đô ở phía nam, một mình. Đạo quân ấy đã đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra, vẫn còn đông và rất hung hãn.
+25. Còn lại Toa Đô ở phía nam, một mình. Đánh hai năm ở Chiêm Thành rồi đánh dọc từ Nghệ An ra, đạo quân ấy vẫn còn đông và rất hung hãn.
 
-**Cao trào** (mốc 78%)
+**Cao trào** (mốc 79%)
 
 26. Tháng Năm, chính hai vua Trần tự cầm quân, vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba.
-27. Doanh trại vỡ. Toa Đô bị chém đầu ngay giữa trận, còn tướng Ô Mã Nhi chỉ kịp chạy thoát ra biển.
+27. Doanh trại vỡ. Toa Đô đánh đến cùng và bị chém đầu ngay giữa trận, còn tướng Ô Mã Nhi chỉ kịp chạy thoát ra biển.
 
-**★ Chi tiết con người** (mốc 83%)
+**★ Chi tiết con người** (mốc 84%)
 
 28. Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm.
 
-**Dồn cuối** (mốc 87%)
+**Dồn cuối** (mốc 88%)
 
 29. Còn Thoát Hoan, bỏ Thăng Long rồi, cũng phải tìm đường chạy về nước. Nhưng đường rút lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ sẵn.
-30. Phục binh ập ra, tướng Lý Hằng trúng tên độc mà chết. Theo lời kể trong sử cũ, Trấn Nam vương phải chui vào ống đồng cho lính khiêng chạy.
+30. Phục binh ập ra, tướng Lý Hằng trúng tên độc mà chết. Theo lời kể trong sử cũ, Thoát Hoan phải chui vào ống đồng cho lính khiêng chạy.
 
-**Kết** (mốc 93%)
+**Kết** (mốc 94%)
 
-31. Một nước không chịu hàng, một kinh thành bỏ trống không nuôi nổi giặc, và ba bến sông trên sông Hồng: ba thứ ấy đã lật ngược cuộc chiến năm ấy.
-32. Vị hoàng tử đã ngồi giữa kinh thành Đại Việt, nhưng lúc về phải nằm trong một cái ống đồng. Cảm ơn bạn đã lắng nghe câu chuyện này.
+31. Còn người chọn hàng là Trần Ích Tắc thì được phong làm An Nam quốc vương, nhưng chưa một ngày được trở về ngồi trên đất ấy.
+32. Một tướng chọn làm quỷ nước Nam, một vua cởi áo liệm kẻ thù chết không chịu hàng. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Năm điểm nhấn cố định
 
@@ -88,7 +88,7 @@ Lời hứa: **ba thứ giúp nhà Trần lật thế cờ, thứ cuối nằm t
 2. Điểm thấp nhất: đoạn 14.
 3. Đoạn lặng trước cao trào: đoạn 25.
 4. Chi tiết con người: đoạn 28.
-5. Câu kết quay về hình ảnh mở đầu: hình ảnh xuất hiện ở đoạn 2, 3, 14, 30, 32.
+5. Câu kết quay về hình ảnh mở đầu: hình ảnh xuất hiện ở đoạn 1, 3, 14, 19, 24, 31, 32.
 
 ## Ba phương án hook
 
@@ -98,21 +98,21 @@ Lời hứa: **ba thứ giúp nhà Trần lật thế cờ, thứ cuối nằm t
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
-- Hook 1: Toàn thư.
+- Hook 1: lời dụ hàng chép trong Toàn thư.
 - Hook 2: Toàn thư.
-- Hook 3: Nguyên sử.
+- Hook 3: Toàn thư; Nguyên sử (CẦN đối chiếu tước phong).
 - Hook 4: lời hứa.
 - Gốc rễ: Toàn thư.
 - Thế nguy: Toàn thư.
-- ★ Điểm thấp nhất: Toàn thư.
-- Bước ngoặt: Toàn thư, Nguyên sử; "thứ hai" là diễn giải của người kể.
+- ★ Điểm thấp nhất: Toàn thư; câu sau là diễn giải.
+- Bước ngoặt: Toàn thư, Nguyên sử.
 - Lần 1: Toàn thư.
-- Lần 2: Toàn thư.
+- Lần 2: Toàn thư (mục năm 1282 và 1285).
 - ★ Đoạn lặng: Toàn thư, Nguyên sử.
 - Cao trào: Toàn thư.
 - ★ Chi tiết con người: Toàn thư (CẦN đối chiếu câu chữ).
 - Dồn cuối: Toàn thư, Nguyên sử.
-- Kết: diễn giải của người kể.
+- Kết: Nguyên sử, Toàn thư.
 
 Ghi chú thêm:
 
@@ -130,9 +130,9 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 16 cảnh báo ⚠️
-- `kiem_mach_ke.py`: -> 0 ❌, 7 ⚠️
-- `kiem_mo_dau.py`: ✅ mở đầu gọn
+- `kiem_kich_ban.py`: 0 lỗi ❌, 14 cảnh báo ⚠️
+- `kiem_mach_ke.py`: -> 0 ❌, 9 ⚠️
+- `kiem_mo_dau.py`: ⚠️ 9 tên riêng mới trong 25.0 giây đầu (nên tối đa 4)
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️
 
 Cảnh báo được chấp nhận: "Hook trên 20 chữ": đoạn 1 có 22 chữ, dưới giới hạn 25. Có 5 tên riêng trong 25 giây đầu: ba tên trận ở đoạn 4 là lời hứa nội dung, nên giữ. Đoạn có 4 tên riêng: tên đã giới thiệu. "Nhiều hơn 3 dấu phẩy": sẽ nghe lại khi đọc giọng.

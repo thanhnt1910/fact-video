@@ -68,16 +68,16 @@
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi, phải lui dần. Đầu năm sau, quân nhà Nguyên vào một Thăng Long bỏ trống.",
-  "hien": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi, phải lui dần. Đầu năm sau, quân nhà Nguyên vào một Thăng Long bỏ trống."
+  "text": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi. Đầu năm sau, quân nhà Nguyên tràn vào chiếm Thăng Long, nhưng kinh thành đã bị bỏ trống.",
+  "hien": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi. Đầu năm sau, quân nhà Nguyên tràn vào chiếm Thăng Long, nhưng kinh thành đã bị bỏ trống."
  },
  {
   "n": 180010,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Gọng kìm phía nam cũng khép lại khi Toa Đô đánh ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào.",
-  "hien": "Gọng kìm phía nam cũng khép lại khi Toa Đô đánh ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào."
+  "text": "Gọng kìm phía nam cũng siết lại khi Toa Đô đánh thốc ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào.",
+  "hien": "Gọng kìm phía nam cũng siết lại khi Toa Đô đánh thốc ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào."
  },
  {
   "n": 180011,
@@ -116,8 +116,8 @@
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?",
-  "hien": "Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?"
+  "text": "Toa Đô thúc quân từ phía nam ngược lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?",
+  "hien": "Toa Đô thúc quân từ phía nam ngược lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?"
  },
  {
   "n": 180016,
@@ -148,8 +148,8 @@
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
-  "text": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh vào.",
-  "hien": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh vào."
+  "text": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh thẳng vào.",
+  "hien": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh thẳng vào."
  },
  {
   "n": 180020,
@@ -164,8 +164,8 @@
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
-  "text": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên bỏ Thăng Long, rút qua sông về phía bắc.",
-  "hien": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên bỏ Thăng Long, rút qua sông về phía bắc."
+  "text": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên tháo chạy khỏi Thăng Long, tràn qua sông về phía bắc.",
+  "hien": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên tháo chạy khỏi Thăng Long, tràn qua sông về phía bắc."
  },
  {
   "n": 180022,

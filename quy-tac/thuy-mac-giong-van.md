@@ -11,6 +11,14 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 
 6. **Dùng từ có điểm nhấn ở chỗ cần nhấn** (chủ kênh, tm5): "vẫn còn đông, còn rất hung hãn" thay cho "vẫn còn đông". Từ nhấn phải có sự việc đỡ ở ngay trong đoạn (ở tm5 là: đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra). Không dùng các từ phóng đại đã cấm ở `chung.md` ("kinh hoàng", "khủng khiếp", "chấn động", "định mệnh").
 
+7. **Động từ ở các mốc lớn phải có lực** (chủ kênh, tm5: "quân nhà Nguyên vào một Thăng Long bỏ trống" nghe như đi thăm nhà người thân). Không dùng động từ trung tính như "vào", "đi", "kéo", "rút", "đánh vào" ở các mốc như chiếm thành, tiến quân, tháo chạy, đột phá. Thay bằng:
+   - chiếm thành: "tràn vào chiếm";
+   - tiến quân: "đánh thốc ra", "thúc quân ngược lên";
+   - tấn công: "đánh thẳng vào", "vây kín";
+   - tháo chạy: "tháo chạy khỏi", "tràn qua sông";
+   - đuổi đánh: "đuổi một mạch".
+   Khi viết xong, rà lại mọi câu có sự kiện lớn và đổi hết các động từ yếu cùng một lượt, không đợi chủ kênh chỉ ra từng chỗ.
+
 ## 2. Câu đếm và câu chuyển chương
 - Câu đếm không lặp khuôn "Đó là điều thứ N". Gắn số đếm vào sự việc: "Bến sông đầu tiên là Hàm Tử", "Chương Dương là bến thứ hai", "…Tây Kết, bến sông thứ ba".
 - Cuối mỗi lần hoặc trận là một câu giữ căng thẳng: "Một bến đã thắng. Nhưng kinh thành vẫn trong tay Thoát Hoan…".
@@ -39,3 +47,4 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 | "quân thuyền" (người nghe không hiểu là quân gì) | "đoàn thuyền chiến", "quân đi thuyền", hoặc "thủy quân" kèm lời giải thích | tm5 |
 | "Bắt được một vị tướng giữa trận, giặc…" (ai bắt? chủ ngữ đến muộn sau vế mở đầu) | "Giặc bắt sống được một vị tướng giữa trận, nhưng…"; người làm việc phải đứng đầu câu, nhất là ở câu đầu tiên của video | tm5 |
 | "chỉ còn cách nhau mấy bến sông… bị chặn ở chính ba bến sông ấy" (câu trước nói "mấy", câu sau nói "ba": số không khớp) | một con số hoặc một sự vật nói nhất quán trong cả đoạn: "Giữa hai đạo quân ấy là dòng sông Hồng… ba bến sông trên chính dòng sông ấy" | tm5 |
+| "quân nhà Nguyên vào một Thăng Long bỏ trống" (động từ yếu, như đi thăm nhà người thân) | "tràn vào chiếm Thăng Long, nhưng kinh thành đã bị bỏ trống"; xem mục 1, điểm 7 | tm5 |

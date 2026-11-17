@@ -1,6 +1,6 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-30 đoạn, 829 chữ, khoảng 4.5 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+30 đoạn, 837 chữ, khoảng 4.5 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
@@ -30,19 +30,19 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 **Thế nguy** (mốc 27%)
 
-9. Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi, phải lui dần. Đầu năm sau, quân nhà Nguyên vào một Thăng Long bỏ trống.
-10. Gọng kìm phía nam cũng khép lại khi Toa Đô đánh ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào.
+9. Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi. Đầu năm sau, quân nhà Nguyên tràn vào chiếm Thăng Long, nhưng kinh thành đã bị bỏ trống.
+10. Gọng kìm phía nam cũng siết lại khi Toa Đô đánh thốc ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào.
 11. Trần Bình Trọng chọn làm quỷ nước Nam ở bãi Đà Mạc. Cùng lúc ấy, Trần Ích Tắc, em trai Thượng hoàng, lại chọn dẫn cả nhà sang hàng giặc.
 
 **★ Điểm thấp nhất** (mốc 38%)
 
 12. Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Đó là lúc gọng kìm siết chặt nhất.
 
-**Bước ngoặt** (mốc 40%)
+**Bước ngoặt** (mốc 41%)
 
 13. Gọng kìm đã siết, nhưng hai đầu của nó vẫn chưa chạm nhau. Giữa chúng vẫn còn những bến sông của Đại Việt.
 14. Còn ở kinh thành, quân của Thoát Hoan bắt đầu đói và ốm. Chiếm được thành mà không bắt được vua, không có lương, rồi mùa hè lại nắng nóng, mưa dầm.
-15. Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?
+15. Toa Đô thúc quân từ phía nam ngược lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?
 
 **Lần 1** (mốc 50%)
 
@@ -52,9 +52,9 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 **Lần 2** (mốc 60%)
 
-19. Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh vào.
+19. Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh thẳng vào.
 20. Trong đoàn quân ấy có Trần Quốc Toản, một tướng trẻ chưa tới hai mươi tuổi, giương lá cờ tự làm đề sáu chữ: phá cường địch, báo hoàng ân.
-21. Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên bỏ Thăng Long, rút qua sông về phía bắc.
+21. Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên tháo chạy khỏi Thăng Long, tràn qua sông về phía bắc.
 22. Thế là hai đầu gọng kìm đã bị chặt rời. Toa Đô bị bỏ lại phía nam một mình, không còn ai để hợp sức.
 
 **★ Đoạn lặng** (mốc 73%)
@@ -128,7 +128,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 13 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 15 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 9 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

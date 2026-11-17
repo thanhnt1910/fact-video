@@ -2,24 +2,24 @@
 import json
 def N(nhip,su_viec,nguon,doan=1): return dict(nhip=nhip,su_viec=su_viec,nguon=nguon,doan=doan)
 K={}
-K['tm5']=dict(ma='tm5',ten='Hàm Tử, Chương Dương, Tây Kết 1285',n_hua=3,loi_hua='ba bến sông chặn hai đầu gọng kìm',
- cau_hoi='Hai đạo quân giặc (bắc, nam) có gặp được nhau không?',soi_chi=['gọng kìm','hai đạo quân','hai đầu'],
- hinh_anh=['quỷ nước Nam'],dem=['đầu tiên','thứ hai','thứ ba'],nhip=[
- N('hook1','Câu hỏi hướng vào người nghe: nếu kẻ thù hứa cho bạn làm vương, chỉ cần chịu hàng, bạn sẽ trả lời thế nào?','dựa trên lời dụ hàng chép trong Toàn thư'),
- N('hook2','Một vị tướng bị bắt đã đáp: thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc; bị giết ngay','Toàn thư'),
- N('hook3','Đó là Trần Bình Trọng; lúc ấy giặc đã chiếm kinh thành, một đạo quân khác đang từ phía nam đánh lên','Toàn thư'),
- N('hook4','Hai đạo quân chỉ còn cách nhau mấy bến sông: gặp được nhau, hay bị chặn ở ba bến sông ấy?','lời hứa'),
- N('goc_re','Đòi mượn đường đánh Chiêm Thành → nhà Trần từ chối → nhà Nguyên có cớ, chia hai gọng kìm (Thoát Hoan ở bắc, Toa Đô ở Chiêm Thành) → Diên Hồng: các cụ đồng thanh đánh → cuối năm gọng bắc khép lại','Toàn thư, Nguyên sử',4),
- N('the_nguy','Trần Quốc Tuấn lui dần, giặc vào Thăng Long bỏ trống → Toa Đô đánh ra Nghệ An, Thanh Hóa → Trần Bình Trọng chọn làm quỷ nước Nam, Trần Ích Tắc chọn hàng giặc','Toàn thư',3),
- N('diem_thap','Hai vua xuống thuyền lánh ra biển Thanh Hóa: gọng kìm siết chặt nhất','Toàn thư'),
- N('buoc_ngoat','Hai đầu gọng kìm chưa chạm nhau; quân Thoát Hoan đói, ốm, mùa hè; Toa Đô kéo lên để hợp sức: cuộc đua bắt đầu','Toàn thư, Nguyên sử; "cuộc đua" là diễn giải của người kể',3),
- N('lan1','Hàm Tử (bến đầu tiên), trên đường Toa Đô đi lên: Trần Nhật Duật; quân Triệu Trung mặc áo Tống, giặc hoảng vỡ chạy; đầu gọng nam bị đánh bật lại','Toàn thư',3),
- N('lan2','Chương Dương (bến thứ hai), cửa ngõ Thăng Long: Trần Quang Khải, Trần Quốc Toản với lá cờ sáu chữ; đuổi tới chân thành, giặc bỏ Thăng Long; hai đầu gọng kìm bị chặt rời','Toàn thư',4),
- N('lang','Trận lớn nhất còn ở phía trước: đạo quân Toa Đô đánh hai năm ở Chiêm Thành, vẫn còn đông','Toàn thư, Nguyên sử'),
- N('cao_trao','Hai vua tự cầm quân vây Tây Kết (bến thứ ba); doanh trại vỡ, Toa Đô bị chém, Ô Mã Nhi chạy ra biển','Toàn thư',2),
+K['tm5']=dict(ma='tm5',ten='Hàm Tử, Chương Dương, Tây Kết 1285',n_hua=3,loi_hua='ba thứ giúp nhà Trần lật thế cờ, thứ cuối nằm trên ba bến sông',
+ cau_hoi='Vì sao đạo quân đã chiếm kinh thành lại phải tháo chạy, và vị hoàng tử phải chui ống đồng?',soi_chi=['thứ đầu tiên','thứ hai','thứ ba','ba thứ','bến'],
+ hinh_anh=['hoàng tử','trấn nam vương','ống đồng'],dem=['thứ đầu tiên','thứ hai','thứ ba'],nhip=[
+ N('hook1','Câu hỏi: vì sao đạo quân đã chiếm kinh thành chỉ nửa năm sau phải tháo chạy?','Toàn thư'),
+ N('hook2','Câu hỏi: vì sao vị hoàng tử cầm quân phải chui ống đồng cho lính khiêng?','Toàn thư'),
+ N('hook3','Thoát Hoan, con Hốt Tất Liệt, được phong sẵn tước Trấn Nam vương','Nguyên sử'),
+ N('hook4','Người chặn đường là Trần Quốc Tuấn; nhà Trần có ba thứ, thứ cuối nằm trên ba bến sông','lời hứa'),
+ N('goc_re','Đòi mượn đường → từ chối → chia hai cánh (Thoát Hoan bắc, Toa Đô ở Chiêm Thành) → Diên Hồng → Sát Thát: thứ đầu tiên, cả nước không chịu hàng','Toàn thư',5),
+ N('the_nguy','Quân Thoát Hoan tràn qua biên giới, chiếm Thăng Long; Toa Đô đánh ra Nghệ An, Thanh Hóa; Trần Bình Trọng bị bắt, đáp "thà làm quỷ nước Nam", bị giết; Trần Ích Tắc hàng giặc','Toàn thư',4),
+ N('diem_thap','Hai vua lánh ra biển Thanh Hóa, còn Trấn Nam vương ngồi giữa kinh thành','Toàn thư'),
+ N('buoc_ngoat','Thành trống, không vua, không lương, lương chở từ xa; mùa hè nóng, mưa, bệnh; thứ hai: bỏ kinh thành để giữ người, giữ vua','Toàn thư, Nguyên sử; "thứ hai" là diễn giải của người kể',3),
+ N('lan1','Toa Đô ngược lên dọc sông Hồng; thứ ba là sông Hồng; Hàm Tử (bến đầu tiên): Trần Nhật Duật, quân Triệu Trung mặc áo Tống, giặc vỡ chạy','Toàn thư',4),
+ N('lan2','Chương Dương (bến thứ hai): Trần Quang Khải, Trần Quốc Toản với lá cờ sáu chữ; đuổi tới chân thành, Thoát Hoan bỏ Thăng Long','Toàn thư',2),
+ N('lang','Toa Đô còn lại một mình ở phía nam, vẫn đông và hung hãn','Toàn thư, Nguyên sử'),
+ N('cao_trao','Hai vua tự cầm quân vây Tây Kết (bến thứ ba); Toa Đô bị chém, Ô Mã Nhi chạy ra biển','Toàn thư',2),
  N('chi_tiet_nguoi','Vua Trần Nhân Tông than "làm bề tôi nên như người này", cởi áo mình liệm Toa Đô','Toàn thư (CẦN đối chiếu câu chữ)'),
- N('don_cuoi','Gọng nam gãy hẳn; Thoát Hoan chạy qua Vạn Kiếp; Lý Hằng trúng tên độc chết; Thoát Hoan chui ống đồng','Toàn thư, Nguyên sử',2),
- N('ket','Hai vua về Thăng Long, Trần Quang Khải làm thơ "Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù"; câu kết quỷ nước Nam','Toàn thư; bản dịch thơ của Trần Trọng Kim',2)])
+ N('don_cuoi','Thoát Hoan chạy qua Vạn Kiếp, phục binh; Lý Hằng trúng tên độc; Trấn Nam vương chui ống đồng','Toàn thư, Nguyên sử',2),
+ N('ket','Gọi lại ba thứ; câu kết mỉa: ngồi giữa kinh thành, về nằm trong ống đồng','diễn giải của người kể',2)])
 K['tm6']=dict(ma='tm6',soi_chi=['thuyền lương','lương'],ten='Bạch Đằng 1288',n_hua=2,loi_hua='hai điều đẩy Ô Mã Nhi tới Bạch Đằng',
  hinh_anh=['thuyền nhỏ'],dem=['điều đầu tiên','điều thứ hai'],nhip=[
  N('hook1','Hàng trăm chiến thuyền giặc xuôi một dòng sông lớn, đuổi theo mấy chiếc thuyền nhỏ đang bỏ chạy','Toàn thư'),

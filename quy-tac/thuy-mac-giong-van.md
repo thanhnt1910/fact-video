@@ -28,6 +28,15 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 - Bản tm3 do chủ kênh tự viết ("Mười vạn quân không qua nổi một dòng sông"): tên chương nói thẳng mục tiêu, câu ngắn, kể theo chuỗi nguyên nhân.
 - Bản tm5 do chủ kênh tự viết (17/11): mỗi chương một nhiệm vụ; các câu nối nguyên nhân từng bước ("Nhà Nguyên lấy đó làm cớ…"; "Nhưng đây cũng chính là lúc nhà Trần bắt đầu phản công").
 
+## 3b. Mẫu chủ kênh chọn: kịch bản bd2 (Ngô Quyền, Bạch Đằng 938), ghi 17/11/2026
+Chủ kênh thấy bd2 "nghe vẫn hợp lý" và yêu cầu các tập sau tham khảo. Những điểm làm bd2 cuốn:
+- **Hook bằng hai câu hỏi**, câu thứ hai nhắm vào số phận của một nhân vật phía giặc ("Vì sao hoàng tử cầm quân không trở về?").
+- **Nhân vật phía giặc có một danh hiệu phong sẵn** (Giao Vương), dùng làm hình ảnh mỉa mai xuyên suốt và khép ở câu kết ("Một tước vương phong sẵn đã không thắng nổi một người hiểu dòng sông"). tm5 dùng Trấn Nam vương và cái ống đồng.
+- **Lời hứa "ba thứ"** là ba nguyên nhân thắng lợi, lần lượt hiện ra ("Đây là thứ đầu tiên…"), chứ không phải ba trận kể nối đuôi.
+- **Dùng lời nói và quyết định có chép trong sử**: Tiêu Ích can, Lưu Cung không nghe, Ngô Quyền bàn với các tướng. Người nghe theo dõi con người, không chỉ theo dõi quân đội.
+- **Giải thích cơ chế cho người nghe** (thủy triều lên thì sao, rút thì sao), rồi mới kể trận đánh. Trận đánh được kể chậm từng bước.
+- **Kết bằng số phận người phía giặc** (Lưu Cung khóc rồi rút quân), rồi một câu tóm ba thứ, rồi câu mỉa.
+
 ## 4. Câu bị chê và cách sửa (thêm vào mỗi lần bị chê)
 | Bị chê | Sửa thành | Tập |
 |---|---|---|

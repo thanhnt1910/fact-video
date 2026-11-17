@@ -25,6 +25,12 @@ Mọi tập đều viết theo một khung nhịp giống nhau, để điểm nh
 - Phần sau khối cao trào (`don_cuoi` + `ket`) tối đa 5 đoạn.
 - Tổng 24–42 đoạn.
 
+## 1b. Câu hỏi xuyên suốt (sợi chỉ) — chống kể liệt kê (chủ kênh chê tm5 bản 6, 17/11/2026)
+- Mỗi tập có **một câu hỏi kịch tính** mà người nghe giữ trong đầu từ hook tới cao trào (tm5: "hai đầu gọng kìm có gặp được nhau không?"). Khai báo trong khung: `cau_hoi`, `soi_chi` (các cụm chữ của câu hỏi).
+- Hook 4 đặt câu hỏi ấy. Đoạn cuối của **bước ngoặt** và của **mỗi lần/trận** phải nói câu hỏi đang nghiêng về phía nào ("Đầu gọng kìm phía nam bị đánh bật lại"; "Thế là hai đầu gọng kìm đã bị chặt rời"). `kiem_khung.py` báo ❌ nếu thiếu.
+- Sự việc nào không làm câu hỏi nghiêng đi thì bỏ hoặc gộp vào một vế câu (tm5 bản 7 đã bỏ chữ Sát Thát, Trần Kiện, tước phong của Trần Bình Trọng). Đặt hai người, hai lựa chọn cạnh nhau thay vì kể từng người (Trần Bình Trọng chọn làm quỷ nước Nam, Trần Ích Tắc chọn hàng giặc).
+- Tổng số sự việc trong một tập nên khoảng 15–18; mỗi đoạn hoặc thêm một sự việc, hoặc nói sự việc vừa kể làm câu hỏi nghiêng về đâu.
+
 ## 2. Năm điểm nhấn cố định (tập nào cũng phải có)
 1. Câu nói có thật hoặc khoảnh khắc nguy nhất ở hook.
 2. Điểm thấp nhất.

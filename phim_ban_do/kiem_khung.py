@@ -28,7 +28,7 @@ TAT = re.compile(r'\bquân (Nguyên|Minh|Tống|Thanh|Hán|Nam Hán|Trần|Lý|L
 TAT_MEM = re.compile(r'\bquân (Xiêm|Chiêm)\b')
 
 def nhom(n):
-    return 'cao' if n in CAO else ('lan' if n.startswith('lan') else n)
+    return 'cao' if n in CAO else ('lan' if re.match(r'lan\d', n) else n)
 
 def kiem_thu_tu(ds, loi, nguon):
     """ds: danh sách tên nhịp theo thứ tự xuất hiện"""
@@ -90,6 +90,17 @@ def main(ma):
         if not any(i < 4 for i in co): loi.append('❌ lời đọc: hình ảnh xuyên suốt không có ở hook')
         if len(J) - 1 not in co: loi.append('❌ lời đọc: câu kết không quay về hình ảnh xuyên suốt')
         if len(co) < 3: loi.append(f'❌ lời đọc: hình ảnh xuyên suốt chỉ xuất hiện {len(co)} lần (cần ≥3)')
+        # sợi chỉ: câu hỏi xuyên suốt phải được nhắc ở hook 4 và ở đoạn cuối của bước ngoặt và của mỗi lần
+        sc = [x.lower() for x in K.get('soi_chi', [])]
+        if sc:
+            cuoi = {}
+            for i, d in enumerate(J):
+                if d['nhip'] == 'hook4' or d['nhip'] == 'buoc_ngoat' or re.match(r'lan\d', d['nhip']): cuoi[d['nhip']] = i
+            for n, i in cuoi.items():
+                if not any(x in low[i] for x in sc):
+                    loi.append(f'❌ lời đọc: đoạn cuối của nhịp "{n}" ({J[i]["n"]}) không nhắc lại câu hỏi xuyên suốt ({", ".join(K["soi_chi"])}); sự việc đang bị kể rời như liệt kê')
+        else:
+            canh.append('⚠️ khung chưa khai báo "soi_chi" (câu hỏi xuyên suốt)')
         than = ' '.join(low[4:])
         for p in K.get('dem', []):
             if p.lower() not in than: loi.append(f'❌ lời đọc: thiếu câu đếm "{p}"')

@@ -2,7 +2,13 @@
  "ma": "tm5",
  "ten": "Hàm Tử, Chương Dương, Tây Kết 1285",
  "n_hua": 3,
- "loi_hua": "ba trận trên ba bến sông",
+ "loi_hua": "ba bến sông chặn hai đầu gọng kìm",
+ "cau_hoi": "Hai đạo quân giặc (bắc, nam) có gặp được nhau không?",
+ "soi_chi": [
+  "gọng kìm",
+  "hai đạo quân",
+  "hai đầu"
+ ],
  "hinh_anh": [
   "quỷ nước Nam"
  ],
@@ -14,7 +20,7 @@
  "nhip": [
   {
    "nhip": "hook1",
-   "su_viec": "Giặc hỏi một vị tướng vừa bị bắt có muốn làm vương đất Bắc không",
+   "su_viec": "Giặc bắt được một vị tướng, không giết ngay mà hỏi có muốn làm vương đất Bắc không",
    "nguon": "Toàn thư",
    "doan": 1
   },
@@ -26,80 +32,80 @@
   },
   {
    "nhip": "hook3",
-   "su_viec": "Đó là Trần Bình Trọng; lúc ấy quân nhà Nguyên đã chiếm kinh thành, tưởng như Đại Việt cùng đường",
+   "su_viec": "Đó là Trần Bình Trọng; lúc ấy giặc đã chiếm kinh thành, một đạo quân khác đang từ phía nam đánh lên",
    "nguon": "Toàn thư",
    "doan": 1
   },
   {
    "nhip": "hook4",
-   "su_viec": "Vài tháng sau chính đạo quân ấy phải tháo chạy sau ba trận trên ba bến sông. Ba trận ấy ra sao?",
+   "su_viec": "Hai đạo quân chỉ còn cách nhau mấy bến sông: gặp được nhau, hay bị chặn ở ba bến sông ấy?",
    "nguon": "lời hứa",
    "doan": 1
   },
   {
    "nhip": "goc_re",
-   "su_viec": "Nhà Nguyên đòi mượn đường đánh Chiêm Thành → nhà Trần từ chối → nhà Nguyên lấy cớ đem quân: Thoát Hoan ở bắc, Toa Đô ở Chiêm Thành → Thượng hoàng hỏi các bô lão ở Diên Hồng, các cụ đáp đánh; lính thích chữ Sát Thát",
-   "nguon": "Toàn thư",
-   "doan": 5
+   "su_viec": "Đòi mượn đường đánh Chiêm Thành → nhà Trần từ chối → nhà Nguyên có cớ, chia hai gọng kìm (Thoát Hoan ở bắc, Toa Đô ở Chiêm Thành) → Diên Hồng: các cụ đồng thanh đánh → cuối năm gọng bắc khép lại",
+   "nguon": "Toàn thư, Nguyên sử",
+   "doan": 4
   },
   {
    "nhip": "the_nguy",
-   "su_viec": "Trần Quốc Tuấn chặn biên giới không nổi, lui Vạn Kiếp → Thăng Long bị bỏ trống → Toa Đô đánh ra Nghệ An, Thanh Hóa, kẹp hai đầu → Trần Bình Trọng thua, bị bắt, chết → Trần Ích Tắc, Trần Kiện ra hàng",
+   "su_viec": "Trần Quốc Tuấn lui dần, giặc vào Thăng Long bỏ trống → Toa Đô đánh ra Nghệ An, Thanh Hóa → Trần Bình Trọng chọn làm quỷ nước Nam, Trần Ích Tắc chọn hàng giặc",
    "nguon": "Toàn thư",
-   "doan": 5
+   "doan": 3
   },
   {
    "nhip": "diem_thap",
-   "su_viec": "Hai vua Trần đi thuyền lánh ra vùng biển Thanh Hóa; trong họ vua đã có người theo giặc, nhưng nhà Trần chưa chịu thua",
+   "su_viec": "Hai vua xuống thuyền lánh ra biển Thanh Hóa: gọng kìm siết chặt nhất",
    "nguon": "Toàn thư",
    "doan": 1
   },
   {
    "nhip": "buoc_ngoat",
-   "su_viec": "Giặc không bắt được vua, thiếu lương, mùa hè nóng, bệnh tật → hai cánh quân giặc dồn về sông Hồng → nhà Trần phản công trên các bến sông",
-   "nguon": "Toàn thư, Nguyên sử",
-   "doan": 4
+   "su_viec": "Hai đầu gọng kìm chưa chạm nhau; quân Thoát Hoan đói, ốm, mùa hè; Toa Đô kéo lên để hợp sức: cuộc đua bắt đầu",
+   "nguon": "Toàn thư, Nguyên sử; \"cuộc đua\" là diễn giải của người kể",
+   "doan": 3
   },
   {
    "nhip": "lan1",
-   "su_viec": "Hàm Tử (bến đầu tiên): Trần Nhật Duật; toán quân Triệu Trung mặc áo Tống, giặc tưởng nhà Tống sang giúp nên vỡ chạy; hệ quả: kinh thành vẫn trong tay giặc, Toa Đô vẫn đang lên",
+   "su_viec": "Hàm Tử (bến đầu tiên), trên đường Toa Đô đi lên: Trần Nhật Duật; quân Triệu Trung mặc áo Tống, giặc hoảng vỡ chạy; đầu gọng nam bị đánh bật lại",
+   "nguon": "Toàn thư",
+   "doan": 3
+  },
+  {
+   "nhip": "lan2",
+   "su_viec": "Chương Dương (bến thứ hai), cửa ngõ Thăng Long: Trần Quang Khải, Trần Quốc Toản với lá cờ sáu chữ; đuổi tới chân thành, giặc bỏ Thăng Long; hai đầu gọng kìm bị chặt rời",
    "nguon": "Toàn thư",
    "doan": 4
   },
   {
-   "nhip": "lan2",
-   "su_viec": "Chương Dương (bến thứ hai): Trần Quang Khải, Trần Quốc Toản với lá cờ sáu chữ; đánh tan giặc, đuổi tới Thăng Long, giặc bỏ thành; bài thơ \"Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù\"",
-   "nguon": "Toàn thư; bản dịch thơ của Trần Trọng Kim",
-   "doan": 5
-  },
-  {
    "nhip": "lang",
-   "su_viec": "\"Trận lớn nhất vẫn còn ở phía trước\": Toa Đô còn nguyên quân ở Tây Kết, đã đánh hai năm ở Chiêm Thành, thua ở Hàm Tử vẫn còn đông",
+   "su_viec": "Trận lớn nhất còn ở phía trước: đạo quân Toa Đô đánh hai năm ở Chiêm Thành, vẫn còn đông",
    "nguon": "Toàn thư, Nguyên sử",
-   "doan": 2
+   "doan": 1
   },
   {
    "nhip": "cao_trao",
-   "su_viec": "Hai vua Trần tự đem quân vây doanh trại Toa Đô ở Tây Kết (bến thứ ba); doanh trại vỡ, Toa Đô bị chém, Ô Mã Nhi chạy ra biển",
+   "su_viec": "Hai vua tự cầm quân vây Tây Kết (bến thứ ba); doanh trại vỡ, Toa Đô bị chém, Ô Mã Nhi chạy ra biển",
    "nguon": "Toàn thư",
    "doan": 2
   },
   {
    "nhip": "chi_tiet_nguoi",
-   "su_viec": "Vua Trần Nhân Tông thấy đầu Toa Đô, than làm bề tôi nên như người này, cởi áo mình sai liệm",
-   "nguon": "Toàn thư (cần đối chiếu câu chữ)",
+   "su_viec": "Vua Trần Nhân Tông than \"làm bề tôi nên như người này\", cởi áo mình liệm Toa Đô",
+   "nguon": "Toàn thư (CẦN đối chiếu câu chữ)",
    "doan": 1
   },
   {
    "nhip": "don_cuoi",
-   "su_viec": "Thoát Hoan tháo chạy qua Vạn Kiếp, phục binh của Trần Quốc Tuấn đổ ra; Lý Hằng trúng tên độc; Thoát Hoan chui ống đồng cho lính khiêng",
+   "su_viec": "Gọng nam gãy hẳn; Thoát Hoan chạy qua Vạn Kiếp; Lý Hằng trúng tên độc chết; Thoát Hoan chui ống đồng",
    "nguon": "Toàn thư, Nguyên sử",
-   "doan": 3
+   "doan": 2
   },
   {
    "nhip": "ket",
-   "su_viec": "Tháng Sáu hai vua về Thăng Long, Trần Bình Trọng được phong vương sau khi mất; câu kết: chọn làm quỷ nước Nam, sau ba bến sông giặc phải rời đất Nam",
-   "nguon": "Toàn thư",
+   "su_viec": "Hai vua về Thăng Long, Trần Quang Khải làm thơ \"Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù\"; câu kết quỷ nước Nam",
+   "nguon": "Toàn thư; bản dịch thơ của Trần Trọng Kim",
    "doan": 2
   }
  ]

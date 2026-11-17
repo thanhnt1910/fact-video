@@ -20,179 +20,139 @@
   "chuong": 1,
   "nhip": "hook3",
   "tone": "story",
-  "text": "Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, kinh thành đã nằm trong tay quân nhà Nguyên, và Đại Việt tưởng như đã cùng đường.",
-  "hien": "Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, kinh thành đã nằm trong tay quân nhà Nguyên, và Đại Việt tưởng như đã cùng đường."
+  "text": "Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, quân nhà Nguyên đã chiếm kinh thành, và một đạo quân khác của chúng đang từ phía nam đánh lên.",
+  "hien": "Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, quân nhà Nguyên đã chiếm kinh thành, và một đạo quân khác của chúng đang từ phía nam đánh lên."
  },
  {
   "n": 180004,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Vậy mà chưa đầy nửa năm sau, chính đạo quân ấy phải tháo chạy, sau ba trận trên ba bến sông. Ba bến sông ấy đã đổi chiều cuộc chiến ra sao?",
-  "hien": "Vậy mà chưa đầy nửa năm sau, chính đạo quân ấy phải tháo chạy, sau ba trận trên ba bến sông. Ba bến sông ấy đã đổi chiều cuộc chiến ra sao?"
+  "text": "Hai đạo quân ấy chỉ còn cách nhau mấy bến sông. Chúng sẽ gặp được nhau, hay bị chặn lại ở chính ba bến sông ấy?",
+  "hien": "Hai đạo quân ấy chỉ còn cách nhau mấy bến sông. Chúng sẽ gặp được nhau, hay bị chặn lại ở chính ba bến sông ấy?"
  },
  {
   "n": 180005,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Mọi chuyện bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam.",
-  "hien": "Mọi chuyện bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam."
+  "text": "Cuộc chiến bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam.",
+  "hien": "Cuộc chiến bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam."
  },
  {
   "n": 180006,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Mượn đường thì dễ, trả đường mới khó. Nhà Trần từ chối, và nhà Nguyên lấy ngay lời từ chối ấy làm cớ đem quân sang.",
-  "hien": "Mượn đường thì dễ, trả đường mới khó. Nhà Trần từ chối, và nhà Nguyên lấy ngay lời từ chối ấy làm cớ đem quân sang."
+  "text": "Mượn đường thì dễ, trả đường mới khó, nên nhà Trần từ chối. Thế là nhà Nguyên có cớ đem quân sang, chia làm hai gọng kìm.",
+  "hien": "Mượn đường thì dễ, trả đường mới khó, nên nhà Trần từ chối. Thế là nhà Nguyên có cớ đem quân sang, chia làm hai gọng kìm."
  },
  {
   "n": 180007,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Hoàng đế nhà Nguyên là Hốt Tất Liệt sai con trai Thoát Hoan kéo đại quân xuống biên giới phía bắc. Phía nam, tướng Toa Đô chờ sẵn bên đất Chiêm Thành.",
-  "hien": "Hoàng đế nhà Nguyên là Hốt Tất Liệt sai con trai Thoát Hoan kéo đại quân xuống biên giới phía bắc. Phía nam, tướng Toa Đô chờ sẵn bên đất Chiêm Thành."
+  "text": "Gọng phía bắc do Thoát Hoan, con trai hoàng đế Hốt Tất Liệt, cầm đầu. Gọng phía nam do tướng Toa Đô, đang đóng sẵn ở Chiêm Thành.",
+  "hien": "Gọng phía bắc do Thoát Hoan, con trai hoàng đế Hốt Tất Liệt, cầm đầu. Gọng phía nam do tướng Toa Đô, đang đóng sẵn ở Chiêm Thành."
  },
  {
   "n": 180008,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Giặc đã ở trước cửa. Thượng hoàng Trần Thánh Tông mời các bô lão về điện Diên Hồng hỏi nên hòa hay nên đánh, và các cụ đồng thanh một chữ: đánh.",
-  "hien": "Giặc đã ở trước cửa. Thượng hoàng Trần Thánh Tông mời các bô lão về điện Diên Hồng hỏi nên hòa hay nên đánh, và các cụ đồng thanh một chữ: đánh."
+  "text": "Ở điện Diên Hồng, các bô lão được hỏi nên hòa hay nên đánh, các cụ đồng thanh: đánh. Cuối năm ấy, gọng kìm phía bắc bắt đầu khép lại.",
+  "hien": "Ở điện Diên Hồng, các bô lão được hỏi nên hòa hay nên đánh, các cụ đồng thanh: đánh. Cuối năm ấy, gọng kìm phía bắc bắt đầu khép lại."
  },
  {
   "n": 180009,
-  "chuong": 2,
-  "nhip": "goc_re",
+  "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Trong quân, binh lính thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ. Cuối năm ấy, quân của Thoát Hoan tràn qua biên giới.",
-  "hien": "Trong quân, binh lính thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ. Cuối năm ấy, quân của Thoát Hoan tràn qua biên giới."
+  "text": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi, phải lui dần. Đầu năm sau, quân nhà Nguyên vào một Thăng Long bỏ trống.",
+  "hien": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, chặn ở biên giới không nổi, phải lui dần. Đầu năm sau, quân nhà Nguyên vào một Thăng Long bỏ trống."
  },
  {
   "n": 180010,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, dựng trận chặn ở biên giới nhưng không giữ nổi. Quân Đại Việt lui về Vạn Kiếp, rồi lui nữa.",
-  "hien": "Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, dựng trận chặn ở biên giới nhưng không giữ nổi. Quân Đại Việt lui về Vạn Kiếp, rồi lui nữa."
+  "text": "Gọng kìm phía nam cũng khép lại khi Toa Đô đánh ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào.",
+  "hien": "Gọng kìm phía nam cũng khép lại khi Toa Đô đánh ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào."
  },
  {
   "n": 180011,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Đầu năm sau, quân nhà Nguyên tiến vào một Thăng Long bỏ trống. Triều đình đã lánh đi từ trước, xuôi dần về phía nam.",
-  "hien": "Đầu năm sau, quân nhà Nguyên tiến vào một Thăng Long bỏ trống. Triều đình đã lánh đi từ trước, xuôi dần về phía nam."
+  "text": "Trần Bình Trọng chọn làm quỷ nước Nam ở bãi Đà Mạc. Cùng lúc ấy, Trần Ích Tắc, em trai Thượng hoàng, lại chọn dẫn cả nhà sang hàng giặc.",
+  "hien": "Trần Bình Trọng chọn làm quỷ nước Nam ở bãi Đà Mạc. Cùng lúc ấy, Trần Ích Tắc, em trai Thượng hoàng, lại chọn dẫn cả nhà sang hàng giặc."
  },
  {
   "n": 180012,
   "chuong": 3,
-  "nhip": "the_nguy",
+  "nhip": "diem_thap",
   "tone": "story",
-  "text": "Phía nam cũng không yên. Toa Đô đánh ra Nghệ An, Thanh Hóa, và Đại Việt bị kẹp giữa hai gọng kìm.",
-  "hien": "Phía nam cũng không yên. Toa Đô đánh ra Nghệ An, Thanh Hóa, và Đại Việt bị kẹp giữa hai gọng kìm."
+  "text": "Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Đó là lúc gọng kìm siết chặt nhất.",
+  "hien": "Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Đó là lúc gọng kìm siết chặt nhất."
  },
  {
   "n": 180013,
-  "chuong": 3,
-  "nhip": "the_nguy",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Ở phía bắc, Trần Bình Trọng chặn giặc ở bãi Đà Mạc, bên sông Thiên Mạc. Ông thua, bị bắt, và chọn làm quỷ nước Nam.",
-  "hien": "Ở phía bắc, Trần Bình Trọng chặn giặc ở bãi Đà Mạc, bên sông Thiên Mạc. Ông thua, bị bắt, và chọn làm quỷ nước Nam."
+  "text": "Gọng kìm đã siết, nhưng hai đầu của nó vẫn chưa chạm nhau. Giữa chúng vẫn còn những bến sông của Đại Việt.",
+  "hien": "Gọng kìm đã siết, nhưng hai đầu của nó vẫn chưa chạm nhau. Giữa chúng vẫn còn những bến sông của Đại Việt."
  },
  {
   "n": 180014,
-  "chuong": 3,
-  "nhip": "the_nguy",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Tin xấu còn nối tiếp tin xấu. Em trai Thượng hoàng là Trần Ích Tắc dẫn cả nhà sang hàng giặc, tướng Trần Kiện cũng ra hàng Toa Đô.",
-  "hien": "Tin xấu còn nối tiếp tin xấu. Em trai Thượng hoàng là Trần Ích Tắc dẫn cả nhà sang hàng giặc, tướng Trần Kiện cũng ra hàng Toa Đô."
+  "text": "Trong khi chờ, quân của Thoát Hoan ở kinh thành bắt đầu đói và ốm. Không bắt được vua, không có lương, mà mùa hè thì nắng nóng, mưa dầm.",
+  "hien": "Trong khi chờ, quân của Thoát Hoan ở kinh thành bắt đầu đói và ốm. Không bắt được vua, không có lương, mà mùa hè thì nắng nóng, mưa dầm."
  },
  {
   "n": 180015,
-  "chuong": 3,
-  "nhip": "diem_thap",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Mất kinh thành, mất tướng, có cả người trong họ vua theo giặc, nhưng nhà Trần chưa chịu thua.",
-  "hien": "Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Mất kinh thành, mất tướng, có cả người trong họ vua theo giặc, nhưng nhà Trần chưa chịu thua."
+  "text": "Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?",
+  "hien": "Toa Đô kéo quân từ phía nam lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?"
  },
  {
   "n": 180016,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Quân nhà Nguyên có trong tay kinh thành, nhưng không có vua để bắt, cũng không có lương để ăn.",
-  "hien": "Quân nhà Nguyên có trong tay kinh thành, nhưng không có vua để bắt, cũng không có lương để ăn."
+  "text": "Bến sông đầu tiên là Hàm Tử, nằm ngay trên đường Toa Đô đi lên. Tháng Tư, quân thuyền của Trần Nhật Duật chờ sẵn ở đó.",
+  "hien": "Bến sông đầu tiên là Hàm Tử, nằm ngay trên đường Toa Đô đi lên. Tháng Tư, quân thuyền của Trần Nhật Duật chờ sẵn ở đó."
  },
  {
   "n": 180017,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Mùa hè tới. Nắng nóng, mưa dầm, bệnh tật lan khắp doanh trại quân nhà Nguyên, mà đất đai chung quanh thì không chỗ nào yên.",
-  "hien": "Mùa hè tới. Nắng nóng, mưa dầm, bệnh tật lan khắp doanh trại quân nhà Nguyên, mà đất đai chung quanh thì không chỗ nào yên."
+  "text": "Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ.",
+  "hien": "Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ."
  },
  {
   "n": 180018,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Toa Đô kéo quân từ phía nam lên, định hợp với Thoát Hoan. Hai cánh quân giặc đang xích lại gần nhau dọc theo sông Hồng.",
-  "hien": "Toa Đô kéo quân từ phía nam lên, định hợp với Thoát Hoan. Hai cánh quân giặc đang xích lại gần nhau dọc theo sông Hồng."
+  "text": "Quân giặc nhìn sang thì hoảng, tưởng nhà Tống đã sang đánh giúp Đại Việt, rồi vỡ chạy. Đầu gọng kìm phía nam bị đánh bật lại.",
+  "hien": "Quân giặc nhìn sang thì hoảng, tưởng nhà Tống đã sang đánh giúp Đại Việt, rồi vỡ chạy. Đầu gọng kìm phía nam bị đánh bật lại."
  },
  {
   "n": 180019,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
-  "tone": "story",
-  "text": "Giặc yếu đi mà lại dồn về sông Hồng, đúng nơi quân thuyền Đại Việt quen sóng nước nhất. Từ đây, nhà Trần quay lại phản công.",
-  "hien": "Giặc yếu đi mà lại dồn về sông Hồng, đúng nơi quân thuyền Đại Việt quen sóng nước nhất. Từ đây, nhà Trần quay lại phản công."
- },
- {
-  "n": 180020,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Bến sông đầu tiên là Hàm Tử. Tháng Tư, quân thuyền của Trần Nhật Duật chặn ngang đường tiến của cánh quân Toa Đô.",
-  "hien": "Bến sông đầu tiên là Hàm Tử. Tháng Tư, quân thuyền của Trần Nhật Duật chặn ngang đường tiến của cánh quân Toa Đô."
- },
- {
-  "n": 180021,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Trong hàng quân của ông có một toán người nhà Tống chạy sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ.",
-  "hien": "Trong hàng quân của ông có một toán người nhà Tống chạy sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ."
- },
- {
-  "n": 180022,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Quân giặc nhìn sang, thấy áo quần nhà Tống thì hoảng. Họ tưởng nhà Tống đã sang đánh giúp Đại Việt, hàng ngũ rối loạn rồi vỡ chạy.",
-  "hien": "Quân giặc nhìn sang, thấy áo quần nhà Tống thì hoảng. Họ tưởng nhà Tống đã sang đánh giúp Đại Việt, hàng ngũ rối loạn rồi vỡ chạy."
- },
- {
-  "n": 180023,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Một bến đã thắng. Nhưng kinh thành vẫn trong tay Thoát Hoan, và Toa Đô vẫn đang trên đường lên.",
-  "hien": "Một bến đã thắng. Nhưng kinh thành vẫn trong tay Thoát Hoan, và Toa Đô vẫn đang trên đường lên."
- },
- {
-  "n": 180024,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
-  "text": "Lấy lại kinh thành là việc của Thượng tướng Trần Quang Khải, người đứng đầu các võ quan. Ông nhắm vào Chương Dương, bến sông ngay cửa ngõ Thăng Long.",
-  "hien": "Lấy lại kinh thành là việc của Thượng tướng Trần Quang Khải, người đứng đầu các võ quan. Ông nhắm vào Chương Dương, bến sông ngay cửa ngõ Thăng Long."
+  "text": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh vào.",
+  "hien": "Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh vào."
  },
  {
-  "n": 180025,
+  "n": 180020,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
@@ -200,55 +160,39 @@
   "hien": "Trong đoàn quân ấy có Trần Quốc Toản, một tướng trẻ chưa tới hai mươi tuổi, giương lá cờ tự làm đề sáu chữ: phá cường địch, báo hoàng ân."
  },
  {
-  "n": 180026,
+  "n": 180021,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
-  "text": "Chương Dương là bến thứ hai. Thắng ở đó, quân Đại Việt không nghỉ, mà đuổi một mạch tới chân thành Thăng Long.",
-  "hien": "Chương Dương là bến thứ hai. Thắng ở đó, quân Đại Việt không nghỉ, mà đuổi một mạch tới chân thành Thăng Long."
+  "text": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên bỏ Thăng Long, rút qua sông về phía bắc.",
+  "hien": "Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên bỏ Thăng Long, rút qua sông về phía bắc."
  },
  {
-  "n": 180027,
+  "n": 180022,
   "chuong": 6,
   "nhip": "lan2",
   "tone": "story",
-  "text": "Quân nhà Nguyên trong thành giữ không nổi, bỏ thành chạy qua sông. Thăng Long về lại tay nhà Trần, chỉ vài tháng sau ngày bị bỏ trống.",
-  "hien": "Quân nhà Nguyên trong thành giữ không nổi, bỏ thành chạy qua sông. Thăng Long về lại tay nhà Trần, chỉ vài tháng sau ngày bị bỏ trống."
+  "text": "Thế là hai đầu gọng kìm đã bị chặt rời. Toa Đô bị bỏ lại phía nam một mình, không còn ai để hợp sức.",
+  "hien": "Thế là hai đầu gọng kìm đã bị chặt rời. Toa Đô bị bỏ lại phía nam một mình, không còn ai để hợp sức."
  },
  {
-  "n": 180028,
-  "chuong": 6,
-  "nhip": "lan2",
-  "tone": "story",
-  "text": "Về sau, Trần Quang Khải gói hai trận ấy vào một bài thơ, có câu: Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù.",
-  "hien": "Về sau, Trần Quang Khải gói hai trận ấy vào một bài thơ, có câu: Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù."
- },
- {
-  "n": 180029,
+  "n": 180023,
   "chuong": 7,
   "nhip": "lang",
   "tone": "story",
-  "text": "Nhưng trận lớn nhất còn ở phía trước. Ở Tây Kết, bên sông Hồng, Toa Đô vẫn giữ nguyên đạo quân của mình.",
-  "hien": "Nhưng trận lớn nhất còn ở phía trước. Ở Tây Kết, bên sông Hồng, Toa Đô vẫn giữ nguyên đạo quân của mình."
+  "text": "Nhưng trận lớn nhất còn ở phía trước. Đạo quân của Toa Đô đã đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra, và vẫn còn đông.",
+  "hien": "Nhưng trận lớn nhất còn ở phía trước. Đạo quân của Toa Đô đã đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra, và vẫn còn đông."
  },
  {
-  "n": 180030,
-  "chuong": 7,
-  "nhip": "lang",
-  "tone": "story",
-  "text": "Đạo quân ấy đã đánh hai năm ở Chiêm Thành, rồi đánh dọc từ Nghệ An ra. Thua một trận ở Hàm Tử, họ vẫn còn đông và vẫn quen trận mạc.",
-  "hien": "Đạo quân ấy đã đánh hai năm ở Chiêm Thành, rồi đánh dọc từ Nghệ An ra. Thua một trận ở Hàm Tử, họ vẫn còn đông và vẫn quen trận mạc."
- },
- {
-  "n": 180031,
+  "n": 180024,
   "chuong": 7,
   "nhip": "cao_trao",
   "tone": "story",
-  "text": "Lần này, chính hai vua Trần tự cầm quân. Tháng Năm, quân Đại Việt vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba.",
-  "hien": "Lần này, chính hai vua Trần tự cầm quân. Tháng Năm, quân Đại Việt vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba."
+  "text": "Tháng Năm, chính hai vua Trần tự cầm quân, vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba.",
+  "hien": "Tháng Năm, chính hai vua Trần tự cầm quân, vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba."
  },
  {
-  "n": 180032,
+  "n": 180025,
   "chuong": 7,
   "nhip": "cao_trao",
   "tone": "story",
@@ -256,7 +200,7 @@
   "hien": "Doanh trại vỡ. Toa Đô bị chém đầu ngay giữa trận, còn Ô Mã Nhi chỉ kịp chạy thoát ra biển."
  },
  {
-  "n": 180033,
+  "n": 180026,
   "chuong": 7,
   "nhip": "chi_tiet_nguoi",
   "tone": "story",
@@ -264,39 +208,31 @@
   "hien": "Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm."
  },
  {
-  "n": 180034,
+  "n": 180027,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Gọng kìm phía nam đã gãy. Thoát Hoan cũng phải tháo chạy về phương bắc, mà đường rút lại xuyên qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ.",
-  "hien": "Gọng kìm phía nam đã gãy. Thoát Hoan cũng phải tháo chạy về phương bắc, mà đường rút lại xuyên qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ."
+  "text": "Gọng kìm phía nam đã gãy hẳn. Thoát Hoan cũng tháo chạy về phương bắc, nhưng đường rút lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn chờ sẵn.",
+  "hien": "Gọng kìm phía nam đã gãy hẳn. Thoát Hoan cũng tháo chạy về phương bắc, nhưng đường rút lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn chờ sẵn."
  },
  {
-  "n": 180035,
+  "n": 180028,
   "chuong": 8,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Phục binh ập ra giữa đường chạy. Tướng Lý Hằng che chắn phía sau thì trúng tên độc, rồi chết trên đường về nước.",
-  "hien": "Phục binh ập ra giữa đường chạy. Tướng Lý Hằng che chắn phía sau thì trúng tên độc, rồi chết trên đường về nước."
+  "text": "Tướng Lý Hằng che chắn phía sau thì trúng tên độc mà chết. Theo lời kể trong sử cũ, Thoát Hoan phải chui vào ống đồng cho lính khiêng chạy về nước.",
+  "hien": "Tướng Lý Hằng che chắn phía sau thì trúng tên độc mà chết. Theo lời kể trong sử cũ, Thoát Hoan phải chui vào ống đồng cho lính khiêng chạy về nước."
  },
  {
-  "n": 180036,
-  "chuong": 8,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Còn Thoát Hoan, con trai hoàng đế nhà Nguyên, theo lời kể trong sử cũ, phải chui vào một cái ống đồng cho lính khiêng chạy về nước.",
-  "hien": "Còn Thoát Hoan, con trai hoàng đế nhà Nguyên, theo lời kể trong sử cũ, phải chui vào một cái ống đồng cho lính khiêng chạy về nước."
- },
- {
-  "n": 180037,
+  "n": 180029,
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",
-  "text": "Tháng Sáu, hai vua trở về Thăng Long. Trần Bình Trọng không còn được thấy ngày ấy, vua thương xót mà phong tước vương cho ông sau khi mất.",
-  "hien": "Tháng Sáu, hai vua trở về Thăng Long. Trần Bình Trọng không còn được thấy ngày ấy, vua thương xót mà phong tước vương cho ông sau khi mất."
+  "text": "Tháng Sáu, hai vua trở về Thăng Long. Trên đường về, Trần Quang Khải làm thơ, có câu: Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù.",
+  "hien": "Tháng Sáu, hai vua trở về Thăng Long. Trên đường về, Trần Quang Khải làm thơ, có câu: Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù."
  },
  {
-  "n": 180038,
+  "n": 180030,
   "chuong": 9,
   "nhip": "ket",
   "tone": "story",

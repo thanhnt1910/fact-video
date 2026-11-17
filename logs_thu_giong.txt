@@ -15,12 +15,10 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-17 16:14:23
-   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h32m18s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] model đã khóa cho video: gemini-3.8-flash-tts (interactions), chọn lúc 2026-11-17 15:52:50
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK chương c181001 (27 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
-[báo cáo giọng] 27/27 đoạn có nhật ký tạo giọng
+OK chương c180001 (32 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
+[báo cáo giọng] 32/32 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
    voice: Charon

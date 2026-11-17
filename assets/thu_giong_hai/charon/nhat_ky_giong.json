@@ -2856,11 +2856,11 @@
 "tone": "story"
 },
 "c180001": {
-"nhom": "180001-180005",
+"nhom": "180001-180032",
 "model": "gemini-3.8-flash-tts",
 "voice": "Charon",
 "style_var": "C_chuong",
-"thoi_diem": "2026-11-17 16:23:33",
+"thoi_diem": "2026-11-17 16:32:09",
 "du_phong": false
 },
 "c180006": {

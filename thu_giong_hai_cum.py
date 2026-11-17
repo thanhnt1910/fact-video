@@ -96,6 +96,8 @@ def main():
             if (d / f"{stem}.mp3").exists() and G.get(stem) == [x["n"] for x in ch]: continue
             text = "\n\n".join(x.get("tts", x["text"]) for x in ch)
             style = STYLE_C + " Keep exactly the same voice, pitch, pace and energy from the first sentence to the last; pause briefly between paragraphs."
+            st = Path("ke-hoach/thu-giong-hai/style_them.txt")
+            if st.exists() and st.read_text().strip(): style += " " + st.read_text().strip()   # bổ sung khi chủ kênh chê giọng (ví dụ trầm, buồn ngủ)
             gemini_tts.CTX.update({"nhom": f"{ch[0]['n']}-{ch[-1]['n']}", "style_id": hashlib.md5(style.encode()).hexdigest()[:8], "style_var": "C_chuong", "config": CONFIG_VERSION})
             try: wav = gemini_tts.synth(text, style, voice)
             except SystemExit: raise

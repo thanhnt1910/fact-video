@@ -13,6 +13,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 
 ## 2. Giọng đọc
 - Gemini **Charon**, hồ sơ C (`STYLE_C` trong `thu_giong_hai_cum.py`), **đọc từng câu** (`cum.txt` = 1; script `docgiong1*.sh`). Không đọc theo cụm 16 câu nữa. Chủ kênh chọn ngày 16/11/2026 sau khi nghe thử Iapetus, Puck, Charon; lý do là Sadaltager quá trầm, cần giọng to và rõ.
+- **Cả video một lần gọi (17/11/2026, thay cách đọc theo chương):** `doc_chuong.txt` = `ca`. Đọc theo chương vẫn lệch cao độ giữa các chương (tm5: 105–144 Hz); đọc cả video một lần (tm6, 230 giây) cao độ chỉ 111–122 Hz. File `c<số đoạn đầu>.mp3` giữ nguyên, khi dựng chỉ chia ở ranh giới chương theo mốc nhận dạng (`asr_<mã>ca.json`) để chèn thẻ chương. Nhận dạng cả file để kiểm đủ chữ: tm10 lần đầu bị cụt câu cảm ơn cuối nên đã đọc lại.
 - **Đọc theo chương (chủ kênh chọn 17/11/2026, thay cách đọc từng câu):** đọc từng câu làm mỗi đoạn một giọng (đo tm5: cao độ 104–139 Hz, tốc độ 3,0–4,0 chữ/giây giữa các câu). Từ tm5 trở đi, `ke-hoach/thu-giong-hai/doc_chuong.txt` = 1: mỗi chương (trường `chuong` trong `<mã>_full.json`) đọc trong một lần gọi, lưu nguyên một file `c<số đoạn đầu>.mp3` (danh sách đoạn ở `chuong_<mã>.json`), không cắt câu, không qua bộ lọc âm. Mốc từng đoạn trong file lấy từ nhận dạng giọng (`khung_dung.align`), dùng cho phụ đề và cảnh. tm5, tm6 đọc lại theo cách này.
 - Cả video một giọng, một hồ sơ. Sau khi đọc phải nhận dạng giọng từng đoạn và đạt 100% ở `kiem_giong.py` rồi mới dựng.
 - **Không cân giọng (chủ kênh nhắc lại 16/11/2026):** dùng nguyên file gốc Gemini trong `assets/thu_giong_hai/charon/`.
@@ -266,6 +267,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 - `chung.md` và `CLAUDE.md` không nằm trên nhánh `claude/cach-ho-cai-tri-tap-1`. Muốn sửa phải hỏi chủ kênh trước.
 
 ## 8. Khuôn mở đầu đã dùng của series
+- **tm5–tm10 (bài mẫu tm5, 17/11/2026):** câu hỏi đặt thẳng cho người nghe về một lựa chọn: làm vương hay không (tm5), dám nói đánh giặc nhàn (tm6), biết trước ám hiệu (tm7), có đuổi theo (tm8), mời quân nước khác (tm9), hẹn trước ngày ăn mừng (tm10). Tập sau nên đổi kiểu mở đầu.
 - **Bạch Đằng 938** (`bd2`): hai câu hỏi liền nhau ("Làm sao đội quân yếu hơn về chiến thuyền lại đánh tan đoàn chiến thuyền lớn? Vì sao hoàng tử cầm quân không trở về?"), rồi "ba thứ".
 - **Lê Hoàn phá Tống 981** (`tm2`): một câu nói có thật kể bằng lời thường ("có một người nói chiếm nước Việt dễ như bẻ một cành khô"), lật lại bằng hình ảnh ví ("không phải cành khô nào cũng dễ bẻ"), rồi "ba lần cành khô không gãy".
 - **Như Nguyệt 1077** (`tm3`): mở giữa trận đánh ("Cầu phao vừa bắc xong, một toán quân giặc đã tràn sang bờ nam..."), dừng ở câu hỏi "có giữ nổi bờ nam không?", thêm nghịch lý "người đang thắng lại đề nghị thôi đánh", rồi lùi về một năm trước bằng câu tương phản. Bản 1 (chỉ có nghịch lý) và bản 2 (mối nguy cận kề) bị chủ kênh chê "quá hiền, chưa nổi bật trận đánh". Bài học: hook của series trận đánh nên mở ngay vào khoảnh khắc nguy nhất của chính trận đánh.

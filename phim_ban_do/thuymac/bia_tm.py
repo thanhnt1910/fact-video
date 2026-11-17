@@ -8,9 +8,9 @@ CF={'tm3':dict(mod='dai_tm3',fn='S_cau',n=21,f=.6,l1='KHÔNG QUA',l2='NỔI SÔN
     'tm4':dict(mod='dai_tm4',fn='S_h1',n=1,f=.7,l1='ĐẦU THẦN',l2='CHƯA RƠI',seal='stitle4',ty=170,cx=(470,1470)),
     'tm5':dict(mod='dai_tm5',fn='S_3',n=3,f=.5,l1='LÀM VƯƠNG',l2='HAY QUỶ?',seal='stitle5',ty=170,cx=(420,1500)),
     'tm6':dict(mod='dai_tm6',fn='S_22',n=22,f=.8,l1='ĐÁNH GIẶC',l2='NHÀN?',seal='stitle6',ty=170,cx=(420,1500)),
-    'tm7':dict(mod='dai_tm7',fn='S_17',n=18,f=.5,l1='TIẾNG SÚNG',l2='KHÔNG NỔ',seal='stitle7',ty=170,cx=(700,1800)),
-    'tm8':dict(mod='dai_tm8',fn='S_13',n=14,f=.3,l1='CÓ NÊN',l2='ĐUỔI THEO?',seal='stitle8',ty=170,cx=(420,1500)),
-    'tm9':dict(mod='dai_tm9',fn='S_19',n=19,f=.6,l1='MỜI GIẶC',l2='VÀO NHÀ?',seal='stitle9',ty=170,cx=(420,1500)),
+    'tm7':dict(mod='dai_tm7',fn='S_17',n=18,f=.5,l1='TIẾNG SÚNG',l2='KHÔNG NỔ',seal='stitle7',ty=170,cx=(350,1450)),
+    'tm8':dict(mod='dai_tm8',fn='S_12',n=13,f=.6,l1='CÓ NÊN',l2='ĐUỔI THEO?',seal='stitle8',ty=170,cx=(420,1500)),
+    'tm9':dict(mod='dai_tm9',fn='S_19',n=19,f=.6,l1='KHÚC SÔNG',l2='CHỌN SẴN',seal='stitle9',ty=170,cx=(420,1500)),
     'tm10':dict(mod='dai_tm10',fn='S_18',n=18,f=.6,l1='HẸN NGÀY',l2='ĂN MỪNG',seal='stitle10',ty=170,cx=(420,1500))}
 def make(k,out,vertical=False):
     c=CF[k];mod=importlib.import_module(c['mod'])

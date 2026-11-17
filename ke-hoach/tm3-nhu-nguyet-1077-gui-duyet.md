@@ -104,7 +104,7 @@
 - **Lần vượt sông bằng cầu phao, rồi bằng bè** (đoạn 25 đến 28): theo Hoàng Xuân Hãn. Số người qua sông mỗi lần các sách ghi khác nhau, nên lời đọc không nêu.
 - **Nam quốc sơn hà** (đoạn 30 đến 33): kể rõ là lời truyền, theo đúng cách Toàn thư ghi bằng chữ "người đời truyền rằng". Lời đọc chỉ nói ý bài thơ bằng lời thường, không đọc nguyên văn hay bản dịch, và nói rõ "không ai biết chắc ai đã đọc".
 - **Câu "ngày nào cũng mất thêm người" và "khí hậu ẩm thấp"** (đoạn 34, 35): sử nhà Tống chép quân bị bệnh vì khí hậu, thiếu lương. Không nêu con số theo ngày.
-- **Ai đề nghị hòa trước** (đoạn 41): theo sách giáo khoa và John K. Whitmore / James Anderson, phía Lý Thường Kiệt đề nghị. Sử nhà Tống chép theo cách của họ là phía Đại Việt "xin hàng". Lời đọc theo sách giáo khoa.
+- **Ai đề nghị hòa trước** (đoạn 41): theo sách giáo khoa và nhà nghiên cứu James Anderson, phía Lý Thường Kiệt đề nghị. Sử nhà Tống chép theo cách của họ là phía Đại Việt "xin hàng". Lời đọc theo sách giáo khoa.
 - **Trả châu Quảng Nguyên** (đoạn 45): theo Toàn thư, việc này diễn ra sau khi sứ giả Đào Tông Nguyên sang nhà Tống năm 1078. Lời đọc gọi gọn là "hai năm sau", tức năm 1079.
 
 ## Ghi chú kỹ thuật kể chuyện

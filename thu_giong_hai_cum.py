@@ -82,6 +82,36 @@ def main():
             f = d / f"{n}.mp3"
             if f.exists():
                 (d / "_cu").mkdir(exist_ok=True); f.rename(d / "_cu" / f"{n}_{int(__import__('time').time())}.mp3"); dur.pop(str(n), None)
+    CHUONG = Path("ke-hoach/thu-giong-hai/doc_chuong.txt").exists() and Path("ke-hoach/thu-giong-hai/doc_chuong.txt").read_text().strip() not in ("", "0")
+    if CHUONG:   # đọc theo chương: mỗi chương một lần gọi, giữ một file c<n đầu>.mp3, KHÔNG cắt câu
+        gm = d / f"chuong_{Path(src).stem}.json"; G = json.loads(gm.read_text()) if gm.exists() else {}
+        groups, cur = [], []
+        for b in beats:
+            if cur and b.get("chuong") != cur[-1].get("chuong"): groups.append(cur); cur = []
+            cur.append(b)
+        if cur: groups.append(cur)
+        for ch in groups:
+            stem = f"c{ch[0]['n']}"
+            if (d / f"{stem}.mp3").exists() and G.get(stem) == [x["n"] for x in ch]: continue
+            text = "\n\n".join(x.get("tts", x["text"]) for x in ch)
+            style = STYLE_C + " Keep exactly the same voice, pitch, pace and energy from the first sentence to the last; pause briefly between paragraphs."
+            gemini_tts.CTX.update({"nhom": f"{ch[0]['n']}-{ch[-1]['n']}", "style_id": hashlib.md5(style.encode()).hexdigest()[:8], "style_var": "C_chuong", "config": CONFIG_VERSION})
+            try: wav = gemini_tts.synth(text, style, voice)
+            except SystemExit: raise
+            except Exception as e:
+                print("LỖI chương", stem, str(e)[:400], flush=True)
+                if gemini_tts.LOCKED: print("   [giọng] DỪNG: không chuyển model giữa chừng", flush=True); break
+                continue
+            if not gemini_tts.LOCKED and gemini_tts.LAST:
+                gemini_tts.LOCKED = ("i" if gemini_tts.LAST["kind"] == "interactions" else "g", gemini_tts.LAST["model"])
+                kh.write_text(json.dumps({"kind": gemini_tts.LOCKED[0], "model": gemini_tts.LOCKED[1], "voice": voice, "thoi_diem": gemini_tts.LAST["time"], "du_phong": gemini_tts.LAST["fallback"]}))
+            w = d / f"{stem}.wav"; w.write_bytes(wav)
+            subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(w),"-ar","44100","-b:a","160k",str(d / f"{stem}.mp3")],check=True); w.unlink()
+            G[stem] = [x["n"] for x in ch]; gm.write_text(json.dumps(G))
+            LOG[stem] = {"nhom": f"{ch[0]['n']}-{ch[-1]['n']}", "model": gemini_tts.LAST.get("model"), "voice": voice, "style_var": "C_chuong", "thoi_diem": gemini_tts.LAST.get("time"), "du_phong": gemini_tts.LAST.get("fallback")}
+            lgs.write_text(json.dumps(LOG, ensure_ascii=False, indent=0))
+            print(f"OK chương {stem} ({len(ch)} đoạn) model={gemini_tts.LAST.get('model')} dự_phòng={gemini_tts.LAST.get('fallback')}", flush=True)
+        return
     todo = [b for b in beats if not (str(b["n"]) in dur and (d / f"{b['n']}.mp3").exists())]
     cu = [b["n"] for b in beats if str(b["n"]) in dur and str(b["n"]) not in H2]
     if cu: print(f"   [giọng] {len(cu)} đoạn chưa có hash đầy đủ (tạo trước khi có nhật ký): {cu[0]}…{cu[-1]}; dùng GIONG_TAO_LAI để đọc lại có kiểm soát", flush=True)

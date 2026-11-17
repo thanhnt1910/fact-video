@@ -1,30 +1,46 @@
 # Trận đánh thủy mặc tập 3: sông Như Nguyệt năm 1077, kịch bản gửi duyệt
 
 - **Mã:** `tm3`.
-- **Độ dài:** 46 đoạn, 1114 chữ, khoảng 6 phút.
+- **Độ dài:** 46 đoạn, 1129 chữ, khoảng 6 phút.
 - **Giọng:** Charon, hồ sơ C, đọc từng câu, giữ nguyên giọng gốc (không cân giọng).
 - **Quy tắc theo:** `chung.md`, `su-viet.md`, `thuy-mac.md`.
 - **Cách viết:** lời nói thường như tập 2, câu ngắn, không nhắc lời "sử nhà Tống chép / sử nước ta chép".
 
-## Ba phương án hook (đã chọn phương án A)
-**A. Nghịch lý (đã dùng trong kịch bản):** "Có một vị tướng đang thắng trận, vậy mà lại chủ động đề nghị kẻ thù thôi đánh." Câu hỏi ở đoạn 4: vì sao đang thắng mà ông lại muốn dừng? Video trả lời ở chương 6.
+## Hook (bản 2, viết lại 17/11/2026 vì bản 1 "chưa gay cấn, chưa cuốn")
+Bản 2 mở bằng **mối nguy** trước, rồi mới tới nghịch lý.
+- **Mối nguy:** mười vạn quân giặc chỉ còn cách kinh thành một con sông.
+- **Điều khó tin:** đông như thế mà hơn một tháng không qua nổi.
+- **Nghịch lý:** người đang thắng lại đề nghị thôi đánh.
 
-**B. Con số:** "Mười vạn quân đứng bên một con sông, nhìn sang bờ bên kia, mà không qua nổi." Câu hỏi: vì sao đông như vậy mà không qua được một con sông?
+Hook có hai câu hỏi. Câu hỏi thứ nhất (vì sao không qua nổi sông) được trả lời dần qua ba chương. Câu hỏi thứ hai (vì sao đang thắng lại dừng) để tới cuối video.
 
-**C. Bài thơ:** "Có một bài thơ bốn câu mà người Việt nào cũng thuộc, nhưng đến nay không ai biết chắc ai đã đọc nó lần đầu." Hook này dễ đặt nặng phần truyền thuyết hơn trận đánh, nên không chọn.
+1. Gần một nghìn năm trước, mười vạn quân giặc đã kéo tới sát kinh thành nước ta, chỉ còn cách đúng một con sông.
+2. Chỉ cần vượt qua con sông ấy là kinh thành có thể mất. Vậy mà suốt hơn một tháng, đạo quân đông như thế vẫn không qua nổi.
+3. Người giữ con sông Như Nguyệt khi ấy là Lý Thường Kiệt. Lạ hơn nữa, khi giặc đã kiệt sức, chính ông lại đề nghị thôi đánh.
+4. Vì sao mười vạn quân không qua nổi một con sông? Vì họ đã bị chặn ba lần: ngoài biển, trên sông, và ngay trong trại của chính mình.
 
-**Vì sao chọn A:** tập 1 mở bằng hai câu hỏi, tập 2 mở bằng hình ảnh "cành khô". Tập 3 đổi sang kiểu nghịch lý. Khung "câu hỏi + N thứ" là ba lần quân nhà Tống bị chặn: ngoài biển, trên sông, trong trại.
+**Hai phương án khác để so sánh:**
+- **B. Mở bằng con số (gần với bản 2):** "Mười vạn quân đứng bên một con sông, nhìn sang bờ bên kia, mà không qua nổi."
+- **C. Mở bằng bài thơ (không chọn, vì đặt nặng truyền thuyết hơn trận đánh):** "Có một bài thơ bốn câu mà người Việt nào cũng thuộc, nhưng đến nay không ai biết chắc ai đã đọc nó lần đầu."
+
+**Bản 1 (đã thay):** "Có một vị tướng đang thắng trận, vậy mà lại chủ động đề nghị kẻ thù thôi đánh..."
+
+**Độ chắc của hook:**
+- "Mười vạn quân" theo sách giáo khoa.
+- "Hơn một tháng" tính từ khi quân nhà Tống tới bờ sông (tháng Giêng năm 1077) đến khi rút (khoảng tháng Ba).
+- "Kinh thành có thể mất" là cách nói của người kể về mối nguy, dựa trên việc sông Như Nguyệt là phòng tuyến chắn đường xuống Thăng Long.
+- Câu đầu dài 24 chữ, dài hơn mục tiêu mềm 15 chữ, để nói đủ mối nguy trong một câu. Câu này vẫn không có năm, không có tên riêng.
 
 ## Kịch bản
 
-### Chương 1: Mở đầu: đang thắng mà đề nghị thôi đánh (bắt đầu ở 0%)
+### Chương 1: Mở đầu: mười vạn quân trước một con sông (bắt đầu ở 0%)
 
-1. Có một vị tướng đang thắng trận, vậy mà lại chủ động đề nghị kẻ thù thôi đánh.
-2. Ông không thua. Đạo quân trước mặt ông bị chặn bên kia một con sông, đang đói, đang bệnh, và đã mất rất nhiều người.
-3. Vị tướng ấy là Lý Thường Kiệt. Con sông ấy là sông Như Nguyệt, nay là sông Cầu, cách kinh thành Thăng Long không xa.
-4. Vì sao đang thắng mà ông lại muốn dừng? Đạo quân nhà Tống đã bị chặn ba lần: ngoài biển, trên sông, và ngay trong trại của chính họ.
+1. Gần một nghìn năm trước, mười vạn quân giặc đã kéo tới sát kinh thành nước ta, chỉ còn cách đúng một con sông.
+2. Chỉ cần vượt qua con sông ấy là kinh thành có thể mất. Vậy mà suốt hơn một tháng, đạo quân đông như thế vẫn không qua nổi.
+3. Người giữ con sông Như Nguyệt khi ấy là Lý Thường Kiệt. Lạ hơn nữa, khi giặc đã kiệt sức, chính ông lại đề nghị thôi đánh.
+4. Vì sao mười vạn quân không qua nổi một con sông? Vì họ đã bị chặn ba lần: ngoài biển, trên sông, và ngay trong trại của chính mình.
 
-### Chương 2: Vì sao quân nhà Tống kéo sang (bắt đầu ở 9%)
+### Chương 2: Vì sao quân nhà Tống kéo sang (bắt đầu ở 10%)
 
 5. Năm một nghìn không trăm bảy mươi lăm, nghe tin nhà Tống đang gom quân và đóng thuyền ở biên giới, Lý Thường Kiệt quyết đánh trước.
 6. Quân Đại Việt chia đường thủy bộ, đánh vào ba châu Khâm, Liêm và Ung của nhà Tống. Thành Ung Châu bị vây hơn bốn mươi ngày rồi mới bị hạ.
@@ -38,7 +54,7 @@
 
 ### Chương 3: Lần thứ nhất: ngoài biển (bắt đầu ở 29%)
 
-14. Con sông ấy là Như Nguyệt. Muốn xuống Thăng Long, quân nhà Tống phải vượt qua nó.
+14. Con sông ấy là Như Nguyệt, nay là sông Cầu. Muốn xuống Thăng Long, quân nhà Tống phải vượt qua nó.
 15. Vì thế, dọc bờ nam, quân Đại Việt đắp lũy đất, dựng hàng rào, giữ chặt những bến sông mà quân giặc có thể vượt qua.
 16. Nhưng một con sông chỉ chặn được quân bộ. Muốn qua sông, quân nhà Tống cần thuyền, mà thuyền thì vẫn đang ở ngoài biển.
 17. Ngoài biển, tướng Lý Kế Nguyên đem thủy quân Đại Việt ra chặn đoàn thuyền của nhà Tống ở vùng Đông Kênh, phía đông bắc.
@@ -72,7 +88,7 @@
 39. Đến lúc này, quân và dân phu nhà Tống đã mất quá nửa, trong đó rất nhiều người chết vì bệnh.
 40. Quân giặc đã kiệt sức như thế, vậy sao Lý Thường Kiệt không đánh nốt?
 
-### Chương 6: Lời đề nghị làm hòa (bắt đầu ở 86%)
+### Chương 6: Lời đề nghị làm hòa (bắt đầu ở 87%)
 
 41. Thay vì đánh tiếp, Lý Thường Kiệt sai người sang gặp Quách Quỳ, đề nghị hai bên thôi đánh và làm hòa.
 42. Quách Quỳ nhận lời và rút quân về nước. Nhưng ông vẫn giữ lại châu Quảng Nguyên ở vùng biên giới.
@@ -84,11 +100,11 @@
 ## Đối chiếu với quy tắc (rà ngày 17/11/2026, sau khi cập nhật `thuy-mac.md`)
 | Quy tắc | Kịch bản tập 3 | Đạt |
 |---|---|---|
-| Hook đoạn 1 kể bằng lời thường, không năm, không tên, tối đa 25 chữ (3.1) | 16 chữ, kiểu nghịch lý | ✅ |
-| Đoạn 2 lật lại đoạn 1 | "Ông không thua..." | ✅ |
-| Đoạn 3 có tên người, tên nơi, hệ quả nói mạnh | Lý Thường Kiệt, sông Như Nguyệt | ✅ |
+| Hook đoạn 1 kể bằng lời thường, không năm, không tên, tối đa 25 chữ (3.1) | 24 chữ, mở bằng mối nguy | ✅ |
+| Đoạn 2 lật lại đoạn 1 | "Vậy mà suốt hơn một tháng... vẫn không qua nổi" | ✅ |
+| Đoạn 3 có tên người, tên nơi, hệ quả nói mạnh | Lý Thường Kiệt, sông Như Nguyệt, nghịch lý đề nghị thôi đánh | ✅ |
 | Đoạn 4: câu hỏi "vì sao" + "N lần", không dùng khuôn cấm, không lặp khuôn tập trước | "ba lần bị chặn", không dùng "Câu trả lời nằm ở" | ✅ |
-| Khuôn mở đầu chưa dùng (mục 8) | nghịch lý, mới | ✅ |
+| Khuôn mở đầu chưa dùng (mục 8) | mối nguy cận kề + nghịch lý, mới | ✅ |
 | Hook không lộ toàn bộ kết cục | lộ là Lý Thường Kiệt đề nghị thôi đánh. Chưa lộ cách chặn, việc quân nhà Tống rút, châu Quảng Nguyên | ⚠️ chấp nhận: nghịch lý cần nói ra việc đề nghị thôi đánh, còn "vì sao" để tới cuối |
 | Câu đếm "lần thứ N" ở mỗi chương thân bài | đoạn 19, 29, 37 | ✅ |
 | Kể thẳng như sách giáo khoa, tối đa một hai lần nhắc nguồn (3.4) | một lần "theo sử cũ" (đoạn 28) | ✅ |
@@ -137,7 +153,7 @@
 - **Trả châu Quảng Nguyên** (đoạn 45): theo Toàn thư, việc này diễn ra sau khi sứ giả Đào Tông Nguyên sang nhà Tống năm 1078. Lời đọc gọi gọn là "hai năm sau", tức năm 1079.
 
 ## Ghi chú kỹ thuật kể chuyện
-- **Kiểu mở đầu:** nghịch lý ("đang thắng mà đề nghị thôi đánh"), kết hợp số phận của đạo quân. Đây là khuôn mới: chưa dùng ở Bạch Đằng (hai câu hỏi) hay Lê Hoàn (cành khô).
+- **Kiểu mở đầu:** mối nguy cận kề (mười vạn quân giặc chỉ còn cách kinh thành một con sông), rồi nghịch lý (đang thắng mà đề nghị thôi đánh). Đây là khuôn mới: chưa dùng ở Bạch Đằng (hai câu hỏi) hay Lê Hoàn (cành khô).
 - **Khung đếm:** ba lần bị chặn. Mỗi lần có câu đếm riêng ở đoạn 19, 29 và 37 để người nghe đếm theo.
 - **Câu hỏi "vì sao":** đặt ở đoạn 4 (hook), đoạn 22 ("qua sông bằng cách nào?") và đoạn 40 ("sao không đánh nốt?").
 - **Đoạn diễn giải của người kể:**

@@ -235,4 +235,4 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 ## 8. Khuôn mở đầu đã dùng của series
 - **Bạch Đằng 938** (`bd2`): hai câu hỏi liền nhau ("Làm sao đội quân yếu hơn về chiến thuyền lại đánh tan đoàn chiến thuyền lớn? Vì sao hoàng tử cầm quân không trở về?"), rồi "ba thứ".
 - **Lê Hoàn phá Tống 981** (`tm2`): một câu nói có thật kể bằng lời thường ("có một người nói chiếm nước Việt dễ như bẻ một cành khô"), lật lại bằng hình ảnh ví ("không phải cành khô nào cũng dễ bẻ"), rồi "ba lần cành khô không gãy".
-- **Như Nguyệt 1077** (`tm3`): nghịch lý ("đang thắng mà lại chủ động đề nghị kẻ thù thôi đánh"), rồi "ba lần bị chặn: ngoài biển, trên sông, trong trại".
+- **Như Nguyệt 1077** (`tm3`): mối nguy cận kề ("mười vạn quân giặc chỉ còn cách kinh thành đúng một con sông"), rồi điều khó tin (hơn một tháng không qua nổi), rồi nghịch lý (đang thắng mà đề nghị thôi đánh), rồi "ba lần bị chặn". Bản 1 chỉ có nghịch lý, chủ kênh chê "chưa gay cấn, chưa cuốn": hook nên mở bằng mối nguy mà người xem cảm được ngay, sau đó mới tới nghịch lý.

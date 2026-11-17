@@ -1,10 +1,10 @@
 import json
 # Trận đánh thủy mặc tập 3: sông Như Nguyệt 1077 (mã tm3)
 S=[
-(1,"Có một vị tướng đang thắng trận, vậy mà lại chủ động đề nghị kẻ thù thôi đánh."),
-(1,"Ông không thua. Đạo quân trước mặt ông bị chặn bên kia một con sông, đang đói, đang bệnh, và đã mất rất nhiều người."),
-(1,"Vị tướng ấy là Lý Thường Kiệt. Con sông ấy là sông Như Nguyệt, nay là sông Cầu, cách kinh thành Thăng Long không xa."),
-(1,"Vì sao đang thắng mà ông lại muốn dừng? Đạo quân nhà Tống đã bị chặn ba lần: ngoài biển, trên sông, và ngay trong trại của chính họ."),
+(1,"Gần một nghìn năm trước, mười vạn quân giặc đã kéo tới sát kinh thành nước ta, chỉ còn cách đúng một con sông."),
+(1,"Chỉ cần vượt qua con sông ấy là kinh thành có thể mất. Vậy mà suốt hơn một tháng, đạo quân đông như thế vẫn không qua nổi."),
+(1,"Người giữ con sông Như Nguyệt khi ấy là Lý Thường Kiệt. Lạ hơn nữa, khi giặc đã kiệt sức, chính ông lại đề nghị thôi đánh."),
+(1,"Vì sao mười vạn quân không qua nổi một con sông? Vì họ đã bị chặn ba lần: ngoài biển, trên sông, và ngay trong trại của chính mình."),
 (2,"Năm một nghìn không trăm bảy mươi lăm, nghe tin nhà Tống đang gom quân và đóng thuyền ở biên giới, Lý Thường Kiệt quyết đánh trước."),
 (2,"Quân Đại Việt chia đường thủy bộ, đánh vào ba châu Khâm, Liêm và Ung của nhà Tống. Thành Ung Châu bị vây hơn bốn mươi ngày rồi mới bị hạ."),
 (2,"Rồi sau khi phá các kho lương và căn cứ, quân Đại Việt rút về nước. Nhưng nhà Tống không chịu để yên."),
@@ -14,7 +14,7 @@ S=[
 (2,"Còn đạo quân thủy thì đi theo đường biển. Họ chở thêm người và lương, để hợp với quân bộ ở phía trước."),
 (2,"Một đạo quân đông như thế ăn rất nhiều lương. Đánh càng lâu, gánh nặng ấy càng lớn."),
 (2,"Còn phía Đại Việt, Lý Thường Kiệt không dồn hết sức ra biên giới. Ông chọn giữ một con sông ở phía bắc kinh thành."),
-(3,"Con sông ấy là Như Nguyệt. Muốn xuống Thăng Long, quân nhà Tống phải vượt qua nó."),
+(3,"Con sông ấy là Như Nguyệt, nay là sông Cầu. Muốn xuống Thăng Long, quân nhà Tống phải vượt qua nó."),
 (3,"Vì thế, dọc bờ nam, quân Đại Việt đắp lũy đất, dựng hàng rào, giữ chặt những bến sông mà quân giặc có thể vượt qua."),
 (3,"Nhưng một con sông chỉ chặn được quân bộ. Muốn qua sông, quân nhà Tống cần thuyền, mà thuyền thì vẫn đang ở ngoài biển."),
 (3,"Ngoài biển, tướng Lý Kế Nguyên đem thủy quân Đại Việt ra chặn đoàn thuyền của nhà Tống ở vùng Đông Kênh, phía đông bắc."),

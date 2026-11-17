@@ -240,7 +240,8 @@ function horse(g,x,y,s,o={}){const k=el(g,'g',{transform:`translate(${x},${y}) s
  if(!o.empty){el(k,'path',{d:'M-24 -100 Q-28 -134 -14 -154 L10 -154 Q18 -130 12 -100Z',fill:C});
   el(k,'path',{d:'M-6 -104 L-14 -64',stroke:C,'stroke-width':9,'stroke-linecap':'round'});
   el(k,'circle',{cx:-2,cy:-168,r:11,fill:C});
-  if(o.quan){el(k,'path',{d:'M-13 -174 Q-2 -188 9 -174 L9 -170 L-13 -170Z',fill:C});el(k,'path',{d:'M8 -176 L30 -184 M-12 -176 L-34 -184',stroke:C,'stroke-width':3})}
+  if(o.mong){el(k,'path',{d:'M-16 -168 Q-2 -196 12 -168Z',fill:C});el(k,'rect',{x:-20,y:-172,width:36,height:8,rx:4,fill:C});el(k,'path',{d:'M-30 -150 Q-44 -120 -26 -96',stroke:C,'stroke-width':4,fill:'none'});el(k,'line',{x1:-30,y1:-150,x2:-26,y2:-96,stroke:C,'stroke-width':1.5})}
+  else if(o.quan){el(k,'path',{d:'M-13 -174 Q-2 -188 9 -174 L9 -170 L-13 -170Z',fill:C});el(k,'path',{d:'M8 -176 L30 -184 M-12 -176 L-34 -184',stroke:C,'stroke-width':3})}
   else el(k,'path',{d:'M-16 -170 Q-2 -192 12 -170 L16 -166 L-20 -166Z',fill:C});
   el(k,'path',{d:'M8 -140 L52 -128',stroke:C,'stroke-width':7,'stroke-linecap':'round'})}}
 function tent(g,x,y,w,h){el(g,'path',{d:`M${x-w/2} ${y} L${x} ${y-h} L${x+w/2} ${y}Z`,fill:INK,opacity:.88});el(g,'path',{d:`M${x-w*.12} ${y} L${x} ${y-h*.55} L${x+w*.12} ${y}Z`,fill:PAPER,opacity:.55});
@@ -264,6 +265,7 @@ fig_quy(){const s=setup(260,200);figQuy(el(s,'g',{filter:'url(#inkt)'}),110,180,
 fig_be(){const s=setup(160,200);fig(el(s,'g',{filter:'url(#inkt)'}),80,190,1.05,{sit:1,hat:'vua'})},
 ky_si(){const s=setup(420,330);horse(el(s,'g',{filter:'url(#inkt)'}),200,320,1.25,{run:1})},
 ky_si_quan(){const s=setup(420,330);horse(el(s,'g',{filter:'url(#inkt)'}),200,320,1.25,{quan:1})},
+ky_mong(){const s=setup(420,330);horse(el(s,'g',{filter:'url(#inkt)'}),200,320,1.25,{run:1,mong:1})},
 trieu_hoalu(){const s=setup(1700,900);seed=71;const g=el(s,'g',{filter:'url(#inkt)'});
  el(el(s,'g',{filter:'url(#wash)'}),'rect',{x:300,y:140,width:1100,height:600,fill:INK,opacity:.10});
  roof(g,850,150,1100,110);
@@ -363,6 +365,36 @@ nguoi_om(){const s=setup(320,130);const g=el(s,'g',{filter:'url(#inkt)'});
  el(g,'path',{d:'M90 80 q60 -10 170 2',stroke:PAPER,'stroke-width':2,fill:'none',opacity:.4})},
 duoc(){const s=setup(80,200);const g=el(s,'g',{filter:'url(#inkt)'});el(g,'line',{x1:40,y1:200,x2:40,y2:80,stroke:INK,'stroke-width':6});
  el(g,'path',{d:'M40 20 Q66 56 52 86 Q40 96 28 86 Q16 60 40 20Z',fill:RED});el(g,'path',{d:'M40 50 Q50 70 44 84 Q38 88 34 80 Q32 66 40 50Z',fill:'#e8b04a'})},
+});
+
+Object.assign(A,{
+lau_thuyen(){const s=setup(1500,700);seed=171;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M60 520 Q120 600 300 610 L1220 610 Q1400 600 1450 500 L1380 520 L120 520Z',fill:INK});
+ for(let i=0;i<4;i++)el(g,'path',{d:`M150 ${540+i*16} L1360 ${540+i*16}`,stroke:PAPER,'stroke-width':2,opacity:.3});
+ for(let i=0;i<14;i++){const x=220+i*80;el(g,'line',{x1:x,y1:600,x2:x-50,y2:690,stroke:INK,'stroke-width':6})}
+ el(g,'rect',{x:300,y:380,width:860,height:140,fill:INK});
+ for(let i=0;i<9;i++)el(g,'rect',{x:330+i*92,y:410,width:50,height:60,fill:PAPER,opacity:.35});
+ el(g,'path',{d:'M260 384 Q730 330 1200 384 L1160 360 Q730 300 300 360Z',fill:INK});
+ el(g,'rect',{x:480,y:250,width:500,height:120,fill:INK});
+ for(let i=0;i<5;i++)el(g,'rect',{x:510+i*92,y:280,width:46,height:50,fill:PAPER,opacity:.35});
+ el(g,'path',{d:'M440 254 Q730 200 1020 254 L990 230 Q730 170 470 230Z',fill:INK});
+ el(g,'path',{d:'M600 180 Q730 120 860 180 L840 166 Q730 110 620 166Z',fill:INK});el(g,'rect',{x:640,y:178,width:180,height:60,fill:INK});
+ [380,1080].forEach(x=>{el(g,'line',{x1:x,y1:380,x2:x,y2:120,stroke:INK,'stroke-width':6});el(g,'path',{d:`M${x} 125 l70 20 l-70 22Z`,fill:INK})});
+ el(g,'path',{d:'M60 520 L20 470 L80 490Z M1450 500 L1490 440 L1430 470Z',fill:INK})},
+voi(){const s=setup(560,460);seed=181;const g=el(s,'g',{filter:'url(#inkt)'});
+ el(g,'ellipse',{cx:260,cy:300,rx:170,ry:100,fill:INK});
+ el(g,'path',{d:'M410 260 Q470 240 480 300 Q486 360 470 420 Q462 440 450 420 Q452 360 440 320 Q420 330 400 330Z',fill:INK});
+ el(g,'path',{d:'M380 230 Q440 200 470 260 L420 300Z',fill:INK});el(g,'path',{d:'M420 250 q-30 20 -40 60',stroke:PAPER,'stroke-width':3,fill:'none',opacity:.4});
+ el(g,'path',{d:'M470 330 q20 0 30 -10',stroke:PAPER,'stroke-width':4,fill:'none'});
+ [[150,0],[210,0],[310,0],[370,0]].forEach(([x])=>el(g,'rect',{x:x-24,y:360,width:50,height:90,rx:12,fill:INK}));
+ el(g,'path',{d:'M92 300 q-30 30 -20 70',stroke:INK,'stroke-width':8,fill:'none'});
+ el(g,'rect',{x:170,y:160,width:160,height:50,fill:INK});el(g,'path',{d:'M160 164 Q250 120 340 164Z',fill:INK});
+ figG(g,250,170,.55,{spear:1})},
+man_thuyen(){const s=setup(1900,700);seed=191;const g=el(s,'g',{filter:'url(#ink)'});
+ el(g,'path',{d:'M0 160 Q950 120 1900 160 L1900 700 L0 700Z',fill:'#3a332a'});
+ for(let i=0;i<9;i++)el(g,'path',{d:`M0 ${200+i*58} Q950 ${170+i*58} 1900 ${200+i*58}`,stroke:INK,'stroke-width':4,fill:'none',opacity:.6});
+ for(let i=0;i<14;i++){const x=80+i*135;el(g,'circle',{cx:x,cy:230+((i%3)*120),r:7,fill:INK,opacity:.8})}
+ el(g,'rect',{x:0,y:130,width:1900,height:40,fill:INK})},
 });
 
 window.A=A;window.sealDraw=sealDraw;

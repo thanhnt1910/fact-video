@@ -1,7 +1,7 @@
 # Trận đánh thủy mặc tập 3: sông Như Nguyệt năm 1077, kịch bản gửi duyệt
 
 - **Mã:** `tm3`.
-- **Độ dài:** 46 đoạn, 1108 chữ, khoảng 6 phút.
+- **Độ dài:** 46 đoạn, 1114 chữ, khoảng 6 phút.
 - **Giọng:** Charon, hồ sơ C, đọc từng câu, giữ nguyên giọng gốc (không cân giọng).
 - **Quy tắc theo:** `chung.md`, `su-viet.md`, `thuy-mac.md`.
 - **Cách viết:** lời nói thường như tập 2, câu ngắn, không nhắc lời "sử nhà Tống chép / sử nước ta chép".
@@ -45,12 +45,12 @@
 18. Rồi hai bên đánh nhau nhiều trận trên biển. Thuyền nhà Tống không tiến sâu được, và không bao giờ tới được chỗ quân bộ đang chờ.
 19. Đó là lần thứ nhất quân nhà Tống bị chặn. Đạo quân bộ vẫn tiến xuống, nhưng không còn đoàn thuyền nào đi cùng.
 20. Tháng Giêng năm một nghìn không trăm bảy mươi bảy, quân nhà Tống vượt biên giới ở Lạng Sơn, vừa đi vừa bị các toán quân miền núi chặn đánh.
-21. Rồi họ cũng tới được bờ bắc sông Như Nguyệt. Bên kia sông là lũy đất và quân Đại Việt, còn sau lưng họ không có đoàn thuyền nào.
-22. Không thuyền, không cầu, Quách Quỳ sẽ đưa mười vạn quân qua sông bằng cách nào?
+21. Rồi họ cũng tới được bờ bắc sông Như Nguyệt. Kinh thành Thăng Long lúc ấy chỉ còn cách họ một con sông.
+22. Nhưng bên kia sông là lũy đất và quân Đại Việt. Không thuyền, không cầu, Quách Quỳ sẽ đưa mười vạn quân qua sông bằng cách nào?
 
-### Chương 4: Lần thứ hai: trên sông (bắt đầu ở 48%)
+### Chương 4: Lần thứ hai: trên sông (bắt đầu ở 49%)
 
-23. Quách Quỳ cho quân đóng trại dài theo bờ bắc. Ông đóng ở phía Thị Cầu, còn Triệu Tiết đóng đối diện bến Như Nguyệt.
+23. Quách Quỳ cho quân đóng trại dài theo bờ bắc. Ông đóng ở khúc sông Thị Cầu, còn Triệu Tiết đóng đối diện bến Như Nguyệt.
 24. Thoạt đầu, ông cho quân dừng lại chờ quân thủy. Nhưng chờ mãi, đoàn thuyền vẫn không thấy tới.
 25. Cuối cùng, quân nhà Tống tự bắc cầu phao, và một toán quân vượt được sang bờ nam ở khúc sông Như Nguyệt.
 26. Toán quân ấy chọc thủng được phòng tuyến và tiến sâu vào trong. Có lúc tưởng như phòng tuyến Như Nguyệt sắp vỡ.
@@ -80,6 +80,35 @@
 44. Còn nếu đánh tiếp, quân dân Đại Việt cũng sẽ chết thêm. Làm hòa lúc đang mạnh giúp Đại Việt kết thúc cuộc chiến mà không phải cúi đầu.
 45. Hai năm sau, nhờ sứ giả sang thương lượng, nhà Tống trả lại châu Quảng Nguyên cho Đại Việt.
 46. Bị chặn ba lần, quân nhà Tống không qua nổi sông Như Nguyệt, và một lời làm hòa đã khép lại cuộc chiến. Cảm ơn bạn đã lắng nghe câu chuyện này.
+
+## Đối chiếu với quy tắc (rà ngày 17/11/2026, sau khi cập nhật `thuy-mac.md`)
+| Quy tắc | Kịch bản tập 3 | Đạt |
+|---|---|---|
+| Hook đoạn 1 kể bằng lời thường, không năm, không tên, tối đa 25 chữ (3.1) | 16 chữ, kiểu nghịch lý | ✅ |
+| Đoạn 2 lật lại đoạn 1 | "Ông không thua..." | ✅ |
+| Đoạn 3 có tên người, tên nơi, hệ quả nói mạnh | Lý Thường Kiệt, sông Như Nguyệt | ✅ |
+| Đoạn 4: câu hỏi "vì sao" + "N lần", không dùng khuôn cấm, không lặp khuôn tập trước | "ba lần bị chặn", không dùng "Câu trả lời nằm ở" | ✅ |
+| Khuôn mở đầu chưa dùng (mục 8) | nghịch lý, mới | ✅ |
+| Hook không lộ toàn bộ kết cục | lộ là Lý Thường Kiệt đề nghị thôi đánh. Chưa lộ cách chặn, việc quân nhà Tống rút, châu Quảng Nguyên | ⚠️ chấp nhận: nghịch lý cần nói ra việc đề nghị thôi đánh, còn "vì sao" để tới cuối |
+| Câu đếm "lần thứ N" ở mỗi chương thân bài | đoạn 19, 29, 37 | ✅ |
+| Kể thẳng như sách giáo khoa, tối đa một hai lần nhắc nguồn (3.4) | một lần "theo sử cũ" (đoạn 28) | ✅ |
+| Không đại từ phe mơ hồ ("bên này") | không có | ✅ |
+| Không nói tắt "quân Tống", "người Việt" | không có | ✅ |
+| Động cơ có nguồn, nói cụ thể | đánh trước vì nhà Tống gom quân, đóng thuyền (Toàn thư) | ✅ |
+| Gay cấn tới cuối: mỗi chương có lúc tưởng phe xâm lược sắp được | chương 3: "Thăng Long chỉ còn cách họ một con sông"; chương 4: "tưởng như phòng tuyến sắp vỡ"; chương 5 là lúc quân Đại Việt ra tay | ✅ |
+| Kể chậm trước cao trào, kể dồn sau | đoạn 34–36 chậm (đói, bệnh), đoạn 37–38 dồn | ✅ |
+| Truyền thuyết kể rõ là truyền thuyết | Nam quốc sơn hà: "người đời sau truyền lại", "đến nay không ai biết chắc ai đã đọc" | ✅ |
+| Diễn giải đủ năm điều kiện | đoạn 43 mở bằng "Có thể hiểu", dựa trên sự việc đã kể, không nói là nguyên nhân duy nhất | ✅ |
+| Năm viết bằng chữ, không chữ số | có | ✅ |
+| Câu kết: một câu tóm gọn + cảm ơn, tối đa 32 chữ | 30 chữ | ✅ |
+| Biến cố chính trong khoảng 35–45% | tới sông Như Nguyệt ở 44% | ✅ |
+| Ba bộ kiểm 0 ❌ | 0 ❌. Từ nối 16/45 = 36% | ✅ |
+| Từ Hán Việt khó đã đổi | chiêu thảo sứ, giảng hòa, lam chướng | ✅ |
+| Tên riêng mới có cụm giới thiệu | Triệu Tiết "được cử làm phó"; Lý Kế Nguyên "tướng"; Thị Cầu "khúc sông Thị Cầu"; Đông Kênh "vùng... phía đông bắc"; Hoằng Chân, Chiêu Văn "hai hoàng tử nhà Lý" | ✅ |
+
+**Đã sửa sau lần rà này:**
+- Đoạn 21 và 22 (viết lại, không thêm đoạn): thêm "Kinh thành Thăng Long lúc ấy chỉ còn cách họ một con sông" để chương 3 có lúc căng.
+- Đoạn 23: "phía Thị Cầu" thành "khúc sông Thị Cầu".
 
 ## Ghi chú độ chắc
 **Nguồn chính:**
@@ -115,7 +144,7 @@
   - đoạn 12, nói gánh nặng lương thực;
   - đoạn 16, nói muốn qua sông thì cần thuyền;
   - đoạn 26, câu "có lúc tưởng như phòng tuyến sắp vỡ";
-  - đoạn 42 và 43, trả lời vì sao dừng, mở bằng "có thể hiểu", không gán ý nghĩ cho Lý Thường Kiệt như sử chép.
+  - đoạn 43 và 44, trả lời vì sao dừng, mở bằng "có thể hiểu", không gán ý nghĩ cho Lý Thường Kiệt như sử chép.
 - **Câu kết:** "Bị chặn ba lần, quân nhà Tống không qua nổi sông Như Nguyệt, và một lời làm hòa đã khép lại cuộc chiến. Cảm ơn bạn đã lắng nghe câu chuyện này."
 
 ## Thời điểm các mốc
@@ -144,7 +173,7 @@
 4. **Lời kể:**
    - Không có "quân Tống" nói tắt.
    - Đổi các từ khó: "chiêu thảo sứ" thành "giao cầm quân", "giảng hòa" thành "thôi đánh, làm hòa", "lam chướng" thành "bệnh tật, khí hậu ẩm thấp".
-   - 15 trên 45 đoạn mở bằng từ nối.
+   - 16 trên 45 đoạn mở bằng từ nối.
 5. **Kỹ thuật:**
    - Cả ba bộ kiểm không còn lỗi ❌.
    - Còn cảnh báo: đoạn 4 có dấu hai chấm; 4 đoạn có 4 tên riêng; 5 tên riêng mới trong 25 giây đầu.

@@ -31,7 +31,7 @@ S=[
 ('chi_tiet_nguoi',"Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm."),
 ('don_cuoi',"Còn Thoát Hoan, bỏ Thăng Long rồi, cũng phải tìm đường chạy về nước. Nhưng đường rút lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ sẵn."),
 ('don_cuoi',"Phục binh ập ra, tướng Lý Hằng trúng tên độc mà chết. Theo lời kể trong sử cũ, Thoát Hoan phải chui vào ống đồng cho lính khiêng chạy."),
-('ket',"Còn người chọn hàng là Trần Ích Tắc thì được phong làm An Nam quốc vương, nhưng chưa một ngày được trở về ngồi trên đất ấy."),
+('ket',"Còn người chọn hàng là Trần Ích Tắc thì được phong làm An Nam quốc vương, nhưng chưa một ngày được làm vua trên đất ấy."),
 ('ket',"Một tướng chọn làm quỷ nước Nam, một vua cởi áo liệm kẻ thù chết không chịu hàng. Cảm ơn bạn đã lắng nghe câu chuyện này."),
 ]
 xuat2(S,'tm5',180001)

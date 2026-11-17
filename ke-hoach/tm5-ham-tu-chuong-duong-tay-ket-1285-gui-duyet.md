@@ -1,6 +1,6 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-32 đoạn, 902 chữ, khoảng 4.8 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+32 đoạn, 901 chữ, khoảng 4.8 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **ba bến sông và một chiếc áo của nhà vua sẽ cho biết cuộc chiến nghiêng về lựa chọn nào**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
@@ -79,7 +79,7 @@ Lời hứa: **ba bến sông và một chiếc áo của nhà vua sẽ cho bi�
 
 **Kết** (mốc 94%)
 
-31. Còn người chọn hàng là Trần Ích Tắc thì được phong làm An Nam quốc vương, nhưng chưa một ngày được trở về ngồi trên đất ấy.
+31. Còn người chọn hàng là Trần Ích Tắc thì được phong làm An Nam quốc vương, nhưng chưa một ngày được làm vua trên đất ấy.
 32. Một tướng chọn làm quỷ nước Nam, một vua cởi áo liệm kẻ thù chết không chịu hàng. Cảm ơn bạn đã lắng nghe câu chuyện này.
 
 ## Năm điểm nhấn cố định

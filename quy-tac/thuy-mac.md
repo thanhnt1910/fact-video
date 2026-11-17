@@ -144,6 +144,11 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
   Tập mới cần sự việc chưa có tranh thì vẽ thêm tranh vào `assets.html`, không dùng bản đồ thay.
 - **Mỗi đoạn có ít nhất một chuyển động**, khoảng 3–6 giây có một thay đổi. Các kiểu chuyển động: máy quay trôi hoặc đẩy, quân và thuyền di chuyển, nét cọ vẽ dần, triện đóng xuống, nhãn tên hiện ra.
 
+- **Mỗi video một bộ cảnh riêng (chủ kênh yêu cầu 17/11/2026).** Tranh kể việc, cảnh trận, cảnh mở đầu, cảnh kết phải vẽ mới cho từng video: khác bố cục, khác địa hình, khác đội hình, khác vật đặc trưng của trận ấy. Không lấy lại tranh của tập trước, kể cả khi hai trận giống nhau (ví dụ tm6 Bạch Đằng 1288 không dùng lại cảnh cọc của tập Ngô Quyền).
+  - **Được dùng chung:** nền bản đồ mực (`mapink.py`, đường bờ biển và sông thật, chỉ đổi vùng, mũi tên, nhãn); khung thẻ tựa, vệt chuyển chương, màn kết, phụ đề, logo; mã hiệu ứng (`fx_tran.py`: tên bay, bụi, tia lửa, người ngã) và thư viện âm thanh, nhưng phải đặt vào cảnh mới.
+  - **Phong cách giữ nguyên:** tranh thủy mặc theo mục 4.1 (giấy, mực ba mức, đỏ triện, bóng mực, không máu).
+  - Trước khi dựng, lập danh sách cảnh của tập và đối chiếu với các tập đã dựng; cảnh nào trùng bố cục thì vẽ lại.
+
 ### 4.3 Cảnh trận
 - **Cảnh nhiều lớp có thị sai** (lớp xa trôi chậm hơn lớp gần), xếp từ sau ra trước:
   1. núi xa;

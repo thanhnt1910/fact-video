@@ -119,6 +119,6 @@ Ghi chú thêm:
 - `kiem_kich_ban.py`: 0 lỗi ❌, 6 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
-- `kiem_khung.py`: -> 0 ❌, 0 ⚠️
+- `kiem_khung.py`: -> 1 ❌, 0 ⚠️
 
 Cảnh báo được chấp nhận: "Hook trên 20 chữ": dưới giới hạn 25. Đoạn có 4 tên riêng: tên đã giới thiệu.

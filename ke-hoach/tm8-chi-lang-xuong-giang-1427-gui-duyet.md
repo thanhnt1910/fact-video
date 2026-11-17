@@ -119,6 +119,6 @@ Ghi chú thêm:
 - `kiem_kich_ban.py`: 0 lỗi ❌, 9 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 3 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
-- `kiem_khung.py`: -> 0 ❌, 0 ⚠️
+- `kiem_khung.py`: -> 2 ❌, 0 ⚠️
 
 Cảnh báo được chấp nhận: Đoạn 5 có 5 tên riêng: cần để người xem mới hiểu bối cảnh.

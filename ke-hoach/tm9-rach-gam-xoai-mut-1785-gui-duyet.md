@@ -116,6 +116,6 @@ Ghi chú thêm:
 - `kiem_kich_ban.py`: 0 lỗi ❌, 5 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 5 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
-- `kiem_khung.py`: -> 0 ❌, 5 ⚠️
+- `kiem_khung.py`: -> 1 ❌, 5 ⚠️
 
 Cảnh báo được chấp nhận: Đoạn có 4–5 tên đất miền Tây: cần để hình dung đường tiến quân; bản đồ sẽ hiện tên.

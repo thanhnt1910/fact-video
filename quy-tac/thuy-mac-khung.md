@@ -6,7 +6,7 @@ Mọi tập đều viết theo một khung nhịp giống nhau, để điểm nh
 
 | Nhịp (mã) | Số đoạn | Mốc | Nhiệm vụ |
 |---|---|---|---|
-| Hook 1 (`hook1`) | 1 | 0% | Câu kể bằng lời thường, không năm, không tên, tối đa 25 chữ; là khoảnh khắc nguy nhất hoặc một câu nói có thật |
+| Hook 1 (`hook1`) | 1 | 0% | **Ưu tiên một câu hỏi** (chủ kênh 17/11/2026: mở bằng câu hỏi thu hút hơn), có thể hỏi thẳng người nghe ("Nếu kẻ thù hứa cho bạn làm vương, chỉ cần bạn chịu hàng, bạn sẽ trả lời thế nào?"); không năm, không tên, tối đa 25 chữ; câu hỏi dẫn thẳng vào khoảnh khắc nguy nhất hoặc câu nói có thật ở hook 2 |
 | Hook 2 (`hook2`) | 1 | | Lật lại câu 1 |
 | Hook 3 (`hook3`) | 1 | | Tên người, tên nơi, hệ quả nói mạnh; tối đa 4 tên |
 | Hook 4 (`hook4`) | 1 | ≤8% | Câu hỏi kèm lời hứa "N lần / N điều" (N = 2–4) |

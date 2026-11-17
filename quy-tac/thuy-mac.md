@@ -28,7 +28,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 ### 3.1 Khung hook bốn đoạn + "N lần" (cập nhật 17/11/2026 theo tập 2, tập 3)
 **Ưu tiên số một:** mở ngay vào khoảnh khắc nguy nhất của chính trận đánh (ví dụ cầu phao vừa bắc xong, giặc tràn qua), kể như đang xảy ra, rồi lùi lại bằng một câu tương phản. Sự việc ấy phải có thật và được kể lại đầy đủ ở chương của nó. Ở tm3, chủ kênh chê hai bản hook mở bằng nghịch lý và mối nguy chung chung là "quá hiền". Các bước 1–4 dưới đây áp dụng khi không có khoảnh khắc như vậy, hoặc để dựng phần còn lại của hook.
 
-1. **Đoạn 1: một câu kể bằng lời thường, như kể chuyện miệng cho bạn bè.**
+1. **Đoạn 1: ưu tiên một câu hỏi (chủ kênh 17/11/2026), hoặc một câu kể bằng lời thường như kể chuyện miệng cho bạn bè.** Xem `thuy-mac-khung.md`, hook 1.
    - Mẫu chủ kênh đưa: "có một người nói chiếm nước Việt dễ như bẻ một cành khô, nhưng người đó không biết rằng không phải cành khô nào cũng dễ bẻ như tưởng tượng".
    - Nội dung là một câu nói có thật trong sử, hoặc một nghịch lý của trận đánh ("đang thắng mà lại đề nghị thôi đánh").
    - Không năm cụ thể (bộ kiểm báo lỗi). Cần mốc thời gian thì viết "Hơn một nghìn năm trước". Không tên riêng. Tối đa 25 chữ.

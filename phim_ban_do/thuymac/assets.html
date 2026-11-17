@@ -327,5 +327,43 @@ cho(){const s=setup(1900,700);seed=121;const g=el(s,'g',{filter:'url(#inkt)'});
  for(let i=0;i<12;i++){const x=470+i*88;fig(g,x,690,1.15,{hat:'khan'})}},
 });
 
+Object.assign(A,{
+cau_phao(){const s=setup(1900,420);seed=131;const g=el(s,'g',{filter:'url(#ink)'});
+ const n=11;for(let i=0;i<n;i++){const x=60+i*170;
+  el(g,'path',{d:`M${x} 300 Q${x+75} 352 ${x+150} 300 L${x+140} 286 L${x+10} 286Z`,fill:INK});
+  el(g,'path',{d:`M${x+20} 296 q55 22 110 0`,stroke:PAPER,'stroke-width':2,fill:'none',opacity:.35});}
+ el(g,'rect',{x:40,y:258,width:1820,height:22,fill:INK});
+ for(let x=50;x<1850;x+=26)el(g,'line',{x1:x,y1:258,x2:x+4,y2:280,stroke:PAPER,'stroke-width':1.5,opacity:.4});
+ for(let i=0;i<=n;i++){const x=50+i*170;el(g,'line',{x1:x,y1:258,x2:x,y2:210,stroke:INK,'stroke-width':5});}
+ el(g,'path',{d:'M50 214 '+Array.from({length:n},(_,i)=>`Q${135+i*170} 236 ${220+i*170} 214`).join(' '),stroke:INK,'stroke-width':3,fill:'none'});
+ for(let i=0;i<n;i++){const x=135+i*170;el(g,'path',{d:`M${x} 340 l-30 70 M${x} 340 l30 70`,stroke:INK,'stroke-width':2,opacity:.5})}},
+luy(){const s=setup(1900,520);seed=141;const g=el(s,'g',{filter:'url(#ink)'});
+ el(el(s,'g',{filter:'url(#wash)'}),'path',{d:'M0 520 L0 330 Q300 250 700 270 Q1200 240 1900 300 L1900 520Z',fill:INK,opacity:.35});
+ el(g,'path',{d:'M0 520 L0 360 Q200 300 500 310 Q900 290 1300 300 Q1650 290 1900 330 L1900 520Z',fill:INK,opacity:.42});
+ for(let x=10;x<1900;x+=22){const h=90+rnd()*40,y=330-Math.sin(x/300)*14;el(g,'path',{d:`M${x} ${y} L${x+14} ${y-h} L${x+8} ${y}Z`,fill:INK})}
+ for(let x=30;x<1900;x+=44)el(g,'line',{x1:x-20,y1:300-Math.sin(x/300)*14,x2:x+24,y2:270-Math.sin(x/300)*14,stroke:INK,'stroke-width':3,opacity:.7});
+ for(let i=0;i<26;i++){const x=40+i*72+rnd()*20;el(g,'line',{x1:x,y1:250,x2:x+6,y2:120+rnd()*30,stroke:INK,'stroke-width':3});el(g,'path',{d:`M${x+4} ${125+0} l4 -18 l4 18Z`,fill:INK})}},
+den(){const s=setup(1000,760);seed=151;const g=el(s,'g',{filter:'url(#ink)'});
+ el(el(s,'g',{filter:'url(#wash)'}),'ellipse',{cx:500,cy:700,rx:480,ry:60,fill:INK,opacity:.25});
+ el(g,'rect',{x:260,y:560,width:480,height:40,fill:INK});el(g,'rect',{x:230,y:600,width:540,height:40,fill:INK});
+ [300,420,580,700].forEach(x=>el(g,'rect',{x:x-10,y:370,width:20,height:192,fill:INK}));
+ el(g,'path',{d:'M180 380 Q220 330 280 320 L720 320 Q780 330 820 380 Q760 370 720 372 L280 372 Q240 370 180 380Z',fill:INK});
+ el(g,'path',{d:'M260 320 Q320 230 500 210 Q680 230 740 320Z',fill:INK});
+ el(g,'path',{d:'M220 236 Q260 210 300 214 M780 236 Q740 210 700 214',stroke:INK,'stroke-width':8,fill:'none','stroke-linecap':'round'});
+ el(g,'rect',{x:440,y:420,width:120,height:140,fill:PAPER,opacity:.35});
+ el(g,'ellipse',{cx:500,cy:206,rx:22,ry:10,fill:INK});
+ for(let i=0;i<5;i++)el(g,'line',{x1:300+i*100,y1:250,x2:300+i*100,y2:316,stroke:PAPER,'stroke-width':2,opacity:.3})},
+be(){const s=setup(700,330);seed=161;const g=el(s,'g',{filter:'url(#inkt)'});
+ for(let i=0;i<7;i++)el(g,'rect',{x:40,y:262+i*0,width:620,height:16,rx:8,fill:INK,transform:`translate(0,${i*0})`});
+ for(let i=0;i<9;i++)el(g,'line',{x1:60+i*70,y1:258,x2:62+i*70,y2:282,stroke:PAPER,'stroke-width':2,opacity:.5});
+ el(g,'path',{d:'M30 280 L670 280 L650 300 L50 300Z',fill:INK});
+ for(let i=0;i<5;i++)figG(g,140+i*100,262,.9,{spear:1})},
+nguoi_om(){const s=setup(320,130);const g=el(s,'g',{filter:'url(#inkt)'});
+ el(g,'path',{d:'M40 110 Q60 70 140 74 L270 80 Q296 86 290 110Z',fill:INK});el(g,'circle',{cx:44,cy:86,r:16,fill:INK});
+ el(g,'path',{d:'M90 80 q60 -10 170 2',stroke:PAPER,'stroke-width':2,fill:'none',opacity:.4})},
+duoc(){const s=setup(80,200);const g=el(s,'g',{filter:'url(#inkt)'});el(g,'line',{x1:40,y1:200,x2:40,y2:80,stroke:INK,'stroke-width':6});
+ el(g,'path',{d:'M40 20 Q66 56 52 86 Q40 96 28 86 Q16 60 40 20Z',fill:RED});el(g,'path',{d:'M40 50 Q50 70 44 84 Q38 88 34 80 Q32 66 40 50Z',fill:'#e8b04a'})},
+});
+
 window.A=A;window.sealDraw=sealDraw;
 </script></body></html>

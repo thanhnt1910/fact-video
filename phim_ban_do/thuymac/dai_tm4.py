@@ -3,6 +3,7 @@ import sys,os,subprocess,json,math
 import dai
 from dai import cam,cpath,to8,stage,PAP,W,H,XM,NM
 from canh import *
+from fx_tran import arrows,dust,sparks,fall
 from dai_tm2 import big,tagfall,strike,lb,dongho,scene_bg,ground
 from dai_tm3 import night,banks
 GD=os.environ.get('GIONG','/tmp/pc/assets/thu_giong_hai/charon')
@@ -137,16 +138,29 @@ def S_9(cv,t):
     lb(cv,c,'giữ biên giới',700,300,t,a+.3,b+.3,sz=40)
 # ---------------- chương 3
 def S_12(cv,t):
-    a,b=T[12],E[13]
+    a,b=T[12],E[13];tc=mid(12,.55)
     c=cam(*cpath(t,[(a-.4,(960,560,1.0)),(T[13],(900,560,1.05)),(b+.4,(820,580,1.15))]),
-          sx=5*math.sin(t*23)*fio(t,a+1,E[13]),sy=4*math.sin(t*19)*fio(t,a+1,E[13]))
+          sx=5*math.sin(t*23)*fio(t,tc,E[13]),sy=4*math.sin(t*19)*fio(t,tc,E[13]))
     scene_bg(cv,c,.5,.7,820);ground(cv,c,830,.3)
-    for i in range(3): put(cv,c,'voi',420+i*230,820,ay=1,s=.55,o=inn(t,a+.3+i*.2,.4)*(1-.75*inn(t,T[13]-.2,.6)))
+    fade13=1-.75*inn(t,T[13]-.2,.6)
+    for i in range(3): put(cv,c,'voi',420+i*230,820,ay=1,s=.55,o=inn(t,a+.3+i*.2,.4)*fade13)
+    inf=[(140,840),(250,850),(960,840),(1060,850),(1160,840),(360,840),(1250,850)]
+    for i,(x,y) in enumerate(inf):
+        if i in (2,4,5) and t>tc+.4+i*.25: fall(cv,c,'fig_giap_giao',x,y,t,tc+.4+i*.25,s=.5,dirn=-1)
+        else: put(cv,c,'fig_giap_giao',x,y,ay=1,s=.5,o=inn(t,a+.2,.4)*fade13)
     tagfall(cv,c,480,420,'Trần Thái Tông',t,a+.4,sz=36,col=INK,b=T[13])
+    rid=[]
     for i in range(10):
         st=a+.6+i*.18;u=eo(cl((t-st)/3.0))
-        put(cv,c,Af('ky_mong'),lerp(2200+i*60,1100+(i%5)*140,u),800+(i%2)*30,ay=1,s=.55,o=inn(t,st,.3))
+        x=lerp(2200+i*60,1280+(i%5)*130,u);y=800+(i%2)*30;rid.append((x,y))
+        if u<.98: dust(cv,c,x+150,y-10,o=.3*inn(t,st,.3)*(1-u))
+        if i in (1,6) and t>tc+.8+i*.1: fall(cv,c,Af('ky_mong'),x,y,t,tc+.8+i*.1,s=.55,dirn=1)
+        else: put(cv,c,Af('ky_mong'),x,y,ay=1,s=.55,o=inn(t,st,.3))
     lb(cv,c,'kỵ binh Mông Cổ',1500,300,t,a+.8,T[13],col=RED,sz=36)
+    # hai bên bắn tên: quân Đại Việt bắn ra trước, quân Mông Cổ bắn trả dày dần
+    arrows(cv,c,t,a+.7,tc+1.0,[(x+20,y-60) for x,y in inf],[(1450+k*120,740) for k in range(5)],n=10,h=110,per=1.1,seed=12)
+    arrows(cv,c,t,a+1.4,b-.6,[(x-40,y-120) for x,y in rid],[(x,y-40) for x,y in inf]+[(500+k*200,760) for k in range(3)],n=16,h=90,per=.95,seed=13)
+    sparks(cv,c,t,[(1150+k*110,730-(k%2)*30) for k in range(4)],tc,E[12]+.5,seed=12)
     if t>mid(12,.6):
         for k in range(3): put(cv,c,'redblot',600+k*240,760,s=.6,o=.5*inn(t,mid(12,.6)+k*.2,.6))
     if t>T[13]-.2:
@@ -254,6 +268,7 @@ def S_27(cv,t):
     for i in range(6):
         xx=1150+i*110
         if t>T[28]: xx-=lerp(0,900,inn(t,T[28]+i*.1,3))
+        if i in (0,2,4) and t>mid(27,.4)+i*.2: fall(cv,c,'ky_mong',xx,wl-20,t,mid(27,.4)+i*.2,s=.45,dirn=1);continue
         put(cv,c,Af('ky_mong') if t>T[28] else 'ky_mong',xx,wl-20,ay=1,s=.45,o=1-.5*inn(t,T[28]+1.5,2))
     xb=lerp(200,700,inn(t,a,2.0))
     put(cv,c,'lau_thuyen',xb,wl+80,ay=.86,s=.55,r=boatbob(t))
@@ -263,8 +278,13 @@ def S_27(cv,t):
             ph=((t*.9+k*.29)%1);x0,y0=xb+200+(k%5)*60,wl-20;x1,y1=1150+(k%6)*110,wl-60
             def P_(u): return lerp(x0,x1,u),lerp(y0,y1,u)-70*4*u*(1-u)
             xa,ya=P_(ph);xb2,yb2=P_(max(0,ph-.06))
-            stroke(cv,c,[(xb2,yb2),(xa,ya)],1,wid=3,head=True,o=.8*fio(t,a+.3,E[27])*cl((ph-.12)*8)*cl((1-ph)*10))
+            stroke(cv,c,[(xb2,yb2),(xa,ya)],1,wid=4,head=True,o=.9*fio(t,a+.3,E[27])*cl((ph-.12)*8)*cl((1-ph)*10))
         for k in range(3): put(cv,c,'redblot',1200+k*160,wl-60,s=.6,o=.55*inn(t,mid(27,.5)+k*.25,.6))
+        arrows(cv,c,t,a+.8,mid(27,.6),[(1200+k*110,wl-90) for k in range(5)],[(xb+k*80,wl+10) for k in range(5)],n=6,h=60,per=1.0,seed=27)
+        for i in range(6):
+            st=a+1.2+i*.25;u=inn(t,st,1.6);x=lerp(xb+300+i*40,1050+i*70,u)
+            put(cv,c,'fig_giap_giao',x,wl-5+(i%2)*12,ay=1,s=.36,o=inn(t,st,.3))
+        sparks(cv,c,t,[(1120+k*130,wl-50) for k in range(4)],mid(27,.35),E[27],seed=27)
     lb(cv,c,'bến Đông Bộ Đầu',1300,300,t,a+.2,mid(27,.6),sz=40,col=RED)
     lb(cv,c,'kinh thành được lấy lại',1000,300,t,T[28]+.3,b+.3,sz=40)
 # ---------------- chương 6
@@ -278,8 +298,16 @@ def S_29(cv,t):
         x=[160,260,360,1520,1640,1760,1860][i];y=[480,440,500,470,430,490,450][i]
         put(cv,c,'fig_giap_giao',x,y+lerp(0,120,inn(t,mid(29,.55),1.2)),ay=1,s=.38,o=.08+.92*amb)
     put(cv,c,'cliffL',-160,1200,ax=0,ay=1,k=1.15);put(cv,c,'cliffR',2080,1150,ax=1,ay=1,k=1.15)
+    rid=[]
     for i in range(8):
-        u=cl((t-a-i*.12)/(b-a));put(cv,c,Af('ky_mong'),lerp(1800,200,u)+i*70,830+(i%2)*20,ay=1,s=.55)
+        u=cl((t-a-i*.12)/(b-a));x=lerp(1800,200,u)+i*70;y=830+(i%2)*20;rid.append((x,y))
+        dust(cv,c,x+140,y-10,o=.25)
+        tf=mid(29,.62)+i*.3
+        if i in (2,5,7) and t>tf: fall(cv,c,Af('ky_mong'),x,y,t,tf,s=.55,dirn=1)
+        else: put(cv,c,Af('ky_mong'),x,y,ay=1,s=.55)
+    src=[(x,y+lerp(0,120,inn(t,mid(29,.55),1.2))-60) for x,y in zip([160,260,360,1520,1640,1760,1860],[480,440,500,470,430,490,450])]
+    arrows(cv,c,t,mid(29,.5),E[29]+.3,src,[(x,y-60) for x,y in rid],n=14,h=40,per=.9,seed=29)
+    sparks(cv,c,t,[(700,780),(1100,790)],mid(29,.7),E[29],seed=29)
     tagfall(cv,c,1640,330,'Hà Bổng',t,mid(29,.5),sz=40,col=INK,b=T[30])
     lb(cv,c,'trại Quy Hóa',960,230,t,a+.3,T[30],sz=44)
     if t>T[30]-.2: big(cv,'GIẶC PHẬT',t,mid(30,.6),b+.3,RED,200,96,seed=30)

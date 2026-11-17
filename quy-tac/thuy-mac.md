@@ -166,6 +166,12 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
   - tên phải bay ra từ người hoặc thuyền đang bắn, theo đường cong thấp, rơi xuống chỗ đối phương;
   - mũi tên quay theo hướng bay;
   - không vẽ tên lơ lửng giữa trời, lệch khỏi thuyền.
+- **Cảnh giao chiến phải có hành động, không chỉ rung khung (chủ kênh nhắc 17/11/2026, sau tập 4):**
+  - mỗi cảnh đánh nhau có mưa tên của bên đang bắn (bay theo vòng cung tới đối phương, chạm thì có vệt mực nhỏ);
+  - có chỗ giáp nhau thì vẽ tia va chạm nhấp nháy; vài người hoặc ngựa ngã (nghiêng rồi nhạt đi, không máu);
+  - kỵ binh phi có bụi vó ngựa;
+  - âm thanh khớp hình: tiếng tên bay (`volley`) đúng lúc tên bay, tiếng binh khí (`clangs`), tiếng hô, tiếng ngã (`thump`);
+  - rung khung chỉ là phần phụ. Hàm dùng chung ở `phim_ban_do/thuymac/fx_tran.py` (`arrows`, `sparks`, `fall`, `dust`).
 - **Vùng phụ đề:** nhân vật chính, đoàn quân và nhãn tên phải nằm trên dải phụ đề (khoảng y ≤ 880 trên khung cao 1080). Nhãn không đè lên nhau hay lên người.
 - **Nơi chưa rõ vị trí** (Hoa Bộ) thì không đặt lên bản đồ: dùng tranh có chữ tên nơi. Nơi chỉ có vị trí ước đoán (Tây Kết) thì dùng chấm mờ và ghi trong ghi chú.
 - **Biểu tượng đếm ở góc** khi lời đọc nói "lần thứ N". Biểu tượng là hình ảnh xuyên suốt cộng vạch đỏ, kèm chữ "LẦN N".

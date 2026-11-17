@@ -3,6 +3,7 @@ import sys,os,subprocess,json,math
 import dai
 from dai import cam,cpath,to8,stage,PAP,W,H,XM,NM
 from canh import *
+from fx_tran import arrows,dust,sparks,fall
 GD=os.environ.get('GIONG','/tmp/pc/assets/thu_giong_hai/charon')
 J=json.load(open('/tmp/pc/ke-hoach/thu-giong-hai/tm2_full.json'))
 TX={i+1:d['text'] for i,d in enumerate(J)};NN={i+1:d['n'] for i,d in enumerate(J)}
@@ -432,6 +433,9 @@ def S_chilang(cv,t):
     put(cv,c,'cliffL',-160,1200,ax=0,ay=1,k=1.15)
     put(cv,c,'cliffR',2080,1150,ax=1,ay=1,k=1.15)
     # quân nhà Tống tiến vào
+    src=[(x,y+lerp(0,120,inn(t,mid(36,.15),1.2))-60) for x,y in zip([160,260,360,1520,1640,1760,1860],[480,440,500,470,430,490,450])]
+    arrows(cv,c,t,mid(36,.1),mid(36,.75),src,[(1100+k*120,760) for k in range(6)],n=14,h=40,per=.9,seed=36)
+    sparks(cv,c,t,[(1000,760),(1250,770),(1500,760)],mid(36,.3),mid(36,.8),seed=36)
     ax_=lerp(1900,1250,eo(cl((t-a)/5)))
     put(cv,c,'army',ax_+560,820,ay=1,s=.6,o=1-inn(t,mid(36,.5),1))
     hx=lerp(1700,1050,eo(cl((t-a)/5)))

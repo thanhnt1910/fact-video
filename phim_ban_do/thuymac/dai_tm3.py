@@ -3,6 +3,7 @@ import sys,os,subprocess,json,math
 import dai
 from dai import cam,cpath,to8,stage,PAP,W,H,XM,NM
 from canh import *
+from fx_tran import arrows,dust,sparks,fall
 from dai_tm2 import big,tagfall,strike,lb,dongho,scene_bg,ground
 GD=os.environ.get('GIONG','/tmp/pc/assets/thu_giong_hai/charon')
 J=json.load(open('/tmp/pc/ke-hoach/thu-giong-hai/tm3_full.json'))
@@ -234,8 +235,13 @@ def S_cau(cv,t):
         if t<st: continue
         x=lerp(1600,300+(i%4)*60,u)
         if t>T[22]: x=lerp(x,1500,inn(t,T[22]+.3+i*.08,2.4))
-        o=inn(t,st,.3)*(1-(.6 if t>mid(22,.5) and i%3==0 else 0))
-        put(cv,c,Af('fig_giap_giao') if t<T[22]+.3 else 'fig_giap_giao',x,wl+60-6*abs(math.sin(t*6+i)) if x>450 else wl-20,ay=1,s=.34,o=o)
+        o=inn(t,st,.3);yy=wl+60-6*abs(math.sin(t*6+i)) if x>450 else wl-20
+        tf=mid(22,.35)+i*.06
+        if i%3==0 and t>tf: fall(cv,c,'fig_giap_giao',x,yy,t,tf,s=.34,dirn=1);continue
+        put(cv,c,Af('fig_giap_giao') if t<T[22]+.3 else 'fig_giap_giao',x,yy,ay=1,s=.34,o=o)
+    # tên từ trên lũy bắn xuống toán quân vượt sông; va chạm khi phản công
+    arrows(cv,c,t,T[21]+.5,mid(22,.6),[(120+k*90,wl-110) for k in range(5)],[(450+k*160,wl+20) for k in range(6)],n=12,h=70,per=1.0,seed=21)
+    sparks(cv,c,t,[(350,wl-50),(480,wl-40),(600,wl-30)],T[22]+.6,mid(22,.7),seed=22)
     if T[21]<t<E[21]+.3:
         stroke(cv,c,[(500,wl+40),(250,wl-30)],inn(t,mid(21,.3),1.0),wid=9,col=RED,o=.9)
         big(cv,'Phòng tuyến bị chọc thủng?',t,mid(21,.5),E[21]+.2,RED,170,60,seed=21)
@@ -314,6 +320,12 @@ def S_dem(cv,t):
             st=T[31]+i*.15;u=eo(cl((t-st)/1.5))
             put(cv,c,'fig_giap_giao',lerp(700,900+i*90,u),wl-20,ay=1,s=.45,o=inn(t,st,.3))
             put(cv,c,'duoc',lerp(700,900+i*90,u)+30,wl-210,s=.45,o=inn(t,st,.3))
+        for i in range(5):
+            x=1150+i*150;tf=mid(31,.25)+i*.3
+            if t>tf: fall(cv,c,'fig_quan',x,wl-20,t,tf,s=.45,dirn=1)
+            else: put(cv,c,'fig_quan',x,wl-20,ay=1,s=.45)
+        arrows(cv,c,t,T[30]+1.5,T[31]+1.0,[(b_['x'],b_['y']-150) for b_ in viet],[(1100+k*140,wl-120) for k in range(5)],n=10,h=90,per=1.0,col=PAPER,o=.95,seed=30)
+        sparks(cv,c,t,[(1000+k*160,wl-140) for k in range(4)],T[31],mid(31,.75),seed=31,col=PAPER)
         for k in range(4): put(cv,c,'redblot',1050+k*170,wl-120,s=.8,o=.75*inn(t,mid(31,.3)+k*.25,.6))
         lb(cv,c,'đánh vào doanh trại',1150,300,t,T[31]+.3,b+.3,col=PAPER,sz=40)
     lan(cv,t,mid(31,.6),3,E[31]+1.0)

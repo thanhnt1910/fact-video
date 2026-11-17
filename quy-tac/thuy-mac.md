@@ -13,6 +13,7 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
 
 ## 2. Giọng đọc
 - Gemini **Charon**, hồ sơ C (`STYLE_C` trong `thu_giong_hai_cum.py`), **đọc từng câu** (`cum.txt` = 1; script `docgiong1*.sh`). Không đọc theo cụm 16 câu nữa. Chủ kênh chọn ngày 16/11/2026 sau khi nghe thử Iapetus, Puck, Charon; lý do là Sadaltager quá trầm, cần giọng to và rõ.
+- **Đọc theo chương (chủ kênh chọn 17/11/2026, thay cách đọc từng câu):** đọc từng câu làm mỗi đoạn một giọng (đo tm5: cao độ 104–139 Hz, tốc độ 3,0–4,0 chữ/giây giữa các câu). Từ tm5 trở đi, `ke-hoach/thu-giong-hai/doc_chuong.txt` = 1: mỗi chương (trường `chuong` trong `<mã>_full.json`) đọc trong một lần gọi, lưu nguyên một file `c<số đoạn đầu>.mp3` (danh sách đoạn ở `chuong_<mã>.json`), không cắt câu, không qua bộ lọc âm. Mốc từng đoạn trong file lấy từ nhận dạng giọng (`khung_dung.align`), dùng cho phụ đề và cảnh. tm5, tm6 đọc lại theo cách này.
 - Cả video một giọng, một hồ sơ. Sau khi đọc phải nhận dạng giọng từng đoạn và đạt 100% ở `kiem_giong.py` rồi mới dựng.
 - **Không cân giọng (chủ kênh nhắc lại 16/11/2026):** dùng nguyên file gốc Gemini trong `assets/thu_giong_hai/charon/`.
   - KHÔNG chạy `chuan_hoa_giong.py`, không `atempo`, không `loudnorm` từng câu, không cắt lặng, không nén hay giới hạn biên độ giọng. Giọng gốc không lỗi âm điệu; qua cân giọng thì bị lỗi.

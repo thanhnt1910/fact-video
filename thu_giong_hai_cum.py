@@ -90,6 +90,7 @@ def main():
             if cur and b.get("chuong") != cur[-1].get("chuong"): groups.append(cur); cur = []
             cur.append(b)
         if cur: groups.append(cur)
+        if Path("ke-hoach/thu-giong-hai/doc_chuong.txt").read_text().strip() == "ca": groups = [beats]   # cả video một lần gọi: giọng đều nhất
         for ch in groups:
             stem = f"c{ch[0]['n']}"
             if (d / f"{stem}.mp3").exists() and G.get(stem) == [x["n"] for x in ch]: continue

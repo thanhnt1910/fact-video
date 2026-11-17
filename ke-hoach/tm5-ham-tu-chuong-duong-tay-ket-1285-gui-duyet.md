@@ -46,7 +46,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 **Lần 1** (mốc 50%)
 
-16. Bến sông đầu tiên là Hàm Tử, nằm ngay trên đường Toa Đô đi lên. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật đã chờ sẵn ở đó.
+16. Bến sông đầu tiên là Hàm Tử, nằm chắn ngang đường Toa Đô đánh lên. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật đã chờ sẵn ở đó.
 17. Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ.
 18. Quân giặc nhìn sang thì hoảng, tưởng nhà Tống đã sang đánh giúp Đại Việt, rồi vỡ chạy. Đầu gọng kìm phía nam bị đánh bật lại.
 

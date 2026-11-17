@@ -16,7 +16,7 @@ S=[
 ('buoc_ngoat',"Gọng kìm đã siết, nhưng hai đầu của nó vẫn chưa chạm nhau. Giữa chúng vẫn còn những bến sông của Đại Việt."),
 ('buoc_ngoat',"Còn ở kinh thành, quân của Thoát Hoan bắt đầu đói và ốm. Chiếm được thành mà không bắt được vua, không có lương, rồi mùa hè lại nắng nóng, mưa dầm."),
 ('buoc_ngoat',"Toa Đô thúc quân từ phía nam ngược lên để hợp sức. Hai đầu gọng kìm sẽ gặp nhau trước, hay quân Đại Việt chặn được trước?"),
-('lan1',"Bến sông đầu tiên là Hàm Tử, nằm ngay trên đường Toa Đô đi lên. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật đã chờ sẵn ở đó."),
+('lan1',"Bến sông đầu tiên là Hàm Tử, nằm chắn ngang đường Toa Đô đánh lên. Tháng Tư, đoàn thuyền chiến của Trần Nhật Duật đã chờ sẵn ở đó."),
 ('lan1',"Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ."),
 ('lan1',"Quân giặc nhìn sang thì hoảng, tưởng nhà Tống đã sang đánh giúp Đại Việt, rồi vỡ chạy. Đầu gọng kìm phía nam bị đánh bật lại."),
 ('lan2',"Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh thẳng vào."),

@@ -74,7 +74,7 @@ out=np.zeros((OH,OW,4),np.uint8);out[...,:3]=ink;out[...,3]=(A*255).astype(np.ui
 Image.fromarray(out,'RGBA').save('/tmp/gen/bd/a/map.png')
 # tọa độ thế giới (1920x1080) của các địa danh
 def wpt(lon,lat): X=(lon-LON0)*KX;Y=(LAT1-lat)*S;return round((X-x0)*sc/1.5,1),round((Y-y0)*sc/1.5,1)
-P={'daila':(105.85,21.03),'coloa':(105.87,21.11),'aichau':(105.78,19.80),'quangchau':(113.26,23.13),'haimon':(109.6,21.75),'bachdang':(106.80,20.85),'leizhou':(110.3,20.6)}
+P={'daila':(105.85,21.03),'coloa':(105.87,21.11),'aichau':(105.78,19.80),'quangchau':(113.26,23.13),'haimon':(109.6,21.75),'bachdang':(106.80,20.85),'leizhou':(110.3,20.6),'hoalu':(105.91,20.25),'ungchau':(108.32,22.82),'langson':(106.76,21.85),'chilang':(106.62,21.62),'tayket':(105.98,20.82),'chiemthanh':(107.6,18.9)}
 import json;json.dump({k:wpt(*v) for k,v in P.items()},open('/tmp/gen/bd/a/map_pts.json','w'),indent=1)
 print({k:wpt(*v) for k,v in P.items()})
 # xem thử trên giấy

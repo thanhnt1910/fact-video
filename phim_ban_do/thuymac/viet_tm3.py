@@ -1,0 +1,56 @@
+import json
+# Trận đánh thủy mặc tập 3: sông Như Nguyệt 1077 (mã tm3)
+S=[
+(1,"Có một vị tướng đang thắng trận, vậy mà lại chủ động đề nghị kẻ thù thôi đánh."),
+(1,"Ông không thua. Đạo quân trước mặt ông bị chặn bên kia một con sông, đang đói, đang bệnh, và đã mất rất nhiều người."),
+(1,"Vị tướng ấy là Lý Thường Kiệt. Con sông ấy là sông Như Nguyệt, nay là sông Cầu, cách kinh thành Thăng Long không xa."),
+(1,"Vì sao đang thắng mà ông lại muốn dừng? Đạo quân nhà Tống đã bị chặn ba lần: ngoài biển, trên sông, và ngay trong trại của chính họ."),
+(2,"Năm một nghìn không trăm bảy mươi lăm, nghe tin nhà Tống đang gom quân và đóng thuyền ở biên giới, Lý Thường Kiệt quyết đánh trước."),
+(2,"Quân Đại Việt chia đường thủy bộ, đánh vào ba châu Khâm, Liêm và Ung của nhà Tống. Thành Ung Châu bị vây hơn bốn mươi ngày rồi mới bị hạ."),
+(2,"Rồi sau khi phá các kho lương và căn cứ, quân Đại Việt rút về nước. Nhưng nhà Tống không chịu để yên."),
+(2,"Đến năm một nghìn không trăm bảy mươi sáu, vua Tống giao cho tướng Quách Quỳ cầm quân đánh Đại Việt. Triệu Tiết được cử làm phó."),
+(2,"Nhà Tống còn hẹn với hai nước ở phía nam Đại Việt là Chiêm Thành và Chân Lạp, để cùng nhau đánh vào."),
+(2,"Cuối năm ấy, quân nhà Tống kéo sang với khoảng mười vạn quân, một vạn ngựa và hai mươi vạn dân phu gánh lương."),
+(2,"Còn đạo quân thủy thì đi theo đường biển. Họ chở thêm người và lương, để hợp với quân bộ ở phía trước."),
+(2,"Một đạo quân đông như thế ăn rất nhiều lương. Đánh càng lâu, gánh nặng ấy càng lớn."),
+(2,"Còn phía Đại Việt, Lý Thường Kiệt không dồn hết sức ra biên giới. Ông chọn giữ một con sông ở phía bắc kinh thành."),
+(3,"Con sông ấy là Như Nguyệt. Muốn xuống Thăng Long, quân nhà Tống phải vượt qua nó."),
+(3,"Vì thế, dọc bờ nam, quân Đại Việt đắp lũy đất, dựng hàng rào, giữ chặt những bến sông mà quân giặc có thể vượt qua."),
+(3,"Nhưng một con sông chỉ chặn được quân bộ. Muốn qua sông, quân nhà Tống cần thuyền, mà thuyền thì vẫn đang ở ngoài biển."),
+(3,"Ngoài biển, tướng Lý Kế Nguyên đem thủy quân Đại Việt ra chặn đoàn thuyền của nhà Tống ở vùng Đông Kênh, phía đông bắc."),
+(3,"Rồi hai bên đánh nhau nhiều trận trên biển. Thuyền nhà Tống không tiến sâu được, và không bao giờ tới được chỗ quân bộ đang chờ."),
+(3,"Đó là lần thứ nhất quân nhà Tống bị chặn. Đạo quân bộ vẫn tiến xuống, nhưng không còn đoàn thuyền nào đi cùng."),
+(3,"Tháng Giêng năm một nghìn không trăm bảy mươi bảy, quân nhà Tống vượt biên giới ở Lạng Sơn, vừa đi vừa bị các toán quân miền núi chặn đánh."),
+(3,"Rồi họ cũng tới được bờ bắc sông Như Nguyệt. Bên kia sông là lũy đất và quân Đại Việt, còn sau lưng họ không có đoàn thuyền nào."),
+(3,"Không thuyền, không cầu, Quách Quỳ sẽ đưa mười vạn quân qua sông bằng cách nào?"),
+(4,"Quách Quỳ cho quân đóng trại dài theo bờ bắc. Ông đóng ở phía Thị Cầu, còn Triệu Tiết đóng đối diện bến Như Nguyệt."),
+(4,"Thoạt đầu, ông cho quân dừng lại chờ quân thủy. Nhưng chờ mãi, đoàn thuyền vẫn không thấy tới."),
+(4,"Cuối cùng, quân nhà Tống tự bắc cầu phao, và một toán quân vượt được sang bờ nam ở khúc sông Như Nguyệt."),
+(4,"Toán quân ấy chọc thủng được phòng tuyến và tiến sâu vào trong. Có lúc tưởng như phòng tuyến Như Nguyệt sắp vỡ."),
+(4,"Nhưng Lý Thường Kiệt dồn quân phản công rất mạnh. Quân nhà Tống bị đánh bật trở lại, theo sử cũ thì chết hơn một nghìn người."),
+(4,"Rồi họ thử thêm một lần nữa, chở quân sang bằng bè. Lần ấy, quân nhà Tống cũng bị đánh lui."),
+(4,"Đó là lần thứ hai quân nhà Tống bị chặn. Từ đó, Quách Quỳ không cho quân vượt sông nữa, chỉ giữ chặt trại bên bờ bắc."),
+(4,"Cũng ở khúc sông này, người đời sau truyền lại một câu chuyện về bài thơ Nam quốc sơn hà."),
+(4,"Chuyện kể rằng, có một đêm, tiếng đọc bài thơ ấy vang lên từ đền thờ hai anh em Trương Hống, Trương Hát bên bờ sông."),
+(4,"Ý bài thơ là sông núi nước Nam thì vua Nam ở, điều ấy đã được trời định sẵn. Giặc nào đến xâm phạm thì sẽ chuốc lấy thất bại."),
+(4,"Đó là lời truyền, đến nay không ai biết chắc ai đã đọc. Nhưng bài thơ ấy đã được truyền đọc suốt gần một nghìn năm."),
+(5,"Quân nhà Tống đứng yên bên bờ bắc, nhưng ngày nào họ cũng mất thêm người."),
+(5,"Vì lương mang theo cạn dần, lại thêm khí hậu ẩm thấp, bệnh tật lan khắp các trại. Người ốm và người chết ngày một nhiều."),
+(5,"Đến lúc ấy, Lý Thường Kiệt mới ra tay. Ông cho quân bất ngờ vượt sông, đánh thẳng vào doanh trại quân nhà Tống."),
+(5,"Quân nhà Tống thua to. Đó là lần thứ ba họ bị chặn, và lần này là ngay trong trại của chính mình."),
+(5,"Phía Đại Việt cũng phải trả giá. Trong những trận giằng co trên sông, hai hoàng tử nhà Lý là Hoằng Chân và Chiêu Văn đã tử trận."),
+(5,"Đến lúc này, quân và dân phu nhà Tống đã mất quá nửa, trong đó rất nhiều người chết vì bệnh."),
+(5,"Quân giặc đã kiệt sức như thế, vậy sao Lý Thường Kiệt không đánh nốt?"),
+(6,"Thay vì đánh tiếp, Lý Thường Kiệt sai người sang gặp Quách Quỳ, đề nghị hai bên thôi đánh và làm hòa."),
+(6,"Quách Quỳ nhận lời và rút quân về nước. Nhưng ông vẫn giữ lại châu Quảng Nguyên ở vùng biên giới."),
+(6,"Có thể hiểu vì sao Lý Thường Kiệt dừng lại. Nhà Tống là một nước rất lớn, thua trận này vẫn có thể đem quân sang lần nữa."),
+(6,"Còn nếu đánh tiếp, quân dân Đại Việt cũng sẽ chết thêm. Làm hòa lúc đang mạnh giúp Đại Việt kết thúc cuộc chiến mà không phải cúi đầu."),
+(6,"Hai năm sau, nhờ sứ giả sang thương lượng, nhà Tống trả lại châu Quảng Nguyên cho Đại Việt."),
+(6,"Bị chặn ba lần, quân nhà Tống không qua nổi sông Như Nguyệt, và một lời làm hòa đã khép lại cuộc chiến. Cảm ơn bạn đã lắng nghe câu chuyện này."),
+]
+json.dump([{'n':178001+i,'chuong':c,'tone':'story','text':t,'hien':t} for i,(c,t) in enumerate(S)],open('/tmp/pc/ke-hoach/thu-giong-hai/tm3_full.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+tot=sum(len(t.split()) for c,t in S);acc=0;seen=set()
+print(len(S),'đoạn',tot,'chữ ~',round(tot/3.1/60,1),'phút')
+for i,(c,t) in enumerate(S):
+    if c not in seen: seen.add(c);print('chương',c,'đoạn',i+1,f'{acc/tot:.0%}')
+    acc+=len(t.split())

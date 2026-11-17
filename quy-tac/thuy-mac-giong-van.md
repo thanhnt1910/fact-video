@@ -9,6 +9,8 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 4. **Nhịp câu có dài có ngắn.** Mỗi khối cao trào có ít nhất một câu thật ngắn để nhấn, dưới 8 chữ ("Doanh trại vỡ."). Câu ngắn ghép với một câu dài trong cùng đoạn, vì bộ kiểm đoạn cần 14 chữ trở lên.
 5. **Cụm nối không lặp thành khuôn.** "Đúng lúc ấy", "Vì thế", "Thế là", "Đó là", "Trong khi đó", "tưởng như": mỗi cụm tối đa 2 lần một tập; riêng "Nhưng" tối đa 4 lần. Nối bằng chính sự việc ("Thắng ở đó, quân Đại Việt…") thay vì từ nối.
 
+6. **Dùng từ có điểm nhấn ở chỗ cần nhấn** (chủ kênh, tm5): "vẫn còn đông, còn rất hung hãn" thay cho "vẫn còn đông". Từ nhấn phải có sự việc đỡ ở ngay trong đoạn (ở tm5 là: đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra). Không dùng các từ phóng đại đã cấm ở `chung.md` ("kinh hoàng", "khủng khiếp", "chấn động", "định mệnh").
+
 ## 2. Câu đếm và câu chuyển chương
 - Câu đếm không lặp khuôn "Đó là điều thứ N". Gắn số đếm vào sự việc: "Bến sông đầu tiên là Hàm Tử", "Chương Dương là bến thứ hai", "…Tây Kết, bến sông thứ ba".
 - Cuối mỗi lần hoặc trận là một câu giữ căng thẳng: "Một bến đã thắng. Nhưng kinh thành vẫn trong tay Thoát Hoan…".

@@ -1,6 +1,6 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-30 đoạn, 822 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+30 đoạn, 826 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
@@ -50,7 +50,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 17. Trong hàng quân ấy có một toán người nhà Tống sang nương nhờ, do Triệu Trung cầm đầu, vẫn mặc nguyên áo quần nước cũ.
 18. Quân giặc nhìn sang thì hoảng, tưởng nhà Tống đã sang đánh giúp Đại Việt, rồi vỡ chạy. Đầu gọng kìm phía nam bị đánh bật lại.
 
-**Lần 2** (mốc 60%)
+**Lần 2** (mốc 59%)
 
 19. Nhưng đầu phía bắc vẫn giữ kinh thành. Bến thứ hai vì thế là Chương Dương, ngay cửa ngõ Thăng Long, nơi Thượng tướng Trần Quang Khải đánh vào.
 20. Trong đoàn quân ấy có Trần Quốc Toản, một tướng trẻ chưa tới hai mươi tuổi, giương lá cờ tự làm đề sáu chữ: phá cường địch, báo hoàng ân.
@@ -59,7 +59,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 **★ Đoạn lặng** (mốc 73%)
 
-23. Nhưng trận lớn nhất còn ở phía trước. Đạo quân của Toa Đô đã đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra, và vẫn còn đông.
+23. Nhưng trận lớn nhất còn ở phía trước. Đạo quân của Toa Đô đã đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra, và vẫn còn đông, còn rất hung hãn.
 
 **Cao trào** (mốc 77%)
 
@@ -128,7 +128,7 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 10 cảnh báo ⚠️
+- `kiem_kich_ban.py`: 1 lỗi ❌, 10 cảnh báo ⚠️
 - `kiem_mach_ke.py`: -> 0 ❌, 10 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️

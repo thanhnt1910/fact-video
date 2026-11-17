@@ -1,5 +1,8 @@
 # Sổ tay giọng văn series thủy mặc (chủ kênh duyệt lập 17/11/2026)
 
+> **Bài mẫu câu chữ:** `quy-tac/thuy-mac-mau.md` (tm5 bản 9). Mười quy tắc ở mục 1 của file ấy ưu tiên khi trùng với sổ tay này.
+
+
 Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này quyết định câu nghe ra sao. Mỗi lần chủ kênh sửa hoặc chê một câu, ghi vào mục 4 theo dạng trước/sau, để lần sau viết gần giọng chủ kênh hơn. Bộ kiểm đi kèm: `phim_ban_do/kiem_giong_van.py`.
 
 ## 1. Năm cách viết

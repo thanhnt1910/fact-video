@@ -4,171 +4,155 @@
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Hàng trăm chiến thuyền giặc đang xuôi một dòng sông lớn, đuổi theo mấy chiếc thuyền nhỏ đang bỏ chạy phía trước.",
-  "hien": "Hàng trăm chiến thuyền giặc đang xuôi một dòng sông lớn, đuổi theo mấy chiếc thuyền nhỏ đang bỏ chạy phía trước."
+  "text": "Giặc sắp tràn sang lần thứ ba, đông hơn mọi lần. Vua hỏi tình hình, bạn có dám đáp năm nay đánh giặc nhàn không?",
+  "hien": "Giặc sắp tràn sang lần thứ ba, đông hơn mọi lần. Vua hỏi tình hình, bạn có dám đáp năm nay đánh giặc nhàn không?"
  },
  {
   "n": 181002,
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Nhưng những chiếc thuyền nhỏ ấy không hề chạy trốn. Chúng đang dẫn cả đoàn chiến thuyền vào một nơi đã được chuẩn bị từ trước.",
-  "hien": "Nhưng những chiếc thuyền nhỏ ấy không hề chạy trốn. Chúng đang dẫn cả đoàn chiến thuyền vào một nơi đã được chuẩn bị từ trước."
+  "text": "Có một người đã đáp đúng như vậy. Đó là Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, người từng hai lần đánh lui quân nhà Nguyên.",
+  "hien": "Có một người đã đáp đúng như vậy. Đó là Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, người từng hai lần đánh lui quân nhà Nguyên."
  },
  {
   "n": 181003,
   "chuong": 1,
   "nhip": "hook3",
   "tone": "story",
-  "text": "Đó là sông Bạch Đằng. Đoàn chiến thuyền là của Ô Mã Nhi, tướng nhà Nguyên, và ông sắp phải trả giá bằng cả hạm đội lẫn tự do của mình.",
-  "hien": "Đó là sông Bạch Đằng. Đoàn chiến thuyền là của Ô Mã Nhi, tướng nhà Nguyên, và ông sắp phải trả giá bằng cả hạm đội lẫn tự do của mình."
+  "text": "Vậy mà mấy tháng sau, kinh thành Thăng Long lại bị bỏ trống, lăng mộ một vị vua Trần bị giặc đào phá, còn hạm đội nhà Nguyên tung hoành trên sông.",
+  "hien": "Vậy mà mấy tháng sau, kinh thành Thăng Long lại bị bỏ trống, lăng mộ một vị vua Trần bị giặc đào phá, còn hạm đội nhà Nguyên tung hoành trên sông."
  },
  {
   "n": 181004,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Nhưng vì sao Ô Mã Nhi lại có mặt trên khúc sông ấy? Có hai điều đã đẩy ông tới đó: một đoàn thuyền lương, và một con sông được chọn sẵn.",
-  "hien": "Nhưng vì sao Ô Mã Nhi lại có mặt trên khúc sông ấy? Có hai điều đã đẩy ông tới đó: một đoàn thuyền lương, và một con sông được chọn sẵn."
+  "text": "Câu nói ấy là lời trấn an, hay ông đã nhìn thấy điều gì? Câu trả lời nằm trong hai thứ: một đoàn thuyền lương, và một con sông cũ.",
+  "hien": "Câu nói ấy là lời trấn an, hay ông đã nhìn thấy điều gì? Câu trả lời nằm trong hai thứ: một đoàn thuyền lương, và một con sông cũ."
  },
  {
   "n": 181005,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Ba năm trước, quân nhà Nguyên đã thua ở Đại Việt, nhưng Hốt Tất Liệt không chịu thôi. Cuối năm một nghìn hai trăm tám mươi bảy, Thoát Hoan lại sang.",
-  "hien": "Ba năm trước, quân nhà Nguyên đã thua ở Đại Việt, nhưng Hốt Tất Liệt không chịu thôi. Cuối năm một nghìn hai trăm tám mươi bảy, Thoát Hoan lại sang."
+  "text": "Ba năm trước, quân nhà Nguyên đã tháo chạy khỏi Đại Việt, nhưng Hốt Tất Liệt không chịu thôi. Cuối năm một nghìn hai trăm tám mươi bảy, Thoát Hoan lại sang.",
+  "hien": "Ba năm trước, quân nhà Nguyên đã tháo chạy khỏi Đại Việt, nhưng Hốt Tất Liệt không chịu thôi. Cuối năm một nghìn hai trăm tám mươi bảy, Thoát Hoan lại sang."
  },
  {
   "n": 181006,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Trước khi giặc tới, vua hỏi Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, tình hình năm nay ra sao. Ông đáp: năm nay đánh giặc nhàn.",
-  "hien": "Trước khi giặc tới, vua hỏi Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, tình hình năm nay ra sao. Ông đáp: năm nay đánh giặc nhàn."
+  "text": "Lần này giặc sang cả đường biển. Tướng Ô Mã Nhi dẫn chiến thuyền vượt biển đi trước, theo sau là đoàn thuyền chở lương của Trương Văn Hổ.",
+  "hien": "Lần này giặc sang cả đường biển. Tướng Ô Mã Nhi dẫn chiến thuyền vượt biển đi trước, theo sau là đoàn thuyền chở lương của Trương Văn Hổ."
  },
  {
   "n": 181007,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Nghe thì khó tin, vì lần này giặc sang cả đường bộ lẫn đường biển. Tướng Ô Mã Nhi dẫn chiến thuyền vượt biển, tiến vào vùng Đông Bắc.",
-  "hien": "Nghe thì khó tin, vì lần này giặc sang cả đường bộ lẫn đường biển. Tướng Ô Mã Nhi dẫn chiến thuyền vượt biển, tiến vào vùng Đông Bắc."
+  "text": "Đoàn thuyền lương ấy nặng nề, đi chậm, nhưng lại là thứ quý nhất của cả đạo quân. Cả đạo quân trên bộ trông vào nó để có cơm ăn.",
+  "hien": "Đoàn thuyền lương ấy nặng nề, đi chậm, nhưng lại là thứ quý nhất của cả đạo quân. Cả đạo quân trên bộ trông vào nó để có cơm ăn."
  },
  {
   "n": 181008,
-  "chuong": 2,
-  "nhip": "goc_re",
+  "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Theo sau là đoàn thuyền chở lương do Trương Văn Hổ chỉ huy, nặng nề và đi chậm hơn nhiều. Đại quân trên bộ trông cả vào số lương ấy.",
-  "hien": "Theo sau là đoàn thuyền chở lương do Trương Văn Hổ chỉ huy, nặng nề và đi chậm hơn nhiều. Đại quân trên bộ trông cả vào số lương ấy."
+  "text": "Muốn vào sông, cả hai đoàn thuyền phải qua vùng biển Vân Đồn, do Phó tướng Trần Khánh Dư trấn giữ. Trận đầu, ông đánh không lại Ô Mã Nhi.",
+  "hien": "Muốn vào sông, cả hai đoàn thuyền phải qua vùng biển Vân Đồn, do Phó tướng Trần Khánh Dư trấn giữ. Trận đầu, ông đánh không lại Ô Mã Nhi."
  },
  {
   "n": 181009,
   "chuong": 3,
   "nhip": "the_nguy",
   "tone": "story",
-  "text": "Trên đường vào, hai đoàn thuyền phải qua vùng biển Vân Đồn, do Phó tướng Trần Khánh Dư giữ. Thoạt đầu, ông đánh không lại chiến thuyền của Ô Mã Nhi.",
-  "hien": "Trên đường vào, hai đoàn thuyền phải qua vùng biển Vân Đồn, do Phó tướng Trần Khánh Dư giữ. Thoạt đầu, ông đánh không lại chiến thuyền của Ô Mã Nhi."
+  "text": "Chiến thuyền giặc lướt qua Vân Đồn, vào trong hội quân với Thoát Hoan. Để giặc lọt qua, Trần Khánh Dư bị Thượng hoàng sai bắt về kinh xét tội.",
+  "hien": "Chiến thuyền giặc lướt qua Vân Đồn, vào trong hội quân với Thoát Hoan. Để giặc lọt qua, Trần Khánh Dư bị Thượng hoàng sai bắt về kinh xét tội."
  },
  {
   "n": 181010,
   "chuong": 3,
-  "nhip": "the_nguy",
+  "nhip": "diem_thap",
   "tone": "story",
-  "text": "Chiến thuyền giặc đi qua, tưởng như đường biển đã mở. Ô Mã Nhi kéo thẳng vào trong, để hội quân với Thoát Hoan.",
-  "hien": "Chiến thuyền giặc đi qua, tưởng như đường biển đã mở. Ô Mã Nhi kéo thẳng vào trong, để hội quân với Thoát Hoan."
+  "text": "Cửa biển như đã mất, người giữ cửa biển thì sắp mang tội. Nhìn lúc ấy, câu đánh giặc nhàn nghe như một lời nói quá.",
+  "hien": "Cửa biển như đã mất, người giữ cửa biển thì sắp mang tội. Nhìn lúc ấy, câu đánh giặc nhàn nghe như một lời nói quá."
  },
  {
   "n": 181011,
-  "chuong": 3,
-  "nhip": "diem_thap",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Vì để giặc lọt qua, Trần Khánh Dư bị Thượng hoàng sai người tới bắt về kinh xét tội. Lúc ấy, cửa biển như đã mất.",
-  "hien": "Vì để giặc lọt qua, Trần Khánh Dư bị Thượng hoàng sai người tới bắt về kinh xét tội. Lúc ấy, cửa biển như đã mất."
+  "text": "Nhưng Trần Khánh Dư xin hoãn ít ngày để lập công chuộc tội. Đúng lúc ấy, đoàn thuyền lương chậm chạp của Trương Văn Hổ mới tới Vân Đồn.",
+  "hien": "Nhưng Trần Khánh Dư xin hoãn ít ngày để lập công chuộc tội. Đúng lúc ấy, đoàn thuyền lương chậm chạp của Trương Văn Hổ mới tới Vân Đồn."
  },
  {
   "n": 181012,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Ông xin hoãn lại ít ngày để lập công chuộc tội. Đúng lúc ấy, đoàn thuyền lương của Trương Văn Hổ mới tới Vân Đồn.",
-  "hien": "Ông xin hoãn lại ít ngày để lập công chuộc tội. Đúng lúc ấy, đoàn thuyền lương của Trương Văn Hổ mới tới Vân Đồn."
+  "text": "Lần này ông không để lọt. Đoàn thuyền lương bị chặn đánh tan ngay tại chỗ, lương thực và khí giới bắt được nhiều không kể xiết.",
+  "hien": "Lần này ông không để lọt. Đoàn thuyền lương bị chặn đánh tan ngay tại chỗ, lương thực và khí giới bắt được nhiều không kể xiết."
  },
  {
   "n": 181013,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Lần này Trần Khánh Dư đánh chặn được, và đoàn thuyền lương tan vỡ ngay tại chỗ. Lương thực, khí giới bắt được nhiều không kể xiết.",
-  "hien": "Lần này Trần Khánh Dư đánh chặn được, và đoàn thuyền lương tan vỡ ngay tại chỗ. Lương thực, khí giới bắt được nhiều không kể xiết."
+  "text": "Thứ đầu tiên đã lộ ra: đoàn thuyền lương không còn nữa. Còn quân giặc trên bộ thì cứ thế tiến sâu vào, không có lương theo sau.",
+  "hien": "Thứ đầu tiên đã lộ ra: đoàn thuyền lương không còn nữa. Còn quân giặc trên bộ thì cứ thế tiến sâu vào, không có lương theo sau."
  },
  {
   "n": 181014,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
+  "chuong": 5,
+  "nhip": "lan1",
   "tone": "story",
-  "text": "Trương Văn Hổ phải bỏ thuyền chạy về nước. Thuyền lương mất, đó là điều đầu tiên đẩy Ô Mã Nhi về phía Bạch Đằng.",
-  "hien": "Trương Văn Hổ phải bỏ thuyền chạy về nước. Thuyền lương mất, đó là điều đầu tiên đẩy Ô Mã Nhi về phía Bạch Đằng."
+  "text": "Quân của Thoát Hoan tràn vào chiếm Thăng Long, nhưng kinh thành lại bị bỏ trống. Chúng ngồi chờ thuyền lương, và thuyền lương không bao giờ tới.",
+  "hien": "Quân của Thoát Hoan tràn vào chiếm Thăng Long, nhưng kinh thành lại bị bỏ trống. Chúng ngồi chờ thuyền lương, và thuyền lương không bao giờ tới."
  },
  {
   "n": 181015,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
-  "text": "Trong khi đó, quân bộ của Thoát Hoan tiến vào Thăng Long. Kinh thành một lần nữa bị bỏ trống, như ba năm trước.",
-  "hien": "Trong khi đó, quân bộ của Thoát Hoan tiến vào Thăng Long. Kinh thành một lần nữa bị bỏ trống, như ba năm trước."
+  "text": "Thiếu ăn, giặc tỏa đi cướp bóc khắp nơi. Ô Mã Nhi còn kéo quân về Long Hưng, đào phá lăng mộ của vua Trần Thái Tông.",
+  "hien": "Thiếu ăn, giặc tỏa đi cướp bóc khắp nơi. Ô Mã Nhi còn kéo quân về Long Hưng, đào phá lăng mộ của vua Trần Thái Tông."
  },
  {
   "n": 181016,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
-  "text": "Nhưng chiếm thành xong, quân nhà Nguyên không tìm được lương. Thuyền lương thì không bao giờ tới.",
-  "hien": "Nhưng chiếm thành xong, quân nhà Nguyên không tìm được lương. Thuyền lương thì không bao giờ tới."
+  "text": "Càng đi cướp, giặc càng bị đánh úp, càng đói, càng mệt. Mùa hè lại sắp tới, nên Thoát Hoan quyết định rút về.",
+  "hien": "Càng đi cướp, giặc càng bị đánh úp, càng đói, càng mệt. Mùa hè lại sắp tới, nên Thoát Hoan quyết định rút về."
  },
  {
   "n": 181017,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
-  "text": "Thiếu ăn, quân giặc phải tỏa đi cướp bóc khắp nơi. Ô Mã Nhi còn kéo quân về Long Hưng, phá lăng mộ của vua Trần Thái Tông.",
-  "hien": "Thiếu ăn, quân giặc phải tỏa đi cướp bóc khắp nơi. Ô Mã Nhi còn kéo quân về Long Hưng, phá lăng mộ của vua Trần Thái Tông."
+  "text": "Quân bộ rút theo đường Lạng Sơn, còn chiến thuyền ra biển theo sông Bạch Đằng. Không có lương thì không ở lại được nữa.",
+  "hien": "Quân bộ rút theo đường Lạng Sơn, còn chiến thuyền ra biển theo sông Bạch Đằng. Không có lương thì không ở lại được nữa."
  },
  {
   "n": 181018,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
-  "text": "Càng đi cướp, quân giặc càng bị đánh úp, càng mỏi mệt. Rồi mùa hè lại sắp tới, mùa mà ba năm trước quân nhà Nguyên đã khổ vì nóng và bệnh.",
-  "hien": "Càng đi cướp, quân giặc càng bị đánh úp, càng mỏi mệt. Rồi mùa hè lại sắp tới, mùa mà ba năm trước quân nhà Nguyên đã khổ vì nóng và bệnh."
+  "text": "Thứ hai lộ ra từ đây: con sông cũ. Hơn ba trăm năm trước, cũng trên sông Bạch Đằng, Ngô Quyền đã nhấn chìm hạm đội của quân nhà Nam Hán.",
+  "hien": "Thứ hai lộ ra từ đây: con sông cũ. Hơn ba trăm năm trước, cũng trên sông Bạch Đằng, Ngô Quyền đã nhấn chìm hạm đội của quân nhà Nam Hán."
  },
  {
   "n": 181019,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Vì thế, Thoát Hoan quyết định rút. Quân bộ theo đường Lạng Sơn, còn chiến thuyền theo sông Bạch Đằng ra biển.",
-  "hien": "Vì thế, Thoát Hoan quyết định rút. Quân bộ theo đường Lạng Sơn, còn chiến thuyền theo sông Bạch Đằng ra biển."
- },
- {
-  "n": 181020,
-  "chuong": 5,
-  "nhip": "lan1",
-  "tone": "story",
-  "text": "Đó là điều thứ hai: con sông giặc phải đi qua chính là Bạch Đằng, nơi hơn ba trăm năm trước Ngô Quyền đã đánh tan quân nhà Nam Hán.",
-  "hien": "Đó là điều thứ hai: con sông giặc phải đi qua chính là Bạch Đằng, nơi hơn ba trăm năm trước Ngô Quyền đã đánh tan quân nhà Nam Hán."
- },
- {
-  "n": 181021,
   "chuong": 6,
   "nhip": "lang",
   "tone": "story",
-  "text": "Để đón đường rút ấy, Trần Quốc Tuấn cho đóng cọc xuống lòng sông Bạch Đằng, phủ cỏ lên trên.",
-  "hien": "Để đón đường rút ấy, Trần Quốc Tuấn cho đóng cọc xuống lòng sông Bạch Đằng, phủ cỏ lên trên."
+  "text": "Để đón đường rút của giặc, Trần Quốc Tuấn cho đóng cọc xuống lòng sông, phủ cỏ lên trên. Khi thủy triều lên, nước che kín tất cả.",
+  "hien": "Để đón đường rút của giặc, Trần Quốc Tuấn cho đóng cọc xuống lòng sông, phủ cỏ lên trên. Khi thủy triều lên, nước che kín tất cả."
  },
  {
-  "n": 181022,
+  "n": 181020,
   "chuong": 6,
   "nhip": "chi_tiet_nguoi",
   "tone": "story",
@@ -176,67 +160,59 @@
   "hien": "Trước trận, ông chỉ xuống dòng sông mà thề: trận này không phá xong giặc Nguyên thì không về đến sông này nữa."
  },
  {
-  "n": 181023,
+  "n": 181021,
   "chuong": 6,
   "nhip": "lang",
   "tone": "story",
-  "text": "Ngày mồng tám tháng Ba, đoàn chiến thuyền của Ô Mã Nhi tới khúc sông có cọc. Lúc ấy thủy triều đang lên, nước phủ kín những hàng cọc.",
-  "hien": "Ngày mồng tám tháng Ba, đoàn chiến thuyền của Ô Mã Nhi tới khúc sông có cọc. Lúc ấy thủy triều đang lên, nước phủ kín những hàng cọc."
+  "text": "Ngày mồng tám tháng Ba, hạm đội Ô Mã Nhi tới khúc sông có cọc. Một toán thuyền nhỏ ra đánh nhử rồi giả thua chạy, hạm đội giặc đuổi theo.",
+  "hien": "Ngày mồng tám tháng Ba, hạm đội Ô Mã Nhi tới khúc sông có cọc. Một toán thuyền nhỏ ra đánh nhử rồi giả thua chạy, hạm đội giặc đuổi theo."
+ },
+ {
+  "n": 181022,
+  "chuong": 6,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Thủy triều rút. Những hàng cọc nhô lên khỏi mặt nước, và thuyền giặc mắc cọc, vỡ, nghiêng ngả khắp lòng sông.",
+  "hien": "Thủy triều rút. Những hàng cọc nhô lên khỏi mặt nước, và thuyền giặc mắc cọc, vỡ, nghiêng ngả khắp lòng sông."
+ },
+ {
+  "n": 181023,
+  "chuong": 6,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Quân Đại Việt từ hai bờ và trên sông cùng đổ ra đánh. Thuyền giặc tiến không được, lùi cũng không xong, hơn bốn trăm chiếc bị bắt.",
+  "hien": "Quân Đại Việt từ hai bờ và trên sông cùng đổ ra đánh. Thuyền giặc tiến không được, lùi cũng không xong, hơn bốn trăm chiếc bị bắt."
  },
  {
   "n": 181024,
   "chuong": 6,
-  "nhip": "lang",
+  "nhip": "cao_trao",
   "tone": "story",
-  "text": "Một toán thuyền nhỏ của Đại Việt ra đánh nhử rồi giả thua chạy. Hạm đội giặc đuổi theo, đi sâu vào khúc sông đã chuẩn bị sẵn.",
-  "hien": "Một toán thuyền nhỏ của Đại Việt ra đánh nhử rồi giả thua chạy. Hạm đội giặc đuổi theo, đi sâu vào khúc sông đã chuẩn bị sẵn."
+  "text": "Người đã đào phá lăng vua Trần là Ô Mã Nhi bị bắt sống ngay trên dòng sông ấy, cùng các tướng Phàn Tiếp, Tích Lệ Cơ.",
+  "hien": "Người đã đào phá lăng vua Trần là Ô Mã Nhi bị bắt sống ngay trên dòng sông ấy, cùng các tướng Phàn Tiếp, Tích Lệ Cơ."
  },
  {
   "n": 181025,
-  "chuong": 6,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Mọi việc tưởng như vẫn trong tay quân giặc. Rồi thủy triều rút xuống, những hàng cọc nhô lên, và thuyền giặc mắc cọc, vỡ, nghiêng ngả khắp lòng sông.",
-  "hien": "Mọi việc tưởng như vẫn trong tay quân giặc. Rồi thủy triều rút xuống, những hàng cọc nhô lên, và thuyền giặc mắc cọc, vỡ, nghiêng ngả khắp lòng sông."
- },
- {
-  "n": 181026,
-  "chuong": 6,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Đúng lúc ấy, quân Đại Việt từ hai bên bờ và từ trên sông cùng đổ ra đánh. Thuyền giặc tiến không được, lùi cũng không xong.",
-  "hien": "Đúng lúc ấy, quân Đại Việt từ hai bên bờ và từ trên sông cùng đổ ra đánh. Thuyền giặc tiến không được, lùi cũng không xong."
- },
- {
-  "n": 181027,
-  "chuong": 6,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Ô Mã Nhi bị bắt sống, cùng các tướng Phàn Tiếp, Tích Lệ Cơ. Theo sử cũ, số thuyền giặc bị bắt hơn bốn trăm chiếc.",
-  "hien": "Ô Mã Nhi bị bắt sống, cùng các tướng Phàn Tiếp, Tích Lệ Cơ. Theo sử cũ, số thuyền giặc bị bắt hơn bốn trăm chiếc."
- },
- {
-  "n": 181028,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
-  "text": "Còn Thoát Hoan đi đường bộ cũng chẳng yên. Bị chặn đánh suốt đường rút, quân giặc chạy trốn qua biên giới, và từ đó không bao giờ sang nữa.",
-  "hien": "Còn Thoát Hoan đi đường bộ cũng chẳng yên. Bị chặn đánh suốt đường rút, quân giặc chạy trốn qua biên giới, và từ đó không bao giờ sang nữa."
+  "text": "Còn Thoát Hoan đi đường bộ cũng bị chặn đánh suốt đường, chạy trốn qua biên giới. Từ đó, quân nhà Nguyên không bao giờ sang nữa.",
+  "hien": "Còn Thoát Hoan đi đường bộ cũng bị chặn đánh suốt đường, chạy trốn qua biên giới. Từ đó, quân nhà Nguyên không bao giờ sang nữa."
  },
  {
-  "n": 181029,
+  "n": 181026,
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",
-  "text": "Câu đánh giặc nhàn giờ đã rõ nghĩa. Đạo quân ấy đánh xa nhà, sống nhờ thuyền lương, mất lương thì phải rút qua đúng con sông đã chờ sẵn.",
-  "hien": "Câu đánh giặc nhàn giờ đã rõ nghĩa. Đạo quân ấy đánh xa nhà, sống nhờ thuyền lương, mất lương thì phải rút qua đúng con sông đã chờ sẵn."
+  "text": "Thì ra đánh giặc nhàn là thế: giặc đánh xa nhà, sống nhờ thuyền lương, mất lương thì phải tự rút qua đúng con sông đã chờ sẵn.",
+  "hien": "Thì ra đánh giặc nhàn là thế: giặc đánh xa nhà, sống nhờ thuyền lương, mất lương thì phải tự rút qua đúng con sông đã chờ sẵn."
  },
  {
-  "n": 181030,
+  "n": 181027,
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",
-  "text": "Mấy chiếc thuyền nhỏ bỏ chạy hôm ấy đã dẫn cả hạm đội nhà Nguyên vào chỗ chết trên sông Bạch Đằng. Cảm ơn bạn đã lắng nghe câu chuyện này.",
-  "hien": "Mấy chiếc thuyền nhỏ bỏ chạy hôm ấy đã dẫn cả hạm đội nhà Nguyên vào chỗ chết trên sông Bạch Đằng. Cảm ơn bạn đã lắng nghe câu chuyện này."
+  "text": "Người nói năm nay đánh giặc nhàn đã đợi giặc ở đúng con sông cũ của Ngô Quyền. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Người nói năm nay đánh giặc nhàn đã đợi giặc ở đúng con sông cũ của Ngô Quyền. Cảm ơn bạn đã lắng nghe câu chuyện này."
  }
 ]

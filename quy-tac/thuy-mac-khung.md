@@ -1,5 +1,8 @@
 # Khung kịch bản cố định của series thủy mặc (chủ kênh duyệt 17/11/2026)
 
+> **Bài mẫu:** `quy-tac/thuy-mac-mau.md` (tm5 bản 9, chủ kênh duyệt 17/11/2026). Viết tập mới thì đặt từng nhịp cạnh bài mẫu để so.
+
+
 Mọi tập đều viết theo một khung nhịp giống nhau, để điểm nhấn luôn nằm ở cùng chỗ và chủ kênh không phải duyệt lại bố cục mỗi lần. Khung này đứng trên các quy tắc lời kể ở `quy-tac/thuy-mac.md` mục 3. Hai file không mâu thuẫn: khung quyết định đoạn nào làm gì, mục 3 quyết định viết câu thế nào.
 
 ## 1. Khung nhịp

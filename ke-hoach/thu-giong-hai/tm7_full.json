@@ -4,115 +4,91 @@
   "chuong": 1,
   "nhip": "hook1",
   "tone": "story",
-  "text": "Mấy vạn quân giặc đang chờ một tiếng súng hiệu. Hễ súng nổ, tất cả sẽ cùng ập vào một toán quân nhỏ phía trước.",
-  "hien": "Mấy vạn quân giặc đang chờ một tiếng súng hiệu. Hễ súng nổ, tất cả sẽ cùng ập vào một toán quân nhỏ phía trước."
+  "text": "Nếu biết trước ám hiệu tấn công của một đạo quân đông gấp nhiều lần mình, bạn sẽ làm gì với bí mật ấy?",
+  "hien": "Nếu biết trước ám hiệu tấn công của một đạo quân đông gấp nhiều lần mình, bạn sẽ làm gì với bí mật ấy?"
  },
  {
   "n": 182002,
   "chuong": 1,
   "nhip": "hook2",
   "tone": "story",
-  "text": "Nhưng tiếng súng ấy không vang lên. Đội quân đông gấp nhiều lần cứ thế bước vào giữa một vùng ruộng lầy im phăng phắc.",
-  "hien": "Nhưng tiếng súng ấy không vang lên. Đội quân đông gấp nhiều lần cứ thế bước vào giữa một vùng ruộng lầy im phăng phắc."
+  "text": "Năm ấy, nghĩa quân Lam Sơn đã chọn một cách lạ: họ nằm im. Không một tiếng động, không một bóng người, giữa một vùng ruộng lầy.",
+  "hien": "Năm ấy, nghĩa quân Lam Sơn đã chọn một cách lạ: họ nằm im. Không một tiếng động, không một bóng người, giữa một vùng ruộng lầy."
  },
  {
   "n": 182003,
   "chuong": 1,
   "nhip": "hook3",
   "tone": "story",
-  "text": "Đó là trận Tốt Động, Chúc Động, giữa quân nhà Minh và nghĩa quân Lam Sơn. Hai viên quan lớn của nhà Minh đã phải trả giá bằng chính mạng mình.",
-  "hien": "Đó là trận Tốt Động, Chúc Động, giữa quân nhà Minh và nghĩa quân Lam Sơn. Hai viên quan lớn của nhà Minh đã phải trả giá bằng chính mạng mình."
+  "text": "Mấy vạn quân nhà Minh cứ thế bước vào. Trận ấy là Tốt Động, Chúc Động, và hai viên quan lớn của nhà Minh đã phải trả giá bằng chính mạng mình.",
+  "hien": "Mấy vạn quân nhà Minh cứ thế bước vào. Trận ấy là Tốt Động, Chúc Động, và hai viên quan lớn của nhà Minh đã phải trả giá bằng chính mạng mình."
  },
  {
   "n": 182004,
   "chuong": 1,
   "nhip": "hook4",
   "tone": "story",
-  "text": "Vậy điều gì đã giữ cho tiếng súng ấy im lặng? Có hai điều: mấy tên do thám bị bắt, và một vùng ruộng lầy được chọn sẵn.",
-  "hien": "Vậy điều gì đã giữ cho tiếng súng ấy im lặng? Có hai điều: mấy tên do thám bị bắt, và một vùng ruộng lầy được chọn sẵn."
+  "text": "Vì sao im lặng lại thắng được đạo quân đông như thế? Có hai thứ làm nên chuyện ấy: mấy tên do thám bị bắt, và một tiếng súng hiệu.",
+  "hien": "Vì sao im lặng lại thắng được đạo quân đông như thế? Có hai thứ làm nên chuyện ấy: mấy tên do thám bị bắt, và một tiếng súng hiệu."
  },
  {
   "n": 182005,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Năm một nghìn bốn trăm linh bảy, nhà Minh chiếm nước ta, đổi tên thành quận Giao Chỉ và đặt quan cai trị.",
-  "hien": "Năm một nghìn bốn trăm linh bảy, nhà Minh chiếm nước ta, đổi tên thành quận Giao Chỉ và đặt quan cai trị."
+  "text": "Năm một nghìn bốn trăm linh bảy, nhà Minh chiếm nước ta. Mười một năm sau, Lê Lợi dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hóa.",
+  "hien": "Năm một nghìn bốn trăm linh bảy, nhà Minh chiếm nước ta. Mười một năm sau, Lê Lợi dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hóa."
  },
  {
   "n": 182006,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Rồi mười một năm sau, Lê Lợi dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hóa. Những năm đầu, nghĩa quân nhiều lần bị vây và phải rút lên núi.",
-  "hien": "Rồi mười một năm sau, Lê Lợi dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hóa. Những năm đầu, nghĩa quân nhiều lần bị vây và phải rút lên núi."
+  "text": "Những năm đầu, nghĩa quân nhiều lần bị vây và phải rút lên núi. Đến năm một nghìn bốn trăm hai mươi sáu, họ đã làm chủ từ Nghệ An trở vào.",
+  "hien": "Những năm đầu, nghĩa quân nhiều lần bị vây và phải rút lên núi. Đến năm một nghìn bốn trăm hai mươi sáu, họ đã làm chủ từ Nghệ An trở vào."
  },
  {
   "n": 182007,
   "chuong": 2,
   "nhip": "goc_re",
   "tone": "story",
-  "text": "Đến năm một nghìn bốn trăm hai mươi sáu, nghĩa quân đã làm chủ từ Nghệ An trở vào. Lê Lợi bắt đầu đưa quân ra bắc.",
-  "hien": "Đến năm một nghìn bốn trăm hai mươi sáu, nghĩa quân đã làm chủ từ Nghệ An trở vào. Lê Lợi bắt đầu đưa quân ra bắc."
+  "text": "Một cánh quân nhỏ do Lý Triện, Đỗ Bí chỉ huy tiến sát thành Đông Quan, tức Thăng Long. Thấy nguy, nhà Minh sai Vương Thông đem thêm năm vạn quân.",
+  "hien": "Một cánh quân nhỏ do Lý Triện, Đỗ Bí chỉ huy tiến sát thành Đông Quan, tức Thăng Long. Thấy nguy, nhà Minh sai Vương Thông đem thêm năm vạn quân."
  },
  {
   "n": 182008,
-  "chuong": 2,
-  "nhip": "goc_re",
+  "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Vì thế, một cánh quân nhỏ do Lý Triện, Đỗ Bí chỉ huy tiến sát thành Đông Quan, tức Thăng Long. Ở Ninh Kiều, họ giết được khoảng hai nghìn quân giặc.",
-  "hien": "Vì thế, một cánh quân nhỏ do Lý Triện, Đỗ Bí chỉ huy tiến sát thành Đông Quan, tức Thăng Long. Ở Ninh Kiều, họ giết được khoảng hai nghìn quân giặc."
+  "text": "Có quân đông trong tay, Vương Thông chia ba đường, tràn ra khỏi thành Đông Quan để đè bẹp cánh quân nhỏ của Lý Triện.",
+  "hien": "Có quân đông trong tay, Vương Thông chia ba đường, tràn ra khỏi thành Đông Quan để đè bẹp cánh quân nhỏ của Lý Triện."
  },
  {
   "n": 182009,
-  "chuong": 2,
-  "nhip": "goc_re",
+  "chuong": 3,
+  "nhip": "the_nguy",
   "tone": "story",
-  "text": "Thấy nguy, nhà Minh vội sai tướng Vương Thông đem thêm năm vạn quân sang. Gộp với quân đóng sẵn, Vương Thông có trong tay nhiều vạn người.",
-  "hien": "Thấy nguy, nhà Minh vội sai tướng Vương Thông đem thêm năm vạn quân sang. Gộp với quân đóng sẵn, Vương Thông có trong tay nhiều vạn người."
+  "text": "Lý Triện giả thua, kéo giặc qua cầu Tam La vào ruộng lầy rồi quay lại đánh. Nhưng quân nhà Minh quá đông, lại dựng hàng rào chông tre chặn lại.",
+  "hien": "Lý Triện giả thua, kéo giặc qua cầu Tam La vào ruộng lầy rồi quay lại đánh. Nhưng quân nhà Minh quá đông, lại dựng hàng rào chông tre chặn lại."
  },
  {
   "n": 182010,
   "chuong": 3,
-  "nhip": "the_nguy",
+  "nhip": "diem_thap",
   "tone": "story",
-  "text": "Có quân đông trong tay, Vương Thông chia làm ba đường, kéo ra khỏi thành Đông Quan, nhắm vào cánh quân nhỏ của Lý Triện.",
-  "hien": "Có quân đông trong tay, Vương Thông chia làm ba đường, kéo ra khỏi thành Đông Quan, nhắm vào cánh quân nhỏ của Lý Triện."
+  "text": "Voi chiến của nghĩa quân giẫm phải chông, quay đầu chạy loạn. Nhìn lúc ấy, cánh quân nhỏ của Lý Triện tưởng như sắp bị nghiền nát.",
+  "hien": "Voi chiến của nghĩa quân giẫm phải chông, quay đầu chạy loạn. Nhìn lúc ấy, cánh quân nhỏ của Lý Triện tưởng như sắp bị nghiền nát."
  },
  {
   "n": 182011,
-  "chuong": 3,
-  "nhip": "the_nguy",
+  "chuong": 4,
+  "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Lý Triện giả thua, lui qua cầu Tam La vào một vùng ruộng lầy. Quân nhà Minh đuổi theo và sa xuống bùn, rồi bị phục binh đổ ra đánh.",
-  "hien": "Lý Triện giả thua, lui qua cầu Tam La vào một vùng ruộng lầy. Quân nhà Minh đuổi theo và sa xuống bùn, rồi bị phục binh đổ ra đánh."
+  "text": "Đinh Lễ và Nguyễn Xí đem ba nghìn quân cùng hai con voi tới cứu, mà vẫn ít hơn giặc nhiều lần.",
+  "hien": "Đinh Lễ và Nguyễn Xí đem ba nghìn quân cùng hai con voi tới cứu, mà vẫn ít hơn giặc nhiều lần."
  },
  {
   "n": 182012,
-  "chuong": 3,
-  "nhip": "the_nguy",
-  "tone": "story",
-  "text": "Đó là lần đầu vùng ruộng lầy giúp nghĩa quân. Nhưng quân nhà Minh vẫn còn rất đông, và họ dựng hàng rào chông tre để chặn lại.",
-  "hien": "Đó là lần đầu vùng ruộng lầy giúp nghĩa quân. Nhưng quân nhà Minh vẫn còn rất đông, và họ dựng hàng rào chông tre để chặn lại."
- },
- {
-  "n": 182013,
-  "chuong": 3,
-  "nhip": "diem_thap",
-  "tone": "story",
-  "text": "Voi chiến của nghĩa quân giẫm phải chông, quay đầu chạy loạn. Thế trận đổi chiều, tưởng như quân nhà Minh sắp thắng.",
-  "hien": "Voi chiến của nghĩa quân giẫm phải chông, quay đầu chạy loạn. Thế trận đổi chiều, tưởng như quân nhà Minh sắp thắng."
- },
- {
-  "n": 182014,
-  "chuong": 3,
-  "nhip": "diem_thap",
-  "tone": "story",
-  "text": "Lý Triện, Đỗ Bí gửi tin xin cứu viện gấp. Đinh Lễ, Nguyễn Xí đem ba nghìn quân cùng hai con voi tới, mà vẫn ít hơn giặc nhiều lần.",
-  "hien": "Lý Triện, Đỗ Bí gửi tin xin cứu viện gấp. Đinh Lễ, Nguyễn Xí đem ba nghìn quân cùng hai con voi tới, mà vẫn ít hơn giặc nhiều lần."
- },
- {
-  "n": 182015,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
@@ -120,87 +96,79 @@
   "hien": "Đúng lúc ấy, nghĩa quân bắt được mấy tên do thám của giặc. Từ miệng chúng, kế hoạch của Vương Thông lộ ra hết."
  },
  {
-  "n": 182016,
+  "n": 182013,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Vương Thông đóng quân ở Ninh Kiều. Ông định cho quân chính vượt sông đánh thẳng vào, còn một cánh khác lén vòng ra sau lưng nghĩa quân.",
-  "hien": "Vương Thông đóng quân ở Ninh Kiều. Ông định cho quân chính vượt sông đánh thẳng vào, còn một cánh khác lén vòng ra sau lưng nghĩa quân."
+  "text": "Quân chính của giặc sẽ vượt sông đánh thẳng vào, còn một cánh khác lén vòng ra sau lưng nghĩa quân.",
+  "hien": "Quân chính của giặc sẽ vượt sông đánh thẳng vào, còn một cánh khác lén vòng ra sau lưng nghĩa quân."
  },
  {
-  "n": 182017,
+  "n": 182014,
   "chuong": 4,
   "nhip": "buoc_ngoat",
   "tone": "story",
-  "text": "Ám hiệu là tiếng súng. Hễ nghe súng nổ, cả đạo quân cùng xông vào, dồn tên bắn vào trận của nghĩa quân.",
-  "hien": "Ám hiệu là tiếng súng. Hễ nghe súng nổ, cả đạo quân cùng xông vào, dồn tên bắn vào trận của nghĩa quân."
+  "text": "Ám hiệu là tiếng súng: hễ súng nổ, tất cả cùng xông vào. Thứ đầu tiên là thế, bí mật của giặc đã nằm trong tay Lam Sơn.",
+  "hien": "Ám hiệu là tiếng súng: hễ súng nổ, tất cả cùng xông vào. Thứ đầu tiên là thế, bí mật của giặc đã nằm trong tay Lam Sơn."
  },
  {
-  "n": 182018,
-  "chuong": 4,
-  "nhip": "buoc_ngoat",
-  "tone": "story",
-  "text": "Mấy tên do thám là điều đầu tiên giữ cho tiếng súng im. Biết trước ám hiệu, Đinh Lễ và Lý Triện ra lệnh cho quân giữ im lặng tuyệt đối.",
-  "hien": "Mấy tên do thám là điều đầu tiên giữ cho tiếng súng im. Biết trước ám hiệu, Đinh Lễ và Lý Triện ra lệnh cho quân giữ im lặng tuyệt đối."
- },
- {
-  "n": 182019,
+  "n": 182015,
   "chuong": 5,
   "nhip": "lan1",
   "tone": "story",
-  "text": "Điều thứ hai là ruộng lầy. Nghĩa quân phục sẵn ở Tốt Động và Chúc Động, hai làng nằm ven cánh đồng lầy, rồi nằm im chờ.",
-  "hien": "Điều thứ hai là ruộng lầy. Nghĩa quân phục sẵn ở Tốt Động và Chúc Động, hai làng nằm ven cánh đồng lầy, rồi nằm im chờ."
+  "text": "Biết trước tiếng súng sẽ là hiệu lệnh, Đinh Lễ và Lý Triện chọn điều ngược lại: không một tiếng động nào được phát ra.",
+  "hien": "Biết trước tiếng súng sẽ là hiệu lệnh, Đinh Lễ và Lý Triện chọn điều ngược lại: không một tiếng động nào được phát ra."
+ },
+ {
+  "n": 182016,
+  "chuong": 5,
+  "nhip": "lan1",
+  "tone": "story",
+  "text": "Nghĩa quân phục sẵn ở Tốt Động và Chúc Động, hai làng nằm ven cánh đồng lầy, rồi nằm im chờ. Thứ hai là chính sự im lặng ấy.",
+  "hien": "Nghĩa quân phục sẵn ở Tốt Động và Chúc Động, hai làng nằm ven cánh đồng lầy, rồi nằm im chờ. Thứ hai là chính sự im lặng ấy."
+ },
+ {
+  "n": 182017,
+  "chuong": 6,
+  "nhip": "lang",
+  "tone": "story",
+  "text": "Quân nhà Minh đi tới. Không nghe súng nổ, không thấy bóng người, họ cho rằng quanh đó không có quân Lam Sơn, liền đi tắt cho nhanh.",
+  "hien": "Quân nhà Minh đi tới. Không nghe súng nổ, không thấy bóng người, họ cho rằng quanh đó không có quân Lam Sơn, liền đi tắt cho nhanh."
+ },
+ {
+  "n": 182018,
+  "chuong": 6,
+  "nhip": "lang",
+  "tone": "story",
+  "text": "Con đường tắt dẫn thẳng vào giữa ruộng lầy. Đội quân đông đảo dàn dài ra trong bùn, càng đi càng xa thành, chung quanh vẫn im phăng phắc.",
+  "hien": "Con đường tắt dẫn thẳng vào giữa ruộng lầy. Đội quân đông đảo dàn dài ra trong bùn, càng đi càng xa thành, chung quanh vẫn im phăng phắc."
+ },
+ {
+  "n": 182019,
+  "chuong": 6,
+  "nhip": "cao_trao",
+  "tone": "story",
+  "text": "Rồi phục binh ập ra từ hai làng. Quân nhà Minh bị kẹp giữa, dồn chạy về phía sông, người chết đuối không đếm xuể.",
+  "hien": "Rồi phục binh ập ra từ hai làng. Quân nhà Minh bị kẹp giữa, dồn chạy về phía sông, người chết đuối không đếm xuể."
  },
  {
   "n": 182020,
   "chuong": 6,
-  "nhip": "lang",
+  "nhip": "cao_trao",
   "tone": "story",
-  "text": "Quân nhà Minh đi tới, không nghe súng nổ, cũng không thấy bóng người. Họ cho rằng quanh đó không có quân Lam Sơn, liền đi tắt cho nhanh.",
-  "hien": "Quân nhà Minh đi tới, không nghe súng nổ, cũng không thấy bóng người. Họ cho rằng quanh đó không có quân Lam Sơn, liền đi tắt cho nhanh."
+  "text": "Sử ta chép giặc chết và bị bắt mấy vạn người. Sử nhà Minh chép ít hơn, nhưng cũng nhận hai, ba vạn người chết.",
+  "hien": "Sử ta chép giặc chết và bị bắt mấy vạn người. Sử nhà Minh chép ít hơn, nhưng cũng nhận hai, ba vạn người chết."
  },
  {
   "n": 182021,
   "chuong": 6,
-  "nhip": "lang",
+  "nhip": "chi_tiet_nguoi",
   "tone": "story",
-  "text": "Nhưng con đường tắt ấy dẫn thẳng vào giữa ruộng lầy, nơi phục binh đã chờ sẵn ở cả hai bên.",
-  "hien": "Nhưng con đường tắt ấy dẫn thẳng vào giữa ruộng lầy, nơi phục binh đã chờ sẵn ở cả hai bên."
+  "text": "Hai viên quan lớn của nhà Minh là Trần Hiệp và Lý Lượng chết giữa trận. Vương Thông bị thương, cùng tàn quân chạy ngược về thành Đông Quan.",
+  "hien": "Hai viên quan lớn của nhà Minh là Trần Hiệp và Lý Lượng chết giữa trận. Vương Thông bị thương, cùng tàn quân chạy ngược về thành Đông Quan."
  },
  {
   "n": 182022,
-  "chuong": 6,
-  "nhip": "lang",
-  "tone": "story",
-  "text": "Đội quân đông đảo ấy dàn dài ra giữa ruộng lầy, càng đi càng xa thành, và chung quanh vẫn không có một tiếng động nào.",
-  "hien": "Đội quân đông đảo ấy dàn dài ra giữa ruộng lầy, càng đi càng xa thành, và chung quanh vẫn không có một tiếng động nào."
- },
- {
-  "n": 182023,
-  "chuong": 6,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Lập tức, phục binh đổ ra từ hai làng. Quân nhà Minh bị kẹp giữa, chạy dồn về phía sông, rất nhiều người chết đuối.",
-  "hien": "Lập tức, phục binh đổ ra từ hai làng. Quân nhà Minh bị kẹp giữa, chạy dồn về phía sông, rất nhiều người chết đuối."
- },
- {
-  "n": 182024,
-  "chuong": 6,
-  "nhip": "cao_trao",
-  "tone": "story",
-  "text": "Theo sử ta, quân nhà Minh chết và bị bắt mấy vạn người. Sử nhà Minh chép ít hơn, nhưng cũng nhận hai, ba vạn người chết.",
-  "hien": "Theo sử ta, quân nhà Minh chết và bị bắt mấy vạn người. Sử nhà Minh chép ít hơn, nhưng cũng nhận hai, ba vạn người chết."
- },
- {
-  "n": 182025,
-  "chuong": 6,
-  "nhip": "chi_tiet_nguoi",
-  "tone": "story",
-  "text": "Hai viên quan lớn của nhà Minh là Trần Hiệp và Lý Lượng đều chết trong trận này. Vương Thông cũng bị thương, cùng tàn quân chạy về thành Đông Quan.",
-  "hien": "Hai viên quan lớn của nhà Minh là Trần Hiệp và Lý Lượng đều chết trong trận này. Vương Thông cũng bị thương, cùng tàn quân chạy về thành Đông Quan."
- },
- {
-  "n": 182026,
   "chuong": 7,
   "nhip": "don_cuoi",
   "tone": "story",
@@ -208,27 +176,19 @@
   "hien": "Nghe tin thắng lớn, Lê Lợi kéo đại quân từ Nghệ An ra bắc, vây chặt thành Đông Quan."
  },
  {
-  "n": 182027,
-  "chuong": 7,
-  "nhip": "don_cuoi",
-  "tone": "story",
-  "text": "Thế là đội quân sang để giữ đất lại bị nhốt trong thành. Từ đây, Vương Thông chỉ còn trông vào quân cứu viện từ phương bắc.",
-  "hien": "Thế là đội quân sang để giữ đất lại bị nhốt trong thành. Từ đây, Vương Thông chỉ còn trông vào quân cứu viện từ phương bắc."
- },
- {
-  "n": 182028,
+  "n": 182023,
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",
-  "text": "Mấy tên do thám đã để lộ ám hiệu, còn vùng ruộng lầy thì nuốt trọn đường đi tắt của giặc.",
-  "hien": "Mấy tên do thám đã để lộ ám hiệu, còn vùng ruộng lầy thì nuốt trọn đường đi tắt của giặc."
+  "text": "Vương Thông sang để giữ đất cho nhà Minh, rốt cuộc lại bị nhốt ngay trong tòa thành mình phải giữ.",
+  "hien": "Vương Thông sang để giữ đất cho nhà Minh, rốt cuộc lại bị nhốt ngay trong tòa thành mình phải giữ."
  },
  {
-  "n": 182029,
+  "n": 182024,
   "chuong": 8,
   "nhip": "ket",
   "tone": "story",
-  "text": "Tiếng súng hiệu không bao giờ nổ, và mấy vạn quân nhà Minh đã tự bước vào ruộng lầy Tốt Động. Cảm ơn bạn đã lắng nghe câu chuyện này.",
-  "hien": "Tiếng súng hiệu không bao giờ nổ, và mấy vạn quân nhà Minh đã tự bước vào ruộng lầy Tốt Động. Cảm ơn bạn đã lắng nghe câu chuyện này."
+  "text": "Một tiếng súng hiệu không bao giờ nổ đã đưa mấy vạn quân nhà Minh vào ruộng lầy Tốt Động. Cảm ơn bạn đã lắng nghe câu chuyện này.",
+  "hien": "Một tiếng súng hiệu không bao giờ nổ đã đưa mấy vạn quân nhà Minh vào ruộng lầy Tốt Động. Cảm ơn bạn đã lắng nghe câu chuyện này."
  }
 ]

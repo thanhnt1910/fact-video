@@ -1,101 +1,104 @@
 {
  "ma": "tm6",
  "soi_chi": [
-  "thuyền lương",
-  "lương"
+  "lương",
+  "nhàn",
+  "thứ đầu tiên",
+  "thứ hai"
  ],
  "ten": "Bạch Đằng 1288",
  "n_hua": 2,
- "loi_hua": "hai điều đẩy Ô Mã Nhi tới Bạch Đằng",
+ "loi_hua": "hai thứ: một đoàn thuyền lương và một con sông cũ",
+ "cau_hoi": "Câu \"năm nay đánh giặc nhàn\" là lời trấn an hay Trần Quốc Tuấn đã nhìn thấy điều gì?",
  "hinh_anh": [
-  "thuyền nhỏ"
+  "nhàn"
  ],
  "dem": [
-  "điều đầu tiên",
-  "điều thứ hai"
+  "thứ đầu tiên",
+  "thứ hai"
  ],
  "nhip": [
   {
    "nhip": "hook1",
-   "su_viec": "Hàng trăm chiến thuyền giặc xuôi một dòng sông lớn, đuổi theo mấy chiếc thuyền nhỏ đang bỏ chạy",
+   "su_viec": "Câu hỏi: giặc sang lần thứ ba, đông hơn, bạn có dám nói năm nay đánh giặc nhàn không?",
    "nguon": "Toàn thư",
    "doan": 1
   },
   {
    "nhip": "hook2",
-   "su_viec": "Mấy chiếc thuyền nhỏ không chạy trốn mà đang dẫn đường vào nơi đã chuẩn bị",
-   "nguon": "Toàn thư",
+   "su_viec": "Trần Quốc Tuấn đã đáp đúng như vậy",
+   "nguon": "Toàn thư (CẦN đối chiếu câu chữ)",
    "doan": 1
   },
   {
    "nhip": "hook3",
-   "su_viec": "Sông Bạch Đằng; hạm đội của Ô Mã Nhi, tướng nhà Nguyên, sắp mất cả hạm đội lẫn tự do",
+   "su_viec": "Mấy tháng sau kinh thành lại bỏ trống, lăng vua bị phá, hạm đội giặc tung hoành",
    "nguon": "Toàn thư",
    "doan": 1
   },
   {
    "nhip": "hook4",
-   "su_viec": "Vì sao Ô Mã Nhi có mặt ở đó? Hai điều: một đoàn thuyền lương, và một con sông được chọn sẵn",
+   "su_viec": "Lời trấn an hay nhìn thấy điều gì? Hai thứ: thuyền lương và con sông cũ",
    "nguon": "lời hứa",
    "doan": 1
   },
   {
    "nhip": "goc_re",
-   "su_viec": "Thua năm 1285, Hốt Tất Liệt không chịu thôi → cuối 1287 Thoát Hoan sang lần nữa → vua hỏi, Trần Quốc Tuấn đáp \"năm nay đánh giặc nhàn\" → lần này giặc sang cả đường biển: chiến thuyền Ô Mã Nhi đi trước, thuyền lương Trương Văn Hổ nặng nề đi sau",
+   "su_viec": "Hốt Tất Liệt không thôi, Thoát Hoan sang lần nữa; Ô Mã Nhi đi trước, thuyền lương Trương Văn Hổ chậm phía sau, là thứ quý nhất của đạo quân",
    "nguon": "Toàn thư",
-   "doan": 4
+   "doan": 3
   },
   {
    "nhip": "the_nguy",
-   "su_viec": "Ở Vân Đồn, Trần Khánh Dư đánh không lại chiến thuyền Ô Mã Nhi; chiến thuyền giặc đi qua để hội quân với Thoát Hoan",
+   "su_viec": "Vân Đồn: Trần Khánh Dư thua trận đầu; chiến thuyền giặc lọt vào; Khánh Dư bị sai bắt về kinh xét tội",
    "nguon": "Toàn thư",
    "doan": 2
   },
   {
    "nhip": "diem_thap",
-   "su_viec": "Vì để giặc lọt qua, Trần Khánh Dư bị Thượng hoàng sai người bắt về kinh xét tội; cửa biển như đã mất",
-   "nguon": "Toàn thư",
+   "su_viec": "Cửa biển như đã mất, câu đánh giặc nhàn nghe như nói quá",
+   "nguon": "Toàn thư; câu sau là diễn giải",
    "doan": 1
   },
   {
    "nhip": "buoc_ngoat",
-   "su_viec": "Ông xin hoãn ít ngày để lập công; đoàn thuyền lương tới sau bị ông chặn đánh tan ở Vân Đồn, lương và khí giới bắt được nhiều không kể xiết (điều đầu tiên)",
+   "su_viec": "Khánh Dư xin hoãn để lập công; thuyền lương tới, bị đánh tan ở Vân Đồn (thứ đầu tiên)",
    "nguon": "Toàn thư",
    "doan": 3
   },
   {
    "nhip": "lan1",
-   "su_viec": "Thoát Hoan vào Thăng Long bỏ trống mà không có lương → tỏa đi cướp, Ô Mã Nhi phá lăng vua Trần Thái Tông → càng cướp càng bị đánh úp, mùa hè sắp tới → quyết định rút: quân bộ qua Lạng Sơn, chiến thuyền theo sông Bạch Đằng, nơi Ngô Quyền từng thắng (điều thứ hai)",
+   "su_viec": "Thoát Hoan chiếm Thăng Long bỏ trống, không lương; Ô Mã Nhi phá lăng vua Trần Thái Tông; giặc đói, rút; chiến thuyền theo Bạch Đằng, con sông cũ của Ngô Quyền (thứ hai)",
    "nguon": "Toàn thư",
    "doan": 6
   },
   {
    "nhip": "lang",
-   "su_viec": "Trần Quốc Tuấn cho đóng cọc phủ cỏ; ngày mồng tám tháng Ba thủy triều đang lên, nước phủ kín cọc; toán thuyền nhỏ đánh nhử, hạm đội giặc đuổi theo",
+   "su_viec": "Đóng cọc phủ cỏ; ngày mồng tám tháng Ba, thuyền nhỏ đánh nhử, hạm đội giặc đuổi theo",
    "nguon": "Toàn thư",
-   "doan": 3
+   "doan": 2
   },
   {
    "nhip": "chi_tiet_nguoi",
-   "su_viec": "Trần Quốc Tuấn chỉ xuống sông thề: trận này không phá xong giặc Nguyên thì không về đến sông này nữa",
+   "su_viec": "Trần Quốc Tuấn chỉ xuống sông thề",
    "nguon": "Toàn thư",
    "doan": 1
   },
   {
    "nhip": "cao_trao",
-   "su_viec": "Thủy triều rút xuống, cọc nhô lên, thuyền giặc mắc cọc vỡ; quân Đại Việt từ hai bờ và trên sông đổ ra; bắt Ô Mã Nhi, Phàn Tiếp, Tích Lệ Cơ, hơn bốn trăm thuyền",
+   "su_viec": "Thủy triều rút, thuyền mắc cọc; quân Đại Việt đổ ra; hơn bốn trăm thuyền bị bắt; Ô Mã Nhi, người phá lăng vua, bị bắt sống",
    "nguon": "Toàn thư",
    "doan": 3
   },
   {
    "nhip": "don_cuoi",
-   "su_viec": "Thoát Hoan rút đường bộ bị chặn đánh suốt đường, chạy qua biên giới, từ đó quân nhà Nguyên không sang nữa",
+   "su_viec": "Thoát Hoan chạy qua biên giới, quân nhà Nguyên không sang nữa",
    "nguon": "Toàn thư",
    "doan": 1
   },
   {
    "nhip": "ket",
-   "su_viec": "Giải nghĩa \"đánh giặc nhàn\"; câu kết: mấy chiếc thuyền nhỏ đã dẫn cả hạm đội vào chỗ chết",
+   "su_viec": "Giải nghĩa đánh giặc nhàn; câu kết: người nói câu ấy đợi giặc ở con sông cũ của Ngô Quyền",
    "nguon": "diễn giải của người kể",
    "doan": 2
   }

@@ -23,7 +23,7 @@ S=[
 ('lan2',"Trong đoàn quân ấy có Trần Quốc Toản, một tướng trẻ chưa tới hai mươi tuổi, giương lá cờ tự làm đề sáu chữ: phá cường địch, báo hoàng ân."),
 ('lan2',"Thắng ở Chương Dương, quân Đại Việt đuổi một mạch tới chân thành. Quân nhà Nguyên bỏ Thăng Long, rút qua sông về phía bắc."),
 ('lan2',"Thế là hai đầu gọng kìm đã bị chặt rời. Toa Đô bị bỏ lại phía nam một mình, không còn ai để hợp sức."),
-('lang',"Nhưng trận lớn nhất còn ở phía trước. Đạo quân của Toa Đô đã đánh hai năm ở Chiêm Thành, đánh dọc từ Nghệ An ra, và vẫn còn đông, còn rất hung hãn."),
+('lang',"Nhưng trận lớn nhất còn ở phía trước. Đánh hai năm ở Chiêm Thành rồi đánh dọc từ Nghệ An ra, đạo quân của Toa Đô vẫn còn đông, còn rất hung hãn."),
 ('cao_trao',"Tháng Năm, chính hai vua Trần tự cầm quân, vây kín doanh trại của Toa Đô ở Tây Kết, bến sông thứ ba."),
 ('cao_trao',"Doanh trại vỡ. Toa Đô bị chém đầu ngay giữa trận, còn Ô Mã Nhi chỉ kịp chạy thoát ra biển."),
 ('chi_tiet_nguoi',"Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm."),

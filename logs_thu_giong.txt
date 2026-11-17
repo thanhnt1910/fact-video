@@ -15,90 +15,94 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
-còn thiếu 34 câu
+còn thiếu 32 câu
    [gemini] dùng gemini-3.8-flash-tts (interactions)
    [giọng] ĐÃ KHÓA model cho video: gemini-3.8-flash-tts (interactions)
-   [giọng] nhóm 179001-179001: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:04
-OK cụm 179001 - 179001 5.5 giây
-   [giọng] nhóm 179002-179002: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:09
-OK cụm 179002 - 179002 7.4 giây
-   [giọng] nhóm 179003-179003: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:13
-OK cụm 179003 - 179003 5.2 giây
-   [giọng] nhóm 179004-179004: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:17
-OK cụm 179004 - 179004 7.0 giây
+   [giọng] nhóm 180001-180001: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:52:50
+OK cụm 180001 - 180001 5.8 giây
+   [giọng] nhóm 180002-180002: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:52:54
+OK cụm 180002 - 180002 6.2 giây
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 42s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 179005-179005: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:21
-OK cụm 179005 - 179005 7.1 giây
-   [giọng] nhóm 179006-179006: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:25
-OK cụm 179006 - 179006 7.9 giây
-   [giọng] nhóm 179007-179007: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:29
-OK cụm 179007 - 179007 8.8 giây
-   [giọng] nhóm 179008-179008: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:33
-OK cụm 179008 - 179008 7.3 giây
-   [giọng] nhóm 179009-179009: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:36
-OK cụm 179009 - 179009 8.0 giây
-   [giọng] nhóm 179010-179010: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:41
-OK cụm 179010 - 179010 8.8 giây
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h5m8s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180003-180003: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:54:55
+OK cụm 180003 - 180003 9.7 giây
+   [giọng] nhóm 180004-180004: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:55:37
+OK cụm 180004 - 180004 8.3 giây
+   [gemini] gemini-3.8-flash-tts báo: HTTP 503: {"error":{"message":"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.","code":"service_unavailable"}}
+   [gemini] gemini-3.8-flash-tts bận/giới hạn, đợi 15s…
    [gemini] khóa …DmvQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 18s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 179011-179011: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:44
-OK cụm 179011 - 179011 6.1 giây
-   [giọng] nhóm 179012-179012: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:48
-OK cụm 179012 - 179012 7.6 giây
-   [giọng] nhóm 179013-179013: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:52
-OK cụm 179013 - 179013 8.1 giây
-   [giọng] nhóm 179014-179014: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:28:56
-OK cụm 179014 - 179014 6.3 giây
-   [giọng] nhóm 179015-179015: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:00
-OK cụm 179015 - 179015 5.6 giây
-   [giọng] nhóm 179016-179016: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:04
-OK cụm 179016 - 179016 6.1 giây
+   [gemini] chi tiết …DmvQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h3m17s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180005-180005: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:56:46
+OK cụm 180005 - 180005 8.0 giây
+   [giọng] nhóm 180006-180006: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:56:51
+OK cụm 180006 - 180006 8.4 giây
+   [giọng] nhóm 180007-180007: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:57:25
+OK cụm 180007 - 180007 10.2 giây
    [gemini] khóa …2eGQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …2eGQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 55s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 179017-179017: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:08
-OK cụm 179017 - 179017 9.2 giây
-   [giọng] nhóm 179018-179018: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:13
-OK cụm 179018 - 179018 9.4 giây
-   [giọng] nhóm 179019-179019: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:16
-OK cụm 179019 - 179019 5.3 giây
-   [giọng] nhóm 179020-179020: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:20
-OK cụm 179020 - 179020 6.7 giây
+   [gemini] chi tiết …2eGQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h2m34s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180008-180008: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:57:29
+OK cụm 180008 - 180008 9.2 giây
+   [giọng] nhóm 180009-180009: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:57:47
+OK cụm 180009 - 180009 8.2 giây
+   [giọng] nhóm 180010-180010: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:57:51
+OK cụm 180010 - 180010 7.3 giây
+   [giọng] nhóm 180011-180011: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:57:55
+OK cụm 180011 - 180011 10.1 giây
    [gemini] khóa …xfFA hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …xfFA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 39s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 179021-179021: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:24
-OK cụm 179021 - 179021 7.4 giây
-   [giọng] nhóm 179022-179022: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:28
-OK cụm 179022 - 179022 7.2 giây
-   [giọng] nhóm 179023-179023: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:32
-OK cụm 179023 - 179023 7.1 giây
-   [giọng] nhóm 179024-179024: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:36
-OK cụm 179024 - 179024 5.7 giây
+   [gemini] chi tiết …xfFA / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h2m3s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180012-180012: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:58:01
+OK cụm 180012 - 180012 9.6 giây
+   [giọng] nhóm 180013-180013: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:58:04
+OK cụm 180013 - 180013 7.6 giây
+   [giọng] nhóm 180014-180014: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:58:37
+OK cụm 180014 - 180014 7.3 giây
+   [giọng] nhóm 180015-180015: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:58:41
+OK cụm 180015 - 180015 9.0 giây
    [gemini] khóa …XVkg hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …XVkg / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 23s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 179025-179025: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:41
-OK cụm 179025 - 179025 8.7 giây
-   [giọng] nhóm 179026-179026: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:44
-OK cụm 179026 - 179026 7.4 giây
-   [giọng] nhóm 179027-179027: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:48
-OK cụm 179027 - 179027 5.9 giây
-   [giọng] nhóm 179028-179028: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:52
-OK cụm 179028 - 179028 6.0 giây
+   [gemini] chi tiết …XVkg / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 17s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180016-180016: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:06
+OK cụm 180016 - 180016 10.1 giây
+   [giọng] nhóm 180017-180017: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:10
+OK cụm 180017 - 180017 8.7 giây
+   [giọng] nhóm 180018-180018: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:15
+OK cụm 180018 - 180018 6.6 giây
    [gemini] khóa …6oKQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
-   [gemini] chi tiết …6oKQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 7s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
-   [giọng] nhóm 179029-179029: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:29:56
-OK cụm 179029 - 179029 8.2 giây
-   [giọng] nhóm 179030-179030: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:30:00
-OK cụm 179030 - 179030 7.3 giây
-   [giọng] nhóm 179031-179031: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:30:05
-OK cụm 179031 - 179031 8.5 giây
-   [giọng] nhóm 179032-179032: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:30:08
-OK cụm 179032 - 179032 7.0 giây
-   [giọng] nhóm 179033-179033: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:30:14
-OK cụm 179033 - 179033 7.1 giây
-   [giọng] nhóm 179034-179034: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 10:30:17
-OK cụm 179034 - 179034 7.4 giây
-[báo cáo giọng] 34/34 đoạn có nhật ký tạo giọng
+   [gemini] chi tiết …6oKQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h44s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180019-180019: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:20
+OK cụm 180019 - 180019 8.9 giây
+   [giọng] nhóm 180020-180020: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:40
+OK cụm 180020 - 180020 8.7 giây
+   [giọng] nhóm 180021-180021: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:45
+OK cụm 180021 - 180021 9.3 giây
+   [gemini] khóa …Qvug hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …Qvug / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 16h14s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180022-180022: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:49
+OK cụm 180022 - 180022 9.0 giây
+   [giọng] nhóm 180023-180023: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:54
+OK cụm 180023 - 180023 9.6 giây
+   [giọng] nhóm 180024-180024: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 15:59:59
+OK cụm 180024 - 180024 9.2 giây
+   [giọng] nhóm 180025-180025: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:06
+OK cụm 180025 - 180025 10.7 giây
+   [giọng] nhóm 180026-180026: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:10
+OK cụm 180026 - 180026 6.5 giây
+   [gemini] khóa …S_3g hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …S_3g / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 3 requests per minute on Free Tier). Please retry in 48s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
+   [giọng] nhóm 180027-180027: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:15
+OK cụm 180027 - 180027 8.2 giây
+   [giọng] nhóm 180028-180028: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:19
+OK cụm 180028 - 180028 9.3 giây
+   [giọng] nhóm 180029-180029: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:23
+OK cụm 180029 - 180029 8.6 giây
+   [giọng] nhóm 180030-180030: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:28
+OK cụm 180030 - 180030 9.9 giây
+   [giọng] nhóm 180031-180031: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:32
+OK cụm 180031 - 180031 7.4 giây
+   [giọng] nhóm 180032-180032: model=gemini-3.8-flash-tts (interactions) voice=Charon style=c0565b4d/C dự_phòng=False lúc 2026-11-17 16:00:37
+OK cụm 180032 - 180032 8.9 giây
+[báo cáo giọng] 32/32 đoạn có nhật ký tạo giọng
    model: gemini-3.8-flash-tts
    cach_goi: interactions
    voice: Charon

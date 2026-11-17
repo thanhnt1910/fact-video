@@ -74,6 +74,13 @@ Mẫu: kịch bản `ke-hoach/thu-giong-hai/bd2_full.json` và `ke-hoach/bd2-bac
   - câu ngắn mở bước ngoặt ("Mọi việc tưởng đã xong.");
   - kể chậm trước cao trào, kể dồn sau cao trào;
   - các câu này là lời người kể, không gán ý nghĩ cho nhân vật.
+- **Những dấu hiệu "văn máy" phải bỏ** (chủ kênh chê ở tm3 bản 2):
+  - câu đúc kết chung chung chen giữa mạch kể ("Một đạo quân đông như thế ăn rất nhiều lương", "Phía Đại Việt cũng phải trả giá");
+  - câu khen hay câu bài học ở cuối ("làm hòa lúc đang mạnh mà không phải cúi đầu");
+  - lặp nguyên khuôn câu đếm ("Đó là lần thứ N quân nhà Tống bị chặn" ba lần): mỗi lần đếm phải nói một cách khác;
+  - mở diễn giải bằng "Có thể hiểu vì sao...": nên nói thẳng bằng lời thường ("Sử không chép ông đã nghĩ gì. Nhưng...");
+  - một đoạn truyền thuyết đứng riêng, chen ngang mạch trận đánh: phải gắn vào một khoảng lặng của trận, rồi trở lại bằng câu nối.
+- **Có một sợi chỉ nối mạch:** mỗi đoạn mở bằng hệ quả của đoạn trước. Ví dụ ở tm3: kế hoạch có chỗ yếu, rồi bị đánh đúng vào chỗ yếu, rồi đoàn thuyền không tới, rồi phải tự bắc cầu, rồi không qua được, rồi đứng chờ, đói và bệnh, rồi bị đánh vào trại.
 - **Hình ảnh xuyên suốt** có thể lấy từ một câu nói có thật ("dễ như bẻ cành khô"). Hình ảnh ấy gieo ở hook, hiện lại ở mỗi lần đếm, rồi khép ở câu kết.
 
 ### 3.3 Hồ sơ gửi duyệt

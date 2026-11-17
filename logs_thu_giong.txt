@@ -15,11 +15,13 @@
    [khóa] GEMINI_API_KEY_15: …Snsg
    [khóa] GEMINI_API_KEY_16: trống
    [khóa] GEMINI_API_KEYS: trống
+   [gemini] khóa …g7rQ hết lượt/bị từ chối ('HTTP 429: {"error":{"message":"Rate limit exceeded for model'), đổi khóa
+   [gemini] chi tiết …g7rQ / gemini-3.8-flash-tts: HTTP 429: {"error":{"message":"Rate limit exceeded for model gemini-3.8-flash-tts (limit: 10 requests per day on Free Tier). Please retry in 15h20m28s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}
    [gemini] dùng gemini-3.8-flash-tts (interactions)
-OK chương c183001 (25 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
-[báo cáo giọng] 0/25 đoạn có nhật ký tạo giọng
+OK chương c184001 (24 đoạn) model=gemini-3.8-flash-tts dự_phòng=False
+[báo cáo giọng] 0/24 đoạn có nhật ký tạo giọng
    model: 
    cach_goi: 
    voice: 
    style_id: 
-   25 đoạn không có nhật ký (tạo trước khi có nhật ký): 183001…183025
+   24 đoạn không có nhật ký (tạo trước khi có nhật ký): 184001…184024

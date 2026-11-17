@@ -40,6 +40,24 @@ def align_pause(texts,f):
     idx=[M-1];k=N
     while k>0: idx.append(bk[k][idx[-1]]);k-=1
     idx=idx[::-1];return [(pts[idx[k]][1],pts[idx[k+1]][0]) for k in range(N)]
+_AU={}
+def cut_point(f,e_prev,s_next):
+    """điểm cắt giữa hai đoạn: giữa khoảng lặng dài nhất trong vùng [hết đoạn trước − 0,8 ; đầu đoạn sau + 0,3]"""
+    if f not in _AU:
+        raw=subprocess.run(['ffmpeg','-v','error','-i',f,'-f','f32le','-ac','1','-ar','16000','-'],capture_output=True).stdout
+        x=np.frombuffer(raw,np.float32);fr=x[:len(x)//320*320].reshape(-1,320);_AU[f]=np.sqrt((fr**2).mean(1))
+    e=_AU[f];thr=max(e.max()*.02,np.percentile(e,15)*1.3)
+    i0=max(0,int((min(e_prev,s_next)-.8)*50));i1=min(len(e),int((max(e_prev,s_next)+.3)*50))
+    best=None;i=i0
+    while i<i1:
+        if e[i]<thr:
+            j=i
+            while j<i1 and e[j]<thr: j+=1
+            if best is None or j-i>best[1]-best[0]: best=(i,j)
+            i=j
+        else: i+=1
+    if best is None: return (e_prev+s_next)/2
+    return (best[0]+best[1])/2/50
 def align(texts,words,fd,f=None):
     """mốc (bắt đầu, kết thúc) của từng đoạn trong file chương: khớp chữ kịch bản với chữ nhận dạng"""
     if not words and f: return align_pause(texts,f)
@@ -79,12 +97,14 @@ def setup(ma,gaps,tail=4.5):
             for j in range(1,len(ns)):
                 if gaps.get(inv[ns[j]],0)>0: runs.append([j])
                 else: runs[-1].append(j)
+            cuts=[cut_point(f,sp[run[0]-1][1],sp[run[0]][0]) for run in runs[1:]]   # cắt ở giữa khoảng lặng thật, không theo mốc chữ (mốc chữ hay trễ, làm mất tiếng đầu câu)
             for r,run in enumerate(runs):
                 a0=0 if r==0 else max(sp[run[0]-1][1]+.02,sp[run[0]][0]-.18)
                 b0=fd if r==len(runs)-1 else min(sp[run[-1]][1]+.3,sp[run[-1]+1][0]-.02)
                 t+=gaps.get(inv[ns[run[0]]],0);off=t-a0
                 for j in run: v.T[inv[ns[j]]]=off+sp[j][0];v.E[inv[ns[j]]]=off+sp[j][1]
-                v.CH.append((t,f,a0,b0));t+=b0-a0+.5
+                ca=0 if r==0 else cuts[r-1];cb=fd if r==len(runs)-1 else cuts[r]
+                v.CH.append((t-(a0-ca),f,ca,cb));t+=b0-a0+.5
     else:
         for n in v.TX:
             t+=gaps.get(n,0);v.T[n]=t;d=dur(n);v.E[n]=t+d;t+=d+.45

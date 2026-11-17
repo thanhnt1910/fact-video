@@ -15,7 +15,7 @@ Mở ngay vào khoảnh khắc nguy nhất: vua vừa thua trận, kinh thành s
 1. Thua trận, kinh thành sắp mất, nhà vua ngồi trên thuyền hỏi các quan bây giờ phải làm sao.
 2. Một người không nói gì, chỉ lấy ngón tay viết lên mạn thuyền hai chữ: sang nhà Tống. Ý là bỏ nước mà chạy.
 3. Còn một người khác thì đáp ngược hẳn: đầu thần chưa rơi xuống đất, xin bệ hạ đừng lo.
-4. Nhà vua ấy là Trần Thái Tông. Người viết chữ là Trần Nhật Hiệu, còn người nói câu kia là Thái sư Trần Thủ Độ.
+4. Nhà vua ấy là Trần Thái Tông. Người viết chữ là Trần Nhật Hiệu, còn người nói câu kia là Trần Thủ Độ.
 5. Kẻ thù trước mặt họ là quân Mông Cổ. Vậy câu nói ấy là lời hứa thật, hay chỉ là lời trấn an trong lúc nguy?
 
 **Cách giữ bí mật:** tên người chỉ nói ra ở đoạn 4. Hook không lộ kết cục: câu hỏi cuối để ngỏ lời hứa thật hay giả, tới đoạn 33 mới trả lời bằng sự việc "mười hai ngày sau, kinh thành đã được lấy lại".
@@ -29,7 +29,7 @@ Mở ngay vào khoảnh khắc nguy nhất: vua vừa thua trận, kinh thành s
 1. Thua trận, kinh thành sắp mất, nhà vua ngồi trên thuyền hỏi các quan bây giờ phải làm sao.
 2. Một người không nói gì, chỉ lấy ngón tay viết lên mạn thuyền hai chữ: sang nhà Tống. Ý là bỏ nước mà chạy.
 3. Còn một người khác thì đáp ngược hẳn: đầu thần chưa rơi xuống đất, xin bệ hạ đừng lo.
-4. Nhà vua ấy là Trần Thái Tông. Người viết chữ là Trần Nhật Hiệu, còn người nói câu kia là Thái sư Trần Thủ Độ.
+4. Nhà vua ấy là Trần Thái Tông. Người viết chữ là Trần Nhật Hiệu, còn người nói câu kia là Trần Thủ Độ.
 5. Kẻ thù trước mặt họ là quân Mông Cổ. Vậy câu nói ấy là lời hứa thật, hay chỉ là lời trấn an trong lúc nguy?
 
 ### Chương 2: Vì sao quân Mông Cổ kéo sang (bắt đầu ở 13%)
@@ -40,23 +40,23 @@ Mở ngay vào khoảnh khắc nguy nhất: vua vừa thua trận, kinh thành s
 9. Vì thế, vua Trần Thái Tông sai các tướng thủy bộ ra giữ biên giới, do Trần Quốc Tuấn coi chung. Hai tháng sau, cả nước được lệnh sắm sửa vũ khí.
 10. Rồi cuối năm ấy, quân Mông Cổ vượt biên giới, theo dòng sông Thao đánh xuống vùng đồng bằng.
 
-### Chương 3: Thua ở Bình Lệ Nguyên, mất kinh thành (bắt đầu ở 28%)
+### Chương 3: Thua ở Bình Lệ Nguyên, mất kinh thành (bắt đầu ở 27%)
 
 11. Ngày mười hai tháng Chạp năm ấy, quân Mông Cổ tới Bình Lệ Nguyên, cách kinh thành Thăng Long chừng ba mươi cây số về phía tây bắc.
-12. Vua Trần Thái Tông tự mình ra trận, có cả voi chiến đi theo. Nhưng trước lối đánh của kỵ binh Mông Cổ, quân Đại Việt núng thế rất nhanh.
+12. Vua Trần Thái Tông tự mình ra trận, có cả voi chiến đi theo. Nhưng trận ấy, quân Đại Việt núng thế.
 13. Giữa lúc ấy, chỉ còn tướng Lê Phụ Trần một mình một ngựa xông pha giữa trận. Ông khuyên vua tạm lánh, đừng liều đánh tiếp.
 14. Nghe lời ông, vua cho quân lui về sông Lô, rồi xuống giữ sông Thiên Mạc ở phía dưới kinh thành.
 15. Thế là kinh thành Thăng Long bị bỏ lại phía sau. Vài ngày sau, quân Mông Cổ kéo vào chiếm thành.
 16. Chính trong những ngày ấy, trên thuyền ở sông Thiên Mạc, nhà vua đã hỏi các quan câu hỏi ở đầu câu chuyện.
-17. Vua tới thuyền của em mình là Thái úy Trần Nhật Hiệu. Ông Nhật Hiệu không đứng dậy, chỉ lấy tay viết hai chữ sang nhà Tống.
-18. Rồi vua tới hỏi Thái sư Trần Thủ Độ. Câu trả lời lần này chỉ có một ý: đầu thần chưa rơi xuống đất, xin bệ hạ đừng lo.
+17. Vua tới thuyền của em mình là Trần Nhật Hiệu, người đang coi việc quân. Ông Nhật Hiệu không đứng dậy, chỉ lấy tay viết hai chữ sang nhà Tống.
+18. Rồi vua tới hỏi Trần Thủ Độ, người đứng đầu triều đình. Câu trả lời lần này chỉ có một ý: đầu thần chưa rơi xuống đất, xin bệ hạ đừng lo.
 19. Vậy trong tay nhà Trần lúc ấy còn gì để giữ lời hứa đó?
 
 ### Chương 4: Kinh thành trống, triều đình dưới sông (bắt đầu ở 53%)
 
-20. Vẫn còn khá nhiều. Quân Đại Việt thua một trận nhưng chưa tan, các đoàn thuyền vẫn còn nguyên ở dưới sông.
+20. Vẫn còn khá nhiều. Quân Đại Việt thua một trận nhưng chưa tan, và nhà vua vẫn còn đoàn thuyền ở dưới sông.
 21. Trong khi ấy, quân Mông Cổ vào được một kinh thành gần như trống không. Chúng tàn phá trong thành, nhưng không tìm được bao nhiêu lương thực.
-22. Thêm vào đó, người ngựa phương bắc không quen khí hậu nơi đây. Ở được ít ngày, nhiều người đã bắt đầu ốm.
+22. Thêm vào đó, các nhà nghiên cứu cho rằng quân Mông Cổ không quen khí hậu nơi đây, nên ở được ít ngày đã có nhiều người ốm.
 23. Họ chiếm được kinh thành, nhưng không bắt được vua, cũng không bắt được triều đình. Mà triều đình thì đang ở ngay dưới sông, chờ lúc ra tay.
 
 ### Chương 5: Đông Bộ Đầu (bắt đầu ở 65%)
@@ -65,7 +65,7 @@ Mở ngay vào khoảnh khắc nguy nhất: vua vừa thua trận, kinh thành s
 25. Vua Trần Thái Tông cùng thái tử Trần Hoảng ngồi trên những chiếc thuyền lớn có lầu, đem quân từ sông Thiên Mạc ngược lên phía kinh thành.
 26. Thái tử Trần Hoảng khi ấy mới mười bảy tuổi. Mục tiêu của đoàn thuyền là bến Đông Bộ Đầu, ngay sát kinh thành Thăng Long.
 27. Bến Đông Bộ Đầu nằm bên sông Hồng, gần chỗ cầu Long Biên ngày nay. Đó là nơi quân Mông Cổ đang đóng.
-28. Thế là đoàn thuyền đánh thẳng vào bến. Quân Mông Cổ không kịp trở tay, bị đánh tan ngay tại Đông Bộ Đầu.
+28. Thế là đoàn thuyền đánh thẳng vào bến. Quân Mông Cổ thua to, bị đánh tan ngay tại Đông Bộ Đầu.
 29. Chỉ sau một trận, quân Mông Cổ phải bỏ kinh thành Thăng Long, theo đường cũ rút ngược lên phía Vân Nam.
 
 ### Chương 6: Giặc Phật và lời hứa (bắt đầu ở 82%)
@@ -76,6 +76,36 @@ Mở ngay vào khoảnh khắc nguy nhất: vua vừa thua trận, kinh thành s
 33. Thế là lời của Trần Thủ Độ không chỉ để trấn an. Chỉ mười hai ngày sau trận thua, kinh thành đã được lấy lại.
 34. Và đây mới chỉ là lần đầu tiên Đại Việt đánh lui quân Mông Cổ. Gần ba mươi năm sau, họ còn quay lại thêm hai lần nữa.
 35. Thua một trận, mất cả kinh thành, nhưng nhà Trần chưa thua cuộc chiến. Cảm ơn bạn đã lắng nghe câu chuyện này.
+
+## Rà lại theo quy tắc (17/11/2026, sau khi chủ kênh hỏi)
+Lần rà này tìm ra 7 chỗ chưa đạt, đã sửa cả 7:
+
+1. **Đoạn 12 thêm nguyên nhân không có nguồn.**
+   - Lỗi: câu "trước lối đánh của kỵ binh Mông Cổ, quân Đại Việt núng thế rất nhanh". Toàn thư chỉ chép quân ta núng thế, không chép vì sao hay nhanh chậm. Quy tắc: không khẳng định nguyên nhân chỉ bằng suy luận.
+   - Sửa: "Nhưng trận ấy, quân Đại Việt núng thế."
+2. **Đoạn 28 thêm chi tiết không có nguồn.**
+   - Lỗi: "Quân Mông Cổ không kịp trở tay". Toàn thư chỉ chép "đón đánh, cả phá được".
+   - Sửa: "Quân Mông Cổ thua to".
+3. **Đoạn 20 nói quá điều sử chép.**
+   - Lỗi: "các đoàn thuyền vẫn còn nguyên".
+   - Sửa: "nhà vua vẫn còn đoàn thuyền ở dưới sông". Toàn thư có chép vua ngự lâu thuyền.
+4. **Đoạn 22 đưa nhận định của nhà nghiên cứu thành sự thật.**
+   - Lỗi: chuyện quân Mông Cổ không quen khí hậu, bị ốm không có trong Toàn thư. Quy tắc mục 1: phải phân biệt nhận định của người nghiên cứu với sự kiện.
+   - Sửa: thêm "các nhà nghiên cứu cho rằng".
+5. **Đoạn 4 và 18: chức "Thái sư" chưa giải thích.**
+   - Lỗi: quy tắc yêu cầu chức quan lần đầu nhắc phải kèm cụm giải thích.
+   - Sửa: bỏ chức ở hook; đoạn 18 viết "Trần Thủ Độ, người đứng đầu triều đình".
+6. **Đoạn 17: chức "Thái úy" chưa giải thích.**
+   - Sửa: "Trần Nhật Hiệu, người đang coi việc quân".
+7. **Năm âm lịch và năm dương lịch** (ghi chú, không sửa lời):
+   - Lời đọc nói năm một nghìn hai trăm năm mươi bảy rồi "tháng Chạp", đúng theo năm âm lịch Đinh Tỵ.
+   - Tháng Chạp ấy rơi vào tháng Giêng năm 1258 dương lịch, nên tên video ghi 1258. Không mâu thuẫn, nhưng nếu chủ kênh muốn tránh người xem thắc mắc, có thể thêm "tức đầu năm một nghìn hai trăm năm mươi tám" ở đoạn 24.
+
+**Còn lại nhưng chấp nhận, đã ghi lý do:**
+- Trận thua Bình Lệ Nguyên bắt đầu ở 28% thời lượng (mục tiêu mềm 35–45%), vì phần bối cảnh chỉ có năm đoạn.
+- 5 tên riêng mới trong 25 giây đầu (mục tiêu 4), vì hook cần đủ ba người trong cảnh trên thuyền.
+- Đoạn 22 có một lần nhắc nguồn ("các nhà nghiên cứu cho rằng"), trong giới hạn một hai lần mà mục 3.4 cho phép.
+- Đoạn 34 nói quân Mông Cổ "còn quay lại thêm hai lần nữa". Đây là sự thật về hậu quả, không phải câu hứa "tập sau", nên không trái quy tắc "mỗi video trọn gói".
 
 ## Đối chiếu với quy tắc
 | Quy tắc | Tập 4 | Đạt |
@@ -89,6 +119,9 @@ Mở ngay vào khoảnh khắc nguy nhất: vua vừa thua trận, kinh thành s
 | Năm viết bằng chữ | có | ✅ |
 | Gay cấn: có lúc tưởng như giặc sắp thắng | thua ở Bình Lệ Nguyên, mất kinh thành, có người muốn bỏ nước chạy | ✅ |
 | Kể chậm trước cao trào, kể dồn sau | đoạn 19–23 chậm (kinh thành trống, giặc ốm), đoạn 24–29 dồn | ✅ |
+| Không thêm nguyên nhân, chi tiết không có nguồn | đã sửa đoạn 12, 20, 28 | ✅ (sau khi sửa) |
+| Nhận định của nhà nghiên cứu phải nói rõ | đoạn 22 | ✅ (sau khi sửa) |
+| Chức quan lần đầu có giải thích | Trần Nhật Hiệu, Trần Thủ Độ | ✅ (sau khi sửa) |
 | Câu kết: một câu tóm gọn + cảm ơn | 21 chữ | ✅ |
 | Biến cố chính trong khoảng 35–45% | quân Mông Cổ vào chiếm kinh thành ở 40%; trận thua Bình Lệ Nguyên bắt đầu sớm hơn (28%) vì phần bối cảnh chỉ có năm đoạn | ⚠️ chấp nhận |
 | Ba bộ kiểm 0 ❌ | 0 ❌. Cảnh báo: hook có 5 tên riêng trong 25 giây đầu, vài đoạn có 4 tên riêng, ba đoạn có dấu hai chấm | ✅ |

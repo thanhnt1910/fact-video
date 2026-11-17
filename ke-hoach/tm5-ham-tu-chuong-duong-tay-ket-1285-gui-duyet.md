@@ -1,19 +1,19 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-30 đoạn, 823 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+30 đoạn, 825 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
 
 **Hook 1** (mốc 0%)
 
-1. Bắt được một vị tướng giữa trận, giặc không giết ngay mà hỏi ông có muốn làm vương đất Bắc không.
+1. Giặc bắt sống được một vị tướng giữa trận, nhưng không giết ngay mà hỏi ông có muốn làm vương đất Bắc không.
 
 **Hook 2** (mốc 3%)
 
 2. Ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu trả lời ấy đổi lấy cái chết ngay tại chỗ.
 
-**Hook 3** (mốc 5%)
+**Hook 3** (mốc 6%)
 
 3. Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, quân nhà Nguyên đã chiếm kinh thành, và một đạo quân khác của chúng đang từ phía nam đánh lên.
 
@@ -21,7 +21,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 4. Hai đạo quân ấy chỉ còn cách nhau mấy bến sông. Chúng sẽ gặp được nhau, hay bị chặn lại ở chính ba bến sông ấy?
 
-**Gốc rễ** (mốc 12%)
+**Gốc rễ** (mốc 13%)
 
 5. Cuộc chiến bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam.
 6. Mượn đường thì dễ, trả đường mới khó, nên nhà Trần từ chối. Thế là nhà Nguyên có cớ đem quân sang, chia làm hai gọng kìm.
@@ -34,7 +34,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 10. Gọng kìm phía nam cũng khép lại khi Toa Đô đánh ra Nghệ An, Thanh Hóa. Bị ép từ hai đầu, mỗi người phải tự chọn đứng về phía nào.
 11. Trần Bình Trọng chọn làm quỷ nước Nam ở bãi Đà Mạc. Cùng lúc ấy, Trần Ích Tắc, em trai Thượng hoàng, lại chọn dẫn cả nhà sang hàng giặc.
 
-**★ Điểm thấp nhất** (mốc 37%)
+**★ Điểm thấp nhất** (mốc 38%)
 
 12. Hai vua Trần phải xuống thuyền, lánh ra tận vùng biển Thanh Hóa. Đó là lúc gọng kìm siết chặt nhất.
 

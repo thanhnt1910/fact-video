@@ -37,3 +37,4 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 | tm5 bản 6: câu đã hay hơn nhưng "vẫn mang tính liệt kê quá, liệt kê nhiều thì người nghe sẽ nhanh chán" | dựng một câu hỏi xuyên suốt (hai đầu gọng kìm có gặp nhau không), mỗi trận kết bằng việc câu hỏi nghiêng về đâu, bỏ sự việc phụ (xem `thuy-mac-khung.md` mục 1b) | tm5 |
 | "Trong khi chờ, quân của Thoát Hoan…" (chờ gì? câu nhắc tới một việc chưa hề kể) | "Còn ở kinh thành, quân của Thoát Hoan…"; mỗi chữ "chờ", "việc ấy", "điều đó" phải chỉ vào một việc đã kể ở ngay đoạn trước | tm5 |
 | "quân thuyền" (người nghe không hiểu là quân gì) | "đoàn thuyền chiến", "quân đi thuyền", hoặc "thủy quân" kèm lời giải thích | tm5 |
+| "Bắt được một vị tướng giữa trận, giặc…" (ai bắt? chủ ngữ đến muộn sau vế mở đầu) | "Giặc bắt sống được một vị tướng giữa trận, nhưng…"; người làm việc phải đứng đầu câu, nhất là ở câu đầu tiên của video | tm5 |

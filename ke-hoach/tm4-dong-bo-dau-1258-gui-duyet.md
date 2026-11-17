@@ -66,7 +66,7 @@ Chủ kênh nhận xét: "Do Trần Quốc Tuấn coi chung là gì?", "kịch b
 11. Đến ngày mười hai tháng Chạp, họ đã tới Bình Lệ Nguyên, chỉ còn cách kinh thành Thăng Long chừng ba mươi cây số.
 12. Vua Trần Thái Tông tự mình dẫn quân ra chặn, có cả voi chiến đi theo. Nhưng trận ấy, quân Đại Việt yếu thế dần.
 13. Cuối cùng, chỉ còn tướng Lê Phụ Trần một mình một ngựa xông pha giữa trận. Ông khuyên vua tạm lánh, đừng liều đánh tiếp.
-14. Rồi vua nghe theo, rút về sông Lô, rồi lui xuống giữ sông Thiên Mạc ở phía dưới kinh thành.
+14. Vua nghe theo, cho quân rút về sông Lô, rồi lui xuống giữ sông Thiên Mạc ở phía dưới kinh thành.
 15. Kinh thành vì thế bị bỏ trống. Chỉ vài ngày sau, quân Mông Cổ kéo vào chiếm thành.
 16. Đó chính là lúc nhà vua ngồi trên thuyền ở sông Thiên Mạc, hỏi các quan câu hỏi ở đầu câu chuyện.
 17. Người đầu tiên vua tìm đến là em mình, Trần Nhật Hiệu, người đang coi việc quân. Ông không đứng dậy, chỉ lấy tay viết hai chữ sang nhà Tống.
@@ -185,7 +185,7 @@ Lần rà này tìm ra 7 chỗ chưa đạt, đã sửa cả 7:
    - Đoạn 23 có mốc đếm ngược "đúng mười hai ngày sau".
 4. **Lời kể:**
    - Không có từ Hán Việt khó; "lâu thuyền" viết thành "thuyền lớn có lầu".
-   - 9 trên 33 đoạn mở bằng từ nối.
+   - 8 trên 33 đoạn mở bằng từ nối.
 5. **Kỹ thuật:** cả ba bộ kiểm không còn lỗi ❌.
 
 ## Tranh cần vẽ thêm (dự kiến)

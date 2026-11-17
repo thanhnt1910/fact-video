@@ -14,7 +14,7 @@ S=[
 (3,"Đến ngày mười hai tháng Chạp, họ đã tới Bình Lệ Nguyên, chỉ còn cách kinh thành Thăng Long chừng ba mươi cây số."),
 (3,"Vua Trần Thái Tông tự mình dẫn quân ra chặn, có cả voi chiến đi theo. Nhưng trận ấy, quân Đại Việt yếu thế dần."),
 (3,"Cuối cùng, chỉ còn tướng Lê Phụ Trần một mình một ngựa xông pha giữa trận. Ông khuyên vua tạm lánh, đừng liều đánh tiếp."),
-(3,"Rồi vua nghe theo, rút về sông Lô, rồi lui xuống giữ sông Thiên Mạc ở phía dưới kinh thành."),
+(3,"Vua nghe theo, cho quân rút về sông Lô, rồi lui xuống giữ sông Thiên Mạc ở phía dưới kinh thành."),
 (3,"Kinh thành vì thế bị bỏ trống. Chỉ vài ngày sau, quân Mông Cổ kéo vào chiếm thành."),
 (3,"Đó chính là lúc nhà vua ngồi trên thuyền ở sông Thiên Mạc, hỏi các quan câu hỏi ở đầu câu chuyện."),
 (3,"Người đầu tiên vua tìm đến là em mình, Trần Nhật Hiệu, người đang coi việc quân. Ông không đứng dậy, chỉ lấy tay viết hai chữ sang nhà Tống."),

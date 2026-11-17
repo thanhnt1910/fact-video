@@ -1,6 +1,6 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (gửi duyệt)
 
-39 đoạn, 1069 chữ, khoảng 5.7 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+39 đoạn, 1067 chữ, khoảng 5.7 phút. Giọng đọc dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 
 ## Kịch bản
 
@@ -19,7 +19,7 @@
 8. Chiến tranh đã tới trước cửa. Thượng hoàng Trần Thánh Tông bèn mời các bô lão về điện Diên Hồng hỏi nên hòa hay nên đánh, các cụ đều đáp: đánh.
 9. Còn trong quân, binh lính tự thích lên cánh tay hai chữ Sát Thát, nghĩa là giết giặc Mông Cổ. Cuối năm ấy, quân của Thoát Hoan tràn qua biên giới.
 
-### Chương 3: Thăng Long bị chiếm (bắt đầu ở mốc 23%)
+### Chương 3: Thăng Long bị chiếm (bắt đầu ở mốc 24%)
 
 10. Trần Quốc Tuấn, tức Hưng Đạo Đại Vương, đem quân chặn ở biên giới nhưng không giữ nổi. Quân Đại Việt phải lui về Vạn Kiếp, rồi lui tiếp xuống phía nam.
 11. Thế là kinh thành Thăng Long bị bỏ trống. Đầu năm sau, quân nhà Nguyên vào thành, triều đình lánh dần xuống phía nam.
@@ -57,11 +57,11 @@
 31. Lần này, chính hai vua Trần tự đem quân tới. Tháng Năm, quân Đại Việt vây đánh doanh trại của Toa Đô ở Tây Kết.
 32. Rồi doanh trại giặc tan vỡ. Toa Đô bị chém đầu ngay trong trận, còn tướng Ô Mã Nhi chạy thoát ra biển.
 33. Theo sử cũ, khi đầu Toa Đô được đem về, vua Trần Nhân Tông than rằng làm bề tôi nên như người này, rồi cởi áo mình sai đem liệm.
-34. Đó là bến sông thứ ba. Gọng kìm phía nam đã gãy, và Thoát Hoan giờ chỉ còn một mình giữa đất Đại Việt.
+34. Đó là bến sông thứ ba. Gọng kìm phía nam đã gãy, và đạo quân nhà Nguyên ở phía bắc không còn ai để hợp sức.
 
 ### Chương 8: Thoát Hoan tháo chạy (bắt đầu ở mốc 87%)
 
-35. Không còn đường nào khác, Thoát Hoan tháo chạy về phương bắc. Con đường ngắn nhất lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ sẵn.
+35. Thoát Hoan cũng phải tháo chạy về phương bắc. Nhưng đường rút lại đi qua Vạn Kiếp, nơi Trần Quốc Tuấn đã chờ sẵn.
 36. Phục binh đổ ra đánh vào đoàn quân đang chạy. Tướng Lý Hằng che chắn phía sau thì trúng tên độc, rồi chết trên đường về nước.
 37. Còn Thoát Hoan, con trai hoàng đế nhà Nguyên, theo lời kể trong sử cũ, phải chui vào một cái ống đồng cho quân lính khiêng chạy về nước.
 
@@ -116,6 +116,7 @@ Trận phản công đầu tiên (Hàm Tử) bắt đầu ở chương 5, đoạ
 - Hai câu thơ trích từ bài "Tụng giá hoàn kinh sư", bản dịch của Trần Trọng Kim trong Việt Nam sử lược (1920).
 - Toa Đô đánh ở Chiêm Thành từ năm 1283: sử nhà Nguyên.
 - Tây Kết tháng Năm, Toa Đô bị chém, Ô Mã Nhi chạy ra biển, lời vua than và việc cởi áo liệm: Toàn thư. CẦN đối chiếu câu chữ.
+- Thứ tự Tây Kết và cuộc rút chạy của Thoát Hoan: hai việc diễn ra gần nhau trong tháng Năm. Lời đọc không nói Thoát Hoan chạy VÌ Toa Đô chết, chỉ đặt hai việc nối nhau. CẦN đối chiếu ngày trong Toàn thư.
 - Lý Hằng trúng tên độc ở Vạn Kiếp rồi chết trên đường về: Toàn thư và sử nhà Nguyên. Thoát Hoan chui ống đồng: Toàn thư.
 - Nóng, mưa, bệnh tật: sử nhà Nguyên. Lời đọc không nêu tên nguồn này.
 

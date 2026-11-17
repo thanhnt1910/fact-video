@@ -1,1 +1,1 @@
-doc-bd2 Charon lan5
+doc-tm2 Charon tm2 lan1

@@ -5,8 +5,8 @@ K={}
 K['tm5']=dict(ma='tm5',ten='Hàm Tử, Chương Dương, Tây Kết 1285',n_hua=3,loi_hua='ba bến sông chặn hai đầu gọng kìm',
  cau_hoi='Hai đạo quân giặc (bắc, nam) có gặp được nhau không?',soi_chi=['gọng kìm','hai đạo quân','hai đầu'],
  hinh_anh=['quỷ nước Nam'],dem=['đầu tiên','thứ hai','thứ ba'],nhip=[
- N('hook1','Giặc bắt được một vị tướng, không giết ngay mà hỏi có muốn làm vương đất Bắc không','Toàn thư'),
- N('hook2','Ông đáp: thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc; bị giết ngay','Toàn thư'),
+ N('hook1','Câu hỏi hướng vào người nghe: nếu kẻ thù hứa cho bạn làm vương, chỉ cần chịu hàng, bạn sẽ trả lời thế nào?','dựa trên lời dụ hàng chép trong Toàn thư'),
+ N('hook2','Một vị tướng bị bắt đã đáp: thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc; bị giết ngay','Toàn thư'),
  N('hook3','Đó là Trần Bình Trọng; lúc ấy giặc đã chiếm kinh thành, một đạo quân khác đang từ phía nam đánh lên','Toàn thư'),
  N('hook4','Hai đạo quân chỉ còn cách nhau mấy bến sông: gặp được nhau, hay bị chặn ở ba bến sông ấy?','lời hứa'),
  N('goc_re','Đòi mượn đường đánh Chiêm Thành → nhà Trần từ chối → nhà Nguyên có cớ, chia hai gọng kìm (Thoát Hoan ở bắc, Toa Đô ở Chiêm Thành) → Diên Hồng: các cụ đồng thanh đánh → cuối năm gọng bắc khép lại','Toàn thư, Nguyên sử',4),

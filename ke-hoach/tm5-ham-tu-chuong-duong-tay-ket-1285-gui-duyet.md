@@ -1,23 +1,23 @@
 # tm5: Hàm Tử, Chương Dương, Tây Kết 1285 (lời đọc theo khung, gửi duyệt)
 
-30 đoạn, 825 chữ, khoảng 4.4 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
+30 đoạn, 828 chữ, khoảng 4.5 phút. Giọng dự kiến: Charon, hồ sơ C, đọc từng câu. Chưa đọc giọng.
 Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đầu tiên, thứ hai, thứ ba. Hình ảnh xuyên suốt: "quỷ nước Nam".
 
 ## Kịch bản (theo nhịp)
 
 **Hook 1** (mốc 0%)
 
-1. Giặc bắt sống được một vị tướng giữa trận, nhưng không giết ngay mà hỏi ông có muốn làm vương đất Bắc không.
+1. Nếu kẻ thù hứa cho bạn làm vương, chỉ cần bạn chịu hàng, bạn sẽ trả lời thế nào?
 
-**Hook 2** (mốc 3%)
+**Hook 2** (mốc 2%)
 
-2. Ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu trả lời ấy đổi lấy cái chết ngay tại chỗ.
+2. Một vị tướng bị giặc bắt sống đã đáp: ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu ấy đổi lấy cái chết ngay tại chỗ.
 
 **Hook 3** (mốc 6%)
 
 3. Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, quân nhà Nguyên đã chiếm kinh thành, và một đạo quân khác của chúng đang từ phía nam đánh lên.
 
-**Hook 4** (mốc 9%)
+**Hook 4** (mốc 10%)
 
 4. Hai đạo quân ấy chỉ còn cách nhau mấy bến sông. Chúng sẽ gặp được nhau, hay bị chặn lại ở chính ba bến sông ấy?
 
@@ -96,7 +96,7 @@ Lời hứa: **ba bến sông chặn hai đầu gọng kìm**. Câu đếm: đ�
 
 ## Ghi chú độ chắc (nguồn từng nhịp)
 
-- Hook 1: Toàn thư.
+- Hook 1: dựa trên lời dụ hàng chép trong Toàn thư.
 - Hook 2: Toàn thư.
 - Hook 3: Toàn thư.
 - Hook 4: lời hứa.
@@ -128,8 +128,8 @@ Ghi chú thêm:
 
 ## Kết quả bốn bộ kiểm
 
-- `kiem_kich_ban.py`: 0 lỗi ❌, 11 cảnh báo ⚠️
-- `kiem_mach_ke.py`: -> 0 ❌, 10 ⚠️
+- `kiem_kich_ban.py`: 0 lỗi ❌, 13 cảnh báo ⚠️
+- `kiem_mach_ke.py`: -> 0 ❌, 9 ⚠️
 - `kiem_mo_dau.py`: ✅ mở đầu gọn
 - `kiem_khung.py`: -> 0 ❌, 0 ⚠️
 

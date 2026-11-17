@@ -1,8 +1,8 @@
 import sys,os;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)));from viet_chung import xuat2
 # Thủy mặc tập 5 (mã tm5), bản 7: một câu hỏi xuyên suốt (hai đầu gọng kìm có gặp nhau không), bớt sự việc phụ
 S=[
-('hook1',"Giặc bắt sống được một vị tướng giữa trận, nhưng không giết ngay mà hỏi ông có muốn làm vương đất Bắc không."),
-('hook2',"Ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu trả lời ấy đổi lấy cái chết ngay tại chỗ."),
+('hook1',"Nếu kẻ thù hứa cho bạn làm vương, chỉ cần bạn chịu hàng, bạn sẽ trả lời thế nào?"),
+('hook2',"Một vị tướng bị giặc bắt sống đã đáp: ta thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc. Câu ấy đổi lấy cái chết ngay tại chỗ."),
 ('hook3',"Người tướng ấy là Trần Bình Trọng. Lúc ông ngã xuống, quân nhà Nguyên đã chiếm kinh thành, và một đạo quân khác của chúng đang từ phía nam đánh lên."),
 ('hook4',"Hai đạo quân ấy chỉ còn cách nhau mấy bến sông. Chúng sẽ gặp được nhau, hay bị chặn lại ở chính ba bến sông ấy?"),
 ('goc_re',"Cuộc chiến bắt đầu từ một lời đòi. Năm một nghìn hai trăm tám mươi tư, nhà Nguyên đòi mượn đường qua Đại Việt để đánh nước Chiêm Thành ở phía nam."),

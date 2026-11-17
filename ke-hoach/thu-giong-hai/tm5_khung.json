@@ -20,13 +20,13 @@
  "nhip": [
   {
    "nhip": "hook1",
-   "su_viec": "Giặc bắt được một vị tướng, không giết ngay mà hỏi có muốn làm vương đất Bắc không",
-   "nguon": "Toàn thư",
+   "su_viec": "Câu hỏi hướng vào người nghe: nếu kẻ thù hứa cho bạn làm vương, chỉ cần chịu hàng, bạn sẽ trả lời thế nào?",
+   "nguon": "dựa trên lời dụ hàng chép trong Toàn thư",
    "doan": 1
   },
   {
    "nhip": "hook2",
-   "su_viec": "Ông đáp: thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc; bị giết ngay",
+   "su_viec": "Một vị tướng bị bắt đã đáp: thà làm quỷ nước Nam, chứ không thèm làm vương đất Bắc; bị giết ngay",
    "nguon": "Toàn thư",
    "doan": 1
   },

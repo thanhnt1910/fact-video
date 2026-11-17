@@ -38,3 +38,4 @@ Khung (`thuy-mac-khung.md`) quyết định đoạn nào làm gì. Sổ tay này
 | "Trong khi chờ, quân của Thoát Hoan…" (chờ gì? câu nhắc tới một việc chưa hề kể) | "Còn ở kinh thành, quân của Thoát Hoan…"; mỗi chữ "chờ", "việc ấy", "điều đó" phải chỉ vào một việc đã kể ở ngay đoạn trước | tm5 |
 | "quân thuyền" (người nghe không hiểu là quân gì) | "đoàn thuyền chiến", "quân đi thuyền", hoặc "thủy quân" kèm lời giải thích | tm5 |
 | "Bắt được một vị tướng giữa trận, giặc…" (ai bắt? chủ ngữ đến muộn sau vế mở đầu) | "Giặc bắt sống được một vị tướng giữa trận, nhưng…"; người làm việc phải đứng đầu câu, nhất là ở câu đầu tiên của video | tm5 |
+| "chỉ còn cách nhau mấy bến sông… bị chặn ở chính ba bến sông ấy" (câu trước nói "mấy", câu sau nói "ba": số không khớp) | một con số hoặc một sự vật nói nhất quán trong cả đoạn: "Giữa hai đạo quân ấy là dòng sông Hồng… ba bến sông trên chính dòng sông ấy" | tm5 |
